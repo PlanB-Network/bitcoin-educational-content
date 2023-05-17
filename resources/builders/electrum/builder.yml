@@ -1,0 +1,12 @@
+name: Fedi
+links:
+  website: https://electrum.org/#home
+  twitter: https://twitter.com/ElectrumWallet
+  github: https://github.com/spesmilo/electrum
+tags:
+  - Bitcoin-only
+  - layer-2
+  - infrastructur
+
+contributors:
+  - rabbit-hole

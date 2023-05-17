@@ -1,0 +1,13 @@
+name: Fedi
+links:
+  website: https://www.fedi.xyz/
+  twitter: https://twitter.com/fedibtc
+  nostr: npub1uq70uqgas9pyhds2zt57kr9se8rg3s68ztphjnq82ts8rzeknmeql7u0c2
+  
+tags:
+  - Bitcoin-only
+  - layer-2
+  - infrastructur
+
+contributors:
+  - rabbit-hole

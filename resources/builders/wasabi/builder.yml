@@ -1,0 +1,14 @@
+name: Wasabi Wallet
+links:
+  website: https://www.wasabiwallet.io/
+  twitter: https://twitter.com/wasabiwallet
+  github: https://github.com/zkSNACKs/WalletWasabi
+  
+tags:
+  - Bitcoin-only
+  - open-source
+  - wallet
+  - privacy
+  
+contributors:
+  - rabbit-hole

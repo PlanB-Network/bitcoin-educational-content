@@ -1,0 +1,13 @@
+name: BTCPay Server
+links:
+  website: https://btcpayserver.org/
+  twitter: https://twitter.com/BtcpayServer
+  github: https://github.com/btcpayserver/
+
+tags:
+  - Bitcoin-only
+  - marchand
+
+
+contributors:
+  - rabbit-hole

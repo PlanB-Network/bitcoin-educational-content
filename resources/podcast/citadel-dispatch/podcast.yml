@@ -1,0 +1,18 @@
+name: Citadel Dispatch
+host: ODELL
+language: en
+
+links:
+  website: https://citadeldispatch.com/
+  podcast: https://www.podpage.com/citadeldispatch/
+  twitter: https://twitter.com/citadeldispatch
+
+description: |
+  An interactive show about bitcoin and freedom tech.
+
+tags:
+  - bitcoin
+  - technology
+
+contributors:
+  - rabbit-hole

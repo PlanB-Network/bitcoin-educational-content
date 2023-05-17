@@ -1,0 +1,11 @@
+name: My Node
+links:
+  website: https://mynodebtc.com/
+  twitter: https://twitter.com/mynodebtc
+  github: https://github.com/mynodebtc
+tags:
+  - Bitcoin-only
+  - Node
+  - infrastructur
+contributors:
+  - rabbit-hole

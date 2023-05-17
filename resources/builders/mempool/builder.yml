@@ -1,0 +1,14 @@
+name: Mempool.space
+links:
+  website: https://mempool.space/
+  twitter: https://twitter.com/mempool
+  github: https://github.com/mempool
+  nostr: npub18d4r6wanxkyrdfjdrjqzj2ukua5cas669ew2g5w7lf4a8te7awzqey6lt3
+
+tags:
+  - Bitcoin-only
+  - open-source
+  - infrastructur
+
+contributors:
+  - rabbit-hole

@@ -1,0 +1,13 @@
+name: Lightning Network +
+links:
+  website: https://lightningnetwork.plus/
+  twitter: https://twitter.com/BTC_LN
+  github: https://github.com/GaloyMoney
+  nostr: npub17tlh448s3tfdfgymehqdkdn52as59qsrax0n9h58pk54wcmqyc2qklzsxj
+
+tags:
+  - Lightning-infrastructur
+  - lightning-market
+  
+contributors:
+  - rabbit-hole

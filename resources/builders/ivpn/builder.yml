@@ -1,0 +1,13 @@
+name: IVPN
+links:
+  website: https://www.ivpn.net/
+  twitter: https://twitter.com/ivpnnet
+  github: https://github.com/ivpn
+
+tags:
+  - security
+  - open-source
+  - infrastructur
+
+contributors:
+  - rabbit-hole

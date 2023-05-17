@@ -1,0 +1,14 @@
+name: BTC Maps
+links:
+  website: https://btcmap.org/
+  twitter: https://twitter.com/btcmap
+  github: https://github.com/teambtcmap
+  nostr: npub1864jglrrhv6alguwql9pqtmd5296nww5dpcewapmmcazk8vq4mks0tt2tq
+
+tags:
+  - Bitcoin-only
+  - tools 
+  - marchand 
+
+contributors:
+  - rabbit-hole

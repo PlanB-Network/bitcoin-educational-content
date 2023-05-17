@@ -1,0 +1,18 @@
+name: TFTC
+host: Marty Bent
+language: en
+
+links:
+  website: https://tftc.io/
+  podcast: https://podcasts.apple.com/td/podcast/tftc-a-bitcoin-podcast/id1292381204?l=fr
+  twitter: https://twitter.com/TFTC21
+
+description: |
+  TFTC is a podcast hosted by Marty Bent about Bitcoin. Join Marty, Editor in Chief of "the best newsletter in Bitcoin", as he sits down to discuss Bitcoin with interesting people.
+
+tags:
+  - bitcoin
+  - technology
+
+contributors:
+  - rabbit-hole

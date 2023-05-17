@@ -1,0 +1,11 @@
+name: Umbrel
+links:
+  website: https://umbrel.com/
+  twitter: https://twitter.com/umbrel
+  github: https://github.com/getumbrel/umbrel
+
+tags:
+  - Nodes
+  - open-source
+contributors:
+  - rabbit-hole

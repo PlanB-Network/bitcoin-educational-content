@@ -1,0 +1,12 @@
+name: lightning Labs
+links:
+  website: https://lightning.engineering/
+  twitter: https://twitter.com/lightning
+  github: https://github.com/lightningnetwork/lnd
+tags:
+  - Bitcoin-only
+  - open-source
+  - Lightning-infrastructur
+  
+contributors:
+  - rabbit-hole

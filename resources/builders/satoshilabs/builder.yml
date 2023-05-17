@@ -1,0 +1,13 @@
+name: SatoshiLabs
+links:
+  website: https://www.satoshilabs.com/
+  twitter: https://twitter.com/satoshilabs
+  github: https://github.com/trezor
+
+tags:
+  - security-solution
+  - open-source
+  - wallet
+
+contributors:
+  - rabbit-hole

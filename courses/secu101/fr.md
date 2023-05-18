@@ -89,6 +89,43 @@ Team contributeurs:
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
 
+### les VPN
+
+L'hygiène numérique est un aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
+
+Les VPN sont des outils qui chiffrent les données transmises sur internet, rendant ainsi la connexion plus sécurisée. Dans un contexte professionnel, les VPN permettent aux employés d'accéder à distance au réseau interne de l'entreprise de manière sécurisée. Les données échangées sont cryptées, rendant leur interception par des tiers beaucoup plus difficile.
+
+En plus de sécuriser l'accès à un réseau interne, l'utilisation d'un VPN peut permettre à un utilisateur de faire passer sa connexion internet par le réseau interne de l'entreprise, donnant l'impression que sa connexion provient de l'entreprise. Cela peut être particulièrement utile pour accéder à des services en ligne qui sont géographiquement restreints.
+
+Il existe deux types principaux de VPN : les VPN d'entreprise et les VPN grand public, comme NordVPN. Les VPN d'entreprise tendent à être plus coûteux et complexes, tandis que les VPN grand public sont généralement plus accessibles et faciles à utiliser. NordVPN, par exemple, permet aux utilisateurs de se connecter à internet en passant par un serveur situé dans un autre pays, ce qui peut permettre de contourner les restrictions géographiques.
+
+Cependant, l'utilisation d'un VPN grand public ne garantit pas une anonymisation complète. De nombreux fournisseurs de VPN conservent des informations sur leurs utilisateurs, ce qui peut potentiellement compromettre leur anonymat.
+
+Bien que les VPN puissent être utiles pour améliorer la sécurité en ligne, ils ne sont pas une solution universelle. Ils sont efficaces pour certaines utilisations spécifiques, comme l'accès à des services géographiquement limités ou l'amélioration de la sécurité en déplacement, mais ils ne garantissent pas une sécurité totale.
+
+Lors du choix d'un VPN, il est essentiel de privilégier la fiabilité et la technicité plutôt que la popularité. Les fournisseurs de VPN qui recueillent le moins d'informations personnelles sont généralement les plus sûrs. Des services comme iVPN et Mulvad ne recueillent pas d'informations personnelles et permettent même les paiements en Bitcoin pour une confidentialité accrue.
+
+Enfin, un VPN peut également être utilisé pour bloquer les publicités en ligne, offrant ainsi une expérience de navigation plus agréable et sécurisée. Cependant, il est important de faire ses propres recherches pour trouver le VPN le plus adapté à ses besoins spécifiques.
+
+n matière de sécurité en ligne, il est essentiel de comprendre que la 4G est généralement plus sécurisée que le Wi-Fi public. Cependant, l'utilisation de la 4G peut rapidement épuiser votre forfait de données mobiles.
+
+Le protocole HTTPS est devenu la norme pour le chiffrement des données sur les sites web. Il assure que les données échangées entre l'utilisateur et le site web sont sécurisées. Il est donc crucial de vérifier que le site que vous visitez utilise bien le protocole HTTPS.
+
+Dans l'Union européenne, la protection des données est réglementée par le Règlement général sur la protection des données (RGPD). Il est donc plus sûr d'utiliser des fournisseurs européens de points d'accès Wi-Fi, comme la SNCF, qui ne revendent pas les données de connexion des utilisateurs.
+
+Néanmoins, le simple fait qu'un site affiche un cadenas ne garantit pas son authenticité. Il est important de vérifier la clé publique du site à l'aide d'un système de certificats pour confirmer son authenticité.
+
+Bien que le chiffrement des données empêche les tiers d'intercepter les données échangées, il reste possible pour un individu malveillant de se faire passer pour le site et de transférer les données en clair.
+
+Pour éviter les escroqueries en ligne, il est crucial de vérifier l'identité du site sur lequel vous naviguez, en contrôlant notamment l'extension et le nom de domaine. De plus, soyez vigilant face aux escrocs qui utilisent des lettres similaires dans les URL pour tromper les utilisateurs.
+
+L'utilisation d'un VPN est recommandée pour renforcer la sécurité, même lorsqu'on navigue sur internet à domicile. Cela contribue à garantir un niveau de sécurité plus élevé pour les données échangées en ligne.
+
+Enfin, assurez-vous de vérifier les URL et le petit cadenas dans la barre d'adresse pour confirmer que vous êtes bien sur le site que vous pensez visiter.
+
+En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en ligne, tant pour les entreprises que pour les utilisateurs individuels. De plus, la mise en pratique de bonnes habitudes de navigation peut contribuer à une meilleure hygiène numérique. Dans le prochain segment de ce cours, nous aborderons la sécurité de l'ordinateur, y compris les mises à jour, l'antivirus et la gestion des mots de passe.
+
+
 
 ## Tutoriel : IVPN
 ## Chapitre 3 - Utilisation de l’ordinateur
@@ -97,32 +134,21 @@ Team contributeurs:
 
 ### Formation en Cybersécurité : Résumé du Cours
 
-    Sélection de l'OS et de l'ordinateur :
-    La cybersécurité commence par la sélection adéquate du système d'exploitation et de la configuration matérielle. Un système d'exploitation réputé pour sa sécurité et une configuration adaptée aux besoins individuels sont préconisés. Il est également crucial de maintenir le système d'exploitation à jour avec les derniers correctifs de sécurité.
+La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique actuel. Aujourd'hui, nous allons aborder trois points clés : le choix de l'ordinateur, les mises à jour et antivirus pour une sécurité optimale, et enfin, les bonnes pratiques pour la sécurité de son ordinateur et de ses données.
 
-    Établissement de comptes utilisateurs et administrateurs distincts :
-    Pour augmenter la sécurité, il est recommandé de créer un compte utilisateur séparé du compte administrateur. Le compte utilisateur doit être utilisé pour les activités quotidiennes, tandis que le compte administrateur doit être réservé aux tâches nécessitant des privilèges élevés.
+Concernant le choix de l'ordinateur, il n'y a pas de différence significative de sécurité entre les anciens et les nouveaux ordinateurs. Cependant, des différences de sécurité existent entre les systèmes d'exploitation : Windows, Linux et Mac. Il est recommandé de ne pas utiliser un compte administrateur au quotidien, mais plutôt de créer deux comptes distincts : un compte administrateur et un compte pour usage quotidien. Windows est souvent plus exposé aux logiciels malveillants du fait de son grand nombre d'utilisateurs et de la facilité à passer de l'utilisateur à l'administrateur. Par contre, les menaces sont moins nombreuses sous Linux et Mac.
 
-    Ubuntu :
-    Ubuntu est une distribution Linux réputée pour sa sécurité, bénéficiant de mises à jour régulières et d'une large communauté de soutien. Elle peut être une alternative viable pour ceux qui cherchent à renforcer la sécurité de leur système d'exploitation.
+Le choix du système d'exploitation doit être effectué en fonction de vos besoins et de vos préférences. Les systèmes Linux ont considérablement évolué ces dernières années, devenant de plus en plus conviviaux. Ubuntu est une alternative intéressante pour les débutants, avec une interface graphique facile à utiliser. Il est possible de partitionner un ordinateur pour expérimenter avec Linux tout en conservant Windows, mais cela peut se révéler complexe. Il est souvent préférable d'avoir un ordinateur dédié, une machine virtuelle ou une clé USB pour tester Linux ou Ubuntu.
 
-    Partitionnement du disque dur :
-    Il est recommandé de séparer les partitions du disque dur pour protéger les données sensibles et minimiser les dommages en cas d'attaque. Une partition peut être réservée au système d'exploitation, tandis qu'une autre peut être utilisée pour stocker les données personnelles.
+En ce qui concerne les mises à jour et l'antivirus pour une sécurité optimale, la mise à jour régulière du système d'exploitation et des applications est primordiale. Sur Windows 10, les mises à jour sont quasi continues et il est crucial de ne pas les bloquer ou les retarder. Chaque année, environ 15 000 vulnérabilités sont identifiées, ce qui souligne l'importance de maintenir les logiciels à jour pour se prémunir contre les virus. En général, le support logiciel se termine entre 3 et 5 ans après sa sortie, il est donc nécessaire de passer à la version supérieure pour continuer à bénéficier de la sécurité.
 
-    Mise à jour des logiciels :
-    Maintenir tous les logiciels à jour, y compris le système d'exploitation, les applications et les pilotes, est un élément essentiel de la cybersécurité. Les mises à jour corrigent souvent des vulnérabilités de sécurité tout en améliorant les performances du système.
+Windows Defender, l'antivirus intégré à Windows, est une solution sûre et efficace. Il convient de faire preuve de prudence avec les antivirus téléchargés sur Internet, qui peuvent être malveillants ou obsolètes. Linux et Mac, grâce à leur système de séparation des droits des utilisateurs, n'ont souvent pas besoin d'antivirus. Pour ceux qui souhaitent investir dans un antivirus payant, il est recommandé de choisir un antivirus qui analyse intelligemment les menaces inconnues et émergentes, comme Kaspersky. Les mises à jour de l'antivirus sont essentielles pour se protéger contre les nouvelles menaces.
 
-    Protection antivirus :
-    L'utilisation d'un logiciel antivirus fiable est indispensable pour se protéger contre les logiciels malveillants. Un bon antivirus détecte et neutralise les menaces en temps réel et effectue des analyses régulières du système.
+Pour finir, voici quelques bonnes pratiques pour la sécurité de votre ordinateur et de vos données. Il est important de choisir un antivirus efficace et agréable à utiliser. Il est également crucial d'adopter de bonnes pratiques sur son ordinateur, comme ne pas insérer de clés USB inconnues ou trouvées à des endroits suspects. Ces clés USB peuvent contenir des programmes malveillants qui peuvent se lancer automatiquement dès leur insertion. Le contrôle de la clé USB ne servira à rien une fois qu'elle aura été insérée. Certaines entreprises ont été victimes de piratage en raison de clés USB laissées négligemment dans des zones accessibles, comme un parking.
 
-    Précautions avec les clés USB :
-    Les clés USB peuvent transporter des logiciels malveillants. Il est recommandé de ne pas connecter de clés USB inconnues à l'ordinateur et de toujours analyser les clés USB avec un logiciel antivirus avant leur utilisation.
+Traitez votre ordinateur comme vous le feriez pour votre maison : restez vigilant, effectuez des mises à jour régulièrement, supprimez les fichiers inutiles et utilisez un mot de passe solide pour la sécurité. Il est crucial de chiffrer les données sur les ordinateurs portables et les smartphones pour prévenir tout vol ou perte de données. BitLocker pour Windows, Lux pour Linux et l'option intégrée pour Mac sont des solutions pour le chiffrement des données. Il est recommandé d'activer sans hésitation le chiffrement des données et de noter le mot de passe sur un papier à conserver en lieu sûr.
 
-    Sécurisation par mot de passe :
-    L'adoption de mots de passe robustes et uniques pour tous les comptes et appareils est cruciale. Les mots de passe forts contiennent une combinaison de lettres majuscules et minuscules, de chiffres et de caractères spéciaux. L'utilisation d'un gestionnaire de mots de passe peut faciliter la création et le stockage de mots de passe sécurisés.
-
-    Chiffrement du disque dur :
-    Le chiffrement du disque dur peut protéger les données en cas de vol ou d'accès non autorisé à l'ordinateur. En rendant les données illisibles sans la clé de déchiffrement correcte, le chiffrement assure la confidentialité des informations sensibles. Des outils de chiffrement intégrés au système d'exploitation ou des logiciels tiers peuvent être utilisés pour ce faire.
+En conclusion, il est primordial d'opter pour un système d'exploitation adapté à vos besoins et de le mettre à jour régulièrement, ainsi que les applications qui y sont installées. Il est aussi essentiel d'utiliser un antivirus efficace et agréable à l'usage, et d'adopter de bonnes pratiques pour la sécurité de votre ordinateur et de vos données.
 
 
 ## Tutoriel : Ubuntu

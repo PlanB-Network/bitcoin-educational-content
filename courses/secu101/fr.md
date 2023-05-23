@@ -74,7 +74,31 @@ Team contributeurs:
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
 
+Sécurité 101 : Raffinement de votre Hygiène Numérique
 
+Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, sans prérequis informatiques nécessaires. C'est avec grand plaisir que je vous présente mes collègues experts, Théo et Renaud, qui nous accompagneront dans ce voyage éducatif.
+
+Notre objectif principal est de vous fournir les connaissances et les compétences nécessaires pour naviguer de manière plus sûre et plus privée dans le monde numérique. Pour commencer, Renaud nous donne un conseil précieux : adopter progressivement une attitude de méfiance prudente. C'est une approche cruciale qui doit être appliquée dans de nombreux aspects de la sécurité numérique.
+
+### Section 1: Théorie - Navigation Sécurisée, Évitement des Liens Dangereux et Protection de la Vie Privée en ligne
+
+Dans cette première section, nous aborderons les aspects théoriques de la sécurité numérique. Nous discuterons de la navigation sécurisée, de l'évitement des liens dangereux et de la protection de la vie privée en ligne. Comprendre comment identifier un lien potentiellement malveillant et protéger sa vie privée sont des éléments essentiels pour se protéger contre les menaces de cybersécurité.
+
+Nous explorerons des conseils pratiques pour vérifier la source des liens avant de cliquer dessus et pour utiliser des outils tels que les navigateurs web privés, les réseaux privés virtuels (VPN) et les pare-feu.
+
+### Section 2: Pratique - Gestion des Identifiants et des Mots de Passe, Boîtes Mail et Authentification à Deux Facteurs
+
+Dans cette deuxième section pratique, nous aborderons la gestion des identifiants et des mots de passe, ainsi que d'autres aspects importants de la sécurité numérique. Nous examinerons les bonnes pratiques pour gérer vos identifiants et mots de passe de manière sécurisée, en utilisant des gestionnaires de mots de passe. Nous discuterons également de l'importance de protéger vos boîtes mail contre les attaques et les intrusions.
+
+Nous vous présenterons des outils et des techniques pour créer des mots de passe robustes et uniques pour chaque compte, et nous vous expliquerons comment utiliser un gestionnaire de mots de passe pour gérer efficacement vos informations d'identification. De plus, nous aborderons l'authentification à deux facteurs (2FA) comme une mesure de sécurité supplémentaire pour protéger vos comptes en ligne.
+
+En comprenant et en appliquant ces pratiques de gestion des identifiants, des mots de passe, des boîtes mail et de l'authentification à deux facteurs, vous renforcerez considérablement la sécurité de vos informations en ligne.
+
+Section Bonus: Interview avec Pantamis et Renaud
+
+En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. Ne manquez pas cette occasion d'en apprendre davantage auprès de ces professionnels expérimentés.
+
+Ce programme de formation est offert gratuitement sous une licence redistribuable. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit en trois langues.
 
 # SECTION 1 - Théorie
 
@@ -82,6 +106,33 @@ Team contributeurs:
 
 ![navigation en ligne](https://youtu.be/BEK7vGnkO64)
 
+### Les erreurs courantes lors de la navigation sur internet et comment les éviter
+
+Lors de la navigation sur internet, il est important d'éviter certaines erreurs courantes pour préserver sa sécurité en ligne. Voici quelques conseils pour les éviter :
+
+    Erreur liée aux téléchargements de logiciels : Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques. Il est également conseillé de privilégier les logiciels open source et gratuits, car ils sont souvent plus sûrs et exempts de logiciels malveillants.
+
+    Erreur liée aux navigateurs web : Il existe deux grandes familles de navigateurs, ceux basés sur Chrome et ceux basés sur Firefox. Bien que les deux familles de navigateurs offrent un niveau de sécurité similaire, il est conseillé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Il peut être nécessaire d'utiliser différents navigateurs pour accéder à certains sites. L'utilisation du navigateur Brave peut être recommandée en raison de son bloqueur de publicités intégré. Il est également important de limiter le nombre d'extensions installées pour éviter les problèmes de sécurité et de performance.
+
+    Erreur liée à la gestion des cookies : Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Certains sites nécessitent l'utilisation de cookies pour fonctionner correctement, cependant, il est important de noter que les cookies peuvent également être partagés avec des sites tiers à des fins de suivi publicitaire. Selon les réglementations telles que le RGPD, il est possible de refuser les cookies de suivi tiers. Il est recommandé d'accepter uniquement les cookies nécessaires au bon fonctionnement du site et de supprimer les cookies une fois que vous avez quitté le site, en utilisant une extension ou un programme dédié à la gestion des cookies.
+
+### Les navigateurs web : choix, sécurité et gestion des cookies
+
+Nous avons déjà mentionné que les navigateurs basés sur Chrome et Firefox offrent un niveau de sécurité similaire, mais il est recommandé d'éviter le navigateur Chrome de Google en raison de ses trackers. Il peut être nécessaire d'utiliser plusieurs navigateurs pour accéder à certains sites, et Brave peut être préféré pour son bloqueur de publicité intégré.
+
+En ce qui concerne la gestion des cookies, il est important de refuser les cookies de suivi tiers tout en acceptant les cookies nécessaires au fonctionnement du site. Après avoir quitté un site, il est conseillé de supprimer les cookies associés à celui-ci à l'aide d'une extension ou d'un programme dédié.
+
+Certains navigateurs permettent de supprimer les cookies ou les sessions de manière sélective. Cependant, il est important de trouver le bon équilibre entre praticité, facilité d'utilisation et sécurité. Il convient de noter que même si vous supprimez les cookies, il est possible que les informations collectées par les cookies de différents sites soient encore interconnectées.
+
+En gardant à l'esprit ces recommandations pour le choix des navigateurs, la gestion des cookies et la sécurité en ligne, vous serez en mesure de naviguer sur internet de manière plus sûre et de protéger votre vie privée.
+
+### 3.  La navigation privée, TOR et autres alternatives pour une navigation plus sécurisée et anonyme
+
+La navigation privée, bien qu'elle ne cache pas la navigation à votre fournisseur d'accès Internet, permet de ne pas laisser de traces locales sur votre ordinateur. Les cookies sont automatiquement supprimés à la fin de chaque session, ce qui permet d'accepter tous les cookies sans être suivi. La navigation privée peut être utile lors de l'achat de services en ligne, car les sites web suivent nos habitudes de recherche et ajustent les prix en conséquence. Cependant, il est important de noter que la navigation privée est recommandée pour des sessions temporaires et spécifiques, et non pour une utilisation générale de navigation sur Internet.
+
+Une alternative plus avancée est le réseau TOR (The Onion Router), qui offre l'anonymat en masquant l'adresse IP de l'utilisateur et en permettant l'accès au Darknet. TOR Browser est un navigateur spécialement conçu pour utiliser le réseau TOR. Il permet de visiter à la fois des sites web conventionnels et des sites web en .onion, qui sont généralement exploités par des individus et peuvent être de nature illégale.
+
+TOR est légal et est utilisé par des journalistes, des activistes de la liberté et d'autres personnes souhaitant échapper à la censure dans des pays autoritaires. Cependant, il est important de comprendre que TOR ne sécurise pas les sites visités ni l'ordinateur lui-même. De plus, l'utilisation de TOR peut ralentir la connexion Internet car les données passent par les ordinateurs de trois autres personnes avant d'atteindre leur destination. Il est également essentiel de noter que TOR n'est pas une solution infaillible pour garantir l'anonymat à 100% et ne doit pas être utilisé pour mener des activités illégales.
 
 
 ## Tutoriel : BRAVE
@@ -182,10 +233,41 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
 
 
+
+Dans cette section, nous aborderons trois sujets essentiels pour assurer la sécurité des accès en ligne : la gestion des mails, l'utilisation d'un gestionnaire de mots de passe et l'authentification à deux facteurs (2FA).
+
+### Choix du fournisseur de messagerie et gestion des adresses mail
+
+La gestion adéquate de nos adresses mail est cruciale pour assurer la sécurité de nos accès en ligne. Il est important de choisir un fournisseur de messagerie sécurisé et respectueux de la vie privée. Par exemple, ProtonMail est un service de messagerie sécurisé et respectueux de la vie privée.
+
+Lors du choix d'un fournisseur de messagerie et de la création d'un mot de passe, il est essentiel de ne jamais réutiliser le même mot de passe pour différents services en ligne. Il est recommandé de créer de nouvelles adresses mail régulièrement et de séparer les utilisations en utilisant différentes adresses mail.
+
+Il est préférable d'opter pour un service de messagerie sécurisé pour les comptes critiques. Il convient également de noter que certains services limitent la longueur des mots de passe, il est donc important de faire attention à cette limitation. Des services sont également disponibles pour la création d'adresses mail temporaires, qui peuvent être utilisées pour des comptes à durée limitée.
+
+Il est important de prendre en considération que les anciens fournisseurs de messagerie tels que La Poste, Arobase, Wig, Hotmail, sont toujours utilisés, mais leurs pratiques de sécurité peuvent être moins bonnes que celles de Gmail. Par conséquent, il est recommandé d'avoir deux adresses mail distinctes, l'une pour les communications générales et l'autre pour la récupération de compte, cette dernière devant être mieux sécurisée.
+
+Il est préférable d'éviter de mélanger l'adresse mail avec son opérateur téléphonique ou fournisseur d'accès internet, car cela peut constituer un vecteur d'attaque.
+Sécurisation des adresses mail et utilisation de Have I Been Pwned pour vérifier les fuites de données
+
+Il est conseillé d'utiliser le site Have I Been Pwned (Avez-vous été piraté) pour vérifier si notre adresse mail a été compromise et pour être avertis des futures fuites de données. Une base de données piratée peut être exploitée par des pirates pour envoyer des mails de phishing ou réutiliser des mots de passe compromis.
+
+Le site Have I Been Pwned permet de vérifier si notre adresse mail a été compromise sans communiquer directement cette adresse. Il est donc recommandé de créer une deuxième adresse mail à des fins de sécurité supplémentaire.
+
+Les mails sont un moyen de communication qui devrait continuer à être utilisé pendant longtemps. Cependant, il est crucial de sécuriser nos mots de passe et de mettre en place une authentification à deux facteurs pour renforcer la sécurité de nos comptes mail.
+
+
+
 ## Tutoriel : création compte ProtonMail
 ## Chapitre 6 - Gestionnaire de mots de passe
 
 ![gestionaire de mots de passe](https://youtu.be/HzLuZ6noePY)
+
+
+Pour garantir la sécurité de votre compte, il est crucial de créer des mots de passe forts et sécurisés. La longueur du mot de passe n'est pas suffisante pour assurer sa sécurité. Les caractères doivent être complètement aléatoires afin de résister aux attaques par force brute. L'indépendance des événements est également importante pour éviter les combinaisons les plus probables. Les mots de passe courants tels que "password" sont facilement compromis.
+
+Pour créer un mot de passe fort, il est recommandé d'utiliser un grand nombre de caractères aléatoires, sans utiliser de mots ou de motifs prévisibles. Il est également essentiel d'inclure des chiffres et des caractères spéciaux. Cependant, il convient de noter que certains sites peuvent restreindre l'utilisation de certains caractères spéciaux. Les mots de passe qui ne sont pas générés de manière aléatoire sont faciles à deviner. Les variantes ou les ajouts aux mots de passe ne sont pas sécurisés. Les sites web ne peuvent pas garantir la sécurité des mots de passe choisis par les utilisateurs.
+
+Les mots de passe générés de manière aléatoire offrent un niveau de sécurité supérieur, bien qu'ils puissent être plus difficiles à retenir. Les gestionnaires de mots de passe peuvent générer des mots de passe aléatoires plus sécurisés. En utilisant un gestionnaire de mots de passe, vous n'avez pas besoin de mémoriser tous vos mots de passe. Il est important de remplacer progressivement vos anciens mots de passe par ceux générés par le gestionnaire, car ils sont plus forts et plus longs. Assurez-vous que le mot de passe maître de votre gestionnaire de mots de passe est également fort et sécurisé.
 
 
 ## Tutoriel : création d’un mot de passe maître
@@ -195,7 +277,13 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 
 ![les 2FA](https://youtu.be/863n4N1XNjk)
 
+Les différentes options pour l'authentification forte offrent des niveaux de sécurité variables. Les SMS ne sont pas considérés comme la meilleure option car ils ne fournissent qu'une preuve de possession d'un numéro de téléphone. Le 2FA (authentification à deux facteurs) est plus sécurisé car il utilise plusieurs types de preuves, tels que la connaissance, la possession et l'identification. Les codes one-time passwords (HOTP et TOTP) sont plus sûrs que les SMS car ils nécessitent un calcul cryptographique et sont stockés localement plutôt que dans la mémoire. Les jetons matériels, tels que les clés USB ou les cartes à puce, offrent une sécurité optimale en générant une clé privée unique pour chaque site et en vérifiant l'URL avant d'autoriser la connexion.
 
+Pour une sécurité optimale avec l'authentification forte, il est recommandé d'utiliser une adresse mail sécurisée, un gestionnaire de mots de passe sécurisé et d'adopter un 2FA en utilisant des UBKey. Il est également conseillé d'acheter deux UBKey pour prévoir la perte ou le vol. La biométrie peut être utilisée comme un substitut, mais elle est moins sécurisée que la combinaison de la connaissance et de la possession. Les données biométriques doivent rester sur l'appareil d'authentification et ne pas être divulguées en ligne. Il est important de prendre en compte le modèle de menace associé aux différents moyens d'authentification et d'adapter sa pratique en conséquence.
+
+Les jetons d'authentification forte, tels que FIDO, 2F et WebAuthn, associés à un mot de passe, offrent un haut niveau de sécurité. Il est recommandé d'avoir deux jetons et de conserver un exemplaire de sauvegarde à la fois chez soi et sur soi. Le chiffrement et l'authentification sont des concepts différents en cryptographie. Pour sécuriser les données, il est essentiel de mettre en place le 2FA et d'utiliser des solutions telles que OTI, Google Authenticator et les YubiKey.
+
+En conclusion, comprendre les différentes options d'authentification forte et choisir la méthode la mieux adaptée sont essentiels pour protéger nos données. Merci d'avoir assisté à cette présentation et n'oubliez pas de suivre les ressources disponibles pour plus d'informations et de formations sur le sujet.
 
 ## Tutoriel : des solutions 2FA et Yubikey
 
@@ -208,3 +296,33 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 
 ![industrie](https://youtu.be/RVjE-KOSKDs)
 
+### Gestion efficace des mots de passe et renforcement de l'authentification: une approche académique
+
+Dans le module de formation "Sécurité 101" proposé par Découvre Bitcoin au sein de l'Académie, nous avons abordé l'importance des gestionnaires de mots de passe. Trois dimensions sont essentielles à considérer : la création, l'actualisation et l'implémentation des mots de passe sur les sites web.
+
+Il est généralement déconseillé de recourir à des extensions de navigateur pour le remplissage automatique des mots de passe. Ces outils sont susceptibles de rendre l'utilisateur plus vulnérable face aux attaques de type phishing. Renaud, expert reconnu en cybersécurité, privilégie une gestion manuelle via KeePass, ce qui implique un copier-coller manuel du mot de passe. Les extensions tendent à augmenter la surface d'attaque, peuvent ralentir les performances du navigateur et présentent par conséquent un risque non négligeable. Ainsi, l'usage minimal d'extensions sur le navigateur est une pratique recommandée.
+
+Les gestionnaires de mots de passe encouragent généralement l'usage de facteurs d'authentification supplémentaires, comme l'authentification à deux facteurs. Pour une sécurité optimale, il est conseillé de conserver les OTP (One-Time Passwords) sur son appareil mobile. AndoTP offre une solution open source pour générer et stocker les codes OTP sur son téléphone. Si Google Authenticator permet l'exportation des graines de codes d'authentification, la confiance accordée à la sauvegarde sur un compte Google reste limitée. Les applications OTI et AndoTP sont donc préconisées pour une gestion autonome des OTP.
+
+La question de l'héritage numérique et du deuil numérique soulève l'importance d'avoir une procédure pour transmettre les mots de passe après le décès d'une personne. Un gestionnaire de mots de passe facilite cette transition en stockant de manière sécurisée tous les secrets numériques en un seul endroit. Le gestionnaire de mots de passe permet également d'identifier tous les comptes ouverts et de gérer leur fermeture ou transfert. Il est recommandé d'inscrire le mot de passe maître sur un papier, mais il convient de le conserver dans un endroit dissimulé et sécurisé. Si le disque dur est chiffré et l'ordinateur verrouillé, le mot de passe ne sera pas accessible, même en cas de cambriolage.
+
+### Vers une ère post-mot de passe : exploration des alternatives crédibles
+
+Les mots de passe, bien qu'omniprésents, comportent de nombreux inconvénients, notamment la possibilité de transmission risquée lors du processus d'authentification. Des entreprises de premier plan comme Microsoft et Apple proposent des alternatives innovantes telles que la biométrie et les jetons matériels, indiquant une tendance progressive vers l'abandon des mots de passe.
+
+Passkeys, par exemple, offre des clés aléatoires chiffrées, conjuguées à un facteur local (biométrie ou NIP), qui sont hébergées par un fournisseur, mais qui restent hors de sa portée. Bien que cela nécessite une mise à jour des sites internet, l'approche supprime le besoin de mots de passe, offrant ainsi un niveau de sécurité élevé sans les contraintes associées aux mots de passe traditionnels ou la problématique de la gestion du coffre-fort numérique.
+
+Passkiz est une autre alternative viable et sécurisée pour la gestion des mots de passe. Néanmoins, une question majeure demeure : celle de la disponibilité en cas de défaillance du fournisseur. Il serait donc souhaitable que les géants de l'internet proposent des systèmes pour garantir cette disponibilité.
+
+L'authentification directe sur le service concerné constitue une option intéressante pour ne plus dépendre d'un tiers. Toutefois, le SSO (Single Sign-On) proposé par les géants de l'internet pose également des problèmes en termes de disponibilité et de risques de censure. Afin d'éviter les fuites de données, il est crucial de minimiser la quantité d'informations recueillies lors du processus d'authentification.
+
+### La sécurité informatique : impératifs de pratiques sûres et risques liés à la négligence humaine
+
+La sécurité informatique peut être compromise par des pratiques simples et l'utilisation de mots de passe par défaut, tels que "admin". Des attaques sophistiquées ne sont pas toujours nécessaires pour mettre en péril la sécurité informatique. Par exemple, les mots de passe administrateurs d'une chaîne YouTube étaient écrits dans le code source privé d'une entreprise. Les failles de sécurité sont souvent la conséquence de la négligence humaine.
+
+Il est également à noter que l'Internet est très centralisé et largement sous contrôle américain. Le serveur DNS peut être soumis à la censure et emploie souvent des DNS menteurs pour bloquer l'accès à certains sites. DNS est un protocole ancien et insuffisamment sécurisé, ce qui peut entraîner des problèmes de sécurité. De nouveaux protocoles, tels que DNSsec, sont apparus mais sont encore peu utilisés. Pour contourner la censure et le blocage des publicités, il est possible de choisir des fournisseurs DNS alternatifs.
+
+Des alternatives aux publicités intrusives incluent Google DNS, OpenDNS et d'autres services indépendants. Le protocole DNS standard laisse les requêtes DNS visibles pour le fournisseur d'accès à Internet. DOH (DNS over HTTPS) et DOT (DNS over TLS) permettent de chiffrer la connexion DNS, offrant une plus grande confidentialité et sécurité. Ces protocoles sont largement utilisés en entreprise en raison de leur sécurité renforcée et sont nativement supportés par Windows, Android et iPhone. Pour utiliser DOH et DOT, un nom d'hôte TLS doit être saisi à la place d'une adresse IP. Les fournisseurs gratuits de DOH et DOT sont disponibles en ligne. DOH et DOT améliorent la confidentialité et la sécurité en évitant les attaques de type "man in the middle".
+Autres considérations clés
+
+Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.

@@ -19,15 +19,11 @@ Bonne découverte !
 
 
 Qu’allez-vous apprendre durant ce cours ?
-N
+
 Le fonctionnement technique du réseau via l'ouverture et la fermeture de canaux
-N
 La gestion de la liquidité et les frais LNN
-N
 Comprendre les termes tels que HTLC, LNURL et UTXO
-N
 Comprendre que le lightniong Network est un réseau
-N
 L'utilisation théorique du Lightning Network
 
 
@@ -94,7 +90,6 @@ Exemple : – Alice a 100 000 SAT – Bob a 30 000 SAT C’est donc l’état ac
 ## 2. Bitcoin, adresses, UTXO et transactions 
 
 ![bitcoin, adresses, utxo et transactions](https://youtu.be/cadCJ2V7zTg)
-
 
 
 Dans ce second épisode, un peu hors série, nous prenons le temps d’étudier comment fonctionnent réellement les transactions Bitcoin, ce qui nous sera bien utile pour comprendre Lightning. Nous nous attardons aussi un instant sur la notion d’adresse multi-signature, qui est capitale pour comprendre le prochain épisode, qui sera consacré à l’ouverture de canaux sur le Lightning Network. – Clé privée > Clé publique > Adresse Lors d’une transaction, Alice envoie de l’argent à Bob. Ce dernier fournit une adresse donnée par sa clé publique. Alice qui a elle-même reçu l’argent sur une adresse via sa clé publique utilise désormais sa clé privée pour signer la transaction et ainsi débloquer les bitcoins de l’adresse. – Lors d’une transaction, dans Bitcoin tous les bitcoins doivent bouger. Nommé UTXO (Unspend Transaction Output), les bouts de bitcoin vont tous partir quitte à retourner après chez le propriétaire même :
@@ -263,7 +258,6 @@ Pour Susie ou Eden : ils ne savent pas qui est le destinataire final, ni celui q
 Ceci est un routage en oignon. Le nœud doit donc garder un plan du réseau pour trouver sa route, mais aucun des intermédiaires n’a d’information.
 
 
-
 ## 8. HTLC 
 
 ![HTLC](https://youtu.be/-JC4mkq7H48)
@@ -371,7 +365,6 @@ Alice n’a pas vu l’échec de la route 1, elle a juste attendu 1 seconde de p
 Bob connait la liquidé des canaux 5 et 3 car il est directement connecté avec, il peut indiquer ça à Alice. Il prévient Alice que le nœud 3 est inutile, ça évite à Alice de potentiellement faire sa route.
 
 Un autre élément serait les canaux privé (donc non publiés au réseaux) que Bob peut avoir. Si Bob a un canal privé avec 1, il peut dire à Alice de l’utiliser et ça donnerait Alice > 1 > Bob
-
 
 
 ## 10. Invoice, LNURL, Keysend 
@@ -484,8 +477,6 @@ Bisous et à très bientôt !
 Rogzy
 
 ## allez plus loins ressource
-
-
 
 Félicitations ! Vous avez terminé la formation LN 201 – Introduction au Lightning Network 😀 Vous pouvez être fier de vous car ce n’est pas facile : sachez que peu sont les personnes qui descendent aussi bas dans le terrier du Bitcoin.
 

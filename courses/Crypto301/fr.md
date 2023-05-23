@@ -243,42 +243,132 @@ Il est essentiel de comprendre comment calculer manuellement une adresse de réc
 
 ![4.1 – Évolution des portefeuilles Bitcoin](https://youtu.be/6tmu1R9cXyk)
 
+Le portefeuille HD est un outil crucial dans le monde des crypto-monnaies. Son unicité réside dans son utilisation d'une clé privée de 256 bits, offrant ainsi une multitude de possibilités. Il est également connu comme un portefeuille JBOC (Just a Bunch of Keys), ce qui le rend facile à utiliser et à stocker.
+
+Cependant, des contraintes d'utilisation existent pour le portefeuille HD, en particulier en ce qui concerne la sauvegarde unique des informations essentielles au fonctionnement du portefeuille. C'est ici que les différents BIP (Bitcoin Improvement Proposals) interviennent.
+
+Le BIP32, publié en 2012, a introduit le concept de portefeuille déterministe hiérarchique ou HD. L'idée était de dériver les clés privées de manière déterministe et hiérarchique, ce qui facilite la sauvegarde de toutes les clés de votre portefeuille.
+
+Par la suite, le BIP39 a introduit la phrase mémonique de 24 mots, facilitant encore plus la sauvegarde de toutes les clés de votre portefeuille. Le BIP38 a proposé l'utilisation d'une phrase de passe sur des paires de clés uniques, avant que le BIP39 ne l'applique aussi au portefeuille HD. Le BIP43, quant à lui, a défini une standardisation de la structure du portefeuille HD et le BIP44 a établi les schémas de hiérarchisation pour le portefeuille HD.
+
+Les chapitres 4 et 5 exploreront en détail toutes les étapes de dérivation du portefeuille HD.
+
+Enfin, nous étudierons l'information aléatoire pour le portefeuille HD. L'entropie et la définition d'un nombre aléatoire sont des éléments clés pour garantir la sécurité de votre portefeuille HD.
+
+En résumé, les BIP32 et BIP39 sont particulièrement importants dans la définition des portefeuilles HD. Le portefeuille HD dérive toutes les clés enfants à partir d'une information unique, supposée être aléatoire ou pseudo-aléatoire, à la base du portefeuille. De plus, le BIP32 est un nouveau standard pour les portefeuilles déterministes hiérarchiques dans l'écosystème des crypto-monnaies et est aujourd'hui utilisé sur tous les portefeuilles, qu'ils soient spécialisés sur certaines crypto-monnaies, multicoin ou bitcoin only.
+
+J'espère que ce cours vous a aidé à approfondir votre compréhension du portefeuille HD et de ses différentes caractéristiques.
+
 
 ## 4.2 – Entropie et nombre aléatoire
 
 ![4.2 – Entropie et nombre aléatoire](https://youtu.be/k18yH18w2TE)
 
-# Soutiens la formation !
+La sécurité des clés privées est fondamentale pour assurer la sécurité des transactions Bitcoin. Les clés privées doivent être générées de manière aléatoire pour prévenir les vulnérabilités liées à la prédictibilité. Cependant, la génération constante de nouvelles clés privées peut s'avérer fastidieuse pour l'utilisateur.
+
+### Génération de nombres aléatoires en cryptographie
+
+Une solution à cette difficulté est le portefeuille déterministe hiérarchique (HD), qui permet une dérivation déterministe et hiérarchique des paires de clés enfants à partir d'une seule et unique information située à la base du portefeuille. Pour garantir la sécurité des clés dérivées, cette information doit être aléatoire.
+
+La génération de nombres aléatoires est fondamentale en cryptographie et est essentielle pour assurer la sécurité des clés privées. Pour être sécurisée et éviter toute vulnérabilité liée à la prédictibilité, une clé privée doit être aléatoire.
+
+Utiliser une nouvelle paire de clés pour chaque transaction peut également renforcer la sécurité, mais cela complique la sauvegarde et assure une préservation partielle de la vie privée. En résumé, la sécurité des clés privées est une nécessité absolue et requiert une génération aléatoire rigoureuse. Le portefeuille HD offre une solution pour simplifier la génération et la gestion des clés tout en maintenant un niveau de sécurité élevé.
+
+
+### Importance de l'aléatoire dans la génération de clés privées pour Bitcoin
+
+L'importance de l'aléatoire dans la génération de clés privées pour Bitcoin ne peut pas être sous-estimée. La génération d'un nombre aléatoire est essentielle pour garantir la sécurité des clés privées et pour générer de nouvelles clés à partir d'une seule information à la base du portefeuille Bitcoin.
+
+Cependant, la génération de nombres aléatoires sur les ordinateurs pose un problème, car les résultats ne sont pas vraiment aléatoires. C'est pour cette raison qu'il est indispensable d'utiliser un générateur de nombres aléatoires (RNG).
+
+Il existe plusieurs types de RNG : les PRNG (Pseudo-Random Number Generators), les TRNG (True Random Number Generators) et les PRNG avec entropie.
+
+Les PRNG avec entropie utilisent des sources externes d'informations exploitables sur un ordinateur, mais qui sont physiques et ne dépendent pas de l'ordinateur lui-même. Les PRNG doivent être statistiquement aléatoires, imprévisibles, résistants même si les résultats précédents sont connus et doivent avoir une période suffisamment longue pour éviter la répétition.
+
+Dans le cas de Bitcoin, les clés privées sont générées à partir d'une seule information à la base du portefeuille, ce qui permet une dérivation déterministe et hiérarchique des paires de clés enfants. L'entropie est le fondement de tout portefeuille HD, mais il n'existe pas de standard pour la génération de ce nombre aléatoire. Par conséquent, la génération de nombres aléatoires est un enjeu de taille dans la sécurisation des transactions Bitcoin.
+
+### Vérification de la génération de clés
+
+L'étape de vérification de la génération de clés est cruciale pour assurer la sécurité et l'authenticité de la génération de nombres aléatoires, une étape fondamentale pour éviter toute vulnérabilité associée à la prévisibilité. L'utilisation de portefeuilles open source est fortement recommandée pour permettre cette vérification.
+
+Il faut néanmoins noter que certains portefeuilles matériels peuvent être "closed source", ce qui rend impossible la vérification de la génération du nombre aléatoire. Une solution pourrait être de générer soi-même sa phrase mémonique avec des dés, bien que cette méthode puisse présenter des risques. L'utilisation d'une passphrase générée aléatoirement peut aider à atténuer ces risques.
+
+Un exemple de cette méthode serait l'option "dice roll" offerte par CoinKit pour générer des phrases mémoniques. Une autre méthode serait d'utiliser une information initiale très large et de réduire cette information à 256 bits avec la fonction de hachage SHA-256, ce qui pourrait générer un bon nombre aléatoire. Il est à noter que la fonction de hachage SHA-256 résiste aux collisions, à la falsification, et aux attaques de pré-image et de seconde pré-image.
+
+En conclusion, l'aléatoire joue un rôle central dans la cryptographie et l'informatique, et la capacité à générer de l'aléatoire de manière sécurisée est cruciale pour garantir la sécurité des clés privées et des transactions dans Bitcoin. L'entropie, qui est à la base du portefeuille HD de Bitcoin
+
+
+## Soutiens la formation !
+
+Partage cette formation sur tes réseaux, ca nous aide beaucoup ! oui lounes et muriel faut un truc standard. 
+
 
 ## 4.3 – La phrase mnémonique
 
-https://youtu.be/uJERqH9Xp7I
+![4.3 – La phrase mnémonique](https://youtu.be/uJERqH9Xp7I)
+
+
+La sécurité d'un portefeuille Bitcoin est primordiale pour tout utilisateur. Pour assurer la sauvegarde du portefeuille, il est essentiel de générer une phrase mémonique à partir de l'entropie et de la checksum.
+
+L'entropie est à la base de la sécurité du portefeuille HD. Il existe plusieurs méthodes pour générer cette entropie, notamment à travers des générateurs de nombres pseudo-aléatoires (PRNG), des générateurs de nombres aléatoires véritables (TRNG) ou manuellement. Il est fondamental que cette entropie soit aléatoire ou pseudo-aléatoire pour garantir la sécurité du portefeuille.
+
+La checksum, de son côté, permet de confirmer l'exactitude de la phrase de récupération. Sans cette checksum, une erreur dans la phrase pourrait générer un portefeuille différent et entraîner la perte des fonds. La checksum est obtenue en passant l'entropie par la fonction SHA256 et en récupérant les 8 premiers bits du hachage.
+
+Il existe différents standards pour la phrase mémonique selon la taille de l'entropie. Le standard le plus couramment utilisé pour une phrase de récupération de 24 mots est une entropie de 256 bits. La taille de la checksum est déterminée en divisant la taille de l'entropie par 32.
+
+À titre d'exemple, une entropie de 256 bits donne une checksum de 8 bits. Ensuite, la concaténation de l'entropie et de la checksum donne respectivement des tailles de 128 bits, 160 bits, etc. En fonction de la taille de l'entropie, la phrase de récupération comprendra 12 mots pour 128 bits, 15 mots pour 160 bits et 24 mots pour 256 bits.
+
+Les bits sont convertis en phrases en associant chaque segment à un mot provenant d'une liste de 2048 mots. Il est important de noter qu'aucun mot ne présente les quatre premières lettres dans le même ordre.
+
+La sauvegarde de la phrase de récupération de 24 mots est essentielle pour maintenir l'intégrité du portefeuille Bitcoin. Les deux standards les plus courants sont ceux avec une entropie de 128 ou 256 bits et une concaténation de 12 ou 24 mots. La passphrase est une option supplémentaire pour renforcer la sécurité du portefeuille.
+
+En conclusion, la génération d'une phrase mémonique pour la sécurisation du portefeuille Bitcoin est un processus crucial. Les standards de la phrase mémonique doivent être respectés en fonction de la taille de l'entropie. La sauvegarde de la phrase de récupération de 24 mots est primordiale pour éviter toute perte de fonds. Merci de votre attention et à bientôt pour le prochain cours sur la crypto-monnaie.
 
 ## 4.4 – Parenthèse sur la passphrase 
 
 
-https://youtu.be/dZkOYO7MXwc
+![4.4 – Parenthèse sur la passphrase ](https://youtu.be/dZkOYO7MXwc)
+
+
+La passphrase est un mot de passe supplémentaire qui peut être ajouté à un portefeuille Bitcoin pour renforcer sa sécurité. C'est un choix optionnel qui revient à l'utilisateur. La passphrase augmente la sécurité d'un portefeuille en ajoutant des informations arbitraires qui, lorsqu'elles sont combinées avec la phrase mémonique, permettent de calculer la graine du portefeuille.
+
+Pour dériver les clés d'un portefeuille HD, la phrase mémonique et la passphrase sont nécessaires. La passphrase est libre et peut atteindre une taille presque infinie. Elle n'est pas incluse dans la phrase mémonique, qui est standardisée et doit respecter certaines contraintes de taille, de checksum et de codage. Un attaquant ne peut pas accéder aux bitcoins d'un utilisateur sans découvrir la passphrase. Cette dernière intervient dans la construction et le calcul de toutes les clés du portefeuille.
+
+La fonction pbkdf2 est utilisée pour générer la graine à partir de la passphrase. Cette graine permet de dériver toutes les paires de clés enfants du portefeuille. Si la passphrase est modifiée, le portefeuille Bitcoin devient totalement différent.
+
+La passphrase est un outil clé pour renforcer la sécurité des portefeuilles Bitcoin. Elle peut permettre l'application de diverses stratégies de sécurité. Par exemple, elle peut être utilisée pour créer des doublons et faciliter les sauvegardes de la phrase mémonique. Elle peut également améliorer la sécurité du portefeuille en atténuant les risques associés à la génération aléatoire de la phrase mémonique.
+
+Une passphrase efficace devrait être longue (20 à 40 caractères) et diversifiée (utilisant des majuscules, des minuscules, des chiffres et des symboles). Elle ne devrait pas être directement liée à l'utilisateur ou à son environnement. Il est plus prudent d'utiliser une séquence aléatoire de caractères plutôt qu'un mot simple comme passphrase.
+
+Une passphrase est plus sécurisée qu'un simple mot de passe. La passphrase idéale est longue, variée et aléatoire. Elle peut renforcer la sécurité d'un portefeuille ou d'un logiciel chaud. Elle peut également être utilisée pour créer des sauvegardes redondantes et sécurisées.
+
+Il est essentiel de prendre soin des sauvegardes de la passphrase pour éviter de perdre l'accès au portefeuille. Une passphrase est une option pour un portefeuille HD. Elle peut être générée aléatoirement avec des dés ou un autre générateur de nombres pseudo-aléatoires. Il est déconseillé de mémoriser une passphrase ou une phrase mémonique.
+
+Dans notre prochain cours, nous examinerons de manière approfondie le fonctionnement de la graine et la première paire de clés générée à partir de celle-ci. N'hésitez pas à cliquer sur le cours pour continuer votre apprentissage. Au plaisir de vous retrouver prochainement.
+
 
 ## 4.5 – Création d’une seed depuis 128 lancés de dés ! [ATELIER]
 
-https://youtu.be/lUw-1kk75Ok
+![4.5 – Création d’une seed depuis 128 lancés de dés ! [ATELIER]](https://youtu.be/lUw-1kk75Ok)
+
+
 
 # Chapitre 5 - Création d’un portefeuille Bitcoin
 ## 5.1 – Création de la graine et de la clé maîtresse
 
-https://youtu.be/56yAt_JDWhY
+![5.1 – Création de la graine et de la clé maîtresse](https://youtu.be/56yAt_JDWhY)
 
 ## 5.2 – Les clés étendues
 
-https://youtu.be/TRz760E_zUY
+![5.2 – Les clés étendues](https://youtu.be/TRz760E_zUY)
 
 ## 5.3 – Dérivation des paires de clés enfants
 
-https://youtu.be/FXhI-GmE9Aw
+![5.3 – Dérivation des paires de clés enfants](https://youtu.be/FXhI-GmE9Aw)
 
 ## 5.4 – Structure du portefeuille et chemins de dérivation
 
-https://youtu.be/etO9UxwyE2I
+![5.4 – Structure du portefeuille et chemins de dérivation](https://youtu.be/etO9UxwyE2I)
 
 # Chapitre 6 - Les adresses Bitcoin
 
@@ -286,14 +376,16 @@ https://youtu.be/etO9UxwyE2I
 
 ## 6.1 – Les adresses Bitcoin
 
-https://youtu.be/nqGBMjPtFNI
+![6.1 – Les adresses Bitcoin](https://youtu.be/nqGBMjPtFNI)
 
 
 ## Note cette formation 😀
 
+
+
 ## 6.2 – Comment créer une adresse Bitcoin ?
 
-https://youtu.be/ewMGTN8dKjI
+![6.2 – Comment créer une adresse Bitcoin ?](https://youtu.be/ewMGTN8dKjI)
 
 # Conclusion
 ## Récapitulatif du processus complet par Loïc
@@ -302,9 +394,9 @@ https://youtu.be/ewMGTN8dKjI
 
 ## Interview avec Théo Pantamis
 
-https://youtu.be/c9MvtGJsEvY
+![Interview avec Théo Pantamis](https://youtu.be/c9MvtGJsEvY)
 
 E-BOOK 1 – Bitcoin et la cryptographie
 E-BOOK 2 – Le portefeuille Bitcoin
-Soutiens-nous
+
 Ressources pour aller plus loin 

@@ -110,11 +110,11 @@ Ce programme de formation est offert gratuitement sous une licence redistribuabl
 
 Lors de la navigation sur internet, il est important d'éviter certaines erreurs courantes pour préserver sa sécurité en ligne. Voici quelques conseils pour les éviter :
 
-    Erreur liée aux téléchargements de logiciels : Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques. Il est également conseillé de privilégier les logiciels open source et gratuits, car ils sont souvent plus sûrs et exempts de logiciels malveillants.
+- Erreur liée aux téléchargements de logiciels : Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques. Il est également conseillé de privilégier les logiciels open source et gratuits, car ils sont souvent plus sûrs et exempts de logiciels malveillants.
 
-    Erreur liée aux navigateurs web : Il existe deux grandes familles de navigateurs, ceux basés sur Chrome et ceux basés sur Firefox. Bien que les deux familles de navigateurs offrent un niveau de sécurité similaire, il est conseillé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Il peut être nécessaire d'utiliser différents navigateurs pour accéder à certains sites. L'utilisation du navigateur Brave peut être recommandée en raison de son bloqueur de publicités intégré. Il est également important de limiter le nombre d'extensions installées pour éviter les problèmes de sécurité et de performance.
+- Erreur liée aux navigateurs web : Il existe deux grandes familles de navigateurs, ceux basés sur Chrome et ceux basés sur Firefox. Bien que les deux familles de navigateurs offrent un niveau de sécurité similaire, il est conseillé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Il peut être nécessaire d'utiliser différents navigateurs pour accéder à certains sites. L'utilisation du navigateur Brave peut être recommandée en raison de son bloqueur de publicités intégré. Il est également important de limiter le nombre d'extensions installées pour éviter les problèmes de sécurité et de performance.
 
-    Erreur liée à la gestion des cookies : Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Certains sites nécessitent l'utilisation de cookies pour fonctionner correctement, cependant, il est important de noter que les cookies peuvent également être partagés avec des sites tiers à des fins de suivi publicitaire. Selon les réglementations telles que le RGPD, il est possible de refuser les cookies de suivi tiers. Il est recommandé d'accepter uniquement les cookies nécessaires au bon fonctionnement du site et de supprimer les cookies une fois que vous avez quitté le site, en utilisant une extension ou un programme dédié à la gestion des cookies.
+- Erreur liée à la gestion des cookies : Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Certains sites nécessitent l'utilisation de cookies pour fonctionner correctement, cependant, il est important de noter que les cookies peuvent également être partagés avec des sites tiers à des fins de suivi publicitaire. Selon les réglementations telles que le RGPD, il est possible de refuser les cookies de suivi tiers. Il est recommandé d'accepter uniquement les cookies nécessaires au bon fonctionnement du site et de supprimer les cookies une fois que vous avez quitté le site, en utilisant une extension ou un programme dédié à la gestion des cookies.
 
 ### Les navigateurs web : choix, sécurité et gestion des cookies
 
@@ -136,6 +136,10 @@ TOR est légal et est utilisé par des journalistes, des activistes de la libert
 
 
 ## Tutoriel : BRAVE
+
+***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+
+
 ## Chapitre 2 - VPN et connexion internet
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
@@ -179,11 +183,14 @@ En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en li
 
 
 ## Tutoriel : IVPN
+
+***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+
 ## Chapitre 3 - Utilisation de l’ordinateur
 
 ![utlisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
 
-### Formation en Cybersécurité : Résumé du Cours
+### Bonne pratique d'utilisation
 
 La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique actuel. Aujourd'hui, nous allons aborder trois points clés : le choix de l'ordinateur, les mises à jour et antivirus pour une sécurité optimale, et enfin, les bonnes pratiques pour la sécurité de son ordinateur et de ses données.
 
@@ -203,31 +210,36 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 
 
 ## Tutoriel : Ubuntu
+
+
+***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+
 ## Chapitre 4 - Hack & gestion de back-up : protéger ses données
 
 ![hack et gestion de back-up](https://youtu.be/CJDjWPV3PeU)
 
 ### Cybersécurité et Prévention
 
-    Phishing, vigilance face aux mails frauduleux :
+Phishing, vigilance face aux mails frauduleux :
     Restez attentif aux tentatives de phishing visant à soutirer des informations sensibles telles que vos identifiants et mots de passe. Évitez de cliquer sur les liens suspects et de partager vos informations personnelles sans vérifier la légitimité de l'expéditeur.
 
-    Prudence avec les pièces jointes et images dans les mails :
+Prudence avec les pièces jointes et images dans les mails :
     Les pièces jointes et images des mails peuvent contenir des logiciels malveillants. Ne téléchargez et n'ouvrez pas les pièces jointes provenant d'expéditeurs inconnus ou suspects, et assurez-vous que votre antivirus est à jour.
 
-    Ransomware et types de cyberattaques :
+Ransomware et types de cyberattaques :
     Le ransomware est un type de logiciel malveillant qui chiffre les données de l'utilisateur et exige une rançon pour les déchiffrer. Informez-vous sur les différents types de cyberattaques et prenez des mesures pour protéger votre système et vos données.
 
-    Réaction en cas de détection d'un virus :
+Réaction en cas de détection d'un virus :
     Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
-    Sauvegarde des données :
+Sauvegarde des données :
     Sauvegardez régulièrement vos données importantes sur un support externe ou un service de stockage en ligne sécurisé. Ainsi, en cas d'attaque informatique ou de panne matérielle, vous pourrez récupérer vos données sans perdre d'informations cruciales.
 
-    Payer les hackers, une mauvaise idée :
+Payer les hackers, une mauvaise idée :
     Il est généralement déconseillé de payer les hackers en cas de ransomware ou d'autres types d'attaques. Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes. Privilégiez plutôt la prévention et la sauvegarde régulière de vos données pour vous protéger.
 
 # SECTION 2 - Mise en place
+
 ## Chapitre 5 - Gestion de la boîte mail
 
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
@@ -258,6 +270,9 @@ Les mails sont un moyen de communication qui devrait continuer à être utilisé
 
 
 ## Tutoriel : création compte ProtonMail
+
+***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+
 ## Chapitre 6 - Gestionnaire de mots de passe
 
 ![gestionaire de mots de passe](https://youtu.be/HzLuZ6noePY)
@@ -271,8 +286,17 @@ Les mots de passe générés de manière aléatoire offrent un niveau de sécuri
 
 
 ## Tutoriel : création d’un mot de passe maître
+
+***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+
 ## Tutoriel : BitWarden
+
+***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+
 ## Tutoriel : KeePass
+
+***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+
 ## Chapitre 7 - Les 2 facteurs d’authentification
 
 ![les 2FA](https://youtu.be/863n4N1XNjk)

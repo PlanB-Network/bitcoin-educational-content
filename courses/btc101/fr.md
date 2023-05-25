@@ -358,7 +358,39 @@ En résumé, la sécurité et la vie privée sont deux aspects clés de la posse
 
 ![lancement du bitcoin](Formation\courses\btc101\assets\Poster\poster-fr\7._Lancement_de_Bitcoin_Crop.png)
 
-manque cours 
+
+### L'Émergence du Bitcoin
+
+Le 31 octobre 2008 marque la naissance d'une nouvelle technologie financière - le Bitcoin. C'est à cette date que Satoshi Nakamoto, l'architecte anonyme du Bitcoin, présente son innovation au monde par le biais d'une lettre distribuée à la liste de diffusion cypherpunk, une communauté de cryptographes passionnés de confidentialité et d'encryption.
+
+Ce courrier contenait un document, appelé "White Paper", décrivant le fonctionnement, l'utilisation et le système de défense du Bitcoin. Cette initiative n'a pas suscité un engouement immédiat, compte tenu des échecs précédents des systèmes de cash digital. Néanmoins, ce White Paper a fini par devenir une référence pour les utilisateurs de Bitcoin et fait l'objet de nombreux débats dans l'écosystème Bitcoin.
+
+### Le Premier Bloc - Le Bloc Genesis
+
+Le 3 janvier 2009 à 18h15, Satoshi inaugure officiellement le réseau Bitcoin en créant le premier bloc, aussi appelé bloc genesis, qui marque le lancement de la blockchain du Bitcoin. Ce bloc contient un message révélateur de la mission du Bitcoin : "03/jan/2009 Chancellor on brink of second bailout for banks" (Le chancelier sur le point d'octroyer un second sauvetage aux banques).
+
+Le 8 janvier 2009, Satoshi annonce la publication de Bitcoin-0.1.0. Rapidement, Hal Finney se saisit du logiciel et rejoint le réseau. Désormais, il y avait 2 mineurs et 2 nœuds dans le réseau. Finney immortalise cette étape en tweetant "Running Bitcoin". Le 12 janvier 2009, la première transaction Bitcoin est réalisée entre Satoshi et Hal Finney. Cette transaction, de 10 BTC, est enregistrée dans le bloc 170.
+
+### L'Évolution du Dialogue autour du Bitcoin
+
+L'intérêt pour le Bitcoin croît rapidement, et de nombreuses personnes commencent à tester, débattre, résoudre des bugs, miner et réfléchir sur les aspects éthiques, économiques et philosophiques du Bitcoin. Pour faciliter ces échanges, le forum BitcoinTalk est créé le 22 novembre 2009 par Satoshi.
+
+Ce forum devient rapidement le lieu de discussion privilégié pour les utilisateurs de Bitcoin. C'est là que naissent de nombreux mèmes et symboles associés au Bitcoin, comme le logo Bitcoin, Hodl, magic internet money et Pizza day.
+
+Le 21 mai 2010, Laszlo Hanyecz marque l'histoire du Bitcoin en proposant d'acheter 2 pizzas pour 10 000 BTC. C'est la première fois que le Bitcoin est utilisé pour acheter des biens matériels. Laszlo est également reconnu pour avoir révolutionné le minage du Bitcoin grâce au GPU mining.
+
+### La Disparition de Satoshi Nakamoto
+
+En 2010, alors que le Bitcoin commence à attirer l'attention des médias, Satoshi décide de prendre ses distances. Le 12 décembre 2010, il publie son dernier post sur le forum, annonçant son départ. Le 23 avril 2011, il effectue son dernier échange privé connu par e-mail. Satoshi disparaît alors, laissant sa création entre les mains de la communauté.
+
+
+Malgré l'absence de Satoshi, le Bitcoin continue de se développer. Toutes les 10 minutes, l'histoire du Bitcoin s'écrit, et le protocole continue de fonctionner comme prévu. Peu importe la peur, l'incertitude ou le doute (FOMO ou FUD), le Bitcoin continue d'avancer, avec une disponibilité de 99.98%.
+
+Le Bitcoin est perçu différemment par chaque individu. Pour certains, c'est une entité fongique comme le mycélium, pour d'autres, c'est un trou noir, un virus ou même une religion. Que l'on aime ou que l'on déteste le Bitcoin, il continue d'exister, avec son rythme constant de 10 minutes par 10 minutes, comme le battement de cœur d'un nouveau système financier.
+
+Pour approfondir vos connaissances sur les écrits de Satoshi Nakamoto, je recommande le livre de Phil Champagne. Satoshi lui-même a mentionné : "Les gouvernements sont bons pour couper la tête des réseaux contrôlés de manière centralisée comme Napster, mais les réseaux purement P2P comme Gnutella et Tor semblent se défendre."
+
+Le Bitcoin est une innovation sans précédent dans le monde financier. Malgré les défis et les controverses, il continue d'être une force motrice dans le monde de la monnaie numérique.
 
 ## 3.2 Explication d’une transaction
 
@@ -662,8 +694,25 @@ Il est également important de noter qu'il y a des impôts à payer sur la reven
 ![hyper-bitoinisation](Formation\courses\btc101\assets\Poster\poster-fr\18._Hyperbitcoinisation_Crop.png)]
 
 
+### Adoption et diffusion globales du Bitcoin
 
-manque cours 
+Comme toute nouvelle technologie, l'adoption de Bitcoin suit une courbe de distribution très classique. Nous avons dépassé l'époque des premiers adoptants et les indicateurs semblent pointer vers une démocratisation complète du Bitcoin. C'est une technologie virale qui ne s'arrête pas. Le Salvador a pris le pari audacieux d'adopter le Bitcoin de manière totale, en le déclarant comme une monnaie ayant cours légal et en exploitant le Lightning Network pour un usage quotidien. Cependant, chaque pays réagit différemment face à cette technologie. Certains l'ont banni et criminalisé son usage, ajoutant ainsi à la complexité de l'adoption de Bitcoin en fonction des cultures, des époques et des nations.
+
+La multipolarité de Bitcoin et l'émergence de nouvelles questions
+
+La montée en puissance de Bitcoin oblige les entreprises, les universités, les régulateurs et les particuliers à prendre en compte cette nouvelle technologie. De nouveaux outils doivent être créés, les services doivent être adaptés et l'innovation doit continuer pour garantir leur survie. Ce contexte soulève de nombreuses questions touchant à divers domaines, notamment la cryptographie, la théorie des jeux, l'économie et la finance, l'informatique, la philosophie, les lois et la régulation.
+
+### Les futurs défis du Bitcoin et le rôle de chacun dans cette révolution
+
+Je vous invite à réfléchir à cette nouvelle révolution monétaire. Il y a tellement de choses à explorer avec le Bitcoin que c'est compliqué de tout assimiler d'un coup. Prenez votre temps, Bitcoin ne va pas disparaître. Au contraire, la révolution vient tout juste de commencer.
+
+Ensemble, je crois que nous sommes capables de créer le monde que nous souhaitons confier à nos enfants. Un monde où la souveraineté humaine est un droit, où la vie privée est respectée par défaut et où la monnaie n'est pas manipulée. J'espère qu'ensemble nous y arriverons.
+
+La librairie Bitcoin
+
+Si vous souhaitez développer vos connaissances sur le Bitcoin, un grand nombre d’auteurs, penseurs, essayistes ont contribué à la couche éducationnelle de Bitcoin. Depuis quelques années, je répertorie et classe ces œuvres pour offrir une bibliothèque de ressources aux plus curieux d’entre vous. Vous y trouverez les meilleurs podcasts, sites internet, articles, tutoriels, livres, posts twitter et autres contenus.
+
+Milton Friedman, un économiste renommé, avait prédit en 1999: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A." Aujourd'hui, le Bitcoin répond à cette prédiction.
 
 
 ## soutient nous

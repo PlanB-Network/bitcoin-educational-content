@@ -4,13 +4,10 @@ language: fr
 links:
   podcast: https://podcasts.apple.com/us/podcast/lafrique-parle-bitcoin/id1615870636
   twitter: https://twitter.com/Afrique_Bitcoin/
-
 description: |
   Discussions avec celles et ceux qui contribuent à l'hyperbitcoinisation en Afrique. @PrinceDonK
-
 tags:
   - bitcoin
   - afrique
-
 contributors:
   - rabbit-hole

@@ -4,13 +4,10 @@ language: fr
 links:
   podcast: https://podcasters.spotify.com/pod/show/pendulesatoshi
   twitter: https://twitter.com/PenduleSatoshi
-
 description: |
   Podcast francophone où l'on cause de #Bitcoin (ses aspects sociaux, historiques, financiers, géopolitiques etc
-
 tags:
   - bitcoin
   - technology
-
 contributors:
   - rabbit-hole

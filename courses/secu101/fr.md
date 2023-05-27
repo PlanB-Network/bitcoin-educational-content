@@ -1,20 +1,13 @@
 ---
-name:  Sécurité informatique & gestion des données
+name: Sécurité informatique & gestion des données
 goal: Remettre à jour la gestion de mots de passe et des données personnelles. Création d’un backup, se protéger des hackers et se sensibiliser à la surveillance de masse.
 ---
 
-
-
-
 Un voyage vers la protection de vos données
 
-
-:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
-
+:[affiche du cours](BTC101_vignette-presentation-front.png)
 
 Il est important de comprendre que les mots de passe simples et réutilisés peuvent être facilement piratés par des hackers, qui peuvent exploiter vos informations personnelles à des fins malveillantes. Pour éviter cela, nous allons vous montrer comment utiliser un gestionnaire de mots de passe sécurisé comme Bitwarden et migrer vos mots de passe depuis d’autres services de stockage. Nous allons aborder l’importance de la protection de vos données personnelles, notamment en utilisant des sauvegardes sur des disques durs externes et des pseudonymes pour masquer votre identité en ligne. Nous discuterons également de qui est le mieux placé pour protéger l’utilisateur : les entreprises, la régulation ou l’utilisateur lui-même
-
-
 
 Qu’allez-vous apprendre durant ce cours ?
 
@@ -29,15 +22,11 @@ En espérant vous retrouver bientôt. Merci pour votre intérêt dans mon projet
 
 Pas convaincu(e) ? Retrouvez en détail le cours : SECU 101 – Curriculum
 
-
-
-
 Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
-
 
 ---
 
-A propose du prof. 
+A propose du prof.
 
 Rogzy
 
@@ -51,14 +40,9 @@ Bitcoin est un outil de libération financière. En apprenant à l’utiliser, v
 
 Rogzy
 
+Pantamis
 
-
-Pantamis 
-
-
-
-renaud 
-
+renaud
 
 Team contributeurs:
 
@@ -66,7 +50,6 @@ Team contributeurs:
         Renaud & Pantamis – Interview
         Muriel – Design
         Théo- Contribution
-
 
 ---
 
@@ -126,7 +109,7 @@ Certains navigateurs permettent de supprimer les cookies ou les sessions de mani
 
 En gardant à l'esprit ces recommandations pour le choix des navigateurs, la gestion des cookies et la sécurité en ligne, vous serez en mesure de naviguer sur internet de manière plus sûre et de protéger votre vie privée.
 
-### 3.  La navigation privée, TOR et autres alternatives pour une navigation plus sécurisée et anonyme
+### 3. La navigation privée, TOR et autres alternatives pour une navigation plus sécurisée et anonyme
 
 La navigation privée, bien qu'elle ne cache pas la navigation à votre fournisseur d'accès Internet, permet de ne pas laisser de traces locales sur votre ordinateur. Les cookies sont automatiquement supprimés à la fin de chaque session, ce qui permet d'accepter tous les cookies sans être suivi. La navigation privée peut être utile lors de l'achat de services en ligne, car les sites web suivent nos habitudes de recherche et ajustent les prix en conséquence. Cependant, il est important de noter que la navigation privée est recommandée pour des sessions temporaires et spécifiques, et non pour une utilisation générale de navigation sur Internet.
 
@@ -134,11 +117,9 @@ Une alternative plus avancée est le réseau TOR (The Onion Router), qui offre l
 
 TOR est légal et est utilisé par des journalistes, des activistes de la liberté et d'autres personnes souhaitant échapper à la censure dans des pays autoritaires. Cependant, il est important de comprendre que TOR ne sécurise pas les sites visités ni l'ordinateur lui-même. De plus, l'utilisation de TOR peut ralentir la connexion Internet car les données passent par les ordinateurs de trois autres personnes avant d'atteindre leur destination. Il est également essentiel de noter que TOR n'est pas une solution infaillible pour garantir l'anonymat à 100% et ne doit pas être utilisé pour mener des activités illégales.
 
-
 ## Tutoriel : BRAVE
 
-***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
-
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Chapitre 2 - VPN et connexion internet
 
@@ -180,11 +161,9 @@ Enfin, assurez-vous de vérifier les URL et le petit cadenas dans la barre d'adr
 
 En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en ligne, tant pour les entreprises que pour les utilisateurs individuels. De plus, la mise en pratique de bonnes habitudes de navigation peut contribuer à une meilleure hygiène numérique. Dans le prochain segment de ce cours, nous aborderons la sécurité de l'ordinateur, y compris les mises à jour, l'antivirus et la gestion des mots de passe.
 
-
-
 ## Tutoriel : IVPN
 
-***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Chapitre 3 - Utilisation de l’ordinateur
 
@@ -208,11 +187,9 @@ Traitez votre ordinateur comme vous le feriez pour votre maison : restez vigilan
 
 En conclusion, il est primordial d'opter pour un système d'exploitation adapté à vos besoins et de le mettre à jour régulièrement, ainsi que les applications qui y sont installées. Il est aussi essentiel d'utiliser un antivirus efficace et agréable à l'usage, et d'adopter de bonnes pratiques pour la sécurité de votre ordinateur et de vos données.
 
-
 ## Tutoriel : Ubuntu
 
-
-***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Chapitre 4 - Hack & gestion de back-up : protéger ses données
 
@@ -221,30 +198,28 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 ### Cybersécurité et Prévention
 
 Phishing, vigilance face aux mails frauduleux :
-    Restez attentif aux tentatives de phishing visant à soutirer des informations sensibles telles que vos identifiants et mots de passe. Évitez de cliquer sur les liens suspects et de partager vos informations personnelles sans vérifier la légitimité de l'expéditeur.
+Restez attentif aux tentatives de phishing visant à soutirer des informations sensibles telles que vos identifiants et mots de passe. Évitez de cliquer sur les liens suspects et de partager vos informations personnelles sans vérifier la légitimité de l'expéditeur.
 
 Prudence avec les pièces jointes et images dans les mails :
-    Les pièces jointes et images des mails peuvent contenir des logiciels malveillants. Ne téléchargez et n'ouvrez pas les pièces jointes provenant d'expéditeurs inconnus ou suspects, et assurez-vous que votre antivirus est à jour.
+Les pièces jointes et images des mails peuvent contenir des logiciels malveillants. Ne téléchargez et n'ouvrez pas les pièces jointes provenant d'expéditeurs inconnus ou suspects, et assurez-vous que votre antivirus est à jour.
 
 Ransomware et types de cyberattaques :
-    Le ransomware est un type de logiciel malveillant qui chiffre les données de l'utilisateur et exige une rançon pour les déchiffrer. Informez-vous sur les différents types de cyberattaques et prenez des mesures pour protéger votre système et vos données.
+Le ransomware est un type de logiciel malveillant qui chiffre les données de l'utilisateur et exige une rançon pour les déchiffrer. Informez-vous sur les différents types de cyberattaques et prenez des mesures pour protéger votre système et vos données.
 
 Réaction en cas de détection d'un virus :
-    Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
+Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
 Sauvegarde des données :
-    Sauvegardez régulièrement vos données importantes sur un support externe ou un service de stockage en ligne sécurisé. Ainsi, en cas d'attaque informatique ou de panne matérielle, vous pourrez récupérer vos données sans perdre d'informations cruciales.
+Sauvegardez régulièrement vos données importantes sur un support externe ou un service de stockage en ligne sécurisé. Ainsi, en cas d'attaque informatique ou de panne matérielle, vous pourrez récupérer vos données sans perdre d'informations cruciales.
 
 Payer les hackers, une mauvaise idée :
-    Il est généralement déconseillé de payer les hackers en cas de ransomware ou d'autres types d'attaques. Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes. Privilégiez plutôt la prévention et la sauvegarde régulière de vos données pour vous protéger.
+Il est généralement déconseillé de payer les hackers en cas de ransomware ou d'autres types d'attaques. Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes. Privilégiez plutôt la prévention et la sauvegarde régulière de vos données pour vous protéger.
 
 # SECTION 2 - Mise en place
 
 ## Chapitre 5 - Gestion de la boîte mail
 
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
-
-
 
 Dans cette section, nous aborderons trois sujets essentiels pour assurer la sécurité des accès en ligne : la gestion des mails, l'utilisation d'un gestionnaire de mots de passe et l'authentification à deux facteurs (2FA).
 
@@ -267,16 +242,13 @@ Le site Have I Been Pwned permet de vérifier si notre adresse mail a été comp
 
 Les mails sont un moyen de communication qui devrait continuer à être utilisé pendant longtemps. Cependant, il est crucial de sécuriser nos mots de passe et de mettre en place une authentification à deux facteurs pour renforcer la sécurité de nos comptes mail.
 
-
-
 ## Tutoriel : création compte ProtonMail
 
-***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Chapitre 6 - Gestionnaire de mots de passe
 
 ![gestionaire de mots de passe](https://youtu.be/HzLuZ6noePY)
-
 
 Pour garantir la sécurité de votre compte, il est crucial de créer des mots de passe forts et sécurisés. La longueur du mot de passe n'est pas suffisante pour assurer sa sécurité. Les caractères doivent être complètement aléatoires afin de résister aux attaques par force brute. L'indépendance des événements est également importante pour éviter les combinaisons les plus probables. Les mots de passe courants tels que "password" sont facilement compromis.
 
@@ -284,18 +256,17 @@ Pour créer un mot de passe fort, il est recommandé d'utiliser un grand nombre 
 
 Les mots de passe générés de manière aléatoire offrent un niveau de sécurité supérieur, bien qu'ils puissent être plus difficiles à retenir. Les gestionnaires de mots de passe peuvent générer des mots de passe aléatoires plus sécurisés. En utilisant un gestionnaire de mots de passe, vous n'avez pas besoin de mémoriser tous vos mots de passe. Il est important de remplacer progressivement vos anciens mots de passe par ceux générés par le gestionnaire, car ils sont plus forts et plus longs. Assurez-vous que le mot de passe maître de votre gestionnaire de mots de passe est également fort et sécurisé.
 
-
 ## Tutoriel : création d’un mot de passe maître
 
-***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Tutoriel : BitWarden
 
-***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Tutoriel : KeePass
 
-***  Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub ***
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Chapitre 7 - Les 2 facteurs d’authentification
 
@@ -312,11 +283,12 @@ En conclusion, comprendre les différentes options d'authentification forte et c
 ## Tutoriel : des solutions 2FA et Yubikey
 
 # SECTION 3 - Aller plus loin
-##  Conclusion & travailler dans l’industrie
+
+## Conclusion & travailler dans l’industrie
 
 ![conclusion et travailler dans l'industrie](https://youtu.be/YZ2EKaPvoZU)
 
-##  Interview de Renaud
+## Interview de Renaud
 
 ![industrie](https://youtu.be/RVjE-KOSKDs)
 

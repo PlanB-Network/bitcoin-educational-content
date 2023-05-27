@@ -1,22 +1,17 @@
 ---
-name:  Solution d’achat-vente Bitcoin en pair à pair
+name: Solution d’achat-vente Bitcoin en pair à pair
 goal: Explorer les solutions d’achat et vente de Bitcoin en non-KYC
 ---
 
-
-
 Un voyage vers le monde du non-KYC
 
-
-
-:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
+:[affiche du cours](BTC101_vignette-presentation-front.png)
 
 Pierre nous propose ce cours qui nous plonge dans les différentes solutions existantes pour acheter et vendre des bitcoins en pair à pair. L’achat en pair à pair est complètement légal et permet d’avoir plus d’anonymat, en effet ces solutions ne sont pas KYC. Le KYC (Know Your Customer) est une règle des régulateurs de marchés (AMF) qui consiste à demander la pièce d’identité au client souhaitant acheter ou vendre du bitcoin.
 
 Ces règles ont pour but d’empêcher le blanchiment d’argent, le financement du terrorisme et l’évasion fiscale. Au risque d’importantes conséquences pour l’utilisateur, le KYC a pour objectif de défendre et de protéger son utilisateur, bien que c’est très souvent l’effet inverse qui est observé.
 
 Nous allons donc explorer les différents types de KYC (les full KYC type France, les KYC Light type Suisse et les non-KYC type pair à pair). Pierre nous présentera plus de 6 solutions, vous aurez donc toutes les cartes en main pour découvrir laquelle vous correspond.
-
 
 Un voyage vers le monde du non-KYC
 
@@ -34,22 +29,19 @@ Comprendre les avantages d'un achat en pair à pair
 Mettre en place la solution qui correspond à votre besoin
 Améliorer la gestion de ses UTXO (KYC et non-KYC)
 
-
 Si vous souhaitez une solution KYC, sachez qu’elles sont présentes dans la formation BTC 102.
 
 Curriculum : BTC 205 – Solution d’achat/vente Bitcoin en pair à pair
 
-
 Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
-
 
 ---
 
-A propose du prof. 
+A propose du prof.
 
 Pierre
 
-@pivi___
+@pivi\_\_\_
 
 Passionné par Bitcoin et persuadé que l’enseignement est la clé, je souhaite partager avec vous le peu de connaissance que j’ai et ainsi participer à l’adoption de Bitcoin. Sinon je suis un grand fan de Pink Floyd, j’apprends à coder et je fais des memes. Au plaisir de vous rencontrer au prochain meet-up !
 
@@ -60,14 +52,11 @@ Team créateur
         Rachel – Communication
         WillKek – Chapitrage
 
-
 ---
 
 # Introduction
 
 ![introduction par Rogzy](https://youtu.be/3AHeKLTK7Sg)
-
-
 
 ## Explication & type de KYC
 
@@ -99,9 +88,7 @@ Il est important de noter que cette formation présente diverses alternatives, a
 
 Il est également important de noter que l'information présentée ici n'endosse aucune solution en particulier. Il s'agit simplement de présenter les options disponibles pour une meilleure compréhension du sujet. Pour toute question supplémentaire sur le Bitcoin, n'hésitez pas à consulter des ressources en ligne telles que www.découvrebitcoin.com.
 
-
 ## Comparatif des solutions d’achat- vente en pair à pair
-
 
 https://youtu.be/HiwSjN04Mz0
 
@@ -163,7 +150,6 @@ Inconvénients de LNP2PBot
     Manque de liquidité et fragilité de l'application
     La confiance doit être accordée à Alain P2Pbot pour la gestion des litiges
 
-
 peach
 
 peach est une application mobile dédiée au trading de Bitcoin. Elle se distingue par sa simplicité, ne nécessitant pas la création d'un compte pour opérer. Les trades y sont rapides, même en l'absence de Lightning Network. De plus, les notifications sur les téléphones permettent d'accélérer le processus de transaction.
@@ -174,9 +160,8 @@ Avantages de peach
     Notifications : elles accélèrent le processus de transaction.
 
 Inconvénients de peach
-    Sécurité et robustesse : étant liée à une entreprise, peach présente des faiblesses potentielles en matière de sécurité.
-    Absence de Lightning Network : cette technologie, qui permet des transactions Bitcoin plus rapides, n'est pas utilisée par peach.
-
+Sécurité et robustesse : étant liée à une entreprise, peach présente des faiblesses potentielles en matière de sécurité.
+Absence de Lightning Network : cette technologie, qui permet des transactions Bitcoin plus rapides, n'est pas utilisée par peach.
 
 HodlHodl
 
@@ -196,30 +181,26 @@ Inconvénients de HodlHodl
     Incompatibilité avec Tor : HodlHodl ne peut pas être utilisée avec ce réseau axé sur la confidentialité.
     Possibilité de KYC forcé : dans certaines situations, HodlHodl peut exiger des informations d'identification pour récupérer des fonds.
 
-
 Outre les solutions P2P, il existe d'autres options d'échange de cryptomonnaies. Kawaii.com propose des services tels que VPN, VPS, SMS, etc. Bitrefil permet d'acheter des cartes cadeaux. À chaque solution sur kawaii.com est présentée avec des points positifs et négatifs. Majestic bank est une petite solution qui tourne derrière Tor avec des frais raisonnables.
 
 ## Conclusion
 
-En résumé, chaque solution P2P a ses avantages et inconvénients. Bisq est considérée comme la plus robuste et sécurisée, mais moins facile d'accès. RoboSat est open source mais moins robuste que Bisq. LNP2PBot est moins robuste et sécurisé que les autres solutions, moins rapide et moins user-friendly que RoboSat, mais plus que Bis. Pitch est l'application la plus facile et rapide pour acheter du Bitcoin en non-KYC, mais une entreprise est derrière, donc des faiblesses en termes de sécurité et robustesse. Oddl est un protocole géré par une entreprise et close source, donc des faiblesses en termes de sécurité et robustesse, un peu plus compliqué que Pitch. Le graph permet de classer et comparer les solutions. 
+En résumé, chaque solution P2P a ses avantages et inconvénients. Bisq est considérée comme la plus robuste et sécurisée, mais moins facile d'accès. RoboSat est open source mais moins robuste que Bisq. LNP2PBot est moins robuste et sécurisé que les autres solutions, moins rapide et moins user-friendly que RoboSat, mais plus que Bis. Pitch est l'application la plus facile et rapide pour acheter du Bitcoin en non-KYC, mais une entreprise est derrière, donc des faiblesses en termes de sécurité et robustesse. Oddl est un protocole géré par une entreprise et close source, donc des faiblesses en termes de sécurité et robustesse, un peu plus compliqué que Pitch. Le graph permet de classer et comparer les solutions.
 
-ou du bon vieux cash 
-
+ou du bon vieux cash
 
 # Les solutions en tutoriels (Pierre)
 
 ## Robosats
 
-
 RoboSats est un moyen facile d'échanger privément des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning Hold pour réduire au minimum les besoins en garde et en confiance.
 
-Site:https://unsafe.robosats.com/ 
+Site:https://unsafe.robosats.com/
 GitHub: https://github.com/RoboSats/robosats
 
-Nous regardons en detail cette solution dans BTC 205 offert par @pivi_, voici les videos tutoriels: 
+Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
 
 ![robosats](https://tube.nuagelibre.fr/videos/watch/1978a2e0-64a0-4437-9229-7614cdf5bf61?start=0s)
-
 
 Tutoriel : Comment Utiliser RoboSat et Tor pour Acheter et Vendre des Bitcoins
 
@@ -257,39 +238,35 @@ Vente de Bitcoins avec RoboSat
 
 Ce tutoriel devrait vous aider à démarrer avec RoboSat pour l'achat et la vente de Bitcoin. Bonne chance avec vos échanges !
 
-
-
 ## BISQ: solution d'achat en peet à peer
 
 Bisq est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.
 
 Site: https://bisq.network/
 
-*Attention de ne pas faire n'importe quoi, bisq est une solution avancé. Une fois en place c'est tres puissant mais si vous etes 100% débutant ce n'est peut etre pas pouv vous*
+_Attention de ne pas faire n'importe quoi, bisq est une solution avancé. Une fois en place c'est tres puissant mais si vous etes 100% débutant ce n'est peut etre pas pouv vous_
 
-Nous regardons en detail cette solution dans BTC 205 offert par @pivi_, voici les videos tutoriels: 
+Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
 
 ![partie 1](https://tube.nuagelibre.fr/videos/watch/b3885ea9-23e9-4b58-aa3f-401348da85a1)
 
-
 ![partie 2](https://tube.nuagelibre.fr/videos/watch/53276305-70d6-4c7f-9df9-e100a82eee16)
 
-Pour les debrouilliares voici un guide relatant rapidment les étape essentiels: 
-    
- 1. Télécharger et Installer : Visitez le site web de Bisq et téléchargez l'application. Installez-la sur votre système.
- 
- 2. Configurer le Mode de Paiement : Ouvrez l'application et allez dans "Compte". Ajoutez les détails de votre mode de paiement.
+Pour les debrouilliares voici un guide relatant rapidment les étape essentiels:
 
- 3. Alimenter votre Portefeuille Bisq : Cliquez sur "Fonds" et "Recevoir des Fonds" pour obtenir votre adresse Bisq. Envoyez des Bitcoins à cette adresse.
+1.  Télécharger et Installer : Visitez le site web de Bisq et téléchargez l'application. Installez-la sur votre système.
 
- 4. Faire une Transaction : Cliquez sur "Acheter/Vendre" et choisissez la transaction souhaitée. Suivez les instructions pour compléter la transaction.
+2.  Configurer le Mode de Paiement : Ouvrez l'application et allez dans "Compte". Ajoutez les détails de votre mode de paiement.
 
- 5. Confirmer la Réception : Une fois que vous avez reçu le paiement, confirmez-le dans l'application Bisq. Cela libère le Bitcoin de l'entiercement.
+3.  Alimenter votre Portefeuille Bisq : Cliquez sur "Fonds" et "Recevoir des Fonds" pour obtenir votre adresse Bisq. Envoyez des Bitcoins à cette adresse.
+
+4.  Faire une Transaction : Cliquez sur "Acheter/Vendre" et choisissez la transaction souhaitée. Suivez les instructions pour compléter la transaction.
+
+5.  Confirmer la Réception : Une fois que vous avez reçu le paiement, confirmez-le dans l'application Bisq. Cela libère le Bitcoin de l'entiercement.
 
 N'oubliez pas de toujours vérifier tous les détails de vos transactions et de ne traiter qu'avec des parties de confiance.
 
-
-***version plus longue***
+**_version plus longue_**
 
 Tutoriel : Comment Utiliser BISQ, Une Application Décentralisée pour Échanger du Bitcoin
 
@@ -373,21 +350,16 @@ Pour vendre du Bitcoin sur BISQ :
 
 Une fois que l'acheteur a effectué le dépôt de la transaction sur BISQ, les Bitcoins sont automatiquement envoyés à l'acheteur et vous recevez l'argent. Le compte est vérifié et signé après une transaction avec un compte signé.
 
-
 ## LNP2PBOT
 
 ##LN p2p Bot
 
-
 site: https://lnp2pbot.com/
 HitHub: https://github.com/lnp2pBot/bot
 
-
-Nous regardons en detail cette solution dans BTC 205 offert par @pivi_, voici les videos tutoriels: 
+Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
 
 ![LNp2pbot tutoriel](https://tube.nuagelibre.fr/videos/watch/57ed232d-6149-4267-be38-92b0f32800f7)
-
-
 
 Tutoriel : Comment Utiliser Telegram et le Bot LNP2PBOT pour Acheter et Vendre des Bitcoins
 
@@ -435,14 +407,11 @@ Achat de Satoshis sur Mobile avec LNP2PBOT
 
 En utilisant ces méthodes, vous pouvez acheter et vendre des bitcoins sur Telegram de manière sécur
 
-
-
 ## Peach Bitcoin
-
 
 site: https://peachbitcoin.com/
 
-Nous regardons en detail cette solution dans BTC 205 offert par @pivi_, voici les videos tutoriels: 
+Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
 
 ![peach](https://youtu.be/ziwhv9KqVkM)
 
@@ -485,21 +454,18 @@ Pour des conseils supplémentaires et un partage d'informations sur l'utilisatio
 
 En somme, l'application mobile Pitch offre une solution accessible pour acheter et vendre des bitcoins en pair à pair. Une utilisation sécurisée et optimale de Pitch est la clé pour réussir vos transactions.
 
-
 ## Hold Hodl
-
 
 Hodl Hodl est une bourse de Bitcoin décentralisée qui accorde la priorité au contrôle et à la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre les utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
 
-Nous regardons en detail cette solution dans BTC 205 offert par @pivi_, voici les videos tutoriels: 
+Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
 
 Tutoriel
 ![hodlhodl tutoriel](https://youtu.be/BDH9jE7kpD8)
 
-##  Bonus: Side Shift . AI
+## Bonus: Side Shift . AI
 
 ![SideShift AI](https://youtu.be/xG8Wc1Ti5b8)
-
 
 # Présentation de l'outil SideShift AI pour convertir des shitcoins en bitcoin
 
@@ -515,22 +481,20 @@ Passons maintenant à la présentation d'un autre outil très pratique pour ache
 
 Voilà pour la présentation de cet outil. Si vous souhaitez en savoir plus, je vous invite à consulter le site www.découvrebitcoin.com.
 
-
-
 # Pour aller plus loin
 
 ## Interview de Steph de Peach Bitcoin
 
 ![interview de steph](https://youtu.be/LRGKD8qNSXw)
 
-
-##  Conclusion – Interview de Pierre
+## Conclusion – Interview de Pierre
 
 ![interview de Pierre](https://youtu.be/COoezuJncm8)
 
 ## Note la formation ! 😀
 
 # Bonus vie privée
+
 ## Billet sur le KYC et l’identification – Article de Loïc Morel
 
 Billet sur le KYC et l’identification – Article de Loïc Morel
@@ -548,7 +512,7 @@ Néanmoins, l’acquisition de bitcoins non-KYC n’est pas suffisante pour fair
 
 Quelques idées reçues sur l’identification.
 
-Avant d’en parler plus en profondeur, je souhaite casser certaines idées reçues sur l’identification et le KYC que l’on peut retrouver sur Twitter ou dans nos conversations entre bitcoiners. 
+Avant d’en parler plus en profondeur, je souhaite casser certaines idées reçues sur l’identification et le KYC que l’on peut retrouver sur Twitter ou dans nos conversations entre bitcoiners.
 
 Pour commencer, non, cela ne sert pas à rien de mettre en place des méthodes de confidentialité sur des coins KYC. Cela semble logique, mais certaines personnes continuent de le penser. Les outils et méthodes de confidentialité sur Bitcoin sont complémentaires, mais tous n’ont pas le même objectif. Par exemple, l’utilisation de transactions Coinjoin sur des bitcoins KYC n’est pas une mauvaise idée. Certes, il faudrait être prudent avec l’utilisation des exchanges régulés pour ne pas se faire bloquer injustement son compte, mais les deux ne sont pas incompatibles. Le CoinJoin permet de créer du déni plausible on-chain alors que le non-KYC a d’autres objectifs que nous allons voir plus loin.
 
@@ -556,7 +520,6 @@ De la même manière, ce n’est pas parce que vous avez acheté du bitcoin par 
 
 Le dernier préjugé que je souhaiterais déconstruire, c’est cette idée reçue selon laquelle l’identification serait un système binaire avec des coins non identifiés et des coins identifiés. En réalité, il existe tout un spectre de procédures d’identification d’un client. On peut ainsi classer les méthodes d’acquisition entre le vrai full-KYC, où l’on vous demande de dévoiler toute votre vie avant de pouvoir acheter 1 € de bitcoin, et l’acquisition qui ne laisse aucune trace.
 
- 
 Les risques liés au KYC
 
 Pour définir ce gradient, nous pouvons alors déjà déterminer trois problématiques complètement différentes liées à l’identification lors de l’acquisition :
@@ -565,25 +528,22 @@ Pour définir ce gradient, nous pouvons alors déjà déterminer trois probléma
     – La possibilité de savoir que vous avez eu du bitcoin.
     – La création d’un point d’entrée pour le traçage on-chain.
 
-Lorsque l’on parle de KYC, on pense généralement aux processus d’identifications drastiques imposés aux acteurs de la vente de bitcoins. Aujourd’hui, en termes de procédures administratives en France, il est plus facile d’acquérir une arme de catégorie C que d’acheter 1€ de bitcoin chez un acteur régulé. On vous demande votre nom, votre prénom, votre adresse e-mail, votre adresse postale, une photo, une pièce d’identité, un justificatif de domicile, parfois même une fiche de salaire, et qui sait, peut-être que demain on vous demandera encore plus… 
+Lorsque l’on parle de KYC, on pense généralement aux processus d’identifications drastiques imposés aux acteurs de la vente de bitcoins. Aujourd’hui, en termes de procédures administratives en France, il est plus facile d’acquérir une arme de catégorie C que d’acheter 1€ de bitcoin chez un acteur régulé. On vous demande votre nom, votre prénom, votre adresse e-mail, votre adresse postale, une photo, une pièce d’identité, un justificatif de domicile, parfois même une fiche de salaire, et qui sait, peut-être que demain on vous demandera encore plus…
 
- 
+La première problématique à cette violente identification est le stockage de toutes vos données personnelles sur les serveurs d’une entreprise privée. Les récents évènements nous ont montrés que personne n’est à l’abri de la défaillance, qu’elle soit financière ou informatique. Les clients de Celsius en ont dernièrement fait les frais. Après la faillite de l’entreprise, tous les créanciers ont vu leur nom et le montant de leur portefeuille diffusé publiquement par la justice américaine dans le cadre de la procédure administrative. Il y a un peu plus de deux ans, c’était un fleuron de la cybersécurité dans le domaine des cryptos qui s’est fait siphonner les données personnelles de ses clients. Même si cela n’était pas lié au domaine de l’acquisition, cela pourrait également arriver à des acteurs concernés. Il y a donc un risque certain lié à ces données personnelles. Non seulement elles permettent de vous identifier, mais elles sont aussi liées à une activité sur Bitcoin. S’il y a une fuite, dans le meilleur des cas, vous pourriez faire l’objet de tentatives d’hameçonnage. Mais, dans le pire des cas, vous pourriez devenir une cible privilégiée pour des attaques physiques à votre domicile, ou même être victime d’une usurpation d’identité.
 
-La première problématique à cette violente identification est le stockage de toutes vos données personnelles sur les serveurs d’une entreprise privée. Les récents évènements nous ont montrés que personne n’est à l’abri de la défaillance, qu’elle soit financière ou informatique. Les clients de Celsius en ont dernièrement fait les frais. Après la faillite de l’entreprise, tous les créanciers ont vu leur nom et le montant de leur portefeuille diffusé publiquement par la justice américaine dans le cadre de la procédure administrative. Il y a un peu plus de deux ans, c’était un fleuron de la cybersécurité dans le domaine des cryptos qui s’est fait siphonner les données personnelles de ses clients. Même si cela n’était pas lié au domaine de l’acquisition, cela pourrait également arriver à des acteurs concernés. Il y a donc un risque certain lié à ces données personnelles. Non seulement elles permettent de vous identifier, mais elles sont aussi liées à une activité sur Bitcoin. S’il y a une fuite, dans le meilleur des cas, vous pourriez faire l’objet de tentatives d’hameçonnage. Mais, dans le pire des cas, vous pourriez devenir une cible privilégiée pour des attaques physiques à votre domicile, ou même être victime d’une usurpation d’identité. 
+La seconde problématique liée au KYC est la possibilité de savoir que vous avez eu du bitcoin. Cette problématique est parfois oubliée par les bitcoiners. L’achat auprès d’un acteur régulé a pour conséquence que l’État pourra savoir que vous avez eu du bitcoin à un moment donné. Peut-être que cela ne vous dérange pas actuellement, et je peux le comprendre, mais n’oubliez pas que vous n’avez pas la main sur l’avenir politique et économique de votre pays.
 
-La seconde problématique liée au KYC est la possibilité de savoir que vous avez eu du bitcoin. Cette problématique est parfois oubliée par les bitcoiners. L’achat auprès d’un acteur régulé a pour conséquence que l’État pourra savoir que vous avez eu du bitcoin à un moment donné. Peut-être que cela ne vous dérange pas actuellement, et je peux le comprendre, mais n’oubliez pas que vous n’avez pas la main sur l’avenir politique et économique de votre pays. 
-
-Tout d’abord, l’État peut rapidement devenir très autoritaire. Les exemples de changements brutaux de politique ne manquent pas dans l’histoire. Aujourd’hui, en France, les bitcoiners peuvent écrire des articles, participer à des conférences et utiliser des “unhosted wallet” comme bon leur semble. Il existe quelques pressions regrettables sur certains acteurs, mais nous ne sommes pas encore dans une réelle dystopie. Mais qui sait ? Peut-être que demain Bitcoin deviendra l’ennemi public numéro un. Peut-être qu’il sera le bouc émissaire justifiant tous nos malheurs. Et, à ce moment-là, cela pourrait être utile de ne pas avoir son nom associé au bitcoin dans les fichiers de l’État. 
+Tout d’abord, l’État peut rapidement devenir très autoritaire. Les exemples de changements brutaux de politique ne manquent pas dans l’histoire. Aujourd’hui, en France, les bitcoiners peuvent écrire des articles, participer à des conférences et utiliser des “unhosted wallet” comme bon leur semble. Il existe quelques pressions regrettables sur certains acteurs, mais nous ne sommes pas encore dans une réelle dystopie. Mais qui sait ? Peut-être que demain Bitcoin deviendra l’ennemi public numéro un. Peut-être qu’il sera le bouc émissaire justifiant tous nos malheurs. Et, à ce moment-là, cela pourrait être utile de ne pas avoir son nom associé au bitcoin dans les fichiers de l’État.
 
 Ensuite, l’État peut aussi avoir de graves difficultés économiques justifiant une saisie des bitcoins détenus par les Français. Peut-être que les bitcoiners, demain, seront qualifiés de “profiteurs de guerre” et seront taxés à outrance pour leurs “superprofits”.
 
 Alors, vous me direz sûrement que ce n’est pas grave, puisque vos bitcoins sont mixés et que personne ne peut les tracer. Mais le traçage n’est pas le problème ici. Le problème est que l’État est en capacité de savoir que vous avez eu du bitcoin à un moment donné. Cette simple information pourra suffire à vous incriminer ou à vous demander des comptes. Vous pourriez alors trouver des excuses et leur dire que vous avez déjà dépensé vos bitcoins, mais cela devrait apparaître dans votre déclaration fiscale et vous vous ferez coincer. Vous pourriez aussi dire que vous avez perdu vos clés dans un accident de bateau. Mais au-delà de la blague sur Twitter, pensez-vous sérieusement que cela va suffire ?
 
-La troisième problématique du KYC est qu’il constitue un point d’entrée pour réaliser de l’analyse on-chain. L’objectif de ces analyses est de trouver des clusters d’adresses, de les associer à un utilisateur unique et d’observer son comportement. Lorsque vous réalisez un KYC, si vous ne prenez pas d’autres précautions pour faire respecter votre vie privée, un analyste ayant accès à votre identification pourra faire un lien indéniable entre votre identité personnelle et votre portefeuille. Il pourra ensuite tracer vos paiements et observer toute votre vie, un peu comme votre banquier dans le système traditionnel. 
+La troisième problématique du KYC est qu’il constitue un point d’entrée pour réaliser de l’analyse on-chain. L’objectif de ces analyses est de trouver des clusters d’adresses, de les associer à un utilisateur unique et d’observer son comportement. Lorsque vous réalisez un KYC, si vous ne prenez pas d’autres précautions pour faire respecter votre vie privée, un analyste ayant accès à votre identification pourra faire un lien indéniable entre votre identité personnelle et votre portefeuille. Il pourra ensuite tracer vos paiements et observer toute votre vie, un peu comme votre banquier dans le système traditionnel.
 
 En fonction de ces trois risques, et de votre appréciation de ceux-ci, vous pourrez juger de la pertinence d’une méthode d’acquisition de bitcoins.
 
- 
 Produire du déni plausible
 
 Il existe deux grandes familles de techniques et d’outils pour la vie privée de l’utilisateur sur Bitcoin :
@@ -591,28 +551,26 @@ Il existe deux grandes familles de techniques et d’outils pour la vie privée 
               – Les outils et méthodes qui agissent on-chain.
               – Les outils et méthodes qui agissent off-chain.
 
-L’acquisition en non-KYC entre dans cette seconde famille. Cela n’agit pas sur le système, mais bien en dehors du système. Une fois que l’on a acquis ses bitcoins sans KYC, il sera donc important de conserver l’anonymat de ses clés et d’embrouiller le traçage. On va ainsi utiliser des outils on-chain. 
+L’acquisition en non-KYC entre dans cette seconde famille. Cela n’agit pas sur le système, mais bien en dehors du système. Une fois que l’on a acquis ses bitcoins sans KYC, il sera donc important de conserver l’anonymat de ses clés et d’embrouiller le traçage. On va ainsi utiliser des outils on-chain.
 
 Le plus connu et le plus efficace de tous pour casser le traçage est le CoinJoin. Le CoinJoin est une transaction collaborative spécifique sur Bitcoin dont l’objectif est de produire du déni plausible. Plusieurs participants mettent un certain montant en entrée d’une transaction et le récupèrent en sortie. La structure de ce type de transaction produit plusieurs sorties de même montant. Il est alors impossible pour un observateur extérieur de savoir quelle sortie correspond à quelle entrée. Chaque pièce est cachée dans un groupe avec d’autres pièces totalement identiques.
 
-Le CoinJoin, lorsqu’il est bien réalisé, est très efficace pour rendre obsolète toute tentative de traçage on-chain. Il casse l’historique de la pièce, et donc empêche les traçages passé → présent, mais également les traçages présent → passé. 
+Le CoinJoin, lorsqu’il est bien réalisé, est très efficace pour rendre obsolète toute tentative de traçage on-chain. Il casse l’historique de la pièce, et donc empêche les traçages passé → présent, mais également les traçages présent → passé.
 
 Il existe différentes implémentations de CoinJoin sur Bitcoin. Les plus connues sont Whirlpool, JoinMarket et Wabisabi. Les approches de ces dernières sur le CoinJoin sont très différentes. Je vous conseille de faire vos propres recherches sur les avantages et inconvénients de chacune d’entre elles avant de vous lancer. Personnellement, je préfère utiliser Whirlpool pour de nombreuses raisons. Cette implémentation est disponible sur l’application mobile Samouraï Wallet, sur le logiciel PC Sparrow Wallet et sur l’application Envoy liée au hardware wallet Passport.
 
-Cette technique du CoinJoin est très efficace pour produire du déni plausible lorsque vous souhaitez conserver vos fonds. En revanche, sa rigidité la rend inutilisable dans le cadre d’une dépense directe. Il existe ainsi d’autres outils permettant d’embêter le traçage, spécifiquement optimisés pour une transaction de dépense. 
+Cette technique du CoinJoin est très efficace pour produire du déni plausible lorsque vous souhaitez conserver vos fonds. En revanche, sa rigidité la rend inutilisable dans le cadre d’une dépense directe. Il existe ainsi d’autres outils permettant d’embêter le traçage, spécifiquement optimisés pour une transaction de dépense.
 
-Parmi les meilleurs, il y a les transactions Stonewall et StonewallX2. Ce sont des sortes de mini CoinJoin, collaboratifs ou non, avec certaines sorties identiques. Leur rigidité sur les sorties est réduite, et elles permettent de déterminer des montants libres afin de faire un paiement. 
+Parmi les meilleurs, il y a les transactions Stonewall et StonewallX2. Ce sont des sortes de mini CoinJoin, collaboratifs ou non, avec certaines sorties identiques. Leur rigidité sur les sorties est réduite, et elles permettent de déterminer des montants libres afin de faire un paiement.
 
-Une autre technique très efficace pour embrouiller le traçage lors d’un paiement est le PayJoin, également nommé Stowaway ou P2EP. La spécificité du PayJoin est qu’il produit une transaction qui parait banale, mais qui est en réalité un mini CoinJoin entre deux utilisateurs. Pour cela, sa structure fait intervenir le destinataire de la transaction dans les entrées aux côtés du payeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet de le payer. 
+Une autre technique très efficace pour embrouiller le traçage lors d’un paiement est le PayJoin, également nommé Stowaway ou P2EP. La spécificité du PayJoin est qu’il produit une transaction qui parait banale, mais qui est en réalité un mini CoinJoin entre deux utilisateurs. Pour cela, sa structure fait intervenir le destinataire de la transaction dans les entrées aux côtés du payeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet de le payer.
 
 Ce qui est intéressant avec le PayJoin, c’est qu’il remplit deux objectifs distincts. Tout d’abord, il vise à tromper un observateur extérieur en produisant un leurre grâce à la loi empirique de la propriété commune des entrées d’une transaction. Ensuite, son second objectif est de tromper un observateur extérieur sur le montant réel de la transaction, grâce à la structure des outputs. Le principe du PayJoin se rapproche ainsi du domaine de la stéganographie. Il permet de cacher le montant réel d’une transaction au sein d’une fausse transaction.
 
- 
 Conclusion
 
 L’acquisition de bitcoins présente de nombreux risques pour la vie privée de l’utilisateur. Les trois principaux sont : la fuite de données, le point d’entrée pour une analyse on-chain et l’information que vous possédez du bitcoin. Les méthodes d’achat et d’acquisition peuvent donc être classées sur un curseur en fonction de leur capacité à limiter ces risques.
 
 L’acquisition de bitcoins en non-KYC et les outils de privacy on-chain sont complémentaires. Les deux répondent à des risques différents pour votre vie privée.
 
-
-## renvoyer vers des ressource sur la vie privé 
+## renvoyer vers des ressource sur la vie privé

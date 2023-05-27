@@ -1,14 +1,11 @@
 ---
-name:  Mise en place d’un nœud Bitcoin & Lightning
+name: Mise en place d’un nœud Bitcoin & Lightning
 goal: Mise en place d’un noeud Bitcoin et Lightning via Umbrel. Analyse de la blockchain, création et gestion de canaux.
 ---
 
-
-
 Un voyage vers le côté technique de Bitcoin
 
-
-:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
+:[affiche du cours](BTC101_vignette-presentation-front.png)
 
 Voici la formation pratique Lightning Network et BTC !
 
@@ -18,7 +15,6 @@ Voici la formation pratique Lightning Network et BTC !
     Comprendre le principe de transaction, mineur et blockchain.
 
 Cette formation est donc pour montrer le cas concret, réel, palpable de Bitcoin et du Lightning Network. On se salit les mains ! Ceci reste accessible pour tous et pas besoin de savoir coder.
-
 
 Qu’allez-vous apprendre durant ce cours ?
 N
@@ -32,12 +28,9 @@ L’objectif final de cette formation est d’avoir une très bonne compréhensi
 
 Le curriculum complet: LN 202 – Curriculum
 
-
-
 Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
 
-
-contributeur financier au lancement: 
+contributeur financier au lancement:
 
 Contributeurs : Drikxe, Thomas, Samuel, Fabrice, Marco, OsyGeni, Gregory, Fabien, Lounès
 
@@ -51,7 +44,7 @@ Team créateur
 
 ---
 
-A propose du prof. 
+A propose du prof.
 
 Rogzy
 
@@ -65,7 +58,6 @@ Bitcoin est un outil de libération financière. En apprenant à l’utiliser, v
 
 Rogzy
 
-
 Team contributeur:
 
         Rogzy – production
@@ -73,8 +65,8 @@ Team contributeur:
         Silexperience – design
         Sarah  – Thumbnails
 
-
 ---
+
 Matériel prérequis
 
 Nous allons créer nous-même notre nœud Bitcoin, ouvrir des canaux Lightning et essayer un portefeuille multi-signature. Ceci a un coût matériel non négligeable pour certaines personnes. Sachez que la totalité de la formation peut être suivie SANS le matériel. Vous ne serez pas perdu(e) si vous n’avez pas votre propre nœud.
@@ -94,16 +86,13 @@ D’autre solution deja toute faite existe !
 
 -> Mettre les liens
 
-
 ---
 
 Curriculum:
 
 ## introduction et disclaimer
 
-
 ## update des changements
-
 
 # Section 1 : Noeud Bitcoin
 
@@ -114,7 +103,6 @@ Curriculum:
 ## Chapitre 2 – Qu’est-ce qu’un nœud Bitcoin ?
 
 ![qu'est ce qu'un noeud?](https://youtu.be/19YgL9vkHh4)
-
 
 Les nœuds Bitcoin représentent le réseau Bitcoin. C’est donc le logiciel Bitcoin qui tourne sur une machine et qui se connecte à l’autre membre du réseau. Ensemble, ils forment Bitcoin en agissant sur les mêmes règles. Un nœud à différentes fonctions :
 
@@ -128,12 +116,9 @@ Un nœud ne permet pas de miner du bitcoin ou de gagner de l’argent.
 
 Ici, Umbrel via un Rasperrie Pi permettra également d’avoir un nœud Lightning Network.
 
-
-
 ## Chapitre 3 – Tutoriel nœud Bitcoin via Umbrel
 
 ![Tuto umbrel](https://youtu.be/mr4iTzdTczI)
-
 
 Matériel prérequis
 
@@ -161,7 +146,6 @@ Que faut-il pour faire tourner son nœud Bitcoin ?
 
 Vous pouvez donc faire tourner votre nœud Bitcoin directement sur votre ordinateur ou utiliser un système comme sur la vidéo avec un Rasperrie Pi.
 
-
 ## Chapitre 4 – Overview de Umbrel
 
 ![umbrel overview](https://youtu.be/cwEa61BgemM)
@@ -178,50 +162,37 @@ Umbrel est un logiciel qui permet de faire tourner BTC Core et un nœud Lightnin
 
 C’est avec ce logiciel que nous allons explorer le reste du cours.
 
-
-
 ## Chapitre 5 – Analyse de la MemPool
 
 ![mempool](https://youtu.be/0xS859IoMh8)
-
-
 
 Résumé :
 
 La MemPool est l’endroit dans votre nœud Bitcoin où toutes les transactions de bitcoins attendent d’être confirmées dans un bloc. C’est donc une énorme salle d’attente où les transactions sont stockées. Le nœud reçoit une transaction, vérifie si elle est valide et la stock sur la MemPool si c’est le cas. Une fois dans la MemPool, elle attend d’être inscrite dans un bloc par un mineur. Lorsque la transaction est dans le bloc, elle est retirée de la MemPool car elle est désormais inscrite dans la blockchain. Tout le monde possède une MemPool différente et indépendante car chaque nœud est unique.
 
-
-
 ## Chapitre 6 – Block Explorer & Analyse Stats
 
 ![block explorer et analyse stat](https://youtu.be/Qe9VaUhUS0E)
-
 
 Résumé :
 
 Votre nœud entier Bitcoin vous donne accès à l’intégralité de l’historique des transactions bitcoin. Via un block explorer, vous pouvez donc analyser cette donnée et auditer le passé. Lorsqu’une transaction est dans un bloc, elle devient immuable dans le temps. Vous pouvez alors être certain que ce que vous voyez depuis votre nœud Bitcoin sont des âmes écrites dans l’histoire, n’en déplaise à Big Brother. Le passé ne peut être modifié. Les blocs explorer peuvent donc vous donner des stats sur les transactions, l’utilité du réseau, les blocs, les utilisateurs, les mineurs et bien d’autres données. C’est un outil indispensable pour des analystes.
 
-
 ## Chapitre 7 – Connecter son portefeuille à son nœud
 
 ![connecter osn portefeuille à son noued](https://youtu.be/HOV3bVcram4)
-
 
 Résumé :
 
 Votre nœud complet Bitcoin vous permet de couper les intermédiaires de confiance entre votre portefeuille et le réseau Bitcoin. Vous devez donc connecter votre portefeuille mobile ou logiciel desktop à votre nœud. Ceci se fait via des manipulations relativement simples et accessibles à tous. Une fois connecté, votre portefeuille transmettra les transactions via votre propre nœud/serveur Bitcoin.
 
-
 ## Chapitre 8 – Les Portefeuille multi-sig via Specter
 
 ![les portefeuille multi sig](https://youtu.be/mV1KS-Uwjew)
 
-
 Résumé :
 
 Un portefeuille multi-signature permet de diviser l’accès au coffre-fort Bitcoin par différentes clés privées. C’est un système de sécurité poussé pour sourcer de larges sommes. Le but est de rendre l’accès à l’argent difficile. Cela pourrait empêcher de potentielles attaques à 5€ ou qu’un de vos associés parte avec l’argent. Les portefeuilles multi-sig peuvent prendre de nombreuses formes. Par exemple, 2 clés sur 3 ou 3 clés sur 5 sont standards dans l’industrie. A la création de votre portefeuille multi-sig, vous devrez choisir : – le nombre de clés à la création – le nombre de clés nécessaires pour avoir accès ou déplacer l’argent Par exemple, 2 clés sur 3 ou 3 clés sur 5 sont standards dans l’industrie.
-
-
 
 # Section 2 : Lightning Network
 
@@ -237,21 +208,17 @@ Les frais sont donc une transaction on-chain donc profitez que la MemPool soit v
 
 On n’oublie pas de sauvegarder l’état de ces canaux et on pense aux watch tower.
 
-
 ## Chapitre 10 – Gestion des canaux LN
 
 ![gestion des canaux LN](https://youtu.be/CgBnGQLar4o)
-
 
 Résumé :
 
 La gestion de Canaux LN n’est pas forcément simple, il faut faire attention à la liquidité et savoir rééquilibrer cette dernière. Des solutions comme Loop ou le rebalancing existe pour remplir cette tâche. Afin d’analyser nos canaux, le routage et le reste, nous utilisons des solutions comme Ride The Lightning et ThunderHub. Nous regarderons ici comment les utiliser. Le plus important dans cette vidéo est la section des frais. Dans le LN, il existe 2 type de frais : les frais fixes pour chaque routage et les frais variables en pourcentage ppm du montant routé. On va regarder comment les modifier et bien les comprendre. La sécurité dans LN est différente de celle on-chain, il faut donc comprendre les closes de fermeture et l’utilisation de WatchTower.
 
-
 ## Chapitre 11 – Renommer son nœud LN
 
 ![renommer son noeud LN](https://youtu.be/HnK1_TDYXsY)
-
 
 Résumé :
 Changer l’alias de votre nœud LN permet aux gens de vous reconnaitre dans le réseau, et puis c’est cool. On va donc regarder comment faire via des lignes de commande : Pour voir les instructions, clique ici ! Sinon, voici le processus :
@@ -266,8 +233,7 @@ Changer l’alias de votre nœud LN permet aux gens de vous reconnaitre dans le 
     Validez avec Y
     Validez avec entrer
 
-Relancez votre Umbrel via le menu setting de l’interface. Et voilà, vous avez changé votre nom. Vous pouvez désormais claim votre nœud sur 1ML ou Amboss : 1ML – Vous devez ouvrir un canal avec le montant indiqué 👉 Mon 1ML : https://1ml.com/node/02f1dd194c270b5ffeb9f3418ab5bd37e20e85107d97d0285ccdfebf5ee62c397b Ambos – Vous devez signer une transaction avec votre nœud LN (faites-le depuis l’interface de ThunderHub sous tools, message signé) 👉 Mon Amboss : https://amboss.space/node/02f1dd194c270b5ffeb9f3418ab5bd37e20e85107d97d0285ccdfebf5ee62c397b 👉 Connecte ton nœud avec le mien ! 02f1dd194c270b5ffeb9f3418ab5bd37e20e85107d97d0285ccdfebf5ee62c397b@nnqvu5yssejj2sthtnzwjxffv32pqsz3elynhrypzrp5f5gmofpijzad.onion:9735 Bonne chance !  
-
+Relancez votre Umbrel via le menu setting de l’interface. Et voilà, vous avez changé votre nom. Vous pouvez désormais claim votre nœud sur 1ML ou Amboss : 1ML – Vous devez ouvrir un canal avec le montant indiqué 👉 Mon 1ML : https://1ml.com/node/02f1dd194c270b5ffeb9f3418ab5bd37e20e85107d97d0285ccdfebf5ee62c397b Ambos – Vous devez signer une transaction avec votre nœud LN (faites-le depuis l’interface de ThunderHub sous tools, message signé) 👉 Mon Amboss : https://amboss.space/node/02f1dd194c270b5ffeb9f3418ab5bd37e20e85107d97d0285ccdfebf5ee62c397b 👉 Connecte ton nœud avec le mien ! 02f1dd194c270b5ffeb9f3418ab5bd37e20e85107d97d0285ccdfebf5ee62c397b@nnqvu5yssejj2sthtnzwjxffv32pqsz3elynhrypzrp5f5gmofpijzad.onion:9735 Bonne chance !
 
 ## rate formation
 
@@ -275,10 +241,8 @@ Relancez votre Umbrel via le menu setting de l’interface. Et voilà, vous avez
 
 ![utilisation du LN](https://youtu.be/6yekAvH13E0)
 
-
 Résumé :
 L’utilisation du Lightning Network peut être très simple avec des portefeuilles gratuits comme Wallet for Satoshi ou Blue Wallet. Ici, on utilise le wallet LN directement depuis Umbrel pour payer des invoice LN. Dans ce chapitre, on va donc payer des demandes à 1 SAT en passant par des nœuds intermédiaires et par notre propre canal. Finalement, on se rend compte que via le LN, on peut payer 0 frais lors de l’envoi instantané de microtransactions. Ici, on s’amuse à payer 1 SAT par pixel par exemple.
-
 
 ## Chapitre 13 – LN Market
 
@@ -288,19 +252,13 @@ video non existante
 
 ![accepter bticoin dans son commerce](https://youtu.be/zpCMlLfiRgg)
 
-
-
 Dans ce dernier chapitre de la formation, nous allons regarder comment c’est possible d’accepter Bitcoin pour son commerce. Nous regardons 2 options et 2 nœuds différents. Le premier est BTCPay serveur via notre Umbrel, pui BTCPay via un nœud Luna externe et enfin via OpenNode. Il y a toujours des variations entre les 3 et ceci doit être pris en compte par rapport à vos besoins : – Un restaurateur avec son Umbrel dans l’établiseement peut utiliser BTCpayer directement sous Tor – Un e-commerce ne peut pas utiliser le BTCPay sous Tor de son nœud Umbrel donc il utilisera un nœud externe en clear net comme un Luna Node – Une solution comme OpenNode permet d’avoir une solution tout en un facile pour ne pas se prendre la tête. C’est complexe donc nous allons le traiter dans une formation indépendante. Voici les liens : – OpenNode : https://www.opennode.com/ – BTCPay Server : https://btcpayserver.org/ – Luna Node : https://www.lunanode.com/ et https://docs.btcpayserver.org/Deployment/LunaNode/
 
 J’ai également pu interviewer Nicolas Dorier, le créateur de BTCPay Server ! Pour ceux que ça intéresse, cliquez ici.
 
-
 ## conclusion
 
 ![conclusion](https://youtu.be/QrKbagtUE1s)
-
-
-
 
 Et c’est la fin de la formation n°2 !
 
@@ -314,9 +272,7 @@ Si vous avez fini et exécuté la formation, un grand bravo ! Vous êtes un bon 
 
 Merci à vous d’être restés jusqu’au bout et on se revoit très vite pour la prochaine formation !
 
-
 ## allez plus loins
-
 
 Comment nous soutenir et aller plus loin !
 

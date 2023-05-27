@@ -14,7 +14,7 @@ test
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media 
-![](assets/cover-en.jpg)
+![](assets/cover_en.jpg)
 
 **2. Click "COPY WALLET URL" and make sur to save it somewhere. this is your wallet back-up**
 

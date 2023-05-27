@@ -1,22 +1,17 @@
 ---
-name:  Introduction théorique au Lightning Network
+name: Introduction théorique au Lightning Network
 goal: Découvrir le Lightning Network sous l’angle technique. Comprendre comment sont créés les canaux de paiement, leurs mécanismes de sécurité ainsi que leurs fonctionnements en réseau.
-
 ---
-
-
 
 Un voyage vers la deuxième couche de Bitcoin
 
-
-:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
+:[affiche du cours](BTC101_vignette-presentation-front.png)
 
 Cette formation est un cours théorique sur le fonctionnement technique du Lightning Network.
 
 Ici, je vous invite à découvrir la couche n°2 de Bitcoin. C’est une technologie innovante et très complexe, mais pleine de promesses. Ça sera une formation plus tech, il n’y aura pas de tutoriel ou de cas d’usage. Afin de comprendre au mieux cette formation, une bonne compréhension de Bitcoin est nécessaire. Ce cours peut s’accompagner de LN 102 qui est plus pratique.
 
 Bonne découverte !
-
 
 Qu’allez-vous apprendre durant ce cours ?
 
@@ -26,12 +21,9 @@ Comprendre les termes tels que HTLC, LNURL et UTXO
 Comprendre que le lightniong Network est un réseau
 L'utilisation théorique du Lightning Network
 
-
 Pour pus de détails : LN 201 – Curriculum
 
 Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
-
-
 
 Team créateur
 
@@ -43,8 +35,7 @@ Team créateur
 
 ---
 
-A propose du prof. 
-
+A propose du prof.
 
 Fanis Michalakis
 
@@ -56,13 +47,13 @@ Je suis tombé dans le terrier du Bitcoin en 2017 et tout comme Rogzy, Bitcoin m
 
 Je travaille aujourd’hui chez LN market & anime l’Entonnoir du Bitcoin tous les dimanches avec Rogzy.
 
-
 ---
 
 Curriculum:
 
-Le cours: 
-## 1. Comprendre le Lightning Network 
+Le cours:
+
+## 1. Comprendre le Lightning Network
 
 ![Comprendre le lightning Network](https://youtu.be/PszWk046x-I)
 
@@ -86,11 +77,9 @@ En résumé, les canaux de paiement sur Lightning offrent une solution puissante
 
 Exemple : – Alice a 100 000 SAT – Bob a 30 000 SAT C’est donc l’état actuel du canal. Lors d’une transaction, Alice décide d’envoyer 40 000 SAT à Bob. Elle peut car 40 000<100 000. Le nouvel état du canal est donc : – Alice 60 000 SAT – Bob 70 000 SAT Désormais, Bob souhaite envoyer 80 000 SAT à Alice. N’ayant pas la liquidité, il ne peut pas. La capacité maximum du canal est de 130 000 SAT, avec une possible dépense d’Alice de 60 000 et 70 000 pour Bob.
 
-
-## 2. Bitcoin, adresses, UTXO et transactions 
+## 2. Bitcoin, adresses, UTXO et transactions
 
 ![bitcoin, adresses, utxo et transactions](https://youtu.be/cadCJ2V7zTg)
-
 
 Dans ce second épisode, un peu hors série, nous prenons le temps d’étudier comment fonctionnent réellement les transactions Bitcoin, ce qui nous sera bien utile pour comprendre Lightning. Nous nous attardons aussi un instant sur la notion d’adresse multi-signature, qui est capitale pour comprendre le prochain épisode, qui sera consacré à l’ouverture de canaux sur le Lightning Network. – Clé privée > Clé publique > Adresse Lors d’une transaction, Alice envoie de l’argent à Bob. Ce dernier fournit une adresse donnée par sa clé publique. Alice qui a elle-même reçu l’argent sur une adresse via sa clé publique utilise désormais sa clé privée pour signer la transaction et ainsi débloquer les bitcoins de l’adresse. – Lors d’une transaction, dans Bitcoin tous les bitcoins doivent bouger. Nommé UTXO (Unspend Transaction Output), les bouts de bitcoin vont tous partir quitte à retourner après chez le propriétaire même :
 
@@ -98,7 +87,7 @@ Dans ce second épisode, un peu hors série, nous prenons le temps d’étudier 
 
 Ici de une UTXO (Alice a 0.0002 BTC sur une adresse) nous avons donc créée 2 UTXO (Bob a 0.0015 et Alice a récupéré un nouvelle UTXO (indépendent du précedent) de 0.0005 BTC). – Dans Lightning Network, on utilise des multi-signatures. Il faut donc 2 signatures pour débloquer les fonds, à savoir deux clé privées pour déplacer l’argent. Cela peut donc être Alice et Bob qui, ensemble, doivent accepter de débloquer l’argent (l’UTXO). Dans LN précisément, ce sont des transactions 2/2 donc il faut absolument les 2 signatures contrairement au multi-signatures 2/3 ou 3/5 où il faut seulement une combinaison du nombre complet de clés.
 
-## 3. Ouvrir un canal 
+## 3. Ouvrir un canal
 
 ![ouvrir un canal](https://youtu.be/B2caBC0Rxko)
 
@@ -131,11 +120,9 @@ Une fois les deux transactions construites, elle annonce à Bob que c’est fait
 
 Alice peut donc récupérer les fonds seule, elle a déjà la signature de Bob. Elle publie donc les transactions. Le canal est donc ouvert avec désormais 0.0013 BTC (130 000 SAT) du côté d’Alice.
 
-
-## 4. Transaction Lightning & d’engagement 
+## 4. Transaction Lightning & d’engagement
 
 ![trasanction lightning & transaction d'engagement](https://youtu.be/aPqI34tpypM)
-
 
 Dans ce quatrième épisode, nous analysons ce qui se passe réellement en coulisse lorsqu’on transfert des fonds d’un côté à l’autre d’un canal sur le Lightning Network, avec notamment la notion de transaction d’engagement. La transaction de retrait/fermeture on-chain représente l’état du canal, ceci garantit à qui appartient les fonds après chaque transfert. Donc après un transfert Lightning Network, il y a une mise à jour de cette transaction/contact non réalisé entre les deux pairs, Alice et Bob créent donc une même transaction avec l’état du canal actuel au cas où il a une fermeture :
 
@@ -145,12 +132,9 @@ Dans ce quatrième épisode, nous analysons ce qui se passe réellement en couli
 
 L’argent ne bouge donc jamais mais la balance finale s’actualise via une transaction signée mais non publiée on-chain. La transaction de retrait est donc une transaction d’engagement. Les transferts de satoshis sont une autre transaction d’engagement plus récente qui actualise la balance.
 
-
-## 5. Transactions, deuxième partie 
+## 5. Transactions, deuxième partie
 
 ![transactions partie 2](https://youtu.be/RRvoVTLRJ84)
-
-
 
 Si les transactions d’engagement dictent un état du canal avec la liquidité au moment X, peut-on tricher en publiant une ancienne et donc un ancien état ? La réponse est oui car on a déjà la pré signature des deux participants dans la transaction non publiée.
 
@@ -165,7 +149,7 @@ Désormais (et en réalité) la transaction d’engagement n’est pas la même 
 
     Alice crée le canal avec Bob, 130 000 de son coté, elle a un Timelock qui l’empêche de recouper immédiatement son argent, elle doit attendre un peu. La clé de révocation peut débloquer l’argent mais seul Alice l’a (transaction d’engagement d’Alice)
 
-    Une fois qu’il y a un transfert, Alice va fournir son ancien secret à Bob et donc ce dernier pourra en cas de triche vider le canal à l’état précédent au cas ou Alice essaie de tricher (Alice est donc punie). De la même façon, Bob va fournir son secret à Alice. Pour que s’il essaie de tricher Alice puisse le punir. 
+    Une fois qu’il y a un transfert, Alice va fournir son ancien secret à Bob et donc ce dernier pourra en cas de triche vider le canal à l’état précédent au cas ou Alice essaie de tricher (Alice est donc punie). De la même façon, Bob va fournir son secret à Alice. Pour que s’il essaie de tricher Alice puisse le punir.
 
 L’opération se répète à chaque nouvelle transaction d’engagement. Un nouveau secret est décidé et une nouvelle clé de révocation. Donc pour chaque nouvelle transaction, il faut détruire la transaction d’engagement précédente en donnant le secret de révocation. Ainsi si Alice ou Bob essaie de tricher, l’autre peut agir avant (grâce du Timelock) et donc éviter une triche.
 
@@ -173,12 +157,9 @@ Lors de la transaction n°3, on donne donc le secret de la transaction n°2 pour
 
 La personne qui crée la transaction avec le Timelock (celui qui envoie l’argent) peut utiliser la clé de révocation uniquement après le Timelock. Cependant la personne qui reçoit l’argent, peut l’utiliser avant le Timelock en cas de triche d‘un côté à l’autre d’un canal sur le Lightning Network. En particulier, nous passons en détail les mécanismes qui permettent de se prémunir d’une éventuelle tricherie de la part de son pair au sein du canal.
 
-
-## 6. Fermer un canal 
+## 6. Fermer un canal
 
 ![fermer un canal](https://youtu.be/FVmQvNpVW8Y)
-
-
 
 Dans ce sixième épisode, nous nous intéressons à la fermeture de canal au travers d’une transaction Bitcoin, pouvant prendre différentes formes suivant les cas. Il existe 3 types de fermeture de canal :
 
@@ -193,13 +174,9 @@ Le bon : Les deux pairs se parlent et acceptent de fermer le canal. Ils arrêten
 
 Ceci rend donc la fermeture forcée plus longue (Timelock) et surtout plus hasardeuse ne terme de frais et donc possible validation par les mineurs. Le truand : Alice essaie de tricher en publiant une ancienne transaction d‘engagement. Mais Bob surveille la MemPool et guette s’il y a des transactions qui essaient d’en publier des anciennes. S’il en trouve, il utilise la clé de révocation pour punir Alice et prendre tous les SAT du canal.
 
-
-
-## 7. Lightning le Réseau 
+## 7. Lightning le Réseau
 
 ![lighting le réseau](https://youtu.be/RAZAa3v41DM)
-
-
 
 Dans ce septième épisode, nous étudions le fonctionnement de Lightning en tant que réseau de canaux et comment des paiements sont acheminés de leur source vers leur destination.
 
@@ -223,13 +200,15 @@ Ce n’est pas possible car Susie n’a pas de liquidité avec Alice pour lui en
 
 Dans l’exemple 1, on remarque bien que Susie et Eden n’ont rien perdu et rien gagné. Pour accepter d’être utilisés pour router la transaction, les nœuds Lightning Network demandent des frais !
 
-Il y a des frais différents en fonction d’où se trouve la liquidité 
+Il y a des frais différents en fonction d’où se trouve la liquidité
 
 Alice – Bob
+
 - Frais d’Alice = Alice -> Bob
 - Frais de Bob = Bob -> Alice
 
 Il y a deux types de frais :
+
 - Les frais fixes quel que soit le montant : 1 SAT (par défaut mais modifiable)
 - Les frais variable (0.01% par défaut)
 
@@ -242,7 +221,7 @@ Exemple de frais :
 Donc :
 Frais 1 : (payé par Alice a elle-même) 1 + (40 000*0.000001)
 Frais 2 : 0 + 40 000 * 0.0002 = 8 SAT
-Frais 3 : 1 + 40 000* 0.000001 = 0.4 SAT
+Frais 3 : 1 + 40 000\* 0.000001 = 0.4 SAT
 
 Envoi :
 1 – Envoi de 40 009.04 Alice -> Susie ; Alice paye a elle-même ses frais donc cela ne compte pas
@@ -257,18 +236,15 @@ Pour Susie ou Eden : ils ne savent pas qui est le destinataire final, ni celui q
 
 Ceci est un routage en oignon. Le nœud doit donc garder un plan du réseau pour trouver sa route, mais aucun des intermédiaires n’a d’information.
 
-
-## 8. HTLC 
+## 8. HTLC
 
 ![HTLC](https://youtu.be/-JC4mkq7H48)
-
-
 
 Dans un système de routage classique, Alice 100 000 -> 30 000 Susie 250 000 -> Bob 0, comment s’assurer qu’Eden ne triche pas et respecte bien sa part du contrat ?
 
 HTLC – Hashed Time Locked Contract
 
-HTLC est donc un contact de paiement où l’on peut déverrouiller uniquement avec un secret. S’il n’est pas dévoilé, alors le contrat expire.  C’est donc un paiement conditionnel. Comment sont-ils utilisés ?
+HTLC est donc un contact de paiement où l’on peut déverrouiller uniquement avec un secret. S’il n’est pas dévoilé, alors le contrat expire. C’est donc un paiement conditionnel. Comment sont-ils utilisés ?
 
     Bob génère un secret S (la préimage) et en calcule le hash r= hash(s)
     Bob envoie une invoice à Alice avec notamment « r »
@@ -304,12 +280,9 @@ En cas de fermeture coopérative : on arrête les paiements et donc on attend l�
 
 Si fermeture forcée : on publie avec tous les HTLC en cours, ça devient donc très lourd et très coûteux. Et c’est le bordel.
 
-
-## 9. Trouver sa voie 
+## 9. Trouver sa voie
 
 ![trouver sa voie](https://youtu.be/wnUGJjOxd9Q)
-
-
 
 La seule donnée publique est la capacité totale du canal (Alice + Bob) mais on ne sait pas où se trouve la liquidité.
 Pour avoir plus d’infos, notre nœud écoute le canal de communication du LN pour des annonces de nouveaux canaux et les mises à jour des frais des canaux. Votre nœud regarde aussi la blockchain pour la fermeture de canaux.
@@ -366,12 +339,9 @@ Bob connait la liquidé des canaux 5 et 3 car il est directement connecté avec,
 
 Un autre élément serait les canaux privé (donc non publiés au réseaux) que Bob peut avoir. Si Bob a un canal privé avec 1, il peut dire à Alice de l’utiliser et ça donnerait Alice > 1 > Bob
 
-
-## 10. Invoice, LNURL, Keysend 
+## 10. Invoice, LNURL, Keysend
 
 ![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
-
-
 
 Un invoice c’est long et chiant, mais ça fait une demande de paiement.
 
@@ -393,8 +363,8 @@ lnbc1m ->
 ln = Lightning
 Bc = bitcoin (mainnet)
 1 = montant
-M = milli (10*-3 / u = micro 10*-6 / n = nano 10*-9  / p = pico 10*-12
-Ici 1m = 1 * 0.0001btc = 100 000 BTC
+M = milli (10*-3 / u = micro 10*-6 / n = nano 10*-9 / p = pico 10*-12
+Ici 1m = 1 \* 0.0001btc = 100 000 BTC
 
 « Prié de payer 100 000 SAT sur le réseau Lightning du mainnet bitcoin
 
@@ -417,11 +387,9 @@ Un Keysend permet à Alice d’envoyer de l’argent à Bob sans avoir la demand
 
 ## note la formation
 
-## 11. Gérer sa liquidité 
+## 11. Gérer sa liquidité
 
 ![gerer sa liquidité](https://youtu.be/YuPrbhEJXbg)
-
-
 
 Dans ce onzième épisode, nous donnons quelques repères généraux pour répondre à la sempiternelle question de la gestion de la liquidité sur Lightning.
 
@@ -451,14 +419,11 @@ Le plus compliqué dans LN est de garder la liquidité :
     Fermer et ouvrir des canaux
     Attendre que les nœuds de routage réorganisent leur liquidité
 
-
 ## conclusion
 
 ![conclusion](https://youtu.be/MaWpD0rbkVo)
 
-
-
-Ceci est la fin de la formation Lightning Network Technique de Fanis. Un immense merci à lui pour son temps et pour avoir partager ses connaissances. Si vous souhaitez lui faire une donation en LN ou bitcoin, les adresses sont en bas de la page ! 
+Ceci est la fin de la formation Lightning Network Technique de Fanis. Un immense merci à lui pour son temps et pour avoir partager ses connaissances. Si vous souhaitez lui faire une donation en LN ou bitcoin, les adresses sont en bas de la page !
 
     Et maintenant ? Voici quelques pistes :
 
@@ -469,7 +434,7 @@ Ceci est la fin de la formation Lightning Network Technique de Fanis. Un immense
 
 Il y a beaucoup à voir donc n’hésites pas à nous follow pour ne rien louper !
 
-Si tu veux nous laisser un mot d’encouragement ou si tu as des questions sur la formation, laisse les nous ci-dessous ! On se fera un plaisir d’y répondre ! 
+Si tu veux nous laisser un mot d’encouragement ou si tu as des questions sur la formation, laisse les nous ci-dessous ! On se fera un plaisir d’y répondre !
 
 Merci à vous et merci Fanis !
 Bisous et à très bientôt !
@@ -486,9 +451,7 @@ Ensuite, si vous souhaitez aider le projet, n’hésitez pas à nous sponsoriser
 
 Fini la théorie et place à la pratique avec la formation LN 202 désormais !
 
-
 ## Interview avec Fanis sur la vie privée dans Lightning
-
 
 ![interview avec Fanis](https://youtu.be/VeJ4oJIXo9k)
 

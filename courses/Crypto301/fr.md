@@ -1,16 +1,13 @@
 ---
-name:  Introduction à la cryptographie
+name: Introduction à la cryptographie
 goal: Comprendre la création d’un portefeuille Bitcoin d’un point de vue cryptographique
 ---
 
-
 Un voyage vers la cryptographie
 
+:[affiche du cours](BTC101_vignette-presentation-front.png)
 
-:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
-
-Loïc nous propose un cours technique sur la cryptographie utilisée dans les portefeuilles Bitcoin. Ce cours de 3ème année ira en profondeur sur les outils employés pour créer un portefeuille Bitcoin depuis la recherche d’entropie jusqu’à la dérivation des adresses. Des termes techniques tels que le hachage, la dérivation des clés, les courbes elliptiques et autres seront expliqués en détail. 
-
+Loïc nous propose un cours technique sur la cryptographie utilisée dans les portefeuilles Bitcoin. Ce cours de 3ème année ira en profondeur sur les outils employés pour créer un portefeuille Bitcoin depuis la recherche d’entropie jusqu’à la dérivation des adresses. Des termes techniques tels que le hachage, la dérivation des clés, les courbes elliptiques et autres seront expliqués en détail.
 
 Qu’allez-vous apprendre durant ce cours ?
 
@@ -20,16 +17,13 @@ Démystifier les termes compliqués des wallets
 Permettre aux étudiants de comprendre la structure d’un wallet
 Préparer l’étudiant à suivre un cours plus poussé sur la cryptographie
 
-
- Si ce plan vous convient, je vous invite à suivre mon cours. Vous pouvez aller à votre rythme et faire comme bon vous semble. En espérant vous retrouver bientôt. Merci pour votre intérêt dans mon projet.
+Si ce plan vous convient, je vous invite à suivre mon cours. Vous pouvez aller à votre rythme et faire comme bon vous semble. En espérant vous retrouver bientôt. Merci pour votre intérêt dans mon projet.
 
 Curriculum : CRYPTO 301 – Introduction à la cryptographie
 
-
 Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
 
-
-contributeur financier au lancement: 
+contributeur financier au lancement:
 
 Contributeurs : Drikxe, Thomas, Samuel, Fabrice, Marco, OsyGeni, Gregory, Fabien, Lounès
 
@@ -43,8 +37,7 @@ Team créateur
 
 ---
 
-A propose du prof. 
-
+A propose du prof.
 
 Loïc Morel
 PDG de Pandul
@@ -57,7 +50,6 @@ Retrouvez tous les travaux de Loic sur sa page professeur
 
 Curriculum:
 
-
 # Chapitre 1 - Introduction
 
 Récuper le texte video
@@ -66,14 +58,12 @@ intro by rogzy - https://youtu.be/ul8zU5QWIXg
 
 intro by loic - https://youtu.be/mwuxXLk4Kws
 
+![Alt Text](Bitcoin démocratisé 1 /\_ Bitcoin et la cryptographie. (2)(1).pdf)
 
-
-![Alt Text](Formation\courses\Crypto301\assets\Bitcoin démocratisé 1 _ Bitcoin et la cryptographie. (2)(1).pdf)
-
-
-![Alt Text](Formation\courses\Crypto301\assets\Bitcoin démocratisé 2 _ Le portefeuille Bitcoin. (1)(1).pdf)
+![Alt Text](Bitcoin démocratisé 2 /\_ Le portefeuille Bitcoin. (1)(1).pdf)
 
 # Chapitre 2 - Les fonctions de hachage
+
 ## 2.1 – Les fonctions de hachage cryptographiques
 
 ![2.1 - les fonctions de hachage cryptographiques](https://youtu.be/dvnGArYvVr8)
@@ -93,11 +83,9 @@ La fonction de hachage SHA-256 est la plus utilisée dans le protocole Bitcoin. 
 La fonction de hachage cryptographique vise à produire une information de taille fixe à partir d'une information de taille variable. Pour être considérée comme sûre, elle doit posséder les caractéristiques suivantes : irréversibilité, résistance à l'altération, résistance aux collisions, et résistance à la seconde préimage.
 Conclusion
 
-Au cours de cet exposé, nous avons étudié les fonctions de hachage cryptographique, leur rôle dans le protocole Bitcoin, et les finalités de la fonction de hachage cryptographique. 
+Au cours de cet exposé, nous avons étudié les fonctions de hachage cryptographique, leur rôle dans le protocole Bitcoin, et les finalités de la fonction de hachage cryptographique.
 
 Dans notre prochain cours, nous étudierons en détail la fonction de hachage SHA256 et les mathématiques qui permettent ses caractéristiques.
-
-
 
 ## 2.2 – Les rouages de SHA256
 
@@ -122,10 +110,6 @@ Pour recevoir une information de taille arbitraire comme entrée de la fonction 
 Nous séparons l'entrée équilibrée en différents blocs de messages de 512 bits, puis effectuons 64 tours de calcul dans la fonction de compression. Nous additionnons modulo 2^32 l'état intermédiaire à l'état initial de la fonction de compression. Les additions dans la fonction de compression sont des additions modulo 2^32 pour réduire la taille des sommes à 32 bits.
 
 Nous concluons en soulignant l'importance des calculs effectués dans les boîtes CH, MAJ, σ0 et σ1. CH prend en entrée E, F et G et donne CH(E, F, G), égal à (E AND F) XOR ((NOT E) AND G). MAJORITY prend en entrée A, B et C et donne (A AND B) XOR (A AND C) XOR (B AND C). Ces opérations, parmi d'autres, garantissent la robustesse de la fonction de hachage SHA256 face aux attaques, faisant de celle-ci un choix privilégié pour la sécurisation de nombreux systèmes numériques, notamment au sein du protocole Bitcoin.
-
-
-
-
 
 ## 2.3 – Les algorithmes utilisés pour la dérivation
 
@@ -159,6 +143,7 @@ Ainsi, l'utilisation des algorithmes HMAC et PBKDF2 assure la sécurité de la d
 ![2.3 – Les algorithmes utilisés pour la dérivation](https://youtu.be/ZF1_BMsOJXc)
 
 # Chapitre 3 - Les signatures numériques
+
 ## 3.1 – Signatures numériques et courbes elliptiques
 
 ![3.1 – Signatures numériques et courbes elliptiques](https://youtu.be/gOjYiPkx4z8)
@@ -190,14 +175,12 @@ Plusieurs standards de courbes elliptiques sont reconnus comme étant sécurisé
 
 Pour une compréhension plus approfondie, la clé publique et la clé privée seront examinées de plus près dans la prochaine partie de ce cours, dédiée à la cryptographie sur les courbes elliptiques et à l'algorithme de signature numérique.
 
-
 ## 3.2 – Calculer la clé publique depuis la clé privée
 
 ![3.2 – Calculer la clé publique depuis la clé privée](https://youtu.be/NJENwFU889Y)
 
-
-
 Dans ce cours, nous nous concentrons sur les mécanismes des clés publiques et privées. Pour rappel, ces clés sont mathématiquement liées dans Bitcoin grâce à l'algorithme Elliptic Curve Digital Signature Algorithm (ECDSA).
+
 ### Algorithme ECDSA et clés privées pour Bitcoin
 
 Le protocole Bitcoin exploite un algorithme de signature numérique nommé ECDSA. Dans cette méthode, la clé privée est un nombre aléatoire ou pseudo-aléatoire de 256 bits. Alors que le nombre de possibilités pour une clé privée sur Bitcoin est théoriquement de 2^256, il est légèrement inférieur à cela en réalité. Autrement dit, certaines clés privées de 256 bits ne sont pas valides pour Bitcoin.
@@ -220,7 +203,6 @@ Le prochain cours traitera de la réalisation d'une signature numérique en util
 
 ![3.3 – Signer avec la clé privée](https://youtu.be/h2hIyGgPqkM)
 
-
 Le processus de signature numérique est un moyen de prouver que vous possédez une clé privée sans avoir à la divulguer. Cela s'effectue à l'aide de la méthode ECDSA, qui implique la détermination d'un nonce unique, le calcul du nombre V et la composition de la signature numérique en deux parties, S1 et S2. Il est essentiel de choisir un nonce unique pour prévenir les attaques. Un exemple bien connu de l'échec de cette précaution est celui de la PlayStation 3, qui a été piratée en raison de la réutilisation de nonce.
 
 Pour vérifier une signature numérique, vous devez calculer un point P en utilisant S1, S2, H et K. Si I modulo N est égal à S1, alors la signature est considérée comme valide et la transaction peut être inscrite.
@@ -237,8 +219,8 @@ Ensuite, le portefeuille déterministe hiérarchique, ou HD, est un mécanisme q
 
 Il est essentiel de comprendre comment calculer manuellement une adresse de réception et d'apprendre à utiliser le portefeuille plus efficacement pour renforcer la sécurité de votre crypto-monnaie. Pour en savoir plus sur le portefeuille déterministe hiérarchique, consultez le cours 4.1.
 
-
 # Chapitre 4 - La phrase mnémonique
+
 ## 4.1 – Évolution des portefeuilles Bitcoin
 
 ![4.1 – Évolution des portefeuilles Bitcoin](https://youtu.be/6tmu1R9cXyk)
@@ -259,7 +241,6 @@ En résumé, les BIP32 et BIP39 sont particulièrement importants dans la défin
 
 J'espère que ce cours vous a aidé à approfondir votre compréhension du portefeuille HD et de ses différentes caractéristiques.
 
-
 ## 4.2 – Entropie et nombre aléatoire
 
 ![4.2 – Entropie et nombre aléatoire](https://youtu.be/k18yH18w2TE)
@@ -273,7 +254,6 @@ Une solution à cette difficulté est le portefeuille déterministe hiérarchiqu
 La génération de nombres aléatoires est fondamentale en cryptographie et est essentielle pour assurer la sécurité des clés privées. Pour être sécurisée et éviter toute vulnérabilité liée à la prédictibilité, une clé privée doit être aléatoire.
 
 Utiliser une nouvelle paire de clés pour chaque transaction peut également renforcer la sécurité, mais cela complique la sauvegarde et assure une préservation partielle de la vie privée. En résumé, la sécurité des clés privées est une nécessité absolue et requiert une génération aléatoire rigoureuse. Le portefeuille HD offre une solution pour simplifier la génération et la gestion des clés tout en maintenant un niveau de sécurité élevé.
-
 
 ### Importance de l'aléatoire dans la génération de clés privées pour Bitcoin
 
@@ -297,16 +277,13 @@ Un exemple de cette méthode serait l'option "dice roll" offerte par CoinKit pou
 
 En conclusion, l'aléatoire joue un rôle central dans la cryptographie et l'informatique, et la capacité à générer de l'aléatoire de manière sécurisée est cruciale pour garantir la sécurité des clés privées et des transactions dans Bitcoin. L'entropie, qui est à la base du portefeuille HD de Bitcoin
 
-
 ## Soutiens la formation !
 
-Partage cette formation sur tes réseaux, ca nous aide beaucoup ! oui lounes et muriel faut un truc standard. 
-
+Partage cette formation sur tes réseaux, ca nous aide beaucoup ! oui lounes et muriel faut un truc standard.
 
 ## 4.3 – La phrase mnémonique
 
 ![4.3 – La phrase mnémonique](https://youtu.be/uJERqH9Xp7I)
-
 
 La sécurité d'un portefeuille Bitcoin est primordiale pour tout utilisateur. Pour assurer la sauvegarde du portefeuille, il est essentiel de générer une phrase mémonique à partir de l'entropie et de la checksum.
 
@@ -324,11 +301,9 @@ La sauvegarde de la phrase de récupération de 24 mots est essentielle pour mai
 
 En conclusion, la génération d'une phrase mémonique pour la sécurisation du portefeuille Bitcoin est un processus crucial. Les standards de la phrase mémonique doivent être respectés en fonction de la taille de l'entropie. La sauvegarde de la phrase de récupération de 24 mots est primordiale pour éviter toute perte de fonds. Merci de votre attention et à bientôt pour le prochain cours sur la crypto-monnaie.
 
-## 4.4 – Parenthèse sur la passphrase 
-
+## 4.4 – Parenthèse sur la passphrase
 
 ![4.4 – Parenthèse sur la passphrase ](https://youtu.be/dZkOYO7MXwc)
-
 
 La passphrase est un mot de passe supplémentaire qui peut être ajouté à un portefeuille Bitcoin pour renforcer sa sécurité. C'est un choix optionnel qui revient à l'utilisateur. La passphrase augmente la sécurité d'un portefeuille en ajoutant des informations arbitraires qui, lorsqu'elles sont combinées avec la phrase mémonique, permettent de calculer la graine du portefeuille.
 
@@ -346,14 +321,12 @@ Il est essentiel de prendre soin des sauvegardes de la passphrase pour éviter d
 
 Dans notre prochain cours, nous examinerons de manière approfondie le fonctionnement de la graine et la première paire de clés générée à partir de celle-ci. N'hésitez pas à cliquer sur le cours pour continuer votre apprentissage. Au plaisir de vous retrouver prochainement.
 
-
 ## 4.5 – Création d’une seed depuis 128 lancés de dés ! [ATELIER]
 
 ![4.5 – Création d’une seed depuis 128 lancés de dés ! [ATELIER]](https://youtu.be/lUw-1kk75Ok)
 
-
-
 # Chapitre 5 - Création d’un portefeuille Bitcoin
+
 ## 5.1 – Création de la graine et de la clé maîtresse
 
 ![5.1 – Création de la graine et de la clé maîtresse](https://youtu.be/56yAt_JDWhY)
@@ -372,22 +345,18 @@ Dans notre prochain cours, nous examinerons de manière approfondie le fonctionn
 
 # Chapitre 6 - Les adresses Bitcoin
 
-
-
 ## 6.1 – Les adresses Bitcoin
 
 ![6.1 – Les adresses Bitcoin](https://youtu.be/nqGBMjPtFNI)
 
-
 ## Note cette formation 😀
-
-
 
 ## 6.2 – Comment créer une adresse Bitcoin ?
 
 ![6.2 – Comment créer une adresse Bitcoin ?](https://youtu.be/ewMGTN8dKjI)
 
 # Conclusion
+
 ## Récapitulatif du processus complet par Loïc
 
 ## Soutenir la formation
@@ -399,4 +368,4 @@ Dans notre prochain cours, nous examinerons de manière approfondie le fonctionn
 E-BOOK 1 – Bitcoin et la cryptographie
 E-BOOK 2 – Le portefeuille Bitcoin
 
-Ressources pour aller plus loin 
+Ressources pour aller plus loin

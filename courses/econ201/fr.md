@@ -1,16 +1,11 @@
 ---
-name:  Introduction à l’économie autrichienne
+name: Introduction à l’économie autrichienne
 goal: Découvrir l’école de pensée économique autrichienne. Étudier leurs points de vue sur la société et les réalités macro/micro-économique.
-
 ---
-
-
-
 
 Un voyage vers l’économie
 
-
-:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
+:[affiche du cours](BTC101_vignette-presentation-front.png)
 
 Bienvenue dans la formation de Théo Mogenet !
 
@@ -21,8 +16,6 @@ Cette école de pensées a déjà plusieurs siècles derrière elle et a tout un
 A l’opposé du keynésianisme omniprésent de nos jours, l’école autrichienne vient remettre l’individu au centre de l’équation avec une approche plus libéraliste, capitaliste voire anarchiste.
 
 Sur ce, je vous laisse avec Théo qui se fera un plaisir de vous délivrer sous un format podcast l’histoire de cette école, ses théories et son fonctionnement.
-
-
 
 Qu’allez-vous apprendre durant ce cours ?
 
@@ -42,9 +35,7 @@ Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculu
 
 ---
 
-A propose du prof. 
-
-
+A propose du prof.
 
 Théo Mogenet
 
@@ -67,7 +58,6 @@ Team contributeur:
 
 Curriculum:
 
-
 ## Introduction par Rogzy
 
 ![introduction](https://youtu.be/YmVXzvC30FA)
@@ -78,11 +68,9 @@ Curriculum:
 
 # L'économie Autrichienne
 
-
 ## Chapitre 1 – Introduction à l’économie autrichienne
 
 ![introduction à l'économie autrichienne](https://youtu.be/ZSDCepNNacI)
-
 
 ## Chapitre 2 – La monnaie dans l’école autrichienne
 
@@ -92,11 +80,9 @@ Curriculum:
 
 ![FAQ sur la monnaie](https://youtu.be/TcpCtz-bXZs)
 
-
 ## Chapitre 3 – Les cycles économiques pour l’école autrichienne
 
 ![les cycles économiques pour l'école autrichienne](https://youtu.be/CrPE6mcOjx4)
-
 
 ## Chapitre 4 – L’impossibilité du calcul économique en système socialiste
 
@@ -106,12 +92,12 @@ Curriculum:
 
 ![la méthodologie autrichienne](https://youtu.be/hMyYGwU76dI)
 
-
 ## Note cette formation !
 
 ## Questionnaire feedback
 
 ### Interview avec Théo
+
 ![Comment se préparer pour la prochaine crise économique ? – [Interview avec Théo Mogenet, partie 1]](https://youtu.be/GJT8t1TEd7Q)
 ![Comment peut s’articuler la destruction de l’euro ? – [Interview avec Théo Mogenet, partie 2]](https://youtu.be/eK3ONo11HN8)
 ![Hyper-bitcoinization : peut-on tourner sur un standard BTC ? – [Interview avec Théo Mogenet part 3]](https://youtu.be/nkN2twZ-lJY)
@@ -122,4 +108,3 @@ Curriculum:
 ![Bitcoin est-il de droite, gauche ou anarchiste ?](https://youtu.be/4fXGxzLtIIw)
 ![Pour sauver la planète, quitter le dollar et l’euro](https://youtu.be/iHagDlH4bf8)
 ![Pourquoi la remontée des taux est impossible ? ](https://youtu.be/iHagDlH4bf8)
-

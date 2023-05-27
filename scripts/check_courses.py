@@ -1,10 +1,14 @@
 import os
+import re
 import ruamel.yaml
 from typing import List, Dict, Union
 from ruamel.yaml.comments import CommentedMap
+from unidecode import unidecode
 
 YAML = ruamel.yaml.YAML()
 YAML.indent(sequence=4, offset=2)
+
+INVALID_CHARS_PATTERN = re.compile(r"[^\w\d_.-]", re.UNICODE)
 
 
 class ValidationError(Exception):
@@ -79,5 +83,46 @@ def find_and_fix_courses(directory: str):
             course.save()
 
 
+def replace_in_files(files: List[str], old: str, new: str):
+    for file_path in files:
+        with open(file_path, "r", encoding="utf-8") as file:
+            file_data = file.read()
+
+        file_data = file_data.replace(old, new)
+
+        with open(file_path, "w", encoding="utf-8") as file:
+            file.write(file_data)
+
+
+def find_and_fix_assets(directory: str):
+    print(f"Fixing file names in {directory}")
+    for root, _, files in os.walk(directory):
+        for file in files:
+            # Skip hidden files and those with a hidden parent
+            if file.startswith(".") or "/." in os.path.join(root, file):
+                continue
+
+            old_file_path = os.path.join(root, file)
+            new_file_name = re.sub(
+                "_+|-+", "_", INVALID_CHARS_PATTERN.sub("_", unidecode(file).lower())
+            )
+
+            new_file_path = os.path.join(root, new_file_name)
+
+            if old_file_path != new_file_path:
+                os.rename(old_file_path, new_file_path)
+                print(f"Renamed file {old_file_path} to {new_file_path}")
+
+                files = [
+                    os.path.join(r, f)
+                    for r, _, fs in os.walk(directory)
+                    for f in fs
+                    if f.endswith(".md") or f.endswith(".yml")
+                ]
+                replace_in_files(files, file, new_file_name)
+
+
 if __name__ == "__main__":
-    find_and_fix_courses("./courses")
+    directory = "."
+    find_and_fix_courses(os.path.join(directory, "courses"))
+    find_and_fix_assets(os.path.join(directory))

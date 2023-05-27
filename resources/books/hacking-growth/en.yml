@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Hacking Growth" by Sean Ellis and Morgan Brown is a book that provides
   insights and practical advice for businesses looking to achieve rapid growth. The
   authors introduce a new approach to growth called "growth hacking," which involves
@@ -9,5 +9,5 @@ description: '"Hacking Growth" by Sean Ellis and Morgan Brown is a book that pro
   your own business. It is a must-read for entrepreneurs, marketers, and anyone looking
   to drive growth in their business.'
 original: true
-publication_date: '2017'
+publication_year: 2017
 title: hacking-growth

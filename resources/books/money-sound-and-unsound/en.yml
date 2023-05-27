@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Money Sound and Unsound" by Joseph Salerno is an expert-level book
   that explores the history of money and how different forms of money have impacted
   economies throughout history. The author examines various economic theories and
@@ -10,5 +10,5 @@ description: '"Money Sound and Unsound" by Joseph Salerno is an expert-level boo
   is written for individuals who have a deep interest in economics and finance, and
   want to gain a better understanding of the role of money in society.'
 original: true
-publication_date: '2019'
+publication_year: 2019
 title: money-sound-and-unsound

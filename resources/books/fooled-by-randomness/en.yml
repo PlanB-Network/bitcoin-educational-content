@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Fooled By Randomness" is a book written by Nassim Nicholas Taleb that
   explores the impact of randomness and probability on our lives, especially in the
   financial world. Taleb argues that humans are not wired to think probabilistically,
@@ -9,5 +9,5 @@ description: '"Fooled By Randomness" is a book written by Nassim Nicholas Taleb 
   this uncertainty. The book challenges readers to reevaluate their approach to decision-making
   and consider the role of randomness in their lives.'
 original: true
-publication_date: '2001'
+publication_year: 2001
 title: fooled-by-randomness

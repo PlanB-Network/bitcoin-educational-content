@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Diary of a Professional Commodity Trader" by Peter Brandt is a memoir
   and educational guide that chronicles the author''s experience in commodity trading.
   Through his personal accounts, Brandt provides insights into the mindset, discipline,
@@ -10,5 +10,5 @@ description: '"Diary of a Professional Commodity Trader" by Peter Brandt is a me
   experienced traders and investors looking to enhance their knowledge and skills
   in commodity trading.'
 original: true
-publication_date: '2011'
+publication_year: 2011
 title: diary-of-a-professional-commodity-trader

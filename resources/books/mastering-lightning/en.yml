@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: "\"Mastering Lightning\" by Andreas M. Antonopoulos and Ren\xE9 Pickhardt\
   \ is an intermediate-level book about the Lightning Network, a layer 2 scaling solution\
   \ for Bitcoin. The book covers the technical details of how the Lightning Network\
@@ -9,5 +9,5 @@ description: "\"Mastering Lightning\" by Andreas M. Antonopoulos and Ren\xE9 Pic
   \ of the technology. Overall, the book is a valuable resource for anyone interested\
   \ in understanding the Lightning Network and its role in the future of Bitcoin."
 original: true
-publication_date: '2020'
+publication_year: 2020
 title: mastering-lightning

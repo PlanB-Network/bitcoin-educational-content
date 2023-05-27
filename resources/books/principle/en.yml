@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Principles" by Ray Dalio is a management and personal development book
   that outlines the author''s principles for achieving success in work and life. Dalio
   is the founder of the investment firm Bridgewater Associates and has achieved great
@@ -10,5 +10,5 @@ description: '"Principles" by Ray Dalio is a management and personal development
   life principles and work principles, which he believes are essential for achieving
   success in all aspects of life.'
 original: true
-publication_date: '2017'
+publication_year: 2017
 title: principle

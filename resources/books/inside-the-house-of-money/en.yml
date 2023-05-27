@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Inside the House of Money" by Steve Drobny is an expert-level book
   that takes a behind-the-scenes look at the hedge fund industry. The author interviews
   some of the most successful hedge fund managers and traders in the industry to uncover
@@ -9,5 +9,5 @@ description: '"Inside the House of Money" by Steve Drobny is an expert-level boo
   read for anyone interested in finance, investing, and hedge funds, and provides
   valuable insights into the world of high finance.'
 original: true
-publication_date: '2013'
+publication_year: 2013
 title: inside-the-house-of-money

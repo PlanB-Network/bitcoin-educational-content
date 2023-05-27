@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Debt; the first 5000 years" by David Graeber is an anthropological
   and historical analysis of the concept of debt throughout human civilization, from
   ancient Sumer to modern-day. The author challenges the commonly held belief that
@@ -8,5 +8,5 @@ description: '"Debt; the first 5000 years" by David Graeber is an anthropologica
   perspective on the role of debt in our lives and its impact on social and economic
   systems.'
 original: true
-publication_date: '2011'
+publication_year: 2011
 title: debt-the-first-5000-years

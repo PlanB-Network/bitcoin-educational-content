@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: Little Brother by Cory Doctorow is a novel that explores the theme of
   privacy in a technological age. The story follows a group of teenagers who rebel
   against the government's invasion of privacy in the aftermath of a terrorist attack
@@ -9,5 +9,5 @@ description: Little Brother by Cory Doctorow is a novel that explores the theme 
   and the role of technology in shaping society. Overall, Little Brother is a thought-provoking
   and thrilling read for anyone interested in the intersection of technology and politics.
 original: true
-publication_date: '2008'
+publication_year: 2008
 title: little-brother

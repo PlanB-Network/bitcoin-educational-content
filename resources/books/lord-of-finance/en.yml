@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Lord of Finance" by Liaquat Ahamed is a non-fiction book that provides
   a detailed account of the four central bankers who dominated the world''s financial
   system in the early 20th century. The book covers the period between the First World
@@ -10,5 +10,5 @@ description: '"Lord of Finance" by Liaquat Ahamed is a non-fiction book that pro
   the modern global economy. Overall, "Lord of Finance" is a fascinating read for
   anyone interested in the history of finance and economics.'
 original: true
-publication_date: '2009'
+publication_year: 2009
 title: lord-of-finance

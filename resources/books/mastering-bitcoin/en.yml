@@ -1,5 +1,5 @@
 contributors:
-- rabbit-hole
+  - rabbit-hole
 description: '"Mastering Bitcoin" by Andreas Antonopoulos is an intermediate-level
   book that provides a comprehensive understanding of the technology behind Bitcoin
   and how it works. It covers a wide range of topics related to Bitcoin, including
@@ -8,5 +8,5 @@ description: '"Mastering Bitcoin" by Andreas Antonopoulos is an intermediate-lev
   book is an excellent resource for developers and technically-minded individuals
   who want to gain a deeper understanding of Bitcoin and its underlying technology.'
 original: true
-publication_date: '2014'
+publication_year: 2014
 title: mastering-bitcoin

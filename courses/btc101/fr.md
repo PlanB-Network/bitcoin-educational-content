@@ -23,7 +23,7 @@ Vous ressortirez de cette formation en ayant toutes les connaissances nécessair
 
 Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
 
----
++++
 
 # Introduction : la formation parcours Bitcoin
 

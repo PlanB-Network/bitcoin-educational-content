@@ -1,1 +1,12 @@
-btc 102 ket's gooo
+---
+name: BTC102
+goal: TODO
+---
+
+# Description
+
+TODO
+
++++
+
+This is the course

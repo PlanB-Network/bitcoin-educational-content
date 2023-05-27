@@ -32,7 +32,7 @@ J’espère avoir terminé d’ici 2023 😀
 
 Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
 
----
++++
 
 A propose du prof.
 

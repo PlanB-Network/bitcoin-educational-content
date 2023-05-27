@@ -8,7 +8,8 @@ from unidecode import unidecode
 import frontmatter
 
 YAML = ruamel.yaml.YAML()
-YAML.indent(sequence=4, offset=2)
+YAML.indent(mapping=2, sequence=4, offset=2)
+YAML.width = 100000
 
 INVALID_CHARS_PATTERN = re.compile(r"[^\w\d_.-]", re.UNICODE)
 
@@ -92,7 +93,7 @@ class ValidationMixin:
                 print(f"   - {warning}")
 
         if self.errors or self.warnings:
-            print("\n")
+            print("")
 
 
 class Course(ValidationMixin):
@@ -134,14 +135,15 @@ class Course(ValidationMixin):
         if self.data["level"] not in self.LEVELS:
             self.errors.append(f"Invalid level: {self.data['level']}")
 
-        if not isinstance(self.data["hours"], int):
+        if "hours" in self.data and not isinstance(self.data["hours"], int):
             self.errors.append(f"'hours' should be an integer: {self.data['hours']}")
 
-        if not isinstance(self.data["teacher"], str):
+        if "teacher" in self.data and not isinstance(self.data["teacher"], str):
             self.errors.append(f"'teacher' should be a string: {self.data['teacher']}")
 
-        if not isinstance(self.data["contributors"], list) or not all(
-            isinstance(c, str) for c in self.data["contributors"]
+        if "contributors" in self.data and (
+            not isinstance(self.data["contributors"], list)
+            or not all(isinstance(c, str) for c in self.data["contributors"])
         ):
             self.errors.append(
                 f"'contributors' should be a list of strings: {self.data['contributors']}"
@@ -258,6 +260,8 @@ def find_and_fix_courses(directory: str):
         if os.path.isdir(os.path.join(directory, d))
     ]
 
+    print("🔎 Checking courses")
+
     for course_dir in course_dirs:
         course = Course(course_dir)
         course.validate()
@@ -266,7 +270,7 @@ def find_and_fix_courses(directory: str):
         course.save()
         course.print_report(f"Course {course_dir.split('/')[-1]}")
 
-    print("Finished checking courses")
+    print("✅ Finished checking courses\n")
 
 
 def find_and_fix_podcasts(directory: str):
@@ -276,6 +280,8 @@ def find_and_fix_podcasts(directory: str):
         if os.path.isdir(os.path.join(directory, d))
     ]
 
+    print("🔎 Checking podcasts")
+
     for podcast_dir in podcast_dirs:
         podcast = Podcast(podcast_dir)
         podcast.validate()
@@ -283,11 +289,12 @@ def find_and_fix_podcasts(directory: str):
         podcast.save()
         podcast.print_report(f"Podcast {podcast_dir.split('/')[-1]}")
 
-    print("Finished checking podcasts")
+    print("✅ Finished checking podcasts\n")
 
 
 def find_and_fix_assets(directory: str):
-    print("Checking file names")
+    print("🔎 Checking file names")
+
     for root, _, files in os.walk(directory):
         for file in files:
             if file.startswith(".") or "/." in os.path.join(root, file):
@@ -311,6 +318,8 @@ def find_and_fix_assets(directory: str):
                     if f.endswith(".md") or f.endswith(".yml")
                 ]
                 replace_in_files(files, file, new_file_name)
+
+    print("✅ Finished checking file names")
 
 
 if __name__ == "__main__":

@@ -6,3 +6,5 @@ description: |
   ACINQ is a major operator and liquidity provider on the Lightning Network. We run the largest node on the network where we leverage our expertise of Lightning.
   
   We also are the developers of Phoenix, a cutting-edge self-custodial Bitcoin Lightning wallet.
+contributors:
+  - rabbit-hole

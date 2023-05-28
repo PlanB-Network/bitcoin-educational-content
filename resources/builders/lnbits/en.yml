@@ -8,3 +8,5 @@ description: |
   To get started with LNbits, you can check out their GitHub documentation, YouTube tutorials, and the Awesome LNbits resource. The LNbits community is active and supportive, offering a Telegram group for users and developers to exchange ideas, provide assistance, and contribute to the development of this free and open-source software.
   
   LNbits offers a flexible and extensible solution for managing Lightning Network accounts and integrating various functionalities through its extension framework.
+contributors:
+  - rabbit-hole

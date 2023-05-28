@@ -6,3 +6,5 @@ description: |
   The process to start trading is straightforward. Users engage in a contract, and Hodl Hodl generates a unique multisig escrow address. The seller deposits bitcoins in escrow directly from their wallet, and the buyer pays the seller according to the agreed-upon payment method. Finally, the seller releases bitcoins from escrow directly to the buyer's wallet, completing the contract.
 
   Hodl Hodl allows you to create an offer on your terms, set your price, use multiple payment methods, and set up a stop-loss value. The platform's transparent fees are split between buyer and seller and are deducted from the BTC amount. With Hodl Hodl, you can trade globally, using any payment system, for any currency.
+contributors:
+  - rabbit-hole

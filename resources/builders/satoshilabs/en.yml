@@ -4,3 +4,5 @@ description: |
   The company's flagship product, the Trezor hardware wallet, is a physical device that securely stores users' private keys offline, making it resistant to many common types of online hacks. The wallet supports a wide range of cryptocurrencies, including Bitcoin, Litecoin, Ethereum, and many others. By keeping private keys on the device and offline, Trezor provides an extra layer of security for users' digital assets.
   
   Beyond the Trezor hardware wallet, SatoshiLabs has also made significant contributions to the wider blockchain and cryptocurrency ecosystem, including the creation of various security standards and the development of new technologies.
+contributors:
+  - rabbit-hole

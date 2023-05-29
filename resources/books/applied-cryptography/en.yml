@@ -4,5 +4,10 @@ cover: cover-en.jpg
 original: True
 description: |
   Applied Cryptography is a book written by Bruce Schneier, an expert in the field of computer security and cryptography. The book provides an introduction to the fundamental principles and concepts of cryptography and covers a wide range of topics, including symmetric and asymmetric encryption, hash functions, digital signatures, key management, and secure protocols. It also delves into the history of cryptography and explores the potential risks and limitations of cryptographic systems. The book is an essential resource for anyone interested in the field of cryptography, from beginners to experts.
+<<<<<<< HEAD
 contributors:
   - rabbit-hole
+=======
+cover: "cover_en.jpg"
+original: true
+>>>>>>> 4357a7323e467e2bd50b9ad6e1c3614bf8d01c0c

@@ -4,5 +4,10 @@ cover: cover-en.jpg
 original: True
 description: |
   The Ethics of Money Production by Jörg Guido Hülsmann is a comprehensive exploration of the ethical implications of money production and the role of central banks in the modern financial system. Hülsmann delves into the historical background of money, examining the effects of monetary inflation and the erosion of purchasing power. He critiques the moral and economic consequences of fiat money and advocates for a return to sound money principles. This expert-level book offers a thought-provoking analysis of the ethical dilemmas surrounding money production and serves as a valuable resource for those interested in the intersection of economics, technology, and history, particularly in the context of Bitcoin and alternative monetary systems.
+<<<<<<< HEAD
 contributors:
   - rabbit-hole
+=======
+cover: "cover_en.jpg"
+original: true
+>>>>>>> 4357a7323e467e2bd50b9ad6e1c3614bf8d01c0c

@@ -4,5 +4,10 @@ cover: cover-en.jpg
 original: True
 description: |
   21 Lessons: What I've Learned from Falling Down the Bitcoin Rabbit Hole by Gigi is a book that offers a comprehensive and accessible introduction to Bitcoin and its underlying technology. The author shares his personal journey of discovery in the world of cryptocurrency and offers insights into the history, philosophy, and technical aspects of Bitcoin. Through 21 short and easy-to-read chapters, Gigi explains how Bitcoin works, why it matters, and its potential to change the world. The book is suitable for readers who are new to Bitcoin and those who want to deepen their understanding of this revolutionary technology.
+<<<<<<< HEAD
 contributors:
   - rabbit-hole
+=======
+cover: cover_en.jpg
+original: true
+>>>>>>> 4357a7323e467e2bd50b9ad6e1c3614bf8d01c0c

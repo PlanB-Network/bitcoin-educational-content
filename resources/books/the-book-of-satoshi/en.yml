@@ -4,5 +4,10 @@ cover: cover-en.jpg
 original: True
 description: |
   The Book of Satoshi by Phil Champagne is a collection of key writings and correspondences by Satoshi Nakamoto, the creator of Bitcoin. It offers an intimate look at the motivations and philosophy behind Bitcoin's creation and development, as well as insights into the technology and its potential impact on the world. Through the book, readers can gain a deeper understanding of the history and principles of Bitcoin, as well as its potential to transform our current financial system. It is a must-read for anyone interested in cryptocurrency, blockchain technology, and the future of finance.
+<<<<<<< HEAD
 contributors:
   - rabbit-hole
+=======
+cover: "cover_en.jpg"
+original: true
+>>>>>>> 4357a7323e467e2bd50b9ad6e1c3614bf8d01c0c

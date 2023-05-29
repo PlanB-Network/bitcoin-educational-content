@@ -2,5 +2,5 @@ title: "The Code Book"
 publication_date: "1999"
 description: |
   The Code Book by Simon Singh is an intermediate-level exploration of the history, significance, and impact of cryptography. Through captivating storytelling and accessible explanations, Singh takes readers on a journey through the ages, revealing the evolution of codes and ciphers from ancient times to the present day. The book covers key moments in the history of cryptography, such as the Enigma machine used during World War II, the development of public-key cryptography, and the advancements in digital encryption. Along the way, Singh highlights the pivotal role cryptography has played in shaping human history, including its impact on warfare, politics, and technology. With its blend of history, mathematics, and real-world applications, "The Code Book" offers an engaging and enlightening read for those interested in the fascinating world of codes and ciphers.
-cover: "cover-en.jpg"
+cover: "cover_en.jpg"
 original: true

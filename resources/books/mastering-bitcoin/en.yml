@@ -1,7 +1,7 @@
 title: "mastering-bitcoin"
 publication_year: 2014
 cover: cover_en.jpg
-original: True
+original: true
 description: |
   "Mastering Bitcoin" by Andreas Antonopoulos is an intermediate-level book that provides a comprehensive understanding of the technology behind Bitcoin and how it works. It covers a wide range of topics related to Bitcoin, including its history, cryptography, transactions, mining, and the Bitcoin network. The book also covers advanced topics such as smart contracts and the Lightning Network. This book is an excellent resource for developers and technically-minded individuals who want to gain a deeper understanding of Bitcoin and its underlying technology.
 contributors:

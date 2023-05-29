@@ -1,6 +1,8 @@
 title: "When Money Dies"
-publication_date: "1975"
+publication_year: 1975
+cover: cover-en.jpg
+original: True
 description: |
   When Money Dies by Adam Fergusson is a book that explores the hyperinflation that occurred in Germany during the early 1920s, in the aftermath of World War I. The book provides a detailed account of the social and economic consequences of hyperinflation and how it led to the rise of the Nazi party. Fergusson also examines how the events in Germany influenced economic policies in other countries and how they dealt with their own economic problems. The book offers a cautionary tale of the dangers of inflation and the importance of sound monetary policies.
-cover: "cover-en.jpg"
-original: true
+contributors:
+  - rabbit-hole

@@ -1,6 +1,8 @@
 title: "The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations"
-publication_date: "2006"
+publication_year: 2021
+cover: cover-en.jpg
+original: True
 description: |
   The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations by Ori Brafman and Rod A. Beckstrom explores the phenomenon of decentralized organizations that operate without traditional hierarchies or leadership structures. Through a series of case studies and examples, the book highlights the strengths and weaknesses of these organizations, which include the ability to rapidly adapt to change and innovate, but also the potential for chaos and lack of accountability. The authors argue that understanding these leaderless organizations is crucial in a world where technology and communication have made decentralized models more viable and effective.
-cover: "cover-en.jpg"
-original: true
+contributors:
+  - rabbit-hole

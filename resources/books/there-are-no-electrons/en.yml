@@ -1,6 +1,8 @@
 title: "There Are No Electrons"
-publication_date: "1991"
+publication_year: 1991
+cover: cover-en.jpg
+original: True
 description: |
   There Are No Electrons by Kenn Amdahl is a book that challenges the traditional way of teaching and learning about electricity and electronics. Instead of focusing on abstract concepts and mathematical equations, Amdahl uses simple language and relatable examples to explain how electricity works in our daily lives. He also explores the ethical implications of technological advancements and how they affect society. The book encourages readers to think critically about the relationship between technology, economics, and ethics.
-cover: "cover-en.jpg"
-original: true
+contributors:
+  - rabbit-hole

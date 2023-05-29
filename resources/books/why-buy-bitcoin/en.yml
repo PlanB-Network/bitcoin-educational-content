@@ -1,6 +1,8 @@
-title: Why buy Bitcoin
-publication_date: 2020
+title: "Why buy Bitcoin"
+publication_year: 2019
+cover: cover-en.jpg
+original: True
 description: |
   Why Buy Bitcoin by Andy Edstrom is a beginner to intermediate level book that delves into the topic of Bitcoin and its relevance in the modern world. The book covers the history and technology behind Bitcoin, and analyzes the investment potential of the digital currency. Edstrom provides insights into the macroeconomic forces that are driving the adoption of Bitcoin, and explores its potential as a hedge against inflation and a store of value. This book is suitable for anyone who wants to understand the basics of Bitcoin and its potential as an investment vehicle.
-cover: "cover-en.jpg"
-original: true
+contributors:
+  - rabbit-hole

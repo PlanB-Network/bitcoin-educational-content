@@ -1,7 +1,8 @@
-contributors:
-- rabbit-hole
+title: "Sades Satoshi"
+publication_year: 2021
+cover: cover_en.jpg
+original: True
 description: |
   Sade‘s Satoshis is the first book in our new series to teach children about the history, use, and the promise of Bitcoin. This book features beautiful original artwork from Nigerian visual artist, Faniran Opeyemi. This book gives children a look at Bitcoin through a global lens and explores the incredible impact of Bitcoin in Nigeria. This book also teaches children about important economic concepts like central banking, inflation and fiat currency. This book also includes a special BONUS section for parents called the Bitcoin Family Pack. The Bitcoin Family Pack features: Bitcoin Vocabulary List, Questions from the story, Bitcoin Key Facts, and Teaching Tips for Parents!
-original: true
-publication_date: 2021
-title: Sades Satoshi
+contributors:
+  - rabbit-hole

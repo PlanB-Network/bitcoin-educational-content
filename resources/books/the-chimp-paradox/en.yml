@@ -1,6 +1,8 @@
 title: "The Chimp Paradox"
-publication_date: "2012"
+publication_year: 2012
+cover: cover-en.jpg
+original: True
 description: |
   The Chimp Paradox" by Steve Peters is a self-help book that explores the concept of the human mind and its different aspects. The author introduces the concept of the "chimp," which represents the emotional and irrational part of the brain that can cause stress and negative behavior. The book presents practical strategies and techniques to manage these emotions and behaviors, enabling individuals to achieve greater success in their personal and professional lives. Overall, the book aims to help readers understand and overcome their psychological barriers to personal growth and success.
-cover: "cover-en.jpg"
-original: true
+contributors:
+  - rabbit-hole

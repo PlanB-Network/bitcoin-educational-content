@@ -4,10 +4,5 @@ cover: cover-en.jpg
 original: True
 description: |
   The Bitcoin Standard by Saifedean Amous explores the history of money and the potential of Bitcoin to revolutionize the global financial system. The author highlights Bitcoin's advantages, including its decentralized nature and deflationary design, which promote stability and sustainable economic growth. Amous also discusses the technical aspects of Bitcoin and addresses common misconceptions while considering future challenges
-<<<<<<< HEAD
 contributors:
   - rabbit-hole
-=======
-cover: "cover_en.jpg"
-original: true
->>>>>>> 4357a7323e467e2bd50b9ad6e1c3614bf8d01c0c

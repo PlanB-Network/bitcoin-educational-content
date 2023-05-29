@@ -4,10 +4,5 @@ cover: cover-en.jpg
 original: True
 description: |
   The Machine Kills Secrets by Andy Greenberg is a book that explores the rise of government surveillance and the growing threat to privacy in the digital age. The author, a technology journalist, delves into the history of cryptography and digital security, and the individuals and organizations fighting against government surveillance. The book also provides insight into the impact of whistleblowers and the role they play in holding those in power accountable. Through a series of compelling stories and interviews with key players in the field, "The Machine Kills Secrets" presents a thought-provoking analysis of the challenges we face in protecting our digital privacy and freedom.
-<<<<<<< HEAD
 contributors:
   - rabbit-hole
-=======
-cover: "cover_en.jpg"
-original: true
->>>>>>> 4357a7323e467e2bd50b9ad6e1c3614bf8d01c0c

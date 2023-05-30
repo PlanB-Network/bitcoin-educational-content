@@ -32,17 +32,21 @@ Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculu
 ### Bitcoin : une révolution monétaire et technologique décentralisée
 
 Bitcoin est une innovation significative qui va au-delà d'une simple devise. C'est une révolution à la fois technologique et monétaire, capable de transformer notre perception de la monnaie et des transactions financières. Bitcoin est également une monnaie décentralisée, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.
-Comprendre Bitcoin : monnaie, portefeuilles, mineurs et avenir
+
+### Comprendre Bitcoin : monnaie, portefeuilles, mineurs et avenir
 
 Dans le cadre de cette étude, nous discuterons des aspects monétaires de Bitcoin, y compris la façon d'acheter et de vendre des bitcoins, de les conserver en toute sécurité dans des portefeuilles numériques et de les utiliser pour effectuer des transactions.
 
 Nous examinerons également le rôle des mineurs, qui sont essentiels à la création de nouveaux bitcoins et à la sécurisation du réseau Bitcoin. En outre, nous nous pencherons sur l'avenir de Bitcoin et sur la manière dont la technologie du Lightning Network peut améliorer les transactions Bitcoin.
-L'importance de la formation et de l'apprentissage
+
+
+### L'importance de la formation et de l'apprentissage
 
 Il est essentiel de comprendre que Bitcoin est non seulement une monnaie, mais aussi une technologie pouvant révolutionner notre perception de l'argent et des transactions financières. Apprendre à utiliser Bitcoin est une compétence fondamentale, tout comme nous avons appris à utiliser Internet ou à conduire une voiture.
 
 Il faut se rappeler que Bitcoin est une technologie relativement nouvelle, et il est normal de ne pas tout comprendre immédiatement. Cependant, apprendre à utiliser Bitcoin est crucial, car cela peut avoir un impact significatif sur notre vie financière.
-Les concepts clés de la monnaie et le rôle de Bitcoin
+
+### Les concepts clés de la monnaie et le rôle de Bitcoin
 
 Notre prochain sujet d'étude portera sur la définition et le fonctionnement de la monnaie dans une société. Nous explorerons également le rôle de Bitcoin en tant que monnaie et comment il peut transformer notre perception des transactions financières.
 
@@ -52,19 +56,19 @@ Notre prochain sujet d'étude portera sur la définition et le fonctionnement de
 
 ![La préhistoire du Bitcoin](posters/fr/1.phehistoiredubitcoin.png)
 
-### Les Fondements de Bitcoin et le Mouvement Cypherpunk
+### Les fondements de Bitcoin et le mouvement cypherpunk
 
 Pour comprendre l'origine de Bitcoin, il faut remonter aux années 1980 et au mouvement cypherpunk. Les cypherpunks sont des précurseurs qui ont innové et expérimenté avec des technologies telles que PGP (Pretty Good Privacy), l'Internet et la cryptographie. Ils ont façonné un mouvement dédié à la protection de la vie privée à l'ère du numérique.
 
 En 2009, une personne (ou un groupe de personnes) du nom de Satoshi Nakamoto a élaboré Bitcoin en s'appuyant sur les technologies développées par les cypherpunks. Bitcoin représente une révolution à plusieurs niveaux : numérique, financier et technologique. Pour saisir pleinement la nature et la portée de cette révolution, il est crucial de comprendre les fondements de Bitcoin.
 
-### Bitcoin : Une Révolution du Système Financier Traditionnel
+### Bitcoin : une révolution du système financier traditionnel
 
 Bitcoin conteste le système financier traditionnel en mettant en évidence les inégalités et les problèmes d'inflation associés à la monnaie fiduciaire. Les monnaies émises par les banques centrales et les États, telles que l'euro ou le dollar, sont sujettes à l'inflation. Cela peut entraîner des effets néfastes sur les sociétés et les individus.
 
 En revanche, Bitcoin, qui est une synthèse des technologies développées depuis les années 1970, a une quantité maximale limitée, lui conférant une caractéristique similaire à celle de l'or. Le débat sur la validité de Bitcoin en tant que monnaie continue, mais une chose est certaine : grâce à l'héritage des cypherpunks, Bitcoin est là pour durer.
 
-### Bitcoin : Une Monnaie et un Protocole Informatique
+### Bitcoin : une monnaie et un protocole informatique
 
 Bitcoin est à la fois une monnaie numérique et un protocole informatique. En tant que tel, il a été conçu pour perdurer. Il est important de reconnaître le rôle essentiel des contributeurs et des soutiens de ce projet, y compris ceux qui font des dons via des plateformes comme Patreon.
 
@@ -110,7 +114,7 @@ L'exploration des impacts des monnaies fiduciaires sur le système financier est
 
 Dans le cadre de notre formation "Découvre Bitcoin", nous analysons de manière détaillée le rôle et les conséquences des monnaies fiduciaires, telles que l'euro ou le dollar. Ces dernières reposent sur la confiance et l'assurance que leur valeur sera préservée. Cependant, cette confiance est actuellement ébranlée par l'inflation galopante et l'augmentation sans précédent de la dette. Les monnaies fiduciaires, en fin de compte, dépendent de la foi que nous accordons aux institutions qui les régulent, et cette foi semble s'étioler.
 
-La révolution Bitcoin et la dissociation entre l'État et la monnaie
+### La révolution Bitcoin et la dissociation entre l'État et la monnaie
 
 C'est dans ce contexte que la révolution Bitcoin prend de l'ampleur. Cette monnaie de confiance vise à séparer l'État de la monnaie, sapant ainsi le contrôle de l'État sur le système financier. La capacité de frapper de la monnaie a permis une dévaluation progressive de celle-ci, érodant le pouvoir d'achat de la population. Depuis l'introduction de l'euro, le pouvoir d'achat a diminué de 30%, tandis que le pouvoir d'achat américain a perdu 98% de sa valeur depuis 1900. Les monnaies fiduciaires n'ont plus de soutien solide, l'or ayant été abandonné. L'inflation agit comme une taxe subreptice qui rogne le pouvoir d'achat. Elle permet à un État de dévaluer sa monnaie pour rembourser sa dette et financer ses projets.
 
@@ -118,13 +122,13 @@ C'est dans ce contexte que la révolution Bitcoin prend de l'ampleur. Cette monn
 
 L'impression monétaire engendre de l'inflation, appauvrissant progressivement la population. En revanche, les institutions financières et les individus fortunés se sont enrichis grâce à cette pratique, creusant un fossé d'inégalités et favorisant l'autoritarisme. Les États sont contraints de maintenir leur pouvoir en dévaluant leur monnaie pour faciliter le remboursement de la dette. Le système financier actuel est régulé et restreint pour éviter son effondrement. Un bouleversement de ce système risquerait de provoquer une crise économique majeure. Les acteurs politiques manquent de volonté pour opérer un changement radical, laissant le système poursuivre sa course jusqu'à une éventuelle implosion.
 
-Bitcoin : une alternative décentralisée au système monétaire actuel
+### Bitcoin : une alternative décentralisée au système monétaire actuel
 
 En réponse à ces défis systémiques, Bitcoin se présente comme une solution décentralisée. Historiquement, l'or a été privilégié en tant que monnaie, en raison de sa résistance à la contrefaçon. De manière similaire, Bitcoin, par sa nature décentralisée, ne peut être falsifié et est limité à 21 millions d'unités. Bitcoin est une monnaie qui repose sur la confiance, la transparence et la liberté, offrant une solution de rechange attrayante au système monétaire centralisé actuel.
 
 Parallèlement, l'émergence des monnaies numériques des banques centrales, ou CBDC, semble inévitable. Si celles-ci offriront une planification centralisée de l'économie, elles pourraient également entraver la liberté financière et s'avérer potentiellement autoritaires.
 
-### l'hyperinflation, la dévaluation de la monnaie fiduciaire et la nécessité d'alternatives
+### L'hyperinflation, la dévaluation de la monnaie fiduciaire et la nécessité d'alternatives
 
 En conclusion, l'hyperinflation a pour effet de dégrader rapidement la valeur de la monnaie, entraînant une érosion des épargnes et une perte de confiance dans le système monétaire. Comme Voltaire l'a autrefois suggéré, une monnaie fiduciaire finira toujours par perdre sa valeur intrinsèque et convergera vers zéro.
 
@@ -146,7 +150,7 @@ Il existe des cas notables d'hyperinflation à travers l'histoire, tels que l'Al
 
 Ce phénomène d'hyperinflation n'est pas nouveau et a persisté tout au long de l'histoire. Pour comprendre cette dynamique, il est essentiel d'examiner les étapes de l'hyperinflation et le processus de perte de confiance en la monnaie.
 
-### l'Hyperinflation et la Perte de Confiance en la Monnaie
+### L'hyperinflation et la Perte de Confiance en la Monnaie
 
 La centralisation du pouvoir monétaire facilite la création de monnaie et la régulation. Cependant, une perte de confiance dans une monnaie peut déclencher une hyperinflation. Les individus commencent alors à se questionner sur l'origine de l'argent et le processus de création monétaire.
 
@@ -196,7 +200,7 @@ De plus, selon les principes de l'économie autrichienne, le Bitcoin est consid�
 
 En somme, le Bitcoin, par sa nature décentralisée, sa rareté programmée et sa transparence, offre une alternative unique aux systèmes monétaires traditionnels. Il illustre comment la technologie peut être utilisée pour créer une monnaie qui est non seulement utile et vérifiable, mais qui préserve également la valeur de l'épargne des utilisateurs en limitant strictement son offre.
 
-## conlusion chaitre 1
+## Conlusion Chapitre 1
 
 ![conclusion chapitre1](https://youtu.be/xJsT7Jk5xWE)
 
@@ -270,7 +274,7 @@ En conclusion, la possession directe de ses Bitcoins est un élément essentiel 
 
 Il est essentiel d'éviter autant que possible les services de garde ("custodial services"), qui peuvent reproduire certaines des vulnérabilités du système financier traditionnel. Les étapes pratiques pour créer et gérer un portefeuille Bitcoin seront abordées dans notre prochaine session.
 
-## 2.3 Mise en place du portefeuille
+## 2.3 Mise en place d'un portefeuille
 
 ![mettre en place un portefeuille](posters/fr/10._mise_en_place_du_portefeuille_crop.png)
 
@@ -283,10 +287,10 @@ Protéger votre clé privée
 
 Votre clé privée, souvent représentée par une liste de 24 mots (ou "seed"), est le sésame de vos fonds. Si cette clé est révélée à un tiers, considérez que les fonds associés ne sont plus en sécurité. Par conséquent, lors de l'initialisation de votre portefeuille, il est important de respecter ces règles :
 
-    Masquer toutes les caméras.
-    Ne pas prendre de photo de la liste de mots.
-    Ne pas la saisir sur un ordinateur ou un téléphone.
-    Ne pas l'enregistrer comme contact ou se l'auto-envoyer par SMS.
+- Masquer toutes les caméras.
+- Ne pas prendre de photo de la liste de mots.
+- Ne pas la saisir sur un ordinateur ou un téléphone.
+- Ne pas l'enregistrer comme contact ou se l'auto-envoyer par SMS.
 
 ### Enregistrement et sauvegarde de votre clé privée
 
@@ -310,13 +314,13 @@ La sécurité est une préoccupation majeure dans l'écosystème Bitcoin. En eff
 
 Une méthode pour sécuriser vos bitcoins à long terme est de graver vos clés de récupération (par exemple, une phrase de 24 mots, connue sous le nom de seed phrase) dans un matériau résistant comme l'acier. Cela crée un backup physique de vos clés qui est résistant à la fois à la détérioration physique et au feu.
 
-### plan héritage
+### Plan d'héritage
 
 Conjointement à cela, la création d'un plan d'héritage est également une étape cruciale pour garantir que vos actifs numériques seront correctement gérés après votre mort. Ce plan peut inclure une lettre manuscrite détaillant vos actifs et identifiant des personnes de confiance à contacter. Il est également crucial de discuter de l'acquisition de bitcoins avec un notaire pour assurer la conformité fiscale, bien qu'il soit important de ne jamais confier directement vos bitcoins à un tiers, y compris à un notaire.
 
-** rajouter liana et renvoyer vers btc 201**
+**rajouter liana et renvoyer vers btc 201**
 
-### Vie Privée et Sécurité lors de l'Utilisation de Bitcoin
+### Vie privée et sécurité lors de l'utilisation de Bitcoin
 
 La sécurité de vos bitcoins sur le long terme ne se limite pas à la création de sauvegardes physiques ou à l'élaboration d'un plan d'héritage. La vie privée est une autre considération importante. Par exemple, il est préférable d'acheter des bitcoins sans fournir de pièce d'identité afin de minimiser les risques de vol d'identité.
 
@@ -324,9 +328,9 @@ En outre, l'utilisation de portefeuilles Bitcoin qui correspondent à vos besoin
 
 En résumé, la sécurité et la vie privée sont deux aspects clés de la possession de bitcoins à long terme. Dans la section suivante, nous aborderons en détail le fonctionnement technique de Bitcoin. Nous espérons que ces informations vous aideront à naviguer en toute sécurité dans l'écosystème Bitcoin.
 
-## conclusion chapitre 2
+## Conclusion Chapitre 2
 
-![conclusion cahpitre 2](https://youtu.be/U28-oh950Dw)
+![Conclusion chapitre 2](https://youtu.be/U28-oh950Dw)
 
 # Chapitre 3 – Les aspects techniques de Bitcoin
 
@@ -334,7 +338,7 @@ En résumé, la sécurité et la vie privée sont deux aspects clés de la posse
 
 ![Lancement de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
-![lancement du bitcoin](posters/fr/7._lancement_de_bitcoin_crop.png)
+![lancement du Bitcoin](posters/fr/7._lancement_de_bitcoin_crop.png)
 
 ### L'Émergence du Bitcoin
 
@@ -342,13 +346,13 @@ Le 31 octobre 2008 marque la naissance d'une nouvelle technologie financière - 
 
 Ce courrier contenait un document, appelé "White Paper", décrivant le fonctionnement, l'utilisation et le système de défense du Bitcoin. Cette initiative n'a pas suscité un engouement immédiat, compte tenu des échecs précédents des systèmes de cash digital. Néanmoins, ce White Paper a fini par devenir une référence pour les utilisateurs de Bitcoin et fait l'objet de nombreux débats dans l'écosystème Bitcoin.
 
-### Le Premier Bloc - Le Bloc Genesis
+### Le premier bloc - Le Bloc Genesis
 
 Le 3 janvier 2009 à 18h15, Satoshi inaugure officiellement le réseau Bitcoin en créant le premier bloc, aussi appelé bloc genesis, qui marque le lancement de la blockchain du Bitcoin. Ce bloc contient un message révélateur de la mission du Bitcoin : "03/jan/2009 Chancellor on brink of second bailout for banks" (Le chancelier sur le point d'octroyer un second sauvetage aux banques).
 
 Le 8 janvier 2009, Satoshi annonce la publication de Bitcoin-0.1.0. Rapidement, Hal Finney se saisit du logiciel et rejoint le réseau. Désormais, il y avait 2 mineurs et 2 nœuds dans le réseau. Finney immortalise cette étape en tweetant "Running Bitcoin". Le 12 janvier 2009, la première transaction Bitcoin est réalisée entre Satoshi et Hal Finney. Cette transaction, de 10 BTC, est enregistrée dans le bloc 170.
 
-### L'Évolution du Dialogue autour du Bitcoin
+### L'évolution du dialogue autour du Bitcoin
 
 L'intérêt pour le Bitcoin croît rapidement, et de nombreuses personnes commencent à tester, débattre, résoudre des bugs, miner et réfléchir sur les aspects éthiques, économiques et philosophiques du Bitcoin. Pour faciliter ces échanges, le forum BitcoinTalk est créé le 22 novembre 2009 par Satoshi.
 
@@ -356,7 +360,7 @@ Ce forum devient rapidement le lieu de discussion privilégié pour les utilisat
 
 Le 21 mai 2010, Laszlo Hanyecz marque l'histoire du Bitcoin en proposant d'acheter 2 pizzas pour 10 000 BTC. C'est la première fois que le Bitcoin est utilisé pour acheter des biens matériels. Laszlo est également reconnu pour avoir révolutionné le minage du Bitcoin grâce au GPU mining.
 
-### La Disparition de Satoshi Nakamoto
+### La disparition de Satoshi Nakamoto
 
 En 2010, alors que le Bitcoin commence à attirer l'attention des médias, Satoshi décide de prendre ses distances. Le 12 décembre 2010, il publie son dernier post sur le forum, annonçant son départ. Le 23 avril 2011, il effectue son dernier échange privé connu par e-mail. Satoshi disparaît alors, laissant sa création entre les mains de la communauté.
 
@@ -374,7 +378,7 @@ Le Bitcoin est une innovation sans précédent dans le monde financier. Malgré 
 
 ![explication d'une transaction](posters/fr/11._explication_d_une_transaction_crop.png)
 
-### Transactions Bitcoin : Le Processus de Transfert de Fonds
+### Transactions Bitcoin : le processus de transfert de fonds
 
 Une transaction Bitcoin implique un échange de Bitcoins entre deux parties. Prenons par exemple deux protagonistes, Alice et Bob. Alice souhaite acquérir des Bitcoins, tandis que Bob en détient déjà.
 
@@ -479,7 +483,7 @@ Même dans le cas d'une attaque de 51%, le réseau reste sécurisé car l'attaqu
 
 La théorie du jeu appliquée à Bitcoin écarte les mineurs malhonnêtes. Les mineurs utilisent des machines ASIC pour miner et reçoivent une récompense en cas de succès. De plus, ils se regroupent souvent en pools de minage pour partager leur puissance de calcul et obtenir des récompenses plus rapidement.
 
-### En conclusion
+### Conclusion
 
 Le minage de Bitcoin est un processus complexe mais essentiel pour le fonctionnement et la sécurité du réseau Bitcoin. La preuve de travail et la blockchain résolvent le problème de la double dépense et assurent la véracité des informations. La dépense énergétique est nécessaire pour valider le travail accompli et garantir la sécurité du réseau. La théorie du jeu appliquée à Bitcoin aide à prévenir les comportements malhonnêtes et à maintenir la sécurité du réseau Bitcoin.
 
@@ -535,7 +539,7 @@ L'industrie de l'or, avec ses machines polluantes, a un impact environnemental p
 
 Bitcoin a le potentiel d'aider à la transition écologique et de contribuer à un monde plus vert. Les médias répandent souvent des idées fausses sur Bitcoin et l'écologie. Sans Bitcoin, il serait plus difficile de financer la transition écologique par la création monétaire.
 
-## conclusion chapitre 3
+## Conclusion Chapitre 3
 
 ![conclusion chapitre 3](https://youtu.be/gqILoXTUKdc)
 
@@ -545,15 +549,15 @@ Bitcoin a le potentiel d'aider à la transition écologique et de contribuer à 
 
 ![Bitcoin ne dort jamais](posters/fr/15._bitcoin_ne_dort_jamais_crop.png)
 
-![bitcoin ne dort jamais](https://youtu.be/7535MAeHzxM)
+![Bitcoin ne dort jamais](https://youtu.be/7535MAeHzxM)
 
-### Comprendre le Prix du Bitcoin et l'Épargne Saine
+### Comprendre le prix du Bitcoin et l'épargne saine
 
 Le prix du Bitcoin, comme toute autre crypto-monnaie, est caractérisé par une volatilité significative. Sa valeur peut fluctuer considérablement en fonction des variations du marché. Toutefois, par rapport aux monnaies fiduciaires, le Bitcoin a tendance à voir sa valeur augmenter sur le long terme.
 
 L'épargne saine peut également inclure le Bitcoin. L'une des stratégies recommandées est le dollar cost averaging, qui consiste à investir régulièrement une somme fixe en Bitcoin, indépendamment de son prix actuel. Cela permet de lisser l'impact des fluctuations de prix sur le long terme. De plus, la stratégie du "hodl" (un terme issu d'une faute de frappe devenu populaire dans la communauté crypto, signifiant "hold on for dear life", soit "s'accrocher coûte que coûte") encourage à conserver ses Bitcoins plutôt que de les échanger ou de les vendre. Sur le long terme, ces stratégies peuvent être moins risquées et générer des rendements plus importants grâce à l'effet des intérêts composés.
 
-La Dynamique du Bitcoin : Adoption, Bulles Spéculatives et Investissement à Long Terme
+### La Dynamique du Bitcoin : adoption, bulles spéculatives et investissement à long terme
 
 Le Bitcoin, avec sa quantité limitée et son processus de halving, suit une tendance générale à la hausse. Tout comme d'autres actifs financiers, le Bitcoin est sujet à des cycles économiques classiques qui incluent des périodes d'euphorie, des bulles spéculatives et des corrections. Ce phénomène est assez courant dans les technologies émergentes, où le marché n'est pas toujours rationnel ou efficient.
 
@@ -567,7 +571,7 @@ L'année 2017 a été marquée par une importante bulle spéculative dans l'univ
 
 Le marché des crypto-monnaies a connu une bulle en 2017, suivie d'un crash en 2018-2019. Actuellement, le marché traverse une autre bulle spéculative qui a porté le prix du Bitcoin à 60 000. Cette bulle se distingue des précédentes par une plus grande diversification des investisseurs, y compris des institutions financières et des grandes entreprises.
 
-### un marché different
+### Un marché different
 
 Le marché du Bitcoin est unique en ce sens qu'il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7, rendant la régulation difficile pour les autorités financières. Contrairement aux monnaies traditionnelles, comme l'euro, qui peuvent perdre de la valeur, le Bitcoin a montré une tendance à la hausse en raison de sa rareté croissante.
 
@@ -581,19 +585,19 @@ Nous encourageons une approche d'épargne réfléchie qui inclut une allocation 
 
 Le monde du Bitcoin est riche et constamment en évolution, offrant de nombreuses opportunités d'apprentissage et de développement. Il est recommandé de poursuivre votre éducation et de rester informé des dernières tendances et développements dans ce domaine.
 
-### Avertissement
+### Avertissements
 
 Il est important de souligner que cet avertissement n'est pas un conseil financier. Bitcoin, comme tout autre investissement, comporte des risques. Ne dépensez pas plus d'argent que vous ne pouvez vous permettre de perdre. Faites toujours preuve de diligence raisonnable et consultez un conseiller financier qualifié avant de faire tout investissement.
 
 Les performances passées ne garantissent pas les performances futures. Les informations fournies ici sont à des fins éducatives uniquement. Tout investissement ou stratégie de trading doit être basé sur votre propre recherche et votre propre jugement.
 
-## 4.2 Obtenir des Bitcoin en travaillant
+## 4.2 Obtenir des bitcoins en travaillant
 
 ![Obtenir des bitcoin en travaillant](posters/fr/17._travailler_pour_des_bitcoin_crop.png)
 
 ![obtenir des bitcoin en travaillant](https://youtu.be/sHkadVRUQF8)
 
-### Acquérir des Bitcoins par le Travail
+### Acquérir des bitcoins par le travail
 
 Bitcoin peut être perçu comme une économie parallèle à celle des monnaies traditionnelles. Cela signifie qu'il est possible de vendre des biens ou des services et d'être payé en Bitcoin. Les transactions peuvent être effectuées directement en Bitcoin, sans avoir besoin de passer par une plateforme d'échange.
 
@@ -605,7 +609,7 @@ Pour obtenir des bitcoins, vous pouvez les acheter sur des plateformes régulée
 
 **rajouter qurlque part btc map**
 
-### Accepter Bitcoin pour les transactions commerciales : Avantages et solutions
+### Accepter bitcoin pour les transactions commerciales : avantages et solutions
 
 Accepter le Bitcoin en tant que commerçant présente plusieurs avantages, dont l'absence de censure, des frais de transaction réduits, une efficacité accrue, une protection contre l'inflation, ainsi que la liberté et la souveraineté financière. En outre, l'activité commerciale et l'économie circulaire du Bitcoin peuvent contribuer au réseau Bitcoin tout en permettant d'acquérir des Bitcoins.
 
@@ -615,7 +619,7 @@ Il existe trois niveaux d'acceptation du Bitcoin : le code QR statique, le porte
 
 Plusieurs outils peuvent être utilisés pour faciliter l'acceptation du Bitcoin, comme le portefeuille Blue Wallet pour les débutants, ou des processeurs de paiement plus avancés tels que BTP Server, OpenNode et Galois Bitcoin Beach Wallet pour un usage plus industriel. Chaque solution a ses avantages et ses inconvénients, notamment en termes d'anonymat et de frais.
 
-### En conclusion,
+### Conclusion
 
 l'utilisation du Bitcoin peut offrir de nombreux avantages, comme l'élimination des frais de transaction, la réduction de la fraude par carte bancaire, l'obtention de Bitcoins non traçables, ainsi qu'une plus grande autonomie et flexibilité. Accepter le Bitcoin est une pratique qui se généralise en France, permettant non seulement d'économiser sur les frais de transaction habituels, mais aussi d'attirer une clientèle avant-gardiste.
 
@@ -625,10 +629,11 @@ l'utilisation du Bitcoin peut offrir de nombreux avantages, comme l'élimination
 
 ![epargne en bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
-### Introduction à Bitcoin et aux Risques Associés
+### Introduction à Bitcoin et aux risques associés
 
 Bitcoin est devenu un actif financier important, principalement en raison de son offre limitée et de sa demande croissante. Toutefois, l'achat de Bitcoin comporte des risques qui nécessitent une attention particulière. Il est donc recommandé de consulter un conseiller en investissement avant d'investir.
-Acquisition et Accumulation de Bitcoins
+
+### Acquisition et Accumulation de Bitcoins
 
 Il existe plusieurs moyens d'acquérir des Bitcoins, chacun ayant ses propres réglementations. Certaines plateformes exigent une pièce d'identité pour la vérification, tandis que d'autres ne le font pas. Il est crucial de comprendre les mécanismes de Bitcoin et des portefeuilles numériques, ainsi que les réglementations associées à chaque plateforme.
 
@@ -659,7 +664,7 @@ Il est également important de noter qu'il y a des impôts à payer sur la reven
 
 Comme toute nouvelle technologie, l'adoption de Bitcoin suit une courbe de distribution très classique. Nous avons dépassé l'époque des premiers adoptants et les indicateurs semblent pointer vers une démocratisation complète du Bitcoin. C'est une technologie virale qui ne s'arrête pas. Le Salvador a pris le pari audacieux d'adopter le Bitcoin de manière totale, en le déclarant comme une monnaie ayant cours légal et en exploitant le Lightning Network pour un usage quotidien. Cependant, chaque pays réagit différemment face à cette technologie. Certains l'ont banni et criminalisé son usage, ajoutant ainsi à la complexité de l'adoption de Bitcoin en fonction des cultures, des époques et des nations.
 
-La multipolarité de Bitcoin et l'émergence de nouvelles questions
+### La multipolarité de Bitcoin et l'émergence de nouvelles questions
 
 La montée en puissance de Bitcoin oblige les entreprises, les universités, les régulateurs et les particuliers à prendre en compte cette nouvelle technologie. De nouveaux outils doivent être créés, les services doivent être adaptés et l'innovation doit continuer pour garantir leur survie. Ce contexte soulève de nombreuses questions touchant à divers domaines, notamment la cryptographie, la théorie des jeux, l'économie et la finance, l'informatique, la philosophie, les lois et la régulation.
 
@@ -669,15 +674,19 @@ Je vous invite à réfléchir à cette nouvelle révolution monétaire. Il y a t
 
 Ensemble, je crois que nous sommes capables de créer le monde que nous souhaitons confier à nos enfants. Un monde où la souveraineté humaine est un droit, où la vie privée est respectée par défaut et où la monnaie n'est pas manipulée. J'espère qu'ensemble nous y arriverons.
 
-La librairie Bitcoin
+### La librairie Bitcoin
 
 Si vous souhaitez développer vos connaissances sur le Bitcoin, un grand nombre d’auteurs, penseurs, essayistes ont contribué à la couche éducationnelle de Bitcoin. Depuis quelques années, je répertorie et classe ces œuvres pour offrir une bibliothèque de ressources aux plus curieux d’entre vous. Vous y trouverez les meilleurs podcasts, sites internet, articles, tutoriels, livres, posts twitter et autres contenus.
 
 Milton Friedman, un économiste renommé, avait prédit en 1999: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A." Aujourd'hui, le Bitcoin répond à cette prédiction.
 
-## soutient nous
+## Soutient nous
 
-## note la formation
+**texte à ajouter**
+
+## Note la formation
+
+**texte à ajouter**
 
 # Chapitre 5 – Le Lightning Network
 
@@ -687,7 +696,7 @@ Milton Friedman, un économiste renommé, avait prédit en 1999: "I think that t
 
 ![le lightnign network](posters/fr/20._explication_lightning_network_crop.png)
 
-### Le Lightning Network : Une réponse à la scalabilité de Bitcoin
+### Le Lightning Network : une réponse à la scalabilité de Bitcoin
 
 Le Lightning Network est une technologie révolutionnaire qui a profondément modifié notre perception de Bitcoin. C'est une solution qui répond à la question de la scalabilité de Bitcoin.
 
@@ -717,13 +726,13 @@ Le Lightning Network est l'avenir de Bitcoin. Les choix d'ingénierie pour Bitco
 
 Le Lightning Network est une nouvelle couche infrastructurelle pour résoudre le problème de la scalabilité de Bitcoin. Il permet de réaliser des millions et des milliards de transactions entre deux personnes connectées sans frais et sans dépenses énergétiques sur la blockchain de base. Il est essentiel de se tenir informé de cette technologie pour comprendre l'avenir de Bitcoin et de la finance en général.
 
-## 5.2 Cas d’usage LN
+## 5.2 Cas d’usage du Lightning Network
 
 ![cas d'usage du LN](https://youtu.be/_UV2jmQ8TQM)
 
 ![cas d'usage du LN](posters/fr/21._cas_d_usage_lightning_network_crop.png)
 
-### Les micro-transactions sur le Lightning Network : Une perspective critique
+### Les micro-transactions sur le Lightning Network : une perspective critique
 
 Le protocole Bitcoin, bien que révolutionnaire, a fait face à des défis importants en matière de scalabilité et d'efficacité des transactions. Pour résoudre ces problèmes, une solution de deuxième couche connue sous le nom de Lightning Network a été proposée et mise en œuvre. Cette technologie vise à faciliter les micro-transactions, c'est-à-dire les transactions de très faible valeur, qui seraient autrement impraticables en raison des frais élevés et des temps de confirmation longs sur la blockchain Bitcoin.
 
@@ -741,7 +750,7 @@ Les parties peuvent être tarifées, avec des frais d'entrée allant de 1 centim
 
 En somme, l'avenir des micro-transactions avec Bitcoin semble prometteur grâce à des innovations comme le Lightning Network. Alors que ces technologies continuent à se développer et à mûrir, nous pouvons nous attendre à voir de nouvelles et passionnantes applications émerger dans un avenir proche.
 
-### Vers l'avenir : Le streaming d'argent et la réinvention des modèles économiques
+### Vers l'avenir : le streaming d'argent et la réinvention des modèles économiques
 
 Le concept de "streaming d'argent" est une vision pour l'avenir qui est rendue possible grâce au Lightning Network. Ce réseau permet des micro-transactions instantanées, ouvrant la voie à des modèles économiques où les consommateurs paient à la seconde pour le contenu qu'ils consomment.
 
@@ -757,22 +766,22 @@ Nous apprécions votre attention et votre engagement envers l'apprentissage et l
 
 ## 5.3 Pilule rouge
 
-![pilule](https://youtu.be/nCRVIoyyyck)
+![pilule rouge](https://youtu.be/nCRVIoyyyck)
 
-![pilule](posters/fr/2.pilluleorange.png)
+![pilule rouge](posters/fr/2.pilluleorange.png)
 
-manque cours
+**manque cours**
 
-# conclusion de la formation
+# Conclusion générale de la formation
 
-![conclusion](https://youtu.be/BoZL_D7uLAg)
+![Conclusion](https://youtu.be/BoZL_D7uLAg)
 
-![remerciment et allez plus loins](https://youtu.be/A2P5GdkgB-M)
+![Rmerciement et allez plus loin](https://youtu.be/A2P5GdkgB-M)
 
-# allez plus loins:
+# Allez plus loin
 
-shill les autre formation,
+**texte pour mettre en avant les autres formations**
 
-remerciment et credit:
+# Remerciment et credit
 
 Ce cours se concentre sur la théorie et la pratique de Bitcoin. Il a été conçu grâce à la contribution de nombreuses personnes dédiées, dont Muriel pour la création des visuels, Ishani, Sarah, Rachel pour leur aide précieuse, ainsi que Joss et John de Stacking Sat, et toute la communauté de hodlers sur Twitter, YouTube et Discord.

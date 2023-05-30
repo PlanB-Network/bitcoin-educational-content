@@ -42,7 +42,7 @@ Rogzy
 
 Pantamis
 
-renaud
+Renaud Lifchitz - Expert en cybersécurité
 
 Team contributeurs:
 

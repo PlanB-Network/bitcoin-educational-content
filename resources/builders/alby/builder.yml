@@ -4,6 +4,9 @@ links:
   twitter: https://twitter.com/getalby
   github: https://github.com/getAlby
   Nostr: npub1getal6ykt05fsz5nqu4uld09nfj3y3qxmv8crys4aeut53unfvlqr80nfm
+
+category: wallet
+
 tags:
   - bitcoin-only
   - wallet

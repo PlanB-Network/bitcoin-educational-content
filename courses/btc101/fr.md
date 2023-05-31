@@ -1,27 +1,21 @@
 ---
 name: Le parcours Bitcoin
 goal: Découvrir Bitcoin et ses fondamentaux avec sa proposition de valeur monétaire, les mineurs, les transactions et portefeuilles.
+objectives:
+  - Avoir une compréhension générale de la technologie Bitcoin
+  - Comprendre comment acheter et sécuriser ses bitcoins
+  - Avoir une compréhension générale de la technologie Blockchain
+  - Etre familiarisé avec le concept du Litghning Network
+  - Réaliser l’impact géopolitique et social que représente Bitcoin
 ---
 
 # Votre première aventure Bitcoin
-
-:[affiche du cours](BTC101_vignette-presentation-front.png)
 
 Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: mineurs, portefeuille, plateforme d’achat/vente, etc…
 
 La formation devrait prendre environ 15 heures avec un examen final à la fin. Durant tout le parcours, des posters explicatifs tirés de mon livre sont disponibles ainsi que des ressources supplémentaires, des interviews d’experts ou encore des vidéos FAQ.
 
-## Qu’allez-vous apprendre durant ce cours ?
-
-- Avoir une compréhension générale de la technologie Bitcoin
-- Comprendre comment acheter et sécuriser ses bitcoins
-- Avoir une compréhension générale de la technologie Blockchain
-- Etre familiarisé avec le concept du Litghning Network
-- Réaliser l’impact géopolitique et social que représente Bitcoin
-
 Vous ressortirez de cette formation en ayant toutes les connaissances nécessaires pour attaquer la suite !
-
-Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
 
 +++
 
@@ -39,7 +33,6 @@ Dans le cadre de cette étude, nous discuterons des aspects monétaires de Bitco
 
 Nous examinerons également le rôle des mineurs, qui sont essentiels à la création de nouveaux bitcoins et à la sécurisation du réseau Bitcoin. En outre, nous nous pencherons sur l'avenir de Bitcoin et sur la manière dont la technologie du Lightning Network peut améliorer les transactions Bitcoin.
 
-
 ### L'importance de la formation et de l'apprentissage
 
 Il est essentiel de comprendre que Bitcoin est non seulement une monnaie, mais aussi une technologie pouvant révolutionner notre perception de l'argent et des transactions financières. Apprendre à utiliser Bitcoin est une compétence fondamentale, tout comme nous avons appris à utiliser Internet ou à conduire une voiture.
@@ -54,7 +47,7 @@ Notre prochain sujet d'étude portera sur la définition et le fonctionnement de
 
 ![](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 
-![La préhistoire du Bitcoin](posters/fr/1.phehistoiredubitcoin.png)
+![La préhistoire du Bitcoin](posters/fr/1_phehistoiredubitcoin.png)
 
 ### Les fondements de Bitcoin et le mouvement cypherpunk
 
@@ -80,7 +73,7 @@ En somme, Bitcoin est une révolution technologique, financière et sociale qui 
 
 ![La monnaie](https://youtu.be/LslJVNCvHhA)
 
-![La monnaie](posters/fr/3.lamonnaiecrop.png)
+![La monnaie](posters/fr/3_lamonnaiecrop.png)
 
 ### L'évolution de la monnaie à travers l'histoire
 
@@ -106,7 +99,7 @@ Face aux défis posés par les systèmes monétaires actuels, des alternatives s
 
 ![](https://youtu.be/1hOrDrmT27g)
 
-![Les monnaies Fiduciaires](posters/fr/4.lamonnaiefiatcrop.png)
+![Les monnaies Fiduciaires](posters/fr/4_lamonnaiefiatcrop.png)
 
 ### Les monnaies fiduciaires et leurs répercussions sur le système financier
 
@@ -140,7 +133,7 @@ En réponse à ces problèmes, le projet "Découvre Bitcoin" offre des formation
 
 ![](https://youtu.be/cYKmgflsy_8)
 
-![Les hyperinflation](posters/fr/5._hyperinflation_crop.png)
+![Les hyperinflation](posters/fr/5_hyperinflation_crop.png)
 
 ### Hyperinflation dans un Système Monétaire Fiat
 
@@ -174,7 +167,7 @@ Il y a beaucoup à apprendre sur la gestion d'un portefeuille financier. Heureus
 
 ![21 millions de Bitcoin](https://youtu.be/Y92R4EWk5uo)
 
-![21 millions de bitcoin](posters/fr/6._21_million_crop.png)
+![21 millions de bitcoin](posters/fr/6_21_million_crop.png)
 
 ### Émission Monétaire du Bitcoin
 
@@ -210,7 +203,7 @@ En somme, le Bitcoin, par sa nature décentralisée, sa rareté programmée et s
 
 ![comprendre les portefeuilles Bitcoin](https://youtu.be/GsnX7qdODK8)
 
-![explication des portefeuilles Bitcoin](posters/fr/8._explication_des_portefeuilles_bitcoin_crop.png)
+![explication des portefeuilles Bitcoin](posters/fr/8_explication_des_portefeuilles_bitcoin_crop.png)
 
 ### Les portefeuilles Bitcoin: stockage et sécurité
 
@@ -240,7 +233,7 @@ Choisissez un portefeuille qui correspond à vos besoins et à votre cas d'utili
 
 ![Choisir sa sécurité](https://youtu.be/qhjEJuJHRf8)
 
-![choisir sa sécurité](posters/fr/9._choisir_son_portefeuille_crop.png)
+![choisir sa sécurité](posters/fr/9_choisir_son_portefeuille_crop.png)
 
 ### Les portefeuilles et la sécurité des fonds
 
@@ -276,7 +269,7 @@ Il est essentiel d'éviter autant que possible les services de garde ("custodial
 
 ## 2.3 Mise en place d'un portefeuille
 
-![mettre en place un portefeuille](posters/fr/10._mise_en_place_du_portefeuille_crop.png)
+![mettre en place un portefeuille](posters/fr/10_mise_en_place_du_portefeuille_crop.png)
 
 ![mettre en place un portefeuille](https://youtu.be/2MRRERHm7ZM)
 
@@ -304,7 +297,7 @@ Une fois les copies réalisées, rangez les listes de mots dans des dossiers, da
 
 ![passer l'épreuve du temps](https://youtu.be/p8eZPt_XnwI)
 
-![passerl'épreuve du temps](posters/fr/19._passer_l_epreuve_du_temps_crop.png)
+![passerl'épreuve du temps](posters/fr/19_passer_l_epreuve_du_temps_crop.png)
 
 ### Sécurisation des Bitcoins à Long Terme
 
@@ -338,7 +331,7 @@ En résumé, la sécurité et la vie privée sont deux aspects clés de la posse
 
 ![Lancement de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
-![lancement du Bitcoin](posters/fr/7._lancement_de_bitcoin_crop.png)
+![lancement du Bitcoin](posters/fr/7_lancement_de_bitcoin_crop.png)
 
 ### L'Émergence du Bitcoin
 
@@ -376,7 +369,7 @@ Le Bitcoin est une innovation sans précédent dans le monde financier. Malgré 
 
 ![Explication d'une transaction](https://youtu.be/GJlUqtGzxLk)
 
-![explication d'une transaction](posters/fr/11._explication_d_une_transaction_crop.png)
+![explication d'une transaction](posters/fr/11_explication_d_une_transaction_crop.png)
 
 ### Transactions Bitcoin : le processus de transfert de fonds
 
@@ -408,7 +401,7 @@ Pour que le réseau Bitcoin soit complètement détruit, il faudrait éliminer t
 
 ## 3.3 Les nœuds Bitcoin
 
-![les noeuds Bitcoins](posters/fr/12._explication_des_nodes_crop.png)
+![les noeuds Bitcoins](posters/fr/12_explication_des_nodes_crop.png)
 
 ![les noeuds bitcoin](https://youtu.be/3vQmDJ4_ooM)
 
@@ -447,7 +440,7 @@ En somme, les nœuds, qu'ils soient incarnés par des dispositifs physiques ou d
 
 ## 3.4 Les mineurs
 
-![les mineurs](posters/fr/13._explication_des_mineurs_crop.png)
+![les mineurs](posters/fr/13_explication_des_mineurs_crop.png)
 
 ![les minerus](https://youtu.be/Lr5L3uy244w)
 
@@ -489,7 +482,7 @@ Le minage de Bitcoin est un processus complexe mais essentiel pour le fonctionne
 
 ## 3.5 Bitcoin et l’écologie
 
-![Bitcoin & écologie](posters/fr/14._minage_et_ecologie_crop.png)
+![Bitcoin & écologie](posters/fr/14_minage_et_ecologie_crop.png)
 
 ![Bitcoin & écologie](https://youtu.be/nV2b2xAMfmU)
 
@@ -547,7 +540,7 @@ Bitcoin a le potentiel d'aider à la transition écologique et de contribuer à 
 
 ## 4.1 Bitcoin ne dort jamais !
 
-![Bitcoin ne dort jamais](posters/fr/15._bitcoin_ne_dort_jamais_crop.png)
+![Bitcoin ne dort jamais](posters/fr/15_bitcoin_ne_dort_jamais_crop.png)
 
 ![Bitcoin ne dort jamais](https://youtu.be/7535MAeHzxM)
 
@@ -593,7 +586,7 @@ Les performances passées ne garantissent pas les performances futures. Les info
 
 ## 4.2 Obtenir des bitcoins en travaillant
 
-![Obtenir des bitcoin en travaillant](posters/fr/17._travailler_pour_des_bitcoin_crop.png)
+![Obtenir des bitcoin en travaillant](posters/fr/17_travailler_pour_des_bitcoin_crop.png)
 
 ![obtenir des bitcoin en travaillant](https://youtu.be/sHkadVRUQF8)
 
@@ -625,7 +618,7 @@ l'utilisation du Bitcoin peut offrir de nombreux avantages, comme l'élimination
 
 ## 4.3 Épargne avec Bitcoin
 
-![epargne en bitcoin](posters/fr/16._epargne_avec_bitcoin_crop.png)
+![epargne en bitcoin](posters/fr/16_epargne_avec_bitcoin_crop.png)
 
 ![epargne en bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
@@ -658,7 +651,7 @@ Il est également important de noter qu'il y a des impôts à payer sur la reven
 
 ![hyper-bitcoinisation](https://youtu.be/lLxndxrzXR0)
 
-![hyper-bitoinisation](posters/fr/18._hyperbitcoinisation_crop.png)]
+![hyper-bitoinisation](posters/fr/18_hyperbitcoinisation_crop.png)]
 
 ### Adoption et diffusion globales du Bitcoin
 
@@ -694,7 +687,7 @@ Milton Friedman, un économiste renommé, avait prédit en 1999: "I think that t
 
 ![Le lightning Network](https://youtu.be/HFv3NN4z450)
 
-![le lightnign network](posters/fr/20._explication_lightning_network_crop.png)
+![le lightnign network](posters/fr/20_explication_lightning_network_crop.png)
 
 ### Le Lightning Network : une réponse à la scalabilité de Bitcoin
 
@@ -730,7 +723,7 @@ Le Lightning Network est une nouvelle couche infrastructurelle pour résoudre le
 
 ![cas d'usage du LN](https://youtu.be/_UV2jmQ8TQM)
 
-![cas d'usage du LN](posters/fr/21._cas_d_usage_lightning_network_crop.png)
+![cas d'usage du LN](posters/fr/21_cas_d_usage_lightning_network_crop.png)
 
 ### Les micro-transactions sur le Lightning Network : une perspective critique
 
@@ -768,7 +761,7 @@ Nous apprécions votre attention et votre engagement envers l'apprentissage et l
 
 ![pilule rouge](https://youtu.be/nCRVIoyyyck)
 
-![pilule rouge](posters/fr/2.pilluleorange.png)
+![pilule rouge](posters/fr/2_pilluleorange.png)
 
 **manque cours**
 

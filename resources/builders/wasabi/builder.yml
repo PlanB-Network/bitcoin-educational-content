@@ -3,11 +3,11 @@ links:
   website: https://www.wasabiwallet.io/
   twitter: https://twitter.com/wasabiwallet
   github: https://github.com/zkSNACKs/WalletWasabi
-  
+
 tags:
-  - Bitcoin-only
+  - bitcoin-only
   - open-source
   - wallet
   - privacy
-  
+
 category: wallet

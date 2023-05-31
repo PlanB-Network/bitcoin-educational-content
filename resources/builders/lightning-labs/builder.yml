@@ -4,8 +4,8 @@ links:
   twitter: https://twitter.com/lightning
   github: https://github.com/lightningnetwork/lnd
 tags:
-  - Bitcoin-only
+  - bitcoin-only
   - open-source
-  - Lightning-infrastructur
-  
-category: infrastructur
+  - lightning-infrastructure
+
+category: infrastructure

@@ -1,12 +1,11 @@
-name: Bolt Fun 
+name: Bolt Fun
 links:
   website: https://makers.bolt.fun/feed
   twitter: https://twitter.com/boltfun_btc
 
-
 tags:
-  - Bitcoin-only
-  - lightning 
+  - bitcoin-only
+  - lightning
   - game
 
 category: education

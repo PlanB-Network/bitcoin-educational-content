@@ -554,12 +554,30 @@ Bitcoin est important et ne doit pas être considéré comme un simple jeu d'arg
 
 ![Conclusion](https://youtu.be/BoZL_D7uLAg)
 
+Le protocole Bitcoin est apolitique, il permet d'enregistrer toutes les transactions dans une base de données, la blockchain, qui garantit la vérité monétaire. Les couches infrastructurelles de niveau 2 et 3 permettent de faire évoluer le réseau et de développer de nouvelles fonctionnalités.
+Bitcoin est conçu comme de l'ingénierie nucléaire ou spatiale, il évolue lentement et volontairement pour atteindre une masse critique de 7 milliards de personnes et ne pas casser le réseau. Bitcoin a toutes les caractéristiques nécessaires pour être une monnaie: divisible, transportable instantanément, non censurable, facilement déplaçable, et idéal pour garder sa valeur dans le temps. Bitcoin est pseudo-anonyme et peut être échangé partout dans le monde sans autorisation.
+
+Bitcoin a été adopté par différents groupes de personnes, des geeks libertariens aux entreprises traditionnelles. Bitcoin est utilisé par une très grande partie de la population, avec plus de 100 millions d'utilisateurs. Bitcoin ne peut plus être arrêté et ne peut plus être censuré. C'est une révolution pacifique pour changer notre système monétaire et permettre l'inclusivité.
+Les utilisateurs peuvent obtenir des Bitcoins en les acceptant pour leur commerce ou en les achetant via des plateformes régulées ou non. Les Bitcoins peuvent être stockés dans des portefeuilles, des applications mobiles ou des appareils physiques. Pas d'intermédiaire de confiance dans Bitcoin. Bitcoin prône la liberté et une sortie du système traditionnel.
+
+Changer le système nécessite de changer la monnaie. La décorrélation entre l'or, les ressources, l'argent et le monde réel crée des inégalités dans la société. Satoshi a créé Bitcoin en 2008 pour pallier à cette situation. L'argent absolu corrompt également. Un reset monétaire complet est nécessaire pour régler certains problèmes de la société.
+Bitcoin permet l'émancipation du système bancaire et plus d'égalité. C'est un phénomène social et mène à une révolution pacifique. 
+
+# Continuez à creuser le terrier du lapin
+
 ![Rmerciement et allez plus loin](https://youtu.be/A2P5GdkgB-M)
 
-### Allez plus loin
+Tout d'abord, je tiens à remercier tous ceux qui ont participé à cette formation théorique sur Bitcoin, qui a été très utile pour comprendre les bases de cette technologie révolutionnaire.
+Maintenant, passons à la pratique. Avec la formation BTC-102, nous allons vous montrer comment obtenir vos premiers Bitcoins, comment utiliser les portefeuilles et les plateformes d'échange, et comment effectuer des transactions en toute sécurité.
+Nous vous proposons également, avec la formation LN-201, des tutoriels sur le Lightning Network avec Umbrel, une technologie de deuxième couche qui permet des transactions instantanées et à faible coût. Fannis vous expliquera en détail le fonctionnement du Lightning Network avec la formation LN-202.
+Nous mettons également à votre disposition des quiz pour tester vos connaissances sur Bitcoin. Nous avons une newsletter, un questionnaire, un site Internet avec une librairie et des ressources, ainsi qu'un podcast live tous les dimanches à 18h sur Twitter avec un replay disponible le lundi sur YouTube et un podcast disponible sur toutes les plateformes.
+Tout cela est 100% gratuit grâce aux donateurs, Patreon et aux gens qui nous soutiennet via le e-commerce. Nous sommes là pour vous aider à ne pas louper le coche de la révolution monétaire, financière et technologique de Bitcoin.
 
-**texte pour mettre en avant les autres formations**
+Je suis très heureux de vous avoir présenter les 21 posters que nous avons réalisés pour l'événement Surfing Bitcoin à Biarritz.
+Nous avons travaillé dur pendant un mois pour créer ces posters, avec l'aide de Joss et John de Stacking Sat, les organisateurs de l'événement, qui ont cru en notre artiste pour réaliser le projet.
 
-### Remerciment et credit
-
-Ce cours se concentre sur la théorie et la pratique de Bitcoin. Il a été conçu grâce à la contribution de nombreuses personnes dédiées, dont Muriel pour la création des visuels, Ishani, Sarah, Rachel pour leur aide précieuse, ainsi que Joss et John de Stacking Sat, et toute la communauté de hodlers sur Twitter, YouTube et Discord.
+D'autres personnes ont également contribué aux illustrations, notamment Ishani et Sarah. Rachel était derrière la caméra et a aidé à créer le projet. Les HODLers (proches de l'artiste dans la communauté Bitcoin) ont également apporté leur aide avec des feedbacks, notamment John, Guillaume, Lounès et Fanis.
+Nous tenons à remercier également la communauté Twitter, YouTube et Discord pour leur soutien et leur aide. Des correcteurs ont également aidé à corriger les fautes de dyslexie de l'artiste dans les posters et les livres.
+Nous sommes reconnaissants pour les likes et partages que nous avons reçus. Cette formation est utile pour aider les gens et nous avons des ressources supplémentaires disponibles sur la chaîne YouTube, les réseaux sociaux, le site DécouvreBitcoin et la librairie.
+Nous sommes ouverts aux feedbacks, même négatifs, car nous sommes constamment à la recherche de moyens d'améliorer nos formations. DécouvreBitcoin continue d'être le premier média francophone 100% Bitcoin.
+Nous tenons à remercier nos Patreons et Muriel pour leur soutien financier et créatif. Enfin, je vous adresse mes salutations finales de la part de Roxy.

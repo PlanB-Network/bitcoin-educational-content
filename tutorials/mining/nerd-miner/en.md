@@ -1,11 +1,14 @@
 ---
-name: Setting Up Your NerdMiner_v2
-
 tag: 
     - mining
     - do it yourself
 
+difficulty: intermediary
+
 ---
+
+![cover](assets\0.jpg)
+# Setting Up Your NerdMiner_v2
 
 In this guide, we will walk you through the steps needed to set up your NerdMiner_v2. By following these steps, you'll be able to get your system up and running in no time.
 

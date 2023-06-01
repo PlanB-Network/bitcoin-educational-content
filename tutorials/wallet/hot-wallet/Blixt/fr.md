@@ -1,13 +1,27 @@
+---
+builder: Blixt Wallet
 
-Portefeuille/Nœud Blixt BTC ⚡️ LN
-Un puissant nœud BTC/Lightning dans votre poche, où que vous soyez
+difficulty: advanced
+
+tag: 
+  - wallet
+  - lightning
+  - open-source
+
+---
+
+![présentation](assets\1.jpeg)
+
+# Portefeuille/Nœud Blixt BTC ⚡️ LN
+
+## Un puissant nœud BTC/Lightning dans votre poche, où que vous soyez
  
 
-Texte de DarthCoin traduit par asi0 – 01/11/2022
+** Texte de DarthCoin traduit par asi0 – 01/11/2022 **
 
 Je voudrais vous présenter un nouveau nœud et porte-monnaie mobile BTC / LN intéressant et également puissant – Blixt. Le nom vient du suédois et signifie « éclair ».
 
-Comment j’ai découvert ce petit bijou ?
+## Comment j’ai découvert ce petit bijou ?
 
 J’ai un nœud Umbrel LND et je voulais avoir un plan de sauvegarde pour restaurer rapidement mon nœud en cas de SHTF1. J’ai donc trouvé ce portefeuille mobile qui permet de restaurer à partir de sauvegardes SCB l’ensemble des fonds du nœud. Ensuite, je commence à le tester plus en détail et j’ai découvert que C’EST UN NOEUD COMPLET DANS VOTRE PROPRE POCHE.
 
@@ -36,15 +50,18 @@ Voici quelques liens à propos de cette nouvelle application de nœud/portefeuil
 
     Feed Twitter avec des démos
 
-Principales fonctionnalités disponibles
-Nœud Neutrino
+![image principal](assets\2.jpg)
+ 
+# Principales fonctionnalités disponibles
+
+## Nœud Neutrino
 
 Blixt se connecte par défaut au serveur de Blixt pour synchroniser les blocs et l’index avec Neutrino (mode SPV pour Simplified Paiement Verification), mais l’utilisateur peut aussi se connecter à son propre nœud. Il est surprenant de constater que la synchronisation d’un nœud SPV prend moins de 5 minutes, dans mon cas sur Android 11, pour être prêt à utiliser le portefeuille du nœud complet (on-chain et LN)
 Nœud Complet Non-Custodial
 
 L’utilisateur peut gérer ses propres canaux avec une interface facile et avec suffisamment d’informations affichées pour avoir une bonne expérience. Dans le menu tiroir en haut à gauche, vous pouvez aller sur les canaux Lightning pour commencer à ouvrir avec d’autres nœuds, comme vous le souhaitez. N’oubliez pas d’activer Tor dans les paramètres. C’est beaucoup mieux pour la vie privée et aussi parce que en tant que nœud mobile, si vous changez beaucoup votre connexion internet / clearnet IP, vos pairs peuvent être pertubés. Avec l’URI du noeud Tor, vous aurez toujours le même identifiant privé quelque soit votre localisation / IP.
 
-Sauvegarder/Restaurer un nœud LND
+## Sauvegarder/Restaurer un nœud LND
 
 Une fonctionnalité puissante, facile à gérer et utile est la restauration de d’autres nœuds LND morts, avec juste la liste 24 mots seed et le fichier channels.backup.
 
@@ -63,7 +80,7 @@ Tor intégré
 Une fois que vous l’aurez activé, l’application redémarrera derrière le réseau Tor. À partir de ce moment, vous pouvez voir dans les paramètres du menu, votre node ID avec une adresse onion, de sorte que d’autres nœuds peuvent ouvrir des canaux vers votre petit nœud Blixt mobile. Ou disons que vous avez votre propre nœud à la maison et que vous voulez avoir des petits canaux avec votre nœud Blixt mobile. Une combinaison parfaite.
 
  
-Dunder LSP — Liquidity Service Provider ou Fournisseur de Services de Liquidités
+## Dunder LSP — Liquidity Service Provider ou Fournisseur de Services de Liquidités
 
 Une fonctionnalité simple et fantastique qui offre au nouvel utilisateur la possibilité de commencer à accepter des BTC sur le Lightning Network immédiatement, sans à avoir besoin de déposer des fonds sur le portefeuille on-chain pour ensuite ouvrir des canaux LN.
 
@@ -76,24 +93,24 @@ Mais si vous choisissez pour le troisième paiement de recevoir, disons, 300k, i
 S’il y a trop de demandes, le nœud de Blixt peut modifier la capacité du canal lors de l’ouverture.
 
  
-Ouverture automatique de canal
+## Ouverture automatique de canal
 
 Dans les paramètres, l’utilisateur peut activer cette option et avoir un service automatisé qui ouvre des canaux avec les meilleurs nœuds et routes à partir du solde disponible dans le portefeuille onchain de l’application Blixt. C’est une fonction avantageuse pour les nouveaux utilisateurs qui ne savent pas trop avec quel nœud faire un canal et/ou comment ouvrir un canal LN. C’est comme un pilote automatique pour LN.
 
     Rappelez-vous : cette option est utilisée une seule fois, lorsque vous créez votre nouveau portefeuille Blixt, et est activée par défaut. Donc si le nouvel utilisateur scanne le code QR on-chain sur l’écran principal et dépose à cette adresse ses premiers sats, Blixt ouvrira automatiquement un canal avec ces sats, avec le nœud public Blixt.
 
  
-Services de liquidités entrantes
+## Services de liquidités entrantes
 
 Fonctionnalité dédiée aux marchands qui ont besoin de plus de liquidités ENTRANTES, facile à utiliser. Pour cela, il suffit de sélectionner l’un des fournisseurs de liquidités dans la liste, de payer le montant que vous voulez pour le canal et de fournir l’ID de votre nœud et à partir de là, un canal s’ouvrira vers votre nœud Blixt.
 
  
-Listes de contacts
+## Listes de contacts
 
 Fonctionnalité utile si vous souhaitez disposer d’une liste durable de destinateurs avec lesquels vous commercer la plupart du temps. Cette liste peut être constituée de LNURL, d’adresses Lightning ou de futures informations de paiement statiques/factures. Pour l’instant, cette liste ne peut pas être sauvegardée en dehors de l’application, mais il est prévu d’avoir une option pour l’exporter.
 
  
-Envoyer vers une adresse Ligthning
+## Envoyer vers une adresse Ligthning
 
 Vous pouvez envoyer à n’importe quelle adresse LN si elle n’est pas dans votre liste de contacts. Bientôt peut-être, une option pour avoir sa propre adresse LN de type @blixtwallet.com.
 
@@ -102,36 +119,36 @@ Prise en charge des LNURL
 Vous pouvez scanner/payer/vous connecter avec LNURL, mais pour le moment cela ne fonctionne pas si le LNURL est derrière Tor.
 
  
-Keysend
+## Keysend
 
 Une fonctionnalité très puissante que peu de portefeuilles mobiles ont. Vous pouvez envoyer / pousser des fonds directement par un canal ou pointé vers un autre nœud, en ajoutant un message si nécessaire. Cette fonctionnalité est très utile pour afficher des messages sur le panneau d’affichage Amboss.space (voici un guide sur ce panneau d’affichage Amboss).
 
-Signature de messages
+## Signature de messages
 
 Outil très utile pour signer des messages avec votre clé privée du nœud Blixt, des messages d’authentification de connexion et ainsi de suite. Très peu de portefeuilles mobiles disposent de cette fonctionnalité, quasiment aucun.
 
  
-Paiements multi-canaux — Multi-Path Payments (MPP)
+## Paiements multi-canaux — Multi-Path Payments (MPP)
 
 Fonctionnalité utile pour les paiements LN, permettant de diviser un paiement LN en plusieurs parties, à travers plusieurs canaux. C’est un bon moyen d’équilibrer les liquidités sur le réseau et d’améliorer la confidentialité.
 
  
-Naviguateur Lightning
+## Naviguateur Lightning
 
 Une série de services tiers avec LN, organisés au sein d’un navigateur simple, accessible et à portée de main pour l’utilisateur. C’est aussi un bon moyen de promouvoir les entreprises qui acceptent BTC sur LN. Il s’agit d’une fonctionnalité qui sera davantage développée à l’avenir. Pour l’instant, elle ne fonctionne pas derrière Tor, donc la navigation sur ces applications se fera en clair (clearnet).
 
  
-Explorateurs de Logs
+## Explorateurs de Logs
 
 C’est un outil puissant pour vérifier les logs LND et l’état de votre nœud en général. Il y a une option pour sauvegarder le fichier des logs. Il est très utile d’avoir ces logs à portée de main au cas où vous auriez besoin de l’aide du développeur pour identifier certains problèmes.
 
  
-Sécurité
+## Sécurité
 
 Vous pouvez définir dans les paramètres de l’application, pour une plus grande sécurité de votre portefeuille/noeud, la possibilité de démarer l’application avec un code PIN et/ou l’empreinte digitale.
 
  
-Portefeuille On-chain
+## Portefeuille On-chain
 
 Cette fonctionnalité est un peu cachée, dans le menu tiroir en haut à gauche. Comme elle n’est pas souvent utilisée par un utilisateur du LN, elle n’est pas visible sur l’écran principal. Mais ce n’est pas grave, vous pouvez l’avoir sur un portefeuille séparé où vous pouvez gérer les adresses et voir le journal des txs, en important votre seed sur Sparrow par exemple. Peut-être que dans le futur, Blixt wallet inclurera également une fonctionnalité pour gérer les UTxO. Mais pour l’instant, utilisez UNIQUEMENT ce portefeuille on-chain pour ouvrir ou fermer des canaux sur LN.
 
@@ -142,11 +159,11 @@ Eh oui, dans l’application Blixt, il y a quelques fonctionnalités cachées, d
 Indice : essayez de cliquer deux fois sur le logo Blixt dans le tiroir 🙂 Je vous laisse découvrir le reste.
 
  
-Mini guide pour des cas d’usage typiques avec Blixt
+# Mini guide pour des cas d’usage typiques avec Blixt
 
 A. Ouverture des canaux vers votre mini-nœud Blixt depuis votre noeud umbrel
 
-Pour les utilisateurs Android :
+## Pour les utilisateurs Android :
 
 1. Allez dans les paramètres de Blixt – activez Tor – redémarrez l’application (fermez-la de force si elle ne redémarre pas automatiquement).
 
@@ -163,7 +180,7 @@ Pour les utilisateurs Android :
 6. Attendez 3 confirmations pour avoir un nouveau canal avec votre « mini nœud » Blixt.
 
  
-Pour les utilisateurs d’iOS :
+## Pour les utilisateurs d’iOS :
 
 1. Allez dans les paramètres de Blixt – activez Tor – redémarrez l’application.
 
@@ -179,7 +196,7 @@ Pour les utilisateurs d’iOS :
 
 7. Attendez 3 confirmations pour avoir ouvert ce canal et c’est fait, vous avez maintenant plus de liquidité entrante dans votre côté Blixt.
 
-B. Ouverture de canaux vers un nœud Umbrel
+## B. Ouverture de canaux vers un nœud Umbrel
 
 Cette fois, nous allons ouvrir un canal DEPUIS votre nœud Blixt, vers votre propre nœud Umbrel (par exemple), pour tester la connexion et l’utilisation de Tor. Plus tard, une fois ouvert, vous pouvez équilibrer ce canal en poussant la moitié ou le montant désiré vers le côté Umbrel. Cela peut également être utilisé comme une « valve d’évacuation » lorsque votre nœud principal Umbrel a besoin de plus de liquidités.
 
@@ -232,14 +249,23 @@ Remarques importantes
 
     Gardez à l’esprit que la fermeture des canaux prend du temps, jusqu’à ce que les fonds soient libérés. C’est ainsi que fonctionne LN (pour en savoir plus allez ici). Donc, en général, si vous avez une fermeture coopérative (normale), cela prendra au moins 40 blocs jusqu’à ce que les fonds soient libérés dans votre portefeuille on-chain. Pour les canaux fermés de force, ce verrou est de 144 blocs ou même plus parfois. Soyez donc patient, et pas d’inquiétude, les fonds sont en sécurité.
 
-Conclusion
+## Conclusion
 
-Bon, voici quelques-unes des principales fonctionnalités (pour un portefeuille mobile, c’est beaucoup, n’est-ce pas ?) parmi beaucoup d’autres et bientôt il y en aura encore plus.
+Bon, voici quelques-unes des principales fonctionnalités (pour un portefeuille mobile, c'est beaucoup, n'est-ce pas ?) parmi beaucoup d'autres et bientôt il y en aura encore plus.
 
-L’expérience avec cette application de portefeuille/nœud LN est très agréable et facile à utiliser, une application très réactive, pas de problèmes majeurs, juste des petites choses qui doivent être ajoutées (mais pas si importantes que ça). C’est encore une application jeune et elle a besoin de beaucoup de tests dans des conditions réelles. Alors n’hésitez pas à l’essayer et à informer le développeur de tout problème qui pourrait être corrigé ou amélioré.
+L'expérience avec cette application de portefeuille/nœud LN est très agréable et facile à utiliser, une application très réactive, pas de problèmes majeurs, juste des petites choses qui doivent être ajoutées (mais pas si importantes que ça). C'est encore une application jeune et elle a besoin de beaucoup de tests dans des conditions réelles. Alors n'hésitez pas à l'essayer et à informer le développeur de tout problème qui pourrait être corrigé ou amélioré.
 
-N’oublions pas non plus qu’il s’agit d’un projet open source et que sa maintenance est assurée par un seul développeur, qui fait tout le travail ! Donc, s’il vous plaît, aidez-le avec des tests et des commentaires et le plus important, soyez patient et signalez-lui avec beaucoup de détails si vous trouvez des problèmes ou si l’application a besoin de plus d’améliorations.
+N'oublions pas non plus qu'il s'agit d'un projet open source et que sa maintenance est assurée par un seul développeur, qui fait tout le travail ! Donc, s'il vous plaît, aidez-le avec des tests et des commentaires et le plus important, soyez patient et signalez-lui avec beaucoup de détails si vous trouvez des problèmes ou si l'application a besoin de plus d'améliorations.
 
-J’espère que vous apprécierez son utilisation. Personnellement, je l’adore et elle m’est très utile (voir ici un cas d’usage où ce portefeuille est un formidable outil).
+J'espère que vous apprécierez son utilisation. Personnellement, je l'adore et elle m'est très utile (voir ici un cas d'usage où ce portefeuille est un formidable outil).
+
 
 Que ₿ITCOIN SOIT AVEC TOI !
+
+        Si tu apprécies le travail de DarthCoin, tu peux envoyer quelques satoshis par LN :
+
+            en utilisant la page Telegram @LNtxBot DarthCoin LNURL
+
+            ou simplement en utilisant l’adresse Lightning à darthcoin@lntxbot.com
+
+        LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF

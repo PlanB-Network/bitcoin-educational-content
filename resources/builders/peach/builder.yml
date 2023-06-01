@@ -1,11 +1,10 @@
-name: Galoy
+name: peach
 links:
   website: https://peachbitcoin.com/
   twitter: https://twitter.com/peachbitcoin
-  github: https://github.com/GaloyMoney
+
 tags:
   - bitcoin-only
-  - open-source
-  - lightning-infrastructure
+  - peer-to-peer
 
 category: exchange

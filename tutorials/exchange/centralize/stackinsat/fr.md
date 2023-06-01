@@ -1,14 +1,18 @@
 ---
-builder: relai
+builder: StackinSat
 
 difficulty: beginner 
+
 tag: 
     - exchange
     - DCA
     - bitcoin-only
+    - KYC
 ---
+![cover](assets\0.jpeg)
 
-Tutoriel DCA – StackinSat
+
+# Tutoriel DCA – StackinSat
 
 Solution française de DCA directement sur votre portefeuille
 

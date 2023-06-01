@@ -1,5 +1,16 @@
+---
+name: Ledger Nano S
 
-Ledger Nano S
+builder: ledger
+
+tag: 
+    - wallet
+    
+---
+
+![cover](assets\0.jpeg)
+
+# Ledger Nano S
 
 Cold physical wallet – €60 – Beginner – To secure €2,000 to €50,000
 

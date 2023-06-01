@@ -1,16 +1,25 @@
-tuto robosat eng
+---
+builder: Robotsats
 
+difficulty: intermediate
+
+tag: 
+    - exchange
+    - peer-to-peer
+    - bitcoin-only
+---
+
+![cover](assets\0.jpeg)
+# Robosats
 
 RoboSats is an easy way to privately exchange Bitcoin for national currencies It simplifies the peer-to-peer experience and makes use lightning hold invoices to minimize custody and trust requirements.
 
 https://youtu.be/XW_wzRz_BDI
 
 
+Tutorial provided by robotsats github: licence: 
 
-tuto ecrit provided by robotsats github: licence: 
 
-
----
 ## How to Use (v0.3.3)
 ![image](https://user-images.githubusercontent.com/97640728/218118681-520e7fa6-52e9-4740-b488-1d294f833de6.png)
 ### <a href="https://www.athena-alpha.com/how-to-buy-bitcoins-using-robosats/" target="_blank">How To Buy Bitcoins Using RoboSats: Fastest KYC Free Sats In The West</a>

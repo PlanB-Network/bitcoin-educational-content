@@ -9,8 +9,9 @@ tag:
     - bitcoin-only
     - open-source
 ---
+![cover](assets\0.jpeg)
 
-##LN p2p Bot
+# LN p2p Bot
 
 
 site: https://lnp2pbot.com/

@@ -1,5 +1,20 @@
+---
+name: Trezor Model ONE
 
-Tutoriel portefeuille – Trezor model One
+builder: Trezor
+
+tag: 
+    - wallet
+    - Open source
+    
+---
+
+![cover](assets\0.jpeg)
+
+# Trezor model ONE
+
+
+Spec
 
 Portefeuille physique froid – 60€ – Débutant – Sécuriser entre 2 000€ et 50 000€
 

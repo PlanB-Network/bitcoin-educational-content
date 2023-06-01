@@ -1,5 +1,5 @@
 ---
-builder: Pecah Bitcoin
+builder: Peach Bitcoin
 
 difficulty: beginners
 
@@ -9,7 +9,9 @@ tag:
     - bitcoin-only
 
 ---
+![cover](assets\0.jpeg)
 
+# Peach Bitcoin
 
 site: https://peachbitcoin.com/
 

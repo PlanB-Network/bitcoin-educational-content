@@ -1,3 +1,19 @@
+---
+name: Trezor Model ONE
+
+builder: Trezor
+
+tag: 
+    - wallet
+    - Open source
+    
+---
+
+![cover](assets\0.jpeg)
+
+# Trezor model ONE
+
+
 
 Trezor model One
 

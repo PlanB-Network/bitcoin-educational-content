@@ -1,3 +1,27 @@
+--- 
+Builder: DécouvreBitcoin
+
+Tag: 
+  - exchange
+  - education
+
+difficulty: beginners
+
+---
+
+![cover](assets\0.jpeg)
+
+# Guide sur comment acheter - vendre des bitcoins
+
+TLDR :
+
+* Vous devez décider si vous voulez être KYC ou non (vous ne devriez pas)
+* Vous devez décider si vous voulez tout investir d'un coup, utiliser l'effet de levier ou simplement DCA
+* Vous devez retirer vos Bitcoin des échanges le plus tôt possible
+
+## informations à connaître avant de commencer
+
+
 Plateformes d'échange
 
 Pour obtenir une exposition à Bitcoin, il est nécessaire d'en acquérir. Bien que la meilleure méthode soit de l'obtenir grâce à votre temps et à vos efforts, l'achat est également une solution couramment utilisée. Pour faciliter les échanges entre vendeurs et acheteurs, des services sont disponibles en tant qu'intermédiaires.

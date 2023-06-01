@@ -1,3 +1,27 @@
+--- 
+Builder: DécouvreBitcoin
+
+Tag: 
+  - exchange
+  - education
+
+difficulty: beginners
+
+---
+
+![cover](assets\0.jpeg)
+
+# Guía sobre cómo comprar - vender bitcoin
+
+TLDR: 
+
+* Debes decidir si quieres ser KYC o no (no deberías)
+* Debes decidir si quieres entrar a fondo, usar apalancamiento o simplemente DCA
+* Debes retirar tus monedas de los exchanges lo más pronto posible
+
+## información que debes saber antes de empezar
+
+
 Intercambios
 
 Para adquirir exposición a Bitcoin, primero necesitas obtenerlo. Si bien la mejor forma es ganarlo a través de tu tiempo y esfuerzo, también es común comprarlo. Para facilitar el intercambio entre vendedores y compradores, existen servicios disponibles que actúan como intermediarios.

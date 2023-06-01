@@ -8,8 +8,9 @@ tag:
     - peer-to-peer
     - bitcoin-only
 ---
+![cover](assets\0.jpeg)
 
-##Robosats
+# Robosats
 
 RoboSats est un moyen facile d'échanger privément des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning Hold pour réduire au minimum les besoins en garde et en confiance.
 

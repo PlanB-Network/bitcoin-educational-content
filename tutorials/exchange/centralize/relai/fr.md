@@ -8,7 +8,7 @@ tag:
     - bitcoin-only
 ---
 
-
+![cover](assets\0.jpeg)
 
 # Tutoriel DCA – Relai
 

@@ -5,13 +5,11 @@ builder: ledger
 
 tag: 
     - wallet
-    - 
-
+    
 ---
 
-
-
-Tutoriel portefeuille – Ledger Nano S
+![cover](assets\0.jpeg)
+# Tutoriel portefeuille – Ledger Nano S
 
 Portefeuille physique froid – 60 € – Débutant – Pour sécuriser 2 000€ à 50 000€  
 
@@ -22,4 +20,6 @@ Nous avons déjà réalisé un tutoriel complet sur l’appareil : tutoriel comp
 Dans ce tutoriel, on discute également la section des passphrases, une solution avancée de sécurité pour y stocker de larges sommes : 20 000€ – 100 000€.
 
 
-https://www.youtube.com/watch?v=_vsHNTLi8MQ
+![video tuto](https://www.youtube.com/watch?v=_vsHNTLi8MQ)
+
+

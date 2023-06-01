@@ -47,7 +47,7 @@ Notre prochain sujet d'étude portera sur la définition et le fonctionnement de
 
 ![](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 
-![La préhistoire du Bitcoin](posters/fr/1_phehistoiredubitcoin.png)
+![La préhistoire du Bitcoin](posters/fr/1_prehistoiredubitcoin.png)
 
 ### Les fondements de Bitcoin et le mouvement cypherpunk
 

@@ -281,7 +281,7 @@ Pour que le réseau Bitcoin soit complètement détruit, il faudrait éliminer t
 
 ## Les nœuds Bitcoin
 
-![les noeuds bitcoin](https://youtu.be/3vQmDJ4_ooM)
+![https://youtu.be/3vQmDJ4_ooM](https://youtu.be/3vQmDJ4_ooM)
 
 Les nœuds constituent un élément fondamental de l'architecture du réseau Bitcoin. Ils assurent diverses fonctions cruciales, notamment le maintien de la blockchain, la participation à la décentralisation du réseau, l'orientation du système et la validation des transactions.
 

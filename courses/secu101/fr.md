@@ -3,11 +3,9 @@ name: Sécurité informatique & gestion des données
 goal: Remettre à jour la gestion de mots de passe et des données personnelles. Création d’un backup, se protéger des hackers et se sensibiliser à la surveillance de masse.
 ---
 
-
 ![affiche du cours](assets/vignettesecu101_fr.png)
 
 # Un voyage vers la protection de vos données
-
 
 Il est important de comprendre que les mots de passe simples et réutilisés peuvent être facilement piratés par des hackers, qui peuvent exploiter vos informations personnelles à des fins malveillantes. Pour éviter cela, nous allons vous montrer comment utiliser un gestionnaire de mots de passe sécurisé comme Bitwarden et migrer vos mots de passe depuis d’autres services de stockage. Nous allons aborder l’importance de la protection de vos données personnelles, notamment en utilisant des sauvegardes sur des disques durs externes et des pseudonymes pour masquer votre identité en ligne. Nous discuterons également de qui est le mieux placé pour protéger l’utilisateur : les entreprises, la régulation ou l’utilisateur lui-même
 
@@ -58,8 +56,8 @@ Team contributeurs:
 # Sécurité 101 : Raffinement de votre Hygiène Numérique
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
-## introduction
 
+## introduction
 
 Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, sans prérequis informatiques nécessaires. C'est avec grand plaisir que je vous présente mes collègues experts, Théo et Renaud, qui nous accompagneront dans ce voyage éducatif.
 

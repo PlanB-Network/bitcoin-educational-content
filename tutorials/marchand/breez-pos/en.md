@@ -3,12 +3,11 @@ builder: Breez
 
 difficulty: intermediary
 
-tag: 
+tag:
   - wallet
   - lightning
   - infrasctructure
   - POS
-
 ---
 
 # Breez Point of Sales

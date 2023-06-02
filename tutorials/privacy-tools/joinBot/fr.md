@@ -1,23 +1,22 @@
 ---
-builder: Pandul 
+builder: Pandul
 
-Tag: 
-  - Privacy 
-  - education 
+Tag:
+  - Privacy
+  - education
 
 difficulty: Advanced
-
 ---
+
 ![DALL·E – samourai robot in a red forest, 3D render](assets/0.png)
+
 # Si t’as pas d’amis, utilises JoinBot !
 
 _**Un article de Loïc Morel – 06/11/2022**_
 
-
-
 JoinBot est un nouvel outil qui vient s’ajouter à la suite Samourai Wallet avec la dernière mise à jour 0.99.98f du célèbre logiciel de portefeuille Bitcoin. Il vous permet de réaliser facilement une transaction collaborative afin d’optimiser votre confidentialité, sans pour autant devoir trouver un partenaire.
 
-** Merci à l’excellent Fanis Michalakis pour l’idée d’utiliser DALL-E pour la miniature ! ** 
+** Merci à l’excellent Fanis Michalakis pour l’idée d’utiliser DALL-E pour la miniature ! **
 
 ## Qu’est-ce qu’une transaction collaborative sur Bitcoin ?
 
@@ -33,8 +32,6 @@ Une façon de parvenir à brouiller les pistes dans une transaction Bitcoin est 
 Comme évoquée précédemment, la structure de transaction collaborative la plus connue est le Coinjoin. Par exemple, sur le protocole de Coinjoin Whirlpool, les transactions font intervenir 5 participants en entrée et en sortie, chacun avec une même somme de bitcoins.
 
 ![Schéma d’une transaction Coinjoin sur Whirlpool](assets/1.png)
-
-
 
 Un observateur extérieur de cette transaction sera en incapacité de savoir quel output appartient à quel utilisateur en entrée. Si l’on prend l’exemple de l’utilisateur n°4 (violet), on peut reconnaitre son UTXO en input, mais on ignorera lequel des 5 outputs est réellement le sien. L’information initiale n’est pas cachée, mais bien confondue dans un groupe.
 
@@ -53,11 +50,11 @@ Ce montage de transaction collaborative StonewallX2 est disponible sur Samourai 
 Son mécanisme est assez simple à comprendre. Voici son fonctionnement pratique :
 
     - Un utilisateur souhaite faire un paiement en bitcoins (par exemple, chez un commerçant).
-    
+
     - Il récupère l’adresse de réception du destinataire réel du paiement (le commerçant).
-    
+
     - Il construit une transaction spécifique avec plusieurs inputs : au moins un lui appartenant et un appartenant à un collaborateur extérieur.
-    
+
     - La transaction disposera de 4 outputs, dont 2 de mêmes montants : un vers l’adresse du commerçant pour le payer, un change qui revient vers l’utilisateur, un output de même valeur que le paiement qui va vers le collaborateur et un autre output qui retourne également vers le collaborateur.
 
 Par exemple, voici une transaction StonewallX2 classique dans laquelle j’ai effectué un paiement de 50 125 sats. Le premier input de 102 588 sats provient de mon portefeuille Samourai. Le second input de 104 255 sats provient du wallet de mon collaborateur :
@@ -93,11 +90,11 @@ Pour résoudre cette problématique, les équipes de Samourai ont récemment ajo
 
 # C’est quoi JoinBot ?
 
-Le principe de JoinBot est simple. Si vous ne trouvez personne avec qui collaborer pour une transaction StonewallX2, vous pouvez collaborer avec lui. Concrètement, vous allez en fait réaliser une transaction collaborative directement avec Samourai Wallet. 
+Le principe de JoinBot est simple. Si vous ne trouvez personne avec qui collaborer pour une transaction StonewallX2, vous pouvez collaborer avec lui. Concrètement, vous allez en fait réaliser une transaction collaborative directement avec Samourai Wallet.
 
 Ce service est très commode, notamment pour les utilisateurs novices, puisqu’il est disponible 24h/24 et 7j/7. Si vous devez effectuer un paiement urgent et que vous souhaitez faire un StonewallX2, vous n’aurez plus besoin de contacter un ami, ou bien de chercher un collaborateur en ligne. JoinBot se chargera de vous assister.
 
-Un autre avantage de JoinBot est que les UTXO qu’il fournit en input sont issus exclusivement de postmix Whirlpool, ce qui vient améliorer la confidentialité de votre paiement. De plus, puisque JoinBot est tout le temps en ligne, vous devriez collaborer avec des UTXO qui disposent de larges Anonset prospectifs. 
+Un autre avantage de JoinBot est que les UTXO qu’il fournit en input sont issus exclusivement de postmix Whirlpool, ce qui vient améliorer la confidentialité de votre paiement. De plus, puisque JoinBot est tout le temps en ligne, vous devriez collaborer avec des UTXO qui disposent de larges Anonset prospectifs.
 
 Évidemment, JoinBot dispose de certains compromis qu’il convient de signaler :
 
@@ -118,12 +115,9 @@ Découvrez étape par étape comment réaliser une transaction StonewallX2 avec 
 
 ![Comment utiliser Joinbot](https://youtu.be/80MoMz2Ne5g)
 
-
 Voici le schéma de la transaction que nous venons de réaliser dans la vidéo :
 
 ![Schéma de ma transaction StonewallX2 avec JoinBot.](assets/3.png)
-
-
 
 On peut y découvrir 5 inputs :
 
@@ -147,8 +141,8 @@ Si vous pouvez réaliser un StonewallX2 classique avec un ami, je vous conseille
 
 Ressources externes :
 
-    https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923 
-    https://youtu.be/vhUREWiY570 
+    https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
+    https://youtu.be/vhUREWiY570
     https://docs.samourai.io/wallet/privacy-enhanced-transactions
     https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
 
@@ -162,5 +156,3 @@ Ressources externes :
 
     Retrouvez tous ses travaux : pandul.fr/ressources
     Le suivre sur Twitter : @Loic_Pandul
-
-

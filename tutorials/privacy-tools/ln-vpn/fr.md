@@ -1,5 +1,4 @@
 ---
-
 builder: Agora256
 
 tag:
@@ -7,7 +6,6 @@ tag:
   - security
 
 difficulty: advanced
-
 ---
 
 ![image](assets/0.png)
@@ -16,20 +14,19 @@ difficulty: advanced
 
 _**Guide proposé par FranklynHart dans le cadre de Agora256, post original https://agora256.com/lnvpn/**_
 
-
 LN VPN est un service VPN à la carte qui n'accepte que les paiements lightning. Aujourd'hui, je te montre comment t'en servir et laisser moins de traces quand tu te balades sur les interwebs.‌‌‌‌
 
 Il existe de nombreux fournisseurs de services VPN de qualité, nous avons d'ailleurs fait une revue exhaustive dans cet article (hyperlien) mais LN VPN se démarque et nous ne pouvions passer à côté de te le faire découvrir.
 
-La plupart des fournisseurs de services VPN tels que ProtonVPN et Mullvad offrent la possibilité de payer bitcoins mais nécessitent la création d'un compte et l'achat d'un forfait à plus ou moins long terme, ce qui ne correspond pas nécessairement à tous les budgets.  
+La plupart des fournisseurs de services VPN tels que ProtonVPN et Mullvad offrent la possibilité de payer bitcoins mais nécessitent la création d'un compte et l'achat d'un forfait à plus ou moins long terme, ce qui ne correspond pas nécessairement à tous les budgets.
 
-LN VPN rend possible une utilisation VPN à la carte pour une durée aussi courte qu'une heure grâce à son implémentation des paiements en bitcoins par lightning network.  Instantanés et anonymes, les paiements lightning ouvrent un monde de possibilités en ce qui a trait aux micropaiements. ‌‌‌‌
+LN VPN rend possible une utilisation VPN à la carte pour une durée aussi courte qu'une heure grâce à son implémentation des paiements en bitcoins par lightning network. Instantanés et anonymes, les paiements lightning ouvrent un monde de possibilités en ce qui a trait aux micropaiements. ‌‌‌‌
 
     💡 Ce guide décrit comment utiliser LN VPN à partir d'un système Linux Ubuntu 22.04 LTS
 
 ## Prérequis: Wireguard
 
-En termes très simples, Wireguard sert à créer un tunnel sécurisé entre ton ordinateur et le serveur distant à travers lequel tu navigueras sur Internet.  C'est l'adresse IP de ce serveur qui apparaîtra comme étant la tienne pour la durée du bail que tu vas contracter en suivant ce guide.
+En termes très simples, Wireguard sert à créer un tunnel sécurisé entre ton ordinateur et le serveur distant à travers lequel tu navigueras sur Internet. C'est l'adresse IP de ce serveur qui apparaîtra comme étant la tienne pour la durée du bail que tu vas contracter en suivant ce guide.
 
 Guide officiel d'installation Wireguard : https://www.wireguard.com/install/‌‌‌‌
 
@@ -37,14 +34,13 @@ Guide officiel d'installation Wireguard : https://www.wireguard.com/install/‌�
           $ sudo apt-get update
           $ sudo apt install wireguard
 
-
 ## Prérequis : Portefeuille Bitcoin Lightning
 
 Si tu n'as pas encore un portefeuille Bitcoin Lightning, pas de soucis, on a créé un guide très simple pour toi, ici. (la section tutoriel LN pourras t'aider)
 
 ## Étape 1 : Contracter un bail
 
-A partir de https://lnvpn.com, il te faudra sélectionner le pays de l'IP de sortie du tunnel VPN ainsi qu'une durée.  Une fois ces paramètres définis, clique sur Pay with lightning.
+A partir de https://lnvpn.com, il te faudra sélectionner le pays de l'IP de sortie du tunnel VPN ainsi qu'une durée. Une fois ces paramètres définis, clique sur Pay with lightning.
 
 ![image](assets/1.png)
 
@@ -69,7 +65,7 @@ Voilà, ça y est! Le tunnel est activé!
 
 ## Étape 3 : Vérifier
 
-Utilise un service en ligne comme whatismyip pour vérifier que ton adresse IP publique est bien maintenant celle du VPN que tu viens d'activer.  
+Utilise un service en ligne comme whatismyip pour vérifier que ton adresse IP publique est bien maintenant celle du VPN que tu viens d'activer.
 
 ## Étape 4 : Désactiver
 

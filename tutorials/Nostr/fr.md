@@ -1,13 +1,11 @@
 ---
-
 builder: agora256
 
-Tag: 
+Tag:
   - nostr
   - privacy
 
 difficulty: beginners
-
 ---
 
 # Comment utiliser Nostr en 2023 : Un guide pour débutant
@@ -15,7 +13,6 @@ difficulty: beginners
 ‌‌À la fin de ce guide, tu comprendras ce qu'est Nostr, tu te seras créé un compte et tu seras en mesure de l'utiliser.
 
 ** Ce guide vous est offert par FranklynHart dans le cadre de Agora256. Merci à lui **
-
 
 ![Un nouveau challenger est arrivé](assets/1.png)
 
@@ -43,7 +40,7 @@ La clé publique, npub, est un identifiant unique auquel est attaché tout le co
 
 ## 2. Les clients
 
-Les clients sont des logiciels qui permettent d'interagir avec Nostr.  Les principaux clients sont :‌‌‌‌
+Les clients sont des logiciels qui permettent d'interagir avec Nostr. Les principaux clients sont :‌‌‌‌
 
     iOS : damus
     Android : amethyst
@@ -53,7 +50,7 @@ Les clients permettent à un utilisateur de générer une nouvelle paire de clé
 
 ## 3. Les relais
 
-Les relais sont des serveurs simplistes que tu peux abandonner à n'importe quel moment si tu n'aimes pas le contenu qu'ils t'acheminent. Tu peux également rouler ton propre relais, si tu le souhaites. 
+Les relais sont des serveurs simplistes que tu peux abandonner à n'importe quel moment si tu n'aimes pas le contenu qu'ils t'acheminent. Tu peux également rouler ton propre relais, si tu le souhaites.
 
     💡 Truc de pro: Les relais payants sont généralement plus efficaces pour filtrer le spam et le contenu indésirable.
 
@@ -83,13 +80,13 @@ Voilà, ça y est! Tu as publié ta première note sur Nostr.
 
 ## Étape 3 : Trouver un ami
 
-Retrouve-moi sur Nostr et ne sois plus jamais seul. Je m'abonne en retour à tous ceux et celles qui s'abonnent à mon fil. Pour ce faire, il te suffira d'entrer ma clé publique 
+Retrouve-moi sur Nostr et ne sois plus jamais seul. Je m'abonne en retour à tous ceux et celles qui s'abonnent à mon fil. Pour ce faire, il te suffira d'entrer ma clé publique
 
 npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 dans la barre de recherche.
 
 ![Mon profil](assets/6.png)
 
-Clique sur "follow" et d'ici quelques jours au plus, je m'abonnerai aussi à ton fil.  Nous serons amis.  Il me fera aussi plaisir de te lire si tu veux m'écrire un message.
+Clique sur "follow" et d'ici quelques jours au plus, je m'abonnerai aussi à ton fil. Nous serons amis. Il me fera aussi plaisir de te lire si tu veux m'écrire un message.
 
 Finalement, assure-toi aussi de t'abonner au fil d'Agora256 pour recevoir une note chaque fois que nous publions quelque chose de nouveau : npub1ag0rawstycy7nanuc6sz4v287rneen2yapcq3fd06972f8ncrhzqx
 
@@ -99,7 +96,7 @@ Il te reste encore un peu de travail à faire pour personnaliser ton profil. Pou
 
 ![Profile](assets/7.png)
 
-Il ne te reste plus qu'à indiquer à iris où trouver ton image et ta bannière de profil sur les interwebs.  Je te recommande d'héberger toi-même ton contenu : protège ce qui t'appartient.
+Il ne te reste plus qu'à indiquer à iris où trouver ton image et ta bannière de profil sur les interwebs. Je te recommande d'héberger toi-même ton contenu : protège ce qui t'appartient.
 
 ![Autre option](assets/8.png)
 
@@ -109,21 +106,20 @@ Comme tu peux le constater, tu peux aussi configurer ton client pour être en me
 
 ## Étape 5 : Sauvegarde de la paire de clés
 
-Cette étape est cruciale si tu veux pouvoir conserver l'accès à ton profil une fois que tu te seras déconnecté du client ou que ta session aura expiré.  
+Cette étape est cruciale si tu veux pouvoir conserver l'accès à ton profil une fois que tu te seras déconnecté du client ou que ta session aura expiré.
 
-D'abord, clique sur l'icône "settings" représentée par un engrenage 
+D'abord, clique sur l'icône "settings" représentée par un engrenage
 
 ![Setting](assets/9.png)
 
-Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un fichier texte que tu garderas en sécurité.  Je te recommande de crypter ce fichier, si tu sais comment le faire.
+Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un fichier texte que tu garderas en sécurité. Je te recommande de crypter ce fichier, si tu sais comment le faire.
 
 ![Clef](assets/10.png)
 
         ⚠️ Remarque bien l'avertissement que te donne iris. Si tu peux partager ta clé publique sans crainte, il en est tout autrement de ta clé privée. Quiconque possède cette dernière pourra accéder à ton compte.
 
-
 ## Conclusion
 
-Ça y est, petite autruche, tu as fait tes premiers pas sur Nostr. Maintenant, il te faudra apprendre à courir à la vitesse de l'éclair. Nous publierons prochainement des guides qui te montreront à gérer tes clés et comment intégrer lightning à ton expérience Nostr à l'aide de getalby. 
+Ça y est, petite autruche, tu as fait tes premiers pas sur Nostr. Maintenant, il te faudra apprendre à courir à la vitesse de l'éclair. Nous publierons prochainement des guides qui te montreront à gérer tes clés et comment intégrer lightning à ton expérience Nostr à l'aide de getalby.
 
 ** guide écrit par FranklynHart dans le cadre de Agora256 **

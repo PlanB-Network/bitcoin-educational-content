@@ -1,20 +1,24 @@
 # Creating a LNURLw Vouchers on LNbits Wallet
+
 ## test
+
 ### teset
+
 #### [Made by Rogzy with Scribe](https://scribehow.com/shared/Creating_a_LNURLw_Vouchers_on_LNbits_Wallet__qYZv14nMSYSlps9_JHOjJA)
+
 This will allow you to create pre-signed LN invoices that can be used to give away a fixed amount of sats easily to whomever you desire. It could be useful to have some ready in case you want to tip someone or you need quick access to liquidity.
 
 **1. Navigate to https://legend.lnbits.com/
 Type the name of your desired wallet**
 
 > coucou
-fff
-test
-> 
+> fff
+> test
+
 - [x] Write the press release
 - [ ] Update the website
-- [ ] Contact the media 
-![](assets/cover_en.jpg)
+- [ ] Contact the media
+      ![](assets/cover_en.jpg)
 
 **2. Click "COPY WALLET URL" and make sur to save it somewhere. this is your wallet back-up**
 
@@ -56,7 +60,7 @@ test
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-05-07/ea80b0df-285a-4fe3-9a12-a653b948c49e/ascreenshot.jpeg?tl_px=494,0&br_px=1240,420&sharp=0.8&width=560&wat_scale=50&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-labs-public.s3.us-east-2.amazonaws.com/images/watermarks/watermark_default.png&wat_pad=262,25)
 
-**12. Once it's done  you can simply validate. you will be able to change it after if needed.**
+**12. Once it's done you can simply validate. you will be able to change it after if needed.**
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-05-07/e37a7338-1902-48be-be73-a735f42f37b3/ascreenshot.jpeg?tl_px=442,101&br_px=1188,521&sharp=0.8&width=560&wat_scale=50&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-labs-public.s3.us-east-2.amazonaws.com/images/watermarks/watermark_default.png&wat_pad=262,139)
 
@@ -75,6 +79,5 @@ test
 **16. When activate it will drawn your account and be confirmed :) **
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-05-07/64ff6c31-919d-4b34-9de7-fa4862ae78e0/user_cropped_screenshot.jpeg?tl_px=272,111&br_px=1018,531&sharp=0.8&width=560)
+
 #### [Made with Scribe](https://scribehow.com/shared/Creating_a_LNURLw_Vouchers_on_LNbits_Wallet__qYZv14nMSYSlps9_JHOjJA)
-
-

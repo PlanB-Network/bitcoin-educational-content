@@ -9,7 +9,6 @@ objectives:
   - Realize the geopolitical and social impact that Bitcoin represents
 ---
 
-
 ![cover](assets/thumbnail.png)
 
 # Your First Bitcoin Adventure
@@ -20,42 +19,27 @@ The course should take about 15 hours with a final exam at the end. Throughout t
 
 +++
 
-
-
-
 # Introduction: The Bitcoin Journey Course
-
 
 ### Bitcoin: A Decentralized Monetary and Technological Revolution
 
 Bitcoin is a significant innovation that goes beyond a simple currency. It is a revolution both in technology and in money, capable of transforming our perception of money and financial transactions. Bitcoin is also a decentralized currency, which means that it is not under the control of any entity or institution.
 
-
-
 ### Understanding Bitcoin: Currency, Wallets, Miners, and Future
 
 In this study, we will discuss the monetary aspects of Bitcoin, including how to buy and sell bitcoins, how to keep them safely in digital wallets, and how to use them for transactions. We will also examine the role of miners, who are essential to creating new bitcoins and securing the Bitcoin network. Additionally, we will look at the future of Bitcoin and how the Lightning Network technology can improve Bitcoin transactions.
-
-
 
 ### The Importance of Education and Learning
 
 It is essential to understand that Bitcoin is not only a currency but also a technology that can revolutionize our perception of money and financial transactions. Learning how to use Bitcoin is a fundamental skill, just as we learned how to use the Internet or drive a car. It is important to remember that Bitcoin is a relatively new technology, and it is normal not to understand everything immediately. However, learning how to use Bitcoin is crucial because it can have a significant impact on our financial lives.
 
-
-
 ### Key Concepts of Money and the Role of Bitcoin
 
 Our next topic of study will focus on the definition and functioning of money in society. We will also explore the role of Bitcoin as a currency and how it can transform our perception of financial transactions.
 
-
-
-
 ## 0. The Prehistory of Bitcoin
 
 ![The Prehistory of Bitcoin](assets/posters/en/1._bitcoin_prehistory.png)
-
-
 
 ### The Foundations of Bitcoin and the Cypherpunk Movement
 
@@ -70,17 +54,11 @@ Bitcoin challenges the traditional financial system by highlighting the inequali
 
 Bitcoin is both a digital currency and an information protocol. As such, it was designed to endure. It is important to recognize the essential role of contributors and supporters of this project, including those who donate via platforms like Patreon. In short, Bitcoin is a technological, financial, and social revolution that has its roots in the cypherpunk movement. It challenges the traditional financial system and offers a promising and sustainable alternative. To fully understand Bitcoin, it is essential to understand these key concepts and the legacy of those who contributed to its creation.
 
-
 # Chapter 1 - What is money?
-
-
 
 ## 1.1 - Money
 
-
 ![Money](assets/posters/en/3._money.png)
-
-
 
 ### The evolution of money throughout history
 
@@ -90,45 +68,29 @@ The evolution of money is a fascinating aspect of human history, reflecting the 
 
 The criteria for an effective currency are multiple. A good currency must be fungible, that is, interchangeable without loss of value; divisible, to facilitate transactions of different sizes; and liquid, that is, easily convertible into goods or services. Historically, these criteria have been met by physical objects, such as gold. However, with the development of financial infrastructure, gold has been transformed into banknotes, which are more practical for daily commerce. Today, currencies are still evolving, adapting their forms to meet different functions. For example, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiat currencies like the dollar and the euro are very liquid, but their value is eroded by inflation.
 
-
-
 # Bitcoin, as a digital currency, presents new possibilities
 
-It offers an excellent store of value and is a good medium of exchange, but is not yet widely used as a unit of account. Due to inflation, fiat currencies such as the euro and the dollar are not ideal as long-term stores of value. 
-
-
+It offers an excellent store of value and is a good medium of exchange, but is not yet widely used as a unit of account. Due to inflation, fiat currencies such as the euro and the dollar are not ideal as long-term stores of value.
 
 ### Alternatives to current monetary systems and the importance of technological adaptation
 
-In the face of challenges posed by current monetary systems, alternatives are being sought to preserve and increase the value of money. Banking systems are turning to solutions such as digital transfers and microtransactions to meet the needs of the global economy and adapt to technological advancements. 
-
-
-
+In the face of challenges posed by current monetary systems, alternatives are being sought to preserve and increase the value of money. Banking systems are turning to solutions such as digital transfers and microtransactions to meet the needs of the global economy and adapt to technological advancements.
 
 ## 1.2 Fiat currencies
 
-
 ![Fiat currencies](assets/posters/en/4._fiat_currency.png)
-
-
 
 ### Fiat currencies and their impact on the financial system
 
-Exploring the impacts of fiat currencies on the financial system is an essential aspect of our understanding of contemporary economic dynamics. To paraphrase George Santayana, "those who do not learn from history are doomed to repeat it." It is with this historical approach that we approach the subject of fiat currencies. As part of our "Discover Bitcoin" training, we analyze in detail the role and consequences of fiat currencies, such as the euro or the dollar. These currencies rely on trust and assurance that their value will be preserved. However, this trust is currently being shaken by rampant inflation and unprecedented debt. Fiat currencies ultimately depend on the faith we place in the institutions that regulate them, and that faith seems to be fading. 
-
-
+Exploring the impacts of fiat currencies on the financial system is an essential aspect of our understanding of contemporary economic dynamics. To paraphrase George Santayana, "those who do not learn from history are doomed to repeat it." It is with this historical approach that we approach the subject of fiat currencies. As part of our "Discover Bitcoin" training, we analyze in detail the role and consequences of fiat currencies, such as the euro or the dollar. These currencies rely on trust and assurance that their value will be preserved. However, this trust is currently being shaken by rampant inflation and unprecedented debt. Fiat currencies ultimately depend on the faith we place in the institutions that regulate them, and that faith seems to be fading.
 
 ### The Bitcoin revolution and the dissociation between the state and money
 
-It is in this context that the Bitcoin revolution is gaining momentum. This trusted currency aims to separate the state from money, thus undermining the state's control over the financial system. The ability to print money has allowed for a gradual devaluation of it, eroding the purchasing power of the population. Since the introduction of the euro, purchasing power has decreased by 30%, while American purchasing power has lost 98% of its value since 1900. Fiat currencies no longer have solid support, as gold has been abandoned. Inflation acts as a surreptitious tax that erodes purchasing power. It allows a state to devalue its currency to repay its debt and finance its projects. 
-
-
+It is in this context that the Bitcoin revolution is gaining momentum. This trusted currency aims to separate the state from money, thus undermining the state's control over the financial system. The ability to print money has allowed for a gradual devaluation of it, eroding the purchasing power of the population. Since the introduction of the euro, purchasing power has decreased by 30%, while American purchasing power has lost 98% of its value since 1900. Fiat currencies no longer have solid support, as gold has been abandoned. Inflation acts as a surreptitious tax that erodes purchasing power. It allows a state to devalue its currency to repay its debt and finance its projects.
 
 ### Trusted currency and monetary printing: implications and alternatives
 
-Monetary printing leads to inflation, gradually impoverishing the population. In contrast, financial institutions and wealthy individuals have benefited from this practice, creating a gap of inequality and promoting authoritarianism. States are forced to maintain their power by devaluing their currency to facilitate debt repayment. The current financial system is regulated and restricted to avoid collapse. A disruption of this system could risk causing a major economic crisis. Political actors lack the will to make radical changes, allowing the system to continue its course until a possible implosion. 
-
-
+Monetary printing leads to inflation, gradually impoverishing the population. In contrast, financial institutions and wealthy individuals have benefited from this practice, creating a gap of inequality and promoting authoritarianism. States are forced to maintain their power by devaluing their currency to facilitate debt repayment. The current financial system is regulated and restricted to avoid collapse. A disruption of this system could risk causing a major economic crisis. Political actors lack the will to make radical changes, allowing the system to continue its course until a possible implosion.
 
 ### Bitcoin: a decentralized alternative to the current monetary system
 
@@ -139,14 +101,9 @@ Historically, gold has been favored as currency due to its resistance to counter
 
 In conclusion, hyperinflation has the effect of rapidly degrading the value of currency, leading to erosion of savings and loss of confidence in the monetary system. As Voltaire once suggested, fiat currency will always eventually lose its intrinsic value and converge towards zero. Currency based on trust, debt, and monetary printing proves to be a flawed currency, unable to guarantee purchasing power or preserve savings. Additionally, politicians have an unlimited ability to print money, thus threatening individuals' savings. In response to these problems, the "Discover Bitcoin" project offers free training, tutorials, and interviews in three languages. Its goal is to help individuals understand the potential of Bitcoin as a viable alternative to traditional monetary systems. Thank you for your attention, and I hope these reflections will help you navigate the complex financial landscape of our time.
 
-
 ## 1.3 Hyperinflation
 
-
-
 ![Hyperinflation](assets/posters/en/5._hyperinflation.png)
-
-
 
 ### Hyperinflation in a Fiat Monetary System
 
@@ -161,13 +118,9 @@ The second stage is the collapse of the currency. As governments lose control of
 
 Knowing about hyperinflation and understanding how it occurs is one thing, but how can one protect against it? To protect against hyperinflation, it is recommended to diversify one's portfolio by getting rid of weak currencies and investing in strong assets or currencies, such as gold or Bitcoin. Stocks of companies capable of quickly revaluing their prices, such as Apple or Microsoft, or real estate investment can also prove to be good investments. There is much to learn about managing a financial portfolio. Fortunately, there are many training and resources available to acquire these skills. Moreover, not printing money at will is the best way to prevent hyperinflation. Bitcoin is a currency that has specific characteristics. Its ability to serve for global trade will be discussed in a future video.
 
-
 ## 1.4 21 million bitcoins
 
-
 ![21 million bitcoins](assets/posters/en/6._21_millions.png)
-
-
 
 ### Bitcoin Monetary Emission
 
@@ -182,42 +135,27 @@ Bitcoin's rarity is guaranteed by two key mechanisms: the fixed limit of 21 mill
 
 The fixed quantity of bitcoins, initially set at 21 million, cannot be changed. Any modification to the Bitcoin protocol would require the agreement of the entire user community, which is highly unlikely. The idea of devaluing the currency is contrary to the fundamental philosophy of Bitcoin. Bitcoin's rarity is a major asset because there will always be a maximum of 21 million units. The quantity of bitcoins in circulation is public and verifiable by anyone. In fact, anyone can verify the quantity of bitcoins in circulation by entering a simple command on a Bitcoin node. This transparency and verifiability reinforce trust in the Bitcoin system, which is not based on centralized institutions or individuals, but on a mathematical guarantee inherent in its protocol. The notion of sound monetary management is intrinsic to Bitcoin, as it is impossible to create more bitcoins than the pre-established limit or to destroy users' savings. This is a fundamental characteristic that distinguishes Bitcoin from other forms of currency. Moreover, according to the principles of Austrian economics, Bitcoin is considered an excellent form of currency. Indeed, its quantity is strictly controlled and issued predictably, which corresponds to the Austrian ideal of monetary creation. Unlike traditional currencies, which can be subject to inflation due to excessive monetary printing, Bitcoin maintains its value through its programmed rarity. In summary, Bitcoin, through its decentralized nature, programmed rarity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that is not only useful and verifiable but also preserves the value of users' savings by strictly limiting its supply.
 
-
 # Chapter 2 - Bitcoin Wallets
-
 
 ## 2.1 Explanation of Bitcoin Wallets
 
-
 ![Explanation of Bitcoin Wallets](assets/posters/en/8._what_is_a_bitcoin_wallet.png)
-
-
 
 ### Bitcoin Wallets: Storage and Security
 
 Welcome to this presentation on Bitcoin wallets. We will explore the storage and security of Bitcoins in wallets. First, what is a Bitcoin wallet? A wallet is a place where the private keys that give access to your Bitcoins are stored. A wallet can be software on your computer, an application on your smartphone, a hardware device like a USB key, or even a piece of paper. Each wallet contains a pair of keys: a public key, which is like a postal address, and a private key, which is like the key to your mailbox. The public key is the address you give to people to send you Bitcoins, and the private key is what allows you to spend the Bitcoins received at that address. The cost of a Bitcoin wallet can vary depending on your specific needs and the amount you want to secure. There are different types of wallets suitable for different uses, whether you are a small or large business, or an individual. Although your keys are stored in your wallet, the Bitcoins themselves are actually stored in the Bitcoin blockchain, which is a public ledger distributed in the cloud. That's why losing your wallet doesn't necessarily mean losing your Bitcoins, as long as you've backed up your private key elsewhere.
 
-
-
 ### Public and Private Keys in Bitcoin Wallets
 
 Bitcoins are not actually "stored" in your wallet, but rather in the Bitcoin blockchain in the cloud. To access your Bitcoins, you need your private key, which is usually a list of 24 words known as a "recovery phrase" or "recovery seed". The probability of guessing this phrase is extremely low, thanks to the power of cryptography. If someone were able to crack Bitcoin's cryptography, they would be able to crack just about anything. Fortunately, Bitcoin security can be strengthened if necessary. In fact, the probability of correctly guessing your recovery phrase is about the same as finding a specific grain of sand among all the grains of sand on Earth.
-
-
 
 ### Securing Your Bitcoin Account: Tips and Tutorials
 
 The probability of a hack of your Bitcoin wallet is astronomically low if you follow good security practices. That's why it's important to follow the advice of cryptography experts to secure your account. Choose a wallet that fits your needs and use case. Detailed tutorials on using and securing different wallets are available on many Bitcoin-dedicated websites, as well as in various practical Bitcoin training courses.
 
-
-
-
 ## 2.2 Choosing Your Security
 
-
 ![Choosing Your Security](assets/posters/en/9._choose_the_right_wallet.png)
-
-
 
 ### Wallets and Fund Security
 
@@ -236,18 +174,13 @@ The "custodial" model is a traditional system where you entrust your Bitcoins to
 
 In conclusion, direct ownership of your Bitcoins is essential to ensure financial sovereignty and prepare for any potential instability in the current financial system. It is recommended to use a mobile wallet for daily expenses and a physical offline, or "cold," wallet to store larger amounts. Businesses, on the other hand, should consider using multi-signature systems for increased security. It is essential to avoid custodial services as much as possible, which can reproduce some of the vulnerabilities of the traditional financial system. Practical steps for creating and managing a Bitcoin wallet will be discussed in our next session.
 
-
 ## 2.3 Setting up a wallet
 
 ![setting up a wallet](assets/posters/en/10._set_up_your_wallet.png)
 
-
-
 ### Basic rules for secure management of your Bitcoin wallet
 
 The security of your Bitcoins is of crucial importance, and a simple mistake can have costly consequences. That's why we will progress step by step and guide you with industry best practices.
-
-
 
 # Protecting Your Private Key
 
@@ -258,65 +191,40 @@ Your private key, often represented by a list of 24 words (or "seed"), is the ke
 - Do not enter it on a computer or phone.
 - Do not save it as a contact or send it to yourself via SMS.
 
-
-
 ### Recording and Backing Up Your Private Key
 
 You will literally take a blank sheet of paper or print this template, and write with a pen, neatly and clearly, the list of words in order. If the ink fades over time, you may lose your funds, so there are alternative solutions to traditional ink. If you write poorly, your heirs may not be able to read it and therefore may not recover the funds. Once the words are written, it is crucial to make a handwritten copy. This provides a backup in case of loss or accident.
-
-
 
 ### Safe Storage of Your Private Key
 
 Once the copies are made, store the lists of words in folders, in a safe place where you will remember to look for them! Do not create a too complex hiding plan where you risk losing them. Your words = your money. "Cold" wallets generally have these lists of words, as do "on-chain" mobile wallets. Mobile Lightning Network (LN) wallets may have different systems. Only bad wallets that we strongly advise against will not give you a list of 24 words, but may ask for an account, email address, or worse, an ID. The absence of a list of 24 words should alert you.
 
-
-
-
 ## 2.4 Passing the Test of Time
 
-
-
 ![passing the test of time](assets/posters/en/19._think_long_term.png)
-
-
 
 ### Securing Bitcoins for the Long Term
 
 Security is a major concern in the Bitcoin ecosystem. Indeed, like any form of wealth, your bitcoins must be protected against loss, theft, and degradation, especially in the long term. Securing your bitcoins requires some technical knowledge and awareness of associated risks, which brings us to discuss two main strategies: engraving your bitcoins in steel and creating an inheritance plan.
 
-
-
 ### Engraving Bitcoins in Steel and Establishing an Inheritance Plan
 
 One method for securing your bitcoins for the long term is to engrave your recovery keys (for example, a 24-word phrase, known as a seed phrase) into a durable material such as steel. This creates a physical backup of your keys that is resistant to both physical deterioration and fire.
-
-
 
 ### Inheritance Plan
 
 In addition to this, creating an inheritance plan is also a crucial step in ensuring that your digital assets will be properly managed after your death. This plan may include a handwritten letter detailing your assets and identifying trusted individuals to contact. It is also crucial to discuss the acquisition of bitcoins with a notary to ensure tax compliance, although it is important to never directly entrust your bitcoins to a third party, including a notary.
 **Add Liana and link to btc 201**
 
-
-
 ### Privacy and Security when using Bitcoin
 
 The security of your bitcoins in the long term is not limited to creating physical backups or developing an inheritance plan. Privacy is another important consideration. For example, it is better to buy bitcoins without providing identification to minimize the risk of identity theft. In addition, using Bitcoin wallets that match your needs is essential to ensure both your anonymity and the security of your assets. Security tools such as smart cards, hardware wallets, and OpenDime devices can all contribute to strengthening the security of your bitcoins. It is also important to memorize your recovery phrase (or "seed phrase"), a practice known as a "brain wallet," which ensures that you always have access to your bitcoins, even in case of loss or theft of your hardware wallet. In summary, security and privacy are two key aspects of long-term bitcoin ownership. In the next section, we will discuss the technical workings of Bitcoin in detail. We hope this information will help you navigate the Bitcoin ecosystem safely.
 
-
-
 # Chapter 3 - Technical Aspects of Bitcoin
-
-
-
 
 ## 3.1 Launch of Bitcoin
 
-
 ![Launch of Bitcoin](assets/posters/en/7._lancement_bitcoin.png)
-
-
 
 ### The Emergence of Bitcoin
 
@@ -337,13 +245,9 @@ In 2010, as Bitcoin began to attract media attention, Satoshi decided to distanc
 
 Bitcoin is an unprecedented innovation in the financial world. Despite challenges and controversies, it continues to be a driving force in the world of digital currency.
 
-
 ## 3.2 Explanation of a Transaction
 
-
 ![Explanation of a Transaction](assets/posters/en/11._explaination_of_a_transaction.png)
-
-
 
 ### Bitcoin Transactions: The Fund Transfer Process
 
@@ -353,16 +257,13 @@ A Bitcoin transaction involves an exchange of Bitcoins between two parties. Let'
 
 Miners are responsible for taking unconfirmed transactions, verifying them, and compiling them into a block. To do this, they must solve a cryptographic puzzle in a process called "proof of work." This is a computationally intensive process that requires considerable processing power. This proof of work requires finding a solution to a difficult mathematical equation, a process that can require billions of attempts. After finding a solution, miners can add the block to the blockchain and are rewarded for their work with newly created Bitcoins and transaction fees.
 
-
 ### Adding a Block to the Blockchain and User Power
 
 After validation by miners, the block is added to the blockchain, which is an immutable public ledger of all Bitcoin transactions. Each block is added to the blockchain approximately every ten minutes. It is essential to note that modifying the blockchain's history would require a computing power greater than 51% of the entire Bitcoin mining network, which is practically impossible. However, if a malicious miner managed to insert a fraudulent transaction into their block and solve the proof of work, the block would be added to the blockchain. However, it would be rejected by other network nodes that validate transactions by referring to the network's consensus rule. Ultimately, the Bitcoin transaction system is decentralized and operates peer-to-peer, without a trusted intermediary. Users transmit money by digitally signing transactions with their private keys. Miners do not hold all the power, as users also have significant control through nodes. To completely destroy the Bitcoin network, all miners, nodes, and users would have to be eliminated - a task practically impossible due to the network's decentralized nature.
 
-
 ## 3.3 Bitcoin Nodes
 
 ![Bitcoin nodes](assets/posters/en/12._nodes.png)
-
 
 Nodes are a fundamental element of the Bitcoin network architecture. They perform various crucial functions, including maintaining the blockchain, participating in network decentralization, guiding the system, and validating transactions.
 
@@ -372,13 +273,9 @@ The Bitcoin network consists of all connected nodes. Each node holds a copy of t
 
 Once the importance of nodes in the Bitcoin network is understood, it is essential to examine their cost and hosting options. The cost of a node depends on the type of node but can be as high as around 200-300 euros for a physical node. The expenses required to operate a Bitcoin node include a 20-gigabyte internet connection per month, which costs an average of 150-200 euros, and about 5 euros per year for electricity. It is possible to acquire specific boxes to host the hardware necessary to manage a Bitcoin node. There are two options for hosting a node: at home or via a hosting server, the latter costing an average of 12 euros per month.
 
-
-
 ## The Importance of Nodes in Bitcoin's Decentralization
 
 Understanding the role of nodes in the decentralization of the Bitcoin network is crucial. Dedicated MRL node training is available for those who wish to deepen their understanding. The affordable cost and accessibility of a Bitcoin node, compared to other cryptocurrencies that require more expensive infrastructure, are significant advantages.
-
-
 
 ### The Power of Users through Nodes: The Example of the 2017 Block Size Debate
 
@@ -388,27 +285,17 @@ A key point in Bitcoin's operation is the limited size of its blocks. This restr
 
 The year 2017 was marked by an intense controversy known as the "block war." This conflict pitted actors who wanted to modify Bitcoin by increasing block size to increase transaction capacity against those who sought to preserve users' independence and power. Ultimately, users and nodes triumphed by rejecting the proposed change initiated by miners, exchange platforms, and institutions. Following this victory, nodes activated the SegWit protocol, allowing for future improvements and paving the way for the implementation of the Lightning Network. This situation demonstrates that users, through their nodes, hold real power within Bitcoin, enabling them to face off against large institutions. The real losers of this war were Bitcoin Cash and Bitcoin Satoshi Vision, which lost 80% and 90% of their monetary value compared to Bitcoin, respectively, and are relatively underused.
 
-
-
 ### Conclusion
 
 In summary, nodes, whether embodied by physical devices or online software, play a central role in the Bitcoin ecosystem. They maintain the blockchain's history, validate transactions, disseminate information, maintain network consensus, vote on future improvements, and ensure system decentralization.
-
-
-
 
 ## 3.4 Miners
 
 ![Miners](assets/posters/en/13._miners.png)
 
-
-
-
 ### Key Actors in the Bitcoin Network: Miners
 
 Bitcoin miners are individuals or entities that dedicate electricity and time to solving complex mathematical equations to secure the Bitcoin network. They play a crucial role in validating transactions, making them legitimate in the eyes of all network users.
-
-
 
 ### The Mining Process: Algorithms and Difficulties
 
@@ -431,12 +318,9 @@ Miners are the guardians of the security of the Bitcoin network. They spend ener
 
 Bitcoin mining is a complex but essential process for the functioning and security of the Bitcoin network. Proof of work and the blockchain solve the double-spending problem and ensure the accuracy of information. Energy expenditure is necessary to validate the work done and ensure the security of the network. Game theory applied to Bitcoin helps prevent dishonest behavior and maintain the security of the Bitcoin network.
 
-
 ## 3.5 Bitcoin and ecology
 
 ![Bitcoin & ecology](assets/posters/en/14._ecological_debate.png)
-
-
 
 ### The importance of Bitcoin for financial freedom and the fight against oppression
 
@@ -450,13 +334,9 @@ Now let's turn to the operation and ecological impact of Bitcoin mining. Bitcoin
 ### The economic and environmental issues of Bitcoin adoption
 
 Finally, it is essential to discuss the economic and environmental issues of Bitcoin adoption. The current financial system, by encouraging overconsumption and indebtedness, poses serious problems. Easy access to credit, monetary issuance by banks, and the use of fractional reserve are all factors that promote over-indebtedness. It is necessary to reform the monetary system to make money and resources scarcer. This will encourage more responsible consumption and a long-term vision. Inflation, by encouraging consumption and investment, has a negative impact on the environment.
-Current Keynesian economics, unlike Austrian economics, does not take into account the temporal aspect. Unlimited money cannot coexist with the limited resources of our planet. Politicians, due to their short-term vision and their need for economic growth to be re-elected, are unable to solve long-term environmental problems. Adopting a sound currency like Bitcoin could empower the people economically. Flames in oil wells, burning methane to avoid pollution, can be extinguished by Bitcoin miners, which is beneficial for the environment. Bitcoin promotes the use of green energy. Methane can be converted into electricity to power mining machines, which is advantageous for all. The end of the petrodollar is necessary to end wars and overconsumption. The banking system, based on the petrodollar, promotes war. By removing the petrodollar, we can end wars and excessive currency issuance. The gold industry, with its polluting machines, has a greater environmental impact than the Bitcoin industry. Bitcoin technology is often misunderstood, and criticisms regarding its environmental impact are often simplistic. These criticisms may be motivated by political interests. Bitcoin has the potential to help with the ecological transition and contribute to a greener world. The media often spreads false ideas about Bitcoin and ecology. Without Bitcoin, it would be more difficult to finance the ecological transition through monetary creation. 
-
+Current Keynesian economics, unlike Austrian economics, does not take into account the temporal aspect. Unlimited money cannot coexist with the limited resources of our planet. Politicians, due to their short-term vision and their need for economic growth to be re-elected, are unable to solve long-term environmental problems. Adopting a sound currency like Bitcoin could empower the people economically. Flames in oil wells, burning methane to avoid pollution, can be extinguished by Bitcoin miners, which is beneficial for the environment. Bitcoin promotes the use of green energy. Methane can be converted into electricity to power mining machines, which is advantageous for all. The end of the petrodollar is necessary to end wars and overconsumption. The banking system, based on the petrodollar, promotes war. By removing the petrodollar, we can end wars and excessive currency issuance. The gold industry, with its polluting machines, has a greater environmental impact than the Bitcoin industry. Bitcoin technology is often misunderstood, and criticisms regarding its environmental impact are often simplistic. These criticisms may be motivated by political interests. Bitcoin has the potential to help with the ecological transition and contribute to a greener world. The media often spreads false ideas about Bitcoin and ecology. Without Bitcoin, it would be more difficult to finance the ecological transition through monetary creation.
 
 # Chapter 4 - Saving with Bitcoin
-
-
-
 
 ## 4.1 Bitcoin never sleeps!
 
@@ -464,9 +344,7 @@ Current Keynesian economics, unlike Austrian economics, does not take into accou
 
 ### Understanding Bitcoin Price and Healthy Savings
 
-The price of Bitcoin, like any other cryptocurrency, is characterized by significant volatility. Its value can fluctuate considerably depending on market variations. However, compared to fiat currencies, Bitcoin tends to see its value increase over the long term. Healthy savings can also include Bitcoin. One of the recommended strategies is dollar cost averaging, which involves regularly investing a fixed amount in Bitcoin, regardless of its current price. This helps to smooth the impact of price fluctuations over the long term. In addition, the "hodl" strategy (a term stemming from a typo that became popular in the crypto community, meaning "hold on for dear life") encourages holding onto Bitcoins rather than exchanging or selling them. Over the long term, these strategies can be less risky and generate higher returns thanks to the effect of compound interest. 
-
-
+The price of Bitcoin, like any other cryptocurrency, is characterized by significant volatility. Its value can fluctuate considerably depending on market variations. However, compared to fiat currencies, Bitcoin tends to see its value increase over the long term. Healthy savings can also include Bitcoin. One of the recommended strategies is dollar cost averaging, which involves regularly investing a fixed amount in Bitcoin, regardless of its current price. This helps to smooth the impact of price fluctuations over the long term. In addition, the "hodl" strategy (a term stemming from a typo that became popular in the crypto community, meaning "hold on for dear life") encourages holding onto Bitcoins rather than exchanging or selling them. Over the long term, these strategies can be less risky and generate higher returns thanks to the effect of compound interest.
 
 ### The Dynamics of Bitcoin: Adoption, Speculative Bubbles, and Long-Term Investment
 
@@ -477,8 +355,6 @@ These groups were attracted to Bitcoin because of its ability to solve problems 
 
 The Bitcoin market is unique in that it operates globally, 24 hours a day, 7 days a week, making regulation difficult for financial authorities. Unlike traditional currencies, such as the euro, which can lose value, Bitcoin has shown an upward trend due to its increasing scarcity. However, the cryptocurrency industry is not without risks, especially for beginners. Scams and hacks are common. In addition, there are many emerging concepts and trends to understand, such as Non-Fungible Tokens (NFTs), which have existed since 2015 but have recently gained popularity, the Metaverse, a virtual universe, and DeFi (Decentralized Finance), which is currently perceived as speculative. Understanding and enthusiasm for the cryptocurrency market
 
-
-
 ### Conclusion
 
 In summary, it is important to note that Bitcoin is characterized by inherent volatility. Therefore, it is generally recommended to opt for a long-term investment strategy rather than engaging in short-term trading activities. Although the price of Bitcoin may undergo significant fluctuations, it tends to increase on average over a five-year period. We encourage a thoughtful savings approach that includes an allocation in Bitcoin, adjusted based on your risk tolerance and financial goals. For those interested in acquiring Bitcoin, various methods exist, including direct purchase or acquisition through professional activities. The world of Bitcoin is rich and constantly evolving, offering many opportunities for learning and development. It is recommended to continue your education and stay informed of the latest trends and developments in this field.
@@ -487,14 +363,9 @@ In summary, it is important to note that Bitcoin is characterized by inherent vo
 
 It is important to emphasize that this warning is not financial advice.
 
-
-
 # Bitcoin, like any other investment, carries risks
 
 Do not spend more money than you can afford to lose. Always exercise due diligence and consult a qualified financial advisor before making any investment. Past performance does not guarantee future performance. The information provided here is for educational purposes only. Any investment or trading strategy should be based on your own research and judgment.
-
-
-
 
 ## 4.2 Obtaining bitcoins by working
 
@@ -502,29 +373,22 @@ Do not spend more money than you can afford to lose. Always exercise due diligen
 
 ### Acquiring bitcoins through work
 
-Bitcoin can be perceived as a parallel economy to traditional currencies. This means that it is possible to sell goods or services and be paid in Bitcoin. Transactions can be made directly in Bitcoin, without the need for an exchange platform. There are several methods for accepting Bitcoin as a means of payment, and these deserve to be studied. However, it should be noted that the use of Bitcoin is taxed in France, which may discourage some people from using it as a means of payment. Despite this, it is important to emphasize that the Bitcoin economy exists and is developing in certain regions of the world, such as El Salvador. In addition, some individuals, businesses, and organizations already accept Bitcoin as a means of payment for their products or services. To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France. This method involves certain risks and the traceability of your transactions. Another method for obtaining bitcoins is to accept this cryptocurrency as a means of payment for the products or services you offer. This method allows you to acquire bitcoins through your work without constantly worrying about the price of Bitcoin. However, this can be difficult because many people are reluctant to spend their bitcoins. 
+Bitcoin can be perceived as a parallel economy to traditional currencies. This means that it is possible to sell goods or services and be paid in Bitcoin. Transactions can be made directly in Bitcoin, without the need for an exchange platform. There are several methods for accepting Bitcoin as a means of payment, and these deserve to be studied. However, it should be noted that the use of Bitcoin is taxed in France, which may discourage some people from using it as a means of payment. Despite this, it is important to emphasize that the Bitcoin economy exists and is developing in certain regions of the world, such as El Salvador. In addition, some individuals, businesses, and organizations already accept Bitcoin as a means of payment for their products or services. To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France. This method involves certain risks and the traceability of your transactions. Another method for obtaining bitcoins is to accept this cryptocurrency as a means of payment for the products or services you offer. This method allows you to acquire bitcoins through your work without constantly worrying about the price of Bitcoin. However, this can be difficult because many people are reluctant to spend their bitcoins.
 
 **add btc map somewhere**
-
 
 ### Accepting Bitcoin for commercial transactions: advantages and solutions
 
 Accepting Bitcoin as a merchant has several advantages, including censorship resistance, reduced transaction fees, increased efficiency, protection against inflation, as well as financial freedom and sovereignty. In addition, commercial activity and the circular economy of Bitcoin can contribute to the Bitcoin network while allowing for the acquisition of bitcoins. To accept Bitcoin, it is necessary to study the different solutions available and choose the one that best suits your business. Several factors must be taken into account, such as the expected transaction volume, the allocated budget, the type of commerce (online or physical), among others. There are three levels of Bitcoin acceptance: static QR code, invoice dedicated wallet, and Lightning network usage. The static QR code allows for receiving Bitcoin payments simply by scanning a code, while the Lightning network allows for near-instant transactions with extremely low fees. Several tools can be used to facilitate Bitcoin acceptance, such as the Blue Wallet for beginners, or more advanced payment processors such as BTP Server, OpenNode, and Galois Bitcoin Beach Wallet for more industrial use. Each solution has its advantages and disadvantages, particularly in terms of anonymity and fees.
-
-
 
 ### Conclusion
 
 The use of Bitcoin can offer many advantages, such as the elimination of transaction fees, the reduction of credit card fraud, the acquisition of non-traceable bitcoins, as well as greater autonomy and flexibility.
 Accepting Bitcoin is a practice that is becoming more common in France, allowing not only to save on usual transaction fees, but also to attract a forward-thinking clientele.
 
-
 ## 4.3 Saving with Bitcoin
 
 ![saving with bitcoin](assets/posters/en/16._saving_in_bitcoin.png)
-
-
-
 
 ### Introduction to Bitcoin and Associated Risks
 
@@ -536,12 +400,9 @@ There are several ways to acquire Bitcoins, each with its own regulations. Some 
 
 After purchase, it is advisable to immediately withdraw Bitcoins from exchange platforms to minimize the risks of hacking and fund blocking. Withdrawal fees can be high, sometimes up to 25 euros depending on the platform, so it is recommended to proceed in stages to ensure transaction security. The use of regulated platforms is essential to avoid accusations of money laundering, terrorism financing, or tax evasion. It is important to note that, although the KYC (Know Your Customer) system is often criticized, it plays a crucial role in preventing these illicit activities. Bitcoin transactions are traceable, which can potentially harm users' privacy. A green and red address system, made possible by KYC, could theoretically hinder Bitcoin, but it is unlikely to happen due to the decentralized and peer-to-peer nature of Bitcoin. Bitcoins can be purchased through Bitcoin ATMs, although these are rare in France. The number of these ATMs is constantly increasing worldwide. There are various options for buying and selling Bitcoins, including direct transactions between individuals, online exchange platforms, and Bitcoin ATMs. It should be noted that there is usually a premium for non-KYC transactions. It is also important to note that there are taxes to be paid on the resale of Bitcoins, approximately 30% in France. There is a legal section on the website with lawyers for more information.
 
-
 ## 4.4 Hyper-Bitcoinization
 
 ![hyper-bitcoinization](assets/posters/en/18._hyperbitcoinization.png)]
-
-
 
 ### Global Adoption and Diffusion of Bitcoin
 
@@ -560,7 +421,6 @@ I invite you to reflect on this new monetary revolution. There is so much to exp
 
 If you want to develop your knowledge of Bitcoin, many authors, thinkers, and essayists have contributed to the educational layer of Bitcoin. For a few years now, I have been compiling and classifying these works to offer a library of resources to the most curious among you. You will find the best podcasts, websites, articles, tutorials, books, Twitter posts, and other content. Renowned economist Milton Friedman predicted in 1999: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A." Today, Bitcoin answers this prediction.
 
-
 ## Support Us
 
 **text to add**
@@ -571,13 +431,9 @@ If you want to develop your knowledge of Bitcoin, many authors, thinkers, and es
 
 # Chapter 5 - The Lightning Network
 
-
 ## 5.1 Introduction to the Lightning Network
 
-
 ![The Lightning Network](assets/posters/en/20._lightning_network.png)
-
-
 
 ### The Lightning Network: An Answer to Bitcoin Scalability
 
@@ -590,29 +446,19 @@ To fully understand the Lightning Network, it is crucial to understand how Bitco
 ### Practical Use and Impact on the Future of Finance
 
 The Lightning Network acts as a network of payment channels, allowing for instant and feeless transactions between the two parties.
-This payment channel network makes transactions possible between individuals who do not have a direct channel connected. Lightning Network users can pay channel opening fees to create a multisig smart contract. There are no transaction fees between directly connected users, but fees are paid to Lightning routing nodes (hubs) for transactions between non-connected users. Traditional money transfer services, such as Western Union, central banks, Visa, and Mastercard, could disappear if they do not adopt Lightning Network technology. The Lightning Network is more efficient, cheaper, and more ethical than the traditional financial system. In fact, the Lightning Network allows for millions and billions of transactions between two connected individuals without fees and without energy expenses on the base blockchain. Transactions are secured by cryptographic technology and indirectly by miner energy and the base blockchain. Transactions can be made instantly, without geographical limits, and fees are extremely low. El Salvador is an example of a country mainly using the Lightning Network. Startups like Strike leverage this technology to send euros and dollars in a second and without fees. 
-
-
+This payment channel network makes transactions possible between individuals who do not have a direct channel connected. Lightning Network users can pay channel opening fees to create a multisig smart contract. There are no transaction fees between directly connected users, but fees are paid to Lightning routing nodes (hubs) for transactions between non-connected users. Traditional money transfer services, such as Western Union, central banks, Visa, and Mastercard, could disappear if they do not adopt Lightning Network technology. The Lightning Network is more efficient, cheaper, and more ethical than the traditional financial system. In fact, the Lightning Network allows for millions and billions of transactions between two connected individuals without fees and without energy expenses on the base blockchain. Transactions are secured by cryptographic technology and indirectly by miner energy and the base blockchain. Transactions can be made instantly, without geographical limits, and fees are extremely low. El Salvador is an example of a country mainly using the Lightning Network. Startups like Strike leverage this technology to send euros and dollars in a second and without fees.
 
 ### Conclusion
 
-The Lightning Network is the future of Bitcoin. The engineering choices for Bitcoin are meticulously thought out, treating Bitcoin as nuclear or space code. The loss of Bitcoin would be a loss of financial liberation opportunity. The Lightning Network is a new infrastructure layer to solve Bitcoin's scalability problem. It allows for millions and billions of transactions between two connected individuals without fees and without energy expenses on the base blockchain. It is essential to stay informed about this technology to understand the future of Bitcoin and finance in general. 
-
-
-
+The Lightning Network is the future of Bitcoin. The engineering choices for Bitcoin are meticulously thought out, treating Bitcoin as nuclear or space code. The loss of Bitcoin would be a loss of financial liberation opportunity. The Lightning Network is a new infrastructure layer to solve Bitcoin's scalability problem. It allows for millions and billions of transactions between two connected individuals without fees and without energy expenses on the base blockchain. It is essential to stay informed about this technology to understand the future of Bitcoin and finance in general.
 
 ## 5.2 Use Cases of the Lightning Network
 
-
 ![LN use cases](assets/posters/en/21._ln_use_cases.png)
-
-
 
 ### Microtransactions on the Lightning Network: A Critical Perspective
 
-The Bitcoin protocol, while revolutionary, has faced significant challenges in terms of scalability and transaction efficiency. To address these issues, a second-layer solution known as the Lightning Network has been proposed and implemented. This technology aims to facilitate microtransactions, i.e., transactions of very low value, which would otherwise be impractical due to high fees and long confirmation times on the Bitcoin blockchain. The Lightning Network works by creating off-chain payment channels between parties who wish to make frequent transactions. These channels allow for near-instant transactions and minimal fees, making microtransactions viable. This technology opens the door to an extended range of potential applications for Bitcoin, which were previously out of reach due to inherent limitations in blockchain technology. Among these applications are routing nodes for network efficiency, money streaming for real-time payments, messaging for secure and decentralized communications, and futuristic business models that were previously unimaginable. 
-
-
+The Bitcoin protocol, while revolutionary, has faced significant challenges in terms of scalability and transaction efficiency. To address these issues, a second-layer solution known as the Lightning Network has been proposed and implemented. This technology aims to facilitate microtransactions, i.e., transactions of very low value, which would otherwise be impractical due to high fees and long confirmation times on the Bitcoin blockchain. The Lightning Network works by creating off-chain payment channels between parties who wish to make frequent transactions. These channels allow for near-instant transactions and minimal fees, making microtransactions viable. This technology opens the door to an extended range of potential applications for Bitcoin, which were previously out of reach due to inherent limitations in blockchain technology. Among these applications are routing nodes for network efficiency, money streaming for real-time payments, messaging for secure and decentralized communications, and futuristic business models that were previously unimaginable.
 
 ### The Impact of the Lightning Network on the Gaming Industry
 
@@ -623,22 +469,15 @@ This leads to monetary video game systems, where competition is not just for the
 
 The concept of "money streaming" is a vision for the future made possible by the Lightning Network. This network allows for instant micro-transactions, paving the way for economic models where consumers pay by the second for the content they consume. In such a system, money is automatically divided, based on a predetermined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models. For example, instead of paying a monthly subscription to a service, users could be charged by the second for the time they spend using the service. This economic model could have profound implications for content creators, who would be incentivized to produce quality content to retain users' attention. Users, in turn, would only pay for the content they consume, eliminating upfront subscription fees. It is even conceivable to use this system to pay for services such as overtaking a car on the road. Although this system may seem unfair to some, it is important to consider the benefits. The micro-transactions made possible by Bitcoin allow for instant payments without intermediaries. Thus, cars could potentially make payments to each other to facilitate overtaking, thanks to the use of a programmable currency. In conclusion, the Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied. It is important to remember that educational resources, such as training, tutorials, and interviews, are available for free in three languages on DécouvreBitcoin. To stay up-to-date with the latest Bitcoin news, feel free to follow our social media and visit our website www.découvrebitcoin.com. We appreciate your attention and engagement in learning and exploring this revolutionary technology.
 
-
 ## 5.3 Red pill
-
 
 ![Red pill](assets/posters/en/2._oprange_pill.png)
 
-
 # General conclusion of the training
-
-
 
 # Go further
 
 **text to highlight other trainings**
-
-
 
 # Thanks and credit
 

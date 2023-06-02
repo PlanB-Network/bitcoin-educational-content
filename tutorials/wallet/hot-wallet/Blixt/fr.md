@@ -10,7 +10,7 @@ tag:
 
 ---
 
-![présentation](assets\1.jpeg)
+![présentation](assets/1.jpeg)
 
 # Portefeuille/Nœud Blixt BTC ⚡️ LN
 
@@ -50,7 +50,7 @@ Voici quelques liens à propos de cette nouvelle application de nœud/portefeuil
 
     Feed Twitter avec des démos
 
-![image principal](assets\2.jpg)
+![image principal](assets/2.jpg)
  
 # Principales fonctionnalités disponibles
 

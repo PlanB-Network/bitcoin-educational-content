@@ -9,7 +9,7 @@ difficulty: beginners
 
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 # Guide on how to buy - sell bitcoin
 

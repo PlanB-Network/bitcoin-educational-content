@@ -10,7 +10,7 @@ tag:
     
 ---
 
-![cover](assets\0.jpg)
+![cover](assets/0.jpg)
 
 
 # Specter DIY
@@ -28,7 +28,7 @@ tag:
     Barebones case designed by Seedsigner
 
 
-![device view](assets\2.png)
+![device view](assets/2.png)
 
 https://specter.solutions/hardware/
 

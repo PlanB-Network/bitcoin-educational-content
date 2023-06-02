@@ -9,7 +9,7 @@ tag:
     - bitcoin-only
     - KYC
 ---
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 
 # Tutoriel DCA – StackinSat

@@ -10,7 +10,7 @@ tag:
 
 ---
 
-![cover](assets\0.jpg)
+![cover](assets/0.jpg)
 
 # Liana - Solution d'héritage
 

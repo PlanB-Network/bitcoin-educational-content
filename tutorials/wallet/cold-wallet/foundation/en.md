@@ -9,7 +9,7 @@ tag:
 
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 # Fondation
 
@@ -23,7 +23,7 @@ tag:
   - Power	User-removable 1200 mAh Lithium ion battery in Nokia BL-5C form factor (included with purchase).
   - Security Features	Airgapped, easy passphrase entry, security lights, anti-phishing words, security validation.
 
-![device](assets\1.png)
+![device](assets/1.png)
 
 # tutoriel video
 

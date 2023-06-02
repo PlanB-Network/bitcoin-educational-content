@@ -8,7 +8,7 @@ tag:
     - bitcoin-only
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # Relai
 
 Recurring bitcoin purchase solution – Relai is a Swiss solution without KYC

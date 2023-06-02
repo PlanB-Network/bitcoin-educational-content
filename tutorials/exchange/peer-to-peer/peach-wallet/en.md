@@ -9,6 +9,6 @@ tag:
     - bitcoin-only
 
 ---
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 # Peach Bitcoin

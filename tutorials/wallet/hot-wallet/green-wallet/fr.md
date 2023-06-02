@@ -9,7 +9,7 @@ tag:
 
 ---
 
-![cover](assets\0.jpg)
+![cover](assets/0.jpg)
 # Tutoriel portefeuille – Green Wallet
 
 Portefeuille mobile chaud – Débutant – Gratuit – Pour sécuriser de 0 à 1 000 €

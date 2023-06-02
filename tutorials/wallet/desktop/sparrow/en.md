@@ -9,7 +9,7 @@ tag:
   - privacy
 
 ---
-![cover](assets\0.png)
+![cover](assets/0.png)
 # Sparrow
 
 ## A series of videos covering Sparrow Bitcoin Wallet. Guides for beginners and more advanced users. 

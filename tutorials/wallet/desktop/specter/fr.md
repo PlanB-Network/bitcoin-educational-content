@@ -8,7 +8,7 @@ tag:
   - multi-sig
   
 ---
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 
 # Specter - Solution pour multi-sig

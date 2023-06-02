@@ -11,7 +11,7 @@ difficulty: intermediary
 
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # Acheter du Bitcoin sans KYC au Canada avec Bull Bitcoin
 
 ## Rendez vous à un comptoir Poste Canada et achetez des bitcoins avec du comptant grâce à Bull Bitcoin.

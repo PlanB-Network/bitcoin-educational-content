@@ -9,7 +9,7 @@ tag:
     - bitcoin-only
     - open-source
 ---
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 # LN p2p Bot
 

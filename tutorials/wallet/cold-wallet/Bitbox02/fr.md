@@ -9,7 +9,7 @@ tag:
 
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # bitbox02
 
 Le BitBox02 est un portefeuille matériel suisse spécialement conçu pour sécuriser vos Bitcoins. Voici quelques-unes de ses principales caractéristiques :
@@ -41,7 +41,7 @@ Le BitBox02 est le choix idéal pour sécuriser vos Bitcoins en toute confiance.
       
       Download data sheets on their website https://bitbox.swiss/bitbox02/
 
-![device](assets\1.webp)
+![device](assets/1.webp)
 
 ## Tutoriel video
 

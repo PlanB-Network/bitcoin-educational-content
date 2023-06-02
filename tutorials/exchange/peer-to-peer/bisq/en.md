@@ -8,7 +8,7 @@ tag:
     - open-source
     - bitcoin-only
 ---
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 ## BISQ: peer to peer exchange
 
 Bisq is a decentralized trading platform for digital assets, primarily Bitcoin. It provides direct, secure, and private transactions between users worldwide without the need for an intermediary.

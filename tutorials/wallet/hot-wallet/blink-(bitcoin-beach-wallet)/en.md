@@ -12,7 +12,7 @@ tag:
   - open-source
 
 ---
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # Blink - The everyday bitcoin wallet
 
 Bitcoin Beach Wallet is getting a new name and many new features

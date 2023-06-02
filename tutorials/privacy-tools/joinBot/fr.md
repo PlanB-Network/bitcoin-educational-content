@@ -8,7 +8,7 @@ Tag:
 difficulty: Advanced
 
 ---
-![DALL·E – samourai robot in a red forest, 3D render](assets\0.png)
+![DALL·E – samourai robot in a red forest, 3D render](assets/0.png)
 # Si t’as pas d’amis, utilises JoinBot !
 
 _**Un article de Loïc Morel – 06/11/2022**_
@@ -32,7 +32,7 @@ Une façon de parvenir à brouiller les pistes dans une transaction Bitcoin est 
 
 Comme évoquée précédemment, la structure de transaction collaborative la plus connue est le Coinjoin. Par exemple, sur le protocole de Coinjoin Whirlpool, les transactions font intervenir 5 participants en entrée et en sortie, chacun avec une même somme de bitcoins.
 
-![Schéma d’une transaction Coinjoin sur Whirlpool](assets\1.png)
+![Schéma d’une transaction Coinjoin sur Whirlpool](assets/1.png)
 
 
 
@@ -62,7 +62,7 @@ Son mécanisme est assez simple à comprendre. Voici son fonctionnement pratique
 
 Par exemple, voici une transaction StonewallX2 classique dans laquelle j’ai effectué un paiement de 50 125 sats. Le premier input de 102 588 sats provient de mon portefeuille Samourai. Le second input de 104 255 sats provient du wallet de mon collaborateur :
 
-![Schéma d’une transaction StonewallX2](assets\2.png)
+![Schéma d’une transaction StonewallX2](assets/2.png)
 
 n peut observer 4 outputs dont 2 de même montant afin de brouiller les pistes :
 
@@ -121,7 +121,7 @@ Découvrez étape par étape comment réaliser une transaction StonewallX2 avec 
 
 Voici le schéma de la transaction que nous venons de réaliser dans la vidéo :
 
-![Schéma de ma transaction StonewallX2 avec JoinBot.](assets\3.png)
+![Schéma de ma transaction StonewallX2 avec JoinBot.](assets/3.png)
 
 
 

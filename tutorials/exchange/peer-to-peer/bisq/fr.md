@@ -6,7 +6,7 @@ tag:
     - peer-to-peer
     - open-source
 ---
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # BISQ: solution d'achat en peet à peer
 
 Bisq est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.

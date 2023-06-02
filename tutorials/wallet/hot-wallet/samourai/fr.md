@@ -9,7 +9,7 @@ tag:
 
 ---
 
-![Samourai Wallet](assets\0.jpeg)
+![Samourai Wallet](assets/0.jpeg)
 # Samouraï Wallet - Pensez pour la vie privée 
 
 **Samouraï Wallet** est un portefeuille qui se consacre à la vie privée. Malgré son aspect chaud, il offre un grand nombre de flexibilité dans son utilisation et sa sécurité.

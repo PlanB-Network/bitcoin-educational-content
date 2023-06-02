@@ -12,7 +12,7 @@ tag:
 
 # Breez: non-custodial Lightning client.
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 To find all the importante information please refer to their extensive guide: https://doc.breez.technology/
 

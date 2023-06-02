@@ -9,7 +9,7 @@ tag:
   - self-custodial 
 
 ---
-![Zeus](assets\0.jpeg)
+![Zeus](assets/0.jpeg)
 
 # Zeus -  Lightning in the palm of your hand
 

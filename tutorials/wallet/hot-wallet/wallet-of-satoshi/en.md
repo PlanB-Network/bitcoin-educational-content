@@ -9,7 +9,7 @@ tag:
 
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 
 # Wallet of Satoshi 

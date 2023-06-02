@@ -8,7 +8,7 @@ tag:
     
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 # seed signer
 

@@ -9,7 +9,7 @@ tag:
     
     
 ---
- ![cover](assets\0.png)
+ ![cover](assets/0.png)
 ## Tutoriel plateforme d’échange – Bitstamp
 
 Bitstamp est un « broker » Bitcoin pour acheter et vendre du bitcoin, il y a énormément de volumes et d’options. C’est idéal pour les société ou les acheteurs du dimanche.

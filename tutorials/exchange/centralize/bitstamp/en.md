@@ -8,7 +8,7 @@ tag:
     - KYC
     
 ---
- ![cover](assets\0.png)
+ ![cover](assets/0.png)
 
 # Bitstamp
 

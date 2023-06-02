@@ -9,7 +9,7 @@ tag:
     - bitcoin-only
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # Robosats
 
 RoboSats is an easy way to privately exchange Bitcoin for national currencies It simplifies the peer-to-peer experience and makes use lightning hold invoices to minimize custody and trust requirements.

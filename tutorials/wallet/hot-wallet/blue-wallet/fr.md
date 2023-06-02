@@ -10,7 +10,7 @@ tag:
 
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 # Blue Wallet - Portefeuille Bitcoin Radicalement Simple et Puissant.
 

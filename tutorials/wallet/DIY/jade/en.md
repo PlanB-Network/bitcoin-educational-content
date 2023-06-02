@@ -9,7 +9,7 @@ tag:
 
 ---
 
-![cover](assets\0.jpg)
+![cover](assets/0.jpg)
 
 # Blockstream jade 
 

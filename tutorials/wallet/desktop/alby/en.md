@@ -10,7 +10,7 @@ tag:
 ---
 
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 
 # Alby - Browser extension for the #Bitcoin and #LightningNetwork 
 

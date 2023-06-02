@@ -8,7 +8,7 @@ tag:
     
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # Tutoriel portefeuille – Ledger Nano S
 
 Portefeuille physique froid – 60 € – Débutant – Pour sécuriser 2 000€ à 50 000€  

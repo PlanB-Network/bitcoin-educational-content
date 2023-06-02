@@ -10,7 +10,7 @@ difficulty: intermediary
 
 ---
 
-![cover](assets\0.jpeg)
+![cover](assets/0.jpeg)
 # Paymium
 
 tuto

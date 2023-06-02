@@ -14,7 +14,7 @@ difficulty: advanced
 
 _**Guide proposé par Hari Seldon dans le cadre de Agora256**_
 
-![image](assets\0.png)
+![image](assets/0.png)
 
 Un système d'exploitation portable et amnésique qui vous protège contre la surveillance et la censure.
 
@@ -62,7 +62,7 @@ Prérequis
 
 ## Étape 1: Télécharger Tails depuis votre ordinateur
 
-![image](assets\1.png)
+![image](assets/1.png)
 
 
     🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#download
@@ -73,7 +73,7 @@ Sauver le fichier dans un dossier connu, tels que Téléchargements, cela sera n
 
 ## Étape 2: Vérifier votre téléchargement
 
-![image](assets\2.png)
+![image](assets/2.png)
 
     🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#verify
 
@@ -85,7 +85,7 @@ Pour vérifier le fichier, utilisez donc le bouton "Sélectionner votre téléch
 
 ## Étape 3: Installer Tails sur votre clé USB
 
-![image](assets\3.png)
+![image](assets/3.png)
 
     🔗 Section officielle de Tails:
     - Linux: https://tails.boum.org/install/linux/index.fr.html#install
@@ -100,7 +100,7 @@ Bon courage! et rendez-vous à l'étape 4.
 
 ## Étape 4: Redémarrer sur votre clé USB Tails
 
-![image](assets\4.png)
+![image](assets/4.png)
 
     🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#restart
 
@@ -131,27 +131,27 @@ Déterminer quelle touche vous devrez appuyer pour vous assurer d'avoir le menu 
 
 Une fois la clé USB sélectionnée, vous devriez voir ce nouvel écran de démarrage, c'est très bon signe, laissez donc l'ordinateur continuer son démarrage...
 
-![image](assets\5.png)
+![image](assets/5.png)
 
 ## Étape 5: Bienvenue dans Tails !
 
-![image](assets\6.png)
+![image](assets/6.png)
 
     🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#tails
 
 Une ou deux minutes après le chargeur d'amorçage et l'écran de chargement, l'Écran de bienvenue apparaît.
 
-![image](assets\7.png)
+![image](assets/7.png)
 
 Dans l'Écran de bienvenue, sélectionnez votre langue et votre disposition de clavier dans la section Language & Region. Cliquez sur Démarrer Tails.
 
-![image](assets\8.png)
+![image](assets/8.png)
 
 Si votre ordinateur n'est pas connecté par un fil à votre réseau, veuillez consulter les instructions officielles de Tails pour vous aider à connecter votre réseau sans Wi-Fi (section "Testez votre Wi-Fi").
 
 Une fois connecté au réseau local, l'assistant de Connexion à Tor apparaît pour vous aider à vous connecter au réseau Tor.
 
-![image](assets\9.png)
+![image](assets/9.png)
 
 Vous pouvez commencer à naviguer anonymement, explorer les options et les logiciels inclus dans Tails. Faites-vous plaisir, vous avez toute place aux erreurs, car rien n'est modifié sur la clé USB...Votre prochain redémarrage aura oublié toutes vos expériences!
 

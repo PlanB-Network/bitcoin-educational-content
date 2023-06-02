@@ -6,22 +6,18 @@ difficulty: advanced
 tag:
   - wallet
   - Open-source
-
 ---
-
-![cover](assets/0.jpeg)
 
 # Fondation
 
+Key Specs
 
-  Key Specs
-
-  - Supported Cryptocurrencies	Bitcoin via PSBTs (partially signed Bitcoin transactions); best-in-class multisig experience.
-  - Supported Software Wallets	Bitcoin Core, BlueWallet, BTCPay, Casa, Electrum, Nunchuk, Simple Bitcoin Wallet, Sparrow, Specter, Wasabi, and other wallets supporting PSBTs via microSD or QR codes.
-  - Key Components	STM processor, Microchip secure element, Omnivision Cameracube.
-  - Communication	Camera and microSD port. No USB data, no Bluetooth, no wireless communications of any kind.
-  - Power	User-removable 1200 mAh Lithium ion battery in Nokia BL-5C form factor (included with purchase).
-  - Security Features	Airgapped, easy passphrase entry, security lights, anti-phishing words, security validation.
+- Supported Cryptocurrencies Bitcoin via PSBTs (partially signed Bitcoin transactions); best-in-class multisig experience.
+- Supported Software Wallets Bitcoin Core, BlueWallet, BTCPay, Casa, Electrum, Nunchuk, Simple Bitcoin Wallet, Sparrow, Specter, Wasabi, and other wallets supporting PSBTs via microSD or QR codes.
+- Key Components STM processor, Microchip secure element, Omnivision Cameracube.
+- Communication Camera and microSD port. No USB data, no Bluetooth, no wireless communications of any kind.
+- Power User-removable 1200 mAh Lithium ion battery in Nokia BL-5C form factor (included with purchase).
+- Security Features Airgapped, easy passphrase entry, security lights, anti-phishing words, security validation.
 
 ![device](assets/1.png)
 
@@ -40,5 +36,3 @@ tag:
 ![5. Connecting Passport with Envoy](https://youtu.be/x-EERNXlvrc)
 
 ![Passport Hardware Wallet - Manual Setup](https://youtu.be/UKzMHsjJFYU)
-
-

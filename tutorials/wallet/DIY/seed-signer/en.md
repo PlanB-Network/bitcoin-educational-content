@@ -3,19 +3,15 @@ name: Ledger Nano S
 
 builder: ledger
 
-tag: 
-    - wallet
-    
+tag:
+  - wallet
 ---
-
-
-![cover](assets/0.jpeg)
 
 # seed signer
 
-  materiel: 
+materiel:
 
-  1. Raspberry Pi Zéro (version 1.3)
+1. Raspberry Pi Zéro (version 1.3)
 
 Raspberry Pi Zero
 
@@ -26,9 +22,7 @@ GPIO Hammer
 
 If your soldering isn’t quite up to scratch, or you just don’t own a soldering iron yet, then you can use “GPIO Hammer” as an alternative to soldering.
 
-
-  2. Chapeau LCD WaveShare 1,3 pouces avec écran 240 × 240 pixels
-
+2. Chapeau LCD WaveShare 1,3 pouces avec écran 240 × 240 pixels
 
 WaveShare LCD Hat
 
@@ -37,9 +31,7 @@ Waveshare 1.3″ 240×240 pxl LCD
 Note: Choose the Waveshare screen carefully; make sure to purchase the model that has a resolution of 240×240 pixels.
 more info
 
-
-  3. Module de caméra compatible Pi Zero
-
+3. Module de caméra compatible Pi Zero
 
 Raspberry Pi Camera
 
@@ -47,31 +39,25 @@ Aokin / AuviPal 5MP 1080p with OV5647 Sensor Video Camera Module; other brands w
 
 Note: You will need to have a camera ribbon cable specifically compatible with Raspberry Pi Zero.
 
-
-
-  4. Carte MicroSD avec au moins 4 Go de capacité
-
+4. Carte MicroSD avec au moins 4 Go de capacité
 
 extensive ressources : https://seedsigner.com/explainers/
 
-## Software: 
-
+## Software:
 
 Software Installation
 
 1. Download the latest “seedsigner_x_x_x.img.zip” file
-latest release
+   latest release
 
-2. Unzip the “seedsigner_x_x_x.img.zip” file 
+2. Unzip the “seedsigner_x_x_x.img.zip” file
 
 3. Use the Balena Etcher or a similar tool to write the unzipped .img image file to a microsd card
-BALENA ETCHER
+   BALENA ETCHER
 
 4. Install the microsd card in SeedSigner.
-SeedSigner GPG Public Key
-seedsigner_pubkey.gpg
-
-
+   SeedSigner GPG Public Key
+   seedsigner_pubkey.gpg
 
 ## tutoriel video
 
@@ -85,7 +71,6 @@ SeedSigner is a Bitcoin Signing Device you can build from scratch. Sounds diffic
 
 Everything you need to know will be below. Other useful links include SeedSigner's website, their Github, their Keybase, the latest release, and hardware requirements.
 
-
 ### Part 1: How to build a SeedSigner:
 
 In this video I show you how to download and verify the SeedSigner software, what parts are needed, and how to assemble your SeedSigner.
@@ -94,7 +79,7 @@ https://youtu.be/mGmNKYOXtxY
 
 ### Part 2: Testing your SeedSigner
 
-Before I used my SeedSigner, I did a few tests to ensure it wasn't doing anything malicious. I thought I would share this step too. Here is how to verify that your SeedSigner exports the correct wallet (xpub), how to verify SeedSigners dice rolls math, and how to verify SeedSigners bip-85 child seeds. 
+Before I used my SeedSigner, I did a few tests to ensure it wasn't doing anything malicious. I thought I would share this step too. Here is how to verify that your SeedSigner exports the correct wallet (xpub), how to verify SeedSigners dice rolls math, and how to verify SeedSigners bip-85 child seeds.
 
 https://youtu.be/34W1IyTyXZE
 
@@ -118,4 +103,3 @@ Those are all the SeedSigner guides, for now! Let me know if you think I am miss
 
 Found these valuable? Consider sending a tip to help fund future videos:
 https://www.southernbitcoiner.com/donate/
-

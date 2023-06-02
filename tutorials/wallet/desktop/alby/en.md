@@ -9,10 +9,7 @@ tag:
   - lightning
 ---
 
-
-![cover](assets/0.jpeg)
-
-# Alby - Browser extension for the #Bitcoin and #LightningNetwork 
+# Alby - Browser extension for the #Bitcoin and #LightningNetwork
 
 To see all the best guide on alby check there doc page! https://guides.getalby.com/overall-guide/
 
@@ -21,5 +18,3 @@ To see all the best guide on alby check there doc page! https://guides.getalby.c
 ![video](https://youtu.be/nd5fX2vHuDw)
 
 ![video tuto](https://guides.getalby.com/overall-guide/)
-
-

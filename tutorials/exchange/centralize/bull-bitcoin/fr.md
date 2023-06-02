@@ -1,17 +1,14 @@
---- 
-
+---
 Builder: Bull Bitcoin
 
-Tag: 
+Tag:
   - exchange
   - KYC
   - Non-KYC
 
 difficulty: intermediary
-
 ---
 
-![cover](assets/0.jpeg)
 # Acheter du Bitcoin sans KYC au Canada avec Bull Bitcoin
 
 ## Rendez vous à un comptoir Poste Canada et achetez des bitcoins avec du comptant grâce à Bull Bitcoin.
@@ -26,7 +23,7 @@ La majorité des échanges de Bitcoin sont réglementés ainsi et sont donc tenu
 
 Cette pratique est sans aucun doute une atteinte à la vie privée et à la confidentialité des citoyens cherchant tout simplement à acquérir une monnaie, dans le cas de Bitcoin, complètement détachée du système fiduciaire contrôlé par les volontés d'une banque centrale omnisciente.
 
-## Utiliser Bull Bitcoin pour acheter des bitcoins  avec du comptant au Canada
+## Utiliser Bull Bitcoin pour acheter des bitcoins avec du comptant au Canada
 
 Au Canada, il est désormais possible de passer par l'un de ces échanges pour se procurer des bitcoins avec du comptant, le tout exempt de KYC. En effet, Bull Bitcoin, une compagnie Canadienne réputée en opération depuis 2015 menée par Francis Pouliot, offre la méthode de paiement 'Cash or Debit at Canada Post' à ses utilisateurs ayant acquis le statut 'Limited', lequel est attribué à ceux-ci une fois qu'ils ont fourni leur nom ainsi qu'une adresse courriel vérifiée.
 

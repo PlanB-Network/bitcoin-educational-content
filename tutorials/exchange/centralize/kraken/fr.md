@@ -1,15 +1,11 @@
---- 
-
+---
 Builder: Kraken
 
-Tag: 
+Tag:
   - exchange
   - KYC
 
 difficulty: intermediary
-
 ---
-
-![cover](assets/0.jpeg)
 
 # Kraken

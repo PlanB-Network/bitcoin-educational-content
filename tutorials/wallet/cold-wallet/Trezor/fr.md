@@ -3,16 +3,12 @@ name: Trezor Model ONE
 
 builder: Trezor
 
-tag: 
-    - wallet
-    - Open source
-    
+tag:
+  - wallet
+  - Open source
 ---
 
-![cover](assets/0.jpeg)
-
 # Trezor model ONE
-
 
 Spec
 
@@ -28,10 +24,7 @@ Nous avons déjà réalisé des tutoriels sur son utilisation :
 
 3. Utilisation, envoi et réception de bitcoins
 
- 
-
 Toi aussi tu souhaiterais avoir ton Trezor ? Tu peux contribuer au projet en cliquant juste en dessous !
-
 
 mise en place: https://www.youtube.com/watch?v=WB5lWEaaJOE
 

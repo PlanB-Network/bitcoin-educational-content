@@ -3,30 +3,32 @@ builder: Robotsats
 
 difficulty: intermediate
 
-tag: 
-    - exchange
-    - peer-to-peer
-    - bitcoin-only
+tag:
+  - exchange
+  - peer-to-peer
+  - bitcoin-only
 ---
 
-![cover](assets/0.jpeg)
 # Robosats
 
 RoboSats is an easy way to privately exchange Bitcoin for national currencies It simplifies the peer-to-peer experience and makes use lightning hold invoices to minimize custody and trust requirements.
 
 https://youtu.be/XW_wzRz_BDI
 
-
-Tutorial provided by robotsats github: licence: 
-
+Tutorial provided by robotsats github: licence:
 
 ## How to Use (v0.3.3)
+
 ![image](https://user-images.githubusercontent.com/97640728/218118681-520e7fa6-52e9-4740-b488-1d294f833de6.png)
+
 ### <a href="https://www.athena-alpha.com/how-to-buy-bitcoins-using-robosats/" target="_blank">How To Buy Bitcoins Using RoboSats: Fastest KYC Free Sats In The West</a>
+
 Athena Alpha's full guide walks you through the full buying process step-by-step. It also answers any extra FAQs you might have and helps outline how brand new Bitcoin Beginners can get the deposit needed to make their first trade.
 
 ## How to Use (v0.1.0)
+
 Full tutorial in tweets by @simplestBTCbook
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Enjoy this detailed new <a href="https://twitter.com/RoboSats">@RoboSats</a> Tutorial! <a href="https://t.co/CiizGINQ4f">pic.twitter.com/CiizGINQ4f</a></p>&mdash; SimplestBitcoinBook -Get ur 🔑&#39;s into Cold Storage (@SimplestBTCBook) <a href="https://twitter.com/SimplestBTCBook/status/1584103026733633537">October 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Read full tweet thread without clutter and tracking in [Nitter](https://nitter.net/SimplestBTCBook/status/1584103026733633537)
@@ -36,14 +38,16 @@ RoboSats is focused on user friendliness. The platform is totally self-explanato
 This document has two complete walkthroughs: 1) as a buyer that takes an order and; 2) as a seller that makes an order. Given that the platform explains to the user exactly everything in the menus, we are going to dedicate some lines to some tricks and give tips for safe trading in between.
 
 ## User Generation Home Page
+
 RoboSats help users preserve their privacy by using newly generated avatars in every trade. Avatars are super easy to generate!
+
 <div align="center">
 <img src="/assets/images/how-to-use/homepage-1.png"  width="370" />
 </div>
 
 RoboSats welcomes you right away with your unique robot avatar. The robot is deterministically generated based on the token you see below it. This token is all you need to recover the avatar in the future, so make sure to **back it up safely!**
 
-The tokens are generated in your own browser. However, if you do not trust your machine randomness, you can also input your own entropy token. *Note that low entropy tokens are not valid.*
+The tokens are generated in your own browser. However, if you do not trust your machine randomness, you can also input your own entropy token. _Note that low entropy tokens are not valid._
 
 I was really not happy of being "HomelessCash"! :D So I just click on the dice icon to generate a new token and tap "Generate avatar" to get a new one
 
@@ -61,6 +65,7 @@ The token will live in your browser memory for some time, so you still might hav
 It is best to write it down in paper... but that's a lot of work!! Most often it is good enough to simply copy it to clipboard and save it somewhere else. **If your browser crashes, your phone battery dies, or you lose connection during trading, you will need the token to log in again and continue with the trade!**
 
 ### Recovering a robot
+
 To recover a backed-up token, simply replace the token in the textbox and tap "Generate Robot". The site will greet you with "We found your Robot avatar. Welcome back!"
 
 ## Trade
@@ -88,11 +93,12 @@ On a smartphone, however, not all of the columns fit on the screen. The nickname
 </div>
 
 Another trick is to do a long tap or a swipe:
- -  On Avatar: you get Nickname and Activity status.
- -  On Amount: you get whether the maker is a seller or a buyer.
- -  On Currency: you get the preferred payment methods.
- -  On premium: you get the current exchange rate.
-Example of long tapping/swiping above the currency:
+
+- On Avatar: you get Nickname and Activity status.
+- On Amount: you get whether the maker is a seller or a buyer.
+- On Currency: you get the preferred payment methods.
+- On premium: you get the current exchange rate.
+  Example of long tapping/swiping above the currency:
 
 <div align="center">
 <img src="/assets/images/how-to-use/book-tap-1.png"  width="370" />
@@ -174,7 +180,7 @@ We can create the order exactly has we want it. But mind that you need to publis
 
 In the maker page you are only required to enter the currency, order type (buy/sell) and amount. However, it is best practice to specify the payment methods you allow. It might be also helpful to set a premium/discount for your order to be taken faster. Remember that as a seller you can incentivze buyers to take your order by lowering the premium. If there are too many buyers, however, you can increase the premium to have a trading profit. Alternatively, you can set a fixed amount of Satoshis.
 
-*Limits: in Robosats v0.1.0 an order cannot be smaller than {{site.robosats.min_trade_limit}} Satoshis. It cannot be larger than {{site.robosats.max_trade_limit}} Satoshis in order to avoid lightning routing failures. This limit will be increased in the future.*
+_Limits: in Robosats v0.1.0 an order cannot be smaller than {{site.robosats.min_trade_limit}} Satoshis. It cannot be larger than {{site.robosats.max_trade_limit}} Satoshis in order to avoid lightning routing failures. This limit will be increased in the future._
 
 <div align="center">
 <img src="/assets/images/how-to-use/contract-box-7.png"  width="370" />
@@ -188,7 +194,7 @@ You have to copy or scan the invoice with your lightning wallet in order to lock
 
 Your order will be public for {{site.robosats.hours_public_default}} hours. You can check the time left to expiration by checking the "Order" tab. It can be canceled at any time without penalty before it is taken by another robot. Keep the contract tab open to be notified [with this sound](https://github.com/RoboSats/robosats/raw/main/frontend/static/assets/sounds/taker-found.mp3). It might be best to do this on a desktop computer and turn on the volume, so you do not miss when your order is taken. It might take long! Maybe you even forget! You can also enable telegram notifications by pressing "Enable Telegram Notification" and then pressing "Start" in the chat. You will receive a welcome message as confirmation of the enabled notifications. Another message will be sent once a taker for your order is found.
 
-*Note: If you forget your order and a robot takes it and locks his fidelity bond, you risk losing your own fidelity bond by not fulfilling the next contract steps.*
+_Note: If you forget your order and a robot takes it and locks his fidelity bond, you risk losing your own fidelity bond by not fulfilling the next contract steps._
 
 In the contract tab you can also see how many other orders are public for the same currency. You can also see how well does your premium ranks among all other orders for the same currency.
 
@@ -240,7 +246,7 @@ This is totally not recommended, one of the two traders would lose his fidelity 
 
 ## Disputes
 
-Misunderstandings happen. But also, there might be people willing to try to scam others. In this case *MakeshiftSource875* thought he could get away by not confirming he received the fiat, as if he was going to be able to keep the satoshis.
+Misunderstandings happen. But also, there might be people willing to try to scam others. In this case _MakeshiftSource875_ thought he could get away by not confirming he received the fiat, as if he was going to be able to keep the satoshis.
 
 <div align="center">
 <img src="/assets/images/how-to-use/contract-box-16.png"  width="370" />

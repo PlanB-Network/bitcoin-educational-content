@@ -1,23 +1,20 @@
---- 
+---
 Builder: DécouvreBitcoin
 
-Tag: 
+Tag:
   - exchange
   - education
 
 difficulty: beginners
-
 ---
-
-![cover](assets/0.jpeg)
 
 # Guide on how to buy - sell bitcoin
 
-TLDR: 
+TLDR:
 
-* You must decide if you want to be KYC or not (you shouldn't)
-* You must decide if you want to all in, use leverage or juste DCA
-* You must remove your coin frome exchanges ASAP
+- You must decide if you want to be KYC or not (you shouldn't)
+- You must decide if you want to all in, use leverage or juste DCA
+- You must remove your coin frome exchanges ASAP
 
 ## information to know before starting
 
@@ -37,5 +34,3 @@ As a rule of thumb:
     Dollar-Cost Averaging (DCA) is a good strategy.
     Automatically withdrawing funds to your wallet is beneficial.
     Peer-to-peer exchanges are highly recommended.
-
-    

@@ -1,13 +1,9 @@
 ---
-
 builder: Paymium
 
-tag: 
+tag:
   - exchange
   - KYC
 
 difficulty: intermediary
-
 ---
-
-![cover](assets/0.jpeg)

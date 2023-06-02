@@ -3,16 +3,13 @@ builder: Breez
 
 difficulty: intermediary
 
-tag: 
+tag:
   - wallet
   - lightning
   - infrasctructure
-
 ---
 
 # Breez: non-custodial Lightning client.
-
-![cover](assets/0.jpeg)
 
 To find all the importante information please refer to their extensive guide: https://doc.breez.technology/
 
@@ -26,8 +23,7 @@ Breez includes a Point-of-Sale mode, which transforms the app from a Lightning w
 
 Note: the app is still in beta and there is a chance your money will be lost. Only use this app if you are willing to take this risk.
 
-
-## Tutoriel Video 
+## Tutoriel Video
 
 (FR https://youtu.be/LNNsGbq1JSs)
 
@@ -35,4 +31,4 @@ Note: the app is still in beta and there is a chance your money will be lost. On
 
 ## Guide
 
-We don't have a writing guide so far/ If you want to contribute let's do it. 
+We don't have a writing guide so far/ If you want to contribute let's do it.

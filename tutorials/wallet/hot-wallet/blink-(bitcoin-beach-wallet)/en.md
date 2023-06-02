@@ -1,18 +1,19 @@
 tuto eng blixt
 
-
 ---
+
 builder: Galoy
 
 difficulty: Beginners
 
-tag: 
-  - wallet
-  - lightning
-  - open-source
+tag:
+
+- wallet
+- lightning
+- open-source
 
 ---
-![cover](assets/0.jpeg)
+
 # Blink - The everyday bitcoin wallet
 
 Bitcoin Beach Wallet is getting a new name and many new features
@@ -22,6 +23,4 @@ BBW is an open source custodial Lightning wallet born on Bitcoin Beach and desig
 
 ![Tutoriel by BTC Session](https://youtu.be/q3QwxCd1EZE)
 
-
 ## Writing tutoriel
-

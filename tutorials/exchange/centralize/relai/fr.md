@@ -1,14 +1,12 @@
 ---
 builder: relai
 
-difficulty: beginner 
-tag: 
-    - exchange
-    - DCA
-    - bitcoin-only
+difficulty: beginner
+tag:
+  - exchange
+  - DCA
+  - bitcoin-only
 ---
-
-![cover](assets/0.jpeg)
 
 # Tutoriel DCA – Relai
 
@@ -20,6 +18,5 @@ Si tu souhaites soutenir le projet et économiser en frais, tu peux cliquer just
 Stack KYC free
 
 Merci de soutenir ce projet 100% gratuit 🙂
-
 
 https://www.youtube.com/watch?v=sAPx1waWa1s

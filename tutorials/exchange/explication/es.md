@@ -1,26 +1,22 @@
---- 
+---
 Builder: DécouvreBitcoin
 
-Tag: 
+Tag:
   - exchange
   - education
 
 difficulty: beginners
-
 ---
-
-![cover](assets/0.jpeg)
 
 # Guía sobre cómo comprar - vender bitcoin
 
-TLDR: 
+TLDR:
 
-* Debes decidir si quieres ser KYC o no (no deberías)
-* Debes decidir si quieres entrar a fondo, usar apalancamiento o simplemente DCA
-* Debes retirar tus monedas de los exchanges lo más pronto posible
+- Debes decidir si quieres ser KYC o no (no deberías)
+- Debes decidir si quieres entrar a fondo, usar apalancamiento o simplemente DCA
+- Debes retirar tus monedas de los exchanges lo más pronto posible
 
 ## información que debes saber antes de empezar
-
 
 Intercambios
 

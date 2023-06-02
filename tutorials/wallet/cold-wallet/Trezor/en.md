@@ -3,17 +3,12 @@ name: Trezor Model ONE
 
 builder: Trezor
 
-tag: 
-    - wallet
-    - Open source
-    
+tag:
+  - wallet
+  - Open source
 ---
 
-![cover](assets/0.jpeg)
-
 # Trezor model ONE
-
-
 
 Trezor model One
 
@@ -26,8 +21,6 @@ We have already made tutorials on how to use it :
 1. Setting it up
 2. Recovering bitcoins
 3. Using, sending and receiving bitcoins
-
- 
 
 Would you like to have your own Trezor too?
 You can contribute to the project by clicking below !

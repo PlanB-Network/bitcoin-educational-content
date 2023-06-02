@@ -1,26 +1,22 @@
---- 
+---
 Builder: DécouvreBitcoin
 
-Tag: 
+Tag:
   - exchange
   - education
 
 difficulty: beginners
-
 ---
-
-![cover](assets/0.jpeg)
 
 # Guide sur comment acheter - vendre des bitcoins
 
 TLDR :
 
-* Vous devez décider si vous voulez être KYC ou non (vous ne devriez pas)
-* Vous devez décider si vous voulez tout investir d'un coup, utiliser l'effet de levier ou simplement DCA
-* Vous devez retirer vos Bitcoin des échanges le plus tôt possible
+- Vous devez décider si vous voulez être KYC ou non (vous ne devriez pas)
+- Vous devez décider si vous voulez tout investir d'un coup, utiliser l'effet de levier ou simplement DCA
+- Vous devez retirer vos Bitcoin des échanges le plus tôt possible
 
 ## informations à connaître avant de commencer
-
 
 Plateformes d'échange
 

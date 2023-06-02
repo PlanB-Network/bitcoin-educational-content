@@ -1,15 +1,12 @@
---- 
-
+---
 Builder: Bull Bitcoin
 
-Tag: 
+Tag:
   - exchange
   - KYC
   - Non-KYC
 
 difficulty: intermediary
-
 ---
 
-![cover](assets/0.jpeg)
 # Bull Bitcoin

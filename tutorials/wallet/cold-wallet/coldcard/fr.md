@@ -6,28 +6,23 @@ difficulty: advanced
 tag:
   - wallet
   - Open-source
-
 ---
 
-![cover](assets/0.jpeg)
+# ColdCard
 
-# ColdCard 
-
- Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
+Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
 
 ## Guide complet pour générer une clé privée à l'aide d'une Coldcard et son utilisation via l'interface de votre noeud Bitcoin Core !
 
-
 _**Guide créé par WINTER ☩ HODLER dans le cadre de Agora256. Licence libre. Merci pour son partage**_
 
-
-À la base de l'utilisation du réseau Bitcoin se trouve le concept de cryptographie asymétrique :  un couple de clés – l'une privée et l'autre publique – ayant comme fonction de chiffrer et déchiffrer des données, un concept permettant d'assurer la confidentialité d'une communication.
+À la base de l'utilisation du réseau Bitcoin se trouve le concept de cryptographie asymétrique : un couple de clés – l'une privée et l'autre publique – ayant comme fonction de chiffrer et déchiffrer des données, un concept permettant d'assurer la confidentialité d'une communication.
 
 Dans le cas de Bitcoin, c'est en générant un tel couple de clé privée & publique que nous sommes en mesure de stocker des bitcoins (UTXO ou Unspent Transaction Output) et de signer des transactions afin de dépenser ces derniers.
 
 Aujourd'hui, de multiples outils existent pour faciliter la génération aléatoire d'une clé privée et de sa sauvegarde sous forme textuelle à l'aide du BIP 39 – un standard déterminant comment les portefeuilles associent une phrase mnémonique (seed phrase) aux clés de chiffrement. Plus souvent qu'autrement, la phrase mnémonique se trouve sous forme de 12 ou 24 mots, lesquels il faut absolument sauvegarder de façon sécuritaire afin de se permettre de récupérer un portefeuille et ses bitcoins.
 
-Dans cet article, nous allons apprendre à générer une clé privée à l'aide d'une Coldcard Mk4, l'un des appareils les plus répandus et sécuritaires dans le monde du Bitcoin, en se servant de la méthode du lancement de dés (Dice roll) pour garantir un maximum d'entropie, et à l'utiliser avec Bitcoin Core de façon étanche (air-gapped) ! 
+Dans cet article, nous allons apprendre à générer une clé privée à l'aide d'une Coldcard Mk4, l'un des appareils les plus répandus et sécuritaires dans le monde du Bitcoin, en se servant de la méthode du lancement de dés (Dice roll) pour garantir un maximum d'entropie, et à l'utiliser avec Bitcoin Core de façon étanche (air-gapped) !
 
     🧰|  Munissez-vous des outils suivant pour suivre le guide :
       - Appareil Coldcard (Mk3 ou Mk4)
@@ -44,7 +39,7 @@ Nous allons entamer le processus de création de clé privée depuis le début e
 
     *Attention* : votre Coldcard oubliera la clé privée à la suite de ces étapes. Assurez-vous d'avoir bien sauvegardé votre phrase mnémonique si vous voulez pouvoir la récupérer ultérieurement.
 
-## Étapes à suivre : 
+## Étapes à suivre :
 
 Connexion à la Coldcard avec NIP > New Seed Words > 24 Word Dice Roll
 
@@ -77,17 +72,15 @@ Passphrase > Add Words (recommandé) > Apply. L'appareil affichera le XFP du por
     https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/
     https://armantheparman.com/passphrase/
 
-
 ## Exportation du portefeuille vers Bitcoin Core
 
 Le portefeuille est maintenant prêt à être exporté sur un logiciel afin de pouvoir interagir avec le réseau Bitcoin. Dans ce guide, nous allons utiliser Bitcoin Core (v24.1).
 
-  Référez-vous à nos guides d'installation et configuration de Bitcoin Core :
+Référez-vous à nos guides d'installation et configuration de Bitcoin Core :
 
       Faire tourner son propre noeud avec Bitcoin Core - https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/
 
       Configuration de Tor pour un nœud Bitcoin Core - https://agora256.com/configuration-tor-bitcoin-core/
-
 
 D'abord, insérez une carte micro SD dans la Coldcard, puis exportez le portefeuille pour Bitcoin Core en suivant ces étapes : Advanced/Tools > Export Wallet > Bitcoin Core. Deux fichiers seront inscrit sur la carte micro SD : bitcoin-core.sig & bitcoin-core.txt. Insérez la carte micro SD dans l'ordinateur sur lequel est installé Bitcoin Core, et ouvrez le fichier .txt. Vous verrez la ligne For wallet with master key fingerprint. Vérifiez que le XFP de huit caractères correspond bien à celui que vous avez noté lors de la création de votre clé privée.
 
@@ -127,9 +120,9 @@ Avant de procéder, assurez-vous que les options suivantes sont activées dans P
 
 ![option ](assets/guide-agora/5.png)
 
-### Étapes pour envoyer en mode air-gapped : 
+### Étapes pour envoyer en mode air-gapped :
 
-Envoyer >  Inputs > choisir le utxo désiré, puis saisir l'adresse du destinataire dans Payer à. Frais de transaction : Choisir... > Personnalisés > Saisir les frais de transaction (Bitcoin Core calcul en sats/kilo-octet plutôt que sat/octet comme la plupart des solutions de portefeuille alternatives. Ainsi 4000 sats/kilo-octet = 4 sats/octet). Créer une transaction non-signée  > sauvegarder le fichier dans votre carte microSD et insérez cette dernière dans la Coldcard.
+Envoyer > Inputs > choisir le utxo désiré, puis saisir l'adresse du destinataire dans Payer à. Frais de transaction : Choisir... > Personnalisés > Saisir les frais de transaction (Bitcoin Core calcul en sats/kilo-octet plutôt que sat/octet comme la plupart des solutions de portefeuille alternatives. Ainsi 4000 sats/kilo-octet = 4 sats/octet). Créer une transaction non-signée > sauvegarder le fichier dans votre carte microSD et insérez cette dernière dans la Coldcard.
 
 Dans la Coldcard, appuyez sur Ready to sign, vérifiez les détails de la transaction puis appuyez sur ✓et remettez la carte microSD dans l'ordinateur une fois les fichiers signés générés.
 
@@ -141,6 +134,6 @@ De retour sur Bitcoin Core, allez dans l'onglet Fichier > Charger la TBSP d'un f
 
 La combinaison de l'appareil Coldcard avec Bitcoin Core, sur lequel vous roulez votre propre noeud, est puissante. Ajoutez à cela une clé privée générée avec 100 lancés de dé ainsi qu'une une phrase secrète, et votre configuration de portefeuille devient une forteresse sophistiquée et robuste.
 
-N'hésitez pas à nous contacter pour nous partager tous vos commentaires et questions ! Notre objectif est de partager nos connaissances et d'accroître notre savoir jour après jour. 
+N'hésitez pas à nous contacter pour nous partager tous vos commentaires et questions ! Notre objectif est de partager nos connaissances et d'accroître notre savoir jour après jour.
 
 Orginal: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/

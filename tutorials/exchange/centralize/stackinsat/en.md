@@ -1,15 +1,13 @@
 ---
 builder: StackinSat
 
-difficulty: beginner 
+difficulty: beginner
 
-tag: 
-    - exchange
-    - DCA
-    - bitcoin-only
-    - KYC
+tag:
+  - exchange
+  - DCA
+  - bitcoin-only
+  - KYC
 ---
-![cover](assets/0.jpeg)
-
 
 # Tutoriel DCA – StackinSat

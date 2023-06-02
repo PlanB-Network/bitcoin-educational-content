@@ -3,23 +3,20 @@ builder: DecouvreBitcoin
 
 name: Attakai
 
-tag: 
-    - mining 
-    - DIY
+tag:
+  - mining
+  - DIY
 
 difficulty: advanced
 ---
-
-![cover](assets/overview/0.jpg)
 
 # Attakai - le home-mining rendu possible et accessible !
 
 L'initiative "Attakaï" explore le minage de Bitcoin en utilisant la chaleur générée. Le guide propose des solutions pour rendre les mineurs adaptés à une utilisation en tant que radiateurs dans les logements, offrant ainsi plus de confort et d'économies d'énergie. Le Bitcoin ajuste automatiquement la difficulté du minage et récompense les mineurs pour leur travail. Cependant, la concentration du hashrate peut poser des risques pour la neutralité du réseau. "Attakaï" offre un guide pratique pour rétrofitter les mineurs de manière économique, permettant aux participants de réduire leur facture d'électricité et d'être récompensés avec des sats sans KYC.
 
-## Introduction 
+## Introduction
 
 “Attakaï », qui signifie « la température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur lancée par @ajelexBTC et @BlobOnChain avec Découvre Bitcoin. Ce guide de retrofitting d’un ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
-
 
 ### Pourquoi réutiliser la chaleur d’un ASIC ?
 
@@ -29,9 +26,7 @@ Pour un investissement de 1 kW d’énergie électrique, un radiateur électriqu
 
 Un ordinateur, ou plus largement une carte électronique, ne consomme pas d’énergie pour effectuer des calculs, il a simplement besoin que de l’énergie circule dans ses composants pour fonctionner. La consommation d’énergie est dû à la résistance électrique des composants qui produit des pertes créant ainsi de la chaleur c’est ce qu’on appel l’effet joule.
 
-Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. La besoin des serveurs n’est pas liée au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.		
-
-![cover](assets/overview/1.png)
+Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. La besoin des serveurs n’est pas liée au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.
 
         “La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générer cette chaleur avec votre ordinateur.Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double.
         La création de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où le chauffage est électrique, où miner deviendrait gratuit.”
@@ -50,14 +45,10 @@ Nous ne rentrerons pas dans les détails du fonctionnement du minage ici (ressou
 Plusieurs technologies déjà existantes ont été ingénieusement combinées pour donner vie au consensus de Nakamoto. Ce consensus permet de récompenser économiquement les acteurs honnêtes pour leur participation au fonctionnement du réseau Bitcoin, tout en décourageant les acteurs malhonnêtes. C’est l’un des points clés qui permet au réseau d’exister de façon durable.
 Les acteurs honnêtes, ceux qui effectuent du minage selon les règles, sont tous en concurrence les uns avec les autres pour obtenir la plus grande part possible de la récompense pour la production de nouveaux blocs. Cette incitation économique conduit naturellement à une forme de centralisation car des entreprises choisissent de se spécialiser dans cette activité lucrative en réduisant leurs coûts grâce aux économies d’échelle. Ces acteurs industriels ont une position avantageuse, pour l’achat, la maintenance de machines mais aussi pour la négociation de tarifs d’électricité de gros.
 
-![cover](assets/overview/2.png)
-
-        “Au début, la plupart des utilisateurs exécuteraient des nœuds de réseau, mais à mesure que le réseau se développerait au-delà d’un certain point, il serait de plus en plus laissé aux spécialistes avec des fermes de serveurs de matériel spécialisé. Une batterie de serveurs n’aurait besoin que d’un seul nœud sur le réseau et le reste du LAN se connecte à ce nœud.” 
+        “Au début, la plupart des utilisateurs exécuteraient des nœuds de réseau, mais à mesure que le réseau se développerait au-delà d’un certain point, il serait de plus en plus laissé aux spécialistes avec des fermes de serveurs de matériel spécialisé. Une batterie de serveurs n’aurait besoin que d’un seul nœud sur le réseau et le reste du LAN se connecte à ce nœud.”
         - Satoshi Nakamoto – 2 novembre 2008
 
 Certaines entités détiennent un pourcentage considérable du hashrate total dans de grandes fermes de minage. On peut observer la récente vague de froid aux États-Unis où une partie importante du hashrate a été mise hors ligne pour permettre à l’énergie d’être redirigée vers les foyers ayant un besoin exceptionnel d’électricité. Pendant plusieurs jours, les mineurs ont été incités économiquement à éteindre leurs fermes et on peut donc voir cette météo exceptionnelle sur la courbe du hashrate de Bitcoin.
-
-![cover](assets/overview/3.png)
 
 Ce sujet pourrait devenir problématique et apporte un risque important pour la neutralité du réseau. Un acteur possédant plus de 51% du hashrate pourrait plus facilement censurer des transactions s’il le souhaitait. C’est pourquoi il est important de distribuer le hashrate entre de multiples acteurs plutôt que dans des entités centralisées qui pourraient être plus facilement saisies par un gouvernement, par exemple.
 
@@ -65,10 +56,9 @@ Ce sujet pourrait devenir problématique et apporte un risque important pour la 
 
 À sa sortie d’usine, un mineur n’est pas approprié pour servir de radiateur dans un logement, en raison de deux problèmes principaux : un bruit excessif et l’absence de réglage. Cependant, ces problèmes peuvent être facilement résolus grâce à des modifications simples réalisées au hardware et au software, permettant d’obtenir un mineur beaucoup plus silencieux et pouvant être paramétré et automatisé comme les chauffages électriques modernes.
 
-**Attakaï est une initiative éducative qui vous apprend à effectuer un retrofitting de l’Antminer S9 de la manière la plus économique possible.** 
+**Attakaï est une initiative éducative qui vous apprend à effectuer un retrofitting de l’Antminer S9 de la manière la plus économique possible.**
 
 C’est une excellente opportunité pour apprendre en pratiquant. En plus de réduire votre facture d’électricité, vous êtes récompensé pour votre participation par des sats KYC free.
-
 
 ## Chapitre 1 : Guide d’achat pour un ASIC d’occasion
 
@@ -78,32 +68,33 @@ Le Antminer S9 est un appareil proposé par Bitmain depuis mai 2016. Il consomme
 
 Le Antminer S9 existe en plusieurs déclinaisons (i,j) qui apportent des modifications mineures au matériel de première génération. Nous ne pensons pas que cet élément devrait orienter votre décision d’achat et ce guide fonctionnera pour toutes ces déclinaisons.
 
-Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptible de changer très rapidement		 				 				 				 			
+Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptible de changer très rapidement
 
 ![image](assets/guide-achat/1.png)
 
 Le Antminer S9 est composé des parties suivantes :
--	3 hashboards où sont les puces qui produisent le hachage
+
+- 3 hashboards où sont les puces qui produisent le hachage
 
 ![image](assets/guide-achat/2.png)
 
--	Une carte de contrôle comprenant un emplacement pour une carte SD, un port Ethernet et des connecteurs pour les hashboards et les ventilateurs. C’est le cerveau de votre ASIC.
+- Une carte de contrôle comprenant un emplacement pour une carte SD, un port Ethernet et des connecteurs pour les hashboards et les ventilateurs. C’est le cerveau de votre ASIC.
 
 ![image](assets/guide-achat/3.png)
 
--	3 câbles de data qui connectent les hashboards avec la carte de contrôle		
+- 3 câbles de data qui connectent les hashboards avec la carte de contrôle
 
 ![image](assets/guide-achat/4.png)
 
--	L’alimentation qui fonctionne en 220V et peut donc être branchée comme un appareil ménager classique			
+- L’alimentation qui fonctionne en 220V et peut donc être branchée comme un appareil ménager classique
 
 ![image](assets/guide-achat/5.jpeg)
 
--	2 ventilateurs de 120mm
+- 2 ventilateurs de 120mm
 
 ![image](assets/guide-achat/6.jpeg)
 
--	Un cable C13 mâle
+- Un cable C13 mâle
 
 ![image](assets/guide-achat/7.png)
 
@@ -138,7 +129,7 @@ Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser
 ![image](assets/piece/2.png)
 ![image](assets/piece/3.png)
 
-Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Nous recommandons le Noctua NF-A6x25 PWM. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffirons. Attention ici aussi à bien choisir la version 12V du ventilateur. 
+Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Nous recommandons le Noctua NF-A6x25 PWM. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffirons. Attention ici aussi à bien choisir la version 12V du ventilateur.
 
 ![image](assets/piece/4.png)
 ![image](assets/piece/5.png)
@@ -156,25 +147,23 @@ Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et mo
 
 ![image](assets/piece/8.png)
 
-
     Liste du matériel et liens
 
         - 2X pièce 3D adapteur 140mm vers 120mm
-        
+
         - 2X NF-A14 iPPC-2000 PWM https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2
 
         -	2X Grilles de ventilateurs 140mm https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details
         -	Noctua NF-A6x25 PWM https://www.amazon.fr/
         Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ
-       
+
         -	Sucre d’électricien 2,5mm2 https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1
-       
+
         -	Vonets vap11g-300 https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
-       
+
         -	Optionnel prise connectée ANTELA https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1
 
-
-## Chapitre 3 -  TUTORIEL : Comment transformer un mineur en chauffage ? 
+## Chapitre 3 - TUTORIEL : Comment transformer un mineur en chauffage ?
 
 ![image](assets/hardwear/0.jpeg)
 
@@ -183,14 +172,15 @@ En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur d
 
         ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.
 
-### Matériels nécessaires 
--	2 pièces 3D adapteur 140mm vers 120mm
--	2 ventilateurs Noctua NF-A14 iPPC-2000 PWM
--	2 grilles de ventilateurs 140mm
--	1 ventilateur Noctua NF-A6x25 PWM
--	Sucre d’électricien 2,5mm2
--	Vonets VAP11G-300
--	Optionnel : prise connectée ANTELA
+### Matériels nécessaires
+
+- 2 pièces 3D adapteur 140mm vers 120mm
+- 2 ventilateurs Noctua NF-A14 iPPC-2000 PWM
+- 2 grilles de ventilateurs 140mm
+- 1 ventilateur Noctua NF-A6x25 PWM
+- Sucre d’électricien 2,5mm2
+- Vonets VAP11G-300
+- Optionnel : prise connectée ANTELA
 
 ### Remplacement des ventilateurs
 
@@ -200,8 +190,6 @@ Nous allons commencer par remplacer le ventilateur de l’alimentation.
 
 ![image](assets/hardwear/1.jpeg)
 
-
-
 Nous allons commencer par remplacer le ventilateur de l’alimentation.
 
 Tout d’abord, retirez les 6 vis sur le côté du boîtier qui le maintiennent fermé. Une fois les vis retirées, ouvrez délicatement le boîtier pour retirer la protection plastique qui recouvre les composants.
@@ -209,9 +197,7 @@ Tout d’abord, retirez les 6 vis sur le côté du boîtier qui le maintiennent 
 ![image](assets/hardwear/2.png)
 ![image](assets/hardwear/3.png)
 
-
-
-Ensuite, il est temps de retirer le ventilateur d’origine en prenant soin de ne pas endommager les autres composants. Pour ce faire, retirez les vis qui le maintiennent en place et décollez délicatement la colle blanche qui entoure le connecteur. Il est important de procéder avec délicatesse pour éviter d’endommager les fils ou les connecteurs.			
+Ensuite, il est temps de retirer le ventilateur d’origine en prenant soin de ne pas endommager les autres composants. Pour ce faire, retirez les vis qui le maintiennent en place et décollez délicatement la colle blanche qui entoure le connecteur. Il est important de procéder avec délicatesse pour éviter d’endommager les fils ou les connecteurs.
 
 ![image](assets/hardwear/4.png)
 
@@ -224,7 +210,7 @@ Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder a
 ![image](assets/hardwear/6.jpeg)
 ![image](assets/hardwear/7.jpeg)
 
-Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les contours de la gaine principale à 1cm sans coupez les gaines des câbles en dessous. 
+Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les contours de la gaine principale à 1cm sans coupez les gaines des câbles en dessous.
 
 ![image](assets/hardwear/8.jpeg)
 
@@ -232,90 +218,75 @@ Puis en tirant la gaine principale vers le bas, coupez les gaines des câble rou
 
 ![image](assets/hardwear/9.jpeg)
 
-Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des files rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs. 
+Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des files rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs.
 
 ![image](assets/hardwear/10.jpeg)
 ![image](assets/hardwear/11.jpeg)
-
 
 Une fois les fils rouges et noirs dégagés, coupez les gaines toujours délicatement pour ne pas abîmer les fils électriques.
 
 ![image](assets/hardwear/12.jpeg)
 
- Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
+Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
 
 ![image](assets/hardwear/13.jpeg)
 ![image](assets/hardwear/14.jpeg)
 
-
-
-Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisé plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur. 
+Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisé plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur.
 
 ![image](assets/hardwear/15.png)
 ![image](assets/hardwear/16.png)
-
 
         Optionnel : Si vous êtes compétent en électricité, vous pouvez ajouter directement sur la sortie d’alimentation 12V un connecteur jack 5,5 mm femelle qui permettra d’alimenter directement le bridge Wi-Fi Vonet. Cependant, si vous n’êtes pas sûr de vos compétences en électricité, il est préférable d’utiliser le connecteur USB avec un chargeur de type smartphone pour éviter tout risque de court-circuit ou de dommage électrique.
 
 ![image](assets/hardwear/17.jpeg)
 
-
 Une fois les branchements effectués, remettez bien le plastique du couvercle par-dessus le plastique du boîtier et pas à l’intérieur.
 
 ![image](assets/hardwear/18.jpeg)
 
-
- Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
-
+Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
 
 ### Remplacement des 2 ventilateurs principaux
 
 1. Tout d’abord, débranchez les ventilateurs et dévissez-les.
-![image](assets/hardwear/19.jpeg)
-
+   ![image](assets/hardwear/19.jpeg)
 
 2. Les connecteurs des nouveaux ventilateurs Noctua ne correspondent pas à ceux d’origine, mais pas de panique ! Sortez votre cutter et coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
 
 ![image](assets/hardwear/20.jpeg)
 ![image](assets/hardwear/21.jpeg)
 
-
-3. C’est l’heure de l’installation des pièces 3D ! 
-Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis sous rentrer dans la pièce 3D et que celle-ci soit bien maintenu en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
+3. C’est l’heure de l’installation des pièces 3D !
+   Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis sous rentrer dans la pièce 3D et que celle-ci soit bien maintenu en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
 
 ![image](assets/hardwear/22.jpeg)
 
-
-4. Passons maintenant aux ventilateurs. 
-Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
+4. Passons maintenant aux ventilateurs.
+   Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
 
 ![image](assets/hardwear/23.jpeg)
 ![image](assets/hardwear/24.jpeg)
 ![image](assets/hardwear/25.jpeg)
-
 
 5. Dernière étape : branchez les ventilateurs et fixez les grilles par-dessus avec les vis qui n’ont pas été utilisées dans la boîte du ventilateur de l’alimentation. Vous en avez seulement 4 mais 2 par grille dans des angles opposés suffiront. Vous pouvez également chercher d’autres vis similaires dans un magasin de bricolage si besoin.
 
 ![image](assets/hardwear/26.jpeg)
 ![image](assets/hardwear/27.jpeg)
 
-
 En attendant de pouvoir offrir un casing plus sexy à votre nouveau chauffage, vous pouvez attacher le boîtier et l’alimentation ensemble avec des colliers de serrage d’électricien.
 
 ![image](assets/hardwear/28.jpeg)
 
- Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son alimentation. Si ce n’est pas encore fait, vous pouvez suivre ce tutoriel pour paramétrer votre bridge.
+Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son alimentation. Si ce n’est pas encore fait, vous pouvez suivre ce tutoriel pour paramétrer votre bridge.
 
- ![image](assets/hardwear/29.jpeg)
-
+![image](assets/hardwear/29.jpeg)
 
 Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
 
 ## Chapitre 4 - Modification du softwear - Réinitialiser un Antminer S9
 
 **Série d’articles proposée par BlobOnChain & Ajelex – 15/02/2023**
-
-![cover](assets/softwear/0.jpg)
 
 ### Réinitialiser via le bouton « Reset »
 
@@ -346,11 +317,11 @@ Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en uti
 
 Le système d’exploitation principal est relativement basique. Avec les 4 onglets : System, Miner Configuration, Miner Status, Network. Dans l’onglet Miner Configuration vous pouvez configurer jusqu’à 3 pools de minage.
 
- ![image](assets/softwear/3.png)
+![image](assets/softwear/3.png)
 
 Dans l’onglet Miner Status vous pourrez observer différentes informations sur le fonctionnement de l’ASIC en direct. Le hashrate exprimé en GH/s, des informations plus précises sur la pool ainsi qu’un détail sur le statut de chaque hashboard et la vitesse des ventilateurs en rotations/minute.
 
- ![image](assets/softwear/4.png)
+![image](assets/softwear/4.png)
 
 ### Braiins OS+
 
@@ -358,9 +329,9 @@ Maintenant, nous allons étudier le logiciel pour ASICs Braiins OS+(https://brai
 
 Nous allons donc étudier plus en détail le fonctionnement des appareils de la marque Bitmain qui sont pour l’instant les seuls modèles compatibles :
 
-* S19, S19 Pro, S19j, S19j Pro, T19,
+- S19, S19 Pro, S19j, S19j Pro, T19,
 
-* 17, S17 Pro, S17+, S17e, T17, T17+, T17e & S9 [i, j]
+- 17, S17 Pro, S17+, S17e, T17, T17+, T17e & S9 [i, j]
 
 Le logiciel Braiins OS peut être installé assez simplement sur toutes les machines citées ci-dessus. Il permettra un contrôle plus précis d’une machine en permettant de l’overclocker sur-cadençage ou de l’underclocker sous-cadençage. Il permet également un réglage fin de la fréquence de chaque puce grâce à une fonctionnalité d’optimisation automatique appelée l’autotuning. Comme chaque puce de hachage est légèrement différente du fait de son procédé de fabrication, le logiciel teste la fréquence optimale pour chacune d’entre elles afin d’obtenir une efficience (W/THs) maximum. Le logiciel annonce des performances pouvant être supérieures de 25% à celles d’origine. Selon nos mesures il est possible d’atteindre ces figures.
 
@@ -375,13 +346,11 @@ Découvrez comment installer facilement Braiins OS+ directement sur la mémoire 
 2. Télécharger BOS toolbox Windows / Linux
 3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
 
- ![image](assets/softwear/5.png)
-
+![image](assets/softwear/5.png)
 
 4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
 
-  ![image](assets/softwear/6.png)
-
+![image](assets/softwear/6.png)
 
 5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
 
@@ -389,25 +358,22 @@ Découvrez comment installer facilement Braiins OS+ directement sur la mémoire 
 
 7. Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
 
-  ![image](assets/softwear/7.png)
-
+![image](assets/softwear/7.png)
 
 8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
-Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
+   Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
 
- ![image](assets/softwear/8.png)
-
+![image](assets/softwear/8.png)
 
 9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
-Installation de Braiins OS+ sur une carte SD
+   Installation de Braiins OS+ sur une carte SD
 
- ![image](assets/softwear/9.png)
- 
- ![image](assets/softwear/10.png)
+![image](assets/softwear/9.png)
+
+![image](assets/softwear/10.png)
 
 La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette méthode fonctionne pour les machines avec un système d’exploitation datant d’avant 2019.
 
- 
 ### Interface Antminer
 
 1. Télécharger le nouveau système d’exploitation à installer ici.
@@ -415,9 +381,8 @@ La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette
 3. Allez dans l’onglet System puis Upgrade
 4. Chargez le fichier que vous avez téléchargé et flashez l’image.
 
- ![image](assets/softwear/11.png)
+![image](assets/softwear/11.png)
 
- 
 ### Carte micro SD
 
 Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode fonctionne uniquement avec les machines avec un système d’exploitation datant d’après 2019.
@@ -428,17 +393,14 @@ Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode
 
 3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
 
- ![image](assets/softwear/12.png)
+![image](assets/softwear/12.png)
 
- ![image](assets/softwear/13.png)
-
- 
+![image](assets/softwear/13.png)
 
 4. Insérez la carte micro SD dans l’ASIC.
 5. Démarrez l’ASIC. Si la version d’installation automatique a été utilisée, le nouveau système d’exploitation sera automatiquement installé. L’installation est terminée lorsque les deux LEDs s’allument au même moment. Vous pouvez redémarrer l’ASIC et retirer la carte micro SD. Si l’autre version a été téléchargée, vous devrez laisser la carte Micro SD à l’intérieur de l’ASIC.
 
 Pour plus d’informations sur l’installation, vous pouvez visiter cette section du site de Braiins.
-
 
 ## L’interface
 
@@ -446,43 +408,39 @@ Vous devrez vous connecter à votre ASIC de façon similaire. En utilisant l’a
 
 Les identifiants par défaut sont les mêmes que le système d’exploitation d’origine.
 
-* username: root
-* password: root
+- username: root
+- password: root
 
 Vous serez alors accueilli par le Dashboard de Brains OS+
 
 ### Dashboard
 
-  ![image](assets/softwear/14.png)
-
+![image](assets/softwear/14.png)
 
 Sur cette première pages vous pourrez observer les performances de votre machine en direct.
 
-* Trois graphiques en temps réel qui vous présente la température, le hashrate ainsi que le statut global de votre machine.
-* Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
-* Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
+- Trois graphiques en temps réel qui vous présente la température, le hashrate ainsi que le statut global de votre machine.
+- Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
+- Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
 
+![image](assets/softwear/15.png)
 
- ![image](assets/softwear/15.png)
-
-* Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
-* Un détail sur les pools de minage active dans Pools.
-* Le statut de l’autotuning dans Tuner Status.
-* Sur la droite des détails sur les parts transmises à la pool.
+- Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
+- Un détail sur les pools de minage active dans Pools.
+- Le statut de l’autotuning dans Tuner Status.
+- Sur la droite des détails sur les parts transmises à la pool.
 
 ### Configuration
 
- ![image](assets/softwear/16.png)
-
+![image](assets/softwear/16.png)
 
 ### System
 
- ![image](assets/softwear/17.png)
+![image](assets/softwear/17.png)
 
 ### Quick actions
 
- ![image](assets/softwear/18.png)
-
+![image](assets/softwear/18.png)
 
 Configuration d’une pool
 
@@ -496,26 +454,23 @@ Les considérations à avoir en choisissant une pool de minage sont le fonctionn
 
 Le modèle de récompense qui nous intéresse est le PPS, qui signifie « pay-per-share ». Cela signifie que le mineur recevra une récompense pour chaque partage valide. Il existe également une variante de ce système, le FPPS (Full Pay Per Share), qui divise non seulement la récompense de la coinbase, mais aussi les frais de transaction inclus dans le bloc. Les pools de minage que nous vous recommandons pour connecter votre minage/chauffage sont Linecoin Pool (FPPS) et Nicehash (PPS).
 
-* Nicehash : L’avantage de Nicehash est que le retrait peut être effectué en utilisant Lightning avec des frais minimes. De plus, le montant minimum de retrait est de 2000 sats. L’inconvénient est que Nicehash utilise son hashrate pour la blockchain la plus rentable, sans donner vraiment le contrôle à l’utilisateur et elle ne participe donc pas forcément au hashrate de Bitcoin.
+- Nicehash : L’avantage de Nicehash est que le retrait peut être effectué en utilisant Lightning avec des frais minimes. De plus, le montant minimum de retrait est de 2000 sats. L’inconvénient est que Nicehash utilise son hashrate pour la blockchain la plus rentable, sans donner vraiment le contrôle à l’utilisateur et elle ne participe donc pas forcément au hashrate de Bitcoin.
 
-* Lincoin : L’avantage de Linecoin est le nombre de fonctionnalités proposées, telles qu’un tableau de bord détaillé, la possibilité de faire des retraits avec un Paynym (BIP 47) pour une meilleure protection de la vie privée, et l’intégration d’un bot Telegram ainsi que des automatisations directement configurables dans l’application mobile. Cette pool ne mine que des blocs Bitcoin mais le montant minimum pour retirer reste élevé à 100 000 sats. Nous examinerons plus en détail l’interface d’une de ces pools dans un prochain article.
+- Lincoin : L’avantage de Linecoin est le nombre de fonctionnalités proposées, telles qu’un tableau de bord détaillé, la possibilité de faire des retraits avec un Paynym (BIP 47) pour une meilleure protection de la vie privée, et l’intégration d’un bot Telegram ainsi que des automatisations directement configurables dans l’application mobile. Cette pool ne mine que des blocs Bitcoin mais le montant minimum pour retirer reste élevé à 100 000 sats. Nous examinerons plus en détail l’interface d’une de ces pools dans un prochain article.
 
 Pour configurer une pool dans Braiins 0S+, il faudra créer un compte dans l’une des pool de votre choix. Ici nous allons prendre l’exemple de Lincoin :
 
-  ![image](assets/softwear/19.png)
-
+![image](assets/softwear/19.png)
 
 Une fois votre compte créé, cliquez sur Connect To Pool
 
 Ensuite copiez l’adresse Stratum ainsi que votre username :
 
- ![image](assets/softwear/20.png)
-
+![image](assets/softwear/20.png)
 
 Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rentrer ces identifiant. Pour le mot de passe, vous pouvez laisser le champ vide.
 
- ![image](assets/softwear/21.png)
-
+![image](assets/softwear/21.png)
 
 ### Overclocking et Underclocking
 

@@ -1,13 +1,11 @@
 ---
-tag: 
-    - mining
-    - do it yourself
+tag:
+  - mining
+  - do it yourself
 
 difficulty: intermediary
-
 ---
 
-![cover](assets/0.jpg)
 # Setting Up Your NerdMiner_v2
 
 In this guide, we will walk you through the steps needed to set up your NerdMiner_v2. By following these steps, you'll be able to get your system up and running in no time.
@@ -34,6 +32,7 @@ Return to the main project page and click on the link to the ESPTool web flasher
 
 ![](assets/screenshot3.jpg)
 ![](assets/screenshot4.jpg)
+
 ## Step 4: Connect your Device
 
 Connect your Lilygo T-display S3 to your PC or Smartphone, then follow the steps below:
@@ -45,12 +44,11 @@ Now, you can add the four previously downloaded files by clicking on the "ADD FI
 
 ![](assets/screenshot5.jpg)
 
-
 ## Step 5: Upload Files
 
-Add the files in the order shown below, making sure to correctly input the corresponding addresses. 
+Add the files in the order shown below, making sure to correctly input the corresponding addresses.
 
-Once done, click on "PROGRAM." 
+Once done, click on "PROGRAM."
 
 That's it! You just need to reboot and flash the QR code displayed on your ESP and follow the steps! Don't forget to add your WIFI and #Bitcoin address.
 
@@ -67,7 +65,7 @@ We also have a video guide on how to assemble your device: [[Video Guide Link]](
 
 ## Conclusion
 
-And there you have it! Your NerdMiner_v2 is now set up and ready to go. 
+And there you have it! Your NerdMiner_v2 is now set up and ready to go.
 
 This tutorial was written by SilexExperience. Many thanks to him!
 

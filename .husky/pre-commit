@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+set -e 
+
+[ "$SKIP_PRE_COMMIT" = 1 ] && exit 0
+
+. "$(dirname -- "$0")/_/husky.sh"
+
+pnpm lint-staged

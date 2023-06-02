@@ -1,5 +1,8 @@
 level: intermediate
 hours: 12
-teacher: Rogzy
+teacher:
+  - Jim
+  - Rogzy
+  - Ajelex
 contributors:
   - rabbit-hole

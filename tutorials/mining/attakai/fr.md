@@ -70,21 +70,21 @@ Le Antminer S9 existe en plusieurs déclinaisons (i,j) qui apportent des modific
 
 Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptible de changer très rapidement
 
-![image](assets/guide-achat/1.png)
+![image](assets/guide-achat/1.jpeg)
 
 Le Antminer S9 est composé des parties suivantes :
 
 - 3 hashboards où sont les puces qui produisent le hachage
 
-![image](assets/guide-achat/2.png)
+![image](assets/guide-achat/2.jpeg)
 
 - Une carte de contrôle comprenant un emplacement pour une carte SD, un port Ethernet et des connecteurs pour les hashboards et les ventilateurs. C’est le cerveau de votre ASIC.
 
-![image](assets/guide-achat/3.png)
+![image](assets/guide-achat/3.jpeg)
 
 - 3 câbles de data qui connectent les hashboards avec la carte de contrôle
 
-![image](assets/guide-achat/4.png)
+![image](assets/guide-achat/4.jpeg)
 
 - L’alimentation qui fonctionne en 220V et peut donc être branchée comme un appareil ménager classique
 
@@ -96,7 +96,7 @@ Le Antminer S9 est composé des parties suivantes :
 
 - Un cable C13 mâle
 
-![image](assets/guide-achat/7.png)
+![image](assets/guide-achat/7.jpeg)
 
 Lorsque vous achetez une machine d’occasion, il est important de vérifier que toutes les pièces sont incluses et fonctionnelles. Lors de l’échange, vous devriez demander au vendeur de mettre en marche la machine pour vérifier son bon fonctionnement. Il est important de vérifier que l’appareil s’allume correctement, puis de vérifier la connectivité à internet en branchant un câble Ethernet et en accédant à l’interface de connection de Bitmain via un navigateur internet sur le même réseau local. Vous pourrez trouver cette adresse IP en vous connectant à l’interface de votre routeur internet et en cherchant les appareils connectés. Cette adresse devrait avoir le format suivant : 192.168.x.x
 
@@ -104,7 +104,7 @@ Lorsque vous achetez une machine d’occasion, il est important de vérifier que
 
 Vérifiez également que les identifiants par défaut fonctionnent (identifiant : root, mot de passe : root). Si les identifiants par défaut ne fonctionne pas il faudra effectuer un reset de la machine.
 
-![image](assets/guide-achat/9.png)
+![image](assets/guide-achat/9.jpeg)
 
 Une fois connecté, vous devriez pouvoir voir l’état de chaque hashboard sur le tableau de bord. Si le mineur est connecté à une pool, vous devriez voir toutes les hashboards fonctionner. Il est important de noter que les mineurs font beaucoup de bruit, c’est normal. Assurez-vous également que les ventilateurs fonctionnent correctement.
 
@@ -126,26 +126,26 @@ Si vous êtes propriétaire d’un Antminer S9, vous savez probablement à quel 
 Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser votre Antminer en chauffage. La solution est de les remplacer par des ventilateurs plus silencieux. Notre équipe a testé plusieurs modèles de la marque Noctua et à sélectionné le Noctua NF-A14 iPPC-2000 PWM comme le meilleur compromis, attention à bien choisir la version 12V des ventilateurs. Ce ventilateur de 140mm peut permettre de produire jusqu’à 1300W de chauffage tout en maintenant un niveau de bruit théorique de 31 dB. Pour pouvoir monter ces ventilateurs de 140mm, il faudra utiliser un adaptateur 140mm vers 120mm que vous pourrez retrouver sur la boutique de DécouvreBitcoin. Et nous ajouterons également des grilles de protection 140mm.
 
 ![image](assets/piece/1.jpeg)
-![image](assets/piece/2.png)
-![image](assets/piece/3.png)
+![image](assets/piece/2.jpeg)
+![image](assets/piece/3.jpeg)
 
 Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Nous recommandons le Noctua NF-A6x25 PWM. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffirons. Attention ici aussi à bien choisir la version 12V du ventilateur.
 
-![image](assets/piece/4.png)
-![image](assets/piece/5.png)
+![image](assets/piece/4.jpeg)
+![image](assets/piece/5.jpeg)
 
 ### 2. Ajouter un bridge WIFI/Ethernet
 
 Au lieu d’utiliser un câble Ethernet, vous pouvez connecter votre Antminer en WIFI en ajoutant un bridge WIFI/Ethernet. Nous avons sélectionné le vonets vap11g-300 car il permet facilement de récupérer le signal WIFI de votre box Internet et de le transmettre à votre Antminer en Ethernet sans créer de sous réseau. Si vous avez des compétences en électricité pouvez l’alimenter directement avec l’alimentation du Antminer sans avoir besoin de rajouter un chargeur USB, pour cela vous aurez besoin d’un jack 5,5mmx2,1mm femelle.
 
-![image](assets/piece/6.png)
-![image](assets/piece/7.png)
+![image](assets/piece/6.jpeg)
+![image](assets/piece/7.jpeg)
 
 ### 3. Optionnel : ajouter une prise connectée
 
 Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et monitorer sa consommation d’énergie, vous pouvez ajouter une prise connectée. Nous avons testé la prise ANTELA en version 16A compatible avec l’application smartlife. Cette prise connectée permet de consulter la consommation jour par jour et mois par mois et se connecte directement en WIFI à votre box Internet.
 
-![image](assets/piece/8.png)
+![image](assets/piece/8.jpeg)
 
     Liste du matériel et liens
 
@@ -194,16 +194,16 @@ Nous allons commencer par remplacer le ventilateur de l’alimentation.
 
 Tout d’abord, retirez les 6 vis sur le côté du boîtier qui le maintiennent fermé. Une fois les vis retirées, ouvrez délicatement le boîtier pour retirer la protection plastique qui recouvre les composants.
 
-![image](assets/hardwear/2.png)
-![image](assets/hardwear/3.png)
+![image](assets/hardwear/2.jpeg)
+![image](assets/hardwear/3.jpeg)
 
 Ensuite, il est temps de retirer le ventilateur d’origine en prenant soin de ne pas endommager les autres composants. Pour ce faire, retirez les vis qui le maintiennent en place et décollez délicatement la colle blanche qui entoure le connecteur. Il est important de procéder avec délicatesse pour éviter d’endommager les fils ou les connecteurs.
 
-![image](assets/hardwear/4.png)
+![image](assets/hardwear/4.jpeg)
 
 Une fois le ventilateur d’origine retiré, vous remarquerez que les connecteurs du nouveau ventilateur Noctua ne correspondent pas à ceux du ventilateur d’origine. En effet, le nouveau ventilateur dispose de 3 fils, dont un fil jaune qui permet de contrôler la vitesse. Cependant, ce fil ne sera pas utilisé dans ce cas précis. Pour brancher le nouveau ventilateur, il est donc recommandé d’utiliser un adaptateur spécial. Il est cependant important de noter que cet adaptateur peut parfois être difficile à trouver.
 
-![image](assets/hardwear/5.png)
+![image](assets/hardwear/5.jpeg)
 
 Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur en utilisant un sucre d’électricien. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur.
 
@@ -234,8 +234,8 @@ Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge 
 
 Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisé plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur.
 
-![image](assets/hardwear/15.png)
-![image](assets/hardwear/16.png)
+![image](assets/hardwear/15.jpeg)
+![image](assets/hardwear/16.jpeg)
 
         Optionnel : Si vous êtes compétent en électricité, vous pouvez ajouter directement sur la sortie d’alimentation 12V un connecteur jack 5,5 mm femelle qui permettra d’alimenter directement le bridge Wi-Fi Vonet. Cependant, si vous n’êtes pas sûr de vos compétences en électricité, il est préférable d’utiliser le connecteur USB avec un chargeur de type smartphone pour éviter tout risque de court-circuit ou de dommage électrique.
 
@@ -294,7 +294,7 @@ Cette méthode peut être appliquée dans les 10 minutes après le démarrage du
 
 Après avoir allumé le mineur pendant 2 minutes, veuillez appuyer sur le bouton « Reset » pendant 5 secondes, puis relâchez-le. Le mineur sera restauré aux paramètres d’usine dans les 4 minutes et redémarrera automatiquement (il n’est pas nécessaire de l’éteindre).
 
-![image](assets/softwear/1.png)
+![image](assets/softwear/1.jpeg)
 
 Restore via web side
 
@@ -317,11 +317,11 @@ Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en uti
 
 Le système d’exploitation principal est relativement basique. Avec les 4 onglets : System, Miner Configuration, Miner Status, Network. Dans l’onglet Miner Configuration vous pouvez configurer jusqu’à 3 pools de minage.
 
-![image](assets/softwear/3.png)
+![image](assets/softwear/3.jpeg)
 
 Dans l’onglet Miner Status vous pourrez observer différentes informations sur le fonctionnement de l’ASIC en direct. Le hashrate exprimé en GH/s, des informations plus précises sur la pool ainsi qu’un détail sur le statut de chaque hashboard et la vitesse des ventilateurs en rotations/minute.
 
-![image](assets/softwear/4.png)
+![image](assets/softwear/4.jpeg)
 
 ### Braiins OS+
 
@@ -346,11 +346,11 @@ Découvrez comment installer facilement Braiins OS+ directement sur la mémoire 
 2. Télécharger BOS toolbox Windows / Linux
 3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
 
-![image](assets/softwear/5.png)
+![image](assets/softwear/5.jpeg)
 
 4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
 
-![image](assets/softwear/6.png)
+![image](assets/softwear/6.jpeg)
 
 5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
 
@@ -358,19 +358,19 @@ Découvrez comment installer facilement Braiins OS+ directement sur la mémoire 
 
 7. Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
 
-![image](assets/softwear/7.png)
+![image](assets/softwear/7.jpeg)
 
 8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
    Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
 
-![image](assets/softwear/8.png)
+![image](assets/softwear/8.jpeg)
 
 9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
    Installation de Braiins OS+ sur une carte SD
 
-![image](assets/softwear/9.png)
+![image](assets/softwear/9.jpeg)
 
-![image](assets/softwear/10.png)
+![image](assets/softwear/10.jpeg)
 
 La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette méthode fonctionne pour les machines avec un système d’exploitation datant d’avant 2019.
 
@@ -381,7 +381,7 @@ La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette
 3. Allez dans l’onglet System puis Upgrade
 4. Chargez le fichier que vous avez téléchargé et flashez l’image.
 
-![image](assets/softwear/11.png)
+![image](assets/softwear/11.jpeg)
 
 ### Carte micro SD
 
@@ -393,9 +393,9 @@ Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode
 
 3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
 
-![image](assets/softwear/12.png)
+![image](assets/softwear/12.jpeg)
 
-![image](assets/softwear/13.png)
+![image](assets/softwear/13.jpeg)
 
 4. Insérez la carte micro SD dans l’ASIC.
 5. Démarrez l’ASIC. Si la version d’installation automatique a été utilisée, le nouveau système d’exploitation sera automatiquement installé. L’installation est terminée lorsque les deux LEDs s’allument au même moment. Vous pouvez redémarrer l’ASIC et retirer la carte micro SD. Si l’autre version a été téléchargée, vous devrez laisser la carte Micro SD à l’intérieur de l’ASIC.
@@ -415,7 +415,7 @@ Vous serez alors accueilli par le Dashboard de Brains OS+
 
 ### Dashboard
 
-![image](assets/softwear/14.png)
+![image](assets/softwear/14.jpeg)
 
 Sur cette première pages vous pourrez observer les performances de votre machine en direct.
 
@@ -423,7 +423,7 @@ Sur cette première pages vous pourrez observer les performances de votre machin
 - Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
 - Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
 
-![image](assets/softwear/15.png)
+![image](assets/softwear/15.jpeg)
 
 - Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
 - Un détail sur les pools de minage active dans Pools.
@@ -432,15 +432,15 @@ Sur cette première pages vous pourrez observer les performances de votre machin
 
 ### Configuration
 
-![image](assets/softwear/16.png)
+![image](assets/softwear/16.jpeg)
 
 ### System
 
-![image](assets/softwear/17.png)
+![image](assets/softwear/17.jpeg)
 
 ### Quick actions
 
-![image](assets/softwear/18.png)
+![image](assets/softwear/18.jpeg)
 
 Configuration d’une pool
 
@@ -460,17 +460,17 @@ Le modèle de récompense qui nous intéresse est le PPS, qui signifie « pay-pe
 
 Pour configurer une pool dans Braiins 0S+, il faudra créer un compte dans l’une des pool de votre choix. Ici nous allons prendre l’exemple de Lincoin :
 
-![image](assets/softwear/19.png)
+![image](assets/softwear/19.jpeg)
 
 Une fois votre compte créé, cliquez sur Connect To Pool
 
 Ensuite copiez l’adresse Stratum ainsi que votre username :
 
-![image](assets/softwear/20.png)
+![image](assets/softwear/20.jpeg)
 
 Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rentrer ces identifiant. Pour le mot de passe, vous pouvez laisser le champ vide.
 
-![image](assets/softwear/21.png)
+![image](assets/softwear/21.jpeg)
 
 ### Overclocking et Underclocking
 

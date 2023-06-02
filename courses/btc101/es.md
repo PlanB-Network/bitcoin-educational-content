@@ -8,7 +8,7 @@ goal: Descubrir Bitcoin y sus fundamentos con su propuesta de valor monetario, l
   - Realizar el impacto geopolítico y social que representa Bitcoin
 ---
 
-
+![cover](assets/thumbnail.png)
 
 
 # Tu primera aventura en Bitcoin
@@ -49,8 +49,7 @@ Nuestro próximo tema de estudio se centrará en la definición y el funcionamie
 
 ![](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 
-![La prehistoria de Bitcoin](posters/fr/1_phehistoiredubitcoin.png)
-
+![La prehistoria de Bitcoin](assets/posters/esp/1._bitcoin_prehistoria.png)
 
 
 ### Los fundamentos de Bitcoin y el movimiento cypherpunk
@@ -74,12 +73,6 @@ Bitcoin es tanto una moneda digital como un protocolo informático. Como tal, fu
 
 ## 1.1 - El dinero
 
-![El dinero](https://youtu.be/LslJVNCvHhA)
-
-![El dinero](posters/fr/3_lamonnaiecrop.png)
-
-
-
 ### La evolución del dinero a lo largo de la historia
 
 La evolución del dinero es un aspecto fascinante de la historia humana, reflejando la ingeniosidad de las civilizaciones a través de las edades para satisfacer necesidades económicas en constante evolución. Las primeras formas de dinero eran de naturaleza concreta, a menudo bienes de consumo tangibles como cereales o ganado. Sin embargo, desde hace unos 4000 años, el oro se ha convertido en un estándar universalmente reconocido. El oro cumple idealmente con los criterios de una moneda eficaz: su rareza natural lo convierte en un objeto de valor, mientras que su divisibilidad y transportabilidad lo hacen práctico para el comercio. Además, extraer oro de la tierra requiere una cantidad significativa de energía, lo que refuerza su valor intrínseco. Sin embargo, con el advenimiento de la tecnología y la expansión de la economía mundial, el oro ha sido gradualmente abandonado en favor de soluciones más prácticas, como los billetes y las monedas digitales.
@@ -93,13 +86,12 @@ Bitcoin, como moneda digital, presenta nuevas posibilidades. Ofrece una excelent
 
 Ante los desafíos planteados por los sistemas monetarios actuales, se buscan alternativas para preservar y aumentar el valor del dinero. Los sistemas bancarios recurren a soluciones como transferencias digitales y microtransacciones para satisfacer las necesidades de la economía mundial y adaptarse a los avances tecnológicos.
 
+![El dinero](assets/posters/esp/3._moneda.png)
 
 ## 1.2 Las monedas fiduciarias
 
-![](https://youtu.be/1hOrDrmT27g)
 
-![Las monedas Fiduciarias](posters/fr/4_lamonnaiefiatcrop.png)
-
+![Las monedas Fiduciarias](assets/posters/esp/4._las_monedas_fiduciarias.png)
 
 
 ### Las monedas fiduciarias y sus repercusiones en el sistema financiero
@@ -126,11 +118,6 @@ En conclusión, la hiperinflación tiene el efecto de degradar rápidamente el v
 
 ## 1.3 La hiperinflación
 
-![](https://youtu.be/cYKmgflsy_8)
-
-![Las hiperinflaciones](posters/fr/5_hyperinflation_crop.png)
-
-
 
 ### Hiperinflación en un Sistema Monetario Fiat
 
@@ -145,12 +132,13 @@ El segundo estadio es el colapso de la moneda. A medida que los gobiernos pierde
 
 Conocer la hiperinflación y comprender cómo se produce es una cosa, pero ¿cómo se puede proteger uno contra ella? Para protegerse contra la hiperinflación, se recomienda diversificar su cartera deshaciéndose de las monedas débiles e invirtiendo en activos o monedas sólidas, como el oro o el Bitcoin. Las acciones de empresas capaces de revalorizar sus precios rápidamente, como Apple o Microsoft, o la inversión inmobiliaria también pueden resultar buenas inversiones. Hay mucho que aprender sobre la gestión de una cartera financiera. Afortunadamente, hay muchas formaciones y recursos disponibles para adquirir estas habilidades. Además, no imprimir dinero a voluntad es la mejor manera de prevenir la hiperinflación. El Bitcoin es una moneda que tiene características específicas. Su capacidad para servir para el comercio mundial será discutida en un futuro video.
 
+![Las hiperinflaciones](assets/posters/esp/5._las_hiperinflaciones.png)
 
 ## 1.4 21 millones de bitcoins
 
-![21 millones de Bitcoin](https://youtu.be/Y92R4EWk5uo)
 
-![21 millones de bitcoin](posters/fr/6_21_million_crop.png)
+
+![21 millones de bitcoin](assets/posters/esp/6._21_millones_de_bitcoins.png)
 
 
 
@@ -178,14 +166,10 @@ La cantidad fija de bitcoins, inicialmente establecida en 21 millones, no puede 
 
 # Capítulo 2 - Las carteras Bitcoin
 
-
-
-
 ## 2.1 Explicación de las carteras Bitcoin
 
-![comprender las carteras Bitcoin](https://youtu.be/GsnX7qdODK8)
 
-![explicación de las carteras Bitcoin](posters/fr/8_explication_des_portefeuilles_bitcoin_crop.png)
+![explicación de las carteras Bitcoin](assets/posters/esp/8._que_es_un_wallet.png)
 
 
 
@@ -204,9 +188,8 @@ La probabilidad de que tu cartera Bitcoin sea pirateada es astronómicamente baj
 
 ## 2.2 Elegir tu seguridad
 
-![Elegir tu seguridad](https://youtu.be/qhjEJuJHRf8)
 
-![elegir tu seguridad](posters/fr/9_choisir_son_portefeuille_crop.png)
+![elegir tu seguridad](assets/posters/esp/9._que_wallet_elegir.png)
 
 
 
@@ -230,9 +213,7 @@ En conclusión, la posesión directa de sus Bitcoins es un elemento esencial par
 
 ## 2.3 Configuración de una cartera
 
-![configuración de una cartera](posters/fr/10_mise_en_place_du_portefeuille_crop.png)
-
-![configuración de una cartera](https://youtu.be/2MRRERHm7ZM)
+![configuración de una cartera](assets/posters/esp/10._configurar_tu_monedero.png)
 
 
 
@@ -256,9 +237,8 @@ Una vez realizadas las copias, guarde las listas de palabras en carpetas, en un 
 
 ## 2.4 Pasar la prueba del tiempo
 
-![pasar la prueba del tiempo](https://youtu.be/p8eZPt_XnwI)
 
-![pasar la prueba del tiempo](posters/fr/19_passer_l_epreuve_du_temps_crop.png)
+![pasar la prueba del tiempo](assets/posters/esp/19._la_prueba_del_tiempo.png)
 
 
 
@@ -273,7 +253,8 @@ Un método para asegurar sus bitcoins a largo plazo es grabar sus claves de recu
 ### Plan de herencia
 
 Junto con esto, la creación de un plan de herencia también es un paso crucial para garantizar que sus activos digitales sean administrados correctamente después de su muerte. Este plan puede incluir una carta escrita a mano detallando sus activos e identificando personas de confianza a contactar. También es crucial discutir la adquisición de bitcoins con un notario para garantizar la conformidad fiscal, aunque es importante nunca confiar directamente sus bitcoins a un tercero, incluido un notario.
-**Agregar Liana y enlazar a btc 201**
+
+**Mira Liana y enlazar a btc 102**
 
 
 
@@ -282,23 +263,14 @@ Junto con esto, la creación de un plan de herencia también es un paso crucial 
 La seguridad de tus bitcoins a largo plazo no se limita a crear copias de seguridad físicas o elaborar un plan de herencia. La privacidad es otra consideración importante. Por ejemplo, es mejor comprar bitcoins sin proporcionar una identificación para minimizar el riesgo de robo de identidad. Además, es esencial utilizar billeteras Bitcoin que se adapten a tus necesidades para garantizar tanto tu anonimato como la seguridad de tus activos. Herramientas de seguridad como tarjetas inteligentes, billeteras de hardware y dispositivos OpenDime pueden contribuir a fortalecer la seguridad de tus bitcoins. También es importante recordar tu frase de recuperación (o "seed phrase"), una práctica conocida como "brain wallet", que garantiza que siempre tengas acceso a tus bitcoins, incluso en caso de pérdida o robo de tu billetera de hardware. En resumen, la seguridad y la privacidad son dos aspectos clave de la posesión de bitcoins a largo plazo. En la siguiente sección, abordaremos en detalle el funcionamiento técnico de Bitcoin. Esperamos que esta información te ayude a navegar de manera segura en el ecosistema de Bitcoin.
 
 
-## Conclusión Capítulo 2
-
-![Conclusión Capítulo 2](https://youtu.be/U28-oh950Dw)
-
-
-
 
 # Capítulo 3 - Aspectos técnicos de Bitcoin
 
 
-
-
 ## 3.1 Lanzamiento de Bitcoin
 
-![Lanzamiento de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
-![Lanzamiento de Bitcoin](posters/fr/7_lancement_de_bitcoin_crop.png)
+![Lanzamiento de Bitcoin](assets/posters/esp/7._bitcoin_emepeza.png)
 
 
 
@@ -324,9 +296,8 @@ Bitcoin es una innovación sin precedentes en el mundo financiero. A pesar de lo
 
 ## 3.2 Explicación de una transacción
 
-![Explicación de una transacción](https://youtu.be/GJlUqtGzxLk)
 
-![explicación de una transacción](posters/fr/11_explication_d_une_transaction_crop.png)
+![explicación de una transacción](assets/posters/esp/11._explicacion_de_una_transaccion.png)
 
 
 
@@ -346,9 +317,8 @@ Después de la validación por los mineros, el bloque se agrega a la blockchain,
 
 ## 3.3 Los nodos de Bitcoin
 
-![los nodos de Bitcoin](posters/fr/12_explication_des_nodes_crop.png)
+![los nodos de Bitcoin](assets/posters/esp/12._nodos_bitcoin.png)
 
-![los nodos de Bitcoin](https://youtu.be/3vQmDJ4_ooM)
 
 Los nodos son un elemento fundamental de la arquitectura de la red de Bitcoin. Realizan diversas funciones cruciales, como mantener la blockchain, participar en la descentralización de la red, orientar el sistema y validar transacciones.
 
@@ -370,9 +340,7 @@ En resumen, los nodos, ya sean encarnados por dispositivos físicos o software e
 
 ## 3.4 Los mineros
 
-![los mineros](posters/fr/13_explication_des_mineurs_crop.png)
-
-![los mineros](https://youtu.be/Lr5L3uy244w)
+![los mineros](assets/posters/esp/13._los_minero.png)
 
 
 
@@ -404,10 +372,7 @@ La minería de Bitcoin es un proceso complejo pero esencial para el funcionamien
 
 ## 3.5 Bitcoin y la ecología
 
-![Bitcoin & écologie](posters/fr/14_minage_et_ecologie_crop.png)
-
-![Bitcoin & écologie](https://youtu.be/nV2b2xAMfmU)
-
+![Bitcoin & écologie](assets/posters/esp/14._minero_y_ecologia.png)
 
 
 ### La importancia de Bitcoin para la libertad financiera y la lucha contra la opresión
@@ -425,15 +390,6 @@ Finalmente, es esencial discutir los desafíos económicos y ambientales de la a
 La economía keynesiana actual, a diferencia de la economía austriaca, no tiene en cuenta el aspecto temporal. El dinero ilimitado no puede coexistir con los recursos limitados de nuestro planeta. Los políticos, debido a su visión a corto plazo y su necesidad de crecimiento económico para ser reelegidos, no pueden resolver los problemas ambientales a largo plazo. Adoptar una moneda saludable como Bitcoin podría permitir devolver el poder económico al pueblo. Los mineros de Bitcoin pueden apagar las llamas en los pozos de petróleo que queman metano para evitar la contaminación, lo que es beneficioso para el medio ambiente. Bitcoin fomenta el uso de energía verde. El metano se puede convertir en electricidad para alimentar las máquinas de minería, lo que es beneficioso para todos. La eliminación del petrodólar es necesaria para poner fin a las guerras y al consumo excesivo. El sistema bancario, basado en el petrodólar, fomenta la guerra. Al eliminar el petrodólar, se puede poner fin a las guerras y a la emisión excesiva de moneda. La industria del oro, con sus máquinas contaminantes, tiene un impacto ambiental más importante que la industria de Bitcoin. La tecnología de Bitcoin a menudo se malinterpreta, y las críticas sobre su impacto ambiental a menudo son simplistas. Estas críticas pueden estar motivadas por intereses políticos. Bitcoin tiene el potencial de ayudar en la transición ecológica y contribuir a un mundo más verde. Los medios a menudo difunden ideas falsas sobre Bitcoin y el medio ambiente. Sin Bitcoin, sería más difícil financiar la transición ecológica a través de la creación monetaria.
 
 
-
-
-## Conclusión Capítulo 3
-
-![conclusión capítulo 3](https://youtu.be/gqILoXTUKdc)
-
-
-
-
 # Capítulo 4 - Ahorro con Bitcoin
 
 
@@ -441,9 +397,7 @@ La economía keynesiana actual, a diferencia de la economía austriaca, no tiene
 
 ## 4.1 ¡Bitcoin nunca duerme!
 
-![Bitcoin nunca duerme](posters/fr/15_bitcoin_ne_dort_jamais_crop.png)
-
-![Bitcoin nunca duerme](https://youtu.be/7535MAeHzxM)
+![Bitcoin nunca duerme](assets/posters/esp/15._el_precio_de_bitcoin.png)
 
 
 
@@ -476,9 +430,8 @@ Bitcoin, al igual que cualquier otra inversión, conlleva riesgos. No gaste más
 
 ## 4.2 Obtener bitcoins trabajando
 
-![Obtener bitcoins trabajando](posters/fr/17_travailler_pour_des_bitcoin_crop.png)
+![Obtener bitcoins trabajando](assets/posters/esp/17._trabajor_por_tener_bitcoin.png)
 
-![Obtener bitcoins trabajando](https://youtu.be/sHkadVRUQF8)
 
 
 
@@ -500,9 +453,8 @@ Aceptar Bitcoin es una práctica cada vez más común en Francia, lo que no solo
 
 ## 4.3 Ahorro con Bitcoin
 
-![ahorro en bitcoin](posters/fr/16_epargne_avec_bitcoin_crop.png)
+![ahorro en bitcoin](assets/posters/esp/16._agorrar_en_bitcoin.png)
 
-![ahorro en bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
 
 
@@ -519,9 +471,8 @@ Después de la compra, se recomienda retirar inmediatamente los Bitcoins de las 
 
 ## 4.4 Hiper-bitcoinización
 
-![hiper-bitcoinización](https://youtu.be/lLxndxrzXR0)
 
-![hiper-bitcoinización](posters/fr/18_hyperbitcoinisation_crop.png)]
+![hiper-bitcoinización](assets/posters/esp/18._hyper_bitcoinizacion.png)
 
 
 
@@ -548,25 +499,17 @@ Si desea ampliar sus conocimientos sobre Bitcoin, muchos autores, pensadores y e
 **texto a añadir**
 
 
-
-
 ## Califica la formación
 
 **texto a añadir**
 
 
-
-
 # Capítulo 5 - La red Lightning
-
-
 
 
 ## 5.1 Introducción a la red Lightning
 
-![La red Lightning](https://youtu.be/HFv3NN4z450)
-
-![La red Lightning](posters/fr/20_explication_lightning_network_crop.png)
+![La red Lightning](assets/posters/esp/20._lightning_network.png)
 
 
 
@@ -590,9 +533,7 @@ El Lightning Network es el futuro de Bitcoin. Las decisiones de ingeniería para
 
 ## 5.2 Casos de uso de Lightning Network
 
-![casos de uso de LN](https://youtu.be/_UV2jmQ8TQM)
-
-![casos de uso de LN](posters/fr/21_cas_d_usage_lightning_network_crop.png)
+![casos de uso de LN](assets/posters/esp/21._ln_exemplo_de_eso.png)
 
 
 
@@ -612,21 +553,13 @@ El concepto de "streaming de dinero" es una visión para el futuro que es posibl
 
 ## 5.3 La píldora roja
 
-![pilule rouge](https://youtu.be/nCRVIoyyyck)
 
-![pilule rouge](posters/fr/2_pilluleorange.png)
+![pilule rouge](assets/posters/esp/2._la_pastilla_bitcoin.png)
 
 **falta el curso**
 
 
-
-
 # Conclusión general del curso
-
-![Conclusión](https://youtu.be/BoZL_D7uLAg)
-
-![Agradecimiento y seguir adelante](https://youtu.be/A2P5GdkgB-M)
-
 
 
 

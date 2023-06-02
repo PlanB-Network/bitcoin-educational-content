@@ -10,7 +10,7 @@ objectives:
 ---
 
 
-
+![cover](assets/thumbnail.png)
 
 # Your First Bitcoin Adventure
 
@@ -24,9 +24,6 @@ The course should take about 15 hours with a final exam at the end. Throughout t
 
 
 # Introduction: The Bitcoin Journey Course
-
-![Introduction](https://youtu.be/PdiL6_1wbQY)
-
 
 
 ### Bitcoin: A Decentralized Monetary and Technological Revolution
@@ -56,9 +53,7 @@ Our next topic of study will focus on the definition and functioning of money in
 
 ## 0. The Prehistory of Bitcoin
 
-![](https://www.youtube.com/watch?v=ljHLhTzrLsw)
-
-![The Prehistory of Bitcoin](posters/fr/1_phehistoiredubitcoin.png)
+![The Prehistory of Bitcoin](assets/posters/en/1._bitcoin_prehistory.png)
 
 
 
@@ -80,12 +75,10 @@ Bitcoin is both a digital currency and an information protocol. As such, it was 
 
 
 
-
 ## 1.1 - Money
 
-![Money](https://youtu.be/LslJVNCvHhA)
 
-![Money](posters/fr/3_lamonnaiecrop.png)
+![Money](assets/posters/en/3._money.png)
 
 
 
@@ -114,9 +107,8 @@ In the face of challenges posed by current monetary systems, alternatives are be
 
 ## 1.2 Fiat currencies
 
-![](https://youtu.be/1hOrDrmT27g)
 
-![Fiat currencies](posters/fr/4_lamonnaiefiatcrop.png)
+![Fiat currencies](assets/posters/en/4._fiat_currency.png)
 
 
 
@@ -150,9 +142,9 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of c
 
 ## 1.3 Hyperinflation
 
-![](https://youtu.be/cYKmgflsy_8)
 
-![Hyperinflation](posters/fr/5_hyperinflation_crop.png)
+
+![Hyperinflation](assets/posters/en/5._hyperinflation.png)
 
 
 
@@ -172,9 +164,8 @@ Knowing about hyperinflation and understanding how it occurs is one thing, but h
 
 ## 1.4 21 million bitcoins
 
-![21 million bitcoins](https://youtu.be/Y92R4EWk5uo)
 
-![21 million bitcoins](posters/fr/6_21_million_crop.png)
+![21 million bitcoins](assets/posters/en/6._21_millions.png)
 
 
 
@@ -192,24 +183,13 @@ Bitcoin's rarity is guaranteed by two key mechanisms: the fixed limit of 21 mill
 The fixed quantity of bitcoins, initially set at 21 million, cannot be changed. Any modification to the Bitcoin protocol would require the agreement of the entire user community, which is highly unlikely. The idea of devaluing the currency is contrary to the fundamental philosophy of Bitcoin. Bitcoin's rarity is a major asset because there will always be a maximum of 21 million units. The quantity of bitcoins in circulation is public and verifiable by anyone. In fact, anyone can verify the quantity of bitcoins in circulation by entering a simple command on a Bitcoin node. This transparency and verifiability reinforce trust in the Bitcoin system, which is not based on centralized institutions or individuals, but on a mathematical guarantee inherent in its protocol. The notion of sound monetary management is intrinsic to Bitcoin, as it is impossible to create more bitcoins than the pre-established limit or to destroy users' savings. This is a fundamental characteristic that distinguishes Bitcoin from other forms of currency. Moreover, according to the principles of Austrian economics, Bitcoin is considered an excellent form of currency. Indeed, its quantity is strictly controlled and issued predictably, which corresponds to the Austrian ideal of monetary creation. Unlike traditional currencies, which can be subject to inflation due to excessive monetary printing, Bitcoin maintains its value through its programmed rarity. In summary, Bitcoin, through its decentralized nature, programmed rarity, and transparency, offers a unique alternative to traditional monetary systems. It illustrates how technology can be used to create a currency that is not only useful and verifiable but also preserves the value of users' savings by strictly limiting its supply.
 
 
-
-## Conclusion Chapter 1
-
-![Conclusion Chapter 1](https://youtu.be/xJsT7Jk5xWE)
-
-
-
-
 # Chapter 2 - Bitcoin Wallets
-
-
 
 
 ## 2.1 Explanation of Bitcoin Wallets
 
-![Understanding Bitcoin Wallets](https://youtu.be/GsnX7qdODK8)
 
-![Explanation of Bitcoin Wallets](posters/fr/8_explication_des_portefeuilles_bitcoin_crop.png)
+![Explanation of Bitcoin Wallets](assets/posters/en/8._what_is_a_bitcoin_wallet.png)
 
 
 
@@ -234,9 +214,8 @@ The probability of a hack of your Bitcoin wallet is astronomically low if you fo
 
 ## 2.2 Choosing Your Security
 
-![Choosing Your Security](https://youtu.be/qhjEJuJHRf8)
 
-![Choosing Your Security](posters/fr/9_choisir_son_portefeuille_crop.png)
+![Choosing Your Security](assets/posters/en/9._choose_the_right_wallet.png)
 
 
 
@@ -260,9 +239,7 @@ In conclusion, direct ownership of your Bitcoins is essential to ensure financia
 
 ## 2.3 Setting up a wallet
 
-![setting up a wallet](posters/fr/10_mise_en_place_du_portefeuille_crop.png)
-
-![setting up a wallet](https://youtu.be/2MRRERHm7ZM)
+![setting up a wallet](assets/posters/en/10._set_up_your_wallet.png)
 
 
 
@@ -298,9 +275,9 @@ Once the copies are made, store the lists of words in folders, in a safe place w
 
 ## 2.4 Passing the Test of Time
 
-![passing the test of time](https://youtu.be/p8eZPt_XnwI)
 
-![passing the test of time](posters/fr/19_passer_l_epreuve_du_temps_crop.png)
+
+![passing the test of time](assets/posters/en/19._think_long_term.png)
 
 
 
@@ -328,12 +305,6 @@ In addition to this, creating an inheritance plan is also a crucial step in ensu
 The security of your bitcoins in the long term is not limited to creating physical backups or developing an inheritance plan. Privacy is another important consideration. For example, it is better to buy bitcoins without providing identification to minimize the risk of identity theft. In addition, using Bitcoin wallets that match your needs is essential to ensure both your anonymity and the security of your assets. Security tools such as smart cards, hardware wallets, and OpenDime devices can all contribute to strengthening the security of your bitcoins. It is also important to memorize your recovery phrase (or "seed phrase"), a practice known as a "brain wallet," which ensures that you always have access to your bitcoins, even in case of loss or theft of your hardware wallet. In summary, security and privacy are two key aspects of long-term bitcoin ownership. In the next section, we will discuss the technical workings of Bitcoin in detail. We hope this information will help you navigate the Bitcoin ecosystem safely.
 
 
-## Conclusion Chapter 2
-
-![Conclusion Chapter 2](https://youtu.be/U28-oh950Dw)
-
-
-
 
 # Chapter 3 - Technical Aspects of Bitcoin
 
@@ -342,9 +313,8 @@ The security of your bitcoins in the long term is not limited to creating physic
 
 ## 3.1 Launch of Bitcoin
 
-![Launch of Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
-![Launch of Bitcoin](posters/fr/7_lancement_de_bitcoin_crop.png)
+![Launch of Bitcoin](assets/posters/en/7._lancement_bitcoin.png)
 
 
 
@@ -370,9 +340,8 @@ Bitcoin is an unprecedented innovation in the financial world. Despite challenge
 
 ## 3.2 Explanation of a Transaction
 
-![Explanation of a Transaction](https://youtu.be/GJlUqtGzxLk)
 
-![Explanation of a Transaction](posters/fr/11_explication_d_une_transaction_crop.png)
+![Explanation of a Transaction](assets/posters/en/11._explaination_of_a_transaction.png)
 
 
 
@@ -392,9 +361,8 @@ After validation by miners, the block is added to the blockchain, which is an im
 
 ## 3.3 Bitcoin Nodes
 
-![Bitcoin nodes](posters/fr/12_explication_des_nodes_crop.png)
+![Bitcoin nodes](assets/posters/en/12._nodes.png)
 
-![Bitcoin nodes](https://youtu.be/3vQmDJ4_ooM)
 
 Nodes are a fundamental element of the Bitcoin network architecture. They perform various crucial functions, including maintaining the blockchain, participating in network decentralization, guiding the system, and validating transactions.
 
@@ -431,9 +399,8 @@ In summary, nodes, whether embodied by physical devices or online software, play
 
 ## 3.4 Miners
 
-![Miners](posters/fr/13_explication_des_mineurs_crop.png)
+![Miners](assets/posters/en/13._miners.png)
 
-![Miners](https://youtu.be/Lr5L3uy244w)
 
 
 
@@ -467,9 +434,7 @@ Bitcoin mining is a complex but essential process for the functioning and securi
 
 ## 3.5 Bitcoin and ecology
 
-![Bitcoin & ecology](posters/fr/14_minage_et_ecologie_crop.png)
-
-![Bitcoin & ecology](https://youtu.be/nV2b2xAMfmU)
+![Bitcoin & ecology](assets/posters/en/14._ecological_debate.png)
 
 
 
@@ -488,15 +453,6 @@ Finally, it is essential to discuss the economic and environmental issues of Bit
 Current Keynesian economics, unlike Austrian economics, does not take into account the temporal aspect. Unlimited money cannot coexist with the limited resources of our planet. Politicians, due to their short-term vision and their need for economic growth to be re-elected, are unable to solve long-term environmental problems. Adopting a sound currency like Bitcoin could empower the people economically. Flames in oil wells, burning methane to avoid pollution, can be extinguished by Bitcoin miners, which is beneficial for the environment. Bitcoin promotes the use of green energy. Methane can be converted into electricity to power mining machines, which is advantageous for all. The end of the petrodollar is necessary to end wars and overconsumption. The banking system, based on the petrodollar, promotes war. By removing the petrodollar, we can end wars and excessive currency issuance. The gold industry, with its polluting machines, has a greater environmental impact than the Bitcoin industry. Bitcoin technology is often misunderstood, and criticisms regarding its environmental impact are often simplistic. These criticisms may be motivated by political interests. Bitcoin has the potential to help with the ecological transition and contribute to a greener world. The media often spreads false ideas about Bitcoin and ecology. Without Bitcoin, it would be more difficult to finance the ecological transition through monetary creation. 
 
 
-
-
-## Conclusion Chapter 3
-
-![Conclusion Chapter 3](https://youtu.be/gqILoXTUKdc)
-
-
-
-
 # Chapter 4 - Saving with Bitcoin
 
 
@@ -504,11 +460,7 @@ Current Keynesian economics, unlike Austrian economics, does not take into accou
 
 ## 4.1 Bitcoin never sleeps!
 
-![Bitcoin never sleeps](posters/fr/15_bitcoin_ne_dort_jamais_crop.png)
-
-![Bitcoin never sleeps](https://youtu.be/7535MAeHzxM)
-
-
+![Bitcoin never sleeps](assets/posters/en/15._bitcoinr_never_sleeps.png)
 
 ### Understanding Bitcoin Price and Healthy Savings
 
@@ -546,18 +498,13 @@ Do not spend more money than you can afford to lose. Always exercise due diligen
 
 ## 4.2 Obtaining bitcoins by working
 
-![Obtaining bitcoins by working](posters/fr/17_travailler_pour_des_bitcoin_crop.png)
-
-![Obtaining bitcoins by working](https://youtu.be/sHkadVRUQF8)
-
-
+![Obtaining bitcoins by working](assets/posters/en/17._earn_your_bitcoin.png)
 
 ### Acquiring bitcoins through work
 
 Bitcoin can be perceived as a parallel economy to traditional currencies. This means that it is possible to sell goods or services and be paid in Bitcoin. Transactions can be made directly in Bitcoin, without the need for an exchange platform. There are several methods for accepting Bitcoin as a means of payment, and these deserve to be studied. However, it should be noted that the use of Bitcoin is taxed in France, which may discourage some people from using it as a means of payment. Despite this, it is important to emphasize that the Bitcoin economy exists and is developing in certain regions of the world, such as El Salvador. In addition, some individuals, businesses, and organizations already accept Bitcoin as a means of payment for their products or services. To obtain bitcoins, you can buy them on platforms regulated by organizations such as the AMF (Autorité des Marchés Financiers) in France. This method involves certain risks and the traceability of your transactions. Another method for obtaining bitcoins is to accept this cryptocurrency as a means of payment for the products or services you offer. This method allows you to acquire bitcoins through your work without constantly worrying about the price of Bitcoin. However, this can be difficult because many people are reluctant to spend their bitcoins. 
 
 **add btc map somewhere**
-
 
 
 ### Accepting Bitcoin for commercial transactions: advantages and solutions
@@ -574,9 +521,8 @@ Accepting Bitcoin is a practice that is becoming more common in France, allowing
 
 ## 4.3 Saving with Bitcoin
 
-![saving with bitcoin](posters/fr/16_epargne_avec_bitcoin_crop.png)
+![saving with bitcoin](assets/posters/en/16._saving_in_bitcoin.png)
 
-![saving with bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
 
 
@@ -593,9 +539,7 @@ After purchase, it is advisable to immediately withdraw Bitcoins from exchange p
 
 ## 4.4 Hyper-Bitcoinization
 
-![hyper-bitcoinization](https://youtu.be/lLxndxrzXR0)
-
-![hyper-bitcoinization](posters/fr/18_hyperbitcoinisation_crop.png)]
+![hyper-bitcoinization](assets/posters/en/18._hyperbitcoinization.png)]
 
 
 
@@ -630,9 +574,8 @@ If you want to develop your knowledge of Bitcoin, many authors, thinkers, and es
 
 ## 5.1 Introduction to the Lightning Network
 
-![The Lightning Network](https://youtu.be/HFv3NN4z450)
 
-![The Lightning Network](posters/fr/20_explication_lightning_network_crop.png)
+![The Lightning Network](assets/posters/en/20._lightning_network.png)
 
 
 
@@ -660,9 +603,8 @@ The Lightning Network is the future of Bitcoin. The engineering choices for Bitc
 
 ## 5.2 Use Cases of the Lightning Network
 
-![LN use cases](https://youtu.be/_UV2jmQ8TQM)
 
-![LN use cases](posters/fr/21_cas_d_usage_lightning_network_crop.png)
+![LN use cases](assets/posters/en/21._ln_use_cases.png)
 
 
 
@@ -684,28 +626,17 @@ The concept of "money streaming" is a vision for the future made possible by the
 
 ## 5.3 Red pill
 
-![Red pill](https://youtu.be/nCRVIoyyyck)
 
-![Red pill](posters/fr/2_pilluleorange.png)
-
-**missing course**
-
-
+![Red pill](assets/posters/en/2._oprange_pill.png)
 
 
 # General conclusion of the training
-
-![Conclusion](https://youtu.be/BoZL_D7uLAg)
-
-![Thanks and go further](https://youtu.be/A2P5GdkgB-M)
-
 
 
 
 # Go further
 
 **text to highlight other trainings**
-
 
 
 

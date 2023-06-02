@@ -1,4 +1,4 @@
-name: LN Market
+name: LN Markets
 links:
   website: https://lnmarkets.com/en
   twitter: https://twitter.com/LNMarkets
@@ -7,7 +7,6 @@ links:
 
 tags:
   - bitcoin-only
-  - P2p-exchanges
   - trading
 
 category: exchange

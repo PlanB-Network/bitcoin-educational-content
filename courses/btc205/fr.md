@@ -2,10 +2,10 @@
 name: Solution d’achat-vente Bitcoin en pair à pair
 goal: Explorer les solutions d’achat et vente de Bitcoin en non-KYC
 objectives:
-    - Comprendre les différents types de KYC, leurs risques et leurs bénéfices
-    - Comprendre les avantages d'un achat en pair à pair
-    - Mettre en place la solution qui correspond à votre besoin
-    - Améliorer la gestion de ses UTXO (KYC et non-KYC)
+  - Comprendre les différents types de KYC, leurs risques et leurs bénéfices
+  - Comprendre les avantages d'un achat en pair à pair
+  - Mettre en place la solution qui correspond à votre besoin
+  - Améliorer la gestion de ses UTXO (KYC et non-KYC)
 ---
 
 # Un voyage vers le monde du non-KYC
@@ -124,26 +124,26 @@ Outre les solutions P2P, il existe d'autres options d'échange de cryptomonnaies
 La première chose que vous devez faire est de télécharger Tor. Vous pouvez le trouver sur GitHub ou directement sur le site officiel à l'adresse suivante : tor.org/download.
 Une fois que Tor est téléchargé et installé :
 
--   Appuyez sur "Connect" pour établir la connexion.
--   Rendez vous à l'[adresse oignon de robosats](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/).
--   Copiez le token pour sauvegarder votre identité.
+- Appuyez sur "Connect" pour établir la connexion.
+- Rendez vous à l'[adresse oignon de robosats](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/).
+- Copiez le token pour sauvegarder votre identité.
 
 Voici à présent les étapes pour l'achat de bitcoins avec Robosats:
 
--   Consultez le livre d'ordres, vous pouvez filtrer par devise et par moyen de paiement - par exemple, acheter du bitcoin en euros avec Revolut.
--   Avant d'acheter, vérifiez l'expiration de l'offre, le prix en euros et le premium (vous pouvez aussi filtrer les offres par premium)
--   De préférence, choisissez une offre avec un utilisateur actif et avec un premium inférieur à la moyenne.
--   Vérfiez le récapitualitif de l'ordre avec le montant, le mode de paiement, le premium, l'ID de commande et l'expiration.
--   Vous pouvez obtenir vos satoshis sur une adresse bitcoin avec des frais de swap-out (de LN vers BTC-onchain) de l'ordre sont de 1% (vous pouvez modifier les frais de minage on-chain).
--   Sinon créez une invoice avec un portefeuile LN parmis cette [liste](https://learn.robosats.com/docs/wallets/) et copiez l'invoice sur Robosats.
--   Contactez le vendeur via chat chiffré pour échanger à propos du paiement fiat.
+- Consultez le livre d'ordres, vous pouvez filtrer par devise et par moyen de paiement - par exemple, acheter du bitcoin en euros avec Revolut.
+- Avant d'acheter, vérifiez l'expiration de l'offre, le prix en euros et le premium (vous pouvez aussi filtrer les offres par premium)
+- De préférence, choisissez une offre avec un utilisateur actif et avec un premium inférieur à la moyenne.
+- Vérfiez le récapitualitif de l'ordre avec le montant, le mode de paiement, le premium, l'ID de commande et l'expiration.
+- Vous pouvez obtenir vos satoshis sur une adresse bitcoin avec des frais de swap-out (de LN vers BTC-onchain) de l'ordre sont de 1% (vous pouvez modifier les frais de minage on-chain).
+- Sinon créez une invoice avec un portefeuile LN parmis cette [liste](https://learn.robosats.com/docs/wallets/) et copiez l'invoice sur Robosats.
+- Contactez le vendeur via chat chiffré pour échanger à propos du paiement fiat.
 
 Voyons maintenant les étapes pour la vente de bitcoins sur Robosats:
 
--   Personnalisez votre offre en choisissant la méthode de paiement, le premium, la durée d'expiration, etc.
--   Fidelity Bond Size est l'équivalent du dépôt de garantie sur BISC. Mettez 15% ou 10% de dépôts de garantie pour inciter l'autre partie à la jouer réglo.
--   Verrouillez les satoshis pour confirmer la création de l'ordre et éviter les spams.
--   Si quelqu'un accepte votre offre de vente, discutez avec le pair pour procéder au paiement en fiat. Une fois le paiement effectué, le trade est complété et les satoshis vendus !
+- Personnalisez votre offre en choisissant la méthode de paiement, le premium, la durée d'expiration, etc.
+- Fidelity Bond Size est l'équivalent du dépôt de garantie sur BISC. Mettez 15% ou 10% de dépôts de garantie pour inciter l'autre partie à la jouer réglo.
+- Verrouillez les satoshis pour confirmer la création de l'ordre et éviter les spams.
+- Si quelqu'un accepte votre offre de vente, discutez avec le pair pour procéder au paiement en fiat. Une fois le paiement effectué, le trade est complété et les satoshis vendus !
 
 ## BISQ: solution d'achat en peet à peer
 
@@ -173,52 +173,52 @@ BISQ est un réseau décentralisé et sécurisé qui respecte votre propriété 
 
 Pour installer Bisq et sauvegarder vos données, suivez ces étapes simples :
 
--   Rendez-vous sur le site bisc.network pour télécharger le logiciel (Screenshot de la page de téléchargement)
--   Vérifiez l'intégrité du logiciel en utilisant des outils tels que ceux proposés par Loïc Morel pour les utilisateurs Windows.
--   Une fois l'installateur vérifié, lancez BISQ, accordez les autorisations nécessaires et acceptez les conditions d'utilisation. (Screenshot des conditions d'utilisation)
--   BISQ se connectera au réseau Bitcoin et à lui-même via Tor, cela peut prendre un certain temps.
--   Configurez votre compte de paiement et faites des sauvegardes de votre SID (Secure Identifier) de votre portefeuille pour prévenir toute perte ou vol. (Screenshot de la page de configuration du compte)
--   Mettez également en place un mot de passe pour chiffre vos informations.
+- Rendez-vous sur le site bisc.network pour télécharger le logiciel (Screenshot de la page de téléchargement)
+- Vérifiez l'intégrité du logiciel en utilisant des outils tels que ceux proposés par Loïc Morel pour les utilisateurs Windows.
+- Une fois l'installateur vérifié, lancez BISQ, accordez les autorisations nécessaires et acceptez les conditions d'utilisation. (Screenshot des conditions d'utilisation)
+- BISQ se connectera au réseau Bitcoin et à lui-même via Tor, cela peut prendre un certain temps.
+- Configurez votre compte de paiement et faites des sauvegardes de votre SID (Secure Identifier) de votre portefeuille pour prévenir toute perte ou vol. (Screenshot de la page de configuration du compte)
+- Mettez également en place un mot de passe pour chiffre vos informations.
 
 En fonction de votre système d'exploitation, les données BISQ seront stockées à différents endroits. Vous pouvez les trouver dans le dossier "Data Directory". Attention, si vous supprimez ce dossier, toutes vos données BISQ seront perdues.
 Pour récupérer vos données grâce à une sauvegarde :
 
--   Copiez le dossier de sauvegarde dans l'emplacement 'utilisateur/application support/BISQ'.
--   Renommez le dossier de sauvegarde en 'BISQ'.
--   Redémarrez BISQ et toutes vos données devraient être restaurées.
+- Copiez le dossier de sauvegarde dans l'emplacement 'utilisateur/application support/BISQ'.
+- Renommez le dossier de sauvegarde en 'BISQ'.
+- Redémarrez BISQ et toutes vos données devraient être restaurées.
 
 Avant de commencer à acheter ou à vendre du Bitcoin sur BISQ, il est crucial de configurer votre compte de paiement. Vous pouvez par exemple configurer un compte dans votre devise nationale, comme un compte SEPA, un compte REVOLUT ou un compte PAYPAL.
 Pour configurer votre compte REVOLUT :
 
--   Ajoutez un compte et sélectionnez REVOLUT dans la liste des options.
-    **Screenshot de la liste des options de compte**
--   Vous pouvez choisir différentes devises : euro, livre sterling, dollar américain ou franc suisse.
--   La durée maximale de transaction est d'un jour et la limite d'achat est de 0,25 Bitcoin.
--   Utilisez votre nom de compte personnel REVOLUT pour éviter toute confusion.
--   Assurez-vous de signer vos comptes et d'établir des limites d'achat pour plus de sécurité.
+- Ajoutez un compte et sélectionnez REVOLUT dans la liste des options.
+  **Screenshot de la liste des options de compte**
+- Vous pouvez choisir différentes devises : euro, livre sterling, dollar américain ou franc suisse.
+- La durée maximale de transaction est d'un jour et la limite d'achat est de 0,25 Bitcoin.
+- Utilisez votre nom de compte personnel REVOLUT pour éviter toute confusion.
+- Assurez-vous de signer vos comptes et d'établir des limites d'achat pour plus de sécurité.
 
 Pour acheter du Bitcoin sur BISQ :
 
--   Accédez à la section "Acheter" où vous pouvez choisir différents marchés. (Screenshot de la section "Acheter")
--   Pour bénéficier de frais réduits, nous vous recommandons d'acheter du BSQ, que vous pouvez acheter avec du Bitcoin.
--   Vous pouvez choisir parmi différentes offres en fonction du prix, de la quantité, du mode de paiement, etc.
--   Pour acheter du BSQ, déposez d'abord du Bitcoin sur votre portefeuille.
--   Choisissez une offre avec un faible premium et une faible quantité pour l'achat de BSQ.
--   BISQ vérifie la validité de l'offre et la connexion du pair.
--   Si le vendeur n'est pas connecté, choisissez un autre.
--   Vérifiez l'offre et acceptez un premium de 5%.
--   Confirmez les frais et l'échange BSQ, puis attendez la confirmation de la transaction pour acheter des Bitcoins avec des BSQ.
+- Accédez à la section "Acheter" où vous pouvez choisir différents marchés. (Screenshot de la section "Acheter")
+- Pour bénéficier de frais réduits, nous vous recommandons d'acheter du BSQ, que vous pouvez acheter avec du Bitcoin.
+- Vous pouvez choisir parmi différentes offres en fonction du prix, de la quantité, du mode de paiement, etc.
+- Pour acheter du BSQ, déposez d'abord du Bitcoin sur votre portefeuille.
+- Choisissez une offre avec un faible premium et une faible quantité pour l'achat de BSQ.
+- BISQ vérifie la validité de l'offre et la connexion du pair.
+- Si le vendeur n'est pas connecté, choisissez un autre.
+- Vérifiez l'offre et acceptez un premium de 5%.
+- Confirmez les frais et l'échange BSQ, puis attendez la confirmation de la transaction pour acheter des Bitcoins avec des BSQ.
 
 Pour vendre du Bitcoin sur BISQ :
 
--   Créez une nouvelle offre dans l'onglet "Vendre". (Screenshot de l'onglet "Vendre")
--   Vous pouvez choisir de fixer le nombre de Bitcoins à vendre ou le montant en euros que vous souhaitez recevoir.
--   Vous pouvez définir un premium en pourcentage au-dessus du prix du marché.
--   Vous pouvez créer une plage de vente ou laisser le choix à l'acheteur.
--   Vous pouvez également définir un prix pour stopper l'offre.
--   Choisissez le montant minimum du dépôt et les frais de transaction.
--   Financez l'ordre en déposant les Bitcoins à vendre, le montant du dépôt de garantie et les frais.
--   Une fois que vous avez créé l'offre, attendez qu'un acheteur se manifeste.
+- Créez une nouvelle offre dans l'onglet "Vendre". (Screenshot de l'onglet "Vendre")
+- Vous pouvez choisir de fixer le nombre de Bitcoins à vendre ou le montant en euros que vous souhaitez recevoir.
+- Vous pouvez définir un premium en pourcentage au-dessus du prix du marché.
+- Vous pouvez créer une plage de vente ou laisser le choix à l'acheteur.
+- Vous pouvez également définir un prix pour stopper l'offre.
+- Choisissez le montant minimum du dépôt et les frais de transaction.
+- Financez l'ordre en déposant les Bitcoins à vendre, le montant du dépôt de garantie et les frais.
+- Une fois que vous avez créé l'offre, attendez qu'un acheteur se manifeste.
 
 Une fois que l'acheteur a effectué le dépôt de la transaction sur BISQ, les Bitcoins sont automatiquement envoyés à l'acheteur et vous recevez l'argent. Le compte est vérifié et signé après une transaction avec un compte signé.
 
@@ -230,31 +230,31 @@ Une fois que l'acheteur a effectué le dépôt de la transaction sur BISQ, les B
 
 Pour acheter des Bitcoins via le Bot LNP2PBOT sur Telegram, suivez les étapes suivantes :
 
--   Commencez par vous rendre sur le compte Twitter du bot Lnp2pbot et cliquez sur le lien présent dans la bio. (Screenshot du compte Twitter du bot et du lien dans la bio)
--   Dans Telegram, utilisez les commandes "/buy" ou "/sell" pour publier des ordres d'achat ou de vente. (Screenshot de l'utilisation des commandes "/buy" ou "/sell")
--   Accédez au channel P2P Lightning pour trouver des offres d'achat et de vente selon vos critères. (Screenshot du channel P2P Lightning)
--   Créez une offre d'achat en utilisant le bot Lnp2pbot et la commande "/buy".
--   Sélectionnez la devise de votre choix, indiquez le montant, le prix (avec un premium si souhaité), et choisissez votre méthode de paiement.
--   Patientez jusqu'à ce qu'un vendeur potentiel vous contacte.
+- Commencez par vous rendre sur le compte Twitter du bot Lnp2pbot et cliquez sur le lien présent dans la bio. (Screenshot du compte Twitter du bot et du lien dans la bio)
+- Dans Telegram, utilisez les commandes "/buy" ou "/sell" pour publier des ordres d'achat ou de vente. (Screenshot de l'utilisation des commandes "/buy" ou "/sell")
+- Accédez au channel P2P Lightning pour trouver des offres d'achat et de vente selon vos critères. (Screenshot du channel P2P Lightning)
+- Créez une offre d'achat en utilisant le bot Lnp2pbot et la commande "/buy".
+- Sélectionnez la devise de votre choix, indiquez le montant, le prix (avec un premium si souhaité), et choisissez votre méthode de paiement.
+- Patientez jusqu'à ce qu'un vendeur potentiel vous contacte.
 
 Pour vendre des Bitcoins via Revolut, voici ce que vous devez faire :
 
--   Cliquez sur 'vendre Satoshi' pour ouvrir une notification sur LNP2PBot. (Screenshot de l'option 'vendre Satoshi')
--   Recevez une invoice Lightning à payer pour vendre les Satoshis. (Screenshot de l'invoice Lightning)
--   Attendez que l'acheteur envoie une invoice avec les satoshis pour recevoir les paiements.
--   Établissez un contact direct avec l'acheteur via Telegram pour convenir du moyen de paiement et échanger les informations nécessaires.
--   Validez la transaction avec une note.
+- Cliquez sur 'vendre Satoshi' pour ouvrir une notification sur LNP2PBot. (Screenshot de l'option 'vendre Satoshi')
+- Recevez une invoice Lightning à payer pour vendre les Satoshis. (Screenshot de l'invoice Lightning)
+- Attendez que l'acheteur envoie une invoice avec les satoshis pour recevoir les paiements.
+- Établissez un contact direct avec l'acheteur via Telegram pour convenir du moyen de paiement et échanger les informations nécessaires.
+- Validez la transaction avec une note.
 
 Si vous souhaitez acheter des Bitcoins en envoyant une Invoice LN, suivez ces étapes :
 
--   Copiez l'invoice et envoyez-la au bot pour acheter des Satoshi.
--   Prenez contact avec le vendeur pour finaliser l'achat des bitcoins.
--   En cas de problème, proposez d'attendre ou de tenter un cancel.
--   Annulez l'offre et recherchez-en une nouvelle si nécessaire.
--   Choisissez une offre qui accepte les CPA instantanés pour l'achat de Satoshi.
--   Envoyez l'invoice et attendez la confirmation de paiement du vendeur.
--   Une fois le paiement effectué, envoyez la confirmation au bot.
--   Patientez pour la validation de réception des euros et l'envoi des satoshis par le vendeur.
+- Copiez l'invoice et envoyez-la au bot pour acheter des Satoshi.
+- Prenez contact avec le vendeur pour finaliser l'achat des bitcoins.
+- En cas de problème, proposez d'attendre ou de tenter un cancel.
+- Annulez l'offre et recherchez-en une nouvelle si nécessaire.
+- Choisissez une offre qui accepte les CPA instantanés pour l'achat de Satoshi.
+- Envoyez l'invoice et attendez la confirmation de paiement du vendeur.
+- Une fois le paiement effectué, envoyez la confirmation au bot.
+- Patientez pour la validation de réception des euros et l'envoi des satoshis par le vendeur.
 
 En utilisant ces méthodes, vous pouvez acheter et vendre des bitcoins sur Telegram de manière sécurisée.
 
@@ -288,34 +288,34 @@ Dans ce tutoriel, nous vous expliquons comment acheter et vendre des bitcoins en
 
 Avant de commencer à utiliser la plateforme HodlHodl, quelques étapes de préparation sont nécessaires :
 
--   Ouvrez le site web de HodlHodl.
--   Créez un compte en utilisant une adresse e-mail pour garder un historique de vos transactions.
--   Lisez attentivement le guide de sécurité avant de commencer à trader.
--   Notez que la plateforme n'est pas open source et conserve certaines de vos informations personnelles.
+- Ouvrez le site web de HodlHodl.
+- Créez un compte en utilisant une adresse e-mail pour garder un historique de vos transactions.
+- Lisez attentivement le guide de sécurité avant de commencer à trader.
+- Notez que la plateforme n'est pas open source et conserve certaines de vos informations personnelles.
 
 Voici le processus à suivre pour réaliser un achat sur la plateforme HodlHodl :
 
--   Utilisez la fonction de filtre pour trouver les offres qui vous conviennent.
--   Cliquez sur l'offre qui vous intéresse.
--   Remplissez les champs nécessaires pour accepter le contrat.
--   Dans notre exemple, nous avons utilisé Revolut comme méthode de paiement.
+- Utilisez la fonction de filtre pour trouver les offres qui vous conviennent.
+- Cliquez sur l'offre qui vous intéresse.
+- Remplissez les champs nécessaires pour accepter le contrat.
+- Dans notre exemple, nous avons utilisé Revolut comme méthode de paiement.
 
 La mise en place du contrat multisig pour la transaction s'effectue de la manière suivante sur HodlHodl :
 
--   Une fois l'offre acceptée, effectuez le paiement via la méthode choisie (Revolut dans notre cas).
--   Créez un contrat multisig en générant un mot de passe.
--   Patientez pour le dépôt des bitcoins à l'adresse multisig.
--   Choisissez le nombre de confirmations pour le contrat.
--   Effectuez le paiement du montant convenu au vendeur et confirmez-le sur HodlHodl.
--   Soyez patient car la durée du dépôt peut être longue, en fonction de la banque utilisée.
--   Attendez la confirmation du vendeur avant de libérer les bitcoins après l'achat.
+- Une fois l'offre acceptée, effectuez le paiement via la méthode choisie (Revolut dans notre cas).
+- Créez un contrat multisig en générant un mot de passe.
+- Patientez pour le dépôt des bitcoins à l'adresse multisig.
+- Choisissez le nombre de confirmations pour le contrat.
+- Effectuez le paiement du montant convenu au vendeur et confirmez-le sur HodlHodl.
+- Soyez patient car la durée du dépôt peut être longue, en fonction de la banque utilisée.
+- Attendez la confirmation du vendeur avant de libérer les bitcoins après l'achat.
 
 La création d'une offre de vente ou d'achat de bitcoins sur HodlHodl se déroule comme suit :
 
--   Sur le site HodlHodl, indiquez l'adresse de release pour les offres d'achat.
--   Renseignez le montant, le prix et la méthode de paiement.
--   Vous pouvez également ajouter des options facultatives comme des limites de transaction ou un titre pour l'offre.
--   Une fois l'offre créée, vous pouvez la voir, l'éditer, la dupliquer ou la supprimer à votre guise.
+- Sur le site HodlHodl, indiquez l'adresse de release pour les offres d'achat.
+- Renseignez le montant, le prix et la méthode de paiement.
+- Vous pouvez également ajouter des options facultatives comme des limites de transaction ou un titre pour l'offre.
+- Une fois l'offre créée, vous pouvez la voir, l'éditer, la dupliquer ou la supprimer à votre guise.
 
 ## Bonus: Side Shift.AI
 

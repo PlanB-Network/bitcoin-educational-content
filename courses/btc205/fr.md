@@ -10,8 +10,6 @@ objectives:
 
 # Un voyage vers le monde du non-KYC
 
-:[affiche du cours](assets\btc_205_vignette_presentation_03.png)
-
 Pierre nous propose ce cours qui nous plonge dans les différentes solutions existantes pour acheter et vendre des bitcoins en pair à pair. L’achat en pair à pair est complètement légal et permet d’avoir plus d’anonymat, en effet ces solutions ne sont pas KYC. Le KYC (Know Your Customer) est une règle des régulateurs de marchés (AMF) qui consiste à demander la pièce d’identité au client souhaitant acheter ou vendre du bitcoin.Ces règles ont pour but d’empêcher le blanchiment d’argent, le financement du terrorisme et l’évasion fiscale. Au risque d’importantes conséquences pour l’utilisateur, le KYC a pour objectif de défendre et de protéger son utilisateur, bien que c’est très souvent l’effet inverse qui est observé.
 
 Nous allons donc explorer les différents types de KYC (les full KYC type France, les KYC Light type Suisse et les non-KYC type pair à pair). Pierre nous présentera plus de 6 solutions, vous aurez donc toutes les cartes en main pour découvrir laquelle vous correspond. Si vous souhaitez une solution KYC, sachez qu’elles sont présentes dans la formation BTC 102.

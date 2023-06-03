@@ -5,8 +5,6 @@ goal: Approfondir les sujets sérieux de Bitcoin afin de permetttre aux étudian
 
 Bienvenue dans la section “Explorons Bitcoin” !
 
-:[affiche du cours](BTC101_vignette-presentation-front.png)
-
 Bienvenue dans la 1ère formation Bitcoin de deuxième année ! Pour bien commencer on va se faire un petit cours théorique et commencer à aborder les sujets sérieux de Bitcoin. Si en effet la technologie de Bitcoin est révolutionnaire, elle va refaçonner un grand nombre d’aspects de notre société. Ici, nous tâcherons de comprendre plus en détails cette révolution.
 
 Comment en sommes-nous arrivés là ? Que remet Bitcoin en question ? Est-ce possible ? Quelles seront les conséquences et comment mieux se préparer ? Tels seront certains des thèmes abordés dans cette formation.

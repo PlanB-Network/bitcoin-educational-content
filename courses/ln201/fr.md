@@ -19,8 +19,6 @@ Cette formation a été crée par Fanis Michalakis, merci à lui
 
 +++
 
-![cover](assets\thumbnail.png)
-
 # Un voyage vers la deuxième couche de Bitcoin
 
 ## 1. Comprendre le Lightning Network

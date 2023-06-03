@@ -9,8 +9,6 @@ objectives:
   - Realize the geopolitical and social impact that Bitcoin represents
 ---
 
-![cover](assets\thumbnail.png)
-
 # Your First Bitcoin Adventure
 
 In this course, I will explain Bitcoin in 21 chapters so that you can understand this technology in a simple and effective way. The course is accessible to everyone and explores the industry as a whole: miners, wallets, buying/selling platforms, etc.

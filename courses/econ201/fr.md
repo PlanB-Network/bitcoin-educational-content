@@ -5,8 +5,6 @@ goal: Découvrir l’école de pensée économique autrichienne. Étudier leurs 
 
 Un voyage vers l’économie
 
-:[affiche du cours](BTC101_vignette-presentation-front.png)
-
 Bienvenue dans la formation de Théo Mogenet !
 
 Passionné d’économie, d’histoire, de littérature, de sciences politiques et de technologie, il a décidé de vous offrir son savoir sur l’économie autrichienne. Cette branche, moins connue de l’économie, est basée sur le rationnel humain et le comportement libre d’acteur. Moins intense en mathématiques, c’est ici une question de logique et d’étude sociale avant toute chose.

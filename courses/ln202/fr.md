@@ -10,8 +10,6 @@ Objectif:
 
 Un voyage vers le côté technique de Bitcoin
 
-:[affiche du cours](BTC101_vignette-presentation-front.png)
-
 Voici la formation pratique Lightning Network et BTC !
 
 Étant plus poussée techniquement, il est idéal d’avoir quelques bases sur Bitcoin :

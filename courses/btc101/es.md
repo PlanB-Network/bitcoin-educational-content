@@ -9,8 +9,6 @@ objectives:
   - Realizar el impacto geopolítico y social que representa Bitcoin
 ---
 
-![cover](assets\thumbnail.png)
-
 # Tu primera aventura en Bitcoin
 
 En este curso, te explicaré Bitcoin en 21 capítulos para que puedas entender esta tecnología de manera simple y efectiva. El curso es accesible para todos y explora la industria en su conjunto: mineros, cartera, plataforma de compra/venta, etc.

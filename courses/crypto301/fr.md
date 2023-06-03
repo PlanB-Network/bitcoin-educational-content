@@ -5,8 +5,6 @@ goal: Comprendre la création d’un portefeuille Bitcoin d’un point de vue cr
 
 Un voyage vers la cryptographie
 
-:[affiche du cours](BTC101_vignette-presentation-front.png)
-
 Loïc nous propose un cours technique sur la cryptographie utilisée dans les portefeuilles Bitcoin. Ce cours de 3ème année ira en profondeur sur les outils employés pour créer un portefeuille Bitcoin depuis la recherche d’entropie jusqu’à la dérivation des adresses. Des termes techniques tels que le hachage, la dérivation des clés, les courbes elliptiques et autres seront expliqués en détail.
 
 Qu’allez-vous apprendre durant ce cours ?

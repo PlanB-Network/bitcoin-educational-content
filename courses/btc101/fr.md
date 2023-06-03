@@ -455,11 +455,11 @@ Milton Friedman, un économiste renommé, avait prédit en 1999: "I think that t
 
 ![hyper-bitcoinisation](assets/posters/fr/18_hyperbitcoinisation_crop.png)
 
-## Soutiens-nous
+### Soutiens-nous
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
 
-## Note la formation
+### Note la formation
 
 Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 

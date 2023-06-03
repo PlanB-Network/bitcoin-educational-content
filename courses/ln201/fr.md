@@ -1,57 +1,27 @@
 ---
 name: Introduction théorique au Lightning Network
 goal: Découvrir le Lightning Network sous l’angle technique. Comprendre comment sont créés les canaux de paiement, leurs mécanismes de sécurité ainsi que leurs fonctionnements en réseau.
+objectives:
+  - Le fonctionnement technique du réseau via l'ouverture et la fermeture de canaux
+  - La gestion de la liquidité et les frais LNN
+  - Comprendre les termes tels que HTLC, LNURL et UTXO
+  - Comprendre que le lightniong Network est un réseau
+  - L'utilisation théorique du Lightning Network
 ---
-
-Un voyage vers la deuxième couche de Bitcoin
-
-:[affiche du cours](BTC101_vignette-presentation-front.png)
+# Un voyage vers la deuxième couche de Bitcoin
 
 Cette formation est un cours théorique sur le fonctionnement technique du Lightning Network.
 
 Ici, je vous invite à découvrir la couche n°2 de Bitcoin. C’est une technologie innovante et très complexe, mais pleine de promesses. Ça sera une formation plus tech, il n’y aura pas de tutoriel ou de cas d’usage. Afin de comprendre au mieux cette formation, une bonne compréhension de Bitcoin est nécessaire. Ce cours peut s’accompagner de LN 102 qui est plus pratique.
 
-Bonne découverte !
+Cette formation a été crée par Fanis Michalakis, merci à lui
 
-Qu’allez-vous apprendre durant ce cours ?
-
-Le fonctionnement technique du réseau via l'ouverture et la fermeture de canaux
-La gestion de la liquidité et les frais LNN
-Comprendre les termes tels que HTLC, LNURL et UTXO
-Comprendre que le lightniong Network est un réseau
-L'utilisation théorique du Lightning Network
-
-Pour pus de détails : LN 201 – Curriculum
-
-Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
-
-Team créateur
-
-        Loïc Morel – Création & production
-        Rogzy – Coordination
-        Rachel – Communication
-        Pantamis – Interview
-        WillKek – Chapitrage
 
 +++
 
-A propose du prof.
+![cover](assets\thumbnail.png)
 
-Fanis Michalakis
-
-Spécialiste Lightning Network
-
-Salut, moi c’est Fanis !
-
-Je suis tombé dans le terrier du Bitcoin en 2017 et tout comme Rogzy, Bitcoin me fascine. Je vous apporte mes connaissances sur le Lightning Network pour pouvoir aider au mieux les personnes qui le souhaitent.
-
-Je travaille aujourd’hui chez LN market & anime l’Entonnoir du Bitcoin tous les dimanches avec Rogzy.
-
----
-
-Curriculum:
-
-Le cours:
+# Un voyage vers la deuxième couche de Bitcoin
 
 ## 1. Comprendre le Lightning Network
 
@@ -75,7 +45,7 @@ En dépit de ces limites, les canaux de paiement Lightning sont un moyen efficac
 
 En résumé, les canaux de paiement sur Lightning offrent une solution puissante pour ceux qui souhaitent effectuer des transactions Bitcoin rapides et peu coûteuses. Cependant, il est essentiel de comprendre leur fonctionnement et leurs limites pour pouvoir en tirer pleinement parti.
 
-Exemple : – Alice a 100 000 SAT – Bob a 30 000 SAT C’est donc l’état actuel du canal. Lors d’une transaction, Alice décide d’envoyer 40 000 SAT à Bob. Elle peut car 40 000<100 000. Le nouvel état du canal est donc : – Alice 60 000 SAT – Bob 70 000 SAT Désormais, Bob souhaite envoyer 80 000 SAT à Alice. N’ayant pas la liquidité, il ne peut pas. La capacité maximum du canal est de 130 000 SAT, avec une possible dépense d’Alice de 60 000 et 70 000 pour Bob.
+        Exemple : – Alice a 100 000 SAT – Bob a 30 000 SAT C’est donc l’état actuel du canal. Lors d’une transaction, Alice décide d’envoyer 40 000 SAT à Bob. Elle peut car 40 000<100 000. Le nouvel état du canal est donc : – Alice 60 000 SAT – Bob 70 000 SAT Désormais, Bob souhaite envoyer 80 000 SAT à Alice. N’ayant pas la liquidité, il ne peut pas. La capacité maximum du canal est de 130 000 SAT, avec une possible dépense d’Alice de 60 000 et 70 000 pour Bob.
 
 ## 2. Bitcoin, adresses, UTXO et transactions
 
@@ -83,7 +53,7 @@ Exemple : – Alice a 100 000 SAT – Bob a 30 000 SAT C’est donc l’état ac
 
 Dans ce second épisode, un peu hors série, nous prenons le temps d’étudier comment fonctionnent réellement les transactions Bitcoin, ce qui nous sera bien utile pour comprendre Lightning. Nous nous attardons aussi un instant sur la notion d’adresse multi-signature, qui est capitale pour comprendre le prochain épisode, qui sera consacré à l’ouverture de canaux sur le Lightning Network. – Clé privée > Clé publique > Adresse Lors d’une transaction, Alice envoie de l’argent à Bob. Ce dernier fournit une adresse donnée par sa clé publique. Alice qui a elle-même reçu l’argent sur une adresse via sa clé publique utilise désormais sa clé privée pour signer la transaction et ainsi débloquer les bitcoins de l’adresse. – Lors d’une transaction, dans Bitcoin tous les bitcoins doivent bouger. Nommé UTXO (Unspend Transaction Output), les bouts de bitcoin vont tous partir quitte à retourner après chez le propriétaire même :
 
-    Alice a 0.002 BTC, Bob a 0 BTC Alice décide d’envoyer 0.0015 BTC à Bob. Elle va signer une transaction de 0.002 BTC où 0.0015 iront à Bob et 0.0005 retourneront dans son portefeuille.
+        Alice a 0.002 BTC, Bob a 0 BTC Alice décide d’envoyer 0.0015 BTC à Bob. Elle va signer une transaction de 0.002 BTC où 0.0015 iront à Bob et 0.0005 retourneront dans son portefeuille.
 
 Ici de une UTXO (Alice a 0.0002 BTC sur une adresse) nous avons donc créée 2 UTXO (Bob a 0.0015 et Alice a récupéré un nouvelle UTXO (indépendent du précedent) de 0.0005 BTC). – Dans Lightning Network, on utilise des multi-signatures. Il faut donc 2 signatures pour débloquer les fonds, à savoir deux clé privées pour déplacer l’argent. Cela peut donc être Alice et Bob qui, ensemble, doivent accepter de débloquer l’argent (l’UTXO). Dans LN précisément, ce sont des transactions 2/2 donc il faut absolument les 2 signatures contrairement au multi-signatures 2/3 ou 3/5 où il faut seulement une combinaison du nombre complet de clés.
 
@@ -451,8 +421,16 @@ Ensuite, si vous souhaitez aider le projet, n’hésitez pas à nous sponsoriser
 
 Fini la théorie et place à la pratique avec la formation LN 202 désormais !
 
+
+
+## Soutiens nous
+
+Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
+
+## Note la formation
+
+Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de 
+
 ## Interview avec Fanis sur la vie privée dans Lightning
 
 ![interview avec Fanis](https://youtu.be/VeJ4oJIXo9k)
-
-##

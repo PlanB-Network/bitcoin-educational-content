@@ -1,57 +1,30 @@
 ---
 name: Sécurité informatique & gestion des données
 goal: Remettre à jour la gestion de mots de passe et des données personnelles. Création d’un backup, se protéger des hackers et se sensibiliser à la surveillance de masse.
----
+objectifs: 
+  - Remettre à jour sur la gestion de vos données personnelles et sur les outils qui renforcent votre sécurité.
+  - Mettre en place un gestionnaire de mots de passe sécurisé et facile d'utilisation
+  - Mettre en place un deux facteurs d'authentification pour renforcer votre sécurité et minimiser les risques de hack
 
-![affiche du cours](assets/vignettesecu101_fr.png)
+---
 
 # Un voyage vers la protection de vos données
 
-Il est important de comprendre que les mots de passe simples et réutilisés peuvent être facilement piratés par des hackers, qui peuvent exploiter vos informations personnelles à des fins malveillantes. Pour éviter cela, nous allons vous montrer comment utiliser un gestionnaire de mots de passe sécurisé comme Bitwarden et migrer vos mots de passe depuis d’autres services de stockage. Nous allons aborder l’importance de la protection de vos données personnelles, notamment en utilisant des sauvegardes sur des disques durs externes et des pseudonymes pour masquer votre identité en ligne. Nous discuterons également de qui est le mieux placé pour protéger l’utilisateur : les entreprises, la régulation ou l’utilisateur lui-même
+Il est important de comprendre que les mots de passe simples et réutilisés peuvent être facilement piratés par des hackers, qui peuvent exploiter vos informations personnelles à des fins malveillantes. 
 
-Qu’allez-vous apprendre durant ce cours ?
+Pour éviter cela, nous allons vous montrer comment utiliser un gestionnaire de mots de passe sécurisé comme Bitwarden et migrer vos mots de passe depuis d’autres services de stockage. Nous allons aborder l’importance de la protection de vos données personnelles, notamment en utilisant des sauvegardes sur des disques durs externes et des pseudonymes pour masquer votre identité en ligne. 
 
-L’objectif final est de vous remettre à jour sur la gestion de vos données personnelles et sur les outils qui renforcent votre sécurité.
-Remise à niveau : remettre à jour votre sécurité en ligne.
-S'organiser : mettre en place un gestionnaire de mots de passe sécurisé et facile d'utilisation
-Les facteurs d'authentification : la solution pour renforcer votre sécurité et minimiser les risques de hack
+Nous discuterons également de qui est le mieux placé pour protéger l’utilisateur : les entreprises, la régulation ou l’utilisateur lui-même
 
-Si ce plan vous convient, je vous invite à suivre mon cours. Vous pouvez aller à votre rythme et faire comme bon vous semble. Le cours contient de nombreux tutoriels pensés pour être le plus compréhensible pour ceux qui débutent.
 
-En espérant vous retrouver bientôt. Merci pour votre intérêt dans mon projet.
-
-Pas convaincu(e) ? Retrouvez en détail le cours : SECU 101 – Curriculum
-
-Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
+                Team contributeurs:
+                        Renaud Lifchitz - professeur
+                        Thép Pantamis – Professeur
+                        Muriel – Design
+                        Rogzy, Noury & Fabian – Production
+                        Théo- Contribution
 
 +++
-
-A propose du prof.
-
-Rogzy
-
-Salut !
-
-Bitcoin est un outil de libération financière. En apprenant à l’utiliser, vous pouvez devenir votre propre banque, sortir du système traditionnel et regagner le contrôle de votre épargne. La révolution Bitcoin est déjà en marche et ne peut plus être arrêtée.
-
-À travers ce contenu gratuit, vous aurez toutes les cartes pour vous lancer et réussir à devenir un citoyen souverain et libre au 21ème siècle.
-
-À votre tour de vous lancer. Mes DM sont toujours ouvert si vous avez des questions !
-
-Rogzy
-
-Pantamis
-
-Renaud Lifchitz - Expert en cybersécurité
-
-Team contributeurs:
-
-        Rogzy, Noury & Fabian – Production
-        Renaud & Pantamis – Interview
-        Muriel – Design
-        Théo- Contribution
-
----
 
 # Sécurité 101 : Raffinement de votre Hygiène Numérique
 
@@ -93,11 +66,11 @@ Ce programme de formation est offert gratuitement sous une licence redistribuabl
 
 Lors de la navigation sur internet, il est important d'éviter certaines erreurs courantes pour préserver sa sécurité en ligne. Voici quelques conseils pour les éviter :
 
-- Erreur liée aux téléchargements de logiciels : Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques. Il est également conseillé de privilégier les logiciels open source et gratuits, car ils sont souvent plus sûrs et exempts de logiciels malveillants.
+* Erreur liée aux téléchargements de logiciels : Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques. Il est également conseillé de privilégier les logiciels open source et gratuits, car ils sont souvent plus sûrs et exempts de logiciels malveillants.
 
-- Erreur liée aux navigateurs web : Il existe deux grandes familles de navigateurs, ceux basés sur Chrome et ceux basés sur Firefox. Bien que les deux familles de navigateurs offrent un niveau de sécurité similaire, il est conseillé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Il peut être nécessaire d'utiliser différents navigateurs pour accéder à certains sites. L'utilisation du navigateur Brave peut être recommandée en raison de son bloqueur de publicités intégré. Il est également important de limiter le nombre d'extensions installées pour éviter les problèmes de sécurité et de performance.
+* Erreur liée aux navigateurs web : Il existe deux grandes familles de navigateurs, ceux basés sur Chrome et ceux basés sur Firefox. Bien que les deux familles de navigateurs offrent un niveau de sécurité similaire, il est conseillé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Il peut être nécessaire d'utiliser différents navigateurs pour accéder à certains sites. L'utilisation du navigateur Brave peut être recommandée en raison de son bloqueur de publicités intégré. Il est également important de limiter le nombre d'extensions installées pour éviter les problèmes de sécurité et de performance.
 
-- Erreur liée à la gestion des cookies : Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Certains sites nécessitent l'utilisation de cookies pour fonctionner correctement, cependant, il est important de noter que les cookies peuvent également être partagés avec des sites tiers à des fins de suivi publicitaire. Selon les réglementations telles que le RGPD, il est possible de refuser les cookies de suivi tiers. Il est recommandé d'accepter uniquement les cookies nécessaires au bon fonctionnement du site et de supprimer les cookies une fois que vous avez quitté le site, en utilisant une extension ou un programme dédié à la gestion des cookies.
+* Erreur liée à la gestion des cookies : Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Certains sites nécessitent l'utilisation de cookies pour fonctionner correctement, cependant, il est important de noter que les cookies peuvent également être partagés avec des sites tiers à des fins de suivi publicitaire. Selon les réglementations telles que le RGPD, il est possible de refuser les cookies de suivi tiers. Il est recommandé d'accepter uniquement les cookies nécessaires au bon fonctionnement du site et de supprimer les cookies une fois que vous avez quitté le site, en utilisant une extension ou un programme dédié à la gestion des cookies.
 
 ### Les navigateurs web : choix, sécurité et gestion des cookies
 

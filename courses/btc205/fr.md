@@ -10,13 +10,14 @@ objectives:
 
 # Un voyage vers le monde du non-KYC
 
-:[affiche du cours](assets\btc_205_vignette_presentation_03.png)
-
 Pierre nous propose ce cours qui nous plonge dans les différentes solutions existantes pour acheter et vendre des bitcoins en pair à pair. L’achat en pair à pair est complètement légal et permet d’avoir plus d’anonymat, en effet ces solutions ne sont pas KYC. Le KYC (Know Your Customer) est une règle des régulateurs de marchés (AMF) qui consiste à demander la pièce d’identité au client souhaitant acheter ou vendre du bitcoin.Ces règles ont pour but d’empêcher le blanchiment d’argent, le financement du terrorisme et l’évasion fiscale. Au risque d’importantes conséquences pour l’utilisateur, le KYC a pour objectif de défendre et de protéger son utilisateur, bien que c’est très souvent l’effet inverse qui est observé.
 
-Nous allons donc explorer les différents types de KYC (les full KYC type France, les KYC Light type Suisse et les non-KYC type pair à pair). Pierre nous présentera plus de 6 solutions, vous aurez donc toutes les cartes en main pour découvrir laquelle vous correspond. Si vous souhaitez une solution KYC, sachez qu’elles sont présentes dans la formation BTC 102.
+Ces règles ont pour but d’empêcher le blanchiment d’argent, le financement du terrorisme et l’évasion fiscale. Au risque d’importantes conséquences pour l’utilisateur, le KYC a pour objectif de défendre et de protéger son utilisateur, bien que c’est très souvent l’effet inverse qui est observé.
+
+Nous allons donc explorer les différents types de KYC (les full KYC type France, les KYC Light type Suisse et les non-KYC type pair à pair). Pierre nous présentera plus de 6 solutions, vous aurez donc toutes les cartes en main pour découvrir laquelle vous correspond.
 
 +++
+
 
 # Introduction
 
@@ -117,6 +118,15 @@ Outre les solutions P2P, il existe d'autres options d'échange de cryptomonnaies
 
 ## Robosats
 
+![cover](assets/robo.jpeg)
+
+RoboSats est un moyen facile d'échanger privément des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning Hold pour réduire au minimum les besoins en garde et en confiance.
+
+Site:https://unsafe.robosats.com/
+GitHub: https://github.com/RoboSats/robosats
+
+Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
+
 ![robosats](https://tube.nuagelibre.fr/videos/watch/1978a2e0-64a0-4437-9229-7614cdf5bf61?start=0s)
 
 [RoboSat](https://learn.robosats.com/) est un projet open source développé par Reckless Satoshi afin d'échanger de manière privée des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning pour réduire au minimum les besoins de custody et de confiance. Pour l'utiliser, nous aurons besoin de Tor, un réseau de communication anonyme.
@@ -147,7 +157,9 @@ Voyons maintenant les étapes pour la vente de bitcoins sur Robosats:
 
 ## BISQ: solution d'achat en peet à peer
 
-[Bisq](https://bisq.network/) est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.
+![cover](assets\bisq.jpeg)
+
+Bisq est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.
 
 🚨 Veuillez faire preuve de prudence lorsque vous utilisez Bisq, car il s'agit d'une solution avancée. Elle peut ne pas convenir aux utilisateurs débutants. Assurez-vous d'avoir une certaine expérience et compréhension avant de vous lancer. 🚨
 
@@ -260,6 +272,8 @@ En utilisant ces méthodes, vous pouvez acheter et vendre des bitcoins sur Teleg
 
 ## Peach Bitcoin
 
+![cover](assets/peach.jpeg)
+
 site: https://peachbitcoin.com/
 
 Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
@@ -280,7 +294,9 @@ En somme, l'application mobile Peach offre une solution accessible pour acheter 
 
 ## Hold Hodl
 
-[HodlHodl](https://hodlhodl.com/) est une place de marchée de Bitcoin décentralisée qui accorde la priorité au contrôle et à la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre les utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
+![cover](assets/hodl.jpeg)
+
+Hodl Hodl est une bourse de Bitcoin décentralisée qui accorde la priorité au contrôle et à la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre les utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
 
 ![hodlhodl tutoriel](https://youtu.be/BDH9jE7kpD8)
 

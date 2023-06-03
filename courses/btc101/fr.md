@@ -8,7 +8,7 @@ objectives:
   - Etre familiarisé avec le concept du Litghning Network
   - Réaliser l’impact géopolitique et social que représente Bitcoin
 ---
-
+![cover](assets\thumbnail.png)
 # Votre première aventure Bitcoin
 
 Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: mineurs, portefeuille, plateforme d’achat/vente, etc…
@@ -452,13 +452,13 @@ Milton Friedman, un économiste renommé, avait prédit en 1999: "I think that t
 
 ![hyper-bitoinisation](assets/posters/fr/18_hyperbitcoinisation_crop.png)]
 
-### Soutient nous
+## Soutiens nous
 
-**texte à ajouter**
+Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
 
-### Note la formation
+## Note la formation
 
-**texte à ajouter**
+Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 
 # Le Lightning Network
 
@@ -514,12 +514,18 @@ En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation pas
 
 ![pilule rouge](assets/posters/fr/2_pilluleorange.png)
 
+Comme le disait Morpheus à Néo : Choisir la pilule bleue pour arrêter, la rouge pour descendre dans le terrier du bitcoin. 
+
+### L'avenir technologique et ses implications
+
 La technologie évolue de manière exponentielle et personne ne peut prédire avec certitude son futur. La connectivité et les intelligences artificielles seront de plus en plus développées. Les connaissances acquises grâce à internet sont également exponentielles.
 Les IA ont déjà surpassé les humains dans les jeux vidéo, les jeux de société, la création de films, de textes et de musique. Cela signifie que 80% des emplois vont disparaître à cause de l'IA et de l'automatisation. Nous avons donc deux options pour le futur : brider l'évolution ou récolter l'augmentation du capital créé par les IA et le redistribuer à la population.
 
 Les questions indispensables à poser sont : comment gérer une société où 80% des emplois vont disparaître ? Comment redynamiser une population ? Est-ce qu'il y a besoin d'autant de profs ? Les conséquences géopolitiques, politiques et humaines de l'automatisation ne sont pas suffisamment discutées. L'informatique, Internet, le stream, la VR vont changer l'éducation. On pourrait avoir un cours universel à tous les étudiants français gérés par le gouvernement et des profs qui ne font plus le cours, mais qui accompagnent les élèves. Les enfants pourraient aller dans un monde virtuel et être accompagnés pour apprendre l'histoire. Où est la limite entre un prof et une IA ? Comment garantir une société qui vit dans la prospérité ? Les questions fondamentales pour notre futur ne sont pas mises dans le débat.
 
-Morpheus explique la Matrice à Néo : un monde de prison où l'esprit est enchaîné. Choisir la pilule bleue pour arrêter, la rouge pour descendre dans le terrier du bitcoin. Des questions sur qui doit détenir, autoriser et tracer l'argent, et sur l'égalité dans la monnaie. La finalité est de décider entre un système fermé avec des gardiens ou un système ouvert sans gardien. La monnaie est-elle un titre de propriété privée ? Les comptes des manifestants peuvent-ils être bloqués sans ordre de la Cour suprême ? La propriété privée permet-elle à l'État et aux banques de voler notre argent sans intervention de la justice ? Qui garantit le système financier ? Comment un individu peut-il être souverain de son argent et être un tiers de confiance ? Peut-on envoyer de l'argent à l'autre bout du monde sans frais ni intermédiaire ? Accepter cette technologie pourrait générer des économies d'échelle massives pour les plus pauvres. Devrait-on autoriser la libre circulation des flux de capitaux ? Les blocages internationaux ont des conséquences économiques et politiques. Est-il éthique d'utiliser des intermédiaires financiers comme Western Union qui prennent 25% de frais ? Dans un monde numérique, l'argent devrait être démocratisé et considéré comme un bien commun appartenant au peuple plutôt qu'à l'Etat.
+### Quel avenir pour la finance ?
+
+Il y a également des questions sur qui doit détenir, autoriser et tracer l'argent. La finalité est de décider entre un système fermé avec des gardiens ou un système ouvert sans gardien. La monnaie est-elle un titre de propriété privée ? Les comptes des manifestants peuvent-ils être bloqués sans ordre de la Cour suprême ? La propriété privée permet-elle à l'État et aux banques de voler notre argent sans intervention de la justice ? Qui garantit le système financier ? Comment un individu peut-il être souverain de son argent et être un tiers de confiance ? Peut-on envoyer de l'argent à l'autre bout du monde sans frais ni intermédiaire ? Accepter cette technologie pourrait générer des économies d'échelle massives pour les plus pauvres. Devrait-on autoriser la libre circulation des flux de capitaux ? Les blocages internationaux ont des conséquences économiques et politiques. Est-il éthique d'utiliser des intermédiaires financiers comme Western Union qui prennent 25% de frais ? Dans un monde numérique, l'argent devrait être démocratisé et considéré comme un bien commun appartenant au peuple plutôt qu'à l'Etat.
 
 La question de qui doit contrôler le système bancaire est cruciale, car les règles du jeu bancaire ne sont pas transparentes et compréhensibles par tous, ce qui permet à une caste de politiciens et de régulateurs de garder leur emprise sur le système. Il est important de se demander si le marché libre ou un groupe d'intellectuels devrait contrôler le système bancaire.
 
@@ -542,21 +548,19 @@ Les utilisateurs peuvent obtenir des Bitcoins en les acceptant pour leur commerc
 Changer le système nécessite de changer la monnaie. La décorrélation entre l'or, les ressources, l'argent et le monde réel crée des inégalités dans la société. Satoshi a créé Bitcoin en 2008 pour pallier à cette situation. L'argent absolu corrompt également. Un reset monétaire complet est nécessaire pour régler certains problèmes de la société.
 Bitcoin permet l'émancipation du système bancaire et plus d'égalité. C'est un phénomène social et mène à une révolution pacifique.
 
-# Continuez à creuser le terrier du lapin
+# Remmerciment et continuez à creuser le terrier du lapin
 
 ![Rmerciement et allez plus loin](https://youtu.be/A2P5GdkgB-M)
 
-Tout d'abord, je tiens à remercier tous ceux qui ont participé à cette formation théorique sur Bitcoin, qui a été très utile pour comprendre les bases de cette technologie révolutionnaire.
-Maintenant, passons à la pratique. Avec la formation BTC-102, nous allons vous montrer comment obtenir vos premiers Bitcoins, comment utiliser les portefeuilles et les plateformes d'échange, et comment effectuer des transactions en toute sécurité.
-Nous vous proposons également, avec la formation LN-201, des tutoriels sur le Lightning Network avec Umbrel, une technologie de deuxième couche qui permet des transactions instantanées et à faible coût. Fannis vous expliquera en détail le fonctionnement du Lightning Network avec la formation LN-202.
-Nous mettons également à votre disposition des quiz pour tester vos connaissances sur Bitcoin. Nous avons une newsletter, un questionnaire, un site Internet avec une librairie et des ressources, ainsi qu'un podcast live tous les dimanches à 18h sur Twitter avec un replay disponible le lundi sur YouTube et un podcast disponible sur toutes les plateformes.
-Tout cela est 100% gratuit grâce aux donateurs, Patreon et aux gens qui nous soutiennet via le e-commerce. Nous sommes là pour vous aider à ne pas louper le coche de la révolution monétaire, financière et technologique de Bitcoin.
+Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. Votre découverte du bitcoin n'en est qu'à ses débuts et je vous invite à découvrir toutes les autres formations disponibles sur l'université.
 
-Je suis très heureux de vous avoir présenter les 21 posters que nous avons réalisés pour l'événement Surfing Bitcoin à Biarritz.
-Nous avons travaillé dur pendant un mois pour créer ces posters, avec l'aide de Joss et John de Stacking Sat, les organisateurs de l'événement, qui ont cru en notre artiste pour réaliser le projet.
+* BTC 102 vous aidera à mettre en place votre plan bitcoin,
+* LN 201 et 202 vous permettront de découvrir le réseau de couche 2,
+* ECON 201 abordera l'économie autrichienne,
+* SECU 101 vous permettra de mettre à jour votre sécurité,
+* MINAGE 201 pour en savoir plus sur le minage,
+(et bien d'autres).
 
-D'autres personnes ont également contribué aux illustrations, notamment Ishani et Sarah. Rachel était derrière la caméra et a aidé à créer le projet. Les HODLers (proches de l'artiste dans la communauté Bitcoin) ont également apporté leur aide avec des feedbacks, notamment John, Guillaume, Lounès et Fanis.
-Nous tenons à remercier également la communauté Twitter, YouTube et Discord pour leur soutien et leur aide. Des correcteurs ont également aidé à corriger les fautes de dyslexie de l'artiste dans les posters et les livres.
-Nous sommes reconnaissants pour les likes et partages que nous avons reçus. Cette formation est utile pour aider les gens et nous avons des ressources supplémentaires disponibles sur la chaîne YouTube, les réseaux sociaux, le site DécouvreBitcoin et la librairie.
-Nous sommes ouverts aux feedbacks, même négatifs, car nous sommes constamment à la recherche de moyens d'améliorer nos formations. DécouvreBitcoin continue d'être le premier média francophone 100% Bitcoin.
-Nous tenons à remercier nos Patreons et Muriel pour leur soutien financier et créatif. Enfin, je vous adresse mes salutations finales de la part de Roxy.
+Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Rachel, Muriel, l'équipe de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, les correcteurs et les relecteurs.
+
+À bientôt!

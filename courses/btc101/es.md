@@ -8,7 +8,7 @@ objectives:
   - Estar familiarizado con el concepto del Lightning Network
   - Realizar el impacto geopolítico y social que representa Bitcoin
 ---
-
+![cover](assets\thumbnail.png)
 # Tu primera aventura en Bitcoin
 
 En este curso, te explicaré Bitcoin en 21 capítulos para que puedas entender esta tecnología de manera simple y efectiva. El curso es accesible para todos y explora la industria en su conjunto: mineros, cartera, plataforma de compra/venta, etc.
@@ -411,11 +411,11 @@ Si desea ampliar sus conocimientos sobre Bitcoin, muchos autores, pensadores y e
 
 ## Apóyanos
 
-**texto a añadir**
+Este curso, así como todo el contenido de esta universidad, se le ha ofrecido gratuitamente por nuestra comunidad. Para apoyarnos, puede compartirlo con quienes le rodean, convertirse en miembro de la universidad e incluso contribuir a su desarrollo a través de GitHub. En nombre de todo el equipo, ¡gracias!
 
 ## Califica la formación
 
-**texto a añadir**
+Un sistema de calificación para la formación se integrará pronto en esta nueva plataforma de E-learning! Mientras tanto, muchas gracias por asistir al curso y si lo disfrutaste, considera compartirlo con otros.
 
 # Capítulo 5 - La red Lightning
 
@@ -461,14 +461,50 @@ El concepto de "streaming de dinero" es una visión para el futuro que es posibl
 
 ![pilule rouge](assets/posters/esp/2._la_pastilla_bitcoin.png)
 
-**falta el curso**
+Como decía Morpheus a Neo: Elije la pastilla azul para detenerte, la roja para descender a la madriguera del bitcoin.
+### El futuro tecnológico y sus implicaciones
+
+La tecnología evoluciona de manera exponencial y nadie puede predecir con certeza su futuro. La conectividad y las inteligencias artificiales estarán cada vez más desarrolladas. El conocimiento adquirido a través de internet también está creciendo de manera exponencial. Las IA ya han superado a los humanos en videojuegos, juegos de mesa, creación de películas, textos y música. Esto significa que el 80% de los trabajos desaparecerán debido a la IA y la automatización. Por lo tanto, tenemos dos opciones para el futuro: limitar la evolución o cosechar el aumento de capital creado por las IA y redistribuirlo a la población.
+
+Las preguntas indispensables a plantear son: ¿cómo gestionar una sociedad donde el 80% de los empleos van a desaparecer? ¿Cómo revitalizar una población? ¿Realmente necesitamos tantos profesores? Las consecuencias geopolíticas, políticas y humanas de la automatización no se discuten lo suficiente. La informática, Internet, la transmisión en streaming, la realidad virtual cambiarán la educación. Podríamos tener un curso universal para todos los estudiantes franceses gestionado por el gobierno y profesores que ya no dan clases, sino que acompañan a los alumnos. Los niños podrían ir a un mundo virtual y ser acompañados para aprender historia. ¿Dónde está el límite entre un profesor y una IA? ¿Cómo garantizar una sociedad que vive en prosperidad? Las preguntas fundamentales para nuestro futuro no están siendo discutidas suficientemente.
+
+### ¿Qué futuro para las finanzas?
+
+También hay preguntas sobre quién debería poseer, autorizar y rastrear el dinero. El objetivo es decidir entre un sistema cerrado con guardianes o un sistema abierto sin guardianes. ¿Es el dinero un título de propiedad privada? ¿Se pueden bloquear las cuentas de los manifestantes sin una orden de la Corte Suprema? ¿La propiedad privada permite al Estado y a los bancos robar nuestro dinero sin intervención judicial? ¿Quién garantiza el sistema financiero? ¿Cómo puede un individuo ser soberano de su dinero y ser un tercero de confianza? ¿Se puede enviar dinero al otro lado del mundo sin costos ni intermediarios? Aceptar esta tecnología podría generar ahorros masivos para los más pobres. ¿Deberíamos permitir la libre circulación de flujos de capital? Los bloqueos internacionales tienen consecuencias económicas y políticas. ¿Es ético utilizar intermediarios financieros como Western Union que cobran un 25% de comisión? En un mundo digital, el dinero debería ser democratizado y considerado un bien común perteneciente al pueblo en lugar del Estado.
+
+La pregunta de quién debe controlar el sistema bancario es crucial, porque las reglas del juego bancario no son transparentes y comprensibles para todos, lo que permite a una casta de políticos y reguladores mantener su control sobre el sistema. Es importante preguntarse si el mercado libre o un grupo de intelectuales debería controlar el sistema bancario.
+
+La censura debe ser cuestionada porque ¿quién tiene el conocimiento para decidir qué debe ser censurado o no? Los medios han cambiado su posición sobre ciertas informaciones (por ejemplo, la transmisión del virus) y las personas que fueron censuradas antes ya no lo son hoy. ¿Quién decide qué es censura o propaganda? ¿Quién tiene la mano divina sobre nuestro sistema? Tolerar la censura puede destruir la libertad de expresión y el derecho de reunión. Implementar la censura es técnicamente difícil sin crear una completa distopía. ¿Qué entidad debería tener el poder de censura? La cuestión de la censura es complicada y es difícil saber quién debería ser censurado o no. La censura puede tener un impacto negativo en la innovación y la libertad de emprender. La religión es un ejemplo de censura que ha tenido consecuencias negativas en la historia.
+
+Hay 2,4 mil millones de personas en el mundo sin cuenta bancaria, lo que crea desigualdades. Bitcoin permite ser iguales en transacciones, independientemente de su estatus social o posición política. El protocolo Bitcoin es apolítico y no otorga privilegios específicos al presidente u otros actores. Los líderes deberían tener los mismos privilegios que las personas comunes para impulsar el desarrollo hacia arriba en lugar de dejar a algunos en la cima y a otros en el fondo. ¿Debería todo el mundo tener la misma moneda, sin importar su estatus social? Es importante pensar en el mundo que queremos dejar a nuestros hijos, un mundo abierto donde son libres de hacer lo que quieran con su dinero.
+
+Bitcoin es importante y no debe ser considerado simplemente como un juego de dinero. Es crucial hacer preguntas sobre Bitcoin ahora mismo.
 
 # Conclusión general del curso
 
-# Seguir adelante
+El protocolo Bitcoin es apolítico, permite registrar todas las transacciones en una base de datos, la blockchain, que garantiza la verdad monetaria. Las capas de infraestructura de nivel 2 y 3 permiten evolucionar la red y desarrollar nuevas características.
+Bitcoin está diseñado como ingeniería nuclear o espacial, evoluciona lentamente y deliberadamente para alcanzar una masa crítica de 7 mil millones de personas sin romper la red. Bitcoin tiene todas las características necesarias para ser una moneda: divisible, transportable al instante, no censurable, fácilmente trasladable, e ideal para mantener su valor en el tiempo. Bitcoin es pseudo-anónimo y puede ser intercambiado en cualquier parte del mundo sin permiso.
 
-**texto para destacar otros cursos**
+Bitcoin ha sido adoptado por diferentes grupos de personas, desde geeks libertarios hasta empresas tradicionales. Bitcoin es utilizado por una gran parte de la población, con más de 100 millones de usuarios. Bitcoin ya no puede ser detenido ni censurado. Es una revolución pacífica para cambiar nuestro sistema monetario y permitir la inclusividad.
+Los usuarios pueden obtener Bitcoins aceptándolos por su comercio o comprándolos a través de plataformas reguladas o no. Los Bitcoins pueden ser almacenados en carteras, aplicaciones móviles o dispositivos físicos. No hay intermediario de confianza en Bitcoin. Bitcoin defiende la libertad y una salida del sistema tradicional.
 
-# Agradecimiento y crédito
+Cambiar el sistema requiere cambiar la moneda. La descorrelación entre el oro, los recursos, el dinero y el mundo real crea desigualdades en la sociedad. Satoshi creó Bitcoin en 2008 para abordar esta situación. El dinero absoluto también corrompe. Un reseteo monetario completo es necesario para resolver algunos problemas de la sociedad.
+Bitcoin permite la emancipación del sistema bancario y más igualdad. Es un fenómeno social y conduce a una revolución pacífica.
 
-Este curso se centra en la teoría y la práctica de Bitcoin. Fue diseñado gracias a la contribución de muchas personas dedicadas, incluyendo a Muriel por la creación de los visuales, Ishani, Sarah, Rachel por su valiosa ayuda, así como a Joss y John de Stacking Sat, y toda la comunidad de hodlers en Twitter, YouTube y Discord.
+
+
+# Seguir adelante Agradecimiento y crédito
+
+
+¡Felicitaciones por completar el curso BTC 101! Espero de todo corazón que te haya gustado y te haya abierto puertas. Tu descubrimiento del bitcoin está apenas comenzando y te invito a explorar todos los demás cursos disponibles en la universidad.
+
+    BTC 102 te ayudará a desarrollar tu plan de bitcoin,
+    LN 201 y 202 te permitirán descubrir la red de capa 2,
+    ECON 201 abordará la economía austriaca,
+    SECU 101 te permitirá actualizar tus conocimientos de seguridad,
+    MINAGE 201 te brindará más información sobre la minería,
+    (y muchos más).
+
+Un enorme agradecimiento a nuestros Patreons, miembros y donantes por su apoyo financiero. Gracias a quienes comparten y a todos los que hicieron posible este curso: Rachel, Muriel, el equipo de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, los correctores y revisores.
+
+¡Hasta pronto!

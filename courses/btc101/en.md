@@ -8,7 +8,7 @@ objectives:
   - Be familiar with the concept of the Lightning Network
   - Realize the geopolitical and social impact that Bitcoin represents
 ---
-
+![cover](assets\thumbnail.png)
 # Your First Bitcoin Adventure
 
 In this course, I will explain Bitcoin in 21 chapters so that you can understand this technology in a simple and effective way. The course is accessible to everyone and explores the industry as a whole: miners, wallets, buying/selling platforms, etc.
@@ -37,6 +37,8 @@ Our next topic of study will focus on the definition and functioning of money in
 
 ## 0. The Prehistory of Bitcoin
 
+![](https://www.youtube.com/watch?v=ljHLhTzrLsw)
+
 ![The Prehistory of Bitcoin](assets/posters/en/1._bitcoin_prehistory.png)
 
 ### The Foundations of Bitcoin and the Cypherpunk Movement
@@ -58,6 +60,8 @@ Bitcoin is both a digital currency and an information protocol. As such, it was 
 
 ![Money](assets/posters/en/3._money.png)
 
+![Dinheiro](https://youtu.be/LslJVNCvHhA)
+
 ### The evolution of money throughout history
 
 The evolution of money is a fascinating aspect of human history, reflecting the ingenuity of civilizations throughout the ages to meet constantly evolving economic needs. The earliest forms of money were tangible in nature, often tangible consumer goods such as cereals or livestock. However, for about 4000 years, gold has become a universally recognized standard. Gold ideally meets the criteria of an effective currency: its natural rarity makes it valuable, while its divisibility and transportability make it practical for trade. In addition, extracting gold from the earth requires a significant amount of energy, reinforcing its intrinsic value. However, with the advent of technology and the expansion of the global economy, gold has gradually been abandoned in favor of more practical solutions, such as bills and digital currencies.
@@ -77,6 +81,7 @@ In the face of challenges posed by current monetary systems, alternatives are be
 ## 1.2 Fiat currencies
 
 ![Fiat currencies](assets/posters/en/4._fiat_currency.png)
+![Fiat currencies](https://youtu.be/1hOrDrmT27g)
 
 ### Fiat currencies and their impact on the financial system
 
@@ -102,6 +107,7 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of c
 ## 1.3 Hyperinflation
 
 ![Hyperinflation](assets/posters/en/5._hyperinflation.png)
+![](https://youtu.be/cYKmgflsy_8)
 
 ### Hyperinflation in a Fiat Monetary System
 
@@ -119,6 +125,7 @@ Knowing about hyperinflation and understanding how it occurs is one thing, but h
 ## 1.4 21 million bitcoins
 
 ![21 million bitcoins](assets/posters/en/6._21_millions.png)
+![21 milhões de Bitcoin](https://youtu.be/Y92R4EWk5uo)
 
 ### Bitcoin Monetary Emission
 
@@ -138,6 +145,7 @@ The fixed quantity of bitcoins, initially set at 21 million, cannot be changed. 
 ## 2.1 Explanation of Bitcoin Wallets
 
 ![Explanation of Bitcoin Wallets](assets/posters/en/8._what_is_a_bitcoin_wallet.png)
+![entendendo as carteiras Bitcoin](https://youtu.be/GsnX7qdODK8)
 
 ### Bitcoin Wallets: Storage and Security
 
@@ -154,6 +162,7 @@ The probability of a hack of your Bitcoin wallet is astronomically low if you fo
 ## 2.2 Choosing Your Security
 
 ![Choosing Your Security](assets/posters/en/9._choose_the_right_wallet.png)
+![Escolhendo sua segurança](https://youtu.be/qhjEJuJHRf8)
 
 ### Wallets and Fund Security
 
@@ -175,6 +184,7 @@ In conclusion, direct ownership of your Bitcoins is essential to ensure financia
 ## 2.3 Setting up a wallet
 
 ![setting up a wallet](assets/posters/en/10._set_up_your_wallet.png)
+![mettre en place un portefeuille](https://youtu.be/2MRRERHm7ZM)
 
 ### Basic rules for secure management of your Bitcoin wallet
 
@@ -200,6 +210,7 @@ Once the copies are made, store the lists of words in folders, in a safe place w
 ## 2.4 Passing the Test of Time
 
 ![passing the test of time](assets/posters/en/19._think_long_term.png)
+![passar no teste do tempo](https://youtu.be/p8eZPt_XnwI)
 
 ### Securing Bitcoins for the Long Term
 
@@ -223,6 +234,7 @@ The security of your bitcoins in the long term is not limited to creating physic
 ## 3.1 Launch of Bitcoin
 
 ![Launch of Bitcoin](assets/posters/en/7._lancement_bitcoin.png)
+![Lançamento do Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
 ### The Emergence of Bitcoin
 
@@ -246,6 +258,7 @@ Bitcoin is an unprecedented innovation in the financial world. Despite challenge
 ## 3.2 Explanation of a Transaction
 
 ![Explanation of a Transaction](assets/posters/en/11._explaination_of_a_transaction.png)
+![Explicação de uma transação](https://youtu.be/GJlUqtGzxLk)
 
 ### Bitcoin Transactions: The Fund Transfer Process
 
@@ -262,6 +275,7 @@ After validation by miners, the block is added to the blockchain, which is an im
 ## 3.3 Bitcoin Nodes
 
 ![Bitcoin nodes](assets/posters/en/12._nodes.png)
+![os nós do Bitcoin](https://youtu.be/3vQmDJ4_ooM)
 
 Nodes are a fundamental element of the Bitcoin network architecture. They perform various crucial functions, including maintaining the blockchain, participating in network decentralization, guiding the system, and validating transactions.
 
@@ -290,6 +304,7 @@ In summary, nodes, whether embodied by physical devices or online software, play
 ## 3.4 Miners
 
 ![Miners](assets/posters/en/13._miners.png)
+![os mineradores](https://youtu.be/Lr5L3uy244w)
 
 ### Key Actors in the Bitcoin Network: Miners
 
@@ -319,6 +334,7 @@ Bitcoin mining is a complex but essential process for the functioning and securi
 ## 3.5 Bitcoin and ecology
 
 ![Bitcoin & ecology](assets/posters/en/14._ecological_debate.png)
+![Bitcoin & ecologia](https://youtu.be/nV2b2xAMfmU)
 
 ### The importance of Bitcoin for financial freedom and the fight against oppression
 
@@ -339,6 +355,7 @@ Current Keynesian economics, unlike Austrian economics, does not take into accou
 ## 4.1 Bitcoin never sleeps!
 
 ![Bitcoin never sleeps](assets/posters/en/15._bitcoinr_never_sleeps.png)
+![O Bitcoin nunca dorme](https://youtu.be/7535MAeHzxM)
 
 ### Understanding Bitcoin Price and Healthy Savings
 
@@ -368,6 +385,7 @@ Do not spend more money than you can afford to lose. Always exercise due diligen
 ## 4.2 Obtaining bitcoins by working
 
 ![Obtaining bitcoins by working](assets/posters/en/17._earn_your_bitcoin.png)
+![Obter bitcoins trabalhando](https://youtu.be/sHkadVRUQF8)
 
 ### Acquiring bitcoins through work
 
@@ -387,6 +405,7 @@ Accepting Bitcoin is a practice that is becoming more common in France, allowing
 ## 4.3 Saving with Bitcoin
 
 ![saving with bitcoin](assets/posters/en/16._saving_in_bitcoin.png)
+![poupança em bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
 ### Introduction to Bitcoin and Associated Risks
 
@@ -401,6 +420,7 @@ After purchase, it is advisable to immediately withdraw Bitcoins from exchange p
 ## 4.4 Hyper-Bitcoinization
 
 ![hyper-bitcoinization](assets/posters/en/18._hyperbitcoinization.png)]
+![hiper-bitcoinização](https://youtu.be/lLxndxrzXR0)
 
 ### Global Adoption and Diffusion of Bitcoin
 
@@ -421,17 +441,18 @@ If you want to develop your knowledge of Bitcoin, many authors, thinkers, and es
 
 ## Support Us
 
-**text to add**
+This course, as well as all the content on this university, has been offered to you free of charge by our community. To support us, you can share it with those around you, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!
 
 ## Rate the Training
 
-**text to add**
+A grading system for the training will soon be integrated into this new E-learning platform! In the meantime, thank you very much for attending the course and if you enjoyed it, consider sharing it with others.
 
 # Chapter 5 - The Lightning Network
 
 ## 5.1 Introduction to the Lightning Network
 
 ![The Lightning Network](assets/posters/en/20._lightning_network.png)
+![A Lightning Network](https://youtu.be/HFv3NN4z450)
 
 ### The Lightning Network: An Answer to Bitcoin Scalability
 
@@ -453,6 +474,7 @@ The Lightning Network is the future of Bitcoin. The engineering choices for Bitc
 ## 5.2 Use Cases of the Lightning Network
 
 ![LN use cases](assets/posters/en/21._ln_use_cases.png)
+![casos de uso da LN](https://youtu.be/_UV2jmQ8TQM)
 
 ### Microtransactions on the Lightning Network: A Critical Perspective
 
@@ -470,13 +492,51 @@ The concept of "money streaming" is a vision for the future made possible by the
 ## 5.3 Red pill
 
 ![Red pill](assets/posters/en/2._oprange_pill.png)
+![pílula vermelha](https://youtu.be/nCRVIoyyyck)
 
-# General conclusion of the training
+As Morpheus said to Neo: Choose the blue pill to stop, the red one to go down the bitcoin rabbit hole.
 
-# Go further
+### The technological future and its implications
 
-**text to highlight other trainings**
+Technology is evolving exponentially and no one can predict its future with certainty. Connectivity and artificial intelligence will be increasingly developed. The knowledge gained through the internet is also growing exponentially. AI has already surpassed humans in video games, board games, movie creation, texts, and music. This means that 80% of jobs will disappear due to AI and automation. Therefore, we have two options for the future: limit evolution or reap the increase in capital created by AI and redistribute it to the population.
 
-# Thanks and credit
+The indispensable questions to ask are: how to manage a society where 80% of jobs are going to disappear? How to revitalize a population? Do we really need so many teachers? The geopolitical, political, and human consequences of automation are not discussed enough. Computing, the Internet, streaming, virtual reality will change education. We could have a universal course for all French students managed by the government and teachers who no longer teach, but accompany students. Children could go to a virtual world and be accompanied to learn history. Where is the boundary between a teacher and an AI? How to guarantee a society that lives in prosperity? The fundamental questions for our future are not being discussed sufficiently.
 
-This course focuses on the theory and practice of Bitcoin. It was designed with the contribution of many dedicated individuals, including Muriel for the creation of visuals, Ishani, Sarah, Rachel for their invaluable help, as well as Joss and John from Stacking Sat, and the entire hodlers community on Twitter, YouTube, and Discord.
+### What future for finance?
+
+There are also questions about who should own, authorize, and track money. The goal is to decide between a closed system with guardians or an open system without guardians. Is money a private property title? Can the accounts of protesters be blocked without a Supreme Court order? Does private property allow the state and banks to steal our money without judicial intervention? Who guarantees the financial system? How can an individual be sovereign over their money and be a trusted third party? Can money be sent to the other side of the world without costs or intermediaries? Accepting this technology could generate massive savings for the poorest. Should we allow free movement of capital flows? International blockages have economic and political consequences. Is it ethical to use financial intermediaries like Western Union who charge a 25% commission? In a digital world, money should be democratized and considered a common good belonging to the people rather than the state.
+
+The question of who should control the banking system is crucial, as the rules of the banking game are not transparent and understandable to everyone, which allows a caste of politicians and regulators to maintain their grip on the system. It is important to ask whether the free market or a group of intellectuals should control the banking system.
+
+Censorship should be questioned because who has the knowledge to decide what should be censored or not? The media have changed their stance on certain information (e.g., virus transmission) and people who were censored before are no longer so today. Who decides what is censorship or propaganda? Who has the divine hand over our system? Tolerating censorship can destroy freedom of expression and the right to assembly. Implementing censorship is technically difficult without creating a complete dystopia. What entity should have the power to censor? The issue of censorship is complicated and it is difficult to know who should be censored or not. Censorship can have a negative impact on innovation and the freedom to undertake. Religion is an example of censorship that has had negative consequences in history.
+
+There are 2.4 billion people in the world without a bank account, which creates inequalities. Bitcoin allows to be equal in transactions, regardless of social status or political position. The Bitcoin protocol is apolitical and does not grant specific privileges to the president or other actors. Leaders should have the same privileges as ordinary people to push development upwards rather than leaving some at the top and others at the bottom. Should everyone have the same currency, regardless of their social status? It is important to think about the world we want to leave our children, an open world where they are free to do what they want with their money.
+
+Bitcoin is important and should not be considered simply as a money game. It is crucial to ask questions about Bitcoin right now.
+
+
+# General conclusion of the courses
+
+The Bitcoin protocol is apolitical, it allows all transactions to be recorded in a database, the blockchain, which guarantees monetary truth. Level 2 and 3 infrastructure layers allow the network to evolve and develop new features.
+Bitcoin is designed like nuclear or space engineering, it evolves slowly and deliberately to reach a critical mass of 7 billion people and not to break the network. Bitcoin has all the necessary characteristics to be a currency: divisible, instantly transportable, uncensorable, easily movable, and ideal for keeping its value over time. Bitcoin is pseudo-anonymous and can be exchanged anywhere in the world without permission.
+
+Bitcoin has been adopted by different groups of people, from libertarian geeks to traditional companies. Bitcoin is used by a large part of the population, with over 100 million users. Bitcoin can no longer be stopped and can no longer be censored. It is a peaceful revolution to change our monetary system and enable inclusiveness.
+Users can obtain Bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. Bitcoins can be stored in wallets, mobile apps or physical devices. There's no trusted intermediary in Bitcoin. Bitcoin advocates for freedom and an exit from the traditional system.
+
+Changing the system requires changing the currency. The decoupling between gold, resources, money and the real world creates inequalities in society. Satoshi created Bitcoin in 2008 to address this situation. Absolute money also corrupts. A complete monetary reset is necessary to solve some societal problems.
+Bitcoin allows for the emancipation of the banking system and more equality. It is a social phenomenon and leads to a peaceful revolution.
+
+# Go further & thanks and credit
+
+Congratulations on completing the BTC 101 course! I sincerely hope that you enjoyed it and that it has opened doors for you. Your journey into the world of Bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
+
+    BTC 102 will help you develop your Bitcoin plan,
+    LN 201 and 202 will introduce you to the Layer 2 network,
+    ECON 201 will delve into the Austrian economy,
+    SECU 101 will update your security knowledge,
+    MINAGE 201 will provide further insights into mining,
+    (and many more).
+
+A huge thank you to our Patrons, members, and donors for their financial support. Thank you to those who share and to everyone who made this course possible: Rachel, Muriel, the StackinSat team, JohnOnChain, Fanis, Guillaume, Lounes, the proofreaders, and reviewers.
+
+See you soon!

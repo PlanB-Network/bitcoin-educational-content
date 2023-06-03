@@ -10,11 +10,11 @@ objectives:
 
 # Un voyage vers le monde du non-KYC
 
+:[affiche du cours](assets\btc_205_vignette_presentation_03.png)
+
 Pierre nous propose ce cours qui nous plonge dans les différentes solutions existantes pour acheter et vendre des bitcoins en pair à pair. L’achat en pair à pair est complètement légal et permet d’avoir plus d’anonymat, en effet ces solutions ne sont pas KYC. Le KYC (Know Your Customer) est une règle des régulateurs de marchés (AMF) qui consiste à demander la pièce d’identité au client souhaitant acheter ou vendre du bitcoin.Ces règles ont pour but d’empêcher le blanchiment d’argent, le financement du terrorisme et l’évasion fiscale. Au risque d’importantes conséquences pour l’utilisateur, le KYC a pour objectif de défendre et de protéger son utilisateur, bien que c’est très souvent l’effet inverse qui est observé.
 
-Ces règles ont pour but d’empêcher le blanchiment d’argent, le financement du terrorisme et l’évasion fiscale. Au risque d’importantes conséquences pour l’utilisateur, le KYC a pour objectif de défendre et de protéger son utilisateur, bien que c’est très souvent l’effet inverse qui est observé.
-
-Nous allons donc explorer les différents types de KYC (les full KYC type France, les KYC Light type Suisse et les non-KYC type pair à pair). Pierre nous présentera plus de 6 solutions, vous aurez donc toutes les cartes en main pour découvrir laquelle vous correspond.
+Nous allons donc explorer les différents types de KYC (les full KYC type France, les KYC Light type Suisse et les non-KYC type pair à pair). Pierre nous présentera plus de 6 solutions, vous aurez donc toutes les cartes en main pour découvrir laquelle vous correspond. Si vous souhaitez une solution KYC, sachez qu’elles sont présentes dans la formation BTC 102.
 
 +++
 
@@ -106,7 +106,7 @@ Chaque solution P2P a ses propres avantages et inconvénients. Nous proposons ci
 | - Système de parrainage : HodlHodl récompense le bouche-à-oreille.                                                            | - Possibilité de KYC forcé : dans certaines situations, HodlHodl peut exiger des informations d'identification pour récupérer des fonds. |
 | - Historique de trade et système de notation : ces fonctionnalités permettent d'évaluer la fiabilité des autres utilisateurs. |                                                                                                                                          |
 
-## Conclusion
+## Conclusion sur les solutions P2P
 
 En résumé, chaque solution P2P a ses avantages et inconvénients. Bisq est considérée comme la plus robuste et sécurisée, mais moins facile d'accès. RoboSat est open source mais moins robuste que Bisq. LNP2PBot est moins robuste et sécurisé que les autres solutions, moins rapide et moins user-friendly que RoboSat, mais plus que Bisq. Peach est l'application la plus facile et rapide pour acheter du Bitcoin en non-KYC, mais une entreprise est derrière, donc des faiblesses en termes de sécurité et robustesse. HodlHodl est un protocole géré par une entreprise et close source, donc des faiblesses en termes de sécurité et robustesse, et un peu plus compliqué que Peach.
 
@@ -116,13 +116,6 @@ Outre les solutions P2P, il existe d'autres options d'échange de cryptomonnaies
 # Les Tutoriels sur les solutions d'achat/vente en p2p
 
 ## Robosats
-
-RoboSats est un moyen facile d'échanger privément des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning Hold pour réduire au minimum les besoins en garde et en confiance.
-
-Site:https://unsafe.robosats.com/
-GitHub: https://github.com/RoboSats/robosats
-
-Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
 
 ![robosats](https://tube.nuagelibre.fr/videos/watch/1978a2e0-64a0-4437-9229-7614cdf5bf61?start=0s)
 
@@ -154,7 +147,7 @@ Voyons maintenant les étapes pour la vente de bitcoins sur Robosats:
 
 ## BISQ: solution d'achat en peet à peer
 
-Bisq est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.
+[Bisq](https://bisq.network/) est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.
 
 🚨 Veuillez faire preuve de prudence lorsque vous utilisez Bisq, car il s'agit d'une solution avancée. Elle peut ne pas convenir aux utilisateurs débutants. Assurez-vous d'avoir une certaine expérience et compréhension avant de vous lancer. 🚨
 
@@ -197,8 +190,7 @@ Pour récupérer vos données grâce à une sauvegarde :
 Avant de commencer à acheter ou à vendre du Bitcoin sur BISQ, il est crucial de configurer votre compte de paiement. Vous pouvez par exemple configurer un compte dans votre devise nationale, comme un compte SEPA, un compte REVOLUT ou un compte PAYPAL.
 Pour configurer votre compte REVOLUT :
 
-- Ajoutez un compte et sélectionnez REVOLUT dans la liste des options.
-  **Screenshot de la liste des options de compte**
+- Ajoutez un compte et sélectionnez REVOLUT dans la liste des options. (Screenshot de la liste des options de compte)
 - Vous pouvez choisir différentes devises : euro, livre sterling, dollar américain ou franc suisse.
 - La durée maximale de transaction est d'un jour et la limite d'achat est de 0,25 Bitcoin.
 - Utilisez votre nom de compte personnel REVOLUT pour éviter toute confusion.
@@ -233,7 +225,7 @@ Une fois que l'acheteur a effectué le dépôt de la transaction sur BISQ, les B
 
 ![LNp2pbot tutoriel](https://tube.nuagelibre.fr/videos/watch/57ed232d-6149-4267-be38-92b0f32800f7)
 
-(Telegram)[https://telegram.org/] est une plateforme de messagerie qui, avec l'aide du bot (Lnp2pbot)[https://lnp2pbot.com/], vous permet d'acheter et de vendre des bitcoins de manière rapide et facile. Voici comment faire :
+[Telegram](https://telegram.org/) est une plateforme de messagerie qui, avec l'aide du bot [Lnp2pbot](https://lnp2pbot.com/), vous permet d'acheter et de vendre des bitcoins de manière rapide et facile. Voici comment faire :
 
 Pour acheter des Bitcoins via le Bot LNP2PBOT sur Telegram, suivez les étapes suivantes :
 
@@ -267,8 +259,6 @@ En utilisant ces méthodes, vous pouvez acheter et vendre des bitcoins sur Teleg
 
 ## Peach Bitcoin
 
-![cover](assets/peach.jpeg)
-
 site: https://peachbitcoin.com/
 
 Nous regardons en detail cette solution dans BTC 205 offert par @pivi\_, voici les videos tutoriels:
@@ -289,7 +279,7 @@ En somme, l'application mobile Peach offre une solution accessible pour acheter 
 
 ## Hold Hodl
 
-Hodl Hodl est une bourse de Bitcoin décentralisée qui accorde la priorité au contrôle et à la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre les utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
+[HodlHodl](https://hodlhodl.com/) est une place de marchée de Bitcoin décentralisée qui accorde la priorité au contrôle et à la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre les utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
 
 ![hodlhodl tutoriel](https://youtu.be/BDH9jE7kpD8)
 
@@ -336,6 +326,14 @@ Si vous avez acheté des cryptos de manière KYC, il est recommandé d'utiliser 
 
 Je voudrais également vous présenter un outil open source pour l'achat et la vente de bitcoins. Cet outil vous permet de choisir parmi de nombreuses blockchains. Il vous suffit d'entrer votre adresse Bitcoin et de sélectionner la quantité que vous souhaitez envoyer. Il n'est pas nécessaire de créer un compte ou de connecter votre portefeuille à l'outil. Vous pouvez utiliser un taux fixe pour envoyer ou recevoir un montant précis. De plus, cet outil permet également la vente de bitcoins en échange d'USDC.
 
+### Soutiens-nous
+
+Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
+
+### Note la formation
+
+Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
+
 # Pour aller plus loin
 
 ## Interview de Steph de Peach Bitcoin
@@ -376,7 +374,3 @@ En conclusion, Bitcoin est présenté comme une monnaie décentralisée nécessi
 Un super [article](https://decouvrebitcoin.fr/tribune-sur-le-kyc-et-lidentification-des-bitcoins-onchain/) de Loïc Morel sur le KYC et l’identification
 
 Cet article approfondi explore les défis et les solutions pour préserver la vie privée lors de l'acquisition et de l'utilisation de bitcoins. Loïc déconstruit certaines idées reçues sur l'identification KYC (Know Your Customer), détaille les risques associés à ce processus, et offre des techniques pour maintenir l'anonymat des transactions. C'est une lecture incontournable pour ceux qui cherchent à comprendre les nuances de la confidentialité dans le monde du Bitcoin, et à apprendre comment utiliser des outils comme CoinJoin, Stonewall et PayJoin pour brouiller le traçage des transactions et ainsi protéger leur vie privée.
-
-### Note la formation ! 😀
-
-Si vous avez trouvé cette formation utile, n'oubliez pas de la noter. Votre retour est précieux pour nous aider à améliorer et à adapter notre contenu à vos besoins. Alors, prenez une minute pour donner votre avis. Merci pour votre soutien et votre participation !

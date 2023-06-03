@@ -1,8 +1,8 @@
 description: |
-  SatoshiLabs is a blockchain technology company known primarily for creating the Trezor hardware wallet, one of the most trusted and secure ways to store cryptocurrencies. Founded in 2013 by Marek Palatinus, Pavol Rusnak and Alena Vranova, SatoshiLabs is based in Prague, Czech Republic.
+SatoshiLabs is a technology company known primarily for creating the Trezor hardware wallet, one of the most secure and trusted ways to store Bitcoin. The company was founded in 2013 by Marek Palatinus, Pavol Rusnak, and Alena Vranova and is based in Prague, Czech Republic.
 
-  The company's flagship product, the Trezor hardware wallet, is a physical device that securely stores users' private keys offline, making it resistant to many common types of online hacks. The wallet supports a wide range of cryptocurrencies, including Bitcoin, Litecoin, Ethereum, and many others. By keeping private keys on the device and offline, Trezor provides an extra layer of security for users' digital assets.
+The Trezor hardware wallet, SatoshiLabs' flagship product, is a physical device that safely stores users' private keys offline. This feature makes it resistant to many types of online hacks. By keeping private keys on the device and offline, Trezor provides an additional layer of security for users' Bitcoin assets.
 
-  Beyond the Trezor hardware wallet, SatoshiLabs has also made significant contributions to the wider blockchain and cryptocurrency ecosystem, including the creation of various security standards and the development of new technologies.
+In addition to the Trezor hardware wallet, SatoshiLabs has made significant contributions to the Bitcoin ecosystem. This includes creating various security standards and developing new technologies designed to enhance and safeguard Bitcoin transactions.
 contributors:
   - rabbit-hole

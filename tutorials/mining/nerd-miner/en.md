@@ -23,15 +23,15 @@ You can also visit our project page for more details: [NerdMiner_v2 Project Page
 
 Download the four necessary files located in the `.bin` folder of our repository.
 
-![](assets/screenshot1.jpg)
-![](assets/screenshot2.jpg)
+![](assets/screenshot1.jpeg)
+![](assets/screenshot2.jpeg)
 
 ## Step 3: Navigate to ESPTool
 
 Return to the main project page and click on the link to the ESPTool web flasher. (Tested with Chrome)
 
-![](assets/screenshot3.jpg)
-![](assets/screenshot4.jpg)
+![](assets/screenshot3.jpeg)
+![](assets/screenshot4.jpeg)
 
 ## Step 4: Connect your Device
 
@@ -42,7 +42,7 @@ Connect your Lilygo T-display S3 to your PC or Smartphone, then follow the steps
 
 Now, you can add the four previously downloaded files by clicking on the "ADD FILES" button.
 
-![](assets/screenshot5.jpg)
+![](assets/screenshot5.jpeg)
 
 ## Step 5: Upload Files
 
@@ -52,8 +52,8 @@ Once done, click on "PROGRAM."
 
 That's it! You just need to reboot and flash the QR code displayed on your ESP and follow the steps! Don't forget to add your WIFI and #Bitcoin address.
 
-![](assets/screenshot6.jpg)
-![](assets/screenshot7.jpg)
+![](assets/screenshot6.jpeg)
+![](assets/screenshot7.jpeg)
 
 ## Step 6: Assemble the Casing
 

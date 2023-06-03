@@ -15,7 +15,7 @@ difficulty: intermediary
 
 ** Ce tutoriel est offert par WINTER ☩ HODLER dans le cadre de Agora256, merci pour son travail **
 
-![solution de paiement](1.png)
+![solution de paiement](1.jpeg)
 
 L'une des propositions les plus enivrantes des monnaies fiduciaires (fiat) est certainement de pouvoir l'échanger en faveur de bitcoins, idéalement sans même devoir s'identifier outre mesure ; une méthode souvent référée en tant que no-KYC ou KYC-free. L'acronyme 'KYC' fait référence au processus de vérification de l'identité d'un individu ou d'une entité en particulier en suivant certaines réglementations émises au niveau gouvernemental.
 
@@ -35,7 +35,7 @@ Le fonctionnement est fort simple : il s'agit de se rendre à l'un des 5948 comp
 
 Ensuite, il suffit de préciser le montant que vous souhaitez débourser (entre $10.00 et $999.99) et de le payer en comptant ou par carte débit. Au bout de 10 minutes, la transaction sera complétée sur Bull Bitcoin. Des frais de $3.50 à $3.95 s'appliquent, dépendant du montant, lors de la transaction au bureau de poste. D'ailleurs, ces frais s'avèrent considérablement inférieurs à ceux que l'on retrouve avec les Bitcoin ATM, une autre option populaire libre de KYC.
 
-![solution de paiement](2.png)
+![solution de paiement](2.jpeg)
 
 Notez que des limites transactionnelles journalière et hebdomadaire de $999.99 et $2500.00 s'appliquent, respectivement. Une tentative de surpasser ces limites lors d'un paiement au bureau de poste verra tout simplement la transaction s'annuler automatiquement.
 
@@ -43,7 +43,7 @@ Notez que des limites transactionnelles journalière et hebdomadaire de $999.99 
 
 Lorsque les fonds sont disponibles sur le compte Bull Bitcoin, il est temps de passer à l'étape de l'achat des bitcoins ! Rendez vous dans la page 'Buy Bitcoin' située dans le menu principal. De là, vous devrez entrer le montant de votre solde que vous souhaitez dépenser, ainsi que le réseau de votre choix (Bitcoin, Lightning Network, Liquid).
 
-![image 3](3.png)
+![image 3](3.jpeg)
 
 Pour les réseaux Bitcoin et Liquid, il vous faudra partager une adresse afin de pouvoir créer l'ordre d'achat. Pour ce qui est du réseau Lightning, Bull Bitcoin offre deux méthodes de paiement différentes; soit LNURL (l'option par défaut) ou Bolt11, une fois l'ordre créé.
 

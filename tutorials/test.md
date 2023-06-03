@@ -18,7 +18,7 @@ Type the name of your desired wallet**
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-      ![](assets/cover_en.jpg)
+      ![](assets/cover_en.jpeg)
 
 **2. Click "COPY WALLET URL" and make sur to save it somewhere. this is your wallet back-up**
 

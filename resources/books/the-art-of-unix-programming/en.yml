@@ -1,6 +1,6 @@
 title: "The Art of Unix Programming"
 publication_year: 2003
-cover: cover_en.jpg
+cover: cover_en.jpeg
 original: true
 description: |
   The Art of Unix Programming by Eric S. Raymond is an intermediate-level guide that explores the philosophy, design principles, and practical aspects of Unix programming. It covers topics such as the Unix programming environment, shell scripting, system calls, and interprocess communication. With clear explanations and examples, the book showcases the power and flexibility of Unix as a programming platform while emphasizing simplicity and modular design. It also discusses the history and collaborative nature of Unix development. Overall, it offers valuable insights for developers looking to enhance their Unix programming skills.

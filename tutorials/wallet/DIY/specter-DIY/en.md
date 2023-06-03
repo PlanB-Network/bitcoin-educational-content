@@ -23,7 +23,7 @@ tag:
 
     Barebones case designed by Seedsigner
 
-![device view](assets/2.png)
+![device view](assets/2.jpeg)
 
 https://specter.solutions/hardware/
 

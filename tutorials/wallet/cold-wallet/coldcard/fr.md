@@ -45,7 +45,7 @@ Connexion à la Coldcard avec NIP > New Seed Words > 24 Word Dice Roll
 
 Effectuer 100 lancés de dé en inscrivant le résultat obtenu de 1 à 6 sur la Coldcard après chaque tir. En pratiquant cette méthode, vous créez 256 octets d'entropie favorisant ainsi la création d'une clé privée complètement aléatoire. Coinkite fourni également la documentation nécessaire à la vérification indépendante de leur système de génération d'entropie.
 
-![Screenshot Visuel Cold Card](assets/guide-agora/1.jpg)
+![Screenshot Visuel Cold Card](assets/guide-agora/1.jpeg)
 
 Une fois les 100 lancés de dé terminés, appuyez sur ✓ puis notez les 24 mots obtenus dans l'ordre. Vérifiez à deux reprises et appuyez sur ✓. Enfin, ne reste plus qu'à compléter le test de vérification des 24 mots sur la Coldcard, et voilà votre nouvelle clé privée créée !
 
@@ -61,7 +61,7 @@ Une phrase secrète (passphrase) est un formidable élément à ajouter à une c
 
 L'objectif est de noter la phrase secrète séparément de la phrase mnémonique car un attaquant ayant accès à ces deux items aura accès aux fonds s'y trouvant. À l'opposé, un attaquant n'ayant accès qu'à l'un de ces deux items n'aura aucun accès aux fonds, et c'est cet atout précis qui vient optimiser le niveau de sécurité de la configuration du portefeuille.
 
-![Ajouter une phrase secrète mène à un portefeuille complètement différent](assets/guide-agora/2.png)
+![Ajouter une phrase secrète mène à un portefeuille complètement différent](assets/guide-agora/2.jpeg)
 
 ## Étapes à suivre pour ajouter une phrase secrète avec la Coldcard :
 
@@ -86,13 +86,13 @@ D'abord, insérez une carte micro SD dans la Coldcard, puis exportez le portefeu
 
 Avant de suivre les instructions du fichier, commençons par préparer le portefeuille dans l'interface Bitcoin Core en suivant ces étapes : allez dans l'onglet Fichier > Créer un porte-monnaie. Choisissez un nom pour votre portefeuille (terme interchangeable avec porte-monnaie dans Core) et cochez les options Désactiver les clés privées, Créer un porte-monnaie vide, et Porte-monnaie de descripteurs tel qu'illustré dans l'image ci-dessous. Puis, appuyez sur le bouton Créer.
 
-![crée un portefeuille](assets/guide-agora/3.png)
+![crée un portefeuille](assets/guide-agora/3.jpeg)
 
 Une fois le portefeuille créé dans Bitcoin Core, allez dans l'onglet Fenêtre > Console et assurez-vous que le portefeuille sélectionné au haut de la page affiche bien le nom de celui que vous avez créé.
 
 Maintenant, dans le fichier .txt généré par la Coldcard précédemment, copiez la ligne débutant par importdescriptors, puis collez-la dans la console de Bitcoin Core. Une réponse incluant la ligne "success": true devrait être retournée.
 
-![ fenetre des noeuds ](assets/guide-agora/4.png)
+![ fenetre des noeuds ](assets/guide-agora/4.jpeg)
 
 Si la réponse contient "message": "Ranged descriptors should not have a label", effacez l'entrée "label": "Coldcard xxxx0000" dans la ligne copiée du fichier .txt, puis recollez la ligne complète dans la console de Bitcoin Core.
 
@@ -118,7 +118,7 @@ Avant de procéder, assurez-vous que les options suivantes sont activées dans P
     Dépenser la monnaie non confirmée (Optionnel)
     Activer les contrôles TBPS
 
-![option ](assets/guide-agora/5.png)
+![option ](assets/guide-agora/5.jpeg)
 
 ### Étapes pour envoyer en mode air-gapped :
 
@@ -128,7 +128,7 @@ Dans la Coldcard, appuyez sur Ready to sign, vérifiez les détails de la transa
 
 De retour sur Bitcoin Core, allez dans l'onglet Fichier > Charger la TBSP d'un fichier, et saisissez le fichier de transaction signé .psbt. L'encadré PSBT Operations s'affichera à l'écran, confirmant que la transaction est complètement signée et prête à être diffusée. Ne reste plus qu'à appuyer sur Diffuser la transaction.
 
-![PSBT operations](assets/guide-agora/6.png)
+![PSBT operations](assets/guide-agora/6.jpeg)
 
 ### Conclusion
 

@@ -46,9 +46,9 @@ def process_language_file(folder_path, language_code):
         if cover:
             tmp.write(f"cover: {cover}\n")
         else:
-            # Check if there's a file named "cover_{language_code}.jpg" in the assets folder
+            # Check if there's a file named "cover_{language_code}.jpeg" in the assets folder
             assets_folder = os.path.join(folder_path, 'assets')
-            cover_file = f"cover_{language_code}.jpg"
+            cover_file = f"cover_{language_code}.jpeg"
             if cover_file in os.listdir(assets_folder):
                 tmp.write(f"cover: {cover_file}\n")
             else:

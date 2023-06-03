@@ -14,7 +14,7 @@ difficulty: beginners
 
 ** Ce guide vous est offert par FranklynHart dans le cadre de Agora256. Merci à lui **
 
-![Un nouveau challenger est arrivé](assets/1.png)
+![Un nouveau challenger est arrivé](assets/1.jpeg)
 
 ## Qu'est-ce que Nostr?
 
@@ -28,7 +28,7 @@ Chaque utilisateur possède une ou plusieurs identités, chaque identité est d�
 
 Pour accéder au réseau, il faut utiliser un logiciel client et se connecter à des relais pour recevoir et émettre du contenu.
 
-![Systeme de clef](assets/2.png)
+![Systeme de clef](assets/2.jpeg)
 
 ## 1. Les clés cryptographiques
 
@@ -64,7 +64,7 @@ Pour les fins de ce guide, nous utiliserons iris.to (https://iris.to/) puisque c
 
 ris créera pour toi un jeu de clés sans que tu n'aies à faire rien de plus qu'entrer un nom (réel ou fictif) pour ton profil. Clique ensuite sur GO et le tour est joué!
 
-![Main menu](assets/3.png)
+![Main menu](assets/3.jpeg)
 
         ⚠️ Attention! Tu devras garder une trace de tes clés si tu veux pouvoir accéder à nouveau à ton profil, une fois ta session fermée. Je te montre comment, à la toute fin de ce guide.
 
@@ -72,11 +72,11 @@ ris créera pour toi un jeu de clés sans que tu n'aies à faire rien de plus qu
 
 Pour publier un contenu, rien de plus simple et d'intuitif que d'écrire quelques mots dans le champ de publication.
 
-![Publication](assets/4.png)
+![Publication](assets/4.jpeg)
 
 Voilà, ça y est! Tu as publié ta première note sur Nostr.
 
-![Post](5.png)
+![Post](5.jpeg)
 
 ## Étape 3 : Trouver un ami
 
@@ -84,7 +84,7 @@ Retrouve-moi sur Nostr et ne sois plus jamais seul. Je m'abonne en retour à tou
 
 npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 dans la barre de recherche.
 
-![Mon profil](assets/6.png)
+![Mon profil](assets/6.jpeg)
 
 Clique sur "follow" et d'ici quelques jours au plus, je m'abonnerai aussi à ton fil. Nous serons amis. Il me fera aussi plaisir de te lire si tu veux m'écrire un message.
 
@@ -94,11 +94,11 @@ Finalement, assure-toi aussi de t'abonner au fil d'Agora256 pour recevoir une no
 
 Il te reste encore un peu de travail à faire pour personnaliser ton profil. Pour ce faire, clique sur l'avatar qu'iris a généré automatiquement pour toi dans le coin supérieur droit de l'écran puis clique sur "edit profil".
 
-![Profile](assets/7.png)
+![Profile](assets/7.jpeg)
 
 Il ne te reste plus qu'à indiquer à iris où trouver ton image et ta bannière de profil sur les interwebs. Je te recommande d'héberger toi-même ton contenu : protège ce qui t'appartient.
 
-![Autre option](assets/8.png)
+![Autre option](assets/8.jpeg)
 
 Si tu préfères, tu peux aussi télécharger des images, elles seront stockées pour toi par iris sur nostr.build, un service gratuit d'hébergement de contenu visuel pour Nostr.
 
@@ -110,11 +110,11 @@ Cette étape est cruciale si tu veux pouvoir conserver l'accès à ton profil un
 
 D'abord, clique sur l'icône "settings" représentée par un engrenage
 
-![Setting](assets/9.png)
+![Setting](assets/9.jpeg)
 
 Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un fichier texte que tu garderas en sécurité. Je te recommande de crypter ce fichier, si tu sais comment le faire.
 
-![Clef](assets/10.png)
+![Clef](assets/10.jpeg)
 
         ⚠️ Remarque bien l'avertissement que te donne iris. Si tu peux partager ta clé publique sans crainte, il en est tout autrement de ta clé privée. Quiconque possède cette dernière pourra accéder à ton compte.
 

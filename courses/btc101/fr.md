@@ -551,7 +551,7 @@ Les utilisateurs peuvent obtenir des Bitcoins en les acceptant pour leur commerc
 Changer le système nécessite de changer la monnaie. La décorrélation entre l'or, les ressources, l'argent et le monde réel crée des inégalités dans la société. Satoshi a créé Bitcoin en 2008 pour pallier à cette situation. L'argent absolu corrompt également. Un reset monétaire complet est nécessaire pour régler certains problèmes de la société.
 Bitcoin permet l'émancipation du système bancaire et plus d'égalité. C'est un phénomène social et mène à une révolution pacifique.
 
-# Remmerciment et continuez à creuser le terrier du lapin
+# Remerciements et continuez à creuser le terrier du lapin
 
 ![remerciements et continuez à creuser le terrier du lapin](https://youtu.be/A2P5GdkgB-M)
 

@@ -9,8 +9,6 @@ objectives:
   - Réaliser l’impact géopolitique et social que représente Bitcoin
 ---
 
-![cover](assets/thumbnail.png)
-
 # Votre première aventure Bitcoin
 
 Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: mineurs, portefeuille, plateforme d’achat/vente, etc…
@@ -23,7 +21,7 @@ Vous ressortirez de cette formation en ayant toutes les connaissances nécessair
 
 # Introduction : la formation Bitcoin
 
-![Inroduction](https://youtu.be/PdiL6_1wbQY)
+![Introduction](https://youtu.be/PdiL6_1wbQY)
 
 Bitcoin est une innovation significative qui va au-delà d'une simple devise. C'est une révolution à la fois technologique et monétaire, capable de transformer notre perception de la monnaie et des transactions financières. Bitcoin est également une monnaie décentralisée, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.
 Dans le cadre de cette formation, nous discuterons des aspects monétaires de Bitcoin, y compris la façon d'acheter et de vendre des bitcoins, de les conserver en toute sécurité dans des portefeuilles numériques et de les utiliser pour effectuer des transactions.

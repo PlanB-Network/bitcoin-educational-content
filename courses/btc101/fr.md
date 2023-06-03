@@ -104,7 +104,7 @@ Il y a plusieurs autres exemples d'hyperinflation tout au long de l'histoire, do
 Connaître l'hyperinflation et comprendre comment elle se produit est une chose, mais comment peut-on se protéger contre elle ? Pour se prémunir contre l'hyperinflation, il est recommandé de diversifier son portefeuille en se débarrassant des monnaies faibles et en investissant dans des actifs ou des monnaies solides, tels que l'or ou le Bitcoin. Les actions d'entreprises capables de revaloriser leurs prix rapidement, comme Apple ou Microsoft, ou l'investissement immobilier peuvent également s'avérer être de bons placements.
 Il y a beaucoup à apprendre sur la gestion d'un portefeuille financier. Heureusement, il existe de nombreuses formations et ressources disponibles pour acquérir ces compétences. Par ailleurs, ne pas imprimer de l'argent à volonté est la meilleure façon de prévenir l'hyperinflation. Le Bitcoin est une monnaie qui possède des caractéristiques spécifiques. Sa capacité à servir pour le commerce mondial sera discutée dans une future vidéo.
 
-![Les hyperinflation](assets/posters/fr/5_hyperinflation_crop.png)
+![Les hyperinflations](assets/posters/fr/5_hyperinflation_crop.png)
 
 ## 21 millions de bitcoins
 
@@ -122,11 +122,12 @@ La rareté du Bitcoin est un atout majeur, car il y aura toujours un maximum de 
 La notion de saine gestion monétaire est intrinsèque au Bitcoin, car il est impossible de créer plus de bitcoins que la limite préétablie ou de détruire l'épargne des utilisateurs. C'est une caractéristique fondamentale qui distingue Bitcoin des autres formes de monnaie.
 De plus, selon les principes de l'économie autrichienne, le Bitcoin est considéré comme une excellente forme de monnaie. En effet, sa quantité est strictement contrôlée et émise de manière prévisible, ce qui correspond à l'idéal autrichien de création monétaire. Contrairement aux monnaies traditionnelles, qui peuvent être sujettes à l'inflation à cause de l'impression monétaire excessive, le Bitcoin maintient sa valeur grâce à sa rareté programmée.
 En somme, le Bitcoin, par sa nature décentralisée, sa rareté programmée et sa transparence, offre une alternative unique aux systèmes monétaires traditionnels. Il illustre comment la technologie peut être utilisée pour créer une monnaie qui est non seulement utile et vérifiable, mais qui préserve également la valeur de l'épargne des utilisateurs en limitant strictement son offre.
+
 ![21 millions de bitcoin](assets/posters/fr/6_21_million_crop.png)
 
 ## La monnaie : un outil social
 
-![conclusion chapitre1](https://youtu.be/xJsT7Jk5xWE)
+![conclusion sur la monnaie](https://youtu.be/xJsT7Jk5xWE)
 
 La monnaie est un outil social qui doit s'adapter aux besoins et à la technologie. Au fil du temps, l'or a été utilisé comme réserve de valeur car il était rare et ne pouvait pas être dévalué. Cependant, plus tard, l'or a été remplacé par de la dette et de la monnaie fiduciaire, qui est facile à recopier et crée de l'inflation.
 
@@ -452,9 +453,9 @@ Si vous souhaitez développer vos connaissances sur le Bitcoin, un grand nombre 
 
 Milton Friedman, un économiste renommé, avait prédit en 1999: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A." Aujourd'hui, le Bitcoin répond à cette prédiction.
 
-![hyper-bitoinisation](assets/posters/fr/18_hyperbitcoinisation_crop.png)]
+![hyper-bitcoinisation](assets/posters/fr/18_hyperbitcoinisation_crop.png)
 
-## Soutiens nous
+## Soutiens-nous
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
 
@@ -552,16 +553,16 @@ Bitcoin permet l'émancipation du système bancaire et plus d'égalité. C'est u
 
 # Remmerciment et continuez à creuser le terrier du lapin
 
-![Rmerciement et allez plus loin](https://youtu.be/A2P5GdkgB-M)
+![remerciements et continuez à creuser le terrier du lapin](https://youtu.be/A2P5GdkgB-M)
 
 Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. Votre découverte du bitcoin n'en est qu'à ses débuts et je vous invite à découvrir toutes les autres formations disponibles sur l'université.
 
-- BTC 102 vous aidera à mettre en place votre plan bitcoin,
-- LN 201 et 202 vous permettront de découvrir le réseau de couche 2,
-- ECON 201 abordera l'économie autrichienne,
-- SECU 101 vous permettra de mettre à jour votre sécurité,
-- MINAGE 201 pour en savoir plus sur le minage,
-  (et bien d'autres).
+- BTC 102 vous aidera à mettre en place votre plan bitcoin
+- LN 201 et 202 vous permettront de découvrir le Lightning Network, un réseau de paiements en second couche
+- ECON 201 abordera l'économie autrichienne
+- SECU 101 vous permettra de mettre à jour votre sécurité
+- MINAGE 201 pour en savoir plus sur le minage
+- (et bien d'autres)
 
 Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Rachel, Muriel, l'équipe de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, les correcteurs et les relecteurs.
 

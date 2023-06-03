@@ -8,6 +8,7 @@ objectives:
   - Comprendre que le lightniong Network est un réseau
   - L'utilisation théorique du Lightning Network
 ---
+
 # Un voyage vers la deuxième couche de Bitcoin
 
 Cette formation est un cours théorique sur le fonctionnement technique du Lightning Network.
@@ -15,7 +16,6 @@ Cette formation est un cours théorique sur le fonctionnement technique du Light
 Ici, je vous invite à découvrir la couche n°2 de Bitcoin. C’est une technologie innovante et très complexe, mais pleine de promesses. Ça sera une formation plus tech, il n’y aura pas de tutoriel ou de cas d’usage. Afin de comprendre au mieux cette formation, une bonne compréhension de Bitcoin est nécessaire. Ce cours peut s’accompagner de LN 102 qui est plus pratique.
 
 Cette formation a été crée par Fanis Michalakis, merci à lui
-
 
 +++
 
@@ -421,15 +421,13 @@ Ensuite, si vous souhaitez aider le projet, n’hésitez pas à nous sponsoriser
 
 Fini la théorie et place à la pratique avec la formation LN 202 désormais !
 
-
-
 ## Soutiens nous
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
 
 ## Note la formation
 
-Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de 
+Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de
 
 ## Interview avec Fanis sur la vie privée dans Lightning
 

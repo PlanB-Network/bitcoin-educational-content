@@ -18,7 +18,6 @@ Nous allons donc explorer les différents types de KYC (les full KYC type France
 
 +++
 
-
 # Introduction
 
 ![introduction par Rogzy](https://youtu.be/3AHeKLTK7Sg)
@@ -118,8 +117,6 @@ Outre les solutions P2P, il existe d'autres options d'échange de cryptomonnaies
 
 ## Robosats
 
-![cover](assets/robo.jpeg)
-
 RoboSats est un moyen facile d'échanger privément des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning Hold pour réduire au minimum les besoins en garde et en confiance.
 
 Site:https://unsafe.robosats.com/
@@ -156,8 +153,6 @@ Voyons maintenant les étapes pour la vente de bitcoins sur Robosats:
 - Si quelqu'un accepte votre offre de vente, discutez avec le pair pour procéder au paiement en fiat. Une fois le paiement effectué, le trade est complété et les satoshis vendus !
 
 ## BISQ: solution d'achat en peet à peer
-
-![cover](assets\bisq.jpeg)
 
 Bisq est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.
 
@@ -293,8 +288,6 @@ Comme Peach est toujours en version bêta, certains bugs peuvent survenir. Il es
 En somme, l'application mobile Peach offre une solution accessible pour acheter et vendre des bitcoins en pair à pair. Une utilisation sécurisée et optimale de Peach est la clé pour réussir vos transactions.
 
 ## Hold Hodl
-
-![cover](assets/hodl.jpeg)
 
 Hodl Hodl est une bourse de Bitcoin décentralisée qui accorde la priorité au contrôle et à la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre les utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
 

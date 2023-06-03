@@ -8,7 +8,9 @@ objectives:
   - Etre familiarisé avec le concept du Litghning Network
   - Réaliser l’impact géopolitique et social que représente Bitcoin
 ---
+
 ![cover](assets\thumbnail.png)
+
 # Votre première aventure Bitcoin
 
 Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: mineurs, portefeuille, plateforme d’achat/vente, etc…
@@ -514,7 +516,7 @@ En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation pas
 
 ![pilule rouge](assets/posters/fr/2_pilluleorange.png)
 
-Comme le disait Morpheus à Néo : Choisir la pilule bleue pour arrêter, la rouge pour descendre dans le terrier du bitcoin. 
+Comme le disait Morpheus à Néo : Choisir la pilule bleue pour arrêter, la rouge pour descendre dans le terrier du bitcoin.
 
 ### L'avenir technologique et ses implications
 
@@ -554,12 +556,12 @@ Bitcoin permet l'émancipation du système bancaire et plus d'égalité. C'est u
 
 Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. Votre découverte du bitcoin n'en est qu'à ses débuts et je vous invite à découvrir toutes les autres formations disponibles sur l'université.
 
-* BTC 102 vous aidera à mettre en place votre plan bitcoin,
-* LN 201 et 202 vous permettront de découvrir le réseau de couche 2,
-* ECON 201 abordera l'économie autrichienne,
-* SECU 101 vous permettra de mettre à jour votre sécurité,
-* MINAGE 201 pour en savoir plus sur le minage,
-(et bien d'autres).
+- BTC 102 vous aidera à mettre en place votre plan bitcoin,
+- LN 201 et 202 vous permettront de découvrir le réseau de couche 2,
+- ECON 201 abordera l'économie autrichienne,
+- SECU 101 vous permettra de mettre à jour votre sécurité,
+- MINAGE 201 pour en savoir plus sur le minage,
+  (et bien d'autres).
 
 Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Rachel, Muriel, l'équipe de StackinSat, JohnOnChain, Fanis, Guillaume, Lounes, les correcteurs et les relecteurs.
 

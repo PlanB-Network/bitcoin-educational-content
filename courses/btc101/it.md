@@ -8,7 +8,9 @@ objectives:
   - Essere familiarizzati con il concetto di Lightning Network
   - Realizzare l'impatto geopolitico e sociale che rappresenta Bitcoin
 ---
+
 ![cover](assets\thumbnail.png)
+
 # La tua prima avventura con Bitcoin
 
 In questa formazione, ti spiegherò Bitcoin in 21 capitoli in modo che tu possa comprendere questa tecnologia in modo semplice ed efficace. La formazione è accessibile a tutti ed esplora l'industria nel suo insieme: minatori, portafoglio, piattaforma di acquisto/vendita, ecc...
@@ -18,7 +20,6 @@ La formazione dovrebbe richiedere circa 15 ore con un esame finale alla fine. Du
 +++
 
 # Introduzione: il percorso di Bitcoin
-
 
 ### Bitcoin: una rivoluzione monetaria e tecnologica decentralizzata
 
@@ -190,7 +191,6 @@ In conclusione, il possesso diretto dei propri Bitcoin è un elemento essenziale
 
 ![setting up a wallet](assets/posters/en/10._set_up_your_wallet.png)
 
-
 ### Regole di base per la gestione sicura del tuo portafoglio Bitcoin
 
 La sicurezza dei tuoi Bitcoin è di cruciale importanza e un semplice errore può avere conseguenze costose. Ecco perché procederemo passo dopo passo e ti guideremo con le migliori pratiche del settore.
@@ -266,6 +266,7 @@ Il Bitcoin è un'innovazione senza precedenti nel mondo finanziario. Nonostante 
 ![Spiegazione di una transazione](https://youtu.be/GJlUqtGzxLk)
 
 ![Explanation of a Transaction](assets/posters/en/11._explaination_of_a_transaction.png)
+
 ### Transazioni Bitcoin: il processo di trasferimento di fondi
 
 Una transazione Bitcoin implica uno scambio di Bitcoin tra due parti. Prendiamo ad esempio due protagonisti, Alice e Bob. Alice desidera acquisire Bitcoin, mentre Bob ne possiede già. Affinché Bob possa trasferire Bitcoin ad Alice, quest'ultima deve fornire a Bob il suo indirizzo Bitcoin, che serve essenzialmente come destinazione di ricezione per i Bitcoin. Questo indirizzo, derivato dalla chiave pubblica di Alice, è unico per il suo portafoglio Bitcoin. Successivamente, Bob inizia la transazione utilizzando l'indirizzo di ricezione di Alice. Aggiunge anche una tassa di transazione, che è un incentivo per i minatori ad includere la transazione nel blocco successivo. Queste tasse sono essenziali per evitare che la rete sia invasa da transazioni senza valore. La dimensione della transazione dipende dal numero di parti coinvolte e dalla complessità della transazione. Per finalizzare la transazione, Bob deve firmarla digitalmente con la sua chiave privata, il che permette di verificare che sia il proprietario dei Bitcoin che desidera trasferire.
@@ -351,8 +352,8 @@ Passiamo ora al funzionamento e all'impatto ecologico del mining di Bitcoin. I m
 Infine, è essenziale discutere delle implicazioni economiche e ambientali dell'adozione di Bitcoin. Il sistema finanziario attuale, con il suo incoraggiamento alla sovraconsumo e all'indebitamento, presenta seri problemi. La facilità di accesso al credito, l'emissione monetaria da parte delle banche e il ricorso alla riserva frazionaria sono tutti fattori che favoriscono l'indebitamento. È necessario riformare il sistema monetario per rendere denaro e risorse più rari. Ciò incoraggerà un consumo più responsabile e una visione a lungo termine. L'inflazione, incoraggiando il consumo e gli investimenti, ha un impatto negativo sull'ambiente.
 L'economia keynesiana attuale, a differenza dell'economia austriaca, non tiene conto dell'aspetto temporale. Il denaro illimitato non può coesistere con le risorse limitate del nostro pianeta. I politici, a causa della loro visione a breve termine e del loro bisogno di crescita economica per essere rieletti, non sono in grado di risolvere i problemi ecologici a lungo termine. L'adozione di una moneta sana come Bitcoin potrebbe permettere di restituire il potere economico al popolo. I minatori di Bitcoin possono spegnere le fiamme nei pozzi petroliferi che bruciano il metano per evitare l'inquinamento, il che è vantaggioso per l'ambiente. Bitcoin favorisce l'uso di energia verde. Il metano può essere convertito in elettricità per alimentare le macchine di mining, il che è vantaggioso per tutti. La fine del petrodollaro è necessaria per porre fine alle guerre e alla sovraconsumo. Il sistema bancario, basato sul petrodollaro, favorisce la guerra. Eliminando il petrodollaro, si può porre fine alle guerre e all'emissione eccessiva di moneta. L'industria dell'oro, con le sue macchine inquinanti, ha un impatto ambientale maggiore rispetto all'industria di Bitcoin. La tecnologia di Bitcoin è spesso mal compresa e le critiche riguardanti il suo impatto ecologico sono spesso semplicistiche. Queste critiche possono essere motivate da interessi politici. Bitcoin ha il potenziale per aiutare nella transizione ecologica e contribuire ad un mondo più verde. I media spesso diffondono false idee su Bitcoin e l'ecologia. Senza Bitcoin, sarebbe più difficile finanziare la transizione ecologica attraverso la creazione monetaria.
 
-
 # Capitolo 4 – Risparmiare con Bitcoin
+
 ## 4.1 Bitcoin non dorme mai!
 
 ![Bitcoin never sleeps](assets/posters/en/15._bitcoinr_never_sleeps.png)
@@ -505,6 +506,7 @@ Come diceva Morpheus a Neo: Scegli la pillola blu per fermarti, la rossa per sce
 La tecnologia sta evolvendo esponenzialmente e nessuno può prevedere con certezza il suo futuro. La connettività e l'intelligenza artificiale saranno sempre più sviluppate. Anche la conoscenza acquisita attraverso internet sta crescendo esponenzialmente. L'IA ha già superato gli umani nei videogiochi, nei giochi da tavolo, nella creazione di film, testi e musica. Ciò significa che l'80% dei posti di lavoro sparirà a causa dell'IA e dell'automazione. Pertanto, abbiamo due opzioni per il futuro: limitare l'evoluzione o raccogliere l'aumento di capitale creato dall'IA e ridistribuirlo alla popolazione.
 
 Le domande indispensabili da porsi sono: come gestire una società in cui l'80% dei posti di lavoro sta per sparire? Come rivitalizzare una popolazione? Abbiamo davvero bisogno di così tanti insegnanti? Le conseguenze geopolitiche, politiche e umane dell'automazione non sono sufficientemente discusse. Informatica, internet, streaming, realtà virtuale cambieranno l'educazione. Potremmo avere un corso universale per tutti gli studenti francesi gestito dal governo e insegnanti che non insegnano più, ma accompagnano gli studenti. I bambini potrebbero andare in un mondo virtuale e essere accompagnati per imparare la storia. Dove si trova il confine tra un insegnante e un'IA? Come garantire una società che vive in prosperità? Le domande fondamentali per il nostro futuro non sono sufficientemente discusse.
+
 ### Quale futuro per la finanza?
 
 Ci sono anche domande su chi dovrebbe possedere, autorizzare e tracciare il denaro. L'obiettivo è decidere tra un sistema chiuso con custodi o un sistema aperto senza custodi. Il denaro è un titolo di proprietà privata? Gli account dei manifestanti possono essere bloccati senza un ordine della Corte Suprema? La proprietà privata consente allo stato e alle banche di rubare i nostri soldi senza intervento giudiziario? Chi garantisce il sistema finanziario? Come può un individuo essere sovrano del proprio denaro e essere un terzo affidabile? Si può inviare denaro dall'altra parte del mondo senza costi o intermediari? Accettare questa tecnologia potrebbe generare enormi risparmi per i più poveri. Dovremmo permettere la libera circolazione dei flussi di capitale? I blocchi internazionali hanno conseguenze economiche e politiche. È etico utilizzare intermediari finanziari come Western Union che addebitano una commissione del 25%? In un mondo digitale, il denaro dovrebbe essere democratizzato e considerato un bene comune appartenente al popolo piuttosto che allo stato.

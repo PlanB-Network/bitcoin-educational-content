@@ -10,6 +10,7 @@ objectives:
 ---
 
 ![cover](assets\thumbnail.png)
+
 # Ihr erster Bitcoin-Kurs
 
 In diesem Kurs werde ich Ihnen Bitcoin in 21 Kapiteln erklären, damit Sie diese Technologie einfach und effektiv verstehen können. Der Kurs ist für alle zugänglich und untersucht die Branche als Ganzes: Miner, Wallets, Kauf-/Verkaufsplattformen usw.
@@ -19,7 +20,6 @@ Der Kurs sollte etwa 15 Stunden dauern, mit einer Abschlussprüfung am Ende. Wä
 +++
 
 # Einführung: Der Bitcoin-Kurs
-
 
 ### Bitcoin: Eine dezentralisierte monetäre und technologische Revolution
 
@@ -191,7 +191,6 @@ Die direkte Eigentümerschaft an Bitcoins ist ein wesentliches Element, um die f
 
 ![setting up a wallet](assets/posters/en/10._set_up_your_wallet.png)
 
-
 ### Grundregeln für die sichere Verwaltung Ihres Bitcoin-Wallets
 
 Die Sicherheit Ihrer Bitcoins ist von entscheidender Bedeutung, und ein einfacher Fehler kann teure Konsequenzen haben. Aus diesem Grund werden wir Schritt für Schritt vorgehen und Sie mit bewährten Branchenpraktiken führen.
@@ -233,7 +232,6 @@ Zusätzlich dazu ist die Erstellung eines Erbschaftsplans ebenfalls ein entschei
 
 Die Sicherheit Ihrer Bitcoins auf lange Sicht beschränkt sich nicht nur auf die Erstellung physischer Backups oder die Erstellung eines Erbschaftsplans. Datenschutz ist ein weiterer wichtiger Aspekt. Zum Beispiel ist es besser, Bitcoins ohne Identitätsnachweis zu kaufen, um das Risiko von Identitätsdiebstahl zu minimieren. Darüber hinaus ist die Verwendung von Bitcoin-Wallets, die Ihren Bedürfnissen entsprechen, entscheidend, um sowohl Ihre Anonymität als auch die Sicherheit Ihrer Vermögenswerte zu gewährleisten. Sicherheitstools wie Smartcards, Hardware-Wallets und OpenDime-Geräte können alle dazu beitragen, die Sicherheit Ihrer Bitcoins zu erhöhen. Es ist auch wichtig, sich an Ihren Wiederherstellungssatz (oder "Seed-Satz") zu erinnern, eine Praxis, die als "Brain Wallet" bekannt ist und sicherstellt, dass Sie immer Zugriff auf Ihre Bitcoins haben, auch wenn Ihre Hardware-Wallet verloren geht oder gestohlen wird. Zusammenfassend sind Sicherheit und Datenschutz zwei wichtige Aspekte des langfristigen Besitzes von Bitcoins. Im nächsten Abschnitt werden wir die technischen Aspekte von Bitcoin im Detail behandeln. Wir hoffen, dass diese Informationen Ihnen helfen, sicher durch das Bitcoin-Ökosystem zu navigieren.
 
-
 # Kapitel 3 - Die technischen Aspekte von Bitcoin
 
 ## 3.1 Start von Bitcoin
@@ -266,6 +264,7 @@ Bitcoin ist eine beispiellose Innovation in der Finanzwelt. Trotz Herausforderun
 ![Erklärung einer Transaktion](https://youtu.be/GJlUqtGzxLk)
 
 ![Explanation of a Transaction](assets/posters/en/11._explaination_of_a_transaction.png)
+
 ### Bitcoin-Transaktionen: Der Prozess der Geldüberweisung
 
 Eine Bitcoin-Transaktion beinhaltet einen Austausch von Bitcoins zwischen zwei Parteien. Nehmen wir zum Beispiel zwei Protagonisten, Alice und Bob. Alice möchte Bitcoins erwerben, während Bob bereits welche besitzt. Damit Bob Bitcoins an Alice überweisen kann, muss sie ihm ihre Bitcoin-Adresse zur Verfügung stellen, die im Wesentlichen als Empfangsziel für Bitcoins dient. Diese Adresse, abgeleitet aus dem öffentlichen Schlüssel von Alice, ist einzigartig für ihre Bitcoin-Wallet. Anschließend initiiert Bob die Transaktion unter Verwendung von Alices Empfangsadresse. Er fügt auch Transaktionsgebühren hinzu, die eine Anreiz für die Miner darstellen, die Transaktion in den nächsten Block aufzunehmen. Diese Gebühren sind unerlässlich, um zu verhindern, dass das Netzwerk mit wertlosen Transaktionen überflutet wird. Die Größe der Transaktion hängt von der Anzahl der beteiligten Parteien und der Komplexität der Transaktion ab. Um die Transaktion abzuschließen, muss Bob sie digital mit seinem privaten Schlüssel signieren, um zu überprüfen, dass er der Eigentümer der Bitcoins ist, die er übertragen möchte.
@@ -351,7 +350,6 @@ Lassen Sie uns nun über den Betrieb und die ökologischen Auswirkungen des Bitc
 
 Schließlich ist es wichtig, die wirtschaftlichen und ökologischen Auswirkungen der Bitcoin-Adoption zu diskutieren. Das derzeitige Finanzsystem stellt durch seine Förderung von Überkonsum und Verschuldung ernsthafte Probleme dar. Die leichte Verfügbarkeit von Krediten, die Geldschöpfung durch Banken und die Verwendung von Bruchteilreserven sind Faktoren, die Überschuldung begünstigen. Es ist notwendig, das Geldsystem zu reformieren, um Geld und Ressourcen knapper zu machen. Dies wird zu einem verantwortungsvolleren Konsum und einer langfristigen Vision ermutigen. Inflation hat durch die Förderung von Konsum und Investitionen einen negativen Einfluss auf die Umwelt.
 Die aktuelle keynesianische Wirtschaftstheorie berücksichtigt im Gegensatz zur österreichischen Wirtschaftstheorie nicht den zeitlichen Aspekt. Unbegrenztes Geld kann nicht mit den begrenzten Ressourcen unseres Planeten koexistieren. Politiker sind aufgrund ihrer kurzfristigen Vision und ihres Bedürfnisses nach wirtschaftlichem Wachstum, um wiedergewählt zu werden, nicht in der Lage, langfristige Umweltprobleme zu lösen. Die Einführung einer gesunden Währung wie Bitcoin könnte dazu beitragen, die wirtschaftliche Macht an das Volk zurückzugeben. Die Flammen in Ölpumpen, die Methan verbrennen, um Verschmutzung zu vermeiden, können von Bitcoin-Minern gelöscht werden, was der Umwelt zugute kommt. Bitcoin fördert die Nutzung von grüner Energie. Methan kann in Elektrizität umgewandelt werden, um die Mining-Maschinen zu betreiben, was für alle von Vorteil ist. Das Ende des Petrodollars ist notwendig, um Kriege und Überkonsum zu beenden. Das auf dem Petrodollar basierende Bankensystem fördert den Krieg. Durch die Abschaffung des Petrodollars können Kriege und übermäßige Geldausgabe beendet werden. Die Goldindustrie hat mit ihren umweltverschmutzenden Maschinen einen größeren ökologischen Einfluss als die Bitcoin-Industrie. Die Technologie von Bitcoin wird oft missverstanden, und Kritik an ihrer ökologischen Auswirkung ist oft vereinfacht. Diese Kritik kann von politischen Interessen motiviert sein. Bitcoin hat das Potenzial, bei der ökologischen Transition zu helfen und zu einer grüneren Welt beizutragen. Die Medien verbreiten oft falsche Vorstellungen über Bitcoin und Ökologie. Ohne Bitcoin wäre es schwieriger, die ökologische Transition durch Geldschöpfung zu finanzieren.
-
 
 # Kapitel 4 - Sparen mit Bitcoin
 
@@ -495,10 +493,10 @@ Das Konzept des "Geld-Streamings" ist eine Vision für die Zukunft, die durch da
 
 ## 5.3 Rote Pille
 
-
 ![Red pill](assets/posters/en/2._oprange_pill.png)
 
 Wie Morpheus zu Neo sagte: Wählen Sie die blaue Pille, um aufzuhören, die rote Pille, um in den Bitcoin-Kaninchenbau hinabzusteigen.
+
 ### Die technologische Zukunft und ihre Auswirkungen
 
 Die Technologie entwickelt sich exponentiell und niemand kann ihre Zukunft sicher vorhersagen. Konnektivität und künstliche Intelligenz werden immer weiter entwickelt. Auch das Wissen, das durch das Internet erworben wird, wächst exponentiell. KIs haben den Menschen bereits in Videospielen, Brettspielen, beim Erstellen von Filmen, Texten und Musik übertroffen. Das bedeutet, dass 80% der Arbeitsplätze aufgrund von KI und Automatisierung verschwinden werden. Daher haben wir zwei Optionen für die Zukunft: die Entwicklung einschränken oder das durch KI erzeugte Kapitalwachstum nutzen und an die Bevölkerung weitergeben.
@@ -516,8 +514,8 @@ Die Zensur muss hinterfragt werden, denn wer hat das Wissen, um zu entscheiden, 
 Es gibt 2,4 Milliarden Menschen auf der Welt ohne Bankkonto, was zu Ungleichheiten führt. Bitcoin ermöglicht es, gleichberechtigt Transaktionen durchzuführen, unabhängig von sozialem Status oder politischer Position. Das Bitcoin-Protokoll ist unpolitisch und gewährt dem Präsidenten oder anderen Akteuren keine speziellen Privilegien. Führungskräfte sollten die gleichen Privilegien wie normale Menschen haben, um die Entwicklung nach oben zu treiben, anstatt einige an der Spitze und andere unten zu lassen. Sollte jeder die gleiche Währung haben, unabhängig von ihrem sozialen Status? Es ist wichtig, über die Welt nachzudenken, die wir unseren Kindern hinterlassen wollen, eine offene Welt, in der sie frei sind, mit ihrem Geld zu tun, was sie wollen.
 
 Bitcoin ist wichtig und sollte nicht als einfaches Geldspiel betrachtet werden. Es ist entscheidend, sich jetzt schon Fragen über Bitcoin zu stellen.
-# Allgemeines Fazit der Schulung
 
+# Allgemeines Fazit der Schulung
 
 Das Bitcoin-Protokoll ist unpolitisch und ermöglicht es, alle Transaktionen in einer Datenbank, der Blockchain, zu erfassen, die die monetäre Wahrheit gewährleistet. Die Infrastrukturschichten der Stufen 2 und 3 ermöglichen die Weiterentwicklung des Netzwerks und die Entwicklung neuer Funktionen.
 Bitcoin ist wie Nuklear- oder Raumfahrttechnik konzipiert, es entwickelt sich langsam und absichtlich, um eine kritische Masse von 7 Milliarden Menschen zu erreichen und das Netzwerk nicht zu überlasten. Bitcoin hat alle erforderlichen Merkmale einer Währung: teilbar, sofort transportierbar, nicht zensierbar, leicht übertragbar und ideal, um seinen Wert im Laufe der Zeit zu erhalten. Bitcoin ist pseudonym und kann weltweit ohne Genehmigung gehandelt werden.
@@ -527,7 +525,6 @@ Benutzer können Bitcoin erhalten, indem sie es für ihre Geschäfte akzeptieren
 
 Die Veränderung des Systems erfordert eine Veränderung der Währung. Die Entkopplung von Gold, Ressourcen, Geld und der realen Welt führt zu Ungleichheiten in der Gesellschaft. Satoshi hat Bitcoin im Jahr 2008 geschaffen, um dieser Situation entgegenzuwirken. Absolutes Geld korruptiert ebenfalls. Eine vollständige monetäre Neuausrichtung ist erforderlich, um bestimmte Probleme der Gesellschaft zu lösen.
 Bitcoin ermöglicht die Befreiung vom Bankensystem und mehr Gleichheit. Es ist ein soziales Phänomen und führt zu einer friedlichen Revolution.
-
 
 # Gehen Sie weiter & Dank und Kredit
 

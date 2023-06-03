@@ -8,7 +8,9 @@ objectives:
   - Estar familiarizado con el concepto del Lightning Network
   - Realizar el impacto geopolítico y social que representa Bitcoin
 ---
+
 ![cover](assets\thumbnail.png)
+
 # Tu primera aventura en Bitcoin
 
 En este curso, te explicaré Bitcoin en 21 capítulos para que puedas entender esta tecnología de manera simple y efectiva. El curso es accesible para todos y explora la industria en su conjunto: mineros, cartera, plataforma de compra/venta, etc.
@@ -462,6 +464,7 @@ El concepto de "streaming de dinero" es una visión para el futuro que es posibl
 ![pilule rouge](assets/posters/esp/2._la_pastilla_bitcoin.png)
 
 Como decía Morpheus a Neo: Elije la pastilla azul para detenerte, la roja para descender a la madriguera del bitcoin.
+
 ### El futuro tecnológico y sus implicaciones
 
 La tecnología evoluciona de manera exponencial y nadie puede predecir con certeza su futuro. La conectividad y las inteligencias artificiales estarán cada vez más desarrolladas. El conocimiento adquirido a través de internet también está creciendo de manera exponencial. Las IA ya han superado a los humanos en videojuegos, juegos de mesa, creación de películas, textos y música. Esto significa que el 80% de los trabajos desaparecerán debido a la IA y la automatización. Por lo tanto, tenemos dos opciones para el futuro: limitar la evolución o cosechar el aumento de capital creado por las IA y redistribuirlo a la población.
@@ -491,10 +494,7 @@ Los usuarios pueden obtener Bitcoins aceptándolos por su comercio o comprándol
 Cambiar el sistema requiere cambiar la moneda. La descorrelación entre el oro, los recursos, el dinero y el mundo real crea desigualdades en la sociedad. Satoshi creó Bitcoin en 2008 para abordar esta situación. El dinero absoluto también corrompe. Un reseteo monetario completo es necesario para resolver algunos problemas de la sociedad.
 Bitcoin permite la emancipación del sistema bancario y más igualdad. Es un fenómeno social y conduce a una revolución pacífica.
 
-
-
 # Seguir adelante Agradecimiento y crédito
-
 
 ¡Felicitaciones por completar el curso BTC 101! Espero de todo corazón que te haya gustado y te haya abierto puertas. Tu descubrimiento del bitcoin está apenas comenzando y te invito a explorar todos los demás cursos disponibles en la universidad.
 

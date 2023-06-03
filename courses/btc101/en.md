@@ -8,7 +8,9 @@ objectives:
   - Be familiar with the concept of the Lightning Network
   - Realize the geopolitical and social impact that Bitcoin represents
 ---
+
 ![cover](assets\thumbnail.png)
+
 # Your First Bitcoin Adventure
 
 In this course, I will explain Bitcoin in 21 chapters so that you can understand this technology in a simple and effective way. The course is accessible to everyone and explores the industry as a whole: miners, wallets, buying/selling platforms, etc.
@@ -513,7 +515,6 @@ Censorship should be questioned because who has the knowledge to decide what sho
 There are 2.4 billion people in the world without a bank account, which creates inequalities. Bitcoin allows to be equal in transactions, regardless of social status or political position. The Bitcoin protocol is apolitical and does not grant specific privileges to the president or other actors. Leaders should have the same privileges as ordinary people to push development upwards rather than leaving some at the top and others at the bottom. Should everyone have the same currency, regardless of their social status? It is important to think about the world we want to leave our children, an open world where they are free to do what they want with their money.
 
 Bitcoin is important and should not be considered simply as a money game. It is crucial to ask questions about Bitcoin right now.
-
 
 # General conclusion of the courses
 

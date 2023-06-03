@@ -8,7 +8,9 @@ objectives:
   - Estar familiarizado com o conceito da Rede Lightning
   - Compreender o impacto geopolítico e social que o Bitcoin representa
 ---
+
 ![cover](assets\thumbnail.png)
+
 # Sua primeira aventura no Bitcoin
 
 Neste curso, vou explicar o Bitcoin em 21 capítulos para que você possa entender essa tecnologia de maneira simples e eficaz. O curso é acessível a todos e explora a indústria como um todo: mineradores, carteiras, plataformas de compra/venda, etc...
@@ -18,7 +20,6 @@ O curso deve levar cerca de 15 horas, com um exame final no final. Durante todo 
 +++
 
 # Introdução: o percurso do Bitcoin
-
 
 ### Bitcoin: uma revolução monetária e tecnológica descentralizada
 
@@ -141,7 +142,6 @@ A escassez do Bitcoin é garantida por dois mecanismos-chave: o limite fixado em
 
 A quantidade fixa de bitcoins, inicialmente definida em 21 milhões, não pode ser modificada. Qualquer modificação no protocolo Bitcoin exigiria o acordo de toda a comunidade de usuários, o que é altamente improvável. A ideia de desvalorizar a moeda é contrária à filosofia fundamental do Bitcoin. A escassez do Bitcoin é um grande trunfo, pois sempre haverá um máximo de 21 milhões de unidades. A quantidade de bitcoins em circulação é pública e verificável por qualquer pessoa. Na verdade, qualquer pessoa pode verificar a quantidade de bitcoins em circulação inserindo um comando simples em um nó Bitcoin. Essa transparência e verificabilidade fortalecem a confiança no sistema Bitcoin, que não se baseia em instituições centralizadas ou indivíduos, mas em uma garantia matemática inerente ao seu protocolo. A noção de gerenciamento monetário saudável é intrínseca ao Bitcoin, pois é impossível criar mais bitcoins do que o limite pré-estabelecido ou destruir a poupança dos usuários. Essa é uma característica fundamental que distingue o Bitcoin de outras formas de moeda. Além disso, de acordo com os princípios da economia austríaca, o Bitcoin é considerado uma excelente forma de moeda. De fato, sua quantidade é estritamente controlada e emitida de maneira previsível, o que corresponde ao ideal austríaco de criação monetária. Ao contrário das moedas tradicionais, que podem ser sujeitas à inflação devido à impressão excessiva de dinheiro, o Bitcoin mantém seu valor graças à sua escassez programada. Em resumo, o Bitcoin, por sua natureza descentralizada, sua escassez programada e sua transparência, oferece uma alternativa única aos sistemas monetários tradicionais. Ele ilustra como a tecnologia pode ser usada para criar uma moeda que não é apenas útil e verificável, mas também preserva o valor da poupança dos usuários limitando estritamente sua oferta.
 
-
 # Capítulo 2 - Carteiras Bitcoin
 
 ## 2.1 Explicação das carteiras Bitcoin
@@ -183,15 +183,14 @@ Em conclusão, possuir diretamente seus Bitcoins é um elemento essencial para g
 
 ## 2.3 Configuração de uma carteira
 
-
 ![mettre en place un portefeuille](https://youtu.be/2MRRERHm7ZM)
 
 ![setting up a wallet](assets/posters/en/10._set_up_your_wallet.png)
 
-
 ### Regras básicas para a gestão segura da sua carteira Bitcoin
 
 A segurança dos seus Bitcoins é de crucial importância e um simples erro pode ter consequências caras. É por isso que vamos avançar passo a passo e orientá-lo com as melhores práticas do setor.
+
 # Proteger sua chave privada
 
 Sua chave privada, frequentemente representada por uma lista de 24 palavras (ou "seed"), é a senha para seus fundos. Se essa chave for revelada a terceiros, considere que os fundos associados não estão mais seguros. Portanto, ao inicializar sua carteira, é importante seguir estas regras:
@@ -498,6 +497,7 @@ O conceito de "streaming de dinheiro" é uma visão para o futuro que é tornada
 ![Red pill](assets/posters/en/2._oprange_pill.png)
 
 Como Morpheus disse a Neo: Escolha a pílula azul para parar, a vermelha para descer na toca do coelho do bitcoin.
+
 ### O futuro tecnológico e suas implicações
 
 A tecnologia está evoluindo de maneira exponencial e ninguém pode prever com certeza o seu futuro. A conectividade e as inteligências artificiais serão cada vez mais desenvolvidas. O conhecimento adquirido através da internet também é exponencial. As IA já superaram os humanos em videogames, jogos de tabuleiro, na criação de filmes, textos e músicas. Isso significa que 80% dos empregos vão desaparecer por causa da IA e da automação. Portanto, temos duas opções para o futuro: conter a evolução ou colher o aumento do capital criado pelas IA e redistribuí-lo à população.
@@ -515,6 +515,7 @@ A censura deve ser questionada, pois quem tem o conhecimento para decidir o que 
 Existem 2,4 bilhões de pessoas no mundo sem conta bancária, o que cria desigualdades. Bitcoin permite igualdade em transações, independentemente de seu status social ou posição política. O protocolo Bitcoin é apolítico e não concede privilégios específicos ao presidente ou a outros atores. Os líderes deveriam ter os mesmos privilégios que as pessoas comuns para impulsionar o desenvolvimento para cima, em vez de deixar alguns no topo e outros na base. Todo mundo deveria ter a mesma moeda, independentemente de seu status social? É importante pensar no mundo que queremos deixar para nossos filhos, um mundo aberto onde eles são livres para fazer o que quiserem com seu dinheiro.
 
 O Bitcoin é importante e não deve ser visto como um mero jogo de dinheiro. É crucial fazer perguntas sobre o Bitcoin agora.
+
 # Conclusão geral do treinamento
 
 O protocolo do Bitcoin é apolítico e permite registrar todas as transações em um banco de dados, o blockchain, que garante a verdade monetária. As camadas de infraestrutura de nível 2 e 3 permitem o desenvolvimento e a implementação de novas funcionalidades na rede.
@@ -525,7 +526,6 @@ Os usuários podem adquirir Bitcoins aceitando-os em suas transações comerciai
 
 Mudar o sistema requer mudar a moeda. A desconexão entre o ouro, os recursos, o dinheiro e o mundo real gera desigualdades na sociedade. Satoshi criou o Bitcoin em 2008 para enfrentar essa situação. O dinheiro absoluto também corrompe. É necessário um reset monetário completo para resolver alguns problemas da sociedade.
 O Bitcoin permite a emancipação do sistema bancário e promove maior igualdade. É um fenômeno social que leva a uma revolução pacífica.
-
 
 # Vá mais longe & Agradecimento e crédito
 

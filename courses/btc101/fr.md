@@ -79,9 +79,6 @@ L'impression monétaire engendre de l'inflation, appauvrissant progressivement l
 En réponse à ces défis systémiques, Bitcoin se présente comme une solution décentralisée. Historiquement, l'or a été privilégié en tant que monnaie, en raison de sa résistance à la contrefaçon. De manière similaire, Bitcoin, par sa nature décentralisée, ne peut être falsifié et est limité à 21 millions d'unités. Bitcoin est une monnaie qui repose sur la confiance, la transparence et la liberté, offrant une solution de rechange attrayante au système monétaire centralisé actuel.
 Parallèlement, l'émergence des monnaies numériques des banques centrales, ou CBDC, semble inévitable. Si celles-ci offriront une planification centralisée de l'économie, elles pourraient également entraver la liberté financière et s'avérer potentiellement autoritaires.
 
-En conclusion, l'hyperinflation a pour effet de dégrader rapidement la valeur de la monnaie, entraînant une érosion des épargnes et une perte de confiance dans le système monétaire. Comme Voltaire l'a autrefois suggéré, une monnaie fiduciaire finira toujours par perdre sa valeur intrinsèque et convergera vers zéro.
-La monnaie qui repose sur la confiance, la dette et l'impression monétaire se révèle être une monnaie défectueuse, incapable de garantir le pouvoir d'achat ou de préserver les épargnes. En outre, les politiciens disposent d'une capacité illimitée d'imprimer de l'argent, menaçant ainsi l'épargne des individus.
-
 ![Les monnaies Fiduciaires](assets/posters/fr/4_lamonnaiefiatcrop.png)
 
 ## L’hyperinflation
@@ -101,6 +98,9 @@ Il y a plusieurs autres exemples d'hyperinflation tout au long de l'histoire, do
 
 Connaître l'hyperinflation et comprendre comment elle se produit est une chose, mais comment peut-on se protéger contre elle ? Pour se prémunir contre l'hyperinflation, il est recommandé de diversifier son portefeuille en se débarrassant des monnaies faibles et en investissant dans des actifs ou des monnaies solides, tels que l'or ou le Bitcoin. Les actions d'entreprises capables de revaloriser leurs prix rapidement, comme Apple ou Microsoft, ou l'investissement immobilier peuvent également s'avérer être de bons placements.
 Il y a beaucoup à apprendre sur la gestion d'un portefeuille financier. Heureusement, il existe de nombreuses formations et ressources disponibles pour acquérir ces compétences. Par ailleurs, ne pas imprimer de l'argent à volonté est la meilleure façon de prévenir l'hyperinflation. Le Bitcoin est une monnaie qui possède des caractéristiques spécifiques. Sa capacité à servir pour le commerce mondial sera discutée dans une future vidéo.
+
+En conclusion, l'hyperinflation a pour effet de dégrader rapidement la valeur de la monnaie, entraînant une érosion des épargnes et une perte de confiance dans le système monétaire. Comme Voltaire l'a autrefois suggéré, une monnaie fiduciaire finira toujours par perdre sa valeur intrinsèque et convergera vers zéro.
+La monnaie qui repose sur la confiance, la dette et l'impression monétaire se révèle être une monnaie défectueuse, incapable de garantir le pouvoir d'achat ou de préserver les épargnes. En outre, les politiciens disposent d'une capacité illimitée d'imprimer de l'argent, menaçant ainsi l'épargne des individus.
 
 ![Les hyperinflations](assets/posters/fr/5_hyperinflation_crop.png)
 
@@ -141,8 +141,6 @@ En conclusion, Bitcoin est une alternative monétaire réaliste qui offre un dé
 
 ![comprendre les portefeuilles Bitcoin](https://youtu.be/GsnX7qdODK8)
 
-![explication des portefeuilles Bitcoin](assets/posters/fr/8_explication_des_portefeuilles_bitcoin_crop.png)
-
 Nous allons explorer ici le stockage et la sécurité des Bitcoins dans les portefeuilles.
 
 Tout d'abord, qu'est-ce qu'un portefeuille Bitcoin ? Un portefeuille est un endroit où sont conservées les clés privées qui donnent accès à vos Bitcoins. Un portefeuille peut être un logiciel sur votre ordinateur, une application sur votre smartphone, un appareil matériel comme une clé USB, ou même un morceau de papier.
@@ -155,6 +153,8 @@ Si quelqu'un était capable de craquer la cryptographie de Bitcoin, ils seraient
 
 La probabilité d'un piratage de votre portefeuille Bitcoin est astronomiquement faible si vous suivez les bonnes pratiques de sécurité. C'est pourquoi il est important de suivre les conseils des experts en cryptographie pour sécuriser votre compte.
 Choisissez un portefeuille qui correspond à vos besoins et à votre cas d'utilisation. Des tutoriels détaillés sur l'utilisation et la sécurisation de différents portefeuilles sont disponibles sur de nombreux sites web dédiés à Bitcoin, ainsi que dans diverses formations pratiques sur Bitcoin.
+
+![explication des portefeuilles Bitcoin](assets/posters/fr/8_explication_des_portefeuilles_bitcoin_crop.png)
 
 ## Choisir sa sécurité
 
@@ -307,7 +307,7 @@ En somme, les nœuds, qu'ils soient incarnés par des dispositifs physiques ou d
 
 ## Les mineurs
 
-![les minerus](https://youtu.be/Lr5L3uy244w)
+![les mineurs](https://youtu.be/Lr5L3uy244w)
 
 Les mineurs de Bitcoin sont des individus ou des entités qui consacrent de l'électricité et du temps à la résolution d'équations mathématiques complexes pour sécuriser le réseau Bitcoin. Ils jouent un rôle crucial dans la validation des transactions, les rendant légitimes aux yeux de l'ensemble des utilisateurs du réseau. Les mineurs utilisent des machines ASIC (Application-Specific Integrated Circuit) pour résoudre l'algorithme de hachage SHA256 et valider un bloc de transactions. Cet algorithme est conçu de telle manière qu'il est facile de vérifier une solution, mais extrêmement difficile de la trouver. Les mineurs doivent essayer des centaines de milliards de combinaisons avant de trouver la bonne solution. La difficulté de cette tâche augmente avec le temps et le nombre de mineurs participant.
 
@@ -513,8 +513,6 @@ En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation pas
 
 ![pilule rouge](https://youtu.be/nCRVIoyyyck)
 
-![pilule rouge](assets/posters/fr/2_pilluleorange.png)
-
 Comme le disait Morpheus à Néo : Choisir la pilule bleue pour arrêter, la rouge pour descendre dans le terrier du bitcoin.
 
 ### L'avenir technologique et ses implications
@@ -535,6 +533,8 @@ La censure doit être questionnée car qui a la connaissance pour décider ce qu
 Il y a 2,4 milliards de personnes dans le monde sans compte bancaire, ce qui crée des inégalités. Bitcoin permet d'être égaux en matière de transactions, quel que soit son statut social ou sa position politique. Le protocole Bitcoin est apolitique et ne donne pas de privilèges spécifiques au président ou à d'autres acteurs. Les dirigeants devraient avoir les mêmes privilèges que les gens ordinaires pour pousser le développement vers le haut plutôt que de laisser certains au sommet et d'autres en bas. Est-ce que tout le monde devrait avoir la même monnaie, peu importe leur statut social ? Il est important de penser au monde que nous voulons laisser à nos enfants, un monde ouvert où ils sont libres de faire ce qu'ils veulent avec leur monnaie.
 
 Bitcoin est important et ne doit pas être considéré comme un simple jeu d'argent. Il est crucial de se poser des questions sur Bitcoin dès maintenant.
+
+![pilule rouge](assets/posters/fr/2_pilluleorange.png)
 
 # Bitcoin : un protocole révolutionnaire
 

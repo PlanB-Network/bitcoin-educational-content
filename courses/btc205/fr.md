@@ -74,13 +74,13 @@ Chaque solution P2P a ses propres avantages et inconvénients. Nous proposons ci
 
 [LNP2PBot](https://lnp2pbot.com/) est accessible via Telegram pour l'achat de Bitcoin en non-KYC. Il offre des transactions rapides grâce au Lightning Network et des frais faibles.
 
-| Avantages                                                          | Inconvénients                                                                |
-| ------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| - Accessible via Telegram                                          | - Moins robuste et sécurisé que les autres solutions                         |
-| - Rapidité grâce au Lightning Network                              | - Moins rapide et moins convivial que Robosat                                |
-| - Faibles frais de transaction                                     | - Peut être lié à l'identité Telegram de l'utilisateur                       |
-| - Gestion des litiges en interne                                   | - Manque de liquidité et fragilité de l'application                          |
-| - Proposition de communautés pour limiter le problème de confiance | - La confiance doit être accordée à Alain P2Pbot pour la gestion des litiges |
+| Avantages                                                          | Inconvénients                                                            |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| - Accessible via Telegram                                          | - Moins robuste et sécurisé que les autres solutions                     |
+| - Rapidité grâce au Lightning Network                              | - Moins rapide et moins convivial que Robosat                            |
+| - Faibles frais de transaction                                     | - Peut être lié à l'identité Telegram de l'utilisateur                   |
+| - Gestion des litiges en interne                                   | - Manque de liquidité et fragilité de l'application                      |
+| - Proposition de communautés pour limiter le problème de confiance | - La confiance doit être accordée à LNP2Pbot pour la gestion des litiges |
 
 ### Peach
 
@@ -357,7 +357,7 @@ Pour conclure, la fondatrice de Pitch Bitcoin souligne l'importance de la compé
 Voici un resumé de l'interview :
 Cette interview clos la formation Bitcoin 205 qui aborde le sujet des solutions d'achat en pair à pair de Bitcoin. Organisée par Pierre, cette formation a pour but d'éduquer le public francophone sur les solutions techniques d'achat en pair à pair de Bitcoin, un domaine jusqu'alors négligé. Grâce aux progrès réalisés, il est désormais possible d'acheter et d'utiliser Bitcoin en préservant sa vie privée, même avec un simple téléphone et l'application Telegram.
 
-L'une des méthodes mises en avant est l'utilisation de CoinJoin avec Samouraï pour renforcer la sécurité. Cette solution permet de minimiser les risques liés aux entités centralisées détenant des informations personnelles sur les utilisateurs de Bitcoin. Il est recommandé d'acheter des Bitcoins en non-KawaiiShii, une méthode permettant de renforcer l'anonymat. De plus, certaines plateformes d'échange comme Kraken offrent des frais de retrait plus faibles que d'autres, ce qui va dans le sens des principes de Bitcoin.
+L'une des méthodes mises en avant est l'utilisation de CoinJoin avec Samouraï pour renforcer la sécurité. Cette solution permet de minimiser les risques liés aux entités centralisées détenant des informations personnelles sur les utilisateurs de Bitcoin. Il est recommandé d'acheter des Bitcoins en non-KYC, une méthode permettant de renforcer l'anonymat. De plus, certaines plateformes d'échange comme Kraken offrent des frais de retrait plus faibles que d'autres, ce qui va dans le sens des principes de Bitcoin.
 
 Bisq, Robosat et Peach sont présentées comme des solutions démocratiques pour le commerce de bitcoins. Peach, en particulier, est mis en avant pour sa facilité d'accès en tant qu'application mobile. En revanche, il existe des défis à relever, notamment la régulation des cryptomonnaies et la nécessité de respecter certaines limites pour éviter une régulation excessive.
 

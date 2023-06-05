@@ -1,0 +1,5 @@
+description: |
+  "Samourai ist eine Bitcoin-Wallet, die sich der Privatsphäre und Sicherheit widmet. Sie verwendet fortschrittliche Technologien, um Überwachung auf Basis der Blockchain zu verhindern und ermöglicht Offline-Transaktionen. Die nicht verwahrte Wallet bietet volle Kontrolle über private Schlüssel. Sie bietet auch RoninDojo, einen leistungsstarken, selbst gehosteten Full Node, und Whirlpool, eine Implementierung von Chaumian CoinJoin, die darauf abzielt, die Verbindung zwischen Bitcoins und ihrer Transaktionshistorie zu unterbrechen. Das Team hinter Samourai besteht aus Datenschutzaktivisten, die sich der Erstellung von Software verschrieben haben, die Privatsphäre und Sicherheit im Bitcoin-Ökosystem priorisiert."
+contributors:
+  - rabbit-hole
+  - another-satoshi

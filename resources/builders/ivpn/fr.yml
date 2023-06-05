@@ -1,0 +1,13 @@
+description: |
+  IVPN est un service VPN axé sur la confidentialité qui ne consigne pas l'activité de l'utilisateur et ne collecte ni ne stocke de données personnelles lors de l'inscription. Nous acceptons les paiements en espèces, Monero et Bitcoin. Nous sommes engagés en faveur de la transparence et de la sécurité, avec notre site web et toutes les applications IVPN étant open-source.
+
+  Nos serveurs, y compris les e-mails et le chat en direct, sont auto-hébergés et exploités par nous. Nous nous engageons à des audits de sécurité indépendants annuels et ne nous livrons pas à de fausses publicités, telles que le paiement pour des critiques ou la promesse d'anonymat.
+
+  Nous contribuons régulièrement à des organisations telles que l'EFF, Open Rights Group et le projet Tor. Notre modèle économique repose uniquement sur des abonnements payants, sans aucun service accessoire ou site d'examen VPN.
+
+  Nos fonctionnalités comprennent un choix de protocoles WireGuard, OpenVPN ou IPSec, AntiTracker qui bloque les publicités et les traqueurs, une option Killswitch/Firewall, des serveurs DNS privés non journalisés, des itinéraires VPN multi-sauts, le transfert de port et Obfsproxy pour contourner la censure.
+
+  Bien que nous précisions que les VPN ne peuvent pas garantir l'anonymat ou empêcher la collecte de données par des géants comme Google ou Facebook, nous assurons qu'un VPN fiable comme le nôtre peut efficacement crypter vos données et demandes DNS, renforcer la sécurité sur les réseaux publics non fiables, masquer votre adresse IP et contourner la censure ou les blocages géographiques. Nous sommes un élément fiable de votre stratégie de protection de la vie privée, à condition que vous nous fassiez plus confiance qu'à votre fournisseur d'accès Internet.
+contributors:
+  - rabbit-hole
+  - another-satoshi

@@ -1,0 +1,5 @@
+description: |
+  "Wasabi Wallet ist für diejenigen konzipiert, die Privatsphäre schätzen, in einer Welt, in der Überwachung und Missbrauch von Informationen weit verbreitet sind. Als Zero-Knowledge-Software stellt es sicher, dass die Bitcoin-Transaktionen des Benutzers privat bleiben. Wasabi Wallet ist Open-Source, sodass jeder den Code überprüfen oder dazu beitragen kann. Das Design ist vertrauenswürdig, sodass weder die Öffentlichkeit noch die Entwickler Ihre Privatsphäre verletzen können. Die Brieftasche ist nicht verwahrend, sodass Sie die Kontrolle über Ihre privaten Schlüssel behalten und echte finanzielle Souveränität erreichen können. Trotz seiner fortschrittlichen Funktionen ist Wasabi benutzerfreundlich gestaltet und behandelt die Privatsphäre automatisch. Es verwendet WabiSabi, ein anonymes Berechtigungsschema, um Coinjoins zugänglicher und effizienter zu machen. Darüber hinaus ist es erschwinglich und berechnet eine bescheidene Gebühr für das Coinjoinen von Münzen über 0,01 BTC, während Eingaben von 0,01 BTC oder darunter und Remixes kostenlos sind."
+contributors:
+  - rabbit-hole
+  - another-satoshi

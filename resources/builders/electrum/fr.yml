@@ -1,0 +1,5 @@
+description: |
+  Electrum est un portefeuille Bitcoin polyvalent qui privilégie la sécurité et la flexibilité de l'utilisateur. Il prend en charge plusieurs plateformes, notamment les interfaces mobiles, de bureau et en ligne de commande. Vos clés privées sont cryptées et conservées sur votre appareil, garantissant qu'elles ne sont jamais exposées. De plus, Electrum utilise une phrase secrète pour permettre la récupération des fonds et offre un accès rapide à la blockchain Bitcoin via son réseau de serveurs. Il prend en charge le stockage "à froid" hors ligne pour sécuriser vos clés privées et offre des capacités multisig pour diviser les autorisations de dépense de pièces. Electrum vérifie également toutes les transactions de votre historique en utilisant la vérification simplifiée des paiements (SPV) et permet l'intégration de plugins tiers, tels que les services multisig et les portefeuilles matériels.
+contributors:
+  - rabbit-hole
+  - another-satoshi

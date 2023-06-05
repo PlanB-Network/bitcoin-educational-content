@@ -1,0 +1,7 @@
+description: |
+  "Samourai é uma carteira de Bitcoin dedicada à privacidade e segurança. 
+
+  Ela utiliza tecnologias avançadas para prevenir a vigilância baseada em blockchain e permite transações offline. A carteira não custodial fornece controle total sobre as chaves privadas. Também oferece RoninDojo, um nó completo auto-hospedado de alta performance, e Whirlpool, uma implementação de Chaumian CoinJoin, projetada para interromper a conexão entre bitcoins e seu histórico de transações. A equipe por trás do Samourai é composta por ativistas de privacidade comprometidos em criar software que priorize a privacidade e segurança no ecossistema Bitcoin."
+contributors:
+  - rabbit-hole
+  - another-satoshi

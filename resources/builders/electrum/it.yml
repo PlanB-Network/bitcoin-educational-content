@@ -1,0 +1,5 @@
+description: |
+  Electrum è un portafoglio Bitcoin versatile che prioritizza la sicurezza e la flessibilità dell'utente. Supporta diverse piattaforme, tra cui mobile, desktop e interfacce a riga di comando. Le tue chiavi private sono crittografate e conservate sul tuo dispositivo, garantendo che non siano mai esposte. Inoltre, Electrum utilizza una frase segreta per consentire il recupero dei fondi e fornisce un accesso rapido alla blockchain di Bitcoin tramite la sua rete di server. Supporta lo "storage" offline "a freddo" per mantenere le tue chiavi private al sicuro e offre capacità multisig per dividere l'autorizzazione per la spesa di monete. Electrum verifica anche tutte le transazioni nella tua cronologia utilizzando la Verifica Semplificata dei Pagamenti (SPV) e consente integrazioni di plugin di terze parti, come servizi multisig e portafogli hardware.
+contributors:
+  - rabbit-hole
+  - another-satoshi

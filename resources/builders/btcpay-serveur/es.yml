@@ -1,0 +1,5 @@
+description: |
+  BTCPay Server es un procesador de pagos de Bitcoin de código abierto y autohospedado. Este software te permite aceptar pagos de Bitcoin (BTC) directamente en tu billetera, sin comisiones ni intermediarios de terceros. Ofrece una mayor privacidad y seguridad, una interfaz de usuario personalizable y funciones tanto para comercio electrónico como para punto de venta. La plataforma admite la integración con varias plataformas de comercio electrónico como WordPress, Magneto, Drupal y otras. Es una solución versátil para empresas, organizaciones benéficas, creadores de contenido e individuos que buscan un sistema de pago de Bitcoin auto-soberano.
+contributors:
+  - rabbit-hole
+  - another-satoshi

@@ -1,0 +1,5 @@
+description: |
+  Samourai es una billetera de Bitcoin dedicada a la privacidad y seguridad. Utiliza tecnologías avanzadas para prevenir la vigilancia basada en blockchain y permite transacciones sin conexión. La billetera no custodial proporciona control total sobre las claves privadas. También ofrece RoninDojo, un nodo completo autohospedado de alto rendimiento, y Whirlpool, una implementación de Chaumian CoinJoin, diseñada para interrumpir el vínculo entre los bitcoins y su historial de transacciones. El equipo detrás de Samourai está formado por activistas de la privacidad comprometidos a crear software que priorice la privacidad y seguridad en el ecosistema de Bitcoin.
+contributors:
+  - rabbit-hole
+  - another-satoshi

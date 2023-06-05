@@ -3,8 +3,8 @@ import io
 import shutil
 import yaml
 import re
-import openai
 import time
+import openai
 from openai.error import RateLimitError, Timeout, APIError
 from dotenv import load_dotenv
 from tqdm import tqdm
@@ -79,7 +79,7 @@ def process_files():
 
                                 # Write the translated description to the temporary file
                                 tmp_file.write('description: |\n')
-                                tmp_file.write('  ' + '  \n'.join(translation.splitlines()) + '\n')
+                                tmp_file.write("  " + '\n  '.join(translation.splitlines()) + '\n' )
 
                             # If contributors field is not present or is not a list, create an empty list
                             if not isinstance(contributors, list):

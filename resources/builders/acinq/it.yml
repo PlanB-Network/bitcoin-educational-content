@@ -1,0 +1,11 @@
+description: |
+  Fondata nel 2014, ACINQ è una startup francese che costruisce prodotti e servizi per l'ecosistema Bitcoin. Siamo basati a Parigi, in Francia.
+
+  Contribuiamo e costruiamo sul protocollo Lightning dal 2015. La nostra base tecnologica principale è eclair, un'implementazione completa di Lightning con un focus sulla performance e l'affidabilità.
+
+  ACINQ è un importante operatore e fornitore di liquidità sulla rete Lightning. Gestiamo il nodo più grande della rete dove sfruttiamo la nostra esperienza di Lightning.
+
+  Siamo anche gli sviluppatori di Phoenix, un portafoglio Bitcoin Lightning auto-custodiale all'avanguardia.
+contributors:
+  - rabbit-hole
+  - another-satoshi

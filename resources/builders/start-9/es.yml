@@ -1,0 +1,7 @@
+description: |
+  Start9 tiene como objetivo resolver el problema de la confianza en el mundo digital actual, donde el control de datos es una preocupación importante. 
+
+  La empresa te brinda el poder de ser dueño y controlar tus datos mediante la ejecución de un servidor personal, que tradicionalmente solo estaba disponible para personas con conocimientos técnicos o entidades adineradas. Con Start9, puedes ejecutar un nodo completo de Bitcoin para verificar transacciones, un nodo de Lightning para tener plena custodia sobre tu Bitcoin en la Red Lightning y, en esencia, convertirte en tu propia entidad digital. Esto es posible gracias a EmbassyOS, un sistema operativo basado en navegador para servidores personales. A pesar de la naturaleza potencialmente intimidante de ejecutar un servidor personal, Start9 asegura un soporte al cliente integral, que incluye un manual detallado del usuario, preguntas frecuentes, tutoriales y acceso directo a una comunidad de expertos técnicos.
+contributors:
+  - rabbit-hole
+  - another-satoshi

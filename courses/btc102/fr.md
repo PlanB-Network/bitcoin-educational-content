@@ -517,11 +517,12 @@ Bitcoin offre une alternative puissante aux systèmes financiers traditionnels. 
 
 ![comprendre l'industrie du bitcoin](https://youtu.be/fcXvjghA-uM)
 
-Avec l'arrivé de Bitcoin en 2009 par Satoshi Nakamoto, une industrie de plusieurs billions de dollars est née. Cette industrie malgres ca jeunesse a connu une croissance exponentielle au cours des dix dernières années. De nouveaux acteurs arrivent chaque jour avec de grosse somme d'argent et sont prêts à pénétrer en force dans cette nouvelle industrie. Aujorud'hui l'industrie a atteint un point de non-retour et les gouvernements, banques, géant d'internet ou autres ont rejoint le mouvement avec toute sorte d'intervention. 
+Avec l'arrivé de Bitcoin en 2009 par Satoshi Nakamoto, une industrie de plusieurs milliard de dollars est née. Cette industrie malgres, ca jeunesse, a connu une croissance exponentielle au cours des dix dernières années. De nouveaux acteurs arrivent chaque jour avec de grosse somme d'argent et sont prêts à pénétrer en force dans cette nouvelle industrie. Aujorud'hui l'industrie a atteint un point de non-retour où les gouvernements, banques, géant d'internet ou autres ont rejoint le mouvement avec toute sorte d'intervention. 
 
 Bitcoin est un 0 à 1. Il ne peut pas être défait. 
 
 * Certains y verront le mal en personne, la boîte de Pandore est ouverte et elle leur ôte maintenant leur pouvoir et leur avantage. Ils vont le combattre. 
+
 * D'autres verront dans Bitcoin une opportunité de retrouver la liberté, de changer le système et d'améliorer notre société. Ils l'embrasseront.
 Bitcoin s'en moque, il existe tout simplement. 
 
@@ -531,17 +532,16 @@ Bitcoin s'en moque, il existe tout simplement.
 Dans cette section nous tacherons de faire un rapide tour d'horizone des acteurs pour meiux comrpendre comment focntionne l'industrie dans laquelle on cherche a entré. 
 
 
-### Altcoin
+### les autre crypto-monnaies "altcoin" "shitcoin"
 
-Il est possible pour quiconque de concevoir sa propre cryptomonnaie - une tâche qui ne demande que quelques minutes. Cependant, la valeur de ce token sera exclusivement déterminée par le marché. En décembre 2019, plus de 5000 tokens étaient listés sur Coinmarketcap. Aujourd’hui en 2023 c’est plus de 23 000 avec des NFT, de la defi et tout et rien. Ces jetons crypto peuvent revêtir de multiples formes : monnaie, sécurité, carburant pour un écosystème, sidechain, art digital etc.
+Il est possible pour quiconque de concevoir sa propre cryptomonnaie - une tâche qui ne demande que quelques minutes. Cependant, la valeur de ce token sera exclusivement déterminée par le marché. En décembre 2019, plus de 5000 tokens étaient répertoriés sur Coinmarketcap. Aujourd'hui, en 2023, ce nombre est passé à plus de 23 000, avec des NFT, de la DeFi et bien d'autres choses. Ces jetons cryptographiques peuvent prendre différentes formes : monnaie, titre de sécurité, carburant pour un écosystème, sidechain, art numérique, etc.
 
- Il est crucial de comprendre que 99.5 % de ces nouvelles « cryptomonnaies » sont des tromperies, mises en place par des marketeurs afin de dérober vos bitcoins. Toutefois, au sein des rare 0.5% de projets sérieux, un effort conséquent est déployé pour faire progresser, expérimenter et développer des technologies novatrices, capables d'apporter de nombreux bénéfices aux utilisateurs. Avec le temps, le secteur se bonifiera, faisant émerger des entreprises légitimes avec de réels produits. Est-ce que ca terminera sur d’autre blockchain ou bitcoin c’est la toute la question. Pour le moment une chose est sure c’est que uniquement bitcoin est vraiment decentraliser, resistant a la cenre, libre et assez sérieux pour y consacrer des millier d’heure. 
-
+Il est crucial de comprendre que 99,8 % de ces nouvelles « cryptomonnaies » sont des arnaques, mises en place par des marketeurs dans le but de dérober vos bitcoins. Toutefois, parmi les rares 0,2 % de projets sérieux, un effort conséquent est déployé pour faire progresser, expérimenter et développer des technologies novatrices, capables d'apporter de nombreux avantages aux utilisateurs. Avec le temps, le secteur s'améliorera, faisant émerger des entreprises légitimes proposant de véritables produits. La question de savoir si cela se fera sur d'autres blockchains que Bitcoin reste entière. Pour le moment, une chose est sûre : Bitcoin est la seule cryptomonnaie véritablement décentralisée, résistante à la censure, libre et assez sérieuse pour justifier des milliers d'heures de travail.
 
 | Caractéristique | Bitcoin                    | Alt-Coin (99% d'entre eux) |
 |----------------|----------------------------|----------------------------|
 | Liquidité      | Élevée                     | Faible                     |
-| Adoption       | Élevée et globale          | Faible                     |
+| Adoption ( réel)       | Élevée et globale          | Faible                     |
 | Équipe          | Robuste et décentralisée   | Faible et centralisée      |
 | Réputation      | Élevée et globale          | Faible                     |
 | Infrastructure | Robuste et stable          | Faible                     |
@@ -559,7 +559,7 @@ Quelques conseils à garder à l'esprit :
 * "Découvrez mon nouveau Bitcoin amélioré"
 * "Fedcoin va rendre Bitcoin obsolète"
 
-Il est essentiel de faire des recherches personnelles si vous décidez de vous plonger dans le monde des alt-coins.
+Il est essentiel de faire des recherches personnelles si vous décidez de vous plonger dans le monde des alt-coins mais ce n'est pas ici qu'on vous guidera. 
 
 ### L'Espace "Blockchain"
 
@@ -576,68 +576,112 @@ Il est essentiel de faire des recherches personnelles si vous décidez de vous p
 
 Blockchain privée
 
-Alors qu'ils prétendent rivaliser avec Bitcoin, ces projets demeurent centralisés pour assurer le contrôle et le respect des réglementations locales. Ils ne fourniront pas de protection de la vie privée, mais plutôt une surveillance de masse accrue. Le projet "Libra" de Facebook se positionne en concurrence avec les banques, pas avec Bitcoin. Par ailleurs, sans preuve de travail, un "blockchain" n'a pas de véritable valeur.
+Alors qu'ils prétendent rivaliser avec Bitcoin, ces projets demeurent centralisés afin d'assurer le contrôle et de respecter les réglementations locales. Ils ne fourniront pas de protection de la vie privée, mais plutôt une surveillance de masse accrue. Le projet "Libra" de Facebook se positionnait en concurrence avec les banques, et non avec Bitcoin. De plus, sans preuve de travail, une "blockchain" n'a pas de véritable valeur. Il convient de noter que Libra a depuis été abandonné et qu'aucun vrai projet de blockchain privée n'est actuellement utilisé à l'échelle mondiale, contrairement à Bitcoin qui l'est.
 
 ![blockchain](assets/industrie/1.JPG)
 
 ### Banques, gouvernements et régulateurs
 
-Le protocole Bitcoin est hors de portée des réglementations. Seuls les acteurs qui gravitent autour de celui-ci peuvent être réglementés et, comme Bitcoin est décentralisé, les lois, taxes et régulations varient d'un pays à l'autre. La Chine a, par exemple, prohibé l'utilisation de Bitcoin à de nombreuses reprises, tandis que des pays comme le Canada, la Suisse et Malte adoptent une position plus favorable vis-à-vis de cette cryptomonnaie. La plupart des nations ont mis sur pied des groupes de travail sur la cryptographie afin d'élaborer de nouvelles règles et régulations. Cependant, ce processus est lent et les règles peuvent changer assez fréquemment. Malgré ce rythme lent, Bitcoin et les cryptomonnaies sont au coeur de nombreuses conversations. 
+Le protocole Bitcoin est hors de portée des réglementations. Seuls les acteurs qui gravitent autour de celui-ci peuvent être réglementés et, comme Bitcoin est décentralisé, les lois, taxes et régulations varient d'un pays à l'autre. La Chine a, par exemple, prohibé l'utilisation de Bitcoin à de nombreuses reprises, tandis que des pays comme le Canada, la Suisse et Malte adoptent une position plus favorable vis-à-vis de cette dernière. La plupart des nations ont mis sur pied des groupes de travail sur la cryptographie afin d'élaborer de nouvelles règles et régulations. Cependant, ce processus est lent et les règles peuvent changer assez fréquemment. Malgré ce rythme lent, Bitcoin et les cryptomonnaies sont au coeur de nombreuses conversations. 
 
-![blockchain](assets/industrie/2.JPG)
+![blockchain](assets/industrie/3.JPG)
 
 Il est recommandé de mener des recherches approfondies concernant la situation dans votre pays. Les banques sont également très réglementées concernant Bitcoin. Bon nombre d'entre elles ferment les comptes et limitent l'accès aux services financiers des entreprises traitant en Bitcoin, tout en constituant des équipes de recherche pour explorer cette nouvelle technologie dans le but d'améliorer leur propre infrastructure. Aucun régulateur, banque ou gouvernement ne souhaite perdre de pouvoir, ils se préparent donc à faire face à Bitcoin. Il est important de noter que Bitcoin, en tant que tel, ne peut être modifié ou contrôlé par une seule entité.
 
 ### Plateformes d'échange
 
-Les plateformes d'échange servent de lien entre la monnaie fiduciaire (monnaie gouvernementale) et les cryptomonnaies. Elles donnent la possibilité à leurs clients d'acheter ou de vendre des cryptomonnaies via leur plateforme. Chaque plateforme d'échange possède des spécificités différentes. Voici quelques aspects à considérer : une bonne réputation en matière de sécurité, une liquidité suffisante, un service client efficace, une interface utilisateur intuitive, une option pour effectuer des achats automatiques et un retrait automatique des cryptomonnaies. La plupart des plateformes d'échange légales respectent les réglementations bancaires en vigueur. Elles ont également mis en place des procédures de KYC ("Know Your Customer") rigoureuses, vous demandant ainsi de fournir une pièce d'identité pour créer un compte.
+Les plateformes d'échange servent de lien entre la monnaie fiduciaire (monnaie gouvernementale) et les cryptomonnaies. Elles donnent la possibilité à leurs clients d'acheter ou de vendre des cryptomonnaies via leur plateforme. Chaque plateforme d'échange possède des spécificités différentes. Voici quelques aspects à considérer : 
+* une bonne réputation en matière de sécurité
+* Une liquidité suffisante
+* Un service client efficace
+* Une interface utilisateur intuitiv 
+* Une option pour effectuer des achats automatiques 
+* Un retrait automatique des Bitcoins vers son portefeuille. 
+
+La plupart des plateformes d'échange légales respectent les réglementations bancaires en vigueur. Elles ont également mis en place des procédures de KYC ("Know Your Customer") rigoureuses, vous demandant ainsi de fournir une pièce d'identité pour créer un compte. Il faut donc diviser l'industrie des solutions d'achat en KYC et non KYC, comme nous l'explorerons en détail prochainement.
 
 ![blockchain](assets/industrie/4.JPG)
 
-Prudence : Le "Big Brother" vous surveille, prétendument pour votre sécurité. Vos données peuvent être utilisées par votre gouvernement pour suivre vos activités.
-Plateformes d'échange d'Altcoins Ces plateformes vous permettent d'acheter et de vendre les divers Altcoins que vous souhaitez échanger. Pour ce faire, vous pouvez déposer des BTC ou utiliser une carte de crédit. Il est conseillé d'être extrêmement prudent avec les Altcoins et d'évaluer leur performance en Bitcoin, et non en dollars.
-Plateformes d'échange de trading Elles permettent de trader des bitcoins et autres cryptomonnaies avec un effet de levier, en utilisant les BTC comme garantie. Vous pourrez ainsi trader des contrats dérivés. Attention si vous utilisez le levier! Il est probablement préférable de ne pas trader vos bitcoins.
-
-### Plateformes d'échange pair à pair 
-Ces plateformes vous permettent d'acheter et de vendre des bitcoins directement entre utilisateurs. Vous pourrez y trouver des personnes dans votre ville pour conclure des transactions. Soyez prudent lors de ces échanges et préférez des lieux sûrs et publics pour conclure les transactions.
-Plateformes d'échange douteuses Certaines plateformes non réglementées sont suspectes, elles peuvent manipuler leur volume de transactions et leur sécurité est souvent défaillante. Ces plateformes sont souvent russes, chinoises ou exclusivement sur le darknet. Le risque est à votre charge, mais il est recommandé de les éviter.
-N'oubliez jamais de retirer vos bitcoins d'une plateforme d'échange Les plateformes d'échange peuvent être piratées, saisies, faire faillite ou tout simplement disparaître avec votre argent. Elles présentent des risques importants et doivent être évitées autant que possible. N'y laissez jamais vos fonds pendant une longue période. Rappelez-vous : si vous n'avez pas les clés, les bitcoins ne sont pas à vous.
+    Prudence : Le "Big Brother" vous surveille, prétendument pour votre sécurité bien sure. Vos données peuvent être utilisées par votre gouvernement pour suivre vos activités.
+    
+Dans le spectre des plateforme d'échanghe ont peut donc tiré 5 gros types:
 
 
-### Alternatives aux échanges traditionnels 
-Récemment, de nombreuses alternatives favorables à Bitcoin ont vu le jour pour l'achat de bitcoins. Ces services se soucient réellement de vous. Comment le savons-nous ? Ils ne proposent que des Bitcoins, permettent des retraits automatiques vers votre portefeuille, mettent l'accent sur le réseau Lightning et l'écosystème Bitcoin, et tentent de respecter votre vie privée autant que possible. Il n'y a pas de multitude d'options de transactions, simplement un bouton d'achat. Ils vous encouragent à acheter régulièrement et automatiquement le même montant afin de ne pas jouer avec vos émotions et de respecter votre plan d'investissement. C'est ce que vous devriez rechercher si ces produits sont disponibles dans votre juridiction.
+
+* Plateforme d'échange éthique : Nous parlons ici de solutions qui essaient de respecter l'utilisateur en lui offrant un service simple et honnête. Ces plateformes proposent généralement une solution de DCA (Dollar-Cost Averaging) et un retrait automatique des fonds vers le portefeuille de l'utilisateur. Ce sont les solutions les plus adaptées pour les débutants. (ex: relai, bull bitcoin, stackinsat)
+
+
+* Plateformes d'échange en pair à pair: Elles vous permettent d'acheter et de vendre des bitcoins directement entre utilisateurs. Vous pourrez y trouver des personnes dans votre ville pour conclure des transactions. Soyez prudent lors de ces échanges et préférez des lieux sûrs et publics pour conclure les transactions. C'est solution dite non KYC sont tres bien pour les utilisateurs un peu avancé. nous les explorons en détail dans BTC 205; (exemple: Bisq, peach, robosat)
+
+
+* Plateformes d'échange d'Altcoins: Ces plateformes vous permettent d'acheter et de vendre les divers Altcoins que vous souhaitez échanger. Pour ce faire, vous pouvez déposer des BTC ou utiliser une carte de crédit. Il est conseillé d'être extrêmement prudent avec les Altcoins et d'évaluer leur performance en Bitcoin, et non en dollars. En gros c'est plateforme sont des casinos géants d'actif nonrégulé ( souvent des sécurité). nous les déconsiellons (Exemple type: Bitfinex, kraken, bitstamp)
+
+* Plateformes d'échange de trading:  Elles permettent de trader des bitcoins et autres cryptomonnaies avec un effet de levier, en utilisant les BTC comme garantie. Vous pourrez ainsi trader des contrats dérivés. Attention si vous utilisez le levier! Il est probablement préférable de ne pas trader vos bitcoins. Pareil nous ne conseillons pas ce type de solution pour débutant (ex: Binance)
+
+
+* Plateformes d'échange douteuses: Certaines plateformes non réglementées sont suspectes, elles peuvent manipuler leur volume de transactions et leur sécurité est souvent défaillante. Ces plateformes sont souvent russes, chinoises ou exclusivement sur le darknet. Le risque est à votre charge, mais il est recommandé de les éviter.
+
+
+        N'oubliez jamais de retirer vos bitcoins d'une plateforme d'échange Les plateformes d'échange peuvent être piratées, saisies, faire faillite ou tout simplement disparaître avec votre argent. Elles présentent des risques importants et doivent être évitées autant que possible. N'y laissez jamais vos fonds pendant une longue période. Rappelez-vous : si vous n'avez pas les clés, les bitcoins ne sont pas à vous.
+
 
 ### Portefeuilles
 
 Les bitcoins sont conservés dans ce qu'on appelle un "portefeuille", qui est un coffre-fort numérique pour votre argent. Seul le détenteur de la clé peut y accéder. Il peut s'agir d'un dispositif matériel, d'un logiciel d'application ou même d'un morceau de papier. Ces portefeuilles font le lien entre vos bitcoins et le monde extérieur. Chaque portefeuille présente différentes caractéristiques : 
 
-confidentialité, sécurité, facilité d'utilisation, coût. Voici quelques éléments à prendre en compte lors du choix d'un portefeuille :
+- confidentialité
+- sécurité
+- facilité d'utilisation
+- coût. 
 
-* Qui contrôle la clé privée ?
-* Stockage à froid ou à chaud (en ligne ou hors ligne)
-* Protection de la vie privée
-* Option de création de transactions
-* Combien de bitcoin comptez-vous y stocker ?
-* Quelle utilisation prévoyez-vous d'en faire ?
-* Et qu'en est-il du stockage en dépôt ?
+Dans notre industrie, nous pouvons donc diviser les acteurs des portefeuilles en plusieurs sections :
 
-Si vous ne possédez pas la clé privée (une liste de 24 mots), une tierce partie est responsable de la sécurité de vos bitcoins. Autrement dit, vous ne détenez plus vos bitcoins. Ils sont soumis aux mêmes risques que les plateformes d'échange : piratage, saisie, régulation, faillite.
+    Les créateurs de hardware wallets. Nous avons ici de nombreuses entreprises qui se concurrencent sur ce sujet. Certaines sont open source, d'autres proposent des hardware wallets plus ou moins chers avec plus ou moins de fonctionnalités (ex : Ledger, Trezor, Coinkite, Shiftcrypto).
+
+    Les créateurs de software wallets ; ce sont des sociétés ou des acteurs indépendants qui souhaitent créer des portefeuilles logiciels sur mobile ou ordinateur (ex : Wizard Sardine, Galoy, Synonyme, Blockstream).
+
+    Les portefeuilles DIY (Do It Yourself) ; ici, nous avons des solutions 100 % open source que l'on peut créer chez soi afin de réduire les risques de confiance envers les autres acteurs de la chaîne de production ou de création (ex : Seedsigner, Specter DIY).
+
+Les portefeuilles sont un aspect primordial de Bitcoin et nous les explorerons en détail dans cette université.
 
 ### Mineurs
 
-Les mineurs sont chargés de sécuriser le réseau. Ils utilisent l'électricité pour compléter les processus de preuve de travail de Bitcoin qui crée un nouveau bloc. Pour plus de détails, cliquez ici : Alors que cela a commencé de manière individuelle, aujourd'hui les mineurs sont généralement de grandes entreprises bien financées qui se font concurrence dans un secteur très difficile. Elles recherchent des sources d'énergie bon marché pour obtenir un avantage concurrentiel. Elles peuvent être publiques ou anonymes et se trouver n'importe où dans le monde.
+Les mineurs sont chargés de sécuriser le réseau. Ils utilisent l'électricité pour effectuer les processus de preuve de travail de Bitcoin, ce qui crée un nouveau bloc. Nous avons déjà traité le sujet des mineurs en détail dans le cours BTC 101, au besoin. Pour aller plus loin, nous proposons le cours Minage 201.
 
+Il est important de comprendre que cette industrie est vaste, très vaste.
+
+Alors que cela a commencé de manière individuelle, les mineurs d'aujourd'hui sont généralement de grandes entreprises bien financées qui se font concurrence dans un secteur très difficile. Elles recherchent des sources d'énergie bon marché pour obtenir un avantage concurrentiel. Elles peuvent être publiques ou anonymes et se trouver n'importe où dans le monde.
+
+Leur industrie se divise en de nombreux acteurs de tailles variées :
+
+* Les créateurs de matériel de minage (ex: Bitmain) : ces sociétés sont le maillon essentiel de notre industrie, car il est extrêmement complexe de créer des ASIC performants.
+
+* Les créateurs de logiciels de minage : que ce soit pour la création de pools de minage ou les outils utilisés par les ASIC, c'est un aspect primordial de l'industrie (ex: Braiins OS).
+
+* Les devellopeur qui travail sur des solution innovante type StratumV2
+
+* Les mineurs : ce sont eux qui utilisent les machines et les logiciels pour lancer leurs opérations de minage. On peut trouver aussi bien de petits mineurs amateurs utilisant un S9 (comme nous l'enseignons dans la formation Minage 201) que des mineurs internationaux comme Galaxy qui possèdent des gigantesques entrepôts au Texas pour miner.
+
+Le minage est un domaine à part entière, donc si le sujet de l'énergie vous intéresse, vous serez servi.
 
 ### Développeurs de Bitcoin
 
 Bitcoin est un protocole en source ouverte. Vous pouvez trouver son code sur GitHub : https://github.com/bitcoin/bitcoin. À partir de là, vous pouvez consulter toutes les propositions de mises à jour, toute la documentation et de nombreuses discussions communautaires. Tout est transparent, et c'est à l'utilisateur de décider de faire ou non une mise à jour. Les développeurs principaux de Bitcoin sont responsables de la gestion de ce GitHub. Ils mettent à jour le code source, vérifient les bugs et sont chargés de la gestion globale du projet.
 
+On peut toujours subdiviser les développeurs de Bitcoin en différentes sections :
+
+* Les développeurs Core : Ils sont responsables du développement principal du protocole Bitcoin et de ses fonctionnalités centrales.
+* Les développeurs de protocoles annexes (comme le Lightning Network ou RGB) : Ils travaillent sur des protocoles supplémentaires qui s'intègrent à l'écosystème Bitcoin et étendent ses fonctionnalités.
+* Les développeurs amateurs qui créent des outils et des applications (comme Mempool ou Alby) : Ils contribuent à l'écosystème Bitcoin en développant des outils, des services ou des applications qui facilitent son utilisation.
+
+Tout le monde peut commencer à contribuer au code, mais il est important de noter que modifier réellement le code de Bitcoin est un processus long et complexe. De plus, de nombreux développeurs de Bitcoin sont des passionnés qui consacrent de nombreuses années à développer des BIP (Bitcoin Improvement Proposals) qui pourraient ne jamais être utilisés. C'est donc une industrie complexe et parfois imprévisible. Nous explorerons ces aspects en détail.
 
 ![blockchain](assets/industrie/6.JPG)
 
 
-        Un pouvoir illimité ? Non. Les développeurs principaux n'ont pas un pouvoir illimité et ne peuvent pas modifier ou contrôler Bitcoin seuls. Ce sont les nœuds qui détiennent le pouvoir.
-        Personne ne contrôle Bitcoin.
+    Un pouvoir illimité ? Non. Les développeurs principaux n'ont pas un pouvoir illimité et ne peuvent pas modifier ou contrôler Bitcoin seuls. Ce sont les nœuds qui détiennent le pouvoir.
+    
+    Personne ne contrôle Bitcoin.
 
 
 ### Infrastructure
@@ -653,21 +697,17 @@ Lightning est maintenant accessible a tous, c'est la couche d’application de B
 Le Réseau Lightning est la seconde couche de Bitcoin. Il permet à Bitcoin de s'étendre et d'obtenir plus de fonctionnalités. Il fonctionne comme une ardoise dans un bar, les transactions restent sur papier et sont finaliser qu’à la fin. Nous l'étudierons en détail plus tard 
 
 
-### Entreprises, commerçants et distributeurs automatiques
+### Entreprises, commerçants et utilisateur
 
-Toute entreprise peut commencer à accepter Bitcoin comme source de revenus : Si vous êtes propriétaire d'un petit magasin, vous pouvez créer un portefeuille et utiliser un code QR pour faire transiter les paiements. Si vous gérez un site web, vous pouvez utiliser une solution comme le serveur BTCPay pour commencer à accepter les bitcoins. Aujourd'hui, des milliers de magasins acceptent Bitcoin et de nombreux autres mettent en place des services compatibles avec cette technologie Microsoft accepte le BTC depuis des années. Samsung travaille sur un portefeuille crypté intégré pour son futur téléphone. Facebook a été créé " Libra " comme monnaie d'échange pour tous ses commerçants.
+Pour finir, il va de soi que cette industrie compte également des millions d'acteurs plus traditionnels tels que des sociétés, des commerçants et des utilisateurs.
 
-### Participants 
+Aujourd'hui, accepter Bitcoin dans son commerce est devenu une réalité simple grâce à de nombreux outils qui ne nécessitent pas beaucoup de temps de mise en place :
 
-Le Bitcoin est accessible à tous, pourvu qu'ils disposent d'un accès à internet et d'un téléphone. Néanmoins, les motivations et les usages diffèrent d'un utilisateur à un autre. Certains considèrent le Bitcoin comme un mécanisme d'épargne efficace et lui allouent une portion de leur épargne à long terme. D'autres l'utilisent comme moyen de paiement pour acquérir des biens et services, spéculer sur le marché, faire des dons, ou même régler leurs impôts. Il y a aussi ceux qui intègrent les Bitcoins à leur quotidien : ils les échangent avec des proches, s'en servent pour rembourser des dettes, réaliser des transferts internationaux, contourner les régimes autoritaires ou échapper à la dévaluation de leur monnaie.
+* OpenNode
+* Swiss Bitcoin Pay
+* BTCPay
 
-    Doit-on dépenser ou épargner ? Il n'existe pas de réponse universelle à cette question. Le choix revient à chaque individu. Pour vous aider à réfléchir, je vous invite à découvrir l'histoire de Laszlo qui, en 2010, a choisi de dépenser ses bitcoins pour acheter des pizzas.
-
-### Précurseurs du BTC & "Influenceurs"
-
- En raison de la croissance spectaculaire de la valeur du Bitcoin par rapport au dollar, l'industrie a vu émerger des détenteurs majeurs, souvent appelés "baleines". Ces derniers ont acquis leurs BTC à bas coût ou les ont minés durant les premières années d'existence de cette monnaie. Parmi ces baleines, certaines ne sont plus de ce monde (Salut à Hal), tandis que d'autres continuent d'apporter leur contribution au développement du BTC. Ils contribuent à la création de contenus éducatifs sur le protocole Bitcoin et ses enjeux de sécurité, à l'instar d'Andreas Antonopoulos. Ils développent également des applications sur Bitcoin et améliorent l'infrastructure, pour permettre aux futurs entrepreneurs de capitaliser dessus, comme le font Adam Back et Elizabeth Stark. Ils peuvent aussi devenir mineurs ou créateurs de plateformes d'échanges pour faciliter l'achat et la vente de BTC, à l'image des jumeaux Winklevoss.
-
-Vigilance face aux escrocs ! L'industrie du Bitcoin regorge d'escrocs. Ne faites confiance à personne sans vérifier et revérifier les informations.
+Nous avons donc atteint un point dans l'industrie où tout le monde peut participer, que ce soit en utilisant Bitcoin dans sa vie quotidienne en le dépensant, en l'acceptant dans son commerce, en contribuant à l'éducation ou au code, ou en innovant au-delà. En somme, Bitcoin ne peut plus s'arrêter.
 
 ### l'autoroute du Bitcoin
 
@@ -685,31 +725,138 @@ C'est la vision d'avenir que j'ai pour le Bitcoin. Il deviendra une autoroute po
 C'est Andreas Antonopoulos, si je ne me trompe pas, qui m'a introduit à cette idée. @aantonop
 
 
-
 # structuration de votre plan
 
 ## Adapté le plan a vos besoin 
 
-Maintenant que nous avons revue les bases fondamentales et comprend comment se pas se faire scammer ou perdre notre argent, nous pouvons construire notre plan. Le plan va etre assez simple pour commencer, dans tous les cas l'importance c'est de commence, vous pourrez toujours le modifier avec le temps qui passe. 
+Maintenant que nous avons revu les bases fondamentales et appris comment éviter les arnaques et les pertes d'argent, nous pouvons élaborer notre plan. Le plan sera assez simple pour commencer, mais il est important de se lancer. Vous pourrez toujours le modifier à mesure que le temps passe.
 
-Le plan se divise en 3 grands axes
+Dans cette formation, nous considérerons que vous êtes débutant dans Bitcoin, et donc la solution doit être simple, rapide à mettre en place et efficace. Nous ne parlerons donc pas de l'exposition à Bitcoin par le biais du minage, des sociétés Bitcoin en bourse ou d'autres choses complexes. L'objectif est de choisir le bon portefeuille pour vous, puis la bonne solution pour obtenir vos premiers bitcoins.
+
+Commençons par nous poser les questions suivantes :
+
+    Combien êtes-vous prêt à investir dans Bitcoin chaque mois ?
+    Quelle utilisation de Bitcoin envisagez-vous ?
+    Quelle est la durée prévue de votre investissement ?
+    Dans quelle mesure la vie privée est-elle importante pour vous ?
+
+Avec ces 4 questions, nous pourrons choisir la voie qui vous correspond le mieux! en effet il y a pas une solution magique pour s'exposer a bitcoin. à la place je vous propose de regarder des profiles type et ainsi vous permettre de peut etre vous inspiré
+
+EN regle general :
+
+- Portfeuille chaud gratuit pour des petit montant
+- Portfeuille froi pour des monatnt important
+
+- utilisation d'une solution de DCA pour achat récurant sans stresse
+- Utilisation d'une soluiton non KYC pour de l'anonymas
+- Utilisation d'une plateforme d'achange traditionelle pour achat d'un coup. 
+
+Avec ca vous devriez retrouver votre compte, choisir le plan adapté puis suivre le bon tutoriel de la section suivant. 
 
 
+        
+    Rapelle sur les portfeuille: 
+        
+    Si vous ne possédez pas la clé privée (une liste de 24 mots), une tierce partie est responsable de la sécurité de vos bitcoins. Autrement dit, vous ne détenez plus vos bitcoins. Ils sont soumis aux mêmes risques que les plateformes d'échange : piratage, saisie, régulation, faillite.
 
+
+## Le hodler 
+
+Que ce soit dans les investissements ou dans Bitcoin, le placement à long terme est généralement la norme. C'est statistiquement le plus rentable à long terme et le plus simple à mettre en place :
+
+        On achète puis on ne fait plus rien. (Notons que ne rien faire est la partie la plus difficile)
+
+Dans Bitcoin, ce type de profil est appelé un Hodler, car il "hodl" (garde) du Bitcoin à long terme. Ces personnes s'exposent donc à Bitcoin, parient que BTC sera plus utilisé demain et donc plus rare. Elles continueront d'en acheter de temps en temps de manière automatique, le tout sécurisé dans leur portefeuille froid.
+
+![hodl](assets/plan/0.JPG)
+
+Voici le plan :
+
+1. Mettre en place un portefeuille froid pour sécuriser des montants importants.
+2. Acheter du Bitcoin en une fois via une plateforme d'échange et mettre en place un plan d'achat récurrent.
+3. Mettre en place un plan d'héritage.
+4. Attendre 8 ans.
+
+Si on oublie qu'on avait des bitcoins pendant 3 ans, pas de souci, l'argent sera toujours là si on a respecté les instructions des experts.
+
+Pour ce type de profil, il est conseillé d'utiliser un portefeuille de type froid pour commencer, tel que le Bitbox02, un Trezor ou un Ledger. Ces appareils coûtent environ 70 € mais offrent une certaine sécurité pour ses bitcoins sur le long terme. Un portefeuille mobile de type chaud gratuit peut également faire l'affaire, mais uniquement pour des montants relativement faibles.
+
+    BESOIN:
+    1 Portfeuille froid : Ledger; coldcard; trezor; jade; foundation; Bitbox 02
+    Un compte sur un exchange : Bitstamp, Kraken, 
+
+
+## Le stacker 
+
+Dans Bitcoin, le concept de "Stacker" est assez connu. L'idée est simple : il n'y a que 21 millions de bitcoins, et chaque petit bitcoin compte ! Ce petit bitcoin est en réalité appelé un satoshi (ou SAT). Le stacker se donne pour objectif d'en accumuler un maximum.
+
+Pour y parvenir, il va essayer de maximiser son exposition au maximum. Il va donc créer un plan de DCA (Dollar-Cost Averaging) pour pouvoir acheter un peu chaque semaine. C'est la meilleure solution pour commencer à s'exposer à Bitcoin sans avoir un capital initial important. Que ce soit 10 € par semaine, 25 € par semaine ou 100 € par mois, l'important est d'accumuler des satoshis sans trop y réfléchir. Son plan sera assez simple :
+
+1. Mise en place d'un portefeuille chaud.
+2. Mise en place d'un plan DCA sur une plateforme d'échange.
+3. Attendre et chercher d'autres solutions pour accumuler des satoshis.
+
+D'autres solutions peuvent consister à commencer à vendre des biens ou des services en Bitcoin pour en accumuler davantage. Demander à être remboursé en Bitcoin auprès de ses amis ou commencer à s'impliquer dans l'écosystème pour être au plus près de la révolution.
+
+    BESOIN :
+    Un portfeuille chaud: Blue wallet, green wallet, Samourai 
+    Une solution de DCA: Relai, swann Bitcoin, StackinSat
+
+
+(Si la quantité de satoshis accumulée devient importante, il faudra migrer vers un portefeuille froid).
+
+## L'utilisateur 
+
+Enfin, le dernier type de bitcoiner que l'on peut mentionner dans un cours d'introduction est le bitcoiner qui doit utiliser Bitcoin régulièrement. Que ce soit en raison d'une obligation professionnelle ou simplement par volonté de soutenir l'écosystème, il est nécessaire de prévoir des solutions adaptées à une utilisation fréquente.
+
+Pour cet utilisateur, il sera probablement nécessaire d'avoir deux types de portefeuilles :
+
+* Un portefeuille froid pour conserver les bitcoins à long terme en toute sécurité.
+* Un portefeuille chaud pour envoyer et recevoir régulièrement des bitcoins pour une utilisation quotidienne.
+
+Ce type de profil optera donc probablement pour un portefeuille basé sur le Lightning Network pour les transactions courantes, ainsi qu'un portefeuille matériel pour la conservation à long terme.
+
+Pour s'exposer à Bitcoin, ce type de profil aura plusieurs options :
+
+* Utiliser des solutions peer-to-peer telles que Peach pour acheter ou vendre rapidement des bitcoins de manière non KYC.
+* Utiliser une plateforme d'échange pour pouvoir acheter et vendre régulièrement des bitcoins en fonction des besoins.
+
+        Besoin: 
+        Un portefeuille lightning: network: Phoenix, wallet of satoshi 
+        Un portfeuille froid: Ledger; coldcard; trezor; jade; foundation; Bitbox 02
+        Une solution d'achat vente rapide: Kraken; robosat
+
+
+## le parano
+
+Je me permets d'ajouter ici le bitcoiner paranoïaque. Ce type de personne ne souhaite pas s'exposer au KYC (Know Your Customer), préfère rester proche de l'anonymat et accorde une grande importance à sa vie privée.
+
+Pour ce type de profil, la solution pour les débutants est assez simple :
+
+* Portefeuille chaud : Samourai Wallet.
+
+* Portefeuille froid : Coldcard ou Seed Signer (très complexes).
+
+* Achat non KYC entre particuliers : Peach, RoboSat, Bisq, Hodl Hodl.
+
+* Utilisation de distributeurs de Bitcoin en espèces.
+
+* Achat en espèces lors de rencontres en personne.
+
+* Vente de marchandises en Bitcoin.
+
+Il devra ensuite apprendre à mélanger ses coins, gérer ses UTXO (Unspent Transaction Outputs) et bien d'autres choses qui n'ont pas encore été abordées dans ce cours. Si nécessaire, toutes les informations sont disponibles sur l'université.
 
 # Tutoriel de portefeuille
+
 ## Portefeuille chaud 
 
-Nous allons désormais mettre ne place votre portfeuille bitcoin ou lightning de type mobile. Comme nous l'avons discuté plus tot dans le cours ce portfeuille ce type de portfeuille sont parfait pour des é
-
-rapide comparatif 
-
-
-
-
-
+Nous allons désormais mettre ne place votre portfeuille bitcoin ou lightning de type mobile. Comme nous l'avons discuté plus tot dans le cours ce portfeuille ce type de portfeuille sont parfait pour des montant faibles ou pour un usage régulier.
 
 ### wallet of satoshi ( ultra beginners)
+
+
+![video tuto](https://youtu.be/Es4InK3lq5c)
 
 
 ### Phoenix 
@@ -724,56 +871,9 @@ Tutoriel Vidéo
 
 ![ Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
 
- télécharegment & set up
-
-![](assets/screenshot1.jpeg)
-![](assets/screenshot2.jpeg)
-![](assets/screenshot3.jpeg)
-![](assets/screenshot4.jpeg)
-![](assets/screenshot5.jpeg)
-
- Back-up
-
-![](assets/screenshot6.jpeg)
-![](assets/screenshot7.jpeg)
-![](assets/screenshot8.jpeg)
-
-Recevoir
-
-![](assets/screenshot9.jpeg)
-![](assets/screenshot10.jpeg)
-![](assets/screenshot11.jpeg)
-![](assets/screenshot12.jpeg)
-![](assets/screenshot13.jpeg)
-![](assets/screenshot14.jpeg)
-
-envoyer
-
-![](assets/screenshot15.jpeg)
-![](assets/screenshot16.jpeg)
-![](assets/screenshot17.jpeg)
-![](assets/screenshot18.jpeg)
-![](assets/screenshot19.jpeg)
-![](assets/screenshot20.jpeg)
-
-setting
-
-![](assets/screenshot21.jpeg)
-
-reset
-
-![](assets/screenshot22.jpeg)
-![](assets/screenshot23.jpeg)
-![](assets/screenshot24.jpeg)
-![](assets/screenshot25.jpeg)
-![](assets/screenshot26.jpeg)
-
-
 ###  green wallet
 
-Portefeuille mobile chaud – Débutant – Gratuit – Pour sécuriser de 0 à 1 000 €
 
-Pour sécuriser des sommes en dessous de 1 000€, un portefeuille chaud (connecté à Internet) gratuit est parfait pour commencer.
 Sa mise en place est facile et son interface est conçue pour les débutants.
 
 Si tu souhaites faire un tour sur leur site, c’est juste ici (https://blockstream.com/green/)!
@@ -783,6 +883,8 @@ Si tu souhaites faire un tour sur leur site, c’est juste ici (https://blockstr
 
 
 ### Samouraï Wallet - Pensez pour la vie privée (utilisation avancé) 
+
+![cover](assets/tuto/10.jpeg)
 
 **Samouraï Wallet** est un portefeuille qui se consacre à la vie privée. Malgré son aspect chaud, il offre un grand nombre de flexibilité dans son utilisation et sa sécurité.
 
@@ -807,162 +909,118 @@ Nous avons ici essayer de garder la liste relativement courte pour vous simplifi
 
 ## Portefeuille froid 
 
-pour x et y 
+Comme nous l'avons vue tres souvent un portefeuille froid permet de sécurisé des montants important de bitcoin. ( attention au dessus de environ 50 000 vous devriez utiliser au moins une passphrase ou un multi sig)
+
+Il existe de nombreux hardwear wallet, ici nous vous en proposons 3. Vous pouvez tous les retrouver dans la section tuto de cette université si besoin
 
 ### trezor model ONE
 
-
-
-Portefeuille physique froid – 60€ – Débutant – Sécuriser entre 2 000€ et 50 000€
+![cover](assets/tuto/8.jpeg)
 
 Un portefeuille physique froid Trezor est idéal pour commencer dans Bitcoin. C’est facile d’utilisation, pas trop cher et fonctionnel.
 
 Nous avons déjà réalisé des tutoriels sur son utilisation :
 
-1. Mise en place
+1. Mise en place https://www.youtube.com/watch?v=WB5lWEaaJOE
 
-2. Récupération des bitcoins
+2. Récupération des bitcoins https://www.youtube.com/watch?v=bwM0Xm_vSYM
 
-3. Utilisation, envoi et réception de bitcoins
-
-Toi aussi tu souhaiterais avoir ton Trezor ? Tu peux contribuer au projet en cliquant juste en dessous !
-
-mise en place: https://www.youtube.com/watch?v=WB5lWEaaJOE
-
-reset: https://www.youtube.com/watch?v=bwM0Xm_vSYM
-
-use: https://youtu.be/ks-VHtsqjig
-
+3. Utilisation, envoi et réception de bitcoins https://youtu.be/ks-VHtsqjig
 
 ### Ledger Nano S
 
-
-Portefeuille physique froid – 60 € – Débutant – Pour sécuriser 2 000€ à 50 000€
-
-Ledger est la solution française pour sécuriser ses bitcoins de façon simple.
-
-Nous avons déjà réalisé un tutoriel complet sur l’appareil : tutoriel complet sur Ledger Nano S et Passphrase
-
-Dans ce tutoriel, on discute également la section des passphrases, une solution avancée de sécurité pour y stocker de larges sommes : 20 000€ – 100 000€.
+![cover](assets/tuto/7.jpeg)
 
 ![video tuto](https://www.youtube.com/watch?v=_vsHNTLi8MQ)
 
-
 ### bit box 02
+
+![cover](assets/tuto/6.jpeg)
+
 
 Le BitBox02 est un portefeuille matériel suisse spécialement conçu pour sécuriser vos Bitcoins. Voici quelques-unes de ses principales caractéristiques :
 
-- Sauvegarde et restauration faciles avec une carte microSD.
-  Design minimaliste et discret.
-  Prise en charge complète de Bitcoin.
-  Sécurité de pointe conçue par des experts, avec une conception à double puce incluant une puce sécurisée.
-  Code source entièrement audité par des chercheurs en sécurité et entièrement open source.
-  Application BitBoxApp simple mais puissante, offrant une gestion sécurisée de vos Bitcoins.
-  Prise en charge du plein nœud pour Bitcoin.
-  Communication chiffrée de bout en bout entre l'application et le dispositif.
-
-Fabriqué en Suisse, avec une réputation positive auprès des utilisateurs.
-
-Le BitBox02 est le choix idéal pour sécuriser vos Bitcoins en toute confiance.
-
-    Specifications
-
-      - Connectivity: USB-C
-      - Compatibility: Windows 7 and later, macOS 10.13 and later, Linux, Android
-      - Input: Capacitive touch sensors
-      - Microcontroller: ATSAMD51J20A; 120 Mhz 32-bit Cortex-M4F; True random number generator
-      - Secure chip: ATECC608B; True random number generator (NIST SP 800-90A/B/C)
-      - Display: 128 x 64 px white OLED
-      - Material: Polycarbonate
-      - Size: 54.5 x 25.4 x 9.6 mm including USB-C plug
-      - Weight: Device 12g; with packaging and accessories 160g
-
-      Download data sheets on their website https://bitbox.swiss/bitbox02/
-
-![device](assets/1.webp)
-
-
 ![video rogzy](https://www.youtube.com/watch?v=E2Px3qx7vYk)
-
 
 ### autre laternative
 
-Parler de jade
-cold card 
-fondation
+Bien que ces 3 portefeuilles soient parmi les plus simples, il en existe bien d'autres. Voici quelques tutoriels rapides :
 
-les seed signer et DIY
+* Jade : https://youtu.be/_U1jsTeqbTw
+* Coldcard : https://youtu.be/FAYmE5-40PQ
+* Fondation : https://youtu.be/_uGZHg64wwA
 
-## Portfeuille desktop ( optionelle)
+Dans le monde des portefeuilles Bitcoin, il existe un autre concept en dehors de la distinction entre les portefeuilles froids et chauds, il s'agit du portefeuille de bureau (desktop wallet).
 
-### Sparrow
+Si votre appareil de stockage est en réalité un porte-clés, le portefeuille de bureau est une interface pour l'utiliser. Il est extrêmement puissant et pratique pour les détenteurs de Bitcoin, car ces solutions offrent une plus grande flexibilité d'utilisation. En effet, ces portefeuilles permettent souvent des outils avancés en termes de vie privée et offrent une plus grande flexibilité dans l'utilisation des UTXO. Certains se spécialisent même dans les transactions multi-signatures pour renforcer encore davantage votre sécurité.
 
-### multi sig
+L'utilisation de solutions telles que Sparrow, Specter ou Liana est très intéressante, mais je vous laisse les découvrir dans un second temps !
 
 # Tutoriel pour acheter du bitcoin 
 
-## Solution de DCA
+## Solution de DCA ( achat récurent)
 
-### Relai 
+Dans cette section de tutoriel nous allons regarder comment mettre en place votre plan de DCA et ainsi commencer a simplement stacker des sats sans effort.
 
-Solution d’achat récurrent de bitcoins – Relai est une solution suisse sans KYC
+### Relai (Suisse)
+
+![cover](assets/tuto/3.jpeg)
 
 Relai est une très bonne solution de DCA Bitcoin sans prise de tête. Pas besoin de KYC et vous avez la sécurité suisse derrière le projet.
 
-Si tu souhaites soutenir le projet et économiser en frais, tu peux cliquer juste en dessous !
-Stack KYC free
 
-Merci de soutenir ce projet 100% gratuit 🙂
+![video](https://www.youtube.com/watch?v=sAPx1waWa1s)
 
-https://www.youtube.com/watch?v=sAPx1waWa1s
-
-### Stakin Sat 
-
-# Tutoriel DCA – StackinSat
-
-Solution française de DCA directement sur votre portefeuille
+### Stakin Sat (francais)
 
 StackinSat est la petite française spécialisée dans le plan d’épargne Bitcoin. Le service est très bon et j’en parle énormément sur la chaîne. Je suis même actionnaire chez eux !
 Stack des sats !
 
-https://www.youtube.com/watch?v=mpT3kJDfRVw
+![video](https://www.youtube.com/watch?v=mpT3kJDfRVw)
 
 
-## Solution de broker
+### Bull Bitcoin ( canadien)
 
-### Bull Bitcoin
+![video](https://youtu.be/Qennqc-wMgQ)
 
-article
+### Swan Bitcoin (USA)
+
+![tutorial](https://youtu.be/h-SFzjsYAOA)
+
+## Platefrome traditionelle (gros montant)
+
 ### Kraken
 
-Kraken
 
-Plateforme d’achat revente de Bitcoin – KYC – LN compatible
+![cover](assets/tuto/1.jpeg)
+
+Kraken est une plateforme d’achat revente de Bitcoin. L'utilisation est KYC et également Lightnig compatible. Cette fonctionnalité LN est particuluemrement pratique pour les gens rentrant dans l'univers du lightning network ou qui ont un usage régulier de bitcoin
 
 https://www.youtube.com/watch?v=ZCGXl5A2Hbc
 
 
 ### Bitstamp
 
+![cover](assets/tuto/0.jpeg)
 
-Bitstamp est un « broker » Bitcoin pour acheter et vendre du bitcoin, il y a énormément de volumes et d’options. C’est idéal pour les société ou les acheteurs du dimanche.
+Bitstamp est un « broker » Bitcoin pour acheter et vendre du bitcoin, il y a énormément de volumes et d’options. C’est idéal pour les société ou les acheteurs amateur.
 
-Si tu souhaites faire un tour sur leur site, c’est par ici !
-
-https://www.youtube.com/watch?v=8g9aGQ53T_A
-
+![tutoriel Bisq](https://www.youtube.com/watch?v=8g9aGQ53T_A)
 
 ## Solution non KYC
 
 Nous ne rentrerons pas dans les détails de ce genre de solution, en effet une formation entiere dédier a l'achat non KYC existe et c'est BTC 205.
 
-Le non-KYC est un aspect primodiale de votre parcours bitcoin et votre sécurité. 
+Le non-KYC est un aspect primodiale de votre parcours bitcoin et votre sécurité. Il permet de s'exposer sans pour autant dévoiler trop d'information personne à un tier de confiance. Ceci evite donc de se retoruver compromit avec son nom, prenom, adresse et autre information sensible dans des base de donné de hackeur.
 
-### rapide liste des solution 
+Si ce type de solution vous intersse voici une liste de solution que vous pouvez retrouver dans la section tutoriel ou BTC 205:
+
  * Robosat
  * Peach
- * bisq
-
+ * Hodl Hodl 
+ * Bisq
+ * LN2t2Bot
+ * Distributeur 
 
 # Section 3 - Le futur avec bitcoin
 

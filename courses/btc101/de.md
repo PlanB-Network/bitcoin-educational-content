@@ -9,8 +9,6 @@ objectives:
   - Die geopolitischen und sozialen Auswirkungen von Bitcoin verstehen
 ---
 
-![cover](assets\thumbnail.png)
-
 # Dein erster Bitcoin-Kurs
 
 In diesem Kurs werde ich Bitcoin in 21 Kapiteln erklären, damit du diese Technologie einfach und effektiv verstehen kannst. Der Kurs ist für alle zugänglich und untersucht die Branche als Ganzes: Miner, Wallets, Kauf-/Verkaufsplattformen usw.

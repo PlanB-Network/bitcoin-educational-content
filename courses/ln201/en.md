@@ -11,8 +11,6 @@ objectives:
 
 # A Journey to Bitcoin's Second Layer
 
-![cover](assets\thumbnail.png)
-
 This course is a theoretical lesson on the technical functioning of the Lightning Network.
 
 Welcome to the exciting world of the Lightning Network, a second layer of Bitcoin that is both sophisticated and full of potential. We are about to dive into the technical depths of this technology, without focusing on specific tutorials or usage scenarios. To get the most out of this course, a solid understanding of Bitcoin is essential. This is an experience that requires a serious and focused approach. You may also consider taking the LN 202 course in parallel, which offers a more practical aspect to this exploration. Get ready to embark on a journey that could change your perception of the Bitcoin ecosystem.

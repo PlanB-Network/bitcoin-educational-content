@@ -10,8 +10,6 @@ objectives:
 
 # Un viaggio nel mondo del non-KYC
 
-![locandina del corso](assets\btc_205_vignette_presentation_03.png)
-
 Pierre ci propone questo corso che ci introduce alle diverse soluzioni esistenti per acquistare e vendere Bitcoin peer-to-peer. L'acquisto peer-to-peer è completamente legale e consente di avere maggiore anonimato, infatti queste soluzioni non sono KYC. Il KYC (Know Your Customer) è una regola dei regolatori di mercato (AMF) che consiste nel richiedere un documento d'identità al cliente che desidera acquistare o vendere Bitcoin. Queste regole hanno lo scopo di prevenire il riciclaggio di denaro, il finanziamento del terrorismo e l'evasione fiscale. A rischio di importanti conseguenze per l'utente, il KYC ha l'obiettivo di difendere e proteggere l'utente, anche se molto spesso si osserva l'effetto contrario.
 
 Esploreremo quindi i diversi tipi di KYC (full KYC tipo Francia, KYC Light tipo Svizzera e non-KYC tipo peer-to-peer). Pierre ci presenterà più di 6 soluzioni, quindi avrete tutte le carte in mano per scoprire quella che fa per voi. Se desiderate una soluzione KYC, sappiate che sono presenti nella formazione BTC 102.

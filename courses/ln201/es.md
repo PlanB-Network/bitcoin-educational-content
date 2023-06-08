@@ -11,8 +11,6 @@ objectives:
 
 # Un viaje hacia la segunda capa de Bitcoin
 
-![portada](assets\thumbnail.png)
-
 Este curso es una formación teórica sobre el funcionamiento técnico del Lightning Network.
 
 Bienvenido al emocionante mundo del Lightning Network, una segunda capa de Bitcoin, que es una avanzada tecnológica sofisticada y rica en potencialidades. Nos estamos preparando para sumergirnos en las profundidades técnicas de esta tecnología, sin centrarnos en tutoriales o escenarios de uso específicos. Para aprovechar al máximo esta formación, es indispensable tener una sólida comprensión de Bitcoin. Es una experiencia que requiere un enfoque serio y concentrado. También puede considerar tomar el curso LN 202 en paralelo, que ofrece un aspecto más práctico a esta exploración. Prepárese para embarcarse en un viaje que podría cambiar su percepción del ecosistema Bitcoin.

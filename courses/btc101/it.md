@@ -9,8 +9,6 @@ objectives:
   - Realizzare l'impatto geopolitico e sociale che rappresenta Bitcoin
 ---
 
-![cover](assets\thumbnail.png)
-
 # La tua prima avventura con Bitcoin
 
 In questa formazione, ti spiegherò Bitcoin in 21 capitoli in modo che tu possa comprendere questa tecnologia in modo semplice ed efficace. La formazione è accessibile a tutti ed esplora l'industria nel suo insieme: minatori, portafoglio, piattaforma di acquisto/vendita, ecc...

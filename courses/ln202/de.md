@@ -9,8 +9,6 @@ objectives:
 
 # Eine Reise in die technische Seite von Bitcoin
 
-:[Kursplakat](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
-
 Dieses Training ist technischer und wird umso vorteilhafter sein, wenn Sie Grundkenntnisse über Bitcoin haben, insbesondere das Verständnis von Bitcoin-Wallets und dem Prinzip von Transaktionen, Mining und Blockchain. Sie müssen nicht programmieren können, Ihre Neugierde und Lernbereitschaft sind die einzigen erforderlichen Fähigkeiten. Denken Sie daran, jeder Experte war einmal ein Anfänger. Also atmen Sie tief durch und tauchen Sie ein in die aufregende Welt von Bitcoin. Sie stehen kurz vor einer aufregenden und bereichernden Reise. Viel Glück!
 
 +++

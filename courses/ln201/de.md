@@ -11,8 +11,6 @@ objectives:
 
 # Eine Reise zur zweiten Schicht von Bitcoin
 
-![cover](assets\thumbnail.png)
-
 Dieser Kurs ist eine theoretische Einführung in die technische Funktionsweise des Lightning Network.
 
 Willkommen in der aufregenden Welt des Lightning Network, einer zweiten Schicht von Bitcoin, die sowohl technologisch anspruchsvoll als auch voller Potenzial ist. Wir werden uns in die technischen Tiefen dieser Technologie stürzen, ohne uns auf spezifische Tutorials oder Anwendungsszenarien zu konzentrieren. Um das Beste aus diesem Kurs herauszuholen, ist ein solides Verständnis von Bitcoin unerlässlich. Es ist eine Erfahrung, die eine ernsthafte und konzentrierte Herangehensweise erfordert. Sie können auch in Erwägung ziehen, den Kurs LN 202 parallel zu absolvieren, der einen praktischeren Aspekt dieser Erkundung bietet. Machen Sie sich bereit für eine Reise, die Ihre Wahrnehmung des Bitcoin-Ökosystems verändern könnte.

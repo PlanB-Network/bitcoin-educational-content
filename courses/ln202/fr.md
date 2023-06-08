@@ -1,8 +1,7 @@
 ---
 name: Mise en place d’un nœud Bitcoin & Lightning
 goal: Mise en place d’un noeud Bitcoin et Lightning via Umbrel. Analyse de la blockchain, création et gestion de canaux.
-
-Objectif:
+objectives:
   - La mise en place d'un nœud Bitcoin
   - L'utilisation d'un nœud Bitcoin
   - Utilisation d'un nœud Lightning Network

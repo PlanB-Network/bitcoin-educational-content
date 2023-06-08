@@ -9,8 +9,6 @@ objectives:
 
 # Uma jornada para o lado técnico do Bitcoin
 
-![Cartaz do curso](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
-
 Este treinamento é mais técnico e será ainda mais benéfico se você tiver conhecimentos básicos sobre Bitcoin, especialmente a compreensão do funcionamento das carteiras Bitcoin e o princípio de transação, mineração e blockchain. Não é necessário saber programar, sua curiosidade e vontade de aprender são as únicas habilidades necessárias. Lembre-se, todo especialista já foi um iniciante. Então, respire fundo e mergulhe no universo emocionante do Bitcoin. Você está prestes a começar uma jornada emocionante e enriquecedora. Boa sorte!
 
 +++

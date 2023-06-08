@@ -9,8 +9,6 @@ objectives:
 
 # Un viaggio nel lato tecnico di Bitcoin
 
-![locandina del corso](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
-
 Questa formazione è più tecnica e sarà ancora più vantaggiosa se hai una conoscenza di base di Bitcoin, in particolare la comprensione del funzionamento dei portafogli Bitcoin e dei principi di transazione, mining e blockchain. Non è necessario saper programmare, la tua curiosità e la tua volontà di imparare sono le uniche competenze necessarie. Ricorda, ogni esperto era una volta un principiante. Quindi, prendi una grande boccata d'aria e immergiti nell'entusiasmante universo di Bitcoin. Stai per iniziare un viaggio appassionante e gratificante. Buona fortuna!
 
 +++

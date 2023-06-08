@@ -9,8 +9,6 @@ objectives:
 
 # A journey to the technical side of Bitcoin
 
-![Course poster](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
-
 This training is more technical and will be even more beneficial if you have a basic understanding of Bitcoin, including how Bitcoin wallets work and the principles of transactions, mining, and blockchain. You don't need to know how to code, your curiosity and willingness to learn are the only skills required. Remember, every expert was once a beginner. So take a deep breath and dive into the exciting world of Bitcoin. You are about to embark on an exciting and rewarding journey. Good luck!
 
 +++

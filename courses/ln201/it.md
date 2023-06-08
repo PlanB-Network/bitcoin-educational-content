@@ -11,8 +11,6 @@ objectives:
 
 # Un viaggio verso il secondo strato di Bitcoin
 
-![copertina](assets\thumbnail.png)
-
 Questa formazione è un corso teorico sul funzionamento tecnico del Lightning Network.
 
 Benvenuti nel mondo entusiasmante del Lightning Network, un secondo strato di Bitcoin, che rappresenta un'innovazione tecnologica sofisticata e ricca di potenzialità. Ci apprestiamo ad approfondire gli aspetti tecnici di questa tecnologia, senza concentrarci su tutorial o scenari d'uso specifici. Per trarre il massimo da questa formazione, è indispensabile una solida comprensione di Bitcoin. Si tratta di un'esperienza che richiede un approccio serio e concentrato. Potete anche considerare di seguire il corso LN 202 in parallelo, che offre un aspetto più pratico a questa esplorazione. Preparatevi a imbarcarvi per un viaggio che potrebbe cambiare la vostra percezione dell'ecosistema Bitcoin.

@@ -141,9 +141,10 @@ Zusammenfassend bietet Bitcoin durch seine dezentrale Natur, seine programmierte
 Währung ist ein soziales Werkzeug, das sich an Bedürfnisse und Technologie anpassen muss. Im Laufe der Zeit wurde Gold als Wertspeicher verwendet, da es selten und nicht abwertbar war. Später wurde Gold jedoch durch Schulden und Fiat-Währungen ersetzt, die leicht zu kopieren sind und Inflation erzeugen.
 
 Bitcoin ist eine realistische Währungsalternative, da es selten und auf 21 Millionen Bitcoins begrenzt ist, die nicht geändert werden können. Die Geldschöpfung wird durch die Anpassung der Schwierigkeit alle 2 Wochen aufrechterhalten, was eine mathematisch überprüfbare Beweis für seine Knappheit garantiert. Im Gegensatz zu Euros und Dollars im Umlauf, die häufig nach dem Willen der politischen Entscheidungsträger geändert werden, ist Bitcoin eine mathematische Währung mit einer festen Geldpolitik. Es ist daher eine hervorragende Wertspeicherung, da es nicht geändert werden kann. Darüber hinaus ist Bitcoin eine nicht-menschliche und nicht-emotionale Währung, die dumm ausgeführt wird.
+
 Bitcoin stellt die Macht der Finanzinstitute über die Währung in Frage. Es geht um einen philosophischen und wirtschaftlichen Kampf. Um Bitcoin zu verstehen, ist es wichtig, seine grundlegenden Prinzipien zu verstehen und die falschen Vorstellungen, die ihn umgeben, zu entmystifizieren. Dies wird einen konstruktiven intellektuellen Diskurs über die Zukunft der Währung ermöglichen.
 
-Zusammenfassend ist Bitcoin eine realistische Währungsalternative, die eine philosophische und wirtschaftliche Herausforderung für Finanzinstitute darstellt. Es ist wichtig, seine grundlegenden Prinzipien zu verstehen, um einen konstruktiven intellektuellen Diskurs über die Zukunft der Währung zu führen.
+Zusammenfassend ist Bitcoin die eine philosophische und wirtschaftliche Herausforderung für Finanzinstitute darstellt. Es ist wichtig, seine grundlegenden Prinzipien zu verstehen, um einen konstruktiven intellektuellen Diskurs über die Zukunft der Währung zu führen.
 
 # Bitcoin Wallets
 

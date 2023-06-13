@@ -9,7 +9,9 @@ objectives:
 
 # Eine Reise ins Herz der Kryptographie
 
-Sind Sie von Bitcoin fasziniert? Fragen Sie sich, wie eine Bitcoin-Wallet funktioniert? Machen Sie sich bereit für eine fesselnde Reise ins Herz der Kryptographie! Unser Experte Loïc wird Sie durch die Schaffung einer Bitcoin-Wallet führen und die Geheimnisse hinter einschüchternden technischen Begriffen wie Hashing, Schlüsselableitung und elliptischen Kurven enthüllen. Diese Schulung vermittelt Ihnen nicht nur das Wissen, um die Struktur einer Bitcoin-Wallet zu verstehen, sondern bereitet Sie auch darauf vor, tiefer in die faszinierende Welt der Kryptographie einzutauchen. Sind Sie bereit für diese Reise? Schließen Sie sich uns an und verwandeln Sie Ihre Neugier in Fähigkeiten!
+Sind Sie von Bitcoin fasziniert? Fragen Sie sich, wie eine Bitcoin-Wallet funktioniert? Machen Sie sich bereit für eine fesselnde Reise ins Herz der Kryptographie! Unser Experte Loïc wird Sie durch die Schaffung einer Bitcoin-Wallet führen und die Geheimnisse hinter einschüchternden technischen Begriffen wie Hashing, Schlüsselableitung und elliptischen Kurven enthüllen.
+
+Diese Schulung vermittelt Ihnen nicht nur das Wissen, um die Struktur einer Bitcoin-Wallet zu verstehen, sondern bereitet Sie auch darauf vor, tiefer in die faszinierende Welt der Kryptographie einzutauchen. Sind Sie bereit für diese Reise? Schließen Sie sich uns an und verwandeln Sie Ihre Neugier in Fähigkeiten!
 
 +++
 
@@ -18,6 +20,7 @@ Sind Sie von Bitcoin fasziniert? Fragen Sie sich, wie eine Bitcoin-Wallet funkti
 ![Einführung von Rogzy](https://youtu.be/ul8zU5QWIXg)
 
 Wir heißen Sie herzlich willkommen zu unserem neuen Kurs "Crypto 301: Einführung in die Kryptographie und HD-Wallets", geleitet von unserem Experten Loïc Morel. Dieser Kurs führt Sie in die faszinierende Welt der Kryptographie ein, einer grundlegenden Disziplin der Mathematik, die die Verschlüsselung und Sicherheit Ihrer Daten gewährleistet. In unserem täglichen Leben und insbesondere im Bereich von Bitcoin spielt Kryptographie eine wichtige Rolle. Konzepte wie private und öffentliche Schlüssel, Adressen, Ableitungspfade, Samen und Entropie sind der Kern der Verwendung und Erstellung einer Bitcoin-Wallet. In diesem Kurs wird Loïc Ihnen ausführlich erklären, wie private Schlüssel erstellt werden und wie sie mit Adressen verbunden sind. Loïc wird auch eine Stunde damit verbringen, Ihnen die mathematischen Details der elliptischen Kurve, dieser komplexen mathematischen Kurve, zu erklären. Darüber hinaus werden Sie verstehen, warum die Verwendung von HMAC SHA512 wichtig ist, um Ihre Wallet zu sichern, und was der Unterschied zwischen einem Samen und einem mnemonischen Satz ist.
+
 Das ultimative Ziel dieser Schulung ist es, Ihnen technisch die Prozesse zur Erstellung einer HD-Wallet und die verwendeten kryptographischen Methoden zu vermitteln. Im Laufe der Jahre haben sich Bitcoin-Wallets weiterentwickelt, um durch spezifische BIPs einfacher zu bedienen, sicherer und standardisierter zu werden. Loïc wird Ihnen helfen, diese BIPs zu verstehen, um die Entscheidungen der Bitcoin-Entwickler und Kryptographen zu verstehen. Wie alle Schulungen unserer Universität ist auch diese vollständig kostenlos und Open Source. Das bedeutet, dass Sie sie frei übernehmen und nach Belieben verwenden können. Wir freuen uns auf Ihr Feedback am Ende dieses spannenden Kurses.
 
 ![intro par loïc](https://youtu.be/mwuxXLk4Kws)

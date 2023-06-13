@@ -9,7 +9,9 @@ objectives:
 
 # A journey to the heart of cryptography
 
-Are you fascinated by Bitcoin? Wondering how a Bitcoin wallet works? Get ready to embark on a captivating journey to the heart of cryptography! Loïc, our expert, will guide you through the intricacies of creating a Bitcoin wallet, unveiling the mysteries behind intimidating technical terms such as hashing, key derivation, and elliptic curves. This training will not only equip you with the knowledge to understand the structure of a Bitcoin wallet, but also prepare you to dive deeper into the exciting world of cryptography. So, are you ready to undertake this journey? Join us and turn your curiosity into a skill!
+Are you fascinated by Bitcoin? Wondering how a Bitcoin wallet works? Get ready to embark on a captivating journey to the heart of cryptography! Loïc, our expert, will guide you through the intricacies of creating a Bitcoin wallet, unveiling the mysteries behind intimidating technical terms such as hashing, key derivation, and elliptic curves.
+
+This training will not only equip you with the knowledge to understand the structure of a Bitcoin wallet, but also prepare you to dive deeper into the exciting world of cryptography. So, are you ready to undertake this journey? Join us and turn your curiosity into a skill!
 
 +++
 
@@ -18,6 +20,7 @@ Are you fascinated by Bitcoin? Wondering how a Bitcoin wallet works? Get ready t
 ![Introduction by Rogzy](https://youtu.be/ul8zU5QWIXg)
 
 We are pleased to welcome you to the new training course entitled "Crypto 301: Introduction to Cryptography and HD Wallet", orchestrated by the expert in the field, Loïc Morel. This course will immerse you in the fascinating world of cryptography, the fundamental discipline of mathematics that ensures the encryption and security of your data. In our daily lives, and particularly in the field of Bitcoins, cryptography plays a crucial role. Concepts related to it such as private keys, public keys, addresses, derivation paths, seed and entropy, are at the heart of the use and creation of a Bitcoin wallet. Through this course, Loïc will explain in detail how private keys are created and how they are linked to addresses. Loïc will also devote an hour to explaining the mathematical details of the elliptic curve, this complex mathematical curve. In addition, you will understand why the use of HMAC SHA512 is important to secure your wallet and what the difference is between seed and mnemonic phrase.
+
 The ultimate goal of this training is to enable you to technically understand the processes involved in creating an HD wallet and the cryptographic methods used. Over the years, Bitcoin wallets have evolved to become easier to use, more secure, and standardized thanks to specific BIPs. Loïc will help you understand these BIPs to grasp the choices made by Bitcoin developers and cryptographers. Like all the courses offered by our university, this one is completely free and open source. This means that you can freely take it and use it as you wish. We look forward to receiving your feedback at the end of this exciting course.
 
 ![intro by Loïc](https://youtu.be/mwuxXLk4Kws)

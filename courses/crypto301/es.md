@@ -9,7 +9,9 @@ objectives:
 
 # Un viaje al corazón de la criptografía
 
-¿Estás fascinado por Bitcoin? ¿Te preguntas cómo funciona una billetera Bitcoin? ¡Prepárate para embarcarte en un viaje cautivador al corazón de la criptografía! Loïc, nuestro experto, te guiará a través de los entresijos de la creación de una billetera Bitcoin, revelando los misterios detrás de términos técnicos intimidantes como hash, derivación de claves y curvas elípticas. Esta formación no solo te dotará de los conocimientos para comprender la estructura de una billetera Bitcoin, sino que también te preparará para sumergirte más profundamente en el apasionante universo de la criptografía. Entonces, ¿estás listo para emprender este viaje? ¡Únete a nosotros y convierte tu curiosidad en habilidad!
+¿Estás fascinado por Bitcoin? ¿Te preguntas cómo funciona una billetera Bitcoin? ¡Prepárate para embarcarte en un viaje cautivador al corazón de la criptografía! Loïc, nuestro experto, te guiará a través de los entresijos de la creación de una billetera Bitcoin, revelando los misterios detrás de términos técnicos intimidantes como hash, derivación de claves y curvas elípticas. 
+
+Esta formación no solo te dotará de los conocimientos para comprender la estructura de una billetera Bitcoin, sino que también te preparará para sumergirte más profundamente en el apasionante universo de la criptografía. Entonces, ¿estás listo para emprender este viaje? ¡Únete a nosotros y convierte tu curiosidad en habilidad!
 
 +++
 
@@ -18,6 +20,7 @@ objectives:
 ![introduction par Rogzy](https://youtu.be/ul8zU5QWIXg)
 
 Es con gran placer que les damos la bienvenida al nuevo curso titulado "Crypto 301: Introducción a la criptografía y a la billetera HD", orquestado por el experto en la materia, Loïc Morel. Este curso te sumergirá en el fascinante universo de la criptografía, esta disciplina fundamental de las matemáticas que asegura la encriptación y la seguridad de tus datos. En nuestra vida cotidiana y especialmente en el ámbito de los Bitcoins, la criptografía juega un papel primordial. Los conceptos relacionados con ella, como las claves privadas, públicas, las direcciones, las rutas de derivación, la semilla y la entropía, están en el corazón del uso y la creación de una billetera Bitcoin. A través de este curso, Loïc te explicará en detalle cómo se crean las claves privadas y cómo están relacionadas con las direcciones. Loïc también dedicará una hora a explicarte los detalles matemáticos de la curva elíptica, esta compleja curva matemática. Además, comprenderás por qué es importante utilizar HMAC SHA512 para asegurar tu billetera y cuál es la diferencia entre la semilla y la frase mnemotécnica.
+
 El objetivo final de esta formación es permitirle comprender técnicamente los procesos de creación de una cartera HD y los métodos criptográficos utilizados. Con el paso de los años, las carteras de Bitcoin han evolucionado para ser más fáciles de usar, más seguras y estandarizadas gracias a BIP específicos. Loïc lo ayudará a comprender estos BIP para entender las decisiones de los desarrolladores de Bitcoin y los criptógrafos. Como todas las formaciones ofrecidas por nuestra universidad, esta es completamente gratuita y de código abierto. Esto significa que puede tomarla y usarla libremente. Esperamos recibir sus comentarios al final de este emocionante curso.
 
 ![intro por loïc](https://youtu.be/mwuxXLk4Kws)

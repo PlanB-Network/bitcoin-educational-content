@@ -9,7 +9,9 @@ objectives:
 
 # Uma jornada ao coração da criptografia
 
-Você é fascinado pelo Bitcoin? Você se pergunta como funciona uma carteira Bitcoin? Prepare-se para embarcar em uma jornada fascinante ao coração da criptografia! Loïc, nosso especialista, irá guiá-lo pelos meandros da criação de uma carteira Bitcoin, revelando os mistérios por trás de termos técnicos intimidantes como hash, derivação de chaves e curvas elípticas. Este treinamento não apenas fornecerá o conhecimento para entender a estrutura de uma carteira Bitcoin, mas também o preparará para mergulhar mais profundamente no emocionante universo da criptografia. Então, você está pronto para embarcar nesta jornada? Junte-se a nós e transforme sua curiosidade em habilidade!
+Você é fascinado pelo Bitcoin? Você se pergunta como funciona uma carteira Bitcoin? Prepare-se para embarcar em uma jornada fascinante ao coração da criptografia! Loïc, nosso especialista, irá guiá-lo pelos meandros da criação de uma carteira Bitcoin, revelando os mistérios por trás de termos técnicos intimidantes como hash, derivação de chaves e curvas elípticas.
+
+Este treinamento não apenas fornecerá o conhecimento para entender a estrutura de uma carteira Bitcoin, mas também o preparará para mergulhar mais profundamente no emocionante universo da criptografia. Então, você está pronto para embarcar nesta jornada? Junte-se a nós e transforme sua curiosidade em habilidade!
 
 +++
 
@@ -18,6 +20,7 @@ Você é fascinado pelo Bitcoin? Você se pergunta como funciona uma carteira Bi
 ![introdução por Rogzy](https://youtu.be/ul8zU5QWIXg)
 
 É com grande prazer que damos as boas-vindas ao novo treinamento intitulado "Crypto 301: Introdução à criptografia e à carteira HD", orquestrado pelo especialista no assunto, Loïc Morel. Este curso irá mergulhá-lo no fascinante universo da criptografia, esta disciplina fundamental da matemática que garante a criptografia e a segurança de seus dados. Em nossa vida cotidiana e especialmente no campo do Bitcoin, a criptografia desempenha um papel fundamental. Os conceitos relacionados a ela, como chaves privadas, públicas, endereços, caminhos de derivação, semente e entropia, estão no cerne do uso e criação de uma carteira Bitcoin. Através deste curso, Loïc explicará em detalhes como as chaves privadas são criadas e como elas estão relacionadas aos endereços. Loïc também dedicará uma hora para explicar os detalhes matemáticos da curva elíptica, esta complexa curva matemática. Além disso, você entenderá por que o uso do HMAC SHA512 é importante para proteger sua carteira e qual é a diferença entre semente e frase mnemônica.
+
 O objetivo final deste treinamento é permitir que você compreenda tecnicamente os processos de criação de uma carteira HD e os métodos criptográficos utilizados. Ao longo dos anos, as carteiras Bitcoin evoluíram para se tornarem mais fáceis de usar, mais seguras e padronizadas graças a BIPs específicos. Loïc irá ajudá-lo a entender esses BIPs para compreender as escolhas dos desenvolvedores do Bitcoin e dos criptógrafos. Como todos os treinamentos oferecidos pela nossa universidade, este é totalmente gratuito e de código aberto. Isso significa que você pode usá-lo livremente. Estamos ansiosos para receber seus comentários no final deste curso emocionante.
 
 ![intro por loïc](https://youtu.be/mwuxXLk4Kws)

@@ -134,7 +134,7 @@ La moneta è uno strumento sociale che deve adattarsi alle esigenze e alla tecno
 
 Il Bitcoin è un'alternativa monetaria realistica poiché è raro e limitato a 21 milioni di bitcoin che non possono essere modificati. La creazione monetaria è mantenuta grazie all'adattamento della difficoltà ogni 2 settimane, garantendo una prova matematica verificabile della sua rarità. A differenza degli euro e dei dollari in circolazione che cambiano frequentemente a discrezione dei decisori politici, il Bitcoin è una moneta matematica con una politica monetaria fissa. È quindi un'ottima riserva di valore poiché non può essere modificata. Inoltre, il Bitcoin è una moneta non umana e non emotiva che esegue in modo stupido.
 Bitcoin mette in discussione il potere delle istituzioni finanziarie sulla moneta. È una battaglia filosofica ed economica in gioco. Per capire Bitcoin, è importante comprendere le sue basi fondamentali e smontare le idee false che lo circondano. Ciò consentirà di avviare un costruttivo dibattito intellettuale sull' futuro della moneta.
-In conclusione, Bitcoin è un'alternativa monetaria realistica che offre una sfida filosofica ed economica alle istituzioni finanziarie. È importante comprendere le sue basi fondamentali per avviare un costruttivo dibattito intellettuale sull' futuro della moneta.
+In conclusione, Bitcoin offre una sfida filosofica ed economica alle istituzioni finanziarie. È importante comprendere le sue basi fondamentali per avviare un costruttivo dibattito intellettuale sull' futuro della moneta.
 
 # I portafogli Bitcoin
 

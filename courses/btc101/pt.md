@@ -38,13 +38,9 @@ Antes de abordarmos a definição e o funcionamento do dinheiro em uma sociedade
 
 Para entender a origem do Bitcoin, é preciso voltar aos anos 1980 e ao movimento cypherpunk. Os cypherpunks são pioneiros que inovaram e experimentaram com tecnologias como PGP (Pretty Good Privacy), a Internet e a criptografia. Eles moldaram um movimento dedicado à proteção da privacidade na era digital.
 
-Em 2009, uma pessoa (ou um grupo de pessoas) chamada Satoshi Nakamoto elaborou o Bitcoin com base nas tecnologias desenvolvidas pelos cypherpunks. O Bitcoin representa uma revolução em vários níveis: digital, financeiro e tecnológico. Para entender completamente a natureza e o alcance dessa revolução, é crucial entender os fundamentos do Bitcoin.
+Em 2009, uma pessoa (ou um grupo de pessoas) chamada Satoshi Nakamoto elaborou o Bitcoin com base nas tecnologias desenvolvidas pelos cypherpunks. O Bitcoin representa uma revolução em vários níveis: digital, financeiro e tecnológico. Para entender completamente a natureza e o alcance dessa revolução, é crucial entender os fundamentos do Bitcoin. O Bitcoin desafia o sistema financeiro tradicional, destacando as desigualdades e os problemas de inflação associados à moeda fiduciária. As moedas emitidas pelos bancos centrais e pelos Estados, como o euro ou o dólar, estão sujeitas à inflação. Isso pode ter efeitos prejudiciais sobre as sociedades e os indivíduos.
 
-O Bitcoin desafia o sistema financeiro tradicional, destacando as desigualdades e os problemas de inflação associados à moeda fiduciária. As moedas emitidas pelos bancos centrais e pelos Estados, como o euro ou o dólar, estão sujeitas à inflação. Isso pode ter efeitos prejudiciais sobre as sociedades e os indivíduos.
-
-Por outro lado, o Bitcoin, que é uma síntese das tecnologias desenvolvidas desde os anos 1970, tem uma quantidade máxima limitada, conferindo-lhe uma característica semelhante à do ouro. O debate sobre a validade do Bitcoin como moeda continua, mas uma coisa é certa: graças ao legado dos cypherpunks, o Bitcoin está aqui para ficar.
-
-O Bitcoin é tanto uma moeda digital quanto um protocolo de computador. Como tal, foi projetado para durar. É importante reconhecer o papel essencial dos contribuintes e apoiadores deste projeto, incluindo aqueles que fazem doações por meio de plataformas como o Patreon.
+Por outro lado, o Bitcoin, que é uma síntese das tecnologias desenvolvidas desde os anos 1970, tem uma quantidade máxima limitada, conferindo-lhe uma característica semelhante à do ouro. O debate sobre a validade do Bitcoin como moeda continua, mas uma coisa é certa: graças ao legado dos cypherpunks, o Bitcoin está aqui para ficar. O Bitcoin é tanto uma moeda digital quanto um protocolo de computador. Como tal, foi projetado para durar. É importante reconhecer o papel essencial dos contribuintes e apoiadores deste projeto, incluindo aqueles que fazem doações por meio de plataformas como o Patreon.
 
 Em resumo, o Bitcoin é uma revolução tecnológica, financeira e social que tem suas raízes no movimento cypherpunk. Ele desafia o sistema financeiro tradicional e oferece uma alternativa promissora e duradoura. Para entender completamente o Bitcoin, é essencial entender esses conceitos-chave e o legado daqueles que contribuíram para sua criação.
 
@@ -59,13 +55,9 @@ Em resumo, o Bitcoin é uma revolução tecnológica, financeira e social que te
 A evolução do dinheiro é um aspecto fascinante da história humana, refletindo a engenhosidade das civilizações ao longo dos séculos para atender às necessidades econômicas em constante evolução. As primeiras formas de dinheiro eram de natureza concreta, muitas vezes bens de consumo tangíveis como cereais ou gado. No entanto, desde cerca de 4000 anos atrás, o ouro se tornou um padrão universalmente reconhecido.
 L'or atende idealmente aos critérios de uma moeda eficaz: sua raridade natural o torna um objeto de valor, enquanto sua divisibilidade e transportabilidade o tornam prático para o comércio. Além disso, extrair ouro da terra requer uma quantidade significativa de energia, reforçando seu valor intrínseco. No entanto, com o advento da tecnologia e a expansão da economia global, o ouro foi gradualmente abandonado em favor de soluções mais práticas, como notas e moedas digitais.
 
-Os critérios de uma moeda eficaz são múltiplos. Uma boa moeda deve ser fungível, ou seja, intercambiável sem perda de valor; divisível, para facilitar transações de diferentes tamanhos; e líquida, ou seja, facilmente conversível em bens ou serviços.
+Os critérios de uma moeda eficaz são múltiplos. Uma boa moeda deve ser fungível, ou seja, intercambiável sem perda de valor; divisível, para facilitar transações de diferentes tamanhos; e líquida, ou seja, facilmente conversível em bens ou serviços. Historicamente, esses critérios foram atendidos por objetos físicos, como o ouro. No entanto, com o desenvolvimento da infraestrutura financeira, o ouro foi transformado em notas bancárias, que são mais práticas para o comércio diário.
 
-Historicamente, esses critérios foram atendidos por objetos físicos, como o ouro. No entanto, com o desenvolvimento da infraestrutura financeira, o ouro foi transformado em notas bancárias, que são mais práticas para o comércio diário.
-
-Hoje, as moedas ainda evoluem, adaptando suas formas para atender a funções diferentes. Por exemplo, enquanto o ouro é uma excelente reserva de valor, não é mais adequado para a economia globalizada atual. Da mesma forma, moedas fiduciárias como o dólar e o euro são muito líquidas, mas seu valor é erodido pela inflação.
-
-O Bitcoin, como moeda digital, apresenta novas possibilidades. Ele oferece uma excelente reserva de valor e é uma boa forma de troca, mas ainda não é amplamente utilizado como unidade de conta. Devido à inflação, moedas fiduciárias como o euro e o dólar não são ideais como reservas de valor a longo prazo.
+Hoje, as moedas ainda evoluem, adaptando suas formas para atender a funções diferentes. Por exemplo, enquanto o ouro é uma excelente reserva de valor, não é mais adequado para a economia globalizada atual. Da mesma forma, moedas fiduciárias como o dólar e o euro são muito líquidas, mas seu valor é erodido pela inflação. O Bitcoin, como moeda digital, apresenta novas possibilidades. Ele oferece uma excelente reserva de valor e é uma boa forma de troca, mas ainda não é amplamente utilizado como unidade de conta. Devido à inflação, moedas fiduciárias como o euro e o dólar não são ideais como reservas de valor a longo prazo.
 
 Diante dos desafios apresentados pelos sistemas monetários atuais, alternativas são buscadas para preservar e aumentar o valor do dinheiro. Os sistemas bancários estão buscando soluções como transferências digitais e microtransações para atender às necessidades da economia global e se adaptar aos avanços tecnológicos.
 
@@ -142,7 +134,7 @@ O Bitcoin é uma alternativa monetária realista porque é raro e limitado a 21 
 
 Bitcoin remete em questão o poder das instituições financeiras sobre a moeda. C'est un combat philosophique et économique qui est en jeu. Para entender o Bitcoin, é importante compreender suas bases fundamentais e desmistificar as ideias falsas que o cercam. Isso permitirá engajar um debate intelectual construtivo sobre o futuro da moeda.
 
-Em conclusão, Bitcoin é uma alternativa monetária realista que oferece um desafio filosófico e econômico às instituições financeiras. É importante compreender suas bases fundamentais para iniciar um debate intelectual construtivo sobre o futuro da moeda.
+Em conclusão, Bitcoin oferece um desafio filosófico e econômico às instituições financeiras. É importante compreender suas bases fundamentais para iniciar um debate intelectual construtivo sobre o futuro da moeda.
 
 # As carteiras Bitcoin
 

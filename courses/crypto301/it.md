@@ -9,7 +9,9 @@ objectives:
 
 # Un viaggio nel cuore della crittografia
 
-Sei affascinato da Bitcoin? Ti chiedi come funziona un portafoglio Bitcoin? Preparati a intraprendere un viaggio affascinante nel cuore della crittografia! Loïc, il nostro esperto, ti guiderà attraverso i meandri della creazione di un portafoglio Bitcoin, svelando i misteri dietro i termini tecnici intimidatori come hash, derivazione delle chiavi e curve ellittiche. Questa formazione ti doterà non solo delle conoscenze per comprendere la struttura di un portafoglio Bitcoin, ma ti preparerà anche ad approfondire ulteriormente il mondo appassionante della crittografia. Quindi, sei pronto per intraprendere questo viaggio? Unisciti a noi e trasforma la tua curiosità in competenza!
+Sei affascinato da Bitcoin? Ti chiedi come funziona un portafoglio Bitcoin? Preparati a intraprendere un viaggio affascinante nel cuore della crittografia! Loïc, il nostro esperto, ti guiderà attraverso i meandri della creazione di un portafoglio Bitcoin, svelando i misteri dietro i termini tecnici intimidatori come hash, derivazione delle chiavi e curve ellittiche. 
+
+Questa formazione ti doterà non solo delle conoscenze per comprendere la struttura di un portafoglio Bitcoin, ma ti preparerà anche ad approfondire ulteriormente il mondo appassionante della crittografia. Quindi, sei pronto per intraprendere questo viaggio? Unisciti a noi e trasforma la tua curiosità in competenza!
 
 +++
 
@@ -18,6 +20,7 @@ Sei affascinato da Bitcoin? Ti chiedi come funziona un portafoglio Bitcoin? Prep
 ![introduzione di Rogzy](https://youtu.be/ul8zU5QWIXg)
 
 È con grande piacere che vi diamo il benvenuto al nuovo corso intitolato "Crypto 301: Introduzione alla crittografia e al portafoglio HD", orchestrato dall'esperto in materia, Loïc Morel. Questo corso ti farà immergere nel mondo affascinante della crittografia, questa disciplina fondamentale della matematica che garantisce la crittografia e la sicurezza dei tuoi dati. Nella nostra vita quotidiana e soprattutto nel campo dei Bitcoin, la crittografia svolge un ruolo fondamentale. I concetti ad essa legati, come le chiavi private, pubbliche, gli indirizzi, i percorsi di derivazione, il seme e l'entropia, sono al centro dell'uso e della creazione di un portafoglio Bitcoin. Attraverso questo corso, Loïc ti spiegherà in dettaglio come vengono create le chiavi private e come sono collegate agli indirizzi. Loïc dedicherà anche un'ora per spiegarti i dettagli matematici della curva ellittica, questa complessa curva matematica. Inoltre, capirai perché l'uso di HMAC SHA512 è importante per proteggere il tuo portafoglio e qual è la differenza tra il seme e la frase mnemonica.
+
 L'obiettivo finale di questa formazione è quello di permettervi di comprendere tecnicamente i processi di creazione di un portafoglio HD e i metodi crittografici impiegati. Nel corso degli anni, i portafogli Bitcoin sono evoluti diventando più facili da usare, più sicuri e standardizzati grazie a specifici BIP. Loïc vi aiuterà a comprendere questi BIP per capire le scelte dei developer di Bitcoin e dei crittografi. Come tutti i corsi offerti dalla nostra università, questo è completamente gratuito e open source. Ci auguriamo di ricevere i vostri feedback alla fine di questo entusiasmante corso.
 
 ![intro par loïc](https://youtu.be/mwuxXLk4Kws)

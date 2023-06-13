@@ -140,11 +140,7 @@ Money is a social tool that must adapt to needs and technology. Over time, gold 
 
 Bitcoin is a realistic monetary alternative because it is rare and limited to 21 million bitcoins that cannot be changed. Monetary creation is maintained through the adjustment of difficulty every 2 weeks, ensuring verifiable mathematical proof of its scarcity. Unlike euros and dollars in circulation that frequently change at the whim of political decision-makers, Bitcoin is a mathematical currency with a fixed monetary policy. It is therefore an excellent store of value because it cannot be changed. Furthermore, Bitcoin is a non-human and non-emotional currency that executes blindly.
 
-# Bitcoin challenges the power of financial institutions over currency
-
-Bitcoin questions the power of financial institutions over currency. It is a philosophical and economic battle that is at stake. To understand Bitcoin, it is important to understand its fundamental basics and to demystify the misconceptions surrounding it. This will allow for a constructive intellectual debate on the future of currency.
-
-In conclusion, Bitcoin is a realistic monetary alternative that offers a philosophical and economic challenge to financial institutions. It is important to understand its fundamental basics to engage in a constructive intellectual debate on the future of currency.
+In conclusion, Bitcoin is offers a philosophical and economic challenge to financial institutions. It is important to understand its fundamental basics to engage in a constructive intellectual debate on the future of currency.
 
 # Bitcoin Wallets
 

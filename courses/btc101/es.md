@@ -59,13 +59,9 @@ En resumen, Bitcoin es una revolución tecnológica, financiera y social que tie
 La evolución del dinero es un aspecto fascinante de la historia humana, reflejando la ingeniosidad de las civilizaciones a lo largo de los siglos para satisfacer necesidades económicas en constante evolución. Las primeras formas de dinero eran de naturaleza concreta, a menudo bienes de consumo tangibles como cereales o ganado. Sin embargo, desde hace unos 4000 años, el oro se ha convertido en un estándar universalmente reconocido.
 El oro cumple idealmente con los criterios de una moneda eficaz: su rareza natural lo convierte en un objeto de valor, mientras que su divisibilidad y transportabilidad lo hacen práctico para el comercio. Además, extraer oro de la tierra requiere una cantidad significativa de energía, lo que refuerza su valor intrínseco. Sin embargo, con el advenimiento de la tecnología y la expansión de la economía mundial, el oro ha sido gradualmente abandonado en favor de soluciones más prácticas, como los billetes y las monedas digitales.
 
-Los criterios de una moneda eficaz son múltiples. Una buena moneda debe ser fungible, es decir, intercambiable sin pérdida de valor; divisible, para facilitar transacciones de diferentes tamaños; y líquida, es decir, fácilmente convertible en bienes o servicios.
+Los criterios de una moneda eficaz son múltiples. Una buena moneda debe ser fungible, es decir, intercambiable sin pérdida de valor; divisible, para facilitar transacciones de diferentes tamaños; y líquida, es decir, fácilmente convertible en bienes o servicios. Históricamente, estos criterios han sido cumplidos por objetos físicos, como el oro. Sin embargo, con el desarrollo de la infraestructura financiera, el oro ha sido transformado en billetes de banco, que son más prácticos para el comercio diario.
 
-Históricamente, estos criterios han sido cumplidos por objetos físicos, como el oro. Sin embargo, con el desarrollo de la infraestructura financiera, el oro ha sido transformado en billetes de banco, que son más prácticos para el comercio diario.
-
-Hoy en día, las monedas siguen evolucionando, adaptando sus formas para cumplir diferentes funciones. Por ejemplo, aunque el oro es una excelente reserva de valor, ya no es adecuado para la economía globalizada actual. Del mismo modo, las monedas fiduciarias como el dólar y el euro son muy líquidas, pero su valor se ve erosionado por la inflación.
-
-Bitcoin, como moneda digital, presenta nuevas posibilidades. Ofrece una excelente reserva de valor y es una buena forma de intercambio, pero aún no se utiliza ampliamente como unidad de cuenta. Debido a la inflación, las monedas fiduciarias como el euro y el dólar no son ideales como reservas de valor a largo plazo.
+Hoy en día, las monedas siguen evolucionando, adaptando sus formas para cumplir diferentes funciones. Por ejemplo, aunque el oro es una excelente reserva de valor, ya no es adecuado para la economía globalizada actual. Del mismo modo, las monedas fiduciarias como el dólar y el euro son muy líquidas, pero su valor se ve erosionado por la inflación. Bitcoin, como moneda digital, presenta nuevas posibilidades. Ofrece una excelente reserva de valor y es una buena forma de intercambio, pero aún no se utiliza ampliamente como unidad de cuenta. Debido a la inflación, las monedas fiduciarias como el euro y el dólar no son ideales como reservas de valor a largo plazo.
 
 Ante los desafíos planteados por los sistemas monetarios actuales, se buscan alternativas para preservar y aumentar el valor del dinero. Los sistemas bancarios se están enfocando en soluciones como transferencias digitales y microtransacciones para satisfacer las necesidades de la economía mundial y adaptarse a los avances tecnológicos.
 
@@ -143,7 +139,7 @@ Bitcoin es una alternativa monetaria realista porque es raro y limitado a 21 mil
 
 Bitcoin cuestiona el poder de las instituciones financieras sobre la moneda. Se trata de una lucha filosófica y económica. Para entender Bitcoin, es importante comprender sus fundamentos y desmitificar las ideas falsas que lo rodean. Esto permitirá iniciar un debate intelectual constructivo sobre el futuro de la moneda.
 
-En conclusión, Bitcoin es una alternativa monetaria realista que ofrece un desafío filosófico y económico a las instituciones financieras. Es importante comprender sus fundamentos para iniciar un debate intelectual constructivo sobre el futuro de la moneda.
+En conclusión, Bitcoin ofrece un desafío filosófico y económico a las instituciones financieras. Es importante comprender sus fundamentos para iniciar un debate intelectual constructivo sobre el futuro de la moneda.
 
 # Los monederos Bitcoin
 

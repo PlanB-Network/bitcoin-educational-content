@@ -133,7 +133,7 @@ Bitcoin est une alternative monétaire réaliste car il est rare et limité à 2
 
 Bitcoin remet en question le pouvoir des institutions financières sur la monnaie. C'est un combat philosophique et économique qui est en jeu. Pour comprendre Bitcoin, il est important de comprendre ses bases fondamentales et de démystifier les idées fausses qui l'entourent. Cela permettra d'engager un débat intellectuel constructif sur l'avenir de la monnaie.
 
-En conclusion, Bitcoin est une alternative monétaire réaliste qui offre un défi philosophique et économique aux institutions financières. Il est important de comprendre ses bases fondamentales pour entamer un débat intellectuel constructif sur l'avenir de la monnaie.
+En conclusion, Bitcoin un défi philosophique et économique aux institutions financières. Il est important de comprendre ses bases fondamentales pour entamer un débat intellectuel constructif sur l'avenir de la monnaie.
 
 # Les portefeuilles Bitcoin
 

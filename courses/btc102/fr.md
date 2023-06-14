@@ -2,11 +2,11 @@
 name: BTC 102 – Obtenir ses premiers bitcoins
 goal: Obtenir ses premiers bitcoins et les stocker dans un portefeuille Bitcoin de façon sécurisé avec une mnemonic phrase et un plan d’héritage.
 objectives:
-  - Mettez à jour votre sécurité en ligne et développez un plan d’action pour une remise à niveau efficace.
-  - Comprenez les concepts clés liés à Bitcoin; son importance, sa révolution technologique et les principaux acteurs impliqués.
-  - Établissez votre premier portefeuille adapté à vos besoins et ressources, en prenant en compte la gestion de votre clé privée (ceci est important) et les meilleures pratiques de l’industrie.
-  - Apprenez où et comment obtenir vos premiers bitcoins, tout en évitant les erreurs coûteuses, grâce à une assistance pour la mise en place.
-  - Planifiez la transmission de vos bitcoins en cas d’accident afin de garantir à vos proches la possibilité de les récupérer.
+  - Mettre à jour votre sécurité en ligne 
+  - Comprenez les concepts clés liés à Bitcoin
+  - Établissez votre premier portefeuille adapté à vos besoins et ressources
+  - Apprenez où et comment obtenir vos premiers bitcoins
+  - Mise en place d'un plan d'héritage
 ---
 
 # Un voyage vers vos premiers bitcoins
@@ -14,6 +14,7 @@ objectives:
 L’industrie qui entoure Bitcoin est en plein boom.
 
 Les changements technologiques et financiers de ce nouveau monde ne font qu’accélérer, c’est à vous d’en prendre avantage et de commencer à tomber dans le Terrier du Bitcoin. Cette aventure sera riche en savoir et vous poussera à remettre en question grand nombre de vos convictions. Cela va vous redonner de la liberté et vous permettre de regagner de la vie privée, de la souveraineté et de l’indépendance financière.
+
 Pour vous aider à commencer cette aventure, j’ai créé ce cours gratuit. Uniquement Bitcoin, pas de conneries, pas d’autres cryptomonnaies, un cours direct sans détour. Ce cours a été conçu pour s’adapter à vous et vous laisser libre de choisir le chemin qui vous convient.
 
 +++
@@ -296,6 +297,8 @@ Bonne chance ! J'espère que vous me suivrez dans l'univers du Bitcoin et que vo
 
 # Comprendre dans quoi on se lance
 
+## Bitcoin en 5 minutes
+
 Dans cette formation, nous voulons nous concentrer sur le plan d'action pour obtenir vos premiers bitcoins. Si vous souhaitez une explication approfondie des fondamentaux du bitcoin, nous vous conseillons BTC 101, disponible gratuitement sur cette plateforme.
 
 Bitcoin est un protocole informatique qui permet d'envoyer de la valeur à travers le monde sans intermédiaire de confiance. Cette valeur est représentée par une monnaie appelée bitcoin.
@@ -324,6 +327,9 @@ Bitcoin est donc un "0 à 1" qui vient bouleverser nos normes et habitudes.
 Si cela est nouveau pour vous, je vous encourage vivement à suivre BTC 101 avant de continuer à vous exposer à une technologie dont vous ne comprenez peut-être pas bien le rôle et la raison d'être.
 
 ![in a nutshell](assets/section2/10.JPG)
+
+
+## Pourquoi Bitcoin est important ?
 
 ![pourquoi bitcoin est-il si important](https://youtu.be/Iq0wZF3Ui9A)
 
@@ -991,7 +997,7 @@ Vous êtes les meilleurs :D Mon équipe et mes étudiants vous remercient égale
 
 # Remerciements et continuez à creuser le terrier du lapin
 
-Féliciation ! VOUS ÊTES DANS LE TOP 0,1%
+## Féliciation ! VOUS ÊTES DANS LE TOP 0,1%
 
 Si vous avez suivi notre contenu depuis le début, vous êtes maintenant un véritable citoyen du 21e siècle et l'un des plus aguerris dans le domaine du Bitcoin ! Vous utilisez un gestionnaire de mots de passe et la double authentification (2FA). Vous comprenez ce qu'est le Bitcoin et pourquoi il est important. Vous possédez des Bitcoins et avez un moyen sûr d'en acheter ou d'en gagner plus. Vous avez stocké vos Bitcoins dans un portefeuille "froid" et avez mis en place une gestion des clés adéquate. Vous avez créé un plan d'héritage pour vos proches. Vous êtes maintenant en sécurité et pouvez vous détendre! Savourez une bière et soyez fier de vous!
 
@@ -1009,3 +1015,5 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 ## Soutiens la formation !
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
+
+## allez plus loin 

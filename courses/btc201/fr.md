@@ -1,6 +1,11 @@
 ---
 name: Bitcoin et la société
 goal: Approfondir les sujets sérieux de Bitcoin afin de permetttre aux étudiants de prendre part au débat de l’impact sociétal que représente Bitcoin
+objectif: 
+  - La théorie des jeux
+  - Les aspects plus financiers et géopolitiques de l’adoption
+  - Des vecteurs d’attaque potentiels et plus sournois que le 51%
+  - Pourquoi BTC est si anti-fragile ?
 ---
 
 Bienvenue dans la section “Explorons Bitcoin” !
@@ -13,50 +18,14 @@ Ce cours est un format plus podcast avec des chapitres d’une heure, je parlera
 
 En espérant que ce cours plus politique et philosophique vous plaise !
 
-Qu’allez-vous apprendre durant ce cours ?
-
-En plus d’accroître vos connaissances, vous allez découvrir des facettes de Bitcoin qui ne sont pas souvent évoquées de par leur complexité. Les sujets qui seront traités sont les suivants :
-
-La théorie des jeux
-Les aspects plus financiers et géopolitiques de l’adoption
-Des vecteurs d’attaque potentiels et plus sournois que le 51%
-Pourquoi BTC est si anti-fragile ?
-
-Donc on se relaxe et c’est parti pour parler du futur !
-
-La formation est en production continue. pour retrouver le curriculum final c’est ici BTC 201 – Curriculum
-
-J’espère avoir terminé d’ici 2023 😀
-
-Pas convaincu ? Tu peux regarder le curriculum complet ici: [BTC 101 - Curriculum](https://academie.decouvrebitcoin.fr/wp-content/uploads/2022/07/BTC-101-Curriculum.pdf)
+contributeur: 
+- Rogzy – Production
+- Rachel – Distribution
+- Sarah – Design
 
 +++
 
-A propose du prof.
-
-Rogzy
-
-Créateur de Découvre Bitcoin
-
-Bitcoin est un outil de libération financière. En apprenant à l’utiliser, vous pouvez devenir votre propre banque, sortir du système traditionnel et regagner le contrôle de votre épargne. La révolution Bitcoin est déjà en marche et ne peut plus être arrêtée.
-
-À travers ce contenu gratuit, vous aurez toutes les cartes pour vous lancer et réussir à devenir un citoyen souverain et libre au 21ème siècle.
-
-À votre tour de vous lancer. Mes DM sont toujours ouvert si vous avez des questions !
-
-Rogzy
-
-Team créateur
-
-      Team contributeur:
-
-        Rogzy – Production
-        Rachel – Distribution
-        Sarah – Design
-
----
-
-## Chapitre 1 – Le monopole bancaire face à Bitcoin 1 Chapitre
+# Le monopole bancaire face à Bitcoin
 
 ![Le monopole bancaire](https://youtu.be/1jcM4Bp79KU)
 
@@ -64,34 +33,36 @@ Team créateur
 
 ![interview ludovic lars](https://youtu.be/Rr9_7I1NGPg)
 
-Passionné de crypto, Ludovic Lars est rédacteur pour Le Journal du Coin et Cryptoast !
-Découvrez tous ses articles en cliquant ici !
 
-## Chapitre 2 – Les Bitcoiners “maximalistes” 1 Chapitre
+
+# Les Bitcoiners “maximalistes”
 
 ![les bitcoiners maximaliste](https://youtu.be/y4ysUro7WtI)
 
-## Chapitre 3 – La théorie des jeux
+# La théorie des jeux
 
 ![théorie du jeux](https://youtu.be/VF7TR4mGv9s)
 
 La situation au Salvador – Marché local
 Retour d’expérience du Salavdor
 
-## Chapitre 4 – L’écologie 1 Chapitre
+# L’écologie & Bitcoin
 
 ![écologie](https://youtu.be/YQ-Z96hBnq4)
 
 Chauffer sa maison en minant [Intevriew Alexandre de SATO]
 Hors série – Les bears markets 1 Chapitre
 
-![bear](https://youtu.be/_xQJtXq_yWw)
 
-## Chapitre 5 – Le long hiver : et si les bitcoiners avaient raison ?
+# Le long hiver : et si les bitcoiners avaient raison ?
 
 ![long hivert](https://youtu.be/nyoC7wMpqy0)
 
-Note la formation !
-Partie 2 de la formation en production !
+![bear](https://youtu.be/_xQJtXq_yWw)
 
-## en construciton
+
+
+# Allez plus loins
+
+## Note la formation !
+Partie 2 de la formation en production !

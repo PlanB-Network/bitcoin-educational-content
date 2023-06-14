@@ -24,3 +24,7 @@ Toute les info: https://wizardsardine.com/liana/
 Lien pour télécharger Liana : https://github.com/wizardsardine/liana/releases
 
 ![Vidéo de présentation](https://youtu.be/siuLmQo1lM8)
+
+
+![vidéo tutoriel](https://youtu.be/hB8LY9Leork)
+

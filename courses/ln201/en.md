@@ -547,7 +547,8 @@ The most complicated thing in LN is to keep liquidity.
 
 In conclusion, liquidity management on the Lightning Network is a key issue that depends on the type of user: buyer, merchant, or routing node. Buyers, who need outgoing liquidity, have the simplest task: they simply open channels. Merchants, who require incoming liquidity, must be connected to other nodes and actors. Routing nodes, on the other hand, seek to maintain a balance of liquidity on both sides. Several solutions exist for managing liquidity, such as purchasing channels or paying to increase receiving capacity. The "Loop Out" option, allowing for an Atomic Swap between LN and BTC, offers an interesting solution for rebalancing liquidity. Despite these strategies, maintaining liquidity on the Lightning Network remains a complex challenge.
 
-# Summary of the training
+# Go further
+## Summary of the course
 
 ![conclusion](https://youtu.be/MaWpD0rbkVo)
 
@@ -575,7 +576,8 @@ There is a probability component when sending a payment via the Lightning Networ
 
 To receive payments, liquidity must be managed in the channels, which can be done by asking others to open channels to us, opening channels ourselves, and using tools like Loop or buying/renting channels on marketplaces.
 
-# Fanis' Interview
+
+## Fanis' Interview
 
 ![Fanis interview](https://youtu.be/VeJ4oJIXo9k)
 
@@ -602,7 +604,7 @@ However, it is important to note that Lightning routing nodes could be regulated
 
 Finally, the future of Bitcoin is promising with a possible projection of one million in five years. To ensure the professionalization of the industry and the creation of an alternative system to the existing banking system, it is important to contribute to the network and stop trusting.
 
-# Acknowledgments and keep digging the rabbit hole
+## Acknowledgments and keep digging the rabbit hole
 
 Congratulations! 🎉
 You have completed the LN 201 training - Introduction to the Lightning Network!

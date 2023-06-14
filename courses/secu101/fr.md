@@ -15,32 +15,30 @@ Pour éviter cela, nous allons vous montrer comment utiliser un gestionnaire de 
 
 Nous discuterons également de qui est le mieux placé pour protéger l’utilisateur : les entreprises, la régulation ou l’utilisateur lui-même
 
-                Team contributeurs:
-                        Renaud Lifchitz - professeur
-                        Thép Pantamis – Professeur
-                        Muriel – Design
-                        Rogzy, Noury & Fabian – Production
-                        Théo- Contribution
+Team contributeurs:
+- Renaud Lifchitz; professeur
+- Thép Pantamis; Professeur
+- Muriel; Design
+- Rogzy Noury & Fabian; Production
+- Théo; Contribution
 
 +++
 
-# Sécurité 101 : Raffinement de votre Hygiène Numérique
+# introduction: Sécurité 101 : Raffinement de votre Hygiène Numérique
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
-
-## introduction
 
 Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, sans prérequis informatiques nécessaires. C'est avec grand plaisir que je vous présente mes collègues experts, Théo et Renaud, qui nous accompagneront dans ce voyage éducatif.
 
 Notre objectif principal est de vous fournir les connaissances et les compétences nécessaires pour naviguer de manière plus sûre et plus privée dans le monde numérique. Pour commencer, Renaud nous donne un conseil précieux : adopter progressivement une attitude de méfiance prudente. C'est une approche cruciale qui doit être appliquée dans de nombreux aspects de la sécurité numérique.
 
-### Section 1: Théorie - Navigation Sécurisée, Évitement des Liens Dangereux et Protection de la Vie Privée en ligne
+## Section 1: Théorie - Navigation Sécurisée, Évitement des Liens Dangereux et Protection de la Vie Privée en ligne
 
 Dans cette première section, nous aborderons les aspects théoriques de la sécurité numérique. Nous discuterons de la navigation sécurisée, de l'évitement des liens dangereux et de la protection de la vie privée en ligne. Comprendre comment identifier un lien potentiellement malveillant et protéger sa vie privée sont des éléments essentiels pour se protéger contre les menaces de cybersécurité.
 
 Nous explorerons des conseils pratiques pour vérifier la source des liens avant de cliquer dessus et pour utiliser des outils tels que les navigateurs web privés, les réseaux privés virtuels (VPN) et les pare-feu.
 
-### Section 2: Pratique - Gestion des Identifiants et des Mots de Passe, Boîtes Mail et Authentification à Deux Facteurs
+## Section 2: Pratique - Gestion des Identifiants et des Mots de Passe, Boîtes Mail et Authentification à Deux Facteurs
 
 Dans cette deuxième section pratique, nous aborderons la gestion des identifiants et des mots de passe, ainsi que d'autres aspects importants de la sécurité numérique. Nous examinerons les bonnes pratiques pour gérer vos identifiants et mots de passe de manière sécurisée, en utilisant des gestionnaires de mots de passe. Nous discuterons également de l'importance de protéger vos boîtes mail contre les attaques et les intrusions.
 
@@ -48,17 +46,17 @@ Nous vous présenterons des outils et des techniques pour créer des mots de pas
 
 En comprenant et en appliquant ces pratiques de gestion des identifiants, des mots de passe, des boîtes mail et de l'authentification à deux facteurs, vous renforcerez considérablement la sécurité de vos informations en ligne.
 
-Section Bonus: Interview avec Pantamis et Renaud
+## Section Bonus: Interview avec Pantamis et Renaud
 
 En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. Ne manquez pas cette occasion d'en apprendre davantage auprès de ces professionnels expérimentés.
 
 Ce programme de formation est offert gratuitement sous une licence redistribuable. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit en trois langues.
 
-# SECTION 1 - Théorie
 
-## Chapitre 1 - Navigation en ligne
+# Navigation en ligne
 
 ![navigation en ligne](https://youtu.be/BEK7vGnkO64)
+## Le choix du navigateur web
 
 ### Les erreurs courantes lors de la navigation sur internet et comment les éviter
 
@@ -80,7 +78,7 @@ Certains navigateurs permettent de supprimer les cookies ou les sessions de mani
 
 En gardant à l'esprit ces recommandations pour le choix des navigateurs, la gestion des cookies et la sécurité en ligne, vous serez en mesure de naviguer sur internet de manière plus sûre et de protéger votre vie privée.
 
-### 3. La navigation privée, TOR et autres alternatives pour une navigation plus sécurisée et anonyme
+### La navigation privée, TOR et autres alternatives pour une navigation plus sécurisée et anonyme
 
 La navigation privée, bien qu'elle ne cache pas la navigation à votre fournisseur d'accès Internet, permet de ne pas laisser de traces locales sur votre ordinateur. Les cookies sont automatiquement supprimés à la fin de chaque session, ce qui permet d'accepter tous les cookies sans être suivi. La navigation privée peut être utile lors de l'achat de services en ligne, car les sites web suivent nos habitudes de recherche et ajustent les prix en conséquence. Cependant, il est important de noter que la navigation privée est recommandée pour des sessions temporaires et spécifiques, et non pour une utilisation générale de navigation sur Internet.
 
@@ -92,31 +90,25 @@ TOR est légal et est utilisé par des journalistes, des activistes de la libert
 
 **_Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub_**
 
-## Chapitre 2 - VPN et connexion internet
+# VPN et connexion internet
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
+
+## Utilisé internet en sécurité
 
 ### les VPN
 
 L'hygiène numérique est un aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
 
-Les VPN sont des outils qui chiffrent les données transmises sur internet, rendant ainsi la connexion plus sécurisée. Dans un contexte professionnel, les VPN permettent aux employés d'accéder à distance au réseau interne de l'entreprise de manière sécurisée. Les données échangées sont cryptées, rendant leur interception par des tiers beaucoup plus difficile.
-
-En plus de sécuriser l'accès à un réseau interne, l'utilisation d'un VPN peut permettre à un utilisateur de faire passer sa connexion internet par le réseau interne de l'entreprise, donnant l'impression que sa connexion provient de l'entreprise. Cela peut être particulièrement utile pour accéder à des services en ligne qui sont géographiquement restreints.
+Les VPN sont des outils qui chiffrent les données transmises sur internet, rendant ainsi la connexion plus sécurisée. Dans un contexte professionnel, les VPN permettent aux employés d'accéder à distance au réseau interne de l'entreprise de manière sécurisée. Les données échangées sont cryptées, rendant leur interception par des tiers beaucoup plus difficile. En plus de sécuriser l'accès à un réseau interne, l'utilisation d'un VPN peut permettre à un utilisateur de faire passer sa connexion internet par le réseau interne de l'entreprise, donnant l'impression que sa connexion provient de l'entreprise. Cela peut être particulièrement utile pour accéder à des services en ligne qui sont géographiquement restreints.
 
 Il existe deux types principaux de VPN : les VPN d'entreprise et les VPN grand public, comme NordVPN. Les VPN d'entreprise tendent à être plus coûteux et complexes, tandis que les VPN grand public sont généralement plus accessibles et faciles à utiliser. NordVPN, par exemple, permet aux utilisateurs de se connecter à internet en passant par un serveur situé dans un autre pays, ce qui peut permettre de contourner les restrictions géographiques.
 
-Cependant, l'utilisation d'un VPN grand public ne garantit pas une anonymisation complète. De nombreux fournisseurs de VPN conservent des informations sur leurs utilisateurs, ce qui peut potentiellement compromettre leur anonymat. Bien que les VPN puissent être utiles pour améliorer la sécurité en ligne, ils ne sont pas une solution universelle. Ils sont efficaces pour certaines utilisations spécifiques, comme l'accès à des services géographiquement limités ou l'amélioration de la sécurité en déplacement, mais ils ne garantissent pas une sécurité totale.
+Cependant, l'utilisation d'un VPN grand public ne garantit pas une anonymisation complète. De nombreux fournisseurs de VPN conservent des informations sur leurs utilisateurs, ce qui peut potentiellement compromettre leur anonymat. Bien que les VPN puissent être utiles pour améliorer la sécurité en ligne, ils ne sont pas une solution universelle. Ils sont efficaces pour certaines utilisations spécifiques, comme l'accès à des services géographiquement limités ou l'amélioration de la sécurité en déplacement, mais ils ne garantissent pas une sécurité totale. Lors du choix d'un VPN, il est essentiel de privilégier la fiabilité et la technicité plutôt que la popularité. Les fournisseurs de VPN qui recueillent le moins d'informations personnelles sont généralement les plus sûrs. Des services comme iVPN et Mulvad ne recueillent pas d'informations personnelles et permettent même les paiements en Bitcoin pour une confidentialité accrue.
 
-Lors du choix d'un VPN, il est essentiel de privilégier la fiabilité et la technicité plutôt que la popularité. Les fournisseurs de VPN qui recueillent le moins d'informations personnelles sont généralement les plus sûrs. Des services comme iVPN et Mulvad ne recueillent pas d'informations personnelles et permettent même les paiements en Bitcoin pour une confidentialité accrue.
+Enfin, un VPN peut également être utilisé pour bloquer les publicités en ligne, offrant ainsi une expérience de navigation plus agréable et sécurisée. Cependant, il est important de faire ses propres recherches pour trouver le VPN le plus adapté à ses besoins spécifiques. En matière de sécurité en ligne, il est essentiel de comprendre que la 4G est généralement plus sécurisée que le Wi-Fi public. Cependant, l'utilisation de la 4G peut rapidement épuiser votre forfait de données mobiles.Le protocole HTTPS est devenu la norme pour le chiffrement des données sur les sites web. Il assure que les données échangées entre l'utilisateur et le site web sont sécurisées. Il est donc crucial de vérifier que le site que vous visitez utilise bien le protocole HTTPS.
 
-Enfin, un VPN peut également être utilisé pour bloquer les publicités en ligne, offrant ainsi une expérience de navigation plus agréable et sécurisée. Cependant, il est important de faire ses propres recherches pour trouver le VPN le plus adapté à ses besoins spécifiques.
-
-n matière de sécurité en ligne, il est essentiel de comprendre que la 4G est généralement plus sécurisée que le Wi-Fi public. Cependant, l'utilisation de la 4G peut rapidement épuiser votre forfait de données mobiles.Le protocole HTTPS est devenu la norme pour le chiffrement des données sur les sites web. Il assure que les données échangées entre l'utilisateur et le site web sont sécurisées. Il est donc crucial de vérifier que le site que vous visitez utilise bien le protocole HTTPS.
-
-Dans l'Union européenne, la protection des données est réglementée par le Règlement général sur la protection des données (RGPD). Il est donc plus sûr d'utiliser des fournisseurs européens de points d'accès Wi-Fi, comme la SNCF, qui ne revendent pas les données de connexion des utilisateurs.Néanmoins, le simple fait qu'un site affiche un cadenas ne garantit pas son authenticité. Il est important de vérifier la clé publique du site à l'aide d'un système de certificats pour confirmer son authenticité.
-
-Bien que le chiffrement des données empêche les tiers d'intercepter les données échangées, il reste possible pour un individu malveillant de se faire passer pour le site et de transférer les données en clair.Pour éviter les escroqueries en ligne, il est crucial de vérifier l'identité du site sur lequel vous naviguez, en contrôlant notamment l'extension et le nom de domaine. De plus, soyez vigilant face aux escrocs qui utilisent des lettres similaires dans les URL pour tromper les utilisateurs.
+Dans l'Union européenne, la protection des données est réglementée par le Règlement général sur la protection des données (RGPD). Il est donc plus sûr d'utiliser des fournisseurs européens de points d'accès Wi-Fi, comme la SNCF, qui ne revendent pas les données de connexion des utilisateurs.Néanmoins, le simple fait qu'un site affiche un cadenas ne garantit pas son authenticité. Il est important de vérifier la clé publique du site à l'aide d'un système de certificats pour confirmer son authenticité. Bien que le chiffrement des données empêche les tiers d'intercepter les données échangées, il reste possible pour un individu malveillant de se faire passer pour le site et de transférer les données en clair.Pour éviter les escroqueries en ligne, il est crucial de vérifier l'identité du site sur lequel vous naviguez, en contrôlant notamment l'extension et le nom de domaine. De plus, soyez vigilant face aux escrocs qui utilisent des lettres similaires dans les URL pour tromper les utilisateurs.
 
 L'utilisation d'un VPN est recommandée pour renforcer la sécurité, même lorsqu'on navigue sur internet à domicile. Cela contribue à garantir un niveau de sécurité plus élevé pour les données échangées en ligne. Enfin, assurez-vous de vérifier les URL et le petit cadenas dans la barre d'adresse pour confirmer que vous êtes bien sur le site que vous pensez visiter.
 
@@ -126,11 +118,11 @@ En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en li
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-## Chapitre 3 - Utilisation de l’ordinateur
+# Utilisation de l’ordinateur
 
 ![utlisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
 
-### Bonne pratique d'utilisation
+## Bonne pratique d'utilisation
 
 La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique actuel. Aujourd'hui, nous allons aborder trois points clés : le choix de l'ordinateur, les mises à jour et antivirus pour une sécurité optimale, et enfin, les bonnes pratiques pour la sécurité de son ordinateur et de ses données.
 
@@ -152,11 +144,11 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-## Chapitre 4 - Hack & gestion de back-up : protéger ses données
+# Hack & gestion de back-up : protéger ses données
 
 ![hack et gestion de back-up](https://youtu.be/CJDjWPV3PeU)
 
-### Cybersécurité et Prévention
+## Cybersécurité et Prévention
 
 Phishing, vigilance face aux mails frauduleux :
 Restez attentif aux tentatives de phishing visant à soutirer des informations sensibles telles que vos identifiants et mots de passe. Évitez de cliquer sur les liens suspects et de partager vos informations personnelles sans vérifier la légitimité de l'expéditeur.
@@ -170,15 +162,14 @@ Le ransomware est un type de logiciel malveillant qui chiffre les données de l'
 Réaction en cas de détection d'un virus :
 Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
-Sauvegarde des données :
+## Sauvegarde des données
+
 Sauvegardez régulièrement vos données importantes sur un support externe ou un service de stockage en ligne sécurisé. Ainsi, en cas d'attaque informatique ou de panne matérielle, vous pourrez récupérer vos données sans perdre d'informations cruciales.
 
-Payer les hackers, une mauvaise idée :
-Il est généralement déconseillé de payer les hackers en cas de ransomware ou d'autres types d'attaques. Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes. Privilégiez plutôt la prévention et la sauvegarde régulière de vos données pour vous protéger.
+Payer les hackers, une mauvaise idée : Il est généralement déconseillé de payer les hackers en cas de ransomware ou d'autres types d'attaques. Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes. Privilégiez plutôt la prévention et la sauvegarde régulière de vos données pour vous protéger.
 
-# SECTION 2 - Mise en place
 
-## Chapitre 5 - Gestion de la boîte mail
+# Gestion de la boîte mail
 
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
 
@@ -188,26 +179,20 @@ Dans cette section, nous aborderons trois sujets essentiels pour assurer la séc
 
 La gestion adéquate de nos adresses mail est cruciale pour assurer la sécurité de nos accès en ligne. Il est important de choisir un fournisseur de messagerie sécurisé et respectueux de la vie privée. Par exemple, ProtonMail est un service de messagerie sécurisé et respectueux de la vie privée.
 
-Lors du choix d'un fournisseur de messagerie et de la création d'un mot de passe, il est essentiel de ne jamais réutiliser le même mot de passe pour différents services en ligne. Il est recommandé de créer de nouvelles adresses mail régulièrement et de séparer les utilisations en utilisant différentes adresses mail.
+Lors du choix d'un fournisseur de messagerie et de la création d'un mot de passe, il est essentiel de ne jamais réutiliser le même mot de passe pour différents services en ligne. Il est recommandé de créer de nouvelles adresses mail régulièrement et de séparer les utilisations en utilisant différentes adresses mail. Il est préférable d'opter pour un service de messagerie sécurisé pour les comptes critiques. Il convient également de noter que certains services limitent la longueur des mots de passe, il est donc important de faire attention à cette limitation. Des services sont également disponibles pour la création d'adresses mail temporaires, qui peuvent être utilisées pour des comptes à durée limitée.
 
-Il est préférable d'opter pour un service de messagerie sécurisé pour les comptes critiques. Il convient également de noter que certains services limitent la longueur des mots de passe, il est donc important de faire attention à cette limitation. Des services sont également disponibles pour la création d'adresses mail temporaires, qui peuvent être utilisées pour des comptes à durée limitée.
-
-Il est important de prendre en considération que les anciens fournisseurs de messagerie tels que La Poste, Arobase, Wig, Hotmail, sont toujours utilisés, mais leurs pratiques de sécurité peuvent être moins bonnes que celles de Gmail. Par conséquent, il est recommandé d'avoir deux adresses mail distinctes, l'une pour les communications générales et l'autre pour la récupération de compte, cette dernière devant être mieux sécurisée.
-
-Il est préférable d'éviter de mélanger l'adresse mail avec son opérateur téléphonique ou fournisseur d'accès internet, car cela peut constituer un vecteur d'attaque.
+Il est important de prendre en considération que les anciens fournisseurs de messagerie tels que La Poste, Arobase, Wig, Hotmail, sont toujours utilisés, mais leurs pratiques de sécurité peuvent être moins bonnes que celles de Gmail. Par conséquent, il est recommandé d'avoir deux adresses mail distinctes, l'une pour les communications générales et l'autre pour la récupération de compte, cette dernière devant être mieux sécurisée. Il est préférable d'éviter de mélanger l'adresse mail avec son opérateur téléphonique ou fournisseur d'accès internet, car cela peut constituer un vecteur d'attaque.
 Sécurisation des adresses mail et utilisation de Have I Been Pwned pour vérifier les fuites de données
 
 Il est conseillé d'utiliser le site Have I Been Pwned (Avez-vous été piraté) pour vérifier si notre adresse mail a été compromise et pour être avertis des futures fuites de données. Une base de données piratée peut être exploitée par des pirates pour envoyer des mails de phishing ou réutiliser des mots de passe compromis.
 
-Le site Have I Been Pwned permet de vérifier si notre adresse mail a été compromise sans communiquer directement cette adresse. Il est donc recommandé de créer une deuxième adresse mail à des fins de sécurité supplémentaire.
-
-Les mails sont un moyen de communication qui devrait continuer à être utilisé pendant longtemps. Cependant, il est crucial de sécuriser nos mots de passe et de mettre en place une authentification à deux facteurs pour renforcer la sécurité de nos comptes mail.
+Le site Have I Been Pwned permet de vérifier si notre adresse mail a été compromise sans communiquer directement cette adresse. Il est donc recommandé de créer une deuxième adresse mail à des fins de sécurité supplémentaire. Les mails sont un moyen de communication qui devrait continuer à être utilisé pendant longtemps. Cependant, il est crucial de sécuriser nos mots de passe et de mettre en place une authentification à deux facteurs pour renforcer la sécurité de nos comptes mail.
 
 ## Tutoriel : création compte ProtonMail
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-## Chapitre 6 - Gestionnaire de mots de passe
+# Gestionnaire de mots de passe
 
 ![gestionaire de mots de passe](https://youtu.be/HzLuZ6noePY)
 
@@ -229,7 +214,7 @@ Les mots de passe générés de manière aléatoire offrent un niveau de sécuri
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-## Chapitre 7 - Les 2 facteurs d’authentification
+# Les 2 facteurs d’authentification
 
 ![les 2FA](https://youtu.be/863n4N1XNjk)
 
@@ -243,15 +228,17 @@ En conclusion, comprendre les différentes options d'authentification forte et c
 
 ## Tutoriel : des solutions 2FA et Yubikey
 
-# SECTION 3 - Aller plus loin
+**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-## Conclusion & travailler dans l’industrie
+# Allez plus loins
+
+## comment travailler dans cette industrie
 
 ![conclusion et travailler dans l'industrie](https://youtu.be/YZ2EKaPvoZU)
 
 ## Interview de Renaud
 
-![industrie](https://youtu.be/RVjE-KOSKDs)
+![Interview](https://youtu.be/RVjE-KOSKDs)
 
 ### Gestion efficace des mots de passe et renforcement de l'authentification: une approche académique
 
@@ -284,4 +271,26 @@ Autres considérations clés
 
 Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
-conclusion a créer
+# Remerciements et continuez à creuser le terrier du lapin
+
+## Notez la formation & nous soutenir
+
+Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
+
+Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
+
+## allez plus loins 
+
+
+Félicitations pour avoir terminé cette formation SECU 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. vous etes désomrais pret pour obtenir vos premier bitcoin ou tous simplement continuer l'aventure avec les cours de niveau 2 !
+
+- BTC 101 vous permettra d'avoir les bases théorique sur Bitcoin
+- BTC 102 vous aidera à mettre en place votre plan bitcoin
+- LN 201 et 202 vous permettront de découvrir le Lightning Network, un réseau de paiements en second couche
+- ECON 201 abordera l'économie autrichienne
+- MINAGE 201 pour en savoir plus sur le minage
+- (et bien d'autres)
+
+Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & toute l'équipe
+
+À bientôt!

@@ -32,7 +32,7 @@ It is important to remember that Bitcoin is a relatively new technology, and it 
 
 Before delving into the definition and functioning of money in society, we start with the genesis of Bitcoin. Then, we will explore the role of Bitcoin as a currency and how it can transform our perception of financial transactions.
 
-# The Prehistory of Bitcoin
+## The Prehistory of Bitcoin
 
 ![The Prehistory of Bitcoin](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 

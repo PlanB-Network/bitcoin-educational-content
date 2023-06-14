@@ -547,7 +547,9 @@ Il più complicato in LN è mantenere la liquidità.
 
 In conclusione, la gestione della liquidità sulla rete Lightning Network è una sfida chiave, che dipende dal tipo di utente: acquirente, commerciante o nodo di routing. Gli acquirenti, che hanno bisogno di liquidità in uscita, hanno il compito più semplice: aprono semplicemente dei canali. I commercianti, che necessitano di liquidità in entrata, devono essere connessi ad altri nodi e attori. I nodi di routing, invece, cercano di mantenere un equilibrio di liquidità da entrambi i lati. Esistono diverse soluzioni per gestire la liquidità, come l'acquisto di canali o il pagamento per aumentare la capacità di ricezione. L'opzione "Loop Out", che consente uno scambio atomico tra LN e BTC, offre una soluzione interessante per riequilibrare la liquidità. Nonostante queste strategie, mantenere la liquidità sulla rete Lightning Network rimane una sfida complessa.
 
-# Riassunto della formazione
+# Vai oltre
+
+## Riassunto della formazione
 
 ![conclusion](https://youtu.be/MaWpD0rbkVo)
 
@@ -575,7 +577,7 @@ C'è una componente di probabilità quando si invia un pagamento tramite Lightni
 
 Per ricevere pagamenti, è necessario gestire la liquidità nei canali, che può essere fatto chiedendo ad altre persone di aprire canali verso di noi, aprendo canali da soli e utilizzando strumenti come Loop o acquistando/noleggiando canali su marketplace.
 
-# Intervista a Fanis
+## Intervista a Fanis
 
 ![intervista di Fanis](https://youtu.be/VeJ4oJIXo9k)
 
@@ -603,7 +605,7 @@ Per i commercianti, è necessario gestire la liquidità per accettare i pagament
 
 Infine, il futuro di Bitcoin è promettente con una possibile proiezione di un milione entro cinque anni. Per garantire la professionalizzazione dell'industria e la creazione di un sistema alternativo a quello del sistema bancario esistente, è importante contribuire alla rete e smettere di fidarsi.
 
-# Ringraziamenti e continuate a scavare la tana del coniglio
+## Ringraziamenti e continuate a scavare la tana del coniglio
 
 Congratulazioni! 🎉
 Hai completato il corso LN 201 - Introduzione alla Lightning Network!

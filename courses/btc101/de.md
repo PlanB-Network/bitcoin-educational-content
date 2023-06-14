@@ -33,7 +33,7 @@ Es ist wichtig zu beachten, dass Bitcoin eine relativ neue Technologie ist und e
 
 Bevor wir uns mit der Definition und Funktionsweise von Währung in einer Gesellschaft befassen, beginnen wir mit der Entstehung von Bitcoin. Dann werden wir die Rolle von Bitcoin als Währung und wie es unsere Wahrnehmung von Finanztransaktionen verändern kann, untersuchen.
 
-# Die Vorgeschichte von Bitcoin
+## Die Vorgeschichte von Bitcoin
 
 ![Die Vorgeschichte von Bitcoin](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 

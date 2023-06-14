@@ -546,8 +546,9 @@ Lo más complicado en LN es mantener la liquidez.
 ![instruction](assets/chapitre11/5.JPG)
 
 En conclusión, la gestión de la liquidez en la red Lightning Network es un desafío clave que depende del tipo de usuario: comprador, comerciante o nodo de enrutamiento. Los compradores, que necesitan liquidez saliente, tienen la tarea más sencilla: simplemente abren canales. Los comerciantes, que necesitan liquidez entrante, deben estar conectados a otros nodos y actores. Los nodos de enrutamiento, por su parte, buscan mantener un equilibrio de liquidez en ambos lados. Existen varias soluciones para gestionar la liquidez, como la compra de canales o el pago para aumentar la capacidad de recepción. La opción "Loop Out", que permite un Atomic Swap entre LN y BTC, ofrece una solución interesante para reequilibrar la liquidez. A pesar de estas estrategias, mantener la liquidez en la red Lightning Network sigue siendo un desafío complejo.
+# Allez plus loin
 
-# Resumen de la formación
+## Resumen de la formación
 
 ![conclusión](https://youtu.be/MaWpD0rbkVo)
 
@@ -575,7 +576,7 @@ Hay una componente de probabilidad cuando se envía un pago a través de Lightni
 
 Para recibir pagos, es necesario gestionar la liquidez en los canales, lo que se puede hacer pidiendo a otras personas que abran canales hacia nosotros, abriendo canales nosotros mismos y utilizando herramientas como Loop o comprando/alquilando canales en marketplaces.
 
-# Entrevista con Fanis
+## Entrevista con Fanis
 
 ![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
 
@@ -603,7 +604,7 @@ Para los comerciantes, es necesario gestionar la liquidez para aceptar pagos en 
 
 Por último, el futuro de Bitcoin es prometedor con una posible proyección de un millón en cinco años. Para asegurar la profesionalización de la industria y la creación de un sistema alternativo al sistema bancario existente, es importante contribuir a la red y dejar de confiar.
 
-# Agradecimientos y sigue excavando la madriguera del conejo
+## Agradecimientos y sigue excavando la madriguera del conejo
 
 ¡Felicidades! 🎉
 ¡Has completado el curso LN 201 - Introducción a Lightning Network!

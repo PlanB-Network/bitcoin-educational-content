@@ -2,11 +2,11 @@
 name: BTC 102 – Getting your first bitcoins
 goal: Getting your first bitcoins and storing them securely in a Bitcoin wallet with a mnemonic phrase and an inheritance plan.
 objectives:
-  - Update your online security and develop an action plan for an effective upgrade.
-  - Understand key concepts related to Bitcoin; its importance, technological revolution, and major players involved.
-  - Establish your first wallet tailored to your needs and resources, taking into account the management of your private key (this is important) and industry best practices.
-  - Learn where and how to get your first bitcoins, while avoiding costly mistakes, with assistance for setup.
-  - Plan the transmission of your bitcoins in case of an accident to ensure that your loved ones have the opportunity to recover them.
+  - Update your online security
+  - Understand key concepts related to Bitcoin
+  - Set up your first wallet tailored to your needs and resources
+  - Learn where and how to obtain your first bitcoins
+  - Set up an inheritance plan
 ---
 
 # A journey to your first bitcoins
@@ -14,6 +14,7 @@ objectives:
 The industry surrounding Bitcoin is booming.
 
 The technological and financial changes of this new world are only accelerating, and it's up to you to take advantage of them and start falling down the Bitcoin rabbit hole. This adventure will be rich in knowledge and will push you to question many of your beliefs. It will give you back freedom and allow you to regain privacy, sovereignty, and financial independence.
+
 To help you start this adventure, I have created this free course. Only Bitcoin, no nonsense, no other cryptocurrencies, a direct course without detours. This course has been designed to adapt to you and leave you free to choose the path that suits you.
 
 +++
@@ -277,13 +278,15 @@ To conclude this section on prerequisites, let's go back to the first reason for
 
 As a reminder, the private key is a list of 24 words that represents the backup of your Bitcoins. It is essential to exercise extreme caution in this regard. When you store your Bitcoins on an exchange platform, it is the platform that controls them, not you! This situation carries risks such as the bankruptcy of the platform, the confiscation of your Bitcoins, or the hacking of the platform.
 
-# The Golden Rule of Bitcoin #1: Not Your Key, Not Your Bitcoins
+The Golden Rule of Bitcoin #1: Not Your Key, Not Your Bitcoins
 
 The key in Bitcoin represents ownership of the Bitcoins. If you hold your key, you regain your financial sovereignty and are responsible for the security of your own money. If you lose your key, you also lose your money. It is best to follow industry best practices and avoid complex strategies. Bitcoin is already risky enough in itself. Listen to the advice of experts. Additionally, when using Bitcoin, it is best to remain discreet: avoid talking about it. By exposing yourself, you would become a potential target, thus increasing the risks for yourself and your family. The best security lies in discretion. There is no need to proclaim to everyone that you hold Bitcoins.
 
 Good luck! I hope you will follow me into the world of Bitcoin and allow me to guide you in acquiring and securing your first Bitcoins without taking risks!
 
 # Understanding What We're Getting Into
+
+## Bitcoin in 5 minutes
 
 In this course, we want to focus on the action plan for obtaining your first bitcoins. If you want a thorough explanation of the fundamentals of Bitcoin, we recommend BTC 101, available for free on this platform.
 
@@ -311,6 +314,9 @@ Bitcoin is therefore a "0 to 1" that comes to disrupt our norms and habits.
 If this is new to you, I strongly encourage you to follow BTC 101 before continuing to expose yourself to a technology whose role and raison d'être you may not understand well.
 
 ![in a nutshell](assets/section2/10.JPG)
+
+
+ ## Why is Bitcoin matter?
 
 ![why is bitcoin so important](https://youtu.be/Iq0wZF3Ui9A)
 
@@ -957,7 +963,7 @@ You are the best :D My team and my students also thank you!
 
 # Acknowledgments and keep digging the rabbit hole
 
-Congratulations! YOU ARE IN THE TOP 0.1%
+## Congratulations! YOU ARE IN THE TOP 0.1%
 
 If you have been following our content from the beginning, you are now a true citizen of the 21st century and one of the most seasoned in the Bitcoin field! You use a password manager and two-factor authentication (2FA). You understand what Bitcoin is and why it is important. You own Bitcoins and have a safe way to buy or earn more. You have stored your Bitcoins in a "cold" wallet and have implemented adequate key management. You have created an inheritance plan for your loved ones. You are now safe and can relax! Enjoy a beer and be proud of yourself!
 

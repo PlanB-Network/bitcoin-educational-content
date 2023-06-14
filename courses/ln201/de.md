@@ -547,7 +547,9 @@ Das Schwierigste an LN ist, die Liquidität zu halten.
 
 Zusammenfassend ist das Liquiditätsmanagement im Lightning Network ein Schlüsselaspekt, der von der Art des Benutzers abhängt: Käufer, Händler oder Routing-Knoten. Käufer, die ausgehende Liquidität benötigen, haben die einfachste Aufgabe: Sie öffnen einfach Kanäle. Händler, die eingehende Liquidität benötigen, müssen mit anderen Knoten und Akteuren verbunden sein. Routing-Knoten hingegen streben ein Gleichgewicht der Liquidität auf beiden Seiten an. Es gibt mehrere Lösungen zur Liquiditätsverwaltung, wie den Kauf von Kanälen oder die Zahlung zur Erhöhung der Empfangskapazität. Die Option "Loop Out", die einen Atomic Swap zwischen LN und BTC ermöglicht, bietet eine interessante Lösung zur Wiederherstellung der Liquidität. Trotz dieser Strategien bleibt die Aufrechterhaltung der Liquidität im Lightning Network eine komplexe Herausforderung.
 
-# Zusammenfassung der Schulung
+# Geh weiter
+
+## Zusammenfassung der Schulung
 
 ![conclusion](https://youtu.be/MaWpD0rbkVo)
 
@@ -575,7 +577,7 @@ Es gibt eine Wahrscheinlichkeitskomponente, wenn eine Zahlung über das Lightnin
 
 Um Zahlungen zu erhalten, muss die Liquidität in den Kanälen verwaltet werden, was durch das Bitten anderer Personen, Kanäle zu uns zu öffnen, durch das Öffnen eigener Kanäle und durch die Verwendung von Tools wie Loop oder durch den Kauf/Miete von Kanälen auf Marktplätzen erfolgen kann.
 
-# Interview mit Fanis
+## Interview mit Fanis
 
 ![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
 
@@ -603,7 +605,7 @@ Für Händler ist es notwendig, Liquidität zu verwalten, um Zahlungen im Lightn
 
 Schließlich ist die Zukunft von Bitcoin vielversprechend, mit einer möglichen Projektion von einer Million in fünf Jahren. Um die Professionalisierung der Branche und die Schaffung eines alternativen Systems zum bestehenden Bankensystem zu gewährleisten, ist es wichtig, zum Netzwerk beizutragen und aufzuhören, zu vertrauen.
 
-# Dankeschön und weiterhin den Kaninchenbau erkunden
+## Dankeschön und weiterhin den Kaninchenbau erkunden
 
 Herzlichen Glückwunsch! 🎉
 Sie haben den LN 201-Kurs - Einführung in das Lightning-Netzwerk abgeschlossen!

@@ -32,7 +32,7 @@ Es importante recordar que Bitcoin es una tecnología relativamente nueva, y es 
 
 Antes de abordar la definición y el funcionamiento del dinero en una sociedad, comenzamos con la génesis de Bitcoin. Luego, exploraremos el papel de Bitcoin como moneda y cómo puede transformar nuestra percepción de las transacciones financieras.
 
-# La prehistoria de Bitcoin
+## La prehistoria de Bitcoin
 
 ![La prehistoria de Bitcoin](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 

@@ -2,11 +2,11 @@
 name: BTC 102 – Erste Bitcoins erhalten
 goal: Erste Bitcoins erhalten und sicher in einer Bitcoin-Wallet mit einem Mnemonic-Code und einem Vererbungsplan speichern.
 objectives:
-  - Aktualisieren Sie Ihre Online-Sicherheit und entwickeln Sie einen Aktionsplan für eine effektive Aktualisierung.
-  - Verstehen Sie die Schlüsselkonzepte von Bitcoin; seine Bedeutung, seine technologische Revolution und die wichtigsten Akteure.
-  - Richten Sie Ihre erste Wallet ein, die Ihren Bedürfnissen und Ressourcen entspricht, unter Berücksichtigung der Verwaltung Ihres privaten Schlüssels (dies ist wichtig) und bewährter Branchenpraktiken.
-  - Erfahren Sie, wo und wie Sie Ihre ersten Bitcoins erhalten können, während Sie teure Fehler vermeiden, dank Unterstützung bei der Einrichtung.
-  - Planen Sie die Übertragung Ihrer Bitcoins im Falle eines Unfalls, um sicherzustellen, dass Ihre Angehörigen sie wiedererlangen können.
+  - Aktualisieren Sie Ihre Online-Sicherheit
+  - Verstehen Sie die Schlüsselkonzepte im Zusammenhang mit Bitcoin
+  - Richten Sie Ihre erste Geldbörse entsprechend Ihren Bedürfnissen und Ressourcen ein
+  - Erfahren Sie, wo und wie Sie Ihre ersten Bitcoins erhalten
+  - Einrichtung eines Erbschaftsplans
 ---
 
 # Eine Reise zu Ihren ersten Bitcoins
@@ -14,6 +14,7 @@ objectives:
 Die Bitcoin-Industrie boomt.
 
 Die technologischen und finanziellen Veränderungen dieser neuen Welt beschleunigen sich nur noch weiter, und es liegt an Ihnen, davon zu profitieren und in den Bitcoin-Kaninchenbau zu fallen. Dieses Abenteuer wird reich an Wissen sein und Sie dazu bringen, viele Ihrer Überzeugungen in Frage zu stellen. Es wird Ihnen Freiheit zurückgeben und Ihnen ermöglichen, Privatsphäre, finanzielle Souveränität und Unabhängigkeit zurückzugewinnen.
+
 Um Ihnen bei diesem Abenteuer zu helfen, habe ich diesen kostenlosen Kurs erstellt. Nur Bitcoin, keine dummen Sachen, keine anderen Kryptowährungen, ein direkter Kurs ohne Umwege. Dieser Kurs wurde entwickelt, um sich an Sie anzupassen und Ihnen die Freiheit zu lassen, den Weg zu wählen, der Ihnen am besten passt.
 
 +++
@@ -280,6 +281,8 @@ Viel Glück! Ich hoffe, Sie werden mir in die Welt von Bitcoin folgen und mir er
 
 # Verstehen, worauf man sich einlässt
 
+## Bitcoin in 5 Minuten
+
 In diesem Kurs möchten wir uns auf den Aktionsplan konzentrieren, um Ihre ersten Bitcoins zu erhalten. Wenn Sie eine ausführliche Erklärung der Grundlagen von Bitcoin wünschen, empfehlen wir Ihnen BTC 101, das kostenlos auf dieser Plattform verfügbar ist.
 
 Bitcoin ist ein Computerprotokoll, das es ermöglicht, Wert ohne vertrauenswürdige Zwischenhändler weltweit zu senden. Dieser Wert wird durch eine Währung namens Bitcoin repräsentiert.
@@ -306,6 +309,9 @@ Bitcoin ist also ein "0 zu 1", das unsere Normen und Gewohnheiten auf den Kopf s
 Wenn dies für Sie neu ist, empfehle ich Ihnen dringend, BTC 101 zu folgen, bevor Sie sich weiterhin einer Technologie aussetzen, deren Rolle und Zweck Sie möglicherweise nicht gut verstehen.
 
 ![in a nutshell](assets/section2/10.JPG)
+
+
+## Warum ist Bitcoin wichtig?
 
 ![Warum ist Bitcoin so wichtig](https://youtu.be/Iq0wZF3Ui9A)
 
@@ -948,7 +954,7 @@ Sie sind die Besten :D Mein Team und meine Schüler danken Ihnen ebenfalls!
 
 # Dankeschön und weiterhin den Kaninchenbau erkunden
 
-Herzlichen Glückwunsch! SIE SIND IN DEN TOP 0,1%
+## Herzlichen Glückwunsch! SIE SIND IN DEN TOP 0,1%
 
 Wenn Sie unserem Inhalt seit Beginn gefolgt sind, sind Sie jetzt ein echter Bürger des 21. Jahrhunderts und einer der erfahrensten im Bereich Bitcoin! Sie verwenden einen Passwort-Manager und die Zwei-Faktor-Authentifizierung (2FA). Sie verstehen, was Bitcoin ist und warum es wichtig ist. Sie besitzen Bitcoins und haben eine sichere Möglichkeit, mehr zu kaufen oder zu verdienen. Sie haben Ihre Bitcoins in einer "kalten" Geldbörse gespeichert und eine angemessene Schlüsselverwaltung eingerichtet. Sie haben einen Nachlassplan für Ihre Angehörigen erstellt. Sie sind jetzt sicher und können sich entspannen! Genießen Sie ein Bier und seien Sie stolz auf sich!
 

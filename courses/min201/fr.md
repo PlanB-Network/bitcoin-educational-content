@@ -1,17 +1,32 @@
 ---
 name: Decouverte du Home-mining
 goal: comprendre le minage
+Objectif: 
+   - Comprendre la théorie sur le minage
+   - Comprendre l'industrie du minage
+   - Transformer un S9 en chauffage 
+   - Miner son premier satoshi
+
 ---
+
+# Introduction 
+
+# Explication du minage
+
+# l'industrie du minage
+
+
+
 
 # Attakai - le home-mining rendu possible et accessible !
 
 L'initiative "Attakaï" explore le minage de Bitcoin en utilisant la chaleur générée. Le guide propose des solutions pour rendre les mineurs adaptés à une utilisation en tant que radiateurs dans les logements, offrant ainsi plus de confort et d'économies d'énergie. Le Bitcoin ajuste automatiquement la difficulté du minage et récompense les mineurs pour leur travail. Cependant, la concentration du hashrate peut poser des risques pour la neutralité du réseau. "Attakaï" offre un guide pratique pour rétrofitter les mineurs de manière économique, permettant aux participants de réduire leur facture d'électricité et d'être récompensés avec des sats sans KYC.
 
-## Introduction
+### Introduction
 
 “Attakaï », qui signifie « la température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur lancée par @ajelexBTC et @BlobOnChain avec Découvre Bitcoin. Ce guide de retrofitting d’un ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
 
-### Pourquoi réutiliser la chaleur d’un ASIC ?
+## Pourquoi réutiliser la chaleur d’un ASIC ?
 
 Il est important de comprendre la relation entre l’énergie et la production de chaleur dans un système électrique.
 
@@ -32,7 +47,7 @@ En résumé, un radiateur électrique et un mineur Bitcoin produisent tout deux 
 
 ![Video présentation](https://youtu.be/gKoh44UCSnE)
 
-### La plus-value pour Bitcoin
+## La plus-value pour Bitcoin
 
 Nous ne rentrerons pas dans les détails du fonctionnement du minage ici (ressources disponibles sur l’académie si besoin). Ce qu’il est important de comprendre, c’est la manière dont le minage participe à la décentralisation de Bitcoin.
 Plusieurs technologies déjà existantes ont été ingénieusement combinées pour donner vie au consensus de Nakamoto. Ce consensus permet de récompenser économiquement les acteurs honnêtes pour leur participation au fonctionnement du réseau Bitcoin, tout en décourageant les acteurs malhonnêtes. C’est l’un des points clés qui permet au réseau d’exister de façon durable.
@@ -53,7 +68,9 @@ Ce sujet pourrait devenir problématique et apporte un risque important pour la 
 
 C’est une excellente opportunité pour apprendre en pratiquant. En plus de réduire votre facture d’électricité, vous êtes récompensé pour votre participation par des sats KYC free.
 
-## Chapitre 1 : Guide d’achat pour un ASIC d’occasion
+# Guide d’achat pour un ASIC d’occasion
+
+## Achat d'un S9 d'occasion
 
 Dans cet section nous allons voir les bonnes pratiques afin d’acheter un Bitmain Antminer S9 d’occasion, la machine sur laquelle ce tutoriel de retrofitting en radiateur sera basé. Ce guide fonctionne aussi pour d’autres modèles d’ASIC car il s’agit d’un guide d’achat général pour du matériel de minage d’occasion.
 
@@ -106,7 +123,7 @@ Après avoir passé en revue tous ces points, vous pouvez acheter votre machine 
 
 Pour synthétiser ce guide en une phrase : **« Ne faites pas confiance, vérifiez »**.
 
-## Chapitre 2 : Guide d’achat des pièces pour modifications
+## Achat des pièces pour modifications hardwear du S9
 
 ![image](assets/piece/1.jpeg)
 
@@ -156,7 +173,7 @@ Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et mo
 
         -	Optionnel prise connectée ANTELA https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1
 
-## Chapitre 3 - TUTORIEL : Comment transformer un mineur en chauffage ?
+# TUTORIEL : Comment transformer un mineur en chauffage ?
 
 ![image](assets/hardwear/0.jpeg)
 
@@ -175,7 +192,7 @@ En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur d
 - Vonets VAP11G-300
 - Optionnel : prise connectée ANTELA
 
-### Remplacement des ventilateurs
+## Remplacement des ventilateurs
 
 Nous allons commencer par remplacer le ventilateur de l’alimentation.
 
@@ -240,7 +257,7 @@ Une fois les branchements effectués, remettez bien le plastique du couvercle pa
 
 Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
 
-### Remplacement des 2 ventilateurs principaux
+## Remplacement des 2 ventilateurs principaux
 
 1. Tout d’abord, débranchez les ventilateurs et dévissez-les.
    ![image](assets/hardwear/19.jpeg)
@@ -277,9 +294,11 @@ Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son a
 
 Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
 
-## Chapitre 4 - Modification du softwear - Réinitialiser un Antminer S9
+# Modification du softwear - Réinitialiser un Antminer S9
 
 **Série d’articles proposée par BlobOnChain & Ajelex – 15/02/2023**
+
+## Explication du softwear du mineur
 
 ### Réinitialiser via le bouton « Reset »
 
@@ -395,7 +414,7 @@ Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode
 
 Pour plus d’informations sur l’installation, vous pouvez visiter cette section du site de Braiins.
 
-## L’interface
+## L’interface de votre mineur
 
 Vous devrez vous connecter à votre ASIC de façon similaire. En utilisant l’adresse IP locale de votre appareil sur votre réseau à travers un navigateur.
 
@@ -435,7 +454,7 @@ Sur cette première pages vous pourrez observer les performances de votre machin
 
 ![image](assets/softwear/18.jpeg)
 
-Configuration d’une pool
+## Configuration d’une pool
 
 On peut imaginer une pool de minage comme une coopérative agricole. Les agriculteurs mettent en commun leur production pour réduire la variance de l’offre et de la demande et ainsi obtenir des revenus plus stables pour leur exploitation. Une pool de minage fonctionne de la même manière et la matière première mise en commun sont des hash. En effet, la découverte d’un seul hash valide permet la création d’un bloc et ainsi de remporter la coinbase ou la récompense aujourd’hui de 6,25 BTC plus les frais des transactions inclus dans le bloc. Si vous minez seul, vous ne serez récompensé que lorsque vous trouverez un bloc. Étant en compétition contre tous les autres mineurs de la planète, vous auriez donc très peu de chances de remporter ce grand loto et vous devriez malgré tout payer les frais associés à l’utilisation de votre mineur sans aucune garantie de réussite. Les pools de minage viennent répondre à cette problématique en mutualisant la puissance de calcul de plusieurs (milliers) de mineurs et en partageant la récompense de ces derniers en fonction du pourcentage de participation au hashrate de la pool lorsqu’un bloc a été trouvé. Pour visualiser vos chance de miner un block de miner un block seul vous pouvez utiliser cet outil. En rentrant les informations d’un Antminer S9 on voit que les chances de trouver un hash permettant la création d’un block sont de 1/24 777 849 chaque bloc ou de 1/ 172 068 par jour. Il faudrait en moyenne (avec un hashrate et une difficulté constante) 471 ans pour trouver un bloc.
 
@@ -465,7 +484,7 @@ Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rent
 
 ![image](assets/softwear/21.jpeg)
 
-### Overclocking et Underclocking
+## Overclocking et Underclocking
 
 L’overclocking et l’autotuning consiste tous les deux à ajuster les fréquences sur les cartes de hachage pour améliorer les performances de l’ASIC. La différence entre les deux réside dans la complexité de ces réglages de fréquence.
 
@@ -475,7 +494,7 @@ Il est important de noter que l’underclocking peut entraîner une réduction d
 
 Braiins OS+ prend en charge l’overclocking, l’underclocking des ASICs et l’autotuning. Il permet aux utilisateurs de régler la fréquence d’horloge de leur matériel de manière flexible pour maximiser les performances ou économiser de l’énergie selon leurs préférences.
 
-### Autotuning
+## Autotuning
 
 Avant 2018, les mineurs avaient deux moyens de gagner un avantage dans leur activité : trouver de l’électricité à un coût raisonnable et acheter du matériel plus efficace. Cependant, en 2018, une nouvelle avancée a été découverte dans le domaine des logiciels et des micrologiciels miniers, appelée AsicBoost. Cette technique permet aux mineurs de réduire leurs coûts d’environ 13% en modifiant le micrologiciel exécuté sur leurs appareils.
 
@@ -484,3 +503,8 @@ Aujourd’hui, il existe une nouvelle avancée dans le secteur des logiciels et 
 Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. L’autoréglage est un processus dans lequel des algorithmes évaluent les fréquences optimales pour le hachage puce par puce, au lieu de traiter l’ensemble de la machine comme une seule unité. Cela signifie qu’une puce de meilleure qualité qui peut effectuer plus de hachages par seconde obtiendra une fréquence plus élevée, et une puce de qualité inférieure qui peut effectuer relativement moins obtiendra une fréquence plus faible. Le réglage automatique par puce est essentiellement un moyen d’optimiser les performances d’un ASIC via le logiciel et le micrologiciel qui y sont exécutés.
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
+
+
+# conclusion 
+
+## Interview de Gouspillou

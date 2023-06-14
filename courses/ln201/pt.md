@@ -548,7 +548,9 @@ O mais complicado no LN é manter a liquidez.
 
 Em conclusão, a gestão de liquidez na rede Lightning Network é um desafio chave, que depende do tipo de usuário: comprador, comerciante ou nó de roteamento. Compradores, que precisam de liquidez de saída, têm a tarefa mais simples: eles simplesmente abrem canais. Comerciantes, que precisam de liquidez de entrada, devem estar conectados a outros nós e atores. Os nós de roteamento, por sua vez, buscam manter um equilíbrio de liquidez em ambos os lados. Existem várias soluções para gerenciar a liquidez, como a compra de canais ou o pagamento para aumentar a capacidade de recebimento. A opção "Loop Out", permitindo uma troca atômica entre LN e BTC, oferece uma solução interessante para reequilibrar a liquidez. Apesar dessas estratégias, manter a liquidez na rede Lightning Network continua sendo um desafio complexo.
 
-# Resumo da formação
+# Vá além
+
+## Resumo da formação
 
 ![conclusão](https://youtu.be/MaWpD0rbkVo)
 
@@ -576,7 +578,7 @@ Há uma componente de probabilidade ao enviar um pagamento via Lightning Network
 
 Para receber pagamentos, é necessário gerenciar a liquidez nos canais, o que pode ser feito pedindo a outras pessoas para abrir canais conosco, abrindo canais nós mesmos e usando ferramentas como Loop ou comprando/alugando canais em marketplaces.
 
-# Entrevista com Fanis
+## Entrevista com Fanis
 
 ![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
 
@@ -604,7 +606,7 @@ Para os comerciantes, é necessário gerenciar a liquidez para aceitar pagamento
 
 Por fim, o futuro do Bitcoin é promissor, com uma possível projeção de um milhão em cinco anos. Para garantir a profissionalização da indústria e a criação de um sistema alternativo ao sistema bancário existente, é importante contribuir para a rede e parar de confiar.
 
-# Agradecimentos e continue a cavar a toca do coelho
+## Agradecimentos e continue a cavar a toca do coelho
 
 Parabéns! 🎉
 Você concluiu o treinamento LN 201 - Introdução à Lightning Network!

@@ -32,7 +32,7 @@ Esamineremo anche il ruolo dei minatori, che sono essenziali per la creazione di
 
 Prima di affrontare la definizione e il funzionamento della moneta in una società, iniziamo con la genesi di Bitcoin. Poi, esploreremo il ruolo di Bitcoin come valuta e come può trasformare la nostra percezione delle transazioni finanziarie.
 
-# La preistoria di Bitcoin
+## La preistoria di Bitcoin
 
 ![La preistoria di Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.png)
 

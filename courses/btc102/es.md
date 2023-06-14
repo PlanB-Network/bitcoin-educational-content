@@ -2,11 +2,11 @@
 name: BTC 102 - Obtener tus primeros bitcoins
 goal: Obtener tus primeros bitcoins y almacenarlos de manera segura en una billetera Bitcoin con una frase mnemónica y un plan de herencia.
 objectives:
-  - Actualiza tu seguridad en línea y desarrolla un plan de acción para una actualización efectiva.
-  - Comprende los conceptos clave relacionados con Bitcoin; su importancia, su revolución tecnológica y los principales actores involucrados.
-  - Establece tu primera billetera adaptada a tus necesidades y recursos, teniendo en cuenta la gestión de tu clave privada (esto es importante) y las mejores prácticas de la industria.
-  - Aprende dónde y cómo obtener tus primeros bitcoins, evitando errores costosos, gracias a la asistencia para la configuración.
-  - Planifica la transmisión de tus bitcoins en caso de accidente para garantizar que tus seres queridos puedan recuperarlos.
+  - Actualice su seguridad en línea
+  - Entienda los conceptos clave relacionados con Bitcoin
+  - Establezca su primera cartera de acuerdo con sus necesidades y recursos
+  - Aprenda dónde y cómo obtener sus primeros bitcoins
+  - Implementación de un plan de herencia
 ---
 
 # Un viaje hacia tus primeros bitcoins
@@ -14,6 +14,7 @@ objectives:
 La industria que rodea a Bitcoin está en pleno auge.
 
 Los cambios tecnológicos y financieros de este nuevo mundo solo están acelerando, así que es hora de aprovecharlos y comenzar a caer en la madriguera del Bitcoin. Esta aventura será rica en conocimiento y te hará cuestionar muchas de tus convicciones. Te devolverá la libertad y te permitirá recuperar la privacidad, la soberanía y la independencia financiera.
+
 Para ayudarte a comenzar esta aventura, he creado este curso gratuito. Solo Bitcoin, sin tonterías, sin otras criptomonedas, un curso directo sin rodeos. Este curso ha sido diseñado para adaptarse a ti y dejarte libre de elegir el camino que más te convenga.
 
 +++
@@ -282,6 +283,8 @@ La regla de oro de Bitcoin n°1: Si no tienes tu clave, no tienes tus Bitcoins. 
 
 # Comprender en qué nos estamos metiendo
 
+## Bitcoin en 5 minutos
+
 En esta formación, queremos centrarnos en el plan de acción para obtener tus primeros bitcoins. Si deseas una explicación detallada de los fundamentos de Bitcoin, te recomendamos BTC 101, disponible de forma gratuita en esta plataforma.
 
 Bitcoin es un protocolo informático que permite enviar valor en todo el mundo sin intermediarios de confianza. Este valor está representado por una moneda llamada bitcoin.
@@ -308,6 +311,8 @@ Por lo tanto, Bitcoin es un "0 a 1" que viene a cambiar nuestras normas y hábit
 Si esto es nuevo para ti, te animo encarecidamente a seguir BTC 101 antes de seguir exponiéndote a una tecnología cuyo papel y razón de ser quizás no entiendas bien.
 
 ![en pocas palabras](assets/section2/10.JPG)
+
+## ¿Por qué es importante Bitcoin?
 
 ![¿Por qué es tan importante Bitcoin?](https://youtu.be/Iq0wZF3Ui9A)
 
@@ -953,7 +958,7 @@ _Planificación de herencia de criptoactivos, una guía simple para propietarios
 
 # Agradecimientos y sigue cavando en la madriguera del conejo
 
-¡Felicitaciones! ESTÁS EN EL TOP 0,1%
+## ¡Felicitaciones! ESTÁS EN EL TOP 0,1%
 
 Si ha estado siguiendo nuestro contenido desde el principio, ahora es un verdadero ciudadano del siglo XXI y uno de los más experimentados en el campo de Bitcoin. Utiliza un administrador de contraseñas y autenticación de dos factores (2FA). Comprende qué es Bitcoin y por qué es importante. Tiene Bitcoins y una forma segura de comprar o ganar más. Ha almacenado sus Bitcoins en una billetera "fría" y ha establecido una gestión adecuada de claves. Ha creado un plan de herencia para sus seres queridos. ¡Ahora está seguro y puede relajarse! Disfrute de una cerveza y siéntase orgulloso de sí mismo.
 

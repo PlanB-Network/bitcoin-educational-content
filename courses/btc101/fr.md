@@ -32,7 +32,7 @@ Il faut se rappeler que Bitcoin est une technologie relativement nouvelle, et il
 
 Avant d'aborder la définition et le fonctionnement de la monnaie dans une société, nous démarrons avec la génèse de Bitcoin. Puis, nous explorerons le rôle de Bitcoin en tant que monnaie et comment il peut transformer notre perception des transactions financières.
 
-# La préhistoire du Bitcoin
+## La préhistoire du Bitcoin
 
 ![La préhistoire du Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.png)
 

@@ -5,6 +5,7 @@ objectives:
   - Démystifier la terminologie de la cryptographie liée aux Bitcoin.
   - Maîtriser la création d'un portefeuille Bitcoin.
   - Comprendre la structure d'un portefeuille Bitcoin.
+  - Comprendre les adresses et chemin de dérivation
 ---
 
 # Un voyage au cœur de la cryptographie
@@ -49,13 +50,20 @@ Embarquez avec moi pour ce voyage captivant, et préparez-vous à explorer l'uni
 
 Bienvenue à notre session d'aujourd'hui consacrée à une immersion approfondie dans le monde cryptographique des fonctions de hachage, une pierre angulaire essentielle à la sécurité du protocole Bitcoin. Imaginez une fonction de hachage comme un robot déchiffreur cryptographique ultra-efficace qui transforme des informations de toutes tailles en une empreinte digitale unique et de taille fixe, appelée "hash". Au fil de notre exploration, nous dépeindrons le portrait des fonctions de hachage cryptographiques, en mettant en lumière leur utilisation dans le protocole Bitcoin, et en définissant les objectifs spécifiques que ces fonctions cryptographiques doivent atteindre.
 
+![image](assets\image\section1\0.JPG)
+
 Dépeindre le profil des fonctions de hachage cryptographiques nécessite de comprendre deux qualités essentielles : leur irréversibilité et leur résistance à la falsification. Chaque fonction de hachage cryptographique est comme un artiste unique, produisant un "hash" distinct pour chaque entrée. Même un pinceau qui dévie légèrement altère considérablement le tableau final, c'est-à-dire le hash. Ces fonctions agissent comme des sentinelles numériques, vérifiant l'intégrité des logiciels téléchargés. Une autre caractéristique cruciale qu'elles possèdent est leur résistance aux collisions. Certes, dans l'univers du hachage, les collisions sont inévitables, mais une excellente fonction de hachage cryptographique les minimise considérablement. C'est comme si chaque hash était une maison dans une ville immense ; malgré le nombre énorme de maisons, une bonne fonction de hachage veille à ce que chaque maison ait une adresse unique.
 
+![image](assets\image\section1\1.JPG)
+
 Naviguons maintenant sur les flots tumultueux des fonctions de hachage désuètes. SHA0, SHA1, et MD5 sont aujourd'hui considérées comme des coques rouillées dans l'océan du hachage cryptographique. Elles sont souvent déconseillées car elles ont perdu leur résistance aux collisions. Le principe des tiroirs explique pourquoi, malgré nos meilleurs efforts, l'évitement des collisions est impossible en raison de la limitation de la taille de sortie. Il est également important de noter que la résistance à la seconde préimage est dépendante de la résistance aux collisions. Pour être véritablement considérée comme sûre, une fonction de hachage doit résister aux collisions, à la seconde préimage et à la préimage.
+
 
 Élément clé dans le protocole Bitcoin, la fonction de hachage SHA-256 est le capitaine du navire. D'autres fonctions, comme SHA-512, sont utilisées pour la dérivation avec HMAC et PBKDF. De plus, RIPMD160 est utilisée pour réduire une empreinte à 160 bits. Lorsque nous parlons de HASH256 et HASH160, nous nous référons à l'utilisation d'un double hachage avec SHA-256 et RIPMD. L'utilisation de HASH160 est particulièrement avantageuse car elle permet de bénéficier de la sécurité de SHA-256 tout en réduisant la taille de l'empreinte.
 
 Pour résumer, l'objectif ultime d'une fonction de hachage cryptographique est de transmuter une information de taille arbitraire en une empreinte de taille fixe. Pour être reconnue comme sécurisée, elle doit avoir plusieurs cordes à son arc : irréversibilité, résistance à la falsification, résistance aux collisions, et résistance à la seconde préimage.
+
+![image](assets\image\section1\2.JPG)
 
 Au terme de cette exploration, nous avons démystifié les fonctions de hachage cryptographiques, mis en évidence leur utilisation dans le protocole Bitcoin, et décortiqué leurs objectifs spécifiques. Nous avons appris que pour être considérées comme sûres, les fonctions de hachage doivent être résistantes à la préimage, à la seconde préimage, aux collisions et à la falsification. Nous avons également parcouru l'éventail des différentes fonctions de hachage utilisées dans le protocole Bitcoin. Dans notre prochaine session, nous plongerons dans le coeur de la fonction de hachage SHA256, et découvrirons les mathématiques fascinantes qui lui confèrent ses caractéristiques uniques.
 
@@ -65,17 +73,34 @@ Au terme de cette exploration, nous avons démystifié les fonctions de hachage 
 
 Bienvenue à la suite de notre voyage fascinant à travers les labyrinthes cryptographiques de la fonction de hachage. Aujourd'hui, nous dévoilons le voile sur les mystères de SHA256, un processus complexe mais ingénieux, que nous avons introduit lors de notre précédente discussion sur les fonctions de hachage. Faisons un pas de plus dans ce labyrinthe, en débutant par le pré-traitement de SHA256. Imaginez le pré-traitement comme la préparation d'un plat savoureux, où nous ajoutons des "bits de remplissage" pour que la taille de notre ingrédient principal, l'entrée, atteigne un multiple parfait de 512 bits. Tout ceci dans le but ultime de générer un hash succulent de 256 bits à partir d'un ingrédient de taille variée.
 
+![image](assets\image\section1\3.JPG)
+![image](assets\image\section1\4.JPG)
+
 Dans cette recette cryptographique, nous jouons avec les bits, ayant une taille de message initial que nous appellerons M. Un bit est réservé pour le séparateur, tandis que P bits sont utilisés pour le rembourrage. En outre, nous mettons de côté 64 bits pour la deuxième phase de pré-traitement. Le total doit être un multiple de 512 bits. Un peu comme s'assurer que tous les ingrédients s'harmonisent parfaitement dans notre plat.
+
+![image](assets\image\section1\5.JPG)
 
 Nous passons maintenant à la deuxième phase du prétraitement, qui implique l'ajout de la représentation binaire de la taille du message initial, en bits. Pour cela, nous utilisons nos 64 bits réservés lors de l'étape précédente. Nous ajoutons des zéros pour arrondir nos 64 bits à notre entrée équilibrée. Ensuite, nous fusionnons le message initial, le remplissage des bits et le remplissage de la taille, comme des ingrédients dans un mixeur, pour obtenir notre entrée équilibrée.
 
+![image](assets\image\section1\6.JPG)
+
 À présent, nous nous préparons pour les premières étapes du traitement de la fonction SHA-256. Comme dans toute bonne recette, nous avons besoin de certains ingrédients de base, que nous appelons constantes et vecteurs d'initialisation. Les vecteurs d'initialisation, de A à H, sont les premiers 32 bits des parties décimales des racines carrées des 8 premiers nombres premiers. Les constantes K, de 0 à 63, représentent quant à elles les 32 premiers bits des parties décimales des racines cubiques des 64 premiers nombres premiers.
+
+![image](assets\image\section1\7.JPG)
 
 Au sein de la fonction de compression, nous utilisons des opérateurs spécifiques tels que XOR, AND et NOT. Nous traitons les bits un par un selon leur rang, en utilisant l'opérateur XOR et une table de vérité. L'opérateur AND est utilisé pour retourner 1 seulement si les deux opérandes sont égales à 1, et l'opérateur NOT pour renvoyer la valeur opposée d'une opérande. Nous utilisons également l'opération SHR pour décaler les bits vers la droite selon un nombre choisi.
 
-Enfin, après avoir séparé l'entrée équilibrée en différents blocs de messages de 512 bits, nous effectuons 64 tours de calcul dans la fonction de compression. Comme dans une course cycliste, chaque tour de piste améliore notre
+![image](assets\image\section1\8.JPG)
+![image](assets\image\section1\9.JPG)
 
-position. Nous additionnons modulo 2^32 l'état intermédiaire à l'état initial de la fonction de compression. Les additions dans la fonction de compression sont des additions modulo 2^32 pour contenir la taille des sommes à 32 bits.
+Enfin, après avoir séparé l'entrée équilibrée en différents blocs de messages de 512 bits, nous effectuons 64 tours de calcul dans la fonction de compression. Comme dans une course cycliste, chaque tour de piste améliore notre position. Nous additionnons modulo 2^32 l'état intermédiaire à l'état initial de la fonction de compression. Les additions dans la fonction de compression sont des additions modulo 2^32 pour contenir la taille des sommes à 32 bits.
+
+
+![image](assets\image\section1\10.JPG)
+![image](assets\image\section1\11.JPG)
+![image](assets\image\section1\12.JPG)
+![image](assets\image\section1\13.JPG)
+
 
 Pour conclure, nous voudrions souligner le rôle crucial des calculs effectués dans les boîtes CH, MAJ, σ0 et σ1. Ces opérations, parmi d'autres, sont les gardiens qui assurent la robustesse de la fonction de hachage SHA256 face aux attaques, faisant de celle-ci un choix privilégié pour la sécurisation de nombreux systèmes numériques, notamment au sein du protocole Bitcoin. Il est donc évident que bien que complexe, la beauté de SHA256 réside dans sa robustesse à retrouver l'entrée à partir du hash, alors que la vérification du hash pour une entrée donnée est une action mécaniquement simple.
 
@@ -87,14 +112,20 @@ Les algorithmes de dérivation HMAC et PBKDF2 sont des composants clés dans la 
 
 HMAC et PBKDF2 sont des outils cryptographiques utilisés pour différentes tâches dans Bitcoin. HMAC est principalement utilisé pour contrer les attaques par extension de longueur lors de la dérivation des portefeuilles hiérarchiquement déterministes (HD), tandis que PBKDF2 est utilisé pour convertir une phrase mémonique en graine.
 
+![image](assets\image\section1\14.JPG)
+
 HMAC, qui prend un message et une clé comme entrées, génère une sortie de taille fixe. Pour assurer l'uniformité, la clé est ajustée en fonction de la taille des blocs utilisés dans la fonction de hachage. Dans le cadre de la dérivation des portefeuilles HD, HMAC-SHA-512 est utilisé. Ce dernier fonctionne avec des blocs de 1024 bits (128 octets) et ajuste la clé en conséquence. Il utilise les constantes OPAD (0x5c) et IPAD (0x36), répétées autant de fois que nécessaire pour renforcer la sécurité.
 
 Le processus de HMAC-SHA-512 implique la concaténation du résultat de SHA-512 appliqué à la clé XOR OPAD et à la clé XOR IPAD avec le message. Lorsqu'il est utilisé avec des blocs de 1024 bits (128 octets), la clé d'entrée est complétée par des zéros si nécessaire, puis XORée avec IPAD et OPAD. La clé ainsi modifiée est ensuite concaténée avec le message.
+
+![image](assets\image\section1\15.JPG)
 
 Le code de chaîne, en intégrant une source supplémentaire d'entropie, augmente la sécurité des clés dérivées. Sans lui, une attaque pourrait compromettre l'ensemble du portefeuille et voler tous les bitcoins.
 
 PBKDF2 est utilisé pour convertir une phrase mémonique en graine. Cet algorithme réalise 2048 tours en utilisant HMAC SHA512. Grâce à ces algorithmes de dérivation, deux entrées différentes peuvent donner une sortie unique et fixe, ce qui pallie le problème des attaques par extension de longueur possibles sur les fonctions de la famille SHA-2.
 Une attaque par extension de longueur exploite une propriété spécifique de certaines fonctions de hachage cryptographiques. Dans une telle attaque, un attaquant qui possède déjà le hachage d'un message inconnu peut l'utiliser pour calculer le hachage d'un message plus long, qui est une extension du message original. Cela est souvent possible sans connaître le contenu du message original, ce qui peut mener à des failles de sécurité importantes si ce genre de fonction de hachage est utilisé pour des tâches comme la vérification d'intégrité.
+
+![image](assets\image\section1\16.JPG)
 
 En conclusion, les algorithmes HMAC et PBKDF2 jouent des rôles essentiels dans la sécurité de la dérivation des portefeuilles HD dans le protocole Bitcoin. L'HMAC-SHA-512 est utilisé pour se prémunir contre les attaques par extension de longueur, tandis que PBKDF2 permet la conversion de la phrase mémonique en graine. Le code de chaîne ajoute une source d'entropie supplémentaire dans la dérivation des clés, assurant ainsi la robustesse du système.
 
@@ -106,9 +137,14 @@ En conclusion, les algorithmes HMAC et PBKDF2 jouent des rôles essentiels dans 
 
 Dans le monde des cryptomonnaies, la sécurité des transactions est primordiale. Au cœur du protocole Bitcoin, on retrouve l'utilisation de signatures numériques qui servent de preuves mathématiques démontrant la possession d'une clé privée associée à une clé publique spécifique. Cette technique de protection des données est essentiellement basée sur un domaine fascinant de la cryptographie appelé la cryptographie à courbes elliptiques (ECC).
 
+![image](assets\image\section2\0.JPG)
+
 La cryptographie à courbes elliptiques est la colonne vertébrale de la sécurité des transactions Bitcoin. Ces courbes elliptiques, qui ne sont pas sans rappeler les courbes mathématiques que l'on a pu étudier à l'école, sont utiles dans une variété d'applications cryptographiques, allant des échanges de clés au chiffrement asymétrique en passant par la création de signatures numériques. Un détail intéressant qui distingue les courbes elliptiques est leur symétrie : toute ligne non verticale coupant deux points de la courbe intersectera un troisième point.
 
 Maintenant, creusons un peu plus : le protocole Bitcoin utilise une courbe elliptique particulière dénommée SecP256K1 pour effectuer ses opérations cryptographiques. Cette courbe, définie sur un ensemble fini d'entiers positifs modulo un nombre premier de 256 bits, peut être visualisée comme un nuage de points plutôt qu'une courbe traditionnelle. C'est cette conception unique qui permet à Bitcoin de sécuriser efficacement ses transactions.
+
+![image](assets\image\section2\1.JPG)
+
 
 Quant au choix de la courbe secp256k1 pour Bitcoin, il est intéressant de noter qu'elle a été privilégiée à la courbe secp256r1. Cette courbe se définit par les paramètres a=0 et b=7, et son équation est y² = x³ + 7 modulo n, avec n représentant le nombre premier qui détermine l'ordre de la courbe.
 
@@ -119,6 +155,9 @@ Lorsque l'on parle des constantes utilisées dans le système Bitcoin, on fait g
 - point générateur (G): Le point de base, ou générateur, est le point sur la courbe à partir duquel toutes les autres clés publiques sont générées. Il a des coordonnées x et y spécifiques, généralement représentées en hexadécimal. Pour secp256k1, les coordonnées G sont, en hexadécimale :
   - `Gx = 79BE667E F9DCBBAC 55A06295 CE870B07 029BFCDB 2DCE28D9 59F2815B 16F81798`
   - `Gy = 483ADA77 26A3C465 5DA4FBFC 0E1108A8 FD17B448 A6855419 9C47D08F FB10D4B8`
+
+![image](assets\image\section2\2.JPG)
+
 
 Notez que toutes les valeurs hexadécimales sont généralement représentées en base 16, tandis que les valeurs décimales sont en base 10. De plus, toutes les opérations sur ces constantes sont effectuées modulo p pour les coordonnées de points sur la courbe et modulo n pour les opérations de clé et de signature.
 
@@ -140,23 +179,42 @@ Dans la prochaine section de ce cours, nous examinerons de plus près la clé pu
 
 Dans la suite de ce cours, nous allons nous pencher sur les mécanismes des clés publiques et privées, deux éléments cruciaux du protocole Bitcoin. Ces clés sont intrinsèquement liées par l'algorithme Elliptic Curve Digital Signature Algorithm (ECDSA). Les comprendre nous donnera un aperçu profond de la manière dont Bitcoin sécurise les transactions sur sa plateforme.
 
+![image](assets\image\section2\3.JPG)
+![image](assets\image\section2\4.JPG)
+
 Pour commencer, plongeons dans l'univers de l'algorithme ECDSA. Bitcoin exploite cet algorithme de signature numérique pour lier les clés privées et publiques. Dans ce système, la clé privée est un nombre aléatoire ou pseudo-aléatoire de 256 bits. Le nombre total de possibilités pour une clé privée est théoriquement de 2^256, mais il est légèrement inférieur à cela dans la réalité. Pour être précis, certaines clés privées de 256 bits ne sont pas valides pour Bitcoin.
 
+![image](assets\image\section2\5.JPG)
+
+
 Pour être compatible avec Bitcoin, une clé privée doit être comprise entre 1 et n-1, où n représente l'ordre de la courbe elliptique. Cela signifie que le nombre total de possibilités pour une clé privée Bitcoin est presque égal à 1,158 x 10^77. Pour mettre cela en perspective, c'est à peu près le même nombre d'atomes présents dans l'univers observable. La clé privée unique est ensuite utilisée pour déterminer une clé publique de 512 bits.
+
+![image](assets\image\section2\6.JPG)
+
 
 La clé publique, notée K, est un point sur la courbe elliptique qui est dérivé de la clé privée en utilisant des opérations de points sur la courbe. Il est important de noter que la fonction ECDSA est irréversible, c'est-à-dire qu'il est impossible de retrouver la clé privée à partir de la clé publique. Cette irréversibilité est la pierre angulaire de la sécurité du portefeuille Bitcoin.
 
 La clé publique se compose de deux points de 256 bits chacun, totalisant 512 bits. Cependant, elle peut être compressée en un nombre de 264 bits. Le point G est le point de départ pour calculer toutes les clés publiques des utilisateurs du système.
 
+![image](assets\image\section2\7.JPG)
+
+
 L'une des propriétés remarquables des courbes elliptiques est qu'une droite intersectant la courbe en deux points intersectera également un troisième point, appelé point O. Cette propriété est utilisée pour déterminer le point U, qui est l'opposé du point O. L'addition d'un point à lui-même se fait en traçant une tangente à la courbe au niveau de ce point, ce qui donne un nouveau point unique appelé j. Le produit scalaire d'un point par n revient à ajouter ce point à lui-même n fois.
 
+![image](assets\image\section2\8.JPG)
+
 Ces opérations sur les points d'une courbe elliptique sont la base du calcul des clés publiques. Connaissant la clé privée, il est facile de calculer la clé publique. Cependant, connaître la clé publique ne permet pas de calculer la clé privée, garantissant ainsi la sécurité du système Bitcoin. En effet, la sécurité des clés publiques et privées repose sur le problème du logarithme discret, une question mathématique complexe.
+
+
+![image](assets\image\section2\9.JPG)
 
 Dans notre prochain cours, nous explorerons comment une signature numérique est réalisée en utilisant l'algorithme ECDSA avec une clé privée pour débloquer des bitcoins. Restez à l'écoute pour cette exploration passionnante du monde des cryptomonnaies et de la cryptographie.
 
 ## Signer avec la clé privée
 
 ![Signer avec la clé privée](https://youtu.be/h2hIyGgPqkM)
+
+
 
 Le processus de signature numérique est une méthode clé pour prouver que vous êtes le détenteur d'une clé privée sans avoir à la révéler. Ceci est réalisé en utilisant l'algorithme ECDSA, qui comprend la détermination d'un nonce unique, le calcul d'un nombre spécifique, V, et la création d'une signature numérique composée de deux parties, S1 et S2. Il est crucial de toujours utiliser un nonce unique pour éviter les attaques de sécurité. Un exemple notoire de ce qui peut se produire lorsque cette règle n'est pas respectée est le cas du piratage de la PlayStation 3, qui a été compromis en raison de la réutilisation du nonce.
 
@@ -171,6 +229,10 @@ De manière précise, pour valider une signature numérique à l'aide de l'algor
 7. Calculez I = x-coordinate of P mod n.
 8. La signature est valide si I est égal à S1.
 
+![image](assets\image\section2\10.JPG)
+![image](assets\image\section2\11.JPG)
+
+
 Il est important de noter que chaque logiciel peut utiliser différentes notations et certaines étapes peuvent être combinées ou réarrangées, mais la logique de base est la même. Notez également que toutes les opérations arithmétiques sont effectuées dans le corps fini défini par la courbe elliptique (mod n, où n est l'ordre de la courbe). Pour rappel, la courbe secp256k1 (utilisée dans Bitcoin) n = 2^256 - 432420386565659656852420866394968145599.
 
 En ce qui concerne la génération de clés publiques et privées, il est essentiel de se familiariser avec la courbe elliptique et le point générateur. Pour obtenir une clé publique, un nombre aléatoire doit être choisi comme clé privée, souvent appelé `nonce`, et utilisé dans l'équation de la courbe elliptique.
@@ -178,6 +240,8 @@ En ce qui concerne la génération de clés publiques et privées, il est essent
 La courbe elliptique est un outil puissant pour générer des clés publiques et privées sécurisées. Par exemple, pour obtenir la clé publique 3G, vous dessinez une tangente au point G, calculez l'opposé de -G pour obtenir 2G, puis additionnez G et 2G. Pour réaliser une transaction, vous devez prouver que vous connaissez le nombre 3 en débloquant les bitcoins associés à la clé publique 3G.
 
 Pour créer une signature numérique et prouver que vous connaissez la clé privée associée à la clé publique 3G, vous calculez d'abord un nonce, puis le point V associé à ce nonce (dans l'exemple donné, c'est 4G). Ensuite, vous calculez le point T en additionnant la clé publique 3G et le point V, ce qui donne 7G.
+
+![image](assets\image\section2\12.JPG)
 
 La vérification d'une signature numérique est une étape cruciale dans l'utilisation de l'algorithme ECDSA, qui permet de confirmer l'authenticité d'un message signé sans avoir besoin de la clé privée de l'expéditeur. Voici comment cela se déroule en détail :
 
@@ -214,7 +278,12 @@ Pour répondre à ces questions et approfondir votre compréhension de la sécur
 
 Le Portefeuille Déterministe Hiérarchique, ou plus couramment appelé portefeuille HD, joue un rôle prépondérant dans l'écosystème des cryptomonnaies. Le terme "portefeuille" peut sembler trompeur pour ceux qui sont novices dans ce domaine, car il n'implique pas la détention d'argent ou de devises. Il fait plutôt référence à une collection de clés cryptographiques privées dérivées d'une seule clé mère, grâce à un ingénieux procédé d'arithmétique algorithmique. Ces clés privées, qui sont d'une longueur fixe de 256 bits, sont l'essence même de la possession de crypto-monnaies, et sont parfois désignées sous le nom un peu plus brut de "Just a Bunch Of Keys" (JBOC).
 
+![image](assets\image\section3\0.JPG)
+
 Cependant, la complexité de la gestion de ces clés est compensée par un ensemble de protocoles, appelés Bitcoin Improvement Proposals (BIP). Ces propositions de mise à niveau sont au cœur de la fonctionnalité et de la sécurité des portefeuilles HD. Par exemple, le [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), lancé en 2012, a révolutionné la manière dont ces clés sont générées et stockées, en introduisant le concept de clés dérivées de manière déterministe et hiérarchique. Ainsi, le processus de sauvegarde de ces clés est grandement simplifié, tout en conservant leur niveau de sécurité.
+
+![image](assets\image\section3\1.JPG)
+
 
 Par la suite, le [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) a introduit une innovation marquante : la phrase mnémonique de 24 mots. Ce système a permis de transformer une suite de chiffres complexe et difficile à retenir en une série de mots ordinaires, bien plus facile à mémoriser et à stocker. En outre, le [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) a proposé d'ajouter une phrase de passe supplémentaire pour renforcer la sécurité des clés individuelles. Ces améliorations successives ont abouti aux normes BIP43 et BIP44, qui ont standardisé la structure et la hiérarchisation des portefeuilles HD, rendant ces portefeuilles plus accessibles et plus faciles à utiliser pour le grand public.
 
@@ -230,15 +299,21 @@ J'espère que cette introduction vous a permis de mieux comprendre les fondement
 
 L'importance de la sécurité des clés privées dans l'écosystème du Bitcoin est incontestable. Elles sont en effet la pierre angulaire qui assure la sécurité des transactions Bitcoin. Pour éviter toute vulnérabilité associée à la prédictibilité, ces clés doivent être générées de manière véritablement aléatoire, ce qui peut rapidement se révéler être un exercice laborieux pour l'utilisateur. Une solution à cette énigme est le Portefeuille Déterministe Hiérarchique, ou portefeuille HD. Cette méthode permet de générer de manière déterministe et hiérarchique des paires de clés enfant à partir d'une unique information à la base du portefeuille. C'est ici que l'aléatoire se révèle indispensable pour garantir la sécurité des clés dérivées.
 
+![image](assets\image\section3\2.JPG)
+
 La génération de nombres aléatoires est en effet un élément crucial en cryptographie, pour assurer l'intégrité des clés privées. Pour prévenir toute vulnérabilité liée à la prédictibilité, une clé privée doit être produite de manière aléatoire. L'usage d'une nouvelle paire de clés pour chaque transaction permet de renforcer davantage la sécurité, bien que cela complexifie leur sauvegarde et ne préserve la confidentialité que partiellement. En résumé, la sécurité des clés privées est une priorité absolue, nécessitant une génération rigoureuse et aléatoire. Les portefeuilles HD offrent une solution pour faciliter la génération et la gestion des clés tout en conservant un niveau de sécurité élevé.
 
 Cependant, la génération de nombres aléatoires sur les ordinateurs pose un défi de taille, puisque les résultats obtenus ne sont pas véritablement aléatoires. C'est pourquoi il est essentiel d'utiliser un Générateur de Nombres Aléatoires (RNG). Les types de RNG varient, allant des Pseudo-Random Number Generators (PRNG) aux True Random Number Generators (TRNG), ainsi qu'aux PRNG qui intègrent une source d'entropie.
+
+![image](assets\image\section3\3.JPG)
 
 Dans le cas du Bitcoin, les clés privées sont générées à partir d'une seule information à la base du portefeuille. Cette information permet une dérivation déterministe et hiérarchique des paires de clés enfant. L'entropie est le socle de tout portefeuille HD, bien qu'il n'existe pas de standard pour la génération de ce nombre aléatoire. Par conséquent, la génération de nombres aléatoires est un enjeu majeur pour sécuriser les transactions Bitcoin.
 
 La phase de vérification de la génération des clés est cruciale pour assurer la sécurité et l'authenticité de la génération de nombres aléatoires, une étape fondamentale pour prévenir toute vulnérabilité associée à la prédictibilité. Il est donc fortement recommandé d'utiliser des portefeuilles open source pour permettre cette vérification.
 
 Cependant, il est important de noter que certains portefeuilles matériels peuvent être "closed source", rendant impossible la vérification de la génération du nombre aléatoire. Un contournement possible serait de générer soi-même sa phrase mnémonique à l'aide de dés, bien que cette approche puisse présenter certains risques.
+
+![image](assets\image\section3\4.JPG)
 
 L'utilisation d'une passphrase générée aléatoirement peut aider à atténuer ces risques.
 
@@ -260,13 +335,20 @@ Un système de notation pour la formation sera bientôt intégré à cette nouve
 
 La sécurité d'un portefeuille Bitcoin est une préoccupation majeure pour tous ses utilisateurs. Une manière essentielle d'assurer la sauvegarde du portefeuille consiste à générer une phrase mémonique basée sur l'entropie et la checksum.
 
+![image](assets\image\section3\5.JPG)
+
+
 L'entropie est le pilier de la sécurité du portefeuille HD. Plusieurs méthodes existent pour générer cette entropie, notamment par le biais de générateurs de nombres pseudo-aléatoires (PRNG), de générateurs de nombres aléatoires véritables (TRNG) ou manuellement. Il est crucial que cette entropie soit aléatoire ou pseudo-aléatoire pour garantir la sécurité du portefeuille.
+
+![image](assets\image\section3\6.JPG)
 
 De son côté, la checksum assure la vérification de l'exactitude de la phrase de récupération. Sans cette checksum, une erreur dans la phrase pourrait aboutir à la création d'un portefeuille différent et donc à la perte des fonds. On obtient la checksum en passant l'entropie par la fonction SHA256 et en récupérant les 8 premiers bits du hachage.
 
 Différents standards existent pour la phrase mémonique en fonction de la taille de l'entropie. Le standard le plus couramment utilisé pour une phrase de récupération de 24 mots est une entropie de 256 bits. La taille de la checksum est déterminée en divisant la taille de l'entropie par 32.
 
 Par exemple, une entropie de 256 bits génère une checksum de 8 bits. La concaténation de l'entropie et de la checksum conduit alors à des tailles respectives de 128 bits, 160 bits, etc. En fonction de la taille de l'entropie, la phrase de récupération comportera 12 mots pour 128 bits, 15 mots pour 160 bits, et 24 mots pour 256 bits.
+
+![image](assets\image\section3\7.JPG)
 
 Pour transformer les bits en phrases, chaque segment est associé à un mot issu d'une liste de 2048 mots. Il est important de préciser qu'aucun mot ne présente les quatre premières lettres dans le même ordre.
 
@@ -280,6 +362,8 @@ En conclusion, la génération d'une phrase mémonique pour sécuriser un portef
 
 La passphrase est un mot de passe additionnel qui peut être intégré à un portefeuille Bitcoin pour accroître sa sécurité. Son utilisation est optionnelle et revient à l'appréciation de l'utilisateur. En ajoutant des informations arbitraires qui, conjointement avec la phrase mémonique, permettent de calculer la graine du portefeuille, la passphrase renforce la sécurité de celui-ci.
 
+![image](assets\image\section3\8.JPG)
+
 Pour dériver les clés d'un portefeuille HD, la phrase mémonique ainsi que la passphrase sont nécessaires. La passphrase est libre et peut atteindre une taille presque infinie. Elle n'est pas incluse dans la phrase mémonique, qui est standardisée et doit suivre certaines contraintes de taille, de checksum et de codage. Un attaquant ne peut pas accéder aux bitcoins d'un utilisateur sans connaître la passphrase. Cette dernière joue un rôle dans la construction et le calcul de toutes les clés du portefeuille.
 
 La fonction pbkdf2 est utilisée pour générer la graine à partir de la passphrase. Cette graine permet de dériver toutes les paires de clés enfants du portefeuille. Si la passphrase est modifiée, le portefeuille Bitcoin devient complètement différent.
@@ -287,6 +371,8 @@ La fonction pbkdf2 est utilisée pour générer la graine à partir de la passph
 La passphrase est un outil essentiel pour renforcer la sécurité des portefeuilles Bitcoin. Elle peut permettre l'application de diverses stratégies de sécurité. Par exemple, elle peut être utilisée pour créer des doublons et faciliter les sauvegardes de la phrase mémonique. Elle peut également améliorer la sécurité du portefeuille en atténuant les risques associés à la génération aléatoire de la phrase mémonique.
 
 Une passphrase efficace devrait être longue (20 à 40 caractères) et diversifiée (utilisant des majuscules, des minuscules, des chiffres et des symboles). Elle ne devrait pas être directement liée à l'utilisateur ou à son environnement. Il est plus sûr d'utiliser une séquence aléatoire de caractères plutôt qu'un mot simple comme passphrase.
+
+![image](assets\image\section3\9.JPG)
 
 Une passphrase est plus sécurisée qu'un simple mot de passe. La passphrase idéale est longue, variée et aléatoire. Elle peut renforcer la sécurité d'un portefeuille ou d'un logiciel chaud. Elle peut également être utilisée pour créer des sauvegardes redondantes et sécurisées.
 
@@ -332,15 +418,23 @@ Générer une phrase mnémonique est un processus important pour sécuriser votr
 
 Dans cette partie du cours, nous allons explorer les étapes de dérivation d'un portefeuille HD (Hierarchical Deterministic Wallet), qui permet de créer et gérer des clés privées et publiques de manière hiérarchique.
 
+![image](assets\image\section4\0.JPG)
+
+
 Le fondement du portefeuille HD repose sur deux éléments essentiels : la phrase mnémonique et la passphrase (mot de passe supplémentaire optionnel). Ensemble, ils constituent la seed, une séquence alphanumérique de 512 bits qui sert de base pour dériver les clés du portefeuille. À partir de cette seed, il est possible de dériver toutes les paires de clés enfants du portefeuille Bitcoin. La seed est la clé permettant d'accéder à l'ensemble des bitcoins associés au portefeuille, que vous utilisiez une passphrase ou non.
 
 Pour obtenir la seed, on utilise la fonction pbkdf2 (Password-Based Key Derivation Function 2) avec la phrase mnémonique et la passphrase. La sortie de pbkdf2 est une seed de 512 bits. La clé privée maîtresse et le code de chaîne maître sont déterminés en utilisant l'algorithme HMAC SHA-512 (Hash-based Message Authentication Code Secure Hash Algorithm 512). Cet algorithme nécessite un message et une clé pour générer un résultat. La clé privée maîtresse est calculée à partir de la seed et de la phrase "Bitcoin SEED". Cette phrase est identique pour toutes les dérivations de portefeuille HD, garantissant ainsi une cohérence entre les portefeuilles.
+
+![image](assets\image\section4\1.JPG)
+
 
 Initialement, la fonction SHA-512 n'était pas implémentée dans le protocole Bitcoin, c'est pourquoi on utilise HMAC SHA-512. L'utilisation de HMAC SHA-512 avec la phrase "Bitcoin SEED" contraint l'utilisateur à générer un portefeuille spécifique à Bitcoin. Le résultat de HMAC SHA-512 est un nombre de 512 bits, divisé en deux parties : les 256 bits de gauche représentent la clé privée maîtresse, tandis que les 256 bits de droite représentent le code de chaîne maître.
 
 La clé privée maîtresse est la clé parente de toutes les futures clés du portefeuille, tandis que le code de chaîne maître intervient dans la dérivation des clés enfants. Il est important de noter qu'il est impossible de dériver une paire de clés enfant sans connaître le code de chaîne correspondant de la paire parente. Le code de chaîne ajoute une source d'entropie dans le processus de dérivation.
 
 Une paire de clés dans le portefeuille comprend une clé privée, une clé publique et un code de chaîne. Le code de chaîne permet d'introduire une source d'aléatoire dans la dérivation des clés enfants et d'isoler chaque paire de clés pour éviter toute fuite d'information.
+
+![image](assets\image\section4\2.JPG)
 
 Il est important de souligner que la clé privée maîtresse est la première clé privée dérivée à partir de la seed et n'a aucun lien avec les clés étendues du portefeuille. La seed est donc l'élément fondamental pour dériver toutes les clés du portefeuille. Elle diffère de la phrase mnémonique et de la passphrase, qui sont utilisées pour la création de la seed.
 
@@ -352,17 +446,27 @@ Dans le prochain cours, nous explorerons en détail les clés étendues, telles 
 
 Dans cette partie du cours, nous allons étudier les clés étendues (xPub, zPub, yPub) et leurs préfixes, qui jouent un rôle important dans la dérivation des clés enfants dans un portefeuille HD (Hierarchical Deterministic Wallet).
 
+![image](assets\image\section4\3.JPG)
+
+
 Les clés étendues se distinguent des clés maîtresses. Un portefeuille HD génère une phrase mnémonique et une graine pour obtenir la clé maîtresse et le code de chaîne maître. Les clés étendues sont utilisées pour dériver les clés enfants et nécessitent à la fois la clé parente et le code de chaîne correspondant. Une clé étendue combine ces deux informations pour simplifier le processus de dérivation.
 
 Les clés étendues sont identifiées par des préfixes spécifiques (XPRV, XPUB, YPUB, ZPUB) qui indiquent s'il s'agit d'une clé étendue privée ou publique, ainsi que son objectif spécifique. Les métadonnées associées à une clé étendue comprennent la version (préfixe), la profondeur, l'empreinte de la clé publique, l'index et la charge utile (code de chaîne et clé parente).
+
+![image](assets\image\section4\4.JPG)
+
 
 La charge utile est composée du code de chaîne (32 octets) et de la clé parente (33 octets). Ces éléments sont essentiels pour la dérivation des clés enfants. Une clé privée est générée à partir d'un nombre aléatoire ou pseudo-aléatoire, tandis qu'une clé publique est générée à l'aide de l'algorithme ECDSA (Elliptic Curve Digital Signature Algorithm).
 
 Chaque paire de clés étendues est associée à un code de chaîne unique, qui permet d'effectuer des dérivations spécifiques. En concaténant la clé parente avec le code de chaîne, on obtient une clé privée ou publique étendue.
 
+![image](assets\image\section4\5.JPG)
+
 Les clés publiques étendues ne peuvent dériver que des clés publiques enfants normales, tandis que les clés privées étendues peuvent dériver des clés enfants publiques et privées, que ce soit sur une dérivation normale ou endurcie. L'utilisation de clés étendues avec le préfixe XPUB permet de dériver de nouvelles adresses sans remonter jusqu'aux clés privées correspondantes, offrant ainsi une meilleure sécurité. Les métadonnées associées aux clés étendues fournissent des informations importantes sur leur rôle et leur position dans la hiérarchie des clés.
 
 Les clés publiques compressées ont une taille de 33 octets, tandis que les clés publiques brutes sont de 512 bits. Les clés publiques compressées conservent les mêmes informations que les clés brutes, mais avec une taille réduite. Les clés étendues ont une taille de 82 octets et leur préfixe est représenté en base 58 grâce à une conversion en hexadécimal. Le checksum est calculé à l'aide de la fonction de hachage HASH256.
+
+![image](assets\image\section4\6.JPG)
 
 Les dérivations renforcées commencent à partir des indexes qui sont des puissances de 2 (2^31). Les clés publiques étendues permettent uniquement de dériver des clés publiques enfants normales, tandis que les clés privées étendues permettent de dériver n'importe quelle clé enfant. Il est intéressant de noter que les préfixes les plus couramment utilisés sont xpub et zpub, qui correspondent respectivement aux standards legacy et segwit v1 et segwit v0.
 
@@ -374,39 +478,65 @@ En conclusion, les clés étendues jouent un rôle essentiel dans la cryptograph
 
 ![Dérivation des paires de clés enfants](https://youtu.be/FXhI-GmE9Aw)
 
+
+
 À présent, nous allons aborder le calcul de la graine et de la clé maîtresse, qui constituent les premiers éléments essentiels pour la hiérarchisation et la dérivation du portefeuille HD (Hierarchical Deterministic Wallet). La graine, d'une longueur de 128 à 256 bits, est générée de manière aléatoire ou à partir d'une phrase secrète. Elle joue un rôle déterministe dans la dérivation de toutes les autres clés. La clé maîtresse est la première clé dérivée à partir de la graine, et elle permet de dériver toutes les autres paires de clés enfants.
 
 Le code de chaîne maître joue un rôle important dans la reprise du portefeuille à partir de la graine. Il est à noter que toutes les clés dérivées à partir de la même graine auront le même code de chaîne maître.
+
+![image](assets\image\section4\7.JPG)
+
 
 La hiérarchisation et la dérivation du portefeuille HD offrent une gestion plus efficace des clés et des structures de portefeuille. Les clés étendues permettent la dérivation d'une paire de clés enfant à partir d'une paire parent en utilisant des calculs mathématiques et des algorithmes spécifiques.
 
 Il existe différents types de paires de clés enfants, notamment les clés renforcées et les clés normales. La clé publique étendue permet uniquement la dérivation de clés publiques enfants normales, tandis que la clé privée étendue permet la dérivation de toutes les clés enfants, à la fois publiques et privées, qu'elles soient en mode normal ou renforcé. Chaque paire de clés dispose d'un index qui permet de les différencier les unes des autres.
 
+![image](assets\image\section4\8.JPG)
+
+
 La dérivation des clés enfants utilise la fonction HMAC-SHA512 en utilisant la clé parent concaténée à l'index et au code de chaîne associé à la paire de clés. Les clés enfants normales ont un index compris entre 0 et 2 puissance 31 moins 1, tandis que les clés enfants renforcées ont un index compris entre 2 puissance 31 et 2 puissance 32 moins 1.
+
+![image](assets\image\section4\9.JPG)
+![image](assets\image\section4\10.JPG)
 
 Il existe deux types de paires de clés enfants : les paires renforcées et les paires normales. Le processus de dérivation des clés enfants utilise les clés publiques pour générer les conditions de dépense, tandis que les clés privées sont utilisées pour la signature. La clé publique étendue permet uniquement la dérivation de clés publiques enfants normales, tandis que la clé privée étendue permet la dérivation de toutes les clés enfants, à la fois publiques et privées, en mode normal ou renforcé.
 
+
+![image](assets\image\section4\11.JPG)
+![image](assets\image\section4\12.JPG)
 La dérivation renforcée utilise la clé privée parent, tandis que la dérivation normale utilise la clé publique parent. La fonction HMAC-SHA512 est utilisée pour la dérivation renforcée, tandis que la dérivation normale utilise un condensat de 512 bits. La clé publique enfant est obtenue en multipliant la clé privée enfant par le générateur de la courbe elliptique.
 
+
+![image](assets\image\section4\13.JPG)
+![image](assets\image\section4\14.JPG)
+
 La hiérarchisation et la dérivation de nombreuses paires de clés de manière déterministe permettent de créer un schéma en arbre généalogique pour la dérivation hiérarchique. Dans le prochain cours de cette formation, nous étudierons la structure du portefeuille HD ainsi que les chemins de dérivation, en mettant notamment l'accent sur les notations des chemins de dérivation.
+
+
 
 ## Structure du portefeuille et chemins de dérivation
 
 ![Structure du portefeuille et chemins de dérivation](https://youtu.be/etO9UxwyE2I)
 
+
 Dans ce chapitre, nous allons étudier la structure de l'arbre de dérivation dans un portefeuille HD (Hierarchical Deterministic Wallet). Nous avons déjà exploré le calcul de la graine, la clé maîtresse et la dérivation des paires de clés enfants. Maintenant, nous allons nous concentrer sur l'organisation des clés au sein du portefeuille.
 
 Le portefeuille HD utilise des couches de profondeur pour organiser les clés. Chaque dérivation d'une paire parent vers une paire enfant correspond à une couche de profondeur. La profondeur 0 correspond à la clé maîtresse et au code de chaîne maître.
 
-La profondeur 1 est utilisée pour dériver des clés enfants selon un objectif spécifique, qui est déterminé par l'index. Les objectifs sont conformes aux standards BIP 84 et Segwit v0/v1.
+![image](assets\image\section4\15.JPG)
 
-La profondeur 2 permet de différencier les comptes de différentes cryptomonnaies ou réseaux. Cela permet d'organiser le portefeuille en fonction des différentes sources de fonds.
 
-La profondeur 3 est utilisée pour organiser le portefeuille en différents comptes, offrant ainsi une structure plus claire et organisée.
+- La profondeur 1 est utilisée pour dériver des clés enfants selon un objectif spécifique, qui est déterminé par l'index. Les objectifs sont conformes aux standards BIP 84 et Segwit v0/v1.
 
-La profondeur 4 correspond aux chaînes interne et externe, qui sont utilisées pour les adresses destinées à être communiquées publiquement. L'index 0 est associé à la chaîne externe, tandis que l'index 1 est associé à la chaîne interne. Chaque compte dispose de deux chaînes : la chaîne externe (0) et la chaîne interne (1). La profondeur 4 est également utilisée pour gérer les types de script dans le cas des portefeuilles multi signatures.
+- La profondeur 2 permet de différencier les comptes de différentes cryptomonnaies ou réseaux. Cela permet d'organiser le portefeuille en fonction des différentes sources de fonds.
 
-La profondeur 5 est utilisée pour les adresses de réception sur un portefeuille classique. Dans la prochaine section, nous examinerons plus en détail la dérivation des paires de clés enfants.
+- La profondeur 3 est utilisée pour organiser le portefeuille en différents comptes, offrant ainsi une structure plus claire et organisée.
+
+- La profondeur 4 correspond aux chaînes interne et externe, qui sont utilisées pour les adresses destinées à être communiquées publiquement. L'index 0 est associé à la chaîne externe, tandis que l'index 1 est associé à la chaîne interne. Chaque compte dispose de deux chaînes : la chaîne externe (0) et la chaîne interne (1). La profondeur 4 est également utilisée pour gérer les types de script dans le cas des portefeuilles multi signatures.
+
+- La profondeur 5 est utilisée pour les adresses de réception sur un portefeuille classique. Dans la prochaine section, nous examinerons plus en détail la dérivation des paires de clés enfants.
+
+![image](assets\image\section4\16.JPG)
 
 Pour chaque couche de profondeur, nous utilisons des index pour différencier les paires de clés enfants. Les index renforcés sont utilisés avec une apostrophe pour certaines dérivations. La clé publique par an est utilisée comme entrée pour la fonction HMAC. L'index dans un chemin de dérivation indique la valeur utilisée dans la fonction HMAC.
 
@@ -426,9 +556,14 @@ Dans le prochain chapitre, nous allons étudier les adresses de réception, leur
 
 ![Les adresses Bitcoin](https://youtu.be/nqGBMjPtFNI)
 
+
+![image](assets\image\section5\0.JPG)
+
 Dans ce chapitre, nous allons explorer les adresses de réception, qui jouent un rôle crucial dans le système Bitcoin. Elles permettent de recevoir des fonds sur une pièce et sont générées à partir de paires de clés privées et publiques. Bien qu'il existe un type de script appelé Pay2PublicKey qui permet de bloquer des bitcoins sur une clé publique, les utilisateurs préfèrent généralement utiliser des adresses de réception plutôt que ce script.
 
 Lorsqu'un destinataire souhaite recevoir des bitcoins, il fournit une adresse de réception à l'émetteur plutôt que sa clé publique. Une adresse est en réalité un hash d'une clé publique, avec un format spécifique. La clé publique est dérivée de la clé privée enfant en utilisant des opérations mathématiques telles que l'addition et le doublement de points sur les courbes elliptiques.
+
+![image](assets\image\section5\1.JPG)
 
 Il est important de noter qu'il n'est pas possible de remonter de l'adresse vers la clé publique, ni de la clé publique vers la clé privée. L'utilisation d'une adresse permet de réduire la taille de l'information de la clé publique, qui initialement fait 512 bits. Il est possible de compresser une clé publique en conservant uniquement la valeur de x et en ajoutant un préfixe, mais cette technique n'était pas connue à l'époque de la création de Bitcoin. L'utilisation d'une adresse ne permet donc pas de gagner de l'espace dans les blocs.
 
@@ -446,21 +581,39 @@ En résumé, les adresses de réception sont un élément essentiel du système 
 
 ![Comment créer une adresse Bitcoin ?](https://youtu.be/ewMGTN8dKjI)
 
+
 Dans ce chapitre, nous allons aborder la construction d'une adresse de réception pour les transactions Bitcoin. Une adresse de réception est une représentation sous forme de caractères alphanumériques d'une clé publique compressée. La conversion d'une clé publique en une adresse de réception passe par plusieurs étapes.
+
+![image](assets\image\section5\3.JPG)
+
 
 L'une des caractéristiques avantageuses des adresses de réception est la présence d'une checksum, qui permet la détection des erreurs. Pour cela, nous utilisons la technologie de checksum BCH (Bose-Chaudhuri-Hocquenghem) qui assure une détection précise des erreurs. Cette technologie contribue également à la réduction du nombre de caractères nécessaires pour représenter une adresse, facilitant ainsi son utilisation.
 
 Pour commencer la construction d'une adresse, nous devons compresser la clé publique correspondante. Une clé publique brute occupe 520 bits, mais grâce à la symétrie de la courbe elliptique utilisée, une courbe elliptique peut avoir une abscisse x associée à deux valeurs possibles pour y : positive ou négative. Sur le réseau Bitcoin, nous travaillons avec un corps d'entiers positifs finis plutôt qu'avec le corps des réels. Pour représenter une clé publique à partir de x, nous ajoutons un préfixe indiquant la valeur de y (pair ou impair). La compression d'une clé publique permet de réduire sa taille de 520 à 264 bits. La parité de y dans un corps d'entiers positifs finis correspond à la parité de y dans le corps des réels.
 
+![image](assets\image\section5\4.JPG)
+![image](assets\image\section5\5.JPG)
+
 Prenons l'exemple de la clé publique appartenant à Satoshi Nakamoto, avec un préfixe 0,3 indiquant une valeur impaire de y. Nous pouvons alors passer à la deuxième étape de la construction d'une adresse à partir de clés publiques compressées. Il est possible de calculer deux adresses pour chaque clé publique. Pour cela, nous utilisons la fonction SHA256 pour obtenir le condensat (hash) de la clé publique. Ensuite, nous appliquons la fonction ripemd160 sur le résultat de SHA256 pour obtenir une suite de caractères. Cette suite est ensuite encodée en format binaire par groupes de 5 bits, auxquels des métadonnées sont ajoutées pour le calcul de la checksum à l'aide du programme BCH.
 
+![image](assets\image\section5\6.JPG)
+
 Dans le cas des adresses legacy, nous utilisons le double hachage SHA256 pour générer la somme de contrôle de l'adresse. Cependant, pour les adresses Segwit V0 et V1, nous faisons appel à la technologie de checksum BCH pour assurer la détection des erreurs. Le programme BCH est capable de suggérer et de corriger les erreurs avec une probabilité d'erreur extrêmement faible. Actuellement, le programme BCH est utilisé pour détecter et suggérer les modifications à apporter, mais il ne les effectue pas automatiquement à la place de l'utilisateur. Le calcul de la checksum avec le code BCH repose sur l'arithmétique de Chien-Chauffage polynomiale.
+
+![image](assets\image\section5\7.JPG)
+
 
 Le programme BCH requiert plusieurs informations en entrée, dont le HRP (Human Readable Part) qui doit être étendu. L'extension du HRP consiste à encoder chaque lettre en base 2, en prenant les trois premiers bits de chaque caractère
 
 , en insérant un séparateur 0, puis en concaténant les cinq derniers bits de chaque caractère. Les caractères bleus convertis en base 10 correspondent à 3 et 3 en décimal, tandis que les cinq autres caractères orange correspondent à 2 et 3 en base 10. L'extension du HRP en base 10 permet d'isoler les cinq derniers bits de chaque caractère, renforçant ainsi la checksum.
 
+![image](assets\image\section5\8.JPG)
+
+
 La version Segwit V0 est représentée par le code 00 et le "payload" est en noir, en base 10. Cela est suivi de six caractères réservés pour la checksum. L'entrée contenant les métadonnées est ensuite soumise au programme BCH pour obtenir la checksum en base 10. La concaténation de la version, du payload et de la checksum permet de construire l'adresse. Les caractères en base 10 sont ensuite convertis en caractères bech32 à l'aide d'une table de correspondance. L'alphabet bech32 comprend tous les caractères alphanumériques, à l'exception de 1, b, i et o, afin d'éviter toute confusion.
+
+![image](assets\image\section5\9.JPG)
+![image](assets\image\section5\10.JPG)
 
 Pour construire une adresse commençant par bc1q, nous devons appliquer une fonction de hachage (H160) à une clé publique compressée, puis ajouter la checksum, la version (q), le HRP (bc) et le séparateur (1). Les adresses Taproot, quant à elles, commencent par bc1p car leur version (Segwit V1) correspond à 0+1=1, d'où l'utilisation du caractère p. Tous ces éléments sont ensuite convertis en BCH32, une variante de la base 32 spécifique à Bitcoin.
 
@@ -470,11 +623,20 @@ Ainsi, nous avons parcouru les étapes de construction d'une adresse de récepti
 
 ![synthèse de la formation](https://youtu.be/NkAYoVUMvOs)
 
+
+
 Tout au long de cette formation, nous avons étudié en profondeur le portefeuille déterministe hiérarchique (HD) avec le BIP32. L'entropie joue un rôle central dans ce type de portefeuille, car elle est utilisée pour générer une phrase mnémonique à partir d'un nombre aléatoire. Grâce à la liste de 2048 mots fournie dans le BIP39, cette phrase mnémonique peut être encodée en une série de mots faciles à retenir. La phrase mnémonique, ainsi qu'une passphrase éventuelle, sont nécessaires pour générer la seed du portefeuille. La passphrase agit comme un sel cryptographique qui ajoute une couche de protection supplémentaire au portefeuille.
+
+![image](assets\image\section5\11.JPG)
+
 
 La fonction pbkdf2 est utilisée pour générer la graine à partir de la phrase mnémonique et de la passphrase, en utilisant un hmacha512 et 2048 itérations. La clé maîtresse et le code de chaîne maître sont ensuite dérivés à partir de cette graine en utilisant à nouveau la fonction hmacha512 avec la phrase "bitcoin seed". La clé privée maîtresse et le code de chaîne maître sont les éléments les plus élevés dans la hiérarchie du portefeuille HD.
 
+![image](assets\image\section5\12.JPG)
+
 La dérivation d'une clé enfant dépend de plusieurs facteurs, notamment la clé parent et le code de chaîne correspondant. Une clé étendue est obtenue en concaténant une clé parent avec son code de chaîne, tandis qu'une clé maîtresse est une clé distincte. Pour dériver une adresse, la clé publique compressée est d'abord hachée à l'aide de SHA256 et RIPMD160, puis une chèque somme est calculée. Le double hachage SHA256 est utilisé pour calculer la chèque somme dans le cas d'un standard legacy, tandis que le programme BCH (Bose-Chaudhuri-Hocquenghem) est utilisé pour calculer la chèque somme dans le cas d'un standard segwit. Ensuite, une représentation au format base 58 est utilisée pour un standard legacy, tandis que le format bech32 est utilisé pour un standard segwit, afin d'obtenir l'adresse du portefeuille HD.
+
+![image](assets\image\section5\13.JPG)
 
 En résumé, nous avons exploré en détail les fonctions de hachage et leurs caractéristiques, ainsi que les signatures numériques et les courbes elliptiques. Nous avons ensuite plongé dans l'univers du portefeuille déterministe hiérarchique (HD) avec le BIP32, en utilisant l'entropie et la passphrase pour générer la seed du portefeuille. Nous avons également appris comment dériver les clés enfants et obtenir l'adresse du portefeuille HD. J'espère que ces informations vous ont été utiles, et je vous encourage maintenant à passer à l'évaluation pour tester vos connaissances acquises au cours de la formation Crypto 301. Merci de votre attention.
 

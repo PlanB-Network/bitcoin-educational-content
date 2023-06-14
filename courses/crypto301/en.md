@@ -5,6 +5,7 @@ objectives:
   - Demystify the terminology of cryptography related to Bitcoin.
   - Master the creation of a Bitcoin wallet.
   - Understand the structure of a Bitcoin wallet.
+  - Understand addresses and derivation paths
 ---
 
 # A journey to the heart of cryptography

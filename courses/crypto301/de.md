@@ -5,6 +5,7 @@ objectives:
   - Entmystifizierung der Kryptographie-Terminologie im Zusammenhang mit Bitcoin.
   - Beherrschung der Erstellung einer Bitcoin-Wallet.
   - Verständnis der Struktur einer Bitcoin-Wallet.
+  - Adressen und Ableitungspfade verstehen
 ---
 
 # Eine Reise ins Herz der Kryptographie

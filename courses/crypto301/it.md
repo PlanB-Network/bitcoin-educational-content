@@ -5,6 +5,7 @@ objectives:
   - Demistificare la terminologia della crittografia legata ai Bitcoin.
   - Padroneggiare la creazione di un portafoglio Bitcoin.
   - Comprendere la struttura di un portafoglio Bitcoin.
+  - Capire gli indirizzi e i percorsi di derivazione
 ---
 
 # Un viaggio nel cuore della crittografia

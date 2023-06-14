@@ -5,6 +5,7 @@ objectives:
   - Desmitificar la terminología de la criptografía relacionada con Bitcoin.
   - Dominar la creación de una billetera Bitcoin.
   - Comprender la estructura de una billetera Bitcoin.
+  - Entender las direcciones y los caminos de derivación
 ---
 
 # Un viaje al corazón de la criptografía

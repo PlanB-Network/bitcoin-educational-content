@@ -5,6 +5,7 @@ objectives:
   - Desmistificar a terminologia da criptografia relacionada ao Bitcoin.
   - Dominar a criação de uma carteira Bitcoin.
   - Compreender a estrutura de uma carteira Bitcoin.
+  - Entender endereços e caminhos de derivação
 ---
 
 # Uma jornada ao coração da criptografia

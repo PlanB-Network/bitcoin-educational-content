@@ -1,0 +1,4 @@
+description: |
+  The Eye of Satoshi is a Lightning watchtower compliant with BOLT13, written in Rust.
+contributors:
+  - rabbit-hole

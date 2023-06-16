@@ -1,0 +1,16 @@
+name: Lunaticoin
+host: Luna
+language: esp
+links:
+  website: https://lunaticoin.com/
+  twitter: https://twitter.com/lunaticoin
+  podcast: https://podcasts.apple.com/tt/podcast/lunaticoin/id1459795209
+
+description: |
+  Entusiasta Bitcoin | Conecto con personas de habla hispana con perfil propio dentro del mundo #bitcoin y comparto su valor | Colaborador en @EstudioBitcoin
+
+tags:
+  - bitcoin
+  - technology
+contributors:
+  - rabbit-hole

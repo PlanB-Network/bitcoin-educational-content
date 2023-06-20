@@ -16,3 +16,5 @@ Bitcoin is an accessible and equitable savings technology and it is a censorship
 website: https://lnp2pbot.com/
 
 HitHub: https://github.com/lnp2pBot/bot
+
+writing guide: grunch@getalby.com

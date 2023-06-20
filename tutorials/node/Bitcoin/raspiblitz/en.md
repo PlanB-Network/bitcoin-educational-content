@@ -13,20 +13,16 @@ The RaspiBlitz is a do-it-yourself Lightning Node (LND and/or Core Lightning) ru
 
 RaspiBlitz is mainly targeted for learning how to run your own node decentralized from home - because: Not your Node, Not your Rules. Discover & develop the growing ecosystem of the Lightning Network by becoming a full part of it. Build it as part of a workshop or as a weekend project yourself.
 
-
 ![image](assets\0.png)
 
-
 ![video](https://youtu.be/DTHlSPMz3ns)
- RASPIBLITZ - How To Run A Lightning and Bitcoin Full Node  by BTC session
+RASPIBLITZ - How To Run A Lightning and Bitcoin Full Node by BTC session
 
 # Parman’s Raspiblitz Setup Guide
-
 
     The following guide was offerted by Parman (https://twitter.com/parman_the)
     you can tips him here; dandysack84@walletofsatoshi.com
     Original source; https://armantheparman.com/raspiblitz/
-
 
 The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. Why is that important? Vlad Costa explains. You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a supplemental guide for that. (I haven’t found a way to do this with MyNode).
 
@@ -40,13 +36,13 @@ Essentially, the process is very similar to the process of setting up a MyNode n
 
 You need exactly the same equipment that you need to run a MyNode node. You could try one or the other, the only difference is the data on the micro SD card.
 
-* Raspberry Pi 4, 4Gb memory or 8Gb (4Gb is plenty)
-* Official Raspberry Pi Power (Very Important! Don’t get generic, seriously)
-* A case for the Pi. (FLIRC case is awesome. The entire case is a heat sink and you don’t need a fan, which can be noisy)
-* 32 Gb microSD card (you need one, but a few are handy. )
-* A memory card reader (most computers won’t have a slot for a microSD card).
-* External SSD 1Tb hard drive.
-* An ethernet cable (to connect to your home router).
+- Raspberry Pi 4, 4Gb memory or 8Gb (4Gb is plenty)
+- Official Raspberry Pi Power (Very Important! Don’t get generic, seriously)
+- A case for the Pi. (FLIRC case is awesome. The entire case is a heat sink and you don’t need a fan, which can be noisy)
+- 32 Gb microSD card (you need one, but a few are handy. )
+- A memory card reader (most computers won’t have a slot for a microSD card).
+- External SSD 1Tb hard drive.
+- An ethernet cable (to connect to your home router).
 
 You do not need a monitor (or keyboard or mouse)
 
@@ -146,7 +142,6 @@ Finding the IP is crucial.
 
     UPDATE: you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
 
-
 ## Step 7: SSH into the Pi
 
 Remember to put the SD card into the Pi before switching it on. Wait a few minutes, and then on another Linux/Mac, open the terminal.
@@ -217,6 +212,4 @@ END of the guide
     you can tips him here; dandysack84@walletofsatoshi.com
     Original source; https://armantheparman.com/raspiblitz/
 
-
 So from now your node si ready to go. If you still help navigate more option, refer to the github for more tutoriel and guide https://github.com/raspiblitz/raspiblitz#feature-documentation
-

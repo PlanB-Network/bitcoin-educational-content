@@ -9,20 +9,19 @@ tag:
   - security
 ---
 
-
 ![cover](assets\cover.png)
 
 Description for electrum
-
 
 https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-
 # Electrum Bitcoin Wallet
 
     "I have to say, when i came across this guide i was shocked. Congrats on Arman the Parman for this. It would have been ashame not to host in here and translate it on as many language as possible. Honeslty, tips that dude." Rogzy
+
+Original post: https://armantheparman.com/electrum/
 
 ![Electrum Desktop Wallet (Mac / Linux) - download, verify, connect to your node.](https://youtu.be/wHmQNcRWdHM)
 
@@ -169,7 +168,6 @@ To run the program, just double-click it. You may get some Mac-specific “nanny
 
 Despite the fact that I hate Windows most of all, this is the simplest method. Just double-click the executable file to run.
 
-
 ## Start with a dummy wallet
 
 When you first load Electrum, a window will open like this:
@@ -192,7 +190,7 @@ Then, select “I already have a seed”. I don’t want you to get in the habit
 
 ![image](assets\9.png)
 
-Go to https://iancoleman.io/bip39/ and create a dummy seed. First, change the word number to 12 (which is common practice), then click “generate” and copy the words in the box to your clipboard. 
+Go to https://iancoleman.io/bip39/ and create a dummy seed. First, change the word number to 12 (which is common practice), then click “generate” and copy the words in the box to your clipboard.
 
 ![image](assets\10.png)
 
@@ -339,11 +337,11 @@ Close the window, and now we should be connected to your node. To confirm, click
 
 Sometimes, despite doing everything right, seemingly, it refuses to connect. Here are things to try…
 
-* Upgrade to a newer version of Electrum, and your node software
-* Try deleting the cache folder in the “.electrum” directory
-* Try changing the port from 50002 to 50001 in the network settings
-* Use this guide to connect using Tor as an alternative (https://armantheparman.com/tor/)
-* Reinstall Electrum Server on the node
+- Upgrade to a newer version of Electrum, and your node software
+- Try deleting the cache folder in the “.electrum” directory
+- Try changing the port from 50002 to 50001 in the network settings
+- Use this guide to connect using Tor as an alternative (https://armantheparman.com/tor/)
+- Reinstall Electrum Server on the node
 
 ## FINDING YOUR NODE’S IP ADDRESS
 
@@ -401,7 +399,7 @@ That vertical line is the “pipe” symbol and you’ll find it below the <dele
 
 For Windows, open the command prompt (cmd) and type:
 
-    ipconfig/all 
+    ipconfig/all
 
 and press Enter. The IP address can be found in the output.
 
@@ -431,9 +429,9 @@ It’s a good idea to learn how Electrum works with this practice wallet, withou
 
 In the new wallet you’ve created, you’ll see a list of addresses. The green ones are called “receiving addresses”. They are a product of 3 things:
 
-* The seed phrase
-* The passphrase
-* The derivation path
+- The seed phrase
+- The passphrase
+- The derivation path
 
 You new wallet has a set of receiving addresses that can be mathematically and reproducibly created by any software wallet that has the seed, passphrase and derivation path. There are 4.3 billion of them! More than you’ll need. Electrum only shows you the first 20, and then more as you use up the first ones.
 
@@ -493,9 +491,9 @@ Here I’ll show you how to receive a UTXO to your wallet and then move it (spen
 
 This has a number of purposes.
 
-* It will prove that you have the power to spend coins in the new wallet.
-* It will demonstrate how to use the Electrum software to make a spend (and some features), before we add extra complexity for safety (using a hardware wallet or air-gapped computer)
-* It will reinforce the idea that you have many addresses to choose from to receive and spend, within the same wallet.
+- It will prove that you have the power to spend coins in the new wallet.
+- It will demonstrate how to use the Electrum software to make a spend (and some features), before we add extra complexity for safety (using a hardware wallet or air-gapped computer)
+- It will reinforce the idea that you have many addresses to choose from to receive and spend, within the same wallet.
 
 Open your test Electrum Wallet and click the Addresses tab, then right-click the first address and select Copy –> Address:
 
@@ -509,7 +507,7 @@ Log in, and click the Send/Receive button, which as of today is in the top right
 
 ![image](assets\31.png)
 
-I obviously have no funds with Coinbase, but just imagine there are funds here and follow along: Paste the address from Electrum in the “To” field as I have done. You’ll also need to select an amount (I suggest 50,000 sats or so). Do not put an “optional message” – Coinbase is collecting enough of your data (and selling it), there is no need to help them. Finally, click “Continue”. After that I don’t know what other pop-ups you’ll get, you’re on your own, but the method is similar for all exchanges. 
+I obviously have no funds with Coinbase, but just imagine there are funds here and follow along: Paste the address from Electrum in the “To” field as I have done. You’ll also need to select an amount (I suggest 50,000 sats or so). Do not put an “optional message” – Coinbase is collecting enough of your data (and selling it), there is no need to help them. Finally, click “Continue”. After that I don’t know what other pop-ups you’ll get, you’re on your own, but the method is similar for all exchanges.
 
 ![image](assets\32.png)
 
@@ -547,7 +545,7 @@ You can also spend individual coins within an address and exclude others in the 
 
 ![image](assets\37.png)
 
-Now, we have the two coins selected for spending. Next, we decided where to spend them. Let’s send them to the second address. We’ll need to copy the address like so: 
+Now, we have the two coins selected for spending. Next, we decided where to spend them. Let’s send them to the second address. We’ll need to copy the address like so:
 
 ![image](assets\38.png)
 
@@ -597,7 +595,7 @@ Note: You’ll see all these changes even before the transaction has been mined 
 
 Something to point out is that instead of broadcasting, we can save the transaction for later. It can be saved either in the unsigned or signed states.
 
-Click the “export” button (paradoxically, DO NOT click the “save” button), and you will see a number of options. The transaction is encoded with text, and therefore can be saved in a number of ways. 
+Click the “export” button (paradoxically, DO NOT click the “save” button), and you will see a number of options. The transaction is encoded with text, and therefore can be saved in a number of ways.
 
 ![image](assets\43.png)
 
@@ -649,9 +647,9 @@ The Pay to Many feature also allows for the possibility to create your own “Pa
 
 I want to demonstrate a Watching Only Wallet using Electrum. To do that, I need to first define “wallet”. There are two ways “wallet” is used in Bitcoin:
 
-* Type A, “wallet” – refers to the software that shows you your addresses and balances, eg Electrum, Blue Wallet, Sparrow Wallet etc.
+- Type A, “wallet” – refers to the software that shows you your addresses and balances, eg Electrum, Blue Wallet, Sparrow Wallet etc.
 
-* Type B, “wallet” – refers to the unique collection of addresses that are associated with the combination of our seed_phrase/passphrase/derivation_path. There are 8.6 billion addresses in any wallet (4.3 billion receiving addresses, and 4.3 billion change addresses). If you change anything in the seed phrase, passphrase, or derivation path, you get an unused wallet with new, and all unique, 8.6 billion empty addresses.
+- Type B, “wallet” – refers to the unique collection of addresses that are associated with the combination of our seed_phrase/passphrase/derivation_path. There are 8.6 billion addresses in any wallet (4.3 billion receiving addresses, and 4.3 billion change addresses). If you change anything in the seed phrase, passphrase, or derivation path, you get an unused wallet with new, and all unique, 8.6 billion empty addresses.
 
 Which type anyone is referring to when using the word “wallet” is obvious in context.
 
@@ -675,14 +673,13 @@ Next, in Electrum, go to the menu file–>new/restore. Type a unique name to cre
 
 The next steps you should be familiar with by now, so I’ll list them without pictures:
 
-
-* Standard wallet
-* I already have a seed
-*  Copy and paste the 12 words in the box, or type them in manually.
-* Click options and select BIP39, and also click the passphrase checkmark (“extend this seed with custom words”)
-* Enter your passphrase exactly as you did on the Ian Coleman page
-* Leave the default script semantics and derivation path
-* No need to add a password (locks the wallet)
+- Standard wallet
+- I already have a seed
+- Copy and paste the 12 words in the box, or type them in manually.
+- Click options and select BIP39, and also click the passphrase checkmark (“extend this seed with custom words”)
+- Enter your passphrase exactly as you did on the Ian Coleman page
+- Leave the default script semantics and derivation path
+- No need to add a password (locks the wallet)
 
 Now go back to the Ian Coleman site, down to the “derivation path” section, and click the “BIP 84” tab to select the same script semantics as the defaults in Electrum (Native Segwit).
 
@@ -700,12 +697,12 @@ Copy the “account extended public key” to the clipboard.
 
 Then go to Electrum, leave the current wallet we made open, and go to file–>new/restore. The process to make the wallet is a little different than before:
 
-* Standard wallet
-* Use a master key
-* Paste the extended public key in the box and proceed
-* No need to enter a passphrase; it’s already part of the extended public key
-* No need to enter the script semantics and derivation path
-* No need to add a password (locks the wallet)
+- Standard wallet
+- Use a master key
+- Paste the extended public key in the box and proceed
+- No need to enter a passphrase; it’s already part of the extended public key
+- No need to enter the script semantics and derivation path
+- No need to add a password (locks the wallet)
 
 When the wallet loads, you should notice that exactly the same addresses are loaded as previously when the seed was entered. You should also notice at the very top in the title bar, it says “watching wallet”. This wallet can show you your addresses, and balances (by checking balances via a node), but you are not able to SIGN transactions (because the watching wallet has no private keys).
 
@@ -716,7 +713,6 @@ One reason, and not the main one, is that you can potentially observe your walle
 Another is that it is REQUIRED in order to make payments if you choose to keep your private keys off the computer; I’ll explain:
 
     Hardware wallets (HWW) were created so that a device can hold your private keys securely (locked with a PIN), never expose the keys to a computer (even when connected to a computer via a cable), and are themselves unable to connect to the internet. Such a device can not make transactions on its own because all bitcoin transactions start by referencing a UTXO(s) on the blockchain (which is on a node). A wallet must specify which transaction ID the UTXO is in, and which output of the transaction is the one to be spent. Only after specifying the input can a new transaction be created in the first place, let alone signed. Hardware wallets can’t create transactions because they have no access to any UTXOs – they’re not connected to anything! An extended public key is usually extracted from the HWW, and addresses are then displayed on a computer – many people will be familiar with the Ledger software or Trezor Suite showing addresses and balances on their computer – this is a watching wallet. These programs can create transactions, but they can’t sign. They can only have transactions signed by HWWs that are connected to them. The HWW takes the newly generated transaction from the watching wallet, signs it, and then sends it back to the computer for broadcasting to a node. The HWW can’t broadcast by itself, its associated watching wallet does that. In this way, the two wallets (public key wallet on the computer, and private key wallet in the HWW) cooperate to generate, sign, and broadcast, all while making sure the private keys stay isolated and away from an internet-connected device.
-
 
 ## Partially Signed Bitcoin Transactions (PSBTs)
 
@@ -800,11 +796,11 @@ If after all of this you are still unable to connect the ColdCard, I would try u
 
 Next, create a new wallet:
 
-* Standard wallet
-* Use a hardware device
-* It will scan and detect your ColdCard. Proceed.
-* Select the script semantics and derivation path
-* Decide if the wallet file should be encrypted (recommended)
+- Standard wallet
+- Use a hardware device
+- It will scan and detect your ColdCard. Proceed.
+- Select the script semantics and derivation path
+- Decide if the wallet file should be encrypted (recommended)
 
 ### Transactions using the ColdCard
 

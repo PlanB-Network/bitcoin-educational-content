@@ -9,22 +9,17 @@ Tag:
 difficulty: advanced
 ---
 
-
 # Install Bitcoin Core on Mac or Windows
 
 ![image](assets\0.jpeg)
-
 
 https://mynodebtc.com/
 
 The easiest, most powerful way to run a Bitcoin and Lightning node! We combine the best open source software with our interface, management, and support so you can easily, privately, and securely use Bitcoin and Lightning.
 
-
-
     The following guide was offerted by Parman (https://twitter.com/parman_the)
     you can tips him here; dandysack84@walletofsatoshi.com
     Original source; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
-
 
 ## Types of Node setups
 
@@ -38,22 +33,22 @@ Another option is to just install Bitcoin Core and an Electrum Server variety (t
 
 ## Shopping list
 
-* Raspberry Pi 4, 4Gb memory or 8Gb (4Gb is plenty)
+- Raspberry Pi 4, 4Gb memory or 8Gb (4Gb is plenty)
 
-* Official Raspberry Pi Power (Very Important! Don’t get generic, seriously)
+- Official Raspberry Pi Power (Very Important! Don’t get generic, seriously)
 
-* A case for the Pi. FLIRC case is awesome. The entire case is a heat sink and you don’t need a fan, which can be noisy
+- A case for the Pi. FLIRC case is awesome. The entire case is a heat sink and you don’t need a fan, which can be noisy
 
-* 16 Gb microSD card (you need one, but a few are handy)
+- 16 Gb microSD card (you need one, but a few are handy)
 
-* A memory card reader (most computers won’t have a slot for a microSD card).
+- A memory card reader (most computers won’t have a slot for a microSD card).
 
-* External SSD 1Tb hard drive.  
-Note: SSD is crucial. don't use portable external hard drive even tho it’s cheaper
+- External SSD 1Tb hard drive.  
+  Note: SSD is crucial. don't use portable external hard drive even tho it’s cheaper
 
-* An ethernet cable (to connect to your home router)
+- An ethernet cable (to connect to your home router)
 
-* You do not need a monitor
+- You do not need a monitor
 
 ## Download MyNode Image
 
@@ -74,7 +69,6 @@ It’s a big file:
 Download the SHA 256 hashes
 
 ![image](assets\4.jpeg)
-
 
 Open the terminal on Mac or Linux or Command Prompt for Windows. Type:
 
@@ -99,9 +93,6 @@ Etcher is self-explanatory to use. Insert your micro SD card and flash the Raspb
 ![image](assets\10.jpeg)
 ![image](assets\11.jpeg)
 
-
-
-
 Once done, the drive is no longer readable. You may get an error from the operating system, and the drive should disappear from the desktop. Pull out the card.
 
 ## Set up the Pi and insert the SD card
@@ -110,7 +101,6 @@ The parts (case not shown):
 
 ![image](assets\12.jpeg)
 ![image](assets\13.jpeg)
-
 
 Connect the ethernet cable, and the hard drive USB connector (not power yet). Avoid connecting to the blue-coloured USB ports in the centre. They are USB 3. MyNode recommends you use the USB 2 port, even though the drive may be USB 3 capable.
 
@@ -160,7 +150,6 @@ This time you’ll see this output:
 
 ![image](assets\18.jpeg)
 
-
 The file you deleted has been deleted and you are adding a new fingerprint. Type yes and <enter>.
 
 You’ll be asked to enter the password. It is “bolt”
@@ -168,7 +157,6 @@ You’ll be asked to enter the password. It is “bolt”
 You’ve now got terminal access to the MyNode Pi, without a monitor, and can confirm it’s all loaded smoothly.
 
 ![image](assets\19.jpeg)
-
 
 ## Access via the Web Browser
 
@@ -194,11 +182,9 @@ At some point you will be asked if you want to put in your product key, or use t
 
 ![image](assets\23.jpeg)
 
-
 You’ll then see the progress of blocks downloaded. It takes days:
 
 ![image](assets\24.jpeg)
-
 
 It’s safe to turn off the machine during the download if you need to. Go to settings and find the button to power off the machine. Don’t just yank the cord, you could corrupt the installation or the hard drive.
 

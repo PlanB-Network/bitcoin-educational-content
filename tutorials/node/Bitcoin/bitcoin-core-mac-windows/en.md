@@ -9,17 +9,11 @@ Tag:
 difficulty: advanced
 ---
 
-
-
 # Install Bitcoin Core on Mac or Windows
-
-
 
     The following guide was offerted by Parman (https://twitter.com/parman_the)
     you can tips him here; dandysack84@walletofsatoshi.com
     Original source; https://armantheparman.com/bitcoincore/
-
-
 
 Installing Bitcoin Core on your regular computer can be done, but it’s not ideal. If you don’t mind leaving your computer on 24/7, then this will work fine. If you need to turn off the computer, it gets annoying waiting for the software to sync up each time you turn it back on.
 
@@ -49,11 +43,9 @@ This will bring you to the download page:
 
 ![image](assets\3.png)
 
-
 Click the Download Bitcoin Core orange button:
 
 ![image](assets\4.png)
-
 
 There are several options to choose from, depending on your computer. The first two are relevant to this guide; choose Windows or Mac on the left bar. It will begin downloading after you click it, most likely to your Downloads directory.
 
@@ -62,7 +54,6 @@ There are several options to choose from, depending on your computer. The first 
 You need the file which contains the hashes of various releases. This file used to be on the downloads page of bitcoin.org, but now has moved to bitcoincore.org/en/download:
 
 ![image](assets\5.png)
-
 
 You need the SHA256 binary hashes file. This file contains the SHA256 hashes of the various download packages of Bitcoin Core.
 
@@ -88,13 +79,12 @@ Back at the download page, get the SHA256 hash signatures file
 
 ![image](assets\6.png)
 
-
 Click it and save the file to disk, preferably the Downloads directory.
 
 This file contains signatures by various people, of the SHA256SUMS file.
 
 We want the lead developer’s public key, Wladimir J. van der Laan on our computer’s keyring. His public key ID is:
-    1 -  01EA 5486 DE18 A882 D4C2  6845 90C8 019E 36C2 E964
+1 - 01EA 5486 DE18 A882 D4C2 6845 90C8 019E 36C2 E964
 
 Copy that text into the following command:
 
@@ -167,4 +157,3 @@ You can shut down the computer and come back to download if you want, it won’t
     The following guide was offerted by Parman (https://twitter.com/parman_the)
     you can tips him here; dandysack84@walletofsatoshi.com
     Original source; https://armantheparman.com/bitcoincore/
-

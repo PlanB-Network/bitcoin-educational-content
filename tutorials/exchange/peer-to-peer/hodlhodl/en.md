@@ -33,6 +33,8 @@ One of the salient features of HodlHodl is the variable trading limits, which ca
 
 To carve out your own account, simply click 'Register', located in the right corner on the platform's homepage. As expected, you'll be required to input an email address, choose a username, and establish a payment password. Furthermore, the platform prompts you to define your local timezone as this helps to streamline your operational hours and eases the transaction process.
 
+![cover](assets\11.png)
+
 ### Customize Your Profile
 
 Upon successful account registration, your next move would be to furnish your profile with some necessary details.
@@ -47,6 +49,59 @@ Your profile customization should encompass:
 ### Register Your BTC Address
 
 In order to commence BTC trading, you'll need to provide your BTC address first. This can be entered within the "Trading Settings" menu. After logging your address, you can proceed to "Buy BTC" or "Sell BTC" to kick off your trading journey.
+
+
+## Step by step toward your first trade 
+ 
+Guide by Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
+
+
+1. Visit hodlhodl.com and create your account. The only details you need to provide is a username and email address. You will then be met with the home page.
+
+![cover](assets\11.png)
+
+2. Click ‘Buy BTC’ in the website header.
+
+![cover](assets\12.png)
+
+3. Select your desired payment type and method. You can also specify a specific amount here if necessary.
+
+![cover](assets\13.png)
+
+4. Select your desired offer. You can then review the trade details and also read the peer’s activity reports and ratings.
+
+![cover](assets\14.png)
+
+5. Once you are happy, you can specify how much you want to buy, enter in the address you would like the bitcoin sent to and specify confirm the payment method advertised by the seller. Click ‘Accept offer and create contract’.
+
+![cover](assets\15.png)
+
+6. You now have your contract created and need to hit ‘Generate Escrow’ where you will be prompted to create a payment password. The payment password is an encryption key for the user’s escrow key pair. It is used in order to deposit or release Bitcoin to or from escrow.
+
+![cover](assets\16.png)
+
+7. Now you need to wait for the seller to deposit their bitcoin into the escrow wallet. After starting the contract you can chat with the seller using the chat box on the right side of the page.
+
+![cover](assets\17.png)
+
+8. Once the seller has deposited their funds to the escrow you will see this screen advising you not to send your money until there has been sufficient number of blockchain confirmations (this varies depending on the trade conditions). You can check on the progress of the sellers deposit transaction by clicking on the blue link ‘Deposit Transaction ID’.
+
+![cover](assets\18.png)
+
+9. Once confirmed you will be notified and you can then send the funds to the seller to the details they will provide you. Once you have done this click ‘Ive Sent The Payment’.
+
+![cover](assets\19.png)
+
+10. You will then need to wait for the seller to confirm they have received the funds, at which point the bitcoin will be released into the address you specified at the start of the contract. You will also be given the opportunity to rate your peer.
+
+![cover](assets\20.png)
+
+Congrats, you just bought yourself some non-KYC bitcoin!
+
+Two final tips
+
+* Hodl Hodl is web based so I would always advise accessing via the Tor browser to protect your privacy.
+* If you are a Telegram user, make sure you link your profile with the Hodl Hodl bot. That way you will receive live updates on each trade allowing you to take quick action.
 
 ## lend option
 

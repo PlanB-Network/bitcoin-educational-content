@@ -1,5 +1,3 @@
-tuto eng blixt
-
 ---
 
 builder: Galoy
@@ -13,6 +11,7 @@ tag:
 - open-source
 
 ---
+![cover](assets\cover.jpeg)
 
 # Blink - The everyday bitcoin wallet
 
@@ -24,3 +23,5 @@ BBW is an open source custodial Lightning wallet born on Bitcoin Beach and desig
 ![Tutoriel by BTC Session](https://youtu.be/q3QwxCd1EZE)
 
 ## Writing tutoriel
+
+No guide so far, help by creating it :D 

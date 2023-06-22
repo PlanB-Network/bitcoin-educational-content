@@ -46,7 +46,7 @@ Voici quelques liens à propos de cette nouvelle application de nœud/portefeuil
 
     Feed Twitter avec des démos
 
-![image principal](assets/2.jpeg)
+![image principal](assets/2.JPG)
 
 # Principales fonctionnalités disponibles
 

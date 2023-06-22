@@ -1,4 +1,6 @@
 
+texte explicatif sur les hot wallet vite fait
+
 
 
 # Mobile Wallets

@@ -9,9 +9,14 @@ tag:
   - infrasctructure
 ---
 
+![cover](assets\cover.jpeg)
+
 # Breez: non-custodial Lightning client.
 
 To find all the importante information please refer to their extensive guide: https://doc.breez.technology/
+
+![ Breez Wallet: Flexibility & Sovereignty For The Bitcoin Lightning Network ](https://youtu.be/Z_yiPM2gzk0)
+
 
 - Lightning is a bitcoin payment network that reduces transaction times from minutes to milliseconds and transaction fees from several dollars to a few cents or less. Lightning turns bitcoin from digital gold into digital currency while preserving all of the benefits that make bitcoin great.
 
@@ -23,11 +28,6 @@ Breez includes a Point-of-Sale mode, which transforms the app from a Lightning w
 
 Note: the app is still in beta and there is a chance your money will be lost. Only use this app if you are willing to take this risk.
 
-## Tutoriel Video
-
-(FR https://youtu.be/LNNsGbq1JSs)
-
-![ Breez Wallet: Flexibility & Sovereignty For The Bitcoin Lightning Network ](https://youtu.be/Z_yiPM2gzk0)
 
 ## Guide
 

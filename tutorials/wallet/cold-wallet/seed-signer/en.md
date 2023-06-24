@@ -1,15 +1,20 @@
 ---
-name: Ledger Nano S
+name: seed signer
 
-builder: ledger
+builder: Seed signer
 
 tag:
   - wallet
+  - DIY
+  - Open source
+  - BTC-only
 ---
 
-# seed signer
+![cover](assets/cover.jpeg)
 
-materiel:
+# Seed signer
+
+## Materiel:
 
 1. Raspberry Pi Zéro (version 1.3)
 

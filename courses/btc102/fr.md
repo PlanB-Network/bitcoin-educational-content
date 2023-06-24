@@ -2,7 +2,7 @@
 name: BTC 102 – Obtenir ses premiers bitcoins
 goal: Obtenir ses premiers bitcoins et les stocker dans un portefeuille Bitcoin de façon sécurisé avec une mnemonic phrase et un plan d’héritage.
 objectives:
-  - Mettre à jour votre sécurité en ligne 
+  - Mettre à jour votre sécurité en ligne
   - Comprenez les concepts clés liés à Bitcoin
   - Établissez votre premier portefeuille adapté à vos besoins et ressources
   - Apprenez où et comment obtenir vos premiers bitcoins
@@ -327,7 +327,6 @@ Bitcoin est donc un "0 à 1" qui vient bouleverser nos normes et habitudes.
 Si cela est nouveau pour vous, je vous encourage vivement à suivre BTC 101 avant de continuer à vous exposer à une technologie dont vous ne comprenez peut-être pas bien le rôle et la raison d'être.
 
 ![in a nutshell](assets/section2/10.JPG)
-
 
 ## Pourquoi Bitcoin est important ?
 
@@ -1016,4 +1015,4 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
 
-## allez plus loin 
+## allez plus loin

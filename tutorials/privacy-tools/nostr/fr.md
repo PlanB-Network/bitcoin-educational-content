@@ -12,7 +12,7 @@ difficulty: beginners
 
 ‌‌À la fin de ce guide, tu comprendras ce qu'est Nostr, tu te seras créé un compte et tu seras en mesure de l'utiliser.
 
-** Ce guide vous est offert par FranklynHart dans le cadre de Agora256. Merci à lui **
+**Ce guide vous est offert par FranklynHart dans le cadre de Agora256. Merci à lui**
 
 ![Un nouveau challenger est arrivé](assets/1.jpeg)
 

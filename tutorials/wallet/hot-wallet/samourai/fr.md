@@ -24,8 +24,7 @@ For explanations on each of these tools, you can refer to the **"Privacy Tools"*
 
 [![Vidéo tutoriel de Rogzy](https://youtu.be/ajs1a8m76TI)
 
-
-## Guide 
+## Guide
 
 ### quick installation for beginners
 
@@ -33,21 +32,19 @@ For explanations on each of these tools, you can refer to the **"Privacy Tools"*
 
 Our new welcome screen gives a preview of our wallet features. When you have read these, tap 'Get Started'.
 
-![image](assets\1.png)
+![image](assets/1.png)
 
 Permissions
 
 Grant the neccessary permissions so that the wallet can automatically create an encrypted backup of your wallet.
 
-![image](assets\2.png)
-
+![image](assets/2.png)
 
 Tor
 
 Most users should then enable Tor for network level privacy. Then tap Create a New Wallet.
 
-![image](assets\3.png)
-
+![image](assets/3.png)
 
 Creating a passphrase
 
@@ -58,8 +55,7 @@ Your passphrase is a required component when restoring by mnemonic (sometimes ca
     We do not have knowledge of your passphrase, if you forget your passphrase we cannot help you reset it.
     Do not forget your passphrase!
 
-![image](assets\4.png)
-
+![image](assets/4.png)
 
 Create a PIN Code
 
@@ -67,8 +63,7 @@ You will now be asked to create and confirm a PIN code between 5 and 8 digits lo
 
 If you forget your PIN code you can always access your wallet with your passphrase.
 
-![image](assets\5.png)
-
+![image](assets/5.png)
 
 Create a Paper Backup
 
@@ -88,8 +83,7 @@ After your wallet is successfully created you will be asked to claim a PayNym Bo
 
 Once claimed you will be assigned a unique Bot Name that is uploaded to the public directory of PayNym bots, which can be found at https://paynym.is
 
-![image](assets\6.png)
-
+![image](assets/6.png)
 
 ## use it
 

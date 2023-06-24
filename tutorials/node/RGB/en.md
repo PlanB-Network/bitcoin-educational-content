@@ -16,7 +16,7 @@ November 08, 2021
 https://grunch.dev/blog/brief-intro-rgb/
 grunch@getalby.com
 
-![RGB vs Ethereum](assets\0.png)
+![RGB vs Ethereum](assets/0.png)
 
 ## introduction
 
@@ -38,7 +38,7 @@ In simple terms, RGB is a system that allows the user to audit a smart contract,
 
 Currently, the blockchain industry promotes that both the code of smart contracts and the data must be stored in the blockchain and executed by each node of the network, regardless of the excessive increase in size or the misuse of computational resources. The scheme proposed by RGB is much more intelligent and efficient since it cuts with the blockchain paradigm by having smart contracts and data separated from the blockchain and thus avoids the saturation of the network seen in other platforms, in turn it does not force each node to execute each contract but rather the parties involved which adds confidentiality to a level never seen before.
 
-![RGB vs Ethereum](assets\1.png)
+![RGB vs Ethereum](assets/1.png)
 
 ## Smart contracts in RGB
 
@@ -103,7 +103,7 @@ https://grunch.dev/blog/rgbnode-tutorial/
 
 ## Requirements
 
-The use of a Linux distribution is recommended, this tutorial was written using Pop!\_OS, which is based on Ubuntu and you will need:
+The use of a Linux distribution is recommended, this tutorial was written using Pop!/\_OS, which is based on Ubuntu and you will need:
 
 - cargo
 - Bitcoin core
@@ -214,7 +214,7 @@ receive_utxo is an UTXO controlled by the receiver, in this case we will use e40
 We are now going to create a partially signed transaction (tx.psbt) whose output will be tweaked to include a commit to transfer, remember to replace the txid and vout with your own, the destination address doesn't really matters, it can be yours or it can be from another person, it doesn't matter where those sats goes, what it matters is that we use issuance_utxo.
 
 ```
-$ bcli walletcreatefundedpsbt "[{\"txid\":\"4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893\",\"vout\":1}]" "[{\"tb1q9crtjp0y6rt00c4fcrmuamrylzkcalcxls80j9\":\"0.00050000\"}]"
+$ bcli walletcreatefundedpsbt "[{/"txid/":/"4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893/",/"vout/":1}]" "[{/"tb1q9crtjp0y6rt00c4fcrmuamrylzkcalcxls80j9/":/"0.00050000/"}]"
 {
   "psbt": "cHNidP8BAHECAAAAAZM4E58uD9auiZ7esJkFbmD5p/7PcgBTn5UwiQ0hhRdMAQAAAAD/////ArM7GQAAAAAAFgAU4xQr/g1lgG2P9+gZudpFD8mOGGRQwwAAAAAAABYAFC4GuQXk0Nb34qnA987sZPitjv8GAAAAAAABAHECAAAAAYiK0TdTiaEs4oDovRokqspfLZr5EHYH8Pnj/Tv5GFB5AQAAAAD+////Av8Bh80AAAAAFgAUsLjOd30aRkUna41LAT5c3CnAz5obABoAAAAAABYAFJ1cXlDPuZG4vubQFDu1wqHMOubAyw8gAAEBHxsAGgAAAAAAFgAUnVxeUM+5kbi+5tAUO7XCocw65sAiBgMeD8mgPmkybD3uq/10mn97CU4xUa2pDNEwGe+sZjxWYxDskk+CAAAAgAAAAIAFAACAACICA2J21wOqW6bj7/ePTVI7QGvU6e4Sk8DhN5pmd9hrwSd7EOyST4IAAACAAQAAgAcAAIAAAA==",
   "fee": 0.00000280,

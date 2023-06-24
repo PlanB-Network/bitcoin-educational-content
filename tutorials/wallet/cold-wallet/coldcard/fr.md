@@ -8,6 +8,8 @@ tag:
   - Open-source
 ---
 
+![cover](assets/cover.jpeg)
+
 # ColdCard
 
 Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core

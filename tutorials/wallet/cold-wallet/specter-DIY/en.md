@@ -5,25 +5,26 @@ builder: Specter
 
 tag:
   - wallet
-  - Do it Your Self
+  - DIY
   - Open source
 ---
 
+![cover](assets/cover.jpeg)
+
 # Specter DIY
 
-    Spec:
+Spec:
 
-    Developer Board
-
-    STM Discovery board (STM32F469I)
-    QR Code Scanner
-
-    Waveshare Barcode Scanner
-    3D Printable Case
-
-    Barebones case designed by Seedsigner
+- Developer Board
+- STM Discovery board (STM32F469I)
+- QR Code Scanner
+- Waveshare Barcode Scanner
+- 3D Printable Case
+- Barebones case designed by Seedsigner
 
 ![device view](assets/2.jpeg)
+
+## Guide
 
 https://specter.solutions/hardware/
 

@@ -1,17 +1,15 @@
 ---
-
 builder: Galoy
 
 difficulty: Beginners
 
 tag:
-
-- wallet
-- lightning
-- open-source
-
+  - wallet
+  - lightning
+  - open-source
 ---
-![cover](assets\cover.jpeg)
+
+![cover](assets/cover.jpeg)
 
 # Blink - The everyday bitcoin wallet
 
@@ -24,4 +22,4 @@ BBW is an open source custodial Lightning wallet born on Bitcoin Beach and desig
 
 ## Writing tutoriel
 
-No guide so far, help by creating it :D 
+No guide so far, help by creating it :D

@@ -8,7 +8,7 @@ tag:
 difficulty: advanced
 ---
 
-![image](assets/0.jpeg)
+![image](assets/cover.jpeg)
 
 # LN⚡VPN
 

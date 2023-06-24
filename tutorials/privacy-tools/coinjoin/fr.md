@@ -51,8 +51,6 @@ Si vous êtes un utilisateur débutant de Bitcoin, avant de pouvoir aborder cet 
 
 _L'utilisation du CoinJoin peut présenter des risques indirects pour son utilisateur. Certains prestataires bloqueront potentiellement vos fonds et/ou votre compte en conséquence de vos agissements, et vous demanderont des justifications quant à l'origine de ces fonds. Les informations contenues dans cet article ne constituent pas un conseil en système et logiciels informatiques, ni une incitation quelconque à réaliser des CoinJoin. La réalisation d'un CoinJoin implique d'utiliser un portefeuille logiciel connecté à internet (dit « chaud »). Il est possible que vos fonds soient perdus et/ou volés. Je vous conseille de faire vos propres recherches sur les différents risques existants. Cet article ne peut en aucun cas constituer une source unique d'information sur ces sujets._
 
-![Legende](assets/0.JPG)
-
 ## CoinJoin et mixage de bitcoins.
 
 Avant de commencer, il est important de comprendre la différence entre le CoinJoin et le mixage.
@@ -1100,7 +1098,7 @@ Article Diving head first into Whirlpool Anonymity Sets. De Samourai Wallet.
 
 https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7
 
-Thread Twitter de @BrotherRabbit\_ sur le score prospectif sur Whirlpool :
+Thread Twitter de @BrotherRabbit/\_ sur le score prospectif sur Whirlpool :
 
 https://twitter.com/BrotherRabbit_/status/1528399310227906561
 

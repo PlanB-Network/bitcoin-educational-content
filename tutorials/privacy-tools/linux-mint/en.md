@@ -1,13 +1,9 @@
-
-
 A Computer for Bitcoin Transactions (Installing Linux Mint)
-
 
 original: https://bitcoinmagazine.com/technical/why-use-a-computer-meant-for-bitcoin
 
 https://armantheparman.com/mint/
 Auteur; Arman the parman
-
 
 ## What’s wrong if you use a regular computer?
 
@@ -37,20 +33,19 @@ My recommendation, if you can afford it, and if the size of your bitcoin stack j
 
 Avoid:
 
-* Any tablet combo, including Surface Pro
-* Chromebooks – often the storage capacity is too low
-* Any computer with an eMMC drive; If it has an SSD drive, that’s perfect
-* Macs – they are expensive, and the hardware doesn’t gel well with Linux operating systems in my experience
-* Anything refurbished or 2nd hand (not an absolute deal-breaker though)
+- Any tablet combo, including Surface Pro
+- Chromebooks – often the storage capacity is too low
+- Any computer with an eMMC drive; If it has an SSD drive, that’s perfect
+- Macs – they are expensive, and the hardware doesn’t gel well with Linux operating systems in my experience
+- Anything refurbished or 2nd hand (not an absolute deal-breaker though)
 
 Instead, look for a Windows 11 laptop (Currently Windows 11 is the latest release. We’ll be getting rid of that software, don’t worry.). I searched on amazon.com for “Windows 11 Laptop” and found this good example:
 
-
-![image](aseets\1.png)
+![image](assets/1.png)
 
 The price of this one above is good. The specs are good enough. It has a build-in camera which we can use for QR code PSBT transactions (otherwise you’d have to buy a USB camera to do that). Don’t worry about the fact that it’s not a well-recognised brand (it’s cheap). If you want a better brand, it’ll cost you, eg:
 
-![image](aseets\2.png)
+![image](assets/2.png)
 
 Some of the cheaper ones have only 64Gb of drive space; I haven’t tested laptops with drives that small – it probably is OK to have 64Gb, but it might be pushing it.
 
@@ -87,27 +82,27 @@ We are going to use any computer to flash the operating system to a memory stick
 
 Get one of these things:
 
-![image](aseets\3.png)
+![image](assets/3.png)
 
 Or you can use something like this:
 
-![image](aseets\4.png)
+![image](assets/4.png)
 
 Next, navigate to linuxmint.com
 
-![image](aseets\5.png)
+![image](assets/5.png)
 
 Hover the mouse over the Download menu at the top and then click the link, “Linux Mint 20.3” or whatever version is the latest recommended one at the time you do this.
 
-![image](aseets\6.png)
+![image](assets/6.png)
 
 There will be a few “flavours” to choose from. Go with “Cinnamon” to follow along with this guide. Click the Download button.
 
-![image](aseets\7.png)
+![image](assets/7.png)
 
 On the next page, you can scroll down to see the mirrors (Mirrors are various servers that hold a copy of the file we want). You can verify the download using SHA256 and gpg (recommended), but I’m going to skip explaining that here as I have written guides on this already.
 
-![image](aseets\8.png)
+![image](assets/8.png)
 
 Choose a mirror that’s closest to you and click its link (the green text in the mirror column). The file will begin downloading – the version I’m downloading is 2.1 gigabytes.
 
@@ -115,7 +110,7 @@ Once it’s downloaded, you can flash the file to a portable memory device and m
 
 Then run it:
 
-![image](aseets\9.png)
+![image](assets/9.png)
 
 Click flash from file, and select the LinuxMint file you downloaded.
 
@@ -134,13 +129,13 @@ Reboot the computer and it should load from the USB memory device. We can not in
 
 When you get to the following screen, select “OEM install (for manufacturers)”. If you instead choose “Start Linux Mint”, you’ll get a Linux Mint session loaded off the memory device, but once you shut down the computer, none of your information is saved – it’s basically a temporary session so you can try it out.
 
-![image](aseets\10.png)
+![image](assets/10.png)
 
 You will be taken through a graphical wizard which will ask you a number of questions that should be straightforward. One will be Languange settings, another will be your home internet network connection and password. If prompted to install additional software, reject it. When you get to the question about the installation type, some people may hesitate – you need to choose “Erase disk and install Linux Mint”. Also, do not encrypt the drive and do not select LVM.
 
 You will eventually get to the desktop. At this point, you are not quite finished. You are actually acting as the manufacturer (i.e. someone building a computer and setting up Linux for the customer). You need to double click the desktop icon, “Install Linux Mint”, to finalise it.
 
-![image](aseets\11.png)
+![image](assets/11.png)
 
 Remember to remove the memory stick, and then reboot. After reboot, you’ll be using the operating system for the first time as a new user. Congratulations.
 

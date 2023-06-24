@@ -6,7 +6,10 @@ difficulty: advanced
 tag:
   - wallet
   - Open-source
+  - BTC-only
 ---
+
+![cover](assets/cover.jpeg)
 
 # Fondation
 

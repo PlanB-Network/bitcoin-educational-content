@@ -8,7 +8,7 @@ Tag:
 difficulty: Advanced
 ---
 
-![DALL·E – samourai robot in a red forest, 3D render](assets/0.jpeg)
+![DALL·E – samourai robot in a red forest, 3D render](assets/cover.jpeg)
 
 # Si t’as pas d’amis, utilises JoinBot !
 

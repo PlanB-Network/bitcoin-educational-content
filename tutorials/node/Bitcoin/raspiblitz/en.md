@@ -13,7 +13,7 @@ The RaspiBlitz is a do-it-yourself Lightning Node (LND and/or Core Lightning) ru
 
 RaspiBlitz is mainly targeted for learning how to run your own node decentralized from home - because: Not your Node, Not your Rules. Discover & develop the growing ecosystem of the Lightning Network by becoming a full part of it. Build it as part of a workshop or as a weekend project yourself.
 
-![image](assets\0.png)
+![image](assets/0.png)
 
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - How To Run A Lightning and Bitcoin Full Node by BTC session
@@ -48,25 +48,25 @@ You do not need a monitor (or keyboard or mouse)
 
 Note: This is the wrong hard drive: This is a portable external hard drive. It is not an SSD. SSD is crucial. This is why it’s cheap (Price in AUD)
 
-![image](assets\1.png)
+![image](assets/1.png)
 
 This is the right type to get:
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 This is faster, but unnecessarily expensive:
 
-![image](assets\3.png)
+![image](assets/3.png)
 
 ## Step 2: Download Raspiblitz Image
 
 Navigate to the Raspiblitz github website, and find the “download image” link:
 
-![image](assets\4.png)
+![image](assets/4.png)
 
 The sha-256 hash of the downloaded file is provided on the website. It will change with each update. It you don’t understand what this is about, you should, so I wrote a guide you can read here.
 
-![image](assets\5.png)
+![image](assets/5.png)
 
 ## Step 3: Verify Image
 
@@ -100,13 +100,13 @@ You can use Balena Etcher to do this. Download it here.
 
 Etcher is self explanatory to use. Insert your micro SD card and flash the Raspiblitz software (.img file) onto the SD card.
 
-![image](assets\6.png)
+![image](assets/6.png)
 
-![image](assets\7.png)
+![image](assets/7.png)
 
-![image](assets\8.png)
+![image](assets/8.png)
 
-![image](assets\9.png)
+![image](assets/9.png)
 
 Once done, the drive is no longer readable. You may get an error from the operating system, and the drive should disappear from the desktop. Pull out the card.
 
@@ -114,21 +114,21 @@ Once done, the drive is no longer readable. You may get an error from the operat
 
 The parts (case not shown):
 
-![image](assets\10.png)
+![image](assets/10.png)
 
-![image](assets\11.png)
+![image](assets/11.png)
 
 Connect the ethernet cable, and the hard drive USB connector (not power yet). Avoid connecting to the blue coloured USB ports in the centre. They are USB 3. Use the USB 2 port, even though the drive may be USB 3 capable (more reliable).
 
-![image](assets\12.png)
+![image](assets/12.png)
 
 The micro SD card goes here:
 
-![image](assets\13.png)
+![image](assets/13.png)
 
 Finally, connect the power:
 
-![image](assets\14.png)
+![image](assets/14.png)
 
 ## Step 6: Find the IP address of the Pi
 
@@ -154,57 +154,57 @@ For Windows, you’ll need to install putty to ssh into the Pi. Type the same co
 
 The first time you do this, or whenever you change the OS of the Pi by switching the SD card, you may or may not get this error…
 
-![image](assets\15.png)
+![image](assets/15.png)
 
 The way to fix it is to navigate to where the “known_hosts” file is (it tells you in the error message), and delete it. The command is "rm known_hosts"
 
 Then, repeat the ssh command to log in. This will happen…
 
-![image](assets\16.png)
+![image](assets/16.png)
 
 Type yes (full word) to proceed.
 
 If successful, you’ll be asked for a password. This is not for your computer, but the raspiblitz. The generic password is “raspiblitz”, and youll change that later. The terminal window will turn blue and you’ll have menu options like the old DOS menus. Navige with the arrow keys or mouse.
 
-![image](assets\17.png)
+![image](assets/17.png)
 
 Follow the prompts, set your passwords, and then it will detect your hard drive and give you the option to format it if needed.
 
 Then you’ll be asked if you want to copy the blockchain data from another source or re-downloaded it. Copying it is a learning process and the instructions are quite good, and good to keep handy….
 
-![image](assets\18.png)
+![image](assets/18.png)
 
 The simple but slower way is to download the whole chain from scratch…
 
-![image](assets\19.png)
+![image](assets/19.png)
 
 Lots of text will flash across the terminal screen. You might mistake it for the process of the blockchain download, but it looks like, to me, it’s generating a private key for communication.
 
 Then lightning options appear.
 
-![image](assets\20.png)
+![image](assets/20.png)
 
 Make a new password to lock your lighting wallet, then a new wallet will be created and you’ll be given 24 words to write down…
 
-![image](assets\21.png)
+![image](assets/21.png)
 
 Do make sure you write it down and keep it secure. I heard of one person who didn’t because he wasn’t planning to use lightning, but then a year later decided to use it, and opened channels. Then realising his words were not backed up, and I recall it was not possible to extract the words again from the device, he had to close all his channels and start again. He got away with it, but others might not be so lucky.
 
 Following this, a few minutes of text scrolls down the terminal window. Then…
 
-![image](assets\22.png)
+![image](assets/22.png)
 
 You’ll be logged out of the ssh session. Log back in, this time with your new password, password A. Once in you’ll be asked for password C to unlock your lightning wallet.
 
 Now we wait. See you in 2 weeks. You can close the terminal, it doesn’t do anything to the Pi, it’s just a communication window.
 
-![image](assets\23.png)
+![image](assets/23.png)
 
 If for whatever reason, you want to shutdown the Pi before the blockchain has finished downloading, that’s fine as long as you do it properly. The blockchain will continue downloading where it left off once you reconnect.
 
 Hit CTRL+c to exit the blue screen. You’ll be accessing the Pi’s Linux terminal. Here you can type “menu” which loads the following screen, and from there you can power off the Pi.
 
-![image](assets\24.png)
+![image](assets/24.png)
 
 END of the guide
 

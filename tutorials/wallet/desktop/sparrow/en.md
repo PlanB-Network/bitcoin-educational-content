@@ -9,6 +9,8 @@ tag:
   - privacy
 ---
 
+![cover](assets/cover.jpeg)
+
 # Sparrow
 
 ## A series of videos covering Sparrow Bitcoin Wallet. Guides for beginners and more advanced users.
@@ -27,11 +29,15 @@ When your bitcoin is at risk, you must ensure that you download the correct soft
 
 ![A video walkthrough of how to download Sparrow wallet and verify its authenticity.](https://www.youtube.com/watch?v=MyDMvjGFdDE)
 
+Writing guide: https://armantheparman.com/download-sparrow/
+
 ## How to connect Sparrow Wallet to Bitcoin core
 
 Sparrow Wallet allows you to easily connect your wallet to your bitcoin node if they are running on the same machine. This is for more advanced users, but important for true self sovereignty and privacy. If you don't have a node set up, see the Running Bitcoin guide.
 
 ![How to connect Sparrow wallet to bitcoin core node](https://www.youtube.com/watch?v=9Aw6OAXxE_Y)
+
+Writing guide: https://armantheparman.com/sparrowcore/
 
 ## How to set up Sparrow Wallet: create wallet, send, receive, best practices.
 

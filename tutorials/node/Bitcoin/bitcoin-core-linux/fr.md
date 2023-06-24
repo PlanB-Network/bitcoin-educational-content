@@ -25,7 +25,7 @@ Faire tourner son propre nœud devient un incontournable pour les adhérents à 
 
 Le programme contient également son portefeuille. Ainsi, nous avons le contrôle sur les transactions que nous émettons au reste du réseau, sans intermédiaire ou tierce partie. Vous êtes votre propre banque.
 
-La suite de cet article se veut donc un guide d'installation de Bitcoin Core — la version logicielle Bitcoin la plus répandue — spécifiquement sur distributions Linux compatibles avec Debian, telles que Ubuntu et Pop!\_OS. Suivez ce guide pour faire un pas de plus vers votre souveraineté de l'individu.
+La suite de cet article se veut donc un guide d'installation de Bitcoin Core — la version logicielle Bitcoin la plus répandue — spécifiquement sur distributions Linux compatibles avec Debian, telles que Ubuntu et Pop!/\_OS. Suivez ce guide pour faire un pas de plus vers votre souveraineté de l'individu.
 
 ## Guide d'installation de Bitcoin Core sur Debian/Ubuntu
 
@@ -38,9 +38,7 @@ La suite de cet article se veut donc un guide d'installation de Bitcoin Core —
     - Prévoir ~600GB de bande passante pour le IBD, même pour un nœud élagué.
 
 
-    💡
-
-Les commandes suivantes sont prédéfinies pour la version 24.1 de Bitcoin Core.
+    💡 Les commandes suivantes sont prédéfinies pour la version 24.1 de Bitcoin Core.
 
 ## Téléchargement et vérification des fichiers
 
@@ -52,7 +50,7 @@ Les commandes suivantes sont prédéfinies pour la version 24.1 de Bitcoin Core.
 4. Le sortant de cette commande devrait inclure le nom du fichier de version téléchargé ainsi que "OK". Ex: bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK.
 
 5. Installer git avec la commande sudo install git. Puis, clôner le repo contenant les clés PGP des signataires de Bitcoin Core en utilisant la commande git clone https://github.com/bitcoin-core/guix.sigs.
-6. Importer les clés PGP de tous les signataires avec la commande gpg --import guix.sigs/builder-keys/\*
+6. Importer les clés PGP de tous les signataires avec la commande gpg --import guix.sigs/builder-keys//\*
 7. Vérifier que le fichier de sommes de contrôle est bien signé avec les clés PGP des signataires avec la commande gpg --verify SHA256SUMS.asc.
 
 Chaque signature retournera une ligne débutant par : gpg: Good signature et une autre se terminant avec Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (exemple du fingerprint de la clé PGP de Pieter Wuille).
@@ -66,7 +64,7 @@ Chaque signature retournera une ligne débutant par : gpg: Good signature et une
 
 1. Dans le terminal, toujours dans le répertoire où se trouve le fichier de version Bitcoin Core, utiliser la commande tar xzf bitcoin-24.1-x86_64-linux-gnu.tar.gz pour extraire les fichiers contenu dans l'archive.
 
-2. Installation des fichiers, extraits précédemment, avec la commande sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-24.1/bin/\*
+2. Installation des fichiers, extraits précédemment, avec la commande sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-24.1/bin//\*
 
 3. Installation des dépendances nécessaire avec la commande sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev
 

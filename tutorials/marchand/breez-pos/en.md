@@ -10,6 +10,8 @@ tag:
   - POS
 ---
 
+![cover](assets/cover.jpeg)
+
 # Breez Point of Sales
 
 _This texte comes from the Breez documentation website : https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_

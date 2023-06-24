@@ -12,7 +12,7 @@ difficulty: advanced
 
 _**Guide proposé par Hari Seldon dans le cadre de Agora256**_
 
-![image](assets/0.jpeg)
+![image](assets/cover.jpeg)
 
 Un système d'exploitation portable et amnésique qui vous protège contre la surveillance et la censure.
 

@@ -9,7 +9,7 @@ tag:
   - open-source
 ---
 
-![cover](assets\cover.jpeg)
+![cover](assets/cover.jpeg)
 
 # Blue Wallet - Portefeuille Bitcoin Radicalement Simple et Puissant.
 
@@ -26,12 +26,12 @@ Blue Wallet est un portefeuille open- source bitcoin qui est extremement simple 
 
     Guide offert par Agora256, écrit par Hari Seldon - https://agora256.com/bluewallet-une-introduction/ - 1 févr. 2023
 
-![image](assets\1.jpg)
+![image](assets/1.jpg)
 
 Pour pouvoir recevoir ou envoyer des Bitcoin depuis votre cellulaire (ou tablette), téléchargez BlueWallet à partir du site correspondant à votre type de téléphone cellulaire ou tablette:
 
-* iPhone: https://itunes.apple.com/app/bluewallet-bitcoin-wallet/id1376878040
-* Android: https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet
+- iPhone: https://itunes.apple.com/app/bluewallet-bitcoin-wallet/id1376878040
+- Android: https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet
 
 Une fois l'application installée, créez votre premier portefeuille:
 
@@ -45,7 +45,7 @@ _⚠️ Prendre note sur une feuille de papier de la phrase de sauvegarde (12 mo
 
 Depuis votre nouveau portefeuille BlueWallet, utilisez l'option "Recevoir", qui vous générera une addresse de paiement unique (commencant par bc1...)
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 1. Faites scanner votre adresse de réception directement grâce au code QR;
 
@@ -57,7 +57,7 @@ Depuis votre nouveau portefeuille BlueWallet, utilisez l'option "Recevoir", qui 
 
 Depuis votre nouveau portefeuille BlueWallet, utilisez l'option "Envoyer", qui vous permettra de choisir le montant à envoyer et de scanner ou coller l'adresse Bitcoin du destinataire (commencant normalement par bc1...).
 
-![image](assets\3.png)
+![image](assets/3.png)
 
 1. Saisissez le montant à envoyer;
 2. Scannez le code QR du destinataire ou collez son adresse Bitcoin directement;

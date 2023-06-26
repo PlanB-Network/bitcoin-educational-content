@@ -1,15 +1,3 @@
----
-builder: DecouvreBitcoin
-
-name: Attakai
-
-tag:
-  - mining
-  - DIY
-
-difficulty: advanced
----
-
 ![cover](assets/cover.png)
 
 # Attakai - le home-mining rendu possible et accessible !

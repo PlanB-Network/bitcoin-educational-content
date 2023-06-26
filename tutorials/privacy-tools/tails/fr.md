@@ -1,13 +1,3 @@
----
-builder: Agora256
-
-tag:
-  - privacy
-  - security
-
-difficulty: advanced
----
-
 # Installer Tails sur une clé USB
 
 _**Guide proposé par Hari Seldon dans le cadre de Agora256**_

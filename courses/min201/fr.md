@@ -1,22 +1,18 @@
 ---
 name: Decouverte du Home-mining
 goal: comprendre le minage
-Objectif: 
-   - Comprendre la théorie sur le minage
-   - Comprendre l'industrie du minage
-   - Transformer un S9 en chauffage 
-   - Miner son premier satoshi
-
+Objectif:
+  - Comprendre la théorie sur le minage
+  - Comprendre l'industrie du minage
+  - Transformer un S9 en chauffage
+  - Miner son premier satoshi
 ---
 
-# Introduction 
+# Introduction
 
 # Explication du minage
 
 # l'industrie du minage
-
-
-
 
 # Attakai - le home-mining rendu possible et accessible !
 
@@ -175,7 +171,7 @@ Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et mo
 
 # TUTORIEL : Comment transformer un mineur en chauffage ?
 
-![image](assets/hardwear/0.jpeg)
+![image](assets/hardwear/cover.jpeg)
 
 Si vous êtes un bricoleur averti et que vous cherchez à transformer un mineur en chauffage, ce tutoriel est fait pour vous. Nous tenons à vous avertir que les modifications apportées à un appareil électronique peuvent présenter des risques électriques et d’incendie. Il est donc essentiel de prendre toutes les précautions nécessaires pour éviter tout dommage ou blessure.
 En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur dans un logement, car il est beaucoup trop bruyant et qu’il n’est pas réglable. Toutefois, il est possible d’effectuer des modifications simples pour résoudre ces problèmes.
@@ -504,7 +500,6 @@ Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. 
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
 
-
-# conclusion 
+# conclusion
 
 ## Interview de Gouspillou

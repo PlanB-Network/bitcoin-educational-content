@@ -1,14 +1,3 @@
----
-builder: RGB
-
-Tag:
-  - node
-  - privacy
-  - infrastructure
-
-difficulty: advanced
----
-
 # A brief introduction to RGB protocols
 
 Francisco Calderón published on

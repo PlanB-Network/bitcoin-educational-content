@@ -1,11 +1,3 @@
----
-tag:
-  - mining
-  - do it yourself
-
-difficulty: intermediary
----
-
 ![cover](assets/cover.JPG)
 
 # Setting Up Your NerdMiner_v2

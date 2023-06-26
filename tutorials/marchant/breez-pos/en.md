@@ -1,15 +1,3 @@
----
-builder: Breez
-
-difficulty: intermediary
-
-tag:
-  - wallet
-  - lightning
-  - infrasctructure
-  - POS
----
-
 ![cover](assets/cover.jpeg)
 
 # Breez Point of Sales

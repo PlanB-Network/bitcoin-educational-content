@@ -1,13 +1,3 @@
----
-builder: Agora256
-
-tag:
-  - privacy
-  - security
-
-difficulty: advanced
----
-
 ![image](assets/cover.jpeg)
 
 # LN⚡VPN

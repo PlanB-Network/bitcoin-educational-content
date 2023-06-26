@@ -1,13 +1,3 @@
----
-builder: Pandul
-
-Tag:
-  - Privacy
-  - education
-
-difficulty: Advanced
----
-
 ![Legende](assets/1.JPG)
 
 # Comprendre et utiliser le CoinJoin sur Bitcoin.

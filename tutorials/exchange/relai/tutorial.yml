@@ -1,9 +1,9 @@
 ---
 builder: relai
 
-difficulty: beginner
+level: beginner
 
-tag:
+tags:
   - light-KYC
   - DCA
   - bitcoin-only

@@ -1,11 +1,11 @@
 ---
 builder: ShiftCrypto
 
-difficulty: intermediary
+level: intermediary
 
 category: hardwear
 
-tag:
+tags:
   - self-custodial
   - Open-source
 ---

@@ -1,9 +1,9 @@
 ---
 builder: StackinSat
 
-difficulty: beginner
+level: beginner
 
-tag:
+tags:
   - DCA
   - bitcoin-only
   - full YC

@@ -1,11 +1,11 @@
 ---
 builder: LND
 
-difficulty: advanced
+level: advanced
 
 category: lightning-network
 
-tag:
+tags:
   - open-source
   - self-custodial
   - lightning

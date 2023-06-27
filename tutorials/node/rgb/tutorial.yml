@@ -1,13 +1,13 @@
 ---
 builder: RGB
 
-Tag:
+tags:
   - node
   - privacy
   - infrastructure
 
-category: RGB
+category: rgb
 
-difficulty: advanced
+level: advanced
 ---
 

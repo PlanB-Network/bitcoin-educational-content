@@ -1,9 +1,9 @@
 ---
 builder: Robotsats
 
-difficulty: intermediate
+level: intermediate
 
-tag:
+tags:
   - open-source
   - peer-to-peer
   - bitcoin-only

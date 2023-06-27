@@ -1,12 +1,12 @@
 ---
 builder: Nerd miner
 
-tag:
+tags:
   - mining
   - do it yourself
 
-difficulty: intermediary
+level: intermediary
 
-category: hardwear
+category: hardware
 ---
 

@@ -1,11 +1,11 @@
 ---
 builder: Blockstream
 
-difficulty: intermediary
+level: intermediary
 
-category: hardwear
+category: hardware
 
-tag:
+tags:
   - self-custodial
   - Open-source
 ---

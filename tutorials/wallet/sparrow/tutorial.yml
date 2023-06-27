@@ -1,11 +1,11 @@
 ---
 builder: Sparrow
 
-difficulty: advanced
+level: advanced
 
 category: desktop
 
-tag:
+tags:
   - self-custodial
   - open-source
   - privacy

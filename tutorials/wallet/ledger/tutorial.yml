@@ -1,11 +1,11 @@
 ---
 builder: ledger
 
-difficulty: advanced
+level: advanced
 
 category: hardwear
 
-tag:
+tags:
   - self-custodial
   - multi-coin
 ---

@@ -1,12 +1,12 @@
 ---
 builder: Paymium
 
-tag:
+tags:
   - multi-coin
   - Full KYC
 
 category: centralize
 
-difficulty: intermediary
+level: intermediary
 ---
 

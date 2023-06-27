@@ -1,11 +1,11 @@
 ---
 builder: Samourai
 
-difficulty: intermediary
+level: intermediary
 
 category: hot
 
-tag:
+tags:
   - open-source
   - Privacy
   - self-custodial

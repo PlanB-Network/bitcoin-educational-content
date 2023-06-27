@@ -1,11 +1,11 @@
 ---
 builder: foundation
 
-difficulty: advanced
+level: advanced
 
-category: hardwear
+category: hardware
 
-tag:
+tags:
   - self-custodial
   - Open-source
 ---

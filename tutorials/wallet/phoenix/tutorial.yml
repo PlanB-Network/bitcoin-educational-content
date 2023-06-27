@@ -1,11 +1,11 @@
 ---
 builder: Acinq
 
-difficulty: Intermediary
+level: Intermediary
 
 category: hot
 
-tag:
+tags:
   - open-source
   - lightning-network
   - self-custodial

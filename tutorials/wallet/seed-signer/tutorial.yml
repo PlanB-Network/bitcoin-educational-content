@@ -1,11 +1,11 @@
 ---
 builder: Seed signer
 
-difficulty: advanced
+level: advanced
 
-category: hardwear
+category: hardware
 
-tag:
+tags:
   - DIY
   - Open-source
   - self-custodial

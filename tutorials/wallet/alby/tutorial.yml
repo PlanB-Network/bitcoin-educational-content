@@ -1,11 +1,11 @@
 ---
 builder: alby
 
-difficulty: intermediary
+level: intermediary
 
 category: desktop
 
-tag:
+tags:
   - open-source
   - self-custodial
   - lightning

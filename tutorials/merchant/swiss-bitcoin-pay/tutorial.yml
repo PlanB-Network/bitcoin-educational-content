@@ -1,11 +1,11 @@
 ---
 builder: SwissBitcoinPay
 
-difficulty: beginners
+level: beginner
 
 category: marchand
 
-tag:
+tags:
   - wallet
   - point of sales
   - marchand

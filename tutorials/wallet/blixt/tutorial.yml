@@ -1,11 +1,11 @@
 ---
 builder: Blixt Wallet
 
-difficulty: advanced
+level: advanced
 
 category: hot
 
-tag:
+tags:
   - self-custodial
   - lightning
   - open-source

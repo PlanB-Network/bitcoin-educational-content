@@ -1,11 +1,11 @@
 ---
 builder: Galoy
 
-difficulty: Beginners
+level: beginner
 
 category: hot
 
-tag:
+tags:
   - custodial
   - lightning
   - open-source

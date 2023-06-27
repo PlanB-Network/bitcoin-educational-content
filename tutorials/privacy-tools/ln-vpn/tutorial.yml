@@ -1,12 +1,12 @@
 ---
 builder: LNVPN
 
-tag:
+tags:
   - privacy
   - security
   - VPN
 
-difficulty: advanced
+level: advanced
 
 category: security
 ---

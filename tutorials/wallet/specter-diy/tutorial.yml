@@ -1,13 +1,13 @@
 ---
-builder: Trezor
+builder: Specter
 
-difficulty: beginners
+level: advanced
 
 category: hardwear
 
-tag:
+tags:
   - self-custodial
+  - DIY
   - Open source
-  - multi-coin
 ---
 

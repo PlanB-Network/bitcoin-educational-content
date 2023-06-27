@@ -1,12 +1,12 @@
 ---
 builder: DecouvreBitcoin
 
-category: hardwear
+category: hardware
 
-tag:
+tags:
   - mining
   - DIY
 
-difficulty: advanced
+level: advanced
 ---
 

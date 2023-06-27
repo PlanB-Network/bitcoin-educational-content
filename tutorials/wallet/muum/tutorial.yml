@@ -1,12 +1,12 @@
 ---
 builder: Muum
 
-difficulty: beginners
+level: beginner
 
 category: hot
 
-tag:
-  - lightning network
+tags:
+  - lightning-network
   - self-custodial
 ---
 

@@ -1,11 +1,11 @@
 ---
 builder: Breez
 
-difficulty: intermediary
+level: intermediary
 
 category: marchand
 
-tag:
+tags:
   - wallet
   - lightning
   - infrasctructure

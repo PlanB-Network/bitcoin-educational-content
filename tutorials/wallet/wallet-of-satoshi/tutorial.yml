@@ -1,13 +1,13 @@
 ---
 builder: Wallet of Satoshi
 
-difficulty: beginners
+level: beginner
 
 category: hot
 
-tag:
+tags:
   - wallet
-  - lightning network
+  - lightning-network
   - custodial
 ---
 

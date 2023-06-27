@@ -1,12 +1,12 @@
 ---
 builder: Tails
 
-tag:
+tags:
   - privacy
   - OS
 
 category: security
 
-difficulty: advanced
+level: advanced
 ---
 

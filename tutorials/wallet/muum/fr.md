@@ -1,3 +1,11 @@
+---
+name: Muum
+
+description: Mise en place de votre portefeuille Muum
+
+---
+
+
 ![cover](assets/cover.jpeg)
 
 # Muum wallet
@@ -8,7 +16,7 @@ Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 
 ![vidéo tuto](https://youtu.be/uOl3_vjZKOA)
 
-# Muun Wallet - Guide d'utilisation complet
+## Muun Wallet - Guide d'utilisation complet
 
 Guide d'utilisation complet (avec captures d'écran) de l'application Muun; un portefeuille mobile Bitcoin convivial vous permettant de transiger sur le Lightning Network.
 
@@ -20,7 +28,7 @@ Muun Wallet - Guide d'utilisation complet
 
 ![image](assets/0.5.png)
 
-## Télécharger Muun et créer son portefeuille
+### Télécharger Muun et créer son portefeuille
 
 Premièrement, il faut télécharger l’application mobile, disponible autant sur iOS que Android. Assurez-vous toujours de télécharger la bonne version. Il existe parfois des répliques frauduleuses sur le marché. Je vous recommande de trouver le site web officiel de Muun wallet, en l’occurrence https://muun.com/ , et d’utiliser le lien vers votre système de choix (iOS/Android), de là vous serez certains que vous avez affaire à l’application officielle.
 
@@ -38,7 +46,7 @@ Voilà, l’application a généré un tout nouveau portefeuille qui deviendra d
 
 ![image](assets/4.png)
 
-## Sauvegarde de la clé
+### Sauvegarde de la clé
 
 Appuyez sur l’encadré “Back up your wallet”, vous serez redirigé vers l’onglet “Security”. Le processus de sauvegarde de Muun est convenablement disposé en trois étapes. Il n’est pas obligatoire de compléter chacune des trois étapes, par contre la combinaison de celles-ci offre le maximum de précaution.
 

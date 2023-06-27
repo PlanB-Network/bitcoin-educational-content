@@ -1,3 +1,11 @@
+---
+name: Wallet of satoshie
+
+description: Set up your first LN wallet in 1 minutes
+
+---
+
+
 ![cover](assets/cover.jpeg)
 
 # Wallet of Satoshi

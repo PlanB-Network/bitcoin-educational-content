@@ -1,3 +1,10 @@
+---
+name: BitBox02
+
+description: Set-up and use a BitBox02
+---
+
+
 # Bitbox02
 
 ![cover](assets/cover.jpeg)

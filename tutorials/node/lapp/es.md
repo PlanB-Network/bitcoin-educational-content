@@ -1,4 +1,10 @@
-Tutorial para desarrollar tu primera LApp
+---
+name: LAPP bitcoin
+description: Tutorial para desarrollar tu primera LApp
+
+---
+
+# Tutorial para desarrollar tu primera LApp
 
 Aprende a codear tu primera lightning app
 Francisco Calderón published on

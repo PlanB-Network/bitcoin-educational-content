@@ -1,3 +1,10 @@
+---
+name: Peach Bitcoin
+
+description: Apprendre a utiliser Peach Bitcoin
+
+---
+
 ![cover](assets/cover.jpeg)
 
 # Peach Bitcoin

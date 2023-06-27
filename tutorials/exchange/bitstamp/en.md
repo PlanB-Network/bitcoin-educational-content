@@ -1,3 +1,11 @@
+---
+name: Bitstamp
+
+description: How to use Bitstamp
+
+
+---
+
 # Bitstamp
 
 ![cover](assets/cover.jpeg)

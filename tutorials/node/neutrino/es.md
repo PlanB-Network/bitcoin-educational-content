@@ -1,8 +1,11 @@
-LND Neutrino Installation Guide
+---
+name: Neutrino
+description: LND Neutrino Installation Guide
 
-https://grunch.dev/guides/rpi-neutrino/
-Francisco Calderón published on
-June 14, 2021
+---
+
+LND Neutrino Installation Guide https://grunch.dev/guides/rpi-neutrino/
+Francisco Calderón published on June 14, 2021
 
 # Configuración de Raspberry Pi con LND
 

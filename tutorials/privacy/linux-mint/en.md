@@ -1,4 +1,11 @@
-A Computer for Bitcoin Transactions (Installing Linux Mint)
+---
+name: Installing Linux Mint
+
+description: Set up a computer for bitcoin transactions
+
+---
+
+# A Computer for Bitcoin Transactions (Installing Linux Mint)
 
 original: https://bitcoinmagazine.com/technical/why-use-a-computer-meant-for-bitcoin
 

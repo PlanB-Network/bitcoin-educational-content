@@ -1,12 +1,8 @@
 ---
-builder: Blue Wallet
+name: Blue Wallet
 
-difficulty: Beginners
+description: Portefeuille Bitcoin Radicalement Simple et Puissant
 
-tag:
-  - wallet
-  - lightning
-  - open-source
 ---
 
 ![cover](assets/cover.jpeg)

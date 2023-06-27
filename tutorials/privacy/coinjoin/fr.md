@@ -1,3 +1,10 @@
+---
+name: Coinjoin
+description: Comprendre et utiliser le CoinJoin sur Bitcoin.
+
+---
+
+
 ![Legende](assets/1.JPG)
 
 # Comprendre et utiliser le CoinJoin sur Bitcoin.

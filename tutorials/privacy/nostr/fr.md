@@ -1,12 +1,10 @@
 ---
-builder: agora256
+name: NOSTR
 
-Tag:
-  - nostr
-  - privacy
+description: Découvre et commence a utiliser NOSTR
 
-difficulty: beginners
 ---
+
 
 # Comment utiliser Nostr en 2023 : Un guide pour débutant
 

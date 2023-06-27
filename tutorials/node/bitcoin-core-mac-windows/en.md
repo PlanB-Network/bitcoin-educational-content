@@ -1,13 +1,9 @@
 ---
-builder: Arman The Parman
+name: Noeud Bitcoin Core (mac & windows)
+description: Install Bitcoin Core on Mac or Windows
 
-Tag:
-  - node
-  - privacy
-  - infrastructure
-
-difficulty: advanced
 ---
+
 
 # Install Bitcoin Core on Mac or Windows
 

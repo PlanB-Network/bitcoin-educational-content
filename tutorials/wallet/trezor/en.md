@@ -1,3 +1,10 @@
+---
+name: Trezor model One
+
+description: Set up and use of Trezor model One
+---
+
+
 ![cover](assets/cover.JPEG)
 
 # Trezor model ONE

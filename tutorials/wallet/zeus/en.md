@@ -1,3 +1,9 @@
+---
+name: ZEUS
+
+description: Set up of Zeus wallet
+---
+
 ![Zeus](assets/cover.jpeg)
 
 # Zeus - Lightning in the palm of your hand

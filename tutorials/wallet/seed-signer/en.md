@@ -1,3 +1,10 @@
+---
+name: Seed Signer
+
+description: Set up of your Seed signer
+
+---
+
 ![cover](assets/cover.jpeg)
 
 # Seed signer

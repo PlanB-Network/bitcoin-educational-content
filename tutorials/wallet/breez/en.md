@@ -1,3 +1,10 @@
+---
+name: Breez
+
+description: A powerfull lightning wallet
+
+---
+
 ![cover](assets/cover.jpeg)
 
 # Breez: non-custodial Lightning client.

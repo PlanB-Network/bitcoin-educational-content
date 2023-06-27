@@ -1,3 +1,11 @@
+---
+name: Bisq
+
+description: How to use Bisq, a peer to peer exchange
+
+
+---
+
 ![cover](assets/cover.jpeg)
 
 # BISQ: peer to peer exchange

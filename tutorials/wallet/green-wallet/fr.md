@@ -1,3 +1,9 @@
+---
+name: Green Wallet
+
+description: Guide de mise en place et utilisation (CC Bistack )
+---
+
 ![cover](assets/cover.jpg)
 
 # Tutoriel portefeuille – Green Wallet

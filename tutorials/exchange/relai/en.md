@@ -1,3 +1,10 @@
+---
+name: Relai
+
+description: Set up and use Relai
+
+---
+
 ![cover](assets/cover.jpeg)
 
 # Relai

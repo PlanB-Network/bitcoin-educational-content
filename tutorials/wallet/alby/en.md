@@ -1,3 +1,11 @@
+---
+name: Alby
+
+description: Browser extension for the Bitcoin and LightningNetwork
+
+---
+
+
 ![cover](assets/cover.jpeg)
 
 # Alby - Browser extension for the #Bitcoin and #LightningNetwork

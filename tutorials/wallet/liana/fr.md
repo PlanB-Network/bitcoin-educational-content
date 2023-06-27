@@ -1,3 +1,10 @@
+---
+name: Liana
+
+description: How to set up your Liana Wallet
+---
+
+
 ![cover](assets/cover.JPG)
 
 # Liana - Solution d'héritage

@@ -1,25 +1,32 @@
+---
+name: JADE
+
+description: How to set up your JADE device
+
+---
+
 # Blockstream jade
 
-![image](assets/0.JPG)
+![image](assets/0.JPeG)
 
-# tutorial video
+## Tutorial video
 
 ![video](https://www.youtube.com/watch?v=_U1jsTeqbTw)
 Blockstream Jade - Mobile Bitcoin Hardware Wallet FULL TUTORIAL by BTCsession
 
-# full writing guide
+## Full writing guide
 
     Some original texte and image come from Arman The Parman; https://armantheparman.com/jade/ . We have revisited it to make it more indepth using other guide such as the https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
 
 ![image](assets/cover2.png)
 
-## Pre-requisites
+### Pre-requisites
 
 1. Download the latest version of Blockstream Green.
 
 2. Install this driver to make sure Jade is recognized by your computer.
 
-## Desktop Setup
+### Desktop Setup
 
 ![full guide](https://youtu.be/0fPVzsyL360)
 
@@ -63,7 +70,7 @@ After you have finished using your wallet, disconnect your Blockstream Jade from
 
 source: https://help.blockstream.com/hc/en-us/articles/17478506300825
 
-## Appendix A - Verifying the Green Wallet download file
+### Appendix A - Verifying the Green Wallet download file
 
 Verifying the download means to check that the file you downloaded has not been modified since being released by the developer.
 
@@ -139,7 +146,7 @@ Next, visually compare the hash output with what is in the SHA256SUMS.asc file. 
 
 source: https://armantheparman.com/jade/
 
-## Using it on Sparrow
+### Using it on Sparrow
 
 If you already know how to use SParrow then it's as always:
 
@@ -189,7 +196,7 @@ You have now successfully set up your wallet and you can begin receiving, storin
 
 source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
 
-## green app
+### green app
 
 if you're more a mobile guide, you can use it with blockstream green
 

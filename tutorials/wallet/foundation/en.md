@@ -1,6 +1,17 @@
+---
+name: Foundation
+
+description: How to set up your Foundation device
+
+---
+
+
 ![cover](assets/cover.jpeg)
 
 # Fondation
+
+
+Self-custody is finally attainable with Passport hardware wallet and Envoy mobile wallet. https://foundationdevices.com/
 
 Key Specs
 

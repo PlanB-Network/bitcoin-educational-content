@@ -1,3 +1,11 @@
+---
+name: LN VPN
+
+description: Set up your VPN
+
+---
+
+
 ![image](assets/cover.jpeg)
 
 # LN⚡VPN

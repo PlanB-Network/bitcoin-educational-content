@@ -1,3 +1,10 @@
+---
+name: Specter DIY
+
+description: Set up guide for Specter DIY
+---
+
+
 ![cover](assets/cover.jpeg)
 
 # Specter DIY

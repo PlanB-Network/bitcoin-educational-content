@@ -1,3 +1,11 @@
+---
+name: Ledger Nano S
+
+description: How to set up your Ledger Nano S device
+
+---
+
+
 # Ledger Nano S
 
 Cold physical wallet – €60 – Beginner – To secure €2,000 to €50,000

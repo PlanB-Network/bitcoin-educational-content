@@ -1,3 +1,9 @@
+---
+name: Pheonix
+
+description: Mise en place de votre portefeuille Pheonix
+---
+
 ![phoenix](assets/cover.jpeg)
 
 # Phoenix
@@ -11,6 +17,8 @@ Pour retrouver leur documentation officiel référé vous a leur guide FAQ: http
 ![ Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
 
 ## Guide écrits
+
+Texte a écrire ^^' suivez les images
 
 ### télécharegment & set up
 

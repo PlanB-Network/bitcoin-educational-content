@@ -1,3 +1,10 @@
+---
+name: Specter
+
+description: Guide de mise en place de Specter
+---
+
+
 ![cover](assets/cover.jpeg)
 
 # Specter - Solution pour multi-sig

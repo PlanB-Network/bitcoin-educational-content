@@ -1,3 +1,9 @@
+---
+name: Paymium
+
+description: Mettre en place son compte Paymium
+
+---
 ![cover](assets/cover.jpeg)
 
 # Paymium

@@ -1,3 +1,10 @@
+---
+name: Blink
+
+description: Learn how to use Blink wallet
+
+---
+
 ![cover](assets/cover.jpeg)
 
 # Blink - The everyday bitcoin wallet

@@ -1,3 +1,10 @@
+---
+name: Samouraï
+
+description: Regain your privacy with Samourai
+---
+
+
 ![Samourai Wallet](assets/cover.jpeg)
 
 # Samourai Wallet - Designed for Privacy

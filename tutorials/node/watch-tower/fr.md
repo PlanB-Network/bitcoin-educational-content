@@ -1,3 +1,10 @@
+---
+name: Watch Tower
+description: comprendre et utiliser une watch tower
+
+---
+
+
 # Watch Tower Lightning
 
 L’importance d’une watch tower est primordiale pour une bonne sécurité de son nœud Lightning Network

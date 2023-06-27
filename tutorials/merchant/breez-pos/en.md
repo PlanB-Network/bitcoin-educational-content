@@ -1,3 +1,10 @@
+---
+name: Breez point of sales
+
+description: Guide to start accepting bitcoin using Breez POS
+
+---
+
 ![cover](assets/cover.jpeg)
 
 # Breez Point of Sales

@@ -1,3 +1,10 @@
+---
+name: MyNode
+description: Set up your bitcoin MyNode 
+
+---
+
+
 # Install Bitcoin Core on Mac or Windows
 
 ![image](assets/0.jpeg)

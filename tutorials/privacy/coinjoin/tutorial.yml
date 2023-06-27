@@ -1,12 +1,9 @@
----
 builder: coinjoin
 
 category: mixing
 
-Tag:
+tags:
   - Privacy
   - education
 
-difficulty: Advanced
----
-
+level: advanced

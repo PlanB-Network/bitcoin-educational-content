@@ -1,12 +1,9 @@
----
 builder: Bitstamp
 
-difficulty: intermediary
+level: intermediary
 
 category: centralize
 
-tag:
+tags:
   - multi-coin
   - full KYC
----
-

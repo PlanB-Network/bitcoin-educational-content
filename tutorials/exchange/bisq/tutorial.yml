@@ -1,13 +1,10 @@
----
 builder: bisq
 
-difficulty: advanced
+level: advanced
 
 category: peer to peer
 
-tag:
+tags:
   - peer-to-peer
   - open-source
   - bitcoin-only
----
-

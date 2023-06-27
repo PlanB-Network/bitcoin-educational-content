@@ -1,13 +1,10 @@
----
 builder: Breez
 
-difficulty: intermediary
+level: intermediary
 
 category: hot
 
-tag:
+tags:
   - self-custodial
   - lightning
   - open-source
----
-

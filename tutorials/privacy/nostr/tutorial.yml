@@ -1,12 +1,9 @@
----
 builder: nostr
 
-difficulty: advanced
+level: advanced
 
 category: nostr
 
-tag:
+tags:
   - peer to peer
   - open-source
----
-

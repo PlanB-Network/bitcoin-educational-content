@@ -1,13 +1,10 @@
----
 builder: Blockstream
 
-difficulty: Beginners
+level: beginner
 
 category: hot
 
-tag:
+tags:
   - wallet
   - self-custodial
   - open-source
----
-

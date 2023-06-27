@@ -1,13 +1,10 @@
----
 Builder: Bull Bitcoin
 
-Tag:
+tags:
   - bitcoin-only
   - KYC
   - Non-KYC
 
 category: centralize
 
-difficulty: intermediary
----
-
+level: intermediary

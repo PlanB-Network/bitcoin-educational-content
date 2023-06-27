@@ -1,12 +1,9 @@
----
 builder: Joinbot
 
-Tag:
+tags:
   - Privacy
   - education
 
 category: mixing
 
-difficulty: Advanced
----
-
+level: advanced

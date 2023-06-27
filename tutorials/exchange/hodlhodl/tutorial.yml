@@ -1,13 +1,10 @@
----
 builder: hodlhodl
 
-difficulty: intermediate
+level: intermediate
 
 category: peer-to-peer
 
-tag:
+tags:
   - multi-coin
   - peer-to-peer
   - light-KYC
----
-

@@ -1,13 +1,10 @@
----
 builder: mynode
 
-Tag:
+tags:
   - node
   - privacy
   - infrastructure
 
-category: full node bitcoin
+category: bitcoin
 
-difficulty: advanced
----
-
+level: advanced

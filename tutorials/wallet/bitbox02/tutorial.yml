@@ -1,0 +1,9 @@
+builder: ShiftCrypto
+
+level: intermediary
+
+category: hardware
+
+tags:
+  - self-custodial
+  - Open-source

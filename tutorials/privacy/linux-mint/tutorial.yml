@@ -1,13 +1,10 @@
----
 builder: Arman The Parman
 
-difficulty: advanced
+level: advanced
 
 category: security
 
-tag:
+tags:
   - privacy
   - open-source
   - OS
----
-

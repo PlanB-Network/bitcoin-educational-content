@@ -1,12 +1,9 @@
 ---
-builder: Pandul
+name: JoinBot
+description: Comprendre et utiliser le JoinBot
 
-Tag:
-  - Privacy
-  - education
-
-difficulty: Advanced
 ---
+
 
 ![DALL·E – samourai robot in a red forest, 3D render](assets/cover.jpeg)
 

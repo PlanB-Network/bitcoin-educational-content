@@ -1,13 +1,10 @@
----
 builder: Blue Wallet
 
-difficulty: Beginners
+level: beginner
 
 category: hot
 
-tag:
+tags:
   - open-source
   - lightning
   - self-custodial
----
-

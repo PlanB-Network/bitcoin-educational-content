@@ -1,13 +1,10 @@
----
 builder: Specter
 
-difficulty: advanced
+level: advanced
 
 category: desktop
 
-tag:
+tags:
   - self-custodial
   - multi-sig
   - open-source
----
-

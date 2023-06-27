@@ -1,0 +1,9 @@
+builder: BTCpayserver
+
+level: advanced
+
+category: marchand
+tags:
+  - point of sales
+  - non-KYC
+  - open-source

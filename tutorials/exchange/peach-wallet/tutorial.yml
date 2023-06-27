@@ -1,12 +1,9 @@
----
 builder: Peach Bitcoin
 
-difficulty: beginners
+level: beginner
 
-tag:
+tags:
   - light-KYC
   - bitcoin-only
 
 category: peer-to-peer
----
-

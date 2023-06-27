@@ -1,13 +1,10 @@
----
 builder: lnp2pbot
 
-difficulty: intermediate
+level: intermediate
 
-tag:
+tags:
   - lightning-network
   - bitcoin-only
   - open-source
 
 category: peer-to-peer
----
-

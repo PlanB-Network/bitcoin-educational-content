@@ -1,13 +1,10 @@
----
 builder: WizardSardine
 
-difficulty: advanced
+level: advanced
 
 category: desktop
 
-tag:
+tags:
   - timelocked
   - open-source
   - self-custodial
----
-

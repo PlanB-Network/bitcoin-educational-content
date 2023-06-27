@@ -1,4 +1,3 @@
----
 builder: Seed signer
 
 level: advanced
@@ -9,5 +8,3 @@ tags:
   - DIY
   - Open-source
   - self-custodial
----
-

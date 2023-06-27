@@ -1,4 +1,3 @@
----
 builder: alby
 
 level: intermediary
@@ -9,5 +8,3 @@ tags:
   - open-source
   - self-custodial
   - lightning
----
-

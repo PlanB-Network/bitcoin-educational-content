@@ -1,4 +1,3 @@
----
 builder: Zeus
 
 level: advanced
@@ -9,5 +8,3 @@ tags:
   - open-source
   - lightning-network
   - self-custodial
----
-

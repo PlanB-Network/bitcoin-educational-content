@@ -1,4 +1,3 @@
----
 builder: Raspiblitz
 
 tags:
@@ -9,5 +8,3 @@ tags:
 category: bitcoin
 
 level: advanced
----
-

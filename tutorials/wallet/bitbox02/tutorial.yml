@@ -3,7 +3,7 @@ builder: ShiftCrypto
 
 level: intermediary
 
-category: hardwear
+category: hardware
 
 tags:
   - self-custodial

@@ -85,7 +85,8 @@ Comprendre qui sont les participants et pouvoir permettre aux gens de se renseig
 -> Le développeur phare de ce protocole est Casey Rodarmor ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/)). 
 En 2015, il travailla activement sur Bitcoin Core où il réalisa une série de batchs (mises-à-jours) et un remaniement d'une partie du code de Bitcoin Core ([Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html)).
 
--> Taproot : en quelques mots, à partir de la réduction du poids des adresses et des messsages
+-> Taproot : en quelques mots, à partir de la réduction du poids des adresses et de l'augmentation de la taille de la *witness* (partie du block space laissant....)
+
 
 -> En tant qu'important contributeurs on retrouve [raphjaph (raph)](https://github.com/raphjaph), un étudiant d'informatique à l'université de Munich et [veryordinally (ordinally)](https://github.com/veryordinally?tab=overview&from=2015-12-01&to=2015-12-31) dont le profil a été crée en 2015 mais actif seulement sur Ordinals.
 
@@ -129,19 +130,35 @@ A scheme for assigning ordinal numbers to satoshis and tracking them across tran
 
 ### 2) Des idées anciennes, remises au goût du jour
 
-#### 	a) Counter Party
+-> Ici, il serait intéressant d'interviewer des gens l'ayant vécu pour avoir leur retour d'expérience. 
 
-#### 	b) Les colored coins
+#### 	a) Counter Party (2012)
 
-#### 	c) Ethreum et les ABI
+#### 	b) Les colored coins (2014)
+
+#### 	c) Ethreum et les ABI (2015)
 
 ### 3) La core Team
 
 ####	a) Github
+[Contributors to ordinals/ord](https://github.com/ordinals/ord/graphs/contributors)
+
+![core1](./assets/core_team1.png)
+![core2](./assets/core_team2.png)
+![core3](./assets/core_team3.png)
+
 
 ####	b) Twitter
 
+Une liste Twitter regroupant les principaux core developpers [ordinals dev list](https://twitter.com/i/lists/1627776735210098708?s=20).
+
 ####	c) Le passage du flambeau
+
+[Casey: "I haven't been able to give ord the attention it deserves, so I am pleased to announce that @raphjaph has agreed to step up as lead maintainer! Raph is an impoverished student, and his work on ord will be entirely funded by donations. If you can, please consider donating!…"](https://twitter.com/rodarmor/status/1662617512700420096)
+
+
+
+
 
 
 ## II) Théorie et implémentation

@@ -21,7 +21,7 @@ Si tu souhaites faire un tour sur leur site, c’est juste ici (https://blockstr
 
 ## Tuto écrie
 
-    Ce guide a été produit et appartient a Bitstack. Bitstack est une néo banque bitcoin basé sur paris qui permet de DCA sur bitcoin. Guide écrit par Loic Morel le 15/02/2023. Ceci leur appartient. https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet
+> Ce guide a été produit et appartient a Bitstack. Bitstack est une néo banque bitcoin basé sur paris qui permet de DCA sur bitcoin. Guide écrit par Loic Morel le 15/02/2023. Ceci leur appartient. https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet
 
 ![image](assets/0.png)
 
@@ -35,9 +35,8 @@ Green Wallet est disponible sur tous types d’appareils. Dans ce tutoriel, nous
 
 La première étape consiste évidemment à télécharger le logiciel ou l’application Green Wallet. Si vous êtes sur mobile, vous pouvez simplement la télécharger depuis votre store. Il convient de vérifier que vous êtes bien sur la page de téléchargement de l’application officielle. Voici les pages en fonction de votre système :
 
-    Google Play Store
-
-    Apple App Store
+> Google Play Store
+> Apple App Store
 
 Si vous téléchargez le logiciel sur un ordinateur, je vous conseille fortement de vérifier l’authenticité et l’intégrité du binaire avant de l’installer sur votre machine. Je vous expliquerai comment réaliser cette opération dans un prochain tutoriel.
 Choix des paramètres de l’application
@@ -46,9 +45,9 @@ Au lancement de l’application, vous arrivez sur l’écran d’accueil. Pour l
 
 La première action à mener, avant de créer votre portefeuille, est d’ouvrir les paramètres de l’application pour choisir ceux qui vous conviennent le mieux.
 
-    « Enhanced Privacy » vous permet de désactiver la possibilité de faire des captures d’écran sur l’application. Cette option va également cacher les aperçus et sécuriser automatiquement l’application lorsque vous verrouillez votre téléphone. Elle n’est disponible que sur Android ;
-
-    Vous pouvez ensuite choisir de router votre trafic via Tor afin que toutes vos connexions soient chiffrées. Cela ralentit légèrement le fonctionnement de votre application, mais je vous conseille de l’activer afin de préserver votre vie privée ;
+> « Enhanced Privacy » vous permet de désactiver la possibilité de faire des captures d’écran sur l’application. Cette option va également cacher les aperçus et sécuriser automatiquement l’application lorsque vous verrouillez votre téléphone. Elle n’est disponible que sur Android ;
+>
+> Vous pouvez ensuite choisir de router votre trafic via Tor afin que toutes vos connexions soient chiffrées. Cela ralentit légèrement le fonctionnement de votre application, mais je vous conseille de l’activer afin de préserver votre vie privée ;
 
     L’option « Testnet » vous permet de créer des portefeuilles sur le Testnet. C’est un réseau qui agit exactement comme le système Bitcoin, à la différence près que les bitcoins qui y sont échangés n’ont strictement aucune valeur. Ce réseau Testnet séparé est plébiscité par des utilisateurs ou des développeurs qui désirent tester des applications, sans pour autant prendre de risque financier. Si vous souhaitez utiliser Green Wallet sur le vrai système Bitcoin, vous pouvez conserver cette option décochée ;
 

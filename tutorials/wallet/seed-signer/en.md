@@ -2,7 +2,6 @@
 name: Seed Signer
 
 description: Set up of your Seed signer
-
 ---
 
 ![cover](assets/cover.jpeg)
@@ -97,7 +96,8 @@ https://youtu.be/x0Ee35Ct0r4
 
 Those are all the SeedSigner guides, for now! Let me know if you think I am missing anything. These are on my list for potential videos:
 
-    SeedSigner overall review. Is it a good choice for a signing device? Pros/cons?
+> SeedSigner overall review. Is it a good choice for a signing device? Pros/cons?
+
     How to use Bip-85 with SeedSigner
     How to be uncle Jim with SeedSigner
 

@@ -4,7 +4,6 @@ name: BitBox02
 description: Set-up and use a BitBox02
 ---
 
-
 # Bitbox02
 
 ![cover](assets/cover.jpeg)
@@ -17,25 +16,23 @@ It offers cutting-edge security engineered by experts, featuring a dual-chip des
 
 ![video](https://youtu.be/sB4b2PbYaj0)
 
-    Specifications
+> Specifications
+>
+> - Connectivity: USB-C
+> - Compatibility: Windows 7 and later, macOS 10.13 and later, Linux, Android
+> - Input: Capacitive touch sensors
+> - Microcontroller: ATSAMD51J20A; 120 Mhz 32-bit Cortex-M4F; True random number generator
+> - Secure chip: ATECC608B; True random number generator (NIST SP 800-90A/B/C)
+> - Display: 128 x 64 px white OLED
+> - Material: Polycarbonate
+> - Size: 54.5 x 25.4 x 9.6 mm including USB-C plug
+> - Weight: Device 12g; with packaging and accessories 160g
 
-      - Connectivity: USB-C
-      - Compatibility: Windows 7 and later, macOS 10.13 and later, Linux, Android
-      - Input: Capacitive touch sensors
-      - Microcontroller: ATSAMD51J20A; 120 Mhz 32-bit Cortex-M4F; True random number generator
-      - Secure chip: ATECC608B; True random number generator (NIST SP 800-90A/B/C)
-      - Display: 128 x 64 px white OLED
-      - Material: Polycarbonate
-      - Size: 54.5 x 25.4 x 9.6 mm including USB-C plug
-      - Weight: Device 12g; with packaging and accessories 160g
-
-      Download data sheets on their website https://bitbox.swiss/bitbox02/
+Download data sheets on their website https://bitbox.swiss/bitbox02/
 
 ## How to use the BitBox02 Hardware Wallet
 
-    The following guide was offerted by Parman (https://twitter.com/parman_the)
-    you can tips him here; dandysack84@walletofsatoshi.com
-    Original source; https://armantheparman.com/bitbox02/
+> The following guide was offerted by Parman (https://twitter.com/parman_the),you can tips him here; dandysack84@walletofsatoshi.com - Original source; https://armantheparman.com/bitbox02/
 
 ### Setting up the BitBox02
 

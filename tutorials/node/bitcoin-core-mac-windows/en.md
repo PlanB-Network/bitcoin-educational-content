@@ -1,15 +1,11 @@
 ---
 name: Noeud Bitcoin Core (mac & windows)
 description: Install Bitcoin Core on Mac or Windows
-
 ---
-
 
 # Install Bitcoin Core on Mac or Windows
 
-    The following guide was offerted by Parman (https://twitter.com/parman_the)
-    you can tips him here; dandysack84@walletofsatoshi.com
-    Original source; https://armantheparman.com/bitcoincore/
+> The following guide was offerted by Parman (https://twitter.com/parman_the) you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/bitcoincore/
 
 Installing Bitcoin Core on your regular computer can be done, but it’s not ideal. If you don’t mind leaving your computer on 24/7, then this will work fine. If you need to turn off the computer, it gets annoying waiting for the software to sync up each time you turn it back on.
 
@@ -57,9 +53,10 @@ Next, we need to hash the Bitcoin Core download and compare it to what the file 
 
 Navigate to the Downloads directory again and execute this command (replace X’s with the full node bitcoin download file name exactly):
 
-    FOR MAC —–> shasum -a 256 XXXXXXXXXXXX
-
-    FOR WINDOWS —–> certutil -hashfile XXXXXXXXXXX SHA256
+```
+FOR MAC —–> shasum -a 256 XXXXXXXXXXXX
+FOR WINDOWS —–> certutil -hashfile XXXXXXXXXXX SHA256
+```
 
 You will get a hash output. Make a note of it, and compare it to the hash contained in the SHA256SUMS file.
 
@@ -84,11 +81,15 @@ We want the lead developer’s public key, Wladimir J. van der Laan on our compu
 
 Copy that text into the following command:
 
-    gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 01EA5486DE18A882D4C2684590C8019E36C2E964
+```
+gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 01EA5486DE18A882D4C2684590C8019E36C2E964
+```
 
 Out of interest, at any time, you can see what keys are in the computer’s keyring with this command:
 
-    gpg --list-keys
+```
+gpg --list-keys
+```
 
 ## Verify the download (part 2)
 
@@ -96,7 +97,9 @@ We have the public key, so we can now verify the SHA256SUMS file which contains 
 
 Open Terminal or CMD again, and make sure you are in the Downloads directory. From there, execute this command:
 
-    gpg –verify SHA256SUMS.asc SHA256SUMS
+```
+gpg –verify SHA256SUMS.asc SHA256SUMS
+```
 
 The first listed file is the exact spelling of the signature file. The second listed file should be the exact spelling of the text file containing the hashes. Both files should be in the same directory and you need to be in the directory of the files, otherwise, you have to type out the full path for each file.
 

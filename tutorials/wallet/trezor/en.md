@@ -4,7 +4,6 @@ name: Trezor model One
 description: Set up and use of Trezor model One
 ---
 
-
 ![cover](assets/cover.JPEG)
 
 # Trezor model ONE
@@ -213,13 +212,17 @@ For Linux, GPG is already part of every package. In case you don’t have it, ge
 
 Next, for Mac/Windows or Linux, open the terminal, and enter the command:
 
-    gpg –import XXXXXXXXXX
+```
+gpg –import XXXXXXXXXX
+```
 
 where XXXXXXXXXX is the full path to the signing key file (full path meaning the directory and the file name where the file is). You should see a confirmation of a successful key import.
 
 Then
 
-    gpg –verify ZZZZZZZZZZ WWWWWWWWWW
+```
+gpg –verify ZZZZZZZZZZ WWWWWWWWWW
+```
 
 where ZZZZZZZZZZ is the full path to the signature file and WWWWWWWWWW is the full path to the Trezor Suite program that you downloaded.
 

@@ -1,0 +1,11 @@
+name: Bitstamp
+links:
+  website: https://www.bitstamp.net/
+  twitter: https://twitter.com/Bitstamp
+
+tags:
+  - multi-coin
+  - centralize
+  - KYC
+
+category: exchange

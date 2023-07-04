@@ -1,10 +1,8 @@
 ---
-name: Wallet of satoshie
+name: Wallet of satoshi
 
 description: Set up your first LN wallet in 1 minutes
-
 ---
-
 
 ![cover](assets/cover.jpeg)
 
@@ -16,7 +14,7 @@ It is a zero-configuration custodial wallet with a focus on simplicity and the b
 
 Simply download and install the app and you are on the Lightning Network!
 
-## tutorial video
+## Tutorial video
 
 ![video tuto](https://youtu.be/Es4InK3lq5c)
 

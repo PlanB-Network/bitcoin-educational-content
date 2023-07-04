@@ -2,7 +2,6 @@
 name: Electrum
 
 description: Full Electrum Guide, from 0 to hero
-
 ---
 
 ![cover](assets/cover.png)
@@ -15,7 +14,7 @@ https://electrum.readthedocs.io/
 
 # Electrum Bitcoin Wallet
 
-    "I have to say, when i came across this guide i was shocked. Congrats on Arman the Parman for this. It would have been ashame not to host in here and translate it on as many language as possible. Honeslty, tips that dude." Rogzy
+> "I have to say, when i came across this guide i was shocked. Congrats on Arman the Parman for this. It would have been ashame not to host in here and translate it on as many language as possible. Honeslty, tips that dude." Rogzy
 
 Original post: https://armantheparman.com/electrum/
 
@@ -29,7 +28,7 @@ This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutio
 
 For the new Bitcoiner, it is excellent only if under the supervision of an experienced user to show them the way. If learning to use it alone, it would be safe provided they take their time and use it in a testing environment with only a small number of sats at first. This guide supports that endeavour, but it is also a good reference for anyone else.
 
-    Warning: This guide is big. Don’t try to do all this in one day. It’s best to save the guide and chip away over time.
+> Warning: This guide is big. Don’t try to do all this in one day. It’s best to save the guide and chip away over time.
 
 ## Downloading Electrum
 
@@ -87,7 +86,9 @@ Navigate to the Downloads directory (or wherever you put the three files). If yo
 
 In the terminal, type this to import ThomasV’s public key into your computer’s “keyring” (the keyring is an abstract concept – it’s actually just a file on your computer):
 
-    gpg --import ThomasV.asc
+```
+gpg --import ThomasV.asc
+```
 
 Make sure the file name matches what you have downloaded. Also, notice it’s a double dash not a single dash. Also, note there is a space before and after “–import”. Then hit <enter>.
 
@@ -95,7 +96,9 @@ The file should import. If you get an error, check you are in the directory wher
 
 Then we run the command to verify the signature.
 
-    gpg –verify Electrum-4.1.5.tar.gz.asc Electrum-4.1.5.tar.gz
+```
+gpg –verify Electrum-4.1.5.tar.gz.asc Electrum-4.1.5.tar.gz
+```
 
 Notice there are 4 “elements” here, each separated by a space. I have bolded the text alternatively to help you see. The four elements are:
 
@@ -122,8 +125,10 @@ If you downloaded the Python version, this is how to make it work. You’ll see 
 
 For Linux, It’s a good idea to first update your system:
 
-    sudo apt-get update
-    sudo apt-get upgrade
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 Copy the highlighted yellow text, paste it into the terminal, and hit <enter>. You’ll be asked for your password, possibly a confirmation to continue, and then it will install those files (“dependencies”).
 
@@ -138,7 +143,9 @@ The steps (Linux) are:
 
 On a Mac, the steps are the same but you may need to first install Python3, and use this command to run:
 
-    python3 ./run_electrum
+```
+python3 ./run_electrum
+```
 
 Once Electrum is running, the terminal window will remain open. If you close it, it will terminate the Electrum program. Just minimise it while using Electrum.
 
@@ -146,7 +153,9 @@ Once Electrum is running, the terminal window will remain open. If you close it,
 
 This is a bit easier, but not as easy as a Windows executable file. Depending on the version of Linux your running, by default, Appimage files may have attributes set so that execution is disallowed by the system. We must change this. If your Appimages works, you can skip this step. Navigate to where the file is, using terminal, then run this command:
 
-    sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
+```
+sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
+```
 
 “sudo” gives superuser privileges; “chmod” is a command to change the mode, altering who can read, write, or execute; “ug+x” means we are modifying the user and group to allow execution.
 
@@ -200,7 +209,7 @@ Electrum will be looking for words that match its own protocol. We have to bypas
 
 The seed then becomes valid. (Before doing this, Electrum was expecting an Electrum seed so this seed was seen as invalid). Before you click next, notice the text that says “Checksum OK”. It is important (for the real wallet you may use later) that you see this before proceeding, as it confirms the validity of the seed you put in. The warning near the bottom can be ignored, it is the Electrum developer’s whinge about BIP39 and their “FUD’ey” claims that their version (which is not compatible with other wallets) is superior.
 
-    A quick detour for an important warning. The purpose of the checksum is to make sure you have entered your seed without typing errors. The checksum is the final part of the seed (the 12th word ends up being the checksum word) which mathematically is determined by the first part of the seed (11 words). If you were to type something wrong at the start, the checksum word will not mathematically match, and the wallet software will alert you with a warning. This doesn’t mean that the seed can’t be used to create a functional Bitcoin Wallet. Imagine creating a wallet with a typing error, loading the wallet with bitcoin, then one day you may need to restore the wallet, but when you do, you don’t recreate the typing error – you’ll restore the wrong wallet! It is quite dangerous that Electrum will let you proceed to make a wallet if your checksum is invalid, so be warned, it’s your responsibility to make sure. Other wallets will not let you proceed, which is far safer. This is one of the things I mean when I say Electrum is fine to use, once you learn to use it properly (Electrum devs should fix this).
+> A quick detour for an important warning. The purpose of the checksum is to make sure you have entered your seed without typing errors. The checksum is the final part of the seed (the 12th word ends up being the checksum word) which mathematically is determined by the first part of the seed (11 words). If you were to type something wrong at the start, the checksum word will not mathematically match, and the wallet software will alert you with a warning. This doesn’t mean that the seed can’t be used to create a functional Bitcoin Wallet. Imagine creating a wallet with a typing error, loading the wallet with bitcoin, then one day you may need to restore the wallet, but when you do, you don’t recreate the typing error – you’ll restore the wrong wallet! It is quite dangerous that Electrum will let you proceed to make a wallet if your checksum is invalid, so be warned, it’s your responsibility to make sure. Other wallets will not let you proceed, which is far safer. This is one of the things I mean when I say Electrum is fine to use, once you learn to use it properly (Electrum devs should fix this).
 
 Notice that if you wanted to add a passphrase, the chance to select that is in this options window, right at the top.
 
@@ -210,7 +219,7 @@ If you didn’t request a passphrase, you’ll see this screen next – more opt
 
 ![image](assets/13.png)
 
-    For extra info: The first option allows you to choose between legacy (addresses starting with “1”), pay-to-script-hash (addresses starting with “3”), or bech32/native segwit (addresses starting with “bc1q”). At the time of writing, Electrum does not yet support taproot (addresses starting with “bc1p”). The second option in this window allows you to modify the derivation path. I suggest you never modify this, especially before understanding what it means. People will emphasise the importance of writing the derivation path down so you can recover your wallet if needed, but if you leave it as the default, you’re going to probably be fine, so don’t panic – but it’s still good practice to write the derivation path down.
+> For extra info: The first option allows you to choose between legacy (addresses starting with “1”), pay-to-script-hash (addresses starting with “3”), or bech32/native segwit (addresses starting with “bc1q”). At the time of writing, Electrum does not yet support taproot (addresses starting with “bc1p”). The second option in this window allows you to modify the derivation path. I suggest you never modify this, especially before understanding what it means. People will emphasise the importance of writing the derivation path down so you can recover your wallet if needed, but if you leave it as the default, you’re going to probably be fine, so don’t panic – but it’s still good practice to write the derivation path down.
 
 Next, you’ll be given the option to add a PASSWORD. This is not to be confused with “PASSPHRASE”. A password locks the file on your computer. A passphrase is part of the make-up of the private key. Since this is a dummy wallet, you can leave the password blank and proceed.
 
@@ -233,7 +242,7 @@ Go to the top menu, view, and select “show addresses”. Then go back to view 
 
 By default, Electrum connects to a random node. It also connects to many other secondary nodes. I’m not sure what data is exchanged with those secondary nodes, but we don’t want it happening, for privacy. Even if you specify a node, e.g. your own node, these multiple other nodes will also be connected, and I am not sure what information is being shared. Regardless, it is easy to prevent. Before I show you how to specify your own node, we will force Electrum to only connect to one server at a time.
 
-    There is a way to do this by specifying “oneserver” from the command line, but I don’t recommend this way. I will show an alternative that I think is easier in the long run, and more likely not to let you accidentally connect to other nodes.
+> There is a way to do this by specifying “oneserver” from the command line, but I don’t recommend this way. I will show an alternative that I think is easier in the long run, and more likely not to let you accidentally connect to other nodes.
 
 The reason we are using a dummy wallet is that if we had loaded our real wallet, with our real bitcoin, we would have inadvertently connected to a random node by now (even if we selected “set server manually” at the start, it still connects to these other secondary nodes for some reason (hey Electrum devs, you should fix this). If our wallet was private, this would be a disaster.
 
@@ -247,13 +256,17 @@ Open the terminal in Linux or Mac (Windows instructions later):
 
 You should automatically be in the home folder. From there, navigate to the hidden electrum settings folder (this is different to where the application is).
 
-    cd .electrum
+```
+cd .electrum
+```
 
 Notice the dot before “electrum” which indicates it is a hidden folder.
 
 Another way to get there is to type:
 
-    cd ~/.electrum
+```
+cd ~/.electrum
+```
 
 where “~” represents the path of your home directory. You can see the full path of your current directory with the command “pwd“.
 
@@ -261,7 +274,9 @@ Once in the “.electrum” directory, type “nano config” and hit <enter>.
 
 A text editor will open (called nano) with the config file open. The mouse doesn’t work much here. Use the arrow keys to get to the line that says:
 
-    "oneserver": false,
+```
+"oneserver": false,
+```
 
 Change “false” to “true”; and don’t disturb the syntax (don’t delete the comma or semicolon).
 
@@ -275,13 +290,17 @@ Just below that, you’ll see a text field and the server’s address is in ther
 
 The windows config file is a bit harder to find. The directory is:
 
-    C:/Users/Parman/AppData/Roaming/Electrum
+```
+C:/Users/Parman/AppData/Roaming/Electrum
+```
 
 Obviously, you have to change “Parman” to your own username for the computer.
 
 In that folder you will find the config file. Open it with a text editor and edit the line:
 
-    "oneserver": false,
+```
+"oneserver": false,
+```
 
 Change “false” to “true”; don’t disturb the syntax (don’t delete the comma or semicolon).
 
@@ -321,7 +340,7 @@ Close the window, and now we should be connected to Bitaroo’s node. To confirm
 
 If you have your own node that’s great. If you have Bitcoin Core only, and not an Electrum SERVER as well, you won’t yet be able to connect an Electrum WALLET to your node.
 
-    Note: Electrum Server and Electrum Wallet are different things. The server is software required for Electrum Wallet to be able to communicate the Bitcoin blockchain – I don’t know why it was designed this way – possibly for speed but I could be wrong.
+> Note: Electrum Server and Electrum Wallet are different things. The server is software required for Electrum Wallet to be able to communicate the Bitcoin blockchain – I don’t know why it was designed this way – possibly for speed but I could be wrong.
 
 If you run a node software package like MyNode (the one I recommend people to start with), Raspiblitz (recommended as you get more advanced), or Umbrel (I personally don’t yet recommend it as I’ve experienced too many issues), then you will be able to connect your wallet simply by entering the IP address of the computer (Raspberry Pi) running the node, plus a colon, and 50002, as shown in the image in the previous section. (Further down I’ll show you how to find your node’s IP address).
 
@@ -345,17 +364,23 @@ An IP address is not something a regular user commonly knows how to look up and 
 
 For MyNode, you can type in a browser window:
 
-    mynode.local
+```
+mynode.local
+```
 
 Sometimes, “mynode.local” doesn’t work (make sure you’re not typing it in a Google search bar. To force the navigation bar to recognise your text as an address and not a search, precede the text with http://
 
 like this:
 
-    http://mynode.local
+```
+http://mynode.local
+```
 
 if that doesn’t work, try it with an “s”, like this:
 
-    https://mynode.local
+```
+https://mynode.local
+```
 
 This will access the device, and you can click on the settings link (see my blue “circle” below) to show this screen where the IP address is located:
 
@@ -389,19 +414,25 @@ We are interested in the first 4 elements (192.168.0), not the 4th element, the 
 
 For Linux, use the command line:
 
-    ifconfig | grep inet
+```
+ifconfig | grep inet
+```
 
 That vertical line is the “pipe” symbol and you’ll find it below the <delete> key. You’ll see some output and an IP address. (Ignore 127.0.0.1 it’s not that, and ignore the netmask)
 
 For Windows, open the command prompt (cmd) and type:
 
-    ipconfig/all
+```
+ipconfig/all
+```
 
 and press Enter. The IP address can be found in the output.
 
 That was the easy bit. The hard part is now to find your node’s IP address – we need to brute-force guess. Let’s say for example your computer’s IP address starts with 192.168.0.xxx, then for your node, in a browser, try:
 
-    https://192.168.0.2
+```
+https://192.168.0.2
+```
 
 The smallest possible number is 2 (0 means any device, and 1 belongs to the router) and the highest, I believe is 255 (this happens to be 11111111 in binary, the largest number held by 1 byte).
 
@@ -411,7 +442,7 @@ It will look something like this (make sure you include the colon and number aft
 
 ![image](assets/22.png)
 
-    It’s useful to know that these IP addresses are INTERNAL to your home network. Nobody outside can see them and they are not sensitive. They’re kind of like phone extensions in a large organisation directing you to different telephones.
+> It’s useful to know that these IP addresses are INTERNAL to your home network. Nobody outside can see them and they are not sensitive. They’re kind of like phone extensions in a large organisation directing you to different telephones.
 
 ## Delete dummy wallet
 
@@ -443,7 +474,7 @@ Also note that there are yellow addresses, called “change addresses” – The
 
 Next, go back to the Ian Colman private key website and enter the seed (instead of generating one). You’ll see below the private and public key information changes; everything below is dependent on the things above on the page.
 
-    Remember, you should “never” enter the seed on a computer for your real Bitcoin wallet – malware can steal it. We are just using a practice wallet, for learning purposes, so it’s fine for now.
+> Remember, you should “never” enter the seed on a computer for your real Bitcoin wallet – malware can steal it. We are just using a practice wallet, for learning purposes, so it’s fine for now.
 
 Scroll down and change the derivation path to BIP84 (segwit) to match your Electrum wallet by clicking the BIP84 tab.
 
@@ -575,7 +606,7 @@ In the bottom window, we see our address. Notice the bitcoin total of the inputs
 
 If we adjust the mining fee, the output value will automatically change.
 
-    It’s worth pointing out here: Note the colour of the addresses in the transaction window. Remember that the green addresses are listed in your address tab. If an address is highlighted green (or yellow) in a transaction window, then Electrum has recognised the address as one of its own. If the address has no highlight, then it is an external address (external to the currently open wallet), and you should check it with extra care.
+> It’s worth pointing out here: Note the colour of the addresses in the transaction window. Remember that the green addresses are listed in your address tab. If an address is highlighted green (or yellow) in a transaction window, then Electrum has recognised the address as one of its own. If the address has no highlight, then it is an external address (external to the currently open wallet), and you should check it with extra care.
 
 Once you check everything in the transaction and are sure you are happy with which coins you are spending, and where the coins are going, you can click “finalise.”
 
@@ -683,7 +714,7 @@ Now go back to the Ian Coleman site, down to the “derivation path” section, 
 
 The extended private and public keys are just below, and they change when you make changes to the derivation path (or anything else higher up the page).
 
-![image](assets/151.png)
+![image](assets/51.png)
 
 You will also see “BIP32 extended private/public” keys – these are to be ignored for now.
 
@@ -708,7 +739,7 @@ One reason, and not the main one, is that you can potentially observe your walle
 
 Another is that it is REQUIRED in order to make payments if you choose to keep your private keys off the computer; I’ll explain:
 
-    Hardware wallets (HWW) were created so that a device can hold your private keys securely (locked with a PIN), never expose the keys to a computer (even when connected to a computer via a cable), and are themselves unable to connect to the internet. Such a device can not make transactions on its own because all bitcoin transactions start by referencing a UTXO(s) on the blockchain (which is on a node). A wallet must specify which transaction ID the UTXO is in, and which output of the transaction is the one to be spent. Only after specifying the input can a new transaction be created in the first place, let alone signed. Hardware wallets can’t create transactions because they have no access to any UTXOs – they’re not connected to anything! An extended public key is usually extracted from the HWW, and addresses are then displayed on a computer – many people will be familiar with the Ledger software or Trezor Suite showing addresses and balances on their computer – this is a watching wallet. These programs can create transactions, but they can’t sign. They can only have transactions signed by HWWs that are connected to them. The HWW takes the newly generated transaction from the watching wallet, signs it, and then sends it back to the computer for broadcasting to a node. The HWW can’t broadcast by itself, its associated watching wallet does that. In this way, the two wallets (public key wallet on the computer, and private key wallet in the HWW) cooperate to generate, sign, and broadcast, all while making sure the private keys stay isolated and away from an internet-connected device.
+> Hardware wallets (HWW) were created so that a device can hold your private keys securely (locked with a PIN), never expose the keys to a computer (even when connected to a computer via a cable), and are themselves unable to connect to the internet. Such a device can not make transactions on its own because all bitcoin transactions start by referencing a UTXO(s) on the blockchain (which is on a node). A wallet must specify which transaction ID the UTXO is in, and which output of the transaction is the one to be spent. Only after specifying the input can a new transaction be created in the first place, let alone signed. Hardware wallets can’t create transactions because they have no access to any UTXOs – they’re not connected to anything! An extended public key is usually extracted from the HWW, and addresses are then displayed on a computer – many people will be familiar with the Ledger software or Trezor Suite showing addresses and balances on their computer – this is a watching wallet. These programs can create transactions, but they can’t sign. They can only have transactions signed by HWWs that are connected to them. The HWW takes the newly generated transaction from the watching wallet, signs it, and then sends it back to the computer for broadcasting to a node. The HWW can’t broadcast by itself, its associated watching wallet does that. In this way, the two wallets (public key wallet on the computer, and private key wallet in the HWW) cooperate to generate, sign, and broadcast, all while making sure the private keys stay isolated and away from an internet-connected device.
 
 ## Partially Signed Bitcoin Transactions (PSBTs)
 
@@ -758,11 +789,15 @@ This way should be easier, but for Linux computers, it’s much harder. Somethin
 
 It’s a good idea to make sure the system is up to date. Then:
 
-    sudo apt-get install libusb-1.0-0-dev libudev-dev
+```
+sudo apt-get install libusb-1.0-0-dev libudev-dev
+```
 
 then...
 
-    python3 -m pip install ckcc-protocol
+```
+python3 -m pip install ckcc-protocol
+```
 
 If you get an error make sure pip is installed. You can check with (pip –version), and you can install it with (sudo apt install pythron3-pip)
 
@@ -770,7 +805,9 @@ Create or modify existing, the file, /etc/udev/rules.d/
 
 Like this:
 
-    sudo nano /etc/udev/rules.d
+```
+sudo nano /etc/udev/rules.d
+```
 
 A text editor will open. Copy the text from here and paste it into the rules.d file, save and exit.
 
@@ -778,11 +815,13 @@ A text editor will open. Copy the text from here and paste it into the rules.d f
 
 Then run these commands one after the other:
 
-    sudo groupadd plugdev
+```
+sudo groupadd plugdev
 
-    sudo usermod -aG plugdev $(whoami)
+sudo usermod -aG plugdev $(whoami)
 
-    sudo udevadm control –reload-rules && sudo udevadm trigger
+sudo udevadm control –reload-rules && sudo udevadm trigger
+```
 
 If you get a message “group plugdev” already exists, that’s fine, proceed. After the second command, you’ll get no feedback/reply, just proceed to the third command.
 
@@ -816,15 +855,15 @@ Electrum lives on your computer in two places. There is the application itself, 
 
 Windows:
 
-    C:/Users/your_user_name_goes_here/AppData/Roaming/Electrum
+> C:/Users/your_user_name_goes_here/AppData/Roaming/Electrum
 
 Mac:
 
-    /Users/your_user_name_goes_here/.electrum
+> /Users/your_user_name_goes_here/.electrum
 
 Linux:
 
-    /home/your_user_name_goes_here/.electrum
+> /home/your_user_name_goes_here/.electrum
 
 Note that “.” before “electrum” in Linux and Mac – that indicates the director is hidden. Also, note that this directory is only created (automatically) once you run Electrum for the first time. The directory contains the electrum configuration file and also the directory that holds any wallets you have saved.
 

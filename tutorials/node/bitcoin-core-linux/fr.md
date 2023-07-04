@@ -25,16 +25,13 @@ La suite de cet article se veut donc un guide d'installation de Bitcoin Core —
 
 ## Guide d'installation de Bitcoin Core sur Debian/Ubuntu
 
-    Prérequis
+> Prérequis
+>
+> - 6GB minimum de stockage de données (nœud élagué/pruned node) — 1TB de stockage de données (nœud complet/full node)
+> - Prévoir au moins 24 heures pour la complétion du IBD (Initial Block Download ou Chargement Initial des Blocs). Cette opération est obligatoire même pour un nœud élagué.
+> - Prévoir ~600GB de bande passante pour le IBD, même pour un nœud élagué.
 
-    - 6GB minimum de stockage de données (nœud élagué/pruned node) — 1TB de stockage de données (nœud complet/full node)
-
-    - Prévoir au moins 24 heures pour la complétion du IBD (Initial Block Download ou Chargement Initial des Blocs). Cette opération est obligatoire même pour un nœud élagué.
-
-    - Prévoir ~600GB de bande passante pour le IBD, même pour un nœud élagué.
-
-
-    💡 Les commandes suivantes sont prédéfinies pour la version 24.1 de Bitcoin Core.
+> 💡 Les commandes suivantes sont prédéfinies pour la version 24.1 de Bitcoin Core.
 
 ## Téléchargement et vérification des fichiers
 
@@ -51,9 +48,10 @@ La suite de cet article se veut donc un guide d'installation de Bitcoin Core —
 
 Chaque signature retournera une ligne débutant par : gpg: Good signature et une autre se terminant avec Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320 (exemple du fingerprint de la clé PGP de Pieter Wuille).
 
-    💡 Il n'est pas nécessaire que l'entièreté des clés de signataires retourne un "OK". En réalité, seulement une pourrait être nécessaire. C'est à l'utilisateur de déterminer son propre seuil de validation par rapport à la vérification via PGP.
+> 💡 Il n'est pas nécessaire que l'entièreté des clés de signataires retourne un "OK". En réalité, seulement une pourrait être nécessaire. C'est à l'utilisateur de déterminer son propre seuil de validation par rapport à la vérification via PGP.
+>
+> Vous pouvez ignorer les messages WARNING: This key is not certified with a trusted signature!
 
-    Vous pouvez ignorer les messages WARNING: This key is not certified with a trusted signature!
     There is no indication that the signature belongs to the owner.
 
 ## Installation de l'interface graphique de Bitcoin Core
@@ -82,7 +80,7 @@ Néanmoins, faire tourner et synchroniser son nœud par intermittence, ne serait
 
 # Configuration de Tor pour un nœud Bitcoin Core
 
-    💡 Ce guide est conçu pour Bitcoin Core 24.0.1 sur distributions Linux compatibles avec Ubuntu/Debian.
+> 💡 Ce guide est conçu pour Bitcoin Core 24.0.1 sur distributions Linux compatibles avec Ubuntu/Debian.
 
 ## Installation et configuration de Tor pour Bitcoin Core
 
@@ -90,10 +88,13 @@ D'abord, il nous faut installer le service Tor (The Onion Router), un réseau ut
 
 Pour installer Tor, ouvrez un terminal et entrez sudo apt -y install tor. Une fois l'installation complétée, le service sera normalement lancé automatiquement en arrière-plan. Vérifiez qu'il tourne bien avec la commande sudo systemctl status tor. Dans la réponse retournée devrait se trouver Active: active (exited). Appuyez sur Ctrl+C pour quitter cette fonction.
 
-    Dans tous les cas vous pouvez utiliser les commandes suivantes dans le terminal pour lancer, arrêter, ou redémarrer Tor :
-    sudo systemctl start tor
-    sudo systemctl stop tor
-    sudo systemctl restart tor
+> Dans tous les cas vous pouvez utiliser les commandes suivantes dans le terminal pour lancer, arrêter, ou redémarrer Tor :
+
+```
+sudo systemctl start tor
+sudo systemctl stop tor
+sudo systemctl restart tor
+```
 
 Lançons ensuite l'interface graphique de Bitcoin Core avec la commande bitcoin-qt. Puis, activons la fonctionnalité automatisée du logiciel pour diriger nos connexions via un proxy Tor : Paramètres > Réseau, et de là nous pouvons cocher Se connecter par un mandataire SOCKS5 (mandataire par défaut) ainsi que Utiliser un mandataire SOCKS5 séparé pour atteindre les pairs par les services oignons de Tor.
 
@@ -101,7 +102,7 @@ Lançons ensuite l'interface graphique de Bitcoin Core avec la commande bitcoin-
 
 Bitcoin Core détecte automatiquement si Tor est installé et, si c'est le cas, créera par défaut des connexions sortantes (Outbound) vers d'autres nœuds utilisant aussi Tor, en plus des connexions vers des nœuds utilisant les réseaux IPv4/IPv6 (clearnet).
 
-    💡 Pour changer la langue d'affichage au français, rendez vous dans l'onglet Affichage des Paramètres.
+> 💡 Pour changer la langue d'affichage au français, rendez vous dans l'onglet Affichage des Paramètres.
 
 ## Configuration avancée de Tor (optionnel)
 
@@ -128,11 +129,12 @@ Alternativement, pour demeurer uniquement sur le réseau Tor et mitiger le risqu
 
 Pour consulter les logs de votre nœud Bitcoin en ce qui à trait plus spécifiquement à son intéraction avec Tor, ajoutez debug=tor à votre fichier bitcoin.conf. Vous aurez maintenant les informations pertinentes à Tor dans votre journal de débogage, lequel vous pouvez consulter dans la fenêtre Renseignements, avec le bouton Fichier journal de débogage. Il est également possible de consulter ces logs directement dans le terminal avec la commande bitcoind -debug=tor.
 
-    💡 Quelques liens intéressants:
-    Page wiki explicant Tor et sa relation avec Bitcoin
-    Générateur de fichier configuration Bitcoin Core par Jameson Lopp
-    Guide de configuration Tor par Jon Atack
+> 💡 Quelques liens intéressants:
+>
+> - Page wiki explicant Tor et sa relation avec Bitcoin
+> - Générateur de fichier configuration Bitcoin Core par Jameson Lopp
+> - Guide de configuration Tor par Jon Atack
 
 Comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
 
-** FIN du tutoriel de Agora256; lien original: https://agora256.com/configuration-tor-bitcoin-core/. merci a eux de nous offrir ceci **
+**FIN du tutoriel de Agora256; lien original: https://agora256.com/configuration-tor-bitcoin-core/. merci a eux de nous offrir ceci**

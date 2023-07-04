@@ -4,7 +4,6 @@ name: Samouraï
 description: Regain your privacy with Samourai
 ---
 
-
 ![Samourai Wallet](assets/cover.jpeg)
 
 # Samourai Wallet - Designed for Privacy
@@ -25,7 +24,7 @@ For explanations on each of these tools, you can refer to the **"Privacy Tools"*
 
 ### quick installation for beginners
 
-    Taken from https://docs.samourai.io/wallet/start
+> Taken from https://docs.samourai.io/wallet/start
 
 Our new welcome screen gives a preview of our wallet features. When you have read these, tap 'Get Started'.
 

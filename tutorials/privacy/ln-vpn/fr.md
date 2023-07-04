@@ -2,9 +2,7 @@
 name: LN VPN
 
 description: Set up your VPN
-
 ---
-
 
 ![image](assets/cover.jpeg)
 
@@ -20,7 +18,7 @@ La plupart des fournisseurs de services VPN tels que ProtonVPN et Mullvad offren
 
 LN VPN rend possible une utilisation VPN à la carte pour une durée aussi courte qu'une heure grâce à son implémentation des paiements en bitcoins par lightning network. Instantanés et anonymes, les paiements lightning ouvrent un monde de possibilités en ce qui a trait aux micropaiements. ‌‌‌‌
 
-    💡 Ce guide décrit comment utiliser LN VPN à partir d'un système Linux Ubuntu 22.04 LTS
+> 💡 Ce guide décrit comment utiliser LN VPN à partir d'un système Linux Ubuntu 22.04 LTS
 
 ## Prérequis: Wireguard
 
@@ -28,9 +26,11 @@ En termes très simples, Wireguard sert à créer un tunnel sécurisé entre ton
 
 Guide officiel d'installation Wireguard : https://www.wireguard.com/install/‌‌‌‌
 
-    Installation de wireguard
+```
+Installation de wireguard
           $ sudo apt-get update
           $ sudo apt install wireguard
+```
 
 ## Prérequis : Portefeuille Bitcoin Lightning
 
@@ -56,8 +56,10 @@ D'abord, il te faudra renommer le fichier de config obtenu à l'étape précéde
 
 Rends-toi dans ton dossier de téléchargement, soit dans une fenêtre de terminal ou avec l'explorateur de fichier et renomme le fichier lnvpn-xx-xx.conf ainsi : wg0.conf
 
+```
     $ sudo ln -s usrbin/resolvectl usrlocal/bin/resolvconf
     $ sudo wg-quick up ~/Downloads/wg0.conf
+```
 
 Voilà, ça y est! Le tunnel est activé!
 
@@ -71,8 +73,10 @@ Lorsque ton bail sera expiré, il te faudra désactiver la connection pour retro
 
 Désactiver le tunnel :
 
+```
     $ sudo ip link delete dev wg0
+```
 
 Voilà! Tu sais maintenant te servir de LN VPN, un service VPN unique en son genre!
 
-_**Guide proposé par FranklynHart dans le cadre de Agora256, post original https://agora256.com/lnvpn/**_
+> _**Guide proposé par FranklynHart dans le cadre de Agora256, post original https://agora256.com/lnvpn/**_

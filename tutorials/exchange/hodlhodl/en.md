@@ -2,8 +2,6 @@
 name: HODL HODL
 
 description: Step by step guide for HODLHODL
-
-
 ---
 
 ![image](assets/cover.jpeg)

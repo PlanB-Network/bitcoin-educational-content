@@ -2,9 +2,9 @@
 name: Ledger Nano S
 
 description: How to set up your Ledger Nano S device
-
 ---
 
+![image](assets/cover.jpeg)
 
 # Ledger Nano S
 
@@ -79,11 +79,15 @@ cd Downloads
 
 For Mac ---->
 
-    shasum -a 512 ledger-live-desktop-2.32.2-mac.dmg
+```
+shasum -a 512 ledger-live-desktop-2.32.2-mac.dmg
+```
 
 For Windows ---->
 
-    certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512
+```
+certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512
+```
 
 <Enter>
 

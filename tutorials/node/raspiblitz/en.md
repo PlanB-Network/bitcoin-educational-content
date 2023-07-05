@@ -73,7 +73,7 @@ Mac/Linux
 
 Wait for the file to finish downloading (important!), and then open terminal, navigate to where you downloaded the file, and type the following command…
 
-```
+```bash
 shasum -a 256 xxxxxxxxxxxxxx
 ```
 
@@ -84,7 +84,7 @@ Windows
 
 Open the command prompt and navigate to where the file is downloaded, and type this command:
 
-```
+```bash
 certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 ```
 
@@ -146,7 +146,7 @@ Remember to put the SD card into the Pi before switching it on. Wait a few minut
 
 For Mac/Linux, in the terminal type:
 
-```
+```bash
 ssh admin@You_Pi's_IP_address
 ```
 

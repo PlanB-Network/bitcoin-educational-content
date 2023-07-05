@@ -77,7 +77,7 @@ First, we get the signing key:
 
 For Linux, open the terminal, and run this command (you should just copy and paste the text, and include the quotation marks):
 
-```
+```bash
 gpg --keyserver keyserver.ubuntu.com --recv-keys "04BE BF2E 35A2 AF2F FDF1 FA5D E7F0 54AA 2E76 E792"
 ```
 
@@ -111,7 +111,7 @@ The order doesn’t matter, but before checking the hash, we’re going to check
 
 Open terminal. You need to be in the correct directory where the SHA256SUMS.asc file was downloaded. Assuming you downloaded it to the “Downloads” directory, for Linux and Mac, change to the directory like this (case sensitive):
 
-```
+```bash
 cd Downloads
 ```
 
@@ -119,7 +119,7 @@ Of course, you have to hit <enter> after these commends. For Windows, open CMD (
 
 For Windows and Mac, you needed to have already downloaded GPG4Win and GPG Suite, respectively, as instructed earlier. For Linux, gpg comes with the Operating System. From Terminal (or CMD for Windows), type this command:
 
-```
+```bash
 gpg --verify SHA256SUMS.asc
 ```
 
@@ -137,7 +137,7 @@ For Mac and Linux, open terminal, navigate to where the zip file was downloaded 
 
 To has the file, type this:
 
-```
+```bash
 shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 ```
 

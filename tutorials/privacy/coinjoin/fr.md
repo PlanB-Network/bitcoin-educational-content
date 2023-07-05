@@ -352,11 +352,7 @@ Contrairement au score prospectif d'un UTXO qui commencera à 5 après son mix i
 
 Pour calculer facilement les Anon Sets d'un de vos UTXO mixé sur Whirlpool, vous pouvez utiliser le Whirlpool Stats Tool (WST). Un outil spécialement conçu pour calculer vos Anon Sets sur Whirlpool.
 
-Si vous êtes un utilisateur de RoninDojo, l'outil est préinstallé sur votre nœud. Pour y accéder depuis RoninCLI, allez dans :
-
-```
-Samourai Toolkit > Whirlpool Stat Tool
-```
+Si vous êtes un utilisateur de RoninDojo, l'outil est préinstallé sur votre nœud. Pour y accéder depuis RoninCLI, allez dans : `Samourai Toolkit > Whirlpool Stat Tool`.
 
 Si vous ne disposez pas d'un RoninDojo, voici comment installer l'outil WST sur une machine sous Linux:
 
@@ -364,7 +360,7 @@ Vous aurez besoin de : Tor Browser (ou Tor), Python 3.4.4 ou supérieur, git et 
 
 Pour vérifier leur version, entrez les commandes :
 
-```
+```bash
 python --version
 git --version
 pip --version
@@ -372,7 +368,7 @@ pip --version
 
 Installez les dépendances :
 
-```
+```bash
 pip install PySocks
 pip install requests[sock5]
 pip install plotly
@@ -382,14 +378,14 @@ pip install numpy
 
 Installez Whirlpool Stats Tool :
 
-```
-#Clonnez le répertoire :
+```bash
+# Clonez le répertoire :
 git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
 
-#Accédez au répertoire /whirlpool_stats :
+# Accédez au répertoire /whirlpool_stats :
 cd whirlpool_stats
 
-#Installez les dépendances avec pip :
+# Installez les dépendances avec pip :
 pip3 install -r ./requirements.txt
 ```
 
@@ -399,16 +395,16 @@ Créez ensuite un répertoire de travail pour stocker les données des transacti
 
 #Accédez au répertoire souhaité, par exemple home :
 
-```
+```bash
 cd ~
 
-#Créez un répertoire dédié, par exemple nommé "wst" :
+# Créez un répertoire dédié, par exemple nommé "wst" :
 mkdir wst
 
-#Accèdez au sous-répertoire /whirlpool_stats :
+# Accèdez au sous-répertoire /whirlpool_stats :
 cd whirlpool_stats/whirlpool_stats/
 
-#Lancez WST :
+# Lancez WST :
 python3 wst.py
 ```
 
@@ -416,31 +412,30 @@ Une fois WST installé et lancé, voici comment calculer des Anon Sets. Ces éta
 
 Tapez la commande suivante pour définir le proxy sur Tor (pour RoninDojo ce sera obligatoirement cette commande) :
 
-```
-        socks5 127.0.0.1:9050
+```bash
+socks5 127.0.0.1:9050
 ```
 
 Si vous utilisez Tor Browser, celui-ci doit être en cours d'exécution et la commande sera :
 
-```
-        socks5 127.0.0.1:9150
+```bash
+socks5 127.0.0.1:9150
 ```
 
 Accédez ensuite au répertoire de travail créé à l'étape précédente avec la commande workdir. Si vous êtes sur RoninDojo, passez cette étape :
 
-```
+```bash
+# Remplacez le chemin dans cet exemple par votre propre chemin.
 workdir /home/psyduck/wst
-#Remplacez le chemin dans cet exemple par votre propre chemin.
 ```
 
 ![Lancement de WST lignes de commande](assets/10.JPG)
 
 Téléchargez ensuite les données de la pool qui contient votre transaction :
 
-```
+```bash
+# Remplacez 0001 par le code de dénomination de la pool qui vous intéresse.
 download 0001
-
-#Remplacez 0001 par le code de dénomination de la pool qui vous intéresse.
 ```
 
 Les codes de dénominations sont les suivants sur WST :
@@ -452,20 +447,18 @@ Les codes de dénominations sont les suivants sur WST :
 
 Une fois les données téléchargées, chargez-les avec la commande :
 
-```
+```bash
+# Remplacez 0001 par le code de dénomination de la pool qui vous intéresse.
 load 0001
-
-#Remplacez 0001 par le code de dénomination de la pool qui vous intéresse.
 ```
 
 ![Téléchargement des données de WST à partir d'OXT lignes de commande](assets/11.JPG)
 
 Après avoir chargé les données, tapez la commande score suivie de votre TXID (identifiant de transaction) pour obtenir ses Anon Sets :
 
-```
+```bash
+# Remplacez TXID par l'identifiant de votre transaction.
 score TXID
-
-#Remplacez TXID par l'identifiant de votre transaction.
 ```
 
 ![Résultat du calcul des anon set d'un UTXO avec WST](assets/11.JPG)

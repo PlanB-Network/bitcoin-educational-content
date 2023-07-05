@@ -212,7 +212,7 @@ For Linux, GPG is already part of every package. In case you don’t have it, ge
 
 Next, for Mac/Windows or Linux, open the terminal, and enter the command:
 
-```
+```bash
 gpg –import XXXXXXXXXX
 ```
 
@@ -220,7 +220,7 @@ where XXXXXXXXXX is the full path to the signing key file (full path meaning the
 
 Then
 
-```
+```bash
 gpg –verify ZZZZZZZZZZ WWWWWWWWWW
 ```
 

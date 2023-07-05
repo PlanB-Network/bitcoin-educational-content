@@ -1,7 +1,6 @@
 ---
 name: RGB
 description: introduction and asset creation on RGB
-
 ---
 
 # A brief introduction to RGB protocols

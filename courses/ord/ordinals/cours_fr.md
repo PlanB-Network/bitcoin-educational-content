@@ -151,15 +151,9 @@ A scheme for assigning ordinal numbers to satoshis and tracking them across tran
 ####	b) Twitter
 
 Une liste Twitter regroupant les principaux core developpers [ordinals dev list](https://twitter.com/i/lists/1627776735210098708?s=20).
-
+iiiiiiiii
 ####	c) Le passage du flambeau
-
-[Casey: "I haven't been able to give ord the attention it deserves, so I am pleased to announce that @raphjaph has agreed to step up as lead maintainer! Raph is an impoverished student, and his work on ord will be entirely funded by donations. If you can, please consider donating!…"](https://twitter.com/rodarmor/status/1662617512700420096)
-
-
-
-
-
+[Casey: "I haven't been able to give ord the attention it deserves, so I am pleased to announce that @raphjaph has agreed to step up as lead maintainer! Raph is an impoverished student, and his work on ord will be entirely funded by donations. If you can, please consider donating!…"](https://twitter.com/rodarmor/status/1662617512700420096[Casey: "I haven't been able to give ord the attention it deserves, so I am pleased to announce that @raphjaph has agreed to step up as lead maintainer! Raph is an impoverished student, and his work on ord will be entirely funded by donations. If you can, please consider donating!…"](https://twitter.com/rodarmor/status/1662617512700420096))
 
 ## II) Théorie et implémentation
 
@@ -232,6 +226,23 @@ Soit vous avez un vieil ordinateur et vous faites tourner le nœud Bitcoin sur c
 ```
 ./bitcoin/bin/bitcoind --conf=/Volumes/mon_disque/bitcoin/bitcoin.conf --txindex=1
 ```
+3) Suivre les instructions
+
+4) Configurer via `bitcoin.conf` pour que le lieu de stockage soit de la forme : 
+*Sur Mac* : 
+- `/Volumes/mon_disque/bitcoin`
+
+*Sur Linux* : 
+- `/media/mon_disque/bitcoin`
+
+*Sur Windows* : 
+- `C:/mon_disque`
+
+5) Ligne de commande : 
+*Sur Mac* : 
+```
+./bitcoin/bin/bitcoind --conf=/Volumes/mon_disque/bitcoin/bitcoin.conf --txindex=1
+```
 Si cela ne suffit pas pour le forcer à télécharger la blockchain dans `mon_disque` alors ajouter les flags `--data-dir=/Volumes/mon_disque/bitcoin/Bitcoin --blocksdir=/Volumes/mon_disque/bitcoin/Bitcoin/blocks --settings=/Volumes/mon_disque/bitcoin/Bitcoin/settings.json --walletdir=/Volumes/mon_disque/bitcoin/Bitcoin/wallets --txindex=1`
 
 *Sur Linux* : 
@@ -269,7 +280,7 @@ On pourra noter qu'il existe les commandes : `ord server` et
 
 ### 1) Outils en lignes
 Evidemment tout le monde n'a pas forcément les requirements pour lancer un client `ord` chez lui. Des fois, il est même plus intéressant de passer via ces plateformes car on peut gagner des points et peut-être avoir des réductions à l'avenir. 
-Les outils en lignes apparaissent comme nécessaire pour le développement de l'écosystème et on va essayer de les traiter en profondeur. 
+Les outils en lignes apparaissent comme nécessaires pour le développement de l'écosystème et on va essayer de les traiter en profondeur. 
 
 -> Des tutos sur chacun de ces outils serait le bienvenue ;)
 
@@ -310,34 +321,167 @@ Elles sont moins nombreuses. On trouve :
 
 ### 2) JSON et nouveaux protocoles
 
+Rapidement, le coût d'inscription d'image étant élevé des gens se sont tournés sur l'inscription de fichier textuel (moi le premier [galoisfield.btc](https://ord.link/187784)).
+Néanmoins, avec de simple fichier texte comment se repérer ? Comment les retrouver ?
+Comment les **INDEXER** ? 
+
+Cette question de l'indexing est majeure sur ce protocole Ordinals et sur les protocoles construits sur Ordinals. 
+
+Mais alors comment ça marche ?
+
+Plongeons dans l'histoire !
+
 #### 	a) Début du `sns`
+
+Un acteur important de l'ecosystème ordinals est [@domodata](https://twitter.com/domodata).
+
+Arrivé avec son full node le 24 février [domo: "Full node finally running. Will soon find out if the feeling of owning a wallet full of UTXOs, redolent with the scent of rare and exotic sats, is beyond compare."](https://twitter.com/domodata/status/1629134663842254848) il proposa rapidement de nouveaux standard.
+
+Le premier qu'il a utilisé est `sns` pour Sats Name Service : 
+![domo-sns](./assets/domo_sns.png)
+[domo: "@sats-names"](https://twitter.com/domodata/status/1630948879737794561)
+
+Etant le premier protocole construit sur Ordinals il a deux manière d'être utilisé.
+
+1. La première très simple qui consiste simplement à inscrire un fichier texte avec `.sats`. Ce n'est pas celle qui nous intéressera ici.
+
+2. Définir un fichier JSON contenant les specifications suivant : 
+  a) Le nom du protocole via `"p" : "sns"`, ici le protocole utilisé est `sns`.
+  b) L'opération voulu via `"op": "reg"`, ici `reg` signifie que l'on défninit un nouveau nom.
+  c) Le nom choisit via : `"name" : "my_name.sats"`, on choisit `my_name.sats`.
+
+3. On a aussi deux paramèters optionnels dans ce protocole : 
+  a) L'association d'un sats name à une adresse btc via `"rev" : "bc1q...."`.
+  b) L'association d'un sats name à une inscription via `"relay" : "...i0"`.
+
+Vous trouverez la documentation à l'adresse suivante [Mint names - Sats Names](https://docs.sats.id/sats-names/sns-spec/mint-names)
+
+L'idée du protocole `sns` qui sera celle qui nous suivra tout au long de ces sur-protocoles est l'utilisation d'un JSON vérifiant toujours plus ou moins cette structure. 
+
+En voici un exemple :  
+```JSON
+{
+ "p" : "sns",
+ "op" : "reg",
+ "name" : "galoisfield.sats",
+ "rev" : "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+}
+```
+
+On a donc ici construit un protocole dont les éléments sont facilement reprérables parmi toutes les inscritpions et permettant à n'importe qui d'*indexer* ces éléments et de les utiliser dans n'importe quelles applications. 
+
+-> Pour les developpeurs chevronnés vous pouvez essayer de développer ou d'intégrer ce protocole à une application pour permettre le login des utilisateurs ou la vérification d'achievements dans votre app. 
+
 
 ####	b) Arrivée de `brc-20`
 
+Maintenant que l'on a compris le fonctionnement du protocole `sns` il nous sera très facile d'appréhender d'autre protocole comme par exemple `brc-20`.
+
+Posé pour la première fois par *@domodata* [domo: "Using inspiration from @sats_names and @redphonecrypto, I wondered if the concept could be expanded to fungible tokens. This is what I came up with: 2/x https://t.co/h6fksQ1WpM"](https://twitter.com/domodata/status/1633658976931037184).
+
+L'idée est simple : répliquer le concept de protocole comme `sns` pour créer des tokens sur Bitcoin. 
+
+On garde : le protocole, l'opération, on remplace `name` par `tick`, on ajoute `amt` pour le montant de jetons considérés et on distingue les opérations de déploiement, de mint et de transfer. 
+
+L'opération la plus *tricky* est celle de transfer sur laquelle nous reviendrons un peu plus tard. 
+
+Une contrainte posé par Domo est que le ticker d'un brc-20 ne doit comporter que 4 caractères. 
+
+-> Trouver une ref de pourquoi 4 caractères.
+
+
+Faisons le schéma complet d'un token `DBTC` pour DécouvreBitcoin (le token existe déjà et n'y est pas relié, ceci est simplement à titre indicatif et ne constitue en aucun cas une invitation à le mint, l'acheter ou autre) : 
+
+1. Le déploiement
+
+On a notre ticker maintenant il faut décider d'un montant. Pour être cohérent avec celui déjà déployé prenons 21 000.
+```JSON
+{ 
+ "p": "brc-20",
+ "op": "deploy",
+ "tick": "DBTC",
+ "amt" : "21000",
+ "lim" : "1"
+}
+```
+
+L'instruction `lim` détermine combien de token pourront être minté en une fois. 
+
+Si `lim = 1` mais que vous en mintais 2 alors vous n'aurez aucun token car votre instruction ne sera pas valide au regard du protocole. 
+Faites bien attention à ceci quand vous mintez !
+
+![DBTC](./assets/DBTC.png)
+  
+
+2. Le mint
+
+Une fois notre token déployé on peut le mint. Pour cela il faut inscrire le JSON suivant : 
+
+```JSON
+{
+ "p" : "brc-20",
+ "op": "mint",
+ "tick": "DBTC",
+ "amt": "1"
+}
+```
+
+Une fois l'inscription minée dans un block vous aurez 1 DBTC associé à votre addresse de mint.
+
+
+3. Le transfer
+
+Maintenant que vous avez mint le token `DBTC` vous pouvez le transférer (à votre meilleur ami, votre compagne ou compagnon ou quelqu'un qui souhaiterai vous l'acheter).
+
+Pour ce faire il vous faudra suivre deux étapes : 
+
+A. L'inscription de l'opération `transfer` 
+
+```JSON
+{
+ "p": "brc-20",
+ "op": "transfer",
+ "tick": "DBTC",
+ "amt": "1"
+}
+```
+
+Ici vous avez maintenant 1 DBTC transférable au regard du protocole `brc-20`.
+
+Vous pouvez alors le transférer.
+
+B. Le transfer du token
+
+Il vous faut maintenant faire une tansaction Bitcoin. 
+Vous devez envoyer l'inscription de transfer à la personne souhaitée. 
+
+Via les wallets online cela se fait en cliquant simplement sur `Transfer` ou `Envoie`.
+
+Via le client ord il vous faudra :
+- lister vos inscriptions par la commande `ord wallet inscriptions` ; 
+- selectionner celle qui vous intéresse ; 
+- entrer la commande `ord --cookie-file=/Volumes/mon_disque/bitcoin/.cookie wallet send --fee-rate 3 bc1pxsa6d95jrwald4jjsu0kwu4pyaztmjvh6rdjyrztfv0yx2gakk9qse5sjf acddd636c4ab0fb45c9f70ce2598cffa205c88594de916832a5789e3e58ca688i0`.
+
+Si vous connaissez déjà l'inscription de transfer entrer directement la dernière commande (adaptée à vos système d'exploitation, ici MacOs).
+
+
+On a donc ici couvert toutes les opérations réalisables avec `brc-20`. 
+A ce stade vous devez mieux voir comment fonctionne ces protocoles construits sur Ordinals. 
+
+Il y aurait beaucoup à dire des discussions qui ont animés les différents discord et telegram en lien avec `brc-20` et cela pourra faire l'objet d'articles annexes.
+
+
 #### 	c) Un Meta Protocol : BOSS
+
+Maintenant que nous avons compris comment fonctionne ces deux protocoles nous pouvons nous attaquer à un très gros morceau qui est pour l'instant toujours en développement le Meta Procole **BOSS** (Bitcoin Operationnal Standard System).
+
+
 
 ### 3) Les cursed inscriptions
 
 ####	a) L'issue git #2062
 
 ####	b) Le développement
-
-####	c) L'intégration
-
-
-## Conclusion
-
-### Retour sur l'histoire
--> Les Bitcoin rocks (Inscriptions 10-xxx)
-
--> Taproot Wizard : les premiers à sortir une collection, monter une communauté et inscrire les blocs les plus lourds à ce moment. *Retrouver l'histoire du bloc miné contenant uniquement un Taproot wizard*.
-
--> La réduction du poids des inscriptions via l'inscription de fichiers text. Cela mena rapidement à la définition de protocole via des fichiers JSON : *sns* (Sats Name Service) et *brc-20* (écho aux ERC-20 sur Ethreum).
-
--> Le développement constant de nouvelles choses en font un eldorado pour les blockchain enthusiast, les développeurs, et tous ceux qui aime les nouveautés.
-
-### Quel avenir ?
-
 -> BOSS propose un avenir florissant avec l'idée de Meta Protocols. Créant un standard sur tous ces protocoles sauvages ainsi qu'une machine virtuelle on peut s'attendre à ce que beaucoup de solutions de demain soit construites sur BOSS.
 En tout cas, BOSS va être un terrain d'expérimentation assez fou sur Bitcoin.
 

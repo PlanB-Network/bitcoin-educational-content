@@ -1,5 +1,41 @@
 1. [jonasnick (Jonas Nick)](https://github.com/jonasnick)
 
+2. [Taproot Assets Protocol - Builder's Guide](https://docs.lightning.engineering/the-lightning-network/taproot-assets/taproot-assets-protocol)
+
+3. [bips/bip-0341.mediawiki at master · bitcoin/bips · GitHub](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)
+
+4. [ordinals .sats names](https://dune.com/domo/ordinals-sats-names)
+
+
+5. 
+
+
+
+----------------------- --------- ----------------------------
+Groupes de discussions | Canal 	 |  Lien                      |
+----------------------- --------- ----------------------------
+>TheOrd 	      | Discord | https://discord.gg/wtMmkxvq |
+----------------------  --------  ----------------------------
+The Ordicord	      | Discord | https://discord.gg/6yzuJWvG |
+---------------------- --------- -----------------------------
+Ordinal Board 	      | Discord | https://discord.gg/PnJSfSPz |
+---------------------- --------- -----------------------------
+Ordinall. 	      | Discord | https://discord.gg/aN7HbUp9 |
+---------------------- --------- -----------------------------
+Taproot Wizard 	      | Discord | https://discord.gg/w86XGTgp |
+---------------------- --------- -----------------------------
+BRC20 FRANCE 	      | Discord | https://discord.gg/tYpzak2R |
+---------------------- --------- -----------------------------
+Ordinals Francophone  | Telegram | https://t.me/OrdinalsFR    |
+---------------------- ---------- ----------------------------
+BRC20 France 	      | Telegram | Request to be added 	      |
+---------------------- ---------- ----------------------------
+
+
+
+
+
+
 
 
 

@@ -2,10 +2,10 @@ builder: SwissBitcoinPay
 
 level: beginner
 
-category: marchand
+category: merchant
 
 tags:
   - wallet
   - point of sales
-  - marchand
+  - merchant
   - custodial

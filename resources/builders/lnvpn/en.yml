@@ -1,0 +1,4 @@
+description: |
+  With LNVPN we've build a very simple VPN pay-as-you-go service paid via Bitcoin Lightning. Instead of paying around 5$ every month with your credit card for the privilege of being able to use a VPN service every now and then we provide you with a VPN connection on servers in different countries for one hour for only 10 cents in US$ -- paid via ⚡!
+contributors:
+  - rabbit-hole

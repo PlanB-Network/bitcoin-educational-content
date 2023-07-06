@@ -176,17 +176,51 @@ Underpaying the subsidy does not change the ordinal numbers of satoshis mined in
 
 ####	b) Les choix de Casey
 
--> 
+-> Casey a choisit de nommer les sats en les numérotants.
+
+-> Il a également ajouté des "steps" en plus du halving avec les cycles et autres pour créer de la rareté sur certains sats.
+
+-> Il a créé un classement de sats rares. 
+
+--> Néanmoins de nouvelles raretés sont apparus : *Retrouver le site qui permet de check ses sats et donne de nouvelles raretés*
 
 ####	c) A la recherche des sats rares
 
+-> Outils online le plus facile. On donne son adresse et ils l'analysent.
+
+-> Moyen de le faire par ligne de commande mais je ne sais toujours pas comment.
+
 ### 2) L'inscription
+
+-> Maintenant qu'on sait compter les sats, on peut les manipuler. Ordinals propose d'inscrire sur ces derniers.
 
 ####	a) L'idée
 
+-> Quand on fait une transaction, on peut stocker la data sur le premier sat de la tx. 
+
+-> Techniquement il est utilisé une double tx de commit puis de reveal. Cela doit encore être détaillé sur pourquoi cette double tx. A priori c'est pour que le reveal connaisse l'output et puisses inscrire sur le bon sat. 
+Mais il faut encore creuser un petit peu.
+
+
 ####	b) La pratique
 
+-> Concrétement on n'a pas besoin de comprendre pourquoi ce fonctionnement pour l'utiliser. 
+
+Néanmoins, suite à une inscription avec le client `ord` on obtient un json output de cette forme : 
+
+```JSON
+{
+  "commit": "0bdbae349b685c0a59fa275f18d4ad14c3972fb5998d513399a478d87d805e00",
+  "inscription": "d4ad4cd729fdd4dfaa5279aed4910e4afcfac6e3be25900ba40a2faebef28a9fi0",
+  "reveal": "d4ad4cd729fdd4dfaa5279aed4910e4afcfac6e3be25900ba40a2faebef28a9f",
+  "fees": 8440
+}
+
+```
+
 ####	c) Le code
+
+--> ordinals/ord/src/commands/sub-command/Inscription.rs
 
 ### 3) Le client
 La référence pour cette partie est cette vidéo : [How To Setup A Bitcoin Node & Ord Wallet](https://www.youtube.com/watch?v=tdC8kmjn5N0&list=LL&index=1&t=0s)
@@ -278,8 +312,16 @@ On pourra noter qu'il existe les commandes : `ord server` et
 
 ## III) Utilisation et dernières avancées
 
+Evidemment tout le monde ne va pas utiliser le client `ord` avec le full node Bitcoin.
+
+Il faut donc des outils plus accessibles et online. 
+Ces outils online présentent aussi parfois certains avantages, comme l'optimisation de frais, bien plus difficile via le client seul, des inscriptions spéciales via des templates pour certains protocoles (voir III.2), ou les cursed inscriptions (voir III.3).
+
+Ils permettent donc une intégration simple et avancée des dernières fonctionnalités offertes par le protocole ordinals.
+
+Plongeons alors dans ces outils avant de nous attaquer aux protocoles construits sur Ordinals puis aux Cursed Inscriptions.
+
 ### 1) Outils en lignes
-Evidemment tout le monde n'a pas forcément les requirements pour lancer un client `ord` chez lui. Des fois, il est même plus intéressant de passer via ces plateformes car on peut gagner des points et peut-être avoir des réductions à l'avenir. 
 Les outils en lignes apparaissent comme nécessaires pour le développement de l'écosystème et on va essayer de les traiter en profondeur. 
 
 -> Des tutos sur chacun de ces outils serait le bienvenue ;)
@@ -307,6 +349,7 @@ Assez similaires aux wallets il faut y ajouter :
 
 - lookordinals.com (certainement le moins cher du marché actuellement, recommandé par @0xGrug ) 
 
+- Gamma.io
 
 
 ####	c) Marketplace
@@ -489,6 +532,17 @@ En tout cas, BOSS va être un terrain d'expérimentation assez fou sur Bitcoin.
 
 ####	b) Le développement
 
+# Conclusion
+
+Une des choses les plus puissantes offertes par Ordinals est certainement BOSS. Actuellement en développement, les promesses de BOSS sont assez folles. 
+Il faudrait dédier un papier entier aux fonctionnalités qu'annonce BOSS et une étude approfondie du lightpaper.
+
+Un workshop coordoné avec un développeur JS ayant étudié les propositions techniques de la BVM (Bitcoin Virtual Machine) proposée par BOSS et un "théoricien" mettant en lumière l'architecture du projet pourrait être très intéressant pour mieux appréhender BOSS.
+
+Evidemment il n'y a pas que BOSS. Beaucoup de choses sont encore à découvrir et créer ! 
+Ce cours bien qu'autant exhaustif que possible est loin de tout couvrir et nécessite encore beaucoup de travail d'approfondissement et de recherche individuelle comme académique pour pouvoir être complet.
+
+
 
 ### Pour s'investir
 
@@ -500,6 +554,9 @@ En tout cas, BOSS va être un terrain d'expérimentation assez fou sur Bitcoin.
 
 -> Développement de nouvelles idées via des inscriptions HTML ou interprétation de code au format txt via un nouvel indexer peut être essayé.
 
--> Prise en main de BOSS dès que le code sera disponible.
+-> Prise en main de BOSS dès que le code sera disponible. Pour un tech JS, se coordoner pour organiser le workshop discuté précedemment. 
+
+
+
 
 

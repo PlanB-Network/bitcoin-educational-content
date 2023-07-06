@@ -140,6 +140,13 @@ A scheme for assigning ordinal numbers to satoshis and tracking them across tran
 
 ### 3) La core Team
 
+Bien que Casey soit la tête de proue de ce projet, il n'est évidemment pas seul !
+
+Seuls quelques uns ont participé très activement au code, mais de nombreuses personnes ont apportés des contributions sans lesquelles nous n'aurions pas un outil aussi complet que celui actuel.
+Les différentes issues et discussion constitue également des contributions en soi mais ne malheureusement pas repertoriée dans les commits ^^.
+
+A nous de chercher et d'indexer pour leur rendre hommage ;)
+
 ####	a) Github
 [Contributors to ordinals/ord](https://github.com/ordinals/ord/graphs/contributors)
 
@@ -151,7 +158,7 @@ A scheme for assigning ordinal numbers to satoshis and tracking them across tran
 ####	b) Twitter
 
 Une liste Twitter regroupant les principaux core developpers [ordinals dev list](https://twitter.com/i/lists/1627776735210098708?s=20).
-iiiiiiiii
+
 ####	c) Le passage du flambeau
 [Casey: "I haven't been able to give ord the attention it deserves, so I am pleased to announce that @raphjaph has agreed to step up as lead maintainer! Raph is an impoverished student, and his work on ord will be entirely funded by donations. If you can, please consider donating!…"](https://twitter.com/rodarmor/status/1662617512700420096)
 
@@ -220,7 +227,12 @@ Néanmoins, suite à une inscription avec le client `ord` on obtient un json out
 
 ####	c) Le code
 
---> ordinals/ord/src/commands/sub-command/Inscription.rs
+--> [ordinals/ord/src/subcommand/wallet/inscribe.rs](https://github.com/ordinals/ord/tree/master/src/subcommand/wallet/inscribe.rs)
+
+-> Le but n'est peut-être pas d'analyser TOUT le code mais détailler quelques fonction importantes comme `create_inscription_transactions` et `build_reveal_transaction`.
+
+-> Pour les dev, ce fichier `inscribe.rs` doit pouvoir être modifié modéremment sans impacter le reste du programme client `ord`. Par exemple, les fees utilisés pour réaliser les transactions doivent pouvoir être modifié.
+Une discussion approfondie avec des tests d'implémentation avancées pourrait être intéressante.
 
 ### 3) Le client
 La référence pour cette partie est cette vidéo : [How To Setup A Bitcoin Node & Ord Wallet](https://www.youtube.com/watch?v=tdC8kmjn5N0&list=LL&index=1&t=0s)
@@ -228,12 +240,17 @@ Cette vidéo est faites sur Windows et étant sur Mac avec un node sur Disque du
 
 ####	a) Bitcoin Core 
 
+-------
+Cette partie a peut-être été réalisée ailleurs et pourrait simplement être référencée avec quelques ajouts ou copiée collée. A discuter de ce qui est le mieux.
+-------
+
 Requirements : 
 - env. 700 Go de stockage, en SSD si possible.
 - une bonne connexion internet.
 
 Soit vous avez un vieil ordinateur et vous faites tourner le nœud Bitcoin sur celui-ci, soit je vous conseille de prendre un disque dur externe SSD de 1 To. Vous en trouver pour moins d'une centaine d'euros sur internet en général. 
--> Lien pour Comparateur de prix et de marques. 
+
+[-> Lien pour Comparateur de prix et de marques.] 
 
 [jonasnick/bitcoin-node: "How to Run a Bitcoin Node" handout](https://github.com/jonasnick/bitcoin-node)
 
@@ -432,6 +449,7 @@ Une contrainte posé par Domo est que le ticker d'un brc-20 ne doit comporter qu
 
 -> Trouver une ref de pourquoi 4 caractères.
 
+-> Pour un détail en vidéo de ces explications vous pouvez consulter [The Only BRC-20 Guide You Will Need](https://www.youtube.com/watch?v=XftBkRZ9jqk).
 
 Faisons le schéma complet d'un token `DBTC` pour DécouvreBitcoin (le token existe déjà et n'y est pas relié, ceci est simplement à titre indicatif et ne constitue en aucun cas une invitation à le mint, l'acheter ou autre) : 
 

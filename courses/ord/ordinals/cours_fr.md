@@ -407,7 +407,7 @@ On a notre ticker maintenant il faut décider d'un montant. Pour être cohérent
 
 L'instruction `lim` détermine combien de token pourront être minté en une fois. 
 
-Si `lim = 1` mais que vous en mintais 2 alors vous n'aurez aucun token car votre instruction ne sera pas valide au regard du protocole. 
+Si `lim = 1` mais que vous en mintez 2 alors vous n'aurez aucun token car votre instruction ne sera pas valide au regard du protocole. 
 Faites bien attention à ceci quand vous mintez !
 
 ![DBTC](./assets/DBTC.png)
@@ -431,7 +431,7 @@ Une fois l'inscription minée dans un block vous aurez 1 DBTC associé à votre 
 
 3. Le transfer
 
-Maintenant que vous avez mint le token `DBTC` vous pouvez le transférer (à votre meilleur ami, votre compagne ou compagnon ou quelqu'un qui souhaiterai vous l'acheter).
+Maintenant que vous avez mint le token `DBTC` vous pouvez le transférer (à votre meilleur ami, votre compagne ou compagnon ou quelqu'un qui souhaiterais vous l'acheter).
 
 Pour ce faire il vous faudra suivre deux étapes : 
 
@@ -462,7 +462,7 @@ Via le client ord il vous faudra :
 - selectionner celle qui vous intéresse ; 
 - entrer la commande `ord --cookie-file=/Volumes/mon_disque/bitcoin/.cookie wallet send --fee-rate 3 bc1pxsa6d95jrwald4jjsu0kwu4pyaztmjvh6rdjyrztfv0yx2gakk9qse5sjf acddd636c4ab0fb45c9f70ce2598cffa205c88594de916832a5789e3e58ca688i0`.
 
-Si vous connaissez déjà l'inscription de transfer entrer directement la dernière commande (adaptée à vos système d'exploitation, ici MacOs).
+Si vous connaissez déjà l'inscription de transfer entrez directement la dernière commande (adaptée à vos système d'exploitation, ici MacOs).
 
 
 On a donc ici couvert toutes les opérations réalisables avec `brc-20`. 
@@ -475,6 +475,12 @@ Il y aurait beaucoup à dire des discussions qui ont animés les différents dis
 
 Maintenant que nous avons compris comment fonctionne ces deux protocoles nous pouvons nous attaquer à un très gros morceau qui est pour l'instant toujours en développement le Meta Procole **BOSS** (Bitcoin Operationnal Standard System).
 
+-> BOSS propose un avenir florissant avec l'idée de Meta Protocols. Créant un standard sur tous ces protocoles sauvages ainsi qu'une machine virtuelle on peut s'attendre à ce que beaucoup de solutions de demain soit construites sur BOSS.
+En tout cas, BOSS va être un terrain d'expérimentation assez fou sur Bitcoin.
+
+
+-> De nouvelles choses sont régulièrement proposés. Des interfaces améliorées, du code à clarifier, des articles à écrire, des tutos à réaliser, les choses qui arrivent ne manque pas et nous devons nous tenir informés pour être là où les choses se développent.
+
 
 
 ### 3) Les cursed inscriptions
@@ -482,11 +488,7 @@ Maintenant que nous avons compris comment fonctionne ces deux protocoles nous po
 ####	a) L'issue git #2062
 
 ####	b) Le développement
--> BOSS propose un avenir florissant avec l'idée de Meta Protocols. Créant un standard sur tous ces protocoles sauvages ainsi qu'une machine virtuelle on peut s'attendre à ce que beaucoup de solutions de demain soit construites sur BOSS.
-En tout cas, BOSS va être un terrain d'expérimentation assez fou sur Bitcoin.
 
-
--> De nouvelles choses sont régulièrement proposés. Des interfaces améliorées, du code à clarifier, des articles à écrire, des tutos à réaliser, les choses qui arrivent ne manque pas et nous devons nous tenir informés pour être là où les choses se développent.
 
 ### Pour s'investir
 
@@ -499,3 +501,5 @@ En tout cas, BOSS va être un terrain d'expérimentation assez fou sur Bitcoin.
 -> Développement de nouvelles idées via des inscriptions HTML ou interprétation de code au format txt via un nouvel indexer peut être essayé.
 
 -> Prise en main de BOSS dès que le code sera disponible.
+
+

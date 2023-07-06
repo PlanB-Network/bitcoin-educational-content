@@ -2,7 +2,7 @@ builder: BTCPay Server
 
 level: advanced
 
-category: marchand
+category: merchant
 tags:
   - point of sales
   - non-KYC

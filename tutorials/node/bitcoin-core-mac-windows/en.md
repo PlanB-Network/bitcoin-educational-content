@@ -53,9 +53,9 @@ Next, we need to hash the Bitcoin Core download and compare it to what the file 
 
 Navigate to the Downloads directory again and execute this command (replace X’s with the full node bitcoin download file name exactly):
 
-```
-FOR MAC —–> shasum -a 256 XXXXXXXXXXXX
-FOR WINDOWS —–> certutil -hashfile XXXXXXXXXXX SHA256
+```bash
+shasum -a 256 XXXXXXXXXXXX # <--- FOR MAC
+certutil -hashfile XXXXXXXXXXX SHA256 # <--- FOR WINDOWS
 ```
 
 You will get a hash output. Make a note of it, and compare it to the hash contained in the SHA256SUMS file.
@@ -81,13 +81,13 @@ We want the lead developer’s public key, Wladimir J. van der Laan on our compu
 
 Copy that text into the following command:
 
-```
+```bash
 gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 01EA5486DE18A882D4C2684590C8019E36C2E964
 ```
 
 Out of interest, at any time, you can see what keys are in the computer’s keyring with this command:
 
-```
+```bash
 gpg --list-keys
 ```
 
@@ -97,7 +97,7 @@ We have the public key, so we can now verify the SHA256SUMS file which contains 
 
 Open Terminal or CMD again, and make sure you are in the Downloads directory. From there, execute this command:
 
-```
+```bash
 gpg –verify SHA256SUMS.asc SHA256SUMS
 ```
 

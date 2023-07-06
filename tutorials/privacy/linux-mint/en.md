@@ -148,14 +148,14 @@ One of the first things to do (and to do regularly), is to keep the system up to
 
 Open the Terminal application, and type the following:
 
-```
-    sudo apt-get update
+```bash
+sudo apt-get update
 ```
 
 hit <enter>, confirm your choice, and then this command:
 
-```
-    sudo apt-get upgrade
+```bash
+sudo apt-get upgrade
 ```
 
 hit <enter> and confirm your choice.
@@ -164,8 +164,8 @@ Let it do its thing, it could take several minutes.
 
 Next, I like to install Tor (case sensitive):
 
-```
-    sudo apt-get install tor
+```bash
+sudo apt-get install tor
 ```
 
 > _ADDITION: You can also run the Linux Mint boot from “OEM install” (Make sure you are connected to the internet, otherwise you could get errors). If you do this, you later need to click the “ship to end user” icon which should be on the desktop. You then reboot and start the operating system as though you are opening the computer for the first time._

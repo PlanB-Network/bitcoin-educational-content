@@ -90,7 +90,7 @@ Pour installer Tor, ouvrez un terminal et entrez sudo apt -y install tor. Une fo
 
 > Dans tous les cas vous pouvez utiliser les commandes suivantes dans le terminal pour lancer, arrêter, ou redémarrer Tor :
 
-```
+```bash
 sudo systemctl start tor
 sudo systemctl stop tor
 sudo systemctl restart tor

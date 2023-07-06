@@ -26,10 +26,9 @@ En termes très simples, Wireguard sert à créer un tunnel sécurisé entre ton
 
 Guide officiel d'installation Wireguard : https://www.wireguard.com/install/‌‌‌‌
 
-```
-Installation de wireguard
-          $ sudo apt-get update
-          $ sudo apt install wireguard
+```bash
+$ sudo apt-get update
+$ sudo apt install wireguard
 ```
 
 ## Prérequis : Portefeuille Bitcoin Lightning
@@ -56,9 +55,9 @@ D'abord, il te faudra renommer le fichier de config obtenu à l'étape précéde
 
 Rends-toi dans ton dossier de téléchargement, soit dans une fenêtre de terminal ou avec l'explorateur de fichier et renomme le fichier lnvpn-xx-xx.conf ainsi : wg0.conf
 
-```
-    $ sudo ln -s usrbin/resolvectl usrlocal/bin/resolvconf
-    $ sudo wg-quick up ~/Downloads/wg0.conf
+```bash
+$ sudo ln -s usrbin/resolvectl usrlocal/bin/resolvconf
+$ sudo wg-quick up ~/Downloads/wg0.conf
 ```
 
 Voilà, ça y est! Le tunnel est activé!
@@ -73,8 +72,8 @@ Lorsque ton bail sera expiré, il te faudra désactiver la connection pour retro
 
 Désactiver le tunnel :
 
-```
-    $ sudo ip link delete dev wg0
+```bash
+$ sudo ip link delete dev wg0
 ```
 
 Voilà! Tu sais maintenant te servir de LN VPN, un service VPN unique en son genre!

@@ -64,9 +64,9 @@ Download the SHA 256 hashes
 
 Open the terminal on Mac or Linux or Command Prompt for Windows. Type:
 
-```
-Mac/Linux: “shasum -a 256 DOWNLOADEDFILENAME”
-Windows: “certUtil -hashfile DOWNLOADEDFILENAME SHA256”
+```bash
+shasum -a 256 DOWNLOADEDFILENAME # <--- Mac/Linux
+certUtil -hashfile DOWNLOADEDFILENAME SHA256 # <--- Windows
 ```
 
 The computer thinks for 20 seconds or so. Then, check that the output hashfile matches the one downloaded from the website in the previous step. If it’s identical, you can proceed.
@@ -125,7 +125,7 @@ You have the option to log in to the device remotely by SSH command, but it is n
 
 Open a Mac or Linux computer (for Windows, download putty, an SSH tool) and type:
 
-```
+```bash
 ssh admin@192.168.0.18
 ```
 

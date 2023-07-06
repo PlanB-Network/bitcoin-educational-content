@@ -2,7 +2,7 @@ builder: NOSTR
 
 level: advanced
 
-category: nostr
+category: general
 
 tags:
   - peer to peer

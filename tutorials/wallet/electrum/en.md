@@ -86,7 +86,7 @@ Navigate to the Downloads directory (or wherever you put the three files). If yo
 
 In the terminal, type this to import ThomasV’s public key into your computer’s “keyring” (the keyring is an abstract concept – it’s actually just a file on your computer):
 
-```
+```bash
 gpg --import ThomasV.asc
 ```
 
@@ -96,7 +96,7 @@ The file should import. If you get an error, check you are in the directory wher
 
 Then we run the command to verify the signature.
 
-```
+```bash
 gpg –verify Electrum-4.1.5.tar.gz.asc Electrum-4.1.5.tar.gz
 ```
 
@@ -125,7 +125,7 @@ If you downloaded the Python version, this is how to make it work. You’ll see 
 
 For Linux, It’s a good idea to first update your system:
 
-```
+```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
@@ -143,7 +143,7 @@ The steps (Linux) are:
 
 On a Mac, the steps are the same but you may need to first install Python3, and use this command to run:
 
-```
+```bash
 python3 ./run_electrum
 ```
 
@@ -153,7 +153,7 @@ Once Electrum is running, the terminal window will remain open. If you close it,
 
 This is a bit easier, but not as easy as a Windows executable file. Depending on the version of Linux your running, by default, Appimage files may have attributes set so that execution is disallowed by the system. We must change this. If your Appimages works, you can skip this step. Navigate to where the file is, using terminal, then run this command:
 
-```
+```bash
 sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
 ```
 
@@ -256,7 +256,7 @@ Open the terminal in Linux or Mac (Windows instructions later):
 
 You should automatically be in the home folder. From there, navigate to the hidden electrum settings folder (this is different to where the application is).
 
-```
+```bash
 cd .electrum
 ```
 
@@ -264,7 +264,7 @@ Notice the dot before “electrum” which indicates it is a hidden folder.
 
 Another way to get there is to type:
 
-```
+```bash
 cd ~/.electrum
 ```
 
@@ -274,7 +274,7 @@ Once in the “.electrum” directory, type “nano config” and hit <enter>.
 
 A text editor will open (called nano) with the config file open. The mouse doesn’t work much here. Use the arrow keys to get to the line that says:
 
-```
+```json
 "oneserver": false,
 ```
 
@@ -288,17 +288,13 @@ Just below that, you’ll see a text field and the server’s address is in ther
 
 ### Windows Config File
 
-The windows config file is a bit harder to find. The directory is:
-
-```
-C:/Users/Parman/AppData/Roaming/Electrum
-```
+The windows config file is a bit harder to find. The directory is: `C:/Users/Parman/AppData/Roaming/Electrum`
 
 Obviously, you have to change “Parman” to your own username for the computer.
 
 In that folder you will find the config file. Open it with a text editor and edit the line:
 
-```
+```json
 "oneserver": false,
 ```
 
@@ -362,25 +358,9 @@ Sometimes, despite doing everything right, seemingly, it refuses to connect. Her
 
 An IP address is not something a regular user commonly knows how to look up and use. I’ve helped many people run a node, and then connect their wallets to the node – a stumbling block often seems to be finding its IP address.
 
-For MyNode, you can type in a browser window:
+For MyNode, you can type in a browser window: `mynode.local`
 
-```
-mynode.local
-```
-
-Sometimes, “mynode.local” doesn’t work (make sure you’re not typing it in a Google search bar. To force the navigation bar to recognise your text as an address and not a search, precede the text with http://
-
-like this:
-
-```
-http://mynode.local
-```
-
-if that doesn’t work, try it with an “s”, like this:
-
-```
-https://mynode.local
-```
+Sometimes, “mynode.local” doesn’t work (make sure you’re not typing it in a Google search bar. To force the navigation bar to recognise your text as an address and not a search, precede the text with `http://` like this: `http://mynode.local`. If that doesn’t work, try it with an “s”, like this: `https://mynode.local`.
 
 This will access the device, and you can click on the settings link (see my blue “circle” below) to show this screen where the IP address is located:
 
@@ -414,7 +394,7 @@ We are interested in the first 4 elements (192.168.0), not the 4th element, the 
 
 For Linux, use the command line:
 
-```
+```bash
 ifconfig | grep inet
 ```
 
@@ -422,17 +402,13 @@ That vertical line is the “pipe” symbol and you’ll find it below the <dele
 
 For Windows, open the command prompt (cmd) and type:
 
-```
+```bash
 ipconfig/all
 ```
 
 and press Enter. The IP address can be found in the output.
 
-That was the easy bit. The hard part is now to find your node’s IP address – we need to brute-force guess. Let’s say for example your computer’s IP address starts with 192.168.0.xxx, then for your node, in a browser, try:
-
-```
-https://192.168.0.2
-```
+That was the easy bit. The hard part is now to find your node’s IP address – we need to brute-force guess. Let’s say for example your computer’s IP address starts with 192.168.0.xxx, then for your node, in a browser, try: `https://192.168.0.2`
 
 The smallest possible number is 2 (0 means any device, and 1 belongs to the router) and the highest, I believe is 255 (this happens to be 11111111 in binary, the largest number held by 1 byte).
 
@@ -789,13 +765,13 @@ This way should be easier, but for Linux computers, it’s much harder. Somethin
 
 It’s a good idea to make sure the system is up to date. Then:
 
-```
+```bash
 sudo apt-get install libusb-1.0-0-dev libudev-dev
 ```
 
 then...
 
-```
+```bash
 python3 -m pip install ckcc-protocol
 ```
 
@@ -805,7 +781,7 @@ Create or modify existing, the file, /etc/udev/rules.d/
 
 Like this:
 
-```
+```bash
 sudo nano /etc/udev/rules.d
 ```
 
@@ -815,11 +791,9 @@ A text editor will open. Copy the text from here and paste it into the rules.d f
 
 Then run these commands one after the other:
 
-```
+```bash
 sudo groupadd plugdev
-
 sudo usermod -aG plugdev $(whoami)
-
 sudo udevadm control –reload-rules && sudo udevadm trigger
 ```
 

@@ -77,16 +77,9 @@ cd Downloads
 
 <Enter>
 
-For Mac ---->
-
-```
-shasum -a 512 ledger-live-desktop-2.32.2-mac.dmg
-```
-
-For Windows ---->
-
-```
-certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512
+```bash
+shasum -a 512 ledger-live-desktop-2.32.2-mac.dmg # <--- For Mac
+certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 ```
 
 <Enter>

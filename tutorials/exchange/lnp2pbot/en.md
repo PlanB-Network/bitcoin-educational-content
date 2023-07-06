@@ -2,7 +2,6 @@
 name: LN P2P Bot
 
 description: Guide to set up your LN P2P Bot
-
 ---
 
 ![cover](assets/cover.jpeg)

@@ -589,6 +589,6 @@ block content
 
 Si luego de pagar la invoice puedes ver el mensaje de Pago exitoso y la prueba de pago felicidades!!! lo lograste, has terminado tu primera LApp.
 
-https://grunch.dev/guides/lapp/ -
-Francisco Calderón published on
-June 14, 2021
+> https://grunch.dev/guides/lapp/ -
+> Francisco Calderón published on
+> June 14, 2021

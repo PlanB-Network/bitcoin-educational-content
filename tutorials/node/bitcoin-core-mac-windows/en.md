@@ -153,6 +153,6 @@ Once you confirm, the blockchain will begin downloading. It will take many days.
 
 You can shut down the computer and come back to download if you want, it won’t do any damage.
 
-    The following guide was offerted by Parman (https://twitter.com/parman_the)
-    you can tips him here; dandysack84@walletofsatoshi.com
-    Original source; https://armantheparman.com/bitcoincore/
+> The following guide was offerted by Parman (https://twitter.com/parman_the)
+> you can tips him here; dandysack84@walletofsatoshi.com
+> Original source; https://armantheparman.com/bitcoincore/

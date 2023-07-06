@@ -31,15 +31,14 @@ Voici quelques liens à propos de cette nouvelle application de nœud/portefeuil
 
 > Site officiel – avec également une charmante démo interactive
 
-    Dépôt GitHub : vérifiez le stade de développement et/ou téléchargez les sources
+> Dépôt GitHub : vérifiez le stade de développement et/ou téléchargez les sources
 
-    Groupe d’aide Telegram – où vous pouvez poser des questions directement au développeur et à la communauté
-
-    Téléchargement de l’application Android Blixt
-
-    Téléchargement de l’application Testflight pour iOS
-
-    Feed Twitter avec des démos
+> Groupe d’aide Telegram – où vous pouvez poser des questions directement au développeur et à la communauté
+>
+> Téléchargement de l’application Android Blixt
+>
+> Téléchargement de l’application Testflight pour iOS
+> Feed Twitter avec des démos
 
 ![image principal](assets/2.JPEG)
 

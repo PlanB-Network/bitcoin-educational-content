@@ -1,6 +1,6 @@
 ---
 name: RGB
-description: introduction and asset creation on RGB
+description: Introduction and asset creation on RGB
 ---
 
 # A brief introduction to RGB protocols
@@ -97,7 +97,7 @@ https://grunch.dev/blog/rgbnode-tutorial/
 
 ## Requirements
 
-The use of a Linux distribution is recommended, this tutorial was written using Pop!/\_OS, which is based on Ubuntu and you will need:
+The use of a Linux distribution is recommended, this tutorial was written using Pop!OS, which is based on Ubuntu and you will need:
 
 - cargo
 - Bitcoin core
@@ -242,10 +242,12 @@ To issue an asset we run rgb0-cli with the fungible issue subcommands, then the 
 
 ```
 $ rgb0-cli fungible issue USDT "USD Tether" 1000@4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893:1
+```
 
 Asset successfully issued. Use this information for sharing:
 Asset information:
- ---
+
+```
 genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0
 id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
 ticker: USDT
@@ -278,7 +280,7 @@ We get the assetId, we need it to transfer the asset.
 
 ```
 $ rgb0-cli fungible list
----
+
 - name: USD Tether
   id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
   ticker: USDT
@@ -363,7 +365,7 @@ We can now see (in the knownAllocations field) the new allocation of 100 asset u
 
 ```
 $ rgb1-cli fungible list -l
----
+
 - genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0
   id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
   ticker: USDT
@@ -399,7 +401,7 @@ Since receive_utxo was blinded when the transfer was made, the payer rgb-node-0 
 
 ```
 $ rgb0-cli fungible list -l
----
+
 - genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0
   id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
   ticker: USDT
@@ -437,7 +439,7 @@ If rgb-node-0 was successful you can see the change by listing the asset.
 
 ```
 $ rgb0-cli fungible list -l
----
+
 - genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0
   id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
   ticker: USDT
@@ -475,6 +477,6 @@ We have been able to create a fungible asset and move it from one transaction to
 
 This post may have bugs, if you find something please let me know to improve this guide, suggestions, and criticisms are also welcome, happy hacking! 🖖
 
-guide offer by Franscisco: grunch@getalby.com
-https://twitter.com/negrunch
-https://grunch.dev/blog/rgbnode-tutorial/
+> guide offer by Franscisco: grunch@getalby.com
+> https://twitter.com/negrunch
+> https://grunch.dev/blog/rgbnode-tutorial/

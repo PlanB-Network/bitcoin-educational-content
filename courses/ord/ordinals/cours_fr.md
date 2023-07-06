@@ -67,14 +67,17 @@ Je me tiens à votre disposition pour toutes questions, critiques ou retour de v
 ## Annexe A : Utilisation offline du site iancoleman.com pour la génération d'adresse bech32.
 ## Annexe B : Rédaction de script avec `bitcoin-cli`
 
-
-
-
+//
+//
 
 
 # Plan détaillé du cours
 
-Le but de ce cours est de s'adresser à tous les profils et dont les parties doivent pouvoir être lues indépendamment.  
+--------
+Le but de ce cours est de s'adresser à tous les profils et dont les parties doivent pouvoir être lues indépendamment.
+
+-----------
+
 
 ## I/ Introduction
 Dans cette section le but est de s'intéresser à l'histoire de ce protocole et à l'humain qu'il y a derrière.
@@ -82,13 +85,13 @@ Le but n'est pas d'être technique mais de comprendre d'où ça vient, de qui et
 Comprendre qui sont les participants et pouvoir permettre aux gens de se renseigner par eux-mêmes davantage sur ces développeurs.
 
 ### 1) Premières traces du dossier sur Github & Workshop de Casey
--> Le développeur phare de ce protocole est Casey Rodarmor ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/)). 
+Le développeur phare de ce protocole est Casey Rodarmor ([Casey (@rodarmor) | Twitter](https://twitter.com/rodarmor/), [R O D A R M O R](https://rodarmor.com/), [casey (Casey Rodarmor) | Github](https://github.com/casey/)). 
 En 2015, il travailla activement sur Bitcoin Core où il réalisa une série de batchs (mises-à-jours) et un remaniement d'une partie du code de Bitcoin Core ([Casey Rodarmor's Resume](https://rodarmor.com/resume/index.html)).
 
 -> Taproot : en quelques mots, à partir de la réduction du poids des adresses et de l'augmentation de la taille de la *witness* (partie du block space laissant....)
 
 
--> En tant qu'important contributeurs on retrouve [raphjaph (raph)](https://github.com/raphjaph), un étudiant d'informatique à l'université de Munich et [veryordinally (ordinally)](https://github.com/veryordinally?tab=overview&from=2015-12-01&to=2015-12-31) dont le profil a été crée en 2015 mais actif seulement sur Ordinals.
+En tant qu'important contributeurs on retrouve [raphjaph (raph)](https://github.com/raphjaph), un étudiant d'informatique à l'université de Munich et [veryordinally (ordinally)](https://github.com/veryordinally?tab=overview&from=2015-12-01&to=2015-12-31) dont le profil a été crée en 2015 mais actif seulement sur Ordinals.
 
 	-> Sur Ordinally on a moins d'infos que sur les autres et ce profil parait assez étrange. Il serait intéressant de creuser d'avantage.
 
@@ -98,7 +101,7 @@ En 2015, il travailla activement sur Bitcoin Core où il réalisa une série de 
 -> J'avais sauvegardé cette information qui maintenant n'est plus disponible 
 [creation ord](./assets/Create_ord_casey.png)
 
--> On voit donc un travail pensé pendant presque un an par Casey avant la présentation de son idée en Octobre 2022, sur laquelle nous reviendrons.
+On voit donc un travail pensé pendant presque un an par Casey avant la présentation de son idée en Octobre 2022, sur laquelle nous reviendrons.
 
 -> [Casey Rodarmor: Why I Developed the Ordinals Bitcoin NFT Project](https://www.coindesk.com/consensus-magazine/2023/02/23/casey-rodarmor-why-i-developed-the-ordinals-bitcoin-nft-project-coindesk/)
  
@@ -106,16 +109,14 @@ En 2015, il travailla activement sur Bitcoin Core où il réalisa une série de 
 ####	b) La présentation by Casey
 -> [Ordinals Workshop with Casey Rodarmor](https://www.youtube.com/watch?v=MC_haVa6N3I)
 
--> Ce workshop fut la première présentation live par Casey de ce nouveau protocole. Il a eu lieu à Austin au Texas le 27 Août 2022 [Ordinals Workshop with Rodamar, sam. 27 août 2022, 12:00 | Meetup](https://www.meetup.com/fr-FR/pleb-lab/events/287948415/). Il a présenté en live sa théorie, sur ce qu'est Ordinals et les ressources proposées.
+Ce workshop fut la première présentation live par Casey de ce nouveau protocole. Il a eu lieu à Austin au Texas le 27 Août 2022 [Ordinals Workshop with Rodamar, sam. 27 août 2022, 12:00 | Meetup](https://www.meetup.com/fr-FR/pleb-lab/events/287948415/). Il a présenté en live sa théorie, sur ce qu'est Ordinals et les ressources proposées.
 
 -> Qu'est-ce qu'Ordinals ?
 
-```
-What are Ordinals?
 
-A scheme for assigning ordinal numbers to satoshis and tracking them across transactions, and a command-line utility, `ord` for querying information about ordinals. 
+>What are Ordinals?
+>A scheme for assigning ordinal numbers to satoshis and tracking them across transactions, and a command-line utility, `ord` for querying information about ordinals. 
 
-```
 
 -> Une présentation de ses motivations par l'art génératif et donner l'opportunité aux artistes d'inscrire leurs œuvres sur Bitcoin.
 
@@ -124,9 +125,9 @@ A scheme for assigning ordinal numbers to satoshis and tracking them across tran
 
 ####	c) L'arrivée des degens et des techos
 
--> Il fallu néanmoins attendre décembre 2022 pour avoir la première inscription [Inscription #0](https://ord.link/0) réalisée par **bc1qv8zhcjzpjw4m4tdyc5zn3dmax0z6rr6l78fevg** dont on peut voir qu'il ne l'a pas conservée puisque transférée immédiatement à une autre adresse [Activity for bc1qv8zhcjzpjw4m4tdyc5zn3dmax0z6rr6l78fevg | Ordiscan](https://ordiscan.com/address/bc1qv8zhcjzpjw4m4tdyc5zn3dmax0z6rr6l78fevg/activity). L'adresse finale qui possède l'inscription #0 est assez active [Activity for bc1pz4kvfpurqc2hwgrq0nwtfve2lfxvdpfcdpzc6ujchyr3ztj6gd9sfr6ayf | Ordiscan](https://ordiscan.com/address/bc1pz4kvfpurqc2hwgrq0nwtfve2lfxvdpfcdpzc6ujchyr3ztj6gd9sfr6ayf/activity).
+Il fallu néanmoins attendre décembre 2022 pour avoir la première inscription [Inscription #0](https://ord.link/0) réalisée par **bc1qv8zhcjzpjw4m4tdyc5zn3dmax0z6rr6l78fevg** dont on peut voir qu'il ne l'a pas conservée puisque transférée immédiatement à une autre adresse [Activity for bc1qv8zhcjzpjw4m4tdyc5zn3dmax0z6rr6l78fevg | Ordiscan](https://ordiscan.com/address/bc1qv8zhcjzpjw4m4tdyc5zn3dmax0z6rr6l78fevg/activity). L'adresse finale qui possède l'inscription #0 est assez active [Activity for bc1pz4kvfpurqc2hwgrq0nwtfve2lfxvdpfcdpzc6ujchyr3ztj6gd9sfr6ayf | Ordiscan](https://ordiscan.com/address/bc1pz4kvfpurqc2hwgrq0nwtfve2lfxvdpfcdpzc6ujchyr3ztj6gd9sfr6ayf/activity).
 
--> Les Bitcoin rocks [Bitcoin Rocks | Ordiscan](https://ordiscan.com/collection/bitcoin-rocks) furent la première collection minté entre 71 et 247. Ils ont été la porte d'entrée des Degens 
+Les Bitcoin rocks [Bitcoin Rocks | Ordiscan](https://ordiscan.com/collection/bitcoin-rocks) furent la première collection minté entre 71 et 247. Ils ont été la porte d'entrée des Degens 
 
 ### 2) Des idées anciennes, remises au goût du jour
 
@@ -166,16 +167,15 @@ Une liste Twitter regroupant les principaux core developpers [ordinals dev list]
 
 ### 1) Compter les sats
 
-```
-Every satoshi is serially numbered, starting at 0, in the order in which it is mined. These numbers are termed "ordinal numbers", or "ordinals", as they are ordinal numbers in the mathematical sense, giving the order of each satoshi in the totally supply. The word "ordinal" is nicely unambiguous, as it is not used elsewhere in the Bitcoin protocol.
-The ordinal numbers of transaction inputs are transferred to outputs in first-in-first-out order, according to the size and order of the transactions inputs and outputs.
+>Every satoshi is serially numbered, starting at 0, in the order in which it is mined. These numbers are termed "ordinal numbers", or "ordinals", as they are ordinal numbers in the mathematical sense, giving the order of each satoshi in the totally supply. The word "ordinal" is nicely unambiguous, as it is not used elsewhere in the Bitcoin protocol.
+>The ordinal numbers of transaction inputs are transferred to outputs in first-in-first-out order, according to the size and order of the transactions inputs and outputs.
 
-If a transaction is mined with the same transaction ID as outputs currently in the UTXO set, following the behavior of Bitcoin Core, the new transaction outputs displace the older UTXO set entries, destroying the ordinals contained in any unspent outputs of the first transaction. This rule is required to handle the two pairs of mainnet transactions with duplicate transaction IDs, namely the coinbase transactions of blocks 91812/91842, and 91722/91880, mined before BIP-34 made the creation of transactions with duplicate IDs impossible.
+>If a transaction is mined with the same transaction ID as outputs currently in the UTXO set, following the behavior of Bitcoin Core, the new transaction outputs displace the older UTXO set entries, destroying the ordinals contained in any unspent outputs of the first transaction. This rule is required to handle the two pairs of mainnet transactions with duplicate transaction IDs, namely the coinbase transactions of blocks 91812/91842, and 91722/91880, mined before BIP-34 made the creation of transactions with duplicate IDs impossible.
 
-For the purposes of the assignment algorithm, the coinbase transaction is considered to have an implicit input equal in size to the subsidy, followed by an input for every fee-paying transaction in the block, in the order that those transactions appear in the block. The implicit subsidy input carries the block's newly created ordinals. The implicit fee inputs carry the ordinals that were paid as fees in the block's transactions.
+>For the purposes of the assignment algorithm, the coinbase transaction is considered to have an implicit input equal in size to the subsidy, followed by an input for every fee-paying transaction in the block, in the order that those transactions appear in the block. The implicit subsidy input carries the block's newly created ordinals. The implicit fee inputs carry the ordinals that were paid as fees in the block's transactions.
 
-Underpaying the subsidy does not change the ordinal numbers of satoshis mined in subsequent blocks. Ordinals depend only on how many satoshis could have been mined, not how many actually were.
-```
+>Underpaying the subsidy does not change the ordinal numbers of satoshis mined in subsequent blocks. Ordinals depend only on how many satoshis could have been mined, not how many actually were.
+
 
 #### 	a) La méthode
 
@@ -193,19 +193,21 @@ Underpaying the subsidy does not change the ordinal numbers of satoshis mined in
 
 ####	c) A la recherche des sats rares
 
--> Outils online le plus facile. On donne son adresse et ils l'analysent.
+Outils online le plus facile. On donne son adresse et ils l'analysent.
 
--> Moyen de le faire par ligne de commande mais je ne sais toujours pas comment.
+-> Retrouver les outils online pour analyser les sats. 
+
+Moyen de le faire par ligne de commande mais je ne sais toujours pas comment.
 
 ### 2) L'inscription
 
--> Maintenant qu'on sait compter les sats, on peut les manipuler. Ordinals propose d'inscrire sur ces derniers.
+Maintenant qu'on sait compter les sats, on peut les manipuler. Ordinals propose d'inscrire sur ces derniers.
 
 ####	a) L'idée
 
--> Quand on fait une transaction, on peut stocker la data sur le premier sat de la tx. 
+Quand on fait une transaction, on peut stocker la data sur le premier sat de la tx. 
 
--> Techniquement il est utilisé une double tx de commit puis de reveal. Cela doit encore être détaillé sur pourquoi cette double tx. A priori c'est pour que le reveal connaisse l'output et puisses inscrire sur le bon sat. 
+Techniquement il est utilisé une double tx de commit puis de reveal. Cela doit encore être détaillé sur pourquoi cette double tx. A priori c'est pour que le reveal connaisse l'output et puisses inscrire sur le bon sat. 
 Mais il faut encore creuser un petit peu.
 
 
@@ -316,16 +318,20 @@ Néanmoins, il est beaucoup plus léger que la chain Bitcoin (~ 13 Go) donc c'es
 ----------------
 
 
-
-
 ####	c) Les commandes élémentaires 
 
 `ord help` Liste toutes les commandes
+
 `ord wallet help` Liste les sous-commandes de wallet
+
 `ord wallet create` Crée un nouveau wallet
+
 `ord wallet balance` Donne la balance du wallet ord actuel
+
 `ord wallet inscribe` Permet d'inscrire via la syntaxe : `ord wallet inscribe path/to/file.ext --fee-rate=xxx` où `ext` est un des types suivants : txt, json, webp, html,   
+
 `ord wallet inscriptions`
+
 On pourra noter qu'il existe les commandes : `ord server` et 
 
 ## III) Utilisation et dernières avancées
@@ -450,7 +456,7 @@ Une contrainte posé par Domo est que le ticker d'un brc-20 ne doit comporter qu
 
 -> Trouver une ref de pourquoi 4 caractères.
 
--> Pour un détail en vidéo de ces explications vous pouvez consulter [The Only BRC-20 Guide You Will Need](https://www.youtube.com/watch?v=XftBkRZ9jqk).
+Pour un détail en vidéo de ces explications vous pouvez consulter [The Only BRC-20 Guide You Will Need](https://www.youtube.com/watch?v=XftBkRZ9jqk).
 
 Faisons le schéma complet d'un token `DBTC` pour DécouvreBitcoin (le token existe déjà et n'y est pas relié, ceci est simplement à titre indicatif et ne constitue en aucun cas une invitation à le mint, l'acheter ou autre) : 
 
@@ -537,19 +543,58 @@ Il y aurait beaucoup à dire des discussions qui ont animés les différents dis
 
 Maintenant que nous avons compris comment fonctionne ces deux protocoles nous pouvons nous attaquer à un très gros morceau qui est pour l'instant toujours en développement le Meta Procole **BOSS** (Bitcoin Operationnal Standard System).
 
--> BOSS propose un avenir florissant avec l'idée de Meta Protocols. Créant un standard sur tous ces protocoles sauvages ainsi qu'une machine virtuelle on peut s'attendre à ce que beaucoup de solutions de demain soit construites sur BOSS.
+BOSS propose un avenir florissant avec l'idée de Meta Protocols. Créant un standard sur tous ces protocoles sauvages ainsi qu'une machine virtuelle on peut s'attendre à ce que beaucoup de solutions de demain soit construites sur BOSS.
 En tout cas, BOSS va être un terrain d'expérimentation assez fou sur Bitcoin.
 
 
--> De nouvelles choses sont régulièrement proposés. Des interfaces améliorées, du code à clarifier, des articles à écrire, des tutos à réaliser, les choses qui arrivent ne manque pas et nous devons nous tenir informés pour être là où les choses se développent.
+De nouvelles choses sont régulièrement proposés. Des interfaces améliorées, du code à clarifier, des articles à écrire, des tutos à réaliser, les choses qui arrivent ne manque pas et nous devons nous tenir informés pour être là où les choses se développent.
 
 
 
 ### 3) Les cursed inscriptions
 
+Les inscriptions "maudites". Ces inscriptions ont fait leur apparitions quelques mois après le lancement d'Ordinals.
+Une cursed inscription est basiquement une inscritpion non valide a priori pour le protocole Ordinals.
+
 ####	a) L'issue git #2062
 
+Dans l'issue git [Inscription numbers off by one, or the curious case of transaction `c1e0db6368a43...d9e4117151` · Issue #2062 · ordinals/ord](https://github.com/ordinals/ord/issues/2062) quelque chose d'étrange a été trouvé. 
+Une inscription avec 0 satoshi attachée !
+
+Enfer et damnation ! Nous avons dit qu'il fallait inscrire sur des satoshis. Comment est-ce possible ?
+
+Est-ce la seule forme d'inscription non valide ?
+
+NON ! 
+
+De nombreuses inscriptions non valides au regard du protocole Ordinals ont pu être inscrite dont on peut avoir un détail avec l'issue ouverte par Casey [Cursed Inscription Tracking Issue · Issue #2045 · ordinals/ord](https://github.com/ordinals/ord/issues/2045). 
+
+Des inscriptions multiples, des inscriptions avec d'autres `OP_CODE` par exemple l'`op_code`, `OP_66` qui n'est pas indexé par `ord`, ... .
+
+Afin d'intégrer les cursed inscriptions sur le marché et sur l'indexer il a été décidé dans un premier temps de les indexer par un nombre négatif avant de les considérer comme valides et positives dans la nouvelle mise à jour [Leonidas.og: "Version 0.6.0 of the Ordinals Protocol just went live! Here is everything you need to know about this major update"](https://twitter.com/LeonidasNFT/status/1665437076450336768).
+
+On n'en est encore qu'au début et beaucoup de choses vont être amenée à changer. Les cursed inscriptions seront quelque chose d'historique pour l'écosystème. Même s'il n'est pas nécessaire de se plonger à corps perdu dans ce type d'inscription il est important de voir que cela a été un pas important dans l'intégration de nouvelles formes d'inscriptions sur Ordinals. 
+Ordinals est un protcole très jeune et en constante évolution. Suivre ce genre d'événement permet de mieux comprendre ce peut arriver par la suite et savoir gérer des nouveautés dans les inscriptions.
+
+
+
+Pour plus de détail sur les `OP_CODE` de Bitcoin on pourra consulter [Opcodes used in Bitcoin Script - Bitcoin Wiki](https://wiki.bitcoinsv.io/index.php/Opcodes_used_in_Bitcoin_Script).
+
+-> Références supplémentaires sur les cursed inscritptions
+[Bitcoin Ordinals and the mystery of the 'cursed Inscriptions' - AMBCrypto](https://ambcrypto.com/bitcoin-ordinals-and-the-mystery-of-the-cursed-inscriptions/)
+[Inscriptions in Reverse: The Quirky Journey of Cursed Ordinals - Influencive](https://www.influencive.com/inscriptions-in-reverse-the-quirky-journey-of-cursed-ordinals/)
+[Bitcoin Ordinals rolls out upgrade to rectify 'Cursed Inscriptions' issue](https://cointelegraph.com/news/bitcoin-ordinals-upgrade-rectify-cursed-inscriptions-issue)
+
+
 ####	b) Le développement
+
+La mise à jour d'ordinals pour prendre en compte les cursed inscriptions dans la version (0.6.0) publiée le 4 juin 2023.
+
+[raph: "Just released a new version of ord (0.6.0), which implements the first steps in recognizing more types of inscriptions (cursed inscriptions). Additionally you can now pass in RPC credentials through command-line flags, environmental vars or a config file. https://t.co/Xi6C92cC6z"](https://twitter.com/raphjaph/status/1665367103342362625)
+
+L'acceptation de ces cursed inscriptions permet maintenant de manipuler "légalement" les inscriptions multiples dans une même transaction et sur un même satoshi. 
+
+-> Il faudrait préparer un TP sur ce sujet !
 
 # Conclusion
 

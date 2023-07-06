@@ -7,7 +7,21 @@
 4. [ordinals .sats names](https://dune.com/domo/ordinals-sats-names)
 
 
-5. 
+5. [Inscriptions - Ordinal Theory Handbook](https://docs.ordinals.com/inscriptions.html) 
+
+6. [Bxdx.io](https://www.brc-20.io/)
+
+
+7. 
+
+8.
+
+9.
+
+10.
+
+11. 
+
 
 
 

@@ -240,6 +240,7 @@ Cette vidéo est faites sur Windows et étant sur Mac avec un node sur Disque du
 
 ####	a) Bitcoin Core 
 
+Note
 -------
 Cette partie a peut-être été réalisée ailleurs et pourrait simplement être référencée avec quelques ajouts ou copiée collée. A discuter de ce qui est le mieux.
 -------

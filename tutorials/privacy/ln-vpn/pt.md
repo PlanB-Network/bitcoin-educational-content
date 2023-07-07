@@ -45,36 +45,39 @@ A partir de https://lnvpn.com, você precisará selecionar o país do IP de saí
 Uma fatura lightning será exibida, basta escaneá-la com sua carteira lightning.
 
 Após o pagamento da fatura, você precisará aguardar alguns segundos a até dois minutos para que suas configurações do Wireguard sejam geradas. Se isso levar um pouco mais de tempo, não se preocupe, já fizemos esse procedimento dezenas de vezes, às vezes pode demorar um pouco mais.
-'L'écran suivant s'affichera et il te suffira de cliquer sur "Download as File" pour recevoir ton fichier de config, celui-ci portera un nom qui ressemblera à lnvpn-xx-xx.conf où les "xx" correspondront à la date du jour.
-![image](assets/2.jpeg)
 
-## Étape 2 : Activer le tunnel
+A seguinte tela será exibida e você só precisa clicar em "Download as File" para receber o seu arquivo de configuração, ele terá um nome parecido com lnvpn-xx-xx.conf, onde os "xx" corresponderão à data de hoje.
 
-D'abord, il te faudra renommer le fichier de config obtenu à l'étape précédente de sorte qu'il puisse être automatiquement reconnu par Wireguard.
+## Passo 2: Ativar o túnel
 
-Rends-toi dans ton dossier de téléchargement, soit dans une fenêtre de terminal ou avec l'explorateur de fichier et renomme le fichier lnvpn-xx-xx.conf ainsi : wg0.conf
+Primeiro, você precisará renomear o arquivo de configuração obtido na etapa anterior para que ele possa ser reconhecido automaticamente pelo Wireguard.
+
+Vá até a sua pasta de downloads, seja em uma janela do terminal ou com o explorador de arquivos, e renomeie o arquivo lnvpn-xx-xx.conf para wg0.conf.
+
+bash
 
 ```
     $ sudo ln -s usrbin/resolvectl usrlocal/bin/resolvconf
     $ sudo wg-quick up ~/Downloads/wg0.conf
 ```
 
-Voilà, ça y est! Le tunnel est activé!
+Pronto! O túnel está ativado!
 
-## Étape 3 : Vérifier
+## Passo 3: Verificar
 
-Utilise un service en ligne comme whatismyip pour vérifier que ton adresse IP publique est bien maintenant celle du VPN que tu viens d'activer.
+Utilize um serviço online como o "whatismyip" para verificar se o seu endereço IP público agora é o do VPN que você acabou de ativar.
+Passo 4: Desativar
 
-## Étape 4 : Désactiver
+Quando o contrato expirar, você precisará desativar a conexão para recuperar o acesso à internet. Em seguida, você poderá repetir os passos de 1 a 3 sem problemas sempre que desejar estabelecer uma conexão com o LN VPN.
 
-Lorsque ton bail sera expiré, il te faudra désactiver la connection pour retrouver ton accès à Internet. Tu pourras ensuite sans problème répéter les étapes 1 à 3 chaque fois que tu voudras contracter un bail avec LN VPN.
+Desativar o túnel:
 
-Désactiver le tunnel :
+perl
 
 ```
     $ sudo ip link delete dev wg0
 ```
 
-Voilà! Tu sais maintenant te servir de LN VPN, un service VPN unique en son genre!
+Pronto! Agora você sabe como usar o LN VPN, um serviço VPN único em sua categoria!
 
-> _**Guide proposé par FranklynHart dans le cadre de Agora256, post original https://agora256.com/lnvpn/**_'
+> Guia fornecido por FranklynHart como parte do Agora256, post original em https://agora256.com/lnvpn/"

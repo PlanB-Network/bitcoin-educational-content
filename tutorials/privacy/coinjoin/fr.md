@@ -3,7 +3,7 @@ name: Coinjoin
 description: Comprendre et utiliser le CoinJoin sur Bitcoin.
 ---
 
-![Legende](assets/1.JPG)
+![Legende](assets/1.jpeg)
 
 # Comprendre et utiliser le CoinJoin sur Bitcoin.
 
@@ -17,9 +17,9 @@ Satoshi Nakamoto est venu résoudre ce problème avec son protocole Bitcoin, un 
 
 Pour que chaque utilisateur soit informé des transactions, celles-ci doivent être annoncées publiquement. Le système de paiement pair-à-pair proposé par le protocole Bitcoin a donc été rendu possible par une infrastructure complètement transparente et distribuée. Ainsi, quiconque dispose d'un nœud est en capacité de vérifier la chaine de signatures électroniques et l'historique de chaque pièce, depuis sa création par un mineur.
 
-    Ce principe de distribution du registre et d'annonce publique des nouvelles transactions est utilisé sur la dernière crypto-monnaie (bitcoin), mais il l'était déjà sur les crypto-monnaies précédentes comme b-money, inventé par Wei Dai en 1998.
-
-    Cette transparence et cette distribution impliquent que chaque utilisateur du réseau Bitcoin est en capacité de retracer et d'observer les transactions de tous les autres usagers. La confidentialité est donc impossible au niveau du paiement. Au lieu de cela, elle se fait au niveau de l'identification de la personne.
+> Ce principe de distribution du registre et d'annonce publique des nouvelles transactions est utilisé sur la dernière crypto-monnaie (bitcoin), mais il l'était déjà sur les crypto-monnaies précédentes comme b-money, inventé par Wei Dai en 1998.
+>
+> Cette transparence et cette distribution impliquent que chaque utilisateur du réseau Bitcoin est en capacité de retracer et d'observer les transactions de tous les autres usagers. La confidentialité est donc impossible au niveau du paiement. Au lieu de cela, elle se fait au niveau de l'identification de la personne.
 
 Au lieu d'associer chaque unité de compte à une identité (nom, prénom...), comme dans le système bancaire traditionnel, les bitcoins sont associés à une paire de clés. Les utilisateurs sont donc représentés anonymement par un identifiant cryptographique.
 
@@ -31,16 +31,16 @@ Dans cet article, nous allons étudier ensemble ce qu'est le CoinJoin, comment i
 
 Si cet article vous plait, partagez-le sur les réseaux sociaux et à vos connaissances qui en ont besoin.
 
-        Sommaire :
-
-        - CoinJoin et mixage de bitcoins.
-        - Les différentes implémentations de CoinJoin.
-        - Fonctionnement théorique de Whirlpool.
-        - Tutoriel : Whirlpool sur Sparrow Wallet.
-        - Tutoriel : Whirpool CLI sur Dojo et Whirlpool GUI.
-        - Les bonnes pratiques en post-mix.
-        - Les outils de dépense.
-        - Est-ce mal de mixer des bitcoins ?
+> Sommaire :
+>
+> - CoinJoin et mixage de bitcoins.
+> - Les différentes implémentations de CoinJoin.
+> - Fonctionnement théorique de Whirlpool.
+> - Tutoriel : Whirlpool sur Sparrow Wallet.
+> - Tutoriel : Whirpool CLI sur Dojo et Whirlpool GUI.
+> - Les bonnes pratiques en post-mix.
+> - Les outils de dépense.
+> - Est-ce mal de mixer des bitcoins ?
 
 Si vous êtes un utilisateur débutant de Bitcoin, avant de pouvoir aborder cet article, je vous conseille fortement de comprendre la structure d'une transaction Bitcoin (UTXO, inputs et outputs) en lisant ce court article traitant ce sujet : Mécanisme d'une transaction Bitcoin : UTXO, inputs et outputs.
 
@@ -58,7 +58,7 @@ Avec l'arrivée du CoinJoin, le mixage est rapidement devenu désuet et les util
 
 En conséquence, dans le langage courant des bitcoiners, beaucoup utilisent le mot « mixage » pour parler finalement d'un CoinJoin. Même si cette sémantique est initialement fausse, elle est globalement admise au sein des utilisateurs. On parle alors de « bitcoins mixés » pour évoquer des UTXO sortis d'une transaction CoinJoin.
 
-![Legende](assets/1.JPG)
+![Legende](assets/1.jpeg)
 
 Le CoinJoin est donc une technique permettant de casser l'historique des UTXO. Il repose sur une transaction collaborative à la structure spécifique de même nom : la transaction CoinJoin. Ce type de transaction a été initialement proposé par Gregory Maxwell en 2013 sur le forum Bitcoin Talk : https://bitcointalk.org/index.php?topic=279249.0
 
@@ -86,9 +86,11 @@ Une transaction CoinJoin pourrait parfaitement être réalisée manuellement, di
 
 Il existe principalement 3 implémentations de CoinJoin sur Bitcoin :
 
-    JoinMarket.
-    Wasabi.
-    Whirlpool.
+> JoinMarket.
+>
+> Wasabi.
+>
+> Whirlpool.
 
 Même si l'objectif final de ces trois implémentations est le même, à savoir casser l'historique d'un UTXO en réalisant des transactions CoinJoin, leurs fonctionnements sont très différents. Il convient donc de s'informer sur les rouages de chacun afin de choisir l'implémentation qui correspond le mieux à nos attentes.
 
@@ -96,7 +98,7 @@ Vous l'aurez sûrement compris si vous me suivez sur Twitter, personnellement, j
 
 Les caractéristiques évoquées pour chaque implémentation sont valables actuellement. Il est possible qu'elles aient évoluées lorsque vous lisez cet article.
 
-![Legende](assets/2.JPG)
+![Legende](assets/2.jpeg)
 
 ## JoinMarket.
 
@@ -147,7 +149,7 @@ Avec ce type de construction restrictive sur les inputs, la transaction CoinJoin
 
 Le nombre de participants à chaque mix est limité à 5 : 2 entrants et 3 remixeurs (nous découvrirons plus tard en quoi cela consiste). Toute transaction CoinJoin sur Whirlpool dispose donc toujours de 5 entrées et de 5 sorties.
 
-![Représentation schématique d'une transaction CoinJoin Whirlpool.](assets/3.JPG)
+![Représentation schématique d'une transaction CoinJoin Whirlpool.](assets/3.jpeg)
 
 ## Conception de Whirlpool.
 
@@ -210,7 +212,7 @@ Les autres frais à considérer seront évidemment les frais de minage inhérent
 
 Chaque CoinJoin est composé de 5 utilisateurs. Parmi ceux-ci, 2 sont des entrants et 3 sont des remixes. Ainsi, les deux entrants de chaque mix paieront les frais de minage pour les 5 utilisateurs, puis ces deux entrants pourront à leur tour profiter de la gratuité des remixes suivants.
 
-![legende](assets/4.JPG)
+![legende](assets/4.jpeg)
 
 Grâce à ce modèle de frais, Whirlpool se différencie réellement des autres services de CoinJoin puisque les Anon Sets des UTXO ne sont pas proportionnels au prix payé par l'utilisateur. On peut donc aboutir à des Anon Sets très élevés, en ayant simplement payé les frais de la pool, et les frais de minage pour deux transactions (Tx0 et mix initial).
 
@@ -260,7 +262,7 @@ Cette Tx0 permettra également de payer les frais au coordinateur.
 
 Vous devrez payer des frais de minage pour la Tx0.
 
-![Schéma d'une Tx0 CoinJoin Bitcoin !](assets/5.JPG)
+![Schéma d'une Tx0 CoinJoin Bitcoin !](assets/5.jpeg)
 
 Crédit (image modifiée) : KYCP.org : https://kycp.org/#/a126e48d4a6eb8d19682ec0e23ad45e76cd52b45f6c17be5068ae051d4b2cc24
 
@@ -308,7 +310,7 @@ Pour vous donner une image, le score prospectif est le nombre d'UTXO actuels qui
 
 Ainsi, à la sortie d'un premier CoinJoin Whirlpool, un UTXO aura un score prospectif égal à 5. C'est-à-dire qu'il sera caché dans un groupe probable de 5 UTXO :
 
-![Schéma de calcul du score prospectif d'un UTXO Bitcoin](assets/6.JPG)
+![Schéma de calcul du score prospectif d'un UTXO Bitcoin](assets/6.jpeg)
 
 Si une personne surveille mon UTXO en entrée, il ne pourra pas savoir lequel de ces 5 UTXO en sortie m'appartient.
 
@@ -318,11 +320,11 @@ Ce qui est très intéressant avec Whirlpool, c'est que même si mon UTXO n'est 
 
 Imaginons que notre UTXO ait passé un premier mix, et qu'il dispose donc d'un score de 5. Si un UTXO présent dans ce même mix passe dans un nouveau remixe, alors le score de mon UTXO augmentera à 9, alors même que celui-ci n'a pas bougé depuis le mix initial :
 
-![Schéma de calcul du score prospectif d'un UTXO Bitcoin](assets/7.JPG)
+![Schéma de calcul du score prospectif d'un UTXO Bitcoin](assets/7.jpeg)
 
 Cette augmentation du score prospectif est exponentielle puisque, si un UTXO rencontré par l'UTXO que j'ai rencontré lors de mon premier mix se remixe, alors mon Anon Set augmente encore :
 
-![Schéma de calcul du score prospectif d'un UTXO Bitcoin](assets/8.JPG)
+![Schéma de calcul du score prospectif d'un UTXO Bitcoin](assets/8.jpeg)
 
 Cette augmentation exponentielle est rendue possible par le modèle unique de Whirlpool établi sur de nombreux petits CoinJoin successifs.
 
@@ -342,7 +344,7 @@ Par exemple, imaginons qu'un observateur de la chaine Bitcoin connaisse un UTXO,
 
 Pour calculer ce score rétrospectif, il faut d'abord compter à partir de l'UTXO visé tous les UTXO en entrée issus d'une Tx0. Ensuite, il faudra analyser les UTXO de remixage en entrée de la transaction et remonter vers les 3 transactions CoinJoin antérieures dont ils sont issus. Sur chacune de ces trois transactions, on effectuera le même calcul. On continue aussi ainsi de suite jusqu'à la transaction CoinJoin Genesis, c'est-à-dire la première transaction CoinJoin de la pool.
 
-![Schéma de calcul du score rétrospectif d'un UTXO Bitcoin](assets/9.JPG)
+![Schéma de calcul du score rétrospectif d'un UTXO Bitcoin](assets/9.jpeg)
 
 Sur le schéma ci-dessus, le calcul du score rétrospectif d'un des UTXO en sortie du CoinJoin tout en haut revient à calculer le nombre de Tx0 (les bulles bleues) présentes dans les CoinJoin ascendants au CoinJoin visé, jusqu'au CoinJoin Genesis.
 
@@ -429,7 +431,7 @@ Accédez ensuite au répertoire de travail créé à l'étape précédente avec 
 workdir /home/psyduck/wst
 ```
 
-![Lancement de WST lignes de commande](assets/10.JPG)
+![Lancement de WST lignes de commande](assets/10.jpeg)
 
 Téléchargez ensuite les données de la pool qui contient votre transaction :
 
@@ -452,7 +454,7 @@ Une fois les données téléchargées, chargez-les avec la commande :
 load 0001
 ```
 
-![Téléchargement des données de WST à partir d'OXT lignes de commande](assets/11.JPG)
+![Téléchargement des données de WST à partir d'OXT lignes de commande](assets/11.jpeg)
 
 Après avoir chargé les données, tapez la commande score suivie de votre TXID (identifiant de transaction) pour obtenir ses Anon Sets :
 
@@ -461,7 +463,7 @@ Après avoir chargé les données, tapez la commande score suivie de votre TXID 
 score TXID
 ```
 
-![Résultat du calcul des anon set d'un UTXO avec WST](assets/11.JPG)
+![Résultat du calcul des anon set d'un UTXO avec WST](assets/11.jpeg)
 
 WST vous affiche alors le score rétrospectif (Backward-looking metrics) puis le score prospectif (Forward-looking metrics). En plus des scores des Anon Sets, WST vous donne également le taux de diffusion de votre output dans la pool en fonction de l'anon set.
 

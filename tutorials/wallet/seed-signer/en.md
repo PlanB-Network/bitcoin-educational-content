@@ -74,32 +74,32 @@ Everything you need to know will be below. Other useful links include SeedSigner
 
 In this video I show you how to download and verify the SeedSigner software, what parts are needed, and how to assemble your SeedSigner.
 
-https://youtu.be/mGmNKYOXtxY
+![video](https://youtu.be/mGmNKYOXtxY)
 
 ### Part 2: Testing your SeedSigner
 
 Before I used my SeedSigner, I did a few tests to ensure it wasn't doing anything malicious. I thought I would share this step too. Here is how to verify that your SeedSigner exports the correct wallet (xpub), how to verify SeedSigners dice rolls math, and how to verify SeedSigners bip-85 child seeds.
 
-https://youtu.be/34W1IyTyXZE
+![video](https://youtu.be/34W1IyTyXZE)
 
 ### Part 3: How to use SeedSigner with Sparrow Wallet (desktop)
 
 SeedSigner is capable of generating seeds and signing off on bitcoin transactions. But by itself, it is not capable of building transactions. You need to use a wallet "coordinator" with your SeedSigner. This is how to use Sparrow Wallet with your SeedSigner:
 
-https://youtu.be/IQb8dh-VTOg
+![video](https://youtu.be/IQb8dh-VTOg)
 
 Part 4: How to use SeedSigner with Blue Wallet (mobile)
 
 SeedSigner is capable of generating seeds and signing off on bitcoin transactions. But by itself, it is not capable of creating transactions. You need to use a wallet "coordinator" with your SeedSigner. This is how to use Blue Wallet with your SeedSigner:
 
-https://youtu.be/x0Ee35Ct0r4
+![video](https://youtu.be/x0Ee35Ct0r4)
 
 Those are all the SeedSigner guides, for now! Let me know if you think I am missing anything. These are on my list for potential videos:
 
 > SeedSigner overall review. Is it a good choice for a signing device? Pros/cons?
 
-    How to use Bip-85 with SeedSigner
-    How to be uncle Jim with SeedSigner
+> How to use Bip-85 with SeedSigner
+> How to be uncle Jim with SeedSigner
 
 Found these valuable? Consider sending a tip to help fund future videos:
 https://www.southernbitcoiner.com/donate/

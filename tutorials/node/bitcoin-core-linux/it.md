@@ -1,6 +1,6 @@
 ---
-nome: Noeud Bitcoin Core (linux)
-descrizione: Eseguire il proprio nodo con Bitcoin Core
+name: Noeud Bitcoin Core (linux)
+description: Eseguire il proprio nodo con Bitcoin Core
 ---
 
 ![copertina](assets/cover.jpeg)

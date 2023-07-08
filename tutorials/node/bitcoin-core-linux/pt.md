@@ -1,6 +1,6 @@
 ---
-nome: Noeud Bitcoin Core (linux)
-descrição: Executando seu próprio nó com Bitcoin Core
+name: Noeud Bitcoin Core (linux)
+description: Executando seu próprio nó com Bitcoin Core
 ---
 
 ![capa](assets/cover.jpeg)

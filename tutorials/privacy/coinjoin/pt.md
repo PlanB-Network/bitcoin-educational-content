@@ -1,6 +1,6 @@
 ---
-nome: Coinjoin
-descrição: Compreender e utilizar o CoinJoin no Bitcoin.
+name: Coinjoin
+description: Compreender e utilizar o CoinJoin no Bitcoin.
 ---
 
 ![Legenda](assets/1.jpeg)

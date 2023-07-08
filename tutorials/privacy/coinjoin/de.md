@@ -1,5 +1,5 @@
 ---
-Name: Coinjoin
+name: Coinjoin
 description: Verständnis und Nutzung von CoinJoin auf Bitcoin.
 ---
 

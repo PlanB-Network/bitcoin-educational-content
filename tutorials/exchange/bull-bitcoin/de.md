@@ -1,5 +1,5 @@
 ---
-Name: Bull Bitcoin
+name: Bull Bitcoin
 
 description: Bull Bitcoin Benutzerhandbuch
 ---

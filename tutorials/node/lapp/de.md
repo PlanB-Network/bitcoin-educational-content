@@ -1,5 +1,5 @@
 ---
-Name: LAPP bitcoin
+name: LAPP bitcoin
 description: Tutorial zur Entwicklung Ihrer ersten LApp
 ---
 

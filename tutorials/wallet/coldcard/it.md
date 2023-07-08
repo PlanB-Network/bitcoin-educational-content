@@ -1,7 +1,7 @@
 ---
-nome: Carta del freddo
+name: Carta del freddo
 
-descrizione: Creazione, backup e utilizzo di una chiave privata Bitcoin con un dispositivo Coldcard e Bitcoin Core.
+description: Creazione, backup e utilizzo di una chiave privata Bitcoin con un dispositivo Coldcard e Bitcoin Core.
 ---
 
 ![copertina](assets/cover.jpeg)

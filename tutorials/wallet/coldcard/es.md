@@ -1,7 +1,7 @@
 ---
-nombre: Cold Card
+name: Cold Card
 
-descripción: Creación, copia de seguridad y uso de una clave privada de Bitcoin con un dispositivo Coldcard y Bitcoin Core.
+description: Creación, copia de seguridad y uso de una clave privada de Bitcoin con un dispositivo Coldcard y Bitcoin Core.
 ---
 
 ![cover](assets/cover.jpeg)

@@ -1,7 +1,7 @@
 ---
-nombre: Blixt
+name: Blixt
 
-Descripción: Cartera multifunción LN
+description: Cartera multifunción LN
 ---
 
 ![presentación](activos/1.jpeg)

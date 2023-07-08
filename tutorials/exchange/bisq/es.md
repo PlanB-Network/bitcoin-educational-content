@@ -1,7 +1,6 @@
 ---
-nombre: Bisq
-
-descripción: Cómo usar Bisq, un intercambio peer to peer
+name: Bisq
+description: Cómo usar Bisq, un intercambio peer to peer
 ---
 
 ![portada](assets/cover.jpeg)

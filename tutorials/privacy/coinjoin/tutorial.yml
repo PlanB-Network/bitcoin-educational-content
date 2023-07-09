@@ -1,9 +1,9 @@
 builder: coinjoin
 
-category: mixing
+category: bitcoin
 
 tags:
-  - Privacy
+  - privacy
   - education
 
 level: advanced

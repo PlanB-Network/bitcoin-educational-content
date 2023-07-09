@@ -2,7 +2,6 @@
 name: Cold Card
 
 description: Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
-
 ---
 
 ![cover](assets/cover.jpeg)
@@ -23,20 +22,21 @@ Aujourd'hui, de multiples outils existent pour faciliter la génération aléato
 
 Dans cet article, nous allons apprendre à générer une clé privée à l'aide d'une Coldcard Mk4, l'un des appareils les plus répandus et sécuritaires dans le monde du Bitcoin, en se servant de la méthode du lancement de dés (Dice roll) pour garantir un maximum d'entropie, et à l'utiliser avec Bitcoin Core de façon étanche (air-gapped) !
 
-    🧰|  Munissez-vous des outils suivant pour suivre le guide :
-      - Appareil Coldcard (Mk3 ou Mk4)
-        - Carte microSD (4GB sont suffisants)
-        - Un câble USB magnétique power-only (mini-usb pour Mk3, usb-c pour Mk4)
-        - Un ou plusieurs dés de qualité
+> 🧰| Munissez-vous des outils suivant pour suivre le guide :
+>
+> - Appareil Coldcard (Mk3 ou Mk4)
+> - Carte microSD (4GB sont suffisants)
+> - Un câble USB magnétique power-only (mini-usb pour Mk3, usb-c pour Mk4)
+> - Un ou plusieurs dés de qualité
 
 ## Génération d'une nouvelle phrase mnémonique avec une Coldcard
 
 Nous allons entamer le processus de création de clé privée depuis le début en assumant une Coldcard fraîchement déballée sur laquelle un NIP a déjà été configuré (suivre les étapes sur la Coldcard lors de l'initiation de l'appareil).
 
-    🚨 | Pour réinitiliaser la clé privée d'une Coldcard déjà configurée, suivez ces étapes :
-    Advanced/Tools > Danger Zone > Seed Functions > Destroy Seed> ✓
-
-    *Attention* : votre Coldcard oubliera la clé privée à la suite de ces étapes. Assurez-vous d'avoir bien sauvegardé votre phrase mnémonique si vous voulez pouvoir la récupérer ultérieurement.
+> 🚨 | Pour réinitiliaser la clé privée d'une Coldcard déjà configurée, suivez ces étapes :
+> Advanced/Tools > Danger Zone > Seed Functions > Destroy Seed> ✓
+>
+> _Attention_ : votre Coldcard oubliera la clé privée à la suite de ces étapes. Assurez-vous d'avoir bien sauvegardé votre phrase mnémonique si vous voulez pouvoir la récupérer ultérieurement.
 
 ## Étapes à suivre :
 
@@ -52,7 +52,7 @@ Choisissez ensuite si vous souhaitez activer ou non les fonctions NFC (Mk4) et U
 
 Avant de poursuivre, il est recommandé de noter le Master Key Fingerprint (XFP) associé à la clé privée. Cette donnée permet de rapidement valider si l'on se trouve bien dans le bon portefeuille dans le cas d'une récupération, par exemple. Allez dans Advanced/Tools > View Identity > Master Key Fingerprint (XFP) et notez la série de huit caractères alphanumériques obtenue. Le XFP peut-être noté au même endroit que la phrase mnémonique, ce n'est pas une donnée sensible.
 
-    💡 Il est recommandé de tester votre sauvegarde de phrase mnémonique dans un logiciel différent. Pour le faire de façon sécuritaire, consultez notre article Vérifier la sauvegarde d'un portefeuille Bitcoin avec Tails en moins de 5 minutes.
+> 💡 Il est recommandé de tester votre sauvegarde de phrase mnémonique dans un logiciel différent. Pour le faire de façon sécuritaire, consultez notre article Vérifier la sauvegarde d'un portefeuille Bitcoin avec Tails en moins de 5 minutes.
 
 ## Bonus de sécurité : la "Phrase Secrète" (optionnel)
 
@@ -66,7 +66,8 @@ L'objectif est de noter la phrase secrète séparément de la phrase mnémonique
 
 Passphrase > Add Words (recommandé) > Apply. L'appareil affichera le XFP du portefeuille nouvellement généré grâce à la phrase secrète, lequel il est souhaitable de noter avec la phrase secrète pour les mêmes raisons que mentionné précédemment.
 
-    💡 Ressources additionnelles en lien à la phrase secrète :
+> 💡 Ressources additionnelles en lien à la phrase secrète :
+
     https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af
     https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/
     https://armantheparman.com/passphrase/
@@ -77,9 +78,9 @@ Le portefeuille est maintenant prêt à être exporté sur un logiciel afin de p
 
 Référez-vous à nos guides d'installation et configuration de Bitcoin Core :
 
-      Faire tourner son propre noeud avec Bitcoin Core - https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/
-
-      Configuration de Tor pour un nœud Bitcoin Core - https://agora256.com/configuration-tor-bitcoin-core/
+> Faire tourner son propre noeud avec Bitcoin Core - https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/
+>
+> Configuration de Tor pour un nœud Bitcoin Core - https://agora256.com/configuration-tor-bitcoin-core/
 
 D'abord, insérez une carte micro SD dans la Coldcard, puis exportez le portefeuille pour Bitcoin Core en suivant ces étapes : Advanced/Tools > Export Wallet > Bitcoin Core. Deux fichiers seront inscrit sur la carte micro SD : bitcoin-core.sig & bitcoin-core.txt. Insérez la carte micro SD dans l'ordinateur sur lequel est installé Bitcoin Core, et ouvrez le fichier .txt. Vous verrez la ligne For wallet with master key fingerprint. Vérifiez que le XFP de huit caractères correspond bien à celui que vous avez noté lors de la création de votre clé privée.
 
@@ -113,9 +114,9 @@ Essentiellement, nous utilisons l'interface Bitcoin Core pour construire une tra
 
 Avant de procéder, assurez-vous que les options suivantes sont activées dans Paramètres > Porte-monnaie :
 
-    Activer les fonctions de contrôle des pièces
-    Dépenser la monnaie non confirmée (Optionnel)
-    Activer les contrôles TBPS
+> - Activer les fonctions de contrôle des pièces
+> - Dépenser la monnaie non confirmée (Optionnel)
+> - Activer les contrôles TBPS
 
 ![option ](assets/guide-agora/5.jpeg)
 

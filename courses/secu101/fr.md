@@ -1,7 +1,7 @@
 ---
 name: Sécurité informatique & gestion des données
 goal: Remettre à jour la gestion de mots de passe et des données personnelles. Création d’un backup, se protéger des hackers et se sensibiliser à la surveillance de masse.
-objectifs:
+objectives:
   - Remettre à jour sur la gestion de vos données personnelles et sur les outils qui renforcent votre sécurité.
   - Mettre en place un gestionnaire de mots de passe sécurisé et facile d'utilisation
   - Mettre en place un deux facteurs d'authentification pour renforcer votre sécurité et minimiser les risques de hack
@@ -16,6 +16,7 @@ Pour éviter cela, nous allons vous montrer comment utiliser un gestionnaire de 
 Nous discuterons également de qui est le mieux placé pour protéger l’utilisateur : les entreprises, la régulation ou l’utilisateur lui-même
 
 Team contributeurs:
+
 - Renaud Lifchitz; professeur
 - Thép Pantamis; Professeur
 - Muriel; Design
@@ -52,10 +53,10 @@ En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, n
 
 Ce programme de formation est offert gratuitement sous une licence redistribuable. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit en trois langues.
 
-
 # Navigation en ligne
 
 ![navigation en ligne](https://youtu.be/BEK7vGnkO64)
+
 ## Le choix du navigateur web
 
 ### Les erreurs courantes lors de la navigation sur internet et comment les éviter
@@ -168,7 +169,6 @@ Sauvegardez régulièrement vos données importantes sur un support externe ou u
 
 Payer les hackers, une mauvaise idée : Il est généralement déconseillé de payer les hackers en cas de ransomware ou d'autres types d'attaques. Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes. Privilégiez plutôt la prévention et la sauvegarde régulière de vos données pour vous protéger.
 
-
 # Gestion de la boîte mail
 
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
@@ -279,8 +279,7 @@ Ce cours, ainsi que l'intégralité du contenu présent sur cette université, v
 
 Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 
-## allez plus loins 
-
+## allez plus loins
 
 Félicitations pour avoir terminé cette formation SECU 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. vous etes désomrais pret pour obtenir vos premier bitcoin ou tous simplement continuer l'aventure avec les cours de niveau 2 !
 

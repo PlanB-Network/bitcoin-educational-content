@@ -1,9 +1,7 @@
 ---
 name: Watch Tower
 description: comprendre et utiliser une watch tower
-
 ---
-
 
 # Watch Tower Lightning
 

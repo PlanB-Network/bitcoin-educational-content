@@ -2,7 +2,6 @@
 name: Blue Wallet
 
 description: Portefeuille Bitcoin Radicalement Simple et Puissant
-
 ---
 
 ![cover](assets/cover.jpeg)
@@ -20,7 +19,7 @@ Blue Wallet est un portefeuille open- source bitcoin qui est extremement simple 
 
 ## BlueWallet: une introduction
 
-    Guide offert par Agora256, écrit par Hari Seldon - https://agora256.com/bluewallet-une-introduction/ - 1 févr. 2023
+> Guide offert par Agora256, écrit par Hari Seldon - https://agora256.com/bluewallet-une-introduction/ - 1 févr. 2023
 
 ![image](assets/1.jpg)
 

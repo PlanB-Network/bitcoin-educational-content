@@ -2,9 +2,7 @@
 name: Tails
 
 description: Installer Tails sur une clé USB
-
 ---
-
 
 # Installer Tails sur une clé USB
 
@@ -60,7 +58,7 @@ Prérequis
 
 ![image](assets/1.jpeg)
 
-    🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#download
+> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#download
 
 Télécharger le fichier d'installation avec l'extension img peut prendre un certain temps en fonction de votre vitesse de téléchargement Internet, prévoyez donc de le faire en avance. Avec une ligne moderne et performante, cela prendra moins de 5 minutes.
 
@@ -70,7 +68,7 @@ Sauver le fichier dans un dossier connu, tels que Téléchargements, cela sera n
 
 ![image](assets/2.jpeg)
 
-    🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#verify
+> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#verify
 
 Vérifier le téléchargement permet de vous assurer qu'il est émis par les développeurs de Tails et qu'il n'a pas été corrompu ou intercepté au cours du téléchargement.
 
@@ -82,9 +80,10 @@ Pour vérifier le fichier, utilisez donc le bouton "Sélectionner votre téléch
 
 ![image](assets/3.jpeg)
 
-    🔗 Section officielle de Tails:
-    - Linux: https://tails.boum.org/install/linux/index.fr.html#install
-    - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher et https://tails.boum.org/install/mac/index.fr.html#install
+> 🔗 Section officielle de Tails:
+>
+> - Linux: https://tails.boum.org/install/linux/index.fr.html#install
+> - macOS: https://tails.boum.org/install/mac/index.fr.html#etcher et https://tails.boum.org/install/mac/index.fr.html#install
 
 Cette étape d'installation de Tails sur votre clé USB est la plus difficile de tout le guide, surtout si vous ne l'avez jamais fait avant. Le point le plus important est de bien choisir la procédure dans la section officielle pour votre système d'exploitation: Linux ou macOS.
 
@@ -96,11 +95,11 @@ Bon courage! et rendez-vous à l'étape 4.
 
 ![image](assets/4.jpeg)
 
-    🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#restart
+> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#restart
 
 Il est temps de démarrer un de vos ordinateurs en utilisant votre nouvelle clé USB. Insérez celle-ci dans un de ses ports USB et redémarrez!
 
-    💡 La plupart des ordinateurs ne démarrent pas automatiquement sur la clé USB Tails, mais vous pouvez appuyer sur la touche du menu de démarrage pour afficher une liste de périphériques possibles à partir desquels démarrer.
+> 💡 La plupart des ordinateurs ne démarrent pas automatiquement sur la clé USB Tails, mais vous pouvez appuyer sur la touche du menu de démarrage pour afficher une liste de périphériques possibles à partir desquels démarrer.
 
 Déterminer quelle touche vous devrez appuyer pour vous assurer d'avoir le menu de démarrage vous permettant de sélectionner la clé USB au lieu de votre disque dur habituel, voici une liste non exhaustive par fabricant:
 
@@ -130,7 +129,7 @@ Une fois la clé USB sélectionnée, vous devriez voir ce nouvel écran de déma
 
 ![image](assets/6.jpeg)
 
-    🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#tails
+> 🔗 Section officielle de Tails: https://tails.boum.org/install/linux/index.fr.html#tails
 
 Une ou deux minutes après le chargeur d'amorçage et l'écran de chargement, l'Écran de bienvenue apparaît.
 
@@ -152,10 +151,8 @@ Vous pouvez commencer à naviguer anonymement, explorer les options et les logic
 
 Une fois que vous aurez expérimenté un peu plus avec votre propre clé USB Tails, nous explorerons d'autres sujets plus avancés dans un autre article, comme:
 
-    Mettre à jour une clé avec la dernière version de Tails;
-    Configurer et utiliser le stockage persistant;
-    Installer des logiciels supplémentaires.
+> Mettre à jour une clé avec la dernière version de Tails; Configurer et utiliser le stockage persistant; Installer des logiciels supplémentaires.
 
 D'ici là, comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
 
-_**Guide proposé par Hari Seldon dans le cadre de Agora256; post orginal: https://agora256.com/installer-tails-usb/**_
+> _**Guide proposé par Hari Seldon dans le cadre de Agora256; post orginal: https://agora256.com/installer-tails-usb/**_

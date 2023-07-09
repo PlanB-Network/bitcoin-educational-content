@@ -2,7 +2,6 @@
 name: Kraken
 
 description: How to use kraken
-
 ---
 
 ![cover](assets/cover.jpeg)

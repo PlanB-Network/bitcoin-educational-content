@@ -10,7 +10,7 @@ objectives:
 
 # Un viaje al corazón de la criptografía
 
-¿Estás fascinado por Bitcoin? ¿Te preguntas cómo funciona una billetera Bitcoin? ¡Prepárate para embarcarte en un viaje cautivador al corazón de la criptografía! Loïc, nuestro experto, te guiará a través de los entresijos de la creación de una billetera Bitcoin, revelando los misterios detrás de términos técnicos intimidantes como hash, derivación de claves y curvas elípticas. 
+¿Estás fascinado por Bitcoin? ¿Te preguntas cómo funciona una billetera Bitcoin? ¡Prepárate para embarcarte en un viaje cautivador al corazón de la criptografía! Loïc, nuestro experto, te guiará a través de los entresijos de la creación de una billetera Bitcoin, revelando los misterios detrás de términos técnicos intimidantes como hash, derivación de claves y curvas elípticas.
 
 Esta formación no solo te dotará de los conocimientos para comprender la estructura de una billetera Bitcoin, sino que también te preparará para sumergirte más profundamente en el apasionante universo de la criptografía. Entonces, ¿estás listo para emprender este viaje? ¡Únete a nosotros y convierte tu curiosidad en habilidad!
 
@@ -48,12 +48,18 @@ Para coronar todo, terminaremos nuestro recorrido examinando las direcciones de 
 
 Bienvenidos a nuestra sesión de hoy dedicada a una inmersión profunda en el mundo criptográfico de las funciones de hash, una piedra angular esencial para la seguridad del protocolo Bitcoin. Imagina una función de hash como un robot descifrador criptográfico ultraeficiente que transforma información de cualquier tamaño en una huella digital única y de tamaño fijo, llamada "hash". A lo largo de nuestra exploración, retrataremos el perfil de las funciones de hash criptográficas, destacando su uso en el protocolo Bitcoin y definiendo los objetivos específicos que estas funciones criptográficas deben alcanzar.
 
+![image](assets/image/section1/0.JPG)
+
 Retratar el perfil de las funciones de hash criptográficas requiere entender dos cualidades esenciales: su irreversibilidad y su resistencia a la falsificación. Cada función de hash criptográfica es como un artista único, produciendo un "hash" distinto para cada entrada. Incluso un pincel que se desvía ligeramente altera considerablemente el cuadro final, es decir, el hash. Estas funciones actúan como centinelas digitales, verificando la integridad de los programas descargados. Otra característica crucial que poseen es su resistencia a las colisiones. Ciertamente, en el universo del hash, las colisiones son inevitables, pero una excelente función de hash criptográfica las minimiza considerablemente. Es como si cada hash fuera una casa en una ciudad enorme; a pesar del gran número de casas, una buena función de hash se asegura de que cada casa tenga una dirección única.
+
+![image](assets/image/section1/1.JPG)
 
 Ahora naveguemos por las aguas turbulentas de las funciones de hash obsoletas. SHA0, SHA1 y MD5 se consideran hoy en día como cascarones oxidados en el océano del hash criptográfico. A menudo se desaconsejan porque han perdido su resistencia a las colisiones. El principio de los cajones explica por qué, a pesar de nuestros mejores esfuerzos, evitar las colisiones es imposible debido a la limitación del tamaño de salida. También es importante señalar que la resistencia a la segunda imagen depende de la resistencia a las colisiones. Para ser verdaderamente considerada segura, una función de hash debe resistir las colisiones, la segunda imagen y la imagen original.
 Elemento clave en el protocolo Bitcoin, la función de hash SHA-256 es el capitán del barco. Otras funciones, como SHA-512, se utilizan para la derivación con HMAC y PBKDF. Además, RIPMD160 se utiliza para reducir una huella a 160 bits. Cuando hablamos de HASH256 y HASH160, nos referimos al uso de un doble hash con SHA-256 y RIPMD. El uso de HASH160 es particularmente ventajoso ya que permite beneficiarse de la seguridad de SHA-256 mientras se reduce el tamaño de la huella.
 
 En resumen, el objetivo final de una función de hash criptográfica es transformar una información de tamaño arbitrario en una huella de tamaño fijo. Para ser reconocida como segura, debe tener varias cuerdas en su arco: irreversibilidad, resistencia a la falsificación, resistencia a las colisiones y resistencia a la segunda preimagen.
+
+![image](assets/image/section1/2.JPG)
 
 Al final de esta exploración, hemos desmitificado las funciones de hash criptográficas, destacado su uso en el protocolo Bitcoin y analizado sus objetivos específicos. Hemos aprendido que para ser consideradas seguras, las funciones de hash deben ser resistentes a la preimagen, a la segunda preimagen, a las colisiones y a la falsificación. También hemos recorrido el abanico de diferentes funciones de hash utilizadas en el protocolo Bitcoin. En nuestra próxima sesión, nos sumergiremos en el corazón de la función de hash SHA256 y descubriremos las fascinantes matemáticas que le confieren sus características únicas.
 
@@ -63,12 +69,25 @@ Al final de esta exploración, hemos desmitificado las funciones de hash criptog
 
 Bienvenidos a la continuación de nuestro fascinante viaje a través de los laberintos criptográficos de la función de hash. Hoy, levantamos el velo sobre los misterios de SHA256, un proceso complejo pero ingenioso que presentamos en nuestra discusión anterior sobre las funciones de hash. Avancemos un paso más en este laberinto, comenzando por el preprocesamiento de SHA256. Imaginemos el preprocesamiento como la preparación de un plato sabroso, donde agregamos "bits de relleno" para que el tamaño de nuestro ingrediente principal, la entrada, alcance un múltiplo perfecto de 512 bits. Todo esto con el objetivo final de generar un hash suculento de 256 bits a partir de un ingrediente de tamaño variable.
 
+![image](assets/image/section1/3.JPG)
+![image](assets/image/section1/4.JPG)
+
 En esta receta criptográfica, jugamos con los bits, teniendo un tamaño de mensaje inicial que llamaremos M. Un bit está reservado para el separador, mientras que P bits se utilizan para el relleno. Además, reservamos 64 bits para la segunda fase de preprocesamiento. El total debe ser un múltiplo de 512 bits. Un poco como asegurarnos de que todos los ingredientes se armonicen perfectamente en nuestro plato.
+
+![image](assets/image/section1/5.JPG)
+
 Pasamos ahora a la segunda fase del preprocesamiento, que implica la adición de la representación binaria del tamaño del mensaje inicial, en bits. Para ello, utilizamos nuestros 64 bits reservados en la etapa anterior. Añadimos ceros para redondear nuestros 64 bits a nuestra entrada equilibrada. Luego, fusionamos el mensaje inicial, el relleno de bits y el relleno de tamaño, como ingredientes en una licuadora, para obtener nuestra entrada equilibrada.
+
+![image](assets/image/section1/6.JPG)
 
 Ahora nos preparamos para los primeros pasos del procesamiento de la función SHA-256. Como en cualquier buena receta, necesitamos algunos ingredientes básicos, que llamamos constantes y vectores de inicialización. Los vectores de inicialización, de A a H, son los primeros 32 bits de las partes decimales de las raíces cuadradas de los 8 primeros números primos. Las constantes K, de 0 a 63, representan los 32 primeros bits de las partes decimales de las raíces cúbicas de los 64 primeros números primos.
 
+![image](assets/image/section1/7.JPG)
+
 Dentro de la función de compresión, utilizamos operadores específicos como XOR, AND y NOT. Procesamos los bits uno por uno según su rango, utilizando el operador XOR y una tabla de verdad. El operador AND se utiliza para devolver 1 solo si ambos operandos son iguales a 1, y el operador NOT para devolver el valor opuesto de un operando. También utilizamos la operación SHR para desplazar los bits hacia la derecha según un número elegido.
+
+![image](assets/image/section1/8.JPG)
+![image](assets/image/section1/9.JPG)
 
 Finalmente, después de separar la entrada equilibrada en diferentes bloques de mensajes de 512 bits, realizamos 64 rondas de cálculo en la función de compresión. Como en una carrera de ciclismo, cada vuelta mejora nuestra posición. Sumamos módulo 2^32 el estado intermedio al estado inicial de la función de compresión. Las adiciones en la función de compresión son adiciones módulo 2^32 para contener el tamaño de las sumas a 32 bits.
 

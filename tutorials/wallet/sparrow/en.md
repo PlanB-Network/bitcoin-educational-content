@@ -4,14 +4,13 @@ name: Sparrow
 description: Full guide on Sparrow
 ---
 
-
 ![cover](assets/cover.jpeg)
 
 # Sparrow
 
 ## A series of videos covering Sparrow Bitcoin Wallet. Guides for beginners and more advanced users.
 
-    _This following guide is from Cole, thanks for sharing it with us. Original post: https://www.southernbitcoiner.com/sparrow-guides/_
+> _This following guide is from Cole, thanks for sharing it with us. Original post: https://www.southernbitcoiner.com/sparrow-guides/_
 
 Sparrow wallet is the gold standard for bitcoin wallets. It is feature-rich with a focus on security, privacy and usability. Anything you want from a bitcoin wallet, Sparrow can do it.
 

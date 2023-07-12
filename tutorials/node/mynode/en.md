@@ -1,9 +1,7 @@
 ---
-name: MyNode
-description: Set up your bitcoin MyNode 
-
+name: My Node
+description: Set up your bitcoin MyNode
 ---
-
 
 # Install Bitcoin Core on Mac or Windows
 
@@ -13,9 +11,7 @@ https://mynodebtc.com/
 
 The easiest, most powerful way to run a Bitcoin and Lightning node! We combine the best open source software with our interface, management, and support so you can easily, privately, and securely use Bitcoin and Lightning.
 
-    The following guide was offerted by Parman (https://twitter.com/parman_the)
-    you can tips him here; dandysack84@walletofsatoshi.com
-    Original source; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
+> The following guide was offerted by Parman (https://twitter.com/parman_the) you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
 
 ## Types of Node setups
 
@@ -68,9 +64,10 @@ Download the SHA 256 hashes
 
 Open the terminal on Mac or Linux or Command Prompt for Windows. Type:
 
-    Mac/Linux: “shasum -a 256 DOWNLOADEDFILENAME”
-
-    Windows: “certUtil -hashfile DOWNLOADEDFILENAME SHA256”
+```bash
+shasum -a 256 DOWNLOADEDFILENAME # <--- Mac/Linux
+certUtil -hashfile DOWNLOADEDFILENAME SHA256 # <--- Windows
+```
 
 The computer thinks for 20 seconds or so. Then, check that the output hashfile matches the one downloaded from the website in the previous step. If it’s identical, you can proceed.
 Flash the SD card
@@ -120,7 +117,7 @@ I typed 192.168.0.1 in the Browser (instructions that came with my router), logg
 
 Finding the IP is crucial.
 
-    UPDATE: you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
+> UPDATE: you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
 
 ## SSH into the Pi
 
@@ -128,7 +125,9 @@ You have the option to log in to the device remotely by SSH command, but it is n
 
 Open a Mac or Linux computer (for Windows, download putty, an SSH tool) and type:
 
-    ssh admin@192.168.0.18
+```bash
+ssh admin@192.168.0.18
+```
 
 Use your own IP address. The user name for the MyNode device is “admin” by default. The password is “bolt” by default.
 
@@ -198,6 +197,5 @@ If you want to try another node as well, say a RaspiBlitz, you need an additiona
 
 Now that you have a node running, use it, don’t just let it sit there doing nothing for you. Follow my article (and video) on how to connect your Electrum Desktop Wallet to Electrum Server and Bitcoin Core here.
 
-    The following guide was offerted by Parman (https://twitter.com/parman_the)
-    you can tips him here; dandysack84@walletofsatoshi.com
-    Original source; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
+> The following guide was offerted by Parman (https://twitter.com/parman_the)
+> you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/

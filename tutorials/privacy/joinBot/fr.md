@@ -1,9 +1,7 @@
 ---
 name: JoinBot
 description: Comprendre et utiliser le JoinBot
-
 ---
-
 
 ![DALL·E – samourai robot in a red forest, 3D render](assets/cover.jpeg)
 
@@ -46,30 +44,27 @@ Ce montage de transaction collaborative StonewallX2 est disponible sur Samourai 
 
 Son mécanisme est assez simple à comprendre. Voici son fonctionnement pratique :
 
-    - Un utilisateur souhaite faire un paiement en bitcoins (par exemple, chez un commerçant).
-
-    - Il récupère l’adresse de réception du destinataire réel du paiement (le commerçant).
-
-    - Il construit une transaction spécifique avec plusieurs inputs : au moins un lui appartenant et un appartenant à un collaborateur extérieur.
-
-    - La transaction disposera de 4 outputs, dont 2 de mêmes montants : un vers l’adresse du commerçant pour le payer, un change qui revient vers l’utilisateur, un output de même valeur que le paiement qui va vers le collaborateur et un autre output qui retourne également vers le collaborateur.
+> - Un utilisateur souhaite faire un paiement en bitcoins (par exemple, chez un commerçant).
+> - Il récupère l’adresse de réception du destinataire réel du paiement (le commerçant).
+> - Il construit une transaction spécifique avec plusieurs inputs : au moins un lui appartenant et un appartenant à un collaborateur extérieur.
+> - La transaction disposera de 4 outputs, dont 2 de mêmes montants : un vers l’adresse du commerçant pour le payer, un change qui revient vers l’utilisateur, un output de même valeur que le paiement qui va vers le collaborateur et un autre output qui retourne également vers le collaborateur.
 
 Par exemple, voici une transaction StonewallX2 classique dans laquelle j’ai effectué un paiement de 50 125 sats. Le premier input de 102 588 sats provient de mon portefeuille Samourai. Le second input de 104 255 sats provient du wallet de mon collaborateur :
 
 ![Schéma d’une transaction StonewallX2](assets/2.jpeg)
 
-n peut observer 4 outputs dont 2 de même montant afin de brouiller les pistes :
+On peut observer 4 outputs dont 2 de même montant afin de brouiller les pistes :
 
-    50 125 sats qui vont au destinataire effectif de mon paiement.
-    52 306 sats qui représentent mon change et qui reviennent donc vers une adresse de mon portefeuille.
-    50 125 sats qui reviennent vers mon collaborateur.
-    53 973 sats qui reviennent vers mon collaborateur.
+> - 50 125 sats qui vont au destinataire effectif de mon paiement.
+> - 52 306 sats qui représentent mon change et qui reviennent donc vers une adresse de mon portefeuille.
+> - 50 125 sats qui reviennent vers mon collaborateur.
+> - 53 973 sats qui reviennent vers mon collaborateur.
 
 À la fin de l’opération, le collaborateur retrouve tout son solde initial (modulo les frais de minage), et l’utilisateur aura payé le commerçant. Cela permet d’ajouter énormément d’entropie à la transaction et de casser les liens indéniables entre l’expéditeur et le destinataire du paiement.
 
 La force de la transaction de type StonewallX2 est qu’elle vient complètement contrer une des règles empiriques utilisées par les analystes de chaîne : la propriété commune des inputs dans une transaction multi-entrées. Autrement dit, dans la plupart des cas, si l’on observe une transaction Bitcoin qui dispose de plusieurs entrées, on peut admettre que tous ces inputs appartiennent à une même personne. Satoshi Nakamoto avait déjà identifié ce problème pour la confidentialité de l’utilisateur dans son White Paper :
 
-    “En guise de pare-feu additionnel, une nouvelle paire de clefs pourrait être utilisée pour chaque transaction afin de les garder non liées à un propriétaire commun. Toutefois, la liaison est inévitable avec les transactions multi-entrées, qui révèlent nécessairement que leurs entrées étaient détenues par un même propriétaire.”
+> “En guise de pare-feu additionnel, une nouvelle paire de clefs pourrait être utilisée pour chaque transaction afin de les garder non liées à un propriétaire commun. Toutefois, la liaison est inévitable avec les transactions multi-entrées, qui révèlent nécessairement que leurs entrées étaient détenues par un même propriétaire.”
 
 C’est une des nombreuses règles empiriques utilisées dans l’analyse on chain pour construire des clusters d’adresses. Pour en savoir plus sur ces heuristiques, je vous conseille de lire cette série de 4 articles de Samourai qui introduit merveilleusement bien le sujet.
 
@@ -95,10 +90,10 @@ Un autre avantage de JoinBot est que les UTXO qu’il fournit en input sont issu
 
 Évidemment, JoinBot dispose de certains compromis qu’il convient de signaler :
 
-    Comme pour un StonewallX2 classique, votre collaborateur est forcément au courant des UTXO utilisés et de leur destination. Dans le cas de JoinBot, Samourai connait les détails de cette transaction. Ce n’est pas forcément une mauvaise chose, mais il faut le garder à l’esprit.
-    Pour éviter les spams, Samourai prélève 3,5 % de frais de service sur le montant de la transaction effective, avec une limite maximale de 0,01 BTC. Par exemple, si j’envoie un paiement réel de 100 kilosats avec JoinBot, le montant des frais de service sera de 3 500 sats.
-    Pour utiliser JoinBot, vous devez obligatoirement disposer d’au moins deux UTXO non liés et disponibles sur votre portefeuille.
-    Sur un StonewallX2 classique, les frais de minage sont partagés équitablement entre les deux collaborateurs. Avec JoinBot, vous devrez évidemment payer l’intégralité des frais de minage.
+> Comme pour un StonewallX2 classique, votre collaborateur est forcément au courant des UTXO utilisés et de leur destination. Dans le cas de JoinBot, Samourai connait les détails de cette transaction. Ce n’est pas forcément une mauvaise chose, mais il faut le garder à l’esprit.
+> Pour éviter les spams, Samourai prélève 3,5 % de frais de service sur le montant de la transaction effective, avec une limite maximale de 0,01 BTC. Par exemple, si j’envoie un paiement réel de 100 kilosats avec JoinBot, le montant des frais de service sera de 3 500 sats.
+> Pour utiliser JoinBot, vous devez obligatoirement disposer d’au moins deux UTXO non liés et disponibles sur votre portefeuille.
+> Sur un StonewallX2 classique, les frais de minage sont partagés équitablement entre les deux collaborateurs. Avec JoinBot, vous devrez évidemment payer l’intégralité des frais de minage.
 
 Afin qu’une transaction JoinBot soit exactement semblable à une transaction StonewallX2 classique ou Stonewall, le paiement des frais de service se fait sur une transaction totalement séparée. Le remboursement de la moitié de frais de minage initialement payés par Samourai se fera lors de cette seconde transaction. Afin d’optimiser votre confidentialité jusqu’au bout, le règlement des frais se fait à l’aide d’une transaction à la structure Stowaway (PayJoin).
 
@@ -118,15 +113,15 @@ Voici le schéma de la transaction que nous venons de réaliser dans la vidéo :
 
 On peut y découvrir 5 inputs :
 
-    3 inputs de 100 kilosats qui viennent de Samourai (JoinBot).
-    2 inputs qui proviennent de mon portefeuille personnel, de 3 524 sats et de 1,8 mégasat.
+> - 3 inputs de 100 kilosats qui viennent de Samourai (JoinBot).
+> - 2 inputs qui proviennent de mon portefeuille personnel, de 3 524 sats et de 1,8 mégasat.
 
 Les 4 outputs de la transaction sont les suivants :
 
-    1 de 212 452 sats vers le destinataire effectif de mon paiement.
-    1 autre de même montant qui revient vers une adresse de Samourai.
-    1 change qui revient également vers Samourai pour 87 302 sats. Cela représente la différence entre le total de leurs inputs (300 000 sats) et l’output d’offuscation (212 452 sats) moins les frais de minage.
-    1 change qui revient vers une autre adresse de mon portefeuille. Il représente la différence entre le total de mes inputs et le paiement effectif, moins les frais de minage.
+> - 1 de 212 452 sats vers le destinataire effectif de mon paiement.
+> - 1 autre de même montant qui revient vers une adresse de Samourai.
+> - 1 change qui revient également vers Samourai pour 87 302 sats. Cela représente la différence entre le total de leurs inputs (300 000 sats) et l’output d’offuscation (212 452 sats) moins les frais de minage.
+> - 1 change qui revient vers une autre adresse de mon portefeuille. Il représente la différence entre le total de mes inputs et le paiement effectif, moins les frais de minage.
 
 Pour rappel, les frais de minage ne représentent pas un output des transactions. Ils représentent simplement la différence entre le total des inputs et le total des outputs.
 
@@ -136,20 +131,17 @@ JoinBot est un outil supplémentaire qui permet d’ajouter plus de choix et de 
 
 Si vous pouvez réaliser un StonewallX2 classique avec un ami, je vous conseille tout de même de préférer cette utilisation de l’outil. En revanche, si vous êtes bloqués et que vous ne trouvez aucun collaborateur pour faire un paiement, vous savez que JoinBot sera disponible 24h/24 et 7j/7 pour collaborer avec vous.
 
-Ressources externes :
+> Ressources externes :
+>
+> - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
+> - https://youtu.be/vhUREWiY570
+> - https://docs.samourai.io/wallet/privacy-enhanced-transactions
+> - https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
 
-    https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
-    https://youtu.be/vhUREWiY570
-    https://docs.samourai.io/wallet/privacy-enhanced-transactions
-    https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
+**Tutoriel et explication offerte par Loîc Morel**
 
-** Tutoriel et explication offerte par Loîc Morel **
-
-    Loïc Morel
-
-    Fondateur de Pandul
-
-    Je suis un jeune autodidacte, passionné de Bitcoin et de cryptographie. J’essaie, à mon humble échelle, de transmettre mon savoir et mon savoir-faire sur Bitcoin et son environnement, en me focalisant sur la confidentialité, la souveraineté de l’utilisateur et les stratégies de sécurisation.
-
-    Retrouvez tous ses travaux : pandul.fr/ressources
-    Le suivre sur Twitter : @Loic_Pandul
+> Loïc Morel
+> Fondateur de Pandul
+> Je suis un jeune autodidacte, passionné de Bitcoin et de cryptographie. J’essaie, à mon humble échelle, de transmettre mon savoir et mon savoir-faire sur Bitcoin et son environnement, en me focalisant sur la confidentialité, la souveraineté de l’utilisateur et les stratégies de sécurisation.
+> Retrouvez tous ses travaux : pandul.fr/ressources
+> Le suivre sur Twitter : @Loic_Pandul

@@ -2,7 +2,6 @@
 name: Robosats
 
 description: How to use Robosats
-
 ---
 
 ![cover](assets/cover.jpeg)
@@ -15,7 +14,7 @@ RoboSats (https://learn.robosats.com/) is an easy way to privately exchange Bitc
 
 ## Guide
 
-    This guide is from Bitocin Q&A ( https://bitcoiner.guide/robosats/). All credit to him, support him there (https://bitcoiner.guide/contribute); BitcoinQ&A is also a bitcoin mentor. Contact him for mentoring !
+> This guide is from Bitocin Q&A ( https://bitcoiner.guide/robosats/). All credit to him, support him there (https://bitcoiner.guide/contribute); BitcoinQ&A is also a bitcoin mentor. Contact him for mentoring !
 
 ![image](assets/0.png)
 
@@ -68,7 +67,7 @@ The following steps were conducted in May 2023 using version 0.5.0, accessed via
 
 At the time of writing RoboSats is still undergoing active development, so the interface may change a little in the future, but the basic steps required to complete the trade should remain largely unchanged.
 
-    When you first load RoboSats you’ll be met with this landing page. Click Start.
+> When you first load RoboSats you’ll be met with this landing page. Click Start.
 
 ![image](assets/2.png)
 
@@ -76,19 +75,19 @@ Generate your token and store it somewhere safe like an encrypted notes app or p
 
 ![image](assets/3.png)
 
-    Meet your new Robot identity, then click Continue.
+Meet your new Robot identity, then click Continue.
 
 ![image](assets/4.png)
 
-    Click Offers to browse the order book. At the top of the page you can then filter to your preferences. Be sure to take note of the bond percentages and premium over the average exchange rate.
+Click Offers to browse the order book. At the top of the page you can then filter to your preferences. Be sure to take note of the bond percentages and premium over the average exchange rate.
 
-    Choose Buy
-    Choose your currency
-    Choose your payment method(s)
+- Choose Buy
+- Choose your currency
+- Choose your payment method(s)
 
 ![image](assets/5.png)
 
-    Click on the offer you’d like to take. Enter the amount (in your chosen fiat currency) that you’d like to purchase from the seller, then have a final check of the details and click Take Order.
+> Click on the offer you’d like to take. Enter the amount (in your chosen fiat currency) that you’d like to purchase from the seller, then have a final check of the details and click Take Order.
 
 If the seller is not online (denoted by a red dot on their profile image), you’ll see a warning that the trade could take longer than usual. If you continue and the seller does not proceed in time, you’ll be compensated 50% of their bond amount for your wasted time.
 

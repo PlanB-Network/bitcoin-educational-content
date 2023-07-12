@@ -4,7 +4,6 @@ name: Blixt
 description: Portefeuille LN multi fonction
 ---
 
-
 ![présentation](assets/1.jpeg)
 
 # Portefeuille/Nœud Blixt BTC ⚡️ LN
@@ -21,7 +20,7 @@ J’ai un nœud Umbrel LND et je voulais avoir un plan de sauvegarde pour restau
 
 N’oubliez pas ça car c’est très important !
 
-    À la fin de cet article, vous trouverez quelques tutos simples et rapides sur comment l’utiliser et comment se connecter à d’autres nœuds.
+> À la fin de cet article, vous trouverez quelques tutos simples et rapides sur comment l’utiliser et comment se connecter à d’autres nœuds.
 
 Il s’agit d’une application étonnante sur Android et iOS qui permet de faire tourner un nœud BTC-LND, dans votre propre poche. Incroyable, non ? ! Dans votre propre téléphone, vous pouvez avoir un nœud BTC LN prêt en moins de 10 minutes, avec de riches fonctionnalités pour les utilisateurs expérimentés mais pour les nouveaux utilisateurs ou ceux qui ne sont pas si férus de technologie car l’utilisation est simple et harmonieuse.
 
@@ -30,19 +29,18 @@ Liens
 
 Voici quelques liens à propos de cette nouvelle application de nœud/portefeuille :
 
-    Site officiel – avec également une charmante démo interactive
+> Site officiel – avec également une charmante démo interactive
 
-    Dépôt GitHub : vérifiez le stade de développement et/ou téléchargez les sources
+> Dépôt GitHub : vérifiez le stade de développement et/ou téléchargez les sources
 
-    Groupe d’aide Telegram – où vous pouvez poser des questions directement au développeur et à la communauté
+> Groupe d’aide Telegram – où vous pouvez poser des questions directement au développeur et à la communauté
+>
+> Téléchargement de l’application Android Blixt
+>
+> Téléchargement de l’application Testflight pour iOS
+> Feed Twitter avec des démos
 
-    Téléchargement de l’application Android Blixt
-
-    Téléchargement de l’application Testflight pour iOS
-
-    Feed Twitter avec des démos
-
-![image principal](assets/2.JPG)
+![image principal](assets/2.JPEG)
 
 # Principales fonctionnalités disponibles
 
@@ -57,13 +55,13 @@ L’utilisateur peut gérer ses propres canaux avec une interface facile et avec
 
 Une fonctionnalité puissante, facile à gérer et utile est la restauration de d’autres nœuds LND morts, avec juste la liste 24 mots seed et le fichier channels.backup.
 
-    Voici un guide sur comment restaurer les noeuds morts Umbrel dans Blixt en cas de SHTF.
+> Voici un guide sur comment restaurer les noeuds morts Umbrel dans Blixt en cas de SHTF.
 
 L’utilisateur a également la possibilité d’enregistrer la sauvegarde des canaux Blixt dans Google drive et / ou le stockage local dans son propre mobile (pour plus tard, le déplacez dans un endroit sûr, hors de votre téléphone).
 
 La procédure de restauration est assez simple : insérez la graine de 24 mots, ajoutez le fichier de sauvegarde (préalablement copié dans la mémoire du mobile) et cliquez sur restaurer. Cela prendra un certain temps pour synchroniser et scanner tous les blocs pour vos txs passées. Les canaux seront automatiquement fermés et les fonds retournés dans votre portefeuille onchain (voir le menu du tiroir en haut à gauche – onchain).
 
-    Si vous aviez précédemment des canaux ouverts avec votre ancien nœud derrière Tor, vous devez d’abord activer l’option Tor (et redémarrer l’application) à partir des paramètres du menu. De cette façon, la procédure de fermeture n’échouera pas et/ou l’option de fermeture forcée ne sera pas utilisée
+> Si vous aviez précédemment des canaux ouverts avec votre ancien nœud derrière Tor, vous devez d’abord activer l’option Tor (et redémarrer l’application) à partir des paramètres du menu. De cette façon, la procédure de fermeture n’échouera pas et/ou l’option de fermeture forcée ne sera pas utilisée
 
 N’oubliez pas de faire une sauvegarde de vos canaux LN après avoir ouvert et/ou fermé des canaux. Cela ne prend que quelques secondes pour être en sécurité. Plus tard, vous pourrez déplacer le fichier de sauvegarde vers un endroit sûr hors de votre mobile.
 Pour tester votre seed dans un scénario de restauration, avant d’ajouter des fonds, utilisez simplement la même graine de 24 mots (aezeed) dans BlueWallet. Si l’adresse BTC générée est la même dans Blixt, vous êtes fin prêt. Pas besoin d’utiliser BlueWallet après cela, vous pouvez simplement supprimer le portefeuille testé pour la restauration.
@@ -87,7 +85,7 @@ S’il y a trop de demandes, le nœud de Blixt peut modifier la capacité du can
 
 Dans les paramètres, l’utilisateur peut activer cette option et avoir un service automatisé qui ouvre des canaux avec les meilleurs nœuds et routes à partir du solde disponible dans le portefeuille onchain de l’application Blixt. C’est une fonction avantageuse pour les nouveaux utilisateurs qui ne savent pas trop avec quel nœud faire un canal et/ou comment ouvrir un canal LN. C’est comme un pilote automatique pour LN.
 
-    Rappelez-vous : cette option est utilisée une seule fois, lorsque vous créez votre nouveau portefeuille Blixt, et est activée par défaut. Donc si le nouvel utilisateur scanne le code QR on-chain sur l’écran principal et dépose à cette adresse ses premiers sats, Blixt ouvrira automatiquement un canal avec ces sats, avec le nœud public Blixt.
+> Rappelez-vous : cette option est utilisée une seule fois, lorsque vous créez votre nouveau portefeuille Blixt, et est activée par défaut. Donc si le nouvel utilisateur scanne le code QR on-chain sur l’écran principal et dépose à cette adresse ses premiers sats, Blixt ouvrira automatiquement un canal avec ces sats, avec le nœud public Blixt.
 
 ## Services de liquidités entrantes
 
@@ -210,19 +208,19 @@ Il s’agit d’un cas d’utilisation parfait pour les nouveaux petits commerç
 
 Remarques importantes
 
-    Avant de commencer à utiliser vos canaux derrière Tor et si l’application Blixt est restée longtemps fermée/ pas synchronisée, attendez que l’icône de synchronisation en haut de l’écran disparaisse et vérifiez que tous vos canaux soient actifs. Si c’est bon, allez-y et faites vos transactions.
-
-    Si les canaux ne sont toujours pas actifs, ajoutez à nouveau la clé publique (l’URI) de vos pairs, dans les options de Blixt – Show peers. Vous pouvez aussi essayer de rafraîchir cette liste, si le gossip sous Tor trouve vos pairs, les canaux seront de nouveau actifs. Si non, ajoutez les à nouveau, ce qui poussera le gossip à communiquer.
-
-    Mais rappelez-vous : ne réalisez pas aveuglément une tx immédiatement après avoir ouvert l’application Blixt. Cela prend quelques instants pour vérifier si vos canaux sont actifs, et permet de vous prévenir s’il y a erreur dans la route du paiement ou un manque de liquidité sur la route.
-
-    Ouvrir des canaux LN avec Blixt, a un coût, comme tout autre nœud LN ouvrant des canaux. Cela a un nom : « commit_fees » (ou frais d’engagement) qui sont comme une réserve pour fermer les canaux, pour être en mesure de payer les frais des mineurs. Soyez donc conscient que lorsque vous déposez dans votre porteufeuille on-chain Blixt et ouvrez des canaux (peu importe que vous utilisiez le LSP Dunder, l’ouverture automatiques des canaux ou manuellement) le montant disponible sera légèrement inférieur au montant total avec lequel vous avez ouvert le canal. C’est pourquoi IL N’EST PAS RECOMMANDÉ d’ouvrir de tout petits canaux comme 20-50-100k sats.
-
-    De plus, chaque transaction LN a des petits frais pour le réseau. Ce ne sont pas des frais pour Blixt, c’est un coût qui rend vos transactions sûres et sécurisées par le réseau. Mais ils sont très petits, parfois même en milli-sats, souvent moins de 0.5% du montant de votre transaction.
-
-    Étant un nœud LN, il est fortement déconseillé d’utiliser la même graine sur deux appareils différents. Cette procédure peut être faite SEULEMENT dans le cas où vous êtes dans une procédure de récupération. Lorsque le portefeuille on-chain génère à partir de la graine, il va commencer à synchroniser les txs précédentes et les soldes. Si vous n’avez pas le LN.backup de vos canaux, cela ne va pas commencer la procédure de restauration complète. Donc oui, vous verrez le même portefeuille on-chain sur les deux appareils mais PAS le solde de LN. Et surtout N’ESSAYEZ PAS de restaurer sur les deux appareils les mêmes canaux LN, car sinon vous perdriez tous vos fonds LN !
-
-    Gardez à l’esprit que la fermeture des canaux prend du temps, jusqu’à ce que les fonds soient libérés. C’est ainsi que fonctionne LN (pour en savoir plus allez ici). Donc, en général, si vous avez une fermeture coopérative (normale), cela prendra au moins 40 blocs jusqu’à ce que les fonds soient libérés dans votre portefeuille on-chain. Pour les canaux fermés de force, ce verrou est de 144 blocs ou même plus parfois. Soyez donc patient, et pas d’inquiétude, les fonds sont en sécurité.
+> Avant de commencer à utiliser vos canaux derrière Tor et si l’application Blixt est restée longtemps fermée/ pas synchronisée, attendez que l’icône de synchronisation en haut de l’écran disparaisse et vérifiez que tous vos canaux soient actifs. Si c’est bon, allez-y et faites vos transactions.
+>
+> Si les canaux ne sont toujours pas actifs, ajoutez à nouveau la clé publique (l’URI) de vos pairs, dans les options de Blixt – Show peers. Vous pouvez aussi essayer de rafraîchir cette liste, si le gossip sous Tor trouve vos pairs, les canaux seront de nouveau actifs. Si non, ajoutez les à nouveau, ce qui poussera le gossip à communiquer.
+>
+> Mais rappelez-vous : ne réalisez pas aveuglément une tx immédiatement après avoir ouvert l’application Blixt. Cela prend quelques instants pour vérifier si vos canaux sont actifs, et permet de vous prévenir s’il y a erreur dans la route du paiement ou un manque de liquidité sur la route
+>
+> Ouvrir des canaux LN avec Blixt, a un coût, comme tout autre nœud LN ouvrant des canaux. Cela a un nom : « commit_fees » (ou frais d’engagement) qui sont comme une réserve pour fermer les canaux, pour être en mesure de payer les frais des mineurs. Soyez donc conscient que lorsque vous déposez dans votre porteufeuille on-chain Blixt et ouvrez des canaux (peu importe que vous utilisiez le LSP Dunder, l’ouverture automatiques des canaux ou manuellement) le montant disponible sera légèrement inférieur au montant total avec lequel vous avez ouvert le canal. C’est pourquoi IL N’EST PAS RECOMMANDÉ d’ouvrir de tout petits canaux comme 20-50-100k sats.
+>
+> De plus, chaque transaction LN a des petits frais pour le réseau. Ce ne sont pas des frais pour Blixt, c’est un coût qui rend vos transactions sûres et sécurisées par le réseau. Mais ils sont très petits, parfois même en milli-sats, souvent moins de 0.5% du montant de votre transaction.
+>
+> Étant un nœud LN, il est fortement déconseillé d’utiliser la même graine sur deux appareils différents. Cette procédure peut être faite SEULEMENT dans le cas où vous êtes dans une procédure de récupération. Lorsque le portefeuille on-chain génère à partir de la graine, il va commencer à synchroniser les txs précédentes et les soldes. Si vous n’avez pas le LN.backup de vos canaux, cela ne va pas commencer la procédure de restauration complète. Donc oui, vous verrez le même portefeuille on-chain sur les deux appareils mais PAS le solde de LN. Et surtout N’ESSAYEZ PAS de restaurer sur les deux appareils les mêmes canaux LN, car sinon vous perdriez tous vos fonds LN !
+>
+> Gardez à l’esprit que la fermeture des canaux prend du temps, jusqu’à ce que les fonds soient libérés. C’est ainsi que fonctionne LN (pour en savoir plus allez ici). Donc, en général, si vous avez une fermeture coopérative (normale), cela prendra au moins 40 blocs jusqu’à ce que les fonds soient libérés dans votre portefeuille on-chain. Pour les canaux fermés de force, ce verrou est de 144 blocs ou même plus parfois. Soyez donc patient, et pas d’inquiétude, les fonds sont en sécurité.
 
 ## Conclusion
 
@@ -236,10 +234,5 @@ J'espère que vous apprécierez son utilisation. Personnellement, je l'adore et 
 
 Que ₿ITCOIN SOIT AVEC TOI !
 
-        Si tu apprécies le travail de DarthCoin, tu peux envoyer quelques satoshis par LN :
-
-            en utilisant la page Telegram @LNtxBot DarthCoin LNURL
-
-            ou simplement en utilisant l’adresse Lightning à darthcoin@lntxbot.com
-
-        LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF
+> Si tu apprécies le travail de DarthCoin, tu peux envoyer quelques satoshis par LN : en utilisant la page Telegram @LNtxBot DarthCoin LNURL ou simplement en utilisant l’adresse Lightning à darthcoin@lntxbot.com
+> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF

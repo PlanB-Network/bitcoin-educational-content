@@ -2,8 +2,6 @@
 name: Bitstamp
 
 description: How to use Bitstamp
-
-
 ---
 
 # Bitstamp

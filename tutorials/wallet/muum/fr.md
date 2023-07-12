@@ -2,11 +2,9 @@
 name: Muum
 
 description: Mise en place de votre portefeuille Muum
-
 ---
 
-
-![cover](assets/cover.jpeg)
+![cover](assets/cover.png)
 
 # Muum wallet
 
@@ -20,11 +18,7 @@ Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 
 Guide d'utilisation complet (avec captures d'écran) de l'application Muun; un portefeuille mobile Bitcoin convivial vous permettant de transiger sur le Lightning Network.
 
-    WINTER ☩ HODLER
-
-WINTER ☩ HODLER
-1 févr. 2023 • 18 min read https://agora256.com/muun-wallet-guide-dutilisation-complet/
-Muun Wallet - Guide d'utilisation complet
+> WINTER ☩ HODLER 1 févr. 2023 • 18 min read https://agora256.com/muun-wallet-guide-dutilisation-complet/ Muun Wallet - Guide d'utilisation complet
 
 ![image](assets/0.5.png)
 

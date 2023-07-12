@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Unif/Phd_Thesis_Proposal/sovereign-university-data"
+		},
+		{
+			"path": "../../../../../../Unif/Phd_Thesis_Proposal/sovereign-university-data"
+		},
+		{
+			"path": "../../../../../../Unif/Phd_Thesis_Proposal/sovereign-university-data"
+		}
+	],
+	"settings": {
+		"githubPullRequests.ignoredPullRequestBranches": [
+			"main"
+		]
+	}
+}

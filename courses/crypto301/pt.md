@@ -48,12 +48,18 @@ Embarque comigo nesta jornada fascinante e prepare-se para explorar o universo d
 
 Bem-vindo à nossa sessão de hoje dedicada a uma imersão profunda no mundo criptográfico das funções de hash, uma pedra angular essencial para a segurança do protocolo Bitcoin. Imagine uma função de hash como um robô decifrador criptográfico ultra eficiente que transforma informações de todos os tamanhos em uma impressão digital única e de tamanho fixo, chamada "hash". Ao longo de nossa exploração, retrataremos o perfil das funções de hash criptográficas, destacando seu uso no protocolo Bitcoin e definindo os objetivos específicos que essas funções criptográficas devem alcançar.
 
+![image](assets/image/section1/0.JPG)
+
 Retratar o perfil das funções de hash criptográficas requer entender duas qualidades essenciais: sua irreversibilidade e sua resistência à falsificação. Cada função de hash criptográfica é como um artista único, produzindo um "hash" distinto para cada entrada. Mesmo um pincel que desvia ligeiramente altera consideravelmente a imagem final, ou seja, o hash. Essas funções atuam como sentinelas digitais, verificando a integridade de softwares baixados. Outra característica crucial que elas possuem é sua resistência a colisões. Certamente, no universo do hash, as colisões são inevitáveis, mas uma excelente função de hash criptográfica as minimiza consideravelmente. É como se cada hash fosse uma casa em uma cidade enorme; apesar do grande número de casas, uma boa função de hash garante que cada casa tenha um endereço único.
+
+![image](assets/image/section1/1.JPG)
 
 Naveguemos agora pelas águas turbulentas das funções de hash obsoletas. SHA0, SHA1 e MD5 são hoje consideradas cascas enferrujadas no oceano do hash criptográfico. Elas são frequentemente desaconselhadas porque perderam sua resistência a colisões. O princípio das gavetas explica por que, apesar de nossos melhores esforços, evitar colisões é impossível devido à limitação do tamanho de saída. Também é importante observar que a resistência à segunda pré-imagem depende da resistência a colisões. Para ser verdadeiramente considerada segura, uma função de hash deve resistir a colisões, à segunda pré-imagem e à pré-imagem.
 Elemento chave no protocolo Bitcoin, a função de hash SHA-256 é o capitão do navio. Outras funções, como SHA-512, são usadas para derivação com HMAC e PBKDF. Além disso, RIPMD160 é usada para reduzir uma impressão digital para 160 bits. Quando falamos de HASH256 e HASH160, estamos nos referindo ao uso de hash duplo com SHA-256 e RIPMD. O uso de HASH160 é particularmente vantajoso porque permite aproveitar a segurança do SHA-256 enquanto reduz o tamanho da impressão digital.
 
 Resumindo, o objetivo final de uma função de hash criptográfica é transformar uma informação de tamanho arbitrário em uma impressão digital de tamanho fixo. Para ser reconhecida como segura, ela deve ter várias cordas em seu arco: irreversibilidade, resistência à falsificação, resistência a colisões e resistência à segunda pré-imagem.
+
+![image](assets/image/section1/2.JPG)
 
 Ao final desta exploração, desmistificamos as funções de hash criptográficas, destacamos seu uso no protocolo Bitcoin e analisamos seus objetivos específicos. Aprendemos que, para serem consideradas seguras, as funções de hash devem ser resistentes à pré-imagem, à segunda pré-imagem, às colisões e à falsificação. Também percorremos a gama de diferentes funções de hash usadas no protocolo Bitcoin. Em nossa próxima sessão, mergulharemos no coração da função de hash SHA256 e descobriremos as fascinantes matemáticas que lhe conferem suas características únicas.
 
@@ -63,12 +69,25 @@ Ao final desta exploração, desmistificamos as funções de hash criptográfica
 
 Bem-vindo à continuação de nossa fascinante jornada pelos labirintos criptográficos da função de hash. Hoje, revelamos o véu sobre os mistérios do SHA256, um processo complexo, mas engenhoso, que introduzimos em nossa discussão anterior sobre funções de hash. Vamos dar mais um passo neste labirinto, começando pelo pré-processamento do SHA256. Imagine o pré-processamento como a preparação de um prato saboroso, onde adicionamos "bits de preenchimento" para que o tamanho de nosso ingrediente principal, a entrada, atinja um múltiplo perfeito de 512 bits. Tudo isso com o objetivo final de gerar um hash suculento de 256 bits a partir de um ingrediente de tamanho variado.
 
+![image](assets/image/section1/3.JPG)
+![image](assets/image/section1/4.JPG)
+
 Nesta receita criptográfica, brincamos com os bits, tendo um tamanho de mensagem inicial que chamaremos de M. Um bit é reservado para o separador, enquanto P bits são usados para o preenchimento. Além disso, reservamos 64 bits para a segunda fase de pré-processamento. O total deve ser um múltiplo de 512 bits. Um pouco como garantir que todos os ingredientes se harmonizem perfeitamente em nosso prato.
+
+![image](assets/image/section1/5.JPG)
+
 Passamos agora à segunda fase do pré-processamento, que consiste em adicionar a representação binária do tamanho da mensagem inicial, em bits. Para isso, usamos os 64 bits reservados na etapa anterior. Adicionamos zeros para arredondar os nossos 64 bits para a nossa entrada equilibrada. Depois juntamos a mensagem inicial, o preenchimento de bits e o preenchimento de tamanho, como ingredientes num liquidificador, para obter a nossa entrada equilibrada.
+
+![image](assets/image/section1/6.JPG)
 
 Agora estamos a preparar-nos para as primeiras etapas do processamento da função SHA-256. Como em qualquer boa receita, precisamos de alguns ingredientes básicos, a que chamamos constantes e vectores de inicialização. Os vectores de inicialização, de A a H, são os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 primos. As constantes K, de 0 a 63, representam os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 primos.
 
+![image](assets/image/section1/7.JPG)
+
 Dentro da função de compressão, usamos operadores específicos como XOR, AND e NOT. Processamos os bits um a um de acordo com a sua classificação, utilizando o operador XOR e uma tabela de verdade. O operador AND é utilizado para devolver 1 apenas se ambos os operandos forem iguais a 1, e o operador NOT para devolver o valor oposto de um operando. Também usamos a operação SHR para deslocar os bits para a direita por um número escolhido.
+
+![image](assets/image/section1/8.JPG)
+![image](assets/image/section1/9.JPG)
 
 Finalmente, depois de dividir a entrada equilibrada em diferentes blocos de mensagens de 512 bits, efectuamos 64 voltas de computação na função de compressão. Como numa corrida de bicicletas, cada volta melhora a nossa posição. Adicionamos o estado intermédio ao estado inicial da função de compressão, modulo 2^32. As adições na função de compressão são adições de módulo 2^32 para manter o tamanho das somas em 32 bits.
 

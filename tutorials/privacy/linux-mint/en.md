@@ -2,15 +2,14 @@
 name: Installing Linux Mint
 
 description: Set up a computer for bitcoin transactions
-
 ---
+
+![image](assets/cover.jpeg)
 
 # A Computer for Bitcoin Transactions (Installing Linux Mint)
 
-original: https://bitcoinmagazine.com/technical/why-use-a-computer-meant-for-bitcoin
-
-https://armantheparman.com/mint/
-Auteur; Arman the parman
+> original: https://bitcoinmagazine.com/technical/why-use-a-computer-meant-for-bitcoin - https://armantheparman.com/mint/
+> Auteur; Arman the parman
 
 ## What’s wrong if you use a regular computer?
 
@@ -34,6 +33,7 @@ If you’re nervous about using Linux because of the unknown, that’s natural, 
 Choose a computer
 
 I’ll start with what I think is the best option. Then I’ll give my opinion on alternatives.
+
 Ideal option:
 
 My recommendation, if you can afford it, and if the size of your bitcoin stack justifies it, is to get a brand new entry-level laptop. The most basic model built these days is good enough to handle what it’s going to be used for. The processor and RAM specs are not relevant, because they will all be good enough.
@@ -150,11 +150,15 @@ One of the first things to do (and to do regularly), is to keep the system up to
 
 Open the Terminal application, and type the following:
 
-    sudo apt-get update
+```bash
+sudo apt-get update
+```
 
 hit <enter>, confirm your choice, and then this command:
 
-    sudo apt-get upgrade
+```bash
+sudo apt-get upgrade
+```
 
 hit <enter> and confirm your choice.
 
@@ -162,9 +166,11 @@ Let it do its thing, it could take several minutes.
 
 Next, I like to install Tor (case sensitive):
 
-    sudo apt-get install tor
+```bash
+sudo apt-get install tor
+```
 
-_ADDITION: You can also run the Linux Mint boot from “OEM install” (Make sure you are connected to the internet, otherwise you could get errors). If you do this, you later need to click the “ship to end user” icon which should be on the desktop. You then reboot and start the operating system as though you are opening the computer for the first time._
+> _ADDITION: You can also run the Linux Mint boot from “OEM install” (Make sure you are connected to the internet, otherwise you could get errors). If you do this, you later need to click the “ship to end user” icon which should be on the desktop. You then reboot and start the operating system as though you are opening the computer for the first time._
 
 This guide explained why you may need a dedicated computer for Bitcoin transactions, and how to install a fresh Linux Mint operating system on it.
 

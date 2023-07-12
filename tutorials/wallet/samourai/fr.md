@@ -1,87 +1,85 @@
 ---
 name: Samouraï
 
-description: Regain your privacy with Samourai
+description: Récupérez votre vie privée avec Samourai
 ---
-
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Designed for Privacy
+# Samourai Wallet - Conçu pour la confidentialité
 
-**Samourai Wallet** is a wallet dedicated to privacy. Despite its user-friendly interface, it offers a great deal of flexibility in its use and security.
+**Samourai Wallet** est un portefeuille dédié à la confidentialité. Malgré son interface conviviale, il offre une grande flexibilité dans son utilisation et sa sécurité.
 
-Being **100% non-custodial**, you will need to **back up** your 12 words and definitely include a **passphrase** that you should not lose.
+Étant **100% non-custodial**, vous devrez **sauvegarder** vos 12 mots et inclure définitivement une **phrase secrète** que vous ne devez pas perdre.
 
-Once inside the wallet, sending and receiving is done in the traditional way, but with a plethora of privacy tools such as **Ricochet**, **Stonewall**, **Whirlpool**, **JoinMarket**, **PayNyms**, and others.
+Une fois à l'intérieur du portefeuille, l'envoi et la réception se font de manière traditionnelle, mais avec une pléthore d'outils de confidentialité tels que **Ricochet**, **Stonewall**, **Whirlpool**, **JoinMarket**, **PayNyms**, et autres.
 
-For explanations on each of these tools, you can refer to the **"Privacy Tools"** section in the tutorial or visit the [**official Samourai Wallet documentation site**](https://docs.samourai.io/)
+Pour des explications sur chacun de ces outils, vous pouvez vous référer à la section **"Outils de confidentialité"** dans le tutoriel ou visiter le [**site officiel de documentation de Samourai Wallet**](https://docs.samourai.io/)
 
-## Samourai Wallet in video
+## Samourai Wallet en vidéo
 
-[![Vidéo tutoriel de Rogzy](https://youtu.be/ajs1a8m76TI)
+![Vidéo tutoriel de Rogzy](https://youtu.be/ajs1a8m76TI)
 
 ## Guide
 
-### quick installation for beginners
+### Installation rapide pour les débutants
 
-    Taken from https://docs.samourai.io/wallet/start
+> Tiré de https://docs.samourai.io/wallet/start
 
-Our new welcome screen gives a preview of our wallet features. When you have read these, tap 'Get Started'.
+Notre nouvelle page d'accueil donne un aperçu des fonctionnalités de notre portefeuille. Lorsque vous les avez lues, appuyez sur 'Commencer'.
 
 ![image](assets/1.png)
 
 Permissions
 
-Grant the neccessary permissions so that the wallet can automatically create an encrypted backup of your wallet.
+Accordez les autorisations nécessaires pour que le portefeuille puisse créer automatiquement une sauvegarde chiffrée de votre portefeuille.
 
 ![image](assets/2.png)
 
 Tor
 
-Most users should then enable Tor for network level privacy. Then tap Create a New Wallet.
+La plupart des utilisateurs devraient ensuite activer Tor pour une confidentialité au niveau du réseau. Ensuite, appuyez sur Créer un nouveau portefeuille.
 
 ![image](assets/3.png)
 
-Creating a passphrase
+Création d'une phrase secrète
 
-Create a secure but memorable passphrase. This passphrase will provide additional security to your wallet and is compatible with any wallet that has implemented the widely supported BIP39 specification.
+Créez une phrase secrète sécurisée mais mémorable. Cette phrase secrète fournira une sécurité supplémentaire à votre portefeuille et est compatible avec n'importe quel portefeuille qui a implémenté la spécification BIP39 largement prise en charge.
 
-Your passphrase is a required component when restoring by mnemonic (sometimes called Recovery Words) or when pairing to Whirlpool Desktop apps. It is essential you do not lose or forget your passphrase.
+Votre phrase secrète est un composant requis lors de la restauration par mnémonique (parfois appelée Mots de récupération) ou lors de l'appariement avec des applications de bureau Whirlpool. Il est essentiel de ne pas perdre ou oublier votre phrase secrète.
 
-    We do not have knowledge of your passphrase, if you forget your passphrase we cannot help you reset it.
-    Do not forget your passphrase!
+> Nous n'avons pas connaissance de votre phrase secrète, si vous oubliez votre phrase secrète, nous ne pouvons pas vous aider à la réinitialiser.
+> N'oubliez pas votre phrase secrète !
 
 ![image](assets/4.png)
 
-Create a PIN Code
+Créer un code PIN
 
-You will now be asked to create and confirm a PIN code between 5 and 8 digits long. The PIN code is used to easily unlock your wallet without needing to enter your passphrase.
+Vous serez maintenant invité à créer et à confirmer un code PIN de 5 à 8 chiffres. Le code PIN est utilisé pour déverrouiller facilement votre portefeuille sans avoir besoin de saisir votre phrase secrète.
 
-If you forget your PIN code you can always access your wallet with your passphrase.
+Si vous oubliez votre code PIN, vous pouvez toujours accéder à votre portefeuille avec votre phrase secrète.
 
 ![image](assets/5.png)
 
-Create a Paper Backup
+Créer une sauvegarde papier
 
-You have now created a brand new Bitcoin wallet. You will be shown 12 random words. It is crucial that you write down and secure these 12 secret words.
+Vous avez maintenant créé un tout nouveau portefeuille Bitcoin. Vous verrez 12 mots aléatoires. Il est crucial que vous écriviez et sécurisiez ces 12 mots secrets.
 
-These words when used together with your passphrase can regenerate your entire wallet, balance, and history in any compatible wallet software.
+Ces mots, utilisés conjointement avec votre phrase secrète, peuvent régénérer l'intégralité de votre portefeuille, solde et historique dans n'importe quel logiciel de portefeuille compatible.
 
-    Paper Backup Worksheet We provide a template for creating your own offline paper backup
+> Feuille de sauvegarde papier Nous fournissons un modèle pour créer votre propre sauvegarde papier hors ligne.
 
-    Your secret words must be kept a secret. Anyone who knows your secret words and your passphrase will be able to steal your bitcoin. Never keep your words saved on a computer or the cloud.
+> Vos mots secrets doivent rester secrets. Toute personne connaissant vos mots secrets et votre phrase secrète pourra voler vos bitcoins. Ne conservez jamais vos mots enregistrés sur un ordinateur ou dans le cloud.
 
-Claim your PayNym Bot
+Réclamez votre PayNym Bot
 
-A PayNym is a type of stealth address that is unlike normal bitcoin addresses in that it is safe to share publicly without revealing anything about your wallet including balance or transaction history.
+Un PayNym est un type d'adresse furtive qui est différent des adresses Bitcoin normales car il est sûr de le partager publiquement sans révéler quoi que ce soit sur votre portefeuille, y compris le solde ou l'historique des transactions.
 
-After your wallet is successfully created you will be asked to claim a PayNym Bot. This is a visual representation of the SHA-256 hash of your wallet PayNym address.
-
-Once claimed you will be assigned a unique Bot Name that is uploaded to the public directory of PayNym bots, which can be found at https://paynym.is
+Une fois que votre portefeuille est créé avec succès, on vous demandera de réclamer un PayNym Bot. Il s'agit d'une représentation visuelle du hachage SHA-256 de l'adresse de votre portefeuille PayNym.
+Une fois revendiqué, vous recevrez un nom de bot unique qui sera téléchargé dans l'annuaire public des bots PayNym, que vous pouvez trouver à l'adresse https://paynym.is
 
 ![image](assets/6.png)
 
-## use it
+## Utilisation
 
-At this stage you can simply receive and send bitcoin. Samourai wallet is quite deep into technical option, we will cover this in an upcoming guide soon
+À ce stade, vous pouvez simplement recevoir et envoyer des bitcoins. Le portefeuille Samourai est assez avancé en termes d'options techniques, nous en parlerons bientôt dans un guide à venir.

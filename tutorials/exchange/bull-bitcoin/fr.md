@@ -2,10 +2,7 @@
 name: Bull Bitcoin
 
 description: Guide d'utilisation de Bull Bitcoin
-
-
 ---
-
 
 # Bull bitcoin
 
@@ -59,10 +56,10 @@ Essentiellement, l'option LNURL est la plus simple : un code QR est généré et
 
 Pour ce qui est de Bolt11, il s'agit de la méthode traditionnelle du réseau Lightning. Contrairement à LNURL, c'est l'utilisateur qui doit créer la facture (invoice) avec son portefeuille Lightning, pour ensuite fournir les détails à Bull Bitcoin avant de confirmer l'ordre d'achat. Cette option implique un certain risque d'erreur par l'utilisateur, lequel doit manuellement entrer le montant en bitcoins fourni par Bull Bitcoin dans son portefeuille lors de la création de la facture, pour ensuite devoir partager cette dernière à Bull Bitcoin. Néanmoins, la méthode fonctionne très bien lorsqu'utilisée correctement.
 
-    💡 Consultez ces articles Agora256 pour en apprendre plus sur les différentes solutions de portefeuilles disponibles :
-
-    - Les 6 meilleurs choix de portefeuilles Bitcoin sur mobile en 2023
-    - Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
+> 💡 Consultez ces articles Agora256 pour en apprendre plus sur les différentes solutions de portefeuilles disponibles :
+>
+> - Les 6 meilleurs choix de portefeuilles Bitcoin sur mobile en 2023
+> - Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
 
 Voilà, une fois l'ordre d'achat confirmé, Bull Bitcoin enverra les bitcoins directement à votre portefeuille. Il n'y a pas d'alternative; Bull Bitcoin est une plateforme non-dépositaire n'offrant aucun service de garde de bitcoins pour ses utilisateurs, et c'est parfait ainsi ! Apprendre à conserver ses propres bitcoins est tout simplement la meilleure pratique.
 
@@ -74,4 +71,4 @@ Si vous n'avez pas encore de compte Bull Bitcoin, utilisez notre lien de référ
 
 D'ici là, comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
 
-** Merci à Agora256 pour leur guide. Le lien d'affiliation ci dessous ne concerne pas l'université ; lien original: https://agora256.com/acheter-du-bitcoin-sans-kyc-au-canada-avec-bull-bitcoin/ **
+> **Merci à Agora256 pour leur guide. Le lien d'affiliation ci dessous ne concerne pas l'université ; lien original: https://agora256.com/acheter-du-bitcoin-sans-kyc-au-canada-avec-bull-bitcoin/**

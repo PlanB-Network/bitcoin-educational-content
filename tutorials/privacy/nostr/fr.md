@@ -2,9 +2,7 @@
 name: NOSTR
 
 description: Découvre et commence a utiliser NOSTR
-
 ---
-
 
 # Comment utiliser Nostr en 2023 : Un guide pour débutant
 
@@ -40,9 +38,9 @@ La clé publique, npub, est un identifiant unique auquel est attaché tout le co
 
 Les clients sont des logiciels qui permettent d'interagir avec Nostr. Les principaux clients sont :‌‌‌‌
 
-    iOS : damus
-    Android : amethyst
-    Web : iris.to; snort.social; astral.ninja
+> iOS : damus
+> Android : amethyst
+> Web : iris.to; snort.social; astral.ninja
 
 Les clients permettent à un utilisateur de générer une nouvelle paire de clés (l'équivalent de se créer un compte) ou de s'authentifier avec une paire de clés préexistante.
 
@@ -50,7 +48,7 @@ Les clients permettent à un utilisateur de générer une nouvelle paire de clé
 
 Les relais sont des serveurs simplistes que tu peux abandonner à n'importe quel moment si tu n'aimes pas le contenu qu'ils t'acheminent. Tu peux également rouler ton propre relais, si tu le souhaites.
 
-    💡 Truc de pro: Les relais payants sont généralement plus efficaces pour filtrer le spam et le contenu indésirable.
+> 💡 Truc de pro: Les relais payants sont généralement plus efficaces pour filtrer le spam et le contenu indésirable.
 
 # Guide
 
@@ -64,7 +62,7 @@ ris créera pour toi un jeu de clés sans que tu n'aies à faire rien de plus qu
 
 ![Main menu](assets/3.jpeg)
 
-        ⚠️ Attention! Tu devras garder une trace de tes clés si tu veux pouvoir accéder à nouveau à ton profil, une fois ta session fermée. Je te montre comment, à la toute fin de ce guide.
+> ⚠️ Attention! Tu devras garder une trace de tes clés si tu veux pouvoir accéder à nouveau à ton profil, une fois ta session fermée. Je te montre comment, à la toute fin de ce guide.
 
 ## Étape 2 : Publier un contenu
 
@@ -74,7 +72,7 @@ Pour publier un contenu, rien de plus simple et d'intuitif que d'écrire quelque
 
 Voilà, ça y est! Tu as publié ta première note sur Nostr.
 
-![Post](5.jpeg)
+![Post](assets/5.jpeg)
 
 ## Étape 3 : Trouver un ami
 
@@ -114,10 +112,10 @@ Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un 
 
 ![Clef](assets/10.jpeg)
 
-        ⚠️ Remarque bien l'avertissement que te donne iris. Si tu peux partager ta clé publique sans crainte, il en est tout autrement de ta clé privée. Quiconque possède cette dernière pourra accéder à ton compte.
+> ⚠️ Remarque bien l'avertissement que te donne iris. Si tu peux partager ta clé publique sans crainte, il en est tout autrement de ta clé privée. Quiconque possède cette dernière pourra accéder à ton compte.
 
 ## Conclusion
 
 Ça y est, petite autruche, tu as fait tes premiers pas sur Nostr. Maintenant, il te faudra apprendre à courir à la vitesse de l'éclair. Nous publierons prochainement des guides qui te montreront à gérer tes clés et comment intégrer lightning à ton expérience Nostr à l'aide de getalby.
 
-** guide écrit par FranklynHart dans le cadre de Agora256 **
+**guide écrit par FranklynHart dans le cadre de Agora256**

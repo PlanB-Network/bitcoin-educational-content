@@ -1,7 +1,6 @@
 ---
 name: Neutrino
 description: LND Neutrino Installation Guide
-
 ---
 
 LND Neutrino Installation Guide https://grunch.dev/guides/rpi-neutrino/
@@ -23,7 +22,7 @@ Formatear la SD card con Raspberry Pi Imager o con balenaEtcher.
 
 Antes de iniciar la Raspberry Pi con la memoria formateada, debemos insertarla en una computadora y crear dos archivos que nos permitirán conectarnos remotamente. Con el comando `touch` creamos un archivo vacío y con esto en la partición /boot, con esto habilitamos conexión por SSH en el primer inicio de la SD card recién formateada.
 
-```
+```bash
 # NOTA: Si la microSD ha sido montada en /media/microSD, el comando
 # debería ser $ sudo touch /media/microSD/boot/ssh
 $ touch /boot/ssh
@@ -31,7 +30,7 @@ $ touch /boot/ssh
 
 4.- Con el comando nano creamos el archivo wpa_supplicant.conf y directamente comenzamos editarlo, en este archivo debemos copiar la configuración del wifi, copia el texto contenido entre INICIO y FIN, y modifca la SSID y contraseña de la wifi a la que te desees conectar.
 
-```
+```bash
 $ nano /boot/wpa_supplicant.conf
 
 ------ INICIO -------
@@ -48,20 +47,20 @@ network={
 
 5.- Luego introducimos la sd card en la Raspberry pi y la conectamos la rpi a la fuente de poder para que inicie el sistema operativo, necesitaremos identificarla en la red, probablemente el protocolo mDNS le asigne este nombre en la red raspberrypi.local, intentemos conectarnos por ssh.
 
-```
+```bash
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
 
 Si no funciona hay que averiguar la red, averiguemos la dirección IP a la que estamos conectados.
 
-```
+```bash
 $ ifconfig
 ```
 
 Si por ejemplo, es 192.168.0.0, hacer nmap para encontrar la rpi
 
-```
+```bash
 nmap -v 192.168.0.0/24
 ```
 
@@ -69,14 +68,14 @@ Suponiendo que encontramos una nueva IP en nuestra red 192.168.0.30
 
 Entrar por ssh.
 
-```
+```bash
 $ ssh pi@192.168.0.30
 password: raspberry
 ```
 
 6.- Configuramos la rpi
 
-```
+```bash
 $ sudo raspi-config
 ```
 
@@ -88,20 +87,20 @@ $ sudo raspi-config
 
   7.- Actualizamos el SO
 
-```
+```bash
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim --install-recommends -y
 ```
 
 8.- Agregamos el usuario bitcoin
 
-```
+```bash
 $ sudo adduser bitcoin
 ```
 
 9.- Aseguramos la rpi
 
-```
+```bash
 $ sudo apt install ufw
 $ sudo ufw default deny incoming
 $ sudo ufw default allow outgoing
@@ -116,7 +115,7 @@ $ sudo apt install fail2ban
 
 10.- Instalamos go: si no se está utilizando una raspberry pi descargue go para su arquitectura aquí (https://golang.org/dl/)
 
-```
+```bash
 $ wget https://golang.org/dl/go1.15.linux-armv6l.tar.gz
 $ sudo tar -C /usr/local -xzf go1.15.linux-armv6l.tar.gz
 $ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
@@ -128,7 +127,7 @@ $ go version # debe mostrar el siguiente mensaje 'go version go1.13.5 linux/arm'
 
 11.- Compilamos y instalamos lnd
 
-```
+```bash
 $ git clone https://github.com/lightningnetwork/lnd.git
 $ cd lnd
 $ make
@@ -141,13 +140,13 @@ lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c
 
 12.- Creamos el archivo de configuración de lnd, esto se debe realizar con el usuario 'bitcoin'
 
-```
+```bash
 $ sudo su - bitcoin
 $ mkdir .lnd
 $ nano .lnd/lnd.conf
 ```
 
-```
+```conf
 [Application Options]
 # permite pagos espontáneos
 accept-keysend=1
@@ -175,12 +174,12 @@ neutrino.connect=bb2.breez.technology
 
 Si estamos como usuario bitcoin y queremos volver a utilizar el usuario pi solo escribimos exit
 
-```
+```bash
 $ exit
 $ sudo nano /etc/systemd/system/lnd.service
 ```
 
-```
+```conf
 [Unit]
 Description=LND Lightning Network Daemon
 After=network.target
@@ -237,7 +236,7 @@ MemoryDenyWriteExecute=true
 WantedBy=multi-user.target
 ```
 
-```
+```bash
 $ sudo systemctl enable lnd
 $ sudo systemctl start lnd
 $ systemctl status lnd
@@ -245,20 +244,20 @@ $ systemctl status lnd
 
 Podemos ver los logs ejecutando el comando journalctl
 
-```
+```bash
 $ sudo journalctl -f -u lnd
 ```
 
 14. Ahora iniciamos lnd
 
-```
+```bash
 $ sudo su - bitcoin
 $ lncli create
 ```
 
 15. Agregar fondos a nuestro nodo
 
-```
+```bash
 $ lncli newaddress p2wkh
 ```
 
@@ -266,7 +265,7 @@ Enviar btc a la dirección que nos devuelve lnd
 
 Para consultar el balance
 
-```
+```bash
 $ lncli walletbalance
 {
     "total_balance": "500000",
@@ -279,57 +278,57 @@ Luego de que haya sido confirmada la transacción podemos abrir algún canal, si
 
 Abrimos una conexión a un nodo:
 
-```
+```bash
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
 
 Luego abrimos un canal
 
-```
+```bash
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
 Chequeamos nuestros fondos
 
-```
+```bash
 $ lncli walletbalance
 $ lncli channelbalance
 ```
 
 Podemos ver los canales pendientes y los activos
 
-```
+```bash
 $ lncli pendingchannels
 $ lncli listchannels
 ```
 
 Para pagar una invoice lightning
 
-```
+```bash
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 Para recibir un pago creo una invoice por un monto específico
 
-```
+```bash
 $ lncli addinvoice --memo 'mi primer pago en LN' --amt 100
 ```
 
 Para ver información sobre mi nodo
 
-```
+```bash
 $ lncli getinfo
 ```
 
 La lista completa de comandos la podemos ver solo ejecutando lncli
 
-```
+```bash
 $ lncli
 ```
 
 Finalmente para hacer llamadas a la api de lnd
 
-```
+```bash
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"
 $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localhost:8080/v1/getinfo |jq
 ```

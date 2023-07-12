@@ -2,7 +2,7 @@ builder: Bitstamp
 
 level: intermediary
 
-category: centralize
+category: centralized
 
 tags:
   - multi-coin

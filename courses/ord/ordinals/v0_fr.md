@@ -44,9 +44,9 @@ Je me tiens à votre disposition pour toutes questions, critiques ou retour de v
 
 ## III) Utilisation et dernières avancées
 ### 1) Outils en lignes
-####	a) Wallets
-####	b) Platforms
-####	c) Marketplace
+####	a) Unisat 
+####	b) Lookordinals
+####	c) Xverse 
 ### 2) JSON et nouveaux protocoles
 #### 	a) Début du `sns`
 ####	b) Arrivée de `brc-20`
@@ -226,6 +226,10 @@ Néanmoins, suite à une inscription avec le client `ord` on obtient un json out
 }
 
 ```
+Le commit et le reveal sont deux transactions qui permettent de réaliser l'inscritpion sur Bitcoin. Si vous souhaitez savoir pourquoi deux transactions je vous invite à consulter [Segregated Witness (SegWit) road to implementation](https://www.coingecko.com/learn/segregated-witness-road-to-implementation).
+
+L'inscription est ce que l'on peut chercher sur les explorer.
+
 
 ####	c) Le code
 
@@ -310,6 +314,80 @@ Une fois que le nœud est entièrement téléchargé on peut télécharger et la
 Téléchargez `ord`: [Releases · ordinals/ord](https://github.com/ordinals/ord/releases)
 en prenant la dernière mise à jour.
 
+**Setup du wallet et inscription**
+
+i) `ord wallet create` : Crée un portefeuille ordinals. 
+```
+USAGE:
+    ord wallet create [OPTIONS]
+
+OPTIONS:
+    -h, --help                       Print help information
+        --passphrase <PASSPHRASE>    Use <PASSPHRASE> to derive wallet seed. [default: ]
+```
+
+ii) `ord wallet receive` : Génère une adresse de réception Taproot. Envoyer des fonds sur celle-ci.
+Vérifier l'arrivée des fonds avec `ord wallet balance`.
+
+iii) Calculer le cout d'une inscription avec [instacal.com/56229](https://instacalc.com/56229)
+
+iv) `ord wallet inscribe path/to/file --fee-rate=x` : Inscrit le fichier désigné dans le path avec x sats/vB. Les types gérés par le client `ord`sont: txt, json, webp, html,png, jpeg.
+
+```
+ord-wallet-inscribe 
+Create inscription
+
+USAGE:
+    ord wallet inscribe [OPTIONS] --fee-rate <FEE_RATE> <FILE>
+
+ARGS:
+    <FILE>    Inscribe sat with contents of <FILE>
+
+OPTIONS:
+        --commit-fee-rate <COMMIT_FEE_RATE>
+            Use <COMMIT_FEE_RATE> sats/vbyte for commit transaction.
+            Defaults to <FEE_RATE> if unset.
+
+        --destination <DESTINATION>
+            Send inscription to <DESTINATION>.
+
+        --dry-run
+            Don't sign or broadcast transactions.
+
+        --fee-rate <FEE_RATE>
+            Use fee rate of <FEE_RATE> sats/vB
+
+    -h, --help
+            Print help information
+
+        --no-backup
+            Do not back up recovery key.
+
+        --no-limit
+            Do not check that transactions are equal to or below the MAX_STANDARD_TX_WEIGHT of
+            400,000 weight units. Transactions over this limit are currently nonstandard and will
+            not be relayed by bitcoind in its default configuration. Do not use this flag unless you
+            understand the implications.
+
+        --satpoint <SATPOINT>
+            Inscribe <SATPOINT>
+```
+
+Le retour de cette commande doit être de la forme : 
+
+```
+{
+  "commit": "ebcd883015295586d9db921e649fdc04a02476827591103aa28e85ec3d36d903",
+  "inscription": "23aef7fa2df44a0192dde9ce14bee594ece7890c701820ed7c727485f154e4e0i0",
+  "reveal": "23aef7fa2df44a0192dde9ce14bee594ece7890c701820ed7c727485f154e4e0",
+  "fees": 311
+}
+```
+
+
+v) `ord wallet inscritpions` : Cela permet de lister les inscriptions dans le wallet. 
+
+
 ----------------
 
 Attention je n'ai pas encore trouver comment faire pour que l'indexing du client qui produit `index.redb` soit dans le disque dur et non pas sur l'ordinateur.
@@ -318,21 +396,105 @@ Néanmoins, il est beaucoup plus léger que la chain Bitcoin (~ 13 Go) donc c'es
 ----------------
 
 
-####	c) Les commandes élémentaires 
+####	c) Les commandes élémentaires/utiles 
 
-`ord help` Liste toutes les commandes
+- `ord help` Liste toutes les commandes
 
-`ord wallet help` Liste les sous-commandes de wallet
+- `ord wallet -help` Liste les sous-commandes de wallet
 
-`ord wallet create` Crée un nouveau wallet
+- `ord wallet create` Crée un nouveau wallet
 
-`ord wallet balance` Donne la balance du wallet ord actuel
+- `ord wallet balance` Donne la balance du wallet ord actuel
 
-`ord wallet inscribe` Permet d'inscrire via la syntaxe : `ord wallet inscribe path/to/file.ext --fee-rate=xxx` où `ext` est un des types suivants : txt, json, webp, html,   
+- `ord server` Génère la page web [ordinals.com](https://ordinals.com) en local.
 
-`ord wallet inscriptions`
+Ci-dessous on trouvera le retour de `ord help`.
 
-On pourra noter qu'il existe les commandes : `ord server` et 
+Pour avoir plus de détail sur une commande on tapera : 
+`ord <commande> --help`
+
+```
+ord 0.6.2
+
+USAGE:
+    ord [OPTIONS] <SUBCOMMAND>
+
+OPTIONS:
+        --bitcoin-data-dir <BITCOIN_DATA_DIR>
+            Load Bitcoin Core data dir from <BITCOIN_DATA_DIR>.
+
+        --bitcoin-rpc-pass <BITCOIN_RPC_PASS>
+            Authenticate to Bitcoin Core RPC with <RPC_PASS>.
+
+        --bitcoin-rpc-user <BITCOIN_RPC_USER>
+            Authenticate to Bitcoin Core RPC as <RPC_USER>.
+
+        --chain <CHAIN_ARGUMENT>
+            Use <CHAIN>. [default: mainnet] [possible values: mainnet, testnet, signet, regtest]
+
+        --config <CONFIG>
+            Load configuration from <CONFIG>.
+
+        --config-dir <CONFIG_DIR>
+            Load configuration from <CONFIG_DIR>.
+
+        --cookie-file <COOKIE_FILE>
+            Load Bitcoin Core RPC cookie file from <COOKIE_FILE>.
+
+        --data-dir <DATA_DIR>
+            Store index in <DATA_DIR>.
+
+        --first-inscription-height <FIRST_INSCRIPTION_HEIGHT>
+            Don't look for inscriptions below <FIRST_INSCRIPTION_HEIGHT>.
+
+    -h, --help
+            Print help information
+
+        --height-limit <HEIGHT_LIMIT>
+            Limit index to <HEIGHT_LIMIT> blocks.
+
+        --index <INDEX>
+            Use index at <INDEX>.
+
+        --index-sats
+            Track location of all satoshis.
+
+    -r, --regtest
+            Use regtest. Equivalent to `--chain regtest`.
+
+        --rpc-url <RPC_URL>
+            Connect to Bitcoin Core RPC at <RPC_URL>.
+
+    -s, --signet
+            Use signet. Equivalent to `--chain signet`.
+
+    -t, --testnet
+            Use testnet. Equivalent to `--chain testnet`.
+
+    -V, --version
+            Print version information
+
+        --wallet <WALLET>
+            Use wallet named <WALLET>. [default: ord]
+
+SUBCOMMANDS:
+    epochs     List the first satoshis of each reward epoch
+    find       Find a satoshi's current location
+    help       Print this message or the help of the given subcommand(s)
+    index      Update the index
+    info       Display index statistics
+    list       List the satoshis in an output
+    parse      Parse a satoshi from ordinal notation
+    preview    Run an explorer server populated with inscriptions
+    server     Run the explorer server
+    subsidy    Display information about a block's subsidy
+    supply     Display Bitcoin supply information
+    traits     Display satoshi traits
+    wallet     Wallet commands
+
+```
+
+On sait maintenant inscrire en ligne de commandes. Beaucoup d'autres options sont disponibles et j'invite ceux qui le souhaitent à détailler ici des commandes standards ainsi que leur utilisation. 
 
 ## III) Utilisation et dernières avancées
 
@@ -350,41 +512,61 @@ Les outils en lignes apparaissent comme nécessaires pour le développement de l
 
 -> Des tutos sur chacun de ces outils serait le bienvenue ;)
 
+Un outil très utilisé dans le groupe [Ordinals Francophone](https://t.me/OrdinalsFR) est [unisat.io](https://unisat.io), que l'on va détailler dans la partie suivante.
 
-####	a) Wallets
+####	a) Unisat
+Pour utiliser *Unisat* convenabelement il conviendra d'être sur un navigateur Chromium (Brave, google chrome, chromium,...). Firefox et Safari ne prennent pas en charge tous les outils d'Unisat.
 
-[Bitcoin Ordinals Wallets Have Arrived: A Guide For Beginners and Experts](https://nftnow.com/news/bitcoin-ordinals-wallets-have-arrived/)
+Voici une liste d'étapes à suivre pour avoir accès aux fonctionnalités offertes par Unisat : 
 
-- Unisat
+1) Télécharger l'extension [Unisat Wallet](https://chrome.store/unisat-extension).
 
--------------------------
-Présentés dans l'article
--------------------------
+2) Créer un nouveau Wallet.
 
-- OrdinalsWallet 
+3) Cliquer sur "se connecter" sur le site [Unisat.io](https://unisat.io).
 
-- Xverse 
-
-- Hiro
-
-####	b) Platforme de mint
-
-Assez similaires aux wallets il faut y ajouter : 
-
-- lookordinals.com (certainement le moins cher du marché actuellement, recommandé par @0xGrug ) 
-
-- Gamma.io
+4) Vous avez accès à toutes les fonctionnalités du site.
 
 
-####	c) Marketplace
+Unisat est une application web qui permet : 
 
-Elles sont moins nombreuses. On trouve : 
+i) **D'inscrire** différents type de fichiers et des brc-20, sns et unisat name, en natif. L'inscription de brc-20 a fait sa popularité.
 
-- Unisat.io/marketplace
+ii) **De visualiser** ce qui a été inscrits par Ordinals. Une de ses fonctionnalités principale est la gestion et les informations fournises pour les brc-20. Cela est géré et affiché en natif.
+Quid des nouveaux standards ?
+[@Lorenzonical](https://twitter.com/lorenzonical) Le fondateur d'unisat.
+
+Un post très intéressant détaillant une interview du fondateur donnée à LeonidasNFT [Post de l'interview](https://twitter.com/unisat_wallet/status/1673936418748637184).
+Avec son lien vers l'inscription de l'interview [Inscription interview de Lorenzocanical](https://t.co/ylMxRGk1Uj).
+
+iii) D'accéder à une **Marketplace** pour acheter et revendre des ordinals. Certainement l'une des principales marketplace brc-20 en terme de volumes, elle a récemment intégrée et mise en avant des collections d'images et de vidéos. De nombreuses personnes travaillent à scraper (récupérer) les données de cette marketplace. Pour l'instant c'est toujours en développement.
+
+
+
+####	b) [Lookordinals](https://lookordinals.com)
+
+A la différence d'unisat cette plateforme sert uniquement à faire des inscriptions. 
+Certainement le moins cher du marché actuellement, recommandée par [@0xGrug](https://t.me/OxGrug).
+
+La force de Lookordinals ? Toutes ses options d'inscriptions : 
+
+PRENDRE LE SCREEN
+![screenshot lookordinals](assets/lookordinals.png)
+
+Sa faiblesse ? Assez archaïque, on a l'impression de revenir sur le web des années 2000. Néanmoins, elle fait très bien le job et après tout c'est ce qu'on demande.
+
+Régulièrement mise à jour, son code est également disponible sur Github pour ceux qui voudrait le fork [Github Lookordinals]()
+
+
+####	c) Les moins utilisées
 
 - ordinalswallet.com
 
-- 
+- Gamma.io
+
+- Xverse
+
+ 
 
 ### 2) JSON et nouveaux protocoles
 

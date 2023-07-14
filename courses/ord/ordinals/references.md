@@ -6,13 +6,11 @@
 
 4. [ordinals .sats names](https://dune.com/domo/ordinals-sats-names)
 
-
 5. [Inscriptions - Ordinal Theory Handbook](https://docs.ordinals.com/inscriptions.html) 
 
 6. [Bxdx.io](https://www.brc-20.io/)
 
-
-7. 
+7. [Bitcoin Ordinals Wallets Have Arrived: A Guide For Beginners and Experts](https://nftnow.com/news/bitcoin-ordinals-wallets-have-arrived/) 
 
 8.
 

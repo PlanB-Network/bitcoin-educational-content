@@ -255,7 +255,7 @@ Requirements :
 - env. 700 Go de stockage, en SSD si possible.
 - une bonne connexion internet.
 
-Soit vous avez un vieil ordinateur et vous faites tourner le nœud Bitcoin sur celui-ci, soit je vous conseille de prendre un disque dur externe SSD de 1 To. Vous en trouver pour moins d'une centaine d'euros sur internet en général. 
+Soit vous avez un vieil ordinateur et vous faites tourner le noeud Bitcoin sur celui-ci, soit je vous conseille de prendre un disque dur externe SSD de 1 To. Vous en trouver pour moins d'une centaine d'euros sur internet en général. 
 
 [-> Lien pour Comparateur de prix et de marques.] 
 

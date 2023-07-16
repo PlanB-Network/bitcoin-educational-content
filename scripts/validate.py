@@ -292,38 +292,45 @@ def find_and_fix_podcasts(directory: str):
     print("✅ Finished checking podcasts\n")
 
 
-def find_and_fix_assets(directory: str):
+def find_and_fix_assets(directory: str, folders: []):
     print("🔎 Checking file names")
 
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.startswith(".") or "/." in os.path.join(root, file):
-                continue
+    for folder in folders:
+      for root, _, files in os.walk(os.path.join(directory, folder)):
+          for file in files:
+              if file.startswith(".") or "/." in os.path.join(root, file):
+                  continue
 
-            old_file_path = os.path.join(root, file)
-            new_file_name = re.sub(
-                "_+|-+", "_", INVALID_CHARS_PATTERN.sub("_", unidecode(file).lower())
-            )
+              old_file_path = os.path.join(root, file)
+              new_file_name = re.sub(
+                  "_+|-+", "_", INVALID_CHARS_PATTERN.sub("_", unidecode(file).lower())
+              )
 
-            new_file_path = os.path.join(root, new_file_name)
+              new_file_path = os.path.join(root, new_file_name)
 
-            if old_file_path != new_file_path:
-                os.rename(old_file_path, new_file_path)
-                print(f"Renamed file {old_file_path} to {new_file_path}")
+              if old_file_path != new_file_path:
+                  os.rename(old_file_path, new_file_path)
+                  print(f"Renamed file {old_file_path} to {new_file_path}")
 
-                files = [
-                    os.path.join(r, f)
-                    for r, _, fs in os.walk(directory)
-                    for f in fs
-                    if f.endswith(".md") or f.endswith(".yml")
-                ]
-                replace_in_files(files, file, new_file_name)
+                  files = [
+                      os.path.join(r, f)
+                      for r, _, fs in os.walk(directory)
+                      for f in fs
+                      if f.endswith(".md") or f.endswith(".yml")
+                  ]
+                  replace_in_files(files, file, new_file_name)
 
-    print("✅ Finished checking file names")
+      print("✅ Finished checking file names")
 
 
 if __name__ == "__main__":
-    directory = "."
+    directory = ".."
     find_and_fix_courses(os.path.join(directory, "courses"))
     find_and_fix_podcasts(os.path.join(directory, "resources/podcasts"))
-    find_and_fix_assets(directory)
+    folders = [
+      'courses',
+      'resources',
+      'soon',
+      'tutorials',
+    ]
+    find_and_fix_assets(directory, folders)

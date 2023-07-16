@@ -244,13 +244,12 @@ class Podcast(ValidationMixin):
 
 def replace_in_files(files: List[str], old: str, new: str):
     for file_path in files:
-        with open(file_path, "r", encoding="utf-8") as file:
-            file_data = file.read()
-
+      with open(file_path, "r+", encoding="utf-8") as file:
+        file_data = file.read()
         file_data = file_data.replace(old, new)
-
-        with open(file_path, "w", encoding="utf-8") as file:
-            file.write(file_data)
+        file.seek(0)
+        file.write(file_data)
+        file.truncate()
 
 
 def find_and_fix_courses(directory: str):

@@ -1,0 +1,9 @@
+builder: Ledger
+
+level: advanced
+
+category: hardware
+
+tags:
+  - self-custodial
+  - multi-coin

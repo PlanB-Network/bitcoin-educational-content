@@ -1,7 +1,7 @@
 ---
 name: Bitcoin et la société
 goal: Approfondir les sujets sérieux de Bitcoin afin de permetttre aux étudiants de prendre part au débat de l’impact sociétal que représente Bitcoin
-objectif: 
+objectives:
   - La théorie des jeux
   - Les aspects plus financiers et géopolitiques de l’adoption
   - Des vecteurs d’attaque potentiels et plus sournois que le 51%
@@ -18,7 +18,8 @@ Ce cours est un format plus podcast avec des chapitres d’une heure, je parlera
 
 En espérant que ce cours plus politique et philosophique vous plaise !
 
-contributeur: 
+contributeur:
+
 - Rogzy – Production
 - Rachel – Distribution
 - Sarah – Design
@@ -32,8 +33,6 @@ contributeur:
 ### Comment réussir à attaquer Bitcoin ? [Interview Ludovic Lars]
 
 ![interview ludovic lars](https://youtu.be/Rr9_7I1NGPg)
-
-
 
 # Les Bitcoiners “maximalistes”
 
@@ -53,16 +52,14 @@ Retour d’expérience du Salavdor
 Chauffer sa maison en minant [Intevriew Alexandre de SATO]
 Hors série – Les bears markets 1 Chapitre
 
-
 # Le long hiver : et si les bitcoiners avaient raison ?
 
 ![long hivert](https://youtu.be/nyoC7wMpqy0)
 
 ![bear](https://youtu.be/_xQJtXq_yWw)
 
-
-
 # Allez plus loins
 
 ## Note la formation !
+
 Partie 2 de la formation en production !

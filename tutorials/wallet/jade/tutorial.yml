@@ -1,0 +1,9 @@
+builder: Blockstream
+
+level: intermediary
+
+category: hardware
+
+tags:
+  - self-custodial
+  - Open-source

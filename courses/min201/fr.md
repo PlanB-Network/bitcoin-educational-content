@@ -1,22 +1,18 @@
 ---
 name: Decouverte du Home-mining
 goal: comprendre le minage
-Objectif: 
-   - Comprendre la théorie sur le minage
-   - Comprendre l'industrie du minage
-   - Transformer un S9 en chauffage 
-   - Miner son premier satoshi
-
+Objectif:
+  - Comprendre la théorie sur le minage
+  - Comprendre l'industrie du minage
+  - Transformer un S9 en chauffage
+  - Miner son premier satoshi
 ---
 
-# Introduction 
+# Introduction
 
 # Explication du minage
 
 # l'industrie du minage
-
-
-
 
 # Attakai - le home-mining rendu possible et accessible !
 
@@ -123,7 +119,7 @@ Après avoir passé en revue tous ces points, vous pouvez acheter votre machine 
 
 Pour synthétiser ce guide en une phrase : **« Ne faites pas confiance, vérifiez »**.
 
-## Achat des pièces pour modifications hardwear du S9
+## Achat des pièces pour modifications hardware du S9
 
 ![image](assets/piece/1.jpeg)
 
@@ -175,7 +171,7 @@ Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et mo
 
 # TUTORIEL : Comment transformer un mineur en chauffage ?
 
-![image](assets/hardwear/0.jpeg)
+![image](assets/hardware/cover.jpeg)
 
 Si vous êtes un bricoleur averti et que vous cherchez à transformer un mineur en chauffage, ce tutoriel est fait pour vous. Nous tenons à vous avertir que les modifications apportées à un appareil électronique peuvent présenter des risques électriques et d’incendie. Il est donc essentiel de prendre toutes les précautions nécessaires pour éviter tout dommage ou blessure.
 En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur dans un logement, car il est beaucoup trop bruyant et qu’il n’est pas réglable. Toutefois, il est possible d’effectuer des modifications simples pour résoudre ces problèmes.
@@ -198,107 +194,107 @@ Nous allons commencer par remplacer le ventilateur de l’alimentation.
 
         ATTENTION : Tout d’abord, avant de commencer, assurez-vous de bien avoir débranché votre mineur pour éviter tout risque d’électrocution.
 
-![image](assets/hardwear/1.jpeg)
+![image](assets/hardware/1.jpeg)
 
 Nous allons commencer par remplacer le ventilateur de l’alimentation.
 
 Tout d’abord, retirez les 6 vis sur le côté du boîtier qui le maintiennent fermé. Une fois les vis retirées, ouvrez délicatement le boîtier pour retirer la protection plastique qui recouvre les composants.
 
-![image](assets/hardwear/2.jpeg)
-![image](assets/hardwear/3.jpeg)
+![image](assets/hardware/2.jpeg)
+![image](assets/hardware/3.jpeg)
 
 Ensuite, il est temps de retirer le ventilateur d’origine en prenant soin de ne pas endommager les autres composants. Pour ce faire, retirez les vis qui le maintiennent en place et décollez délicatement la colle blanche qui entoure le connecteur. Il est important de procéder avec délicatesse pour éviter d’endommager les fils ou les connecteurs.
 
-![image](assets/hardwear/4.jpeg)
+![image](assets/hardware/4.jpeg)
 
 Une fois le ventilateur d’origine retiré, vous remarquerez que les connecteurs du nouveau ventilateur Noctua ne correspondent pas à ceux du ventilateur d’origine. En effet, le nouveau ventilateur dispose de 3 fils, dont un fil jaune qui permet de contrôler la vitesse. Cependant, ce fil ne sera pas utilisé dans ce cas précis. Pour brancher le nouveau ventilateur, il est donc recommandé d’utiliser un adaptateur spécial. Il est cependant important de noter que cet adaptateur peut parfois être difficile à trouver.
 
-![image](assets/hardwear/5.jpeg)
+![image](assets/hardware/5.jpeg)
 
 Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur en utilisant un sucre d’électricien. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur.
 
-![image](assets/hardwear/6.jpeg)
-![image](assets/hardwear/7.jpeg)
+![image](assets/hardware/6.jpeg)
+![image](assets/hardware/7.jpeg)
 
 Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les contours de la gaine principale à 1cm sans coupez les gaines des câbles en dessous.
 
-![image](assets/hardwear/8.jpeg)
+![image](assets/hardware/8.jpeg)
 
 Puis en tirant la gaine principale vers le bas, coupez les gaines des câble rouge et noir de la même manière que précédemment. Et coupez le câble jaune à ras.
 
-![image](assets/hardwear/9.jpeg)
+![image](assets/hardware/9.jpeg)
 
 Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des files rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs.
 
-![image](assets/hardwear/10.jpeg)
-![image](assets/hardwear/11.jpeg)
+![image](assets/hardware/10.jpeg)
+![image](assets/hardware/11.jpeg)
 
 Une fois les fils rouges et noirs dégagés, coupez les gaines toujours délicatement pour ne pas abîmer les fils électriques.
 
-![image](assets/hardwear/12.jpeg)
+![image](assets/hardware/12.jpeg)
 
 Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
 
-![image](assets/hardwear/13.jpeg)
-![image](assets/hardwear/14.jpeg)
+![image](assets/hardware/13.jpeg)
+![image](assets/hardware/14.jpeg)
 
 Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisé plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur.
 
-![image](assets/hardwear/15.jpeg)
-![image](assets/hardwear/16.jpeg)
+![image](assets/hardware/15.jpeg)
+![image](assets/hardware/16.jpeg)
 
         Optionnel : Si vous êtes compétent en électricité, vous pouvez ajouter directement sur la sortie d’alimentation 12V un connecteur jack 5,5 mm femelle qui permettra d’alimenter directement le bridge Wi-Fi Vonet. Cependant, si vous n’êtes pas sûr de vos compétences en électricité, il est préférable d’utiliser le connecteur USB avec un chargeur de type smartphone pour éviter tout risque de court-circuit ou de dommage électrique.
 
-![image](assets/hardwear/17.jpeg)
+![image](assets/hardware/17.jpeg)
 
 Une fois les branchements effectués, remettez bien le plastique du couvercle par-dessus le plastique du boîtier et pas à l’intérieur.
 
-![image](assets/hardwear/18.jpeg)
+![image](assets/hardware/18.jpeg)
 
 Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
 
 ## Remplacement des 2 ventilateurs principaux
 
 1. Tout d’abord, débranchez les ventilateurs et dévissez-les.
-   ![image](assets/hardwear/19.jpeg)
+   ![image](assets/hardware/19.jpeg)
 
 2. Les connecteurs des nouveaux ventilateurs Noctua ne correspondent pas à ceux d’origine, mais pas de panique ! Sortez votre cutter et coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
 
-![image](assets/hardwear/20.jpeg)
-![image](assets/hardwear/21.jpeg)
+![image](assets/hardware/20.jpeg)
+![image](assets/hardware/21.jpeg)
 
 3. C’est l’heure de l’installation des pièces 3D !
    Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis sous rentrer dans la pièce 3D et que celle-ci soit bien maintenu en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
 
-![image](assets/hardwear/22.jpeg)
+![image](assets/hardware/22.jpeg)
 
 4. Passons maintenant aux ventilateurs.
    Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
 
-![image](assets/hardwear/23.jpeg)
-![image](assets/hardwear/24.jpeg)
-![image](assets/hardwear/25.jpeg)
+![image](assets/hardware/23.jpeg)
+![image](assets/hardware/24.jpeg)
+![image](assets/hardware/25.jpeg)
 
 5. Dernière étape : branchez les ventilateurs et fixez les grilles par-dessus avec les vis qui n’ont pas été utilisées dans la boîte du ventilateur de l’alimentation. Vous en avez seulement 4 mais 2 par grille dans des angles opposés suffiront. Vous pouvez également chercher d’autres vis similaires dans un magasin de bricolage si besoin.
 
-![image](assets/hardwear/26.jpeg)
-![image](assets/hardwear/27.jpeg)
+![image](assets/hardware/26.jpeg)
+![image](assets/hardware/27.jpeg)
 
 En attendant de pouvoir offrir un casing plus sexy à votre nouveau chauffage, vous pouvez attacher le boîtier et l’alimentation ensemble avec des colliers de serrage d’électricien.
 
-![image](assets/hardwear/28.jpeg)
+![image](assets/hardware/28.jpeg)
 
 Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son alimentation. Si ce n’est pas encore fait, vous pouvez suivre ce tutoriel pour paramétrer votre bridge.
 
-![image](assets/hardwear/29.jpeg)
+![image](assets/hardware/29.jpeg)
 
 Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
 
-# Modification du softwear - Réinitialiser un Antminer S9
+# Modification du software - Réinitialiser un Antminer S9
 
 **Série d’articles proposée par BlobOnChain & Ajelex – 15/02/2023**
 
-## Explication du softwear du mineur
+## Explication du software du mineur
 
 ### Réinitialiser via le bouton « Reset »
 
@@ -306,7 +302,7 @@ Cette méthode peut être appliquée dans les 10 minutes après le démarrage du
 
 Après avoir allumé le mineur pendant 2 minutes, veuillez appuyer sur le bouton « Reset » pendant 5 secondes, puis relâchez-le. Le mineur sera restauré aux paramètres d’usine dans les 4 minutes et redémarrera automatiquement (il n’est pas nécessaire de l’éteindre).
 
-![image](assets/softwear/1.jpeg)
+![image](assets/software/1.jpeg)
 
 Restore via web side
 
@@ -318,7 +314,7 @@ Pour cette partie, nous supposerons que la machine fonctionne, est en marche et 
 
 Tout d’abord, connectez vous à votre machine à travers votre réseau local :
 
-![image](assets/softwear/2.gif)
+![image](assets/software/2.gif)
 
 Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en utilisant les identifiants par défaut :
 
@@ -329,11 +325,11 @@ Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en uti
 
 Le système d’exploitation principal est relativement basique. Avec les 4 onglets : System, Miner Configuration, Miner Status, Network. Dans l’onglet Miner Configuration vous pouvez configurer jusqu’à 3 pools de minage.
 
-![image](assets/softwear/3.jpeg)
+![image](assets/software/3.jpeg)
 
 Dans l’onglet Miner Status vous pourrez observer différentes informations sur le fonctionnement de l’ASIC en direct. Le hashrate exprimé en GH/s, des informations plus précises sur la pool ainsi qu’un détail sur le statut de chaque hashboard et la vitesse des ventilateurs en rotations/minute.
 
-![image](assets/softwear/4.jpeg)
+![image](assets/software/4.jpeg)
 
 ### Braiins OS+
 
@@ -358,11 +354,11 @@ Découvrez comment installer facilement Braiins OS+ directement sur la mémoire 
 2. Télécharger BOS toolbox Windows / Linux
 3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
 
-![image](assets/softwear/5.jpeg)
+![image](assets/software/5.jpeg)
 
 4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
 
-![image](assets/softwear/6.jpeg)
+![image](assets/software/6.jpeg)
 
 5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
 
@@ -370,19 +366,19 @@ Découvrez comment installer facilement Braiins OS+ directement sur la mémoire 
 
 7. Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
 
-![image](assets/softwear/7.jpeg)
+![image](assets/software/7.jpeg)
 
 8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
    Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
 
-![image](assets/softwear/8.jpeg)
+![image](assets/software/8.jpeg)
 
 9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
    Installation de Braiins OS+ sur une carte SD
 
-![image](assets/softwear/9.jpeg)
+![image](assets/software/9.jpeg)
 
-![image](assets/softwear/10.jpeg)
+![image](assets/software/10.jpeg)
 
 La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette méthode fonctionne pour les machines avec un système d’exploitation datant d’avant 2019.
 
@@ -393,7 +389,7 @@ La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette
 3. Allez dans l’onglet System puis Upgrade
 4. Chargez le fichier que vous avez téléchargé et flashez l’image.
 
-![image](assets/softwear/11.jpeg)
+![image](assets/software/11.jpeg)
 
 ### Carte micro SD
 
@@ -405,9 +401,9 @@ Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode
 
 3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
 
-![image](assets/softwear/12.jpeg)
+![image](assets/software/12.jpeg)
 
-![image](assets/softwear/13.jpeg)
+![image](assets/software/13.jpeg)
 
 4. Insérez la carte micro SD dans l’ASIC.
 5. Démarrez l’ASIC. Si la version d’installation automatique a été utilisée, le nouveau système d’exploitation sera automatiquement installé. L’installation est terminée lorsque les deux LEDs s’allument au même moment. Vous pouvez redémarrer l’ASIC et retirer la carte micro SD. Si l’autre version a été téléchargée, vous devrez laisser la carte Micro SD à l’intérieur de l’ASIC.
@@ -427,7 +423,7 @@ Vous serez alors accueilli par le Dashboard de Brains OS+
 
 ### Dashboard
 
-![image](assets/softwear/14.jpeg)
+![image](assets/software/14.jpeg)
 
 Sur cette première pages vous pourrez observer les performances de votre machine en direct.
 
@@ -435,7 +431,7 @@ Sur cette première pages vous pourrez observer les performances de votre machin
 - Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
 - Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
 
-![image](assets/softwear/15.jpeg)
+![image](assets/software/15.jpeg)
 
 - Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
 - Un détail sur les pools de minage active dans Pools.
@@ -444,15 +440,15 @@ Sur cette première pages vous pourrez observer les performances de votre machin
 
 ### Configuration
 
-![image](assets/softwear/16.jpeg)
+![image](assets/software/16.jpeg)
 
 ### System
 
-![image](assets/softwear/17.jpeg)
+![image](assets/software/17.jpeg)
 
 ### Quick actions
 
-![image](assets/softwear/18.jpeg)
+![image](assets/software/18.jpeg)
 
 ## Configuration d’une pool
 
@@ -472,17 +468,17 @@ Le modèle de récompense qui nous intéresse est le PPS, qui signifie « pay-pe
 
 Pour configurer une pool dans Braiins 0S+, il faudra créer un compte dans l’une des pool de votre choix. Ici nous allons prendre l’exemple de Lincoin :
 
-![image](assets/softwear/19.jpeg)
+![image](assets/software/19.jpeg)
 
 Une fois votre compte créé, cliquez sur Connect To Pool
 
 Ensuite copiez l’adresse Stratum ainsi que votre username :
 
-![image](assets/softwear/20.jpeg)
+![image](assets/software/20.jpeg)
 
 Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rentrer ces identifiant. Pour le mot de passe, vous pouvez laisser le champ vide.
 
-![image](assets/softwear/21.jpeg)
+![image](assets/software/21.jpeg)
 
 ## Overclocking et Underclocking
 
@@ -504,7 +500,6 @@ Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. 
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
 
-
-# conclusion 
+# conclusion
 
 ## Interview de Gouspillou

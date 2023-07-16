@@ -48,12 +48,18 @@ Begleiten Sie mich auf dieser faszinierenden Reise und bereiten Sie sich darauf 
 
 Willkommen zu unserer heutigen Sitzung, die sich der tiefen Eintauchung in die kryptographische Welt der Hash-Funktionen widmet, einem wesentlichen Eckpfeiler der Sicherheit des Bitcoin-Protokolls. Stellen Sie sich eine Hash-Funktion als einen äußerst effizienten kryptographischen Entschlüsselungsroboter vor, der Informationen jeder Größe in einen einzigartigen und festen digitalen Fingerabdruck, genannt "Hash", umwandelt. Im Laufe unserer Erkundung werden wir das Profil kryptographischer Hash-Funktionen skizzieren, ihre Verwendung im Bitcoin-Protokoll hervorheben und die spezifischen Ziele definieren, die diese kryptographischen Funktionen erreichen müssen.
 
+![image](assets/image/section1/0.JPG)
+
 Das Skizzieren des Profils kryptographischer Hash-Funktionen erfordert das Verständnis zweier wesentlicher Eigenschaften: ihrer Unumkehrbarkeit und ihrer Fälschungssicherheit. Jede kryptographische Hash-Funktion ist wie ein einzigartiger Künstler, der für jede Eingabe einen eigenen "Hash" produziert. Selbst eine leicht abweichende Bürste verändert das endgültige Bild erheblich, d.h. den Hash. Diese Funktionen wirken wie digitale Wächter, die die Integrität von heruntergeladenen Software überprüfen. Eine weitere entscheidende Eigenschaft, die sie besitzen, ist ihre Kollisionssicherheit. Sicherlich sind Kollisionen im Hash-Universum unvermeidlich, aber eine ausgezeichnete kryptographische Hash-Funktion minimiert sie erheblich. Es ist, als ob jeder Hash ein Haus in einer riesigen Stadt wäre; trotz der enormen Anzahl von Häusern sorgt eine gute Hash-Funktion dafür, dass jedes Haus eine eindeutige Adresse hat.
+
+![image](assets/image/section1/1.JPG)
 
 Lassen Sie uns nun auf den stürmischen Gewässern veralteter Hash-Funktionen navigieren. SHA0, SHA1 und MD5 gelten heute als verrostete Schalen im Ozean der kryptographischen Hashes. Sie werden oft nicht empfohlen, da sie ihre Kollisionssicherheit verloren haben. Das Schubladenprinzip erklärt, warum es trotz unserer besten Bemühungen unmöglich ist, Kollisionen aufgrund der Begrenzung der Ausgabegröße zu vermeiden. Es ist auch wichtig zu beachten, dass die Widerstandsfähigkeit gegen die zweite Bildung von Bildern von der Widerstandsfähigkeit gegen Kollisionen abhängt. Um wirklich als sicher zu gelten, muss eine Hash-Funktion Kollisionen, zweite Bildung von Bildern und Bildung von Bildern widerstehen.
 Schlüsselelement im Bitcoin-Protokoll ist die SHA-256-Hashfunktion, die das Schiff steuert. Andere Funktionen wie SHA-512 werden für die Ableitung mit HMAC und PBKDF verwendet. Darüber hinaus wird RIPMD160 verwendet, um einen Abdruck auf 160 Bits zu reduzieren. Wenn wir von HASH256 und HASH160 sprechen, beziehen wir uns auf die Verwendung eines doppelten Hashs mit SHA-256 und RIPMD. Die Verwendung von HASH160 ist besonders vorteilhaft, da sie die Sicherheit von SHA-256 nutzt und gleichzeitig die Größe des Abdrucks reduziert.
 
 Zusammenfassend ist das ultimative Ziel einer kryptografischen Hashfunktion, eine Information beliebiger Größe in einen Abdruck fester Größe zu transmutieren. Um als sicher anerkannt zu werden, muss sie mehrere Aspekte haben: Unumkehrbarkeit, Fälschungssicherheit, Kollisionsresistenz und Zweitbildresistenz.
+
+![image](assets/image/section1/2.JPG)
 
 Nach dieser Erkundung haben wir die kryptografischen Hashfunktionen entmystifiziert, ihre Verwendung im Bitcoin-Protokoll aufgezeigt und ihre spezifischen Ziele untersucht. Wir haben gelernt, dass Hashfunktionen als sicher gelten müssen, wenn sie resistent gegen Preimage, Zweitbild, Kollisionen und Fälschungen sind. Wir haben auch das Spektrum der verschiedenen Hashfunktionen untersucht, die im Bitcoin-Protokoll verwendet werden. In unserer nächsten Sitzung werden wir uns in das Herzstück der SHA256-Hashfunktion vertiefen und die faszinierenden Mathematik entdecken, die ihr ihre einzigartigen Eigenschaften verleiht.
 
@@ -63,12 +69,25 @@ Nach dieser Erkundung haben wir die kryptografischen Hashfunktionen entmystifizi
 
 Willkommen zur Fortsetzung unserer faszinierenden Reise durch die kryptografischen Labyrinthe der Hashfunktion. Heute lüften wir das Geheimnis von SHA256, einem komplexen, aber genialen Prozess, den wir in unserer vorherigen Diskussion über Hashfunktionen eingeführt haben. Wir machen einen Schritt weiter in diesem Labyrinth, indem wir mit der Vorverarbeitung von SHA256 beginnen. Stellen Sie sich die Vorverarbeitung wie die Zubereitung eines köstlichen Gerichts vor, bei dem wir "Füllbits" hinzufügen, um sicherzustellen, dass die Größe unserer Hauptzutat, der Eingabe, ein perfektes Vielfaches von 512 Bits erreicht. All dies mit dem ultimativen Ziel, einen köstlichen 256-Bit-Hash aus einer Zutat variabler Größe zu generieren.
 
+![image](assets/image/section1/3.JPG)
+![image](assets/image/section1/4.JPG)
+
 In diesem kryptografischen Rezept spielen wir mit Bits, die eine anfängliche Nachrichtengröße haben, die wir M nennen werden. Ein Bit ist für den Trenner reserviert, während P Bits für die Polsterung verwendet werden. Darüber hinaus legen wir 64 Bits für die zweite Vorverarbeitungsphase beiseite. Das Gesamtergebnis muss ein Vielfaches von 512 Bits sein. Ein bisschen wie sicherstellen, dass alle Zutaten perfekt in unser Gericht passen.
+
+![image](assets/image/section1/5.JPG)
+
 Wir gehen nun zur zweiten Phase der Vorverarbeitung über, die das Hinzufügen der binären Darstellung der Größe der ursprünglichen Nachricht in Bits beinhaltet. Dazu verwenden wir unsere 64 reservierten Bits aus dem vorherigen Schritt. Wir fügen Nullen hinzu, um unsere 64 Bits auf unsere ausgeglichene Eingabe abzurunden. Anschließend mischen wir die ursprüngliche Nachricht, die Bit-Füllung und die Größen-Füllung wie Zutaten in einem Mixer, um unsere ausgeglichene Eingabe zu erhalten.
+
+![image](assets/image/section1/6.JPG)
 
 Jetzt bereiten wir uns auf die ersten Schritte der SHA-256-Funktionsverarbeitung vor. Wie bei jedem guten Rezept benötigen wir einige Grundzutaten, die wir Konstanten und Initialisierungsvektoren nennen. Die Initialisierungsvektoren von A bis H sind die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen. Die Konstanten K von 0 bis 63 repräsentieren die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen.
 
+![image](assets/image/section1/7.JPG)
+
 Innerhalb der Kompressionsfunktion verwenden wir spezielle Operatoren wie XOR, AND und NOT. Wir verarbeiten die Bits einzeln nach ihrer Rangfolge, indem wir den XOR-Operator und eine Wahrheitstabelle verwenden. Der AND-Operator wird verwendet, um nur dann 1 zurückzugeben, wenn beide Operanden gleich 1 sind, und der NOT-Operator, um den entgegengesetzten Wert eines Operanden zurückzugeben. Wir verwenden auch die SHR-Operation, um die Bits nach rechts um eine bestimmte Anzahl zu verschieben.
+
+![image](assets/image/section1/8.JPG)
+![image](assets/image/section1/9.JPG)
 
 Schließlich, nachdem wir die ausgeglichene Eingabe in verschiedene 512-Bit-Nachrichtenblöcke aufgeteilt haben, führen wir 64 Berechnungsrunden in der Kompressionsfunktion durch. Wie bei einem Radrennen verbessert jede Runde unsere Position. Wir addieren modulo 2^32 den Zwischenzustand zum Anfangszustand der Kompressionsfunktion. Die Additionen in der Kompressionsfunktion sind Additionen modulo 2^32, um die Größe der Summen auf 32 Bits zu begrenzen.
 

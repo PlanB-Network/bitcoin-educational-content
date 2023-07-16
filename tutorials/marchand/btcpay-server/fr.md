@@ -1,1 +1,0 @@
-tuto btc pays erver

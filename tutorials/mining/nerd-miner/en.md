@@ -1,12 +1,12 @@
 ---
-tag:
-  - mining
-  - do it yourself
+name: Nerdminer
 
-difficulty: intermediary
+description: Start mining bitcoin with near 0% chance of winning
 ---
 
-# Setting Up Your NerdMiner_v2
+![cover](assets/cover.JPEG)
+
+> Setting Up Your NerdMiner_v2
 
 In this guide, we will walk you through the steps needed to set up your NerdMiner_v2. By following these steps, you'll be able to get your system up and running in no time.
 

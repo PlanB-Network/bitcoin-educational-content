@@ -1,0 +1,10 @@
+builder: RaspiBlitz
+
+tags:
+  - node
+  - privacy
+  - infrastructure
+
+category: bitcoin
+
+level: advanced

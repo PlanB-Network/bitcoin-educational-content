@@ -48,7 +48,11 @@ Join me on this captivating journey, and get ready to explore the world of crypt
 
 Welcome to today's session dedicated to an in-depth immersion into the cryptographic world of hash functions, an essential cornerstone to the security of the Bitcoin protocol. Imagine a hash function as an ultra-efficient cryptographic deciphering robot that transforms information of all sizes into a unique and fixed-size digital fingerprint, called a "hash". Throughout our exploration, we will depict the profile of cryptographic hash functions, highlighting their use in the Bitcoin protocol, and defining the specific objectives that these cryptographic functions must achieve.
 
+![image](assets/image/section1/0.JPG)
+
 Depicting the profile of cryptographic hash functions requires understanding two essential qualities: their irreversibility and their resistance to falsification. Each cryptographic hash function is like a unique artist, producing a distinct "hash" for each input. Even a slightly deviating brush significantly alters the final picture, i.e., the hash. These functions act as digital sentinels, verifying the integrity of downloaded software. Another crucial characteristic they possess is their resistance to collisions. Certainly, in the world of hashing, collisions are inevitable, but an excellent cryptographic hash function minimizes them considerably. It's like each hash is a house in a vast city; despite the enormous number of houses, a good hash function ensures that each house has a unique address.
+
+![image](assets/image/section1/1.JPG)
 
 Let's now navigate the turbulent waters of outdated hash functions. SHA0, SHA1, and MD5 are now considered rusty shells in the ocean of cryptographic hashing. They are often discouraged because they have lost their resistance to collisions. The principle of drawers explains why, despite our best efforts, collision avoidance is impossible due to the limitation of the output size. It is also important to note that resistance to the second preimage is dependent on resistance to collisions. To be truly considered safe, a hash function must resist collisions, second preimage, and preimage.
 
@@ -58,6 +62,8 @@ An essential element in the Bitcoin protocol, the SHA-256 hash function is the c
 
 In summary, the ultimate goal of a cryptographic hash function is to transform information of arbitrary size into a fixed-size fingerprint. To be recognized as secure, it must have several strings to its bow: irreversibility, resistance to falsification, resistance to collisions, and resistance to the second preimage.
 
+![image](assets/image/section1/2.JPG)
+
 At the end of this exploration, we have demystified cryptographic hash functions, highlighted their use in the Bitcoin protocol, and dissected their specific objectives. We have learned that to be considered safe, hash functions must be resistant to preimage, second preimage, collisions, and falsification. We have also explored the range of different hash functions used in the Bitcoin protocol. In our next session, we will delve into the heart of the SHA256 hash function and discover the fascinating mathematics that give it its unique characteristics.
 
 ## The Inner Workings of SHA256
@@ -66,12 +72,25 @@ At the end of this exploration, we have demystified cryptographic hash functions
 
 Welcome to the next part of our fascinating journey through the cryptographic labyrinths of the hash function. Today, we unveil the mysteries of SHA256, a complex but ingenious process that we introduced in our previous discussion on hash functions. Let's take another step into this labyrinth, starting with the pre-processing of SHA256. Imagine pre-processing as preparing a delicious dish, where we add "padding bits" so that the size of our main ingredient, the input, reaches a perfect multiple of 512 bits. All of this with the ultimate goal of generating a succulent 256-bit hash from an ingredient of varying size.
 
+![image](assets/image/section1/3.JPG)
+![image](assets/image/section1/4.JPG)
+
 In this cryptographic recipe, we play with bits, having an initial message size that we will call M. One bit is reserved for the separator, while P bits are used for padding. Additionally, we set aside 64 bits for the second phase of pre-processing. The total must be a multiple of 512 bits. A bit like making sure all the ingredients harmonize perfectly in our dish.
+
+![image](assets/image/section1/5.JPG)
+
 We now move on to the second phase of preprocessing, which involves adding the binary representation of the initial message size in bits. To do this, we use the 64 bits reserved in the previous step. We add zeros to round our 64 bits to our balanced input. Then, we merge the initial message, bit padding, and size padding, like ingredients in a blender, to obtain our balanced input.
+
+![image](assets/image/section1/6.JPG)
 
 Now, we prepare for the first steps of processing the SHA-256 function. As in any good recipe, we need some basic ingredients, which we call constants and initialization vectors. The initialization vectors, from A to H, are the first 32 bits of the decimal parts of the square roots of the first 8 prime numbers. The constants K, from 0 to 63, represent the first 32 bits of the decimal parts of the cubic roots of the first 64 prime numbers.
 
+![image](assets/image/section1/7.JPG)
+
 Within the compression function, we use specific operators such as XOR, AND, and NOT. We process the bits one by one according to their rank, using the XOR operator and a truth table. The AND operator is used to return 1 only if both operands are equal to 1, and the NOT operator to return the opposite value of an operand. We also use the SHR operation to shift the bits to the right by a chosen number.
+
+![image](assets/image/section1/8.JPG)
+![image](assets/image/section1/9.JPG)
 
 Finally, after separating the balanced input into different message blocks of 512 bits, we perform 64 rounds of calculation in the compression function. Like in a cycling race, each lap improves our position. We add modulo 2^32 the intermediate state to the initial state of the compression function. The additions in the compression function are modulo 2^32 additions to contain the size of the sums to 32 bits.
 

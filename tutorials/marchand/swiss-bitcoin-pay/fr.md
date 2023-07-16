@@ -1,1 +1,0 @@
-swiss bitcoin pay tuto

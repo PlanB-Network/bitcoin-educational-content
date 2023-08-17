@@ -58,7 +58,7 @@ C’est une excellente opportunité pour apprendre en pratiquant. En plus de ré
 
 Dans cet section nous allons voir les bonnes pratiques afin d’acheter un Bitmain Antminer S9 d’occasion, la machine sur laquelle ce tutoriel de retrofitting en radiateur sera basé. Ce guide fonctionne aussi pour d’autres modèles d’ASIC car il s’agit d’un guide d’achat général pour du matériel de minage d’occasion.
 
-Le Antminer S9 est un appareil proposé par Bitmain depuis mai 2016. Il consomme 1323W d’électricité et produit 13,5 TH/s. Bien qu’il soit considéré comme ancien, il reste une excellente option pour débuter le minage. Étant donné qu’il a été produit en grande quantité, il est facile de trouver des pièces détachées en abondance dans de nombreuses régions du monde. On peut généralement l’acquérir de façon pair à pair sur des sites tels qu’Ebay ou LeBonCoin, car les revendeurs s’adressant aux professionnels ne le proposent plus en raison de sa moindre compétitivité par rapport à des machines plus récentes. Il est moins efficient que des ASIC comme le Antminer S19, proposé depuis mars 2020, mais cela en fait un matériel d’occasion abordable et plus approprié pour les modifications que nous allons effectuer.
+Le Antminer S9 est un appareil proposé par Bitmain depuis mai 2016. Il consomme 1400W d’électricité et produit 14,5 TH/s. Bien qu’il soit considéré comme ancien, il reste une excellente option pour débuter le minage. Étant donné qu’il a été produit en grande quantité, il est facile de trouver des pièces détachées en abondance dans de nombreuses régions du monde. On peut généralement l’acquérir de façon pair à pair sur des sites tels qu’Ebay ou LeBonCoin, car les revendeurs s’adressant aux professionnels ne le proposent plus en raison de sa moindre compétitivité par rapport à des machines plus récentes. Il est moins efficient que des ASIC comme le Antminer S19, proposé depuis mars 2020, mais cela en fait un matériel d’occasion abordable et plus approprié pour les modifications que nous allons effectuer.
 
 Le Antminer S9 existe en plusieurs déclinaisons (i,j) qui apportent des modifications mineures au matériel de première génération. Nous ne pensons pas que cet élément devrait orienter votre décision d’achat et ce guide fonctionnera pour toutes ces déclinaisons.
 
@@ -123,7 +123,7 @@ Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser
 ![image](assets/piece/2.jpeg)
 ![image](assets/piece/3.jpeg)
 
-Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Nous recommandons le Noctua NF-A6x25 PWM. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffirons. Attention ici aussi à bien choisir la version 12V du ventilateur.
+Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Attention!! il existe plusieurs model d’alimentation pour Antminer S9 avec des ventilateurs différents. prenez le temps de mesurer le diamétre de celui-ci. il devrais être de 60mm ou 40mm. Nous recommandons la marque Noctua NF-A6x25 FLX 12V ou NF-A4X20 FLX 12V. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffirons. Attention ici aussi à bien choisir la version 12V du ventilateur
 
 ![image](assets/piece/4.jpeg)
 ![image](assets/piece/5.jpeg)
@@ -144,138 +144,18 @@ Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et mo
 > Liste du matériel et liens
 >
 > - 2X pièce 3D adapteur 140mm vers 120mm
-> - 2X NF-A14 iPPC-2000 PWM https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2
-> - 2X Grilles de ventilateurs 140mm https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details
-> - Noctua NF-A6x25 PWM https://www.amazon.fr/
-> - Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?\_\_mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ
-> - Sucre d’électricien 2,5mm2 https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1
-> - Vonets vap11g-300 https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
-> - Optionnel prise connectée ANTELA https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1
+> - [2X NF-A14 iPPC-2000 PWM](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2)
+> - [2X Grilles de ventilateurs 140mm](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+> - [Noctua NF-A6x25 FLX](https://www.amazon.fr/Noctua-NF-A6X25-FLX-ventilateur-Marron/dp/B009LEKGGE/ref=sr_1_1?__mk_fr_FR=ÅMÅŽÕÑ&crid=194YUD4V4OR20&keywords=NF-A6x25+FLX&qid=1688562939&sprefix=nf-a6x25+flx%2Caps%2C153&sr=8-1)
+> - [Sucre d’électricien 2,5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
+> - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+> - [Optionnel prise connectée ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-## Chapitre 3 - TUTORIEL : Comment transformer un mineur en chauffage ?
 
-![image](assets/hardware/0.jpeg)
 
-Si vous êtes un bricoleur averti et que vous cherchez à transformer un mineur en chauffage, ce tutoriel est fait pour vous. Nous tenons à vous avertir que les modifications apportées à un appareil électronique peuvent présenter des risques électriques et d’incendie. Il est donc essentiel de prendre toutes les précautions nécessaires pour éviter tout dommage ou blessure.
-En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur dans un logement, car il est beaucoup trop bruyant et qu’il n’est pas réglable. Toutefois, il est possible d’effectuer des modifications simples pour résoudre ces problèmes.
+## Chapitre 3 - Modification du software - Réinitialiser un Antminer S9
 
-> ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.
-
-### Matériels nécessaires
-
-- 2 pièces 3D adapteur 140mm vers 120mm
-- 2 ventilateurs Noctua NF-A14 iPPC-2000 PWM
-- 2 grilles de ventilateurs 140mm
-- 1 ventilateur Noctua NF-A6x25 PWM
-- Sucre d’électricien 2,5mm2
-- Vonets VAP11G-300
-- Optionnel : prise connectée ANTELA
-
-### Remplacement des ventilateurs
-
-Nous allons commencer par remplacer le ventilateur de l’alimentation.
-
-> ATTENTION : Tout d’abord, avant de commencer, assurez-vous de bien avoir débranché votre mineur pour éviter tout risque d’électrocution.
-
-![image](assets/hardware/1.jpeg)
-
-Nous allons commencer par remplacer le ventilateur de l’alimentation.
-
-Tout d’abord, retirez les 6 vis sur le côté du boîtier qui le maintiennent fermé. Une fois les vis retirées, ouvrez délicatement le boîtier pour retirer la protection plastique qui recouvre les composants.
-
-![image](assets/hardware/2.jpeg)
-![image](assets/hardware/3.jpeg)
-
-Ensuite, il est temps de retirer le ventilateur d’origine en prenant soin de ne pas endommager les autres composants. Pour ce faire, retirez les vis qui le maintiennent en place et décollez délicatement la colle blanche qui entoure le connecteur. Il est important de procéder avec délicatesse pour éviter d’endommager les fils ou les connecteurs.
-
-![image](assets/hardware/4.jpeg)
-
-Une fois le ventilateur d’origine retiré, vous remarquerez que les connecteurs du nouveau ventilateur Noctua ne correspondent pas à ceux du ventilateur d’origine. En effet, le nouveau ventilateur dispose de 3 fils, dont un fil jaune qui permet de contrôler la vitesse. Cependant, ce fil ne sera pas utilisé dans ce cas précis. Pour brancher le nouveau ventilateur, il est donc recommandé d’utiliser un adaptateur spécial. Il est cependant important de noter que cet adaptateur peut parfois être difficile à trouver.
-
-![image](assets/hardware/5.jpeg)
-
-Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur en utilisant un sucre d’électricien. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur.
-
-![image](assets/hardware/6.jpeg)
-![image](assets/hardware/7.jpeg)
-
-Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les contours de la gaine principale à 1cm sans coupez les gaines des câbles en dessous.
-
-![image](assets/hardware/8.jpeg)
-
-Puis en tirant la gaine principale vers le bas, coupez les gaines des câble rouge et noir de la même manière que précédemment. Et coupez le câble jaune à ras.
-
-![image](assets/hardware/9.jpeg)
-
-Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des files rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs.
-
-![image](assets/hardware/10.jpeg)
-![image](assets/hardware/11.jpeg)
-
-Une fois les fils rouges et noirs dégagés, coupez les gaines toujours délicatement pour ne pas abîmer les fils électriques.
-
-![image](assets/hardware/12.jpeg)
-
-Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
-
-![image](assets/hardware/13.jpeg)
-![image](assets/hardware/14.jpeg)
-
-Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisé plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur.
-
-![image](assets/hardware/15.jpeg)
-![image](assets/hardware/16.jpeg)
-
-> Optionnel : Si vous êtes compétent en électricité, vous pouvez ajouter directement sur la sortie d’alimentation 12V un connecteur jack 5,5 mm femelle qui permettra d’alimenter directement le bridge Wi-Fi Vonet. Cependant, si vous n’êtes pas sûr de vos compétences en électricité, il est préférable d’utiliser le connecteur USB avec un chargeur de type smartphone pour éviter tout risque de court-circuit ou de dommage électrique.
-
-![image](assets/hardware/17.jpeg)
-
-Une fois les branchements effectués, remettez bien le plastique du couvercle par-dessus le plastique du boîtier et pas à l’intérieur.
-
-![image](assets/hardware/18.jpeg)
-
-Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
-
-### Remplacement des 2 ventilateurs principaux
-
-1. Tout d’abord, débranchez les ventilateurs et dévissez-les.
-   ![image](assets/hardware/19.jpeg)
-
-2. Les connecteurs des nouveaux ventilateurs Noctua ne correspondent pas à ceux d’origine, mais pas de panique ! Sortez votre cutter et coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
-
-![image](assets/hardware/20.jpeg)
-![image](assets/hardware/21.jpeg)
-
-3. C’est l’heure de l’installation des pièces 3D !
-   Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis sous rentrer dans la pièce 3D et que celle-ci soit bien maintenu en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
-
-![image](assets/hardware/22.jpeg)
-
-4. Passons maintenant aux ventilateurs.
-   Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
-
-![image](assets/hardware/23.jpeg)
-![image](assets/hardware/24.jpeg)
-![image](assets/hardware/25.jpeg)
-
-5. Dernière étape : branchez les ventilateurs et fixez les grilles par-dessus avec les vis qui n’ont pas été utilisées dans la boîte du ventilateur de l’alimentation. Vous en avez seulement 4 mais 2 par grille dans des angles opposés suffiront. Vous pouvez également chercher d’autres vis similaires dans un magasin de bricolage si besoin.
-
-![image](assets/hardware/26.jpeg)
-![image](assets/hardware/27.jpeg)
-
-En attendant de pouvoir offrir un casing plus sexy à votre nouveau chauffage, vous pouvez attacher le boîtier et l’alimentation ensemble avec des colliers de serrage d’électricien.
-
-![image](assets/hardware/28.jpeg)
-
-Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son alimentation. Si ce n’est pas encore fait, vous pouvez suivre ce tutoriel pour paramétrer votre bridge.
-
-![image](assets/hardware/29.jpeg)
-
-Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
-
-## Chapitre 4 - Modification du software - Réinitialiser un Antminer S9
-
-**Série d’articles proposée par BlobOnChain & Ajelex – 15/02/2023**
+Pour suivre ce tutoriel vous pouvez brancher votre machine directement avec un câble Ethernet ou alors vous pouvez utiliser le bridge Vonet de ce tutoriel. [Suivez ce lien sur notre chaîne youtube pour voir comment l'installer](https://www.youtube.com/watch?v=y4oYURBaPqg)
 
 ### Réinitialiser via le bouton « Reset »
 
@@ -297,10 +177,10 @@ Tout d’abord, connectez vous à votre machine à travers votre réseau local :
 
 ![image](assets/software/2.gif)
 
-Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en utilisant les identifiants par défaut :
+Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en utilisant les identifiants par défaut.
 
-– username: root
-– password: root
+- username: root
+- password: root
 
 (Comment reset si mot de passe par défaut ne fonctionne pas ?)
 
@@ -398,7 +278,7 @@ Vous devrez vous connecter à votre ASIC de façon similaire. En utilisant l’a
 Les identifiants par défaut sont les mêmes que le système d’exploitation d’origine.
 
 - username: root
-- password: root
+- password: 
 
 Vous serez alors accueilli par le Dashboard de Brains OS+
 
@@ -481,4 +361,125 @@ Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. 
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
 
-Guide crée par DecouvreBitcoin, lpus d'info sur MINAGE 201 - crédit Jim et Ajelex
+## Chapitre 4 - TUTORIEL : Comment transformer un mineur en chauffage ?
+
+![image](assets/hardware/0.jpeg)
+
+Si vous êtes un bricoleur averti et que vous cherchez à transformer un mineur en chauffage, ce tutoriel est fait pour vous. Nous tenons à vous avertir que les modifications apportées à un appareil électronique peuvent présenter des risques électriques et d’incendie. Il est donc essentiel de prendre toutes les précautions nécessaires pour éviter tout dommage ou blessure.
+En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur dans un logement, car il est beaucoup trop bruyant et qu’il n’est pas réglable. Toutefois, il est possible d’effectuer des modifications simples pour résoudre ces problèmes.
+
+> ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.
+
+### Matériels nécessaires
+
+- 2 pièces 3D adapteur 140mm vers 120mm avec 8 visses de 16mm
+- 2 ventilateurs Noctua NF-A14 iPPC-2000 PWM
+- 2 grilles de ventilateurs 140mm
+- 1 ventilateur Noctua NF-A6x25 FLX
+- Sucre d’électricien 2,5mm2
+- Vonets VAP11G-300
+- Optionnel : prise connectée ANTELA
+
+### Remplacement des ventilateurs
+
+Nous allons commencer par remplacer le ventilateur de l’alimentation.
+
+> ATTENTION : Tout d’abord, avant de commencer, assurez-vous de bien avoir débranché votre mineur pour éviter tout risque d’électrocution.
+
+![image](assets/hardware/1.jpeg)
+
+Nous allons commencer par remplacer le ventilateur de l’alimentation.
+
+Tout d’abord, retirez les 6 vis sur le côté du boîtier qui le maintiennent fermé. Une fois les vis retirées, ouvrez délicatement le boîtier pour retirer la protection plastique qui recouvre les composants.
+
+![image](assets/hardware/2.jpeg)
+![image](assets/hardware/3.jpeg)
+
+Ensuite, il est temps de retirer le ventilateur d’origine en prenant soin de ne pas endommager les autres composants. Pour ce faire, retirez les vis qui le maintiennent en place et décollez délicatement la colle blanche qui entoure le connecteur. Il est important de procéder avec délicatesse pour éviter d’endommager les fils ou les connecteurs.
+
+![image](assets/hardware/4.jpeg)
+
+Une fois le ventilateur d’origine retiré, vous remarquerez que les connecteurs du nouveau ventilateur Noctua ne correspondent pas à ceux du ventilateur d’origine. En effet, le nouveau ventilateur dispose de 3 fils, dont un fil jaune qui permet de contrôler la vitesse. Cependant, ce fil ne sera pas utilisé dans ce cas précis. Pour brancher le nouveau ventilateur, il est donc recommandé d’utiliser un adaptateur spécial. Il est cependant important de noter que cet adaptateur peut parfois être difficile à trouver.
+
+![image](assets/hardware/5.jpeg)
+
+Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur en utilisant un sucre d’électricien. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur, attention à garder suffisamment de longueur sur chaque câbles.
+
+![image](assets/hardware/6.jpeg)
+![image](assets/hardware/7.jpeg)
+
+Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les contours de la gaine principale à 1cm sans coupez les gaines des câbles en dessous.
+
+![image](assets/hardware/8.jpeg)
+
+Puis en tirant la gaine principale vers le bas, coupez les gaines des câble rouge et noir de la même manière que précédemment. Et coupez le câble jaune à ras.
+
+![image](assets/hardware/9.jpeg)
+
+Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des files rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs.
+
+![image](assets/hardware/10.jpeg)
+![image](assets/hardware/11.jpeg)
+
+Une fois les fils rouges et noirs dégagés, coupez les gaines toujours délicatement pour ne pas abîmer les fils électriques.
+
+![image](assets/hardware/12.jpeg)
+
+Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
+
+![image](assets/hardware/13.jpeg)
+![image](assets/hardware/14.jpeg)
+
+Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisé plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur.
+
+![image](assets/hardware/15.jpeg)
+![image](assets/hardware/16.jpeg)
+
+> Optionnel : Si vous êtes compétent en électricité, vous pouvez ajouter directement sur la sortie d’alimentation 12V un connecteur jack 5,5 mm femelle qui permettra d’alimenter directement le bridge Wi-Fi Vonet. Cependant, si vous n’êtes pas sûr de vos compétences en électricité, il est préférable d’utiliser le connecteur USB avec un chargeur de type smartphone pour éviter tout risque de court-circuit ou de dommage électrique.
+
+![image](assets/hardware/17.jpeg)
+
+Une fois les branchements effectués, remettez bien le plastique du couvercle par-dessus le plastique du boîtier et pas à l’intérieur.
+
+![image](assets/hardware/18.jpeg)
+
+Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
+
+### Remplacement des 2 ventilateurs principaux
+
+1. Tout d’abord, débranchez les ventilateurs et dévissez-les.
+   ![image](assets/hardware/19.jpeg)
+
+2. Les connecteurs des nouveaux ventilateurs Noctua ne correspondent pas à ceux d’origine, mais pas de panique ! Sortez votre cutter et coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
+
+![image](assets/hardware/20.jpeg)
+![image](assets/hardware/21.jpeg)
+
+3. C’est l’heure de l’installation des pièces 3D !
+   Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis sous rentrer dans la pièce 3D et que celle-ci soit bien maintenu en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
+
+![image](assets/hardware/22.jpeg)
+
+4. Passons maintenant aux ventilateurs.
+   Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
+
+![image](assets/hardware/23.jpeg)
+![image](assets/hardware/24.jpeg)
+![image](assets/hardware/25.jpeg)
+
+5. Dernière étape : branchez les ventilateurs et fixez les grilles par-dessus avec les vis qui n’ont pas été utilisées dans la boîte du ventilateur de l’alimentation. Vous en avez seulement 4 mais 2 par grille dans des angles opposés suffiront. Vous pouvez également chercher d’autres vis similaires dans un magasin de bricolage si besoin.
+
+![image](assets/hardware/26.jpeg)
+![image](assets/hardware/27.jpeg)
+
+En attendant de pouvoir offrir un casing plus sexy à votre nouveau chauffage, vous pouvez attacher le boîtier et l’alimentation ensemble avec des colliers de serrage d’électricien.
+
+![image](assets/hardware/28.jpeg)
+
+Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son alimentation. Si ce n’est pas encore fait, vous pouvez suivre ce tutoriel pour paramétrer votre bridge.
+
+![image](assets/hardware/29.jpeg)
+
+Bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
+
+Guide crée par DecouvreBitcoin, plus d'info sur MINAGE 201 - crédit Jim et Ajelex

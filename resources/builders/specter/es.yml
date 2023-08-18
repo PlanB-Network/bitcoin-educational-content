@@ -1,8 +1,5 @@
 description: |
-  Specter Firmware enables you to build your own trust minimized signing devices.
-  It is FOSS free open source software under the MIT license.
-  Open source firmware and off-the-shelf hardware, for trust minimized bitcoin self-custody.
-
+  El firmware Specter te permite construir tus propios dispositivos de firma con confianza minimizada. Es un software de código abierto gratuito (FOSS) bajo la licencia MIT. Firmware de código abierto y hardware de venta libre, para la auto custodia de bitcoin con confianza minimizada.
 contributors:
   - rabbit-hole
   - another-satoshi

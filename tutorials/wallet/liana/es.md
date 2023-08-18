@@ -4,7 +4,7 @@ name: Liana
 description: Cómo configurar tu Liana Wallet
 ---
 
-![cover](assets/cover.JPEG)
+![cover](assets/cover.jpeg)
 
 # Liana - Solución de herencia
 

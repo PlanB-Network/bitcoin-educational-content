@@ -6,7 +6,7 @@ description: Anleitung zur Einrichtung Ihres JADE-Geräts
 
 # Blockstream Jade
 
-![Bild](assets/0.JPEG)
+![Bild](assets/cover.jpeg)
 
 ## Tutorial-Video
 

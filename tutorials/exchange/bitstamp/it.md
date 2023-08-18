@@ -4,8 +4,6 @@ name: Bitstamp
 description: Come utilizzare Bitstamp
 ---
 
-# Bitstamp
-
 ![cover](assets/cover.jpeg)
 
 Bitstamp (https://www.bitstamp.net/) è un broker di Bitcoin per l'acquisto e la vendita di Bitcoin, con molte opzioni e volumi. È ideale per aziende o acquirenti esperti. È KYC, quindi fai attenzione. Hanno anche iniziato a addebitare per il mantenimento dei tuoi bitcoin nel loro portafoglio.

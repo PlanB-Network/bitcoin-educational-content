@@ -1,5 +1,13 @@
 builder: LND
 
+credits:
+  name: Francisco Calderón
+  link: https://grunch.dev/guides/rpi-neutrino/
+  tips:
+    lightning_adress: grunch@getalby.com
+    paynym:
+    on-chain:
+
 level: advanced
 
 category: lightning-network

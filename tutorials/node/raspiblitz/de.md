@@ -17,8 +17,6 @@ RASPIBLITZ - Anleitung zum Betreiben eines Lightning- und Bitcoin-Fullnodes von 
 
 # Parman's Raspiblitz-Einrichtungsanleitung
 
-> Die folgende Anleitung wurde von Parman (https://twitter.com/parman_the) zur Verfügung gestellt. Sie können ihm hier Trinkgeld geben: dandysack84@walletofsatoshi.com Originalquelle: https://armantheparman.com/raspiblitz/
-
 Der Raspiblitz ist ein ausgezeichnetes System zum Betreiben eines Bitcoin-Nodes und zugehöriger Apps. Ich empfehle dies und den My Node Node den meisten Benutzern (idealerweise zwei Nodes für Redundanz). Ein großer Vorteil ist, dass der Raspiblitz-Node "Free Open Source Software" ist, im Gegensatz zu MyNode oder Umbrel. Warum ist das wichtig? Vlad Costa erklärt es. Sie können den RaspbiBlitz auch mit einer WLAN-Verbindung anstelle von Ethernet betreiben - hier finden Sie eine ergänzende Anleitung dazu. (Ich habe noch keine Möglichkeit gefunden, dies mit MyNode zu tun).
 
 Sie können einen fertigen Node mit einem angeschlossenen Minibildschirm kaufen oder ihn selbst bauen (Sie benötigen keinen Bildschirm).
@@ -186,6 +184,7 @@ Dann erscheinen Lightning-Optionen.
 Erstelle ein neues Passwort, um deine Lightning-Wallet zu sperren, dann wird eine neue Wallet erstellt und du erhältst 24 Wörter zum Aufschreiben...
 
 ![image](assets/21.png)
+
 Stellen Sie sicher, dass Sie es aufschreiben und sicher aufbewahren. Ich habe von einer Person gehört, die es nicht getan hat, weil er nicht vorhatte, Lightning zu verwenden, aber dann ein Jahr später beschloss, es zu verwenden und Kanäle zu öffnen. Dann merkte er, dass seine Wörter nicht gesichert waren und ich erinnere mich, dass es nicht möglich war, die Wörter erneut vom Gerät abzurufen. Er musste alle seine Kanäle schließen und von vorne beginnen. Er ist damit davongekommen, aber andere könnten nicht so viel Glück haben.
 
 Danach scrollt einige Minuten lang Text durch das Terminalfenster. Dann...
@@ -205,8 +204,5 @@ Drücken Sie STRG+C, um den blauen Bildschirm zu verlassen. Sie greifen auf das 
 ![image](assets/24.png)
 
 ENDE der Anleitung
-
-> Die folgende Anleitung wurde von Parman (https://twitter.com/parman_the) zur Verfügung gestellt.
-> Sie können ihm hier Trinkgeld geben: dandysack84@walletofsatoshi.com Originalquelle: https://armantheparman.com/raspiblitz/
 
 Ab jetzt ist Ihr Knoten bereit. Wenn Sie weitere Optionen erkunden möchten, schauen Sie im GitHub nach weiteren Tutorials und Anleitungen: https://github.com/raspiblitz/raspiblitz#feature-documentation

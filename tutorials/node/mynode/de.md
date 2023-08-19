@@ -11,8 +11,6 @@ https://mynodebtc.com/
 
 Der einfachste und leistungsstärkste Weg, um eine Bitcoin- und Lightning-Node auszuführen! Wir kombinieren die besten Open-Source-Software mit unserer Benutzeroberfläche, Verwaltung und Unterstützung, damit Sie Bitcoin und Lightning einfach, privat und sicher nutzen können.
 
-> Der folgende Leitfaden wurde von Parman (https://twitter.com/parman_the) zur Verfügung gestellt. Sie können ihm hier Trinkgeld geben: dandysack84@walletofsatoshi.com Originalquelle: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
-
 ## Arten von Node-Setups
 
 Es gibt verschiedene Node-Setups. MyNode ist ausgezeichnet. Es gibt viele Apps, die damit geliefert werden, und noch mehr, wenn Sie für die Premium-Version bezahlen. Es ist ansonsten sehr mühsam, all diese Apps selbst herunterzuladen. Mit MyNode ist es jedoch ziemlich einfach, wie Sie sehen werden.
@@ -193,6 +191,3 @@ Beachte, dass auch der Electrum Server synchronisiert werden muss. Sobald die Bi
 Wenn du auch einen anderen Knoten ausprobieren möchtest, zum Beispiel einen RaspiBlitz, benötigst du eine zusätzliche SSD-externe Festplatte und eine weitere microSD-Karte zum Flashen. Ansonsten ist es die gleiche Ausrüstung, du kannst MyNode und RaspiBlitz natürlich nicht gleichzeitig ausführen. Wenn du das tun möchtest, ist es Zeit, nach einem weiteren Raspberry Pi zu suchen.
 
 Jetzt, da du einen laufenden Knoten hast, benutze ihn, lass ihn nicht einfach untätig herumstehen. Folge meinem Artikel (und Video), wie du deine Electrum Desktop Wallet mit dem Electrum Server und Bitcoin Core verbindest.
-
-> Der folgende Leitfaden wurde von Parman (https://twitter.com/parman_the) zur Verfügung gestellt.
-> '> Sie können ihm hier Tipps geben; dandysack84@walletofsatoshi.com Originalquelle; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/'

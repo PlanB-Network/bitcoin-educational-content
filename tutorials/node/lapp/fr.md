@@ -6,10 +6,6 @@ description: Tutorial pour développer votre première LApp
 # Tutorial pour développer votre première LApp
 
 Apprenez à coder votre première application Lightning
-Francisco Calderón publié le
-14 juin 2021
-
-https://grunch.dev/guides/lapp/
 
 Exigences:
 
@@ -594,5 +590,3 @@ block content
 ```
 
 Si, après avoir payé la facture, vous voyez le message "Paiement réussi" et la preuve de paiement, félicitations !!! vous avez terminé votre premier LApp.
-
-> [Link to the original article](https://grunch.dev/guides/lapp/) - Francisco Calderón published on June 14, 2021

@@ -5,11 +5,6 @@ description: Introducción y creación de activos en RGB
 
 # Una breve introducción a los protocolos RGB
 
-Francisco Calderón publicado el
-08 de noviembre de 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introducción
@@ -81,7 +76,6 @@ RGB tiene su propio agujero de conejo dentro del agujero de conejo de Bitcoin, m
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
 - 3 https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-June/012773.html
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
-
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 # Tutorial de RGB-node
@@ -89,10 +83,6 @@ RGB tiene su propio agujero de conejo dentro del agujero de conejo de Bitcoin, m
 ## Introducción
 
 En este tutorial explicamos cómo usar RGB-node para crear un token fungible y cómo transferirlo, este documento se basa en la demostración de RGB-node y difiere en que este tutorial utiliza datos reales de la testnet y para eso, debemos construir nuestra propia Transacción Parcialmente Firmada de Bitcoin, psbt a partir de ahora.
-
-Francisco Calderón publicado el
-01 de marzo de 2022
-https://grunch.dev/blog/rgbnode-tutorial/
 
 ## Requisitos
 
@@ -421,7 +411,3 @@ $ rgb0-cli fungible list -l
 Hemos podido crear un activo fungible y moverlo de una transacción a otra de manera privada, si verificamos la transacción confirmada en un explorador de bloques no encontraríamos nada diferente de una transacción regular, esto se debe a que RGB utiliza sellos de un solo uso para ajustar las transacciones. En esta publicación, hago una introducción a cómo funciona RGB.
 
 Esta publicación puede tener errores, si encuentras algo, por favor avísame para mejorar esta guía, también se aceptan sugerencias y críticas, ¡feliz hacking! 🖖
-
-> Guía ofrecida por Francisco: grunch@getalby.com
-> https://twitter.com/negrunch
-> https://grunch.dev/blog/rgbnode-tutorial/'

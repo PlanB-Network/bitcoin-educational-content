@@ -11,8 +11,6 @@ https://mynodebtc.com/
 
 La manière la plus simple et la plus puissante d'exécuter un nœud Bitcoin et Lightning ! Nous combinons les meilleurs logiciels open source avec notre interface, notre gestion et notre support afin que vous puissiez utiliser Bitcoin et Lightning facilement, en toute confidentialité et en toute sécurité.
 
-> Le guide suivant a été offert par Parman (https://twitter.com/parman_the), vous pouvez lui donner des pourboires ici : dandysack84@walletofsatoshi.com Source originale : https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
-
 ## Types de configurations de nœuds
 
 Il existe différentes configurations de nœuds. MyNode est excellent. Il y a de nombreuses applications incluses, et encore plus si vous payez pour la version premium. Il est sinon très fastidieux de télécharger toutes ces applications vous-même. MyNode rend cela assez facile, comme vous le verrez.
@@ -193,6 +191,3 @@ Notez que le serveur Electrum doit également se synchroniser, donc dès que la 
 Si vous souhaitez essayer un autre nœud également, par exemple un RaspiBlitz, vous avez besoin d'un disque dur externe SSD supplémentaire et d'une autre carte micro SD à flasher. Sinon, c'est le même équipement, vous ne pouvez tout simplement pas exécuter MyNode et RaspiBlitz simultanément, évidemment. Si vous voulez le faire, il est temps de chercher un autre Raspberry Pi.
 
 Maintenant que vous avez un nœud en cours d'exécution, utilisez-le, ne le laissez pas simplement là à ne rien faire pour vous. Suivez mon article (et vidéo) sur la façon de connecter votre portefeuille de bureau Electrum à Electrum Server et Bitcoin Core ici.
-
-> Le guide suivant a été offert par Parman (https://twitter.com/parman_the)'
-> '> vous pouvez lui donner des pourboires ici; dandysack84@walletofsatoshi.com Source originale; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/'

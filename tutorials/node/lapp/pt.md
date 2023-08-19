@@ -6,10 +6,6 @@ description: Tutorial para desarrollar tu primera LApp
 # Tutorial para desarrollar tu primera LApp
 
 Aprende a codificar tu primera aplicación lightning
-Francisco Calderón publicado el
-14 de junio de 2021
-
-https://grunch.dev/guides/lapp/
 
 Requisitos:
 
@@ -602,7 +598,3 @@ block content
 ```
 
 Se, depois de pagares a fatura, vires a mensagem Pagamento bem sucedido e o comprovativo de pagamento, parabéns!!! concluíste a tua primeira LApp.
-
-> https://grunch.dev/guides/lapp/ -
-> Francisco Calderón published on
-> June 14, 2021

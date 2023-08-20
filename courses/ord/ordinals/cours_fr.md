@@ -302,18 +302,21 @@ Il a également ajouté des "steps" en plus du halving avec les cycles et autres
 
 Il a créé un classement de sats rares. 
 
-Néanmoins de nouvelles raretés sont apparus : 
+Néanmoins de nouvelles raretés sont apparus notamment chez [sating](https://sating.io) : 
+![satsRarity](./assets/sats_rarity.png)
 
 ####	c) A la recherche des sats rares
 
 Pour une recherche à la main dans Sparrow Wallet on a [Franken | How to find and extract rare sats from your Bitcoin wallet!](https://www.youtube.com/watch?v=4Gro5AmFdfY).
-Outils online le plus facile. On donne son adresse et ils l'analysent : [Sat scanner](https://www.ordinalhub.com/sat-scanner).
+Outils online le plus facile. On donne son adresse et ils l'analysent : [Sat scanner | sating](https://sating.io/).
 
 > Il est possible de le faire par ligne de commande mais je ne sais toujours pas comment.
 
 ### 2) L'inscription
 
-Maintenant qu'on sait compter les sats, on peut les manipuler. Ordinals propose d'inscrire sur ces derniers.
+Maintenant qu'on sait compter les sats, on peut les manipuler. 
+Ordinals, plus précisément la ligne de commande `ord`, propose d'inscrire sur ces derniers.
+Sur cette partie on va donc se concentrer sur la ligne de commande aka le client `ord`.
 
 ####	a) L'idée
 
@@ -325,13 +328,11 @@ L'utilisation de la witness en native a dût se faire à partir du commit [Add c
 ![index.rs](index.rs_0.0.0_witness_integration.png)
 
 
-
-
 ####	b) La pratique
 
 Concrétement on n'a pas besoin de comprendre pourquoi ce fonctionnement pour l'utiliser. 
 
-Néanmoins, suite à une inscription avec le client `ord` on obtient un json output de cette forme : 
+Néanmoins, suite à une inscription avec le client `ord` on obtient une sortie json de la forme : 
 
 ```JSON
 {
@@ -345,11 +346,11 @@ Néanmoins, suite à une inscription avec le client `ord` on obtient un json out
 
 ####	c) Le code
 
---> [ordinals/ord/src/subcommand/wallet/inscribe.rs](https://github.com/ordinals/ord/tree/master/src/subcommand/wallet/inscribe.rs)
+> [ordinals/ord/src/subcommand/wallet/inscribe.rs](https://github.com/ordinals/ord/tree/master/src/subcommand/wallet/inscribe.rs)
 
--> Le but n'est peut-être pas d'analyser TOUT le code mais détailler quelques fonction importantes comme `create_inscription_transactions` et `build_reveal_transaction`.
+Le but n'est pas d'analyser TOUT le code mais détailler quelques fonction importantes comme `create_inscription_transactions` et `build_reveal_transaction`.
 
--> Pour les dev, ce fichier `inscribe.rs` doit pouvoir être modifié modéremment sans impacter le reste du programme client `ord`. Par exemple, les fees utilisés pour réaliser les transactions doivent pouvoir être modifié.
+> Pour les dev, ce fichier `inscribe.rs` doit pouvoir être modifié modéremment sans impacter le reste du programme client `ord`. Par exemple, les fees utilisés pour réaliser les transactions doivent pouvoir être modifié.
 Une discussion approfondie avec des tests d'implémentation avancées pourrait être intéressante.
 
 ### 3) Le client
@@ -431,8 +432,7 @@ Pour sa configuration il faut qu'il tourne sur `bitcoind` avec le flag `--txinde
 
 Une fois que le nœud est entièrement téléchargé on peut télécharger et lancer le client `ord`. On parle de client pour parler de la ligne de commande qui est utilisé pour intéragir avec le protocole ordinals.
 
-Téléchargez `ord`: [Releases · ordinals/ord](https://github.com/ordinals/ord/releases)
-en prenant la dernière mise à jour.
+Téléchargez `ord`: [Releases · ordinals/ord](https://github.com/ordinals/ord/releases) en prenant la dernière mise à jour.
 
 ----------------
 
@@ -456,7 +456,7 @@ Néanmoins, il est beaucoup plus léger que la chain Bitcoin (~ 13 Go) donc c'es
 
 `ord wallet inscriptions`
 
-On pourra noter qu'il existe les commandes : `ord server` et 
+On pourra noter qu'il existe les commandes : `ord server` et `ord preview` servant à générer son propre explorer web loacl ordinals sur la base du site [ordinals.com](https://ordinals.com).
 
 ## III) Utilisation et dernières avancées
 
@@ -467,7 +467,7 @@ Ces outils online présentent aussi parfois certains avantages, comme l'optimisa
 
 Ils permettent donc une intégration simple et avancée des dernières fonctionnalités offertes par le protocole ordinals.
 
-Plongeons alors dans ces outils avant de nous attaquer aux protocoles construits sur Ordinals puis aux Cursed Inscriptions.
+Plongeons alors dans ces outils avant de nous attaquer aux protocoles construits sur Ordinals puis aux Cursed Inscriptions et autres joyeusetés techniques actuelles.
 
 ### 1) Outils en lignes
 Les outils en lignes apparaissent comme nécessaires pour le développement de l'écosystème et on va essayer de les traiter en profondeur. 
@@ -479,7 +479,7 @@ Les outils en lignes apparaissent comme nécessaires pour le développement de l
 
 ####	a) Wallets
 
-[Bitcoin Ordinals Wallets Have Arrived: A Guide For Beginners and Experts](https://nftnow.com/news/bitcoin-ordinals-wallets-have-arrived/)
+Un article sur les wallet ordinals qualitatif : [Bitcoin Ordinals Wallets Have Arrived: A Guide For Beginners and Experts](https://nftnow.com/news/bitcoin-ordinals-wallets-have-arrived/).
 
 - [Unisat](https://unisat.io/)
 

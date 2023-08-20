@@ -14,6 +14,7 @@
 
 8. [Explorer Ord](https://ord.io)
 
+9. [magicoss/msigner: an open source Bitcoin Ordinals Partially Signed Bitcoin Transactions (PSBT) signer library. It supports atomic swap of the inscription and provides a simple and secure way to structure Bitcoin transactions for marketplaces.](https://github.com/magicoss/msigner)
 
 -----------------------------------------------------
 | MARKETPLACE     |       URL                         |

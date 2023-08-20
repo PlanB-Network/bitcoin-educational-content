@@ -1,5 +1,5 @@
 ---
-name: Fondazione
+name: Foundation
 
 description: Come configurare il tuo dispositivo Fondazione
 ---

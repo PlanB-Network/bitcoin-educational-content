@@ -4,7 +4,7 @@ name: Trezor Modell One
 description: Einrichtung und Verwendung des Trezor Modell One
 ---
 
-![cover](assets/cover.JPEG)
+![cover](assets/cover.jpeg)
 
 # Trezor Modell ONE
 

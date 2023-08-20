@@ -6,7 +6,7 @@ description: How to set up your JADE device
 
 # Blockstream jade
 
-![image](assets/0.JPEG)
+![image](assets/cover.jpeg)
 
 ## Tutorial video
 

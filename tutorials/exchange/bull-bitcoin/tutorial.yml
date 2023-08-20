@@ -1,4 +1,4 @@
-Builder: Bull Bitcoin
+builder: Bull Bitcoin
 
 tags:
   - bitcoin-only

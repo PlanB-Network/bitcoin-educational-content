@@ -1,0 +1,11 @@
+name: Trezor
+links:
+  website: https://trezor.io/
+  twitter: https://twitter.com/Trezor
+  github: https://github.com/trezor
+
+tags:
+  - wallet
+  - open-source
+
+category: wallet

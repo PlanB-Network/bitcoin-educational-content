@@ -4,7 +4,7 @@ name: Liana
 description: How to set up your Liana Wallet
 ---
 
-![cover](assets/cover.JPEG)
+![cover](assets/cover.jpeg)
 
 # Liana - Solution d'héritage
 

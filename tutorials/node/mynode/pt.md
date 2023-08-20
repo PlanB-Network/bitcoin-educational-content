@@ -1,5 +1,5 @@
 ---
-name: Meu Node
+name: My Node
 description: Configure seu MyNode Bitcoin
 ---
 

@@ -6,29 +6,34 @@
 
 4. [ordinals .sats names](https://dune.com/domo/ordinals-sats-names)
 
-
 5. [Inscriptions - Ordinal Theory Handbook](https://docs.ordinals.com/inscriptions.html) 
 
 6. [Bxdx.io](https://www.brc-20.io/)
 
+7. [Bitcoin Ordinals Wallets Have Arrived: A Guide For Beginners and Experts](https://nftnow.com/news/bitcoin-ordinals-wallets-have-arrived/) 
 
-7. 
-
-8.
-
-9.
-
-10.
-
-11. 
+8. 
 
 
+-----------------------------------------------------
+| MARKETPLACE     |       URL                         |
+-----------------------------------------------------
+| Unisat          | https://unisat.io/market          |
+-----------------------------------------------------
+| OrdinalsWallet | https://ordinalswallet.com/collect |
+-----------------------------------------------------
+| Magic Eden     | https://magiceden.io/ordinals/     |
+-----------------------------------------------------
+| Bitx           | https://app.bxdx.io/               |
+-----------------------------------------------------
+| idclub         | https://idclub.io/market/          |
+-----------------------------------------------------
 
 
 ----------------------- --------- ----------------------------
 Groupes de discussions | Canal 	 |  Lien                      |
 ----------------------- --------- ----------------------------
->TheOrd 	      | Discord | https://discord.gg/wtMmkxvq |
+\>TheOrd 	      | Discord | https://discord.gg/wtMmkxvq |
 ----------------------  --------  ----------------------------
 The Ordicord	      | Discord | https://discord.gg/6yzuJWvG |
 ---------------------- --------- -----------------------------

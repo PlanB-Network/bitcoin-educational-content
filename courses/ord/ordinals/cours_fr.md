@@ -9,7 +9,7 @@ Comprendre ce nouveau protocole et surtout les derniers développements basés s
 
 Vous trouverez ci-dessous le sommaire, suivi d'un plan détaillé et des parties qui doivent être creusées.
 
-Je suis disponible pour toutes questions, critiques ou retour de votre part sur cette pull request ou par mail : galoisfield2718@gmail.com.
+Je suis disponible pour toutes questions, critiques ou retour de votre part sur ce repo ou par mail : galoisfield2718@gmail.com.
 
 
 # Sommaire
@@ -299,8 +299,15 @@ def assign_ordinals(block):
 Casey a choisit de nommer les sats en les numérotants.
 
 Il a également ajouté des "steps" en plus du halving avec les cycles et autres pour créer de la rareté sur certains sats.
+Il a créé un classement de sats rares que l'on peut voir détaillé [ici](https://docs.ordinals.com/overview.html).
 
-Il a créé un classement de sats rares. 
+Les raretés initiales étant : 
+- `common`: Tous les sats qui ne sont pas les premiers de leur bloc.
+- `uncommon`: Le premier sat de chaque bloc.
+- `rare`: Le premier sat de chaque ajustement de difficulté.
+- `epic`: Le premier sat de chaque halving.
+- `legendary`: Le premier sat de chaque cycle.
+- `mythic`: Le premier sat du genesis bloc (Unique !).
 
 Néanmoins de nouvelles raretés sont apparus notamment chez [sating](https://sating.io) : 
 ![satsRarity](./assets/sats_rarity.png)
@@ -310,7 +317,8 @@ Néanmoins de nouvelles raretés sont apparus notamment chez [sating](https://sa
 Pour une recherche à la main dans Sparrow Wallet on a [Franken | How to find and extract rare sats from your Bitcoin wallet!](https://www.youtube.com/watch?v=4Gro5AmFdfY).
 Outils online le plus facile. On donne son adresse et ils l'analysent : [Sat scanner | sating](https://sating.io/).
 
-> Il est possible de le faire par ligne de commande mais je ne sais toujours pas comment.
+Il est possible de le faire par ligne de commande via la [documentation officielle | 7.3 Sat Hunting](https://docs.ordinals.com/guides/sat-hunting.html). Je ne l'ai pas encore testé. 
+
 
 ### 2) L'inscription
 

@@ -4,7 +4,7 @@ name: Nerdminer
 description: Comece a minerar bitcoin com quase 0% de chance de ganhar
 ---
 
-![cover](assets/cover.JPEG)
+![cover](assets/cover.jpeg)
 
 > Configurando o seu NerdMiner_v2
 

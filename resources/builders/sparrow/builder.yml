@@ -1,0 +1,12 @@
+name: Sparrow
+links:
+  website: https://sparrowwallet.com/
+  twitter: https://twitter.com/SparrowWallet
+  github: https://github.com/sparrowwallet/sparrow
+
+tags:
+  - wallet
+  - open-source
+  - bitcoin-only
+
+category: wallet

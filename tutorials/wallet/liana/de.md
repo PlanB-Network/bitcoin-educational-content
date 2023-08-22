@@ -4,7 +4,7 @@ name: Liana
 description: Anleitung zur Einrichtung Ihrer Liana Wallet
 ---
 
-![cover](assets/cover.JPEG)
+![cover](assets/cover.jpeg)
 
 # Liana - Lösung für Erbschaft
 

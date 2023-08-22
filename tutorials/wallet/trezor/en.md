@@ -4,7 +4,7 @@ name: Trezor model One
 description: Set up and use of Trezor model One
 ---
 
-![cover](assets/cover.JPEG)
+![cover](assets/cover.jpeg)
 
 # Trezor model ONE
 

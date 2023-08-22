@@ -4,7 +4,7 @@ name: Liana
 description: Come configurare il tuo portafoglio Liana
 ---
 
-![cover](assets/cover.JPEG)
+![cover](assets/cover.jpeg)
 
 # Liana - Soluzione per l'eredità
 

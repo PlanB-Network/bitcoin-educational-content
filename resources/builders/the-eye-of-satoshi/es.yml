@@ -1,0 +1,4 @@
+description: |
+  El Ojo de Satoshi es una torre de vigilancia Lightning compatible con BOLT13, escrita en Rust.
+contributors:
+  - rabbit-hole

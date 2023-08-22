@@ -1,0 +1,4 @@
+description: |
+  Das Auge von Satoshi ist ein Lightning-Wachturm, der mit BOLT13 kompatibel ist und in Rust geschrieben wurde.
+contributors:
+  - rabbit-hole

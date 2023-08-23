@@ -77,8 +77,6 @@ By keeping these recommendations in mind for browser choices, cookie management,
 
 ### Private browsing, TOR, and other alternatives for safer and anonymous browsing
 
-# Private Browsing
-
 Private browsing, although it does not hide your browsing from your internet service provider, allows you to leave no local traces on your computer. Cookies are automatically deleted at the end of each session, allowing you to accept all cookies without being tracked. Private browsing can be useful when purchasing online services, as websites track our search habits and adjust prices accordingly. However, it is important to note that private browsing is recommended for temporary and specific sessions, not for general internet browsing.
 
 A more advanced alternative is the TOR (The Onion Router) network, which offers anonymity by masking the user's IP address and allowing access to the Darknet. TOR Browser is a browser specifically designed to use the TOR network. It allows you to visit both conventional websites and .onion websites, which are typically operated by individuals and may be illegal in nature.
@@ -134,7 +132,7 @@ Windows Defender, the built-in antivirus in Windows, is a safe and effective sol
 
 Finally, here are some good practices for the security of your computer and data. It is important to choose an effective and user-friendly antivirus. It is also crucial to adopt good practices on your computer, such as not inserting unknown or found USB keys in suspicious places. These USB keys can contain malicious programs that can automatically launch upon insertion. Checking the USB key will be useless once it has been inserted. Some companies have been victims of hacking due to USB keys carelessly left in accessible areas, such as a parking lot.
 
-# Treat your computer like you would treat your home: stay vigilant, perform regular updates, delete unnecessary files, and use a strong password for security. It is crucial to encrypt data on laptops and smartphones to prevent theft or data loss. BitLocker for Windows, Lux for Linux, and the built-in option for Mac are solutions for data encryption. It is recommended to activate data encryption without hesitation and to write down the password on a paper to keep it safe.
+Treat your computer like you would treat your home: stay vigilant, perform regular updates, delete unnecessary files, and use a strong password for security. It is crucial to encrypt data on laptops and smartphones to prevent theft or data loss. BitLocker for Windows, Lux for Linux, and the built-in option for Mac are solutions for data encryption. It is recommended to activate data encryption without hesitation and to write down the password on a paper to keep it safe.
 
 In conclusion, it is essential to choose an operating system that suits your needs and regularly update it, as well as the installed applications. It is also important to use an effective and user-friendly antivirus and adopt good practices for the security of your computer and data.
 
@@ -164,7 +162,7 @@ If you detect a virus on your computer, disconnect it from the internet, perform
 
 Regularly back up your important data to an external storage or secure online storage service. This way, in case of a cyber attack or hardware failure, you can recover your data without losing crucial information.
 
-# Paying hackers, a bad idea: It is generally not recommended to pay hackers in case of ransomware or other types of attacks. Paying the ransom does not guarantee the recovery of your data and can encourage cybercriminals to continue their malicious activities. Instead, prioritize prevention and regular backup of your data to protect yourself.
+Paying hackers, a bad idea: It is generally not recommended to pay hackers in case of ransomware or other types of attacks. Paying the ransom does not guarantee the recovery of your data and can encourage cybercriminals to continue their malicious activities. Instead, prioritize prevention and regular backup of your data to protect yourself.
 
 # Managing email
 
@@ -215,7 +213,7 @@ Randomly generated passwords offer a higher level of security, although they may
 
 ![2FA](https://youtu.be/863n4N1XNjk)
 
-# Tutorial: 2FA and YubiKey Solutions
+## Tutorial: 2FA and YubiKey Solutions
 
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 

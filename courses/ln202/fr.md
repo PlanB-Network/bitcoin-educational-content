@@ -98,7 +98,7 @@ Umbrel propose également un App Store regroupant des Explorers, de multiples au
 
 Pour obtenir plus d'informations et de support, n'hésitez pas à consulter leur site internet, le chat Telegram, le Discord, le Github et le Reddit. En résumé, grâce à Umbrel, vous avez la possibilité de reprendre le contrôle de votre souveraineté financière grâce à Bitcoin, et devenir votre propre banque tout en contribuant au réseau. Nous vous encourageons vivement à approfondir et à apprendre cette technologie pour l'intégrer dans votre magasin, e-commerce, vie personnelle ou tout simplement par curiosité.
 
-# Analyse de la MemPool
+# Analyse de la Mempool
 
 ![mempool](https://youtu.be/0xS859IoMh8)
 
@@ -109,12 +109,6 @@ La blockchain Bitcoin est essentiellement une base de données qui incorpore des
 En plus de la difficulté de minage, le coût actuel d'une transaction Bitcoin est visible sur le tableau de bord, ainsi que la blockchain avec sa chaîne de blocs. Les frais pour une transaction Bitcoin sont actuellement de 40 sats/vbytes. Les frais de transaction sur Bitcoin sont basés sur la complexité de la transaction, qui est considérée proportionnelle au poids virtuel (le vbytes) de la transaction. Les vbytes, ou bytes virtuels, sont une unité de mesure utilisée dans Bitcoin pour évaluer la taille d'une transaction en tenant compte de la technologie SegWit. Ainsi, l'utilisation des vbytes permet une mesure plus précise de l'efficacité de l'espace dans un bloc.
 
 Chaque utilisateur est libre de déterminer les frais associés à sa transaction, qui ont tendance à refléter l'urgence de la validation de la transaction : plus l'utilisateur souhaite que sa transaction soit validée rapidement, plus les frais augmentent. Ainsi, comme le volume d'un bloc est limité à 4 Mo (bien que la taille moyenne des blocs soit d'environ 1,5 Mo), lorsque la demande augmente, les frais pour augmenter la probabilité que notre transaction soit incluse dans le prochain bloc peuvent augmenter de manière significative.
-
-Bitcoin comporte plusieurs couches : le Mainnet (la chaîne principale), le Testnet et le Signet (des chaînes dédiées à l'expérimentation et à la validation de nouvelles fonctionnalités), le Lightning Network (un réseau de paiement) et Liquid (une sidechain où les blocs sont validés toutes les minutes). Chacune de ces couches a sa propre utilité et ses cas d'usage spécifiques.
-
-Les blocs qui contiennent les transactions sont construits par les pools de minage, et leur niveau de remplissage varie en fonction de la demande et du temps écoulé depuis le minage du dernier bloc. Des couches supérieures, comme le Lightning Network, permettent des transactions plus rapides et moins coûteuses que sur la blockchain principale, mais elles reposent toujours sur Bitcoin pour leur modèle de sécurité.
-
-En conclusion, les explorateurs de blocs permettent de suivre les transactions en temps réel ou de les retracer dans le passé. Ces transactions peuvent présenter des niveaux de complexité variables. Mempool offre une solution efficace pour visualiser la blockchain, suivre les transactions et analyser les frais ainsi que la congestion du réseau.
 
 # Block Explorer & Analyse Stats
 

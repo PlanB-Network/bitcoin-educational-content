@@ -185,7 +185,7 @@ In a free market economy, there would be no need for fractional reserves for ban
 
 However, in this system, the concept of risk-free savings would no longer exist, as there would be no guaranteed return. To beat inflation, those who would not normally take risks would have to invest, which may not be synchronized with economic cycles. Savings would serve to protect against future uncertainty, while investment would involve operational and cyclical risk. In short, such an economy would value financial autonomy, avoiding dependence on the performance of large companies or the stock market to live decently through the money accumulated through work and savings.
 
-## The Austrian Methodology
+# The Austrian Methodology
 
 ![the Austrian methodology](https://youtu.be/hMyYGwU76dI)
 The Austrian school of economics distinguishes itself from other schools by its axiomatic-deductive methodology, which differs from the positivist approach often used in social sciences. The positivist approach is based on laws established from empirical data, adopting a method similar to that of physical sciences. It formulates hypotheses from observations, which are then confirmed or refuted by temporary experiments. The scientific method consists of retaining the hypothesis that best explains the data and continuing to explore it until a more precise hypothesis is found.

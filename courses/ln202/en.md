@@ -103,14 +103,6 @@ In addition to mining difficulty, the current cost of a Bitcoin transaction is v
 
 Each user is free to determine the fees associated with their transaction, which tend to reflect the urgency of transaction validation: the more the user wants their transaction to be validated quickly, the higher the fees. Thus, as the volume of a block is limited to 4 MB (although the average block size is about 1.5 MB), when demand increases, fees to increase the probability that our transaction will be included in the next block can increase significantly.
 
-# Bitcoin Layers
-
-Bitcoin has several layers: the Mainnet (the main chain), the Testnet and the Signet (dedicated chains for experimentation and validation of new features), the Lightning Network (a payment network), and Liquid (a sidechain where blocks are validated every minute). Each of these layers has its own usefulness and specific use cases.
-
-The blocks that contain transactions are built by mining pools, and their fill level varies depending on demand and time elapsed since the last block was mined. Upper layers, such as the Lightning Network, allow for faster and cheaper transactions than on the main blockchain, but they still rely on Bitcoin for their security model.
-
-In conclusion, block explorers allow for real-time tracking of transactions or retracing them in the past. These transactions can have varying levels of complexity. Mempool offers an effective solution for visualizing the blockchain, tracking transactions, and analyzing fees and network congestion.
-
 # Block Explorer & Analyze Stats
 
 ![block explorer and analyze stats](https://youtu.be/Qe9VaUhUS0E)

@@ -1,7 +1,7 @@
 ---
-name: Sparrow
+nombre: Sparrow
 
-description: Guía completa sobre Sparrow
+descripción: Guía completa sobre Sparrow
 ---
 
 ![cover](assets/cover.jpeg)
@@ -10,11 +10,11 @@ description: Guía completa sobre Sparrow
 
 ## Una serie de videos que cubren la Cartera de Bitcoin Sparrow. Guías para principiantes y usuarios más avanzados.
 
-> _Esta guía siguiente es de Cole, gracias por compartirla con nosotros. Publicación original: https://www.southernbitcoiner.com/sparrow-guides/_
+> _La siguiente guía pertenece a Cole, gracias por compartirla con nosotros. Publicación original: https://www.southernbitcoiner.com/sparrow-guides/_
 
 La cartera Sparrow es el estándar de oro para las carteras de Bitcoin. Es rica en funciones y se enfoca en la seguridad, privacidad y facilidad de uso. Todo lo que deseas de una cartera de Bitcoin, Sparrow puede hacerlo.
 
-Debido a que la cartera Sparrow está repleta de funciones, puede ser difícil de navegar para los usuarios más nuevos. Por eso he creado las guías de la cartera Sparrow.
+Debido a que la cartera Sparrow está repleta de funciones, puede ser difícil de navegar para los usuarios más nuevos. Por eso he creado guías para la cartera Sparrow.
 
 A continuación se muestran una serie de videos que te guiarán sobre cómo configurar la cartera Sparrow y cómo utilizar sus muchas funciones.
 

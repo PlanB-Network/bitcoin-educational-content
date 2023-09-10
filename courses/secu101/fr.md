@@ -9,11 +9,11 @@ objectives:
 
 # Un voyage vers la protection de vos données
 
-Il est important de comprendre que les mots de passe simples et réutilisés peuvent être facilement piratés par des hackers, qui peuvent exploiter vos informations personnelles à des fins malveillantes.
+Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, aucun prérequis en informatique n'est donc nécessaire. Notre objectif principal est de vous fournir les connaissances et les compétences nécessaires pour naviguer de manière plus sûre et plus privée dans le monde numérique.
 
-Pour éviter cela, nous allons vous montrer comment utiliser un gestionnaire de mots de passe sécurisé comme Bitwarden et migrer vos mots de passe depuis d’autres services de stockage. Nous allons aborder l’importance de la protection de vos données personnelles, notamment en utilisant des sauvegardes sur des disques durs externes et des pseudonymes pour masquer votre identité en ligne.
+Ceci va se traduire par la mise en place de plusieurs outils tels qu'une boîte mail sécurisée, un outil pour mieux gérer vos mots de passe et plusieurs logiciels pour sécuriser vos activités quotidiennes en ligne.
 
-Nous discuterons également de qui est le mieux placé pour protéger l’utilisateur : les entreprises, la régulation ou l’utilisateur lui-même
+Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou inattaquable, ceci est impossible. À la place, nous vous proposons quelques solutions simples et accessibles pour tous afin de commencer une transformation de vos habitudes en ligne et reprendre le contrôle de votre souveraineté numérique.
 
 Team contributeurs:
 

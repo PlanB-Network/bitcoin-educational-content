@@ -18,14 +18,14 @@ Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou in
 Team contributeurs:
 
 - Renaud Lifchitz; professeur
-- Thép Pantamis; Professeur
+- Théo Pantamis; Professeur
 - Muriel; Design
 - Rogzy Noury & Fabian; Production
 - Théo; Contribution
 
 +++
 
-# introduction: Sécurité 101 : Raffinement de votre Hygiène Numérique
+# Introduction: Sécurité 101 : Raffinement de votre Hygiène Numérique
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
 
@@ -45,25 +45,25 @@ Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou in
 
 Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, tutoriels ou autres formations sur la cybersécurité sont là pour vous. En attendant, voici un petit aperçu de notre programme lors de ces prochaines heures ensemble.
 
-## Section 1: Tous savoir sur la navigation en ligne
+## Section 1: Tout savoir sur la navigation en ligne
 
 - Chapitre 1 - Navigation en ligne
-- Chapitre 2 - Utilisé internet en sécurité
+- Chapitre 2 - Utiliser internet en sécurité
 
 Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et de ses implications en matière de sécurité. Nous explorerons ensuite les spécificités des navigateurs, notamment en ce qui concerne la gestion des cookies. Nous verrons également comment garantir une navigation plus sécurisée et anonyme, grâce à des outils tels que TOR. Par la suite, nous mettrons l'accent sur l'utilisation des VPN pour renforcer la protection de vos données. Enfin, nous terminerons par des recommandations concernant l'utilisation sécurisée des connexions WiFi.
 
 ## Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
 
 - Chapitre 3 - Utilisation de l’ordinateur
-- Chapitre 4 - Hack & gestion de back-up 
+- Chapitre 4 - Hack & gestion de back-up
 
 Dans cette section, nous aborderons trois domaines clés de la sécurité informatique. Premièrement, nous explorerons les différents systèmes d'exploitation : Mac, PC et Linux, en soulignant leurs spécificités et leurs points forts. Ensuite, nous nous pencherons sur les méthodes pour se protéger efficacement des tentatives de piratage et renforcer la sécurité de vos appareils. Enfin, nous mettrons l'accent sur l'importance de protéger et de sauvegarder régulièrement vos données pour prévenir toute perte ou ransomware.
 
-## Section 3: Mise en place des solutions. 
+## Section 3: Mise en place des solutions.
 
 - Chapitre 6 - Gestion de la boîte mail
 - Chapitre 7 - Gestionnaire de mots de passe
-- Chapitre 8 -Les 2 facteurs d’authentification
+- Chapitre 8 - Les 2 facteurs d’authentification
 
 Dans cette troisième section pratique, nous allons passer à la pratique avec la mise en place de vos solutions concrètes.
 
@@ -71,9 +71,9 @@ D'abord, nous verrons comment protéger votre boîte mail, essentielle pour vos 
 
 ## Section Bonus: Interview avec Pantamis et Renaud
 
-En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique.l'idée est d'en apprendre davantage auprès de ces professionnels expérimentés.
+En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. l'idée est d'en apprendre davantage auprès de ces professionnels expérimentés.
 
-Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement. 
+Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement.
 
 # 1. Navigation en ligne
 
@@ -83,12 +83,12 @@ Lors de la navigation sur internet, il est important d'éviter certaines erreurs
 
 ## Attention aux téléchargements de logiciels:
 
-Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques. 
-Exemple: Utiliser www.signal/download et non pas www.logicieltelechargement.fr/signal. 
+Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques.
+Exemple: Utiliser www.signal/download et non pas www.logicieltelechargement.fr/signal.
 
-Il est également conseillé de privilégier les logiciels open source car ils sont souvent plus sûrs et exempts de logiciels malveillants. Un logiciels "open-source" aka ouvert ou libre, est un logiciel dont le code est connue de tous et accessible par tous. On peut donc vérifier entre autre qu'il y ait pas d'acces caché pour voler vos donner personelle. 
+Il est également conseillé de privilégier les logiciels open source car ils sont souvent plus sûrs et exempts de logiciels malveillants. Un logiciel "open-source" aka ouvert ou libre, est un logiciel dont le code est connu de tous et accessible par tous. On peut donc vérifier entre autre qu'il y ait pas d'accès caché pour voler vos données personnelles.
 
-    _Bonus: les logiciels libres sont souvent grattuit! Cette université est 100% open source, vous pouvez donc vous aussi vérifier notre code via notre GitHub_
+    _Bonus: les logiciels libres sont souvent gratuit! Cette université est 100% open source, vous pouvez donc vous aussi vérifier notre code via notre GitHub_
 
 ## Gestion des cookies : Erreurs et bonnes pratiques
 
@@ -98,9 +98,9 @@ Note : Limitez également le nombre d'extensions installées sur votre navigateu
 
 ## Navigateurs web : choix, sécurité
 
-Il existe deux grandes familles de navigateurs : ceux basés sur Chrome et ceux basés sur Firefox. 
+Il existe deux grandes familles de navigateurs : ceux basés sur Chrome et ceux basés sur Firefox.
 
-Bien que les deux familles offrent un niveau de sécurité similaire, il est recommandé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Brave est particulièrement recommandé pour son bloqueur de publicités intégré. Il peut être nécessaire d'utiliser plusieurs navigateurs pour accéder à certains sites. 
+Bien que les deux familles offrent un niveau de sécurité similaire, il est recommandé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Brave est particulièrement recommandé pour son bloqueur de publicités intégré. Il peut être nécessaire d'utiliser plusieurs navigateurs pour accéder à certains sites.
 
 ### La navigation privée, TOR et autres alternatives pour une navigation plus sécurisée et anonyme
 
@@ -109,7 +109,6 @@ La navigation privée, bien qu'elle ne cache pas la navigation à votre fourniss
 Une alternative plus avancée est le réseau TOR (The Onion Router), qui offre l'anonymat en masquant l'adresse IP de l'utilisateur et en permettant l'accès au Darknet. TOR Browser est un navigateur spécialement conçu pour utiliser le réseau TOR. Il permet de visiter à la fois des sites web conventionnels et des sites web en .onion, qui sont généralement exploités par des individus et peuvent être de nature illégale.
 
 TOR est légal et est utilisé par des journalistes, des activistes de la liberté et d'autres personnes souhaitant échapper à la censure dans des pays autoritaires. Cependant, il est important de comprendre que TOR ne sécurise pas les sites visités ni l'ordinateur lui-même. De plus, l'utilisation de TOR peut ralentir la connexion Internet car les données passent par les ordinateurs de trois autres personnes avant d'atteindre leur destination. Il est également essentiel de noter que TOR n'est pas une solution infaillible pour garantir l'anonymat à 100% et ne doit pas être utilisé pour mener des activités illégales.
-
 
 ## BRAVE
 
@@ -121,17 +120,21 @@ TOR est légal et est utilisé par des journalistes, des activistes de la libert
 
 # les VPN
 
-La protection de votre connection internet est aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
+## démystifions les VPN
+
+La protection de votre connexion internet est aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
 
 Les VPN sont des outils qui chiffrent les données transmises sur internet, rendant ainsi la connexion plus sécurisée. Dans un contexte professionnel, les VPN permettent aux employés d'accéder à distance au réseau interne de l'entreprise de manière sécurisée. Les données échangées sont cryptées, rendant leur interception par des tiers beaucoup plus difficile. En plus de sécuriser l'accès à un réseau interne, l'utilisation d'un VPN peut permettre à un utilisateur de faire passer sa connexion internet par le réseau interne de l'entreprise, donnant l'impression que sa connexion provient de l'entreprise. Cela peut être particulièrement utile pour accéder à des services en ligne qui sont géographiquement restreints.
 
+## Les types de VPN
+
 Il existe deux types principaux de VPN : les VPN d'entreprise et les VPN grand public, comme NordVPN. Les VPN d'entreprise tendent à être plus coûteux et complexes, tandis que les VPN grand public sont généralement plus accessibles et faciles à utiliser. NordVPN, par exemple, permet aux utilisateurs de se connecter à internet en passant par un serveur situé dans un autre pays, ce qui peut permettre de contourner les restrictions géographiques.
 
-Cependant, l'utilisation d'un VPN grand public ne garantit pas une anonymisation complète. De nombreux fournisseurs de VPN conservent des informations sur leurs utilisateurs, ce qui peut potentiellement compromettre leur anonymat. Bien que les VPN puissent être utiles pour améliorer la sécurité en ligne, ils ne sont pas une solution universelle. Ils sont efficaces pour certaines utilisations spécifiques, comme l'accès à des services géographiquement limités ou l'amélioration de la sécurité en déplacement, mais ils ne garantissent pas une sécurité totale. Lors du choix d'un VPN, il est essentiel de privilégier la fiabilité et la technicité plutôt que la popularité. Les fournisseurs de VPN qui recueillent le moins d'informations personnelles sont généralement les plus sûrs. Des services comme iVPN et Mulvad ne recueillent pas d'informations personnelles et permettent même les paiements en Bitcoin pour une confidentialité accrue.
+Cependant, l'utilisation d'un VPN grand public ne garantit pas une anonymisation complète. De nombreux fournisseurs de VPN conservent des informations sur leurs utilisateurs, ce qui peut potentiellement compromettre leur anonymat. Bien que les VPN puissent être utiles pour améliorer la sécurité en ligne, ils ne sont pas une solution universelle. Ils sont efficaces pour certaines utilisations spécifiques, comme l'accès à des services géographiquement limités ou l'amélioration de la sécurité en déplacement, mais ils ne garantissent pas une sécurité totale. Lors du choix d'un VPN, il est essentiel de privilégier la fiabilité et la technicité plutôt que la popularité. Les fournisseurs de VPN qui recueillent le moins d'informations personnelles sont généralement les plus sûrs. Des services comme iVPN et Mullvad ne recueillent pas d'informations personnelles et permettent même les paiements en Bitcoin pour une confidentialité accrue.
 
 Enfin, un VPN peut également être utilisé pour bloquer les publicités en ligne, offrant ainsi une expérience de navigation plus agréable et sécurisée. Cependant, il est important de faire ses propres recherches pour trouver le VPN le plus adapté à ses besoins spécifiques. L'utilisation d'un VPN est recommandée pour renforcer la sécurité, même lorsqu'on navigue sur internet à domicile. Cela contribue à garantir un niveau de sécurité plus élevé pour les données échangées en ligne. Enfin, assurez-vous de vérifier les URL et le petit cadenas dans la barre d'adresse pour confirmer que vous êtes bien sur le site que vous pensez visiter.
 
-## HTTPS & les réseaux wifi publique
+## HTTPS & les réseaux wifi publics
 
 En matière de sécurité en ligne, il est essentiel de comprendre que la 4G est généralement plus sécurisée que le Wi-Fi public. Cependant, l'utilisation de la 4G peut rapidement épuiser votre forfait de données mobiles. Le protocole HTTPS est devenu la norme pour le chiffrement des données sur les sites web. Il assure que les données échangées entre l'utilisateur et le site web sont sécurisées. Il est donc crucial de vérifier que le site que vous visitez utilise bien le protocole HTTPS.
 
@@ -139,14 +142,13 @@ Dans l'Union européenne, la protection des données est réglementée par le R�
 
 En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en ligne, tant pour les entreprises que pour les utilisateurs individuels. De plus, la mise en pratique de bonnes habitudes de navigation peut contribuer à une meilleure hygiène numérique. Dans le prochain segment de ce cours, nous aborderons la sécurité de l'ordinateur, y compris les mises à jour, l'antivirus et la gestion des mots de passe.
 
-## Tutoriel : IVPN
+## Tutoriel: IVPN
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 # Utilisation de l’ordinateur
 
-![utlisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
-
+![utilisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
 
 La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique actuel. Aujourd'hui, nous allons aborder trois points clés :
 
@@ -154,38 +156,38 @@ La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique ac
 - les mises à jour et antivirus pour une sécurité optimale
 - les bonnes pratiques pour la sécurité de son ordinateur et de ses données.
 
-## le choix de l'ordinateur et du systeme opérationel
+## le choix de l'ordinateur et du système opérationnel
 
-Concernant le choix de l'ordinateur, il n'y a pas de différence significative de sécurité entre les anciens et les nouveaux ordinateurs. Cependant, des différences de sécurité existent entre les systèmes d'exploitation : Windows, Linux et Mac. 
+Concernant le choix de l'ordinateur, il n'y a pas de différence significative de sécurité entre les anciens et les nouveaux ordinateurs. Cependant, des différences de sécurité existent entre les systèmes d'exploitation : Windows, Linux et Mac.
 
 Concernant Windows, Il est recommandé de ne pas utiliser un compte administrateur au quotidien, mais plutôt de créer deux comptes distincts : un compte administrateur et un compte pour usage quotidien. Windows est souvent plus exposé aux logiciels malveillants du fait de son grand nombre d'utilisateurs et de la facilité à passer de l'utilisateur à l'administrateur. Par contre, les menaces sont moins nombreuses sous Linux et Mac.
 
 Le choix du système d'exploitation doit être effectué en fonction de vos besoins et de vos préférences. Les systèmes Linux ont considérablement évolué ces dernières années, devenant de plus en plus conviviaux. Ubuntu est une alternative intéressante pour les débutants, avec une interface graphique facile à utiliser. Il est possible de partitionner un ordinateur pour expérimenter avec Linux tout en conservant Windows, mais cela peut se révéler complexe. Il est souvent préférable d'avoir un ordinateur dédié, une machine virtuelle ou une clé USB pour tester Linux ou Ubuntu.
 
-##  Mise à jour des logiciels
+## Mise à jour des logiciels
 
-En ce qui concerne les mises à jour la régle est simple: **la mise à jour régulière du système d'exploitation et des applications est primordiale.**
+En ce qui concerne les mises à jour la règle est simple: **la mise à jour régulière du système d'exploitation et des applications est primordiale.**
 
 Sur Windows 10, les mises à jour sont quasi continues et il est crucial de ne pas les bloquer ou les retarder. Chaque année, environ 15 000 vulnérabilités sont identifiées, ce qui souligne l'importance de maintenir les logiciels à jour pour se prémunir contre les virus. En général, le support logiciel se termine entre 3 et 5 ans après sa sortie, il est donc nécessaire de passer à la version supérieure pour continuer à bénéficier de la sécurité.
 
 La règle s'applique à la quasi-totalité des logiciels. En effet, les mises à jour n'ont pas pour but de rendre obsolète ou lent votre machine, mais bien de la protéger des nouvelles menaces. Certaines mises à jour sont d'ailleurs considérées comme majeures et sans elles, votre ordinateur encourt de sérieux risques d'exploitation.
 
-Pour vous donner un exemple concret d'erreur : un logiciel craqué qui ne peut pas être mis à jour représente bien une double menace potentielle : l'arrivée du virus lors de son téléchargement illégal sur un site suspicieux et une utilisation non sécurisée face aux nouvelles formes d'attaque.
+Pour vous donner un exemple concret d'erreur : un logiciel craqué qui ne peut pas être mis à jour représente bien une double menace potentielle. L'arrivée du virus lors de son téléchargement illégal sur un site suspicieux et une utilisation non sécurisée face aux nouvelles formes d'attaque.
 
 ## Anti-virus
 
-- Vous faut il un anti-virus ? OUI 
-- Devez vous payer ? ca depend ! 
+- Vous faut il un anti-virus ? OUI
+- Devez vous payer ? ca depend !
 
-Le choix et la mise en place d'un anti virus est important. Windows Defender, l'antivirus intégré à Windows, est une solution sûre et efficace. Pour une solution gratuite il est extrememnt bon et bien meiux que de nombreuse solution gratuite trouvable en ligne. En effet, Il convient de faire preuve de prudence avec les antivirus téléchargés sur Internet, qui peuvent être malveillants ou obsolètes. 
+Le choix et la mise en place d'un anti virus est important. Windows Defender, l'antivirus intégré à Windows, est une solution sûre et efficace. Pour une solution gratuite il est extrêmement bon et bien mieux que de nombreuses solution gratuite trouvable en ligne. En effet, Il convient de faire preuve de prudence avec les antivirus téléchargés sur Internet, qui peuvent être malveillants ou obsolètes.
 
-Pour ceux qui souhaitent investir dans un antivirus payant, il est recommandé de choisir un antivirus qui analyse intelligemment les menaces inconnues et émergentes, comme Kaspersky. Les mises à jour de l'antivirus sont essentielles pour se protéger contre les nouvelles menaces. 
+Pour ceux qui souhaitent investir dans un antivirus payant, il est recommandé de choisir un antivirus qui analyse intelligemment les menaces inconnues et émergentes, comme Kaspersky. Les mises à jour de l'antivirus sont essentielles pour se protéger contre les nouvelles menaces.
 
-Note: Linux et Mac, grâce à leur système de séparation des droits des utilisateurs, n'ont souvent pas besoin d'antivirus. 
+Note: Linux et Mac, grâce à leur système de séparation des droits des utilisateurs, n'ont souvent pas besoin d'antivirus.
 
 Pour finir, voici quelques bonnes pratiques pour la sécurité de votre ordinateur et de vos données. Il est important de choisir un antivirus efficace et agréable à utiliser. Il est également crucial d'adopter de bonnes pratiques sur son ordinateur, comme ne pas insérer de clés USB inconnues ou trouvées à des endroits suspects. Ces clés USB peuvent contenir des programmes malveillants qui peuvent se lancer automatiquement dès leur insertion. Le contrôle de la clé USB ne servira à rien une fois qu'elle aura été insérée. Certaines entreprises ont été victimes de piratage en raison de clés USB laissées négligemment dans des zones accessibles, comme un parking.
 
-Traitez votre ordinateur comme vous le feriez pour votre maison : restez vigilant, effectuez des mises à jour régulièrement, supprimez les fichiers inutiles et utilisez un mot de passe solide pour la sécurité. Il est crucial de chiffrer les données sur les ordinateurs portables et les smartphones pour prévenir tout vol ou perte de données. BitLocker pour Windows, Lux pour Linux et l'option intégrée pour Mac sont des solutions pour le chiffrement des données. Il est recommandé d'activer sans hésitation le chiffrement des données et de noter le mot de passe sur un papier à conserver en lieu sûr.
+Traitez votre ordinateur comme vous le feriez pour votre maison : restez vigilant, effectuez des mises à jour régulièrement, supprimez les fichiers inutiles et utilisez un mot de passe solide pour la sécurité. Il est crucial de chiffrer les données sur les ordinateurs portables et les smartphones pour prévenir tout vol ou perte de données. BitLocker pour Windows, LUKS pour Linux et l'option intégrée pour Mac sont des solutions pour le chiffrement des données. Il est recommandé d'activer sans hésitation le chiffrement des données et de noter le mot de passe sur un papier à conserver en lieu sûr.
 
 En conclusion, il est primordial d'opter pour un système d'exploitation adapté à vos besoins et de le mettre à jour régulièrement, ainsi que les applications qui y sont installées. Il est aussi essentiel d'utiliser un antivirus efficace et agréable à l'usage, et d'adopter de bonnes pratiques pour la sécurité de votre ordinateur et de vos données.
 
@@ -205,14 +207,14 @@ En règle générale, les virus arrivent parce que vous avez autorisé votre ord
 
 ### Phishing, vigilance face aux mails frauduleux :
 
-Attention ! les mails sont le 1er vecteur d'attaque voici quelque conseil: 
+Attention ! les mails sont le 1er vecteur d'attaque voici quelques conseils:
 
-- Restez attentif aux tentatives de phishing visant à soutirer des informations sensibles telles que vos identifiants et mots de passe. Évitez de cliquer sur les liens suspects et de partager vos informations personnelles sans vérifier la légitimité de l'expéditeur. 
+- Restez attentif aux tentatives de phishing visant à soutirer des informations sensibles telles que vos identifiants et mots de passe. Évitez de cliquer sur les liens suspects et de partager vos informations personnelles sans vérifier la légitimité de l'expéditeur.
 
 - Prudence avec les pièces jointes et images dans les mails :
-Les pièces jointes et images des mails peuvent contenir des logiciels malveillants. Ne téléchargez et n'ouvrez pas les pièces jointes provenant d'expéditeurs inconnus ou suspects, et assurez-vous que votre antivirus est à jour.
+  Les pièces jointes et images des mails peuvent contenir des logiciels malveillants. Ne téléchargez et n'ouvrez pas les pièces jointes provenant d'expéditeurs inconnus ou suspects, et assurez-vous que votre antivirus est à jour.
 
-La règle d'or ici est de bien vérifier le nom complet de l'expéditeur ainsi que l'origine du mail. Dans le doute, on supprime!
+La règle d'or ici est de bien vérifier le nom complet de l'expéditeur ainsi que l'origine du mail. Dans le doute, on supprime !
 
 ### Ransomware et types de cyberattaques :
 
@@ -226,7 +228,7 @@ Solution simple:
 
 - Créer un backup "cloud" via ProtonMail Drive, Sync ou même Google Drive. Vous n'avez qu'à upload vos données sensibles dans cet hébergeur en ligne. Attention néanmoins ; vos données sont donc potentiellement sur Internet et détenues par un tiers de confiance.
 
-### Faut il payer les hacker ? 
+### Faut il payer les hackers ?
 
 NON, Il est généralement déconseillé de payer les hackers en cas de ransomware ou d'autres types d'attaques. Payer la rançon ne garantit pas la récupération de vos données et peut encourager les cybercriminels à poursuivre leurs activités malveillantes. Privilégiez plutôt la prévention et la sauvegarde régulière de vos données pour vous protéger.
 
@@ -237,13 +239,14 @@ Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, eff
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
 
 Nous entamons désormais la section 2 du cours. Dans cette section, nous aborderons trois sujets essentiels pour assurer la sécurité des accès en ligne : la gestion des mails, l'utilisation d'un gestionnaire de mots de passe et l'authentification à deux facteurs (2FA).
-## Mise en place d'un nouvelle boite mail !
+
+## Mise en place d'une nouvelle boite mail !
 
 La boîte mail est le point central de votre activité en ligne : si elle est compromise, un pirate peut l'utiliser pour recréer tous vos mots de passe via la fonction "mot de passe oublié" et ainsi avoir accès à de nombreux autres sites. C'est pourquoi vous devez bien la sécuriser.
 
 Une boîte mail doit donc être créée avec un mot de passe unique et fort (détail dans le chapitre 7) et idéalement avec un système d'authentification à deux facteurs (détail chapitre 8).
 
-Bien que nous ayons tous déjà une boîte mail, il est important de considérer la création d'une nouvelle, plus moderne, pour repartir sur de bonnes bases. 
+Bien que nous ayons tous déjà une boîte mail, il est important de considérer la création d'une nouvelle, plus moderne, pour repartir sur de bonnes bases.
 
 ### Choix du fournisseur de messagerie et gestion des adresses mail
 
@@ -253,7 +256,7 @@ Lors du choix d'un fournisseur de messagerie et de la création d'un mot de pass
 
 Il est important de prendre en considération que les anciens fournisseurs de messagerie tels que La Poste, Arobase, Wig, Hotmail, sont toujours utilisés, mais leurs pratiques de sécurité peuvent être moins bonnes que celles de Gmail. Par conséquent, il est recommandé d'avoir deux adresses mail distinctes, l'une pour les communications générales et l'autre pour la récupération de compte, cette dernière devant être mieux sécurisée. Il est préférable d'éviter de mélanger l'adresse mail avec son opérateur téléphonique ou fournisseur d'accès internet, car cela peut constituer un vecteur d'attaque.
 
-### dois-je changer de boite mail ? 
+### dois-je changer de boite mail ?
 
 Il est conseillé d'utiliser le site Have I Been Pwned (Avez-vous été piraté) - https://haveibeenpwned.com/ - pour vérifier si notre adresse mail a été compromise et pour être avertis des futures fuites de données. Une base de données piratée peut être exploitée par des pirates pour envoyer des mails de phishing ou réutiliser des mots de passe compromis.
 
@@ -267,7 +270,7 @@ Bonus Bitcoin : Il peut être conseillé de créer une adresse mail spécialemen
 
 # Gestionnaire de mots de passe
 
-![gestionaire de mots de passe](https://youtu.be/HzLuZ6noePY)
+![gestionnaire de mots de passe](https://youtu.be/HzLuZ6noePY)
 
 ## Qu'est-ce qu'un gestionnaire de mots de passe ?
 
@@ -291,7 +294,7 @@ Avec un gestionnaire de mots de passe, vous n'avez plus à vous soucier d'oublie
 
 (Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
 
-## Qu'est ce qu'un bon mot de passe: 
+## Qu'est ce qu'un bon mot de passe:
 
 Un bon mot de passe est généralement :
 
@@ -305,7 +308,6 @@ Pour garantir la sécurité de votre compte, il est crucial de créer des mots d
 Pour créer un mot de passe fort, il est recommandé d'utiliser un grand nombre de caractères aléatoires, sans utiliser de mots ou de motifs prévisibles. Il est également essentiel d'inclure des chiffres et des caractères spéciaux. Cependant, il convient de noter que certains sites peuvent restreindre l'utilisation de certains caractères spéciaux. Les mots de passe qui ne sont pas générés de manière aléatoire sont faciles à deviner. Les variantes ou les ajouts aux mots de passe ne sont pas sécurisés. Les sites web ne peuvent pas garantir la sécurité des mots de passe choisis par les utilisateurs.
 
 Les mots de passe générés de manière aléatoire offrent un niveau de sécurité supérieur, bien qu'ils puissent être plus difficiles à retenir. Les gestionnaires de mots de passe peuvent générer des mots de passe aléatoires plus sécurisés. En utilisant un gestionnaire de mots de passe, vous n'avez pas besoin de mémoriser tous vos mots de passe. Il est important de remplacer progressivement vos anciens mots de passe par ceux générés par le gestionnaire, car ils sont plus forts et plus longs. Assurez-vous que le mot de passe maître de votre gestionnaire de mots de passe est également fort et sécurisé.
-
 
 ## Tutoriel : création d’un mot de passe maître
 
@@ -322,7 +324,8 @@ Les mots de passe générés de manière aléatoire offrent un niveau de sécuri
 # Les 2 facteurs d’authentification
 
 ![les 2FA](https://youtu.be/863n4N1XNjk)
-## Pourquoi mettre en place le 2FA 
+
+## Pourquoi mettre en place le 2FA
 
 L'authentification à deux facteurs (2FA) est une couche de sécurité supplémentaire utilisée pour s'assurer que les personnes qui tentent d'accéder à un compte en ligne sont bien celles qu'elles prétendent être. Au lieu de se contenter de saisir un nom d'utilisateur et un mot de passe, la 2FA requiert une seconde forme de vérification.
 
@@ -334,15 +337,15 @@ Cette seconde étape peut être :
 
 Avec la 2FA, même si un pirate obtient votre mot de passe, il ne pourra pas accéder à votre compte sans ce deuxième facteur de vérification. Cela rend la 2FA essentielle pour protéger vos comptes en ligne contre les accès non autorisés.
 
-## Quelle option choisir ? 
+## Quelle option choisir ?
 
-Les différentes options pour l'authentification forte offrent des niveaux de sécurité variables. 
+Les différentes options pour l'authentification forte offrent des niveaux de sécurité variables.
 
-- Les SMS ne sont pas considérés comme la meilleure option car ils ne fournissent qu'une preuve de possession d'un numéro de téléphone. 
-- Le 2FA (authentification à deux facteurs) est plus sécurisé car il utilise plusieurs types de preuves, tels que la connaissance, la possession et l'identification. Les codes one-time passwords (HOTP et TOTP) sont plus sûrs que les SMS car ils nécessitent un calcul cryptographique et sont stockés localement plutôt que dans la mémoire. 
+- Les SMS ne sont pas considérés comme la meilleure option car ils ne fournissent qu'une preuve de possession d'un numéro de téléphone.
+- Le 2FA (authentification à deux facteurs) est plus sécurisé car il utilise plusieurs types de preuves, tels que la connaissance, la possession et l'identification. Les codes one-time passwords (HOTP et TOTP) sont plus sûrs que les SMS car ils nécessitent un calcul cryptographique et sont stockés localement plutôt que dans la mémoire.
 - Les jetons matériels, tels que les clés USB ou les cartes à puce, offrent une sécurité optimale en générant une clé privée unique pour chaque site et en vérifiant l'URL avant d'autoriser la connexion.
 
-Pour une sécurité optimale avec l'authentification forte, il est recommandé d'utiliser une adresse mail sécurisée, un gestionnaire de mots de passe sécurisé et d'adopter un 2FA en utilisant des UBKey. Il est également conseillé d'acheter deux UBKey pour prévoir la perte ou le vol, par exemple conserver un exemplaire de sauvegarde à la fois chez soi et sur soi. 
+Pour une sécurité optimale avec l'authentification forte, il est recommandé d'utiliser une adresse mail sécurisée, un gestionnaire de mots de passe sécurisé et d'adopter un 2FA en utilisant des YubiKey. Il est également conseillé d'acheter deux YubiKey pour prévoir la perte ou le vol, par exemple conserver un exemplaire de sauvegarde à la fois chez soi et sur soi.
 
 La biométrie peut être utilisée comme un substitut, mais elle est moins sécurisée que la combinaison de la connaissance et de la possession. Les données biométriques doivent rester sur l'appareil d'authentification et ne pas être divulguées en ligne. Il est important de prendre en compte le modèle de menace associé aux différents moyens d'authentification et d'adapter sa pratique en conséquence.
 
@@ -358,7 +361,6 @@ Vous l'avez compris, la mise en place d'une bonne hygiène numérique n'est pas 
 Continuez à apprendre et à mettre en place petit à petit les bonnes pratiques !
 
 Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter à votre parcours d'apprentissage !
-
 
 ## Tutoriel : des solutions 2FA et Yubikey
 

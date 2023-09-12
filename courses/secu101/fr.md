@@ -118,15 +118,15 @@ TOR est légal et est utilisé par des journalistes, des activistes de la libert
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
 
-# les VPN
+## les VPN
 
-## démystifions les VPN
+### démystifions les VPN
 
 La protection de votre connexion internet est aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
 
 Les VPN sont des outils qui chiffrent les données transmises sur internet, rendant ainsi la connexion plus sécurisée. Dans un contexte professionnel, les VPN permettent aux employés d'accéder à distance au réseau interne de l'entreprise de manière sécurisée. Les données échangées sont cryptées, rendant leur interception par des tiers beaucoup plus difficile. En plus de sécuriser l'accès à un réseau interne, l'utilisation d'un VPN peut permettre à un utilisateur de faire passer sa connexion internet par le réseau interne de l'entreprise, donnant l'impression que sa connexion provient de l'entreprise. Cela peut être particulièrement utile pour accéder à des services en ligne qui sont géographiquement restreints.
 
-## Les types de VPN
+### Les types de VPN
 
 Il existe deux types principaux de VPN : les VPN d'entreprise et les VPN grand public, comme NordVPN. Les VPN d'entreprise tendent à être plus coûteux et complexes, tandis que les VPN grand public sont généralement plus accessibles et faciles à utiliser. NordVPN, par exemple, permet aux utilisateurs de se connecter à internet en passant par un serveur situé dans un autre pays, ce qui peut permettre de contourner les restrictions géographiques.
 
@@ -134,7 +134,7 @@ Cependant, l'utilisation d'un VPN grand public ne garantit pas une anonymisation
 
 Enfin, un VPN peut également être utilisé pour bloquer les publicités en ligne, offrant ainsi une expérience de navigation plus agréable et sécurisée. Cependant, il est important de faire ses propres recherches pour trouver le VPN le plus adapté à ses besoins spécifiques. L'utilisation d'un VPN est recommandée pour renforcer la sécurité, même lorsqu'on navigue sur internet à domicile. Cela contribue à garantir un niveau de sécurité plus élevé pour les données échangées en ligne. Enfin, assurez-vous de vérifier les URL et le petit cadenas dans la barre d'adresse pour confirmer que vous êtes bien sur le site que vous pensez visiter.
 
-## HTTPS & les réseaux wifi publics
+### HTTPS & les réseaux wifi publics
 
 En matière de sécurité en ligne, il est essentiel de comprendre que la 4G est généralement plus sécurisée que le Wi-Fi public. Cependant, l'utilisation de la 4G peut rapidement épuiser votre forfait de données mobiles. Le protocole HTTPS est devenu la norme pour le chiffrement des données sur les sites web. Il assure que les données échangées entre l'utilisateur et le site web sont sécurisées. Il est donc crucial de vérifier que le site que vous visitez utilise bien le protocole HTTPS.
 
@@ -156,7 +156,7 @@ La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique ac
 - les mises à jour et antivirus pour une sécurité optimale
 - les bonnes pratiques pour la sécurité de son ordinateur et de ses données.
 
-## le choix de l'ordinateur et du système opérationnel
+## Le choix de l'ordinateur et du système opérationnel
 
 Concernant le choix de l'ordinateur, il n'y a pas de différence significative de sécurité entre les anciens et les nouveaux ordinateurs. Cependant, des différences de sécurité existent entre les systèmes d'exploitation : Windows, Linux et Mac.
 
@@ -256,7 +256,7 @@ Lors du choix d'un fournisseur de messagerie et de la création d'un mot de pass
 
 Il est important de prendre en considération que les anciens fournisseurs de messagerie tels que La Poste, Arobase, Wig, Hotmail, sont toujours utilisés, mais leurs pratiques de sécurité peuvent être moins bonnes que celles de Gmail. Par conséquent, il est recommandé d'avoir deux adresses mail distinctes, l'une pour les communications générales et l'autre pour la récupération de compte, cette dernière devant être mieux sécurisée. Il est préférable d'éviter de mélanger l'adresse mail avec son opérateur téléphonique ou fournisseur d'accès internet, car cela peut constituer un vecteur d'attaque.
 
-### dois-je changer de boite mail ?
+### Dois-je changer de boite mail ?
 
 Il est conseillé d'utiliser le site Have I Been Pwned (Avez-vous été piraté) - https://haveibeenpwned.com/ - pour vérifier si notre adresse mail a été compromise et pour être avertis des futures fuites de données. Une base de données piratée peut être exploitée par des pirates pour envoyer des mails de phishing ou réutiliser des mots de passe compromis.
 
@@ -368,7 +368,7 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 
 # Allez plus loins
 
-## comment travailler dans cette industrie
+## Comment travailler dans cette industrie
 
 ![conclusion et travailler dans l'industrie](https://youtu.be/YZ2EKaPvoZU)
 

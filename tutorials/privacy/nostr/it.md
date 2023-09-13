@@ -8,8 +8,6 @@ description: Scopri e inizia a utilizzare NOSTR
 
 Alla fine di questa guida, capirai cosa è Nostr, avrai creato un account e sarai in grado di utilizzarlo.
 
-**Questa guida ti è offerta da FranklynHart nell'ambito di Agora256. Grazie a lui**
-
 ![Un nuovo sfidante è arrivato](assets/1.jpeg)
 
 ## Che cos'è Nostr?
@@ -115,5 +113,3 @@ Poi, copia e incolla uno dopo l'altro i tuoi npub, npub hex, nsec e nsec hex in 
 ## Conclusion
 
 Ecco fatto, piccola struzzo, hai fatto i tuoi primi passi su Nostr. Ora dovrai imparare a correre alla velocità della luce. Presto pubblicheremo delle guide che ti mostreranno come gestire le tue chiavi e come integrare lightning nella tua esperienza Nostr con l'aiuto di getalby.
-
-**guida scritta da FranklynHart nell'ambito di Agora256**

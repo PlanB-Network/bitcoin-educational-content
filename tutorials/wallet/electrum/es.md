@@ -16,8 +16,6 @@ https://electrum.readthedocs.io/
 
 > "Debo decir que cuando encontré esta guía me sorprendí. Felicitaciones a Arman the Parman por esto. Hubiera sido una lástima no alojarlo aquí y traducirlo a tantos idiomas como sea posible. Honestamente, consejos de ese tipo." Rogzy
 
-Publicación original: https://armantheparman.com/electrum/
-
 ![Monedero de escritorio Electrum (Mac / Linux) - descargar, verificar, conectar a tu nodo.](https://youtu.be/wHmQNcRWdHM)
 
 ![Realizar una transacción de Bitcoin con Electrum](https://youtu.be/-d_Zd7VcAfQ)

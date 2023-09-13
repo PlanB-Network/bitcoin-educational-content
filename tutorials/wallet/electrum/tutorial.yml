@@ -8,3 +8,11 @@ tags:
   - self-custodial
   - open-source
   - privacy
+
+credits:
+  name: Arman the Parman
+  link: https://armantheparman.com/electrum/
+  tips:
+    lightning_adress: dandysack84@walletofsatoshi.com
+    paynym:
+    on-chain:

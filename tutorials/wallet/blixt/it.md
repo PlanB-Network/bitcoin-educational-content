@@ -10,8 +10,6 @@ description: Portafoglio LN multifunzione
 
 ## Un potente nodo BTC/Lightning nel tuo taschino, ovunque tu sia
 
-**Testo di DarthCoin tradotto da asi0 - 01/11/2022**
-
 Vorrei presentarvi un nuovo nodo e portafoglio mobile BTC/LN interessante e potente - Blixt. Il nome deriva dallo svedese e significa "fulmine".
 
 ## Come ho scoperto questa piccola gemma?
@@ -230,6 +228,3 @@ Non dimentichiamo che si tratta anche di un progetto open source e che la sua ma
 Spero che apprezzerai il suo utilizzo. Personalmente, lo adoro ed è molto utile per me (vedi qui un caso d'uso in cui questo portafoglio è uno strumento fantastico).
 
 Che ₿ITCOIN SIA CON TE!
-
-> Se apprezzi il lavoro di DarthCoin, puoi inviare alcuni satoshi tramite LN: utilizzando la pagina Telegram @LNtxBot DarthCoin LNURL o semplicemente utilizzando l'indirizzo Lightning darthcoin@lntxbot.com
-> '> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF'

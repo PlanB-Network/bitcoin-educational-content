@@ -18,8 +18,6 @@ Muun (https://muun.com/) ist eine selbstverwaltete Brieftasche für Bitcoin und 
 
 Vollständige Anleitung zur Verwendung (mit Screenshots) der Muun-App; eine benutzerfreundliche mobile Bitcoin-Brieftasche, mit der Sie auf dem Lightning Network handeln können.
 
-> WINTER ☩ HODLER 1. Februar 2023 • 18 Min. Lesezeit https://agora256.com/muun-wallet-guide-dutilisation-complet/ Muun-Brieftasche - Vollständige Anleitung zur Verwendung
-
 ![Bild](assets/0.5.png)
 
 ### Muun herunterladen und Brieftasche erstellen
@@ -290,5 +288,3 @@ Turbo-Kanäle ermöglichen es, im Lightning-Netzwerk zu handeln, noch bevor eine
 Am Ende der Einstellungsseite befindet sich die Option "Abmelden". Sie können diese Funktion verwenden, wenn Sie möchten, dass die Anwendung die derzeit erkannte Brieftasche abmeldet. Dadurch können Sie eine neue Brieftasche erstellen oder eine vorhandene importieren oder wiederherstellen.
 
 ![image](assets/53.png)
-
-https://agora256.com/muun-wallet-guide-dutilisation-complet/

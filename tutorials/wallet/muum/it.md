@@ -18,8 +18,6 @@ Muun (https://muun.com/) è un portafoglio auto-custodito per bitcoin e lightnin
 
 Guida completa all'uso (con screenshot) dell'applicazione Muun; un portafoglio mobile Bitcoin user-friendly che consente di effettuare transazioni sulla rete Lightning.
 
-> WINTER ☩ HODLER 1 febbraio 2023 • 18 min di lettura https://agora256.com/muun-wallet-guide-dutilisation-complet/ Muun Wallet - Guida completa all'uso
-
 ![image](assets/0.5.png)
 
 ### Scaricare Muun e creare il proprio portafoglio
@@ -290,5 +288,3 @@ I Turbo channels consentono di iniziare a effettuare transazioni sulla rete Ligh
 In fondo alla pagina delle impostazioni si trova l'opzione "Log out". Puoi utilizzare questa funzione se desideri che l'applicazione scollega il portafoglio attualmente riconosciuto da essa. Ciò ti consentirà di creare un nuovo portafoglio o di importare o recuperare uno esistente.
 
 ![image](assets/53.png)
-
-https://agora256.com/muun-wallet-guide-dutilisation-complet/

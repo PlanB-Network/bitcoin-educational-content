@@ -7,8 +7,6 @@ description: Comprendre et utiliser le CoinJoin sur Bitcoin.
 
 # Comprendre et utiliser le CoinJoin sur Bitcoin.
 
-_**Texte offert par Loïc Morel dans le cadre de ses écrits dans Pandul. texte origina [ici](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)**_
-
 ## Introduction
 
 Un des problèmes initiaux à tout système de paiement pair-à-pair est la double dépense. Comment éviter que des acteurs malveillants abusent du réseau de paiement, en dépensant plusieurs fois des mêmes unités compte sans pour autant recourir à une autorité centrale ?
@@ -1149,5 +1147,3 @@ https://code.samourai.io/whirlpool/Whirlpool/-/blob/whirlpool/README.md
 https://docs.samourai.io/whirlpool/basic-concepts
 
 https://docs.samourai.io/en/wallet/features/whirlpool
-
-> **Cet article a été rédigé par Loïc Morel, sur son site de conseil Pandul; https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin**

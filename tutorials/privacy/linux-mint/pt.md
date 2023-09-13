@@ -8,9 +8,6 @@ description: Configurando um computador para transações de bitcoin
 
 # Um Computador para Transações de Bitcoin (Instalando o Linux Mint)
 
-> original: https://bitcoinmagazine.com/technical/why-use-a-computer-meant-for-bitcoin - https://armantheparman.com/mint/
-> Autor: Arman the parman
-
 ## O que há de errado em usar um computador comum?
 
 Ao fazer transações de bitcoin, é ideal que seu computador não tenha malware. Obviamente.
@@ -168,7 +165,3 @@ Em seguida, gosto de instalar o Tor (sensível a maiúsculas):
 > _ADICIONAL: Você também pode executar o boot do Linux Mint a partir de "Instalação OEM" (Certifique-se de estar conectado à internet, caso contrário, você pode receber erros). Se fizer isso, mais tarde você precisará clicar no ícone "enviar para o usuário final", que deve estar na área de trabalho. Em seguida, reinicie e inicie o sistema operacional como se estivesse abrindo o computador pela primeira vez._
 
 Este guia explicou por que você pode precisar de um computador dedicado para transações de Bitcoin e como instalar um sistema operacional Linux Mint novo nele.
-
-Dicas:
-
-Endereço Estático do Lightning: dandysack84@walletofsatoshi.com

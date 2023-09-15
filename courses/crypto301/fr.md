@@ -16,9 +16,11 @@ Cette formation vous dotera non seulement des connaissances pour comprendre la s
 
 +++
 
-# Introduction à la cryptographie
+# Introduction
 
-## Est-ce que cette formation est pour vous ? OUI !
+## Introduction à la cryptographie
+
+### Est-ce que cette formation est pour vous ? OUI !
 
 ![introduction par Rogzy](https://youtu.be/ul8zU5QWIXg)
 
@@ -28,7 +30,7 @@ Dans notre vie quotidienne et particulièrement dans le domaine des Bitcoins, la
 
 Le but ultime de cette formation est de vous permettre de comprendre techniquement les processus de création d'un portefeuille HD et les méthodes cryptographiques employées. Au fil des années, les portefeuilles Bitcoin ont évolué pour devenir plus faciles à utiliser, plus sécurisés et standardisés grâce à des BIP spécifiques. Loïc vous aidera à comprendre ces BIP pour saisir les choix des développeurs de Bitcoin et des cryptographes. Comme toutes les formations offertes par notre université, celle-ci est entièrement gratuite et open source. Cela signifie que vous pouvez librement la reprendre et l'utiliser à votre guise. Nous avons hâte de recevoir vos retours à la fin de ce cours passionnant.
 
-## La parole est au professeur !
+### La parole est au professeur !
 
 ![intro par loïc](https://youtu.be/mwuxXLk4Kws)
 
@@ -46,7 +48,9 @@ Pour couronner le tout, nous terminerons notre parcours en examinant les adresse
 
 Embarquez avec moi pour ce voyage captivant, et préparez-vous à explorer l'univers de la cryptographie comme jamais auparavant. Laissez vos préconceptions à la porte et ouvrez votre esprit à une nouvelle manière de comprendre Bitcoin et sa structure fondamentale.
 
-# Les fonctions de hachage relative à Bitcoin
+# Les fonctions de hachage
+
+## Introduction aux fonctions de hachage cryptographique relative à Bitcoin
 
 ![2.1 - les fonctions de hachage cryptographiques](https://youtu.be/dvnGArYvVr8)
 
@@ -68,7 +72,7 @@ Pour résumer, l'objectif ultime d'une fonction de hachage cryptographique est d
 
 Au terme de cette exploration, nous avons démystifié les fonctions de hachage cryptographiques, mis en évidence leur utilisation dans le protocole Bitcoin, et décortiqué leurs objectifs spécifiques. Nous avons appris que pour être considérées comme sûres, les fonctions de hachage doivent être résistantes à la préimage, à la seconde préimage, aux collisions et à la falsification. Nous avons également parcouru l'éventail des différentes fonctions de hachage utilisées dans le protocole Bitcoin. Dans notre prochaine session, nous plongerons dans le coeur de la fonction de hachage SHA256, et découvrirons les mathématiques fascinantes qui lui confèrent ses caractéristiques uniques.
 
-# Les rouages de SHA256
+## Les rouages de SHA256
 
 ![Les rourages de SHA256](https://youtu.be/74SWg_ZbUj4)
 
@@ -103,7 +107,7 @@ Enfin, après avoir séparé l'entrée équilibrée en différents blocs de mess
 
 Pour conclure, nous voudrions souligner le rôle crucial des calculs effectués dans les boîtes CH, MAJ, σ0 et σ1. Ces opérations, parmi d'autres, sont les gardiens qui assurent la robustesse de la fonction de hachage SHA256 face aux attaques, faisant de celle-ci un choix privilégié pour la sécurisation de nombreux systèmes numériques, notamment au sein du protocole Bitcoin. Il est donc évident que bien que complexe, la beauté de SHA256 réside dans sa robustesse à retrouver l'entrée à partir du hash, alors que la vérification du hash pour une entrée donnée est une action mécaniquement simple.
 
-# Les algorithmes utilisés pour la dérivation
+## Les algorithmes utilisés pour la dérivation
 
 ![Les algorithmes utilisés pour la dérivation](https://youtu.be/ZF1_BMsOJXc)
 
@@ -128,7 +132,9 @@ Une attaque par extension de longueur exploite une propriété spécifique de ce
 
 En conclusion, les algorithmes HMAC et PBKDF2 jouent des rôles essentiels dans la sécurité de la dérivation des portefeuilles HD dans le protocole Bitcoin. L'HMAC-SHA-512 est utilisé pour se prémunir contre les attaques par extension de longueur, tandis que PBKDF2 permet la conversion de la phrase mémonique en graine. Le code de chaîne ajoute une source d'entropie supplémentaire dans la dérivation des clés, assurant ainsi la robustesse du système.
 
-# Signatures numériques et courbes elliptiques
+# Les signatures numériques
+
+## Signatures numériques et courbes elliptiques
 
 ![Signatures numériques et courbes elliptiques](https://youtu.be/gOjYiPkx4z8)
 
@@ -168,7 +174,7 @@ En fin de compte, diverses courbes elliptiques sont reconnues comme étant sécu
 
 Dans la prochaine section de ce cours, nous examinerons de plus près la clé publique et la clé privée pour une compréhension approfondie de la cryptographie sur les courbes elliptiques et de l'algorithme de signature numérique. Ce sera le moment de consolider vos connaissances et de comprendre comment toutes ces informations s'articulent pour garantir la sécurité du protocole Bitcoin.
 
-# Calculer la clé publique depuis la clé privée
+## Calculer la clé publique depuis la clé privée
 
 ![Calculer la clé publique depuis la clé privée](https://youtu.be/NJENwFU889Y)
 
@@ -201,7 +207,7 @@ Ces opérations sur les points d'une courbe elliptique sont la base du calcul de
 
 Dans notre prochain cours, nous explorerons comment une signature numérique est réalisée en utilisant l'algorithme ECDSA avec une clé privée pour débloquer des bitcoins. Restez à l'écoute pour cette exploration passionnante du monde des cryptomonnaies et de la cryptographie.
 
-# Signer avec la clé privée
+## Signer avec la clé privée
 
 ![Signer avec la clé privée](https://youtu.be/h2hIyGgPqkM)
 
@@ -258,7 +264,9 @@ Cela dit, la gestion de ces clés, ainsi que leur création, est une autre quest
 
 Pour répondre à ces questions et approfondir votre compréhension de la sécurité de la cryptographie, notre prochain cours se concentrera sur le concept de Portefeuille Déterministe Hiérarchique (HD wallets) et l'utilisation des phrases mnémoniques. Ces mécanismes offrent des moyens élégants de gérer efficacement vos clés de cryptomonnaie tout en renforçant la sécurité et la récupérabilité.
 
-# Évolution des portefeuilles Bitcoin
+# La phrase mnémonique
+
+## Évolution des portefeuilles Bitcoin
 
 ![Évolution des portefeuilles Bitcoin](https://youtu.be/6tmu1R9cXyk)
 
@@ -278,7 +286,7 @@ En guise de synthèse, il est essentiel de souligner le rôle central des BIP32 
 
 J'espère que cette introduction vous a permis de mieux comprendre les fondements du portefeuille HD et ses diverses caractéristiques. Notre objectif est de vous aider à maîtriser ces concepts essentiels et à naviguer plus efficacement dans l'univers complexe des cryptomonnaies. Alors, restez avec nous alors que nous continuons à explorer les subtilités et les nuances de ce monde fascinant dans les prochaines leçons.
 
-# Entropie et nombre aléatoire
+## Entropie et nombre aléatoire
 
 ![Entropie et nombre aléatoire](https://youtu.be/k18yH18w2TE)
 
@@ -306,15 +314,7 @@ Un exemple d'application de cette méthode est l'option "dice roll" offerte par 
 
 En définitive, l'aléatoire occupe une place centrale en cryptographie et en informatique, et la capacité à générer de l'aléatoire de manière sécurisée est cruciale pour garantir la sécurité des clés privées et des transactions Bitcoin. L'entropie, qui est au cœur du portefeuille HD de Bitcoin, est essentielle pour sa sécurité. Dans notre prochaine leçon, nous continuerons à explorer ce sujet, en abordant plus en détail la manière dont l'entropie contribue à la sécurité des portefeuilles HD.
 
-### Soutiens-nous
-
-Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
-
-### Note la formation
-
-Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
-
-# La phrase mnémonique
+## La phrase mnémonique
 
 ![La phrase mnémonique](https://youtu.be/uJERqH9Xp7I)
 
@@ -340,7 +340,7 @@ Il est essentiel de sauvegarder la phrase de récupération de 24 mots pour pré
 
 En conclusion, la génération d'une phrase mémonique pour sécuriser un portefeuille Bitcoin est un processus crucial. Il est important de respecter les standards de la phrase mémonique en fonction de la taille de l'entropie. La sauvegarde de la phrase de récupération de 24 mots est essentielle pour prévenir toute perte de fonds. Nous vous remercions de votre attention et vous donnons rendez-vous pour notre prochain cours sur la cryptomonnaie.
 
-# La passphrase
+## La passphrase
 
 ![La passphrase](https://youtu.be/dZkOYO7MXwc)
 
@@ -364,37 +364,9 @@ Il est crucial de prendre soin des sauvegardes de la passphrase pour éviter de 
 
 Dans notre prochain cours, nous examinerons en détail le fonctionnement de la graine et la première paire de clés générée à partir de celle-ci. N'hésitez pas à suivre ce cours pour continuer votre apprentissage. Nous avons hâte de vous retrouver très bientôt.
 
-# Création d’une seed depuis 128 lancés de dés !
+# Création des portefeuilles Bitcoin
 
-![Création d’une seed depuis 128 lancés de dés !](https://youtu.be/lUw-1kk75Ok)
-
-La création d'une phrase mnémonique est une étape cruciale pour la sécurisation de votre portefeuille de crypto-monnaie. Il existe plusieurs méthodes pour générer une phrase mnémonique, cependant, nous allons nous focaliser sur la méthode de génération manuelle utilisant des dés. Il est important de souligner que cette méthode n'est pas adaptée pour un portefeuille de grande valeur. Il est conseillé d'utiliser un logiciel open source ou un portefeuille matériel pour générer la phrase mnémonique. Pour créer une phrase mnémonique, nous allons utiliser des dés pour générer une information binaire. L'objectif est de comprendre le processus de création de la phrase mnémonique.
-
-**Étape 1 - Préparation :**
-Assurez-vous d'avoir une distribution Linux amnésique, comme Tails OS, installée sur une clé USB pour plus de sécurité. Notez que ce tutoriel ne devrait pas être utilisé pour créer un portefeuille principal.
-
-**Étape 2 - Génération d'un nombre aléatoire binaire :**
-Nous allons utiliser des dés pour générer une information binaire. Lancez un dé 128 fois et notez chaque résultat (1 pour impair, 0 pour pair).
-
-**Étape 3 - Organisation des nombres binaires :**
-Organisez les nombres binaires obtenus en rangées de 11 chiffres pour faciliter les calculs ultérieurs. La douzième ligne ne devrait que 7 chiffres.
-
-**Étape 4 - Calcul de la checksum :**
-
-Les derniers 4 chiffres pour la douxième ligne correspondent à la checksum. Pour calculer cette checksum, il nous faut utiliser un terminal d'une distribution Linux. Il est conseillé d'utiliser [TailOs](https://tails.boum.org/index.fr.html) qui est une distribution sans mémoire bootable à partir d'une clé USB. Une fois sur votre terminal, entrez la commande `echo <binary number> | shasum -a 254 -0`. Remplacer `<binary number>` par votre liste de 128 zéro et un. La sortie est un hash en hexadécimal. Relevez le premier caractère de ce hash et convertissez le en binaire. Vous pouvez vous aider de cette [table](https://www.educative.io/answers/decimal-binary-and-hex-conversion-table). Ajoutez la checksum en binaire (4 chiffres) à la douxième ligne de votre feuille.
-
-**Étape 5 - Conversion en décimale :**
-Pour trouver les mots associés à chacune de vos lignes, il vous faut d'abord convertir en décimal chaque séries de 11 bits. Ici vous ne pouvez pas utiliser de convertisseur en ligne car ces bits représentent votre phrase mnémonique. Il va donc falloir convertir à l'aide d'une calculatrice et d'une astuce que voici : chaque bit est associé à une puissance de 2 ainsi de la gauche vers la droite nous avons 11 rangs qui correspondent à respectivement 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1. Pour convertir votre série de 11 bit en décimal il vous suffit d'additionner uniquement les rangs qui contiennent un 1. Par exemple pour la série 00110111011, cela correspond à l'addtion suivante : 256 + 128 + 32 + 16 + 8 + 2 + 1 = 443. Vous pouvez maintenant convertir chaque ligne en décimale. Et avant de passer à l'encodage en mots il faut ajouter +1 à toutes les lignes car l'index de la liste des mots BIP39 commence à partir de 1 et non 0.
-
-**Étape 8 - Génération de la phrase mnémonique :**
-Commencez par imprimer la [liste des 2048 mots](https://seedxor.com/files/wordlist.pdf) pour faire la conversion entre vos nombres décimales et les mots du BIP39. La particularité de cette liste est qu'aucun mot ne possède ces 4 premières lettres en commun avec tous les autres mots de ce dictionnaire. Puis chercher pour chacune de vos lignes le mots associés au nombre décimal.
-
-**Étape 9 - Test de la phrase mnémonique :**
-Testez immédiatement votre phrase mnémonique sur Sparrow Wallet en créant un portefeuille à partir de celle-ci. Si vous obtenez une erreur de checksum invalide, il est probable que vous ayez fait une erreur de calcul. Corrigez cette erreur en repartant à l'étape 4 et testez à nouveau sur Sparrow Wallet. Voilà ! Vous venez de créer un nouveau portefeuille Bitcoin à partir de 128 lancés de dés.
-
-Générer une phrase mnémonique est un processus important pour sécuriser votre portefeuille de crypto-monnaie. Il est recommandé d'utiliser des méthodes plus sécurisées, comme l'utilisation de logiciels open source ou de hardware wallet, pour générer la phrase mnémonique. Toutefois, réaliser cet atelier permet de mieux saisir comment à partir d'un nombre aléatoire nous pouvons créer un portefeuille Bitcoin.
-
-# Création de la graine et de la clé maîtresse
+## Création de la graine et de la clé maîtresse
 
 ![Création de la graine et de la clé maîtresse](https://youtu.be/56yAt_JDWhY)
 
@@ -420,7 +392,7 @@ Il est important de souligner que la clé privée maîtresse est la première cl
 
 Dans le prochain cours, nous explorerons en détail les clés étendues, telles que les xPub, xPRV, zPub, et nous comprendrons pourquoi elles sont utilisées et comment elles sont construites.
 
-# Les clés étendues
+## Les clés étendues
 
 ![Les clés étendues](https://youtu.be/TRz760E_zUY)
 
@@ -452,7 +424,7 @@ Dans notre prochain cours, nous nous pencherons sur la dérivation des paires de
 
 En conclusion, les clés étendues jouent un rôle essentiel dans la cryptographie et le fonctionnement des portefeuilles HD. Comprendre leur utilisation et leur calcul est crucial pour assurer la sécurité des transactions et la protection des actifs numériques. Les préfixes et les métadonnées associés aux clés étendues permettent une utilisation efficace et une dérivation précise des clés enfants nécessaires.
 
-# Dérivation des paires de clés enfants
+## Dérivation des paires de clés enfants
 
 ![Dérivation des paires de clés enfants](https://youtu.be/FXhI-GmE9Aw)
 
@@ -477,6 +449,7 @@ Il existe deux types de paires de clés enfants : les paires renforcées et les 
 
 ![image](assets/image/section4/11.JPG)
 ![image](assets/image/section4/12.JPG)
+
 La dérivation renforcée utilise la clé privée parent, tandis que la dérivation normale utilise la clé publique parent. La fonction HMAC-SHA512 est utilisée pour la dérivation renforcée, tandis que la dérivation normale utilise un condensat de 512 bits. La clé publique enfant est obtenue en multipliant la clé privée enfant par le générateur de la courbe elliptique.
 
 ![image](assets/image/section4/13.JPG)
@@ -484,7 +457,7 @@ La dérivation renforcée utilise la clé privée parent, tandis que la dérivat
 
 La hiérarchisation et la dérivation de nombreuses paires de clés de manière déterministe permettent de créer un schéma en arbre généalogique pour la dérivation hiérarchique. Dans le prochain cours de cette formation, nous étudierons la structure du portefeuille HD ainsi que les chemins de dérivation, en mettant notamment l'accent sur les notations des chemins de dérivation.
 
-# Structure du portefeuille et chemins de dérivation
+## Structure du portefeuille et chemins de dérivation
 
 ![Structure du portefeuille et chemins de dérivation](https://youtu.be/etO9UxwyE2I)
 
@@ -518,13 +491,15 @@ Il est important de noter que différentes profondeurs sont utilisées dans un p
 
 Dans le prochain chapitre, nous allons étudier les adresses de réception, leurs avantages d'utilisation et les étapes de leur construction.
 
-# Les adresses Bitcoin
+# Qu'est-ce qu'une adresse Bitcoin ?
+
+## Les adresses Bitcoin
 
 ![Les adresses Bitcoin](https://youtu.be/nqGBMjPtFNI)
 
-![image](assets/image/section5/0.JPG)
-
 Dans ce chapitre, nous allons explorer les adresses de réception, qui jouent un rôle crucial dans le système Bitcoin. Elles permettent de recevoir des fonds sur une pièce et sont générées à partir de paires de clés privées et publiques. Bien qu'il existe un type de script appelé Pay2PublicKey qui permet de bloquer des bitcoins sur une clé publique, les utilisateurs préfèrent généralement utiliser des adresses de réception plutôt que ce script.
+
+![image](assets/image/section5/0.JPG)
 
 Lorsqu'un destinataire souhaite recevoir des bitcoins, il fournit une adresse de réception à l'émetteur plutôt que sa clé publique. Une adresse est en réalité un hash d'une clé publique, avec un format spécifique. La clé publique est dérivée de la clé privée enfant en utilisant des opérations mathématiques telles que l'addition et le doublement de points sur les courbes elliptiques.
 
@@ -542,7 +517,7 @@ Différents préfixes sont utilisés pour les adresses Bitcoin. Par exemple, BC1
 
 En résumé, les adresses de réception sont un élément essentiel du système Bitcoin. Elles sont générées à partir de paires de clés privées et publiques, et servent à recevoir des fonds sur une pièce. Les adresses intègrent une checksum pour réduire les risques de perte de bitcoins et sont conçues pour être utilisées de manière unique, garantissant ainsi la sécurité et la confidentialité. Différents types d'adresses sont utilisés dans le système Bitcoin, offrant une confidentialité et une sécurité renforcées.
 
-# Comment créer une adresse Bitcoin ?
+## Comment créer une adresse Bitcoin ?
 
 ![Comment créer une adresse Bitcoin ?](https://youtu.be/ewMGTN8dKjI)
 
@@ -580,7 +555,7 @@ Pour construire une adresse commençant par bc1q, nous devons appliquer une fonc
 
 Ainsi, nous avons parcouru les étapes de construction d'une adresse de réception, l'utilisation de la technologie de checksum BCH, ainsi que la construction d'une adresse commençant par bc1q ou bc1p en utilisant la variante BCH32 de la base 32 spécifique à Bitcoin.
 
-# Récapitulatif de la cryptographie pour les portefeuilles Bitcoin
+## Récapitulatif de la cryptographie pour les portefeuilles Bitcoin
 
 ![synthèse de la formation](https://youtu.be/NkAYoVUMvOs)
 
@@ -600,7 +575,43 @@ En résumé, nous avons exploré en détail les fonctions de hachage et leurs ca
 
 # Allez plus loins
 
-## Remerciements et continuez à creuser le terrier du lapin
+## Création d’une seed depuis 128 lancés de dés !
+
+![Création d’une seed depuis 128 lancés de dés !](https://youtu.be/lUw-1kk75Ok)
+
+La création d'une phrase mnémonique est une étape cruciale pour la sécurisation de votre portefeuille de crypto-monnaie. Il existe plusieurs méthodes pour générer une phrase mnémonique, cependant, nous allons nous focaliser sur la méthode de génération manuelle utilisant des dés. Il est important de souligner que cette méthode n'est pas adaptée pour un portefeuille de grande valeur. Il est conseillé d'utiliser un logiciel open source ou un portefeuille matériel pour générer la phrase mnémonique. Pour créer une phrase mnémonique, nous allons utiliser des dés pour générer une information binaire. L'objectif est de comprendre le processus de création de la phrase mnémonique.
+
+**Étape 1 - Préparation :**
+Assurez-vous d'avoir une distribution Linux amnésique, comme Tails OS, installée sur une clé USB pour plus de sécurité. Notez que ce tutoriel ne devrait pas être utilisé pour créer un portefeuille principal.
+
+**Étape 2 - Génération d'un nombre aléatoire binaire :**
+Nous allons utiliser des dés pour générer une information binaire. Lancez un dé 128 fois et notez chaque résultat (1 pour impair, 0 pour pair).
+
+**Étape 3 - Organisation des nombres binaires :**
+Organisez les nombres binaires obtenus en rangées de 11 chiffres pour faciliter les calculs ultérieurs. La douzième ligne ne devrait que 7 chiffres.
+
+**Étape 4 - Calcul de la checksum :**
+
+Les derniers 4 chiffres pour la douxième ligne correspondent à la checksum. Pour calculer cette checksum, il nous faut utiliser un terminal d'une distribution Linux. Il est conseillé d'utiliser [TailOs](https://tails.boum.org/index.fr.html) qui est une distribution sans mémoire bootable à partir d'une clé USB. Une fois sur votre terminal, entrez la commande `echo <binary number> | shasum -a 254 -0`. Remplacer `<binary number>` par votre liste de 128 zéro et un. La sortie est un hash en hexadécimal. Relevez le premier caractère de ce hash et convertissez le en binaire. Vous pouvez vous aider de cette [table](https://www.educative.io/answers/decimal-binary-and-hex-conversion-table). Ajoutez la checksum en binaire (4 chiffres) à la douxième ligne de votre feuille.
+
+**Étape 5 - Conversion en décimale :**
+Pour trouver les mots associés à chacune de vos lignes, il vous faut d'abord convertir en décimal chaque séries de 11 bits. Ici vous ne pouvez pas utiliser de convertisseur en ligne car ces bits représentent votre phrase mnémonique. Il va donc falloir convertir à l'aide d'une calculatrice et d'une astuce que voici : chaque bit est associé à une puissance de 2 ainsi de la gauche vers la droite nous avons 11 rangs qui correspondent à respectivement 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1. Pour convertir votre série de 11 bit en décimal il vous suffit d'additionner uniquement les rangs qui contiennent un 1. Par exemple pour la série 00110111011, cela correspond à l'addtion suivante : 256 + 128 + 32 + 16 + 8 + 2 + 1 = 443. Vous pouvez maintenant convertir chaque ligne en décimale. Et avant de passer à l'encodage en mots il faut ajouter +1 à toutes les lignes car l'index de la liste des mots BIP39 commence à partir de 1 et non 0.
+
+**Étape 8 - Génération de la phrase mnémonique :**
+Commencez par imprimer la [liste des 2048 mots](https://seedxor.com/files/wordlist.pdf) pour faire la conversion entre vos nombres décimales et les mots du BIP39. La particularité de cette liste est qu'aucun mot ne possède ces 4 premières lettres en commun avec tous les autres mots de ce dictionnaire. Puis chercher pour chacune de vos lignes le mots associés au nombre décimal.
+
+**Étape 9 - Test de la phrase mnémonique :**
+Testez immédiatement votre phrase mnémonique sur Sparrow Wallet en créant un portefeuille à partir de celle-ci. Si vous obtenez une erreur de checksum invalide, il est probable que vous ayez fait une erreur de calcul. Corrigez cette erreur en repartant à l'étape 4 et testez à nouveau sur Sparrow Wallet. Voilà ! Vous venez de créer un nouveau portefeuille Bitcoin à partir de 128 lancés de dés.
+
+Générer une phrase mnémonique est un processus important pour sécuriser votre portefeuille de crypto-monnaie. Il est recommandé d'utiliser des méthodes plus sécurisées, comme l'utilisation de logiciels open source ou de hardware wallet, pour générer la phrase mnémonique. Toutefois, réaliser cet atelier permet de mieux saisir comment à partir d'un nombre aléatoire nous pouvons créer un portefeuille Bitcoin.
+
+## BONUS: Interview avec Théo Pantamis
+
+![Interview avec Théo Pantamis](https://youtu.be/c9MvtGJsEvY)
+
+## Conclusion et fin
+
+### Remerciements et continuez à creuser le terrier du lapin
 
 Nous tenons à vous remercier sincèrement d'avoir suivi la formation Crypto 301. Nous espérons que cette expérience a été enrichissante et formatrice pour vous. Nous avons abordé de nombreux sujets passionnants, allant des mathématiques à la cryptographie en passant par le fonctionnement du protocole Bitcoin.
 
@@ -608,6 +619,10 @@ Si vous souhaitez approfondir davantage le sujet, nous avons une ressource suppl
 
 N'hésitez pas à regarder cette interview pour continuer à explorer le domaine fascinant de la cryptographie. Nous espérons que cela vous sera utile et inspirant dans votre parcours. Encore une fois, merci de votre participation et de votre engagement tout au long de cette formation.
 
-## BONUS: Interview avec Théo Pantamis
+### Soutiens-nous
 
-![Interview avec Théo Pantamis](https://youtu.be/c9MvtGJsEvY)
+Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
+
+### Note la formation
+
+Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.

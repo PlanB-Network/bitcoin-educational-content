@@ -14,8 +14,6 @@ Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vo
 
 La formation devrait prendre environ 15 heures. Durant tout le parcours, des posters explicatifs sont disponibles ainsi que des ressources supplémentaires.
 
-+++
-
 # Découvrir Bitcoin
 
 ![Introduction](https://youtu.be/PdiL6_1wbQY)
@@ -491,7 +489,7 @@ Prenons l'IA exemple, ces technologies ont déjà surpassé ou approchent le niv
 
 Les questions indispensables à poser sont : comment gérer une société où 80% des emplois vont disparaître ? Comment redynamiser une population ? Est-ce qu'il y a besoin d'autant de profs ? Les conséquences géopolitiques, politiques et humaines de l'automatisation ne sont pas suffisamment discutées. L'informatique, Internet, le stream, la VR vont changer l'éducation. On pourrait avoir un cours universel à tous les étudiants français gérés par le gouvernement et des profs qui ne font plus le cours, mais qui accompagnent directement les élèves. Les enfants pourraient aller dans un monde virtuel et être accompagnés pour apprendre l'histoire. Où est la limite entre un prof et une IA ? Comment garantir une société qui vit dans la prospérité ? Ces questions fondamentales pour notre futur doivent être débatu et décider collectivement. Mais quel est le lien avec Bitcoin ? À l'instar d'Internet pour les modes de communication, Bitcoin est une révolution technologique pour de nouveaux modes d'organisation à grande échelle, nous apportant la possibilité de nous échanger de la valeur sans aucun tiers de confiance. Souhaitons-nous brider l'évolution technologique du système monétaire ou récolter l'augmentation du capital grâce au gain de productivité décuplé par l'utilisation des protocoles Bitcoin et Lightning ?
 
-# Quel avenir pour la finance ?
+## Quel avenir pour la finance ?
 
 Ces réflexions amènent également des questions sur qui doit détenir, autoriser et tracer l'argent que nous utilisons. La finalité est de décider entre un système fermé avec des dirigeants non-élus ou un système ouvert sans tiers de confiance, où la neutralité règne. La monnaie est-elle un titre de propriété privée ? Les comptes des manifestants peuvent-ils être bloqués sans ordre de la Cour suprême ? Qui garantit le système financier ? Comment un individu peut-il être souverain de son argent et dépendre d'un tiers de confiance ? Peut-on envoyer de l'argent à l'autre bout du monde sans frais ni intermédiaire ? Accepter ces nouvelles technologies pourrait générer des économies d'échelle massives sur l'ensemble de la planête. Devrait-on autoriser la libre circulation des flux de capitaux ? Les blocages internationaux ont des conséquences économiques et politiques. Est-il éthique d'utiliser des intermédiaires financiers comme Western Union qui prennent parfois jusqu'à 25% de frais ? Nous pensons que dans un monde de plus en plus numérique, l'argent devrait être démocratisé et considéré comme un bien commun appartenant au peuple plutôt qu'à l'Etat ou des institutions financières opaques.
 

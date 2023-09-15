@@ -426,6 +426,6 @@ Félicitations pour avoir terminé cette formation SECU 101 ! J'espère de tout 
 - MINAGE 201 pour en savoir plus sur le minage
 - (et bien d'autres)
 
-Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & toute l'équipe
+Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Théo pantamis, Renaud, Théo, Fabien, Clément N., Muriel & toute l'équipe
 
 À bientôt!

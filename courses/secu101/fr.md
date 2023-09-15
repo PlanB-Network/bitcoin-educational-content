@@ -25,9 +25,13 @@ Team contributeurs:
 
 +++
 
-# Introduction: Sécurité 101 : Raffinement de votre Hygiène Numérique
+# Introduction
+
+## Introduction du cours
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
+
+### Objectif : remise à jour !
 
 Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, aucun prérequis en informatique n'est donc nécessaire. Notre objectif principal est de vous fournir les connaissances et les compétences nécessaires pour naviguer de manière plus sûre et plus privée dans le monde numérique.
 
@@ -45,21 +49,21 @@ Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou in
 
 Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, tutoriels ou autres formations sur la cybersécurité sont là pour vous. En attendant, voici un petit aperçu de notre programme lors de ces prochaines heures ensemble.
 
-## Section 1: Tout savoir sur la navigation en ligne
+### Section 1: Tout savoir sur la navigation en ligne
 
 - Chapitre 1 - Navigation en ligne
 - Chapitre 2 - Utiliser internet en sécurité
 
 Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et de ses implications en matière de sécurité. Nous explorerons ensuite les spécificités des navigateurs, notamment en ce qui concerne la gestion des cookies. Nous verrons également comment garantir une navigation plus sécurisée et anonyme, grâce à des outils tels que TOR. Par la suite, nous mettrons l'accent sur l'utilisation des VPN pour renforcer la protection de vos données. Enfin, nous terminerons par des recommandations concernant l'utilisation sécurisée des connexions WiFi.
 
-## Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
+### Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
 
 - Chapitre 3 - Utilisation de l’ordinateur
 - Chapitre 4 - Hack & gestion de back-up
 
 Dans cette section, nous aborderons trois domaines clés de la sécurité informatique. Premièrement, nous explorerons les différents systèmes d'exploitation : Mac, PC et Linux, en soulignant leurs spécificités et leurs points forts. Ensuite, nous nous pencherons sur les méthodes pour se protéger efficacement des tentatives de piratage et renforcer la sécurité de vos appareils. Enfin, nous mettrons l'accent sur l'importance de protéger et de sauvegarder régulièrement vos données pour prévenir toute perte ou ransomware.
 
-## Section 3: Mise en place des solutions.
+### Section 3: Mise en place des solutions.
 
 - Chapitre 6 - Gestion de la boîte mail
 - Chapitre 7 - Gestionnaire de mots de passe
@@ -69,34 +73,36 @@ Dans cette troisième section pratique, nous allons passer à la pratique avec l
 
 D'abord, nous verrons comment protéger votre boîte mail, essentielle pour vos communications et souvent ciblée par les pirates. Ensuite, nous vous présenterons ce qu'est un gestionnaire de mots de passe : une solution pratique pour ne plus oublier ou mélanger vos mots de passe tout en les gardant sécurisés. Enfin, nous évoquerons une mesure de sécurité supplémentaire, l'authentification à deux facteurs, qui ajoute une couche de protection à vos comptes. Tout sera expliqué de manière claire et accessible.
 
-## Section Bonus: Interview avec Pantamis et Renaud
+### Section Bonus: Interview avec Pantamis et Renaud
 
 En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. l'idée est d'en apprendre davantage auprès de ces professionnels expérimentés.
 
 Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement.
 
-# 1. Navigation en ligne
+# Section 1: Tout savoir sur la navigation en ligne
+
+## 1. Navigation en ligne
 
 ![navigation en ligne](https://youtu.be/BEK7vGnkO64)
 
 Lors de la navigation sur internet, il est important d'éviter certaines erreurs courantes pour préserver sa sécurité en ligne. Voici quelques conseils pour les éviter :
 
-## Attention aux téléchargements de logiciels:
+### Attention aux téléchargements de logiciels:
 
 Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques.
 Exemple: Utiliser www.signal/download et non pas www.logicieltelechargement.fr/signal.
 
 Il est également conseillé de privilégier les logiciels open source car ils sont souvent plus sûrs et exempts de logiciels malveillants. Un logiciel "open-source" aka ouvert ou libre, est un logiciel dont le code est connu de tous et accessible par tous. On peut donc vérifier entre autre qu'il y ait pas d'accès caché pour voler vos données personnelles.
 
-    _Bonus: les logiciels libres sont souvent gratuit! Cette université est 100% open source, vous pouvez donc vous aussi vérifier notre code via notre GitHub_
+> Bonus: les logiciels libres sont souvent gratuit! Cette université est 100% open source, vous pouvez donc vous aussi vérifier notre code via notre GitHub
 
-## Gestion des cookies : Erreurs et bonnes pratiques
+### Gestion des cookies : Erreurs et bonnes pratiques
 
 Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Bien que certains sites requièrent ces cookies pour fonctionner adéquatement, ils peuvent également être exploités par des sites tiers, notamment à des fins de suivi publicitaire. Conformément à des réglementations telles que le RGPD, il est possible – et recommandé – de refuser les cookies de suivi tiers, tout en acceptant ceux qui sont essentiels au bon fonctionnement du site. Après chaque visite sur un site, il est judicieux de supprimer les cookies qui y sont associés, soit manuellement, soit via une extension ou un programme spécifique. Certains navigateurs offrent d'ailleurs la possibilité d'effectuer cette suppression de façon sélective. Malgré ces précautions, il est crucial de comprendre que les informations recueillies par différents sites peuvent demeurer interconnectées, d'où l'importance de trouver un équilibre entre praticité et sécurité.
 
-Note : Limitez également le nombre d'extensions installées sur votre navigateur pour éviter des problèmes potentiels de sécurité et de performance.
+> Note : Limitez également le nombre d'extensions installées sur votre navigateur pour éviter des problèmes potentiels de sécurité et de performance.
 
-## Navigateurs web : choix, sécurité
+### Navigateurs web : choix, sécurité
 
 Il existe deux grandes familles de navigateurs : ceux basés sur Chrome et ceux basés sur Firefox.
 
@@ -110,17 +116,15 @@ Une alternative plus avancée est le réseau TOR (The Onion Router), qui offre l
 
 TOR est légal et est utilisé par des journalistes, des activistes de la liberté et d'autres personnes souhaitant échapper à la censure dans des pays autoritaires. Cependant, il est important de comprendre que TOR ne sécurise pas les sites visités ni l'ordinateur lui-même. De plus, l'utilisation de TOR peut ralentir la connexion Internet car les données passent par les ordinateurs de trois autres personnes avant d'atteindre leur destination. Il est également essentiel de noter que TOR n'est pas une solution infaillible pour garantir l'anonymat à 100% et ne doit pas être utilisé pour mener des activités illégales.
 
-## BRAVE
+### BRAVE
 
 **_Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub_**
 
-# 2. VPN et connexion internet
+## 2. VPN et connexion internet
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
 
-## les VPN
-
-### Démystifions les VPN
+### les VPN
 
 La protection de votre connexion internet est aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
 
@@ -142,11 +146,13 @@ Dans l'Union européenne, la protection des données est réglementée par le R�
 
 En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en ligne, tant pour les entreprises que pour les utilisateurs individuels. De plus, la mise en pratique de bonnes habitudes de navigation peut contribuer à une meilleure hygiène numérique. Dans le prochain segment de ce cours, nous aborderons la sécurité de l'ordinateur, y compris les mises à jour, l'antivirus et la gestion des mots de passe.
 
-## Tutoriel: IVPN
+### Tutoriel: IVPN
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-# Utilisation de l’ordinateur
+# Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
+
+## Utilisation de l’ordinateur
 
 ![utilisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
 
@@ -156,7 +162,7 @@ La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique ac
 - les mises à jour et antivirus pour une sécurité optimale
 - les bonnes pratiques pour la sécurité de son ordinateur et de ses données.
 
-## Le choix de l'ordinateur et du système opérationnel
+### Le choix de l'ordinateur et du système opérationnel
 
 Concernant le choix de l'ordinateur, il n'y a pas de différence significative de sécurité entre les anciens et les nouveaux ordinateurs. Cependant, des différences de sécurité existent entre les systèmes d'exploitation : Windows, Linux et Mac.
 
@@ -164,7 +170,7 @@ Concernant Windows, Il est recommandé de ne pas utiliser un compte administrate
 
 Le choix du système d'exploitation doit être effectué en fonction de vos besoins et de vos préférences. Les systèmes Linux ont considérablement évolué ces dernières années, devenant de plus en plus conviviaux. Ubuntu est une alternative intéressante pour les débutants, avec une interface graphique facile à utiliser. Il est possible de partitionner un ordinateur pour expérimenter avec Linux tout en conservant Windows, mais cela peut se révéler complexe. Il est souvent préférable d'avoir un ordinateur dédié, une machine virtuelle ou une clé USB pour tester Linux ou Ubuntu.
 
-## Mise à jour des logiciels
+### Mise à jour des logiciels
 
 En ce qui concerne les mises à jour la règle est simple: **la mise à jour régulière du système d'exploitation et des applications est primordiale.**
 
@@ -174,7 +180,7 @@ La règle s'applique à la quasi-totalité des logiciels. En effet, les mises à
 
 Pour vous donner un exemple concret d'erreur : un logiciel craqué qui ne peut pas être mis à jour représente bien une double menace potentielle. L'arrivée du virus lors de son téléchargement illégal sur un site suspicieux et une utilisation non sécurisée face aux nouvelles formes d'attaque.
 
-## Anti-virus
+### Anti-virus
 
 - Vous faut il un anti-virus ? OUI
 - Devez vous payer ? ca depend !
@@ -191,15 +197,15 @@ Traitez votre ordinateur comme vous le feriez pour votre maison : restez vigilan
 
 En conclusion, il est primordial d'opter pour un système d'exploitation adapté à vos besoins et de le mettre à jour régulièrement, ainsi que les applications qui y sont installées. Il est aussi essentiel d'utiliser un antivirus efficace et agréable à l'usage, et d'adopter de bonnes pratiques pour la sécurité de votre ordinateur et de vos données.
 
-## Tutoriel : Ubuntu
+### Tutoriel : Ubuntu
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-# Hack & gestion de back-up : protéger ses données
+## Hack & gestion de back-up : protéger ses données
 
 ![hack et gestion de back-up](https://youtu.be/CJDjWPV3PeU)
 
-## Comment les hackers attaquent-ils ?
+### Comment les hackers attaquent-ils ?
 
 Afin de bien se protéger, il est primordial de comprendre comment les pirates informatiques essaient d'infiltrer votre ordinateur. En effet, les virus n'arrivent pas souvent par magie, mais sont plutôt les conséquences de nos actions, même involontaires!
 
@@ -234,7 +240,9 @@ NON, Il est généralement déconseillé de payer les hackers en cas de ransomwa
 
 Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
-# Gestion de la boîte mail
+# Section 3: Mise en place des solutions.
+
+## La gestion des boites mails
 
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
 
@@ -264,23 +272,21 @@ En règle générale, se mettre à utiliser une nouvelle adresse mail plus sécu
 
 Bonus Bitcoin : Il peut être conseillé de créer une adresse mail spécialement pour nos activités Bitcoin (création de comptes d'échange) afin de vraiment séparer les centres d'activité dans nos vies.
 
-## Tutoriel : création compte ProtonMail
+### Tutoriel : création compte ProtonMail
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-# Gestionnaire de mots de passe
+## Gestionnaire de mots de passe
 
 ![gestionnaire de mots de passe](https://youtu.be/HzLuZ6noePY)
 
-## Qu'est-ce qu'un gestionnaire de mots de passe ?
+### Qu'est-ce qu'un gestionnaire de mots de passe ?
 
 Un gestionnaire de mots de passe est un outil qui permet de stocker, générer et gérer vos mots de passe pour différents comptes en ligne. Plutôt que de vous souvenir de multiples mots de passe, vous n'avez besoin que d'un seul mot de passe maître pour accéder à tous les autres.
 
 Avec un gestionnaire de mots de passe, vous n'avez plus à vous soucier d'oublier vos mots de passe ou de les noter quelque part. Vous n'avez qu'à vous souvenir d'un seul mot de passe maître. De plus, la plupart de ces outils génèrent des mots de passe solides pour vous, ce qui renforce la sécurité de vos comptes.
 
-## Différences entre quelques gestionnaires populaires :
-
-### Services tiers :
+### Différences entre quelques gestionnaires populaires :
 
 - LastPass : L'un des gestionnaires les plus populaires. C'est un service tiers, ce qui signifie que vos mots de passe sont stockés sur leurs serveurs. Il offre une version gratuite et une version payante, avec une interface conviviale.
 
@@ -294,7 +300,7 @@ Avec un gestionnaire de mots de passe, vous n'avez plus à vous soucier d'oublie
 
 (Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
 
-## Qu'est ce qu'un bon mot de passe:
+### Qu'est ce qu'un bon mot de passe:
 
 Un bon mot de passe est généralement :
 
@@ -309,23 +315,23 @@ Pour créer un mot de passe fort, il est recommandé d'utiliser un grand nombre 
 
 Les mots de passe générés de manière aléatoire offrent un niveau de sécurité supérieur, bien qu'ils puissent être plus difficiles à retenir. Les gestionnaires de mots de passe peuvent générer des mots de passe aléatoires plus sécurisés. En utilisant un gestionnaire de mots de passe, vous n'avez pas besoin de mémoriser tous vos mots de passe. Il est important de remplacer progressivement vos anciens mots de passe par ceux générés par le gestionnaire, car ils sont plus forts et plus longs. Assurez-vous que le mot de passe maître de votre gestionnaire de mots de passe est également fort et sécurisé.
 
-## Tutoriel : création d’un mot de passe maître
+### Tutoriel : création d’un mot de passe maître
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-## Tutoriel : BitWarden
+### Tutoriel : BitWarden
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-## Tutoriel : KeePass
+### Tutoriel : KeePass
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-# Les 2 facteurs d’authentification
+## Les 2 facteurs d’authentification
 
 ![les 2FA](https://youtu.be/863n4N1XNjk)
 
-## Pourquoi mettre en place le 2FA
+### Pourquoi mettre en place le 2FA
 
 L'authentification à deux facteurs (2FA) est une couche de sécurité supplémentaire utilisée pour s'assurer que les personnes qui tentent d'accéder à un compte en ligne sont bien celles qu'elles prétendent être. Au lieu de se contenter de saisir un nom d'utilisateur et un mot de passe, la 2FA requiert une seconde forme de vérification.
 
@@ -337,7 +343,7 @@ Cette seconde étape peut être :
 
 Avec la 2FA, même si un pirate obtient votre mot de passe, il ne pourra pas accéder à votre compte sans ce deuxième facteur de vérification. Cela rend la 2FA essentielle pour protéger vos comptes en ligne contre les accès non autorisés.
 
-## Quelle option choisir ?
+### Quelle option choisir ?
 
 Les différentes options pour l'authentification forte offrent des niveaux de sécurité variables.
 
@@ -349,7 +355,7 @@ Pour une sécurité optimale avec l'authentification forte, il est recommandé d
 
 La biométrie peut être utilisée comme un substitut, mais elle est moins sécurisée que la combinaison de la connaissance et de la possession. Les données biométriques doivent rester sur l'appareil d'authentification et ne pas être divulguées en ligne. Il est important de prendre en compte le modèle de menace associé aux différents moyens d'authentification et d'adapter sa pratique en conséquence.
 
-## Conclusion de la formation :
+### Conclusion de la formation :
 
 Vous l'avez compris, la mise en place d'une bonne hygiène numérique n'est pas forcément simple, mais elle reste accessible !
 
@@ -362,15 +368,45 @@ Continuez à apprendre et à mettre en place petit à petit les bonnes pratiques
 
 Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter à votre parcours d'apprentissage !
 
-## Tutoriel : des solutions 2FA et Yubikey
+### Tutoriel : des solutions 2FA et Yubikey
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 # Allez plus loins
 
-## Comment travailler dans cette industrie
+## Comment travailler dans cette industrie de la cybersécurité
 
 ![conclusion et travailler dans l'industrie](https://youtu.be/YZ2EKaPvoZU)
+
+La cybersécurité, un domaine en plein essor, offre une multitude d'opportunités pour ceux passionnés par la protection des systèmes et des données. Si cette industrie vous intrigue, voici quelques étapes clés pour vous orienter.
+
+### Fondations académiques et certifications :
+
+Une solide formation en informatique, en systèmes d'information ou dans un domaine apparenté est souvent le tremplin idéal pour se lancer. Ces études fournissent les bases nécessaires pour appréhender les enjeux techniques de la cybersécurité. Pour compléter cette formation, il est judicieux d'obtenir des certifications reconnues dans le domaine. Bien que ces certifications puissent varier selon les régions, certaines, telles que CISSP ou CEH, jouissent d'une reconnaissance mondiale.
+
+La cybersécurité est un domaine vaste et en constante évolution. Se familiariser avec les outils essentiels et les différents systèmes est crucial. De plus, avec tant de sous-domaines, de la réponse aux incidents au piratage éthique, il est bénéfique de trouver sa niche et de s'y spécialiser.
+
+### Gagner en expérience pratique :
+
+L'importance de l'expérience pratique ne saurait être sous-estimée. Rechercher des stages ou des postes juniors dans des entreprises dotées d'équipes de sécurité informatique est une excellente manière de mettre en application ses connaissances théoriques. De plus, s'engager dans des compétitions de piratage éthique ou des simulations de cybersécurité peut affiner vos compétences dans des situations concrètes.
+
+La force d'un réseau professionnel est inestimable. Rejoindre des associations professionnelles, des hackerspaces ou des forums en ligne offre une plateforme pour échanger avec d'autres experts. De même, assister à des conférences et ateliers dédiés à la cybersécurité permet non seulement d'apprendre, mais aussi de tisser des liens avec des professionnels du secteur.
+
+L'évolution constante des menaces nécessite une veille régulière des actualités et des forums spécialisés. Dans un secteur où la confiance est primordiale, agir avec éthique et intégrité est essentiel à chaque étape de votre carrière.
+
+### Skills et outils à approfondir :
+
+- Outils de cybersécurité : Wireshark, Metasploit, Nmap.
+- Systèmes d'exploitation : Linux, Windows, MacOS.
+- Langages de programmation : Python, C, Java.
+- Réseaux : TCP/IP, VPN, pare-feu.
+- Bases de données : SQL, NoSQL.
+- Cryptographie : SSL/TLS, chiffrement symétrique/asymétrique.
+- Gestion des incidents : Analyse des logs, réponse aux incidents.
+- Piratage éthique : Techniques de pénétration, tests d'intrusion.
+- Gouvernance : Normes ISO, réglementations GDPR/CCPA.
+
+En maîtrisant ces compétences et outils, vous serez bien équipé pour naviguer avec succès dans le monde de la cybersécurité.
 
 ## Interview de Renaud
 
@@ -407,15 +443,15 @@ Autres considérations clés
 
 Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
-# Remerciements et continuez à creuser le terrier du lapin
+## Remerciements et continuez à creuser le terrier du lapin
 
-## Notez la formation & nous soutenir
+### Notez la formation & nous soutenir
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
 
 Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 
-## allez plus loins
+### allez plus loins
 
 Félicitations pour avoir terminé cette formation SECU 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. vous etes désomrais pret pour obtenir vos premier bitcoin ou tous simplement continuer l'aventure avec les cours de niveau 2 !
 

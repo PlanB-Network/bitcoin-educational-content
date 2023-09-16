@@ -126,6 +126,7 @@ Le processus de HMAC-SHA-512 implique la concaténation du résultat de SHA-512 
 Le code de chaîne, en intégrant une source supplémentaire d'entropie, augmente la sécurité des clés dérivées. Sans lui, une attaque pourrait compromettre l'ensemble du portefeuille et voler tous les bitcoins.
 
 PBKDF2 est utilisé pour convertir une phrase mémonique en graine. Cet algorithme réalise 2048 tours en utilisant HMAC SHA512. Grâce à ces algorithmes de dérivation, deux entrées différentes peuvent donner une sortie unique et fixe, ce qui pallie le problème des attaques par extension de longueur possibles sur les fonctions de la famille SHA-2.
+
 Une attaque par extension de longueur exploite une propriété spécifique de certaines fonctions de hachage cryptographiques. Dans une telle attaque, un attaquant qui possède déjà le hachage d'un message inconnu peut l'utiliser pour calculer le hachage d'un message plus long, qui est une extension du message original. Cela est souvent possible sans connaître le contenu du message original, ce qui peut mener à des failles de sécurité importantes si ce genre de fonction de hachage est utilisé pour des tâches comme la vérification d'intégrité.
 
 ![image](assets/image/section1/16.JPG)
@@ -591,7 +592,6 @@ Nous allons utiliser des dés pour générer une information binaire. Lancez un 
 Organisez les nombres binaires obtenus en rangées de 11 chiffres pour faciliter les calculs ultérieurs. La douzième ligne ne devrait que 7 chiffres.
 
 **Étape 4 - Calcul de la checksum :**
-
 Les derniers 4 chiffres pour la douxième ligne correspondent à la checksum. Pour calculer cette checksum, il nous faut utiliser un terminal d'une distribution Linux. Il est conseillé d'utiliser [TailOs](https://tails.boum.org/index.fr.html) qui est une distribution sans mémoire bootable à partir d'une clé USB. Une fois sur votre terminal, entrez la commande `echo <binary number> | shasum -a 254 -0`. Remplacer `<binary number>` par votre liste de 128 zéro et un. La sortie est un hash en hexadécimal. Relevez le premier caractère de ce hash et convertissez le en binaire. Vous pouvez vous aider de cette [table](https://www.educative.io/answers/decimal-binary-and-hex-conversion-table). Ajoutez la checksum en binaire (4 chiffres) à la douxième ligne de votre feuille.
 
 **Étape 5 - Conversion en décimale :**

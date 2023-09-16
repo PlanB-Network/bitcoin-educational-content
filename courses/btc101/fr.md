@@ -21,7 +21,6 @@ La formation devrait prendre environ 15 heures. Durant tout le parcours, des pos
 
 ![Introduction](https://youtu.be/PdiL6_1wbQY)
 
-<<<<<<< HEAD
 Bitcoin est une innovation significative qui va au-delà d'une simple "monnaie d'internet". C'est une révolution à la fois technologique et monétaire, capable de questionner notre rapport avec la monnaie. Bitcoin avec un "B" majuscule représente le protocole, alors que bitcoin avec "b" minuscule correspond à l'unité de compte de la monnaie du protocole Bitcoin.  
 Le bitcoin est une **monnaie neutre**, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.
 Bitcoin est une innovation significative qui va au-delà d'une simple devise. C'est une révolution à la fois technologique et monétaire, capable de transformer notre perception de la monnaie et des transactions financières. Bitcoin est également une monnaie décentralisée, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.

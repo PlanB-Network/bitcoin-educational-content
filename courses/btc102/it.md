@@ -283,7 +283,7 @@ Buona fortuna! Spero che mi seguirete nell'universo di Bitcoin e mi permetterete
 
 # Comprendere in cosa ci si sta imbarcando
 
- ## Bitcoin in 5 minuti
+## Bitcoin in 5 minuti
 
 In questa formazione, vogliamo concentrarci sul piano d'azione per ottenere i vostri primi Bitcoin. Se desiderate una spiegazione approfondita dei fondamenti di Bitcoin, vi consigliamo BTC 101, disponibile gratuitamente su questa piattaforma.
 
@@ -509,6 +509,9 @@ Chiunque può iniziare a contribuire al codice, ma è importante notare che modi
 Un potere illimitato? No. I principali sviluppatori non hanno un potere illimitato e non possono modificare o controllare Bitcoin da soli. Sono i nodi che detengono il potere. Nessuno controlla Bitcoin.
 
 ![blockchain](assets/industrie/5.JPG)
+
+## L'architettura stratificata di Bitcoin
+
 Bitcoin, come protocollo open source, può essere completato ed arricchito da strati di protocolli/applicazioni aggiunti da chiunque. Alcune di queste funzionalità sono più significative di altre, creando un ecosistema dinamico con una moltitudine di aziende che contribuiscono alla costruzione dell'infrastruttura. Esempi di tali progetti includono: Sidechains (ad esempio, Liquid Chain di Blockstream), Lightning Network di Lightning Labs e concetti di identità (ad esempio, Microsoft ION). Questi progetti sono come strati aggiuntivi aggiunti al protocollo Bitcoin iniziale.
 
 Sapevate che? Internet non è stato costruito in un solo blocco. È invece il risultato di diversi strati di protocolli impilati l'uno sull'altro - HTTP, TCP, IP. In questo modo, ogni strato è estremamente efficiente nel compiere il compito specificamente assegnatogli, mentre gli altri livelli rispondono ad altre esigenze.

@@ -310,7 +310,6 @@ Wenn dies für Sie neu ist, empfehle ich Ihnen dringend, BTC 101 zu folgen, bevo
 
 ![in a nutshell](assets/section2/10.JPG)
 
-
 ## Warum ist Bitcoin wichtig?
 
 ![Warum ist Bitcoin so wichtig](https://youtu.be/Iq0wZF3Ui9A)
@@ -496,6 +495,8 @@ Leur industrie se divise en de nombreux acteurs de tailles variées :
 - Die Miner: Sie verwenden Maschinen und Software, um ihre Mining-Operationen zu starten. Es gibt sowohl kleine Amateur-Miner, die einen S9 verwenden (wie wir es in der Mining 201-Schulung lehren), als auch internationale Miner wie Galaxy, die riesige Lagerhallen in Texas zum Mining besitzen.
 
 Mining ist ein eigenständiger Bereich, also wenn Sie sich für das Thema Energie interessieren, werden Sie bedient.
+
+## Die geschichtete Architektur von Bitcoin
 
 Bitcoin ist ein Open-Source-Protokoll. Sie können den Code auf GitHub finden: https://github.com/bitcoin/bitcoin. Von dort aus können Sie alle Update-Vorschläge, Dokumentationen und viele Community-Diskussionen einsehen. Alles ist transparent, und es liegt am Benutzer, ein Update durchzuführen oder nicht. Die Hauptentwickler von Bitcoin sind für die Verwaltung dieses GitHub verantwortlich. Sie aktualisieren den Quellcode, überprüfen Fehler und sind für die globale Projektverwaltung zuständig.
 

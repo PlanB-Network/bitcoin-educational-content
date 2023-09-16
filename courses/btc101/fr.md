@@ -4,26 +4,31 @@ goal: Découvrir Bitcoin et ses fondamentaux avec sa proposition de valeur moné
 objectives:
   - Avoir une compréhension générale de la technologie Bitcoin
   - Comprendre comment acheter et sécuriser ses bitcoins
-  - Se familiariser avec le Lightning Network
+  - Avoir une compréhension générale de la technologie Blockchain
+  - Etre familiarisé avec le concept du Litghning Network
   - Réaliser l’impact géopolitique et social que représente Bitcoin
 ---
 
 # Votre première aventure Bitcoin
 
-Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: minage, portefeuille, plateforme d’achat/vente, etc…
+Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: mineurs, portefeuille, plateforme d’achat/vente, etc…
 
 La formation devrait prendre environ 15 heures. Durant tout le parcours, des posters explicatifs sont disponibles ainsi que des ressources supplémentaires.
 
-# Découvrir Bitcoin
++++
+
+# Introduction : la formation Bitcoin
 
 ![Introduction](https://youtu.be/PdiL6_1wbQY)
 
+<<<<<<< HEAD
 Bitcoin est une innovation significative qui va au-delà d'une simple "monnaie d'internet". C'est une révolution à la fois technologique et monétaire, capable de questionner notre rapport avec la monnaie. Bitcoin avec un "B" majuscule représente le protocole, alors que bitcoin avec "b" minuscule correspond à l'unité de compte de la monnaie du protocole Bitcoin.  
 Le bitcoin est une **monnaie neutre**, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.
-
-Au cours des prochains chapitres, nous discuterons des aspects techniques et monétaires du protocole Bitcoin, mais également de la façon de s'en procurer, de les conserver en toute sécurité dans des portefeuilles Bitcoin et de les utiliser pour effectuer des transactions.
-
+Bitcoin est une innovation significative qui va au-delà d'une simple devise. C'est une révolution à la fois technologique et monétaire, capable de transformer notre perception de la monnaie et des transactions financières. Bitcoin est également une monnaie décentralisée, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.
+Dans le cadre de cette formation, nous discuterons des aspects monétaires de Bitcoin, y compris la façon d'acheter et de vendre des bitcoins, de les conserver en toute sécurité dans des portefeuilles numériques et de les utiliser pour effectuer des transactions.
+Nous examinerons également le rôle des mineurs, qui sont essentiels à la création de nouveaux bitcoins et à la sécurisation du réseau Bitcoin. En outre, nous nous pencherons sur l'avenir de Bitcoin et sur la manière dont la technologie du Lightning Network peut améliorer les transactions Bitcoin.
 Il est essentiel de comprendre que Bitcoin est un nouveau système monétaire qui révolutionne notre rapport à l'argent. Apprendre à utiliser Bitcoin est une compétence essentielle pour tous ceux qui souhaitent être souverain de leur propre argent.
+Avant d'aborder la définition et le fonctionnement de la monnaie dans une société, nous démarrons avec la génèse de Bitcoin. Puis, nous explorerons le rôle de Bitcoin en tant que monnaie et comment il peut transformer notre perception des transactions financières.
 
 Bitcoin est une technologie relativement nouvelle, lancée en 2009, qui est semblable à rien d'autre. Il est donc normal de ne pas tout comprendre sur le moment. Cependant, à l'instar de notre manière d'apprendre à utiliser Internet ou une voiture, il est pas nécessaire de comprendre toutes les subtilités techniques pour savoir utiliser Bitcoin (recevoir, payer, sécuriser ses fonds).
 
@@ -42,6 +47,15 @@ Après seulement deux ans, Satoshi Nakamoto se retire complètement de ce projet
 Bitcoin représente une révolution sur trois niveaux : numérique, financier et technologique. Pour saisir pleinement la nature et la portée de cette révolution, il est crucial de comprendre les bases de Bitcoin, ses fondements et le contexte historique dans lequel il a été créé. Bitcoin conteste le système financier traditionnel en place, et se construit comme un système monétaire alternatif.
 
 Au sein du sytème financier actuel les monnaies (telles que l'euro ou le dollar) sont uniquement émises de manière imprévisible par les banques centrales et les États, et sont donc sujettes à l'inflation, voir même à l'hyperinflation, ce qui entraînent de lourds effets néfastes sur les sociétés et les individus. À l'inverse Bitcoin, est un sytème ouvert qui défini explicitement un calendrier d'émission de nouveaux bitcoin de manière précise, fixe et transparente. En particulier, l'émission de cette nouvelle monnaie s'effectue lors de la création d'un nouveau bloc valide pour récompenser le mineur qui a dépensé des ressources pour obtenir ce nouveau bloc valide. De plus, cette récompense est divisée par deux après tous les 210,000 blocs (soit environ tous les 4 ans) afin d'assurer à la fois une quantité de bitcoin en circulation finie (d'environ 21,000,000,000 BTC) et d'une inflation monétaire qui tend vers zéro à mesure que le temps passe.
+
+Pour comprendre l'origine de Bitcoin, il faut remonter aux années 1980 et au mouvement cypherpunk. Les cypherpunks sont des précurseurs qui ont innové et expérimenté avec des technologies telles que PGP (Pretty Good Privacy), l'Internet et la cryptographie. Ils ont façonné un mouvement dédié à la protection de la vie privée à l'ère du numérique.
+En 2009, une personne (ou un groupe de personnes) du nom de Satoshi Nakamoto a élaboré Bitcoin en s'appuyant sur les technologies développées par les cypherpunks. Bitcoin représente une révolution à plusieurs niveaux : numérique, financier et technologique. Pour saisir pleinement la nature et la portée de cette révolution, il est crucial de comprendre les fondements de Bitcoin.
+
+Bitcoin conteste le système financier traditionnel en mettant en évidence les inégalités et les problèmes d'inflation associés à la monnaie fiduciaire. Les monnaies émises par les banques centrales et les États, telles que l'euro ou le dollar, sont sujettes à l'inflation. Cela peut entraîner des effets néfastes sur les sociétés et les individus.
+En revanche, Bitcoin, qui est une synthèse des technologies développées depuis les années 1970, a une quantité maximale limitée, lui conférant une caractéristique similaire à celle de l'or. Le débat sur la validité de Bitcoin en tant que monnaie continue, mais une chose est certaine : grâce à l'héritage des cypherpunks, Bitcoin est là pour durer.
+
+Bitcoin est à la fois une monnaie numérique et un protocole informatique. En tant que tel, il a été conçu pour perdurer. Il est important de reconnaître le rôle essentiel des contributeurs et des soutiens de ce projet, y compris ceux qui font des dons via des plateformes comme Patreon.
+En somme, Bitcoin est une révolution technologique, financière et sociale qui a ses racines dans le mouvement cypherpunk. Il remet en question le système financier traditionnel et offre une alternative prometteuse et durable. Pour comprendre pleinement Bitcoin, il est essentiel de comprendre ces concepts clés et l'héritage de ceux qui ont contribué à sa création.
 
 Bitcoin est donc un protocole qui s'inscrit sur des temps longs, et qui nous incite à nous questionner sur notre rapport à l'énergie, le temps et la monnaie. Mais est-ce que bitcoin est une "vraie" monnaie" ? Qu'est-ce qu'une monnaie ? Existe-t-elle sous plusieurs formes ? C'est ce que nous allons voir au prochain chapitre.
 

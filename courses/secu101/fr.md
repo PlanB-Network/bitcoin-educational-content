@@ -79,9 +79,9 @@ En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, n
 
 Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement.
 
-# Section 1: Tout savoir sur la navigation en ligne
+# Tout savoir sur la navigation en ligne
 
-## 1. Navigation en ligne
+## Navigation en ligne
 
 ![navigation en ligne](https://youtu.be/BEK7vGnkO64)
 
@@ -120,7 +120,7 @@ TOR est légal et est utilisé par des journalistes, des activistes de la libert
 
 **_Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub_**
 
-## 2. VPN et connexion internet
+## VPN et connexion internet
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
 
@@ -150,7 +150,7 @@ En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en li
 
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
-# Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
+# Les bonnes pratiques d'utilisation de l'ordinateur
 
 ## Utilisation de l’ordinateur
 
@@ -240,7 +240,7 @@ NON, Il est généralement déconseillé de payer les hackers en cas de ransomwa
 
 Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
-# Section 3: Mise en place des solutions.
+# Mise en place des solutions.
 
 ## La gestion des boites mails
 

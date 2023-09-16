@@ -102,4 +102,3 @@ Those are all the SeedSigner guides, for now! Let me know if you think I am miss
 > How to be uncle Jim with SeedSigner
 
 Found these valuable? Consider sending a tip to help fund future videos:
-https://www.southernbitcoiner.com/donate/

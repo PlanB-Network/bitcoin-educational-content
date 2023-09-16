@@ -1,5 +1,5 @@
 ---
-name: Trezor modèle One
+name: Trezor One
 
 description: Configuration et utilisation du Trezor modèle One
 ---
@@ -8,7 +8,7 @@ description: Configuration et utilisation du Trezor modèle One
 
 # Trezor modèle ONE
 
-Trezor modèle One
+# Guide vidéo
 
 Portefeuille matériel froid - 60€ - Débutant - Sécurise entre 2 000€ et 50 000€.
 
@@ -16,22 +16,13 @@ En tant que portefeuille physique froid, le Trezor est idéal pour commencer ave
 
 Nous avons déjà réalisé des tutoriels sur la façon de l'utiliser :
 
-1. Configuration
-2. Récupération de bitcoins
-3. Utilisation, envoi et réception de bitcoins
+- Configuration - https://www.youtube.com/watch?v=q-BlT6R4_bE
 
-Souhaitez-vous avoir votre propre Trezor également ?
-Vous pouvez contribuer au projet en cliquant ci-dessous !
+- Récupération : https://www.youtube.com/watch?v=3n4d4egjiFM
 
-configuration - https://www.youtube.com/watch?v=q-BlT6R4_bE
+- Utilisation : https://www.youtube.com/watch?v=syouZjLC1zY
 
-récupération : https://www.youtube.com/watch?v=3n4d4egjiFM
-
-utilisation : https://www.youtube.com/watch?v=syouZjLC1zY
-
-## guide d'écriture
-
-guide proposé par https://armantheparman.com/trezor/
+# Guide d'écriture
 
 ## Configuration du Trezor
 

@@ -12,7 +12,7 @@ Bitcoin est une technologie d'épargne accessible et équitable, et c'est un moy
 
 site web: https://lnp2pbot.com/
 
-HitHub: https://github.com/lnp2pBot/bot
+GitHub: https://github.com/lnp2pBot/bot
 
 Toutes les ressources: https://lnp2pbot.com/learn/
 

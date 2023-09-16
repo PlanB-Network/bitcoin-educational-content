@@ -60,8 +60,6 @@ Installazione del software
 
 ## Video tutorial
 
-_Guida tratta da Southerbitcoiner, creata da Cole_
-
 ### Una raccolta di video guide su SeedSigner: un portafoglio hardware fai-da-te/open source
 
 ![image](assets/1.jpeg)
@@ -100,5 +98,3 @@ Queste sono tutte le guide di SeedSigner, per ora! Fammi sapere se pensi che mi 
 > Come essere zio Jim con SeedSigner
 
 Hai trovato utili queste informazioni? Considera di inviare una mancia per contribuire a finanziare futuri video:
-
-https://www.southernbitcoiner.com/donate/

@@ -6,8 +6,6 @@ description: Installare Tails su una chiavetta USB
 
 # Installare Tails su una chiavetta USB
 
-_**Guida proposta da Hari Seldon nell'ambito di Agora256**_
-
 ![image](assets/cover.jpeg)
 
 Un sistema operativo portatile e amnesico che ti protegge dalla sorveglianza e dalla censura.
@@ -153,5 +151,3 @@ Una volta che avrai sperimentato un po' di più con la tua chiavetta USB Tails, 
 
 > Aggiornare una chiave con l'ultima versione di Tails; Configurare e utilizzare lo storage persistente; Installare software aggiuntivi.
 > Fino ad allora, come sempre, se avete domande, non esitate a condividerle con la comunità Agora256, impariamo insieme, per essere migliori domani di quanto siamo oggi!
-
-> _**Guida proposta da Hari Seldon nell'ambito di Agora256; post originale: https://agora256.com/installer-tails-usb/**_'

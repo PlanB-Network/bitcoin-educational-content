@@ -60,8 +60,6 @@ Instalación de software
 
 ## Tutorial en video
 
-_Guía tomada de Southerbitcoiner, creada por Cole_
-
 ### Una colección de guías en video sobre SeedSigner: una billetera de hardware de código abierto y de bricolaje
 
 ![image](assets/1.jpeg)

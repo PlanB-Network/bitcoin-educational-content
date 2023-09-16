@@ -14,8 +14,6 @@ RoboSats (https://learn.robosats.com/) ist eine einfache Möglichkeit, Bitcoin g
 
 ## Anleitung
 
-> Diese Anleitung stammt von Bitcoin Q&A (https://bitcoiner.guide/robosats/). Alle Credits gehen an ihn, unterstützen Sie ihn dort (https://bitcoiner.guide/contribute); BitcoinQ&A ist auch ein Bitcoin-Mentor. Kontaktieren Sie ihn für Mentoring!
-
 ![image](assets/0.png)
 
 RoboSats - Ein einfacher und privater Lightning-basierter P2P-Austausch
@@ -209,4 +207,3 @@ Da RoboSats ein Open-Source-Projekt ist, könnte jeder den Code nehmen und seine
 Das RoboSats-Team ist sich dessen bewusst und arbeitet an einem föderierten Modell. Als Endbenutzer sollte sich der Handelsfluss, wie oben gezeigt, dadurch nicht wesentlich ändern, es wird jedoch zusätzliche Ansichten oder Bildschirme geben, um verschiedene Koordinatoren hinzuzufügen oder zu entfernen, die entstehen.
 
 ENDE des Leitfadens
-https://bitcoiner.guide/robosats/

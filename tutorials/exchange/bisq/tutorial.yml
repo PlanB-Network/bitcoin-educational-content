@@ -8,3 +8,11 @@ tags:
   - peer-to-peer
   - open-source
   - bitcoin-only
+
+credits:
+  name: Bitcoin Q&A
+  link: https://bitcoiner.guide/bisq/
+  tips:
+    lightning_adress: qna@tips.bitcoiner.guide
+    paynym: +BQA
+    on-chain:

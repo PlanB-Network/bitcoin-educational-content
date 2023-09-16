@@ -60,8 +60,6 @@ Softwareinstallation
 
 ## Video-Tutorial
 
-_Anleitung von Southerbitcoiner, erstellt von Cole_
-
 ### Eine Sammlung von Video-Anleitungen zu SeedSigner: einer Open-Source, DIY-Hardware-Wallet/Signing-Gerät
 
 ![image](assets/1.jpeg)
@@ -101,5 +99,3 @@ Das sind alle SeedSigner-Anleitungen, vorerst! Lass mich wissen, wenn du denkst,
 > Wie man Onkel Jim mit dem SeedSigner ist
 
 Fandest du diese Informationen hilfreich? Überlege, ein Trinkgeld zu senden, um zukünftige Videos zu unterstützen:
-
-https://www.southernbitcoiner.com/donate/

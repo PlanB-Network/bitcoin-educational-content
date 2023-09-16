@@ -60,8 +60,6 @@ Instalação do Software
 
 ## tutorial em vídeo
 
-_guia retirado de Southerbitcoiner, criado por Cole_
-
 ### Uma coleção de guias em vídeo sobre SeedSigner: uma carteira de hardware/DIY de código aberto
 
 ![imagem](assets/1.jpeg)
@@ -100,5 +98,3 @@ Esses são todos os guias do SeedSigner, por enquanto! Me avise se achar que est
 > Como ser o tio Jim com o SeedSigner
 
 Achou esses vídeos úteis? Considere enviar uma gorjeta para ajudar a financiar futuros vídeos:
-
-https://www.southernbitcoiner.com/donate/

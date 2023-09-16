@@ -8,8 +8,6 @@ description: Guia para começar a aceitar bitcoin usando o Breez POS
 
 # Breez Ponto de Vendas
 
-_Este texto vem do site de documentação do Breez: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
-
 ## O que é o Breez POS?
 
 **Breez** é um aplicativo completo e não custodial da Lightning. Vamos entender isso:

@@ -8,9 +8,7 @@ description: Guía completa sobre Sparrow
 
 # Sparrow
 
-## Una serie de videos que cubren la Cartera de Bitcoin Sparrow. Guías para principiantes y usuarios más avanzados.
-
-> _Esta guía siguiente es de Cole, gracias por compartirla con nosotros. Publicación original: https://www.southernbitcoiner.com/sparrow-guides/_
+### Una serie de videos que cubren la Cartera de Bitcoin Sparrow. Guías para principiantes y usuarios más avanzados.
 
 La cartera Sparrow es el estándar de oro para las carteras de Bitcoin. Es rica en funciones y se enfoca en la seguridad, privacidad y facilidad de uso. Todo lo que deseas de una cartera de Bitcoin, Sparrow puede hacerlo.
 
@@ -57,5 +55,3 @@ Cuando mezcles tus monedas en la cartera Sparrow, es probable que te quede cambi
 Nuevamente, cuando tu Bitcoin está en riesgo, es mejor verificar el software que descargas. A continuación, hay una guía sobre cómo actualizar de manera segura tu cartera Sparrow. Esencialmente, es el mismo proceso que descargarla por primera vez.
 
 ![Cómo actualizar de manera segura la cartera Sparrow](https://youtu.be/IThaolnDgSo)
-
-**_Gracias a southernbitcoiner por compartir esta guía con todos nosotros_**

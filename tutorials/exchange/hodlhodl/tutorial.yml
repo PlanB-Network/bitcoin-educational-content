@@ -8,3 +8,11 @@ tags:
   - multi-coin
   - peer-to-peer
   - light-KYC
+
+credits:
+  name: Bitcoin Q&A
+  link: https://bitcoiner.guide/hodlhodl/
+  tips:
+    lightning_adress: qna@tips.bitcoiner.guide
+    paynym: +BQA
+    on-chain:

@@ -16,22 +16,13 @@ Como billetera física en frío, Trezor es ideal para comenzar en Bitcoin. Es f�
 
 Ya hemos realizado tutoriales sobre cómo usarlo:
 
-1. Configuración
-2. Recuperación de bitcoins
-3. Uso, envío y recepción de bitcoins
+- Configuración: https://www.youtube.com/watch?v=q-BlT6R4_bE
 
-¿Te gustaría tener tu propio Trezor también?
-¡Puedes contribuir al proyecto haciendo clic a continuación!
+- Recuperación: https://www.youtube.com/watch?v=3n4d4egjiFM
 
-configuración: https://www.youtube.com/watch?v=q-BlT6R4_bE
+- Uso: https://www.youtube.com/watch?v=syouZjLC1zY
 
-recuperación: https://www.youtube.com/watch?v=3n4d4egjiFM
-
-uso: https://www.youtube.com/watch?v=syouZjLC1zY
-
-## guía de escritura
-
-guía propuesta por https://armantheparman.com/trezor/
+# guía de escritura
 
 ## Configuración del Trezor
 

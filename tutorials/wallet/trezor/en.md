@@ -16,22 +16,13 @@ As cold physical wallet, Trezor is ideal to starting in Bitcoin. It’s easy to 
 
 We have already made tutorials on how to use it :
 
-1. Setting it up
-2. Recovering bitcoins
-3. Using, sending and receiving bitcoins
+- Setting up -https://www.youtube.com/watch?v=q-BlT6R4_bE
 
-Would you like to have your own Trezor too?
-You can contribute to the project by clicking below !
+- Recovery: https://www.youtube.com/watch?v=3n4d4egjiFM
 
-settin up -https://www.youtube.com/watch?v=q-BlT6R4_bE
+- Use : https://www.youtube.com/watch?v=syouZjLC1zY
 
-recovery: https://www.youtube.com/watch?v=3n4d4egjiFM
-
-use : https://www.youtube.com/watch?v=syouZjLC1zY
-
-## writing guide
-
-guide proposed by https://armantheparman.com/trezor/
+# writing guide
 
 ## Setting up the Trezor
 

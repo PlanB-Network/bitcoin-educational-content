@@ -8,9 +8,7 @@ description: Guide complet sur Sparrow
 
 # Sparrow
 
-## Une série de vidéos couvrant le portefeuille Bitcoin Sparrow. Des guides pour les débutants et les utilisateurs plus avancés.
-
-> _Ce guide suivant est de Cole, merci de l'avoir partagé avec nous. Article original : https://www.southernbitcoiner.com/sparrow-guides/_
+### Une série de vidéos couvrant le portefeuille Bitcoin Sparrow. Des guides pour les débutants et les utilisateurs plus avancés.
 
 Le portefeuille Sparrow est la référence en matière de portefeuilles Bitcoin. Il est riche en fonctionnalités avec une attention particulière portée à la sécurité, à la confidentialité et à la facilité d'utilisation. Tout ce que vous souhaitez d'un portefeuille Bitcoin, Sparrow peut le faire.
 
@@ -57,5 +55,3 @@ Lorsque vous mélangez vos Bitcoins dans le portefeuille Sparrow, il vous rester
 Encore une fois, lorsque votre Bitcoin est en danger, il est préférable de vérifier le logiciel que vous téléchargez. Voici un guide sur la façon de mettre à jour en toute sécurité votre portefeuille Sparrow. C'est essentiellement le même processus que pour le téléchargement initial.
 
 ![Comment mettre à jour en toute sécurité le portefeuille Sparrow](https://youtu.be/IThaolnDgSo)
-
-**_Merci à southernbitcoiner d'avoir partagé ce guide avec nous tous_**

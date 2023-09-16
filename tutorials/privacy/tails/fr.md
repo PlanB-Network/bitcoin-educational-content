@@ -6,8 +6,6 @@ description: Installer Tails sur une clé USB
 
 # Installer Tails sur une clé USB
 
-_**Guide proposé par Hari Seldon dans le cadre de Agora256**_
-
 ![image](assets/cover.jpeg)
 
 Un système d'exploitation portable et amnésique qui vous protège contre la surveillance et la censure.
@@ -154,5 +152,3 @@ Une fois que vous aurez expérimenté un peu plus avec votre propre clé USB Tai
 > Mettre à jour une clé avec la dernière version de Tails; Configurer et utiliser le stockage persistant; Installer des logiciels supplémentaires.
 
 D'ici là, comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
-
-> _**Guide proposé par Hari Seldon dans le cadre de Agora256; post orginal: https://agora256.com/installer-tails-usb/**_

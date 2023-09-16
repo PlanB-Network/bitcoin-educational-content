@@ -14,8 +14,6 @@ RoboSats (https://learn.robosats.com/) è un modo semplice per scambiare Bitcoin
 
 ## Guida
 
-> Questa guida è di Bitocin Q&A (https://bitcoiner.guide/robosats/). Tutto il merito va a lui, supportatelo lì (https://bitcoiner.guide/contribute); BitcoinQ&A è anche un mentore di Bitcoin. Contattatelo per il mentoring!
-
 ![image](assets/0.png)
 
 RoboSats - Uno scambio P2P semplice e privato basato su Lightning
@@ -207,4 +205,3 @@ Essendo RoboSats un progetto Open Source, chiunque potrebbe prendere il codice e
 Il team di RoboSats è consapevole di ciò e ha iniziato a lavorare su un modello federato. Come utente finale, questo non dovrebbe cambiare molto il flusso di trading sopra descritto, ma ci saranno viste o schermate extra per aggiungere o rimuovere diversi coordinatori che emergono.
 
 FINE della guida
-https://bitcoiner.guide/robosats/

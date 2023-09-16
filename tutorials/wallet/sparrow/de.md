@@ -8,9 +8,7 @@ description: Vollständiger Leitfaden zu Sparrow
 
 # Sparrow
 
-## Eine Serie von Videos über die Sparrow Bitcoin Wallet. Anleitungen für Anfänger und fortgeschrittene Benutzer.
-
-> _Dieser Leitfaden stammt von Cole. Vielen Dank, dass du ihn mit uns geteilt hast. Originalbeitrag: https://www.southernbitcoiner.com/sparrow-guides/_
+### Eine Serie von Videos über die Sparrow Bitcoin Wallet. Anleitungen für Anfänger und fortgeschrittene Benutzer.
 
 Die Sparrow Wallet ist der Goldstandard für Bitcoin-Wallets. Sie ist funktionsreich und legt den Schwerpunkt auf Sicherheit, Privatsphäre und Benutzerfreundlichkeit. Alles, was du von einer Bitcoin-Wallet möchtest, kann Sparrow tun.
 
@@ -57,5 +55,3 @@ Wenn du deine Münzen in der Sparrow Wallet mischst, wirst du wahrscheinlich nic
 Auch hier ist es am besten, die heruntergeladene Software zu überprüfen, wenn dein Bitcoin gefährdet ist. Unten findest du eine Anleitung, wie du deine Sparrow Wallet sicher aktualisierst. Der Vorgang ist im Wesentlichen derselbe wie beim ersten Mal herunterladen.
 
 ![Wie man die Sparrow Wallet sicher aktualisiert](https://youtu.be/IThaolnDgSo)
-
-**_Vielen Dank an southernbitcoiner, dass er diesen Leitfaden mit uns allen geteilt hat_**

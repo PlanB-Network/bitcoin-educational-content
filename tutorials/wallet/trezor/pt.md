@@ -16,22 +16,13 @@ Como carteira física fria, o Trezor é ideal para começar no Bitcoin. É fáci
 
 Já fizemos tutoriais sobre como usá-lo:
 
-1. Configurando
-2. Recuperando bitcoins
-3. Usando, enviando e recebendo bitcoins
+- Configuração - https://www.youtube.com/watch?v=q-BlT6R4_bE
 
-Você gostaria de ter o seu próprio Trezor também?
-Você pode contribuir para o projeto clicando abaixo!
+- Recuperação: https://www.youtube.com/watch?v=3n4d4egjiFM
 
-configuração - https://www.youtube.com/watch?v=q-BlT6R4_bE
+- Uso: https://www.youtube.com/watch?v=syouZjLC1zY
 
-recuperação: https://www.youtube.com/watch?v=3n4d4egjiFM
-
-uso: https://www.youtube.com/watch?v=syouZjLC1zY
-
-## guia de escrita
-
-guia proposto por https://armantheparman.com/trezor/
+# guia de escrita
 
 ## Configurando o Trezor
 

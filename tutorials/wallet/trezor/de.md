@@ -16,22 +16,13 @@ Als kalte physische Brieftasche ist der Trezor ideal für den Einstieg in Bitcoi
 
 Wir haben bereits Anleitungen zur Verwendung erstellt:
 
-1. Einrichtung
-2. Wiederherstellung von Bitcoins
-3. Verwendung, Senden und Empfangen von Bitcoins
+- Einrichtung - https://www.youtube.com/watch?v=q-BlT6R4_bE
 
-Möchten Sie auch Ihren eigenen Trezor haben?
-Sie können zum Projekt beitragen, indem Sie unten auf den Link klicken!
+- Wiederherstellung: https://www.youtube.com/watch?v=3n4d4egjiFM
 
-Einrichtung - https://www.youtube.com/watch?v=q-BlT6R4_bE
+- Verwendung: https://www.youtube.com/watch?v=syouZjLC1zY
 
-Wiederherstellung: https://www.youtube.com/watch?v=3n4d4egjiFM
-
-Verwendung: https://www.youtube.com/watch?v=syouZjLC1zY
-
-## Schreibanleitung
-
-Anleitung vorgeschlagen von https://armantheparman.com/trezor/
+# Schreibanleitung
 
 ## Einrichtung des Trezor
 

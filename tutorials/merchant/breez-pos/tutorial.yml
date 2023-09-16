@@ -9,3 +9,11 @@ tags:
   - lightning
   - infrasctructure
   - POS
+
+credits:
+  name: BREEZ
+  link: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html
+  tips:
+    lightning_adress:
+    paynym:
+    on-chain:

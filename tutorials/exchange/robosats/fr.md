@@ -14,8 +14,6 @@ RoboSats (https://learn.robosats.com/) est un moyen facile d'échanger privémen
 
 ## Guide
 
-> Ce guide provient de Bitcoin Q&A (https://bitcoiner.guide/robosats/). Tout le crédit lui revient, soutenez-le là-bas (https://bitcoiner.guide/contribute) ; BitcoinQ&A est également un mentor en Bitcoin. Contactez-le pour du mentorat !
-
 ![image](assets/0.png)
 
 RoboSats - Un échange P2P simple et privé basé sur Lightning
@@ -207,4 +205,3 @@ Avec RoboSats étant un projet Open Source, n'importe qui pourrait prendre le co
 L'équipe de RoboSats en est consciente et a commencé à travailler sur un modèle fédéré. En tant qu'utilisateur final, cela ne devrait pas changer beaucoup le flux d'échange démontré ci-dessus, mais il y aura des vues ou des écrans supplémentaires pour vous permettre d'ajouter ou de supprimer différents coordinateurs qui apparaissent.
 
 FIN du guide
-https://bitcoiner.guide/robosats/

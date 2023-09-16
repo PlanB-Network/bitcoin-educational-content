@@ -6,8 +6,6 @@ description: Instalar Tails en una memoria USB
 
 # Instalar Tails en una memoria USB
 
-_**Guía propuesta por Hari Seldon en el marco de Agora256**_
-
 ![image](assets/cover.jpeg)
 
 Un sistema operativo portátil y amnésico que te protege contra la vigilancia y la censura.
@@ -152,6 +150,3 @@ Puedes comenzar a navegar de forma anónima, explorar las opciones y los program
 Una vez que hayas experimentado un poco más con tu propio USB de Tails, exploraremos otros temas más avanzados en otro artículo, como:
 
 > Actualizar una clave con la última versión de Tails; Configurar y utilizar el almacenamiento persistente; Instalar software adicional.
-> D'ici là, comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
-
-> _**Guía propuesta por Hari Seldon en el marco de Agora256; publicación original: https://agora256.com/installer-tails-usb/**_

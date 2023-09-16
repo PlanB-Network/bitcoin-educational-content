@@ -8,3 +8,11 @@ tags:
   - bitcoin-only
 
 category: peer-to-peer
+
+credits:
+  name: Bitcoin Q&A
+  link: https://bitcoiner.guide/robosats/
+  tips:
+    lightning_adress: qna@tips.bitcoiner.guide
+    paynym: +BQA
+    on-chain:

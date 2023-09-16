@@ -16,22 +16,13 @@ Come portafoglio fisico a freddo, Trezor è ideale per iniziare con Bitcoin. È 
 
 Abbiamo già realizzato tutorial su come utilizzarlo:
 
-1. Configurazione
-2. Recupero di bitcoin
-3. Utilizzo, invio e ricezione di bitcoin
+- Configurazione: https://www.youtube.com/watch?v=q-BlT6R4_bE
 
-Ti piacerebbe avere anche il tuo Trezor?
-Puoi contribuire al progetto cliccando qui sotto!
+- Recupero: https://www.youtube.com/watch?v=3n4d4egjiFM
 
-configurazione: https://www.youtube.com/watch?v=q-BlT6R4_bE
+- Utilizzo: https://www.youtube.com/watch?v=syouZjLC1zY
 
-recupero: https://www.youtube.com/watch?v=3n4d4egjiFM
-
-utilizzo: https://www.youtube.com/watch?v=syouZjLC1zY
-
-## guida alla scrittura
-
-guida proposta da https://armantheparman.com/trezor/
+# guida alla scrittura
 
 ## Configurazione di Trezor
 

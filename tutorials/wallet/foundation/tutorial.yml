@@ -7,3 +7,11 @@ category: hardware
 tags:
   - self-custodial
   - Open-source
+
+credits:
+  name: Rogzy
+  link: https://www.decouvrebitcoin.com
+  tips:
+    lightning_adress:
+    paynym:
+    on-chain:

@@ -18,8 +18,6 @@ How To Buy Bitcoin In Canada: Bull Bitcoin by BTCsession
 
 ## Dirígete a una oficina de Canada Post y compra bitcoins en efectivo a través de Bull Bitcoin.
 
-**Este tutorial es proporcionado por WINTER ☩ HODLER como parte de Agora256, gracias por su trabajo**
-
 ![solución de pago](assets/1.jpeg)
 
 Una de las propuestas más emocionantes de las monedas fiduciarias (fiat) es poder intercambiarlas por bitcoins, idealmente sin tener que identificarse demasiado; un método a menudo referido como no-KYC o KYC-free. El acrónimo 'KYC' se refiere al proceso de verificación de la identidad de una persona o entidad en particular siguiendo ciertas regulaciones emitidas a nivel gubernamental.
@@ -71,5 +69,3 @@ Mientras que muchos otros servicios, como Binance y Bybit, han abandonado el mer
 Si aún no tienes una cuenta en Bull Bitcoin, utiliza nuestro enlace de referencia https://mission.bullbitcoin.com/agora256 para registrarte y recibir $21 de bonificación.
 
 Hasta entonces, como siempre, si tienes alguna pregunta, no dudes en compartirla con la comunidad Agora256, aprendemos juntos para ser mejores mañana de lo que somos hoy.
-
-> **Gracias a Agora256 por su guía. El siguiente enlace de afiliado no está relacionado con la universidad; enlace original: https://agora256.com/acheter-du-bitcoin-sans-kyc-au-canada-avec-bull-bitcoin/**

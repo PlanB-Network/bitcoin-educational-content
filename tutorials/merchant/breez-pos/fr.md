@@ -6,8 +6,6 @@ description: Guide pour commencer à accepter des bitcoins en utilisant Breez PO
 
 ![cover](assets/cover.jpeg)
 
-_Ce texte provient du site de documentation de Breez : https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
-
 ## Qu'est-ce que Breez POS ?
 
 **Breez** est une application Lightning complète et non dépositaire. Explorons cela en détail :

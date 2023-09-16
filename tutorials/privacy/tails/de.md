@@ -6,8 +6,6 @@ description: Tails auf einem USB-Stick installieren
 
 # Tails auf einem USB-Stick installieren
 
-_**Von Hari Seldon im Rahmen von Agora256 angebotener Leitfaden**_
-
 ![image](assets/cover.jpeg)
 
 Ein tragbares und amnesisches Betriebssystem, das Sie vor Überwachung und Zensur schützt.
@@ -153,5 +151,3 @@ Sobald Sie etwas mehr mit Ihrem eigenen Tails-USB-Stick experimentiert haben, we
 
 > Aktualisieren Sie einen Schlüssel mit der neuesten Version von Tails; Konfigurieren und verwenden Sie den persistenten Speicher; Installieren Sie zusätzliche Software.
 > Bis dahin, wie immer, wenn Sie Fragen haben, zögern Sie nicht, sie mit der Agora256-Community zu teilen. Gemeinsam lernen wir, um morgen besser zu sein als wir es heute sind!
-
-> _**Von Hari Seldon im Rahmen von Agora256 vorgeschlagener Leitfaden; ursprünglicher Beitrag: https://agora256.com/installer-tails-usb/**_

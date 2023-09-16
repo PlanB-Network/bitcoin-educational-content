@@ -14,6 +14,8 @@ In diesem Kurs werde ich dir Bitcoin in 21 Kapiteln erklären, damit du diese Te
 
 Der Kurs sollte etwa 15 Stunden dauern. Während des gesamten Kurses stehen erklärende Poster und zusätzliche Ressourcen zur Verfügung.
 
++++
+
 # Bitcoin entdecken
 
 ![Einführung](https://youtu.be/PdiL6_1wbQY)

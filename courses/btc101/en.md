@@ -14,6 +14,8 @@ In this course, I will explain Bitcoin in 21 chapters so that you can understand
 
 The course should take about 15 hours. Throughout the journey, explanatory posters and additional resources are available.
 
++++
+
 # Discovering Bitcoin
 
 ![Introduction](https://youtu.be/PdiL6_1wbQY)

@@ -14,6 +14,8 @@ In questo corso, ti spiegherò Bitcoin in 21 capitoli in modo che tu possa compr
 
 Il corso dovrebbe richiedere circa 15 ore. Durante tutto il percorso, sono disponibili poster esplicativi e risorse aggiuntive.
 
++++
+
 # Scoprire Bitcoin
 
 ![Introduzione](https://youtu.be/PdiL6_1wbQY)

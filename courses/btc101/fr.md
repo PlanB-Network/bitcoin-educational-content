@@ -389,7 +389,7 @@ L'idée de dévaluer la monnaie est contraire à la philosophie fondamentale du 
 
 La rareté du Bitcoin est un atout majeur et la quantité max de 21Million de bitcoins en circulation est publique et vérifiable par quiconque. 
 
-En fait, n'importe qui peut vérifier la quantité de bitcoins en circulation entrant une commande simple sur un nœud Bitcoin : `bitcoin-cli gettxoutsetinfo`. Cette transparence et vérifiabilité renforcent la confiance dans le système Bitcoin, qui ne repose pas sur des institutions centralisées ou des individus, mais sur une garantie mathématique et cryptographique inhérente à son protocole.
+En fait, n'importe qui peut vérifier la quantité de bitcoins en circulation entrant une commande simple sur un nœud Bitcoin : `bitcoin-cli gettxoutsetinfo`. Cette transparence et vérifiabilité renforcent la confiance dans le système Bitcoin, qui ne repose pas sur des institutions centralisées ou des individus, mais sur une garantie mathématique et cryptographique inhérente à son protocole. (Vous apprendrez à le faire de façon simple dans LN201)
 
 ```json
 {
@@ -425,88 +425,180 @@ Maintenant que nous avons établi les différences entre Bitcoin et les monnaies
 # Les portefeuilles Bitcoin
 ## Que sont les portefeuilles Bitcoin ?
 
+Dans cette section 2, nous allons explorer le stockage et la sécurité des Bitcoins au sein de portefeuilles. Cela vous permettra de mieux comprendre où se trouvent ces fameux Bitcoins et comment interagir avec eux !
+
 ![comprendre les portefeuilles Bitcoin](https://youtu.be/GsnX7qdODK8)
 
-Nous allons explorer ici le stockage et la sécurité des Bitcoins au sein de portefeuilles.
+### Démystifions les portefeuilles Bitcoin
 
-Tout d'abord, qu'est-ce qu'un portefeuille Bitcoin ? Un portefeuille est un endroit où sont conservées les clés privées qui donnent accès à vos Bitcoins. Un portefeuille peut être un logiciel sur votre ordinateur, une application sur votre smartphone, un appareil physique comme une clé USB, ou même un morceau de papier.
-Chaque portefeuille contient un paire de clés: une clé publique, qui est comme une adresse postale, et une clé privée, qui est comme la clé de votre boîte aux lettres. À partir de la clé publique, le portefeuilles dérives des adresses bitcoin que vous donnez aux gens pour qu'ils vous envoient des bitcoins, et la clé privée est celle qui vous permet de dépenser les bitcoins reçus à ces adresses.
+Dans cette industrie, nous utilisons des portefeuilles pour interagir
+avec le réseau Bitcoin, ce dernier ayant 3 fonctions :
 
-Il existe différents types de [portefeuilles Bitcoin](sovereignuniversity.org/wallet/non_exact) qui réponde chacun à des cas d'usage différents. Voici par exemple les types de portefeuilles les plus usuels :
+* Permettre de recevoir des bitcoins
+* Permettre d’en envoyer
+* Les sécuriser face aux tentatives de hack et de vol
 
-- les applications mobile comme Samouraï, Green Blockstream, Blue Wallet sont des portefeuilles Bitcoin qui se télécharge gratuitement sur Android ou IOS.
-- les applications sur PC comme Sparrow
-- les portefeuilles physiques comme ceux présents dans notre [section portfeuille froid](https://sovereignuniversity.org/tutorials/wallet) qui nécessite d'acheter un hardware mais assure que votre clé privée ne soit pas dans votre téléphone, ni votre ordinateur.
+Un portefeuille peut être un logiciel sur votre ordinateur, une application sur votre smartphone, un appareil physique comme une clé USB, ou même un morceau de papier. Ces différents types de portefeuilles Bitcoin répondent chacun à des cas d'usage différents. Certains servent pour de larges montants en mettant l'accent sur la sécurité, d'autres sur la vie privée, ou encore sur le paiement quotidien de petits montants
 
-Bien que vos clés soient stockées dans votre portefeuille, les bitcoins eux-mêmes sont en fait "stockés" dans la blockchain Bitcoin, qui est un registre public distribué au sein du réseau pair-à-pair Bitcoin. C'est pourquoi la perte de l'appareil sur lequel vous avez votre portefeuille ne signifie pas nécessairement la perte de vos Bitcoins. Ce qui vous permet de ré-créer votre portefeuille et de dépenser vos bitcoin est la clé privée. Il est donc crucial de bien sécuriser cette dernière.
+Les portefeuilles se divisent donc en grandes familles d'utilisation, avec toujours comme point central une question clé : Êtes-vous propriétaire des fonds ou laissez-vous le contrôle de votre argent à un tiers ? Nous reviendrons dans le chapitre suivant sur ce sujet en détail, mais l'idée est simple : Est-ce que l'argent est dans votre poche ou dans celle de votre banquier !
+
+![image](assets\Concept\chapitre5\3.jpeg)
+
+### Comment fonctionne un portefeuille bitcoin
+
+Que ce soit votre "banquier" Bitcoin ou vous-même, en règle générale, la grande majorité des portefeuilles Bitcoin fonctionnent avec une technologie similaire, celle de la cryptographie asymétrique, et donc un système de paire de clés : une clé privée pour recevoir et une clé publique pour dépenser.
+
+* Clé privée
+  Lors de l'initialisation d'un portefeuille, une phrase de récupération secrète (clé privée) est générée et vous est donnée sous la forme de 24 mots.
+  
+  La clé privée est très importante, car elle représente la possession des Bitcoins et donc le droit de les utiliser ou de les envoyer. Le possesseur de la clé privée est le propriétaire des Bitcoins.
+  
+  Cette clé doit être secrète et bien conservée, car c'est la clé qui débloque votre fortune !
+
+* Clé publique & adresse
+  La clé publique est créée avec la clé privée et donc reliée à cette dernière. La clé publique est utilisée pour générer des adresses Bitcoin et ainsi recevoir de l'argent. Partager la clé publique implique des risques pour la confidentialité, mais pas pour la sécurité.
+
+  Ces adresses sont créées par votre portefeuille et peuvent être partagées en toute sécurité. Il est conseillé de ne les utiliser qu'une seule fois pour maximiser votre vie privée.
+
+Il faut donc bien comprendre que grâce à cette technologie, nous pouvons facilement recevoir des Bitcoins sans pour autant permettre à l'expéditeur de voler nos fonds ! Pensez-y comme à une boîte aux lettres : les gens déposent de l'argent dedans, mais vous êtes le seul à pouvoir l'ouvrir
+
+![image](assets\Concept\chapitre5\4.jpg)
+
+### Les Bitcoins sont donc dans le portefeuille ?
+
+Bien que vos clés soient stockées dans votre portefeuille, les bitcoins eux-mêmes sont en fait "stockés" dans la blockchain Bitcoin, qui est un registre public distribué au sein du réseau pair-à-pair Bitcoin (on regarde ca dans la section 3). C'est pourquoi la perte de l'appareil sur lequel vous avez votre portefeuille ne signifie pas nécessairement la perte de vos Bitcoins. Ce qui vous permet de ré-créer votre portefeuille et de dépenser vos bitcoin est la clé privée. Il est donc crucial de bien sécuriser cette dernière.
+
+![image](assets\Concept\chapitre5\1.jpeg)
 
 Heureusement pour nous, depuis 2017, cette clé privée peut être encodée dans une simple liste de 12 ou 24 mots, appelée la phrase mnémonique. Cette phrase est un backup de votre portefeuille Bitcoin, c'est ce qui permet de re-créer votre portfeuille avec n'importe quel logiciel/app de portefeuille Bitcoin. Ainsi toute personne ayant accès à cette liste de mots a l'accès à vos bitcoins.
 
+### Qu'en est-il des hackers ?
+
 On pourrait se poser la question : et si quelqu'un devinait par hasard notre liste de 12 ou 24 mots ? La réponse courte est que grâce à la cryptographie utilisée pour créer le portefeuille c'est hautement improbable. Pour mettre en perspective, trouver par hasard l'accès à votre portefeuille revient à trouver le "bon" nombre entre 1 et $2^256$, ce qui est quasiement équivalent à trouver le "bon" atome dans l'Univers. Toutefois, si vous n'êtes pas satisfait par cette sécurité par défaut, vous pouvez toujours la renforcer en ajoutant une passe-phrase à votre portfeuille bitcoin.
 
+![image](assets\Concept\chapitre5\5.jpeg)
+
 Ainsi la probabilité d'un piratage de votre portefeuille Bitcoin est astronomiquement faible, si vous suivez les bonnes pratiques de sécurité. Pratiques que nous détaillons dans la prochaine section.
+
 Choisissez un portefeuille qui correspond à vos besoins et à votre utilisation. Des tutoriels détaillés sur l'utilisation et la sécurisation de différents portefeuilles sont disponibles dans la section [tutoriel de notre université](https://sovereignuniversity.org/tutorials/wallet).
 
-![explication des portefeuilles Bitcoin](assets/posters/fr/8_explication_des_portefeuilles_bitcoin_crop.png)
-
-# Sécurité et Portefeuilles Bitcoin
+## Sécurité et Portefeuilles Bitcoin
 
 ![Choisir sa sécurité](https://youtu.be/qhjEJuJHRf8)
 
-Lorsque vous détenez des bitcoins, la sécurité de vos fonds est une préoccupation majeure. Le meilleur moyen de définir une sécurité adaptée à sa situation est de se poser (et de répondre) à tout une série de questions ; votre modèle de sécurité dépendra de vos réponses.
+### Se poser les bonnes questions avant de commencer
 
-Comme Bitcoin est une forme de monnaie qui permet une soveraineté financière, la première question à vous poser est : Qui peut avoir accès à mes fond ? Dit autrement, êtes-vous le seul à avoir accès à vos bitcoins ou une tierce personne, telle qu'une entreprise, vous autorise à accèder à vos fonds ? Une seconde question peut être : quels sont les usages que vous comptez avoir avec vos bitcoins ? Est-ce une somme que vous utiliser régulièrement ? Est-ce une épargne moyen-terme ? long-terme ? Sachez qu'il n'existe pas de solution universelle. Prenez donc le temps de répondre à ces questions, cela permettra d'adapter vos mesures de sécurité.
+Lorsque vous détenez des bitcoins, la sécurité de vos fonds est une préoccupation majeure. Le meilleur moyen de définir une sécurité adaptée à sa situation est de se poser (et de répondre) à tout une série de questions ; votre modèle de sécurité dépendra de vos réponses. Commençons:
+
+* Qui peut avoir accès à mes fond ? Dit autrement, êtes-vous le seul à avoir accès à vos bitcoins ou une tierce personne, telle qu'une entreprise, vous autorise à accèder à vos fonds ?
+* Une seconde question peut être : quels sont les usages que vous comptez avoir avec vos bitcoins ? Est-ce une somme que vous utiliser régulièrement ? Est-ce une épargne moyen-terme ? long-terme ? 
+* Quelles sont vos compétences techniques ?
+* Quel est votre budget sécurité ?
+
+Sachez qu'il n'existe pas de solution universelle. Prenez donc le temps de répondre à ces questions, cela permettra d'adapter vos mesures de sécurité.
+
+![image](assets\Concept\chapitre6\0.jpeg)
+
+### Penser aux portefeuilles Bitcoin en termes de complexité
 
 Essayons ici d'établir plusieurs niveaux de sécurité pour vos bitcoins :
 
-- **niveau 0**, vous utilisez un service dit custodial avec lequel vous n'êtes pas unique détenteur de vos bitcoins. Attention ce tiers de confiance peut à tout moment vous restreindre l'accès à vos fonds, et vous avez le même niveau de souveraineté financière qu'avec le système bancaire traditionnel et un compte bancaire. -** niveau 1**, vous utilisez un portefeuille Bitcoin sur votre téléphone ou sur votre ordinateur avec lequel vous êtes l'unique détenteur de vos bitcoins. Vous pouvez effectuer avec facilité vos transactions. Attention, il est crucial de faire un backup de la phrase mnémonique pour avoir de nouveau accès à vos fonds en cas de perte de votre téléphone ou ordinateur. On parle souvent de "hot wallet" car la clé privée est stocké dans un appareil avec accès à internet.
-- **niveau 2**, vous utilisez un portfeuille physique, et vous avez sécurisé votre liste de 12 ou 24 mots. Pour pouvoir effectuer une transaction, il vous faudra toujours signer avec votre appareil. Cela rend donc vos fonds moins accessible au quotidien. On parle souvent de "Cold Wallet" car vos clés sont stockées sur un appareil qui n'est pas connecté à intetnet.
-- **niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2 mais avec une passe-phrase supplémentaire. Attention, maintenant il vous faut faire une sauvegarde de la liste de 12 ou 24 mots **et** de votre passe-phrase. Idéalement ces 2 informations sont stocké deux endroit différents.
-- **niveau 4**, vous utilisez un ensemble de portefeuille pour créer un portefeuille dit "multisig", ce qui signifie qu'il nécessite plusieurs signatures pour effectuer une transaction. Attention ici encore il faut chaque partie du multisig à des endroits différents.
+- **niveau 0**, vous utilisez un service dit custodial avec lequel vous n'êtes pas unique détenteur de vos bitcoins. Attention ce tiers de confiance peut à tout moment vous restreindre l'accès à vos fonds, et vous avez le même niveau de souveraineté financière qu'avec le système bancaire traditionnel via un compte bancaire.
+
+![image](assets\Concept\chapitre6\2.jpeg)
+
+- **Niveau 1**, vous utilisez un portefeuille Bitcoin sur votre téléphone ou sur votre ordinateur avec lequel vous êtes l'unique détenteur de vos bitcoins. Vous pouvez effectuer avec facilité vos transactions. Attention, il est crucial de faire un backup de la phrase mnémonique pour avoir de nouveau accès à vos fonds en cas de perte de votre téléphone ou ordinateur. On parle souvent de "hot wallet" car la clé privée est stocké dans un appareil avec accès à internet.
+
+- **Niveau 2**, vous utilisez un portfeuille physique, et vous avez sécurisé votre liste de 12 ou 24 mots. Pour pouvoir effectuer une transaction, il vous faudra toujours signer avec votre appareil. Cela rend donc vos fonds moins accessible au quotidien. On parle souvent de "Cold Wallet" car vos clés sont stockées sur un appareil qui n'est pas connecté à intetnet.
+
+![image](assets\Concept\chapitre6\4.jpeg)
+
+- **Niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2 mais avec une passe-phrase supplémentaire. Attention, maintenant il vous faut faire une sauvegarde de la liste de 12 ou 24 mots **et** de votre passe-phrase. Idéalement ces 2 informations sont stocké deux endroit différents.
+
+![image](assets\Concept\chapitre6\5.jpeg)
+
+- **Niveau 4**, vous utilisez un ensemble de portefeuille pour créer un portefeuille dit "multisig", ce qui signifie qu'il nécessite plusieurs signatures pour effectuer une transaction. Attention ici encore il faut chaque partie du multisig à des endroits différents. Ceci est souvent considéré comme un usage avancé de Bitcoin, à utiliser principalement pour de larges montants et un usage corporatif.
+
+![image](assets\Concept\chapitre6\3.jpeg)
 
 Bien évidemment nous ponvons avoir plusieurs cas d'usage, et dans ce cas il est recommandé d'utiliser plusieurs portefeuilles bitcoins. La solution miracle n'existe pas.
+
+### La sécurité doit s'adapter
+
 La somme qu'on est prêt à laisser sur un niveau de sécurité spécifique dépend de chacun. Pour certain laisser 1 btc sur un hot wallet est raisonnable, pour d'autres absolumment pas. En tout cas, éviter de débourser beaucoup en sécurité, en vous achetant un portefeuille physique, alors que vous souhaitez sécuriser une petite somme. Gardez également en tête que sur-complexifier la sécurité et l'accessibilité de vos bitcoins peut vous portez préjudice si, par exemple, vous constituez mal les sauvegardes de vos portefeuilles.
 
-En conclusion, la possession directe de ses Bitcoins est un élément essentiel pour assurer sa souveraineté financière. Il est recommandé d'utiliser un portefeuille mobile pour les dépenses quotidiennes et un portefeuille physique hors ligne, ou "froid", pour stocker des montants plus importants. Les entreprises, quant à elles, devraient envisager l'utilisation de systèmes de signatures multiples, ou "multisig", pour une sécurité accrue et partagée. Il est également essentiel d'éviter autant que possible les services de garde ("custodial services"), qui peuvent reproduire certaines des vulnérabilités du système financier traditionnel. Maintenant que nous avons cela en tête, nous allons voir à la prochaine section les étapes pour créer un portefeuille Bitcoin. Toutefois si vous souhaitez davantage explorer le sujet de la sécurité vous pouvez lire cet [article de DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+En conclusion, la possession directe de ses Bitcoins est un élément essentiel pour assurer sa souveraineté financière. Il est recommandé d'utiliser un portefeuille mobile pour les dépenses quotidiennes et un portefeuille physique hors ligne, ou "froid", pour stocker des montants plus importants. Les entreprises, quant à elles, devraient envisager l'utilisation de systèmes de signatures multiples, ou "multisig", pour une sécurité accrue et partagée. Il est également essentiel d'éviter autant que possible les services de garde ("custodial services"), qui peuvent reproduire certaines des vulnérabilités du système financier traditionnel. 
 
-![choisir sa sécurité](assets/posters/fr/9_choisir_son_portefeuille_crop.png)
+Maintenant que nous avons cela en tête, nous allons voir à la prochaine section les étapes pour créer un portefeuille Bitcoin. Toutefois si vous souhaitez davantage explorer le sujet de la sécurité vous pouvez lire cet [article de DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
-# Mise en place d'un portefeuille
+## Mise en place d'un portefeuille
 
 ![mettre en place un portefeuille](https://youtu.be/2MRRERHm7ZM)
 
 La sécurité de vos Bitcoins est d'une importance cruciale et une simple erreur peut avoir des conséquences coûteuses. C'est pourquoi nous allons à présent voir les meilleures pratiques lors de la création d'un nouvel portefeuille Bitcoin.
+
+> Notez que la formation BTC102 vous accompagne pour bien réussir cette étape.
+
+### On ne rigole pas avec cette étape !
+
 Votre clé privée, souvent représentée par une liste de 24 mots (souvent appelé "seed" ou "phrase mnémonique"), représente l'accès à vos fonds. Si cette clé est révélée à un tiers, considérez que les fonds associés ne sont plus en sécurité. Par conséquent, lors de l'initialisation de votre portefeuille, il est important de respecter ces règles :
 
 - Masquer toutes les caméras.
 - Ne pas prendre de photo de la liste de mots.
 - Ne pas la saisir sur un ordinateur ou un téléphone.
 - Ne pas l'enregistrer comme contact ou se l'auto-envoyer par SMS.
+– Ne jamais laisser vos mots sans surveillance sur votre bureau.
+– Ne jamais cacher votre liste de mots dans un endroit insolite.
 
-Vous allez littéralement prendre une feuille de papier blanche ou imprimer ce [modèle](https://bitcoiner.guide/backup.pdf), et écrire avec un stylo, de manière propre et claire, la liste de mots dans l'ordre. Si l'encre disparaît avec le temps, vous pouvez perdre vos fonds ; il est donc important conserver ce papier à l'abri des intempéries. Il existe également des solutions alternatives au papier, comme par exemple inscrire votre phrase mnémonique sur une plaque de métal. Si vous écrivez mal, vos héritiers risquent de ne pas pouvoir vous lire et donc de ne pas récupérer les fonds. Une fois les mots écrits, il est recommandé d'en faire une seconde copie et de la stocker dans un second endroit, distinct du premier. Cela permet d'avoir une sauvegarde de secours en cas de perte ou d'accident avec la première.
-a
-Une fois les copies réalisées, rangez les listes de mots dans un endroit sûr où vous vous souviendrez de les chercher ! Ne créez pas un plan de cache trop complexe où vous risquez de les perdre. Vos mots = votre argent. Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comme les portefeuilles "chaud" sur mobile ou pc. Cette méthode de sauvegarde de la clé privée est aujourd'hui le standard. Ce qui signifie que vous pouvez entrer votre phrase mnémonique dans n'importe quel logiciel de portefeuille pour restaurer le votre. Seuls les mauvais portefeuilles que nous déconseillons fortement ne vous donneront pas de liste de 24 mots, mais vous demanderont peut-être un compte, une adresse mail ou, pire, une ID. L'absence de liste de 24 mots doit vous alerter.
+Vous allez littéralement prendre une feuille de papier blanche ou imprimer ce [modèle](https://bitcoiner.guide/backup.pdf), et écrire avec un stylo, de manière propre et claire, la liste de mots dans l'ordre. Si l'encre disparaît avec le temps, vous pouvez perdre vos fonds ; il est donc important conserver ce papier à l'abri des intempéries. 
 
-![mettre en place un portefeuille](assets/posters/fr/10_mise_en_place_du_portefeuille_crop.png)
+![image](assets\Concept\chapitre7\0.jpeg)
 
-# Passer l’épreuve du temps
+### Conseil pour bien faire
+
+Il existe également des solutions alternatives au papier, comme par exemple inscrire votre phrase mnémonique sur une plaque de métal. Si vous écrivez mal, vos héritiers risquent de ne pas pouvoir vous lire et donc de ne pas récupérer les fonds. Une fois les mots écrits, il est recommandé d'en faire une seconde copie et de la stocker dans un second endroit, distinct du premier. Cela permet d'avoir une sauvegarde de secours en cas de perte ou d'accident avec la première.
+
+![image](assets\Concept\chapitre7\1.jpeg)
+
+Une fois les copies réalisées, rangez les listes de mots dans un endroit sûr où vous vous souviendrez de les chercher ! Ne créez pas un plan de cache trop complexe où vous risquez de les perdre. 
+
+> Vos mots = votre argent. 
+
+Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comme les portefeuilles "chaud" sur mobile ou pc. Cette méthode de sauvegarde de la clé privée est aujourd'hui le standard. Ce qui signifie que vous pouvez entrer votre phrase mnémonique dans n'importe quel logiciel de portefeuille pour restaurer le votre. Seuls les mauvais portefeuilles que nous déconseillons fortement ne vous donneront pas de liste de 24 mots, mais vous demanderont peut-être un compte, une adresse mail ou, pire, une ID. 
+
+**ATTENTION: L'absence de liste de 24 mots doit vous alerter.**
+
+## Passer l’épreuve du temps
 
 ![passer l'épreuve du temps](https://youtu.be/p8eZPt_XnwI)
 
 La sécurité est une préoccupation majeure dans l'écosystème Bitcoin. En effet, comme toute forme de richesse, vos bitcoins doivent être protégés contre les pertes, les vols et la dégradation, en particulier sur le long terme. La sécurisation de vos bitcoins nécessite une certaine connaissance technique et la conscience des risques associés, ce qui nous amène à discuter de deux stratégies principales : la gravure de vos bitcoins dans l'acier et la création d'un plan d'héritage.
-Une méthode pour sécuriser vos bitcoins sur le long terme est de graver votre phrase mnémonique dans un matériau résistant comme l'acier. Cela crée un backup physique de vos clés qui est résistant à la fois aux dégats des eaux et au feu.
+
+### Graver dans la roche 
+
+Une méthode pour sécuriser vos bitcoins sur le long terme est de graver votre phrase mnémonique dans un matériau résistant comme l'acier. Cela crée une sauvegarde physique de vos clés qui est résistante à la fois aux dégâts des eaux et au feu.
+
+Il existe de nombreuses solutions pour y parvenir, certaines sont low-cost comme le "Blockmit", tandis que d'autres demandent plus de matériel. Vous pouvez explorer ce sujet par vous-même via la section tutoriels de cette université.
+
+![image](assets\Concept\chapitre8\1.JPG)
+
+### Pensez à la prochaine génération !
 
 Conjointement à cela, la création d'un plan d'héritage est également une étape cruciale pour garantir que vos bitcoins seront correctement gérés après votre mort. Ce plan peut inclure une lettre manuscrite détaillant vos actifs, leur mode d'accès et le contact des personnes de confiance à contacter. Il est également important de discuter du lègue de bitcoins avec un notaire pour assurer la conformité fiscale, bien qu'il soit important de ne jamais confier directement vos bitcoins à un tiers, y compris à un notaire.
 
-La sécurité de vos bitcoins sur le long terme ne se limite pas à la création de sauvegardes physiques ou à l'élaboration d'un plan d'héritage. La vie privée est une autre considération importante. Par exemple, il est préférable d'acheter des bitcoins sans fournir de pièce d'identité afin de minimiser les risques de vol d'identité ou tout simplement le traçage de vos fonds par tout entité disposant de suffisamment de moyen.
+Si vous souhaitez explorer davantage concernant le sujet du plan d'héritage pour vos bitcoins, nous vous conseillons la livre de Pamela Morgan [Cryptoasset Inheritance Plan](https://sovereignuniversity.org/resources/books/28/en) ou de suivre la formation BTC102 où nous vous accompagnons dans sa création
 
-En résumé, bien sécuriser vos fonds passe également par un effort concernant les informations que vous laisser à disposition autour de vous, que cela soit pour vos proches avec un plan d'héritage ou bien votre vie privée concernant les modes d'achat et montant de vos bitcoins. Ce sont deux aspects clés dans la possession de bitcoins sur le long terme. Si vous souhaitez explorer davantage concernant le sujet du plan d'héritage pour vos bitcoins, nous vous conseillons la livre de Pamela Morgan [Cryptoasset Inheritance Plan](https://sovereignuniversity.org/resources/books/28/en).
+![image](assets\Concept\chapitre8\2.jpeg)
 
-Maintenant que nous avons bases des portefeuilles bitcoins et des bonnes pratiques concernant leur sécurisation, nous aborderons au prochain chapitre le fonctionnement technique de Bitcoin. Ici encore, connaître les bases du protocol Bitcoin va vous permettre de mieux comprendre son fonctionnement, ce qui vous permettra d'en avoir une meilleure utilisation.
+### la vie privée est importante
 
-![passerl'épreuve du temps](assets/posters/fr/19_passer_l_epreuve_du_temps_crop.png)
+La sécurité de vos bitcoins sur le long terme ne se limite pas à la création de sauvegardes physiques ou à l'élaboration d'un plan d'héritage. La vie privée est une autre considération importante. Par exemple, il est préférable d'acheter des bitcoins sans fournir de pièce d'identité afin de minimiser les risques de vol d'identité ou tout simplement le traçage de vos fonds par toute entité disposant de suffisamment de moyens. La formation BTC 205 vous aidera en cela si besoin.
 
-# Résumé sur la sécurité des portefeuilles Bitcoin
+Concernant la vie privée, il est primordial d'éviter de parler à tout le monde de vos bitcoins. En effet, nous ne savons pas où cet actif ira, et garder de la discrétion quant à sa possession est une décision sage. Vous ne voulez pas attirer de regards sur vous et votre portefeuille.
+
+Dans la même logique, évitez de dévoiler haut et fort votre système de sécurité lors de réunions bitcoin ou de rencontres avec des inconnus...
+
+### Résumé sur la sécurité des portefeuilles Bitcoin
 
 ![Conclusion chapitre 2](https://youtu.be/U28-oh950Dw)
 
@@ -518,7 +610,12 @@ Lors de la création d'un portefeuille, vous devez en premier lieu faire une sau
 - Éviter les plateformes d'échange : il faut éviter de laisser vos Bitcoins sur des plateformes d'échange, car elles peuvent être sujettes à des attaques de hackers.
 - Adaptez votre niveau de sécurité : prenez le temps d'expliciter vos besoins et utilisations, cela vous aidera à faire votre choix entre les différents portefeuilles Bitcoin à disposition.
 
-# Lancement de Bitcoin
+Maintenant que nous avons bases des portefeuilles bitcoins et des bonnes pratiques concernant leur sécurisation, nous aborderons au prochain chapitre le fonctionnement technique de Bitcoin. Ici encore, connaître les bases du protocol Bitcoin va vous permettre de mieux comprendre son fonctionnement, ce qui vous permettra d'en avoir une meilleure utilisation.
+
+
+# Les aspects techniques du Bitcoin.
+
+## Lancement de Bitcoin
 
 ![Lancement de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 

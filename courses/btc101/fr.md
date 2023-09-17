@@ -15,125 +15,402 @@ Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vo
 
 La formation devrait prendre environ 15 heures. Durant tout le parcours, des posters explicatifs sont disponibles ainsi que des ressources supplémentaires.
 
+Vous n'avez pas besoin de connaissances spécifiques pour vous lancer, la formation est accessible à tous et à toutes !
+
 +++
 
-# Introduction : la formation Bitcoin
+# Introduction
+
+## Un saut vers l'inconnu
 
 ![Introduction](https://youtu.be/PdiL6_1wbQY)
 
-Bitcoin est une innovation significative qui va au-delà d'une simple "monnaie d'internet". C'est une révolution à la fois technologique et monétaire, capable de questionner notre rapport avec la monnaie. Bitcoin avec un "B" majuscule représente le protocole, alors que bitcoin avec "b" minuscule correspond à l'unité de compte de la monnaie du protocole Bitcoin.  
-Le bitcoin est une **monnaie neutre**, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.
-Bitcoin est une innovation significative qui va au-delà d'une simple devise. C'est une révolution à la fois technologique et monétaire, capable de transformer notre perception de la monnaie et des transactions financières. Bitcoin est également une monnaie décentralisée, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution.
-Dans le cadre de cette formation, nous discuterons des aspects monétaires de Bitcoin, y compris la façon d'acheter et de vendre des bitcoins, de les conserver en toute sécurité dans des portefeuilles numériques et de les utiliser pour effectuer des transactions.
-Nous examinerons également le rôle des mineurs, qui sont essentiels à la création de nouveaux bitcoins et à la sécurisation du réseau Bitcoin. En outre, nous nous pencherons sur l'avenir de Bitcoin et sur la manière dont la technologie du Lightning Network peut améliorer les transactions Bitcoin.
+### Bienvenue dans un nouveau paradigme monétaire et technologique.
+
+Bitcoin est une innovation significative qui va au-delà d'une simple "monnaie d'internet". C'est une révolution à la fois technologique et monétaire, capable de questionner notre rapport avec la monnaie et la société. Le bitcoin est une monnaie dites **neutre** et **décentralisée**, ce qui signifie qu'elle n'est sous le contrôle d'aucune entité ou institution, c'est une innovation significative qui va au-delà d'une simple devise. Afin de bien comprendre ce fameux bitcoin il est important de comprendre que bitcoin ( dit BTC) est a la fois un protocole informatique (Bitcoin) et une unitté monetaire (bitcoin).
+
+Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication en réseau ou encore la fameuse "blockchain", alors que l'unité de compte bitcoin est la monnaie nécessaire au bon fonctionnement de ce même protocole. Dans la vie de tous les jours, les Salvadoriens ou bitcoiners du monde utilisent donc la monnaie bitcoin pour acheter et vendre des biens et services, cette dernière reposant sur le protocole Bitcoin pour fonctionner.
+
+### Un curriculum complet mais accessible
+
+Dans le cadre de cette formation, nous discuterons des aspects monétaires de Bitcoin, y compris la façon d'acheter et de vendre des bitcoins, de les conserver en toute sécurité dans des portefeuilles numériques et de les utiliser pour effectuer des transactions. Nous examinerons également le rôle des mineurs, qui sont essentiels à la création de nouveaux bitcoins et à la sécurisation du réseau Bitcoin. En outre, nous nous pencherons sur l'avenir de Bitcoin et sur la manière dont la technologie du Lightning Network peut améliorer les transactions Bitcoin. 
+
+![image](assets\Concept\chapitre0\4.jpeg)
+
 Il est essentiel de comprendre que Bitcoin est un nouveau système monétaire qui révolutionne notre rapport à l'argent. Apprendre à utiliser Bitcoin est une compétence essentielle pour tous ceux qui souhaitent être souverain de leur propre argent.
-Avant d'aborder la définition et le fonctionnement de la monnaie dans une société, nous démarrons avec la génèse de Bitcoin. Puis, nous explorerons le rôle de Bitcoin en tant que monnaie et comment il peut transformer notre perception des transactions financières.
 
-Bitcoin est une technologie relativement nouvelle, lancée en 2009, qui est semblable à rien d'autre. Il est donc normal de ne pas tout comprendre sur le moment. Cependant, à l'instar de notre manière d'apprendre à utiliser Internet ou une voiture, il est pas nécessaire de comprendre toutes les subtilités techniques pour savoir utiliser Bitcoin (recevoir, payer, sécuriser ses fonds).
+**Section 1 - La monnaie**
 
-# La préhistoire du Bitcoin
+* Chapitre 1 – Qu’est-ce que la monnaie ?
+* Chapitre 2 – La monnaie fiduciaire
+* Chapitre 3 – Les hyperinflations
+* Chapitre 4 – La politique monétaire du Bitcoin
 
-![La préhistoire du Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.png)
+**Section 2 - Les portefeuille Bitcoin**
+
+* Chapitre 5 – Comment fonctionnent les portefeuilles Bitcoin ?
+* Chapitre 6 – Choisir sa sécurité
+* Chapitre 7 – Mettre en place son portefeuille
+* Chapitre 8 – Se protéger contre le temps
+
+**Section 3 - Les aspects techniques de Bitcoin**
+
+* Chapitre 9 - Explication d’une transaction
+* Chapitre 10 - Les nœuds Bitcoin
+* Chapitre 11 - Les mineurs
+* Chapitre 12 - Mineurs et écologie
+
+**Section 4 - L'épargne en Bitcoin**
+
+* Chapitre 13 – le prix du Bitcoin
+* Chapitre 14  – Comment acheter du Bitcoin
+* Chapitre 15  – Travailler pour des Bitcoins
+* Chapitre 16  – Hyper-bicoinisation
+
+**Section 5 - Le lightning Network**
+
+* Chapitre 17  – Introduction au Lightning Network
+* Chapitre 18  – Cas usage Lightning Network
+
+Avant d'aborder la définition et le fonctionnement de la monnaie dans une société ( chapitre 1), nous démarrons avec la génèse de Bitcoin. Bitcoin est une technologie relativement nouvelle, lancée en 2009, qui est semblable à rien d'autre. Il est donc normal de ne pas tout comprendre sur le moment. En effet, comme quand on apprend à utiliser Internet ou une voiture, on n'a pas besoin de connaître tous les détails techniques pour utiliser Bitcoin (recevoir, payer, sécuriser ses fonds). 
+
+![image](assets\Concept\chapitre0\3.png)
+
+L'importance ici est surtout de comprendre de façon générale cette nouvelle technologie. Nous espérons que cette formation vous plaira et vous apportera la base nécessaire pour comprendre et peut-être continuer d'avancer dans ce nouveau paradigme monétaire mondial.
+
+
+
+## La préhistoire du Bitcoin
 
 ![La préhistoire du Bitcoin](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 
-Pour comprendre l'origine de Bitcoin, il faut remonter aux années 1980 et au mouvement cypherpunk. Les cypherpunks sont des pionniers qui ont expérimenté et innové à propos de la cryptographie au service de l'individus. Ils sont notamment à l'initiative de nombreux mouvements dédiés à la protection de la vie privée à l'ère du numérique et de logiciels libres pour œuvre dans ce sens, comme par exemple PrettyGoodPrivacy (PGP).
+Avant que le terme "Bitcoin" ne devienne synonyme de monnaie numérique et de transformation financière, une série d'idées, d'innovations et de mouvements sociaux ont posé les bases de sa création. L'un des éléments fondamentaux de cette préhistoire du Bitcoin est le mouvement cypherpunk.
 
-En 2008, une personne (ou un groupe de personnes) sous le pseudonyme de Satoshi Nakamoto envoie via la mailinglist des cypherpunks le papier blanc de Bitcoin, pour annoncer qu'il a trouver la solution pour construire un système de cash électronique en pair-à-pair. Il est intéressant de noter que ce système repose entièrement sur des concepts et des technologies qui ont déjà été developpés par d'autres cypherpunks, comme par exemple la preuve de travail, ou la blockchain elle-même -- ce qui rend Bitcoin unique c'est l'agencement singulier de ces technologies. Quelques mois plus tard, le 3 Janvier 2009, le protocole Bitcoin est lancé. Au cours des premières années de ce protocole, seuls les personnes proches du mouvement cypherpunk ont fortement contribué à l'amélioration du code de Bitcoin.
+### Les Cypherpunks : des Visionnaires du Monde Numérique
 
-Après seulement deux ans, Satoshi Nakamoto se retire complètement de ce projet qui n'a plus besoin de lui pour continuer de se perpétuer dans le temps -- ainsi Satoshi aura réussi à déployer un sytème nouveau de cash electronique tout en restant parfaitement annonyme. Depuis, le protocole Bitcoin est maintenu par de nombreux developpeurs de manière complètement décentralisée, c'est-à-dire sans autorité centrale, sans chef.
+![image](assets\Concept\chapitre0\0.jpeg)
 
-Bitcoin représente une révolution sur trois niveaux : numérique, financier et technologique. Pour saisir pleinement la nature et la portée de cette révolution, il est crucial de comprendre les bases de Bitcoin, ses fondements et le contexte historique dans lequel il a été créé. Bitcoin conteste le système financier traditionnel en place, et se construit comme un système monétaire alternatif.
+Au cœur de l'évolution technologique des années 1980 et 1990, un groupe de personnes a commencé à s'interroger profondément sur le rôle de la vie privée et de la liberté à l'ère numérique. Ces individus, qui deviendraient plus tard connus sous le nom de "cypherpunks", croyaient fermement que la cryptographie pourrait servir d'outil pour protéger les droits individuels contre l'ingérence des gouvernements et des grandes entreprises.
 
-Au sein du sytème financier actuel les monnaies (telles que l'euro ou le dollar) sont uniquement émises de manière imprévisible par les banques centrales et les États, et sont donc sujettes à l'inflation, voir même à l'hyperinflation, ce qui entraînent de lourds effets néfastes sur les sociétés et les individus. À l'inverse Bitcoin, est un sytème ouvert qui défini explicitement un calendrier d'émission de nouveaux bitcoin de manière précise, fixe et transparente. En particulier, l'émission de cette nouvelle monnaie s'effectue lors de la création d'un nouveau bloc valide pour récompenser le mineur qui a dépensé des ressources pour obtenir ce nouveau bloc valide. De plus, cette récompense est divisée par deux après tous les 210,000 blocs (soit environ tous les 4 ans) afin d'assurer à la fois une quantité de bitcoin en circulation finie (d'environ 21,000,000,000 BTC) et d'une inflation monétaire qui tend vers zéro à mesure que le temps passe.
+Des figures emblématiques telles que Julian Assange, Wei Dai, Tim May et David Chaum ont contribué à définir la philosophie et la vision des cypherpunks. Ces penseurs ont partagé leurs idées dans une mailing list influente, où des participants du monde entier débattaient de la meilleure façon d'utiliser la technologie pour garantir une plus grande liberté individuelle.
 
-Pour comprendre l'origine de Bitcoin, il faut remonter aux années 1980 et au mouvement cypherpunk. Les cypherpunks sont des précurseurs qui ont innové et expérimenté avec des technologies telles que PGP (Pretty Good Privacy), l'Internet et la cryptographie. Ils ont façonné un mouvement dédié à la protection de la vie privée à l'ère du numérique.
-En 2009, une personne (ou un groupe de personnes) du nom de Satoshi Nakamoto a élaboré Bitcoin en s'appuyant sur les technologies développées par les cypherpunks. Bitcoin représente une révolution à plusieurs niveaux : numérique, financier et technologique. Pour saisir pleinement la nature et la portée de cette révolution, il est crucial de comprendre les fondements de Bitcoin.
+### Les Trois Textes Piliers des Cypherpunks
 
-Bitcoin conteste le système financier traditionnel en mettant en évidence les inégalités et les problèmes d'inflation associés à la monnaie fiduciaire. Les monnaies émises par les banques centrales et les États, telles que l'euro ou le dollar, sont sujettes à l'inflation. Cela peut entraîner des effets néfastes sur les sociétés et les individus.
-En revanche, Bitcoin, qui est une synthèse des technologies développées depuis les années 1970, a une quantité maximale limitée, lui conférant une caractéristique similaire à celle de l'or. Le débat sur la validité de Bitcoin en tant que monnaie continue, mais une chose est certaine : grâce à l'héritage des cypherpunks, Bitcoin est là pour durer.
+![image](assets\Concept\chapitre0\2.jpeg)
 
-Bitcoin est à la fois une monnaie numérique et un protocole informatique. En tant que tel, il a été conçu pour perdurer. Il est important de reconnaître le rôle essentiel des contributeurs et des soutiens de ce projet, y compris ceux qui font des dons via des plateformes comme Patreon.
-En somme, Bitcoin est une révolution technologique, financière et sociale qui a ses racines dans le mouvement cypherpunk. Il remet en question le système financier traditionnel et offre une alternative prometteuse et durable. Pour comprendre pleinement Bitcoin, il est essentiel de comprendre ces concepts clés et l'héritage de ceux qui ont contribué à sa création.
+Le mouvement cypherpunk, avec ses racines profondes dans l'activisme numérique et la cryptographie, s'est appuyé sur plusieurs textes fondamentaux pour exprimer ses principes et sa vision du futur. Parmi ces écrits, trois se démarquent particulièrement :
+
+* Le "Cypherpunk Manifesto":
+Écrit par Eric Hughes en 1993, le "Cypherpunk Manifesto" affirme que la vie privée est un droit fondamental. Hughes soutenait que la capacité de communiquer librement et de manière confidentielle était essentielle pour une société libre. Le manifeste déclare : "Nous ne pouvons pas attendre des institutions, des entreprises, ou d'autres grands entités impersonnelles qu'elles nous accordent la vie privée... Nous devons la défendre nous-mêmes."
+
+* Le "Manifesto du Crypto-Anarchiste":
+Rédigé par Timothy C. May en 1992, ce manifeste expose comment l'utilisation de la cryptographie pourrait entraîner une ère d'anarchie cryptographique où les gouvernements seraient impuissants à intervenir dans les affaires privées des citoyens. May prévoyait un futur où les échanges d'informations, d'argent et de messages pourraient se faire sans l'intervention d'une tierce partie, et ce, de manière anonyme.
+
+* La "Déclaration d'Indépendance du Cyberespace":
+Bien que ce texte ne soit pas exclusivement cypherpunk, il reflète les sentiments de nombreux acteurs du mouvement. Écrit en 1996 par John Perry Barlow, il s'agit d'une réponse à la régulation croissante d'Internet par les gouvernements. La déclaration affirme que le cyberespace est un lieu distinct de la sphère physique et ne devrait pas être soumis aux mêmes lois. Elle déclare : "Nous n'avons pas d'élus, et nous ne pouvons donc pas être gouvernés."
+
+### Les Prédécesseurs du Bitcoin
+
+Avant l'apparition du Bitcoin, plusieurs tentatives avaient été faites pour créer une monnaie numérique. David Chaum, par exemple, a introduit le concept de "monnaie électronique anonyme" avec son projet "DigiCash" dans les années 1980. Malheureusement, en raison de diverses contraintes, DigiCash n'a jamais vraiment décollé.
+
+Un autre précurseur important est "b-money" de Wei Dai. Bien qu'il n'ait jamais été implémenté, il présentait l'idée d'une monnaie numérique anonyme où la détection des fraudes était effectuée par une communauté d'évaluateurs plutôt que par une autorité centrale.
+
+![image](assets\Concept\chapitre0\1.jpeg)
+
+C'est dans cet environnement fertile que le mystérieux Satoshi Nakamoto a publié le livre blanc du Bitcoin en 2008. Il combinait plusieurs idées issues du mouvement cypherpunk, comme les preuves de travail et les horodatages cryptographiques, pour créer une monnaie numérique décentralisée et résistante à la censure.
+
+Le Bitcoin était plus qu'une simple monnaie numérique; il représentait une réalisation des idéaux cypherpunk. Au-delà de sa technologie, il symbolisait une révolution contre les systèmes financiers traditionnels et offrait une alternative basée sur la transparence, la décentralisation et la souveraineté individuelle.
+
+### Conclusion
+
+La préhistoire du Bitcoin est profondément enracinée dans le mouvement cypherpunk et dans une quête collective pour une plus grande liberté à l'ère numérique. En combinant les principes de cryptographie, de décentralisation et d'intégrité, le Bitcoin est devenu bien plus qu'une monnaie; il est le produit d'une révolution philosophique et technologique qui continue de remodeler notre monde.
 
 Bitcoin est donc un protocole qui s'inscrit sur des temps longs, et qui nous incite à nous questionner sur notre rapport à l'énergie, le temps et la monnaie. Mais est-ce que bitcoin est une "vraie" monnaie" ? Qu'est-ce qu'une monnaie ? Existe-t-elle sous plusieurs formes ? C'est ce que nous allons voir au prochain chapitre.
 
-# La monnaie à travers l'Histoire
+![La préhistoire du Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.png)
+
+# La monnaie
+## La monnaie à travers l'Histoire
 
 ![La monnaie](https://youtu.be/LslJVNCvHhA)
 
-L'évolution de la monnaie constitue un aspect fascinant de l'histoire humaine, reflétant l'ingéniosité des civilisations à travers les âges pour répondre à des besoins économiques en constante évolution. Les premières formes de monnaie étaient de nature tangible, souvent des biens de consommation comme des céréales ou du bétail. Cependant, depuis environ 4000 ans, l'or est devenu spontannément un standard universellement reconnu.
-L'or répond idéalement aux critères d'une monnaie efficace : sa rareté naturelle en fait un objet de valeur, tandis que ses propriétés chimiques lui permettent de ne pas s'éroder avec le temps. Cependant cette forme de monnaie n'est pas facilement divisible ni transportable sur de longues distances, l'or a donc été progressivement délaissé au profit de solutions plus pratiques, telles que les billets et les monnaies numériques.
+L'évolution de la monnaie constitue un aspect fascinant de l'histoire humaine, reflétant l'ingéniosité des civilisations à travers les âges pour répondre à des besoins économiques en constante évolution. 
+
+![image](assets\Concept\chapitre1\2.jpeg)
+
+### Des coquillages au compte bancaire
+
+À l'origine, la monnaie était tangible, souvent liée à des marchandises essentielles comme le grain, le bétail et d'autres biens. Toutefois, ces marchandises présentaient des inconvénients majeurs, tels que leur périssabilité, rendant difficile leur utilisation comme moyen d'épargne à long terme. Par exemple, une récolte ratée ou une maladie pouvait anéantir la richesse d'un individu du jour au lendemain.
+
+Alors que les civilisations avançaient et que le commerce s'étendait à de nouvelles régions, il y eut un besoin d'un moyen d'échange universel. Des objets comme les coquillages et les pierres précieuses ont été expérimentés, mais ils n'étaient pas parfaits. L'or est finalement devenu le standard en raison de sa rareté, de sa durabilité et de sa divisibilité. C'était, et reste à ce jour, un symbole de richesse et de pouvoir.
+
+![image](assets\Concept\chapitre1\1.JPEG)
+
+### Quel est le rôle de la monnaie ?
+
+La monnaie est un outil de communication très sophistiqué :
+
+* Elle permet de communiquer entre le présent et le futur. Nous transformons notre temps et énergie dans un actif qui peut être réexploité dans le futur sans risque de dévaluation.
+
+* Elle permet de communiquer dans un langage commun universel. Sans se connaître, sans parler la même langue, deux inconnus peuvent échanger, commercer et s’entendre sur la valeur des choses.
+
+Sa fonction dans notre monde est difficile à répliquer artificiellement. Aucun humain ou groupe d’humains ne peut créer une monnaie, c’est un phénomène social naturel qui doit émerger du marché et d’un consensus volontaire. Les prix sont des signaux, de l’information, qui aident la société à choisir comment les ressources seront allouées.
+
+L’or comme monnaie est le choix de 4 000 ans de darwinisme monétaire qui repose sur 3 fonctions :
+
+* Réserve de valeur
+* Moyen d’échange
+* Unité de compte
+
+![image](assets\Concept\chapitre1\3.jpeg)
+![image](assets\Concept\chapitre1\4.jpeg)
+![image](assets\Concept\chapitre1\5.jpeg)
+
+### Les caractéristique de la monnaie
+
+L'or répond idéalement aux critères d'une monnaie efficace : sa rareté naturelle en fait un objet de valeur, tandis que ses propriétés chimiques lui permettent de ne pas s'éroder avec le temps. Cependant cette forme de monnaie n'est pas facilement divisible ni transportable sur de longues distances. Dans un monde globalisé et numérique, l’or ne peut pas suivre et a besoin d’une entité centrale pour la rendre divisible et facilement échangeable (pièce frappée).
+
+Ces défauts ont fait de l’or une réserve de valeur, mais pas une monnaie courante, au détriment des monnaies fiduciaire étatiques (fiat) facilement utilisables, mais constamment dévaluées par les entités qui les contrôlent (roi, banque centrale, empereur, dictateur).
 
 Les critères d'une monnaie efficace sont multiples. Une bonne monnaie doit être :
 
-- **fongible**, c'est-à-dire interchangeable sans perte de valeur
-- **divisible**, afin de faciliter les transactions de différents volumes
-- **liquide**, c'est-à-dire facilement convertible en biens ou services.
+![image](assets\Concept\chapitre1\6.jpeg)
 
-Aujourd'hui, les monnaies évoluent encore, adaptant leurs formes pour répondre à différents usages. Par exemple, alors que l'or est une excellente réserve de valeur, il n'est plus adapté à l'économie mondialisée actuelle. De même, les monnaies fiduciaires comme le dollar et l'euro sont très liquides et facilement transportable car aujourd'hui majoritairement numérique, néanmoins leur valeur est constamment érodée par l'inflation monétaire. Bitcoin, quant à lui, présente de nouvelles possibilités. De part ses propriétés, comme son offre strictement limitée, il offre une excellente réserve de valeur. De plus, en tant que monnaie neutre d'internet, il est représente un bon moyen d'échange qui ne connait pas de frontière. Toutefois, il reste, aujourd'hui encore, peu accepté dans les commerces malgré une [constante adoption](https://btcmap.org/map).
+- **Fongible**, c'est-à-dire interchangeable sans perte de valeur
+- **Divisible**, afin de faciliter les transactions de différents volumes
+- **Liquide**, c'est-à-dire facilement convertible en biens ou services.
 
-![La monnaie](assets/posters/fr/3_lamonnaiecrop.png)
+Afin de répondre à ces critères, la monnaie évolue étape par étape :
+* Pierre brute -> Pièce
+* Billet -> Carte bancaire
+* Blockchain -> Lightning Network
 
-# Les monnaies fiduciaires
+Aujourd'hui, les monnaies évoluent encore, adaptant leurs formes pour répondre à différents usages. Par exemple, alors que l'or est une excellente réserve de valeur, il n'est plus adapté à l'économie mondialisée actuelle. De même, les monnaies fiduciaires comme le dollar et l'euro sont très liquides et facilement transportable car aujourd'hui majoritairement numérique, néanmoins leur valeur est constamment érodée par l'inflation monétaire. 
+
+Bitcoin, quant à lui, présente de nouvelles possibilités. De part ses propriétés, comme son offre strictement limitée, il offre une excellente réserve de valeur. De plus, en tant que monnaie neutre d'internet, il est représente un bon moyen d'échange qui ne connait pas de frontière. Toutefois, il reste, aujourd'hui encore, peu accepté dans les commerces malgré une [constante adoption](https://btcmap.org/map).
+
+## Les monnaies fiduciaires
 
 ![Les monnaies Fiduciaires](https://youtu.be/1hOrDrmT27g)
 
-L'exploration des impacts des monnaies fiduciaires sur le système financier est un aspect essentiel de notre compréhension des dynamiques économiques contemporaines. Pour citer George Santayana, "Ceux qui ne se souviennent pas du passé sont condamnés à le répéter". C'est donc avec cette approche historique que nous abordons le sujet des monnaies fiduciaires.
+"Ceux qui n'apprennent pas de l'histoire sont voués à répéter les mêmes erreurs", a déclaré George Santayana. Une vérité qui résonne particulièrement lorsque l'on parle du système monétaire actuel.
 
-Une monnaie fiduciaire est une forme de monnaie qui est décrétée comme monnaie par une institution comme un état-nation telle que la Chine avec le Yen ou une union politico-économique telle que l'Union Européenne avec l'euro. L'entité en charge de l'émission d'une monnaie fiduciaire est une banque centrale et donc sa politique monétaire. Par exemple nous pouvons citer la Banque Populaire de Chine, la Réserve Fédérale des États-Unis, la Banque du Mexique ou bien la Banque centrale de la république de Guinée. Ces institutions financières sont régies par des mandats qui fixent leurs objectifs, qui sont souvent liés à la confiance en la monnaie fiduciaire en question. En effet, ces dernières reposent entièrement sur la confiance et l'assurance que leur valeur sera préservée dans le temps. Cependant, cette confiance est actuellement ébranlée par des faits empiriques, comme une inflation galopante et l'augmentation sans précédent de la dette. De plus, même si ces institutions se doivent d'être indenpendante du pouvoir politique, aucun moyen est à disposition pour assurer leur indépendance politique.
+### Fiduciaire = confiance
 
-C'est dans ce contexte que la révolution Bitcoin prend de l'ampleur. Cette monnaie qui ne requiert **aucun tiers de confiance** vise à séparer l'État de la monnaie. La capacité de frapper de la monnaie au bon vouloir des mandats des banques centrales a permis une dévaluation progressive de celle-ci, érodant le pouvoir d'achat de toute la population. Par exemple, depuis l'introduction de l'euro, le pouvoir d'achat a diminué de 30%, tandis que le pouvoir d'achat américain a perdu 98% de sa valeur depuis 1900. L'inflation agit comme une taxe cachée qui rogne notre pouvoir d'achat. Elle permet à un État une redistribution forcée de la valeur en dévaluant sa monnaie pour faciliter le remboursement de sa dette et financer ses projets.
+Aujourd'hui, les grandes monnaies telles que l'euro et le dollar sont considérées comme fiduciaires. Cela signifie qu'elles n'ont pas de valeur intrinsèque. Leur valeur repose entièrement sur la confiance et la croyance que nous accordons aux institutions qui les régulent.
+
+Une monnaie fiduciaire est une forme de monnaie qui est décrétée comme monnaie par une institution, telle qu'un État-nation, comme la Chine avec le Yen, ou une union politico-économique, telle que l'Union européenne avec l'euro. L'entité en charge de l'émission d'une monnaie fiduciaire est une banque centrale (Par exemple, nous pouvons citer la Banque populaire de Chine, la Réserve fédérale des États-Unis, ou bien la Banque centrale de la République de Guinée). Ce sont ces dernières qui sont en charge de décider de la politique monétaire et donc de combien d'argent devrait être mis en circulation ou imprimé.
+
+![image](assets\Concept\chapitre2\1.jpeg)
+
+### La dévaluation monétaire : Une stratégie vieille comme l'Empire romain
+
+Depuis l'Antiquité, l'or a servi de référence monétaire. Cependant, sa rigidité a souvent poussé les dirigeants – qu'il s'agisse d'empereurs romains ou de gouvernements modernes – à adopter des monnaies alternatives, souvent fiduciaires.
+
+Le mécanisme est simple et s'inspire des pratiques existente depuis les origines de la civilisation. Les dirigeants, désireux d'exercer un contrôle sur les richesses, commencent par centraliser l'or, souvent en exploitant leur pouvoir et en promettant protection et sécurité. Avec cette réserve précieuse entre leurs mains, ils introduisent une nouvelle monnaie, équivalente en valeur à l'or, mais frappée à leur effigie. Cette monnaie commence alors à circuler, et le peuple s'habitue rapidement à sa commodité.
+
+Progressivement, ces dirigeants dévaluent discrètement la nouvelle monnaie, réduisant sa valeur par rapport à l'or initial de quelques pourcents chaque année. Cette dévaluation silencieuse est souvent justifiée comme étant dans l'intérêt du peuple. Ainsi, ceux qui épargnent en cette monnaie fiduciaire voient la valeur de leurs économies s'éroder, alors que l'État finance ses projets grâce à l'inflation. De plus, cette dévaluation rend la dette plus facile à rembourser.
+
+![image](assets\Concept\chapitre2\3.jpeg)
+
+À un moment critique, l'annonce est faite : la monnaie n'est plus soutenue par l'or. Le public, désormais habitué à la monnaie fiduciaire et souvent mal informé sur les questions financières, accepte cette réalité. L'État a alors le champ libre pour manipuler la masse monétaire, imprimant d'énormes sommes d'argent à un coût presque nul.
+
+Cette stratégie, lorsqu'elle est bien exécutée, peut perdurer pendant des décennies. Cependant, une dévaluation trop rapide ou une perte de confiance peut entraîner une hyperinflation (voir chapitre suivant). L'histoire montre que le dollar a perdu 98% de sa valeur en 100 ans, l'euro 30% en 20 ans et la livre sterling 99% depuis sa création.
+
+À la fin, la monnaie pourrait n'avoir plus aucune liaison avec l'or, rappelant les pièces romaines à la fin de l'Empire, ou même être réduite à une simple valeur numérique, déconnectée de la réalité tangible.
+
+Aujourd'hui, nous sommes témoins d'un tournant historique. Le dollar, qui a longtemps dominé, semble être en déclin, et l'or a perdu sa place centrale. Nous sommes à la charnière d'un nouveau cycle monétaire, rappelant que les leçons de l'histoire sont souvent oubliées.
+
+![image](assets\Concept\chapitre2\4.jpeg)
+
+
+
+### Est-ce que Bitcoin est une solution ?
+
+C'est dans ce contexte que la révolution Bitcoin prend de l'ampleur. Cette monnaie qui ne requiert **aucun tiers de confiance** vise à séparer l'État de la monnaie. 
 
 L'impression monétaire engendre de l'inflation, appauvrissant progressivement la population. En revanche, les institutions financières et les individus fortunés se sont enrichis grâce à cette pratique, creusant un fossé d'inégalités et favorisant l'autoritarisme. Le système financier actuel est régulé et restreint pour éviter son effondrement et tout bouleversement risquerait de provoquer une crise économique majeure. Comme les acteurs politiques bénéficient de ce système, ils ne sont pas incité à opérer un changement radical, laissant ainsi le système poursuivre sa course jusqu'à une éventuelle implosion.
 
+![image](assets\Concept\chapitre2\2.jpeg)
+
 En réponse à ces défis systémiques, Bitcoin se présente comme une solution décentralisée : un nouveau système monétaire neutre en parallèle. Historiquement, l'or a été privilégié en tant que monnaie, en raison de sa résistance à la contrefaçon. De manière similaire, Bitcoin, par sa nature décentralisée et cryptographique, ne peut être falsifié et est limité à 21 millions d'unités. Bitcoin est une monnaie qui repose sur la transparence et la neutralité, offrant une solution de rechange attrayante au système monétaire centralisé actuel.
+
 Parallèlement, l'émergence des monnaies numériques des banques centrales, ou CBDC, semble inévitable. Cette nouvelle forme de monnaie offrirait une planification davantage centralisée de l'économie, ce qui pourraient entraver la liberté financière des individus et faciliter les dérives autoritaires.
 
-![Les monnaies Fiduciaires](assets/posters/fr/4_lamonnaiefiatcrop.png)
+Nous pouvons terminer ce chapitre avec la citation du prix nodel d'économie F.A Hayek en 1984 "Je ne crois pas que l’on retrouvera un jour une bonne monnaie tant qu’on ne la reprendra pas des mains du gouvernement.
+Néanmoins, nous ne pouvons pas leurs arracher violemment, tout ce que l’on peut faire est d’introduire par une ingénieuse ruse quelque chose qu’ils ne peuvent pas arrêter.»
 
-# L’hyperinflation
+![image](assets\Concept\chapitre2\0.jpeg)
+
+## L’hyperinflation
 
 ![Les hyperinflation](https://youtu.be/cYKmgflsy_8)
 
 Les hyperinflations sont des phénomènes dévastateurs dans un système monétaire fiat, entraînées par des décisions humaines, qui peuvent conduire à la dévaluation totale de la monnaie en question. En résultat, les économies accumulées par les individus peuvent se dissiper en un laps de temps relativement court.
 
-Il existe des cas notables d'hyperinflation à travers l'histoire, tels que l'Allemagne en 1923, le Zimbabwe, le Venezuela, parmi d'autres. Essayons de comprendre l'impact de l'inflation sur l'épargne en considérant plusieurs taux d'inflation. Avec une inflation à 2%, vous perdez annuellement 2% de votre pouvoir d'achat, soit 10% au bout de 5 ans. À 7%, vous perdez la moitié en 10 ans. Avec un taux de 20%, vous perdez pratiquement la moitié en 3 ans. Ainsi, les hyperinflations peuvent éliminer rapidement une épargne difficilement obtenue.
-Ce phénomène d'hyperinflation n'est pas nouveau et a persisté tout au long de l'histoire. Pour comprendre cette dynamique, il est essentiel d'examiner les étapes de l'hyperinflation et le processus de perte de confiance en la monnaie.
+### L'inflation mais en roue libre !
 
-Une centralisation du pouvoir monétaire facilite la création de monnaie et ses abus. Une perte de confiance dans une monnaie peut alors émerger et déclencher une hyperinflation. Les individus commencent alors à se questionner sur l'origine de l'argent et les bienfaits de la politique monétaire mandatée. Cette perte de confiance est généralement due à des facteurs externes tels que les guerres, les mesures sociales ou la montée des prix d'une ressource clé, telle que le blé ou l'essence. Le deuxième stade est l'effondrement de la monnaie. À mesure que les gouvernements perdent le contrôle de la confiance, les individus commencent à échanger leur monnaie pour une autre, plus stable, comme le dollar américain au Vénézuela. Cela entraîne une hausse des prix, créant un cercle vicieux où les biens et services deviennent de plus en plus coûteux. Pour répondre à ces besoins, l'État imprime davantage de monnaie afin de corriger la politique monétaire, entraînant une inflation exponentielle.
+Essayons de comprendre l'impact de l'inflation sur l'épargne en considérant plusieurs taux d'inflation. 
 
-Une nouvelle monnaie est alors introduite pour remplacer l'ancienne. Un exemple notable d'hyperinflation est l'Allemagne dans les années 1920-1924. Pour relancer l'économie, une nouvelle monnaie a été créée, adossée à la dette allemande, française et anglaise, et garantie par les terres allemandes.
+* Avec une inflation à 2%, vous perdez annuellement 2% de votre pouvoir d'achat, soit 10% au bout de 5 ans. 
+* À 7%, vous perdez la moitié en 10 ans. 
+* À 20%, vous perdez pratiquement la moitié en 3 ans. 
+
+Lors d'une hyperinflation, nous ne parlons plus de 20 % par an, mais bien de 20 % par mois ou, au pic, par JOUR. 100 % d'inflation par jour sur 3 jours sont des choses réalistes qui sont arrivées et continuent d'arriver dans notre monde.
+
+Il est important de comprendre que l'hyperinflation n'arrive pas par magie, à la force du hasard, du capitalisme ou de l'adversaire politique. L'hyperinflation est la conséquence directe de décisions monétaires fausses prises par des banquiers centraux et des politiciens. Leurs conséquences touchent l'intégralité des citoyens et leurs conséquences toucheront des générations. Je vous invite à vous attarder 5 minutes sur ce tableau pour bien réaliser l'impact réel de ce phénomène (la formation ECON204 ira en détail sur ce sujet)."
+
+![image](assets\Concept\chapitre3\1.JPG)
+
+### Comment se déroule une hyperinflation ?
+
+![image](assets\Concept\chapitre3\3.jpeg)
+
+Phase 1 – La perte de confiance
+
+* Une centralisation du pouvoir monétaire facilite la création de monnaie et ses abus. Une perte de confiance dans une monnaie peut alors émerger et déclencher une hyperinflation. Les individus commencent alors à se questionner sur l'origine de l'argent et les bienfaits de la politique monétaire mandatée. Cette perte de confiance est généralement due à des facteurs externes tels que les guerres, les mesures sociales ou la montée des prix d'une ressource clé, telle que le blé ou l'essence.
+
+Phase 2 – L’effondrement de la monnaie & la hausse des prix
+
+* À mesure que les gouvernements perdent le contrôle de la confiance, les individus commencent à échanger leur monnaie pour une autre, plus stable, comme le dollar américain au Vénézuela. Cela entraîne une hausse des prix, créant un cercle vicieux où les biens et services deviennent de plus en plus coûteux. Pour répondre à ces besoins, l'État imprime davantage de monnaie afin de corriger la politique monétaire, entraînant une inflation exponentielle.
+
+Phase 3 – Le cercle vicieux de l’impression monétaire
+
+* Il faut de plus en plus de billets pour acheter des biens, ce qui crée une rareté de la monnaie papier. Ceci pousse à plus d’impressions de billets, créant encore plus d’inflation.
+
+![image](assets\Concept\chapitre3\4.jpeg)
+
+Phase 4 – Une nouvelle monnaie émmerge
+
+* Une nouvelle monnaie est alors introduite pour remplacer l'ancienne. Un exemple notable d'hyperinflation est l'Allemagne dans les années 1920-1924. Pour relancer l'économie, une nouvelle monnaie a été créée, adossée à la dette allemande, française et anglaise, et garantie par les terres allemandes.
+
 La résolution d'une crise d'hyperinflation nécessite souvent des changements radicaux, tels que des révolutions, des changements de gouvernement, des changements de banquiers centraux, entre autres. La perte de confiance, l'effondrement de la monnaie et la reconstruction sont des phases essentielles pour relancer une nouvelle économie basée sur une monnaie fiduciaire.
 
-Connaître le phénomène d''hyperinflation et comprendre comment elle se produit est une chose, mais comment peut-on se protéger contre elle ? Pour se prémunir contre l'hyperinflation, il est recommandé de diversifier son portefeuille en se débarrassant des monnaies faibles et en investissant dans des actifs ou des monnaies solides, tels que l'or ou le Bitcoin. Les actions d'entreprises capables de revaloriser leurs prix rapidement, comme Apple ou Microsoft, ou l'investissement immobilier peuvent également s'avérer être de bons placements. Par ailleurs, ne pas imprimer de l'argent à volonté est la meilleure façon de prévenir l'hyperinflation. Le Bitcoin est une monnaie qui possède des caractéristiques spécifiques, telle qu'une politique d'émission de la monnaie fixe et immuable sans un consensus total des utilisateurs.
+### 3 exemples notoires
+
+* Allemagne, 1922-1923
+  
+  Un des exemples les plus frappants d’hyperinflation s’est produit dans la République allemande de Weimar après la Première Guerre Mondiale.
+  
+  L’Allemagne avait emprunté d’énormes quantités d’argent pour financer l’effort de guerre et non seulement l’Allemagne n’a pas gagné la guerre, mais elle a dû payer des milliards de dollars en réparations. Le mois avec le plus d’inflation fut octobre 1923, culminant à 29 500 % soit une inflation de 20,9 % par jour. Les prix doublaient chaque 3,7 jours !
+  
+  On raconte que dans les restaurants, les serveurs devaient annoncer les prix du menu chaque 30 minutes pour tenir compte de l’inflation. La monnaie allemande est devenue tellement inutile que certains citoyens préféraient brûler leur monnaie-papier, plutôt que du bois, parce que c’était effectivement moins cher.
+
+![image](assets\Concept\chapitre3\5.jpeg)
+
+
+* Hongrie, 1945-1946
+
+  Le pays ayant subi la pire période d’hyperinflation de l’histoire à ce jour est de loin la Hongrie après la Seconde Guerre Mondiale.
+
+  La Hongrie se retrouvait du côté des perdants du conflit et la guerre avait détruit l’essentiel de sa capacité de production industrielle. Le mois ayant connu l’inflation la plus forte fut celui de juillet 1946 avec une inflation des prix de 41 900 000 000 000 000 % équivalant à 207 % par jour. Les prix doublaient toutes les 15 heures !
+
+  Le dernier billet à avoir été mis en circulation est un billet de 100 millions de billions de pengo (100 000 000 000 000 000 000) en 1946.
+
+![image](assets\Concept\chapitre3\6.jpeg)
+
+* Zimbabwe, 2007-2008
+  Jusqu’en l’an 2000 le Zimbabwe était auto-suffisant pour presque tous ses besoins excepté le pétrole.
+  
+  En 1997 le dollar zimbabwéen s’effondre de plus de 72 % après que le gouvernement ait consenti à indemniser les vétérans de la guerre d’indépendance pour une somme équivalente à 450 millions de dollars US. Comme le gouvernement n’avait pas une telle somme dans ses coffres, il a dû se résoudre à faire fonctionner la planche à billets. En 2005 l’inflation atteint 586 % et en mars 2007, l’inflation mensuelle atteint 50 %.
+  
+  En juin 2007, le gouvernement réagit en instaurant un contrôle des prix. Les magasins sont littéralement « dévalisés ». Les commerçants n’ont maintenant plus les moyens de réapprovisionner leurs boutiques.
+  
+  En avril 2009, le ministre des finances annonce la suspension du dollar du Zimbabwe et autorise l’usage de différentes devises étrangères pour le commerce. Tous les comptes bancaires, toutes les pensions, toutes les institutions financières ont vu leurs soldes s’évaporer du jour au lendemain.
+
+![image](assets\Concept\chapitre3\7.jpeg)
 
 En conclusion, l'hyperinflation a pour effet de dégrader rapidement la valeur de la monnaie, entraînant une érosion des épargnes et une perte de confiance dans le système monétaire. Comme Voltaire l'a autrefois suggéré, une monnaie fiduciaire finira toujours par perdre sa valeur intrinsèque et convergera vers zéro.
+
 Une monnaie qui repose sur un tiers de confiance comme une institution financière se révèle dans les faits et sur le long terme être une monnaie défectueuse car incapable de garantir le pouvoir d'achat ou de préserver les épargnes.
 
-![Les hyperinflations](assets/posters/fr/5_hyperinflation_crop.png)
-
-# 21 millions de bitcoins
+## 21 millions de bitcoins
 
 ![21 millions de Bitcoin](https://youtu.be/Y92R4EWk5uo)
+### La politique monetaire du Bitcoin
 
-Bitcoin est une monnaie numérique décentralisée avec une quantité maximale pré-définie de **21 millions d'unités**. Cette caractéristique intrinsèque de rareté est déterminée par son code informatique et renforcer par le consensus de tous les utilisateurs participant au protocole. En ce qui concerne son émission monétaire, elle peut être illustrée par une courbe en S qui représente la quantité de bitcoins créés au cours du temps. Par exemple, en 2022, environ 18,5 millions de bitcoins étaient en circulation. Les prévisions indiquent qu'en 2025, il y aura environ 19,5 millions de bitcoins soit ~93% de l'offre totale, et en 2037, ce chiffre atteindra 20,4 millions.
+Bitcoin est une monnaie numérique décentralisée avec une quantité maximale pré-définie de **21 millions d'unités**. Cette caractéristique intrinsèque de rareté est déterminée par son code informatique et renforcer par le consensus de tous les utilisateurs participant au protocole. 
 
-La création de nouveaux bitcoins est le résultat du processus de minage, une procédure d'attestation des transactions sur le réseau Bitcoin. Les mineurs, qui effectuent cette tâche, sont récompensés par l'émission de nouveaux bitcoins toutes les dix minutes. Cette récompense est programmée pour diminuer de moitié tous les 210 000 blocs, soit environ tous les quatre ans, un événement connu sous le nom de "halving" -- ce qui donne à la courbe d'émission monétaire une forme d'escalier. En raison de ce mécanisme de halving, on peut prédire mathématiquement que la création de bitcoins cessera en 2140, lorsque le nombre total de bitcoins atteindra sa limite de 21 millions.
+![image](assets\Concept\chapitre4\0.jpeg)
 
-La rareté du Bitcoin est garantie par deux mécanismes clés : la limite fixée à 21 millions de bitcoins et le protocole informatique qui ne peut être modifié sans le consensus quasi-totale du réseau. Deux autres éléments cruciaux contribuent à maintenir cette limite : la théorie du jeu et l'ajustement de la difficulté du minage. Les mineurs sont incités miner un bloc pour gagner les nouveaux bitcoins et les frais de transaction associés aux transactions qu'il inclue dans son bloc. À mesure que le nombre de bitcoins émis se rapproche de la limite de 21 millions, les mineurs seront davantage rémunérer par ses frais de transactions plutôt que par la récompense du bloc.
-L'ajustement de la difficulté du minage, quant à elle, s'effectue tous les 2016 blocs, soit environ deux semaines, pour garantir que, en moyenne, un nouveau bloc est ajouté à la blockchain toutes les dix minutes. Cette fréquence de création de blocs et la quantité totale de bitcoins sont des aspects figés du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
+En ce qui concerne son émission monétaire, elle peut être illustrée par une courbe en S qui représente la quantité de bitcoins créés au cours du temps. Par exemple, en 2022, environ 18,5 millions de bitcoins étaient en circulation. Les prévisions indiquent qu'en 2025, il y aura environ 19,5 millions de bitcoins soit ~93% de l'offre totale, et en 2037, ce chiffre atteindra 20,4 millions.
 
-Toute modification du protocole Bitcoin nécessiterait l'accord de l'ensemble de la communauté des utilisateurs, ce qui est hautement complexe. De plus, l'idée de dévaluer la monnaie est contraire à la philosophie fondamentale du Bitcoin, ainsi la modification de cette limite est quasi-improbable.
-La rareté du Bitcoin est un atout majeur, car il y aura toujours un maximum de 21 millions d'unités. La quantité de bitcoins en circulation est publique et vérifiable par quiconque. En fait, n'importe qui peut vérifier la quantité de bitcoins en circulation entrant une commande simple sur un nœud Bitcoin : `bitcoin-cli gettxoutsetinfo`. Cette transparence et vérifiabilité renforcent la confiance dans le système Bitcoin, qui ne repose pas sur des institutions centralisées ou des individus, mais sur une garantie mathématique et cryptographique inhérente à son protocole.
+### Comment creer de nouveau Bitcoin ?
 
-La notion de saine gestion monétaire est intrinsèque au Bitcoin, car il est impossible de créer plus de bitcoins que la limite préétablie ou de détruire l'épargne des utilisateurs. C'est une caractéristique fondamentale qui distingue Bitcoin des autres formes de monnaie. De plus, selon les principes de l'économie autrichienne, le Bitcoin est considéré comme une excellente forme de monnaie. En effet, sa quantité est strictement contrôlée et émise de manière prévisible, ce qui correspond à l'idéal autrichien au niveau de la création monétaire. Contrairement aux monnaies traditionnelles, qui peuvent être sujettes à l'inflation à cause de l'impression monétaire excessive, le Bitcoin maintient sa valeur grâce à sa rareté programmée.
+La création de nouveaux bitcoins est le résultat du processus de minage, une procédure d'attestation des transactions sur le réseau Bitcoin.
+
+![image](assets\Concept\chapitre4\1.jpeg)
+
+Les mineurs, qui effectuent cette tâche, sont récompensés par l'émission de nouveaux bitcoins toutes les dix minutes. Cette récompense est programmée pour diminuer de moitié tous les 210 000 blocs, soit environ tous les quatre ans, un événement connu sous le nom de "halving" -- ce qui donne à la courbe d'émission monétaire une forme d'escalier. En raison de ce mécanisme de halving, on peut prédire mathématiquement que la création de bitcoins cessera en 2140, lorsque le nombre total de bitcoins atteindra sa limite de 21 millions.
+
+| Halving Number | Block Height | BTC Reward After Halving | Estimated BTC in Circulation After Halving |
+|----------------|--------------|--------------------------|-------------------------------------------|
+| 1              | 210,000      | 25 BTC                   | 10,500,000 BTC                            |
+| 2              | 420,000      | 12.5 BTC                 | 15,750,000 BTC                            |
+| 3              | 630,000      | 6.25 BTC                 | 18,375,000 BTC                            |
+| 4              | 840,000      | 3.125 BTC                | 19,687,500 BTC                            |
+| 5              | 1,050,000    | 1.5625 BTC               | 20,343,750 BTC                            |
+| 6              | 1,260,000    | 0.78125 BTC              | 20,671,875 BTC                            |
+| 7              | 1,470,000    | 0.390625 BTC             | 20,835,937.5 BTC                          |
+| 8              | 1,680,000    | 0.1953125 BTC            | 20,917,968.75 BTC                         |
+| 9              | 1,890,000    | 0.09765625 BTC           | 20,958,984.375 BTC                        |
+| 10             | 2,100,000    | 0.048828125 BTC          | 20,979,492.188 BTC                        |
+| 11             | 2,310,000    | 0.0244140625 BTC         | 20,989,746.094 BTC                        |
+| 12             | 2,520,000    | 0.01220703125 BTC        | 20,994,873.047 BTC                        |
+| 13             | 2,730,000    | 0.006103515625 BTC       | 20,997,436.523 BTC                        |
+| 14             | 2,940,000    | 0.0030517578125 BTC      | 20,998,718.262 BTC                        |
+| 15             | 3,150,000    | 0.00152587890625 BTC     | 20,999,359.131 BTC                        |
+| 16             | 3,360,000    | 0.000762939453125 BTC    | 20,999,679.566 BTC                        |
+| 17             | 3,570,000    | 0.0003814697265625 BTC   | 20,999,839.783 BTC                        |
+| 18             | 3,780,000    | 0.00019073486328125 BTC  | 20,999,919.892 BTC                        |
+| 19             | 3,990,000    | 0.000095367431640625 BTC | 20,999,959.946 BTC                        |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC| 20,999,979.973 BTC                        |
+
+
+Nous reviendrons en détail sur les mineurs dans le chapitre minage.
+
+### Garantir la rareté numérique
+
+La rareté du Bitcoin est garantie par deux mécanismes clés; l'ajustement de la difficulté du minage et la théorie du jeu:
+
+* L'ajustement de la difficulté du minage est un mécanisme qui s'effectue tous les 2016 blocs, soit environ deux semaines, pour garantir que, en moyenne, un nouveau bloc est ajouté à la blockchain toutes les dix minutes. Cette fréquence de création de blocs et la quantité totale de bitcoins sont des aspects figés du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
+
+![image](assets\Concept\chapitre4\2.jpeg)
+
+> Le saviez vous ? Les mineurs sont incités miner un bloc pour gagner les nouveaux bitcoins et les frais de transaction associés aux transactions qu'il inclue dans son bloc. À mesure que le nombre de bitcoins émis se rapproche de la limite de 21 millions, les mineurs seront davantage rémunérer par ses frais de transactions plutôt que par la récompense du bloc.
+
+* La théorie des jeux est un concept mathématique qui repose sur la rationalité humaine. Ici, dans Bitcoin, ce sont les utilisateurs qui votent pour les changements du protocole. Oui, vous avez bien lu : toute modification du protocole Bitcoin nécessiterait l'accord de l'ensemble de la communauté des utilisateurs, ce qui est hautement complexe. Si quelqu'un voulait donc créer un 22ème million de bitcoin, il devrait convaincre l'ensemble des utilisateurs de volontairement dévaluer leur propre épargne, ce qui ne risque pas d'arriver car Bitcoin est mondial et non gouverné par un groupe central.
+
+![image](assets\Concept\chapitre4\3.jpeg)
+
+L'idée de dévaluer la monnaie est contraire à la philosophie fondamentale du Bitcoin, donc la modification de cette limite est quasi-improbable
+
+### Une politique monétaire auditable chaque seconde depuis le début et pour toujours !
+
+La rareté du Bitcoin est un atout majeur et la quantité max de 21Million de bitcoins en circulation est publique et vérifiable par quiconque. 
+
+En fait, n'importe qui peut vérifier la quantité de bitcoins en circulation entrant une commande simple sur un nœud Bitcoin : `bitcoin-cli gettxoutsetinfo`. Cette transparence et vérifiabilité renforcent la confiance dans le système Bitcoin, qui ne repose pas sur des institutions centralisées ou des individus, mais sur une garantie mathématique et cryptographique inhérente à son protocole.
+
+```json
+{
+  "height": 710560,
+  "bestblock": "0000000000000000000887384d67103412ea7f18a43953e65c8c4ac36bf42e54",
+  "transactions": 473244,
+  "txouts": 1018917,
+  "bogosize": 2183872374,
+  "hash_serialized_2": "eebb9987337700ffaacbbaa11223344",
+  "disk_size": 178239584,
+  "total_amount": 18745998.12345678
+}
+```
+
+Le Bitcoin, par sa conception, garantit une gestion monétaire saine en limitant sa création et en protégeant l'épargne des utilisateurs, le distinguant ainsi des autres monnaies. Aligné sur les principes de l'économie autrichienne (détail dans ECON201), sa quantité contrôlée et sa distribution prévisible le préservent des risques d'inflation inhérents aux monnaies traditionnelles.
 
 En somme, le Bitcoin, par sa nature décentralisée, sa rareté programmée et sa transparence, offre une alternative unique aux systèmes monétaires traditionnels. Il illustre comment la technologie peut être utilisée pour créer une monnaie qui est non seulement utile et vérifiable, mais qui préserve également la valeur de l'épargne des utilisateurs en limitant strictement son offre.
 
 ![21 millions de bitcoin](assets/posters/fr/6_21_million_crop.png)
 
-# La monnaie : un outil social
+### Conclusion de la section 1 !
 
 ![conclusion sur la monnaie](https://youtu.be/xJsT7Jk5xWE)
 
@@ -145,7 +422,8 @@ Bitcoin est avant tout une forme de monnaie qui incite à remettre en question l
 
 Maintenant que nous avons établi les différences entre Bitcoin et les monnaies fiduciaires, nous allons dans les prochains chapitres étudier ce que sont les portefeuilles Bitcoin car il est de votre responsabilité de sécuriser vos fonds. En effet la sovereineté financière qu'offre Bitcoin va nécessairement de pair avec la responsabilité individuelle.
 
-# Que sont les portefeuilles Bitcoin ?
+# Les portefeuilles Bitcoin
+## Que sont les portefeuilles Bitcoin ?
 
 ![comprendre les portefeuilles Bitcoin](https://youtu.be/GsnX7qdODK8)
 

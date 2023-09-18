@@ -33,7 +33,7 @@ Le protocole utilise des technologies sous-jacentes telles que la cryptographie,
 
 ### Un curriculum complet mais accessible
 
-Dans le cadre de cette formation, nous discuterons des aspects monétaires de Bitcoin, y compris la façon d'acheter et de vendre des bitcoins, de les conserver en toute sécurité dans des portefeuilles numériques et de les utiliser pour effectuer des transactions. Nous examinerons également le rôle des mineurs, qui sont essentiels à la création de nouveaux bitcoins et à la sécurisation du réseau Bitcoin. En outre, nous nous pencherons sur l'avenir de Bitcoin et sur la manière dont la technologie du Lightning Network peut améliorer les transactions Bitcoin. 
+Dans le cadre de cette formation, nous discuterons des aspects monétaires de Bitcoin, y compris la façon d'acheter et de vendre des bitcoins, de les conserver en toute sécurité dans des portefeuilles numériques et de les utiliser pour effectuer des transactions. Nous examinerons également le rôle des mineurs, qui sont essentiels à la création de nouveaux bitcoins et à la sécurisation du réseau Bitcoin. En outre, nous nous pencherons sur l'avenir de Bitcoin et sur la manière dont la technologie du Lightning Network peut améliorer les transactions Bitcoin.
 
 ![image](assets\Concept\chapitre0\4.jpeg)
 
@@ -41,44 +41,42 @@ Il est essentiel de comprendre que Bitcoin est un nouveau système monétaire qu
 
 **Section 1 - La monnaie**
 
-* Chapitre 1 – Qu’est-ce que la monnaie ?
-* Chapitre 2 – La monnaie fiduciaire
-* Chapitre 3 – Les hyperinflations
-* Chapitre 4 – La politique monétaire du Bitcoin
+- Chapitre 1 – Qu’est-ce que la monnaie ?
+- Chapitre 2 – La monnaie fiduciaire
+- Chapitre 3 – Les hyperinflations
+- Chapitre 4 – La politique monétaire du Bitcoin
 
 **Section 2 - Les portefeuille Bitcoin**
 
-* Chapitre 5 – Comment fonctionnent les portefeuilles Bitcoin ?
-* Chapitre 6 – Choisir sa sécurité
-* Chapitre 7 – Mettre en place son portefeuille
-* Chapitre 8 – Se protéger contre le temps
+- Chapitre 5 – Comment fonctionnent les portefeuilles Bitcoin ?
+- Chapitre 6 – Choisir sa sécurité
+- Chapitre 7 – Mettre en place son portefeuille
+- Chapitre 8 – Se protéger contre le temps
 
 **Section 3 - Les aspects techniques de Bitcoin**
 
-* Chapitre 9 - Explication d’une transaction
-* Chapitre 10 - Les nœuds Bitcoin
-* Chapitre 11 - Les mineurs
-* Chapitre 12 - Mineurs et écologie
+- Chapitre 9 - Explication d’une transaction
+- Chapitre 10 - Les nœuds Bitcoin
+- Chapitre 11 - Les mineurs
+- Chapitre 12 - Mineurs et écologie
 
 **Section 4 - L'épargne en Bitcoin**
 
-* Chapitre 13 – le prix du Bitcoin
-* Chapitre 14  – Comment acheter du Bitcoin
-* Chapitre 15  – Travailler pour des Bitcoins
-* Chapitre 16  – Hyper-bicoinisation
+- Chapitre 13 – le prix du Bitcoin
+- Chapitre 14 – Comment acheter du Bitcoin
+- Chapitre 15 – Travailler pour des Bitcoins
+- Chapitre 16 – Hyper-bicoinisation
 
 **Section 5 - Le lightning Network**
 
-* Chapitre 17  – Introduction au Lightning Network
-* Chapitre 18  – Cas usage Lightning Network
+- Chapitre 17 – Introduction au Lightning Network
+- Chapitre 18 – Cas usage Lightning Network
 
-Avant d'aborder la définition et le fonctionnement de la monnaie dans une société ( chapitre 1), nous démarrons avec la génèse de Bitcoin. Bitcoin est une technologie relativement nouvelle, lancée en 2009, qui est semblable à rien d'autre. Il est donc normal de ne pas tout comprendre sur le moment. En effet, comme quand on apprend à utiliser Internet ou une voiture, on n'a pas besoin de connaître tous les détails techniques pour utiliser Bitcoin (recevoir, payer, sécuriser ses fonds). 
+Avant d'aborder la définition et le fonctionnement de la monnaie dans une société ( chapitre 1), nous démarrons avec la génèse de Bitcoin. Bitcoin est une technologie relativement nouvelle, lancée en 2009, qui est semblable à rien d'autre. Il est donc normal de ne pas tout comprendre sur le moment. En effet, comme quand on apprend à utiliser Internet ou une voiture, on n'a pas besoin de connaître tous les détails techniques pour utiliser Bitcoin (recevoir, payer, sécuriser ses fonds).
 
 ![image](assets\Concept\chapitre0\3.png)
 
 L'importance ici est surtout de comprendre de façon générale cette nouvelle technologie. Nous espérons que cette formation vous plaira et vous apportera la base nécessaire pour comprendre et peut-être continuer d'avancer dans ce nouveau paradigme monétaire mondial.
-
-
 
 ## La préhistoire du Bitcoin
 
@@ -100,14 +98,14 @@ Des figures emblématiques telles que Julian Assange, Wei Dai, Tim May et David 
 
 Le mouvement cypherpunk, avec ses racines profondes dans l'activisme numérique et la cryptographie, s'est appuyé sur plusieurs textes fondamentaux pour exprimer ses principes et sa vision du futur. Parmi ces écrits, trois se démarquent particulièrement :
 
-* Le "Cypherpunk Manifesto":
-Écrit par Eric Hughes en 1993, le "Cypherpunk Manifesto" affirme que la vie privée est un droit fondamental. Hughes soutenait que la capacité de communiquer librement et de manière confidentielle était essentielle pour une société libre. Le manifeste déclare : "Nous ne pouvons pas attendre des institutions, des entreprises, ou d'autres grands entités impersonnelles qu'elles nous accordent la vie privée... Nous devons la défendre nous-mêmes."
+- Le "Cypherpunk Manifesto":
+  Écrit par Eric Hughes en 1993, le "Cypherpunk Manifesto" affirme que la vie privée est un droit fondamental. Hughes soutenait que la capacité de communiquer librement et de manière confidentielle était essentielle pour une société libre. Le manifeste déclare : "Nous ne pouvons pas attendre des institutions, des entreprises, ou d'autres grands entités impersonnelles qu'elles nous accordent la vie privée... Nous devons la défendre nous-mêmes."
 
-* Le "Manifesto du Crypto-Anarchiste":
-Rédigé par Timothy C. May en 1992, ce manifeste expose comment l'utilisation de la cryptographie pourrait entraîner une ère d'anarchie cryptographique où les gouvernements seraient impuissants à intervenir dans les affaires privées des citoyens. May prévoyait un futur où les échanges d'informations, d'argent et de messages pourraient se faire sans l'intervention d'une tierce partie, et ce, de manière anonyme.
+- Le "Manifesto du Crypto-Anarchiste":
+  Rédigé par Timothy C. May en 1992, ce manifeste expose comment l'utilisation de la cryptographie pourrait entraîner une ère d'anarchie cryptographique où les gouvernements seraient impuissants à intervenir dans les affaires privées des citoyens. May prévoyait un futur où les échanges d'informations, d'argent et de messages pourraient se faire sans l'intervention d'une tierce partie, et ce, de manière anonyme.
 
-* La "Déclaration d'Indépendance du Cyberespace":
-Bien que ce texte ne soit pas exclusivement cypherpunk, il reflète les sentiments de nombreux acteurs du mouvement. Écrit en 1996 par John Perry Barlow, il s'agit d'une réponse à la régulation croissante d'Internet par les gouvernements. La déclaration affirme que le cyberespace est un lieu distinct de la sphère physique et ne devrait pas être soumis aux mêmes lois. Elle déclare : "Nous n'avons pas d'élus, et nous ne pouvons donc pas être gouvernés."
+- La "Déclaration d'Indépendance du Cyberespace":
+  Bien que ce texte ne soit pas exclusivement cypherpunk, il reflète les sentiments de nombreux acteurs du mouvement. Écrit en 1996 par John Perry Barlow, il s'agit d'une réponse à la régulation croissante d'Internet par les gouvernements. La déclaration affirme que le cyberespace est un lieu distinct de la sphère physique et ne devrait pas être soumis aux mêmes lois. Elle déclare : "Nous n'avons pas d'élus, et nous ne pouvons donc pas être gouvernés."
 
 ### Les Prédécesseurs du Bitcoin
 
@@ -130,11 +128,12 @@ Bitcoin est donc un protocole qui s'inscrit sur des temps longs, et qui nous inc
 ![La préhistoire du Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.png)
 
 # La monnaie
+
 ## La monnaie à travers l'Histoire
 
 ![La monnaie](https://youtu.be/LslJVNCvHhA)
 
-L'évolution de la monnaie constitue un aspect fascinant de l'histoire humaine, reflétant l'ingéniosité des civilisations à travers les âges pour répondre à des besoins économiques en constante évolution. 
+L'évolution de la monnaie constitue un aspect fascinant de l'histoire humaine, reflétant l'ingéniosité des civilisations à travers les âges pour répondre à des besoins économiques en constante évolution.
 
 ![image](assets\Concept\chapitre1\2.jpeg)
 
@@ -150,17 +149,17 @@ Alors que les civilisations avançaient et que le commerce s'étendait à de nou
 
 La monnaie est un outil de communication très sophistiqué :
 
-* Elle permet de communiquer entre le présent et le futur. Nous transformons notre temps et énergie dans un actif qui peut être réexploité dans le futur sans risque de dévaluation.
+- Elle permet de communiquer entre le présent et le futur. Nous transformons notre temps et énergie dans un actif qui peut être réexploité dans le futur sans risque de dévaluation.
 
-* Elle permet de communiquer dans un langage commun universel. Sans se connaître, sans parler la même langue, deux inconnus peuvent échanger, commercer et s’entendre sur la valeur des choses.
+- Elle permet de communiquer dans un langage commun universel. Sans se connaître, sans parler la même langue, deux inconnus peuvent échanger, commercer et s’entendre sur la valeur des choses.
 
 Sa fonction dans notre monde est difficile à répliquer artificiellement. Aucun humain ou groupe d’humains ne peut créer une monnaie, c’est un phénomène social naturel qui doit émerger du marché et d’un consensus volontaire. Les prix sont des signaux, de l’information, qui aident la société à choisir comment les ressources seront allouées.
 
 L’or comme monnaie est le choix de 4 000 ans de darwinisme monétaire qui repose sur 3 fonctions :
 
-* Réserve de valeur
-* Moyen d’échange
-* Unité de compte
+- Réserve de valeur
+- Moyen d’échange
+- Unité de compte
 
 ![image](assets\Concept\chapitre1\3.jpeg)
 ![image](assets\Concept\chapitre1\4.jpeg)
@@ -181,11 +180,12 @@ Les critères d'une monnaie efficace sont multiples. Une bonne monnaie doit êtr
 - **Liquide**, c'est-à-dire facilement convertible en biens ou services.
 
 Afin de répondre à ces critères, la monnaie évolue étape par étape :
-* Pierre brute -> Pièce
-* Billet -> Carte bancaire
-* Blockchain -> Lightning Network
 
-Aujourd'hui, les monnaies évoluent encore, adaptant leurs formes pour répondre à différents usages. Par exemple, alors que l'or est une excellente réserve de valeur, il n'est plus adapté à l'économie mondialisée actuelle. De même, les monnaies fiduciaires comme le dollar et l'euro sont très liquides et facilement transportable car aujourd'hui majoritairement numérique, néanmoins leur valeur est constamment érodée par l'inflation monétaire. 
+- Pierre brute -> Pièce
+- Billet -> Carte bancaire
+- Blockchain -> Lightning Network
+
+Aujourd'hui, les monnaies évoluent encore, adaptant leurs formes pour répondre à différents usages. Par exemple, alors que l'or est une excellente réserve de valeur, il n'est plus adapté à l'économie mondialisée actuelle. De même, les monnaies fiduciaires comme le dollar et l'euro sont très liquides et facilement transportable car aujourd'hui majoritairement numérique, néanmoins leur valeur est constamment érodée par l'inflation monétaire.
 
 Bitcoin, quant à lui, présente de nouvelles possibilités. De part ses propriétés, comme son offre strictement limitée, il offre une excellente réserve de valeur. De plus, en tant que monnaie neutre d'internet, il est représente un bon moyen d'échange qui ne connait pas de frontière. Toutefois, il reste, aujourd'hui encore, peu accepté dans les commerces malgré une [constante adoption](https://btcmap.org/map).
 
@@ -223,11 +223,9 @@ Aujourd'hui, nous sommes témoins d'un tournant historique. Le dollar, qui a lon
 
 ![image](assets\Concept\chapitre2\4.jpeg)
 
-
-
 ### Est-ce que Bitcoin est une solution ?
 
-C'est dans ce contexte que la révolution Bitcoin prend de l'ampleur. Cette monnaie qui ne requiert **aucun tiers de confiance** vise à séparer l'État de la monnaie. 
+C'est dans ce contexte que la révolution Bitcoin prend de l'ampleur. Cette monnaie qui ne requiert **aucun tiers de confiance** vise à séparer l'État de la monnaie.
 
 L'impression monétaire engendre de l'inflation, appauvrissant progressivement la population. En revanche, les institutions financières et les individus fortunés se sont enrichis grâce à cette pratique, creusant un fossé d'inégalités et favorisant l'autoritarisme. Le système financier actuel est régulé et restreint pour éviter son effondrement et tout bouleversement risquerait de provoquer une crise économique majeure. Comme les acteurs politiques bénéficient de ce système, ils ne sont pas incité à opérer un changement radical, laissant ainsi le système poursuivre sa course jusqu'à une éventuelle implosion.
 
@@ -250,11 +248,11 @@ Les hyperinflations sont des phénomènes dévastateurs dans un système monéta
 
 ### L'inflation mais en roue libre !
 
-Essayons de comprendre l'impact de l'inflation sur l'épargne en considérant plusieurs taux d'inflation. 
+Essayons de comprendre l'impact de l'inflation sur l'épargne en considérant plusieurs taux d'inflation.
 
-* Avec une inflation à 2%, vous perdez annuellement 2% de votre pouvoir d'achat, soit 10% au bout de 5 ans. 
-* À 7%, vous perdez la moitié en 10 ans. 
-* À 20%, vous perdez pratiquement la moitié en 3 ans. 
+- Avec une inflation à 2%, vous perdez annuellement 2% de votre pouvoir d'achat, soit 10% au bout de 5 ans.
+- À 7%, vous perdez la moitié en 10 ans.
+- À 20%, vous perdez pratiquement la moitié en 3 ans.
 
 Lors d'une hyperinflation, nous ne parlons plus de 20 % par an, mais bien de 20 % par mois ou, au pic, par JOUR. 100 % d'inflation par jour sur 3 jours sont des choses réalistes qui sont arrivées et continuent d'arriver dans notre monde.
 
@@ -268,38 +266,37 @@ Il est important de comprendre que l'hyperinflation n'arrive pas par magie, à l
 
 Phase 1 – La perte de confiance
 
-* Une centralisation du pouvoir monétaire facilite la création de monnaie et ses abus. Une perte de confiance dans une monnaie peut alors émerger et déclencher une hyperinflation. Les individus commencent alors à se questionner sur l'origine de l'argent et les bienfaits de la politique monétaire mandatée. Cette perte de confiance est généralement due à des facteurs externes tels que les guerres, les mesures sociales ou la montée des prix d'une ressource clé, telle que le blé ou l'essence.
+- Une centralisation du pouvoir monétaire facilite la création de monnaie et ses abus. Une perte de confiance dans une monnaie peut alors émerger et déclencher une hyperinflation. Les individus commencent alors à se questionner sur l'origine de l'argent et les bienfaits de la politique monétaire mandatée. Cette perte de confiance est généralement due à des facteurs externes tels que les guerres, les mesures sociales ou la montée des prix d'une ressource clé, telle que le blé ou l'essence.
 
 Phase 2 – L’effondrement de la monnaie & la hausse des prix
 
-* À mesure que les gouvernements perdent le contrôle de la confiance, les individus commencent à échanger leur monnaie pour une autre, plus stable, comme le dollar américain au Vénézuela. Cela entraîne une hausse des prix, créant un cercle vicieux où les biens et services deviennent de plus en plus coûteux. Pour répondre à ces besoins, l'État imprime davantage de monnaie afin de corriger la politique monétaire, entraînant une inflation exponentielle.
+- À mesure que les gouvernements perdent le contrôle de la confiance, les individus commencent à échanger leur monnaie pour une autre, plus stable, comme le dollar américain au Vénézuela. Cela entraîne une hausse des prix, créant un cercle vicieux où les biens et services deviennent de plus en plus coûteux. Pour répondre à ces besoins, l'État imprime davantage de monnaie afin de corriger la politique monétaire, entraînant une inflation exponentielle.
 
 Phase 3 – Le cercle vicieux de l’impression monétaire
 
-* Il faut de plus en plus de billets pour acheter des biens, ce qui crée une rareté de la monnaie papier. Ceci pousse à plus d’impressions de billets, créant encore plus d’inflation.
+- Il faut de plus en plus de billets pour acheter des biens, ce qui crée une rareté de la monnaie papier. Ceci pousse à plus d’impressions de billets, créant encore plus d’inflation.
 
 ![image](assets\Concept\chapitre3\4.jpeg)
 
 Phase 4 – Une nouvelle monnaie émmerge
 
-* Une nouvelle monnaie est alors introduite pour remplacer l'ancienne. Un exemple notable d'hyperinflation est l'Allemagne dans les années 1920-1924. Pour relancer l'économie, une nouvelle monnaie a été créée, adossée à la dette allemande, française et anglaise, et garantie par les terres allemandes.
+- Une nouvelle monnaie est alors introduite pour remplacer l'ancienne. Un exemple notable d'hyperinflation est l'Allemagne dans les années 1920-1924. Pour relancer l'économie, une nouvelle monnaie a été créée, adossée à la dette allemande, française et anglaise, et garantie par les terres allemandes.
 
 La résolution d'une crise d'hyperinflation nécessite souvent des changements radicaux, tels que des révolutions, des changements de gouvernement, des changements de banquiers centraux, entre autres. La perte de confiance, l'effondrement de la monnaie et la reconstruction sont des phases essentielles pour relancer une nouvelle économie basée sur une monnaie fiduciaire.
 
 ### 3 exemples notoires
 
-* Allemagne, 1922-1923
-  
+- Allemagne, 1922-1923
+
   Un des exemples les plus frappants d’hyperinflation s’est produit dans la République allemande de Weimar après la Première Guerre Mondiale.
-  
+
   L’Allemagne avait emprunté d’énormes quantités d’argent pour financer l’effort de guerre et non seulement l’Allemagne n’a pas gagné la guerre, mais elle a dû payer des milliards de dollars en réparations. Le mois avec le plus d’inflation fut octobre 1923, culminant à 29 500 % soit une inflation de 20,9 % par jour. Les prix doublaient chaque 3,7 jours !
-  
+
   On raconte que dans les restaurants, les serveurs devaient annoncer les prix du menu chaque 30 minutes pour tenir compte de l’inflation. La monnaie allemande est devenue tellement inutile que certains citoyens préféraient brûler leur monnaie-papier, plutôt que du bois, parce que c’était effectivement moins cher.
 
 ![image](assets\Concept\chapitre3\5.jpeg)
 
-
-* Hongrie, 1945-1946
+- Hongrie, 1945-1946
 
   Le pays ayant subi la pire période d’hyperinflation de l’histoire à ce jour est de loin la Hongrie après la Seconde Guerre Mondiale.
 
@@ -309,13 +306,13 @@ La résolution d'une crise d'hyperinflation nécessite souvent des changements r
 
 ![image](assets\Concept\chapitre3\6.jpeg)
 
-* Zimbabwe, 2007-2008
+- Zimbabwe, 2007-2008
   Jusqu’en l’an 2000 le Zimbabwe était auto-suffisant pour presque tous ses besoins excepté le pétrole.
-  
+
   En 1997 le dollar zimbabwéen s’effondre de plus de 72 % après que le gouvernement ait consenti à indemniser les vétérans de la guerre d’indépendance pour une somme équivalente à 450 millions de dollars US. Comme le gouvernement n’avait pas une telle somme dans ses coffres, il a dû se résoudre à faire fonctionner la planche à billets. En 2005 l’inflation atteint 586 % et en mars 2007, l’inflation mensuelle atteint 50 %.
-  
+
   En juin 2007, le gouvernement réagit en instaurant un contrôle des prix. Les magasins sont littéralement « dévalisés ». Les commerçants n’ont maintenant plus les moyens de réapprovisionner leurs boutiques.
-  
+
   En avril 2009, le ministre des finances annonce la suspension du dollar du Zimbabwe et autorise l’usage de différentes devises étrangères pour le commerce. Tous les comptes bancaires, toutes les pensions, toutes les institutions financières ont vu leurs soldes s’évaporer du jour au lendemain.
 
 ![image](assets\Concept\chapitre3\7.jpeg)
@@ -327,9 +324,10 @@ Une monnaie qui repose sur un tiers de confiance comme une institution financiè
 ## 21 millions de bitcoins
 
 ![21 millions de Bitcoin](https://youtu.be/Y92R4EWk5uo)
+
 ### La politique monetaire du Bitcoin
 
-Bitcoin est une monnaie numérique décentralisée avec une quantité maximale pré-définie de **21 millions d'unités**. Cette caractéristique intrinsèque de rareté est déterminée par son code informatique et renforcer par le consensus de tous les utilisateurs participant au protocole. 
+Bitcoin est une monnaie numérique décentralisée avec une quantité maximale pré-définie de **21 millions d'unités**. Cette caractéristique intrinsèque de rareté est déterminée par son code informatique et renforcer par le consensus de tous les utilisateurs participant au protocole.
 
 ![image](assets\Concept\chapitre4\0.jpeg)
 
@@ -343,29 +341,28 @@ La création de nouveaux bitcoins est le résultat du processus de minage, une p
 
 Les mineurs, qui effectuent cette tâche, sont récompensés par l'émission de nouveaux bitcoins toutes les dix minutes. Cette récompense est programmée pour diminuer de moitié tous les 210 000 blocs, soit environ tous les quatre ans, un événement connu sous le nom de "halving" -- ce qui donne à la courbe d'émission monétaire une forme d'escalier. En raison de ce mécanisme de halving, on peut prédire mathématiquement que la création de bitcoins cessera en 2140, lorsque le nombre total de bitcoins atteindra sa limite de 21 millions.
 
-| Halving Number | Block Height | BTC Reward After Halving | Estimated BTC in Circulation After Halving |
-|----------------|--------------|--------------------------|-------------------------------------------|
-| 1              | 210,000      | 25 BTC                   | 10,500,000 BTC                            |
-| 2              | 420,000      | 12.5 BTC                 | 15,750,000 BTC                            |
-| 3              | 630,000      | 6.25 BTC                 | 18,375,000 BTC                            |
-| 4              | 840,000      | 3.125 BTC                | 19,687,500 BTC                            |
-| 5              | 1,050,000    | 1.5625 BTC               | 20,343,750 BTC                            |
-| 6              | 1,260,000    | 0.78125 BTC              | 20,671,875 BTC                            |
-| 7              | 1,470,000    | 0.390625 BTC             | 20,835,937.5 BTC                          |
-| 8              | 1,680,000    | 0.1953125 BTC            | 20,917,968.75 BTC                         |
-| 9              | 1,890,000    | 0.09765625 BTC           | 20,958,984.375 BTC                        |
-| 10             | 2,100,000    | 0.048828125 BTC          | 20,979,492.188 BTC                        |
-| 11             | 2,310,000    | 0.0244140625 BTC         | 20,989,746.094 BTC                        |
-| 12             | 2,520,000    | 0.01220703125 BTC        | 20,994,873.047 BTC                        |
-| 13             | 2,730,000    | 0.006103515625 BTC       | 20,997,436.523 BTC                        |
-| 14             | 2,940,000    | 0.0030517578125 BTC      | 20,998,718.262 BTC                        |
-| 15             | 3,150,000    | 0.00152587890625 BTC     | 20,999,359.131 BTC                        |
-| 16             | 3,360,000    | 0.000762939453125 BTC    | 20,999,679.566 BTC                        |
-| 17             | 3,570,000    | 0.0003814697265625 BTC   | 20,999,839.783 BTC                        |
-| 18             | 3,780,000    | 0.00019073486328125 BTC  | 20,999,919.892 BTC                        |
-| 19             | 3,990,000    | 0.000095367431640625 BTC | 20,999,959.946 BTC                        |
-| 20             | 4,200,000    | 0.0000476837158203125 BTC| 20,999,979.973 BTC                        |
-
+| Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
+| -------------- | ------------ | ------------------------- | ------------------------------------------ |
+| 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
+| 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
+| 3              | 630,000      | 6.25 BTC                  | 18,375,000 BTC                             |
+| 4              | 840,000      | 3.125 BTC                 | 19,687,500 BTC                             |
+| 5              | 1,050,000    | 1.5625 BTC                | 20,343,750 BTC                             |
+| 6              | 1,260,000    | 0.78125 BTC               | 20,671,875 BTC                             |
+| 7              | 1,470,000    | 0.390625 BTC              | 20,835,937.5 BTC                           |
+| 8              | 1,680,000    | 0.1953125 BTC             | 20,917,968.75 BTC                          |
+| 9              | 1,890,000    | 0.09765625 BTC            | 20,958,984.375 BTC                         |
+| 10             | 2,100,000    | 0.048828125 BTC           | 20,979,492.188 BTC                         |
+| 11             | 2,310,000    | 0.0244140625 BTC          | 20,989,746.094 BTC                         |
+| 12             | 2,520,000    | 0.01220703125 BTC         | 20,994,873.047 BTC                         |
+| 13             | 2,730,000    | 0.006103515625 BTC        | 20,997,436.523 BTC                         |
+| 14             | 2,940,000    | 0.0030517578125 BTC       | 20,998,718.262 BTC                         |
+| 15             | 3,150,000    | 0.00152587890625 BTC      | 20,999,359.131 BTC                         |
+| 16             | 3,360,000    | 0.000762939453125 BTC     | 20,999,679.566 BTC                         |
+| 17             | 3,570,000    | 0.0003814697265625 BTC    | 20,999,839.783 BTC                         |
+| 18             | 3,780,000    | 0.00019073486328125 BTC   | 20,999,919.892 BTC                         |
+| 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
+| 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 Nous reviendrons en détail sur les mineurs dans le chapitre minage.
 
@@ -373,13 +370,13 @@ Nous reviendrons en détail sur les mineurs dans le chapitre minage.
 
 La rareté du Bitcoin est garantie par deux mécanismes clés; l'ajustement de la difficulté du minage et la théorie du jeu:
 
-* L'ajustement de la difficulté du minage est un mécanisme qui s'effectue tous les 2016 blocs, soit environ deux semaines, pour garantir que, en moyenne, un nouveau bloc est ajouté à la blockchain toutes les dix minutes. Cette fréquence de création de blocs et la quantité totale de bitcoins sont des aspects figés du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
+- L'ajustement de la difficulté du minage est un mécanisme qui s'effectue tous les 2016 blocs, soit environ deux semaines, pour garantir que, en moyenne, un nouveau bloc est ajouté à la blockchain toutes les dix minutes. Cette fréquence de création de blocs et la quantité totale de bitcoins sont des aspects figés du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
 
 ![image](assets\Concept\chapitre4\2.jpeg)
 
 > Le saviez vous ? Les mineurs sont incités miner un bloc pour gagner les nouveaux bitcoins et les frais de transaction associés aux transactions qu'il inclue dans son bloc. À mesure que le nombre de bitcoins émis se rapproche de la limite de 21 millions, les mineurs seront davantage rémunérer par ses frais de transactions plutôt que par la récompense du bloc.
 
-* La théorie des jeux est un concept mathématique qui repose sur la rationalité humaine. Ici, dans Bitcoin, ce sont les utilisateurs qui votent pour les changements du protocole. Oui, vous avez bien lu : toute modification du protocole Bitcoin nécessiterait l'accord de l'ensemble de la communauté des utilisateurs, ce qui est hautement complexe. Si quelqu'un voulait donc créer un 22ème million de bitcoin, il devrait convaincre l'ensemble des utilisateurs de volontairement dévaluer leur propre épargne, ce qui ne risque pas d'arriver car Bitcoin est mondial et non gouverné par un groupe central.
+- La théorie des jeux est un concept mathématique qui repose sur la rationalité humaine. Ici, dans Bitcoin, ce sont les utilisateurs qui votent pour les changements du protocole. Oui, vous avez bien lu : toute modification du protocole Bitcoin nécessiterait l'accord de l'ensemble de la communauté des utilisateurs, ce qui est hautement complexe. Si quelqu'un voulait donc créer un 22ème million de bitcoin, il devrait convaincre l'ensemble des utilisateurs de volontairement dévaluer leur propre épargne, ce qui ne risque pas d'arriver car Bitcoin est mondial et non gouverné par un groupe central.
 
 ![image](assets\Concept\chapitre4\3.jpeg)
 
@@ -387,7 +384,7 @@ L'idée de dévaluer la monnaie est contraire à la philosophie fondamentale du 
 
 ### Une politique monétaire auditable chaque seconde depuis le début et pour toujours !
 
-La rareté du Bitcoin est un atout majeur et la quantité max de 21Million de bitcoins en circulation est publique et vérifiable par quiconque. 
+La rareté du Bitcoin est un atout majeur et la quantité max de 21Million de bitcoins en circulation est publique et vérifiable par quiconque.
 
 En fait, n'importe qui peut vérifier la quantité de bitcoins en circulation entrant une commande simple sur un nœud Bitcoin : `bitcoin-cli gettxoutsetinfo`. Cette transparence et vérifiabilité renforcent la confiance dans le système Bitcoin, qui ne repose pas sur des institutions centralisées ou des individus, mais sur une garantie mathématique et cryptographique inhérente à son protocole. (Vous apprendrez à le faire de façon simple dans LN201)
 
@@ -408,8 +405,6 @@ Le Bitcoin, par sa conception, garantit une gestion monétaire saine en limitant
 
 En somme, le Bitcoin, par sa nature décentralisée, sa rareté programmée et sa transparence, offre une alternative unique aux systèmes monétaires traditionnels. Il illustre comment la technologie peut être utilisée pour créer une monnaie qui est non seulement utile et vérifiable, mais qui préserve également la valeur de l'épargne des utilisateurs en limitant strictement son offre.
 
-![21 millions de bitcoin](assets/posters/fr/6_21_million_crop.png)
-
 ### Conclusion de la section 1 !
 
 ![conclusion sur la monnaie](https://youtu.be/xJsT7Jk5xWE)
@@ -423,6 +418,7 @@ Bitcoin est avant tout une forme de monnaie qui incite à remettre en question l
 Maintenant que nous avons établi les différences entre Bitcoin et les monnaies fiduciaires, nous allons dans les prochains chapitres étudier ce que sont les portefeuilles Bitcoin car il est de votre responsabilité de sécuriser vos fonds. En effet la sovereineté financière qu'offre Bitcoin va nécessairement de pair avec la responsabilité individuelle.
 
 # Les portefeuilles Bitcoin
+
 ## Que sont les portefeuilles Bitcoin ?
 
 Dans cette section 2, nous allons explorer le stockage et la sécurité des Bitcoins au sein de portefeuilles. Cela vous permettra de mieux comprendre où se trouvent ces fameux Bitcoins et comment interagir avec eux !
@@ -434,9 +430,9 @@ Dans cette section 2, nous allons explorer le stockage et la sécurité des Bitc
 Dans cette industrie, nous utilisons des portefeuilles pour interagir
 avec le réseau Bitcoin, ce dernier ayant 3 fonctions :
 
-* Permettre de recevoir des bitcoins
-* Permettre d’en envoyer
-* Les sécuriser face aux tentatives de hack et de vol
+- Permettre de recevoir des bitcoins
+- Permettre d’en envoyer
+- Les sécuriser face aux tentatives de hack et de vol
 
 Un portefeuille peut être un logiciel sur votre ordinateur, une application sur votre smartphone, un appareil physique comme une clé USB, ou même un morceau de papier. Ces différents types de portefeuilles Bitcoin répondent chacun à des cas d'usage différents. Certains servent pour de larges montants en mettant l'accent sur la sécurité, d'autres sur la vie privée, ou encore sur le paiement quotidien de petits montants
 
@@ -448,14 +444,14 @@ Les portefeuilles se divisent donc en grandes familles d'utilisation, avec toujo
 
 Que ce soit votre "banquier" Bitcoin ou vous-même, en règle générale, la grande majorité des portefeuilles Bitcoin fonctionnent avec une technologie similaire, celle de la cryptographie asymétrique, et donc un système de paire de clés : une clé privée pour recevoir et une clé publique pour dépenser.
 
-* Clé privée
+- Clé privée
   Lors de l'initialisation d'un portefeuille, une phrase de récupération secrète (clé privée) est générée et vous est donnée sous la forme de 24 mots.
-  
+
   La clé privée est très importante, car elle représente la possession des Bitcoins et donc le droit de les utiliser ou de les envoyer. Le possesseur de la clé privée est le propriétaire des Bitcoins.
-  
+
   Cette clé doit être secrète et bien conservée, car c'est la clé qui débloque votre fortune !
 
-* Clé publique & adresse
+- Clé publique & adresse
   La clé publique est créée avec la clé privée et donc reliée à cette dernière. La clé publique est utilisée pour générer des adresses Bitcoin et ainsi recevoir de l'argent. Partager la clé publique implique des risques pour la confidentialité, mais pas pour la sécurité.
 
   Ces adresses sont créées par votre portefeuille et peuvent être partagées en toute sécurité. Il est conseillé de ne les utiliser qu'une seule fois pour maximiser votre vie privée.
@@ -490,10 +486,10 @@ Choisissez un portefeuille qui correspond à vos besoins et à votre utilisation
 
 Lorsque vous détenez des bitcoins, la sécurité de vos fonds est une préoccupation majeure. Le meilleur moyen de définir une sécurité adaptée à sa situation est de se poser (et de répondre) à tout une série de questions ; votre modèle de sécurité dépendra de vos réponses. Commençons:
 
-* Qui peut avoir accès à mes fond ? Dit autrement, êtes-vous le seul à avoir accès à vos bitcoins ou une tierce personne, telle qu'une entreprise, vous autorise à accèder à vos fonds ?
-* Une seconde question peut être : quels sont les usages que vous comptez avoir avec vos bitcoins ? Est-ce une somme que vous utiliser régulièrement ? Est-ce une épargne moyen-terme ? long-terme ? 
-* Quelles sont vos compétences techniques ?
-* Quel est votre budget sécurité ?
+- Qui peut avoir accès à mes fond ? Dit autrement, êtes-vous le seul à avoir accès à vos bitcoins ou une tierce personne, telle qu'une entreprise, vous autorise à accèder à vos fonds ?
+- Une seconde question peut être : quels sont les usages que vous comptez avoir avec vos bitcoins ? Est-ce une somme que vous utiliser régulièrement ? Est-ce une épargne moyen-terme ? long-terme ?
+- Quelles sont vos compétences techniques ?
+- Quel est votre budget sécurité ?
 
 Sachez qu'il n'existe pas de solution universelle. Prenez donc le temps de répondre à ces questions, cela permettra d'adapter vos mesures de sécurité.
 
@@ -527,7 +523,7 @@ Bien évidemment nous ponvons avoir plusieurs cas d'usage, et dans ce cas il est
 
 La somme qu'on est prêt à laisser sur un niveau de sécurité spécifique dépend de chacun. Pour certain laisser 1 btc sur un hot wallet est raisonnable, pour d'autres absolumment pas. En tout cas, éviter de débourser beaucoup en sécurité, en vous achetant un portefeuille physique, alors que vous souhaitez sécuriser une petite somme. Gardez également en tête que sur-complexifier la sécurité et l'accessibilité de vos bitcoins peut vous portez préjudice si, par exemple, vous constituez mal les sauvegardes de vos portefeuilles.
 
-En conclusion, la possession directe de ses Bitcoins est un élément essentiel pour assurer sa souveraineté financière. Il est recommandé d'utiliser un portefeuille mobile pour les dépenses quotidiennes et un portefeuille physique hors ligne, ou "froid", pour stocker des montants plus importants. Les entreprises, quant à elles, devraient envisager l'utilisation de systèmes de signatures multiples, ou "multisig", pour une sécurité accrue et partagée. Il est également essentiel d'éviter autant que possible les services de garde ("custodial services"), qui peuvent reproduire certaines des vulnérabilités du système financier traditionnel. 
+En conclusion, la possession directe de ses Bitcoins est un élément essentiel pour assurer sa souveraineté financière. Il est recommandé d'utiliser un portefeuille mobile pour les dépenses quotidiennes et un portefeuille physique hors ligne, ou "froid", pour stocker des montants plus importants. Les entreprises, quant à elles, devraient envisager l'utilisation de systèmes de signatures multiples, ou "multisig", pour une sécurité accrue et partagée. Il est également essentiel d'éviter autant que possible les services de garde ("custodial services"), qui peuvent reproduire certaines des vulnérabilités du système financier traditionnel.
 
 Maintenant que nous avons cela en tête, nous allons voir à la prochaine section les étapes pour créer un portefeuille Bitcoin. Toutefois si vous souhaitez davantage explorer le sujet de la sécurité vous pouvez lire cet [article de DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
@@ -547,10 +543,10 @@ Votre clé privée, souvent représentée par une liste de 24 mots (souvent appe
 - Ne pas prendre de photo de la liste de mots.
 - Ne pas la saisir sur un ordinateur ou un téléphone.
 - Ne pas l'enregistrer comme contact ou se l'auto-envoyer par SMS.
-– Ne jamais laisser vos mots sans surveillance sur votre bureau.
-– Ne jamais cacher votre liste de mots dans un endroit insolite.
+  – Ne jamais laisser vos mots sans surveillance sur votre bureau.
+  – Ne jamais cacher votre liste de mots dans un endroit insolite.
 
-Vous allez littéralement prendre une feuille de papier blanche ou imprimer ce [modèle](https://bitcoiner.guide/backup.pdf), et écrire avec un stylo, de manière propre et claire, la liste de mots dans l'ordre. Si l'encre disparaît avec le temps, vous pouvez perdre vos fonds ; il est donc important conserver ce papier à l'abri des intempéries. 
+Vous allez littéralement prendre une feuille de papier blanche ou imprimer ce [modèle](https://bitcoiner.guide/backup.pdf), et écrire avec un stylo, de manière propre et claire, la liste de mots dans l'ordre. Si l'encre disparaît avec le temps, vous pouvez perdre vos fonds ; il est donc important conserver ce papier à l'abri des intempéries.
 
 ![image](assets\Concept\chapitre7\0.jpeg)
 
@@ -560,11 +556,11 @@ Il existe également des solutions alternatives au papier, comme par exemple ins
 
 ![image](assets\Concept\chapitre7\1.jpeg)
 
-Une fois les copies réalisées, rangez les listes de mots dans un endroit sûr où vous vous souviendrez de les chercher ! Ne créez pas un plan de cache trop complexe où vous risquez de les perdre. 
+Une fois les copies réalisées, rangez les listes de mots dans un endroit sûr où vous vous souviendrez de les chercher ! Ne créez pas un plan de cache trop complexe où vous risquez de les perdre.
 
-> Vos mots = votre argent. 
+> Vos mots = votre argent.
 
-Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comme les portefeuilles "chaud" sur mobile ou pc. Cette méthode de sauvegarde de la clé privée est aujourd'hui le standard. Ce qui signifie que vous pouvez entrer votre phrase mnémonique dans n'importe quel logiciel de portefeuille pour restaurer le votre. Seuls les mauvais portefeuilles que nous déconseillons fortement ne vous donneront pas de liste de 24 mots, mais vous demanderont peut-être un compte, une adresse mail ou, pire, une ID. 
+Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comme les portefeuilles "chaud" sur mobile ou pc. Cette méthode de sauvegarde de la clé privée est aujourd'hui le standard. Ce qui signifie que vous pouvez entrer votre phrase mnémonique dans n'importe quel logiciel de portefeuille pour restaurer le votre. Seuls les mauvais portefeuilles que nous déconseillons fortement ne vous donneront pas de liste de 24 mots, mais vous demanderont peut-être un compte, une adresse mail ou, pire, une ID.
 
 **ATTENTION: L'absence de liste de 24 mots doit vous alerter.**
 
@@ -574,7 +570,7 @@ Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comm
 
 La sécurité est une préoccupation majeure dans l'écosystème Bitcoin. En effet, comme toute forme de richesse, vos bitcoins doivent être protégés contre les pertes, les vols et la dégradation, en particulier sur le long terme. La sécurisation de vos bitcoins nécessite une certaine connaissance technique et la conscience des risques associés, ce qui nous amène à discuter de deux stratégies principales : la gravure de vos bitcoins dans l'acier et la création d'un plan d'héritage.
 
-### Graver dans la roche 
+### Graver dans la roche
 
 Une méthode pour sécuriser vos bitcoins sur le long terme est de graver votre phrase mnémonique dans un matériau résistant comme l'acier. Cela crée une sauvegarde physique de vos clés qui est résistante à la fois aux dégâts des eaux et au feu.
 
@@ -590,7 +586,7 @@ Si vous souhaitez explorer davantage concernant le sujet du plan d'héritage pou
 
 ![image](assets\Concept\chapitre8\2.jpeg)
 
-### la vie privée est importante
+### La vie privée est importante
 
 La sécurité de vos bitcoins sur le long terme ne se limite pas à la création de sauvegardes physiques ou à l'élaboration d'un plan d'héritage. La vie privée est une autre considération importante. Par exemple, il est préférable d'acheter des bitcoins sans fournir de pièce d'identité afin de minimiser les risques de vol d'identité ou tout simplement le traçage de vos fonds par toute entité disposant de suffisamment de moyens. La formation BTC 205 vous aidera en cela si besoin.
 
@@ -612,36 +608,66 @@ Lors de la création d'un portefeuille, vous devez en premier lieu faire une sau
 
 Maintenant que nous avons bases des portefeuilles bitcoins et des bonnes pratiques concernant leur sécurisation, nous aborderons au prochain chapitre le fonctionnement technique de Bitcoin. Ici encore, connaître les bases du protocol Bitcoin va vous permettre de mieux comprendre son fonctionnement, ce qui vous permettra d'en avoir une meilleure utilisation.
 
-
 # Les aspects techniques du Bitcoin.
 
 ## Lancement de Bitcoin
 
 ![Lancement de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
-Commençons par un peu d'Histoire.
+### Commençons par un peu d'Histoire.
+
+![image](assets\Concept\chapitre9\2.png)
+
 Le 31 octobre 2008 marque la naissance d'une nouvelle technologie financière : le Bitcoin. C'est à cette date que Satoshi Nakamoto, l'auteur anonyme du Bitcoin, présente son innovation au monde par le biais d'un mail distribué à la liste de diffusion cypherpunk, une communauté de cryptographes passionnés de confidentialité sur internet.
+
 Ce courrier contenait un document, appelé "White Paper", présentant le fonctionnement du Bitcoin. Compte tenu des échecs précédents des systèmes de cash digital, cette initiative n'a pas suscité un engouement immédiat. Néanmoins, ce White Paper a fini par devenir une référence pour les utilisateurs de Bitcoin et fait l'objet de nombreux débats dans l'écosystème Bitcoin.
 
+![image](assets\Concept\chapitre9\3.png)
+
 Le 3 janvier 2009, Satoshi inaugure officiellement le réseau Bitcoin en créant le premier bloc, aussi appelé bloc genesis, qui marque le lancement de la blockchain du Bitcoin. Ce bloc contient un message révélateur de la mission du Bitcoin : "03/jan/2009 Chancellor on brink of second bailout for banks" (Le chancelier sur le point d'octroyer un second sauvetage aux banques).
+
+![image](assets\Concept\chapitre9\7.png)
+
+> “We can win a major battle in the arms race and gain a
+> new territory of freedom for several years.” - Satoshi Nakamoto
+
+### Le protocole Bitcoin commence à vivre
+
 Le 8 janvier 2009, Satoshi annonce la publication de Bitcoin-0.1.0. Rapidement, Hal Finney se saisit du logiciel et rejoint le réseau. Désormais, il y avait 2 nœuds, et donc 2 mineurs, dans le réseau. Finney immortalise cette étape en tweetant "Running Bitcoin". Le 12 janvier 2009, la première transaction Bitcoin est réalisée entre Satoshi et Hal Finney. Cette transaction, de 10 BTC, est enregistrée dans le bloc 170.
+
+![image](assets\Concept\chapitre9\4.png)
 
 L'intérêt pour le Bitcoin croît rapidement, et de nombreuses personnes commencent à tester, débattre, résoudre des bugs, et réfléchir sur les aspects éthiques, économiques et philosophiques du Bitcoin. Pour faciliter ces échanges, le forum BitcoinTalk est créé le 22 novembre 2009 par Satoshi.
 Ce forum devient rapidement le lieu de discussion privilégié pour les utilisateurs de Bitcoin. C'est là que naissent de nombreux mèmes et symboles associés au Bitcoin, comme le [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), le fameux [Hodl](https://bitcointalk.org/index.php?topic=375643.0), ou même [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
-En effet, le 22 mai 2010, Laszlo Hanyecz marque l'histoire du Bitcoin en proposant d'acheter 2 pizzas pour 10 000 BTC. C'est la première fois que le Bitcoin est utilisé pour acheter des biens matériels.
+
+> **Le saviez vous ?** En effet, le 22 mai 2010, Laszlo Hanyecz marque l'histoire du Bitcoin en proposant d'acheter 2 pizzas pour 10 000 BTC. C'est la première fois que le Bitcoin est utilisé pour acheter des biens matériels.
+
+![image](assets\Concept\chapitre9\6.png)
+
+### La disparition de Satoshi Nakamoto
 
 En 2010, alors que le Bitcoin commence à attirer l'attention des médias, Satoshi décide de prendre ses distances. Le 12 décembre 2010, il publie son dernier post sur le forum, annonçant son départ. Le 23 avril 2011, il effectue son dernier échange privé connu par e-mail. Satoshi disparaît alors, laissant sa création entre les mains de la communauté.
+
+> “Governments are good at cutting of the heads of a centrally
+> controlled networks like Napster, but pure P2P networks like
+> Gnutella and Tor seem to be holding their own.” - Satoshi Nakamoto
+
 Malgré l'absence de Satoshi, le Bitcoin continue de se développer. Toutes les 10 minutes, l'histoire du Bitcoin s'écrit, et le protocole continue de fonctionner comme prévu. Peu importe la peur, l'incertitude ou le doute (FOMO pour Fear Of Missing Out ou FUD pour Fear Uncerntainty Doubt), le Bitcoin continue d'avancer, avec une disponibilité en ligne de 99.988%.
 Le Bitcoin est perçu différemment par chaque individu. Pour certains, c'est une entité fongique comme le [mycélium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), pour d'autres, c'est un [trou noir](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Que l'on aime ou que l'on déteste le Bitcoin, il continue d'exister, avec son rythme constant de 10 minutes par block, comme le battement de cœur d'un nouveau système monétaire.
 
-Pour approfondir vos connaissances sur les écrits de Satoshi Nakamoto, je recommande le [livre de Phil Champagne](https://sovereignuniversity.org/resources/books/98/en).
+Pour approfondir vos connaissances sur les écrits de Satoshi Nakamoto, je recommande le [livre de Phil Champagne](https://sovereignuniversity.org/resources/books) ou le documentaire de ARTE "le mystaire Satoshi".
+
+![image](assets\Concept\chapitre9\8.jpg)
+
+> “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve.”
+
 Maintenant que nous avons quelques éléments de contexte, voyons à présent comme le fonctionnement général d'une transaction Bitcoin.
 
-![lancement du Bitcoin](assets/posters/fr/7_lancement_de_bitcoin_crop.png)
-
-# Les transactions Bitcoin
+## Les transactions Bitcoin
 
 ![Explication d'une transaction](https://youtu.be/GJlUqtGzxLk)
+
+### Comment ça fonctionne concrètement ce truc ?
 
 Une transaction Bitcoin est simplement un transfert de propriété des bitcoins, grâce à l'utilisation d'_adresse bitcoin_. Prenons par exemple deux protagonistes, Alice et Bob. Alice souhaite acquérir des Bitcoins, tandis que Bob en détient déjà.
 

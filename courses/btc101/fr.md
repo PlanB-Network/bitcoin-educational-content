@@ -653,6 +653,7 @@ En 2010, alors que le Bitcoin commence à attirer l'attention des médias, Satos
 > Gnutella and Tor seem to be holding their own.” - Satoshi Nakamoto
 
 Malgré l'absence de Satoshi, le Bitcoin continue de se développer. Toutes les 10 minutes, l'histoire du Bitcoin s'écrit, et le protocole continue de fonctionner comme prévu. Peu importe la peur, l'incertitude ou le doute (FOMO pour Fear Of Missing Out ou FUD pour Fear Uncerntainty Doubt), le Bitcoin continue d'avancer, avec une disponibilité en ligne de 99.988%.
+
 Le Bitcoin est perçu différemment par chaque individu. Pour certains, c'est une entité fongique comme le [mycélium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), pour d'autres, c'est un [trou noir](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Que l'on aime ou que l'on déteste le Bitcoin, il continue d'exister, avec son rythme constant de 10 minutes par block, comme le battement de cœur d'un nouveau système monétaire.
 
 Pour approfondir vos connaissances sur les écrits de Satoshi Nakamoto, je recommande le [livre de Phil Champagne](https://sovereignuniversity.org/resources/books) ou le documentaire de ARTE "le mystaire Satoshi".
@@ -667,41 +668,92 @@ Maintenant que nous avons quelques éléments de contexte, voyons à présent co
 
 ![Explication d'une transaction](https://youtu.be/GJlUqtGzxLk)
 
-### Comment ça fonctionne concrètement ce truc ?
+Une transaction Bitcoin est simplement un transfert de propriété de bitcoins, grâce à l'utilisation d'une adresse bitcoin. Prenons, par exemple, deux protagonistes : Alice et Bob. Alice souhaite acquérir des Bitcoins, tandis que Bob en détient déjà.
 
-Une transaction Bitcoin est simplement un transfert de propriété des bitcoins, grâce à l'utilisation d'_adresse bitcoin_. Prenons par exemple deux protagonistes, Alice et Bob. Alice souhaite acquérir des Bitcoins, tandis que Bob en détient déjà.
+### Étape 1 - Création de la transaction via le portefeuille
 
-Pour que Bob puisse transférer des Bitcoins à Alice, celle-ci doit fournir à Bob une de ces adresses Bitcoin. Cette adresse, dérivée de la clé publique de Alice, est unique à son portefeuille Bitcoin.
-Ensuite, Bob initie la transaction en utilisant l'adresse de réception de Alice. Il ajoute également des frais de transaction, qui sont une incitation pour les mineurs à inclure la transaction dans le bloc suivant. Ces frais sont essentiels pour créer un marché libre de l'inclusion des transactions dans les blocs car le nombre de transaction présent dans un bloc est limité. En effet, un bloc possède une taille de 1Mo, ce qui correspond à quelques milliers de transactions par blocs. Les frais d'une transaction sont proportionnels à la taille de la transaction.
-La taille de la transaction, quant à elle, dépend de la complexité de la transaction.
+Pour que Bob puisse transférer des Bitcoins à Alice, celle-ci doit fournir à Bob une de ses adresses Bitcoin. Cette adresse, dérivée de la clé publique d'Alice, est unique à son portefeuille Bitcoin.
 
-Pour finaliser la transaction, Bob doit apporter une signature avec la clé privée des adresses qu'il utilise pour payer Alice. Cela permet de vérifier qu'il est bien le propriétaire des Bitcoins qu'il souhaite transférer.
+Concrètement, Alice ouvre son portefeuille et appuie sur "recevoir". Un QR code ou une adresse comme celle-ci bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr va s'afficher. C'est son "IBAN Bitcoin" en quelque sorte. Elle le fournit donc à Bob.
 
-Les mineurs ont pour rôle de prendre les transactions valides et non confirmées, de les compiler dans un bloc. Pour que leur bloc soit le prochain bloc de la blockchain Bitcoin, ils doivent résoudre une énigme cryptographique dans un processus appelé "preuve de travail" ou "Proof of Work".
-Cette preuve de travail nécessite de trouver un "hash" valide pour le bloc en question. Voyez le comme une empreinte unique associé au bloc composé de 256 caractères. La validité de ce hash dépend de la difficulté du réseau Bitcoin. Nous reviendrons plus en détail sur ce mécanisme. Pour l'instant, considérer qu'un mineur est trouvé un bloc valide et la transaction de Bob pour Alice y est incluse.
+Ensuite, Bob initie la transaction en utilisant l'adresse de réception d'Alice. Bob va donc à son tour ouvrir son portefeuille Bitcoin, appuyer sur "envoyer", copier-coller l'adresse, rajouter un montant et des frais de transaction. Ces frais sont une incitation pour les mineurs à inclure la transaction dans le bloc suivant.
 
-Ce nouveau bloc valide est ajouté à la blockchain bitcoin qui est un registre public et immuable de toutes les transactions Bitcoin. Voyez le comme un livre de compte commun à tous les utilisateurs de Bitcoin. Selon les règles du protocole, un bloc est ajouté tous les dix minutes environ grâce à l'ajustement de la difficulté. Nous verrons dans la section concernant le mineur, quel est le mécanisme qui empêche la modification du registre des transactions Bitcoin.
+![image](assets\Concept\chapitre10\1.jpeg)
 
-À présent, Alice constate qu'elle a reçu des bitcoins sur une de ces adresses. Toutefois, il est recommandé de considérer que la transaction comme immuable lorsque celle-ci possède 6 confirmations -- ce qui signifie que 6 autres blocs ont été miné par dessus le bloc dans lequel la transaction de Bob se situe. En d'autres termes, plus une transaction présente dans la blockchain plus celle-ci est immuable.
+> **Pourquoi payer des frais ?** Ces frais sont essentiels pour créer un marché libre de l'inclusion des transactions dans les blocs, car le nombre de transactions présentes dans un bloc est limité. En effet, un bloc possède une taille de 1 Mo, ce qui correspond à quelques milliers de transactions par bloc. Les frais d'une transaction sont proportionnels à la taille de celle-ci. La taille de la transaction, quant à elle, dépend de la complexité de ladite transaction.
+
+Pour finaliser la transaction, Bob doit apporter une signature avec la clé privée des adresses qu'il utilise pour payer Alice. Cela permet de vérifier qu'il est bien le propriétaire des Bitcoins qu'il souhaite transférer. Cette étape se fait généralement automatiquement sur les portefeuilles de type mobile, ou alors c'est une confirmation sur votre portefeuille physique : "Êtes-vous sûr d'envoyer X à Y ? Oui ou non".
+
+### Etape2 : La propagation de la transaction via les nœuds jusqu'aux mineurs
+
+À ce stade, la transaction a été créée et le portefeuille de Bob va donc la partager avec le réseau Bitcoin. Pour ce faire, son portefeuille va communiquer avec un nœud du réseau Bitcoin, et ce dernier va propager cette information à d'autres nœuds. Cette étape de propagation permet à l'ensemble du réseau de voir cette nouvelle transaction et de la prendre en compte.
+
+![image](assets\Concept\chapitre10\4.jpeg)
+
+Malgré que cette transaction soit désormais connue de tous (via un outil nommé Mempool), la transaction n'est pas forcément considérée comme confirmée ! En effet, ce sont les mineurs qui valident les transactions en les inscrivant dans un bloc de notre fameuse blockchain.
+
+Les mineurs ont pour rôle de prendre les transactions valides et non confirmées, puis de les compiler dans un bloc. Pour que leur bloc soit le prochain de la blockchain Bitcoin, ils doivent résoudre une énigme cryptographique dans un processus appelé "preuve de travail" ou "Proof of Work".
+
+![image](assets\Concept\chapitre10\2.jpeg)
+
+### Etape 3 : La transaction est minée dans un bloc par un mineur.
+
+Cette preuve de travail nécessite de trouver un "hash" valide pour le bloc en question. Voyez-le comme une empreinte unique associée au bloc, composée de 256 caractères. La validité de ce hash dépend de la difficulté du réseau Bitcoin. Nous reviendrons plus en détail sur ce mécanisme. Pour l'instant, considérez qu'un mineur a trouvé un bloc valide et que la transaction de Bob pour Alice y est incluse.
+
+Ce nouveau bloc valide est ajouté à la blockchain Bitcoin, qui est un registre public et immuable de toutes les transactions Bitcoin. Voyez-le comme un livre de compte commun à tous les utilisateurs de Bitcoin. Selon les règles du protocole, un bloc est ajouté environ tous les dix minutes grâce à l'ajustement de la difficulté. Nous verrons dans la section concernant les mineurs quel est le mécanisme qui empêche la modification du registre des transactions Bitcoin.
+
+![image](assets\Concept\chapitre10\5.jpeg)
+
+### Etape 4 : Le bloc est valide et vérifié par le nœud du portefeuille d'Alice.
+
+A ce stade la gtransaction est considerer valide, le mineur va propoager a son tour le nouveua bloc via son noeud au reseau et le portfeuille de Alice va etre actialisé.
+
+![image](assets\Concept\chapitre10\3.jpeg)
+
+> Attention : Même si Alice constate qu'elle a reçu des bitcoins sur une de ses adresses, il est recommandé de considérer la transaction comme immuable seulement lorsqu'elle possède 6 confirmations. Cela signifie que 6 autres blocs ont été minés par-dessus le bloc dans lequel se situe la transaction de Bob. En d'autres termes, plus une transaction est ancienne dans la blockchain, plus elle est immuable.
+
+### Petit récap en poster !
+
+![Explication d'une transaction](assets\posters\fr\11_explication_d_une_transaction_crop.png)
+
+### Tout ça pour quoi ?
 
 En fin de compte, le système de transactions Bitcoin est décentralisé et fonctionne en peer-to-peer, sans intermédiaire de confiance.
-Bob transmet sa transaction au réseau Bitcoin, et lorsqu'un mineur publie un bloc valide avec la transaction de Bob, Alice peut commencer à considérer que ces bitcoins lui appartiennent. La confiance n'est requise à aucune des étapes du transfert de propriété des bitcoin, seul les règles du protocole et les incitations économiques sont telles qu'il est bien trop coûteux d'agir de manière malveillante au sein du protocole Bitcoin.
 
-Les utilisateurs transfert la propriété de leur argent en signant numériquement les transactions grâce à leurs clés privées. Les mineurs détiennent peu de pouvoir, car les utilisateurs ont également un contrôle significatif via les nœuds Bitcoin qui s'occupe de la validation des nouveaux blocs et des transactions incluses. C'est grâce à ce réseau de nœuds Bitcoin que le réseau est véritablement décentralisé.
-En effet, pour que le réseau Bitcoin soit complètement détruit, il faudrait détruire toutes les copies de la blockchain de tous les nœuds Bitcoin - une tâche pratiquement impossible en raison de la distribution géographique de ces nœuds, et la difficulté d'aller les saisir physiquement.
+Bob transmet sa transaction au réseau Bitcoin, et lorsqu'un mineur publie un bloc valide contenant la transaction de Bob, Alice peut commencer à considérer que ces bitcoins lui appartiennent. La confiance n'est requise à aucune étape du transfert de propriété des bitcoins ; seules les règles du protocole et les incitations économiques rendent bien trop coûteux d'agir de manière malveillante dans le cadre du protocole Bitcoin.
+
+Les utilisateurs transfèrent la propriété de leur argent en signant numériquement les transactions grâce à leurs clés privées. Les mineurs détiennent peu de pouvoir, car les utilisateurs ont également un contrôle significatif via les nœuds Bitcoin qui s'occupent de la validation des nouveaux blocs et des transactions incluses. C'est grâce à ce réseau de nœuds Bitcoin que le réseau est véritablement décentralisé.
+
+En effet, pour que le réseau Bitcoin soit complètement détruit, il faudrait détruire toutes les copies de la blockchain de tous les nœuds Bitcoin - une tâche pratiquement impossible en raison de la distribution géographique de ces nœuds et de la difficulté de les saisir physiquement.
+
 Voyons donc plus en détail le fonctionnement d'un nœud Bitcoin.
 
-![Explication d'une transaction](posters/fr/11_explication_d_une_transaction_crop.png)
-
-# Les nœuds Bitcoin
+## Les nœuds Bitcoin
 
 ![https://youtu.be/3vQmDJ4_ooM](https://youtu.be/3vQmDJ4_ooM)
 
-Les nœuds constituent un élément fondamental de l'architecture du réseau Bitcoin. Ils assurent diverses fonctions cruciales, comme le maintien d'une copie blockchain, la validation des transactions et leur transmission vers d'autres nœuds, et la mise en application des règles du protocole Bitcoin. Ainsi tout appareil faisant tourner le logiciel Bitcoin, appelé de nœuds Bitcoin, (souvent via [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)) participe alors à la décentralisation du réseau.
+Les nœuds constituent un élément fondamental de l'architecture du réseau Bitcoin. Ils assurent diverses fonctions cruciales:
+
+- Le maintien d'une copie de la blockchain Bitcoin
+- La validation des transactions
+- La transmission des informations vers d'autres nœuds
+- La mise en application des règles du protocole Bitcoin.
+
+Ainsi tout appareil faisant tourner le logiciel Bitcoin, appelé de nœuds Bitcoin, (souvent via [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)) participe alors à la décentralisation du réseau.
+
+![image](assets\Concept\chapitre11\1.jpeg)
+
+### Les noeuds sont donc le noyaux centrale de Bitcoin.
 
 Chaque nœud détient une copie de la blockchain, ce qui permet de vérifier les transactions et d'éviter toute tentative de fraude. L'aspect décentralisé du réseau confère à Bitcoin une résilience et une robustesse exceptionnelles - pour stopper le protocole Bitcoin, il faudrait éteindre tous les nœuds à travers le monde. À titre d'information, il y a aujourd'hui (septembre 2023) environ [45,000 nœuds](https://bitnodes.io/nodes/all/) distribués à travers le globe.
 
-Les nœuds sont capable de vérifier la validité des blocs et des transactions car ils suivent les règles du consensus Bitcoin. Ces règles régissent, entre autres, la politique monétaire de Bitcoin comme le montant de la récompense des mineurs (que nous allons plus voir en détail à la prochaine section) et la quantité de bitcoin en circulation. Les nœuds agissent en quelque sorte comme le système juridique du réseau. Grâce à eux, tous les participants du réseau suivent les mêmes règles -- ils assurent la neutralité du protocole Bitcoin. Les règles de consensus varient très peu, voir pas du tout car pour apporter des modifications, il est nécessaire d'obtenir l'approbation de l'ensemble des nœuds. La gouvernance au sein du protocole est en dehors du curriculum de cette formation mais sachez que chaque utilisateur faisant tourner un nœud Bitcoin décide des règles qui souhaite suivre. Ainsi, un utilisateur pourrait décider de suivre d'autres règles (c'est-à-dire faire des modifications au code) mais si ces modifications invalident les règles de consensus actuelle alors ce nœuds ne ferra plus partie du réseaux Bitcoin. Les modifications majeures sont donc rares et requièrent une coordination importante entre des milliers d'acteurs aux idéologies et intérêt variés, ce qui force le protocole à ne produire que des mises à jour qui le rendent "meilleur" au sens de tous les utilisateurs Bitcoin.
+Les nœuds sont capable de vérifier la validité des blocs et des transactions car ils suivent les règles du consensus Bitcoin. Ces règles régissent, entre autres, la politique monétaire de Bitcoin comme le montant de la récompense des mineurs (que nous allons plus voir en détail à la prochaine section) et la quantité de bitcoin en circulation. Les nœuds agissent en quelque sorte comme le système juridique du réseau. Grâce à eux, tous les participants du réseau suivent les mêmes règles. Ils assurent la neutralité du protocole Bitcoin. Les règles de consensus varient très peu, voir pas du tout car pour apporter des modifications, il est nécessaire d'obtenir l'approbation de l'ensemble des nœuds.
+
+![image](assets\Concept\chapitre11\2.jpeg)
+
+La gouvernance au sein du protocole est en dehors du curriculum de cette formation mais sachez que chaque utilisateur faisant tourner un nœud Bitcoin décide des règles qui souhaite suivre. Ainsi, un utilisateur pourrait décider de suivre d'autres règles (c'est-à-dire faire des modifications au code) mais si ces modifications invalident les règles de consensus actuelle alors ce nœuds ne ferra plus partie du réseaux Bitcoin. Les modifications majeures sont donc rares et requièrent une coordination importante entre des milliers d'acteurs aux idéologies et intérêt variés, ce qui force le protocole à ne produire que des mises à jour qui le rendent "meilleur" au sens de tous les utilisateurs Bitcoin.
+
+### A quoi ressemble un noued ?
 
 Plusieurs options s'offrent à nous lorsque nous souhaitons avoir son propre nœud, et leur coût de maintenance varient. Vous pouvez tout simplement faire tourner le logiciel Bitcoin Core sur votre ordinateur mais cela nécessitera un espace de stockage conséquent car la blockchain fait environ ~500Go. Pour pallier à cette contrainte, vous pouvez décider de garder en mémoire uniquement les N derniers blocs, on parle alors de "pruned node". Pour ce genre de solution, le coût est négligeable car le nœud est allumé uniquement lorsque vous en avait besoin.
 
@@ -710,6 +762,8 @@ Cette seconde option est plus coûteuse si vous devez acheter le matériel, mais
 D'un point de vue bande passante, en considérant 1 bloc de 1Mo toutes les 10 minutes, cela représente environ 5 Go par mois.
 
 Le coût abordable et l'accessibilité d'un nœud Bitcoin d'un point de vue ressource matérielle, stockage et bande passante est un aspect très important car cela facilite la décentralisation du réseau. Si par exemple les blocs était 100x plus lourds, on pourrait certes faire 100x plus de transactions tous les 10 minutes mais faire tourner un nœud Bitcoin nécessiterait un disque dûr de 50To, une bande passante de plus de 500Go/mois et un hardware capable de valider des centaines de milliers de transaction en moins de 10 minutes. Dans cette situation hypothétique avec des blocs 100x plus gros, faire tourner un nœud Bitcoin ne serait pas accessible au commun des mortels, ce qui compromettrai la décentralisation du protocole, et l'immuabilité des transactions et des règles de consensus. Ainsi les contraintes du protocole ont été également choisies pour permettre au plus grand nombre de pouvoir faire tourner son propre nœud Bitcoin.
+
+### retour sur la guerre des block
 
 Cette situation n'est pas si hypothétique que ça car l'année 2017 a été marquée par une intense controverse, connue sous le nom de "guerre des blocs". Ce conflit a opposé les acteurs souhaitant modifier Bitcoin en augmentant la taille des blocs pour augmenter la capacité de transaction, à ceux qui cherchaient à préserver l'indépendance et le pouvoir des utilisateurs. Finalement, les utilisateurs et les nœuds ont triomphé en rejetant la proposition de changement initiée par les mineurs, les plateformes d'échange et les institutions.
 Suite à cette victoire, les nœuds ont activé une mise à jour nommée SegWit, ouvrant la voie à la mise en place du Lightning Network, un réseau de paiement Bitcoin instantané utilisant la blockchain Bitcoin. Cette situation démontre que les utilisateurs, grâce à leurs nœuds, détiennent un pouvoir réel au sein de Bitcoin, leur permettant de faire face aux grandes institutions.

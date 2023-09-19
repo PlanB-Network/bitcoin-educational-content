@@ -757,82 +757,170 @@ La gouvernance au sein du protocole est en dehors du curriculum de cette formati
 
 Plusieurs options s'offrent à nous lorsque nous souhaitons avoir son propre nœud, et leur coût de maintenance varient. Vous pouvez tout simplement faire tourner le logiciel Bitcoin Core sur votre ordinateur mais cela nécessitera un espace de stockage conséquent car la blockchain fait environ ~500Go. Pour pallier à cette contrainte, vous pouvez décider de garder en mémoire uniquement les N derniers blocs, on parle alors de "pruned node". Pour ce genre de solution, le coût est négligeable car le nœud est allumé uniquement lorsque vous en avait besoin.
 
+![image](assets\Concept\chapitre11\10.png)
+
 Une seconde option est d'utiliser du matériel dédié à cela, comme les Raspberry pi 4 avec un disque dûr SSD suffiamment grand (environ ~1To).
 Cette seconde option est plus coûteuse si vous devez acheter le matériel, mais d'un point de vue consommation électrique cela représente un peu moins de 10€ par an.
+
 D'un point de vue bande passante, en considérant 1 bloc de 1Mo toutes les 10 minutes, cela représente environ 5 Go par mois.
 
-Le coût abordable et l'accessibilité d'un nœud Bitcoin d'un point de vue ressource matérielle, stockage et bande passante est un aspect très important car cela facilite la décentralisation du réseau. Si par exemple les blocs était 100x plus lourds, on pourrait certes faire 100x plus de transactions tous les 10 minutes mais faire tourner un nœud Bitcoin nécessiterait un disque dûr de 50To, une bande passante de plus de 500Go/mois et un hardware capable de valider des centaines de milliers de transaction en moins de 10 minutes. Dans cette situation hypothétique avec des blocs 100x plus gros, faire tourner un nœud Bitcoin ne serait pas accessible au commun des mortels, ce qui compromettrai la décentralisation du protocole, et l'immuabilité des transactions et des règles de consensus. Ainsi les contraintes du protocole ont été également choisies pour permettre au plus grand nombre de pouvoir faire tourner son propre nœud Bitcoin.
+### les noeuds doivent rester accessible pour tous !
 
-### retour sur la guerre des block
+Le coût abordable et l'accessibilité d'un nœud Bitcoin d'un point de vue ressource matérielle, stockage et bande passante est un aspect très important car cela facilite la décentralisation du réseau.
+
+En effet, tout le monde a une bonne raison de faire tourner un nœud ! Le prix et les efforts sont minimes pour le bénéfice obtenu. Il faut simplement se lancer dans l’aventure et rejoindre des milliers d’autres bitcoiner car ensemble nous formons le réseau Bitcoin.
+
+![image](assets\Concept\chapitre11\11.jpg)
+
+Si par exemple les blocs était 100x plus lourds, on pourrait certes faire 100x plus de transactions tous les 10 minutes mais faire tourner un nœud Bitcoin nécessiterait un disque dûr de 50To, une bande passante de plus de 500Go/mois et un hardware capable de valider des centaines de milliers de transaction en moins de 10 minutes. Dans cette situation hypothétique avec des blocs 100x plus gros, faire tourner un nœud Bitcoin ne serait pas accessible au commun des mortels, ce qui compromettrai la décentralisation du protocole, et l'immuabilité des transactions et des règles de consensus. Ainsi les contraintes du protocole ont été également choisies pour permettre au plus grand nombre de pouvoir faire tourner son propre nœud Bitcoin.
 
 Cette situation n'est pas si hypothétique que ça car l'année 2017 a été marquée par une intense controverse, connue sous le nom de "guerre des blocs". Ce conflit a opposé les acteurs souhaitant modifier Bitcoin en augmentant la taille des blocs pour augmenter la capacité de transaction, à ceux qui cherchaient à préserver l'indépendance et le pouvoir des utilisateurs. Finalement, les utilisateurs et les nœuds ont triomphé en rejetant la proposition de changement initiée par les mineurs, les plateformes d'échange et les institutions.
+
 Suite à cette victoire, les nœuds ont activé une mise à jour nommée SegWit, ouvrant la voie à la mise en place du Lightning Network, un réseau de paiement Bitcoin instantané utilisant la blockchain Bitcoin. Cette situation démontre que les utilisateurs, grâce à leurs nœuds, détiennent un pouvoir réel au sein de Bitcoin, leur permettant de faire face aux grandes institutions.
 
-En somme, les nœuds jouent un rôle central dans l'écosystème Bitcoin. Ils conservent l'historique de la blockchain, valident les transactions, diffusent l'information, maintiennent le consensus du réseau et "votent" sur les futures améliorations. Tout cela permet d'assurer la décentralisation du système.
+### Résumé en poster !
 
 ![les noeuds Bitcoins](assets/posters/fr/12_explication_des_nodes_crop.png)
 
-# Les mineurs
+## Les mineurs
 
 ![les mineurs](https://youtu.be/Lr5L3uy244w)
 
-Revenons en aux mineurs. Les mineurs de bitcoin sont des individus ou des entreprises qui consomment de l'électricité et du matériel informatique pour trouver un hash valide pour le prochain bloc. Ce hash est obtenu en appliquant l'algorithme SHA256 à l'ensemble d'un bloc candidat comprenant plusieurs transactions en attente et le hash du bloc précédant. Ainsi cette empreinte est simplement un nombre écrit en hexadécimal comprit entre 0 et 2 puissance 256 (ce qui représente un nombre avec un 1 suivi de 77 zéros). Pour que le hash d'un bloc soit valide, il faut que ce nombre soit plus petit une valeur déterminé par le protocole grâce à l'ajustement de la difficulté. Comme on ne peut qu'obtenir le hash d'un bloc en appliquant l'algorithme SHA256, il faut alors, en tant que mineur, faire de multiples tentatives de blocs candidats et vérifié que la validité du hash. En effet, le résultat de cet algorithme est impossible à anticiper mais extrêmement simple à vérifier. Ce mécanisme ressemble à une sorte de lotterie. La difficulté de minage est un aspect essentiel car c'est ce qui permet d'assurer que le temps moyen entre deux blocs restent de 10 minutes en moyenne indépendemment de la puissance de calcul de l'ensemble des mineurs. Tous les 2016 blocs (en moyenne toutes les 2 semaines), la difficulté est ajustée à la hausse si le temps moyen entre deux blocs des derniers 2016 blocs a été inférieur à 10 minutes , ou ajustée à la baisse sinon.
+> Les mineurs servent à sécuriser le réseau et rajouter les transactions dans les blocs. Ils utilisent de l’électricité via des machines ASICS pour résoudre la preuve de travail Bitcoin.
+
+![image](assets\Concept\chapitre12\15.png)
+
+### Explication de la Preuve de Travail
+
+La Preuve de Travail, alias “Proof of Work” (POW), est le consensus de sécurité du protocole Bitcoin. C’est la règle qui permet de faire tourner Bitcoin et de garantir sa robustesse. Le POW est à la base de tout et joue un rôle crucial dans la théorie des jeux de Bitcoin.
+
+Pensez-le comme une loterie géante où tout le monde peu participer. Le but est de trouver un numéro spécifique qui permettra de signer un bloc valide, le gagnant touche une récompense en bitcoin. Ce nombre est très simple à vérifier, mais compliqué à trouver. En effet, la vérification facile se fait au travers de la fonction de hachage SHA-256 qui est inclue dans l’algorithme de minage. Afin de trouver ce chiffre les participants (mineurs) vont tenter des milliards de milliards de possibilités 1, 52, 2648, 26874615, 15344854131318631, etc.
+
+Si le nombre choisi est le bon : Jackpot ! Sinon, on continue de chercher. Pour optimiser le nombre d’essais, ils vont utiliser des machines spécifiques ASICS qui ont pour seul rôle de calculer des milliards de possibilités par seconde. La quantité totale d’essais se nomme le HashRate et permet de quantifier la sécurité du protocole Bitcoin. Pour faire tourner ces machines, c’est donc de larges quantités d’électricité qui doivent être consommées. Le POW transforme donc l’énergie en monnaie, il relie le monde réel et le monde numérique afin de créer la première monnaie énergétique.
+
+Les machines tournent et au bout de 10 minutes en moyenne, un gagnant va émerger. Il aura trouvé le hash correct sous la barre de difficulté. Le grand et unique gagnant va donc signer le nouveau bloc du serveur timestamp et ainsi continuer la chaîne de blocs. Le gagnant touche ses récompenses et retourne tenter sa chance pour le prochain bloc. Le processus se répète depuis 12 ans et toutes les 10 minutes, un gagnant confirme les transactions Bitcoin tout en continuant de sécuriser les transactions du passé. Rendant notre blockchain Bitcoin plus robuste et plus sécurisée.
+
+Chaque 2 semaines (2016 blocs), l'ajustement de la difficulté rééquilibre le jeu mondial du minage en fonction du nombre de participants
+
+![image](assets\Concept\chapitre12\14.png)
+
+### Le minage est en constante évolution
 
 Au fil des années, les mineurs se sont équipé avec du matériel informatique de plus en plus efficient pour produire le plus de hashs possible par seconde (appelé HashRate) en consommant le moins d'énergie possible, de la manière la moins coûteuse qui soit. Les premiers mineurs comme Satoshi ou Hal Finney minait avec simplement leur processeur CPU, puis d'autres se sont mis à miner avec leur carte graphique. De nos jours, les mineurs utilisent ce qu'on nomme des ASIC (Application-Specific Integrated Circuit), des machines conçues pour uniquement appliqué l'algorithme SHA256.
 
+![image](assets\Concept\chapitre12\20.png)
+
 Le Hashrate du réseau Bitcoin réprésente en quelques sorte la quantité de tentatives effectués par seconde pour trouver le prochain bloc. Aujourd'hui il est de environ 400 TH/s, soit 400 000 milliard de tentatives par seconde ! Plus le hashrate global est élevé, plus il est difficile pour un acteur malveillant de monopolisé les ressources nécessaires pour obtenir une majorité du minage et effectué une double dépense. Il est donc plus économiquement viable de suivre les règles du protocole Bitcoin que d'agir à l'encontre de ces dernières. Cela soulève une question : comment se rémunèrent les mineurs ?
 
-Initialement, un mineur est rémunéré lorsqu'il trouve un bloc valide. Plus exactement, il est rémunéré de deux manières : (i) par la récompense incluse dans le bloc et (ii) par les frais de transactions dans les transactions incluses dans le bloc. Le montant de la récompense est défini par les règles de consensus est dépendent dans quelle Époque nous nous situons. En effet, pour les premiers blocs la récompense était de 50 bitcoins, puis tous les 210,000 blocs (soit environ tous les 4 ans), elle est divisée par 2. Aujourd'hui (en 2023), nous nous situons dans la 4ème Époque; la récompense est donc de 6.125 bitcoin. Cette récompense est le mécanisme de création monétaire dans Bitcoin. Comme la récompense diminue avec le temps, cela signifie qu'il existe une limite de 21 millions de bitcoins -- aujourd'hui il y a déjà plus de 19,4 millions de bitcoins en circulation, soit plus de 92%.
+![image](assets\Concept\chapitre12\16.png)
+
+### Que peut-on trouver dans un bloc ?
+
+![image](assets\Concept\chapitre12\20.png)
+
+Le bloc header comporte plusieurs éléments comme l’heure, la cible de difficulté, le numéro du dernier bloc, la version utilisée, et le Merkel Root des précédentes transactions.
+
+La transaction coinbase est toujours la première ; elle comprend la récompense reçue pour avoir réalisé le travail de validateur. S’en suivent les transactions validées. Le mineur va choisir les transactions qui rapportent le plus et essayer de créer un bloc qui maximise son revenu, à savoir des transactions de petite taille avec un maximum de frais.
+
+### Rémuneration des mineurs
+
+Initialement, un mineur est rémunéré lorsqu'il trouve un bloc valide. Plus exactement, il est rémunéré de deux manières : (i) par la récompense incluse dans le bloc et (ii) par les frais de transactions dans les transactions incluses dans le bloc. Le montant de la récompense est défini par les règles de consensus est dépendent dans quelle Époque nous nous situons.
+
+En effet, pour les premiers blocs la récompense était de 50 bitcoins, puis tous les 210,000 blocs (soit environ tous les 4 ans), elle est divisée par 2. Aujourd'hui (en 2023), nous nous situons dans la 4ème Époque; la récompense est donc de 6.125 bitcoin. Cette récompense est le mécanisme de création monétaire dans Bitcoin. Comme la récompense diminue avec le temps, cela signifie qu'il existe une limite de 21 millions de bitcoins -- aujourd'hui il y a déjà plus de 19,4 millions de bitcoins en circulation, soit plus de 92%.
+
+![image](assets\Concept\chapitre12\18.png)
+
 La seconde méthode de rémunération est défini par le montant choisi pour les utilisateurs pour les frais de transactions. Comme le mineur souhaite maximiser son revenu, il aura une tendance à selectionner en priorité les transactions avec des frais de transactions élevés; les frais de transactions reflète donc l'urgence de l'utilisateur pour que sa transaction soit insérée dans le prochain bloc.
+
+![image](assets\Concept\chapitre12\19.png)
+
 De plus pour stabiliser le modèle économique des mineurs qui repose sur les récompenses qu'ils reçoivent pour chaque bloc valide, les mineurs collaborent souvent en groupes via des "pools de minage", où ils mutualisent leurs ressources de calcul.
 
-En somme, l'innovation de Bitcoin est de proposé une solution au problème de la double dépense grâce à l'utilisation d'une blockchain basée sur la Preuve de Travail avec une difficulté flottante. Dans le monde numérique, la notion de propriété diffère de celle du monde physique. En effet, dans le monde numérique, tout peut être copié et collé, ce qui pose des problèmes en termes de double dépense pour les biens numériques de valeur. Des intermédiaires de confiance, comme les banques, ont été créés pour résoudre ce problème technologique et garantir que lorsqu'un bien est transféré, il n'appartient plus à l'émetteur. Mais comment faire sans intermédiaire de confiance ? Ce problème est équivalent au problème des généraux byzantins, un problème de coordination de l'information dans un système où l'on ne peut faire confiance aux différents acteurs. Bitcoin est donc une sorte de solution pour résoudre ce problème, ou du moins pour le contourner. Les "généraux" de Bitcoin, ou mineurs, produisent des blocs (de l'information) et les nœuds Bitcoin vérifient les transactions financières via les règles de concensus pour garantir l'authenticité de l'information. L'assymétrie dans le coût énergétique entre la production d'information et la vérification assure la fiabilité de l'information, sans tiers de confiance.
+### Pourquoi s'embêter à faire tout ça ?
+
+En somme, l'innovation de Bitcoin est de proposé une solution au problème de la double dépense grâce à l'utilisation d'une blockchain basée sur la Preuve de Travail avec une difficulté flottante. Dans le monde numérique, la notion de propriété diffère de celle du monde physique. En effet, dans le monde numérique, tout peut être copié et collé, ce qui pose des problèmes en termes de double dépense pour les biens numériques de valeur. Des intermédiaires de confiance, comme les banques, ont été créés pour résoudre ce problème technologique et garantir que lorsqu'un bien est transféré, il n'appartient plus à l'émetteur. Mais comment faire sans intermédiaire de confiance ? Ce problème est équivalent au problème des généraux byzantins, un problème de coordination de l'information dans un système où l'on ne peut faire confiance aux différents acteurs.
+
+![image](assets\Concept\chapitre12\13.jpeg)
+
+Bitcoin est donc une sorte de solution pour résoudre ce problème, ou du moins pour le contourner. Les "généraux" de Bitcoin, ou mineurs, produisent des blocs (de l'information) et les nœuds Bitcoin vérifient les transactions financières via les règles de concensus pour garantir l'authenticité de l'information. L'assymétrie dans le coût énergétique entre la production d'information et la vérification assure la fiabilité de l'information, sans tiers de confiance.
 
 Les mineurs sont les maçons de la sécurité du réseau Bitcoin. En dépensant de l'énergie pour produire des hashs, ils construisent un mur qui rend extrêmement coûteux pour un agent malveillant de ré-écrire l'historique des transactions. Cette dé-incitation économique les dissuade de se comporter de manière malhonnête.
+
 Même dans le cas d'une attaque de 51%, c'est-à-dire qu'un agent possède plus de la moitié du hashrate, le réseau reste sécurisé car l'attaquant doit dépenser autant d'énergie que l'ensemble des mineurs pour tenter de modifier la blockchain. C'est grâce à ce mécanisme de preuve de travail, qui nécessite de l'énergie pour être accompli, que le réseau est sécurisé.
 
-En résumé, la théorie du jeu appliquée à Bitcoin écarte les mineurs malhonnêtes. Les mineurs utilisent des machines ASIC pour miner et reçoivent une récompense en cas de succès. De plus, ils se regroupent souvent en pools de minage pour partager leur puissance de calcul et obtenir des récompenses moindres mais plus régulièrement. Le minage de Bitcoin est un processus avec un fort coût énergétique mais essentiel pour le fonctionnement et la sécurité du réseau Bitcoin. La preuve de travail et la blockchain résolvent le problème de la double dépense et assurent la véracité des informations sans aucun tiers de confiance. La dépense énergétique est nécessaire pour produire l'information, mais la vérification des informations à un coût négligeable. Cette asymétrie garantie la sécurité du réseau. Il est donc plus économiquement viable de suivre les règles de consensus, que de les enfreindre.
+### En résumé
+
+La théorie du jeu appliquée à Bitcoin écarte les mineurs malhonnêtes. Les mineurs utilisent des machines ASIC pour miner et reçoivent une récompense en cas de succès. De plus, ils se regroupent souvent en pools de minage pour partager leur puissance de calcul et obtenir des récompenses moindres mais plus régulièrement. Le minage de Bitcoin est un processus avec un fort coût énergétique mais essentiel pour le fonctionnement et la sécurité du réseau Bitcoin. La preuve de travail et la blockchain résolvent le problème de la double dépense et assurent la véracité des informations sans aucun tiers de confiance. La dépense énergétique est nécessaire pour produire l'information, mais la vérification des informations à un coût négligeable. Cette asymétrie garantie la sécurité du réseau. Il est donc plus économiquement viable de suivre les règles de consensus, que de les enfreindre.
 
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.png)
 
-# Bitcoin et l’écologie
+## Bitcoin et l’écologie
 
 ![Bitcoin & écologie](https://youtu.be/nV2b2xAMfmU)
 
 Nous venons de voir à la section précédente que la sécurité du protocole Bitcoin repose sur un coût énergétique élevé pour produire un registre public des transactions sans tiers de confiance. Le coût énergétique global est souvent comparé à la consommation électrique d'un petit pays. Mais cette comparaison a-t-elle du sens ? Est-elle pertinente pour comprendre les raisons derrière d'un tel coût ?
-Ici nous allons aborder la question de l'écologie et du minage de Bitcoin. Tout d'abord évaluons qualitativement le coût environnemental du minage. Un mineur doit se munir d'une machine comme un ASIC et d'une source d'énergie sous forme d'électricité pour pouvoir alimenter ces machines. Les ASICS sont majoritairement composé d'aluminium et peuvent être soit recyclé ou ré-employé pour un second usage (comme cela a été démontré avec le projet [Attakaï](https://decouvrebitcoin.fr/attakai/), qui transforme un Antminer S9 en chauffage d'appoint). La bête noire est donc la consommation énergétique. Essayons donc d'apporter davantage de contexte à cela.
+
+### Les coûts énergétiques du Bitcoin.
+
+Tout d'abord évaluons qualitativement le coût environnemental du minage. Un mineur doit se munir d'une machine comme un ASIC et d'une source d'énergie sous forme d'électricité pour pouvoir alimenter ces machines. Les ASICS sont majoritairement composé d'aluminium et peuvent être soit recyclé ou ré-employé pour un second usage (comme cela a été démontré avec le projet [Attakaï](https://decouvrebitcoin.fr/attakai/), qui transforme un Antminer S9 en chauffage d'appoint). La bête noire est donc la consommation énergétique. Essayons donc d'apporter davantage de contexte à cela.
+
+![image](assets\Concept\chapitre13\1.png)
 
 La consommation électrique représente la quasi-totalité des coûts pour un mineur. Par conséquent, il est incité à se procurer une source d'électricité peu chère. Or, comme les mineurs sont mobiles ils peuvent se rendre dans des endroits où des centrales électriques sont installées mais pas encore reliées à la grille électrique du territoire. Les mineurs jouent le rôle d'acheteur de dernier reccours, permettant ainsi à des centrales de pouvoir se financer avant même d'être relié au réseau électrique. Et lorsque qu'elles le seront, la demande en électricité augmentera, ce qui augmentera le prix rendant ainsi moins rentable pour le mineur de se fournir en électricité sur ces lieux. Le mineur décidera alors de déplacer son installation et s'intallera plus loin là où la demande est faible et donc son prix également.
 
+### Un débat sans fin
+
 Ainsi, le débat sur l'impact écologique de Bitcoin est souvent mal orienté, principalement à cause d'une compréhension insuffisante de son utilité et de son fonctionnement. Bitcoin ne peut pas être évalué simplement en termes de coût énergétique par transaction, car les mineurs sécurisent à la fois le réseau actuel et historique, les transactions sont regroupées et ne sont pas toutes équivalentes, de plus l'impact du Lightning Network n'est pas pris en compte. Ceux qui prétendent que Bitcoin consomme trop d'énergie peuvent avoir des motivations politiques ou cherchent à vendre leur propre solution blockchain. Le prétexte écologique est utilisé pour justifier le bannissement de Bitcoin.
 
-Cependant il ne faut oublier que Bitcoin, en tant qu'invention révolutionnaire, a donné aux individus vivant sous l'oppression financière ou sous un régime dictatorial un moyen de lutter pour leur liberté. En tant que dernier recours, Bitcoin offre une forme de liberté financière en échappant à la censure et aux restrictions bancaires. Bitcoin est plus qu'une simple monnaie. C'est une forme de communication et d'expression de la liberté. L'énergie dépensée par les mineurs contribue à la défense de notre liberté. Bitcoin permet l'émancipation du système financier actuel, dominé par la dette et la création monétaire excessive des banques centrales. Pour ceux qui vivent dans des pays avec une inflation élevée, Bitcoin est une question de survie. Il fournit un moyen de survivre dans des situations financières précaires. De plus, Bitcoin offre un système financier plus juste et plus équitable. Il donne également l'opportunité à des milliards de personnes dans le monde d'accéder au système financier. Vu sous cet angle, est-ce que la consommation énergétique est légitime ?
+Cependant il ne faut oublier que Bitcoin, en tant qu'invention révolutionnaire, a donné aux individus vivant sous l'oppression financière ou sous un régime dictatorial un moyen de lutter pour leur liberté. En tant que dernier recours, Bitcoin offre une forme de liberté financière en échappant à la censure et aux restrictions bancaires. Bitcoin est plus qu'une simple monnaie. C'est une forme de communication et d'expression de la liberté. L'énergie dépensée par les mineurs contribue à la défense de notre liberté. Bitcoin permet l'émancipation du système financier actuel, dominé par la dette et la création monétaire excessive des banques centrales.
+
+![image](assets\Concept\chapitre13\3.jpeg)
+
+Pour ceux qui vivent dans des pays avec une inflation élevée, Bitcoin est une question de survie. Il fournit un moyen de survivre dans des situations financières précaires. De plus, Bitcoin offre un système financier plus juste et plus équitable. Il donne également l'opportunité à des milliards de personnes dans le monde d'accéder au système financier. Vu sous cet angle, est-ce que la consommation énergétique est légitime ?
+
+### Est-ce que le Bitcoin ne serait-il pas un net positif pour l'environnement ?
 
 Finalement, il est essentiel de discuter des enjeux économiques et environnementaux de l'adoption de Bitcoin.
+
 Notamment en le comparant avec le système financier actuel. Celui-ci, de part son encouragement à la surconsommation et à l'endettement, pose de sérieux problèmes. La facilité d'accès au crédit, l'émission monétaire par les banques et le recours à la réserve fractionnaire sont autant de facteurs qui favorisent le surendettement, et par conséquent la sur-consommation.
+
+![image](assets\Concept\chapitre13\12.jpeg)
+
 Il est nécessaire de réformer le système monétaire afin de faire refléter la rareté de nos ressources avec la rareté de notre monnaie. Cela encouragera une consommation plus responsable et une vision à long terme. À l'inverse l'inflation, en incitant à la consommation et à l'investissement, a sur le long terme un impact négatif sur l'environnement.
+
 Le système financier actuel s'accorde avec les idées de l'économie keynésienne, qui contrairement à celles de l'économie autrichienne, ne tient pas compte l'aspect temporel et dynamique des situations et des ressources. En d'autres termes, une monnaie illimité ne peut efficacement refléter les ressources limitées de notre planète.
 
+![image](assets\Concept\chapitre13\2.jpeg)
+
 Les politiciens, en raison de leur vision à court terme et de leur besoin de croissance économique pour être réélus, ne sont pas en mesure de résoudre les problèmes écologiques sur le long terme. À l'inverse l'adoption d'une monnaie saine comme Bitcoin est une potentielle alternative qui pourrait permettre de rendre le pouvoir économique au peuple.
+
 Les flammes dans les puits de pétrole, qui brûlent du méthane pour éviter la pollution, peuvent être éteintes par les mineurs de Bitcoin, ce qui est bénéfique pour l'environnement. Bitcoin favorise l'utilisation d'énergie verte. Le méthane peut être converti en électricité pour alimenter les machines de minage, ce qui est avantageux pour tous.
 
-La technologie du Bitcoin est souvent mal comprise, et les critiques concernant son impact écologique sont souvent simplistes et court-termiste. Ces critiques sont souvent motivées par des intérêts politiques. Bitcoin a le potentiel d'aider à la transition écologique et de contribuer à un monde plus vert. Les médias répandent souvent des idées fausses sur Bitcoin et l'écologie. Prenez donc le temps de vous faire votre propre avis. Tout est transparent avec Bitcoin. Suivez une des maximes de Bitcoin : Ne faites pas confiance, vérfiez par vous-même !
+La technologie du Bitcoin est souvent mal comprise, et les critiques concernant son impact écologique sont souvent simplistes et court-termiste. Ces critiques sont souvent motivées par des intérêts politiques. Bitcoin a le potentiel d'aider à la transition écologique et de contribuer à un monde plus vert. Les médias répandent souvent des idées fausses sur Bitcoin et l'écologie. Prenez donc le temps de vous faire votre propre avis. Tout est transparent avec Bitcoin.
+
+> Suivez une des maximes de Bitcoin : Ne faites pas confiance, vérfiez par vous-même !
 
 ![Bitcoin & écologie](assets/posters/fr/14_minage_et_ecologie_crop.png)
 
-# Court résumé des aspects techniques de Bitcoin
+### Court résumé des aspects techniques de Bitcoin
 
 ![conclusion chapitre 3](https://youtu.be/gqILoXTUKdc)
 
-Satoshi Nakamoto lança en Janvier 2009 le protocole Bitcoin, qui a depuis évolué grâce à une communauté grandissante de développeurs, mineurs et d'utilisateur avec des nœuds Bitcoin. Ces derniers en gardant leur propre copie de la blockchain Bitcoin, ce registre publique de toutes les transactions Bitcoin, peuvent s'assurer de la validité des transactions au regard des règles de consensus propres à Bitcoin. Notamment en s'assurant que les mineurs produisent des blocs valides, qui contiennent quelques milliers de transactions en attente. En moyenne un bloc est créé tous les 10 minutes et le mineur ayant trouvé un hash valide pour le prochain bloc est rétribué par le protocole avec une récompense dont le montant est défini par les règles de consensus, et les frais de transactions de toutes celles présentes dans le bloc valide en question. Comme le résultat de l'algorithme de hachage (SHA256) pour une entrée donnée est considéré comme imprévisible, le processus de minage qui consiste à construire de nombreux bloc-candidats et de tester si leur hash est valide ou non. Cependant pour s'assurer que le temps moyen entre deux blocs reste constant (~10 mins) indépendemment de la quantité de mineurs et de leur puissance de calcul, la difficulté pour trouver un hash valide s'ajuste tous les 2016 blocs soit environ toutes les 2 semaines. Les mineurs ont développé au fil du temps de machines spécifique à SHA256, appelé des ASICS pour augmenter la ratio hashrate/joule, ce qui veut dire en d'autre terme le nombre de tentative par seconde et par énergie consommée.
+Satoshi Nakamoto lança en Janvier 2009 le protocole Bitcoin, qui a depuis évolué grâce à une communauté grandissante de développeurs, mineurs et d'utilisateur avec des nœuds Bitcoin. Ces derniers en gardant leur propre copie de la blockchain Bitcoin, ce registre publique de toutes les transactions Bitcoin, peuvent s'assurer de la validité des transactions au regard des règles de consensus propres à Bitcoin. Notamment en s'assurant que les mineurs produisent des blocs valides, qui contiennent quelques milliers de transactions en attente.
+
+En moyenne un bloc est créé tous les 10 minutes et le mineur ayant trouvé un hash valide pour le prochain bloc est rétribué par le protocole avec une récompense dont le montant est défini par les règles de consensus, et les frais de transactions de toutes celles présentes dans le bloc valide en question. Comme le résultat de l'algorithme de hachage (SHA256) pour une entrée donnée est considéré comme imprévisible, le processus de minage qui consiste à construire de nombreux bloc-candidats et de tester si leur hash est valide ou non. Cependant pour s'assurer que le temps moyen entre deux blocs reste constant (~10 mins) indépendemment de la quantité de mineurs et de leur puissance de calcul, la difficulté pour trouver un hash valide s'ajuste tous les 2016 blocs soit environ toutes les 2 semaines. Les mineurs ont développé au fil du temps de machines spécifique à SHA256, appelé des ASICS pour augmenter la ratio hashrate/joule, ce qui veut dire en d'autre terme le nombre de tentative par seconde et par énergie consommée.
 
 Pour que les mineurs soit le plus rentable dans son activité, il se doit de se procurer l'électricité la moins chère possible, ce qui est souvent dans des endroits reculées, au sein de centrale électrique qui ne sont pas encore reliée à la grille électrique du territoire. Le mineur agit alors comme un acheteur de dernier reccours, et dès que le prix de l'électricité augmente suite à l'augmentation d'une demande, alors le mineur aura tendance à relocaliser son activité ailleurs.
 
 Ainsi, le protocole Bitcoin est un système monétaire incensurable et instoppable car chaque composante du protocole est distribué géographiquement sur l'ensemble du globe -- à titre d'exemple, on dénombre environ 40,000 nœuds Bitcoin sur l'ensemble des continents. Les règles de consensus de Bitcoin sont telles qu'il est plus économiquement rentable de les suivre que de chercher à les transgresser, et par conséquent aucune confiance n'est requise entre les acteurs. Bitcoin n'a pas de leader et ne peut pas être arrêté. Il est possible de réguler les plateformes d'échanges pour limiter Bitcoin, mais cela est restreint en terme d'impact. En somme, aucun juge ou état ne peut censurer ou arrêter Bitcoin.
 
-# L'économie circulaire Bitcoin qui ne dort jamais !
+# Comment se procurer des Bitcoin ?
+
+## Bitcoin qui ne dort jamais !
 
 ![Bitcoin ne dort jamais](https://youtu.be/7535MAeHzxM)
+
+### Les cycles économiques du Bitcoin
 
 Le prix du Bitcoin est souvent caractérisé par une volatilité significative. Sa valeur peut fluctuer considérablement en fonction des variations du marché. Toutefois, par rapport aux monnaies fiduciaires, le Bitcoin a tendance à voir sa valeur augmenter sur le long terme. Bitcoin peut donc être utiliser comme un outil d'épargne long-terme. L'une des stratégies recommandées est le DCA pour "dollar cost averaging", qui consiste à acheter régulièrement une somme fixe en Bitcoin, indépendamment de son prix. Cela permet de lisser l'impact des fluctuations de prix sur le long terme. De plus, la stratégie du "hodl", qui consiste à conserver ses bitcoins plutôt que de les échanger ou de les vendre. Il existe une autre stratégie qui est le "spendl" qui consiste à payer un maximum de choses en bitcoin et de racheter la même quantité en bitcoin avec ses euros. Cette dernière permet de favoriser l'économie circulaire du Bitcoin tout en créant une pression acheteuse pour la paire bitcoin/euros.
 

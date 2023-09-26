@@ -240,11 +240,11 @@ Néanmoins, nous ne pouvons pas leurs arracher violemment, tout ce que l’on pe
 
 ![image](assets\Concept\chapitre2\0.jpeg)
 
-## L’hyperinflation
+## Les hyperinflations
 
 ![Les hyperinflation](https://youtu.be/cYKmgflsy_8)
 
-Les hyperinflations sont des phénomènes dévastateurs dans un système monétaire fiat, entraînées par des décisions humaines, qui peuvent conduire à la dévaluation totale de la monnaie en question. En résultat, les économies accumulées par les individus peuvent se dissiper en un laps de temps relativement court.
+L’hyperinflation est un phénomène monétaire propre aux monnaies fiduciaires. Elle se caractérise par une perte complète de la confiance dans une monnaie et une augmentation drastique de l’inflation via l’impression monétaire des autorités. En résultat, les économies accumulées par les individus peuvent se dissiper en un laps de temps relativement court, ceci poussant le pays au bord du gouffre économique, sociale et politique.
 
 ### L'inflation mais en roue libre !
 
@@ -922,67 +922,73 @@ Ainsi, le protocole Bitcoin est un système monétaire incensurable et instoppab
 
 ![Bitcoin ne dort jamais](https://youtu.be/7535MAeHzxM)
 
-### Bitcoin & la volatilité
+Le prix du Bitcoin est souvent caractérisé par une volatilité significative. Sa valeur peut fluctuer considérablement en fonction des variations du marché et des phases de marché haussier (bull market) et marché baissier (bear market). Ceci est présent sur 100% des marchés financiers, bitcoin y compris.
 
-Le prix du Bitcoin est souvent caractérisé par une volatilité significative. Sa valeur peut fluctuer considérablement en fonction des variations du marché et des phases de marché haussier ( bull market) et marché baissier ( bear market).
+![image](assets\Concept\chapitre14\2.jpg)
 
-Ces tres importante flucation on cree une réputation a bitcoin d'un actif extremeent dangereux et qui fait perdre de l'argent a tous ces utlitatuer. Bien que le cours peut chuter de 10-20 ou meme 50% en quelque jours, il est important de bien comrpendre que Bitcoin, le protocole, luis n'est pas affecter par le changement de prix.
-
-Cette volatilité importanet est completement accepter aujroud'hui des actuer du bitcoin et peut etre palier par plsuieur solution tel que des hedge financie ( stablesat), une croyange long terme forte ( le hodl) ou simplenent en ne mettant pas 100% de son argent dans bitcoin sans rien comprendre. Comrpendre pourquoi le prix du bitcoin fluctue autant est donc essietiel pour pouvoir avancer dans cette industrue car au final, c'est le prix et les cicle qui temporise et régule en quelque sorte notre marché. nous pouvon noté néanmoins que de plus bitcoin grandit et mature de moins la volatilité est importante.
-
-GRAPH
-
-Bien que la pair btc/dollars fluctue sur des temps courts, le Bitcoin, de part sa quantité limitée de 21 millions de bitcoin et son processus de halving (division par 2 de la création monétaire tous les 4 ans en moyenne), suit une tendance générale à la hausse de manière quasi-mécanique. Bien évidemment et tout actifs financiers, le Bitcoin est sujet à des cycles économiques comprenant des périodes d'euphorie, des bulles spéculatives et des corrections. Ce phénomène est assez courant dans les technologies émergentes, où le marché n'est pas toujours rationnel ou efficient.
-
-![image](assets\Concept\chapitre14\1.png)
+> Pour faire simple: les êtres humains achètent tous en même temps et vendent tous en même temps. Bitcoin n'est pas immunisé contre la nature humaine.
 
 ### Comprendre les vagues d'adoption
 
 Le développement et l'évolution de Bitcoin sont en grande partie liés aux différents groupes d'acteurs qui ont progressivement intégré son écosystème.
 
-rajouter des image ou info sur ca
+![image](assets\Concept\chapitre14\1.png)
 
-- Les beleivers:
+- Les believers:
 
 Les premiers utilisateurs de Bitcoin étaient principalement des technophiles, des cypherpunks, des libertariens et des adeptes de l'or. Ces groupes ont été attirés par le Bitcoin en raison de sa capacité à offrir des solutions comme un cash électronique sans tiers de confiance, une résistance à la censure ou une politique monétaire transparente et immuable.
 
 - Le dark web & les criminels
 
-Puis, l'utilisation de Bitcoin s'est étendue à des sites de commerce sur le dark web, comme Silk Road, en raison de sa nature incontrôlable et pseudonyme. Ce site a attiré l'attention sur le caractère non contrôlable et pseudonyme du Bitcoin, ce qui a incité certains acteurs criminels à l'utiliser. Toutefois, il convient de noter que l'usage qui est fait d'un outil, et non l'outil lui-même, détermine sa légalité ou son illégalité. Il convient de noter que l'utilisation illégale de Bitcoin ne fait pas d'une personne un criminel en soi. C'est l'utilisation, et non l'outil, qui peut être classée comme illégale. Par exemple, l'utilisation de Bitcoin pour des activités telles que l'achat de certaines drogues est légale ou non en fonction de la réglementation du territoire sur lequel l'activité à lieu.
+Puis, l'utilisation de Bitcoin s'est étendue à des sites de commerce sur le dark web, comme Silk Road, en raison de sa nature incontrôlable et pseudonyme. Ce site a attiré l'attention sur le caractère non contrôlable et pseudonyme du Bitcoin, ce qui a incité certains acteurs criminels à l'utiliser. Toutefois, il convient de noter que l'usage qui est fait d'un outil, et non l'outil lui-même, détermine sa légalité ou son illégalité. Il convient de noter que l'utilisation illégale de Bitcoin ne fait pas d'une personne un criminel en soi. C'est l'utilisation, et non l'outil, qui peut être classée comme illégale. Par exemple, l'utilisation de Bitcoin pour des activités telles que l'achat de certaines drogues est légale ou non en fonction de la réglementation du territoire sur lequel l'activité a lieu.
 
-- la follie des ICO et l'arrivé du grand publique.
+- La folie des ICO et l'arrivée du grand public.
 
 L'année 2017 a été marquée par une importante bulle spéculative dans l'univers des crypto-monnaies, en particulier avec le lancement de milliers d'ICO (Initial Coin Offering). Cependant, beaucoup de ces nouvelles crypto-monnaies n'avaient ni développement concret, ni utilité, et ont donc rapidement disparu. Cette bulle de 2017 fut suivie d'une forte correction en 2018-2019.
 
-- la bulle des NFT et la defi
+- La bulle des NFT et la DeFi
 
-Puis de nouveau en 2020, le marché traverse une autre bulle spéculative qui a porté le prix du Bitcoin à $60,000. Cette bulle se distingue des précédentes par une plus grande diversification des investisseurs, y compris des institutions financières et des grandes entreprises. Mais encore une fois, une fois l'euphorie passée de fortes corrections ont lieux.
+Puis de nouveau en 2020, le marché traverse une autre bulle spéculative qui a porté le prix du Bitcoin à $60,000. Cette bulle se distingue des précédentes par une plus grande diversification des investisseurs, y compris des institutions financières et des grandes entreprises. Mais encore une fois, une fois l'euphorie passée, de fortes corrections ont lieu.
 
-Au regard des cycles passés, il semblerai que la périodicité des cycles économique du Bitcoin soit équivalent à la durée entre deux halving. Peut-être car l'évènement de halving fait office de détonnateur en réduissant de moitié l'émission de nouveau bitcoin.
+Au regard des cycles passés, il semblerait que la périodicité des cycles économiques du Bitcoin soit équivalente à la durée entre deux halving. Peut-être car l'événement de halving fait office de détonnateur en réduisant de moitié l'émission de nouveau bitcoin.
 
-### un marché unqiue
+### Bitcoin & la volatilité
 
-Ces cycle de bulle spéculatiff sont assez unique dans le monde, en effet il est tres rare pour un meme actif de voire autant de bulle s'enchainer encore et encore. Ceci s'explique simplement par ce que bitcoin n'est pas une bulle qui va disparaitre mais bien une monnaie ree utilsier partout dans le monde. Le protocole Bitcoin est unique en ce sens qu'il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7, rendant la régulation difficile pour les autorités financières.
+Ces très importantes fluctuations ont créé une réputation au Bitcoin d'un actif extrêmement dangereux et qui fait perdre de l'argent à tous ces utilisateurs. Bien que le cours peut chuter de 10-20 ou même 50% en quelques jours, il est important de bien comprendre que Bitcoin, le protocole, lui n'est pas affecté par le changement de prix.
 
-Aujourd'hui, en 2023, le bitcoi continnue de survivre te grossir toujours plus en s'implement chaque jour d'avantage dans le marché traditonelle. l'arrivé prochianement des ETF bitcoin, une régulation plus claire et des meilleur outil d'acquissition ou de stockqage ne vienne tque encourager cette tendence. Bitcoin a ENCORE survecut a ca bulle spéculatif, ce n'ets donc peut etre pas que du vent !
+Cette volatilité importante est complètement acceptée aujourd'hui des acteurs du Bitcoin et peut être palliée par plusieurs solutions tel que des hedges financiers (stablecoins), une croyance long terme forte (le hodl) ou simplement en ne mettant pas 100% de son argent dans Bitcoin sans rien comprendre. Comprendre pourquoi le prix du Bitcoin fluctue autant est donc essentiel pour pouvoir avancer dans cette industrie car au final, c'est le prix et les cycles qui temporisent et régulent en quelque sorte notre marché. Nous pouvons noter néanmoins que plus Bitcoin grandit et mature, moins la volatilité est importante.
+
+![image](assets\Concept\chapitre14\5.png)
+
+Bien que la paire btc/dollars fluctue sur des temps courts, le Bitcoin, de par sa quantité limitée de 21 millions de bitcoin et son processus de halving (division par 2 de la création monétaire tous les 4 ans en moyenne), suit une tendance générale à la hausse de manière quasi-mécanique. Bien évidemment, comme tout actif financier, le Bitcoin est sujet à des cycles économiques comprenant des périodes d'euphorie, des bulles spéculatives et des corrections. Ce phénomène est assez courant dans les technologies émergentes, où le marché n'est pas toujours rationnel ou efficient.
+
+### Un marché unique
+
+Ces cycles de bulles spéculatives sont assez uniques dans le monde, en effet il est très rare pour un même actif de voir autant de bulles s'enchaîner encore et encore. Ceci s'explique simplement parce que Bitcoin n'est pas une bulle qui va disparaître mais bien une monnaie réellement utilisée partout dans le monde. Le protocole Bitcoin est unique en ce sens qu'il fonctionne à l'échelle mondiale, 24 heures sur 24, 7 jours sur 7, rendant la régulation difficile pour les autorités financières.
+
+![image](assets\Concept\chapitre14\4.png)
+
+Aujourd'hui, en 2023, le Bitcoin continue de survivre et de grossir toujours plus en s'implémentant chaque jour davantage dans le marché traditionnel. L'arrivée prochainement des ETF Bitcoin, une régulation plus claire et de meilleurs outils d'acquisition ou de stockage ne font qu'encourager cette tendance. Bitcoin a ENCORE survécu à sa bulle spéculative, ce n'est donc peut-être pas que du vent !
+
+![image](assets\Concept\chapitre14\3.png)
 
 ## Obtenir des bitcoins en travaillant
 
 ![obtenir des bitcoin en travaillant](https://youtu.be/sHkadVRUQF8)
 
-### Une économie parrallele ce devellope
+### Une économie parallèle se développe
 
 Bitcoin peut être perçu comme une économie parallèle à celle des monnaies fiduciaires. Cela signifie qu'il est possible de vendre des biens ou des services, mais aussi d'être payé en Bitcoin. Les transactions peuvent être effectuées directement en Bitcoin, sans avoir besoin de passer par une plateforme d'échange, simplement de portefeuille Bitcoin à portefeuille Bitcoin.
 
-L'économie du Bitcoin existe et se développe dans certaines régions du monde, comme au Salvador où le Bitcoin est monnaie-légal depuis 2021. De plus, certaines personnes, entreprises et organisations acceptent déjà le Bitcoin comme moyen de paiement pour leurs produits ou services.
+L'économie du Bitcoin existe et se développe dans certaines régions du monde, comme au Salvador où le Bitcoin est monnaie légale depuis 2021. De plus, certaines personnes, entreprises et organisations acceptent déjà le Bitcoin comme moyen de paiement pour leurs produits ou services.
 
----- Image de BTCmap
+![image](assets\Concept\chapitre16\6.png)
 
-En outre, pour faciliter l'utilisation de Bitcoin dans les transactions du quotidien, un projet open-source et collaboratif a été lancé : [BTCMap](https://btcmap.org/map). Ce dernier recense tous les commerçants qui acceptent Bitcoin ainsi que les différentes communautés Bitcoin à travers le monde. Vous pouvez visiter leur site pour découvrir l'écosystème Bitcoin autour de vous. Ainsi, malgré les difficultés et les réticences, il existe des initiatives comme BTCMap qui contribuent à rendre l'économie du Bitcoin plus accessible et pratique pour tous.
+En outre, pour faciliter l'utilisation de Bitcoin dans les transactions du quotidien, un projet open-source et collaboratif a été lancé : BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Ce dernier recense tous les commerçants qui acceptent Bitcoin ainsi que les différentes communautés Bitcoin à travers le monde. Vous pouvez visiter leur site pour découvrir l'écosystème Bitcoin autour de vous. Ainsi, malgré les difficultés et les réticences, il existe des initiatives comme BTCMap qui contribuent à rendre l'économie du Bitcoin plus accessible et pratique pour tous.
 
 ### Pourquoi accepter bitcoin au lieu d'en acheter ?
 
-Pour obtenir des bitcoins, vous pouvez les acheter sur des plateformes régulées par des organismes tels que l'AMF (Autorité des Marchés Financiers) en France. Cette méthode implique certains risques et la traçabilité de vos transactions. Une autre méthode pour obtenir des bitcoins consiste à l'accepter en tant que moyen de paiement pour les produits ou services que vous proposez. Cette méthode vous permet d'acquérir des bitcoins par le biais de votre travail sans vous soucier constamment du prix du Bitcoin.
+Pour obtenir des bitcoins, vous pouvez les acheter sur des plateformes régulées par des organismes tels que l'AMF (Autorité des Marchés Financiers) en France. Cette méthode implique certains risques et la traçabilité de vos transactions. Une autre méthode pour obtenir des bitcoins consiste à les accepter en tant que moyen de paiement pour les produits ou services que vous proposez. Cette méthode vous permet d'acquérir des bitcoins par le biais de votre travail sans vous soucier constamment du prix du Bitcoin.
 
 De plus, accepter le Bitcoin en tant que commerçant présente plusieurs avantages, dont l'absence de censure, des frais de transaction réduits, une efficacité accrue, une protection contre l'inflation, ainsi que la liberté et la souveraineté financière.
 
@@ -992,13 +998,13 @@ De plus, accepter le Bitcoin en tant que commerçant présente plusieurs avantag
 
 Pour accepter le Bitcoin, il est nécessaire d'étudier les différentes solutions disponibles et de choisir celle qui convient le mieux à votre entreprise. Il n'existe pas de solutions parfaites, et plusieurs facteurs doivent être pris en compte pour faire votre choix, tels que, entre autres, le volume de transactions attendu, le budget alloué, le type de commerce (en ligne ou physique).
 
-Nous allons traité ce sujet en detail dans une autre formation mais pour faire simple non peut considere plusieur catégoie de business et donc ainsi des solutions liée:
+Nous allons traiter ce sujet en détail dans une autre formation, mais pour faire simple, on peut considérer plusieurs catégories de business et donc ainsi des solutions liées :
 
-- Solution en ligne simple: OpenNode
-- Solution pour les commercant amateur : Swiss Bitcoin pay
-- Solution pour les grosse stucture ou bitcoiner passioné: BTCpay serveur
+- Solution en ligne simple : OpenNode
+- Solution pour les commerçants amateurs : Swiss Bitcoin Pay
+- Solution pour les grosses structures ou bitcoiners passionnés : BTCpay Serveur
 
-D'autre solution intermedaire ou concurrent de ces choix existe bien evidement, vous les découvrere au fure et a mesure de votre voyage dans bitcoin. Si besoin la section tutoriel commercant pourra vous guider !
+D'autres solutions intermédiaires ou concurrentes de ces choix existent bien évidemment, vous les découvrirez au fur et à mesure de votre voyage dans Bitcoin. Si besoin, la section tutoriel commerçant pourra vous guider!
 
 ## Épargner avec Bitcoin
 
@@ -1006,68 +1012,48 @@ D'autre solution intermedaire ou concurrent de ces choix existe bien evidement, 
 
 ### Avertissement avant de ce lancer !
 
-Bitcoin est devenu un actif financier important, principalement en raison de son offre limitée et de sa demande croissante. Toutefois, l'achat de Bitcoin comporte des risques qui nécessitent une attention particulière. Il est donc recommandé d'effectuer vos propres recherches et d'en apprendre davantage sur le sujet pour être famillier avec la technologie avant d'investir.
+Bitcoin est devenu un actif financier majeur, principalement en raison de son offre limitée et de sa demande croissante. Toutefois, l'achat de Bitcoin comporte des risques qui nécessitent une attention particulière. Il est donc recommandé d'effectuer vos propres recherches et d'en apprendre davantage sur le sujet pour être familiarisé avec la technologie avant d'investir.
 
-- N’investissez uniquement que ce que vous pouvez vous permettre de perdre
-- Bitcoin est un actif financier très volatile, son prix peut descendre à 0
-- Les performances passées ne préjugent pas des performances futures
-- Contactez votre conseiller financier si besoin
+- N'investissez que ce que vous pouvez vous permettre de perdre.
+- Bitcoin est un actif financier très volatile; son prix peut descendre à 0.
+- Les performances passées ne préjugent pas des performances futures.
+- Contactez votre conseiller financier si besoin.
 
-> DécouvreBitcoin (Rogzy) ne fait pas de conseil en investissement et rien de ceci ne doit être considéré comme tel.
+> DécouvreBitcoin (Rogzy) ne fait pas de conseil en investissement et rien de ce qui est énoncé ici ne doit être considéré comme tel.
 
----> rajouter l'image du pannaux attention
+### Mini Check-list avant de faire le grand saut
 
-### Etes tu prêts ?
+Avant de vous lancer dans l'achat de Bitcoin, assurez-vous d'avoir :
 
-Mini Check list pour regarder si tu es prêt avant de faire le grand saut:
+- Un portefeuille sécurisé.
+- Une compréhension solide de Bitcoin.
+- Un plan d'épargne à suivre.
+- Une vision à long terme.
 
-- Un portefeuille sécurisé
-- Une compréhension de Bitcoin
-- Un plan d’épargne à suivre
-- Une vision long terme
+Si le sujet n'est pas encore clair, sachez que la formation BTC102 vous accompagne dans la sécurisation et l'acquisition de vos premiers bitcoins. Ici, nous allons uniquement survoler le sujet.
 
-Si le sujet n'est pas encore claire, sache que la formation BTC102 t'accompagne dans la sécurisation et l'acquisition de tes premieres bitcoin. Ici nous allons uniquement survoler le sujet.
+Concrètement, il y a deux questions à se poser :
 
-Concretement il y a deux questions à ce poser:
-
-- Quelle strategie d'acquisition; au fure ou a mesure ou d'un coup
-- par quelle plateformer passer; régulé ou non régulé
-
----> MEME de ralfe qui a aucune idee ce ce qu'il fait
+- Quelle stratégie d'acquisition adopter : petit à petit ou en une seule fois ?
+- Par quelle plateforme passer : régulée ou non régulée ?
 
 ### Les strategies d'achat
 
----
-
 - Dollars Cost Average
 
-L’achat récurrent consiste à acheter de faibles montants à
-intervalle régulier. Ceci offre un lissage du prix à travers le
-temps et une croissance continue de notre quantité de
-bitcoin.
-
-C’est une solution idéale pour épargner long terme sans se
-soucier du prix et de la volatilité. On met en place puis on
-oublie.
+L'achat récurrent consiste à acheter de faibles montants de Bitcoin à intervalle régulier. Cette méthode offre un lissage du prix à travers le temps et une croissance continue de la quantité de Bitcoin possédée. C'est une solution idéale pour épargner à long terme sans se soucier du prix et de la volatilité du Bitcoin. On met en place puis on oublie.
 
 ![image](assets\Concept\chapitre15\2.png)
 
-> Attention aux UTXO:
-> N’oubliez pas de consolider vos
-> portefeuilles de temps en temps.
+> Attention aux UTXO : N’oubliez pas de consolider vos UTXO dans vos portefeuilles de temps en temps. Cette pratique est essentielle pour gérer efficacement vos bitcoins et éviter les frais inutiles lors des transactions.
 
 - Achat spontané
 
-L’achat spontané est utilisé pour obtenir une exposition
-immédiate au bitcoin. Que ce soit pour acheter pendant
-un crash ou profiter d’un bonus, c’est à vous de prendre
-votre courage à deux mains et appuyer sur achat.
+L'achat spontané est employé pour obtenir une exposition immédiate au Bitcoin. Que ce soit pour acheter pendant un crash ou pour profiter d'un bonus, la décision vous appartient. Il faudra prendre votre courage à deux mains et appuyer sur achat.
 
-La volatilité de bitcoin étant très importante, faites très
-attention avec vos émotions. Le FOMO et le FUD sont vos pires ennemis!
-On reste calme et on suit la stratégie établie.
+Étant donné la volatilité significative du Bitcoin, une attention particulière doit être portée à vos émotions. Le FOMO (Fear of Missing Out, ou la peur de manquer une opportunité) et le FUD (Fear, Uncertainty, Doubt, ou la peur, l'incertitude et le doute) sont vos pires ennemis dans ce contexte ! Restez calme et suivez la stratégie que vous avez établie en amont pour éviter des prises de décision impulsives et potentiellement préjudiciables.
 
-### Par ou passer ?
+### À qui acheter nos Bitcoin ?
 
 Il existe plusieurs moyens d'acquérir des Bitcoins, chacun ayant ses propres réglementations. Certaines plateformes exigent une pièce d'identité pour la vérification, tandis que d'autres ne le font pas. Il est crucial de comprendre les réglementations associées à chaque plateforme.
 
@@ -1078,7 +1064,8 @@ Une méthode courante d'accumulation de Bitcoins est le "Dollar Cost Averaging" 
 Aujourd'hui presque toute les solution de DCA sont relatifevement effice et avec des frais presque cimilaire, le choixi se portera plus sur la disponibilité dans votre pays.
 
 - Plateforme de broker
-  Pour les investissements de grande envergure, des plateformes réglementées et reconnues telles que Kraken, Bitstamp et Paymium sont recommandées. Ces plateformes offrent un environnement sûr et sécurisé pour les transactions en gros volumes.
+
+Pour les investissements de grande envergure, des plateformes réglementées et reconnues telles que Kraken, Bitstamp et Paymium sont recommandées. Ces plateformes offrent un environnement sûr et sécurisé pour les transactions en gros volumes.
 
 Leur utilisation est simple et accessible par tous:
 
@@ -1091,25 +1078,25 @@ Leur utilisation est simple et accessible par tous:
 
 Après l'achat, il est conseillé de retirer immédiatement les Bitcoins des plateformes d'échange pour minimiser les risques de piratage et de blocage des fonds. Les frais de retrait peuvent être élevés, parfois jusqu'à 25 euros selon la plateforme.
 
-> \*Les normes Know Your Customer (KYC) obligent les utilisateurs à fournir
+> Les normes Know Your Customer (KYC) obligent les utilisateurs à fournir
 > une pièce d’identité afin de lutter contre le financement du terrorisme,
 > l’évasion fiscale et le blanchiment d’argent.
->
-> Il est important de noter que le KYC est un sujet important de notre industrie car son efficace reste est facielemtn debattable alors que ces apsect negatif sont nombreux. Dans de nombreuse formation et contenue de l'university nous deconsilleons de passer par des plateforme full KYC si vous etes deja un utilsiateur avance.
+
+Il est important de noter que le KYC est un sujet important de notre industrie car son efficacité reste facilement débattable alors que ces aspects négatifs sont nombreux. Dans de nombreuses formations et contenus de l'université, nous déconseillons de passer par des plateformes full KYC si vous êtes déjà un utilisateur avancé.
 
 ### Solution non-KYC
 
-De plus, il existe plusieurs [places de marché](https://sovereignuniversity.org/tutorials/exchange) pour acheter et vendre des bitcoins en pair-à-pair. Si vous êtes intéressés par ces dernières, vous pouvez faire notre formation sur le sujet BTC 205, en réglé général ces solution sont:
+De plus, il existe plusieurs [places de marché](https://sovereignuniversity.org/tutorials/exchange) pour acheter et vendre des bitcoins en pair-à-pair. Si vous êtes intéressés par ces dernières, vous pouvez suivre notre formation sur le sujet BTC 205. En règle générale, ces solutions sont :
 
 - Des ATM bitcoins
-- Des rencontre physique avec d'autre passioné du bitcoin
-- Des platefrome illégale et non régulé
-- Des solution de mise en relation de particulier
-- Des solution de néobanque opperant dans des nation Bitcoin-friendly.
+- Des rencontres physiques avec d'autres passionnés du bitcoin
+- Des plateformes illégales et non régulées
+- Des solutions de mise en relation de particuliers
+- Des solutions de néobanques opérant dans des nations Bitcoin-friendly.
 
 ![image](assets\Concept\chapitre15\3.png)
 
-Il est également important de noter qu'il est possible que des impots soit mise en place dans votre jurisdiction. Nous vous inviter a consuslté la réglementationd e votre pays avant tout actions pouvant vous mettre a defaut.
+Il est également important de noter qu'il est possible que des impôts soient mis en place dans votre juridiction. Nous vous invitons à consulter la réglementation de votre pays avant toute action pouvant vous mettre en défaut.
 
 ## Hyper-bitcoinisation
 
@@ -1117,7 +1104,7 @@ Il est également important de noter qu'il est possible que des impots soit mise
 
 ### La course folle ne fait que commencer !
 
-Comme toute nouvelle technologie, l'adoption de Bitcoin suit une courbe en S. Nous avons dépassé l'époque des premiers adoptants et les indicateurs semblent pointer vers une démocratisation complète du Bitcoin. C'est une technologie virale qui ne peut être arrêter. Le Salvador a pris le pari audacieux d'adopter le Bitcoin de manière totale, en le déclarant comme une monnaie ayant cours légal. Cependant, chaque pays réagit différemment face à cette technologie. Certains l'ont banni et criminalisé son usage, ajoutant ainsi à la complexité de l'adoption de Bitcoin en fonction des cultures, des époques et des nations.
+Comme toute nouvelle technologie, l'adoption de Bitcoin suit une courbe en S. Nous avons dépassé l'époque des premiers adoptants et les indicateurs semblent pointer vers une démocratisation complète du Bitcoin. C'est une technologie virale qui ne peut être arrêtée. Le Salvador a pris le pari audacieux d'adopter le Bitcoin de manière totale, en le déclarant comme une monnaie ayant cours légal. Cependant, chaque pays réagit différemment face à cette technologie. Certains l'ont banni et criminalisé son usage, ajoutant ainsi à la complexité de l'adoption de Bitcoin en fonction des cultures, des époques et des nations.
 
 ![image](assets\Concept\chapitre17\2.png)
 

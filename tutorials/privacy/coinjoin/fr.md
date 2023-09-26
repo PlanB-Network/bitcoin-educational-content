@@ -7,7 +7,7 @@ description: Comprendre et utiliser le CoinJoin sur Bitcoin.
 
 # Comprendre et utiliser le CoinJoin sur Bitcoin.
 
-_**Texte offert par Loïc Morel dans le cadre de ses écrits dans Pandul. texte origina [ici](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)**_
+_**Texte offert par Loïc Morel dans le cadre de ses écrits dans Pandul. Le texte original est [ici](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)**_
 
 ## Introduction
 

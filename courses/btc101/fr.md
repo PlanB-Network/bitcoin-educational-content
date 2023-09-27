@@ -828,7 +828,7 @@ La transaction coinbase est toujours la première ; elle comprend la récompense
 
 Initialement, un mineur est rémunéré lorsqu'il trouve un bloc valide. Plus exactement, il est rémunéré de deux manières : (i) par la récompense incluse dans le bloc et (ii) par les frais de transactions dans les transactions incluses dans le bloc. Le montant de la récompense est défini par les règles de consensus est dépendent dans quelle Époque nous nous situons.
 
-En effet, pour les premiers blocs la récompense était de 50 bitcoins, puis tous les 210,000 blocs (soit environ tous les 4 ans), elle est divisée par 2. Aujourd'hui (en 2023), nous nous situons dans la 4ème Époque; la récompense est donc de 6.125 bitcoin. Cette récompense est le mécanisme de création monétaire dans Bitcoin. Comme la récompense diminue avec le temps, cela signifie qu'il existe une limite de 21 millions de bitcoins -- aujourd'hui il y a déjà plus de 19,4 millions de bitcoins en circulation, soit plus de 92%.
+En effet, pour les premiers blocs la récompense était de 50 bitcoins, puis tous les 210,000 blocs (soit environ tous les 4 ans), elle est divisée par 2. Aujourd'hui (en 2023), nous nous situons dans la 4ème Époque; la récompense est donc de 6.25 bitcoin. Cette récompense est le mécanisme de création monétaire dans Bitcoin. Comme la récompense diminue avec le temps, cela signifie qu'il existe une limite de 21 millions de bitcoins -- aujourd'hui il y a déjà plus de 19,4 millions de bitcoins en circulation, soit plus de 92%.
 
 ![image](assets\Concept\chapitre12\18.png)
 

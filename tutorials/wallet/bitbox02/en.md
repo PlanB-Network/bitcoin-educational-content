@@ -32,8 +32,6 @@ Download data sheets on their website https://bitbox.swiss/bitbox02/
 
 ## How to use the BitBox02 Hardware Wallet
 
-> The following guide was offerted by Parman (https://twitter.com/parman_the),you can tips him here; dandysack84@walletofsatoshi.com - Original source; https://armantheparman.com/bitbox02/
-
 ### Setting up the BitBox02
 
 The BitBox02 has a USB-C connection attached to the shell. If your computer uses the regular USB port, you’ll have to use the adaptor that comes with the device.

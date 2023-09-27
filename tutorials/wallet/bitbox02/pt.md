@@ -32,8 +32,6 @@ Baixe as fichas técnicas em seu site https://bitbox.swiss/bitbox02/
 
 ## Como usar a carteira de hardware BitBox02
 
-> O guia a seguir foi oferecido por Parman (https://twitter.com/parman_the), você pode dar gorjeta a ele aqui: dandysack84@walletofsatoshi.com - Fonte original: https://armantheparman.com/bitbox02/
-
 ### Configurando o BitBox02
 
 O BitBox02 possui uma conexão USB-C conectada à carcaça. Se o seu computador usa a porta USB regular, você precisará usar o adaptador que vem com o dispositivo.

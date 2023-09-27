@@ -16,8 +16,6 @@ https://electrum.readthedocs.io/
 
 > "Tenho que dizer que, quando encontrei este guia, fiquei chocado. Parabéns ao Arman the Parman por isso. Seria uma pena não hospedá-lo aqui e traduzi-lo para o maior número possível de idiomas. Sinceramente, dicas desse cara." Rogzy
 
-Post original: https://armantheparman.com/electrum/
-
 ![Carteira de Desktop Electrum (Mac / Linux) - baixar, verificar, conectar ao seu nó.](https://youtu.be/wHmQNcRWdHM)
 
 ![Fazendo uma transação de Bitcoin com o Electrum](https://youtu.be/-d_Zd7VcAfQ)

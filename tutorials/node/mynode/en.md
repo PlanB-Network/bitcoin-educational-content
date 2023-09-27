@@ -11,8 +11,6 @@ https://mynodebtc.com/
 
 The easiest, most powerful way to run a Bitcoin and Lightning node! We combine the best open source software with our interface, management, and support so you can easily, privately, and securely use Bitcoin and Lightning.
 
-> The following guide was offerted by Parman (https://twitter.com/parman_the) you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
-
 ## Types of Node setups
 
 There are various Node setups. MyNode is excellent. There are many apps that come with it, and even more if you pay for the premium version. It is otherwise very tedious downloading all those apps yourself. The MyNode makes it quite easy as you’ll see.
@@ -196,6 +194,3 @@ Note that Electrum Server needs to sync as well, so as soon as Bitcoin Blockchai
 If you want to try another node as well, say a RaspiBlitz, you need an additional SSD external hard drive, and another micro SD card to flash. Otherwise, it’s the same equipment, you just can’t run MyNode and RaspiBlitz simultaneously, obviously. If you want to do that, time to shop for another Raspberry Pi.
 
 Now that you have a node running, use it, don’t just let it sit there doing nothing for you. Follow my article (and video) on how to connect your Electrum Desktop Wallet to Electrum Server and Bitcoin Core here.
-
-> The following guide was offerted by Parman (https://twitter.com/parman_the)
-> you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/

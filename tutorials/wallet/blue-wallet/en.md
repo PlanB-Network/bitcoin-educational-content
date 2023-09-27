@@ -19,8 +19,6 @@ Blue Wallet is an open-source bitcoin wallet that is extremely easy to use yet f
 
 ## BlueWallet: an introduction
 
-> Guide offered by Agora256, written by Hari Seldon - https://agora256.com/bluewallet-une-introduction/ - Feb 1, 2023
-
 ![image](assets/1.jpg)
 
 To be able to receive or send Bitcoin from your mobile phone (or tablet), download BlueWallet from the corresponding website for your type of mobile phone or tablet:

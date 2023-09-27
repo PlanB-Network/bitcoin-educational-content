@@ -16,8 +16,6 @@ RASPIBLITZ - Como Executar um Nó Lightning e Bitcoin Full Node por BTC session
 
 # Guia de Configuração do Raspiblitz do Parman
 
-> O seguinte guia foi oferecido por Parman (https://twitter.com/parman_the) você pode dar gorjeta a ele aqui; dandysack84@walletofsatoshi.com Fonte original; https://armantheparman.com/raspiblitz/
-
 O Raspiblitz é um excelente sistema para executar um Nó Bitcoin e aplicativos associados. Eu recomendo isso e o nó My Node para a maioria dos usuários (Tenha dois nós para redundância, idealmente). Uma grande vantagem é que o nó Raspiblitz é "Software Livre e de Código Aberto", ao contrário do MyNode ou Umbrel. Por que isso é importante? Vlad Costa explica. Você também pode executar o RaspbiBlitz com uma conexão WiFi em vez de Ethernet - aqui está um guia complementar para isso. (Eu não encontrei uma maneira de fazer isso com o MyNode).
 
 Você pode comprar um nó pronto com uma tela mini acoplada, ou pode construí-lo você mesmo (você não precisa de uma tela).
@@ -185,6 +183,7 @@ Em seguida, as opções do Lightning aparecem.
 Crie uma nova senha para proteger sua carteira Lightning, em seguida, uma nova carteira será criada e você receberá 24 palavras para anotar...
 
 ![image](assets/21.png)
+
 Certifique-se de anotá-lo e mantê-lo seguro. Ouvi falar de uma pessoa que não o fez porque não planejava usar o lightning, mas depois de um ano decidiu usá-lo e abriu canais. Em seguida, percebendo que suas palavras não estavam sendo copiadas, e lembro que não era possível extrair as palavras novamente do dispositivo, ele teve que fechar todos os seus canais e começar de novo. Ele se safou, mas outros podem não ter tanta sorte.
 Após isso, alguns minutos de texto rolam na janela do terminal. Em seguida...
 
@@ -203,8 +202,5 @@ Pressione CTRL+c para sair da tela azul. Você estará acessando o terminal Linu
 ![image](assets/24.png)
 
 FIM do guia
-
-> O seguinte guia foi oferecido por Parman (https://twitter.com/parman_the)
-> você pode dar gorjeta a ele aqui; dandysack84@walletofsatoshi.com Fonte original; https://armantheparman.com/raspiblitz/
 
 A partir de agora, seu nó está pronto para funcionar. Se você ainda precisar de ajuda para navegar em mais opções, consulte o GitHub para obter mais tutoriais e guias https://github.com/raspiblitz/raspiblitz#feature-documentation

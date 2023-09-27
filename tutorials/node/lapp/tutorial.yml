@@ -1,5 +1,11 @@
 builder: LND
 
+credits:
+  name: Francisco Calderón
+  link: https://grunch.dev/guides/lapp/
+  tips:
+    lightning_adress: grunch@getalby.com
+
 level: advanced
 
 category: lightning-network

@@ -5,11 +5,6 @@ description: Introduction et création d'actifs sur RGB
 
 # Une brève introduction aux protocoles RGB
 
-Francisco Calderón publié le
-08 novembre 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introduction
@@ -90,10 +85,6 @@ RGB a son propre terrier dans le terrier du lapin Bitcoin, pendant que je tombe 
 ## Introduction
 
 Dans ce tutoriel, nous expliquons comment utiliser RGB-node pour créer un jeton fongible et comment le transférer. Ce document est basé sur la démo RGB-node et diffère en ce sens que ce tutoriel utilise de vraies données de testnet et pour cela, nous devons construire notre propre transaction Bitcoin partiellement signée (PSBT), psbt à partir de maintenant.
-
-Francisco Calderón publié le
-1er mars 2022
-https://grunch.dev/blog/rgbnode-tutorial/
 
 ## Exigences
 
@@ -459,7 +450,3 @@ $ rgb0-cli fungible list -l
 Nous avons pu créer un actif fongible et le déplacer d'une transaction à une autre de manière privée. Si nous vérifions la transaction confirmée dans un explorateur de blocs, nous ne trouverions rien de différent d'une transaction normale, cela est dû au fait que RGB utilise des scellés à usage unique pour ajuster les transactions. Dans cet article, je présente une introduction à la façon dont RGB fonctionne.
 
 Cet article peut contenir des bugs, si vous en trouvez, veuillez me le faire savoir pour améliorer ce guide. Les suggestions et les critiques sont également les bienvenues, joyeux piratage ! 🖖
-
-> Guide proposé par Franscisco : grunch@getalby.com
-> https://twitter.com/negrunch
-> https://grunch.dev/blog/rgbnode-tutorial/'

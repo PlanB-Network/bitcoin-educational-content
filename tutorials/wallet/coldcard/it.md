@@ -12,8 +12,6 @@ Creazione, backup e uso di una chiave privata Bitcoin con un dispositivo Coldcar
 
 ## Guida completa alla generazione di una chiave privata con una Coldcard e al suo utilizzo attraverso l'interfaccia del vostro nodo Bitcoin Core!
 
-_**Guida creata da WINTER ☩ HODLER come parte di Agora256. Licenza libera. Grazie per la condivisione**_
-
 Alla base dell'utilizzo della rete Bitcoin c'è il concetto di crittografia asimmetrica: una coppia di chiavi - una privata e una pubblica - che cripta e decripta i dati, un concetto che garantisce la riservatezza della comunicazione.
 
 Nel caso di Bitcoin, generando tale coppia di chiavi private e pubbliche, siamo in grado di immagazzinare bitcoin (UTXO o Unspent Transaction Output) e firmare transazioni per spenderli.
@@ -134,5 +132,3 @@ Tornando su Bitcoin Core, vai nella scheda File > Carica TBSP da un file e inser
 La combinazione del dispositivo Coldcard con Bitcoin Core, su cui esegui il tuo proprio nodo, è potente. Aggiungi a ciò una chiave privata generata con 100 lanci di dado e una frase segreta, e la tua configurazione del portafoglio diventa una fortezza sofisticata e robusta.
 
 Non esitare a contattarci per condividere tutti i tuoi commenti e domande! Il nostro obiettivo è condividere le nostre conoscenze e aumentare la nostra saggezza giorno dopo giorno.
-
-Originale: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/

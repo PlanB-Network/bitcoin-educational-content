@@ -32,8 +32,6 @@ Laden Sie Datenblätter auf ihrer Website herunter https://bitbox.swiss/bitbox02
 
 ## Verwendung der BitBox02-Hardware-Geldbörse
 
-> Die folgende Anleitung wurde von Parman (https://twitter.com/parman_the) zur Verfügung gestellt. Sie können ihm hier ein Trinkgeld geben: dandysack84@walletofsatoshi.com - Originalquelle: https://armantheparman.com/bitbox02/
-
 ### Einrichten der BitBox02
 
 Die BitBox02 verfügt über einen USB-C-Anschluss, der mit der Hülle verbunden ist. Wenn Ihr Computer den regulären USB-Anschluss verwendet, müssen Sie den mit dem Gerät gelieferten Adapter verwenden.

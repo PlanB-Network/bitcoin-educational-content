@@ -12,8 +12,6 @@ Erstellung, Sicherung und Verwendung eines Bitcoin-Privatschlüssels mit einer C
 
 ## Vollständiger Leitfaden zur Generierung eines Privatschlüssels mit einer Coldcard und zur Verwendung über die Benutzeroberfläche Ihres Bitcoin Core-Knotens!
 
-_**Leitfaden erstellt von WINTER ☩ HODLER im Rahmen von Agora256. Freie Lizenz. Vielen Dank für das Teilen**_
-
 Der Grundgedanke hinter der Nutzung des Bitcoin-Netzwerks ist das Konzept der asymmetrischen Kryptographie: ein Schlüsselpaar - ein privater und ein öffentlicher Schlüssel - das zum Verschlüsseln und Entschlüsseln von Daten dient und die Vertraulichkeit einer Kommunikation gewährleistet.
 
 Im Falle von Bitcoin generieren wir durch die Erzeugung eines solchen privaten und öffentlichen Schlüsselpaars die Möglichkeit, Bitcoins (UTXO oder Unspent Transaction Output) zu speichern und Transaktionen zu signieren, um diese auszugeben.
@@ -133,5 +131,3 @@ Gehen Sie zurück zu Bitcoin Core, wählen Sie die Registerkarte "Datei" > "TBSP
 Die Kombination aus der Coldcard und Bitcoin Core, auf dem Sie Ihren eigenen Knoten betreiben, ist leistungsstark. Fügen Sie dazu einen privaten Schlüssel hinzu, der mit 100 Würfen generiert wurde, sowie einen geheimen Satz, und Ihre Geldbörsenkonfiguration wird zu einer anspruchsvollen und robusten Festung.
 
 Zögern Sie nicht, uns zu kontaktieren, um uns Ihre Kommentare und Fragen mitzuteilen! Unser Ziel ist es, unser Wissen zu teilen und jeden Tag dazuzulernen.
-
-Original: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/

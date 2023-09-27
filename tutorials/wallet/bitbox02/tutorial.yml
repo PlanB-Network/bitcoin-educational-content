@@ -7,3 +7,11 @@ category: hardware
 tags:
   - self-custodial
   - Open-source
+
+credits:
+  name: Arman the Parman
+  link: https://armantheparman.com/bitbox02/
+  tips:
+    lightning_adress: dandysack84@walletofsatoshi.com
+    paynym:
+    on-chain:

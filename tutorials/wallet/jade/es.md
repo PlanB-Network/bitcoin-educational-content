@@ -15,8 +15,6 @@ Blockstream Jade - Tutorial completo de la billetera de hardware de Bitcoin móv
 
 ## Guía de escritura completa
 
-> Algunos textos e imágenes originales provienen de Arman The Parman; https://armantheparman.com/jade/. Lo hemos revisado para hacerlo más detallado utilizando otras guías como https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
-
 ![image](assets/cover2.png)
 
 ### Pre-requisitos

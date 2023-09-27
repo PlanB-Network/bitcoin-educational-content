@@ -3,9 +3,6 @@ name: Neutrino
 description: Guide d'installation de LND Neutrino
 ---
 
-Guide d'installation de LND Neutrino [https://grunch.dev/guides/rpi-neutrino/](https://grunch.dev/guides/rpi-neutrino/)
-Publié par Francisco Calderón le 14 juin 2021
-
 # Configuration de Raspberry Pi avec LND
 
 1. Télécharger Raspberry Pi OS Lite
@@ -332,4 +329,4 @@ $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/
 $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localhost:8080/v1/getinfo |jq
 ```
 
-> FIN, https://grunch.dev/guides/rpi-neutrino/'
+> FIN

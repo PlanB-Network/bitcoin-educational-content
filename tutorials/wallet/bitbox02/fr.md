@@ -32,8 +32,6 @@ Téléchargez les fiches techniques sur leur site web https://bitbox.swiss/bitbo
 
 ## Comment utiliser le portefeuille matériel BitBox02
 
-> Le guide suivant a été offert par Parman (https://twitter.com/parman_the), vous pouvez lui donner des pourboires ici : dandysack84@walletofsatoshi.com - Source originale : https://armantheparman.com/bitbox02/
-
 ### Configuration du BitBox02
 
 Le BitBox02 dispose d'une connexion USB-C attachée à la coque. Si votre ordinateur utilise le port USB standard, vous devrez utiliser l'adaptateur fourni avec l'appareil.

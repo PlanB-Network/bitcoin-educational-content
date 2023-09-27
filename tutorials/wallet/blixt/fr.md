@@ -10,8 +10,6 @@ description: Portefeuille LN multi fonction
 
 ## Un puissant nœud BTC/Lightning dans votre poche, où que vous soyez
 
-** Texte de DarthCoin traduit par asi0 – 01/11/2022 **
-
 Je voudrais vous présenter un nouveau nœud et porte-monnaie mobile BTC / LN intéressant et également puissant – Blixt. Le nom vient du suédois et signifie « éclair ».
 
 ## Comment j’ai découvert ce petit bijou ?
@@ -233,6 +231,3 @@ N'oublions pas non plus qu'il s'agit d'un projet open source et que sa maintenan
 J'espère que vous apprécierez son utilisation. Personnellement, je l'adore et elle m'est très utile (voir ici un cas d'usage où ce portefeuille est un formidable outil).
 
 Que ₿ITCOIN SOIT AVEC TOI !
-
-> Si tu apprécies le travail de DarthCoin, tu peux envoyer quelques satoshis par LN : en utilisant la page Telegram @LNtxBot DarthCoin LNURL ou simplement en utilisant l’adresse Lightning à darthcoin@lntxbot.com
-> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF

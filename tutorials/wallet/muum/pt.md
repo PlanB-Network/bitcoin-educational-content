@@ -18,8 +18,6 @@ Muun (https://muun.com/) é uma carteira auto custodiante para bitcoin e lightni
 
 Guia completo de uso (com capturas de tela) do aplicativo Muun; uma carteira móvel amigável para Bitcoin que permite transações na Lightning Network.
 
-> WINTER ☩ HODLER 1 de fevereiro de 2023 • 18 min de leitura https://agora256.com/muun-wallet-guide-dutilisation-complet/ Muun Wallet - Guia completo de uso
-
 ![imagem](assets/0.5.png)
 
 ### Baixar o Muun e criar sua carteira
@@ -290,5 +288,3 @@ Os canais Turbo permitem começar a transacionar na rede Lightning antes mesmo q
 No final da página de configurações, há a opção "Sair". Você pode usar essa função se desejar que o aplicativo desconecte a carteira atualmente reconhecida por ele. Isso permitirá que você crie uma nova carteira ou importe/recupere uma existente.
 
 ![image](assets/53.png)
-
-https://agora256.com/muun-wallet-guide-dutilisation-complet/

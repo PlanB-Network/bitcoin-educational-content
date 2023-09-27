@@ -16,7 +16,11 @@ Cette formation vous dotera non seulement des connaissances pour comprendre la s
 
 +++
 
-# Introduction à la cryptographie
+# Introduction
+
+## Introduction à la cryptographie
+
+### Est-ce que cette formation est pour vous ? OUI !
 
 ![introduction par Rogzy](https://youtu.be/ul8zU5QWIXg)
 
@@ -25,6 +29,8 @@ C'est avec grand plaisir que nous vous accueillons à la nouvelle formation inti
 Dans notre vie quotidienne et particulièrement dans le domaine des Bitcoins, la cryptographie joue un rôle primordial. Les concepts liés à celle-ci tels que les clés privées, publiques, les adresses, les chemins de dérivation, la graine et l'entropie, sont au cœur de l'utilisation et de la création d'un portefeuille Bitcoin. À travers ce cours, Loïc vous expliquera en détail comment sont créées les clés privées et comment elles sont liées aux adresses. Loïc consacrera également une heure à vous expliquer les détails mathématiques de la courbe elliptique. De plus, vous comprendrez pourquoi l'utilisation de HMAC SHA512 est importante pour sécuriser votre portefeuille et quelle est la différence entre la graine et la phrase mnémonique.
 
 Le but ultime de cette formation est de vous permettre de comprendre techniquement les processus de création d'un portefeuille HD et les méthodes cryptographiques employées. Au fil des années, les portefeuilles Bitcoin ont évolué pour devenir plus faciles à utiliser, plus sécurisés et standardisés grâce à des BIP spécifiques. Loïc vous aidera à comprendre ces BIP pour saisir les choix des développeurs de Bitcoin et des cryptographes. Comme toutes les formations offertes par notre université, celle-ci est entièrement gratuite et open source. Cela signifie que vous pouvez librement la reprendre et l'utiliser à votre guise. Nous avons hâte de recevoir vos retours à la fin de ce cours passionnant.
+
+### La parole est au professeur !
 
 ![intro par loïc](https://youtu.be/mwuxXLk4Kws)
 
@@ -268,11 +274,8 @@ Le processus de HMAC-SHA-512 implique la concaténation du résultat de SHA-512 
 
 Le code de chaîne, en intégrant une source supplémentaire d'entropie, augmente la sécurité des clés dérivées. Sans lui, une attaque pourrait compromettre l'ensemble du portefeuille et voler tous les bitcoins.
 
-#### PBKDF2
+PBKDF2 est utilisé pour convertir une phrase mémonique en graine. Cet algorithme réalise 2048 tours en utilisant HMAC SHA512. Grâce à ces algorithmes de dérivation, deux entrées différentes peuvent donner une sortie unique et fixe, ce qui pallie le problème des attaques par extension de longueur possibles sur les fonctions de la famille SHA-2.
 
-PBKDF2 est utilisé pour convertir une phrase mémonique en graine. Dans ce cas de figure, en entrée 1, nous pouvons retrouver la phrase mémonique et en entrée 2, la passphrase.
-
-Cet algorithme réalise 2048 tours en utilisant HMAC SHA512. Grâce à ces algorithmes de dérivation, deux entrées différentes peuvent donner une sortie unique et fixe, ce qui pallie le problème des attaques par extension de longueur possibles sur les fonctions de la famille SHA-2.
 Une attaque par extension de longueur exploite une propriété spécifique de certaines fonctions de hachage cryptographiques. Dans une telle attaque, un attaquant qui possède déjà le hachage d'un message inconnu peut l'utiliser pour calculer le hachage d'un message plus long, qui est une extension du message original. Cela est souvent possible sans connaître le contenu du message original, ce qui peut mener à des failles de sécurité importantes si ce genre de fonction de hachage est utilisé pour des tâches comme la vérification d'intégrité.
 
 ![image](assets/image/section1/16.JPG)
@@ -560,16 +563,6 @@ Un exemple de fonction de transformation est le fonction PBKDF2.
 
 Dans le cas du Bitcoin, les clés privées sont générées à partir d'une seule information à la base du portefeuille. Cette information permet une dérivation déterministe et hiérarchique des paires de clés enfant. L'entropie est le socle de tout portefeuille HD, bien qu'il n'existe pas de standard pour la génération de ce nombre aléatoire. Par conséquent, la génération de nombres aléatoires est un enjeu majeur pour sécuriser les transactions Bitcoin.
 
-![image](assets/image/section3/4.JPG)
-
-La phase de vérification de la génération des clés est cruciale pour assurer la sécurité et l'authenticité de la génération de nombres aléatoires, une étape fondamentale pour prévenir toute vulnérabilité associée à la prédictibilité. Il est donc fortement recommandé d'utiliser des portefeuilles open source pour permettre cette vérification.
-
-Cependant, il est important de noter que certains portefeuilles matériels peuvent être "closed source", rendant impossible la vérification de la génération du nombre aléatoire. Un contournement possible serait de générer soi-même sa phrase mnémonique à l'aide de dés, bien que cette approche puisse présenter certains risques.
-
-L'utilisation d'une passphrase générée aléatoirement peut aider à atténuer ces risques.
-
-En définitive, l'aléatoire occupe une place centrale en cryptographie et en informatique, et la capacité à générer de l'aléatoire de manière sécurisée est cruciale pour garantir la sécurité des clés privées et des transactions Bitcoin. L'entropie, qui est au cœur du portefeuille HD de Bitcoin, est essentielle pour sa sécurité. Dans notre prochaine leçon, nous continuerons à explorer ce sujet, en abordant plus en détail la manière dont l'entropie contribue à la sécurité des portefeuilles HD.
-
 ## La phrase mnémonique
 
 ![La phrase mnémonique](https://youtu.be/uJERqH9Xp7I)
@@ -624,9 +617,11 @@ Une passphrase efficace devrait être longue (20 à 40 caractères) et diversifi
 
 Une passphrase est plus sécurisée qu'un simple mot de passe. La passphrase idéale est longue, variée et aléatoire. Elle peut renforcer la sécurité d'un portefeuille ou d'un logiciel chaud. Elle peut également être utilisée pour créer des sauvegardes redondantes et sécurisées.
 
-Il est crucial de prendre soin des sauvegardes de la passphrase pour éviter de perdre l'accès au portefeuille. Une passphrase est une option pour un portefeuille HD. Elle peut être générée aléatoirement avec des dés ou un autre générateur de nombres pseudo-aléatoires.
+Il est crucial de prendre soin des sauvegardes de la passphrase pour éviter de perdre l'accès au portefeuille. Une passphrase est une option pour un portefeuille HD. Elle peut être générée aléatoirement avec des dés ou un autre générateur de nombres pseudo-aléatoires. Il est déconseillé de mémoriser une passphrase ou une phrase mémonique.
 
-# Création d’un portefeuille Bitcoin
+Dans notre prochain cours, nous examinerons en détail le fonctionnement de la graine et la première paire de clés générée à partir de celle-ci. N'hésitez pas à suivre ce cours pour continuer votre apprentissage. Nous avons hâte de vous retrouver très bientôt.
+
+# Création des portefeuilles Bitcoin
 
 ## Création de la graine et de la clé maîtresse
 
@@ -722,6 +717,7 @@ Il existe deux types de paires de clés enfants : les paires renforcées et les 
 
 ![image](assets/image/section4/11.JPG)
 ![image](assets/image/section4/12.JPG)
+
 La dérivation renforcée utilise la clé privée parent, tandis que la dérivation normale utilise la clé publique parent. La fonction HMAC-SHA512 est utilisée pour la dérivation renforcée, tandis que la dérivation normale utilise un condensat de 512 bits. La clé publique enfant est obtenue en multipliant la clé privée enfant par le générateur de la courbe elliptique.
 
 ![image](assets/image/section4/13.JPG)
@@ -769,11 +765,11 @@ Dans le prochain chapitre, nous allons étudier les adresses de réception, leur
 
 ![Les adresses Bitcoin](https://youtu.be/nqGBMjPtFNI)
 
+Dans ce chapitre, nous allons explorer les adresses de réception, qui jouent un rôle crucial dans le système Bitcoin. Elles permettent de recevoir des fonds sur une pièce et sont générées à partir de paires de clés privées et publiques. Bien qu'il existe un type de script appelé Pay2PublicKey qui permet de bloquer des bitcoins sur une clé publique, les utilisateurs préfèrent généralement utiliser des adresses de réception plutôt que ce script.
+
 ![image](assets/image/section5/0.JPG)
 
-Dans ce chapitre, nous allons explorer les adresses de réception, qui jouent un rôle crucial dans le système Bitcoin. Elles permettent de recevoir des fonds et sont générées à partir de paires de clés privées et publiques. Bien qu'il existe un type de script appelé Pay2PublicKey qui permet de bloquer des bitcoins sur une clé publique, les utilisateurs préfèrent généralement utiliser des adresses de réception plutôt que ce script.
-
-Lorsqu'un destinataire souhaite recevoir des bitcoins, il fournit une adresse de réception à l'émetteur plutôt que sa clé publique. Une adresse est en réalité un hash d'une clé publique, avec un format spécifique. 
+Lorsqu'un destinataire souhaite recevoir des bitcoins, il fournit une adresse de réception à l'émetteur plutôt que sa clé publique. Une adresse est en réalité un hash d'une clé publique, avec un format spécifique. La clé publique est dérivée de la clé privée enfant en utilisant des opérations mathématiques telles que l'addition et le doublement de points sur les courbes elliptiques.
 
 ![image](assets/image/section5/1.JPG)
 
@@ -856,32 +852,56 @@ En bleu, la version.
 
 Le tout est converti en Bech32, puis est rajouté 'bc' pour bitcoin et '1' comme séparateur et voici l'adresse.
 
-Ainsi, nous avons parcouru les étapes de construction d'une adresse de réception, l'utilisation de la technologie de checksum BCH, ainsi que la construction d'une adresse commençant par bc1q ou bc1p en utilisant la variante BCH32 de la base 32 spécifique à Bitcoin.
+# Allez plus loins
 
-## Récapitulatif de la cryptographie pour les portefeuilles Bitcoin
+## Création d’une seed depuis 128 lancés de dés !
 
-![synthèse de la formation](https://youtu.be/NkAYoVUMvOs)
+![Création d’une seed depuis 128 lancés de dés !](https://youtu.be/lUw-1kk75Ok)
 
-Les fonctions de hachage utilisées au sein du protocole Bitcoin ont des caractéristiques nécessaires à la sécurité du protocole. Elles doit etre irréversible ( = résistance à la préimage), résistante à la falcification, résistante à la collision et à la seconde préimage.
+La création d'une phrase mnémonique est une étape cruciale pour la sécurisation de votre portefeuille de crypto-monnaie. Il existe plusieurs méthodes pour générer une phrase mnémonique, cependant, nous allons nous focaliser sur la méthode de génération manuelle utilisant des dés. Il est important de souligner que cette méthode n'est pas adaptée pour un portefeuille de grande valeur. Il est conseillé d'utiliser un logiciel open source ou un portefeuille matériel pour générer la phrase mnémonique. Pour créer une phrase mnémonique, nous allons utiliser des dés pour générer une information binaire. L'objectif est de comprendre le processus de création de la phrase mnémonique.
 
-![image](assets/image/section5/11.JPG)
+**Étape 1 - Préparation :**
+Assurez-vous d'avoir une distribution Linux amnésique, comme Tails OS, installée sur une clé USB pour plus de sécurité. Notez que ce tutoriel ne devrait pas être utilisé pour créer un portefeuille principal.
+
+**Étape 2 - Génération d'un nombre aléatoire binaire :**
+Nous allons utiliser des dés pour générer une information binaire. Lancez un dé 128 fois et notez chaque résultat (1 pour impair, 0 pour pair).
+
+**Étape 3 - Organisation des nombres binaires :**
+Organisez les nombres binaires obtenus en rangées de 11 chiffres pour faciliter les calculs ultérieurs. La douzième ligne ne devrait que 7 chiffres.
+
+**Étape 4 - Calcul de la checksum :**
+Les derniers 4 chiffres pour la douxième ligne correspondent à la checksum. Pour calculer cette checksum, il nous faut utiliser un terminal d'une distribution Linux. Il est conseillé d'utiliser [TailOs](https://tails.boum.org/index.fr.html) qui est une distribution sans mémoire bootable à partir d'une clé USB. Une fois sur votre terminal, entrez la commande `echo <binary number> | shasum -a 254 -0`. Remplacer `<binary number>` par votre liste de 128 zéro et un. La sortie est un hash en hexadécimal. Relevez le premier caractère de ce hash et convertissez le en binaire. Vous pouvez vous aider de cette [table](https://www.educative.io/answers/decimal-binary-and-hex-conversion-table). Ajoutez la checksum en binaire (4 chiffres) à la douxième ligne de votre feuille.
+
+**Étape 5 - Conversion en décimale :**
+Pour trouver les mots associés à chacune de vos lignes, il vous faut d'abord convertir en décimal chaque séries de 11 bits. Ici vous ne pouvez pas utiliser de convertisseur en ligne car ces bits représentent votre phrase mnémonique. Il va donc falloir convertir à l'aide d'une calculatrice et d'une astuce que voici : chaque bit est associé à une puissance de 2 ainsi de la gauche vers la droite nous avons 11 rangs qui correspondent à respectivement 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1. Pour convertir votre série de 11 bit en décimal il vous suffit d'additionner uniquement les rangs qui contiennent un 1. Par exemple pour la série 00110111011, cela correspond à l'addtion suivante : 256 + 128 + 32 + 16 + 8 + 2 + 1 = 443. Vous pouvez maintenant convertir chaque ligne en décimale. Et avant de passer à l'encodage en mots il faut ajouter +1 à toutes les lignes car l'index de la liste des mots BIP39 commence à partir de 1 et non 0.
+
+**Étape 8 - Génération de la phrase mnémonique :**
+Commencez par imprimer la [liste des 2048 mots](https://seedxor.com/files/wordlist.pdf) pour faire la conversion entre vos nombres décimales et les mots du BIP39. La particularité de cette liste est qu'aucun mot ne possède ces 4 premières lettres en commun avec tous les autres mots de ce dictionnaire. Puis chercher pour chacune de vos lignes le mots associés au nombre décimal.
+
+**Étape 9 - Test de la phrase mnémonique :**
+Testez immédiatement votre phrase mnémonique sur Sparrow Wallet en créant un portefeuille à partir de celle-ci. Si vous obtenez une erreur de checksum invalide, il est probable que vous ayez fait une erreur de calcul. Corrigez cette erreur en repartant à l'étape 4 et testez à nouveau sur Sparrow Wallet. Voilà ! Vous venez de créer un nouveau portefeuille Bitcoin à partir de 128 lancés de dés.
+
+Générer une phrase mnémonique est un processus important pour sécuriser votre portefeuille de crypto-monnaie. Il est recommandé d'utiliser des méthodes plus sécurisées, comme l'utilisation de logiciels open source ou de hardware wallet, pour générer la phrase mnémonique. Toutefois, réaliser cet atelier permet de mieux saisir comment à partir d'un nombre aléatoire nous pouvons créer un portefeuille Bitcoin.
+
+## BONUS: Interview avec Théo Pantamis
 
 Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin est la méthode des signatures numériques.
 
-![image](assets/image/section5/12.JPG)
+## Conclusion et fin
 
-Tout au long de cette formation, nous avons étudié en profondeur le portefeuille déterministe hiérarchique (HD) avec le BIP32. L'entropie joue un rôle central dans ce type de portefeuille, car elle est utilisée pour générer une phrase mnémonique à partir d'un nombre aléatoire. 
+### Remerciements et continuez à creuser le terrier du lapin
 
-Ce nombre aléatoire est ensuite formaté sous un format de 256 bits grâce à la fonction de hachage SHA256. La checksum correspond aux 8 premiers bits de ce résultat. 
-La phrase mnémonique correspond à la concaténation du nombre aléatoire avec la checksum. Grâce à la liste de 2048 mots fournie dans le BIP39, cette phrase mnémonique peut être encodée en une série de mots faciles à retenir. La phrase mnémonique, ainsi qu'une passphrase éventuelle, sont nécessaires pour générer la seed du portefeuille. La passphrase agit comme un sel cryptographique qui ajoute une couche de protection supplémentaire au portefeuille.
+Nous tenons à vous remercier sincèrement d'avoir suivi la formation Crypto 301. Nous espérons que cette expérience a été enrichissante et formatrice pour vous. Nous avons abordé de nombreux sujets passionnants, allant des mathématiques à la cryptographie en passant par le fonctionnement du protocole Bitcoin.
 
-La fonction pbkdf2 est utilisée pour générer la graine à partir de la phrase mnémonique et de la passphrase, en utilisant un HMAC-SHA512 et 2048 itérations. La clé maîtresse et le code de chaîne maître sont ensuite dérivés à partir de cette graine en utilisant à nouveau la fonction HMAC-SHA512 avec la phrase "bitcoin seed". La clé privée maîtresse et le code de chaîne maître sont les éléments les plus élevés dans la hiérarchie du portefeuille HD.
+Si vous souhaitez approfondir davantage le sujet, nous avons une ressource supplémentaire à vous offrir. Nous avons réalisé une interview exclusive avec Théo Pantamis et Loïc Morel, deux experts renommés dans le domaine de la cryptographie. Cette interview explore en profondeur divers aspects du sujet et offre des perspectives intéressantes.
 
-La dérivation d'une clé enfant dépend de plusieurs facteurs, notamment la clé parent et le code de chaîne correspondant. Une clé étendue est obtenue en concaténant une clé parent avec son code de chaîne, tandis qu'une clé maîtresse est une clé distincte. 
-Pour dériver une adresse, la clé publique compressée est d'abord hachée à l'aide de SHA256 et RIPMD160, puis une checksum est calculée. Le double hachage SHA256 est utilisé pour calculer la checksum dans le cas d'un standard legacy, tandis que le programme BCH (Bose-Chaudhuri-Hocquenghem) est utilisé pour calculer la checksum dans le cas d'un standard segwit. Ensuite, une représentation au format base 58 est utilisée pour un standard legacy, tandis que le format bech32 est utilisé pour un standard segwit, afin d'obtenir l'adresse du portefeuille HD.
+N'hésitez pas à regarder cette interview pour continuer à explorer le domaine fascinant de la cryptographie. Nous espérons que cela vous sera utile et inspirant dans votre parcours. Encore une fois, merci de votre participation et de votre engagement tout au long de cette formation.
 
-![image](assets/image/section5/13.JPG)
+### Soutiens-nous
 
-En résumé, nous avons exploré en détail les fonctions de hachage et leurs caractéristiques, ainsi que les signatures numériques et les courbes elliptiques. Nous avons ensuite plongé dans l'univers du portefeuille déterministe hiérarchique (HD) avec le BIP32, en utilisant l'entropie et la passphrase pour générer la seed du portefeuille. Nous avons également appris comment dériver les clés enfants et obtenir l'adresse du portefeuille HD. J'espère que ces informations vous ont été utiles, et je vous encourage maintenant à passer à l'évaluation pour tester vos connaissances acquises au cours de la formation Crypto 301. Merci de votre attention.
+Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
 
+### Note la formation
+
+Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 

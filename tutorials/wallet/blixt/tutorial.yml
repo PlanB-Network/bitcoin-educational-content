@@ -8,3 +8,11 @@ tags:
   - self-custodial
   - lightning
   - open-source
+
+credits:
+  name: DarthCoin
+  link: https://armantheparman.com/bitbox02/
+  tips:
+    lightning_adress: darthcoin@lntxbot.com
+    paynym:
+    on-chain:

@@ -16,8 +16,6 @@ RASPIBLITZ - How To Run A Lightning and Bitcoin Full Node by BTC session
 
 # Parman’s Raspiblitz Setup Guide
 
-> The following guide was offerted by Parman (https://twitter.com/parman_the) you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/raspiblitz/
-
 The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. Why is that important? Vlad Costa explains. You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a supplemental guide for that. (I haven’t found a way to do this with MyNode).
 
 You can buy a ready made node with an attached mini screen, or you can build it yourself (you don’t need a screen).
@@ -207,8 +205,5 @@ Hit CTRL+c to exit the blue screen. You’ll be accessing the Pi’s Linux termi
 ![image](assets/24.png)
 
 END of the guide
-
-> The following guide was offerted by Parman (https://twitter.com/parman_the)
-> you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/raspiblitz/
 
 So from now your node si ready to go. If you still help navigate more option, refer to the github for more tutoriel and guide https://github.com/raspiblitz/raspiblitz#feature-documentation

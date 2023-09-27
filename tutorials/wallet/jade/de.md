@@ -15,8 +15,6 @@ Blockstream Jade - Mobile Bitcoin Hardware Wallet VOLLSTÄNDIGE ANLEITUNG von BT
 
 ## Vollständige Schreibanleitung
 
-> Einige originale Texte und Bilder stammen von Arman The Parman; https://armantheparman.com/jade/. Wir haben es überarbeitet, um es mithilfe anderer Anleitungen wie der https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow- detaillierter zu gestalten.
-
 ![Bild](assets/cover2.png)
 
 ### Voraussetzungen

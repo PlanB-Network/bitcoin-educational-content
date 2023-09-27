@@ -8,8 +8,6 @@ description: Entdecke und beginne NOSTR zu verwenden
 
 Am Ende dieses Leitfadens wirst du verstehen, was Nostr ist, du wirst ein Konto erstellt haben und in der Lage sein, es zu verwenden.
 
-**Dieser Leitfaden wird dir von FranklynHart im Rahmen von Agora256 zur Verfügung gestellt. Vielen Dank an ihn**
-
 ![Ein neuer Herausforderer ist angekommen](assets/1.jpeg)
 
 ## Was ist Nostr?
@@ -115,5 +113,3 @@ Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un 
 ## Conclusion
 
 Ça y est, petite autruche, tu as fait tes premiers pas sur Nostr. Maintenant, il te faudra apprendre à courir à la vitesse de l'éclair. Nous publierons prochainement des guides qui te montreront à gérer tes clés et comment intégrer lightning à ton expérience Nostr à l'aide de getalby.
-
-**guide écrit par FranklynHart dans le cadre de Agora256**'

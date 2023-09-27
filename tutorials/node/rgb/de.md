@@ -5,10 +5,6 @@ description: Einführung und Vermögenserstellung auf RGB
 
 # Eine kurze Einführung in RGB-Protokolle
 
-Francisco Calderón veröffentlicht am 08. November 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Einführung
@@ -79,7 +75,6 @@ RGB hat seinen eigenen Kaninchenbau innerhalb des Bitcoin-Kaninchenbaus. Währen
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
 - 3 https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-June/012773.html
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
-
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 # RGB-Node-Tutorial
@@ -87,9 +82,6 @@ RGB hat seinen eigenen Kaninchenbau innerhalb des Bitcoin-Kaninchenbaus. Währen
 ## Einführung
 
 In diesem Tutorial erklären wir, wie man RGB-Node verwendet, um einen fungiblen Token zu erstellen und wie man ihn überträgt. Dieses Dokument basiert auf der RGB-Node-Demo und unterscheidet sich darin, dass dieses Tutorial echte Testnet-Daten verwendet und dafür müssen wir unsere eigene teilweise signierte Bitcoin-Transaktion, PSBT genannt, erstellen.
-
-Veröffentlicht von Francisco Calderón am 01. März 2022
-https://grunch.dev/blog/rgbnode-tutorial/
 
 ## Anforderungen
 
@@ -455,7 +447,3 @@ $ rgb0-cli fungible list -l
 Wir konnten eine fungible Vermögenswert erstellen und ihn von einer Transaktion in eine andere auf eine private Weise verschieben. Wenn wir die bestätigte Transaktion in einem Block Explorer überprüfen würden, würden wir nichts Unterschiedliches zu einer regulären Transaktion finden. Dies liegt daran, dass RGB Einwegverschlüsse verwendet, um die Transaktionen anzupassen. In diesem Beitrag gebe ich eine Einführung, wie RGB funktioniert.
 
 Dieser Beitrag kann Fehler enthalten. Wenn Sie etwas finden, lassen Sie es mich bitte wissen, um diesen Leitfaden zu verbessern. Vorschläge und Kritik sind ebenfalls willkommen. Viel Spaß beim Hacken! 🖖
-
-> Angebotener Leitfaden von Franscisco: grunch@getalby.com
-> https://twitter.com/negrunch
-> https://grunch.dev/blog/rgbnode-tutorial/'

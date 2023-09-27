@@ -9,8 +9,6 @@ description: Eseguire il proprio nodo con Bitcoin Core
 
 Introduzione a Bitcoin e al concetto di nodo, completata da una guida completa all'installazione su Linux.
 
-Questo tutorial è offerto da WINTER ☩ HODLER attraverso l'iniziativa Agora256. Li ringraziamo per il loro sostegno e ci congratuliamo per il loro lavoro\*\*\_.
-
 Una delle proposte più interessanti di Bitcoin è la possibilità di eseguire il programma da soli, partecipando così a livello granulare alla rete e alla verifica del libro mastro delle transazioni pubbliche.
 
 Bitcoin, un progetto open-source, è stato distribuito pubblicamente e disponibile gratuitamente dal 2009. A quasi 15 anni dalla sua nascita, Bitcoin è oggi una rete monetaria digitale robusta e inarrestabile, che beneficia di un potente effetto rete organico. Per i suoi sforzi e la sua visione, Satoshi Nakamoto merita la nostra gratitudine. A proposito, ospitiamo il whitepaper su Bitcoin qui su Agora 256 (nota: anche sull'università).
@@ -74,7 +72,6 @@ Una volta che Bitcoin Core è installato, è consigliabile mantenerlo in esecuzi
 Tuttavia, eseguire e sincronizzare il proprio nodo in modo intermittente, anche solo per convalidare le transazioni ricevute e inviate, rimane una buona pratica.
 
 ![Creation wallet](assets/2.jpeg)
-**Fine dell'articolo 1 offerto da Agora256; link originale: https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/ , continuiamo subito con la sezione 2**
 
 # Configurazione di Tor per un nodo Bitcoin Core
 
@@ -133,5 +130,3 @@ Per consultare i log del tuo nodo Bitcoin relativi alla sua interazione con Tor,
 > - Guida alla configurazione di Tor di Jon Atack
 
 Come sempre, se hai domande, non esitare a condividerle con la comunità di Agora256, impariamo insieme per essere migliori domani di quanto non siamo oggi!
-
-**FINE del tutorial di Agora256; link originale: https://agora256.com/configuration-tor-bitcoin-core/. Grazie a loro per averci fornito questo.**

@@ -15,8 +15,6 @@ Blockstream Jade - Mobile Bitcoin Hardware Wallet TUTORIAL COMPLETO por BTCsessi
 
 ## Guia completo de escrita
 
-> Algum texto e imagem original são de Arman The Parman; https://armantheparman.com/jade/ . Nós revisamos para torná-lo mais aprofundado usando outros guias, como o https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
-
 ![image](assets/cover2.png)
 
 ### Pré-requisitos

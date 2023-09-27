@@ -19,8 +19,6 @@ A Blue Wallet é uma carteira de código aberto para Bitcoin que é extremamente
 
 ## BlueWallet: uma introdução
 
-> Guia oferecido pela Agora256, escrito por Hari Seldon - https://agora256.com/bluewallet-uma-introducao/ - 1 de fevereiro de 2023
-
 ![imagem](assets/1.jpg)
 
 Para poder receber ou enviar Bitcoin do seu celular (ou tablet), baixe a BlueWallet do site correspondente ao seu tipo de celular ou tablet:

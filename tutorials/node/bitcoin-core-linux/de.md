@@ -9,8 +9,6 @@ description: Führen Sie Ihren eigenen Knotenpunkt mit Bitcoin Core aus
 
 Einführung in Bitcoin und das Konzept des Knotenpunkts, ergänzt durch eine umfassende Installationsanleitung für Linux.
 
-_**Dieses Tutorial wird Ihnen von WINTER ☩ HODLER im Rahmen der Agora256-Initiative zur Verfügung gestellt. Vielen Dank für Ihre Unterstützung und Glückwunsch zu Ihrer Arbeit**_
-
 Einer der faszinierendsten Vorschläge von Bitcoin ist die Möglichkeit, das Programm selbst auszuführen und somit auf granularer Ebene am Netzwerk und an der Überprüfung des öffentlichen Transaktionsregisters teilzunehmen.
 
 Bitcoin, ein Open-Source-Projekt, wird seit 2009 öffentlich verteilt und ist kostenlos verfügbar. Fast 15 Jahre nach seiner Einführung ist Bitcoin heute ein umfangreiches und unaufhaltsames digitales Währungsnetzwerk mit einer starken organischen Netzwerkwirkung. Für seine Bemühungen und Vision verdient Satoshi Nakamoto unseren Dank. Übrigens, wir hosten das Bitcoin-Whitepaper hier auf Agora 256 (Hinweis: auch an der Universität).
@@ -75,8 +73,6 @@ Es ist jedoch eine gute Praxis, den Knotenpunkt gelegentlich laufen und synchron
 
 ![Creation wallet](assets/2.jpeg)'
 
-**Ende von Artikel 1, angeboten von Agora256; Original-Link: https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/, wir machen weiter mit Abschnitt 2**
-
 # Konfiguration von Tor für einen Bitcoin Core Knoten
 
 > 💡 Diese Anleitung ist für Bitcoin Core 24.0.1 auf Ubuntu/Debian kompatiblen Linux-Distributionen gedacht.
@@ -134,5 +130,3 @@ Um die Protokolle Ihres Bitcoin-Knotens in Bezug auf die Interaktion mit Tor gen
 > - Tor-Konfigurationsanleitung von Jon Atack
 
 Wie immer, wenn Sie Fragen haben, zögern Sie nicht, sie mit der Agora256-Community zu teilen. Gemeinsam lernen wir, um morgen besser zu sein als heute!
-
-**ENDE des Agora256-Tutorials; Original-Link: https://agora256.com/configuration-tor-bitcoin-core/. Vielen Dank an sie für diese Bereitstellung.**

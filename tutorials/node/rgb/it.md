@@ -5,11 +5,6 @@ description: Introduzione e creazione di asset su RGB
 
 # Una breve introduzione ai protocolli RGB
 
-Francisco Calderón pubblicato il
-8 novembre 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introduzione
@@ -82,7 +77,6 @@ RGB ha la sua tana del coniglio all'interno della tana del coniglio di Bitcoin, 
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
 - 3 https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-June/012773.html
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
-
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 # Tutorial di RGB-node
@@ -90,10 +84,6 @@ RGB ha la sua tana del coniglio all'interno della tana del coniglio di Bitcoin, 
 ## Introduzione
 
 In questo tutorial spieghiamo come utilizzare RGB-node per creare un token fungibile e come trasferirlo, questo documento si basa sulla demo di RGB-node e si differenzia perché questo tutorial utilizza dati reali di testnet e per questo motivo dobbiamo costruire la nostra transazione Bitcoin parzialmente firmata, psbt da ora in poi.
-
-Francisco Calderón pubblicato il
-01 marzo 2022
-https://grunch.dev/blog/rgbnode-tutorial/
 
 ## Requisiti
 
@@ -461,7 +451,3 @@ descrizione: ~  knownCirculating: 1000
 Siamo stati in grado di creare un asset fungibile e spostarlo da una transazione all'altra in modo privato, se controlliamo la transazione confermata in un esploratore di blocchi non troveremmo nulla di diverso da una transazione normale, questo grazie al fatto che RGB utilizza sigilli monouso per modificare le transazioni. In questo post, faccio un'introduzione su come funziona RGB.
 
 Questo post potrebbe contenere errori, se ne trovi qualcosa per favore fammelo sapere per migliorare questa guida, suggerimenti e critiche sono anche benvenuti, buon hacking! 🖖
-
-> Guida offerta da Franscisco: grunch@getalby.com
-> https://twitter.com/negrunch
-> https://grunch.dev/blog/rgbnode-tutorial/

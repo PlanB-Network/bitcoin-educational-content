@@ -7,8 +7,6 @@ description: Compreender e usar o JoinBot
 
 # Se você não tem amigos, use o JoinBot!
 
-_**Um artigo de Loïc Morel - 06/11/2022**_
-
 O JoinBot é uma nova ferramenta que foi adicionada à suíte Samourai Wallet com a última atualização 0.99.98f do famoso software de carteira Bitcoin. Ele permite que você faça facilmente uma transação colaborativa para otimizar sua privacidade, sem precisar encontrar um parceiro.
 
 **Agradecimentos ao excelente Fanis Michalakis pela ideia de usar o DALL-E para a miniatura!**
@@ -133,11 +131,3 @@ Se você puder realizar um StonewallX2 clássico com um amigo, eu ainda recomend
 > - https://youtu.be/vhUREWiY570
 > - https://docs.samourai.io/wallet/privacy-enhanced-transactions
 > - https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
-
-**Tutoriel et explication offerte par Loïc Morel**
-
-> Loïc Morel
-> Fondateur de Pandul
-> Je suis un jeune autodidacte, passionné de Bitcoin et de cryptographie. J’essaie, à mon humble échelle, de transmettre mon savoir et mon savoir-faire sur Bitcoin et son environnement, en me focalisant sur la confidentialité, la souveraineté de l’utilisateur et les stratégies de sécurisation.
-> Retrouvez tous ses travaux : pandul.fr/ressources
-> Le suivre sur Twitter : @Loic_Pandul

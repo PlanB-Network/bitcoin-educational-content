@@ -19,8 +19,6 @@ Blue Wallet es una billetera de código abierto de Bitcoin que es extremadamente
 
 ## BlueWallet: una introducción
 
-> Guía ofrecida por Agora256, escrita por Hari Seldon - https://agora256.com/bluewallet-une-introduction/ - 1 de febrero de 2023
-
 ![image](assets/1.jpg)
 
 Para poder recibir o enviar Bitcoin desde su teléfono celular (o tableta), descargue BlueWallet desde el sitio correspondiente a su tipo de teléfono celular o tableta:

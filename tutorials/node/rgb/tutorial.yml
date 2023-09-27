@@ -1,5 +1,11 @@
 builder: RGB
 
+credits:
+  name: Francisco Calderón
+  link: https://grunch.dev/blog/rgbnode-tutorial/
+  tips:
+    lightning_adress: grunch@getalby.com
+
 tags:
   - node
   - privacy

@@ -1,5 +1,12 @@
 builder: Bitcoin core
 
+credits:
+  name: WINTER ☩ HODLER - Agora256
+  link: https://agora256.com/configuration-tor-bitcoin-core/
+  tips:
+    lightning_adress: agora256@getalby.com
+    on-chain: bc1qslruncpyatclwjz6dw73wtazvrtn90kzsdve8sayh8hfdaz2w5cq2uuxqn
+
 tags:
   - node
   - privacy

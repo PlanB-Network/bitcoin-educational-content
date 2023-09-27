@@ -5,8 +5,6 @@ description: Install Bitcoin Core on Mac or Windows
 
 # Install Bitcoin Core on Mac or Windows
 
-> The following guide was offerted by Parman (https://twitter.com/parman_the) you can tips him here; dandysack84@walletofsatoshi.com Original source; https://armantheparman.com/bitcoincore/
-
 Installing Bitcoin Core on your regular computer can be done, but it’s not ideal. If you don’t mind leaving your computer on 24/7, then this will work fine. If you need to turn off the computer, it gets annoying waiting for the software to sync up each time you turn it back on.
 
 These instructions are for Mac or Windows Users. Linux users won’t need my help most likely, but the instructions for Linux are very similar to Mac.
@@ -152,7 +150,3 @@ Once you confirm, the blockchain will begin downloading. It will take many days.
 ![image](assets/15.png)
 
 You can shut down the computer and come back to download if you want, it won’t do any damage.
-
-> The following guide was offerted by Parman (https://twitter.com/parman_the)
-> you can tips him here; dandysack84@walletofsatoshi.com
-> Original source; https://armantheparman.com/bitcoincore/

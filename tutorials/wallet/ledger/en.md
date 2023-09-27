@@ -18,8 +18,6 @@ https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Connect Ledger to Sparrow Bitcoin Wallet (writing guide)
 
-> https://armantheparman.com/ledgersparrow/
-
 Make sure you go through the other piece “Using Bitcoin Hardware Wallets” first. I will skim through some steps and focus mostly on what is specific to Ledger here.
 
 ## Setting up the device

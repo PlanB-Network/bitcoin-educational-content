@@ -10,8 +10,6 @@ description: Cartera multifunción LN
 
 ## Un potente nodo BTC/Lightning en tu bolsillo, estés donde estés
 
-**Texto traducido por asi0 - 01/11/2022**
-
 Me gustaría presentarles un nuevo e interesante nodo y monedero móvil de BTC/LN - Blixt. El nombre viene del sueco y significa "relámpago".
 
 ## ¿Cómo descubrí esta joya?
@@ -231,8 +229,3 @@ Tampoco olvidemos que este es un proyecto de código abierto y que su mantenimie
 Espero que disfrutes usándola. Personalmente, me encanta y me resulta muy útil (ver aquí un caso de uso donde esta billetera es una herramienta fantástica).
 
 ¡Que ₿ITCOIN esté contigo!
-
-> Si aprecias el trabajo de DarthCoin, puedes enviar algunos satoshis a través de LN: utilizando la página de Telegram @LNtxBot DarthCoin LNURL o simplemente utilizando la dirección Lightning darthcoin@lntxbot.com
-> '> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF'
-
-> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF

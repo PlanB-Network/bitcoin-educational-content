@@ -58,7 +58,7 @@ Software Installation
    SeedSigner GPG Public Key
    seedsigner_pubkey.gpg
 
-## tutoriel video
+## Tutoriel video
 
 _guide taken from Southerbitcoiner, created by Cole_
 

@@ -220,6 +220,3 @@ Let's not forget that this is an open-source project and its maintenance is done
 I hope you enjoy using it. Personally, I love it and it's very useful to me (see here a use case where this wallet is a great tool).
 
 May ₿ITCOIN be with you!
-
-> If you appreciate DarthCoin's work, you can send a few satoshis via LN: by using the Telegram page @LNtxBot DarthCoin LNURL or simply by using the Lightning address darthcoin@lntxbot.com'
-> '> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF'

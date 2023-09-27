@@ -32,8 +32,6 @@ Scarica i datasheet sul loro sito web https://bitbox.swiss/bitbox02/
 
 ## Come utilizzare il portafoglio hardware BitBox02
 
-> La seguente guida è stata offerta da Parman (https://twitter.com/parman_the), puoi dargli una mancia qui; dandysack84@walletofsatoshi.com - Fonte originale; https://armantheparman.com/bitbox02/
-
 ### Configurazione del BitBox02
 
 Il BitBox02 ha una connessione USB-C collegata al guscio. Se il tuo computer utilizza la porta USB normale, dovrai utilizzare l'adattatore fornito con il dispositivo.

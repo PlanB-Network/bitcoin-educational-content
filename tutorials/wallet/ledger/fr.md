@@ -18,8 +18,6 @@ https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Connecter Ledger à Sparrow Bitcoin Wallet (guide d'écriture)
 
-> https://armantheparman.com/ledgersparrow/
-
 Assurez-vous de consulter d'abord l'autre partie "Utilisation des portefeuilles matériels Bitcoin". Je survolerai certaines étapes et me concentrerai principalement sur ce qui est spécifique à Ledger ici.
 
 ## Configuration de l'appareil

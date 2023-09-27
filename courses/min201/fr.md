@@ -8,6 +8,18 @@ Objectif:
   - Miner son premier satoshi
 ---
 
+# Vos premiers pas dans le minage !
+
+Dans cette formation, nous allons approfondir l’industrie du minage afin de démystifier ce sujet si complexe ! La formation est accessible pour tous et ne demande pas d’investissement initial.
+
+La 1ère section sera théorique où avec Ajelex, nous aurons une discussion approfondie sur de nombreux thèmes autour du minage, ceci nous permettra de mieux comprendre cette industrie et les enjeux économiques et géopolitiques qui y sont liés.
+Dans une deuxième section, nous attaquerons avec un cas pratique. En effet, nous allons apprendre à transformer un mineur S9 d'occasion en chauffage d'appoint maison ! À travers des guides écrits et vidéos, nous vous montrerons et expliquerons toutes les étapes pour y arriver chez vous :)
+
+Nous espérons à travers cette vidéo vous montrer que l'industrie du minage est plus complexe qu'il y paraît et l’étudier permet de nuancer le débat écologique qui est lui lié !
+Si vous avez besoin d’aide pour votre attaque, un Telegram a été créé pour les étudiants et toutes les pièces nécessaires pour y parvenir peuvent être trouvées sur notre e-commerce !
+
++++
+
 # Introduction
 
 ## Explication du minage

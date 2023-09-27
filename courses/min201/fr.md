@@ -732,4 +732,13 @@ Le résultat final est un taux de hachage plus élevé par watt d’électricit�
 
 # Conclusion
 
+## Bonus sur le NerdMiner! 
+
+A faire 
+
+## Interveiw sur le sujet 
+
+A faire 
+
+## Allez plus loin
 

@@ -220,7 +220,7 @@ En conclusion, malgré le risque réglementaire et la possibilité d'une interdi
 
 # Attakai - le home-mining rendu possible et accessible !
 
-## Introduction à Attakaï
+## EP - 0 Introduction à Attakaï
 
 ![Introduction à Attakaï: se chauffer avec Bitcoin](https://youtu.be/U_PLo59lp-g?si=NkoEcF7ejUPGboQf)
 
@@ -270,7 +270,7 @@ Ce sujet pourrait devenir problématique et apporte un risque important pour la 
 
 C’est une excellente opportunité pour apprendre en pratiquant. En plus de réduire votre facture d’électricité, vous êtes récompensé pour votre participation par des sats KYC free.
 
-## Guide d’achat pour un ASIC d’occasion
+## EP 1 - Guide d’achat pour un ASIC d’occasion
 
 ### Achat d'un S9 d'occasion
 
@@ -329,11 +329,9 @@ Pour synthétiser ce guide en une phrase : **« Ne faites pas confiance, vérifi
 
 ![image](assets/piece/1.jpeg)
 
-### Comment transformer votre Antminer S9 en un chauffage silencieux et connecté ?
-
 Si vous êtes propriétaire d’un Antminer S9, vous savez probablement à quel point cet équipement peut être bruyant et encombrant. Cependant, il est possible de le transformer en un chauffage silencieux et connecté en suivant quelques étapes simples. Dans cet article nous allons vous présenter les équipements nécessaires pour effectuer les modifications, tandis qu’un article ultérieur expliquera en détail les étapes à suivre pour réaliser ces changements.
 
-### 1. Remplacer les ventilateurs
+1. Remplacer les ventilateurs
 
 Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser votre Antminer en chauffage. La solution est de les remplacer par des ventilateurs plus silencieux. Notre équipe a testé plusieurs modèles de la marque Noctua et à sélectionné le Noctua NF-A14 iPPC-2000 PWM comme le meilleur compromis, attention à bien choisir la version 12V des ventilateurs. Ce ventilateur de 140mm peut permettre de produire jusqu’à 1300W de chauffage tout en maintenant un niveau de bruit théorique de 31 dB. Pour pouvoir monter ces ventilateurs de 140mm, il faudra utiliser un adaptateur 140mm vers 120mm que vous pourrez retrouver sur la boutique de DécouvreBitcoin. Et nous ajouterons également des grilles de protection 140mm.
 
@@ -346,14 +344,14 @@ Le ventilateur de l’alimentation est également assez bruyant et doit être re
 ![image](assets/piece/4.jpeg)
 ![image](assets/piece/5.jpeg)
 
-### 2. Ajouter un bridge WIFI/Ethernet
+2. Ajouter un bridge WIFI/Ethernet
 
 Au lieu d’utiliser un câble Ethernet, vous pouvez connecter votre Antminer en WIFI en ajoutant un bridge WIFI/Ethernet. Nous avons sélectionné le vonets vap11g-300 car il permet facilement de récupérer le signal WIFI de votre box Internet et de le transmettre à votre Antminer en Ethernet sans créer de sous réseau. Si vous avez des compétences en électricité pouvez l’alimenter directement avec l’alimentation du Antminer sans avoir besoin de rajouter un chargeur USB, pour cela vous aurez besoin d’un jack 5,5mmx2,1mm femelle.
 
 ![image](assets/piece/6.jpeg)
 ![image](assets/piece/7.jpeg)
 
-### 3. Optionnel : ajouter une prise connectée
+3. Optionnel : ajouter une prise connectée
 
 Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et monitorer sa consommation d’énergie, vous pouvez ajouter une prise connectée. Nous avons testé la prise ANTELA en version 16A compatible avec l’application smartlife. Cette prise connectée permet de consulter la consommation jour par jour et mois par mois et se connecte directement en WIFI à votre box Internet.
 
@@ -375,14 +373,184 @@ Si vous souhaitez allumer/éteindre votre Antminer depuis votre smartphone et mo
 
         -	Optionnel prise connectée ANTELA https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1
 
-# TUTORIEL : Comment transformer un mineur en chauffage ?
 
-![image](assets/hardware/cover.jpeg)
+
+
+
+## EP 1 - Modification du software - Réinitialiser un Antminer S9
+
+![Connecter un Antminer S9 à son réseau Wifi](https://youtu.be/y4oYURBaPqg?si=4HYDqqo9YfavJ9t6)
+
+### Réinitialiser via le bouton « Reset »
+
+Cette méthode peut être appliquée dans les 10 minutes après le démarrage du mineur.
+
+Après avoir allumé le mineur pendant 2 minutes, veuillez appuyer sur le bouton « Reset » pendant 5 secondes, puis relâchez-le. Le mineur sera restauré aux paramètres d’usine dans les 4 minutes et redémarrera automatiquement (il n’est pas nécessaire de l’éteindre).
+
+![image](assets/software/1.jpeg)
+
+Restore via web side
+
+Connectez-vous à l’interface utilisateur de votre mineur, cliquez sur « Upgrade » >> « Effectuer une réinitialisation », puis cliquez sur « OK » dans la fenêtre pop-up.
+
+### Système d’exploitation d’origine
+
+Pour cette partie, nous supposerons que la machine fonctionne, est en marche et que son système d’exploitation d’origine est installé. Nous allons voir brièvement l’interface du système d’exploitation d’origine proposée par Bitmain.
+
+Tout d’abord, connectez vous à votre machine à travers votre réseau local :
+
+![image](assets/software/2.gif)
+
+Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en utilisant les identifiants par défaut :
+
+– username: root
+– password: root
+
+(Comment reset si mot de passe par défaut ne fonctionne pas ?)
+
+Le système d’exploitation principal est relativement basique. Avec les 4 onglets : System, Miner Configuration, Miner Status, Network. Dans l’onglet Miner Configuration vous pouvez configurer jusqu’à 3 pools de minage.
+
+![image](assets/software/3.jpeg)
+
+Dans l’onglet Miner Status vous pourrez observer différentes informations sur le fonctionnement de l’ASIC en direct. Le hashrate exprimé en GH/s, des informations plus précises sur la pool ainsi qu’un détail sur le statut de chaque hashboard et la vitesse des ventilateurs en rotations/minute.
+
+![image](assets/software/4.jpeg)
+
+
+## EP3 - Installer Braiins OS+ sur son Antminer S9
+
+![Installer Braiins OS+ sur son Antminer S9](https://youtu.be/luqwlvzGsO4?si=ua2tcCwfl2CTeaJw)
+
+Maintenant, nous allons étudier le logiciel pour ASICs Braiins OS+(https://braiins.com/os/plus). Le logiciel est développé par la société Braiins(https://braiins.com/) qui est l’entreprise mère de la pool de minage Braiins Pool'https://braiins.com/pool). Cette pool de minage possède au moment de l’écriture de ces lignes 4.39% du hashrate global( https://mempool.space/fr/mining/pool/slushpool). La société basée à Prague était anciennement nommée Slushpool et est la première pool de minage ayant débutée en novembre 2010. Aujourd’hui la société aux activités variées propose des outils d’étude de profitabilité pour le minage ( https://insights.braiins.com/en), des solutions de gestion de fermes de minage en parallèle de se son activité de pool et son logiciel d’optimisation pour ASICs. Elle propose aussi de miner à en utilisant le nouveau protocole Stratum V2(https://braiins.com/bitcoin-mining-stack-upgrade).
+
+Nous allons donc étudier plus en détail le fonctionnement des appareils de la marque Bitmain qui sont pour l’instant les seuls modèles compatibles :
+
+- S19, S19 Pro, S19j, S19j Pro, T19,
+
+- 17, S17 Pro, S17+, S17e, T17, T17+, T17e & S9 [i, j]
+
+Le logiciel Braiins OS peut être installé assez simplement sur toutes les machines citées ci-dessus. Il permettra un contrôle plus précis d’une machine en permettant de l’overclocker sur-cadençage ou de l’underclocker sous-cadençage. Il permet également un réglage fin de la fréquence de chaque puce grâce à une fonctionnalité d’optimisation automatique appelée l’autotuning. Comme chaque puce de hachage est légèrement différente du fait de son procédé de fabrication, le logiciel teste la fréquence optimale pour chacune d’entre elles afin d’obtenir une efficience (W/THs) maximum. Le logiciel annonce des performances pouvant être supérieures de 25% à celles d’origine. Selon nos mesures il est possible d’atteindre ces figures.
+
+### Installation de Braiins OS+
+
+Il existe plusieurs façons d’installer Braiins OS+ sur un ASIC. Vous pouvez vous référer à ce guide mais aussi à la documentation officielle de Braiins et aux tutoriels vidéo.
+Installation de Braiins OS+ directement sur la mémoire du Antminer
+
+Découvrez comment installer facilement Braiins OS+ directement sur la mémoire de votre Antminer avec BOS toolbox, en remplaçant ainsi le système d’exploitation d’origine, à travers les étapes détaillées ci-dessous. Si vous souhaitez conserver l’OS d’origine en parallèle vous pouvez installer Braiins OS+ sur un carte SD.
+
+1. Alimentez votre Antimner et branchez le à votre Box internet
+2. Télécharger BOS toolbox Windows / Linux
+3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
+
+![image](assets/software/5.jpeg)
+
+4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
+
+![image](assets/software/6.jpeg)
+
+5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
+
+6. Attention, si le Antminer possède un mot de passe alors la détection ne fonctionnera pas. Si c’est le cas le plus simple est d’effectuer un Reset factory
+
+7. Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
+
+![image](assets/software/7.jpeg)
+
+8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
+   Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
+
+![image](assets/software/8.jpeg)
+
+9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
+   Installation de Braiins OS+ sur une carte SD
+
+![image](assets/software/9.jpeg)
+
+![image](assets/software/10.jpeg)
+
+La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette méthode fonctionne pour les machines avec un système d’exploitation datant d’avant 2019.
+
+### Interface Antminer
+
+1. Télécharger le nouveau système d’exploitation à installer ici.
+2. Comme dans la section précédente, connectez vous à votre machine à travers votre réseau local.
+3. Allez dans l’onglet System puis Upgrade
+4. Chargez le fichier que vous avez téléchargé et flashez l’image.
+
+![image](assets/software/11.jpeg)
+
+### Carte micro SD
+
+Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode fonctionne uniquement avec les machines avec un système d’exploitation datant d’après 2019.
+
+1. Téléchargez le nouveau système d’exploitation à installer ici.
+
+2. Flashez l’image téléchargée sur une carte Micro SD. pour cela, vous pouvez utiliser Etcher. Simplement copier le fichier dans la carte micro SD ne fonctionnera pas.
+
+3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
+
+![image](assets/software/12.jpeg)
+
+![image](assets/software/13.jpeg)
+
+4. Insérez la carte micro SD dans l’ASIC.
+5. Démarrez l’ASIC. Si la version d’installation automatique a été utilisée, le nouveau système d’exploitation sera automatiquement installé. L’installation est terminée lorsque les deux LEDs s’allument au même moment. Vous pouvez redémarrer l’ASIC et retirer la carte micro SD. Si l’autre version a été téléchargée, vous devrez laisser la carte Micro SD à l’intérieur de l’ASIC.
+
+Pour plus d’informations sur l’installation, vous pouvez visiter cette section du site de Braiins.
+
+## EP4 - Configurer son Antminer S9 avec Braiins OS+
+
+![Configurer son Antminer S9 avec Braiins OS+](https://youtu.be/dK0t8M8kLYg?si=gX3660NtZsV3QL45)
+
+Vous devrez vous connecter à votre ASIC de façon similaire. En utilisant l’adresse IP locale de votre appareil sur votre réseau à travers un navigateur.
+
+Les identifiants par défaut sont les mêmes que le système d’exploitation d’origine.
+
+- username: root
+- password: root
+
+Vous serez alors accueilli par le Dashboard de Brains OS+
+
+### Dashboard
+
+![image](assets/software/14.jpeg)
+
+Sur cette première pages vous pourrez observer les performances de votre machine en direct.
+
+- Trois graphiques en temps réel qui vous présente la température, le hashrate ainsi que le statut global de votre machine.
+- Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
+- Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
+
+![image](assets/software/15.jpeg)
+
+- Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
+- Un détail sur les pools de minage active dans Pools.
+- Le statut de l’autotuning dans Tuner Status.
+- Sur la droite des détails sur les parts transmises à la pool.
+
+### Configuration
+
+![image](assets/software/16.jpeg)
+
+### System
+
+![image](assets/software/17.jpeg)
+
+### Quick actions
+
+![image](assets/software/18.jpeg)
+
+## 5. Remplacer les ventilateurs pour réduire les nuisances sonores
+
+![Remplacer les ventilateurs pour réduire les nuisances sonores](https://youtu.be/2CNGKZiveuc?si=CSXNEK8okFTjg7sT)
 
 Si vous êtes un bricoleur averti et que vous cherchez à transformer un mineur en chauffage, ce tutoriel est fait pour vous. Nous tenons à vous avertir que les modifications apportées à un appareil électronique peuvent présenter des risques électriques et d’incendie. Il est donc essentiel de prendre toutes les précautions nécessaires pour éviter tout dommage ou blessure.
 En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur dans un logement, car il est beaucoup trop bruyant et qu’il n’est pas réglable. Toutefois, il est possible d’effectuer des modifications simples pour résoudre ces problèmes.
 
         ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.
+
+![image](assets/hardware/cover.jpeg)
+
 
 ### Matériels nécessaires
 
@@ -496,167 +664,9 @@ Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son a
 
 Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
 
-# Modification du software - Réinitialiser un Antminer S9
+## EP 6 Configuration d’une pool
 
-**Série d’articles proposée par BlobOnChain & Ajelex – 15/02/2023**
-
-## Explication du software du mineur
-
-### Réinitialiser via le bouton « Reset »
-
-Cette méthode peut être appliquée dans les 10 minutes après le démarrage du mineur.
-
-Après avoir allumé le mineur pendant 2 minutes, veuillez appuyer sur le bouton « Reset » pendant 5 secondes, puis relâchez-le. Le mineur sera restauré aux paramètres d’usine dans les 4 minutes et redémarrera automatiquement (il n’est pas nécessaire de l’éteindre).
-
-![image](assets/software/1.jpeg)
-
-Restore via web side
-
-Connectez-vous à l’interface utilisateur de votre mineur, cliquez sur « Upgrade » >> « Effectuer une réinitialisation », puis cliquez sur « OK » dans la fenêtre pop-up.
-
-### Système d’exploitation d’origine
-
-Pour cette partie, nous supposerons que la machine fonctionne, est en marche et que son système d’exploitation d’origine est installé. Nous allons voir brièvement l’interface du système d’exploitation d’origine proposée par Bitmain.
-
-Tout d’abord, connectez vous à votre machine à travers votre réseau local :
-
-![image](assets/software/2.gif)
-
-Une fois sur la page de connexion, vous devrez vous connecter à l’ASIC en utilisant les identifiants par défaut :
-
-– username: root
-– password: root
-
-(Comment reset si mot de passe par défaut ne fonctionne pas ?)
-
-Le système d’exploitation principal est relativement basique. Avec les 4 onglets : System, Miner Configuration, Miner Status, Network. Dans l’onglet Miner Configuration vous pouvez configurer jusqu’à 3 pools de minage.
-
-![image](assets/software/3.jpeg)
-
-Dans l’onglet Miner Status vous pourrez observer différentes informations sur le fonctionnement de l’ASIC en direct. Le hashrate exprimé en GH/s, des informations plus précises sur la pool ainsi qu’un détail sur le statut de chaque hashboard et la vitesse des ventilateurs en rotations/minute.
-
-![image](assets/software/4.jpeg)
-
-### Braiins OS+
-
-Maintenant, nous allons étudier le logiciel pour ASICs Braiins OS+(https://braiins.com/os/plus). Le logiciel est développé par la société Braiins(https://braiins.com/) qui est l’entreprise mère de la pool de minage Braiins Pool'https://braiins.com/pool). Cette pool de minage possède au moment de l’écriture de ces lignes 4.39% du hashrate global( https://mempool.space/fr/mining/pool/slushpool). La société basée à Prague était anciennement nommée Slushpool et est la première pool de minage ayant débutée en novembre 2010. Aujourd’hui la société aux activités variées propose des outils d’étude de profitabilité pour le minage ( https://insights.braiins.com/en), des solutions de gestion de fermes de minage en parallèle de se son activité de pool et son logiciel d’optimisation pour ASICs. Elle propose aussi de miner à en utilisant le nouveau protocole Stratum V2(https://braiins.com/bitcoin-mining-stack-upgrade).
-
-Nous allons donc étudier plus en détail le fonctionnement des appareils de la marque Bitmain qui sont pour l’instant les seuls modèles compatibles :
-
-- S19, S19 Pro, S19j, S19j Pro, T19,
-
-- 17, S17 Pro, S17+, S17e, T17, T17+, T17e & S9 [i, j]
-
-Le logiciel Braiins OS peut être installé assez simplement sur toutes les machines citées ci-dessus. Il permettra un contrôle plus précis d’une machine en permettant de l’overclocker sur-cadençage ou de l’underclocker sous-cadençage. Il permet également un réglage fin de la fréquence de chaque puce grâce à une fonctionnalité d’optimisation automatique appelée l’autotuning. Comme chaque puce de hachage est légèrement différente du fait de son procédé de fabrication, le logiciel teste la fréquence optimale pour chacune d’entre elles afin d’obtenir une efficience (W/THs) maximum. Le logiciel annonce des performances pouvant être supérieures de 25% à celles d’origine. Selon nos mesures il est possible d’atteindre ces figures.
-
-## Installation de Braiins OS+
-
-Il existe plusieurs façons d’installer Braiins OS+ sur un ASIC. Vous pouvez vous référer à ce guide mais aussi à la documentation officielle de Braiins et aux tutoriels vidéo.
-Installation de Braiins OS+ directement sur la mémoire du Antminer
-
-Découvrez comment installer facilement Braiins OS+ directement sur la mémoire de votre Antminer avec BOS toolbox, en remplaçant ainsi le système d’exploitation d’origine, à travers les étapes détaillées ci-dessous. Si vous souhaitez conserver l’OS d’origine en parallèle vous pouvez installer Braiins OS+ sur un carte SD.
-
-1. Alimentez votre Antimner et branchez le à votre Box internet
-2. Télécharger BOS toolbox Windows / Linux
-3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
-
-![image](assets/software/5.jpeg)
-
-4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
-
-![image](assets/software/6.jpeg)
-
-5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
-
-6. Attention, si le Antminer possède un mot de passe alors la détection ne fonctionnera pas. Si c’est le cas le plus simple est d’effectuer un Reset factory
-
-7. Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
-
-![image](assets/software/7.jpeg)
-
-8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
-   Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
-
-![image](assets/software/8.jpeg)
-
-9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
-   Installation de Braiins OS+ sur une carte SD
-
-![image](assets/software/9.jpeg)
-
-![image](assets/software/10.jpeg)
-
-La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette méthode fonctionne pour les machines avec un système d’exploitation datant d’avant 2019.
-
-### Interface Antminer
-
-1. Télécharger le nouveau système d’exploitation à installer ici.
-2. Comme dans la section précédente, connectez vous à votre machine à travers votre réseau local.
-3. Allez dans l’onglet System puis Upgrade
-4. Chargez le fichier que vous avez téléchargé et flashez l’image.
-
-![image](assets/software/11.jpeg)
-
-### Carte micro SD
-
-Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode fonctionne uniquement avec les machines avec un système d’exploitation datant d’après 2019.
-
-1. Téléchargez le nouveau système d’exploitation à installer ici.
-
-2. Flashez l’image téléchargée sur une carte Micro SD. pour cela, vous pouvez utiliser Etcher. Simplement copier le fichier dans la carte micro SD ne fonctionnera pas.
-
-3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
-
-![image](assets/software/12.jpeg)
-
-![image](assets/software/13.jpeg)
-
-4. Insérez la carte micro SD dans l’ASIC.
-5. Démarrez l’ASIC. Si la version d’installation automatique a été utilisée, le nouveau système d’exploitation sera automatiquement installé. L’installation est terminée lorsque les deux LEDs s’allument au même moment. Vous pouvez redémarrer l’ASIC et retirer la carte micro SD. Si l’autre version a été téléchargée, vous devrez laisser la carte Micro SD à l’intérieur de l’ASIC.
-
-Pour plus d’informations sur l’installation, vous pouvez visiter cette section du site de Braiins.
-
-## L’interface de votre mineur
-
-Vous devrez vous connecter à votre ASIC de façon similaire. En utilisant l’adresse IP locale de votre appareil sur votre réseau à travers un navigateur.
-
-Les identifiants par défaut sont les mêmes que le système d’exploitation d’origine.
-
-- username: root
-- password: root
-
-Vous serez alors accueilli par le Dashboard de Brains OS+
-
-### Dashboard
-
-![image](assets/software/14.jpeg)
-
-Sur cette première pages vous pourrez observer les performances de votre machine en direct.
-
-- Trois graphiques en temps réel qui vous présente la température, le hashrate ainsi que le statut global de votre machine.
-- Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
-- Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
-
-![image](assets/software/15.jpeg)
-
-- Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
-- Un détail sur les pools de minage active dans Pools.
-- Le statut de l’autotuning dans Tuner Status.
-- Sur la droite des détails sur les parts transmises à la pool.
-
-### Configuration
-
-![image](assets/software/16.jpeg)
-
-### System
-
-![image](assets/software/17.jpeg)
-
-### Quick actions
-
-![image](assets/software/18.jpeg)
-
-## Configuration d’une pool
+![Rejoindre une pool de minage avec un Antminer S9](https://youtu.be/wM-dRog6mls?si=5GIFBgeqncePasZj)
 
 On peut imaginer une pool de minage comme une coopérative agricole. Les agriculteurs mettent en commun leur production pour réduire la variance de l’offre et de la demande et ainsi obtenir des revenus plus stables pour leur exploitation. Une pool de minage fonctionne de la même manière et la matière première mise en commun sont des hash. En effet, la découverte d’un seul hash valide permet la création d’un bloc et ainsi de remporter la coinbase ou la récompense aujourd’hui de 6,25 BTC plus les frais des transactions inclus dans le bloc. Si vous minez seul, vous ne serez récompensé que lorsque vous trouverez un bloc. Étant en compétition contre tous les autres mineurs de la planète, vous auriez donc très peu de chances de remporter ce grand loto et vous devriez malgré tout payer les frais associés à l’utilisation de votre mineur sans aucune garantie de réussite. Les pools de minage viennent répondre à cette problématique en mutualisant la puissance de calcul de plusieurs (milliers) de mineurs et en partageant la récompense de ces derniers en fonction du pourcentage de participation au hashrate de la pool lorsqu’un bloc a été trouvé. Pour visualiser vos chance de miner un block de miner un block seul vous pouvez utiliser cet outil. En rentrant les informations d’un Antminer S9 on voit que les chances de trouver un hash permettant la création d’un block sont de 1/24 777 849 chaque bloc ou de 1/ 172 068 par jour. Il faudrait en moyenne (avec un hashrate et une difficulté constante) 471 ans pour trouver un bloc.
 
@@ -686,7 +696,9 @@ Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rent
 
 ![image](assets/software/21.jpeg)
 
-## Overclocking et Underclocking
+## EP 7- Overclocking et Underclocking
+
+![Optimiser les performances de son Antminer S9 avec l'auto-tunning](https://youtu.be/yh8U9Ay1i-E?si=JXC7dr2eRsTbWDKi)
 
 L’overclocking et l’autotuning consiste tous les deux à ajuster les fréquences sur les cartes de hachage pour améliorer les performances de l’ASIC. La différence entre les deux réside dans la complexité de ces réglages de fréquence.
 
@@ -696,7 +708,7 @@ Il est important de noter que l’underclocking peut entraîner une réduction d
 
 Braiins OS+ prend en charge l’overclocking, l’underclocking des ASICs et l’autotuning. Il permet aux utilisateurs de régler la fréquence d’horloge de leur matériel de manière flexible pour maximiser les performances ou économiser de l’énergie selon leurs préférences.
 
-## Autotuning
+### Optimiser les performances de son Antminer S9 avec l'auto-tunning
 
 Avant 2018, les mineurs avaient deux moyens de gagner un avantage dans leur activité : trouver de l’électricité à un coût raisonnable et acheter du matériel plus efficace. Cependant, en 2018, une nouvelle avancée a été découverte dans le domaine des logiciels et des micrologiciels miniers, appelée AsicBoost. Cette technique permet aux mineurs de réduire leurs coûts d’environ 13% en modifiant le micrologiciel exécuté sur leurs appareils.
 
@@ -706,6 +718,6 @@ Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. 
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
 
-# conclusion
+# Conclusion
 
-## Interview de Gouspillou
+

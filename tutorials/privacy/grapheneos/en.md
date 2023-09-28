@@ -147,7 +147,7 @@ Head to **Settings** > **Battery**, then enable **Show battery percentage** in t
 Once you have the VCF file, you can transfer across to your GrapheneOS device with an external storage option like microSD card or USB drive. If you don't have any of those to hand, you could opt to share via one of the many apps listed below. 
 
 <p align="center">
-  <img src="assets\4.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/4.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -172,7 +172,7 @@ As well as applications found within the default repository in F-Droid, many Ope
 
 
 <p align="center">
-  <img src="assets\5.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/5.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -194,7 +194,7 @@ Aurora does also have some potential attack vectors, as the "anonymous accounts"
 **Top tip** - Sometimes the Aurora Store will experience rate limiting which limits your ability to search and install apps. To get around this go to **Settings** > **Apps** > **Aurora** > **Open by default**, then add the domain `play.google.com`. Now, whenever navigate to a product or service's website that has the 'Download via Play Store' link, tapping on it will open that app within Aurora for you to download.
 
 <p align="center">
-  <img src="assets\6.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/6.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -209,7 +209,7 @@ Apps on Android can also be downloaded and installed via an `.apk` file. This is
 The downside to this approach is that you don't get automatic updates, so you'll need to monitor that service's communication channels to learn about new releases. However there is a a great project called Obtanium that aims to fix this. [Obtainium](https://github.com/ImranR98/Obtainium) allows you to install and update Open-Source apps directly from their releases pages, and receive notifications when new releases are made available.
 
 <p align="center">
-  <img src="assets\7.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/7.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -225,7 +225,7 @@ To achieve this in Vanadium, GrapheneOS' native browser, simply navigate to the 
 The only downside of this approach is that because this is just a bookmarked web page, you won't get any form of notifications. Though some might see that as a positive!
 
 <p align="center">
-  <img src="assets\8.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/8.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -260,7 +260,7 @@ Most people who have no interest in the privacy space are likely to be using Wha
 * [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) is an unofficial FOSS fork of the official Telegram app for Android. Telegram has E2EE 'secret chats', but the default option is not private. Telegram FOSS can be downloaded from F-Droid. 
 
 <p align="center">
-  <img src="assets\9.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/9.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -278,7 +278,7 @@ Most people who have no interest in the privacy space are likely to be using Wha
 * [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) is a podcast player that allows you to subscribe and manage all of your favorite shows. AntennaPod is available via F-Droid.
 
 <p align="center">
-  <img src="assets\11.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/11.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -296,7 +296,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 * [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) is another great maps alternative that supports all of the features mentioned above.
 
 <p align="center">
-  <img src="assets\13.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/13.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -311,7 +311,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 * [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) is an open source email client that works with basically every email provider. It supports multiple accounts, a unified inbox and the OpenPGP encryption standard.
 
 <p align="center">
-  <img src="assets\15.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/15.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -329,7 +329,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) is the default Google keyboard app. In my experience it offers by far the best type and swipe experience. If you download this app, ensure you completely disable all network related permissions. It can be downloaded via Aurora.
 
 <p align="center">
-  <img src="assets\17.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/17.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -344,7 +344,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) is an app for displaying and storing boarding passes, coupons, movie tickets and membership cards etc. Simply download the relevant `pkpass` or `espass` file and open with the app. PassAndroid is available via F-Droid. 
 
 <p align="center">
-  <img src="assets\19.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/19.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -360,7 +360,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 * [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) is a paid, cross platform service that encrypts your data locally so you can safely upload it to your favourite cloud service. Cryptomator can be downloaded via F-Droid.
 
 <p align="center">
-  <img src="assets\21.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/21.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -375,7 +375,7 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Cryptpad](https://cryptpad.fr/) offers a free, web based, E2EE alternative to Google Docs. 
 
 <p align="center">
-  <img src="assets\23.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/23.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -407,7 +407,7 @@ Before you rush to install these on day 1, I urge you to see how far you get wit
 If you do want to install them, simply tap the pre-installed 'Apps' application followed by 'Google Play Services'. Consider installing them alongside those less private apps you can't live without, inside a completely separate user profile to provide that extra layer of segregation from the rest of your phone.  
 
 <p align="center">
-  <img src="assets\24.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/24.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -424,7 +424,7 @@ You can read more about this use case [here](https://discuss.grapheneos.org/d/16
 If you decide to add a separate profile to suit your use case, the app [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) might be useful to you. Insular allows you to easily clone any of your existing apps across to the new profile without the need to go via any of the traditional install routes covered earlier in this guide. Insular also allows you to quickly 'freeze' any of those apps to completely disable all of that app's background services from running. 
 
 <p align="center">
-  <img src="assets\24.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/24.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">
@@ -453,7 +453,7 @@ To create your first backup:
 4. Tap the three dots n the top right, and choose **Backup now**.  
 
 <p align="center">
-  <img src="assets\26.png" class="responsive" style="max-width: 80%; height: auto;" />
+  <img src="assets/26.png" class="responsive" style="max-width: 80%; height: auto;" />
 </p>
 
 <p align="center">

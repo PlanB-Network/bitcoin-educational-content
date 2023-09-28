@@ -19,7 +19,8 @@ Enjoy the discovery!
 
 +++
 
-# Understanding the Lightning Network
+# The Fundamentals
+## Understanding the Lightning Network
 
 ![Understanding the Lightning Network](https://youtu.be/PszWk046x-I)
 
@@ -67,7 +68,7 @@ Now, Bob wants to send 80,000 SAT to Alice. Not having the liquidity, he cannot.
 
 ![explication](assets/chapitre1/3.JPG)
 
-# Bitcoin, addresses, UTXO and transactions
+## Bitcoin, addresses, UTXO and transactions
 
 ![bitcoin, addresses, utxo and transactions](https://youtu.be/cadCJ2V7zTg)
 
@@ -97,8 +98,8 @@ In Lightning Network, multi-signatures are used. Therefore, 2 signatures are req
 
 ![explication](assets/chapitre2/1.JPG)
 
-
-# Channel Opening
+# Opening and closing of channels
+## Channel Opening
 
 ![open a channel](https://youtu.be/B2caBC0Rxko)
 
@@ -142,7 +143,7 @@ Alice can now recover the funds alone, as she already has Bob's signature. She p
 
 ![explication](assets/chapitre3/3.JPG)
 
-# Lightning Transaction & Commitment Transaction
+## Lightning Transaction & Commitment Transaction
 
 ![Lightning Transaction & Commitment Transaction](https://youtu.be/aPqI34tpypM)
 
@@ -178,7 +179,7 @@ Alice (90,000 SAT) =============== Bob (40,000 SAT)
 
 The money never moves, but the final balance is updated via a signed but not published on-chain transaction. The withdrawal transaction is therefore a commitment transaction. The satoshi transfers are another more recent commitment transaction that updates the balance.
 
-# Commitment Transactions
+## Commitment Transactions
 
 ![transactions part 2](https://youtu.be/RRvoVTLRJ84)
 
@@ -205,7 +206,7 @@ Similarly, Bob will provide his secret to Alice. So that if he tries to cheat, A
 
 The person who creates the transaction with the Timelock (the one who sends the money) can only use the revocation key after the Timelock. However, the person who receives the money can use it before the Timelock in case of cheating from one side to the other of a channel on the Lightning Network. In particular, we detail the mechanisms that allow us to guard against possible cheating by one's peer within the channel.
 
-# Channel Closure
+## Channel Closure
 
 ![close a channel](https://youtu.be/FVmQvNpVW8Y)
 
@@ -219,14 +220,14 @@ We are interested in channel closure through a Bitcoin transaction, which can ta
 ![instruction](assets/chapitre6/0.JPG)
 
 
-## The good
+### The good
 
 The two peers communicate and agree to close the channel. They stop all transactions and validate a final state of the channel. They agree on network fees (the person who opened the channel pays the closing fees). They now create the closing transaction. There is a closing transaction, different from commitment transactions because there is no Timelock and revocation key. The transaction is then published and Alice and Bob receive their respective balances. This type of closure is fast (because there is no Timelock) and generally inexpensive.
 
 ![instruction](assets/chapitre6/3.JPG)
 
 
-## The brute
+### The brute
 
 Alice wants to close the channel, but Bob does not respond because he is offline (internet or power outage). Alice will then publish the most recent commitment transaction (the last one). The transaction is published and the Timelock is activated. Then, the fees were decided when this transaction was created X time in the past! The MemPool is the network that has changed since, so the protocol defaults to fees 5 times higher than the current ones when the transaction was created. Creation fee at 10 SAT, so the transaction considered 50 SAT. At the time of forced closure, the network is:
 
@@ -237,7 +238,7 @@ This makes forced closure longer (Timelock) and especially more risky in terms o
 
 ![instruction](assets/chapitre6/4.JPG)
 
-## The cheater
+### The cheater
 
 Alice tries to cheat by publishing an old commitment transaction. But Bob monitors the MemPool and watches for transactions that try to publish old ones. If he finds any, he uses the revocation key to punish Alice and take all the SAT from the channel.
 
@@ -245,7 +246,8 @@ Alice tries to cheat by publishing an old commitment transaction. But Bob monito
 
 In conclusion, channel closure in the Lightning Network is a crucial step that can take various forms. In a cooperative closure, both parties communicate and agree on a final state of the channel. This is the fastest and least expensive option. On the other hand, a forced closure occurs when one party is non-responsive. This is a more expensive and longer situation due to unpredictable transaction fees and the activation of the Timelock. Finally, if a participant tries to cheat by publishing an old commitment transaction, the cheater, they can be punished by losing all the SAT from the channel. It is therefore crucial to understand these mechanisms for effective and fair use of the Lightning Network.
 
-# Lightning Network
+# A liquidity network
+## Lightning Network
 
 ![Lightning Network](https://youtu.be/RAZAa3v41DM)
 
@@ -379,7 +381,7 @@ In the event that Bob does not reveal the secret within a certain period of time
 When closing the channel, if it is a cooperative closure, payments are interrupted and HTLCs are resolved, which is generally less expensive. If the closure is forced, all ongoing HTLC transactions are published, which can become very expensive and messy.
 In summary, the HTLC mechanism adds an additional layer of security to the Lightning Network, ensuring that payments are executed correctly and that users fulfill their commitments.
 
-# Finding your way
+## Finding your way
 
 ![finding your way](https://youtu.be/wnUGJjOxd9Q)
 
@@ -445,7 +447,8 @@ In conclusion, routing transactions on the Lightning Network is a complex proces
 
 Furthermore, to facilitate route searching, the recipient can provide additional information such as the address, amount, preimage hash, and indications on their channels. This can help identify channels with sufficient liquidity and avoid unnecessary transaction attempts. Ultimately, the Lightning Network routing system is designed to optimize the speed, security, and efficiency of transactions while preserving user privacy.
 
-# Invoice, LNURL, Keysend
+# Tools of the Lightning Network
+## Invoice, LNURL, Keysend
 
 ![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
 
@@ -464,7 +467,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - 26 = abcdefghijklmnopqrstuvwxyz
 - 32 = not "b-i-o" and not "1"
 
-## lnbc1m
+### lnbc1m
 
 - ln = Lightning
 - Bc = bitcoin (mainnet)
@@ -473,7 +476,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
   Here 1m = 1 \* 0.0001btc = 100,000 BTC
   "Please pay 100,000 SAT on the Lightning network of the Bitcoin mainnet to pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3"
 
-## Timestamp (when it was created)
+### Timestamp (when it was created)
 
 It contains 0 or more additional parts:
 
@@ -495,15 +498,7 @@ A Keysend allows Alice to send money to Bob without having Bob's request. Alice 
 
 In conclusion, a Lightning Network invoice, although complex at first glance, effectively encodes a payment request. Each section of the invoice contains key information, including the amount to be paid, the recipient, the creation timestamp, and potentially other information such as the hash of the preimage, the payment secret, routing hints, and expiration time. Protocols such as LNURL and Keysend offer significant improvements in terms of flexibility and user experience, allowing, for example, to send funds without prior request from the other party. These technologies make the payment process smoother and more efficient on the Lightning Network.
 
-### Support us
-
-This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it around you, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!
-
-### Rate the course
-
-A grading system for the course will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course and if you enjoyed it, please consider sharing it with others.
-
-# Managing Liquidity
+## Managing Liquidity
 
 ![managing liquidity](https://youtu.be/YuPrbhEJXbg)
 
@@ -528,7 +523,7 @@ Another solution would be to make payments; you pay 100,000 for X reason, you ca
 
 ![instruction](assets/chapitre11/2.JPG)
 
-## Loop Out Solution: Atomic swap LN - BTC
+### Loop Out Solution: Atomic swap LN - BTC
 
 Alice 2 million - Susie 0
 

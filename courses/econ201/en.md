@@ -54,7 +54,7 @@ When a financial institution holds a banking license, it essentially means that 
 
 Upon purchasing the house, you instruct your banker to transfer money to the seller's account. If the seller's account is with a different bank, your banker notifies the corresponding banker at the other institution to ensure the seller's account is credited accordingly, while debiting your account by the corresponding amount.
 
-![image](assets\Image\1.png)
+![image](assets/Image/1.png)
 
 Figure 1: Money Creation as Bookkeeping Entries
 
@@ -72,7 +72,7 @@ This conundrum gave rise to the modern central banks. In the 19th century in Eng
 
 In addition to maintaining financial stability, central banks are responsible for setting key policy rates. These rates determine the cost at which licensed banks can borrow funds from the central bank, essentially defining the cost of liquidity for the financial institutions that play a crucial role in lending in our economies. Therefore, these rates serve as a benchmark for the entire financial system. As an individual, the interest rates you pay on your mortgage can be broken down into the policy rate and the bank’s margin.
 
-![image](assets\Image\2.png)
+![image](assets/Image/2.png)
 
 Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
 
@@ -80,7 +80,7 @@ During the major financial crisis of 2008, Lehman Brothers, a large investment b
 
 While these measures prevented a cascading wave of bankruptcies, they did little to alleviate the subsequent economic slowdown. Millions lost their jobs and homes, consumer spending plummeted, businesses went under, and banks incurred substantial losses. Despite historically low interest rates, few were willing to borrow, resulting in a vicious cycle where the initial decrease in spending and investment reinforced itself. Consequently, central bankers took further steps by implementing Quantitative Easing (QE) programs. These programs involved central banks purchasing government bonds and mortgage-backed securities from commercial banks with central bank reserves.
 
-![image](assets\Image\3.png)
+![image](assets/Image/3.png)
 
 Figure3 : Interest Rates Across Major Economies / Source: ECB
 
@@ -91,7 +91,7 @@ Contrary to many expectations, QE programs did not significantly revive economic
 
 Nonetheless, an essential economic principle can be drawn from this episode: when new money is created, it initially benefits those closest to the source of the money, at the expense of those further away. This economic insight dates back to the 18th century when Richard Cantillon outlined it in his "Essay on the Nature of Commerce in General." It is now colloquially referred as the “Cantillon Effect”. 
 
-![image](assets\Image\4.png)
+![image](assets/Image/4.png)
 
 Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
@@ -99,7 +99,7 @@ In this instance, bankers, bank executives, stock and bond owners, real estate d
 
 In essence, the system is skewed. Banks are inherently unstable, yet their failure can jeopardize the entire economy. This moral hazard incentivizes bank executives to take excessive risks to maximize their bank's revenue, knowing that the central bank will ultimately bail them out, shifting the cost to taxpayers. In such scenarios, central bankers create conditions for a massive transfer of purchasing power from hardworking individuals and savers to asset owners and those connected to the financial system, thereby disconnecting the process of wealth creation from wealth accumulation.
 
-![image](assets\Image\5.png)
+![image](assets/Image/5.png)
 
 Figure5: Wealth Distribution in China + Europe + the US / Source: OECD
 
@@ -109,7 +109,7 @@ During extended periods of Zero Interest Rate Policies (ZIRP), banks have limite
 
 Another unintended consequence of ZIRP is that it encourages governments to engage in extensive spending. Since governments face no borrowing costs and can rely on central banks to purchase their bonds through QE programs, they have a natural incentive to spend as much as possible, particularly in democratic contexts where spending can garner votes. This tendency often disregards the long-term consequences of such fiscal profligacy, leading to a significant increase in public debt levels across developed economies since the Global Financial Crisis (GFC).
 
-![image](assets\Image\6.png)
+![image](assets/Image/6.png)
 
 Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country) / Source IMF
 
@@ -143,7 +143,7 @@ Such questions have occupied economists and philosophers for many centuries and 
 
 After the physiocrats' theory of land value, positing that all value come from land, had been refuted by the classical economists' labor theory of value, postulating that the value of a good stems from the amount of labor going into its production, it was the turn of the marginal theory of value to supplant the latter. In the 1870s, following Marx, the last of the classical economists, three new schools of economic thought emerged almost simultaneously around a marginal theory of value: the Lausanne school with Léon Walras, the modern or neoclassical school with William Stanley Jevons, and the Austrian school with Carl Menger. This revolution in the theory of value constituted a significant renewal of economic thought.
 
-![image](assets\Image\7.png)
+![image](assets/Image/7.png)
 
 From Left to Right: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -225,7 +225,7 @@ Originally, the prisoner's dilemma was formulated as follows: Two suspects, Alic
 
 These outcomes can be represented in a matrix (numerical results indicate the number of years of imprisonment):
 
-| Alice \ Bob       | Accuse      | Remain Silent |
+| Alice / Bob       | Accuse      | Remain Silent |
 | ----------------- | ----------- | ------------- |
 | **Accuse**        | 2, 2        | 0, 3         |
 | **Remain Silent** | 3, 0        | 1, 1         |
@@ -297,7 +297,7 @@ This subjective evaluation of the value of future goods compared to present good
 
 This concept of relative valuation of future goods over present goods is at the root of the phenomenon of interest. Indeed, in an economy with unmanipulated capital markets, reference interest rates (considered risk-free from default) are determined at the intersection of capital supply and demand. Therefore, these rates represent the state of time preferences for the entire economy: an increase in the interest rate results from a relative increase in demand for capital compared to supply, indicating higher time preferences. Conversely, a decrease in interest rates occurs due to an increase in savings, which is an increase in the supply of capital, indicating a reduction in time preferences.
 
-![image](assets\Image\9.png)
+![image](assets/Image/9.png)
 
 In an economy where interest rates are not manipulated by the central bank, we tend to observe an upward-sloping yield curve: the longer the maturity of the debt, the higher the interest rate. The opposite situation can’t happen because it would entail that the future is more certain than the present, which is a logical impossibility. 
 
@@ -319,7 +319,7 @@ Due to the sequential nature of human action, these intertemporal choices always
 
 To illustrate this point, let's revisit the example given by Böhm-Bawerk, in his work "Capital and Interest":
 
-![image](assets\Image\10.png)
+![image](assets/Image/10.png)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
@@ -345,7 +345,7 @@ Now, as eluded in the first chapter, interest rates have been manipulated for de
 
 This is perfectly illustrated by the chart below: long-rates are lower than short-rates. First, this makes absolutely no sense, because it would entail that the future is more certain than the present. Second, it warrants an inquiry about the consequences for capital allocation: if everyone is incentivized to act as if savings were abundant, whereas savers are nowhere to be found because they are not rewarded for saving, what consequences could this yield for the economy?
 
-![image](assets\Image\11.png)
+![image](assets/Image/11.png)
 
 This is what we will find out in the next chapter dedicated to the Austrian Theory of the Business Cycle!
 
@@ -372,7 +372,7 @@ To describe this phenomenon of temporal miscoordination and its consequences as 
 
 To facilitate our explanation, we will return to Menger's classification of goods and represent the productive structure on a diagram consisting of an arbitrary number of stages:
  
-![image](assets\Image\12.png)
+![image](assets/Image/12.png)
 
 In the above diagram, initial resources pass through various stages of production, undergoing transformations that bring them closer to the state of final consumer goods (through interaction with original factors of production: time, land, labor). The height of the right side of the triangle schematically represents GDP since it denotes the sum of all consumer goods sold in a period. The gap between each bar corresponds to the value added (in monetary terms) generated by each stage of the process. This difference can also be seen as the income associated with each stage (revenues - costs).
 
@@ -380,7 +380,7 @@ If, at the aggregate level, economic agents increase their savings, the quantity
 
 We will then obtain an extended production structure, a change that can be qualitatively represented by the following diagram:
 
-![image](assets\Image\13.png)
+![image](assets/Image/13.png)
 
 Here, the monetary value of demanded consumer goods has decreased, freeing up ressources for the creation of an additional stage of production. In this scenario where the decrease in interest rates is a consequence of decreased consumption, i.e., increased savings, the area of the triangle, representing the quantity of money in circulation, remains unchanged. The transformation of the production structure (lengthening) simply results from a transfer of purchasing power from one part of the structure to another.
 
@@ -396,7 +396,7 @@ With lower interest rates, entrepreneurs can borrow more resources and thus crea
 
 Note that this is a completely logical consequence of the credit expansion. Insofar as banks produce fiduciary media by granting loans, one should naturally expect overall purchasing power to increase.
 
-![image](assets\Image\14.png)
+![image](assets/Image/14.png)
 
 As credit enters the economy through loans to entrepreneurs, we should observe an increase in profits in the production sectors distant from consumption, and a decrease in relative profits in sectors closer to consumption. This higher profitability then supports a reallocation of capital towards these new, more capital-intensive stages (shipbuilding, automotive, construction, advanced technologies, etc.), and a decrease in investments in sectors closer to consumption.
 

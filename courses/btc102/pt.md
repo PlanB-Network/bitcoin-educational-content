@@ -1,5 +1,5 @@
 ---
-name: BTC 102 - Obter seus primeiros bitcoins
+name: Obter seus primeiros bitcoins
 goal: Obter seus primeiros bitcoins e armazená-los em uma carteira Bitcoin de forma segura com uma frase mnemônica e um plano de herança.
 objectives:
   - Atualize sua segurança online

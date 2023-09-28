@@ -1,5 +1,5 @@
 ---
-name: BTC 102 – Obtenir ses premiers bitcoins
+name: Obtenir ses premiers bitcoins
 goal: Obtenir ses premiers bitcoins et les stocker dans un portefeuille Bitcoin de façon sécurisé avec une mnemonic phrase et un plan d’héritage.
 objectives:
   - Mettre à jour votre sécurité en ligne

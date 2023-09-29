@@ -10,7 +10,7 @@ objectives:
 ---
 # Deep-dive into cryptographie
 
-It is difficult to find many materials that offer a good middle ground in cryptography education. 
+It is difficult to find many materials that offer a good middle ground in cryptography education.
 
 On the one hand, there are lengthy, formal treatises, really only accessible to those with a strong background in mathematics, logic, or some other formal discipline. On the other hand, there are very high-level introductions that really hide too many of the details for anyone that is at least a bit curious. 
 

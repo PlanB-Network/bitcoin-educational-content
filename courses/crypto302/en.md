@@ -1,14 +1,14 @@
 ---
-name: introduction to Cryptography.
-goal: a deep-dive introduction to the science and practice of cryptography. 
+name: Introduction to Cryptography.
+goal: A deep-dive introduction to the science and practice of cryptography. 
 objectives:
-	- Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.
-	- Delve into number theory, groups, and fields to master key mathematical concepts underlying cryptography.
-	- Study the RC4 stream cipher and AES with a 128-bit key to learn about symmetric cryptographic algorithms.
-	- Investigate the RSA cryptosystem, key distribution, and hash functions to explore asymmetric cryptography.
+  - Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.
+  - Delve into number theory, groups, and fields to master key mathematical concepts underlying cryptography.
+  - Study the RC4 stream cipher and AES with a 128-bit key to learn about symmetric cryptographic algorithms.
+  - Investigate the RSA cryptosystem, key distribution, and hash functions to explore asymmetric cryptography.
 
 ---
-# deep-dive into cryptographie
+# Deep-dive into cryptographie
 
 It is difficult to find many materials that offer a good middle ground in cryptography education. 
 

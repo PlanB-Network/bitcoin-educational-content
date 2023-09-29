@@ -1,5 +1,5 @@
 ---
-name: BTC 102 - Ottenere i primi bitcoin
+name: Ottenere i primi bitcoin
 goal: Ottenere i primi bitcoin e conservarli in un portafoglio Bitcoin in modo sicuro con una frase mnemonica e un piano di eredità.
 objectives:
   - Aggiorna la tua sicurezza online

@@ -1,5 +1,5 @@
 ---
-name: BTC 102 – Getting your first bitcoins
+name: Getting your first bitcoins
 goal: Getting your first bitcoins and storing them securely in a Bitcoin wallet with a mnemonic phrase and an inheritance plan.
 objectives:
   - Update your online security

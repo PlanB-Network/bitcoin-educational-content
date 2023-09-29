@@ -1,5 +1,5 @@
 ---
-name: BTC 102 – Erste Bitcoins erhalten
+name: Erste Bitcoins erhalten
 goal: Erste Bitcoins erhalten und sicher in einer Bitcoin-Wallet mit einem Mnemonic-Code und einem Vererbungsplan speichern.
 objectives:
   - Aktualisieren Sie Ihre Online-Sicherheit

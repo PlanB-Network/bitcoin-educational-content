@@ -1,5 +1,5 @@
 ---
-name: BTC 102 - Obtener tus primeros bitcoins
+name: Obtener tus primeros bitcoins
 goal: Obtener tus primeros bitcoins y almacenarlos de manera segura en una billetera Bitcoin con una frase mnemónica y un plan de herencia.
 objectives:
   - Actualice su seguridad en línea

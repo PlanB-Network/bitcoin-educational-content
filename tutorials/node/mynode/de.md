@@ -5,6 +5,9 @@ description: Richten Sie Ihre Bitcoin-MyNode ein
 
 # Bitcoin Core auf Mac oder Windows installieren
 
+teste of changes 
+
+
 ![Bild](assets/0.jpeg)
 
 https://mynodebtc.com/

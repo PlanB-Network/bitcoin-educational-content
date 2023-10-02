@@ -1,8 +1,10 @@
-# BIP47 - PayNym
+---
+name: BIP47 - PayNym
 
-Beskrivning: Hur PayNym fungerar
+description: Hur PayNym fungerar
+---
 
-BIP47, den fula ankungen.
+# BIP47, den fula ankungen.
 
 > "Den är för stor," sa de alla, och kalkonen som föddes med sporrar och trodde sig vara kejsare svällde upp som ett skepp med alla segel i vinden och gick rakt på honom i stor ilska och röd ända upp till ögonen. Den stackars ankungen visste inte om den skulle stanna eller gå: den var mycket ledsen över att bli förlöjligad av alla ankorna i gården.
 
@@ -253,7 +255,9 @@ För att lyckas med detta utbyte använder Diffie-Hellman modulär aritmetik fö
 ![image](assets/13.png)
 
 >Kredit: Ursprunglig idé: A.J. Han Vinck, Vektorversion: Flugaal, Översättning: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
+
 I denna förklaring representerar den bruna färgen den hemlighet som delas mellan Alice och Bob. Man måste föreställa sig att det i verkligheten är omöjligt för en angripare att separera de orange och ljusblå färgerna för att hitta Alice eller Bobs hemliga färger.
+
 Nu ska vi studera dess faktiska funktion. Vid första anblicken kan Diffie-Hellman verka svårt att förstå. I verkligheten är principen nästan barnsligt enkel. Innan vi går in på detaljerna vill jag snabbt påminna er om två matematiska begrepp som vi kommer att behöva (och som för övrigt också används i många andra krypteringsmetoder).
 
 1. Ett primtal är ett naturligt tal som bara har två delare: 1 och sig självt. Till exempel är siffran 7 ett primtal, eftersom det bara kan delas med 1 och 7 (sig självt). Å andra sidan är siffran 8 inte ett primtal, eftersom det kan delas med 1, 2, 4 och 8. Det har alltså inte bara två delare, utan fyra hela och positiva delare.
@@ -893,15 +897,20 @@ Om du vill veta mer om samarbetsaffärer och mer generellt om alla utgiftsverkty
 Förutom dessa samarbetsaffärer har vi nyligen sett att Samourai-teamet arbetar på en autentiseringsprotokoll kopplat till PayNym: Auth47. Detta verktyg är redan implementerat och möjliggör till exempel autentisering med hjälp av en PayNym på en webbplats som accepterar denna metod. I framtiden tror jag att utöver denna möjlighet till autentisering på webben kommer Auth47 att ingå i ett större projekt kring BIP47/PayNym/Samourai-ekosystemet. Kanske kommer detta protokoll att användas för att ytterligare förbättra användarupplevelsen av Samourai Wallet, särskilt vid användning av utgiftsverktygen. Det återstår att se...
 
 ## Min personliga åsikt om BIP47.
+
 Självklart är den främsta nackdelen med BIP47 transaktionsnotifikationen. Det innebär att användaren måste betala avgifter för att gruvdrift ska ske, vilket kan vara besvärligt för vissa. Å andra sidan är argumentet om "spam" på Bitcoin-blockkedjan helt oacceptabelt. Den som betalar avgifter för sin transaktion bör kunna registrera den i registret, oavsett syfte. Att påstå något annat är att ställa sig på censurens sida.
 Det är möjligt att det i framtiden kommer att hittas andra, mindre kostsamma lösningar för att kunna kommunicera betalkoden från avsändaren till mottagaren och för att mottagaren ska kunna lagra den på ett säkert sätt. Men för tillfället är transaktionsnotifikationen den lösning som innebär minst kompromisser.
+
 Denna nackdel är försumbar när man betraktar alla fördelar med BIP47. Bland alla befintliga förslag för att lösa problemet med återanvändning av adresser verkar det enligt mig vara den bästa lösningen.
+
 Som tidigare förklarat kommer majoriteten av återanvändningen av adresser från utbyten. BIP47 är den enda rimliga lösningen som verkligen kan lösa detta problem vid källan. Alla förslag som syftar till att minska antalet återanvändningar av adresser bör fokusera på detta och anpassa lösningen till huvudkällan till problemet.
 När det gäller användning är BIP47-betalningsproceduren enkel, även om dess mekanismer är ganska komplexa. Återanvändbara betalkoder kan därför enkelt antas, även av oerfarna användare.
 När det gäller integritet är BIP47 mycket intressant. Som jag förklarade i avsnittet om transaktionsnotifikationen avslöjar betalkoden ingen information om de härledda tillfälliga adresserna. Det gör det möjligt att bryta informationsflödet mellan Bitcoin-transaktionen och mottagarens identifierare, till skillnad från användningen av en vanlig mottagningsadress.
+
 Och framför allt fungerar PayNym-implementeringen av BIP47! Den har funnits tillgänglig på Samourai Wallet sedan 2016 och på Sparrow Wallet sedan början av året. Det är inte ett vetenskapligt projekt, utan en lösning som har testats och som fungerar fullt ut idag.
 Förhoppningsvis kommer dessa återanvändbara betalkoder i framtiden att antas av aktörerna inom ekosystemet, implementeras i plånboksprogramvara och användas av bitcoin-användare.
 Alla verkligt positiva lösningar för användarens integritet måste diskuteras, drivas framåt och försvaras för att Bitcoin inte ska bli CA:s lekplats och regeringarnas övervakningsverktyg.
+
 Han tänkte på hur han hade blivit förföljd och förolämpad överallt, och nu hörde han alla säga att han var den vackraste av alla dessa vackra fåglar! Till och med fläderträdet böjde sina grenar mot honom, och solen spred en så varm och välgörande ljus! Då svällde hans fjädrar, hans långa hals reste sig, och han utropade med hela sitt hjärta: "Hur kunde jag drömma om sådan lycka när jag bara var en ful liten anka?"
 
 ## För att gå djupare:
@@ -914,9 +923,9 @@ Han tänkte på hur han hade blivit förföljd och förolämpad överallt, och n
 
 ### Externa resurser och tack:
 
-    Tack till LaurentMT och Théo Pantamis för de många begreppen de förklarade för mig och som jag använde i den här artikeln. Jag hoppas att jag har kunnat återge dem korrekt.
+Tack till LaurentMT och Théo Pantamis för de många begreppen de förklarade för mig och som jag använde i den här artikeln. Jag hoppas att jag har kunnat återge dem korrekt.
 
-    Tack till Fanis Michalakis för granskningen av denna text och hans expertråd.
+Tack till Fanis Michalakis för granskningen av denna text och hans expertråd.
 
     https://bitcoiner.guide/paynym/
 

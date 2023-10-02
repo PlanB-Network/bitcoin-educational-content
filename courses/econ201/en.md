@@ -561,9 +561,9 @@ By reading these works and exploring these online resources, you can develop a d
 
 This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!
 
-### Rate the course
+### Rate the course (coming soon)
 
-A rating system for the course will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course, and if you enjoyed it, please consider sharing it with others.
+A rating system for the course will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course, and if you enjoyed it, please consider sharing it with others. (coming soon)
 
 If you want to continue digging into the subject of Austrian economics, I suggest several interviews with Théo Mogenet:
 

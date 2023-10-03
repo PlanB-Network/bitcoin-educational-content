@@ -16,11 +16,13 @@ This school of thought has already had several centuries behind it and has a who
 
 +++
 
-# Introduction by Rogzy
+# Introduction to ECON
+
+## Introduction
 
 Hello everyone and welcome to Econ 201: Introduction to Austrian Economics.
 
-In this course offered by Théomogenes, you will discover this branch of economics that differs greatly from Keynesian doctrine. Until now, you may have learned that the production and management of money were the responsibility of central banks, with the idea that monetary printing and spending promote growth. However, there is another school of economic thought: Austrian economics. With over 200 years of research and development, philosophical reflections, and writings by renowned authors, this approach emphasizes a more sober vision of growth and human rationality in our economy.
+In this course offered by Théo Mogenet, you will discover this branch of economics that differs greatly from Keynesian doctrine. Until now, you may have learned that the production and management of money were the responsibility of central banks, with the idea that monetary printing and spending promote growth. However, there is another school of economic thought: Austrian economics. With over 200 years of research and development, philosophical reflections, and writings by renowned authors, this approach emphasizes a more sober vision of growth and human rationality in our economy.
 
 In reality, economics is an extremely social and complex field, composed of a myriad of interconnected small actors who together contribute to forming a coherent whole. Rather than approaching this discipline through mathematical equations, we must understand it from the perspective of human logic and sociology. In this course, we will explore the fundamental concepts of Austrian economics. Your instructor, Théomo Jeunet, is a passionate and competent professor of Austrian economics.
 
@@ -28,15 +30,13 @@ To start, we offer you a bonus video that will explain how our current financial
 
 In the second part of this course, we will examine the difference between Keynesianism and Austrian economics, exploring their respective schools of thought, methods of reflection, and tools they use to establish economic truth. We will also study the formation of economic crises. Is it due to human incompetence, market manipulation, or collective euphoria of people? We will explore how our cycles of growth, decline, recession, and golden age are created by human emotions.
 
-Finally, in the third part of this course, I will conduct an open interview with Théo, during which we will discuss many topics in macroeconomics, geopolitics, and economics in general. We will ask questions such as: Can a world survive solely on Bitcoin? Is an economic and financial system based on Austrian thought viable? Do negative interest rates not promote pollution, overconsumption, and depletion of Earth's resources?
-
 This course will be a combination of economics and philosophy, with an open discussion between Théo and myself. If you have any questions during this course, do not hesitate to ask them in our Discord, which you will find the link to in the description.
 
 I warmly thank Théo for producing this course, and I hope he will be an excellent teacher for you. We had a lot of fun creating this content. This course is accessible to everyone and will, I think, be essential to follow our future more in-depth courses on economics. This course will lay the necessary foundations to explore certain economic theories in more detail that we will only briefly touch on here.
 
 If you are ready to embark on this adventure, I invite you to click on the following video and start with the bonus video on our current financial system. I now give the floor to Théo. Thank you to him for collaborating with Descoupes Bitcoin for the realization of this video. I will see you very soon. Goodbye!
 
-# Money, Credit, Banks, and Central Banks
+## Money, Credit, Banks, and Central Banks
 
 ![Explanation of the traditional banking system](https://youtu.be/pz0RxlXNs7Y)
 
@@ -59,7 +59,7 @@ Upon purchasing the house, you instruct your banker to transfer money to the sel
 Figure 1: Money Creation as Bookkeeping Entries
 
 > “It is well enough that people of our nation do not understand our banking and monetary system, for if they did, I believe there would be a revolution before tomorrow morning”
-> 
+>
 > Henry Ford
 
 This process allows banks to record all transactions, including wire transfers, credit card purchases, and checks, over a specified period (usually a week or a month). They then settle these transactions with each other using bank reserves, which are another form of fiat currency never used by the public. Bank reserves are held at the central bank in a special account accessible only to licensed banks and financial institutions.
@@ -86,10 +86,9 @@ Figure3 : Interest Rates Across Major Economies / Source: ECB
 
 Contrary to many expectations, QE programs did not significantly revive economic growth but did inflate financial assets to historic levels. This primarily benefited the wealthy and financial institutions, as they already held substantial quantities of such assets, thereby widening wealth disparities. Given the structure of the banking system explained earlier, this outcome should not come as a surprise. Since bank reserves cannot easily flow into the real economy, QE programs mainly boosted asset prices without effectively improving the financial situations of average individuals.
 
-
 ### The Cantillon Effect
 
-Nonetheless, an essential economic principle can be drawn from this episode: when new money is created, it initially benefits those closest to the source of the money, at the expense of those further away. This economic insight dates back to the 18th century when Richard Cantillon outlined it in his "Essay on the Nature of Commerce in General." It is now colloquially referred as the “Cantillon Effect”. 
+Nonetheless, an essential economic principle can be drawn from this episode: when new money is created, it initially benefits those closest to the source of the money, at the expense of those further away. This economic insight dates back to the 18th century when Richard Cantillon outlined it in his "Essay on the Nature of Commerce in General." It is now colloquially referred as the “Cantillon Effect”.
 
 ![image](assets/Image/4.png)
 
@@ -125,11 +124,13 @@ In essence, our system is facing substantial challenges, and Bitcoin emerges as 
 
 To achieve this goal, we will explain the fundamental principles of "Austrian Economics," an economic school of thought with a methodological tradition dating back to the 16th century, providing insights into human action under economic constraints. With this introduction, you now grasp the essentials of money creation and the current state of our financial and monetary system.
 
-In the upcoming chapter, we will delve into the foundational cornerstone of any economic school of thought: the theory of value. Subsequent chapters will explore money as a social institution, the theory of capital and the business cycle, the challenge of economic calculation, and a brief overview of the history and methodology of the Austrian School of Economics. 
+In the upcoming chapter, we will delve into the foundational cornerstone of any economic school of thought: the theory of value. Subsequent chapters will explore money as a social institution, the theory of capital and the business cycle, the challenge of economic calculation, and a brief overview of the history and methodology of the Austrian School of Economics.
 
-# The Subjective Theory of Value
+# Theoretical Foundations
 
-> “Value only exists within human consciousness” 
+## The Subjective Theory of Value
+
+> “Value only exists within human consciousness”
 >
 > Carl Menger, Principles of Political Economy
 
@@ -153,6 +154,8 @@ It is common to present the marginalism of these three schools as similar. Indee
 
 ### Subjective Value
 
+![image](assets/Image/15.png)
+
 The Austrian economist refutes the conception of Adam Smith's successors and abandons the idea that the value of a good comes from the amount of labor used in its production, in favor of the notion that its value is determined by the individual, who, in each context, performs a mental act of valuation regarding a specific quantity of a good or service. This intellectual leap made by Menger challenges the objectivity of value: for him, value is not an objective property of goods; it is merely the result of the relationship that the individual has with that thing: "value does not exist outside of human consciousness."
 
 In other words, Menger invites us to consider that value exists only as a subjective psychological phenomenon within the individual, that value is not an inherent property of goods, but rather stems from the individual's opinion about the utility they can derive from those goods.
@@ -175,6 +178,10 @@ This subjective conception of value, understood as a psychological relationship 
 
 ### The Division of Labor
 
+![image](assets/Image/16.png)
+
+Visiting a Nail Factory, Léonard Defrance (18th century)
+
 Everyone is unique and has a particular personal situation. Therefore, everyone possesses a superior ability to perform certain tasks than his peers (absolute advantage) or a superior ability to perform certain tasks than other ones (comparative advantage). It cannot be otherwise; to deny this elementary fact would be to claim that all humans are equal in all aspects.
 
 In the case where an individual has a superior ability compared to their peers in the production of a given good (absolute advantage), they have an interest in specializing in the production of that good and then exchanging the surplus obtained for the goods they desire. By doing so, they satisfy their subjective utility more economically than if they were to engage in the production of all the goods they desire.
@@ -183,7 +190,7 @@ But it may also be the case that the individual does not have an absolute advant
 
 Certainly, there are individuals who could produce that given good more productively than him, but since these individuals are probably more productive in another task than in this one, and since they cannot perform both tasks simultaneously, it is unproductive for them to work on this task rather than another for which they are more productive. By specializing in the task for which they are most productive, they will obtain a surplus greater than if they had not specialized, and therefore, through exchange, they could obtain an increased quantity of those other goods, even if the goods obtained would have been produced more efficiently by themselves than by the producers from whom they obtained them.
 
-Take the example of a physician. He might be better at writing emails and scheduling appointments than his secretary (relative advantage). But any time spent at doing those tasks is time he does not employ curing patients. Hence, as he is more productive curing people, it is in his interest to delegate administrative duties to another person even if he is better at such task than his deputy, because it allows him to maximize the value generated for others, and thus its own wealth. 
+Take the example of a physician. He might be better at writing emails and scheduling appointments than his secretary (relative advantage). But any time spent at doing those tasks is time he does not employ curing patients. Hence, as he is more productive curing people, it is in his interest to delegate administrative duties to another person even if he is better at such task than his deputy, because it allows him to maximize the value generated for others, and thus its own wealth.
 
 In essence, there is a benefit to specialization, even for individuals who do not have absolute advantages, because time is a scarce and rival resource: each unit of time spent on an activity other than the one for which an individual is most productive implies a cost represented by the foregone production they renounced (opportunity cost).
 
@@ -191,7 +198,7 @@ Once the individual is specialized in a particular production, they can then res
 
 The result of the preceding analysis is that individuals are always better off when they specialize in their work and engage in exchanges. Therefore, Austrian economists, especially Ludwig Von Mises, conclude that the productive advantage arising from the division of labor is the driving force behind the process of social cooperation. Here, it may be useful to quote him directly:
 
-"The fundamental facts that brought about cooperation, society, and civilization and transformed the animal man into a human being are the facts that work performed under the division of labor is more productive than isolated work and that man’s reason is capable of recognizing this truth. […] People do not cooperate under the division of labor because they love or should love one another. They cooperate because this best serves their own interests." 
+"The fundamental facts that brought about cooperation, society, and civilization and transformed the animal man into a human being are the facts that work performed under the division of labor is more productive than isolated work and that man’s reason is capable of recognizing this truth. […] People do not cooperate under the division of labor because they love or should love one another. They cooperate because this best serves their own interests."
 
 ### Conclusion
 
@@ -199,11 +206,11 @@ The result of the preceding analysis is that individuals are always better off w
 >
 > Baruch Spinoza
 
-1871-1874 are the wonderful years of modern economics: this period witnessed the works of three independent thinkers foundational to modern economics. With their emphasis on subjective ordinal value Austrian economists will develop a whole body of economic thought setting them apart from their homologues. The work of Austrian economists reasoning about human action in the context of scarcity will forever stand in stark contrast with the economic doctrines initiated by Jevons and Walras heavily relying on mathematics standing on the back of the idea that value can be objectively measured and derived as a continuous function.  
+1871-1874 are the wonderful years of modern economics: this period witnessed the works of three independent thinkers foundational to modern economics. With their emphasis on subjective ordinal value Austrian economists will develop a whole body of economic thought setting them apart from their homologues. The work of Austrian economists reasoning about human action in the context of scarcity will forever stand in stark contrast with the economic doctrines initiated by Jevons and Walras heavily relying on mathematics standing on the back of the idea that value can be objectively measured and derived as a continuous function.
 
 Building on the insights of subjective ordinal value Menger explained the emergence of the division of labor and voluntary exchange. Yet as we will see in the next chapter, direct exchange is a poor strategy for economic agents seeking to maximize their subjective utility. The father of the Austrian School has thus further developed his reasoning to explained why money emerged as a social institution.
 
-The following chapters will be dedicated to the emergence of money as a social institution, the theory of capital and interest, which will serve as the basis for the Theory of the Business Cycle, and lastly the role of prices for economic calculation. 
+The following chapters will be dedicated to the emergence of money as a social institution, the theory of capital and interest, which will serve as the basis for the Theory of the Business Cycle, and lastly the role of prices for economic calculation.
 
 # The Emergence of Money as a Social Phenomenon
 
@@ -225,17 +232,18 @@ Originally, the prisoner's dilemma was formulated as follows: Two suspects, Alic
 
 These outcomes can be represented in a matrix (numerical results indicate the number of years of imprisonment):
 
-| Alice / Bob       | Accuse      | Remain Silent |
-| ----------------- | ----------- | ------------- |
-| **Accuse**        | 2, 2        | 0, 3         |
-| **Remain Silent** | 3, 0        | 1, 1         |
+| Alice / Bob       | Accuse | Remain Silent |
+| ----------------- | ------ | ------------- |
+| **Accuse**        | 2, 2   | 0, 3          |
+| **Remain Silent** | 3, 0   | 1, 1          |
 
-
-In this game, there is no opportunity for coordination (communication is impossible) to achieve the best outcome for both parties. Consequently, Alice and Bob have an individual incentive to accuse each other, even though it does not lead to the optimal outcome for the group. The optimal strategy for both is to remain silent, each receiving a 1-year sentence. 
+In this game, there is no opportunity for coordination (communication is impossible) to achieve the best outcome for both parties. Consequently, Alice and Bob have an individual incentive to accuse each other, even though it does not lead to the optimal outcome for the group. The optimal strategy for both is to remain silent, each receiving a 1-year sentence.
 
 This game illustrates a problem frequently encountered in real life: in the absence of coordination mechanisms, individuals tend to choose strategies that maximize their individual gain, regardless of the strategies chosen by others (theft, cheating, betrayal, violence, etc.), even when a more desirable equilibrium through coordination/collaboration is possible.
 
 ### Money to Solve Coordination Problems
+
+![image](assets/Image/17.png)
 
 This problem has less impact in small communities (e.g., family, friend circles) because, in such cases, everyone knows each other directly, making it possible to remember each other's contributions. Assuming that leaving the community (desertion) incurs a cost, a reputation system based on individual agents' memory is usually sufficient to avoid the pitfalls posed by the prisoner's dilemma.
 
@@ -245,7 +253,7 @@ First, humans are limited by their cognitive capacities. It is impossible for a 
 
 Second, socially accepted measurement of the value of contributions in exchange (commensurability) is a non-trivial problem. For example, if an individual provides meat from hunting and requests materials for shelter in return, how can the amount of meat offered be evaluated in terms equivalent to the requested materials? The same goes for quality – is deer meat worth more or less than wood?
 
-Even if it were possible to establish a satisfactory exchange rate for each pair of goods, maintaining this information quickly becomes impractical. In a direct exchange system involving N goods, there are N(N-1)/2 exchange rates to remember. For an economy of 50 goods, that means remembering 50*49/2, or 1225 exchange rates, as opposed to just 50 in indirect exchanges. For an economy of 100 goods, this number increases to 4950. Such a quadratic relationship places an additional limit on the scalability of direct exchange (barter).
+Even if it were possible to establish a satisfactory exchange rate for each pair of goods, maintaining this information quickly becomes impractical. In a direct exchange system involving N goods, there are N(N-1)/2 exchange rates to remember. For an economy of 50 goods, that means remembering 50\*49/2, or 1225 exchange rates, as opposed to just 50 in indirect exchanges. For an economy of 100 goods, this number increases to 4950. Such a quadratic relationship places an additional limit on the scalability of direct exchange (barter).
 
 Moreover, since these exchanges don't occur instantly but are spaced over time, evaluating contributions over time further complicates the relative assessment of contributions. In addition to assessing the exchange ratio between two present goods, it becomes necessary to evaluate the value of a past contribution relative to a future counterpart.
 
@@ -254,6 +262,8 @@ Today, despite the impracticality of such a system, we could use writing or digi
 In pre-civilization times, these technologies did not exist. Thus, our ancestors had to find other solutions to enjoy the benefits of the division of labor without exposing themselves to the negative consequences of the prisoner's dilemma. The solution to this problem of direct exchange was indirect exchange facilitated by money.
 
 ### Double Coincidence of Wants and Salability
+
+![image](assets/Image/18.png)
 
 Money can be seen as the solution discovered by our ancestors to address what economists call the "double coincidence of wants" problem. This problem has three dimensions: spatial, temporal, and interpersonal.
 
@@ -283,39 +293,41 @@ This stems directly from human rationality; no one can ignore the sequential nat
 
 In this regard, money, by allowing the storage of value in the present and its transfer to one's future self, plays a crucial role in the intertemporal coordination of human action. By storing money, i.e., saving, individuals guard against future uncertainty and thus enable themselves to direct their actions toward longer time horizons. However, they can only achieve this if the money used constitutes a store of value, meaning it has salability over time, which, as previously mentioned, is a characteristic of durable and relatively scarce goods.
 
-In the next chapter we will delve into the concept of time preference and explain the Austrian perspective on interest and capital, which will serve as basis for the following chapter about the Theory of the Business Cycle.  
+In the next chapter we will delve into the concept of time preference and explain the Austrian perspective on interest and capital, which will serve as basis for the following chapter about the Theory of the Business Cycle.
 
 # Time Preference, Interest, and Capital
 
 ### Time Preference
 
-We concluded the last chapter by explaining how economic agents use the most salable good, i.e. money to stave off future uncertainty. We also explained that the sequential nature of temporal phenomena leads us to fight uncertainty gradually: only when we know that our subsistence will be assured for the next week can we concentrate toward goals farther into the future. 
+We concluded the last chapter by explaining how economic agents use the most salable good, i.e. money to stave off future uncertainty. We also explained that the sequential nature of temporal phenomena leads us to fight uncertainty gradually: only when we know that our subsistence will be assured for the next week can we concentrate toward goals farther into the future.
 
 Or, to say it differently: as human beings we discount the value of future goods.
 
-This subjective evaluation of the value of future goods compared to present goods is referred to as time preference. All else being equal, present goods are inherently preferred over future goods. Since we are mortal, and the future is always uncertain, we naturally prefer to have access to a good now rather than later. While time preference can differ between individuals, due to a myriad of factors such as culture, wealth, education, physiology, etc., time preferences are always positive, meaning that all things equal, we always value present goods more than future goods. 
+This subjective evaluation of the value of future goods compared to present goods is referred to as time preference. All else being equal, present goods are inherently preferred over future goods. Since we are mortal, and the future is always uncertain, we naturally prefer to have access to a good now rather than later. While time preference can differ between individuals, due to a myriad of factors such as culture, wealth, education, physiology, etc., time preferences are always positive, meaning that all things equal, we always value present goods more than future goods.
 
 This concept of relative valuation of future goods over present goods is at the root of the phenomenon of interest. Indeed, in an economy with unmanipulated capital markets, reference interest rates (considered risk-free from default) are determined at the intersection of capital supply and demand. Therefore, these rates represent the state of time preferences for the entire economy: an increase in the interest rate results from a relative increase in demand for capital compared to supply, indicating higher time preferences. Conversely, a decrease in interest rates occurs due to an increase in savings, which is an increase in the supply of capital, indicating a reduction in time preferences.
 
 ![image](assets/Image/9.png)
 
-In an economy where interest rates are not manipulated by the central bank, we tend to observe an upward-sloping yield curve: the longer the maturity of the debt, the higher the interest rate. The opposite situation can’t happen because it would entail that the future is more certain than the present, which is a logical impossibility. 
+In an economy where interest rates are not manipulated by the central bank, we tend to observe an upward-sloping yield curve: the longer the maturity of the debt, the higher the interest rate. The opposite situation can’t happen because it would entail that the future is more certain than the present, which is a logical impossibility.
 
 The concept of time preference and how we express our own time preference by act of consumption and savings is fundamental to the processes of capital allocation and production. Let’s turn to Menger’s student, Eugen von Böhm-Bawerk, and his capital theory to understand exactly how time preference affect the organization of production.
 
-### Capital Theory 
+### Capital Theory
 
-At the beginning of this course, we saw that, for Carl Menger, goods are only considered economic goods (valued) because they serve as means to ends chosen and valued by individuals. According to this view, all economic analysis revolves around consumption because it is ultimately the motivating objective behind all economic activity. Therefore, for Menger, the starting point of economic analysis is consumer goods, or final goods, as they represent the ultimate purpose of economic activity. All other goods in the economy, which we can call "intermediate goods," only have value because they enable individuals to obtain these consumer goods: they are goods used in the production of other goods. 
+![image](assets/Image/19.png)
+
+At the beginning of this course, we saw that, for Carl Menger, goods are only considered economic goods (valued) because they serve as means to ends chosen and valued by individuals. According to this view, all economic analysis revolves around consumption because it is ultimately the motivating objective behind all economic activity. Therefore, for Menger, the starting point of economic analysis is consumer goods, or final goods, as they represent the ultimate purpose of economic activity. All other goods in the economy, which we can call "intermediate goods," only have value because they enable individuals to obtain these consumer goods: they are goods used in the production of other goods.
 
 To produce consumer goods, entrepreneurs combine these various intermediate goods with original factors of production (labor, land, and capital) according to a pattern that maximizes the resulting production. This arrangement, made by entrepreneurs, or the production structure, includes various stages during which intermediate goods undergo transformations until they eventually become consumer goods.
 
-Thus, like Menger, we can define consumer goods as first-order goods, goods involved in the previous stage as second-order goods, those in the stage before that as third-order goods, and so on, until we reach the original factors (land, labor, capital). The number of stages we consider fundamentally depends on the production structure adopted by entrepreneurs and should not be seen as an objective characteristic of the production structure. On the contrary, production stages and intermediate goods only exist within a teleological context: the actor envisions a sequence of actions through which they will achieve their desired objective, and they mentally divide their action into successive stages. 
+Thus, like Menger, we can define consumer goods as first-order goods, goods involved in the previous stage as second-order goods, those in the stage before that as third-order goods, and so on, until we reach the original factors (land, labor, capital). The number of stages we consider fundamentally depends on the production structure adopted by entrepreneurs and should not be seen as an objective characteristic of the production structure. On the contrary, production stages and intermediate goods only exist within a teleological context: the actor envisions a sequence of actions through which they will achieve their desired objective, and they mentally divide their action into successive stages.
 
-This characteristic of mental projection of action in a sequential pattern is imposed by the temporal nature of human action. Each action undertaken by humans takes time; immediate action is impossible. Therefore, the actor always has a choice among action patterns that take more or less time. 
+This characteristic of mental projection of action in a sequential pattern is imposed by the temporal nature of human action. Each action undertaken by humans takes time; immediate action is impossible. Therefore, the actor always has a choice among action patterns that take more or less time.
 
 Henceforth, since individuals necessarily have positive time preferences, meaning they prefer present goods to future goods, they will only choose a longer path if the result obtained has greater subjective value for them than what they would have achieved by taking the direct path. Otherwise, no one would adopt more time-consuming methods: under equivalent results, the shortest path remains the preferred choice.
 
-Due to the sequential nature of human action, these intertemporal choices always have implications for the action sequence. In other words, the short-term actions I take are subordinate to the long-term goals I set, and my short-term actions will influence what I can do in the future. The implication of this obvious point concerning production activities is that any production detour, i.e., any lengthening of the production structure, requires prior saving. If I decide to allocate more resources in the present to achieve a future goal, I must first set aside what will sustain me during the time my investment takes. 
+Due to the sequential nature of human action, these intertemporal choices always have implications for the action sequence. In other words, the short-term actions I take are subordinate to the long-term goals I set, and my short-term actions will influence what I can do in the future. The implication of this obvious point concerning production activities is that any production detour, i.e., any lengthening of the production structure, requires prior saving. If I decide to allocate more resources in the present to achieve a future goal, I must first set aside what will sustain me during the time my investment takes.
 
 To illustrate this point, let's revisit the example given by Böhm-Bawerk, in his work "Capital and Interest":
 
@@ -325,9 +337,13 @@ Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe and Production Detour/Roundabout:
 
+![image](assets/Image/20.png)
+
+Robinson Crusoe Landing Stores from the Wreck, John Alexander Gilfillan (1793-1864)
+
 In his book, the Austrian economist invites us to consider the intertemporal trade-offs inherent in production detours through a thought experiment based on Robinson Crusoe alone on his island.
 
-Robinson, like a primitive human, depends on foraging and hunting for his sustenance. Let's imagine that Robinson can gather enough berries to feed himself for a whole day in eight hours. In such conditions, he has little time for other activities. However, Robinson believes that by making a wooden pole, he could easily knock down the berries and obtain his daily food in just four hours of work. Furthermore, he estimates that it will take him five days, working two hours each day, to make the pole. Therefore, he concludes that he needs to save 1/5th of his berry production for five days, or alternatively spend an additional 2 hours per day on gathering for 5 days, to save enough berries to sustain himself during the time he spends making the pole. 
+Robinson, like a primitive human, depends on foraging and hunting for his sustenance. Let's imagine that Robinson can gather enough berries to feed himself for a whole day in eight hours. In such conditions, he has little time for other activities. However, Robinson believes that by making a wooden pole, he could easily knock down the berries and obtain his daily food in just four hours of work. Furthermore, he estimates that it will take him five days, working two hours each day, to make the pole. Therefore, he concludes that he needs to save 1/5th of his berry production for five days, or alternatively spend an additional 2 hours per day on gathering for 5 days, to save enough berries to sustain himself during the time he spends making the pole.
 
 If he doesn't make this prior saving, Robinson will be unable to complete his pole and might die in the meantime.
 
@@ -337,11 +353,11 @@ By acting this way, Robinson takes a production detour: instead of directly gath
 
 ### Conclusion
 
-In other words, in Robinson Crusoe's one-person economy, saving through the sacrifice of present satisfaction is what accumulates the capital that increases productivity. In this context, saving, i.e., deferring present satisfaction, is the price to pay for increased future satisfaction. This means that, in this context, saving is the prerequisite and necessary condition for any economic development. 
+In other words, in Robinson Crusoe's one-person economy, saving through the sacrifice of present satisfaction is what accumulates the capital that increases productivity. In this context, saving, i.e., deferring present satisfaction, is the price to pay for increased future satisfaction. This means that, in this context, saving is the prerequisite and necessary condition for any economic development.
 
-This is a tantalizing, albeit simple, concept: any extension of the production structure requires prior savings (as the goods needed for such production won’t fall from the sky), and thus, the more we save, the more capital we will be able to accumulate, which will in turn translate into productivity gains yielding more goods. Thus, Austrian economists consider that the lowering of time preferences is the starting point for a virtuous cycle of savings –> more capital goods  more productivity  more goods = higher standard of living –> lower time preference. 
+This is a tantalizing, albeit simple, concept: any extension of the production structure requires prior savings (as the goods needed for such production won’t fall from the sky), and thus, the more we save, the more capital we will be able to accumulate, which will in turn translate into productivity gains yielding more goods. Thus, Austrian economists consider that the lowering of time preferences is the starting point for a virtuous cycle of savings –> more capital goods  more productivity  more goods = higher standard of living –> lower time preference.
 
-Now, as eluded in the first chapter, interest rates have been manipulated for decades by central banks all the while commercial banks extended credit without prior reserves, meaning that interest rates don’t represent our time preference and gives an illusion of abundant savings. 
+Now, as eluded in the first chapter, interest rates have been manipulated for decades by central banks all the while commercial banks extended credit without prior reserves, meaning that interest rates don’t represent our time preference and gives an illusion of abundant savings.
 
 This is perfectly illustrated by the chart below: long-rates are lower than short-rates. First, this makes absolutely no sense, because it would entail that the future is more certain than the present. Second, it warrants an inquiry about the consequences for capital allocation: if everyone is incentivized to act as if savings were abundant, whereas savers are nowhere to be found because they are not rewarded for saving, what consequences could this yield for the economy?
 
@@ -349,8 +365,9 @@ This is perfectly illustrated by the chart below: long-rates are lower than shor
 
 This is what we will find out in the next chapter dedicated to the Austrian Theory of the Business Cycle!
 
+# Austrian Economic Perspectives
 
-# The Austrian Theory of the Business Cycle
+## The Austrian Theory of the Business Cycle
 
 ![Economic Cycles for the Austrian School](https://youtu.be/CrPE6mcOjx4)
 
@@ -371,7 +388,7 @@ To describe this phenomenon of temporal miscoordination and its consequences as 
 ### Decrease in Interest Rates Due to an Increase in Savings:
 
 To facilitate our explanation, we will return to Menger's classification of goods and represent the productive structure on a diagram consisting of an arbitrary number of stages:
- 
+
 ![image](assets/Image/12.png)
 
 In the above diagram, initial resources pass through various stages of production, undergoing transformations that bring them closer to the state of final consumer goods (through interaction with original factors of production: time, land, labor). The height of the right side of the triangle schematically represents GDP since it denotes the sum of all consumer goods sold in a period. The gap between each bar corresponds to the value added (in monetary terms) generated by each stage of the process. This difference can also be seen as the income associated with each stage (revenues - costs).
@@ -402,7 +419,7 @@ As credit enters the economy through loans to entrepreneurs, we should observe a
 
 Now, the entrepreneurs involved in these higher stages of production earn higher monetary incomes, and, as time preference remained the same, we should also see increased demand for consumer products. But as, during this boom, the relative profitability of invested capital has been higher in sectors far from consumption, there has been a transfer of resources from activities close to consumption to more distant activities. Consequently, the entrepreneurs in lower stages of production lack the resources to meet the increased demand. This creates tension between these two parts of the production structure: each tries to obtain capital at the expense of the other, and since the demand for consumption represents more urgent needs, at some point, entrepreneurs engaged in activities distant from consumption will run short of the resources needed to complete their investments. The profit rate in these sectors then starts to decline, businesses go bankrupt, and the relative increase in consumer prices motivates a rapid reallocation of capital toward the production of lower-order goods. When this sudden resource reallocation manifests, the economy enters a recession: asset prices fall, real wages decline, consumer prices fall, and inventory piles up.
 
-For Friedrich Hayek and Ludwig von Mises, the recession is the manifestation of the misallocation of capital from the expansion phase. As prices for savings and capital were manipulated, entrepreneurs developed projects which could not be finished by lack of resources, and/or build productive capacity planning for a future level of consumption which could not be sustained due to a lack of savings. 
+For Friedrich Hayek and Ludwig von Mises, the recession is the manifestation of the misallocation of capital from the expansion phase. As prices for savings and capital were manipulated, entrepreneurs developed projects which could not be finished by lack of resources, and/or build productive capacity planning for a future level of consumption which could not be sustained due to a lack of savings.
 
 Only through deflation, i.e. decline in asset prices and wage prices, higher interest rates, and the liquidation of unfinished projects can the economy readjust and develop toward a sustainable path. So, the recession is the dissipation of this illusion of prosperity triggering a violent readjustment process.
 
@@ -412,19 +429,21 @@ Such an adjustment can be viewed as a period during which underconsumption, and 
 
 Unfortunately, this depressive mechanism is often interrupted by political power and central banks seeking to “boost” the economy through deficit spending and easy monetary policy.
 
-For both monetarists and Keynesians, the cause of the depression is insufficient aggregate demand, so neither pays attention to the evolution of relative prices, which, as we have seen, is the core of the problem. Thus, they believe that providing an incentive for credit expansion (lowering interest rates) and using the state's deficit capacity to boost demand will kickstart a recovery. In the short term, such measures may seem to produce the desired effects: the deficit supports spending, while the reduction in interest rates leads to higher asset prices, which, in turn, encourages asset holders to increase their spending. However, such boost eventually wanes off, while the structural problem remains, or even worsen as capital misallocation continues thanks to artificially low interest rates.  
+![image](assets/Image/21.png)
 
-In the modern era, central banks and governments have been so zealous in preventing the manifestation of this adjustment process that we end up with mass structural unemployment and perpetual debt accumulation. Japan serves as an example in this regard. After the burst of an asset bubble in 1989-90, the Bank of Japan (BoJ) and the various governments in office used all the methods described here to try to "restart the Japanese economy." Apart from brief surges following spending programs and interest rate cuts, Japan has remained in a state of neurasthenic growth and over-indebtedness for 30 years. 
+For both monetarists and Keynesians, the cause of the depression is insufficient aggregate demand, so neither pays attention to the evolution of relative prices, which, as we have seen, is the core of the problem. Thus, they believe that providing an incentive for credit expansion (lowering interest rates) and using the state's deficit capacity to boost demand will kickstart a recovery. In the short term, such measures may seem to produce the desired effects: the deficit supports spending, while the reduction in interest rates leads to higher asset prices, which, in turn, encourages asset holders to increase their spending. However, such boost eventually wanes off, while the structural problem remains, or even worsen as capital misallocation continues thanks to artificially low interest rates.
+
+In the modern era, central banks and governments have been so zealous in preventing the manifestation of this adjustment process that we end up with mass structural unemployment and perpetual debt accumulation. Japan serves as an example in this regard. After the burst of an asset bubble in 1989-90, the Bank of Japan (BoJ) and the various governments in office used all the methods described here to try to "restart the Japanese economy." Apart from brief surges following spending programs and interest rate cuts, Japan has remained in a state of neurasthenic growth and over-indebtedness for 30 years.
 
 ### Conclusion on the Business Cycle Theory:
 
 By emphasizing the sequential nature of human action and paying particular attention to the impact of interest rate fluctuations on the intertemporal coordination of economic agents, Ludwig Von Mises and Friedrich Hayek explained economic cycles as endogenous dynamics of the fractional reserve banking system. The difference between the Austrian analysis and that of monetarists and Keynesians largely lies in the fact that the former pays particular attention to the various stages of production and the structure of relative prices, whereas the latter stops at aggregated variables such as employment levels, GDP, or the consumer price index. Indeed, as they lack a capital theory, mainstream economists tend to attribute the causes of the recession to “animal spirits” or “external events”.
 
-More than any other school of economics, the Austrian School insists on the importance of relative prices to coordinate economic agents. Members of the Austrian School have been dragged into debates on the matter for more than a century, especially so since Mises published his work on the impossibility of economic calculation in socialist economies in 1919. 
+More than any other school of economics, the Austrian School insists on the importance of relative prices to coordinate economic agents. Members of the Austrian School have been dragged into debates on the matter for more than a century, especially so since Mises published his work on the impossibility of economic calculation in socialist economies in 1919.
 
-This will be the subject of the next and last chapter of this course. 
+This will be the subject of the next and last chapter of this course.
 
-# The Impossibility of Economic Calculation under Socialism
+## The Impossibility of Economic Calculation under Socialism
 
 ![The Impossibility of Economic Calculation in a Socialist System](https://youtu.be/E-9Fl6eg-mo)
 
@@ -449,11 +468,13 @@ With his article, Mises introduced a new dimension to the debate. Setting aside 
 
 ### Explaining the Impossibility of Economic Calculation
 
+![image](assets/Image/24.png)
+
 Most misconceptions about Mises's arguments arise from a misunderstanding of the roles played by managerial and entrepreneurial classes in a capitalist economy. Mises never dismissed the ability of managers to devise efficient production plans within their own operations. Instead, he emphasized the significance of entrepreneurs and shareholders, who, as owners of the means of production, allocate capital across different industries, thereby forming prices that serve as inputs in the economic calculations of managers.
 
 Without markets for capital and money, it becomes impossible to rationalize the use of resources across industries. This means that even if there is perfect organization within each firm or subpart of the economy, the entire economy cannot efficiently adjust to changes in resource availability, production conditions, and consumer preferences. In Mises's words:
 
-> "[...] the cardinal fallacy implied in [market socialist] proposals is that they look at the economic problem from the perspective of the subaltern clerk whose intellectual horizon does not extend beyond subordinate tasks. They consider the structure of industrial production and the allocation of capital to the various branches and production aggregates as rigid and do not take into account the necessity of altering this structure to adjust it to changes in conditions.... They fail to realize that the operations of corporate officers consist merely in the loyal execution of the tasks entrusted to them by their bosses, the shareholders.... The operations of managers, their buying and selling, are only a small segment of the totality of market operations. The market of the capitalist society also performs those operations which allocate the capital goods to the various branches of industry. The entrepreneurs and capitalists establish corporations and other firms, enlarge or reduce their size, dissolve them, or merge them with other enterprises; they buy and sell the shares and bonds of already existing and new corporations; they grant, withdraw, and recover credits; in short, they perform all those acts, the totality of which is called the capital and money market. It is these financial transactions of promoters and speculators that direct production into those channels in which it satisfies the most urgent wants of the consumers in the best possible way." 
+> "[...] the cardinal fallacy implied in [market socialist] proposals is that they look at the economic problem from the perspective of the subaltern clerk whose intellectual horizon does not extend beyond subordinate tasks. They consider the structure of industrial production and the allocation of capital to the various branches and production aggregates as rigid and do not take into account the necessity of altering this structure to adjust it to changes in conditions.... They fail to realize that the operations of corporate officers consist merely in the loyal execution of the tasks entrusted to them by their bosses, the shareholders.... The operations of managers, their buying and selling, are only a small segment of the totality of market operations. The market of the capitalist society also performs those operations which allocate the capital goods to the various branches of industry. The entrepreneurs and capitalists establish corporations and other firms, enlarge or reduce their size, dissolve them, or merge them with other enterprises; they buy and sell the shares and bonds of already existing and new corporations; they grant, withdraw, and recover credits; in short, they perform all those acts, the totality of which is called the capital and money market. It is these financial transactions of promoters and speculators that direct production into those channels in which it satisfies the most urgent wants of the consumers in the best possible way."
 >
 > Mises, Human Action, pp. 703-04
 
@@ -465,6 +486,8 @@ This process is crucial because it validates or invalidates the efficiency of va
 
 From this perspective, a centrally planned economy will inevitably experience capital misallocation. In the short to medium term, such misallocations might go unnoticed because there are no market prices or bankruptcies to reveal them. However, due to the absence of feedback (prices) and reallocation mechanisms (bankruptcies), errors will accumulate until the wastefulness becomes apparent through a significant decline in living conditions.
 
+![image](assets/Image/22.png)
+
 ### The Austrian Perspective and the Failures of Other Schools of Economics
 
 One could argue that painting such a panorama in hindsight is easy. After all, we are all aware of the empty shelves in the USSR, Venezuela's hardships, and the humanitarian catastrophe in Cambodia. But Mises foresaw these events as early as 1920. Yet, until the collapse of the USSR in 1989, many economists, including numerous Nobel laureates, were praising the Soviet economic miracle and predicting that the Soviet economy would soon surpass that of the USA.
@@ -473,15 +496,17 @@ Despite this impressive forecasting and numerous empirical demonstrations of the
 
 ### The Austrian Business Cycle Theory as a Specific Case of the Impossibility of Economic Calculation under Socialism
 
+![image](assets/Image/23.png)
+
 In a previous chapter, we elucidated the dynamics of overinvestment and capital misallocation resulting from interest rate manipulation by central banks. Essentially, what we explained can be viewed as a specific case of the impossibility of economic calculation under socialism, applied to the realm of money markets. When prices are fixed outside their market values, entrepreneurs and capital allocators are incentivized to engage in investments that cannot be sustained in the long term due to a lack of savings. By interfering with the price system, central planners (in this case, central bankers) create a miscoordination between economic agents. In this instance, the intertemporal miscoordination entails overinvestment in higher-order investment goods and underinvestment in lower-order investment goods, which represents a specific manifestation of capital misallocation across industries.
 
 The consequences of such misallocation include financial and economic crises, reduced economic activity, and debt deflation. These macroeconomic effects stem from an imbalance between savings and investments resulting from credit expansion. In the USSR and other communist regimes, price fixing led to similar miscoordination, resulting in shortages of some goods and overproduction of others. In both cases, prices fail to reflect the true preferences of consumers, whether in terms of time preferences or consumption preferences, leading entrepreneurs or central planners responsible for resource allocation to invest capital in the "wrong industries."
 
 Today, the economic calculation debate resurfaces primarily in discussions about energy, where malinvestments driven by a green agenda are becoming increasingly evident. It also arises in discussions about money markets, with Austrian economists pointing out that the 2008 crisis, which mainstream economists failed to predict, was a classic boom and bust cycle characterized by overinvestment in the housing market due to prolonged periods of low interest rates. Furthermore, neo-Marxists and other socialist factions propagate the notion that the emergence of AI could resolve the economic calculation problem. However, this perspective stems from a flawed understanding of the issue; the economic calculation problem is not a matter of computing power but rather a matter of generating and distributing information related to production and resource allocation. This information can only be generated locally by agents with specialized knowledge and a vested interest in the outcome. AI cannot replace this bottom-up process and, therefore, cannot help central planners address the resource allocation problem. Unfortunately, due to a century of misunderstanding, we anticipate a proliferation of claims that AI will usher in a new era of economic prosperity led by enlightened central planners who, with the aid of AI, can correct the failures of free markets.
 
-For a concrete application of the economic calculation problem to a contemporary situation, you can refer to this article tackling the problem of resource allocation in modern China. 
+For a concrete application of the economic calculation problem to a contemporary situation, you can refer to this article tackling the problem of resource allocation in modern China.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusion
 
@@ -491,7 +516,7 @@ Mainstream economists and central planners often dislike Austrian economists bec
 
 The Austrian tradition embodies a humble approach to human action, drawing profound implications from the concepts of subjective value, uncertainty, free will, and complexity. It explains how the market order, despite not being a product of human design, stands as the central institution for our development and prosperity. If there's one key takeaway from this course, it is that capitalism became the dominant economic system because of its ability to adapt to change in a dynamic and uncertain world populated by free individuals.
 
-# The Austrian Methodology
+## The Austrian Methodology
 
 ![the Austrian methodology](https://youtu.be/hMyYGwU76dI)
 
@@ -513,7 +538,9 @@ It is important to note that cherry-picking, which involves selectively choosing
 
 Methodology is an essential aspect in economics and in social sciences in general. It influences how questions are asked, hypotheses are formulated, and data is interpreted. Understanding the methodological differences between economic schools of thought can help us appreciate diverse perspectives and develop our own opinions on the topics discussed in previous episodes.
 
-# Further studies
+# Conclusion
+
+## Further studies
 
 Congratulations on completing this ECON 201 course! I sincerely hope you enjoyed it and opened doors for yourself. Your discovery of Bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
 
@@ -535,9 +562,9 @@ By reading these works and exploring these online resources, you can develop a d
 
 This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!
 
-### Rate the course
+### Rate the course (coming soon)
 
-A rating system for the course will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course, and if you enjoyed it, please consider sharing it with others.
+A rating system for the course will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course, and if you enjoyed it, please consider sharing it with others. (coming soon)
 
 If you want to continue digging into the subject of Austrian economics, I suggest several interviews with Théo Mogenet:
 

@@ -709,22 +709,46 @@ l'émergence de la deuxième couche de la monnaie et des premières banques cent
 
 ## 4.2 - Centralisation du pouvoir à traver les crises (Rogzy)
 
+Release Sunday 15 of October 2023
+
 ## 4.3 - Too big too fail & le pouvoir du législateur (Rogzy)
+Release Sunday 15 of October 2023
 
 
 # Section 5 - L’hyperinflation aujourd’hui (Rogzy)
 
 ## USD (pétrodollar) , Euro vs CAD
+Release Sunday 15 of October 2023
+
+
 ## Les petits pays (monnaies faibles, pays dollarisés)
+Release Sunday 15 of October 2023
+
+
 ## Quel serait l’impact pour la Canada et la France (illustrer la différence entres les pays face à l’hyperinflation) (Theo)
+
+Release Sunday 15 of October 2023
+
 
 # Section 6 - Comment se protéger de l’hyperinflation (Rogzy)
 
 ## Or, BTC, choisir un travail, s'éduquer, être mobile et flexible 
 
+Release Sunday 15 of October 2023
+
+
 ## Livres et ressources
+
+Release Sunday 15 of October 2023
+
 
 # Bonus: Témoignages de personnes qui vivent de l’hyperinflation (Rogzy)
 
 ## Argentine, ( paco)
+
+Release Sunday 15 of October 2023
+
+
 ## Venezuela  ( Javier)
+
+Release Sunday 15 of October 2023

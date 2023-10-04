@@ -1014,23 +1014,15 @@ Toute solution réellement positive pour la confidentialité de l'utilisateur do
 
 ### Ressources externes et remerciements :
 
-    Merci à LaurentMT et Théo Pantamis pour les nombreux concepts qu'ils m'ont expliqués, et dont je me suis servi dans cet article. J'espère avoir su les retranscrire avec précision.
+Merci à LaurentMT et Théo Pantamis pour les nombreux concepts qu'ils m'ont expliqués, et dont je me suis servi dans cet article. J'espère avoir su les retranscrire avec précision.
 
-    Merci à Fanis Michalakis pour la relecture de ce texte et ses conseils d'expert.
+Merci à Fanis Michalakis pour la relecture de ce texte et ses conseils d'expert.
 
-    https://bitcoiner.guide/paynym/ 
-
-    https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki 
-
-    https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman 
-
-    https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman_bas%C3%A9_sur_les_courbes_elliptiques 
-
-    https://security.stackexchange.com/questions/46802/what-is-the-difference-between-dhe-and-ecdh#:~:text=The%20difference%20between%20DHE%20and%20ECDH%20in%20two%20bullet%20points,a%20type%20of%20algebraic%20curve). 
-
-    https://commandlinefanatic.com/cgi-bin/showarticle.cgi?article=art060 
-
-    https://ee.stanford.edu/~hellman/publications/24.pdf 
-
-    https://www.researchgate.net/publication/317339928_A_study_on_diffie-hellman_key_exchange_protocols 
-
+* https://bitcoiner.guide/paynym/
+* https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
+* https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman
+* https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman_bas%C3%A9_sur_les_courbes_elliptiques
+* https://security.stackexchange.com/questions/46802/what-is-the-difference-between-dhe-and-ecdh#:~:text=The%20difference%20between%20DHE%20and%20ECDH%20in%20two%20bullet%20points,a%20type%20of%20algebraic%20curve).
+* https://commandlinefanatic.com/cgi-bin/showarticle.cgi?article=art060
+* https://ee.stanford.edu/~hellman/publications/24.pdf
+* https://www.researchgate.net/publication/317339928_A_study_on_diffie-hellman_key_exchange_protocols

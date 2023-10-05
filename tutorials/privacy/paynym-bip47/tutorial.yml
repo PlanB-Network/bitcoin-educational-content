@@ -1,12 +1,15 @@
-builder: Tails
+builder: Loïc morel
 
 tags:
   - privacy
-  - OS
+  - BIP
 
-category: general
+category: bitcoin
 
 level: advanced
 
-
-credit: https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable#viewer-1cdv8
+credits:
+  name: Loïc Morel
+  link: https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable#viewer-1cdv8
+  tips:
+    lightning_adress: loic@sats.pandul.fr

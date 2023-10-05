@@ -1,5 +1,5 @@
 ---
-n&me: Watch Tower
+name: Watch Tower
 description: Compreendendo e usando uma torre de observação
 ---
 
@@ -37,9 +37,9 @@ rpcpassword=<sua-senha>
 regtest=1
 ```
 
-* server: Para solicitações RPC
-* rpcuser e rpcpassword: Os clientes RPC podem autenticar-se com o servidor
-* regtest: Não é necessário, mas útil se você estiver planejando para desenvolvimento.
+- server: Para solicitações RPC
+- rpcuser e rpcpassword: Os clientes RPC podem autenticar-se com o servidor
+- regtest: Não é necessário, mas útil se você estiver planejando para desenvolvimento.
 
 rpcuser e rpcpassword precisam ser escolhidos por você. Eles devem ser escritos sem aspas. Por exemplo:-
 
@@ -52,6 +52,7 @@ Agora, se você executar o bitcoind, ele deve iniciar a execução do nó.
 
 1. Para a parte da torre, primeiro, você precisa instalar o teos a partir da fonte. Siga as instruções fornecidas neste link.
 2. Após instalar com sucesso o teos em seu sistema e executar os testes, você pode prosseguir com o último passo, que é configurar o arquivo teos.toml no diretório do usuário teos. O arquivo precisa ser colocado em uma pasta chamada .teos (observe o ponto) dentro da sua pasta pessoal. Ou seja, por exemplo, /home/<seu-nome-de-usuário>/.teos para Linux. Assim que encontrar o local, crie um arquivo teos.toml e defina essas opções correspondentes às coisas que alteramos no bitcoind.
+
 ```
 #bitcoind
 btc_network = "regtest"

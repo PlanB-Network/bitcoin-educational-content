@@ -87,7 +87,7 @@ Le logiciel NerdMinerv2 comprends 3 écrans différents, que vous pouvez accèse
 - le second écran donne accès à l'heure, votre hashrate, le prix du bitcoin et la hauteur de bloc
 - le troisième écran donne accès aux statistiques du réseau mondial de minage sur bitcoin
 
-![](NM2-screens.png)
+![](assets/NM2-screens.png)
 
 Si vous souhaitez rebooter votre NerdMiner, pour changez de réseau WiFi par exemple, il faut appuyez pendant 5 secondes le bouton du haut.
 

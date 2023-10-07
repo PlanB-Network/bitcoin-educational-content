@@ -9,7 +9,7 @@ description: Commencez à miner du bitcoin avec une chance de gagner proche de 0
 > Configuration de votre NerdMiner_v2
 
 Dans ce tutoriel, nous vous guiderons à travers les étapes nécessaires pour configurer un NerdMiner_v2, qui est un matériel informatique (un ESP-32 S3) dédié au minage de bitcoin.
-Évidemment la puissance de calcul d'un tel appareil ne peut rivaliser avec les ASICs des mineurs amateurs ou professionnels. Néanmoins, le NerdMiner est un parfait outil pédagogique pour rendre le minage de bitcoin concret. Et qui sait, avec (beaucoup beaucoup) de chance, vous trouverez peut être un bloc et la récompense qui va avec. Pour les curieux, nous verrons dans la section [Estimation de la probabilité de gain](#estimation-de-la-probabilité-de-grain). En terme de consommation électrique, un NerdMiner consomme 0.5W; à titre de comparaison, une lampe LED consomme en moyenne 20 fois plus.
+Évidemment la puissance de calcul d'un tel appareil ne peut rivaliser avec les ASICs des mineurs amateurs ou professionnels. Néanmoins, le NerdMiner est un parfait outil pédagogique pour rendre le minage de bitcoin concret. Et qui sait, avec (beaucoup beaucoup) de chance, vous trouverez peut être un bloc et la récompense qui va avec. Pour les curieux, nous verrons dans la section [Estimation de la probabilité de gain](#estimation-de-la-probabilite-de-gain). En terme de consommation électrique, un NerdMiner consomme 0.5W; à titre de comparaison, une lampe LED consomme en moyenne 20 fois plus.
 
 Avant de passer en revue les différentes étapes, listons le matériel nécessaire pour le réaliser :
 
@@ -25,7 +25,7 @@ Vous pouvez également acheter un kit NerdMiner déjà pré-assemblé chez plusi
 - [DécouvreBitcoin](https://shop.decouvrebitcoin.com/products/nerd-miner?_pos=1&_psq=nerd&_ss=e&_v=1.0)
 - [BitMaker](https://bitronics.store/shop/)
 
-Dans un premier temps, nous allons voir comment flasher le logiciel sur le ESP-32 S3, puis nous verrons comment le rebooter pour changer de réseau wifi. Ces étapes sont faites pour des utilisateurs Windows, si vous utilisez un OS linux veuillez effecturer les [étapes préliminaires](#étapes-préliminaires-pour-utilisateurs-linux) pour permettre la reconnaissance du ESP-32 S3 par votre systmème.
+Dans un premier temps, nous allons voir comment flasher le logiciel sur le ESP-32 S3, puis nous verrons comment le rebooter pour changer de réseau wifi. Ces étapes sont faites pour des utilisateurs Windows, si vous utilisez un OS linux veuillez effecturer les [étapes préliminaires](#etapes-preliminaires-pour-utilisateurs-linux) pour permettre la reconnaissance du ESP-32 S3 par votre systmème.
 
 # Installation du logiciel NerdMiner_v2
 
@@ -112,7 +112,7 @@ Voici les étapes pour que Chrome puisse détecter votre port sérial sur un lin
   - `sudo usermod -a -G dialout YOUR_USERNAME`, remplacer `YOUR_USERNAME` par votre nom d'utilisateur.
   - puis déconnectez-vous puis reconnectez-vous sous cet utilisateur, ou redémarrez le système pour vous assurer que les modifications de groupe prennent effet.
 
-Maintenant que vous ESP-32 est reconnu par votre système vous pouvez retourner à la [première étape](#etape-1-allez-sur-le-site-webflasher) pour l'installation du logiciel.
+Maintenant que vous ESP-32 est reconnu par votre système vous pouvez retourner à la [première étape](#etape-1-preparation-du-webflasher) pour l'installation du logiciel.
 
 ## Conclusion
 

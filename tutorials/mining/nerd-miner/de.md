@@ -1,6 +1,7 @@
+---
 name: Nerdminer
-
-## description: Beginnen Sie mit dem Bitcoin-Mining mit einer Gewinnchance nahe 0.
+description: Beginnen Sie mit dem Bitcoin-Mining mit einer Gewinnchance nahe 0.
+---
 
 ![cover](assets/cover.jpeg)
 

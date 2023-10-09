@@ -1,6 +1,7 @@
+---
 name: Nerdminer
-
-## description: Start mining bitcoin with a chance of winning close to 0
+description: Start mining bitcoin with a chance of winning close to 0
+---
 
 ![cover](assets/cover.jpeg)
 

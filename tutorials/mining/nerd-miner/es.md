@@ -1,6 +1,7 @@
+---
 name: Nerdminer
-
-## description: Comienza a minar bitcoin con una probabilidad de ganar cercana a 0
+description: Comienza a minar bitcoin con una probabilidad de ganar cercana a 0
+---
 
 ![portada](assets/cover.jpeg)
 

@@ -32,6 +32,8 @@ class ValidationMixin:
         missing_fields = set(self.REQUIRED_FIELDS) - set(self.data.keys())
         if missing_fields:
             self.errors.append(f"Missing required fields: {', '.join(missing_fields)}")
+        # TODO: try first look if mispelled field?
+        # TODO: offer the guy running the script to to fix it in-process?
 
     def validate_optional_fields(self):
         if self.OPTIONAL_FIELDS:
@@ -40,6 +42,8 @@ class ValidationMixin:
                 self.warnings.append(
                     f"Missing optional fields: {', '.join(missing_fields)}"
                 )
+            # TODO: try first look if mispelled field?
+            # TODO: offer the guy running the script to to fix it in-process?
 
     def validate_unrecognized_fields(self):
         allowed_fields = set(self.REQUIRED_FIELDS + self.OPTIONAL_FIELDS)
@@ -48,6 +52,7 @@ class ValidationMixin:
             self.warnings.append(
                 f"Unrecognized fields: {', '.join(unrecognized_fields)}"
             )
+        # TODO: offer the guy running the script to to fix it in-process?
 
     def fix_order(self):
         sorted_fields = []
@@ -114,7 +119,7 @@ class Course(ValidationMixin):
         self.load_languages()
 
     def load_course_yml(self) -> CommentedMap:
-        with open(self.course_yml, encoding="utf-8") as f:
+        with open(self.course_yml, 'r', encoding="utf-8") as f:
             return YAML.load(f)
 
     def load_languages(self):
@@ -133,12 +138,25 @@ class Course(ValidationMixin):
         self.validate_unrecognized_fields()
 
         if self.data["level"] not in self.LEVELS:
+            # TODO: try to fix dislexia/missing char error first?
             self.errors.append(f"Invalid level: {self.data['level']}")
 
         if "hours" in self.data and not isinstance(self.data["hours"], int):
+            # TODO: try to fix before trigger error? =>
+            #  try:
+            #     self.data["hours"] = int(self.data["hours"])
+            #  except:
+            # TODO: or ask for validation by the guy running the script?
+
             self.errors.append(f"'hours' should be an integer: {self.data['hours']}")
 
         if "teacher" in self.data and not isinstance(self.data["teacher"], str):
+          # TODO: try to fix before trigger error? =>
+          #  try:
+          #     self.data["teacher"] = str(self.data["teacher"])
+          #  except:
+          # TODO: or ask for validation by the guy running the script?
+
             self.errors.append(f"'teacher' should be a string: {self.data['teacher']}")
 
         if "contributors" in self.data and (
@@ -211,7 +229,7 @@ class Podcast(ValidationMixin):
         self.data = self.load_podcast_yml()
 
     def load_podcast_yml(self) -> CommentedMap:
-        with open(self.podcast_yml, encoding="utf-8") as f:
+        with open(self.podcast_yml, 'r', encoding="utf-8") as f:
             return YAML.load(f)
 
     def save(self):
@@ -235,7 +253,7 @@ class Podcast(ValidationMixin):
         links = self.data["links"]
 
         if not isinstance(links, dict):
-            self.errors.append("'links' should be an object")
+            self.errors.append("'links' should be a dict")
 
         for link_name, link_url in links.items():
             if not isinstance(link_url, str):
@@ -244,13 +262,12 @@ class Podcast(ValidationMixin):
 
 def replace_in_files(files: List[str], old: str, new: str):
     for file_path in files:
-        with open(file_path, "r", encoding="utf-8") as file:
-            file_data = file.read()
-
+      with open(file_path, "r+", encoding="utf-8") as file:
+        file_data = file.read()
         file_data = file_data.replace(old, new)
-
-        with open(file_path, "w", encoding="utf-8") as file:
-            file.write(file_data)
+        file.seek(0)
+        file.write(file_data)
+        file.truncate()
 
 
 def find_and_fix_courses(directory: str):
@@ -292,38 +309,45 @@ def find_and_fix_podcasts(directory: str):
     print("✅ Finished checking podcasts\n")
 
 
-def find_and_fix_assets(directory: str):
+def find_and_fix_assets(directory: str, folders: []):
     print("🔎 Checking file names")
 
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.startswith(".") or "/." in os.path.join(root, file):
-                continue
+    for folder in folders:
+      for root, _, files in os.walk(os.path.join(directory, folder)):
+          for file in files:
+              if file.startswith(".") or "/." in os.path.join(root, file):
+                  continue
 
-            old_file_path = os.path.join(root, file)
-            new_file_name = re.sub(
-                "_+|-+", "_", INVALID_CHARS_PATTERN.sub("_", unidecode(file).lower())
-            )
+              old_file_path = os.path.join(root, file)
+              new_file_name = re.sub(
+                  "_+|-+", "_", INVALID_CHARS_PATTERN.sub("_", unidecode(file).lower())
+              )
 
-            new_file_path = os.path.join(root, new_file_name)
+              new_file_path = os.path.join(root, new_file_name)
 
-            if old_file_path != new_file_path:
-                os.rename(old_file_path, new_file_path)
-                print(f"Renamed file {old_file_path} to {new_file_path}")
+              if old_file_path != new_file_path:
+                  os.rename(old_file_path, new_file_path)
+                  print(f"Renamed file {old_file_path} to {new_file_path}")
 
-                files = [
-                    os.path.join(r, f)
-                    for r, _, fs in os.walk(directory)
-                    for f in fs
-                    if f.endswith(".md") or f.endswith(".yml")
-                ]
-                replace_in_files(files, file, new_file_name)
+                  files = [
+                      os.path.join(r, f)
+                      for r, _, fs in os.walk(directory)
+                      for f in fs
+                      if f.endswith(".md") or f.endswith(".yml")
+                  ]
+                  replace_in_files(files, file, new_file_name)
 
-    print("✅ Finished checking file names")
+      print("✅ Finished checking file names")
 
 
 if __name__ == "__main__":
-    directory = "."
+    directory = ".."
     find_and_fix_courses(os.path.join(directory, "courses"))
     find_and_fix_podcasts(os.path.join(directory, "resources/podcasts"))
-    find_and_fix_assets(directory)
+    folders = [
+      'courses',
+      'resources',
+      'soon',
+      'tutorials',
+    ]
+    find_and_fix_assets(directory, folders)

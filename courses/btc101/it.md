@@ -109,7 +109,7 @@ Il movimento cypherpunk, con le sue radici profonde nell'attivismo digitale e ne
 
 ### I Predecessori di Bitcoin
 
-Prima dell'apparizione di Bitcoin, sono state fatte diverse tentativi per creare una valuta digitale. Ad esempio, David Chaum ha introdotto il concetto di "moneta elettronica anonima" con il suo progetto "DigiCash" negli anni '80. Purtroppo, a causa di varie limitazioni, DigiCash non è mai decollato veramente.
+Prima dell'apparizione di Bitcoin, sono stati fatti diversi tentativi per creare una valuta digitale. Ad esempio, David Chaum ha introdotto il concetto di "moneta elettronica anonima" con il suo progetto "DigiCash" negli anni '80. Purtroppo, a causa di varie limitazioni, DigiCash non è mai decollato veramente.
 
 Un altro importante precursore è "b-money" di Wei Dai. Anche se non è mai stato implementato, presentava l'idea di una valuta digitale anonima in cui la rilevazione delle frodi era effettuata da una comunità di valutatori anziché da un'autorità centrale.
 

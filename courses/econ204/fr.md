@@ -634,10 +634,9 @@ Dans des situations d'hyperinflation ou de crise monétaire, les marchés parall
 
 > Argentine: “Je suis donc allé là où vont tous les Argentins : les cuevas, les “grottes”, que l’on trouve dans le quartier de Florida au cœur de Buenos Aires.” - TheBigWhale
 
-
 9. Le change de monnaie était illégal
 
- les gouvernements, dans un effort pour stabiliser leur propre monnaie et contrôler le flux de capitaux, peuvent rendre illégales ces transactions en devises étrangères. Ces mesures répressives, bien que destinées à protéger l'économie nationale, peuvent souvent avoir l'effet inverse, exacerbant la méfiance du public et encourageant le marché noir.
+les gouvernements, dans un effort pour stabiliser leur propre monnaie et contrôler le flux de capitaux, peuvent rendre illégales ces transactions en devises étrangères. Ces mesures répressives, bien que destinées à protéger l'économie nationale, peuvent souvent avoir l'effet inverse, exacerbant la méfiance du public et encourageant le marché noir.
 
 > Weimar: “Les gens en venaient à commercer par le troc et se tournaient progressivement vers les devises étrangères comme seul moyen d'échange fiable. De nouveaux décrets ont été introduits concernant l'achat de traites étrangères et l'utilisation de devises étrangères pour régler les paiements intérieurs. En plus de l'emprisonnement, des amendes pouvaient désormais être imposées jusqu'à dix fois le montant d'une transaction illégale.”
 
@@ -683,15 +682,11 @@ L'achat frénétique de devises étrangères a souvent marqué un tournant criti
 
 Lors de l'analyse de la trajectoire économique, il est apparent que lorsqu'une haute inflation est atteinte, la valeur de la masse monétaire se dégrade. Cette dévaluation engendre plusieurs complications, notamment la pénurie de billets. Dans ce contexte, les opportunités d'arbitrage se manifestent, en particulier avec les fluctuations des taux de change. De ce fait, nombre d'individus se tournent vers cet arbitrage, investissant massivement dans des actifs tangibles, dans l'anticipation d'une dévaluation monétaire future qui leur permettrait de rembourser leurs dettes avec une monnaie affaiblie. Cet environnement économique nuit à l'attrait des emplois traditionnels, et par conséquent, érode la cohésion sociale.
 
-
 Face à cette situation, l'État impose des régulations draconiennes, dont des contrôles des capitaux. Il mandate également les commerçants à accepter la monnaie nationale et les chèques. Au fur et à mesure, de nouvelles lois sont promulguées, élargissant la définition de comportements criminels. In fine, le taux de change grimpe de manière exponentielle, car l'État est disposé à échanger sa monnaie, imprimée à moindre coût, contre des devises étrangères plus robustes.
-
 
 ### 4 Similitudes des conséquences de l'hyperinflation
 
-
 ![image](assets/chapitre-3.2/6.png)
-
 
 1. Oil and metals
 
@@ -718,7 +713,7 @@ Dans le contexte de salaires dérisoires et d'une économie instable, les entrep
 > Zimbabwe: "À ce stade, nous fournissions à tout notre personnel un déjeuner gratuit. La farine de maïs était essentielle au fonctionnement continu de notre entreprise, car dans de nombreux cas, c'était le seul repas que notre personnel recevait chaque jour."
 
 4. Coupon d'essence
- 
+
 Les populations à chercher des alternatives stables pour les transactions. À Weimar, les produits tels que le laiton et le carburant ont servi de moyens d'échange en raison de leur valeur intrinsèque constante. Au Zimbabwe, face à la dévaluation rapide du dollar zimbabwéen, les coupons d'essence, qui représentaient une quantité fixe d'un produit essentiel, sont devenus une monnaie de facto. Ces situations soulignent la manière dont les sociétés s'adaptent à des conditions économiques extrêmes, trouvant des solutions innovantes pour maintenir le commerce et l'économie en mouvement.
 
 Weimar : "Le troc était déjà une forme habituelle d'échange ; mais maintenant, des marchandises comme le laiton et le carburant devenaient la monnaie courante d'achat et de paiement."
@@ -741,7 +736,7 @@ Dans ce chapitre, nous explorerons les différences et parallèles entre les pé
 
 1. C'est la faute du dollar!
 
-En Allemagne, il était courant que la population attribue l'inflation à la montée du dollar plutôt qu'à la dévaluation intrinsèque de leur propre monnaie. Beaucoup étaient persuadés que le phénomène observé était dû à une appréciation du dollar. Cette perception écartait toute reconnaissance du lien entre leur difficulté économique et la dévaluation monétaire, principalement induite par la création excessive de monnaie. Le livre "When Money Dies" illustre clairement cette méconnaissance parmi la population allemande. En revanche, au 
+En Allemagne, il était courant que la population attribue l'inflation à la montée du dollar plutôt qu'à la dévaluation intrinsèque de leur propre monnaie. Beaucoup étaient persuadés que le phénomène observé était dû à une appréciation du dollar. Cette perception écartait toute reconnaissance du lien entre leur difficulté économique et la dévaluation monétaire, principalement induite par la création excessive de monnaie. Le livre "When Money Dies" illustre clairement cette méconnaissance parmi la population allemande. En revanche, au
 
 ![image](assets/chapitre-3.3/3.PNG)
 
@@ -762,6 +757,7 @@ Parmi les Notgeld, un billet particulier attire l'attention. Il présente une il
 L'artiste derrière ce Notgeld semble adresser une critique ironique envers les autorités, responsables de la crise d'hyperinflation. Le billet porte l'inscription "Necessity knows no law", signifiant "La nécessité ne connaît pas de loi". Une autre expression, spécifique à la localité d'origine du Notgeld, énonce : "Ce qui doit être fait doit être fait".
 
 ![image](assets/chapitre-3.3/1.PNG)
+
 > “necessity knows no law”
 
 > Le premier Shitcoin: De manière anecdotique, en regardant l'illustration centrale du billet, où la monnaie est littéralement dévaluée par l'action de l'individu, il pourrait être qualifié de premier "shitcoin".
@@ -777,13 +773,10 @@ L'artiste derrière ce Notgeld semble adresser une critique ironique envers les 
 Pour en apprendre plus sur la gestion de la crise allemande ce livre est également fondamental.
 
 ![image](assets/chapitre-3.3/4.PNG)
- 
-
 
 ### Les parallèles contemporains
 
 1. Manipulation de la politique monétaire pour contrôler l'économie.
-
 
 Dans l'histoire de la République de Weimar, il est manifeste que les industriels étaient réticents à l'appréciation du Mark. Leur capacité à emprunter et à rembourser leurs dettes avec une monnaie fortement dépréciée leur a offert un avantage considérable. Ce mécanisme a facilité la construction d'énormes complexes industriels à des coûts presque nuls. Ces industriels craignaient une appréciation du Mark car elle entravait leurs activités. Certains voyaient même l'inflation galopante d'un bon œil, estimant qu'elle garantissait l'emploi à la population. Toutefois, ils ne mesuraient pas l'impact néfaste de cette inflation sur l'épargne et l'économie en général. Pour ces acteurs économiques, l'impression monétaire était une aubaine.
 
@@ -797,13 +790,11 @@ Un parallèle contemporain peut être tracé avec les propos de Christine Lagard
 
 2. Propriété privée en temps de conflits
 
-
 L'histoire de la République de Weimar révèle que, pendant cette période, les avoirs et capitaux détenus à l'étranger furent confisqués. Cette mesure rappelle des événements plus récents en Russie, notamment au début d'un conflit. Ces situations mettent en évidence une réalité préoccupante : en période de crise, le respect de la propriété privée peut être compromis. C'est un parallèle historique et contemporain qui souligne les répercussions potentielles des crises sur les droits individuels.
 
 > Weimar: "Tous les capitaux allemands détenus à l'étranger avaient été confisqués."
 
-> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions
-) : "Environ 300 milliards de dollars des réserves russes détenues à l’étranger ont bien été gelés dans le cadre des sanctions occidentales, sur les 640 milliards de dollars de réserves que compte la Banque centrale russe."
+> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) : "Environ 300 milliards de dollars des réserves russes détenues à l’étranger ont bien été gelés dans le cadre des sanctions occidentales, sur les 640 milliards de dollars de réserves que compte la Banque centrale russe."
 
 3. La notion de prix du marché
 
@@ -823,7 +814,6 @@ Ces raisons varient, allant d'événements culturels et de célébrités tels qu
 5. Les compagnies zombies
 
 > Weimar : "La stabilisation avait mis fin à la période où les entrepreneurs pouvaient emprunter autant qu'ils le souhaitaient aux dépens de tous les autres. Un très grand nombre d'entreprises, créées ou développées pendant l'abondance monétaire, sont rapidement devenues non productives lorsque le capital est devenu rare."
-
 
 Une compagnie zombie est une entreprise qui, en conditions de marché normales, serait insolvable ou proche de la faillite, mais qui continue de fonctionner, principalement grâce à des emprunts à faible coût. Ces entreprises gagnent juste assez d'argent pour couvrir leurs dettes, mais sont incapables de croître de manière significative.
 
@@ -853,10 +843,9 @@ Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le 
 
 ![Vidoe](https://youtu.be/18Mg5bOs3R4)
 
-
 nous allons regarder ensemble différentes périodes de rédénomination dans des pays d'Amérique latine.
 
-### Explication des graphe
+### Explication des graphes
 
 Sur la diapositive, à gauche, figurent les années de rédénomination, le nom de la nouvelle monnaie, et le taux d'échange avec l'ancienne monnaie. Prenant l'exemple de l'Argentine, le peso moneda nacional a été converti au taux de 25 pour 1 de la monnaie précédente, le peso real. Dans ce contexte, nous examinerons l'évolution de la monnaie argentine au fil du temps. De plus, nous indiquerons les dénominations initiales et finales des billets de banque pour chaque période.
 
@@ -872,9 +861,9 @@ Après l'Argentine, notre étude couvrira le Brésil, la Bolivie, le Pérou, le 
 
 ![image](assets/chapitre-3.4/1.PNG)
 
-Avant 1826, l'Argentine utilisait le dollar espagnol. Après son indépendance en 1816, elle a introduit sa propre monnaie basée sur le réal espagnol, aboutissant à la création d'une monnaie similaire. Le tableau commence en 1881, année de l'introduction du "peso moneda nacional" avec des billets allant jusqu'à 10 000. Ce dernier a été suivi par le "peso ley", échangé à un taux de 100 pour 1 et avec des billets montant jusqu'à un million. Ensuite, l'"argentine peso" est arrivé avec un taux d'échange de 10 000 pour 1 (équivalent à la suppression de quatre zéros), et des billets jusqu'à 10 000. En 1985, l'"australes" a été introduit et échangé à 1000 pour 1, avec des billets allant jusqu'à 500 000. En 1992, l'actuel "peso ley" a été instauré avec un taux de 10 000 pour 1, supprimant encore une fois quatre zéros. Seules les années 1989 et 1990 ont connu de l'hyperinflation. 
+Avant 1826, l'Argentine utilisait le dollar espagnol. Après son indépendance en 1816, elle a introduit sa propre monnaie basée sur le réal espagnol, aboutissant à la création d'une monnaie similaire. Le tableau commence en 1881, année de l'introduction du "peso moneda nacional" avec des billets allant jusqu'à 10 000. Ce dernier a été suivi par le "peso ley", échangé à un taux de 100 pour 1 et avec des billets montant jusqu'à un million. Ensuite, l'"argentine peso" est arrivé avec un taux d'échange de 10 000 pour 1 (équivalent à la suppression de quatre zéros), et des billets jusqu'à 10 000. En 1985, l'"australes" a été introduit et échangé à 1000 pour 1, avec des billets allant jusqu'à 500 000. En 1992, l'actuel "peso ley" a été instauré avec un taux de 10 000 pour 1, supprimant encore une fois quatre zéros. Seules les années 1989 et 1990 ont connu de l'hyperinflation.
 
-### Brazil 
+### Brazil
 
 ![image](assets/chapitre-3.4/2.PNG)
 
@@ -882,17 +871,16 @@ Le Brésil est un cas emblématique en matière de redénomination monétaire, c
 
 À partir de 1942, le Brésil a entamé une série de redénominations. Dans la plupart des cas (1942, 1967, 1986, 1989, 1993), le taux de conversion était de 1 000 pour 1. En 1990, un changement de nom sans conversion a eu lieu. La séquence de ces monnaies se présente comme suit :
 
-* Réals (ancienne version) jusqu'en 1942.
-* Cruzeiros en 1942.
-* Cruzeiros (nouvelle version) en 1967.
-* Cruzados en 1986.
-* Cruzados Novo en 1989.
-* Retour aux Cruzeiros en 1990.
-* Cruzeiros Reais en 1993.
-* Enfin, le Réal Brésilien en 1994.
+- Réals (ancienne version) jusqu'en 1942.
+- Cruzeiros en 1942.
+- Cruzeiros (nouvelle version) en 1967.
+- Cruzados en 1986.
+- Cruzados Novo en 1989.
+- Retour aux Cruzeiros en 1990.
+- Cruzeiros Reais en 1993.
+- Enfin, le Réal Brésilien en 1994.
 
-Le billet le plus élevé a atteint 500 000, et la dernière redénomination en 1994 a été effectuée à un taux de 2 750 pour 1. Les années 1989 et 1990 ont été marquées par de l'hyperinflation, tandis que 1993-1994 ont vu des taux d'inflation élevés sans atteindre le seuil de l'hyperinflation (50% par mois). Après cette période tumultueuse, le Brésil a une fois de plus redénominé sa monnaie en supprimant plusieurs zéros. 
-
+Le billet le plus élevé a atteint 500 000, et la dernière redénomination en 1994 a été effectuée à un taux de 2 750 pour 1. Les années 1989 et 1990 ont été marquées par de l'hyperinflation, tandis que 1993-1994 ont vu des taux d'inflation élevés sans atteindre le seuil de l'hyperinflation (50% par mois). Après cette période tumultueuse, le Brésil a une fois de plus redénominé sa monnaie en supprimant plusieurs zéros.
 
 ### Bolivie
 
@@ -918,18 +906,17 @@ Le Pérou présente un cas intéressant en ce qui concerne les effets de la règ
 
 En examinant les périodes de redénomination, 1988 est considéré comme une année d'hyperinflation, en particulier en septembre. Juillet-août 1990 a également vu une période d'hyperinflation. En 1988, l'inflation annuelle était de 667%, avec un pic de 50% en septembre. En revanche, 1989 a connu une inflation de 3000% sans mois dépassant 50%, donc elle n'a pas été classée comme hyperinflation. En 1990, l'inflation a culminé à 7481%. Il est clair que la règle des 50% peut être arbitraire, car 1988 a été considéré comme une année d'hyperinflation, contrairement à 1989. Si cette règle était reconsidérée, il serait peut-être judicieux de baisser le seuil pour inclure des périodes comme celle vécue par le Pérou en 1989.
 
-> Comprendre ce qui se passe 
+> Comprendre ce qui se passe
 >
 > L'essentiel à comprendre à propos des redénominations monétaires est que lorsque la valeur de la monnaie atteint des chiffres astronomiques, comme 5 ou 10 millions, elle est redénominée. Ce processus peut se répéter plusieurs fois, impliquant un changement de monnaie. Le résultat est que les épargnes des individus peuvent être gravement affectées, même en l'absence d'hyperinflation. Par exemple, si quelqu'un économise 1 000 dollars une année et parvient à mettre de côté 100 dollars, l'année suivante, le billet le plus bas pourrait être de 1 000 dollars, rendant les 100 dollars économisés précédemment sans valeur. Une telle érosion des économies ne nécessite pas une hyperinflation manifeste. Même si une personne a économisé 10 000 dollars au cours des dix dernières années, cette somme pourrait finir par avoir la valeur d'un montant négligeable, incapable d'acheter une simple bouteille d'eau. Cette réalité se manifeste dans de nombreux pays qui ont connu des redénominations, même si seulement quelques mois ont été classés comme hyperinflationnistes. En contraste, certains pays, comme le Nicaragua, ont connu de nombreuses années consécutives d'hyperinflation.
 
-### Le Nicaragua 
+### Le Nicaragua
 
 ![image](assets/chapitre-3.4/5.PNG)
 
 Le Nicaragua, autrefois sous la domination espagnole, utilisait initialement le dollar espagnol, tout comme de nombreux autres pays colonisés par l'Espagne. Après avoir été intégré à l'Empire espagnol, l'Empire mexicain, puis la République fédérale de l'Amérique centrale, le Nicaragua a proclamé son indépendance. À partir de 1878, le peso est devenu la monnaie officielle du pays, avec des valeurs fluctuant entre 1 et 100. En 1912, le pays a introduit le premier Cordoba, suivi du deuxième en 1988 et du troisième en 1991, qui est toujours en usage aujourd'hui. Le premier Cordoba a atteint une valeur de 1 million, le deuxième 10 millions. La redénomination en 1991 a suivi plusieurs années d'hyperinflation.
 
 ### Venezuela
-
 
 ![image](assets/chapitre-3.4/6.PNG)
 
@@ -949,11 +936,11 @@ Durant cette période, la pièce de 5 bolivars du Venezuela avait le même poids
 
 Suite à l'adoption d'un taux de change flottant en 1983, plusieurs redénominations ont suivi :
 
-* En 2008 : le bolivar fuerte, ou "bolivar fort", fut introduit, allant jusqu'à 100 000 avant une redénomination de mille pour un.
+- En 2008 : le bolivar fuerte, ou "bolivar fort", fut introduit, allant jusqu'à 100 000 avant une redénomination de mille pour un.
 
-* En 2018 : le Soberano fut introduit avec des billets atteignant 1 million. En 2021, il fut remplacé par le digital bolivar qui atteignit également un million, avant une nouvelle redénomination d'un million pour un. Aujourd'hui, le billet de 10 ou de 20 équivaut à 10 millions ou 20 millions en Soberano. 
+- En 2018 : le Soberano fut introduit avec des billets atteignant 1 million. En 2021, il fut remplacé par le digital bolivar qui atteignit également un million, avant une nouvelle redénomination d'un million pour un. Aujourd'hui, le billet de 10 ou de 20 équivaut à 10 millions ou 20 millions en Soberano.
 
-Des billets de cette période, datant de 2018, sont distribués lors de différentes conférences Bitcoin à Biarritz, Toronto et Miami. Ces billets Soberano ont atteint une valeur maximale d'1 million. Une redénomination a ensuite eu lieu, ramenant la valeur du million à environ 3 cents. Actuellement, 10 billets d'1 million correspondent à un billet de 10. Depuis 2016, le Venezuela est en hyperinflation, représentant la 57e période d'un tableau spécifique. 
+Des billets de cette période, datant de 2018, sont distribués lors de différentes conférences Bitcoin à Biarritz, Toronto et Miami. Ces billets Soberano ont atteint une valeur maximale d'1 million. Une redénomination a ensuite eu lieu, ramenant la valeur du million à environ 3 cents. Actuellement, 10 billets d'1 million correspondent à un billet de 10. Depuis 2016, le Venezuela est en hyperinflation, représentant la 57e période d'un tableau spécifique.
 
 Dans la prochaine vidéo, une collection de billets d'hyperinflation sera présentée, mettant l'accent sur le Venezuela et d'autres pays listés. Cette collection contient presque tous les billets vénézuéliens. L'étude portera sur les différentes redénominations pour chaque pays mentionné. De plus, il y aura une exploration sur les redénominations au Zimbabwe, un sujet d'intérêt notable.
 
@@ -971,11 +958,9 @@ En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La h
 
 ### Comment mettre fin à l’inflation modérée et la haute inflation
 
-
 Les conclusions évoquées sont tirées du livre "Monetary Regime and Inflation" de Bernold. Selon ce dernier, la seule méthode pour mettre fin à l'inflation consiste à réaliser une réforme monétaire et à imposer des restrictions au gouvernement. Ces restrictions impliquent la mise en place d'une institution, telle qu'une banque centrale, qui opère de manière indépendante des décisions politiques du gouvernement. La haute et l'hyperinflation sont souvent le résultat du financement des déficits budgétaires par la création monétaire. Pour régler l'inflation modérée, il est essentiel de diminuer la croissance de la masse monétaire. Bernold suggère également que cette croissance monétaire soit relative aux pays voisins. Un point surprenant est que, durant des périodes de haute ou d'hyperinflation, la valeur totale de la masse monétaire peut en réalité diminuer. Un exemple marquant de cette situation est celui du Zimbabwe.
 
 ### Des solution contre intuitive
-
 
 Lors de l'étude du Zimbabwe, il a été remarqué que 10 trillions de masse monétaire avaient perdu toute leur valeur. À Weimar, il était possible d'imprimer les deux tiers du total nominal de 65 milliards de masse monétaire en une seule journée. Ceci montre combien la masse monétaire peut être dévaluée. Pour remédier à cette situation, il est nécessaire d'augmenter significativement la masse monétaire pour qu'elle atteigne un niveau approprié. Ensuite, une réforme monétaire est indispensable. En situation de haute inflation, cette réforme est incontournable, mais elle doit s'assurer qu'il y a suffisamment d'argent en circulation. Après cette étape, des restrictions peuvent être imposées au gouvernement.
 
@@ -983,23 +968,22 @@ Selon les observations de Bernold, lorsqu'il s'agit de résoudre des problèmes 
 
 Un aspect intéressant soulevé par Bernold est que la réussite d'une réforme monétaire ne dépend pas uniquement de sa pertinence technique, mais aussi de la confiance que la population lui accorde. Certaines réformes bien conçues peuvent échouer parce que le public ne leur fait pas confiance, tandis que d'autres, mal conçues, peuvent réussir parce que la population leur accorde sa confiance. La perception et la confiance de la population sont donc des éléments essentiels dans le succès ou l'échec d'une réforme monétaire.
 
-* Au Zimbabwe, la solution adoptée pour contrecarrer l'inflation a été la dollarisation, ce qui signifie qu'ils ont adopté le dollar américain ou d'autres monnaies de pays voisins. Cette approche empêche le gouvernement d'imprimer de la monnaie à sa guise. 
+- Au Zimbabwe, la solution adoptée pour contrecarrer l'inflation a été la dollarisation, ce qui signifie qu'ils ont adopté le dollar américain ou d'autres monnaies de pays voisins. Cette approche empêche le gouvernement d'imprimer de la monnaie à sa guise.
 
-* En Allemagne, la solution a été de créer une nouvelle monnaie, le Rentenmark. Cette monnaie était adossée aux actifs territoriaux du Reich, et cette stratégie s'est avérée efficace.
- 
+- En Allemagne, la solution a été de créer une nouvelle monnaie, le Rentenmark. Cette monnaie était adossée aux actifs territoriaux du Reich, et cette stratégie s'est avérée efficace.
 
 ### Le cas du Zimbabwe
 
 ![image](assets/chapitre-3.5/1.PNG)
- 
+
 Le Zimbabwe a accédé à l'indépendance en 1980 et a introduit le dollar zimbabwéen. Initialement, deux dollars zimbabwéens valaient environ 1,60 dollar américain. Cependant, en 1997, suite à des mesures sociales en faveur des vétérans de la guerre d'indépendance, la monnaie a dévalué de 72% en une journée lors du Black Friday. Puis, au début des années 2000, le pays a lancé un programme de redistribution des terres, retirant les terres des propriétaires blancs pour les remettre à la population locale. Cette décision a nui à l'exportation car les nouveaux propriétaires n'avaient souvent pas l'expertise nécessaire pour gérer d'importantes exploitations agricoles. De fait, alors que le Zimbabwe était un exportateur net en 1999, il est devenu importateur net en 2003.
 
-En 2006, le pays a introduit une nouvelle version de sa monnaie, le ZWN, avec un taux d'échange de 1 pour 1 000. En 2008, une autre dénomination, le ZWR, a été introduite avec un taux d'échange de 1 pour 10 milliards. Cela a conduit à la création des billets emblématiques de 100 trillions. 
+En 2006, le pays a introduit une nouvelle version de sa monnaie, le ZWN, avec un taux d'échange de 1 pour 1 000. En 2008, une autre dénomination, le ZWR, a été introduite avec un taux d'échange de 1 pour 10 milliards. Cela a conduit à la création des billets emblématiques de 100 trillions.
 
 ![image](assets/chapitre-3.5/2.PNG)
 
 #### La dollarisation & sortie de crise
- 
+
 Et donc apres 2009, face à la crise monétaire persistante et à l'hyperinflation galopante, le Zimbabwe a abandonné sa monnaie nationale et a autorisé l'utilisation de monnaies étrangères, principalement le dollar américain. Cette décision, bien que radicale, a mis fin à l'hyperinflation. Une leçon clé à retenir est que l'arrêt de l'émission monétaire excessive et la fin du financement du déficit budgétaire par la banque centrale peuvent mettre fin à l'hyperinflation.
 
 Cependant, la dollarisation n'est pas une solution miracle. Bien qu'elle puisse mettre fin à l'hyperinflation, elle présente d'autres défis économiques. L'une des conséquences est la perte de la politique monétaire autonome. Sans monnaie propre, un pays ne peut pas ajuster sa politique monétaire pour répondre aux chocs économiques internes.
@@ -1009,7 +993,6 @@ En 2007, le taux d'inflation au Zimbabwe avait atteint le seuil de 50 % par mois
 C'est inquiétant de noter que le Zimbabwe a depuis tenté de réintroduire sa propre monnaie, et des signes d'inflation élevée sont à nouveau apparus. Selon certaines organisations internationales, le pays pourrait déjà remplir à nouveau les critères d'hyperinflation, même s'il n'a pas encore atteint le seuil officiel de 50 % par mois. Cela sert de rappel sur les dangers de l'émission monétaire excessive et du financement du déficit par la banque centrale.
 
 ## Conclusion
-
 
 Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation.
 
@@ -1037,19 +1020,17 @@ Le lien vers la collection scannée est disponible dans le Bitcoin Educational T
 
 Transcripte:
 
-L'émergence de la deuxième couche monétaire et des premières banques centrales est un sujet fascinant. Ce thème est largement abordé dans le livre "Layered Money" de Nick Battia. Je le recommande vivement à ceux qui s'intéressent à l'évolution et aux subtilités de nos systèmes monétaires. L'objectif de cette section est de comprendre l'origine de la création monétaire et comment cela a pu conduire à l'hyperinflation. 
+L'émergence de la deuxième couche monétaire et des premières banques centrales est un sujet fascinant. Ce thème est largement abordé dans le livre "Layered Money" de Nick Battia. Je le recommande vivement à ceux qui s'intéressent à l'évolution et aux subtilités de nos systèmes monétaires. L'objectif de cette section est de comprendre l'origine de la création monétaire et comment cela a pu conduire à l'hyperinflation.
 
 ![image](assets/chapitre-4.1/1.PNG)
 
 ### Monnaie pyramide et banques centrales
 
-#### Le florin 
+#### Le florin
 
 L'histoire de la monnaie remonte à l'Italie du XIIIe siècle, plus précisément à Florence. À cette époque, le florin et les lettres de change étaient courants. Un exemple notable est le florin, orné de la figure de Saint-Jean-Baptiste.
 
-
 ![image](assets/chapitre-4.1/2.PNG)
-
 
 ![image](assets/chapitre-4.1/3.PNG)
 
@@ -1071,9 +1052,7 @@ Ce concept, bien qu'associé à Nick Bell via son pseudonyme Twitter "time value
 
 ![image](assets/chapitre-4.1/4.PNG)
 
-
 Après la bourse d'Anvers, une étape majeure a été la fondation de la VOC, la Compagnie des Indes orientales. Cette compagnie, basée aux Pays-Bas, a même émis sa propre monnaie. Suite à la création de la VOC, la première bourse a vu le jour à Amsterdam, devenant le premier marché d'actions pour cette entreprise. Ce qu'il est intéressant de souligner, c'est la manière dont les Néerlandais ont réussi à mettre fin à la suprématie d'Anvers en tant que centre économique international. Ils ont simplement bloqué l'accès au fleuve Escaut. Cette stratégie faisait partie d'un plus grand mouvement historique, la révolte des gueux. Un événement crucial dans l'histoire européenne.
-
 
 #### La banque d'amsterdam intervient
 
@@ -1087,7 +1066,7 @@ La création de la Banque d'Angleterre fut motivée par le besoin de financer la
 
 Initialement, la première couche de monnaie était représentée par l'or. Les dépôts effectués auprès des banques privées formaient la seconde couche. Cependant, lorsque ces dépôts ne pouvaient plus être convertis en or, une troisième couche de monnaie est apparue. Désormais, les billets émis par les banques privées n'étaient plus convertibles en or mais en monnaie papier de la Banque d'Angleterre, qui elle-même était convertible en or. Cette évolution a engendré une complexification du système monétaire avec l'ajout de couches supplémentaires.
 
- #### La panique de 1796
+#### La panique de 1796
 
 ![image](assets/chapitre-4.1/6.PNG)
 Panique bancaire à la banque Seamen's Savings durant la panique de 1857.
@@ -1098,34 +1077,33 @@ Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le m
 
 Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept du prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
 
-
 ## Livres et ressources
 
 L'hyperinflation est un sujet fascinant qui a été étudié à travers divers événements historiques. Si vous souhaitez approfondir ce sujet, voici une liste de 10 ressources essentielles à lire et à étudier :
 
-* "When Money Dies: The Nightmare of Deficit Spending, Devaluation, and Hyperinflation in Weimar Germany" par Adam Fergusson
-        Ce livre détaille la crise hyperinflationniste de l'Allemagne après la Première Guerre mondiale.
+- "When Money Dies: The Nightmare of Deficit Spending, Devaluation, and Hyperinflation in Weimar Germany" par Adam Fergusson
+  Ce livre détaille la crise hyperinflationniste de l'Allemagne après la Première Guerre mondiale.
 
-* "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany" par Costantino Bresciani-Turroni
-        Une analyse approfondie de l'hyperinflation allemande dans les années 1920.
+- "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany" par Costantino Bresciani-Turroni
+  Une analyse approfondie de l'hyperinflation allemande dans les années 1920.
 
-* "This Time Is Different: Eight Centuries of Financial Folly" par Carmen M. Reinhart et Kenneth S. Rogoff
-        Bien que le livre couvre de nombreux types de crises financières, il traite en détail des hyperinflations à travers l'histoire.
+- "This Time Is Different: Eight Centuries of Financial Folly" par Carmen M. Reinhart et Kenneth S. Rogoff
+  Bien que le livre couvre de nombreux types de crises financières, il traite en détail des hyperinflations à travers l'histoire.
 
-*  "Zimbabwe's Hyperinflation, Analysis and Lessons Learned" par Steve Hanke
-        Une étude du cas de l'hyperinflation zimbabwéenne au début des années 2000.
+- "Zimbabwe's Hyperinflation, Analysis and Lessons Learned" par Steve Hanke
+  Une étude du cas de l'hyperinflation zimbabwéenne au début des années 2000.
 
-* "Monetary Regimes and Inflation: History, Economic and Political Relationships" par Peter Bernholz
-        Le livre examine les cas d'hyperinflation à travers l'histoire et cherche à comprendre les facteurs sous-jacents.
+- "Monetary Regimes and Inflation: History, Economic and Political Relationships" par Peter Bernholz
+  Le livre examine les cas d'hyperinflation à travers l'histoire et cherche à comprendre les facteurs sous-jacents.
 
-* "The Hyperinflation Survival Guide: Strategies for American Businesses" par Gerald Swanson
-        Un guide pratique sur la manière dont les entreprises peuvent naviguer dans un environnement hyperinflationniste.
+- "The Hyperinflation Survival Guide: Strategies for American Businesses" par Gerald Swanson
+  Un guide pratique sur la manière dont les entreprises peuvent naviguer dans un environnement hyperinflationniste.
 
-* "Dying of Money: Lessons of the Great German and American Inflations" par Jens O. Parsson
-        Une analyse comparative des crises inflationnistes en Allemagne et aux États-Unis.
+- "Dying of Money: Lessons of the Great German and American Inflations" par Jens O. Parsson
+  Une analyse comparative des crises inflationnistes en Allemagne et aux États-Unis.
 
-* "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" par Frederick Taylor
-        Une exploration narrative de l'impact social et économique de l'hyperinflation sur la société allemande.
+- "The Downfall of Money: Germany’s Hyperinflation and the Destruction of the Middle Class" par Frederick Taylor
+  Une exploration narrative de l'impact social et économique de l'hyperinflation sur la société allemande.
 
-* "Currency Boards for Developing Countries: A Handbook" par Steve Hanke et Kurt Schuler
-        Bien que le focus soit sur les caisses d'émission, ce livre offre une perspective sur comment éviter des situations d'hyperinflation.
+- "Currency Boards for Developing Countries: A Handbook" par Steve Hanke et Kurt Schuler
+  Bien que le focus soit sur les caisses d'émission, ce livre offre une perspective sur comment éviter des situations d'hyperinflation.

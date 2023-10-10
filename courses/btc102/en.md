@@ -1,5 +1,5 @@
 ---
-name: BTC 102 – Getting your first bitcoins
+name: Getting your first bitcoins
 goal: Getting your first bitcoins and storing them securely in a Bitcoin wallet with a mnemonic phrase and an inheritance plan.
 objectives:
   - Update your online security
@@ -315,8 +315,7 @@ If this is new to you, I strongly encourage you to follow BTC 101 before continu
 
 ![in a nutshell](assets/section2/10.JPG)
 
-
- ## Why is Bitcoin matter?
+## Why is Bitcoin matter?
 
 ![why is bitcoin so important](https://youtu.be/Iq0wZF3Ui9A)
 
@@ -386,7 +385,7 @@ Bitcoin offers a powerful alternative to traditional financial systems. It allow
 Bitcoin, a political movement?
 The main promoters of Bitcoin today are still primarily cyberpunks, oppressed citizens, anarchists, followers of the Austrian school of economics, computer engineers, financiers, and advocates of freedom of expression.
 
-# Understanding the Bitcoin Industry
+## Understanding the Bitcoin Industry
 
 ![Understanding the Bitcoin Industry](https://youtu.be/fcXvjghA-uM)
 
@@ -515,7 +514,7 @@ Unlimited power? No. The main developers don't have unlimited power and can't mo
 
 ![blockchain](assets/industrie/5.JPG)
 
-# Bitcoin's Layered Infrastructure
+## Bitcoin's Layered Architecture
 
 Bitcoin, as an open-source protocol, can be complemented and enriched by layers of protocols/applications added by anyone. Some of these features are more significant than others, creating a dynamic ecosystem with a multitude of companies contributing to the development of the infrastructure. Examples of such projects include Sidechains (e.g., Liquid Chain by Blockstream), the Lightning Network by Lightning Labs, and identity concepts (e.g., Microsoft ION). These projects are like additional layers added to the initial Bitcoin protocol.
 

@@ -1,5 +1,5 @@
 ---
-name: BTC 102 - Obter seus primeiros bitcoins
+name: Obter seus primeiros bitcoins
 goal: Obter seus primeiros bitcoins e armazená-los em uma carteira Bitcoin de forma segura com uma frase mnemônica e um plano de herança.
 objectives:
   - Atualize sua segurança online
@@ -514,6 +514,9 @@ Qualquer um pode começar a contribuir com o código, mas é importante notar qu
 Poder ilimitado? Não. Os principais desenvolvedores não têm poder ilimitado e não podem modificar ou controlar o Bitcoin sozinhos. São os nós que detêm o poder. Ninguém controla o Bitcoin.
 
 ![blockchain](assets/industrie/5.JPG)
+
+## A arquitetura em camadas do Bitcoin
+
 Bitcoin, como um protocolo de código aberto, pode ser complementado e enriquecido por camadas de protocolos/aplicações adicionadas por qualquer pessoa. Algumas dessas funcionalidades são mais significativas do que outras, criando um ecossistema dinâmico com uma infinidade de empresas contribuindo para o desenvolvimento da infraestrutura. Exemplos desses projetos incluem: Sidechains (por exemplo, Liquid Chain da Blockstream), Lightning Network da Lightning Labs e conceitos de identidade (por exemplo, Microsoft ION). Esses projetos são como camadas adicionais adicionadas ao protocolo Bitcoin inicial.
 
 Você sabia? A Internet não foi construída em um único bloco. É o resultado de várias camadas de protocolos empilhados uns sobre os outros - HTTP, TCP, IP. Dessa forma, cada camada é extremamente eficiente em realizar a tarefa atribuída especificamente a ela, enquanto outros níveis atendem a outras necessidades.

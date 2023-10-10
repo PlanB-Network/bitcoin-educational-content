@@ -1,5 +1,5 @@
 ---
-name: BTC 102 – Obtenir ses premiers bitcoins
+name: Obtenir ses premiers bitcoins
 goal: Obtenir ses premiers bitcoins et les stocker dans un portefeuille Bitcoin de façon sécurisé avec une mnemonic phrase et un plan d’héritage.
 objectives:
   - Mettre à jour votre sécurité en ligne
@@ -539,6 +539,8 @@ Un pouvoir illimité ? Non. Les développeurs principaux n'ont pas un pouvoir il
 
 ![blockchain](assets/industrie/5.JPG)
 
+## L'architecture en couches de Bitcoin
+
 Bitcoin, en tant que protocole open source, peut être complété et enrichi par des couches de protocoles/applications ajoutées par quiconque. Certaines de ces fonctionnalités sont plus significatives que d'autres, créant un écosystème dynamique avec une multitude d'entreprises contribuant à l'élaboration de l'infrastructure. Des exemples de tels projets incluent : les Sidechains (par exemple, Liquid Chain par Blockstream), le Lightning Network par Lightning Labs, et des concepts d'identité (par exemple, Microsoft ION). Ces projets sont comme des strates supplémentaires ajoutées au protocole Bitcoin initial.
 
 **Le saviez-vous** ? Internet n'a pas été construit en un seul bloc. Il est plutôt le résultat de plusieurs couches de protocoles empilées les unes sur les autres - HTTP, TCP, IP. De cette manière, chaque couche est extrêmement efficace pour accomplir la tâche qui lui est spécifiquement attribuée, tandis que les autres niveaux répondent à d'autres besoins.
@@ -569,7 +571,8 @@ C'est la vision d'avenir que j'ai pour le Bitcoin. Il deviendra une autoroute po
 
 C'est Andreas Antonopoulos, si je ne me trompe pas, qui m'a introduit à cette idée. @aantonop
 
-# Structurer votre plan
+# Mise en place de votre plan
+## Choisir son profil 
 
 Maintenant que nous avons revu les bases fondamentales et appris comment éviter les arnaques et les pertes d'argent, nous pouvons élaborer notre plan. Le plan sera assez simple pour commencer, mais il est important de se lancer. Vous pourrez toujours le modifier à mesure que le temps passe.
 
@@ -606,22 +609,54 @@ Dans Bitcoin, ce type de profil est appelé un Hodler, car il "hodl" (garde) du 
 
 ![hodl](assets/plan/0.JPG)
 
-Voici le plan :
+### Voici le plan :
 
 1. Mettre en place un portefeuille froid pour sécuriser des montants importants.
 2. Acheter du Bitcoin en une fois via une plateforme d'échange et mettre en place un plan d'achat récurrent.
 3. Mettre en place un plan d'héritage.
-4. Attendre 8 ans.
+4. Attendre longtemps (au moins un ou deux cycle)
 
 Si on oublie qu'on avait des bitcoins pendant 3 ans, pas de souci, l'argent sera toujours là si on a respecté les instructions des experts.
 
 Pour ce type de profil, il est conseillé d'utiliser un portefeuille de type froid pour commencer, tel que le Bitbox02, un Trezor ou un Ledger. Ces appareils coûtent environ 70 € mais offrent une certaine sécurité pour ses bitcoins sur le long terme. Un portefeuille mobile de type chaud gratuit peut également faire l'affaire, mais uniquement pour des montants relativement faibles.
 
-**BESOIN :** un portefeuille froid de type [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/), et un compte sur un exchange comme [Bitstamp](https://www.bitstamp.net/) ou [Kraken](https://www.kraken.com/).
+Tutoriel Portfeuille pertinant: 
+
+* Ledger ; bitbox02 ; cold card : trezor
+
+Moyen d'échange:
+
+* Un gros éxchange efficae  type bitstamp, bifinnex, kraken 
+
+
+Si le hold veut allez plus loins: mise en place d'un plan de DCA comme le stacker et un portfeuille chaud LN d'utilisation pour dépenser un peu de bitcoin
+
+### Est-ce pour vous ? 
+
+Voici un petit portrait Psychologique du Hodler, si vous vous reconnesez c'ets peut etre pour vous ! 
+
+* Patience :
+Un hodler fait preuve d'une patience exceptionnelle. Il est prêt à attendre des années pour voir la croissance de son investissement, sans se laisser influencer par les fluctuations à court terme du marché.
+
+* Vision à Long Terme :
+Il possède une vision à long terme, croyant fermement à la valeur et à l'adoption croissante de Bitcoin malgré les obstacles et les critiques.
+
+* Auto-Discipline :
+Le hodler est extrêmement discipliné. La partie la plus difficile, comme mentionné, est de ne rien faire, et cela nécessite une grande autodiscipline pour résister à la tentation de vendre lors des pics de prix à court terme.
+
+* Résilience :
+Face aux chutes de prix et à la volatilité du marché, le hodler reste résilient, gardant la foi dans son investissement et la croissance future de Bitcoin.
+
+* Croyance en la Technologie :
+Au-delà de la simple recherche de profit, le hodler croit souvent en la technologie blockchain et en la capacité de Bitcoin à provoquer un changement positif dans le monde.
+
+En somme, le hodler est un investisseur patient, discipliné, et visionnaire, qui croit fermement à la valeur à long terme de Bitcoin et qui est prêt à supporter la volatilité à court terme pour réaliser des gains substantiels à l'avenir. Il est méthodique dans sa stratégie d'investissement et attentif à la sécurité et à la planification à long terme.
 
 ## Le stacker
 
 Dans Bitcoin, le concept de "Stacker" est assez connu. L'idée est simple : il n'y a que 21 millions de bitcoins, et chaque petit bitcoin compte ! Ce petit bitcoin est en réalité appelé un satoshi (ou SAT). Le stacker se donne pour objectif d'en accumuler un maximum.
+
+### Le plan
 
 Pour y parvenir, il va essayer de maximiser son exposition au maximum. Il va donc créer un plan de DCA (Dollar-Cost Averaging) pour pouvoir acheter un peu chaque semaine. C'est la meilleure solution pour commencer à s'exposer à Bitcoin sans avoir un capital initial important. Que ce soit 10 € par semaine, 25 € par semaine ou 100 € par mois, l'important est d'accumuler des satoshis sans trop y réfléchir. Son plan sera assez simple :
 
@@ -631,11 +666,40 @@ Pour y parvenir, il va essayer de maximiser son exposition au maximum. Il va don
 
 D'autres solutions peuvent consister à commencer à vendre des biens ou des services en Bitcoin pour en accumuler davantage. Demander à être remboursé en Bitcoin auprès de ses amis ou commencer à s'impliquer dans l'écosystème pour être au plus près de la révolution.
 
-**BESOIN :** un portfeuille chaud comme par exemple [Blue wallet](https://bluewallet.io/), [Green wallet](https://blockstream.com/green/), [Samourai wallet](https://samouraiwallet.com/) et une solution de DCA comme [Relai](https://relai.app/), [Swan Bitcoin](https://www.swanbitcoin.com/) ou [StackinSat](https://stackinsat.com/). Lorsque la quantité de satoshis accumulée devient importante, il faut migrer vers un portefeuille froid.
+### Tutorials:
+
+* Un portefuille chaud pour accumulé rapidement 
+
+* Un portefeuille froid pour la sécurisation long terme 
+
+* Une plateforme de DCA pour acculumuer du bitccoin.
+
+
+Ce type de profile peut aussi bien evidement utilsier unbroker pour faire un gros achat d'un coup comme un holds, mais genement le stacking esty concepte de rajouter régulierement des sat a son portfeuille. Une approche plus courrente serait donc d'apprendre a utiliser bitcoin de facon pair a pair et ainsi acheter des bitcoin directement en cash avec des proche ou des membre de la communauté bitcoin
+
+### Est-ce pour vous ? 
+
+Portrait Psychologique du Stacker
+
+* Stratégique et Organisé:
+Le stacker est stratégique dans sa démarche d'accumulation de Bitcoin. Il planifie soigneusement ses investissements et est organisé dans la mise en œuvre de son plan de DCA.
+
+* Focalisé sur les Objectifs :
+Son objectif principal est clair : accumuler le plus de satoshis possible. Cette focalisation guide ses actions et ses décisions d'investissement, peu importe si le prix explose ou chute drastiquement.
+
+* Connaissance Financière :
+Il comprend l'importance de la diversification et de l'investissement régulier, minimisant ainsi le risque et optimisant les rendements potentiels. Ceci est possible par un lissage du prix et donc un désintérêt du cours.
+
+*  Proactif:
+Recherche activement des opportunités supplémentaires pour gagner des Bitcoins, que ce soit en vendant des biens ou des services ou en explorant d'autres avenues dans l'écosystème Bitcoin.
+
+Le stacker est un individu méthodique et focalisé, avec un plan clair pour maximiser son accumulation de satoshis. Il fait preuve de proactivité et de connaissance financière, cherchant constamment des moyens d'optimiser et de sécuriser ses investissements en Bitcoin. Son approche est marquée par une régularité et une organisation sans faille, le mettant sur la voie d'une croissance stable et continue de son portefeuille Bitcoin.
 
 ## L'utilisateur
 
 Enfin, le dernier type de bitcoiner que l'on peut mentionner dans un cours d'introduction est le bitcoiner qui doit utiliser Bitcoin régulièrement. Que ce soit en raison d'une obligation professionnelle ou simplement par volonté de soutenir l'écosystème, il est nécessaire de prévoir des solutions adaptées à une utilisation fréquente.
+
+### Le plan
 
 Pour cet utilisateur, il sera probablement nécessaire d'avoir deux types de portefeuilles :
 
@@ -649,170 +713,67 @@ Pour s'exposer à Bitcoin, ce type de profil aura plusieurs options :
 - Utiliser des solutions peer-to-peer telles que Peach pour acheter ou vendre rapidement des bitcoins de manière non KYC.
 - Utiliser une plateforme d'échange pour pouvoir acheter et vendre régulièrement des bitcoins en fonction des besoins.
 
+### Tutorial 
+
+* Portefeuille chaud LN
+
+* Portefeuille froid
+
+* Plateforme d'achat 
+
 **Besoin :** un portefeuille lightning comme [Phoenix](https://phoenix.acinq.co/) ou [Wallet of Satoshi](https://www.walletofsatoshi.com/), un portefeuille froid de type [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/) et une solution d'achat/vente rapide comme [Kraken](https://www.kraken.com/) ou [Robosats](https://learn.robosats.com/)
+
+### Est-ce pour vous ? 
+
+* Pragmatique et Engagé:
+L'utilisateur est pragmatique et conscient des avantages et des inconvénients de Bitcoin. Il est engagé dans l'écosystème, souhaitant activement le soutenir par une utilisation fréquente.
+
+* Compétent en Technologie:
+Possède une bonne compréhension des technologies, notamment des portefeuilles Bitcoin chauds et froids et du Lightning Network.
+
+* Flexible et Adaptable:
+Prêt à utiliser diverses solutions et plateformes pour répondre à ses besoins en constante évolution.
+
+L'utilisateur est une personne technologiquement avisée et engagée dans l'utilisation active de Bitcoin. Il recherche constamment des moyens d'améliorer l'efficacité et la sécurité de ses transactions et de ses holdings Bitcoin. Sa flexibilité et son engagement envers l'écosystème se reflètent dans sa volonté d'utiliser des solutions variées, des portefeuilles lightning aux solutions d'échange rapides. Bien qu'il soit activement impliqué dans les transactions Bitcoin, il ne néglige pas la sécurité, veillant à maintenir une division claire entre ses bitcoins pour une utilisation quotidienne et ceux conservés à long terme.
 
 ## Le parano
 
-Je me permets d'ajouter ici le bitcoiner paranoïaque. Ce type de personne ne souhaite pas s'exposer au KYC (Know Your Customer), préfère rester proche de l'anonymat et accorde une grande importance à sa vie privée.
+Je me permets d'ajouter ici le bitcoiner paranoïaque. Ce type de personne ne souhaite pas s'exposer au KYC (Know Your Customer), préfère rester proche de l'anonymat et accorde une grande importance à sa vie privée. Le parano utilisera aussi LN via son propore noeud et travailler sur ca sécurioté en ligne
+
+### Le plan
 
 Pour ce type de profil, la solution pour les débutants est assez simple :
 
-- Portefeuille chaud : [Samourai wallet](https://samouraiwallet.com/)
-- Portefeuille froid : [Coldcard](https://coldcard.com/) et/ou [Seed Signer](https://seedsigner.com/) (wallet DIY)
-- Achat non KYC entre particuliers : [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
 - Utilisation de distributeurs de Bitcoin en espèces
 - Achat en espèces lors de rencontres en personne
 - Vente de marchandises en Bitcoin
 
-Il devra ensuite apprendre à mélanger ses coins, gérer ses UTXO (Unspent Transaction Outputs) et bien d'autres choses qui n'ont pas encore été abordées dans ce cours. Si nécessaire, toutes les informations sont disponibles sur l'université.
+Il devra ensuite apprendre à mélanger ses coins, gérer ses UTXO (Unspent Transaction Outputs) et bien d'autres choses qui n'ont pas encore été abordées dans ce cours. Si nécessaire, toutes les informations sont disponibles sur l'université pour devenir petit à petit un "parano". 
 
-# Tutoriel de portefeuilles
+### Tutorial: 
 
-## Portefeuille chaud
+- Portefeuille chaud : [Samourai wallet](https://samouraiwallet.com/)
+- Portefeuille froid : [Coldcard](https://coldcard.com/) et/ou [Seed Signer](https://seedsigner.com/) (wallet DIY)
+- Achat non KYC entre particuliers : [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
 
-Nous allons désormais mettre ne place votre portfeuille bitcoin ou lightning de type mobile. Comme nous l'avons discuté plus tot dans le cours ce portfeuille ce type de portfeuille sont parfait pour des montant faibles ou pour un usage régulier.
+### Est-ce pour vous ?
 
-### wallet of satoshi (ultra beginners)
+* Vigilant et Sécuritaire:
+Le Parano porte un grand intérêt à sa vie privée et à sa sécurité en ligne. Cette vigilance s'étend à toutes ses interactions, en particulier celles liées à Bitcoin et aux cryptomonnaies.
 
-![video tuto](https://youtu.be/Es4InK3lq5c)
+* Indépendant:
+Préférant la gestion autonome de ses actifs et de sa sécurité, il met en place son propre nœud et travaille de manière proactive sur sa sécurité en ligne, illustrant un fort désir d'indépendance et de contrôle.
 
-### Phoenix
+* Méfiant:
+La méfiance envers les systèmes centralisés et les processus KYC est un trait distinctif du Parano. Sa réticence à partager des informations personnelles guide ses choix vers des plateformes et des services qui respectent et préservent l'anonymat.
 
-![phoenix](assets/0.jpeg)
+* Érudit et Appliqué:
+Conscient de la complexité des cryptomonnaies, le Parano prend le temps de s'éduquer sur les meilleures pratiques pour protéger et gérer ses actifs, comme le mélange de ses coins et la gestion de ses UTXO.
 
-Phoenix est un portefeuille lightning non-custodial créé par Acinq, l'équipe derrière l'implementation Lightning Eclair.
+* Pragmatique:
+Bien que valorisant l'anonymat et la sécurité, le Parano reste pragmatique dans ses choix, utilisant des solutions éprouvées et fiables pour sécuriser ses bitcoins tout en naviguant dans l'écosystème des cryptomonnaies.
 
-Pour retrouver leur documentation officielle référez-vous à leur guide FAQ: https://phoenix.acinq.co/faq
-
-![ Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
-
-### Green wallet
-
-Sa mise en place est facile et son interface est conçue pour les débutants.
-
-Si tu souhaites faire un tour sur leur site, c’est juste [ici](https://blockstream.com/green/)
-
-![vidéo tuto green wallet](https://www.youtube.com/watch?v=lONbCS31am4)
-
-### Samouraï Wallet
-
-![cover](assets/tuto/10.jpeg)
-
-Samouraï Wallet est un portefeuille qui se consacre à la vie privée. Malgré son aspect chaud, il offre un grand nombre de flexibilité dans son utilisation et sa sécurité. Comme c'est un wallet non-custodial, vous devrez sauvegarder dans un lieu sûr vos 12 mots et obligatoirement inclure une passphrase à ne surtout pas perdre.
-
-Une fois dans le wallet, l'envoi et la réception se fait de façon classique avec néanmoins énormément d'outils de vie privée tels que **Ricochet**, **Stonewall**, **Whirlpool**, **JoinMarket**, les **PayNyms** et d'autres.
-
-Pour retrouver des explications sur chacun de ces outils, vous pouvez vous référer à la section **"Outils de vie privée"** dans le tutoriel ou vous rendre sur le [site officiel de documentation de Samouraï Wallet](https://docs.samourai.io/)
-
-[![Vidéo tutoriel de Rogzy](https://www.youtube.com/watch?v=qVRMAAjNN1w)](https://www.youtube.com/watch?v=qVRMAAjNN1w)
-
-[![Vidéo tutoriel de JohnOnChain sur le mixage](https://www.youtube.com/watch?v=kS6iC_ovarQ&t=1s)](https://www.youtube.com/watch?v=kS6iC_ovarQ&t=1s)
-
-Nous avons ici essayer de garder la liste relativement courte pour vous simplifier le choix. Il va de soit que si vous êtes du genre à regarder toute les solutions avant de vous lancer je vous invite à vous rendre sur la page tutoriel de cette université pour avoir la liste complète des portefeuilles.
-
-## Portefeuille froid
-
-Comme nous l'avons vu tres souvent un portefeuille froid permet de sécuriser des montants important de bitcoins (attention au-dessus d'environ 50 000€ vous devriez utiliser au moins une passphrase ou un portefeuille multi-sig). Il existe de nombreux hardware wallet, ici nous vous en proposons 3. Vous pouvez tous les retrouver dans la section tutoriel de cette université si besoin.
-
-### Rrezor model ONE
-
-![cover](assets/tuto/8.jpeg)
-
-Un portefeuille physique froid Trezor est idéal pour commencer dans Bitcoin. C’est facile d’utilisation, pas trop cher et fonctionnel.
-
-Nous avons déjà réalisé des tutoriels sur son utilisation :
-
-1. Mise en place https://www.youtube.com/watch?v=WB5lWEaaJOE
-2. Récupération des bitcoins https://www.youtube.com/watch?v=bwM0Xm_vSYM
-3. Utilisation, envoi et réception de bitcoins https://youtu.be/ks-VHtsqjig
-
-### Ledger Nano S
-
-![cover](assets/tuto/7.jpeg)
-
-![video tuto](https://www.youtube.com/watch?v=_vsHNTLi8MQ)
-
-### bit box 02
-
-![cover](assets/tuto/6.jpeg)
-
-Le BitBox02 est un portefeuille matériel suisse spécialement conçu pour sécuriser vos Bitcoins. Voici quelques-unes de ses principales caractéristiques :
-
-![video rogzy](https://www.youtube.com/watch?v=E2Px3qx7vYk)
-
-Bien que ces 3 portefeuilles soient parmi les plus simples, il en existe bien d'autres. Voici quelques tutoriels rapides :
-
-- Jade : https://youtu.be/_U1jsTeqbTw
-- Coldcard : https://youtu.be/FAYmE5-40PQ
-- Fondation : https://youtu.be/_uGZHg64wwA
-
-Dans le monde des portefeuilles Bitcoin, il existe un autre concept en dehors de la distinction entre les portefeuilles froids et chauds, il s'agit du portefeuille de bureau (desktop wallet).
-
-Si votre appareil de stockage est en réalité un porte-clés (privées), le portefeuille de bureau est une interface pour l'utiliser. Il est extrêmement puissant et pratique pour les détenteurs de Bitcoin, car ces solutions offrent une plus grande flexibilité d'utilisation. En effet, ces portefeuilles permettent souvent des outils avancés en termes de vie privée et offrent une plus grande flexibilité dans l'utilisation des UTXO. Certains se spécialisent même dans les transactions multi-signatures pour renforcer encore davantage votre sécurité.
-
-L'utilisation de solutions telles que Sparrow, Specter ou Liana est très intéressante, mais je vous laisse les découvrir dans un second temps !
-
-# Tutoriel pour acheter du bitcoin
-
-## Solution de DCA (achat récurent)
-
-Dans cette section de tutoriel nous allons regarder comment mettre en place votre plan de DCA et ainsi commencer a simplement stacker des sats sans effort.
-
-### Relai (Suisse)
-
-![cover](assets/tuto/3.jpeg)
-
-Relai est une très bonne solution de DCA Bitcoin sans prise de tête. Pas besoin de KYC et vous avez la sécurité suisse derrière le projet.
-
-![video](https://www.youtube.com/watch?v=sAPx1waWa1s)
-
-### Stakin Sat (francais)
-
-StackinSat est la petite française spécialisée dans le plan d’épargne Bitcoin. Le service est très bon et j’en parle énormément sur la chaîne. Je suis même actionnaire chez eux !
-Stack des sats !
-
-![video](https://www.youtube.com/watch?v=mpT3kJDfRVw)
-
-### Bull Bitcoin (canadien)
-
-![video](https://youtu.be/Qennqc-wMgQ)
-
-### Swan Bitcoin (USA)
-
-![tutorial](https://youtu.be/h-SFzjsYAOA)
-
-## Plateforme traditionelle
-
-### Kraken
-
-![cover](assets/tuto/1.jpeg)
-
-Kraken est une plateforme d’achat revente de Bitcoin. L'utilisation est KYC et également Lightnig compatible. Cette fonctionnalité LN est particuluemrement pratique pour les gens rentrant dans l'univers du lightning network ou qui ont un usage régulier de bitcoin
-
-![vidéo tuto kraken](https://www.youtube.com/watch?v=ZCGXl5A2Hbc)
-
-### Bitstamp
-
-![cover](assets/tuto/0.jpeg)
-
-Bitstamp est un « broker » Bitcoin pour acheter et vendre du bitcoin, il y a énormément de volumes et d’options. C’est idéal pour les société ou les acheteurs amateur.
-
-![tutoriel Bitstamps](https://www.youtube.com/watch?v=8g9aGQ53T_A)
-
-## Solutions non-KYC
-
-Nous ne rentrerons pas dans les détails de ce genre de solution, en effet une formation entiere dédier a l'achat non KYC existe et c'est BTC 205.
-
-Le non-KYC est un aspect primodiale de votre parcours bitcoin et votre sécurité. Il permet de s'exposer sans pour autant dévoiler trop d'information personne à un tier de confiance. Ceci evite donc de se retoruver compromit avec son nom, prenom, adresse et autre information sensible dans des base de donné de hackeur.
-
-Si ce type de solution vous intersse voici une liste de solution que vous pouvez retrouver dans la section tutoriel ou BTC 205:
-
-- Robosat
-- Peach
-- Hodl Hodl
-- Bisq
-- LN2t2Bot
-- Distributeur
+Dans l'esprit du Parano, la prudence, la sécurité et l'anonymat sont primordiaux. Ces priorités dictent une approche délibérée et bien réfléchie de l'utilisation de Bitcoin, favorisant l'auto-suffisance et la prudence. Le Parano est prêt à investir du temps et des efforts pour assurer la sécurité et la confidentialité de ses bitcoin, tout en naviguant habilement dans l'écosystème pour éviter toute exposition inutile. Bien qu'il puisse sembler excessivement prudent pour certains, le Parano considère que sa diligence et son attention aux détails sont essentielles pour une participation réussie et sécurisée dans le monde du Bitcoin.
 
 # Le futur avec Bitcoin
 
@@ -883,8 +844,8 @@ Il y aura toujours un compromis entre expertise technique, disponibilité et con
 Séparation des responsabilités : La personne de confiance ne devrait JAMAIS avoir accès à votre clé privée. Son rôle unique est d'aider vos proches à comprendre le système de sécurité de vos Bitcoins et à gagner en assurance. C'est pourquoi vous choisissez deux personnes de confiance. Si nécessaire, vous pouvez également recourir à une organisation tierce (avocat spécialisé ou services de planification successorale).
 
 | Personne de confiance   | Confiance   | Connaissance en BTC | Info de Confiance      | Note                                                                                            |
-| ----------------------- | ----------- | ------------------- | ---------------------- | ----------------------------------------------------------------------------------------------- |
-| Mon frère Bob           | Très grande | Basse               | Téléphone & mail       | "Bob ne sait pas grand chose sur les BTC, mais on peut lui faire confiance à 100 % pour aider." |
+|-------------------------|-------------|---------------------|------------------------|-------------------------------------------------------------------------------------------------|
+| Mon frère Bob           | Très grande | Basse               | Téléphone & mail       | "Bob ne sait pas grand-chose sur les BTC, mais on peut lui faire confiance à 100% pour aider." |
 | Mon cousin Nathan       | Grande      | Moyenne             | Téléphone & insta      | N°1 des personnes à qui parler. Il peut vous aider. Il est au courant.                          |
 | Ricco (Crypto pote)     | Moyenne     | Très grande         | Twitter & mail & photo | Faire confiance sur les questions techniques. Jamais avec l'argent. Il faudra le contacter.     |
 | Youtubeur & influenceur | Basse       | Grande              | Lien YTB               | Instruisez-vous en le suivant. Il ne peut pas vous aider directement.                           |
@@ -899,11 +860,12 @@ Il est important de penser à tous les endroits où vous avez des dollars ou des
 
 Envisagez comment vous les avez sécurisés et où ces sauvegardes sont stockées. Il n'est pas essentiel d'avoir deux lieux de sauvegarde pour l'instant. L'objectif est de réaliser une capture instantanée de votre sécurité ACTUELLE. Nous pourrons l'améliorer plus tard ! Il s'agit simplement d'une première version pour assurer votre sécurité pour le moment, nous reviendrons plus en détail sur cela plus tard.
 
-| Général               | Logiciel / Matériel | Actifs        | Localisation         | Sauvegarde (clé privée)         | Mot de passe (PIN, passphrase) |
-| --------------------- | ------------------- | ------------- | -------------------- | ------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Plateforme d'échange  | Bitstamp            | BTC & Liquide | Accessible en ligne. | -                               | Domicile & Coffre de la banque | C'est là que j'ai acheté et transféré mes Bitcoins. Je me connecte en utilisant un gestionnaire de mots de passe et un 2FA. |
-| Portefeuille physique | Trezor model One    | BTC           | En sécurité          | Oncle Bob & Coffre de la banque | Domicile & Mère                | J'ai deux portefeuilles, un normal et un avec passphrase.                                                                   |
-| Portefeuille Samourai | Mobile – One Plus 6 | BTC           | Sur moi              | Oncle Bob & Coffre de la banque | Domicile & Mère                | L'application pourrait être en mode caché.                                                                                  |
+| Général               | Logiciel / Matériel | Actifs        | Localisation         | Sauvegarde (clé privée)         | Mot de passe (PIN, passphrase) | Note                                                                                                                                                  |
+|-----------------------|---------------------|---------------|----------------------|---------------------------------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Plateforme d'échange  | Bitstamp            | BTC & Liquide | Accessible en ligne. | -                               | Domicile & Coffre de la banque   | C'est là que j'ai acheté et transféré mes Bitcoins. Je me connecte en utilisant un gestionnaire de mots de passe et un 2FA.                           |
+| Portefeuille physique | Trezor model One    | BTC           | En sécurité          | Oncle Bob & Coffre de la banque | Domicile & Mère                  | J'ai deux portefeuilles, un normal et un avec passphrase.                                                                                             |
+| Portefeuille Samourai | Mobile – One Plus 6 | BTC           | Sur moi              | Oncle Bob & Coffre de la banque | Domicile & Mère                  | L'application pourrait être en mode caché.                                                                                                            |
+
 
 NE VOUS LAISSEZ PAS DISTRAIRE ! Vous ressentez le besoin de transférer ces actifs pour :
 

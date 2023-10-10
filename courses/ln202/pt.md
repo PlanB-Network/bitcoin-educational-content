@@ -103,11 +103,6 @@ A blockchain do Bitcoin é essencialmente um banco de dados que incorpora blocos
 Além da dificuldade de mineração, o custo atual de uma transação Bitcoin é visível no painel, bem como a blockchain com sua cadeia de blocos. As taxas para uma transação Bitcoin atualmente são de 40 sats/vbytes. As taxas de transação no Bitcoin são baseadas na complexidade da transação, que é considerada proporcional ao peso virtual (os vbytes) da transação. Os vbytes, ou bytes virtuais, são uma unidade de medida usada no Bitcoin para avaliar o tamanho de uma transação levando em consideração a tecnologia SegWit. Assim, o uso de vbytes permite uma medida mais precisa da eficiência do espaço em um bloco.
 
 Cada usuário é livre para determinar as taxas associadas à sua transação, que tendem a refletir a urgência da validação da transação: quanto mais o usuário deseja que sua transação seja validada rapidamente, mais as taxas aumentam. Assim, como o volume de um bloco é limitado a 4 MB (embora o tamanho médio dos blocos seja de cerca de 1,5 MB), quando a demanda aumenta, as taxas para aumentar a probabilidade de que nossa transação seja incluída no próximo bloco podem aumentar significativamente.
-O Bitcoin possui várias camadas: o Mainnet (a cadeia principal), o Testnet e o Signet (cadeias dedicadas à experimentação e validação de novas funcionalidades), a Lightning Network (uma rede de pagamento) e a Liquid (uma sidechain onde os blocos são validados a cada minuto). Cada uma dessas camadas tem sua própria utilidade e casos de uso específicos.
-
-Os blocos que contêm transações são construídos pelos pools de mineração e seu nível de preenchimento varia de acordo com a demanda e o tempo decorrido desde a mineração do último bloco. Camadas superiores, como a Lightning Network, permitem transações mais rápidas e menos custosas do que na blockchain principal, mas ainda dependem do Bitcoin para seu modelo de segurança.
-
-Em conclusão, os exploradores de blocos permitem acompanhar as transações em tempo real ou rastreá-las no passado. Essas transações podem apresentar níveis variados de complexidade. O Mempool oferece uma solução eficaz para visualizar a blockchain, acompanhar as transações e analisar as taxas e a congestão da rede.
 
 # Explorador de Blocos e Análise de Estatísticas
 

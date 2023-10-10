@@ -19,7 +19,9 @@ Bonne découverte !
 
 +++
 
-# Comprendre le Lightning Network
+# Les fondamentaux
+
+## Comprendre le Lightning Network
 
 ![Comprendre le lightning Network](https://youtu.be/PszWk046x-I)
 
@@ -70,7 +72,7 @@ Désormais, Bob souhaite envoyer 80 000 SAT à Alice. N’ayant pas la liquidit�
 
 ![explication](assets/chapitre1/3.JPG)
 
-# Bitcoin, adresses, UTXO et transactions
+## Bitcoin, adresses, UTXO et transactions
 
 ![bitcoin, adresses, utxo et transactions](https://youtu.be/cadCJ2V7zTg)
 
@@ -101,7 +103,9 @@ Dans Lightning Network, on utilise des multi-signatures. Il faut donc 2 signatur
 
 ![explication](assets/chapitre2/1.JPG)
 
-# Ouverture de canal
+# Ouverture et fermeture des canaux
+
+## Ouverture de canal
 
 ![ouvrir un canal](https://youtu.be/B2caBC0Rxko)
 
@@ -146,7 +150,7 @@ Alice peut donc récupérer les fonds seule, elle a déjà la signature de Bob. 
 
 ![explication](assets/chapitre3/3.JPG)
 
-# Transaction Lightning & d’engagement
+## Transaction Lightning & d’engagement
 
 ![trasanction lightning & transaction d'engagement](https://youtu.be/aPqI34tpypM)
 
@@ -182,7 +186,7 @@ Alice (90,000 SAT) =============== Bob (40,000 SAT)
 ```
 L’argent ne bouge donc jamais mais la balance finale s’actualise via une transaction signée mais non publiée on-chain. La transaction de retrait est donc une transaction d’engagement. Les transferts de satoshis sont une autre transaction d’engagement plus récente qui actualise la balance.
 
-# Transactions d'engagement
+## Transactions d'engagement
 
 ![transactions partie 2](https://youtu.be/RRvoVTLRJ84)
 
@@ -209,7 +213,7 @@ De la même façon, Bob va fournir son secret à Alice. Pour que s’il essaie d
 
 La personne qui crée la transaction avec le Timelock (celui qui envoie l’argent) peut utiliser la clé de révocation uniquement après le Timelock. Cependant la personne qui reçoit l’argent, peut l’utiliser avant le Timelock en cas de triche d‘un côté à l’autre d’un canal sur le Lightning Network. En particulier, nous passons en détail les mécanismes qui permettent de se prémunir d’une éventuelle tricherie de la part de son pair au sein du canal.
 
-# Fermeture de canal
+## Fermeture de canal
 
 ![fermer un canal](https://youtu.be/FVmQvNpVW8Y)
 
@@ -222,13 +226,13 @@ Nous nous intéressons à la fermeture de canal au travers d’une transaction B
 ![instruction](assets/chapitre6/1.JPG)
 ![instruction](assets/chapitre6/0.JPG)
 
-## Le bon
+### Le bon
 
 Les deux pairs se parlent et acceptent de fermer le canal. Ils arrêtent donc toutes les transactions et valident un état final du canal. Ils se mettent d’accord sur les frais de réseaux (la personne qui ouvre le canal paie les frais de fermeture). Ils créent désormais la transaction de fermeture. Il y a donc une transaction de fermeture, différente des transactions d’engagement car il n’y a pas de Timelock et de clé de révocation. La transaction est donc publiée et Alice et Bob touchent leurs soldes respectifs. Ce type de fermeture est rapide (car pas de Timelock) et peu coûteuse en général.
 
 ![instruction](assets/chapitre6/3.JPG)
 
-## La brute
+### La brute
 
 Alice veut fermer le canal, elle communique mais Bob ne répond car il est hors ligne (coupure internet ou électricité). Alice va donc publier la transaction d’engagement la plus récente (la dernière). La transaction est donc publiée et le Timelock s’active. Alors, les frais ont été décidé lors de la création de cette transaction il y a X temps dans le passé ! La MemPool est le réseau ayant changés depuis, le protocole utilise par défaut des frais 5 fois supérieurs à ceux actuels lors de la création de la transaction. Création frais à 10 SAT donc la transaction a considéré 50 SAT. Au moment de publier de façon forcée, la transaction de clôture le réseau est à :
 
@@ -239,7 +243,7 @@ Ceci rend donc la fermeture forcée plus longue (Timelock) et surtout plus hasar
 
 ![instruction](assets/chapitre6/4.JPG)
 
-## Le truand
+### Le truand
 
 Alice essaie de tricher en publiant une ancienne transaction d‘engagement. Mais Bob surveille la MemPool et guette s’il y a des transactions qui essaient d’en publier des anciennes. S’il en trouve, il utilise la clé de révocation pour punir Alice et prendre tous les SAT du canal.
 
@@ -247,7 +251,9 @@ Alice essaie de tricher en publiant une ancienne transaction d‘engagement. Mai
 
 Pour conclure, la fermeture de canal dans le Lightning Network est une étape cruciale qui peut prendre diverses formes. Dans une fermeture coopérative, les deux parties communiquent et s'accordent sur un état final du canal. C'est l'option la plus rapide et la moins coûteuse. En revanche, une fermeture forcée survient lorsque l'une des parties est non responsive. C'est une situation plus coûteuse et plus longue en raison des frais de transaction imprévisibles et de l'activation du Timelock. Enfin, si un participant tente de tricher en publiant une ancienne transaction d'engagement, le truand, il peut être puni en perdant tous les SAT du canal. Il est donc crucial de comprendre ces mécanismes pour une utilisation efficace et équitable du Lightning Network.
 
-# Lightning le Réseau
+# Un réseau de liquidité
+
+## Lightning le Réseau
 
 ![lightning le réseau](https://youtu.be/RAZAa3v41DM)
 
@@ -384,7 +390,7 @@ Dans le cas où Bob ne révèle pas le secret dans un certain laps de temps, le 
 
 Lors de la clôture du canal, si c'est une clôture coopérative, les paiements sont interrompus et les HTLCs sont résolus, ce qui est généralement moins coûteux. Si la clôture est forcée, toutes les transactions HTLC en cours sont publiées, ce qui peut devenir très coûteux et désordonné.En somme, le mécanisme des HTLC ajoute une couche de sécurité supplémentaire dans le Lightning Network, assurant que les paiements sont exécutés correctement et que les utilisateurs respectent leurs engagements.
 
-# Trouver sa voie
+## Trouver sa voie
 
 ![trouver sa voie](https://youtu.be/wnUGJjOxd9Q)
 
@@ -453,7 +459,8 @@ Lorsque plusieurs routes sont possibles, les nœuds cherchent à minimiser les f
 Par ailleurs, pour faciliter la recherche de route, le destinataire peut fournir des informations supplémentaires, comme l'adresse, le montant, le hash de la préimage, et des indications sur ses canaux. Cela peut aider à identifier les canaux avec une liquidité suffisante et éviter les tentatives de transactions inutiles.
 En fin de compte, le système de routage du Lightning Network est conçu pour optimiser la vitesse, la sécurité et l'efficacité des transactions, tout en préservant la confidentialité des utilisateurs.
 
-# Invoice, LNURL, Keysend
+# Outils du lightning Network
+## Invoice, LNURL, Keysend
 
 ![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
 
@@ -472,7 +479,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - 26 = abcdefghijklmnopqrstuvwxyz
 - 32 = pas le « b- i- o » et pas le « 1 »
 
-## lnbc1m
+### lnbc1m
 
 - ln = Lightning
 - Bc = bitcoin (mainnet)
@@ -483,7 +490,7 @@ Ici 1m = 1 /* 0.0001btc = 100 000 BTC
 
 « Prié de payer 100 000 SAT sur le réseau Lightning du mainnet bitcoin à pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3 »
 
-## Timestamp (quand il a été créé)
+### Timestamp (quand il a été créé)
 
 Il contient 0 ou plusieurs parties supplémentaires :
 
@@ -505,15 +512,7 @@ Un Keysend permet à Alice d’envoyer de l’argent à Bob sans avoir la demand
 
 En conclusion, une facture Lightning Network, bien que complexe à première vue, encode de manière efficace une demande de paiement. Chaque section de l'invoice renferme des informations clés, incluant le montant à payer, le destinataire, le timestamp de création, et potentiellement d'autres informations comme le hash de la préimage, le secret de paiement, les indications de routage, et la durée d'expiration. Les protocoles tels que LNURL et Keysend offrent des améliorations significatives en termes de flexibilité et d'expérience utilisateur, permettant par exemple d'envoyer des fonds sans demande préalable de l'autre partie. Ces technologies rendent le processus de paiement plus fluide et plus efficace sur le Lightning Network.
 
-### Soutiens-nous
-
-Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
-
-### Note la formation
-
-Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
-
-# Gérer sa liquidité
+## Gérer sa liquidité
 
 ![gerer sa liquidité](https://youtu.be/YuPrbhEJXbg)
 
@@ -537,7 +536,7 @@ Une autre solution serait de faire des paiements ; vous payez 100 000 pour X rai
 
 ![instruction](assets/chapitre11/2.JPG)
 
-## Solution Loop Out : Atomic swap LN – BTC
+### Solution Loop Out : Atomic swap LN – BTC
 
 Alice 2 millions – Susie 0
 
@@ -550,9 +549,7 @@ Alice envoie 1 million à loop via le nœud de Susie, donc Susie a la liquidité
 
 Donc les 1 million partent chez Susie, cette dernière envoie 1 million à Loop, Loop envoie 1 million à Alice. Alice a donc déplacé la liquidité vers Susie au prix de quelques frais payés à Loop pour le service.
 
-
 Le plus compliqué dans LN est de garder la liquidité.
-
 
 ![instruction](assets/chapitre11/5.JPG)
 
@@ -626,6 +623,7 @@ Enfin, le futur de Bitcoin est prometteur avec une projection possible d'un mill
 ## Remerciements et continuez à creuser le terrier du lapin
 
 Félicitations ! 🎉
+
 Vous avez terminé la formation LN 201 – Introduction au Lightning Network !
 Vous pouvez être fier de vous car ce n’est pas facile. Sachez que peu sont les personnes qui descendent aussi bas dans le terrier du Bitcoin.
 

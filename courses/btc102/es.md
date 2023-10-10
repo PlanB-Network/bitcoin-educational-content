@@ -1,5 +1,5 @@
 ---
-name: BTC 102 - Obtener tus primeros bitcoins
+name: Obtener tus primeros bitcoins
 goal: Obtener tus primeros bitcoins y almacenarlos de manera segura en una billetera Bitcoin con una frase mnemónica y un plan de herencia.
 objectives:
   - Actualice su seguridad en línea
@@ -514,6 +514,9 @@ Cualquiera puede comenzar a contribuir al código, pero es importante tener en c
 ¿Un poder ilimitado? No. Los principales desarrolladores no tienen un poder ilimitado y no pueden modificar o controlar Bitcoin solos. Son los nodos los que tienen el poder. Nadie controla Bitcoin.
 
 ![blockchain](assets/industrie/5.JPG)
+
+## La arquitectura en capas de Bitcoin
+
 Bitcoin, como protocolo de código abierto, puede ser complementado y enriquecido por capas de protocolos/aplicaciones añadidas por cualquier persona. Algunas de estas características son más significativas que otras, creando un ecosistema dinámico con una multitud de empresas contribuyendo al desarrollo de la infraestructura. Ejemplos de estos proyectos incluyen: Sidechains (por ejemplo, Liquid Chain de Blockstream), Lightning Network de Lightning Labs y conceptos de identidad (por ejemplo, Microsoft ION). Estos proyectos son como capas adicionales añadidas al protocolo Bitcoin inicial.
 
 ¿Sabías que? Internet no fue construido en un solo bloque. Es el resultado de varias capas de protocolos apilados uno encima del otro - HTTP, TCP, IP. De esta manera, cada capa es extremadamente eficiente para realizar la tarea que se le asigna específicamente, mientras que otros niveles responden a otras necesidades.

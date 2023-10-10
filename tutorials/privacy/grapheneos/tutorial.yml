@@ -1,0 +1,16 @@
+builder: GrapenOs
+
+category: general
+
+tags:
+  - privacy
+  - education
+
+level: advanced
+
+credits:
+  name: BitoinQ&A
+  link: https://bitcoiner.guide/grapheneos/
+  tips:
+    lightning_adress: qna@tips.bitcoiner.guide
+    paynym: +BQA

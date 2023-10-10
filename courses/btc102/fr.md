@@ -738,7 +738,7 @@ L'utilisateur est une personne technologiquement avisée et engagée dans l'util
 
 ## Le parano
 
-Je me permets d'ajouter ici le bitcoiner paranoïaque. Ce type de personne ne souhaite pas s'exposer au KYC (Know Your Customer), préfère rester proche de l'anonymat et accorde une grande importance à sa vie privée. Le parano utilisera aussi LN via son propore noeud et travailler sur ca sécurioté en ligne
+Je me permets d'ajouter ici le bitcoiner paranoïaque. Ce type de personne ne souhaite pas s'exposer au KYC (Know Your Customer), préfère rester proche de l'anonymat et accorde une grande importance à sa vie privée. Le paranoïaque utilisera aussi LN via son propre nœud et travaillera sur sa sécurité.
 
 ### Le plan
 

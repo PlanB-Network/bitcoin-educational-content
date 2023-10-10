@@ -1,28 +1,28 @@
 ---
-name: Introduzione teorica al Lightning Network
-goal: Scoprire il Lightning Network dal punto di vista tecnico
+name: Introduzione teorica a Lightning Network
+goal: Scoprire Lightning Network dal punto di vista tecnico
 objectives:
   - Comprendere il funzionamento dei canali della rete.
   - Familiarizzarsi con i termini HTLC, LNURL e UTXO.
   - Assimilare la gestione della liquidità e le commissioni del LNN.
-  - Riconoscere il Lightning Network come una rete.
-  - Comprendere le possibili applicazioni teoriche del Lightning Network.
+  - Riconoscere Lightning Network come una rete.
+  - Comprendere le possibili applicazioni teoriche di Lightning Network.
 ---
 
 # Un viaggio verso il secondo strato di Bitcoin
 
-Questa formazione è un corso teorico sul funzionamento tecnico del Lightning Network.
+Questa formazione è un corso teorico sul funzionamento tecnico di Lightning Network.
 
-Benvenuti nel mondo entusiasmante del Lightning Network, un secondo strato di Bitcoin, che rappresenta un'innovazione tecnologica sofisticata e ricca di potenzialità. Ci apprestiamo ad approfondire gli aspetti tecnici di questa tecnologia, senza concentrarci su tutorial o scenari d'uso specifici. Per trarre il massimo da questa formazione, è indispensabile una solida comprensione di Bitcoin. Si tratta di un'esperienza che richiede un approccio serio e concentrato. Potete anche considerare di seguire il corso LN 202 in parallelo, che offre un aspetto più pratico a questa esplorazione. Preparatevi a imbarcarvi per un viaggio che potrebbe cambiare la vostra percezione dell'ecosistema Bitcoin.
+Benvenuti nel mondo entusiasmante di Lightning Network, un secondo strato di Bitcoin, che rappresenta un'innovazione tecnologica sofisticata e ricca di potenzialità. Ci apprestiamo ad approfondire gli aspetti tecnici di questa tecnologia, senza concentrarci su tutorial o scenari d'uso specifici. Per trarre il massimo da questa formazione, è indispensabile una solida comprensione di Bitcoin. Si tratta di un'esperienza che richiede un approccio serio e concentrato. Potete anche considerare di seguire il corso LN 202 in parallelo, che offre un aspetto più pratico a questa esplorazione. Preparatevi a imbarcarvi per un viaggio che potrebbe cambiare la vostra percezione dell'ecosistema Bitcoin.
 
 Buona scoperta!
 
 +++
 
 # I fondamentali
-## Comprendere il Lightning Network
+## Comprendere Lightning Network
 
-![Comprendere il lightning Network](https://youtu.be/PszWk046x-I)
+![Comprendere Lightning Network](https://youtu.be/PszWk046x-I)
 
 La rete Lightning è un'infrastruttura di pagamento di secondo livello, costruita sulla rete Bitcoin, che consente transazioni veloci e a basso costo. Per comprendere appieno come funziona la rete Lightning, è essenziale capire cosa sono i canali di pagamento e come funzionano.
 
@@ -38,7 +38,7 @@ Anche se la capacità di un canale di pagamento Lightning è fissa, ciò non lim
 
 Nonostante questi limiti, i canali di pagamento Lightning sono un modo efficace per effettuare transazioni Bitcoin veloci e a basso costo. Consentono agli utenti di inviare e ricevere Bitcoin senza dover pagare commissioni di transazione elevate o attendere lunghe conferme sulla rete Bitcoin.
 
-In sintesi, i canali di pagamento su Lightning offrono una soluzione potente per coloro che desiderano effettuare transazioni Bitcoin veloci e a basso costo. Tuttavia, è essenziale comprendere il loro funzionamento e i loro limiti per poterne trarre pieno vantaggio.
+In sintesi, i canali di pagamento su Lightning offrono una soluzione potente per coloro che desiderano effettuare transazioni Bitcoin veloci ed a basso costo. Tuttavia, è essenziale comprendere il loro funzionamento e i loro limiti per poterne trarre pieno vantaggio.
 
 ![explication](assets/chapitre1/1.JPG)
 
@@ -96,7 +96,7 @@ Transazione Bitcoin (0,002 BTC)
 Alice (nuovo UTXO: 0,0005 BTC)
 ```
 
-Nella Lightning Network, vengono utilizzate firme multiple. Sono quindi necessarie 2 firme per sbloccare i fondi, ovvero due chiavi private per spostare i soldi. Quindi possono essere Alice e Bob a dover accettare insieme di sbloccare i soldi (l'UTXO). In LN precisamente, sono transazioni 2/2 quindi sono necessarie entrambe le firme a differenza delle firme multiple 2/3 o 3/5 dove è necessaria solo una combinazione del numero completo di chiavi.
+In Lightning Network, vengono utilizzate firme multiple. Sono quindi necessarie 2 firme per sbloccare i fondi, ovvero due chiavi private per spostare i soldi. Quindi possono essere Alice e Bob a dover accettare insieme di sbloccare i fondi (l'UTXO). In LN precisamente, sono transazioni 2/2 quindi sono necessarie entrambe le firme a differenza delle firme multiple 2/3 o 3/5 dove è necessaria solo una combinazione del numero completo di chiavi.
 
 ![explication](assets/chapitre2/1.JPG)
 
@@ -107,7 +107,7 @@ Nella Lightning Network, vengono utilizzate firme multiple. Sono quindi necessar
 
 Ora ci concentriamo più in dettaglio sull'apertura del canale e su come questa viene effettuata attraverso una transazione Bitcoin.
 
-La Lightning Network ha diversi livelli di comunicazione:
+Lightning Network ha diversi livelli di comunicazione:
 
 - Comunicazione p2p (protocollo Lightning Network)
 - Canale di pagamento (protocollo Lightning Network)
@@ -151,7 +151,7 @@ Alice può quindi recuperare i fondi da sola, avendo già la firma di Bob. Pubbl
 ![cover](assets/chapitre4/1.JPG)
 
 
-Ora analizziamo cosa succede realmente dietro le quinte quando si trasferiscono fondi da un lato all'altro di un canale sulla Lightning Network, con particolare attenzione alla nozione di transazione di impegno. La transazione di prelievo/chiusura on-chain rappresenta lo stato del canale, garantendo a chi appartengono i fondi dopo ogni trasferimento. Quindi dopo un trasferimento sulla Lightning Network, c'è un aggiornamento di questa transazione/contratto non realizzato tra le due parti, Alice e Bob creano quindi una stessa transazione con lo stato attuale del canale nel caso di una chiusura:
+Ora analizziamo cosa succede realmente dietro le quinte quando si trasferiscono fondi da un lato all'altro di un canale Lightning Network, con particolare attenzione alla nozione di transazione di impegno. La transazione di prelievo/chiusura on-chain rappresenta lo stato del canale, garantendo a chi appartengono i fondi dopo ogni trasferimento. Quindi dopo un trasferimento su Lightning Network, c'è un aggiornamento di questa transazione/contratto non realizzato tra le due parti, Alice e Bob creano quindi una stessa transazione con lo stato attuale del canale nel caso di una chiusura:
 
 - Alice apre un canale con Bob con 130.000 SAT dal suo lato. La transazione di prelievo accettata da entrambi in caso di chiusura dice che 130.000 SAT andranno ad Alice alla chiusura, Bob è d'accordo perché è giusto.
 
@@ -177,7 +177,7 @@ Dopo il secondo trasferimento:
 Alice (90.000 SAT) =============== Bob (40.000 SAT)
 ```
 
-I soldi non si muovono mai ma il saldo finale viene aggiornato tramite una transazione firmata ma non pubblicata on-chain. La transazione di prelievo è quindi una transazione di impegno. I trasferimenti di satoshi sono un'altra transazione di impegno più recente che aggiorna il saldo.
+I soldi non si muovono mai, ma il saldo finale viene aggiornato tramite una transazione firmata ma non pubblicata on-chain. La transazione di prelievo è quindi una transazione di impegno. I trasferimenti di satoshi sono un'altra transazione di impegno più recente che aggiorna il saldo.
 
 ## Transazioni di impegno
 
@@ -226,7 +226,7 @@ I due partner si parlano e accettano di chiudere il canale. Quindi, interrompono
 
 ![instruction](assets/chapitre6/3.JPG)
 
-### Il brutto
+### Il brutale
 
 Alice vuole chiudere il canale, comunica ma Bob non risponde perché è offline (interruzione di Internet o elettricità). Alice pubblicherà quindi la transazione di impegno più recente (l'ultima). La transazione viene quindi pubblicata e il Timelock si attiva. Quindi, i costi sono stati decisi durante la creazione di questa transazione X tempo fa! La MemPool è la rete che è cambiata da allora, il protocollo utilizza di default costi 5 volte superiori a quelli attuali durante la creazione della transazione. Creazione di costi a 10 SAT quindi la transazione ha considerato 50 SAT. Al momento della pubblicazione forzata, la transazione di chiusura della rete è:
 
@@ -243,7 +243,7 @@ Alice cerca di imbrogliare pubblicando una vecchia transazione di impegno. Ma Bo
 
 ![instruction](assets/chapitre6/5.JPG)
 
-In conclusione, la chiusura del canale nella Lightning Network è una fase cruciale che può assumere diverse forme. In una chiusura cooperativa, entrambe le parti comunicano e concordano su uno stato finale del canale. È l'opzione più rapida e meno costosa. Al contrario, una chiusura forzata si verifica quando una delle parti non risponde. È una situazione più costosa e più lunga a causa dei costi di transazione imprevedibili e dell'attivazione del Timelock. Infine, se un partecipante cerca di imbrogliare pubblicando una vecchia transazione di impegno, il truffatore, può essere punito perdendo tutti i SAT del canale. È quindi cruciale comprendere questi meccanismi per un utilizzo efficace ed equo della Lightning Network.
+In conclusione, la chiusura del canale in Lightning Network è una fase cruciale che può assumere diverse forme. In una chiusura cooperativa, entrambe le parti comunicano e concordano su uno stato finale del canale. È l'opzione più rapida e meno costosa. Al contrario, una chiusura forzata si verifica quando una delle parti non risponde. È una situazione più costosa e più lunga a causa dei costi di transazione imprevedibili e dell'attivazione del Timelock. Infine, se un partecipante cerca di imbrogliare pubblicando una vecchia transazione di impegno, il truffatore, può essere punito perdendo tutti i SAT del canale. È quindi cruciale comprendere questi meccanismi per un utilizzo efficace ed equo della Lightning Network.
 
 # Una rete di liquidità
 ## Lightning Network
@@ -251,7 +251,7 @@ In conclusione, la chiusura del canale nella Lightning Network è una fase cruci
 ![lightning network](https://youtu.be/RAZAa3v41DM)
 
 In questo settimo capitolo, esaminiamo il funzionamento di Lightning come rete di canali e come i pagamenti vengono instradati dalla loro origine alla loro destinazione.
-Il Lightning è una rete di canali di pagamento. Ci sono quindi migliaia di peer con i loro canali di liquidità che sono connessi tra loro e si auto-utilizzano per effettuare transazioni tra peer non connessi.
+Lightning è una rete di canali di pagamento. Ci sono quindi migliaia di peer con i loro canali di liquidità che sono connessi tra loro e si auto-utilizzano per effettuare transazioni tra peer non connessi.
 
 ![cover](assets/Chapitre7/0.JPG)
 ![cover](assets/Chapitre7/1.JPG)
@@ -320,7 +320,7 @@ Alice ha pagato 9,04 SAT di commissioni e Bob ha ricevuto 40.000 SAT.
 
 ![cover](assets/Chapitre7/7.JPG)
 
-Nel LN, è il nodo di Alice che decide il percorso prima dell'invio. Quindi c'è una ricerca del miglior percorso e solo Alice conosce il percorso e il prezzo. Il pagamento viene inviato ma Susie non ha informazioni.
+In LN, è il nodo di Alice che decide il percorso prima dell'invio. Quindi c'è una ricerca del miglior percorso e solo Alice conosce il percorso e il prezzo. Il pagamento viene inviato ma Susie non ha informazioni.
 
 ![cover](assets/Chapitre7/9.JPG)
 
@@ -374,7 +374,7 @@ Una volta effettuato il pagamento (scadenza o esecuzione), lo stato del canale c
 In caso di chiusura cooperativa: si interrompono i pagamenti e quindi si attende l'esecuzione dei trasferimenti/HTCL, la transazione è leggera quindi meno costosa perché ci sono al massimo 1 o 2 output.
 In caso di chiusura forzata: si pubblica con tutti gli HTLC in corso, diventa quindi molto pesante e molto costoso. Ed è un casino.
 
-In sintesi, il sistema di routing della Lightning Network utilizza contratti Hash Time-Locked (HTLC) per garantire un pagamento sicuro e verificabile. Gli HTLC consentono di effettuare pagamenti condizionati in cui i soldi possono essere sbloccati solo con un segreto, garantendo così che i partecipanti rispettino i loro impegni.
+In sintesi, il sistema di routing di Lightning Network utilizza contratti Hash Time-Locked (HTLC) per garantire un pagamento sicuro e verificabile. Gli HTLC consentono di effettuare pagamenti condizionati in cui i soldi possono essere sbloccati solo con un segreto, garantendo così che i partecipanti rispettino i loro impegni.
 Nell'esempio presentato, Alice desidera inviare SAT a Bob tramite Susie. Bob genera un segreto, crea un hash di esso e lo trasmette ad Alice. Alice e Susie creano un HTLC basato su questo hash. Una volta che Bob sblocca l'HTLC di Susie mostrandole il segreto, Susie può quindi sbloccare l'HTLC di Alice.
 Nel caso in cui Bob non rivelasse il segreto entro un certo periodo di tempo, l'HTLC scade. La scadenza avviene nell'ordine inverso, assicurando che se Bob torna online, non ci siano conseguenze indesiderate.
 
@@ -386,7 +386,7 @@ In sintesi, il meccanismo degli HTLC aggiunge un ulteriore livello di sicurezza 
 ![trovare la propria strada](https://youtu.be/wnUGJjOxd9Q)
 
 L'unica informazione pubblica è la capacità totale del canale (Alice + Bob) ma non si sa dove si trova la liquidità.
-Per avere maggiori informazioni, il nostro nodo ascolta il canale di comunicazione del LN per annunci di nuovi canali e aggiornamenti delle commissioni dei canali. Il tuo nodo guarda anche la blockchain per la chiusura dei canali.
+Per avere maggiori informazioni, il nostro nodo ascolta il canale di comunicazione di LN per annunci di nuovi canali e aggiornamenti delle commissioni dei canali. Il tuo nodo guarda anche la blockchain per la chiusura dei canali.
 
 Poiché non abbiamo tutte le informazioni, dobbiamo fare una ricerca di grafico/percorso con le informazioni che abbiamo (capacità massima dei canali e non dove si trova la liquidità).
 
@@ -405,7 +405,7 @@ Quindi se ci sono 3 possibili percorsi:
 - Alice > 1 > 2 > 4 > 5 > Bob
 - Alice 1 > 2 > 3 > Bob
 
-Cerchiamo quindi il migliore in teoria con il minor costo e la maggior probabilità di successo: il massimo di liquidità e il minor numero di hop possibile.
+Cerchiamo quindi il migliore in teoria con il minor costo e la maggior probabilità di successo: il massimo di liquidità e il minor numero di hop (salti) possibile.
 
 Ad esempio, se 2-3 ha una capacità di soli 130.000 SAT, inviare 100.000 è molto improbabile, quindi la scelta n. 3 non ha possibilità di successo.
 
@@ -443,11 +443,11 @@ Un altro elemento sarebbero i canali privati (quindi non pubblicati sulla rete) 
 
 ![graph](assets/chapitre9/3.JPG)
 
-In conclusione, il routing delle transazioni sulla Lightning Network è un processo complesso che richiede la considerazione di diversi fattori. Mentre la capacità totale dei canali è pubblica, la distribuzione precisa della liquidità non è direttamente accessibile. Ciò obbliga i nodi a stimare le rotte più probabili di successo, tenendo conto di criteri come le commissioni, la scadenza degli HTLC, il numero di nodi intermedi e un fattore di casualità. Quando sono possibili più rotte, i nodi cercano di minimizzare le commissioni e massimizzare le possibilità di successo scegliendo canali con una liquidità sufficiente e un numero minimo di salti. Se un tentativo di transazione fallisce a causa di una liquidità insufficiente, viene provata un'altra rotta fino a quando una transazione ha successo.
+In conclusione, il routing delle transazioni su Lightning Network è un processo complesso che richiede la considerazione di diversi fattori. Mentre la capacità totale dei canali è pubblica, la distribuzione precisa della liquidità non è direttamente accessibile. Ciò obbliga i nodi a stimare le rotte più probabili di successo, tenendo conto di criteri come le commissioni, la scadenza degli HTLC, il numero di nodi intermedi ed un fattore di casualità. Quando sono possibili più rotte, i nodi cercano di minimizzare le commissioni e massimizzare le possibilità di successo scegliendo canali con una liquidità sufficiente e un numero minimo di salti. Se un tentativo di transazione fallisce a causa di una liquidità insufficiente, viene provata un'altra rotta fino a quando una transazione ha successo.
 
-Inoltre, per facilitare la ricerca della rotta, il destinatario può fornire informazioni aggiuntive, come l'indirizzo, l'importo, l'hash della preimmagine e indicazioni sui suoi canali. Ciò può aiutare a identificare i canali con una liquidità sufficiente ed evitare tentativi di transazioni inutili. In definitiva, il sistema di routing della Lightning Network è progettato per ottimizzare la velocità, la sicurezza e l'efficienza delle transazioni, preservando la privacy degli utenti.
+Inoltre, per facilitare la ricerca della rotta, il destinatario può fornire informazioni aggiuntive, come l'indirizzo, l'importo, l'hash della preimmagine e indicazioni sui suoi canali. Ciò può aiutare a identificare i canali con una liquidità sufficiente ed evitare tentativi di transazioni inutili. In definitiva, il sistema di routing su Lightning Network è progettato per ottimizzare la velocità, la sicurezza e l'efficienza delle transazioni, preservando la privacy degli utenti.
 
-# Strumenti della Lightning Network
+# Strumenti di Lightning Network
 ## Fattura, LNURL, Keysend
 
 ![fattura, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
@@ -496,7 +496,7 @@ Un Keysend consente ad Alice di inviare denaro a Bob senza che Bob lo richieda. 
 
 ![cover](assets/chapitre10/3.JPG)
 
-In conclusione, una fattura della Rete Lightning, sebbene complessa a prima vista, codifica efficacemente una richiesta di pagamento. Ogni sezione della fattura contiene informazioni chiave, tra cui l'importo da pagare, il destinatario, il timestamp di creazione e potenzialmente altre informazioni come l'hash della pre-immagine, il segreto di pagamento, le indicazioni di instradamento e il tempo di scadenza. Protocolli come LNURL e Keysend offrono notevoli miglioramenti in termini di flessibilità e di esperienza utente, rendendo possibile, ad esempio, l'invio di fondi senza la preventiva richiesta della controparte. Queste tecnologie rendono il processo di pagamento più fluido ed efficiente su Lightning Network.
+In conclusione, una fattura sulla Rete Lightning, sebbene complessa a prima vista, codifica efficacemente una richiesta di pagamento. Ogni sezione della fattura contiene informazioni chiave, tra cui l'importo da pagare, il destinatario, il timestamp di creazione e potenzialmente altre informazioni come l'hash della pre-immagine, il segreto di pagamento, le indicazioni di instradamento e il tempo di scadenza. Protocolli come LNURL e Keysend offrono notevoli miglioramenti in termini di flessibilità e di esperienza utente, rendendo possibile, ad esempio, l'invio di fondi senza la preventiva richiesta della controparte. Queste tecnologie rendono il processo di pagamento più fluido ed efficiente su Lightning Network.
 
 ## Gestione della liquidità
 
@@ -536,7 +536,7 @@ Alice invia 1 milione a loop tramite il nodo di Susie, quindi Susie ha la liquid
 
 Quindi i 1 milione vanno a Susie, quest'ultima invia 1 milione a Loop, Loop invia 1 milione ad Alice. Alice ha quindi spostato la liquidità verso Susie al prezzo di alcune commissioni pagate a Loop per il servizio.
 
-Il più complicato in LN è mantenere la liquidità.
+L'aspetto più complicato in LN è mantenere la liquidità.
 
 ![instruction](assets/chapitre11/5.JPG)
 
@@ -578,19 +578,19 @@ Per ricevere pagamenti, è necessario gestire la liquidità nei canali, che può
 
 Ecco un riassunto dell'intervista:
 
-Il Lightning Network è una soluzione di pagamento ultra-veloce su Bitcoin che consente di superare le limitazioni legate alla scalabilità della rete. Tuttavia, i bitcoin su Lightning non sono altrettanto sicuri come quelli sulla catena Bitcoin poiché la decentralizzazione e la sicurezza sono privilegiate a discapito della scalabilità.
+Lightning Network è una soluzione di pagamento ultra-veloce su Bitcoin che consente di superare le limitazioni legate alla scalabilità della rete. Tuttavia, i bitcoin su Lightning non sono altrettanto sicuri come quelli sulla blockchain Bitcoin poiché la decentralizzazione e la sicurezza sono privilegiate a discapito della scalabilità.
 
-L'aumento eccessivo della dimensione dei blocchi non è una buona soluzione poiché comporta compromessi in termini di nodi e capacità dei dati. Invece, il Lightning Network consente di creare canali di pagamento tra due utenti di Bitcoin senza far apparire le transazioni sulla blockchain, risparmiando spazio sui blocchi e consentendo a Bitcoin di scalare oggi.
+L'aumento eccessivo della dimensione dei blocchi non è una buona soluzione poiché comporta compromessi in termini di nodi e capacità dei dati. Invece, Lightning Network consente di creare canali di pagamento tra due utenti di Bitcoin senza far apparire le transazioni sulla blockchain, risparmiando spazio sui blocchi e consentendo a Bitcoin di scalare oggi.
 
-Tuttavia, ci sono critiche riguardanti la scalabilità e la centralizzazione di Lightning Network, con potenziali problemi legati alla chiusura dei canali e alle alte commissioni di transazione. Per risolvere questi problemi, si consiglia di evitare di aprire piccoli canali per evitare problemi futuri e di aumentare le commissioni di transazione con Child Pay for Parent.
+Tuttavia, ci sono critiche riguardanti la scalabilità e la centralizzazione di Lightning Network, con potenziali problemi legati alla chiusura dei canali e alle alte commissioni di transazione. Per risolvere questi problemi, si consiglia di evitare di aprire piccoli canali per evitare problemi futuri e di aumentare le commissioni di transazione con Child Pay for Parent (CPFP).
 
-Le soluzioni considerate per il futuro di Lightning Network sono il batching e la creazione di canali in gruppi per ridurre le commissioni di transazione, nonché l'aumento della dimensione dei blocchi a lungo termine. Tuttavia, è importante notare che i bitcoin su Lightning non sono altrettanto sicuri come i bitcoin sulla catena Bitcoin.
+Le soluzioni considerate per il futuro di Lightning Network sono il batching e la creazione di canali in gruppi per ridurre le commissioni di transazione, nonché l'aumento della dimensione dei blocchi a lungo termine. Tuttavia, è importante notare che i bitcoin su Lightning non sono altrettanto sicuri come i bitcoin sulla blockchain Bitcoin.
 
-La privacy su Bitcoin e Lightning sono correlate, con il routing a cipolla che garantisce un certo livello di privacy per le transazioni. Tuttavia, su Bitcoin, tutto è trasparente per impostazione predefinita, con euristiche utilizzate per tracciare i Bitcoin da un indirizzo all'altro sulla catena Bitcoin.
+La privacy su Bitcoin e Lightning sono correlate, con il routing a cipolla che garantisce un certo livello di privacy per le transazioni. Tuttavia, su Bitcoin, tutto è trasparente per impostazione predefinita, con euristiche utilizzate per tracciare i Bitcoin da un indirizzo all'altro sulla blockchain Bitcoin.
 
 L'acquisto di Bitcoin con KYC consente all'exchange di conoscere le transazioni di prelievo, mentre le quantità rotonde e gli indirizzi di cambio consentono di sapere quale parte di una transazione è destinata a un'altra persona e quale parte è destinata a se stessi.
 
-Per migliorare la privacy, le azioni congiunte e i coinjoin consentono di rompere i calcoli di probabilità effettuando transazioni in cui più persone effettuano una transazione insieme. Le società di analisi delle catene hanno più difficoltà a determinare cosa fai con i tuoi bitcoin seguendoti.
+Per migliorare la privacy, le azioni congiunte e i coinjoin consentono di eludere i calcoli di probabilità effettuando transazioni in cui più persone effettuano una transazione insieme. Le società di analisi della blockchain hanno più difficoltà a determinare cosa fai con i tuoi bitcoin seguendoti.
 
 Su Lightning, ci sono solo due persone che sono a conoscenza della transazione ed è più confidenziale rispetto a Bitcoin. Il routing a cipolla significa che un nodo intermedio non conosce l'emittente e il destinatario del pagamento.
 
@@ -603,14 +603,14 @@ Infine, il futuro di Bitcoin è promettente con una possibile proiezione di un m
 ## Ringraziamenti e continuate a scavare la tana del coniglio
 
 Congratulazioni! 🎉
-Hai completato il corso LN 201 - Introduzione alla Lightning Network!
+Hai completato il corso LN 201 - Introduzione a Lightning Network!
 Puoi essere fiero di te perché non è facile. Sappi che poche persone scendono così in profondità nella tana del Bitcoin.
 
-Innanzitutto, un grande ringraziamento a Fanis Makalakis per averci offerto questo fantastico corso gratuito su un aspetto più etnico della Lightning. Non esitare a seguirlo su Twitter, sul suo blog o tramite il suo lavoro presso LN market.
+Innanzitutto, un grande ringraziamento a Fanis Makalakis per averci offerto questo fantastico corso gratuito su un aspetto più etnico di Lightning. Non esitare a seguirlo su Twitter, sul suo blog o tramite il suo lavoro presso LN market.
 
 Inoltre, se desideri aiutare il progetto, non esitare a sponsorizzarci su Patreon. I tuoi doni saranno utilizzati per produrre contenuti per nuovi corsi e ovviamente sarai il primo a essere informato (compresa la prossima di Fanis che è in preparazione!).
 
-L'avventura della Lightning Network continua con il corso su Umbrel e l'installazione di un nodo Lightning Network. Fine della teoria e inizio della pratica con il corso LN 202!
+L'avventura di Lightning Network continua con il corso su Umbrel e l'installazione di un nodo Lightning Network. Fine della teoria e inizio della pratica con il corso LN 202!
 
 Baci e a presto!
 

@@ -1,0 +1,18 @@
+builder: Metal Seed Backup
+
+level: intermediary
+
+category: Bitcoin
+
+tags:
+  - backup
+  - do it yourself
+  - security
+
+credits:
+  name: DecouvreBitcoin
+  link: decouvrebitcoin.com
+  tips:
+    lightning_adress: DB@btcpay.decouvrebitcoin.com
+    paynym:
+    on-chain: bc1qyf3msl9eypk8uwkmpzhtje909urx5yjwu9khx6

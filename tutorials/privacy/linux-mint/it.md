@@ -128,6 +128,7 @@ Ogni computer avrà un menu BIOS diverso. Esplora e trova quale menu ti consente
 
 Riavvia il computer e dovrebbe caricarsi dal dispositivo di memoria USB. Non possiamo installare Linux sull'hard disk interno e Windows verrà rimosso definitivamente.
 Quando arrivi alla schermata seguente, seleziona "Installazione OEM (per produttori)". Se invece scegli "Avvia Linux Mint", avvierai una sessione di Linux Mint caricata dal dispositivo di memoria, ma una volta spento il computer, nessuna delle tue informazioni verrà salvata: è praticamente una sessione temporanea per provarlo.
+
 ![image](assets/10.png)
 
 Verrai guidato attraverso una procedura guidata grafica che ti farà alcune domande che dovrebbero essere semplici. Una riguarderà le impostazioni della lingua, un'altra riguarderà la connessione di rete domestica e la password. Se ti viene chiesto di installare software aggiuntivo, rifiutalo. Quando arrivi alla domanda sul tipo di installazione, alcune persone potrebbero esitare: devi scegliere "Cancella disco e installa Linux Mint". Inoltre, non criptare il disco e non selezionare LVM.

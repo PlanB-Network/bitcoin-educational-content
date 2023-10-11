@@ -20,7 +20,7 @@ To complete this tutorial, you will need:
 - 1 punch pen
 - 1 opaque envelope with a unique identifier
 
-## Steps\*
+## Steps
 
 1. Take your punch pen and refer to the first column of your first word. Mark the 1st letter by placing the tip of your pen on the corresponding line and pressing down. For example, if my word is "document," I mark the 4th line. Take the time to double-check that the pen tip is properly positioned to avoid any errors.
 2. Repeat the same process for the 2nd, 3rd, and 4th letters of your word. With the previous example, I would mark the lines "D," "O," "C," and "U."

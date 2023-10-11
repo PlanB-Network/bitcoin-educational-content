@@ -20,7 +20,7 @@ Para realizar este tutorial, você precisará de:
 - 1 caneta para gravar
 - 1 envelope opaco com uma identificação única
 
-## Passos\*
+## Passos
 
 1. Pegue sua caneta de gravação e consulte a primeira coluna da sua primeira palavra. Marque a primeira letra pressionando a ponta da caneta na linha correspondente. Por exemplo, se minha palavra for "documento", eu marco a quarta linha. Certifique-se de verificar duas vezes se a ponta da caneta está bem posicionada para evitar erros.
 2. Faça o mesmo para a segunda, terceira e quarta letras da sua palavra. Com o exemplo anterior, eu marco as linhas "D", "O", "C" e "U".

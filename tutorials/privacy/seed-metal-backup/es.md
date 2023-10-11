@@ -19,7 +19,7 @@ Para realizar este tutorial, necesitarás:
 - 1 bolígrafo para punzonar
 - 1 sobre opaco con una identificación única
 
-## Pasos\*
+## Pasos
 
 1. Toma tu bolígrafo punzón y consulta la primera columna de tu primera palabra. Marca la primera letra colocando la punta de tu bolígrafo en la línea correspondiente y presionando sobre ella. Por ejemplo, si mi palabra es "documento", marcaré la cuarta línea. Tómate el tiempo para verificar dos veces que la punta del bolígrafo esté correctamente posicionada para evitar cualquier error.
 2. Haz lo mismo para la segunda, tercera y cuarta letras de tu palabra. Con el ejemplo anterior, marcaré las líneas "D", "O", "C" y "U".

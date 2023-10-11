@@ -19,7 +19,7 @@ Um dieses Tutorial durchzuführen, benötigen Sie:
 - 1 Stift zum Einstechen
 - 1 undurchsichtigen Umschlag mit einer eindeutigen Kennung
 
-## Schritte\*
+## Schritte
 
 1. Nehmen Sie Ihren Einstichstift und beziehen Sie sich auf die erste Spalte Ihres ersten Wortes. Markieren Sie den 1. Buchstaben, indem Sie die Spitze Ihres Stiftes in die entsprechende Zeile setzen und darauf drücken. Zum Beispiel, wenn mein Wort "Dokument" ist, markiere ich die 4. Zeile. Überprüfen Sie zweimal, ob die Stiftspitze richtig positioniert ist, um Fehler zu vermeiden.
 2. Gehen Sie genauso vor, um die 2., 3. und 4. Buchstaben Ihres Wortes zu markieren. Mit dem vorherigen Beispiel habe ich also die Zeilen "D", "O", "C" und "U" markiert.

@@ -19,7 +19,7 @@ Per completare questo tutorial, avrai bisogno di:
 - 1 penna per incidere
 - 1 busta opaca con un identificativo unico
 
-## Passaggi\*
+## Passaggi
 
 1. Prendi la tua penna per incidere e guarda la prima colonna della tua prima parola. Segna la prima lettera posizionando la punta della penna sulla linea corrispondente e premendo. Ad esempio, se la mia parola è "documento", segno la quarta linea. Assicurati di controllare due volte che la punta della penna sia posizionata correttamente per evitare errori.
 2. Fai lo stesso per la seconda, terza e quarta lettera della tua parola. Con l'esempio precedente, avrò quindi le linee "D", "O", "C" e "U" segnate.

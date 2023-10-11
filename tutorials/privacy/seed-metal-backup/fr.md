@@ -20,7 +20,7 @@ Pour réaliser ce tutoriel, il vous faut :
 - 1 stylo pour poinçoinner
 - 1 enveloppe opaque avec un identifiant unique
 
-## Étapes\*
+## Étapes
 
 1. Munissez-vous de votre stylo de poiçoinnage, et référez-vous à la première colonne de votre premier mot. Marquez la 1ère lettre en plaçant la pointe de votre stylo dans la ligne correspondante et en pressant dessus. Par exemple si mon mot est "document", je marque la 4ème ligne. Prenez le temps de vérifier deux fois que la pointe du stylo est bien positionnée, pour éviter toute erreur.
 2. Faites de même pour la 2ème, 3ème et 4ème lettres de votre mot. Avec l'exemple précédent, j'ai donc les lignes "D", "O", "C" et "U" qui sont marquées.

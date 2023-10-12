@@ -20,6 +20,10 @@ Ici nous mettrons en lumière les tendances et les motifs communs dans les épis
 
 ## Introduction
 
+Ce programme vise à offrir une compréhension profonde de l’émergence des hyperinflations dans un monde dominé par la monnaie Fiat et d’examiner leurs conséquences considérables. Les participants exploreront en détail les cycles hyperinflationnistes, en analysant les causes, les déclencheurs et les exemples historiques et contemporains. Ils se pencheront également sur l'impact tangible des hyperinflations sur l'économie et la vie quotidienne, étudiant les répercussions sur la valeur de la monnaie, le pouvoir d'achat, et l'épargne individuelle et collective.
+
+Ici nous mettrons en lumière les tendances et les motifs communs dans les épisodes d’hyperinflation à travers l'histoire, tout en fournissant des stratégies efficaces et concrètes pour se protéger en période d’hyperinflation. Les participants auront l'opportunité d'explorer diverses options d’investissement et mécanismes de défense financière, acquérant ainsi des outils pratiques et des connaissances essentielles pour naviguer sereinement dans un climat économique instable.
+
 ### Curriculum
 
 Section 1 - Introduction
@@ -60,11 +64,14 @@ Section 6 - Comment se protéger de l’hyperinflation (Rogzy)
   Livres et ressources
 - Bonus: Témoignages de personnes qui vivent de l’hyperinflation (Rogzy)
 
+
+Bonne chance !
+
 # Section 2 - Qu’est-ce que l’inflation ?
 
 ## 2.1 - Un phénomène monétaire
 
-![video ](https://youtu.be/PdOgJ-2t4xc)
+![video ](https://youtu.be/Hg8L_PIs008)
 
 ### Les définitions de l’inflation
 
@@ -240,9 +247,9 @@ Cette analyse démontre que la confiance en la monnaie, et par extension sa vale
 
 En concluant, cette étude sur la dévaluation monétaire ouvre la porte à une compréhension approfondie des mécanismes d'inflation, qui seront explorés dans les vidéos suivantes. Nous discuterons des différents types d'inflation et du seuil où ils basculent vers une haute ou hyperinflation. Cette base solide nous permettra d'aborder les complexités de l'inflation dans les sessions à venir. Merci pour votre attention, et rendez-vous dans la prochaine vidéo pour poursuivre cette exploration des dynamiques monétaires.
 
-## 2.2 - Les types d’inflation 🎦
+## 2.2 - Les types d’inflation
 
-![ Video](https://youtu.be/aT7PeHgzEXk)
+![ Video](https://youtu.be/hHk5oV8HsNQ)
 
 ### L’inflation n’est pas un phénomène multifactoriel
 
@@ -452,9 +459,9 @@ Soon to be created by DAVID
 
 # Section 3 - Qu’est-ce que l’hyperinflation ?
 
-## 3.1 - Les définitions
+## 3.1 - Les définitions de l'hyperinflation
 
-![video provisoire 3.1 ](https://youtu.be/xP30ddcvPCE)
+![video provisoire 3.1 ](https://youtu.be/qYMR-i7TtHY)
 
 ### Les définitions de l’hyperinflation
 
@@ -538,7 +545,7 @@ Il est à noter que certaines périodes historiques d'inflation élevée ne figu
 
 ## 3.2 - Weimar vs Zimbabwe similitudes
 
-![Video](https://youtu.be/RC2yNxfJljQ)
+![Video](https://youtu.be/xqMESvFi7J8)
 
 ### Deux époques, deux catastrophes
 
@@ -726,7 +733,7 @@ C'est ce qui complète cette vidéo au sujet des similitudes des expériences v�
 
 ## 3.3 - Weimar vs Zimbabwe différences et parallèle contemporains
 
-![Video](https://youtu.be/BtzD0EXXQoM)
+![Video](https://youtu.be/jh_MOKDPmQQ)
 
 Transcripte:
 
@@ -841,7 +848,7 @@ Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le 
 
 ## 3.4 - Les redénominations en Amérique Latine
 
-![Vidoe](https://youtu.be/18Mg5bOs3R4)
+![Vidoe](https://youtu.be/m2pcmbEzKyc)
 
 nous allons regarder ensemble différentes périodes de rédénomination dans des pays d'Amérique latine.
 
@@ -954,7 +961,7 @@ En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La h
 
 ## 3.5 - Comment sortir de l’hyperinflation
 
-![video](https://youtu.be/0hV9XxjxihQ)
+![video](https://youtu.be/9PYH7ut3fq0)
 
 ### Comment mettre fin à l’inflation modérée et la haute inflation
 
@@ -1016,7 +1023,7 @@ Le lien vers la collection scannée est disponible dans le Bitcoin Educational T
 
 ## 4.1 - L’émergence de la deuxième couche de la monnaie et des banques centrales
 
-![video](https://youtu.be/w3sZY-kNGKA)
+![video](https://youtu.be/cEon5lVtKZE)
 
 Transcripte:
 

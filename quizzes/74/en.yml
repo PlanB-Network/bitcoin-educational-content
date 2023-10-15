@@ -1,0 +1,10 @@
+question: What is the private key in a Bitcoin wallet?
+answer: A secret recovery phrase that represents ownership of the Bitcoins
+wrong_answers:
+  - A public key used to generate Bitcoin addresses
+  - A password to access the Bitcoin wallet
+  - A code to encrypt the Bitcoin transactions
+explanation: >-
+  When initializing a Bitcoin wallet, a secret recovery phrase (private
+  key) is generated. This private key is very important because it represents ownership
+  of the Bitcoins and therefore the right to use or send them.

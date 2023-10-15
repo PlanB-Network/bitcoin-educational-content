@@ -1,0 +1,14 @@
+question: What is Bitcoin?
+answer:
+  Bitcoin is a neutral and decentralized currency, a computer protocol, and
+  a monetary unit.
+wrong_answers:
+  - Bitcoin is a type of physical currency.
+  - Bitcoin is a centralized digital currency controlled by a single entity.
+  - Bitcoin is a type of stock or bond.
+explanation: >-
+  Bitcoin is a neutral and decentralized currency, meaning it is not
+  controlled
+  by any entity or institution. It is also a computer protocol and a monetary unit,
+  with the protocol using technologies like cryptography and the blockchain, and the
+  monetary unit being used for transactions.

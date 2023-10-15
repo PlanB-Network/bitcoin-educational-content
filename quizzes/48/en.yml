@@ -1,0 +1,13 @@
+question: What is hyperinflation?
+answer:
+  A monetary phenomenon characterized by a complete loss of confidence in a
+  currency and a drastic increase in inflation through monetary printing by authorities.
+wrong_answers:
+  - A sudden decrease in the value of a currency.
+  - A sudden increase in the value of a currency.
+  - A monetary phenomenon characterized by a complete gain of confidence in a currency
+    and a drastic decrease in inflation through monetary printing by authorities.
+explanation: >-
+  Hyperinflation is a monetary phenomenon specific to fiat currencies.
+  It is characterized by a complete loss of confidence in a currency and a drastic
+  increase in inflation through monetary printing by authorities.

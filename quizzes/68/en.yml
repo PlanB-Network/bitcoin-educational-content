@@ -1,0 +1,10 @@
+question: What is the frequency of the mining difficulty adjustment?
+answer: Every 2016 blocks
+wrong_answers:
+  - Every 1000 blocks
+  - Every 5000 blocks
+  - Every 10,000 blocks
+explanation: >-
+  The mining difficulty adjustment is a mechanism that takes place every
+  2016 blocks, or around two weeks, to ensure that, on average, a new block is added
+  to the blockchain every ten minutes.

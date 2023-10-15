@@ -1,0 +1,9 @@
+question: What is the impact of 100% inflation per day over 3 days?
+answer: A realistic scenario that has happened and continues to happen in our world.
+wrong_answers:
+  - An unrealistic scenario that has never happened.
+  - A realistic scenario that has happened but no longer happens.
+  - An unrealistic scenario that continues to happen in our world.
+explanation: >-
+  100% inflation per day over 3 days is a realistic scenario that has happened
+  and continues to happen in our world.

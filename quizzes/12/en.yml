@@ -1,0 +1,11 @@
+question:
+  What is the main benefit of the Lightning Network technology for Bitcoin
+  transactions?
+answer: It can improve Bitcoin transactions.
+wrong_answers:
+  - It can slow down Bitcoin transactions.
+  - It can make Bitcoin transactions less secure.
+  - It has no impact on Bitcoin transactions.
+explanation: >-
+  The Lightning Network is a technology that can improve Bitcoin transactions,
+  making them faster and more efficient.

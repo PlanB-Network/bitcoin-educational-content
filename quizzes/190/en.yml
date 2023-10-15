@@ -1,0 +1,9 @@
+question: Which country has made Bitcoin legal tender since 2021?
+answer: El Salvador
+wrong_answers:
+  - France
+  - United States
+  - China
+explanation: >-
+  El Salvador has made Bitcoin legal tender since 2021, contributing to
+  the development of the Bitcoin economy in the region.

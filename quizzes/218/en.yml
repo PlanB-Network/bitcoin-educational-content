@@ -1,0 +1,12 @@
+question: What fields does Bitcoin raise questions in?
+answer:
+  Cryptography, game theory, economics and monetary policy, computer science,
+  philosophy, energy, laws, and regulation
+wrong_answers:
+  - Only computer science and economics
+  - Only cryptography and game theory
+  - Only philosophy and energy
+explanation: >-
+  Bitcoin is a multidisciplinary object that raises questions related to
+  various fields, including cryptography, game theory, economics and monetary policy,
+  computer science, philosophy, energy, laws, and regulation.

@@ -1,0 +1,11 @@
+question: What is the risk of using a level 3 wallet?
+answer: You need to backup both the list of 12 or 24 words and your passphrase
+wrong_answers:
+  - You need to backup only the list of 12 or 24 words
+  - You need to backup only your passphrase
+  - You need to backup neither the list of 12 or 24 words nor your passphrase
+explanation: >-
+  When you use a level 3 wallet, you need to backup both the list of 12
+  or 24 words and your passphrase. This is because the list of words and the passphrase
+  are both necessary for regaining access to your funds in case of loss of your phone
+  or computer.

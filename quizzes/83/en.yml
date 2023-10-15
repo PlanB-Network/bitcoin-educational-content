@@ -1,0 +1,10 @@
+question: What is the technology that the vast majority of Bitcoin wallets work with?
+answer: Asymmetric cryptography
+wrong_answers:
+  - Symmetric cryptography
+  - Quantum cryptography
+  - Elliptic curve cryptography
+explanation: >-
+  'The vast majority of Bitcoin wallets work with asymmetric cryptography,
+  and therefore a system of key pairs: a private key to receive and a public key to
+  spend.'

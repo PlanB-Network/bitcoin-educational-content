@@ -1,0 +1,9 @@
+question: What is the estimated number of bitcoins in circulation after the 7th halving?
+answer: 20,835,937.5 BTC
+wrong_answers:
+  - 20,671,875 BTC
+  - 20,343,750 BTC
+  - 19,687,500 BTC
+explanation: >-
+  After the 7th halving, it is estimated that there will be 20,835,937.5
+  bitcoins in circulation.

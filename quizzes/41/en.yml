@@ -1,0 +1,10 @@
+question: What is the strategy used by leaders to devalue a new currency?
+answer: They reduce its value compared to the initial gold by a few percent each year.
+wrong_answers:
+  - They increase its value compared to the initial gold by a few percent each year.
+  - They keep its value constant compared to the initial gold.
+  - They fluctuate its value compared to the initial gold based on market conditions.
+explanation: >-
+  Leaders often devalue a new currency by reducing its value compared to
+  the initial gold by a few percent each year. This silent devaluation is often justified
+  as being in the interest of the people.

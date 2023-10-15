@@ -1,0 +1,9 @@
+question: What is the private key often represented by in a Bitcoin wallet?
+answer: A list of 24 words
+wrong_answers:
+  - A list of 12 words
+  - A list of 36 words
+  - A list of 48 words
+explanation: >-
+  In a Bitcoin wallet, the private key is often represented by a list of
+  24 words, also known as a "seed" or "mnemonic phrase".

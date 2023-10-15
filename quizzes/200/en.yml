@@ -1,0 +1,10 @@
+question: What is Dollar Cost Average?
+answer: Buying small amounts of Bitcoin at regular intervals.
+wrong_answers:
+  - Buying a large amount of Bitcoin at once.
+  - Buying Bitcoin only when the price drops.
+  - Buying Bitcoin only when the price rises.
+explanation: >-
+  The text explains that Dollar Cost Average involves buying small amounts
+  of Bitcoin at regular intervals. This method smooths out the price over time and
+  provides continuous growth in the amount of Bitcoin owned.

@@ -1,0 +1,10 @@
+question: What happens if you lose the device on which you have your Bitcoin wallet?
+answer: You can recreate your wallet and spend your bitcoin with the private key
+wrong_answers:
+  - You lose all your Bitcoins
+  - You can recreate your wallet and spend your bitcoin with the public key
+  - You can recreate your wallet and spend your bitcoin with the mnemonic phrase
+explanation: >-
+  Losing the device on which you have your wallet does not necessarily
+  mean the loss of your Bitcoins. What allows you to recreate your wallet and spend
+  your bitcoin is the private key.

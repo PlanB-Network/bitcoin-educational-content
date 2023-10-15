@@ -1,0 +1,8 @@
+question: What was the inflation rate in Zimbabwe in March 2007?
+answer: 50%.
+wrong_answers:
+  - 586%.
+  - 72%.
+  - 100%.
+explanation: >-
+  In March 2007, monthly inflation in Zimbabwe reached 50%.

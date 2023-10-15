@@ -1,0 +1,10 @@
+question: What is the main advantage of Bitcoin over other forms of currency?
+answer: It offers an excellent store of value due to its strictly limited supply
+wrong_answers:
+  - It is easily divisible and transportable
+  - It is not subject to monetary inflation
+  - It is widely accepted in commerce
+explanation: >-
+  The main advantage of Bitcoin over other forms of currency is that it
+  offers an excellent store of value due to its strictly limited supply. This makes
+  it a good choice for long-term savings.

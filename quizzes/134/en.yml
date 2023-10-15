@@ -1,0 +1,11 @@
+question:
+  What is the process by which miners validate transactions and include them
+  in a block?
+answer: Proof of work
+wrong_answers:
+  - Proof of stake
+  - Proof of authority
+  - Proof of burn
+explanation: >-
+  Miners validate transactions and include them in a block through a process
+  called "proof of work". This involves solving a cryptographic puzzle.

@@ -1,0 +1,12 @@
+question: What is Wei Dai's "b-money"?
+answer:
+  An idea of an anonymous digital currency where fraud detection was performed
+  by a community of evaluators rather than a central authority.
+wrong_answers:
+  - A digital currency that was widely used before Bitcoin.
+  - A form of digital money that was created by the cypherpunk movement.
+  - A digital currency that was created by Wei Dai as a competitor to Bitcoin.
+explanation: >-
+  Wei Dai's "b-money" was an idea of an anonymous digital currency where
+  fraud detection was performed by a community of evaluators rather than a central
+  authority.

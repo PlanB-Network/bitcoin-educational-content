@@ -1,0 +1,9 @@
+question: What is the evolution of currency according to the text?
+answer: Raw stone -> Coin -> Banknote -> Bank card -> Blockchain -> Lightning Network
+wrong_answers:
+  - Raw stone -> Coin -> Banknote -> Blockchain -> Lightning Network
+  - Raw stone -> Coin -> Banknote -> Bank card -> Lightning Network
+  - Raw stone -> Coin -> Banknote -> Bank card -> Blockchain
+explanation: >-
+  According to the text, the evolution of currency has been from raw stone
+  to coin, then to banknote, bank card, blockchain, and finally to the Lightning Network.

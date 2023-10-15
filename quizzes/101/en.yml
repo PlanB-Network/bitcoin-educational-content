@@ -1,0 +1,10 @@
+question: What does the absence of a list of 24 words in a wallet indicate?
+answer: The wallet is not secure
+wrong_answers:
+  - The wallet is a cold wallet
+  - The wallet is a hot wallet
+  - The wallet is a paper wallet
+explanation: >-
+  The absence of a list of 24 words in a wallet should alert you that the
+  wallet is not secure. Only bad wallets that are strongly discouraged will not give
+  you a list of 24 words.

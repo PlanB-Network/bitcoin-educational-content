@@ -1,0 +1,9 @@
+question: What is a multisig wallet in the context of Bitcoin?
+answer: A wallet that requires multiple signatures to perform transactions
+wrong_answers:
+  - A wallet that allows you to store multiple types of cryptocurrencies
+  - A wallet that is used to mine bitcoins
+  - A wallet that is used to buy bitcoins
+explanation: >-
+  A multisig wallet in the context of Bitcoin is a wallet that is more
+  complex to manage and requires multiple signatures to perform transactions.

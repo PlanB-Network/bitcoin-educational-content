@@ -1,0 +1,13 @@
+question:
+  What is the key feature of Bitcoin that differentiates it from fiduciary
+  currencies?
+answer: It cannot be falsified and is limited to 21 million units.
+wrong_answers:
+  - It can be printed in unlimited quantities by central banks.
+  - It is backed by a physical commodity like gold or silver.
+  - It is regulated by a central bank.
+explanation: >-
+  Bitcoin, through its decentralized and cryptographic nature, cannot be
+  falsified and is limited to 21 million units. This is a key feature that differentiates
+  it from fiduciary currencies, which can be printed in unlimited quantities by central
+  banks.

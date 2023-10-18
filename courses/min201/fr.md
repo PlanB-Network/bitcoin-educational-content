@@ -294,7 +294,7 @@ Dans ce contexte, le choix d'une démarche autonome et éduquée en matière de 
 
 Avec la question du potentiel d'interdiction du minage en Europe, les discussions sur la régulation deviennent de plus en plus pertinentes. Le paysage réglementaire fluctuant peut, en effet, influencer considérablement l'industrie du minage de Bitcoin. L'interdiction du minage en Europe est un scénario envisageable, notamment en considérant les précédents en Chine. Bien que des opérations de minage continuent en Chine malgré l'interdiction, l'Europe pourrait suivre un chemin similaire. Une distribution plus large du hashrate dans différentes régions pourrait aider à renforcer la communauté des mineurs en Europe, leur permettant de s'opposer efficacement aux malentendus et aux idées fausses concernant le minage, son impact environnemental et son empreinte sur le réseau électrique.
 
-![image](assets/overview/regulation.png)
+![image](assets/overview/regulation.jpg)
 
 Face à des campagnes comme celles de Greenpeace et aux chiffres souvent trompeurs de certaines études, la meilleure arme reste l'information véridique. Il est essentiel d'informer le grand public et les décideurs sur la réalité du minage, sa complexité, et sa nuance, plutôt que de les laisser s'appuyer sur des clichés et des informations inexactes. Plus il y aura de personnes informées et conscientes de ce qu'est réellement le minage, mieux l'industrie pourra se défendre contre les éventuelles réglementations restrictives.
 

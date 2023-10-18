@@ -1073,7 +1073,7 @@ Initialement, la première couche de monnaie était représentée par l'or. Les 
 
 #### La panique de 1796
 
-![image](assets/chapitre-4.1/6.PNG)
+![image](assets/chapitre-4.1/6.png)
 Panique bancaire à la banque Seamen's Savings durant la panique de 1857.
 
 Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le monde cherchait à remonter la "pyramide de la monnaie". Les gens voulaient échanger leur monnaie de troisième couche contre celle de la deuxième couche, puis, finalement, contre la monnaie de première couche, l'or. Face à cette ruée massive, la Banque d'Angleterre a été contrainte d'agir pour stabiliser la situation. Pour éviter une éventuelle déflation des réserves d'or, elle a décidé de suspendre la convertibilité de ses billets de banque en or. Cette suspension, initialement envisagée comme une mesure temporaire, s'est prolongée sur une période de deux décennies.

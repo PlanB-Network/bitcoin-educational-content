@@ -1,6 +1,6 @@
-nome: Introdução à Mineração de Bitcoin
-objetivo: Compreender o funcionamento da indústria de mineração através de um exercício prático de reutilização de ASICs.
-Objetivos:
+name: Introdução à Mineração de Bitcoin
+goal: Compreender o funcionamento da indústria de mineração através de um exercício prático de reutilização de ASICs.
+Objectives:
   - Compreender a teoria da mineração
   - Compreender a indústria de mineração
   - Transformar um S9 em aquecedor

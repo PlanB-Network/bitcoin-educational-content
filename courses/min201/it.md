@@ -1,6 +1,6 @@
 name: Introduzione al Mining di Bitcoin
 goal: Comprendere il funzionamento dell'industria del mining attraverso un esercizio pratico di riutilizzo degli ASIC.
-Obiettivi:
+Objectives:
   - Comprendere la teoria del mining
   - Comprendere l'industria del mining
   - Trasformare un S9 in un riscaldamento

@@ -81,7 +81,7 @@ L'inflation est un concept souvent mal interprété en raison des multiples déf
 
 - Définition du Larousse : L'inflation est un phénomène caractérisé par une hausse généralisée et continue du niveau des prix. Ici, le mot "généralisée" est crucial.
 
-![image](assets/chapitre-2.1/4.PNG)
+![image](assets/chapitre-2.1/4.png)
 
 À la lumière de ces définitions, il est essentiel de comprendre que, pour le Robert, l'inflation concerne principalement l'augmentation de la masse monétaire. En revanche, le Larousse se concentre sur les conséquences de cette expansion, à savoir la hausse généralisée des prix.
 
@@ -147,7 +147,7 @@ Le Maravédis, en tant que monnaie de cuivre, occupe une place particulière dan
 
 La dévaluation monétaire est un outil souvent utilisé par les États pour financer leurs dépenses ou stimuler l'économie. Cependant, l'Espagne se trouvait dans une situation délicate. Diluer le dollar espagnol aurait compromis sa position dans le commerce international. Pour surmonter ce dilemme, l'Espagne s'est tournée vers le Maravédis.
 
-![image](assets/chapitre-2.1/6.PNG)
+![image](assets/chapitre-2.1/6.png)
 
 Contrairement au précieux dollar espagnol en argent, le Maravédis était une monnaie de cuivre utilisée principalement au sein de la population locale. Cette monnaie a été ciblée pour la dévaluation. Lorsqu'une pièce de Maravédis était initialement valable pour deux maravedises, l'État la récupérait, la retamponnait avec une nouvelle valeur, par exemple "quatre", et ne retournait qu'une seule pièce au propriétaire. La pièce mentionnée avec le tampon "huit" est un témoignage de ce processus, ayant subi plusieurs cycles de dévaluation.
 
@@ -225,11 +225,11 @@ Cependant, la situation a évolué avec l'ascension des États-Unis en tant que 
 
 Le Swiss Dinar illustre une autre facette fascinante de la dévaluation monétaire, ancrée cette fois dans le contexte irakien pré-guerres du Golfe. Appelée ainsi en référence à la qualité notable de ses billets, cette monnaie était émise par la Banque centrale irakienne et jouissait d'une réputation de stabilité dans la région du Moyen-Orient. Cette confiance était notamment due à la qualité d'impression des billets, effectuée en Angleterre, insinuant une certaine robustesse face à la dévaluation.
 
-![image](assets/chapitre-2.1/16.PNG)
+![image](assets/chapitre-2.1/16.png)
 
 Cependant, les guerres du Golfe marquèrent un tournant dans l'histoire du Swiss Dinar. L'Irak, ne pouvant plus faire appel à son fournisseur anglais pour l'impression de ses billets, se tourna vers la Chine. Cette transition entraîna une nette différence dans la qualité des billets, la version chinoise étant perçue comme inférieure. Cette perception n'était pas sans fondement ; les billets chinois étaient plus facilement falsifiables et susceptibles d'être surimprimés par le gouvernement, menaçant ainsi leur valeur.
 
-![image](assets/chapitre-2.1/17.PNG)
+![image](assets/chapitre-2.1/17.png)
 
 Un phénomène distinctif émergea dans l'économie irakienne post-guerre du Golfe : le système de double prix. Les commerçants proposaient des prix différents selon le type de billet utilisé pour le paiement, favorisant le Swiss Dinar original au détriment du billet chinois. Ce système reflétait la confiance maintenue envers les billets de meilleure qualité, moins susceptibles de dévaluation, même dans un contexte où la valeur était principalement imposée par l'État. Cet épisode démontre l'importance des caractéristiques intrinsèques de la monnaie, et comment, même dans un régime de monnaie fiat, la qualité perçue d'une monnaie peut influencer sa valeur relative et, par extension, la confiance des acteurs économiques.
 
@@ -479,7 +479,7 @@ Cette définition a été adoptée dans le tableau Hanke-Krus, qui documente 56 
 
 zoom
 
-![image](assets/chapitre-3.1/0.png)
+![image](assets/chapitre-3.1/0.PNG)
 
 Il est à noter que cette définition, bien que précise, pourrait possiblement exclure certains épisodes d'hyperinflation en raison de la rigueur du seuil de 50%. Il existe une possibilité d'élargissement de cette définition pour inclure d'autres épisodes qui, bien que ne répondant pas strictement au critère de Cagan, représentent néanmoins des périodes d'inflation extrêmement élevée. Cette observation ouvre la porte à une exploration plus large des phénomènes d'hyperinflation, permettant une compréhension plus nuancée de ses causes et de ses effets. Dans les discussions ultérieures, nous envisagerons de revisiter cette définition et d'examiner des épisodes d'hyperinflation non couverts par le critère strict de Cagan.
 
@@ -487,7 +487,7 @@ Il est à noter que cette définition, bien que précise, pourrait possiblement 
 
 Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbitraire avec le seuil de 50% d'inflation mensuelle. Il admet lui-même que cette définition est arbitraire et servait principalement son analyse basée sur sept épisodes d'hyperinflation. L'examen des données de Cagan révèle que les trois épisodes d'hyperinflation avec les taux d'inflation mensuels les plus bas étaient autour de 47%, 46% et 57%. Il semble que le seuil de 50% a été choisi pour englober ces cas dans son étude.
 
-![image](assets/chapitre-3.1/4.png)
+![image](assets/chapitre-3.1/4.PNG)
 
 - Contexte Historique :
   La définition de Cagan date de 1956, et se base sur un nombre limité d'épisodes d'hyperinflation disponibles à cette époque.
@@ -499,7 +499,7 @@ Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbi
   D'autres économistes, comme Bernholz, l'auteur de Monetary Regime and Inflation, ont également qualifié le seuil de 50% d'arbitraire.
   Bernholz note qu'il existe des épisodes de haute inflation ayant les mêmes caractéristiques qualitatives que les épisodes d'hyperinflation, sans atteindre le seuil de 50%.
 
-![image](assets/chapitre-3.1/3.png)
+![image](assets/chapitre-3.1/3.PNG)
 
 Cette réflexion nous conduit à questionner la rigidité de la définition traditionnelle de l'hyperinflation, et souligne la nécessité de peut-être revisiter ce seuil en intégrant plus d'épisodes et de données historiques. La définition de l'hyperinflation pourrait nécessiter une flexibilité pour englober diverses manifestations d'inflation extrême dans différents contextes économiques et historiques.
 
@@ -534,7 +534,7 @@ Cette définition fournie par l'IASB s'éloigne du seuil quantitatif strict prop
 
 Les définitions courantes d'hyperinflation, comme celle avancée par Kagan stipulant une inflation mensuelle de 50%, peuvent parfois prêter à confusion ou être réductrices. Par exemple, deux pays connaissant des taux d'inflation annuelle respectifs de 1 000% et 3 000% peuvent être perçus différemment en fonction de la répartition mensuelle de cette inflation. Si aucun mois ne dépasse le seuil de 50%, selon la définition de Kagan, ces pays ne seraient pas en état d'hyperinflation. Cette approche peut donc conduire à des anomalies dans la classification de l'hyperinflation, surtout quand on compare des inflations cumulées sur l'année.
 
-![image](assets/chapitre-3.1/7.png)
+![image](assets/chapitre-3.1/7.PNG)
 
 - L'ouvrage de Kagan, "Monetary Dynamics of Hyperinflation", qui établit une analyse fondamentale de l'hyperinflation.
 - Le livre de Bernold qui étudie 30 périodes d'hyperinflation distinctes, élargissant ainsi le spectre d'analyse.
@@ -559,7 +559,7 @@ Plusieurs ouvrages ont été particulièrement instructifs :
 
 - Deux livres sur l'hyperinflation au Zimbabwe : "Zimbabwe Warm Heart Ugly Face" et "Hard Boiled Egg Index" par Jérôme Gardner et Kudzai Joseph Gou Min-Yu respectivement, offrent des témoignages poignants d'un PDG d'une chaîne de magasins de vêtements et d'un banquier agricole sur leurs expériences durant cette période tumultueuse.
 
-![image](assets/chapitre-3.2/1.png)
+![image](assets/chapitre-3.2/1.PNG)
 
 En consolidant mes notes, j'ai discerné une multitude de similitudes entre les expériences d'hyperinflation au Zimbabwe et dans la République de Weimar, malgré le fossé de 90 ans les séparant. J'ai identifié environ 17 similitudes, dont 13 illustraient une sorte de progression vers le désastre économique dépeint dans ces témoignages. Ces parallèles fascinants démontrent la nature répétitive et dévastatrice de l'hyperinflation à travers les époques et les frontières. Nous examinerons aujourd'hui ces similitudes et la façon dont elles dépeignent une trajectoire inquiétante durant les périodes d'hyperinflation.
 
@@ -591,7 +591,7 @@ Dans certaines circonstances économiques, la valeur intrinsèque d'un billet pe
 
 > Zimbabwe: “La Banque centrale avait gaspillé de l'argent en imprimant un billet qui ne valait pas le papier sur lequel il était imprimé. En d'autres termes, sa valeur était inférieure à celle du papier toilette. Aussi absurde que cela puisse paraître, il était alors moins cher d'utiliser le billet de ZWD 100 trillions comme papier toilette que d'acheter le véritable papier toilette.”
 
-![image](assets/chapitre-3.2/3.png)
+![image](assets/chapitre-3.2/PN3.pngG)
 
 4. Comptage de l'argent
 
@@ -743,11 +743,9 @@ Dans ce chapitre, nous explorerons les différences et parallèles entre les pé
 
 1. C'est la faute du dollar!
 
-En Allemagne, il était courant que la population attribue l'inflation à la montée du dollar plutôt qu'à la dévaluation intrinsèque de leur propre monnaie. Beaucoup étaient persuadés que le phénomène observé était dû à une appréciation du dollar. Cette perception écartait toute reconnaissance du lien entre leur difficulté économique et la dévaluation monétaire, principalement induite par la création excessive de monnaie. Le livre "When Money Dies" illustre clairement cette méconnaissance parmi la population allemande. En revanche, au
+En Allemagne, il était courant que la population attribue l'inflation à la montée du dollar plutôt qu'à la dévaluation intrinsèque de leur propre monnaie. Beaucoup étaient persuadés que le phénomène observé était dû à une appréciation du dollar. Cette perception écartait toute reconnaissance du lien entre leur difficulté économique et la dévaluation monétaire, principalement induite par la création excessive de monnaie. Le livre "When Money Dies" illustre clairement cette méconnaissance parmi la population allemande. En revanche, au Zimbabwe, la situation était distincte : les citoyens étaient pleinement conscients de la cause sous-jacente de l'hyperinflation qu'ils subissaient.
 
-![image](assets/chapitre-3.3/3.PNG)
-
-Zimbabwe, la situation était distincte : les citoyens étaient pleinement conscients de la cause sous-jacente de l'hyperinflation qu'ils subissaient.
+![image](assets/chapitre-3.3/3.png)
 
 2. La monnaie de nécessité (Notgeld)
 
@@ -779,7 +777,7 @@ L'artiste derrière ce Notgeld semble adresser une critique ironique envers les 
 
 Pour en apprendre plus sur la gestion de la crise allemande ce livre est également fondamental.
 
-![image](assets/chapitre-3.3/4.PNG)
+![image](assets/chapitre-3.3/4.png)
 
 ### Les parallèles contemporains
 
@@ -826,7 +824,7 @@ Une compagnie zombie est une entreprise qui, en conditions de marché normales, 
 
 Cette notion de compagnie zombie n'est pas nouvelle. En effet, elle était présente dans la République de Weimar. À cette époque, bon nombre de compagnies étaient florissantes en apparence, profitant largement de l'accès au crédit gratuit. Elles empruntaient des sommes considérables, avec la perspective de rembourser ultérieurement avec une monnaie dépréciée en raison de l'inflation galopante. Cependant, lorsque l'inflation a cessé et que la marque allemande a repris de la valeur, ces entreprises, qui n'étaient pas véritablement viables en termes opérationnels et financiers, sont devenues non rentables et ont dû fermer leurs portes.
 
-![image](assets/chapitre-3.3/5.PNG)
+![image](assets/chapitre-3.3/5.png)
 
 Le phénomène des compagnies zombies ne se limite pas à l'histoire de l'Allemagne d'après-guerre. Aujourd'hui encore, de nombreuses grandes entreprises subsistent grâce à un accès privilégié à des crédits à taux d'intérêt très bas. Si elles devaient emprunter à des taux plus conventionnels, nombre d'entre elles cesseraient d'être rentables. C'est d'autant plus pertinent que nous sommes en 2023, et après une longue période de taux d'intérêt proches de zéro, ceux-ci ont commencé à augmenter. Cette évolution récente du paysage financier sera sans doute un test décisif pour ces compagnies autrefois qualifiées de "zombies".
 
@@ -987,7 +985,7 @@ Le Zimbabwe a accédé à l'indépendance en 1980 et a introduit le dollar zimba
 
 En 2006, le pays a introduit une nouvelle version de sa monnaie, le ZWN, avec un taux d'échange de 1 pour 1 000. En 2008, une autre dénomination, le ZWR, a été introduite avec un taux d'échange de 1 pour 10 milliards. Cela a conduit à la création des billets emblématiques de 100 trillions.
 
-![image](assets/chapitre-3.5/2.PNG)
+![image](assets/chapitre-3.5/2.png)
 
 #### La dollarisation & sortie de crise
 
@@ -1075,7 +1073,7 @@ Initialement, la première couche de monnaie était représentée par l'or. Les 
 
 #### La panique de 1796
 
-![image](assets/chapitre-4.1/6.PNG)
+![image](assets/chapitre-4.1/6.png)
 Panique bancaire à la banque Seamen's Savings durant la panique de 1857.
 
 Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le monde cherchait à remonter la "pyramide de la monnaie". Les gens voulaient échanger leur monnaie de troisième couche contre celle de la deuxième couche, puis, finalement, contre la monnaie de première couche, l'or. Face à cette ruée massive, la Banque d'Angleterre a été contrainte d'agir pour stabiliser la situation. Pour éviter une éventuelle déflation des réserves d'or, elle a décidé de suspendre la convertibilité de ses billets de banque en or. Cette suspension, initialement envisagée comme une mesure temporaire, s'est prolongée sur une période de deux décennies.

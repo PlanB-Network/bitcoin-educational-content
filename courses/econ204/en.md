@@ -1,3 +1,4 @@
+---
 name: Hyperinflations
 goal: Understanding the emergence of hyperinflations in a Fiat world and their consequences
 objectives:
@@ -5,6 +6,7 @@ objectives:
   - Understand the real impacts of hyperinflations on our everyday lives
   - Study the similarities of hyperinflations throughout time
   - Have a concrete idea of how to protect oneself from hyperinflations
+---
 
 # A journey into the economy
 

@@ -1,10 +1,12 @@
-nome: Le Iperinflazioni
-obiettivo: Comprendere l'emergere delle iperinflazioni in un mondo Fiat e le loro conseguenze
-obiettivi:
+---
+name: Le Iperinflazioni
+goal: Comprendere l'emergere delle iperinflazioni in un mondo Fiat e le loro conseguenze
+objectives:
   - Studiare i cicli iperinflazionistici
   - Comprendere gli impatti reali delle iperinflazioni sulla nostra vita quotidiana
   - Studiare le similitudini delle iperinflazioni nel corso del tempo
   - Avere un'idea concreta di come proteggersi dalle iperinflazioni
+---
 
 # Un viaggio verso l'economia
 

@@ -1,3 +1,4 @@
+---
 name: Die Hyperinflationen
 goal: Das Aufkommen von Hyperinflationen in einer Fiat-Welt verstehen und ihre Auswirkungen analysieren
 objectives:

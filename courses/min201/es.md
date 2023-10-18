@@ -1,3 +1,4 @@
+---
 name: Introducción a la Minería de Bitcoin
 goal: Comprender el funcionamiento de la industria minera a través de un ejercicio práctico de reutilización de ASICs.
 objectives:
@@ -5,6 +6,7 @@ objectives:
   - Comprender la industria minera
   - Convertir un S9 en calefacción
   - Minar el primer satoshi
+---
 
 # ¡Tus primeros pasos en la minería!
 

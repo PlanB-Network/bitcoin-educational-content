@@ -1,3 +1,4 @@
+---
 name: Einführung in das Bitcoin-Mining
 goal: Das Funktionieren der Mining-Branche durch praktische Übungen zur Wiederverwendung von ASICs verstehen.
 objectives:
@@ -5,6 +6,7 @@ objectives:
   - Die Mining-Branche verstehen
   - Einen S9-Miner in eine Heizung umwandeln
   - Den ersten Satoshi minen
+---
 
 # Ihre ersten Schritte im Mining!
 

@@ -225,7 +225,7 @@ Cependant, la situation a évolué avec l'ascension des États-Unis en tant que 
 
 Le Swiss Dinar illustre une autre facette fascinante de la dévaluation monétaire, ancrée cette fois dans le contexte irakien pré-guerres du Golfe. Appelée ainsi en référence à la qualité notable de ses billets, cette monnaie était émise par la Banque centrale irakienne et jouissait d'une réputation de stabilité dans la région du Moyen-Orient. Cette confiance était notamment due à la qualité d'impression des billets, effectuée en Angleterre, insinuant une certaine robustesse face à la dévaluation.
 
-![image](assets/chapitre-2.1/16.PNG)
+![image](assets/chapitre-2.1/16.png)
 
 Cependant, les guerres du Golfe marquèrent un tournant dans l'histoire du Swiss Dinar. L'Irak, ne pouvant plus faire appel à son fournisseur anglais pour l'impression de ses billets, se tourna vers la Chine. Cette transition entraîna une nette différence dans la qualité des billets, la version chinoise étant perçue comme inférieure. Cette perception n'était pas sans fondement ; les billets chinois étaient plus facilement falsifiables et susceptibles d'être surimprimés par le gouvernement, menaçant ainsi leur valeur.
 

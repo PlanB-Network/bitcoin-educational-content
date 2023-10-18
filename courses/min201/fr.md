@@ -1,7 +1,7 @@
 ---
 name: Introduction au Minage de Bitcoin
 goal: Comprendre le fonctionnement de l'industrie du minage à travers un exercice pratique de réutilisation d'ASICs.
-Objectives:
+objectives:
   - Comprendre la théorie sur le minage
   - Comprendre l'industrie du minage
   - Transformer un S9 en chauffage

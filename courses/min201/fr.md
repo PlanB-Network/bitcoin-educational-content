@@ -168,6 +168,8 @@ L'initiative Attakai découle d’une expérimentation personnelle de minage à 
 
 En exposant leur projet à la communauté Bitcoin et face à l'intérêt suscité, les inventeurs d’Ataka décidèrent de publier des guides détaillés sur la plateforme Découvre Bitcoin, permettant ainsi à quiconque de reproduire leur expérience de minage à domicile. Ils envisagent désormais d’élargir ce concept au-delà du cadre domestique. L'objectif est de démontrer comment un mineur modifié peut être transformé en un chauffage d'appoint silencieux utilisable pendant l’hiver, offrant une transition douce vers une seconde partie de formation consacrée à la mise en place pratique de ces modifications, illustrée par des vidéos explicatives. La question demeure cependant de savoir si cette initiative peut être étendue à une échelle plus grande, proposant ainsi une alternative réaliste et durable aux structures de minage centralisées actuelles.
 
+![image](assets/overview/attakai.png)
+
 ### La limite de cette décentralisation?
 
 Bien que l'idée de décentralisation du minage via l'utilisation productive de la chaleur produite semble prometteuse, elle comporte certaines limites et des questions demeurent. Les établissements très énergivores, tels que les saunas et les piscines, pourraient bénéficier de ce concept en utilisant la chaleur produite par les mineurs pour chauffer l'eau de leurs installations. Cette pratique est déjà mise en œuvre par certains membres de la communauté Bitcoin, qui explorent différentes méthodes pour utiliser efficacement la chaleur générée par les équipements de minage. Par exemple, une salle des fêtes pourrait théoriquement être chauffée par trois ou quatre S19, chacun consommant 3000 watts et produisant une quantité équivalente de chaleur.

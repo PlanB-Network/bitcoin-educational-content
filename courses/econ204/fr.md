@@ -81,7 +81,7 @@ L'inflation est un concept souvent mal interprété en raison des multiples déf
 
 - Définition du Larousse : L'inflation est un phénomène caractérisé par une hausse généralisée et continue du niveau des prix. Ici, le mot "généralisée" est crucial.
 
-![image](assets/chapitre-2.1/4.PNG)
+![image](assets/chapitre-2.1/4.png)
 
 À la lumière de ces définitions, il est essentiel de comprendre que, pour le Robert, l'inflation concerne principalement l'augmentation de la masse monétaire. En revanche, le Larousse se concentre sur les conséquences de cette expansion, à savoir la hausse généralisée des prix.
 

@@ -1,7 +1,7 @@
 ---
-nombre: Sparrow
+name: Sparrow
 
-descripción: Guía completa sobre Sparrow
+description: Guía completa sobre Sparrow
 ---
 
 ![cover](assets/cover.jpeg)

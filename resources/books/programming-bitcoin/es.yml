@@ -1,0 +1,8 @@
+title: "Programming Bitcoin"
+publication_year: 2019
+cover: cover_en.jpeg
+original: true
+description: |
+  "Programming Bitcoin" de Jimmy Song es un libro de nivel intermedio que combina finanzas, inversión y tecnología para proporcionar a los lectores una comprensión profunda del funcionamiento de la criptomoneda más popular del mundo, Bitcoin. El libro está dirigido a lectores con ciertos conocimientos previos de programación e informática y aborda temas como la escritura de scripts de Bitcoin, la criptografía y la verificación de transacciones. Con un enfoque en el aprendizaje práctico, el autor guía a los lectores a través del proceso de escribir código para transacciones de Bitcoin, implementar contratos inteligentes y crear sus propias billeteras de Bitcoin. En el camino, los lectores obtendrán información sobre la psicología de invertir en Bitcoin y cómo tomar decisiones informadas en este mercado en constante evolución.
+contributors:
+  - rabbit-hole

@@ -1,0 +1,8 @@
+title: "The Pragmatic Programmer"
+publication_year: 1999
+cover: cover_en.jpeg
+original: true
+description: |
+  Le Pragmatic Programmer est un livre sur le développement de logiciels et la programmation qui offre des conseils sur la façon de devenir un meilleur programmeur. Écrit par Andy Hunt et Dave Thomas, le livre donne des astuces sur la façon d'aborder le développement de logiciels, d'écrire un meilleur code et de travailler plus efficacement en équipe. Il couvre un large éventail de sujets, notamment les pratiques de codage, les tests, le débogage et les modèles de conception, et comprend des exemples pratiques et des études de cas. Le livre s'adresse aux programmeurs de niveau intermédiaire qui souhaitent améliorer leurs compétences et devenir plus efficaces dans leur travail.
+contributors:
+  - rabbit-hole

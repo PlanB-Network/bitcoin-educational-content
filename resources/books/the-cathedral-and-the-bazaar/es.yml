@@ -1,0 +1,8 @@
+title: "The Cathedral and the Bazaar"
+publication_year: 1999
+cover: cover_en.jpeg
+original: true
+description: |
+  El libro "La Catedral y el Bazar" de Eric S. Raymond es una exploración de nivel intermedio del modelo de desarrollo de software de código abierto y su impacto en la tecnología y la sociedad. A través de un análisis perspicaz y experiencias personales, Raymond contrasta el enfoque tradicional de "catedral" para el desarrollo de software, caracterizado por un control cerrado y centralizado, con el modelo descentralizado y colaborativo del desarrollo de código abierto en el "bazar". El libro profundiza en los principios, prácticas y motivaciones detrás del movimiento de código abierto, mostrando el poder de la colaboración impulsada por la comunidad, la revisión por pares y la transparencia en la creación de software de alta calidad. Raymond se basa en ejemplos del mundo real y estudios de casos para ilustrar las ventajas y desafíos del desarrollo de código abierto, abordando temas como licencias, control de versiones, seguimiento de errores y dinámica de la comunidad. Con su combinación de conocimientos técnicos y reflexiones filosóficas, "La Catedral y el Bazar" ofrece lecciones valiosas e inspiración para desarrolladores de software, entusiastas de la tecnología y cualquier persona interesada en el potencial transformador de la innovación de código abierto.
+contributors:
+  - rabbit-hole

@@ -1,0 +1,8 @@
+title: "The Art of Unix Programming"
+publication_year: 2003
+cover: cover_en.jpeg
+original: true
+description: |
+  L'Art de la Programmation Unix par Eric S. Raymond est un guide de niveau intermédiaire qui explore la philosophie, les principes de conception et les aspects pratiques de la programmation Unix. Il aborde des sujets tels que l'environnement de programmation Unix, le scripting shell, les appels système et la communication interprocessus. Avec des explications claires et des exemples, le livre met en valeur la puissance et la flexibilité d'Unix en tant que plateforme de programmation tout en mettant l'accent sur la simplicité et la conception modulaire. Il aborde également l'histoire et la nature collaborative du développement Unix. Dans l'ensemble, il offre des informations précieuses aux développeurs souhaitant améliorer leurs compétences en programmation Unix.
+contributors:
+  - rabbit-hole

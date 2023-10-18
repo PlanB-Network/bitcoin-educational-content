@@ -1,0 +1,4 @@
+description: |
+  Nous avons créé Rigly pour que tout le monde puisse profiter de l'extraction de bitcoin. Au début de bitcoin, tout le monde pouvait extraire du bitcoin sur leur ordinateur. Au fil du temps, bitcoin a grandi et du matériel spécialisé - les GPU, puis les FPGA, et maintenant les ASIC - sont devenus nécessaires pour l'extraction. Aujourd'hui, les plateformes d'extraction ASIC nécessitent un investissement et une gestion importants, et sont souvent installées à proximité des centrales énergétiques. Rigly vous permet d'acheter de la puissance de calcul de ces mineurs et de participer à l'extraction.
+contributors:
+  - rabbit-hole

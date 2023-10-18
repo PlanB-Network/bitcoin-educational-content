@@ -1,0 +1,8 @@
+title: "The Cathedral and the Bazaar"
+publication_year: 1999
+cover: cover_en.jpeg
+original: true
+description: |
+  "The Cathedral and the Bazaar" von Eric S. Raymond ist eine Untersuchung auf mittlerem Niveau des Open-Source-Softwareentwicklungsmodells und seiner Auswirkungen auf Technologie und Gesellschaft. Durch aufschlussreiche Analysen und persönliche Erfahrungen stellt Raymond den traditionellen "Kathedrale"-Ansatz der Softwareentwicklung, gekennzeichnet durch geschlossene und zentralisierte Kontrolle, dem dezentralen und kollaborativen "Bazaar"-Modell der Open-Source-Entwicklung gegenüber. Das Buch geht auf die Prinzipien, Praktiken und Motivationen der Open-Source-Bewegung ein und zeigt die Kraft der gemeinschaftlichen Zusammenarbeit, der Peer-Review und der Transparenz bei der Erstellung hochwertiger Software. Raymond greift auf reale Beispiele und Fallstudien zurück, um die Vor- und Nachteile der Open-Source-Entwicklung zu veranschaulichen und behandelt Themen wie Lizenzierung, Versionskontrolle, Fehlerverfolgung und Gemeinschaftsdynamik. Mit seiner Mischung aus technischen Erkenntnissen und philosophischen Reflexionen bietet "The Cathedral and the Bazaar" wertvolle Lektionen und Inspiration für Softwareentwickler, Technologiebegeisterte und alle, die sich für das transformative Potenzial von Open-Source-Innovationen interessieren.
+contributors:
+  - rabbit-hole

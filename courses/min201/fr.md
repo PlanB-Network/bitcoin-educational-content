@@ -119,7 +119,7 @@ Un pool de minage est un regroupement de mineurs qui unissent leurs ressources d
 
 Par exemple, si un pool trouve un bloc et remporte 6,25 bitcoins, un mineur contribuant à 1% de la puissance de calcul totale du pool recevrait 1% des 6,25 bitcoins gagnés. Cependant, il est à noter que les pools de minage prennent généralement une petite commission (généralement autour de 2%) pour couvrir les coûts de fonctionnement de la coopérative.
 
-### les softwares utilisées par l'industrie
+### Les softwares utilisées par l'industrie
 
 Dans le contexte du minage de Bitcoin, le rôle des logiciels est tout aussi crucial que le matériel. Un exemple de ceci est illustré par le rôle de Bitmain, un fabricant prolifique qui a mis au point l'Antminer S9. En plus du matériel de minage, l'industrie repose fortement sur les pools de minage collaboratifs, tels que Brainspool, qui contrôle environ 5% du hashrate global du réseau Bitcoin.
 
@@ -168,7 +168,7 @@ L'initiative Attakai découle d’une expérimentation personnelle de minage à 
 
 En exposant leur projet à la communauté Bitcoin et face à l'intérêt suscité, les inventeurs d’Ataka décidèrent de publier des guides détaillés sur la plateforme Découvre Bitcoin, permettant ainsi à quiconque de reproduire leur expérience de minage à domicile. Ils envisagent désormais d’élargir ce concept au-delà du cadre domestique. L'objectif est de démontrer comment un mineur modifié peut être transformé en un chauffage d'appoint silencieux utilisable pendant l’hiver, offrant une transition douce vers une seconde partie de formation consacrée à la mise en place pratique de ces modifications, illustrée par des vidéos explicatives. La question demeure cependant de savoir si cette initiative peut être étendue à une échelle plus grande, proposant ainsi une alternative réaliste et durable aux structures de minage centralisées actuelles.
 
-### la limite de cette décentralisation?
+### La limite de cette décentralisation?
 
 Bien que l'idée de décentralisation du minage via l'utilisation productive de la chaleur produite semble prometteuse, elle comporte certaines limites et des questions demeurent. Les établissements très énergivores, tels que les saunas et les piscines, pourraient bénéficier de ce concept en utilisant la chaleur produite par les mineurs pour chauffer l'eau de leurs installations. Cette pratique est déjà mise en œuvre par certains membres de la communauté Bitcoin, qui explorent différentes méthodes pour utiliser efficacement la chaleur générée par les équipements de minage. Par exemple, une salle des fêtes pourrait théoriquement être chauffée par trois ou quatre S19, chacun consommant 3000 watts et produisant une quantité équivalente de chaleur.
 
@@ -241,7 +241,7 @@ Le taux de hachage actuel bien que le prix du Bitcoin soit à 30 000 $ par rappo
 
 Cette situation illustre également la résilience du Bitcoin, souvent évaluée en fonction de son prix. Toutefois, une analyse plus profonde de la santé du Bitcoin nécessite l'examen de son taux de hachage, qui mesure les calculs par seconde dans le réseau Bitcoin. Alors que le prix du Bitcoin fluctue, son coût, lié à l'électricité nécessaire pour faire fonctionner les machines de minage, reste essentiel pour comprendre la dynamique du marché. En se concentrant sur le coût plutôt que sur le prix, on obtient une perspective plus cohérente sur la stabilité et la viabilité à long terme du Bitcoin. En général, le coût du Bitcoin est proportionnel à son prix, offrant une meilleure compréhension des fluctuations de prix et des perspectives futures.
 
-###  Taux de Hachage et Récompense
+### Taux de Hachage et Récompense
 
 Le minage établit un prix plancher pour le Bitcoin, sous lequel les mineurs vendraient à perte. Le coût du minage influence considérablement le prix, comme illustré par l'interdiction du minage en Chine, où le taux de hachage et le prix ont chuté de manière significative, mais ont rapidement été récupéré. Se focaliser uniquement sur le prix peut être trompeur. L'étude du coût, via des calculateurs de rentabilité, offre une perspective plus équilibrée. Cependant, le marché peut se comporter de manière irrationnelle, les mineurs pouvant être contraints de vendre à perte, abaissant potentiellement le prix sous le coût de minage. Pour évaluer la santé du Bitcoin et sa décentralisation, une équation intégrant divers facteurs, tels que le nombre de nœuds et le prix, pourrait être développée. Cette approche pourrait fournir une analyse plus nuancée du Bitcoin par rapport aux discussions basées uniquement sur le prix.
 

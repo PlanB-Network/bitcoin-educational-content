@@ -1,5 +1,7 @@
 level: intermediate
 hours: 10
-teacher: Jim, Rogzy & Ajelex
-contributors:
+
+professors:
+  - case-memory
+  - diamond-jar
   - rabbit-hole

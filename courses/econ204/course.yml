@@ -1,6 +1,9 @@
 level: intermediate
 hours: 12
-teacher: David Saint Ange, Rogzy
+
+professors:
+  - genius-flight
+
 contributors:
   - rabbit-hole
   - another-satoshi

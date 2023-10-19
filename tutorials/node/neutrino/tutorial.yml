@@ -1,10 +1,8 @@
 builder: LND
 
 credits:
-  name: Francisco Calderón
+  professor: valley-egg
   link: https://grunch.dev/guides/rpi-neutrino/
-  tips:
-    lightning_adress: grunch@getalby.com
 
 level: advanced
 

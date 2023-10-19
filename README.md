@@ -33,4 +33,21 @@ Now that you understand the high-level procedure of the translation, you can tak
 
 ### Become a Content Producer
 
-For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:contact@decouvrebitcoin.com).
+For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:contact@decouvrebitcoin.com) or do it via the commit systeme.
+
+### Join the Network
+
+As part of the PlanB initiative we beleive in mutual support and sharing of knowledge between bitcoin communuties around the world. In order to archeive cohision, we are aiming to create a network of bitcoin node who will share the same value and together push a bottom up adoption approche.
+
+To boothstrap this network we will be using the already existing amazing work of the BTCmap team and the effort of coordination of various bitcoin communuties over the last year such as 21(germanà) , 2140, decouvrebitcion, satoshrpiz and more. while the work accomplished over the years is enormous, we are proposing to move into the next step to organize a global effort in a more efficient way. If you want your communuty to join this new initiave we invite you to send us an EMail at rogzy@decouvrebitcoin.com
+
+IN your application we would like to better understand your current communutoes situation so we can offer th ebest help possible. considere inclusing information like:
+
+- your communuties name
+- Your BTCmap link
+- your size
+- your past educational effort
+- what are you need (grant, educational content, visibilitée)
+- what's your 2024 communuties objectif
+
+Amount other. The review process will require some time and effort from our team so try to provide all the necessary information in order to help it. thanks a lot

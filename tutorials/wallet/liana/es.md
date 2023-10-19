@@ -6,8 +6,6 @@ description: Cómo configurar tu Liana Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Liana - Solución de herencia
-
 La red de seguridad para tus monedas, Liana es una simple billetera de Bitcoin que utiliza bloqueos de tiempo on-chain para garantizar la seguridad y la recuperación.
 
 - Sin intermediarios, tienes control total

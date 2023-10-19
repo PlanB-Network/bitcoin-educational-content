@@ -4,8 +4,6 @@ name: NOSTR
 description: Scopri e inizia a utilizzare NOSTR
 ---
 
-# Come utilizzare Nostr nel 2023: Una guida per principianti
-
 Alla fine di questa guida, capirai cosa è Nostr, avrai creato un account e sarai in grado di utilizzarlo.
 
 ![Un nuovo sfidante è arrivato](assets/1.jpeg)

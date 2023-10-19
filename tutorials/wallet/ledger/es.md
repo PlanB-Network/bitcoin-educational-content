@@ -6,8 +6,6 @@ description: Cómo configurar tu dispositivo Ledger Nano S
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Billetera física fría - €60 - Principiante - Para asegurar €2,000 a €50,000
 
 Ledger es la solución francesa para asegurar bitcoins de manera sencilla.

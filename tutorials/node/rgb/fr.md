@@ -3,8 +3,6 @@ name: RGB
 description: Introduction et création d'actifs sur RGB
 ---
 
-# Une brève introduction aux protocoles RGB
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introduction
@@ -16,6 +14,8 @@ Alors que Bitcoin continue sa croissance et son adoption, il fait face à des pr
 Selon Christian Decker2, les protocoles hors chaîne sont généralement des systèmes dans lesquels les utilisateurs utilisent des données d'une blockchain et les gèrent sans toucher à la blockchain elle-même jusqu'à la dernière minute. Sur la base de ce concept, le Lightning Network est né, un réseau qui utilise des protocoles hors chaîne pour permettre des paiements Bitcoin presque instantanés et, comme toutes ces opérations ne sont pas écrites sur la chaîne de blocs, il permet des milliers de transactions par seconde et met à l'échelle Bitcoin.
 
 La recherche et le développement dans le domaine des protocoles hors chaîne sur Bitcoin ont ouvert une boîte de Pandore, aujourd'hui nous savons que nous pouvons réaliser beaucoup plus que le transfert de valeur de manière décentralisée, l'association à but non lucratif LNP/BP Standards se concentre sur le développement de protocoles de couche 2 et 3 sur Bitcoin et le Lightning Network, parmi ces projets, RGB se distingue.
+
+Francisco Calderón publicado em 08 de novembro de 2021 https://grunch.dev/blog/brief-intro-rgb/ grunch@getalby.com
 
 ## Qu'est-ce que RGB ?
 

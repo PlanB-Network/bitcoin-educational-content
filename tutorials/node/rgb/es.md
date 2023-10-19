@@ -3,8 +3,6 @@ name: RGB
 description: Introducción y creación de activos en RGB
 ---
 
-# Una breve introducción a los protocolos RGB
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introducción
@@ -16,6 +14,8 @@ A medida que Bitcoin continúa creciendo y siendo adoptado, se enfrenta a proble
 Según Christian Decker2, los protocolos fuera de la cadena suelen ser sistemas en los que los usuarios utilizan datos de una cadena de bloques y los gestionan sin tocar la cadena de bloques en sí hasta el último minuto. Basándose en este concepto, nació la Lightning Network, una red que utiliza protocolos fuera de la cadena para permitir pagos de Bitcoin casi instantáneos y, dado que no todas estas operaciones se escriben en la cadena de bloques, permite miles de transacciones por segundo y escala Bitcoin.
 
 La investigación y el desarrollo en el área de los protocolos fuera de la cadena en Bitcoin han abierto una caja de Pandora, hoy sabemos que podemos lograr mucho más que la transferencia de valor de manera descentralizada, la Asociación de Normas LNP/BP sin ánimo de lucro se centra en el desarrollo de protocolos de capa 2 y 3 en Bitcoin y la Lightning Network, entre estos proyectos destaca RGB.
+
+Francisco Calderón publicado em 08 de novembro de 2021 https://grunch.dev/blog/brief-intro-rgb/ grunch@getalby.com
 
 ## ¿Qué es RGB?
 

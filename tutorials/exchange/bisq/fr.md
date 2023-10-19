@@ -6,8 +6,6 @@ description: Comment utiliser Bisq, une plateforme d'échange pair à pair
 
 ![cover](assets/cover.jpeg)
 
-# BISQ : échange pair à pair
-
 Bisq est une plateforme de trading décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre les utilisateurs du monde entier, sans avoir besoin d'un intermédiaire.
 
 Site web : https://bisq.network/

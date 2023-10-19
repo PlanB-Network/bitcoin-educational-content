@@ -6,8 +6,6 @@ description: Guida completa su Sparrow
 
 ![cover](assets/cover.jpeg)
 
-# Sparrow
-
 ## Una serie di video che illustrano Sparrow Bitcoin Wallet. Guide per principianti e utenti più avanzati.
 
 > _Questa guida è di Cole, grazie per averla condivisa con noi. Post originale: https://www.southernbitcoiner.com/sparrow-guides/_

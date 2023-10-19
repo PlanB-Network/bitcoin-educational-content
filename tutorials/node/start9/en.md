@@ -1,12 +1,9 @@
 ---
 name: Start9
 description: Set up your Start 9 Node
-
 ---
 
-# Start9
-
-Start9 is a personal server and bitcoin node. 
+Start9 is a personal server and bitcoin node.
 More content coming
 
 ![video](https://www.youtube.com/watch?v=DKBJ3_3ZomU)

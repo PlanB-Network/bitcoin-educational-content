@@ -4,8 +4,6 @@ name: Tails
 description: Installare Tails su una chiavetta USB
 ---
 
-# Installare Tails su una chiavetta USB
-
 _**Guida proposta da Hari Seldon nell'ambito di Agora256**_
 
 ![image](assets/cover.jpeg)

@@ -6,8 +6,6 @@ description: How to set up your Liana Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Liana - Inheritance Solution
-
 The safety net for your coins, Liana is a simple Bitcoin wallet that uses on-chain time locks to ensure security and recovery.
 
 - No trusted third party, you have full control

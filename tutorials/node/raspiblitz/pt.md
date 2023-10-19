@@ -5,8 +5,6 @@ description: Guia para configurar o seu RaspiBlitz
 
 ![image](assets/0.jpeg)
 
-# RaspiBlitz
-
 O RaspiBlitz é um nó Lightning (LND e/ou Core Lightning) faça-você-mesmo que roda junto com um Bitcoin-Fullnode em um RaspberryPi (1TB SSD) e uma tela agradável para facilitar a configuração e monitoramento.
 
 O RaspiBlitz é principalmente direcionado para aprender como executar seu próprio nó descentralizado em casa - porque: Não é o seu Nó, Não são as suas Regras. Descubra e desenvolva o crescente ecossistema da Lightning Network se tornando uma parte integral dele. Construa-o como parte de um workshop ou como um projeto de fim de semana.

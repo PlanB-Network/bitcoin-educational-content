@@ -6,8 +6,6 @@ description: Vollständiger Leitfaden zu Sparrow
 
 ![cover](assets/cover.jpeg)
 
-# Sparrow
-
 ## Eine Serie von Videos über die Sparrow Bitcoin Wallet. Anleitungen für Anfänger und fortgeschrittene Benutzer.
 
 > _Dieser Leitfaden stammt von Cole. Vielen Dank, dass du ihn mit uns geteilt hast. Originalbeitrag: https://www.southernbitcoiner.com/sparrow-guides/_

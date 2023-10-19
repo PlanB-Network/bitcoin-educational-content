@@ -4,8 +4,6 @@ name: Tails
 description: Install Tails on a USB key
 ---
 
-# Install Tails on a USB key
-
 _**Guide proposed by Hari Seldon as part of Agora256**_
 
 ![image](assets/cover.jpeg)

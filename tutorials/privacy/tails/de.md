@@ -4,8 +4,6 @@ name: Tails
 description: Tails auf einem USB-Stick installieren
 ---
 
-# Tails auf einem USB-Stick installieren
-
 _**Von Hari Seldon im Rahmen von Agora256 angebotener Leitfaden**_
 
 ![image](assets/cover.jpeg)

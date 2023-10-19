@@ -3,8 +3,6 @@ name: Watch Tower
 description: Understanding and using a watch tower
 ---
 
-# Watch Tower Lightning
-
 > Credit to: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 ## How do watchtowers work?
@@ -37,9 +35,9 @@ rpcpassword=<your-password>
 regtest=1
 '''
 
-* server: For RPC requests
-* rpcuser and rpcpassword: RPC clients can authenticate with the server
-* regtest: Not required but useful if you're planning for development.
+- server: For RPC requests
+- rpcuser and rpcpassword: RPC clients can authenticate with the server
+- regtest: Not required but useful if you're planning for development.
 
 rpcuser and rpcpassword need to be picked by you. They must be written without quotes. Eg:-
 

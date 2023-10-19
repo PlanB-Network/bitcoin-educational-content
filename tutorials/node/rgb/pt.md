@@ -3,13 +3,6 @@ name: RGB
 description: Introdução e criação de ativos no RGB
 ---
 
-# Uma breve introdução aos protocolos RGB
-
-Francisco Calderón publicado em
-08 de novembro de 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introdução
@@ -21,6 +14,11 @@ Em 3 de janeiro de 2009, Satoshi Nakamoto lançou o primeiro nó do Bitcoin, a p
 De acordo com Christian Decker2, os protocolos off-chain são geralmente sistemas nos quais os usuários usam dados de uma blockchain e os gerenciam sem tocar na própria blockchain até o último minuto. Com base nesse conceito, nasceu a Lightning Network, uma rede que usa protocolos off-chain para permitir pagamentos em Bitcoin quase instantâneos e, como nem todas essas operações são registradas na cadeia de blocos, permite milhares de transações por segundo e escala o Bitcoin.
 
 A pesquisa e o desenvolvimento na área de protocolos off-chain no Bitcoin abriram uma caixa de Pandora, hoje sabemos que podemos alcançar muito mais do que a transferência de valor de forma descentralizada, a Associação de Padrões LNP/BP sem fins lucrativos concentra-se no desenvolvimento de protocolos de camada 2 e 3 no Bitcoin e na Lightning Network, entre esses projetos, o RGB se destaca.
+
+Francisco Calderón publicado em
+08 de novembro de 2021
+https://grunch.dev/blog/brief-intro-rgb/
+grunch@getalby.com
 
 ## O que é o RGB?
 
@@ -419,6 +417,4 @@ Conseguimos criar um ativo fungível e movê-lo de uma transação para outra de
 
 Este post pode conter erros, se você encontrar algo, por favor, me avise para melhorar este guia, sugestões e críticas também são bem-vindas, feliz hacking! 🖖
 
-> Guia oferecido por Franscisco: grunch@getalby.com
-> https://twitter.com/negrunch
-> https://grunch.dev/blog/rgbnode-tutorial/'
+> Guia oferecido por Franscisco: grunch@getalby.com > https://twitter.com/negrunch > https://grunch.dev/blog/rgbnode-tutorial/'

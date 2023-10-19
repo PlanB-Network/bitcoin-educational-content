@@ -6,8 +6,6 @@ description: Una billetera de rayos poderosa
 
 ![cover](assets/cover.jpeg)
 
-# Breez: cliente de rayos no custodial.
-
 Para encontrar toda la información importante, consulte su extensa guía: https://doc.breez.technology/
 
 ![ Breez Wallet: Flexibilidad y Soberanía para la Red de Rayos de Bitcoin ](https://youtu.be/Z_yiPM2gzk0)

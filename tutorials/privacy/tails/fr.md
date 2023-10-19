@@ -4,8 +4,6 @@ name: Tails
 description: Installer Tails sur une clé USB
 ---
 
-# Installer Tails sur une clé USB
-
 _**Guide proposé par Hari Seldon dans le cadre de Agora256**_
 
 ![image](assets/cover.jpeg)

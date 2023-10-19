@@ -6,8 +6,6 @@ description: Portefeuille Bitcoin Radicalement Simple et Puissant
 
 ![cover](assets/cover.jpeg)
 
-# Blue Wallet - Portefeuille Bitcoin Radicalement Simple et Puissant.
-
 Blue Wallet est un portefeuille open- source bitcoin qui est extremement simple d'utilisation mais tout de meme flexible.
 
 - Un portefeuille Bitcoin de couche 1 est disponible gratuitement de facnon non-custodial.

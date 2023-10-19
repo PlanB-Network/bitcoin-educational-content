@@ -6,8 +6,6 @@ description: Configuration d'un ordinateur pour les transactions Bitcoin
 
 ![image](assets/cover.jpeg)
 
-# Un ordinateur pour les transactions Bitcoin (Installation de Linux Mint)
-
 ## Qu'est-ce qui ne va pas si vous utilisez un ordinateur ordinaire ?
 
 Lorsque vous effectuez des transactions Bitcoin, il est idéal que votre ordinateur ne contienne aucun logiciel malveillant. Évidemment.

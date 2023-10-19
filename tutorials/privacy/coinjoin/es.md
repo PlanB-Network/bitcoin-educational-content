@@ -5,8 +5,6 @@ description: Comprender y utilizar CoinJoin en Bitcoin.
 
 ![Caption](assets/1.jpeg)
 
-# Comprender y utilizar CoinJoin en Bitcoin.
-
 ## Introducción
 
 Uno de los problemas iniciales de cualquier sistema de pago peer-to-peer es el doble gasto. ¿Cómo evitar que actores malintencionados abusen de la red de pagos gastando las mismas unidades varias veces sin recurrir a una autoridad central?

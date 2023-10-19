@@ -6,8 +6,6 @@ description: Un portafoglio Lightning potente
 
 ![cover](assets/cover.jpeg)
 
-# Breez: client Lightning non custodiale.
-
 Per trovare tutte le informazioni importanti, consulta la loro guida estesa: https://doc.breez.technology/
 
 ![ Breez Wallet: Flessibilità e Sovranità per la Rete Bitcoin Lightning ](https://youtu.be/Z_yiPM2gzk0)

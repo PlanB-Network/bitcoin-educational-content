@@ -6,8 +6,6 @@ description: Création, sauvegarde et utilisation d'une clé privée Bitcoin ave
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
 
 ## Guide complet pour générer une clé privée à l'aide d'une Coldcard et son utilisation via l'interface de votre noeud Bitcoin Core !

@@ -5,8 +5,6 @@ description: Comprendre et utiliser le JoinBot
 
 ![DALL·E – samourai robot in a red forest, 3D render](assets/cover.jpeg)
 
-# Si t’as pas d’amis, utilises JoinBot !
-
 JoinBot est un nouvel outil qui vient s’ajouter à la suite Samourai Wallet avec la dernière mise à jour 0.99.98f du célèbre logiciel de portefeuille Bitcoin. Il vous permet de réaliser facilement une transaction collaborative afin d’optimiser votre confidentialité, sans pour autant devoir trouver un partenaire.
 
 ** Merci à l’excellent Fanis Michalakis pour l’idée d’utiliser DALL-E pour la miniature ! **

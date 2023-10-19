@@ -3,8 +3,6 @@ name: Watch Tower
 description: Compreendendo e usando uma torre de observação
 ---
 
-# Torre de Observação de Raios
-
 > Crédito para: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 ## Como as torres de observação funcionam?

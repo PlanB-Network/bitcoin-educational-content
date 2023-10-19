@@ -3,8 +3,6 @@ name: Start9
 description: Richten Sie Ihren Start 9-Knoten ein
 ---
 
-# Start9
-
 Start9 ist ein persönlicher Server und ein Bitcoin-Knoten.
 Weitere Inhalte folgen
 

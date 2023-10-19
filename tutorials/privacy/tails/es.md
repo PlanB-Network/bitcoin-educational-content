@@ -4,8 +4,6 @@ name: Tails
 description: Instalar Tails en una memoria USB
 ---
 
-# Instalar Tails en una memoria USB
-
 _**Guía propuesta por Hari Seldon en el marco de Agora256**_
 
 ![image](assets/cover.jpeg)

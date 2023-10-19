@@ -6,8 +6,6 @@ description: Configurare un computer per le transazioni Bitcoin
 
 ![image](assets/cover.jpeg)
 
-# Un computer per le transazioni Bitcoin (Installazione di Linux Mint)
-
 ## Cosa succede se si utilizza un computer normale?
 
 Quando si effettuano transazioni Bitcoin, è ideale che il computer non abbia malware. Ovviamente.

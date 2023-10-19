@@ -3,8 +3,6 @@ name: Watch Tower
 description: Comprendere e utilizzare una torre di guardia
 ---
 
-# Watch Tower Lightning
-
 > Crediti a: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 ## Come funzionano le torri di guardia?
@@ -37,9 +35,9 @@ rpcpassword=<tua-password>
 regtest=1
 ```
 
-* server: per le richieste RPC
-* rpcuser e rpcpassword: i client RPC possono autenticarsi con il server
-* regtest: non richiesto, ma utile se stai pianificando lo sviluppo.
+- server: per le richieste RPC
+- rpcuser e rpcpassword: i client RPC possono autenticarsi con il server
+- regtest: non richiesto, ma utile se stai pianificando lo sviluppo.
 
 rpcuser e rpcpassword devono essere scelti da te. Devono essere scritti senza virgolette. Ad esempio:
 
@@ -52,6 +50,7 @@ Ora, se esegui bitcoind, dovrebbe avviarsi il nodo.
 
 1. Per la parte della torre, prima devi installare teos dalla sorgente. Segui le istruzioni fornite in questo link.
 2. Dopo aver installato con successo teos nel tuo sistema e aver eseguito i test, puoi procedere con l'ultimo passaggio che consiste nel configurare il file teos.toml nella directory utente di teos. Il file deve essere posizionato in una cartella chiamata .teos (presta attenzione al punto) nella tua cartella home. Ad esempio, /home/<tuo-nome-utente>/.teos per Linux. Una volta trovato il posto, crea un file teos.toml e imposta queste opzioni corrispondenti alle cose che abbiamo modificato su bitcoind.
+
 ```
 #bitcoind
 btc_network = "regtest"

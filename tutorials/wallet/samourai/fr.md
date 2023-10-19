@@ -6,8 +6,6 @@ description: Récupérez votre vie privée avec Samourai
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Conçu pour la confidentialité
-
 **Samourai Wallet** est un portefeuille dédié à la confidentialité. Malgré son interface conviviale, il offre une grande flexibilité dans son utilisation et sa sécurité.
 
 Étant **100% non-custodial**, vous devrez **sauvegarder** vos 12 mots et inclure définitivement une **phrase secrète** que vous ne devez pas perdre.

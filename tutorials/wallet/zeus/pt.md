@@ -6,8 +6,6 @@ description: Configuração da carteira Zeus
 
 ![Zeus](assets/cover.jpeg)
 
-# Zeus - Relâmpago na palma da sua mão
-
 **Zeus é uma carteira de Bitcoin de código aberto e não custodial** que lhe dá controle total sobre como você faz pagamentos.
 
 Para ver a documentação completa sobre o ZEUS, você pode consultar suas ótimas páginas de documentação: https://docs.zeusln.app/

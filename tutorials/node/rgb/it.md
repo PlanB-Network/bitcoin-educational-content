@@ -3,8 +3,6 @@ name: RGB
 description: Introduzione e creazione di asset su RGB
 ---
 
-# Una breve introduzione ai protocolli RGB
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introduzione
@@ -16,6 +14,8 @@ Man mano che Bitcoin continua a crescere e ad essere adottato, affronta problemi
 Secondo Christian Decker2, i protocolli off-chain sono di solito sistemi in cui gli utenti utilizzano dati da una blockchain e li gestiscono senza toccare la blockchain stessa fino all'ultimo minuto. Basandosi su questo concetto, è nata la Lightning Network, una rete che utilizza protocolli off-chain per consentire pagamenti Bitcoin quasi istantanei e poiché non tutte queste operazioni vengono scritte sulla blockchain, consente migliaia di transazioni al secondo e scala Bitcoin.
 
 La ricerca e lo sviluppo nell'ambito dei protocolli off-chain su Bitcoin hanno aperto una scatola di Pandora, oggi sappiamo che possiamo ottenere molto di più che il trasferimento di valore in modo decentralizzato, la non-profit LNP/BP Standards Association si concentra sullo sviluppo di protocolli di livello 2 e 3 su Bitcoin e sulla Lightning Network, tra questi progetti spicca RGB.
+
+Francisco Calderón publicado em 08 de novembro de 2021 https://grunch.dev/blog/brief-intro-rgb/ grunch@getalby.com
 
 ## Cos'è RGB?
 

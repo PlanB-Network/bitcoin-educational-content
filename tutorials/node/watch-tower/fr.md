@@ -3,7 +3,6 @@ name: Tour de guet
 description: Comprendre et utiliser une tour de guet
 ---
 
-# Tour de guet Lightning
 
 JohnOnChain nous partage ses connaissances :
 

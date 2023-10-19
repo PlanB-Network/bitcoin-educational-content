@@ -3,8 +3,6 @@ name: Torre de Vigilancia
 description: Comprender y utilizar una torre de vigilancia
 ---
 
-# Torre de Vigilancia Lightning
-
 > Crédito a: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 ## ¿Cómo funcionan las torres de vigilancia?
@@ -37,9 +35,9 @@ rpcpassword=<tu-contraseña>
 regtest=1
 ```
 
-* server: para solicitudes RPC
-* rpcuser y rpcpassword: los clientes RPC pueden autenticarse con el servidor
-* regtest: no es necesario, pero útil si estás planeando para desarrollo.
+- server: para solicitudes RPC
+- rpcuser y rpcpassword: los clientes RPC pueden autenticarse con el servidor
+- regtest: no es necesario, pero útil si estás planeando para desarrollo.
 
 rpcuser y rpcpassword deben ser elegidos por ti. Deben escribirse sin comillas. Ejemplo:
 
@@ -52,6 +50,7 @@ Ahora, si ejecutas bitcoind, debería comenzar a ejecutar el nodo.
 
 1. Para la parte de la torre, primero debes instalar teos desde la fuente. Sigue las instrucciones que se dan en este enlace.
 2. Después de instalar teos correctamente en tu sistema y ejecutar las pruebas, puedes proceder con el último paso que es configurar el archivo teos.toml en el directorio de usuario de teos. El archivo debe colocarse en una carpeta llamada .teos (presta atención al punto) dentro de tu carpeta de inicio. Es decir, por ejemplo, /home/<tu-nombre-de-usuario>/.teos para Linux. Una vez que hayas encontrado el lugar, crea un archivo teos.toml y configura estas opciones correspondientes a las cosas que hemos cambiado en bitcoind.
+
 ```
 #bitcoind
 btc_network = "regtest"

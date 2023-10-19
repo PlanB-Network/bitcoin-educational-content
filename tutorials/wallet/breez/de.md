@@ -6,8 +6,6 @@ description: Eine leistungsstarke Lightning-Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Breez: Nicht-hoheitlicher Lightning-Client.
-
 Um alle wichtigen Informationen zu finden, lesen Sie bitte ihre umfangreiche Anleitung: https://doc.breez.technology/
 
 ![ Breez Wallet: Flexibilität & Souveränität für das Bitcoin Lightning Network ](https://youtu.be/Z_yiPM2gzk0)

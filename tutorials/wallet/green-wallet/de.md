@@ -6,8 +6,6 @@ description: Einrichtungs- und Verwendungshandbuch (CC Bistack)
 
 ![cover](assets/cover.jpeg)
 
-# Wallet-Tutorial - Green Wallet
-
 Mobiles Warm Wallet - Anfänger - Kostenlos - Zur Sicherung von 0 bis 1.000 €
 
 Um Beträge unter 1.000 € abzusichern, ist ein kostenloses Warm Wallet (mit Internetverbindung) perfekt für den Einstieg. Die Einrichtung ist einfach und die Benutzeroberfläche ist für Anfänger konzipiert.

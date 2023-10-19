@@ -6,8 +6,6 @@ description: Mise en place de votre portefeuille Pheonix
 
 ![phoenix](assets/cover.jpeg)
 
-# Phoenix
-
 Phoenix est un portefeuille ightning non custodial crée par Acind, l'&quipe derrire l'implementation Lightning Eclair.
 
 Pour retrouver leur documentation officiel référé vous a leur guide FAQ: https://phoenix.acinq.co/faq

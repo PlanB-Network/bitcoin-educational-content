@@ -6,8 +6,6 @@ description: Anleitung zur Einrichtung Ihres Ledger Nano S Geräts
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Kalter physischer Geldbeutel – 60 € – Anfänger – Zum Sichern von 2.000 € bis 50.000 €
 
 Ledger ist die französische Lösung zur sicheren Aufbewahrung von Bitcoins auf einfache Weise.

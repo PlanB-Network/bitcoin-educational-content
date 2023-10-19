@@ -6,8 +6,6 @@ description: Comment configurer votre appareil Fondation
 
 ![cover](assets/cover.jpeg)
 
-# Fondation
-
 L'auto-garde est enfin accessible avec le portefeuille matériel Passport et le portefeuille mobile Envoy. https://foundationdevices.com/
 
 Caractéristiques clés

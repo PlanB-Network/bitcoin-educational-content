@@ -12,8 +12,6 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Carteira de Bitcoin Electrum
-
 > "Tenho que dizer que, quando encontrei este guia, fiquei chocado. Parabéns ao Arman the Parman por isso. Seria uma pena não hospedá-lo aqui e traduzi-lo para o maior número possível de idiomas. Sinceramente, dicas desse cara." Rogzy
 
 ![Carteira de Desktop Electrum (Mac / Linux) - baixar, verificar, conectar ao seu nó.](https://youtu.be/wHmQNcRWdHM)

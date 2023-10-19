@@ -2,10 +2,7 @@
 name: RoninDojo
 
 description: Instalar y utilizar su propio nodo Bitcoin RoninDojo.
-
 ---
-
-# Instalar y utilizar su propio nodo Bitcoin RoninDojo.
 
 Ejecutar y utilizar su propio nodo es esencial para participar realmente en la red de Bitcoin. Aunque ejecutar un nodo Bitcoin no proporciona ninguna ventaja económica al usuario, le permite preservar su privacidad, actuar de manera independiente y tener control sobre su confianza en la red.
 
@@ -13,11 +10,11 @@ En este artículo, examinaremos en detalle RoninDojo, una excelente solución pa
 
 ### Contenido:
 
-* ¿Qué es RoninDojo?
-* ¿Qué hardware elegir?
-* ¿Cómo instalar RoninDojo?
-* ¿Cómo utilizar RoninDojo?
-* Conclusión
+- ¿Qué es RoninDojo?
+- ¿Qué hardware elegir?
+- ¿Cómo instalar RoninDojo?
+- ¿Cómo utilizar RoninDojo?
+- Conclusión
 
 Si no está familiarizado con el funcionamiento y el papel de un nodo Bitcoin, le recomiendo que comience leyendo este artículo: El nodo Bitcoin - Parte 1/2: Conceptos técnicos.
 
@@ -61,13 +58,13 @@ Sin embargo, ten en cuenta que los equipos de RoninDojo nos indican que a menudo
 
 Aquí tienes un ejemplo de configuración para hacer tu propio nodo RoninDojo:
 
-* Una Raspberry Pi 4.
-* Una carcasa con un ventilador.
-* Una tarjeta de expansión de almacenamiento compatible.
-* Un cable de alimentación.
-* Una tarjeta micro SD industrial de 16GB o más.
-* Un SSD de 1TB o más.
-* Un cable ethernet RJ45, se recomienda categoría 8.
+- Una Raspberry Pi 4.
+- Una carcasa con un ventilador.
+- Una tarjeta de expansión de almacenamiento compatible.
+- Un cable de alimentación.
+- Una tarjeta micro SD industrial de 16GB o más.
+- Un SSD de 1TB o más.
+- Un cable ethernet RJ45, se recomienda categoría 8.
 
 ## ¿Cómo instalar RoninDojo?
 
@@ -209,9 +206,9 @@ Puedes seguir el progreso de la descarga de la cadena accediendo a la interfaz w
 
 Para acceder desde una red local, ingresa en la barra de direcciones de tu navegador:
 
-* Directamente la dirección IP de tu máquina (192.168.?.?)
+- Directamente la dirección IP de tu máquina (192.168.?.?)
 
-* O bien: ronindojo.local
+- O bien: ronindojo.local
 
 Asegúrate de desactivar tu VPN si estás utilizando uno.
 
@@ -219,10 +216,12 @@ Asegúrate de desactivar tu VPN si estás utilizando uno.
 
 Si no puedes acceder a RoninUI desde tu navegador, verifica el correcto funcionamiento de la aplicación desde tu Terminal conectado a tu nodo a través de SSH. Conéctate al menú principal siguiendo los pasos anteriores:
 
-* Escribe: SSH pseudo@192.168.?.? reemplazando con tus credenciales.
+- Escribe: SSH pseudo@192.168.?.? reemplazando con tus credenciales.
 
-* Ingresa tu contraseña de usuario.
+- Ingresa tu contraseña de usuario.
+
 Una vez en el menú principal, ve a:
+
 > RoninUI > Reiniciar
 
 Si la aplicación se reinicia correctamente, el problema está en la conexión desde tu navegador. Verifica que no estés utilizando una VPN y asegúrate de estar conectado a la misma red que tu nodo.
@@ -268,6 +267,7 @@ Si deseas cambiar la contraseña de usuario por una más segura, puedes hacerlo 
 Una vez que la cadena se haya descargado y compactado, podrás comenzar a disfrutar de los servicios que te ofrece tu nuevo nodo RoninDojo. Veamos cómo utilizarlos.
 
 ### Conectar tus billeteras de software a electrs.
+
 La primera utilidad de su nodo recién instalado y sincronizado será difundir sus transacciones a la red de Bitcoin. Por lo tanto, seguramente querrá conectar sus diferentes software de gestión de carteras.
 Puede hacer esto a través de Electrum Rust Server (electrs). La aplicación normalmente viene preinstalada en su nodo RoninDojo. Si no es así, puede instalarla manualmente desde la interfaz RoninCLI.
 
@@ -275,16 +275,13 @@ Simplemente vaya a:
 
 > Aplicaciones > Administrar aplicaciones > Instalar Electrum Server
 
-
 Para obtener la dirección Tor de su Servidor Electrum, desde el menú RoninCLI, vaya a:
 
 > Credenciales > Electrs
 
-
 Solo tendrá que ingresar el enlace en .onion en el software de su cartera. Por ejemplo, en Sparrow Wallet, simplemente vaya a la pestaña:
 
 > Archivo > Preferencias > Servidor
-
 
 En el tipo de servidor, seleccione "Private Electrum", luego ingrese la dirección Tor de su Servidor Electrum en el campo correspondiente. Finalmente, haga clic en "Probar conexión" para probar y guardar su conexión.
 
@@ -308,9 +305,10 @@ Herramienta esencial para los usuarios de Bitcoin, el explorador le permite veri
 
 Estas herramientas de explorador pueden exponerlo a riesgos de pérdida de privacidad y lo obligan a confiar en la base de datos de un tercero. Cuando utiliza esta herramienta en línea sin pasar por su propio nodo:
 
-* Corre el riesgo de filtrar información sobre su cartera.
+- Corre el riesgo de filtrar información sobre su cartera.
 
-* Confía en el administrador del sitio web para la cadena de prueba de trabajo que aloja.
+- Confía en el administrador del sitio web para la cadena de prueba de trabajo que aloja.
+
 Para evitar estos riesgos, puedes utilizar tu propia instancia de Mempool en tu nodo a través de la red Tor. Con esta solución, no solo preservas tu privacidad al utilizar el servicio, sino que también ya no necesitas confiar en un proveedor, ya que consultas tu propia base de datos.
 Para ello, comienza por instalar Mempool Space Visualizer desde RoninCLI:
 
@@ -337,19 +335,16 @@ Tu nodo RoninDojo también incluye WhirlpoolCLI, una interfaz de línea de coman
 Cuando realizas un CoinJoin con la implementación de Whirlpool, la aplicación que estás utilizando debe permanecer abierta para poder ejecutar mezclas y remezclas. Este proceso puede resultar tedioso para el usuario que busca tener conjuntos anónimos elevados, ya que el dispositivo que aloja la aplicación con Whirlpool debe permanecer encendido constantemente. En pocas palabras, esto significa que si deseas comprometer tus UTXO en remezclas las 24 horas del día, los 7 días de la semana, deberás dejar tu computadora personal o tu teléfono encendidos constantemente con la aplicación abierta.
 
 Una solución a esta limitación es utilizar WhirlpoolCLI en una máquina destinada a estar encendida constantemente, como por ejemplo un nodo Bitcoin. Gracias a esto, nuestros UTXO podrán remezclarse las 24 horas del día y los 7 días de la semana sin necesidad de dejar otra máquina que no sea nuestro nodo Bitcoin en funcionamiento.
-WhirlpoolCLI se utiliza junto con WhirlpoolGUI, una interfaz gráfica que se instala en una computadora personal para facilitar la gestión de Coinjoins. En este artículo, explicaré en detalle cómo configurar Whirlpool CLI con su propio dojo: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez 
-Para obtener más información sobre Coinjoin en general, lo explico todo en este artículo: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin 
-
+WhirlpoolCLI se utiliza junto con WhirlpoolGUI, una interfaz gráfica que se instala en una computadora personal para facilitar la gestión de Coinjoins. En este artículo, explicaré en detalle cómo configurar Whirlpool CLI con su propio dojo: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez
+Para obtener más información sobre Coinjoin en general, lo explico todo en este artículo: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
 
 ### Usar Whirlpool Stat Tool.
 
-Después de realizar CoinJoins con Whirlpool, es posible que desee saber concretamente cuál es el nivel de privacidad de sus UTXO mezclados. Whirlpool Stat Tool le permite hacer esto fácilmente. Con esta herramienta, podrá calcular la puntuación prospectiva y la puntuación retrospectiva de sus UTXO mezclados. Para obtener más información sobre el cálculo de estos conjuntos anónimos y cómo funcionan, le recomiendo que lea esta parte: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment 
-
+Después de realizar CoinJoins con Whirlpool, es posible que desee saber concretamente cuál es el nivel de privacidad de sus UTXO mezclados. Whirlpool Stat Tool le permite hacer esto fácilmente. Con esta herramienta, podrá calcular la puntuación prospectiva y la puntuación retrospectiva de sus UTXO mezclados. Para obtener más información sobre el cálculo de estos conjuntos anónimos y cómo funcionan, le recomiendo que lea esta parte: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment
 
 La herramienta está preinstalada en su RoninDojo. Por el momento, solo está disponible desde RoninCLI. Para iniciarlo desde el menú principal, vaya a:
 
 > Samourai Toolkit > Whirlpool Stat Tool
-
 
 Las instrucciones de uso se mostrarán. Una vez que haya terminado, presione cualquier tecla para acceder a las líneas de comando:
 
@@ -359,16 +354,13 @@ Verá que se muestra el terminal:
 
 > wst#/tmp>
 
-
 Para salir de esta interfaz y volver al menú RoninCLI, simplemente escriba el comando:
 
 > quit
 
-
 Para comenzar, vamos a configurar el proxy en Tor para poder extraer los datos de OXT de manera confidencial. Escriba el comando:
 
 > socks5 127.0.0.1:9050
-
 
 Luego, descargue los datos del pool que contiene su transacción:
 
@@ -376,16 +368,15 @@ Luego, descargue los datos del pool que contiene su transacción:
 >
 > Reemplace 0001 con el código de denominación del pool que le interese.
 
-
 Los códigos de denominación son los siguientes en WST:
 
-* Pool 0.5 bitcoins: 05
+- Pool 0.5 bitcoins: 05
 
-* Pool 0.05 bitcoins: 005
+- Pool 0.05 bitcoins: 005
 
-* Pool 0.01 bitcoins: 001
+- Pool 0.01 bitcoins: 001
 
-* Pool 0.001 bitcoins: 0001
+- Pool 0.001 bitcoins: 0001
 
 ![Descarga de datos del pool 0001 desde OXT](assets/29.png)
 
@@ -409,7 +400,7 @@ WST mostrará primero la puntuación retrospectiva (métricas retrospectivas) y 
 
 Tenga en cuenta que la puntuación prospectiva de su UTXO se calcula a partir de la TXID de su mezcla inicial, no de su última mezcla. Por otro lado, la puntuación retrospectiva de un UTXO se calcula a partir de la TXID del último ciclo.
 
-Una vez más, si no entiende estos conceptos de conjuntos Anon, le recomiendo que lea esta parte de mi artículo sobre Coinjoin en el que lo explico todo en detalle con diagramas: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment 
+Una vez más, si no entiende estos conceptos de conjuntos Anon, le recomiendo que lea esta parte de mi artículo sobre Coinjoin en el que lo explico todo en detalle con diagramas: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment
 
 ### Utilizando la calculadora Boltzmann.
 
@@ -426,18 +417,18 @@ Estos indicadores se pueden utilizar para cualquier transacción de Bitcoin, per
 1. El primer indicador calculado por este software es el número de combinaciones posibles. Se muestra en la calculadora como "nb combinations". Dado los valores de UTXO, este indicador representa el número de asignaciones posibles de las entradas a las salidas.
 
 > Si no está familiarizado con el término "UTXO", le recomiendo que lea este breve artículo: Mecanismo de una transacción de Bitcoin: UTXO, inputs y outputs.
+
 En otras palabras, este indicador representa el número de interpretaciones posibles para una transacción dada. Por ejemplo: una Coinjoin con una estructura Whirlpool 5x5 tendrá un número de combinaciones posibles igual a 1496:
 
 ![Esquema de una transacción Coinjoin en kycp.org](assets/32.png)
 
 Crédito: https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d
 
-
 2. El segundo indicador calculado es la entropía de una transacción ("Entropy"). Dado que el número de combinaciones posibles puede ser muy alto para una transacción, se puede optar por utilizar la entropía en su lugar. La entropía representa el logaritmo binario del número de combinaciones posibles. Su fórmula es la siguiente:
 
-* E: entropía de la transacción.
+- E: entropía de la transacción.
 
-* C: número de combinaciones posibles para la transacción.
+- C: número de combinaciones posibles para la transacción.
 
 > E = log2(C)
 
@@ -456,7 +447,6 @@ Este indicador se expresa en bits. Por ejemplo, aquí está el cálculo de la en
 >
 > E = 10.5469 bits
 
-
 Esta transacción Coinjoin tiene una entropía de 10.5469 bits, lo cual es muy bueno.
 
 Cuanto mayor sea este indicador, más interpretaciones diferentes de la transacción habrá, y por lo tanto, más confidencial será la transacción.
@@ -469,8 +459,7 @@ Crédito: https://oxt.me/graph/transaction/tiid/9815286
 
 Esta transacción solo tiene una única interpretación posible:
 
->[(inp 0) > (Outp 0 ; Outp 1)]
-
+> [(inp 0) > (Outp 0 ; Outp 1)]
 
 Por lo tanto, su entropía será igual a 0:
 
@@ -481,10 +470,12 @@ Por lo tanto, su entropía será igual a 0:
 > E = 0
 
 3. El tercer indicador devuelto por el calculador Boltzmann es la eficiencia de la Tx llamada "Wallet Efficiency". Este indicador simplemente permite comparar la transacción de entrada con la mejor transacción posible en la misma configuración.
+
 Por lo tanto, vamos a introducir el concepto de entropía máxima que representa la entropía más alta alcanzable para una estructura de transacción dada. Por ejemplo, la estructura de Coinjoin de tipo Whirlpool 5x5 tendrá una entropía máxima igual a 10.5469. Por lo tanto, el indicador de eficiencia compara esta entropía máxima con la entropía real de la transacción de entrada. Su fórmula es la siguiente para:
-* ER: Entropía real expresada en bits.
-* EM: Entropía máxima con la misma estructura expresada en bits.
-* Ef: Eficiencia expresada en bits.
+
+- ER: Entropía real expresada en bits.
+- EM: Entropía máxima con la misma estructura expresada en bits.
+- Ef: Eficiencia expresada en bits.
 
 > Ef = ER - EM
 >
@@ -493,9 +484,10 @@ Por lo tanto, vamos a introducir el concepto de entropía máxima que representa
 > Ef = 0 bits
 
 Este indicador también se expresa en porcentaje, por lo que la fórmula es la siguiente para:
-* CR: Número de combinaciones posibles reales.
-* CM: Número de combinaciones posibles máximas con la misma estructura.
-* Ef: Eficiencia expresada en porcentaje.
+
+- CR: Número de combinaciones posibles reales.
+- CM: Número de combinaciones posibles máximas con la misma estructura.
+- Ef: Eficiencia expresada en porcentaje.
 
 > Ef = CR/CM
 >
@@ -523,21 +515,19 @@ La quinta información proporcionada por el calculador Boltzmann es la tabla de 
 Si retomamos nuestro ejemplo con un Coinjoin Whirlpool, la tabla de probabilidades sería:
 
 | Input | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
-|-------|----------|----------|----------|----------|----------|
+| ----- | -------- | -------- | -------- | -------- | -------- | --- | --- | --- | --- | --- | --- | --- |
 | 0     | 34%      | 34%      | 34%      | 34%      | 34%      |
 | 1     | 34%      | 34%      | 34%      | 34%      | 34%      |
 | 2     | 34%      | 34%      | 34%      | 34%      | 34%      |
-| 3     | 34%      | 34%      | 34%      | 34%      | 34%      || 4     | 34%      | 34%      | 34%      | 34%      | 34%      |
-
+| 3     | 34%      | 34%      | 34%      | 34%      | 34%      |     | 4   | 34% | 34% | 34% | 34% | 34% |
 
 Aquí se puede ver que cada entrada tiene la misma probabilidad de estar relacionada con cada salida.
 
 Sin embargo, si tomamos el ejemplo de una transacción con una entrada y dos salidas, entonces se tiene:
 
 | Entrada | Salida 0 | Salida 1 |
-|-------|----------|----------|
-| 0     | 100%     | 100%     |
-
+| ------- | -------- | -------- |
+| 0       | 100%     | 100%     |
 
 En este ejemplo se puede ver que la probabilidad de que cada salida provenga de la entrada 0 es del 100%.
 
@@ -571,9 +561,9 @@ Escriba el comando "Quit" para salir del software y volver al menú de RoninCLI.
 
 Para obtener más información sobre el calculador Boltzmann, le recomiendo que lea estos artículos:
 
-* https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
+- https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 
-* https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
+- https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 
 ### Conectar Bisq.
 
@@ -642,16 +632,15 @@ Si su xpub no está rastreada por su nodo, verá aparecer esta pantalla que le i
 
 También puede utilizar otras herramientas de mantenimiento:
 
-* Transaction Tool: Le permite observar los detalles de una transacción específica.
+- Transaction Tool: Le permite observar los detalles de una transacción específica.
 
-* Address Tool: Le permite verificar que una dirección específica esté siendo rastreada por su Dojo.
+- Address Tool: Le permite verificar que una dirección específica esté siendo rastreada por su Dojo.
 
-* Rescan Blocks: Obliga a su nodo a volver a escanear un rango de bloques seleccionado.
+- Rescan Blocks: Obliga a su nodo a volver a escanear un rango de bloques seleccionado.
 
 También encontrará en RoninUI la herramienta "Push Tx". Le permite difundir una transacción firmada a la red de Bitcoin. Esta debe ingresarse en formato hexadecimal:
 
 ![Herramienta de difusión de transacciones firmadas desde RoninUI](assets/45.png)
-
 
 ## Conclusión.
 
@@ -665,24 +654,22 @@ Para obtener más información sobre RoninDojo, te recomiendo que consultes los 
 
 ### Para ir más allá:
 
-* Comprender y utilizar CoinJoin en Bitcoin.
+- Comprender y utilizar CoinJoin en Bitcoin.
 
-* Las funciones hash - extracto del libro electrónico Bitcoin Démocratisé 1.
+- Las funciones hash - extracto del libro electrónico Bitcoin Démocratisé 1.
 
-* Todo sobre la frase de contraseña de Bitcoin.
+- Todo sobre la frase de contraseña de Bitcoin.
 
 ### Recursos externos:
 
-* https://samouraiwallet.com/dojo
-* https://ronindojo.io/index.html
-* https://wiki.ronindojo.io/en/home
-* https://code.samourai.io/ronindojo/RoninDojo
-* https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
-* https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
-* https://oxt.me/
-* https://kycp.org/#/
-* https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
-* https://wiki.ronindojo.io/en/setup/bisq
-* https://bisq.network/
-
-https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo
+- https://samouraiwallet.com/dojo
+- https://ronindojo.io/index.html
+- https://wiki.ronindojo.io/en/home
+- https://code.samourai.io/ronindojo/RoninDojo
+- https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
+- https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
+- https://oxt.me/
+- https://kycp.org/#/
+- https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
+- https://wiki.ronindojo.io/en/setup/bisq
+- https://bisq.network/

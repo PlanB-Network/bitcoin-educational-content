@@ -6,8 +6,6 @@ description: Guía paso a paso para HODLHODL
 
 ![imagen](assets/cover.jpeg)
 
-# HODL HODL
-
 Hodl Hodl es un intercambio descentralizado de Bitcoin que prioriza el control y la seguridad del usuario. A diferencia de los intercambios tradicionales, opera en un modelo de igual a igual, permitiendo intercambios directos entre usuarios. Con su sistema de custodia multi-firma, Hodl Hodl garantiza la seguridad de los fondos durante las transacciones. La plataforma también admite varios métodos de pago y ofrece opciones de negociación como contratos por diferencia (CFDs).
 
 ![ HodlHodl - Compra y Venta de Bitcoin SIN KYC ](https://youtu.be/FmyYxrZM3Ms)

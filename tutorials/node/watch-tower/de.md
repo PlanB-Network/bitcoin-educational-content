@@ -3,8 +3,6 @@ name: Watch Tower
 description: Verständnis und Nutzung eines Wachturms
 ---
 
-# Watch Tower Lightning
-
 > Quelle: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 ## Wie funktionieren Wachtürme?
@@ -37,9 +35,9 @@ rpcpassword=<Ihr-Passwort>
 regtest=1
 ```
 
-* server: Für RPC-Anfragen
-* rpcuser und rpcpassword: RPC-Clients können sich beim Server authentifizieren
-* regtest: Nicht erforderlich, aber nützlich, wenn Sie für die Entwicklung planen.
+- server: Für RPC-Anfragen
+- rpcuser und rpcpassword: RPC-Clients können sich beim Server authentifizieren
+- regtest: Nicht erforderlich, aber nützlich, wenn Sie für die Entwicklung planen.
 
 rpcuser und rpcpassword müssen von Ihnen ausgewählt werden. Sie müssen ohne Anführungszeichen geschrieben werden. Beispiel:
 
@@ -76,5 +74,3 @@ Da wir auf regtest laufen, können wir einen Block abbauen, indem wir einen RPC-
 ![image](assets\2.png)
 
 Das war's, Sie haben den Tower erfolgreich ausgeführt. Herzlichen Glückwunsch. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

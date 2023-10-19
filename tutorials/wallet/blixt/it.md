@@ -6,8 +6,6 @@ description: Portafoglio LN multifunzione
 
 ![presentazione](assets/1.jpeg)
 
-# Portafoglio/Nodo Blixt BTC ⚡️ LN
-
 ## Un potente nodo BTC/Lightning nel tuo taschino, ovunque tu sia
 
 Vorrei presentarvi un nuovo nodo e portafoglio mobile BTC/LN interessante e potente - Blixt. Il nome deriva dallo svedese e significa "fulmine".

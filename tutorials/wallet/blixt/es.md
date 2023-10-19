@@ -6,8 +6,6 @@ description: Cartera multifunción LN
 
 ![presentación](activos/1.jpeg)
 
-# Blixt BTC ⚡️ Cartera/Nodo LN
-
 ## Un potente nodo BTC/Lightning en tu bolsillo, estés donde estés
 
 Me gustaría presentarles un nuevo e interesante nodo y monedero móvil de BTC/LN - Blixt. El nombre viene del sueco y significa "relámpago".

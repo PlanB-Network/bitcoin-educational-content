@@ -6,8 +6,6 @@ description: Anleitung zum Starten der Bitcoin-Akzeptanz mit Breez POS
 
 ![cover](assets/cover.jpeg)
 
-# Breez Point of Sales
-
 _Dieser Text stammt von der Breez-Dokumentationswebsite: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
 ## Was ist Breez POS?

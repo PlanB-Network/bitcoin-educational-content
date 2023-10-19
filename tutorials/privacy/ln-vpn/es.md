@@ -6,8 +6,6 @@ description: Configura tu VPN
 
 ![image](assets/cover.jpeg)
 
-# LN⚡VPN
-
 LN VPN es un servicio VPN personalizado que solo acepta pagos con lightning. Hoy te mostraré cómo utilizarlo y dejar menos rastros cuando navegas por Internet.
 
 Existen muchos proveedores de servicios VPN de calidad, de hecho, hicimos una revisión exhaustiva en este artículo (hipervínculo), pero LN VPN se destaca y no podíamos dejar de presentártelo.

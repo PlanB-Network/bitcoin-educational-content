@@ -6,8 +6,6 @@ description: Guide de mise en place et utilisation (CC Bistack )
 
 ![cover](assets/cover.jpeg)
 
-# Tutoriel portefeuille – Green Wallet
-
 Portefeuille mobile chaud – Débutant – Gratuit – Pour sécuriser de 0 à 1 000 €
 
 Pour sécuriser des sommes en dessous de 1 000€, un portefeuille chaud (connecté à Internet) gratuit est parfait pour commencer.

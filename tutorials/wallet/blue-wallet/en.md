@@ -6,8 +6,6 @@ description: Radically Simple and Powerful Bitcoin Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Blue Wallet - Radically Simple and Powerful Bitcoin Wallet.
-
 Blue Wallet is an open-source bitcoin wallet that is extremely easy to use yet flexible.
 
 - A layer 1 Bitcoin wallet is available for free in a non-custodial manner.

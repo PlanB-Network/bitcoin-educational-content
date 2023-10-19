@@ -6,8 +6,6 @@ description: learn how to regain your privacy
 
 ![wasabi](assets/cover.jpeg)
 
-# Wasabi Wallet
-
 Open-source, non-custodial, privacy focused Bitcoin wallet for Desktop
 https://www.wasabiwallet.io/
 

@@ -6,8 +6,6 @@ description: Erstellung, Sicherung und Verwendung eines Bitcoin-Privatschlüssel
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Erstellung, Sicherung und Verwendung eines Bitcoin-Privatschlüssels mit einer Coldcard und Bitcoin Core
 
 ## Vollständiger Leitfaden zur Generierung eines Privatschlüssels mit einer Coldcard und zur Verwendung über die Benutzeroberfläche Ihres Bitcoin Core-Knotens!

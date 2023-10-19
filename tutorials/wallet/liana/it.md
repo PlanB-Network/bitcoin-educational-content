@@ -6,8 +6,6 @@ description: Come configurare il tuo portafoglio Liana
 
 ![cover](assets/cover.jpeg)
 
-# Liana - Soluzione per l'eredità
-
 La rete di sicurezza per le tue monete, Liana è un semplice portafoglio Bitcoin che utilizza i contratti di tempo on-chain per garantire sicurezza e recupero.
 
 - Nessun intermediario di fiducia, hai il pieno controllo

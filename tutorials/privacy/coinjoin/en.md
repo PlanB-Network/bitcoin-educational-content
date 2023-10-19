@@ -5,8 +5,6 @@ description: Understanding and using CoinJoin on Bitcoin.
 
 ![Caption](assets/1.jpeg)
 
-# Understanding and using CoinJoin on Bitcoin.
-
 ## Introduction
 
 One of the initial problems with any peer-to-peer payment system is double spending. How can we prevent malicious actors from abusing the payment network by spending the same units multiple times without relying on a central authority?

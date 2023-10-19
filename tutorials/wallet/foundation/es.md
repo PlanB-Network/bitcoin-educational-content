@@ -6,8 +6,6 @@ description: Cómo configurar tu dispositivo Foundation
 
 ![cover](assets/cover.jpeg)
 
-# Fondation
-
 La autogestión finalmente es posible con la billetera de hardware Passport y la billetera móvil Envoy. https://foundationdevices.com/
 
 Especificaciones clave

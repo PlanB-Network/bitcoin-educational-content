@@ -6,8 +6,6 @@ description: Richten Sie einen Computer für Bitcoin-Transaktionen ein
 
 ![image](assets/cover.jpeg)
 
-# Ein Computer für Bitcoin-Transaktionen (Linux Mint installieren)
-
 ## Was ist falsch, wenn Sie einen normalen Computer verwenden?
 
 Bei Bitcoin-Transaktionen ist es ideal, wenn Ihr Computer keine Malware hat. Offensichtlich.

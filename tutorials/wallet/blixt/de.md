@@ -6,8 +6,6 @@ description: LN-Multifunktions-Wallet
 
 ![Präsentation](assets/1.jpeg)
 
-# Blixt BTC ⚡️ LN Wallet/Node
-
 ## Ein leistungsstarker BTC/Lightning-Node in Ihrer Tasche, egal wo Sie sind
 
 Ich möchte Ihnen einen interessanten und gleichzeitig leistungsstarken neuen BTC/LN-Node und mobilen Wallet vorstellen - Blixt. Der Name stammt aus dem Schwedischen und bedeutet "Blitz".

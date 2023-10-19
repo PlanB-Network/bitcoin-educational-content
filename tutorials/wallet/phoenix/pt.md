@@ -6,8 +6,6 @@ description: Configuração da sua carteira Pheonix
 
 ![phoenix](assets/cover.jpeg)
 
-# Phoenix
-
 Phoenix é uma carteira Lightning não custodial criada pela Acind, a equipe por trás da implementação Lightning Eclair.
 
 Para encontrar a documentação oficial, consulte o guia de perguntas frequentes deles: https://phoenix.acinq.co/faq

@@ -6,8 +6,6 @@ description: Configurando um computador para transações de bitcoin
 
 ![image](assets/cover.jpeg)
 
-# Um Computador para Transações de Bitcoin (Instalando o Linux Mint)
-
 ## O que há de errado em usar um computador comum?
 
 Ao fazer transações de bitcoin, é ideal que seu computador não tenha malware. Obviamente.

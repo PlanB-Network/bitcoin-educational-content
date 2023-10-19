@@ -6,8 +6,6 @@ description: Guida di installazione per Specter DIY
 
 ![cover](assets/cover.jpeg)
 
-# Specter DIY
-
 Spec:
 
 - Scheda sviluppatore

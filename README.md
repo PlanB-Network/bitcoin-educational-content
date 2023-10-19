@@ -33,21 +33,21 @@ Now that you understand the high-level procedure of the translation, you can tak
 
 ### Become a Content Producer
 
-For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:contact@decouvrebitcoin.com) or do it via the commit systeme.
+For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:contact@decouvrebitcoin.com) or do it via a PR.
 
 ### Join the Network
 
-As part of the PlanB initiative we beleive in mutual support and sharing of knowledge between bitcoin communuties around the world. In order to archeive cohision, we are aiming to create a network of bitcoin node who will share the same value and together push a bottom up adoption approche.
+As part of the PlanB initiative, we believe in mutual support and knowledge-sharing among Bitcoin communities worldwide. To achieve cohesion, we aim to create a network of Bitcoin nodes that share the same values and collectively promote a bottom-up approach to Bitcoin adoption.
 
-To boothstrap this network we will be using the already existing amazing work of the BTCmap team and the effort of coordination of various bitcoin communuties over the last year such as 21(germanà) , 2140, decouvrebitcion, satoshrpiz and more. while the work accomplished over the years is enormous, we are proposing to move into the next step to organize a global effort in a more efficient way. If you want your communuty to join this new initiave we invite you to send us an EMail at rogzy@decouvrebitcoin.com
+To bootstrap this network, we'll utilize the exceptional work of the [BTCmap](https://btcmap.org/) team and the coordination efforts from various Bitcoin communities over the past year, including [einundzwanzig](https://einundzwanzig.space/), [2140](https://2140meetups.com/), [DecouvreBitcoin](https://decouvrebitcoin.com/ambassadeurs/), [satoshispritz](https://satoshispritz.it/), and others. While the progress made thus far is exemplary, we propose advancing to the next step by organizing a global effort more efficiently. If you'd like your community to join this new initiative, please [email us](mailto:rogzy@decouvrebitcoin.com).
 
-IN your application we would like to better understand your current communutoes situation so we can offer th ebest help possible. considere inclusing information like:
+For your application, please provide detailed information about your community so we can best assist you. Consider including:
 
-- your communuties name
+- Your community's name
 - Your BTCmap link
-- your size
-- your past educational effort
-- what are you need (grant, educational content, visibilitée)
-- what's your 2024 communuties objectif
+- Your community size
+- Past educational efforts
+- Your needs (e.g., grants, educational content, visibility)
+- Your community's 2024 objectives
 
-Amount other. The review process will require some time and effort from our team so try to provide all the necessary information in order to help it. thanks a lot
+Please note that our review process will be thorough, so provide all essential details to assist us. Thank you for your cooperation! Stack sats and keep building!

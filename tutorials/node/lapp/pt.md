@@ -21,8 +21,6 @@ Para construir nuestra aplicación Lightning, utilizaremos las siguientes tecnol
 
 Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
 
----
-
 ## Sistema Operativo
 
 Se recomienda usar Linux, si estás en Windows 10, puedes tener una consola Linux siguiendo estos pocos pasos.

@@ -15,8 +15,6 @@ Según Christian Decker2, los protocolos fuera de la cadena suelen ser sistemas 
 
 La investigación y el desarrollo en el área de los protocolos fuera de la cadena en Bitcoin han abierto una caja de Pandora, hoy sabemos que podemos lograr mucho más que la transferencia de valor de manera descentralizada, la Asociación de Normas LNP/BP sin ánimo de lucro se centra en el desarrollo de protocolos de capa 2 y 3 en Bitcoin y la Lightning Network, entre estos proyectos destaca RGB.
 
-Francisco Calderón publicado em 08 de novembro de 2021 https://grunch.dev/blog/brief-intro-rgb/ grunch@getalby.com
-
 ## ¿Qué es RGB?
 
 RGB ha surgido de la investigación de Peter Todd3 sobre sellos de un solo uso y validación del lado del cliente, que fue acuñado en 2016-2019 por Giacomo Zucco y la comunidad en un mejor protocolo de activos para Bitcoin y la red Lightning. La evolución posterior de estas ideas llevó al desarrollo de RGB en un sistema de contratos inteligentes completamente funcional por Maxim Orlovsky, quien lidera su implementación desde 2019 con la participación de la comunidad.

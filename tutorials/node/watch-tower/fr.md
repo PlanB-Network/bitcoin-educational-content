@@ -3,7 +3,6 @@ name: Tour de guet
 description: Comprendre et utiliser une tour de guet
 ---
 
-
 JohnOnChain nous partage ses connaissances :
 
 - https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md
@@ -83,5 +82,3 @@ Une fois que vous avez fait cela, vous devriez être prêt à exécuter la tour.
 ![image](assets\2.png)
 
 C'est tout, vous avez réussi à exécuter la tour. Félicitations. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

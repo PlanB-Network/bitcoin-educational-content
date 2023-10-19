@@ -75,5 +75,3 @@ Given we are running on regtest we can mine block by issuing an RPC command, wit
 ![image](assets\2.png)
 
 That's it, you've successfully run the tower. Congratulations. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

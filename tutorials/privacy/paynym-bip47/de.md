@@ -255,8 +255,10 @@ Um diesen Austausch erfolgreich durchzuführen, verwendet Diffie-Hellman modular
 ![image](assets/13.png)
 
 > Kredit: Ursprüngliche Idee: A.J. Han Vinck, Vektorversion: Flugaal, Übersetzung: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
-> In dieser Vereinfachung repräsentiert die braune Farbe das Geheimnis, das zwischen Alice und Bob geteilt wird. Man muss sich vorstellen, dass es für den Angreifer in Wirklichkeit unmöglich ist, die orangefarbene und hellblaue Farbe zu trennen, um die geheimen Farben von Alice oder Bob wiederherzustellen.
-> Nun betrachten wir seine tatsächliche Funktionsweise. Auf den ersten Blick scheint Diffie-Hellman schwer zu verstehen zu sein. In Wirklichkeit ist das Funktionsprinzip jedoch fast kinderleicht. Bevor ich Ihnen die Mechanismen im Detail erkläre, möchte ich Ihnen kurz zwei mathematische Konzepte in Erinnerung rufen, die wir benötigen werden (und die übrigens auch in vielen anderen kryptographischen Methoden verwendet werden).
+
+In dieser Vereinfachung repräsentiert die braune Farbe das Geheimnis, das zwischen Alice und Bob geteilt wird. Man muss sich vorstellen, dass es für den Angreifer in Wirklichkeit unmöglich ist, die orangefarbene und hellblaue Farbe zu trennen, um die geheimen Farben von Alice oder Bob wiederherzustellen.
+
+Nun betrachten wir seine tatsächliche Funktionsweise. Auf den ersten Blick scheint Diffie-Hellman schwer zu verstehen zu sein. In Wirklichkeit ist das Funktionsprinzip jedoch fast kinderleicht. Bevor ich Ihnen die Mechanismen im Detail erkläre, möchte ich Ihnen kurz zwei mathematische Konzepte in Erinnerung rufen, die wir benötigen werden (und die übrigens auch in vielen anderen kryptographischen Methoden verwendet werden).
 
 1. Eine Primzahl ist eine natürliche Zahl, die nur zwei Teiler hat: 1 und sich selbst. Zum Beispiel ist die Zahl 7 eine Primzahl, da sie nur durch 1 und 7 (sich selbst) teilbar ist. Die Zahl 8 hingegen ist keine Primzahl, da sie durch 1, 2, 4 und 8 teilbar ist. Sie hat also nicht nur zwei, sondern vier ganze und positive Teiler.
 

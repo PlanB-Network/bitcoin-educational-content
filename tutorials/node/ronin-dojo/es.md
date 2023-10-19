@@ -219,8 +219,10 @@ Si no puedes acceder a RoninUI desde tu navegador, verifica el correcto funciona
 - Escribe: SSH pseudo@192.168.?.? reemplazando con tus credenciales.
 
 - Ingresa tu contraseña de usuario.
-  Una vez en el menú principal, ve a:
-  > RoninUI > Reiniciar
+
+Una vez en el menú principal, ve a:
+
+> RoninUI > Reiniciar
 
 Si la aplicación se reinicia correctamente, el problema está en la conexión desde tu navegador. Verifica que no estés utilizando una VPN y asegúrate de estar conectado a la misma red que tu nodo.
 
@@ -306,8 +308,9 @@ Estas herramientas de explorador pueden exponerlo a riesgos de pérdida de priva
 - Corre el riesgo de filtrar información sobre su cartera.
 
 - Confía en el administrador del sitio web para la cadena de prueba de trabajo que aloja.
-  Para evitar estos riesgos, puedes utilizar tu propia instancia de Mempool en tu nodo a través de la red Tor. Con esta solución, no solo preservas tu privacidad al utilizar el servicio, sino que también ya no necesitas confiar en un proveedor, ya que consultas tu propia base de datos.
-  Para ello, comienza por instalar Mempool Space Visualizer desde RoninCLI:
+
+Para evitar estos riesgos, puedes utilizar tu propia instancia de Mempool en tu nodo a través de la red Tor. Con esta solución, no solo preservas tu privacidad al utilizar el servicio, sino que también ya no necesitas confiar en un proveedor, ya que consultas tu propia base de datos.
+Para ello, comienza por instalar Mempool Space Visualizer desde RoninCLI:
 
 > Aplicaciones > Administrar aplicaciones > Instalar Mempool Space Visualizer
 
@@ -414,7 +417,8 @@ Estos indicadores se pueden utilizar para cualquier transacción de Bitcoin, per
 1. El primer indicador calculado por este software es el número de combinaciones posibles. Se muestra en la calculadora como "nb combinations". Dado los valores de UTXO, este indicador representa el número de asignaciones posibles de las entradas a las salidas.
 
 > Si no está familiarizado con el término "UTXO", le recomiendo que lea este breve artículo: Mecanismo de una transacción de Bitcoin: UTXO, inputs y outputs.
-> En otras palabras, este indicador representa el número de interpretaciones posibles para una transacción dada. Por ejemplo: una Coinjoin con una estructura Whirlpool 5x5 tendrá un número de combinaciones posibles igual a 1496:
+
+En otras palabras, este indicador representa el número de interpretaciones posibles para una transacción dada. Por ejemplo: una Coinjoin con una estructura Whirlpool 5x5 tendrá un número de combinaciones posibles igual a 1496:
 
 ![Esquema de una transacción Coinjoin en kycp.org](assets/32.png)
 
@@ -466,7 +470,8 @@ Por lo tanto, su entropía será igual a 0:
 > E = 0
 
 3. El tercer indicador devuelto por el calculador Boltzmann es la eficiencia de la Tx llamada "Wallet Efficiency". Este indicador simplemente permite comparar la transacción de entrada con la mejor transacción posible en la misma configuración.
-   Por lo tanto, vamos a introducir el concepto de entropía máxima que representa la entropía más alta alcanzable para una estructura de transacción dada. Por ejemplo, la estructura de Coinjoin de tipo Whirlpool 5x5 tendrá una entropía máxima igual a 10.5469. Por lo tanto, el indicador de eficiencia compara esta entropía máxima con la entropía real de la transacción de entrada. Su fórmula es la siguiente para:
+
+Por lo tanto, vamos a introducir el concepto de entropía máxima que representa la entropía más alta alcanzable para una estructura de transacción dada. Por ejemplo, la estructura de Coinjoin de tipo Whirlpool 5x5 tendrá una entropía máxima igual a 10.5469. Por lo tanto, el indicador de eficiencia compara esta entropía máxima con la entropía real de la transacción de entrada. Su fórmula es la siguiente para:
 
 - ER: Entropía real expresada en bits.
 - EM: Entropía máxima con la misma estructura expresada en bits.
@@ -668,5 +673,3 @@ Para obtener más información sobre RoninDojo, te recomiendo que consultes los 
 - https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
-
-https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo

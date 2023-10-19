@@ -219,8 +219,10 @@ Se non riesci a connetterti a RoninUI dal tuo browser, verifica il corretto funz
 - Digita: SSH pseudo@192.168.?.? sostituendo con le tue credenziali.
 
 - Inserisci la tua password utente.
-  Una volta nel menu principale, vai su:
-  > RoninUI > Riavvia
+
+Una volta nel menu principale, vai su:
+
+> RoninUI > Riavvia
 
 Se l'applicazione si riavvia correttamente, il problema è a livello di connessione dal tuo browser. Verifica di non utilizzare una VPN e assicurati di essere connesso alla stessa rete del tuo nodo.
 
@@ -307,8 +309,9 @@ Questi strumenti di explorer possono esporre a rischi di perdita di privacy e ti
 - Rischierai di divulgare informazioni sul tuo portafoglio.
 
 - Ti affidi al gestore del sito web per la catena di proof of work che ospita.
-  Per evitare questi rischi, puoi utilizzare la tua istanza Mempool sul tuo nodo tramite la rete Tor. Con questa soluzione, non solo preservi la tua privacy quando utilizzi il servizio, ma non devi più fare affidamento su un provider poiché stai interrogando il tuo stesso database.
-  Per fare ciò, inizia installando Mempool Space Visualizer da RoninCLI:
+
+Per evitare questi rischi, puoi utilizzare la tua istanza Mempool sul tuo nodo tramite la rete Tor. Con questa soluzione, non solo preservi la tua privacy quando utilizzi il servizio, ma non devi più fare affidamento su un provider poiché stai interrogando il tuo stesso database.
+Per fare ciò, inizia installando Mempool Space Visualizer da RoninCLI:
 
 > Applicazioni > Gestisci Applicazioni > Installa Mempool Space Visualizer
 
@@ -416,7 +419,8 @@ Questi indicatori possono essere utilizzati per qualsiasi transazione Bitcoin, m
 1. Il primo indicatore calcolato da questo software è il numero di combinazioni possibili. È indicato nel calcolatore come "nb combinations". Date le valori degli UTXO, questo indicatore rappresenta il numero di possibili mappature degli input verso gli output.
 
 > Se non sei familiare con il termine "UTXO", ti consiglio di leggere questo breve articolo: Meccanismo di una transazione Bitcoin: UTXO, input e output.
-> In altre parole, questo indicatore rappresenta il numero di interpretazioni possibili per una transazione data. Ad esempio: una struttura Coinjoin Whirlpool 5x5 avrà un numero di combinazioni possibili pari a 1496:
+
+In altre parole, questo indicatore rappresenta il numero di interpretazioni possibili per una transazione data. Ad esempio: una struttura Coinjoin Whirlpool 5x5 avrà un numero di combinazioni possibili pari a 1496:
 
 ![Schema di una transazione Coinjoin su kycp.org](assets/32.png)
 
@@ -468,7 +472,8 @@ Quindi la sua entropia sarà uguale a 0:
 > E = 0
 
 3. Il terzo indicatore restituito dal calcolatore Boltzmann è l'efficienza del portafoglio della Tx chiamata "Wallet Efficiency". Questo indicatore consente semplicemente di confrontare la transazione in ingresso con la migliore transazione possibile nella stessa configurazione.
-   Quindi introdurremo il concetto di entropia massima, che rappresenta l'entropia più alta raggiungibile per una struttura di transazione data. Ad esempio, la struttura Coinjoin di tipo Whirlpool 5x5 avrà un'entropia massima pari a 10.5469. L'indicatore di efficienza confronta quindi questa entropia massima con l'entropia effettiva della transazione in ingresso. La sua formula è la seguente per:
+
+Quindi introdurremo il concetto di entropia massima, che rappresenta l'entropia più alta raggiungibile per una struttura di transazione data. Ad esempio, la struttura Coinjoin di tipo Whirlpool 5x5 avrà un'entropia massima pari a 10.5469. L'indicatore di efficienza confronta quindi questa entropia massima con l'entropia effettiva della transazione in ingresso. La sua formula è la seguente per:
 
 - ER: Entropia effettiva espressa in bit.
 
@@ -676,5 +681,3 @@ Per saperne di più su RoninDojo, ti consiglio di consultare i link nelle mie ri
 - https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
-
-https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo

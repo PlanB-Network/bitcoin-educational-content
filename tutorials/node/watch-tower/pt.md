@@ -74,5 +74,3 @@ Como estamos executando no regtest, podemos minerar um bloco emitindo um comando
 ![image](assets\2.png)
 
 É isso, você executou a torre com sucesso. Parabéns. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

@@ -219,8 +219,10 @@ Wenn Sie keine Verbindung zu RoninUI über Ihren Browser herstellen können, üb
 - Geben Sie ein: SSH pseudo@192.168.?.? und ersetzen Sie es durch Ihre Anmeldeinformationen.
 
 - Geben Sie Ihr Benutzerpasswort ein.
-  Nachdem Sie sich im Hauptmenü befinden, gehen Sie zu:
-  > RoninUI > Neustart
+
+Nachdem Sie sich im Hauptmenü befinden, gehen Sie zu:
+
+> RoninUI > Neustart
 
 Wenn die Anwendung erfolgreich neu gestartet wird, liegt das Problem wahrscheinlich bei der Verbindung von Ihrem Browser aus. Überprüfen Sie, ob Sie kein VPN verwenden und ob Sie mit demselben Netzwerk wie Ihr Knoten verbunden sind.
 
@@ -307,7 +309,8 @@ Die Verwendung dieser Explorer-Tools kann Ihre Privatsphäre gefährden und erfo
 - Sie riskieren, Informationen über Ihre Wallet preiszugeben.
 
 - Sie vertrauen dem Website-Betreiber für die von ihm gehostete Proof-of-Work-Blockchain.
-  Um diese Risiken zu vermeiden, können Sie Ihre eigene Mempool-Instanz auf Ihrem Knoten über das Tor-Netzwerk verwenden. Mit dieser Lösung schützen Sie nicht nur Ihre Privatsphäre bei der Nutzung des Dienstes, sondern Sie müssen auch keinem Anbieter mehr vertrauen, da Sie Ihre eigene Datenbank abfragen.
+
+Um diese Risiken zu vermeiden, können Sie Ihre eigene Mempool-Instanz auf Ihrem Knoten über das Tor-Netzwerk verwenden. Mit dieser Lösung schützen Sie nicht nur Ihre Privatsphäre bei der Nutzung des Dienstes, sondern Sie müssen auch keinem Anbieter mehr vertrauen, da Sie Ihre eigene Datenbank abfragen.
 
 Beginnen Sie damit, Mempool Space Visualizer von RoninCLI zu installieren:
 
@@ -384,8 +387,9 @@ Nachdem die Daten heruntergeladen wurden, laden Sie sie mit dem Befehl:
 > load 0001
 >
 > Ersetzen Sie 0001 durch den Bezeichnungscode des gewünschten Pools.
-> ![Laden der Daten aus Pool 0001](assets/30.png)
-> Lassen Sie den Ladevorgang ablaufen, dies kann einige Minuten dauern. Nachdem die Daten geladen wurden, geben Sie den Befehl "score" gefolgt von Ihrer TXID (Transaktions-ID) ein, um ihre Anon Sets zu erhalten:
+
+![Laden der Daten aus Pool 0001](assets/30.png)
+Lassen Sie den Ladevorgang ablaufen, dies kann einige Minuten dauern. Nachdem die Daten geladen wurden, geben Sie den Befehl "score" gefolgt von Ihrer TXID (Transaktions-ID) ein, um ihre Anon Sets zu erhalten:
 
 > score TXID
 >
@@ -414,8 +418,10 @@ Diese Indikatoren können für jede Bitcoin-Transaktion verwendet werden, sind j
 1. Der erste Indikator, der von dieser Software berechnet wird, ist die Anzahl der möglichen Kombinationen. Es wird auf dem Calculator als "nb combinations" angezeigt. Basierend auf den Werten der UTXO repräsentiert dieser Indikator die Anzahl der möglichen Zuordnungen von Eingängen zu Ausgängen.
 
 > Wenn Sie mit dem Begriff "UTXO" nicht vertraut sind, empfehle ich Ihnen, diesen kurzen Artikel zu lesen: Mechanismus einer Bitcoin-Transaktion: UTXO, Inputs und Outputs.
-> Mit anderen Worten, dieser Indikator repräsentiert die Anzahl möglicher Interpretationen für eine gegebene Transaktion. Zum Beispiel: Ein Coinjoin mit einer Whirlpool-Struktur von 5x5 hat eine Anzahl möglicher Kombinationen von 1496:
-> ![Schema einer Coinjoin-Transaktion auf kycp.org](assets/32.png)
+
+Mit anderen Worten, dieser Indikator repräsentiert die Anzahl möglicher Interpretationen für eine gegebene Transaktion. Zum Beispiel: Ein Coinjoin mit einer Whirlpool-Struktur von 5x5 hat eine Anzahl möglicher Kombinationen von 1496:
+
+![Schema einer Coinjoin-Transaktion auf kycp.org](assets/32.png)
 
 Quelle: https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d
 
@@ -465,7 +471,8 @@ Ihre Entropie ist daher gleich 0:
 > E = 0
 
 3. Der dritte Indikator, der vom Boltzmann-Rechner zurückgegeben wird, ist die Effizienz der Tx namens "Wallet Efficiency". Dieser Indikator ermöglicht es einfach, die Eingangstransaktion mit der besten möglichen Transaktion in derselben Konfiguration zu vergleichen.
-   Wir werden also das Konzept der maximalen Entropie einführen, die die höchstmögliche erreichbare Entropie für eine gegebene Transaktionsstruktur darstellt. Zum Beispiel hat die Coinjoin-Struktur vom Typ Whirlpool 5x5 eine maximale Entropie von 10,5469. Der Effizienzindikator vergleicht diese maximale Entropie mit der tatsächlichen Entropie der Eingangstransaktion. Die Formel lautet wie folgt:
+
+Wir werden also das Konzept der maximalen Entropie einführen, die die höchstmögliche erreichbare Entropie für eine gegebene Transaktionsstruktur darstellt. Zum Beispiel hat die Coinjoin-Struktur vom Typ Whirlpool 5x5 eine maximale Entropie von 10,5469. Der Effizienzindikator vergleicht diese maximale Entropie mit der tatsächlichen Entropie der Eingangstransaktion. Die Formel lautet wie folgt:
 
 - ER: Tatsächliche Entropie in Bits ausgedrückt.
 - EM: Maximale Entropie mit derselben Struktur in Bits ausgedrückt.
@@ -667,5 +674,3 @@ Um mehr über RoninDojo zu erfahren, empfehle ich Ihnen, die unten stehenden ext
 - https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
-
-https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo

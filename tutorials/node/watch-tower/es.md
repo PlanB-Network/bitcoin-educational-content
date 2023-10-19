@@ -74,5 +74,3 @@ Dado que estamos ejecutando en regtest, podemos minar un bloque emitiendo un com
 ![image](assets\2.png)
 
 Eso es todo, has ejecutado la torre con éxito. ¡Felicidades! 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

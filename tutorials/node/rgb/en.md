@@ -15,8 +15,6 @@ According to Christian Decker2 Off-chain protocols are usually systems in which 
 
 Research and development in the area of ​​off-chain protocols on Bitcoin has opened a pandora's box, today we know that we can achieve much more than value transfer in a decentralized way, the non-profit LNP/BP Standards Association focuses on development of layer 2 and 3 protocols on Bitcoin and the Lightning Network, among these projects RGB stands out.
 
-Francisco Calderón publicado em 08 de novembro de 2021 https://grunch.dev/blog/brief-intro-rgb/ grunch@getalby.com
-
 ## What is RGB?
 
 RGB has appeared from the research by Peter Todd3 on single-use-seals and client-side-validation, which was coined in 2016-2019 by Giacomo Zucco and community into a better asset protocol for Bitcoin and Lightning network. Further evolution of these ideas led to a development of RGB into a fully-fledged smart contract system by Maxim Orlovsky, who is leading its implementation since 2019 with community participation.

@@ -15,8 +15,6 @@ Selon Christian Decker2, les protocoles hors chaîne sont généralement des sys
 
 La recherche et le développement dans le domaine des protocoles hors chaîne sur Bitcoin ont ouvert une boîte de Pandore, aujourd'hui nous savons que nous pouvons réaliser beaucoup plus que le transfert de valeur de manière décentralisée, l'association à but non lucratif LNP/BP Standards se concentre sur le développement de protocoles de couche 2 et 3 sur Bitcoin et le Lightning Network, parmi ces projets, RGB se distingue.
 
-Francisco Calderón publicado em 08 de novembro de 2021 https://grunch.dev/blog/brief-intro-rgb/ grunch@getalby.com
-
 ## Qu'est-ce que RGB ?
 
 RGB est apparu à partir des recherches de Peter Todd3 sur les scellés à usage unique et la validation côté client, qui a été formulé en 2016-2019 par Giacomo Zucco et la communauté en un meilleur protocole d'actifs pour Bitcoin et le réseau Lightning. L'évolution ultérieure de ces idées a conduit au développement de RGB en un système de contrats intelligents à part entière par Maxim Orlovsky, qui en assure la mise en œuvre depuis 2019 avec la participation de la communauté.

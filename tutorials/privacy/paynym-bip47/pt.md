@@ -260,8 +260,10 @@ Para ter sucesso nessa troca, Diffie-Hellman usa aritmética modular para calcul
 ![image](assets/13.png)
 
 > Crédito: Ideia original: A.J. Han VinckVersão vetorial: FlugaalTradução: Dereckson, Domínio público, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
-> Nesta explicação simplificada, a cor marrom representa o segredo compartilhado entre Alice e Bob. É preciso imaginar que, na realidade, é impossível para o atacante separar as cores laranja e azul claro, a fim de descobrir os segredos de Alice ou Bob.
-> Agora, vamos estudar seu funcionamento real. À primeira vista, o Diffie-Hellman parece complexo de entender. Na realidade, o princípio de funcionamento é quase infantil. Antes de detalhar seus mecanismos, vou lembrar rapidamente de dois conceitos matemáticos que vamos precisar (e que, por sinal, também são usados em muitos outros métodos criptográficos).
+
+Nesta explicação simplificada, a cor marrom representa o segredo compartilhado entre Alice e Bob. É preciso imaginar que, na realidade, é impossível para o atacante separar as cores laranja e azul claro, a fim de descobrir os segredos de Alice ou Bob.
+
+Agora, vamos estudar seu funcionamento real. À primeira vista, o Diffie-Hellman parece complexo de entender. Na realidade, o princípio de funcionamento é quase infantil. Antes de detalhar seus mecanismos, vou lembrar rapidamente de dois conceitos matemáticos que vamos precisar (e que, por sinal, também são usados em muitos outros métodos criptográficos).
 
 1. Um número primo é um número natural que tem apenas dois divisores: 1 e ele mesmo. Por exemplo, o número 7 é primo, porque só pode ser dividido por 1 e 7 (ele mesmo). Por outro lado, o número 8 não é primo, porque pode ser dividido por 1, 2, 4 e 8. Portanto, ele não tem apenas dois divisores, mas sim quatro divisores inteiros e positivos.
 

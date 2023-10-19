@@ -219,8 +219,10 @@ Se você não conseguir se conectar ao RoninUI pelo seu navegador, verifique se 
 - Digite: SSH pseudo@192.168.?.?, substituindo com suas credenciais.
 
 - Insira sua senha de usuário.
-  Depois de acessar o menu principal, vá para:
-  > RoninUI > Reiniciar
+
+Depois de acessar o menu principal, vá para:
+
+> RoninUI > Reiniciar
 
 Se o aplicativo reiniciar corretamente, o problema está na conexão do seu navegador. Verifique se você não está usando uma VPN e verifique se está conectado à mesma rede que o seu nó.
 
@@ -307,7 +309,8 @@ Essas ferramentas de explorer podem expor você a riscos de perda de privacidade
 - Você corre o risco de vazar informações sobre sua carteira.
 
 - Você confia no gerenciador do site para a cadeia de prova de trabalho que ele hospeda.
-  Para evitar esses riscos, você pode usar sua própria instância do Mempool em seu nó através da rede Tor. Com essa solução, você não apenas preserva sua privacidade ao usar o serviço, mas também não precisa mais confiar em um provedor, pois consulta seu próprio banco de dados.
+
+Para evitar esses riscos, você pode usar sua própria instância do Mempool em seu nó através da rede Tor. Com essa solução, você não apenas preserva sua privacidade ao usar o serviço, mas também não precisa mais confiar em um provedor, pois consulta seu próprio banco de dados.
 
 Para fazer isso, comece instalando o Mempool Space Visualizer a partir do RoninCLI:
 
@@ -416,7 +419,8 @@ Esses indicadores podem ser usados em qualquer transação Bitcoin, mas são par
 1. O primeiro indicador calculado por esse software é o número de combinações possíveis. Ele é mostrado na calculadora como "nb combinations". Com base nos valores das UTXOs, esse indicador representa o número de mapeamentos possíveis das entradas para as saídas.
 
 > Se você não está familiarizado com o termo "UTXO", recomendo que leia este breve artigo: Mecanismo de uma transação Bitcoin: UTXO, inputs e outputs.
-> Em outras palavras, esse indicador representa o número de interpretações possíveis para uma transação específica. Por exemplo: uma Coinjoin com estrutura Whirlpool 5x5 terá um número de combinações possíveis igual a 1496:
+
+Em outras palavras, esse indicador representa o número de interpretações possíveis para uma transação específica. Por exemplo: uma Coinjoin com estrutura Whirlpool 5x5 terá um número de combinações possíveis igual a 1496:
 
 ![Esquema de uma transação Coinjoin em kycp.org](assets/32.png)
 
@@ -468,7 +472,8 @@ Portanto, sua entropia será igual a 0:
 > E = 0
 
 3. O terceiro indicador fornecido pelo calculador Boltzmann é a eficiência da Tx chamada "Eficiência da Carteira". Esse indicador simplesmente permite comparar a transação de entrada com a melhor transação possível na mesma configuração.
-   Portanto, vamos introduzir o conceito de entropia máxima, que representa a entropia mais alta alcançável para uma estrutura de transação específica. Por exemplo, a estrutura Coinjoin do tipo Whirlpool 5x5 terá uma entropia máxima igual a 10.5469. O indicador de eficiência compara essa entropia máxima com a entropia real da transação de entrada. Sua fórmula é a seguinte para:
+
+Portanto, vamos introduzir o conceito de entropia máxima, que representa a entropia mais alta alcançável para uma estrutura de transação específica. Por exemplo, a estrutura Coinjoin do tipo Whirlpool 5x5 terá uma entropia máxima igual a 10.5469. O indicador de eficiência compara essa entropia máxima com a entropia real da transação de entrada. Sua fórmula é a seguinte para:
 
 - ER: Entropia real expressa em bits.
 - EM: Entropia máxima com a mesma estrutura expressa em bits.
@@ -670,5 +675,3 @@ Para saber mais sobre RoninDojo, recomendo que você verifique os links em minha
 - https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
-
-https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo

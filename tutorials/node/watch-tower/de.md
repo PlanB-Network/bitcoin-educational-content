@@ -74,5 +74,3 @@ Da wir auf regtest laufen, können wir einen Block abbauen, indem wir einen RPC-
 ![image](assets\2.png)
 
 Das war's, Sie haben den Tower erfolgreich ausgeführt. Herzlichen Glückwunsch. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

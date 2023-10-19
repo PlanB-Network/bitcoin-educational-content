@@ -220,8 +220,10 @@ If you are unable to connect to RoninUI from your browser, check the proper func
 - Type: SSH username@192.168.?.? replacing with your credentials.
 
 - Enter your user password.
-  Once on the main menu, go to:
-  > RoninUI > Restart
+
+Once on the main menu, go to:
+
+> RoninUI > Restart
 
 If the application restarts correctly, it is a problem with the connection from your browser. Check that you are not using a VPN and make sure you are connected to the same network as your node.
 
@@ -308,7 +310,8 @@ These explorer tools can expose you to privacy risks and require you to trust a 
 - You risk leaking information about your wallet.
 
 - You trust the website manager for the proof-of-work chain they host.
-  To avoid these risks, you can use your own Mempool instance on your node via the Tor network. With this solution, not only do you preserve your privacy when using the service, but you also no longer need to trust a provider since you query your own database.
+
+To avoid these risks, you can use your own Mempool instance on your node via the Tor network. With this solution, not only do you preserve your privacy when using the service, but you also no longer need to trust a provider since you query your own database.
 
 To do this, start by installing Mempool Space Visualizer from RoninCLI:
 
@@ -386,8 +389,9 @@ Once the data is downloaded, load it with the command:
 > load 0001
 >
 > Replace 0001 with the pool denomination code that interests you.
-> ![Loading data from pool 0001](assets/30.png)
-> Let the loading process take place, it may take a few minutes. After loading the data, type the score command followed by your TXID (transaction identifier) to obtain its Anon Sets:
+
+![Loading data from pool 0001](assets/30.png)
+Let the loading process take place, it may take a few minutes. After loading the data, type the score command followed by your TXID (transaction identifier) to obtain its Anon Sets:
 
 > score TXID
 >
@@ -416,8 +420,10 @@ These indicators can be used for any Bitcoin transaction, but they are particula
 1. The first indicator calculated by this software is the number of possible combinations. It is noted on the calculator as "nb combinations". Given the values of the UTXOs, this indicator represents the number of possible mappings from inputs to outputs.
 
 > If you are not familiar with the term "UTXO", I recommend reading this short article: Mechanism of a Bitcoin transaction: UTXO, inputs, and outputs.
-> In other words, this indicator represents the number of possible interpretations for a given transaction. For example, a Whirlpool 5x5 Coinjoin structure will have a number of possible combinations equal to 1496:
-> ![Schema of a Coinjoin transaction on kycp.org](assets/32.png)
+
+In other words, this indicator represents the number of possible interpretations for a given transaction. For example, a Whirlpool 5x5 Coinjoin structure will have a number of possible combinations equal to 1496:
+
+![Schema of a Coinjoin transaction on kycp.org](assets/32.png)
 
 Credit: https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d
 
@@ -466,7 +472,8 @@ So its entropy will be equal to 0:
 > E = 0
 
 3. The third indicator returned by the Boltzmann calculator is the efficiency of the Tx called "Wallet Efficiency". This indicator simply allows comparing the input transaction with the best possible transaction in the same configuration.
-   We will now introduce the concept of maximum entropy, which represents the highest attainable entropy for a given transaction structure. For example, a Whirlpool 5x5 Coinjoin structure will have a maximum entropy of 10.5469. The efficiency indicator compares this maximum entropy with the actual entropy of the input transaction. Its formula is as follows:
+
+We will now introduce the concept of maximum entropy, which represents the highest attainable entropy for a given transaction structure. For example, a Whirlpool 5x5 Coinjoin structure will have a maximum entropy of 10.5469. The efficiency indicator compares this maximum entropy with the actual entropy of the input transaction. Its formula is as follows:
 
 - ER: Actual entropy expressed in bits.
 - EM: Maximum entropy with the same structure expressed in bits.
@@ -664,5 +671,3 @@ To learn more about RoninDojo, I recommend checking out the links in my external
 - https://en.wikipedia.org/wiki/Boltzmann_formula
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
-
-https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo

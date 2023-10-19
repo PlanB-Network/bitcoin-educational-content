@@ -15,11 +15,6 @@ De acordo com Christian Decker2, os protocolos off-chain são geralmente sistema
 
 A pesquisa e o desenvolvimento na área de protocolos off-chain no Bitcoin abriram uma caixa de Pandora, hoje sabemos que podemos alcançar muito mais do que a transferência de valor de forma descentralizada, a Associação de Padrões LNP/BP sem fins lucrativos concentra-se no desenvolvimento de protocolos de camada 2 e 3 no Bitcoin e na Lightning Network, entre esses projetos, o RGB se destaca.
 
-Francisco Calderón publicado em
-08 de novembro de 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
 ## O que é o RGB?
 
 O RGB surgiu a partir da pesquisa de Peter Todd3 sobre selos de uso único e validação do lado do cliente, que foi cunhado em 2016-2019 por Giacomo Zucco e pela comunidade em um protocolo de ativos melhor para o Bitcoin e a Lightning Network. A evolução dessas ideias levou ao desenvolvimento do RGB em um sistema de contratos inteligentes completo por Maxim Orlovsky, que lidera sua implementação desde 2019 com a participação da comunidade.
@@ -416,5 +411,3 @@ $ rgb0-cli fungible list -l
 Conseguimos criar um ativo fungível e movê-lo de uma transação para outra de forma privada, se verificarmos a transação confirmada em um explorador de blocos, não encontraríamos nada diferente de uma transação regular, isso se deve ao fato de que o RGB usa selos de uso único para ajustar as transações. Neste post, faço uma introdução sobre como o RGB funciona.
 
 Este post pode conter erros, se você encontrar algo, por favor, me avise para melhorar este guia, sugestões e críticas também são bem-vindas, feliz hacking! 🖖
-
-> Guia oferecido por Franscisco: grunch@getalby.com > https://twitter.com/negrunch > https://grunch.dev/blog/rgbnode-tutorial/'

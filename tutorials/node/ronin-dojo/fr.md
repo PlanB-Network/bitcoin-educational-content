@@ -678,27 +678,14 @@ Pour en savoir plus sur RoninDojo, je vous conseille d'aller observer les liens 
 
 ### Ressources externes :
 
-    https://samouraiwallet.com/dojo
-
-    https://ronindojo.io/index.html
-
-    https://wiki.ronindojo.io/en/home
-
-    https://code.samourai.io/ronindojo/RoninDojo
-
-    https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
-
-    https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
-
-    https://oxt.me/
-
-    https://kycp.org/#/
-
-    https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
-
-    https://wiki.ronindojo.io/en/setup/bisq
-
-    https://bisq.network/
-
-
-https://www.pandul.fr/post/installer-et-utiliser-son-n%C5%93ud-bitcoin-ronindojo
+- https://samouraiwallet.com/dojo
+- https://ronindojo.io/index.html
+- https://wiki.ronindojo.io/en/home
+- https://code.samourai.io/ronindojo/RoninDojo
+- https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
+- https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
+- https://oxt.me/
+- https://kycp.org/#/
+- https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
+- https://wiki.ronindojo.io/en/setup/bisq
+- https://bisq.network/

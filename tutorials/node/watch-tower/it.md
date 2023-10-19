@@ -74,5 +74,3 @@ Dato che stiamo utilizzando regtest, possiamo estrarre blocchi emettendo un coma
 ![image](assets\2.png)
 
 Ecco fatto, hai eseguito con successo la torre. Congratulazioni. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

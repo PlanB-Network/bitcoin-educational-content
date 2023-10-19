@@ -363,8 +363,6 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
   <b>Proton Drive</b>
 </p>
 
----
-
 ## The Downsides
 
 The Open Source and privacy preserving alternatives to the tech conglomerate applications you've gotten used to using are plentiful, and some of them are often better than the closed source, spyware ridden alternatives.

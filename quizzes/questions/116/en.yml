@@ -1,0 +1,9 @@
+question: Who was the first person to join the Bitcoin network after Satoshi Nakamoto?
+answer: Hal Finney
+wrong_answers:
+  - Laszlo Hanyecz
+  - Phil Champagne
+  - None of the above
+explanation: >-
+  Hal Finney was the first person to join the Bitcoin network after Satoshi
+  Nakamoto. He even tweeted "Running Bitcoin" to mark the occasion.

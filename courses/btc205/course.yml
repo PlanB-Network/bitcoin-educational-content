@@ -1,6 +1,9 @@
 level: intermediate
 hours: 10
-teacher: Pierre & Rogzy
-contributors:
+
+professors:
   - rabbit-hole
+  - electric-ankle
+
+contributors:
   - another-satoshi

@@ -4,8 +4,6 @@ name: Tails
 description: Instalar o Tails em um pendrive
 ---
 
-# Instalar o Tails em um pendrive
-
 _**Guia proposto por Hari Seldon como parte do Agora256**_
 
 ![image](assets/cover.jpeg)

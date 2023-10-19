@@ -6,8 +6,6 @@ description: Einfache und leistungsstarke Bitcoin-Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Blue Wallet - Einfache und leistungsstarke Bitcoin-Wallet.
-
 Blue Wallet ist eine Open-Source-Bitcoin-Wallet, die extrem einfach zu bedienen, aber dennoch flexibel ist.
 
 - Eine Bitcoin-Layer-1-Wallet ist kostenlos und nicht verwahrend verfügbar.

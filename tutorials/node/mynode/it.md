@@ -3,8 +3,6 @@ name: My Node
 description: Configura il tuo nodo Bitcoin MyNode
 ---
 
-# Installa Bitcoin Core su Mac o Windows
-
 ![image](assets/0.jpeg)
 
 https://mynodebtc.com/

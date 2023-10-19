@@ -1,0 +1,9 @@
+question: What are the three functions of money according to the text?
+answer: Store of value, Medium of exchange, Unit of account
+wrong_answers:
+  - Store of value, Medium of exchange, Means of production
+  - Store of value, Means of production, Unit of account
+  - Medium of exchange, Means of production, Unit of account
+explanation: >-
+  'According to the text, money serves three functions: it is a store of
+  value, a medium of exchange, and a unit of account.'

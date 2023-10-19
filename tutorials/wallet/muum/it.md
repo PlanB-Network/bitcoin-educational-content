@@ -6,8 +6,6 @@ description: Configurazione del tuo portafoglio Muum
 
 ![cover](assets/cover.png)
 
-# Portafoglio Muum
-
 Muun (https://muun.com/) è un portafoglio auto-custodito per bitcoin e lightning.
 
 ## tutorial video

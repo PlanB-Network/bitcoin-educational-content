@@ -1,0 +1,10 @@
+question: What is Bitcoin described as in the text?
+answer: A multidisciplinary object
+wrong_answers:
+  - A simple object
+  - A complex object
+  - A single-disciplinary object
+explanation: >-
+  Bitcoin is described as a multidisciplinary object because it raises
+  questions related to various fields, including cryptography, game theory, economics
+  and monetary policy, computer science, philosophy, energy, laws, and regulation.

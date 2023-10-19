@@ -6,8 +6,6 @@ description: Configuração da sua carteira Muum
 
 ![capa](assets/cover.png)
 
-# Carteira Muum
-
 Muun (https://muun.com/) é uma carteira auto custodiante para bitcoin e lightning.
 
 ## tutorial em vídeo

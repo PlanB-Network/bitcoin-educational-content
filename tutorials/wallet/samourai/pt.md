@@ -6,8 +6,6 @@ description: Recupere sua privacidade com Samourai
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Projetada para Privacidade
-
 **Samourai Wallet** é uma carteira dedicada à privacidade. Apesar de sua interface amigável, ela oferece uma grande flexibilidade em seu uso e segurança.
 
 Sendo **100% não custodial**, você precisará **fazer backup** de suas 12 palavras e definitivamente incluir uma **frase de segurança** que você não deve perder.

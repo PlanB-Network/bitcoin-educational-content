@@ -33,4 +33,21 @@ Now that you understand the high-level procedure of the translation, you can tak
 
 ### Become a Content Producer
 
-For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:contact@decouvrebitcoin.com).
+For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:contact@decouvrebitcoin.com) or do it via a PR.
+
+### Join the Network
+
+As part of the PlanB initiative, we believe in mutual support and knowledge-sharing among Bitcoin communities worldwide. To achieve cohesion, we aim to create a network of Bitcoin nodes that share the same values and collectively promote a bottom-up approach to Bitcoin adoption.
+
+To bootstrap this network, we'll utilize the exceptional work of the [BTCmap](https://btcmap.org/) team and the coordination efforts from various Bitcoin communities over the past year, including [einundzwanzig](https://einundzwanzig.space/), [2140](https://2140meetups.com/), [DecouvreBitcoin](https://decouvrebitcoin.com/ambassadeurs/), [satoshispritz](https://satoshispritz.it/), and others. While the progress made thus far is exemplary, we propose advancing to the next step by organizing a global effort more efficiently. If you'd like your community to join this new initiative, please [email us](mailto:rogzy@decouvrebitcoin.com).
+
+For your application, please provide detailed information about your community so we can best assist you. Consider including:
+
+- Your community's name
+- Your BTCmap link
+- Your community size
+- Past educational efforts
+- Your needs (e.g., grants, educational content, visibility)
+- Your community's 2024 objectives
+
+Please note that our review process will be thorough, so provide all essential details to assist us. Thank you for your cooperation! Stack sats and keep building!

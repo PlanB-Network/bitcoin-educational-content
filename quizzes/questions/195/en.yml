@@ -1,0 +1,12 @@
+question:
+  What is one solution for large structures or passionate bitcoiners to accept
+  Bitcoin?
+answer: BTCpay Server
+wrong_answers:
+  - Bitcoin Wallet
+  - Bitcoin Exchange
+  - Bitcoin Mining
+explanation: >-
+  BTCpay Server is a solution for large structures or passionate bitcoiners
+  to accept Bitcoin. Other solutions include OpenNode for simple online businesses
+  and Swiss Bitcoin Pay for amateur merchants.

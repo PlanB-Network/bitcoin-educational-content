@@ -1,0 +1,10 @@
+question: What is the main advantage of fiat currencies?
+answer: They are very liquid and easily transportable
+wrong_answers:
+  - They are not subject to inflation
+  - They are easily divisible
+  - They are accepted by all countries
+explanation: >-
+  Fiat currencies, such as the dollar and the euro, are very liquid and
+  easily transportable because they are now mostly digital. However, their value is
+  constantly eroded by monetary inflation.

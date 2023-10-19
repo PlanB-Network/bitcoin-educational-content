@@ -4,8 +4,6 @@ name: BitBox02
 description: Configuración y uso de BitBox02
 ---
 
-# Bitbox02
-
 ![cover](assets/cover.jpeg)
 
 El BitBox02 (https://bitbox.swiss/) es una billetera física fabricada en Suiza diseñada específicamente para asegurar tus Bitcoins. Algunas de sus características clave incluyen una fácil copia de seguridad y restauración utilizando una tarjeta microSD, un diseño minimalista y discreto, y un soporte completo para Bitcoin.

@@ -6,8 +6,6 @@ description: Como configurar o seu dispositivo Ledger Nano S
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Carteira física fria - €60 - Iniciante - Para proteger de €2.000 a €50.000
 
 A Ledger é a solução francesa para proteger bitcoins de maneira simples.

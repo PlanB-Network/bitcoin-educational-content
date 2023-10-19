@@ -6,8 +6,6 @@ description: Setup and Usage Guide (CC Bistack)
 
 ![cover](assets/cover.jpeg)
 
-# Wallet Tutorial - Green Wallet
-
 Hot Mobile Wallet - Beginner - Free - To secure from 0 to 1,000 €
 
 To secure amounts below 1,000€, a free hot wallet (connected to the internet) is perfect for beginners. Its setup is easy and its interface is designed for beginners.

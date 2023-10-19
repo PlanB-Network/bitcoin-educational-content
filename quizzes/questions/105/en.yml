@@ -1,0 +1,12 @@
+question: What is a mnemonic phrase in the context of Bitcoin?
+answer:
+  A list of 12 or 24 words that allows you to restore your wallet on any Bitcoin
+  wallet application
+wrong_answers:
+  - A secret code to access your bitcoins
+  - A password for your Bitcoin wallet
+  - A phrase that is used to encrypt your bitcoins
+explanation: >-
+  A mnemonic phrase in the context of Bitcoin is a list of 12 or 24 words
+  that allows you to restore your wallet on any Bitcoin wallet application. Anyone
+  with access to this list also has access to your bitcoins.

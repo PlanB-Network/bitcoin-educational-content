@@ -1,0 +1,9 @@
+question: What is one of the factors that can cause the price of Bitcoin to fluctuate?
+answer: Market variations and bullish and bearish market phases.
+wrong_answers:
+  - The number of people using the internet.
+  - The weather.
+  - The price of gold.
+explanation: >-
+  The price of Bitcoin is often characterized by significant volatility,
+  which can be influenced by market variations and bullish and bearish market phases.

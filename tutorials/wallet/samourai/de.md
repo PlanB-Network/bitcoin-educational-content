@@ -6,8 +6,6 @@ description: Wiedererlangen Sie Ihre Privatsphäre mit Samourai
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Entwickelt für Privatsphäre
-
 **Samourai Wallet** ist eine Wallet, die sich der Privatsphäre widmet. Trotz seiner benutzerfreundlichen Oberfläche bietet es eine große Flexibilität in der Verwendung und Sicherheit.
 
 Da es zu **100% nicht verwahrend** ist, müssen Sie Ihre 12 Wörter sichern und unbedingt eine **Passphrase** hinzufügen, die Sie nicht verlieren sollten.

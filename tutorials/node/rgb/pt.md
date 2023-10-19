@@ -3,13 +3,6 @@ name: RGB
 description: Introdução e criação de ativos no RGB
 ---
 
-# Uma breve introdução aos protocolos RGB
-
-Francisco Calderón publicado em
-08 de novembro de 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introdução
@@ -418,7 +411,3 @@ $ rgb0-cli fungible list -l
 Conseguimos criar um ativo fungível e movê-lo de uma transação para outra de forma privada, se verificarmos a transação confirmada em um explorador de blocos, não encontraríamos nada diferente de uma transação regular, isso se deve ao fato de que o RGB usa selos de uso único para ajustar as transações. Neste post, faço uma introdução sobre como o RGB funciona.
 
 Este post pode conter erros, se você encontrar algo, por favor, me avise para melhorar este guia, sugestões e críticas também são bem-vindas, feliz hacking! 🖖
-
-> Guia oferecido por Franscisco: grunch@getalby.com
-> https://twitter.com/negrunch
-> https://grunch.dev/blog/rgbnode-tutorial/'

@@ -1,0 +1,10 @@
+question: What is the main focus of this Bitcoin course?
+answer: The monetary aspects of Bitcoin.
+wrong_answers:
+  - The technical aspects of Bitcoin.
+  - The ecological impact of Bitcoin.
+  - The regulatory aspects of Bitcoin.
+explanation: >-
+  This Bitcoin course focuses on the monetary aspects of Bitcoin, including
+  how to buy and sell bitcoins, securely store them in digital wallets, and use them
+  for transactions.

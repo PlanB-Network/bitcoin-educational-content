@@ -3,8 +3,6 @@ name: Watch Tower
 description: Compreendendo e usando uma torre de observação
 ---
 
-# Torre de Observação de Raios
-
 > Crédito para: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
 
 ## Como as torres de observação funcionam?
@@ -76,5 +74,3 @@ Como estamos executando no regtest, podemos minerar um bloco emitindo um comando
 ![image](assets\2.png)
 
 É isso, você executou a torre com sucesso. Parabéns. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

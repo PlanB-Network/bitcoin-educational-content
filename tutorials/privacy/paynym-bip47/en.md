@@ -4,8 +4,6 @@ name: BIP47 - PayNym
 description: How PayNyms work
 ---
 
-# BIP47, the ugly duckling.
-
 > "He's too big," they all said, and the turkey cock, who had been born with spurs and thought he was an emperor, swelled up like a ship with all sails set, and marched straight up to him in great fury, his eyes as red as fire. The poor little duckling didn't know whether to stand his ground or run away, and was very unhappy because he was despised by all the ducks in the yard.
 
 ![BIP47, the ugly duckling illustration](assets/1.png)
@@ -22,6 +20,7 @@ Initially, this proposal was met with disdain by part of the community, and it w
 
 Over time, Samourai has programmed new features directly related to PayNym. Now, there is a whole ecosystem of tools available to optimize user privacy based on PayNym and BIP47.
 In this article, you will discover the principle of BIP47 and PayNym, the mechanisms of these protocols, and the practical applications that result from them. I will only address the first version of BIP47, which is currently used for PayNym, but versions 2, 3, and 4 work practically the same way.
+
 > The only major difference is found in the notification transaction. Version 1 uses a simple address with OP_RETURN for notification, version 2 uses a multisig script (bloom-multisig) with OP_RETURN, and versions 3 and 4 simply use a multisig script (cfilter-multisig). The mechanisms discussed in this article, including the cryptographic methods studied, are therefore applicable to all four versions. To date, the PayNym implementation on Samourai Wallet and Sparrow uses the first version of BIP47.
 
 ## Summary:
@@ -31,23 +30,24 @@ In this article, you will discover the principle of BIP47 and PayNym, the mechan
 2- Principles of BIP47 and PayNym.
 
 3- Tutorials: Using PayNym.
-* Building a BIP47 transaction with Samourai Wallet.
-* Building a BIP47 transaction with Sparrow Wallet.
+
+- Building a BIP47 transaction with Samourai Wallet.
+- Building a BIP47 transaction with Sparrow Wallet.
 
 4- The workings of BIP47.
-* The reusable payment code.
-* The cryptographic method: Diffie-Hellman key exchange established on elliptic curves (ECDH).
-* The notification transaction.
-* Constructing the notification transaction.
-* Receiving the notification transaction.
-* The BIP47 payment transaction.
-* Receiving the BIP47 payment and deriving the private key.
-* Refunding the BIP47 payment.
+
+- The reusable payment code.
+- The cryptographic method: Diffie-Hellman key exchange established on elliptic curves (ECDH).
+- The notification transaction.
+- Constructing the notification transaction.
+- Receiving the notification transaction.
+- The BIP47 payment transaction.
+- Receiving the BIP47 payment and deriving the private key.
+- Refunding the BIP47 payment.
 
 5- Derived uses of PayNym.
 
 6- My personal opinion on BIP47.
-
 
 ## The problem of address reuse.
 
@@ -112,7 +112,7 @@ It can also be encoded as a QR code to facilitate communication:
 
 As for PayNym Bots, those robots you see on Twitter, they are simply visual representations of your payment code, created by Samourai Wallet. They are generated using a hash function, which makes them almost unique. Here is mine with its identifier:
 
->+throbbingpond8B1
+> +throbbingpond8B1
 
 ![image](assets/5.png)
 
@@ -136,14 +136,16 @@ On the other hand, the linking operation ("follow" or "relier") allows for a lin
 
 To summarize:
 
-* Linking two PayNyms ("follow") is completely free. It helps establish off-chain encrypted communications, particularly for using Samourai's collaborative transaction tools (Stowaway or StonewallX2). This operation is specific to PayNym and is not described in BIP47.
+- Linking two PayNyms ("follow") is completely free. It helps establish off-chain encrypted communications, particularly for using Samourai's collaborative transaction tools (Stowaway or StonewallX2). This operation is specific to PayNym and is not described in BIP47.
 
-* Connecting two PayNyms incurs a cost. This involves performing the notification transaction to initiate the connection. The cost consists of any service fees, transaction mining fees, and 546 sats sent to the recipient's notification address to notify them of the tunnel opening. This operation is related to BIP47. Once completed, the sender can make multiple BIP47 payments to the recipient.
+- Connecting two PayNyms incurs a cost. This involves performing the notification transaction to initiate the connection. The cost consists of any service fees, transaction mining fees, and 546 sats sent to the recipient's notification address to notify them of the tunnel opening. This operation is related to BIP47. Once completed, the sender can make multiple BIP47 payments to the recipient.
 
 In order to connect two PayNyms, they must already be linked.
 
 ## Tutorials: Using PayNym.
+
 Now that we have seen the theory, let's study the practice together. The idea of the tutorials below is to link my PayNym on my Sparrow wallet with my PayNym on my Samourai wallet. The first tutorial shows you how to make a transaction using the reusable payment code from Samourai to Sparrow, and the second tutorial describes the same mechanism from Sparrow to Samourai.
+
 > I performed these tutorials on the Testnet. These are not real bitcoins.
 
 ### Building a BIP47 transaction with Samourai Wallet.
@@ -183,10 +185,12 @@ Once the notification transaction is confirmed, you can send payments to the reu
 Now that we have been able to study the practical aspect of the PayNym implementation of BIP47, let's see how all these mechanisms work and what cryptographic methods are used.
 
 ## The inner workings of BIP47.
-To study the mechanisms of BIP47, it is essential to understand the structure of the hierarchical deterministic (HD) wallet, the mechanisms for deriving child key pairs, as well as the principles of elliptic curve cryptography. Fortunately, you can find all the necessary information to understand this part on my blog:
-* [Understanding the derivation paths of a Bitcoin wallet](https://www.pandul.fr/post/comprendre-les-chemins-de-d%C3%A9rivation-d-un-portefeuille-bitcoin)
 
-* [The Bitcoin wallet - excerpt from the ebook Bitcoin Democratized 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2)
+To study the mechanisms of BIP47, it is essential to understand the structure of the hierarchical deterministic (HD) wallet, the mechanisms for deriving child key pairs, as well as the principles of elliptic curve cryptography. Fortunately, you can find all the necessary information to understand this part on my blog:
+
+- [Understanding the derivation paths of a Bitcoin wallet](https://www.pandul.fr/post/comprendre-les-chemins-de-d%C3%A9rivation-d-un-portefeuille-bitcoin)
+
+- [The Bitcoin wallet - excerpt from the ebook Bitcoin Democratized 2](https://www.pandul.fr/post/le-portefeuille-bitcoin-extrait-ebook-bitcoin-d%C3%A9mocratis%C3%A9-2)
 
 ### The reusable payment code.
 
@@ -194,36 +198,32 @@ As explained in the second part of this paper, the reusable payment code is loca
 
 Here are the different parts that make up an 80-byte payment code:
 
-* Byte 0: The version. If using the first version of BIP47, this byte will be equal to 0x01.
+- Byte 0: The version. If using the first version of BIP47, this byte will be equal to 0x01.
 
-* Byte 1: The bit field. This space is reserved for providing additional indications in case of specific use. If simply using PayNym, this byte will be equal to 0x00.
+- Byte 1: The bit field. This space is reserved for providing additional indications in case of specific use. If simply using PayNym, this byte will be equal to 0x00.
 
-* Byte 2: The y parity. This byte indicates 0x02 or 0x03 depending on the parity (even or odd number) of the value of the y-coordinate of our public key. For more information on this practice, please read step 1 of the "address derivation" section of this article.
+- Byte 2: The y parity. This byte indicates 0x02 or 0x03 depending on the parity (even or odd number) of the value of the y-coordinate of our public key. For more information on this practice, please read step 1 of the "address derivation" section of this article.
 
-* From byte 3 to byte 34: The x value. These bytes indicate the x-coordinate of our public key. The concatenation of x and the y parity gives us our compressed public key.
+- From byte 3 to byte 34: The x value. These bytes indicate the x-coordinate of our public key. The concatenation of x and the y parity gives us our compressed public key.
 
-* From byte 35 to byte 66: The chain code. This space is reserved for the chain code associated with the aforementioned public key.
+- From byte 35 to byte 66: The chain code. This space is reserved for the chain code associated with the aforementioned public key.
 
-* From byte 67 to byte 79: Padding. This space is reserved for possible future developments. For version 1, we simply fill it with zeros to reach 80 bytes, which is the size of the data for an OP_RETURN output.
+- From byte 67 to byte 79: Padding. This space is reserved for possible future developments. For version 1, we simply fill it with zeros to reach 80 bytes, which is the size of the data for an OP_RETURN output.
 
 Here is the hexadecimal representation of my reusable payment code, presented in the previous section, with colors corresponding to the bytes presented above:
 Next, you also need to add the prefix byte "P" to quickly identify that we are dealing with a payment code. This byte is 0x47.
 
->0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
-
+> 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 
 Finally, we calculate the checksum of this payment code using HASH256, which means double hashing with the SHA256 function. We retrieve the first four bytes of this digest and concatenate them at the end (in pink).
 
->0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
-
+> 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 
 The payment code is ready, now we just need to convert it to Base 58:
 
->PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5 
-
+> PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 
 As you can see, this construction closely resembles the structure of an extended public key of type "xpub".
-
 
 During this process to obtain our payment code, we used a compressed public key and a chain code. These two elements are the result of a deterministic and hierarchical derivation from the wallet seed, following the following derivation path: m/47'/0'/0'/
 In concrete terms, to obtain the public key and chain code of the reusable payment code, we will calculate the master private key from the seed, then derive a child pair with the index 47 + 2^31 (hardened derivation). Then, we derive two more child pairs with the index 2^31 (hardened derivation).
@@ -244,22 +244,24 @@ This shared secret (the red key) can then be used for other tasks. Typically, th
 
 To achieve this exchange, Diffie-Hellman uses modular arithmetic to calculate the shared secret. Here is a simplified explanation of how it works:
 
-* Alice and Bob agree on a common color, in this case, yellow. This color is known to everyone. It is public information.
+- Alice and Bob agree on a common color, in this case, yellow. This color is known to everyone. It is public information.
 
-* Alice chooses a secret color, in this case, red. She mixes the two colors, resulting in orange.
+- Alice chooses a secret color, in this case, red. She mixes the two colors, resulting in orange.
 
-* Bob chooses a secret color, in this case, teal blue. He mixes the two colors, resulting in sky blue.
+- Bob chooses a secret color, in this case, teal blue. He mixes the two colors, resulting in sky blue.
 
-* Alice and Bob can exchange the colors they obtained: orange and sky blue. This exchange can happen over an insecure network and can be observed by attackers.
+- Alice and Bob can exchange the colors they obtained: orange and sky blue. This exchange can happen over an insecure network and can be observed by attackers.
 
-* Alice mixes the sky blue color received from Bob with her secret color (red). She obtains brown.
+- Alice mixes the sky blue color received from Bob with her secret color (red). She obtains brown.
 
-* Bob mixes the orange color received from Alice with his secret color (teal blue). He also obtains brown.
+- Bob mixes the orange color received from Alice with his secret color (teal blue). He also obtains brown.
 
 ![image](assets/13.png)
 
 > Credit: Original idea: A.J. Han VinckVector version: FlugaalTranslation: Dereckson, Public domain, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
+
 In this simplification, the brown color represents the secret shared between Alice and Bob. It should be imagined that in reality, it is impossible for the attacker to separate the orange and sky blue colors in order to retrieve Alice or Bob's secret colors.
+
 Now, let's study its actual functioning. At first glance, Diffie-Hellman may seem complex to grasp. In reality, the operating principle is almost childlike. Before detailing its mechanisms, I will quickly remind you of two mathematical concepts that we will need (and incidentally, are also used in many other cryptographic methods).
 
 1. A prime number is a natural number that has only two divisors: 1 and itself. For example, the number 7 is prime because it can only be divided by 1 and 7 (itself). On the other hand, the number 8 is not prime because it can be divided by 1, 2, 4, and 8. It therefore has not only two divisors, but four whole and positive divisors.
@@ -268,38 +270,39 @@ Now, let's study its actual functioning. At first glance, Diffie-Hellman may see
 
 The Diffie-Hellman key exchange between Alice and Bob works as follows:
 
-* Alice and Bob determine two common numbers: p and g. p is a prime number. The larger this number p is, the more secure Diffie-Hellman will be. g is a primitive root of p. These two numbers can be communicated in plain text over an insecure network, they are the equivalents of the yellow color in the simplification above. Alice and Bob just need to have exactly the same values for p and g.
+- Alice and Bob determine two common numbers: p and g. p is a prime number. The larger this number p is, the more secure Diffie-Hellman will be. g is a primitive root of p. These two numbers can be communicated in plain text over an insecure network, they are the equivalents of the yellow color in the simplification above. Alice and Bob just need to have exactly the same values for p and g.
 
-* Once the parameters are chosen, Alice and Bob each determine a secret random number on their own. The random number obtained by Alice is named a (equivalent to the red color) and the random number obtained by Bob is named b (equivalent to the teal color). These two numbers must remain secret.
+- Once the parameters are chosen, Alice and Bob each determine a secret random number on their own. The random number obtained by Alice is named a (equivalent to the red color) and the random number obtained by Bob is named b (equivalent to the teal color). These two numbers must remain secret.
 
-* Instead of exchanging these numbers a and b, each party will calculate A (uppercase) and B (uppercase) such that:
+- Instead of exchanging these numbers a and b, each party will calculate A (uppercase) and B (uppercase) such that:
 
 > A is equal to g raised to the power of a modulo p:
-A = g^a % p
+> A = g^a % p
 
 > B is equal to g raised to the power of b modulo p:
-B = g^b % p
+> B = g^b % p
 
-* These numbers A (equivalent to the orange color) and B (equivalent to the sky blue color) will be exchanged between the two parties. The exchange can be done in plain text over an insecure network.
+- These numbers A (equivalent to the orange color) and B (equivalent to the sky blue color) will be exchanged between the two parties. The exchange can be done in plain text over an insecure network.
 
-* Alice, who now knows B, will calculate the value of z such that:
+- Alice, who now knows B, will calculate the value of z such that:
 
 > z is equal to B raised to the power of a modulo p:
-z = B^a % p
-* As a reminder, B = g^b % p. Therefore:
 > z = B^a % p
-> z = (g^b)^a % p
->
-> According to the rules of exponentiation:
->
-> (x^n)^m = x^nm
->
-> Therefore:
->
-> z = g^ba % p
 
+- As a reminder, B = g^b % p. Therefore:
 
-* Bob, who now knows A, will also calculate the value of z as follows:
+  > z = B^a % p
+  > z = (g^b)^a % p
+  >
+  > According to the rules of exponentiation:
+  >
+  > (x^n)^m = x^nm
+  >
+  > Therefore:
+  >
+  > z = g^ba % p
+
+- Bob, who now knows A, will also calculate the value of z as follows:
 
 > z is equal to A raised to the power of b modulo p:
 >
@@ -310,7 +313,6 @@ z = B^a % p
 > z = (g^a)^b % p
 > z = g^ab % p
 > z = g^ba % p
-
 
 Thanks to the distributivity of the modulo operator, Alice and Bob find exactly the same value for z. This number represents their shared secret, which is equivalent to the color brown in the previous explanation. They can use this shared secret to encrypt communication between them on an insecure network.
 
@@ -337,27 +339,27 @@ In other words, you can easily calculate the public key if you know the private 
 
 We will use this property to adapt our Diffie-Hellman algorithm. Thus, the operation principle of ECDH is as follows:
 
-* Alice and Bob agree on a cryptographically secure elliptic curve and its parameters. This information is public.
+- Alice and Bob agree on a cryptographically secure elliptic curve and its parameters. This information is public.
 
-* Alice generates a random number ka, which will be her private key. This private key must remain secret. She determines her public key Ka by adding and doubling points on the chosen elliptic curve.
+- Alice generates a random number ka, which will be her private key. This private key must remain secret. She determines her public key Ka by adding and doubling points on the chosen elliptic curve.
 
 > Ka = ka·G
 
-* Bob also generates a random number kb, which will be his private key. He calculates the associated public key Kb.
+- Bob also generates a random number kb, which will be his private key. He calculates the associated public key Kb.
 
 > Kb = kb·G
 
-* Alice and Bob exchange their public keys Ka and Kb over an insecure public network.
+- Alice and Bob exchange their public keys Ka and Kb over an insecure public network.
 
-* Alice calculates a point (x, y) on the curve by applying her private key ka to Bob's public key Kb.
+- Alice calculates a point (x, y) on the curve by applying her private key ka to Bob's public key Kb.
 
 > (x, y) = ka·Kb
 
-* Bob calculates a point (x, y) on the curve by applying his private key kb to Alice's public key Ka.
+- Bob calculates a point (x, y) on the curve by applying his private key kb to Alice's public key Ka.
 
 > (x, y) = kb·Ka
 
-* Alice and Bob obtain the same point on the elliptic curve. The shared secret will be the x-coordinate of this point.
+- Alice and Bob obtain the same point on the elliptic curve. The shared secret will be the x-coordinate of this point.
 
 They do obtain the same shared secret because:
 
@@ -394,12 +396,13 @@ Therefore, a payment code alone does not pose a direct risk to privacy since onl
 It is therefore essential to maintain a strict separation between users' payment codes. In this regard, the initial communication step of the code is a critical moment for payment privacy, and yet it is mandatory for the proper functioning of the protocol. If one of the payment codes can be publicly retrieved (for example, from a website), the second code, i.e., the sender's code, should not be associated with the first.
 
 For example, let's imagine that I want to make a donation with BIP47 to a peaceful protest movement in Canada:
-* This organization has published its payment code directly on its website or social media platforms.
-* This code is therefore associated with the movement.
 
-* I retrieve this payment code.
+- This organization has published its payment code directly on its website or social media platforms.
+- This code is therefore associated with the movement.
 
-* Before I can send them a transaction, I must ensure that they are aware of my personal payment code, which is also associated with my identity since I use it to receive transactions from my social networks.
+- I retrieve this payment code.
+
+- Before I can send them a transaction, I must ensure that they are aware of my personal payment code, which is also associated with my identity since I use it to receive transactions from my social networks.
 
 How can I transmit it to them? If I send it to them using a conventional means of communication, the information may leak, and I may be identified as a person supporting peaceful movements.
 
@@ -418,20 +421,21 @@ Obviously, the classic privacy model of Bitcoin is still observed at the level o
 Now, let's see how this notification transaction works. Let's imagine that Alice wants to send funds to Bob using BIP47. In my example, Alice acts as the sender and Bob as the recipient. Bob has already published his payment code on his website, so Alice is already aware of Bob's payment code.
 
 1. Alice calculates a shared secret with ECDH:
-* She selects a pair of keys from her HD wallet located on a different branch than her payment code. Note that this pair should not be easily associated with Alice's notification address or Alice's identity (see previous section).
-* Alice selects the private key from this pair. We will call it "a" (lowercase).
+
+- She selects a pair of keys from her HD wallet located on a different branch than her payment code. Note that this pair should not be easily associated with Alice's notification address or Alice's identity (see previous section).
+- Alice selects the private key from this pair. We will call it "a" (lowercase).
 
 > a
 
-* Alice retrieves the public key associated with Bob's notification address. This key is the first child derived from Bob's payment code (index 0). We will call this public key "B" (uppercase). The private key associated with this public key is called "b" (lowercase). "B" is determined by point addition and doubling on the elliptic curve from "G" (the generator point) with "b" (the private key).
+- Alice retrieves the public key associated with Bob's notification address. This key is the first child derived from Bob's payment code (index 0). We will call this public key "B" (uppercase). The private key associated with this public key is called "b" (lowercase). "B" is determined by point addition and doubling on the elliptic curve from "G" (the generator point) with "b" (the private key).
 
 > B = b·G
 
-* Alice computes a secret point "S" (uppercase) on the elliptic curve by point addition and doubling, applying her private key "a" to Bob's public key "B".
+- Alice computes a secret point "S" (uppercase) on the elliptic curve by point addition and doubling, applying her private key "a" to Bob's public key "B".
 
 > S = a·B
 
-* Alice computes the blinding factor "f" that will be used to encrypt her payment code. To do this, she will generate a pseudo-random number using the HMAC-SHA512 function. As the second input to this function, she uses a value that only Bob will be able to retrieve: (x), which is the x-coordinate of the previously calculated secret point. The first input is (o), which is the UTXO consumed as an input to this transaction (outpoint).
+- Alice computes the blinding factor "f" that will be used to encrypt her payment code. To do this, she will generate a pseudo-random number using the HMAC-SHA512 function. As the second input to this function, she uses a value that only Bob will be able to retrieve: (x), which is the x-coordinate of the previously calculated secret point. The first input is (o), which is the UTXO consumed as an input to this transaction (outpoint).
 
 > f = HMAC-SHA512(o, x)
 
@@ -439,25 +443,26 @@ Now, let's see how this notification transaction works. Let's imagine that Alice
 
 3. She uses this blinding factor as a key to perform symmetric encryption on the payload of her payment code. The encryption algorithm used is simply XOR. The operation performed is similar to the Vernam cipher, also known as the "one-time pad":
 
-* Alice first splits her blinding factor into two parts: the first 32 bytes are called "f1" and the last 32 bytes are called "f2". So we have:
+- Alice first splits her blinding factor into two parts: the first 32 bytes are called "f1" and the last 32 bytes are called "f2". So we have:
 
 > f = f1 || f2
 
-* Alice computes the ciphertext (x') of the x-coordinate of the public key (x) of her payment code, and separately computes the ciphertext (c') of her chain code (c). "f1" and "f2" act as encryption keys, and the XOR operation is used.
+- Alice computes the ciphertext (x') of the x-coordinate of the public key (x) of her payment code, and separately computes the ciphertext (c') of her chain code (c). "f1" and "f2" act as encryption keys, and the XOR operation is used.
 
 > x' = x XOR f1
 >
-c' = c XOR f2
-* Alice replaces the actual values of the public key's abscissa (x) and the chain code (c) in her payment code with the encrypted values (x') and (c').
+> c' = c XOR f2
+
+- Alice replaces the actual values of the public key's abscissa (x) and the chain code (c) in her payment code with the encrypted values (x') and (c').
 
 Before continuing with the technical description of this notification transaction, let's take a moment to discuss the XOR operation. XOR is a bitwise logical operator based on Boolean algebra. Given two bit operands, it returns 1 if the corresponding bits are different, and it returns 0 if the corresponding bits are equal. Here is the truth table for XOR based on the values of operands D and E:
 
-| D | E | D XOR E |
-|---|---|---------|
-| 0 | 0 |   0     |
-| 0 | 1 |   1     |
-| 1 | 0 |   1     |
-| 1 | 1 |   0     |
+| D   | E   | D XOR E |
+| --- | --- | ------- |
+| 0   | 0   | 0       |
+| 0   | 1   | 1       |
+| 1   | 0   | 1       |
+| 1   | 1   | 0       |
 
 For example:
 
@@ -472,20 +477,20 @@ With ECDH, the use of XOR as an encryption layer is particularly coherent. First
 This symmetry is enabled by the commutativity and associativity properties of the XOR operator:
 
 - Other properties:
- -> D ⊕ D = 0
- -> D ⊕ 0 = D
- 
+  -> D ⊕ D = 0
+  -> D ⊕ 0 = D
+
 - Commutativity:
- D ⊕ E = E ⊕ D
- 
+  D ⊕ E = E ⊕ D
+
 - Associativity:
- D ⊕ (E ⊕ Z) = (D ⊕ E) ⊕ Z = D ⊕ E ⊕ Z
- 
+  D ⊕ (E ⊕ Z) = (D ⊕ E) ⊕ Z = D ⊕ E ⊕ Z
+
 - Symmetry:
- If: D ⊕ E = L
- Then: D ⊕ L = D ⊕ (D ⊕ E) = D ⊕ D ⊕ E = 0 ⊕ E = E
- -> D ⊕ L = E
-Next, this encryption method is very similar to the Vernam cipher (One-Time Pad), the only encryption algorithm known to date that has unconditional (or absolute) security. For the Vernam cipher to have this characteristic, the encryption key must be perfectly random, be the same size as the message, and be used only once. In the encryption method used here for BIP47, the key is indeed the same size as the message, the blinding factor is exactly the same size as the concatenation of the x-coordinate of the public key with the payment code chain code. This encryption key is indeed used only once. However, this key is not derived from a perfect random source as it is an HMAC. It is rather pseudo-random. Therefore, it is not a Vernam cipher, but the method is similar.
+  If: D ⊕ E = L
+  Then: D ⊕ L = D ⊕ (D ⊕ E) = D ⊕ D ⊕ E = 0 ⊕ E = E
+  -> D ⊕ L = E
+  Next, this encryption method is very similar to the Vernam cipher (One-Time Pad), the only encryption algorithm known to date that has unconditional (or absolute) security. For the Vernam cipher to have this characteristic, the encryption key must be perfectly random, be the same size as the message, and be used only once. In the encryption method used here for BIP47, the key is indeed the same size as the message, the blinding factor is exactly the same size as the concatenation of the x-coordinate of the public key with the payment code chain code. This encryption key is indeed used only once. However, this key is not derived from a perfect random source as it is an HMAC. It is rather pseudo-random. Therefore, it is not a Vernam cipher, but the method is similar.
 
 Let's go back to our notification transaction construction:
 
@@ -503,27 +508,27 @@ Credit: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ra
 
 If we match this diagram with what I described earlier:
 
-* "Wallet Priv-Key" on Alice's side corresponds to: a.
+- "Wallet Priv-Key" on Alice's side corresponds to: a.
 
-* "Child Pub-Key 0" on Bob's side corresponds to: B.
-* "Notification Shared Secret" corresponds to: f.
-* "Masked Payment Code" corresponds to the encrypted payment code, i.e., with the encrypted payload: x' and c'.
+- "Child Pub-Key 0" on Bob's side corresponds to: B.
+- "Notification Shared Secret" corresponds to: f.
+- "Masked Payment Code" corresponds to the encrypted payment code, i.e., with the encrypted payload: x' and c'.
 
-* "Notification Transaction" is the transaction that contains the OP_RETURN.
+- "Notification Transaction" is the transaction that contains the OP_RETURN.
 
 Let's recap the steps we just went through to perform a notification transaction:
 
-* Alice retrieves Bob's payment code and notification address.
+- Alice retrieves Bob's payment code and notification address.
 
-* Alice selects a UTXO that belongs to her in her HD wallet with the corresponding key pair.
+- Alice selects a UTXO that belongs to her in her HD wallet with the corresponding key pair.
 
-* She calculates a secret point on the elliptic curve using ECDH.
+- She calculates a secret point on the elliptic curve using ECDH.
 
-* She uses this secret point to calculate an HMAC, which is the blinding factor.
+- She uses this secret point to calculate an HMAC, which is the blinding factor.
 
-* She uses this blinding factor to encrypt the payload of her personal payment code.
+- She uses this blinding factor to encrypt the payload of her personal payment code.
 
-* She uses an OP_RETURN transaction output to transfer the masked payment code to Bob.
+- She uses an OP_RETURN transaction output to transfer the masked payment code to Bob.
 
 To better understand its operation, especially the use of OP_RETURN, let's study a real notification transaction together. I performed a transaction of this type on the Testnet, which you can find by clicking here:
 
@@ -539,13 +544,13 @@ Credit: https://blockstream.info/
 
 By observing this transaction, we can already see that it has a single input and 4 outputs:
 
-* The first output is the OP_RETURN that contains my masked payment code.
+- The first output is the OP_RETURN that contains my masked payment code.
 
-* The second output of 546 sats points to the recipient's notification address.
+- The second output of 546 sats points to the recipient's notification address.
 
-* The third output of 15,000 sats represents the service fee, as I used Samourai Wallet to construct this transaction.
+- The third output of 15,000 sats represents the service fee, as I used Samourai Wallet to construct this transaction.
 
-* The fourth output of two million sats represents the change, i.e., the remaining difference from my input that goes back to another address belonging to me.
+- The fourth output of two million sats represents the change, i.e., the remaining difference from my input that goes back to another address belonging to me.
 
 The most interesting to study is obviously output 0 using OP_RETURN. Let's take a closer look at what it contains:
 
@@ -564,12 +569,12 @@ Next comes the payment code with the encrypted payload.
 
 Here is my payment code used in this transaction:
 
->In base 58:
+> In base 58:
 >
->PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
+> PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
 >
->In base 16 (HEX):
->4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
+> In base 16 (HEX):
+> 4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
 
 If we compare my payment code with the OP_RETURN, we can see that the HRP (in brown) and the checksum (in pink) are not transmitted. This is normal, as this information is intended for humans.
 Next, we can recognize (in green) the version (0x01), the bit field (0x00), and the public key parity (0x02). And, at the end of the payment code, the empty bytes in black (0x00) that allow padding to reach a total of 80 bytes. All of this metadata is transmitted in plaintext (unencrypted).
@@ -587,33 +592,32 @@ As a reminder, Bob must be able to access Alice's payment code. Without this inf
 
 3. If the first byte of the OP_RETURN payload is 0x01, Bob starts his search for a possible shared secret with ECDH:
 
-* Bob selects the public key in the transaction input. That is, Alice's public key named "A" with:
+- Bob selects the public key in the transaction input. That is, Alice's public key named "A" with:
 
 > A = a·G
 
-* Bob selects the private key "b" associated with his personal notification address:
+- Bob selects the private key "b" associated with his personal notification address:
 
 > b
 
-* Bob calculates the secret point "S" (ECDH shared secret) on the elliptic curve by adding and doubling points, applying his private key "b" to Alice's public key "A":
+- Bob calculates the secret point "S" (ECDH shared secret) on the elliptic curve by adding and doubling points, applying his private key "b" to Alice's public key "A":
 
 > S = b·A
 
-* Bob determines the blinding factor "f" that will allow him to decrypt Alice's payment code payload. In the same way that Alice calculated it previously, Bob will find "f" by applying HMAC-SHA512 to (x) the x-coordinate value of the secret point "S", and to (o) the UTXO consumed as input in this notification transaction:
+- Bob determines the blinding factor "f" that will allow him to decrypt Alice's payment code payload. In the same way that Alice calculated it previously, Bob will find "f" by applying HMAC-SHA512 to (x) the x-coordinate value of the secret point "S", and to (o) the UTXO consumed as input in this notification transaction:
 
 > f = HMAC-SHA512(o, x)
 
-
 4. Bob interprets the data in the OP_RETURN of the notification transaction as a payment code. He simply decrypts the payload of this potential payment code using the blinding factor "f".
-* Bob separates the blinding factor "f" into two parts: the first 32 bytes of "f" will be "f1" and the last 32 bytes will be "f2".
-* Bob decrypts the encrypted x-coordinate value (x') of Alice's payment code public key:
+
+- Bob separates the blinding factor "f" into two parts: the first 32 bytes of "f" will be "f1" and the last 32 bytes will be "f2".
+- Bob decrypts the encrypted x-coordinate value (x') of Alice's payment code public key:
 
 > x = x' XOR f1
 
-* Bob decrypts the encrypted chain code value (c') of Alice's payment code:
+- Bob decrypts the encrypted chain code value (c') of Alice's payment code:
 
 > c = c' XOR f2
-
 
 5. Bob checks if the value of Alice's payment code public key is part of the secp256k1 group. If it is, he interprets it as a valid payment code. Otherwise, he ignores the transaction.
 
@@ -641,7 +645,6 @@ As seen in the section on Diffie-Hellman, by exchanging their respective public 
 >
 > S = a·B = a·b·G = b·a·G = b·A
 
-
 ![Diagram of generating a shared secret with ECDHE](assets/19.png)
 Now that Bob knows Alice's payment code, he will be able to detect her BIP47 payments and derive the private keys blocking the received bitcoins.
 ![Bob interprets Alice's notification transaction](assets/20.png)
@@ -650,37 +653,37 @@ Credit: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ra
 
 If we match this diagram with what I described to you earlier:
 
-* "Wallet Pub-Key" on Alice's side corresponds to: A.
+- "Wallet Pub-Key" on Alice's side corresponds to: A.
 
-* "Child Priv-Key 0" on Bob's side corresponds to: b.
+- "Child Priv-Key 0" on Bob's side corresponds to: b.
 
-* "Notification Shared Secret" corresponds to: f.
+- "Notification Shared Secret" corresponds to: f.
 
-* "Masked Payment Code" corresponds to Alice's masked payment code, i.e., with the encrypted payload: x' and c'.
+- "Masked Payment Code" corresponds to Alice's masked payment code, i.e., with the encrypted payload: x' and c'.
 
-* "Notification Transaction" is the transaction that contains the OP_RETURN.
+- "Notification Transaction" is the transaction that contains the OP_RETURN.
 
 Let me summarize the steps we have just seen together to receive and interpret a notification transaction:
 
-* Bob monitors transaction outputs to his notification address.
+- Bob monitors transaction outputs to his notification address.
 
-* When he detects one, he retrieves the information contained in the OP_RETURN.
+- When he detects one, he retrieves the information contained in the OP_RETURN.
 
-* Bob selects the input public key and calculates a secret point using ECDH.
+- Bob selects the input public key and calculates a secret point using ECDH.
 
-* He uses this secret point to calculate an HMAC, which is the blinding factor.
+- He uses this secret point to calculate an HMAC, which is the blinding factor.
 
-* He uses this blinding factor to decrypt Alice's payment code payload contained in the OP_RETURN.
+- He uses this blinding factor to decrypt Alice's payment code payload contained in the OP_RETURN.
 
 ### The BIP47 payment transaction.
 
 Let's now study the payment process with BIP47. To remind you of the current state of the situation:
 
-* Alice is aware of Bob's payment code, which she simply retrieved from his website.
+- Alice is aware of Bob's payment code, which she simply retrieved from his website.
 
-* Bob is aware of Alice's payment code thanks to the notification transaction.
+- Bob is aware of Alice's payment code thanks to the notification transaction.
 
-* Alice will make an initial payment to Bob. She can make many more in the same way.
+- Alice will make an initial payment to Bob. She can make many more in the same way.
 
 Before explaining this process to you, I think it is important to remind you of which indexes we are currently working on:
 
@@ -688,37 +691,37 @@ We describe the derivation path of a payment code as follows: m/47'/0'/0'/.
 
 The next depth distributes the indexes as follows:
 
-* The first normal (non-hardened) child pair is used to generate the notification address we discussed in the previous section: m/47'/0'/0'/0/.
+- The first normal (non-hardened) child pair is used to generate the notification address we discussed in the previous section: m/47'/0'/0'/0/.
 
-* Normal child key pairs are used within ECDH to generate BIP47 payment receiving addresses, as we will see in this section: m/47'/0'/0'/ from 0 to 2,147,483,647/.
+- Normal child key pairs are used within ECDH to generate BIP47 payment receiving addresses, as we will see in this section: m/47'/0'/0'/ from 0 to 2,147,483,647/.
 
-* Hardened child key pairs are ephemeral payment codes: m/47'/0'/0'/ from 0' to 2,147,483,647'/.
-Every time Alice wants to send a payment to Bob, she derives a new unique blank address, once again thanks to the ECDH protocol:
-* Alice selects the first private key derived from her personal reusable payment code:
+- Hardened child key pairs are ephemeral payment codes: m/47'/0'/0'/ from 0' to 2,147,483,647'/.
+  Every time Alice wants to send a payment to Bob, she derives a new unique blank address, once again thanks to the ECDH protocol:
+- Alice selects the first private key derived from her personal reusable payment code:
 
 > a
 
-* Alice selects the first unused public key derived from Bob's payment code. This public key, we will call it "B". It is associated with the private key "b" that only Bob knows.
+- Alice selects the first unused public key derived from Bob's payment code. This public key, we will call it "B". It is associated with the private key "b" that only Bob knows.
 
 > B = b·G
 
-* Alice calculates a secret point "S" on the elliptic curve by adding and doubling points, applying her private key "a" to Bob's public key "B":
+- Alice calculates a secret point "S" on the elliptic curve by adding and doubling points, applying her private key "a" to Bob's public key "B":
 
 > S = a·B
 
-* From this secret point, Alice will calculate the shared secret "s" (lowercase). To do this, she selects the x-coordinate of the secret point "S" called "Sx", and she passes this value into the SHA256 hash function.
+- From this secret point, Alice will calculate the shared secret "s" (lowercase). To do this, she selects the x-coordinate of the secret point "S" called "Sx", and she passes this value into the SHA256 hash function.
 
 > s = SHA256(Sx)
 
 Don't trust. Verify! If you want to understand the basic principles of a hash function, you will find what you need in this article. And if you don't trust the NIST (you're right), and you want to be able to understand in detail how SHA256 works, I explain everything in this article in French.
 
-* Alice uses this shared secret "s" to calculate a Bitcoin payment receiving address. First, she checks that "s" is within the order of the secp256k1 curve. If not, she increments the index of Bob's public key to derive another shared secret.
+- Alice uses this shared secret "s" to calculate a Bitcoin payment receiving address. First, she checks that "s" is within the order of the secp256k1 curve. If not, she increments the index of Bob's public key to derive another shared secret.
 
-* Secondly, she calculates a public key "K0" by adding the points "B" and "s·G" on the elliptic curve. In other words, Alice adds the public key derived from Bob's payment code "B" with another point calculated on the elliptic curve by adding and doubling points with the shared secret "s" from the generator point of the secp256k1 curve "G". This new point represents a public key, and we call it "K0":
+- Secondly, she calculates a public key "K0" by adding the points "B" and "s·G" on the elliptic curve. In other words, Alice adds the public key derived from Bob's payment code "B" with another point calculated on the elliptic curve by adding and doubling points with the shared secret "s" from the generator point of the secp256k1 curve "G". This new point represents a public key, and we call it "K0":
 
 > K0 = B + s·G
 
-* With this public key "K0", Alice can derive a blank receiving address in a standard way (for example, SegWit V0 in Bech32).
+- With this public key "K0", Alice can derive a blank receiving address in a standard way (for example, SegWit V0 in Bech32).
 
 Once Alice has this receiving address "K0" belonging to Bob, she can construct a standard Bitcoin transaction by selecting a UTXO that belongs to her on another branch of her HD wallet, and spending it to Bob's "K0" address.
 
@@ -726,20 +729,21 @@ Once Alice has this receiving address "K0" belonging to Bob, she can construct a
 
 Credit: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 If we match this diagram with what I described to you earlier:
-* "Child Priv-Key" on Alice's side corresponds to: a.
-* "Child Pub-Key 0" on Bob's side corresponds to: B.
-* "Payment Secret 0" corresponds to: s.
-* "Payment Pub-Key 0" corresponds to: K0.
+
+- "Child Priv-Key" on Alice's side corresponds to: a.
+- "Child Pub-Key 0" on Bob's side corresponds to: B.
+- "Payment Secret 0" corresponds to: s.
+- "Payment Pub-Key 0" corresponds to: K0.
 
 Let me summarize the steps we just went through together to send a BIP47 payment:
 
-* Alice selects the first derived child private key from her personal payment code.
-* She calculates a secret point on the elliptic curve using ECDH from the first unused derived child public key from Bob's payment code.
-* She uses this secret point to calculate a shared secret with SHA256.
-* She uses this shared secret to calculate a new secret point on the elliptic curve.
-* She adds this new secret point to Bob's public key.
-* She obtains a new ephemeral public key for which only Bob has the associated private key.
-* Alice can send a regular transaction to Bob with the derived ephemeral receiving address.
+- Alice selects the first derived child private key from her personal payment code.
+- She calculates a secret point on the elliptic curve using ECDH from the first unused derived child public key from Bob's payment code.
+- She uses this secret point to calculate a shared secret with SHA256.
+- She uses this shared secret to calculate a new secret point on the elliptic curve.
+- She adds this new secret point to Bob's public key.
+- She obtains a new ephemeral public key for which only Bob has the associated private key.
+- Alice can send a regular transaction to Bob with the derived ephemeral receiving address.
 
 If she wants to make a second payment, she will repeat the above steps, except she will select the second derived public key from Bob's payment code. That is, the next unused key. She will then have a second receiving address belonging to Bob, "K1".
 
@@ -755,7 +759,7 @@ https://blockstream.info/testnet/tx/94b2e59510f2e1fa78411634c98a77bbb638e28fb2da
 
 TXID:
 
->94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
+> 94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
 
 It looks like a regular transaction with a spent input, a payment output of 210,000 sats, and change.
 
@@ -764,38 +768,38 @@ It looks like a regular transaction with a spent input, a payment output of 210,
 Credit: https://blockstream.info/
 
 ### Receiving the BIP47 payment and deriving the private key.
+
 Alice has just made her first payment to a blank BIP47 address owned by Bob. Now let's see how Bob receives this payment. We will also see why Alice does not have access to the private key of the address she just generated, and how Bob retrieves this key to spend the bitcoins he has just received.
 
 As soon as Bob receives the notification transaction from Alice, he derives the BIP47 public key "K0" even before she sends any payment to it. He therefore observes any payment to the associated address. In fact, he immediately derives several addresses that he will observe (K0, K1, K2, K3...). Here's how he derives this public key "K0":
 
-* Bob selects the first child private key derived from his payment code. This private key is named "b". It is associated with the public key "B" that Alice used in the previous step:
+- Bob selects the first child private key derived from his payment code. This private key is named "b". It is associated with the public key "B" that Alice used in the previous step:
 
 > b
 
-* Bob selects Alice's first derived public key from her payment code. This key is named "A". It is associated with the private key "a" that Alice used in her calculations, and of which only Alice is aware. Bob can perform this process because he knows Alice's payment code that was transmitted to him with the notification transaction.
+- Bob selects Alice's first derived public key from her payment code. This key is named "A". It is associated with the private key "a" that Alice used in her calculations, and of which only Alice is aware. Bob can perform this process because he knows Alice's payment code that was transmitted to him with the notification transaction.
 
 > A = a·G
 
-* Bob calculates the secret point "S" by adding and doubling points on the elliptic curve, applying his private key "b" to Alice's public key "A". Here we use ECDH, which guarantees that this point "S" will be the same for both Bob and Alice.
+- Bob calculates the secret point "S" by adding and doubling points on the elliptic curve, applying his private key "b" to Alice's public key "A". Here we use ECDH, which guarantees that this point "S" will be the same for both Bob and Alice.
 
 > S = b·A
 
-* Just like Alice did, Bob isolates the x-coordinate of this point "S". We have named this value "Sx". He passes this value through the SHA256 function to find the shared secret "s" (lowercase).
+- Just like Alice did, Bob isolates the x-coordinate of this point "S". We have named this value "Sx". He passes this value through the SHA256 function to find the shared secret "s" (lowercase).
 
 > s = SHA256(Sx)
 
-* In the same way as Alice, Bob calculates the point "s·G" on the elliptic curve. Then, he adds this secret point to his public key "B". He then obtains a new point on the elliptic curve that he interprets as a public key "K0":
+- In the same way as Alice, Bob calculates the point "s·G" on the elliptic curve. Then, he adds this secret point to his public key "B". He then obtains a new point on the elliptic curve that he interprets as a public key "K0":
 
 > K0 = B + s·G
 
 Once Bob has this public key "K0", he can derive the associated private key in order to spend his bitcoins. He is the only one who can generate this number.
 
-* Bob adds his derived child private key "b" from his personal payment code. He is the only one who can obtain the value of "b". Then, he adds "b" to the shared secret "s" to obtain k0, the private key of K0:
+- Bob adds his derived child private key "b" from his personal payment code. He is the only one who can obtain the value of "b". Then, he adds "b" to the shared secret "s" to obtain k0, the private key of K0:
 
 > k0 = b + s
-Thanks to the group law of the elliptic curve, Bob obtains exactly the private key corresponding to the public key used by Alice. So we have:
+> Thanks to the group law of the elliptic curve, Bob obtains exactly the private key corresponding to the public key used by Alice. So we have:
 > K0 = k0·G
-
 
 ![Bob generates his BIP47 receiving addresses](assets/24.png)
 
@@ -803,33 +807,31 @@ Credit: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ra
 
 If we match this diagram with what I described to you earlier:
 
-* "Child Priv-Key 0" on Bob's side corresponds to: b.
+- "Child Priv-Key 0" on Bob's side corresponds to: b.
 
-* "Child Pub-Key 0" on Alice's side corresponds to: A.
+- "Child Pub-Key 0" on Alice's side corresponds to: A.
 
-* "Payment Secret 0" corresponds to: s.
+- "Payment Secret 0" corresponds to: s.
 
-* "Payment Pub-Key 0" corresponds to: K0.
+- "Payment Pub-Key 0" corresponds to: K0.
 
-* "Payment Priv-Key 0" corresponds to: k0.
-
+- "Payment Priv-Key 0" corresponds to: k0.
 
 Let me summarize the steps we have just seen together to receive a BIP47 payment and calculate the corresponding private key:
 
-* Bob selects the first derived child private key from his personal payment code.
+- Bob selects the first derived child private key from his personal payment code.
 
-* He calculates a secret point on the elliptic curve using ECDH from the first derived child public key from Alice's chain code.
+- He calculates a secret point on the elliptic curve using ECDH from the first derived child public key from Alice's chain code.
 
-* He uses this secret point to calculate a shared secret with SHA256.
+- He uses this secret point to calculate a shared secret with SHA256.
 
-* He uses this shared secret to calculate a new secret point on the elliptic curve.
+- He uses this shared secret to calculate a new secret point on the elliptic curve.
 
-* He adds this new secret point to his personal public key.
+- He adds this new secret point to his personal public key.
 
-* He obtains a new ephemeral public key, to which Alice will send her first payment.
+- He obtains a new ephemeral public key, to which Alice will send her first payment.
 
-* Bob calculates the private key associated with this ephemeral public key by adding his derived child private key from his payment code and the shared secret.
-
+- Bob calculates the private key associated with this ephemeral public key by adding his derived child private key from his payment code and the shared secret.
 
 Since Alice cannot obtain "b," Bob's private key, she is unable to determine k0, the private key associated with Bob's BIP47 receiving address.
 
@@ -841,14 +843,12 @@ Once the shared secret is found with ECDH, Alice and Bob calculate the BIP47 pay
 
 ![Derivation of the BIP47 receiving address from the shared secret](assets/26.png)
 
-
 ### Refunding the BIP47 payment.
 
 Since Bob is aware of Alice's reusable payment code, he already has all the necessary information to send her a refund. He will not need to contact Alice to ask for any information. He will simply notify her with a notification transaction, especially so that she can recover her BIP47 addresses with her seed, and then he can also send her up to 2^32 payments.
 Bob can then reimburse Alice in the same way she sent him payments. The roles are reversed:
 
 ![Bob sends a refund to Alice with BIP47](assets/27.png)
-
 
 Credit: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 
@@ -869,6 +869,7 @@ If you want to learn more about collaborative transactions, and more broadly abo
 In addition to these collaborative transactions, it has recently been observed that the Samourai team is working on an authentication protocol linked to PayNym: Auth47. This tool is already implemented and allows, for example, authentication with a PayNym on a website that accepts this method. In the future, I think that beyond this possibility of authentication on the web, Auth47 will be part of a larger project around the BIP47/PayNym/Samourai ecosystem. Perhaps this protocol will be used to further optimize the user experience of the Samourai Wallet, especially in the use of spending tools. It remains to be seen...
 
 ## My personal opinion on BIP47.
+
 Obviously, the main disadvantage of BIP47 is the notification transaction. It leads the user to have to spend fees for its mining, which can be annoying for some. However, the argument of "spam" on the Bitcoin blockchain is absolutely unacceptable. Anyone who pays the fees for their transaction must be able to record it on the ledger, regardless of its purpose. To claim otherwise is to advocate for censorship.
 
 It is possible that in the future, other less expensive solutions will be found to communicate the sender's payment code to the recipient, and for the recipient to securely store it. But for now, the notification transaction remains the solution with the fewest compromises.
@@ -890,11 +891,11 @@ He thought about how he had been persecuted and insulted everywhere, and now he 
 
 ## To go further:
 
-* Understanding and using CoinJoin on Bitcoin.
+- Understanding and using CoinJoin on Bitcoin.
 
-* Understanding the derivation paths of a Bitcoin wallet.
+- Understanding the derivation paths of a Bitcoin wallet.
 
-* Installing and using your RoninDojo Bitcoin node.
+- Installing and using your RoninDojo Bitcoin node.
 
 ### External resources and acknowledgments:
 
@@ -902,11 +903,11 @@ Thanks to LaurentMT and Théo Pantamis for the numerous concepts they explained 
 
 Thanks to Fanis Michalakis for proofreading this text and his expert advice.
 
-* https://bitcoiner.guide/paynym/
-* https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
-* https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman
-* https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman_bas%C3%A9_sur_les_courbes_elliptiques
-* https://security.stackexchange.com/questions/46802/what-is-the-difference-between-dhe-and-ecdh#:~:text=The%20difference%20between%20DHE%20and%20ECDH%20in%20two%20bullet%20points,a%20type%20of%20algebraic%20curve).
-* https://commandlinefanatic.com/cgi-bin/showarticle.cgi?article=art060
-* https://ee.stanford.edu/~hellman/publications/24.pdf
-* https://www.researchgate.net/publication/317339928_A_study_on_diffie-hellman_key_exchange_protocols
+- https://bitcoiner.guide/paynym/
+- https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
+- https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman
+- https://fr.wikipedia.org/wiki/%C3%89change_de_cl%C3%A9s_Diffie-Hellman_bas%C3%A9_sur_les_courbes_elliptiques
+- https://security.stackexchange.com/questions/46802/what-is-the-difference-between-dhe-and-ecdh#:~:text=The%20difference%20between%20DHE%20and%20ECDH%20in%20two%20bullet%20points,a%20type%20of%20algebraic%20curve).
+- https://commandlinefanatic.com/cgi-bin/showarticle.cgi?article=art060
+- https://ee.stanford.edu/~hellman/publications/24.pdf
+- https://www.researchgate.net/publication/317339928_A_study_on_diffie-hellman_key_exchange_protocols

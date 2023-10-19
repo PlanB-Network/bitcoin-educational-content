@@ -1,0 +1,9 @@
+question: What is the first time that Bitcoin was used to purchase physical goods?
+answer: When Laszlo Hanyecz bought 2 pizzas for 10,000 BTC
+wrong_answers:
+  - When Hal Finney bought a car for 1 BTC
+  - When Satoshi Nakamoto bought a house for 100 BTC
+  - None of the above
+explanation: >-
+  The first time that Bitcoin was used to purchase physical goods was when
+  Laszlo Hanyecz bought 2 pizzas for 10,000 BTC.

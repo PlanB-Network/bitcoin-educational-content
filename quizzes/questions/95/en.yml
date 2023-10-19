@@ -1,0 +1,11 @@
+question: What is the risk of using a level 4 wallet?
+answer: Each part of the multisig should be stored in different locations
+wrong_answers:
+  - Each part of the multisig should be stored in the same location
+  - Each part of the multisig should be stored in a digital location
+  - Each part of the multisig should be stored in a physical location
+explanation: >-
+  When you use a level 4 wallet, each part of the multisig should be stored
+  in different locations. This is because the multisig requires multiple signatures
+  to perform a transaction, and storing each part in a different location adds an
+  extra layer of security.

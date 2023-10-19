@@ -4,8 +4,6 @@ name: BitBox02
 description: Configurazione e utilizzo di un BitBox02
 ---
 
-# Bitbox02
-
 ![cover](assets/cover.jpeg)
 
 Il BitBox02 (https://bitbox.swiss/) è un portafoglio fisico svizzero appositamente progettato per proteggere i tuoi Bitcoin. Alcune delle sue caratteristiche principali includono un facile backup e ripristino tramite una scheda microSD, un design minimalista e discreto e un supporto completo per Bitcoin.

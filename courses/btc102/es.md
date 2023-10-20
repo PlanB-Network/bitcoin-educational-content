@@ -19,7 +19,9 @@ Para ayudarte a comenzar esta aventura, he creado este curso gratuito. Solo Bitc
 
 +++
 
-# Introducción al curso BTC 102
+# Introducción y requisitos para entender Bitcoin
+
+## Introducción al curso BTC 102
 
 ¡Bienvenido a BTC 102! ¡Un curso práctico que te guiará en la creación de tu plan Bitcoin! A través de este curso, nos prepararemos para obtener tus primeros bitcoins, asegurarlos correctamente y garantizar una buena entrada en esta nueva industria.
 
@@ -38,8 +40,6 @@ En esta formación, nos enfocaremos en 4 aspectos:
 ¡Como puede ver, el objetivo de esta formación es acompañarlo para que respete las mejores prácticas de nuestra industria desde el principio, de manera simple y rápida!
 
 ¡Buena suerte! :)
-
-# Requisitos previos para comprender Bitcoin
 
 ## Estafas y fraudes financieros
 

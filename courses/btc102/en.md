@@ -19,7 +19,9 @@ To help you start this adventure, I have created this free course. Only Bitcoin,
 
 +++
 
-# Introduction to BTC 102 training
+# Introduction and prerequisites for understanding Bitcoin
+
+## Introduction to BTC 102 training
 
 Welcome to BTC 102! A practical course that will guide you in setting up your Bitcoin plan! Through this course, we will prepare to get your first bitcoins, secure them properly, and ensure a good entry into this new industry.
 
@@ -38,8 +40,6 @@ In this course, we will focus on 4 angles:
 As you can see, this course is really designed to accompany you so that you respect the best practices of our industry from the beginning, in a simple and fast way!
 
 Good luck :)
-
-# Prerequisites for understanding Bitcoin
 
 ## Financial scams and frauds
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoin is a type of stock or bond.
 explanation: |
   As stated in the whitepaper, Bitcoin is a peer-to-peer computer protocol that deploy a monetary system without the need of trusting third-parties.
- reviewed: true
+reviewed: true

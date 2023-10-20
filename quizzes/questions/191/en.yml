@@ -1,5 +1,5 @@
 question: What is the AMF?
-answer: Autorité des Marchés Financiers
+answer: "Autorit\xE9 des March\xE9s Financiers"
 wrong_answers:
   - American Monetary Fund
   - Association of Mining Facilities
@@ -8,3 +8,4 @@ explanation: >-
   "The AMF, or Autorit\xE9 des March\xE9s Financiers, is a French
   organization\
   \ that regulates platforms where bitcoins can be bought."
+reviewed: false

@@ -1,9 +1,10 @@
-question: What is the impact of 100% inflation per day over 3 days?
-answer: A realistic scenario that has happened and continues to happen in our world.
+question: In which case an equivalent daily rate of inflation of 100% inflation was observed?
+answer: In Zimbabwe, 2007
 wrong_answers:
-  - An unrealistic scenario that has never happened.
-  - A realistic scenario that has happened but no longer happens.
-  - An unrealistic scenario that continues to happen in our world.
-explanation: >-
-  100% inflation per day over 3 days is a realistic scenario that has happened
-  and continues to happen in our world.
+  - In Hugary, 1945
+  - In China, 1940
+  - This is unrealistic case that can't happen
+explanation: |
+  100% inflation per day is a realistic scenario that has happened in Zimbabwe in 2007, as the
+  money value doubled roughly each 24h. 
+reviewed: true

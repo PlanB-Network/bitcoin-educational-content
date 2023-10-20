@@ -1,6 +1,5 @@
 question: What is the Byzantine Generals' Problem and how does Bitcoin solve it?
-answer:
-  It's a problem of coordinating information in a system where the various actors
+answer: It's a problem of coordinating information in a system where the various actors
   cannot be trusted. Bitcoin solves it through the use of a blockchain based on Proof
   of Work with a floating difficulty.
 wrong_answers:
@@ -17,3 +16,4 @@ explanation: >-
   or malicious. Bitcoin solves this problem through the use of a blockchain based
   on Proof of Work, which ensures that all nodes agree on the state of the transaction
   history.
+reviewed: false

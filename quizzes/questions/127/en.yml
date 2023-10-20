@@ -1,10 +1,12 @@
 question: What is a Bitcoin transaction?
-answer: A transfer of ownership of Bitcoins, using a Bitcoin address.
+answer: A transfer of ownership of Bitcoins, using cryptography.
 wrong_answers:
-  - A physical exchange of Bitcoins.
+  - A physical exchange of Bitcoins, using notary.
   - A transfer of ownership of Bitcoins, using a physical address.
   - A transfer of ownership of Bitcoins, using an email address.
-explanation: >-
+explanation: |
   A Bitcoin transaction is a digital transfer of ownership of Bitcoins,
-  using a Bitcoin address. This address is unique to the Bitcoin wallet of the person
+  using a Bitcoin address derived thanks to Elliptic Curve cryptography. 
+  This address is unique to the Bitcoin wallet of the person
   receiving the Bitcoins.
+reviewed: true

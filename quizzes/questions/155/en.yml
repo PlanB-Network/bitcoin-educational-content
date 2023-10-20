@@ -1,6 +1,5 @@
 question: What is the role of ASICs in Bitcoin mining?
-answer:
-  ASICs are machines designed solely for applying the SHA256 algorithm in the
+answer: ASICs are machines designed solely for applying the SHA256 algorithm in the
   mining process.
 wrong_answers:
   - ASICs are used to verify Bitcoin transactions.
@@ -11,3 +10,4 @@ explanation: >-
   designed specifically for Bitcoin mining. They are optimized to perform the SHA256
   hashing function, which is the mathematical problem that miners must solve in the
   Proof of Work.
+reviewed: false

@@ -1,0 +1,12 @@
+question: How could the Lightning Network potentially change payment models?
+answer: Users could be charged per minute, or even per second, for the time they spend
+  using a service
+wrong_answers:
+  - Users could be charged a flat fee for using a service
+  - Users could be charged based on the amount of data they use
+  - Users could be charged based on the number of transactions they make
+explanation: >-
+  With the Lightning Network, instead of paying a monthly subscription
+  for a service, users could be charged per minute, or even per second, for the time
+  they spend using the service.
+reviewed: false

@@ -4,7 +4,8 @@ wrong_answers:
   - 25 million units
   - 30 million units
   - 50 million units
-explanation: >-
+explanation: |
   Bitcoin's computer code and consensus of all users participating in the
   protocol determine that the maximum quantity of Bitcoin units that can ever exist
   is 21 million.
+reviewed: true

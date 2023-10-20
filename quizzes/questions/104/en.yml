@@ -4,7 +4,8 @@ wrong_answers:
   - To avoid taxes on your bitcoins
   - To increase the value of your bitcoins
   - To prevent your bitcoins from being stolen
-explanation: >-
+explanation: |
   An inheritance plan ensures that your bitcoins will be properly managed
   after your death. It can include a handwritten letter detailing your assets, their
   access methods, and the contact information of trusted individuals to be contacted.
+reviewed: true

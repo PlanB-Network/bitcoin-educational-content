@@ -1,5 +1,4 @@
-question:
-  How does the Bitcoin network ensure that it is too costly to act maliciously
+question: How does the Bitcoin network ensure that it is too costly to act maliciously
   within the Bitcoin protocol?
 answer: Through protocol rules and economic incentives.
 wrong_answers:
@@ -10,3 +9,4 @@ explanation: >-
   The Bitcoin network ensures that it is too costly to act maliciously
   within the Bitcoin protocol through protocol rules and economic incentives. This
   eliminates the need for trust at any step of the bitcoin ownership transfer.
+reviewed: false

@@ -4,7 +4,8 @@ wrong_answers:
   - Store them in a digital wallet
   - Keep them on an exchange platform
   - Share your mnemonic phrase with a trusted friend
-explanation: >-
+explanation: |
   Engraving your mnemonic phrase on a resistant material like steel creates
   a physical backup of your keys that is resistant to both water damage and fire,
   thus securing your bitcoins in the long term.
+reviewed: true

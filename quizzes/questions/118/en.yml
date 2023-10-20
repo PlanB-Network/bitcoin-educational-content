@@ -3,7 +3,8 @@ answer: In 2010
 wrong_answers:
   - In 2008
   - In 2009
-  - In 2011
-explanation: >-
+  - In 2023
+explanation: |
   Satoshi Nakamoto disappeared in 2010, leaving his creation in the hands
   of the community.
+reviewed: true

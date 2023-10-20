@@ -8,3 +8,4 @@ explanation: >-
   In the context of mining a block in the Bitcoin network, a valid "hash"
   is a unique fingerprint associated with the block, composed of 256 characters. The
   validity of this hash depends on the difficulty of the Bitcoin network.
+reviewed: false

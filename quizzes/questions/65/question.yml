@@ -5,6 +5,5 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Node
-  - Command
+  - Bitcoin Protocol
+  - Bitcoin Node

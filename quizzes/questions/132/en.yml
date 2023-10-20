@@ -8,3 +8,4 @@ explanation: >-
   A Bitcoin node in the Bitcoin network handles the validation of new blocks
   and included transactions. It is through this network of Bitcoin nodes that the
   network is truly decentralized.
+reviewed: false

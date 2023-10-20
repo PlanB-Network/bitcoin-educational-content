@@ -7,3 +7,4 @@ wrong_answers:
 explanation: >-
   A pruned node in the context of Bitcoin is a node that only keeps the
   last N blocks in memory.
+reviewed: false

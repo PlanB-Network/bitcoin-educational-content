@@ -1,9 +1,12 @@
-question: What is a multisig wallet in the context of Bitcoin?
-answer: A wallet that requires multiple signatures to perform transactions
+question: Why buying non-KYC bitcoins?
+answer: To ensure your privacy
 wrong_answers:
-  - A wallet that allows you to store multiple types of cryptocurrencies
-  - A wallet that is used to mine bitcoins
-  - A wallet that is used to buy bitcoins
+  - To ensure the registration of all Bitcoin users
+  - To buy at a low price 
+  - To sell at a low price
 explanation: >-
-  A multisig wallet in the context of Bitcoin is a wallet that is more
-  complex to manage and requires multiple signatures to perform transactions.
+  Buying non-KYC bitcoins means acquiring bitcoins without going through the standard 
+  Know Your Customer verification procedures that many exchanges and platforms require. 
+  One primary reason individuals might choose this route is to maintain their privacy, 
+  ensuring that their personal details and financial activities remain undisclosed.
+reviewed: true

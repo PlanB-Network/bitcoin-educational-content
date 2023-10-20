@@ -1,5 +1,4 @@
-question:
-  What is one of the reasons the use of Bitcoin expanded to dark web marketplaces
+question: What is one of the reasons the use of Bitcoin expanded to dark web marketplaces
   like Silk Road?
 answer: Its uncontrollable and pseudonymous nature.
 wrong_answers:
@@ -9,3 +8,4 @@ wrong_answers:
 explanation: >-
   The use of Bitcoin expanded to dark web marketplaces like Silk Road due
   to its uncontrollable and pseudonymous nature.
+reviewed: false

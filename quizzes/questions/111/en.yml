@@ -1,9 +1,10 @@
-question: What is the "Blockmit" in the context of Bitcoin security?
-answer: A low-cost solution to engrave your mnemonic phrase on a resistant material
+question: What is a Blockmit in the context of Bitcoin security?
+answer: A low-cost solution to engrave your mnemonic phrase on a steel
 wrong_answers:
-  - A type of Bitcoin wallet
-  - A method to mine bitcoins
-  - A tool to secure your bitcoins
-explanation: >-
-  The "Blockmit" is a low-cost solution to engrave your mnemonic phrase
+  - A type of Bitcoin wallet to sign multiple transactions at once
+  - A low-cost solution to mine bitcoins at home
+  - A type of Bitcoin wallet that requires multiple signatures to spend the bitcoins
+explanation: |
+  The Blockmit is a low-cost solution to engrave your mnemonic phrase
   on a resistant material like steel, thus securing your bitcoins in the long term.
+reviewed: true

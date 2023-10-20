@@ -36,7 +36,7 @@ Es ist auch eine gute Idee, Ihre Installationsdatei zu überprüfen, um sicherzu
 
 Wenn Sie Bisq aus dem Quellcode erstellen möchten, finden Sie hier Anweisungen. Bisq ist freie Open-Source-Software, zu der Sie beitragen können. (https://bisq.wiki/Contributor_checklist)
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 2. Schlüssel sichern, Seed notieren
 
@@ -49,7 +49,7 @@ Wir haben auch eine kurze Tour durch die Bisq-Benutzeroberfläche vorbereitet, d
 
 Weitere Details finden Sie im Wiki: Notieren Sie Ihre Seed-Wörter und sichern Sie Ihr Datenverzeichnis. (https://bisq.wiki/Backing_up_application_data)
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 3. Zahlungskonto erstellen
 
@@ -84,34 +84,34 @@ Schritt-für-Schritt-Anleitung von Bitcoiner.guide, auch bekannt als bitcoinQ&A 
 
 3. Jetzt, da Ihre Zahlungsmethode eingerichtet ist, können Sie zum Tab "BTC kaufen" gehen und die Verkäufer sehen, die Bitcoin im Austausch gegen Ihre gewählte Zahlungsmethode anbieten. Hier sehen Sie den BTC-Preis, den prozentualen Unterschied zum "Spot"-Preis und die Menge an Bitcoin, die von jedem Verkäufer zum Verkauf angeboten wird. Sobald Sie ein Angebot gefunden haben, das Ihnen gefällt, klicken Sie auf "Angebot annehmen, um BTC zu kaufen".
 
-![Bild](assets/3.png)
+![Bild](assets/3.jpeg)
 
 4. Dadurch gelangen Sie zu einem Bildschirm, auf dem Sie die Details überprüfen und bestätigen können, bevor Sie den Handel eingeben. Wenn Sie zufrieden sind, klicken Sie auf "nächster Schritt".
 
-![Bild](assets/4.png)
+![Bild](assets/4.jpeg)
 
 5. Sie müssen nun Ihre Handels-Wallet mit einer kleinen Menge an Bitcoin finanzieren, die als Sicherheitsleistung dient. Dies entspricht in der Regel etwa 15% der Handelsgröße. Der Verkäufer muss ebenfalls eine Einzahlung auf seiner Seite hinterlegen.
 
-![Bild](assets/5.png)
+![Bild](assets/5.jpeg)
 
 6. Sie können das Angebot jetzt bestätigen und den Handel starten.
 
-![Bild](assets/6.png)
+![Bild](assets/6.jpeg)
 
 7. Sie müssen nun eine sehr kurze Wartezeit in Kauf nehmen, während das Bitcoin-Netzwerk die Transaktion des Handels bestätigt, bei der die Sicherheitsleistungen beider Parteien in die Treuhand-Multisig überführt werden.
 
-![Bild](assets/7.png)
+![Bild](assets/7.jpeg)
 
 8. Nach einer Bestätigung auf der Blockchain sehen Sie dann ein Fenster mit den Details des Verkäufers, an den Sie die Zahlung senden müssen.
 
-![Bild](assets/8.png) 9. Sobald Sie die Zahlung gesendet haben, drücken Sie die Schaltfläche, um zu bestätigen, dass Sie dies getan haben, und warten Sie dann darauf, dass der Verkäufer bestätigt, dass er Ihre Gelder erhalten hat. Zu diesem Zeitpunkt können Sie auch über Ende-zu-Ende-verschlüsselte Nachrichten mit Ihrem Handelspartner chatten, indem Sie auf "Trader-Chat öffnen" drücken.
+![Bild](assets/8.jpeg) 9. Sobald Sie die Zahlung gesendet haben, drücken Sie die Schaltfläche, um zu bestätigen, dass Sie dies getan haben, und warten Sie dann darauf, dass der Verkäufer bestätigt, dass er Ihre Gelder erhalten hat. Zu diesem Zeitpunkt können Sie auch über Ende-zu-Ende-verschlüsselte Nachrichten mit Ihrem Handelspartner chatten, indem Sie auf "Trader-Chat öffnen" drücken.
 Sobald der Verkäufer den Erhalt der Gelder bestätigt hat, werden die gekauften Bitcoins zusammen mit Ihrer Sicherheitsleistung in Ihre Bisq-Brieftasche freigegeben.
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 10. Das ist es, Ihr erster Handel ist jetzt abgeschlossen! Sie können jetzt entweder Ihre Bitcoins auf eine externe Brieftasche abheben oder in Ihrem Bisq-Konto belassen.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 ## Die Kompromisse beim Kauf von nicht-KYC (von Bitcoin Q&A)
 

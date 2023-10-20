@@ -36,7 +36,7 @@ Voici quelques liens à propos de cette nouvelle application de nœud/portefeuil
 > Téléchargement de l’application Testflight pour iOS
 > Feed Twitter avec des démos
 
-![image principal](assets/2.JPEG)
+![image principal](assets/2.jpeg)
 
 # Principales fonctionnalités disponibles
 

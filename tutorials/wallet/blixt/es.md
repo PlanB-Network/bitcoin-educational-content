@@ -37,7 +37,7 @@ Aquí hay algunos enlaces sobre esta nueva aplicación nodo/monedero:
 
 > Twitter feed con demos
 
-![imagen principal](assets/2.JPEG)
+![imagen principal](assets/2.jpeg)
 
 # Principales características disponibles
 

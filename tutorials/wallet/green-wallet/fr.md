@@ -21,7 +21,7 @@ Si tu souhaites faire un tour sur leur site, c’est juste ici (https://blockstr
 
 > Ce guide a été produit et appartient a Bitstack. Bitstack est une néo banque bitcoin basé sur paris qui permet de DCA sur bitcoin. Guide écrit par Loic Morel le 15/02/2023. Ceci leur appartient. https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet
 
-![image](assets/0.png)
+![image](assets/0.jpeg)
 
 Comment installer son premier portefeuille Bitcoin ? Tutoriel Green Wallet
 
@@ -45,7 +45,7 @@ Au lancement de l’application, vous arrivez sur l’écran d’accueil. Pour l
 
 La première action à mener, avant de créer votre portefeuille, est d’ouvrir les paramètres de l’application pour choisir ceux qui vous conviennent le mieux.
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 - « Enhanced Privacy » vous permet de désactiver la possibilité de faire des captures d’écran sur l’application. Cette option va également cacher les aperçus et sécuriser automatiquement l’application lorsque vous verrouillez votre téléphone. Elle n’est disponible que sur Android ;
 
@@ -69,7 +69,7 @@ La prochaine étape consiste à créer votre portefeuille Bitcoin. Pour ce faire
 > - Nouveau portefeuille ;
 > - Bitcoin.
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 L’option « Restaurez un portefeuille » vous permet de récupérer l’accès à un portefeuille déjà existant grâce à sa phrase mnémonique. L’option « Watch-Only Wallet » vous permet d’importer une clé publique étendue (xpub) afin de voir les mouvements d’un portefeuille, sans pour autant pouvoir dépenser ses fonds.
 
@@ -85,7 +85,7 @@ Vous pouvez ensuite choisir de disposer d’une phrase mnémonique de 12 mots ou
 
 Une phrase de 24 mots est plus sécurisée qu’une phrase de 12 mots face aux attaques par brute force. Néanmoins, à date, une phrase de 12 mots reste suffisamment sécurisée. Concrètement, si vous choisissez une phrase de 12 mots, vous serez juste au-dessus de la limite minimale conseillée par le NIST. Cela veut dire que votre phrase est sécurisée aujourd’hui, mais qu’elle ne le sera peut-être plus dans les années à venir à cause de l’évolution de l’informatique (sauf si vous utilisez en plus une passphrase BIP39). Par défaut, je vous conseille plutôt de choisir une phrase de 24 mots, mais c’est à vous de faire votre propre choix.
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Le logiciel va ensuite vous fournir votre phrase de récupération. Vous devez la sauvegarder convenablement en la notant sur un support physique adapté. Il est fortement déconseillé de conserver cette phrase sur un quelconque support numérique, même chiffré. Il faut la noter sur du papier ou sur du métal en fonction de la valeur stockée.
 
@@ -95,11 +95,11 @@ Les mots de cette phrase doivent absolument être notés ensemble. Ne divisez pa
 
 Pour en savoir plus sur les méthodes de sécurisation de la phrase de récupération, je vous conseille vivement de lire mon article dédié à ce sujet.
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Green Wallet vous demande ensuite de confirmer certains mots de votre phrase afin de s’assurer que vous les avez bien notés.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Vous pouvez ensuite choisir un nom pour votre portefeuille afin de le différencier des autres si par la suite vous en créez plusieurs. À cette étape, le nom a peu d’importance puisque nous allons supprimer ce portefeuille afin de vérifier la validité de la phrase mnémonique à l’étape suivante.
 
@@ -111,11 +111,11 @@ Vous pourrez par la suite ajouter une option de blocage par biométrie afin d’
 
 Vous devez entrer le PIN choisi une seconde fois sur l’application Green afin de le confirmer.
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 Félicitations ! Vous avez terminé la création de votre portefeuille Bitcoin.
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Si vous souhaitez ajouter une passphrase BIP39 sur ce portefeuille Bitcoin, vous devez cliquer sur les trois points en haut à droite de l’écran lorsque vous entrez votre PIN pour déverrouiller le wallet. Attention, je vous déconseille fortement d’utiliser une passphrase si vous ne comprenez pas les mécanismes de dérivation en jeu. Vous pourriez perdre l’accès à vos bitcoins.
 
@@ -131,23 +131,23 @@ Pour accéder à cette information, cliquez sur le bouton « Recevoir ». Le por
 
 Par exemple, sur mon portefeuille, les 8 caractères à noter seraient : JTbP4482.
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Une fois que vous avez noté cette information, vous pouvez supprimer votre portefeuille. Depuis l’écran d’accueil du wallet, cliquez sur l’icône des paramètres, puis sur « Déconnexion ».
 
 > "Je précise une nouvelle fois que cette opération doit se faire avec un portefeuille encore vide, avant d’y avoir envoyé des bitcoins. Sinon, vous risquez de les perdre."
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Vous êtes alors envoyé sur l’écran de déverrouillage de votre wallet. Cliquez sur les trois petits points en haut à droite de l’écran, puis sur « Supprimer le portefeuille », et confirmez.
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 Vous êtes dorénavant sur l’écran d’accueil de l’application Green Wallet, et il n’y a plus aucun portefeuille disponible. Vous êtes donc actuellement dans la même situation que si vous aviez perdu ou cassé votre téléphone, et que vous essayiez de récupérer votre portefeuille à partir de la phrase mnémonique uniquement.
 
 Il faut maintenant cliquer sur « Ajouter un portefeuille », puis sur « Restaurez un portefeuille », et enfin sur « Bitcoin ».
 
-![image](assets/23.png)
+![image](assets/23.jpeg)
 
 Le logiciel nous demande ensuite si l’on souhaite récupérer à partir d’un QR code, ou à partir d’une phrase mnémonique. Dans notre cas, c’est une phrase.
 
@@ -157,25 +157,25 @@ Une fois tous les mots entrés, si le logiciel vous indique qu’il y a une erre
 
 Sinon, vous pouvez cliquer sur « Continuez ».
 
-![image](assets/26.png)
+![image](assets/26.jpeg)
 
 Le logiciel vous indiquera « Portefeuille non trouvé ». C’est absolument normal puisque, pour le moment, nous n’y avons pas encore envoyé de bitcoins. Ainsi, il ne peut détecter aucune transaction sur la blockchain liée à ce wallet.
 
 Cliquez en bas de l’écran sur « Manual Restore », puis sur « Signature unique ».
 
-![image](assets/28.png)
+![image](assets/28.jpeg)
 
 Enfin, on vous redemande de nommer ce portefeuille et de lui attribuer un PIN. Vous pouvez lui donner le même nom et le même PIN que le portefeuille initial.
 
 Pour rappel, ce PIN n’a pour fonctionnalité que de permettre le déverrouillage du portefeuille sur cette application et sur ce téléphone spécifiquement. Contrairement à la phrase de récupération, il ne permet pas de régénérer votre portefeuille sur un autre logiciel ou matériel.
 
-![image](assets/30.png)
+![image](assets/30.jpeg)
 
 Une fois le PIN validé, vous arrivez de nouveau sur la page d’accueil de votre portefeuille. Il est temps de vérifier si votre phrase de récupération est bien fonctionnelle en allant observer la première adresse dérivée. Pour ce faire, une nouvelle fois, cliquez sur « Recevoir » pour accéder à la première adresse.
 
 Si les 8 derniers caractères sont exactement les mêmes que ceux que vous avez notés comme témoins sur votre papier avant de supprimer le portefeuille, alors votre phrase est bien valide. Dans mon cas, on peut voir que la checksum de ma première adresse est bien égale à la valeur notée précédemment : JTbP4482.
 
-![image](assets/32.png)
+![image](assets/32.jpeg)
 
 Je sais que cette pratique de vérification est fastidieuse, mais elle est absolument essentielle afin d’assurer la bonne sécurisation de votre portefeuille Bitcoin. Je vous conseille fortement de prendre cette habitude lorsque vous créez un wallet, que ce soit sur un logiciel ou sur un matériel.
 
@@ -193,13 +193,13 @@ Pour bien débuter, je vous conseille de personnaliser les paramètres de votre 
 
 - L’option « Connexion avec la biométrie » vous permet de déverrouiller votre portefeuille avec votre empreinte digitale plutôt qu’avec le PIN. Généralement, je vous déconseille d’activer cette option. La biométrie est bien moins sécurisée que le code PIN.
 
-![image](assets/34.png)
+![image](assets/34.jpeg)
 
 Par défaut, Green Wallet vous attribue un compte BIP49 « Nested SegWit » avec des adresses P2SH (Pay to Script Hash). Quelques années auparavant, l’utilisation de ce type de compte était pertinente puisque tout le monde ne prenait pas encore en charge les adresses natives SegWit. Aujourd’hui, la grande majorité des services en rapport avec Bitcoin prennent en charge SegWit, il n’y a donc plus aucune raison d’utiliser un compte « Nested SegWit ».
 
 Nous allons alors créer un nouveau compte BIP84 « Native SegWit » afin de bénéficier de tous ses avantages, et également pour avoir des adresses P2WPKH (Pay to Witness Public Key Hash). Pour ce faire, cliquez sur votre compte « Legacy SegWit Account », puis sur « Ajouter un nouveau compte », et enfin sur « Compte SegWit ». Vous pouvez ensuite donner un nom à ce compte si vous le souhaitez.
 
-![image](assets/36.png)
+![image](assets/36.jpeg)
 
 Par la suite, si vous avez besoin de créer de nouveaux comptes sur ce portefeuille, je vous conseille de choisir par défaut des comptes SegWit V0 BIP84, ou SegWit V1 BIP86 (lorsqu’ils seront disponibles).
 
@@ -207,7 +207,7 @@ Sur la page d’accueil de votre portefeuille, vous pouvez voir vos différents 
 
 Ensuite, le fonctionnement de l’application Green Wallet est très simple. Pour recevoir des bitcoins sur votre portefeuille, cliquez sur le bouton « Recevoir ». Le wallet vous affiche une adresse de réception. Une adresse permet de recevoir des bitcoins sur votre portefeuille. Vous pouvez soit la copier en format texte afin de l’envoyer à votre payeur, soit flasher le QR code avec un autre portefeuille Bitcoin afin de payer l’adresse.
 
-![image](assets/38.png)
+![image](assets/38.jpeg)
 
 Ce type d’adresse n’indique pas au payeur le montant qu’il doit vous envoyer. Vous pouvez également créer une adresse qui demandera automatiquement un montant choisi au payeur. Pour ce faire, cliquez sur « Plus d’options » et entrez le montant voulu.
 
@@ -219,11 +219,11 @@ Une adresse de réception ne doit pas être utilisée plusieurs fois. C’est un
 
 Sur les captures d’écrans ci-dessous, vous pouvez voir que j’ai envoyé 0,02 btc vers mon adresse. La transaction apparait sur Green, d’abord en « non confirmée » en attendant qu’elle soit incluse dans la blockchain par un mineur. Une fois que la transaction a reçu plusieurs confirmations, vous avez bien reçu vos bitcoins sur votre propre portefeuille.
 
-![image](assets/40.png)
+![image](assets/40.jpeg)
 
 Si vous souhaitez envoyer des bitcoins, vous devez récupérer l’adresse de réception vers laquelle vous désirez envoyer les fonds et cliquer sur le bouton « Envoyer ». Sur la page suivante, vous devez entrer l’adresse de destination. Vous pouvez soit l’entrer manuellement, soit flasher un QR code en cliquant sur l’icône correspondante. Choisissez ensuite le montant de la transaction. Vous pouvez soit noter un montant en bitcoins, soit un montant en dollars américains en cliquant sur la double flèche blanche.
 
-![image](assets/43.png)
+![image](assets/43.jpeg)
 
 Au centre de l’écran, vous pouvez choisir le taux de frais alloués à cette transaction. Il est possible, au choix, de suivre les recommandations de l’application, ou bien de personnaliser vos frais. Au plus vous mettez des frais élevés par rapport aux autres transactions en attente de confirmation, au plus votre transaction sera incluse rapidement, et inversement.
 
@@ -231,7 +231,7 @@ Cliquez ensuite sur « Suivant ». Vous arrivez alors sur un écran vous donnant
 
 Pour signer la transaction et la diffuser au réseau Bitcoin, faites glisser le bouton vert en bas de l’écran vers la droite.
 
-![image](assets/46.png)
+![image](assets/46.jpeg)
 
 Votre transaction apparaît dorénavant sur le tableau de bord de votre portefeuille Bitcoin.
 

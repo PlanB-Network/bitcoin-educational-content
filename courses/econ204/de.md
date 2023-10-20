@@ -79,7 +79,7 @@ Inflation ist ein oft missverstandenes Konzept aufgrund der vielfältigen Defini
 
 - Definition des Larousse: Inflation ist ein Phänomen, das durch eine allgemeine und kontinuierliche Erhöhung des Preisniveaus gekennzeichnet ist. Hier ist das Wort "allgemein" entscheidend.
 
-![Bild](assets/chapitre-2.1/4.png)
+![Bild](assets/chapitre-2.1/4.jpeg)
 
 Im Lichte dieser Definitionen ist es wichtig zu verstehen, dass Inflation nach Robert hauptsächlich die Zunahme der Geldmenge betrifft. Das Larousse hingegen konzentriert sich auf die Auswirkungen dieser Expansion, nämlich die allgemeine Preiserhöhung.
 
@@ -99,7 +99,7 @@ Wenn vom monetären Phänomen die Rede ist, bezieht man sich auf die Art und Wei
 2. Reduzierung des Metallgehalts:
    Eine andere Methode bestand darin, die Menge an Edelmetall in Währungen zu reduzieren, die auf Metallen wie Silber oder Gold basieren. Ein markantes Beispiel findet sich im Römischen Reich, wo der Denar, der ursprünglich fast ausschließlich aus Silber bestand, im Laufe der Zeit drastisch an Silbergehalt verlor. Dies entsprach einer Form von Inflation, aber nicht unbedingt einer Hyperinflation.
 
-![image](assets/chapitre-2.1/1.PNG)
+![image](assets/chapitre-2.1/1.jpeg)
 
 Es ist wichtig zu betonen, dass Hyperinflation hauptsächlich bei Fiat-Währungen beobachtet werden kann, die von ihren zugrunde liegenden Vermögenswerten wie Edelmetallen entkoppelt sind. Historisch gesehen gab es bei Währungen, die auf solchen Vermögenswerten basierten, Episoden von Inflation (z.B. durch Abwertung des Metallgehalts), aber diese Episoden erreichten nie die extremen Niveaus der Hyperinflation. In den folgenden Abschnitten werden wir uns eingehend mit den Epochen der Währungsbewertung und den Auswirkungen dieser verschiedenen Währungssysteme auf die Inflation befassen.
 
@@ -109,7 +109,7 @@ Im Laufe der Geschichte haben verschiedene Zivilisationen Phasen der Währungsab
 
 #### 1. Peloponnesischer Krieg und Zweiter Punischer Krieg:
 Der Peloponnesische Krieg, ein Konflikt zwischen Athen und Sparta, und der Zweite Punische Krieg, bei dem die Römische Republik gegen Karthago kämpfte, sind die ersten Beispiele für Währungsabwertungen, die in den Archiven zu finden sind. Um diese Kriege zu finanzieren, entwerteten diese Zivilisationen ihre Währungen durch den Einsatz von Edelmetallen. Sie nahmen Münzen, die hauptsächlich aus Silber bestanden, und fügten ihnen andere Metalle hinzu, um den Silbergehalt zu verringern, während sie die Anzahl der produzierten Münzen erhöhten.
-![image](assets/chapitre-2.1/8.PNG)
+![image](assets/chapitre-2.1/8.jpeg)
 
 Gravur, die das Massaker der Athener an den Ufern des Assinaros darstellt.
 
@@ -119,7 +119,7 @@ Nach der Zeit der Römischen Republik gab es während des Kaiserreichs im 3. und
 
 Obwohl diese Zeiträume eine signifikante Inflation erlebten, erreichten sie nicht das Niveau der Hyperinflation, wie wir sie in einigen modernen Situationen beobachten können. Der Grund dafür ist, dass die Währung trotz der Abwertung immer noch auf Edelmetallen basierte. Diese solide Basis bot einen gewissen Schutz vor extremen Inflationsniveaus. In den folgenden Abschnitten werden wir die Natur und die Auswirkungen der Hyperinflation genauer untersuchen.
 
-![image](assets/chapitre-2.1/2.PNG)
+![image](assets/chapitre-2.1/2.jpeg)
 
 - Der Denar von Mark Aurel (160 nach Christus):
   Eine der ikonischsten Münzen des antiken Rom ist der Denar, eine Silbermünze. Ich besitze eine spezifische Münze von Mark Aurel aus dem Jahr 160 nach Christus, vor der großen Abwertung. Obwohl die Kamera möglicherweise Schwierigkeiten hat, die feinen Details einzufangen, kann man mit bloßem Auge erkennen, dass es sich um eine schöne Silbermünze handelt, die einen relativ hohen Silbergehalt widerspiegelt.
@@ -141,7 +141,7 @@ Diese Strategie ermöglichte es dem Staat, eine Währung effektiv abzuwerten, In
 
 Der Fall des Maravédis verdeutlicht, wie ein Staat eine lokale Währung selektiv abwerten kann, um seinen internen wirtschaftlichen Bedürfnissen gerecht zu werden, während der Wert einer Reservewährung auf der globalen Bühne erhalten bleibt. Dies ist ein anschauliches Beispiel für die Komplexität und Feinheit der Geldpolitik in der Geschichte.
 
-![image](assets/chapitre-2.1/7.PNG)
+![image](assets/chapitre-2.1/7.jpeg)
 
 Mehr dazu -> https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing
 
@@ -186,17 +186,17 @@ Früher, während der Renaissance, war der von Florenz im 13. Jahrhundert ausgeg
 
 In ähnlicher Weise bewahrten Spanien und die Niederlande als Inhaber der weltweiten Reservewährung aufgrund ihres blühenden internationalen Handels die Integrität ihrer Währung, um das Vertrauen und den Status quo im internationalen Handel zu erhalten. Die Niederlande waren sogar der Ort, an dem die erste Zentralbank gegründet wurde, ein entscheidender Meilenstein in der globalen Währungsentwicklung.
 
-![image](assets/chapitre-2.1/15.PNG)
+![image](assets/chapitre-2.1/15.jpeg)
 
 Jedoch hat sich die Situation mit dem Aufstieg der USA als dominierende Wirtschaftsmacht verändert. Sie entschieden sich, ihre Reservewährung abzuwerten und damit die Inflation zu ihrem Vorteil zu nutzen. Diese Entscheidung wird oft auf die veränderte Dynamik zurückgeführt, bei der die Wahl der Reservewährung nicht mehr so frei war wie zuvor. Die amerikanische Hegemonie etablierte den Dollar als weltweite Reservewährung und ermöglichte somit eine Manipulation seines Wertes. Diese Kursänderung zeigt das potenzielle Ausmaß der Geldpolitik auf den internationalen Handel in einer globalisierten Wirtschaft und markiert einen bedeutenden Übergang in der Verwaltung der weltweiten Reservewährungen.
 
 ### Ein letztes Beispiel für den Weg: das Swiss Dinner
 Der Swiss Dinar zeigt eine weitere faszinierende Facette der Währungsabwertung, diesmal im Kontext des Irak vor den Golfkriegen. Diese Währung, benannt nach der bemerkenswerten Qualität ihrer Banknoten, wurde von der irakischen Zentralbank ausgegeben und genoss einen Ruf der Stabilität in der Nahostregion. Dieses Vertrauen beruhte insbesondere auf der Qualität des Drucks der Banknoten, der in England durchgeführt wurde und eine gewisse Robustheit gegenüber Abwertungen suggerierte.
-![image](assets/chapitre-2.1/16.png)
+![image](assets/chapitre-2.1/16.jpeg)
 
 Die Golfkriege markierten jedoch eine Wende in der Geschichte des Swiss Dinar. Da der Irak nicht mehr auf seinen englischen Lieferanten für den Druck seiner Banknoten zurückgreifen konnte, wandte er sich an China. Dieser Übergang führte zu einem deutlichen Qualitätsunterschied bei den Banknoten, wobei die chinesische Version als minderwertig angesehen wurde. Diese Wahrnehmung war nicht unbegründet; die chinesischen Banknoten waren leichter fälschbar und anfällig für Überdruck durch die Regierung, was ihren Wert bedrohte.
 
-![image](assets/chapitre-2.1/17.png)
+![image](assets/chapitre-2.1/17.jpeg)
 
 Ein charakteristisches Phänomen trat in der irakischen Wirtschaft nach den Golfkriegen auf: das System der doppelten Preise. Händler boten unterschiedliche Preise je nach Art der verwendeten Banknote an, wobei der ursprüngliche Swiss Dinar gegenüber der chinesischen Banknote bevorzugt wurde. Dieses System spiegelte das weiterhin bestehende Vertrauen in Banknoten von besserer Qualität wider, die weniger anfällig für Abwertungen waren, selbst in einem Kontext, in dem der Wert hauptsächlich vom Staat festgelegt wurde. Diese Episode zeigt die Bedeutung der intrinsischen Merkmale einer Währung und wie selbst in einem Fiat-Währungssystem die wahrgenommene Qualität einer Währung ihren relativen Wert und damit das Vertrauen der Wirtschaftsteilnehmer beeinflussen kann.
 
@@ -204,7 +204,7 @@ Ein charakteristisches Phänomen trat in der irakischen Wirtschaft nach den Golf
 
 Die gängige Vorstellung verbindet Währung oft mit staatlicher Schöpfung, wobei ihre Ausgabe und ihr Wert vom Staat reguliert werden. Dieses Konzept hat seine Wurzeln in antiken Zivilisationen wie Rom, wo Münzen standardisiert und vom Reich gestempelt wurden, was den Münzen einen offiziellen Wert verlieh. Eine eingehendere Untersuchung zeigt jedoch, dass der intrinsische Wert der Währung hauptsächlich von ihrem Gehalt an Edelmetallen abgeleitet wurde.
 
-![image](assets/chapitre-2.1/18.PNG)
+![image](assets/chapitre-2.1/18.jpeg)
 Ein konkretes Beispiel wird durch die Untersuchung eines Münzgewichts veranschaulicht, das dem Wert von acht spanischen Reales oder einem spanischen Dollar entspricht. Dieses Gewicht, das mit einer römischen Ziffer markiert ist, um seinen Wert anzuzeigen, wurde von Geldwechslern verwendet, um den Wert von Münzen basierend auf ihrem Gewicht und nicht nur auf ihrer Prägung zu bewerten. Durch das Wiegen der Münzen konnten die Geldwechsler feststellen, ob sie verändert oder beschädigt worden waren, was ihren Wert hätte mindern können. Diese Praxis verdeutlicht, dass obwohl die standardisierte Prägung durch den Staat der Währung einen bestimmten Nennwert verlieh, der eigentliche Wert im Gewicht des enthaltenen Edelmetalls lag.
 
 Diese Analyse zeigt, dass das Vertrauen in die Währung und damit auch ihr Wert auf ihrer greifbaren Substanz beruhte und nicht nur auf der Behauptung des Staates. Sie betont die Dualität zwischen dem vom Staat auferlegten Nennwert und dem vom Edelmetallgehalt diktierten inneren Wert. Somit geht die Währung über ein einfaches staatliches Instrument hinaus, ihr grundlegender Wert ist intrinsisch mit greifbaren und messbaren Elementen verbunden.
@@ -221,7 +221,7 @@ Zusammenfassend ermöglicht diese Studie zur Währungsabwertung ein tieferes Ver
 
 In diesem Abschnitt werden wir die verschiedenen Dimensionen der Inflation untersuchen, ein oft missverstandenes Phänomen. Obwohl Inflation in den Medien und in alltäglichen Diskussionen oft als multifaktorielles Phänomen wahrgenommen wird, ist es wichtig zu betonen, dass es letztendlich ein monetäres Phänomen ist.
 
-![image](assets/chapitre-2.2/0.PNG)
+![image](assets/chapitre-2.2/0.jpeg)
 
 Hier ist eine Aufschlüsselung des Themas in mehrere Schlüsselpunkte:
 
@@ -253,7 +253,7 @@ Diese Diskussion unterstreicht die Bedeutung des Verständnisses der zugrunde li
 
 Inflation, obwohl oft mit der Erhöhung der Geldmenge in Verbindung gebracht, weist nicht immer eine direkte Korrelation zur Geldschöpfung auf, wie dies in der Zeit nach der Finanzkrise von 2008 deutlich wurde. Trotz einer erheblichen Geldschöpfung zur Rettung der Banken gab es in den folgenden zehn Jahren keine hohe Inflation, sondern im Durchschnitt zwischen 0 und 2% pro Jahr. Dies wirft die Frage auf: Warum führte die massive Geldschöpfung nicht zu einer proportionalen Inflation? Die Antwort liegt in verschiedenen Nuancen, die mit der Messung der Inflation und dem Verbraucherpreisindex (VPI) zusammenhängen.
 
-![image](assets/chapitre-2.2/1.PNG)
+![image](assets/chapitre-2.2/1.jpeg)
 Die erste Erklärung liegt in der Art und Weise, wie die Inflation gemessen wird. Der Verbraucherpreisindex, der als Hauptindikator für die Inflation verwendet wird, weist bestimmte Mängel auf. Zum Beispiel berücksichtigt er nicht umfassend die Entwicklung der Immobilienpreise. Obwohl der Verbraucherpreisindex eine Komponente für Mieten enthält, spiegelt er nicht vollständig die erhebliche Wertsteigerung von Häusern wider. Daher können erhebliche Kostensteigerungen für Wohnraum auftreten, ohne dass sie vollständig vom Verbraucherpreisindex erfasst werden, was die tatsächliche Inflation potenziell unterschätzt.
 
 Darüber hinaus beinhaltet die Berechnung des Verbraucherpreisindex bestimmte Methoden, die tatsächliche Preiserhöhungen ausgleichen oder verdecken können. Zum Beispiel können qualitative Verbesserungen von Produkten verwendet werden, um den Index anzupassen. Wenn der Preis eines Produkts steigt, aber auch seine Qualität oder Merkmale verbessert werden, kann der Verbraucherpreisindex davon ausgehen, dass der tatsächliche Wert für den Verbraucher unverändert ist und daher keine Inflation widerspiegeln. Ein anschauliches Beispiel ist, wenn trotz der Geldinjektion die Preise für Rindfleisch und Computer steigen, die Verbesserung der Computerleistung jedoch verwendet wird, um diesen Anstieg auszugleichen. Wenn ein Computer doppelt so teuer ist, aber viermal so leistungsstark, kann der Verbraucherpreisindex dies als Preissenkung interpretieren und damit den Preisanstieg von Rindfleisch verdecken.
@@ -272,7 +272,7 @@ Die Analyse Japans (https://ideas.repec.org/p/ces/ceswps/_9821.html) zeigt auch,
 
 Ein drittes Beispiel dafür, warum Geldschöpfung keine Inflation verursachen würde, ist die Beziehung zwischen Geldschöpfung und Inflation, die durch die Art und Weise, wie das neu geschaffene Geld in die Wirtschaft eingeführt wird, moduliert wird. Wenn dieses Geld auf den Bilanzen der Privatbanken bleibt, ohne an Wirtschaftsteilnehmer verliehen zu werden, wird es die reale Wirtschaft nicht direkt beeinflussen und daher keine Inflation verursachen.
 
-![image](assets/chapitre-2.2/5.PNG)
+![image](assets/chapitre-2.2/5.jpeg)
 
 Geldschöpfung kann als Damoklesschwert über der Wirtschaft betrachtet werden. Das geschaffene Geld kann eine gewisse Zeit lang latent bleiben, ohne sichtbare inflatorische Auswirkungen, solange es nicht über Bankkredite oder andere Mechanismen in die Wirtschaft eingespeist wird. Wenn dieses latente Geld schließlich in Umlauf gebracht wird, können sich die inflatorischen Effekte manifestieren. Dies wurde in den 2020er Jahren beobachtet, als das zuvor geschaffene Geld seinen Weg in die Wirtschaft fand und zu einer Inflation führte.
 Dieses Szenario betont die Bedeutung der Mechanismen der Geldübertragung bei der Bestimmung der inflatorischen Auswirkungen der Geldschöpfung. Die Geldschöpfung durch die Zentralbank ist nur ein Puzzlestück. Das Verhalten der Privatbanken, die über das Volumen der zu gewährenden Kredite entscheiden, und das Verhalten der Kreditnehmer, die darüber entscheiden, wie sie das geliehene Geld ausgeben werden, sind ebenfalls entscheidende Elemente in dieser Dynamik.
@@ -280,7 +280,7 @@ Dieses Szenario betont die Bedeutung der Mechanismen der Geldübertragung bei de
 
 Das Beispiel der Weimarer Republik illustriert einen weiteren entscheidenden Aspekt der Beziehung zwischen Geldschöpfung und Inflation: die Rolle von Erwartungen und dem Verhalten der Wirtschaftsteilnehmer. Als die Zentralbank der Weimarer Republik begann, eine große Menge Geld zu drucken, führte die wirtschaftliche Unsicherheit dazu, dass die Menschen das Geld horteten, anstatt es auszugeben. Diese Reaktion verzögerte vorübergehend die inflatorischen Auswirkungen der Geldschöpfung.
 
-![image](assets/chapitre-2.2/6.PNG)
+![image](assets/chapitre-2.2/6.jpeg)
 
 Als sich die wirtschaftliche Situation jedoch leicht verbesserte, wurde das Vertrauen allmählich wiederhergestellt. Die Menschen holten dann ihre Ersparnisse aus ihren Verstecken und begannen massiv in die Wirtschaft zu investieren. Diese plötzliche Verhaltensänderung, kombiniert mit einer bereits hohen Geldmenge, führte zu einer Explosion der Nachfrage. Mit mehr Geld im Umlauf und einer erhöhten Nachfrage begannen die Preise schnell zu steigen, was zu einer spürbaren Inflation führte.
 
@@ -300,37 +300,37 @@ Dieses Beispiel verdeutlicht die Bedeutung des Timings und des Verhaltens der Wi
 
 Diese Beispiele können in Diskussionen verwendet werden, um zu erklären, warum Inflation nicht immer eine unmittelbare Folge der Geldschöpfung ist und wie wirtschaftliche Kontexte und das Verhalten der Akteure die Inflation beeinflussen.
 
-![image](assets/chapitre-2.2/0.5.PNG)
+![image](assets/chapitre-2.2/0.5.jpeg)
 
 Wie dieser [Thread](https://twitter.com/saifedean/status/1673639779433590786) zeigt: Inflation ist alles, außer die Schuld der Zentralbanken.
 
 - Ökonomen, die die Inflation dem Klimawandel zuschreiben
 
-![image](assets/chapitre-2.2/8.PNG)
+![image](assets/chapitre-2.2/8.jpeg)
 
 - Beispiel Schweden, das Beyoncé für die Inflation in einem bestimmten Monat verantwortlich macht.
 
-![image](assets/chapitre-2.2/0.PNG)
+![image](assets/chapitre-2.2/0.jpeg)
 
 - Zentralbank in Polen, die die Inflation der russischen Aggression in der Ukraine und der Pandemie zuschreibt
 
-![image](assets/chapitre-2.2/7.PNG)
+![image](assets/chapitre-2.2/7.jpeg)
 
 - Brexit wird für die Inflation im Vereinigten Königreich verantwortlich gemacht.
 
-![image](assets/chapitre-2.2/9.PNG)
+![image](assets/chapitre-2.2/9.jpeg)
 
 - Veröffentlichung des Spiels Zelda in Verbindung mit einem inflationären Schock.
 
-![image](assets/chapitre-2.2/12.PNG)
+![image](assets/chapitre-2.2/12.jpeg)
 
 - Taylor Swift angeblich verursacht Inflation.
 
-![image](assets/chapitre-2.2/15.PNG)
+![image](assets/chapitre-2.2/15.jpeg)
 
 Wie können Beyoncé oder Taylor Swift, sagen Sie mir, eine weit verbreitete Preiserhöhung erklären? Sie sehen, dass das keinen Sinn ergibt. Im Grunde genommen:
 
-![image](assets/chapitre-2.2/14.PNG)
+![image](assets/chapitre-2.2/14.jpeg)
 
 ### Erkundung der Arten von Inflation
 
@@ -342,7 +342,7 @@ Es ist wichtig, den Unterschied zwischen den verschiedenen Arten von Inflation z
 
 - Hyperinflation: Hyperinflation ist ein extrem starkes Phänomen, bei dem die Inflationsrate 50% pro Monat übersteigt, was aufgrund der exponentiellen Natur der Inflation einer jährlichen Inflation von über 13.000% entspricht. Diese Inflationsrate destabilisiert die Wirtschaft schwerwiegend, macht die Währung nahezu wertlos und führt zu einem Vertrauensverlust in das Währungssystem.
 
-![image](assets/chapitre-2.2/17.PNG)
+![image](assets/chapitre-2.2/17.jpeg)
 
 Bei der Untersuchung der Arten von Inflation stößt man oft auf Begriffe wie "Demand Pull" und "Cost Push" in Bildungsmaterialien. Diese Konzepte erklären jedoch eher Preiserhöhungen als die Inflation als monetäres Phänomen. Hier ist eine detailliertere Analyse:
 
@@ -357,7 +357,7 @@ Diese traditionellen Erklärungen verbinden Preiserhöhungen oft mit Inflation, 
 
 Bernholz schlägt eine vereinfachte, aber präzise Klassifizierung der Inflation in drei Kategorien vor, um dieses komplexe monetäre Phänomen besser zu verstehen:
 
-![image](assets/chapitre-2.2/16.PNG)
+![image](assets/chapitre-2.2/16.jpeg)
 
 - Moderate Inflation:
   Moderate Inflation tritt auf, wenn das Niveau der Geldmenge über dem Normalwert liegt, aber der Staat keine großen Defizite finanziert durch Geldschöpfung aufweist. Obwohl der Begriff "moderat" unbedeutend erscheinen mag, kann diese Form der Inflation erhebliche Probleme verursachen, auch wenn sie nicht als hohe Inflation eingestuft wird.
@@ -419,17 +419,17 @@ Um dies zu veranschaulichen, wenn die Inflation im Juli auf 40% fällt und bis z
 
 Diese Definition wurde in der Hanke-Krus-Tabelle übernommen, die 56 Hyperinflationsphasen dokumentiert. Die Tabelle deckt jedoch nicht alle Phasen ab, wie die des Venezuela im Jahr 2016, was die Gesamtzahl auf 57 erhöht.
 
-![Bild](assets/chapitre-3.1/1.png)
+![Bild](assets/chapitre-3.1/1.jpeg)
 
 Vergrößern
 
-![Bild](assets/chapitre-3.1/0.PNG)
+![Bild](assets/chapitre-3.1/0.jpeg)
 Es ist zu beachten, dass diese Definition, obwohl präzise, möglicherweise aufgrund der Strenge der 50%-Schwelle bestimmte Episoden von Hyperinflation ausschließt. Es besteht die Möglichkeit, diese Definition zu erweitern, um andere Episoden einzuschließen, die zwar nicht streng dem Kriterium von Cagan entsprechen, aber dennoch Zeiträume mit extrem hoher Inflation darstellen. Diese Beobachtung eröffnet die Tür zu einer umfassenderen Erforschung von Hyperinflationsphänomenen, die ein nuancierteres Verständnis ihrer Ursachen und Auswirkungen ermöglicht. In weiteren Diskussionen werden wir erwägen, diese Definition zu überarbeiten und Episoden von Hyperinflation zu untersuchen, die nicht durch das strenge Kriterium von Cagan abgedeckt sind.
 ### Die Definition von Hyperinflation nach Cagan
 
 Philip Cagan hat möglicherweise mit der Schwelle von 50% monatlicher Inflation einen willkürlichen Meilenstein gesetzt, um Hyperinflation zu definieren. Er gibt selbst zu, dass diese Definition willkürlich ist und hauptsächlich seiner Analyse basierend auf sieben Episoden von Hyperinflation diente. Die Untersuchung von Cagans Daten zeigt, dass die drei Episoden von Hyperinflation mit den niedrigsten monatlichen Inflationsraten bei etwa 47%, 46% und 57% lagen. Es scheint, dass die Schwelle von 50% gewählt wurde, um diese Fälle in seine Studie einzubeziehen.
 
-![image](assets/chapitre-3.1/4.PNG)
+![image](assets/chapitre-3.1/4.jpeg)
 
 - Historischer Kontext:
   Cagans Definition stammt aus dem Jahr 1956 und basiert auf einer begrenzten Anzahl von verfügbaren Hyperinflationsepisoden zu dieser Zeit.
@@ -441,7 +441,7 @@ Philip Cagan hat möglicherweise mit der Schwelle von 50% monatlicher Inflation 
   Andere Ökonomen wie Bernholz, der Autor von "Monetary Regime and Inflation", haben die Schwelle von 50% ebenfalls als willkürlich bezeichnet.
   Bernholz stellt fest, dass es Episoden hoher Inflation gibt, die die gleichen qualitativen Merkmale wie Hyperinflationsepisoden aufweisen, aber die Schwelle von 50% nicht erreichen.
 
-![image](assets/chapitre-3.1/3.PNG)
+![image](assets/chapitre-3.1/3.jpeg)
 
 Diese Überlegungen führen uns dazu, die Starrheit der traditionellen Definition von Hyperinflation in Frage zu stellen und die Notwendigkeit zu betonen, möglicherweise diese Schwelle durch die Integration weiterer Episoden und historischer Daten zu überdenken. Die Definition von Hyperinflation könnte Flexibilität erfordern, um verschiedene Manifestationen extremer Inflation in verschiedenen wirtschaftlichen und historischen Kontexten zu umfassen.
 
@@ -469,7 +469,7 @@ Diese Definition, die von der IASB bereitgestellt wird, weicht von der strengen 
 
 Also, wie viele Hyperinflationen gibt es insgesamt?
 Gängige Definitionen von Hyperinflation, wie die von Kagan vorgeschlagene, die eine monatliche Inflation von 50% vorsieht, können manchmal irreführend oder vereinfachend sein. Zum Beispiel können zwei Länder mit jeweils einer jährlichen Inflationsrate von 1.000% und 3.000% je nach monatlicher Verteilung dieser Inflation unterschiedlich wahrgenommen werden. Wenn kein Monat die Schwelle von 50% überschreitet, würden diese Länder nach Kagan's Definition nicht als hyperinflationär gelten. Diese Herangehensweise kann daher zu Anomalien bei der Klassifizierung von Hyperinflation führen, insbesondere wenn kumulierte Inflationen über das Jahr verglichen werden.
-![image](assets/chapitre-3.1/7.PNG)
+![image](assets/chapitre-3.1/7.jpeg)
 
 - Das Werk von Kagan, "Monetary Dynamics of Hyperinflation", das eine grundlegende Analyse der Hyperinflation darstellt.
 - Das Buch von Bernold, das 30 verschiedene Perioden der Hyperinflation untersucht und somit den Analysebereich erweitert.
@@ -488,11 +488,11 @@ In diesem Kapitel werden wir uns mit den Auswirkungen der Hyperinflation befasse
 
 Mehrere Bücher waren besonders aufschlussreich:
 
-![image](assets/chapitre-3.2/0.png)
+![image](assets/chapitre-3.2/0.jpeg)
 
 - "When Money Dies" von Adam Ferguson, das die Hyperinflation nach dem Ersten Weltkrieg in Deutschland sowie in Österreich und Ungarn nachzeichnet.
 - Zwei Bücher über die Hyperinflation in Simbabwe, "Zimbabwe Warm Heart Ugly Face" und "Hard Boiled Egg Index" von Jérôme Gardner und Kudzai Joseph Gou Min-Yu, bieten bewegende Zeugnisse eines CEO einer Bekleidungsgeschäftskette und eines landwirtschaftlichen Bankiers über ihre Erfahrungen während dieser turbulenten Zeit.
-![image](assets/chapitre-3.2/1.PNG)
+![image](assets/chapitre-3.2/1.jpeg)
 
 Beim Konsolidieren meiner Notizen habe ich eine Vielzahl von Ähnlichkeiten zwischen den Erfahrungen der Hyperinflation in Simbabwe und der Weimarer Republik festgestellt, obwohl 90 Jahre zwischen ihnen liegen. Ich habe etwa 17 Ähnlichkeiten identifiziert, von denen 13 eine Art Fortschritt hin zur wirtschaftlichen Katastrophe darstellen, die in diesen Zeugnissen beschrieben wird. Diese faszinierenden Parallelen zeigen die wiederholende und verheerende Natur der Hyperinflation über Zeiten und Grenzen hinweg. Heute werden wir uns diese Ähnlichkeiten und die Art und Weise, wie sie eine besorgniserregende Entwicklung während Hyperinflationsperioden darstellen, genauer ansehen.
 
@@ -573,7 +573,7 @@ Weimar: "Die Händler waren kürzlich durch eine neue Verordnung gezwungen, die 
 
 Simbabwe: "Die Regierung führte am 12. Dezember 2008 die SI 175/2008 ein, die sich mit der Zahlung per Scheck befasste. Es hieß: 'Die Strafe für die Ablehnung einer Zahlung per Scheck/Kreditkarte oder einer anderen elektronischen Zahlungsmethode, die von einer Bank vermittelt wird, beträgt eine Geldstrafe der Stufe 8 oder eine Freiheitsstrafe von sechs Monaten oder beides.' Natürlich haben wir das SI ignoriert, da es völlig realitätsfern war."
 
-![image](assets/chapitre-3.2/4.png)
+![image](assets/chapitre-3.2/4.jpeg)
 
 11. Gezwungen, ihre Geschäfte offen zu halten
 
@@ -599,7 +599,7 @@ Der frenetische Kauf von ausländischen Währungen hat oft einen kritischen Wend
 
 ### Zusammenfassung des Ablaufs
 
-![image](assets/chapitre-3.2/2.png)
+![image](assets/chapitre-3.2/2.jpeg)
 
 Bei der Analyse des wirtschaftlichen Verlaufs wird deutlich, dass bei hoher Inflation der Wert der Geldmenge abnimmt. Diese Abwertung führt zu mehreren Komplikationen, insbesondere zu Geldknappheit. In diesem Zusammenhang ergeben sich Arbitragemöglichkeiten, insbesondere durch Wechselkursschwankungen. Aus diesem Grund wenden sich viele Menschen dieser Arbitrage zu und investieren massiv in greifbare Vermögenswerte in Erwartung einer zukünftigen Währungsabwertung, die es ihnen ermöglichen würde, ihre Schulden mit einer geschwächten Währung zurückzuzahlen. Diese wirtschaftliche Umgebung beeinträchtigt die Attraktivität traditioneller Arbeitsplätze und erodiert daher den sozialen Zusammenhalt.
 
@@ -607,7 +607,7 @@ Angesichts dieser Situation erlässt der Staat drakonische Vorschriften, einschl
 
 ### 4 Ähnlichkeiten der Auswirkungen von Hyperinflation
 
-![image](assets/chapitre-3.2/6.png)
+![image](assets/chapitre-3.2/6.jpeg)
 
 1. Öl und Metalle
 
@@ -641,13 +641,13 @@ In diesem Kapitel werden wir die Unterschiede und Parallelen zwischen vergangene
 
 In Deutschland war es üblich, dass die Bevölkerung die Inflation auf den Anstieg des Dollars zurückführte, anstatt auf die intrinsische Abwertung ihrer eigenen Währung. Viele waren überzeugt, dass das beobachtete Phänomen auf eine Aufwertung des Dollars zurückzuführen war. Diese Wahrnehmung ließ jede Anerkennung des Zusammenhangs zwischen ihrer wirtschaftlichen Schwierigkeit und der Währungsabwertung, die hauptsächlich durch übermäßige Geldschöpfung verursacht wurde, vermissen. Das Buch "When Money Dies" illustriert diese Unkenntnis deutlich unter der deutschen Bevölkerung. Im Gegensatz dazu war die Situation in Simbabwe anders: Die Bürger waren sich vollständig der zugrunde liegenden Ursache der Hyperinflation bewusst, der sie ausgesetzt waren.
 
-![Bild](assets/chapitre-3.3/3.png)
+![Bild](assets/chapitre-3.3/3.jpeg)
 
 2. Notgeld
 
 Angesichts der Währungs- und Wirtschaftskrise griff Deutschland auf "Notgeld" zurück. Diese von Städten oder bestimmten Unternehmen gedruckten Banknoten wurden entwickelt, um den Mangel an gängigem Geld zu beheben.
 Interessanterweise griff auch Frankreich in den 1920er Jahren auf Notgeld zurück. Diese Initiative war nicht nur eine direkte Folge der Hyperinflation, sondern hatte auch ihre Wurzeln in den Störungen, die der Erste Weltkrieg verursacht hatte. Der Krieg destabilisierte nicht nur die Wirtschaft, sondern erhöhte auch die Kosten für Metalle. Daher überstieg der intrinsische Wert von Metallmünzen oft ihren Nennwert, was die Menschen dazu veranlasste, sie zu horten. In Abwesenheit von Münzen druckten einige Institutionen wie die Handelskammer von Lyon ihr eigenes Notgeld.
-![image](assets/chapitre-3.3/0.PNG)
+![image](assets/chapitre-3.3/0.jpeg)
 
 > "Was getan werden muss, muss getan werden." - ein lokales Sprichwort
 
@@ -655,7 +655,7 @@ Unter den Notgeld fällt ein bestimmter Schein auf. Er zeigt eine eindringliche 
 
 Der Künstler hinter diesem Notgeld scheint eine ironische Kritik an die Autoritäten zu richten, die für die Hyperinflationskrise verantwortlich waren. Der Schein trägt die Inschrift "Necessity knows no law", was "Not kennt kein Gesetz" bedeutet. Ein weiterer Ausdruck, spezifisch für den Ursprungsort des Notgelds, lautet: "Was getan werden muss, muss getan werden".
 
-![image](assets/chapitre-3.3/1.PNG)
+![image](assets/chapitre-3.3/1.jpeg)
 
 > "Not kennt kein Gesetz"
 
@@ -671,7 +671,7 @@ In Weimar wurden einige Schulden neu bewertet, um die Auswirkungen der Inflation
 
 Um mehr über das Management der deutschen Krise zu erfahren, ist dieses Buch ebenfalls von grundlegender Bedeutung.
 
-![image](assets/chapitre-3.3/4.png)
+![image](assets/chapitre-3.3/4.jpeg)
 
 ### Zeitgenössische Parallelen
 1. Manipulation der Geldpolitik zur Kontrolle der Wirtschaft.
@@ -700,7 +700,7 @@ Ein Zombie-Unternehmen ist ein Unternehmen, das unter normalen Marktbedingungen 
 
 Das Konzept des Zombie-Unternehmens ist nicht neu. Tatsächlich gab es dies bereits in der Weimarer Republik. Zu dieser Zeit florierten viele Unternehmen scheinbar und profitierten stark von kostenlosem Kredit. Sie liehen beträchtliche Summen, in der Erwartung, diese später mit einer aufgrund der galoppierenden Inflation abgewerteten Währung zurückzuzahlen. Als die Inflation jedoch aufhörte und die deutsche Mark an Wert gewann, wurden diese Unternehmen, die in operativer und finanzieller Hinsicht nicht wirklich lebensfähig waren, unrentabel und mussten schließen.
 
-![image](assets/chapitre-3.3/5.png)
+![image](assets/chapitre-3.3/5.jpeg)
 
 Das Phänomen der Zombie-Unternehmen beschränkt sich nicht auf die Nachkriegszeit in Deutschland. Heutzutage existieren viele große Unternehmen immer noch dank privilegiertem Zugang zu sehr niedrigen Zinssätzen. Wenn sie zu konventionelleren Zinssätzen leihen müssten, wären viele von ihnen nicht mehr rentabel. Dies ist umso relevanter, da wir uns im Jahr 2023 befinden und nach einer langen Zeit mit nahezu null Zinssätzen diese nun zu steigen begonnen haben. Diese jüngste Entwicklung der Finanzlandschaft wird zweifellos ein entscheidender Test für diese einst als "Zombies" bezeichneten Unternehmen sein.
 
@@ -708,7 +708,7 @@ Das Phänomen der Zombie-Unternehmen beschränkt sich nicht auf die Nachkriegsze
 
 In der Geschichte gibt es Momente, in denen Menschen versuchen, schnell reich zu werden, wie es in Weimar und Simbabwe durch Arbitrage der Fall war. Heutzutage gibt es eine ähnliche Tendenz mit dem Aufkommen bestimmter Kryptowährungen. Die Menschen werden von schnellen Gewinnen verführt und gehen Risiken ein, in der Hoffnung auf eine exponentielle Vermehrung ihrer Investition. Diese Herangehensweise erinnert an die Zeit der Hyperinflation, in der Arbitrage genutzt wurde, um schnelle Gewinne zu erzielen, oft auf Kosten anderer.
 
-![image](assets/chapitre-3.3/6.PNG)
+![image](assets/chapitre-3.3/6.jpeg)
 
 6. Sparen als Heilmittel gegen Unsicherheit
 
@@ -729,7 +729,7 @@ Wir werden uns gemeinsam verschiedene Phasen der Währungsumstellung in lateinam
 
 Auf der Folie links sind die Jahre der Währungsumstellung, der Name der neuen Währung und der Wechselkurs zur alten Währung angegeben. Nehmen wir das Beispiel Argentiniens: Der Peso Moneda Nacional wurde zum Wechselkurs von 25 zu 1 gegenüber der vorherigen Währung, dem Peso Real, umgestellt. In diesem Zusammenhang werden wir die Entwicklung der argentinischen Währung im Laufe der Zeit betrachten. Außerdem werden wir die anfänglichen und endgültigen Bezeichnungen der Banknoten für jeden Zeitraum angeben.
 
-![Bild](assets/chapitre-3.4/1.PNG)
+![Bild](assets/chapitre-3.4/1.jpeg)
 
 Auf der rechten Seite der Folie befindet sich ein Inflationsdiagramm. Die roten Pfeile repräsentieren die Jahre der Hyperinflation, definiert nach dem Kriterium von Kagan als eine Inflation von 50 % pro Monat. Dieses Kriterium kann manchmal zu mehrdeutigen Interpretationen führen, bei denen Jahre mit hohen Inflationsraten, die jedoch nicht der strengen Definition von Hyperinflation entsprechen, enthalten sind.
 Es ist zu beachten, dass die Währungsumstellung während einer Inflationsperiode eine gängige Maßnahme der Regierungen ist. Allerdings löst dies nicht das zugrunde liegende Problem der Inflation oder Hyperinflation. Es handelt sich lediglich um eine Umbenennung der Währung und das Entfernen von Nullen, ohne die eigentliche Ursache der Hyperinflation, nämlich die Ausweitung der Geldmenge, wirklich anzugehen. In einem späteren Video werden wir über wirkliche Lösungen zur Bewältigung und Lösung des Problems der Hyperinflation diskutieren. In dieser Serie werden wir die Auswirkungen einer einfachen Währungsumstellung ohne angemessene Reformen beleuchten: Die Inflation bleibt bestehen.
@@ -737,13 +737,13 @@ Nach Argentinien werden wir uns mit Brasilien, Bolivien, Peru, Nicaragua und Ven
 
 ### Argentinien
 
-![image](assets/chapitre-3.4/1.PNG)
+![image](assets/chapitre-3.4/1.jpeg)
 
 Vor 1826 verwendete Argentinien den spanischen Dollar. Nach der Unabhängigkeit im Jahr 1816 führte es seine eigene Währung auf Basis des spanischen Real ein, was zur Schaffung einer ähnlichen Währung führte. Die Tabelle beginnt im Jahr 1881, als der "peso moneda nacional" eingeführt wurde, mit Banknoten bis zu 10.000. Dieser wurde vom "peso ley" abgelöst, der im Verhältnis 100 zu 1 umgetauscht wurde und Banknoten bis zu einer Million hatte. Dann kam der "argentine peso" mit einem Wechselkurs von 10.000 zu 1 (was der Entfernung von vier Nullen entspricht) und Banknoten bis zu 10.000. Im Jahr 1985 wurde der "australes" eingeführt und im Verhältnis 1000 zu 1 umgetauscht, mit Banknoten bis zu 500.000. Im Jahr 1992 wurde der aktuelle "peso ley" mit einem Wechselkurs von 10.000 zu 1 eingeführt, wodurch erneut vier Nullen entfernt wurden. Nur die Jahre 1989 und 1990 waren von Hyperinflation betroffen.
 
 ### Brasilien
 
-![image](assets/chapitre-3.4/2.PNG)
+![image](assets/chapitre-3.4/2.jpeg)
 
 Brasilien ist ein herausragendes Beispiel für Währungsumstellungen, wie sie in seiner wechselvollen Geschichte häufig vorkommen. Vor der Unabhängigkeit verwendete Brasilien den portugiesischen Real. Bereits ab 1747 begann das Land jedoch, seinen eigenen "brasilianischen Real" zu verwenden, lange vor der Unabhängigkeitserklärung im Jahr 1822. Die Tabelle beginnt im Jahr 1818 und markiert den Beginn der Ausgabe brasilianischer Banknoten. Davor war die Währung hauptsächlich in Form von Münzen vorhanden. Diese Banknoten erreichten Werte von bis zu einer Million Reais.
 Ab 1942 begann Brasilien eine Reihe von Währungsreformen. In den meisten Fällen (1942, 1967, 1986, 1989, 1993) betrug der Umrechnungskurs 1.000 zu 1. Im Jahr 1990 fand eine Namensänderung ohne Umrechnung statt. Die Abfolge dieser Währungen ist wie folgt:
@@ -760,7 +760,7 @@ Die höchste Banknote erreichte 500.000, und die letzte Währungsreform im Jahr 
 
 ### Bolivien
 
-![image](assets/chapitre-3.4/3.PNG)
+![image](assets/chapitre-3.4/3.jpeg)
 
 Bolivien ist ein weiteres Beispiel für ein Land, das Phasen hoher Inflation durchlaufen hat und Währungsreformen erforderlich gemacht hat. Hier ist eine Zusammenfassung seiner Währungsgeschichte:
 
@@ -774,7 +774,7 @@ Dies ist ein Überblick über die turbulente Währungsgeschichte Boliviens, gepr
 
 ### Peru
 
-![image](assets/chapitre-3.4/4.PNG)
+![image](assets/chapitre-3.4/4.jpeg)
 
 Peru bietet einen interessanten Fall in Bezug auf die Auswirkungen der willkürlichen 50 %-Regel. Beginnen wir mit seiner Währungsgeschichte: Peru verwendete bis zum 19. Jahrhundert das spanische Gold und erklärte seine Unabhängigkeit im Jahr 1821. Der peruanische Dollar war von 1822 bis 1863 in Gebrauch. Im Jahr 1863 wurde der peruanische Real durch den Soldi Oro ersetzt, mit einem Wechselkurs von 10 zu 1, der einen Höchstwert von 50.000 erreichte. Im Jahr 1985 wurde die Währung "Inti" mit einem Wechselkurs von 1000 zu 1 eingeführt, der auf 5 Millionen stieg. Im Jahr 1991 wurde der "SOL" mit einem Wechselkurs von 1 Million zu 1 eingeführt, mit Banknoten im Wert von 10 bis 200.
 Bei der Untersuchung der Umtauschperioden wird das Jahr 1988 als ein Jahr der Hyperinflation angesehen, insbesondere im September. Juli-August 1990 war ebenfalls von einer Hyperinflationsperiode geprägt. Im Jahr 1988 betrug die jährliche Inflation 667%, mit einem Höhepunkt von 50% im September. Im Gegensatz dazu betrug die Inflation im Jahr 1989 3000%, ohne dass ein Monat die 50% überschritt, weshalb es nicht als Hyperinflation eingestuft wurde. Im Jahr 1990 erreichte die Inflation 7481%. Es ist klar, dass die 50%-Regel willkürlich sein kann, da 1988 als Jahr der Hyperinflation angesehen wurde, im Gegensatz zu 1989. Wenn diese Regel überdacht würde, wäre es vielleicht sinnvoll, die Schwelle zu senken, um Perioden wie diejenige, die Peru 1989 erlebt hat, einzuschließen.
@@ -784,23 +784,23 @@ Bei der Untersuchung der Umtauschperioden wird das Jahr 1988 als ein Jahr der Hy
 
 ### Nicaragua
 
-![image](assets/chapitre-3.4/5.PNG)
+![image](assets/chapitre-3.4/5.jpeg)
 Der Nicaragua, einst unter spanischer Herrschaft, verwendete ursprünglich den spanischen Dollar, wie viele andere von Spanien kolonisierte Länder. Nachdem es in das spanische Reich, das mexikanische Reich und schließlich die Föderative Republik Zentralamerika integriert worden war, erklärte Nicaragua seine Unabhängigkeit. Ab 1878 wurde der Peso zur offiziellen Währung des Landes, mit Werten zwischen 1 und 100. Im Jahr 1912 führte das Land den ersten Cordoba ein, gefolgt vom zweiten im Jahr 1988 und dem dritten im Jahr 1991, der bis heute in Gebrauch ist. Der erste Cordoba erreichte einen Wert von 1 Million, der zweite 10 Millionen. Die Währungsumstellung im Jahr 1991 folgte mehreren Jahren der Hyperinflation.
 ### Venezuela
 
-![image](assets/chapitre-3.4/6.PNG)
+![image](assets/chapitre-3.4/6.jpeg)
 
 Venezuela ist das letzte Land, das in diesem Video erwähnt wird. Das Land hat im Laufe der Zeit vier Währungsumstellungen erlebt. Zu Beginn verwendete Venezuela den spanischen Dollar, bevor es 1811 seine Unabhängigkeit erklärte. Im Jahr 1879 führte es den Bolivar als offizielle Währung ein, der bis 1983 in Kraft blieb, als die Regierung sich für einen schwankenden Dollar entschied.
 
 Eine bemerkenswerte Tatsache über Venezuela ist seine Mitgliedschaft in der Lateinischen Münzunion. Diese Union umfasste Münzen wie die 5 Peseten aus Spanien, die 5 Drachmen aus Griechenland, die 5 Bolivares aus Venezuela, die 5 Lire aus Italien, die 5 Belgische Franken und die 5 Französischen Franken.
 
-![image](assets/chapitre-3.4/8.PNG)
+![image](assets/chapitre-3.4/8.jpeg)
 
-![image](assets/chapitre-3.4/7.PNG)
+![image](assets/chapitre-3.4/7.jpeg)
 
-![image](assets/chapitre-3.4/9.PNG)
+![image](assets/chapitre-3.4/9.jpeg)
 
-![image](assets/chapitre-3.4/10.PNG)
+![image](assets/chapitre-3.4/10.jpeg)
 
 Während dieser Zeit hatte die 5-Bolivar-Münze aus Venezuela das gleiche Gewicht wie die Münzen der Mitgliedsländer der Union, insbesondere Italien, Spanien, Belgien und Frankreich. Diese Bolivares bestanden aus Silber, wobei eine spezielle Münze von 1929 ein Gewicht von 25 Gramm hatte und eine Reinheit von 900 aufwies, was 90 % reinem Silber entspricht. Bei den aktuellen Silberpreisen hat diese Münze einen Wert von etwa 17 bis 18 US-Dollar.
 
@@ -838,13 +838,13 @@ Ein interessanter Aspekt, den Bernold anspricht, ist, dass der Erfolg einer Wäh
 - In Deutschland wurde die Lösung gefunden, eine neue Währung, die Rentenmark, einzuführen. Diese Währung war durch die territorialen Vermögenswerte des Reiches gedeckt, und diese Strategie erwies sich als wirksam.
 ### Der Fall von Simbabwe
 
-![image](assets/chapitre-3.5/1.PNG)
+![image](assets/chapitre-3.5/1.jpeg)
 
 Simbabwe erlangte 1980 die Unabhängigkeit und führte den simbabwischen Dollar ein. Anfangs entsprachen zwei simbabwische Dollar etwa 1,60 US-Dollar. Im Jahr 1997 jedoch, infolge von sozialen Maßnahmen zugunsten der Kriegsveteranen, wurde die Währung am Schwarzen Freitag um 72% abgewertet. Anfang der 2000er Jahre startete das Land ein Landumverteilungsprogramm, bei dem Land von weißen Eigentümern genommen und an die lokale Bevölkerung übergeben wurde. Diese Entscheidung schadete den Exporten, da die neuen Eigentümer oft nicht über die erforderliche Expertise zur Bewirtschaftung großer landwirtschaftlicher Betriebe verfügten. Tatsächlich wurde Simbabwe, das im Jahr 1999 ein Nettoexporteur war, im Jahr 2003 zum Nettoimporteur.
 
 Im Jahr 2006 führte das Land eine neue Version seiner Währung, den ZWN, mit einem Wechselkurs von 1 zu 1.000 ein. Im Jahr 2008 wurde eine weitere Währung, der ZWR, mit einem Wechselkurs von 1 zu 10 Milliarden eingeführt. Dies führte zur Einführung der ikonischen 100-Billionen-Dollar-Noten.
 
-![image](assets/chapitre-3.5/2.png)
+![image](assets/chapitre-3.5/2.jpeg)
 
 #### Die Dollarisierung & die Lösung der Krise
 
@@ -859,11 +859,11 @@ Es ist besorgniserregend festzustellen, dass Simbabwe versucht hat, seine eigene
 
 In meinem Buch "Alles über Bitcoin" habe ich ein ganzes Kapitel der Hyperinflation in Simbabwe gewidmet. Dort erläutere ich die wichtigsten Ereignisse und gebe verschiedene Beispiele, wie das Land schließlich die Hyperinflation beendet hat.
 
-![image](assets/chapitre-3.5/3.PNG)
+![image](assets/chapitre-3.5/3.jpeg)
 
 Für diejenigen, die an der deutschen Erfahrung nach dem Ersten Weltkrieg interessiert sind, empfehle ich dringend den Comic "Der Reichsbankier". Er erzählt, wie Deutschland es geschafft hat, die Hyperinflation zu überwinden, insbesondere durch die Einführung der Rentenmark.
 
-![image](assets/chapitre-3.5/4.PNG)
+![image](assets/chapitre-3.5/4.jpeg)
 
 In meinem Buch "Alles über Bitcoin" habe ich ein ganzes Kapitel der Hyperinflation in Simbabwe gewidmet. Dort erläutere ich die wichtigsten Ereignisse und gebe verschiedene Beispiele, wie das Land schließlich die Hyperinflation beendet hat. Für diejenigen, die an der deutschen Erfahrung nach dem Ersten Weltkrieg interessiert sind, empfehle ich dringend den Comic "Der Reichsbankier". Er erzählt, wie Deutschland es geschafft hat, die Hyperinflation zu überwinden, insbesondere durch die Einführung der Rentenmark.
 
@@ -883,7 +883,7 @@ Transkript:
 
 Das Aufkommen der zweiten Geldschicht und der ersten Zentralbanken ist ein faszinierendes Thema. Dieses Thema wird ausführlich in dem Buch "Layered Money" von Nick Battia behandelt. Ich empfehle es allen, die sich für die Entwicklung und Feinheiten unserer Geldsysteme interessieren. Das Ziel dieses Abschnitts ist es, den Ursprung der Geldschöpfung zu verstehen und wie dies zur Hyperinflation führen konnte.
 
-![image](assets/chapitre-4.1/1.PNG)
+![image](assets/chapitre-4.1/1.jpeg)
 
 ### Geldpyramide und Zentralbanken
 
@@ -891,9 +891,9 @@ Das Aufkommen der zweiten Geldschicht und der ersten Zentralbanken ist ein faszi
 
 Die Geschichte des Geldes reicht bis ins 13. Jahrhundert nach Italien, genauer gesagt nach Florenz. Zu dieser Zeit waren der Florin und Wechselbriefe üblich. Ein bemerkenswertes Beispiel ist der Florin, verziert mit der Figur des Johannes des Täufers.
 
-![image](assets/chapitre-4.1/2.PNG)
+![image](assets/chapitre-4.1/2.jpeg)
 
-![image](assets/chapitre-4.1/3.PNG)
+![image](assets/chapitre-4.1/3.jpeg)
 
 Obwohl es heute teuer ist, einen echten Florin zu besitzen, gibt es Reproduktionen davon. Es gab auch andere Währungen aus dieser Zeit, wie den Soldo der italienischen Staaten des 17. Jahrhunderts, der ein Bild von Christus zeigt.
 
@@ -909,13 +909,13 @@ Dieses Konzept, obwohl mit Nick Bell und seinem Twitter-Pseudonym "time value of
 
 #### Die VOC und der Aktienmarkt in Amsterdam (17. Jahrhundert)
 
-![image](assets/chapitre-4.1/4.PNG)
+![image](assets/chapitre-4.1/4.jpeg)
 
 Nach der Börse in Antwerpen war ein weiterer Meilenstein die Gründung der VOC, der Ostindien-Kompanie. Dieses Unternehmen mit Sitz in den Niederlanden gab sogar seine eigene Währung heraus. Nach der Gründung der VOC entstand die erste Börse in Amsterdam und wurde zum ersten Aktienmarkt für dieses Unternehmen. Was interessant ist, ist die Art und Weise, wie die Niederländer die Vorherrschaft von Antwerpen als internationales Wirtschaftszentrum beendet haben. Sie haben einfach den Zugang zur Schelde blockiert. Diese Strategie war Teil einer größeren historischen Bewegung, dem Aufstand der Geusen. Ein entscheidendes Ereignis in der europäischen Geschichte.
 
 #### Die Bank von Amsterdam greift ein
 
-![image](assets/chapitre-4.1/5.PNG)
+![image](assets/chapitre-4.1/5.jpeg)
 
 Nach der Gründung der VOC war eine weitere bedeutende Entwicklung in der Geldgeschichte die Einführung der Gulden durch die Bank von Amsterdam. Diese Münzen, die insbesondere aus dem Jahr 1722 stammen, waren aus Silber. Was jedoch die Finanzwelt zu dieser Zeit wirklich revolutionierte, war nicht so sehr die Münze selbst, sondern die mit dieser Währung verbundenen Konten bei der Bank von Amsterdam. Diese Konten wurden zum Hauptmittel des internationalen Handels. Die Transaktionen wurden einfach in Registern oder "Ledgern" aufgezeichnet. Dank dieses Systems wurde Amsterdam zum weltweiten Wirtschaftszentrum. Im Laufe der Zeit beschloss die Bank von Amsterdam, die Verwendung dieser Konten vorzuschreiben. Unabhängige Wechselstuben waren gezwungen, ihre Münzen täglich gegen Einlagen bei der Bank einzutauschen.
 
@@ -925,7 +925,7 @@ Ursprünglich wurde die erste Schicht des Geldes durch Gold repräsentiert. Die 
 
 #### Die Panik von 1796
 
-![image](assets/chapitre-4.1/6.png)
+![image](assets/chapitre-4.1/6.jpeg)
 Bankpanik bei der Seamen's Savings Bank während der Panik von 1857.
 
 Nach der Bankpanik von 1796 trat ein Phänomen auf, bei dem jeder versuchte, die "Geldpyramide" nach oben zu klettern. Die Menschen wollten ihre Gelder der dritten Schicht gegen die der zweiten Schicht und schließlich gegen das Geld der ersten Schicht, das Gold, eintauschen. Angesichts dieses massiven Ansturms war die Bank of England gezwungen, Maßnahmen zu ergreifen, um die Situation zu stabilisieren. Um eine mögliche Deflation der Goldreserven zu vermeiden, beschloss sie, die Umtauschbarkeit ihrer Banknoten in Gold auszusetzen. Diese Aussetzung, die ursprünglich als temporäre Maßnahme geplant war, dauerte zwei Jahrzehnte lang an.

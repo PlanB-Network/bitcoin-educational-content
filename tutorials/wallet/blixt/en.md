@@ -38,7 +38,7 @@ Here are some links about this new node/wallet application:
 >
 > Twitter feed with demos
 
-![main image](assets/2.JPEG)
+![main image](assets/2.jpeg)
 
 # Key features available
 

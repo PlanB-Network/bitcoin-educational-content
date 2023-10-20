@@ -71,6 +71,6 @@ Sobald Sie das erledigt haben, sollten Sie bereit sein, den Tower auszuführen. 
 
 Da wir auf regtest laufen, können wir einen Block abbauen, indem wir einen RPC-Befehl ausführen, ohne auf die 10-minütige Medianzeit warten zu müssen, die wir normalerweise in anderen Netzwerken (wie Mainnet oder Testnet) sehen. Überprüfen Sie die Hilfe von bitcoin-cli und suchen Sie nach Informationen zum Blockabbau. Wenn Sie Hilfe benötigen, können Sie diesen Artikel durchgehen.
 
-![image](assets\2.png)
+![image](assets\2.jpeg)
 
 Das war's, Sie haben den Tower erfolgreich ausgeführt. Herzlichen Glückwunsch. 🎉

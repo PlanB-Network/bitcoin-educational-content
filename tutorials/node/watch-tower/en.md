@@ -72,6 +72,6 @@ Once you've done that, you should be good to go to run the tower. Given we are r
 
 Given we are running on regtest we can mine block by issuing an RPC command, without the need of waiting for the 10-minute median time that we usually see in other networks (like mainnet or testnet). Check bitcoin-cli help and look for how to mine blocks. If you need some help, you can go through this article.
 
-![image](assets\2.png)
+![image](assets\2.jpeg)
 
 That's it, you've successfully run the tower. Congratulations. 🎉

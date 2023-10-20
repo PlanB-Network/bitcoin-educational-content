@@ -64,7 +64,7 @@ Pronto para começar essa aventura cativante? Vamos mergulhar juntos no fascinan
 
 Para explicar de forma simplificada o conceito de mineração, uma analogia relevante pode ser usada: a do quebra-cabeça. Assim como um quebra-cabeça, a mineração é uma tarefa complexa de ser realizada, mas fácil de ser verificada uma vez concluída. No contexto da mineração de Bitcoin, os mineradores se esforçam para resolver rapidamente um quebra-cabeça digital. O primeiro minerador a resolver o quebra-cabeça apresenta sua solução para toda a rede, que pode então verificar facilmente sua validade. Essa verificação bem-sucedida permite que o minerador valide um novo bloco e o adicione à cadeia de blocos do Bitcoin. Em reconhecimento ao seu trabalho, que envolve custos significativos, o minerador é recompensado com uma certa quantidade de bitcoins. Essa recompensa serve como um incentivo financeiro para os mineradores continuarem seu trabalho de validação de transações e segurança da rede Bitcoin.
 
-![imagem](assets/overview/puzzle.png)
+![imagem](assets/overview/puzzle.jpeg)
 
 Inicialmente na rede Bitcoin, a recompensa concedida era de 50 bitcoins a cada dez minutos, em paralelo à descoberta de um bloco a cada dez minutos, em média, pelos mineradores. Essa recompensa é reduzida pela metade a cada 210.000 blocos, aproximadamente a cada quatro anos. Essa remuneração serve como um poderoso incentivo para encorajar os mineradores a participarem do processo de mineração, apesar de seu custo energético. Sem a recompensa, a mineração, que consome muita eletricidade, seria abandonada, comprometendo assim a segurança e a estabilidade de toda a rede Bitcoin.
 A recompensa atual de mineração é dupla. Por um lado, inclui a criação de novos bitcoins, que passou de 50 bitcoins a cada dez minutos no início para 6,25 bitcoins hoje (2023). Por outro lado, inclui as taxas de transação, ou taxas de mineração, das transações que o minerador escolhe incluir em seu bloco. Quando uma transação de bitcoin é feita, são pagas taxas de transação. Essas taxas funcionam como um tipo de leilão, onde os usuários indicam quanto estão dispostos a pagar para que sua transação seja incluída no próximo bloco. Para maximizar sua recompensa, os mineradores, agindo em seu próprio interesse, selecionam as transações mais lucrativas para incluir em seu bloco, levando em consideração o espaço limitado disponível. Assim, a recompensa de mineração é composta tanto pela geração de novos bitcoins quanto pelas taxas de transação, garantindo um incentivo contínuo para os mineradores e garantindo a sustentabilidade e segurança da rede Bitcoin.
@@ -74,7 +74,7 @@ O processo de mineração consiste em encontrar um hash válido aceitável pela 
 
 No início, a era da CPU dominava, onde os mineradores usavam seus computadores pessoais para minerar Bitcoin. A descoberta das vantagens das GPUs (placas de vídeo) para essa tarefa marcou uma virada, aumentando substancialmente a taxa de hash e reduzindo o consumo de energia. O progresso não parou por aí, com a posterior introdução dos FPGA (field-programmable gate array / matriz de portas programáveis em campo). Os FPGA serviram como plataforma para o desenvolvimento dos ASICs (application-specific integrated circuit / circuito integrado específico para aplicação).
 
-![image](assets/overview/chip.png)
+![image](assets/overview/chip.jpeg)
 
 Os ASICs são chips, comparáveis ao chip de uma CPU, no entanto, eles são desenvolvidos para realizar apenas um tipo específico de cálculo da maneira mais eficiente possível. Em outras palavras, uma CPU é capaz de realizar uma variedade de tipos diferentes de cálculos sem ser particularmente otimizada para um tipo de cálculo ou outro, enquanto um ASIC será capaz de realizar apenas um tipo de cálculo, mas de maneira muito eficiente. No caso, os ASICs Bitcoin são projetados para calcular o algoritmo SHA256.
 Hoje em dia, os mineradores utilizam exclusivamente ASICs dedicadas a essa operação, otimizadas para testar o maior número possível de combinações com o menor consumo de energia e o mais rápido possível. Esses computadores, incapazes de executar tarefas além da mineração de Bitcoin, são um testemunho tangível da evolução contínua e da crescente especialização da indústria de mineração de Bitcoin. Essa evolução constante reflete a dinâmica intrínseca do Bitcoin, onde um ajuste na dificuldade garante a produção de um bloco a cada dez minutos, apesar do aumento exponencial na capacidade de mineração.
@@ -85,7 +85,7 @@ Para ilustrar a intensidade desse processo, considere um minerador típico capaz
 
 O ajuste de dificuldade é um mecanismo crucial no funcionamento da rede Bitcoin, garantindo que os blocos sejam minerados em média a cada 10 minutos. Essa duração é uma média, pois o processo de mineração é na verdade um jogo de probabilidades, semelhante a lançar dados na esperança de obter um número menor do que o número definido pela dificuldade. A cada 2016 blocos, a rede ajusta a dificuldade de mineração com base no tempo médio necessário para minerar os blocos anteriores. Se o tempo médio for superior a 10 minutos, a dificuldade é reduzida e, inversamente, se o tempo médio for menor, a dificuldade é aumentada. Esse mecanismo de ajuste garante que o tempo de mineração dos novos blocos permaneça constante ao longo do tempo, independentemente do número de mineradores ou do poder de computação global da rede. É por isso que o Blockchain do Bitcoin também é chamado de Timechain.
 
-![image](assets/overview/chinaban.png)
+![image](assets/overview/chinaban.jpeg)
 
 * Exemplo da China:
 O caso da China ilustra perfeitamente esse mecanismo de ajuste de dificuldade, com sua abundante e barata energia, ela era o principal hub global de mineração de Bitcoin. Em 2021, o país proibiu abruptamente a mineração de Bitcoin em seu território, resultando em uma queda maciça na taxa de hash global da rede Bitcoin, da ordem de 50%. Essa rápida diminuição na potência de mineração poderia ter prejudicado gravemente a rede Bitcoin, aumentando o tempo médio de mineração dos blocos. No entanto, o mecanismo de ajuste de dificuldade entrou em ação, reduzindo a dificuldade de mineração para garantir que a frequência de mineração dos blocos permaneça em média em 10 minutos. Esse caso demonstra a eficiência e a resiliência do mecanismo de ajuste de dificuldade do Bitcoin, que garante a estabilidade e previsibilidade da rede, mesmo diante de mudanças abruptas e significativas no cenário global de mineração.
@@ -96,7 +96,7 @@ Em relação à evolução das máquinas de mineração de Bitcoin, é important
 
 Diante da constante evolução tecnológica no campo da mineração, os profissionais precisam se posicionar estrategicamente. A indústria de mineração está sujeita a inovações contínuas, como evidenciado pelo recente lançamento da versão J do S19 e o próximo lançamento do S19 XP, que oferece capacidades de mineração significativamente superiores. Além disso, as melhorias não estão apenas relacionadas ao desempenho bruto das máquinas. Por exemplo, o novo modelo S19 XP utiliza um sistema de resfriamento líquido, uma modificação técnica que permite uma melhoria significativa na eficiência energética. Embora a inovação continue sendo uma constante, os ganhos futuros de eficiência provavelmente serão menores em comparação com os observados até agora, devido ao alcance de um certo limite de inovação tecnológica.
 
-![image](assets/overview/chipevolution.png)
+![image](assets/overview/chipevolution.jpeg)
 Em conclusão, a indústria de mineração de Bitcoin continua a se adaptar e se desenvolver, e os atores do setor devem antecipar ganhos de eficiência, que serão mais limitados no futuro, e ajustar suas estratégias de acordo. Avanços tecnológicos futuros, embora ainda presentes, provavelmente ocorrerão em uma escala menor, refletindo a maturidade crescente do setor.
 ## A indústria de mineração
 
@@ -106,7 +106,7 @@ Em conclusão, a indústria de mineração de Bitcoin continua a se adaptar e se
 
 Atualmente, a mineração de Bitcoin evoluiu para se tornar uma indústria séria e substancial, com muitos atores agora públicos e um número crescente de mineradores significativos. Essa evolução tornou a mineração quase inacessível para pequenos atores devido ao alto custo associado à aquisição de novas máquinas de mineração. Portanto, surge a questão da distribuição da taxa de hash entre diferentes atores do mercado. A situação é complexa, pois é essencial examinar tanto a distribuição da taxa de hash entre diferentes empresas quanto entre diferentes pools de mineração.
 
-![imagem](assets/overview/pool.png)
+![imagem](assets/overview/pool.jpeg)
 
 Um pool de mineração é um grupo de mineradores que unem seus recursos de computação para aumentar suas chances de mineração. Essa cooperação é necessária porque uma pequena máquina de mineração isolada está competindo com gigantes da indústria, reduzindo suas chances de sucesso a um nível insignificante. A mineração funciona de acordo com um princípio de loteria, e as chances de ganhar um bloco (e, portanto, a recompensa em Bitcoin) a cada dez minutos são extremamente baixas para um pequeno minerador individual. Ao se unirem em pools, os mineradores podem combinar seu poder de computação, encontrar blocos com mais frequência e, em seguida, distribuir as recompensas de forma proporcional à contribuição de cada minerador para o pool.
 
@@ -135,7 +135,7 @@ Na França, por exemplo, o excedente de eletricidade dos painéis solares é inj
 A centralização da mineração é abordada como um desafio significativo. Grandes players, como a Foundry, dominam o mercado, o que pode potencialmente levar à censura de transações. Essa centralização também pode tornar a rede vulnerável a ataques, como o ataque de 51%, em que um ator ou grupo controla mais de 50% do poder de hash da rede, permitindo assim o controle e manipulação da rede.
 Risco de Regulação É destacado que se um país como os Estados Unidos decidir regular ou proibir certas transações de Bitcoin, isso pode ter um impacto significativo na rede, especialmente se uma grande parte do poder de hash estiver centralizada nesse país.
 
-![image](assets/overview/foundry.png)
+![image](assets/overview/foundry.jpeg)
 
 Para combater essa centralização, diferentes estratégias são discutidas:
 * Attakai: Attakai est un concept qui consiste à utiliser la chaleur générée par l'activité de minage pour chauffer les domiciles. Cela permet de réduire les coûts de chauffage tout en contribuant à l'activité de minage. Cette approche est une façon innovante d'utiliser l'énergie produite par le minage de cryptomonnaies de manière plus efficace et durable.
@@ -145,7 +145,7 @@ A iniciativa Attakai surgiu de uma experiência pessoal de mineração em casa, 
 
 Ao expor seu projeto à comunidade Bitcoin e diante do interesse despertado, os inventores do Ataka decidiram publicar guias detalhados na plataforma Découvre Bitcoin, permitindo que qualquer pessoa reproduza sua experiência de mineração em casa. Agora eles estão planejando expandir esse conceito além do âmbito doméstico. O objetivo é demonstrar como um minerador modificado pode ser transformado em um aquecedor silencioso para uso durante o inverno, oferecendo uma transição suave para uma segunda parte de treinamento dedicada à implementação prática dessas modificações, ilustrada por vídeos explicativos. No entanto, a questão permanece se essa iniciativa pode ser estendida em uma escala maior, oferecendo assim uma alternativa realista e sustentável às estruturas de mineração centralizadas atuais.
 
-![image](assets/overview/attakai.png)
+![image](assets/overview/attakai.jpeg)
 
 ### O limite dessa descentralização?
 Embora a ideia de descentralização da mineração através do uso produtivo do calor produzido pareça promissora, ela tem algumas limitações e questões permanecem. Estabelecimentos com alto consumo de energia, como saunas e piscinas, podem se beneficiar desse conceito usando o calor produzido pelos mineradores para aquecer a água de suas instalações. Essa prática já está sendo implementada por alguns membros da comunidade Bitcoin, que estão explorando diferentes métodos para usar eficientemente o calor gerado pelos equipamentos de mineração. Por exemplo, uma sala de festas teoricamente poderia ser aquecida por três ou quatro S19, cada um consumindo 3000 watts e produzindo uma quantidade equivalente de calor.
@@ -166,7 +166,7 @@ Quanto à questão do que deve ser incluído em um bloco Bitcoin, é crucial con
 
 Com o crescimento previsto da Lightning Network e o consequente aumento na abertura e fechamento de canais, o espaço nos blocos do Bitcoin se tornará cada vez mais valioso. A comunidade Bitcoin já tende a valorizar a preservação desse espaço, reconhecendo sua limitação intrínseca. Essa conscientização levou a discussões sobre o uso legítimo ou não do espaço dos blocos, com preocupações sobre "spam" na blockchain por transações consideradas não essenciais.
 
-![image](assets/overview/block.png)
+![image](assets/overview/block.jpeg)
 A especulação cerca do uso futuro do espaço de blocos, mas é geralmente aceito que é um recurso escasso que deve ser usado com sabedoria. Mesmo que haja vontade de preencher esse espaço, é essencial preservá-lo para garantir a viabilidade de longo prazo da rede Bitcoin, antecipando um aumento futuro na demanda por espaço de blocos. Como em qualquer mercado livre, a oferta e a demanda regularão o uso do espaço de blocos. Com oferta limitada, as partes interessadas terão que tomar decisões informadas sobre o uso desse espaço valioso para garantir a eficiência e a segurança de longo prazo da rede Bitcoin.
 
 ## Mineração no protocolo Bitcoin
@@ -191,13 +191,13 @@ No final, a responsabilidade é compartilhada por todos os atores da rede Bitcoi
 
 A elegante teoria dos jogos de Satoshi Nakamoto estabeleceu uma situação em que cada ator da rede Bitcoin é incentivado a agir corretamente para proteger tanto seus próprios interesses quanto os dos outros participantes. Isso cria um equilíbrio onde o comportamento inadequado pode ser punido, fortalecendo assim a segurança e estabilidade de todo o sistema. Apesar desse equilíbrio, os Estados ainda representam uma ameaça potencial. Conforme indicado na apresentação do Surfing Bitcoin 2022, os Estados podem tentar atacar a indústria de mineração, expondo a rede Bitcoin a riscos de centralização e ataque. Cenários hipotéticos, como um ataque militar direcionado às instalações de produção de hardware de mineração, destacam a importância da diversificação geográfica e industrial para a resiliência da rede Bitcoin.
 
-![image](assets/overview/miner.png)
+![image](assets/overview/miner.jpeg)
 
 A centralização da produção de hardware de mineração na China apresenta outro risco. A recusa em exportar máquinas de mineração ou a acumulação de hashrate para um potencial ataque de 51% pela China ressaltam a necessidade de uma produção diversificada de hardware de mineração. Diante desses riscos, a comunidade Bitcoin está ativamente explorando soluções. Empresas como a Intel estão considerando a produção de equipamentos de mineração nos Estados Unidos, contribuindo para a distribuição da produção. Outras iniciativas, como a da Block com seu Mining Development Kit (MDK) de código aberto, visam diminuir o monopólio do design e produção de hardware de mineração, permitindo uma distribuição mais ampla do hashrate. No cerne dessas discussões está a missão fundamental do Bitcoin: ser uma rede de troca de valor resistente à censura. A comunidade Bitcoin está constantemente se esforçando para fortalecer a distribuição, resistência à censura e anti-fragilidade da rede, rejeitando propostas como a transição para o proof of stake, que não estão alinhadas com esses princípios fundamentais.
 
 ### A Ligação física da prova de trabalho vs. a Prova de participação
 O Proof of Work (PoW) é essencial porque representa a ligação física entre o mundo real e o Bitcoin. Embora os bitcoins sejam imateriais, sua produção requer energia tangível, estabelecendo assim uma ligação direta com o mundo físico e real. Essa conexão garante que a produção e validação de bitcoins e blocos tenham um custo energético real, ancorando assim a rede Bitcoin na realidade física e impedindo sua completa dominação por entidades poderosas. O PoW atua como uma barreira contra a centralização, garantindo que a participação na rede e validação de transações exijam um investimento em recursos tangíveis. Isso impede a monopolização da rede por entidades que de outra forma poderiam assumir o controle sem qualquer barreira significativa, garantindo assim uma distribuição mais justa de poder e influência dentro da rede Bitcoin.
-![image](assets/overview/POWPOS.png)
+![image](assets/overview/POWPOS.jpeg)
 
 ### Limitações do Proof of Stake
 
@@ -235,14 +235,14 @@ No entanto, a mineração oferece oportunidades únicas para se envolver no ecos
 
 Apesar dessas opções, a mineração apresenta desafios significativos. O conhecido ditado do mundo das criptomoedas, "Not your keys, not your Bitcoins" (Não são suas chaves, não são seus Bitcoins), encontra uma ressonância semelhante no mundo da mineração: "Not your hashrate, not your reward" (Não é seu hashrate, não é sua recompensa). Histórias de decepções e máquinas desconectadas são comuns, com muitos atores prometendo resultados excepcionais, mas não os entregando. Problemas de fornecimento de energia e falhas nas máquinas podem deixar os investidores impotentes, com equipamentos caros que eles não controlam. Nesse contexto, a prudência e uma compreensão aprofundada do setor de mineração são cruciais antes de se aventurar nele. Embora as oportunidades de lucro existam, os riscos são significativos, e uma abordagem informada e ponderada é essencial para navegar nesse campo complexo e muitas vezes imprevisível. Portanto, é vital realizar pesquisas aprofundadas e ponderar cuidadosamente os prós e os contras antes de se envolver na mineração de Bitcoin.
 
-![image](assets/overview/self.png)
+![image](assets/overview/self.jpeg)
 
 ### Bitcoins Virgens
 A mineração proibida na Europa?
 
 A mineração de criptomoedas é uma atividade legal na maioria dos países europeus. No entanto, existem regulamentações específicas que os mineradores devem cumprir, como a conformidade com as leis de proteção de dados e a obtenção de licenças adequadas. Além disso, alguns países podem ter restrições adicionais ou requisitos específicos para a mineração de criptomoedas. É importante que os mineradores estejam cientes das leis e regulamentos locais antes de iniciar suas operações.
 Com a questão do potencial de proibição da mineração na Europa, as discussões sobre regulamentação estão se tornando cada vez mais relevantes. O cenário regulatório em constante mudança pode, de fato, ter um impacto significativo na indústria de mineração de Bitcoin. A proibição da mineração na Europa é um cenário possível, especialmente considerando os precedentes na China. Embora as operações de mineração continuem na China apesar da proibição, a Europa poderia seguir um caminho semelhante. Uma distribuição mais ampla da taxa de hash em diferentes regiões pode ajudar a fortalecer a comunidade de mineradores na Europa, permitindo que eles se oponham efetivamente a mal-entendidos e ideias falsas sobre mineração, seu impacto ambiental e sua pegada na rede elétrica.
-![image](assets/overview/regulation.jpg)
+![image](assets/overview/regulation.jpeg)
 
 Diante de campanhas como as do Greenpeace e dos números frequentemente enganosos de alguns estudos, a melhor arma ainda é a informação verdadeira. É essencial informar o público em geral e os tomadores de decisão sobre a realidade da mineração, sua complexidade e nuances, em vez de permitir que eles se baseiem em estereótipos e informações imprecisas. Quanto mais pessoas estiverem informadas e conscientes do que a mineração realmente é, melhor a indústria poderá se defender contra possíveis regulamentações restritivas.
 
@@ -416,24 +416,24 @@ Alimente a ponte conectando-a via USB.
 
 A partir do seu computador, conecte-se à rede Wi-Fi VONETS_****** com a senha 12345678.
 
-![imagem](assets/software/vonet1.png)
+![imagem](assets/software/vonet1.jpeg)
 
 
 identificador admin admin
 
-![imagem](assets/software/vonet2.png)
+![imagem](assets/software/vonet2.jpeg)
 
 
 Escolha o Assistente
 
-![imagem](assets/software/vonet3.png)
+![imagem](assets/software/vonet3.jpeg)
 
 
 Selecione a rede Wi-Fi à qual deseja conectar seu minerador e clique em Avançar
 
 ATENÇÃO: a ponte Vonet funciona apenas em 2,4 GHz. Hoje em dia, os roteadores geralmente oferecem duas redes Wi-Fi, uma em 2,4 GHz e outra em 5 GHz.
 
-![imagem](assets/software/vonet4.png)
+![imagem](assets/software/vonet4.jpeg)
 
 
 Digite a senha da sua rede Wi-Fi em "Senha do ponto de acesso Wi-Fi de origem".

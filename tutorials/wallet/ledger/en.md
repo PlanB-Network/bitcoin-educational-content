@@ -24,7 +24,7 @@ The Ledger comes with its own USB cable. Make sure you use that and not just any
 
 Connect it to your computer and the device will power on.
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 Cycle through the options. You’ll see
 
@@ -41,7 +41,7 @@ Oddly, when you get to the end, it says “press left to verify your words”. T
 
 The next bit is super annoying. It mixes up the 24 words and you have to confirm each one, 1 to 24, by cycling through all the words for each selection. Once you are done, it allows you to confirm with a two-button press and continue.
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 You will see on your dashboard that you have a settings button, and a plus-sign button that allows you to install apps. But you need to connect to Ledger Live first. We’ll do that next…
 
@@ -51,15 +51,15 @@ You could download Ledger Live from their webpage, but it’s better to get it f
 
 Google “ledger live GitHub” or click this link https://github.com/LedgerHQ/ledger-live-desktop
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Scroll down until you see the heading, “Downloads”…
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 At the bottom, you’ll see the link: Instructions for verifying the hash and signatures of the installation packages are available on this page. Click that link.(https://live.ledger.tools/lld-signatures)
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 At the top, there are link choices for the software package you need, depending on your operating system. Click the appropriate one to download.
 
@@ -92,32 +92,32 @@ Before you run Ledger Live, it helps privacy a little to turn on a VPN. Ledger w
 
 Install the software onto your computer and run it.
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Select your device, and select “First time using…”
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 You’ll then be taken through a wizard, but we’ve done all these steps so you can cycle through.
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 After many steps and a quiz, it will check the device is genuine. You need to make sure you are connected and entered the pin, and then it will ask on the device if you allow Ledger Live to connect. You have to confirm that, of course.
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 There was some shitcoin advertising disguised as “release notes” in the next pop up. Dismiss it, and then you should get to this screen.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 You have to click “Add account” to get a Bitcoin Wallet.
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Make sure you choose Bitcoin, and not Bitcoin Cash or any other shitcoin. It will check the device, and you have to confirm to proceed ON THE DEVICE. It will calculate addresses for a couple of minutes. Then click DONE.
 
-![image](assets/12.png)
-![image](assets/13.png)
+![image](assets/12.jpeg)
+![image](assets/13.jpeg)
 
 Great. Now you have a shitcoin wallet manager containing a Bitcoin wallet on your computer. You actually don’t need this anymore and can get rid of it. The real purpose was to get the Bitcoin App on the device itself, and this was the only way, short of performing some extreme software engineer techniques.
 
@@ -155,35 +155,35 @@ We will now load it up and connect the Ledger, with the wallet containing the pa
 
 Create a New Wallet:
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Name it something pretty
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 Notice the checkbox, “Has existing transaction”. If this is a wallet you’ve used before, then check this otherwise your balance will incorrectly show as zero. Checking this box asks Sparrow to examine Bitcoin Core’s database (the blockchain) for previous transactions. For this guide, we’re using a brand new wallet, so you can leave the box unchecked.
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Click on “Connected Hardware Wallet” and make sure the device is actually connected, turned on, PIN entered, and you have entered the Bitcoin App.
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Click “Scan” and then “Import Keystore” on the next screen.
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 There’s nothing to edit in the next screen, the Ledger has filled it for you. Click “Apply”
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 The next screen allows you to add a password. Don’t confuse this with “passphrase”; many people will. The naming is unfortunate. The password allows you to lock this wallet on your computer. It is specific to this software on this computer. It is not part of your Bitcoin private key.
 
-![image](assets/20.png)
+![image](assets/20.jpeg)
 
 After a pause, while the computer thinks, you will see the buttons on the left change from grey to blue. Congratulations, your wallet is now ready to use. Make and send transactions to your heart’s content.
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 ## Receiving
 
@@ -195,7 +195,7 @@ Once you do that, you must back up the words that you wrote down. A single copy 
 
 ## Sending
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 
 When making a payment, you need to paste in the address you are paying to in the “Pay to” field. You can’t actually leave the Label blank, it’s just for your own wallets’ records, but Sparrow doesn’t allow it – just enter something (only you will see it). Enter the amount and you can also manually adjust the fee you want.
 

@@ -64,7 +64,7 @@ Ready to embark on this captivating adventure? Let's dive together into the fasc
 
 To explain the concept of mining in a simplified way, a relevant analogy can be used: that of a puzzle. Just like a puzzle, mining is a complex task to perform but easy to verify once completed. In the context of Bitcoin mining, miners strive to quickly solve a digital puzzle. The first miner to solve the puzzle presents their solution to the entire network, which can then easily verify its validity. This successful verification allows the miner to validate a new block and add it to the Bitcoin Timechain. In recognition of their work, which involves significant costs, the miner is rewarded with a certain number of bitcoins. This reward serves as a financial incentive for miners to continue their work of validating transactions and securing the Bitcoin network.
 
-![image](assets/overview/puzzle.png)
+![image](assets/overview/puzzle.jpeg)
 
 Initially in the Bitcoin network, the awarded reward was 50 bitcoins every ten minutes, parallel to the discovery of a block every ten minutes on average by miners. This reward undergoes a halving every 210,000 blocks, approximately every four years. This remuneration serves as a powerful incentive to encourage miners to participate in the mining process despite its energy cost. Without a reward, the electricity-intensive mining would be abandoned, compromising the security and stability of the entire Bitcoin network.
 The current mining reward is twofold. On one hand, it includes the creation of new bitcoins, which has decreased from 50 bitcoins every ten minutes initially to 6.25 bitcoins today (2023). On the other hand, it includes transaction fees, or mining fees, from the transactions that the miner chooses to include in their block. When a bitcoin transaction is made, transaction fees are paid. These fees function as a sort of auction where users indicate how much they are willing to pay to have their transaction included in the next block. To maximize their reward, miners, acting in their own interest, select the most profitable transactions to include in their block, considering the limited available space. Thus, the mining reward consists of both the generation of new bitcoins and transaction fees, ensuring a continuous incentive for miners and ensuring the longevity and security of the Bitcoin network.
@@ -75,7 +75,7 @@ The mining process involves finding a valid hash that is acceptable to the Bitco
 
 In the beginning, the CPU era dominated, where miners used their personal computers for Bitcoin mining. The discovery of the advantages of GPUs (graphics cards) for this task marked a turning point, substantially increasing the hashrate and reducing energy consumption. The progress did not stop there, with the subsequent introduction of FPGAs (field-programmable gate arrays). FPGAs served as a platform for the development of ASICs (application-specific integrated circuits).
 
-![image](assets/overview/chip.png)
+![image](assets/overview/chip.jpeg)
 
 ASICs are chips, comparable to a CPU chip, however, they are developed to perform only one specific type of calculation in the most efficient way possible. In other words, a CPU is capable of performing a multitude of different types of calculations without being particularly optimized for one type of calculation or another, whereas an ASIC will be able to perform only one type of calculation, but very efficiently. In the case of Bitcoin ASICs, they are designed for the calculation of the SHA256 algorithm.
 Nowadays, miners exclusively use ASICs dedicated to this operation, optimized to test the maximum number of combinations with the smallest possible energy consumption and as quickly as possible. These computers, incapable of performing tasks other than Bitcoin mining, are a tangible testament to the continuous evolution and increasing specialization of the Bitcoin mining industry. This constant evolution reflects the intrinsic dynamics of Bitcoin, where a difficulty adjustment ensures the production of a block every ten minutes despite the exponential increase in mining capacity.
@@ -86,7 +86,7 @@ To illustrate the intensity of this process, consider a typical miner capable of
 
 Difficulty adjustment is a crucial mechanism in the operation of the Bitcoin network, ensuring that blocks are mined on average every 10 minutes. This duration is an average because the mining process is actually a game of probabilities, similar to rolling dice in the hope of getting a number lower than the number defined by the difficulty. Every 2016 blocks, the network adjusts the mining difficulty based on the average time required to mine the previous blocks. If the average time is greater than 10 minutes, the difficulty is reduced, and conversely, if the average time is lower, the difficulty is increased. This adjustment mechanism ensures that the mining time for new blocks remains constant over time, regardless of the number of miners or the overall computing power of the network. This is why the Bitcoin Blockchain is also called the Timechain.
 
-![image](assets/overview/chinaban.png)
+![image](assets/overview/chinaban.jpeg)
 
 * Example from China:
 The case of China perfectly illustrates this difficulty adjustment mechanism. With abundant and cheap energy, China was the main global hub for Bitcoin mining. In 2021, the country suddenly banned Bitcoin mining on its territory, resulting in a massive drop in the global Bitcoin network's hashrate, around 50%. This rapid decrease in mining power could have severely disrupted the Bitcoin network by increasing the average block mining time. However, the difficulty adjustment mechanism kicked in, reducing the mining difficulty to ensure that the block mining frequency remains at an average of 10 minutes. This case demonstrates the efficiency and resilience of Bitcoin's difficulty adjustment mechanism, which ensures the stability and predictability of the network, even in the face of sudden and significant changes in the global mining landscape.
@@ -97,7 +97,7 @@ Regarding the evolution of Bitcoin mining machines, it is important to note that
 
 Faced with constant technological advancements in the mining field, professionals must strategically position themselves. The mining industry is subject to continuous innovations, as demonstrated by the recent release of the J version of the S19 and the anticipated release of the S19 XP, offering significantly higher mining capabilities. Furthermore, improvements are not only related to the raw performance of the machines. For example, the new S19 XP model uses a liquid cooling system, a technical modification that allows for a significant improvement in energy efficiency. Although innovation remains a constant, future efficiency gains will likely be smaller compared to those observed so far, due to reaching a certain threshold of technological innovation.
 
-![image](assets/overview/chipevolution.png)
+![image](assets/overview/chipevolution.jpeg)
 In conclusion, the Bitcoin mining industry continues to adapt and develop, and industry players must anticipate diminishing efficiency gains in the future and adjust their strategies accordingly. Future technological advancements, although still present, are likely to occur on a smaller scale, reflecting the growing maturity of the sector.
 ## The mining industry
 
@@ -107,7 +107,7 @@ In conclusion, the Bitcoin mining industry continues to adapt and develop, and i
 
 Currently, Bitcoin mining has evolved into a serious and substantial industry, with many players now publicly known and an increasing number of significant miners. This evolution has made mining almost inaccessible for small players due to the high cost associated with acquiring new mining machines. This raises the question of the distribution of hashrate among various market players. The situation is complex because it is essential to examine both the distribution of hashrate among different companies and among different mining pools.
 
-![image](assets/overview/pool.png)
+![image](assets/overview/pool.jpeg)
 
 A mining pool is a group of miners who combine their computing resources to increase their chances of mining. This cooperation is necessary because an isolated small mining machine is competing against industry giants, reducing its chances of success to a negligible level. Mining works on a lottery principle, and the chances of winning a block (and therefore the Bitcoin reward) every ten minutes are extremely low for an individual small miner. By pooling together, miners can combine their computing power, find blocks more frequently, and then distribute the rewards proportionally to each miner's contribution to the pool.
 
@@ -136,7 +136,7 @@ In France, for example, surplus electricity from solar panels is injected back i
 Mining centralization is addressed as a major challenge. Large players, such as Foundry, dominate the market, which can potentially lead to transaction censorship. This centralization can also make the network vulnerable to attacks, including the 51% attack, where an actor or group controls more than 50% of the network's hashing power, allowing them to control and manipulate the network.
 Regulation Risk It is emphasized that if a country like the United States were to decide to regulate or ban certain Bitcoin transactions, it could have a significant impact on the network, especially if a large portion of the hashing power is centralized in that country.
 
-![image](assets/overview/foundry.png)
+![image](assets/overview/foundry.jpeg)
 
 To combat this centralization, different strategies are discussed:
 * Home Mining: The idea of Home Mining is based on the decentralization of mining activity. It encourages individuals to participate in mining from their homes, thus distributing the hashrate more widely.
@@ -171,7 +171,7 @@ Regarding the question of what should be included in a Bitcoin block, it is cruc
 
 With the expected growth of the Lightning Network and the consequent increase in channel openings and closings, space in Bitcoin blocks will become increasingly valuable. The Bitcoin community already tends to value the preservation of this space, recognizing its intrinsic limitation. This awareness has led to discussions about the legitimate use of block space, with concerns about "spam" on the blockchain from transactions considered non-essential.
 
-![image](assets/overview/block.png)
+![image](assets/overview/block.jpeg)
 Speculation surrounds the future use of block space, but it is generally accepted that it is a scarce resource that should be used wisely. Even though there is a desire to fill it, it is essential to preserve it to ensure the long-term viability of the Bitcoin network, anticipating a future increase in demand for block space. As in any free market, supply and demand will regulate the use of block space. With limited supply, stakeholders will need to make informed choices about the use of this valuable space to ensure the long-term efficiency and security of the Bitcoin network.
 
 ## Mining in the Bitcoin Protocol
@@ -196,13 +196,13 @@ In the end, responsibility is shared among all actors in the Bitcoin network. A 
 
 Satoshi Nakamoto's elegant game theory established a situation where every actor in the Bitcoin network is incentivized to act correctly to protect both their own interests and those of other participants. This creates a balance where bad behavior can be punished, thus reinforcing the security and stability of the entire system. Despite this balance, states remain a potential threat. As indicated in the presentation at Surfing Bitcoin 2022, states may attempt to attack the mining industry, exposing the Bitcoin network to risks of centralization and attack. Hypothetical scenarios such as a military attack targeting mining hardware production facilities highlight the importance of geographical and industrial diversification for the resilience of the Bitcoin network.
 
-![image](assets/overview/miner.png)
+![image](assets/overview/miner.jpeg)
 
 The centralization of mining hardware production in China poses another risk. A refusal to export mining machines or an accumulation of hashrate for a potential 51% attack by China underscores the need for diversified mining hardware production. Faced with these risks, the Bitcoin community is actively exploring solutions. Companies like Intel are considering producing mining equipment in the United States, contributing to the distribution of production. Other initiatives, such as Block's open-source Mining Development Kit (MDK), aim to reduce the monopoly of mining hardware design and production, allowing for a broader distribution of hashrate. At the heart of these discussions is Bitcoin's fundamental mission: to be a censorship-resistant value exchange network. The Bitcoin community is constantly striving to strengthen distribution, censorship resistance, and the anti-fragility of the network, rejecting proposals such as transitioning to proof of stake that do not align with these fundamental principles.
 
 ### The physical link of proof of work vs proof of stake
 Proof of Work (PoW) is essential because it represents the physical link between the real world and Bitcoin. Although bitcoins are intangible, their production requires tangible energy, thus establishing a direct link with the physical and real world. This connection ensures that the production and validation of bitcoins and blocks have a real energy cost, anchoring the Bitcoin network in physical reality and preventing its complete domination by powerful entities. PoW acts as a barrier against centralization, ensuring that participation in the network and transaction validation require an investment in tangible resources. This prevents the monopolization of the network by entities that could otherwise take control without any significant entry barriers, thus ensuring a more equitable distribution of power and influence within the Bitcoin network.
-![image](assets/overview/POWPOS.png)
+![image](assets/overview/POWPOS.jpeg)
 
 ### Limits of Proof of Stake
 
@@ -243,7 +243,7 @@ However, mining offers unique avenues to get involved in the Bitcoin ecosystem. 
 
 Despite these options, mining presents significant challenges. The well-known adage in the world of cryptocurrencies, "Not your keys, not your Bitcoins," finds a similar resonance in the mining world: "Not your hashrate, not your reward." Stories of disappointments and disconnected machines are common, with many actors promising exceptional results but not delivering them. Power supply issues and machine failures can leave investors powerless, with expensive equipment that they do not control. In this context, caution and a deep understanding of the mining sector are crucial before venturing into it. Although opportunities for gains exist, the risks are significant, and an informed and thoughtful approach is essential to navigate this complex and often unpredictable field. Therefore, thorough research and careful consideration of the advantages and disadvantages are vital before engaging in Bitcoin mining.
 
-![image](assets/overview/self.png)
+![image](assets/overview/self.jpeg)
 
 ### Virgin Bitcoins
 Mining Forbidden in Europe?
@@ -256,7 +256,7 @@ In this context, choosing an autonomous and educated approach to mining appears 
 
 ### Mining Prohibited in Europe?
 With the question of the potential ban on mining in Europe, discussions on regulation are becoming increasingly relevant. The fluctuating regulatory landscape can indeed have a significant impact on the Bitcoin mining industry. The ban on mining in Europe is a conceivable scenario, especially considering the precedents in China. Although mining operations continue in China despite the ban, Europe could follow a similar path. A broader distribution of the hashrate in different regions could help strengthen the mining community in Europe, enabling them to effectively counter misunderstandings and misconceptions about mining, its environmental impact, and its footprint on the power grid.
-![image](assets/overview/regulation.jpg)
+![image](assets/overview/regulation.jpeg)
 
 Faced with campaigns like those of Greenpeace and the often misleading figures from certain studies, the best weapon remains accurate information. It is essential to inform the general public and decision-makers about the reality of mining, its complexity, and its nuances, rather than letting them rely on stereotypes and inaccurate information. The more informed and aware people there are about what mining really is, the better the industry can defend itself against potential restrictive regulations.
 
@@ -430,21 +430,21 @@ Power the bridge by connecting it via USB.
 
 From your computer, connect to the VONETS_****** WIFI network with the password 12345678.
 
-![image](assets/software/vonet1.png)
+![image](assets/software/vonet1.jpeg)
 
 Login with the username "admin" and password "admin".
 
-![image](assets/software/vonet2.png)
+![image](assets/software/vonet2.jpeg)
 
 Choose Wizard.
 
-![image](assets/software/vonet3.png)
+![image](assets/software/vonet3.jpeg)
 
 Select the WIFI network you want to connect your miner to, then click Next.
 
 NOTE: The Vonet bridge only works on the 2.4GHz frequency. Nowadays, routers usually offer two WIFI networks, one on 2.4GHz and one on 5GHz.
 
-![image](assets/software/vonet4.png)
+![image](assets/software/vonet4.jpeg)
 
 Enter the password for your WIFI network in the "Source WIFI hotspot password" field. If you do not want to use your Vonet bridge to extend your WIFI network, check the "Disable Hotspot" box. Otherwise, leave it unchecked.
 

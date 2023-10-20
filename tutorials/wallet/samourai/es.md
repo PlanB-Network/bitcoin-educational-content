@@ -26,19 +26,19 @@ Para obtener explicaciones sobre cada una de estas herramientas, puedes consulta
 
 Nuestra nueva pantalla de bienvenida muestra una vista previa de las características de nuestra billetera. Cuando hayas leído esto, toca 'Comenzar'.
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 Permisos
 
 Concede los permisos necesarios para que la billetera pueda crear automáticamente una copia de seguridad encriptada de tu billetera.
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Tor
 
 La mayoría de los usuarios deben habilitar Tor para la privacidad a nivel de red. Luego, toca Crear una nueva billetera.
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Creación de una frase de contraseña
 
@@ -49,7 +49,7 @@ Tu frase de contraseña es un componente necesario al restaurar mediante mnemot�
 > No tenemos conocimiento de tu frase de contraseña, si la olvidas no podemos ayudarte a restablecerla.
 > ¡No olvides tu frase de contraseña!
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Crear un código PIN
 
@@ -57,7 +57,7 @@ Ahora se te pedirá que crees y confirmes un código PIN de entre 5 y 8 dígitos
 
 Si olvidas tu código PIN, siempre puedes acceder a tu billetera con tu frase de contraseña.
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Crear una copia de seguridad en papel
 
@@ -76,7 +76,7 @@ Un PayNym es un tipo de dirección oculta que es diferente de las direcciones no
 Después de que se haya creado correctamente tu billetera, se te pedirá que reclames un PayNym Bot. Esta es una representación visual del hash SHA-256 de la dirección de tu billetera PayNym.
 Una vez reclamado, se te asignará un nombre de bot único que se cargará en el directorio público de bots de PayNym, que se puede encontrar en https://paynym.is
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 ## úsalo
 

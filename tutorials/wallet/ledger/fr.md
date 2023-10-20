@@ -24,7 +24,7 @@ Le Ledger est livré avec son propre câble USB. Assurez-vous d'utiliser celui-c
 
 Connectez-le à votre ordinateur et l'appareil s'allumera.
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 Parcourez les options. Vous verrez
 
@@ -41,7 +41,7 @@ Curieusement, lorsque vous arrivez à la fin, il dit "appuyez sur la gauche pour
 
 La prochaine partie est super ennuyeuse. Il mélange les 24 mots et vous devez confirmer chacun d'entre eux, de 1 à 24, en parcourant tous les mots pour chaque sélection. Une fois que vous avez terminé, vous pouvez confirmer avec une pression de deux boutons et continuer.
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Vous verrez sur votre tableau de bord un bouton Paramètres et un bouton plus qui vous permet d'installer des applications. Mais vous devez d'abord vous connecter à Ledger Live. Nous allons faire cela ensuite...
 
@@ -51,15 +51,15 @@ Vous pouvez télécharger Ledger Live depuis leur site web, mais il est préfér
 
 Recherchez "ledger live GitHub" sur Google ou cliquez sur ce lien https://github.com/LedgerHQ/ledger-live-desktop
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Faites défiler vers le bas jusqu'à ce que vous voyiez l'en-tête "Téléchargements"...
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 En bas, vous verrez le lien : Des instructions pour vérifier le hachage et les signatures des packages d'installation sont disponibles sur cette page. Cliquez sur ce lien. (https://live.ledger.tools/lld-signatures)
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 En haut, il y a des choix de liens pour le package logiciel dont vous avez besoin, en fonction de votre système d'exploitation. Cliquez sur celui approprié pour le télécharger.
 
@@ -90,32 +90,32 @@ Avant d'exécuter Ledger Live, il est utile d'activer un VPN pour préserver un 
 
 Installez le logiciel sur votre ordinateur et exécutez-le.
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Sélectionnez votre appareil, puis sélectionnez "Première utilisation..."
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Vous serez ensuite guidé à travers un assistant, mais nous avons déjà effectué toutes ces étapes, vous pouvez donc les parcourir rapidement.
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 Après de nombreuses étapes et un quiz, il vérifiera que l'appareil est authentique. Vous devez vous assurer d'être connecté et d'avoir entré le code PIN, puis il vous demandera sur l'appareil si vous autorisez Ledger Live à se connecter. Vous devez bien sûr confirmer cela.
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 Il y avait une publicité pour une shitcoin déguisée en "notes de version" dans la prochaine fenêtre contextuelle. Rejetez-la, puis vous devriez arriver à cet écran.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Vous devez cliquer sur "Ajouter un compte" pour obtenir un portefeuille Bitcoin.
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Assurez-vous de choisir Bitcoin, et non Bitcoin Cash ou toute autre shitcoin. Il vérifiera l'appareil et vous devrez confirmer pour continuer SUR L'APPAREIL. Il calculera les adresses pendant quelques minutes. Ensuite, cliquez sur TERMINÉ.
 
-![image](assets/12.png)
-![image](assets/13.png)
+![image](assets/12.jpeg)
+![image](assets/13.jpeg)
 
 Super. Maintenant, vous avez un gestionnaire de portefeuille shitcoin contenant un portefeuille Bitcoin sur votre ordinateur. En réalité, vous n'en avez plus besoin et pouvez vous en débarrasser. Le but réel était d'obtenir l'application Bitcoin sur l'appareil lui-même, et c'était la seule façon, à moins d'effectuer certaines techniques d'ingénierie logicielle extrêmes.
 
@@ -153,35 +153,35 @@ Nous allons maintenant le charger et connecter le Ledger, avec le portefeuille c
 
 Créer un nouveau portefeuille :
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Donnez-lui un joli nom.
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 Remarquez la case à cocher "A des transactions existantes". Si c'est un portefeuille que vous avez déjà utilisé, cochez cette case, sinon votre solde s'affichera incorrectement comme zéro. Cocher cette case demande à Sparrow d'examiner la base de données de Bitcoin Core (la blockchain) pour les transactions précédentes. Pour ce guide, nous utilisons un tout nouveau portefeuille, vous pouvez donc laisser la case décochée.
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Cliquez sur "Portefeuille matériel connecté" et assurez-vous que l'appareil est réellement connecté, allumé, que le code PIN a été saisi et que vous avez ouvert l'application Bitcoin.
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Cliquez sur "Analyser" puis sur "Importer le trousseau" à l'écran suivant.
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 Il n'y a rien à modifier à l'écran suivant, le Ledger l'a rempli pour vous. Cliquez sur "Appliquer".
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 L'écran suivant vous permet d'ajouter un mot de passe. Ne confondez pas cela avec "phrase de passe" ; beaucoup de gens le font. La dénomination est malheureuse. Le mot de passe vous permet de verrouiller ce portefeuille sur votre ordinateur. Il est spécifique à ce logiciel sur cet ordinateur. Il ne fait pas partie de votre clé privée Bitcoin.
 
-'![image](assets/20.png)
+'![image](assets/20.jpeg)
 
 Après une pause, pendant que l'ordinateur réfléchit, vous verrez les boutons à gauche passer du gris au bleu. Félicitations, votre portefeuille est maintenant prêt à être utilisé. Effectuez et envoyez des transactions à votre guise.
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 ## Réception
 
@@ -193,7 +193,7 @@ Une fois que vous avez fait cela, vous devez sauvegarder les mots que vous avez 
 
 ## Envoi
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 
 Lorsque vous effectuez un paiement, vous devez coller l'adresse à laquelle vous payez dans le champ "Pay to". Vous ne pouvez pas laisser le champ "Label" vide, c'est juste pour vos propres enregistrements de portefeuille, mais Sparrow ne le permet pas - entrez simplement quelque chose (vous seul le verrez). Entrez le montant et vous pouvez également ajuster manuellement les frais que vous souhaitez.
 

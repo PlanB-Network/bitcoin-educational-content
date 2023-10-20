@@ -65,7 +65,7 @@ Prêts à commencer cette aventure captivante ? Plongeons ensemble dans le monde
 
 Pour expliquer de manière simplifiée le concept du minage, une analogie pertinente peut être employée : celle du puzzle. Tout comme un puzzle, le minage est une tâche complexe à réaliser, mais facile à vérifier une fois complétée. Dans le contexte du minage de Bitcoin, les mineurs s'efforcent de résoudre rapidement un puzzle numérique. Le premier mineur à résoudre le puzzle présente sa solution au réseau entier, qui peut alors facilement vérifier sa validité. Cette vérification réussie permet au mineur de valider un nouveau bloc et de l'ajouter à la Timechain de Bitcoin. En reconnaissance de leur travail, qui implique des coûts significatifs, le mineur est récompensé par un certain nombre de bitcoins. Cette récompense constitue une incitation financière pour les mineurs à continuer leur travail de validation des transactions et de sécurisation du réseau Bitcoin.
 
-![image](assets/overview/puzzle.png)
+![image](assets/overview/puzzle.jpeg)
 
 Initialement dans le réseau Bitcoin, la récompense attribuée était de 50 bitcoins toutes les dix minutes, en parallèle à la découverte d'un bloc toutes les dix minutes en moyenne par les mineurs. Cette récompense subit une division par deux tous les 210 000 blocs, soit approximativement tous les quatre ans. Cette rémunération sert de puissante incitation pour encourager les mineurs à participer au processus de minage malgré son coût énergétique. En l'absence de récompense, le minage, coûteux en électricité, serait délaissé, compromettant ainsi la sécurité et la stabilité de l'ensemble du réseau Bitcoin.
 
@@ -77,7 +77,7 @@ Le processus de minage consiste à trouver un hash valide acceptable par le rés
 
 Au commencement, l’ère du CPU dominait, où les mineurs utilisaient leurs ordinateurs personnels pour le minage de Bitcoin. La découverte des avantages des GPU (cartes graphiques) pour cette tâche a marqué un tournant, augmentant substantiellement le hashrate et réduisant la consommation d’énergie. La progression ne s'est pas arrêtée là, avec l’introduction ultérieure des FPGA (field-programmable gate array / réseau de portes programmables in situ). Les FPGA ont servi de plateforme pour le développement des ASICs (application-specific integrated circuit / circuit intégré propre à une application). 
 
-![image](assets/overview/chip.png)
+![image](assets/overview/chip.jpeg)
 
 Les ASICs sont des puces, comparables à la puce d’un CPU, cependant, elles sont développées pour effectuer un seul type de calcul spécifique de la manière la plus efficace possible. Autrement dit, un CPU est capable de réaliser une multitude de types de calculs différents sans être particulièrement optimisé pour un type de calcul ou un autre, alors qu’un ASIC sera capable d’effectuer un seul type de calcul, mais de manière très efficace. En l'occurrence, les ASIC Bitcoin sont prévus pour le calcul de l'algorithme SHA256.
 
@@ -90,7 +90,7 @@ Pour illustrer l'intensité de ce processus, considérez un mineur typique capab
 
 L'ajustement de la difficulté est un mécanisme crucial dans le fonctionnement du réseau Bitcoin, garantissant que les blocs sont minés en moyenne toutes les 10 minutes. Cette durée est une moyenne, car le processus de minage est en réalité un jeu de probabilités, semblable au lancer de dés en espérant obtenir un nombre inférieur au nombre défini par la difficulté. Tous les 2016 blocs, le réseau ajuste la difficulté de minage en fonction du temps moyen nécessaire pour miner les blocs précédents. Si le temps moyen est supérieur à 10 minutes, la difficulté est réduite, et inversement si le temps moyen est inférieur, la difficulté est augmentée. Ce mécanisme d’ajustement assure que le temps de minage des nouveaux blocs reste constant dans le temps, indépendamment du nombre de mineurs ou de la puissance de calcul globale du réseau. C’est pour cette raison que la Blockchain de Bitcoin est également appelée Timechain.
 
-![image](assets/overview/chinaban.png)
+![image](assets/overview/chinaban.jpeg)
 
 * Exemple de la Chine:
 Le cas de la Chine illustre parfaitement ce mécanisme d’ajustement de la difficulté, riche en énergie abondante et bon marché, elle était le hub principal mondial de minage de Bitcoin. En 2021, le pays a brusquement interdit le minage de Bitcoin sur son territoire, entraînant une chute massive du hashrate global du réseau Bitcoin, de l'ordre de 50%. Cette diminution rapide de la puissance de minage aurait pu perturber gravement le réseau Bitcoin, en augmentant le temps moyen de minage des blocs. Cependant, le mécanisme d’ajustement de la difficulté est intervenu, réduisant la difficulté de minage pour garantir que la fréquence de minage des blocs reste en moyenne à 10 minutes. Ce cas démontre l’efficacité et la résilience du mécanisme d’ajustement de la difficulté du Bitcoin, qui assure la stabilité et la prévisibilité du réseau, même en cas de changements brusques et importants dans le paysage du minage mondial.
@@ -101,7 +101,7 @@ Concernant l'évolution des machines de minage de Bitcoin, il est primordial de 
 
 Face à l'évolution technologique constante dans le domaine du minage, les professionnels doivent se positionner de manière stratégique. L'industrie du minage est en proie à des innovations continuelles, comme le démontre la sortie récente de la version J du S19, et celle anticipée du S19 XP, offrant des capacités de minage nettement supérieures. De plus, les améliorations ne sont pas uniquement liées aux performances brutes des machines. Par exemple, le nouveau modèle S19 XP utilise un système de refroidissement par liquide, une modification technique qui permet une amélioration significative de l'efficience énergétique. Bien que l'innovation reste une constante, les gains d'efficience futurs seront probablement moindres par rapport à ceux observés jusqu'à présent, en raison de l'atteinte d'un certain seuil d'innovation technologique.
 
-![image](assets/overview/chipevolution.png)
+![image](assets/overview/chipevolution.jpeg)
 
 En conclusion, l'industrie du minage de Bitcoin continue de s'adapter et de se développer, les acteurs du domaine doivent anticiper des gains d'efficience, plus limités à l'avenir, et ajuster leurs stratégies en conséquence. Les avancées technologiques futures, bien qu'encore présentes, se feront probablement à une échelle plus réduite, reflétant une maturité croissante du secteur.
 
@@ -113,7 +113,7 @@ En conclusion, l'industrie du minage de Bitcoin continue de s'adapter et de se d
 
 À l’heure actuelle, le minage de Bitcoin a évolué pour devenir une industrie sérieuse, substantielle, avec de nombreux acteurs désormais publics et un nombre croissant de mineurs significatifs. Cette évolution a rendu le minage presque inaccessible pour les petits acteurs en raison du coût élevé associé à l'acquisition de nouvelles machines de minage. La question se pose donc de la distribution du hashrate parmi divers acteurs du marché. La situation est complexe, car il est essentiel d’examiner à la fois la répartition du hashrate parmi différentes sociétés et parmi différents pools de minage.
 
-![image](assets/overview/pool.png)
+![image](assets/overview/pool.jpeg)
 
 Un pool de minage est un regroupement de mineurs qui unissent leurs ressources de calcul pour augmenter leurs chances de minage. Cette coopération est nécessaire car une petite machine de minage isolée est en compétition avec des géants de l'industrie, réduisant ses chances de succès à un niveau négligeable. Le minage fonctionne selon un principe de loterie, et les chances de gagner un bloc (et donc la récompense en Bitcoin) toutes les dix minutes sont extrêmement faibles pour un petit mineur individuel. En se regroupant en pools, les mineurs peuvent combiner leur puissance de calcul, trouver des blocs plus fréquemment et distribuer ensuite les récompenses de manière proportionnelle à la contribution de chaque mineur au pool.
 
@@ -144,7 +144,7 @@ En France, par exemple, les surplus d'électricité des panneaux solaires sont r
 La centralisation du minage est abordée comme un défi majeur. De grands acteurs, tels que Foundry, dominent le marché, ce qui peut potentiellement entraîner la censure des transactions. Cette centralisation peut également rendre le réseau vulnérable à des attaques, notamment l'attaque des 51%, où un acteur ou un groupe contrôle plus de 50% de la puissance de hachage du réseau, leur permettant ainsi de contrôler et de manipuler le réseau.
 Risque de Régulation Il est souligné que si un pays comme les États-Unis décidait de réguler ou d'interdire certaines transactions Bitcoin, cela pourrait avoir un impact considérable sur le réseau, en particulier si une grande partie de la puissance de hachage est centralisée dans ce pays.
 
-![image](assets/overview/foundry.png)
+![image](assets/overview/foundry.jpeg)
 
 Pour lutter contre cette centralisation, différentes stratégies sont abordées:
 
@@ -168,7 +168,7 @@ L'initiative Attakai découle d’une expérimentation personnelle de minage à 
 
 En exposant leur projet à la communauté Bitcoin et face à l'intérêt suscité, les inventeurs d’Ataka décidèrent de publier des guides détaillés sur la plateforme Découvre Bitcoin, permettant ainsi à quiconque de reproduire leur expérience de minage à domicile. Ils envisagent désormais d’élargir ce concept au-delà du cadre domestique. L'objectif est de démontrer comment un mineur modifié peut être transformé en un chauffage d'appoint silencieux utilisable pendant l’hiver, offrant une transition douce vers une seconde partie de formation consacrée à la mise en place pratique de ces modifications, illustrée par des vidéos explicatives. La question demeure cependant de savoir si cette initiative peut être étendue à une échelle plus grande, proposant ainsi une alternative réaliste et durable aux structures de minage centralisées actuelles.
 
-![image](assets/overview/attakai.png)
+![image](assets/overview/attakai.jpeg)
 
 ### La limite de cette décentralisation?
 
@@ -192,7 +192,7 @@ Concernant la question de ce qui devrait être inclus dans un bloc Bitcoin, il e
 
 Avec la croissance prévue du Lightning Network et l'augmentation conséquente des ouvertures et fermetures de canaux, l'espace dans les blocs Bitcoin deviendra de plus en plus précieux. La communauté Bitcoin a déjà tendance à valoriser la préservation de cet espace, reconnaissant sa limitation intrinsèque. Cette prise de conscience a donné lieu à des discussions sur l’utilisation légitime ou non de l'espace des blocs, avec des préoccupations concernant le « spam » sur la blockchain par des transactions considérées comme non essentielles.
 
-![image](assets/overview/block.png)
+![image](assets/overview/block.jpeg)
 
 La spéculation entoure l'utilisation future de l'espace des blocs, mais il est généralement admis que c'est une ressource rare qui devrait être utilisée judicieusement. Même si l'envie est là de le combler, il est essentiel de le préserver pour assurer la viabilité à long terme du réseau Bitcoin, anticipant une augmentation future de la demande d'espace dans les blocs. Comme dans tout marché libre, l’offre et la demande réguleront l'utilisation de l'espace des blocs. Avec une offre limitée, les parties prenantes devront faire des choix éclairés sur l'utilisation de cet espace précieux pour garantir l’efficacité et la sécurité du réseau Bitcoin à long terme.
 
@@ -219,7 +219,7 @@ En fin de compte, la responsabilité est partagée entre tous les acteurs du ré
 
 L'élégante théorie du jeu de Satoshi Nakamoto a établi une situation où chaque acteur du réseau Bitcoin est incité à agir correctement pour protéger à la fois ses propres intérêts et ceux des autres participants. Cela crée un équilibre où le mauvais comportement peut être réprimandé, renforçant ainsi la sécurité et la stabilité de l'ensemble du système. Malgré cet équilibre, les États restent une menace potentielle. Comme l'indique la présentation à Surfing Bitcoin 2022, les États peuvent tenter d'attaquer l'industrie du minage, exposant le réseau Bitcoin à des risques de centralisation et d'attaque. Des scénarios hypothétiques comme une attaque militaire ciblant les installations de production de matériel de minage soulignent l'importance de la diversification géographique et industrielle pour la résilience du réseau Bitcoin.
 
-![image](assets/overview/miner.png)
+![image](assets/overview/miner.jpeg)
 
 La centralisation de la production de matériel de minage en Chine pose un autre risque. Un refus d'exporter des machines de minage ou une accumulation de hashrate pour une potentielle attaque 51% par la Chine soulignent la nécessité d'une production diversifiée de matériel de minage. Face à ces risques, la communauté Bitcoin explore activement des solutions. Des entreprises comme Intel envisagent de produire des équipements de minage aux États-Unis, contribuant à la distribution de la production. D'autres initiatives, comme celle de Block avec son Mining Development Kit (MDK) open source, visent à diminuer les monopole de la conception et la production de matériel de minage, permettant une distribution plus large du hashrate. Au cœur de ces discussions se trouve la mission fondamentale de Bitcoin: être un réseau d’échange de valeur résistant à la censure. La communauté Bitcoin s'efforce constamment de renforcer la distribution, la résistance à la censure et l'anti-fragilité du réseau, rejetant des propositions telles que le passage au proof of stake, qui ne s'alignent pas sur ces principes fondamentaux.
 
@@ -227,7 +227,7 @@ La centralisation de la production de matériel de minage en Chine pose un autre
 
 Le Proof of Work (PoW) est essentiel car il représente le lien physique entre le monde réel et Bitcoin. Bien que les bitcoins soient immatériels, leur production nécessite une énergie tangible, établissant ainsi un lien direct avec le monde physique et réel. Cette connexion assure que la production et la validation des bitcoins et des blocs ont un coût énergétique réel, ancrant ainsi le réseau Bitcoin dans la réalité physique et empêchant sa domination complète par des entités puissantes. Le PoW agit comme un rempart contre la centralisation, en veillant à ce que la participation au réseau et à la validation des transactions nécessitent un investissement en ressources tangibles. Cela empêche la monopolisation du réseau par des entités qui pourraient autrement prendre le contrôle sans aucune barrière d'entrée significative, assurant ainsi une distribution plus équitable du pouvoir et de l'influence au sein du réseau Bitcoin.
 
-![image](assets/overview/POWPOS.png)
+![image](assets/overview/POWPOS.jpeg)
 
 ### Les Limites du Proof of Stake
 
@@ -247,7 +247,7 @@ Le taux de hachage actuel bien que le prix du Bitcoin soit à 30 000 $ par rappo
 
 Cette situation illustre également la résilience du Bitcoin, souvent évaluée en fonction de son prix. Toutefois, une analyse plus profonde de la santé du Bitcoin nécessite l'examen de son taux de hachage, qui mesure les calculs par seconde dans le réseau Bitcoin. Alors que le prix du Bitcoin fluctue, son coût, lié à l'électricité nécessaire pour faire fonctionner les machines de minage, reste essentiel pour comprendre la dynamique du marché. En se concentrant sur le coût plutôt que sur le prix, on obtient une perspective plus cohérente sur la stabilité et la viabilité à long terme du Bitcoin. En général, le coût du Bitcoin est proportionnel à son prix, offrant une meilleure compréhension des fluctuations de prix et des perspectives futures.
 
-![image](assets/overview/pricevshashrate.png)
+![image](assets/overview/pricevshashrate.jpeg)
 
 ### Taux de Hachage et Récompense
 
@@ -278,7 +278,7 @@ Cependant, le minage offre des avenues uniques pour s'impliquer dans l'écosyst�
 
 Malgré ces options, le minage présente des défis significatifs. L'adage bien connu du monde des cryptomonnaies, "Pas tes clés, pas tes Bitcoins", trouve une résonance similaire dans le monde du minage : "Pas ton hashrate, pas ta récompense". Les histoires de déceptions et de machines déconnectées sont monnaie courante, avec de nombreux acteurs promettant des résultats exceptionnels mais ne les livrant pas. Les problèmes d'approvisionnement en électricité et les pannes de machines peuvent laisser les investisseurs impuissants, avec des équipements coûteux qu'ils ne contrôlent pas. Dans ce contexte, la prudence et une compréhension approfondie du secteur du minage sont cruciales avant de s'y aventurer. Bien que les opportunités de gains existent, les risques sont significatifs, et une approche informée et réfléchie est essentielle pour naviguer dans ce domaine complexe et souvent imprévisible. Il est donc vital de faire des recherches approfondies et de bien peser les avantages et les inconvénients avant de s'engager dans le minage de Bitcoin.
 
-![image](assets/overview/self.png)
+![image](assets/overview/self.jpeg)
 
 ### Des Bitcoins Vierges
 
@@ -294,7 +294,7 @@ Dans ce contexte, le choix d'une démarche autonome et éduquée en matière de 
 
 Avec la question du potentiel d'interdiction du minage en Europe, les discussions sur la régulation deviennent de plus en plus pertinentes. Le paysage réglementaire fluctuant peut, en effet, influencer considérablement l'industrie du minage de Bitcoin. L'interdiction du minage en Europe est un scénario envisageable, notamment en considérant les précédents en Chine. Bien que des opérations de minage continuent en Chine malgré l'interdiction, l'Europe pourrait suivre un chemin similaire. Une distribution plus large du hashrate dans différentes régions pourrait aider à renforcer la communauté des mineurs en Europe, leur permettant de s'opposer efficacement aux malentendus et aux idées fausses concernant le minage, son impact environnemental et son empreinte sur le réseau électrique.
 
-![image](assets/overview/regulation.jpg)
+![image](assets/overview/regulation.jpeg)
 
 Face à des campagnes comme celles de Greenpeace et aux chiffres souvent trompeurs de certaines études, la meilleure arme reste l'information véridique. Il est essentiel d'informer le grand public et les décideurs sur la réalité du minage, sa complexité, et sa nuance, plutôt que de les laisser s'appuyer sur des clichés et des informations inexactes. Plus il y aura de personnes informées et conscientes de ce qu'est réellement le minage, mieux l'industrie pourra se défendre contre les éventuelles réglementations restrictives.
 
@@ -480,24 +480,24 @@ Alimentez le bridge en le branchant en USB.
 
 Depuis votre ordinateur connectez vous au WIFI VONETS_****** avec le mot de passe 12345678
 
-![image](assets/software/vonet1.png)
+![image](assets/software/vonet1.jpeg)
 
 
 identifiant admin admin
 
-![image](assets/software/vonet2.png)
+![image](assets/software/vonet2.jpeg)
 
 
 Choisissez Wizard
 
-![image](assets/software/vonet3.png)
+![image](assets/software/vonet3.jpeg)
 
 
 Sélectionnez le WIFI auquel vous souhaitez connecter votre mineur puis cliquez sur Next
 
 ATTENTION le bridge Vonet fonctionne uniquement en 2,4GHz, aujourd’hui les routeurs proposent généralement deux réseau WIFI un en 2,4GHz et un en 5GHz 
 
-![image](assets/software/vonet4.png)
+![image](assets/software/vonet4.jpeg)
 
 
 Entrer le mot de passe de votre réseau WIFI dans “Source WIFI hotspot password”

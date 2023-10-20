@@ -81,7 +81,7 @@ L'inflation est un concept souvent mal interprété en raison des multiples déf
 
 - Définition du Larousse : L'inflation est un phénomène caractérisé par une hausse généralisée et continue du niveau des prix. Ici, le mot "généralisée" est crucial.
 
-![image](assets/chapitre-2.1/4.png)
+![image](assets/chapitre-2.1/4.jpeg)
 
 À la lumière de ces définitions, il est essentiel de comprendre que, pour le Robert, l'inflation concerne principalement l'augmentation de la masse monétaire. En revanche, le Larousse se concentre sur les conséquences de cette expansion, à savoir la hausse généralisée des prix.
 
@@ -103,7 +103,7 @@ Quand on évoque le phénomène monétaire, on fait référence à la manière d
 2. Réduction du contenu métallique:
    Une autre méthode consistait à réduire la quantité de métal précieux dans les monnaies basées sur des métaux tels que l'argent ou l'or. Un exemple frappant se trouve dans l'Empire romain, où le denarius, initialement composé presque entièrement d'argent, a vu sa teneur en argent drastiquement diminuée au fil du temps. Cela équivalait à une forme d'inflation, mais pas nécessairement à une hyperinflation.
 
-![image](assets/chapitre-2.1/1.PNG)
+![image](assets/chapitre-2.1/1.jpeg)
 
 Il est crucial de souligner qu'il est possible d'observer de l'hyperinflation principalement avec des monnaies fiduciaires déconnectées de leurs actifs sous-jacents, comme les métaux précieux. Historiquement, lorsqu'une monnaie était basée sur de tels actifs, il y avait des épisodes d'inflation (par exemple, par dévaluation du contenu métallique), mais ces épisodes n'atteignaient jamais les niveaux extrêmes d'hyperinflation. Dans les sections suivantes, nous étudierons en détail les périodes d'évaluation monétaire et les implications de ces différents systèmes monétaires sur l'inflation.
 
@@ -115,7 +115,7 @@ Au fil de l'histoire, diverses civilisations ont connu des périodes de dévalua
 
 La guerre du Péloponnèse, un conflit entre Athènes et Sparte, et la Deuxième Guerre Punique, opposant la République romaine à Carthage, sont les premiers exemples de dévaluation monétaire que l'on retrouve dans les archives. Pour financer ces guerres, ces civilisations ont dévalué leurs monnaies en métaux précieux. Elles ont pris des pièces composées majoritairement d'argent et y ont incorporé d'autres métaux pour réduire la teneur en argent, tout en augmentant le nombre de pièces produites.
 
-![image](assets/chapitre-2.1/8.PNG)
+![image](assets/chapitre-2.1/8.jpeg)
 
 Gravure représentant le massacre des Athéniens sur les rives de l'Assinaros.
 
@@ -125,7 +125,7 @@ Après l'ère de la République Romaine, durant l'Empire, les 3e et 4e siècles 
 
 Bien que ces périodes aient connu une inflation significative, elles n'ont pas atteint les niveaux d'hyperinflation que nous pouvons observer dans certaines situations modernes. La raison en est que, même si la monnaie était dévaluée, elle était toujours basée sur des métaux précieux. Cette base solide a offert une certaine protection contre les niveaux extrêmes d'inflation. Dans les sections suivantes, nous explorerons plus en détail la nature et les conséquences de l'hyperinflation.
 
-![image](assets/chapitre-2.1/2.PNG)
+![image](assets/chapitre-2.1/2.jpeg)
 
 - Le Denarius de Marque Aurel (160 après Jésus-Christ):
   L'une des pièces les plus emblématiques de la Rome antique est le denarius, une monnaie en argent. Je possède une pièce spécifique de Marque Aurel datant de 160 après Jésus-Christ, avant la majeure dévaluation. Bien que la caméra puisse avoir du mal à saisir les détails fins, à l'œil nu, on peut voir que c'est une belle pièce en argent, reflétant une teneur en argent relativement élevée.
@@ -135,19 +135,19 @@ Bien que ces périodes aient connu une inflation significative, elles n'ont pas 
 
 En comparant les deux pièces côte à côte, la différence est flagrante. Le denarius de 160 après Jésus-Christ a une apparence argentée distincte, alors que l'Antononianus de la fin du 3e siècle après Jésus-Christ est bien plus terne, indiquant une diminution significative de la teneur en argent. Cette comparaison visuelle offre une illustration claire de la dévaluation monétaire que la Rome antique a subie en quelques siècles.
 
-![image](assets/chapitre-2.1/3.PNG)
+![image](assets/chapitre-2.1/3.jpeg)
 
 Pour compléter cette démonstration, un graphique illustrant la dévaluation de ces pièces au fil du temps serait idéal. Bien que difficile à visualiser à travers cette plateforme, imaginez un graphique montrant la valeur du denarius, puis sa chute vers la fin du 2e siècle, remplacé par l'Antononianus supposé valoir deux deniers mais avec une teneur en argent bien moindre. Ces artefacts sont des témoins silencieux des fluctuations économiques de civilisations passées.
 
 #### 3. Le Maravédis Espagnol : Témoin d'une Dévaluation Ciblée
 
-![image](assets/chapitre-2.1/5.PNG)
+![image](assets/chapitre-2.1/5.jpeg)
 
 Le Maravédis, en tant que monnaie de cuivre, occupe une place particulière dans l'histoire de la monnaie espagnole. Comme évoqué précédemment, le dollar espagnol était à l'origine le standard international, une monnaie de réserve essentielle pour l'Espagne. Toutefois, face à certains défis économiques, l'Espagne a dû recourir à des stratégies monétaires astucieuses.
 
 La dévaluation monétaire est un outil souvent utilisé par les États pour financer leurs dépenses ou stimuler l'économie. Cependant, l'Espagne se trouvait dans une situation délicate. Diluer le dollar espagnol aurait compromis sa position dans le commerce international. Pour surmonter ce dilemme, l'Espagne s'est tournée vers le Maravédis.
 
-![image](assets/chapitre-2.1/6.png)
+![image](assets/chapitre-2.1/6.jpeg)
 
 Contrairement au précieux dollar espagnol en argent, le Maravédis était une monnaie de cuivre utilisée principalement au sein de la population locale. Cette monnaie a été ciblée pour la dévaluation. Lorsqu'une pièce de Maravédis était initialement valable pour deux maravedises, l'État la récupérait, la retamponnait avec une nouvelle valeur, par exemple "quatre", et ne retournait qu'une seule pièce au propriétaire. La pièce mentionnée avec le tampon "huit" est un témoignage de ce processus, ayant subi plusieurs cycles de dévaluation.
 
@@ -155,7 +155,7 @@ Cette stratégie a permis à l'État de dévaluer efficacement une monnaie, cré
 
 Le cas du Maravédis illustre comment un État peut dévaluer sélectivement une monnaie locale pour répondre à ses besoins économiques internes, tout en préservant la valeur d'une monnaie de réserve sur la scène mondiale. C'est un exemple frappant de la complexité et de la finesse de la politique monétaire dans l'histoire.
 
-![image](assets/chapitre-2.1/7.PNG)
+![image](assets/chapitre-2.1/7.jpeg)
 
 Plus de quoi ? -> https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing
 
@@ -167,7 +167,7 @@ Entre le 15e et le 17e siècle, l'Europe a été témoin d'un phénomène écono
 
 Au 18e siècle, l'histoire économique française a été marquée par deux événements significatifs liés à la monnaie. Tout d'abord, John Law, un économiste et financier écossais, a persuadé le gouvernement français d'adopter un système monétaire basé sur la monnaie papier. Bien qu'initialement considérée comme une solution innovante aux problèmes financiers du pays, cette initiative a rapidement conduit à une inflation galopante. Puis, peu de temps après, lors des tumultes de la Révolution française, le gouvernement a introduit les "assignats".
 
-![image](assets/chapitre-2.1/9.PNG)
+![image](assets/chapitre-2.1/9.jpeg)
 
 Assignats de 1793
 
@@ -181,7 +181,7 @@ Aux États-Unis, le début des années 1930 a été témoin d'une évolution maj
 
 - Le Billet de 20 dollars de 1928
 
-![image](assets/chapitre-2.1/11.PNG)
+![image](assets/chapitre-2.1/11.jpeg)
 
 En 1928, un billet de 20dollars américains portait la mention : « redeemable in gold on demand » (échangeable en or à la demande). Cela signifie que chaque billet était littéralement convertible en or. Plus précisément, un billet de 20,67dollars équivalait à une once d'or.
 
@@ -189,17 +189,17 @@ En 1928, un billet de 20dollars américains portait la mention : « redeemable i
 
 En 1933, un bouleversement majeur a eu lieu avec l'émission de l'ordre exécutif 6102. Ce décret a rendu illégal la possession d'or pour les citoyens, qu'il s'agisse de lingots, de pièces ou de certificats.
 
-![image](assets/chapitre-2.1/14.PNG)
+![image](assets/chapitre-2.1/14.jpeg)
 
 Le Gold Certificate (Certificat d'Or) est un bon exemple. Il était marqué : « In gold coin payable to the bearer on demand » (en pièces d'or payables au porteur sur demande). Posséder un tel certificat est devenu illégal et est resté ainsi jusqu'en 1964.
 
-![image](assets/chapitre-2.1/12.PNG)
+![image](assets/chapitre-2.1/12.jpeg)
 
 - L'Introduction des Nouveaux Billets
 
 Suite à la saisie de l'or, en 1934, une nouvelle série de billets a été mise en circulation.
 
-![image](assets/chapitre-2.1/13.PNG)
+![image](assets/chapitre-2.1/13.jpeg)
 
 La mention indiquant leur convertibilité en or a été supprimée et remplacée par « This note is legal tender for all debt » (Ce billet est une monnaie légale pour toutes dettes).
 
@@ -217,7 +217,7 @@ Auparavant, durant la Renaissance, le florin italien émis par Florence au XIIIe
 
 Dans le même esprit, l'Espagne et les Pays-Bas, en tant que détenteurs de la monnaie de réserve mondiale grâce à leur commerce international florissant, maintenaient l'intégrité de leur monnaie pour préserver la confiance et le statu quo dans les échanges internationaux. Les Pays-Bas ont même été le théâtre de la création de la première banque centrale, un jalon crucial dans l'évolution monétaire globale.
 
-![image](assets/chapitre-2.1/15.PNG)
+![image](assets/chapitre-2.1/15.jpeg)
 
 Cependant, la situation a évolué avec l'ascension des États-Unis en tant que puissance économique dominante. Ils ont choisi de dévaluer leur monnaie de réserve, exploitant ainsi l'inflation à leur avantage. Cette décision est souvent attribuée à la dynamique changée, où le choix de la monnaie de réserve n'était plus aussi libre qu'auparavant. L'hégémonie américaine a établi le dollar comme la monnaie de réserve mondiale, permettant ainsi une manipulation de sa valeur. Ce changement de cap révèle l'impact potentiel des politiques monétaires sur le commerce international dans une économie mondialisée, marquant une transition significative dans la gestion des monnaies de réserve mondiales.
 
@@ -225,11 +225,11 @@ Cependant, la situation a évolué avec l'ascension des États-Unis en tant que 
 
 Le Swiss Dinar illustre une autre facette fascinante de la dévaluation monétaire, ancrée cette fois dans le contexte irakien pré-guerres du Golfe. Appelée ainsi en référence à la qualité notable de ses billets, cette monnaie était émise par la Banque centrale irakienne et jouissait d'une réputation de stabilité dans la région du Moyen-Orient. Cette confiance était notamment due à la qualité d'impression des billets, effectuée en Angleterre, insinuant une certaine robustesse face à la dévaluation.
 
-![image](assets/chapitre-2.1/16.png)
+![image](assets/chapitre-2.1/16.jpeg)
 
 Cependant, les guerres du Golfe marquèrent un tournant dans l'histoire du Swiss Dinar. L'Irak, ne pouvant plus faire appel à son fournisseur anglais pour l'impression de ses billets, se tourna vers la Chine. Cette transition entraîna une nette différence dans la qualité des billets, la version chinoise étant perçue comme inférieure. Cette perception n'était pas sans fondement ; les billets chinois étaient plus facilement falsifiables et susceptibles d'être surimprimés par le gouvernement, menaçant ainsi leur valeur.
 
-![image](assets/chapitre-2.1/17.png)
+![image](assets/chapitre-2.1/17.jpeg)
 
 Un phénomène distinctif émergea dans l'économie irakienne post-guerre du Golfe : le système de double prix. Les commerçants proposaient des prix différents selon le type de billet utilisé pour le paiement, favorisant le Swiss Dinar original au détriment du billet chinois. Ce système reflétait la confiance maintenue envers les billets de meilleure qualité, moins susceptibles de dévaluation, même dans un contexte où la valeur était principalement imposée par l'État. Cet épisode démontre l'importance des caractéristiques intrinsèques de la monnaie, et comment, même dans un régime de monnaie fiat, la qualité perçue d'une monnaie peut influencer sa valeur relative et, par extension, la confiance des acteurs économiques.
 
@@ -237,7 +237,7 @@ Un phénomène distinctif émergea dans l'économie irakienne post-guerre du Gol
 
 La perception commune associe souvent la monnaie à une création étatique, son émission et sa valeur étant régulées par l'État. Ce concept trouve ses racines dans des civilisations antiques telles que Rome, où les pièces étaient standardisées et estampillées par l'Empire, conférant ainsi une valeur officielle aux monnaies. Cependant, une exploration plus approfondie révèle que la valeur intrinsèque de la monnaie était principalement dérivée de son contenu en métal précieux.
 
-![image](assets/chapitre-2.1/18.PNG)
+![image](assets/chapitre-2.1/18.jpeg)
 
 Un exemple concret est illustré à travers l'examen d'un poids monétaire équivalent à huit reales espagnoles, ou un dollar espagnol. Ce poids, marqué d'un chiffre romain indiquant sa valeur, servait aux changeurs de monnaie pour évaluer la valeur des pièces en fonction de leur poids, et non simplement de leur estampillage. En pesant les pièces, les changeurs pouvaient déterminer si elles avaient été altérées ou endommagées, ce qui aurait pu réduire leur valeur. Cette pratique met en lumière que, bien que l'estampillage standardisé par l'État conférait une certaine valeur nominale à la monnaie, la véritable valeur résidait dans le poids du métal précieux qu'elle contenait.
 
@@ -255,7 +255,7 @@ En concluant, cette étude sur la dévaluation monétaire ouvre la porte à une 
 
 Dans cette section, nous allons explorer les différentes dimensions de l'inflation, un phénomène souvent mal compris. Bien que l'inflation soit fréquemment perçue comme un phénomène multifactoriel dans les médias et discussions courantes, il est crucial de rappeler qu'elle est, au fond, un phénomène monétaire.
 
-![image](assets/chapitre-2.2/0.PNG)
+![image](assets/chapitre-2.2/0.jpeg)
 
 Voici une déconstruction du sujet en plusieurs points clés :
 
@@ -291,13 +291,13 @@ Cette discussion souligne l'importance de comprendre les mécanismes sous-jacent
 
 L'inflation, bien que souvent associée à l'augmentation de la masse monétaire, ne présente pas toujours une corrélation directe avec l'impression monétaire, comme illustré par la période suivant la crise financière de 2008. Malgré une impression monétaire significative pour sauver les banques, la décennie qui a suivi n'a pas connu une inflation élevée, se situant en moyenne entre 0 et 2% par an. Cette situation pose la question : pourquoi l'impression monétaire massive n'a-t-elle pas entraîné une inflation proportionnelle ? La réponse réside dans plusieurs nuances liées à la mesure de l'inflation et à l'indice des prix à la consommation (IPC ou CPI en anglais).
 
-![image](assets/chapitre-2.2/1.PNG)
+![image](assets/chapitre-2.2/1.jpeg)
 
 La première explication réside dans la manière dont l'inflation est mesurée. L'indice des prix à la consommation, utilisé comme indicateur principal de l'inflation, présente certaines lacunes. Par exemple, il ne prend pas en compte de manière exhaustive l'évolution des prix de l'immobilier. Bien que l'IPC intègre une composante liée aux loyers, l'appréciation substantielle des prix des maisons n'est pas pleinement reflétée. Ainsi, des augmentations significatives des coûts du logement peuvent se produire sans être entièrement capturées par l'IPC, sous-estimant potentiellement l'inflation réelle.
 
 En outre, le calcul de l'IPC inclut certaines méthodologies qui peuvent compenser ou masquer les augmentations de prix réelles. Par exemple, des améliorations qualitatives des produits peuvent être utilisées pour ajuster l'indice. Si le prix d'un produit augmente, mais que sa qualité ou ses caractéristiques s'améliorent également, l'IPC peut considérer que la valeur réelle pour le consommateur n'a pas changé, et donc ne pas refléter d'inflation. Un cas illustratif est celui où, malgré une hausse des prix du bœuf et des ordinateurs due à l'injection monétaire, l'amélioration de la performance des ordinateurs est utilisée pour compenser cette hausse. Si un ordinateur coûte deux fois plus cher mais est quatre fois plus puissant, l'IPC peut interpréter cela comme une baisse des prix, masquant ainsi l'augmentation du prix du bœuf.
 
-![image](assets/chapitre-2.2/2.PNG)
+![image](assets/chapitre-2.2/2.jpeg)
 
 Ces nuances dans la mesure de l'inflation par l'IPC mettent en lumière la complexité de la relation entre l'impression monétaire et l'inflation. Ils suggèrent également que l'inflation réelle peut être plus élevée que celle rapportée si l'on tenait compte de manière plus exhaustive de toutes les augmentations de prix, notamment dans des secteurs clés comme l'immobilier. Cette analyse met en exergue l'importance de comprendre les mécanismes sous-jacents de l'inflation et les limitations des indices conventionnels utilisés pour la mesurer, afin de mieux appréhender l'impact économique des politiques monétaires.
 
@@ -305,7 +305,7 @@ Ces nuances dans la mesure de l'inflation par l'IPC mettent en lumière la compl
 
 La Théorie Monétaire Moderne (MMT) propose une perspective distincte sur la création monétaire et l'inflation. Selon la MMT, l'argent émane principalement du gouvernement qui peut imprimer des montants substantiels pour financer ses besoins, sans provoquer d'inflation tant que les secteurs ciblés par ces fonds ne sont pas saturés. C'est une approche qui s'écarte des théories monétaires traditionnelles et qui souligne l'importance des capacités d'absorption sectorielles dans la dynamique inflationniste.
 
-![image](assets/chapitre-2.2/4.PNG)
+![image](assets/chapitre-2.2/4.jpeg)
 
 Un exemple illustratif de la MMT est le complexe militaro-industriel américain. Selon la MMT, des centaines de milliards de dollars peuvent être alloués à ce secteur sans provoquer d'inflation, grâce à sa capacité d'absorption. En contraste, si des fonds substantiels sont injectés dans la construction de routes aux États-Unis, où il existe un nombre limité d'entreprises et de main-d'œuvre, une inflation pourrait survenir en raison de la rareté des ressources et de la hausse des coûts demandés par les fournisseurs.
 
@@ -317,7 +317,7 @@ L'analyse du Japon (https://ideas.repec.org/p/ces/ceswps/_9821.html) met égalem
 
 Troisième exemple de pourquoi l'impression monétaire ne causerait pas d'inflation, c'est que la relation entre l'impression monétaire et l'inflation est modulée par la manière dont l'argent nouvellement créé est introduit dans l'économie. Si cet argent reste dans le bilan des banques privées sans être prêté aux acteurs économiques, il n'impactera pas directement l'économie réelle et, par conséquent, n'entraînera pas d'inflation.
 
-![image](assets/chapitre-2.2/5.PNG)
+![image](assets/chapitre-2.2/5.jpeg)
 
 L'impression monétaire peut être envisagée comme une épée de Damoclès suspendue au-dessus de l'économie. L'argent créé peut demeurer latent pendant un certain temps, sans effet inflationniste visible, tant qu'il n'est pas injecté dans l'économie via des prêts bancaires ou d'autres mécanismes. Cependant, lorsque cet argent latent est finalement mis en circulation, les effets inflationnistes peuvent alors se manifester. C'est ce qui a été observé au cours des années 2020, où l'argent créé précédemment a trouvé son chemin dans l'économie, conduisant à une inflation.
 
@@ -327,7 +327,7 @@ Ce scénario souligne l'importance des mécanismes de transmission monétaire da
 
 L'exemple de la République de Weimar illustre un autre aspect crucial de la relation entre l'impression monétaire et l'inflation : le rôle des anticipations et du comportement des agents économiques. Lorsque la Banque centrale de la République de Weimar a commencé à imprimer une grande quantité de monnaie, l'incertitude économique a conduit les individus à thésauriser, c'est-à-dire à stocker l'argent plutôt qu'à le dépenser. Cette réaction a temporairement retardé les effets inflationnistes de l'impression monétaire.
 
-![image](assets/chapitre-2.2/6.PNG)
+![image](assets/chapitre-2.2/6.jpeg)
 
 Cependant, lorsque la situation économique a commencé à s'améliorer légèrement, la confiance a progressivement été restaurée. Les individus ont alors retiré leur épargne de leurs cachettes et ont commencé à dépenser massivement dans l'économie. Ce changement soudain de comportement, combiné à une masse monétaire élevée déjà existante, a conduit à une explosion de la demande. Avec plus d'argent en circulation et une demande accrue, les prix ont commencé à monter rapidement, conduisant à une inflation notable.
 
@@ -349,37 +349,37 @@ Cet exemple met en lumière l'importance du timing et des comportements des agen
 
 Ces exemples peuvent être utilisés dans des discussions pour expliquer pourquoi l'inflation n'est pas toujours une conséquence immédiate de l'impression monétaire, et comment les contextes économiques et comportements des agents influencent l'inflation.
 
-![image](assets/chapitre-2.2/0.5.PNG)
+![image](assets/chapitre-2.2/0.5.jpeg)
 
 Par ce que comme lemontre bien ce [thread](https://twitter.com/saifedean/status/1673639779433590786): L'inflation c'est tous, sauf la fautes des banques centrale.
 
 - Économistes blâmant l'inflation sur le changement climatique
 
-![image](assets/chapitre-2.2/8.PNG)
+![image](assets/chapitre-2.2/8.jpeg)
 
 - Exemple de la Suède blâmant Beyoncé pour l'inflation durant un mois spécifique.
 
-![image](assets/chapitre-2.2/0.PNG)
+![image](assets/chapitre-2.2/0.jpeg)
 
 - Banque centrale en Pologne attribuant l'inflation à l'agression russe en Ukraine et à la pandémie
 
-![image](assets/chapitre-2.2/7.PNG)
+![image](assets/chapitre-2.2/7.jpeg)
 
 - Brexit blâmé pour l'inflation au Royaume-Uni.
 
-![image](assets/chapitre-2.2/9.PNG)
+![image](assets/chapitre-2.2/9.jpeg)
 
 - Sortie du jeu Zelda associée à un choc inflationniste.
 
-![image](assets/chapitre-2.2/12.PNG)
+![image](assets/chapitre-2.2/12.jpeg)
 
 - Taylor Swift prétendument causant de l'inflation.
 
-![image](assets/chapitre-2.2/15.PNG)
+![image](assets/chapitre-2.2/15.jpeg)
 
 Comment Beyoncé ou Taylor Swift, dites-moi, pourrait expliquer une hausse généralisée des prix? Vous voyez que ça ne fait aucun sens. En gros:
 
-![image](assets/chapitre-2.2/14.PNG)
+![image](assets/chapitre-2.2/14.jpeg)
 
 ### Exploration des Types d'Inflation
 
@@ -393,7 +393,7 @@ Il est primordial de saisir la distinction entre les différents types d'inflati
 
 - Hyperinflation : L'hyperinflation est un phénomène extrême où le taux d'inflation dépasse 50% par mois, ce qui, en raison de la nature exponentielle de l'inflation, équivaut à une inflation annuelle de plus de 13,000%. Ce niveau d'inflation déstabilise gravement l'économie, rendant la monnaie presque sans valeur et provoquant une perte de confiance dans le système monétaire.
 
-![image](assets/chapitre-2.2/17.PNG)
+![image](assets/chapitre-2.2/17.jpeg)
 
 Dans l'exploration des types d'inflation, il est courant de rencontrer des termes comme "Demand Pull" et "Cost Push" dans les ressources éducatives. Ces concepts, bien que valides, tendent à expliquer les hausses de prix plutôt que l'inflation en tant que phénomène monétaire. Voici une analyse plus approfondie :
 
@@ -409,7 +409,7 @@ Ces explications traditionnelles associent souvent les hausses de prix à l'infl
 
 Bernholz propose une classification simplifiée mais précise de l'inflation en trois catégories, permettant de mieux appréhender ce phénomène monétaire complexe :
 
-![image](assets/chapitre-2.2/16.PNG)
+![image](assets/chapitre-2.2/16.jpeg)
 
 - Inflation Modérée :
   L'inflation modérée se manifeste lorsque le niveau de masse monétaire est supérieur à la normale, mais sans que l'État ne recoure à de larges déficits financés par la création monétaire. Bien que le terme "modérée" puisse sembler insignifiant, cette forme d'inflation peut engendrer des problèmes substantiels, bien que n'étant pas classée comme haute inflation.
@@ -475,11 +475,11 @@ Pour illustrer, si l'inflation chute à 40% en juillet et ne remonte pas au-dess
 
 Cette définition a été adoptée dans le tableau Hanke-Krus, qui documente 56 épisodes d'hyperinflation. Toutefois, le tableau ne couvre pas tous les épisodes, comme celui du Venezuela en 2016, portant le total à 57.
 
-![image](assets/chapitre-3.1/1.png)
+![image](assets/chapitre-3.1/1.jpeg)
 
 zoom
 
-![image](assets/chapitre-3.1/0.PNG)
+![image](assets/chapitre-3.1/0.jpeg)
 
 Il est à noter que cette définition, bien que précise, pourrait possiblement exclure certains épisodes d'hyperinflation en raison de la rigueur du seuil de 50%. Il existe une possibilité d'élargissement de cette définition pour inclure d'autres épisodes qui, bien que ne répondant pas strictement au critère de Cagan, représentent néanmoins des périodes d'inflation extrêmement élevée. Cette observation ouvre la porte à une exploration plus large des phénomènes d'hyperinflation, permettant une compréhension plus nuancée de ses causes et de ses effets. Dans les discussions ultérieures, nous envisagerons de revisiter cette définition et d'examiner des épisodes d'hyperinflation non couverts par le critère strict de Cagan.
 
@@ -487,7 +487,7 @@ Il est à noter que cette définition, bien que précise, pourrait possiblement 
 
 Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbitraire avec le seuil de 50% d'inflation mensuelle. Il admet lui-même que cette définition est arbitraire et servait principalement son analyse basée sur sept épisodes d'hyperinflation. L'examen des données de Cagan révèle que les trois épisodes d'hyperinflation avec les taux d'inflation mensuels les plus bas étaient autour de 47%, 46% et 57%. Il semble que le seuil de 50% a été choisi pour englober ces cas dans son étude.
 
-![image](assets/chapitre-3.1/4.PNG)
+![image](assets/chapitre-3.1/4.jpeg)
 
 - Contexte Historique :
   La définition de Cagan date de 1956, et se base sur un nombre limité d'épisodes d'hyperinflation disponibles à cette époque.
@@ -499,7 +499,7 @@ Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbi
   D'autres économistes, comme Bernholz, l'auteur de Monetary Regime and Inflation, ont également qualifié le seuil de 50% d'arbitraire.
   Bernholz note qu'il existe des épisodes de haute inflation ayant les mêmes caractéristiques qualitatives que les épisodes d'hyperinflation, sans atteindre le seuil de 50%.
 
-![image](assets/chapitre-3.1/3.PNG)
+![image](assets/chapitre-3.1/3.jpeg)
 
 Cette réflexion nous conduit à questionner la rigidité de la définition traditionnelle de l'hyperinflation, et souligne la nécessité de peut-être revisiter ce seuil en intégrant plus d'épisodes et de données historiques. La définition de l'hyperinflation pourrait nécessiter une flexibilité pour englober diverses manifestations d'inflation extrême dans différents contextes économiques et historiques.
 
@@ -522,11 +522,11 @@ L'IASB propose une perspective unique sur l'hyperinflation, axée sur les pratiq
 - Inflation Cumulative sur Trois Ans :
   L'inflation cumulative sur trois ans approchant 100% (soit environ 24% par an), contrastant avec la définition de Kagan de 50% d'inflation mensuelle.
 
-![image](assets/chapitre-3.1/5.png)
+![image](assets/chapitre-3.1/5.jpeg)
 
 Selon les critères de l'IASB, plusieurs pays, dont l'Argentine, l'Éthiopie, Haïti, l'Iran, le Liban, le Soudan, le Soudan du Sud, Suriname, la Syrie, la Turquie, le Venezuela, le Yémen et le Zimbabwe, sont actuellement en période d'hyperinflation.
 
-![image](assets/chapitre-3.1/6.png)
+![image](assets/chapitre-3.1/6.jpeg)
 
 Cette définition fournie par l'IASB s'éloigne du seuil quantitatif strict proposé par Kagan, en intégrant une analyse qualitative des comportements économiques et des ajustements pratiques face à l'hyperinflation. Elle démontre que l'hyperinflation est un phénomène complexe qui nécessite une compréhension multidimensionnelle pour en saisir les implications réelles, en particulier dans le domaine de la comptabilité qui est crucial pour la stabilité et la transparence financière des entreprises et des marchés.
 
@@ -534,7 +534,7 @@ Cette définition fournie par l'IASB s'éloigne du seuil quantitatif strict prop
 
 Les définitions courantes d'hyperinflation, comme celle avancée par Kagan stipulant une inflation mensuelle de 50%, peuvent parfois prêter à confusion ou être réductrices. Par exemple, deux pays connaissant des taux d'inflation annuelle respectifs de 1 000% et 3 000% peuvent être perçus différemment en fonction de la répartition mensuelle de cette inflation. Si aucun mois ne dépasse le seuil de 50%, selon la définition de Kagan, ces pays ne seraient pas en état d'hyperinflation. Cette approche peut donc conduire à des anomalies dans la classification de l'hyperinflation, surtout quand on compare des inflations cumulées sur l'année.
 
-![image](assets/chapitre-3.1/7.PNG)
+![image](assets/chapitre-3.1/7.jpeg)
 
 - L'ouvrage de Kagan, "Monetary Dynamics of Hyperinflation", qui établit une analyse fondamentale de l'hyperinflation.
 - Le livre de Bernold qui étudie 30 périodes d'hyperinflation distinctes, élargissant ainsi le spectre d'analyse.
@@ -553,13 +553,13 @@ Danc ce chapitre, nous explorerons les impacts de l'hyperinflation, en nous conc
 
 Plusieurs ouvrages ont été particulièrement instructifs :
 
-![image](assets/chapitre-3.2/0.png)
+![image](assets/chapitre-3.2/0.jpeg)
 
 - "When Money Dies" par Adam Ferguson, retrace l'hyperinflation post-Première Guerre mondiale en Allemagne, ainsi qu'en Autriche et en Hongrie.
 
 - Deux livres sur l'hyperinflation au Zimbabwe : "Zimbabwe Warm Heart Ugly Face" et "Hard Boiled Egg Index" par Jérôme Gardner et Kudzai Joseph Gou Min-Yu respectivement, offrent des témoignages poignants d'un PDG d'une chaîne de magasins de vêtements et d'un banquier agricole sur leurs expériences durant cette période tumultueuse.
 
-![image](assets/chapitre-3.2/1.PNG)
+![image](assets/chapitre-3.2/1.jpeg)
 
 En consolidant mes notes, j'ai discerné une multitude de similitudes entre les expériences d'hyperinflation au Zimbabwe et dans la République de Weimar, malgré le fossé de 90 ans les séparant. J'ai identifié environ 17 similitudes, dont 13 illustraient une sorte de progression vers le désastre économique dépeint dans ces témoignages. Ces parallèles fascinants démontrent la nature répétitive et dévastatrice de l'hyperinflation à travers les époques et les frontières. Nous examinerons aujourd'hui ces similitudes et la façon dont elles dépeignent une trajectoire inquiétante durant les périodes d'hyperinflation.
 
@@ -591,7 +591,7 @@ Dans certaines circonstances économiques, la valeur intrinsèque d'un billet pe
 
 > Zimbabwe: “La Banque centrale avait gaspillé de l'argent en imprimant un billet qui ne valait pas le papier sur lequel il était imprimé. En d'autres termes, sa valeur était inférieure à celle du papier toilette. Aussi absurde que cela puisse paraître, il était alors moins cher d'utiliser le billet de ZWD 100 trillions comme papier toilette que d'acheter le véritable papier toilette.”
 
-![image](assets/chapitre-3.2/PN3.pngG)
+![image](assets/chapitre-3.2/PN3.jpegG)
 
 4. Comptage de l'argent
 
@@ -629,7 +629,7 @@ Dans des contextes économiques instables, les valeurs traditionnelles de travai
 
 > Zimbabwe: “Ces pratiques, si elles ont enrichi quelques personnes, ont appauvri la classe ouvrière urbaine ainsi que la population rurale. L'éducation avait perdu de sa valeur, car ce commerce était animé par des personnes n'ayant besoin ni d'éducation ni de travail acharné pour le justifier. Tout ce dont ils avaient besoin, c'étaient des relations et un capital initial pour démarrer leur affaire d'argent facile.”
 
-![image](assets/chapitre-3.2/5.png)
+![image](assets/chapitre-3.2/5.jpeg)
 
 8. Les "banques du monde"
 
@@ -657,7 +657,7 @@ Lorsqu'un pays est confronté à une crise monétaire ou économique, l'une des 
 
 > Zimbabwe: “le gouvernement a introduit le SI 175/2008 le 12 décembre 2008 concernant le paiement par chèques. Il stipulait, ‘La pénalité pour avoir refusé un paiement par un chèque/carte bancaire ou une autre méthode de paiement électronique médiée par une banque, sera une amende de niveau 8 ou une peine d'emprisonnement d'une durée de six mois ou les deux.’ Évidemment, nous avons ignoré le SI car il était totalement en décalage avec la réalité.”
 
-![image](assets/chapitre-3.2/4.png)
+![image](assets/chapitre-3.2/4.jpeg)
 
 11. Contraints de garder leurs boutiques ouvertes
 
@@ -685,7 +685,7 @@ L'achat frénétique de devises étrangères a souvent marqué un tournant criti
 
 ### Récap du déroulement
 
-![image](assets/chapitre-3.2/2.png)
+![image](assets/chapitre-3.2/2.jpeg)
 
 Lors de l'analyse de la trajectoire économique, il est apparent que lorsqu'une haute inflation est atteinte, la valeur de la masse monétaire se dégrade. Cette dévaluation engendre plusieurs complications, notamment la pénurie de billets. Dans ce contexte, les opportunités d'arbitrage se manifestent, en particulier avec les fluctuations des taux de change. De ce fait, nombre d'individus se tournent vers cet arbitrage, investissant massivement dans des actifs tangibles, dans l'anticipation d'une dévaluation monétaire future qui leur permettrait de rembourser leurs dettes avec une monnaie affaiblie. Cet environnement économique nuit à l'attrait des emplois traditionnels, et par conséquent, érode la cohésion sociale.
 
@@ -693,7 +693,7 @@ Face à cette situation, l'État impose des régulations draconiennes, dont des 
 
 ### 4 Similitudes des conséquences de l'hyperinflation
 
-![image](assets/chapitre-3.2/6.png)
+![image](assets/chapitre-3.2/6.jpeg)
 
 1. Oil and metals
 
@@ -745,7 +745,7 @@ Dans ce chapitre, nous explorerons les différences et parallèles entre les pé
 
 En Allemagne, il était courant que la population attribue l'inflation à la montée du dollar plutôt qu'à la dévaluation intrinsèque de leur propre monnaie. Beaucoup étaient persuadés que le phénomène observé était dû à une appréciation du dollar. Cette perception écartait toute reconnaissance du lien entre leur difficulté économique et la dévaluation monétaire, principalement induite par la création excessive de monnaie. Le livre "When Money Dies" illustre clairement cette méconnaissance parmi la population allemande. En revanche, au Zimbabwe, la situation était distincte : les citoyens étaient pleinement conscients de la cause sous-jacente de l'hyperinflation qu'ils subissaient.
 
-![image](assets/chapitre-3.3/3.png)
+![image](assets/chapitre-3.3/3.jpeg)
 
 2. La monnaie de nécessité (Notgeld)
 
@@ -753,7 +753,7 @@ Face à la crise monétaire et économique, l'Allemagne a eu recours aux "Notgel
 
 De manière intéressante, la France a également eu recours aux Notgeld, notamment dans les années 1920. Cette initiative n'était pas seulement une conséquence directe de l'hyperinflation, mais avait également des racines dans les perturbations causées par la Première Guerre mondiale. La guerre a non seulement déstabilisé l'économie, mais elle a également augmenté le coût des métaux. Par conséquent, la valeur intrinsèque des pièces de monnaie en métal dépassait souvent leur valeur nominale, ce qui poussait les gens à les stocker. En l'absence de pièces de monnaie, certaines institutions, comme la Chambre de commerce de Lyon, ont imprimé leurs propres Notgeld.
 
-![image](assets/chapitre-3.3/0.PNG)
+![image](assets/chapitre-3.3/0.jpeg)
 
 > “What has to be done, has to be done.” - a local saying
 
@@ -761,7 +761,7 @@ Parmi les Notgeld, un billet particulier attire l'attention. Il présente une il
 
 L'artiste derrière ce Notgeld semble adresser une critique ironique envers les autorités, responsables de la crise d'hyperinflation. Le billet porte l'inscription "Necessity knows no law", signifiant "La nécessité ne connaît pas de loi". Une autre expression, spécifique à la localité d'origine du Notgeld, énonce : "Ce qui doit être fait doit être fait".
 
-![image](assets/chapitre-3.3/1.PNG)
+![image](assets/chapitre-3.3/1.jpeg)
 
 > “necessity knows no law”
 
@@ -777,7 +777,7 @@ L'artiste derrière ce Notgeld semble adresser une critique ironique envers les 
 
 Pour en apprendre plus sur la gestion de la crise allemande ce livre est également fondamental.
 
-![image](assets/chapitre-3.3/4.png)
+![image](assets/chapitre-3.3/4.jpeg)
 
 ### Les parallèles contemporains
 
@@ -824,7 +824,7 @@ Une compagnie zombie est une entreprise qui, en conditions de marché normales, 
 
 Cette notion de compagnie zombie n'est pas nouvelle. En effet, elle était présente dans la République de Weimar. À cette époque, bon nombre de compagnies étaient florissantes en apparence, profitant largement de l'accès au crédit gratuit. Elles empruntaient des sommes considérables, avec la perspective de rembourser ultérieurement avec une monnaie dépréciée en raison de l'inflation galopante. Cependant, lorsque l'inflation a cessé et que la marque allemande a repris de la valeur, ces entreprises, qui n'étaient pas véritablement viables en termes opérationnels et financiers, sont devenues non rentables et ont dû fermer leurs portes.
 
-![image](assets/chapitre-3.3/5.png)
+![image](assets/chapitre-3.3/5.jpeg)
 
 Le phénomène des compagnies zombies ne se limite pas à l'histoire de l'Allemagne d'après-guerre. Aujourd'hui encore, de nombreuses grandes entreprises subsistent grâce à un accès privilégié à des crédits à taux d'intérêt très bas. Si elles devaient emprunter à des taux plus conventionnels, nombre d'entre elles cesseraient d'être rentables. C'est d'autant plus pertinent que nous sommes en 2023, et après une longue période de taux d'intérêt proches de zéro, ceux-ci ont commencé à augmenter. Cette évolution récente du paysage financier sera sans doute un test décisif pour ces compagnies autrefois qualifiées de "zombies".
 
@@ -832,7 +832,7 @@ Le phénomène des compagnies zombies ne se limite pas à l'histoire de l'Allema
 
 Dans l'histoire, on observe des moments où les individus cherchent à s'enrichir rapidement, comme ce fut le cas à Weimar et au Zimbabwe à travers l'arbitrage. Aujourd'hui, on note une tendance similaire avec l'émergence de certaines cryptomonnaies. Les gens sont tentés par des gains rapides, prenant des risques en espérant une multiplication exponentielle de leur investissement. Cette approche peut rappeler celle observée en période d'hyperinflation, où l'arbitrage est utilisé pour obtenir des gains rapides, souvent au détriment d'autres.
 
-![image](assets/chapitre-3.3/6.PNG)
+![image](assets/chapitre-3.3/6.jpeg)
 
 6. L'épargne, le remède cnotre l'incertitude
 
@@ -854,7 +854,7 @@ nous allons regarder ensemble différentes périodes de rédénomination dans de
 
 Sur la diapositive, à gauche, figurent les années de rédénomination, le nom de la nouvelle monnaie, et le taux d'échange avec l'ancienne monnaie. Prenant l'exemple de l'Argentine, le peso moneda nacional a été converti au taux de 25 pour 1 de la monnaie précédente, le peso real. Dans ce contexte, nous examinerons l'évolution de la monnaie argentine au fil du temps. De plus, nous indiquerons les dénominations initiales et finales des billets de banque pour chaque période.
 
-![image](assets/chapitre-3.4/1.PNG)
+![image](assets/chapitre-3.4/1.jpeg)
 
 À droite de la diapositive, il y a un graphique de l'inflation. Les flèches rouges représentent les années d'hyperinflation, définies selon le critère de Kagan comme étant une inflation de 50 % par mois. Ce critère peut parfois conduire à des interprétations ambiguës, avec des années présentant des taux d'inflation élevés mais ne répondant pas à la définition stricte d'hyperinflation.
 
@@ -864,13 +864,13 @@ Après l'Argentine, notre étude couvrira le Brésil, la Bolivie, le Pérou, le 
 
 ### Argentine
 
-![image](assets/chapitre-3.4/1.PNG)
+![image](assets/chapitre-3.4/1.jpeg)
 
 Avant 1826, l'Argentine utilisait le dollar espagnol. Après son indépendance en 1816, elle a introduit sa propre monnaie basée sur le réal espagnol, aboutissant à la création d'une monnaie similaire. Le tableau commence en 1881, année de l'introduction du "peso moneda nacional" avec des billets allant jusqu'à 10 000. Ce dernier a été suivi par le "peso ley", échangé à un taux de 100 pour 1 et avec des billets montant jusqu'à un million. Ensuite, l'"argentine peso" est arrivé avec un taux d'échange de 10 000 pour 1 (équivalent à la suppression de quatre zéros), et des billets jusqu'à 10 000. En 1985, l'"australes" a été introduit et échangé à 1000 pour 1, avec des billets allant jusqu'à 500 000. En 1992, l'actuel "peso ley" a été instauré avec un taux de 10 000 pour 1, supprimant encore une fois quatre zéros. Seules les années 1989 et 1990 ont connu de l'hyperinflation.
 
 ### Brazil
 
-![image](assets/chapitre-3.4/2.PNG)
+![image](assets/chapitre-3.4/2.jpeg)
 
 Le Brésil est un cas emblématique en matière de redénomination monétaire, comme illustré par son histoire riche en changements de monnaie. Avant son indépendance, le Brésil utilisait le réal portugais. Toutefois, dès 1747, le pays a commencé à utiliser son propre "réal brésilien", bien avant sa déclaration d'indépendance en 1822. Le tableau débute en 1818, marquant le début de l'émission des billets de banque brésiliens, avant cela, la monnaie était principalement sous forme de pièces. Ces billets atteindront des valeurs allant jusqu'à un million de réals.
 
@@ -889,7 +889,7 @@ Le billet le plus élevé a atteint 500 000, et la dernière redénomination en 
 
 ### Bolivie
 
-![image](assets/chapitre-3.4/3.PNG)
+![image](assets/chapitre-3.4/3.jpeg)
 
 a Bolivie est un autre exemple de pays ayant traversé des périodes d'inflation aiguë, nécessitant des redénominations monétaires. Voici un résumé de son histoire monétaire :
 
@@ -905,7 +905,7 @@ Voilà un aperçu de la tumultueuse histoire monétaire de la Bolivie, marquée 
 
 ### Peru
 
-![image](assets/chapitre-3.4/4.PNG)
+![image](assets/chapitre-3.4/4.jpeg)
 
 Le Pérou présente un cas intéressant en ce qui concerne les effets de la règle arbitraire des 50 %. Pour commencer par son histoire monétaire, le Pérou utilisait l'or espagnol jusqu'au 19e siècle et a déclaré son indépendance en 1821. Le dollar péruvien était en usage de 1822 à 1863. En 1863, le réel péruvien a été remplacé par le soldi oro, avec un taux de 10 pour 1, atteignant une valeur maximale de 50 000. En 1985, la monnaie "Inti" a été introduite avec un taux de conversion de 1000 pour 1, culminant à 5 millions. En 1991, le "SOL" a été lancé avec un taux de 1 million pour 1, avec des billets allant de 10 à 200.
 
@@ -917,25 +917,25 @@ En examinant les périodes de redénomination, 1988 est considéré comme une an
 
 ### Le Nicaragua
 
-![image](assets/chapitre-3.4/5.PNG)
+![image](assets/chapitre-3.4/5.jpeg)
 
 Le Nicaragua, autrefois sous la domination espagnole, utilisait initialement le dollar espagnol, tout comme de nombreux autres pays colonisés par l'Espagne. Après avoir été intégré à l'Empire espagnol, l'Empire mexicain, puis la République fédérale de l'Amérique centrale, le Nicaragua a proclamé son indépendance. À partir de 1878, le peso est devenu la monnaie officielle du pays, avec des valeurs fluctuant entre 1 et 100. En 1912, le pays a introduit le premier Cordoba, suivi du deuxième en 1988 et du troisième en 1991, qui est toujours en usage aujourd'hui. Le premier Cordoba a atteint une valeur de 1 million, le deuxième 10 millions. La redénomination en 1991 a suivi plusieurs années d'hyperinflation.
 
 ### Venezuela
 
-![image](assets/chapitre-3.4/6.PNG)
+![image](assets/chapitre-3.4/6.jpeg)
 
 Le Venezuela est le dernier pays évoqué dans cette vidéo. Le pays a subi quatre redénominations monétaires au fil du temps. À ses débuts, le Venezuela utilisait le dollar espagnol avant de déclarer son indépendance en 1811. En 1879, il introduisit le bolivar comme monnaie officielle, qui resta en vigueur jusqu'en 1983, année où le gouvernement opta pour un dollar à taux flottant.
 
 Un fait notable concernant le Venezuela est son adhésion à l'Union monétaire latine. Cette union comprenait des pièces telles que les 5 pesetas de l'Espagne, les 5 drachmas de la Grèce, les 5 bolivars du Venezuela, les 5 lire de l'Italie, les 5 francs belges et les 5 francs français.
 
-![image](assets/chapitre-3.4/8.PNG)
+![image](assets/chapitre-3.4/8.jpeg)
 
-![image](assets/chapitre-3.4/7.PNG)
+![image](assets/chapitre-3.4/7.jpeg)
 
-![image](assets/chapitre-3.4/9.PNG)
+![image](assets/chapitre-3.4/9.jpeg)
 
-![image](assets/chapitre-3.4/10.PNG)
+![image](assets/chapitre-3.4/10.jpeg)
 
 Durant cette période, la pièce de 5 bolivars du Venezuela avait le même poids que celles des pays membres de l'Union, notamment l'Italie, l'Espagne, la Belgique et la France. Ces bolivars étaient composés d'argent, avec une pièce spécifique de 1929 pesant 25 grammes et ayant une pureté de 900, soit 90 % d'argent pur. Avec le cours actuel de l'argent, cette pièce vaut approximativement 17 à 18 dollars US.
 
@@ -979,13 +979,13 @@ Un aspect intéressant soulevé par Bernold est que la réussite d'une réforme 
 
 ### Le cas du Zimbabwe
 
-![image](assets/chapitre-3.5/1.PNG)
+![image](assets/chapitre-3.5/1.jpeg)
 
 Le Zimbabwe a accédé à l'indépendance en 1980 et a introduit le dollar zimbabwéen. Initialement, deux dollars zimbabwéens valaient environ 1,60 dollar américain. Cependant, en 1997, suite à des mesures sociales en faveur des vétérans de la guerre d'indépendance, la monnaie a dévalué de 72% en une journée lors du Black Friday. Puis, au début des années 2000, le pays a lancé un programme de redistribution des terres, retirant les terres des propriétaires blancs pour les remettre à la population locale. Cette décision a nui à l'exportation car les nouveaux propriétaires n'avaient souvent pas l'expertise nécessaire pour gérer d'importantes exploitations agricoles. De fait, alors que le Zimbabwe était un exportateur net en 1999, il est devenu importateur net en 2003.
 
 En 2006, le pays a introduit une nouvelle version de sa monnaie, le ZWN, avec un taux d'échange de 1 pour 1 000. En 2008, une autre dénomination, le ZWR, a été introduite avec un taux d'échange de 1 pour 10 milliards. Cela a conduit à la création des billets emblématiques de 100 trillions.
 
-![image](assets/chapitre-3.5/2.png)
+![image](assets/chapitre-3.5/2.jpeg)
 
 #### La dollarisation & sortie de crise
 
@@ -1001,11 +1001,11 @@ C'est inquiétant de noter que le Zimbabwe a depuis tenté de réintroduire sa p
 
 Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation.
 
-![image](assets/chapitre-3.5/3.PNG)
+![image](assets/chapitre-3.5/3.jpeg)
 
 Pour ceux qui sont curieux de l'expérience allemande après la Première Guerre mondiale, je recommande vivement la bande dessinée "Le banquier du Reich". Elle narre comment l'Allemagne a réussi à surmonter l'hyperinflation, notamment grâce à la création du Rentenmark.
 
-![image](assets/chapitre-3.5/4.PNG)
+![image](assets/chapitre-3.5/4.jpeg)
 
 Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation. Pour ceux qui sont curieux de l'expérience allemande après la Première Guerre mondiale, je recommande vivement la bande dessinée "Le banquier du Reich". Elle narre comment l'Allemagne a réussi à surmonter l'hyperinflation, notamment grâce à la création du Rentenmark.
 
@@ -1027,7 +1027,7 @@ Transcripte:
 
 L'émergence de la deuxième couche monétaire et des premières banques centrales est un sujet fascinant. Ce thème est largement abordé dans le livre "Layered Money" de Nick Battia. Je le recommande vivement à ceux qui s'intéressent à l'évolution et aux subtilités de nos systèmes monétaires. L'objectif de cette section est de comprendre l'origine de la création monétaire et comment cela a pu conduire à l'hyperinflation.
 
-![image](assets/chapitre-4.1/1.PNG)
+![image](assets/chapitre-4.1/1.jpeg)
 
 ### Monnaie pyramide et banques centrales
 
@@ -1035,9 +1035,9 @@ L'émergence de la deuxième couche monétaire et des premières banques central
 
 L'histoire de la monnaie remonte à l'Italie du XIIIe siècle, plus précisément à Florence. À cette époque, le florin et les lettres de change étaient courants. Un exemple notable est le florin, orné de la figure de Saint-Jean-Baptiste.
 
-![image](assets/chapitre-4.1/2.PNG)
+![image](assets/chapitre-4.1/2.jpeg)
 
-![image](assets/chapitre-4.1/3.PNG)
+![image](assets/chapitre-4.1/3.jpeg)
 
 Bien que posséder un vrai florin soit coûteux aujourd'hui, il existe des reproductions disponibles. Il y a également d'autres monnaies de l'époque, comme le soldo des États italiens du XVIIe siècle, qui arbore une image du Christ.
 
@@ -1055,13 +1055,13 @@ Ce concept, bien qu'associé à Nick Bell via son pseudonyme Twitter "time value
 
 #### la VOC et lemarché d'action à Amsterdam (17e)
 
-![image](assets/chapitre-4.1/4.PNG)
+![image](assets/chapitre-4.1/4.jpeg)
 
 Après la bourse d'Anvers, une étape majeure a été la fondation de la VOC, la Compagnie des Indes orientales. Cette compagnie, basée aux Pays-Bas, a même émis sa propre monnaie. Suite à la création de la VOC, la première bourse a vu le jour à Amsterdam, devenant le premier marché d'actions pour cette entreprise. Ce qu'il est intéressant de souligner, c'est la manière dont les Néerlandais ont réussi à mettre fin à la suprématie d'Anvers en tant que centre économique international. Ils ont simplement bloqué l'accès au fleuve Escaut. Cette stratégie faisait partie d'un plus grand mouvement historique, la révolte des gueux. Un événement crucial dans l'histoire européenne.
 
 #### La banque d'amsterdam intervient
 
-![image](assets/chapitre-4.1/5.PNG)
+![image](assets/chapitre-4.1/5.jpeg)
 
 Après la création de la VOC, un autre élément marquant de l'histoire monétaire a été l'introduction des golden par la Banque d'Amsterdam. Ces pièces, datant notamment de 1722, étaient en argent. Toutefois, ce qui a véritablement révolutionné la finance à cette époque n'était pas tant la pièce elle-même, mais les comptes associés à cette monnaie à la Banque d'Amsterdam. Ces comptes sont devenus le principal moyen d'échange international. Les transactions étaient simplement inscrites dans des registres, ou "ledgers" en anglais. Grâce à ce système, Amsterdam est devenue le centre économique mondial. Avec le temps, la Banque d'Amsterdam a décidé d'imposer l'utilisation de ces comptes. Les changeurs indépendants étaient contraints d'échanger leurs pièces contre des dépôts à la banque tous les jours.
 
@@ -1073,7 +1073,7 @@ Initialement, la première couche de monnaie était représentée par l'or. Les 
 
 #### La panique de 1796
 
-![image](assets/chapitre-4.1/6.png)
+![image](assets/chapitre-4.1/6.jpeg)
 Panique bancaire à la banque Seamen's Savings durant la panique de 1857.
 
 Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le monde cherchait à remonter la "pyramide de la monnaie". Les gens voulaient échanger leur monnaie de troisième couche contre celle de la deuxième couche, puis, finalement, contre la monnaie de première couche, l'or. Face à cette ruée massive, la Banque d'Angleterre a été contrainte d'agir pour stabiliser la situation. Pour éviter une éventuelle déflation des réserves d'or, elle a décidé de suspendre la convertibilité de ses billets de banque en or. Cette suspension, initialement envisagée comme une mesure temporaire, s'est prolongée sur une période de deux décennies.

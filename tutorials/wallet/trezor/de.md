@@ -35,73 +35,73 @@ Der Trezor wird mit seinem eigenen Micro-USB-Kabel geliefert. Stellen Sie sicher
 
 Schließen Sie es an Ihren Computer an und das Gerät wird eingeschaltet. Sie erhalten eine Nachricht, die besagt "Gehen Sie zu Trezor.io/start". Tun Sie dies und laden Sie Trezor Suite auf Ihren Computer herunter.
 
-![image](assets/0.png)
+![image](assets/0.jpeg)
 
 Klicken Sie auf die Schaltfläche "Herunterladen" ("Desktop-App erhalten")
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 Beachten Sie die Links für die Signatur und den Signierschlüssel. Um den Download zu überprüfen (um sicherzustellen, dass Ihr Download nicht manipuliert wurde), gibt es zusätzliche Schritte, die optional sind, wenn Sie gerade erst anfangen, aber OBLIGATORISCH, wenn Sie erheblichen Reichtum sichern möchten. Anweisungen dazu finden Sie im Anhang A (Ende der Anleitung).
 
 Schließen Sie den Trezor mit dem Micro-USB-Kabel an den Computer an und installieren und starten Sie das Programm. So sieht es auf einem Mac aus:
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Nach dem Ausführen des Programms erhalten Sie eine alberne Warnung, setzen Sie einfach fort:
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Klicken Sie auf "Trezor einrichten"
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Wenn die Firmware veraltet ist, erlauben Sie Trezor, die Firmware zu aktualisieren.
 
 Als nächstes können Sie einen neuen Seed erstellen oder eine Brieftasche von einem anderen Gerät mit einem bereits vorhandenen Seed wiederherstellen. Ich werde die Erstellung eines neuen Seeds durchgehen.
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Klicken Sie auf "Neue Brieftasche erstellen" - und bestätigen Sie, dass Sie dies auf dem Gerät selbst tun möchten, indem Sie auf die Bestätigungsschaltfläche klicken.
 
 Klicken Sie dann auf die einzige Option "Standard-Saatgut-Backup"
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Klicken Sie dann auf "Backup erstellen"
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Klicken Sie auf die drei Häkchen, um sie grün zu machen (lesen Sie natürlich jede Nachricht) und klicken Sie dann auf "Backup beginnen".
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 Als nächstes sehen Sie dies:
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 Auf dem Gerät sehen Sie die Ihnen nacheinander präsentierten Wörter und schreiben sie ORDENTLICH und IN DER REIHENFOLGE auf.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Legen Sie eine PIN fest, um das Gerät zu sperren (dies ist kein Teil Ihres Seeds, sondern dient nur dazu, das Gerät zu sperren, damit niemand auf den darin enthaltenen Seed zugreifen kann).
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Du hast die Möglichkeit, Shitcoins zu deiner Wallet hinzuzufügen - ich rate dir jedoch davon ab und empfehle, nur in Bitcoin zu sparen, wie ich hier (warum Bitcoin) und hier (warum nur Bitcoin) erkläre.
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 Gib deiner Wallet einen Namen und klicke auf "Access Suite":
 
-![image](assets/13.png)
+![image](assets/13.jpeg)
 
 Am einfachsten ist es, eine Wallet ohne Passphrase zu erstellen, aber es ist am besten, eine mit Passphrase (deine echte Wallet) und eine ohne Passphrase (deine Tarn-Wallet) zu erstellen. Jedes Mal, wenn du über Trezor Suite auf das Gerät zugreifst, wirst du gefragt, ob du die Passphrase "anwenden" möchtest oder nicht.
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Ich habe "Hidden Wallet" ausgewählt und eine Passphrase eingegeben, die ich mir ausgedacht habe: "craigwrightisaliarandafraud"
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 Mir gefällt, wie es "hidden" Wallet genannt wird, da es teilweise erklärt, wie Passphrasen funktionieren.
 
@@ -109,15 +109,15 @@ Bestätige die Passphrase auf dem Gerät.
 
 Da diese Wallet leer ist, wurde ich gebeten, zu bestätigen, dass die Passphrase korrekt ist:
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Du wirst dann gefragt, ob du die Beschriftung aktivieren möchtest. Etwas, das ich nicht erkundet habe, aber es klingt wie eine Möglichkeit, deine Transaktionen zu beschriften und die Daten auf deinem Computer oder in der Cloud zu speichern.
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Schließlich wird deine Wallet verfügbar sein:
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 Was du auf deinem Computer hast, wird als "watching wallet" bezeichnet, weil es deine öffentlichen Schlüssel (und Adressen), aber nicht deine privaten Schlüssel enthält. Du benötigst die privaten Schlüssel, um Ausgaben zu tätigen (indem du Transaktionen mit den privaten Schlüsseln signierst). Der Weg, dies zu tun, besteht darin, die Hardware-Wallet anzuschließen. Der Zweck der Hardware-Wallet besteht darin, dass Transaktionen zwischen dem Computer und dem Trezor hin und her übertragen werden können, eine Signatur im Trezor angewendet werden kann und der private Schlüssel immer im Gerät enthalten bleibt (zum Schutz vor Computer-Malware).
 
@@ -137,37 +137,37 @@ Jetzt werden wir Sparrow starten und den Trezor (mit der Seed-Phrase, aber jetzt
 
 Erstelle eine neue Wallet:
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Gib ihr einen hübschen Namen.
 
-![image](assets/20.png)
+![image](assets/20.jpeg)
 
 Klicke auf "Connected Hardware Wallet".
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 
 Klicke auf "Scan" und dann auf "set passphrase" auf dem nächsten Bildschirm, um eine brandneue Wallet zu erstellen (verwende eine brandneue Passphrase, z.B. die alte Passphrase mit einer Nummer dahinter würde funktionieren). Dann "send passphrase" und bestätige sie auf dem Gerät.
 
-'![image](assets/23.png)
+'![image](assets/23.jpeg)
 
 Dann klicken Sie auf "Keystore importieren".
 
 Auf dem nächsten Bildschirm gibt es nichts zu bearbeiten, das Trezor hat es für Sie ausgefüllt. Klicken Sie auf "Anwenden".
 
-![image](assets/24.png)
+![image](assets/24.jpeg)
 
 Auf dem nächsten Bildschirm können Sie ein Passwort hinzufügen. Verwechseln Sie dies nicht mit "Passphrase"; das ist für viele Menschen verwirrend. Die Benennung ist unglücklich. Das Passwort ermöglicht es Ihnen, diese Brieftasche auf Ihrem Computer zu sperren. Es ist spezifisch für diese Software auf diesem Computer. Es ist kein Teil Ihres Bitcoin-Privatschlüssels.
 
 Klicken Sie auf "Anwenden".
 
-![image](assets/25.png)
+![image](assets/25.jpeg)
 
 Nach einer Pause, während der Computer nachdenkt, werden die Schaltflächen auf der linken Seite von grau auf blau wechseln. Herzlichen Glückwunsch, Ihre Brieftasche ist jetzt einsatzbereit. Erstellen und senden Sie Transaktionen nach Belieben.
 
-![image](assets/26.png)
+![image](assets/26.jpeg)
 
 Empfangen
 
@@ -179,7 +179,7 @@ Sobald Sie das getan haben, müssen Sie die aufgeschriebenen Wörter sichern. Ei
 
 ## Senden
 
-![image](assets/27.png)
+![image](assets/27.jpeg)
 
 Wenn Sie eine Zahlung vornehmen möchten, müssen Sie die Adresse, an die Sie zahlen möchten, im Feld "An" einfügen. Sie können das Label tatsächlich nicht leer lassen, es dient nur zur Aufzeichnung Ihrer eigenen Brieftasche, aber Sparrow erlaubt es nicht - geben Sie einfach etwas ein (nur Sie werden es sehen). Geben Sie den Betrag ein und Sie können auch die Gebühr manuell anpassen, die Sie möchten.
 
@@ -196,7 +196,7 @@ Anhang A - Überprüfen des Software-Downloads
 
 ## Anhang A - Überprüfen des Software-Downloads
 
-![image](assets/28 .png)
+![image](assets/28 .jpeg)
 
 Laden Sie die Signatur (eine Textdatei) und den Signaturschlüssel (eine Textdatei) herunter und notieren Sie sich die Dateinamen und den Speicherort des Downloads.
 

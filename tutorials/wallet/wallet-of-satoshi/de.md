@@ -20,7 +20,7 @@ Laden Sie einfach die App herunter und installieren Sie sie, und Sie sind im Lig
 
 Wallet of Satoshi ist wirklich sehr einfach zu bedienen.
 
-![cover](assets/1.png)
+![cover](assets/1.jpeg)
 
 Vom Startbildschirm aus drücken Sie einfach "Senden" oder "Empfangen", von dort aus können Sie einen QR-Code scannen, um zu senden, oder einen QR-Code scannen lassen, um zu empfangen.
 

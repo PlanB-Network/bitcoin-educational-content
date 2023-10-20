@@ -17,7 +17,7 @@ Puedes formatear una computadora vieja y usarla como una computadora dedicada pa
 
 Bitcoin Core ocupará aproximadamente 400 gigabytes de datos en tu disco duro y seguirá creciendo. Puedes usar tu disco duro interno, pero también puedes conectar un disco duro externo. Explicaré ambas opciones. Idealmente, deberías usar un disco de estado sólido (SSD). Si tienes una computadora vieja, probablemente no tenga uno de estos internamente. Simplemente compra un SSD externo de 1 o 2 terabytes y úsalo. El disco duro regular probablemente funcionará, pero podrías tener problemas y será mucho más lento.
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 ## Descargar Bitcoin Core
 
@@ -25,15 +25,15 @@ Ve a bitcoin.org (asegúrate de no ir a bitcoin.com, que es un sitio de shitcoin
 
 Una vez allí, no es obvio dónde obtener el software. Ve al menú de recursos y haz clic en "Bitcoin Core", como se muestra a continuación:
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Esto te llevará a la página de descarga:
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Haz clic en el botón naranja "Download Bitcoin Core":
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Hay varias opciones para elegir, dependiendo de tu computadora. Las dos primeras son relevantes para esta guía; elige Windows o Mac en la barra izquierda. Comenzará a descargar después de hacer clic en él, probablemente en tu directorio de Descargas.
 
@@ -41,7 +41,7 @@ Hay varias opciones para elegir, dependiendo de tu computadora. Las dos primeras
 
 Necesitas el archivo que contiene los hashes de varias versiones. Este archivo solía estar en la página de descargas de bitcoin.org, pero ahora se ha trasladado a bitcoincore.org/en/download:
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Necesitas el archivo de hashes binarios SHA256. Este archivo contiene los hashes SHA256 de los diferentes paquetes de descarga de Bitcoin Core.
 
@@ -64,7 +64,7 @@ Para hacer eso, consulta mi guía de SHA256/gpg y desplázate aproximadamente ha
 
 De vuelta en la página de descarga, obtén el archivo de firmas de hash SHA256
 
-![imagen](assets/6.png)
+![imagen](assets/6.jpeg)
 
 Haz clic en él y guarda el archivo en el disco, preferiblemente en el directorio de Descargas.
 
@@ -99,7 +99,7 @@ El primer archivo listado es la ortografía exacta del archivo de firma. El segu
 
 Este es el resultado que deberías obtener
 
-![imagen](assets/7.png)
+![imagen](assets/7.jpeg)
 
 Es seguro ignorar el mensaje de ADVERTENCIA, eso solo te recuerda que no has conocido a Wladimir en una parte clave y le has preguntado personalmente cuál es su clave pública, y luego le has dicho a tu computadora que confíe completamente en esta clave.
 
@@ -109,33 +109,33 @@ Si recibiste este mensaje, ahora sabes que el archivo SHA256SUMS.asc no ha sido 
 
 No deberías necesitar instrucciones detalladas sobre cómo instalar el programa.
 
-![imagen](assets/8.png)
+![imagen](assets/8.jpeg)
 
 ## Ejecuta Bitcoin Core
 
 En una Mac, es posible que recibas una advertencia (Apple sigue siendo anti-Bitcoin)
 
-![imagen](assets/9.png)
+![imagen](assets/9.jpeg)
 
 Haz clic en OK y luego abre tus Preferencias del Sistema
 
-![imagen](assets/10.png)
+![imagen](assets/10.jpeg)
 
 Haz clic en el icono de Seguridad y Privacidad:
 
-![imagen](assets/11.png)
+![imagen](assets/11.jpeg)
 
 Luego haz clic en "abrir de todos modos":
 
-![imagen](assets/12.png)
+![imagen](assets/12.jpeg)
 
 El error aparecerá nuevamente, pero esta vez tendrás un botón ABRIR disponible. Haz clic en él.
 
-![imagen](assets/13.png)
+![imagen](assets/13.jpeg)
 
 Bitcoin Core debería cargarse y se te presentarán algunas opciones:
 
-![imagen](assets/14.png)
+![imagen](assets/14.jpeg)
 
 Aquí puedes elegir usar la ruta predeterminada para descargar la cadena de bloques, o puedes elegir tu unidad externa. Recomiendo no cambiar la ruta predeterminada si vas a usar la unidad interna, ya que facilita la configuración al instalar otro software para comunicarse con Bitcoin Core.
 
@@ -143,6 +143,6 @@ Puedes elegir ejecutar un nodo podado, lo cual ahorra espacio pero limita lo que
 
 Una vez que confirmes, la cadena de bloques comenzará a descargarse. Tomará varios días.
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 Puedes apagar la computadora y volver a descargar si quieres, no causará ningún daño.

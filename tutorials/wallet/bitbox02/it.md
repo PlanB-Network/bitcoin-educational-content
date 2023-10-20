@@ -8,7 +8,7 @@ description: Configurazione e utilizzo di un BitBox02
 
 Il BitBox02 (https://bitbox.swiss/) è un portafoglio fisico svizzero appositamente progettato per proteggere i tuoi Bitcoin. Alcune delle sue caratteristiche principali includono un facile backup e ripristino tramite una scheda microSD, un design minimalista e discreto e un supporto completo per Bitcoin.
 
-![device](assets/1.png)
+![device](assets/1.jpeg)
 
 Offre una sicurezza all'avanguardia progettata da esperti, con un design a doppio chip che include un chip sicuro. Il suo codice sorgente è stato completamente auditato da ricercatori di sicurezza ed è completamente open-source. Il BitBox02 è dotato di un'app BitBoxApp semplice ma potente, che offre una gestione sicura dei tuoi Bitcoin. Supporta il nodo completo per Bitcoin e garantisce una comunicazione crittografata end-to-end tra l'app e il dispositivo. Prodotto in Svizzera, il BitBox02 ha guadagnato una reputazione positiva tra i suoi utenti.
 
@@ -38,17 +38,17 @@ Collegalo al tuo computer e il dispositivo si accenderà (non farlo ancora).
 
 Ha sensori sopra e sotto e ti chiederà di toccare la parte superiore o inferiore per orientare lo schermo come preferisci.
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 ### Scarica l'app BitBox02
 
 Visita https://shiftcrypto.ch/ e clicca sul link "App" in alto per accedere alla pagina di download:
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Clicca sul pulsante blu "Download":
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Per verificare il download (aggiunge complessità, ma è consigliato, soprattutto se archivi molte bitcoin), consulta l'Appendice A.
 
@@ -58,41 +58,41 @@ Fai doppio clic sull'app per avviarla (non viene "installata").
 
 Su Mac, il tuo computer ti darà un avviso. Ignoralo e clicca su "Apri":
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Vedrai quindi questo:
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Procedi e collega il dispositivo al computer.
 Mostrerà un codice di abbinamento. Verifica che corrispondano e poi tocca il sensore per selezionare il segno di spunta. Quindi torna alla schermata, il pulsante "Continua" diventerà disponibile per te.
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Successivamente avrai l'opzione di creare un nuovo seed o ripristinare un seed. Dimostrerò come creare un nuovo seed (È importante anche ripristinare il seed creato per testare la qualità del tuo backup, prima di caricare bitcoin sul portafoglio).
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 Il dispositivo è fornito con una scheda microSD. Inseriscila se non l'hai ancora fatto.
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 Dai un nome al tuo dispositivo e clicca su "Continua", poi conferma sul dispositivo.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Ti verrà quindi chiesto di impostare una password per il dispositivo. Questa non fa parte del tuo seed. Non è nemmeno una frase di accesso (che fa parte del tuo seed). È semplicemente una password per bloccare il dispositivo. Quando accendi il dispositivo, ti verrà chiesto di inserire questa password ogni volta. Hai 10 tentativi consecutivi consentiti prima che il dispositivo cancelli completamente la memoria, quindi fai attenzione. L'animazione sullo schermo ti insegnerà come utilizzare i controlli del dispositivo per impostare la password.
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Leggi la schermata successiva, spunta ogni casella e poi continua.
 
-![image](assets/12.png)
-![image](assets/13.png)
-![image](assets/14.png)
+![image](assets/12.jpeg)
+![image](assets/13.jpeg)
+![image](assets/14.jpeg)
 
 Ed ecco come appare il portafoglio una volta pronto all'uso.
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 ### NON COSÌ VELOCE!!
 
@@ -100,23 +100,23 @@ Ed ecco come appare il portafoglio una volta pronto all'uso.
 
 Per ottenere la frase del seed e scriverla, vai alla scheda "Gestisci dispositivo" a sinistra e poi clicca su "Mostra parole di recupero"
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Puoi quindi passare attraverso la conferma e il dispositivo ti presenterà le parole. Scrivile in modo ordinato e non far vedere a nessuno le parole.
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Dopo di ciò, puoi cliccare sulla scheda Bitcoin a sinistra per ottenere i tuoi indirizzi di ricezione.
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 Mostra uno alla volta, ma almeno ti permette di scegliere quale indirizzo utilizzare tra i primi 20:
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Cliccando sul pulsante blu verrà mostrato l'indirizzo completo e ti verrà chiesto di verificare che l'indirizzo corrisponda a quello visualizzato sullo schermo. Questa è una buona pratica per confermare che nessun malware sul tuo computer ti sta ingannando per inviare bitcoin a un indirizzo di un attaccante.
 
-![image](assets/20.png)
+![image](assets/20.jpeg)
 
 Per inviare bitcoin a questo portafoglio, puoi copiare l'indirizzo e incollarlo nella pagina di prelievo dello scambio dove si trovano le tue monete. Ti consiglio di inviare prima una piccola quantità di prova, poi esercitarti a spenderla sia tornando allo scambio che all'indirizzo secondario nel tuo portafoglio.
 
@@ -126,11 +126,11 @@ Per importi più grandi, ti consiglio di creare una frase di accesso (vedi sotto
 
 Il BitBox02 si connetterà automaticamente a un nodo. Vediamo dove si sta connettendo. Fai clic sulla scheda delle impostazioni a sinistra e poi su "connetti il tuo nodo completo".
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 E qui possiamo vedere che si sta connettendo al nodo di shiftcrypto. Non è ottimo. Abbiamo tradito tutti i nostri indirizzi bitcoin a loro e il nostro indirizzo IP (ovviamente non il seed; possono vedere i nostri indirizzi/saldi, ma non possono spenderli). Possiamo inserire i dettagli del nostro nodo in questa pagina (oltre allo scopo di questa guida specifica) o possiamo utilizzare software migliore come Sparrow Bitcoin Wallet, Electrum Desktop Wallet o Specter Desktop. Dimostrerò Sparrow Bitcoin Wallet più avanti nella guida.
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 
 Aggiungi una passphrase
 
@@ -140,13 +140,13 @@ Ora che abbiamo configurato il dispositivo con l'app BitBox02 (e rivelato i nost
 
 Vai avanti ora e "abilita" la funzione passphrase (ma non stiamo ancora impostando una passphrase). Vai alla scheda "gestisci dispositivo" e fai clic su "abilita passphrase" (cerchio rosso sotto).
 
-![image](assets/23.png)
+![image](assets/23.jpeg)
 
 Leggi i passaggi...
 
-![image](assets/24.png)
-![image](assets/25.png)
-![image](assets/26.png)
+![image](assets/24.jpeg)
+![image](assets/25.jpeg)
+![image](assets/26.jpeg)
 
 Ora scollega il dispositivo e chiudi l'app BitBox02
 

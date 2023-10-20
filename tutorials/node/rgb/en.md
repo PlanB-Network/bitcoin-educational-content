@@ -3,7 +3,7 @@ name: RGB
 description: Introduction and asset creation on RGB
 ---
 
-![RGB vs Ethereum](assets/0.png)
+![RGB vs Ethereum](assets/0.jpeg)
 
 ## introduction
 
@@ -25,7 +25,7 @@ In simple terms, RGB is a system that allows the user to audit a smart contract,
 
 Currently, the blockchain industry promotes that both the code of smart contracts and the data must be stored in the blockchain and executed by each node of the network, regardless of the excessive increase in size or the misuse of computational resources. The scheme proposed by RGB is much more intelligent and efficient since it cuts with the blockchain paradigm by having smart contracts and data separated from the blockchain and thus avoids the saturation of the network seen in other platforms, in turn it does not force each node to execute each contract but rather the parties involved which adds confidentiality to a level never seen before.
 
-![RGB vs Ethereum](assets/1.png)
+![RGB vs Ethereum](assets/1.jpeg)
 
 ## Smart contracts in RGB
 

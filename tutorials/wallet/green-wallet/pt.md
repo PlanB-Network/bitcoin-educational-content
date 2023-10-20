@@ -21,7 +21,7 @@ Se você quiser dar uma olhada em seu site, é só clicar aqui (https://blockstr
 
 > Este guia foi produzido e pertence à Bitstack. Bitstack é um banco de bitcoin neo baseado em Paris que permite DCA em bitcoin. Guia escrito por Loic Morel em 15/02/2023. Isso pertence a eles. https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet
 
-![imagem](assets/0.png)
+![imagem](assets/0.jpeg)
 
 Como instalar sua primeira carteira Bitcoin? Tutorial Green Wallet
 
@@ -45,7 +45,7 @@ Ao iniciar o aplicativo, você chegará à tela inicial. No momento, você não 
 
 A primeira ação a ser realizada, antes de criar sua carteira, é abrir as configurações do aplicativo para escolher aquelas que melhor atendem às suas necessidades.
 
-![imagem](assets/1.png)
+![imagem](assets/1.jpeg)
 
 - « Enhanced Privacy » permite desativar a capacidade de fazer capturas de tela no aplicativo. Essa opção também oculta visualizações e automaticamente protege o aplicativo quando você bloqueia seu telefone. Está disponível apenas no Android;
 - Em seguida, você pode optar por rotear seu tráfego através do Tor para que todas as suas conexões sejam criptografadas. Isso diminui ligeiramente o desempenho do seu aplicativo, mas recomendo ativá-lo para preservar sua privacidade;
@@ -68,7 +68,7 @@ O próximo passo é criar sua carteira Bitcoin. Para fazer isso, clique em:
 > - Nova carteira;
 > - Bitcoin.
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 A opção "Restaurar uma carteira" permite recuperar o acesso a uma carteira existente usando sua frase mnemônica. A opção "Carteira Somente Observação" permite importar uma chave pública estendida (xpub) para visualizar os movimentos de uma carteira, sem poder gastar seus fundos.
 
@@ -83,7 +83,7 @@ Você pode então escolher ter uma frase mnemônica de 12 ou 24 palavras. Essa f
 
 Uma frase de 24 palavras é mais segura do que uma frase de 12 palavras contra ataques de força bruta. No entanto, até o momento, uma frase de 12 palavras ainda é suficientemente segura. Concretamente, se você escolher uma frase de 12 palavras, estará apenas acima do limite mínimo recomendado pelo NIST. Isso significa que sua frase está segura hoje, mas pode não estar no futuro devido à evolução da computação (a menos que você também use uma frase secreta BIP39). Por padrão, eu recomendo que você escolha uma frase de 24 palavras, mas a escolha é sua.
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 O software então fornecerá sua frase de recuperação. Você deve salvá-la adequadamente, anotando-a em um suporte físico adequado. É altamente recomendado que você não guarde essa frase em nenhum suporte digital, mesmo criptografado. Ela deve ser anotada em papel ou metal, dependendo do valor armazenado.
 
@@ -93,10 +93,10 @@ As palavras dessa frase devem ser anotadas juntas. Não divida sua frase! Além 
 
 Para saber mais sobre os métodos de segurança da frase de recuperação, recomendo que você leia meu artigo dedicado a esse assunto.
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 O Green Wallet então solicita que você confirme algumas palavras da sua frase para garantir que você as tenha anotado corretamente.
-'![image](assets/10.png)
+'![image](assets/10.jpeg)
 
 Você pode então escolher um nome para sua carteira para diferenciá-la das outras se você criar várias posteriormente. Nesta etapa, o nome não importa muito, pois vamos excluir esta carteira para verificar a validade da frase mnemônica na próxima etapa.
 
@@ -108,11 +108,11 @@ Você pode posteriormente adicionar uma opção de bloqueio biométrico para evi
 
 Você deve inserir o PIN escolhido novamente no aplicativo Green para confirmá-lo.
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 Parabéns! Você concluiu a criação da sua carteira Bitcoin.
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Se você deseja adicionar uma frase secreta BIP39 a esta carteira Bitcoin, você deve clicar nos três pontos no canto superior direito da tela quando inserir seu PIN para desbloquear a carteira. Cuidado, eu desaconselho fortemente o uso de uma frase secreta se você não entender os mecanismos de derivação envolvidos. Você pode perder o acesso aos seus bitcoins.
 
@@ -126,23 +126,23 @@ Para fazer isso, antes de excluir sua carteira, você deve obter uma informaçã
 Para acessar essa informação, clique no botão "Receber". A carteira exibirá um endereço. Anote em outro pedaço de papel os últimos 8 caracteres. Isso corresponde ao checksum do endereço.
 Por exemplo, na minha carteira, os 8 caracteres a serem anotados seriam: JTbP4482.
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Depois de anotar essa informação, você pode excluir sua carteira. Na tela inicial da carteira, clique no ícone de configurações e depois em "Desconectar".
 
 > "Eu enfatizo mais uma vez que essa operação deve ser feita com uma carteira vazia, antes de enviar bitcoins para ela. Caso contrário, você corre o risco de perdê-los."
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Você será redirecionado para a tela de desbloqueio da sua carteira. Clique nos três pontos no canto superior direito da tela e depois em "Excluir carteira", e confirme.
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 Agora você está na tela inicial do aplicativo Green Wallet e não há mais nenhuma carteira disponível. Portanto, você está na mesma situação como se tivesse perdido ou quebrado seu telefone e estivesse tentando recuperar sua carteira apenas com a frase mnemônica.
 
 Agora clique em "Adicionar carteira", depois em "Restaurar carteira" e, por fim, em "Bitcoin".
 
-![image](assets/23.png)
+![image](assets/23.jpeg)
 
 O software então nos pergunta se queremos recuperar a partir de um código QR ou de uma frase mnemônica. No nosso caso, é uma frase.
 
@@ -152,24 +152,24 @@ Depois de inserir todas as palavras, se o software indicar que há um erro, sign
 
 Caso contrário, você pode clicar em "Continuar".
 
-![image](assets/26.png)
+![image](assets/26.jpeg)
 
 O software informará "Carteira não encontrada". Isso é absolutamente normal, pois ainda não enviamos nenhum bitcoin para ela. Portanto, ele não pode detectar nenhuma transação na blockchain relacionada a essa carteira.
 
 Clique na parte inferior da tela em "Restauração manual" e depois em "Assinatura única".
 
-![image](assets/28.png)
+![image](assets/28.jpeg)
 
 Por fim, você será solicitado a nomear essa carteira e atribuir um PIN a ela. Você pode dar o mesmo nome e o mesmo PIN da carteira inicial.
 Para lembrar, este PIN tem apenas a funcionalidade de desbloquear a carteira neste aplicativo e neste telefone especificamente. Ao contrário da frase de recuperação, ele não permite regenerar sua carteira em outro software ou hardware.
 
-![image](assets/30.png)
+![image](assets/30.jpeg)
 
 Depois de validar o PIN, você será redirecionado para a página inicial da sua carteira. É hora de verificar se sua frase de recuperação está funcionando corretamente, observando o primeiro endereço derivado. Para fazer isso, mais uma vez, clique em "Receber" para acessar o primeiro endereço.
 
 Se os últimos 8 caracteres forem exatamente os mesmos que você anotou como referência em seu papel antes de excluir a carteira, então sua frase está válida. No meu caso, podemos ver que o checksum do meu primeiro endereço é igual ao valor anotado anteriormente: JTbP4482.
 
-![image](assets/32.png)
+![image](assets/32.jpeg)
 
 Eu sei que essa prática de verificação é tediosa, mas é absolutamente essencial para garantir a segurança adequada da sua carteira Bitcoin. Eu recomendo fortemente que você adote esse hábito ao criar uma carteira, seja em software ou hardware.
 
@@ -187,12 +187,12 @@ Para começar bem, recomendo que você personalize as configurações da sua car
 
 - A opção "Conexão biométrica" permite que você desbloqueie sua carteira com sua impressão digital em vez do PIN. Geralmente, desaconselho ativar essa opção. A biometria é muito menos segura do que o código PIN.
 
-![image](assets/34.png)
+![image](assets/34.jpeg)
 Por padrão, a Green Wallet atribui a você uma conta BIP49 "Nested SegWit" com endereços P2SH (Pay to Script Hash). Alguns anos atrás, o uso desse tipo de conta era relevante, pois nem todo mundo ainda suportava endereços nativos SegWit. Hoje, a grande maioria dos serviços relacionados ao Bitcoin suporta SegWit, portanto não há mais motivo para usar uma conta "Nested SegWit".
 
 Vamos então criar uma nova conta BIP84 "Native SegWit" para aproveitar todas as suas vantagens e também ter endereços P2WPKH (Pay to Witness Public Key Hash). Para fazer isso, clique em sua conta "Legacy SegWit Account", depois em "Adicionar nova conta" e, por fim, em "Conta SegWit". Você pode então dar um nome a essa conta, se desejar.
 
-![image](assets/36.png)
+![image](assets/36.jpeg)
 
 Posteriormente, se você precisar criar novas contas nesta carteira, recomendo que escolha por padrão contas SegWit V0 BIP84 ou SegWit V1 BIP86 (quando estiverem disponíveis).
 
@@ -200,7 +200,7 @@ Na página inicial da sua carteira, você pode ver suas diferentes contas, inclu
 
 Em seguida, o funcionamento do aplicativo Green Wallet é muito simples. Para receber bitcoins em sua carteira, clique no botão "Receber". A carteira exibirá um endereço de recebimento. Um endereço permite receber bitcoins em sua carteira. Você pode copiá-lo em formato de texto para enviá-lo ao pagador ou escanear o código QR com outra carteira Bitcoin para pagar o endereço.
 
-![image](assets/38.png)
+![image](assets/38.jpeg)
 
 Esse tipo de endereço não indica ao pagador a quantia que ele deve enviar a você. Você também pode criar um endereço que solicitará automaticamente uma quantia escolhida ao pagador. Para fazer isso, clique em "Mais opções" e insira a quantia desejada.
 
@@ -212,11 +212,11 @@ Um endereço de recebimento não deve ser usado várias vezes. Isso é uma má p
 
 Nas capturas de tela abaixo, você pode ver que enviei 0,02 btc para o meu endereço. A transação aparece no Green, primeiro como "não confirmada" aguardando ser incluída no blockchain por um minerador. Depois que a transação recebe várias confirmações, você recebe seus bitcoins em sua própria carteira.
 
-![imagem](assets/40.png)
+![imagem](assets/40.jpeg)
 
 Se você deseja enviar bitcoins, precisa obter o endereço de recebimento para onde deseja enviar os fundos e clicar no botão "Enviar". Na próxima página, você deve inserir o endereço de destino. Você pode digitá-lo manualmente ou escanear um código QR clicando no ícone correspondente. Em seguida, escolha o valor da transação. Você pode inserir um valor em bitcoins ou um valor em dólares americanos clicando na seta dupla branca.
 
-![imagem](assets/43.png)
+![imagem](assets/43.jpeg)
 
 No centro da tela, você pode escolher a taxa de transação alocada para esta transação. É possível seguir as recomendações do aplicativo ou personalizar suas taxas. Quanto mais altas forem suas taxas em comparação com outras transações aguardando confirmação, mais rapidamente sua transação será incluída e vice-versa.
 
@@ -224,7 +224,7 @@ Clique em "Próximo". Você será direcionado para uma tela que mostra os detalh
 
 Para assinar a transação e transmiti-la para a rede Bitcoin, deslize o botão verde na parte inferior da tela para a direita.
 
-![imagem](assets/46.png)
+![imagem](assets/46.jpeg)
 
 Sua transação agora aparece no painel de controle da sua carteira Bitcoin.
 

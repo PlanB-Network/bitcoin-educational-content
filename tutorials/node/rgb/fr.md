@@ -3,7 +3,7 @@ name: RGB
 description: Introduction et création d'actifs sur RGB
 ---
 
-![RGB vs Ethereum](assets/0.png)
+![RGB vs Ethereum](assets/0.jpeg)
 
 ## Introduction
 
@@ -25,7 +25,7 @@ En termes simples, RGB est un système qui permet à l'utilisateur d'auditer un 
 
 Actuellement, l'industrie de la blockchain promeut que le code des contrats intelligents et les données doivent être stockés dans la blockchain et exécutés par chaque nœud du réseau, indépendamment de l'augmentation excessive de la taille ou de l'utilisation abusive des ressources informatiques. Le schéma proposé par RGB est beaucoup plus intelligent et efficace car il rompt avec le paradigme de la blockchain en séparant les contrats intelligents et les données de la blockchain, évitant ainsi la saturation du réseau observée sur d'autres plateformes. De plus, il ne force pas chaque nœud à exécuter chaque contrat, mais plutôt les parties impliquées, ce qui ajoute une confidentialité à un niveau jamais vu auparavant.
 
-![RGB vs Ethereum](assets/1.png)
+![RGB vs Ethereum](assets/1.jpeg)
 
 ## Contrats intelligents dans RGB
 

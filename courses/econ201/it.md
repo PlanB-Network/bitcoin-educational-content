@@ -54,7 +54,7 @@ Quando un istituto finanziario possiede una licenza bancaria, significa essenzia
 
 Dopo aver acquistato la casa, istruisci il tuo banchiere a trasferire denaro sul conto del venditore. Se il conto del venditore è presso un'altra banca, il tuo banchiere notifica il banchiere corrispondente presso l'altra istituzione per assicurarsi che il conto del venditore venga accreditato di conseguenza, mentre il tuo conto viene addebitato dell'importo corrispondente.
 
-![immagine](assets/Image/1.png)
+![immagine](assets/Image/1.jpeg)
 
 Figura 1: Creazione del denaro come voci contabili
 
@@ -119,7 +119,7 @@ Tali domande hanno occupato economisti e filosofi per molti secoli e hanno ricev
 
 Dopo che la teoria del valore della terra dei fisiocratici, secondo cui tutto il valore proviene dalla terra, era stata confutata dalla teoria del valore del lavoro degli economisti classici, secondo cui il valore di un bene deriva dalla quantità di lavoro impiegato nella sua produzione, è stato il turno della teoria marginale del valore di soppiantare quest'ultima. Negli anni '70 del XIX secolo, seguendo Marx, l'ultimo degli economisti classici, tre nuove scuole di pensiero economico emersero quasi contemporaneamente attorno a una teoria marginale del valore: la scuola di Losanna con Léon Walras, la scuola moderna o neoclassica con William Stanley Jevons e la scuola austriaca con Carl Menger. Questa rivoluzione nella teoria del valore costituì un significativo rinnovamento del pensiero economico.
 
-![image](assets/Image/7.png)
+![image](assets/Image/7.jpeg)
 
 Da sinistra a destra: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -129,7 +129,7 @@ La teoria marginale del valore sostiene che il valore economico corrisponde a ci
 
 ### Valore Soggettivo
 
-![image](assets/Image/15.png)
+![image](assets/Image/15.jpeg)
 
 L'economista austriaco confuta la concezione dei successori di Adam Smith e abbandona l'idea che il valore di un bene derivi dalla quantità di lavoro impiegata nella sua produzione, a favore dell'idea che il suo valore sia determinato dall'individuo, che, in ogni contesto, compie un atto mentale di valutazione riguardo a una specifica quantità di un bene o servizio. Questo salto intellettuale compiuto da Menger mette in discussione l'oggettività del valore: per lui, il valore non è una proprietà oggettiva dei beni; è semplicemente il risultato della relazione che l'individuo ha con quella cosa: "il valore non esiste al di fuori della coscienza umana".
 In altre parole, Menger ci invita a considerare che il valore esiste solo come fenomeno psicologico soggettivo all'interno dell'individuo, che il valore non è una proprietà intrinseca dei beni, ma deriva piuttosto dall'opinione dell'individuo sulla utilità che può trarre da quei beni.
@@ -152,7 +152,7 @@ Questa concezione soggettiva del valore, intesa come una relazione psicologica c
 
 ### La Divisione del Lavoro
 
-![image](assets/Image/16.png)
+![image](assets/Image/16.jpeg)
 
 Visita a una fabbrica di chiodi, Léonard Defrance (XVIII secolo)
 Ogni individuo è unico e ha una particolare situazione personale. Pertanto, ognuno possiede una capacità superiore nel svolgere determinati compiti rispetto ai suoi pari (vantaggio assoluto) o una capacità superiore nel svolgere determinati compiti rispetto ad altri (vantaggio comparativo). Non può essere altrimenti; negare questo fatto elementare significherebbe affermare che tutti gli esseri umani sono uguali in tutti gli aspetti.
@@ -214,7 +214,7 @@ Questo gioco illustra un problema frequentemente incontrato nella vita reale: in
 
 ### Denaro per risolvere i problemi di coordinamento
 
-![image](assets/Image/17.png)
+![image](assets/Image/17.jpeg)
 
 Questo problema ha meno impatto nelle piccole comunità (ad esempio, famiglia, cerchi di amici) perché, in tali casi, tutti si conoscono direttamente, rendendo possibile ricordare i contributi reciproci. Presumendo che lasciare la comunità (desertare) comporti un costo, un sistema di reputazione basato sulla memoria degli agenti individuali è di solito sufficiente per evitare le insidie poste dal dilemma del prigioniero.
 
@@ -234,7 +234,7 @@ Nel tempo pre-civile, queste tecnologie non esistevano. Pertanto, i nostri anten
 
 ### Doppia coincidenza dei desideri e vendibilità
 
-![image](assets/Image/18.png)
+![image](assets/Image/18.jpeg)
 
 Il denaro può essere visto come la soluzione scoperta dai nostri antenati per affrontare ciò che gli economisti chiamano il problema della "doppia coincidenza dei desideri". Questo problema ha tre dimensioni: spaziale, temporale e interpersonale.
 In uno scambio diretto (baratto) tra Alice e Bob, entrambi devono possedere qualcosa che l'altro desidera nello stesso momento e luogo. Utilizzando uno scambio indiretto, cioè attraverso il denaro, Alice può comprare da Bob e Bob può utilizzare quell'unità monetaria altrove, in un altro momento e con qualcun altro (a condizione che l'altra persona accetti quella forma di denaro).
@@ -281,7 +281,7 @@ Il concetto di preferenza temporale e come esprimiamo la nostra preferenza tempo
 
 ### Teoria del Capitale
 
-![image](assets/Image/19.png)
+![image](assets/Image/19.jpeg)
 
 All'inizio di questo corso, abbiamo visto che, per Carl Menger, i beni sono considerati solo beni economici (valutati) perché servono come mezzi per scopi scelti e valutati dagli individui. Secondo questa visione, tutta l'analisi economica ruota attorno al consumo perché è in definitiva l'obiettivo motivante dietro ogni attività economica. Pertanto, per Menger, il punto di partenza dell'analisi economica sono i beni di consumo, o beni finali, in quanto rappresentano lo scopo ultimo dell'attività economica. Tutti gli altri beni nell'economia, che possiamo chiamare "beni intermedi", hanno valore solo perché consentono agli individui di ottenere questi beni di consumo: sono beni utilizzati nella produzione di altri beni.
 
@@ -297,13 +297,13 @@ A causa della natura sequenziale dell'azione umana, queste scelte intertemporali
 
 Per illustrare questo punto, riprendiamo l'esempio dato da Böhm-Bawerk nel suo lavoro "Capitale e Interesse":
 
-![image](assets/Image/10.png)
+![image](assets/Image/10.jpeg)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe e Deviazione di Produzione/Indiretta:
 
-![image](assets/Image/20.png)
+![image](assets/Image/20.jpeg)
 
 Robinson Crusoe Sbarco delle Provvisioni dal Relitto, John Alexander Gilfillan (1793-1864)
 
@@ -326,7 +326,7 @@ Questo è un concetto allettante, sebbene semplice: ogni estensione della strutt
 Ora, come accennato nel primo capitolo, i tassi di interesse sono stati manipolati per decenni dalle banche centrali, mentre le banche commerciali hanno concesso crediti senza riserve preventive, il che significa che i tassi di interesse non rappresentano le nostre preferenze temporali e danno un'illusione di risparmi abbondanti.
 Questo è perfettamente illustrato dal grafico qui sotto: i tassi a lungo termine sono inferiori ai tassi a breve termine. Prima di tutto, questo non ha assolutamente senso, perché implicherebbe che il futuro è più certo del presente. In secondo luogo, ciò giustifica un'indagine sulle conseguenze per l'allocazione del capitale: se tutti sono incentivati ad agire come se il risparmio fosse abbondante, mentre i risparmiatori non si trovano da nessuna parte perché non vengono ricompensati per il risparmio, quali conseguenze potrebbe avere ciò sull'economia?
 
-![image](assets/Image/11.png)
+![image](assets/Image/11.jpeg)
 
 Questo è ciò che scopriremo nel prossimo capitolo dedicato alla Teoria Austriaca del Ciclo Economico!
 
@@ -354,7 +354,7 @@ Per descrivere questo fenomeno di discoordine temporale e le sue conseguenze nel
 
 Per facilitare la nostra spiegazione, torneremo alla classificazione dei beni di Menger e rappresenteremo la struttura produttiva su un diagramma composto da un numero arbitrario di fasi:
 
-![image](assets/Image/12.png)
+![image](assets/Image/12.jpeg)
 
 Nel diagramma sopra, le risorse iniziali passano attraverso varie fasi di produzione, subendo trasformazioni che le avvicinano allo stato dei beni finali per i consumatori (attraverso l'interazione con i fattori originali di produzione: tempo, terra, lavoro). L'altezza del lato destro del triangolo rappresenta schematicamente il PIL poiché indica la somma di tutti i beni di consumo venduti in un periodo. La differenza tra ogni barra corrisponde al valore aggiunto (in termini monetari) generato da ogni fase del processo. Questa differenza può anche essere vista come il reddito associato a ogni fase (ricavi - costi).
 
@@ -362,7 +362,7 @@ Se, a livello aggregato, gli agenti economici aumentano il risparmio, la quantit
 
 Otterremo quindi una struttura produttiva estesa, un cambiamento che può essere rappresentato qualitativamente dal seguente diagramma:
 
-![image](assets/Image/13.png)
+![image](assets/Image/13.jpeg)
 
 Qui, il valore monetario dei beni di consumo richiesti è diminuito, liberando risorse per la creazione di una fase di produzione aggiuntiva. In questo scenario in cui la diminuzione dei tassi di interesse è una conseguenza della diminuzione del consumo, cioè dell'aumento del risparmio, l'area del triangolo, che rappresenta la quantità di denaro in circolazione, rimane invariata. La trasformazione della struttura produttiva (allungamento) è semplicemente il risultato di un trasferimento del potere d'acquisto da una parte della struttura a un'altra.
 
@@ -376,7 +376,7 @@ Ora, se consideriamo una diminuzione dei tassi di interesse risultante da un'esp
 Con tassi di interesse più bassi, gli imprenditori possono prendere in prestito più risorse e quindi creare fasi di produzione di ordine superiore. In questo caso, tale estensione della struttura produttiva non comporterà una diminuzione del consumo perché non c'è stata una rinuncia dei consumatori al consumo presente. In altre parole, il PIL cresce. Di conseguenza, il nostro triangolo si allungherà mantenendo un'altezza simile, il che significa che la sua area aumenterà.
 Si noti che questa è una conseguenza completamente logica dell'espansione del credito. Nella misura in cui le banche producono mezzi fiduciari concedendo prestiti, ci si dovrebbe naturalmente aspettare un aumento complessivo del potere d'acquisto.
 
-![image](assets/Image/14.png)
+![image](assets/Image/14.jpeg)
 
 Man mano che il credito entra nell'economia attraverso prestiti agli imprenditori, dovremmo osservare un aumento dei profitti nei settori produttivi lontani dal consumo e una diminuzione dei profitti relativi nei settori più vicini al consumo. Questa maggiore redditività sostiene quindi una riallocazione del capitale verso queste nuove fasi più intensive di capitale (costruzione navale, automobilistica, edilizia, tecnologie avanzate, ecc.) e una diminuzione degli investimenti nei settori più vicini al consumo.
 
@@ -392,7 +392,7 @@ Un tale aggiustamento può essere visto come un periodo durante il quale viene i
 
 Purtroppo, questo meccanismo depressivo viene spesso interrotto dal potere politico e dalle banche centrali che cercano di "stimolare" l'economia attraverso la spesa pubblica e una politica monetaria accomodante.
 
-![image](assets/Image/21.png)
+![image](assets/Image/21.jpeg)
 
 Sia per i monetaristi che per i keynesiani, la causa della depressione è la domanda aggregata insufficiente, quindi nessuno dei due presta attenzione all'evoluzione dei prezzi relativi, che, come abbiamo visto, è il nucleo del problema. Pertanto, credono che fornire un incentivo all'espansione del credito (abbassando i tassi di interesse) e utilizzare la capacità di deficit dello Stato per stimolare la domanda avvierà una ripresa. A breve termine, tali misure possono sembrare produrre gli effetti desiderati: il deficit sostiene la spesa, mentre la riduzione dei tassi di interesse porta a prezzi degli asset più alti, che a loro volta incoraggiano i detentori di asset ad aumentare la loro spesa. Tuttavia, tale stimolo alla fine si esaurisce, mentre il problema strutturale rimane, o addirittura peggiora, poiché la cattiva allocazione del capitale continua grazie ai tassi di interesse artificialmente bassi.
 
@@ -431,7 +431,7 @@ Con il suo articolo, Mises ha introdotto una nuova dimensione al dibattito. Mett
 
 ### Spiegazione dell'impossibilità del calcolo economico
 
-![image](assets/Image/24.png)
+![image](assets/Image/24.jpeg)
 
 La maggior parte delle incomprensioni sugli argomenti di Mises derivano da una misconcezione dei ruoli giocati dalle classi manageriali e imprenditoriali in un'economia capitalista. Mises non ha mai negato la capacità dei manager di elaborare piani di produzione efficienti all'interno delle proprie operazioni. Invece, ha sottolineato l'importanza degli imprenditori e degli azionisti, che, in quanto proprietari dei mezzi di produzione, allocano il capitale tra diverse industrie, formando così i prezzi che fungono da input nei calcoli economici dei manager.
 
@@ -447,7 +447,7 @@ Questo processo è cruciale perché convalida o invalida l'efficienza di varie a
 
 Da questa prospettiva, un'economia pianificata centralmente esperimenterà inevitabilmente una cattiva allocazione del capitale. Nel breve e medio termine, tali cattive allocazioni potrebbero passare inosservate perché non ci sono prezzi di mercato o fallimenti che le rivelano. Tuttavia, a causa dell'assenza di feedback (prezzi) e meccanismi di riallocazione (fallimenti), gli errori si accumuleranno fino a quando lo spreco non diventerà evidente attraverso un significativo declino delle condizioni di vita.
 
-![image](assets/Image/22.png)
+![image](assets/Image/22.jpeg)
 
 ### La Prospettiva Austriaca e i Fallimenti delle Altre Scuole di Economia
 
@@ -457,7 +457,7 @@ Nonostante questa impressionante previsione e numerose dimostrazioni empiriche d
 
 ### La Teoria del Ciclo Economico Austriaco come un Caso Specifico dell'Impossibilità del Calcolo Economico nel Socialismo
 
-![image](assets/Image/23.png)
+![image](assets/Image/23.jpeg)
 
 In un capitolo precedente, abbiamo chiarito la dinamica di sovrainvestimento e cattiva allocazione del capitale risultante dalla manipolazione dei tassi di interesse da parte delle banche centrali. Fondamentalmente, ciò che abbiamo spiegato può essere considerato come un caso specifico dell'impossibilità del calcolo economico nel socialismo, applicato al campo dei mercati monetari. Quando i prezzi sono fissati al di fuori dei loro valori di mercato, gli imprenditori e gli allocatori di capitale sono incentivati a impegnarsi in investimenti che non possono essere sostenuti nel lungo termine a causa di una mancanza di risparmi. Interferendo con il sistema dei prezzi, i pianificatori centrali (in questo caso, le banche centrali) creano una mancata coordinazione tra gli agenti economici. In questo caso, la mancata coordinazione intertemporale comporta un sovrainvestimento in beni di investimento di ordine superiore e un sottoinvestimento in beni di investimento di ordine inferiore, che rappresenta una manifestazione specifica della cattiva allocazione del capitale tra le industrie.
 

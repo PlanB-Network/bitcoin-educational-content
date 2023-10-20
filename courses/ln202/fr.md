@@ -9,7 +9,7 @@ objectives:
 
 # Un voyage vers le côté technique de Bitcoin
 
-:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.png)
+:[affiche du cours](Formation\courses\btc101\assets\affiche\BTC101_vignette-presentation-front.jpeg)
 
 Cette formation s'avère être plus technique et vous sera d'autant plus bénéfique si vous avez des bases sur Bitcoin, notamment la compréhension du fonctionnement des portefeuilles Bitcoin et le principe de transaction, de minage et de blockchain. Pas besoin de savoir coder, votre curiosité et votre volonté d'apprendre sont les seules compétences nécessaires. Rappelez-vous, chaque expert était autrefois un débutant. Alors, prenez une grande respiration, et sautez dans l'univers passionnant de Bitcoin. Vous êtes sur le point de débuter un voyage passionnant et enrichissant. Bon courage !
 

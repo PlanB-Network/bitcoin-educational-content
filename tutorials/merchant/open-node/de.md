@@ -4,7 +4,7 @@ name: Open Node
 description: Richten Sie Open Node für Ihr Online-Geschäft ein
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.jpeg)
 
 OpenNode (https://www.opennode.com/) ist eine einfache Bitcoin-Zahlungslösung. Erhalten Sie blitzschnelle, kostengünstige Bitcoin-Zahlungen und Auszahlungen für Ihr Unternehmen mit unserer leistungsstarken API, E-Commerce-Plugins oder gehosteten Zahlungsseiten.
 

@@ -17,7 +17,7 @@ Blue Wallet è un portafoglio Bitcoin open-source estremamente semplice da usare
 
 ## BlueWallet: una introduzione
 
-![image](assets/1.jpg)
+![image](assets/1.jpeg)
 
 Per poter ricevere o inviare Bitcoin dal tuo cellulare (o tablet), scarica BlueWallet dal sito corrispondente al tuo tipo di cellulare o tablet:
 
@@ -36,7 +36,7 @@ _⚠️ Prendi nota su un foglio di carta della frase di backup (12 parole). Se 
 
 Dal tuo nuovo portafoglio BlueWallet, utilizza l'opzione "Ricevi", che ti genererà un indirizzo di pagamento unico (che inizia con bc1...)
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 1. Fai scansionare il tuo indirizzo di ricezione direttamente tramite il codice QR;
 2. OPPURE copia/incolla l'indirizzo Bitcoin;
@@ -46,7 +46,7 @@ Dal tuo nuovo portafoglio BlueWallet, utilizza l'opzione "Ricevi", che ti genere
 
 Dal tuo nuovo portafoglio BlueWallet, utilizza l'opzione "Invia", che ti permetterà di scegliere l'importo da inviare e di scannerizzare o incollare l'indirizzo Bitcoin del destinatario (che di solito inizia con bc1...).
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 1. Inserisci l'importo da inviare;
 2. Scannerizza il codice QR del destinatario o incolla direttamente il suo indirizzo Bitcoin;

@@ -41,11 +41,11 @@ Evite:
 - Macs - eles são caros e o hardware não se integra bem com sistemas operacionais Linux na minha experiência
 - Qualquer coisa recondicionada ou de segunda mão (embora isso não seja um impeditivo absoluto)
   Em vez disso, procure um laptop com Windows 11 (Atualmente, o Windows 11 é a versão mais recente. Vamos nos livrar desse software, não se preocupe.). Pesquisei no amazon.com por "Laptop com Windows 11" e encontrei esse bom exemplo:
-  ![image](assets/1.png)
+  ![image](assets/1.jpeg)
 
 O preço desse acima é bom. As especificações são boas o suficiente. Ele tem uma câmera embutida que podemos usar para transações de QR code PSBT (caso contrário, você teria que comprar uma câmera USB para fazer isso). Não se preocupe com o fato de não ser uma marca reconhecida (é barato). Se você quiser uma marca melhor, vai custar mais, por exemplo:
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Alguns dos mais baratos têm apenas 64Gb de espaço de armazenamento; eu não testei laptops com unidades tão pequenas - provavelmente está tudo bem ter 64Gb, mas pode ser um pouco apertado.
 
@@ -81,27 +81,27 @@ Vamos usar qualquer computador para gravar o sistema operacional em um dispositi
 
 Obtenha uma dessas coisas:
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Ou você pode usar algo assim:
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Em seguida, acesse linuxmint.com
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Passe o mouse sobre o menu Download no topo e clique no link "Linux Mint 20.3" ou qualquer versão mais recente recomendada no momento em que você fizer isso.
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Haverá algumas "versões" para escolher. Vá com "Cinnamon" para seguir este guia. Clique no botão Download.
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Na próxima página, você pode rolar para baixo para ver os espelhos (espelhos são vários servidores que possuem uma cópia do arquivo que queremos). Você pode verificar o download usando SHA256 e gpg (recomendado), mas vou pular a explicação disso aqui, pois já escrevi guias sobre isso.
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 Escolha um espelho que esteja mais próximo de você e clique no link dele (o texto verde na coluna do espelho). O arquivo começará a ser baixado - a versão que estou baixando tem 2,1 gigabytes.
 
@@ -109,7 +109,7 @@ Depois de baixado, você pode gravar o arquivo em um dispositivo de memória por
 
 Em seguida, execute-o:
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 Clique em "flash from file" e selecione o arquivo LinuxMint que você baixou.
 
@@ -126,13 +126,13 @@ Cada computador terá um menu de BIOS diferente. Explore e encontre qual menu pe
 
 Reinicie o computador e ele deve carregar a partir do dispositivo de memória USB. Não podemos instalar o Linux no disco interno e o Windows será removido para sempre.
 Quando você chegar à tela a seguir, selecione "Instalação OEM (para fabricantes)". Se você escolher "Iniciar o Linux Mint", você terá uma sessão do Linux Mint carregada do dispositivo de memória, mas assim que desligar o computador, nenhuma das suas informações será salva - é basicamente uma sessão temporária para que você possa experimentá-lo.
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Você será guiado por um assistente gráfico que fará várias perguntas que devem ser simples. Uma delas será as configurações de idioma, outra será a conexão de rede doméstica e a senha. Se solicitado a instalar software adicional, rejeite. Quando chegar à pergunta sobre o tipo de instalação, algumas pessoas podem hesitar - você precisa escolher "Apagar disco e instalar o Linux Mint". Além disso, não criptografe o disco e não selecione LVM.
 
 Eventualmente, você chegará à área de trabalho. Neste ponto, você ainda não terminou. Você está agindo como o fabricante (ou seja, alguém que está montando um computador e configurando o Linux para o cliente). Você precisa clicar duas vezes no ícone da área de trabalho "Instalar o Linux Mint" para finalizá-lo.
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Lembre-se de remover o dispositivo de memória e reiniciar. Após a reinicialização, você estará usando o sistema operacional pela primeira vez como um novo usuário. Parabéns.
 

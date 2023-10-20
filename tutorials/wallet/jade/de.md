@@ -13,7 +13,7 @@ Blockstream Jade - Mobile Bitcoin Hardware Wallet VOLLSTÄNDIGE ANLEITUNG von BT
 
 ## Vollständige Schreibanleitung
 
-![Bild](assets/cover2.png)
+![Bild](assets/cover2.jpeg)
 
 ### Voraussetzungen
 
@@ -27,7 +27,7 @@ Blockstream Jade - Mobile Bitcoin Hardware Wallet VOLLSTÄNDIGE ANLEITUNG von BT
 
 Öffnen Sie Blockstream Green und klicken Sie dann auf das Blockstream-Logo unter Geräte.
 
-![Bild](assets/1.png)
+![Bild](assets/1.jpeg)
 
 Schließen Sie Jade mit dem mitgelieferten USB-Kabel an Ihren Desktop an.
 
@@ -35,29 +35,29 @@ Schließen Sie Jade mit dem mitgelieferten USB-Kabel an Ihren Desktop an.
 
 Sobald Jade in Green angezeigt wird, aktualisieren Sie Jade, indem Sie auf "Nach Updates suchen" klicken und die neueste Firmware-Version auswählen. Verwenden Sie das Scrollrad oder den Schalter an Jade, um die Aktualisierung zu bestätigen und fortzufahren. Stellen Sie sicher, dass Jade weiterhin die Schaltfläche "Initialisieren" anzeigt, andernfalls müssen Sie warten, bis Sie Jade eingerichtet haben, um ein Upgrade durchzuführen. Verwenden Sie die Zurück-Taste, um zu diesem Bildschirm zu gelangen, falls erforderlich.
 
-![Bild](assets/2.png)
+![Bild](assets/2.jpeg)
 
 Nachdem Sie die Firmware von Jade aktualisiert haben, wählen Sie "Jade einrichten" für die Netzwerk- und Sicherheitsrichtlinie, die Sie verwenden möchten.
 
 > Tipp: Die Sicherheitsrichtlinie wird unter "Typ" auf dem Anmeldebildschirm angezeigt. Wenn Sie sich nicht sicher sind, ob Sie Singlesig oder Multisig Shield auswählen sollen, lesen Sie bitte unsere Anleitung hier. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
 
-![Bild](assets/3.png)
+![Bild](assets/3.jpeg)
 
 Wählen Sie als Nächstes "Neue Brieftasche erstellen" und wählen Sie 12 Wörter aus, um Ihre Wiederherstellungsphrase zu generieren. Durch Klicken auf "Erweitert" haben Sie die Möglichkeit, eine 12- oder 24-Wörter-Wiederherstellungsphrase zu wählen.
 
-![Bild](assets/4.png)
+![Bild](assets/4.jpeg)
 
 Notieren Sie die Wiederherstellungsphrase offline auf Papier (oder verwenden Sie ein dediziertes Backup-Gerät für Wiederherstellungsphrasen für zusätzliche Sicherheit). Verwenden Sie dann das Rad oder den Schalter oben auf Ihrem Jade, um Ihre Wiederherstellungsphrase zu überprüfen. Dieser Schritt stellt sicher, dass Sie sie korrekt aufgeschrieben haben.
 
-![Bild](assets/5.png)
+![Bild](assets/5.jpeg)
 
 Legen Sie eine sechsstellige PIN fest und bestätigen Sie diese. Diese wird verwendet, um Blockstream Jade jedes Mal zu entsperren, wenn Sie sich in Ihre Brieftasche einloggen.
 
-![Bild](assets/6.png)
+![Bild](assets/6.jpeg)
 
 Wählen Sie nun einfach "Zur Brieftasche gehen" in der Green-Desktop-App aus, und Sie sehen Ihre Brieftasche in Blockstream Green geöffnet. Blockstream Jade zeigt auch an, dass es bereit ist! Sie können jetzt Ihre Jade verwenden, um Bitcoin-Transaktionen zu senden und zu empfangen.
 
-![Bild](assets/7.png)
+![Bild](assets/7.jpeg)
 
 Nachdem Sie Ihre Brieftasche verwendet haben, trennen Sie Blockstream Jade von Ihrem Gerät. Wenn Sie das nächste Mal die Brieftasche auf Blockstream Jade verwenden möchten, schließen Sie einfach Ihr Gerät wieder an und folgen Sie den Anweisungen.
 
@@ -82,21 +82,21 @@ Für Windows machen Sie dasselbe, außer dass Sie zuerst GPG4Win herunterladen u
 
 Sie erhalten eine Ausgabe, die besagt, dass der öffentliche Schlüssel importiert wurde.
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
-Dieses Bild hat ein leeres alt-Attribut; der Dateiname lautet image-3-1024x162.png
+Dieses Bild hat ein leeres alt-Attribut; der Dateiname lautet image-3-1024x162.jpeg
 
 Als Nächstes müssen wir die Datei mit dem Hash der Software erhalten. Sie wird auf der GitHub-Seite von Blockstream gespeichert. Gehen Sie zuerst zu ihrer Info-Seite hier und klicken Sie auf den Link für "desktop". Sie gelangen zur neuesten Release-Seite auf GitHub und dort sehen Sie einen Link zur Datei SHA256SUMS.asc, die ein Textdokument mit dem veröffentlichten Hash von Blockstreams Programm enthält, das wir heruntergeladen haben.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 GitHub:
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Es ist nicht notwendig, aber nach dem Speichern auf der Festplatte habe ich "SHA256SUMS.asc" in "SHA256.txt" umbenannt, um die Datei auf dem Mac mit dem Texteditor einfacher öffnen zu können. Dies war der Inhalt der Datei:
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 Der Text, den wir suchen, befindet sich oben. Abhängig von der heruntergeladenen Datei gibt es eine entsprechende Hash-Ausgabe, die wir später vergleichen werden.
 
@@ -120,9 +120,9 @@ gpg --verify SHA256SUMS.asc
 
 Die genaue Schreibweise des Dateinamens (in Rot) kann sich je nach Tag, an dem Sie die Datei abrufen, unterscheiden. Stellen Sie sicher, dass der Befehl mit dem heruntergeladenen Dateinamen übereinstimmt. Sie sollten diese Ausgabe erhalten und die Warnung über die vertrauenswürdige Signatur ignorieren - das bedeutet nur, dass Sie dem Computer noch nicht manuell mitgeteilt haben, dass Sie dem zuvor importierten öffentlichen Schlüssel vertrauen.
 
-![image](assets/13.png)
+![image](assets/13.jpeg)
 
-Dieses Bild hat ein leeres alt-Attribut; der Dateiname lautet image-4-1024x165.png
+Dieses Bild hat ein leeres alt-Attribut; der Dateiname lautet image-4-1024x165.jpeg
 Dieses Ergebnis bestätigt, dass die Signatur gültig ist, und wir sind zuversichtlich, dass der private Schlüssel von "info@greenaddress.it" die Daten (den Hash-Bericht) signiert hat.
 
 Jetzt sollten wir unsere heruntergeladene Zip-Datei hashen und das Ergebnis mit dem veröffentlichten vergleichen. Beachten Sie, dass in der Datei SHA256SUMS.asc ein Text steht, der "Hash: SHA512" sagt, was mich verwirrt, da die Datei eindeutig SHA256-Ausgaben enthält, daher werde ich das ignorieren.
@@ -139,7 +139,7 @@ Sie sollten überprüfen, wie Ihre Datei genau heißt, und den obigen blauen Tex
 
 Sie erhalten eine Ausgabe wie diese (Ihre wird sich unterscheiden, wenn die Datei von meiner abweicht):
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Vergleichen Sie als Nächstes visuell die Hash-Ausgabe mit dem, was in der Datei SHA256SUMS.asc steht. Wenn sie übereinstimmen, dann –> ERFOLG! Herzlichen Glückwunsch.
 
@@ -153,45 +153,45 @@ Wenn Sie bereits wissen, wie man Sparrow verwendet, ist es wie immer:
 
 Laden Sie Sparrow über den hier bereitgestellten Link herunter.
 
-![image](assets/14.5.png)
+![image](assets/14.5.jpeg)
 
 Klicken Sie auf Weiter, um den Einrichtungsassistenten zu starten und mehr über die verschiedenen Verbindungsoptionen zu erfahren.
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 Wählen Sie Ihren gewünschten Server aus und wählen Sie dann Neue Wallet erstellen.
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Geben Sie einen Namen für Ihre Wallet ein und klicken Sie auf Wallet erstellen.
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Wählen Sie Ihre gewünschten Richtlinien- und Skripttypen aus und wählen Sie dann Verbundene Hardware Wallet.
 
 > Hinweis: Wenn Sie Blockstream Jade zuvor als Singlesig-Wallet mit Blockstream Green verwendet haben und Ihre Transaktionen in Sparrow anzeigen möchten, stellen Sie sicher, dass der Skripttyp mit dem Kontotyp übereinstimmt, der Ihre Guthaben in Green enthält. Die Ableitungspfad muss ebenfalls übereinstimmen.
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 Schließen Sie Ihren Blockstream Jade an und klicken Sie auf Scannen. Sie werden dann aufgefordert, Ihre PIN auf Jade einzugeben.
 
 > Tipp: Stellen Sie sicher, dass die Blockstream Green-App nicht geöffnet ist, bevor Sie Ihre Jade anschließen. Wenn Green geöffnet ist, kann dies zu Problemen führen, wenn Ihre Jade in Sparrow erkannt wird.
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Wählen Sie Importieren Sie den Keystore, um den öffentlichen Schlüssel des Standardkontos zu importieren, oder wählen Sie den Pfeil, um manuell den Ableitungspfad auszuwählen, den Sie verwenden möchten.
 
-![image](assets/20.png)
+![image](assets/20.jpeg)
 
 Nachdem der gewünschte Schlüssel importiert wurde, klicken Sie auf Übernehmen.
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 Sie haben Ihre Wallet jetzt erfolgreich eingerichtet und können mit Sparrow und Blockstream Jade Bitcoin empfangen, speichern und ausgeben.
 
 > Hinweis: Wenn Sie Jade zuvor mit Blockstream Green als Multisig Shield-Wallet verwendet haben, sollten Sie nicht erwarten, dass Ihre neue Sparrow-Wallet den gleichen Kontostand anzeigt - dies sind unterschiedliche Wallets. Um wieder auf Ihre Multisig Shield-Wallet zuzugreifen, schließen Sie Ihre Jade einfach wieder an Blockstream Green an.
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 Quelle: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
 
 ### grüne App

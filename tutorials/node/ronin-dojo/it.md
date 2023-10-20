@@ -18,7 +18,7 @@ In questo articolo, esamineremo in dettaglio RoninDojo, una soluzione eccellente
 
 Se non sei familiare con il funzionamento e il ruolo di un nodo Bitcoin, ti consiglio di iniziare leggendo questo articolo: Il nodo Bitcoin - Parte 1/2: Concetti tecnici.
 
-![Samourai](assets/1.png)
+![Samourai](assets/1.jpeg)
 
 ## Cosa è RoninDojo?
 
@@ -76,7 +76,7 @@ Inserisci la tua scheda micro SD nel tuo computer personale e vai sul sito uffic
 
 Scarica l'immagine disco corrispondente al tuo hardware. Nel mio caso, ho scaricato l'immagine "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
 
-![Scarica l'immagine disco di RoninOS](assets/2.png)
+![Scarica l'immagine disco di RoninOS](assets/2.jpeg)
 
 Una volta scaricata l'immagine, verifica la sua integrità utilizzando il file .SHA256 corrispondente. Spiego dettagliatamente come fare questo in questo articolo: Come verificare l'integrità di un software Bitcoin su Windows?
 
@@ -86,7 +86,7 @@ Per scrivere questa immagine sulla tua micro SD, puoi utilizzare un software com
 
 Per farlo, seleziona l'immagine in Etcher e scrivila sulla micro SD:
 
-![Scrivi l'immagine disco con Etcher](assets/3.png)
+![Scrivi l'immagine disco con Etcher](assets/3.jpeg)
 
 Una volta completata l'operazione, puoi inserire la micro SD avviabile nel Raspberry Pi e accendere la macchina.
 
@@ -109,27 +109,27 @@ Suggerimento: In una shell, fai clic destro per incollare un elemento.
 
 Successivamente, verrai reindirizzato alla schermata di configurazione di Manjaro. Utilizza le frecce per selezionare la giusta disposizione della tastiera dalla lista a discesa.
 
-![Configurazione della tastiera Manjaro](assets/4.png)
+![Configurazione della tastiera Manjaro](assets/4.jpeg)
 
 Scegli un nome utente e una password per la tua sessione. Utilizza una password forte e fai un backup sicuro. Puoi eventualmente utilizzare una password semplice durante l'installazione e successivamente modificarla facilmente con la possibilità di "copia e incolla" in RoninUI. Questo ti permetterà di impostare una password molto robusta senza doverla digitare manualmente durante l'installazione di Manjaro.
 
-![Configurazione del nome utente Manjaro](assets/5.png)
+![Configurazione del nome utente Manjaro](assets/5.jpeg)
 
 Successivamente, ti verrà chiesto di scegliere una password per l'utente root. Per la password di root, inserisci direttamente una password forte. Non avrai la possibilità di modificarla tramite RoninUI. Assicurati anche di fare un backup sicuro di questa password di root.
 
 Successivamente, inserisci la tua località e la tua zona oraria.
 
-![Configurazione della zona oraria Manjaro](assets/6.png)
+![Configurazione della zona oraria Manjaro](assets/6.jpeg)
 
-![Configurazione della località Manjaro](assets/7.png)
+![Configurazione della località Manjaro](assets/7.jpeg)
 
 Successivamente, scegli un nome host.
 
-![Configurazione del nome host Manjaro](assets/8.png)
+![Configurazione del nome host Manjaro](assets/8.jpeg)
 
 Infine, verifica le informazioni di configurazione di Manjaro e conferma.
 
-![Verifica delle informazioni di configurazione di ManjaroOS](assets/9.png)
+![Verifica delle informazioni di configurazione di ManjaroOS](assets/9.jpeg)
 
 ### Passaggio 3: Scarica RoninDojo.
 
@@ -143,7 +143,7 @@ Successivamente, inserisci la tua password utente.
 
 Nel terminale, apparirà così:
 
-![Connessione SSH a RoninOS](assets/10.png)
+![Connessione SSH a RoninOS](assets/10.jpeg)
 
 Ora sei connesso alla tua macchina che al momento ha solo RoninOS. Ora dovrai installare RoninDojo.
 
@@ -153,7 +153,7 @@ Scarica l'ultima versione di RoninDojo inserendo il seguente comando:
 
 Il download verrà eseguito rapidamente. Nel terminale apparirà così:
 
-![Clonazione di RoninDojo](assets/11.png)
+![Clonazione di RoninDojo](assets/11.jpeg)
 
 Attendi il completamento del download, quindi installa e accedi all'interfaccia utente di RoninDojo utilizzando il seguente comando:
 
@@ -161,12 +161,12 @@ Attendi il completamento del download, quindi installa e accedi all'interfaccia 
 
 Ti verrà quindi chiesto di inserire la tua password utente:
 
-![Verifica della password del nodo Bitcoin](assets/12.png)
+![Verifica della password del nodo Bitcoin](assets/12.jpeg)
 Questa procedura è necessaria solo la prima volta che accedi al tuo RoninDojo. Successivamente, per accedere a RoninCLI tramite SSH, dovrai semplicemente inserire il comando [SSH pseudo@192.168.?.?] sostituendo "pseudo" con il tuo nome utente e inserendo l'IP del tuo nodo. Ti verrà richiesta la password dell'utente.
 
 Successivamente vedrai questa bellissima animazione:
 
-![Animazione di avvio di RoninCLI](assets/13.png)
+![Animazione di avvio di RoninCLI](assets/13.jpeg)
 
 Poi finalmente arriverai all'interfaccia utente CLI di RoninDojo.
 
@@ -174,29 +174,29 @@ Poi finalmente arriverai all'interfaccia utente CLI di RoninDojo.
 
 Dal menu principale, accedi al menu "System" utilizzando le frecce della tastiera. Utilizza il tasto Invio per confermare la tua scelta.
 
-![Navigazione menu RoninCLI verso System](assets/14.png)
+![Navigazione menu RoninCLI verso System](assets/14.jpeg)
 
 Quindi vai al menu "System Setup & Install".
 
-![Navigazione menu RoninCLI verso l'installazione del sistema di RoninDojo](assets/15.png)
+![Navigazione menu RoninCLI verso l'installazione del sistema di RoninDojo](assets/15.jpeg)
 
 Infine, seleziona "System Setup" e "Install RoninDojo" utilizzando la barra spaziatrice, quindi seleziona "Accetta" per avviare l'installazione.
 
-![Conferma installazione di RoninDojo](assets/16.png)
+![Conferma installazione di RoninDojo](assets/16.jpeg)
 
 Lascia che l'installazione si completi tranquillamente. Nel mio caso ci sono volute circa 2 ore. Lascia aperto il tuo terminale durante l'operazione.
 
 Osserva occasionalmente il tuo terminale, ti verrà chiesto di premere un tasto in determinati momenti dell'installazione, come ad esempio qui:
 
-![Installazione di RoninDojo in corso](assets/17.png)
+![Installazione di RoninDojo in corso](assets/17.jpeg)
 
 Alla fine dell'installazione, vedrai i diversi container avviarsi:
 
-![Avvio dei container del nodo](assets/18.png)
+![Avvio dei container del nodo](assets/18.jpeg)
 
 Poi il tuo nodo si riavvierà. Riconnettiti a RoninCLI per il passaggio successivo.
 
-![Riavvio del nodo Bitcoin](assets/19.png)
+![Riavvio del nodo Bitcoin](assets/19.jpeg)
 
 ### Passaggio 5: Scaricare la blockchain e accedere a RoninUI.
 
@@ -246,11 +246,11 @@ Puoi anche accedere all'interfaccia web di RoninUI da qualsiasi rete utilizzando
 
 Prendi l'indirizzo Tor che termina con .onion e accedi a Ronin UI inserendo questo indirizzo nel tuo browser Tor. Fai attenzione a non divulgare le tue credenziali, sono informazioni sensibili.
 
-![Interfaccia web di accesso a RoninUI](assets/20.png)
+![Interfaccia web di accesso a RoninUI](assets/20.jpeg)
 
 Una volta connesso, ti verrà richiesta la password dell'utente. È la stessa che usi per accedere tramite SSH.
 
-![Pannello di gestione di RoninUI interfaccia web](assets/21.png)
+![Pannello di gestione di RoninUI interfaccia web](assets/21.jpeg)
 
 Possiamo vedere l'avanzamento dell'IBD. Sii paziente, stai recuperando tutte le transazioni effettuate su Bitcoin dal 3 gennaio 2009.
 
@@ -258,7 +258,7 @@ Dopo aver scaricato l'intera blockchain, l'indicizzatore compatterà il database
 
 Il tuo nodo RoninDojo sarà completamente funzionale dopo questo:
 
-![Indicizzatore sincronizzato al 100% nodo funzionale](assets/22.png)
+![Indicizzatore sincronizzato al 100% nodo funzionale](assets/22.jpeg)
 
 Se desideri cambiare la password dell'utente per renderla più sicura, puoi farlo ora dall'opzione "Impostazioni". Su RoninDojo, non c'è uno strato di sicurezza aggiuntivo, quindi ti consiglio di scegliere una password veramente robusta e di fare attenzione al suo backup.
 
@@ -286,7 +286,7 @@ Dovrai semplicemente inserire il link in .onion nel software del tuo portafoglio
 
 Nel tipo di server, seleziona "Private Electrum", quindi inserisci l'indirizzo Tor del tuo Server Electrum nel campo corrispondente. Infine, clicca su "Test Connection" per testare e salvare la tua connessione.
 
-![Interfaccia di connessione di Sparrow Wallet a un electrs](assets/23.png)
+![Interfaccia di connessione di Sparrow Wallet a un electrs](assets/23.jpeg)
 
 ### Collegare i software del portafoglio a Samourai Dojo.
 
@@ -294,11 +294,11 @@ Invece di utilizzare Electrs, puoi anche utilizzare Samourai Dojo per collegare 
 
 Per farlo, sarà sufficiente scannerizzare il codice QR di connessione del tuo Dojo. Per accedervi da RoninUI, clicca sulla scheda "Dashboard" e poi sul pulsante "Manage" nella casella del tuo Dojo. Potrai quindi vedere i codici QR di connessione al tuo Dojo e a BTC-RPC Explorer. Per visualizzarli in chiaro, clicca su "Display values".
 
-![Recupero del codice QR di connessione al Dojo](assets/24.png)
+![Recupero del codice QR di connessione al Dojo](assets/24.jpeg)
 
 Per collegare il tuo portafoglio Samourai Wallet al tuo Dojo, dovrai scannerizzare questo codice QR durante l'installazione dell'applicazione:
 
-![Connessione a Dojo dall'applicazione Samourai Wallet](assets/25.png)
+![Connessione a Dojo dall'applicazione Samourai Wallet](assets/25.jpeg)
 
 ### Utilizzare il proprio Explorer Mempool.
 
@@ -319,11 +319,11 @@ Una volta installato, ottieni il link per il tuo Mempool. L'indirizzo Tor ti per
 
 > Credenziali > Mempool
 
-![Recupero indirizzo Tor Mempool](assets/26.png)
+![Recupero indirizzo Tor Mempool](assets/26.jpeg)
 
 Basta inserire il tuo indirizzo Mempool Tor nel browser Tor per utilizzare la tua stessa istanza Mempool, basata sui tuoi dati. Ti consiglio di aggiungere questo indirizzo Tor ai tuoi preferiti per potervi accedere più rapidamente. Puoi anche crearne un collegamento sul tuo desktop.
 
-![Interfaccia Mempool Space](assets/27.png)
+![Interfaccia Mempool Space](assets/27.jpeg)
 
 Se non hai ancora il browser Tor, puoi scaricarlo qui: https://www.torproject.org/download/
 
@@ -350,7 +350,7 @@ Lo strumento è preinstallato sul tuo RoninDojo. Al momento, è disponibile solo
 
 Le istruzioni per l'uso verranno visualizzate. Una volta completato, premi un tasto qualsiasi per accedere alle righe di comando:
 
-![Schermata iniziale di Whirlpool Stats Tool](assets/28.png)
+![Schermata iniziale di Whirlpool Stats Tool](assets/28.jpeg)
 
 Vedrai apparire il terminale:
 
@@ -380,7 +380,7 @@ I codici di denominazione sono i seguenti su WST:
 
 - Pool 0,001 bitcoin: 0001
 
-![Download dei dati del pool 0001 da OXT](assets/29.png)
+![Download dei dati del pool 0001 da OXT](assets/29.jpeg)
 
 Una volta scaricati i dati, caricarli con il comando:
 
@@ -388,7 +388,7 @@ Una volta scaricati i dati, caricarli con il comando:
 >
 > Sostituisci 0001 con il codice di denominazione del pool che ti interessa.
 
-![Caricamento dei dati del pool 0001](assets/30.png)
+![Caricamento dei dati del pool 0001](assets/30.jpeg)
 
 Lascia che il caricamento avvenga, potrebbe richiedere alcuni minuti. Dopo aver caricato i dati, digita il comando "score" seguito dal tuo TXID (identificativo della transazione) per ottenere i suoi Anon Sets:
 
@@ -396,7 +396,7 @@ Lascia che il caricamento avvenga, potrebbe richiedere alcuni minuti. Dopo aver 
 >
 > Sostituisci TXID con l'identificativo della tua transazione.
 
-![Stampa dei punteggi prospettici e retrospettivi del dato TXID](assets/31.png)
+![Stampa dei punteggi prospettici e retrospettivi del dato TXID](assets/31.jpeg)
 
 WST ti mostrerà quindi il punteggio retrospettivo (Backward-looking metrics) e poi il punteggio prospettico (Forward-looking metrics). Oltre ai punteggi degli Anon Sets, WST ti fornisce anche il tasso di diffusione del tuo output nel pool in base all'anon set.
 
@@ -422,7 +422,7 @@ Questi indicatori possono essere utilizzati per qualsiasi transazione Bitcoin, m
 
 In altre parole, questo indicatore rappresenta il numero di interpretazioni possibili per una transazione data. Ad esempio: una struttura Coinjoin Whirlpool 5x5 avrà un numero di combinazioni possibili pari a 1496:
 
-![Schema di una transazione Coinjoin su kycp.org](assets/32.png)
+![Schema di una transazione Coinjoin su kycp.org](assets/32.jpeg)
 
 Crediti: https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d
 
@@ -455,7 +455,7 @@ Più alto è questo indicatore, più ci sono interpretazioni diverse della trans
 
 Prendiamo un altro esempio. Ecco una transazione "classica" che ha un input e due output:
 
-![Schema di transazione bitcoin su oxt.me](assets/34.png)
+![Schema di transazione bitcoin su oxt.me](assets/34.jpeg)
 
 Crediti: https://oxt.me/graph/transaction/tiid/9815286
 
@@ -555,15 +555,15 @@ Ora che abbiamo studiato gli indicatori, vediamo come calcolarli utilizzando que
 
 > Samourai Toolkit > Boltzmann Calculator
 
-![Schermata iniziale del software Boltzmann Calculator](assets/35.png)
+![Schermata iniziale del software Boltzmann Calculator](assets/35.jpeg)
 
 Una volta avviato il software, inserisci l'ID della transazione che desideri studiare. Puoi inserire più transazioni separandole con una virgola, quindi premi Invio:
 
-![Inserire un TXID da studiare su Boltzmann Calculator](assets/36.png)
+![Inserire un TXID da studiare su Boltzmann Calculator](assets/36.jpeg)
 
 Il calcolatore restituirà tutti gli indicatori che abbiamo visto in precedenza:
 
-![Stampa dei dati di Boltzmann Calculator per questo TXID](assets/37.png)
+![Stampa dei dati di Boltzmann Calculator per questo TXID](assets/37.jpeg)
 
 Digita il comando "Quit" per uscire dal software e tornare al menu di RoninCLI.
 
@@ -598,17 +598,17 @@ Copia l'indirizzo sotto "Bitcoin Daemon".
 
 Puoi anche recuperare il tuo indirizzo Bitcoind Tor V3 dall'interfaccia RoninUI facendo clic su "Gestisci" nella sezione "Bitcoin Core" dalla "Dashboard":
 
-![Recupera l'indirizzo TorV3 Bitcoin Daemon su RoninUI](assets/38.png)
+![Recupera l'indirizzo TorV3 Bitcoin Daemon su RoninUI](assets/38.jpeg)
 
 Per connettere il tuo nodo a Bisq, vai al menu:
 
 > Impostazioni > Informazioni sulla rete
 
-![Accedi all'interfaccia di connessione al nodo dal software Bisq](assets/39.png)
+![Accedi all'interfaccia di connessione al nodo dal software Bisq](assets/39.jpeg)
 
 Fai clic sulla bolla "Utilizza nodi Bitcoin Core personalizzati". Quindi inserisci il tuo indirizzo Bitcoin TorV3 nella casella apposita, con ".onion" ma senza "http://".
 
-![Casella per inserire l'indirizzo TorV3 del tuo nodo nel software Bisq](assets/40.png)
+![Casella per inserire l'indirizzo TorV3 del tuo nodo nel software Bisq](assets/40.jpeg)
 
 Riavvia il software Bisq. Il tuo nodo è ora connesso a Bisq.
 
@@ -624,19 +624,19 @@ Per risolvere il problema, puoi verificare che il tuo nodo stia monitorando corr
 
 Inserisci l'xpub che sta causando il problema e clicca su "Verifica" per controllare questa informazione.
 
-![Strumento XPUB da RoninUI](assets/41.png)
+![Strumento XPUB da RoninUI](assets/41.jpeg)
 
 Se il tuo xpub viene monitorato correttamente dal nodo, vedrai apparire questo:
 
-![Risultato positivo dell'analisi dello strumento XPUB](assets/42.png)
+![Risultato positivo dell'analisi dello strumento XPUB](assets/42.jpeg)
 
 Verifica che tutte le transazioni siano visualizzate correttamente. Verifica anche che il tipo di derivazione corrisponda a quello del tuo portafoglio. Qui possiamo vedere che il nodo interpreta questa xpub come una derivazione BIP44. Se questo tipo di derivazione non corrisponde a quello del tuo portafoglio, clicca sul pulsante "Retype", quindi seleziona BIP44/BIP49/BIP84 in base alla tua scelta:
 
-![Cambia il tipo di derivazione della xpub esaminata da RoninUI](assets/43.png)
+![Cambia il tipo di derivazione della xpub esaminata da RoninUI](assets/43.jpeg)
 
 Se la tua xpub non è tracciata dal tuo nodo, vedrai comparire questa schermata che ti invita a importarla:
 
-![Importa una xpub con lo strumento XPUB Tool su RoninUI](assets/44.png)
+![Importa una xpub con lo strumento XPUB Tool su RoninUI](assets/44.jpeg)
 
 Puoi anche utilizzare altri strumenti di manutenzione:
 
@@ -648,7 +648,7 @@ Puoi anche utilizzare altri strumenti di manutenzione:
 
 Troverai anche su RoninUI lo strumento "Push Tx". Ti consente di diffondere una transazione firmata sulla rete Bitcoin. Questa deve essere inserita nel formato esadecimale:
 
-![Strumento di diffusione di una transazione firmata da RoninUI](assets/45.png)
+![Strumento di diffusione di una transazione firmata da RoninUI](assets/45.jpeg)
 
 ## Conclusion.
 

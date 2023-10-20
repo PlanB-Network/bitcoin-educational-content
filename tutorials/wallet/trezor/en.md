@@ -35,73 +35,73 @@ The Trezor comes with its own micro USB cable. Make sure you use that and not ju
 
 Connect it to your computer and the device will power on. You’ll get a message that says “Go to Trezor.io/start”. Do that, and download Trezor Suite to your computer.
 
-![image](assets/0.png)
+![image](assets/0.jpeg)
 
 Click the download button (“Get Desktop App”)
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 Notice the Signature and Signing key links. To verify the download (check that your download has not been tampered with), there are additional steps that are optional if you’re starting out, but MANDATORY if you have significant wealth to secure. Instructions for that are in Appendix A ( end of guide)
 
 Connect the Trezor to the computer with the micro USB cable, and install and run the program. Here’s how it looks on a Mac:
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 You’ll get a silly warning after running the program, just continue:
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Click on Setup Trezor
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 If the firmware is out of date, allow Trezor to update the firmware.
 
 Next, you can create a new seed, or restore a wallet from a different device with a seed you already have. I’ll go through creating a new seed.
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Click “Create new wallet” – and confirm you want to do this on the device itself by clicking the confirm button.
 
 Then click the only option “Standard seed backup”
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Then click “create backup”
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Click on the three checkmarks to turn them green (of course read each message), and then click “begin backup”.
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 Next, you’ll see this:
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 On the device, see the words presented to you one by one and write them down NEATLY and IN ORDER.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Set a PIN to lock the device (this is not part of your seed, it’s just to lock the device so no one can access the seed contained inside).
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 You have options to add shitcoins to your wallet – I urge you not to, and save in Bitcoin only, as I explain here (why bitcoin) and here (why bitcoin only).
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 Name your wallet, and click “Access Suite”:
 
-![image](assets/13.png)
+![image](assets/13.jpeg)
 
 It’s simplest to create a wallet with no passphrase, but best to create one with a passphrase (your real wallet) AND one without a passphrase (your decoy wallet). Each time you access the device through Trezor Suite, you’ll be asked if you want to “apply” the passphrase or not.
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 I selected “Hidden Wallet” and typed in a passphrase that I made up “craigwrightisaliarandafraud”
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 I like how it’s called a “hidden” wallet, as it explains partly how passphrases function.
 
@@ -109,15 +109,15 @@ Confirm the passphrase on the device.
 
 Because this wallet is empty, I was asked to confirm that the passphrase is correct:
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 You will then be asked if you’d like to enable labelling. Not something I’ve explored, but it sounds like a way you can label your transactions and save the data to your computer or cloud.
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Finally, your wallet will be available:
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 What you have on your computer is what’s called a “watching wallet”, because it has your public keys (and addresses), but not your private keys. You need the private keys to spend (by signing transactions with the private keys). The way to do that is by connecting the hardware wallet. The point of the hardware wallet is that transactions can be passed back and forth between the computer and the Trezor, a signature can be applied inside the Trezor, and the private key always remains contained inside the device (for security against computer malware).
 
@@ -137,37 +137,37 @@ We will now load it up Sparrow and connect the Trezor (with the seed phrase but 
 
 Create a New Wallet:
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Name it something pretty
 
-![image](assets/20.png)
+![image](assets/20.jpeg)
 
 Click on “Connected Hardware Wallet”.
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 
 Click “Scan” and then “set passphrase” on the next screen to create a brand new wallet (use a brand new passphrase, eg the old passphrase with a number afterwards would work). Then “send passphrase”, then confirm it on the device.
 
-![image](assets/23.png)
+![image](assets/23.jpeg)
 
 Then click “import keystore”.
 
 There’s nothing to edit on the next screen, the Trezor has filled it for you. Click “Apply”
 
-![image](assets/24.png)
+![image](assets/24.jpeg)
 
 The next screen allows you to add a password. Don’t confuse this with “passphrase”; many people will. The naming is unfortunate. The password allows you to lock this wallet on your computer. It is specific to this software on this computer. It is not part of your Bitcoin private key.
 
 Click “Apply”
 
-![image](assets/25.png)
+![image](assets/25.jpeg)
 
 After a pause, while the computer thinks, you will see the buttons on the left change from grey to blue. Congratulations, your wallet is now ready to use. Make and send transactions to your heart’s content.
 
-![image](assets/26.png)
+![image](assets/26.jpeg)
 
 Receiving
 
@@ -179,7 +179,7 @@ Once you do that, you must back up the words that you wrote down. A single copy 
 
 ## Sending
 
-![image](assets/27.png)
+![image](assets/27.jpeg)
 
 When making a payment, you need to paste in the address you are paying to in the “Pay to” field. You can’t actually leave the Label blank, it’s just for your own wallets’ records, but Sparrow doesn’t allow it – just enter something (only you will see it). Enter the amount and you can also manually adjust the fee you want.
 
@@ -196,7 +196,7 @@ Appendix A -Verify the software download
 
 ## Appendix A -Verify the software download
 
-![image](assets/28 .png)
+![image](assets/28 .jpeg)
 
 Download the Signature (a text file) and the Signing key (a text file) and make note of the file names and where you downloaded the file to.
 

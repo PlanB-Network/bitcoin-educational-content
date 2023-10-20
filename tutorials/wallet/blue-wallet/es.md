@@ -17,7 +17,7 @@ Blue Wallet es una billetera de código abierto de Bitcoin que es extremadamente
 
 ## BlueWallet: una introducción
 
-![image](assets/1.jpg)
+![image](assets/1.jpeg)
 
 Para poder recibir o enviar Bitcoin desde su teléfono celular (o tableta), descargue BlueWallet desde el sitio correspondiente a su tipo de teléfono celular o tableta:
 
@@ -36,7 +36,7 @@ _⚠️ Tome nota en un papel de la frase de respaldo (12 palabras). ¡Si pierde
 
 Desde su nueva billetera BlueWallet, utilice la opción "Recibir", que generará una dirección de pago única (que comienza con bc1...)
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 1. Escanee su dirección de recepción directamente con el código QR;
 2. O copie/pegue la dirección de Bitcoin;
@@ -46,7 +46,7 @@ Desde su nueva billetera BlueWallet, utilice la opción "Recibir", que generará
 
 Desde su nueva billetera BlueWallet, utilice la opción "Enviar", que le permitirá elegir la cantidad a enviar y escanear o pegar la dirección de Bitcoin del destinatario (que normalmente comienza con bc1...).
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 1. Ingrese la cantidad a enviar;
 2. Escanee el código QR del destinatario o pegue su dirección de Bitcoin directamente;

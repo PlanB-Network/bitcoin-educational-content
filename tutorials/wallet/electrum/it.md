@@ -4,7 +4,7 @@ name: Electrum
 description: Guida completa a Electrum, da zero all'eroe
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.jpeg)
 
 Descrizione di Electrum
 
@@ -36,7 +36,7 @@ Clicca sulla scheda Download in alto.
 
 Clicca sul link di download corrispondente al tuo computer. Qualsiasi computer Linux o Mac può utilizzare il link Python (cerchio rosso). Un computer Linux con un chip Intel o AMD può utilizzare l'Appimage (cerchio verde; è simile a un file eseguibile di Windows). Un dispositivo Raspberry Pi ha un microprocessore ARM e può utilizzare solo la versione Python (cerchio rosso), non l'Appimage, anche se i Pi eseguono Linux. Il cerchio blu è per Windows e il cerchio nero è per Mac.
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 ## Verifica di Electrum
 
@@ -49,13 +49,13 @@ In altre parole, con i tre input (firma, chiave pubblica e file di dati), otteni
 
 Per ottenere la firma, fai clic sul link corrispondente al file scaricato (vedi frecce colorate):
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Cliccando sul link potrebbe scaricare automaticamente il file nella cartella dei download, oppure potrebbe aprirsi nel browser. Se si apre nel browser, è necessario salvare il file. È possibile fare clic con il pulsante destro del mouse e selezionare "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario fare clic con il pulsante destro del mouse nell'area dello spazio bianco, non sul testo.
 
 Di seguito è riportato il testo scaricato. Puoi vedere che ci sono più firme, queste sono firme di persone diverse. Puoi verificare ognuna di esse. Ti mostrerò come verificare solo quella dello sviluppatore.
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Successivamente, è necessario ottenere la chiave pubblica di ThomasV, che è il principale sviluppatore. Puoi ottenerla direttamente da lui, dal suo account Keybase, da Github o da qualcun altro, da un keyserver o dal sito web di Electrum.
 
@@ -65,7 +65,7 @@ Per tenerlo semplice per ora, ti mostrerò come ottenerla comunque dal sito web,
 
 Scorri un po' verso il basso nella pagina per trovare il link alla chiave pubblica di ThomasV (cerchio rosso sotto). Fai clic su di esso e scaricalo, o se si apre del testo in un browser, fai clic con il pulsante destro del mouse per salvarlo.
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Ora hai 3 nuovi file, probabilmente tutti nella cartella dei download. Non importa dove si trovano, ma rende il processo più semplice se li metti tutti nella stessa cartella.
 
@@ -115,7 +115,7 @@ Ora abbiamo una copia verificata di Electrum che è sicura da usare.
 
 Se hai scaricato la versione di Python, ecco come farla funzionare. Vedrai sulla pagina di download questo:
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Per Linux, è una buona idea prima aggiornare il sistema:
 
@@ -171,7 +171,7 @@ Nonostante il fatto che odio Windows più di tutto, questo è il metodo più sem
 
 Quando carichi per la prima volta Electrum, si aprirà una finestra come questa:
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Successivamente, seleziona manualmente il tuo server, ma per ora lascia le impostazioni predefinite e connessione automatica.
 
@@ -179,27 +179,27 @@ Successivamente, crea un portafoglio fittizio: non mettere mai fondi in questo p
 
 Puoi lasciare il nome come "default_wallet" o cambiarlo a tuo piacimento e fare clic su Avanti. In seguito, se hai più portafogli, puoi trovarli e aprirli in questa fase facendo clic prima su "Scegli..."
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Scegli "Portafoglio standard" e <Avanti>:
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 Quindi, seleziona "Ho già una frase di recupero". Non voglio che tu prenda l'abitudine di creare una frase di recupero di Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri portafogli: ecco perché non clicchiamo su "nuova frase di recupero".
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 Vai su https://iancoleman.io/bip39/ e crea una frase di recupero fittizia. Prima, cambia il numero di parole a 12 (che è una pratica comune), quindi fai clic su "genera" e copia le parole nella casella negli appunti.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Quindi incolla le parole in Electrum. Ecco un esempio:
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Electrum cercherà parole che corrispondano al suo proprio protocollo. Dobbiamo bypassare questo. Fai clic su Opzioni e seleziona Frase di recupero BIP39:
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 Il seme diventa quindi valido. (Prima di fare ciò, Electrum si aspettava un seme di Electrum, quindi questo seme era considerato non valido). Prima di fare clic su Avanti, notare il testo che dice "Checksum OK". È importante (per il portafoglio reale che potresti utilizzare in seguito) vedere questo prima di procedere, poiché conferma la validità del seme inserito. L'avvertimento in fondo può essere ignorato, è solo una lamentela dello sviluppatore di Electrum riguardo a BIP39 e alle loro affermazioni "FUD" che la loro versione (che non è compatibile con altri portafogli) è superiore.
 
@@ -211,17 +211,17 @@ Dopo aver fatto clic su OK, verrai riportato alla schermata in cui hai digitato 
 
 Se non hai richiesto una passphrase, vedrai questa schermata successiva: ulteriori opzioni per il tipo di script del tuo portafoglio e il percorso di derivazione, che puoi imparare qui (https://armantheparman.com/public-and-private-keys/), ma lascia semplicemente i valori predefiniti e procedi.
 
-![image](assets/13.png)
+![image](assets/13.jpeg)
 
 > Per ulteriori informazioni: la prima opzione ti consente di scegliere tra legacy (indirizzi che iniziano con "1"), pay-to-script-hash (indirizzi che iniziano con "3") o bech32/native segwit (indirizzi che iniziano con "bc1q"). Al momento della stesura, Electrum non supporta ancora taproot (indirizzi che iniziano con "bc1p"). La seconda opzione in questa finestra ti consente di modificare il percorso di derivazione. Ti consiglio di non modificarlo mai, soprattutto prima di capire cosa significa. Le persone sottolineeranno l'importanza di scrivere il percorso di derivazione in modo da poter recuperare il tuo portafoglio se necessario, ma se lo lasci come predefinito, probabilmente andrà tutto bene, quindi non preoccuparti, ma è comunque una buona pratica scrivere il percorso di derivazione.
 
 Successivamente, ti verrà data la possibilità di aggiungere una PASSWORD. Questa non deve essere confusa con "PASSPHRASE". Una password blocca il file sul tuo computer. Una passphrase fa parte della composizione della chiave privata. Poiché si tratta di un portafoglio fittizio, puoi lasciare la password vuota e procedere.
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Riceverai una finestra pop-up riguardo alle notifiche delle nuove versioni (ti consiglio di selezionare no). Il portafoglio si genererà quindi da solo e sarà pronto all'uso (ma ricorda, questo portafoglio è destinato ad essere eliminato, è solo un portafoglio fittizio).
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 Ci sono alcune cose che ti suggerisco di fare per configurare l'ambiente software (richiesto solo una volta):
 
@@ -318,13 +318,13 @@ Connettiamoci al nodo di Bitaroo - Ci dicono che non raccolgono dati. Sono uno s
 
 Accedi alle impostazioni di rete cliccando sul cerchio nella parte inferiore destra della finestra del portafoglio (il rosso indica non connesso, il verde indica connesso e il blu indica connesso tramite Tor).
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Una volta cliccato sull'icona del cerchio, apparirà una finestra popup: Il tuo portafoglio mostrerà "connesso a 1 nodo" poiché l'abbiamo forzato in precedenza.
 
 Deseleziona la casella "seleziona server automaticamente" e quindi nel campo Server, digita i dettagli di Bitaroo come mostrato:
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Chiudi la finestra e ora dovremmo essere connessi al nodo di Bitaroo. Per confermare, il cerchio dovrebbe essere verde. Cliccaci di nuovo e controlla che i dettagli del server non siano tornati a un nodo casuale.
 
@@ -338,7 +338,7 @@ Se hai il tuo nodo è fantastico. Se hai solo Bitcoin Core e non anche un SERVER
 
 Apri le impostazioni di rete (clicca sul cerchio verde o rosso in basso a destra). Deseleziona la casella "seleziona server automaticamente", quindi inserisci il tuo indirizzo IP come ho fatto io, il tuo sarà diverso, ma i due punti e "50002" dovrebbero essere gli stessi.
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 Chiudi la finestra e ora dovremmo essere connessi al tuo nodo. Per confermare, clicca nuovamente sul cerchio e verifica che i dettagli del server non siano tornati a essere un nodo casuale.
 
@@ -376,11 +376,11 @@ https://mynode.local
 
 In questo modo accederai al dispositivo e potrai fare clic sul collegamento delle impostazioni (vedi il mio "cerchio" blu sotto) per mostrare questa schermata in cui è presente l'indirizzo IP:
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Questa pagina si caricherà e vedrai l'IP del nodo (cerchio blu).
 
-![image](assets/20.png)
+![image](assets/20.jpeg)
 
 Quindi, in futuro, puoi digitare 192.168.0.150 o http://192.168.0.150 nel tuo browser.
 
@@ -399,7 +399,7 @@ Prima di tutto, trova l'indirizzo IP di qualsiasi dispositivo sulla tua rete (il
 
 Su un Mac, lo troverai nelle preferenze di Rete:
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 Siamo interessati ai primi 4 elementi (192.168.0), non al 4° elemento, il "166" che vedi nell'immagine (il tuo sarà diverso).
 
@@ -431,7 +431,7 @@ Uno per uno, procedi verso l'alto fino a 255. Alla fine, ti fermerai al numero c
 
 Avrà un aspetto simile a questo (assicurati di includere i due punti e il numero successivo):
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 
 > È utile sapere che questi indirizzi IP sono INTERNI alla tua rete domestica. Nessuno all'esterno può vederli e non sono sensibili. Sono un po' come le estensioni telefoniche in un'organizzazione grande che ti indirizzano a telefoni diversi.
 
@@ -454,7 +454,7 @@ Nel nuovo portafoglio che hai creato, vedrai un elenco di indirizzi. Quelli verd
 Il tuo nuovo portafoglio ha un insieme di indirizzi di ricezione che possono essere creati in modo matematico e riproducibile da qualsiasi portafoglio software che abbia il seed, la passphrase e il percorso di derivazione. Ce ne sono 4,3 miliardi! Più di quanti ne avrai bisogno. Electrum ti mostra solo i primi 20, e poi di più man mano che li utilizzi.
 Ulteriori informazioni sulle chiavi private di Bitcoin possono essere trovate in questa guida.
 
-![image](assets/23.png)
+![image](assets/23.jpeg)
 
 Questo è molto diverso da alcuni altri portafogli che presentano solo un indirizzo alla volta.
 
@@ -468,31 +468,31 @@ Successivamente, torna al sito delle chiavi private di Ian Colman e inserisci il
 
 Scorri verso il basso e cambia il percorso di derivazione in BIP84 (segwit) per abbinarlo al tuo portafoglio Electrum cliccando sulla scheda BIP84.
 
-![image](assets/24.png)
+![image](assets/24.jpeg)
 
 Sotto, vedrai la chiave privata estesa dell'account e la chiave pubblica estesa dell'account:
 
-![image](assets/25.png)
+![image](assets/25.jpeg)
 
 Vai su Electrum e confronta che corrispondano. C'è un menu in alto, portafoglio -> informazioni:
 
-![image](assets/26.png)
+![image](assets/26.jpeg)
 
 Questo compare:
 
-![image](assets/27.png)
+![image](assets/27.jpeg)
 
 Nota che le due chiavi pubbliche corrispondono.
 
 Successivamente, confronta gli indirizzi. Torna al sito di Ian Coleman e scorri fino in fondo:
 
-![image](assets/28.png)
+![image](assets/28.jpeg)
 
 Nota che corrispondono agli indirizzi in Electrum.
 
 Ora verificheremo gli indirizzi di cambio. Scorri un po' verso l'alto fino al percorso di derivazione e cambia l'ultimo 0 in un 1:
 
-![image](assets/29.png)
+![image](assets/29.jpeg)
 
 Ora scorri verso il basso e confronta che gli indirizzi corrispondano agli indirizzi gialli in Electrum.
 
@@ -514,7 +514,7 @@ Questo ha diversi scopi.
 
 Apri il tuo test Electrum Wallet e clicca sulla scheda Indirizzi, quindi fai clic con il pulsante destro del mouse sul primo indirizzo e seleziona Copia -> Indirizzo:
 
-![image](assets/30.png)
+![image](assets/30.jpeg)
 
 L'indirizzo è ora nella memoria del tuo computer.
 
@@ -522,11 +522,11 @@ Ora vai su un exchange dove hai alcuni bitcoin e preleva una piccola quantità s
 
 Accedi e fai clic sul pulsante Invia/Ricevi, che oggi si trova nell'angolo in alto a destra della pagina web.
 
-![image](assets/31.png)
+![image](assets/31.jpeg)
 
 Ovviamente non ho fondi su Coinbase, ma immagina solo che ci siano fondi qui e segui il procedimento: Incolla l'indirizzo da Electrum nel campo "A" come ho fatto io. Dovrai anche selezionare una quantità (suggerisco circa 50.000 sats). Non inserire un "messaggio opzionale" - Coinbase sta già raccogliendo abbastanza dei tuoi dati (e li sta vendendo), non c'è bisogno di aiutarli. Infine, fai clic su "Continua". Dopo di ciò, non so quali altre finestre popup potresti ricevere, sei da solo, ma il metodo è simile per tutti gli exchange.
 
-![image](assets/32.png)
+![image](assets/32.jpeg)
 
 A seconda dell'exchange, potresti vedere i sats nel tuo portafoglio immediatamente o potrebbe esserci un ritardo di ore/giorni.
 
@@ -538,40 +538,40 @@ Ora che abbiamo un UTXO nel nostro portafoglio, dovremmo etichettarlo. Solo noi 
 
 Avevo bisogno di una donazione per questo portafoglio di prova, grazie a @Sathoarder per avermi fornito un UTXO attivo (10.000 sats), e un'altra persona (anonima) ha donato allo stesso indirizzo (5000 sats). Nota che ci sono 15.000 sats nel saldo del primo indirizzo e un totale di 2 transazioni (colonna di destra). In fondo, il saldo è di 10.000 sats confermati e altri 5.000 sats sono non confermati (ancora nella mempool).
 
-![image](assets/33.png)
+![image](assets/33.jpeg)
 
 Ora, se andiamo alla scheda Monete, possiamo vedere due "monete ricevute" o UTXO. Sono entrambi nello stesso indirizzo.
 
-![image](assets/34.png)
+![image](assets/34.jpeg)
 
 Tornando alla scheda Indirizzi, se fai doppio clic sull'area "etichette" accanto all'indirizzo, potrai inserire del testo e premere <invio> per salvare:
 
-![image](assets/35.png)
+![image](assets/35.jpeg)
 Questa è una buona pratica per tenere traccia di dove provengono le tue monete, se sono KYC-free o meno e quanto costa ogni UTXO (nel caso in cui tu abbia bisogno di venderle e calcolare le tasse che ti verranno sottratte dal governo).
 
 Idealmente, dovresti evitare di accumulare più monete nello stesso indirizzo. Se decidi di farlo (non farlo), puoi etichettare ogni moneta invece di tutte con la stessa etichetta utilizzando il metodo dell'indirizzo. Non puoi effettivamente andare alla scheda "monete" ed editare le etichette lì (no, sarebbe troppo intuitivo!). Devi andare alla scheda Cronologia, trovare la transazione, etichettarla e poi vedrai le etichette nella sezione delle monete. Le etichette che vedi nella sezione delle monete provengono dalle etichette degli indirizzi O dalle etichette della cronologia, ma qualsiasi etichetta della cronologia sovrascrive qualsiasi etichetta dell'indirizzo. Per fare il backup delle tue etichette su un file, puoi esportarle dal menu in alto, portafoglio -> etichette -> esporta.
 
 Successivamente, spendiamo le monete dal primo indirizzo al secondo indirizzo. Fai clic con il pulsante destro del mouse sul primo indirizzo e seleziona "spendere da" (in realtà non è necessario in questo scenario, ma immagina di avere molte monete in molti indirizzi; utilizzando questa funzione, possiamo forzare il portafoglio a spendere solo le monete che vogliamo. Se vogliamo selezionare più monete in più indirizzi, possiamo selezionare gli indirizzi con un clic del mouse sinistro tenendo premuto il tasto comando, quindi fare clic con il pulsante destro del mouse e selezionare "spendere da"):
 
-![image](assets/36.png)
+![image](assets/36.jpeg)
 
 Una volta fatto ciò, ci sarà una barra verde in fondo alla finestra del portafoglio che indica il numero di monete che hai selezionato e il totale disponibile da spendere.
 
 Puoi anche spendere monete singole all'interno di un indirizzo ed escluderne altre nello stesso indirizzo, ma questo è sconsigliato perché stai lasciando monete in un indirizzo che è stato indebolito criptograficamente a causa della spesa di una delle monete (un'altra ragione per non mettere più monete in un unico indirizzo, oltre alle ragioni di privacy, è che dato che dovresti spenderle tutte se ne spendi una, questo diventa costoso inutilmente). Ecco come selezionare una singola moneta da un indirizzo condiviso, ma non farlo:
 
-![image](assets/37.png)
+![image](assets/37.jpeg)
 
 Ora, abbiamo selezionato le due monete da spendere. Successivamente, decidiamo dove spenderle. Inviamole al secondo indirizzo. Dovremo copiare l'indirizzo in questo modo:
 
-![image](assets/38.png)
+![image](assets/38.jpeg)
 
 Quindi vai alla scheda "Invia" e incolla il secondo indirizzo nel campo "pagare a". Non è necessario aggiungere una descrizione; potresti farlo, ma puoi farlo in seguito modificando le etichette. Per l'importo, seleziona "Max" per spendere tutte le monete che abbiamo selezionato. Quindi clicca su "Paga" e poi clicca sul pulsante "avanzate" nella finestra popup che appare.
 
-![image](assets/39.png)
+![image](assets/39.jpeg)
 
 Clicca sempre su "avanzate" in questa fase in modo da poter avere un controllo preciso e verificare esattamente cosa c'è nella transazione. Ecco la transazione:
 
-![image](assets/40.png)
+![image](assets/40.jpeg)
 
 Vediamo due finestre/box bianche interne. Quella superiore è la finestra degli input (quali monete vengono spese) e quella inferiore è gli output (dove vanno le monete).
 Nota, lo stato (in alto a sinistra) è "non firmato" per ora. L'"Importo inviato" è 0 perché le monete vengono trasferite all'interno del portafoglio. La commissione è di 481 sats. Nota che se fossero stati 480 sats, lo zero finale sarebbe stato omesso, come questo, 0.0000048 e per l'occhio stanco, questo può sembrare 48 sats - fai attenzione (qualcosa che gli sviluppatori di Electrum dovrebbero correggere).
@@ -579,7 +579,7 @@ La dimensione della transazione si riferisce alla dimensione dei dati in byte, n
 
 In fondo, abbiamo alcuni strumenti di regolazione delle commissioni di mining di fantasia. Tutto ciò che devi fare per i trasferimenti interni è impostarlo alla commissione minima di 1 sat/byte. Digita manualmente il numero nel campo della commissione target. Per verificare una commissione appropriata per un pagamento esterno, puoi consultare https://mempool.space per vedere quanto è occupato il mempool e vengono visualizzate alcune commissioni suggerite.
 
-![image](assets/41.png)
+![image](assets/41.jpeg)
 
 Ho selezionato 1 sat/byte.
 
@@ -597,7 +597,7 @@ Se regoliamo la commissione di mining, il valore dell'output cambierà automatic
 
 Una volta che hai controllato tutto nella transazione e sei sicuro di essere soddisfatto delle monete che stai spendendo e di dove stanno andando, puoi fare clic su "finalizza".
 
-![image](assets/42.png)
+![image](assets/42.jpeg)
 
 Dopo aver cliccato su "finalizza", non è più possibile apportare modifiche: se ne hai bisogno, devi chiudere questa finestra e ricominciare da capo. Nota che il pulsante "finalizza" è cambiato in "esporta" e sono comparsi nuovi pulsanti: "salva", "combina", "firma" e "trasmetti". Il pulsante "trasmetti" è disattivato perché la transazione non è firmata e quindi non valida in questa fase.
 Una volta che hai cliccato su "firma", se hai una password per il portafoglio, ti verrà richiesta e lo stato (in alto a destra) passerà da "non firmata" a "firmata". A questo punto, il pulsante "trasmetti" sarà disponibile.
@@ -610,15 +610,15 @@ Qualcosa da sottolineare è che invece di trasmettere, possiamo salvare la trans
 
 Clicca sul pulsante "esporta" (paradossalmente, NON cliccare sul pulsante "salva") e vedrai una serie di opzioni. La transazione è codificata con del testo e quindi può essere salvata in diversi modi.
 
-![image](assets/43.png)
+![image](assets/43.jpeg)
 
 Salvare in un codice QR è molto interessante. Se scegli questa opzione, apparirà un codice QR:
 
-![image](assets/44.png)
+![image](assets/44.jpeg)
 
 Puoi quindi fare una foto del codice QR. Ci sono diverse cose che puoi fare con questo, ma per ora diciamo solo che lo stai caricando di nuovo nel portafoglio in seguito. Puoi chiudere Electrum, caricare di nuovo il portafoglio e andare al menu Strumenti:
 
-![image](assets/45.png)
+![image](assets/45.jpeg)
 
 Questo aprirà la fotocamera del tuo computer. Mostra quindi alla fotocamera la foto del codice QR sul tuo telefono e la transazione verrà caricata di nuovo, esattamente come l'hai lasciata.
 
@@ -643,11 +643,11 @@ Nota che, mentre regoli la tassa di mining, l'importo dell'output di cambio si r
 
 Questa è una caratteristica davvero interessante di Electrum. Puoi accedervi in questo modo.
 
-![image](assets/46.png)
+![image](assets/46.jpeg)
 
 Puoi quindi inserire più destinazioni per il saldo UTXO che stai spendendo, come questo:
 
-![image](assets/47.png)
+![image](assets/47.jpeg)
 
 Incolla l'indirizzo, digita una virgola, quindi uno spazio, quindi l'importo, quindi <invio>, quindi fallo di nuovo. NON INSERIRE GLI IMPORTI NELLE FINESTRE "AMOUNT" - Electrum popolerà il totale qui mentre digiti gli importi singoli nella finestra "Pay to".
 
@@ -676,11 +676,11 @@ FRASE SEGRETA: "Craig Wright è un bugiardo e un truffatore e dovrebbe essere in
 
 La frase segreta può essere lunga fino a 100 caratteri e idealmente dovrebbe essere inequivocabile e non troppo breve. Quella che ho usato io è solo per divertimento. In generale, suggerisco di evitare lettere maiuscole e simboli solo per ridurre lo stress nel tentativo di combinazioni se hai mai avuto problemi a ricordare la tua frase segreta.
 
-![image](assets/48.png)
+![image](assets/48.jpeg)
 
 Successivamente, in Electrum, vai al menu file->nuovo/ripristina. Digita un nome univoco per creare un nuovo portafoglio e clicca su "avanti".
 
-![image](assets/49.png)
+![image](assets/49.jpeg)
 
 I passaggi successivi dovresti conoscerli ormai, quindi li elencherò senza immagini:
 
@@ -694,11 +694,11 @@ I passaggi successivi dovresti conoscerli ormai, quindi li elencherò senza imma
 
 Ora torna al sito di Ian Coleman, nella sezione "percorso di derivazione", e clicca sulla scheda "BIP 84" per selezionare la stessa semantica dello script predefinita in Electrum (Native Segwit).
 
-![image](assets/50.png)
+![image](assets/50.jpeg)
 
 Le chiavi private e pubbliche estese sono appena sotto e cambiano quando apporti modifiche al percorso di derivazione (o qualsiasi altra cosa più in alto nella pagina).
 
-![image](assets/51.png)
+![image](assets/51.jpeg)
 
 Vedrai anche le chiavi private/pubbliche estese BIP32: per ora, ignorale.
 
@@ -758,7 +758,7 @@ Alcuni sistemi operativi apriranno automaticamente l'esplora file quando inseris
 
 Apri Electrum. Se è già aperto con un altro portafoglio, seleziona file -> nuovo. Stiamo cercando questa finestra:
 
-![image](assets/52.png)
+![image](assets/52.jpeg)
 
 Ecco il trucco, non è intuitivo. Fai clic su "scegli". Quindi naviga nel sistema di file sulla scheda microSD e trova il file del portafoglio e aprilo.
 
@@ -791,7 +791,7 @@ sudo nano /etc/udev/rules.d
 ```
 
 Un editor di testo si aprirà. Copia il testo da qui e incollalo nel file rules.d, salva ed esci.
-![image](assets/53.png)
+![image](assets/53.jpeg)
 
 Quindi esegui questi comandi uno dopo l'altro:
 
@@ -857,7 +857,7 @@ Per fare ciò, puoi copiare i file del programma su una chiavetta USB e copiare 
 
 Come ho spiegato in precedenza, nella scheda degli indirizzi c'è una colonna delle etichette. Puoi fare doppio clic lì e inserire note per te stesso (sono solo sul tuo computer, non pubbliche e non sulla blockchain).
 
-![image](assets/54.png)
+![image](assets/54.jpeg)
 
 Quando sposti il tuo portafoglio Electrum su un altro computer, potresti voler conservare tutte queste note. Puoi eseguire il backup su un file utilizzando il menu, portafoglio -> etichette -> esporta, e quindi sul nuovo computer utilizzare portafoglio -> etichette -> importa.
 

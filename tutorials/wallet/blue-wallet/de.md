@@ -17,7 +17,7 @@ Blue Wallet ist eine Open-Source-Bitcoin-Wallet, die extrem einfach zu bedienen,
 
 ## BlueWallet: Eine Einführung
 
-![image](assets/1.jpg)
+![image](assets/1.jpeg)
 
 Um Bitcoin von Ihrem Mobiltelefon (oder Tablet) zu empfangen oder zu senden, laden Sie BlueWallet von der entsprechenden Website für Ihr Mobiltelefon oder Tablet herunter:
 
@@ -36,7 +36,7 @@ _⚠️ Notieren Sie sich den Backup-Satz (12 Wörter) auf einem Blatt Papier. W
 
 Verwenden Sie in Ihrer neuen BlueWallet-Wallet die Option "Empfangen", um eine eindeutige Zahlungsadresse zu generieren (beginnend mit bc1...).
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 1. Scannen Sie Ihre Empfangsadresse direkt mit dem QR-Code.
 2. ODER kopieren/einfügen Sie die Bitcoin-Adresse.
@@ -46,7 +46,7 @@ Verwenden Sie in Ihrer neuen BlueWallet-Wallet die Option "Empfangen", um eine e
 
 Verwenden Sie in Ihrer neuen BlueWallet-Wallet die Option "Senden", um den zu sendenden Betrag auszuwählen und die Bitcoin-Adresse des Empfängers zu scannen oder einzufügen (normalerweise beginnend mit bc1...).
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 1. Geben Sie den zu sendenden Betrag ein.
 2. Scannen Sie den QR-Code des Empfängers oder fügen Sie seine Bitcoin-Adresse direkt ein.

@@ -17,7 +17,7 @@ You can either wipe clean an old computer, and use it as a dedicated Bitcoin com
 
 Bitcoin Core will take up about 400 gigabytes of data on your drive, and will continue to grow. You can use your internal drive, but you can also attach an external hard drive. I’ll explain both options. Ideally, you should use a solid-state drive. If you have an old computer, it probably doesn’t have one of these internally. Just buy a 1 or 2 terabyte external SSD and use that. The regular drive will probably work, but you might end up having issues and it will be much slower.
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 ## Download Bitcoin Core
 
@@ -25,15 +25,15 @@ Go to bitcoin.org (make sure you don’t go to bitcoin.com, which is a shitcoin 
 
 Once there, it’s strangely not obvious where to get the software. Go to the resources menu and click “Bitcoin Core”, as shown below:
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 This will bring you to the download page:
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Click the Download Bitcoin Core orange button:
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 There are several options to choose from, depending on your computer. The first two are relevant to this guide; choose Windows or Mac on the left bar. It will begin downloading after you click it, most likely to your Downloads directory.
 
@@ -41,7 +41,7 @@ There are several options to choose from, depending on your computer. The first 
 
 You need the file which contains the hashes of various releases. This file used to be on the downloads page of bitcoin.org, but now has moved to bitcoincore.org/en/download:
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 You need the SHA256 binary hashes file. This file contains the SHA256 hashes of the various download packages of Bitcoin Core.
 
@@ -66,7 +66,7 @@ To do that, see my SHA256/gpg guide, and scroll about halfway to the “Download
 
 Back at the download page, get the SHA256 hash signatures file
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Click it and save the file to disk, preferably the Downloads directory.
 
@@ -101,7 +101,7 @@ The first listed file is the exact spelling of the signature file. The second li
 
 This is the output you should get
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 It is safe to ignore the WARNING message – that just is reminding you that you haven’t met Wladimir at a key part and personally asked him what his public key was, and then told your computer to trust this key completely.
 
@@ -111,33 +111,33 @@ If you got this message, you now know that the SHA256SUMS.asc file has not been 
 
 You shouldn’t need detailed instructions on how to install the program.
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 ## Run Bitcoin Core
 
 On a Mac, you might get a warning (Apple is still anti-Bitcoin)
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 Click OK, and then open your System Preferences
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Click the Security and Privacy Icon:
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Then click “open anyway”:
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 The error will appear again, but this time you’ll have an OPEN button available. Click it.
 
-![image](assets/13.png)
+![image](assets/13.jpeg)
 
 Bitcoin Core should load and you’ll be presented with some options:
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Here you can choose to use the default pathway for where the blockchain will be downloaded to, or you can choose your external drive. I recommend no changing the default path if you are going to use the internal drive, it makes things easier to set up when you install other software to communicate with Bitcoin Core.
 
@@ -145,6 +145,6 @@ You can choose to run a pruned node, it saves space, but limits what you can do 
 
 Once you confirm, the blockchain will begin downloading. It will take many days.
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 You can shut down the computer and come back to download if you want, it won’t do any damage.

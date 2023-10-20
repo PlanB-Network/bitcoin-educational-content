@@ -20,7 +20,7 @@ Il vous suffit de télécharger et d'installer l'application et vous êtes sur l
 
 Wallet of Satoshi est vraiment très facile à utiliser.
 
-![cover](assets/1.png)
+![cover](assets/1.jpeg)
 
 depuis l'écran d'accueil, appuyez simplement sur envoyer ou recevoir, à partir de là vous pouvez scanner un code QR pour envoyer ou être scanné pour recevoir.
 

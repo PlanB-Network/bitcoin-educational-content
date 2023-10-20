@@ -38,7 +38,7 @@ Hier sind einige Links zu dieser neuen Node/Wallet-App:
 >
 > Twitter-Feed mit Demos
 
-![Hauptbild](assets/2.JPEG)
+![Hauptbild](assets/2.jpeg)
 
 # Hauptfunktionen verfügbar
 

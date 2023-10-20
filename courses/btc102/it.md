@@ -65,11 +65,11 @@ Il campo delle criptovalute, tra cui Bitcoin, rimane relativamente giovane e leg
 - Truffa della password
 - Cattura della carta SIM
 
-![truffa](assets/prerequis/6.JPG)
+![truffa](assets/prerequis/6.jpeg)
 
 Nel campo degli investimenti finanziari, i sistemi di vendita piramidale e Ponzi si distinguono come modelli illegali. Funzionano utilizzando i soldi dei nuovi investitori per pagare i vecchi partecipanti. Tuttavia, la loro natura non sostenibile e la loro dipendenza dai nuovi arrivati per mantenere il sistema in funzione li rendono suscettibili di crollare inevitabilmente.
 
-![piramide di ponzi](assets/prerequis/7.JPG)
+![piramide di ponzi](assets/prerequis/7.jpeg)
 Questi sistemi sono spesso caratterizzati da elementi dubbi come l'assenza di valore intrinseco, promesse di rendimenti irrealistici e tattiche di marketing che incoraggiano le raccomandazioni per attirare nuovi investitori. I ritardi di prelievo incompressibili e l'uso di profili falsi sui social network per la promozione sono anche segni rivelatori di queste truffe. Dato il loro carattere illegale e immorale e il rischio finanziario che rappresentano, è essenziale evitarli.
 
 Infine, questi sistemi sono destinati al fallimento. Nel tempo, l'esigenza di un numero crescente di nuovi partecipanti per mantenere il sistema diventa insormontabile. Quando questo punto viene raggiunto, l'illusione svanisce, il sistema collassa e gli investitori spesso si ritrovano senza modo per recuperare il loro investimento.
@@ -82,7 +82,7 @@ Si sottolinea che il contenuto di questo corso è destinato esclusivamente a sco
 
 Il Pump and Dump (P&D) è una forma notoria di manipolazione finanziaria che può causare importanti turbolenze sui mercati. Si caratterizza per un attacco coordinato volto a provocare un aumento artificiale del prezzo di un asset attraverso vari meccanismi, come il marketing aggressivo, l'uso di algoritmi o di intelligenza artificiale. L'obiettivo è poi vendere questi asset sovrastimati per realizzare un profitto.
 
-![Pump and dump](assets/prerequis/8.JPG)
+![Pump and dump](assets/prerequis/8.jpeg)
 
 La strategia di Pump and Dump segue generalmente uno schema ben definito:
 
@@ -99,7 +99,7 @@ Le truffe legate a concorsi o donazioni online sono molto comuni nel settore del
 
 Un esempio classico di questo tipo di truffa è l'offerta che afferma di raddoppiare o moltiplicare in modo spropositato i bitcoin che si inviano. È importante capire che non esiste una soluzione magica per diventare ricchi istantaneamente.
 
-![arnaque à la donation](assets/prerequis/9.JPG)
+![arnaque à la donation](assets/prerequis/9.jpeg)
 
 Un'altra tattica comunemente utilizzata è la donazione di "shitcoins", o criptovalute di basso valore. Alcuni progetti di criptovalute centralizzate faranno molto marketing e offriranno token gratuiti come regalo. Bisogna essere molto cauti di fronte a queste offerte, poiché o il token ha un valore nullo, o il regalo serve semplicemente ad attirare l'attenzione e promuovere il trading, il gioco d'azzardo e altre truffe. Anche se queste offerte non sono sempre fraudolente, illegali o ingannevoli, la vigilanza rimane necessaria.
 Su Twitter, ad esempio, i bot possono fingere di essere celebrità e offrire offerte incredibili per ingannare le persone. Questi account utilizzano lo stesso nome e le stesse foto del profilo della celebrità in questione e possono quindi ingannare gli utenti meno esperti. Assicurati sempre di verificare la legittimità dell'account prima di interagire con esso.
@@ -117,7 +117,7 @@ Infine, ecco alcuni consigli per evitare le truffe online:
 
 Il Bitcoin ha subito diversi "hard fork" nel corso del tempo, dando vita a varie versioni alternative della valuta originale. Queste deviazioni sono spesso il risultato di sviluppatori che cercano di apportare modifiche significative al protocollo Bitcoin, o talvolta di persone malintenzionate che cercano di ingannare gli investitori ingenui. È essenziale distinguere il vero Bitcoin da queste deviazioni per evitare di cadere in potenziali trappole. Tra gli esempi notevoli di queste deviazioni ci sono Bitcoin Cash (BCH) e Bitcoin Satoshi Vision (BSV). Nonostante portino il nome di "Bitcoin", questi progetti si basano principalmente su tattiche di marketing e pubblicità ingannevole per attirare l'attenzione degli investitori.
 
-![arnaque à la donation](assets/prerequis/10.JPG)
+![arnaque à la donation](assets/prerequis/10.jpeg)
 
 Un detto popolare nel mondo degli investimenti dice: "Se sembra una truffa, se si comporta come una truffa e se garantisce che non è una truffa, allora è molto probabile che sia una truffa".
 
@@ -125,7 +125,7 @@ Un detto popolare nel mondo degli investimenti dice: "Se sembra una truffa, se s
 
 Il mondo delle criptovalute è un terreno fertile per ogni tipo di personalità, attratte dal potenziale di guadagni significativi. Tra di esse, purtroppo, ci sono individui malintenzionati che ricorrono a diverse tattiche per ingannare e truffare gli investitori.
 Queste tattiche possono includere la promozione aperta di schemi a piramide, l'usurpazione dell'identità del creatore di Bitcoin, Satoshi Nakamoto, il plagio del lavoro degli altri o la creazione di false promesse. Inoltre, alcuni di questi individui creano token di criptovalute e offerte iniziali di monete (ICO) inutili al fine di ingannare gli investitori.
-![scam donation](assets/prerequis/11.JPG)
+![scam donation](assets/prerequis/11.jpeg)
 
 La comunità Bitcoin si mobilita spesso per denunciare questi atti, ma può passare del tempo prima che il sistema giuridico riesca a prendere provvedimenti contro questi individui.
 
@@ -172,10 +172,10 @@ Un consiglio aggiuntivo: considera l'acquisto di un disco rigido esterno e fai u
 
 Un gestore di password è un software che memorizza e gestisce le tue password. Ti aiuta a non utilizzare mai due volte la stessa password, a scegliere password complesse e sicure e facilita la tua gestione della sicurezza online. Devi solo ricordare una sola password principale. Si tratta di uno strumento gratuito che tutti dovrebbero utilizzare. Puoi iniziare ad usarlo gradualmente e una volta che ti sarai abituato, lo troverai estremamente pratico e facile da usare.
 
-![gestore di password](assets/prerequis/12.JPG)'
+![gestore di password](assets/prerequis/12.jpeg)'
 La 2FA offre un livello di sicurezza aggiuntivo ai tuoi account più sensibili, che si tratti di piattaforme di criptovalute, account Google / Email, banche o siti di acquisti online. È necessaria una seconda identificazione, di solito un codice a 6 cifre accessibile dal tuo telefono, per accedere. Non dimenticare di conservare una copia di backup della chiave da qualche parte in caso di perdita del tuo telefono.
-![gestionaire de mdp](assets/prerequis/3.JPG)
-![gestionaire de mdp](assets/prerequis/4.JPG)
+![gestionaire de mdp](assets/prerequis/3.jpeg)
+![gestionaire de mdp](assets/prerequis/4.jpeg)
 
 Una VPN, o rete privata virtuale, protegge la tua privacy nascondendo il tuo indirizzo IP. Sebbene questo non ti renda completamente anonimo, è comunque un passo semplice ed efficace per migliorare la tua privacy online. Scegliere una VPN, scaricarla e usarla è un processo facile da configurare.
 
@@ -206,7 +206,7 @@ In questa sezione, esamineremo alcuni errori comuni che i nuovi investitori comm
 - L'importanza di rimanere umili e discreti.
 - Adottare una prospettiva a lungo termine.
 
-![gestionaire de mdp](assets/prerequis/0.JPG)
+![gestionaire de mdp](assets/prerequis/0.jpeg)
 
 Prima di immergerti nell'investimento in Bitcoin, è essenziale prendersi il tempo di educarsi.
 È facile commettere errori nell'industria del Bitcoin, e ogni errore può essere costoso. Condividendo alcuni dei problemi che ho incontrato nel mio percorso di investitore, così come quelli che ho osservato negli altri, spero di fornirvi preziosi consigli per navigare in questo spazio. Tra questi errori, possiamo citare:
@@ -261,7 +261,7 @@ Ecco i miei consigli:
 
 - Optare per una prospettiva a lungo termine è spesso una strategia saggia. Seguire costantemente l'evoluzione del mercato può rivelarsi complesso e richiedere un impegno a tempo pieno. Come ha detto bene Warren Buffet: "Se non sei disposto a tenere un'azione per dieci anni, è meglio non tenerla affatto, nemmeno per dieci minuti".
 - È fondamentale essere estremamente vigili in materia di fiscalità: ogni paese ha le proprie leggi riguardanti i Bitcoin. È essenziale informarsi sulla legislazione in vigore nel proprio paese, in particolare per quanto riguarda gli obblighi fiscali. Una cattiva pianificazione potrebbe portare a dover restituire più soldi all'amministrazione fiscale di quanto si è guadagnato.
-  ![fiscalité](assets/prerequis/5.JPG)
+  ![fiscalité](assets/prerequis/5.jpeg)
 
 Imparare a investire non è qualcosa che viene generalmente insegnato a scuola. Pertanto, molte persone considerano l'investimento come un'attività rischiosa, folle e fuori dalla loro portata. Per proteggersi, molti si rivolgono a un banchiere... il che può rivelarsi un errore.
 
@@ -297,7 +297,7 @@ Oltre al suo funzionamento tecnico (BTC 101 lo spiega), si possono notare due ca
 
 - La prima caratteristica di Bitcoin è che il suo codice è open source. Ciò significa che chiunque può vedere come funziona Bitcoin, è trasparente e quindi verificabile. Di conseguenza, chiunque può usarlo e il protocollo è uguale per tutti, non può esistere alcuna discriminazione. Ciò rende Bitcoin estremamente interessante per l'uso come sistema di trasferimento di valore. - Il secondo elemento risiede nelle sue proprietà monetarie. Infatti, Bitcoin è raro. Ce ne saranno solo 21 milioni in tutto il mondo e mai più (e anche meno a causa delle perdite). Ciò è possibile grazie alla natura stessa del protocollo, poiché fin dal suo lancio, le sue caratteristiche monetarie (la curva di distribuzione dei bitcoin) sono state decise e nessuno può cambiarle unilateralmente. Questa caratteristica fa sì che Bitcoin, proprio come l'oro, non possa essere diluito dall'eccessiva stampa di denaro.
 
-![in sintesi](assets/section2/9.JPG)
+![in sintesi](assets/section2/9.jpeg)
 
 Queste due caratteristiche rendono Bitcoin uno strumento tecnologico e monetario potente che non solo innova nel nostro mondo, ma anche rompe le norme.
 
@@ -306,7 +306,7 @@ A causa di queste caratteristiche, molti bitcoiners, me compreso, sono pronti a 
 Bitcoin è quindi un "0 a 1" che sconvolge le nostre norme e abitudini.
 Se questo è nuovo per te, ti incoraggio vivamente a seguire BTC 101 prima di continuare ad esporre te stesso a una tecnologia di cui forse non comprendi bene il ruolo e la ragione d'essere.
 
-![in sintesi](assets/section2/10.JPG)
+![in sintesi](assets/section2/10.jpeg)
 
 ## Perché è importante Bitcoin?
 
@@ -323,7 +323,7 @@ Barack Obama ha una volta descritto Bitcoin come "una banca svizzera in tasca". 
 5. Privacy e trasparenza su richiesta. 6. Assenza di intermediari o costi nascosti.
 6. Bitcoin è nativo di Internet, rendendolo accessibile a chiunque abbia accesso alla rete.
 
-![in a nutshell](assets/section2/1.JPG)
+![in a nutshell](assets/section2/1.jpeg)
 
 In sintesi, Bitcoin può essere considerato come la "moneta del popolo".
 Domanda filosofica del giorno: Nel mondo del Bitcoin, due ideologie si confrontano. Vuoi far entrare nel sistema bancario miliardi di persone che non ne fanno parte? O vuoi far uscire dal sistema bancario miliardi di persone che ne fanno parte?
@@ -332,13 +332,13 @@ Questa domanda merita riflessione e ci torneremo in seguito.
 
 Miliardi di persone vivono sotto l'effetto negativo di politiche monetarie mal gestite, che spesso portano a gravi crisi finanziarie a lungo termine. Questi tipi di crisi sono emersi centinaia di volte nella nostra storia e continueranno a farlo finché il valore del denaro e del tempo sarà manipolato. Queste crisi possono manifestarsi sotto forma di iperinflazione, controllo monetario e svalutazione della moneta.
 
-![in a nutshell](assets/section2/2.JPG)
+![in a nutshell](assets/section2/2.jpeg)
 
 Bitcoin offre a ogni individuo la possibilità di uscire da questo sistema. È una scelta etica che ognuno sarà probabilmente chiamato a fare un giorno. Bitcoin facilita il passaggio dal denaro fiduciario al denaro sano, grazie alla sua resistenza alla censura, alla sua divisibilità e alla sua portabilità.
 
 **Sapevate che**? Negli ultimi 100 anni ci sono stati più di 55 casi di iperinflazione. La maggior parte ha completamente distrutto l'economia del loro paese, annientato le economie dei cittadini e talvolta creato instabilità politica che ha portato all'instaurazione di un regime dittatoriale (come è stato il caso in Cile, in Germania, ecc.). La distruzione delle valute fiduciarie non è un fenomeno nuovo e continuerà a verificarsi. Tuttavia, grazie a Bitcoin, ora hai la possibilità di uscire da questo sistema.
 
-![in a nutshell](assets/section2/3.JPG)
+![in a nutshell](assets/section2/3.jpeg)
 
 L'aggravarsi delle disuguaglianze di ricchezza nel mondo ha portato a un aumento dell'estremismo, che talvolta ha portato all'instaurazione di regimi dittatoriali. Non importa chi sei, un giorno potresti aver bisogno di privacy per proteggere la tua famiglia, te stesso e i tuoi risparmi. Dove potresti nascondere i tuoi beni se fossi minacciato politicamente?
 
@@ -347,13 +347,13 @@ L'aggravarsi delle disuguaglianze di ricchezza nel mondo ha portato a un aumento
 - Il contante è ingombrante, facile da rubare e soggetto all'inflazione.
   Bitcoin offre una soluzione a questi problemi permettendo alle persone di proteggere i propri risparmi e di trasportarli con sé, senza alcun controllo da parte dello Stato. Quasi la metà della popolazione mondiale vive sotto un regime ostile, queste persone hanno bisogno di Bitcoin più di chiunque altro. Bitcoin è una forma di protesta passiva contro l'ingiustizia del sistema.
 
-![in a nutshell](assets/section2/4.JPG)
+![in a nutshell](assets/section2/4.jpeg)
 
 Sapevate che Bitcoin è pseudonimo? Un indirizzo anonimo viene utilizzato per conservare e scambiare Bitcoin tra gli utenti. Tuttavia, ogni transazione viene registrata in un grande libro pubblico (la blockchain) affinché tutti possano verificarla. Ciò significa che, sebbene i nomi degli utenti non siano divulgati, la loro cronologia di transazioni è completamente trasparente.
 
 Le banche centrali continuano a diluire il vostro potere d'acquisto attraverso l'inflazione e le politiche di creazione monetaria (quantitative easing). Queste sono tasse nascoste che hanno gradualmente distrutto il valore del denaro nel corso delle decadi. Se non avete un reddito solido proveniente da dividendi, obbligazioni o investimenti immobiliari, diventerete più poveri nel tempo, mentre i ricchi continueranno ad arricchirsi sempre di più. A causa dell'azione delle banche centrali, un dollaro oggi vale meno di un dollaro domani.
 
-![in a nutshell](assets/section2/7.JPG)
+![in a nutshell](assets/section2/7.jpeg)
 
 Il sistema vi incoraggia ad indebitarvi, a spendere e ad arricchire i banchieri grazie agli interessi pagati per molti anni di rimborso e indebitamento. Questo non è un errore, ma una strategia deliberata messa in atto dai banchieri e dai politici per stimolare la spesa pubblica, la crescita economica e spingere la popolazione ad indebitarsi sempre di più.
 
@@ -363,7 +363,7 @@ Non ci saranno mai più di 21 milioni di bitcoin e nessun politico, banchiere o 
 
 In passato, l'oro svolgeva un ruolo di regolatore come moneta sana. Tuttavia, dal 1971, nessuna valuta fiduciaria (euro, dollari, ecc.) è più legata all'oro, aprendo la strada a una creazione monetaria illimitata. Brrrrrr (allusione al suono della stampante di banconote).
 
-![in a nutshell](assets/section2/5.JPG)
+![in a nutshell](assets/section2/5.jpeg)
 Se hai del denaro in un conto bancario, quel denaro non ti appartiene più. In realtà, hai prestato quel denaro alla banca perché possa utilizzarlo. È cruciale comprendere e prendere coscienza di questa realtà. Se hai del denaro in un conto bancario, sei in realtà un creditore della banca. Ciò significa due cose:
 
 1. Se la banca fallisce, rischi di perdere il tuo denaro.
@@ -391,7 +391,7 @@ Con l'arrivo di Bitcoin nel 2009 da parte di Satoshi Nakamoto, è nata un'indust
 
 Bitcoin è un 0 a 1. Non può essere sconfitto. Alcuni vedono in esso il male in persona, la scatola di Pandora è aperta e ora li priva del loro potere e del loro vantaggio. Lo combatteranno. Altri vedono in Bitcoin un'opportunità per riconquistare la libertà, cambiare il sistema e migliorare la nostra società. Lo abbracceranno. Bitcoin se ne frega, esiste semplicemente.
 
-![industrie](assets/industrie/2.JPG)
+![industrie](assets/industrie/2.jpeg)
 
 In questa sezione cercheremo di fare un rapido tour degli attori per capire meglio come funziona l'industria in cui cerchiamo di entrare.
 
@@ -432,11 +432,11 @@ Dopo la bolla ICO del 2017, molti attori principali hanno iniziato a sviluppare 
 
 Mentre affermano di competere con Bitcoin, questi progetti rimangono centralizzati per garantire il controllo e rispettare le regolamentazioni locali. Non forniranno protezione della privacy, ma piuttosto un aumento della sorveglianza di massa. Il progetto "Libra" di Facebook si posizionava in concorrenza con le banche, non con Bitcoin. Inoltre, senza prova del lavoro, una "blockchain" non ha un vero valore. È importante notare che Libra è stato abbandonato e che attualmente non esiste alcun vero progetto di blockchain privata utilizzato a livello globale, a differenza di Bitcoin.
 
-![blockchain](assets/industrie/1.JPG)
+![blockchain](assets/industrie/1.jpeg)
 
 Il protocollo Bitcoin è al di fuori della portata delle regolamentazioni. Solo gli attori che gravitano intorno ad esso possono essere regolamentati e, poiché Bitcoin è decentralizzato, le leggi, le tasse e le regolamentazioni variano da un paese all'altro. La Cina, ad esempio, ha vietato l'uso di Bitcoin molte volte, mentre paesi come il Canada, la Svizzera e Malta adottano una posizione più favorevole nei confronti di quest'ultimo. La maggior parte delle nazioni ha istituito gruppi di lavoro sulla crittografia per elaborare nuove regole e regolamentazioni. Tuttavia, questo processo è lento e le regole possono cambiare abbastanza frequentemente. Nonostante questo ritmo lento, Bitcoin e le criptovalute sono al centro di molte conversazioni.
 
-![blockchain](assets/industrie/3.JPG)
+![blockchain](assets/industrie/3.jpeg)
 
 Si consiglia di condurre ricerche approfondite sulla situazione nel proprio paese. Anche le banche sono molto regolamentate riguardo a Bitcoin. Molte di esse chiudono i conti e limitano l'accesso ai servizi finanziari delle aziende che operano con Bitcoin, mentre costituiscono squadre di ricerca per esplorare questa nuova tecnologia al fine di migliorare la propria infrastruttura. Nessun regolatore, banca o governo vuole perdere potere, quindi si stanno preparando ad affrontare Bitcoin. È importante notare che Bitcoin, come tale, non può essere modificato o controllato da una singola entità.
 
@@ -449,7 +449,7 @@ Le piattaforme di scambio fungono da collegamento tra la valuta fiduciaria (valu
 - un'opzione per effettuare acquisti automatici
 - un ritiro automatico di Bitcoin nel proprio portafoglio.
   La maggior parte delle piattaforme di scambio legali rispettano le normative bancarie in vigore. Hanno anche implementato rigorose procedure KYC ("Know Your Customer"), che richiedono l'invio di un documento d'identità per creare un account. Pertanto, l'industria delle soluzioni di acquisto deve essere divisa in KYC e non KYC, come esploreremo in dettaglio prossimamente.
-  ![blockchain](assets/industrie/4.JPG)
+  ![blockchain](assets/industrie/4.jpeg)
 
 **Prudenza**: il "Grande Fratello" ti sta sorvegliando, presumibilmente per la tua sicurezza. I tuoi dati possono essere utilizzati dal tuo governo per monitorare le tue attività.
 
@@ -504,11 +504,11 @@ Si possono sempre suddividere gli sviluppatori di Bitcoin in diverse sezioni:
 
 Chiunque può iniziare a contribuire al codice, ma è importante notare che modificare effettivamente il codice di Bitcoin è un processo lungo e complesso. Inoltre, molti sviluppatori di Bitcoin sono appassionati che dedicano molti anni a sviluppare BIP (Bitcoin Improvement Proposals) che potrebbero non essere mai utilizzati. È quindi un'industria complessa e a volte imprevedibile. Esploreremo questi aspetti in dettaglio.
 
-![blockchain](assets/industrie/6.JPG)
+![blockchain](assets/industrie/6.jpeg)
 
 Un potere illimitato? No. I principali sviluppatori non hanno un potere illimitato e non possono modificare o controllare Bitcoin da soli. Sono i nodi che detengono il potere. Nessuno controlla Bitcoin.
 
-![blockchain](assets/industrie/5.JPG)
+![blockchain](assets/industrie/5.jpeg)
 
 ## L'architettura stratificata di Bitcoin
 
@@ -572,7 +572,7 @@ Si acquista e poi non si fa più nulla. (Notiamo che non fare nulla è la parte 
 
 In Bitcoin, questo tipo di profilo è chiamato Hodler, perché "hodl" (tieni) Bitcoin a lungo termine. Queste persone si espongono quindi a Bitcoin, scommettendo che BTC sarà più utilizzato domani e quindi più raro. Continueranno ad acquistarlo di tanto in tanto in modo automatico, il tutto protetto nel loro portafoglio freddo.
 
-![hodl](assets/plan/0.JPG)
+![hodl](assets/plan/0.jpeg)
 
 Ecco il piano:
 
@@ -798,7 +798,7 @@ Secondo Pamela Morgan in "Cryptoasset Inheritance Planning" (pagina 10), gli obi
 
 **Diritto d'autore:** La prossima lezione non è di mia creazione...
 La maggior parte dei concetti, delle idee e delle azioni proposte in questa lezione (6.1 BRH) provengono dal libro di Pamela Morgan intitolato "Cryptoasset Inheritance Planning". Questo libro propone un processo facile da seguire, passo dopo passo, per creare rapidamente il tuo piano di successione Bitcoin. Questo processo è stato convalidato da numerosi esperti di sicurezza del settore. Sebbene sia un ottimo punto di partenza per creare un piano di successione, non costituisce UN parere legale e dovresti sempre (come sempre) verificare le fonti, confrontare le idee e fare le tue ricerche. Pamela mi ha generosamente autorizzato ad utilizzare il suo lavoro. La ringrazio calorosamente.
-![pamela morgan](assets/heritage/0.JPG)
+![pamela morgan](assets/heritage/0.jpeg)
 
 In questa lezione, ci concentreremo solo sulla prima parte del suo libro. Incarnerò il ruolo di un utente Bitcoin tipico per creare la propria lettera di successione. Il processo sarà semplice per il momento, e creeremo una versione più complessa con diversi tipi di profili in seguito: Seguiremo il percorso di Cédric:
 
@@ -821,7 +821,7 @@ Di cosa hai bisogno?
 - Un telefono / rubrica
 - Un computer (a mio parere, facoltativo)
 
-![pamela morgan](assets/heritage/1.JPG)
+![pamela morgan](assets/heritage/1.jpeg)
 
 Secondo Pamela Morgan in "Cryptoasset Inheritance Planning" alla pagina 18, i falsi miti comuni sono:
 
@@ -890,7 +890,7 @@ La lettera deve essere chiara e utile. Non è un testamento, né una lettera per
 
 Ecco un estratto del modello di lettera a un caro, tratto dall'appendice E del libro di Pamela Morgan, "Cryptoasset Inheritance Planning". Per adattarlo al nostro esempio, ho modificato alcuni passaggi, che ho inserito tra parentesi e contrassegnati in blu. Il resto del testo è il testo originale del libro. (Tradotto da Découvre Bitcoin)
 
-![pamela morgan](assets/heritage/0.JPG)
+![pamela morgan](assets/heritage/0.jpeg)
 
 "Data: 26/06/2020
 Cara Liz e Maia,

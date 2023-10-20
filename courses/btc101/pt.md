@@ -74,7 +74,7 @@ Neste curso, discutiremos os aspectos monetários do Bitcoin, incluindo como com
 
 Antes de abordar a definição e o funcionamento do dinheiro em uma sociedade (capítulo 1), começamos com a gênese do Bitcoin. O Bitcoin é uma tecnologia relativamente nova, lançada em 2009, que é diferente de qualquer outra coisa. Portanto, é normal não entender tudo de imediato. Na verdade, assim como quando aprendemos a usar a internet ou um carro, não precisamos conhecer todos os detalhes técnicos para usar o Bitcoin (receber, pagar, proteger nossos fundos).
 
-![image](assets/Concept/chapitre0/3.png)
+![image](assets/Concept/chapitre0/3.jpeg)
 
 A importância aqui é entender de forma geral essa nova tecnologia. Esperamos que este treinamento seja do seu agrado e forneça a base necessária para entender e talvez continuar avançando nesse novo paradigma monetário global.
 
@@ -125,7 +125,7 @@ A pré-história do Bitcoin está profundamente enraizada no movimento cypherpun
 
 Portanto, o Bitcoin é um protocolo que se insere em longos períodos de tempo e nos faz questionar nossa relação com energia, tempo e moeda. Mas o Bitcoin é uma "verdadeira" moeda? O que é uma moeda? Ela existe em várias formas? É isso que veremos no próximo capítulo.
 
-![A pré-história do Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.png)
+![A pré-história do Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.jpeg)
 
 # A moeda
 
@@ -143,7 +143,7 @@ A evolução da moeda é um aspecto fascinante da história humana, refletindo a
 
 À medida que as civilizações avançavam e o comércio se expandia para novas regiões, surgiu a necessidade de um meio de troca universal. Objetos como conchas e pedras preciosas foram experimentados, mas não eram perfeitos. O ouro acabou se tornando o padrão devido à sua raridade, durabilidade e divisibilidade. Ele era, e ainda é, um símbolo de riqueza e poder.
 
-![image](assets/Concept/chapitre1/1.JPEG)
+![image](assets/Concept/chapitre1/1.jpeg)
 
 ### Qual é o papel da moeda?
 
@@ -256,7 +256,7 @@ Durante uma hiperinflação, não estamos falando mais de 20% ao ano, mas sim de
 
 É importante entender que a hiperinflação não acontece por mágica, por acaso, pelo capitalismo ou pelo adversário político. A hiperinflação é a consequência direta de decisões monetárias erradas tomadas por banqueiros centrais e políticos. Suas consequências afetam todos os cidadãos e suas consequências afetarão gerações. Convido você a dedicar 5 minutos a esta tabela para entender bem o impacto real desse fenômeno (o curso ECON204 abordará esse assunto em detalhes)."
 
-![imagem](assets/Concept/chapitre3/1.JPG)
+![imagem](assets/Concept/chapitre3/1.jpeg)
 
 ### Como ocorre uma hiperinflação?
 
@@ -457,7 +457,7 @@ Esses endereços são criados pela sua carteira e podem ser compartilhados com s
 
 Portanto, é importante entender que, graças a essa tecnologia, podemos receber bitcoins facilmente sem permitir que o remetente roube nossos fundos! Pense nisso como uma caixa de correio: as pessoas depositam dinheiro nela, mas você é o único que pode abri-la.
 
-![image](assets/Concept/chapitre5/4.jpg)
+![image](assets/Concept/chapitre5/4.jpeg)
 
 ### Os bitcoins estão na carteira?
 
@@ -579,7 +579,7 @@ Um método para proteger seus bitcoins a longo prazo é gravar sua frase mnemôn
 
 Existem muitas soluções para isso, algumas são de baixo custo, como o "Blockmit", enquanto outras exigem mais equipamentos. Você pode explorar esse assunto por conta própria através da seção de tutoriais desta universidade.
 
-![image](assets/Concept/chapitre8/1.JPG)
+![image](assets/Concept/chapitre8/1.jpeg)
 
 ### Pense na próxima geração!
 
@@ -619,35 +619,35 @@ Agora que temos uma base sobre carteiras de bitcoins e boas práticas para sua s
 
 ### Vamos começar com um pouco de História.
 
-![image](assets/Concept/chapitre9/2.png)
+![image](assets/Concept/chapitre9/2.jpeg)
 
 Em 31 de outubro de 2008, nasce uma nova tecnologia financeira: o Bitcoin. Nessa data, Satoshi Nakamoto, o autor anônimo do Bitcoin, apresenta sua inovação ao mundo por meio de um e-mail distribuído à lista de discussão cypherpunk, uma comunidade de criptógrafos apaixonados por privacidade na internet.
 
 Esse e-mail continha um documento chamado "White Paper", que apresentava o funcionamento do Bitcoin. Devido aos fracassos anteriores dos sistemas de dinheiro digital, essa iniciativa não despertou entusiasmo imediato. No entanto, esse White Paper acabou se tornando uma referência para os usuários de Bitcoin e tem sido objeto de muitos debates no ecossistema do Bitcoin.
 
-![image](assets/Concept/chapitre9/3.png)
+![image](assets/Concept/chapitre9/3.jpeg)
 
 Em 3 de janeiro de 2009, Satoshi inaugura oficialmente a rede Bitcoin ao criar o primeiro bloco, também conhecido como bloco gênese, que marca o lançamento do blockchain do Bitcoin. Esse bloco contém uma mensagem reveladora da missão do Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks" (O chanceler à beira de um segundo resgate aos bancos).
 
-![image](assets/Concept/chapitre9/9.png)
+![image](assets/Concept/chapitre9/9.jpeg)
 
 > "Podemos vencer uma grande batalha na corrida armamentista e obter um
 > novo território de liberdade por vários anos." - Satoshi Nakamoto
 
-![image](assets/Concept/chapitre9/7.png)
+![image](assets/Concept/chapitre9/7.jpeg)
 
 ### O protocolo Bitcoin começa a ganhar vida
 
 Em 8 de janeiro de 2009, Satoshi anuncia a publicação do Bitcoin-0.1.0. Rapidamente, Hal Finney pega o software e se junta à rede. Agora, havia 2 nós e, portanto, 2 mineradores na rede. Finney imortaliza esse marco twittando "Running Bitcoin". Em 12 de janeiro de 2009, a primeira transação Bitcoin é realizada entre Satoshi e Hal Finney. Essa transação, de 10 BTC, é registrada no bloco 170.
 
-![image](assets/Concept/chapitre9/4.png)
+![image](assets/Concept/chapitre9/4.jpeg)
 
 O interesse pelo Bitcoin cresce rapidamente, e muitas pessoas começam a testar, debater, corrigir bugs e refletir sobre os aspectos éticos, econômicos e filosóficos do Bitcoin. Para facilitar essas trocas, o fórum BitcoinTalk é criado em 22 de novembro de 2009 por Satoshi.
 Este fórum rapidamente se torna o local de discussão preferido para os usuários do Bitcoin. É lá que nascem muitos memes e símbolos associados ao Bitcoin, como o [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), o famoso [Hodl](https://bitcointalk.org/index.php?topic=375643.0) ou mesmo o [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 > **Você sabia?** De fato, em 22 de maio de 2010, Laszlo Hanyecz marcou a história do Bitcoin ao propor comprar 2 pizzas por 10.000 BTC. Foi a primeira vez que o Bitcoin foi usado para comprar bens materiais.
 
-![image](assets/Concept/chapitre9/6.png)
+![image](assets/Concept/chapitre9/6.jpeg)
 
 ### O desaparecimento de Satoshi Nakamoto
 
@@ -660,7 +660,7 @@ O Bitcoin é percebido de forma diferente por cada indivíduo. Para alguns, é u
 
 Para aprofundar seu conhecimento sobre os escritos de Satoshi Nakamoto, recomendo o [livro de Phil Champagne](https://sovereignuniversity.org/resources/books) ou o documentário da ARTE "le mystaire Satoshi".
 
-![image](assets/Concept/chapitre9/8.jpg)
+![image](assets/Concept/chapitre9/8.jpeg)
 
 > "O problema fundamental com a moeda convencional é toda a confiança necessária para fazê-la funcionar. O banco central deve ser confiável para não desvalorizar a moeda, mas a história das moedas fiduciárias está cheia de violações dessa confiança. Os bancos devem ser confiáveis para guardar nosso dinheiro e transferi-lo eletronicamente, mas eles o emprestam em ondas de bolhas de crédito com apenas uma fração em reserva."
 
@@ -716,7 +716,7 @@ Neste ponto, a transação é considerada válida, o minerador irá propagar o n
 
 ### Pequeno resumo em pôster!
 
-![Explicação de uma transação](assets/posters/fr/11_explication_d_une_transaction_crop.png)
+![Explicação de uma transação](assets/posters/fr/11_explication_d_une_transaction_crop.jpeg)
 
 ### Para que tudo isso?
 
@@ -759,7 +759,7 @@ A governação dentro do protocolo está fora do currículo deste curso, mas dev
 
 Existem várias opções se quiseres ter o teu próprio nó, e o custo de manutenção varia. Podes simplesmente executar o software Bitcoin Core no teu computador, mas isso vai exigir um espaço de armazenamento considerável, uma vez que a blockchain tem cerca de ~500GB de tamanho. Para ultrapassar este constrangimento, podes decidir armazenar apenas os últimos N blocos, conhecido como "nó podado". O custo deste tipo de solução é insignificante, uma vez que o nó só é ativado quando é necessário.
 
-![image](assets/Concept/chapitre11/10.png)
+![image](assets/Concept/chapitre11/10.jpeg)
 
 Uma segunda opção é utilizar hardware dedicado, como o Raspberry pi 4 com um disco rígido SSD suficientemente grande (cerca de ~1TB).
 Esta segunda opção é mais cara se tiver de comprar o hardware, mas, do ponto de vista do consumo de energia, representa pouco menos de 10 euros por ano.
@@ -772,7 +772,7 @@ O custo acessível e a acessibilidade de um nó Bitcoin em termos de recursos de
 
 Na verdade, todo mundo tem uma boa razão para executar um nó! O preço e os esforços são mínimos para o benefício obtido. Basta embarcar na aventura e se juntar a milhares de outros bitcoiners, pois juntos formamos a rede Bitcoin.
 
-![imagem](assets/Concept/chapitre11/11.jpg)
+![imagem](assets/Concept/chapitre11/11.jpeg)
 
 Se, por exemplo, os blocos fossem 100 vezes mais pesados, certamente poderíamos fazer 100 vezes mais transações a cada 10 minutos, mas executar um nó Bitcoin exigiria um disco rígido de 50TB, uma largura de banda de mais de 500GB/mês e um hardware capaz de validar centenas de milhares de transações em menos de 10 minutos. Nessa situação hipotética com blocos 100 vezes maiores, executar um nó Bitcoin não seria acessível para o público em geral, o que comprometeria a descentralização do protocolo e a imutabilidade das transações e regras de consenso. Assim, as restrições do protocolo também foram escolhidas para permitir que o maior número possível de pessoas possa executar seu próprio nó Bitcoin.
 
@@ -782,7 +782,7 @@ Após essa vitória, os nós ativaram uma atualização chamada SegWit, abrindo 
 
 ### Resumo em pôster!
 
-![os nós do Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.png)
+![os nós do Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.jpeg)
 
 ## Os mineradores
 
@@ -790,7 +790,7 @@ Após essa vitória, os nós ativaram uma atualização chamada SegWit, abrindo 
 
 > Os mineradores servem para garantir a segurança da rede e adicionar transações aos blocos. Eles usam eletricidade por meio de máquinas ASIC para resolver a prova de trabalho do Bitcoin.
 
-![imagem](assets/Concept/chapitre12/15.png)
+![imagem](assets/Concept/chapitre12/15.jpeg)
 
 ### Explicação do Prova de Trabalho'
 
@@ -804,21 +804,21 @@ As máquinas estão em funcionamento e, em média, após 10 minutos, um vencedor
 
 A cada 2 semanas (2016 blocos), o ajuste da dificuldade reequilibra o jogo global de mineração de acordo com o número de participantes.
 
-![image](assets/Concept/chapitre12/14.png)
+![image](assets/Concept/chapitre12/14.jpeg)
 
 ### A mineração está em constante evolução
 
 Ao longo dos anos, os mineradores têm se equipado com hardware cada vez mais eficiente para produzir o maior número possível de hashes por segundo (chamado de HashRate), consumindo a menor quantidade de energia possível e da maneira mais econômica possível. Os primeiros mineradores, como Satoshi ou Hal Finney, mineravam apenas com suas CPUs, e depois outros começaram a minerar com suas placas de vídeo. Hoje em dia, os mineradores usam o que é chamado de ASIC (Application-Specific Integrated Circuit), máquinas projetadas exclusivamente para aplicar o algoritmo SHA256.
 
-![image](assets/Concept/chapitre12/20.png)
+![image](assets/Concept/chapitre12/20.jpeg)
 
 O Hashrate da rede Bitcoin representa de certa forma a quantidade de tentativas feitas por segundo para encontrar o próximo bloco. Hoje está em cerca de 400 TH/s, ou seja, 400.000 bilhões de tentativas por segundo! Quanto maior o hashrate global, mais difícil é para um ator mal-intencionado monopolizar os recursos necessários para obter a maioria da mineração e realizar um gasto duplo. Portanto, é mais economicamente viável seguir as regras do protocolo Bitcoin do que agir contra elas. Isso levanta uma questão: como os mineradores são remunerados?
 
-![image](assets/Concept/chapitre12/16.png)
+![image](assets/Concept/chapitre12/16.jpeg)
 
 ### O que pode ser encontrado em um bloco?
 
-![image](assets/Concept/chapitre12/20.png)
+![image](assets/Concept/chapitre12/20.jpeg)
 
 O cabeçalho do bloco possui vários elementos, como a hora, o alvo de dificuldade, o número do último bloco, a versão utilizada e a Raiz de Merkel das transações anteriores.
 
@@ -830,11 +830,11 @@ Inicialmente, um minerador é remunerado quando encontra um bloco válido. Mais 
 
 De fato, para os primeiros blocos, a recompensa era de 50 bitcoins, e a cada 210.000 blocos (aproximadamente a cada 4 anos), ela é dividida por 2. Hoje (em 2023), estamos na 4ª Época; portanto, a recompensa é de 6,25 bitcoins. Essa recompensa é o mecanismo de criação monetária no Bitcoin. À medida que a recompensa diminui com o tempo, isso significa que existe um limite de 21 milhões de bitcoins - hoje já existem mais de 19,4 milhões de bitcoins em circulação, ou seja, mais de 92%.
 
-![image](assets/Concept/chapitre12/18.png)
+![image](assets/Concept/chapitre12/18.jpeg)
 
 O segundo método de remuneração é definido pelo valor escolhido pelos usuários para as taxas de transação. Como o minerador deseja maximizar sua receita, ele tenderá a selecionar prioritariamente as transações com taxas de transação mais altas; as taxas de transação refletem, portanto, a urgência do usuário em ter sua transação inserida no próximo bloco.
 
-![image](assets/Concept/chapitre12/19.png)
+![image](assets/Concept/chapitre12/19.jpeg)
 
 Além disso, para estabilizar o modelo econômico dos mineradores, que se baseia nas recompensas que recebem por cada bloco válido, os mineradores frequentemente colaboram em grupos através de "pools de mineração", onde compartilham seus recursos de computação.
 
@@ -854,7 +854,7 @@ Mesmo no caso de um ataque de 51%, ou seja, quando um agente possui mais da meta
 
 A teoria dos jogos aplicada ao Bitcoin afasta os mineradores desonestos. Os mineradores usam máquinas ASIC para minerar e recebem uma recompensa em caso de sucesso. Além disso, eles frequentemente se agrupam em pools de mineração para compartilhar seu poder de computação e obter recompensas menores, mas mais regulares. A mineração de Bitcoin é um processo com alto custo energético, mas essencial para o funcionamento e segurança da rede Bitcoin. A prova de trabalho e a blockchain resolvem o problema de gastos duplos e garantem a veracidade das informações sem a necessidade de terceiros confiáveis. O gasto energético é necessário para produzir a informação, mas a verificação das informações tem um custo negligenciável. Essa assimetria garante a segurança da rede. Portanto, é economicamente mais viável seguir as regras de consenso do que violá-las.
 
-![os mineradores](assets/posters/fr/13_explication_des_mineurs_crop.png)
+![os mineradores](assets/posters/fr/13_explication_des_mineurs_crop.jpeg)
 
 ## Bitcoin e ecologia
 
@@ -866,7 +866,7 @@ Acabamos de ver na seção anterior que a segurança do protocolo Bitcoin se bas
 
 Primeiro, vamos avaliar qualitativamente o custo ambiental da mineração. Um minerador precisa ter uma máquina como um ASIC e uma fonte de energia na forma de eletricidade para alimentar essas máquinas. Os ASICs são compostos principalmente de alumínio e podem ser reciclados ou reutilizados para um segundo uso (como demonstrado pelo projeto [Attakaï](https://decouvrebitcoin.fr/attakai/), que transforma um Antminer S9 em um aquecedor auxiliar). O grande problema é o consumo de energia. Vamos tentar trazer mais contexto para isso.
 
-![imagem](assets/Concept/chapitre13/1.png)
+![imagem](assets/Concept/chapitre13/1.jpeg)
 
 A consolidação elétrica representa a quase totalidade dos custos para um minerador. Portanto, ele é incentivado a obter uma fonte de eletricidade barata. No entanto, como os mineradores são móveis, eles podem ir para lugares onde usinas elétricas estão instaladas, mas ainda não estão conectadas à rede elétrica do território. Os mineradores desempenham o papel de compradores de último recurso, permitindo que as usinas se financiem antes mesmo de serem conectadas à rede elétrica. E quando forem conectadas, a demanda por eletricidade aumentará, o que aumentará o preço, tornando menos rentável para o minerador obter eletricidade nesses locais. O minerador então decidirá mover sua instalação e se estabelecerá em um local onde a demanda é baixa e, portanto, o preço também.
 
@@ -902,7 +902,7 @@ A tecnologia do Bitcoin é frequentemente mal compreendida, e as críticas em re
 
 > Siga um dos lemas do Bitcoin: Não confie, verifique por si mesmo!
 
-![Bitcoin & meio ambiente](assets/posters/fr/14_minage_et_ecologie_crop.png)
+![Bitcoin & meio ambiente](assets/posters/fr/14_minage_et_ecologie_crop.jpeg)
 
 ### Breve resumo dos aspectos técnicos do Bitcoin
 
@@ -924,7 +924,7 @@ Assim, o protocolo Bitcoin é um sistema monetário imutável e imparável, pois
 
 O preço do Bitcoin é frequentemente caracterizado por uma volatilidade significativa. Seu valor pode flutuar consideravelmente com base nas variações do mercado e nas fases de mercado em alta (bull market) e mercado em baixa (bear market). Isso é verdade em 100% dos mercados financeiros, incluindo o bitcoin.
 
-![image](assets/Concept/chapitre14/2.jpg)
+![image](assets/Concept/chapitre14/2.jpeg)
 
 > Para simplificar: os seres humanos compram todos ao mesmo tempo e vendem todos ao mesmo tempo. O Bitcoin não é imune à natureza humana.
 
@@ -932,7 +932,7 @@ O preço do Bitcoin é frequentemente caracterizado por uma volatilidade signifi
 
 O desenvolvimento e a evolução do Bitcoin estão em grande parte relacionados aos diferentes grupos de atores que gradualmente integraram seu ecossistema.
 
-![image](assets/Concept/chapitre14/1.png)
+![image](assets/Concept/chapitre14/1.jpeg)
 
 - Os crentes:
 
@@ -960,7 +960,7 @@ Essas flutuações muito significativas criaram uma reputação para o Bitcoin c
 
 Essa volatilidade significativa é amplamente aceita pelos participantes do Bitcoin hoje em dia e pode ser mitigada por várias soluções, como hedge financeiro (stablecoins), uma forte crença de longo prazo (hodl) ou simplesmente não investindo 100% do seu dinheiro em Bitcoin sem entender nada sobre ele. Compreender por que o preço do Bitcoin flutua tanto é essencial para avançar nesta indústria, pois, no final das contas, é o preço e os ciclos que temporizam e regulam de certa forma o nosso mercado. No entanto, podemos observar que, à medida que o Bitcoin cresce e amadurece, a volatilidade se torna menos importante.
 
-![image](assets/Concept/chapitre14/5.png)
+![image](assets/Concept/chapitre14/5.jpeg)
 
 Embora o par btc/dólares flutue em curtos períodos de tempo, o Bitcoin, devido à sua quantidade limitada de 21 milhões de bitcoins e ao seu processo de halving (divisão por 2 da criação monetária a cada 4 anos, em média), segue uma tendência geral de alta de forma quase mecânica. Obviamente, como qualquer ativo financeiro, o Bitcoin está sujeito a ciclos econômicos que incluem períodos de euforia, bolhas especulativas e correções. Esse fenômeno é bastante comum em tecnologias emergentes, onde o mercado nem sempre é racional ou eficiente.
 
@@ -968,11 +968,11 @@ Embora o par btc/dólares flutue em curtos períodos de tempo, o Bitcoin, devido
 
 Esses ciclos de bolhas especulativas são bastante únicos no mundo, pois é muito raro para um mesmo ativo ver tantas bolhas se sucedendo repetidamente. Isso se explica simplesmente pelo fato de que o Bitcoin não é uma bolha que vai desaparecer, mas sim uma moeda realmente utilizada em todo o mundo. O protocolo do Bitcoin é único nesse sentido, pois funciona em escala global, 24 horas por dia, 7 dias por semana, tornando a regulação difícil para as autoridades financeiras.
 
-![image](assets/Concept/chapitre14/4.png)
+![image](assets/Concept/chapitre14/4.jpeg)
 
 Hoje, em 2023, o Bitcoin continua a sobreviver e a crescer cada vez mais, se integrando cada dia mais ao mercado tradicional. A chegada em breve dos ETFs de Bitcoin, uma regulamentação mais clara e melhores ferramentas de aquisição ou armazenamento só encorajam essa tendência. O Bitcoin SOBREVIVEU MAIS UMA VEZ à sua bolha especulativa, então talvez não seja apenas conversa fiada!
 
-![image](assets/Concept/chapitre14/3.png)
+![image](assets/Concept/chapitre14/3.jpeg)
 
 ## Obter bitcoins trabalhando
 
@@ -984,7 +984,7 @@ O Bitcoin pode ser visto como uma economia paralela às moedas fiduciárias. Iss
 
 A economia do Bitcoin existe e está se desenvolvendo em algumas regiões do mundo, como El Salvador, onde o Bitcoin é moeda legal desde 2021. Além disso, algumas pessoas, empresas e organizações já aceitam o Bitcoin como forma de pagamento por seus produtos ou serviços.
 
-![imagem](assets/Concept/chapitre16/6.png)
+![imagem](assets/Concept/chapitre16/6.jpeg)
 
 Além disso, para facilitar o uso do Bitcoin nas transações do dia a dia, um projeto de código aberto e colaborativo foi lançado: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Ele lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades Bitcoin ao redor do mundo. Você pode visitar o site deles para descobrir o ecossistema Bitcoin ao seu redor. Assim, apesar das dificuldades e resistências, existem iniciativas como o BTCMap que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos.
 
@@ -994,7 +994,7 @@ Para obter bitcoins, você pode comprá-los em plataformas reguladas por órgão
 
 Além disso, aceitar o Bitcoin como comerciante apresenta várias vantagens, incluindo a ausência de censura, taxas de transação reduzidas, maior eficiência, proteção contra a inflação, bem como liberdade e soberania financeira.
 
-![imagem](assets/Concept/chapitre16/3.png)
+![imagem](assets/Concept/chapitre16/3.jpeg)
 
 ### Como fazer:
 
@@ -1043,7 +1043,7 @@ Concretamente, existem duas perguntas a serem feitas:
 
 A compra recorrente consiste em comprar pequenas quantidades de Bitcoin em intervalos regulares. Este método oferece uma média de preço ao longo do tempo e um crescimento contínuo na quantidade de Bitcoin possuída. É uma solução ideal para poupar a longo prazo sem se preocupar com o preço e a volatilidade do Bitcoin. Configura-se e esquece-se.
 
-![image](assets/Concept/chapitre15/2.png)
+![image](assets/Concept/chapitre15/2.jpeg)
 
 > Atenção às UTXO: Não se esqueça de consolidar suas UTXO em suas carteiras de tempos em tempos. Essa prática é essencial para gerenciar efetivamente seus bitcoins e evitar taxas desnecessárias durante as transações.
 
@@ -1073,7 +1073,7 @@ A sua utilização é simples e acessível a todos:
 3. Compra de bitcoin
 4. Levantamento de bitcoins para a sua carteira
 
-![image](assets/Concept/chapitre15/1.png)
+![image](assets/Concept/chapitre15/1.jpeg)
 
 Após a compra, é aconselhável retirar imediatamente os Bitcoins das plataformas de câmbio para minimizar os riscos de pirataria e bloqueio de fundos. As taxas de levantamento podem ser elevadas, chegando por vezes a 25 euros, consoante a plataforma.
 
@@ -1091,7 +1091,7 @@ Além disso, existem vários [marketplaces] (https://sovereignuniversity.org/tut
 - Soluções que colocam as pessoas em contacto umas com as outras
 - Neo-bancos que operam em países amigos da Bitcoin.
 
-image](assets/Concept/chapitre15/3.png)
+image](assets/Concept/chapitre15/3.jpeg)
 
 É também importante notar que podem ser cobrados impostos na sua jurisdição. Por favor, consulte os regulamentos do seu país antes de tomar qualquer ação que o possa colocar em situação de incumprimento.
 
@@ -1103,17 +1103,17 @@ image](assets/Concept/chapitre15/3.png)
 
 Como toda nova tecnologia, a adoção do Bitcoin segue uma curva em S. Já ultrapassamos a era dos primeiros adotantes e os indicadores apontam para uma democratização completa do Bitcoin. É uma tecnologia viral que não pode ser interrompida. El Salvador fez a aposta audaciosa de adotar o Bitcoin de forma total, declarando-o como uma moeda de curso legal. No entanto, cada país reage de forma diferente a essa tecnologia. Alguns a proibiram e criminalizaram seu uso, adicionando assim à complexidade da adoção do Bitcoin de acordo com culturas, épocas e nações.
 
-![image](assets/Concept/chapitre17/2.png)
+![image](assets/Concept/chapitre17/2.jpeg)
 
 O crescimento do Bitcoin obriga empresas, universidades, reguladores e indivíduos a considerarem essa nova tecnologia. Novas ferramentas devem ser criadas, serviços devem ser adaptados e a inovação deve continuar para garantir sua sobrevivência. Esse contexto levanta muitas questões que afetam várias áreas, incluindo criptografia, teoria dos jogos, economia e política monetária, ciência da computação, filosofia, energia, leis e regulamentações. Em resumo, o Bitcoin é um objeto multidisciplinar.
 
-![image](assets/Concept/chapitre17/1.png)
+![image](assets/Concept/chapitre17/1.jpeg)
 
 ### Bitcoin é um 0 a 1
 
 Convidamos você a refletir sobre essa nova revolução monetária. Há tantas coisas para explorar com o Bitcoin que é difícil assimilar tudo de uma vez. Leve o seu tempo, o Bitcoin não vai desaparecer. Pelo contrário, a revolução está apenas começando. Juntos, acreditamos que somos capazes de criar o mundo que queremos deixar para nossos filhos. Um mundo onde a soberania humana é um direito, onde a privacidade é respeitada por padrão e onde a moeda não é manipulada. Esperamos que juntos possamos alcançar isso.
 
-![image](assets/Concept/chapitre17/3.png)
+![image](assets/Concept/chapitre17/3.jpeg)
 
 Si você deseja expandir seus conhecimentos sobre o Bitcoin, muitos autores, pensadores e ensaístas contribuíram para a camada educacional do Bitcoin. Nos últimos anos, temos catalogado e classificado essas obras para oferecer uma [biblioteca de recursos](https://sovereignuniversity.org/resources) aos mais curiosos entre vocês. Você encontrará os melhores podcasts, sites, artigos, tutoriais, livros e outros conteúdos.
 
@@ -1133,7 +1133,7 @@ A Lightning Network é uma tecnologia revolucionária que mudou profundamente no
 
 Para entender bem a Lightning Network, é crucial compreender como o Bitcoin evolui. O Bitcoin se desenvolve em camadas de infraestrutura: a primeira camada é a blockchain, e a segunda camada é a Lightning Network.
 
-![imagem](assets/Concept/chapitre18/6.png)
+![imagem](assets/Concept/chapitre18/6.jpeg)
 
 Reconhecida como uma camada do Bitcoin, a Lightning Network foi validada e implementada em 2017. Ela permite realizar transações instantâneas em Bitcoin com baixo custo, resolvendo assim o problema de escalabilidade do Bitcoin. Mas qual é esse problema de escalabilidade que o Bitcoin enfrenta?
 
@@ -1141,7 +1141,7 @@ Reconhecida como uma camada do Bitcoin, a Lightning Network foi validada e imple
 
 O problema de escalabilidade ou dimensionamento refere-se ao desafio de estabelecer um sistema monetário capaz de lidar com um número crescente de transações por segundo à medida que é adotado. Isso se refere ao trilema das blockchains. Imagine um triângulo com os vértices: descentralização, segurança e escalabilidade.
 
-![imagem](assets/Concept/chapitre18/5.png)
+![imagem](assets/Concept/chapitre18/5.jpeg)
 
 Um protocolo baseado em blockchain não pode satisfazer apenas dois desses 3 aspectos. Dentro do protocolo do Bitcoin, escolhas foram feitas para favorecer a descentralização/segurança. De fato, por um lado, o tamanho dos blocos de 1MB e o tempo entre dois blocos (em média 10 minutos) permitem que um nó Bitcoin seja executado a baixo custo, favorecendo a descentralização. E por outro lado, a produção de blocos por Prova de Trabalho (ou Proof-of-Work) torna extremamente caro o fraudar dentro do protocolo, ao mesmo tempo em que facilita a verificação pelos nós da rede, favorecendo assim a segurança. No entanto, essas escolhas impõem um limite no número médio de transações em um bloco, da ordem de algumas, o que corresponde aproximadamente a algumas transações por segundo. Esse número é ridículo quando comparado à capacidade dos processadores de pagamento como a VISA, que é de 1700/s. No entanto, é um limite necessário para poder transacionar de forma imutável e sem intermediários de confiança com o Bitcoin. No entanto, as pessoas que desenvolvem no Bitcoin têm pensado sobre esse problema desde o início.
 
@@ -1149,11 +1149,11 @@ Um protocolo baseado em blockchain não pode satisfazer apenas dois desses 3 asp
 
 Após anos de reflexão e várias tentativas, o protocolo Lightning emerge. Com a ajuda de um certo número de especificações, esse protocolo permite construir uma rede de pagamento ponto a ponto, utilizando a segurança e a programabilidade das transações do protocolo Bitcoin. A Lightning Network atua como uma rede de canais de pagamento, permitindo transações instantâneas e com baixas taxas para o remetente. Essa rede de canais de pagamento torna até mesmo possível transações entre indivíduos que não têm um canal diretamente conectado entre si.
 
-![imagem](assets/Concept/chapitre18/4.png)
+![imagem](assets/Concept/chapitre18/4.jpeg)
 
 Os serviços de transferência de dinheiro tradicionais, como Western Union, bancos centrais, Visa e Mastercard, podem desaparecer se não adotarem a tecnologia Lightning Network. A Lightning Network é mais eficiente e econômica do que os sistemas de pagamento atuais. De fato, a Lightning Network permite realizar um número quase ilimitado de transações entre dois pares que compartilham um canal, sem gastos energéticos na blockchain básica além da transação para anunciar a criação do canal.
 
-![imagem](assets/Concept/chapitre18/7.png)
+![imagem](assets/Concept/chapitre18/7.jpeg)
 
 As transações são seguras por criptografia e indiretamente pela energia consumida pelos mineradores no Bitcoin. As transações podem ser feitas instantaneamente, sem limite geográfico, e as taxas são extremamente baixas, frequentemente inferiores a 0,5%.
 
@@ -1174,20 +1174,20 @@ Esta rede peer-to-peer visa facilitar especialmente as microtransações, ou sej
 
 Essa tecnologia abre a porta para uma ampla gama de aplicações potenciais para o Bitcoin, que anteriormente estavam fora de alcance devido às restrições necessárias para garantir a segurança e descentralização do Bitcoin. Entre essas aplicações no dia a dia, podemos citar a faturação instantânea no comércio (físico e online), o streaming de dinheiro para pagamentos em tempo real e microdoações para conteúdo. A implantação de uma rede de transações quase instantâneas, segura e de baixo custo (em média inferior a 0,5%), permite a implementação de muitos modelos de negócios anteriormente inimagináveis. Isso é possível porque a Lightning Network usa sats (a fração decimal do bitcoin) para funcionar.
 
-![image](assets/Concept/chapitre18/9.png)
+![image](assets/Concept/chapitre18/9.jpeg)
 
 A indústria de jogos eletrônicos oferece um exemplo particularmente interessante de como a Lightning Network pode ser usada para transformar modelos de negócios existentes. O conceito de "skin in the game" é uma ideia que recentemente ganhou popularidade nesse contexto. Basicamente, trata-se de ter um interesse financeiro no resultado de um jogo.
 A Lightning Network permite que os jogadores apostem pequenas quantias de dinheiro ao jogar, como algumas dezenas de satoshis (aproximadamente uma fração de centavo de euro). Isso permite estabelecer um interesse que estimula a competição, ao mesmo tempo em que aumenta consideravelmente o custo de implantação de bots.
 
-![image](assets/Concept/chapitre18/2.png)
+![image](assets/Concept/chapitre18/2.jpeg)
 
 Em resumo, o futuro das microtransações com Bitcoin parece promissor graças a inovações como a Lightning Network. À medida que essas tecnologias continuam a se desenvolver e amadurecer, podemos esperar ver novas e empolgantes aplicações surgindo em um futuro próximo. Por exemplo, o conceito de "streaming de dinheiro", como a Lightning Network nos permite realizar microtransações a cada minuto (e potencialmente sem intermediários de confiança), abre caminho para a experimentação de modelos econômicos em que os consumidores pagam pelo conteúdo de acordo com o que consomem.
 
-![image](assets/Concept/chapitre18/8.png)
+![image](assets/Concept/chapitre18/8.jpeg)
 
 Dans um sistema como esse, o dinheiro é automaticamente dividido, com base em uma porcentagem pré-definida, entre os diferentes contribuidores de um serviço ou produto. Isso poderia revolucionar a forma como pensamos nos modelos de pagamento. Por exemplo, em vez de pagar uma assinatura mensal por um serviço, os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo que passam usando o serviço. Esse modelo econômico poderia ter implicações profundas para os criadores de conteúdo, que seriam incentivados a produzir conteúdo de qualidade para reter a atenção dos usuários. Os usuários, por sua vez, pagariam apenas pelo conteúdo que consomem, eliminando assim as taxas de assinatura antecipadas. É até mesmo possível usar esse sistema para aluguel de bens.
 
-![image](assets/Concept/chapitre18/3.png)
+![image](assets/Concept/chapitre18/3.jpeg)
 
 Em conclusão, a Lightning Network abre uma infinidade de casos de uso empolgantes para os usuários de Bitcoin. Os modelos econômicos e as oportunidades comerciais resultantes são numerosos e variados. Encorajamos você a testar por si mesmo usando o aplicativo de podcast [Fountain](https://www.fountain.fm/), que permite ser remunerado com alguns sats para ouvir seus podcasts favoritos!
 
@@ -1197,7 +1197,7 @@ Em conclusão, a Lightning Network abre uma infinidade de casos de uso empolgant
 
 Como Morpheus disse a Neo: "Se você tomar a pílula azul, a história acaba, você acorda na sua cama e acredita no que quiser. Se você tomar a pílula vermelha, fica no País das Maravilhas e eu te mostro até onde vai a toca do coelho." Você está pronto para explorar a toca do coelho do Bitcoin? Tome cuidado, pois você pode encontrar sua liberdade financeira!
 
-![pílula vermelha](assets/posters/fr/2_pilluleorange.png)
+![pílula vermelha](assets/posters/fr/2_pilluleorange.jpeg)
 
 ### O futuro tecnológico e suas implicações
 

@@ -79,6 +79,6 @@ Une fois que vous avez fait cela, vous devriez être prêt à exécuter la tour.
 
 Étant donné que nous fonctionnons sur regtest, nous pouvons extraire un bloc en émettant une commande RPC, sans avoir besoin d'attendre les 10 minutes de temps médian que nous voyons habituellement dans d'autres réseaux (comme mainnet ou testnet). Consultez l'aide de bitcoin-cli et recherchez comment extraire des blocs. Si vous avez besoin d'aide, vous pouvez consulter cet article.
 
-![image](assets\2.png)
+![image](assets\2.jpeg)
 
 C'est tout, vous avez réussi à exécuter la tour. Félicitations. 🎉

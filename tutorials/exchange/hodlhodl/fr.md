@@ -16,7 +16,7 @@ https://hodlhodl.com/pages/faq_help
 
 Démarrer votre parcours avec HodlHodl : Un guide étape par étape
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 HodlHodl est une bourse de cryptomonnaie pair à pair (P2P) qui prend en charge exclusivement une seule devise numérique, mais offre la flexibilité de trader dans n'importe quelle devise, englobant toutes les devises fiduciaires et les altcoins. Un aspect important de cette plateforme P2P est qu'elle n'impose aucun frais de dépôt ou de retrait, mais facture plutôt des frais de trading allant de 0,5% à 0,6%, en fonction du statut de vérification de l'utilisateur. Les utilisateurs ont l'avantage d'un large éventail de modes de paiement, ce qui fait de HodlHodl l'une des plateformes P2P les plus polyvalentes. Certains des modes de paiement couramment utilisés incluent SWIFT, SEPA, les virements bancaires, les transactions par carte de crédit, PayPal, Venmo, MoneyGram et Western Union. Cependant, les options de paiement disponibles dépendent de l'acceptation du vendeur.
 
@@ -26,7 +26,7 @@ Une des caractéristiques saillantes de HodlHodl est les limites de trading vari
 
 Pour créer votre propre compte, il vous suffit de cliquer sur "S'inscrire", situé dans le coin droit de la page d'accueil de la plateforme. Comme prévu, vous devrez fournir une adresse e-mail, choisir un nom d'utilisateur et établir un mot de passe de paiement. De plus, la plateforme vous demande de définir votre fuseau horaire local, ce qui aide à rationaliser vos heures de fonctionnement et facilite le processus de transaction.
 
-![cover](assets/11.png)
+![cover](assets/11.jpeg)
 
 ### Personnalisez votre profil
 
@@ -49,43 +49,43 @@ Guide par Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 1. Rendez-vous sur hodlhodl.com et créez votre compte. Les seuls détails que vous devez fournir sont un nom d'utilisateur et une adresse e-mail. Vous serez ensuite redirigé vers la page d'accueil.
 
-![cover](assets/11.png)
+![cover](assets/11.jpeg)
 
 2. Cliquez sur "Acheter du BTC" dans l'en-tête du site.
 
-![cover](assets/12.png)
+![cover](assets/12.jpeg)
 
 3. Sélectionnez votre type et méthode de paiement souhaités. Vous pouvez également spécifier un montant spécifique ici si nécessaire.
 
-![cover](assets/13.png)
+![cover](assets/13.jpeg)
 
 4. Sélectionnez l'offre de votre choix. Vous pouvez ensuite consulter les détails de l'échange et lire les rapports d'activité et les évaluations des pairs.
 
-![cover](assets/14.png)
+![cover](assets/14.jpeg)
 
 5. Une fois satisfait, vous pouvez spécifier la quantité que vous souhaitez acheter, entrer l'adresse à laquelle vous souhaitez recevoir les bitcoins et confirmer la méthode de paiement annoncée par le vendeur. Cliquez sur "Accepter l'offre et créer un contrat".
 
-![cover](assets/15.png)
+![cover](assets/15.jpeg)
 
 6. Vous avez maintenant créé votre contrat et devez cliquer sur "Générer l'Escrow" où vous serez invité à créer un mot de passe de paiement. Le mot de passe de paiement est une clé de chiffrement pour la paire de clés d'escrow de l'utilisateur. Il est utilisé pour déposer ou libérer des bitcoins de l'escrow.
 
-![cover](assets/16.png)
+![cover](assets/16.jpeg)
 
 7. Maintenant, vous devez attendre que le vendeur dépose ses bitcoins dans le portefeuille d'escrow. Après avoir lancé le contrat, vous pouvez discuter avec le vendeur en utilisant la boîte de discussion sur le côté droit de la page.
 
-![cover](assets/17.png)
+![cover](assets/17.jpeg)
 
 8. Une fois que le vendeur a déposé ses fonds dans l'escrow, vous verrez cet écran vous conseillant de ne pas envoyer votre argent tant qu'il n'y a pas eu un nombre suffisant de confirmations de la blockchain (cela varie en fonction des conditions de l'échange). Vous pouvez vérifier l'avancement de la transaction de dépôt du vendeur en cliquant sur le lien bleu "ID de transaction de dépôt".
 
-![cover](assets/18.png)
+![cover](assets/18.jpeg)
 
 9. Une fois confirmé, vous serez notifié et vous pourrez ensuite envoyer les fonds au vendeur aux coordonnées qu'il vous fournira. Une fois cela fait, cliquez sur "J'ai envoyé le paiement".
 
-![cover](assets/19.png)
+![cover](assets/19.jpeg)
 
 10. Vous devrez ensuite attendre que le vendeur confirme avoir reçu les fonds, à ce moment-là, les bitcoins seront envoyés à l'adresse que vous avez spécifiée au début du contrat. Vous aurez également la possibilité d'évaluer votre pair.
 
-![cover](assets/20.png)
+![cover](assets/20.jpeg)
 
 Félicitations, vous venez d'acheter des bitcoins sans KYC !
 
@@ -96,13 +96,13 @@ Deux derniers conseils :
 
 ## Option de prêt
 
-![image](assets/0.png)
+![image](assets/0.jpeg)
 
 Ce guide vous aidera à faire vos premiers pas sur la plateforme Lend at Hodl Hodl.
 
 > SOURCE/ https://medium.com/hodl-hodl/quick-guide-to-lend-or-borrow-on-lend-at-hodl-hodl-5a535d526217
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 Lend at Hodl Hodl (lend.hodlhodl.com) est une plateforme conçue pour que les utilisateurs du monde entier puissent se prêter ou s'emprunter mutuellement sans avoir à faire confiance à un tiers ou à effectuer une procédure de vérification.
 
 LEND vous permet de prêter ou d'emprunter différentes stablecoins ou cryptomonnaies en utilisant BTC comme garantie. (Pour le moment, il n'est pas possible de prêter du BTC, bien que cette possibilité soit en cours de développement pour l'avenir).
@@ -113,7 +113,7 @@ Tout d'abord, nous allons chercher parmi les offres existantes celle qui corresp
 
 Plus bas sur la page principale, nous trouvons la boîte de recherche :
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 L'outil de recherche nous montre les offres d'emprunt par défaut.
 
@@ -129,7 +129,7 @@ En cliquant sur le bouton "Trouver des offres", la plateforme nous renverra tout
 
 Supposons que nous choisissons l'offre suivante :
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 L'utilisateur "NateN-09" propose de prêter entre 100 et 500 USDT envoyés par le réseau Liquid pour une durée d'une semaine, à un taux de 0,50% (n'oubliez pas que le taux s'applique à l'ensemble de la durée du contrat).
 
@@ -139,7 +139,7 @@ La relation en pourcentage (LTV) entre la valeur de la garantie et le montant qu
 
 Une fois que nous avons saisi l'offre, nous verrons les détails comme suit :
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Si l'offre semble appropriée et que nous décidons de l'accepter, nous complétons les champs en attente et confirmons avec le bouton "ACCEPTER ET CRÉER".
 

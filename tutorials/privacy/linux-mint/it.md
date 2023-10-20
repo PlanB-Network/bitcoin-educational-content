@@ -41,11 +41,11 @@ Da evitare:
 - Mac - sono costosi e l'hardware non si adatta bene ai sistemi operativi Linux secondo la mia esperienza
 - Qualsiasi cosa ricondizionata o di seconda mano (anche se non è un fattore decisivo assoluto)
   Invece, cerca un laptop con Windows 11 (Attualmente Windows 11 è l'ultima versione. Ci libereremo di quel software, non preoccuparti.). Ho cercato su amazon.com "Windows 11 Laptop" e ho trovato questo buon esempio:
-  ![image](assets/1.png)
+  ![image](assets/1.jpeg)
 
 Il prezzo di questo sopra è buono. Le specifiche sono abbastanza buone. Ha una fotocamera integrata che possiamo usare per le transazioni QR code PSBT (altrimenti dovresti comprare una fotocamera USB per farlo). Non preoccuparti del fatto che non sia un marchio ben riconosciuto (è economico). Se vuoi un marchio migliore, ti costerà, ad esempio:
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Alcuni dei più economici hanno solo 64Gb di spazio di archiviazione; non ho testato laptop con unità così piccole - probabilmente va bene avere 64Gb, ma potrebbe essere un po' al limite.
 
@@ -81,27 +81,27 @@ Stiamo per utilizzare qualsiasi computer per trasferire il sistema operativo su 
 
 Prendi una di queste cose:
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Oppure puoi usare qualcosa del genere:
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Successivamente, vai su linuxmint.com
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Posiziona il mouse sopra il menu Download in alto e poi clicca sul link "Linux Mint 20.3" o qualunque versione sia quella raccomandata più recente al momento in cui fai questo.
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Ci saranno alcuni "flavors" tra cui scegliere. Scegli "Cinnamon" per seguire questa guida. Clicca sul pulsante Download.
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Nella pagina successiva, puoi scorrere verso il basso per vedere i mirror (i mirror sono vari server che contengono una copia del file che vogliamo). Puoi verificare il download utilizzando SHA256 e gpg (raccomandato), ma salterò spiegazioni su questo in quanto ho già scritto delle guide a riguardo.
 
-![image](assets/8.png)
+![image](assets/8.jpeg)
 
 Scegli un mirror che sia più vicino a te e clicca sul suo link (il testo verde nella colonna mirror). Il file inizierà a scaricarsi - la versione che sto scaricando è di 2,1 gigabyte.
 
@@ -109,7 +109,7 @@ Una volta scaricato, puoi trasferire il file su un dispositivo di memoria portat
 
 Poi avvialo:
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
 Clicca su "flash from file" e seleziona il file LinuxMint che hai scaricato.
 
@@ -126,13 +126,13 @@ Ogni computer avrà un menu BIOS diverso. Esplora e trova quale menu ti consente
 
 Riavvia il computer e dovrebbe caricarsi dal dispositivo di memoria USB. Non possiamo installare Linux sull'hard disk interno e Windows verrà rimosso definitivamente.
 Quando arrivi alla schermata seguente, seleziona "Installazione OEM (per produttori)". Se invece scegli "Avvia Linux Mint", avvierai una sessione di Linux Mint caricata dal dispositivo di memoria, ma una volta spento il computer, nessuna delle tue informazioni verrà salvata: è praticamente una sessione temporanea per provarlo.
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 Verrai guidato attraverso una procedura guidata grafica che ti farà alcune domande che dovrebbero essere semplici. Una riguarderà le impostazioni della lingua, un'altra riguarderà la connessione di rete domestica e la password. Se ti viene chiesto di installare software aggiuntivo, rifiutalo. Quando arrivi alla domanda sul tipo di installazione, alcune persone potrebbero esitare: devi scegliere "Cancella disco e installa Linux Mint". Inoltre, non criptare il disco e non selezionare LVM.
 
 Arriverai infine al desktop. A questo punto, non hai ancora finito. In realtà stai agendo come il produttore (cioè qualcuno che costruisce un computer e configura Linux per il cliente). Devi fare doppio clic sull'icona del desktop "Installazione di Linux Mint" per finalizzarla.
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Ricorda di rimuovere la chiavetta di memoria e riavviare. Dopo il riavvio, utilizzerai il sistema operativo per la prima volta come nuovo utente. Congratulazioni.
 

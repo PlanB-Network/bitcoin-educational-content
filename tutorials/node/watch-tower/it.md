@@ -71,6 +71,6 @@ Una volta fatto ciò, dovresti essere pronto per eseguire la torre. Dato che sti
 
 Dato che stiamo utilizzando regtest, possiamo estrarre blocchi emettendo un comando RPC, senza dover aspettare i 10 minuti di tempo mediano che di solito vediamo in altre reti (come mainnet o testnet). Controlla l'aiuto di bitcoin-cli e cerca come estrarre blocchi. Se hai bisogno di aiuto, puoi consultare questo articolo.
 
-![image](assets\2.png)
+![image](assets\2.jpeg)
 
 Ecco fatto, hai eseguito con successo la torre. Congratulazioni. 🎉

@@ -4,7 +4,7 @@ name: Attakaï
 description: trasformazione di un S9 in un sistema di riscaldamento per la casa
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.jpeg)
 
 # Attakai - il mining domestico reso possibile e accessibile!
 

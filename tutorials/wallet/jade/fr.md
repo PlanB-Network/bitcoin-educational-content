@@ -13,7 +13,7 @@ Blockstream Jade - Portefeuille matériel Bitcoin mobile TUTORIEL COMPLET par BT
 
 ## Guide d'écriture complet
 
-![image](assets/cover2.png)
+![image](assets/cover2.jpeg)
 
 ### Prérequis
 
@@ -27,7 +27,7 @@ Blockstream Jade - Portefeuille matériel Bitcoin mobile TUTORIEL COMPLET par BT
 
 Ouvrez Blockstream Green, puis cliquez sur le logo Blockstream sous "Appareils".
 
-![image](assets/1.png)
+![image](assets/1.jpeg)
 
 Branchez Jade à votre ordinateur de bureau à l'aide du câble USB fourni.
 
@@ -35,29 +35,29 @@ Branchez Jade à votre ordinateur de bureau à l'aide du câble USB fourni.
 
 Une fois que votre Jade apparaît dans Green, mettez à jour Jade en cliquant sur "Vérifier les mises à jour" et sélectionnez la dernière version du micrologiciel. Utilisez la molette de défilement ou le bouton bascule sur Jade pour confirmer et continuer avec la mise à jour. Assurez-vous que votre Jade affiche toujours le bouton "Initialiser", sinon vous devrez attendre après avoir configuré Jade pour le mettre à niveau. Utilisez le bouton retour pour revenir à cet écran si nécessaire.
 
-![image](assets/2.png)
+![image](assets/2.jpeg)
 
 Après avoir mis à jour le micrologiciel de Jade, sélectionnez "Configurer Jade" sur la politique de réseau et de sécurité que vous souhaitez utiliser.
 
 > Astuce : La politique de sécurité est répertoriée sous "Type" à l'écran de connexion affiché ci-dessous. Si vous n'êtes pas sûr de choisir Singlesig ou Multisig Shield, veuillez consulter notre guide ici. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
 
-![image](assets/3.png)
+![image](assets/3.jpeg)
 
 Ensuite, sélectionnez "Créer un nouveau portefeuille" et choisissez 12 mots pour générer votre phrase de récupération. En cliquant sur "Avancé", vous aurez la possibilité d'une phrase de récupération de 12 et 24 mots.
 
-![image](assets/4.png)
+![image](assets/4.jpeg)
 
 Enregistrez la phrase de récupération hors ligne sur papier (ou en utilisant un appareil de sauvegarde de phrase de récupération dédié pour une sécurité supplémentaire). Ensuite, utilisez la molette de défilement ou le bouton bascule sur le dessus de votre Jade pour vérifier votre phrase de récupération. Cette étape vous assure de l'avoir correctement écrite.
 
-![image](assets/5.png)
+![image](assets/5.jpeg)
 
 Définissez et confirmez votre code PIN à six chiffres. Il est utilisé pour déverrouiller Blockstream Jade à chaque fois que vous vous connectez à votre portefeuille.
 
-![image](assets/6.png)
+![image](assets/6.jpeg)
 
 Maintenant, sélectionnez simplement "Aller au portefeuille" dans l'application de bureau Green et vous verrez votre portefeuille s'ouvrir sur Blockstream Green. Blockstream Jade indiquera également qu'il est prêt ! Vous pouvez maintenant utiliser votre Jade pour envoyer et recevoir des transactions Bitcoin.
 
-![image](assets/7.png)
+![image](assets/7.jpeg)
 
 Après avoir fini d'utiliser votre portefeuille, déconnectez votre Blockstream Jade de votre appareil. La prochaine fois que vous voudrez utiliser le portefeuille sur Blockstream Jade, reconnectez simplement votre appareil et suivez les instructions.
 
@@ -82,21 +82,21 @@ Pour Windows, faites la même chose, sauf que vous devrez d'abord télécharger 
 
 Vous obtiendrez une sortie indiquant que la clé publique a été importée.
 
-![image](assets/9.png)
+![image](assets/9.jpeg)
 
-Cette image a un attribut alt vide ; son nom de fichier est image-3-1024x162.png
+Cette image a un attribut alt vide ; son nom de fichier est image-3-1024x162.jpeg
 
 Ensuite, nous devons obtenir le fichier contenant le hachage du logiciel. Il est stocké sur la page GitHub de Blockstream. Allez d'abord sur leur page d'informations ici, puis cliquez sur le lien "desktop". Cela vous amènera à la page de la dernière version sur GitHub, où vous verrez un lien vers le fichier SHA256SUMS.asc, qui est un document texte contenant le hachage publié par Blockstream du programme que nous avons téléchargé.
 
-![image](assets/10.png)
+![image](assets/10.jpeg)
 
 GitHub :
 
-![image](assets/11.png)
+![image](assets/11.jpeg)
 
 Ce n'est pas nécessaire, mais après l'avoir enregistré sur le disque, j'ai renommé "SHA256SUMS.asc" en "SHA256.txt" pour pouvoir plus facilement ouvrir le fichier sur Mac à l'aide de l'éditeur de texte. Voici le contenu du fichier :
 
-![image](assets/12.png)
+![image](assets/12.jpeg)
 
 Le texte qui nous intéresse se trouve en haut. Selon le fichier que nous avons téléchargé, il y a une sortie de hachage correspondante que nous comparerons plus tard.
 
@@ -120,7 +120,7 @@ gpg --verify SHA256SUMS.asc
 
 L'orthographe exacte du nom de fichier (en rouge) peut être différente le jour où vous récupérez le fichier, alors assurez-vous que la commande correspond au nom de fichier tel que téléchargé. Vous devriez obtenir cette sortie et ignorer l'avertissement concernant la signature de confiance - cela signifie simplement que vous n'avez pas indiqué manuellement à l'ordinateur que vous faites confiance à la clé publique que nous avons importée précédemment.
 
-![image](assets/13.png)
+![image](assets/13.jpeg)
 
 Cet ouput confirme que la signature est bonne, et nous sommes confiants que la clé privée de "info@greenaddress.it" a signé les données (le rapport de hachage).
 
@@ -138,7 +138,7 @@ Vous devriez vérifier comment votre fichier est exactement appelé et modifier 
 
 Vous obtiendrez une sortie comme ceci (la vôtre sera différente si le fichier est différent du mien) :
 
-![image](assets/14.png)
+![image](assets/14.jpeg)
 
 Ensuite, comparez visuellement la sortie de hachage avec ce qui se trouve dans le fichier SHA256SUMS.asc. S'ils correspondent, alors -> SUCCÈS ! Félicitations.
 
@@ -152,45 +152,45 @@ Si vous savez déjà comment utiliser Sparrow, alors c'est comme d'habitude :
 
 Téléchargez Sparrow en utilisant le lien fourni ici.
 
-![image](assets/14.5.png)
+![image](assets/14.5.jpeg)
 
 Cliquez sur Suivant pour suivre le guide de configuration et en apprendre davantage sur les différentes options de connexion.
 
-![image](assets/15.png)
+![image](assets/15.jpeg)
 
 Choisissez le serveur souhaité, puis sélectionnez Créer un nouveau portefeuille.
 
-![image](assets/16.png)
+![image](assets/16.jpeg)
 
 Entrez un nom pour votre portefeuille et cliquez sur Créer un portefeuille.
 
-![image](assets/17.png)
+![image](assets/17.jpeg)
 
 Choisissez les types de politique et de script souhaités, puis sélectionnez Portefeuille matériel connecté.
 
 > Note : Si vous avez déjà utilisé Blockstream Jade en tant que portefeuille Singlesig avec Blockstream Green et que vous souhaitez afficher vos transactions dans Sparrow, assurez-vous que le type de script correspond au type de compte qui contient vos fonds dans Green. Vous devrez également vous assurer que le chemin de dérivation correspond également.
 
-![image](assets/18.png)
+![image](assets/18.jpeg)
 
 Branchez votre Blockstream Jade et cliquez sur Scanner. Vous serez alors invité à entrer votre NIP sur Jade.
 
 > Astuce : Avant de connecter votre Jade, assurez-vous que l'application Blockstream Green n'est pas ouverte. Si Green est ouvert, cela peut causer des problèmes de détection de votre Jade dans Sparrow.
 
-![image](assets/19.png)
+![image](assets/19.jpeg)
 
 Sélectionnez Importer Keystore pour importer la clé publique du compte par défaut, ou sélectionnez la flèche pour sélectionner manuellement le chemin de dérivation que vous souhaitez utiliser.
 
-![image](assets/20.png)
+![image](assets/20.jpeg)
 
 Une fois la clé souhaitée importée, cliquez sur Appliquer.
 
-![image](assets/21.png)
+![image](assets/21.jpeg)
 
 Vous avez maintenant configuré votre portefeuille avec succès et vous pouvez commencer à recevoir, stocker et dépenser vos bitcoins en utilisant Sparrow et Blockstream Jade.
 
 > Note : Si vous utilisiez précédemment Jade avec Blockstream Green en tant que portefeuille Multisig Shield, ne vous attendez pas à ce que votre nouveau portefeuille Sparrow affiche le même solde - ce sont des portefeuilles différents. Pour accéder à nouveau à votre portefeuille Multisig Shield, il vous suffit de reconnecter votre Jade à Blockstream Green.
 
-![image](assets/22.png)
+![image](assets/22.jpeg)
 'source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
 
 ### application green

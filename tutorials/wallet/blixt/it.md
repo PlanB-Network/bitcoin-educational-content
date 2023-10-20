@@ -35,7 +35,7 @@ Ecco alcuni link relativi a questa nuova applicazione di nodo/portafoglio:
 > Download dell'applicazione Testflight per iOS
 > Feed Twitter con demo
 
-![immagine principale](assets/2.JPEG)
+![immagine principale](assets/2.jpeg)
 
 # Principali funzionalità disponibili
 

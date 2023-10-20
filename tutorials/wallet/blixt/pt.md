@@ -35,7 +35,7 @@ Aqui estão alguns links sobre este novo aplicativo de nó/carteira:
 > Download do aplicativo Testflight para iOS
 > Feed do Twitter com demonstrações
 
-![imagem principal](assets/2.JPEG)
+![imagem principal](assets/2.jpeg)
 
 # Principais funcionalidades disponíveis
 

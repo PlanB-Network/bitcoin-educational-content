@@ -19,7 +19,9 @@ Um Ihnen bei diesem Abenteuer zu helfen, habe ich diesen kostenlosen Kurs erstel
 
 +++
 
-# Einführung in den BTC 102-Kurs
+# Einführung und Voraussetzungen zum Verständnis von Bitcoin
+
+## Einführung in den BTC 102-Kurs
 
 Willkommen bei BTC 102! Ein praktischer Kurs, der Sie bei der Einrichtung Ihres Bitcoin-Plans begleiten wird! In diesem Kurs werden wir uns also darauf vorbereiten, Ihre ersten Bitcoins zu erhalten, sie richtig zu sichern und einen guten Einstieg in diese neue Branche zu gewährleisten.
 
@@ -38,8 +40,6 @@ In diesem Kurs werden wir uns auf 4 Schwerpunkte konzentrieren:
 Sie haben verstanden, dass dieses Training wirklich dazu dient, Sie von Anfang an auf die besten Praktiken unserer Branche vorzubereiten, auf einfache und schnelle Weise!
 
 Viel Glück :)
-
-# Voraussetzungen für das Verständnis von Bitcoin
 
 ## Betrug und Finanzbetrug
 

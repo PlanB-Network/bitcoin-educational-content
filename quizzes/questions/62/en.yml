@@ -4,6 +4,7 @@ wrong_answers:
   - Doubling
   - Quartering
   - Tripling
-explanation: >-
-  The event when the reward for mining is halved is called "halving". This
+explanation: |
+  The event when the reward for mining is halved is called halving. This
   event gives the monetary issuance curve a stair-like shape.
+reviewed: true

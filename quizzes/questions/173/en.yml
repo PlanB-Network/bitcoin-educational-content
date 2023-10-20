@@ -1,8 +1,6 @@
-question:
-  What is the main difference between the ideas of Keynesian economics and
+question: What is the main difference between the ideas of Keynesian economics and
   Austrian economics in relation to the monetary system?
-answer:
-  Keynesian economics does not take into account the temporal and dynamic aspects
+answer: Keynesian economics does not take into account the temporal and dynamic aspects
   of situations and resources
 wrong_answers:
   - Keynesian economics promotes overconsumption and debt
@@ -14,3 +12,4 @@ explanation: >-
   take into account the temporal and dynamic aspects of situations and resources.
   In other words, an unlimited currency cannot effectively reflect the limited resources
   of our planet.
+reviewed: false

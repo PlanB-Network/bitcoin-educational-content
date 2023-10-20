@@ -8,3 +8,4 @@ explanation: >-
   Users in the Bitcoin network transfer ownership of their money by digitally
   signing transactions with their private keys. This verifies that they are the owners
   of the Bitcoins they want to transfer.
+reviewed: false

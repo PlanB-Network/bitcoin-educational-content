@@ -7,3 +7,4 @@ wrong_answers:
 explanation: >-
   The Bitcoin protocol uses underlying technologies such as cryptography,
   network communication, and the blockchain.
+reviewed: true

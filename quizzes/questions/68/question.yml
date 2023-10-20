@@ -5,6 +5,5 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Mining
+  - Bitcoin Protocol
   - Difficulty Adjustment

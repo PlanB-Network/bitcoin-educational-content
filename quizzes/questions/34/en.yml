@@ -1,10 +1,9 @@
-question: What is the evolution of currency according to the text?
-answer: Raw stone -> Coin -> Banknote -> Bank card -> Blockchain -> Lightning Network
+question: Why Bitcoin is a new form of money?
+answer: Because it is a digital money with no central entity
 wrong_answers:
-  - Raw stone -> Coin -> Banknote -> Blockchain -> Lightning Network
-  - Raw stone -> Coin -> Banknote -> Bank card -> Lightning Network
-  - Raw stone -> Coin -> Banknote -> Bank card -> Blockchain
+  - Because it is a digital currency backed by gold
+  - Because it is a currency that requires a blockchain 
+  - Because the Federal Reserve says so
 explanation: >-
-  'The evolution of currency has been a step-by-step process: from raw
-  stone to coin, then to banknote, bank card, blockchain, and finally to the Lightning
-  Network.'
+  Bitcoin can be viewe as a new form of money, as it emmerges from a peer-to-peer network with no central entity.
+reviewed: true

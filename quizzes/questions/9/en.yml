@@ -4,6 +4,7 @@ wrong_answers:
   - It is controlled by a single entity or institution.
   - It is regulated by the government.
   - It is only used for neutral transactions.
-explanation: >-
+explanation: |
   Bitcoin is a neutral currency, meaning it is not controlled by any entity
-  or institution. This is a key aspect of its decentralization.
+  or institution and every user has the same rights. This is a key aspect of its decentralization.
+reviewed: true

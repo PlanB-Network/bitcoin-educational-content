@@ -1,5 +1,4 @@
-question:
-  How does the Bitcoin protocol ensure that the average time between two blocks
+question: How does the Bitcoin protocol ensure that the average time between two blocks
   remains constant?
 answer: The difficulty of finding a valid hash adjusts every 2016 blocks
 wrong_answers:
@@ -10,3 +9,4 @@ explanation: >-
   The Bitcoin protocol ensures that the average time between two blocks
   remains constant by adjusting the difficulty of finding a valid hash every 2016
   blocks. This happens regardless of the number of miners and their computing power.
+reviewed: false

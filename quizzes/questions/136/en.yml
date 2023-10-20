@@ -8,3 +8,4 @@ explanation: >-
   The difficulty adjustment in the Bitcoin network ensures that a block
   is added approximately every ten minutes. This is part of the protocol rules of
   the Bitcoin network.
+reviewed: false

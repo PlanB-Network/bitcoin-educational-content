@@ -5,6 +5,5 @@ difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Wallets
-  - Mnemonic Phrase
+  - Bitcoin Wallet
+  - Self Custody

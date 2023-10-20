@@ -1,5 +1,4 @@
-question:
-  What is one of the potential risks of leaving your Bitcoin on an exchange
+question: What is one of the potential risks of leaving your Bitcoin on an exchange
   platform?
 answer: The risks of hacking and fund blocking.
 wrong_answers:
@@ -9,3 +8,4 @@ wrong_answers:
 explanation: >-
   The text mentions that leaving your Bitcoin on an exchange platform can
   expose you to the risks of hacking and fund blocking.
+reviewed: false

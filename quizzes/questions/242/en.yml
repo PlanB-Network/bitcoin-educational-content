@@ -1,0 +1,10 @@
+question: What is one of the potential implications of the Lightning Network for users?
+answer: They would only pay for the content they consume
+wrong_answers:
+  - They would have to pay more for content
+  - They would have to pay a monthly subscription fee
+  - They would have to pay for content upfront
+explanation: >-
+  With the Lightning Network, users would only pay for the content they
+  consume, thus eliminating upfront subscription fees.
+reviewed: false

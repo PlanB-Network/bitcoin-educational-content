@@ -1,12 +1,12 @@
-question: What is the central question when choosing a Bitcoin wallet?
-answer:
-  Are you the owner of the funds or do you leave control of your money to a
+question: What is the central question about self custody when choosing a Bitcoin wallet?
+answer: Are you the owner of the funds or do you leave control of your money to a
   third party?
 wrong_answers:
-  - Is the wallet secure against hacking and theft attempts?
+  - Is the wallet secure with a passphrase?
   - Does the wallet allow receiving and sending bitcoins?
-  - Is the wallet compatible with your device?
-explanation: >-
-  'When choosing a Bitcoin wallet, the central question is: Are you the
+  - Can I share my wallet to another person? 
+explanation: |
+  When choosing a Bitcoin wallet, the central question is: Are you the
   owner of the funds or do you leave control of your money to a third party? This
-  is because the holder of the private key is the owner of the Bitcoins.'
+  is because the holder of the private key is the owner of the Bitcoins.
+reviewed: true

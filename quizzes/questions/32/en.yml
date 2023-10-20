@@ -1,12 +1,11 @@
-question: What are the advantages of Bitcoin as a currency?
-answer:
-  It offers an excellent store of value and is a good means of exchange that
-  knows no borders
+question: Which of these are not an advantage of Bitcoin as a currency?
+answer: It is used to pay taxes 
 wrong_answers:
-  - It is easily divisible and transportable
-  - It is accepted by all countries
-  - It is not subject to inflation
+  - It is divisible
+  - It is transportable
+  - It is permisionless money 
 explanation: >-
-  Bitcoin, due to its properties such as its strictly limited supply, offers
+  Bitcoin, due to its properties such as its dvisibility, verifiability, permisionless aspect and transportability, offers
   an excellent store of value. Moreover, as a neutral internet currency, it represents
-  a good means of exchange that knows no borders.
+  a good medium of exchange that knows no borders.
+reviewed: true

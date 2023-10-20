@@ -1,5 +1,4 @@
-question:
-  What is one of the potential consequences of not following the regulations
+question: What is one of the potential consequences of not following the regulations
   of your country when buying Bitcoin?
 answer: You may put yourself at risk.
 wrong_answers:
@@ -9,3 +8,4 @@ wrong_answers:
 explanation: >-
   The text mentions that not following the regulations of your country
   when buying Bitcoin may put you at risk.
+reviewed: false

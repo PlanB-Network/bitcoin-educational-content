@@ -1,10 +1,11 @@
 question: What is the importance of individual responsibility in Bitcoin?
-answer: It is crucial to secure access to your wallets and backups
+answer: It is crucial because you are in charge of the backups
 wrong_answers:
-  - It is necessary to mine bitcoins
-  - It is required to buy bitcoins
-  - It is important to increase the value of bitcoins
-explanation: >-
+  - It is essential because you have to mine bitcoins
+  - It is essential to buy bitcoins
+  - It is crucial because you are in charge of the wallet theme
+explanation: |
   In Bitcoin, financial sovereignty goes hand in hand with individual
-  responsibility,
-  so it is crucial that you secure access to your wallets and backups.
+  responsibility, because you have to self custoy your funds by following
+  recommended backup procedure.
+reviewed: true

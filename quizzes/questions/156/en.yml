@@ -1,6 +1,5 @@
 question: How are miners compensated for their work?
-answer:
-  Miners are compensated through the reward included in the block and through
+answer: Miners are compensated through the reward included in the block and through
   transaction fees.
 wrong_answers:
   - Miners are paid by the Bitcoin network.
@@ -10,3 +9,4 @@ explanation: >-
   When a miner successfully mines a block, they receive a reward in the
   form of new bitcoins. This reward is included in the block that they mined. In addition,
   miners also receive transaction fees from the transactions included in the block.
+reviewed: false

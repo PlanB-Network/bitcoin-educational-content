@@ -1,5 +1,4 @@
-question:
-  What is one factor to consider when choosing a solution to accept Bitcoin
+question: What is one factor to consider when choosing a solution to accept Bitcoin
   for your business?
 answer: The expected transaction volume
 wrong_answers:
@@ -10,3 +9,4 @@ explanation: >-
   When choosing a solution to accept Bitcoin for your business, several
   factors must be taken into account, such as the expected transaction volume, allocated
   budget, and type of business (online or physical).
+reviewed: false

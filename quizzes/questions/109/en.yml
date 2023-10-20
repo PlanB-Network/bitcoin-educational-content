@@ -1,8 +1,10 @@
 question: What is the purpose of a Bitcoin wallet?
-answer: To store and transact bitcoins
+answer: To store private key in order to transact bitcoins
 wrong_answers:
-  - To mine bitcoins
-  - To buy bitcoins
-  - To secure bitcoins
-explanation: >-
-  Bitcoin wallets are software that allows you to store and transact bitcoins.
+  - To use device resource to mine bitcoins
+  - To buy bitcoins with public key 
+  - To store bitcoins on a device
+explanation: |
+  Bitcoin wallets are software that allows you to store the private keys that
+  allow you to transact your bitcoins.
+reviewed: true

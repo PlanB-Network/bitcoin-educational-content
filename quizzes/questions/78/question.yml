@@ -5,6 +5,5 @@ difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Wallets
-  - Public Key
+  - Bitcoin Wallet
+  - Asymetric Cryptography

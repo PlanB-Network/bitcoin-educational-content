@@ -1,10 +1,10 @@
-question: What does the absence of a list of 24 words in a wallet indicate?
-answer: The wallet is not secure
+question: What does the absence of a mnemonic phrase in a wallet indicate?
+answer: The wallet is not secure for storing long term 
 wrong_answers:
-  - The wallet is a cold wallet
-  - The wallet is a hot wallet
-  - The wallet is a paper wallet
-explanation: >-
-  The absence of a list of 24 words in a wallet should alert you that the
-  wallet is not secure. Only bad wallets that are strongly discouraged will not give
-  you a list of 24 words.
+  - The wallet is secure for storing long term
+  - The wallet is not secure for storing short term
+  - The wallet is not secure for spending
+explanation: |
+  The absence of a list of 12 or 24 words, that is the mnemonic phrase, in a wallet should alert you that the
+  wallet is not secure as it does not follow standard bakcup procedure.
+reviewed: true

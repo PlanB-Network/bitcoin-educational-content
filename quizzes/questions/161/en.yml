@@ -1,6 +1,5 @@
 question: What happens in a 51% attack on the Bitcoin network?
-answer:
-  An agent possesses more than half of the hashrate and can attempt to modify
+answer: An agent possesses more than half of the hashrate and can attempt to modify
   the blockchain.
 wrong_answers:
   - An agent gains control over more than half of the bitcoins in circulation.
@@ -12,3 +11,4 @@ explanation: >-
   could potentially manipulate the blockchain by creating an alternate chain of blocks.
   However, such an attack would be extremely costly and unlikely to be profitable,
   making it an unlikely scenario.
+reviewed: false

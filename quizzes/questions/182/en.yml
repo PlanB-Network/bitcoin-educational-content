@@ -1,5 +1,4 @@
-question:
-  What is one of the ways Bitcoin has integrated itself more into the traditional
+question: What is one of the ways Bitcoin has integrated itself more into the traditional
   market?
 answer: The upcoming arrival of Bitcoin ETFs.
 wrong_answers:
@@ -11,3 +10,4 @@ explanation: >-
   more and more into the traditional market. The upcoming arrival of Bitcoin ETFs,
   clearer regulation, and better acquisition or storage tools only encourage this
   trend.
+reviewed: false

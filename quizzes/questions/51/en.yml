@@ -1,9 +1,10 @@
 question: What is the final phase of hyperinflation?
-answer: A new currency emerges.
+answer: A new currency emerges
 wrong_answers:
-  - Loss of Confidence.
-  - Currency collapse & price increase.
-  - The vicious circle of money printing.
-explanation: >-
+  - Loss of Confidence
+  - Currency collapse & price increase
+  - The vicious circle of money printing
+explanation: |
   The final phase of hyperinflation is when a new currency is introduced
   to replace the old one.
+reviewed: true

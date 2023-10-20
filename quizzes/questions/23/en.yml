@@ -4,8 +4,9 @@ wrong_answers:
   - Due to its abundance, durability, and indivisibility
   - Due to its rarity, perishability, and divisibility
   - Due to its abundance, perishability, and indivisibility
-explanation: >-
+explanation: |
   Gold became the standard medium of exchange due to its rarity, durability,
-  and divisibility. Its rarity made it valuable, its durability ensured it did not
+  and divisibility. Its rarity prevents from devaluation from production, its durability ensured it did not
   erode over time, and its divisibility allowed it to be used in transactions of varying
   sizes.
+reviewed: true

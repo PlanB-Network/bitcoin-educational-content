@@ -4,7 +4,8 @@ wrong_answers:
   - They are a tax imposed by the government.
   - They are a fee charged by the Bitcoin network for using its services.
   - They are a fee charged by the wallet provider.
-explanation: >-
+explanation: |
   Transaction fees in Bitcoin transactions serve as an incentive for miners
   to include the transaction in the next block. The fees create a free market for
   including transactions in blocks.
+reviewed: true

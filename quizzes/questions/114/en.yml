@@ -1,9 +1,12 @@
-question: What is the BTC102 course mentioned in the text?
-answer: A course that guides you in creating an inheritance plan for your bitcoins
+question: Why can't everyone use the same Bitcoin Wallet?
+answer: Because different indiviual means differents use-cases. 
 wrong_answers:
-  - A course that teaches you how to mine bitcoins
-  - A course that assists you with buying bitcoins without providing identification
-  - A course that helps you secure your bitcoins
-explanation: >-
-  The BTC102 course is mentioned in the text as a resource that guides
-  you in creating an inheritance plan for your bitcoins.
+  - Because it is expensive to use a Bitcoin Wallet
+  - Because it is illegal to use a Bitcoin Wallet
+  - Because people will never agree on the name of such wallet
+explanation: |
+  While one person might prioritize security, another might value 
+  user-friendliness or specific features. Hence, a single Bitcoin Wallet 
+  might not cater to everyone's requirements, making it necessary 
+  for multiple wallet options to exist.
+reviewed: true

@@ -1,8 +1,10 @@
-question: What was the inflation rate in Zimbabwe in March 2007?
-answer: 50%.
+question: What was the inflation rate in Zimbabwe in November 2008?
+answer: 79,600,000,000%
 wrong_answers:
-  - 586%.
-  - 72%.
-  - 100%.
-explanation: >-
-  In March 2007, monthly inflation in Zimbabwe reached 50%.
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
+explanation: | 
+  In November 2008, Zimbabwe currency montly rate inflation has peaked to 79,600,000,000%, which crushed
+  to 0 the value of the Zimbabwian dollar 
+reviewed: true

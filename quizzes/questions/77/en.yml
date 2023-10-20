@@ -3,7 +3,8 @@ answer: It is used to generate Bitcoin addresses and thus receive money
 wrong_answers:
   - It is used to encrypt the Bitcoin transactions
   - It is used to access the Bitcoin wallet
-  - It is used to represent ownership of the Bitcoins
-explanation: >-
-  The public key is created with the private key and therefore linked to
-  it. The public key is used to generate Bitcoin addresses and thus receive money.
+  - It is used to backup the Bitcoin wallet
+explanation: |
+  The public key is derived from the private key and is used to generate Bitcoin addresses
+  in order to receive money.
+reviewed: true

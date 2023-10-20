@@ -4,7 +4,9 @@ wrong_answers:
   - To become a Bitcoin miner.
   - To create a new Bitcoin protocol.
   - To regulate the price of Bitcoin.
-explanation: >-
+explanation: |
   Learning to use Bitcoin is an essential skill for anyone who wants to
   be in control of their own money. It allows you to buy and sell goods and services,
-  securely store your money in digital wallets, and use it for transactions.
+  securely store your money in digital wallets, and use it for transactions without the need
+  of third party.
+reviewed: true

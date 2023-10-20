@@ -4,7 +4,8 @@ wrong_answers:
   - To replace gold as the global standard
   - To make transactions faster and cheaper
   - To make everyone rich
-explanation: >-
+explanation: |
   Bitcoin was created with the aim of separating the State from money.
   This is in response to the systemic challenges of the current financial system,
   where the state has control over the money supply and can manipulate it to its advantage.
+reviewed: true

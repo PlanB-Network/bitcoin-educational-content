@@ -5,6 +5,5 @@ difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Wallets
-  - Ownership
+  - Bitcoin Wallet
+  - Self Custody

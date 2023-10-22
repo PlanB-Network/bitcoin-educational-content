@@ -202,34 +202,34 @@ Nous allons donc étudier plus en détail le fonctionnement des appareils de la 
 
 - 17, S17 Pro, S17+, S17e, T17, T17+, T17e & S9 [i, j]
 
-Le logiciel Braiins OS peut être installé assez simplement sur toutes les machines citées ci-dessus. Il permettra un contrôle plus précis d’une machine en permettant de l’overclocker sur-cadençage ou de l’underclocker sous-cadençage. Il permet également un réglage fin de la fréquence de chaque puce grâce à une fonctionnalité d’optimisation automatique appelée l’autotuning. Comme chaque puce de hachage est légèrement différente du fait de son procédé de fabrication, le logiciel teste la fréquence optimale pour chacune d’entre elles afin d’obtenir une efficience (W/THs) maximum. Le logiciel annonce des performances pouvant être supérieures de 25% à celles d’origine. Selon nos mesures il est possible d’atteindre ces figures.
+Le logiciel Braiins OS peut être installé assez simplement sur toutes les machines citées ci-dessus. Il permettra un contrôle plus précis d’une machine en permettant de l’overclocker (sur-cadençage) ou de l’underclocker (sous-cadençage). Il permet également un réglage fin de la fréquence de chaque puce grâce à une fonctionnalité d’optimisation automatique appelée l’autotuning. Comme chaque puce de hachage est légèrement différente du fait de son procédé de fabrication, le logiciel teste la fréquence optimale pour chacune d’entre elles afin d’obtenir une efficience (W/THs) maximum. Le logiciel annonce des performances pouvant être supérieures de 25% à celles d’origine. Selon nos mesures il est possible d’atteindre ces valeurs.
 
 ## Installation de Braiins OS+
 
 Il existe plusieurs façons d’installer Braiins OS+ sur un ASIC. Vous pouvez vous référer à ce guide mais aussi à la documentation officielle de Braiins et aux tutoriels vidéo.
 Installation de Braiins OS+ directement sur la mémoire du Antminer
 
-Découvrez comment installer facilement Braiins OS+ directement sur la mémoire de votre Antminer avec BOS toolbox, en remplaçant ainsi le système d’exploitation d’origine, à travers les étapes détaillées ci-dessous. Si vous souhaitez conserver l’OS d’origine en parallèle vous pouvez installer Braiins OS+ sur un carte SD.
+Découvrez comment installer facilement Braiins OS+ directement sur la mémoire de votre Antminer avec BOS toolbox, en remplaçant ainsi le système d’exploitation d’origine, à travers les étapes détaillées ci-dessous. Si vous souhaitez conserver l’OS d’origine en parallèle vous pouvez installer Braiins OS+ sur une carte SD.
 
 1. Alimentez votre Antimner et branchez le à votre Box internet
 2. Télécharger BOS toolbox Windows / Linux
-3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
+3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat, choisissez la langue puis après quelques instants vous verrez cette fenêtre:
 
 ![image](assets/software/5.jpeg)
 
-4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
+4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer Braiins OS+. Si vous connaissez déjà l’adresse IP de cotre machine vous pouvez passer à l’étape 8. Autrement, allez dans l’onglet scan.
 
 ![image](assets/software/6.jpeg)
 
 5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champs IP range “192.168.1.0/24. Si votre réseaux est différent veuillez changer ces adresses. Puis cliquez sur “Start”
 
-6. Attention, si le Antminer possède un mot de passe alors la détection ne fonctionnera pas. Si c’est le cas le plus simple est d’effectuer un Reset factory
+6. Attention, si le Antminer possède un mot de passe, alors la détection ne fonctionnera pas. Si c’est le cas, le plus simple est d’effectuer un Reset factory
 
 7. Vous devriez voir apparaître l’ensemble des Antminer sur votre réseau, ici l’adresse IP est 192.168.1.37
 
 ![image](assets/software/7.jpeg)
 
-8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champs Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquer sur “Start”.
+8. Cliquez sur Back puis l’onglet install, rentrez l’adresse IP précédemment trouvée dans le champ Miner(s) et “admin” (ou “root”) dans le champs Password, c’est le mot de passe par défaut puis cliquez sur “Start”.
    Si l’installation ne fonctionne pas, ni avec “admin” ou “root” en Password il peut être nécessaire d’effectuer un reset factory puis essayer de nouveau.
 
 ![image](assets/software/8.jpeg)
@@ -245,7 +245,7 @@ La deuxième méthode utilise l’interface d’origine de votre Antminer. Cette
 
 ### Interface Antminer
 
-1. Télécharger le nouveau système d’exploitation à installer ici.
+1. Téléchargez le nouveau système d’exploitation à installer ici.
 2. Comme dans la section précédente, connectez vous à votre machine à travers votre réseau local.
 3. Allez dans l’onglet System puis Upgrade
 4. Chargez le fichier que vous avez téléchargé et flashez l’image.
@@ -260,7 +260,7 @@ Une seconde méthode vous permet d’utiliser une carte micro SD. Cette méthode
 
 2. Flashez l’image téléchargée sur une carte Micro SD. pour cela, vous pouvez utiliser Etcher. Simplement copier le fichier dans la carte micro SD ne fonctionnera pas.
 
-3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieur de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
+3. Si vous possédez un Antminer S9 et ses déclinaisons (S9i, S9j) vous devrez ajuster des “jumper” pour forcer votre ASIC à démarrer à partir du fichier contenu sur la carte micro SD plutôt que la NAND. Si vous avez un autre modèle, vous pouvez passer à la partie 4. Les jumpers se trouvent sur la carte de contrôle sur la partie supérieure de l’ASIC, à proximiter du port Ethernet. Vous devrez la retirer en la faisant glisser en arrière. Une fois la position du jumper modifiée comme sur les images ci-dessous BOOT FROM SD vous pouvez réinsérer la carte de contrôle et connecter le S9 à nouveau.
 
 ![image](assets/software/12.jpeg)
 
@@ -278,7 +278,7 @@ Vous devrez vous connecter à votre ASIC de façon similaire. En utilisant l’a
 Les identifiants par défaut sont les mêmes que le système d’exploitation d’origine.
 
 - username: root
-- password: 
+- password: root
 
 Vous serez alors accueilli par le Dashboard de Brains OS+
 
@@ -286,15 +286,15 @@ Vous serez alors accueilli par le Dashboard de Brains OS+
 
 ![image](assets/software/14.jpeg)
 
-Sur cette première pages vous pourrez observer les performances de votre machine en direct.
+Sur cette première page vous pourrez observer les performances de votre machine en direct.
 
-- Trois graphiques en temps réel qui vous présente la température, le hashrate ainsi que le statut global de votre machine.
-- Sur la droite le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
-- Au dessous la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
+- Trois graphiques en temps réel qui vous présentent la température, le hashrate ainsi que le statut global de votre machine.
+- Sur la droite: le hashrate réel, la température moyenne des puces, votre efficience estimée en W/THs ainsi que la consommation électrique.
+- Au-dessous: la vitesse de rotation des ventilateurs en pourcentage de la vitesse maximum ainsi que le nombre de rotations/minute.
 
 ![image](assets/software/15.jpeg)
 
-- Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
+- Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la composent, la tension et la fréquence.
 - Un détail sur les pools de minage active dans Pools.
 - Le statut de l’autotuning dans Tuner Status.
 - Sur la droite des détails sur les parts transmises à la pool.
@@ -313,7 +313,7 @@ Sur cette première pages vous pourrez observer les performances de votre machin
 
 Configuration d’une pool
 
-On peut imaginer une pool de minage comme une coopérative agricole. Les agriculteurs mettent en commun leur production pour réduire la variance de l’offre et de la demande et ainsi obtenir des revenus plus stables pour leur exploitation. Une pool de minage fonctionne de la même manière et la matière première mise en commun sont des hash. En effet, la découverte d’un seul hash valide permet la création d’un bloc et ainsi de remporter la coinbase ou la récompense aujourd’hui de 6,25 BTC plus les frais des transactions inclus dans le bloc. Si vous minez seul, vous ne serez récompensé que lorsque vous trouverez un bloc. Étant en compétition contre tous les autres mineurs de la planète, vous auriez donc très peu de chances de remporter ce grand loto et vous devriez malgré tout payer les frais associés à l’utilisation de votre mineur sans aucune garantie de réussite. Les pools de minage viennent répondre à cette problématique en mutualisant la puissance de calcul de plusieurs (milliers) de mineurs et en partageant la récompense de ces derniers en fonction du pourcentage de participation au hashrate de la pool lorsqu’un bloc a été trouvé. Pour visualiser vos chance de miner un block de miner un block seul vous pouvez utiliser cet outil. En rentrant les informations d’un Antminer S9 on voit que les chances de trouver un hash permettant la création d’un block sont de 1/24 777 849 chaque bloc ou de 1/ 172 068 par jour. Il faudrait en moyenne (avec un hashrate et une difficulté constante) 471 ans pour trouver un bloc.
+On peut imaginer une pool de minage comme une coopérative agricole. Les agriculteurs mettent en commun leur production pour réduire la variance de l’offre et de la demande et ainsi obtenir des revenus plus stables pour leur exploitation. Une pool de minage fonctionne de la même manière et la matière première mise en commun sont des hash. En effet, la découverte d’un seul hash valide permet la création d’un bloc et ainsi de remporter la coinbase ou la récompense aujourd’hui de 6,25 BTC plus les frais des transactions inclus dans le bloc. Si vous minez seul, vous ne serez récompensé que lorsque vous trouverez un bloc. Étant en compétition contre tous les autres mineurs de la planète, vous auriez donc très peu de chances de remporter ce grand loto et vous devriez malgré tout payer les frais associés à l’utilisation de votre mineur sans aucune garantie de réussite. Les pools de minage viennent répondre à cette problématique en mutualisant la puissance de calcul de plusieurs (milliers) de mineurs et en partageant la récompense de ces derniers en fonction du pourcentage de participation au hashrate de la pool lorsqu’un bloc a été trouvé. Pour visualiser vos chances de miner un block seul vous pouvez utiliser cet outil. En rentrant les informations d’un Antminer S9 on voit que les chances de trouver un hash permettant la création d’un block sont de 1/24 777 849 chaque bloc ou de 1/ 172 068 par jour. Il faudrait en moyenne (avec un hashrate et une difficulté constante) 471 ans pour trouver un bloc.
 
 Malgré tout, comme dans Bitcoin tout est probabilité, il arrive parfois que des “solo miner” soit récompensés pour cette prise de risque : Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
 
@@ -337,15 +337,15 @@ Ensuite copiez l’adresse Stratum ainsi que votre username :
 
 ![image](assets/software/20.jpeg)
 
-Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rentrer ces identifiant. Pour le mot de passe, vous pouvez laisser le champ vide.
+Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rentrer ces identifiants. Pour le mot de passe, vous pouvez laisser le champ vide.
 
 ![image](assets/software/21.jpeg)
 
 ### Overclocking et Underclocking
 
-L’overclocking et l’autotuning consiste tous les deux à ajuster les fréquences sur les cartes de hachage pour améliorer les performances de l’ASIC. La différence entre les deux réside dans la complexité de ces réglages de fréquence.
+L’overclocking et l’autotuning consistent tous les deux à ajuster les fréquences sur les cartes de hachage pour améliorer les performances de l’ASIC. La différence entre les deux réside dans la complexité de ces réglages de fréquence.
 
-L**overclocking** est un ajustement simple qui consiste à augmenter la fréquence sur les cartes de hachage pour augmenter le taux de hachage de la machine. L’underclocking, quant à lui, consiste à diminuer la fréquence d’horloge d’un circuit intégré en dessous de sa fréquence nominale En réduisant la fréquence d’horloge d’un ASIC par l’underclocking, on réduit également la chaleur générée par le matériel. Cela permet de diminuer la vitesse des ventilateurs nécessaires pour refroidir l’ASIC, car ils n’ont pas à travailler aussi dur pour maintenir une température appropriée. En réduisant la vitesse des ventilateurs, le bruit généré par l’ASIC est également réduit. Cela peut être particulièrement utile pour les utilisateurs qui utilisent des ASIC à la maison et qui cherchent à minimiser les perturbations sonores causées par le matériel de minage.
+L**overclocking** est un ajustement simple qui consiste à augmenter la fréquence sur les cartes de hachage pour augmenter le taux de hachage de la machine. L’underclocking, quant à lui, consiste à diminuer la fréquence d’horloge d’un circuit intégré en dessous de sa fréquence nominale. En réduisant la fréquence d’horloge d’un ASIC par l’underclocking, on réduit également la chaleur générée par le matériel. Cela permet de diminuer la vitesse des ventilateurs nécessaires pour refroidir l’ASIC, car ils n’ont pas à travailler aussi dur pour maintenir une température appropriée. En réduisant la vitesse des ventilateurs, le bruit généré par l’ASIC est également réduit. Cela peut être particulièrement utile pour les utilisateurs qui utilisent des ASIC à la maison et qui cherchent à minimiser les perturbations sonores causées par le matériel de minage.
 
 Il est important de noter que l’underclocking peut entraîner une réduction des performances de l’ASIC, il est donc important de trouver un bon équilibre entre les performances et le bruit.
 
@@ -370,9 +370,9 @@ En sortie d’usine, un mineur n’est pas vraiment utilisable comme radiateur d
 
 > ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.
 
-### Matériels nécessaires
+### Matériel nécessaire
 
-- 2 pièces 3D adapteur 140mm vers 120mm avec 8 visses de 16mm
+- 2 pièces 3D adaptateur 140mm vers 120mm avec 8 vis de 16mm
 - 2 ventilateurs Noctua NF-A14 iPPC-2000 PWM
 - 2 grilles de ventilateurs 140mm
 - 1 ventilateur Noctua NF-A6x25 FLX
@@ -403,20 +403,20 @@ Une fois le ventilateur d’origine retiré, vous remarquerez que les connecteur
 
 ![image](assets/hardware/5.jpeg)
 
-Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur en utilisant un sucre d’électricien. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur, attention à garder suffisamment de longueur sur chaque câbles.
+Si vous ne disposez pas de cet adaptateur, vous pouvez tout de même procéder au branchement du nouveau ventilateur en utilisant un sucre d’électricien. Pour cela, vous devrez couper les câbles de l’ancien et du nouveau ventilateur, attention à garder suffisamment de longueur sur chaque câble.
 
 ![image](assets/hardware/6.jpeg)
 ![image](assets/hardware/7.jpeg)
 
-Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les contours de la gaine principale à 1cm sans coupez les gaines des câbles en dessous.
+Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les contours de la gaine principale à 1cm sans couper les gaines des câbles en dessous.
 
 ![image](assets/hardware/8.jpeg)
 
-Puis en tirant la gaine principale vers le bas, coupez les gaines des câble rouge et noir de la même manière que précédemment. Et coupez le câble jaune à ras.
+Puis en tirant la gaine principale vers le bas, coupez les gaines des câbles rouge et noir de la même manière que précédemment. Et coupez le câble jaune à ras.
 
 ![image](assets/hardware/9.jpeg)
 
-Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des files rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs.
+Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des fils rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissée entre la gaine principale et les fils rouges et noirs.
 
 ![image](assets/hardware/10.jpeg)
 ![image](assets/hardware/11.jpeg)
@@ -425,12 +425,12 @@ Une fois les fils rouges et noirs dégagés, coupez les gaines toujours délicat
 
 ![image](assets/hardware/12.jpeg)
 
-Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
+Puis reliez les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
 
 ![image](assets/hardware/13.jpeg)
 ![image](assets/hardware/14.jpeg)
 
-Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisé plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur.
+Une fois le branchement effectué, il est temps de mettre en place le nouveau ventilateur Noctua avec la grille et les anciennes vis, les nouvelles vis qui sont dans la boîte seront réutilisées plus tard. Assurez-vous de le placer avec la bonne orientation. Vous remarquerez une flèche sur l’un des côtés du ventilateur, qui indique le sens du flux d’air. Il est important de placer le ventilateur de manière à ce que cette flèche pointe vers l’intérieur du boîtier. Puis rebranchez le ventilateur.
 
 ![image](assets/hardware/15.jpeg)
 ![image](assets/hardware/16.jpeg)
@@ -443,7 +443,7 @@ Une fois les branchements effectués, remettez bien le plastique du couvercle pa
 
 ![image](assets/hardware/18.jpeg)
 
-Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
+Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur!
 
 ### Remplacement des 2 ventilateurs principaux
 
@@ -456,12 +456,12 @@ Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur le
 ![image](assets/hardware/21.jpeg)
 
 3. C’est l’heure de l’installation des pièces 3D !
-   Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis sous rentrer dans la pièce 3D et que celle-ci soit bien maintenu en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
+   Fixez-les des deux côtés du mineur à l’aide des vis que vous avez retirées des ventilateurs. Vissez jusqu’à ce que la tête de vis soit rentrée dans la pièce 3D et que celle-ci soit bien maintenue en place. Attention à ne pas trop serrer, vous pourriez déformer la pièce et une des vis risque de toucher un condensateur ! Puis coupez délicatement les petites languettes en plastique pour que les connecteurs s’adaptent parfaitement à votre mineur.
 
 ![image](assets/hardware/22.jpeg)
 
 4. Passons maintenant aux ventilateurs.
-   Fixez-les sur les pièces 3D à l’aide des vis fournies la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
+   Fixez-les sur les pièces 3D à l’aide des vis fournies dans la boîte. Attention au sens de circulation de l’air, les flèches sur les côtés des ventilateurs vous indiqueront la direction à suivre. Allez du côté du port Ethernet à l’autre côté. Voir photo ci-dessous
 
 ![image](assets/hardware/23.jpeg)
 ![image](assets/hardware/24.jpeg)

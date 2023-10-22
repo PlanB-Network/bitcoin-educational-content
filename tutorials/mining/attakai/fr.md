@@ -8,11 +8,11 @@ description: transformation d'un S9 en chauffage maison
 
 # Attakai - le home-mining rendu possible et accessible !
 
-L'initiative "Attakaï" explore le minage de Bitcoin en utilisant la chaleur générée. Le guide propose des solutions pour rendre les mineurs adaptés à une utilisation en tant que radiateurs dans les logements, offrant ainsi plus de confort et d'économies d'énergie. Le Bitcoin ajuste automatiquement la difficulté du minage et récompense les mineurs pour leur travail. Cependant, la concentration du hashrate peut poser des risques pour la neutralité du réseau. "Attakaï" offre un guide pratique pour rétrofitter les mineurs de manière économique, permettant aux participants de réduire leur facture d'électricité et d'être récompensés avec des sats sans KYC.
+L'initiative "Attakaï" exploite le minage de Bitcoin en utilisant la chaleur générée. Le guide propose des solutions pour rendre les mineurs adaptés à une utilisation en tant que radiateurs dans les logements, offrant ainsi plus de confort et d'économies d'énergie. Le Bitcoin ajuste automatiquement la difficulté du minage et récompense les mineurs pour leur travail. Cependant, la concentration du hashrate peut poser des risques pour la neutralité du réseau. "Attakaï" offre un guide pratique pour rétrofitter les mineurs de manière économique, permettant aux participants de réduire leur facture d'électricité et d'être récompensés avec des sats sans KYC.
 
 ## Introduction
 
-“Attakaï », qui signifie « la température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur lancée par @ajelexBTC et @BlobOnChain avec Découvre Bitcoin. Ce guide de retrofitting d’un ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
+“Attakaï », qui signifie « la température idéale » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur lancée par @ajelexBTC et @BlobOnChain avec Découvre Bitcoin. Ce guide de retrofitting d’un ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
 
 ### Pourquoi réutiliser la chaleur d’un ASIC ?
 
@@ -20,17 +20,17 @@ Il est important de comprendre la relation entre l’énergie et la production d
 
 Pour un investissement de 1 kW d’énergie électrique, un radiateur électrique produit 1 kW de chaleur, ni plus ni moins. Les nouveaux radiateurs ne sont pas plus performants que les radiateurs traditionnels. Leur avantage réside dans leur capacité à diffuser la chaleur de manière continue et homogène dans une pièce, apportant ainsi plus de confort par rapport aux radiateurs traditionnels qui alternent entre une forte puissance de chauffage et une absence de chauffage, générant ainsi des variations de température régulières et de l’inconfort.
 
-Un ordinateur, ou plus largement une carte électronique, ne consomme pas d’énergie pour effectuer des calculs, il a simplement besoin que de l’énergie circule dans ses composants pour fonctionner. La consommation d’énergie est dû à la résistance électrique des composants qui produit des pertes créant ainsi de la chaleur c’est ce qu’on appel l’effet joule.
+Un ordinateur, ou plus largement une carte électronique, ne consomme pas d’énergie pour effectuer des calculs, il a simplement besoin que de l’énergie circule dans ses composants pour fonctionner. La consommation d’énergie est dûe à la résistance électrique des composants qui produit des pertes créant ainsi de la chaleur: c’est ce qu’on appelle l’effet joule.
 
-Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. La besoin des serveurs n’est pas liée au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.
+Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. Le besoin des serveurs n’est pas lié au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.
 
-> “La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générer cette chaleur avec votre ordinateur.Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double.
+> “La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générez cette chaleur avec votre ordinateur. Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double.
 > La création de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où le chauffage est électrique, où miner deviendrait gratuit.”
 > Satoshi Nakamoto – 8 août 2010
 
-Le Bitcoin et sa preuve de travail se démarquent car ils ajustent automatiquement la difficulté du minage en fonction de la quantité de calcul effectué par l’ensemble du réseau, cette quantité s’appelle le hashrate et est exprimé en hash/seconde. Aujourd’hui il est estimé à 280 Exahash/seconde, soit 280 milliards de milliards de hash/seconde. Ce hashrate représente du travail et donc une quantité d’énergie dépensée. Plus le hashrate est élevée, plus la difficulté augmente, et inversement. Ainsi, on peut activer ou désactiver un mineur Bitcoin à n’importe quel moment sans incidence pour le réseau contrairement aux radiateurs/serveurs qui nécessiterait de rester stables pour offrir leur service. Le mineur est récompensé pour le travail effectué relativement au travail des autres, aussi petite cette participation soit-elle.
+Le Bitcoin et sa preuve de travail se démarquent car ils ajustent automatiquement la difficulté du minage en fonction de la quantité de calcul effectuée par l’ensemble du réseau, cette quantité s’appelle le hashrate et est exprimée en hash/seconde. Aujourd’hui il est estimé à 280 Exahash/seconde, soit 280 milliards de milliards de hash/seconde. Ce hashrate représente du travail et donc une quantité d’énergie dépensée. Plus le hashrate est élevé, plus la difficulté augmente, et inversement. Ainsi, on peut activer ou désactiver un mineur Bitcoin à n’importe quel moment sans incidence pour le réseau contrairement aux radiateurs/serveurs qui nécessiteraient de rester stables pour offrir leur service. Le mineur est récompensé pour le travail effectué relativement au travail des autres, aussi petite cette participation soit-elle.
 
-En résumé, un radiateur électrique et un mineur Bitcoin produisent tout deux 1 kW de chaleur pour 1 kW d’électricité dépensée. Cependant, le mineur reçoit également des bitcoins en récompense. Indépendamment du prix de l’électricité, du prix du bitcoin ou de la concurrence de l’activité de minage sur le réseau Bitcoin, il est économiquement plus avantageux de se chauffer avec un mineur plutôt qu’avec un radiateur électrique.
+En résumé, un radiateur électrique et un mineur Bitcoin produisent tous deux 1 kW de chaleur pour 1 kW d’électricité dépensée. Cependant, le mineur reçoit également des bitcoins en récompense. Indépendamment du prix de l’électricité, du prix du bitcoin ou de la concurrence de l’activité de minage sur le réseau Bitcoin, il est économiquement plus avantageux de se chauffer avec un mineur plutôt qu’avec un radiateur électrique.
 
 ![Video présentation](https://youtu.be/gKoh44UCSnE)
 
@@ -48,7 +48,7 @@ Ce sujet pourrait devenir problématique et apporte un risque important pour la 
 
 **Si les mineurs sont répartis dans des milliers, voire des millions de logements à travers le monde, il devient très compliqué pour un État d’en prendre le contrôle.**
 
-À sa sortie d’usine, un mineur n’est pas approprié pour servir de radiateur dans un logement, en raison de deux problèmes principaux : un bruit excessif et l’absence de réglage. Cependant, ces problèmes peuvent être facilement résolus grâce à des modifications simples réalisées au hardware et au software, permettant d’obtenir un mineur beaucoup plus silencieux et pouvant être paramétré et automatisé comme les chauffages électriques modernes.
+À sa sortie d’usine, un mineur n’est pas approprié pour servir de radiateur dans un logement, en raison de deux problèmes principaux : un bruit excessif et l’absence de réglages. Cependant, ces problèmes peuvent être facilement résolus grâce à des modifications simples réalisées au hardware et au software, permettant d’obtenir un mineur beaucoup plus silencieux et pouvant être paramétré et automatisé comme les chauffages électriques modernes.
 
 **Attakaï est une initiative éducative qui vous apprend à effectuer un retrofitting de l’Antminer S9 de la manière la plus économique possible.**
 
@@ -56,13 +56,13 @@ C’est une excellente opportunité pour apprendre en pratiquant. En plus de ré
 
 ## Chapitre 1 : Guide d’achat pour un ASIC d’occasion
 
-Dans cet section nous allons voir les bonnes pratiques afin d’acheter un Bitmain Antminer S9 d’occasion, la machine sur laquelle ce tutoriel de retrofitting en radiateur sera basé. Ce guide fonctionne aussi pour d’autres modèles d’ASIC car il s’agit d’un guide d’achat général pour du matériel de minage d’occasion.
+Dans cette section nous allons voir les bonnes pratiques afin d’acheter un Bitmain Antminer S9 d’occasion, la machine sur laquelle ce tutoriel de retrofitting en radiateur sera basé. Ce guide fonctionne aussi pour d’autres modèles d’ASIC car il s’agit d’un guide d’achat général pour du matériel de minage d’occasion.
 
 Le Antminer S9 est un appareil proposé par Bitmain depuis mai 2016. Il consomme 1400W d’électricité et produit 14,5 TH/s. Bien qu’il soit considéré comme ancien, il reste une excellente option pour débuter le minage. Étant donné qu’il a été produit en grande quantité, il est facile de trouver des pièces détachées en abondance dans de nombreuses régions du monde. On peut généralement l’acquérir de façon pair à pair sur des sites tels qu’Ebay ou LeBonCoin, car les revendeurs s’adressant aux professionnels ne le proposent plus en raison de sa moindre compétitivité par rapport à des machines plus récentes. Il est moins efficient que des ASIC comme le Antminer S19, proposé depuis mars 2020, mais cela en fait un matériel d’occasion abordable et plus approprié pour les modifications que nous allons effectuer.
 
 Le Antminer S9 existe en plusieurs déclinaisons (i,j) qui apportent des modifications mineures au matériel de première génération. Nous ne pensons pas que cet élément devrait orienter votre décision d’achat et ce guide fonctionnera pour toutes ces déclinaisons.
 
-Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptible de changer très rapidement
+Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptibles de changer très rapidement
 
 ![image](assets/guide-achat/1.jpeg)
 
@@ -92,11 +92,11 @@ Le Antminer S9 est composé des parties suivantes :
 
 ![image](assets/guide-achat/7.jpeg)
 
-Lorsque vous achetez une machine d’occasion, il est important de vérifier que toutes les pièces sont incluses et fonctionnelles. Lors de l’échange, vous devriez demander au vendeur de mettre en marche la machine pour vérifier son bon fonctionnement. Il est important de vérifier que l’appareil s’allume correctement, puis de vérifier la connectivité à internet en branchant un câble Ethernet et en accédant à l’interface de connection de Bitmain via un navigateur internet sur le même réseau local. Vous pourrez trouver cette adresse IP en vous connectant à l’interface de votre routeur internet et en cherchant les appareils connectés. Cette adresse devrait avoir le format suivant : 192.168.x.x
+Lorsque vous achetez une machine d’occasion, il est important de vérifier que toutes les pièces sont incluses et fonctionnelles. Lors de l’échange, vous devriez demander au vendeur de mettre en marche la machine pour vérifier son bon fonctionnement. Il est important de vérifier que l’appareil s’allume correctement, puis de vérifier la connectivité à internet en branchant un câble Ethernet et en accédant à l’interface de connexion de Bitmain via un navigateur internet sur le même réseau local. Vous pourrez trouver cette adresse IP en vous connectant à l’interface de votre routeur internet et en cherchant les appareils connectés. Cette adresse devrait avoir le format suivant : 192.168.x.x
 
 ![image](assets/guide-achat/8.gif)
 
-Vérifiez également que les identifiants par défaut fonctionnent (identifiant : root, mot de passe : root). Si les identifiants par défaut ne fonctionne pas il faudra effectuer un reset de la machine.
+Vérifiez également que les identifiants par défaut fonctionnent (identifiant : root, mot de passe : root). Si les identifiants par défaut ne fonctionnent pas il faudra effectuer un reset de la machine.
 
 ![image](assets/guide-achat/9.jpeg)
 
@@ -117,13 +117,13 @@ Si vous êtes propriétaire d’un Antminer S9, vous savez probablement à quel 
 
 ### 1. Remplacer les ventilateurs
 
-Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser votre Antminer en chauffage. La solution est de les remplacer par des ventilateurs plus silencieux. Notre équipe a testé plusieurs modèles de la marque Noctua et à sélectionné le Noctua NF-A14 iPPC-2000 PWM comme le meilleur compromis, attention à bien choisir la version 12V des ventilateurs. Ce ventilateur de 140mm peut permettre de produire jusqu’à 1300W de chauffage tout en maintenant un niveau de bruit théorique de 31 dB. Pour pouvoir monter ces ventilateurs de 140mm, il faudra utiliser un adaptateur 140mm vers 120mm que vous pourrez retrouver sur la boutique de DécouvreBitcoin. Et nous ajouterons également des grilles de protection 140mm.
+Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser votre Antminer en chauffage. La solution est de les remplacer par des ventilateurs plus silencieux. Notre équipe a testé plusieurs modèles de la marque Noctua et a sélectionné le Noctua NF-A14 iPPC-2000 PWM comme le meilleur compromis, attention à bien choisir la version 12V des ventilateurs. Ce ventilateur de 140mm peut permettre de produire jusqu’à 1300W de chauffage tout en maintenant un niveau de bruit théorique de 31 dB. Pour pouvoir monter ces ventilateurs de 140mm, il faudra utiliser un adaptateur 140mm vers 120mm que vous pourrez retrouver sur la boutique de DécouvreBitcoin. Et nous ajouterons également des grilles de protection 140mm.
 
 ![image](assets/piece/1.jpeg)
 ![image](assets/piece/2.jpeg)
 ![image](assets/piece/3.jpeg)
 
-Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Attention!! il existe plusieurs model d’alimentation pour Antminer S9 avec des ventilateurs différents. prenez le temps de mesurer le diamétre de celui-ci. il devrais être de 60mm ou 40mm. Nous recommandons la marque Noctua NF-A6x25 FLX 12V ou NF-A4X20 FLX 12V. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffirons. Attention ici aussi à bien choisir la version 12V du ventilateur
+Le ventilateur de l’alimentation est également assez bruyant et doit être remplacé. Attention!! il existe plusieurs modèles d’alimentation pour Antminer S9 avec des ventilateurs différents. Prenez le temps de mesurer le diamétre de celui-ci. Il devrait être de 60mm ou 40mm. Nous recommandons la marque Noctua NF-A6x25 FLX 12V ou NF-A4X20 FLX 12V. Notez que les connecteurs des ventilateurs Noctua ne sont pas les mêmes que ceux d’origine, donc vous aurez besoin d’un sucre pour les connecter, 2 suffiront. Attention ici aussi à bien choisir la version 12V du ventilateur
 
 ![image](assets/piece/4.jpeg)
 ![image](assets/piece/5.jpeg)
@@ -165,7 +165,7 @@ Après avoir allumé le mineur pendant 2 minutes, veuillez appuyer sur le bouton
 
 ![image](assets/software/1.jpeg)
 
-Restore via web side
+### Réinitialiser via l'interface web
 
 Connectez-vous à l’interface utilisateur de votre mineur, cliquez sur « Upgrade » >> « Effectuer une réinitialisation », puis cliquez sur « OK » dans la fenêtre pop-up.
 
@@ -173,7 +173,7 @@ Connectez-vous à l’interface utilisateur de votre mineur, cliquez sur « Upgr
 
 Pour cette partie, nous supposerons que la machine fonctionne, est en marche et que son système d’exploitation d’origine est installé. Nous allons voir brièvement l’interface du système d’exploitation d’origine proposée par Bitmain.
 
-Tout d’abord, connectez vous à votre machine à travers votre réseau local :
+Tout d’abord, connectez-vous à votre machine à travers votre réseau local :
 
 ![image](assets/software/2.gif)
 
@@ -194,7 +194,7 @@ Dans l’onglet Miner Status vous pourrez observer différentes informations sur
 
 ### Braiins OS+
 
-Maintenant, nous allons étudier le logiciel pour ASICs Braiins OS+(https://braiins.com/os/plus). Le logiciel est développé par la société Braiins(https://braiins.com/) qui est l’entreprise mère de la pool de minage Braiins Pool'https://braiins.com/pool). Cette pool de minage possède au moment de l’écriture de ces lignes 4.39% du hashrate global( https://mempool.space/fr/mining/pool/slushpool). La société basée à Prague était anciennement nommée Slushpool et est la première pool de minage ayant débutée en novembre 2010. Aujourd’hui la société aux activités variées propose des outils d’étude de profitabilité pour le minage ( https://insights.braiins.com/en), des solutions de gestion de fermes de minage en parallèle de se son activité de pool et son logiciel d’optimisation pour ASICs. Elle propose aussi de miner à en utilisant le nouveau protocole Stratum V2(https://braiins.com/bitcoin-mining-stack-upgrade).
+Maintenant, nous allons étudier le logiciel pour ASICs Braiins OS+(https://braiins.com/os/plus). Le logiciel est développé par la société Braiins(https://braiins.com/) qui est l’entreprise mère de la pool de minage Braiins Pool'https://braiins.com/pool). Cette pool de minage possède au moment de l’écriture de ces lignes 4.39% du hashrate global( https://mempool.space/fr/mining/pool/slushpool). La société basée à Prague était anciennement nommée Slushpool et est la première pool de minage ayant débuté en novembre 2010. Aujourd’hui la société aux activités variées propose des outils d’étude de profitabilité pour le minage ( https://insights.braiins.com/en), des solutions de gestion de fermes de minage en parallèle de son activité de pool et son logiciel d’optimisation pour ASICs. Elle propose aussi de miner en utilisant le nouveau protocole Stratum V2(https://braiins.com/bitcoin-mining-stack-upgrade).
 
 Nous allons donc étudier plus en détail le fonctionnement des appareils de la marque Bitmain qui sont pour l’instant les seuls modèles compatibles :
 

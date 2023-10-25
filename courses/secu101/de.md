@@ -16,12 +16,9 @@ Dies wird durch die Implementierung mehrerer Tools erreicht, wie z.B. einer sich
 In diesem Training geht es nicht darum, Sie zu einem Experten, Anonymen oder Unangreifbaren zu machen, dies ist unmöglich. Stattdessen bieten wir Ihnen einfache und für alle zugängliche Lösungen an, um Ihre Online-Gewohnheiten zu transformieren und die Kontrolle über Ihre digitale Souveränität zurückzugewinnen.
 
 Teammitglieder:
-
-- Renaud Lifchitz; Professor
-- Théo Pantamis; Professor
-- Muriel; Design
-- Rogzy Noury & Fabian; Produktion
-- Théo; Beitrag
+Muriel; Design
+Rogzy Noury & Fabian; Produktion
+Théo; Beitrag
 
 +++
 

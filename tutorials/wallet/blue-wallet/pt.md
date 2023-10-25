@@ -17,7 +17,7 @@ A Blue Wallet é uma carteira de código aberto para Bitcoin que é extremamente
 
 ## BlueWallet: uma introdução
 
-![imagem](assets/1.jpg)
+![imagem](assets/1.jpeg)
 
 Para poder receber ou enviar Bitcoin do seu celular (ou tablet), baixe a BlueWallet do site correspondente ao seu tipo de celular ou tablet:
 

@@ -3,8 +3,6 @@ name: Watch Tower
 description: Comprendere e utilizzare una torre di guardia
 ---
 
-> Crediti a: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
-
 ## Come funzionano le torri di guardia?
 
 Parte essenziale dell'ecosistema della Lightning Network, le torri di guardia offrono un grado extra di protezione ai canali di lightning degli utenti. La loro principale responsabilità è monitorare la salute dei canali e intervenire se una delle parti del canale cerca di truffare l'altra.
@@ -71,6 +69,6 @@ Una volta fatto ciò, dovresti essere pronto per eseguire la torre. Dato che sti
 
 Dato che stiamo utilizzando regtest, possiamo estrarre blocchi emettendo un comando RPC, senza dover aspettare i 10 minuti di tempo mediano che di solito vediamo in altre reti (come mainnet o testnet). Controlla l'aiuto di bitcoin-cli e cerca come estrarre blocchi. Se hai bisogno di aiuto, puoi consultare questo articolo.
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 Ecco fatto, hai eseguito con successo la torre. Congratulazioni. 🎉

@@ -3,8 +3,6 @@ name: Watch Tower
 description: Compreendendo e usando uma torre de observação
 ---
 
-> Crédito para: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
-
 ## Como as torres de observação funcionam?
 
 Parte essencial do ecossistema da Lightning Network, as torres de observação fornecem um grau extra de proteção aos canais de raio dos usuários. Sua principal responsabilidade é monitorar a saúde dos canais e intervir se uma das partes do canal tentar fraudar a outra.
@@ -71,6 +69,6 @@ Depois de fazer isso, você estará pronto para executar a torre. Como estamos e
 
 Como estamos executando no regtest, podemos minerar um bloco emitindo um comando RPC, sem precisar esperar pelo tempo médio de 10 minutos que normalmente vemos em outras redes (como mainnet ou testnet). Verifique a ajuda do bitcoin-cli e procure como minerar blocos. Se precisar de ajuda, você pode ler este artigo.
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 É isso, você executou a torre com sucesso. Parabéns. 🎉

@@ -3,8 +3,6 @@ name: Watch Tower
 description: Verständnis und Nutzung eines Wachturms
 ---
 
-> Quelle: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
-
 ## Wie funktionieren Wachtürme?
 
 Als wesentlicher Bestandteil des Lightning-Netzwerks bieten Wachtürme einen zusätzlichen Schutz für die Lightning-Kanäle der Benutzer. Ihre Hauptaufgabe besteht darin, die Gesundheit der Kanäle im Auge zu behalten und einzugreifen, wenn eine Partei versucht, die andere zu betrügen.
@@ -71,6 +69,6 @@ Sobald Sie das erledigt haben, sollten Sie bereit sein, den Tower auszuführen. 
 
 Da wir auf regtest laufen, können wir einen Block abbauen, indem wir einen RPC-Befehl ausführen, ohne auf die 10-minütige Medianzeit warten zu müssen, die wir normalerweise in anderen Netzwerken (wie Mainnet oder Testnet) sehen. Überprüfen Sie die Hilfe von bitcoin-cli und suchen Sie nach Informationen zum Blockabbau. Wenn Sie Hilfe benötigen, können Sie diesen Artikel durchgehen.
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 Das war's, Sie haben den Tower erfolgreich ausgeführt. Herzlichen Glückwunsch. 🎉

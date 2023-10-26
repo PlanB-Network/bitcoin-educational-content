@@ -3,8 +3,6 @@ name: Torre de Vigilancia
 description: Comprender y utilizar una torre de vigilancia
 ---
 
-> Crédito a: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
-
 ## ¿Cómo funcionan las torres de vigilancia?
 
 Parte esencial del ecosistema de la Lightning Network, las torres de vigilancia brindan un grado adicional de protección a los canales de rayos de los usuarios. Su principal responsabilidad es vigilar la salud de los canales e intervenir si una de las partes del canal intenta defraudar a la otra.
@@ -71,6 +69,6 @@ Una vez que hayas hecho eso, deberías estar listo para ejecutar la torre. Dado 
 
 Dado que estamos ejecutando en regtest, podemos minar un bloque emitiendo un comando RPC, sin necesidad de esperar los 10 minutos de tiempo medio que normalmente vemos en otras redes (como mainnet o testnet). Consulta la ayuda de bitcoin-cli y busca cómo minar bloques. Si necesitas ayuda, puedes consultar este artículo.
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 Eso es todo, has ejecutado la torre con éxito. ¡Felicidades! 🎉

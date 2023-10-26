@@ -3,6 +3,12 @@ name: Tour de guet
 description: Comprendre et utiliser une tour de guet
 ---
 
+## Comment fonctionnent les tours de guet ?
+
+Partie essentielle de l'écosystème du Lightning Network, les tours de guet offrent un degré supplémentaire de protection aux canaux de foudre des utilisateurs. Leur principale responsabilité est de surveiller la santé des canaux et d'intervenir si l'une des parties du canal tente de tromper l'autre.
+
+Comment une tour de guet peut-elle déterminer si un canal a été compromis ? La tour de guet reçoit les informations dont elle a besoin du client, l'une des parties du canal, afin d'identifier et de répondre correctement à toute violation. Les détails de la transaction la plus récente, l'état actuel du canal et les informations nécessaires pour créer des transactions de pénalité sont fréquemment incluses dans ces informations. Avant de transmettre les données à la tour de guet, le client peut les chiffrer pour protéger la vie privée et la confidentialité. Cela empêche la tour de guet de déchiffrer les données chiffrées à moins qu'une violation n'ait réellement eu lieu, même si elle obtient les données. La vie privée du client est protégée par ce système de chiffrement, qui empêche également la tour de guet d'accéder à des données privées sans autorisation.
+
 JohnOnChain nous partage ses connaissances :
 
 - https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md
@@ -10,14 +16,6 @@ JohnOnChain nous partage ses connaissances :
 - https://twitter.com/JohnOnChain/status/1420399995556188168?t=PxNgD4EFsDR_t-YntfYDQQ&s=19
 
 ![vidéo tuto de johnOnChain](https://tube.nuagelibre.fr/videos/watch/eb4065e5-cf0a-427e-96a9-1638f2efb91f)
-
-> Crédit à : https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
-
-## Comment fonctionnent les tours de guet ?
-
-Partie essentielle de l'écosystème du Lightning Network, les tours de guet offrent un degré supplémentaire de protection aux canaux de foudre des utilisateurs. Leur principale responsabilité est de surveiller la santé des canaux et d'intervenir si l'une des parties du canal tente de tromper l'autre.
-
-Comment une tour de guet peut-elle déterminer si un canal a été compromis ? La tour de guet reçoit les informations dont elle a besoin du client, l'une des parties du canal, afin d'identifier et de répondre correctement à toute violation. Les détails de la transaction la plus récente, l'état actuel du canal et les informations nécessaires pour créer des transactions de pénalité sont fréquemment incluses dans ces informations. Avant de transmettre les données à la tour de guet, le client peut les chiffrer pour protéger la vie privée et la confidentialité. Cela empêche la tour de guet de déchiffrer les données chiffrées à moins qu'une violation n'ait réellement eu lieu, même si elle obtient les données. La vie privée du client est protégée par ce système de chiffrement, qui empêche également la tour de guet d'accéder à des données privées sans autorisation.
 
 ## Comment configurer votre propre Eye of Satoshi et commencer à contribuer
 
@@ -79,6 +77,6 @@ Une fois que vous avez fait cela, vous devriez être prêt à exécuter la tour.
 
 Étant donné que nous fonctionnons sur regtest, nous pouvons extraire un bloc en émettant une commande RPC, sans avoir besoin d'attendre les 10 minutes de temps médian que nous voyons habituellement dans d'autres réseaux (comme mainnet ou testnet). Consultez l'aide de bitcoin-cli et recherchez comment extraire des blocs. Si vous avez besoin d'aide, vous pouvez consulter cet article.
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 C'est tout, vous avez réussi à exécuter la tour. Félicitations. 🎉

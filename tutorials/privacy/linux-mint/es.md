@@ -1,5 +1,5 @@
 ---
-name: Instalación de Linux Mint
+name: Linux Mint
 
 description: Configurar una computadora para transacciones de Bitcoin
 ---

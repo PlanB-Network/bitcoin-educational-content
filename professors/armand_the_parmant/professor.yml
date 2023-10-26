@@ -7,9 +7,10 @@ links:
   Nostr: npub1ltt9gry09lf2z6396rvzmk2a8wkh3yx5xhgkjzzg5znh62yr53rs0hk97y
   website: https://armantheparman.com/mint/
 
+
+tips:
+  lightning_address: dandysack84@walletofsatoshi.com
+
 tags:
   - bitcoin
   - lightning-network
-
-tips:
-  lightning_adress: dandysack84@walletofsatoshi.com

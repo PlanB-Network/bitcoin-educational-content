@@ -17,7 +17,7 @@ Blue Wallet è un portafoglio Bitcoin open-source estremamente semplice da usare
 
 ## BlueWallet: una introduzione
 
-![image](assets/1.jpg)
+![image](assets/1.jpeg)
 
 Per poter ricevere o inviare Bitcoin dal tuo cellulare (o tablet), scarica BlueWallet dal sito corrispondente al tuo tipo di cellulare o tablet:
 

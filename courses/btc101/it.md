@@ -1,7 +1,7 @@
 ---
 name: Il percorso di Bitcoin
 goal: Scoprire Bitcoin e i suoi fondamenti con la sua proposta di valore monetario, i minatori, le transazioni e i portafogli.
-obiettivi:
+objectives:
   - Avere una comprensione generale della tecnologia Bitcoin
   - Comprendere come acquistare e proteggere i propri bitcoin
   - Avere una comprensione generale della tecnologia Blockchain

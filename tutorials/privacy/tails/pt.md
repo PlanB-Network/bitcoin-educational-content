@@ -4,8 +4,6 @@ name: Tails
 description: Instalar o Tails em um pendrive
 ---
 
-_**Guia proposto por Hari Seldon como parte do Agora256**_
-
 ![image](assets/cover.jpeg)
 
 Um sistema operacional portátil e amnésico que protege você contra vigilância e censura.
@@ -151,5 +149,3 @@ Depois de ter experimentado um pouco mais com a sua própria pen USB Tails, expl
 
 > Atualizar uma chave com a versão mais recente do Tails; Configurar e usar armazenamento persistente; Instalar software adicional.
 > Até lá, como sempre, se você tiver alguma dúvida, não hesite em compartilhá-la com a comunidade Agora256, estamos aprendendo juntos, para sermos melhores amanhã do que somos hoje!
-
-> _**Guia proposto por Hari Seldon como parte do Agora256; post original: https://agora256.com/installer-tails-usb/**_

@@ -4,8 +4,6 @@ name: Tails
 description: Install Tails on a USB key
 ---
 
-_**Guide proposed by Hari Seldon as part of Agora256**_
-
 ![image](assets/cover.jpeg)
 
 A portable and amnesic operating system that protects you against surveillance and censorship.
@@ -151,5 +149,3 @@ Once you have experimented a bit more with your own Tails USB stick, we will exp
 
 > Update a key with the latest version of Tails; Configure and use persistent storage; Install additional software.
 > Until then, as always, if you have any questions, feel free to share them with the Agora256 community. We are learning together to be better tomorrow than we are today!
-
-> _**Guide proposed by Hari Seldon as part of Agora256; original post: https://agora256.com/installer-tails-usb/**_

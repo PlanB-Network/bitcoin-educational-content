@@ -766,46 +766,57 @@ Most of the concepts, ideas, and actions proposed in this lesson (6.1 BRH) come 
 
 ![pamela morgan](assets/heritage/0.jpeg)
 
-In this lesson, we will only focus on the first part of her book. I will embody the role of a typical Bitcoin user to create their own letter of succession. The process will be simple for now, and we will create a more complex version with different types of profiles later. We will follow the journey of Cedric:
+In this lesson, we will only focus on the first part of her book. I will embody the role of a typical Bitcoin user to create their own letter of succession. The process will be simple for now, and we will create a more complex version with different types of profiles later.
+
+Let's follow Cédric's journey:
 
 - Long-term investor.
-- Trusted Person | High | High | Private Key Access | This person should have a high level of trust, knowledge in BTC, and access to your private key. |
-  | Technical Advisor | High | High | Technical Knowledge | This person should have a high level of trust, knowledge in BTC, and be able to provide technical advice. |
-  | Third-Party Organization | Medium | Medium | Legal and Planning Services | If needed, you can also involve a third-party organization specialized in legal and inheritance planning services. |
+- Holder of a physical portfolio and a mobile portfolio.
+- User of a single exchange platform with identity verification (KYC).
+- Introduced to Bitcoin by his cousin.
+- Does not own smart contracts, Lightning Network (LN), or alt-coins.
 
-### Étape 2 : Documenter vos actifs et vos procédures
+### Prerequisites:
 
-Il est essentiel de documenter vos actifs et vos procédures pour que vos héritiers puissent les récupérer en toute sécurité. Voici les informations clés à inclure :
+I request 30 minutes of your time, not for myself or for you, but for your loved ones. Estate planning is a difficult subject, often denied and forgotten. As it is the last task to be completed, too many people get distracted and end up foolishly losing all their BTC. So, dedicate 30 minutes and do it. It's the FINAL STEP!
 
-1. Liste de vos portefeuilles physiques et mobiles.
-2. Liste des plateformes d'échange utilisées avec les identifiants de connexion.
-3. Procédures pour récupérer vos phrases secrètes (seeds) et vos clés privées.
-4. Instructions pour la récupération des actifs en cas de décès ou d'incapacité.
+What do you need?
 
-Il est recommandé de conserver ces informations dans un endroit sûr et de les mettre à jour régulièrement. Vous pouvez utiliser les feuilles de papier et les enveloppes mentionnées précédemment pour cette étape.
+- A moment of tranquility, without distractions
+- 4-5 sheets of white paper
+- A pen
+- Two envelopes
+- A phone/address book
+- A computer (optional in my opinion)
 
-### Étape 3 : Communiquer et tester
+![pamela morgan](assets/heritage/1.JPG)
 
-Une fois que vous avez documenté vos actifs et vos procédures, il est important de communiquer ces informations à vos personnes de confiance et de les tester pour vous assurer qu'elles comprennent bien le processus de récupération. Voici quelques étapes à suivre :
+According to Pamela Morgan in "Cryptoasset Inheritance Planning" on page 18, common misconceptions are:
 
-1. Organisez une réunion avec vos personnes de confiance pour leur expliquer les détails de votre planification successorale.
-2. Fournissez-leur les documents et les instructions nécessaires.
-3. Demandez-leur de répéter les étapes de récupération pour s'assurer qu'ils savent comment procéder.
+- I need to hire a lawyer.
+- I need to trust a third party.
+- Planning will make my assets easy to steal.
+- The value of my cryptocurrency is too low to be planned.
+- My heirs will figure everything out on their own.
+- All of this can be done with a simple smart contract.
 
-Il est également recommandé de prévoir des mises à jour régulières avec vos personnes de confiance pour vous assurer que vos procédures restent à jour et que vos actifs sont en sécurité.
+### Step 1: Select the right people to help your heirs
 
-### Étape 4 : Réviser et mettre à jour régulièrement
+It is necessary to designate two people who will assist your family when you are no longer here. This way, your loved ones will have a trusted Bitcoin user who is technologically up-to-date to rely on during the recovery process. These individuals can:
 
-La planification successorale n'est pas une tâche ponctuelle, mais un processus continu. Il est important de réviser et de mettre à jour régulièrement vos documents et vos procédures pour refléter les changements dans vos actifs et vos préférences. Voici quelques moments clés pour réviser votre planification :
+- Provide advice on key and wallet management.
+- Help understand how to safely recover your secret phrases (seeds).
+- Provide assurance during a transaction.
 
-1. Lorsque vous ajoutez de nouveaux actifs ou portefeuilles.
-2. Lorsque vous modifiez vos procédures de récupération.
-3. Lorsque vous changez vos personnes de confiance.
+There will always be a trade-off between technical expertise, availability, and trust. If you are unsure who should take on this role, create a simple table to help you decide.
 
-En révisant et en mettant à jour régulièrement votre planification successorale, vous vous assurez que vos actifs sont protégés et que vos héritiers peuvent les récupérer en toute sécurité.
-| My brother Bob | Very tall | Low | Phone & email | "Bob doesn't know much about BTC, but we can trust him 100% to help." || My cousin Nathan | Tall | Medium | Phone & insta | #1 person to talk to. He can help you. He is up to date. |
-| Ricco (Crypto friend) | Medium | Very tall | Twitter & email & photo| Trust him with technical questions. Never with money. You will need to contact him. |
-| YouTuber & influencer | Low | Tall | YouTube link | Educate yourself by following him. He cannot help you directly. |
+Separation of responsibilities: The trusted person should NEVER have access to your private key. Their sole role is to help your loved ones understand the security system of your Bitcoins and gain confidence. That's why you choose two trusted individuals. If necessary, you can also turn to a third-party organization (specialized lawyer or estate planning services).
+
+| Trusted Person | Trust | BTC Knowledge | Trust Info | Note |
+| -------------- | ----- | ------------- | ---------- | ---- |
+| My brother Bob         | Very tall  | Short               | Phone & email          | "Bob doesn't know much about BTC, but we can trust him 100% to help." || My cousin Nathan       | Tall        | Medium              | Phone & insta          | #1 person to talk to. He can help you. He is informed.                                        |
+| Ricco (Crypto friend)  | Medium      | Very tall           | Twitter & email & photo | Trust him with technical questions. Never with money. You will need to contact him.           |
+| YouTuber & influencer  | Short       | Tall                | YouTube link           | Educate yourself by following him. He cannot help you directly.                               |
 
 ### Step 2: Perform a simple and quick inventory
 
@@ -817,11 +828,11 @@ It is important to think about all the places where you have dollars or BTC:
 
 Consider how you have secured them and where these backups are stored. It is not essential to have two backup locations at this time. The goal is to take an instant snapshot of your CURRENT security. We can improve it later! This is just a first version to ensure your security for now, we will go into more detail later.
 
-| General           | Software / Hardware | Assets     | Location          | Backup (private key)   | Password (PIN, passphrase) | Note                                                                                           |
-| ----------------- | ------------------- | ---------- | ----------------- | ---------------------- | -------------------------- | ---------------------------------------------------------------------------------------------- |
-| Exchange platform | Bitstamp            | BTC & Cash | Accessible online | -                      | Home & Bank vault          | This is where I bought and transferred my Bitcoins. I log in using a password manager and 2FA. |
-| Physical wallet   | Trezor model One    | BTC        | Secure            | Uncle Bob & Bank vault | Home & Mother              | I have two wallets, one regular and one with a passphrase.                                     |
-| Samourai wallet   | Mobile - One Plus 6 | BTC        | On me             | Uncle Bob & Bank vault | Home & Mother              | The app could be in hidden mode.                                                               |
+| General               | Software / Hardware | Assets        | Location             | Backup (private key)            | Password (PIN, passphrase)     | Note                                                                                                                        |
+| --------------------- | ------------------- | ------------- | --------------------- | -------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Exchange platform     | Bitstamp            | BTC & Cash    | Accessible online.   | -                                | Home & Bank vault              | This is where I bought and transferred my Bitcoins. I log in using a password manager and 2FA.                             |
+| Physical wallet       | Trezor model One    | BTC           | Secure                | Uncle Bob & Bank vault           | Home & Mother                  | I have two wallets, one regular and one with a passphrase.                                                                  |
+| Samourai wallet       | Mobile - One Plus 6 | BTC           | On me                 | Uncle Bob & Bank vault           | Home & Mother                  | The app could be in hidden mode.                                                                                             |
 
 DO NOT GET DISTRACTED! You may feel the need to transfer these assets to:
 
@@ -846,12 +857,12 @@ The letter should be clear and helpful. It is not a will, nor a letter to make t
 
 Here is an excerpt from the letter template to a loved one, taken from Appendix E of Pamela Morgan's book, "Cryptoasset Inheritance Planning". To adapt it to our example, I have modified certain passages, which I have placed in parentheses and marked in blue. The rest of the text is the original text from the book. (Translated by Discover Bitcoin)
 
-![pamela morgan](assets/heritage/0.jpeg)
+![pamela morgan](assets/heritage/0.JPG)
 
-"Date: 26/06/2020
+"Date: 06/26/2020
 Dear Liz & Maia,
 I love you deeply and I know you will be strong.
-I am writing this letter to let you know that I own cryptoassets that may have value.
+I am writing this letter to let you know that I own cryptoassets that could have value.
 Please read this letter carefully and in its entirety before taking any action. These assets are different from other assets, as once they are transferred, there is no way to recover them."
 
 Next, we include the "advisors section". This part can be confusing for your heirs, especially if you mention people or organizations they are not familiar with. Be specific about:
@@ -861,14 +872,13 @@ Next, we include the "advisors section". This part can be confusing for your hei
 - What their areas of expertise are.
 - How they can educate themselves.
 
-"Below is a list of people I trust to answer your questions and assist you in the process of discovering and transferring these assets. Contact the individuals listed, but do not rely on a single person to manage the process. Be vigilant with all advisors, including those on this list. Everyone can make mistakes, so make sure you understand what they are doing as best as you can and don't be afraid to ask questions and verify the answers for yourself.
+"Below is a list of people I trust to answer your questions and assist you in the process of discovering and transferring these assets. Contact the individuals listed, but do not rely on a single person to manage the process. Be vigilant with all advisors, including those on this list. Everyone can make mistakes, so make sure you understand what they are doing to the best of your ability and don't be afraid to ask questions and verify the answers for yourself.
 
 Here are the people who can help you answer questions and guide you through this process:
 
 (Insert the names of your advisors here, their affiliation with an organization (if applicable), their contact information, and how they should verify their identity, for example, keybase, photos.)
-
-- My brother Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. You can trust Bob to help you in this process. Although he may not be the most technically skilled, he is the right person to question everything and exercise caution to ensure your success safely. • My cousin Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. It was Nathan who introduced me to Bitcoin. He is very knowledgeable in technology and can answer most of your questions. He also owns some bitcoins and can guide you technically. You have seen him several times at family gatherings, and I have included a photo of him here.
-- Ricco; @RiccoSFC on Twitter; Ricco425@protonmail.com. I have been working closely with Ricco for many years. You have never met him, so make sure you talk to the right person by asking him "What is Cédric's dog's name". If he answers "12", it's good. Ricco is a very friendly and knowledgeable Bitcoin expert. He will answer all your questions and you can rely on his judgment regarding the security of bitcoins. Don't hesitate to contact him, I have met him several times and he is aware of everything concerning you and Maia.
+- My brother Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. You can trust Bob to help you in this process. Although he may not be the most technically skilled, he is the right person to question everything and exercise caution to ensure your success safely. • My cousin Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. It was Nathan who introduced me to Bitcoin. He is very knowledgeable in technology and can answer most of your questions. He also owns some bitcoins and can guide you on the technical side. You have seen him several times at family gatherings, and I have included a photo of him here.
+- Ricco; @RiccoSFC on Twitter; Ricco425@protonmail.com. I have been working closely with Ricco for many years. You have never met him, so make sure you are talking to the right person by asking him "What is Cédric's dog's name?" If he answers "12", it's good. Ricco is a very friendly and knowledgeable expert in Bitcoin. He will answer all your questions and you can rely on his judgment regarding the security of bitcoins. Don't hesitate to contact him, I have met him several times and he is aware of everything concerning you and Maia.
 - It may seem strange, but contact all of them. Additionally, you can educate yourself by listening to Andreas Antonopoulos on YouTube and buying the book "Cryptoasset Inheritance Planning" by Pamela Morgan."
 
 And now, we add the Inventory section. Start by listing your devices and the places where you hold bitcoins.
@@ -879,14 +889,14 @@ And now, we add the Inventory section. Start by listing your devices and the pla
 - Secret phrase (passphrase)
 - Multisig
 
-When mentioning the location where the backup is stored, use a general location, not a specific address. If you own anything other than bitcoins, please let me know.
+When mentioning the location where the backup is stored, use a general location, not a specific address. If you own anything other than bitcoins, please let us know.
 
 "Below is a list of the devices, software, and wallets I use to access these assets. Please store all these devices in a safe place and keep them until the assets are transferred to my heirs. Do not allow anyone to access them unsupervised.
 
 (Insert your crypto asset inventory here)
 
-- "I have used my phone (Samsung Galaxy S8) to access my Samourai wallet. The private key protecting the wallet is stored in the bank's safe deposit box, and another copy is with Uncle Bob. The PIN code to unlock my phone and the wallet is kept at home and at my grandmother's.
-- I use my 2018 Dell computer to access an online exchange platform called Bitstamp. I may still have Bitcoins or dollars on this platform. To access my account, you will need to contact them directly or log in to my account (please be aware that this may be illegal - check your local legislation).
+- "I have used my phone (Samsung Galaxy S8) to access my Samourai wallet. The private key protecting the wallet is stored in the bank vault and another copy is with Uncle Bob. The PIN code to unlock my phone and the wallet is kept at home and at my grandmother's.
+- I use my 2018 Dell computer to access an online exchange platform called Bitstamp. I may still have Bitcoins or dollars on this platform. To access my account, you will need to contact them directly or log in to my account (be careful, this may be illegal - check your local legislation).
 - I used a password manager to access it, and you will find my backup in the bank vault. The account is also protected by two-factor authentication, which you can access through my phone (Samsung Galaxy S8) or by using the backup code stored at home.
 - I also have BTC on a Trezor Model One device. I access it through my PC and the Trezor.io website. The backup private keys are stored in the bank vault and with Uncle Bob. The PIN code is kept at home and with my mother. The device itself is probably in a safe at my office.
 - I use an advanced security passphrase for my Trezor device. The backup of this passphrase is located at home and with my mother."
@@ -895,14 +905,14 @@ Now let's conclude the letter with some legal information if necessary, as well 
 
 "Please note: You will find a copy of my will, dated April 17, 2018, in my document folder. My lawyer, Dwight Schrute, based in Scranton, Pennsylvania, also has a copy. Be cautious and always remember my love for you." 06/26/2023, Cedric"
 
-Now let's check our work (Based on "Cryptoasset Inheritance Planning" by Pamela Morgan, page 44 (translated by Découvre Bitcoin)):
+Now let's review our work (Based on "Cryptoasset Inheritance Planning" by Pamela Morgan, page 44 (translated by Découvre Bitcoin)):
 
 - Help: Make sure you have provided names, contact information, and if possible, photos.
 - Devices: Make sure you have listed your phone, computer, physical wallets, and paper wallets.
 - Assets: Make sure you have included a list of your assets.
 - Exchanges: Check that you have listed all the exchanges that hold funds for you.
 - Access: List the information they will need to find your storage location and all necessary access codes.
-  If you have checked all the boxes, then you are ready for the final steps! Make a copy of this letter and keep both copies in an envelope. Seal it, sign the seal, and store this envelope in a safe but accessible place. Make sure your heirs know that they need to retrieve this envelope if necessary. Feel free to buy Pamela's book to delve deeper into this subject and plan a time to improve your inheritance plan. Also, discuss it with your notary to legally incorporate this plan into your official will.
+If you have checked all the boxes, then you are ready for the final steps! Make a copy of this letter and keep both copies in an envelope. Seal it, sign the seal, and store this envelope in a safe but accessible place. Make sure your heirs know that they need to retrieve this envelope if necessary. Feel free to buy Pamela's book to delve deeper into this subject and plan a time to improve your inheritance plan. Also, discuss it with your notary to legally incorporate this plan into your official will.
 
 Congratulations! You have a first version of your inheritance plan, and it's a great start!
 
@@ -916,19 +926,17 @@ You are the best :D My team and my students also thank you!
 If you have been following our content from the beginning, you are now a true citizen of the 21st century and one of the most experienced in the field of Bitcoin! You use a password manager and two-factor authentication (2FA). You understand what Bitcoin is and why it is important. You own Bitcoins and have a safe way to buy or earn more. You have stored your Bitcoins in a "cold" wallet and have implemented proper key management. You have created an inheritance plan for your loved ones. You are now secure and can relax! Enjoy a beer and be proud of yourself!
 
 I am truly proud that you have reached this stage. I sincerely mean it. What to do next? While you should definitely relax now and be proud of yourself, your journey with Bitcoin is far from over, and it will never really be. Here are some options for what's next:
-
-1. You could simply continue as you have done so far. Keep accumulating bitcoins gradually and let your strategy unfold over time. You already have a sufficient level of security, everything is in place, and you have done what was necessary for yourself and your family. You don't need to become a trading expert, and you don't need to know much more about investing. You probably have a job on the side, and even though Bitcoin is exciting, your main goal was to reach this stage. This is the case for the majority of you, and I respect that. I am very happy that you have made it this far down the Bitcoin "rabbit hole," and I hope the journey has been enjoyable. Thank you for trusting me to help secure your first bitcoins.
+1. You could simply continue as you have done so far. Keep accumulating bitcoins slowly and let your strategy unfold over time. You already have a sufficient level of security, everything is in place, and you have done what was necessary for yourself and your family. You don't need to become a trading expert, and you don't need to know much more about investing. You probably have a job on the side, and even though Bitcoin is exciting, your main goal was to reach this stage. This is the case for the majority of you, and I respect that. I am very happy that you have made it this far down the Bitcoin "rabbit hole," and I hope the journey has been enjoyable. Thank you for trusting me to help secure your first bitcoins.
 
 2. You may want to continue educating yourself on the technical, ideological, and philosophical aspects of Bitcoin. If you feel like your journey is just beginning, I encourage you to continue learning about Bitcoin. There is so much to learn that it is sometimes difficult to know where to start. Here is a list of courses and training that could accompany you:
 
 - Bitcoin node and Lightning Network: The Lightning Network, as we have already seen several times, brings a whole new vision of what Bitcoin is. Through this second layer, the possibilities are numerous, and an entire industry is being built on top of it. To accompany you in the discovery, I invite you to take LN 201 for a theoretical course or LN 202 for a practical course. Both courses are accessible to everyone at this stage of your learning and can help you better understand this new aspect of Bitcoin.
-- Austrian economics: If economics and finance are subjects that interest you, then the ECON 201 course is probably the right one to explore the deeper aspects of Austrian economics. There, you will discover this economic school of thought that opposes the more traditional Keynesianism. It is a good start to question our system and understand how we got here from a perspective of inflation and monetary manipulation.
-- Merchant solution: Finally, if you are more inclined to actually use Bitcoin, you can go to our tutorials section and explore the many solutions for merchants. This can offer you opportunities in our field, but also allow you to help your business or friends accept Bitcoin in their commerce and thus create a local economy based on Bitcoin in your city!
+- Austrian economics: If economics and finance are subjects that interest you, then the ECON 201 course is probably the right one to explore the deeper aspects of Austrian economics. There, you will discover this economic school of thought that opposes the more traditional Keynesianism. It is a good starting point to question our system and understand how we got here from a perspective of inflation and monetary manipulation.
+- Merchant solution: Finally, if you are more inclined to actually use Bitcoin, you can go to our tutorials section and explore the many solutions for merchants. This can offer you opportunities in our field, but also help your business or friends accept Bitcoin in their commerce and thus create a local economy based on Bitcoin in your city!
 
 In any case, all our courses are free, and many resources or tutorials are available on our platform to accompany you. Good luck with your studies!
 
 ## Note the course!
 
 ## Support the course!
-
 Go further

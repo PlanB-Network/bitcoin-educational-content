@@ -1,7 +1,7 @@
 question: A capacidade de um canal de pagamento Lightning limita o número total de transações ou o volume total de Bitcoin que pode ser transmitido através do canal?
-answer: falso
+answer: Não
 wrong_answers:
-  - verdadeiro
+  - Sim
   - Apenas em alguns casos
   - Depende da rede Bitcoin
 explanation: |

@@ -1,7 +1,7 @@
 question: ¿Se puede hacer trampa publicando un estado antiguo en una transacción de compromiso?
-answer: Sí.
+answer: Sí
 wrong_answers:
-  - No.
+  - "No"
   - Solo si tienen la clave de revocación.
   - Solo si crearon la transacción con el bloqueo de tiempo.
 explanation: |

@@ -1,7 +1,7 @@
 question: ¿Es una frase de contraseña más segura que una contraseña simple?
-answer: verdadero
+answer: Sí
 wrong_answers:
-  - falso
+  - "No"
   - Depende de la longitud de la contraseña
   - Depende de la complejidad de la contraseña
 explanation: |

@@ -1,7 +1,7 @@
 question: Est-ce que l'utilisation d'une adresse Bitcoin permet d'économiser de l'espace dans les blocs ?
-answer: faux
+answer: Non
 wrong_answers:
-  - vrai
+  - Oui
   - Seulement si l'adresse est compressée
   - Seulement si l'adresse est hachée
 explanation: |

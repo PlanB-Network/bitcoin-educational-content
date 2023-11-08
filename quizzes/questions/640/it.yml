@@ -1,7 +1,7 @@
 question: La capacità di un canale di pagamento Lightning è fissa?
-answer: vero
+answer: Sì
 wrong_answers:
-  - falso
+  - "No"
   - Solo in alcuni casi
   - Dipende dalla rete Bitcoin
 explanation: |

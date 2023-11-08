@@ -1,7 +1,7 @@
 question: Ist eine Passphrase sicherer als ein einfaches Passwort?
-answer: wahr
+answer: Ja
 wrong_answers:
-  - falsch
+  - Nein
   - Es hängt von der Länge des Passworts ab.
   - Es hängt von der Komplexität des Passworts ab.
 explanation: |

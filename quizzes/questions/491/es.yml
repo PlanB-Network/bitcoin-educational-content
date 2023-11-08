@@ -1,7 +1,7 @@
 question: ¿Se recomienda memorizar una frase de contraseña o frase mnemotécnica para una billetera de Bitcoin?
-answer: falso
+answer: "No"
 wrong_answers:
-  - verdadero
+  - Sí
   - Depende de la longitud de la frase de contraseña o frase mnemotécnica
   - Depende de la complejidad de la frase de contraseña o frase mnemotécnica
 explanation: |

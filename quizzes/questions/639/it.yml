@@ -1,7 +1,7 @@
 question: I canali di pagamento Lightning sono bidirezionali?
-answer: vero
+answer: Sì
 wrong_answers:
-  - falso
+  - "No"
   - Solo in alcuni casi
   - Dipende dalla rete Bitcoin
 explanation: |

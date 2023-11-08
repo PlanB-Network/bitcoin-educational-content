@@ -1,7 +1,7 @@
 question: Usar um endereço Bitcoin não economiza espaço nos blocos.
-answer: falso
+answer: Não
 wrong_answers:
-  - verdadeiro
+  - Sim
   - Apenas se o endereço estiver comprimido
   - Apenas se o endereço estiver hashado
 explanation: |

@@ -1,7 +1,7 @@
 question: É possível trapacear publicando um estado antigo em uma transação de compromisso?
-answer: Sim.
+answer: Sim
 wrong_answers:
-  - Não.
+  - Não
   - Apenas se eles tiverem a chave de revogação.
   - Apenas se eles criaram a transação com o Timelock.
 explanation: |

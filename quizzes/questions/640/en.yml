@@ -1,7 +1,7 @@
 question: Is the capacity of a Lightning payment channel fixed?
-answer: true
+answer: "Yes"
 wrong_answers:
-  - false
+  - "No"
   - Only in some cases
   - It depends on the Bitcoin network
 explanation: |

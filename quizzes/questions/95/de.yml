@@ -1,5 +1,5 @@
 question: Was ist das Risiko bei der Verwendung einer Multisig-Wallet?
-answer: - Nicht genügend verschiedene Teile des Multisig-Backups zugreifen zu können
+answer: Nicht genügend verschiedene Teile des Multisig-Backups zugreifen zu können
 wrong_answers:
   - Zugriff auf ausreichend verschiedene Teile des Multisig-Backups zu haben
   - Schlüssel mit anderen Parteien teilen

@@ -1,5 +1,5 @@
 question: Welche Blockgröße wird bei HMAC-SHA-512 verwendet?
-answer: - 1024-Bit (128-Byte) Blöcke
+answer: 1024-Bit (128-Byte) Blöcke
 wrong_answers:
   - 512-Bit (64-Byte) Blöcke
   - 256-Bit (32-Byte) Blöcke

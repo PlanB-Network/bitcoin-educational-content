@@ -1,5 +1,5 @@
 question: ¿Cuáles son las características de una frase de contraseña efectiva para una billetera de Bitcoin?
-answer: - Larga (de 20 a 40 caracteres) y diversificada (usando letras mayúsculas, letras minúsculas, números y símbolos)
+answer: Larga (de 20 a 40 caracteres) y diversificada (usando letras mayúsculas, letras minúsculas, números y símbolos)
 wrong_answers:
   - Corta y simple
   - Larga y simple

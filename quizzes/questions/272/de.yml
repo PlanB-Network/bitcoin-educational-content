@@ -1,0 +1,9 @@
+question: Was ist eine der grundlegenden Maßnahmen zur Verbesserung der Online-Sicherheitsgewohnheiten?
+answer: Aktivieren Sie die Zwei-Faktor-Authentifizierung (2FA).
+wrong_answers:
+  - Verwenden Sie dasselbe Passwort für alle Konten
+  - Vernachlässigen Sie regelmäßige Datensicherungen
+  - Teilen Sie Ihre Passwörter
+explanation: |
+  Die Aktivierung der Zwei-Faktor-Authentifizierung (2FA) ist eine der grundlegenden Maßnahmen zur Verbesserung der Online-Sicherheitsgewohnheiten. Sie bietet eine zusätzliche Sicherheitsebene für Ihre sensibelsten Konten.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a principal vantagem do Bitcoin em relação às contas bancárias tradicionais?
+answer: Controle total sobre o seu dinheiro
+wrong_answers:
+  - Taxas de juros mais altas
+  - Taxas de transação mais baixas
+  - Tempos de transação mais rápidos
+explanation: |
+  O capítulo explica que o Bitcoin oferece uma alternativa poderosa aos sistemas financeiros tradicionais. Ele permite que todos preservem sua privacidade, se protejam contra a inflação e a desvalorização da moeda, evitem regimes autoritários e recuperem a soberania sobre seu dinheiro.
+reviewed: false

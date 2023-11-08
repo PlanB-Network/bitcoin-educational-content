@@ -1,0 +1,9 @@
+question: Qual é um golpe comum relacionado a concursos online ou doações no setor de criptomoedas?
+answer: Anúncios prometendo bitcoins gratuitos.
+wrong_answers:
+  - Anúncios prometendo bens físicos.
+  - Anúncios prometendo moeda fiduciária gratuita.
+  - Anúncios prometendo software gratuito.
+explanation: |
+  Golpes relacionados a concursos online ou doações são muito comuns no setor de criptomoedas. Anúncios prometendo bitcoins gratuitos são frequentemente usados para enganar usuários inexperientes.
+reviewed: false

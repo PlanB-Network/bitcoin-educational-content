@@ -1,0 +1,9 @@
+question: ¿Cuál es la característica principal de una billetera DIY (Hazlo tú mismo)?
+answer: Es una solución de código abierto al 100% que se puede crear en casa para reducir los riesgos de confianza hacia otros actores en la cadena de producción o creación.
+wrong_answers:
+  - Es un dispositivo de hardware para almacenar bitcoins.
+  - Es un software para minar bitcoins.
+  - Es una plataforma para comprar y vender bitcoins.
+explanation: |
+  El contenido del capítulo explica que las billeteras DIY (Hazlo tú mismo) son soluciones de código abierto al 100% que se pueden crear en casa para reducir los riesgos de confianza hacia otros actores en la cadena de producción o creación.
+reviewed: false

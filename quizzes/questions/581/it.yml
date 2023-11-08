@@ -1,0 +1,9 @@
+question: Qual è il principale limite delle classiche tabelle dell'iperinflazione?
+answer: Escludono determinati periodi storici di alta inflazione a causa di criteri di classificazione rigorosi.
+wrong_answers:
+  - Includono troppi episodi di inflazione che non si qualificano come iperinflazione.
+  - Sono obsolete e non applicabili alle economie moderne.
+  - Non tengono conto dell'impatto dell'inflazione sull'economia.
+explanation: |
+  Le classiche tabelle dell'iperinflazione, come la tabella Hanke-Krus, spesso escludono determinati periodi storici di alta inflazione a causa di criteri di classificazione rigorosi, come la soglia di inflazione mensile del 50% stabilita dalla definizione di Cagan.
+reviewed: false

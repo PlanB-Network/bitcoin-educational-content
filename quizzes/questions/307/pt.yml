@@ -1,0 +1,9 @@
+question: Qual é o principal risco de deixar seus bitcoins em uma plataforma de câmbio?
+answer: A plataforma pode ser hackeada, apreendida, falir ou simplesmente desaparecer com o seu dinheiro.
+wrong_answers:
+  - O preço do Bitcoin pode cair repentinamente.
+  - A plataforma pode aumentar suas taxas.
+  - A plataforma pode limitar a quantidade de bitcoins que você pode comprar ou vender.
+explanation: |
+  O conteúdo do capítulo alerta que as plataformas de câmbio apresentam riscos significativos e devem ser evitadas o máximo possível. Elas podem ser hackeadas, apreendidas, falir ou simplesmente desaparecer com o seu dinheiro.
+reviewed: false

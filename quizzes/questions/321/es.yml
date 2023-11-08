@@ -1,0 +1,9 @@
+question: ¿Qué significa DCA en el contexto de la inversión en Bitcoin?
+answer: Promedio de Costo en Dólares
+wrong_answers:
+  - Adquisición Directa de Moneda
+  - Asignación de Monedas Digitales
+  - Activo Criptográfico Descentralizado
+explanation: |
+  El Promedio de Costo en Dólares (DCA) es una estrategia en la que divides la cantidad total que deseas invertir en compras periódicas para reducir el impacto de la volatilidad.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is the main risk of leaving your bitcoins on an exchange platform?
+answer: The platform can be hacked, seized, go bankrupt, or simply disappear with
+  your money
+wrong_answers:
+  - The price of Bitcoin can suddenly drop
+  - The platform can increase its fees
+  - The platform can limit the number of bitcoins you can buy or sell
+explanation: |
+  The chapter content warns that exchange platforms present significant
+  risks and should be avoided as much as possible. They can be hacked, seized, go
+  bankrupt, or simply disappear with your money.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est la principale raison de la perte de bitcoins selon le chapitre ?
+answer: Mauvaise gestion de la sécurité en ligne
+wrong_answers:
+  - Escroqueries liées aux cryptomonnaies
+  - Escroqueries financières
+  - Défaillance de l'ordinateur
+explanation: |
+  Le chapitre mentionne que, en plus des escroqueries liées aux cryptomonnaies et des escroqueries financières, la principale raison de la perte de bitcoins est liée à une mauvaise gestion de la sécurité en ligne.
+reviewed: false

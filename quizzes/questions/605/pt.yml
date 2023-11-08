@@ -1,0 +1,9 @@
+question: Qual é o impacto da hiperinflação no valor do dinheiro?
+answer: Isso faz com que o dinheiro perca rapidamente o seu valor.
+wrong_answers:
+  - Isso faz com que o dinheiro aumente de valor.
+  - Não tem impacto no valor do dinheiro.
+  - Isso faz com que o valor do dinheiro flutue de forma imprevisível.
+explanation: |
+  Em um período de hiperinflação, o dinheiro perde rapidamente o seu valor, tornando o planejamento de longo prazo difícil.
+reviewed: false

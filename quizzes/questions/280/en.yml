@@ -1,0 +1,12 @@
+question: What is the golden rule of investing?
+answer: Never invest more than you can afford to lose.
+wrong_answers:
+  - Always invest in what is trendy.
+  - Always invest with borrowed money.
+  - Always invest in what you don't understand.
+explanation: |
+  The golden rule of investing is to never invest more than you can afford
+  to lose. This is because investing always carries a certain level of risk, and you
+  should only invest money that you can afford to lose without it affecting your financial
+  stability.
+reviewed: false

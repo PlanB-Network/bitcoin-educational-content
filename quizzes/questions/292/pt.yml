@@ -1,0 +1,9 @@
+question: Qual é o objetivo das carteiras de Bitcoin?
+answer: Para enviar e receber bitcoins
+wrong_answers:
+  - Para minerar bitcoins
+  - Para armazenar bitcoins físicos
+  - Para converter bitcoins em outras moedas
+explanation: |
+  As carteiras de Bitcoin são usadas para enviar e receber bitcoins. Elas são carteiras digitais que armazenam as credenciais digitais necessárias para acessar um endereço de bitcoin e gastar os bitcoins.
+reviewed: false

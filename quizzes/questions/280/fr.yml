@@ -1,0 +1,9 @@
+question: Quelle est la règle d'or de l'investissement ?
+answer: Ne jamais investir plus que ce que vous pouvez vous permettre de perdre.
+wrong_answers:
+  - Toujours investir dans ce qui est à la mode.
+  - Toujours investir avec de l'argent emprunté.
+  - Toujours investir dans ce que vous ne comprenez pas.
+explanation: |
+  La règle d'or de l'investissement est de ne jamais investir plus que ce que vous pouvez vous permettre de perdre. Cela est dû au fait que l'investissement comporte toujours un certain niveau de risque, et vous ne devriez investir que l'argent que vous pouvez vous permettre de perdre sans que cela n'affecte votre stabilité financière.
+reviewed: false

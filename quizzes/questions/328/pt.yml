@@ -1,0 +1,9 @@
+question: Qual é o risco de não possuir a chave privada da sua carteira de Bitcoin?
+answer: Seus bitcoins estão sujeitos a riscos como hacking, apreensão, regulamentação ou falência.
+wrong_answers:
+  - Seus bitcoins serão automaticamente convertidos para outra criptomoeda.
+  - Seus bitcoins perderão seu valor.
+  - Seus bitcoins serão transferidos para outra carteira.
+explanation: |
+  Se você não possui a chave privada da sua carteira de Bitcoin, seus bitcoins estão sujeitos a riscos como hacking, apreensão, regulamentação ou falência.
+reviewed: false

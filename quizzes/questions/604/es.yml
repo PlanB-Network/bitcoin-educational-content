@@ -1,0 +1,9 @@
+question: ¿Cuál es el término para una empresa que continúa operando principalmente a través de préstamos de bajo costo, a pesar de estar insolvente o cerca de la quiebra bajo condiciones normales de mercado?
+answer: Empresa zombie
+wrong_answers:
+  - Empresa fantasma
+  - Empresa vampiro
+  - Empresa fantasma
+explanation: |
+  Una empresa zombie es una empresa que, bajo condiciones normales de mercado, estaría insolvente o cerca de la quiebra, pero continúa operando principalmente a través de préstamos de bajo costo.
+reviewed: false

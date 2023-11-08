@@ -1,0 +1,9 @@
+question: Quel est le nom de la bande dessinée recommandée pour ceux qui s'intéressent à l'expérience allemande après la Première Guerre mondiale ?
+answer: Le Banquier du Reich
+wrong_answers:
+  - Le Dollar du Reich
+  - L'Inflation du Reich
+  - L'Économie du Reich
+explanation: |
+  Pour ceux qui s'intéressent à l'expérience allemande après la Première Guerre mondiale, la conférence recommande la bande dessinée "Le Banquier du Reich". Elle raconte comment l'Allemagne a réussi à surmonter l'hyperinflation, notamment grâce à la création du Rentenmark.
+reviewed: false

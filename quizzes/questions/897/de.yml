@@ -1,0 +1,9 @@
+question: Was passiert, wenn es aufgrund einer Zunahme der Ersparnisse zu einem Rückgang der Zinssätze gemäß der österreichischen Theorie des Konjunkturzyklus kommt?
+answer: Die Menge der konsumierten Endprodukte wird abnehmen, die Zinssätze werden fallen, Unternehmer werden diesen Kapitalzufluss nutzen, um neue Investitionsgüter zu schaffen und somit die Produktionsstruktur zu verlängern.
+wrong_answers:
+  - Die Menge der konsumierten Endprodukte wird zunehmen, die Zinssätze werden steigen, Unternehmer werden diesen Kapitalzufluss nutzen, um neue Investitionsgüter zu schaffen und somit die Produktionsstruktur zu verkürzen.
+  - Die Menge der konsumierten Endprodukte wird abnehmen, die Zinssätze werden steigen, Unternehmer werden diesen Kapitalzufluss nutzen, um neue Investitionsgüter zu schaffen und somit die Produktionsstruktur zu verkürzen.
+  - Die Menge der konsumierten Endprodukte wird zunehmen, die Zinssätze werden fallen, Unternehmer werden diesen Kapitalzufluss nutzen, um neue Investitionsgüter zu schaffen und somit die Produktionsstruktur zu verkürzen.
+explanation: |
+  Gemäß der österreichischen Theorie des Konjunkturzyklus wird bei einem Rückgang der Zinssätze aufgrund einer Zunahme der Ersparnisse die Menge der konsumierten Endprodukte abnehmen, da Sparen bedeutet, einen Teil des Konsums auf einen späteren Zeitpunkt zu verschieben. Als Folge davon werden die Zinssätze fallen, da das Angebot an Kapital zunimmt. Dies ermöglicht es Unternehmern, diesen Kapitalzufluss zu nutzen, um neue Investitionsgüter zu schaffen und somit die Produktionsstruktur zu verlängern.
+reviewed: false

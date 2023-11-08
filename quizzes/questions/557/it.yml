@@ -1,0 +1,9 @@
+question: Qual è la definizione di inflazione secondo Robert?
+answer: L'inflazione è un aumento eccessivo degli strumenti di pagamento che provoca un aumento dei prezzi e una svalutazione della valuta.
+wrong_answers:
+  - L'inflazione è una diminuzione degli strumenti di pagamento che provoca un aumento dei prezzi e una svalutazione della valuta.
+  - L'inflazione è un aumento eccessivo degli strumenti di pagamento che provoca una diminuzione dei prezzi e una svalutazione della valuta.
+  - L'inflazione è un aumento eccessivo degli strumenti di pagamento che provoca un aumento dei prezzi e un'apprezzamento della valuta.
+explanation: |
+  Secondo Robert, l'inflazione è definita come un aumento eccessivo degli strumenti di pagamento (banconote, capitale) che provoca un aumento dei prezzi e una svalutazione della valuta.
+reviewed: false

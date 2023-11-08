@@ -1,0 +1,9 @@
+question: Quel est le but d'un gestionnaire de mots de passe dans Bitcoin?
+answer: Le but d'un gestionnaire de mots de passe dans Bitcoin est de stocker et gérer de manière sécurisée les mots de passe pour les transactions Bitcoin.
+wrong_answers:
+  - Pour miner de nouveaux Bitcoins.
+  - Pour échanger des Bitcoins.
+  - Pour convertir des Bitcoins en d'autres cryptomonnaies.
+explanation: |
+  Un gestionnaire de mots de passe est une application logicielle utilisée pour stocker et gérer les mots de passe d'une personne pour différents comptes en ligne. Dans le contexte de Bitcoin, il est utilisé pour stocker et gérer de manière sécurisée les mots de passe pour les transactions Bitcoin.
+reviewed: false

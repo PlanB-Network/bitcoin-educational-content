@@ -1,0 +1,12 @@
+question: What is the main limitation of the classic tables of hyperinflation?
+answer: They exclude certain historical periods of high inflation due to strict classification
+  criteria
+wrong_answers:
+  - They include too many episodes of inflation that do not qualify as hyperinflation
+  - They are outdated and not applicable to modern economies
+  - They do not take into account the impact of inflation on the economy
+explanation: |
+  Classic tables of hyperinflation, such as the Hanke-Krus table, often
+  exclude certain historical periods of high inflation due to strict classification
+  criteria, such as the 50% monthly inflation threshold stipulated by Cagan's definition.
+reviewed: false

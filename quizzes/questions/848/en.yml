@@ -1,0 +1,13 @@
+question: Why is it not recommended to use browser extensions for automatic password
+  filling?
+answer: They can make the user more vulnerable to phishing attacks, increase the attack
+  surface, and slow down browser performance.
+wrong_answers:
+  - They are difficult to use.
+  - They are not compatible with all browsers.
+  - They require a lot of storage space.
+explanation: |
+  Browser extensions for automatic password filling can make the user more
+  vulnerable to phishing attacks. They also tend to increase the attack surface and
+  can slow down browser performance, thus presenting a significant risk.
+reviewed: false

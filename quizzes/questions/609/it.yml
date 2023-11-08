@@ -1,0 +1,9 @@
+question: Qual era la banconota di valore più alto in Brasile prima dell'ultima riconversione nel 1994?
+answer: 500.000
+wrong_answers:
+  - 1.000.000
+  - 250.000
+  - 100.000
+explanation: |
+  La banconota di valore più alto in Brasile raggiungeva i 500.000, e l'ultima riconversione nel 1994 è stata effettuata al tasso di 2.750 a 1.
+reviewed: false

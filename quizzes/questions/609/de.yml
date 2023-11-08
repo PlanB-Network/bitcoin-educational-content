@@ -1,0 +1,9 @@
+question: Was war der höchste Nennwert einer Banknote in Brasilien vor ihrer letzten Währungsumstellung im Jahr 1994?
+answer: 500.000
+wrong_answers:
+  - 1.000.000
+  - 250.000
+  - 100.000
+explanation: |
+  Der höchste Nennwert einer Banknote in Brasilien betrug 500.000, und die letzte Währungsumstellung im Jahr 1994 erfolgte im Verhältnis von 2.750 zu 1.
+reviewed: false

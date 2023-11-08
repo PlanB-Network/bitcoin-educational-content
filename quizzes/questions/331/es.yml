@@ -1,0 +1,9 @@
+question: ¿Cuál es la billetera recomendada para que un Hodler comience?
+answer: Una billetera fría como Bitbox02, Trezor o Ledger.
+wrong_answers:
+  - Una aplicación móvil de billetera caliente.
+  - Una billetera física.
+  - Una billetera de papel.
+explanation: |
+  Para un Hodler, es recomendable comenzar con una billetera fría como Bitbox02, Trezor o Ledger. Estos dispositivos ofrecen seguridad para los bitcoins a largo plazo.
+reviewed: false

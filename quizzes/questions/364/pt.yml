@@ -1,0 +1,9 @@
+question: Quais são algumas das carteiras que um Bitcoiner paranóico pode usar?
+answer: Carteira Samourai para carteira quente, Coldcard e/ou Seed Signer para carteira fria
+wrong_answers:
+  - Carteira Coinbase para carteira quente, Ledger para carteira fria
+  - Carteira Binance para carteira quente, Trezor para carteira fria
+  - PayPal para carteira quente, Conta bancária para carteira fria
+explanation: |
+  O capítulo menciona a carteira Samourai para carteira quente e Coldcard e/ou Seed Signer para carteira fria como carteiras que um Bitcoiner paranóico pode usar.
+reviewed: false

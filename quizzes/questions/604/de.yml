@@ -1,0 +1,9 @@
+question: Wie lautet der Begriff für ein Unternehmen, das trotz Insolvenz oder drohendem Bankrott unter normalen Marktbedingungen hauptsächlich durch kostengünstige Kreditaufnahme weiterhin tätig ist?
+answer: Zombie-Unternehmen
+wrong_answers:
+  - Geisterunternehmen
+  - Vampir-Unternehmen
+  - Phantom-Unternehmen
+explanation: |
+  Ein Zombie-Unternehmen ist ein Unternehmen, das unter normalen Marktbedingungen insolvent oder von Bankrott bedroht wäre, aber hauptsächlich durch kostengünstige Kreditaufnahme weiterhin tätig ist.
+reviewed: false

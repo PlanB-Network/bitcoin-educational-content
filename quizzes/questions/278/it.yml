@@ -1,0 +1,10 @@
+question: Qual è il rischio associato alla conservazione dei Bitcoin su una piattaforma di scambio?
+answer: La piattaforma potrebbe fallire, i tuoi Bitcoin potrebbero essere confiscati o la piattaforma potrebbe essere hackerata.
+wrong_answers:
+  - La piattaforma potrebbe aumentare le sue commissioni, i tuoi Bitcoin potrebbero perdere valore o la piattaforma potrebbe essere hackerata.
+  - La piattaforma potrebbe fallire, i tuoi Bitcoin potrebbero aumentare di valore o la piattaforma potrebbe essere hackerata.
+  - La piattaforma potrebbe fallire, i tuoi Bitcoin potrebbero essere confiscati o la piattaforma potrebbe aumentare le sue commissioni.
+explanation: |
+  Conservare i Bitcoin su una piattaforma di scambio comporta rischi come il fallimento della piattaforma, la confisca dei tuoi Bitcoin o l'hacking della piattaforma.
+  Ecco perché è importante avere il controllo sulla tua chiave privata.
+reviewed: false

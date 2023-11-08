@@ -1,0 +1,9 @@
+question: Qual è il ruolo principale dei minatori nella rete Bitcoin?
+answer: Essi garantiscono la sicurezza della rete eseguendo i processi di proof-of-work di Bitcoin.
+wrong_answers:
+  - Creano nuovi bitcoin
+  - Regolano il prezzo di Bitcoin
+  - Controllano la rete Bitcoin
+explanation: |
+  Il contenuto del capitolo spiega che i minatori sono responsabili della sicurezza della rete Bitcoin. Utilizzano l'elettricità per eseguire i processi di proof-of-work di Bitcoin, che creano un nuovo blocco.
+reviewed: false

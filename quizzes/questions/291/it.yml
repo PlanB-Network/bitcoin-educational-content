@@ -1,0 +1,10 @@
+question: Cos'è la blockchain di Bitcoin?
+answer: Una base di dati che registra tutte le transazioni di Bitcoin
+wrong_answers:
+  - Un tipo di valuta digitale
+  - Una rete di utenti di Bitcoin
+  - Un metodo per estrarre Bitcoin
+explanation: |
+  La blockchain di Bitcoin è una base di dati che registra tutte le transazioni di Bitcoin.
+  È mantenuta dai minatori che aggiungono nuove transazioni alla blockchain.
+reviewed: false

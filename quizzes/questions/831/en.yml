@@ -1,0 +1,11 @@
+question: What is the purpose of implementing 2FA?
+answer: To protect your online accounts against unauthorized access.
+wrong_answers:
+  - To make it harder for you to access your own account
+  - To track your online activities
+  - To increase the speed of your internet connection
+explanation: |
+  2FA adds an extra layer of security to your online accounts. Even if
+  a hacker obtains your password, they will not be able to access your account without
+  the second verification factor.
+reviewed: false

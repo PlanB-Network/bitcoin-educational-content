@@ -1,0 +1,16 @@
+question: What is the underlying cause of hyperinflation that redenomination does
+  not address?
+answer: The expansion of the money supply.
+wrong_answers:
+  - The decrease in the money supply.
+  - The increase in the demand for goods and services.
+  - The decrease in the demand for goods and services.
+explanation: |
+  The root cause of hyperinflation is the expansion of the money supply.
+
+  Redenomination is a common measure taken by governments during periods of inflation,
+
+  but it does not solve this underlying problem. It is only a way to rename the currency
+
+  and remove zeros.'
+reviewed: false

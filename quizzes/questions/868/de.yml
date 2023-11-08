@@ -1,0 +1,9 @@
+question: Was ist das Prinzip der Mindestreservepolitik?
+answer: Die Mindestreservepolitik ist eine Bankpraxis, bei der Banken nicht verpflichtet sind, so viele Reserven zu halten, wie sie an Einlagen erhalten, was ihnen ermöglicht, neue Kaufkraft bei der Vergabe von Krediten zu schaffen.
+wrong_answers:
+  - Die Mindestreservepolitik ist eine Bankpraxis, bei der Banken verpflichtet sind, mehr Reserven zu halten, als sie an Einlagen erhalten.
+  - Die Mindestreservepolitik ist eine Bankpraxis, bei der Banken nicht berechtigt sind, Kredite zu vergeben.
+  - Die Mindestreservepolitik ist eine Bankpraxis, bei der Banken genau den gleichen Betrag an Reserven halten müssen, wie sie an Einlagen erhalten.
+explanation: |
+  Die Mindestreservepolitik ist ein System, bei dem Banken nur einen Bruchteil der Einlagen ihrer Kunden als Reserve halten und den Rest verleihen. Dieses System ermöglicht es den Banken, neues Geld in Form von Krediten zu schaffen, was die Gesamtgeldmenge in der Wirtschaft erhöht.
+reviewed: false

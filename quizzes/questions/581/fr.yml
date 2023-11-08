@@ -1,0 +1,9 @@
+question: Quelle est la principale limitation des tableaux classiques d'hyperinflation ?
+answer: Ils excluent certaines périodes historiques de forte inflation en raison de critères de classification stricts.
+wrong_answers:
+  - Ils incluent trop d'épisodes d'inflation qui ne sont pas qualifiés d'hyperinflation.
+  - Ils sont obsolètes et ne s'appliquent pas aux économies modernes.
+  - Ils ne tiennent pas compte de l'impact de l'inflation sur l'économie.
+explanation: |
+  Les tableaux classiques d'hyperinflation, tels que le tableau Hanke-Krus, excluent souvent certaines périodes historiques de forte inflation en raison de critères de classification stricts, tels que le seuil d'inflation mensuelle de 50% stipulé par la définition de Cagan.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Qual foi a solução adotada pelo Zimbábue para combater a inflação?
+answer: Dolarização
+wrong_answers:
+  - Imprimir mais dinheiro
+  - Introduzir uma nova moeda
+  - Diminuir a oferta de dinheiro
+explanation: |
+  O Zimbábue adotou a dolarização para combater a inflação. Isso significa que eles
+  adotaram o dólar dos Estados Unidos ou outras moedas de países vizinhos, o que impede
+  o governo de imprimir dinheiro à vontade.
+reviewed: false

@@ -1,0 +1,10 @@
+question: What is the official threshold for a country to be considered in hyperinflation?
+answer: 50% per month
+wrong_answers:
+  - 10% per month
+  - 25% per month
+  - 75% per month
+explanation: |
+  In 2007, Zimbabwe's inflation rate reached the threshold of 50% per month,
+  officially marking the country as being in hyperinflation.
+reviewed: false

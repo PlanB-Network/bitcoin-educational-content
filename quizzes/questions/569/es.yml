@@ -1,0 +1,9 @@
+question: ¿Cuál es el impacto de los balances bancarios y de los bancos centrales en la inflación?
+answer: Si el dinero recién creado permanece en los balances de los bancos privados sin ser prestado a los actores económicos, no tendrá un impacto directo en la economía real y, por lo tanto, no resultará en inflación.
+wrong_answers:
+  - Si el dinero recién creado permanece en los balances de los bancos privados, siempre resultará en inflación.
+  - Los balances bancarios y de los bancos centrales no tienen impacto en la inflación.
+  - Si el dinero recién creado se presta a los actores económicos, no resultará en inflación.
+explanation: |
+  El capítulo explica que la relación entre la impresión de dinero y la inflación se modula por la forma en que el dinero recién creado se introduce en la economía. Si este dinero permanece en los balances de los bancos privados sin ser prestado a los actores económicos, no tendrá un impacto directo en la economía real y, por lo tanto, no resultará en inflación.
+reviewed: false

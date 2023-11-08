@@ -1,0 +1,9 @@
+question: Qual é a diferença entre inflação por demanda e inflação por custo?
+answer: A inflação por demanda é uma situação em que a demanda na economia excede a produção disponível, enquanto a inflação por custo é atribuída ao aumento dos custos de produção.
+wrong_answers:
+  - A inflação por demanda é atribuída ao aumento dos custos de produção, enquanto a inflação por custo é uma situação em que a demanda na economia excede a produção disponível.
+  - A inflação por demanda e a inflação por custo são iguais, ambas se referem a uma situação em que a demanda na economia excede a produção disponível.
+  - A inflação por demanda e a inflação por custo são iguais, ambas se referem ao aumento dos custos de produção.
+explanation: |
+  O capítulo explica que a inflação por demanda é frequentemente explicada como uma situação em que a demanda na economia excede a produção disponível. Por outro lado, a inflação por custo é atribuída ao aumento dos custos de produção.
+reviewed: false

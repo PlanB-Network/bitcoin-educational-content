@@ -1,0 +1,9 @@
+question: Quelle est la principale caractéristique de Bitcoin qui le distingue des autres cryptomonnaies ?
+answer: Bitcoin est la seule cryptomonnaie véritablement décentralisée, résistante à la censure, libre et sérieuse.
+wrong_answers:
+  - Bitcoin est la seule cryptomonnaie qui peut être minée.
+  - Bitcoin est la seule cryptomonnaie qui peut être achetée ou vendue sur des plateformes d'échange.
+  - Bitcoin est la seule cryptomonnaie qui peut être stockée dans un portefeuille.
+explanation: |
+  Le contenu du chapitre indique que Bitcoin est la seule cryptomonnaie véritablement décentralisée, résistante à la censure, libre et sérieuse, ce qui justifie des milliers d'heures de travail. C'est une caractéristique clé qui distingue Bitcoin des autres cryptomonnaies.
+reviewed: false

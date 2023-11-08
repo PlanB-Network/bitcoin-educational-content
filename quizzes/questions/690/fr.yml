@@ -1,0 +1,9 @@
+question: Quelle est la liquidité d'un canal dans le Lightning Network?
+answer: La quantité de satoshis qui peut être transférée à travers le canal.
+wrong_answers:
+  - Le nombre de transactions qui peuvent être effectuées à travers le canal.
+  - La vitesse à laquelle les transactions peuvent être effectuées à travers le canal.
+  - Le coût d'une transaction effectuée à travers le canal.
+explanation: |
+  Dans le Lightning Network, la liquidité d'un canal fait référence à la quantité de satoshis qui peut être transférée à travers le canal. La liquidité de ces canaux ne peut pas être transférée vers d'autres canaux de liquidité.
+reviewed: false

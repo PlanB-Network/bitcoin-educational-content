@@ -1,0 +1,10 @@
+question: What is one advantage of using an exchange platform to buy and sell bitcoins?
+answer: It allows for regular transactions according to the user's needs.
+wrong_answers:
+  - It allows for anonymous transactions.
+  - It increases the value of Bitcoin.
+  - It provides a platform for mining Bitcoin.
+explanation: |
+  Exchange platforms allow users to buy and sell bitcoins regularly and
+  conveniently, according to their needs.
+reviewed: false

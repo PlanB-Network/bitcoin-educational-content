@@ -1,0 +1,9 @@
+question: Was ist das Konzept der abnehmenden Grenznutzen?
+answer: Jede zusätzliche Einheit eines Gutes wird weniger gewünscht als die vorherige.
+wrong_answers:
+  - Jede zusätzliche Einheit eines Gutes wird stärker gewünscht als die vorherige.
+  - Jede zusätzliche Einheit eines Gutes wird genauso gewünscht wie die vorherige.
+  - Der Wunsch nach jeder zusätzlichen Einheit eines Gutes schwankt unvorhersehbar.
+explanation: |
+  Das Konzept der abnehmenden Grenznutzen besagt, dass jede zusätzliche Einheit eines Gutes weniger gewünscht wird als die vorherige. Dies liegt daran, dass eine Person, je mehr sie von einem Gut besitzt, desto weniger Nutzen jede zusätzliche Einheit dieses Gutes bietet.
+reviewed: false

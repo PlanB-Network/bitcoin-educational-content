@@ -1,0 +1,11 @@
+question: Was war die erste Geldschicht im Italien des 13. Jahrhunderts?
+answer: Gold, repräsentiert durch den Florin
+wrong_answers:
+  - Wechselbriefe
+  - Schuldscheine
+  - Silbermünzen
+explanation: |
+  Im Italien des 13. Jahrhunderts, genauer gesagt in Florenz, war die erste Geldschicht
+  echtes Gold, repräsentiert durch den Florin. Goldschmiede gaben Wechselbriefe aus
+  im Austausch gegen hinterlegte Florins, die die zweite Geldschicht bildeten.
+reviewed: false

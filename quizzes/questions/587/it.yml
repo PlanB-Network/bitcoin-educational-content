@@ -1,0 +1,9 @@
+question: Qual è la caratteristica principale dell'iperinflazione secondo la definizione di Cagan?
+answer: Tasso di inflazione mensile estremamente elevato
+wrong_answers:
+  - Tasso di inflazione annuale estremamente elevato
+  - Tasso di inflazione settimanale estremamente elevato
+  - Tasso di inflazione giornaliero estremamente elevato
+explanation: |
+  Secondo la definizione di Cagan, l'iperinflazione è caratterizzata da un tasso di inflazione mensile estremamente elevato che supera il 50%.
+reviewed: false

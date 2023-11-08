@@ -1,0 +1,9 @@
+question: ¿Cuál es la implicación de la naturaleza secuencial de la acción humana en las actividades de producción?
+answer: Cualquier desvío de producción, es decir, cualquier alargamiento de la estructura de producción, requiere un ahorro previo.
+wrong_answers:
+  - La naturaleza secuencial de la acción humana no tiene implicaciones en las actividades de producción.
+  - La naturaleza secuencial de la acción humana implica que las actividades de producción deben llevarse a cabo en un orden específico.
+  - La naturaleza secuencial de la acción humana implica que las actividades de producción deben llevarse a cabo simultáneamente.
+explanation: |
+  Debido a la naturaleza secuencial de la acción humana, estas elecciones intertemporales siempre tienen implicaciones para la secuencia de acciones. En otras palabras, las acciones a corto plazo que uno toma están subordinadas a los objetivos a largo plazo que uno establece, y las acciones a corto plazo influirán en lo que uno puede hacer en el futuro. La implicación de este punto obvio con respecto a las actividades de producción es que cualquier desvío de producción, es decir, cualquier alargamiento de la estructura de producción, requiere un ahorro previo.
+reviewed: false

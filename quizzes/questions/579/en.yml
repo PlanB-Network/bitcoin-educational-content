@@ -1,0 +1,10 @@
+question: What is the threshold for hyperinflation according to Philip Cagan's definition?
+answer: Monthly inflation exceeds 50%
+wrong_answers:
+  - Monthly inflation exceeds 40%
+  - Monthly inflation exceeds 60%
+  - Monthly inflation exceeds 70%
+explanation: |
+  According to Philip Cagan's definition, hyperinflation begins when monthly
+  inflation exceeds 50%.
+reviewed: false

@@ -1,0 +1,10 @@
+question: ¿Qué papel juega el dinero en la coordinación intertemporal de la acción humana?
+answer: Permite el almacenamiento de valor en el presente y su transferencia hacia el futuro de uno mismo.
+wrong_answers:
+  - Permite el almacenamiento de valor en el futuro y su transferencia hacia el presente de uno mismo.
+  - Permite el almacenamiento de valor en el presente y su transferencia hacia otras personas.
+  - Permite el almacenamiento de valor en el futuro y su transferencia hacia otras personas.
+explanation: |
+  Al guardar dinero, es decir, ahorrar, los individuos se protegen contra la incertidumbre futura y, por lo tanto, se permiten dirigir sus acciones hacia horizontes de tiempo más largos.
+  Sin embargo, solo pueden lograr esto si el dinero utilizado constituye una reserva de valor.
+reviewed: false

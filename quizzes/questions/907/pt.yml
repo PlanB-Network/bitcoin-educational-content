@@ -1,0 +1,9 @@
+question: Qual é a principal razão pela qual uma economia planejada centralmente inevitavelmente experimentará má alocação de capital?
+answer: Não há preços de mercado ou falências para revelar e corrigir as má alocações.
+wrong_answers:
+  - Os planejadores centrais não são eficientes.
+  - Os planejadores centrais não têm informações suficientes.
+  - Os planejadores centrais não têm motivação para alocar recursos de forma eficiente.
+explanation: |
+  Em uma economia planejada centralmente, não há preços de mercado ou falências para revelar e corrigir as má alocações. Como resultado, os erros se acumularão até que o desperdício se torne aparente por meio de uma queda significativa nas condições de vida.
+reviewed: false

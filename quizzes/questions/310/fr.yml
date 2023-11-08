@@ -1,0 +1,9 @@
+question: Quelle est la principale caractéristique d'un portefeuille DIY (Do It Yourself) ?
+answer: C'est une solution 100% open source qui peut être créée à la maison pour réduire les risques de confiance envers les autres acteurs de la chaîne de production ou de création.
+wrong_answers:
+  - C'est un dispositif matériel pour stocker des bitcoins.
+  - C'est un logiciel pour miner des bitcoins.
+  - C'est une plateforme pour acheter et vendre des bitcoins.
+explanation: |
+  Le contenu du chapitre explique que les portefeuilles DIY (Do It Yourself) sont des solutions 100% open source qui peuvent être créées à la maison pour réduire les risques de confiance envers les autres acteurs de la chaîne de production ou de création.
+reviewed: false

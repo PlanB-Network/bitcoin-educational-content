@@ -1,0 +1,9 @@
+question: Qual é a implicação da natureza sequencial da ação humana nas atividades de produção?
+answer: Qualquer desvio de produção, ou seja, qualquer alongamento da estrutura de produção, requer economia prévia.
+wrong_answers:
+  - A natureza sequencial da ação humana não tem implicação nas atividades de produção.
+  - A natureza sequencial da ação humana implica que as atividades de produção devem ser realizadas em uma ordem específica.
+  - A natureza sequencial da ação humana implica que as atividades de produção devem ser realizadas simultaneamente.
+explanation: |
+  Devido à natureza sequencial da ação humana, essas escolhas intertemporais sempre têm implicações para a sequência de ações. Em outras palavras, as ações de curto prazo que se toma são subordinadas aos objetivos de longo prazo que se estabelece, e as ações de curto prazo influenciarão o que se pode fazer no futuro. A implicação desse ponto óbvio em relação às atividades de produção é que qualquer desvio de produção, ou seja, qualquer alongamento da estrutura de produção, requer economia prévia.
+reviewed: false

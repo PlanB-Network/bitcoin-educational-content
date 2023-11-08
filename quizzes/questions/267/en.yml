@@ -1,0 +1,11 @@
+question: What is the main purpose of a software update?
+answer: To fix bugs and improve the security of your software
+wrong_answers:
+  - To add new features
+  - To change the software interface
+  - To increase the software size
+explanation: |
+  While software updates often come with new features, their main purpose
+  is to fix bugs and improve the security of the software. This is crucial to keep
+  your computer in optimal working condition.
+reviewed: false

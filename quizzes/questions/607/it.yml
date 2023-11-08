@@ -1,0 +1,12 @@
+question: Qual è la causa sottostante dell'iperinflazione che la ridenominazione non affronta?
+answer: L'espansione della base monetaria.
+wrong_answers:
+  - La diminuzione della base monetaria.
+  - L'aumento della domanda di beni e servizi.
+  - La diminuzione della domanda di beni e servizi.
+explanation: |
+  La causa principale dell'iperinflazione è l'espansione della base monetaria.
+  La ridenominazione è una misura comune adottata dai governi durante periodi di inflazione,
+  ma non risolve questo problema sottostante. È solo un modo per rinominare la valuta
+  e rimuovere gli zeri.
+reviewed: false

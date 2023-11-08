@@ -1,0 +1,10 @@
+question: Wer hat den bekanntesten Begriff der Hyperinflation vorgeschlagen?
+answer: Philip Cagan
+wrong_answers:
+  - Bernholz
+  - David
+  - Hanke-Krus
+explanation: |
+  Die bekannteste Definition der Hyperinflation stammt von Philip Cagan,
+  der in seinem Werk von 1956, "The Monetary Dynamics of Hyperinflation", ein quantitatives Verständnis der Hyperinflation vorschlug.
+reviewed: false

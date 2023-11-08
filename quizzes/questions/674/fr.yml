@@ -1,0 +1,9 @@
+question: Ce qui se passe pendant une transaction
+answer: Le secret de la transaction
+wrong_answers:
+  - Le secret de la transaction
+  - Un nouveau secret est décidé et une nouvelle clé de révocation est créée.
+  - La transaction de commitment précédente est mise à jour avec le nouveau secret et la clé de révocation.
+explanation: |
+  Pendant la transaction
+reviewed: false

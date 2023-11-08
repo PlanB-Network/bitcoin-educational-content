@@ -1,0 +1,9 @@
+question: ¿Cuál fue la estrategia utilizada por Estados Unidos en 1933-1934 para devaluar el dólar?
+answer: El gobierno confiscó el oro de los ciudadanos, luego cambió las reglas del juego al revalorizar el valor del oro para beneficiar al tesoro y perjudicar a aquellos que inicialmente intercambiaron su oro por billetes.
+wrong_answers:
+  - El gobierno aumentó la oferta de oro, luego cambió las reglas del juego al devaluar el valor del oro para beneficiar al tesoro y perjudicar a aquellos que inicialmente intercambiaron su oro por billetes.
+  - El gobierno confiscó el oro de los ciudadanos, luego cambió las reglas del juego al devaluar el valor del oro para beneficiar al tesoro y perjudicar a aquellos que inicialmente intercambiaron su oro por billetes.
+  - El gobierno aumentó la oferta de oro, luego cambió las reglas del juego al revalorizar el valor del oro para beneficiar al tesoro y perjudicar a aquellos que inicialmente intercambiaron su oro por billetes.
+explanation: |
+  En 1933, el gobierno de Estados Unidos confiscó el oro de los ciudadanos. Luego, en 1934, revalorizó el precio del oro a $35 por onza, en lugar de $20.67. Básicamente, el gobierno devaluó el dólar que poseían las personas. Al comprar oro a la población a $20.67 por onza en 1933 y luego revalorizar el precio del oro en 1934, el gobierno obtuvo una ganancia sustancial mientras devaluaba los ahorros de sus ciudadanos.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What was the main reason for the creation of the Bank of England?
+answer: To finance the war at the end of the 17th century
+wrong_answers:
+  - To issue its own currency
+  - To compete with the Bank of Amsterdam
+  - To regulate the stock market
+explanation: |
+  The Bank of England was created at the end of the 17th century with
+  the
+  primary motivation of financing the war. It imposed deposits by decree and relegated
+  private banks to a secondary position in the monetary system.
+reviewed: false

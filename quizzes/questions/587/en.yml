@@ -1,0 +1,10 @@
+question: What is the main characteristic of hyperinflation according to Cagan's definition?
+answer: Extremely high monthly inflation rate
+wrong_answers:
+  - Extremely high annual inflation rate
+  - Extremely high weekly inflation rate
+  - Extremely high daily inflation rate
+explanation: |
+  According to Cagan's definition, hyperinflation is characterized by an
+  extremely high monthly inflation rate that exceeds 50%.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a carteira recomendada para um Hodler começar?
+answer: Uma carteira fria como Bitbox02, Trezor ou Ledger.
+wrong_answers:
+  - Um aplicativo móvel de carteira quente.
+  - Uma carteira física.
+  - Uma carteira de papel.
+explanation: |
+  Para um Hodler, é aconselhável começar com uma carteira fria como Bitbox02, Trezor ou Ledger. Esses dispositivos oferecem segurança para bitcoins a longo prazo.
+reviewed: false

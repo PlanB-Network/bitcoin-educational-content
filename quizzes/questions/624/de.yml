@@ -1,0 +1,9 @@
+question: Was war das einzigartige Merkmal der Wechsel, die an der Antwerpener Börse im 16. Jahrhundert eingeführt wurden?
+answer: Sie trugen Namen und Fälligkeitsdaten.
+wrong_answers:
+  - Sie waren aus Gold.
+  - Sie wurden von der Bank von Amsterdam ausgegeben.
+  - Sie waren in Florin umtauschbar.
+explanation: |
+  Die Antwerpener Börse führte Wechsel ein, die Namen und Fälligkeitsdaten trugen. Dadurch waren sie vor dem Fälligkeitsdatum schwer zu tauschen. Die Börse führte jedoch die Praxis ein, diese Wechsel vor ihrem Fälligkeitsdatum zu diskontieren, was sie liquider machte und das Konzept des Zeitwerts des Geldes einführte.
+reviewed: false

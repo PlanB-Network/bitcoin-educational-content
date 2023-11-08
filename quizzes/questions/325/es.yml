@@ -1,0 +1,9 @@
+question: ¿Qué es una solución sin KYC en el contexto de Bitcoin?
+answer: Una solución que permite transacciones de Bitcoin anónimas.
+wrong_answers:
+  - Una solución que permite transacciones de Bitcoin sin internet.
+  - Una solución que permite transacciones de Bitcoin sin una billetera.
+  - Una solución que permite transacciones de Bitcoin sin comisiones.
+explanation: |
+  Una solución sin KYC (Conoce a tu Cliente) es una solución que permite transacciones de Bitcoin anónimas. No requiere que el usuario proporcione información de identificación personal.
+reviewed: false

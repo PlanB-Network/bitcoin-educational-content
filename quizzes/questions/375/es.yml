@@ -1,0 +1,9 @@
+question: ¿Qué es la Red Lightning en el contexto de Bitcoin?
+answer: Una tecnología de segunda capa que ofrece una visión completamente nueva de lo que es Bitcoin.
+wrong_answers:
+  - Una red de mineros de Bitcoin.
+  - Un nuevo tipo de Bitcoin.
+  - Una plataforma de comercio de Bitcoin.
+explanation: |
+  La Red Lightning es un protocolo de pago de "capa 2" que opera sobre una criptomoneda basada en blockchain (como Bitcoin). Está diseñada para permitir transacciones rápidas entre nodos participantes.
+reviewed: false

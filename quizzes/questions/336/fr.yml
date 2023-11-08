@@ -1,0 +1,9 @@
+question: Quel est le rôle d'un portefeuille LN chaud pour un Hodler qui souhaite aller plus loin ?
+answer: Pour dépenser des Bitcoins.
+wrong_answers:
+  - Pour acheter plus de Bitcoins.
+  - Pour stocker tous leurs Bitcoins.
+  - Pour trader des Bitcoins.
+explanation: |
+  Un Hodler qui souhaite aller plus loin peut utiliser un portefeuille LN chaud pour dépenser certains Bitcoins, en plus de les conserver à long terme.
+reviewed: false

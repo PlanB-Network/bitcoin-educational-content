@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito de un gestor de contraseñas en Bitcoin?
+answer: El propósito de un gestor de contraseñas en Bitcoin es almacenar y gestionar de forma segura las contraseñas para las transacciones de Bitcoin.
+wrong_answers:
+  - Para minar nuevos Bitcoins.
+  - Para comerciar con Bitcoins.
+  - Para convertir Bitcoins en otras criptomonedas.
+explanation: |
+  Un gestor de contraseñas es una aplicación de software que se utiliza para almacenar y gestionar las contraseñas de diversas cuentas en línea. En el contexto de Bitcoin, se utiliza para almacenar y gestionar de forma segura las contraseñas para las transacciones de Bitcoin.
+reviewed: false

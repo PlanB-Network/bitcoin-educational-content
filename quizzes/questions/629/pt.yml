@@ -1,0 +1,9 @@
+question: Qual foi a reação do Banco da Inglaterra ao pânico bancário de 1796?
+answer: Ele suspendeu a conversibilidade de suas notas bancárias em ouro.
+wrong_answers:
+  - Ele emitiu mais notas bancárias.
+  - Ele fechou.
+  - Ele aumentou o valor de suas notas bancárias.
+explanation: |
+  Após o pânico bancário de 1796, o Banco da Inglaterra suspendeu a conversibilidade de suas notas bancárias em ouro para evitar uma potencial deflação das reservas de ouro. Essa suspensão, inicialmente destinada como uma medida temporária, durou por um período de duas décadas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿En qué se basa la fundación de la Cartera HD?
+answer: La fundación de la Cartera HD se basa en dos elementos esenciales: la frase mnemotécnica y la frase de contraseña (opcional).
+wrong_answers:
+  - La semilla y la clave privada maestra.
+  - El código de cadena maestro y la semilla.
+  - La frase mnemotécnica y la clave privada maestra.
+explanation: |
+  La fundación de la Cartera HD se basa en dos elementos esenciales: la frase mnemotécnica y la frase de contraseña (opcional). Juntos, constituyen la semilla, una secuencia alfanumérica de 512 bits que sirve como base para derivar las claves de la cartera.
+reviewed: false

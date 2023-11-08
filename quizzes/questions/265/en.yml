@@ -1,0 +1,11 @@
+question: What is a common scam in the field of financial investment?
+answer: Pyramid selling systems.
+wrong_answers:
+  - Selling physical goods.
+  - Selling software products.
+  - Selling fiat currency.
+explanation: |
+  In the field of financial investment, pyramid selling systems and Ponzi
+  schemes stand out as illegal models. They operate by using new investors' money
+  to pay older participants.
+reviewed: false

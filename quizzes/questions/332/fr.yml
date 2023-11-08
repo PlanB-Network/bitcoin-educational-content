@@ -1,0 +1,9 @@
+question: Quelle est la partie la plus difficile d'être un Hodler selon le chapitre ?
+answer: Ne rien faire et conserver le Bitcoin.
+wrong_answers:
+  - Acheter du Bitcoin.
+  - Configurer un portefeuille froid.
+  - Mettre en place un plan de succession.
+explanation: |
+  Le chapitre mentionne que la partie la plus difficile d'être un Hodler est de ne rien faire, c'est-à-dire de résister à la tentation de vendre et de conserver le Bitcoin à long terme.
+reviewed: false

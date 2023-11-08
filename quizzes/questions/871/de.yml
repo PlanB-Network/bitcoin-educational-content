@@ -1,0 +1,9 @@
+question: Was ist das Hauptproblem des Systems der Bruchteilreserven?
+answer: Das Hauptproblem des Systems der Bruchteilreserven besteht darin, dass bedeutende Abhebungen von einer bestimmten Bank potenziell zu ihrer Insolvenz führen können.
+wrong_answers:
+  - Das Hauptproblem des Systems der Bruchteilreserven besteht darin, dass es Banken daran hindert, Geld zu verleihen.
+  - Das Hauptproblem des Systems der Bruchteilreserven besteht darin, dass es von den Banken verlangt, mehr Reserven zu halten, als sie an Einlagen erhalten.
+  - Das Hauptproblem des Systems der Bruchteilreserven besteht darin, dass es Banken daran hindert, neues Geld zu schaffen.
+explanation: |
+  In einem System der Bruchteilreserven halten Banken nur einen Bruchteil der Einlagen ihrer Kunden als Reserve und verleihen den Rest. Wenn viele Kunden gleichzeitig ihre Gelder abheben möchten, könnte die Bank möglicherweise nicht genügend Reserven haben, um diesen Forderungen nachzukommen, was potenziell zur Insolvenz führen könnte.
+reviewed: false

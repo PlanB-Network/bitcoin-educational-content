@@ -1,0 +1,9 @@
+question: Quali sono alcune delle migliori pratiche su cui un Bitcoiner paranoico potrebbe informarsi?
+answer: Mixaggio delle monete e gestione degli UTXO
+wrong_answers:
+  - Come fidarsi dei sistemi centralizzati
+  - Come condividere in modo sicuro le informazioni personali
+  - Come utilizzare una carta di credito per acquistare Bitcoin online
+explanation: |
+  Il capitolo menziona che un Bitcoiner paranoico potrebbe informarsi sulle migliori pratiche come il mixaggio delle monete e la gestione degli UTXO come parte del loro focus sulla privacy e la sicurezza.
+reviewed: false

@@ -1,0 +1,9 @@
+question: D'où est originaire Bitcoin ?
+answer: L'internet
+wrong_answers:
+  - La blockchain
+  - Le système bancaire
+  - Le marché boursier
+explanation: |
+  Le chapitre indique que Bitcoin est originaire de l'internet, ce qui le rend accessible à toute personne disposant d'un accès à internet.
+reviewed: false

@@ -1,0 +1,11 @@
+question: What is a common scam related to online donations in the crypto sector?
+answer: Offers claiming to double or multiply the bitcoins you send.
+wrong_answers:
+  - Offers claiming to double or multiply your physical goods.
+  - Offers claiming to double or multiply your fiat currency.
+  - Offers claiming to double or multiply your software products.
+explanation: |
+  A classic example of this type of scam is an offer claiming to double
+  or multiply the bitcoins you send. It is important to understand that there is no
+  magic solution to become instantly rich.
+reviewed: false

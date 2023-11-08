@@ -1,0 +1,10 @@
+question: ¿Cuál es la opinión de los economistas austriacos sobre la fijación de las tasas de interés?
+answer: Los economistas austriacos enfatizan que establecer arbitrariamente la tasa de interés puede llevar a crisis económicas.
+wrong_answers:
+  - Los economistas austriacos creen que el gobierno debería fijar las tasas de interés.
+  - Los economistas austriacos creen que las tasas de interés deberían ser fijas e invariables.
+  - Los economistas austriacos creen que las tasas de interés deberían ser establecidas por el banco central.
+explanation: |
+  Los economistas austriacos enfatizan que establecer arbitrariamente la tasa de interés puede llevar a crisis económicas y hacer que el cálculo sea imposible en un régimen socialista.
+  Argumentan que las relaciones de valoración son subjetivas, por lo que las tasas de interés pueden variar dependiendo de los individuos y las circunstancias.
+reviewed: false

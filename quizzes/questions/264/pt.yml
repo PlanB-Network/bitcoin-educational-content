@@ -1,0 +1,9 @@
+question: Qual é o foco do curso desta universidade?
+answer: O universo do Bitcoin.
+wrong_answers:
+  - A indústria global de criptomoedas.
+  - A indústria de fintech.
+  - A indústria de blockchain.
+explanation: |
+  O foco total desta universidade é no universo do Bitcoin, não em criptomoedas.
+reviewed: false

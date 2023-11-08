@@ -1,0 +1,18 @@
+question: What is the perspective of Modern Monetary Theory (MMT) on money creation
+  and inflation?
+answer: According to MMT, money primarily originates from the government, which can
+  print substantial amounts to finance its needs without causing inflation as long
+  as the sectors targeted by these funds are not saturated.
+wrong_answers:
+  - According to MMT, money primarily originates from the private sector and printing
+    more money always leads to inflation.
+  - According to MMT, money primarily originates from the government, but printing
+    more money always leads to inflation.
+  - According to MMT, money primarily originates from the private sector and printing
+    more money never leads to inflation.
+explanation: |
+  The chapter explains that Modern Monetary Theory (MMT) offers a distinct
+  perspective on money creation and inflation. According to MMT, money primarily originates
+  from the government, which can print substantial amounts to finance its needs without
+  causing inflation as long as the sectors targeted by these funds are not saturated.
+reviewed: false

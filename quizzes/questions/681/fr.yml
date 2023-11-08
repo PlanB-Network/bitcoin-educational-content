@@ -1,0 +1,9 @@
+question: Quel est le but de la clé de révocation dans le Lightning Network?
+answer: Pour punir un participant qui tente de tricher en publiant une ancienne transaction d'engagement.
+wrong_answers:
+  - Pour récompenser un participant qui réussit à tricher.
+  - Pour ouvrir un nouveau canal.
+  - Pour valider une transaction.
+explanation: |
+  La clé de révocation est un mécanisme dans le Lightning Network pour prévenir la tricherie. Si un participant tente de tricher en publiant une ancienne transaction d'engagement, l'autre participant peut utiliser la clé de révocation pour punir le tricheur et prendre tous les SAT du canal.
+reviewed: false

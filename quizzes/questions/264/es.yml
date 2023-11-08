@@ -1,0 +1,9 @@
+question: ¿Cuál es el enfoque del curso de esta universidad?
+answer: El universo de Bitcoin.
+wrong_answers:
+  - La industria global de criptomonedas.
+  - La industria fintech.
+  - La industria de blockchain.
+explanation: |
+  El enfoque completo de esta universidad se centra en el universo de Bitcoin, no en las criptomonedas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist das Lightning Network im Zusammenhang mit Bitcoin?
+answer: Eine Technologie der zweiten Ebene, die eine völlig neue Vision dessen bietet, was Bitcoin ist.
+wrong_answers:
+  - Ein Netzwerk von Bitcoin-Minern.
+  - Ein neuer Typ von Bitcoin.
+  - Eine Bitcoin-Handelsplattform.
+explanation: |
+  Das Lightning Network ist ein "Layer 2" Zahlungsprotokoll, das auf einer blockchain-basierten Kryptowährung (wie Bitcoin) arbeitet. Es wurde entwickelt, um schnelle Transaktionen zwischen teilnehmenden Knoten zu ermöglichen.
+reviewed: false

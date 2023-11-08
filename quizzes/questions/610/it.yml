@@ -1,0 +1,9 @@
+question: Qual è stato il tasso di inflazione annuale in Bolivia nel 1985?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  Nel 1985, il tasso di inflazione annuale della Bolivia ha raggiunto l'11,749%, indicando che quasi ogni mese l'inflazione si avvicinava o superava la soglia dell'iperinflazione del 50%.
+reviewed: false

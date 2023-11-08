@@ -1,0 +1,10 @@
+question: O que é uma carteira quente no contexto do Bitcoin?
+answer: Uma carteira para armazenar pequenas quantidades de Bitcoin online.
+wrong_answers:
+  - Uma carteira usada para transações em climas quentes.
+  - Uma carteira usada para armazenar grandes quantidades de Bitcoin.
+  - Uma carteira usada para armazenar Bitcoin por um longo período de tempo.
+explanation: |
+  Uma carteira quente é uma carteira para armazenar pequenas quantidades de Bitcoin online.
+  Ela é considerada menos segura do que uma carteira fria, pois é mais vulnerável a ataques de hackers.
+reviewed: false

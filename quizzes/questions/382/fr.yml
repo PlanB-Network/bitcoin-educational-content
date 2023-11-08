@@ -1,0 +1,9 @@
+question: Quel est le but d'accumuler lentement des bitcoins ?
+answer: Permettre à votre stratégie d'investissement de se déployer progressivement.
+wrong_answers:
+  - Pour miner de nouveaux Bitcoins.
+  - Pour échanger des Bitcoins.
+  - Pour convertir des Bitcoins en d'autres cryptomonnaies.
+explanation: |
+  Accumuler lentement des bitcoins est une stratégie qui permet à votre investissement de se déployer progressivement dans le temps. Cela n'est pas utilisé pour miner de nouveaux Bitcoins, échanger des Bitcoins ou convertir des Bitcoins en d'autres cryptomonnaies.
+reviewed: false

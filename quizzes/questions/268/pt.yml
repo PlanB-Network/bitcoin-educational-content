@@ -1,0 +1,11 @@
+question: Qual é a função principal de um gerenciador de senhas?
+answer: Armazenar e gerenciar suas senhas
+wrong_answers:
+  - Gerar senhas aleatórias
+  - Lembrar seus nomes de usuário
+  - Proteger seu computador contra vírus
+explanation: |
+  Um gerenciador de senhas é um software que armazena e gerencia suas senhas.
+  Ele ajuda você a nunca usar a mesma senha duas vezes, escolher senhas complexas e seguras,
+  e facilita o gerenciamento da sua segurança online.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a relação entre poupança e padrão de vida de acordo com os economistas austríacos?
+answer: Quanto mais economizamos, mais capital seremos capazes de acumular, o que por sua vez se traduzirá em ganhos de produtividade resultando em mais bens. Assim, um padrão de vida mais elevado é alcançado.
+wrong_answers:
+  - Quanto mais economizamos, mais baixo se torna nosso padrão de vida.
+  - Não há relação entre poupança e padrão de vida.
+  - Quanto menos economizamos, mais alto se torna nosso padrão de vida.
+explanation: |
+  "Os economistas austríacos consideram que a redução das preferências temporais é o ponto de partida para um ciclo virtuoso de poupança -> mais bens de capital -> mais produtividade -> mais bens = padrão de vida mais elevado -> menor preferência temporal. Assim, quanto mais economizamos, mais capital seremos capazes de acumular, o que por sua vez se traduzirá em ganhos de produtividade resultando em mais bens. Isso leva a um padrão de vida mais elevado."
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é o custo de executar um nó Bitcoin em um Raspberry Pi 4 em termos de consumo de eletricidade por ano?
+answer: "Um pouco menos de €10 por ano"
+wrong_answers:
+  - "Aproximadamente €50 por ano"
+  - "Aproximadamente €100 por ano"
+  - "Aproximadamente €200 por ano"
+explanation: |
+  > Executar um nó Bitcoin em um Raspberry Pi 4 custa um pouco menos de €10 por ano em termos de consumo de eletricidade.
+reviewed: false

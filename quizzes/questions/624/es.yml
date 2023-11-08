@@ -1,0 +1,9 @@
+question: ¿Cuál fue la característica única de los pagarés introducidos en la Bolsa de Valores de Amberes en el siglo XVI?
+answer: Llevaban nombres y fechas de vencimiento.
+wrong_answers:
+  - Estaban hechos de oro.
+  - Eran emitidos por el Banco de Ámsterdam.
+  - Eran convertibles en florines.
+explanation: |
+  La Bolsa de Valores de Amberes introdujo pagarés que llevaban nombres y fechas de vencimiento. Esto los hacía difíciles de intercambiar antes de la fecha de vencimiento. Sin embargo, la bolsa introdujo la práctica de descontar estos pagarés antes de su vencimiento, lo que los hizo más líquidos e introdujo el concepto del valor temporal del dinero.
+reviewed: false

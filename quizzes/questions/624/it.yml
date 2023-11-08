@@ -1,0 +1,9 @@
+question: Qual era la caratteristica unica delle cambiali introdotte alla Borsa di Anversa nel XVI secolo?
+answer: Portavano nomi e date di scadenza
+wrong_answers:
+  - Erano fatte d'oro
+  - Erano emesse dalla Banca di Amsterdam
+  - Erano convertibili in fiorini
+explanation: |
+  La Borsa di Anversa introdusse cambiali che portavano nomi e date di scadenza. Ciò le rendeva difficili da scambiare prima della scadenza. Tuttavia, la borsa introdusse la pratica dello sconto di queste cambiali prima della scadenza, rendendole più liquide e introducendo il concetto del valore temporale del denaro.
+reviewed: false

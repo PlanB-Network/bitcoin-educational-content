@@ -1,0 +1,11 @@
+question: Combien d'épisodes d'hyperinflation sont documentés dans le tableau Hanke-Krus ?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Le tableau Hanke-Krus documente 56 épisodes d'hyperinflation. Cependant,
+  il ne couvre pas tous les épisodes, comme celui du Venezuela en 2016, ce qui porte le
+  total à 57.
+reviewed: false

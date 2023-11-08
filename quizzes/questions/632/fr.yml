@@ -1,0 +1,9 @@
+question: Quelle est l'idée principale derrière le concept de la valeur temporelle de l'argent?
+answer: Le temps a de la valeur
+wrong_answers:
+  - L'argent perd de la valeur avec le temps
+  - L'argent peut être échangé contre du temps
+  - Le temps peut être échangé contre de l'argent
+explanation: |
+  L'idée principale derrière le concept de la valeur temporelle de l'argent est que le temps a de la valeur. Si quelqu'un décide de payer une lettre de change d'une valeur de 100 $ un mois à l'avance, il peut l'obtenir, par exemple, pour 98 $ et recevoir les 100 $ à la date d'échéance.
+reviewed: false

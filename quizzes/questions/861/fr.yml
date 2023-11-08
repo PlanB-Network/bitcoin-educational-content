@@ -1,0 +1,9 @@
+question: Quelle est l'approche principale de l'économie autrichienne pour comprendre l'économie?
+answer: L'économie autrichienne comprend l'économie du point de vue de la logique humaine et de la sociologie.
+wrong_answers:
+  - L'économie autrichienne comprend l'économie à travers des équations mathématiques.
+  - L'économie autrichienne comprend l'économie du point de vue de l'impression monétaire et des dépenses.
+  - L'économie autrichienne comprend l'économie du point de vue des banques centrales.
+explanation: |
+  Le chapitre explique que l'économie autrichienne comprend l'économie du point de vue de la logique humaine et de la sociologie, plutôt que d'aborder cette discipline à travers des équations mathématiques.
+reviewed: false

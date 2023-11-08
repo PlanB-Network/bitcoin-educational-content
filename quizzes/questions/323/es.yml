@@ -1,0 +1,10 @@
+question: ¿Qué es una billetera fría en el contexto de Bitcoin?
+answer: Una billetera para almacenar grandes cantidades de Bitcoin sin conexión a internet.
+wrong_answers:
+  - Una billetera que se utiliza para transacciones en climas fríos.
+  - Una billetera que se utiliza para almacenar pequeñas cantidades de Bitcoin.
+  - Una billetera que se utiliza para almacenar Bitcoin por un corto período de tiempo.
+explanation: |
+  Una billetera fría es una billetera para almacenar grandes cantidades de Bitcoin sin conexión a internet.
+  Se considera más segura que una billetera caliente, ya que es menos vulnerable a los hackeos.
+reviewed: false

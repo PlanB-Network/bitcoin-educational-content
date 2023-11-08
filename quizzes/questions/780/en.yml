@@ -1,0 +1,12 @@
+question: Why are virgin bitcoins particularly sought after by large institutional players?
+answer: They can guarantee the legitimacy of their digital assets to regulatory authorities.
+wrong_answers:
+  - They can sell them at a higher price.
+  - They can use them for illegal activities.
+  - They can avoid paying taxes on them.
+explanation: |
+  Virgin bitcoins are particularly sought after by large institutional
+  players because they can guarantee the legitimacy of their digital assets to regulatory
+  authorities. These bitcoins have never been "tainted", providing some guarantee
+  against rejection by regulators or major exchange platforms.
+reviewed: false

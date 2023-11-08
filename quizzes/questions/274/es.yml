@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal beneficio de usar un administrador de contraseñas según el capítulo?
+answer: Te ayuda a nunca usar la misma contraseña dos veces
+wrong_answers:
+  - Te ayuda a recordar tus nombres de usuario
+  - Protege tu computadora de virus
+  - Genera contraseñas aleatorias
+explanation: |
+  Según el capítulo, un administrador de contraseñas te ayuda a nunca usar la misma contraseña dos veces, elegir contraseñas complejas y seguras, y facilita la gestión de tu seguridad en línea.
+reviewed: false

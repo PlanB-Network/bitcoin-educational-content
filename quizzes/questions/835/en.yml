@@ -1,0 +1,10 @@
+question: What is the golden rule of cybersecurity?
+answer: Cybersecurity is a moving target that will adapt to your learning journey.
+wrong_answers:
+  - Cybersecurity is a one-time setup
+  - Cybersecurity is not necessary for personal accounts
+  - Cybersecurity is only for tech-savvy people
+explanation: |
+  Cybersecurity is a moving target because threats and security measures
+  are constantly evolving. It's important to keep learning and adapting your practices.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿A qué es nativo Bitcoin?
+answer: El internet
+wrong_answers:
+  - La cadena de bloques
+  - El sistema bancario
+  - El mercado de valores
+explanation: |
+  El capítulo afirma que Bitcoin es nativo del internet, lo que lo hace accesible para cualquier persona con acceso a internet.
+reviewed: false

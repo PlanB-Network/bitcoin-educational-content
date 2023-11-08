@@ -1,0 +1,9 @@
+question: Cosa significa l'immutabilità della blockchain di Bitcoin?
+answer: Non può essere modificata nel tempo
+wrong_answers:
+  - Non può essere hackerata
+  - Non può essere copiata
+  - Non può essere cancellata
+explanation: |
+  L'immutabilità della blockchain di Bitcoin significa che una volta che una transazione è stata registrata, non può essere modificata o cancellata. Questo garantisce l'integrità e l'affidabilità della blockchain.
+reviewed: false

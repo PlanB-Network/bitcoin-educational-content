@@ -1,0 +1,9 @@
+question: Qual è l'argomento principale di Ludwig von Mises nel suo articolo "Calcolo Economico in una Comunità Socialista"?
+answer: L'organizzazione economica razionale è impossibile senza i prezzi dei fattori intermedi di produzione.
+wrong_answers:
+  - Il socialismo è moralmente superiore al capitalismo.
+  - Il capitalismo è l'unico sistema economico praticabile.
+  - Il socialismo può produrre individui privi di istinti capitalistici.
+explanation: |
+  Mises sosteneva che senza un mercato per determinare i prezzi dei fattori intermedi di produzione, diventa impossibile razionalizzare l'uso delle risorse tra le industrie. Ciò significa che anche se c'è un'organizzazione perfetta all'interno di ogni azienda o parte dell'economia, l'intera economia non può adeguarsi efficientemente ai cambiamenti nella disponibilità delle risorse, alle condizioni di produzione e alle preferenze dei consumatori.
+reviewed: false

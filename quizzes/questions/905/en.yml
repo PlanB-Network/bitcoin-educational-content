@@ -1,0 +1,15 @@
+question: What is the main argument of Ludwig von Mises in his article "Economic Calculation
+  in a Socialist Commonwealth"?
+answer: Rational economic organization is impossible without prices for the intermediate
+  factors of production.
+wrong_answers:
+  - Socialism is morally superior to capitalism.
+  - Capitalism is the only viable economic system.
+  - Socialism can produce individuals devoid of capitalist instincts.
+explanation: |
+  Mises argued that without a market to determine prices for intermediate
+  factors of production, it becomes impossible to rationalize the use of resources
+  across industries. This means that even if there is perfect organization within
+  each firm or subpart of the economy, the entire economy cannot efficiently adjust
+  to changes in resource availability, production conditions, and consumer preferences.
+reviewed: false

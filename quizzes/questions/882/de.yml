@@ -1,0 +1,9 @@
+question: Warum tritt das Koordinationsproblem bei der Arbeitsteilung in größeren Gemeinschaften erneut auf?
+answer: Weil Menschen durch ihre kognitiven Fähigkeiten begrenzt sind und die gesellschaftlich akzeptierte Bewertung von Beiträgen im Austausch ein nicht triviales Problem darstellt.
+wrong_answers:
+  - Weil Menschen kein Interesse daran haben, mit größeren Gruppen zu arbeiten und kleinere Gemeinschaften bevorzugen.
+  - Weil größere Gemeinschaften über mehr Ressourcen verfügen, was zu weniger Bedarf an Arbeitsteilung führt.
+  - Weil größere Gemeinschaften mehr Konflikte haben, was die Koordination erschwert.
+explanation: |
+  In größeren Gemeinschaften ist es für eine Person unmöglich, stabile soziale Beziehungen zu mehr als 150 Individuen aufrechtzuerhalten und sich daran zu erinnern. Dadurch ist ein Reputationssystem unzureichend, um das Gefangenendilemma im großen Maßstab zu überwinden. Zudem ist die Bewertung von Beiträgen im Austausch in größeren Gemeinschaften ein komplexes Problem.
+reviewed: false

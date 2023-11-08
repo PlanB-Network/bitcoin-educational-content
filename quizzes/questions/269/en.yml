@@ -1,0 +1,12 @@
+question: What does 2FA stand for?
+answer: Two-Factor Authentication
+wrong_answers:
+  - Two-Factor Authorization
+  - Two-Feature Authentication
+  - Two-Function Authentication
+explanation: |
+  2FA stands for Two-Factor Authentication. It provides an additional
+  layer
+
+  of security to your most sensitive accounts.'
+reviewed: false

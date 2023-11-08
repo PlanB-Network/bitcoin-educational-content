@@ -1,0 +1,11 @@
+question: What is the main role of miners in the Bitcoin network?
+answer: They secure the network by performing Bitcoin's proof-of-work processes
+wrong_answers:
+  - They create new bitcoins
+  - They regulate the price of Bitcoin
+  - They control the Bitcoin network
+explanation: |
+  The chapter content explains that miners are responsible for securing
+  the Bitcoin network. They use electricity to perform Bitcoin's proof-of-work processes,
+  which creates a new block.
+reviewed: false

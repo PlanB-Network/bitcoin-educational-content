@@ -1,0 +1,10 @@
+question: Is the capacity of a Lightning payment channel fixed?
+answer: true
+wrong_answers:
+  - false
+  - Only in some cases
+  - It depends on the Bitcoin network
+explanation: |
+  When a channel is opened, it is given a fixed capacity, which is defined
+  in advance by the users.
+reviewed: false

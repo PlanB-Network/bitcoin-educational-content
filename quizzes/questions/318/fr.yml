@@ -1,0 +1,10 @@
+question: Qui a introduit l'idée de l'"autoroute Bitcoin" ?
+answer: Andreas Antonopoulos
+wrong_answers:
+  - Satoshi Nakamoto
+  - Elon Musk
+  - Vitalik Buterin
+explanation: |
+  Andreas Antonopoulos, un défenseur et éducateur bien connu de Bitcoin, a introduit
+  l'idée de l'"autoroute Bitcoin".
+reviewed: false

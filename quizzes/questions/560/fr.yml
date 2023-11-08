@@ -1,0 +1,9 @@
+question: Quelle est la définition de l'inflation selon Larousse?
+answer: L'inflation est un phénomène caractérisé par une hausse généralisée et continue du niveau des prix.
+wrong_answers:
+  - L'inflation est un phénomène caractérisé par une baisse généralisée et continue du niveau des prix.
+  - L'inflation est un phénomène caractérisé par une hausse spécifique et continue du niveau des prix.
+  - L'inflation est un phénomène caractérisé par une hausse généralisée et intermittente du niveau des prix.
+explanation: |
+  Selon Larousse, l'inflation est définie comme un phénomène caractérisé par une hausse généralisée et continue du niveau des prix.
+reviewed: false

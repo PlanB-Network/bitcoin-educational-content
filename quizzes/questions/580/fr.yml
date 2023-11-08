@@ -1,0 +1,9 @@
+question: Quelle est la principale critique de la définition de l'hyperinflation de Cagan ?
+answer: Le seuil de 50% est arbitraire et exclut certains épisodes d'inflation élevée.
+wrong_answers:
+  - La définition est trop large et inclut trop d'épisodes d'inflation.
+  - La définition est dépassée et n'est pas applicable aux économies modernes.
+  - La définition ne prend pas en compte l'impact de l'inflation sur l'économie.
+explanation: |
+  Les critiques de la définition de Cagan, telles que Bernholz, soutiennent que le seuil de 50% est arbitraire et exclut certains épisodes d'inflation élevée qui présentent les mêmes caractéristiques qualitatives que les épisodes d'hyperinflation.
+reviewed: false

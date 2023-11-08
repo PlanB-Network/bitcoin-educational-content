@@ -1,0 +1,13 @@
+question: What is Austrian economics in relation to Bitcoin?
+answer: An economic school of thought that opposes traditional Keynesianism and can
+  help understand Bitcoin's place in the economy.
+wrong_answers:
+  - A type of economics practiced in Austria.
+  - The economic theory that Bitcoin is based on.
+  - A branch of economics that studies the impact of Bitcoin on the Austrian economy.
+explanation: |
+  Austrian economics is a school of economic thought that is based on
+  methodological
+  individualism. It has been used by many Bitcoin enthusiasts to explain the potential
+  benefits of a decentralized, deflationary currency like Bitcoin.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is the main task of miners in the Bitcoin network?
+answer: To solve a digital puzzle and validate a new block
+wrong_answers:
+  - To create new bitcoins
+  - To control the price of Bitcoin
+  - To verify the identity of Bitcoin users
+explanation: |
+  In the context of Bitcoin mining, miners strive to quickly solve a digital
+  puzzle. The first miner to solve the puzzle presents their solution to the entire
+  network, which can then easily verify its validity. This successful verification
+  allows the miner to validate a new block and add it to the Bitcoin Timechain.
+reviewed: false

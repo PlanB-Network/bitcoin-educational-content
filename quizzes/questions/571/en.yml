@@ -1,0 +1,17 @@
+question: What is the difference between Demand Pull and Cost Push inflation?
+answer: Demand Pull inflation is a situation where demand in the economy exceeds available
+  production, while Cost Push inflation is attributed to the increase in production
+  costs.
+wrong_answers:
+  - Demand Pull inflation is attributed to the increase in production costs, while
+    Cost Push inflation is a situation where demand in the economy exceeds available
+    production.
+  - Demand Pull and Cost Push inflation are the same, both refer to a situation where
+    demand in the economy exceeds available production.
+  - Demand Pull and Cost Push inflation are the same, both refer to the increase in
+    production costs.
+explanation: |
+  The chapter explains that Demand Pull inflation is often explained as
+  a situation where demand in the economy exceeds available production. On the other
+  hand, Cost Push inflation is attributed to the increase in production costs.
+reviewed: false

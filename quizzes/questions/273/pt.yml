@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo de usar ferramentas como Signal, Tor e ProtonMail?
+answer: Valorizar e proteger sua privacidade
+wrong_answers:
+  - Acelerar sua conexão com a internet
+  - Proteger seu computador contra vírus
+  - Fornecer acesso gratuito a serviços pagos
+explanation: |
+  Ferramentas como Signal, Tor e ProtonMail são usadas para valorizar e proteger sua privacidade. Elas fazem parte das medidas para melhorar os hábitos de segurança online.
+reviewed: false

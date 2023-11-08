@@ -1,0 +1,9 @@
+question: Qual è il tipo di utente più probabile che abbia bisogno sia di un portafoglio Bitcoin caldo che freddo?
+answer: Un utente che ha bisogno di utilizzare regolarmente Bitcoin.
+wrong_answers:
+  - Un utente che utilizza Bitcoin solo occasionalmente.
+  - Un utente che mina Bitcoin.
+  - Un utente che investe solo a lungo termine in Bitcoin.
+explanation: |
+  Gli utenti regolari di Bitcoin hanno bisogno di un portafoglio caldo per le transazioni quotidiane e di un portafoglio freddo per la conservazione sicura a lungo termine.
+reviewed: false

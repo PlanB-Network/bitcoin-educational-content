@@ -1,0 +1,12 @@
+question: Peut-on tricher en publiant un ancien état dans une transaction d'engagement ?
+answer: Oui.
+wrong_answers:
+  - Non.
+  - Seulement s'ils ont la clé de révocation.
+  - Seulement s'ils ont créé la transaction avec le verrouillage temporel.
+explanation: |
+  On peut tricher en publiant un ancien état dans une transaction d'engagement
+  car les deux participants ont la pré-signature de la transaction non publiée.
+  Cependant, des mesures telles que le verrouillage temporel et la clé de révocation sont mises en place pour empêcher
+  cela.
+reviewed: false

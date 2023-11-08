@@ -1,0 +1,9 @@
+question: Was ist die Funktion des Lightning-Netzwerks im Bitcoin-Ökosystem?
+answer: Es ermöglicht Bitcoin, sich zu erweitern und mehr Funktionen zu erhalten, indem es als zweite Ebene fungiert.
+wrong_answers:
+  - Es ist eine separate Kryptowährung, die mit Bitcoin konkurriert.
+  - Es ist ein Werkzeug zum Mining von Bitcoin.
+  - Es ist eine Plattform zum Handel mit Bitcoin.
+explanation: |
+  Das Lightning-Netzwerk ist eine Technologie der zweiten Ebene, die auf Bitcoin angewendet wird und Mikrozahlungskanäle verwendet, um die Fähigkeit seiner Blockchain zur Durchführung von Transaktionen effizienter zu skalieren.
+reviewed: false

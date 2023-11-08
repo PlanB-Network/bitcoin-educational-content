@@ -1,0 +1,9 @@
+question: Quelle est une caractéristique d'un utilisateur de Bitcoin technologiquement compétent ?
+answer: Ils ont une bonne compréhension des technologies, y compris les portefeuilles Bitcoin chauds et froids et le Lightning Network.
+wrong_answers:
+  - Ils n'utilisent Bitcoin que pour des investissements à long terme.
+  - Ils n'utilisent Bitcoin que pour des transactions quotidiennes.
+  - Ils n'utilisent Bitcoin que sur des plateformes d'échange.
+explanation: |
+  Les utilisateurs de Bitcoin technologiquement compétents comprennent les technologies impliquées dans les transactions Bitcoin, y compris les différents types de portefeuilles et le Lightning Network.
+reviewed: false

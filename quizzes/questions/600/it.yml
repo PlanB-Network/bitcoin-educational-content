@@ -1,0 +1,9 @@
+question: Cosa è una zombie company?
+answer: Una zombie company è una società che, in condizioni di mercato normali, sarebbe insolvente o vicina al fallimento, ma continua a operare principalmente attraverso prestiti a basso costo.
+wrong_answers:
+  - Una società che è stata attiva per oltre 100 anni.
+  - Una società che opera nel settore tecnologico.
+  - Una società che è stata salvata dal governo.
+explanation: |
+  Una zombie company è una società che, in condizioni di mercato normali, sarebbe insolvente o vicina al fallimento, ma continua a operare principalmente attraverso prestiti a basso costo. Queste società guadagnano appena abbastanza denaro per coprire i loro debiti, ma non sono in grado di crescere significativamente.
+reviewed: false

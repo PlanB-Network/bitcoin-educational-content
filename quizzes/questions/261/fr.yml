@@ -1,0 +1,9 @@
+question: Quel est un exemple notable d'une division majeure de Bitcoin ?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Bitcoin a subi plusieurs divisions majeures au fil du temps, donnant naissance à diverses versions alternatives de la monnaie originale. Des exemples notables de ces déviations incluent Bitcoin Cash (BCH) et Bitcoin Satoshi Vision (BSV).
+reviewed: false

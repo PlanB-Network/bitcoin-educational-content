@@ -1,0 +1,11 @@
+question: Quais são as duas ideologias opostas no mundo do Bitcoin?
+answer: Incluir os desbancarizados no sistema bancário e retirar aqueles que estão no sistema bancário.
+wrong_answers:
+  - Tornar todos ricos e tornar todos pobres
+  - Centralizar o poder e descentralizar o poder
+  - Promover a privacidade e promover a transparência
+explanation: |
+  O capítulo menciona duas ideologias opostas no mundo do Bitcoin.
+  Uma delas é trazer bilhões de pessoas que não estão no sistema bancário para dentro dele.
+  A outra é retirar bilhões de pessoas que estão no sistema bancário dele.
+reviewed: false

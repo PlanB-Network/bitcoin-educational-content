@@ -1,0 +1,9 @@
+question: Was ist das Blockchain-Trilemma?
+answer: Ein Protokoll, das auf einer Blockchain basiert, kann nur zwei der drei Eigenschaften erfüllen: Dezentralisierung, Sicherheit und Skalierbarkeit.
+wrong_answers:
+  - Ein Protokoll, das auf einer Blockchain basiert, kann nur eine der drei Eigenschaften erfüllen: Dezentralisierung, Sicherheit oder Skalierbarkeit.
+  - Ein Protokoll, das auf einer Blockchain basiert, kann alle drei Eigenschaften erfüllen: Dezentralisierung, Sicherheit und Skalierbarkeit.
+  - Ein Protokoll, das auf einer Blockchain basiert, kann keine der drei Eigenschaften erfüllen: Dezentralisierung, Sicherheit oder Skalierbarkeit.
+explanation: |
+  Das Blockchain-Trilemma bezieht sich auf die Herausforderung, dass ein Protokoll, das auf einer Blockchain basiert, nur zwei der drei Eigenschaften erfüllen kann: Dezentralisierung, Sicherheit und Skalierbarkeit.
+reviewed: false

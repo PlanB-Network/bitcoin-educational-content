@@ -1,0 +1,9 @@
+question: Qu'est-ce que l'Effet Cantillon ?
+answer: L'Effet Cantillon fait référence au principe économique selon lequel lorsque de l'argent neuf est créé, il profite initialement à ceux qui sont les plus proches de la source de l'argent, au détriment de ceux qui en sont plus éloignés.
+wrong_answers:
+  - L'Effet Cantillon fait référence au principe économique selon lequel lorsque de l'argent neuf est créé, il profite également à tous les acteurs de l'économie.
+  - L'Effet Cantillon fait référence au principe économique selon lequel lorsque de l'argent neuf est créé, il profite initialement à ceux qui sont les plus éloignés de la source de l'argent, au détriment de ceux qui en sont plus proches.
+  - L'Effet Cantillon fait référence au principe économique selon lequel lorsque de l'argent neuf est créé, cela n'a aucun impact sur la distribution de la richesse dans l'économie.
+explanation: |
+  L'Effet Cantillon, nommé d'après l'économiste du 18e siècle Richard Cantillon, décrit comment la distribution de l'argent neuf dans une économie peut entraîner des disparités de richesse. Ceux qui sont les plus proches de la source de l'argent neuf (comme les banquiers et les propriétaires d'actifs) en bénéficient en premier et de manière significative, tandis que ceux qui en sont plus éloignés (comme les travailleurs moyens et les épargnants) voient moins de bénéfices, voire des effets négatifs dus à l'inflation.
+reviewed: false

@@ -1,0 +1,11 @@
+question: ¿Cuál es el papel de los mineros en la red de Bitcoin?
+answer: Para registrar las transacciones propagadas en la cadena de bloques de Bitcoin.
+wrong_answers:
+  - Para crear nuevos bitcoins
+  - Para regular el valor de los bitcoins
+  - Para verificar la identidad de los usuarios de Bitcoin
+explanation: |
+  Los mineros en la red de Bitcoin son responsables de registrar las transacciones
+  que se han propagado a través de la red en la cadena de bloques de Bitcoin. Esto asegura
+  la finalidad de las transacciones.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál fue la estrategia utilizada por España para devaluar su moneda sin afectar su posición en el comercio internacional?
+answer: España devaluó selectivamente el Maravedí, una moneda local, mientras preservaba el valor del dólar español en el escenario global.
+wrong_answers:
+  - España devaluó selectivamente el dólar español, una moneda local, mientras preservaba el valor del Maravedí en el escenario global.
+  - España aumentó selectivamente el valor del Maravedí, una moneda local, mientras preservaba el valor del dólar español en el escenario global.
+  - España aumentó selectivamente el valor del dólar español, una moneda local, mientras preservaba el valor del Maravedí en el escenario global.
+explanation: |
+  España se encontró en una situación delicada. Diluir el dólar español habría comprometido su posición en el comercio internacional. Para superar este dilema, España recurrió al Maravedí, una moneda de cobre utilizada principalmente por la población local. Esta moneda fue seleccionada para su devaluación.
+reviewed: false

@@ -8,7 +8,7 @@ wrong_answers:
     and scalability.
   - A protocol based on a blockchain cannot satisfy any of decentralization, security,
     and scalability.
-explanation: >-
+explanation: |
   The blockchain trilemma refers to the challenge that a protocol based
   on a blockchain can only satisfy two out of decentralization, security, and scalability.
 reviewed: false

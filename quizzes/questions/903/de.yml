@@ -1,0 +1,9 @@
+question: Welche Rolle spielt der Bankensektor bei der Auslösung einer Rezession gemäß der österreichischen Theorie des Konjunkturzyklus?
+answer: Der Bankensektor löst eine Rezession aus, wenn er beschließt, sein Risiko zu reduzieren und somit den Kreditfluss zu verringern.
+wrong_answers:
+  - Der Bankensektor löst eine Rezession aus, wenn er beschließt, sein Risiko zu erhöhen und somit den Kreditfluss zu erhöhen.
+  - Der Bankensektor löst eine Rezession aus, wenn er beschließt, sein Risiko beizubehalten und somit den Kreditfluss aufrechterhält.
+  - Der Bankensektor spielt gemäß der österreichischen Theorie des Konjunkturzyklus keine Rolle bei der Auslösung einer Rezession.
+explanation: |
+  Gemäß der österreichischen Theorie des Konjunkturzyklus löst der Bankensektor eine Rezession aus, wenn er beschließt, sein Risiko zu reduzieren und somit den Kreditfluss zu verringern. Dies führt zu vielen Insolvenzen, einer Kreditverknappung, einer Abnahme der verfügbaren Kaufkraft und Finanzkrisen.
+reviewed: false

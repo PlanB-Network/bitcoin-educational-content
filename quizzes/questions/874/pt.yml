@@ -1,0 +1,9 @@
+question: Qual é o conceito de utilidade marginal decrescente?
+answer: Cada unidade adicional de um bem é menos desejada do que a anterior.
+wrong_answers:
+  - Cada unidade adicional de um bem é mais desejada do que a anterior.
+  - Cada unidade adicional de um bem é igualmente desejada à anterior.
+  - O desejo por cada unidade adicional de um bem flutua de forma imprevisível.
+explanation: |
+  O conceito de utilidade marginal decrescente afirma que cada unidade adicional de um bem é menos desejada do que a anterior. Isso ocorre porque, à medida que um indivíduo adquire mais de um bem, cada unidade adicional desse bem proporciona menos utilidade.
+reviewed: false

@@ -1,0 +1,11 @@
+question: ¿Cuál es la principal característica de un Hodler en el contexto de la inversión en Bitcoin?
+answer: Ellos mantienen Bitcoin a largo plazo.
+wrong_answers:
+  - Ellos frecuentemente comercian Bitcoin.
+  - Ellos solo invierten en Bitcoin cuando el precio es bajo.
+  - Ellos venden Bitcoin tan pronto como el precio aumenta.
+explanation: |
+  Un Hodler, en el contexto de la inversión en Bitcoin, es alguien que mantiene
+  Bitcoin a largo plazo, apostando a que su uso y escasez aumentarán con el
+  tiempo.
+reviewed: false

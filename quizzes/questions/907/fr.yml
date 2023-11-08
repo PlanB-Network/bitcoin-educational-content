@@ -1,0 +1,9 @@
+question: Quelle est la principale raison pour laquelle une économie planifiée de manière centralisée connaîtra inévitablement une mauvaise allocation des capitaux ?
+answer: Il n'y a pas de prix de marché ni de faillites pour révéler et corriger les mauvaises allocations.
+wrong_answers:
+  - Les planificateurs centraux ne sont pas efficaces.
+  - Les planificateurs centraux n'ont pas suffisamment d'informations.
+  - Les planificateurs centraux ne sont pas motivés pour allouer les ressources efficacement.
+explanation: |
+  Dans une économie planifiée de manière centralisée, il n'y a pas de prix de marché ni de faillites pour révéler et corriger les mauvaises allocations. En conséquence, les erreurs s'accumuleront jusqu'à ce que le gaspillage devienne apparent par une baisse significative des conditions de vie.
+reviewed: false

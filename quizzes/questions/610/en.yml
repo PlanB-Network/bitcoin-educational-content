@@ -1,0 +1,13 @@
+question: What was the annual inflation rate in Bolivia in 1985?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  In 1985, Bolivia''s annual inflation rate reached 11,749%, indicating
+
+  that almost every month, inflation was close to or exceeded the hyperinflation threshold
+
+  of 50%.'
+reviewed: false

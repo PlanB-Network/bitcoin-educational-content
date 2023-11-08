@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal limitación de las tablas clásicas de hiperinflación?
+answer: Excluyen ciertos períodos históricos de alta inflación debido a criterios de clasificación estrictos.
+wrong_answers:
+  - Incluyen demasiados episodios de inflación que no califican como hiperinflación.
+  - Están desactualizadas y no son aplicables a las economías modernas.
+  - No tienen en cuenta el impacto de la inflación en la economía.
+explanation: |
+  Las tablas clásicas de hiperinflación, como la tabla Hanke-Krus, a menudo excluyen ciertos períodos históricos de alta inflación debido a criterios de clasificación estrictos, como el umbral de inflación mensual del 50% estipulado por la definición de Cagan.
+reviewed: false

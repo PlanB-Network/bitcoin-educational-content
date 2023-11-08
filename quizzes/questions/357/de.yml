@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund, warum ein paranoider Bitcoiner seinen eigenen LN-Knoten verwenden würde?
+answer: Um Privatsphäre und Sicherheit zu gewährleisten
+wrong_answers:
+  - Um KYC-Prozesse zu vermeiden
+  - Um ihre UTXOs zu verwalten
+  - Um ihre Münzen zu mischen
+explanation: |
+  Im Kapitel wird erwähnt, dass ein paranoider Bitcoiner seinen eigenen LN-Knoten als Teil seines Fokus auf Sicherheit verwenden würde. Während das Vermeiden von KYC-Prozessen, das Verwalten von UTXOs und das Mischen von Münzen auch Aktivitäten sind, denen ein paranoider Bitcoiner nachgehen könnte, stehen diese nicht direkt im Zusammenhang mit der Verwendung eines LN-Knotens.
+reviewed: false

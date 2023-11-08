@@ -1,0 +1,10 @@
+question: ¿La capacidad de un canal de pago de Lightning es fija?
+answer: verdadero
+wrong_answers:
+  - falso
+  - Solo en algunos casos
+  - Depende de la red de Bitcoin
+explanation: |
+  Cuando se abre un canal, se le asigna una capacidad fija, que es definida
+  previamente por los usuarios.
+reviewed: false

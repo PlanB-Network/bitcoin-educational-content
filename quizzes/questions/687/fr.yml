@@ -1,0 +1,9 @@
+question: Qui décide de l'itinéraire avant d'envoyer le paiement dans le Lightning Network?
+answer: Le nœud de l'expéditeur.
+wrong_answers:
+  - Le nœud du destinataire.
+  - Le nœud intermédiaire.
+  - Le réseau lui-même.
+explanation: |
+  Dans le Lightning Network, c'est le nœud de l'expéditeur qui décide de l'itinéraire avant d'envoyer le paiement. Par conséquent, il y a une recherche de la meilleure route et l'expéditeur est le seul à connaître l'itinéraire et le prix.
+reviewed: false

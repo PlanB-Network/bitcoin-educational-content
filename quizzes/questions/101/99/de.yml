@@ -1,0 +1,9 @@
+question: Was sollten Sie tun, sobald die Worte Ihrer mnemonischen Phrase geschrieben sind?
+answer: Machen Sie eine zweite Kopie und bewahren Sie sie an einem separaten Ort auf.
+wrong_answers:
+  - Teilen Sie es mit einem vertrauenswürdigen Freund.
+  - Schicken Sie es sich per E-Mail.
+  - Speichern Sie es auf Ihrem Telefon.
+explanation: |
+  Sobald die Worte Ihrer mnemonischen Phrase geschrieben sind, wird empfohlen, eine zweite Kopie zu machen und sie an einem separaten Ort von der ersten aufzubewahren. Dies dient als Backup für den Fall eines Verlusts oder eines Unfalls mit der ersten Kopie.
+reviewed: false

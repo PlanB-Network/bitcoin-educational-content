@@ -1,0 +1,11 @@
+question: What is the role of miners in the Bitcoin network?
+answer: To record the propagated transactions in the Bitcoin blockchain
+wrong_answers:
+  - To create new bitcoins
+  - To regulate the value of bitcoins
+  - To verify the identity of Bitcoin users
+explanation: |
+  Miners in the Bitcoin network are responsible for recording the transactions
+  that have been propagated across the network into the Bitcoin blockchain. This ensures
+  the finality of transactions.
+reviewed: false

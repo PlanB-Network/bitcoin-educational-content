@@ -1,0 +1,9 @@
+question: Qual é o limite para a hiperinflação de acordo com a definição de Philip Cagan?
+answer: A inflação mensal excede 50%.
+wrong_answers:
+  - A inflação mensal excede 40%.
+  - A inflação mensal excede 60%.
+  - A inflação mensal excede 70%.
+explanation: |
+  De acordo com a definição de Philip Cagan, a hiperinflação começa quando a inflação mensal excede 50%.
+reviewed: false

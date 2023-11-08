@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck einer Cold Wallet für einen häufigen Bitcoin-Benutzer?
+answer: Um Bitcoins sicher auf lange Sicht zu speichern.
+wrong_answers:
+  - Um regelmäßig Bitcoins für den täglichen Gebrauch zu senden und zu empfangen.
+  - Um Bitcoins auf einer Handelsplattform zu handeln.
+  - Um neue Bitcoins zu minen.
+explanation: |
+  Eine Cold Wallet ist eine Art Bitcoin-Wallet, die nicht mit dem Internet verbunden ist und daher weniger anfällig für Hacking und Diebstahl ist. Sie wird in der Regel verwendet, um Bitcoins zu speichern, die nicht für tägliche Transaktionen benötigt werden.
+reviewed: false

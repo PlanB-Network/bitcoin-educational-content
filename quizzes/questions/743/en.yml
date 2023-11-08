@@ -1,0 +1,11 @@
+question: What is the potential risk of mining centralization in Bitcoin?
+answer: Mining centralization in Bitcoin can potentially lead to transaction censorship and make the network vulnerable to attacks, including the 51% attack, where an actor or group controls more than 50% of the network's hashing power, allowing them to control and manipulate the network.
+wrong_answers:
+  - Mining centralization in Bitcoin can potentially lead to a decrease in the value of Bitcoin and make the network vulnerable to inflation.
+  - Mining centralization in Bitcoin can potentially lead to a decrease in the block reward and make the network vulnerable to stagnation.
+  - Mining centralization in Bitcoin can potentially lead to a decrease in the transaction speed and make the network vulnerable to congestion.
+explanation: |
+  The chapter explains that mining centralization in Bitcoin can potentially
+  lead to transaction censorship and make the network vulnerable to attacks, including
+  the 51% attack.
+reviewed: false

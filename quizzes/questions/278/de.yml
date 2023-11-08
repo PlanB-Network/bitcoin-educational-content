@@ -1,0 +1,10 @@
+question: Welche Risiken sind mit der Aufbewahrung von Bitcoins auf einer Börsenplattform verbunden?
+answer: Die Plattform könnte bankrott gehen, Ihre Bitcoins könnten beschlagnahmt werden oder die Plattform könnte gehackt werden.
+wrong_answers:
+  - Die Plattform könnte ihre Gebühren erhöhen, Ihre Bitcoins könnten an Wert verlieren oder die Plattform könnte gehackt werden.
+  - Die Plattform könnte bankrott gehen, Ihre Bitcoins könnten an Wert gewinnen oder die Plattform könnte gehackt werden.
+  - Die Plattform könnte bankrott gehen, Ihre Bitcoins könnten beschlagnahmt werden oder die Plattform könnte ihre Gebühren erhöhen.
+explanation: |
+  Die Aufbewahrung von Bitcoins auf einer Börsenplattform birgt Risiken wie den Bankrott der Plattform, die Beschlagnahmung Ihrer Bitcoins oder das Hacken der Plattform.
+  Deshalb ist es wichtig, die Kontrolle über Ihren privaten Schlüssel zu haben.
+reviewed: false

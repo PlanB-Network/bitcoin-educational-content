@@ -1,0 +1,12 @@
+question: What is the potential threat of using cracked software that cannot be updated?
+answer: The arrival of a virus during its illegal download and an insecure use against
+  new forms of attack.
+wrong_answers:
+  - The software will stop working after a certain period.
+  - The software will not have any new features.
+  - The software will consume more system resources.
+explanation: |
+  Cracked software that cannot be updated represents a double potential
+  threat. It can bring a virus during its illegal download from a suspicious website
+  and it can be insecure against new forms of attack.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est la vision ultime de Bitcoin selon la métaphore de l'autoroute Bitcoin ?
+answer: Il deviendra une autoroute pour le trafic internet et pour 90% de la population mondiale.
+wrong_answers:
+  - Il deviendra un bien de luxe accessible uniquement aux riches.
+  - Il deviendra un outil pour des activités illégales.
+  - Il deviendra obsolète et sera remplacé par d'autres cryptomonnaies.
+explanation: |
+  La métaphore de l'"autoroute Bitcoin" envisage Bitcoin comme une autoroute pour le trafic internet et pour 90% de la population mondiale, avec des biens et des services directement accessibles sur cette autoroute.
+reviewed: false

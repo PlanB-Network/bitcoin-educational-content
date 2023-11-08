@@ -1,0 +1,9 @@
+question: Qual è un vantaggio nell'utilizzare una piattaforma di scambio per comprare e vendere bitcoin?
+answer: Permette transazioni regolari in base alle esigenze dell'utente.
+wrong_answers:
+  - Permette transazioni anonime.
+  - Aumenta il valore del Bitcoin.
+  - Fornisce una piattaforma per il mining di Bitcoin.
+explanation: |
+  Le piattaforme di scambio consentono agli utenti di comprare e vendere bitcoin regolarmente e comodamente, in base alle loro esigenze.
+reviewed: false

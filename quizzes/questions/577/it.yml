@@ -1,0 +1,9 @@
+question: Qual è il principale argomento degli economisti fiat riguardo alla deflazione?
+answer: Sostengono che la deflazione sia dannosa per l'economia in quanto scoraggia la spesa e gli investimenti.
+wrong_answers:
+  - Sostengono che la deflazione sia vantaggiosa per l'economia in quanto incoraggia il risparmio e gli investimenti.
+  - Sostengono che la deflazione non abbia alcun impatto sull'economia.
+  - Sostengono che la deflazione non sia né vantaggiosa né dannosa per l'economia.
+explanation: |
+  Gli economisti fiat, che sostengono il sistema monetario attuale in cui la moneta non è supportata da una merce fisica come l'oro, generalmente sostengono che la deflazione sia dannosa per l'economia. Credono che essa scoraggi la spesa e gli investimenti, il che può portare a stagnazione economica o recessione.
+reviewed: false

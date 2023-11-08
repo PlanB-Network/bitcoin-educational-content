@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel del sector bancario en desencadenar una recesión según la Teoría Austriaca del Ciclo Económico?
+answer: El sector bancario desencadena una recesión cuando decide reducir su riesgo y, por lo tanto, disminuye el flujo de crédito.
+wrong_answers:
+  - El sector bancario desencadena una recesión cuando decide aumentar su riesgo y, por lo tanto, aumenta el flujo de crédito.
+  - El sector bancario desencadena una recesión cuando decide mantener su riesgo y, por lo tanto, mantiene el flujo de crédito.
+  - El sector bancario no tiene ningún papel en desencadenar una recesión según la Teoría Austriaca del Ciclo Económico.
+explanation: |
+  Según la Teoría Austriaca del Ciclo Económico, el sector bancario desencadena una recesión cuando decide reducir su riesgo y, por lo tanto, disminuye el flujo de crédito. Esto lleva a muchas quiebras, restricciones crediticias, una disminución en el poder adquisitivo disponible y colapsos financieros.
+reviewed: false

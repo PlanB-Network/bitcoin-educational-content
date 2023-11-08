@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito principal de una billetera fría para un usuario frecuente de Bitcoin?
+answer: Almacenar de forma segura bitcoins a largo plazo.
+wrong_answers:
+  - Enviar y recibir bitcoins regularmente para uso diario.
+  - Comerciar bitcoins en una plataforma de intercambio.
+  - Minar nuevos bitcoins.
+explanation: |
+  Una billetera fría es un tipo de billetera de Bitcoin que no está conectada a internet, lo que la hace menos vulnerable a hackeos y robos. Normalmente se utiliza para almacenar bitcoins que no se necesitan para transacciones diarias.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è il costo di eseguire un nodo Bitcoin su un Raspberry Pi 4 in termini di consumo di elettricità all'anno?
+answer: "Un po' meno di \u20AC10 all'anno"
+wrong_answers:
+  - "Circa \u20AC50 all'anno"
+  - "Circa \u20AC100 all'anno"
+  - "Circa \u20AC200 all'anno"
+explanation: |
+  "Eseguire un nodo Bitcoin su un Raspberry Pi 4 costa un po' meno di \u20AC10 all'anno in termini di consumo di elettricità."
+reviewed: false

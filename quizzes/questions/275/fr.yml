@@ -1,0 +1,9 @@
+question: Quelle est l'une des mesures pour maintenir votre ordinateur en bon état de fonctionnement ?
+answer: Effectuer régulièrement des sauvegardes de vos données
+wrong_answers:
+  - Partager vos mots de passe
+  - Utiliser le même mot de passe pour tous les comptes
+  - Négliger de mettre à jour votre ordinateur
+explanation: |
+  Effectuer régulièrement des sauvegardes de vos données est l'une des mesures pour maintenir votre ordinateur en bon état de fonctionnement. C'est également une mesure de base pour améliorer les habitudes de sécurité en ligne.
+reviewed: false

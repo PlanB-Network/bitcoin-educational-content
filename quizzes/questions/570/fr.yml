@@ -1,0 +1,9 @@
+question: Quel est le rôle des attentes et du comportement des agents économiques dans la relation entre l'impression monétaire et l'inflation ?
+answer: Les incertitudes économiques et les attentes des agents économiques peuvent soit accélérer, soit retarder les effets inflationnistes de l'impression monétaire.
+wrong_answers:
+  - Les attentes et le comportement des agents économiques n'ont aucun impact sur la relation entre l'impression monétaire et l'inflation.
+  - Les attentes et le comportement des agents économiques accélèrent toujours les effets inflationnistes de l'impression monétaire.
+  - Les attentes et le comportement des agents économiques retardent toujours les effets inflationnistes de l'impression monétaire.
+explanation: |
+  Le chapitre explique que l'exemple de la République de Weimar illustre le rôle des attentes et du comportement des agents économiques dans la relation entre l'impression monétaire et l'inflation. Les incertitudes économiques et les attentes des agents économiques peuvent soit accélérer, soit retarder les effets inflationnistes de l'impression monétaire.
+reviewed: false

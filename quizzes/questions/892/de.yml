@@ -1,0 +1,12 @@
+question: Was ist laut Carl Menger der ultimative Zweck wirtschaftlicher Aktivitäten?
+answer: Der ultimative Zweck wirtschaftlicher Aktivitäten ist der Konsum.
+wrong_answers:
+  - Der ultimative Zweck wirtschaftlicher Aktivitäten ist die Produktion.
+  - Der ultimative Zweck wirtschaftlicher Aktivitäten ist das Sparen.
+  - Der ultimative Zweck wirtschaftlicher Aktivitäten ist die Investition.
+explanation: |
+  Laut Carl Menger werden Güter nur als wirtschaftliche Güter betrachtet (bewertet),
+  weil sie als Mittel zu Zwecken dienen, die von Individuen gewählt und geschätzt werden. Daher
+  ist für Menger der Ausgangspunkt der wirtschaftlichen Analyse Konsumgüter oder Endgüter,
+  da sie den ultimativen Zweck wirtschaftlicher Aktivitäten darstellen.
+reviewed: false

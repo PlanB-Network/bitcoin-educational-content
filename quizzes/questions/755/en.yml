@@ -1,0 +1,11 @@
+question: What is the base layer of the Bitcoin network often referred to as?
+answer: The settlement layer
+wrong_answers:
+  - The transaction layer
+  - The security layer
+  - The consensus layer
+explanation: |
+  The base layer of the Bitcoin network, which the Lightning Network relies
+  on for opening and closing payment channels, is often referred to as the "settlement
+  layer".
+reviewed: false

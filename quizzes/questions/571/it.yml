@@ -1,0 +1,9 @@
+question: Qual è la differenza tra l'inflazione da domanda e l'inflazione da costo?
+answer: L'inflazione da domanda è una situazione in cui la domanda nell'economia supera la produzione disponibile, mentre l'inflazione da costo è attribuita all'aumento dei costi di produzione.
+wrong_answers:
+  - L'inflazione da domanda è attribuita all'aumento dei costi di produzione, mentre l'inflazione da costo è una situazione in cui la domanda nell'economia supera la produzione disponibile.
+  - L'inflazione da domanda e l'inflazione da costo sono la stessa cosa, entrambe si riferiscono a una situazione in cui la domanda nell'economia supera la produzione disponibile.
+  - L'inflazione da domanda e l'inflazione da costo sono la stessa cosa, entrambe si riferiscono all'aumento dei costi di produzione.
+explanation: |
+  Il capitolo spiega che l'inflazione da domanda è spesso spiegata come una situazione in cui la domanda nell'economia supera la produzione disponibile. D'altra parte, l'inflazione da costo è attribuita all'aumento dei costi di produzione.
+reviewed: false

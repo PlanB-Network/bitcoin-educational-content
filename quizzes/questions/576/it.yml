@@ -1,0 +1,9 @@
+question: Cosa significa se il prezzo di acquisto diminuisce più velocemente del prezzo di vendita?
+answer: Significa che il venditore sta ottenendo un profitto in quanto riesce a vendere i suoi beni o servizi a un prezzo superiore a quello di acquisto.
+wrong_answers:
+  - Significa che il venditore sta subendo una perdita in quanto vende i suoi beni o servizi a un prezzo inferiore a quello di acquisto.
+  - Significa che l'acquirente sta ottenendo un profitto in quanto riesce a comprare beni o servizi a un prezzo inferiore a quello di vendita.
+  - Significa che l'acquirente sta subendo una perdita in quanto compra beni o servizi a un prezzo superiore a quello di vendita.
+explanation: |
+  Se il prezzo di acquisto diminuisce più velocemente del prezzo di vendita, significa che il venditore sta ottenendo un profitto. Questo perché riesce a vendere i suoi beni o servizi a un prezzo superiore a quello di acquisto.
+reviewed: false

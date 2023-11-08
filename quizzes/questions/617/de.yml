@@ -1,0 +1,9 @@
+question: Welche Lösung hat Deutschland nach dem Ersten Weltkrieg zur Bekämpfung der Inflation gewählt?
+answer: Die Schaffung einer neuen Währung, der Rentenmark
+wrong_answers:
+  - Dollarisierung
+  - Mehr Geld drucken
+  - Verringerung der Geldmenge
+explanation: |
+  Deutschland schuf nach dem Ersten Weltkrieg eine neue Währung, die Rentenmark, um der Inflation entgegenzuwirken. Diese Währung wurde durch die territorialen Vermögenswerte des Reiches gestützt und diese Strategie erwies sich als wirksam.
+reviewed: false

@@ -1,0 +1,14 @@
+question: What is the main benefit of using a VPN?
+answer: It protects your privacy by masking your IP address
+wrong_answers:
+  - It speeds up your internet connection
+  - It provides free access to paid services
+  - It protects your computer from viruses
+explanation: |
+  A VPN, or Virtual Private Network, protects your privacy by masking
+  your
+
+  IP address. While it doesn''t make you completely anonymous, it is still a simple
+
+  and effective step to improve your online privacy.'
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le seuil d'hyperinflation selon la définition de Philip Cagan ?
+answer: L'inflation mensuelle dépasse 50%.
+wrong_answers:
+  - L'inflation mensuelle dépasse 40%
+  - L'inflation mensuelle dépasse 60%
+  - L'inflation mensuelle dépasse 70%
+explanation: |
+  Selon la définition de Philip Cagan, l'hyperinflation commence lorsque l'inflation mensuelle dépasse 50%.
+reviewed: false

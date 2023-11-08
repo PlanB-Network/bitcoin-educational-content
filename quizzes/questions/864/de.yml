@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel des Kurses?
+answer: Das Hauptziel des Kurses besteht darin, die grundlegenden Konzepte der österreichischen Wirtschaftstheorie zu erforschen.
+wrong_answers:
+  - Das Hauptziel des Kurses besteht darin, die keynesianische Lehre zu fördern.
+  - Das Hauptziel des Kurses besteht darin, die Funktionsweise von Zentralbanken zu erklären.
+  - Das Hauptziel des Kurses besteht darin, die Zentralisierung der monetären Macht zu fördern.
+explanation: |
+  Im Kapitel wird erwähnt, dass der Kurs das Ziel hat, die grundlegenden Konzepte der österreichischen Wirtschaftstheorie zu erforschen.
+reviewed: false

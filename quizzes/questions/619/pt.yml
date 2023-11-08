@@ -1,0 +1,9 @@
+question: Qual é uma das consequências da dolarização?
+answer: Perda da política monetária autônoma
+wrong_answers:
+  - Aumento da inflação
+  - Aumento da oferta monetária
+  - Diminuição da confiança pública
+explanation: |
+  A dolarização pode acabar com a hiperinflação, mas apresenta outros desafios econômicos. Uma das consequências é a perda da política monetária autônoma. Sem sua própria moeda, um país não pode ajustar sua política monetária para responder a choques econômicos internos.
+reviewed: false

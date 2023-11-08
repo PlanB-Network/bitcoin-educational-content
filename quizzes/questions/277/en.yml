@@ -1,0 +1,21 @@
+question: What is the difference between trading, investing, and holding in the context
+  of Bitcoin?
+answer: Trading involves short-term contracts with high risk, investing involves buying
+  BTC for short to medium-term with limited risk, and holding involves keeping BTC
+  for a very long term with limited risk.
+wrong_answers:
+  - Trading involves buying BTC for long-term, investing involves short-term contracts
+    with high risk, and holding involves keeping BTC for a short to medium-term with
+    limited risk.
+  - Trading involves buying BTC for short to medium-term, investing involves short-term
+    contracts with high risk, and holding involves keeping BTC for a very long term
+    with high risk.
+  - Trading involves buying BTC for short to medium-term, investing involves short-term
+    contracts with high risk, and holding involves keeping BTC for a very long term
+    with limited risk.
+explanation: |
+  Trading, investing, and holding are three different strategies used in
+  the Bitcoin market. Trading involves short-term contracts with high risk, investing
+  involves buying BTC for short to medium-term with limited risk, and holding involves
+  keeping BTC for a very long term with limited risk.
+reviewed: false

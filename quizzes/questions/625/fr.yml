@@ -1,0 +1,9 @@
+question: Quelle était la première couche de monnaie en Italie au XIIIe siècle ?
+answer: L'or, représenté par le florin
+wrong_answers:
+  - Les lettres de change
+  - Les billets à ordre
+  - Les pièces d'argent
+explanation: |
+  Au XIIIe siècle en Italie, plus précisément à Florence, la première couche de monnaie était constituée d'or réel, représenté par le florin. Les orfèvres émettaient des lettres de change en échange des florins déposés, ce qui constituait la deuxième couche de monnaie.
+reviewed: false

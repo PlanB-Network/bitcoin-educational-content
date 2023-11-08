@@ -1,0 +1,9 @@
+question: Qual é o conceito de preferência temporal?
+answer: A preferência temporal é a avaliação subjetiva do valor dos bens futuros em comparação com os bens presentes. Tudo o mais sendo igual, os bens presentes são inherentemente preferidos em relação aos bens futuros.
+wrong_answers:
+  - A preferência temporal é a avaliação objetiva do valor dos bens futuros em comparação com os bens presentes.
+  - A preferência temporal é a preferência inerente pelos bens futuros em relação aos bens presentes.
+  - A preferência temporal é a avaliação subjetiva do valor dos bens presentes em comparação com os bens futuros.
+explanation: |
+  A preferência temporal é a avaliação subjetiva do valor dos bens futuros em comparação com os bens presentes. Como somos mortais e o futuro é sempre incerto, naturalmente preferimos ter acesso a um bem agora em vez de mais tarde. Embora a preferência temporal possa variar entre indivíduos, devido a uma infinidade de fatores como cultura, riqueza, educação, fisiologia, etc., as preferências temporais são sempre positivas, o que significa que, todas as coisas sendo iguais, sempre valorizamos mais os bens presentes do que os bens futuros.
+reviewed: false

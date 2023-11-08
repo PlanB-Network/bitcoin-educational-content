@@ -1,0 +1,9 @@
+question: Qual è uno degli assiomi fondamentali dell'economia austriaca?
+answer: Uno degli assiomi fondamentali è la preferenza temporale positiva, che si basa sulla scelta individuale di beni o servizi oggi piuttosto che domani.
+wrong_answers:
+  - Uno degli assiomi fondamentali è la determinazione arbitraria dei tassi di interesse.
+  - Uno degli assiomi fondamentali è il ricorso ai dati empirici.
+  - Uno degli assiomi fondamentali è l'uso di esperimenti temporanei per confermare o confutare ipotesi.
+explanation: |
+  Nell'economia austriaca, uno degli assiomi fondamentali è la preferenza temporale positiva, che si basa sulla scelta individuale di beni o servizi oggi piuttosto che domani, a causa dell'incertezza sul futuro.
+reviewed: false

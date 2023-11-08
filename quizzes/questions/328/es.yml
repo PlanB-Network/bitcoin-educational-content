@@ -1,0 +1,9 @@
+question: ¿Cuál es el riesgo de no poseer la clave privada de tu billetera de Bitcoin?
+answer: Tus bitcoins están sujetos a riesgos como el hackeo, la confiscación, la regulación o la quiebra.
+wrong_answers:
+  - Tus bitcoins se convertirán automáticamente en otra criptomoneda.
+  - Tus bitcoins perderán su valor.
+  - Tus bitcoins serán transferidos a otra billetera.
+explanation: |
+  Si no posees la clave privada de tu billetera de Bitcoin, tus bitcoins están sujetos a riesgos como el hackeo, la confiscación, la regulación o la quiebra.
+reviewed: false

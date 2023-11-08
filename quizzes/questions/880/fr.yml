@@ -1,0 +1,9 @@
+question: Selon Carl Menger, quelle est la nature de la valeur ?
+answer: La valeur est un phénomène psychologique subjectif propre à chaque individu.
+wrong_answers:
+  - La valeur est une propriété inhérente des biens.
+  - La valeur est un phénomène objectif et mesurable.
+  - La valeur est déterminée par la quantité de travail utilisée dans la production.
+explanation: |
+  Selon Menger, la valeur est un phénomène psychologique subjectif propre à chaque individu. Cela signifie que la valeur n'est pas une propriété inhérente des biens, mais découle plutôt de l'opinion de l'individu sur l'utilité qu'il peut tirer de ces biens.
+reviewed: false

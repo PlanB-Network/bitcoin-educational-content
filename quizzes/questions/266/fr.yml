@@ -1,0 +1,9 @@
+question: Quelle est une arnaque courante liée aux dons en ligne dans le secteur de la cryptomonnaie ?
+answer: Des offres prétendant doubler ou multiplier les bitcoins que vous envoyez.
+wrong_answers:
+  - Des offres prétendant doubler ou multiplier vos biens physiques.
+  - Des offres prétendant doubler ou multiplier votre monnaie fiduciaire.
+  - Des offres prétendant doubler ou multiplier vos produits logiciels.
+explanation: |
+  Un exemple classique de ce type d'arnaque est une offre prétendant doubler ou multiplier les bitcoins que vous envoyez. Il est important de comprendre qu'il n'y a pas de solution magique pour devenir instantanément riche.
+reviewed: false

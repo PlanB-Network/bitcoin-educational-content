@@ -1,0 +1,9 @@
+question: Welchen Einfluss haben Bank- und Zentralbankbilanzen auf die Inflation?
+answer: Wenn neu geschaffenes Geld auf den Bilanzen von Privatbanken verbleibt, ohne an wirtschaftliche Akteure verliehen zu werden, hat es keinen direkten Einfluss auf die Realwirtschaft und führt daher nicht zu Inflation.
+wrong_answers:
+  - Wenn neu geschaffenes Geld auf den Bilanzen von Privatbanken verbleibt, führt dies immer zu Inflation.
+  - Bank- und Zentralbankbilanzen haben keinen Einfluss auf die Inflation.
+  - Wenn neu geschaffenes Geld an wirtschaftliche Akteure verliehen wird, führt dies nicht zu Inflation.
+explanation: |
+  Das Kapitel erklärt, dass die Beziehung zwischen Geldschöpfung und Inflation davon abhängt, wie neu geschaffenes Geld in die Wirtschaft eingeführt wird. Wenn dieses Geld auf den Bilanzen von Privatbanken verbleibt, ohne an wirtschaftliche Akteure verliehen zu werden, hat es keinen direkten Einfluss auf die Realwirtschaft und führt daher nicht zu Inflation.
+reviewed: false

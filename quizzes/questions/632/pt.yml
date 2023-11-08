@@ -1,0 +1,9 @@
+question: Qual é a ideia principal por trás do conceito do valor do dinheiro no tempo?
+answer: O tempo tem valor
+wrong_answers:
+  - O dinheiro perde valor ao longo do tempo
+  - O dinheiro pode ser trocado por tempo
+  - O tempo pode ser trocado por dinheiro
+explanation: |
+  A ideia principal por trás do conceito do valor do dinheiro no tempo é que o tempo tem valor. Se alguém decide pagar uma nota promissória no valor de $100 um mês antes, eles podem obtê-la por, por exemplo, $98 e receber os $100 na data de vencimento.
+reviewed: false

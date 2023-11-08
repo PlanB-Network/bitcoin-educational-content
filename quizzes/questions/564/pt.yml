@@ -1,0 +1,9 @@
+question: Qual é a diferença fundamental entre Aumento de Preços e Inflação?
+answer: O aumento de preços pode ser específico de um setor e induzido por vários fatores, enquanto a inflação é definida por um aumento generalizado nos preços de uma variedade de bens e serviços.
+wrong_answers:
+  - O aumento de preços é um aumento generalizado nos preços de uma variedade de bens e serviços, enquanto a inflação é específica de um setor e induzida por vários fatores.
+  - O aumento de preços e a inflação são a mesma coisa, ambos se referem a um aumento generalizado nos preços de uma variedade de bens e serviços.
+  - O aumento de preços se refere a uma diminuição nos preços, enquanto a inflação se refere a um aumento nos preços.
+explanation: |
+  O capítulo explica que um aumento de preços pode ser específico de um setor e induzido por vários fatores, como uma diminuição na produção da OPEP para o petróleo ou condições climáticas desfavoráveis para o trigo. Por outro lado, a inflação é definida por um aumento generalizado nos preços de uma variedade de bens e serviços, não apenas em um setor específico.
+reviewed: false

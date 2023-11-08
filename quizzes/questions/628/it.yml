@@ -1,0 +1,9 @@
+question: Qual è stata la conseguenza della relegazione delle banche private da parte della Banca d'Inghilterra a una posizione secondaria nel sistema monetario?
+answer: È stata creata una terza forma di valuta
+wrong_answers:
+  - La Banca d'Inghilterra è andata in bancarotta
+  - Il valore dell'oro è aumentato
+  - La Banca di Amsterdam è diventata il centro economico globale
+explanation: |
+  Quando la Banca d'Inghilterra ha relegato le banche private a una posizione secondaria nel sistema monetario, è stata creata una terza forma di valuta. I titoli emessi dalle banche private non erano più convertibili in oro, ma in valuta cartacea emessa dalla Banca d'Inghilterra, che a sua volta era convertibile in oro.
+reviewed: false

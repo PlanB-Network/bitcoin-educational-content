@@ -1,0 +1,10 @@
+question: What is the Bitcoin blockchain?
+answer: A database that records all Bitcoin transactions
+wrong_answers:
+  - A type of digital currency
+  - A network of Bitcoin users
+  - A method of mining bitcoins
+explanation: |
+  The Bitcoin blockchain is a database that records all Bitcoin transactions.
+  It is maintained by miners who add new transactions to the blockchain.
+reviewed: false

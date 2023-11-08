@@ -1,0 +1,10 @@
+question: What is the role of a hot LN wallet for a Hodler who wants to go further?
+answer: For spending some Bitcoin.
+wrong_answers:
+  - For buying more Bitcoin.
+  - For storing all their Bitcoin.
+  - For trading Bitcoin.
+explanation: |
+  A Hodler who wants to go further can use a hot LN wallet for spending
+  some Bitcoin, in addition to holding it for the long term.
+reviewed: false

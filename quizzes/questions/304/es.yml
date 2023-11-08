@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que los gobiernos y los bancos centrales están explorando la posibilidad de crear una versión digital de su moneda fiduciaria?
+answer: Para garantizar el control y cumplir con las regulaciones locales
+wrong_answers:
+  - Para competir con Bitcoin
+  - Para proporcionar protección de privacidad
+  - Para aumentar la vigilancia masiva
+explanation: |
+  El contenido del capítulo explica que aunque estos proyectos afirman competir con Bitcoin, siguen siendo centralizados para garantizar el control y cumplir con las regulaciones locales.
+reviewed: false

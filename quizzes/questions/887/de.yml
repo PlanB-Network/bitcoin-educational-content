@@ -1,0 +1,9 @@
+question: Was ist die Beziehung zwischen Zeitpräferenz und Zinssätzen in einer Wirtschaft mit unmanipulierten Kapitalmärkten?
+answer: Eine Erhöhung der Zinssätze resultiert aus einer relativen Zunahme der Nachfrage nach Kapital im Vergleich zum Angebot, was auf höhere Zeitpräferenzen hinweist. Umgekehrt tritt eine Senkung der Zinssätze aufgrund einer Zunahme der Ersparnisse auf, was eine Erhöhung des Kapitalangebots darstellt und auf eine Verringerung der Zeitpräferenzen hinweist.
+wrong_answers:
+  - Eine Erhöhung der Zinssätze deutet auf eine Verringerung der Zeitpräferenzen hin, während eine Senkung der Zinssätze auf eine Zunahme der Zeitpräferenzen hinweist.
+  - Zeitpräferenz und Zinssätze stehen in umgekehrtem Verhältnis zueinander.
+  - Zeitpräferenz und Zinssätze haben keine direkte Beziehung zueinander.
+explanation: |
+  In einer Wirtschaft mit unmanipulierten Kapitalmärkten werden Referenzzinssätze an der Schnittstelle von Kapitalangebot und -nachfrage bestimmt. Diese Zinssätze repräsentieren daher den Zustand der Zeitpräferenzen für die gesamte Wirtschaft. Eine Erhöhung des Zinssatzes resultiert aus einer relativen Zunahme der Nachfrage nach Kapital im Vergleich zum Angebot, was auf höhere Zeitpräferenzen hinweist. Umgekehrt tritt eine Senkung der Zinssätze aufgrund einer Zunahme der Ersparnisse auf, was eine Erhöhung des Kapitalangebots darstellt und auf eine Verringerung der Zeitpräferenzen hinweist.
+reviewed: false

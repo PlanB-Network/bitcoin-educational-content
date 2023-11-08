@@ -1,0 +1,12 @@
+question: What is the future concern regarding the use of Bitcoin block space?
+answer: The future concern is that with the expected growth of the Lightning Network and the consequent increase in channel openings and closings, space in Bitcoin blocks will become increasingly valuable.
+wrong_answers:
+  - The future concern is that the size of Bitcoin blocks will become too large to manage.
+  - The future concern is that the number of Bitcoin blocks will exceed the capacity of the network.
+  - The future concern is that the complexity of Bitcoin blocks will increase, making them difficult to process.
+explanation: |
+  With the expected growth of the Lightning Network and the consequent
+  increase in channel openings and closings, space in Bitcoin blocks will become increasingly
+  valuable. This has led to discussions about the legitimate use of block space, with
+  concerns about "spam" on the blockchain from transactions considered non-essential.
+reviewed: false

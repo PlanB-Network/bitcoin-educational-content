@@ -1,0 +1,9 @@
+question: Secondo Carl Menger, qual è la natura del valore?
+answer: Il valore è un fenomeno psicologico soggettivo all'interno dell'individuo.
+wrong_answers:
+  - Il valore è una proprietà intrinseca dei beni.
+  - Il valore è un fenomeno oggettivo e misurabile.
+  - Il valore è determinato dalla quantità di lavoro impiegata nella produzione.
+explanation: |
+  Secondo Menger, il valore è un fenomeno psicologico soggettivo all'interno dell'individuo. Ciò significa che il valore non è una proprietà intrinseca dei beni, ma deriva piuttosto dall'opinione dell'individuo sulla utilità che può trarre da quei beni.
+reviewed: false

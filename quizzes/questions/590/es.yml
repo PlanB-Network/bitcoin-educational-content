@@ -1,0 +1,9 @@
+question: ¿Cuál es una consecuencia común de la hiperinflación, como se ha visto en los casos de Zimbabwe y la República de Weimar?
+answer: El valor intrínseco de un billete puede llegar a ser inferior al valor del papel en el que está impreso.
+wrong_answers:
+  - El valor de la moneda aumenta.
+  - La demanda de billetes disminuye.
+  - El valor de los activos tangibles disminuye.
+explanation: |
+  En ciertas circunstancias económicas, como la hiperinflación, el valor intrínseco de un billete puede llegar a ser inferior al valor del papel en el que está impreso. Esta depreciación drástica convierte a los billetes, que normalmente son símbolos de valor y poder adquisitivo, en simples trozos de papel sin valor.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qu'est-ce qui modifie la répartition de la capacité dans un canal de paiement Lightning ?
+answer: Transactions à l'intérieur du canal
+wrong_answers:
+  - Les variations du taux de change du Bitcoin
+  - Les variations de la capacité totale du canal
+  - Les variations du réseau Bitcoin
+explanation: |
+  Les transactions à l'intérieur du canal ne modifient pas la capacité totale du canal, mais elles modifient la répartition de cette capacité entre les utilisateurs.
+reviewed: false

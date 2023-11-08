@@ -1,0 +1,9 @@
+question: Qual è la differenza tra il trading e l'investimento nel contesto del Bitcoin?
+answer: Il trading coinvolge contratti a breve termine con alto rischio, mentre l'investimento coinvolge l'acquisto di BTC a breve o medio termine con rischio limitato.
+wrong_answers:
+  - Il trading coinvolge l'acquisto di BTC a breve o medio termine, mentre l'investimento coinvolge contratti a breve termine con alto rischio.
+  - Il trading coinvolge l'acquisto di BTC a lungo termine, mentre l'investimento coinvolge contratti a breve termine con alto rischio.
+  - Il trading coinvolge l'acquisto di BTC a breve o medio termine, mentre l'investimento coinvolge l'acquisto di BTC a lungo termine.
+explanation: |
+  Nel contesto del Bitcoin, il trading coinvolge contratti a breve termine con alto rischio, mentre l'investimento coinvolge l'acquisto di BTC a breve o medio termine con rischio limitato.
+reviewed: false

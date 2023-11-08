@@ -1,0 +1,9 @@
+question: Qual é a regra de ouro dos investimentos?
+answer: Nunca invista mais do que você pode se dar ao luxo de perder.
+wrong_answers:
+  - Sempre invista no que está na moda.
+  - Sempre invista com dinheiro emprestado.
+  - Sempre invista no que você não entende.
+explanation: |
+  A regra de ouro dos investimentos é nunca investir mais do que você pode se dar ao luxo de perder. Isso ocorre porque investir sempre envolve um certo nível de risco, e você deve investir apenas o dinheiro que pode perder sem afetar sua estabilidade financeira.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "¿Cuál es la diferencia fundamental entre la teoría del valor marginal de Carl Menger y la de Léon Walras y William Stanley Jevons?"
+answer: La teoría de Menger es principalmente subjetiva, mientras que Walras y Jevons consideran el valor como un fenómeno objetivo y medible.
+wrong_answers:
+  - La teoría de Menger es principalmente objetiva, mientras que Walras y Jevons consideran el valor como un fenómeno subjetivo e inmedible.
+  - La teoría de Menger se basa en la teoría del valor del trabajo, mientras que Walras y Jevons consideran que el valor se basa en la cantidad de tierra utilizada en la producción.
+  - La teoría de Menger se basa en la teoría del valor de la tierra de los fisiócratas, mientras que Walras y Jevons consideran que el valor se basa en el trabajo utilizado en la producción.
+explanation: |
+  Según el capítulo, la teoría del valor marginal de Menger es subjetiva, lo que significa que se basa en la percepción individual de la utilidad que se puede obtener de un bien o servicio. Por otro lado, Walras y Jevons consideran que el valor es un fenómeno objetivo y medible.
+reviewed: false

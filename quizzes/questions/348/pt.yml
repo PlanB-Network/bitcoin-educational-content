@@ -1,0 +1,9 @@
+question: Qual é o principal motivo pelo qual um usuário frequente de Bitcoin optaria por uma carteira baseada na Lightning Network para transações diárias?
+answer: Isso melhora a eficiência das transações de Bitcoin.
+wrong_answers:
+  - Isso aumenta o valor do Bitcoin.
+  - Isso permite transações anônimas.
+  - Isso fornece uma plataforma para negociar Bitcoin.
+explanation: |
+  A Lightning Network é um protocolo de pagamento de "camada 2" que opera em cima de uma criptomoeda baseada em blockchain, como o Bitcoin. Ele foi projetado para permitir transações rápidas e de baixo custo.
+reviewed: false

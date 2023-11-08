@@ -1,0 +1,11 @@
+question: ¿Cuál fue la primera capa de dinero en Italia en el siglo XIII?
+answer: Oro, representado por el florín
+wrong_answers:
+  - Letras de cambio
+  - Pagarés
+  - Monedas de plata
+explanation: |
+  En el siglo XIII en Italia, específicamente en Florencia, la primera capa de dinero
+  era oro real, representado por el florín. Los orfebres emitían letras de cambio
+  a cambio de florines depositados, lo que formaba la segunda capa de dinero.
+reviewed: false

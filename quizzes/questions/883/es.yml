@@ -1,0 +1,9 @@
+question: ¿Cuál es la solución al problema del intercambio directo en la división del trabajo?
+answer: El intercambio indirecto facilitado por el dinero.
+wrong_answers:
+  - Intercambio directo facilitado por trueque.
+  - Intercambio indirecto facilitado por trueque.
+  - Intercambio directo facilitado por dinero.
+explanation: |
+  El dinero permite el intercambio indirecto, donde un individuo puede comprar a otro, y el vendedor puede utilizar esa unidad monetaria en otro lugar, en otro momento y con otra persona.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è il concetto di preferenza temporale?
+answer: La preferenza temporale è la valutazione soggettiva del valore dei beni futuri rispetto ai beni presenti. Tutto il resto essendo uguale, i beni presenti sono intrinsecamente preferiti rispetto ai beni futuri.
+wrong_answers:
+  - La preferenza temporale è la valutazione oggettiva del valore dei beni futuri rispetto ai beni presenti.
+  - La preferenza temporale è la preferenza intrinseca per i beni futuri rispetto ai beni presenti.
+  - La preferenza temporale è la valutazione soggettiva del valore dei beni presenti rispetto ai beni futuri.
+explanation: |
+  La preferenza temporale è la valutazione soggettiva del valore dei beni futuri rispetto ai beni presenti. Poiché siamo mortali e il futuro è sempre incerto, preferiamo naturalmente avere accesso a un bene ora piuttosto che in seguito. Sebbene la preferenza temporale possa variare tra gli individui a causa di una miriade di fattori come cultura, ricchezza, istruzione, fisiologia, ecc., le preferenze temporali sono sempre positive, il che significa che, tutto il resto essendo uguale, valorizziamo sempre di più i beni presenti rispetto ai beni futuri.
+reviewed: false

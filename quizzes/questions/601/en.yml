@@ -1,0 +1,11 @@
+question: What is the impact of hyperinflation on savings?
+answer: It erodes the value of capital and income, making long-term planning difficult.
+wrong_answers:
+  - It increases the value of savings.
+  - It has no impact on savings.
+  - It encourages people to save more.
+explanation: |
+  In a period of hyperinflation, saving becomes a challenge. Money quickly
+  loses its value, making long-term planning difficult. This financial instability
+  can cause stress and anxiety.
+reviewed: false

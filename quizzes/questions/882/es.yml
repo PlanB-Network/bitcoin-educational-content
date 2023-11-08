@@ -1,0 +1,9 @@
+question: ¿Por qué vuelve a surgir el problema de la coordinación en la división del trabajo en comunidades más grandes?
+answer: Porque los seres humanos están limitados por sus capacidades cognitivas y la medición socialmente aceptada del valor de las contribuciones en el intercambio es un problema no trivial.
+wrong_answers:
+  - Porque los seres humanos no están interesados en trabajar con grupos más grandes y prefieren comunidades más pequeñas.
+  - Porque las comunidades más grandes tienen más recursos, lo que reduce la necesidad de división del trabajo.
+  - Porque las comunidades más grandes tienen más conflictos, lo que dificulta la coordinación.
+explanation: |
+  En comunidades más grandes, es imposible para una persona mantener y recordar relaciones sociales estables con más de 150 individuos, lo que hace que un sistema de reputación sea insuficiente para superar el dilema del prisionero a gran escala. Además, evaluar el valor de las contribuciones en el intercambio es un problema complejo en comunidades más grandes.
+reviewed: false

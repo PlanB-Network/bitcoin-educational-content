@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que un usuario frecuente de Bitcoin optaría por una billetera basada en la Red Lightning para transacciones diarias?
+answer: Mejora la eficiencia de las transacciones de Bitcoin.
+wrong_answers:
+  - Aumenta el valor de Bitcoin.
+  - Permite transacciones anónimas.
+  - Proporciona una plataforma para el comercio de Bitcoin.
+explanation: |
+  La Red Lightning es un protocolo de pago de "capa 2" que opera sobre una criptomoneda basada en blockchain como Bitcoin. Está diseñada para permitir transacciones rápidas y de bajo costo.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is one way to avoid online scams?
+answer: Verify the identity of the site you are browsing, especially by checking the
+  extension and domain name.
+wrong_answers:
+  - Use public Wi-Fi networks.
+  - Use sites that do not use the HTTPS protocol.
+  - Use sites that do not have a padlock displayed.
+explanation: |
+  To avoid online scams, it is crucial to verify the identity of the site
+  you are browsing. This can be done by checking the extension and domain name of
+  the site.
+reviewed: false

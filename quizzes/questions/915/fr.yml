@@ -1,0 +1,9 @@
+question: Quel est l'un des axiomes fondamentaux de l'économie autrichienne ?
+answer: L'un des axiomes fondamentaux est les préférences temporelles positives, qui sont basées sur les choix individuels de biens ou de services aujourd'hui plutôt que demain.
+wrong_answers:
+  - L'un des axiomes fondamentaux est la fixation arbitraire des taux d'intérêt.
+  - L'un des axiomes fondamentaux est la dépendance aux données empiriques.
+  - L'un des axiomes fondamentaux est l'utilisation d'expériences temporaires pour confirmer ou réfuter des hypothèses.
+explanation: |
+  En économie autrichienne, l'un des axiomes fondamentaux est les préférences temporelles positives, qui sont basées sur les choix individuels de biens ou de services aujourd'hui plutôt que demain, en raison de l'incertitude concernant l'avenir.
+reviewed: false

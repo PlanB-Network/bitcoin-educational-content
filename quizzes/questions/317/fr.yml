@@ -1,0 +1,11 @@
+question: Que signifie-t-il de dire que Bitcoin est comme un trou noir ?
+answer: Il ne disparaîtra pas et absorbera tout sur son passage au fil du temps.
+wrong_answers:
+  - Il finira par s'effondrer sous son propre poids.
+  - Il représente une menace pour le système financier mondial.
+  - C'est un mystère que les scientifiques essaient encore de comprendre.
+explanation: |
+  L'affirmation selon laquelle Bitcoin est comme un trou noir fait référence à sa résilience
+  et à son potentiel de devenir le système financier dominant, absorbant tous les autres systèmes
+  sur son passage.
+reviewed: false

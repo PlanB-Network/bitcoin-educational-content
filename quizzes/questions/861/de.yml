@@ -1,0 +1,9 @@
+question: Was ist der Hauptansatz der österreichischen Wirtschaftswissenschaften zur Erklärung der Wirtschaft?
+answer: Die österreichische Wirtschaftswissenschaft versteht die Wirtschaft aus der Perspektive der menschlichen Logik und Soziologie.
+wrong_answers:
+  - Die österreichische Wirtschaftswissenschaft versteht die Wirtschaft durch mathematische Gleichungen.
+  - Die österreichische Wirtschaftswissenschaft versteht die Wirtschaft aus der Perspektive des Gelddruckens und -ausgebens.
+  - Die österreichische Wirtschaftswissenschaft versteht die Wirtschaft aus der Perspektive der Zentralbanken.
+explanation: |
+  Das Kapitel erklärt, dass die österreichische Wirtschaftswissenschaft die Wirtschaft aus der Perspektive der menschlichen Logik und Soziologie versteht, anstatt sich dieser Disziplin durch mathematische Gleichungen zu nähern.
+reviewed: false

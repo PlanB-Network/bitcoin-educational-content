@@ -1,0 +1,10 @@
+question: Was ist eine gemeinsame Eigenschaft von Betrügereien im Bereich der Kryptowährung?
+answer: Versprechen unrealistischer Renditen.
+wrong_answers:
+  - Versprechen von physischen Gütern.
+  - Versprechen von Softwareprodukten.
+  - Versprechen von Fiat-Währung.
+explanation: |
+  Betrügereien im Bereich der Kryptowährung versprechen oft unrealistische Renditen.
+  Es ist entscheidend, nicht blind zu vertrauen, insbesondere wenn es um ein Internet-Banner geht.
+reviewed: false

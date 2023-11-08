@@ -1,0 +1,11 @@
+question: ¿Quién propuso la definición más reconocida de hiperinflación?
+answer: Philip Cagan
+wrong_answers:
+  - Bernholz
+  - David
+  - Hanke-Krus
+explanation: |
+  La definición más reconocida de hiperinflación proviene de Philip Cagan,
+  quien propuso una comprensión cuantitativa de la hiperinflación en su trabajo de 1956, "La
+  Dinámica Monetaria de la Hiperinflación".
+reviewed: false

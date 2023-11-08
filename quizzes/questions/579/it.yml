@@ -1,0 +1,9 @@
+question: Qual è la soglia per l'iperinflazione secondo la definizione di Philip Cagan?
+answer: L'inflazione mensile supera il 50%
+wrong_answers:
+  - L'inflazione mensile supera il 40%
+  - L'inflazione mensile supera il 60%
+  - L'inflazione mensile supera il 70%
+explanation: |
+  Secondo la definizione di Philip Cagan, l'iperinflazione inizia quando l'inflazione mensile supera il 50%.
+reviewed: false

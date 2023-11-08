@@ -1,0 +1,9 @@
+question: Qual é a função da Lightning Network no ecossistema do Bitcoin?
+answer: Ela permite que o Bitcoin se expanda e obtenha mais recursos ao atuar como uma segunda camada.
+wrong_answers:
+  - É uma criptomoeda separada que compete com o Bitcoin.
+  - É uma ferramenta para minerar Bitcoin.
+  - É uma plataforma para negociar Bitcoin.
+explanation: |
+  A Lightning Network é uma tecnologia de segunda camada aplicada ao Bitcoin que utiliza canais de micropagamento para aumentar a capacidade de sua blockchain de realizar transações de forma mais eficiente.
+reviewed: false

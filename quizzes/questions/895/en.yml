@@ -1,0 +1,17 @@
+question: What is the relationship between savings and standard of living according
+  to Austrian economists?
+answer: The more we save, the more capital we will be able to accumulate, which will
+  in turn translate into productivity gains yielding more goods. Thus, a higher standard
+  of living is achieved.
+wrong_answers:
+  - The more we save, the lower our standard of living becomes.
+  - There is no relationship between savings and standard of living.
+  - The less we save, the higher our standard of living becomes.
+explanation: |
+  "Austrian economists consider that the lowering of time preferences is\
+  \ the starting point for a virtuous cycle of savings \u2013> more capital goods\
+  \ \uF0E0 more productivity \uF0E0 more goods = higher standard of living \u2013\
+  > lower time preference. Thus, the more we save, the more capital we will be able\
+  \ to accumulate, which will in turn translate into productivity gains yielding more\
+  \ goods. This leads to a higher standard of living."
+reviewed: false

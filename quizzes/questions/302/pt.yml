@@ -1,0 +1,9 @@
+question: Onde o Bitcoin é nativo?
+answer: A internet
+wrong_answers:
+  - A blockchain
+  - O sistema bancário
+  - O mercado de ações
+explanation: |
+  O capítulo afirma que o Bitcoin é nativo da internet, tornando-o acessível a qualquer pessoa com acesso à internet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es un enfoque común para que un acumulador de Bitcoin use Bitcoin?
+answer: De manera peer-to-peer
+wrong_answers:
+  - A través de un intermediario
+  - Vendiendo bienes o servicios
+  - Involucrándose en el ecosistema de Bitcoin
+explanation: |
+  Un enfoque común para que un acumulador de Bitcoin use Bitcoin es de manera peer-to-peer. Esto significa que pueden comprar Bitcoin directamente en efectivo con amigos o miembros de la comunidad de Bitcoin.
+reviewed: false

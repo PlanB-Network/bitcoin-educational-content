@@ -1,0 +1,9 @@
+question: Was ist das Lightning Network?
+answer: Es ist die zweite Ebene von Bitcoin.
+wrong_answers:
+  - Es ist eine Kryptowährungsbörse.
+  - Es ist eine Art von Bitcoin-Wallet.
+  - Es ist ein Bitcoin-Mining-Pool.
+explanation: |
+  Das Lightning Network ist eine Technologie der zweiten Ebene, die auf Bitcoin angewendet wird und Mikrozahlungskanäle verwendet, um die Fähigkeit seiner Blockchain zur Durchführung von Transaktionen zu skalieren.
+reviewed: false

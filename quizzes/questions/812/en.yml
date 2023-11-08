@@ -1,0 +1,11 @@
+question: What is a simple solution to protect your data from ransomware attacks?
+answer: Regularly back up your important data to an external storage device or a secure
+  online storage service.
+wrong_answers:
+  - Install multiple antivirus software on your computer.
+  - Regularly change your computer.
+  - Use a public Wi-Fi network.
+explanation: |
+  Regularly backing up your data allows you to recover your data in the
+  event of a cyber attack or hardware failure without losing crucial information.
+reviewed: false

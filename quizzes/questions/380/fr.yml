@@ -1,0 +1,9 @@
+question: Quel est le but d'un plan de succession dans Bitcoin?
+answer: Assurer que vos proches puissent accéder à vos Bitcoins après votre décès.
+wrong_answers:
+  - Pour miner de nouveaux Bitcoins.
+  - Pour échanger des Bitcoins.
+  - Pour convertir des Bitcoins en d'autres cryptomonnaies.
+explanation: |
+  Un plan de succession dans Bitcoin est un plan qui garantit que vos proches puissent accéder à vos Bitcoins après votre décès. Il n'est pas utilisé pour miner de nouveaux Bitcoins, échanger des Bitcoins ou convertir des Bitcoins en d'autres cryptomonnaies.
+reviewed: false

@@ -1,0 +1,9 @@
+question: O que é o sistema bancário de reserva fracionária?
+answer: O sistema bancário de reserva fracionária é uma prática bancária em que os bancos não são obrigados a manter tantas reservas quanto recebem em depósitos, permitindo-lhes criar novo poder de compra ao conceder empréstimos.
+wrong_answers:
+  - O sistema bancário de reserva fracionária é uma prática bancária em que os bancos são obrigados a manter mais reservas do que recebem em depósitos.
+  - O sistema bancário de reserva fracionária é uma prática bancária em que os bancos não são permitidos conceder empréstimos.
+  - O sistema bancário de reserva fracionária é uma prática bancária em que os bancos são obrigados a manter exatamente a mesma quantidade de reservas que recebem em depósitos.
+explanation: |
+  O sistema bancário de reserva fracionária é um sistema em que os bancos mantêm apenas uma fração dos fundos de seus depositantes em reserva, emprestando o restante. Esse sistema permite que os bancos criem novo dinheiro na forma de empréstimos, o que aumenta o total da oferta monetária na economia.
+reviewed: false

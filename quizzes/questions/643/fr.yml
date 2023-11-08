@@ -1,0 +1,9 @@
+question: Que se passe-t-il avec tous les bitcoins dans une transaction Bitcoin?
+answer: Ils doivent tous être déplacés.
+wrong_answers:
+  - Ils sont tous convertis en monnaie fiduciaire.
+  - Ils sont tous stockés dans une nouvelle adresse.
+  - Ils sont tous répartis également entre les participants.
+explanation: |
+  Dans une transaction Bitcoin, tous les bitcoins doivent être déplacés. Cela est appelé UTXO (Unspent Transaction Output), où les bitcoins quittent tous le propriétaire pour revenir ensuite.
+reviewed: false

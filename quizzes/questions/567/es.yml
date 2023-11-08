@@ -1,0 +1,9 @@
+question: ¿Cuál es el impacto del Índice de Precios al Consumidor (IPC) en la medición de la inflación?
+answer: El IPC puede subestimar la inflación real, ya que no tiene en cuenta de manera exhaustiva la evolución de los precios de los bienes raíces y puede compensar o enmascarar los aumentos de precios reales.
+wrong_answers:
+  - El IPC siempre mide con precisión la inflación.
+  - El IPC sobreestima la inflación real.
+  - El IPC no tiene impacto en la medición de la inflación.
+explanation: |
+  El capítulo explica que el IPC, utilizado como el principal indicador de inflación, tiene ciertas limitaciones. Por ejemplo, no tiene en cuenta de manera exhaustiva la evolución de los precios de los bienes raíces. Además, el cálculo del IPC incluye ciertas metodologías que pueden compensar o enmascarar los aumentos de precios reales.
+reviewed: false

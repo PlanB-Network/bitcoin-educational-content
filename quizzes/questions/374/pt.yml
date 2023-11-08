@@ -1,0 +1,9 @@
+question: O que você deve fazer depois de armazenar o envelope de acordo com o capítulo?
+answer: Certifique-se de que seus herdeiros saibam que eles precisam recuperar este envelope, se necessário.
+wrong_answers:
+  - Certifique-se de que seus herdeiros não saibam que eles precisam recuperar este envelope, se necessário.
+  - Certifique-se de que seus herdeiros saibam que eles não precisam recuperar este envelope, se necessário.
+  - Certifique-se de que seus herdeiros não saibam que eles não precisam recuperar este envelope, se necessário.
+explanation: |
+  Depois de armazenar o envelope, você deve garantir que seus herdeiros saibam que eles precisam recuperar este envelope, se necessário, como sugerido no capítulo.
+reviewed: false

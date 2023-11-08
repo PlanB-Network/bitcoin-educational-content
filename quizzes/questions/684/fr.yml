@@ -1,0 +1,9 @@
+question: Quel est le rôle des nœuds du réseau Lightning dans une transaction ?
+answer: Ils facturent des frais pour accepter d'être utilisés pour acheminer la transaction.
+wrong_answers:
+  - Ils facilitent la transaction sans aucun frais.
+  - Ils initient la transaction.
+  - Ils sont les destinataires finaux de la transaction.
+explanation: |
+  Dans le réseau Lightning, les nœuds facturent des frais pour accepter d'être utilisés pour acheminer la transaction. Ces frais varient en fonction de l'emplacement de la liquidité.
+reviewed: false

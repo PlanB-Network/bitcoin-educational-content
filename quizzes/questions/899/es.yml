@@ -1,0 +1,9 @@
+question: ¿Qué sucede cuando hay una disminución en las tasas de interés debido a un aumento en el crédito según la Teoría Austriaca del Ciclo Económico?
+answer: Los emprendedores pueden pedir prestados más recursos y, por lo tanto, crear etapas de producción de mayor orden. Esta extensión de la estructura de producción no resultará en una disminución del consumo porque no ha habido un aplazamiento del consumo presente por parte de los consumidores. En otras palabras, el PIB crece.
+wrong_answers:
+  - Los emprendedores pueden pedir prestados menos recursos y, por lo tanto, crear etapas de producción de menor orden. Esta extensión de la estructura de producción resultará en un aumento del consumo porque ha habido un aplazamiento del consumo presente por parte de los consumidores. En otras palabras, el PIB se reduce.
+  - Los emprendedores pueden pedir prestados más recursos y, por lo tanto, crear etapas de producción de menor orden. Esta extensión de la estructura de producción resultará en una disminución del consumo porque no ha habido un aplazamiento del consumo presente por parte de los consumidores. En otras palabras, el PIB se reduce.
+  - Los emprendedores pueden pedir prestados menos recursos y, por lo tanto, crear etapas de producción de mayor orden. Esta extensión de la estructura de producción resultará en un aumento del consumo porque ha habido un aplazamiento del consumo presente por parte de los consumidores. En otras palabras, el PIB crece.
+explanation: |
+  Según la Teoría Austriaca del Ciclo Económico, cuando hay una disminución en las tasas de interés debido a un aumento en el crédito, los emprendedores pueden pedir prestados más recursos y, por lo tanto, crear etapas de producción de mayor orden. Esta extensión de la estructura de producción no resultará en una disminución del consumo porque no ha habido un aplazamiento del consumo presente por parte de los consumidores. En otras palabras, el PIB crece.
+reviewed: false

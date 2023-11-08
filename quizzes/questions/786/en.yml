@@ -1,0 +1,13 @@
+question: What is the main advantage of using open-source software?
+answer: It allows for verification that there is no hidden access to steal your personal
+  data.
+wrong_answers:
+  - It is always free.
+  - It is always safer than closed-source software.
+  - It is always more user-friendly than closed-source software.
+explanation: |
+  Open-source software is a software whose code is known and accessible
+  to everyone. This allows for verification, among other things, that there is no
+  hidden access to steal your personal data. However, it is not always free, safer,
+  or more user-friendly than closed-source software.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est la signification de la rareté du Bitcoin ?
+answer: Il n'y aura jamais plus de 21 millions de bitcoins dans le monde.
+wrong_answers:
+  - La valeur du Bitcoin augmentera toujours.
+  - Le minage du Bitcoin est difficile.
+  - Le nombre de transactions Bitcoin est limité.
+explanation: |
+  La rareté du Bitcoin fait référence au fait qu'il n'y aura jamais plus de 21 millions de bitcoins. Cette caractéristique, similaire à l'or, empêche la dilution de la valeur du Bitcoin par une impression excessive de monnaie.
+reviewed: false

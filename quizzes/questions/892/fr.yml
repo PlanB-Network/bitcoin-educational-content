@@ -1,0 +1,12 @@
+question: Quel est le but ultime de l'activité économique selon Carl Menger?
+answer: Le but ultime de l'activité économique est la consommation.
+wrong_answers:
+  - Le but ultime de l'activité économique est la production.
+  - Le but ultime de l'activité économique est l'épargne.
+  - Le but ultime de l'activité économique est l'investissement.
+explanation: |
+  Selon Carl Menger, les biens ne sont considérés comme des biens économiques (valorisés)
+  que parce qu'ils servent de moyens aux fins choisies et valorisées par les individus. Par conséquent,
+  pour Menger, le point de départ de l'analyse économique est les biens de consommation, ou les biens finaux,
+  car ils représentent le but ultime de l'activité économique.
+reviewed: false

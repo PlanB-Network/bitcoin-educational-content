@@ -1,0 +1,9 @@
+question: Qual é a consequência de múltiplas redenominações na população?
+answer: Perda de economias e problemas alimentares.
+wrong_answers:
+  - Aumento da riqueza e abundância de alimentos.
+  - Aumento de economias e escassez de alimentos.
+  - Diminuição da riqueza e abundância de alimentos.
+explanation: |
+  Redenominar várias vezes, remover zeros ou alterar o nome da moeda tem repercussões diretas na população, que vão desde a perda de ajuda até problemas alimentares.
+reviewed: false

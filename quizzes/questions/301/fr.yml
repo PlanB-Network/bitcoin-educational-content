@@ -1,0 +1,9 @@
+question: Quel est le principal avantage de Bitcoin par rapport aux comptes bancaires traditionnels?
+answer: Contrôle total sur votre argent
+wrong_answers:
+  - Taux d'intérêt plus élevés
+  - Frais de transaction plus bas
+  - Temps de transaction plus rapides
+explanation: |
+  Ce chapitre explique que Bitcoin offre une alternative puissante aux systèmes financiers traditionnels. Il permet à chacun de préserver sa vie privée, de se protéger contre l'inflation et la dévaluation de la monnaie, de contourner les régimes autoritaires et de retrouver la souveraineté sur son argent.
+reviewed: false

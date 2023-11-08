@@ -1,0 +1,9 @@
+question: Wie viele Bitcoins gibt es insgesamt?
+answer: 21 Millionen
+wrong_answers:
+  - 21 Milliarden
+  - 21 Tausend
+  - 21 Billionen
+explanation: |
+  Es gibt insgesamt nur 21 Millionen Bitcoins. Dies ist ein grundlegender Aspekt des Designs von Bitcoin und trägt zu seiner Knappheit bei.
+reviewed: false

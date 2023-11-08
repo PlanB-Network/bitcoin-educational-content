@@ -1,0 +1,10 @@
+question: Qual é uma característica comum de golpes no domínio das criptomoedas?
+answer: Promessas de retornos irreais.
+wrong_answers:
+  - Promessas de bens físicos.
+  - Promessas de produtos de software.
+  - Promessas de moeda fiduciária.
+explanation: |
+  Golpes no domínio das criptomoedas frequentemente prometem retornos irreais.
+  É crucial não confiar cegamente, especialmente quando se trata de um banner na internet.
+reviewed: false

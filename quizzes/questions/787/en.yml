@@ -1,0 +1,12 @@
+question: Why is it recommended to delete cookies after each visit to a site?
+answer: To prevent third-party sites from tracking your online activity.
+wrong_answers:
+  - To save storage space on your device.
+  - To prevent the site from remembering your login information.
+  - To prevent the site from showing you targeted ads.
+explanation: |
+  Cookies are files created by websites to store information on your device.
+  While some sites require these cookies to function properly, they can also be exploited
+  by third-party sites, especially for advertising tracking purposes. Deleting cookies
+  after each visit to a site can help prevent this.
+reviewed: false

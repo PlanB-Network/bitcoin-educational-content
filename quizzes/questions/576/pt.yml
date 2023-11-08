@@ -1,0 +1,9 @@
+question: O que significa se o preço de compra diminuir mais rápido do que o preço de venda?
+answer: Isso significa que o vendedor está obtendo lucro, pois consegue vender seus produtos ou serviços por um valor maior do que os adquiriu.
+wrong_answers:
+  - Isso significa que o vendedor está tendo prejuízo, pois está vendendo seus produtos ou serviços por um valor menor do que os adquiriu.
+  - Isso significa que o comprador está obtendo lucro, pois consegue comprar produtos ou serviços por um valor menor do que está vendendo.
+  - Isso significa que o comprador está tendo prejuízo, pois está comprando produtos ou serviços por um valor maior do que está vendendo.
+explanation: |
+  Se o preço de compra diminuir mais rápido do que o preço de venda, isso significa que o vendedor está obtendo lucro. Isso ocorre porque ele consegue vender seus produtos ou serviços por um valor maior do que os adquiriu.
+reviewed: false

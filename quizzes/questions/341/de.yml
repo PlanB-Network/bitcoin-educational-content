@@ -1,0 +1,9 @@
+question: Wie geht ein Bitcoin-Anleger üblicherweise mit Bitcoin um?
+answer: Auf peer-to-peer-Basis
+wrong_answers:
+  - Über einen Broker
+  - Durch den Verkauf von Waren oder Dienstleistungen
+  - Durch die Beteiligung am Bitcoin-Ökosystem
+explanation: |
+  Ein üblicher Ansatz für einen Bitcoin-Anleger, Bitcoin zu nutzen, ist auf peer-to-peer-Basis. Das bedeutet, dass sie Bitcoin direkt mit Bargeld von Freunden oder Mitgliedern der Bitcoin-Community kaufen können.
+reviewed: false

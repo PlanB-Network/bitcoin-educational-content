@@ -1,0 +1,9 @@
+question: Qual è lo scopo di un gestore di password in Bitcoin?
+answer: Lo scopo di un gestore di password in Bitcoin è quello di memorizzare e gestire in modo sicuro le password per le transazioni Bitcoin.
+wrong_answers:
+  - Per estrarre nuovi Bitcoin.
+  - Per scambiare Bitcoin.
+  - Per convertire Bitcoin in altre criptovalute.
+explanation: |
+  Un gestore di password è un'applicazione software utilizzata per memorizzare e gestire le password di vari account online. Nel contesto di Bitcoin, viene utilizzato per memorizzare e gestire in modo sicuro le password per le transazioni Bitcoin.
+reviewed: false

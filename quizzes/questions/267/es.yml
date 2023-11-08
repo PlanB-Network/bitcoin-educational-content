@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito principal de una actualización de software?
+answer: Para corregir errores y mejorar la seguridad de tu software.
+wrong_answers:
+  - Para agregar nuevas características
+  - Para cambiar la interfaz del software
+  - Para aumentar el tamaño del software
+explanation: |
+  Si bien las actualizaciones de software a menudo vienen con nuevas características, su propósito principal es corregir errores y mejorar la seguridad del software. Esto es crucial para mantener tu computadora en óptimas condiciones de funcionamiento.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die Hauptcharakteristik einer DIY (Do It Yourself) Geldbörse?
+answer: Es handelt sich um eine zu 100% Open-Source-Lösung, die zu Hause erstellt werden kann, um das Vertrauensrisiko gegenüber anderen Akteuren in der Produktions- oder Erstellungskette zu verringern.
+wrong_answers:
+  - Es handelt sich um ein Hardware-Gerät zum Speichern von Bitcoins.
+  - Es handelt sich um eine Software zum Minen von Bitcoins.
+  - Es handelt sich um eine Plattform zum Kauf und Verkauf von Bitcoins.
+explanation: |
+  Der Kapitelinhalt erklärt, dass DIY (Do It Yourself) Geldbörsen zu 100% Open-Source-Lösungen sind, die zu Hause erstellt werden können, um das Vertrauensrisiko gegenüber anderen Akteuren in der Produktions- oder Erstellungskette zu verringern.
+reviewed: false

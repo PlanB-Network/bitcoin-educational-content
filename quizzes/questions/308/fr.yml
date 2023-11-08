@@ -1,0 +1,10 @@
+question: Qu'est-ce qu'un portefeuille dans le contexte du Bitcoin?
+answer: Un coffre-fort numérique pour vos bitcoins
+wrong_answers:
+  - Un appareil physique pour stocker des bitcoins
+  - Un logiciel pour miner des bitcoins
+  - Une plateforme pour acheter et vendre des bitcoins
+explanation: |
+  Le contenu du chapitre explique que les bitcoins sont stockés dans ce qu'on appelle
+  un "portefeuille", qui est un coffre-fort numérique pour votre argent. Seul le détenteur de la clé peut y accéder.
+reviewed: false

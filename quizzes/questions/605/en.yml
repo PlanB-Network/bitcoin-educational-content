@@ -1,0 +1,10 @@
+question: What is the impact of hyperinflation on the value of money?
+answer: It causes money to quickly lose its value.
+wrong_answers:
+  - It causes money to increase in value.
+  - It has no impact on the value of money.
+  - It causes the value of money to fluctuate unpredictably.
+explanation: |
+  In a period of hyperinflation, money quickly loses its value, making
+  long-term planning difficult.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué tipo de usuario es más probable que necesite tanto una billetera de Bitcoin caliente como una fría?
+answer: Un usuario que necesita usar Bitcoin regularmente.
+wrong_answers:
+  - Un usuario que solo usa Bitcoin ocasionalmente.
+  - Un usuario que mina Bitcoin.
+  - Un usuario que solo invierte en Bitcoin a largo plazo.
+explanation: |
+  Los usuarios regulares de Bitcoin necesitan una billetera caliente para transacciones diarias y una billetera fría para almacenamiento seguro a largo plazo.
+reviewed: false

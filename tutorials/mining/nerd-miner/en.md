@@ -124,7 +124,7 @@ Let's have some fun estimating the probability of winning a block reward. This e
 The pool that a NerdMiner can connect to are only "solo mining pool" which means that the pool does not mutualize the hashrate of all the connected miners but simply act as a coordinator.
 Now let's assume that our NerdMiner has a hashrate of about 45kH/s.
 
-Knowing that the total hashrate is about 450 EH/s (or $4.5 x 10^20$ hashes per second), we can consider that the probability of finding the next block is 1 in 100 million billions, which is very very very unlikealy to happened. So in addition of being an educational tool and object of curiosity, a NerdMiner can serve as a lottery ticket in bitcoin mining at a marginal electrical cost of 0.5 W--though as we've just saw the probability of winning is ridiculously low. Yet, why not challenge your luck?
+Knowing that the total hashrate is about 450 EH/s (or 4.5 x 10^20 hashes per second), we can consider that the probability of finding the next block is 1 in 100 million billions, which is very very very unlikealy to happened. So in addition of being an educational tool and object of curiosity, a NerdMiner can serve as a lottery ticket in bitcoin mining at a marginal electrical cost of 0.5 W--though as we've just saw the probability of winning is ridiculously low. Yet, why not challenge your luck?
 
 ### Additional Information
 

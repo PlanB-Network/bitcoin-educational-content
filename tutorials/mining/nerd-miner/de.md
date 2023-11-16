@@ -124,7 +124,7 @@ Lassen Sie uns Spaß daran haben, die Wahrscheinlichkeit des Gewinns einer Block
 Die Pool, zu dem ein NerdMiner eine Verbindung herstellen kann, sind nur "Solo-Mining-Pools", was bedeutet, dass der Pool die Hashrate aller verbundenen Miner nicht mutualisiert, sondern lediglich als Koordinator fungiert.
 Nehmen wir nun an, dass unser NerdMiner eine Hashrate von etwa 45 kH/s hat.
 
-Angesichts der Tatsache, dass die Gesamthashrate etwa 450 EH/s (oder $4,5 x 10^20$ Hashes pro Sekunde) beträgt, können wir davon ausgehen, dass die Wahrscheinlichkeit, den nächsten Block zu finden, 1 zu 100 Millionen Milliarden beträgt, was sehr, sehr, sehr unwahrscheinlich ist. Zusätzlich zu seiner Funktion als Bildungswerkzeug und Objekt der Neugier kann ein NerdMiner als Lotterielos im Bitcoin-Mining dienen, bei einem marginalen Stromverbrauch von 0,5 W - obwohl die Gewinnwahrscheinlichkeit geradezu lächerlich niedrig ist. Warum also nicht Ihr Glück herausfordern?
+Angesichts der Tatsache, dass die Gesamthashrate etwa 450 EH/s (oder 4,5 x 10^20 Hashes pro Sekunde) beträgt, können wir davon ausgehen, dass die Wahrscheinlichkeit, den nächsten Block zu finden, 1 zu 100 Millionen Milliarden beträgt, was sehr, sehr, sehr unwahrscheinlich ist. Zusätzlich zu seiner Funktion als Bildungswerkzeug und Objekt der Neugier kann ein NerdMiner als Lotterielos im Bitcoin-Mining dienen, bei einem marginalen Stromverbrauch von 0,5 W - obwohl die Gewinnwahrscheinlichkeit geradezu lächerlich niedrig ist. Warum also nicht Ihr Glück herausfordern?
 
 ### Zusätzliche Informationen
 

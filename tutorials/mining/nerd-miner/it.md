@@ -124,7 +124,7 @@ Divertiamoci a stimare la probabilità di vincere una ricompensa di blocco. Ques
 Le pool a cui un NerdMiner può connettersi sono solo "pool di mining individuale", il che significa che la pool non mutualizza la potenza di hash di tutti i minatori connessi, ma agisce semplicemente come coordinatore.
 Supponiamo ora che il nostro NerdMiner abbia una potenza di hash di circa 45kH/s.
 
-Sapendo che la potenza di hash totale è di circa 450 EH/s (o $4.5 x 10^20$ hash al secondo), possiamo considerare che la probabilità di trovare il prossimo blocco sia di 1 su 100 milioni di miliardi, il che è molto molto molto improbabile che accada. Quindi, oltre ad essere uno strumento educativo e oggetto di curiosità, un NerdMiner può fungere da biglietto della lotteria nel mining di bitcoin a un costo elettrico marginale di 0,5 W - anche se, come abbiamo appena visto, la probabilità di vincita è ridicolmente bassa. Eppure, perché non sfidare la fortuna?
+Sapendo che la potenza di hash totale è di circa 450 EH/s (o 4.5 x 10^20 hash al secondo), possiamo considerare che la probabilità di trovare il prossimo blocco sia di 1 su 100 milioni di miliardi, il che è molto molto molto improbabile che accada. Quindi, oltre ad essere uno strumento educativo e oggetto di curiosità, un NerdMiner può fungere da biglietto della lotteria nel mining di bitcoin a un costo elettrico marginale di 0,5 W - anche se, come abbiamo appena visto, la probabilità di vincita è ridicolmente bassa. Eppure, perché non sfidare la fortuna?
 
 ### Informazioni aggiuntive
 

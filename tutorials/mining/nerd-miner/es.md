@@ -123,7 +123,7 @@ Divirtámonos estimando la probabilidad de ganar una recompensa de bloque. Esta 
 Las piscinas a las que un NerdMiner puede conectarse son solo "piscinas de minería en solitario", lo que significa que la piscina no mutualiza la tasa de hash de todos los mineros conectados, sino que simplemente actúa como coordinador.
 Ahora supongamos que nuestro NerdMiner tiene una tasa de hash de aproximadamente 45kH/s.
 
-Sabiendo que la tasa de hash total es de aproximadamente 450 EH/s (o $4.5 x 10^20$ hashes por segundo), podemos considerar que la probabilidad de encontrar el siguiente bloque es de 1 entre 100 billones de millones, lo cual es muy, muy, muy poco probable que ocurra. Entonces, además de ser una herramienta educativa y objeto de curiosidad, un NerdMiner puede servir como un boleto de lotería en la minería de bitcoins a un costo eléctrico marginal de 0.5 W, aunque como acabamos de ver, la probabilidad de ganar es ridículamente baja. Sin embargo, ¿por qué no desafiar tu suerte?
+Sabiendo que la tasa de hash total es de aproximadamente 450 EH/s (o 4.5 x 10^20 hashes por segundo), podemos considerar que la probabilidad de encontrar el siguiente bloque es de 1 entre 100 billones de millones, lo cual es muy, muy, muy poco probable que ocurra. Entonces, además de ser una herramienta educativa y objeto de curiosidad, un NerdMiner puede servir como un boleto de lotería en la minería de bitcoins a un costo eléctrico marginal de 0.5 W, aunque como acabamos de ver, la probabilidad de ganar es ridículamente baja. Sin embargo, ¿por qué no desafiar tu suerte?
 
 ### Información adicional
 

@@ -126,7 +126,7 @@ Amusons-nous à estimer la probabilité de gagner une récompense de bloc. Cette
 Les pools auxquels un NerdMiner peut se connecter sont uniquement des "pools de minage en solo", ce qui signifie que le pool ne mutualise pas la puissance de calcul de tous les mineurs connectés, mais agit simplement en tant que coordinateur.
 Supposons maintenant que notre NerdMiner ait une puissance de calcul d'environ 45 kH/s.
 
-Sachant que la puissance de calcul totale est d'environ 450 EH/s (soit $4,5 \times 10^{20}$ hachages par seconde), nous pouvons considérer que la probabilité de trouver le prochain bloc est de 1 sur 100 millions de milliards, ce qui est très très très peu probable. Ainsi, en plus d'être un outil éducatif et un objet de curiosité, un NerdMiner peut servir de billet de loterie dans le minage de bitcoins à un coût électrique marginal de 0,5 W - bien que, comme nous venons de le voir, la probabilité de gagner soit ridiculement faible. Pourquoi ne pas tenter votre chance ?
+Sachant que la puissance de calcul totale est d'environ 450 EH/s (soit 4,5 x 10^20 hash par seconde), nous pouvons considérer que la probabilité de trouver le prochain bloc est de 1 sur 100 millions de milliards, ce qui est très très très peu probable. Ainsi, en plus d'être un outil éducatif et un objet de curiosité, un NerdMiner peut servir de billet de loterie dans le minage de bitcoins à un coût électrique marginal de 0,5 W - bien que, comme nous venons de le voir, la probabilité de gagner soit ridiculement faible. Pourquoi ne pas tenter votre chance ?
 
 ### Informations supplémentaires
 

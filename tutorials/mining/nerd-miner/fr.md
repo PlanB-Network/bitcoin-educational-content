@@ -120,18 +120,17 @@ Et voilà ! Votre NerdMiner_v2 est maintenant configuré et prêt à être utili
 
 Bon minage et que la chance vous sourisse !
 
-### Estimation de la probabilité de gain
+### Estimation de la probabilité de gagner
 
-Amussons-nous à estimer la probabilité que nous puissions gagner la récompense d'un bloc. Cette estimation sera grossière et cherche uniquement à obtenir l'ordre de grandeur de la probabilité.
-Considérons que notre NerdMiner est un hashrate d'environ 50kH/s, et qu'il soit connecté à la [pool publique par défaut](https://web.public-pool.io/#/) qui a un hashrate total d'environ 100 TH/s.
+Amusons-nous à estimer la probabilité de gagner une récompense de bloc. Cette estimation sera approximative et vise uniquement à obtenir l'ordre de grandeur de la probabilité.
+Les pools auxquels un NerdMiner peut se connecter sont uniquement des "pools de minage en solo", ce qui signifie que le pool ne mutualise pas la puissance de calcul de tous les mineurs connectés, mais agit simplement en tant que coordinateur.
+Supposons maintenant que notre NerdMiner ait une puissance de calcul d'environ 45 kH/s.
 
-Sachant que le Hashrate total est d'environ 450EH/s (soit $4.5 x 10^20$ hashs par seconde), on peut considérer que la probabilité que la pool de minage solo gagne le prochain bloc de 2 chances sur 10 millions, soit environ 1 fois tous les 5 millions de blocs c'est-à-dire que cela peut arriver à peu près une fois par siècle. Et dans une telle enventualité, un NerdMiner récupèrera un demie milliardième ($5 x 10^(-10)$) de la récompense du bloc; soit 31.25 Msats pour une récompense de 6.25btc.
+Sachant que la puissance de calcul totale est d'environ 450 EH/s (soit $4,5 \times 10^{20}$ hachages par seconde), nous pouvons considérer que la probabilité de trouver le prochain bloc est de 1 sur 100 millions de milliards, ce qui est très très très peu probable. Ainsi, en plus d'être un outil éducatif et un objet de curiosité, un NerdMiner peut servir de billet de loterie dans le minage de bitcoins à un coût électrique marginal de 0,5 W - bien que, comme nous venons de le voir, la probabilité de gagner soit ridiculement faible. Pourquoi ne pas tenter votre chance ?
 
-Bien les chances de gagner sont plus qu'insignifiantes, vous NerdMiner peut vous servir, en plus d'outil pédagogique et object de curiosité, d'un ticket de loterie dans le minage de bitcoins à un coût électrique marginage de 0.5 W. Alors pourquoi pas tenter votre chance ?
+### Informations supplémentaires
 
-### Informations complémentaires
-
-Voici quelques liens si vous souhaitez compléter votre lecture sur le sujet :
+Voici quelques liens si vous souhaitez en savoir plus sur le sujet :
 
 - [Page du projet NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
 - [Documentation complète des NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)

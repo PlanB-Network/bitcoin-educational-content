@@ -117,17 +117,17 @@ Ahora que su ESP-32 es reconocido por su sistema, puede volver al [primer paso](
 
 ¡Buena minería y que la suerte esté de su lado!
 
-### Estimación de la probabilidad de ganancia
+### Estimación de la probabilidad de ganar
 
-Divirtámonos estimando la probabilidad de que podamos ganar la recompensa de un bloque. Esta estimación será aproximada y solo busca obtener el orden de magnitud de la probabilidad.
-Supongamos que nuestro NerdMiner tiene una tasa de hash de aproximadamente 50kH/s y está conectado a la [pool pública por defecto](https://web.public-pool.io/#/) que tiene una tasa de hash total de aproximadamente 100 TH/s.
+Divirtámonos estimando la probabilidad de ganar una recompensa de bloque. Esta estimación será aproximada y solo busca obtener el orden de magnitud de la probabilidad.
+Las piscinas a las que un NerdMiner puede conectarse son solo "piscinas de minería en solitario", lo que significa que la piscina no mutualiza la tasa de hash de todos los mineros conectados, sino que simplemente actúa como coordinador.
+Ahora supongamos que nuestro NerdMiner tiene una tasa de hash de aproximadamente 45kH/s.
 
-Dado que la tasa de hash total es de aproximadamente 450EH/s (es decir, $4.5 x 10^20$ hashes por segundo), podemos considerar que la probabilidad de que la pool de minería en solitario gane el próximo bloque es de 2 posibilidades entre 10 millones, es decir, aproximadamente 1 vez cada 5 millones de bloques, lo que puede suceder aproximadamente una vez por siglo. Y en tal eventualidad, un NerdMiner recibirá una parte de mil millonésima ($5 x 10^(-10)$) de la recompensa del bloque; es decir, 31.25 Msats para una recompensa de 6.25btc.
-Las posibilidades de ganar son más que insignificantes, pero NerdMiner puede servirte, además de ser una herramienta educativa y objeto de curiosidad, como un boleto de lotería en la minería de bitcoins a un costo eléctrico mínimo de 0.5 W. Entonces, ¿por qué no intentar tu suerte?
+Sabiendo que la tasa de hash total es de aproximadamente 450 EH/s (o $4.5 x 10^20$ hashes por segundo), podemos considerar que la probabilidad de encontrar el siguiente bloque es de 1 entre 100 billones de millones, lo cual es muy, muy, muy poco probable que ocurra. Entonces, además de ser una herramienta educativa y objeto de curiosidad, un NerdMiner puede servir como un boleto de lotería en la minería de bitcoins a un costo eléctrico marginal de 0.5 W, aunque como acabamos de ver, la probabilidad de ganar es ridículamente baja. Sin embargo, ¿por qué no desafiar tu suerte?
 
 ### Información adicional
 
-Aquí tienes algunos enlaces si deseas ampliar tu lectura sobre el tema:
+Aquí hay algunos enlaces si deseas leer más sobre el tema:
 
 - [Página del proyecto NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Documentación completa de los NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Documentación completa de NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)

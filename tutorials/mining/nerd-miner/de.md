@@ -120,15 +120,15 @@ Viel Spaß beim Mining und viel Glück!
 
 ### Schätzung der Gewinnwahrscheinlichkeit
 
-Lassen Sie uns den Spaß haben, die Wahrscheinlichkeit abzuschätzen, dass wir die Belohnung für einen Block gewinnen können. Diese Schätzung ist grob und dient nur dazu, die Größenordnung der Wahrscheinlichkeit zu ermitteln.
-Angenommen, unser NerdMiner hat eine Hashrate von etwa 50 kH/s und ist mit dem [Standard-Pool](https://web.public-pool.io/#/) verbunden, der eine Gesamthashrate von etwa 100 TH/s hat.
+Lassen Sie uns Spaß daran haben, die Wahrscheinlichkeit des Gewinns einer Blockbelohnung abzuschätzen. Diese Schätzung wird grob sein und dient nur dazu, die Größenordnung der Wahrscheinlichkeit zu ermitteln.
+Die Pool, zu dem ein NerdMiner eine Verbindung herstellen kann, sind nur "Solo-Mining-Pools", was bedeutet, dass der Pool die Hashrate aller verbundenen Miner nicht mutualisiert, sondern lediglich als Koordinator fungiert.
+Nehmen wir nun an, dass unser NerdMiner eine Hashrate von etwa 45 kH/s hat.
 
-Angesichts einer Gesamthashrate von etwa 450 EH/s (das sind $4,5 \times 10^{20}$ Hashes pro Sekunde) können wir davon ausgehen, dass die Wahrscheinlichkeit, dass der Solo-Mining-Pool den nächsten Block gewinnt, 2 zu 10 Millionen beträgt, also etwa einmal alle 5 Millionen Blöcke, was etwa einmal pro Jahrhundert passieren kann. Und in einem solchen Fall würde ein NerdMiner einen fünf Milliardstel ($5 \times 10^{-10}$) der Blockbelohnung erhalten, also 31,25 Msats für eine Belohnung von 6,25 BTC.
-Obwohl die Chancen, zu gewinnen, äußerst gering sind, kann Ihnen NerdMiner neben seiner Funktion als pädagogisches Werkzeug und Kuriosität auch ein Lotterieticket im Bitcoin-Mining zu einem marginalen Stromkostenpreis von 0,5 W bieten. Warum also nicht Ihr Glück versuchen?
+Angesichts der Tatsache, dass die Gesamthashrate etwa 450 EH/s (oder 4,5 x 10^20 Hashes pro Sekunde) beträgt, können wir davon ausgehen, dass die Wahrscheinlichkeit, den nächsten Block zu finden, 1 zu 100 Millionen Milliarden beträgt, was sehr, sehr, sehr unwahrscheinlich ist. Zusätzlich zu seiner Funktion als Bildungswerkzeug und Objekt der Neugier kann ein NerdMiner als Lotterielos im Bitcoin-Mining dienen, bei einem marginalen Stromverbrauch von 0,5 W - obwohl die Gewinnwahrscheinlichkeit geradezu lächerlich niedrig ist. Warum also nicht Ihr Glück herausfordern?
 
-### Weitere Informationen
+### Zusätzliche Informationen
 
-Hier sind einige Links, falls Sie Ihre Lektüre zu diesem Thema ergänzen möchten:
+Hier sind einige Links, wenn Sie mehr über das Thema lesen möchten:
 
 - [NerdMiner_v2 Projektseite](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Vollständige Dokumentation zu NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Vollständige Dokumentation der NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)

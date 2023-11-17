@@ -145,7 +145,7 @@ Running a full LN node on a mobile device is not an easy task and could take som
 
 Once you open Blixt, the “Welcome” screen will give you some options:
 
-"insert blixt_t01.jpg"
+![Demo Blixt 01](assets/blixt_t01.jpg)
 
 On top right corner, you will see 3 dots that activate a menu with:
 
@@ -159,13 +159,13 @@ If you choose to “create a new wallet”, you will be redirected straight to t
 
 This is your “cockpit” and also is the “Main LN Wallet”, so be aware, it will show you only the balance of your LN wallet. The onchain wallet is separately displayed (see C).
 
-"insert blixt_t02.jpg"
+![Demo Blixt 02](assets/blixt_t02.jpg)
 
 A - Blixt blocks sync indicator icon. This is the most important thing for a LN node: to be synchronized with the network. If that icon is still there working, means your node IS NOT READY! So have patience, in special for the first initial sync. It could take up to 6-8 min, depending on your device and internet connection.
 
 You could click it and see the status of the sync:
 
-"insert blixt_t03.jpg"
+![Demo Blixt 03](assets/blixt_t03.jpg)
 
 Also you could click on the “Show LND Log” (A) button if you want to see and read more technical details of the LND log, in real time. Is very useful for debug and learning more how LN works.
 
@@ -173,13 +173,13 @@ B - Here you can access all the Blixt Settings, and are a lot! Blixt is offering
 
 C - Here you have the “Magic Drawer” menu, also explained in details here. Here is the “Onchain Wallet” (B), Lightning Channels (C), Contacts, Channels status icon (A), Keysend (D).
 
-"insert blixt_t04.jpg"
+![Demo Blixt 04](assets/blixt_t04.jpg)
 
 D - Is the help menu, with links to FAQ / Guides page, contact developer, Github page and Telegram support group.
 
 E - Indicate your first BTC address, where you can deposit your first testing sats. THIS IS OPTIONAL! If you deposit straight into that address, is opening a LN channel towards Blixt Node. That means you will see your deposited sats, going into another onchain transaction (tx), for opening that LN channel. You can check that into Blixt onchain wallet (see point C), clicking on the top right TX menu.
 
-"insert blixt_t05.jpg"
+![Demo Blixt 05](assets/blixt_t05.jpg)
 
 As you can see in the Onchain Transaction Log, the steps are very detailed indicating where the sats are going (deposit, open, close channel)
 
@@ -204,11 +204,11 @@ This is very simple, only take some few steps and a bit of patience:
 - Select a node and click on its name title link, it will open its Amboss page
 - Click to display the QR code for the node URI address
 
-"insert blixt_t06.jpg"
+![Demo Blixt 06](assets/blixt_t06.jpg)
 
 Now, open Blixt and go to top drawer - Lightning Channels and click on the “+” button
 
-"insert blixt_t07.jpg"
+![Demo Blixt 07](assets/blixt_t07.jpg)
 
 Now, click on (A) camera to scan the QR code from Amboss page and the node details will be filled out. Add the amount of the sats for the channel you want and then select the fee rate for the tx. You can leave it auto (B) for a faster confirmation or adjust it manually sliding the button. You can also long press the number and edit it as you like.
 
@@ -222,7 +222,7 @@ Once is confirmed, you will see the channel active in your section “Lightning 
 
 Ok so now we have a LN channel with only OUTBOUND liquidity. That means we can only SEND, we still can’t RECEIVE sats over LN. Why? Did you read the guides indicated in the beginning? No? Go back and read them. It is very important to understand how LN channels works.
 
-"insert blixt_t08.jpg"
+![Demo Blixt 08](assets/blixt_t08.jpg)
 
 As you can see in this example, the channel open with the first deposit, do not have too much INBOUND liquidity (“Can receive”) but have a lot of OUTBOUND liquidity (“Can send”).
 
@@ -233,7 +233,7 @@ So what options you have, if you want to receive more sats over LN?
 - Open a Dunder channel, with Blixt node or any other Dunder LSP provider. A Dunder channel is a simple way to get some INBOUND liquidity, but in the same time you deposit some sats into that channel. Is also good because it will open the channel with an [UTXO](https://en.bitcoin.it/wiki/UTXO) that is not from your Blixt wallet. That add some privacy.
 Is also good because, if you do not have sats into an onchain wallet, to open a normal LN channel, but you have them into another LN wallet, you can just pay from that another wallet through LN the opening and the deposit (on your side) of that Dunder channel. [More details how Dunder works and how to run your own server here.](https://github.com/hsjoberg/dunder-lsp)
 
-"insert blixt_t09.jpg"
+![Demo Blixt 09](assets/blixt_t09.jpg)
 
 Here are the steps how to activate opening a Dunder channel:
 - Go to Settings, in “Experiments” section activate the box for “Enable Dunder LSP”.
@@ -242,7 +242,7 @@ Here are the steps how to activate opening a Dunder channel:
 
 OK, so after the Dunder channel is confirmed (will take few minutes) you will end up with having 2 LN channels: one opened initially with autopilot (channel A) and one with more inbound liquidity, opened with Dunder (channel B).
 
-"insert blixt_t10.jpg"
+![Demo Blixt 10](assets/blixt_t10.jpg)
 
 Good, now you are good to go, to send and receive enough sats over LN !
 
@@ -252,7 +252,7 @@ So now let’s discuss about how to restore a Blixt wallet or any other LND cras
 
 >REMINDER: In the past I wrote a dedicated guide with multiple options [how to restore a crashed LND node](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), where I mentioned also the method of using Blixt as quick restore process, using the seed + channel.backup file from your dead LND node. I also wrote a guide how to restore your Blixt node or migrate your Blixt to another device, [here](https://blixtwallet.github.io/faq#blixt-restore).
 
-"insert blixt_t11.jpg"
+![Demo Blixt 11](assets/blixt_t11.jpg)
 
 But let’s explain in simple steps this process. As you can see in the image above, there are 2 things you should do to restore your previous Blixt/LND node:
 - top box is where you have to fill with all 24 words from your seed (old / dead node)
@@ -266,7 +266,7 @@ Another useful feature is to set a specific Bitcoin node from that top menu. By 
 
 So once you fill those options, and hit the restore button, Blixt will start first to sync the blocks through Neutrino as we explained in the "First Step" chapter of this guide. So be patient and watch the restore process in the main screen, by clicking on the sync icon.
 
-"insert blixt_t12.jpg"
+![Demo Blixt 12](assets/blixt_t12.jpg)
 
 As you can see in this example, it shows that the bitcoin blocks are 100% synced (A) and the recovering process is in course (B). That means the LN channels you had previously, it will be closed and the funds restored into your Blixt onchain wallet.
 
@@ -274,15 +274,15 @@ This process takes time! So please, be patient and try to keep your Blixt active
 
 Once this process it started, you could check in the Magic Drawer - Lightning Channels, the status of each of your previous channels,showing that are in “pending to close” status. Once each channel is closed, you could see the closing tx in the onchain wallet (see Magic Drawer - Onchain), and open up the tx menu log.
 
-"insert blixt_t13.jpg"
+![Demo Blixt 13](assets/blixt_t13.jpg)
 
 Also will be good to check and add if are not there, your previously peers you had in your old LN node. So go to Settings menu, down to “Lightning Network” and enter into option “Show Lightning Peers”.
 
-"insert blixt_t14.jpg"
+![Demo Blixt 14](assets/blixt_t14.jpg)
 
 Inside the section you will see the peers you are connected in that moment and you could add more, better to add those you had channels before. Just go to Amboss page, search for your peer nodes aliases or nodeID and scan their node URI.
 
-"insert blixt_t15.jpg"
+![Demo Blixt 15](assets/blixt_t15.jpg)
 
 As you can in the image above, are 3 aspects:
 
@@ -296,7 +296,7 @@ This node address URI you have to add it into your peers list. So be aware is no
 
 Now you can go to Magic Drawer (top left menu) - Lightning Channels, and you can see at which maturity block height the funds will be returned into your onchain address.
 
-"insert blixt_t16.jpg"
+![Demo Blixt 16](assets/blixt_t16.jpg)
 
 That block number 764272 is when the funds will be usable in your bitcoin onchain address. And it could take up to 144 blocks from the 1st confirmation block until are released. So check that in [the mempool](https://mempool.space/).
 
@@ -310,7 +310,7 @@ But I will point out some of those necessary to go forward using your Blixt and 
 
 ### A - Name (NameDesc)
 
-"insert blixt_t17.jpg"
+![Demo Blixt 17](assets/blixt_t17.jpg)
 
 [The NameDesc](https://github.com/lightning/blips/blob/master/blip-0011.md) is a standard for conveying "receiver name" in BOLT11 invoices.
 
@@ -320,18 +320,18 @@ This option is really useful in various cases, when you want to send a name toge
 
 Here is an example of how would appear when you use [chat.blixtwallet.com](https://chat.blixtwallet.com/)
 
-"insert blixt_t18.jpg"
+![Demo Blixt 18](assets/blixt_t18.jpg)
 
 This is another example sending to another wallet app that support NameDesc:
 
-"insert blixt_t19.jpg"
+![Demo Blixt 19](assets/blixt_t19.jpg)
 
 ### B - Backup LN Channels and seed words
 This is a very important feature !
 
 After opening or closing a LN channel you should do a backup. It can be done manually saving a small file on local device (download folder usually) or using a Google Drive or iCloud account.
 
-"insert blixt_t20.jpg"
+![Demo Blixt 20](assets/blixt_t20.jpg)
 
 Go to Blixt Settings - Wallet section. There you have the options to save all important data for your Blixt wallet:
 - “Show mnemonic” - will display the 24 words seed to write them down
@@ -344,7 +344,7 @@ I would recommend for this section the following:
 - use a password manager to store safely your seed and backup file. [KeePass](https://keepass.info/) or Bitwarden are very good for that and can be used on multiplatform and self hosted or offline.
 - DO THE BACKUP EVERY TIME you open or close a channel. That file is updated with the channels info. There’s no need to do it after each transaction you’ve done on LN. The channel backup is not storing that info, is storing only the status of the channel.
 
-"insert blixt_t21.jpg"
+![Demo Blixt 21](assets/blixt_t21.jpg)
 
 ---
 ## Conclusion

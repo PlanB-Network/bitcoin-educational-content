@@ -127,7 +127,7 @@ This feature is a bit hidden, in the drawer menu in the top left. Since it is no
 - With the vers. 0.6.9 was introduced the "persistent mode" that allow user to run Blixt as an always online LN node, keeping the LND services alive and the LN wallet ready to receive/send anytime.
 - Simple Taproot Channels - allow opening Taproot channels for more privacy and advanced features
 - Zero-confirmation channels with Blixt Dunder LSP
-- Speedloader ("LN channel sync") - This means you won't have to download the full channel database for each sync, resulting in speedier syncs
+- Speedloader ("LN channel sync") - This means all channels  will be synced quickly on startup, for better pathfinding. While it's a bit annoying that you have to see the sync screen in the beginning, it will ensure that the wallet knows about all channels and the payments will be faster and more reliable.
 - Translated in 25+ languages!
 
 ## "Easter Eggs"
@@ -195,7 +195,7 @@ The address and the welcome message displayed will disappear. There’s no more 
 
 Is time to move on, testing other features and options to open LN channels.
 
-Now, let’s open another channel with another node peer. Blixt community put togheter [a list of good nodes to start using with Blixt.](https://github.com/hsjoberg/blixt-wallet/issues/1033)
+Now, let’s open another channel with another node peer. Blixt community put together [a list of good nodes to start using with Blixt.](https://github.com/hsjoberg/blixt-wallet/issues/1033)
 
 ### Procedure to open a normal unannounced (private) LN channel in your Blixt mobile node
 

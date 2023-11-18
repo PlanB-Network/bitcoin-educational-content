@@ -41,7 +41,8 @@ The Blixt mobile node, is necessary to be online and synced ONLY BEFORE you are 
 ## Neutrino Node
 
 Blixt connects by default to Blixt's server to synchronize blocks and index with Neutrino (SPV mode for Simplified Payment Verification), but the user can also connect to their own node. It is surprising to see that synchronizing an SPV node takes less than 5 minutes, in my case on Android 11, to be ready to use the full node wallet (on-chain and LN).
-'Complete Non-Custodial Node
+
+## Complete Non-Custodial Node
 
 The user can manage their own channels with an easy-to-use interface and with enough displayed information to have a good experience. In the top left drawer menu, you can go to the Lightning channels to start opening with other nodes, as you wish. Don't forget to enable Tor in the settings. It's much better for privacy and also because as a mobile node, if you change your internet connection / clearnet IP frequently, your peers may be disrupted. With the Tor node URI, you will always have the same private identifier regardless of your location / IP.
 

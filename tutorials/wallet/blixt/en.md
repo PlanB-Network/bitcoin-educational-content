@@ -4,7 +4,7 @@ name: Blixt
 description: Mobile LN Node Wallet
 ---
 
-![presentation](assets/1.jpeg)
+![presentation](assets/blixt_intro_en.jpg)
 
 ## A powerful BTC/Lightning node in your pocket, wherever you are
 

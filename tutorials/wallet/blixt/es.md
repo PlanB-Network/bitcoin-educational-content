@@ -31,7 +31,7 @@ El nodo móvil Blixt es necesario estar en línea y sincronizar solo antes de qu
 - [Blixt Página de características](https://blixtwallet.github.io/features_es) - explicando uno por uno cada característica y funcionalidad.
 - [Blixt Página FAQ](https://blixtwallet.github.io/faq_es) - Lista de preguntas y respuestas y solución de problemas de Blixt
 - [Blixt Página de guías](https://blixtwallet.github.io/guides_es) - demostraciones, video tutoriales, guías adicionales y casos de uso para Blixt
-- [Printable A4 flyer](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer) with first steps using Blixt, in various languages.
+- [Folleto imprimible A4](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer) con los primeros pasos usando Blixt, en varios idiomas.
 - Blixt también ofrece una demostración funcional completa en [su sitio web](https://blixtwallet.com) o en una [versión web dedicada](https://blixt-wallet-git-master-hsjoberg.vercel.app/), tener una prueba de experiencia completa, antes de comenzar a usar Blixt en el mundo real.
 - [Geyser crowdfunding page](https://geyser.fund/project/blixt) - Done sats como desea apoyar el proyecto
 - [Telegram support group](https://t.me/blixtwallet)

@@ -172,7 +172,7 @@ You could click it and see the status of the sync:
 
 Also you could click on the “Show LND Log” (A) button if you want to see and read more technical details of the LND log, in real time. Is very useful for debug and learning more how LN works.
 
-B - Here you can access all the Blixt Settings, and are a lot! Blixt is offering many rich features and options to manage your LN node like a pro. All those options are explained in details in the “Blixt Features Page - Options Menu”.
+B - Here you can access all the Blixt Settings, and are a lot! Blixt is offering many rich features and options to manage your LN node like a pro. All those options are explained in details in the [“Blixt Features Page - Options Menu”](https://blixtwallet.github.io/features#blixt-options).
 
 C - Here you have the “Magic Drawer” menu, also explained in details here. Here is the “Onchain Wallet” (B), Lightning Channels (C), Contacts, Channels status icon (A), Keysend (D).
 
@@ -186,7 +186,7 @@ E - Indicate your first BTC address, where you can deposit your first testing sa
 
 As you can see in the Onchain Transaction Log, the steps are very detailed indicating where the sats are going (deposit, open, close channel)
 
->RECOMMENDATION: After testing several situations, we came to the conclusion that is much better efficient to open channels between 1 and 5 M sats. Smaller channels tend to be depleted quickly and paying a higher % of fees comparative with bigger channels.
+> RECOMMENDATION: After testing several situations, we came to the conclusion that is much better efficient to open channels between 1 and 5 M sats. Smaller channels tend to be depleted quickly and paying a higher % of fees comparative with bigger channels.
 
 F - Indicate your main Lightning wallet balance. This is NOT your total Blixt wallet balance, it represent only the sats you have in Lightning Channels, available to send. As was indicated before, the Onchain wallet is separate. Keep in mind this aspect. The onchain wallet is separate for an important reason: it is used mainly for opening/closing LN channels.
 
@@ -253,7 +253,7 @@ Good, now you are good to go, to send and receive enough sats over LN !
 
 So now let’s discuss about how to restore a Blixt wallet or any other LND crashed node. This is a bit more technical, but please pay attention. Is not that hard.
 
->REMINDER: In the past I wrote a dedicated guide with multiple options [how to restore a crashed LND node](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), where I mentioned also the method of using Blixt as quick restore process, using the seed + channel.backup file from your dead LND node. I also wrote a guide how to restore your Blixt node or migrate your Blixt to another device, [here](https://blixtwallet.github.io/faq#blixt-restore).
+> REMINDER: In the past I wrote a dedicated guide with multiple options [how to restore a crashed LND node](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), where I mentioned also the method of using Blixt as quick restore process, using the seed + channel.backup file from your dead LND node. I also wrote a guide how to restore your Blixt node or migrate your Blixt to another device, [here](https://blixtwallet.github.io/faq#blixt-restore).
 
 ![Demo Blixt 11](assets/blixt_t11.jpg)
 
@@ -330,6 +330,7 @@ This is another example sending to another wallet app that support NameDesc:
 ![Demo Blixt 19](assets/blixt_t19.jpg)
 
 ### B - Backup LN Channels and seed words
+
 This is a very important feature !
 
 After opening or closing a LN channel you should do a backup. It can be done manually saving a small file on local device (download folder usually) or using a Google Drive or iCloud account.
@@ -364,6 +365,6 @@ I hope you enjoy using it. Personally, I love it and it's very useful to me (see
 
 HAPPY BITCOIN LIGHTNING!
 
-May ₿ITCOIN Be With You!
+May The ₿ITCOIN Be With You!
 
->DISCLAIMER: I am not paid or supported in any way by the developers of this app. I wrote this guide because I saw that the interest in this wallet app is increasing and new users still don’t understand how to start with it. Also to help Hampus (the main dev) with documentation about using this node wallet. I do not have any other interest in promoting this LN app, other than pushing forward the Bitcoin and LN adoption. This is the only way!
+> DISCLAIMER: I am not paid or supported in any way by the developers of this app. I wrote this guide because I saw that the interest in this wallet app is increasing and new users still don’t understand how to start with it. Also to help Hampus (the main dev) with documentation about using this node wallet. I do not have any other interest in promoting this LN app, other than pushing forward the Bitcoin and LN adoption. This is the only way!

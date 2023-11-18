@@ -60,7 +60,9 @@ The restoration process is quite simple: insert the 24-word seed, add the backup
 
 Remember to backup your LN channels after opening and/or closing channels. It only takes a few seconds to be safe. Later, you can move the backup file to a safe place away from your mobile device.
 To test your seed in a restoration scenario, before adding funds, simply use the same 24-word seed (aezeed) in BlueWallet. If the generated BTC address is the same in Blixt, you are good to go. No need to use BlueWallet after that, you can simply delete the tested wallet for restoration.
-Built-in Tor'
+
+## Built-in Tor
+
 Once you have activated it, the application will restart behind the Tor network. From this point on, you can see in the menu settings your node ID with an onion address, so that other nodes can open channels to your small Blixt mobile node. Or let's say you have your own node at home and you want to have small channels with your Blixt mobile node. A perfect combination.
 
 ## Dunder LSP - Liquidity Service Provider

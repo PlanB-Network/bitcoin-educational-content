@@ -69,11 +69,11 @@ Once you have activated it, the application will restart behind the Tor network.
 
 A simple and fantastic feature that offers new users the ability to start accepting BTC on the Lightning Network immediately, without the need to deposit funds on-chain and then open LN channels.
 
-For new users, this is great news because they are supposed to be able to start from scratch, directly on LN. To do this, simply create an LN invoice from the main screen on the "receive" button, enter the amount, description, etc., and pay from another wallet. Blixt will open a channel of up to 500k sats per transaction received. You can open multiple channels if necessary.
+For new users, this is great news because they are supposed to be able to start from scratch, directly on LN. To do this, simply create an LN invoice from the main screen on the "receive" button, enter the amount, description, etc., and pay from another wallet. Blixt will open a channel of up to 400k sats per transaction received. You can open multiple channels if necessary.
 
-An interesting and useful case is as follows: let's say your first received amount is 200k. Blixt will open a 500k sats channel with already 200k (minus opening fees) on your side, but since you still have 300k "space" available, you can receive more. So the next payment, let's say 100k, will arrive directly through this channel, without additional fees, and you still have 200k space to receive more.
+An interesting and useful case is as follows: let's say your first received amount is 200k. Blixt will open a 400k sats channel with already 200k (minus opening fees) on your side, but since you still have 200k "space" available, you can receive more. So the next payment, let's say 100k, will arrive directly through this channel, without additional fees, and you still have 100k space to receive more.
 
-But if you choose to receive, let's say, 300k for the third payment, it will create another new 500k channel and push these 300k to your side.
+But if you choose to receive, let's say, 300k for the third payment, it will create another new 400k channel and push these 300k to your side.
 
 If there are too many requests, the Blixt node can adjust the channel capacity during opening.
 
@@ -93,13 +93,13 @@ Useful feature if you want to have a durable list of recipients with whom you tr
 
 ## LNURL and Lightning Address
 
-Full LNURL support. You can pay to, LN-auth, LN-chan request with LNURL.
+Full LNURL support. You can pay to LNURL, LN-auth, LN-chan request with LNURL.
 You can send to any LN address and also add it into your contacts list. 
 Also starting with vers. 0.6.9 is available to receive to your own LN Address *@blixtwallet.com* type, through [Blixt Lightning Box](https://github.com/hsjoberg/lightning-box) feature.
 
 ## Keysend
 
-A very powerful feature that few mobile wallets have. You can send/push funds directly through a channel or pointed to another node, adding a message if necessary. This feature is very useful for displaying messages on the Amboss.space billboard (here is a guide on this Amboss billboard).
+A very powerful feature that few mobile wallets have. You can send/push funds directly through a channel or pointed to another node, adding a message if necessary. Is like a secret chat over LN. This feature is very useful for displaying messages on the Amboss.space billboard ([here is a guide on this Amboss billboard](https://darthcoin.substack.com/p/amboss-billboard-amazing-tool)).
 
 ## Message signing
 

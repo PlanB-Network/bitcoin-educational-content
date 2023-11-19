@@ -138,7 +138,6 @@ Questa funzione è un po 'nascosta, nel menu del cassetto in alto a sinistra. Po
 Sì, nell'applicazione Blixt, ci sono alcune caratteristiche nascoste, piccole cose che rendono l'applicazione affascinante, attivando azioni e risposte divertenti/interessanti.
 Suggerimento: prova a fare clic due volte sul logo Blixt nel cassetto 🙂 Ti lascerò scoprire il resto.
 
----
 
 # Blixt Guida passo-passo per iniziare
 
@@ -350,7 +349,6 @@ Consiglierei per questa sezione quanto segue:
 
 ![Demo Blixt 21](assets/blixt_t21.jpg)
 
----
 ## Conclusione
 
 Ok, ci sono molte altre incredibili funzionalità che Blixt offre, ti permetterò di scoprirle uno per uno e divertirti.

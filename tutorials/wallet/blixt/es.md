@@ -138,8 +138,6 @@ Esta característica está un poco oculta, en el menú del cajón en la parte su
 Sí, en la aplicación Blixt, hay algunas características ocultas, pequeñas cosas que hacen que la aplicación sea encantadora, activando acciones y respuestas interesantes.
 Sugerencia: intente hacer clic dos veces en el logotipo de Blixt en el cajón | Te dejaré descubrir el resto.
 
----
-
 # Comineza con Blixt - Guía paso a paso
 
 > Como nuevo usuario de LN, si comienza a usar el nodo Blixt LN, primero necesitará saber qué es Lightning Network y cómo funciona, al menos a nivel básico. [Aquí organizamos una lista simple de recursos sobre Lightning Network](https://blixtwallet.github.io/faq_es#que-es-ln). Por favor léelos primero.”
@@ -350,7 +348,6 @@ Recomendaría para esta sección lo siguiente:
 
 ![Demo Blixt 21](assets/blixt_t21.jpg)
 
----
 ## Conclusión
 
 Ok, hay muchas otras características increíbles que ofrece Blixt, te dejaré descubrirlas una por una y divertirte.

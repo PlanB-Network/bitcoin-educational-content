@@ -1,7 +1,7 @@
 ---
 name: O percurso do Bitcoin
 goal: Descobrir o Bitcoin e os seus fundamentos, incluindo a sua proposta de valor monetário, os mineradores, as transações e as carteiras.
-objectivos:
+objectives:
   - Ter uma compreensão geral da tecnologia do Bitcoin
   - Compreender como comprar e proteger os seus bitcoins
   - Ter uma compreensão geral da tecnologia Blockchain

@@ -138,11 +138,9 @@ This feature is a bit hidden, in the drawer menu in the top left. Since it is no
 Yes, in the Blixt application, there are some hidden features, little things that make the application charming, activating fun/interesting actions and responses.
 Hint: try clicking twice on the Blixt logo in the drawer 🙂 I'll let you discover the rest.
 
----
-
 # Blixt Getting Started Step-by-Step Guide
 
->As new LN user, if you start using Blixt LN Node, you will need first to know what is Lightning Network and how it works, at least at basic level. [Here we put together a simple list of resources about Lightning Network](https://blixtwallet.github.io/faq#what-is-ln). Please read them first.”
+> As new LN user, if you start using Blixt LN Node, you will need first to know what is Lightning Network and how it works, at least at basic level. [Here we put together a simple list of resources about Lightning Network](https://blixtwallet.github.io/faq#what-is-ln). Please read them first.”
 
 Running a full LN node on a mobile device is not an easy task and could take some space (min 600MB) and memory. We recommend to have a good mobile device, updated and using at least Android 11 as OS.
 
@@ -350,7 +348,6 @@ I would recommend for this section the following:
 
 ![Demo Blixt 21](assets/blixt_t21.jpg)
 
----
 ## Conclusion
 
 OK, there are many other amazing features that Blixt offers, I will let you discover them one by one and have fun.

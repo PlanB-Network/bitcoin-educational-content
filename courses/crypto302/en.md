@@ -156,20 +156,20 @@ Most of our local network data—whether in our homes, at the office, or in a ca
 Hence, the idea of keeping communications secret by protecting the communication channel is a hopelessly delusional aspiration for much of the modern world. Everything we know warrants severe paranoia: you should always assume that someone is listening. And cryptography is the main tool we have to obtain any kind of security in this modern environment.    
 
 ### Notes
+[^1]: For a good summary of the story, see Simon Singh, *The Code Book*, Fourth Estate (London, 1999), pp. 82-99. A short movie of the story was made by Andrew Allen in 2010. You can find the movie, “The Thomas Beale Cipher,” on its website [^1].
 
-<a name="footnote1">1</a>. For a good summary of the story, see Simon Singh, *The Code Book*, Fourth Estate (London, 1999), pp. 82-99. A short movie of the story was made by Andrew Allen in 2010. You can find the movie, “The Thomas Beale Cipher,” on its website (http://www.thomasbealecipher.com/).
+[^2]: This image is available on the Wikipedia page for the Beale ciphers [^2].
 
-<a name="footnote2">2</a>. This image is available on the Wikipedia page for the Beale ciphers. 
+[^3]: To be exact, the important applications of cryptographic schemes have been concerned with secrecy. Kids, for instance, frequently use simple cryptographic schemes for “fun”. Secrecy is not really a concern in those cases [^3].
 
-<a name="footnote3">3</a>. To be exact, the important applications of cryptographic schemes have been concerned with secrecy. Kids, for instance, frequently use simple cryptographic schemes for “fun”. Secrecy is not really a concern in those cases.  
+[^4]: Bruce Schneier, *Applied Cryptography*, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons), p. 2 [^4].
 
-<a name="footnote4">4</a>. Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons), p. 2. 
+[^5]: See Jonathan Katz and Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL: 2015), esp. pp. 16–23, for a good description [^5].
 
-<a name="footnote5">5</a>. See Jonathan Katz and Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL: 2015), esp. pp. 16–23, for a good description. 
+[^6]: Cf. Katz and Lindell, ibid., p. 3. I think their characterization has some issues, so present a slightly different version of their statement here [^6].
 
-<a name="footnote6">6</a>. Cf. Katz and Lindell, ibid., p. 3. I think their characterization has some issues, so present a slightly different version of their statement here. 
+[^7]: See, for instance, Olga Khazan, “The creepy, long-standing practice of undersea cable tapping”, *The Atlantic*, July 16, 2013 (available at [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)) [^7].
 
-<a name="footnote7">7</a>. See, for instance, Olga Khazan, “The creepy, long-standing practice of undersea cable tapping”, *The Atlantic*, July 16, 2013 (available at https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/). 
 
 # Chapter 2: Mathematical Foundations of Cryptography I
 
@@ -442,9 +442,10 @@ The reason for dropping the distinction between “random” and “uniform” i
 
 ## Notes
 
-<a name="footnote1">1</a>. We can define this statement exactly, using the terminology from the previous section. Let a uniform variable K have **K** as its set of possible outcomes. So Pr [K = 0] = 1/26, Pr [K = 1] = 1/26, and so on. Sample the uniform variable K once to yield a particular key. 
+[^1]: We can define this statement exactly, using the terminology from the previous section. Let a uniform variable K have **K** as its set of possible outcomes. So Pr [K = 0] = 1/26, Pr [K = 1] = 1/26, and so on. Sample the uniform variable K once to yield a particular key [^1].
 
-<a name="footnote2">2</a>. If interested in a more formal exposition on these matters, you can consult Katz and Lindell’s *Introduction to Modern Cryptography*, esp. chapter 3. 
+[^2]: If interested in a more formal exposition on these matters, you can consult Katz and Lindell’s *Introduction to Modern Cryptography*, esp. chapter 3 [^2].
+
 
 # Chapter 3: Mathematical Foundations of Cryptography II
 
@@ -750,15 +751,16 @@ For further discussion on modern number theory, you can consult many advanced di
 
 ### Notes
 
-<a name="footnote1">1</a>. The function works as follows. Any integer N can be factored into a product of primes. Suppose that a particular N is factored as follows: p<sub>1</sub><sup>e1</sup> • p<sub>2</sub><sup>e2</sup> …. • p<sub>m</sub><sup>em</sup> where all the p’s are prime numbers and all the e’s are integers greater than or equal to 1. Then, φ(N) = Sum<sub>i=1…m</sub>[p<sub>i</sub><sup>ei</sup> – p<sub>i</sub><sup>ei - 1</sup>]. 
+[^1]: The function works as follows. Any integer N can be factored into a product of primes. Suppose that a particular N is factored as follows: p<sub>1</sub><sup>e1</sup> • p<sub>2</sub><sup>e2</sup> …. • p<sub>m</sub><sup>em</sup> where all the p’s are prime numbers and all the e’s are integers greater than or equal to 1. Then, φ(N) = Sum<sub>i=1…m</sub>[p<sub>i</sub><sup>ei</sup> – p<sub>i</sub><sup>ei - 1</sup>] [^1].
 
-<a name="footnote2">2</a>. Extension fields become very counterintuitive. Instead of having elements of integers, they have sets of polynomials. In addition, any operations are performed modulo some irreducible polynomial.
+[^2]: Extension fields become very counterintuitive. Instead of having elements of integers, they have sets of polynomials. In addition, any operations are performed modulo some irreducible polynomial [^2].
 
-<a name="footnote3">3</a>. See https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be. 
+[^3]: See [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be) [^3].
 
-<a name="footnote4">4</a>. Socratica, Abstract Algebra, available at: https://www.socratica.com/subject/abstract-algebra. 
+[^4]: Socratica, [Abstract Algebra](https://www.socratica.com/subject/abstract-algebra) [^4].
 
-<a name="footnote5">5</a>. Katz and Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar and Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin). 
+[^5]: Katz and Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar and Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin) [^5].
+
 
 # Chapter 4: Symmetric Cryptography
 
@@ -1157,15 +1159,16 @@ The communication session starts by Bob sending a ciphertext C<sub>0,B</sub> to 
 
 ## Notes
 
-<a name="footnote1">1</a>. According to Seutonius, a shift cipher with a constant key value of 3 was used by Julius Caeser in his military communications. So A would always become D, B always E, C always F, and so on. This particular version of the Shift cipher has, thus, become known as the **Caesar Cipher** (though it is not really a cipher in the modern sense of the word, as the key value is constant). The Caesar cipher may have been secure in the first century BC, if Rome’s enemies were very unfamiliar with encryption. But it clearly would not be a very secure scheme in modern times.
+[^1]: According to Seutonius, a shift cipher with a constant key value of 3 was used by Julius Caeser in his military communications. So A would always become D, B always E, C always F, and so on. This particular version of the Shift cipher has, thus, become known as the **Caesar Cipher** (though it is not really a cipher in the modern sense of the word, as the key value is constant). The Caesar cipher may have been secure in the first century BC, if Rome’s enemies were very unfamiliar with encryption. But it clearly would not be a very secure scheme in modern times [^1].
 
-<a name="footnote2">2</a>. Jonathan Katz and Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL: 2015), p. 7f. 
+[^2]: Jonathan Katz and Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL: 2015), p. 7f [^2].
 
-<a name="footnote3">3</a>. Eric Raymond, “The Cathedral and the Bazaar,” paper was presented at the Linux Kongress, Würzburg, Germany (May 27, 1997). There are a number of subsequent versions available as well as a book. My citations are from page 30 in the book: Eric Raymond, *The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary*, revised edn. (2001), O’Reilly: Sebastopol, CA.  
+[^3]: Eric Raymond, “The Cathedral and the Bazaar,” paper was presented at the Linux Kongress, Würzburg, Germany (May 27, 1997). There are a number of subsequent versions available as well as a book. My citations are from page 30 in the book: Eric Raymond, *The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary*, revised edn. (2001), O’Reilly: Sebastopol, CA [^3].
 
-<a name="footnote4">4</a>. Crypto Museum, "Washington-Moscow hotline," 2013, available at https://www.cryptomuseum.com/crypto/hotline/index.htm. 
+[^4]: Crypto Museum, "Washington-Moscow hotline," 2013, available at [Crypto Museum](https://www.cryptomuseum.com/crypto/hotline/index.htm) [^4].
 
-<a name="footnote5">5</a> The importance of probabilistic encryption was first emphasized by Shafi Goldwasser and Silvio Micali, “Probabilistic encryption,” *Journal of Co
+[^5]: The importance of probabilistic encryption was first emphasized by Shafi Goldwasser and Silvio Micali, “Probabilistic encryption,” *Journal of Co [^5].
+
 
 
 # Chapter 5: RC4 and AES
@@ -1585,18 +1588,18 @@ While collision resistance and hiding are the main properties sought of hash fun
 
 
 ### Notes
+[^1]: Whitfield Diffie and Martin Hellman, “New directions in cryptography,” *IEEE Transactions on Information Theory* IT-22 (1976), pp. 644–654, at p. 644 [^1].
 
-<a name="footnote1">1</a>. Whitfield Diffie and Martin Hellman, “New directions in cryptography,” *IEEE Transactions on Information Theory* IT-22 (1976), pp. 644–654, at p. 644. 
+[^2]: Ralph Merkle also discusses a key exchange protocol in “Secure communications over insecure channels”, *Communications of the Association for Computing Machinery*, 21 (1978), 294–99. While Merkle actually submitted this paper before the paper by Diffie and Hellman, it was published later. Merkle’s solution is not exponentially secure, unlike Diffie-Hellman’s [^2].
 
-<a name="footnote2">2</a>. Ralph Merkle also discusses a key exchange protocol in “Secure communications over insecure channels”, *Communications of the Association for Computing Machinery*, 21 (1978), 294–99. While Merkle actually submitted this paper before the paper by Diffie and Hellman, it was published later. Merkle’s solution is not exponentially secure, unlike Diffie-Hellman’s. 
+[^3]: Ron Rivest, Adi Shamir, and Leonard Adleman, “A method for obtaining digital signatures and public-key cryptosystems”, *Communications of the Association for Computing Machinery*, 21 (1978), pp. 120–26 [^3].
 
-<a name="footnote3">3</a>. Ron Rivest, Adi Shamir, and Leonard Adleman, “A method for obtaining digital signatures and public-key cryptosystems”, *Communications of the Association for Computing Machinery*, 21 (1978), pp. 120–26.
+[^4]: A good history of these discoveries is provided by Simon Singh, *The Code Book*, Fourth Estate (London, 1999), Chapter 6 [^4].
 
-<a name="footnote4">4</a>. A good history of these discoveries is provided by Simon Singh, *The Code Book*, Fourth Estate (London, 1999), Chapter 6.
+[^5]: Any schemes attempting to achieve non-repudiation, the other theme we discussed in *Chapter 1*, will at its basis need to involve digital signatures [^5].
 
-<a name="footnote5">5</a>. Any schemes attempting to achieve non-repudiation, the other theme we discussed in *Chapter 1*, will at its basis need to involve digital signatures.
+[^6]: The “hiding” terminology is not common language, but taken specifically from Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder, *Bitcoin and Cryptocurrency Technologies*, Princeton University Press (Princeton, 2016), Chapter 1 [^6].
 
-<a name="footnote6">6</a>. The “hiding” terminology is not common language, but taken specifically from Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder, *Bitcoin and Cryptocurrency Technologies*, Princeton University Press (Princeton, 2016), Chapter 1.
 
 # Chapter 7 - The RSA cryptosystem
 
@@ -1863,9 +1866,10 @@ Nevertheless, with adding a bit of clever complexity, the RSA problem can be use
 
 ### Notes
 
-<a name="footnote1">1</a>. Factorization can also be important for working with other types of mathematical objects than numbers. For instance, it can be useful to factor polynomial expressions such x<sup>2</sup> – 2x + 1. In our discussion, we will only focus on the factorization of numbers, specifically integers.
+[^1]: Factorization can also be important for working with other types of mathematical objects than numbers. For instance, it can be useful to factor polynomial expressions such x^2 – 2x + 1. In our discussion, we will only focus on the factorization of numbers, specifically integers [^1].
 
-<a name="footnote2">2</a>. According to the prime number theorem, the number of primes less than or equal to N is approximately N/ln⁡(N). This means that you can approximate the number of primes of length 1024 bits by 2<sup>1024</sup>/ln⁡(2<sup>1024</sup>) - 2<sup>1023</sup>/ln⁡(2<sup>1023</sup>) which equals approximately 1.265 x 10<sup>305</sup>.
+[^2]: According to the prime number theorem, the number of primes less than or equal to N is approximately N/ln⁡(N). This means that you can approximate the number of primes of length 1024 bits by 2^1024/ln⁡(2^1024) - 2^1023/ln⁡(2^1023) which equals approximately 1.265 x 10^305 [^2].
+
 
 # Contributions
 

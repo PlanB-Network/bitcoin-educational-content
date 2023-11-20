@@ -46,4 +46,4 @@ Merchants using [BTCPay](https://btcpayserver.org/) or [LNBits](https://lnbits.c
 
 ### Video tutorial by BTC Sessions
 
-[Zeus Bitcoin Lightning Wallet - Mobile Node Management](https://youtu.be/hmmehTnV3ys)
+![Zeus Bitcoin Lightning Wallet - Mobile Node Management](https://youtu.be/hmmehTnV3ys)

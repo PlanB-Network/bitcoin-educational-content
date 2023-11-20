@@ -44,6 +44,18 @@ Merchants using [BTCPay](https://btcpayserver.org/) or [LNBits](https://lnbits.c
 - Self-custodial lightning addresses (@zeuspay.com)
 - Point of Sale by Square (soon open PoS)
 
+## Guides and Video Tutorials
+In order to be able to use Zeus and manage the Lightning channels, liquidity, fees etc, is better to read first some important guides about Lightning Network.
+
+### Guides:
+- [LND - Lightning Network Daemon Documentation](https://docs.lightning.engineering/)
+- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
+- [Beginners Lightning Guide](https://bitcoiner.guide/lightning/) – by Bitcoin Q&A
+- [Lightning Node Management](https://www.lightningnode.info/) – by openoms
+- [The Lightning Network and the airport analogy](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [Managing Lightning Node Liquidity](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Lightning Node Maintenance](https://darthcoin.substack.com/p/lightning-node-maintenance)
+
 ### Video tutorial by BTC Sessions
 
 ![Zeus Bitcoin Lightning Wallet - Mobile Node Management](https://youtu.be/hmmehTnV3ys)

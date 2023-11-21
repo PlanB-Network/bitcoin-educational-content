@@ -1,7 +1,7 @@
 question: Do Linux and Mac often need antivirus?
-answer: false
+answer: This is false
 wrong_answers:
-  - true
+  - This is true
   - Only Linux needs antivirus.
   - Only Mac needs antivirus.
 explanation: |

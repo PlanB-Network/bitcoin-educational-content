@@ -5,5 +5,7 @@ wrong_answers:
   - Die Software wird keine neuen Funktionen haben.
   - Die Software wird mehr Systemressourcen verbrauchen.
 explanation: |
-  
+  Geknackte Software, die nicht aktualisiert werden kann, stellt eine doppelte potenzielle
+  Bedrohung dar. Sie kann einen Virus einschleppen, wenn sie illegal von einer verdächtigen Website heruntergeladen wird
+  und sie kann gegen neue Angriffsformen unsicher sein.
 reviewed: false

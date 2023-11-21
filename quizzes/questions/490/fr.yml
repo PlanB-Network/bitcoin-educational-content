@@ -1,7 +1,7 @@
 question: Est-ce qu'une phrase secrète est plus sécurisée qu'un mot de passe simple?
-answer: vrai
+answer: Oui
 wrong_answers:
-  - faux
+  - Non
   - Cela dépend de la longueur du mot de passe
   - Cela dépend de la complexité du mot de passe
 explanation: |

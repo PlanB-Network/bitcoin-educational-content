@@ -1,7 +1,7 @@
 question: Sind Lightning-Zahlungskanäle bidirektional?
-answer: wahr
+answer: Ja
 wrong_answers:
-  - falsch
+  - Nein
   - Nur in einigen Fällen
   - Es hängt vom Bitcoin-Netzwerk ab
 explanation: |

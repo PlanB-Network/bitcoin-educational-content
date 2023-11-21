@@ -9,7 +9,9 @@ links:
 
 tags:
   - bitcoin
-  - privacy
+  - lightning
+  - merchants
+  - use cases
 
 tips:
-  lightning_address: darthcoin@lntxbot.com
+  lightning_address: darthcoin@getalby.com

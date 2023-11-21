@@ -1,7 +1,7 @@
 question: Kann man betrügen, indem man einen alten Zustand in einer Verpflichtungstransaktion veröffentlicht?
-answer: Ja.
+answer: Ja
 wrong_answers:
-  - Nein.
+  - Nein
   - Nur wenn sie den Widerrufsschlüssel haben.
   - Nur wenn sie die Transaktion mit der Zeitsperre erstellt haben.
 explanation: |

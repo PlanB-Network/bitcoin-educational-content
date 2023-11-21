@@ -1,7 +1,7 @@
 question: Spart die Verwendung einer Bitcoin-Adresse Platz in den Blöcken?
-answer: falsch
+answer: Nein
 wrong_answers:
-  - richtig
+  - Ja
   - Nur wenn die Adresse komprimiert ist
   - Nur wenn die Adresse gehasht ist
 explanation: |

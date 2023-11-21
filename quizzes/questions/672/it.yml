@@ -1,7 +1,7 @@
 question: È possibile imbrogliare pubblicando uno stato precedente in una transazione di impegno?
-answer: Sì.
+answer: Sì
 wrong_answers:
-  - No.
+  - "No"
   - Solo se hanno la chiave di revoca.
   - Solo se hanno creato la transazione con il Timelock.
 explanation: |

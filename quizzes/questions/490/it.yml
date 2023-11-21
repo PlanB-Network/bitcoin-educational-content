@@ -1,7 +1,7 @@
 question: Una passphrase è più sicura di una semplice password.
-answer: vero
+answer: Sì
 wrong_answers:
-  - falso
+  - "No"
   - Dipende dalla lunghezza della password
   - Dipende dalla complessità della password
 explanation: |

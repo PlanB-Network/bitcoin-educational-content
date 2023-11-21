@@ -1,7 +1,7 @@
 question: Ist es möglich, von einer Bitcoin-Adresse auf den öffentlichen Schlüssel oder von dem öffentlichen Schlüssel auf den privaten Schlüssel zurückzuschließen?
-answer: falsch
+answer: Nein
 wrong_answers:
-  - wahr
+  - Ja
   - Nur vom öffentlichen Schlüssel auf den privaten Schlüssel
   - Nur von der Adresse auf den öffentlichen Schlüssel
 explanation: |

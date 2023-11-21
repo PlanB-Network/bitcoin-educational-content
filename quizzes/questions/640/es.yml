@@ -1,7 +1,7 @@
 question: ¿La capacidad de un canal de pago de Lightning es fija?
-answer: verdadero
+answer: Sí
 wrong_answers:
-  - falso
+  - "No"
   - Solo en algunos casos
   - Depende de la red de Bitcoin
 explanation: |

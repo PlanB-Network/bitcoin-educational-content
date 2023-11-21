@@ -1,7 +1,7 @@
 question: Can one cheat by publishing an old state in a commitment transaction?
-answer: Yes.
+answer: "Yes"
 wrong_answers:
-  - No.
+  - "No"
   - Only if they have the revocation key.
   - Only if they created the transaction with the Timelock.
 explanation: |

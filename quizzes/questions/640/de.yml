@@ -1,7 +1,7 @@
 question: Ist die Kapazität eines Lightning-Zahlungskanals festgelegt?
-answer: wahr
+answer: Ja
 wrong_answers:
-  - falsch
+  - Nein
   - Nur in einigen Fällen
   - Es hängt vom Bitcoin-Netzwerk ab
 explanation: |

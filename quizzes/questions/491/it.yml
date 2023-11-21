@@ -1,7 +1,7 @@
 question: È consigliato memorizzare una passphrase o una frase mnemonica per un portafoglio Bitcoin?
-answer: falso
+answer: "No"
 wrong_answers:
-  - vero
+  - Sì
   - Dipende dalla lunghezza della passphrase o della frase mnemonica
   - Dipende dalla complessità della passphrase o della frase mnemonica
 explanation: |

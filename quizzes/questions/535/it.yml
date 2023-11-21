@@ -1,7 +1,7 @@
 question: Usare un indirizzo Bitcoin risparmia spazio nei blocchi?
-answer: falso
+answer: "No"
 wrong_answers:
-  - vero
+  - Sì
   - Solo se l'indirizzo è compresso
   - Solo se l'indirizzo è hashato
 explanation: |

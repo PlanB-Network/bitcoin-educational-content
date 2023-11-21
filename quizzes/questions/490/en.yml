@@ -1,7 +1,7 @@
 question: Is a passphrase more secure than a simple password?
-answer: true
+answer: "Yes"
 wrong_answers:
-  - false
+  - "No"
   - It depends on the length of the password
   - It depends on the complexity of the password
 explanation: |

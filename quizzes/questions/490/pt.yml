@@ -1,7 +1,7 @@
 question: Uma frase de acesso é mais segura do que uma senha simples?
-answer: verdadeiro
+answer: Sim
 wrong_answers:
-  - falso
+  - Não
   - Depende do comprimento da senha
   - Depende da complexidade da senha
 explanation: |

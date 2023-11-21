@@ -1,7 +1,7 @@
 question: ¿Es posible revertir desde una dirección de Bitcoin a la clave pública, o desde la clave pública a la clave privada?
-answer: falso
+answer: "No"
 wrong_answers:
-  - verdadero
+  - Sí
   - Solo desde la clave pública a la clave privada
   - Solo desde la dirección a la clave pública
 explanation: |

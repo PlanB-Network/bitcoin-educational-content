@@ -1,7 +1,7 @@
 question: ¿Usar una dirección de Bitcoin ahorra espacio en los bloques?
-answer: falso
+answer: "No"
 wrong_answers:
-  - verdadero
+  - Sí
   - Solo si la dirección está comprimida
   - Solo si la dirección está hasheada
 explanation: |

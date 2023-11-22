@@ -1,5 +1,4 @@
-question: What is the role of cryptographic hash functions in verifying the integrity
-  of downloaded software?
+question: What is the role of cryptographic hash functions in verifying the integrity of downloaded software?
 answer: They act as digital sentinels, verifying the integrity of downloaded software.
 wrong_answers:
   - They encrypt the software to protect it from hackers.

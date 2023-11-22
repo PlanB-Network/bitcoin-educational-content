@@ -1,5 +1,4 @@
-question: What function is used to generate the seed from the mnemonic phrase and
-  passphrase in an HD wallet?
+question: What function is used to generate the seed from the mnemonic phrase and passphrase in an HD wallet?
 answer: The pbkdf2 function
 wrong_answers:
   - The hmacha512 function

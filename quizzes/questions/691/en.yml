@@ -1,5 +1,4 @@
-question: What happens to the liquidity of a channel when a transaction is made in
-  the Lightning Network?
+question: What happens to the liquidity of a channel when a transaction is made in the Lightning Network?
 answer: The liquidity is redistributed along the route between the two parties.
 wrong_answers:
   - The liquidity remains the same.

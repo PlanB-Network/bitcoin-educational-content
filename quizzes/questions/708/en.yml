@@ -1,5 +1,4 @@
-question: What is the purpose of the randomness factor in the Lightning Network routing
-  process?
+question: What is the purpose of the randomness factor in the Lightning Network routing process?
 answer: To avoid always using the same routes.
 wrong_answers:
   - To increase the complexity of the network.

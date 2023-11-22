@@ -1,5 +1,4 @@
-question: Why does Alice need Bob's signature before publishing the transactions to
-  open a channel?
+question: Why does Alice need Bob's signature before publishing the transactions to open a channel?
 answer: To ensure she can recover her funds alone if something goes wrong.
 wrong_answers:
   - To confirm Bob's agreement to open the channel.

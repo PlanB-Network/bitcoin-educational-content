@@ -1,5 +1,4 @@
-question: What function is used to generate the seed from the passphrase in a Bitcoin
-  wallet?
+question: What function is used to generate the seed from the passphrase in a Bitcoin wallet?
 answer: pbkdf2
 wrong_answers:
   - sha256

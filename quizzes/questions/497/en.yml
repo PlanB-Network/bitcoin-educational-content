@@ -1,5 +1,4 @@
-question: What is the relationship between the master private key and the extended
-  keys of the wallet?
+question: What is the relationship between the master private key and the extended keys of the wallet?
 answer: The master private key is the first private key derived from the seed and
   has no connection to the extended keys of the wallet.
 wrong_answers:

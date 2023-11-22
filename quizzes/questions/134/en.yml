@@ -1,5 +1,4 @@
-question: What is the process by which miners validate transactions and include them
-  in a block?
+question: What is the process by which miners validate transactions and include them in a block?
 answer: Proof of work
 wrong_answers:
   - Proof of stake

@@ -1,5 +1,4 @@
-question: Why is a forced closure more risky in terms of fees and possible validation
-  by miners?
+question: Why is a forced closure more risky in terms of fees and possible validation by miners?
 answer: Because the fees were decided when the transaction was created in the past
   and the network has changed since then.
 wrong_answers:

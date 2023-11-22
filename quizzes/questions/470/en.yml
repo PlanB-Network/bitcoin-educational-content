@@ -1,5 +1,4 @@
-question: What is the main risk associated with generating one's own mnemonic phrase
-  using dice for Bitcoin transactions?
+question: What is the main risk associated with generating one's own mnemonic phrase using dice for Bitcoin transactions?
 answer: It may present certain risks.
 wrong_answers:
   - It may lead to the generation of predictable numbers.

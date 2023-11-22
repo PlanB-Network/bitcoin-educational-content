@@ -1,5 +1,4 @@
-question: What is the difference between the index ranges of normal child keys and
-  hardened child keys?
+question: What is the difference between the index ranges of normal child keys and hardened child keys?
 answer: Normal child keys have an index ranging from 0 to 2 to the power of 31 minus
   1, while hardened child keys have an index ranging from 2 to the power of 31 to
   2 to the power of 32 minus 1.

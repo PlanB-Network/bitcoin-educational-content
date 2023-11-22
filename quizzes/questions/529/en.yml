@@ -1,5 +1,4 @@
-question: What mathematical operations are used to derive the public key from the
-  child private key in Bitcoin?
+question: What mathematical operations are used to derive the public key from the child private key in Bitcoin?
 answer: Point addition and doubling on elliptic curves.
 wrong_answers:
   - Multiplication and division on parabolic curves.

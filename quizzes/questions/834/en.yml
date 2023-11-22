@@ -1,5 +1,4 @@
-question: What is the advantage of one-time passwords (HOTP and TOTP) over SMS for
-  2FA?
+question: What is the advantage of one-time passwords (HOTP and TOTP) over SMS for 2FA?
 answer: They require cryptographic calculation and are stored locally rather than
   in memory.
 wrong_answers:

@@ -1,5 +1,4 @@
-question: What is the main challenge in generating random numbers on computers for
-  Bitcoin transactions?
+question: What is the main challenge in generating random numbers on computers for Bitcoin transactions?
 answer: The results obtained are not truly random.
 wrong_answers:
   - The process is too complex for most users.

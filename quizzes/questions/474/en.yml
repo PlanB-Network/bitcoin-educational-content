@@ -1,5 +1,4 @@
-question: What is the purpose of a checksum in the generation of a mnemonic phrase
-  for a Bitcoin wallet?
+question: What is the purpose of a checksum in the generation of a mnemonic phrase for a Bitcoin wallet?
 answer: It ensures the verification of the accuracy of the recovery phrase.
 wrong_answers:
   - It generates the entropy for the wallet.

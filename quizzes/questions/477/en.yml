@@ -1,5 +1,4 @@
-question: What is the most commonly used standard for a 24-word recovery phrase in
-  a Bitcoin wallet?
+question: What is the most commonly used standard for a 24-word recovery phrase in a Bitcoin wallet?
 answer: An entropy of 256 bits.
 wrong_answers:
   - An entropy of 128 bits.

@@ -1,5 +1,4 @@
-question: What does Alice do with the UTXO of 0.0007 BTC when she opens a channel
-  with Bob?
+question: What does Alice do with the UTXO of 0.0007 BTC when she opens a channel with Bob?
 answer: She sends it to one of her change addresses.
 wrong_answers:
   - She sends it to Bob's public address.

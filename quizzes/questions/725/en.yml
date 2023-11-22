@@ -1,5 +1,4 @@
-question: What is the goal of routing nodes in terms of liquidity on the Lightning
-  Network?
+question: What is the goal of routing nodes in terms of liquidity on the Lightning Network?
 answer: To be balanced with liquidity on both sides
 wrong_answers:
   - To open channels

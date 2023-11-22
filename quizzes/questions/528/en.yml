@@ -1,5 +1,4 @@
-question: What is the primary reason for using a receiving address instead of a public
-  key in Bitcoin transactions?
+question: What is the primary reason for using a receiving address instead of a public key in Bitcoin transactions?
 answer: It reduces the size of the public key information.
 wrong_answers:
   - It allows for reversing from an address to the public key.

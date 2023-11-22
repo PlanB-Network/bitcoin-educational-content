@@ -1,5 +1,4 @@
-question: What does the index in a derivation path indicate in the context of an HD
-  Wallet?
+question: What does the index in a derivation path indicate in the context of an HD Wallet?
 answer: The value used in the HMAC function
 wrong_answers:
   - The value used in the SHA-256 function

@@ -1,5 +1,4 @@
-question: How is the size of the checksum determined in the generation of a mnemonic
-  phrase for a Bitcoin wallet?
+question: How is the size of the checksum determined in the generation of a mnemonic phrase for a Bitcoin wallet?
 answer: By dividing the size of the entropy by 32.
 wrong_answers:
   - By multiplying the size of the entropy by 32.

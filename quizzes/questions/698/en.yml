@@ -1,6 +1,5 @@
 question: What is the role of the hash r in the HTLC?
-answer: It is included in the invoice sent by Bob to Alice and used to set up the
-  HTLC.
+answer: It is included in the invoice sent by Bob to Alice and used to set up the HTLC.
 wrong_answers:
   - It is used to calculate the secret S.
   - It is used to close the channel.

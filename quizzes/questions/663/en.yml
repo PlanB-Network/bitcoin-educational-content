@@ -1,5 +1,4 @@
-question: Who are the two peers involved in the Lightning Network transfer in the
-  example?
+question: Who are the two peers involved in the Lightning Network transfer in the example?
 answer: Alice and Bob.
 wrong_answers:
   - Alice and Charlie.

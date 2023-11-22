@@ -1,5 +1,4 @@
-question: What is the purpose of the withdrawal transaction in a Lightning Network
-  transfer?
+question: What is the purpose of the withdrawal transaction in a Lightning Network transfer?
 answer: It represents the state of the channel, guaranteeing who owns the funds after
   each transfer.
 wrong_answers:

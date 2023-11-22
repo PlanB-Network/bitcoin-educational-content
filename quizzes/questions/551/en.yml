@@ -1,5 +1,4 @@
-question: What format representation is used for a segwit standard to obtain the HD
-  wallet address?
+question: What format representation is used for a segwit standard to obtain the HD wallet address?
 answer: The bech32 format
 wrong_answers:
   - The base 58 format

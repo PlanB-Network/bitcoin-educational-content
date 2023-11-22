@@ -1,5 +1,4 @@
-question: What are the advantages of using DOH (DNS over HTTPS) and DOT (DNS over
-  TLS)?
+question: What are the advantages of using DOH (DNS over HTTPS) and DOT (DNS over TLS)?
 answer: They encrypt the DNS connection, providing greater privacy and security, and
   avoid "man in the middle" attacks.
 wrong_answers:

@@ -1,5 +1,4 @@
-question: What is the purpose of the withdrawal transaction in the process of opening
-  a channel in the Lightning Network?
+question: What is the purpose of the withdrawal transaction in the process of opening a channel in the Lightning Network?
 answer: It allows Alice to recover her funds if something goes wrong.
 wrong_answers:
   - It allows Bob to claim his share of the funds.

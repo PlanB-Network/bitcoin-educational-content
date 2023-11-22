@@ -1,5 +1,4 @@
-question: What factors are considered when estimating the most likely successful routes
-  in the Lightning Network?
+question: What factors are considered when estimating the most likely successful routes in the Lightning Network?
 answer: Fees, HTLC expiration time, the number of intermediate nodes, and a randomness
   factor.
 wrong_answers:

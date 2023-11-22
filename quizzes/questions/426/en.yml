@@ -1,5 +1,4 @@
-question: What are the two key components in the security mechanism of the Bitcoin
-  protocol?
+question: What are the two key components in the security mechanism of the Bitcoin protocol?
 answer: HMAC and PBKDF2 derivation algorithms
 wrong_answers:
   - SHA-256 and RIPEMD-160 hash functions

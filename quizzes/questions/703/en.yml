@@ -1,5 +1,4 @@
-question: What information can the recipient provide to the sender to facilitate route
-  searching in the Lightning Network?
+question: What information can the recipient provide to the sender to facilitate route searching in the Lightning Network?
 answer: The amount, his address, the hash of the preimage, and indications on his
   channels.
 wrong_answers:

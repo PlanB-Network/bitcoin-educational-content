@@ -1,5 +1,4 @@
-question: What is the purpose of BCH (Bose-Chaudhuri-Hocquenghem) checksum technology
-  in Bitcoin addresses?
+question: What is the purpose of BCH (Bose-Chaudhuri-Hocquenghem) checksum technology in Bitcoin addresses?
 answer: It allows for error detection and reduces the number of characters required
   to represent an address.
 wrong_answers:

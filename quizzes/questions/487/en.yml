@@ -1,5 +1,4 @@
-question: What is the difference between a passphrase and a mnemonic phrase in a Bitcoin
-  wallet?
+question: What is the difference between a passphrase and a mnemonic phrase in a Bitcoin wallet?
 answer: The passphrase is free and can reach an almost infinite size, while the mnemonic
   phrase is standardized and must follow certain constraints of size, checksum, and
   encoding

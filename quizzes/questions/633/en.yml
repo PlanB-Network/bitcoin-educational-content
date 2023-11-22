@@ -1,5 +1,4 @@
-question: What is the maximum amount of Bitcoin that can be transmitted in a Lightning
-  payment channel at any given time?
+question: What is the maximum amount of Bitcoin that can be transmitted in a Lightning payment channel at any given time?
 answer: The fixed capacity defined in advance by the users
 wrong_answers:
   - The total amount of Bitcoin owned by the two users

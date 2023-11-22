@@ -1,5 +1,4 @@
-question: Why is the HMAC SHA-512 algorithm used in the creation of the master private
-  key and the master chain code?
+question: Why is the HMAC SHA-512 algorithm used in the creation of the master private key and the master chain code?
 answer: Because the SHA-512 function was not initially implemented in the Bitcoin
   protocol.
 wrong_answers:

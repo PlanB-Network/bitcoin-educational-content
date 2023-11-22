@@ -1,5 +1,4 @@
-question: How is the number of words in the recovery phrase determined in the generation
-  of a mnemonic phrase for a Bitcoin wallet?
+question: How is the number of words in the recovery phrase determined in the generation of a mnemonic phrase for a Bitcoin wallet?
 answer: It depends on the size of the entropy.
 wrong_answers:
   - It depends on the size of the checksum.

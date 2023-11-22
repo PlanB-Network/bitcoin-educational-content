@@ -1,5 +1,4 @@
-question: What is a recommended practice for managing the master password of a password
-  manager?
+question: What is a recommended practice for managing the master password of a password manager?
 answer: Write it down on paper and keep it in a concealed and secure location.
 wrong_answers:
   - Store it in your email.

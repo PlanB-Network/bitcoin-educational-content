@@ -1,0 +1,9 @@
+question: ¿Cuáles son los conceptos erróneos comunes sobre la creación de un plan de herencia según Pamela Morgan en "Cryptoasset Inheritance Planning"?
+answer: - No necesito contratar a un abogado; no necesito confiar en un tercero; la planificación hará que mis activos sean difíciles de robar; el valor de mi criptomoneda es demasiado alto para ser planificado; mis herederos no resolverán todo por sí mismos; todo esto no se puede hacer con un simple contrato inteligente.
+wrong_answers:
+  - Necesito contratar a un abogado; necesito confiar en un tercero; la planificación hará que mis activos sean difíciles de robar; el valor de mi criptomoneda es demasiado alto para ser planificado; mis herederos resolverán todo por sí mismos; todo esto no se puede hacer con un simple contrato inteligente.
+  - No necesito contratar a un abogado; no necesito confiar en un tercero; la planificación hará que mis activos sean fáciles de robar; el valor de mi criptomoneda es demasiado bajo para ser planificado; mis herederos no resolverán todo por sí mismos; todo esto se puede hacer con un simple contrato inteligente.
+  Los conceptos erróneos comunes sobre la creación de un plan de herencia, según lo declarado por Pamela Morgan en "Cryptoasset Inheritance Planning", son que necesitas contratar a un abogado; necesitas confiar en un tercero; la planificación hará que tus activos sean fáciles de robar; el valor de tu criptomoneda es demasiado bajo para ser planificado; tus herederos resolverán todo por sí mismos; y todo esto se puede hacer con un simple contrato inteligente.
+explanation: |
+  
+reviewed: false

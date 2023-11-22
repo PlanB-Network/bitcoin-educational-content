@@ -1,0 +1,12 @@
+question: Was ist eine erzwungene Schließung?
+answer: Ein Peer möchte den Kanal schließen, aber der andere Peer antwortet nicht,
+wrong_answers:
+  daher veröffentlicht der erste Peer die aktuellste Verpflichtungstransaktion.
+  - Beide Peers stimmen der Schließung des Kanals zu und erstellen eine Abschlusstransaktion.
+  - Ein Peer versucht zu betrügen, indem er eine alte Verpflichtungstransaktion veröffentlicht.
+explanation: |
+  - Beide Peers streiten sich um die verbleibenden SAT im Kanal.
+  Eine erzwungene Schließung tritt auf, wenn ein Peer den Kanal schließen möchte, aber
+  der andere Peer nicht antwortet, weil er offline ist. Der erste Peer veröffentlicht dann
+  die aktuellste Verpflichtungstransaktion.
+reviewed: false

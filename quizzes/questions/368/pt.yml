@@ -1,0 +1,9 @@
+question: Qual é o papel das pessoas de confiança no seu plano de herança?
+answer: Para ajudar sua família quando você não estiver mais aqui, fornecendo conselhos sobre a gestão de chaves e carteiras, ajudando a entender como recuperar com segurança suas frases secretas (sementes) e fornecendo garantia durante uma transação.
+wrong_answers:
+  - Para assumir a posse de seus ativos criptográficos após sua morte, gerenciar seus ativos e distribuí-los entre seus herdeiros.
+  - Para roubar seus ativos criptográficos antes que sejam entregues aos seus entes queridos, comprometer suas transações e criar conflitos entre seus herdeiros.
+  - Para ignorar sua família quando você não estiver mais aqui, fornecer conselhos enganosos sobre a gestão de chaves e carteiras e criar confusão durante uma transação.
+explanation: |
+  As pessoas de confiança em seu plano de herança estão lá para ajudar sua família quando você não estiver mais aqui. Eles fornecem conselhos sobre a gestão de chaves e carteiras, ajudam a entender como recuperar com segurança suas frases secretas (sementes) e fornecem garantia durante uma transação.
+reviewed: false

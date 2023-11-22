@@ -1,0 +1,18 @@
+question: Quais são as consequências das Políticas de Taxa de Juros Zero (ZIRP)?
+answer: A ZIRP erode as margens dos bancos, desencoraja empréstimos para empreendedores e tomadores de risco,
+wrong_answers:
+  e incentiva os governos a se envolverem em gastos extensivos, levando a um aumento
+  da dívida pública.
+  - A ZIRP aumenta os lucros dos bancos, incentiva empréstimos para empreendedores e tomadores de risco,
+explanation: |
+  e desencoraja os gastos do governo.
+  - A ZIRP não tem impacto significativo nos bancos, práticas de empréstimo ou gastos do governo.
+  - A ZIRP diminui a dívida pública, incentiva empréstimos para empreendedores e tomadores de risco,
+  e desencoraja os gastos do governo.
+  As Políticas de Taxa de Juros Zero (ZIRP) podem ter várias consequências não intencionais.
+  Os bancos têm oportunidades limitadas de reconstruir seu patrimônio porque suas margens são
+  erodidas. Eles também têm pouco incentivo para emprestar, especialmente para empreendedores e
+  outros tomadores de risco. Em vez disso, eles alocam seus recursos para securitizar o capital existente
+  ou fornecer empréstimos com base em garantias. Além disso, a ZIRP incentiva os governos
+  a se envolverem em gastos extensivos, levando a um aumento significativo nos níveis de dívida pública.
+reviewed: false

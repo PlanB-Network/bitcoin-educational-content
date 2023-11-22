@@ -1,0 +1,9 @@
+question: Qual è il ruolo delle persone di fiducia nel tuo piano di eredità?
+answer: Per assistere la tua famiglia quando non ci sarai più, fornendo consigli sulla gestione delle chiavi e del portafoglio, aiutando a capire come recuperare in modo sicuro le tue frasi segrete (seeds) e fornendo garanzie durante una transazione.
+wrong_answers:
+  - Prendere possesso dei tuoi asset criptati dopo la tua morte, gestire i tuoi asset e distribuirli tra i tuoi eredi.
+  - Rubare i tuoi asset criptati prima che vengano consegnati ai tuoi cari, compromettere le tue transazioni e creare conflitti tra i tuoi eredi.
+  - Ignorare la tua famiglia quando non ci sei più, fornire consigli fuorvianti sulla gestione delle chiavi e del portafoglio e creare confusione durante una transazione.
+explanation: |
+  Le persone di fiducia nel tuo piano di eredità sono lì per assistere la tua famiglia quando non ci sarai più. Forniscono consigli sulla gestione delle chiavi e del portafoglio, aiutano a capire come recuperare in modo sicuro le tue frasi segrete (seeds) e forniscono garanzie durante una transazione.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche gängigen Missverständnisse gibt es bei der Erstellung eines Erbschaftsplans laut Pamela Morgan in "Cryptoasset Inheritance Planning"?
+answer: - Ich muss einen Anwalt engagieren; Ich muss einer dritten Partei vertrauen; Die Planung wird es einfach machen, meine Vermögenswerte zu stehlen; Der Wert meiner Kryptowährung ist zu gering, um geplant zu werden; Meine Erben werden alles selbst herausfinden; All dies kann mit einem einfachen Smart Contract erledigt werden.
+wrong_answers:
+  - Ich muss einen Anwalt engagieren; Ich muss einer dritten Partei vertrauen; Die Planung wird es schwierig machen, meine Vermögenswerte zu stehlen; Der Wert meiner Kryptowährung ist zu hoch, um geplant zu werden; Meine Erben werden alles selbst herausfinden; All dies kann nicht mit einem einfachen Smart Contract erledigt werden.
+  - Ich muss keinen Anwalt engagieren; Ich muss keiner dritten Partei vertrauen; Die Planung wird es einfach machen, meine Vermögenswerte zu stehlen; Der Wert meiner Kryptowährung ist zu gering, um geplant zu werden; Meine Erben werden alles selbst herausfinden; All dies kann mit einem einfachen Smart Contract erledigt werden.
+  Die gängigen Missverständnisse bei der Erstellung eines Erbschaftsplans, wie von Pamela Morgan in "Cryptoasset Inheritance Planning" angegeben, sind, dass man einen Anwalt engagieren muss; man einer dritten Partei vertrauen muss; die Planung wird es einfach machen, die Vermögenswerte zu stehlen; der Wert der Kryptowährung ist zu gering, um geplant zu werden; die Erben werden alles selbst herausfinden; und all dies kann mit einem einfachen Smart Contract erledigt werden.
+explanation: |
+  
+reviewed: false

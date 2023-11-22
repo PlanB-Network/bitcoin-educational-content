@@ -1,6 +1,5 @@
 question: Why is biometric data considered less secure than the combination of knowledge and possession for 2FA?
-answer: Biometric data should remain on the authentication device and not be disclosed
-  online.
+answer: Biometric data should remain on the authentication device and not be disclosed online.
 wrong_answers:
   - Biometric data is easier to fake
   - Biometric data is harder to remember

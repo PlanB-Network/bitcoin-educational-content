@@ -1,6 +1,5 @@
 question: "What is the fundamental difference between Carl Menger's marginal theory\ \ of value and that of L\xE9on Walras and William Stanley Jevons?"
-answer: Menger's theory is primarily subjective, while Walras and Jevons consider
-  value to be an objective and measurable phenomenon.
+answer: Menger's theory is primarily subjective, while Walras and Jevons consider value to be an objective and measurable phenomenon.
 wrong_answers:
   - Menger's theory is primarily objective, while Walras and Jevons consider value
     to be a subjective and immeasurable phenomenon.

@@ -1,6 +1,5 @@
 question: What is the main characteristic of a DIY (Do It Yourself) wallet?
-answer: It is a 100% open source solution that can be created at home to reduce trust
-  risks towards other actors in the production or creation chain
+answer: It is a 100% open source solution that can be created at home to reduce trust risks towards other actors in the production or creation chain
 wrong_answers:
   - It is a hardware device for storing bitcoins
   - It is a software for mining bitcoins

@@ -1,6 +1,5 @@
 question: What is the difference between trading and investing in the context of Bitcoin?
-answer: Trading involves short-term contracts with high risk, while investing involves
-  buying BTC for short to medium-term with limited risk.
+answer: Trading involves short-term contracts with high risk, while investing involves buying BTC for short to medium-term with limited risk.
 wrong_answers:
   - Trading involves buying BTC for short to medium-term, while investing involves
     short-term contracts with high risk.

@@ -1,6 +1,5 @@
 question: What is the purpose of the HTTPS protocol?
-answer: It encrypts data on websites to ensure secure exchange between the user and
-  the website.
+answer: It encrypts data on websites to ensure secure exchange between the user and the website.
 wrong_answers:
   - It allows users to bypass geographical restrictions.
   - It allows users to block online advertisements.

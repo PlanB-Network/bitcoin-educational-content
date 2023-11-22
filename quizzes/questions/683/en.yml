@@ -1,6 +1,5 @@
 question: What is a forced closure?
-answer: One peer wants to close the channel, but the other peer does not respond,
-  so the first peer publishes the most recent commitment transaction.
+answer: One peer wants to close the channel, but the other peer does not respond, so the first peer publishes the most recent commitment transaction.
 wrong_answers:
   - Both peers agree to close the channel and create a closing transaction.
   - One peer tries to cheat by publishing an old commitment transaction.

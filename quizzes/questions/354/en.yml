@@ -1,6 +1,5 @@
 question: What is one characteristic of a Bitcoin user who is technologically competent?
-answer: They have a good understanding of technologies, including hot and cold Bitcoin
-  wallets and the Lightning Network.
+answer: They have a good understanding of technologies, including hot and cold Bitcoin wallets and the Lightning Network.
 wrong_answers:
   - They only use Bitcoin for long-term investment.
   - They only use Bitcoin for daily transactions.

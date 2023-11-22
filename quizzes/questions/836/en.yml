@@ -1,6 +1,5 @@
 question: Why are hardware tokens, such as USB keys or smart cards, considered to offer optimal security for 2FA?
-answer: They generate a unique private key for each site and verify the URL before
-  allowing the connection.
+answer: They generate a unique private key for each site and verify the URL before allowing the connection.
 wrong_answers:
   - They are physically harder to steal
   - They are more expensive, so they must be better

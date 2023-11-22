@@ -1,7 +1,5 @@
 question: What is fractional reserve banking?
-answer: Fractional reserve banking is a banking practice where banks are not required
-  to hold as many reserves as they receive in deposits, allowing them to create new
-  purchasing power when granting loans.
+answer: Fractional reserve banking is a banking practice where banks are not required to hold as many reserves as they receive in deposits, allowing them to create new purchasing power when granting loans.
 wrong_answers:
   - Fractional reserve banking is a banking practice where banks are required to hold
     more reserves than they receive in deposits.

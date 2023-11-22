@@ -1,7 +1,5 @@
 question: What would be the implications if the blocks were 100 times heavier?
-answer: Running a Bitcoin node would not be accessible to the average person, compromising
-  the decentralization of the protocol and the immutability of transactions and consensus
-  rules
+answer: Running a Bitcoin node would not be accessible to the average person, compromising the decentralization of the protocol and the immutability of transactions and consensus rules
 wrong_answers:
   - Running a Bitcoin node would be more accessible to the average person, enhancing
     the decentralization of the protocol and the immutability of transactions and

@@ -1,6 +1,5 @@
 question: What is ransomware?
-answer: A type of malicious software that encrypts user data and demands a ransom
-  to decrypt it.
+answer: A type of malicious software that encrypts user data and demands a ransom to decrypt it.
 wrong_answers:
   - A type of antivirus software.
   - A type of software used for data recovery.

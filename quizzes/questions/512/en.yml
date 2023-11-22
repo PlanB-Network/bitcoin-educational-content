@@ -1,6 +1,5 @@
 question: How is the child public key obtained in the derivation of child keys?
-answer: The child public key is obtained by multiplying the child private key by the
-  generator of the elliptic curve.
+answer: The child public key is obtained by multiplying the child private key by the generator of the elliptic curve.
 wrong_answers:
   - The child public key is obtained by adding the child private key to the generator
     of the elliptic curve.

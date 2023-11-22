@@ -1,6 +1,5 @@
 question: What is the purpose of the revocation key in a commitment transaction?
-answer: It allows the other party to move the funds without waiting for the end of
-  the Timelock if one tries to cheat.
+answer: It allows the other party to move the funds without waiting for the end of the Timelock if one tries to cheat.
 wrong_answers:
   - It allows the other party to immediately recover their money.
   - It allows the other party to create a new commitment transaction.

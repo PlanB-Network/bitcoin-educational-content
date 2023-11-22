@@ -1,6 +1,5 @@
 question: What is the Lightning Network?
-answer: A second-layer payment infrastructure built on the Bitcoin network that enables
-  fast and low-cost transactions
+answer: A second-layer payment infrastructure built on the Bitcoin network that enables fast and low-cost transactions
 wrong_answers:
   - A type of Bitcoin wallet
   - A method of mining Bitcoin

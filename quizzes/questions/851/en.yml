@@ -1,6 +1,5 @@
 question: What are the advantages of using Passkeys as an alternative to traditional passwords?
-answer: They offer encrypted random keys combined with a local factor, which are hosted
-  by a provider but remain out of their reach.
+answer: They offer encrypted random keys combined with a local factor, which are hosted by a provider but remain out of their reach.
 wrong_answers:
   - They are easier to remember than traditional passwords.
   - They do not require any additional authentication factors.

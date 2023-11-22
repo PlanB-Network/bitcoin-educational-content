@@ -1,6 +1,5 @@
 question: What is the prisoner's dilemma in the context of division of labor?
-answer: It is a situation where mutual collaboration results in suboptimal gains for
-  individuals but maximum gains for the group.
+answer: It is a situation where mutual collaboration results in suboptimal gains for individuals but maximum gains for the group.
 wrong_answers:
   - It is a situation where individuals refuse to collaborate, leading to maximum
     gains for the group.

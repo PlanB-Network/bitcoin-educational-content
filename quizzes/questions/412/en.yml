@@ -1,6 +1,5 @@
 question: What are the initialization vectors in the SHA-256 function processing?
-answer: The first 32 bits of the decimal parts of the square roots of the first 8
-  prime numbers
+answer: The first 32 bits of the decimal parts of the square roots of the first 8 prime numbers
 wrong_answers:
   - The first 32 bits of the decimal parts of the cubic roots of the first 8 prime
     numbers

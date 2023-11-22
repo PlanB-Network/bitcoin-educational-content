@@ -1,6 +1,5 @@
 question: What are the four strengths a cryptographic hash function must have to be recognized as secure?
-answer: Irreversibility, resistance to forgery, resistance to collisions, and resistance
-  to second preimage.
+answer: Irreversibility, resistance to forgery, resistance to collisions, and resistance to second preimage.
 wrong_answers:
   - Speed, efficiency, resistance to collisions, and irreversibility.
   - Resistance to collisions, resistance to forgery, scalability, and irreversibility.

@@ -1,6 +1,5 @@
 question: What is the role of BIP39 in the Bitcoin ecosystem?
-answer: It introduced the 24-word mnemonic phrase to transform complex sequences of
-  digits into ordinary words.
+answer: It introduced the 24-word mnemonic phrase to transform complex sequences of digits into ordinary words.
 wrong_answers:
   - It introduced the concept of deterministically and hierarchically derived keys.
   - It proposed adding an additional passphrase to reinforce the security of individual

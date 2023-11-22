@@ -1,6 +1,5 @@
 question: What happens when Alice tries to cheat by publishing an old commitment transaction?
-answer: Bob uses the revocation key to punish Alice and take all the SAT from the
-  channel.
+answer: Bob uses the revocation key to punish Alice and take all the SAT from the channel.
 wrong_answers:
   - Alice is rewarded for her cleverness.
   - Alice and Bob split the SAT from the channel.

@@ -1,6 +1,5 @@
 question: What is the blockchain trilemma?
-answer: A protocol based on a blockchain can only satisfy two out of decentralization,
-  security, and scalability.
+answer: A protocol based on a blockchain can only satisfy two out of decentralization, security, and scalability.
 wrong_answers:
   - A protocol based on a blockchain can only satisfy one out of decentralization,
     security, and scalability.

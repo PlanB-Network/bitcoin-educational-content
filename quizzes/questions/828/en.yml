@@ -1,6 +1,5 @@
 question: What is the main advantage of using a password manager?
-answer: It helps you create strong passwords and remember them, so you don't have
-  to.
+answer: It helps you create strong passwords and remember them, so you don't have to.
 wrong_answers:
   - It automatically logs you into your online accounts.
   - It protects your computer from viruses.

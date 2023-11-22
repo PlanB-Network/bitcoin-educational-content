@@ -1,6 +1,5 @@
 question: What happens if Alice tries to cheat by publishing an old state?
-answer: Bob can use the revocation key to move the funds without waiting for the end
-  of the Timelock, effectively punishing Alice.
+answer: Bob can use the revocation key to move the funds without waiting for the end of the Timelock, effectively punishing Alice.
 wrong_answers:
   - Alice can use the revocation key to move the funds without waiting for the end
     of the Timelock.

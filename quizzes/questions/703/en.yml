@@ -1,6 +1,5 @@
 question: What information can the recipient provide to the sender to facilitate route searching in the Lightning Network?
-answer: The amount, his address, the hash of the preimage, and indications on his
-  channels.
+answer: The amount, his address, the hash of the preimage, and indications on his channels.
 wrong_answers:
   - The sender's address, the transaction amount, and the recipient's private key.
   - The recipient's address, the transaction amount, and the sender's private key.

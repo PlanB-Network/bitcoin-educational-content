@@ -1,6 +1,5 @@
 question: What is the main goal of the Bitcoin revolution according to the text?
-answer: Creating a world where human sovereignty is a right, privacy is respected
-  by default, and money is not manipulated
+answer: Creating a world where human sovereignty is a right, privacy is respected by default, and money is not manipulated
 wrong_answers:
   - Creating a world where Bitcoin is the only currency
   - Creating a world where governments have no control

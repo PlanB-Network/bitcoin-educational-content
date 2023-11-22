@@ -1,6 +1,5 @@
 question: What is a Lightning payment channel?
-answer: A kind of "private lane" between two users that allows for fast and repetitive
-  Bitcoin transactions
+answer: A kind of "private lane" between two users that allows for fast and repetitive Bitcoin transactions
 wrong_answers:
   - A type of Bitcoin wallet
   - A method of mining Bitcoin

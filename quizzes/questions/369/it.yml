@@ -1,0 +1,9 @@
+question: Quali sono i comuni fraintendimenti riguardo alla creazione di un piano di eredità secondo Pamela Morgan in "Cryptoasset Inheritance Planning"?
+answer: - Ho bisogno di assumere un avvocato; devo fidarmi di un terzo; la pianificazione renderà i miei beni facili da rubare; il valore della mia criptovaluta è troppo basso per essere pianificato; i miei eredi risolveranno tutto da soli; tutto ciò può essere fatto con un semplice smart contract.
+wrong_answers:
+  - Non ho bisogno di assumere un avvocato; non ho bisogno di fidarmi di un terzo; la pianificazione renderà i miei beni difficili da rubare; il valore della mia criptovaluta è troppo alto per essere pianificato; i miei eredi non risolveranno tutto da soli; tutto ciò non può essere fatto con un semplice smart contract.
+  - Ho bisogno di assumere un avvocato; devo fidarmi di un terzo; la pianificazione renderà i miei beni difficili da rubare; il valore della mia criptovaluta è troppo alto per essere pianificato; i miei eredi risolveranno tutto da soli; tutto ciò non può essere fatto con un semplice smart contract.
+  - Non ho bisogno di assumere un avvocato; non ho bisogno di fidarmi di un terzo; la pianificazione renderà i miei beni facili da rubare; il valore della mia criptovaluta è troppo basso per essere pianificato; i miei eredi non risolveranno tutto da soli; tutto ciò può essere fatto con un semplice smart contract.
+explanation: |
+  I comuni fraintendimenti riguardo alla creazione di un piano di eredità, come dichiarato da Pamela Morgan in "Cryptoasset Inheritance Planning", sono che è necessario assumere un avvocato; è necessario fidarsi di un terzo; la pianificazione renderà i tuoi beni facili da rubare; il valore della tua criptovaluta è troppo basso per essere pianificato; i tuoi eredi risolveranno tutto da soli; e tutto ciò può essere fatto con un semplice smart contract.
+reviewed: false

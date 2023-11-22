@@ -1,0 +1,10 @@
+question: Quelle est la principale différence entre la déflation des années 1930 et la croissance déflationniste de 1865 à 1896?
+answer: La déflation des années 1930 était le résultat de l'éclatement d'une bulle de crédit, tandis que la déflation de croissance de 1865 à 1896 était due à la croissance économique et à l'augmentation de la productivité.
+wrong_answers:
+  - Les deux ont été causées par la croissance économique et l'augmentation de la productivité.
+  - Les deux étaient le résultat de l'éclatement d'une bulle de crédit.
+  - La déflation des années 1930 était due à la croissance économique et à l'augmentation de la productivité, tandis que la déflation de croissance de 1865 à 1896 était le résultat de l'éclatement d'une bulle de crédit.
+explanation: |
+  - Il n'y a aucune différence entre les deux.
+  La déflation des années 1930 était le résultat de l'éclatement d'une bulle de crédit, qui est une diminution soudaine de la disponibilité du crédit ou une augmentation soudaine du coût du crédit. En revanche, la déflation de croissance de 1865 à 1896 était due à la croissance économique et à l'augmentation de la productivité, ce qui a entraîné une baisse du niveau général des prix.
+reviewed: false

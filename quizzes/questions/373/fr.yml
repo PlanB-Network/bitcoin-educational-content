@@ -1,0 +1,15 @@
+question: Que devez-vous faire après avoir écrit la lettre selon le chapitre ?
+answer: Revoir votre travail, faire une copie de la lettre, garder les deux copies dans une enveloppe,
+wrong_answers:
+  la sceller, signer le sceau et ranger cette enveloppe dans un endroit sûr mais accessible.
+  - Ignorer votre travail, faire une copie de la lettre, garder les deux copies dans une enveloppe,
+  la sceller, signer le sceau et ranger cette enveloppe dans un endroit dangereux mais inaccessible.
+explanation: |
+  - Revoir votre travail, faire une copie de la lettre, garder les deux copies dans une enveloppe,
+  l'ouvrir, signer le sceau et ranger cette enveloppe dans un endroit sûr mais accessible.
+  - Ignorer votre travail, faire une copie de la lettre, garder les deux copies dans une enveloppe,
+  l'ouvrir, signer le sceau et ranger cette enveloppe dans un endroit dangereux mais inaccessible.
+  Après avoir écrit la lettre, vous devriez revoir votre travail, faire une copie de
+  la lettre, garder les deux copies dans une enveloppe, la sceller, signer le sceau et ranger cette
+  enveloppe dans un endroit sûr mais accessible, comme suggéré dans le chapitre.
+reviewed: false

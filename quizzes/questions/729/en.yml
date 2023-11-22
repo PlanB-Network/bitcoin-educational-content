@@ -1,0 +1,12 @@
+question: What is the current mining reward in the Bitcoin network?
+answer: The creation of new bitcoins and transaction fees
+wrong_answers:
+  - The creation of new bitcoins only
+  - Transaction fees only
+  - The creation of new bitcoins, transaction fees, and a bonus for the fastest miner
+explanation: |
+  The current mining reward in the Bitcoin network is twofold. It includes
+  the creation of new bitcoins, which has decreased from 50 bitcoins every ten minutes
+  initially to 6.25 bitcoins today (2023). It also includes transaction fees, or mining
+  fees, from the transactions that the miner chooses to include in their block.
+reviewed: false

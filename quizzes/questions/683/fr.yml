@@ -1,0 +1,12 @@
+question: Qu'est-ce qu'une fermeture forcée ?
+answer: Un pair souhaite fermer le canal, mais l'autre pair ne répond pas,
+wrong_answers:
+  donc le premier pair publie la transaction d'engagement la plus récente.
+  - Les deux pairs acceptent de fermer le canal et créent une transaction de fermeture.
+  - Un pair essaie de tricher en publiant une ancienne transaction d'engagement.
+explanation: |
+  - Les deux pairs se disputent les SAT restants dans le canal.
+  Une fermeture forcée se produit lorsqu'un pair souhaite fermer le canal, mais
+  l'autre pair ne répond pas car il est hors ligne. Le premier pair publie alors
+  la transaction d'engagement la plus récente.
+reviewed: false

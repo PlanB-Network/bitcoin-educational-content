@@ -1,0 +1,15 @@
+question: Cosa dovresti fare dopo aver scritto la lettera secondo il capitolo?
+answer: Rivedi il tuo lavoro, fai una copia della lettera, conserva entrambe le copie in una busta,
+wrong_answers:
+  sigillala, firma il sigillo e conserva questa busta in un luogo sicuro ma accessibile.
+  - Ignora il tuo lavoro, fai una copia della lettera, conserva entrambe le copie in una busta,
+  sigillala, firma il sigillo e conserva questa busta in un luogo pericoloso ma inaccessibile.
+explanation: |
+  - Rivedi il tuo lavoro, fai una copia della lettera, conserva entrambe le copie in una busta,
+  aprila, firma il sigillo e conserva questa busta in un luogo sicuro ma accessibile.
+  - Ignora il tuo lavoro, fai una copia della lettera, conserva entrambe le copie in una busta,
+  aprila, firma il sigillo e conserva questa busta in un luogo pericoloso ma inaccessibile.
+  Dopo aver scritto la lettera, dovresti rivedere il tuo lavoro, fare una copia della
+  lettera, conservare entrambe le copie in una busta, sigillarla, firmare il sigillo e conservare questa
+  busta in un luogo sicuro ma accessibile, come suggerito nel capitolo.
+reviewed: false

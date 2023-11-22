@@ -1,0 +1,18 @@
+question: Quelles sont les conséquences des politiques de taux d'intérêt nuls (ZIRP) ?
+answer: Le ZIRP érode les marges des banques, décourage les prêts aux entrepreneurs et aux preneurs de risques,
+wrong_answers:
+  et encourage les gouvernements à engager des dépenses importantes, ce qui entraîne une augmentation
+  de la dette publique.
+  - Le ZIRP augmente les bénéfices des banques, encourage les prêts aux entrepreneurs et aux preneurs de risques,
+explanation: |
+  et décourage les dépenses gouvernementales.
+  - Le ZIRP n'a pas d'impact significatif sur les banques, les pratiques de prêt ou les dépenses gouvernementales.
+  - Le ZIRP diminue la dette publique, encourage les prêts aux entrepreneurs et aux preneurs de risques,
+  et décourage les dépenses gouvernementales.
+  Les politiques de taux d'intérêt nuls (ZIRP) peuvent avoir plusieurs conséquences non intentionnelles.
+  Les banques ont peu d'opportunités de reconstituer leurs capitaux propres car leurs marges sont
+  érodées. Elles ont également peu d'incitation à accorder des prêts, en particulier aux entrepreneurs et
+  aux autres preneurs de risques. Au lieu de cela, elles allouent leurs ressources à la titrisation de leur capital existant
+  ou à l'octroi de prêts contre des garanties. De plus, le ZIRP encourage les gouvernements
+  à engager des dépenses importantes, ce qui entraîne une augmentation significative de la dette publique.
+reviewed: false

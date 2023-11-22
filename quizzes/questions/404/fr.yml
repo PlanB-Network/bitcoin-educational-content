@@ -1,0 +1,8 @@
+question: Quelles sont les quatre forces qu'une fonction de hachage cryptographique doit avoir pour être reconnue comme sécurisée ?
+answer: Irréversibilité, résistance à la contrefaçon, résistance aux collisions et résistance à la seconde préimage.
+wrong_answers:
+  Une fonction de hachage cryptographique sécurisée doit avoir quatre forces clés :
+  - Irréversibilité (ce qui signifie qu'il est impossible de déduire l'entrée d'origine à partir de la sortie), résistance à la contrefaçon (ce qui signifie qu'il est difficile de créer une entrée différente qui produit la même sortie), résistance aux collisions (ce qui signifie qu'il est difficile de trouver deux entrées différentes qui produisent la même sortie), et résistance à la seconde préimage (ce qui signifie qu'il est difficile de trouver une entrée différente qui produit la même sortie qu'une entrée donnée).
+explanation: |
+  
+reviewed: false

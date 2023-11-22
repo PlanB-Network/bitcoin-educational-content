@@ -1,0 +1,15 @@
+question: ¿Qué debes hacer después de escribir la carta según el capítulo?
+answer: Revisa tu trabajo, haz una copia de la carta, guarda ambas copias en un sobre,
+wrong_answers:
+  séllalo, firma el sello y guarda este sobre en un lugar seguro pero accesible.
+  - Ignora tu trabajo, haz una copia de la carta, guarda ambas copias en un sobre,
+  séllalo, firma el sello y guarda este sobre en un lugar peligroso pero inaccesible.
+explanation: |
+  - Revisa tu trabajo, haz una copia de la carta, guarda ambas copias en un sobre,
+  ábrelo, firma el sello y guarda este sobre en un lugar seguro pero accesible.
+  - Ignora tu trabajo, haz una copia de la carta, guarda ambas copias en un sobre,
+  ábrelo, firma el sello y guarda este sobre en un lugar peligroso pero inaccesible.
+  Después de escribir la carta, debes revisar tu trabajo, hacer una copia de
+  la carta, guardar ambas copias en un sobre, sellarlo, firmar el sello y guardar este
+  sobre en un lugar seguro pero accesible, como sugiere el capítulo.
+reviewed: false

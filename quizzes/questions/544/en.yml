@@ -1,6 +1,5 @@
 question: What is the purpose of expanding the HRP in a Bitcoin address?
-answer: It allows isolating the last five bits of each character, thus reinforcing
-  the checksum.
+answer: It allows isolating the last five bits of each character, thus reinforcing the checksum.
 wrong_answers:
   - It increases the size of the address.
   - It encrypts the address for security purposes.

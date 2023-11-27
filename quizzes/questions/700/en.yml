@@ -1,6 +1,5 @@
 question: What is the Lightning Network?
-answer: A system that uses HTLCs to ensure secure and verifiable payment in Bitcoin
-  transactions.
+answer: A system that uses HTLCs to ensure secure and verifiable payment in Bitcoin transactions.
 wrong_answers:
   - A type of cryptocurrency.
   - A method of encrypting data.

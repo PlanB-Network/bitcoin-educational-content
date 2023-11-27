@@ -1,6 +1,5 @@
 question: What are the characteristics of an effective passphrase for a Bitcoin wallet?
-answer: Long (20 to 40 characters) and diversified (using uppercase letters, lowercase
-  letters, numbers, and symbols)
+answer: Long (20 to 40 characters) and diversified (using uppercase letters, lowercase letters, numbers, and symbols)
 wrong_answers:
   - Short and simple
   - Long and simple

@@ -1,6 +1,5 @@
 question: What is the HashRate?
-answer: The total quantity of attempts to find the correct number in the Proof of
-  Work.
+answer: The total quantity of attempts to find the correct number in the Proof of Work.
 wrong_answers:
   - The speed at which a miner can solve the Proof of Work.
   - The total number of miners in the Bitcoin network.

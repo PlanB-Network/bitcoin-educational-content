@@ -1,6 +1,5 @@
 question: What is the recommended practice for using an administrator account on Windows?
-answer: Create two separate accounts; an administrator account and an account for
-  daily use.
+answer: Create two separate accounts; an administrator account and an account for daily use.
 wrong_answers:
   - Use the administrator account for daily use.
   - Create multiple administrator accounts.

@@ -1,9 +1,15 @@
-question: Quais são os equívocos comuns sobre a criação de um plano de herança, de acordo com Pamela Morgan em "Cryptoasset Inheritance Planning"?
-answer: - Eu não preciso contratar um advogado; eu não preciso confiar em uma terceira parte; planejar tornará meus ativos difíceis de serem roubados; o valor da minha criptomoeda é muito alto para ser planejado; meus herdeiros não resolverão tudo por conta própria; tudo isso não pode ser feito com um simples contrato inteligente.
+question: Quais são os equívocos comuns sobre a criação de um plano de herança segundo Pamela Morgan em "Cryptoasset Inheritance Planning"?
+answer: Preciso contratar um advogado; Preciso confiar em uma terceira parte; O planejamento tornará meus ativos fáceis de roubar; O valor da minha criptomoeda é muito baixo para ser planejado; Meus herdeiros resolverão tudo por conta própria; Tudo isso pode ser feito com um simples contrato inteligente.
 wrong_answers:
-  - Eu preciso contratar um advogado; eu preciso confiar em uma terceira parte; planejar tornará meus ativos difíceis de serem roubados; o valor da minha criptomoeda é muito alto para ser planejado; meus herdeiros resolverão tudo por conta própria; tudo isso não pode ser feito com um simples contrato inteligente.
-  - Eu não preciso contratar um advogado; eu não preciso confiar em uma terceira parte; planejar tornará meus ativos fáceis de serem roubados; o valor da minha criptomoeda é muito baixo para ser planejado; meus herdeiros resolverão tudo por conta própria; tudo isso pode ser feito com um simples contrato inteligente.
-  Os equívocos comuns sobre a criação de um plano de herança, conforme declarado por Pamela Morgan em "Cryptoasset Inheritance Planning", são que você precisa contratar um advogado; você precisa confiar em uma terceira parte; planejar tornará seus ativos fáceis de serem roubados; o valor da sua criptomoeda é muito baixo para ser planejado; seus herdeiros resolverão tudo por conta própria; e tudo isso pode ser feito com um simples contrato inteligente.
+  - Não preciso contratar um advogado; Não preciso confiar em uma terceira parte; O planejamento tornará meus ativos difíceis de roubar; O valor da minha criptomoeda é muito alto para ser planejado; Meus herdeiros não resolverão tudo por conta própria; Tudo isso não pode ser feito com um simples contrato inteligente.
+  - Preciso contratar um advogado; Preciso confiar em uma terceira parte; O planejamento tornará meus ativos difíceis de roubar; O valor da minha criptomoeda é muito alto para ser planejado; Meus herdeiros resolverão tudo por conta própria; Tudo isso não pode ser feito com um simples contrato inteligente.
+  - Não preciso contratar um advogado; Não preciso confiar em uma terceira parte; O planejamento tornará meus ativos fáceis de roubar; O valor da minha criptomoeda é muito baixo para ser planejado; Meus herdeiros não resolverão tudo por conta própria; Tudo isso pode ser feito com um simples contrato inteligente.
 explanation: |
-  
+  Os equívocos comuns sobre a criação de um plano de herança, conforme afirmado
+  por Pamela Morgan em "Cryptoasset Inheritance Planning", são que você precisa contratar
+  um advogado; você precisa confiar em uma terceira parte; o planejamento tornará seus ativos fáceis
+  de roubar; o valor da sua criptomoeda é muito baixo para ser planejado; seus herdeiros
+  resolverão tudo por conta própria; e tudo isso pode ser feito com um simples contrato
+  inteligente.
 reviewed: false
+

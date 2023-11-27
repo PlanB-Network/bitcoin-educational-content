@@ -1,17 +1,11 @@
 question: What is the definition of inflation according to Robert?
-answer: Inflation is an excessive increase in payment instruments causing a rise in
-  prices and a depreciation of the currency.
+answer: Inflation is an excessive increase in payment instruments causing a rise in prices and a depreciation of the currency.
 wrong_answers:
-  - Inflation is a decrease in payment instruments causing a rise in prices and a
-    depreciation of the currency.
-  - Inflation is an excessive increase in payment instruments causing a decrease in
-    prices and a depreciation of the currency.
-  - Inflation is an excessive increase in payment instruments causing a rise in prices
-    and an appreciation of the currency.
+  - Inflation is a decrease in payment instruments causing a rise in prices and a depreciation of the currency.
+  - Inflation is an excessive increase in payment instruments causing a decrease in prices and a depreciation of the currency.
+  - Inflation is an excessive increase in payment instruments causing a rise in prices and an appreciation of the currency.
 explanation: |
   According to Robert, inflation is defined as an excessive increase in
-
   payment instruments (banknotes, capital) causing a rise in prices and a depreciation
-
-  of the currency.'
+  of the currency.
 reviewed: false

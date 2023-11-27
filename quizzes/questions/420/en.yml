@@ -1,6 +1,5 @@
 question: What is the purpose of HMAC in the Bitcoin protocol?
-answer: It is used to counter length extension attacks when deriving hierarchically
-  deterministic (HD) wallets.
+answer: It is used to counter length extension attacks when deriving hierarchically deterministic (HD) wallets.
 wrong_answers:
   - It is used to convert a mnemonic phrase into a seed.
   - It is used to generate a fixed-size output.

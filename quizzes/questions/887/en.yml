@@ -1,12 +1,7 @@
-question: What is the relationship between time preference and interest rates in an
-  economy with unmanipulated capital markets?
-answer: An increase in interest rates results from a relative increase in demand for
-  capital compared to supply, indicating higher time preferences. Conversely, a decrease
-  in interest rates occurs due to an increase in savings, which is an increase in
-  the supply of capital, indicating a reduction in time preferences.
+question: What is the relationship between time preference and interest rates in an economy with unmanipulated capital markets?
+answer: An increase in interest rates results from a relative increase in demand for capital compared to supply, indicating higher time preferences. Conversely, a decrease in interest rates occurs due to an increase in savings, which is an increase in the supply of capital, indicating a reduction in time preferences.
 wrong_answers:
-  - An increase in interest rates indicates a decrease in time preferences, while
-    a decrease in interest rates indicates an increase in time preferences.
+  - An increase in interest rates indicates a decrease in time preferences, while a decrease in interest rates indicates an increase in time preferences.
   - Time preference and interest rates are inversely related.
   - Time preference and interest rates have no direct relationship.
 explanation: |

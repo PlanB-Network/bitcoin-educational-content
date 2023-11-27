@@ -1,6 +1,5 @@
 question: What is the purpose of the revocation key in the Lightning Network?
-answer: To punish a participant who tries to cheat by publishing an old commitment
-  transaction.
+answer: To punish a participant who tries to cheat by publishing an old commitment transaction.
 wrong_answers:
   - To reward a participant who successfully cheats.
   - To open a new channel.

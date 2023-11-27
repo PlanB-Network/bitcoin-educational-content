@@ -1,6 +1,5 @@
 question: What is private browsing?
-answer: A feature that prevents internet browsers from storing browsing history, temporary
-  internet files, form data, cookies, and user names and passwords.
+answer: A feature that prevents internet browsers from storing browsing history, temporary internet files, form data, cookies, and user names and passwords.
 wrong_answers:
   - A feature that hides your online activity from your internet service provider.
   - A feature that allows you to browse the internet anonymously.

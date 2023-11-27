@@ -1,6 +1,5 @@
 question: How could the Lightning Network potentially be used for renting goods?
-answer: Users could be charged per minute, or even per second, for the time they use
-  the goods
+answer: Users could be charged per minute, or even per second, for the time they use the goods
 wrong_answers:
   - Users could be charged a flat fee for renting the goods
   - Users could be charged based on the value of the goods

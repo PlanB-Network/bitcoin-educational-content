@@ -1,6 +1,5 @@
 question: What is the main advantage of the SHA256 hash function?
-answer: Its robustness to find the input from the hash, while verifying the hash for
-  a given input is a mechanically simple action
+answer: Its robustness to find the input from the hash, while verifying the hash for a given input is a mechanically simple action
 wrong_answers:
   - Its ability to generate a 512-bit hash from a variable-sized input
   - Its use of padding bits to increase the size of the input

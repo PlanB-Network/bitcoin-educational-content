@@ -1,6 +1,5 @@
 question: What happens in a forced closure of the channel?
-answer: All ongoing HTLC transactions are published, which can become very expensive
-  and messy.
+answer: All ongoing HTLC transactions are published, which can become very expensive and messy.
 wrong_answers:
   - Payments are interrupted and HTLCs are resolved, which is generally less expensive.
   - The channel is immediately closed without any additional steps.

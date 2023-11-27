@@ -1,6 +1,5 @@
 question: What is the seed in the context of the HD Wallet?
-answer: A 512-bit alphanumeric sequence that serves as the basis for deriving the
-  wallet's keys.
+answer: A 512-bit alphanumeric sequence that serves as the basis for deriving the wallet's keys.
 wrong_answers:
   - A password used to secure the wallet.
   - A unique identifier for the wallet.

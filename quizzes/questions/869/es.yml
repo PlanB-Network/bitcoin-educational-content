@@ -1,14 +1,10 @@
 question: ¿Cuáles son las consecuencias de las Políticas de Tasa de Interés Cero (ZIRP)?
-answer: ZIRP erosiona los márgenes de los bancos, desalienta el préstamo a emprendedores y arriesgados,
+answer: ZIRP erosiona los márgenes de los bancos, desalienta el préstamo a emprendedores y arriesgados, y fomenta que los gobiernos se involucren en un gasto extenso, lo que lleva a un aumento de la deuda pública.
 wrong_answers:
-  y fomenta que los gobiernos se involucren en un gasto extenso, lo que lleva a un aumento
-  de la deuda pública.
-  - ZIRP aumenta las ganancias de los bancos, fomenta el préstamo a emprendedores y arriesgados,
-explanation: |
-  y desalienta el gasto gubernamental.
+  - ZIRP aumenta las ganancias de los bancos, fomenta el préstamo a emprendedores y arriesgados, y desalienta el gasto gubernamental.
   - ZIRP no tiene un impacto significativo en los bancos, las prácticas de préstamo o el gasto gubernamental.
-  - ZIRP disminuye la deuda pública, fomenta el préstamo a emprendedores y arriesgados,
-  y desalienta el gasto gubernamental.
+  - ZIRP disminuye la deuda pública, fomenta el préstamo a emprendedores y arriesgados, y desalienta el gasto gubernamental.
+explanation: |
   Las Políticas de Tasa de Interés Cero (ZIRP) pueden tener varias consecuencias no deseadas.
   Los bancos tienen oportunidades limitadas para reconstruir su patrimonio porque sus márgenes se
   erosionan. También tienen poco incentivo para prestar, especialmente a emprendedores y

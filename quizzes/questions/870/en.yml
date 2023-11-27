@@ -1,13 +1,9 @@
 question: What is the primary objective of the Bitcoin course mentioned in the chapter?
-answer: The primary objective of the course is to educate new Bitcoin enthusiasts
-  in sound economic principles.
+answer: The primary objective of the course is to educate new Bitcoin enthusiasts in sound economic principles.
 wrong_answers:
-  - The primary objective of the course is to teach new Bitcoin enthusiasts how to
-    mine Bitcoin.
-  - The primary objective of the course is to teach new Bitcoin enthusiasts how to
-    invest in Bitcoin.
-  - The primary objective of the course is to teach new Bitcoin enthusiasts how to
-    create their own cryptocurrencies.
+  - The primary objective of the course is to teach new Bitcoin enthusiasts how to mine Bitcoin.
+  - The primary objective of the course is to teach new Bitcoin enthusiasts how to invest in Bitcoin.
+  - The primary objective of the course is to teach new Bitcoin enthusiasts how to create their own cryptocurrencies.
 explanation: |
   The course aims to educate new Bitcoin enthusiasts about the fundamental
   principles of economics, particularly those of the Austrian School of Economics.

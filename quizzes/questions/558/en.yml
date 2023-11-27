@@ -1,26 +1,13 @@
-question: What was the strategy used by the United States in 1933-1934 to devalue
-  the dollar?
-answer: The government seized citizens' gold, then changed the rules of the game by
-  revaluing the value of gold to benefit the treasury and disadvantage those who had
-  initially exchanged their gold for notes.
+question: What was the strategy used by the United States in 1933-1934 to devalue the dollar?
+answer: The government seized citizens' gold, then changed the rules of the game by revaluing the value of gold to benefit the treasury and disadvantage those who had initially exchanged their gold for notes.
 wrong_answers:
-  - The government increased the supply of gold, then changed the rules of the game
-    by devaluing the value of gold to benefit the treasury and disadvantage those
-    who had initially exchanged their gold for notes.
-  - The government seized citizens' gold, then changed the rules of the game by devaluing
-    the value of gold to benefit the treasury and disadvantage those who had initially
-    exchanged their gold for notes.
-  - The government increased the supply of gold, then changed the rules of the game
-    by revaluing the value of gold to benefit the treasury and disadvantage those
-    who had initially exchanged their gold for notes.
+  - The government increased the supply of gold, then changed the rules of the game by devaluing the value of gold to benefit the treasury and disadvantage those who had initially exchanged their gold for notes.
+  - The government seized citizens' gold, then changed the rules of the game by devaluing the value of gold to benefit the treasury and disadvantage those who had initially exchanged their gold for notes.
+  - The government increased the supply of gold, then changed the rules of the game by revaluing the value of gold to benefit the treasury and disadvantage those who had initially exchanged their gold for notes.
 explanation: |
   In 1933, the US government seized citizens'' gold. Then in 1934, they
-
   revalued the price of gold to $35 per ounce, instead of $20.67. Essentially, the
-
   government devalued the dollar that people owned. By buying gold from the population
-
   at $20.67 per ounce in 1933, and then revaluing the price of gold in 1934, the government
-
   made a substantial profit while devaluing its citizens'' savings.'
 reviewed: false

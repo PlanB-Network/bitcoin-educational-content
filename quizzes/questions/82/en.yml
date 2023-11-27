@@ -1,6 +1,5 @@
 question: What is the central question about self custody when choosing a Bitcoin wallet?
-answer: Are you the owner of the funds or do you leave control of your money to a
-  third party?
+answer: Are you the owner of the funds or do you leave control of your money to a third party?
 wrong_answers:
   - Is the wallet secure with a passphrase?
   - Does the wallet allow receiving and sending bitcoins?

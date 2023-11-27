@@ -1,6 +1,5 @@
 question: What is the risk of not owning the private key to your Bitcoin wallet?
-answer: Your bitcoins are subject to risks such as hacking, seizure, regulation, or
-  bankruptcy
+answer: Your bitcoins are subject to risks such as hacking, seizure, regulation, or bankruptcy
 wrong_answers:
   - Your bitcoins will be automatically converted to another cryptocurrency
   - Your bitcoins will lose their value

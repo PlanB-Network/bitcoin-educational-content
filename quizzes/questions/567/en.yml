@@ -1,8 +1,5 @@
-question: What is the impact of the Consumer Price Index (CPI) on the measurement
-  of inflation?
-answer: The CPI can underestimate actual inflation as it does not comprehensively
-  take into account the evolution of real estate prices and can offset or mask actual
-  price increases.
+question: What is the impact of the Consumer Price Index (CPI) on the measurement of inflation?
+answer: The CPI can underestimate actual inflation as it does not comprehensively take into account the evolution of real estate prices and can offset or mask actual price increases.
 wrong_answers:
   - The CPI always accurately measures inflation.
   - The CPI overestimates actual inflation.

@@ -1,6 +1,5 @@
 question: What is the main purpose of digital signatures in the Bitcoin protocol?
-answer: To demonstrate the possession of a private key associated with a specific
-  public key
+answer: To demonstrate the possession of a private key associated with a specific public key
 wrong_answers:
   - To encrypt the transaction data
   - To generate new bitcoins

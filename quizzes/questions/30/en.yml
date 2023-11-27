@@ -1,6 +1,5 @@
 question: What is the main advantage of gold over other forms of currency?
-answer: Its natural rarity makes it valuable, while its chemical properties allow
-  it to not erode over time
+answer: Its natural rarity makes it valuable, while its chemical properties allow it to not erode over time
 wrong_answers:
   - It is easily divisible and transportable
   - It is subject to monetary inflation

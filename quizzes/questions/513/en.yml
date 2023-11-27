@@ -1,4 +1,5 @@
-question: What is the role of the seed in the hierarchical organization and derivation of the HD wallet?
+question: What is the role of the seed in the hierarchical organization and derivation
+  of the HD wallet?
 answer: The seed plays a deterministic role in the derivation of all other keys.
 wrong_answers:
   - The seed is used to encrypt the wallet.

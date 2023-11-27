@@ -1,4 +1,5 @@
-question: What is the role of entropy in the Hierarchical Deterministic (HD) wallet with BIP32?
+question: What is the role of entropy in the Hierarchical Deterministic (HD) wallet
+  with BIP32?
 answer: It is used to generate a mnemonic phrase from a random number.
 wrong_answers:
   - It is used to generate the wallet's seed.

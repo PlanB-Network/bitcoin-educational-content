@@ -1,4 +1,5 @@
-question: What is the difference between a closing transaction and a commitment transaction in a cooperative closure?
+question: What is the difference between a closing transaction and a commitment transaction
+  in a cooperative closure?
 answer: A closing transaction has no Timelock and revocation key.
 wrong_answers:
   - A closing transaction has a Timelock and revocation key.

@@ -1,4 +1,5 @@
-question: What is the role of miners in relation to power plants that are not yet connected to the grid?
+question: What is the role of miners in relation to power plants that are not yet
+  connected to the grid?
 answer: They act as a last resort buyer
 wrong_answers:
   - They provide the power plants with electricity

@@ -1,4 +1,5 @@
-question: Is it possible to reverse from a Bitcoin address to the public key, or from the public key to the private key?
+question: Is it possible to reverse from a Bitcoin address to the public key, or from
+  the public key to the private key?
 answer: This is false
 wrong_answers:
   - This is true

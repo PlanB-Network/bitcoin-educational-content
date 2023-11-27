@@ -1,4 +1,5 @@
-question: What happens if even a slightly deviating input is given to a cryptographic hash function?
+question: What happens if even a slightly deviating input is given to a cryptographic
+  hash function?
 answer: It significantly alters the final hash.
 wrong_answers:
   - It produces the same hash.

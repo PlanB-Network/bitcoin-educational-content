@@ -1,4 +1,5 @@
-question: What is the purpose of an Atomic Swap between LN and BTC in the Lightning Network?
+question: What is the purpose of an Atomic Swap between LN and BTC in the Lightning
+  Network?
 answer: To rebalance liquidity
 wrong_answers:
   - To open channels

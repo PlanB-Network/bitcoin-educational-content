@@ -1,4 +1,5 @@
-question: What happens when a transaction attempt fails due to insufficient liquidity in the Lightning Network?
+question: What happens when a transaction attempt fails due to insufficient liquidity
+  in the Lightning Network?
 answer: Another route is tried until a successful transaction is made.
 wrong_answers:
   - The transaction is cancelled and the funds are returned to the sender.

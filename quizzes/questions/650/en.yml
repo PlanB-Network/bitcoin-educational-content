@@ -1,4 +1,5 @@
-question: What is the significance of the 2/2 multi-sig address in the process of opening a channel in the Lightning Network?
+question: What is the significance of the 2/2 multi-sig address in the process of
+  opening a channel in the Lightning Network?
 answer: It is the address to which Alice sends money to open the channel.
 wrong_answers:
   - It is the address from which Alice sends money to open the channel.

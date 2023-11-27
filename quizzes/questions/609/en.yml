@@ -1,4 +1,5 @@
-question: What was the highest denomination bill in Brazil before its last redenomination in 1994?
+question: What was the highest denomination bill in Brazil before its last redenomination
+  in 1994?
 answer: 500,000
 wrong_answers:
   - 1,000,000

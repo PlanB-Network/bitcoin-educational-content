@@ -1,4 +1,5 @@
-question: What is the key feature of Bitcoin that differentiates it from fiat currencies?
+question: What is the key feature of Bitcoin that differentiates it from fiat
+  currencies?
 answer: Its monetary policy is enforced by a general consensus.
 wrong_answers:
   - It can be printed in unlimited quantities by central banks.

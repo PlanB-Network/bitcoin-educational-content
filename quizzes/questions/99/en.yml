@@ -1,4 +1,5 @@
-question: What is one of the recommended alternative solutions to paper for storing your mnemonic phrase?
+question: What is one of the recommended alternative solutions to paper for storing your mnemonic
+  phrase?
 answer: Engraving it on a metal plate
 wrong_answers:
   - Storing it in a digital file

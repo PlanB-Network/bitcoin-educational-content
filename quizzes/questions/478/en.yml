@@ -1,4 +1,5 @@
-question: What is the purpose of entropy in the generation of a mnemonic phrase for a Bitcoin wallet?
+question: What is the purpose of entropy in the generation of a mnemonic phrase for
+  a Bitcoin wallet?
 answer: It is the cornerstone of HD wallet security.
 wrong_answers:
   - It determines the number of words in the recovery phrase.

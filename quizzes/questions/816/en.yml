@@ -1,4 +1,5 @@
-question: What is the potential downside of creating a "cloud" backup using services like ProtonMail Drive, Sync, or Google Drive?
+question: What is the potential downside of creating a "cloud" backup using services
+  like ProtonMail Drive, Sync, or Google Drive?
 answer: Your data is potentially on the internet and held by a trusted third party.
 wrong_answers:
   - These services are not reliable for data backup.

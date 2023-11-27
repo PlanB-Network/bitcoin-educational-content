@@ -1,4 +1,5 @@
-question: What is the purpose of the SHA-256 hash function in generating a good random number?
+question: What is the purpose of the SHA-256 hash function in generating a good random
+  number?
 answer: It reduces a very large initial piece of information to 256 bits.
 wrong_answers:
   - It increases the size of the initial information.

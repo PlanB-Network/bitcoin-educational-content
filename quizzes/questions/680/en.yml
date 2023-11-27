@@ -1,4 +1,5 @@
-question: What happens in a forced closure if the network fee is 1 SAT at the time of closure?
+question: What happens in a forced closure if the network fee is 1 SAT at the time
+  of closure?
 answer: The transaction is overpaid by 50 times.
 wrong_answers:
   - The transaction is underpaid by 50 times.

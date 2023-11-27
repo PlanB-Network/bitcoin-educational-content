@@ -1,4 +1,5 @@
-question: Which P2P solution discussed in the chapter uses a DAO system and multisign for dispute management?
+question: Which P2P solution discussed in the chapter uses a DAO system and multisign
+  for dispute management?
 answer: Bisq
 wrong_answers:
   - RoboSat

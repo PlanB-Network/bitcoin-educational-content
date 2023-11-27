@@ -5,7 +5,7 @@ objectives:
   - Bestudeer hyperinflasie-siklusse
   - Verstaan die werklike impak van hyperinflasies op ons alledaagse lewens
   - Bestudeer die ooreenkomste van hyperinflasies deur die tyd heen
-  - 'n Konkrete idee hê van hoe om jouself teen hyperinflasies te beskerm
+  - n Konkrete idee hê van hoe om jouself teen hyperinflasies te beskerm
 ---
 
 # 'n Reis in die ekonomie

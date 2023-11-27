@@ -1,7 +1,7 @@
 ---
 name: Hyperinflasies
 goal: Begrip van die ontstaan van hyperinflasies in 'n Fiat-wêreld en hul gevolge
-doelwitte:
+objectives:
   - Bestudeer hyperinflasie-siklusse
   - Verstaan die werklike impak van hyperinflasies op ons alledaagse lewens
   - Bestudeer die ooreenkomste van hyperinflasies deur die tyd heen

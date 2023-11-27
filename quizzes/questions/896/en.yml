@@ -1,12 +1,9 @@
 question: What is the Austrian Theory of the Business Cycle?
 answer: The Austrian Theory of the Business Cycle is a theory that explains economic cycles as endogenous dynamics of the fractional reserve banking system, emphasizing the sequential nature of human action and the impact of interest rate fluctuations on the intertemporal coordination of economic agents.
 wrong_answers:
-  - The Austrian Theory of the Business Cycle is a theory that explains economic cycles
-    as a result of external events and animal spirits.
-  - The Austrian Theory of the Business Cycle is a theory that explains economic cycles
-    as a result of changes in aggregate demand and supply.
-  - The Austrian Theory of the Business Cycle is a theory that explains economic cycles
-    as a result of changes in employment levels, GDP, or the consumer price index.
+  - The Austrian Theory of the Business Cycle is a theory that explains economic cycles as a result of external events and animal spirits.
+  - The Austrian Theory of the Business Cycle is a theory that explains economic cycles as a result of changes in aggregate demand and supply.
+  - The Austrian Theory of the Business Cycle is a theory that explains economic cycles as a result of changes in employment levels, GDP, or the consumer price index.
 explanation: |
   The Austrian Theory of the Business Cycle, developed by Ludwig Von Mises
   and Friedrich Hayek, explains economic cycles as endogenous dynamics of the fractional

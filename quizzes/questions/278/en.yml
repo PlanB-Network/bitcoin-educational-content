@@ -1,12 +1,9 @@
 question: What is the risk associated with storing Bitcoins on an exchange platform?
 answer: The platform could go bankrupt, your Bitcoins could be confiscated, or the platform could be hacked.
 wrong_answers:
-  - The platform could increase its fees, your Bitcoins could lose value, or the platform
-    could be hacked.
-  - The platform could go bankrupt, your Bitcoins could increase in value, or the
-    platform could be hacked.
-  - The platform could go bankrupt, your Bitcoins could be confiscated, or the platform
-    could increase its fees.
+  - The platform could increase its fees, your Bitcoins could lose value, or the platform could be hacked.
+  - The platform could go bankrupt, your Bitcoins could increase in value, or the platform could be hacked.
+  - The platform could go bankrupt, your Bitcoins could be confiscated, or the platform could increase its fees.
 explanation: |
   Storing Bitcoins on an exchange platform carries risks such as the platform
   going bankrupt, the confiscation of your Bitcoins, or the hacking of the platform.

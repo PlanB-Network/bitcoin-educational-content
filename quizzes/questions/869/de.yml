@@ -1,14 +1,10 @@
 question: Welche Folgen haben Nullzinspolitiken (ZIRP)?
-answer: ZIRP erodiert die Margen der Banken, entmutigt Kredite an Unternehmer und Risikoträger
+answer: ZIRP erodiert die Margen der Banken, entmutigt Kredite an Unternehmer und Risikoträger   und ermutigt Regierungen zu umfangreichen Ausgaben, was zu einer erhöhten öffentlichen Verschuldung führt.
 wrong_answers:
-  und ermutigt Regierungen zu umfangreichen Ausgaben, was zu einer erhöhten
-  öffentlichen Verschuldung führt.
-  - ZIRP erhöht die Gewinne der Banken, ermutigt Kredite an Unternehmer und Risikoträger,
-explanation: |
-  und entmutigt Regierungsausgaben.
+  - ZIRP erhöht die Gewinne der Banken, ermutigt Kredite an Unternehmer und Risikoträger, und entmutigt Regierungsausgaben.
   - ZIRP hat keine signifikanten Auswirkungen auf Banken, Kreditpraktiken oder Regierungsausgaben.
-  - ZIRP verringert die öffentliche Verschuldung, ermutigt Kredite an Unternehmer und Risikoträger,
-  und entmutigt Regierungsausgaben.
+  - ZIRP verringert die öffentliche Verschuldung, ermutigt Kredite an Unternehmer und Risikoträger, und entmutigt Regierungsausgaben.
+explanation: |
   Nullzinspolitiken (ZIRP) können mehrere unbeabsichtigte Folgen haben.
   Banken haben begrenzte Möglichkeiten, ihr Eigenkapital wieder aufzubauen, da ihre Margen
   erodiert sind. Sie haben auch wenig Anreiz, insbesondere an Unternehmer und

@@ -1,9 +1,12 @@
-question: Wie kann die Empfangskapazität im Lightning Network erhöht werden?
-answer: - Öffnen von Kanälen
+question: Wie kann man die Empfangskapazität im Lightning-Netzwerk erhöhen?
+answer: Zahlungen tätigen
 wrong_answers:
-  - Verbindung zu anderen Knoten herstellen
-  - Eine ausgewogene Liquidität auf beiden Seiten aufrechterhalten
-  Im Lightning Network kann die Empfangskapazität erhöht werden, indem Zahlungen getätigt werden. Wenn beispielsweise 100.000 aus einem bestimmten Grund gezahlt werden, können nun 100.000 empfangen werden.
+  - Kanäle öffnen
+  - Mit anderen Knoten verbinden
+  - Ein Gleichgewicht der Liquidität auf beiden Seiten aufrechterhalten
 explanation: |
-  
+  Im Lightning-Netzwerk kann man die Empfangskapazität erhöhen, indem
+  man Zahlungen tätigt. Zum Beispiel, wenn Sie aus einem bestimmten Grund 100.000 bezahlen, können Sie jetzt
+  100.000 empfangen.
 reviewed: false
+

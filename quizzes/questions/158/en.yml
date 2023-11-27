@@ -1,13 +1,10 @@
 question: What is the Byzantine Generals' Problem and how does Bitcoin solve it?
 answer: It's a problem of coordinating information in a system where the various actors cannot be trusted. Bitcoin solves it through the use of a blockchain based on Proof of Work with a floating difficulty.
 wrong_answers:
-  - It's a problem of verifying transactions in a decentralized network. Bitcoin solves
-    it through the use of digital signatures.
-  - It's a problem of preventing double spending in a digital currency. Bitcoin solves
-    it through the use of a public ledger.
-  - It's a problem of maintaining consensus in a decentralized network. Bitcoin solves
-    it through the use of a Proof of Stake algorithm.
-explanation: >-
+  - It's a problem of verifying transactions in a decentralized network. Bitcoin solves it through the use of digital signatures.
+  - It's a problem of preventing double spending in a digital currency. Bitcoin solves it through the use of a public ledger.
+  - It's a problem of maintaining consensus in a decentralized network. Bitcoin solves it through the use of a Proof of Stake algorithm.
+explanation: |
   The Byzantine Generals' Problem is a classic problem in distributed
   computing,
   which involves achieving consensus in a network where some of the nodes may be faulty

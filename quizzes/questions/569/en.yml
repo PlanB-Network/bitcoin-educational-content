@@ -1,8 +1,7 @@
 question: What is the impact of bank and central bank balance sheets on inflation?
 answer: If newly created money remains on the balance sheets of private banks without being lent to economic actors, it will not directly impact the real economy and, therefore, will not result in inflation.
 wrong_answers:
-  - If newly created money remains on the balance sheets of private banks, it will
-    always result in inflation.
+  - If newly created money remains on the balance sheets of private banks, it will always result in inflation.
   - Bank and central bank balance sheets have no impact on inflation.
   - If newly created money is lent to economic actors, it will not result in inflation.
 explanation: |

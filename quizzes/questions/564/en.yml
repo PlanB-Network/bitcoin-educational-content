@@ -1,12 +1,9 @@
 question: What is the fundamental difference between Price Increase and Inflation?
 answer: Price increase can be sector-specific and induced by various factors, while inflation is defined by a generalized increase in prices across a range of goods and services.
 wrong_answers:
-  - Price increase is a generalized increase in prices across a range of goods and
-    services, while inflation is sector-specific and induced by various factors.
-  - Price increase and inflation are the same, both refer to a generalized increase
-    in prices across a range of goods and services.
-  - Price increase refers to a decrease in prices, while inflation refers to an increase
-    in prices.
+  - Price increase is a generalized increase in prices across a range of goods and services, while inflation is sector-specific and induced by various factors.
+  - Price increase and inflation are the same, both refer to a generalized increase in prices across a range of goods and services.
+  - Price increase refers to a decrease in prices, while inflation refers to an increase in prices.
 explanation: |
   The chapter explains that a price increase can be sector-specific and
   induced by various factors such as a decrease in OPEC production for oil or unfavorable

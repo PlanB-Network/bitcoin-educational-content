@@ -2,7 +2,7 @@
 name: Inleiding tot Oostenrykse Ekonomie
 goal: Ontdek die Oostenrykse skool van ekonomiese denke. Bestudeer hul sienings oor die samelewing en makro/mikro-ekonomiese realiteite.
 objectives:
-  - 'n Alternatief vir Keynesianisme
+  - n Alternatief vir Keynesianisme
   - Die belangrikheid van harde geldeenheid
   - Hoekom en hoe word ons ekonomiese siklusse geskep?
   - Hoekom het sentrale banke mal geword?

@@ -1,0 +1,9 @@
+question: Quel est le but de la transaction de retrait dans un réseau Lightning ?
+answer: Elle représente l'état du canal, garantissant qui possède les fonds après chaque transfert.
+wrong_answers:
+  - C'est la transaction qui déplace les fonds d'un côté à l'autre.
+  - C'est la transaction qui ouvre le canal.
+  - C'est la transaction qui ferme le canal.
+explanation: |
+  La transaction de retrait est mise à jour après chaque transfert dans le réseau Lightning pour refléter l'état actuel du canal. Elle garantit qui possède les fonds après chaque transfert, mais elle n'est pas exécutée à moins que le canal ne soit fermé.
+reviewed: false

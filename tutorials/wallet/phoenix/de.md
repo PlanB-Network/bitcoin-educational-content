@@ -6,8 +6,6 @@ description: Einrichtung Ihrer Pheonix-Brieftasche
 
 ![phoenix](assets/cover.jpeg)
 
-# Phoenix
-
 Phoenix ist eine nicht verwahrte Lightning-Brieftasche, die von Acind, dem Team hinter der Lightning-Eclair-Implementierung, entwickelt wurde.
 
 Um ihre offizielle Dokumentation zu finden, schauen Sie sich ihren FAQ-Leitfaden an: [https://phoenix.acinq.co/faq](https://phoenix.acinq.co/faq)

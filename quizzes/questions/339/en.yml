@@ -1,0 +1,11 @@
+question: What is the main goal of a Bitcoin stacker?
+answer: To accumulate as many satoshis as possible
+wrong_answers:
+  - To accumulate as many bitcoins as possible
+  - To sell goods or services in Bitcoin
+  - To buy Bitcoin directly in cash with friends or members of the Bitcoin community
+explanation: |
+  The main goal of a Bitcoin stacker is to accumulate as many satoshis
+  as possible. This is achieved by setting up a Dollar-Cost Averaging (DCA) plan and
+  looking for other solutions to accumulate satoshis.
+reviewed: false

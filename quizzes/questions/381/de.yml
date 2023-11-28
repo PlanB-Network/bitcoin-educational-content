@@ -1,0 +1,9 @@
+question: Was ist der Zweck eines Passwort-Managers in Bitcoin?
+answer: Ein Passwort-Manager dient dazu, Passwörter für Bitcoin-Transaktionen sicher zu speichern und zu verwalten.
+wrong_answers:
+  - Um neue Bitcoins zu schürfen.
+  - Um mit Bitcoins zu handeln.
+  - Um Bitcoins in andere Kryptowährungen umzuwandeln.
+explanation: |
+  Ein Passwort-Manager ist eine Software-Anwendung, die verwendet wird, um Passwörter für verschiedene Online-Konten zu speichern und zu verwalten. Im Zusammenhang mit Bitcoin wird er verwendet, um Passwörter für Bitcoin-Transaktionen sicher zu speichern und zu verwalten.
+reviewed: false

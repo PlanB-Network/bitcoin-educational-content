@@ -1,0 +1,11 @@
+question: What is a wallet in the context of Bitcoin?
+answer: A digital safe for your bitcoins
+wrong_answers:
+  - A physical device for storing bitcoins
+  - A software for mining bitcoins
+  - A platform for buying and selling bitcoins
+explanation: |
+  The chapter content explains that bitcoins are stored in what is called
+  a "wallet," which is a digital safe for your money. Only the key holder can access
+  it.
+reviewed: false

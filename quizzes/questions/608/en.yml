@@ -1,0 +1,13 @@
+question: What was the currency of Argentina before 1826?
+answer: The Spanish dollar.
+wrong_answers:
+  - The Argentine peso.
+  - The peso moneda nacional.
+  - The peso real.
+explanation: |
+  Before 1826, Argentina used the Spanish dollar. After its independence
+
+  in 1816, it introduced its own currency based on the Spanish real, resulting in
+
+  the creation of a similar currency.'
+reviewed: false

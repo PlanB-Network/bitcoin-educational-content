@@ -1,0 +1,9 @@
+question: Was sollten Sie nach dem Einlagern des Umschlags gemäß dem Kapitel tun?
+answer: Stellen Sie sicher, dass Ihre Erben wissen, dass sie diesen Umschlag bei Bedarf abrufen müssen.
+wrong_answers:
+  - Stellen Sie sicher, dass Ihre Erben nicht wissen, dass sie diesen Umschlag bei Bedarf abrufen müssen.
+  - Stellen Sie sicher, dass Ihre Erben wissen, dass sie diesen Umschlag bei Bedarf nicht abrufen müssen.
+  - Stellen Sie sicher, dass Ihre Erben nicht wissen, dass sie diesen Umschlag bei Bedarf nicht abrufen müssen.
+explanation: |
+  Nach dem Einlagern des Umschlags sollten Sie sicherstellen, dass Ihre Erben wissen, dass sie diesen Umschlag bei Bedarf abrufen müssen, wie im Kapitel vorgeschlagen.
+reviewed: false

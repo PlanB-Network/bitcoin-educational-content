@@ -1,0 +1,11 @@
+question: What is the main role of Bitcoin Core developers?
+answer: They are responsible for the main development of the Bitcoin protocol and its core features
+wrong_answers:
+  - They control the Bitcoin network
+  - They create new bitcoins
+  - They regulate the price of Bitcoin
+explanation: |
+  The chapter content explains that Bitcoin Core developers are responsible
+  for the main development of the Bitcoin protocol and its core features. They do
+  not control the Bitcoin network, create new bitcoins, or regulate the price of Bitcoin.
+reviewed: false

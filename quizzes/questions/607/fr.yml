@@ -1,0 +1,10 @@
+question: Quelle est la cause sous-jacente de l'hyperinflation que la redénomination ne résout pas ?
+answer: L'expansion de la masse monétaire.
+wrong_answers:
+  - La diminution de la masse monétaire.
+  - L'augmentation de la demande de biens et de services.
+  - La diminution de la demande de biens et de services.
+explanation: |
+  La cause profonde de l'hyperinflation est l'expansion de la masse monétaire.
+  La redénomination est une mesure courante prise par les gouvernements pendant les périodes d'inflation, mais elle ne résout pas ce problème sous-jacent. C'est seulement un moyen de renommer la monnaie et de supprimer les zéros.
+reviewed: false

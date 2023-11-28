@@ -1,0 +1,10 @@
+question: Qual é o papel do dinheiro na coordenação intertemporal da ação humana?
+answer: Ele permite o armazenamento de valor no presente e sua transferência para o futuro do indivíduo.
+wrong_answers:
+  - Ele permite o armazenamento de valor no futuro e sua transferência para o presente do indivíduo.
+  - Ele permite o armazenamento de valor no presente e sua transferência para outras pessoas.
+  - Ele permite o armazenamento de valor no futuro e sua transferência para outras pessoas.
+explanation: |
+  Ao guardar dinheiro, ou seja, poupar, os indivíduos se protegem contra a incerteza futura e, assim, se capacitam a direcionar suas ações para horizontes de tempo mais longos.
+  No entanto, eles só podem alcançar isso se o dinheiro utilizado constituir uma reserva de valor.
+reviewed: false

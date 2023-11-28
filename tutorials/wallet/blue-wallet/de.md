@@ -6,8 +6,6 @@ description: Einfache und leistungsstarke Bitcoin-Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Blue Wallet - Einfache und leistungsstarke Bitcoin-Wallet.
-
 Blue Wallet ist eine Open-Source-Bitcoin-Wallet, die extrem einfach zu bedienen, aber dennoch flexibel ist.
 
 - Eine Bitcoin-Layer-1-Wallet ist kostenlos und nicht verwahrend verfügbar.
@@ -19,7 +17,7 @@ Blue Wallet ist eine Open-Source-Bitcoin-Wallet, die extrem einfach zu bedienen,
 
 ## BlueWallet: Eine Einführung
 
-![image](assets/1.jpg)
+![image](assets/1.jpeg)
 
 Um Bitcoin von Ihrem Mobiltelefon (oder Tablet) zu empfangen oder zu senden, laden Sie BlueWallet von der entsprechenden Website für Ihr Mobiltelefon oder Tablet herunter:
 

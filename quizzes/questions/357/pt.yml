@@ -1,0 +1,9 @@
+question: Qual é o motivo principal pelo qual um Bitcoiner paranóico usaria seu próprio nó LN?
+answer: Para manter a privacidade e segurança
+wrong_answers:
+  - Para evitar processos KYC
+  - Para gerenciar seus UTXOs
+  - Para misturar suas moedas
+explanation: |
+  O capítulo menciona que um Bitcoiner paranóico usaria seu próprio nó LN como parte de seu foco em segurança. Embora evitar processos KYC, gerenciar UTXOs e misturar moedas também sejam atividades em que um Bitcoiner paranóico possa se envolver, elas não estão diretamente relacionadas ao uso de um nó LN.
+reviewed: false

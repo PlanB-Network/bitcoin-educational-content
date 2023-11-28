@@ -16,12 +16,9 @@ Isso será alcançado por meio da implementação de várias ferramentas, como u
 Neste treinamento, não buscamos torná-lo um especialista, anônimo ou invulnerável, pois isso é impossível. Em vez disso, oferecemos algumas soluções simples e acessíveis a todos para começar a transformar seus hábitos online e retomar o controle de sua soberania digital.
 
 Equipe de contribuidores:
-
-- Renaud Lifchitz; professor
-- Théo Pantamis; professor
-- Muriel; Design
-- Rogzy Noury & Fabian; Produção
-- Théo; Contribuição
+Muriel; Design
+Rogzy Noury & Fabian; Produção
+Théo; Contribuição
 
 +++
 

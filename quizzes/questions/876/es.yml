@@ -1,0 +1,9 @@
+question: ¿Cuál es el concepto de ventaja absoluta en el contexto de la división del trabajo?
+answer: Un individuo posee una habilidad superior para realizar ciertas tareas en comparación con sus pares.
+wrong_answers:
+  - Un individuo posee una habilidad superior para realizar todas las tareas en comparación con sus pares.
+  - Un individuo posee una habilidad igual para realizar ciertas tareas que sus pares.
+  - Un individuo posee una habilidad inferior para realizar ciertas tareas en comparación con sus pares.
+explanation: |
+  En el contexto de la división del trabajo, la ventaja absoluta se refiere a la situación en la que un individuo tiene una habilidad superior para realizar ciertas tareas en comparación con sus pares. Este individuo entonces tiene interés en especializarse en la producción de ese bien y luego intercambiar el excedente obtenido por los bienes que desean.
+reviewed: false

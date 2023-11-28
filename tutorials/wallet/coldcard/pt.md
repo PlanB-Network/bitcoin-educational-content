@@ -6,8 +6,6 @@ description: Criação, backup e uso de uma chave privada Bitcoin com um disposi
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Criação, backup e uso de uma chave privada Bitcoin com um dispositivo Coldcard e Bitcoin Core
 
 ## Guia completo para gerar uma chave privada usando uma Coldcard e usá-la através da interface do seu nó Bitcoin Core!

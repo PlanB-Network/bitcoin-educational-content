@@ -1,0 +1,10 @@
+question: ¿Cuál es el riesgo asociado con almacenar Bitcoins en una plataforma de intercambio?
+answer: La plataforma podría declararse en bancarrota, podrían confiscar tus Bitcoins o la plataforma podría ser hackeada.
+wrong_answers:
+  - La plataforma podría aumentar sus tarifas, tus Bitcoins podrían perder valor o la plataforma podría ser hackeada.
+  - La plataforma podría declararse en bancarrota, tus Bitcoins podrían aumentar de valor o la plataforma podría ser hackeada.
+  - La plataforma podría declararse en bancarrota, podrían confiscar tus Bitcoins o la plataforma podría aumentar sus tarifas.
+explanation: |
+  Almacenar Bitcoins en una plataforma de intercambio conlleva riesgos como la bancarrota de la plataforma, la confiscación de tus Bitcoins o el hackeo de la plataforma.
+  Por eso es importante tener control sobre tu clave privada.
+reviewed: false

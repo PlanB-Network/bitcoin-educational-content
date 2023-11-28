@@ -4,8 +4,6 @@ name: JADE
 description: Como configurar o seu dispositivo JADE
 ---
 
-# Blockstream jade
-
 ![image](assets/cover.jpeg)
 
 ## Vídeo tutorial

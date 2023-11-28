@@ -1,0 +1,9 @@
+question: Quelle est la différence entre le trading, l'investissement et la détention dans le contexte du Bitcoin?
+answer: Le trading implique des contrats à court terme avec un risque élevé, l'investissement consiste à acheter du BTC à court ou moyen terme avec un risque limité, et la détention consiste à conserver du BTC à très long terme avec un risque limité.
+wrong_answers:
+  - Le trading consiste à acheter du BTC à long terme, l'investissement consiste en des contrats à court terme avec un risque élevé, et la détention consiste à conserver du BTC à court ou moyen terme avec un risque limité.
+  - Le trading consiste à acheter du BTC à court ou moyen terme, l'investissement consiste en des contrats à court terme avec un risque élevé, et la détention consiste à conserver du BTC à très long terme avec un risque élevé.
+  - Le trading consiste à acheter du BTC à court ou moyen terme, l'investissement consiste en des contrats à court terme avec un risque élevé, et la détention consiste à conserver du BTC à très long terme avec un risque limité.
+explanation: |
+  Le trading, l'investissement et la détention sont trois stratégies différentes utilisées sur le marché du Bitcoin. Le trading implique des contrats à court terme avec un risque élevé, l'investissement consiste à acheter du BTC à court ou moyen terme avec un risque limité, et la détention consiste à conserver du BTC à très long terme avec un risque limité.
+reviewed: false

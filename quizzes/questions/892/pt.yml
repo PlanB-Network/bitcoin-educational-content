@@ -1,0 +1,12 @@
+question: Qual é o objetivo final da atividade econômica de acordo com Carl Menger?
+answer: O objetivo final da atividade econômica é o consumo.
+wrong_answers:
+  - O objetivo final da atividade econômica é a produção.
+  - O objetivo final da atividade econômica é a poupança.
+  - O objetivo final da atividade econômica é o investimento.
+explanation: |
+  De acordo com Carl Menger, os bens só são considerados bens econômicos (valorizados)
+  porque servem como meios para fins escolhidos e valorizados pelos indivíduos. Portanto,
+  para Menger, o ponto de partida da análise econômica são os bens de consumo, ou bens finais,
+  pois eles representam o objetivo final da atividade econômica.
+reviewed: false

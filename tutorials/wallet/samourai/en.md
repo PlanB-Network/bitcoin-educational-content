@@ -6,8 +6,6 @@ description: Regain your privacy with Samourai
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Designed for Privacy
-
 **Samourai Wallet** is a wallet dedicated to privacy. Despite its user-friendly interface, it offers a great deal of flexibility in its use and security.
 
 Being **100% non-custodial**, you will need to **back up** your 12 words and definitely include a **passphrase** that you should not lose.

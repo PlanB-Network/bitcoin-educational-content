@@ -1,0 +1,9 @@
+question: ¿Cuál es la definición de inflación según Robert?
+answer: La inflación es un aumento excesivo en los instrumentos de pago que provoca un aumento en los precios y una depreciación de la moneda.
+wrong_answers:
+  - La inflación es una disminución en los instrumentos de pago que provoca un aumento en los precios y una depreciación de la moneda.
+  - La inflación es un aumento excesivo en los instrumentos de pago que provoca una disminución en los precios y una depreciación de la moneda.
+  - La inflación es un aumento excesivo en los instrumentos de pago que provoca un aumento en los precios y una apreciación de la moneda.
+explanation: |
+  Según Robert, la inflación se define como un aumento excesivo en los instrumentos de pago (billetes, capital) que provoca un aumento en los precios y una depreciación de la moneda.
+reviewed: false

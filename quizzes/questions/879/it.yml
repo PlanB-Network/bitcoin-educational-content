@@ -1,0 +1,9 @@
+question: Secondo gli economisti austriaci, qual è il risultato dell'individuo che si specializza nel proprio lavoro e si impegna in scambi?
+answer: Gli individui sono sempre in una situazione migliore.
+wrong_answers:
+  - Gli individui sono sempre in una situazione peggiore.
+  - Non ci sono cambiamenti nella situazione degli individui.
+  - Il risultato varia a seconda dell'individuo.
+explanation: |
+  Secondo gli economisti austriaci, il risultato dell'individuo che si specializza nel proprio lavoro e si impegna in scambi è che sono sempre in una situazione migliore. Questo perché la specializzazione e lo scambio consentono agli individui di massimizzare la loro utilità soggettiva.
+reviewed: false

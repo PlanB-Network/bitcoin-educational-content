@@ -1,0 +1,9 @@
+question: Qual é uma característica comum dos esquemas de Ponzi no domínio das criptomoedas?
+answer: Eles usam o dinheiro de novos investidores para pagar participantes mais antigos.
+wrong_answers:
+  - Eles sempre envolvem Bitcoin.
+  - Eles são sempre legais e regulamentados.
+  - Eles sempre envolvem ativos físicos.
+explanation: |
+  Os esquemas de Ponzi no domínio das criptomoedas frequentemente operam usando o dinheiro de novos investidores para pagar participantes mais antigos. Essa natureza insustentável e dependência de novas chegadas faz com que eles sejam propensos a colapsar inevitavelmente.
+reviewed: false

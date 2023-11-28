@@ -1,0 +1,9 @@
+question: Was ist der Zweck eines Erbschaftsplans in Bitcoin?
+answer: Um sicherzustellen, dass Ihre Angehörigen nach Ihrem Tod auf Ihre Bitcoins zugreifen können.
+wrong_answers:
+  - Um neue Bitcoins zu schürfen.
+  - Um mit Bitcoins zu handeln.
+  - Um Bitcoins in andere Kryptowährungen umzuwandeln.
+explanation: |
+  Ein Erbschaftsplan in Bitcoin ist ein Plan, der sicherstellt, dass Ihre Angehörigen nach Ihrem Tod auf Ihre Bitcoins zugreifen können. Er wird nicht verwendet, um neue Bitcoins zu schürfen, mit Bitcoins zu handeln oder Bitcoins in andere Kryptowährungen umzuwandeln.
+reviewed: false

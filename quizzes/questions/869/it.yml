@@ -1,0 +1,14 @@
+question: Quali sono le conseguenze delle politiche di tasso di interesse zero (ZIRP)?
+answer: ZIRP erode i margini delle banche, scoraggia il prestito agli imprenditori e ai rischiatori, e incoraggia i governi a impegnarsi in una spesa estensiva, portando ad un aumento del debito pubblico.
+wrong_answers:
+  - ZIRP aumenta i profitti delle banche, incoraggia il prestito agli imprenditori e ai rischiatori, e scoraggia la spesa governativa.
+  - ZIRP non ha un impatto significativo sulle banche, sulle pratiche di prestito o sulla spesa governativa.
+  - ZIRP diminuisce il debito pubblico, incoraggia il prestito agli imprenditori e ai rischiatori, e scoraggia la spesa governativa.
+explanation: |
+  Le politiche di tasso di interesse zero (ZIRP) possono avere diverse conseguenze non volute.
+  Le banche hanno limitate opportunità di ricostruire il loro patrimonio perché i loro margini sono
+  erosi. Inoltre, hanno poco incentivo a prestare, specialmente agli imprenditori e
+  ad altri rischiatori. Invece, allocano le loro risorse per securitizzare il capitale esistente
+  o fornire prestiti contro garanzie. Inoltre, ZIRP incoraggia i governi
+  a impegnarsi in una spesa estensiva, portando ad un significativo aumento del debito pubblico.
+reviewed: false

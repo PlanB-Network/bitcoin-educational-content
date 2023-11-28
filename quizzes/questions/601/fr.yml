@@ -1,0 +1,9 @@
+question: Quel est l'impact de l'hyperinflation sur les économies ?
+answer: Elle érode la valeur du capital et des revenus, rendant la planification à long terme difficile.
+wrong_answers:
+  - Elle augmente la valeur des économies.
+  - Elle n'a aucun impact sur les économies.
+  - Elle encourage les gens à économiser davantage.
+explanation: |
+  Pendant une période d'hyperinflation, l'épargne devient un défi. L'argent perd rapidement sa valeur, rendant la planification à long terme difficile. Cette instabilité financière peut causer du stress et de l'anxiété.
+reviewed: false

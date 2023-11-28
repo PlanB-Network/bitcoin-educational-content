@@ -1,0 +1,9 @@
+question: Qual è il concetto di utilità marginale decrescente?
+answer: Ogni unità aggiuntiva di un bene è meno desiderata rispetto a quella precedente.
+wrong_answers:
+  - Ogni unità aggiuntiva di un bene è più desiderata rispetto a quella precedente.
+  - Ogni unità aggiuntiva di un bene è ugualmente desiderata rispetto a quella precedente.
+  - Il desiderio per ogni unità aggiuntiva di un bene fluttua in modo imprevedibile.
+explanation: |
+  Il concetto di utilità marginale decrescente afferma che ogni unità aggiuntiva di un bene è meno desiderata rispetto a quella precedente. Ciò accade perché, man mano che un individuo acquisisce più di un bene, ogni unità aggiuntiva di quel bene fornisce meno utilità.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is the main reason why a centrally planned economy will inevitably
+  experience capital misallocation?
+answer: There are no market prices or bankruptcies to reveal and correct misallocations.
+wrong_answers:
+  - Central planners are not efficient.
+  - Central planners do not have enough information.
+  - Central planners are not motivated to allocate resources efficiently.
+explanation: |
+  In a centrally planned economy, there are no market prices or bankruptcies
+  to reveal and correct misallocations. As a result, errors will accumulate until
+  the wastefulness becomes apparent through a significant decline in living conditions.
+reviewed: false

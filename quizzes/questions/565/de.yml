@@ -1,0 +1,9 @@
+question: Welchen Einfluss hat eine Erhöhung der Geldmenge auf Inflation und Deflation in einem System mit fester Geldmenge?
+answer: Eine Erhöhung der Geldmenge hebt die potenzielle Deflation auf, die durch eine Steigerung der Produktion verursacht wird.
+wrong_answers:
+  - Eine Erhöhung der Geldmenge führt zu Deflation.
+  - Eine Erhöhung der Geldmenge hat keinen Einfluss auf Inflation oder Deflation.
+  - Eine Erhöhung der Geldmenge führt zu einer Verringerung der Produktion.
+explanation: |
+  Das Kapitel erklärt, dass in einem System mit fester Geldmenge eine Steigerung der Produktion theoretisch zu Deflation führen sollte, d.h. zu einem Rückgang der Preise, da mehr Güter und Dienstleistungen verfügbar wären. In dem aktuellen Fiat-Geldsystem hebt jedoch eine Erhöhung der Geldmenge die potenzielle Deflation auf, die durch eine Steigerung der Produktion verursacht wird.
+reviewed: false

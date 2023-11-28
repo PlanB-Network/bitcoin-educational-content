@@ -6,8 +6,6 @@ description: Come configurare il tuo dispositivo Ledger Nano S
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Portafoglio fisico a freddo - €60 - Principiante - Per proteggere da €2.000 a €50.000
 
 Ledger è la soluzione francese per proteggere i bitcoin in modo semplice.

@@ -1,0 +1,9 @@
+question: Quel est le but du Timelock dans une transaction d'engagement ?
+answer: Il verrouille les fonds jusqu'à un certain bloc.
+wrong_answers:
+  - Il verrouille la transaction jusqu'à un certain bloc.
+  - Il verrouille le canal jusqu'à un certain bloc.
+  - Il verrouille la clé de révocation jusqu'à un certain bloc.
+explanation: |
+  Le Timelock dans une transaction d'engagement verrouille les fonds jusqu'à un certain bloc. Cela empêche la partie qui a créé la transaction de récupérer immédiatement son argent.
+reviewed: false

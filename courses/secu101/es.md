@@ -16,12 +16,9 @@ Esto se traducirá en la implementación de varias herramientas, como un correo 
 En esta formación, no buscamos convertirlos en expertos, anónimos o invulnerables, ya que esto es imposible. En su lugar, les ofrecemos algunas soluciones simples y accesibles para todos, con el fin de comenzar una transformación de sus hábitos en línea y recuperar el control de su soberanía digital.
 
 Equipo de colaboradores:
-
-- Renaud Lifchitz; profesor
-- Théo Pantamis; profesor
-- Muriel; diseño
-- Rogzy Noury y Fabian; producción
-- Théo; contribución
+Muriel; diseño
+Rogzy Noury y Fabian; producción
+Théo; contribución
 
 +++
 

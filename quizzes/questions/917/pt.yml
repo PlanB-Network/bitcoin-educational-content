@@ -1,0 +1,9 @@
+question: O que é cherry-picking no contexto da economia?
+answer: Cherry-picking envolve escolher seletivamente dados para estabelecer relações entre variáveis.
+wrong_answers:
+  - Cherry-picking envolve ignorar todos os dados e confiar apenas em hipóteses.
+  - Cherry-picking envolve usar todos os dados disponíveis sem qualquer seleção.
+  - Cherry-picking envolve usar apenas dados que apoiam as políticas do governo.
+explanation: |
+  Na economia, cherry-picking envolve escolher seletivamente dados para estabelecer relações entre variáveis. É considerado um método não científico e não rigoroso.
+reviewed: false

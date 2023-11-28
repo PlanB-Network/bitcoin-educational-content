@@ -1,0 +1,9 @@
+question: Comment Alice finance-t-elle le canal qu'elle ouvre avec Bob ?
+answer: Elle crée une transaction avec 2 UTXOs en sortie.
+wrong_answers:
+  - Elle envoie de l'argent directement à l'adresse publique de Bob.
+  - Elle crée une transaction avec 1 UTXO en sortie.
+  - Elle demande à Bob de financer le canal.
+explanation: |
+  Pour financer le canal qu'elle ouvre avec Bob, Alice crée une transaction avec 2 UTXOs en sortie ; un vers l'adresse multi-sig 2/2 et un vers l'une de ses adresses de changement.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è lo scopo dei portafogli Bitcoin?
+answer: Per inviare e ricevere bitcoin
+wrong_answers:
+  - Per estrarre bitcoin
+  - Per conservare bitcoin fisici
+  - Per convertire bitcoin in altre valute
+explanation: |
+  I portafogli Bitcoin vengono utilizzati per inviare e ricevere bitcoin. Sono portafogli digitali che conservano le credenziali digitali necessarie per accedere a un indirizzo bitcoin e spendere i bitcoin.
+reviewed: false

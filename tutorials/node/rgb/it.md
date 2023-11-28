@@ -3,8 +3,6 @@ name: RGB
 description: Introduzione e creazione di asset su RGB
 ---
 
-# Una breve introduzione ai protocolli RGB
-
 ![RGB vs Ethereum](assets/0.png)
 
 ## Introduzione

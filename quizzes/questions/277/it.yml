@@ -1,0 +1,9 @@
+question: Qual è la differenza tra trading, investimento e conservazione nel contesto del Bitcoin?
+answer: Il trading coinvolge contratti a breve termine con un alto rischio, l'investimento coinvolge l'acquisto di BTC a breve o medio termine con un rischio limitato e la conservazione coinvolge il mantenimento di BTC a lungo termine con un rischio limitato.
+wrong_answers:
+  - Il trading coinvolge l'acquisto di BTC a lungo termine, l'investimento coinvolge contratti a breve termine con un alto rischio e la conservazione coinvolge il mantenimento di BTC a breve o medio termine con un rischio limitato.
+  - Il trading coinvolge l'acquisto di BTC a breve o medio termine, l'investimento coinvolge contratti a breve termine con un alto rischio e la conservazione coinvolge il mantenimento di BTC a lungo termine con un alto rischio.
+  - Il trading coinvolge l'acquisto di BTC a breve o medio termine, l'investimento coinvolge contratti a breve termine con un alto rischio e la conservazione coinvolge il mantenimento di BTC a lungo termine con un rischio limitato.
+explanation: |
+  Il trading, l'investimento e la conservazione sono tre diverse strategie utilizzate nel mercato del Bitcoin. Il trading coinvolge contratti a breve termine con un alto rischio, l'investimento coinvolge l'acquisto di BTC a breve o medio termine con un rischio limitato e la conservazione coinvolge il mantenimento di BTC a lungo termine con un rischio limitato.
+reviewed: false

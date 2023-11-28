@@ -1,0 +1,9 @@
+question: Qual è il dilemma del prigioniero nel contesto della divisione del lavoro?
+answer: Si tratta di una situazione in cui la collaborazione reciproca porta a guadagni subottimali per gli individui, ma a guadagni massimi per il gruppo.
+wrong_answers:
+  - È una situazione in cui gli individui rifiutano di collaborare, portando a guadagni massimi per il gruppo.
+  - È una situazione in cui gli individui collaborano, portando a guadagni massimi per se stessi ma a guadagni subottimali per il gruppo.
+  - È una situazione in cui gli individui rifiutano di collaborare, portando a guadagni subottimali sia per se stessi che per il gruppo.
+explanation: |
+  Il dilemma del prigioniero è un concetto della teoria dei giochi in cui gli individui hanno un incentivo a scegliere strategie che massimizzano il loro guadagno individuale, indipendentemente dalle strategie scelte dagli altri, anche quando è possibile raggiungere un equilibrio più desiderabile attraverso la coordinazione/collaborazione.
+reviewed: false

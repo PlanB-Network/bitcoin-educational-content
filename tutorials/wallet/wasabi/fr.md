@@ -6,8 +6,6 @@ description: apprenez comment retrouver votre vie privée
 
 ![wasabi](assets/cover.jpeg)
 
-# Wasabi Wallet
-
 Portefeuille Bitcoin open-source, non-custodial et axé sur la confidentialité pour ordinateur de bureau
 https://www.wasabiwallet.io/
 

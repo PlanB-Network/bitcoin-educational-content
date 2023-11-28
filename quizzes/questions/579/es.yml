@@ -1,0 +1,9 @@
+question: ¿Cuál es el umbral para la hiperinflación según la definición de Philip Cagan?
+answer: La inflación mensual supera el 50%.
+wrong_answers:
+  - La inflación mensual supera el 40%.
+  - La inflación mensual supera el 60%.
+  - La inflación mensual supera el 70%.
+explanation: |
+  Según la definición de Philip Cagan, la hiperinflación comienza cuando la inflación mensual supera el 50%.
+reviewed: false

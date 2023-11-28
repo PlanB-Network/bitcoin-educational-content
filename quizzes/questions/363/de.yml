@@ -1,0 +1,9 @@
+question: Welche Plattformen könnte ein paranoider Bitcoiner für nicht-KYC-Käufe zwischen Einzelpersonen verwenden?
+answer: Peach, Robosats, Bisq, HodlHodl
+wrong_answers:
+  - Coinbase, Binance, Kraken
+  - PayPal, Venmo, Cash App
+  - Kreditkarte, Banküberweisung, Bargeld
+explanation: |
+  Im Kapitel werden Peach, Robosats, Bisq und HodlHodl als Plattformen erwähnt, die ein paranoider Bitcoiner für nicht-KYC-Käufe zwischen Einzelpersonen verwenden könnte.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è l'obiettivo principale di un accumulatore di Bitcoin?
+answer: Accumulare il maggior numero possibile di satoshi
+wrong_answers:
+  - Accumulare il maggior numero possibile di bitcoin
+  - Vendere beni o servizi in Bitcoin
+  - Acquistare Bitcoin direttamente in contanti con amici o membri della comunità Bitcoin
+explanation: |
+  L'obiettivo principale di un accumulatore di Bitcoin è accumulare il maggior numero possibile di satoshi. Questo viene raggiunto attraverso l'implementazione di un piano di Dollar-Cost Averaging (DCA) e la ricerca di altre soluzioni per accumulare satoshi.
+reviewed: false

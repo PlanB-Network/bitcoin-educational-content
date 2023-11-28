@@ -1,0 +1,9 @@
+question: Quel est l'impact de l'hyperinflation sur la valeur de l'argent?
+answer: Elle fait perdre rapidement de sa valeur à l'argent.
+wrong_answers:
+  - Elle fait augmenter la valeur de l'argent.
+  - Elle n'a aucun impact sur la valeur de l'argent.
+  - Elle fait fluctuer de manière imprévisible la valeur de l'argent.
+explanation: |
+  En période d'hyperinflation, l'argent perd rapidement de sa valeur, rendant ainsi la planification à long terme difficile.
+reviewed: false

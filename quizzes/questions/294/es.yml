@@ -1,0 +1,11 @@
+question: ¿Cuáles son las dos ideologías opuestas en el mundo de Bitcoin?
+answer: Incluir a los no bancarizados en el sistema bancario y sacar a los bancarizados del sistema.
+wrong_answers:
+  - Hacer que todos sean ricos y hacer que todos sean pobres.
+  - Centralizar el poder y descentralizar el poder.
+  - Promover la privacidad y promover la transparencia.
+explanation: |
+  El capítulo menciona dos ideologías opuestas en el mundo de Bitcoin.
+  Una es incluir a miles de millones de personas que no están en el sistema bancario en él.
+  La otra es sacar a miles de millones de personas que están en el sistema bancario de él.
+reviewed: false

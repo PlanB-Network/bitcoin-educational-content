@@ -1,0 +1,10 @@
+question: What is the mindset of a paranoid Bitcoiner when it comes to using Bitcoin?
+answer: Caution, security, and anonymity are paramount
+wrong_answers:
+  - Trust, openness, and transparency are paramount
+  - Risk-taking, trust, and openness are paramount
+  - Ignorance, trust, and transparency are paramount
+explanation: |
+  The chapter describes the mindset of a paranoid Bitcoiner as one where
+  caution, security, and anonymity are paramount.
+reviewed: false

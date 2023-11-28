@@ -1,0 +1,9 @@
+question: Was bedeutet es, wenn der Kaufpreis schneller sinkt als der Verkaufspreis?
+answer: Es bedeutet, dass der Verkäufer einen Gewinn erzielt, da er seine Waren oder Dienstleistungen zu einem höheren Preis verkaufen kann, als er sie gekauft hat.
+wrong_answers:
+  - Es bedeutet, dass der Verkäufer einen Verlust erleidet, da er seine Waren oder Dienstleistungen zu einem niedrigeren Preis verkauft, als er sie gekauft hat.
+  - Es bedeutet, dass der Käufer einen Gewinn erzielt, da er Waren oder Dienstleistungen zu einem niedrigeren Preis kaufen kann, als er sie verkauft.
+  - Es bedeutet, dass der Käufer einen Verlust erleidet, da er Waren oder Dienstleistungen zu einem höheren Preis kauft, als er sie verkauft.
+explanation: |
+  Wenn der Kaufpreis schneller sinkt als der Verkaufspreis, bedeutet dies, dass der Verkäufer einen Gewinn erzielt. Dies liegt daran, dass er seine Waren oder Dienstleistungen zu einem höheren Preis verkaufen kann, als er sie gekauft hat.
+reviewed: false

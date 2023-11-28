@@ -1,0 +1,9 @@
+question: Quelle est la différence entre l'inflation par demande et l'inflation par coûts ?
+answer: L'inflation par demande est une situation où la demande dans l'économie dépasse la production disponible, tandis que l'inflation par coûts est attribuée à l'augmentation des coûts de production.
+wrong_answers:
+  - L'inflation par demande est attribuée à l'augmentation des coûts de production, tandis que l'inflation par coûts est une situation où la demande dans l'économie dépasse la production disponible.
+  - L'inflation par demande et l'inflation par coûts sont identiques, les deux font référence à une situation où la demande dans l'économie dépasse la production disponible.
+  - L'inflation par demande et l'inflation par coûts sont identiques, les deux font référence à l'augmentation des coûts de production.
+explanation: |
+  Le chapitre explique que l'inflation par demande est souvent expliquée comme une situation où la demande dans l'économie dépasse la production disponible. D'autre part, l'inflation par coûts est attribuée à l'augmentation des coûts de production.
+reviewed: false

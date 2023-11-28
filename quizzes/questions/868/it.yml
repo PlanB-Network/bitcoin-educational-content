@@ -1,0 +1,9 @@
+question: Cos'è il sistema bancario a riserva frazionaria?
+answer: Il sistema bancario a riserva frazionaria è una pratica bancaria in cui le banche non sono tenute a mantenere un numero di riserve pari a quello dei depositi ricevuti, permettendo loro di creare nuova capacità di acquisto quando concedono prestiti.
+wrong_answers:
+  - Il sistema bancario a riserva frazionaria è una pratica bancaria in cui le banche sono tenute a mantenere più riserve di quelle ricevute in deposito.
+  - Il sistema bancario a riserva frazionaria è una pratica bancaria in cui alle banche non è permesso concedere prestiti.
+  - Il sistema bancario a riserva frazionaria è una pratica bancaria in cui le banche sono tenute a mantenere esattamente lo stesso importo di riserve dei depositi ricevuti.
+explanation: |
+  Il sistema bancario a riserva frazionaria è un sistema in cui le banche mantengono solo una frazione dei fondi dei depositanti in riserva, prestando il resto. Questo sistema consente alle banche di creare nuova moneta sotto forma di prestiti, aumentando l'offerta complessiva di denaro nell'economia.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é o critério de Kagan para hiperinflação?
+answer: Uma taxa de inflação de 50% por mês.
+wrong_answers:
+  - Uma taxa de inflação de 50% por ano.
+  - Uma taxa de inflação de 25% por mês.
+  - Uma taxa de inflação de 25% por ano.
+explanation: |
+  O critério de Kagan define hiperinflação como uma taxa de inflação de 50% por mês. Esse critério às vezes pode levar a interpretações ambíguas, com anos apresentando altas taxas de inflação, mas não atendendo à definição estrita de hiperinflação.
+reviewed: false

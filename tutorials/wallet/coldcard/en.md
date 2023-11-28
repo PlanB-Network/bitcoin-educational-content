@@ -6,8 +6,6 @@ description: Creating, backing up, and using a Bitcoin private key with a Coldca
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core
 
 ## Complete guide to generating a private key using a Coldcard and using it through the interface of your Bitcoin Core node!

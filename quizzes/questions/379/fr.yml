@@ -1,0 +1,9 @@
+question: Quel est le but de l'authentification à deux facteurs (2FA) dans Bitcoin?
+answer: Pour renforcer la sécurité des transactions Bitcoin.
+wrong_answers:
+  - Pour miner de nouveaux Bitcoins.
+  - Pour échanger des Bitcoins.
+  - Pour convertir des Bitcoins en d'autres cryptomonnaies.
+explanation: |
+  L'authentification à deux facteurs (2FA) est une méthode permettant de confirmer l'identité revendiquée d'un utilisateur en utilisant quelque chose qu'il sait (mot de passe) et un deuxième facteur autre que quelque chose qu'il possède ou quelque chose qu'il est. Elle est utilisée pour renforcer la sécurité des transactions Bitcoin.
+reviewed: false

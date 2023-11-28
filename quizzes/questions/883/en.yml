@@ -1,0 +1,11 @@
+question: What is the solution to the problem of direct exchange in division of labor?
+answer: Indirect exchange facilitated by money.
+wrong_answers:
+  - Direct exchange facilitated by barter.
+  - Indirect exchange facilitated by barter.
+  - Direct exchange facilitated by money.
+explanation: |
+  Money allows for indirect exchange, where an individual can buy from
+  another, and the seller can use that monetary unit elsewhere, at another time, and
+  with someone else.
+reviewed: false

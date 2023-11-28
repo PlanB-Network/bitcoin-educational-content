@@ -1,0 +1,9 @@
+question: Qual è la caratteristica principale di un portafoglio DIY (Do It Yourself)?
+answer: È una soluzione open source al 100% che può essere creata a casa per ridurre i rischi di fiducia verso gli altri attori nella catena di produzione o creazione.
+wrong_answers:
+  - È un dispositivo hardware per conservare bitcoin
+  - È un software per il mining di bitcoin
+  - È una piattaforma per comprare e vendere bitcoin
+explanation: |
+  Il contenuto del capitolo spiega che i portafogli DIY (Do It Yourself) sono soluzioni open source al 100% che possono essere create a casa per ridurre i rischi di fiducia verso gli altri attori nella catena di produzione o creazione.
+reviewed: false

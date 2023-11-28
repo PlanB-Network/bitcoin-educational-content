@@ -1,0 +1,9 @@
+question: O que é uma carteira no contexto do Bitcoin?
+answer: Um cofre digital para seus bitcoins
+wrong_answers:
+  - Um dispositivo físico para armazenar bitcoins
+  - Um software para minerar bitcoins
+  - Uma plataforma para comprar e vender bitcoins
+explanation: |
+  O conteúdo do capítulo explica que os bitcoins são armazenados em algo chamado de "carteira", que é um cofre digital para o seu dinheiro. Apenas o detentor da chave pode acessá-lo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quels sont les portefeuilles que pourrait utiliser un Bitcoiner paranoïaque ?
+answer: Portefeuille Samourai pour le portefeuille en ligne, Coldcard et/ou Seed Signer pour le portefeuille hors ligne
+wrong_answers:
+  - Portefeuille Coinbase pour le portefeuille en ligne, Ledger pour le portefeuille hors ligne
+  - Portefeuille Binance pour le portefeuille en ligne, Trezor pour le portefeuille hors ligne
+  - PayPal pour le portefeuille en ligne, compte bancaire pour le portefeuille hors ligne
+explanation: |
+  Le chapitre mentionne le portefeuille Samourai pour le portefeuille en ligne et Coldcard et/ou Seed Signer pour le portefeuille hors ligne comme des portefeuilles que pourrait utiliser un Bitcoiner paranoïaque.
+reviewed: false

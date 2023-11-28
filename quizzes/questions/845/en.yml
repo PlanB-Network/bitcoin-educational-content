@@ -1,0 +1,12 @@
+question: What are some of the programming languages used in cybersecurity?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  The chapter lists Python, C, and Java as some of the programming languages
+
+
+  used in cybersecurity.'''
+reviewed: false

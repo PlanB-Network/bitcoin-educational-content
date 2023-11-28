@@ -1,0 +1,4 @@
+description: |
+  Nós criamos o Rigly para que todos possam desfrutar da mineração de bitcoin. Nos primeiros dias do bitcoin, todos podiam minerar bitcoin em seus computadores. Com o tempo, o bitcoin cresceu e hardware especializado - GPUs, depois FPGAs e agora ASICs - se tornaram necessários para a mineração. Hoje em dia, as máquinas de mineração ASIC requerem um investimento e gerenciamento significativos, e muitas vezes são instaladas próximas a usinas de energia. O Rigly permite que você compre taxa de hash desses mineradores e participe da mineração.
+contributors:
+  - rabbit-hole

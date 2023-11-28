@@ -1,0 +1,9 @@
+question: Was ist der Zweck eines Bitcoin-Knotens im Kontext des Lightning-Netzwerks?
+answer: Um die neuen Aspekte von Bitcoin zu verstehen und zu erkunden, die durch das Lightning-Netzwerk ermöglicht werden.
+wrong_answers:
+  - Um neue Bitcoins zu schürfen.
+  - Um Bitcoins zu handeln.
+  - Um Bitcoins zu speichern.
+explanation: |
+  Ein Bitcoin-Knoten im Kontext des Lightning-Netzwerks wird verwendet, um die neuen Aspekte von Bitcoin zu verstehen und zu erkunden, die durch das Lightning-Netzwerk ermöglicht werden. Er schürft keine neuen Bitcoins, handelt nicht mit Bitcoins und speichert keine Bitcoins.
+reviewed: false

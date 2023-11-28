@@ -1,0 +1,9 @@
+question: ¿Cuál es una estafa común relacionada con concursos en línea o donaciones en el sector de las criptomonedas?
+answer: Anuncios que prometen bitcoins gratis.
+wrong_answers:
+  - Anuncios que prometen bienes físicos.
+  - Anuncios que prometen moneda fiduciaria gratis.
+  - Anuncios que prometen software gratuito.
+explanation: |
+  Las estafas relacionadas con concursos en línea o donaciones son muy comunes en el sector de las criptomonedas. A menudo se utilizan anuncios que prometen bitcoins gratis para engañar a usuarios inexpertos.
+reviewed: false

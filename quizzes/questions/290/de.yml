@@ -1,0 +1,9 @@
+question: Was ist die Bedeutung der Knappheit von Bitcoin?
+answer: Es wird nur 21 Millionen Bitcoins auf der Welt geben und niemals mehr.
+wrong_answers:
+  - Der Wert von Bitcoin wird immer steigen
+  - Bitcoin ist schwer abzubauen
+  - Bitcoin-Transaktionen sind begrenzt in der Anzahl
+explanation: |
+  Die Knappheit von Bitcoin bezieht sich darauf, dass es nur 21 Millionen Bitcoins geben wird. Diese Eigenschaft, ähnlich wie bei Gold, verhindert die Verwässerung des Wertes von Bitcoin durch übermäßiges Gelddrucken.
+reviewed: false

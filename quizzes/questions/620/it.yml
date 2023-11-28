@@ -1,0 +1,10 @@
+question: Qual è la soglia ufficiale per considerare un paese in iperinflazione?
+answer: 50% al mese
+wrong_answers:
+  - 10% al mese
+  - 25% al mese
+  - 75% al mese
+explanation: |
+  Nel 2007, il tasso di inflazione dello Zimbabwe ha raggiunto la soglia del 50% al mese,
+  marcando ufficialmente il paese come in iperinflazione.
+reviewed: false

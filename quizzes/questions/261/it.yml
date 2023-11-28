@@ -1,0 +1,9 @@
+question: Qual è un esempio significativo di una hard fork di Bitcoin?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Bitcoin ha subito diverse hard fork nel corso del tempo, dando origine a varie versioni alternative della valuta originale. Esempi significativi di queste deviazioni includono Bitcoin Cash (BCH) e Bitcoin Satoshi Vision (BSV).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die österreichische Theorie des Konjunkturzyklus?
+answer: Die österreichische Theorie des Konjunkturzyklus ist eine Theorie, die wirtschaftliche Zyklen als endogene Dynamik des Systems der teilweisen Reservebanken erklärt. Sie betont die sequenzielle Natur menschlichen Handelns und die Auswirkungen von Zinsschwankungen auf die intertemporale Koordination der Wirtschaftssubjekte.
+wrong_answers:
+  - Die österreichische Theorie des Konjunkturzyklus ist eine Theorie, die wirtschaftliche Zyklen als Ergebnis externer Ereignisse und animalischer Instinkte erklärt.
+  - Die österreichische Theorie des Konjunkturzyklus ist eine Theorie, die wirtschaftliche Zyklen als Ergebnis von Veränderungen in der aggregierten Nachfrage und dem Angebot erklärt.
+  - Die österreichische Theorie des Konjunkturzyklus ist eine Theorie, die wirtschaftliche Zyklen als Ergebnis von Veränderungen in Beschäftigungsniveaus, dem BIP oder dem Verbraucherpreisindex erklärt.
+explanation: |
+  Die österreichische Theorie des Konjunkturzyklus, entwickelt von Ludwig von Mises und Friedrich Hayek, erklärt wirtschaftliche Zyklen als endogene Dynamik des Systems der teilweisen Reservebanken. Sie betont die sequenzielle Natur menschlichen Handelns und die Auswirkungen von Zinsschwankungen auf die intertemporale Koordination der Wirtschaftssubjekte.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué sucede cuando hay una disminución en las tasas de interés debido a un aumento en el ahorro según la Teoría Austriaca del Ciclo Económico?
+answer: La cantidad de bienes finales consumidos disminuirá, las tasas de interés caerán, los empresarios utilizarán este flujo de capital para crear nuevos bienes de inversión y, por lo tanto, alargarán la estructura de producción.
+wrong_answers:
+  - La cantidad de bienes finales consumidos aumentará, las tasas de interés subirán, los empresarios utilizarán este flujo de capital para crear nuevos bienes de inversión y, por lo tanto, acortarán la estructura de producción.
+  - La cantidad de bienes finales consumidos disminuirá, las tasas de interés subirán, los empresarios utilizarán este flujo de capital para crear nuevos bienes de inversión y, por lo tanto, acortarán la estructura de producción.
+  - La cantidad de bienes finales consumidos aumentará, las tasas de interés caerán, los empresarios utilizarán este flujo de capital para crear nuevos bienes de inversión y, por lo tanto, acortarán la estructura de producción.
+explanation: |
+  Según la Teoría Austriaca del Ciclo Económico, cuando hay una disminución en las tasas de interés debido a un aumento en el ahorro, la cantidad de bienes finales consumidos disminuirá, ya que el ahorro implica posponer parte del consumo para una fecha posterior. Como resultado, las tasas de interés caerán porque la oferta de capital está aumentando. Esto permite a los empresarios utilizar este flujo de capital para crear nuevos bienes de inversión y, por lo tanto, alargar la estructura de producción.
+reviewed: false

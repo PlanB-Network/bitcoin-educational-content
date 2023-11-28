@@ -1,0 +1,9 @@
+question: ¿Cuál es la consecuencia de una disminución en las tasas de interés debido a un aumento en el crédito según la Teoría Austriaca del Ciclo Económico?
+answer: La economía entra en recesión; los precios de los activos caen, los salarios reales disminuyen, los precios al consumidor caen y se acumulan inventarios.
+wrong_answers:
+  - La economía entra en auge; los precios de los activos aumentan, los salarios reales aumentan, los precios al consumidor aumentan y los inventarios disminuyen.
+  - La economía entra en estancamiento; los precios de los activos se mantienen iguales, los salarios reales se mantienen iguales, los precios al consumidor se mantienen iguales y los inventarios se mantienen iguales.
+  - La economía entra en deflación; los precios de los activos caen, los salarios reales aumentan, los precios al consumidor caen y los inventarios aumentan.
+explanation: |
+  Según la Teoría Austriaca del Ciclo Económico, cuando hay una disminución en las tasas de interés debido a un aumento en el crédito, la economía entra en recesión; los precios de los activos caen, los salarios reales disminuyen, los precios al consumidor caen y se acumulan inventarios. Esto se debe a que la disminución en las tasas de interés conduce a una mala asignación de capital, lo que eventualmente resulta en una recesión.
+reviewed: false

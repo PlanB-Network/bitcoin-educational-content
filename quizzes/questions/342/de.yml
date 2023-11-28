@@ -1,0 +1,9 @@
+question: Was ist ein Satoshi im Zusammenhang mit Bitcoin?
+answer: Die kleinste Einheit von Bitcoin
+wrong_answers:
+  - Eine Art von Bitcoin-Wallet
+  - Eine Methode zum Kauf von Bitcoin
+  - Eine Bitcoin-Austauschplattform
+explanation: |
+  Im Zusammenhang mit Bitcoin ist ein Satoshi (oder SAT) die kleinste Einheit von Bitcoin. Bitcoin-Anleger streben danach, so viele Satoshis wie möglich anzusammeln.
+reviewed: false

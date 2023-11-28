@@ -1,0 +1,9 @@
+question: Was ist eines der grundlegenden Axiome in der österreichischen Wirtschaftstheorie?
+answer: Eines der grundlegenden Axiome ist die positive Zeitpräferenz, die auf individuellen Entscheidungen über Güter oder Dienstleistungen heute anstatt morgen basiert.
+wrong_answers:
+  - Eines der grundlegenden Axiome ist die willkürliche Festlegung von Zinssätzen.
+  - Eines der grundlegenden Axiome ist die Abhängigkeit von empirischen Daten.
+  - Eines der grundlegenden Axiome ist die Verwendung temporärer Experimente zur Bestätigung oder Widerlegung von Hypothesen.
+explanation: |
+  In der österreichischen Wirtschaftstheorie basiert eines der grundlegenden Axiome auf der positiven Zeitpräferenz, die auf individuellen Entscheidungen über Güter oder Dienstleistungen heute anstatt morgen beruht, aufgrund der Unsicherheit über die Zukunft.
+reviewed: false

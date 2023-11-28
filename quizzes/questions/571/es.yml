@@ -1,0 +1,9 @@
+question: ¿Cuál es la diferencia entre la inflación por Demanda y la inflación por Costos?
+answer: La inflación por Demanda es una situación en la que la demanda en la economía supera la producción disponible, mientras que la inflación por Costos se atribuye al aumento en los costos de producción.
+wrong_answers:
+  - La inflación por Demanda se atribuye al aumento en los costos de producción, mientras que la inflación por Costos es una situación en la que la demanda en la economía supera la producción disponible.
+  - La inflación por Demanda y la inflación por Costos son lo mismo, ambos se refieren a una situación en la que la demanda en la economía supera la producción disponible.
+  - La inflación por Demanda y la inflación por Costos son lo mismo, ambos se refieren al aumento en los costos de producción.
+explanation: |
+  El capítulo explica que la inflación por Demanda a menudo se explica como una situación en la que la demanda en la economía supera la producción disponible. Por otro lado, la inflación por Costos se atribuye al aumento en los costos de producción.
+reviewed: false

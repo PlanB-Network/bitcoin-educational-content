@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck der Verwendung von Tools wie Signal, Tor und ProtonMail?
+answer: Den Wert und den Schutz Ihrer Privatsphäre zu schätzen.
+wrong_answers:
+  - Um Ihre Internetverbindung zu beschleunigen.
+  - Um Ihren Computer vor Viren zu schützen.
+  - Um kostenlosen Zugang zu kostenpflichtigen Diensten bereitzustellen.
+explanation: |
+  Tools wie Signal, Tor und ProtonMail werden verwendet, um den Wert und den Schutz Ihrer Privatsphäre zu schätzen. Sie sind Teil der Maßnahmen zur Verbesserung der Online-Sicherheitsgewohnheiten.
+reviewed: false

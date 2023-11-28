@@ -1,0 +1,9 @@
+question: Qual è il principale vantaggio nell'utilizzare un gestore di password secondo il capitolo?
+answer: Ti aiuta a non utilizzare mai la stessa password due volte
+wrong_answers:
+  - Ti aiuta a ricordare i tuoi nomi utente
+  - Protegge il tuo computer dai virus
+  - Genera password casuali
+explanation: |
+  Secondo il capitolo, un gestore di password ti aiuta a non utilizzare mai la stessa password due volte, a scegliere password complesse e sicure e facilita la gestione della tua sicurezza online.
+reviewed: false

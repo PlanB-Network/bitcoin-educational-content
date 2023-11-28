@@ -1,0 +1,9 @@
+question: Was ist ein häufiger Betrug im Bereich der finanziellen Investition?
+answer: Pyramidensysteme.
+wrong_answers:
+  - Verkauf von physischen Gütern.
+  - Verkauf von Softwareprodukten.
+  - Verkauf von Fiat-Währung.
+explanation: |
+  Im Bereich der finanziellen Investitionen sind Pyramidensysteme und Ponzi-Systeme als illegale Modelle bekannt. Sie funktionieren, indem sie das Geld neuer Investoren verwenden, um ältere Teilnehmer auszuzahlen.
+reviewed: false

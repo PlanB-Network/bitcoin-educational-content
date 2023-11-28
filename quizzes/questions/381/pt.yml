@@ -1,0 +1,9 @@
+question: Qual é o objetivo de um gerenciador de senhas no Bitcoin?
+answer: Armazenar e gerenciar com segurança senhas para transações de Bitcoin.
+wrong_answers:
+  - Para minerar novos Bitcoins.
+  - Para negociar Bitcoins.
+  - Para converter Bitcoins em outras criptomoedas.
+explanation: |
+  Um gerenciador de senhas é um aplicativo de software usado para armazenar e gerenciar as senhas de várias contas online de uma pessoa. No contexto do Bitcoin, ele é usado para armazenar e gerenciar com segurança as senhas para transações de Bitcoin.
+reviewed: false

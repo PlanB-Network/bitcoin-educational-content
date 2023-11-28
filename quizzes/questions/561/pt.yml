@@ -1,0 +1,9 @@
+question: Qual foi a estratégia utilizada pela Espanha para desvalorizar sua moeda sem afetar sua posição no comércio internacional?
+answer: A Espanha desvalorizou seletivamente o Maravedi, uma moeda local, enquanto preservava o valor do dólar espanhol no cenário global.
+wrong_answers:
+  - A Espanha desvalorizou seletivamente o dólar espanhol, uma moeda local, enquanto preservava o valor do Maravedi no cenário global.
+  - A Espanha aumentou seletivamente o valor do Maravedi, uma moeda local, enquanto preservava o valor do dólar espanhol no cenário global.
+  - A Espanha aumentou seletivamente o valor do dólar espanhol, uma moeda local, enquanto preservava o valor do Maravedi no cenário global.
+explanation: |
+  A Espanha se viu em uma situação delicada. Diluir o dólar espanhol comprometeria sua posição no comércio internacional. Para superar esse dilema, a Espanha recorreu ao Maravedi, uma moeda de cobre usada principalmente pela população local. Essa moeda foi alvo de desvalorização.
+reviewed: false

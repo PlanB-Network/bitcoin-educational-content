@@ -6,10 +6,6 @@ description: Configuración y uso del Trezor modelo One
 
 ![cover](assets/cover.jpeg)
 
-# Trezor modelo ONE
-
-Trezor modelo One
-
 Billetera física en frío: 60€ - Principiante - Seguridad entre 2 000€ y 50 000€.
 
 Como billetera física en frío, Trezor es ideal para comenzar en Bitcoin. Es fácil de usar, no demasiado caro y funcional.

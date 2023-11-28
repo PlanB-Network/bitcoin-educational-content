@@ -1,0 +1,9 @@
+question: Que se passe-t-il avec les fonds lors d'un transfert sur le réseau Lightning ?
+answer: Les fonds ne bougent jamais, mais le solde final est mis à jour.
+wrong_answers:
+  - Les fonds sont transférés d'un côté à l'autre.
+  - Les fonds sont verrouillés jusqu'à la fermeture du canal.
+  - Les fonds sont envoyés sur le réseau Bitcoin.
+explanation: |
+  Lors d'un transfert sur le réseau Lightning, les fonds ne bougent jamais. Au lieu de cela, le solde final est mis à jour via une transaction signée mais non publiée sur la chaîne.
+reviewed: false

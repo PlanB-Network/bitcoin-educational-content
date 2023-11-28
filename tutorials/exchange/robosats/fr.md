@@ -6,8 +6,6 @@ description: Comment utiliser Robosats
 
 ![cover](assets/cover.jpeg)
 
-# Robosats
-
 RoboSats (https://learn.robosats.com/) est un moyen facile d'échanger privément des Bitcoins contre des devises nationales. Il simplifie l'expérience pair-à-pair et utilise des factures Lightning pour minimiser les exigences de garde et de confiance.
 
 ![video](https://youtu.be/XW_wzRz_BDI)

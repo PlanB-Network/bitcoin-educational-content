@@ -3,8 +3,6 @@ name: Start9
 description: Configura tu nodo Start 9
 ---
 
-# Start9
-
 Start9 es un servidor personal y un nodo de Bitcoin.
 Más contenido próximamente
 

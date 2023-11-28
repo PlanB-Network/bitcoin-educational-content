@@ -1,0 +1,10 @@
+question: Wofür steht 2FA?
+answer: Zwei-Faktor-Authentifizierung
+wrong_answers:
+  - Zwei-Faktor-Autorisierung
+  - Zwei-Funktions-Authentifizierung
+  - Zwei-Merkmal-Authentifizierung
+explanation: |
+  2FA steht für Zwei-Faktor-Authentifizierung. Es bietet eine zusätzliche
+  Sicherheitsebene für Ihre sensibelsten Konten.
+reviewed: false

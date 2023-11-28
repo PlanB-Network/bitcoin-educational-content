@@ -1,0 +1,9 @@
+question: ¿Cuál es el concepto de la utilidad marginal decreciente?
+answer: Cada unidad adicional de un bien es menos deseada que la anterior.
+wrong_answers:
+  - Cada unidad adicional de un bien es más deseada que la anterior.
+  - Cada unidad adicional de un bien es igualmente deseada que la anterior.
+  - El deseo por cada unidad adicional de un bien fluctúa de manera impredecible.
+explanation: |
+  El concepto de la utilidad marginal decreciente establece que cada unidad adicional de un bien es menos deseada que la anterior. Esto se debe a que a medida que una persona adquiere más de un bien, cada unidad adicional de ese bien proporciona menos utilidad.
+reviewed: false

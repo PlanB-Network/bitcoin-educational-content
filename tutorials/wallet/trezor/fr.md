@@ -6,10 +6,6 @@ description: Configuration et utilisation du Trezor modèle One
 
 ![cover](assets/cover.jpeg)
 
-# Trezor modèle ONE
-
-Trezor modèle One
-
 Portefeuille matériel froid - 60€ - Débutant - Sécurise entre 2 000€ et 50 000€.
 
 En tant que portefeuille physique froid, le Trezor est idéal pour commencer avec Bitcoin. Il est facile à utiliser, pas trop cher et fonctionnel.

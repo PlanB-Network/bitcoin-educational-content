@@ -1,0 +1,12 @@
+question: What are some of the best practices a paranoid Bitcoiner might educate themselves
+  on?
+answer: Coin mixing and UTXO management
+wrong_answers:
+  - How to trust centralized systems
+  - How to share personal information safely
+  - How to use a credit card to purchase Bitcoin online
+explanation: |
+  The chapter mentions that a paranoid Bitcoiner might educate themselves
+  on best practices such as coin mixing and UTXO management as part of their focus
+  on privacy and security.
+reviewed: false

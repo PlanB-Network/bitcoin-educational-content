@@ -1,0 +1,10 @@
+question: What is the rhythm of the Bitcoin network?
+answer: 10 minutes per block
+wrong_answers:
+  - 10 seconds per block
+  - 10 minutes per transaction
+  - 10 seconds per transaction
+explanation: |
+  The rhythm of the Bitcoin network is 10 minutes per block. This is like
+  the heartbeat of the Bitcoin monetary system.
+reviewed: true

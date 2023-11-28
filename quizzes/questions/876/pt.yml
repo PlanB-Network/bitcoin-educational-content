@@ -1,0 +1,9 @@
+question: Qual é o conceito de vantagem absoluta no contexto da divisão do trabalho?
+answer: Um indivíduo possui uma habilidade superior para realizar certas tarefas do que seus pares.
+wrong_answers:
+  - Um indivíduo possui uma habilidade superior para realizar todas as tarefas do que seus pares.
+  - Um indivíduo possui uma habilidade igual para realizar certas tarefas como seus pares.
+  - Um indivíduo possui uma habilidade inferior para realizar certas tarefas do que seus pares.
+explanation: |
+  No contexto da divisão do trabalho, a vantagem absoluta se refere à situação em que um indivíduo possui uma habilidade superior para realizar certas tarefas do que seus pares. Esse indivíduo então tem interesse em se especializar na produção desse bem e, em seguida, trocar o excedente obtido pelos bens que desejam.
+reviewed: false

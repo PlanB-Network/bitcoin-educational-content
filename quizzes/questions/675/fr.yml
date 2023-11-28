@@ -1,0 +1,9 @@
+question: Que se passe-t-il lorsque Alice essaie de tricher en publiant une ancienne transaction d'engagement ?
+answer: Bob utilise la clé de révocation pour punir Alice et prendre tous les SAT du canal.
+wrong_answers:
+  - Alice est récompensée pour son ingéniosité.
+  - Alice et Bob se partagent les SAT du canal.
+  - La transaction est rejetée et rien ne se passe.
+explanation: |
+  Le Lightning Network dispose d'un mécanisme pour empêcher la triche. Si Alice essaie de tricher en publiant une ancienne transaction d'engagement, Bob peut utiliser la clé de révocation pour punir Alice et prendre tous les SAT du canal.
+reviewed: false

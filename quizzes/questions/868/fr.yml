@@ -1,0 +1,9 @@
+question: Qu'est-ce que la banque à réserves fractionnaires ?
+answer: La banque à réserves fractionnaires est une pratique bancaire où les banques ne sont pas tenues de détenir autant de réserves qu'elles reçoivent en dépôts, ce qui leur permet de créer de nouveaux pouvoirs d'achat lorsqu'elles accordent des prêts.
+wrong_answers:
+  - La banque à réserves fractionnaires est une pratique bancaire où les banques sont tenues de détenir plus de réserves qu'elles ne reçoivent en dépôts.
+  - La banque à réserves fractionnaires est une pratique bancaire où les banques ne sont pas autorisées à accorder des prêts.
+  - La banque à réserves fractionnaires est une pratique bancaire où les banques sont tenues de détenir exactement le même montant de réserves qu'elles reçoivent en dépôts.
+explanation: |
+  La banque à réserves fractionnaires est un système dans lequel les banques ne conservent qu'une fraction des fonds de leurs déposants en réserve, prêtant le reste. Ce système permet aux banques de créer de la nouvelle monnaie sous forme de prêts, ce qui augmente l'offre monétaire globale dans l'économie.
+reviewed: false

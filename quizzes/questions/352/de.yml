@@ -1,0 +1,9 @@
+question: Welche Art von Benutzer benötigt wahrscheinlich sowohl eine heiße als auch eine kalte Bitcoin-Wallet?
+answer: Ein Benutzer, der regelmäßig Bitcoin verwendet.
+wrong_answers:
+  - Ein Benutzer, der Bitcoin nur gelegentlich verwendet.
+  - Ein Benutzer, der Bitcoin abbaut.
+  - Ein Benutzer, der nur langfristig in Bitcoin investiert.
+explanation: |
+  Regelmäßige Bitcoin-Benutzer benötigen eine heiße Wallet für tägliche Transaktionen und eine kalte Wallet für sichere Langzeitspeicherung.
+reviewed: false

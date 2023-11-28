@@ -1,0 +1,13 @@
+question: What is the main function of a password manager?
+answer: To store and manage your passwords
+wrong_answers:
+  - To generate random passwords
+  - To remember your usernames
+  - To protect your computer from viruses
+explanation: |
+  A password manager is a software that stores and manages your passwords.
+
+  It helps you never use the same password twice, choose complex and secure passwords,
+
+  and facilitates your online security management.'
+reviewed: false

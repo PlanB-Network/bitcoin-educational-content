@@ -1,0 +1,9 @@
+question: Qual è l'idea principale dietro il concetto del valore temporale del denaro?
+answer: Il tempo ha valore
+wrong_answers:
+  - Il denaro perde valore nel tempo
+  - Il denaro può essere scambiato per tempo
+  - Il tempo può essere scambiato per denaro
+explanation: |
+  L'idea principale dietro il concetto del valore temporale del denaro è che il tempo ha valore. Se qualcuno decide di pagare una cambiale del valore di $100 un mese in anticipo, può ottenerla, ad esempio, per $98 e ricevere i $100 alla scadenza.
+reviewed: false

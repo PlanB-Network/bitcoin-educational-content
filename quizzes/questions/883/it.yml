@@ -1,0 +1,9 @@
+question: Qual è la soluzione al problema dello scambio diretto nella divisione del lavoro?
+answer: Lo scambio indiretto facilitato dal denaro.
+wrong_answers:
+  - Scambio diretto facilitato dal baratto.
+  - Scambio indiretto facilitato dal baratto.
+  - Scambio diretto facilitato dal denaro.
+explanation: |
+  Il denaro permette lo scambio indiretto, dove un individuo può comprare da un altro e il venditore può utilizzare quell'unità monetaria altrove, in un altro momento e con un'altra persona.
+reviewed: false

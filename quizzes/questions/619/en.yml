@@ -1,0 +1,12 @@
+question: What is one of the consequences of dollarization?
+answer: Loss of autonomous monetary policy
+wrong_answers:
+  - Increase in inflation
+  - Increase in money supply
+  - Decrease in public trust
+explanation: |
+  Dollarization can end hyperinflation, but it presents other economic
+  challenges. One of the consequences is the loss of autonomous monetary policy. Without
+  its own currency, a country cannot adjust its monetary policy to respond to internal
+  economic shocks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welchen Einfluss hat der Verbraucherpreisindex (VPI) auf die Messung der Inflation?
+answer: Der VPI kann die tatsächliche Inflation unterschätzen, da er die Entwicklung der Immobilienpreise nicht umfassend berücksichtigt und tatsächliche Preissteigerungen ausgleichen oder verdecken kann.
+wrong_answers:
+  - Der VPI misst die Inflation immer genau.
+  - Der VPI überschätzt die tatsächliche Inflation.
+  - Der VPI hat keinen Einfluss auf die Messung der Inflation.
+explanation: |
+  Das Kapitel erklärt, dass der VPI, der als Hauptindikator für die Inflation verwendet wird, bestimmte Einschränkungen hat. Zum Beispiel berücksichtigt er nicht umfassend die Entwicklung der Immobilienpreise. Außerdem können bestimmte Methoden bei der Berechnung des VPI tatsächliche Preissteigerungen ausgleichen oder verdecken.
+reviewed: false

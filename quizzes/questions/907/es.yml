@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que una economía planificada centralmente inevitablemente experimentará una mala asignación de capital?
+answer: No hay precios de mercado ni quiebras para revelar y corregir las malas asignaciones.
+wrong_answers:
+  - Los planificadores centrales no son eficientes.
+  - Los planificadores centrales no tienen suficiente información.
+  - Los planificadores centrales no están motivados para asignar recursos de manera eficiente.
+explanation: |
+  En una economía planificada centralmente, no hay precios de mercado ni quiebras para revelar y corregir las malas asignaciones. Como resultado, los errores se acumularán hasta que la ineficiencia se haga evidente a través de un importante deterioro en las condiciones de vida.
+reviewed: false

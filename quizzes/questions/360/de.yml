@@ -1,0 +1,9 @@
+question: Welche bewährten Verfahren könnte sich ein paranoider Bitcoin-Nutzer aneignen?
+answer: Coin-Mixing und UTXO-Verwaltung
+wrong_answers:
+  - Wie man zentralisierten Systemen vertraut
+  - Wie man persönliche Informationen sicher teilt
+  - Wie man eine Kreditkarte verwendet, um Bitcoin online zu kaufen
+explanation: |
+  Im Kapitel wird erwähnt, dass sich ein paranoider Bitcoin-Nutzer möglicherweise bewährte Verfahren wie Coin-Mixing und UTXO-Verwaltung aneignen könnte, um sich auf Datenschutz und Sicherheit zu konzentrieren.
+reviewed: false

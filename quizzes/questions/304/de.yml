@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund, warum Regierungen und Zentralbanken die Möglichkeit einer digitalen Version ihrer Fiat-Währung erforschen?
+answer: Um Kontrolle zu gewährleisten und lokale Vorschriften einzuhalten
+wrong_answers:
+  - Um mit Bitcoin zu konkurrieren
+  - Um Datenschutz zu gewährleisten
+  - Um die Massenüberwachung zu erhöhen
+explanation: |
+  Der Inhalt des Kapitels erklärt, dass diese Projekte zwar behaupten, mit Bitcoin zu konkurrieren, aber dennoch zentralisiert bleiben, um Kontrolle zu gewährleisten und lokale Vorschriften einzuhalten.
+reviewed: false

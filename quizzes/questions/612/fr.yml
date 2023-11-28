@@ -1,0 +1,9 @@
+question: Quelle a été la valeur maximale du premier Cordoba au Nicaragua?
+answer: 1 million.
+wrong_answers:
+  - 500 000
+  - 10 millions
+  - 100 millions
+explanation: |
+  Au Nicaragua, le premier Cordoba a atteint une valeur de 1 million. Le deuxième Cordoba a atteint 10 millions.
+reviewed: false

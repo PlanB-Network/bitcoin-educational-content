@@ -1,0 +1,9 @@
+question: ¿Cuántos bitcoins hay en total?
+answer: 21 millones
+wrong_answers:
+  - 21 mil millones
+  - 21 mil
+  - 21 billones
+explanation: |
+  Solo hay 21 millones de bitcoins en total. Este es un aspecto fundamental del diseño de Bitcoin y contribuye a su escasez.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelles sont certaines des meilleures pratiques sur lesquelles un Bitcoiner paranoïaque pourrait se renseigner ?
+answer: Mélange de pièces et gestion des UTXO
+wrong_answers:
+  - Comment faire confiance aux systèmes centralisés
+  - Comment partager des informations personnelles en toute sécurité
+  - Comment utiliser une carte de crédit pour acheter du Bitcoin en ligne
+explanation: |
+  Le chapitre mentionne qu'un Bitcoiner paranoïaque pourrait se renseigner sur les meilleures pratiques telles que le mélange de pièces et la gestion des UTXO dans le cadre de sa préoccupation pour la confidentialité et la sécurité.
+reviewed: false

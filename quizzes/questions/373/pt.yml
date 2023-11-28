@@ -1,0 +1,9 @@
+question: O que você deve fazer depois de escrever a carta de acordo com o capítulo?
+answer: Reveja seu trabalho, faça uma cópia da carta, mantenha ambas as cópias em um envelope, sele-o, assine o lacre e guarde este envelope em um local seguro, mas acessível.
+wrong_answers:
+  - Ignore seu trabalho, faça uma cópia da carta, mantenha ambas as cópias em um envelope, sele-o, assine o lacre e guarde este envelope em um local perigoso, mas inacessível.
+  - Reveja seu trabalho, faça uma cópia da carta, mantenha ambas as cópias em um envelope, abra-o, assine o lacre e guarde este envelope em um local seguro, mas acessível.
+  - Ignore seu trabalho, faça uma cópia da carta, mantenha ambas as cópias em um envelope, abra-o, assine o lacre e guarde este envelope em um local perigoso, mas inacessível.
+explanation: |
+  Após escrever a carta, você deve revisar seu trabalho, fazer uma cópia da carta, manter ambas as cópias em um envelope, selá-lo, assinar o lacre e guardar este envelope em um local seguro e acessível, como sugerido no capítulo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was passiert, wenn es aufgrund einer Kreditzunahme zu einem Rückgang der Zinssätze kommt, gemäß der österreichischen Theorie des Konjunkturzyklus?
+answer: Unternehmer können mehr Ressourcen ausleihen und dadurch höhere Produktionsstufen schaffen. Diese Erweiterung der Produktionsstruktur führt nicht zu einem Rückgang des Konsums, da es keine Verzögerung des Konsums durch die Verbraucher gibt. Mit anderen Worten, das BIP wächst.
+wrong_answers:
+  - Unternehmer können weniger Ressourcen ausleihen und dadurch niedrigere Produktionsstufen schaffen. Diese Erweiterung der Produktionsstruktur führt zu einem Anstieg des Konsums, da es eine Verzögerung des Konsums durch die Verbraucher gibt. Mit anderen Worten, das BIP schrumpft.
+  - Unternehmer können mehr Ressourcen ausleihen und dadurch niedrigere Produktionsstufen schaffen. Diese Erweiterung der Produktionsstruktur führt zu einem Rückgang des Konsums, da es keine Verzögerung des Konsums durch die Verbraucher gibt. Mit anderen Worten, das BIP schrumpft.
+  - Unternehmer können weniger Ressourcen ausleihen und dadurch höhere Produktionsstufen schaffen. Diese Erweiterung der Produktionsstruktur führt zu einem Anstieg des Konsums, da es eine Verzögerung des Konsums durch die Verbraucher gibt. Mit anderen Worten, das BIP wächst.
+explanation: |
+  Gemäß der österreichischen Theorie des Konjunkturzyklus können Unternehmer, wenn es aufgrund einer Kreditzunahme zu einem Rückgang der Zinssätze kommt, mehr Ressourcen ausleihen und dadurch höhere Produktionsstufen schaffen. Diese Erweiterung der Produktionsstruktur führt nicht zu einem Rückgang des Konsums, da es keine Verzögerung des Konsums durch die Verbraucher gibt. Mit anderen Worten, das BIP wächst.
+reviewed: false

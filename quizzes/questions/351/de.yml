@@ -1,0 +1,9 @@
+question: Was ist eine nicht-KYC-Methode zum Kauf oder Verkauf von Bitcoins?
+answer: Verwendung von Peer-to-Peer-Lösungen wie Peach.
+wrong_answers:
+  - Verwendung einer Hot Wallet.
+  - Verwendung einer Cold Wallet.
+  - Verwendung einer Hardware Wallet.
+explanation: |
+  KYC, oder Know Your Customer, ist ein Prozess, den Unternehmen verwenden, um die Identität ihrer Kunden zu überprüfen. Nicht-KYC-Methoden wie Peer-to-Peer-Lösungen ermöglichen es Benutzern, Bitcoins zu kaufen oder zu verkaufen, ohne persönliche Informationen angeben zu müssen.
+reviewed: false

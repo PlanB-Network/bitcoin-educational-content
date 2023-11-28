@@ -1,0 +1,9 @@
+question: Qual é o objetivo principal de uma cold wallet para um usuário frequente de Bitcoin?
+answer: Armazenar bitcoins com segurança a longo prazo.
+wrong_answers:
+  - Enviar e receber bitcoins regularmente para uso diário.
+  - Negociar bitcoins em uma plataforma de câmbio.
+  - Minerar novos bitcoins.
+explanation: |
+  Uma cold wallet é um tipo de carteira de Bitcoin que não está conectada à internet, tornando-a menos vulnerável a hacking e roubo. Geralmente é usada para armazenar bitcoins que não são necessários para transações diárias.
+reviewed: false

@@ -6,8 +6,6 @@ description: Set up your first LN wallet in 1 minutes
 
 ![cover](assets/cover.jpeg)
 
-# Wallet of Satoshi
-
 Wallet of Satoshi (https://www.walletofsatoshi.com/) is a mobile app for iOS and Android that lets you send and receive Lightning payments.
 
 It is a zero-configuration custodial wallet with a focus on simplicity and the best possible user experience. It can be downloaded using the links at walletofsatoshi.com

@@ -6,8 +6,6 @@ description: Setting up your Phoenix wallet
 
 ![phoenix](assets/cover.jpeg)
 
-# Phoenix
-
 Phoenix is a non-custodial lightning wallet created by Acinq, the team behind the Lightning Eclair implementation.
 
 To find their official documentation, refer to their FAQ guide: [https://phoenix.acinq.co/faq](https://phoenix.acinq.co/faq)

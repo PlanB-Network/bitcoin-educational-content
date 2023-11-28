@@ -1,0 +1,9 @@
+question: ¿Cuál fue la solución adoptada por Zimbabwe para contrarrestar la inflación?
+answer: Dolarización
+wrong_answers:
+  - Imprimir más dinero
+  - Introducir una nueva moneda
+  - Disminuir la oferta monetaria
+explanation: |
+  Zimbabwe adoptó la dolarización para contrarrestar la inflación. Esto significa que adoptaron el dólar estadounidense u otras monedas de países vecinos, lo cual evita que el gobierno imprima dinero a voluntad.
+reviewed: false

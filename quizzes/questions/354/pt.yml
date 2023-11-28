@@ -1,0 +1,9 @@
+question: Qual é uma característica de um usuário de Bitcoin que é tecnicamente competente?
+answer: Eles têm um bom entendimento das tecnologias, incluindo carteiras Bitcoin quentes e frias e a Lightning Network.
+wrong_answers:
+  - Eles só usam Bitcoin para investimento de longo prazo.
+  - Eles só usam Bitcoin para transações diárias.
+  - Eles só usam Bitcoin em plataformas de câmbio.
+explanation: |
+  Usuários de Bitcoin tecnicamente competentes entendem as tecnologias envolvidas em transações de Bitcoin, incluindo diferentes tipos de carteiras e a Lightning Network.
+reviewed: false

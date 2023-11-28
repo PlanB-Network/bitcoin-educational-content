@@ -1,0 +1,13 @@
+question: What is the term for a company that continues to operate mainly through
+  low-cost borrowing, despite being insolvent or close to bankruptcy under normal
+  market conditions?
+answer: Zombie company
+wrong_answers:
+  - Ghost company
+  - Vampire company
+  - Phantom company
+explanation: |
+  A zombie company is a company that, under normal market conditions, would
+  be insolvent or close to bankruptcy, but continues to operate mainly through low-cost
+  borrowing.
+reviewed: false

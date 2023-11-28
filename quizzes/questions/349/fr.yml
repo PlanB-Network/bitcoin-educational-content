@@ -1,0 +1,9 @@
+question: Quel est le principal objectif d'un portefeuille froid pour un utilisateur fréquent de Bitcoin ?
+answer: Le principal objectif d'un portefeuille froid pour un utilisateur fréquent de Bitcoin est de stocker en toute sécurité des bitcoins à long terme.
+wrong_answers:
+  - Pour envoyer et recevoir régulièrement des bitcoins pour une utilisation quotidienne.
+  - Pour échanger des bitcoins sur une plateforme d'échange.
+  - Pour miner de nouveaux bitcoins.
+explanation: |
+  Un portefeuille froid est un type de portefeuille Bitcoin qui n'est pas connecté à Internet, ce qui le rend moins vulnérable aux piratages et aux vols. Il est généralement utilisé pour stocker des bitcoins qui ne sont pas nécessaires pour des transactions quotidiennes.
+reviewed: false

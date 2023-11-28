@@ -1,0 +1,11 @@
+question: Which year will the 7th halving happened?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  The 7th halving should happenned in 2036, and the estimated number of bitcoin in
+  circulation will be 20,835,937.5 btc, or 99.22% of the total supply.
+  bitcoins in circulation.
+reviewed: true

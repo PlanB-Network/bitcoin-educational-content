@@ -1,0 +1,9 @@
+question: Laut Carl Menger, was ist die Natur des Wertes?
+answer: Wert ist ein subjektives psychologisches Phänomen innerhalb des Individuums.
+wrong_answers:
+  - Wert ist eine inhärente Eigenschaft von Gütern.
+  - Wert ist ein objektives und messbares Phänomen.
+  - Wert wird durch die Menge an Arbeit bestimmt, die bei der Produktion verwendet wird.
+explanation: |
+  Laut Menger ist Wert ein subjektives psychologisches Phänomen innerhalb des Individuums. Das bedeutet, dass Wert keine inhärente Eigenschaft von Gütern ist, sondern vielmehr aus der Meinung des Individuums über den Nutzen entsteht, den sie aus diesen Gütern ziehen können.
+reviewed: false

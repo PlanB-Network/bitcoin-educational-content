@@ -1,0 +1,13 @@
+question: How does regulation and electricity tariffs influence Bitcoin mining?
+answer: Regulation and electricity tariffs have a significant influence on Bitcoin mining. Miners are constantly searching for low-cost electricity to maximize their profits. Therefore, the high cost of electricity in certain regions does not attract miners to these regions. Miners tend to gravitate towards regions with low electricity tariffs, often in emerging countries or countries with energy surpluses.
+wrong_answers:
+  - Regulation and electricity tariffs influence Bitcoin mining by determining the type of mining machines that can be used.
+  - Regulation and electricity tariffs influence Bitcoin mining by determining the type of mining software that can be used.
+  - Regulation and electricity tariffs influence Bitcoin mining by determining the size of the mining pool that can be formed.
+explanation: |
+  The chapter explains that regulation and electricity tariffs have a
+  significant
+  influence on Bitcoin mining. Miners are constantly searching for low-cost electricity
+  to maximize their profits, and therefore tend to gravitate towards regions with
+  low electricity tariffs.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál fue la reacción del Banco de Inglaterra al pánico bancario de 1796?
+answer: Suspender la convertibilidad de sus billetes de banco en oro
+wrong_answers:
+  - Emitió más billetes de banco
+  - Cerró
+  - Aumentó el valor de sus billetes de banco
+explanation: |
+  Después del pánico bancario de 1796, el Banco de Inglaterra suspendió la convertibilidad de sus billetes de banco en oro para evitar una posible deflación de las reservas de oro. Esta suspensión, inicialmente destinada como una medida temporal, duró un período de dos décadas.
+reviewed: false

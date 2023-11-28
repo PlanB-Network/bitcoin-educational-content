@@ -1,0 +1,9 @@
+question: ¿Cuál es el impacto de un aumento en la oferta monetaria en la inflación y la deflación en un sistema de oferta monetaria fija?
+answer: Un aumento en la oferta monetaria cancela la posible deflación causada por un aumento en la producción.
+wrong_answers:
+  - Un aumento en la oferta monetaria conduce a la deflación.
+  - Un aumento en la oferta monetaria no tiene impacto en la inflación o la deflación.
+  - Un aumento en la oferta monetaria conduce a una disminución en la producción.
+explanation: |
+  El capítulo explica que en un sistema de oferta monetaria fija, un aumento en la producción teóricamente debería conducir a la deflación, es decir, una disminución en los precios, ya que habría más bienes y servicios disponibles. Sin embargo, en el actual sistema monetario fiduciario, un aumento en la oferta monetaria cancela la posible deflación causada por un aumento en la producción.
+reviewed: false

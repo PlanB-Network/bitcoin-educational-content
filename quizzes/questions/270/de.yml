@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil der Verwendung eines VPN?
+answer: Es schützt Ihre Privatsphäre, indem es Ihre IP-Adresse maskiert.
+wrong_answers:
+  - Es beschleunigt Ihre Internetverbindung.
+  - Es ermöglicht kostenlosen Zugriff auf kostenpflichtige Dienste.
+  - Es schützt Ihren Computer vor Viren.
+explanation: |
+  Ein VPN, oder Virtual Private Network, schützt Ihre Privatsphäre, indem es Ihre IP-Adresse maskiert. Obwohl es Sie nicht vollständig anonym macht, ist es dennoch ein einfacher und effektiver Schritt, um Ihre Online-Privatsphäre zu verbessern.
+reviewed: false

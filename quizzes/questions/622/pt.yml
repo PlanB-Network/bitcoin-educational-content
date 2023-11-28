@@ -1,0 +1,9 @@
+question: Qual foi a taxa de câmbio inicial do dólar zimbabuense quando foi introduzido em 1980?
+answer: Dois dólares zimbabuenses valiam cerca de 1,60 dólares americanos.
+wrong_answers:
+  - Um dólar zimbabuense valia cerca de 1 dólar americano.
+  - Um dólar zimbabuense valia cerca de 2 dólares americanos.
+  - Dois dólares zimbabuenses valiam cerca de 2 dólares americanos.
+explanation: |
+  O Zimbábue conquistou sua independência em 1980 e introduziu o dólar zimbabuense. Inicialmente, dois dólares zimbabuenses valiam cerca de 1,60 dólares americanos.
+reviewed: false

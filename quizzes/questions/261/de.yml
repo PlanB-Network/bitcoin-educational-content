@@ -1,0 +1,9 @@
+question: Was ist ein bemerkenswertes Beispiel für eine Bitcoin-Hardfork?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Im Laufe der Zeit hat Bitcoin mehrere Hardforks durchlaufen, was zur Entstehung verschiedener alternativer Versionen der ursprünglichen Währung geführt hat. Bemerkenswerte Beispiele für diese Abweichungen sind Bitcoin Cash (BCH) und Bitcoin Satoshi Vision (BSV).
+reviewed: false

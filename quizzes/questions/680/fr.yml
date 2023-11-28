@@ -1,0 +1,9 @@
+question: Que se passe-t-il lors d'une fermeture forcée si les frais de réseau sont de 1 SAT au moment de la fermeture ?
+answer: La transaction est surpayée de 50 fois.
+wrong_answers:
+  - La transaction est sous-payée de 50 fois.
+  - La transaction est surpayée de 2 fois.
+  - La transaction est sous-payée de 2 fois.
+explanation: |
+  Lors d'une fermeture forcée, le protocole utilise des frais 5 fois plus élevés que ceux en vigueur au moment de la création de la transaction. Si les frais de réseau sont de 1 SAT au moment de la fermeture, la transaction est surpayée de 50 fois.
+reviewed: false

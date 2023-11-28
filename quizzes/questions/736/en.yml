@@ -1,0 +1,11 @@
+question: What happens to the mining reward in the Bitcoin network approximately every four years?
+answer: It undergoes a halving
+wrong_answers:
+  - It doubles
+  - It triples
+  - It remains the same
+explanation: |
+  The mining reward in the Bitcoin network undergoes a halving every 210,000
+  blocks, approximately every four years. This remuneration serves as a powerful incentive
+  to encourage miners to participate in the mining process despite its energy cost.
+reviewed: false

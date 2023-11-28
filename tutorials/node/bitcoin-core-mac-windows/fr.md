@@ -3,8 +3,6 @@ name: Noeud Bitcoin Core (mac & windows)
 description: Installer Bitcoin Core sur Mac ou Windows
 ---
 
-# Installer Bitcoin Core sur Mac ou Windows
-
 Installer Bitcoin Core sur votre ordinateur habituel est possible, mais ce n'est pas idéal. Si vous ne dérange pas de laisser votre ordinateur allumé 24h/24 et 7j/7, cela fonctionnera bien. Si vous avez besoin d'éteindre l'ordinateur, il est ennuyeux d'attendre que le logiciel se synchronise à chaque fois que vous le rallumez.
 
 Ces instructions sont destinées aux utilisateurs de Mac ou de Windows. Les utilisateurs de Linux n'auront probablement pas besoin de mon aide, mais les instructions pour Linux sont très similaires à celles de Mac.

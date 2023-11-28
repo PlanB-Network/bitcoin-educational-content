@@ -1,0 +1,10 @@
+question: O que é o blockchain do Bitcoin?
+answer: Um banco de dados que registra todas as transações de Bitcoin.
+wrong_answers:
+  - Um tipo de moeda digital
+  - Uma rede de usuários de Bitcoin
+  - Um método de mineração de bitcoins
+explanation: |
+  O blockchain do Bitcoin é um banco de dados que registra todas as transações de Bitcoin.
+  Ele é mantido por mineradores que adicionam novas transações ao blockchain.
+reviewed: false

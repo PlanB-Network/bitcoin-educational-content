@@ -1,0 +1,9 @@
+question: Qual é a principal diferença entre o Bitcoin e as altcoins em termos de descentralização?
+answer: O Bitcoin é descentralizado, enquanto a maioria das altcoins não é.
+wrong_answers:
+  - Tanto o Bitcoin quanto as altcoins são descentralizados.
+  - Tanto o Bitcoin quanto as altcoins não são descentralizados.
+  - As altcoins são descentralizadas, enquanto o Bitcoin não é.
+explanation: |
+  O conteúdo do capítulo afirma claramente que o Bitcoin é descentralizado, enquanto a maioria das altcoins não é. Essa é uma característica fundamental que diferencia o Bitcoin de outras criptomoedas.
+reviewed: false

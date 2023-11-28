@@ -6,8 +6,6 @@ description: Portafoglio Bitcoin Semplice e Potente
 
 ![cover](assets/cover.jpeg)
 
-# Blue Wallet - Portafoglio Bitcoin Semplice e Potente
-
 Blue Wallet è un portafoglio Bitcoin open-source estremamente semplice da usare ma allo stesso tempo flessibile.
 
 - Un portafoglio Bitcoin di livello 1 è disponibile gratuitamente in modalità non-custodial.
@@ -19,7 +17,7 @@ Blue Wallet è un portafoglio Bitcoin open-source estremamente semplice da usare
 
 ## BlueWallet: una introduzione
 
-![image](assets/1.jpg)
+![image](assets/1.jpeg)
 
 Per poter ricevere o inviare Bitcoin dal tuo cellulare (o tablet), scarica BlueWallet dal sito corrispondente al tuo tipo di cellulare o tablet:
 

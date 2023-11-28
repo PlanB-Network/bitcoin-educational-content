@@ -1,0 +1,12 @@
+question: What is the purpose of two-factor authentication (2FA) in Bitcoin?
+answer: To enhance the security of Bitcoin transactions.
+wrong_answers:
+  - To mine new Bitcoins.
+  - To trade Bitcoins.
+  - To convert Bitcoins into other cryptocurrencies.
+explanation: |
+  Two-factor authentication (2FA) is a method of confirming a user's claimed
+  identity by utilizing something they know (password) and a second factor other than
+  something they have or something they are. It is used to enhance the security of
+  Bitcoin transactions.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Qual è il limite di bitcoin che ci sarà mai?
+answer: 21 milioni
+wrong_answers:
+  - 100 milioni
+  - 1 miliardo
+  - Nessun limite
+explanation: |
+  Il capitolo afferma che non ci saranno mai più di 21 milioni di bitcoin.
+  Questo limite è stato stabilito nel protocollo Bitcoin da Satoshi e non può essere cambiato oggi.
+reviewed: false

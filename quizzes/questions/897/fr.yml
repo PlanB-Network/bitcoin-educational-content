@@ -1,0 +1,9 @@
+question: Que se passe-t-il lorsqu'il y a une baisse des taux d'intérêt due à une augmentation de l'épargne selon la théorie autrichienne du cycle économique ?
+answer: La quantité de biens finaux consommés diminuera, les taux d'intérêt baisseront, les entrepreneurs utiliseront cet afflux de capital pour créer de nouveaux biens d'investissement et ainsi allonger la structure de production.
+wrong_answers:
+  - La quantité de biens finaux consommés augmentera, les taux d'intérêt augmenteront, les entrepreneurs utiliseront cet afflux de capital pour créer de nouveaux biens d'investissement et ainsi raccourcir la structure de production.
+  - La quantité de biens finaux consommés diminuera, les taux d'intérêt augmenteront, les entrepreneurs utiliseront cet afflux de capital pour créer de nouveaux biens d'investissement et ainsi raccourcir la structure de production.
+  - La quantité de biens finaux consommés augmentera, les taux d'intérêt baisseront, les entrepreneurs utiliseront cet afflux de capital pour créer de nouveaux biens d'investissement et ainsi raccourcir la structure de production.
+explanation: |
+  Selon la théorie autrichienne du cycle économique, lorsqu'il y a une baisse des taux d'intérêt due à une augmentation de l'épargne, la quantité de biens finaux consommés diminuera car l'épargne implique de reporter une partie de sa consommation à une date ultérieure. En conséquence, les taux d'intérêt baisseront car l'offre de capital augmente. Cela permet aux entrepreneurs d'utiliser cet afflux de capital pour créer de nouveaux biens d'investissement et ainsi allonger la structure de production.
+reviewed: false

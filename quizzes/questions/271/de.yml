@@ -1,0 +1,9 @@
+question: Was ist laut dem Kapitel der Hauptgrund für den Verlust von Bitcoins?
+answer: Schlechtes Online-Sicherheitsmanagement
+wrong_answers:
+  - Kryptowährungsbetrug
+  - Finanzbetrug
+  - Computerfehler
+explanation: |
+  Im Kapitel wird erwähnt, dass neben Kryptowährungsbetrug und Finanzbetrug der Hauptgrund für den Verlust von Bitcoins mit schlechtem Online-Sicherheitsmanagement zusammenhängt.
+reviewed: false

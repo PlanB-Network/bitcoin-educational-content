@@ -1,0 +1,15 @@
+question: What is the main difference between the deflation of the 1930s and growth deflation from 1865 to 1896?
+answer: The deflation of the 1930s was a result of a credit bubble burst, while the growth deflation from 1865 to 1896 was due to economic growth and increased productivity.
+wrong_answers:
+  - Both were caused by economic growth and increased productivity.
+  - Both were a result of a credit bubble burst.
+  - The deflation of the 1930s was due to economic growth and increased productivity,
+    while the growth deflation from 1865 to 1896 was a result of a credit bubble burst.
+  - There is no difference between the two.
+explanation: |
+  The deflation of the 1930s was a result of a credit bubble burst, which
+  is a sudden decrease in the availability of credit or a sudden increase in the cost
+  of credit. On the other hand, the growth deflation from 1865 to 1896 was due to
+  economic growth and increased productivity, which led to a decrease in the general
+  price level.
+reviewed: false

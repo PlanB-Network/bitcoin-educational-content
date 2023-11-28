@@ -1,0 +1,11 @@
+question: What was the first form of currency often linked to?
+answer: Essential goods such as grain, livestock, and other commodities
+wrong_answers:
+  - Gold and silver
+  - Paper notes
+  - Digital assets
+explanation: |
+  The first form of currency was often linked to essential goods such as
+  grain, livestock, and other commodities. These goods, however, had major drawbacks,
+  such as perishability, making it difficult to use them as a long-term savings medium.
+reviewed: true

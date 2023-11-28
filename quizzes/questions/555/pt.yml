@@ -1,0 +1,9 @@
+question: Qual é a relação intrínseca entre a expansão monetária e a inflação, conforme afirmado por Milton Friedman?
+answer: A inflação é sempre e em todos os lugares um fenômeno monetário.
+wrong_answers:
+  - A inflação é sempre e em todos os lugares um fenômeno fiscal.
+  - A inflação é sempre e em todos os lugares um fenômeno político.
+  - A inflação é sempre e em todos os lugares um fenômeno social.
+explanation: |
+  Milton Friedman, um renomado economista, afirmou famosamente que "A inflação é sempre e em todos os lugares um fenômeno monetário". Essa afirmação destaca a relação intrínseca entre a expansão monetária e a inflação.
+reviewed: false

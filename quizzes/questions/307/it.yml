@@ -1,0 +1,9 @@
+question: Qual è il principale rischio di lasciare i tuoi bitcoin su una piattaforma di scambio?
+answer: La piattaforma può essere hackerata, sequestrata, fallire o semplicemente scomparire con i tuoi soldi.
+wrong_answers:
+  - Il prezzo del Bitcoin può improvvisamente scendere.
+  - La piattaforma può aumentare le sue commissioni.
+  - La piattaforma può limitare il numero di bitcoin che puoi comprare o vendere.
+explanation: |
+  Il contenuto del capitolo avverte che le piattaforme di scambio presentano rischi significativi e dovrebbero essere evitate il più possibile. Possono essere hackerate, sequestrate, fallire o semplicemente scomparire con i tuoi soldi.
+reviewed: false

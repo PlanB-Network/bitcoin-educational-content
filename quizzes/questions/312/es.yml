@@ -1,0 +1,9 @@
+question: ¿Cuál es la función de la Red Lightning en el ecosistema de Bitcoin?
+answer: Permite que Bitcoin se expanda y obtenga más características al actuar como una segunda capa.
+wrong_answers:
+  - Es una criptomoneda separada que compite con Bitcoin.
+  - Es una herramienta para minar Bitcoin.
+  - Es una plataforma para negociar Bitcoin.
+explanation: |
+  La Red Lightning es una tecnología de segunda capa aplicada a Bitcoin que utiliza canales de micropagos para aumentar la capacidad de su cadena de bloques y realizar transacciones de manera más eficiente.
+reviewed: false

@@ -1,0 +1,10 @@
+question: O que é uma carteira fria no contexto do Bitcoin?
+answer: Uma carteira para armazenar grandes quantidades de Bitcoin offline
+wrong_answers:
+  - Uma carteira usada para transações em climas frios
+  - Uma carteira usada para armazenar pequenas quantidades de Bitcoin
+  - Uma carteira usada para armazenar Bitcoin por um curto período de tempo
+explanation: |
+  Uma carteira fria é uma carteira para armazenar grandes quantidades de Bitcoin offline.
+  É considerada mais segura do que uma carteira quente, pois é menos vulnerável a ataques de hackers.
+reviewed: false

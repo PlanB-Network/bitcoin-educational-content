@@ -1,0 +1,9 @@
+question: Wie viele Episoden von Hyperinflation sind in der Hanke-Krus-Tabelle dokumentiert?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Die Hanke-Krus-Tabelle dokumentiert 56 Episoden von Hyperinflation. Allerdings deckt sie nicht alle Episoden ab, wie zum Beispiel die in Venezuela im Jahr 2016, was die Gesamtzahl auf 57 erhöht.
+reviewed: false

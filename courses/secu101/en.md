@@ -16,12 +16,9 @@ This will involve the implementation of several tools such as a secure email ser
 In this training, we are not aiming to make you an expert, anonymous, or invulnerable, as this is impossible. Instead, we offer you some simple and accessible solutions to start transforming your online habits and regain control of your digital sovereignty.
 
 Contributors team:
-
-- Renaud Lifchitz; professor
-- Théo Pantamis; professor
-- Muriel; design
-- Rogzy Noury & Fabian; production
-- Théo; contribution
+Muriel; design
+Rogzy Noury & Fabian; production
+Théo; contribution
 
 +++
 

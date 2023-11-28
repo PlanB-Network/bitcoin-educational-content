@@ -1,0 +1,9 @@
+question: Was war die Währung Argentiniens vor 1826?
+answer: Der spanische Dollar.
+wrong_answers:
+  - Der argentinische Peso.
+  - Der Peso moneda nacional.
+  - Der Peso real.
+explanation: |
+  Vor 1826 verwendete Argentinien den spanischen Dollar. Nach seiner Unabhängigkeit im Jahr 1816 führte es seine eigene Währung basierend auf dem spanischen Real ein, was zur Schaffung einer ähnlichen Währung führte.
+reviewed: false

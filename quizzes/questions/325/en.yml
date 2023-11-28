@@ -1,0 +1,11 @@
+question: What is a non-KYC solution in the context of Bitcoin?
+answer: A solution that allows for anonymous Bitcoin transactions
+wrong_answers:
+  - A solution that allows for Bitcoin transactions without internet
+  - A solution that allows for Bitcoin transactions without a wallet
+  - A solution that allows for Bitcoin transactions without fees
+explanation: |
+  A non-KYC (Know Your Customer) solution is a solution that allows for
+  anonymous Bitcoin transactions. It does not require the user to provide personal
+  identification information.
+reviewed: false

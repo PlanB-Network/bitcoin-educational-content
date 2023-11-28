@@ -1,0 +1,9 @@
+question: Qual è lo scopo di un nodo Bitcoin nel contesto della Lightning Network?
+answer: Lo scopo di un nodo Bitcoin nel contesto della Lightning Network è quello di comprendere ed esplorare i nuovi aspetti di Bitcoin introdotti dalla Lightning Network.
+wrong_answers:
+  - Per minare nuovi Bitcoin.
+  - Per scambiare Bitcoin.
+  - Per conservare Bitcoin.
+explanation: |
+  Un nodo Bitcoin nel contesto della Lightning Network viene utilizzato per comprendere ed esplorare i nuovi aspetti di Bitcoin introdotti dalla Lightning Network. Non viene utilizzato per minare nuovi Bitcoin, scambiare Bitcoin o conservare Bitcoin.
+reviewed: false

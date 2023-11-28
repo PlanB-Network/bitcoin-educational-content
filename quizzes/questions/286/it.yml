@@ -1,0 +1,9 @@
+question: Quali sono le due caratteristiche che rendono Bitcoin ciò che è oggi?
+answer: Il suo codice open-source e la sua scarsità
+wrong_answers:
+  - La sua anonimia e la sua decentralizzazione
+  - Il suo alto valore e la sua volatilità
+  - La sua facilità d'uso e la sua accettazione globale
+explanation: |
+  Le due principali caratteristiche che definiscono Bitcoin sono il suo codice open-source, che lo rende trasparente, verificabile e utilizzabile da chiunque, e la sua scarsità, il che significa che ci saranno solo 21 milioni di bitcoin nel mondo.
+reviewed: false

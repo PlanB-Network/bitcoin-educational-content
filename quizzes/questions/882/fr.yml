@@ -1,0 +1,9 @@
+question: Pourquoi le problème de coordination dans la division du travail réapparaît-il dans les communautés plus grandes ?
+answer: Parce que les êtres humains sont limités par leurs capacités cognitives et que la mesure socialement acceptée de la valeur des contributions dans l'échange est un problème non trivial.
+wrong_answers:
+  - Parce que les êtres humains ne sont pas intéressés par le travail avec de plus grands groupes et préfèrent les communautés plus petites.
+  - Parce que les communautés plus grandes disposent de plus de ressources, ce qui réduit le besoin de division du travail.
+  - Parce que les communautés plus grandes connaissent davantage de conflits, rendant la coordination difficile.
+explanation: |
+  Dans les communautés plus grandes, il est impossible pour une personne de maintenir et de se souvenir de relations sociales stables avec plus de 150 individus, ce qui rend un système de réputation insuffisant pour surmonter le dilemme du prisonnier à grande échelle. De plus, évaluer la valeur des contributions dans l'échange est un problème complexe dans les communautés plus grandes.
+reviewed: false

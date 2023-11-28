@@ -1,0 +1,10 @@
+question: What is the minimum waiting period suggested for a Hodler?
+answer: At least one or two cycles.
+wrong_answers:
+  - Less than a year.
+  - Five to ten years.
+  - There is no minimum waiting period.
+explanation: |
+  The chapter suggests that a Hodler should wait for at least one or two
+  cycles to see the growth of their investment.
+reviewed: false

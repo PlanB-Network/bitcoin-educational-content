@@ -1,0 +1,9 @@
+question: Qu'est-ce que le routage en oignon dans le contexte du Lightning Network ?
+answer: Une méthode où les intermédiaires ne savent pas qui est le destinataire final, ni qui envoie le paiement.
+wrong_answers:
+  - Une méthode où les intermédiaires connaissent à la fois l'expéditeur et le destinataire.
+  - Une méthode où seul l'expéditeur connaît l'itinéraire et le prix.
+  - Une méthode où le destinataire final décide de l'itinéraire avant d'envoyer le paiement.
+explanation: |
+  Le routage en oignon dans le Lightning Network est une méthode où les intermédiaires ne savent pas qui est le destinataire final, ni qui envoie le paiement. Le nœud doit garder un plan du réseau pour trouver son itinéraire, mais aucun des intermédiaires n'a d'informations.
+reviewed: false

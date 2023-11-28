@@ -1,0 +1,9 @@
+question: Qui peut utiliser la clé de révocation avant la fin du délai de verrouillage temporel ?
+answer: La personne qui reçoit l'argent.
+wrong_answers:
+  - La personne qui crée la transaction avec le délai de verrouillage temporel.
+  - Les deux parties peuvent utiliser la clé de révocation avant la fin du délai de verrouillage temporel.
+  - Aucune des parties ne peut utiliser la clé de révocation avant la fin du délai de verrouillage temporel.
+explanation: |
+  La personne qui reçoit l'argent peut utiliser la clé de révocation avant la fin du délai de verrouillage temporel en cas de tricherie de l'une ou l'autre partie d'un canal sur le réseau Lightning.
+reviewed: false

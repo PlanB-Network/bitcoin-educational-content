@@ -4,8 +4,6 @@ name: Bull Bitcoin
 description: Guida all'uso di Bull Bitcoin
 ---
 
-# Bull bitcoin
-
 ![soluzione di pagamento](assets/cover.jpeg)
 
 Bull Bitcoin (https://www.bullbitcoin.com) è uno scambio non custodiale e un servizio di pagamento - solo Bitcoin, senza compromessi!

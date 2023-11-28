@@ -1,0 +1,9 @@
+question: Qu'est-ce que la sélection des données en économie ?
+answer: La sélection des données consiste à choisir sélectivement des données pour établir des relations entre les variables.
+wrong_answers:
+  - La sélection des données consiste à ignorer toutes les données et à se fier uniquement aux hypothèses.
+  - La sélection des données consiste à utiliser toutes les données disponibles sans aucune sélection.
+  - La sélection des données consiste à utiliser uniquement les données qui soutiennent les politiques du gouvernement.
+explanation: |
+  En économie, la sélection des données consiste à choisir sélectivement des données pour établir des relations entre les variables. Cela est considéré comme une méthode non scientifique et non rigoureuse.
+reviewed: false

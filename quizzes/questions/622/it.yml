@@ -1,0 +1,9 @@
+question: Qual era il tasso di cambio iniziale del dollaro zimbabwese quando è stato introdotto nel 1980?
+answer: Due dollari zimbabwesi valevano circa 1,60 dollari statunitensi.
+wrong_answers:
+  - Un dollaro zimbabwese valeva circa 1 dollaro statunitense.
+  - Un dollaro zimbabwese valeva circa 2 dollari statunitensi.
+  - Due dollari zimbabwesi valevano circa 2 dollari statunitensi.
+explanation: |
+  Lo Zimbabwe ha ottenuto l'indipendenza nel 1980 e ha introdotto il dollaro zimbabwese. Inizialmente, due dollari zimbabwesi valevano circa 1,60 dollari statunitensi.
+reviewed: false

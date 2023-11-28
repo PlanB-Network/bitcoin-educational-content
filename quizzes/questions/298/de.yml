@@ -1,0 +1,9 @@
+question: Was ist Bitcoin nach der Cyberpunk-Bewegung?
+answer: Das elektronische Äquivalent von Bargeld
+wrong_answers:
+  - Eine Form von digitalem Gold
+  - Eine neue Form der Kreditkarte
+  - Eine Art von Kryptowährung
+explanation: |
+  Im Kapitel wird erwähnt, dass Bitcoin aus der Perspektive des Cyberpunk eine bargeldlose Gesellschaft ablehnt. Es ermöglicht die Schaffung von vollständig privaten und intermediärfreien digitalen Finanztransaktionen. Für die Cyberpunk-Bewegung ist Bitcoin das elektronische Äquivalent von Bargeld.
+reviewed: false

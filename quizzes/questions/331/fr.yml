@@ -1,0 +1,9 @@
+question: Quel est le portefeuille recommandé pour un Hodler pour commencer?
+answer: Un portefeuille froid comme Bitbox02, Trezor ou Ledger.
+wrong_answers:
+  - Une application mobile de portefeuille chaud.
+  - Un portefeuille physique.
+  - Un portefeuille papier.
+explanation: |
+  Pour un Hodler, il est conseillé de commencer avec un portefeuille froid comme Bitbox02, Trezor ou Ledger. Ces appareils offrent une sécurité à long terme pour les bitcoins.
+reviewed: false

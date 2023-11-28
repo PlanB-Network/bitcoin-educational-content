@@ -12,8 +12,6 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Monedero de Bitcoin Electrum
-
 > "Debo decir que cuando encontré esta guía me sorprendí. Felicitaciones a Arman the Parman por esto. Hubiera sido una lástima no alojarlo aquí y traducirlo a tantos idiomas como sea posible. Honestamente, consejos de ese tipo." Rogzy
 
 ![Monedero de escritorio Electrum (Mac / Linux) - descargar, verificar, conectar a tu nodo.](https://youtu.be/wHmQNcRWdHM)

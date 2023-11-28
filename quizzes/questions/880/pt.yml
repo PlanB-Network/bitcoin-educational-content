@@ -1,0 +1,9 @@
+question: De acordo com Carl Menger, qual é a natureza do valor?
+answer: O valor é um fenômeno psicológico subjetivo dentro do indivíduo.
+wrong_answers:
+  - O valor é uma propriedade inerente dos bens.
+  - O valor é um fenômeno objetivo e mensurável.
+  - O valor é determinado pela quantidade de trabalho utilizada na produção.
+explanation: |
+  De acordo com Menger, o valor é um fenômeno psicológico subjetivo dentro do indivíduo. Isso significa que o valor não é uma propriedade inerente dos bens, mas sim decorre da opinião do indivíduo sobre a utilidade que eles podem obter desses bens.
+reviewed: false

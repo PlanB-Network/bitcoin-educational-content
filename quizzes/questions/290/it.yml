@@ -1,0 +1,9 @@
+question: Qual è il significato della scarsità di Bitcoin?
+answer: Ci saranno solo 21 milioni di bitcoin nel mondo e mai di più.
+wrong_answers:
+  - Il valore di Bitcoin aumenterà sempre.
+  - Bitcoin è difficile da minare.
+  - Le transazioni di Bitcoin sono limitate in numero.
+explanation: |
+  La scarsità di Bitcoin si riferisce al fatto che ci saranno solo 21 milioni di bitcoin. Questa caratteristica, simile all'oro, impedisce la diluizione del valore di Bitcoin attraverso una stampa eccessiva di denaro.
+reviewed: false

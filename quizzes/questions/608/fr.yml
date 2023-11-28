@@ -1,0 +1,9 @@
+question: Quelle était la monnaie de l'Argentine avant 1826?
+answer: Le dollar espagnol.
+wrong_answers:
+  - Le peso argentin.
+  - Le peso moneda nacional.
+  - Le peso real.
+explanation: |
+  Avant 1826, l'Argentine utilisait le dollar espagnol. Après son indépendance en 1816, elle a introduit sa propre monnaie basée sur le réal espagnol, ce qui a entraîné la création d'une monnaie similaire.
+reviewed: false

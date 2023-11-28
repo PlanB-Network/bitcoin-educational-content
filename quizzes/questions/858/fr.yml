@@ -1,0 +1,9 @@
+question: Quel est le principal objectif de l'économie autrichienne ?
+answer: L'économie autrichienne met l'accent sur une vision plus sobre de la croissance et de la rationalité humaine.
+wrong_answers:
+  - L'économie autrichienne se concentre sur l'impression monétaire et les dépenses pour promouvoir la croissance.
+  - L'économie autrichienne met l'accent sur la centralisation du pouvoir monétaire.
+  - L'économie autrichienne se concentre sur la production et la gestion de l'argent par les banques centrales.
+explanation: |
+  Le chapitre explique que l'économie autrichienne met l'accent sur une vision plus sobre de la croissance et de la rationalité humaine dans notre économie, ce qui diffère grandement de la doctrine keynésienne.
+reviewed: false

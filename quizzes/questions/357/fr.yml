@@ -1,0 +1,9 @@
+question: Quelle est la principale raison pour laquelle un Bitcoiner paranoïaque utiliserait son propre nœud LN ?
+answer: Pour préserver la confidentialité et la sécurité.
+wrong_answers:
+  - Pour éviter les processus KYC (Know Your Customer).
+  - Pour gérer leurs UTXOs (Unspent Transaction Outputs).
+  - Pour mélanger leurs bitcoins.
+explanation: |
+  Le chapitre mentionne qu'un Bitcoiner paranoïaque utiliserait son propre nœud LN dans le cadre de sa préoccupation pour la sécurité. Bien que l'évitement des processus KYC, la gestion des UTXOs et le mélange des bitcoins soient également des activités auxquelles un Bitcoiner paranoïaque pourrait s'adonner, elles ne sont pas directement liées à l'utilisation d'un nœud LN.
+reviewed: false

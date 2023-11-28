@@ -1,0 +1,9 @@
+question: Was ist ein Zombie-Unternehmen?
+answer: Ein Zombie-Unternehmen ist ein Unternehmen, das unter normalen Marktbedingungen insolvent oder kurz vor dem Bankrott wäre, aber hauptsächlich durch kostengünstige Kreditaufnahme weiterhin tätig ist.
+wrong_answers:
+  - Ein Unternehmen, das seit über 100 Jahren im Geschäft ist.
+  - Ein Unternehmen, das im Technologiesektor tätig ist.
+  - Ein Unternehmen, das von der Regierung gerettet wurde.
+explanation: |
+  Ein Zombie-Unternehmen ist ein Unternehmen, das unter normalen Marktbedingungen insolvent oder kurz vor dem Bankrott wäre, aber hauptsächlich durch kostengünstige Kreditaufnahme weiterhin tätig ist. Diese Unternehmen verdienen gerade genug Geld, um ihre Schulden zu begleichen, können aber nicht signifikant wachsen.
+reviewed: false

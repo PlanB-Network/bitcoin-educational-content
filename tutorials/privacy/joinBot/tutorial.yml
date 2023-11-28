@@ -9,9 +9,5 @@ category: bitcoin
 level: advanced
 
 credits:
-  name: Loïc Morel
+  professor: pretty-private
   link: https://decouvrebitcoin.fr/si-tas-pas-damis-utilises-joinbot/
-  tips:
-    lightning_adress: loic@sats.pandul.fr
-    paynym: +throbbingpond8B1
-    on-chain:

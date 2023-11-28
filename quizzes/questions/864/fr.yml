@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal du cours?
+answer: Le cours vise à explorer les concepts fondamentaux de l'économie autrichienne.
+wrong_answers:
+  - Le cours vise à promouvoir la doctrine keynésienne.
+  - Le cours vise à expliquer le fonctionnement des banques centrales.
+  - Le cours vise à promouvoir la centralisation du pouvoir monétaire.
+explanation: |
+  Le chapitre mentionne que le cours vise à explorer les concepts fondamentaux de l'économie autrichienne.
+reviewed: false

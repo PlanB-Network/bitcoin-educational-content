@@ -1,0 +1,9 @@
+question: Cosa è Bitcoin secondo il movimento cyberpunk?
+answer: L'equivalente elettronico del contante
+wrong_answers:
+  - Una forma di oro digitale
+  - Una nuova forma di carta di credito
+  - Un tipo di criptovaluta
+explanation: |
+  Il capitolo menziona che secondo una prospettiva cyberpunk, Bitcoin si oppone a una società senza contanti. Permette la creazione di transazioni finanziarie digitali completamente private e senza intermediari. Per il movimento cyberpunk, Bitcoin è l'equivalente elettronico del contante.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est la relation entre la préférence pour le temps et les taux d'intérêt dans une économie avec des marchés de capitaux non manipulés ?
+answer: Une augmentation des taux d'intérêt résulte d'une augmentation relative de la demande de capitaux par rapport à l'offre, ce qui indique des préférences temporelles plus élevées. À l'inverse, une diminution des taux d'intérêt se produit en raison d'une augmentation de l'épargne, qui est une augmentation de l'offre de capitaux, ce qui indique une réduction des préférences temporelles.
+wrong_answers:
+  - Une augmentation des taux d'intérêt indique une diminution des préférences temporelles, tandis qu'une diminution des taux d'intérêt indique une augmentation des préférences temporelles.
+  - La préférence pour le temps et les taux d'intérêt sont inversement liés.
+  - La préférence pour le temps et les taux d'intérêt n'ont aucune relation directe.
+explanation: |
+  Dans une économie avec des marchés de capitaux non manipulés, les taux d'intérêt de référence sont déterminés à l'intersection de l'offre et de la demande de capitaux. Par conséquent, ces taux représentent l'état des préférences temporelles pour l'ensemble de l'économie. Une augmentation du taux d'intérêt résulte d'une augmentation relative de la demande de capitaux par rapport à l'offre, ce qui indique des préférences temporelles plus élevées. À l'inverse, une diminution des taux d'intérêt se produit en raison d'une augmentation de l'épargne, qui est une augmentation de l'offre de capitaux, ce qui indique une réduction des préférences temporelles.
+reviewed: false

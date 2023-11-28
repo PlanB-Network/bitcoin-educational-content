@@ -6,8 +6,6 @@ description: Carteira LN multifuncional
 
 ![apresentação](assets/1.jpeg)
 
-# Carteira/Nó Blixt BTC ⚡️ LN
-
 ## Um poderoso nó BTC/Lightning no seu bolso, onde quer que você esteja
 
 Gostaria de apresentar a você um novo nó e carteira móvel BTC/LN interessante e também poderoso - Blixt. O nome vem do sueco e significa "relâmpago".

@@ -1,0 +1,12 @@
+question: Qual é o objetivo principal do curso de Bitcoin mencionado no capítulo?
+answer: O objetivo principal do curso é educar novos entusiastas do Bitcoin em princípios econômicos sólidos.
+wrong_answers:
+  - O objetivo principal do curso é ensinar novos entusiastas do Bitcoin como minerar Bitcoin.
+  - O objetivo principal do curso é ensinar novos entusiastas do Bitcoin como investir em Bitcoin.
+  - O objetivo principal do curso é ensinar novos entusiastas do Bitcoin como criar suas próprias criptomoedas.
+explanation: |
+  O curso tem como objetivo educar novos entusiastas do Bitcoin sobre os princípios fundamentais
+  da economia, especialmente os da Escola Austríaca de Economia.
+  Esse conhecimento é crucial para entender o valor e o potencial do Bitcoin como
+  uma alternativa aos sistemas monetários tradicionais.
+reviewed: false

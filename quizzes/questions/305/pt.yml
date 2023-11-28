@@ -1,0 +1,9 @@
+question: Qual é o papel principal dos mineradores na rede Bitcoin?
+answer: Eles garantem a segurança da rede ao realizar os processos de prova de trabalho do Bitcoin.
+wrong_answers:
+  - Eles criam novos bitcoins.
+  - Eles regulam o preço do Bitcoin.
+  - Eles controlam a rede Bitcoin.
+explanation: |
+  O conteúdo do capítulo explica que os mineradores são responsáveis por garantir a segurança da rede Bitcoin. Eles utilizam eletricidade para realizar os processos de prova de trabalho do Bitcoin, o que cria um novo bloco.
+reviewed: false

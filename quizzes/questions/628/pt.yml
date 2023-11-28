@@ -1,0 +1,9 @@
+question: Qual foi a consequência da relegação dos bancos privados pelo Banco da Inglaterra a uma posição secundária no sistema monetário?
+answer: Uma terceira camada de moeda foi criada
+wrong_answers:
+  - O Banco da Inglaterra faliu
+  - O valor do ouro aumentou
+  - O Banco de Amsterdã se tornou o centro econômico global
+explanation: |
+  Quando o Banco da Inglaterra relegou os bancos privados a uma posição secundária no sistema monetário, uma terceira camada de moeda foi criada. As notas emitidas pelos bancos privados deixaram de ser convertíveis em ouro, mas sim em moeda de papel emitida pelo Banco da Inglaterra, que por sua vez era conversível em ouro.
+reviewed: false

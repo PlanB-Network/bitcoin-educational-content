@@ -1,0 +1,9 @@
+question: Qual è una truffa comune legata a concorsi online o donazioni nel settore delle criptovalute?
+answer: Pubblicità che promettono bitcoin gratuiti.
+wrong_answers:
+  - Pubblicità che promettono beni fisici.
+  - Pubblicità che promettono valuta fiat gratuita.
+  - Pubblicità che promettono software gratuito.
+explanation: |
+  Le truffe legate a concorsi online o donazioni sono molto comuni nel settore delle criptovalute. Le pubblicità che promettono bitcoin gratuiti vengono spesso utilizzate per ingannare gli utenti inesperti.
+reviewed: false

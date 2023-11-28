@@ -1,0 +1,9 @@
+question: De acordo com os economistas austríacos, qual é o resultado de indivíduos se especializarem em seu trabalho e se envolverem em trocas?
+answer: Os indivíduos sempre se beneficiam mais.
+wrong_answers:
+  - Os indivíduos sempre se prejudicam mais.
+  - Não há mudança na situação dos indivíduos.
+  - O resultado varia dependendo do indivíduo.
+explanation: |
+  De acordo com os economistas austríacos, o resultado de indivíduos se especializarem em seu trabalho e se envolverem em trocas é que eles sempre se beneficiam mais. Isso ocorre porque a especialização e a troca permitem que os indivíduos maximizem sua utilidade subjetiva.
+reviewed: false

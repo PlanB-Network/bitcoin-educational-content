@@ -1,0 +1,9 @@
+question: ¿Cuál fue el tipo de cambio inicial del dólar zimbabuense cuando se introdujo en 1980?
+answer: Dos dólares zimbabuenses valían aproximadamente 1.60 dólares estadounidenses.
+wrong_answers:
+  - Un dólar zimbabuense valía aproximadamente 1 dólar estadounidense.
+  - Un dólar zimbabuense valía aproximadamente 2 dólares estadounidenses.
+  - Dos dólares zimbabuenses valían aproximadamente 2 dólares estadounidenses.
+explanation: |
+  Zimbabue obtuvo su independencia en 1980 e introdujo el dólar zimbabuense. Inicialmente, dos dólares zimbabuenses valían aproximadamente 1.60 dólares estadounidenses.
+reviewed: false

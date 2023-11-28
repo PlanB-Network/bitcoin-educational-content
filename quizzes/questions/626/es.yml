@@ -1,0 +1,9 @@
+question: ¿Cuál fue la razón principal para la creación del Banco de Inglaterra?
+answer: Para financiar la guerra a finales del siglo XVII
+wrong_answers:
+  - Emitir su propia moneda
+  - Competir con el Banco de Ámsterdam
+  - Regular el mercado de valores
+explanation: |
+  El Banco de Inglaterra fue creado a finales del siglo XVII con la motivación principal de financiar la guerra. Impuso depósitos por decreto y relegó a los bancos privados a una posición secundaria en el sistema monetario.
+reviewed: false

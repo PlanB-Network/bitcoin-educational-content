@@ -1,0 +1,9 @@
+question: Quelle est la position des défenseurs de la Théorie Monétaire Moderne (TMM) par rapport à l'impression d'argent ?
+answer: Les défenseurs de la TMM ont préconisé l'impression d'argent pour atteindre des objectifs politiques.
+wrong_answers:
+  - Les défenseurs de la TMM sont contre l'impression d'argent dans toutes les circonstances.
+  - Les défenseurs de la TMM estiment que l'impression d'argent devrait être contrôlée par la banque centrale.
+  - Les défenseurs de la TMM estiment que l'impression d'argent devrait être évitée en raison du risque d'inflation.
+explanation: |
+  Les défenseurs de la Théorie Monétaire Moderne (TMM) ont préconisé l'impression d'argent pour atteindre des objectifs politiques, en utilisant l'absence d'inflation entre 2008 et 2019 comme argument.
+reviewed: false

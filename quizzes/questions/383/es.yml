@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito de educarse sobre los aspectos técnicos, ideológicos y filosóficos de Bitcoin?
+answer: Para comprender mejor Bitcoin y su impacto potencial en el mundo.
+wrong_answers:
+  - Para minar nuevos Bitcoins.
+  - Para comerciar con Bitcoins.
+  - Para convertir Bitcoins en otras criptomonedas.
+explanation: |
+  Educarse sobre los aspectos técnicos, ideológicos y filosóficos de Bitcoin es importante para comprender mejor Bitcoin y su impacto potencial en el mundo. No se utiliza para minar nuevos Bitcoins, comerciar con Bitcoins o convertir Bitcoins en otras criptomonedas.
+reviewed: false

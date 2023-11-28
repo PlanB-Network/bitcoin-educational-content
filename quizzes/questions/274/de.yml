@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil der Verwendung eines Passwort-Managers laut dem Kapitel?
+answer: Er hilft Ihnen, niemals dasselbe Passwort zweimal zu verwenden.
+wrong_answers:
+  - Er hilft Ihnen, sich an Ihre Benutzernamen zu erinnern.
+  - Er schützt Ihren Computer vor Viren.
+  - Er generiert zufällige Passwörter.
+explanation: |
+  Laut dem Kapitel hilft Ihnen ein Passwort-Manager dabei, niemals dasselbe Passwort zweimal zu verwenden, komplexe und sichere Passwörter zu wählen und Ihr Online-Sicherheitsmanagement zu erleichtern.
+reviewed: false

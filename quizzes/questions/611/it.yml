@@ -1,0 +1,9 @@
+question: Qual era la valuta del Perù prima del XIX secolo?
+answer: L'oro spagnolo.
+wrong_answers:
+  - Il dollaro peruviano.
+  - Il real peruviano.
+  - I soldi oro.
+explanation: |
+  Il Perù utilizzava l'oro spagnolo fino al XIX secolo. Il dollaro peruviano era in uso dal 1822 al 1863.
+reviewed: false

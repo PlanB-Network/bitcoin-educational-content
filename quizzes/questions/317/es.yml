@@ -1,0 +1,11 @@
+question: ¿Qué significa decir que Bitcoin es como un agujero negro?
+answer: No desaparecerá y absorberá todo a su paso con el tiempo.
+wrong_answers:
+  - Eventualmente colapsará bajo su propio peso.
+  - Es una amenaza para el sistema financiero global.
+  - Es un misterio que los científicos todavía están tratando de entender.
+explanation: |
+  La afirmación de que Bitcoin es como un agujero negro se refiere a su resistencia
+  y su potencial para convertirse en el sistema financiero dominante, absorbiendo todos los demás sistemas
+  en su camino.
+reviewed: false

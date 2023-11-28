@@ -1,0 +1,9 @@
+question: ¿Cuál es el argumento principal de Ludwig von Mises en su artículo "Cálculo Económico en una Comunidad Socialista"?
+answer: La organización económica racional es imposible sin precios para los factores intermedios de producción.
+wrong_answers:
+  - El socialismo es moralmente superior al capitalismo.
+  - El capitalismo es el único sistema económico viable.
+  - El socialismo puede producir individuos desprovistos de instintos capitalistas.
+explanation: |
+  Mises argumentó que sin un mercado que determine los precios de los factores intermedios de producción, se vuelve imposible racionalizar el uso de los recursos en las industrias. Esto significa que incluso si hay una organización perfecta dentro de cada empresa o parte de la economía, la economía en su conjunto no puede ajustarse eficientemente a los cambios en la disponibilidad de recursos, las condiciones de producción y las preferencias del consumidor.
+reviewed: false

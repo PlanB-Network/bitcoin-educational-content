@@ -1,0 +1,9 @@
+question: ¿Cuál es la diferencia entre el trading, la inversión y la retención en el contexto de Bitcoin?
+answer: El trading implica contratos a corto plazo con alto riesgo, la inversión implica comprar BTC a corto o mediano plazo con riesgo limitado, y la retención implica mantener BTC a largo plazo con riesgo limitado.
+wrong_answers:
+  - El trading implica comprar BTC a largo plazo, la inversión implica contratos a corto plazo con alto riesgo, y la retención implica mantener BTC a corto o mediano plazo con riesgo limitado.
+  - El trading implica comprar BTC a corto o mediano plazo, la inversión implica contratos a corto plazo con alto riesgo, y la retención implica mantener BTC a largo plazo con alto riesgo.
+  - El trading implica comprar BTC a corto o mediano plazo, la inversión implica contratos a corto plazo con alto riesgo, y la retención implica mantener BTC a largo plazo con riesgo limitado.
+explanation: |
+  El trading, la inversión y la retención son tres estrategias diferentes utilizadas en el mercado de Bitcoin. El trading implica contratos a corto plazo con alto riesgo, la inversión implica comprar BTC a corto o mediano plazo con riesgo limitado, y la retención implica mantener BTC a largo plazo con riesgo limitado.
+reviewed: false

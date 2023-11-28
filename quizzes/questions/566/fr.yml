@@ -1,0 +1,9 @@
+question: Quelle est la relation entre l'inflation et la déflation dans une économie ?
+answer: L'inflation et la déflation sont comme des vases communicants dans une économie. Une augmentation de la production peut entraîner la déflation, mais si la masse monétaire est augmentée simultanément, l'effet déflationniste est annulé, ce qui entraîne l'inflation.
+wrong_answers:
+  - L'inflation et la déflation sont indépendantes l'une de l'autre dans une économie.
+  - L'inflation entraîne toujours la déflation dans une économie.
+  - La déflation entraîne toujours l'inflation dans une économie.
+explanation: |
+  Le chapitre explique que l'inflation et la déflation sont comme des vases communicants dans une économie. Une augmentation de la production peut entraîner la déflation, mais si la masse monétaire est augmentée simultanément, l'effet déflationniste est annulé, ce qui entraîne l'inflation.
+reviewed: false

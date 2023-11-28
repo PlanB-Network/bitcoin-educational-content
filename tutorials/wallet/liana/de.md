@@ -6,8 +6,6 @@ description: Anleitung zur Einrichtung Ihrer Liana Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Liana - Lösung für Erbschaft
-
 Der Sicherheitsnetz für Ihre Coins, Liana ist eine einfache Bitcoin-Wallet, die On-Chain-Zeitschlösser verwendet, um Sicherheit und Wiederherstellung zu gewährleisten.
 
 - Kein Vertrauen in Dritte, Sie haben die volle Kontrolle

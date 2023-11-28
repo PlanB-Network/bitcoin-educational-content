@@ -1,0 +1,9 @@
+question: Was ist das Hauptargument von Ludwig von Mises in seinem Artikel "Wirtschaftliche Berechnung in einem sozialistischen Gemeinwesen"?
+answer: Eine rationale wirtschaftliche Organisation ist ohne Preise für die Zwischenproduktionsfaktoren unmöglich.
+wrong_answers:
+  - Sozialismus ist moralisch überlegen gegenüber dem Kapitalismus.
+  - Kapitalismus ist das einzige lebensfähige Wirtschaftssystem.
+  - Sozialismus kann Individuen hervorbringen, die frei von kapitalistischen Instinkten sind.
+explanation: |
+  Mises argumentierte, dass ohne einen Markt, der die Preise für Zwischenproduktionsfaktoren bestimmt, eine Rationalisierung der Ressourcennutzung über Branchen hinweg unmöglich wird. Dies bedeutet, dass selbst wenn es eine perfekte Organisation innerhalb jedes Unternehmens oder Teils der Wirtschaft gibt, die gesamte Wirtschaft nicht effizient auf Veränderungen bei der Verfügbarkeit von Ressourcen, Produktionsbedingungen und Verbraucherpräferenzen reagieren kann.
+reviewed: false

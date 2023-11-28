@@ -1,0 +1,10 @@
+question: ¿Cuál es una característica común de las estafas en el ámbito de las criptomonedas?
+answer: Promesas de retornos irreales.
+wrong_answers:
+  - Promesas de bienes físicos.
+  - Promesas de productos de software.
+  - Promesas de moneda fiduciaria.
+explanation: |
+  Las estafas en el ámbito de las criptomonedas a menudo prometen retornos irreales.
+  Es crucial no confiar ciegamente, especialmente cuando se trata de un banner en internet.
+reviewed: false

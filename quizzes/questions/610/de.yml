@@ -1,0 +1,9 @@
+question: Wie hoch war die jährliche Inflationsrate in Bolivien im Jahr 1985?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  Im Jahr 1985 erreichte die jährliche Inflationsrate in Bolivien 11,749%, was darauf hindeutet, dass fast jeden Monat die Inflation nahe an oder über der Hyperinflationsschwelle von 50% lag oder diese überschritt.
+reviewed: false

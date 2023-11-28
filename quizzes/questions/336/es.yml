@@ -1,0 +1,10 @@
+question: ¿Cuál es el papel de una billetera LN caliente para un Hodler que quiere ir más allá?
+answer: Para gastar Bitcoin.
+wrong_answers:
+  - Para comprar más Bitcoin.
+  - Para almacenar todo su Bitcoin.
+  - Para comerciar con Bitcoin.
+explanation: |
+  Un Hodler que quiere ir más allá puede usar una billetera LN caliente para gastar
+  algunos Bitcoin, además de mantenerlo a largo plazo.
+reviewed: false

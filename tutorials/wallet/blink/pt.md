@@ -6,8 +6,6 @@ description: Aprenda como usar a carteira Blink
 
 ![capa](assets/cover.jpeg)
 
-# Blink - A carteira de bitcoin para o dia a dia
-
 A Bitcoin Beach Wallet está recebendo um novo nome e muitos recursos novos. BBW é uma carteira Lightning custodial de código aberto, nascida na Bitcoin Beach e projetada para construção de comunidades. Em breve, ela será chamada de Blink.
 
 ## Vídeo Tutorial

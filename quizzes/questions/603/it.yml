@@ -1,0 +1,9 @@
+question: Qual è il termine per il denaro di emergenza utilizzato in Germania durante la crisi economica?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Durante la crisi economica in Germania, è stato utilizzato il "Notgeld" (denaro di emergenza) per affrontare la carenza di valuta comune.
+reviewed: false

@@ -6,8 +6,6 @@ description: aprende cómo recuperar tu privacidad
 
 ![wasabi](assets/cover.jpeg)
 
-# Wasabi Wallet
-
 Billetera de Bitcoin de código abierto, no custodial y centrada en la privacidad para escritorio
 https://www.wasabiwallet.io/
 

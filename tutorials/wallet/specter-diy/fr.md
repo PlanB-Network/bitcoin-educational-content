@@ -6,8 +6,6 @@ description: Guide d'installation pour Specter DIY
 
 ![cover](assets/cover.jpeg)
 
-# Specter DIY
-
 Spécifications :
 
 - Carte de développement

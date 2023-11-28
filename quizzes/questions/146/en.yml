@@ -1,0 +1,10 @@
+question: What was the "block war" in 2017 about?
+answer: A conflict over whether to increase the block size to increase transaction capacity
+wrong_answers:
+  - A conflict over whether to decrease the block size to decrease transaction capacity
+  - A conflict over whether to increase the block reward to incentivize miners
+  - A conflict over whether to decrease the block reward to disincentivize miners
+explanation: >-
+  The "block war" in 2017 was a conflict over whether to modify Bitcoin
+  by increasing the block size to increase transaction capacity.
+reviewed: false

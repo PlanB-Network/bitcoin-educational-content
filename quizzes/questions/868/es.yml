@@ -1,0 +1,9 @@
+question: ¿Qué es la banca de reserva fraccionaria?
+answer: La banca de reserva fraccionaria es una práctica bancaria en la que los bancos no están obligados a mantener tantas reservas como reciben en depósitos, lo que les permite crear nuevo poder adquisitivo al otorgar préstamos.
+wrong_answers:
+  - La banca de reserva fraccionaria es una práctica bancaria en la que los bancos están obligados a mantener más reservas de las que reciben en depósitos.
+  - La banca de reserva fraccionaria es una práctica bancaria en la que no se permite a los bancos otorgar préstamos.
+  - La banca de reserva fraccionaria es una práctica bancaria en la que los bancos están obligados a mantener exactamente la misma cantidad de reservas que reciben en depósitos.
+explanation: |
+  La banca de reserva fraccionaria es un sistema en el que los bancos solo mantienen una fracción de los fondos de sus depositantes en reserva, prestando el resto. Este sistema permite a los bancos crear nuevo dinero en forma de préstamos, lo que aumenta la oferta monetaria en la economía.
+reviewed: false

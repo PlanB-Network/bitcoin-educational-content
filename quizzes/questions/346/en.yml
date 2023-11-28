@@ -1,0 +1,11 @@
+question: What does DCA stand for in the context of Bitcoin?
+answer: Dollar-Cost Averaging
+wrong_answers:
+  - Digital Currency Association
+  - Direct Cash Access
+  - Decentralized Crypto Asset
+explanation: |
+  In the context of Bitcoin, DCA stands for Dollar-Cost Averaging. This
+  is a strategy where an investor divides up the total amount to be invested across
+  periodic purchases to reduce the impact of volatility on the overall purchase.
+reviewed: false

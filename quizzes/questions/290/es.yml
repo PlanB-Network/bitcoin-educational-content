@@ -1,0 +1,9 @@
+question: ¿Cuál es la importancia de la escasez de Bitcoin?
+answer: Solo habrá 21 millones de bitcoins en el mundo y nunca más.
+wrong_answers:
+  - El valor de Bitcoin siempre aumentará.
+  - Bitcoin es difícil de minar.
+  - Las transacciones de Bitcoin están limitadas en número.
+explanation: |
+  La escasez de Bitcoin se refiere al hecho de que solo habrá 21 millones de bitcoins en total. Esta característica, similar al oro, evita la dilución del valor de Bitcoin a través de la impresión excesiva de dinero.
+reviewed: false

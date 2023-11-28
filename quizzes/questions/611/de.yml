@@ -1,0 +1,9 @@
+question: Was war die Währung von Peru vor dem 19. Jahrhundert?
+answer: Spanisches Gold.
+wrong_answers:
+  - Der peruanische Dollar.
+  - Der peruanische Real.
+  - Der Soldi Oro.
+explanation: |
+  Peru verwendete bis zum 19. Jahrhundert spanisches Gold. Der peruanische Dollar war von 1822 bis 1863 in Gebrauch.
+reviewed: false

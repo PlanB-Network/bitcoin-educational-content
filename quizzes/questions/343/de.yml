@@ -1,0 +1,9 @@
+question: Was ist eine Hot Wallet im Zusammenhang mit Bitcoin?
+answer: Eine digitale Brieftasche, die zum Speichern, Senden und Empfangen von Bitcoin verwendet wird.
+wrong_answers:
+  - Eine physische Brieftasche zum Speichern von Bitcoin
+  - Eine Methode zum Kauf von Bitcoin
+  - Eine Bitcoin-Austauschplattform
+explanation: |
+  Im Zusammenhang mit Bitcoin ist eine Hot Wallet eine digitale Brieftasche, die zum Speichern, Senden und Empfangen von Bitcoin verwendet wird. Sie ist in der Regel mit dem Internet verbunden und daher weniger sicher als eine Cold Wallet.
+reviewed: false

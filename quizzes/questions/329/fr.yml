@@ -1,0 +1,9 @@
+question: Quelle est la solution suggérée pour des achats récurrents de Bitcoin sans stress ?
+answer: Utilisez une solution DCA (Dollar Cost Averaging).
+wrong_answers:
+  - Utilisez un portefeuille en ligne (hot wallet).
+  - Utilisez un portefeuille hors ligne (cold wallet).
+  - Utilisez une solution sans KYC (Know Your Customer).
+explanation: |
+  La solution suggérée pour des achats récurrents de Bitcoin sans stress est d'utiliser une solution DCA (Dollar Cost Averaging). Cette stratégie consiste à diviser le montant total que vous souhaitez investir en achats périodiques afin de réduire l'impact de la volatilité.
+reviewed: false

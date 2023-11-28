@@ -1,0 +1,9 @@
+question: Qual è il principale scopo di un aggiornamento software?
+answer: Risolvere bug e migliorare la sicurezza del software
+wrong_answers:
+  - Aggiungere nuove funzionalità
+  - Cambiare l'interfaccia del software
+  - Aumentare la dimensione del software
+explanation: |
+  Sebbene gli aggiornamenti software spesso includano nuove funzionalità, il loro scopo principale è risolvere bug e migliorare la sicurezza del software. Questo è fondamentale per mantenere il computer in condizioni di lavoro ottimali.
+reviewed: false

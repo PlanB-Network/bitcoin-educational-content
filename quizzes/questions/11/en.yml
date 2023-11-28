@@ -1,0 +1,10 @@
+question: What is the role of the bitcoin unit in everyday life?
+answer: It is used to buy and sell goods and services.
+wrong_answers:
+  - It is used to mine new bitcoins.
+  - It is used to regulate the price of Bitcoin.
+  - It is used to control the Bitcoin protocol.
+explanation: |
+  In everyday life, people use the Bitcoin unit to buy and sell goods and
+  services. It relies on the Bitcoin protocol to function.
+reviewed: true

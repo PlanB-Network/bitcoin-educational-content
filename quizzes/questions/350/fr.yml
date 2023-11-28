@@ -1,0 +1,11 @@
+question: À quoi sert un portefeuille en ligne dans le contexte du Bitcoin ?
+answer: Pour envoyer et recevoir régulièrement des bitcoins pour une utilisation quotidienne.
+wrong_answers:
+  - Pour stocker en toute sécurité des bitcoins à long terme.
+  - Pour miner de nouveaux bitcoins.
+  - Pour échanger des bitcoins sur une plateforme d'échange.
+explanation: |
+  Un portefeuille en ligne est un type de portefeuille Bitcoin qui est connecté à Internet,
+  ce qui le rend adapté aux transactions quotidiennes. Cependant, il est plus vulnérable aux piratages
+  et aux vols qu'un portefeuille hors ligne.
+reviewed: false

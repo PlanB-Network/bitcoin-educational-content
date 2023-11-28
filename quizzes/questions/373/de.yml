@@ -1,0 +1,9 @@
+question: Was sollten Sie gemäß dem Kapitel nach dem Verfassen des Briefes tun?
+answer: Überprüfen Sie Ihre Arbeit, machen Sie eine Kopie des Briefes, bewahren Sie beide Kopien in einem Umschlag auf, versiegeln Sie ihn, unterschreiben Sie das Siegel und bewahren Sie diesen Umschlag an einem sicheren, aber zugänglichen Ort auf.
+wrong_answers:
+  - Ignorieren Sie Ihre Arbeit, machen Sie eine Kopie des Briefes, bewahren Sie beide Kopien in einem Umschlag auf, versiegeln Sie ihn, unterschreiben Sie das Siegel und bewahren Sie diesen Umschlag an einem gefährlichen, aber unzugänglichen Ort auf.
+  - Überprüfen Sie Ihre Arbeit, machen Sie eine Kopie des Briefes, bewahren Sie beide Kopien in einem Umschlag auf, öffnen Sie ihn, unterschreiben Sie das Siegel und bewahren Sie diesen Umschlag an einem sicheren, aber zugänglichen Ort auf.
+  - Ignorieren Sie Ihre Arbeit, machen Sie eine Kopie des Briefes, bewahren Sie beide Kopien in einem Umschlag auf, öffnen Sie ihn, unterschreiben Sie das Siegel und bewahren Sie diesen Umschlag an einem gefährlichen, aber unzugänglichen Ort auf.
+explanation: |
+  Nach dem Verfassen des Briefes sollten Sie gemäß dem Kapitel Ihre Arbeit überprüfen, eine Kopie des Briefes machen, beide Kopien in einem Umschlag aufbewahren, ihn versiegeln, das Siegel unterschreiben und diesen Umschlag an einem sicheren, aber zugänglichen Ort aufbewahren.
+reviewed: false

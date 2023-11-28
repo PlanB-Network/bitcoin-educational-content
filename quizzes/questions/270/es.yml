@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal beneficio de usar una VPN?
+answer: Protege tu privacidad al ocultar tu dirección IP.
+wrong_answers:
+  - Acelera tu conexión a internet.
+  - Proporciona acceso gratuito a servicios de pago.
+  - Protege tu computadora de virus.
+explanation: |
+  Una VPN, o Red Privada Virtual, protege tu privacidad al ocultar tu dirección IP. Aunque no te hace completamente anónimo, sigue siendo un paso simple y efectivo para mejorar tu privacidad en línea.
+reviewed: false

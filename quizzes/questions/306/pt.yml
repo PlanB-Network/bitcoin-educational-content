@@ -1,0 +1,9 @@
+question: Qual é o papel principal dos desenvolvedores do Bitcoin Core?
+answer: Eles são responsáveis pelo desenvolvimento principal do protocolo Bitcoin e suas principais características.
+wrong_answers:
+  - Eles controlam a rede Bitcoin
+  - Eles criam novos bitcoins
+  - Eles regulam o preço do Bitcoin
+explanation: |
+  O conteúdo do capítulo explica que os desenvolvedores do Bitcoin Core são responsáveis pelo desenvolvimento principal do protocolo Bitcoin e suas principais características. Eles não controlam a rede Bitcoin, criam novos bitcoins ou regulam o preço do Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué significa que Bitcoin sea de código abierto?
+answer: Cualquiera puede ver cómo funciona Bitcoin, es transparente y, por lo tanto, auditable.
+wrong_answers:
+  - Cualquiera puede crear su propia versión de Bitcoin.
+  - Bitcoin es gratuito para usar.
+  - El código de Bitcoin está disponible públicamente para su modificación.
+explanation: |
+  Ser de código abierto significa que el código de Bitcoin está disponible públicamente para que cualquiera lo revise. Esto lo hace transparente y auditable, asegurando que el protocolo sea igual para todos.
+reviewed: false

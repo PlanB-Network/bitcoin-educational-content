@@ -1,0 +1,11 @@
+question: What is the purpose of a password manager in Bitcoin?
+answer: To securely store and manage passwords for Bitcoin transactions.
+wrong_answers:
+  - To mine new Bitcoins.
+  - To trade Bitcoins.
+  - To convert Bitcoins into other cryptocurrencies.
+explanation: |
+  A password manager is a software application that is used to store and
+  manage a person's passwords for various online accounts. In the context of Bitcoin,
+  it is used to securely store and manage passwords for Bitcoin transactions.
+reviewed: false

@@ -1,0 +1,9 @@
+question: De acordo com Carl Menger, por que ocorre uma troca voluntária entre dois indivíduos?
+answer: Cada parte acredita que isso aumentará sua utilidade subjetiva.
+wrong_answers:
+  - Cada parte acredita que isso diminuirá sua utilidade subjetiva.
+  - Cada parte acredita que isso manterá sua utilidade subjetiva.
+  - Cada parte acredita que isso não terá efeito em sua utilidade subjetiva.
+explanation: |
+  Menger deduz que a troca voluntária entre dois indivíduos ocorre porque cada parte acredita que isso aumentará sua utilidade subjetiva. Isso significa que cada parte acredita que estará em uma situação melhor após a troca.
+reviewed: false

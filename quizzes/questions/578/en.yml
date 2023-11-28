@@ -1,0 +1,11 @@
+question: What is deflation?
+answer: It's a decrease in the general price level of goods and services.
+wrong_answers:
+  - It's an increase in the general price level of goods and services.
+  - It's a decrease in the supply of money.
+  - It's an increase in the supply of money.
+explanation: |
+  Deflation is an economic term that refers to a decrease in the general
+  price level of goods and services. It is the opposite of inflation, which is an
+  increase in the general price level.
+reviewed: false

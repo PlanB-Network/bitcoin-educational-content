@@ -1,0 +1,10 @@
+course: crypto301
+part: 5
+chapter: 1
+difficulty: hard
+duration: 45
+author: DecouvreBitcoin
+tags:
+  - Bitcoin
+  - HD Wallet
+  - HMAC SHA-512 algorithm

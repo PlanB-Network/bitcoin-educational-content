@@ -1,0 +1,9 @@
+question: Quelle est la solution au problème de l'échange direct dans la division du travail?
+answer: L'échange indirect facilité par l'argent.
+wrong_answers:
+  - L'échange direct facilité par le troc.
+  - L'échange indirect facilité par le troc.
+  - L'échange direct facilité par l'argent.
+explanation: |
+  L'argent permet l'échange indirect, où un individu peut acheter à un autre, et le vendeur peut utiliser cette unité monétaire ailleurs, à un autre moment et avec quelqu'un d'autre.
+reviewed: false

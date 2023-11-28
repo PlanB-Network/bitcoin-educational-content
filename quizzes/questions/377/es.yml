@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito de un nodo de Bitcoin en el contexto de la Lightning Network?
+answer: El propósito de un nodo de Bitcoin en el contexto de la Lightning Network es comprender y explorar los nuevos aspectos de Bitcoin que trae consigo la Lightning Network.
+wrong_answers:
+  - Para minar nuevos Bitcoins.
+  - Para comerciar con Bitcoins.
+  - Para almacenar Bitcoins.
+explanation: |
+  Un nodo de Bitcoin en el contexto de la Lightning Network se utiliza para comprender y explorar los nuevos aspectos de Bitcoin que trae consigo la Lightning Network. No se utiliza para minar nuevos Bitcoins, comerciar con Bitcoins o almacenar Bitcoins.
+reviewed: false

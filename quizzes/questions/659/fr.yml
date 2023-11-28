@@ -1,0 +1,9 @@
+question: Quel est le rôle de la transaction d'engagement dans le Lightning Network?
+answer: Elle met à jour le solde du canal après chaque transfert.
+wrong_answers:
+  - Elle ouvre le canal.
+  - Elle ferme le canal.
+  - Elle transfère les fonds.
+explanation: |
+  La transaction d'engagement est une transaction plus récente qui met à jour le solde du canal après chaque transfert. Elle n'est pas exécutée à moins que le canal ne soit fermé.
+reviewed: false

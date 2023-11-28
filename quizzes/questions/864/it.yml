@@ -1,0 +1,9 @@
+question: Qual è l'obiettivo principale del corso?
+answer: Il corso mira a esplorare i concetti fondamentali dell'economia austriaca.
+wrong_answers:
+  - Il corso mira a promuovere la dottrina keynesiana.
+  - Il corso mira a spiegare il funzionamento delle banche centrali.
+  - Il corso mira a promuovere la centralizzazione del potere monetario.
+explanation: |
+  Il capitolo menziona che il corso mira a esplorare i concetti fondamentali dell'economia austriaca.
+reviewed: false

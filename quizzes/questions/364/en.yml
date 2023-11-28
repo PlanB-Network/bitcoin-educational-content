@@ -1,0 +1,10 @@
+question: What are some of the wallets a paranoid Bitcoiner might use?
+answer: Samourai wallet for hot wallet, Coldcard and/or Seed Signer for cold wallet
+wrong_answers:
+  - Coinbase wallet for hot wallet, Ledger for cold wallet
+  - Binance wallet for hot wallet, Trezor for cold wallet
+  - PayPal for hot wallet, Bank account for cold wallet
+explanation: |
+  The chapter mentions Samourai wallet for hot wallet and Coldcard and/or
+  Seed Signer for cold wallet as wallets that a paranoid Bitcoiner might use.
+reviewed: false

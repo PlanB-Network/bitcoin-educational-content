@@ -1,0 +1,9 @@
+question: Quelle est la première étape pour ouvrir un canal dans le Lightning Network ?
+answer: Les deux pairs communiquent leur intention d'ouvrir un canal.
+wrong_answers:
+  - Alice envoie de l'argent à l'adresse publique de Bob.
+  - Alice crée une adresse multi-sig 2/2.
+  - Alice publie une transaction sur le réseau Bitcoin.
+explanation: |
+  La première étape pour ouvrir un canal dans le Lightning Network est que les deux pairs communiquent leur intention d'ouvrir un canal. Par exemple, Alice pourrait dire : "Salut, je veux ouvrir un canal !" et Bob pourrait répondre : "D'accord, voici mon adresse publique."
+reviewed: false

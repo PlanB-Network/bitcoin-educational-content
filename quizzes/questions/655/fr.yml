@@ -1,0 +1,9 @@
+question: Qui initie le processus d'ouverture d'un canal dans le Lightning Network ?
+answer: Alice
+wrong_answers:
+  - Bob
+  - À la fois Alice et Bob
+  - Ni Alice ni Bob
+explanation: |
+  Dans le processus d'ouverture d'un canal dans le Lightning Network, c'est Alice qui initie le processus. Elle communique son intention d'ouvrir un canal à Bob, qui lui fournit en réponse son adresse publique.
+reviewed: false

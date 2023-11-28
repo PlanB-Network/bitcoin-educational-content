@@ -1,0 +1,10 @@
+question: Qual é o limite oficial para um país ser considerado em hiperinflação?
+answer: 50% por mês
+wrong_answers:
+  - 10% por mês
+  - 25% por mês
+  - 75% por mês
+explanation: |
+  Em 2007, a taxa de inflação do Zimbábue atingiu o limite de 50% por mês,
+  marcando oficialmente o país como estando em hiperinflação.
+reviewed: false

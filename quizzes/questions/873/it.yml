@@ -1,0 +1,9 @@
+question: Secondo Carl Menger, perché avviene uno scambio volontario tra due individui?
+answer: Ogni parte crede che aumenterà la loro utilità soggettiva.
+wrong_answers:
+  - Ogni parte crede che diminuirà la loro utilità soggettiva.
+  - Ogni parte crede che manterrà la loro utilità soggettiva.
+  - Ogni parte crede che non avrà alcun effetto sulla loro utilità soggettiva.
+explanation: |
+  Menger deduce che lo scambio volontario tra due individui avviene perché ogni parte crede che aumenterà la loro utilità soggettiva. Ciò significa che ogni parte crede di stare meglio dopo lo scambio.
+reviewed: false

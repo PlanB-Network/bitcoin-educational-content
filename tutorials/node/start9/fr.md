@@ -3,8 +3,6 @@ name: Start9
 description: Configurez votre nœud Start 9
 ---
 
-# Start9
-
 Start9 est un serveur personnel et un nœud Bitcoin.
 Plus de contenu à venir
 

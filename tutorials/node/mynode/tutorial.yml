@@ -1,10 +1,8 @@
 builder: My Node
 
 credits:
-  name: Arman the Parman
+  professor: rebuild-kiss
   link: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
-  tips:
-    lightning_adress: dandysack84@walletofsatoshi.com
 
 tags:
   - node

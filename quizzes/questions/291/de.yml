@@ -1,0 +1,10 @@
+question: Was ist die Bitcoin-Blockchain?
+answer: Eine Datenbank, die alle Bitcoin-Transaktionen aufzeichnet.
+wrong_answers:
+  - Eine Art digitaler Währung
+  - Ein Netzwerk von Bitcoin-Benutzern
+  - Eine Methode zum Mining von Bitcoins
+explanation: |
+  Die Bitcoin-Blockchain ist eine Datenbank, die alle Bitcoin-Transaktionen aufzeichnet.
+  Sie wird von Minern gewartet, die neue Transaktionen zur Blockchain hinzufügen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist eine gemeinsame Eigenschaft von Ponzi-Systemen im Bereich der Kryptowährung?
+answer: Sie verwenden das Geld neuer Investoren, um ältere Teilnehmer auszuzahlen.
+wrong_answers:
+  - Sie beinhalten immer Bitcoin.
+  - Sie sind immer legal und reguliert.
+  - Sie beinhalten immer physische Vermögenswerte.
+explanation: |
+  Ponzi-Systeme im Bereich der Kryptowährung arbeiten oft, indem sie das Geld neuer Investoren verwenden, um ältere Teilnehmer auszuzahlen. Diese nicht nachhaltige Natur und Abhängigkeit von neuen Teilnehmern machen es wahrscheinlich, dass sie letztendlich zusammenbrechen.
+reviewed: false

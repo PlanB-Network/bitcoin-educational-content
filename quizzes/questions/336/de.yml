@@ -1,0 +1,9 @@
+question: Was ist die Rolle einer heißen LN-Wallet für einen Hodler, der weiter gehen möchte?
+answer: Um etwas Bitcoin auszugeben.
+wrong_answers:
+  - Um mehr Bitcoin zu kaufen.
+  - Um alle ihre Bitcoin zu speichern.
+  - Um Bitcoin zu handeln.
+explanation: |
+  Ein Hodler, der weiter gehen möchte, kann eine heiße LN-Wallet verwenden, um zusätzlich zum langfristigen Halten etwas Bitcoin auszugeben.
+reviewed: false

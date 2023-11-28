@@ -1,0 +1,9 @@
+question: Quel est le rôle principal des mineurs dans le réseau Bitcoin ?
+answer: Ils sécurisent le réseau en effectuant les processus de preuve de travail de Bitcoin.
+wrong_answers:
+  - Ils créent de nouveaux bitcoins.
+  - Ils régulent le prix du Bitcoin.
+  - Ils contrôlent le réseau Bitcoin.
+explanation: |
+  Le contenu du chapitre explique que les mineurs sont responsables de la sécurisation du réseau Bitcoin. Ils utilisent de l'électricité pour effectuer les processus de preuve de travail de Bitcoin, ce qui crée un nouveau bloc.
+reviewed: false

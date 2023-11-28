@@ -1,0 +1,9 @@
+question: Según Carl Menger, ¿por qué tiene lugar el intercambio voluntario entre dos individuos?
+answer: Cada parte cree que aumentará su utilidad subjetiva.
+wrong_answers:
+  - Cada parte cree que disminuirá su utilidad subjetiva.
+  - Cada parte cree que mantendrá su utilidad subjetiva.
+  - Cada parte cree que no tendrá ningún efecto en su utilidad subjetiva.
+explanation: |
+  Menger deduce que el intercambio voluntario entre dos individuos tiene lugar porque cada parte cree que aumentará su utilidad subjetiva. Esto significa que cada parte cree que estará mejor después del intercambio.
+reviewed: false

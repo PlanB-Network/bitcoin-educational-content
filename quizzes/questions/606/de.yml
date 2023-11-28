@@ -1,0 +1,10 @@
+question: Was ist Kagan's Kriterium für Hyperinflation?
+answer: Eine Inflationsrate von 50% pro Monat.
+wrong_answers:
+  - Eine Inflationsrate von 50% pro Jahr.
+  - Eine Inflationsrate von 25% pro Monat.
+  - Eine Inflationsrate von 25% pro Jahr.
+explanation: |
+  Kagan's Kriterium definiert Hyperinflation als eine Inflationsrate von 50%
+  pro Monat. Dieses Kriterium kann manchmal zu mehrdeutigen Interpretationen führen, wenn Jahre hohe Inflationsraten aufweisen, aber nicht die strenge Definition von Hyperinflation erfüllen.
+reviewed: false

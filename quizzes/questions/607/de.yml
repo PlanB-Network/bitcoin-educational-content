@@ -1,0 +1,12 @@
+question: Was ist die zugrunde liegende Ursache für Hyperinflation, die durch eine Währungsumstellung nicht behoben wird?
+answer: Die Ausweitung der Geldmenge.
+wrong_answers:
+  - Die Verringerung der Geldmenge.
+  - Die Zunahme der Nachfrage nach Gütern und Dienstleistungen.
+  - Die Abnahme der Nachfrage nach Gütern und Dienstleistungen.
+explanation: |
+  Die eigentliche Ursache für Hyperinflation ist die Ausweitung der Geldmenge.
+  Währungsumstellung ist eine gängige Maßnahme, die von Regierungen während Phasen der Inflation ergriffen wird,
+  aber sie löst dieses zugrunde liegende Problem nicht. Es ist lediglich eine Möglichkeit, die Währung umzubenennen
+  und Nullen zu entfernen.
+reviewed: false

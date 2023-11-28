@@ -1,0 +1,9 @@
+question: Quelle est la définition de l'inflation selon Robert?
+answer: L'inflation est une augmentation excessive des instruments de paiement entraînant une hausse des prix et une dépréciation de la monnaie.
+wrong_answers:
+  - L'inflation est une diminution des instruments de paiement entraînant une hausse des prix et une dépréciation de la monnaie.
+  - L'inflation est une augmentation excessive des instruments de paiement entraînant une diminution des prix et une dépréciation de la monnaie.
+  - L'inflation est une augmentation excessive des instruments de paiement entraînant une hausse des prix et une appréciation de la monnaie.
+explanation: |
+  Selon Robert, l'inflation est définie comme une augmentation excessive des instruments de paiement (billets de banque, capital) entraînant une hausse des prix et une dépréciation de la monnaie.
+reviewed: false

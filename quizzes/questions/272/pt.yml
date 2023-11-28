@@ -1,0 +1,9 @@
+question: Qual é uma das medidas básicas para melhorar os hábitos de segurança online?
+answer: Ativar a autenticação em duas etapas (2FA)
+wrong_answers:
+  - Usar a mesma senha para todas as contas
+  - Negligenciar a realização regular de backups de dados
+  - Compartilhar suas senhas
+explanation: |
+  Ativar a autenticação em duas etapas (2FA) é uma das medidas básicas para melhorar os hábitos de segurança online. Ela fornece uma camada adicional de segurança para suas contas mais sensíveis.
+reviewed: false

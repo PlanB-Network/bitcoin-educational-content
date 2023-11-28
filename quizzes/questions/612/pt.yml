@@ -1,0 +1,9 @@
+question: Qual foi o valor máximo do primeiro Córdoba na Nicarágua?
+answer: 1 milhão.
+wrong_answers:
+  - 500.000
+  - 10 milhões
+  - 100 milhões
+explanation: |
+  Na Nicarágua, o primeiro Córdoba atingiu o valor de 1 milhão. O segundo Córdoba atingiu 10 milhões.
+reviewed: false

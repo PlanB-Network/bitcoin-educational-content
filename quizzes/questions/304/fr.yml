@@ -1,0 +1,9 @@
+question: Quelle est la principale raison pour laquelle les gouvernements et les banques centrales envisagent la possibilité de créer une version numérique de leur monnaie fiduciaire ?
+answer: Assurer le contrôle et se conformer aux réglementations locales
+wrong_answers:
+  - Pour concurrencer Bitcoin
+  - Pour garantir la protection de la vie privée
+  - Pour accroître la surveillance de masse
+explanation: |
+  Le contenu du chapitre explique que bien que ces projets prétendent concurrencer Bitcoin, ils restent centralisés afin d'assurer le contrôle et de se conformer aux réglementations locales.
+reviewed: false

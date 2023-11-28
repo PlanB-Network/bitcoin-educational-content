@@ -1,0 +1,9 @@
+question: ¿Qué es el Efecto Cantillon?
+answer: El Efecto Cantillon se refiere al principio económico de que cuando se crea dinero nuevo, inicialmente beneficia a aquellos más cercanos a la fuente del dinero, a expensas de aquellos más alejados.
+wrong_answers:
+  - El Efecto Cantillon se refiere al principio económico de que cuando se crea dinero nuevo, beneficia por igual a todos en la economía.
+  - El Efecto Cantillon se refiere al principio económico de que cuando se crea dinero nuevo, inicialmente beneficia a aquellos más alejados de la fuente del dinero, a expensas de aquellos más cercanos.
+  - El Efecto Cantillon se refiere al principio económico de que cuando se crea dinero nuevo, no tiene impacto en la distribución de la riqueza en la economía.
+explanation: |
+  El Efecto Cantillon, nombrado en honor al economista del siglo XVIII Richard Cantillon, describe cómo la distribución de dinero nuevo en una economía puede llevar a disparidades de riqueza. Aquellos más cercanos a la fuente del nuevo dinero (como banqueros y propietarios de activos) se benefician primero y de manera más significativa, mientras que aquellos más alejados (como trabajadores promedio y ahorradores) ven menos beneficios o incluso efectos negativos debido a la inflación.
+reviewed: false

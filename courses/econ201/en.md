@@ -86,7 +86,6 @@ Figure3 : Interest Rates Across Major Economies / Source: ECB
 
 Contrary to many expectations, QE programs did not significantly revive economic growth but did inflate financial assets to historic levels. This primarily benefited the wealthy and financial institutions, as they already held substantial quantities of such assets, thereby widening wealth disparities. Given the structure of the banking system explained earlier, this outcome should not come as a surprise. Since bank reserves cannot easily flow into the real economy, QE programs mainly boosted asset prices without effectively improving the financial situations of average individuals.
 
-
 ### The Cantillon Effect
 
 Nonetheless, an essential economic principle can be drawn from this episode: when new money is created, it initially benefits those closest to the source of the money, at the expense of those further away. This economic insight dates back to the 18th century when Richard Cantillon outlined it in his "Essay on the Nature of Commerce in General." It is now colloquially referred as the “Cantillon Effect”. 
@@ -212,7 +211,7 @@ Building on the insights of subjective ordinal value Menger explained the emerge
 
 The following chapters will be dedicated to the emergence of money as a social institution, the theory of capital and interest, which will serve as the basis for the Theory of the Business Cycle, and lastly the role of prices for economic calculation. 
 
-# The Emergence of Money as a Social Phenomenon
+## The Emergence of Money as a Social Phenomenon
 
 ![Money](https://youtu.be/Dt8ounex2jg)
 
@@ -296,7 +295,7 @@ In this regard, money, by allowing the storage of value in the present and its t
 
 In the next chapter we will delve into the concept of time preference and explain the Austrian perspective on interest and capital, which will serve as basis for the following chapter about the Theory of the Business Cycle.  
 
-# Time Preference, Interest, and Capital
+## Time Preference, Interest, and Capital
 
 ### Time Preference
 

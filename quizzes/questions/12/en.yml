@@ -1,0 +1,9 @@
+question: How the Lightning Network improve the scalability for Bitcoin transactions?
+answer: It uses a p2p network of payment channel to create off-chain transactions. 
+wrong_answers:
+  - It uses a trusted centralised party to process transactions effiently. 
+  - It uses another blockchain to aggregate transactions in large blocks.
+  - It uses a trusted users to create a federal reserve of bitcoin.
+explanation: |
+  Lightning Network with the use of payment channel can route off-chain transactions at a lower cost and more rapidly.
+reviewed: true

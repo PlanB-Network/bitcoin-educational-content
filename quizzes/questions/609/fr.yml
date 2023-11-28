@@ -1,0 +1,9 @@
+question: Quelle était la plus haute valeur faciale d'un billet au Brésil avant sa dernière réforme monétaire en 1994 ?
+answer: 500 000
+wrong_answers:
+  - 1 000 000
+  - 250 000
+  - 100 000
+explanation: |
+  La plus haute valeur faciale d'un billet au Brésil atteignait 500 000, et la dernière réforme monétaire en 1994 a été effectuée à un taux de 2 750 pour 1.
+reviewed: false

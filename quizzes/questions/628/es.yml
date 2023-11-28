@@ -1,0 +1,9 @@
+question: ¿Cuál fue la consecuencia de que el Banco de Inglaterra relegara a los bancos privados a una posición secundaria en el sistema monetario?
+answer: Se creó una tercera capa de moneda.
+wrong_answers:
+  - El Banco de Inglaterra se declaró en quiebra.
+  - El valor del oro aumentó.
+  - El Banco de Ámsterdam se convirtió en el centro económico global.
+explanation: |
+  Cuando el Banco de Inglaterra relegó a los bancos privados a una posición secundaria en el sistema monetario, se creó una tercera capa de moneda. Los billetes emitidos por los bancos privados ya no eran convertibles en oro, sino en moneda de papel del Banco de Inglaterra, que a su vez era convertible en oro.
+reviewed: false

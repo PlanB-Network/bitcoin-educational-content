@@ -1,0 +1,12 @@
+question: What is the concept of wage adjustment as discussed by Keynes and Dr. Philip Bagus?
+answer: It's the process of adjusting wages to match the economic conditions and inflation or deflation rates.
+wrong_answers:
+  - It's the process of adjusting wages to match the stock market performance.
+  - It's the process of adjusting wages to match the political climate.
+  - It's the process of adjusting wages to match the company's profit margins.
+explanation: |
+  Wage adjustment is a concept in economics that refers to the process
+  of adjusting wages to match the economic conditions and inflation or deflation rates.
+  Both Keynes and Dr. Philip Bagus discussed this concept, although they may have
+  different views on how it should be implemented.
+reviewed: false

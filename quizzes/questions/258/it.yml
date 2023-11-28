@@ -1,0 +1,9 @@
+question: Qual è una caratteristica comune dei sistemi Ponzi nel settore delle criptovalute?
+answer: Utilizzano i soldi dei nuovi investitori per pagare i partecipanti più anziani.
+wrong_answers:
+  - Coinvolgono sempre Bitcoin.
+  - Sono sempre legali e regolamentati.
+  - Coinvolgono sempre beni fisici.
+explanation: |
+  I sistemi Ponzi nel settore delle criptovalute spesso operano utilizzando i soldi dei nuovi investitori per pagare i partecipanti più anziani. Questa natura insostenibile e la dipendenza dai nuovi arrivi li rendono probabili collassi inevitabili.
+reviewed: false

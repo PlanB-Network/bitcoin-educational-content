@@ -1,0 +1,9 @@
+question: Was ist eine Wallet im Zusammenhang mit Bitcoin?
+answer: Ein digitaler Safe für deine Bitcoins
+wrong_answers:
+  - Ein physisches Gerät zum Speichern von Bitcoins
+  - Eine Software zum Minen von Bitcoins
+  - Eine Plattform zum Kaufen und Verkaufen von Bitcoins
+explanation: |
+  Der Kapitelinhalt erklärt, dass Bitcoins in dem, was als "Wallet" bezeichnet wird, gespeichert werden, was ein digitaler Safe für dein Geld ist. Nur der Schlüsselhalter kann darauf zugreifen.
+reviewed: false

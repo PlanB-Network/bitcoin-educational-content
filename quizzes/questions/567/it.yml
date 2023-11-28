@@ -1,0 +1,9 @@
+question: Qual è l'impatto dell'Indice dei Prezzi al Consumo (IPC) sulla misurazione dell'inflazione?
+answer: L'IPC può sottovalutare l'inflazione effettiva in quanto non tiene in considerazione in modo esaustivo l'evoluzione dei prezzi immobiliari e può compensare o mascherare effettivi aumenti di prezzo.
+wrong_answers:
+  - L'IPC misura sempre con precisione l'inflazione.
+  - L'IPC sovrastima l'inflazione effettiva.
+  - L'IPC non ha alcun impatto sulla misurazione dell'inflazione.
+explanation: |
+  Il capitolo spiega che l'IPC, utilizzato come principale indicatore dell'inflazione, ha determinate limitazioni. Ad esempio, non tiene in considerazione in modo esaustivo l'evoluzione dei prezzi immobiliari. Inoltre, il calcolo dell'IPC include determinate metodologie che possono compensare o mascherare effettivi aumenti di prezzo.
+reviewed: false

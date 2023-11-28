@@ -1,0 +1,9 @@
+question: Warum findet laut Carl Menger ein freiwilliger Austausch zwischen zwei Individuen statt?
+answer: Jede Partei glaubt, dass dies ihren subjektiven Nutzen erhöhen wird.
+wrong_answers:
+  - Jede Partei glaubt, dass dies ihren subjektiven Nutzen verringern wird.
+  - Jede Partei glaubt, dass dies ihren subjektiven Nutzen aufrechterhalten wird.
+  - Jede Partei glaubt, dass dies keinen Einfluss auf ihren subjektiven Nutzen haben wird.
+explanation: |
+  Menger schlussfolgert, dass ein freiwilliger Austausch zwischen zwei Individuen stattfindet, weil jede Partei glaubt, dass dies ihren subjektiven Nutzen erhöhen wird. Das bedeutet, dass jede Partei glaubt, dass sie nach dem Austausch besser dastehen wird.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual era a maior denominação de cédula no Brasil antes da sua última revalorização em 1994?
+answer: 500.000
+wrong_answers:
+  - 1.000.000
+  - 250.000
+  - 100.000
+explanation: |
+  A maior denominação de cédula no Brasil era de 500.000, e a última revalorização em 1994 foi feita na taxa de 2.750 para 1.
+reviewed: false

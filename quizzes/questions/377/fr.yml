@@ -1,0 +1,9 @@
+question: Quel est le rôle d'un nœud Bitcoin dans le contexte du Lightning Network?
+answer: Le rôle d'un nœud Bitcoin dans le contexte du Lightning Network est de comprendre et d'explorer les nouveaux aspects de Bitcoin apportés par le Lightning Network.
+wrong_answers:
+  - Pour miner de nouveaux Bitcoins.
+  - Pour échanger des Bitcoins.
+  - Pour stocker des Bitcoins.
+explanation: |
+  Un nœud Bitcoin dans le contexte du Lightning Network est utilisé pour comprendre et explorer les nouveaux aspects de Bitcoin apportés par le Lightning Network. Il ne mine pas de nouveaux Bitcoins, n'échange pas de Bitcoins et ne stocke pas de Bitcoins.
+reviewed: false

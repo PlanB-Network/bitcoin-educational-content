@@ -4,8 +4,6 @@ name: BitBox02
 description: Set-up and use a BitBox02
 ---
 
-# Bitbox02
-
 ![cover](assets/cover.jpeg)
 
 The BitBox02 (https://bitbox.swiss/) is a Swiss-made physical wallet specifically designed for securing your Bitcoins. Some of its key features include easy backup and restoration using a microSD card, a minimalist and discreet design, and comprehensive support for Bitcoin.

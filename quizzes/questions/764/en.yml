@@ -1,0 +1,13 @@
+question: What is the goal of the Bitcoin community in terms of network management?
+answer: To strengthen distribution, censorship resistance, and the anti-fragility of the network.
+wrong_answers:
+  - To increase the price of Bitcoin.
+  - To make transactions faster.
+  - To increase the mining difficulty.
+explanation: |
+  The Bitcoin community is constantly striving to strengthen distribution,
+
+  censorship resistance, and the anti-fragility of the network. This is in line with
+
+  Bitcoin''s fundamental mission to be a censorship-resistant value exchange network.'
+reviewed: false

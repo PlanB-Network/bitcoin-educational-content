@@ -1,0 +1,9 @@
+question: Qual è il ruolo del settore bancario nel causare una recessione secondo la Teoria Austriaca del Ciclo Economico?
+answer: Il settore bancario provoca una recessione quando decide di ridurre il proprio rischio e di conseguenza diminuisce il flusso di credito.
+wrong_answers:
+  - Il settore bancario provoca una recessione quando decide di aumentare il proprio rischio e di conseguenza aumenta il flusso di credito.
+  - Il settore bancario provoca una recessione quando decide di mantenere il proprio rischio e di conseguenza mantiene il flusso di credito.
+  - Il settore bancario non ha alcun ruolo nel causare una recessione secondo la Teoria Austriaca del Ciclo Economico.
+explanation: |
+  Secondo la Teoria Austriaca del Ciclo Economico, il settore bancario provoca una recessione quando decide di ridurre il proprio rischio e di conseguenza diminuisce il flusso di credito. Ciò porta a molte bancarotte, restrizioni del credito, una diminuzione del potere di acquisto disponibile e crisi finanziarie.
+reviewed: false

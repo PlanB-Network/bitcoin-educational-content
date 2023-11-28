@@ -1,0 +1,9 @@
+question: Qual é o papel do setor bancário na desencadeamento de uma recessão de acordo com a Teoria Austríaca do Ciclo Econômico?
+answer: O setor bancário desencadeia uma recessão quando decide reduzir seu risco e, portanto, diminui o fluxo de crédito.
+wrong_answers:
+  - O setor bancário desencadeia uma recessão quando decide aumentar seu risco e, portanto, aumenta o fluxo de crédito.
+  - O setor bancário desencadeia uma recessão quando decide manter seu risco e, portanto, mantém o fluxo de crédito.
+  - O setor bancário não tem papel no desencadeamento de uma recessão de acordo com a Teoria Austríaca do Ciclo Econômico.
+explanation: |
+  De acordo com a Teoria Austríaca do Ciclo Econômico, o setor bancário desencadeia uma recessão quando decide reduzir seu risco e, portanto, diminui o fluxo de crédito. Isso leva a muitas falências, restrição de crédito, diminuição do poder de compra disponível e colapsos financeiros.
+reviewed: false

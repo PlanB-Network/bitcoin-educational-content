@@ -6,8 +6,6 @@ description: Guía de configuración y uso (CC Bistack)
 
 ![cover](assets/cover.jpeg)
 
-# Tutorial de la billetera - Green Wallet
-
 Billetera móvil caliente - Principiante - Gratis - Para asegurar de 0 a 1,000 €
 
 Para asegurar cantidades por debajo de 1,000 €, una billetera caliente (conectada a Internet) gratuita es perfecta para comenzar. Su configuración es fácil y su interfaz está diseñada para principiantes.

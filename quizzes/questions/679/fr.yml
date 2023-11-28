@@ -1,0 +1,9 @@
+question: Quel est le type de fermeture de canal le plus rapide et le moins cher ?
+answer: Fermeture coopérative.
+wrong_answers:
+  - Fermeture forcée.
+  - Fermeture par un tricheur.
+  - Il n'y a aucune différence de vitesse et de coût entre les types de fermeture.
+explanation: |
+  Dans une fermeture coopérative, les deux parties communiquent et se mettent d'accord sur un état final du canal. C'est l'option la plus rapide et la moins chère.
+reviewed: false

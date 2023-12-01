@@ -1,0 +1,11 @@
+question: ¿Cuál es el papel principal de los mineros en la red de Bitcoin?
+answer: Ellos aseguran la red realizando los procesos de prueba de trabajo de Bitcoin.
+wrong_answers:
+  - Ellos crean nuevos bitcoins.
+  - Ellos regulan el precio de Bitcoin.
+  - Ellos controlan la red de Bitcoin.
+explanation: |
+  El contenido del capítulo explica que los mineros son responsables de asegurar
+  la red de Bitcoin. Utilizan electricidad para realizar los procesos de prueba de trabajo de Bitcoin,
+  lo cual crea un nuevo bloque.
+reviewed: false

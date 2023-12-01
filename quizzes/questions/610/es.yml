@@ -1,0 +1,9 @@
+question: ¿Cuál fue la tasa de inflación anual en Bolivia en 1985?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  En 1985, la tasa de inflación anual de Bolivia alcanzó el 11,749%, lo que indica que casi todos los meses, la inflación estuvo cerca o superó el umbral de hiperinflación del 50%.
+reviewed: false

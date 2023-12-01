@@ -1,0 +1,9 @@
+question: Qual è lo scopo ultimo dell'attività economica secondo Carl Menger?
+answer: Lo scopo ultimo dell'attività economica è il consumo.
+wrong_answers:
+  - Lo scopo ultimo dell'attività economica è la produzione.
+  - Lo scopo ultimo dell'attività economica è il risparmio.
+  - Lo scopo ultimo dell'attività economica è l'investimento.
+explanation: |
+  Secondo Carl Menger, i beni sono considerati beni economici (valutati) solo perché servono come mezzi per scopi scelti e valutati dagli individui. Pertanto, per Menger, il punto di partenza dell'analisi economica sono i beni di consumo, o beni finali, in quanto rappresentano lo scopo ultimo dell'attività economica.
+reviewed: false

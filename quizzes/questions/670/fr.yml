@@ -1,0 +1,9 @@
+question: Que se passe-t-il si Alice essaie de tricher en publiant un ancien état ?
+answer: Bob peut utiliser la clé de révocation pour déplacer les fonds sans attendre la fin du délai, punissant ainsi efficacement Alice.
+wrong_answers:
+  - Alice peut utiliser la clé de révocation pour déplacer les fonds sans attendre la fin du délai.
+  - Bob peut prolonger le délai pour empêcher Alice de récupérer son argent.
+  - Alice peut récupérer immédiatement son argent.
+explanation: |
+  Si Alice essaie de tricher en publiant un ancien état, Bob peut utiliser la clé de révocation pour déplacer les fonds sans attendre la fin du délai. Cela punit efficacement Alice pour avoir essayé de tricher.
+reviewed: false

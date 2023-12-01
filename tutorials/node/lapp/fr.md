@@ -3,8 +3,6 @@ name: LAPP bitcoin
 description: Tutorial pour développer votre première LApp
 ---
 
-# Tutorial pour développer votre première LApp
-
 Apprenez à coder votre première application Lightning
 
 Exigences:

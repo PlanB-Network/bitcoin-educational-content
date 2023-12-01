@@ -1,0 +1,9 @@
+question: Was ist die Definition von Inflation laut Larousse?
+answer: Inflation ist ein Phänomen, das durch einen allgemeinen und kontinuierlichen Anstieg des Preisniveaus gekennzeichnet ist.
+wrong_answers:
+  - Inflation ist ein Phänomen, das durch einen allgemeinen und kontinuierlichen Rückgang des Preisniveaus gekennzeichnet ist.
+  - Inflation ist ein Phänomen, das durch einen spezifischen und kontinuierlichen Anstieg des Preisniveaus gekennzeichnet ist.
+  - Inflation ist ein Phänomen, das durch einen allgemeinen und intermittierenden Anstieg des Preisniveaus gekennzeichnet ist.
+explanation: |
+  Laut Larousse wird Inflation definiert als ein Phänomen, das durch einen allgemeinen und kontinuierlichen Anstieg des Preisniveaus gekennzeichnet ist.
+reviewed: false

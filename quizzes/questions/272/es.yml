@@ -1,0 +1,11 @@
+question: ¿Cuál es una de las medidas básicas para mejorar los hábitos de seguridad en línea?
+answer: Habilitar la autenticación de dos factores (2FA)
+wrong_answers:
+  - Usar la misma contraseña para todas las cuentas
+  - Descuidar hacer copias de seguridad regularmente
+  - Compartir tus contraseñas
+explanation: |
+  Habilitar la autenticación de dos factores (2FA) es una de las medidas básicas
+  para mejorar los hábitos de seguridad en línea. Proporciona una capa adicional de seguridad a
+  tus cuentas más sensibles.
+reviewed: false

@@ -6,8 +6,6 @@ description: Billetera Bitcoin Radicalmente Simple y Potente
 
 ![cover](assets/cover.jpeg)
 
-# Blue Wallet - Billetera Bitcoin Radicalmente Simple y Potente.
-
 Blue Wallet es una billetera de código abierto de Bitcoin que es extremadamente fácil de usar pero aún así flexible.
 
 - Una billetera de Bitcoin de capa 1 está disponible de forma gratuita y no custodial.
@@ -19,7 +17,7 @@ Blue Wallet es una billetera de código abierto de Bitcoin que es extremadamente
 
 ## BlueWallet: una introducción
 
-![image](assets/1.jpg)
+![image](assets/1.jpeg)
 
 Para poder recibir o enviar Bitcoin desde su teléfono celular (o tableta), descargue BlueWallet desde el sitio correspondiente a su tipo de teléfono celular o tableta:
 

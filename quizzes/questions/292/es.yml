@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito de las carteras de Bitcoin?
+answer: Para enviar y recibir bitcoins
+wrong_answers:
+  - Para minar bitcoins
+  - Para almacenar bitcoins físicos
+  - Para convertir bitcoins en otras monedas
+explanation: |
+  Las carteras de Bitcoin se utilizan para enviar y recibir bitcoins. Son carteras digitales que almacenan las credenciales digitales necesarias para acceder a una dirección de bitcoin y gastar los bitcoins.
+reviewed: false

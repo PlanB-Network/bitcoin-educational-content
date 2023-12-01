@@ -1,0 +1,9 @@
+question: Qual foi a característica única das notas promissórias introduzidas na Bolsa de Valores de Antuérpia no século XVI?
+answer: Elas continham nomes e datas de vencimento
+wrong_answers:
+  - Elas eram feitas de ouro
+  - Elas eram emitidas pelo Banco de Amsterdã
+  - Elas eram convertíveis em florins
+explanation: |
+  A Bolsa de Valores de Antuérpia introduziu notas promissórias que continham nomes e datas de vencimento. Isso as tornava difíceis de serem trocadas antes da data de vencimento. No entanto, a bolsa introduziu a prática de desconto dessas notas antes da data de vencimento, tornando-as mais líquidas e introduzindo o conceito do valor do dinheiro no tempo.
+reviewed: false

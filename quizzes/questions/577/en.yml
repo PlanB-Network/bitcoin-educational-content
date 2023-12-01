@@ -1,0 +1,12 @@
+question: What is the main argument of fiat economists regarding deflation?
+answer: They argue that deflation is bad for the economy as it discourages spending and investment.
+wrong_answers:
+  - They argue that deflation is good for the economy as it encourages saving and investment.
+  - They argue that deflation has no impact on the economy.
+  - They argue that deflation is neither good nor bad for the economy.
+explanation: |
+  Fiat economists, who support the current monetary system where money
+  is not backed by a physical commodity like gold, generally argue that deflation
+  is bad for the economy. They believe that it discourages spending and investment,
+  which can lead to economic stagnation or recession.
+reviewed: false

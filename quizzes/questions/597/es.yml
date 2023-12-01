@@ -1,0 +1,9 @@
+question: ¿Cuál fue la percepción de la población alemana durante el período de hiperinflación en la República de Weimar?
+answer: Atribuyeron la inflación al aumento del dólar en lugar de la devaluación intrínseca de su propia moneda.
+wrong_answers:
+  - Eran plenamente conscientes de la causa subyacente de la hiperinflación que estaban experimentando.
+  - Culparon al gobierno por sus dificultades económicas.
+  - Creían que la hiperinflación era resultado de las reparaciones de guerra.
+explanation: |
+  La población alemana durante la República de Weimar atribuyó la inflación que estaban experimentando al aumento del dólar, ignorando cualquier reconocimiento de la relación entre sus dificultades económicas y la devaluación monetaria, principalmente inducida por la creación excesiva de dinero.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Was ist die Hauptfunktion eines Passwort-Managers?
+answer: Um Ihre Passwörter zu speichern und zu verwalten
+wrong_answers:
+  - Um zufällige Passwörter zu generieren
+  - Um sich an Ihre Benutzernamen zu erinnern
+  - Um Ihren Computer vor Viren zu schützen
+explanation: |
+  Ein Passwort-Manager ist eine Software, die Ihre Passwörter speichert und verwaltet.
+  Er hilft Ihnen dabei, niemals dasselbe Passwort zweimal zu verwenden, komplexe und sichere Passwörter zu wählen,
+  und erleichtert die Verwaltung Ihrer Online-Sicherheit.
+reviewed: false

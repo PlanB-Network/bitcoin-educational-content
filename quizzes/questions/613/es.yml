@@ -1,0 +1,9 @@
+question: ¿Cuál fue la tasa de cambio del bolívar digital en Venezuela en 2021?
+answer: Uno a un millón.
+wrong_answers:
+  - Uno a mil.
+  - Uno a diez mil.
+  - Uno a cien mil.
+explanation: |
+  En 2021, el bolívar digital en Venezuela fue reemplazado con una nueva redenominación de uno a un millón.
+reviewed: false

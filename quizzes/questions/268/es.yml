@@ -1,0 +1,11 @@
+question: ¿Cuál es la función principal de un gestor de contraseñas?
+answer: Almacenar y gestionar tus contraseñas
+wrong_answers:
+  - Generar contraseñas aleatorias
+  - Recordar tus nombres de usuario
+  - Proteger tu computadora de virus
+explanation: |
+  Un gestor de contraseñas es un software que almacena y gestiona tus contraseñas.
+  Te ayuda a no utilizar la misma contraseña dos veces, elegir contraseñas complejas y seguras,
+  y facilita la gestión de tu seguridad en línea.
+reviewed: false

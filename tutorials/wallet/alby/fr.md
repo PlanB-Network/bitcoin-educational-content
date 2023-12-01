@@ -6,8 +6,6 @@ description: Extension de navigateur pour Bitcoin et LightningNetwork
 
 ![cover](assets/cover.jpeg)
 
-# Alby - Extension de navigateur pour #Bitcoin et #LightningNetwork
-
 Pour consulter tous les meilleurs guides sur Alby, consultez leur page de documentation ! https://guides.getalby.com/overall-guide/
 
 ## vidéo tutoriel

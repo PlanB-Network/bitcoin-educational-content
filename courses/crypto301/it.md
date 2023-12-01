@@ -24,7 +24,7 @@ Questo corso ti fornirà non solo le conoscenze per comprendere la struttura di 
 
 ![introduzione di Rogzy](https://youtu.be/ul8zU5QWIXg)
 
-È con grande piacere che ti diamo il benvenuto al nuovo corso intitolato "Crypto 301: Introduzione alla crittografia e al portafoglio HD", condotto dall'esperto in materia, Loïc Morel. Questo corso ti immergerà nel fascinante mondo della crittografia, una disciplina fondamentale delle matematiche che assicura la crittografia e la sicurezza dei tuoi dati.
+È con grande piacere che ti diamo il benvenuto al nuovo corso intitolato "Crypto 301: Introduzione alla crittografia e al portafoglio HD", condotto dall'esperto in materia, Loïc Morel. Questo corso ti immergerà nell'affascinante mondo della crittografia, una disciplina fondamentale della matematica che assicura la crittografia e la sicurezza dei tuoi dati.
 
 Nella nostra vita quotidiana e soprattutto nel campo dei Bitcoin, la crittografia svolge un ruolo primario. I concetti ad essa legati, come le chiavi private, pubbliche, gli indirizzi, i percorsi di derivazione, il seed e l'entropia, sono al centro dell'uso e della creazione di un portafoglio Bitcoin. Attraverso questo corso, Loïc ti spiegherà nel dettaglio come vengono create le chiavi private e come sono collegate agli indirizzi. Loïc dedicherà anche un'ora per spiegarti i dettagli matematici della curva ellittica, questa complessa curva matematica. Inoltre, capirai perché l'uso di HMAC SHA512 è importante per proteggere il tuo portafoglio e qual è la differenza tra il seed e la frase mnemonica.
 
@@ -76,7 +76,7 @@ Alla fine di questa esplorazione, abbiamo svelato i segreti delle funzioni di ha
 
 ![I meccanismi di SHA256](https://youtu.be/74SWg_ZbUj4)
 
-Benvenuti al seguito del nostro affascinante viaggio attraverso i labirinti crittografici della funzione di hash. Oggi sveliamo i misteri di SHA256, un processo complesso ma ingegnoso che abbiamo introdotto nella nostra precedente discussione sulle funzioni di hash. Facciamo un passo avanti in questo labirinto, iniziando con il pre-processing di SHA256. Immaginate il pre-processing come la preparazione di un piatto gustoso, in cui aggiungiamo "bit di riempimento" per far sì che la dimensione del nostro ingrediente principale, l'input, raggiunga un multiplo perfetto di 512 bit. Tutto questo con l'obiettivo finale di generare un hash succulento di 256 bit da un ingrediente di dimensioni variabili.
+Benvenuti al seguito del nostro affascinante viaggio attraverso i labirinti crittografici della funzione di hash. Oggi sveliamo i misteri di SHA256, un processo complesso, ma ingegnoso che abbiamo introdotto nella nostra precedente discussione sulle funzioni di hash. Facciamo un passo avanti in questo labirinto, iniziando con il pre-processing di SHA256. Immaginate il pre-processing come la preparazione di un piatto gustoso, in cui aggiungiamo "bit di riempimento" per far sì che la dimensione del nostro ingrediente principale, l'input, raggiunga un multiplo perfetto di 512 bit. Tutto questo con l'obiettivo finale di generare un hash succulento di 256 bit da un ingrediente di dimensioni variabili.
 
 ![image](assets/image/section1/3.JPG)
 ![image](assets/image/section1/4.JPG)
@@ -85,7 +85,7 @@ Nella presente ricetta crittografica, giochiamo con i bit, avendo una dimensione
 
 ![image](assets/image/section1/5.JPG)
 
-Passiamo ora alla seconda fase di pre-elaborazione, che coinvolge l'aggiunta della rappresentazione binaria della dimensione del messaggio iniziale, in bit. Per fare ciò, utilizziamo i nostri 64 bit riservati durante il passaggio precedente. Aggiungiamo zeri per arrotondare i nostri 64 bit alla nostra input bilanciata. Successivamente, uniamo il messaggio iniziale, il padding dei bit e il padding della dimensione, come ingredienti in un frullatore, per ottenere la nostra input bilanciata.
+Passiamo ora alla seconda fase di pre-elaborazione, che coinvolge l'aggiunta della rappresentazione binaria della dimensione del messaggio iniziale, in bit. Per fare ciò, utilizziamo i nostri 64 bit riservati durante il passaggio precedente. Aggiungiamo zeri per arrotondare i nostri 64 bit alla nostra input bilanciata. Successivamente, uniamo il messaggio iniziale, il padding dei bit e il padding della dimensione, come ingredienti in un frullatore, per ottenere il nostro input bilanciato.
 
 ![image](assets/image/section1/6.JPG)
 
@@ -161,7 +161,7 @@ Quando si parla delle costanti utilizzate nel sistema Bitcoin, si fa generalment
 Nota che tutti i valori esadecimali sono generalmente rappresentati in base 16, mentre i valori decimali sono in base 10. Inoltre, tutte le operazioni su queste costanti vengono eseguite modulo p per le coordinate dei punti sulla curva e modulo n per le operazioni di chiave e firma.
 Quindi, dove vengono conservati questi famosi bitcoin? Non in un portafoglio Bitcoin, come si potrebbe pensare. In realtà, un portafoglio Bitcoin conserva le chiavi private necessarie per dimostrare la proprietà dei bitcoin. I bitcoin stessi sono registrati sulla blockchain, un database decentralizzato che archivia tutte le transazioni.
 
-Nel sistema Bitcoin, l'unità di conto è il bitcoin (nota la "b" minuscola). Quest'ultimo è divisibile fino a otto decimali, con la più piccola unità chiamata satoshi. Le UTXO, o "Unspent Transaction Output", rappresentano le uscite di transazioni non spese appartenenti a un utente. Per spendere questi bitcoin, è necessario dimostrare la proprietà della chiave privata corrispondente alla chiave pubblica associata a ciascuna UTXO.
+Nel sistema Bitcoin, l'unità di conto è il bitcoin (nota la "b" minuscola). Quest'ultimo è divisibile fino a otto decimali, con la più piccola unità chiamata satoshi. Gli UTXO, o "Unspent Transaction Output", rappresentano le uscite di transazioni non spese appartenenti a un utente. Per spendere questi bitcoin, è necessario dimostrare la proprietà della chiave privata corrispondente alla chiave pubblica associata a ciascun UTXO.
 
 Per garantire la sicurezza delle transazioni, Bitcoin utilizza due protocolli di firma digitale: ECDSA (Elliptic Curve Digital Signature Algorithm) e Schnorr. ECDSA è un protocollo di firma integrato in Bitcoin fin dal suo lancio nel 2009, mentre le firme di Schnorr sono state aggiunte più di recente, nel novembre 2021. Sebbene entrambi i protocolli si basino sulla crittografia a curve ellittiche e utilizzino meccanismi matematici simili, differiscono principalmente in termini di struttura della firma.
 
@@ -225,7 +225,7 @@ In modo preciso, per validare una firma digitale utilizzando l'algoritmo ECDSA (
 ![image](assets/image/section2/11.JPG)
 
 È importante notare che ogni software può utilizzare diverse notazioni e alcune fasi possono essere combinate o riarrangiate, ma la logica di base è la stessa. Si noti inoltre che tutte le operazioni aritmetiche vengono eseguite nel campo finito definito dalla curva ellittica (mod n, dove n è l'ordine della curva). Come promemoria, la curva secp256k1 (utilizzata in Bitcoin) ha n = 2^256 - 432420386565659656852420866394968145599.
-Per quanto riguarda la generazione di chiavi pubbliche e private, è essenziale familiarizzarsi con la curva ellittica e il punto generatore. Per ottenere una chiave pubblica, è necessario scegliere un numero casuale come chiave privata, spesso chiamato "nonce", e utilizzarlo nell'equazione della curva ellittica.
+Per quanto riguarda la generazione di chiavi pubbliche e private, è essenziale familiarizzare con la curva ellittica e il punto generatore. Per ottenere una chiave pubblica, è necessario scegliere un numero casuale come chiave privata, spesso chiamato "nonce", e utilizzarlo nell'equazione della curva ellittica.
 
 La curva ellittica è uno strumento potente per generare chiavi pubbliche e private sicure. Ad esempio, per ottenere la chiave pubblica 3G, si traccia una tangente al punto G, si calcola l'opposto di -G per ottenere 2G, quindi si somma G e 2G. Per effettuare una transazione, è necessario dimostrare di conoscere il numero 3 sbloccando i bitcoin associati alla chiave pubblica 3G.
 
@@ -257,7 +257,7 @@ In conclusione, la verifica di una firma digitale ECDSA è una procedura essenzi
 
 Detto questo, la gestione di queste chiavi, così come la loro creazione, è un'altra questione chiave in Bitcoin. Come si genera una nuova coppia di chiavi? Come si organizza una moltitudine di chiavi in modo sicuro ed efficiente? Come recuperarle se necessario?
 
-Per rispondere a queste domande e approfondire la comprensione della sicurezza crittografica, il prossimo corso si concentrerà sul concetto di portafogli deterministici gerarchici (portafogli HD) e sull'uso di frasi mnemoniche. Questi meccanismi offrono modi eleganti per gestire in modo efficiente le chiavi delle criptovalute, migliorando al contempo la sicurezza e la recuperabilità.
+Per rispondere a queste domande ed approfondire la comprensione della sicurezza crittografica, il prossimo corso si concentrerà sul concetto di portafogli deterministici gerarchici (portafogli HD) e sull'uso di frasi mnemoniche. Questi meccanismi offrono modi eleganti per gestire in modo efficiente le chiavi delle criptovalute, migliorando al contempo la sicurezza e la recuperabilità.
 
 # Il mnemonico
 
@@ -273,7 +273,7 @@ Tuttavia, la complessità della gestione di queste chiavi è compensata da un in
 
 ![image](assets/image/section3/1.JPG)
 
-Successivamente, il [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) ha introdotto un'innovazione significativa: la frase mnemonica di 24 parole. Questo sistema ha permesso di trasformare una sequenza complessa di numeri, difficile da ricordare, in una serie di parole comuni, molto più facili da memorizzare e conservare. Inoltre, il [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) ha proposto di aggiungere una frase di passaggio aggiuntiva per rafforzare la sicurezza delle singole chiavi. Questi miglioramenti successivi hanno portato agli standard BIP43 e BIP44, che hanno standardizzato la struttura e la gerarchia dei portafogli HD, rendendo questi portafogli più accessibili e facili da usare per il pubblico.
+Successivamente, il [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) ha introdotto un'innovazione significativa: la frase mnemonica di 24 parole. Questo sistema ha permesso di trasformare una sequenza complessa di numeri, difficile da ricordare, in una serie di parole comuni, molto più facili da memorizzare e conservare. Inoltre, il [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) ha proposto di aggiungere una frase aggiuntiva - passphrase, per rafforzare la sicurezza delle singole chiavi. Questi miglioramenti successivi hanno portato agli standard BIP43 e BIP44, che hanno standardizzato la struttura e la gerarchia dei portafogli HD, rendendo questi portafogli più accessibili e facili da usare per il pubblico.
 
 Nelle sezioni seguenti, approfondiremo il funzionamento dei portafogli HD. Esamineremo i principi di derivazione delle chiavi e esamineremo i concetti fondamentali di entropia e generazione di numeri casuali, che sono essenziali per garantire la sicurezza del tuo portafoglio HD.
 In sintesi, è essenziale sottolineare il ruolo centrale di BIP32 e BIP39 nella progettazione e sicurezza dei portafogli HD. Questi protocolli consentono di generare una moltitudine di chiavi da un unico seed, che dovrebbe essere un numero casuale o pseudo-casuale. Oggi, queste norme sono adottate dalla maggior parte dei portafogli di criptovalute, che siano dedicati a una singola criptovaluta o supportino diversi tipi di valute.
@@ -296,7 +296,7 @@ Nel caso del Bitcoin, le chiavi private vengono generate da un'unica informazion
 
 La fase di verifica della generazione delle chiavi è cruciale per garantire la sicurezza e l'autenticità della generazione di numeri casuali, un passaggio fondamentale per prevenire qualsiasi vulnerabilità associata alla prevedibilità. Pertanto, è fortemente consigliabile utilizzare portafogli open source per consentire questa verifica.
 
-Tuttavia, è importante notare che alcuni portafogli hardware possono essere "closed source", rendendo impossibile la verifica della generazione del numero casuale. Un possibile workaround sarebbe generare la propria frase mnemonica utilizzando dei dadi, anche se questo approccio potrebbe comportare alcuni rischi.
+Tuttavia, è importante notare che alcuni hardware wallet possono essere "closed source", rendendo impossibile la verifica della generazione del numero casuale. Un possibile workaround sarebbe generare la propria frase mnemonica utilizzando dei dadi, anche se questo approccio potrebbe comportare alcuni rischi.
 
 ![image](assets/image/section3/4.JPG)
 
@@ -318,11 +318,11 @@ L'entropia è il fondamento della sicurezza del portafoglio HD. Ci sono diversi 
 
 ![image](assets/image/section3/6.JPG)
 
-Il checksum, d'altra parte, garantisce la verifica dell'esattezza della frase di recupero. Senza questo checksum, un errore nella frase potrebbe portare alla creazione di un portafoglio diverso e quindi alla perdita dei fondi. Il checksum viene ottenuto passando l'entropia attraverso la funzione SHA256 e recuperando i primi 8 bit dell'hash.
+La checksum, d'altra parte, garantisce la verifica dell'esattezza della frase di recupero. Senza questa checksum, un errore nella frase potrebbe portare alla creazione di un portafoglio diverso e quindi alla perdita dei fondi. La checksum viene ottenuta passando l'entropia attraverso la funzione SHA256 e recuperando i primi 8 bit dell'hash.
 
-Esistono diversi standard per la frase mnemonica in base alla dimensione dell'entropia. Lo standard più comunemente utilizzato per una frase di recupero di 24 parole è un'entropia di 256 bit. La dimensione del checksum è determinata dividendo la dimensione dell'entropia per 32.
+Esistono diversi standard per la frase mnemonica in base alla dimensione dell'entropia. Lo standard più comunemente utilizzato per una frase di recupero di 24 parole è un'entropia di 256 bit. La dimensione della checksum è determinata dividendo la dimensione dell'entropia per 32.
 
-Ad esempio, un'entropia di 256 bit genera un checksum di 8 bit. La concatenazione dell'entropia e del checksum porta quindi a dimensioni rispettive di 128 bit, 160 bit, ecc. In base alla dimensione dell'entropia, la frase di recupero avrà 12 parole per 128 bit, 15 parole per 160 bit e 24 parole per 256 bit.
+Ad esempio, un'entropia di 256 bit genera una checksum di 8 bit. La concatenazione dell'entropia e della checksum porta quindi a dimensioni rispettive di 128 bit, 160 bit, ecc. In base alla dimensione dell'entropia, la frase di recupero avrà 12 parole per 128 bit, 15 parole per 160 bit e 24 parole per 256 bit.
 
 ![image](assets/image/section3/7.JPG)
 
@@ -336,7 +336,7 @@ In conclusione, la generazione di una frase mnemonica per proteggere un portafog
 
 ![La passphrase](https://youtu.be/dZkOYO7MXwc)
 
-La passphrase è una password aggiuntiva che può essere integrata in un portafoglio Bitcoin per aumentarne la sicurezza. Il suo utilizzo è opzionale e dipende dalla discrezione dell'utente. Aggiungendo informazioni arbitrarie che, insieme alla frase mnemonica, consentono di calcolare il seed del portafoglio, la passphrase rafforza la sua sicurezza.
+La passphrase è una parola ( o un insieme di parole) aggiuntiva che può essere integrata in un portafoglio Bitcoin per aumentarne la sicurezza. Il suo utilizzo è opzionale e dipende dalla discrezione dell'utente. Aggiungendo informazioni arbitrarie che, insieme alla frase mnemonica, consentono di calcolare il seed del portafoglio, la passphrase rafforza la sua sicurezza.
 
 ![image](assets/image/section3/8.JPG)
 
@@ -350,7 +350,7 @@ Una passphrase efficace dovrebbe essere lunga (da 20 a 40 caratteri) e diversifi
 
 ![image](assets/image/section3/9.JPG)
 
-Una passphrase è più sicura di una semplice password. La passphrase ideale è lunga, variegata e casuale. Può rafforzare la sicurezza di un portafoglio o di un software caldo. Può anche essere utilizzata per creare backup ridondanti e sicuri.
+Una passphrase è più sicura di una semplice password. La passphrase ideale è lunga, variegata e casuale. Può rafforzare la sicurezza di un portafoglio o di un hot wallet. Può anche essere utilizzata per creare backup ridondanti e sicuri.
 
 È fondamentale prendersi cura dei backup della passphrase per evitare di perdere l'accesso al portafoglio. Una passphrase è un'opzione per un portafoglio HD. Può essere generata casualmente con dadi o un altro generatore di numeri pseudo-casuali. Non è consigliabile memorizzare una passphrase o una frase mnemonica.
 
@@ -366,7 +366,7 @@ In questa parte del corso, esploreremo i passaggi per la derivazione di un porta
 
 ![image](assets/image/section4/0.JPG)
 
-La base del portafoglio HD si basa su due elementi essenziali: la frase mnemonica e la passphrase (password aggiuntiva opzionale). Insieme, costituiscono il seed, una sequenza alfanumerica di 512 bit che serve come base per derivare le chiavi del portafoglio. Da questo seed, è possibile derivare tutte le coppie di chiavi figlie del portafoglio Bitcoin. Il seed è la chiave per accedere a tutti i bitcoin associati al portafoglio, che tu utilizzi o meno una passphrase.
+La base del portafoglio HD si basa su due elementi essenziali: la frase mnemonica e la passphrase. Insieme, costituiscono il seed, una sequenza alfanumerica di 512 bit che serve come base per derivare le chiavi del portafoglio. Da questo seed, è possibile derivare tutte le coppie di chiavi figlie del portafoglio Bitcoin. Il seed è la chiave per accedere a tutti i bitcoin associati al portafoglio, che tu utilizzi o meno una passphrase.
 
 Per ottenere il seed, viene utilizzata la funzione pbkdf2 (Password-Based Key Derivation Function 2) con la frase mnemonica e la passphrase. L'output di pbkdf2 è un seed di 512 bit. La chiave privata maestra e il codice di catena maestra vengono determinati utilizzando l'algoritmo HMAC SHA-512 (Hash-based Message Authentication Code Secure Hash Algorithm 512). Questo algoritmo richiede un messaggio e una chiave per generare un risultato. La chiave privata maestra viene calcolata a partire dal seed e dalla frase "Bitcoin SEED". Questa frase è identica per tutte le derivazioni del portafoglio HD, garantendo così coerenza tra i portafogli.
 
@@ -380,7 +380,7 @@ Una coppia di chiavi nel portafoglio comprende una chiave privata, una chiave pu
 
 ![image](assets/image/section4/2.JPG)
 
-È importante sottolineare che la chiave privata master è la prima chiave privata derivata dal seed e non ha alcun collegamento con le chiavi estese del portafoglio. Il seed è quindi l'elemento fondamentale per derivare tutte le chiavi del portafoglio. Differisce dalla frase mnemonica e dalla passphrase, che vengono utilizzate per la creazione del seed.
+È importante sottolineare che la chiave privata master è la prima chiave privata derivata dal seed e non ha alcun collegamento con le chiavi estese del portafoglio. Il seed è quindi l'elemento fondamentale per derivare tutte le chiavi del portafoglio. Se avete aggiunto una o più passphrase, anche queste saranno fondamentali per la derivazione delle chiavi del portafolio.
 Nella prossima lezione, esploreremo in dettaglio le chiavi estese, come xPub, xPRV, zPub, e capiremo perché vengono utilizzate e come vengono costruite.
 
 ## Le chiavi estese
@@ -403,7 +403,7 @@ Ogni coppia di chiavi estese è associata a un codice di catena univoco, che con
 
 ![image](assets/image/section4/5.JPG)
 
-Le chiavi pubbliche estese possono essere derivate solo dalle normali chiavi pubbliche figlie, mentre le chiavi private estese possono essere derivate dalle chiavi pubbliche e private figlie, sia in una derivazione normale che indurita. L'uso delle chiavi estese con il prefisso XPUB consente di derivare nuovi indirizzi senza risalire alle corrispondenti chiavi private, offrendo una maggiore sicurezza. I metadati associati alle chiavi estese forniscono informazioni importanti sul loro ruolo e sulla loro posizione nella gerarchia delle chiavi.
+Le chiavi pubbliche estese possono essere derivate solo dalle normali chiavi pubbliche figlie, mentre le chiavi private estese possono essere derivate dalle chiavi pubbliche e private figlie, sia in una derivazione normale che indurita - hardened. L'uso delle chiavi estese con il prefisso XPUB consente di derivare nuovi indirizzi senza risalire alle corrispondenti chiavi private, offrendo una maggiore sicurezza. I metadati associati alle chiavi estese forniscono informazioni importanti sul loro ruolo e sulla loro posizione nella gerarchia delle chiavi.
 
 Le chiavi pubbliche compressate hanno una dimensione di 33 byte, mentre le chiavi pubbliche non elaborate sono di 512 bit. Le chiavi pubbliche compressate conservano le stesse informazioni delle chiavi non elaborate, ma con una dimensione ridotta. Le chiavi estese hanno una dimensione di 82 byte e il loro prefisso è rappresentato in base 58 tramite una conversione in esadecimale. Il checksum viene calcolato utilizzando la funzione di hash HASH256.
 
@@ -496,15 +496,15 @@ Quando un destinatario desidera ricevere bitcoin, fornisce al mittente un indiri
 
 È importante notare che non è possibile risalire dall'indirizzo alla chiave pubblica o dalla chiave pubblica alla chiave privata. L'uso di un indirizzo riduce la dimensione delle informazioni della chiave pubblica, che inizialmente è di 512 bit. È possibile comprimere una chiave pubblica mantenendo solo il valore di x e aggiungendo un prefisso, ma questa tecnica non era nota al momento della creazione di Bitcoin. L'utilizzo di un indirizzo non consente quindi di risparmiare spazio nei blocchi.
 
-Le indirizzi Bitcoin sono stati ridotti in dimensioni per facilitarne l'uso. Hanno un checksum, che consente di rilevare errori di battitura e ridurre i rischi di perdita di bitcoin. Al contrario, le chiavi pubbliche non hanno un checksum, il che significa che gli errori di battitura possono portare alla perdita dei fondi corrispondenti.
+Gli indirizzi Bitcoin sono stati ridotti in dimensione per facilitarne l'uso. Hanno un checksum, che consente di rilevare errori di battitura e ridurre i rischi di perdita di bitcoin. Al contrario, le chiavi pubbliche non hanno un checksum, il che significa che gli errori di battitura possono portare alla perdita dei fondi corrispondenti.
 
-Gli indirizzi offrono anche un secondo livello di sicurezza tra le informazioni pubbliche e private, rendendo più difficile il controllo della chiave privata. Le funzioni di hash utilizzate consentono alle coppie di chiavi di resistere a eventuali attacchi da parte di computer quantistici. Infatti, questi computer possono potenzialmente rompere l'ECDSA (Elliptic Curve Digital Signature Algorithm), ma non possono rompere una funzione di hash.
+Gli indirizzi offrono anche un secondo livello di sicurezza tra le informazioni pubbliche e private, rendendo più difficile il controllo della chiave privata. Le funzioni di hash utilizzate consentono alle coppie di chiavi di resistere ad eventuali attacchi da parte di computer quantistici. Infatti, questi computer possono potenzialmente rompere l'ECDSA (Elliptic Curve Digital Signature Algorithm), ma non possono rompere una funzione di hash.
 
 È essenziale sottolineare che ogni indirizzo è a uso unico, il che contribuisce alla sicurezza e alla privacy. Il riutilizzo dello stesso indirizzo comporta gravi problemi di privacy e deve essere evitato. Inoltre, ogni indirizzo è un hash di una chiave pubblica, accompagnato da un checksum per ridurre il rischio di perdita di bitcoin.
 
 Diversi prefissi vengono utilizzati per gli indirizzi Bitcoin. Ad esempio, BC1Q corrisponde a un indirizzo Segwit V0, BC1P a un indirizzo Taproot/Segwit V1, e i prefissi 1 e 3 sono associati agli indirizzi Pay2PublicKeyH/Pay2ScriptH (legacy). Nel prossimo corso, spiegheremo passo dopo passo la derivazione di un indirizzo da una chiave pubblica.
 
-In sintesi, gli indirizzi di ricezione sono un elemento essenziale del sistema Bitcoin. Sono generati da coppie di chiavi private e pubbliche e servono per ricevere fondi su una transazione. Gli indirizzi includono un checksum per ridurre i rischi di perdita di bitcoin e sono progettati per essere utilizzati in modo univoco, garantendo così sicurezza e privacy. Vengono utilizzati diversi tipi di indirizzi nel sistema Bitcoin, offrendo una maggiore privacy e sicurezza.
+In sintesi, gli indirizzi di ricezione sono un elemento essenziale del sistema Bitcoin. Sono generati da coppie di chiavi private e pubbliche e servono per ricevere fondi su una transazione. Gli indirizzi includono una checksum per ridurre i rischi di perdita di bitcoin e sono progettati per essere utilizzati in modo univoco, garantendo così sicurezza e privacy. Vengono utilizzati diversi tipi di indirizzi nel sistema Bitcoin, offrendo una maggiore privacy e sicurezza.
 
 ## Come creare un indirizzo Bitcoin?
 
@@ -514,18 +514,18 @@ In questo capitolo, affronteremo la creazione di un indirizzo di ricezione per l
 
 ![immagine](assets/image/section5/3.JPG)
 
-Una delle caratteristiche vantaggiose degli indirizzi di ricezione è la presenza di un checksum, che consente la rilevazione degli errori. A tal scopo, utilizziamo la tecnologia di checksum BCH (Bose-Chaudhuri-Hocquenghem) che garantisce una precisa rilevazione degli errori. Questa tecnologia contribuisce anche a ridurre il numero di caratteri necessari per rappresentare un indirizzo, facilitandone così l'uso.
+Una delle caratteristiche vantaggiose degli indirizzi di ricezione è la presenza di una checksum, che consente la rilevazione degli errori. A tal scopo, utilizziamo la tecnologia di checksum BCH (Bose-Chaudhuri-Hocquenghem) che garantisce una precisa rilevazione degli errori. Questa tecnologia contribuisce anche a ridurre il numero di caratteri necessari per rappresentare un indirizzo, facilitandone così l'uso.
 
 Per iniziare la costruzione di un indirizzo, dobbiamo comprimere la corrispondente chiave pubblica. Una chiave pubblica grezza occupa 520 bit, ma grazie alla simmetria della curva ellittica utilizzata, una curva ellittica può avere un'ascissa x associata a due possibili valori per y: positivo o negativo. Nella rete Bitcoin, lavoriamo con un campo di interi positivi finiti anziché con il campo dei reali. Per rappresentare una chiave pubblica a partire da x, aggiungiamo un prefisso che indica il valore di y (pari o dispari). La compressione di una chiave pubblica consente di ridurne la dimensione da 520 a 264 bit. La parità di y in un campo di interi positivi finiti corrisponde alla parità di y nel campo dei reali.
 
 ![image](assets/image/section5/4.JPG)
 ![image](assets/image/section5/5.JPG)
 
-Prendiamo ad esempio la chiave pubblica appartenente a Satoshi Nakamoto, con un prefisso 0,3 che indica un valore dispari di y. Possiamo quindi passare alla seconda fase della costruzione di un indirizzo a partire da chiavi pubbliche compressate. È possibile calcolare due indirizzi per ogni chiave pubblica. Per farlo, utilizziamo la funzione SHA256 per ottenere il condensato (hash) della chiave pubblica. Successivamente, applichiamo la funzione ripemd160 al risultato di SHA256 per ottenere una sequenza di caratteri. Questa sequenza viene quindi codificata in formato binario per gruppi di 5 bit, a cui vengono aggiunti metadati per il calcolo del checksum utilizzando il programma BCH.
+Prendiamo ad esempio la chiave pubblica appartenente a Satoshi Nakamoto, con un prefisso 0,3 che indica un valore dispari di y. Possiamo quindi passare alla seconda fase della costruzione di un indirizzo a partire da chiavi pubbliche compressate. È possibile calcolare due indirizzi per ogni chiave pubblica. Per farlo, utilizziamo la funzione SHA256 per ottenere il condensato (hash) della chiave pubblica. Successivamente, applichiamo la funzione ripemd160 al risultato di SHA256 per ottenere una sequenza di caratteri. Questa sequenza viene quindi codificata in formato binario per gruppi di 5 bit, a cui vengono aggiunti metadati per il calcolo della checksum utilizzando il programma BCH.
 
 ![image](assets/image/section5/6.JPG)
 
-Nel caso degli indirizzi legacy, utilizziamo il doppio hash SHA256 per generare la somma di controllo dell'indirizzo. Tuttavia, per gli indirizzi Segwit V0 e V1, facciamo affidamento sulla tecnologia di checksum BCH per garantire la rilevazione degli errori. Il programma BCH è in grado di suggerire e correggere gli errori con una probabilità di errore estremamente bassa. Attualmente, il programma BCH viene utilizzato per rilevare e suggerire modifiche da apportare, ma non le esegue automaticamente al posto dell'utente. Il calcolo del checksum con il codice BCH si basa sull'aritmetica polinomiale di Chien-Chauffage.
+Nel caso degli indirizzi legacy, utilizziamo il doppio hash SHA256 per generare la somma di controllo dell'indirizzo. Tuttavia, per gli indirizzi Segwit V0 e V1, facciamo affidamento sulla tecnologia di checksum BCH per garantire la rilevazione degli errori. Il programma BCH è in grado di suggerire e correggere gli errori con una probabilità di errore estremamente bassa. Attualmente, il programma BCH viene utilizzato per rilevare e suggerire modifiche da apportare, ma non le esegue automaticamente al posto dell'utente. Il calcolo della checksum con il codice BCH si basa sull'aritmetica polinomiale di Chien-Chauffage.
 
 ![image](assets/image/section5/7.JPG)
 
@@ -533,12 +533,12 @@ Il programma BCH richiede diverse informazioni in input, tra cui l'HRP (Human Re
 
 ![image](assets/image/section5/8.JPG)
 
-La versione Segwit V0 è rappresentata dal codice 00 e il "payload" è in nero, in base 10. Segue poi sei caratteri riservati per il checksum. L'input contenente i metadati viene quindi sottoposto al programma BCH per ottenere il checksum in base 10. La concatenazione della versione, del payload e del checksum consente di costruire l'indirizzo. I caratteri in base 10 vengono poi convertiti in caratteri bech32 utilizzando una tabella di corrispondenza. L'alfabeto bech32 comprende tutti i caratteri alfanumerici, ad eccezione di 1, b, i e o, per evitare confusione.
+La versione Segwit V0 è rappresentata dal codice 00 e il "payload" è in nero, in base 10. Segue poi sei caratteri riservati per il checksum. L'input contenente i metadati viene quindi sottoposto al programma BCH per ottenere il checksum in base 10. La concatenazione della versione, del payload e della checksum consente di costruire l'indirizzo. I caratteri in base 10 vengono poi convertiti in caratteri bech32 utilizzando una tabella di corrispondenza. L'alfabeto bech32 comprende tutti i caratteri alfanumerici, ad eccezione di 1, b, i e o, per evitare confusione.
 
 ![image](assets/image/section5/9.JPG)
 ![image](assets/image/section5/10.JPG)
 
-Per costruire un indirizzo che inizia con bc1q, è necessario applicare una funzione di hash (H160) a una chiave pubblica compressa, quindi aggiungere il checksum, la versione (q), l'HRP (bc) e il separatore (1). Gli indirizzi Taproot, invece, iniziano con bc1p perché la loro versione (Segwit V1) corrisponde a 0+1=1, da cui l'uso del carattere p. Tutti questi elementi vengono poi convertiti in BCH32, una variante della base 32 specifica per Bitcoin.
+Per costruire un indirizzo che inizia con bc1q, è necessario applicare una funzione di hash (H160) a una chiave pubblica compressa, quindi aggiungere la checksum, la versione (q), l'HRP (bc) e il separatore (1). Gli indirizzi Taproot, invece, iniziano con bc1p perché la loro versione (Segwit V1) corrisponde a 0+1=1, da cui l'uso del carattere p. Tutti questi elementi vengono poi convertiti in BCH32, una variante della base 32 specifica per Bitcoin.
 
 Pertanto, abbiamo esaminato i passaggi per la costruzione di un indirizzo di ricezione, l'uso della tecnologia di checksum BCH e la costruzione di un indirizzo che inizia con bc1q o bc1p utilizzando la variante BCH32 della base 32 specifica per Bitcoin.
 
@@ -554,11 +554,11 @@ La funzione pbkdf2 viene utilizzata per generare il seed dalla frase mnemonica e
 
 ![image](assets/image/section5/12.JPG)
 
-La derivazione di una chiave figlia dipende da diversi fattori, tra cui la chiave genitore e il corrispondente codice di catena. Una chiave estesa viene ottenuta concatenando una chiave genitore con il suo codice di catena, mentre una chiave master è una chiave separata. Per derivare un indirizzo, la chiave pubblica compressa viene prima hashata utilizzando SHA256 e RIPMD160, quindi viene calcolato un checksum. L'hash doppio SHA256 viene utilizzato per calcolare il checksum nel caso di uno standard legacy, mentre il programma BCH (Bose-Chaudhuri-Hocquenghem) viene utilizzato per calcolare il checksum nel caso di uno standard segwit. Successivamente, viene utilizzata una rappresentazione in formato base 58 per uno standard legacy, mentre il formato bech32 viene utilizzato per uno standard segwit, al fine di ottenere l'indirizzo del portafoglio HD.
+La derivazione di una chiave figlia dipende da diversi fattori, tra cui la chiave genitore e il corrispondente codice di catena. Una chiave estesa viene ottenuta concatenando una chiave genitore con il suo codice di catena, mentre una chiave master è una chiave separata. Per derivare un indirizzo, la chiave pubblica compressa viene prima hashata utilizzando SHA256 e RIPMD160, quindi viene calcolato una checksum. L'hash doppio SHA256 viene utilizzato per calcolare la checksum nel caso di uno standard legacy, mentre il programma BCH (Bose-Chaudhuri-Hocquenghem) viene utilizzato per calcolare la checksum nel caso di uno standard segwit. Successivamente, viene utilizzata una rappresentazione in formato base 58 per uno standard legacy, mentre il formato bech32 viene utilizzato per uno standard segwit, al fine di ottenere l'indirizzo del portafoglio HD.
 
 ![image](assets/image/section5/13.JPG)
 
-In sintesi, abbiamo esplorato in dettaglio le funzioni di hash e le loro caratteristiche, così come le firme digitali e le curve ellittiche. Successivamente, ci siamo immerse nell'universo del portafoglio deterministico gerarchico (HD) con il BIP32, utilizzando l'entropia e la passphrase per generare il seed del portafoglio. Abbiamo anche imparato come derivare le chiavi figlie e ottenere l'indirizzo del portafoglio HD. Spero che queste informazioni ti siano state utili e ti incoraggio ora a procedere con la valutazione per testare le tue conoscenze acquisite durante il corso Crypto 301. Grazie per l'attenzione.
+In sintesi, abbiamo esplorato in dettaglio le funzioni di hash e le loro caratteristiche, così come le firme digitali e le curve ellittiche. Successivamente, ci siamo immersi nell'universo del portafoglio deterministico gerarchico (HD) con il BIP32, utilizzando l'entropia e la passphrase per generare il seed del portafoglio. Abbiamo anche imparato come derivare le chiavi figlie e ottenere l'indirizzo del portafoglio HD. Spero che queste informazioni ti siano state utili e ti incoraggio ora a procedere con la valutazione per testare le tue conoscenze acquisite durante il corso Crypto 301. Grazie per l'attenzione.
 
 # Vai oltre
 
@@ -578,14 +578,13 @@ Useremo dei dadi per generare un'informazione binaria. Lancia un dado 128 volte 
 Organizza i numeri binari ottenuti in righe di 11 cifre per facilitare i calcoli successivi. La dodicesima riga dovrebbe avere solo 7 cifre.
 
 **Passaggio 4 - Calcolo del checksum:**
-Le ultime 4 cifre per la dodicesima riga corrispondono al checksum. Per calcolare questo checksum, è necessario utilizzare un terminale di una distribuzione Linux. Si consiglia di utilizzare [TailOs](https://tails.boum.org/index.fr.html) che è una distribuzione senza memoria avviabile da una chiavetta USB. Una volta sul tuo terminale, inserisci il comando `echo <numero binario> | shasum -a 254 -0`. Sostituisci `<numero binario>` con la tua lista di 128 zeri e uni. L'output sarà un hash in esadecimale. Prendi il primo carattere di questo hash e convertilo in binario. Puoi aiutarti con questa [tabella](https://www.educative.io/answers/decimal-binary-and-hex-conversion-table). Aggiungi il checksum in binario (4 cifre) alla dodicesima riga del tuo foglio.
+Le ultime 4 cifre per la dodicesima riga corrispondono al checksum. Per calcolare questa checksum, è necessario utilizzare un terminale di una distribuzione Linux. Si consiglia di utilizzare [TailOs](https://tails.boum.org/index.fr.html) che è una distribuzione senza memoria (al riavvio dimentica tutto quello che è stato fatto in precedenza) avviabile da una chiavetta USB. Una volta sul tuo terminale, inserisci il comando `echo <numero binario> | shasum -a 254 -0`. Sostituisci `<numero binario>` con la tua lista di 128 zeri e uni. L'output sarà un hash in esadecimale. Prendi il primo carattere di questo hash e convertilo in binario. Puoi aiutarti con questa [tabella](https://www.educative.io/answers/decimal-binary-and-hex-conversion-table). Aggiungi il checksum in binario (4 cifre) alla dodicesima riga del tuo foglio.
 
 **Passaggio 5 - Conversione in decimale:**
 Per trovare le parole associate a ciascuna delle tue righe, devi prima convertire in decimale ogni serie di 11 bit. Qui non puoi utilizzare un convertitore online perché questi bit rappresentano la tua frase mnemonica. Quindi dovrai convertire utilizzando una calcolatrice e un trucco che ti spiegherò: ogni bit è associato a una potenza di 2, quindi da sinistra a destra abbiamo 11 posizioni che corrispondono rispettivamente a 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1. Per convertire la tua serie di 11 bit in decimale, devi semplicemente sommare le posizioni che contengono un 1. Ad esempio, per la serie 00110111011, corrisponde alla seguente somma: 256 + 128 + 32 + 16 + 8 + 2 + 1 = 443. Ora puoi convertire ogni riga in decimale. E prima di passare alla codifica in parole, devi aggiungere +1 a tutte le righe perché l'indice della lista delle parole BIP39 parte da 1 e non da 0.
 
 **Passaggio 8 - Generazione della frase mnemonica:**
-Inizia stampando la [lista delle 2048 parole](https://seedxor.com/files/wordlist.pdf) per convertire i tuoi numeri decimali nelle parole del BIP39. La particolarità di questa lista è che nessuna parola ha le prime 4 lettere in comune con tutte le altre parole di questo dizionario. Quindi cerca per ciascuna delle tue righe la parola associata al numero decimale.
-
+Inizia stampando la [lista delle 2048 parole](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) per convertire i tuoi numeri decimali nelle parole del BIP39. La particolarità di questa lista è che nessuna parola ha le prime 4 lettere in comune con tutte le altre parole di questo dizionario. Quindi cerca per ciascuna delle tue righe la parola associata al numero decimale.
 **Passaggio 9 - Test della frase mnemonica:**
 Testa immediatamente la tua frase mnemonica su Sparrow Wallet creando un portafoglio da essa. Se ottieni un errore di checksum non valido, è probabile che tu abbia commesso un errore di calcolo. Correggi questo errore ripartendo dal passaggio 4 e testa nuovamente su Sparrow Wallet. Ecco! Hai appena creato un nuovo portafoglio Bitcoin lanciando 128 dadi.
 
@@ -599,11 +598,11 @@ Generare una frase mnemonica è un processo importante per proteggere il tuo por
 
 ### Ringraziamenti e continua a scavare la tana del coniglio
 
-Noi desideriamo ringraziarvi sinceramente per aver seguito il corso Crypto 301. Speriamo che questa esperienza sia stata arricchente e formativa per voi. Abbiamo affrontato molti argomenti interessanti, dalle matematiche alla crittografia fino al funzionamento del protocollo Bitcoin.
+Noi desideriamo ringraziarvi sinceramente per aver seguito il corso Crypto 301. Speriamo che questa esperienza sia stata arricchente e formativa per voi. Abbiamo affrontato molti argomenti interessanti, dalla matematica alla crittografia fino al funzionamento del protocollo Bitcoin.
 
 Se desiderate approfondire ulteriormente l'argomento, abbiamo una risorsa aggiuntiva da offrirvi. Abbiamo realizzato un'intervista esclusiva con Théo Pantamis e Loïc Morel, due esperti rinomati nel campo della crittografia. Questa intervista esplora in profondità vari aspetti dell'argomento e offre prospettive interessanti.
 
-Non esitate a guardare questa intervista per continuare ad esplorare il fascinante campo della crittografia. Speriamo che vi sia utile e ispirante nel vostro percorso. Ancora una volta, grazie per la vostra partecipazione e impegno durante tutto il corso.
+Non esitate a guardare questa intervista per continuare ad esplorare l'affascinante campo della crittografia. Speriamo che vi sia utile e fonte di ispirante nel vostro percorso. Ancora una volta, grazie per la vostra partecipazione e impegno durante tutto il corso.
 
 ### Sostienici
 

@@ -1,0 +1,10 @@
+question: Who introduced the idea of the "Bitcoin highway"?
+answer: Andreas Antonopoulos
+wrong_answers:
+  - Satoshi Nakamoto
+  - Elon Musk
+  - Vitalik Buterin
+explanation: |
+  Andreas Antonopoulos, a well-known Bitcoin advocate and educator, introduced
+  the idea of the "Bitcoin highway".
+reviewed: false

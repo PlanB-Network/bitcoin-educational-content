@@ -6,8 +6,6 @@ description: Specter Setup Guide
 
 ![cover](assets/cover.jpeg)
 
-# Specter - Multi-sig Solution
-
 For more information, you can find all their documentation on their website [here](https://docs.specter.solutions/desktop/)
 
 ## Video Tutorial

@@ -6,8 +6,6 @@ description: How to set up your Liana Wallet
 
 ![cover](assets/cover.jpeg)
 
-# Liana - Solution d'héritage
-
 Le filet de sécurité pour vos coins, Liana est un simple portefeuille Bitcoin qui utilise des verrous de temps on-chain pour assurer la sécurité et la récupération.
 
 - Pas de tiere de confiance, vous avez un contrôle total

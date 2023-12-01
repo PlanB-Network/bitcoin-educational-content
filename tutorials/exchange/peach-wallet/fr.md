@@ -2,12 +2,9 @@
 name: Peach Bitcoin
 
 description: Apprendre a utiliser Peach Bitcoin
-
 ---
 
 ![cover](assets/cover.jpeg)
-
-# Peach Bitcoin
 
 Peach (https://peachbitcoin.com/) est une application mobile qui relie directement les acheteurs et les vendeurs de Bitcoin. Achetez ou vendez du Bitcoin de pair à pair n'importe où, à n'importe quel moment. Utilisez le mode de paiement de votre choix parmi de nombreuses options. Vendez au prix de votre choix car les marchés de pair à pair sont les vrais marchés. Le Bitcoin sans KYC est le meilleur Bitcoin.
 

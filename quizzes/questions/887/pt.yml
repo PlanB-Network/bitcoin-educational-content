@@ -1,0 +1,9 @@
+question: Qual é a relação entre preferência temporal e taxas de juros em uma economia com mercados de capital não manipulados?
+answer: Um aumento nas taxas de juros resulta de um aumento relativo na demanda por capital em comparação com a oferta, indicando preferências temporais mais altas. Por outro lado, uma diminuição nas taxas de juros ocorre devido a um aumento na poupança, que é um aumento na oferta de capital, indicando uma redução nas preferências temporais.
+wrong_answers:
+  - Um aumento nas taxas de juros indica uma diminuição nas preferências temporais, enquanto uma diminuição nas taxas de juros indica um aumento nas preferências temporais.
+  - Preferência temporal e taxas de juros estão inversamente relacionadas.
+  - Preferência temporal e taxas de juros não têm uma relação direta.
+explanation: |
+  Em uma economia com mercados de capital não manipulados, as taxas de juros de referência são determinadas na interseção entre oferta e demanda de capital. Portanto, essas taxas representam o estado das preferências temporais para toda a economia. Um aumento na taxa de juros resulta de um aumento relativo na demanda por capital em comparação com a oferta, indicando preferências temporais mais altas. Por outro lado, uma diminuição nas taxas de juros ocorre devido a um aumento na poupança, que é um aumento na oferta de capital, indicando uma redução nas preferências temporais.
+reviewed: false

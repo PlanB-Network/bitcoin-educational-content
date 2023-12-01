@@ -1,0 +1,9 @@
+question: ¿Cuál es la regla de oro de la inversión?
+answer: Nunca inviertas más de lo que puedas permitirte perder.
+wrong_answers:
+  - Siempre invierte en lo que está de moda.
+  - Siempre invierte con dinero prestado.
+  - Siempre invierte en lo que no entiendes.
+explanation: |
+  La regla de oro de la inversión es nunca invertir más de lo que puedas permitirte perder. Esto se debe a que la inversión siempre conlleva un cierto nivel de riesgo, y solo debes invertir dinero que puedas permitirte perder sin que afecte tu estabilidad financiera.
+reviewed: false

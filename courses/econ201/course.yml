@@ -1,6 +1,9 @@
 level: intermediate
 hours: 12
-teacher: Théo Mogenet
+
+professors:
+  - hazard-bonus
+
 contributors:
   - rabbit-hole
   - another-satoshi

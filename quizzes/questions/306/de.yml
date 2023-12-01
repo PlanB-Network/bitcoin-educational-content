@@ -1,0 +1,9 @@
+question: Was ist die Hauptrolle der Bitcoin Core-Entwickler?
+answer: Sie sind verantwortlich für die Hauptentwicklung des Bitcoin-Protokolls und seiner Kernfunktionen.
+wrong_answers:
+  - Sie kontrollieren das Bitcoin-Netzwerk.
+  - Sie erzeugen neue Bitcoins.
+  - Sie regulieren den Preis von Bitcoin.
+explanation: |
+  Der Kapitelinhalt erklärt, dass Bitcoin Core-Entwickler für die Hauptentwicklung des Bitcoin-Protokolls und seiner Kernfunktionen verantwortlich sind. Sie kontrollieren nicht das Bitcoin-Netzwerk, erzeugen keine neuen Bitcoins und regulieren nicht den Preis von Bitcoin.
+reviewed: false

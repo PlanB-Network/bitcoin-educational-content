@@ -1,0 +1,9 @@
+question: Cosa è un satoshi nel contesto di Bitcoin?
+answer: La più piccola unità di Bitcoin
+wrong_answers:
+  - Un tipo di portafoglio Bitcoin
+  - Un metodo per acquistare Bitcoin
+  - Una piattaforma di scambio di Bitcoin
+explanation: |
+  Nel contesto di Bitcoin, un satoshi (o SAT) è la più piccola unità di Bitcoin. Gli accumulatori di Bitcoin cercano di accumulare il maggior numero possibile di satoshi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist das Risiko, den privaten Schlüssel für Ihre Bitcoin-Wallet nicht zu besitzen?
+answer: Ihre Bitcoins sind Risiken wie Hacking, Beschlagnahme, Regulierung oder Insolvenz ausgesetzt.
+wrong_answers:
+  - Ihre Bitcoins werden automatisch in eine andere Kryptowährung umgewandelt.
+  - Ihre Bitcoins verlieren ihren Wert.
+  - Ihre Bitcoins werden auf eine andere Wallet übertragen.
+explanation: |
+  Wenn Sie den privaten Schlüssel für Ihre Bitcoin-Wallet nicht besitzen, sind Ihre Bitcoins Risiken wie Hacking, Beschlagnahme, Regulierung oder Insolvenz ausgesetzt.
+reviewed: false

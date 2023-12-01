@@ -1,0 +1,12 @@
+question: What is the main characteristic of Bitcoin that sets it apart from other cryptocurrencies?
+answer: Bitcoin is the only truly decentralized, censorship-resistant, free, and serious cryptocurrency
+wrong_answers:
+  - Bitcoin is the only cryptocurrency that can be mined
+  - Bitcoin is the only cryptocurrency that can be bought or sold on exchange platforms
+  - Bitcoin is the only cryptocurrency that can be stored in a wallet
+explanation: |
+  The chapter content states that Bitcoin is the only truly decentralized,
+  censorship-resistant, free, and serious cryptocurrency that justifies thousands
+  of hours of work. This is a key characteristic that sets Bitcoin apart from other
+  cryptocurrencies.
+reviewed: false

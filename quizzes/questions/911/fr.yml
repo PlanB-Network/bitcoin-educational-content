@@ -1,0 +1,10 @@
+question: Quelle est la méthode axiomatique-déductive proposée par Ludwig von Mises dans l'étude des sciences sociales?
+answer: Cette approche est basée sur des propositions fondamentales appelées axiomes, similaires à ceux utilisés en mathématiques.
+wrong_answers:
+  - Cette approche est basée sur des données empiriques et des observations.
+  - Cette approche est basée sur des expériences temporaires et des hypothèses.
+  - Cette approche est basée sur l'approche positiviste souvent utilisée dans les sciences sociales.
+explanation: |
+  La méthode axiomatique-déductive proposée par Ludwig von Mises est basée sur des propositions fondamentales appelées axiomes, similaires à ceux utilisés en mathématiques.
+  Cette méthode est utilisée pour étudier les sciences sociales, y compris l'économie.
+reviewed: false

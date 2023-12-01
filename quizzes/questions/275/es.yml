@@ -1,0 +1,9 @@
+question: ¿Cuál es una de las medidas para mantener tu computadora en óptimas condiciones de funcionamiento?
+answer: Realizar copias de seguridad regularmente de tus datos
+wrong_answers:
+  - Compartir tus contraseñas
+  - Utilizar la misma contraseña para todas las cuentas
+  - Descuidar la actualización de tu computadora
+explanation: |
+  Realizar copias de seguridad regularmente de tus datos es una de las medidas para mantener tu computadora en óptimas condiciones de funcionamiento. También es una medida básica para mejorar los hábitos de seguridad en línea.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle a été la réaction de la Banque d'Angleterre à la panique bancaire de 1796 ?
+answer: Elle a suspendu la convertibilité de ses billets de banque en or.
+wrong_answers:
+  - Elle a émis davantage de billets de banque.
+  - Elle a fermé ses portes.
+  - Elle a augmenté la valeur de ses billets de banque.
+explanation: |
+  Suite à la panique bancaire de 1796, la Banque d'Angleterre a suspendu la convertibilité de ses billets de banque en or afin de prévenir une éventuelle déflation des réserves d'or. Cette suspension, initialement prévue comme une mesure temporaire, a duré pendant une période de deux décennies.
+reviewed: false

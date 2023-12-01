@@ -1,0 +1,9 @@
+question: ¿Qué significa la inmutabilidad de la cadena de bloques de Bitcoin?
+answer: No puede ser cambiada con el tiempo
+wrong_answers:
+  - No puede ser hackeada
+  - No puede ser copiada
+  - No puede ser borrada
+explanation: |
+  La inmutabilidad de la cadena de bloques de Bitcoin significa que una vez que una transacción ha sido registrada, no puede ser cambiada ni borrada. Esto garantiza la integridad y confiabilidad de la cadena de bloques.
+reviewed: false

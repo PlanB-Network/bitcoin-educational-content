@@ -6,8 +6,6 @@ description: aprenda como recuperar sua privacidade
 
 ![wasabi](assets/cover.jpeg)
 
-# Wasabi Wallet
-
 Carteira Bitcoin de código aberto, não custodial e focada em privacidade para Desktop
 https://www.wasabiwallet.io/
 

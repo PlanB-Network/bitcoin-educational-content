@@ -1,0 +1,9 @@
+question: ¿Cuál es la causa de la depresión según los monetaristas y los keynesianos?
+answer: Demanda agregada insuficiente
+wrong_answers:
+  - Sobreproducción
+  - Altas tasas de interés
+  - Alta inflación
+explanation: |
+  Tanto los monetaristas como los keynesianos consideran que la causa de la depresión es la demanda agregada insuficiente. Ellos creen que proporcionar un incentivo para la expansión del crédito (bajando las tasas de interés) y utilizar la capacidad de déficit del estado para impulsar la demanda, dará inicio a una recuperación.
+reviewed: false

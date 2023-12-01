@@ -1,0 +1,9 @@
+question: ¿Cuál fue el valor máximo del primer Córdoba en Nicaragua?
+answer: 1 millón.
+wrong_answers:
+  - 500,000
+  - 10 millones
+  - 100 millones
+explanation: |
+  En Nicaragua, el primer Córdoba alcanzó un valor de 1 millón. El segundo Córdoba alcanzó los 10 millones.
+reviewed: false

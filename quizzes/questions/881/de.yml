@@ -1,0 +1,9 @@
+question: Was ist das Gefangenendilemma im Kontext der Arbeitsteilung?
+answer: Es handelt sich um eine Situation, in der die gegenseitige Zusammenarbeit zu suboptimalen Gewinnen für Einzelpersonen, aber maximalen Gewinnen für die Gruppe führt.
+wrong_answers:
+  - Es handelt sich um eine Situation, in der Einzelpersonen die Zusammenarbeit ablehnen, was zu maximalen Gewinnen für die Gruppe führt.
+  - Es handelt sich um eine Situation, in der Einzelpersonen zusammenarbeiten, was zu maximalen Gewinnen für sich selbst, aber zu suboptimalen Gewinnen für die Gruppe führt.
+  - Es handelt sich um eine Situation, in der Einzelpersonen die Zusammenarbeit ablehnen, was zu suboptimalen Gewinnen für sich selbst und die Gruppe führt.
+explanation: |
+  Das Gefangenendilemma ist ein Konzept in der Spieltheorie, bei dem Einzelpersonen einen Anreiz haben, Strategien zu wählen, die ihren individuellen Gewinn maximieren, unabhängig von den Strategien, die von anderen gewählt werden, selbst wenn ein wünschenswerteres Gleichgewicht durch Koordination/Zusammenarbeit möglich ist.
+reviewed: false

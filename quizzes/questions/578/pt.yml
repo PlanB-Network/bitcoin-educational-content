@@ -1,0 +1,9 @@
+question: O que é deflação?
+answer: É uma diminuição no nível geral de preços de bens e serviços.
+wrong_answers:
+  - É um aumento no nível geral de preços de bens e serviços.
+  - É uma diminuição na oferta de dinheiro.
+  - É um aumento na oferta de dinheiro.
+explanation: |
+  Deflação é um termo econômico que se refere a uma diminuição no nível geral de preços de bens e serviços. É o oposto da inflação, que é um aumento no nível geral de preços.
+reviewed: false

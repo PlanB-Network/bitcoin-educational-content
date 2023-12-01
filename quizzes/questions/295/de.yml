@@ -1,0 +1,10 @@
+question: Wie hoch ist die Obergrenze für Bitcoins, die jemals existieren werden?
+answer: 21 Millionen
+wrong_answers:
+  - 100 Millionen
+  - 1 Milliarde
+  - Keine Obergrenze
+explanation: |
+  Das Kapitel besagt, dass es niemals mehr als 21 Millionen Bitcoins geben wird.
+  Diese Obergrenze wurde im Bitcoin-Protokoll von Satoshi festgelegt und kann heute nicht geändert werden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle était la caractéristique unique des billets à ordre introduits à la Bourse d'Anvers au 16ème siècle?
+answer: Ils portaient des noms et des dates d'échéance.
+wrong_answers:
+  - Ils étaient en or.
+  - Ils étaient émis par la Banque d'Amsterdam.
+  - Ils étaient convertibles en florins.
+explanation: |
+  La Bourse d'Anvers a introduit des billets à ordre qui portaient des noms et des dates d'échéance. Cela les rendait difficiles à échanger avant la date d'échéance. Cependant, la bourse a introduit la pratique de l'escompte de ces billets avant leur date d'échéance, les rendant plus liquides et introduisant le concept de la valeur temporelle de l'argent.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è stato il tasso di cambio del bolivar digitale in Venezuela nel 2021?
+answer: Uno a un milione.
+wrong_answers:
+  - Mille a uno.
+  - Diecimila a uno.
+  - Centomila a uno.
+explanation: |
+  Nel 2021, il bolivar digitale in Venezuela è stato sostituito con una nuova ridenominazione di uno a un milione.
+reviewed: false

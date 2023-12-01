@@ -1,0 +1,9 @@
+question: Qual é a principal característica de uma carteira DIY (Faça Você Mesmo)?
+answer: É uma solução 100% de código aberto que pode ser criada em casa para reduzir os riscos de confiança em relação a outros atores na cadeia de produção ou criação.
+wrong_answers:
+  - É um dispositivo de hardware para armazenar bitcoins.
+  - É um software para minerar bitcoins.
+  - É uma plataforma para comprar e vender bitcoins.
+explanation: |
+  O conteúdo do capítulo explica que as carteiras DIY (Faça Você Mesmo) são soluções 100% de código aberto que podem ser criadas em casa para reduzir os riscos de confiança em relação a outros atores na cadeia de produção ou criação.
+reviewed: false

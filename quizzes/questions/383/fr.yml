@@ -1,0 +1,9 @@
+question: Quel est l'objectif de se former sur les aspects techniques, idéologiques et philosophiques de Bitcoin?
+answer: Pour mieux comprendre Bitcoin et son impact potentiel sur le monde.
+wrong_answers:
+  - Pour miner de nouveaux Bitcoins.
+  - Pour échanger des Bitcoins.
+  - Pour convertir des Bitcoins en d'autres cryptomonnaies.
+explanation: |
+  Se former sur les aspects techniques, idéologiques et philosophiques de Bitcoin est important pour mieux comprendre Bitcoin et son impact potentiel sur le monde. Cela n'est pas utilisé pour miner de nouveaux Bitcoins, échanger des Bitcoins ou convertir des Bitcoins en d'autres cryptomonnaies.
+reviewed: false

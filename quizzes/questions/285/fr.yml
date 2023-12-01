@@ -1,0 +1,11 @@
+question: Quel est le rôle des mineurs dans le réseau Bitcoin?
+answer: Pour enregistrer les transactions propagées dans la blockchain Bitcoin
+wrong_answers:
+  - Pour créer de nouveaux bitcoins
+  - Pour réguler la valeur des bitcoins
+  - Pour vérifier l'identité des utilisateurs de Bitcoin
+explanation: |
+  Les mineurs dans le réseau Bitcoin sont responsables de l'enregistrement des transactions
+  qui ont été propagées à travers le réseau dans la blockchain Bitcoin. Cela garantit
+  la finalité des transactions.
+reviewed: false

@@ -1,0 +1,17 @@
+question: What was the reaction of the Bank of England to the bank panic of 1796?
+answer: It suspended the convertibility of its banknotes into gold
+wrong_answers:
+  - It issued more banknotes
+  - It closed down
+  - It increased the value of its banknotes
+explanation: |
+  Following the bank panic of 1796, the Bank of England suspended the
+
+  convertibility
+
+  of its banknotes into gold to prevent a potential deflation of gold reserves. This
+
+  suspension, initially intended as a temporary measure, lasted for a period of two
+
+  decades.'
+reviewed: false

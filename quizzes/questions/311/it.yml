@@ -1,0 +1,9 @@
+question: Qual è la caratteristica principale di Bitcoin che lo distingue dalle altre criptovalute?
+answer: Bitcoin è l'unica criptovaluta veramente decentralizzata, resistente alla censura, libera e seria.
+wrong_answers:
+  - Bitcoin è l'unica criptovaluta che può essere minata.
+  - Bitcoin è l'unica criptovaluta che può essere comprata o venduta su piattaforme di scambio.
+  - Bitcoin è l'unica criptovaluta che può essere conservata in un portafoglio.
+explanation: |
+  Il contenuto del capitolo afferma che Bitcoin è l'unica criptovaluta veramente decentralizzata, resistente alla censura, libera e seria che giustifica migliaia di ore di lavoro. Questa è una caratteristica chiave che distingue Bitcoin dalle altre criptovalute.
+reviewed: false

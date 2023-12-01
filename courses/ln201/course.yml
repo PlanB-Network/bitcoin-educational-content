@@ -1,6 +1,9 @@
 level: intermediate
 hours: 6
-teacher: Fanis Michalakis
+
+professors:
+  - super-brother
+
 contributors:
   - rabbit-hole
   - another-satoshi

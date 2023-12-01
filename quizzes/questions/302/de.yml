@@ -1,0 +1,9 @@
+question: Was ist Bitcoin ursprünglich?
+answer: Das Internet
+wrong_answers:
+  - Die Blockchain
+  - Das Bankensystem
+  - Der Aktienmarkt
+explanation: |
+  Das Kapitel besagt, dass Bitcoin ursprünglich dem Internet angehört, was es für jeden mit Internetzugang zugänglich macht.
+reviewed: false

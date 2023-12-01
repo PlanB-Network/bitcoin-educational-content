@@ -6,8 +6,6 @@ description: Setting up your Muum wallet
 
 ![cover](assets/cover.png)
 
-# Muum wallet
-
 Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 
 ## video tutorial

@@ -1,0 +1,9 @@
+question: Qual è stata la strategia utilizzata dagli Stati Uniti nel 1933-1934 per svalutare il dollaro?
+answer: Il governo ha sequestrato l'oro dei cittadini, poi ha cambiato le regole del gioco rivalutando il valore dell'oro a vantaggio del tesoro e a svantaggio di coloro che avevano inizialmente scambiato il loro oro con banconote.
+wrong_answers:
+  - Il governo ha aumentato l'offerta di oro, poi ha cambiato le regole del gioco svalutando il valore dell'oro a vantaggio del tesoro e a svantaggio di coloro che avevano inizialmente scambiato il loro oro con banconote.
+  - Il governo ha sequestrato l'oro dei cittadini, poi ha cambiato le regole del gioco svalutando il valore dell'oro a vantaggio del tesoro e a svantaggio di coloro che avevano inizialmente scambiato il loro oro con banconote.
+  - Il governo ha aumentato l'offerta di oro, poi ha cambiato le regole del gioco rivalutando il valore dell'oro a vantaggio del tesoro e a svantaggio di coloro che avevano inizialmente scambiato il loro oro con banconote.
+explanation: |
+  Nel 1933, il governo degli Stati Uniti ha sequestrato l'oro dei cittadini. Poi nel 1934, hanno rivalutato il prezzo dell'oro a $35 per oncia, invece di $20.67. Fondamentalmente, il governo ha svalutato il dollaro che le persone possedevano. Acquistando oro dalla popolazione a $20.67 per oncia nel 1933, e poi rivalutando il prezzo dell'oro nel 1934, il governo ha ottenuto un profitto sostanziale svalutando i risparmi dei suoi cittadini.
+reviewed: false

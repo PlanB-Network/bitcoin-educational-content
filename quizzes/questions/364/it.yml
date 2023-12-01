@@ -1,0 +1,9 @@
+question: Quali sono alcuni dei portafogli che potrebbe utilizzare un Bitcoiner paranoico?
+answer: Portafoglio Samourai per portafoglio caldo, Coldcard e/o Seed Signer per portafoglio freddo
+wrong_answers:
+  - Portafoglio Coinbase per portafoglio caldo, Ledger per portafoglio freddo
+  - Portafoglio Binance per portafoglio caldo, Trezor per portafoglio freddo
+  - PayPal per portafoglio caldo, Conto bancario per portafoglio freddo
+explanation: |
+  Il capitolo menziona il portafoglio Samourai per il portafoglio caldo e Coldcard e/o Seed Signer per il portafoglio freddo come portafogli che potrebbe utilizzare un Bitcoiner paranoico.
+reviewed: false

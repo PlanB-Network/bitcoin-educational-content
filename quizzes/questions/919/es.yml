@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel de los axiomas en el razonamiento económico austriaco?
+answer: Los axiomas son elementos fundamentales a partir de los cuales se pueden realizar deducciones lógicas.
+wrong_answers:
+  - Los axiomas son irrelevantes en el razonamiento económico austriaco.
+  - Los axiomas se utilizan para establecer relaciones entre variables basadas en datos empíricos.
+  - Los axiomas se utilizan para confirmar o refutar hipótesis a través de experimentos temporales.
+explanation: |
+  En el razonamiento económico austriaco, los axiomas desempeñan un papel crucial. Son elementos fundamentales a partir de los cuales se pueden realizar deducciones lógicas.
+reviewed: false

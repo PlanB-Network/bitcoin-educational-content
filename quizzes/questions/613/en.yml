@@ -1,0 +1,13 @@
+question: What was the exchange rate of the digital bolivar in Venezuela in 2021?
+answer: One million to one.
+wrong_answers:
+  - One thousand to one.
+  - Ten thousand to one.
+  - One hundred thousand to one.
+explanation: |
+  In 2021, the digital bolivar in Venezuela was replaced with a new
+
+  redenomination
+
+  of one million to one.'
+reviewed: false

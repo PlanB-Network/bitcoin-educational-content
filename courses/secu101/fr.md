@@ -16,12 +16,9 @@ Ceci va se traduire par la mise en place de plusieurs outils tels qu'une boîte 
 Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou inattaquable, ceci est impossible. À la place, nous vous proposons quelques solutions simples et accessibles pour tous afin de commencer une transformation de vos habitudes en ligne et reprendre le contrôle de votre souveraineté numérique.
 
 Team contributeurs:
-
-- Renaud Lifchitz; professeur
-- Théo Pantamis; Professeur
-- Muriel; Design
-- Rogzy Noury & Fabian; Production
-- Théo; Contribution
+Muriel; Design
+Rogzy Noury & Fabian; Production
+Théo; Contribution
 
 +++
 

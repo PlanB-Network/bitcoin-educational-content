@@ -1,0 +1,11 @@
+question: What is the main characteristic of a Hodler in the context of Bitcoin investment?
+answer: They hold Bitcoin for the long term.
+wrong_answers:
+  - They frequently trade Bitcoin.
+  - They only invest in Bitcoin when the price is low.
+  - They sell Bitcoin as soon as the price increases.
+explanation: |
+  A Hodler, in the context of Bitcoin investment, is someone who holds
+  Bitcoin for the long term, betting that its usage and scarcity will increase over
+  time.
+reviewed: false

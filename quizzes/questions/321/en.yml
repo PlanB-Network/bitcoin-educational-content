@@ -1,0 +1,10 @@
+question: What does DCA stand for in the context of Bitcoin investment?
+answer: Dollar Cost Averaging
+wrong_answers:
+  - Direct Currency Acquisition
+  - Digital Coin Allocation
+  - Decentralized Crypto Asset
+explanation: |
+  Dollar Cost Averaging (DCA) is a strategy where you divide the total
+  amount you want to invest across periodic purchases to reduce the impact of volatility.
+reviewed: false

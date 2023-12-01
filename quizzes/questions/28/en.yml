@@ -1,0 +1,11 @@
+question: Why is Bitcoin not widely accepted in commerce today?
+answer: Because it is not widely adopted by individuals
+wrong_answers:
+  - Because it is not transportable
+  - Because it is not divisible
+  - Because it is not liquid
+explanation: |
+  Despite its properties, such as its strictly limited supply, Bitcoin
+  is still not widely accepted in commerce today. This is due to lack of
+  adoption by individual, creating a a situation that bites its own tail as merchant are also individuals.
+reviewed: true

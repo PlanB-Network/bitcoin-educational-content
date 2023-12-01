@@ -1,0 +1,11 @@
+question: What is the primary purpose of a cold wallet for a frequent Bitcoin user?
+answer: To securely store bitcoins for the long term.
+wrong_answers:
+  - To regularly send and receive bitcoins for daily use.
+  - To trade bitcoins on an exchange platform.
+  - To mine new bitcoins.
+explanation: |
+  A cold wallet is a type of Bitcoin wallet that is not connected to the
+  internet, making it less vulnerable to hacking and theft. It is typically used for
+  storing bitcoins that are not needed for daily transactions.
+reviewed: false

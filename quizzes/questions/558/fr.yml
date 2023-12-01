@@ -1,0 +1,9 @@
+question: Quelle était la stratégie utilisée par les États-Unis en 1933-1934 pour dévaluer le dollar ?
+answer: Le gouvernement a confisqué l'or des citoyens, puis a changé les règles du jeu en réévaluant la valeur de l'or pour avantager le trésor et désavantager ceux qui avaient initialement échangé leur or contre des billets.
+wrong_answers:
+  - Le gouvernement a augmenté l'offre d'or, puis a changé les règles du jeu en dévaluant la valeur de l'or pour avantager le trésor et désavantager ceux qui avaient initialement échangé leur or contre des billets.
+  - Le gouvernement a confisqué l'or des citoyens, puis a changé les règles du jeu en dévaluant la valeur de l'or pour avantager le trésor et désavantager ceux qui avaient initialement échangé leur or contre des billets.
+  - Le gouvernement a augmenté l'offre d'or, puis a changé les règles du jeu en réévaluant la valeur de l'or pour avantager le trésor et désavantager ceux qui avaient initialement échangé leur or contre des billets.
+explanation: |
+  En 1933, le gouvernement américain a confisqué l'or des citoyens. Puis, en 1934, ils ont réévalué le prix de l'or à 35 dollars l'once, au lieu de 20,67 dollars. Essentiellement, le gouvernement a dévalué le dollar que les gens possédaient. En achetant de l'or à la population au prix de 20,67 dollars l'once en 1933, puis en réévaluant le prix de l'or en 1934, le gouvernement a réalisé un profit substantiel tout en dévaluant les économies de ses citoyens.
+reviewed: false

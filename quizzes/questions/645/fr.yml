@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'une adresse multi-signature dans le contexte du Lightning Network ?
+answer: Une adresse qui nécessite deux signatures pour débloquer les fonds.
+wrong_answers:
+  - Une adresse qui peut être utilisée par plusieurs utilisateurs.
+  - Une adresse qui peut contenir plusieurs types de cryptomonnaies.
+  - Une adresse qui peut être accessible depuis plusieurs appareils.
+explanation: |
+  Dans le Lightning Network, des adresses multi-signatures sont utilisées. Ces adresses nécessitent deux signatures, ou deux clés privées, pour débloquer les fonds. Cela signifie que deux parties doivent être d'accord pour débloquer l'argent.
+reviewed: false

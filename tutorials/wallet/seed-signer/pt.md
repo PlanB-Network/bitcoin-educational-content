@@ -6,8 +6,6 @@ description: Configuração do seu Seed Signer
 
 ![capa](assets/cover.jpeg)
 
-# Seed Signer
-
 ## Material:
 
 1. Raspberry Pi Zero (versão 1.3)

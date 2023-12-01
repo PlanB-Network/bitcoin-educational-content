@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund, warum eine zentral geplante Wirtschaft zwangsläufig eine Fehlallokation von Kapital erfährt?
+answer: Es gibt keine Marktpreise oder Konkurse, um Fehlallokationen aufzudecken und zu korrigieren.
+wrong_answers:
+  - Zentralplaner sind nicht effizient.
+  - Zentralplaner haben nicht genügend Informationen.
+  - Zentralplaner sind nicht motiviert, Ressourcen effizient zuzuweisen.
+explanation: |
+  In einer zentral geplanten Wirtschaft gibt es keine Marktpreise oder Konkurse, um Fehlallokationen aufzudecken und zu korrigieren. Dadurch werden sich Fehler ansammeln, bis die Verschwendung durch einen signifikanten Rückgang der Lebensbedingungen offensichtlich wird.
+reviewed: false

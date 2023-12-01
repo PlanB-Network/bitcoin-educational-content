@@ -1,0 +1,9 @@
+question: Was ist der Schwerpunkt des Kurses dieser Universität?
+answer: Das Bitcoin-Universum.
+wrong_answers:
+  - Die globale Kryptowährungsindustrie.
+  - Die Fintech-Industrie.
+  - Die Blockchain-Industrie.
+explanation: |
+  Der gesamte Fokus dieser Universität liegt auf dem Bitcoin-Universum, nicht auf Krypto.
+reviewed: false

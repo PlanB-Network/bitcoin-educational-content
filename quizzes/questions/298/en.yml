@@ -1,0 +1,12 @@
+question: What is Bitcoin according to the cyberpunk movement?
+answer: The electronic equivalent of cash
+wrong_answers:
+  - A form of digital gold
+  - A new form of credit card
+  - A type of cryptocurrency
+explanation: |
+  The chapter mentions that from a Cyberpunk perspective, Bitcoin opposes
+  a cashless society. It allows for the creation of fully private and intermediary-free
+  digital financial transactions. For the cyberpunk movement, Bitcoin is the electronic
+  equivalent of cash.
+reviewed: false

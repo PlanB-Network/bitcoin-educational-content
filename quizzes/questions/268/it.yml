@@ -1,0 +1,11 @@
+question: Qual è la funzione principale di un gestore di password?
+answer: Memorizzare e gestire le tue password
+wrong_answers:
+  - Generare password casuali
+  - Ricordare i tuoi nomi utente
+  - Proteggere il tuo computer dai virus
+explanation: |
+  Un gestore di password è un software che memorizza e gestisce le tue password.
+  Ti aiuta a non utilizzare mai la stessa password due volte, a scegliere password complesse e sicure,
+  e facilita la gestione della tua sicurezza online.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è stata la reazione della Banca d'Inghilterra al panico bancario del 1796?
+answer: Ha sospeso la convertibilità dei suoi biglietti di banca in oro
+wrong_answers:
+  - Ha emesso più biglietti di banca
+  - Ha chiuso
+  - Ha aumentato il valore dei suoi biglietti di banca
+explanation: |
+  A seguito del panico bancario del 1796, la Banca d'Inghilterra ha sospeso la convertibilità dei suoi biglietti di banca in oro per evitare una potenziale deflazione delle riserve auree. Questa sospensione, inizialmente prevista come misura temporanea, è durata per un periodo di due decenni.
+reviewed: false

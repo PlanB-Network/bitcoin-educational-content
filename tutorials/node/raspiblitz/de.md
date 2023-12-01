@@ -5,8 +5,6 @@ description: Anleitung zur Einrichtung Ihres RaspiBlitz
 
 ![image](assets/0.jpeg)
 
-# RaspiBlitz
-
 Der RaspiBlitz ist ein Do-it-yourself-Lightning-Node (LND und/oder Core Lightning), der zusammen mit einem Bitcoin-Fullnode auf einem RaspberryPi (1TB SSD) und einem schönen Display läuft, um die Einrichtung und Überwachung zu erleichtern.
 
 Der RaspiBlitz richtet sich hauptsächlich an Personen, die lernen möchten, wie man seinen eigenen dezentralen Node von zu Hause aus betreibt - denn: Nicht dein Node, nicht deine Regeln. Entdecken und entwickeln Sie das wachsende Ökosystem des Lightning-Netzwerks, indem Sie ein vollwertiger Teil davon werden. Bauen Sie ihn als Teil eines Workshops oder als Wochenendprojekt selbst auf.

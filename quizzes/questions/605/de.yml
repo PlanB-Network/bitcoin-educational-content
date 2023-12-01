@@ -1,0 +1,9 @@
+question: Was ist der Einfluss von Hyperinflation auf den Wert des Geldes?
+answer: Es führt dazu, dass das Geld schnell an Wert verliert.
+wrong_answers:
+  - Es führt dazu, dass das Geld an Wert gewinnt.
+  - Es hat keinen Einfluss auf den Wert des Geldes.
+  - Es führt dazu, dass der Wert des Geldes unberechenbar schwankt.
+explanation: |
+  In einer Phase der Hyperinflation verliert das Geld schnell an Wert, was langfristige Planung erschwert.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le rôle des axiomes dans le raisonnement économique autrichien ?
+answer: Les axiomes sont des éléments fondamentaux à partir desquels des déductions logiques peuvent être faites.
+wrong_answers:
+  - Les axiomes sont sans importance dans le raisonnement économique autrichien.
+  - Les axiomes sont utilisés pour établir des relations entre les variables basées sur des données empiriques.
+  - Les axiomes sont utilisés pour confirmer ou réfuter des hypothèses par le biais d'expériences temporaires.
+explanation: |
+  Dans le raisonnement économique autrichien, les axiomes jouent un rôle crucial. Ce sont des éléments fondamentaux à partir desquels des déductions logiques peuvent être faites.
+reviewed: false

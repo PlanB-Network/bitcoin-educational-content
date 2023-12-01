@@ -1,0 +1,11 @@
+question: What is the significance of Bitcoin's scarcity?
+answer: There will only be 21 million bitcoins in the world and never more
+wrong_answers:
+  - The value of Bitcoin will always increase
+  - Bitcoin is difficult to mine
+  - Bitcoin transactions are limited in number
+explanation: |
+  Bitcoin's scarcity refers to the fact that there will only ever be 21
+  million bitcoins. This characteristic, similar to gold, prevents the dilution of
+  Bitcoin's value through excessive money printing.
+reviewed: false

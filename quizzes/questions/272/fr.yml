@@ -1,0 +1,9 @@
+question: Quelle est l'une des mesures de base pour améliorer les habitudes de sécurité en ligne ?
+answer: Activer l'authentification à deux facteurs (2FA)
+wrong_answers:
+  - Utiliser le même mot de passe pour tous les comptes
+  - Négliger de sauvegarder régulièrement les données
+  - Partager vos mots de passe
+explanation: |
+  Activer l'authentification à deux facteurs (2FA) est l'une des mesures de base pour améliorer les habitudes de sécurité en ligne. Cela offre une couche de sécurité supplémentaire à vos comptes les plus sensibles.
+reviewed: false

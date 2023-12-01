@@ -1,0 +1,9 @@
+question: Quelle est l'implication de la nature séquentielle de l'action humaine sur les activités de production?
+answer: Tout détour de production, c'est-à-dire tout allongement de la structure de production, nécessite une épargne préalable.
+wrong_answers:
+  - La nature séquentielle de l'action humaine n'a aucune implication sur les activités de production.
+  - La nature séquentielle de l'action humaine implique que les activités de production doivent être réalisées dans un ordre spécifique.
+  - La nature séquentielle de l'action humaine implique que les activités de production doivent être réalisées simultanément.
+explanation: |
+  En raison de la nature séquentielle de l'action humaine, ces choix intertemporels ont toujours des implications pour la séquence d'action. En d'autres termes, les actions à court terme que l'on entreprend sont subordonnées aux objectifs à long terme que l'on fixe, et les actions à court terme influenceront ce que l'on pourra faire à l'avenir. L'implication de ce point évident concernant les activités de production est que tout détour de production, c'est-à-dire tout allongement de la structure de production, nécessite une épargne préalable.
+reviewed: false

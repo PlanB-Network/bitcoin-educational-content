@@ -1,0 +1,12 @@
+question: What is the ultimate vision for Bitcoin according to the "Bitcoin highway"
+  metaphor?
+answer: It will become a highway for internet traffic and for 90% of the world's population.
+wrong_answers:
+  - It will become a luxury good only accessible to the wealthy.
+  - It will become a tool for illegal activities.
+  - It will become obsolete and replaced by other cryptocurrencies.
+explanation: |
+  The "Bitcoin highway" metaphor envisions Bitcoin becoming a highway for
+  internet traffic and for 90% of the world's population, with goods and services
+  directly accessible on this highway.
+reviewed: false

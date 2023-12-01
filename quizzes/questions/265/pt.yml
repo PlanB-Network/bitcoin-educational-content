@@ -1,0 +1,9 @@
+question: Qual é um golpe comum no campo de investimentos financeiros?
+answer: Sistemas de venda em pirâmide.
+wrong_answers:
+  - Venda de bens físicos.
+  - Venda de produtos de software.
+  - Venda de moeda fiduciária.
+explanation: |
+  No campo de investimentos financeiros, os sistemas de venda em pirâmide e os esquemas de Ponzi se destacam como modelos ilegais. Eles operam usando o dinheiro de novos investidores para pagar participantes mais antigos.
+reviewed: false

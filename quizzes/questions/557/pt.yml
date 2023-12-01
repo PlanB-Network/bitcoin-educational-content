@@ -1,0 +1,9 @@
+question: Qual é a definição de inflação de acordo com Robert?
+answer: A inflação é um aumento excessivo nos instrumentos de pagamento, causando um aumento nos preços e uma desvalorização da moeda.
+wrong_answers:
+  - A inflação é uma diminuição nos instrumentos de pagamento, causando um aumento nos preços e uma desvalorização da moeda.
+  - A inflação é um aumento excessivo nos instrumentos de pagamento, causando uma diminuição nos preços e uma desvalorização da moeda.
+  - A inflação é um aumento excessivo nos instrumentos de pagamento, causando um aumento nos preços e uma valorização da moeda.
+explanation: |
+  De acordo com Robert, a inflação é definida como um aumento excessivo nos instrumentos de pagamento (notas bancárias, capital), causando um aumento nos preços e uma desvalorização da moeda.
+reviewed: false

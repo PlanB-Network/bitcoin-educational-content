@@ -1,12 +1,10 @@
 ---
-name: Installazione di Linux Mint
+name: Linux Mint
 
 description: Configurare un computer per le transazioni Bitcoin
 ---
 
 ![image](assets/cover.jpeg)
-
-# Un computer per le transazioni Bitcoin (Installazione di Linux Mint)
 
 ## Cosa succede se si utilizza un computer normale?
 

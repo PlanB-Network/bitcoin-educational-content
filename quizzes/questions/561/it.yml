@@ -1,0 +1,9 @@
+question: Qual è stata la strategia utilizzata dalla Spagna per svalutare la sua valuta senza influire sulla sua posizione nel commercio internazionale?
+answer: La Spagna ha svalutato selettivamente il Maravedi, una valuta locale, preservando al contempo il valore del dollaro spagnolo a livello globale.
+wrong_answers:
+  - La Spagna ha svalutato selettivamente il dollaro spagnolo, una valuta locale, preservando il valore del Maravedi a livello globale.
+  - La Spagna ha aumentato selettivamente il valore del Maravedi, una valuta locale, preservando il valore del dollaro spagnolo a livello globale.
+  - La Spagna ha aumentato selettivamente il valore del dollaro spagnolo, una valuta locale, preservando il valore del Maravedi a livello globale.
+explanation: |
+  La Spagna si è trovata in una situazione delicata. Diluire il dollaro spagnolo avrebbe compromesso la sua posizione nel commercio internazionale. Per superare questo dilemma, la Spagna si è rivolta al Maravedi, una valuta di rame principalmente utilizzata dalla popolazione locale. Questa valuta è stata presa di mira per la svalutazione.
+reviewed: false

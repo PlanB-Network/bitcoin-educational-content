@@ -1,0 +1,9 @@
+question: Quel est le principal problème avec le système de réserve fractionnaire ?
+answer: Le principal problème avec le système de réserve fractionnaire est que des retraits importants d'une banque particulière peuvent potentiellement conduire à sa faillite.
+wrong_answers:
+  - Le principal problème avec le système de réserve fractionnaire est qu'il empêche les banques de prêter de l'argent.
+  - Le principal problème avec le système de réserve fractionnaire est qu'il oblige les banques à détenir plus de réserves qu'elles ne reçoivent de dépôts.
+  - Le principal problème avec le système de réserve fractionnaire est qu'il empêche les banques de créer de l'argent.
+explanation: |
+  Dans un système de réserve fractionnaire, les banques ne conservent qu'une fraction des fonds de leurs déposants en réserve, prêtant le reste. Si de nombreux clients se précipitent simultanément pour retirer leurs fonds, la banque peut ne pas avoir suffisamment de réserves pour répondre à ces demandes, ce qui peut potentiellement conduire à la faillite.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Cosa significa dire che Bitcoin è simile a un buco nero?
+answer: Non scomparirà e assorbirà tutto ciò che si trova nel suo percorso nel tempo.
+wrong_answers:
+  - Alla fine collasserà sotto il proprio peso.
+  - È una minaccia per il sistema finanziario globale.
+  - È un mistero che gli scienziati stanno ancora cercando di capire.
+explanation: |
+  L'affermazione che Bitcoin è simile a un buco nero si riferisce alla sua resilienza
+  e al suo potenziale per diventare il sistema finanziario dominante, assorbendo tutti gli altri sistemi
+  nel suo percorso.
+reviewed: false

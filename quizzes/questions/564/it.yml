@@ -1,0 +1,9 @@
+question: Qual è la differenza fondamentale tra l'aumento dei prezzi e l'inflazione?
+answer: L'aumento dei prezzi può essere specifico del settore e indotto da vari fattori, mentre l'inflazione è definita da un aumento generalizzato dei prezzi su una gamma di beni e servizi.
+wrong_answers:
+  - L'aumento dei prezzi è un aumento generalizzato dei prezzi su una gamma di beni e servizi, mentre l'inflazione è specifica del settore e indotta da vari fattori.
+  - L'aumento dei prezzi e l'inflazione sono la stessa cosa, entrambi si riferiscono a un aumento generalizzato dei prezzi su una gamma di beni e servizi.
+  - L'aumento dei prezzi si riferisce a una diminuzione dei prezzi, mentre l'inflazione si riferisce a un aumento dei prezzi.
+explanation: |
+  Il capitolo spiega che un aumento dei prezzi può essere specifico del settore e indotto da vari fattori come una diminuzione della produzione di petrolio dell'OPEC o condizioni meteorologiche sfavorevoli per il grano. L'inflazione, d'altra parte, è definita da un aumento generalizzato dei prezzi su una gamma di beni e servizi, non solo in un settore specifico.
+reviewed: false

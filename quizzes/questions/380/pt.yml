@@ -1,0 +1,9 @@
+question: Qual é o objetivo de um plano de herança no Bitcoin?
+answer: Garantir que seus entes queridos possam acessar seus Bitcoins após sua morte.
+wrong_answers:
+  - Para minerar novos Bitcoins.
+  - Para negociar Bitcoins.
+  - Para converter Bitcoins em outras criptomoedas.
+explanation: |
+  Um plano de herança no Bitcoin é um plano que garante que seus entes queridos possam acessar seus Bitcoins após sua morte. Ele não é usado para minerar novos Bitcoins, negociar Bitcoins ou converter Bitcoins em outras criptomoedas.
+reviewed: false

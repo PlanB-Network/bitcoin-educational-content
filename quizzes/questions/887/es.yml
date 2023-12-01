@@ -1,0 +1,9 @@
+question: ¿Cuál es la relación entre la preferencia temporal y las tasas de interés en una economía con mercados de capital no manipulados?
+answer: Un aumento en las tasas de interés se produce debido a un aumento relativo en la demanda de capital en comparación con la oferta, lo que indica una mayor preferencia temporal. Por el contrario, una disminución en las tasas de interés se produce debido a un aumento en el ahorro, que es un aumento en la oferta de capital, lo que indica una reducción en las preferencias temporales.
+wrong_answers:
+  - Un aumento en las tasas de interés indica una disminución en las preferencias temporales, mientras que una disminución en las tasas de interés indica un aumento en las preferencias temporales.
+  - La preferencia temporal y las tasas de interés están inversamente relacionadas.
+  - La preferencia temporal y las tasas de interés no tienen una relación directa.
+explanation: |
+  En una economía con mercados de capital no manipulados, las tasas de interés de referencia se determinan en la intersección de la oferta y la demanda de capital. Por lo tanto, estas tasas representan el estado de las preferencias temporales para toda la economía. Un aumento en la tasa de interés se produce debido a un aumento relativo en la demanda de capital en comparación con la oferta, lo que indica una mayor preferencia temporal. Por el contrario, una disminución en las tasas de interés se produce debido a un aumento en el ahorro, que es un aumento en la oferta de capital, lo que indica una reducción en las preferencias temporales.
+reviewed: false

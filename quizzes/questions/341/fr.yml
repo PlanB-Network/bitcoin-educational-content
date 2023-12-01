@@ -1,0 +1,9 @@
+question: Quelle est l'approche courante pour un détenteur de Bitcoin d'utiliser Bitcoin ?
+answer: De manière pair-à-pair
+wrong_answers:
+  - Par l'intermédiaire d'un courtier
+  - En vendant des biens ou des services
+  - En s'impliquant dans l'écosystème Bitcoin
+explanation: |
+  Une approche courante pour un détenteur de Bitcoin d'utiliser Bitcoin est de le faire de manière pair-à-pair. Cela signifie qu'ils peuvent acheter du Bitcoin directement en espèces avec des amis ou des membres de la communauté Bitcoin.
+reviewed: false

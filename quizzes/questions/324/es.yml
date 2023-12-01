@@ -1,0 +1,10 @@
+question: ¿Qué es una billetera caliente en el contexto de Bitcoin?
+answer: Una billetera para almacenar pequeñas cantidades de Bitcoin en línea.
+wrong_answers:
+  - Una billetera que se utiliza para transacciones en climas cálidos.
+  - Una billetera que se utiliza para almacenar grandes cantidades de Bitcoin.
+  - Una billetera que se utiliza para almacenar Bitcoin durante un largo período de tiempo.
+explanation: |
+  Una billetera caliente es una billetera para almacenar pequeñas cantidades de Bitcoin en línea.
+  Se considera menos segura que una billetera fría, ya que es más vulnerable a los ataques de hackers.
+reviewed: false

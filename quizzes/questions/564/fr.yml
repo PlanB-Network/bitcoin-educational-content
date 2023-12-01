@@ -1,0 +1,9 @@
+question: Quelle est la différence fondamentale entre une augmentation des prix et l'inflation ?
+answer: Une augmentation des prix peut être spécifique à un secteur et être causée par divers facteurs, tandis que l'inflation est définie par une augmentation généralisée des prix dans une gamme de biens et de services.
+wrong_answers:
+  - Une augmentation des prix est une augmentation généralisée des prix dans une gamme de biens et de services, tandis que l'inflation est spécifique à un secteur et est causée par divers facteurs.
+  - Une augmentation des prix et l'inflation sont la même chose, les deux font référence à une augmentation généralisée des prix dans une gamme de biens et de services.
+  - Une augmentation des prix fait référence à une diminution des prix, tandis que l'inflation fait référence à une augmentation des prix.
+explanation: |
+  Le chapitre explique qu'une augmentation des prix peut être spécifique à un secteur et être causée par divers facteurs tels qu'une diminution de la production de l'OPEP pour le pétrole ou des conditions météorologiques défavorables pour le blé. En revanche, l'inflation est définie par une augmentation généralisée des prix dans une gamme de biens et de services, et pas seulement dans un secteur spécifique.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a solução para o problema da troca direta na divisão do trabalho?
+answer: A troca indireta facilitada pelo dinheiro.
+wrong_answers:
+  - Troca direta facilitada pelo escambo.
+  - Troca indireta facilitada pelo escambo.
+  - Troca direta facilitada pelo dinheiro.
+explanation: |
+  O dinheiro permite a troca indireta, onde um indivíduo pode comprar de outro, e o vendedor pode usar essa unidade monetária em outro lugar, em outro momento e com outra pessoa.
+reviewed: false

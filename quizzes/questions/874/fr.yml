@@ -1,0 +1,9 @@
+question: Qu'est-ce que le concept de l'utilité marginale décroissante ?
+answer: Chaque unité supplémentaire d'un bien est moins désirée que la précédente.
+wrong_answers:
+  - Chaque unité supplémentaire d'un bien est plus désirée que la précédente.
+  - Chaque unité supplémentaire d'un bien est tout aussi désirée que la précédente.
+  - Le désir pour chaque unité supplémentaire d'un bien fluctue de manière imprévisible.
+explanation: |
+  Le concept de l'utilité marginale décroissante stipule que chaque unité supplémentaire d'un bien est moins désirée que la précédente. Cela s'explique par le fait qu'à mesure qu'un individu acquiert davantage d'un bien, chaque unité supplémentaire de ce bien procure moins d'utilité.
+reviewed: false

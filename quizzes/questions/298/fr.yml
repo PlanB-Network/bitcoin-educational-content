@@ -1,0 +1,9 @@
+question: Qu'est-ce que Bitcoin selon le mouvement cyberpunk ?
+answer: L'équivalent électronique de l'argent liquide
+wrong_answers:
+  - Une forme d'or numérique
+  - Une nouvelle forme de carte de crédit
+  - Un type de cryptomonnaie
+explanation: |
+  Le chapitre mentionne que du point de vue cyberpunk, Bitcoin s'oppose à une société sans argent liquide. Il permet la création de transactions financières numériques entièrement privées et sans intermédiaire. Pour le mouvement cyberpunk, Bitcoin est l'équivalent électronique de l'argent liquide.
+reviewed: false

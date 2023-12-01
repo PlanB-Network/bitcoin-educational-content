@@ -6,8 +6,6 @@ description: Como configurar seu dispositivo Foundation
 
 ![capa](assets/cover.jpeg)
 
-# Fondation
-
 A auto-guarda finalmente é possível com a carteira de hardware Passport e a carteira móvel Envoy. https://foundationdevices.com/
 
 Especificações principais

@@ -1,0 +1,10 @@
+question: What is a distinctive trait of a paranoid Bitcoiner?
+answer: Distrust of centralized systems and KYC processes
+wrong_answers:
+  - Trust in centralized systems
+  - Preference for sharing personal information
+  - Lack of interest in privacy and security
+explanation: |
+  The chapter describes a paranoid Bitcoiner as someone who has a distinctive
+  distrust of centralized systems and KYC processes.
+reviewed: false

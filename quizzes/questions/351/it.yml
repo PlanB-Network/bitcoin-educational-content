@@ -1,0 +1,9 @@
+question: Qual è un modo non-KYC per comprare o vendere bitcoin?
+answer: Utilizzando soluzioni peer-to-peer come Peach.
+wrong_answers:
+  - Utilizzando un portafoglio online (hot wallet).
+  - Utilizzando un portafoglio offline (cold wallet).
+  - Utilizzando un portafoglio hardware.
+explanation: |
+  KYC, o Know Your Customer, è un processo che le aziende utilizzano per verificare l'identità dei propri clienti. I metodi non-KYC, come le soluzioni peer-to-peer, consentono agli utenti di comprare o vendere bitcoin senza dover fornire informazioni personali.
+reviewed: false

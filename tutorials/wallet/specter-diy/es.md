@@ -6,8 +6,6 @@ description: Guía de configuración para Specter DIY
 
 ![portada](assets/cover.jpeg)
 
-# Specter DIY
-
 Especificaciones:
 
 - Placa de desarrollo

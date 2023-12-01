@@ -1,0 +1,13 @@
+question: What is one of the basic measures to improve online security habits?
+answer: Enable two-factor authentication (2FA)
+wrong_answers:
+  - Use the same password for all accounts
+  - Neglect to regularly back up data
+  - Share your passwords
+explanation: |
+  Enabling two-factor authentication (2FA) is one of the basic measures
+
+  to improve online security habits. It provides an additional layer of security to
+
+  your most sensitive accounts.'
+reviewed: false

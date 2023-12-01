@@ -1,0 +1,11 @@
+question: Qu'est-ce que le Lightning Network ?
+answer: C'est la deuxième couche du Bitcoin.
+wrong_answers:
+  - C'est une plateforme d'échange de cryptomonnaies.
+  - C'est un type de portefeuille Bitcoin.
+  - C'est un pool de minage Bitcoin.
+explanation: |
+  Le Lightning Network est une technologie de deuxième couche appliquée au bitcoin
+  qui utilise des canaux de micropaiement pour augmenter la capacité de sa blockchain à effectuer
+  des transactions.
+reviewed: false

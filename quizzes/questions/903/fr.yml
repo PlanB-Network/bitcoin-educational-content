@@ -1,0 +1,9 @@
+question: Quel est le rôle du secteur bancaire dans le déclenchement d'une récession selon la théorie autrichienne du cycle économique ?
+answer: Le secteur bancaire déclenche une récession lorsqu'il décide de réduire son risque et donc de diminuer le flux de crédit.
+wrong_answers:
+  - Le secteur bancaire déclenche une récession lorsqu'il décide d'augmenter son risque et donc d'augmenter le flux de crédit.
+  - Le secteur bancaire déclenche une récession lorsqu'il décide de maintenir son risque et donc de maintenir le flux de crédit.
+  - Le secteur bancaire n'a aucun rôle dans le déclenchement d'une récession selon la théorie autrichienne du cycle économique.
+explanation: |
+  Selon la théorie autrichienne du cycle économique, le secteur bancaire déclenche une récession lorsqu'il décide de réduire son risque et donc de diminuer le flux de crédit. Cela entraîne de nombreuses faillites, un resserrement du crédit, une diminution du pouvoir d'achat disponible et des crises financières.
+reviewed: false

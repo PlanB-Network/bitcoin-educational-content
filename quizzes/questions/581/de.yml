@@ -1,0 +1,9 @@
+question: Was ist die Hauptbeschränkung der klassischen Tabellen zur Hyperinflation?
+answer: Sie schließen bestimmte historische Zeiträume hoher Inflation aufgrund strenger Klassifizierungskriterien aus.
+wrong_answers:
+  - Sie enthalten zu viele Episoden von Inflation, die nicht als Hyperinflation qualifizieren.
+  - Sie sind veraltet und nicht auf moderne Volkswirtschaften anwendbar.
+  - Sie berücksichtigen nicht die Auswirkungen der Inflation auf die Wirtschaft.
+explanation: |
+  Klassische Tabellen zur Hyperinflation, wie die Hanke-Krus-Tabelle, schließen oft bestimmte historische Zeiträume hoher Inflation aufgrund strenger Klassifizierungskriterien aus, wie z.B. der von Cagan definierten Schwelle von 50% monatlicher Inflation.
+reviewed: false

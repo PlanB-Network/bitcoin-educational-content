@@ -1,0 +1,9 @@
+question: Was ist das Hauptrisiko, wenn Sie Ihre Bitcoins auf einer Börsenplattform lassen?
+answer: Die Plattform kann gehackt, beschlagnahmt, bankrott gehen oder einfach mit Ihrem Geld verschwinden.
+wrong_answers:
+  - Der Preis von Bitcoin kann plötzlich fallen.
+  - Die Plattform kann ihre Gebühren erhöhen.
+  - Die Plattform kann die Anzahl der Bitcoins, die Sie kaufen oder verkaufen können, begrenzen.
+explanation: |
+  Der Inhalt des Kapitels warnt davor, dass Börsenplattformen erhebliche Risiken bergen und so weit wie möglich vermieden werden sollten. Sie können gehackt, beschlagnahmt, bankrott gehen oder einfach mit Ihrem Geld verschwinden.
+reviewed: false

@@ -1,0 +1,11 @@
+question: What is the main reason for losing bitcoins according to the chapter?
+answer: Poor online security management
+wrong_answers:
+  - Cryptocurrency scams
+  - Financial scams
+  - Computer failure
+explanation: |
+  The chapter mentions that in addition to cryptocurrency scams and financial
+
+  scams, the main reason for losing bitcoins is related to poor online security management.'
+reviewed: false

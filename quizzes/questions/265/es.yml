@@ -1,0 +1,9 @@
+question: ¿Cuál es una estafa común en el campo de la inversión financiera?
+answer: Sistemas de venta piramidal.
+wrong_answers:
+  - Venta de bienes físicos.
+  - Venta de productos de software.
+  - Venta de moneda fiduciaria.
+explanation: |
+  En el campo de la inversión financiera, los sistemas de venta piramidal y los esquemas Ponzi destacan como modelos ilegales. Operan utilizando el dinero de nuevos inversores para pagar a participantes antiguos.
+reviewed: false

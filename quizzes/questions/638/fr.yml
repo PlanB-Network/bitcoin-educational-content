@@ -1,0 +1,9 @@
+question: Quels sont les avantages des canaux de paiement Lightning ?
+answer: Ils permettent aux utilisateurs d'envoyer et de recevoir des Bitcoins sans avoir à payer de frais de transaction élevés ou à attendre de longues périodes de confirmation sur le réseau Bitcoin.
+wrong_answers:
+  - Ils permettent aux utilisateurs de miner des Bitcoins de manière plus efficace.
+  - Ils permettent aux utilisateurs de stocker des Bitcoins de manière plus sécurisée.
+  - Ils permettent aux utilisateurs d'échanger des Bitcoins contre d'autres cryptomonnaies.
+explanation: |
+  Les canaux de paiement Lightning sont un moyen efficace d'effectuer des transactions Bitcoin rapides et peu coûteuses. Ils permettent aux utilisateurs d'envoyer et de recevoir des Bitcoins sans avoir à payer de frais de transaction élevés ou à attendre de longues périodes de confirmation sur le réseau Bitcoin.
+reviewed: false

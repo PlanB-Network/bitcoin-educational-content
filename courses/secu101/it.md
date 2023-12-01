@@ -16,12 +16,9 @@ Ciò si tradurrà nell'implementazione di diversi strumenti come una casella di 
 In questa formazione, non cerchiamo di renderti un esperto, anonimo o invulnerabile, poiché ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili a tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
 
 Team dei contributori:
-
-- Renaud Lifchitz; professore
-- Théo Pantamis; professore
-- Muriel; design
-- Rogzy Noury & Fabian; produzione
-- Théo; contributo
+Muriel; design
+Rogzy Noury & Fabian; produzione
+Théo; contributo
 
 +++
 

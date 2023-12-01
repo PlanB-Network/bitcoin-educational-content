@@ -6,8 +6,6 @@ description: Come utilizzare Kraken
 
 ![cover](assets/cover.jpeg)
 
-# Kraken
-
 Kraken (https://www.kraken.com/) è una piattaforma per comprare e vendere Bitcoin, è compatibile con KYC e LN.
 
 ![video](https://www.youtube.com/watch?v=ZCGXl5A2Hbc)

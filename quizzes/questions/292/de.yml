@@ -1,0 +1,9 @@
+question: Was ist der Zweck von Bitcoin-Wallets?
+answer: Um Bitcoins zu senden und zu empfangen
+wrong_answers:
+  - Um Bitcoins zu schürfen
+  - Um physische Bitcoins zu speichern
+  - Um Bitcoins in andere Währungen umzuwandeln
+explanation: |
+  Bitcoin-Wallets werden verwendet, um Bitcoins zu senden und zu empfangen. Es handelt sich um digitale Wallets, die die digitalen Zugangsdaten speichern, die erforderlich sind, um auf eine Bitcoin-Adresse zuzugreifen und die Bitcoins auszugeben.
+reviewed: false

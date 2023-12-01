@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito de la autenticación de dos factores (2FA) en Bitcoin?
+answer: Para mejorar la seguridad de las transacciones de Bitcoin.
+wrong_answers:
+  - Para minar nuevos Bitcoins.
+  - Para comerciar con Bitcoins.
+  - Para convertir Bitcoins en otras criptomonedas.
+explanation: |
+  La autenticación de dos factores (2FA) es un método para confirmar la identidad reclamada por un usuario utilizando algo que sabe (contraseña) y un segundo factor que no sea algo que tenga o algo que sea. Se utiliza para mejorar la seguridad de las transacciones de Bitcoin.
+reviewed: false

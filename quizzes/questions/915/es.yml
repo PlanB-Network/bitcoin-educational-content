@@ -1,0 +1,9 @@
+question: ¿Cuál es uno de los axiomas fundamentales en la economía austriaca?
+answer: Uno de los axiomas fundamentales es la preferencia temporal positiva, que se basa en las elecciones individuales de bienes o servicios hoy en lugar de mañana.
+wrong_answers:
+  - Uno de los axiomas fundamentales es la fijación arbitraria de las tasas de interés.
+  - Uno de los axiomas fundamentales es la dependencia de datos empíricos.
+  - Uno de los axiomas fundamentales es el uso de experimentos temporales para confirmar o refutar hipótesis.
+explanation: |
+  En la economía austriaca, uno de los axiomas fundamentales es la preferencia temporal positiva, que se basa en las elecciones individuales de bienes o servicios hoy en lugar de mañana, debido a la incertidumbre sobre el futuro.
+reviewed: false

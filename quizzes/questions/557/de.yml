@@ -1,0 +1,9 @@
+question: Wie lautet die Definition von Inflation laut Robert?
+answer: Inflation ist ein übermäßiger Anstieg der Zahlungsinstrumente, der zu einer Erhöhung der Preise und einer Abwertung der Währung führt.
+wrong_answers:
+  - Inflation ist ein Rückgang der Zahlungsinstrumente, der zu einer Erhöhung der Preise und einer Abwertung der Währung führt.
+  - Inflation ist ein übermäßiger Anstieg der Zahlungsinstrumente, der zu einem Rückgang der Preise und einer Abwertung der Währung führt.
+  - Inflation ist ein übermäßiger Anstieg der Zahlungsinstrumente, der zu einer Erhöhung der Preise und einer Aufwertung der Währung führt.
+explanation: |
+  Laut Robert wird Inflation definiert als ein übermäßiger Anstieg der Zahlungsinstrumente (Banknoten, Kapital), der zu einer Erhöhung der Preise und einer Abwertung der Währung führt.
+reviewed: false

@@ -6,8 +6,6 @@ description: Portefeuille LN multi fonction
 
 ![présentation](assets/1.jpeg)
 
-# Portefeuille/Nœud Blixt BTC ⚡️ LN
-
 ## Un puissant nœud BTC/Lightning dans votre poche, où que vous soyez
 
 Je voudrais vous présenter un nouveau nœud et porte-monnaie mobile BTC / LN intéressant et également puissant – Blixt. Le nom vient du suédois et signifie « éclair ».

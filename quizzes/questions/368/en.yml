@@ -1,0 +1,12 @@
+question: What is the role of the trusted individuals in your inheritance plan?
+answer: To assist your family when you are no longer here by providing advice on key and wallet management, helping understand how to safely recover your secret phrases (seeds), and providing assurance during a transaction.
+wrong_answers:
+  - To take possession of your crypto assets after your death, to manage your assets, and to distribute your assets among your heirs.
+  - To steal your crypto assets before they are handed over to your loved ones, to compromise your transactions, and to create conflicts among your heirs.
+  - To ignore your family when you are no longer here, to provide misleading advice on key and wallet management, and to create confusion during a transaction.
+explanation: |
+  The trusted individuals in your inheritance plan are there to assist
+  your family when you are no longer here. They provide advice on key and wallet management,
+  help understand how to safely recover your secret phrases (seeds), and provide assurance
+  during a transaction.
+reviewed: false

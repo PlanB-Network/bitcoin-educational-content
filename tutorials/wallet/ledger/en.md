@@ -6,8 +6,6 @@ description: How to set up your Ledger Nano S device
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Cold physical wallet – €60 – Beginner – To secure €2,000 to €50,000
 
 Ledger is the French solution for securing bitcoins in a simple way.

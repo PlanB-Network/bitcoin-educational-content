@@ -1,0 +1,9 @@
+question: Cosa dovresti fare dopo aver conservato la busta secondo il capitolo?
+answer: Assicurati che i tuoi eredi sappiano che devono recuperare questa busta se necessario.
+wrong_answers:
+  - Assicurati che i tuoi eredi non sappiano che devono recuperare questa busta se necessario.
+  - Assicurati che i tuoi eredi sappiano che non devono recuperare questa busta se necessario.
+  - Assicurati che i tuoi eredi non sappiano che non devono recuperare questa busta se necessario.
+explanation: |
+  Dopo aver conservato la busta, dovresti assicurarti che i tuoi eredi sappiano che devono recuperare questa busta se necessario, come suggerito nel capitolo.
+reviewed: false

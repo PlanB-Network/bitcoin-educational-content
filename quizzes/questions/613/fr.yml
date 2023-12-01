@@ -1,0 +1,11 @@
+question: Quel était le taux de change du bolivar numérique au Venezuela en 2021 ?
+answer: Un million pour un.
+wrong_answers:
+  - Mille pour un.
+  - Dix mille pour un.
+  - Cent mille pour un.
+explanation: |
+  En 2021, le bolivar numérique au Venezuela a été remplacé par une nouvelle
+  redénomination
+  d'un million pour un.
+reviewed: false

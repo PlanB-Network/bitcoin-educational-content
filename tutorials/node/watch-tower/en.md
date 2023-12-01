@@ -3,10 +3,6 @@ name: Watch Tower
 description: Understanding and using a watch tower
 ---
 
-# Watch Tower Lightning
-
-> Credit to: https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//
-
 ## How do watchtowers work?
 
 An essential part of the Lightning Network ecosystem, watchtowers give an extra degree of protection to users' lightning channels. Its main responsibility is to keep an eye on the channels' health and intervene if one channel party tries to defraud the other.
@@ -37,9 +33,9 @@ rpcpassword=<your-password>
 regtest=1
 '''
 
-* server: For RPC requests
-* rpcuser and rpcpassword: RPC clients can authenticate with the server
-* regtest: Not required but useful if you're planning for development.
+- server: For RPC requests
+- rpcuser and rpcpassword: RPC clients can authenticate with the server
+- regtest: Not required but useful if you're planning for development.
 
 rpcuser and rpcpassword need to be picked by you. They must be written without quotes. Eg:-
 
@@ -74,8 +70,6 @@ Once you've done that, you should be good to go to run the tower. Given we are r
 
 Given we are running on regtest we can mine block by issuing an RPC command, without the need of waiting for the 10-minute median time that we usually see in other networks (like mainnet or testnet). Check bitcoin-cli help and look for how to mine blocks. If you need some help, you can go through this article.
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 That's it, you've successfully run the tower. Congratulations. 🎉
-
-https://blog.summerofbitcoin.org/bitcoin-lightning-and-the-eye-of-satoshi-watchtower-revolutionizing-transactions-and-security//

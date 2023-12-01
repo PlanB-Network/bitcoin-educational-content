@@ -1,0 +1,9 @@
+question: Que devez-vous faire après avoir stocké l'enveloppe selon le chapitre ?
+answer: Assurez-vous que vos héritiers savent qu'ils doivent récupérer cette enveloppe si nécessaire.
+wrong_answers:
+  - Assurez-vous que vos héritiers ne savent pas qu'ils doivent récupérer cette enveloppe si nécessaire.
+  - Assurez-vous que vos héritiers savent qu'ils ne doivent pas récupérer cette enveloppe si nécessaire.
+  - Assurez-vous que vos héritiers ne savent pas qu'ils ne doivent pas récupérer cette enveloppe si nécessaire.
+explanation: |
+  Après avoir stocké l'enveloppe, vous devez vous assurer que vos héritiers savent qu'ils doivent récupérer cette enveloppe si nécessaire, comme suggéré dans le chapitre.
+reviewed: false

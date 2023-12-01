@@ -1,0 +1,9 @@
+question: Quelle était la principale raison de la création de la Banque d'Angleterre?
+answer: Financer la guerre à la fin du 17ème siècle
+wrong_answers:
+  - Émettre sa propre monnaie
+  - Concurrencer la Banque d'Amsterdam
+  - Réguler le marché boursier
+explanation: |
+  La Banque d'Angleterre a été créée à la fin du 17ème siècle avec pour motivation principale de financer la guerre. Elle a imposé des dépôts par décret et relégué les banques privées à une position secondaire dans le système monétaire.
+reviewed: false

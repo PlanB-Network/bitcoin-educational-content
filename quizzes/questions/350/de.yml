@@ -1,0 +1,9 @@
+question: Wofür wird eine Hot Wallet im Zusammenhang mit Bitcoin verwendet?
+answer: Um regelmäßig Bitcoins für den täglichen Gebrauch zu senden und zu empfangen.
+wrong_answers:
+  - Um Bitcoins sicher für die langfristige Aufbewahrung zu speichern.
+  - Um neue Bitcoins zu schürfen.
+  - Um Bitcoins auf einer Handelsplattform zu handeln.
+explanation: |
+  Eine Hot Wallet ist eine Art Bitcoin-Wallet, die mit dem Internet verbunden ist und sich daher für tägliche Transaktionen eignet. Sie ist jedoch anfälliger für Hacking und Diebstahl als eine Cold Wallet.
+reviewed: false

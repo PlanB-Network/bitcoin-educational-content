@@ -1,0 +1,9 @@
+question: Qui paie les frais de clôture dans une fermeture coopérative ?
+answer: La personne qui a ouvert le canal.
+wrong_answers:
+  - La personne qui a fermé le canal.
+  - Les deux parties également.
+  - La personne ayant le plus de SAT dans le canal.
+explanation: |
+  Dans une fermeture coopérative, les deux pairs conviennent d'un état final du canal. La personne qui a ouvert le canal paie les frais de clôture.
+reviewed: false

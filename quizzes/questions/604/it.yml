@@ -1,0 +1,9 @@
+question: Qual è il termine per un'azienda che continua a operare principalmente attraverso prestiti a basso costo, nonostante sia insolvente o vicina al fallimento nelle normali condizioni di mercato?
+answer: Azienda zombie
+wrong_answers:
+  - Azienda fantasma
+  - Azienda vampiro
+  - Azienda fantasma
+explanation: |
+  Un'azienda zombie è un'azienda che, nelle normali condizioni di mercato, sarebbe insolvente o vicina al fallimento, ma continua a operare principalmente attraverso prestiti a basso costo.
+reviewed: false

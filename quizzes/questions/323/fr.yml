@@ -1,0 +1,10 @@
+question: Qu'est-ce qu'un portefeuille froid dans le contexte du Bitcoin ?
+answer: Un portefeuille pour stocker de grandes quantités de Bitcoin hors ligne
+wrong_answers:
+  - Un portefeuille utilisé pour les transactions dans les climats froids
+  - Un portefeuille utilisé pour stocker de petites quantités de Bitcoin
+  - Un portefeuille utilisé pour stocker du Bitcoin pendant une courte période
+explanation: |
+  Un portefeuille froid est un portefeuille utilisé pour stocker de grandes quantités de Bitcoin hors ligne.
+  Il est considéré comme plus sécurisé qu'un portefeuille chaud car il est moins vulnérable aux piratages.
+reviewed: false

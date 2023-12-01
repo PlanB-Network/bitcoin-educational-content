@@ -1,0 +1,10 @@
+question: Was ist eine der Maßnahmen, um Ihren Computer in optimaler Arbeitsbedingung zu halten?
+answer: Regelmäßig Ihre Daten sichern
+wrong_answers:
+  - Teilen Sie Ihre Passwörter
+  - Verwenden Sie dasselbe Passwort für alle Konten
+  - Vernachlässigen Sie das Aktualisieren Ihres Computers
+explanation: |
+  Regelmäßiges Sichern Ihrer Daten ist eine der Maßnahmen, um Ihren Computer
+  in optimaler Arbeitsbedingung zu halten. Es ist auch eine grundlegende Maßnahme zur Verbesserung der Online-Sicherheitsgewohnheiten.
+reviewed: false

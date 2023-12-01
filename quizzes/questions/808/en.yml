@@ -1,0 +1,11 @@
+question: What is the recommended practice for storing the password for data encryption?
+answer: Write down the password on a paper to be kept in a safe place.
+wrong_answers:
+  - Store the password in a text file on the computer.
+  - Share the password with trusted friends.
+  - Use a common password that is easy to remember.
+explanation: |
+  It is recommended to write down the password for data encryption on a
+  paper and keep it in a safe place. This is to prevent loss of access to encrypted
+  data.
+reviewed: false

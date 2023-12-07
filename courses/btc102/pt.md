@@ -51,8 +51,6 @@ Estamos em uma indústria onde duas principais vertentes estão emergindo no set
 
 Todo este curso é focado no universo do Bitcoin e não nas criptomoedas em geral.
 
-![Golpes e fraudes financeiras](https://youtu.be/LeyI3CBw2g4)
-
 O campo das criptomoedas, incluindo o Bitcoin, ainda é relativamente jovem e pouco regulamentado. Portanto, está repleto de várias fraudes. Compreender os perigos e reconhecer as armadilhas típicas é essencial. Aqui estão algumas situações de golpes frequentemente encontradas:
 
 - Doações e loterias online
@@ -148,8 +146,6 @@ Sempre tenha em mente que nem todo mundo será necessariamente transparente em s
 
 ## Segurança online
 
-![segurança online](https://youtu.be/d9Ccy17yWB0)
-
 Além das fraudes em criptomoedas e finanças, a principal razão para perder bitcoins está relacionada à má gestão da segurança online. Muitas vezes, as pessoas usam a mesma senha para todas as suas contas, esquecem de atualizar seus computadores e negligenciam fazer backups regulares de seus dados. Se você se preocupa com essas práticas, não se preocupe, ainda é possível melhorar seus hábitos de segurança online. Aqui estão algumas medidas básicas que você pode implementar:
 
 - Use um gerenciador de senhas (veja o tutorial do LastPass),
@@ -190,8 +186,6 @@ O anonimato online é essencial para uma sociedade livre e próspera. Ele permit
 Mais uma vez, se você está interessado neste assunto, o curso SECU 101 está disponível para acompanhá-lo.
 
 ## Dicas para iniciantes
-
-![Dica para iniciantes](https://youtu.be/juMUJ3MWeZY)
 
 A educação formal nos ensina pouco sobre investimentos. Como resultado, muitas vezes nos aventuramos sozinhos nessa paisagem de investimento nova e complexa.
 
@@ -316,8 +310,6 @@ Se isso é novo para você, eu o encorajo fortemente a seguir o BTC 101 antes de
 
 ## Por que o Bitcoin é importante?
 
-![por que o bitcoin é tão importante](https://youtu.be/Iq0wZF3Ui9A)
-
 Por que a importância do Bitcoin é tão crucial? Essa é a questão central desta universidade. Seja para seus estudos ou sua estratégia de investimento, sem uma compreensão clara da importância do Bitcoin, você corre o risco de se desviar do seu plano de ação. Portanto, o objetivo é sempre manter em mente os fundamentos do Bitcoin, para garantir que sua estratégia permaneça alinhada com suas convicções.
 
 Barack Obama descreveu o Bitcoin como "um banco suíço no seu bolso". E de fato, o Bitcoin oferece as mesmas oportunidades para todos, independentemente de quem você seja. Se você é um adolescente, um presidente, um manifestante em Hong Kong ou um "colete amarelo" na França, todos têm acesso igual ao mesmo protocolo e às mesmas ferramentas:
@@ -387,8 +379,6 @@ Os principais defensores do Bitcoin hoje ainda são principalmente ciberpunks, c
 Bitcoin possui uma dimensão altamente filosófica, ética e política, ao mesmo tempo em que é totalmente indiferente a essas considerações. Na verdade, o Bitcoin é um simples protocolo que reproduz o mesmo processo repetidamente. São os seus usuários que o transformaram em uma arma de libertação contra o sistema financeiro atual. Do ponto de vista do movimento Cyberpunk, o Bitcoin se opõe a uma sociedade sem dinheiro em espécie. Ele permite criar transações financeiras digitais totalmente privadas e sem intermediários. Para o movimento Cyberpunk, o Bitcoin é o equivalente eletrônico do dinheiro em espécie.
 
 ## Compreendendo a indústria do Bitcoin
-
-![compreendendo a indústria do bitcoin](https://youtu.be/fcXvjghA-uM)
 
 Com a chegada do Bitcoin em 2009 por Satoshi Nakamoto, uma indústria de vários bilhões de dólares nasceu. Essa indústria, apesar de sua juventude, teve um crescimento exponencial nos últimos dez anos. Novos players chegam todos os dias com grandes quantias de dinheiro e estão prontos para entrar com força nessa nova indústria. Hoje, a indústria atingiu um ponto sem retorno, onde governos, bancos, gigantes da internet e outros se juntaram ao movimento com todo tipo de intervenção.
 

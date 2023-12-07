@@ -69,8 +69,6 @@ Viel Glück!
 
 ## 2.1 - Ein monetäres Phänomen
 
-![Video](https://youtu.be/Hg8L_PIs008)
-
 ### Definitionen von Inflation
 
 Inflation ist ein oft missverstandenes Konzept aufgrund der vielfältigen Definitionen, die damit verbunden sind. Die Wahrnehmung von Inflation variiert zwischen verschiedenen Gruppen wie Bitcoinern und traditionellen Ökonomen. Lassen Sie uns zuerst die Definitionen klären, bevor wir uns mit Hyperinflation befassen:
@@ -214,8 +212,6 @@ Diese Analyse zeigt, dass das Vertrauen in die Währung und damit auch ihr Wert 
 Zusammenfassend ermöglicht diese Studie zur Währungsabwertung ein tieferes Verständnis der Mechanismen der Inflation, die in den folgenden Videos untersucht werden. Wir werden über die verschiedenen Arten von Inflation und den Schwellenwert diskutieren, bei dem sie zu hoher oder Hyperinflation führen. Diese solide Grundlage wird es uns ermöglichen, die Komplexitäten der Inflation in den kommenden Sitzungen anzugehen. Vielen Dank für Ihre Aufmerksamkeit und bis zum nächsten Video, um diese Erkundung der monetären Dynamiken fortzusetzen.
 
 ## 2.2 - Die Arten von Inflation
-
-![Video](https://youtu.be/hHk5oV8HsNQ)
 
 ### Inflation ist kein multifaktorielles Phänomen
 
@@ -385,27 +381,10 @@ Was aus unserer Untersuchung hervorgeht, ist, dass Hyperinflation ein komplexes 
 
 In zukünftigen Diskussionen werden wir uns eingehender mit der Hyperinflation befassen und ihre Definitionen und Erscheinungsformen in verschiedenen wirtschaftlichen Kontexten untersuchen. Unser Ziel wird es sein, die zugrunde liegenden Mechanismen der Hyperinflation aufzudecken und potenzielle Lösungsansätze zu erforschen. Dieses differenzierte Verständnis wird es uns ermöglichen, die damit verbundenen Herausforderungen besser zu verstehen und fundierte Strategien zur Inflationsbekämpfung vorzuschlagen.
 Vielen Dank für Ihre Aufmerksamkeit. Die nächste Sitzung wird sich vollständig der Definition und Entmystifizierung der Hyperinflation widmen, unter Berücksichtigung verschiedener akademischer und praktischer Perspektiven. Wir freuen uns darauf, diese Erkundung bei unserem nächsten Treffen mit Ihnen fortzusetzen.
-## 2.3 - Die Deflation
-
-Bald erstellt von DAVID
-
-### Arten der Deflation
-
-### Die Deflation der 1930er Jahre (Platzen der Kreditblase) (Jeff Booth)
-
-### Wachstumsdeflation von 1865 bis 1896 (Dr. Philip Bagus)
-
-### Anpassung der Löhne (Keynes vs. Dr. Philip Bagus)
-
-### Wenn der Einkaufspreis schneller sinkt als der Verkaufspreis, ist das in Ordnung
-
-### MSM und Fiat-Ökonomen sprechen immer von Fiat-Deflation
 
 # Abschnitt 3 - Was ist Hyperinflation?
 
 ## 3.1 - Definitionen der Hyperinflation
-
-![vorläufiges Video 3.1](https://youtu.be/qYMR-i7TtHY)
 
 ### Definitionen der Hyperinflation
 
@@ -479,8 +458,6 @@ Gängige Definitionen von Hyperinflation, wie die von Kagan vorgeschlagene, die 
 Es ist zu beachten, dass einige historische Zeiträume mit hoher Inflation nicht in den klassischen Tabellen der Hyperinflation enthalten sind, oft aufgrund strenger Klassifizierungskriterien. Zum Beispiel betrugen die monatlichen Inflationsraten während des amerikanischen Unabhängigkeitskrieges im November 1779 und während des amerikanischen Bürgerkrieges im März 1864 jeweils 47,4% und 40%. Diese Raten, obwohl hoch, überschreiten nicht die von Kagan festgelegte Schwelle von 50% und schließen diese Perioden daher von den als Hyperinflation eingestuften Fällen aus. Diese Auslassung verdeutlicht die Grenzen starrer Definitionen und unterstreicht die Notwendigkeit eines nuancierteren Ansatzes, um die Hyperinflation in ihrer ganzen Komplexität zu erfassen.
 
 ## 3.2 - Ähnlichkeiten zwischen Weimar und Simbabwe
-
-![Video](https://youtu.be/xqMESvFi7J8)
 
 ### Zwei Epochen, zwei Katastrophen
 
@@ -629,8 +606,6 @@ Das schließt dieses Video über die Ähnlichkeiten der Erfahrungen während der
 
 ## 3.3 - Unterschiede zwischen Weimar und Simbabwe und zeitgenössische Parallelen
 
-![Video](https://youtu.be/jh_MOKDPmQQ)
-
 Transkript:
 
 In diesem Kapitel werden wir die Unterschiede und Parallelen zwischen vergangenen und zeitgenössischen Hyperinflationsperioden erkunden, ergänzt durch Anekdoten und relevante Vergleiche für heute.
@@ -720,8 +695,6 @@ Stellen Sie sich eine Situation vor, in der Sie eine Familie oder nahestehende P
 Heutzutage übernimmt die Investition die Rolle des Schutzes vor dem Verlust der Kaufkraft. Diese Herangehensweise birgt jedoch ihre eigenen Risiken. Sparen war schon immer ein Mittel gegen Unsicherheit. Finanzielle Rücklagen für unvorhergesehene Situationen zu haben, trägt zu innerer Ruhe bei und stärkt den sozialen Zusammenhalt. Zusammenfassend ist der Schutz unserer Kaufkraft entscheidend, um soziale und individuelle Stabilität aufrechtzuerhalten.
 
 ## 3.4 - Währungsumstellungen in Lateinamerika
-
-![Video](https://youtu.be/m2pcmbEzKyc)
 
 Wir werden uns gemeinsam verschiedene Phasen der Währungsumstellung in lateinamerikanischen Ländern ansehen.
 
@@ -822,8 +795,6 @@ Zusammenfassend ist Hyperinflation nur ein Aspekt der wirtschaftlichen Herausfor
 
 ## 3.5 - Wie man Hyperinflation überwindet
 
-![video](https://youtu.be/9PYH7ut3fq0)
-
 ### Wie man moderate Inflation und hohe Inflation beendet
 Die genannten Schlussfolgerungen stammen aus dem Buch "Monetary Regime and Inflation" von Bernold. Laut Bernold ist die einzige Methode, um die Inflation zu beenden, eine Währungsreform durchzuführen und Regierungsbeschränkungen einzuführen. Diese Beschränkungen beinhalten die Einrichtung einer Institution wie einer Zentralbank, die unabhängig von den politischen Entscheidungen der Regierung agiert. Hohe und Hyperinflation sind oft das Ergebnis der Finanzierung von Haushaltsdefiziten durch die Geldschöpfung. Um die moderate Inflation zu bekämpfen, ist es entscheidend, das Wachstum der Geldmenge zu verringern. Bernold schlägt auch vor, dass dieses Geldmengenwachstum im Vergleich zu den Nachbarländern erfolgen sollte. Eine überraschende Feststellung ist, dass während Phasen hoher oder Hyperinflation der Gesamtwert der Geldmenge tatsächlich abnehmen kann. Ein markantes Beispiel für diese Situation ist Simbabwe.
 ### Gegenintuitive Lösungen
@@ -871,13 +842,11 @@ Das Wichtigste ist, dass es verschiedene Strategien gibt, um aus der Hyperinflat
 
 ## 3.6 - Vorstellung der Sammlung von Hyperinflationsbanknoten
 
-![video](https://youtu.be/h1uwR3Yge1M)
-
 Der Link zur gescannten Sammlung ist im Bitcoin Educational Toolkit verfügbar, das im Ressourcenbereich der Plattform zugänglich ist.
 
 # Abschnitt 4 - Wie sind wir hierher gekommen?
+
 ## 4.1 - Das Aufkommen der zweiten Geldschicht und der Zentralbanken
-![video](https://youtu.be/cEon5lVtKZE)
 
 Transkript:
 

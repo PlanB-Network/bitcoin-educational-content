@@ -26,8 +26,6 @@ Théo; contributo
 
 ## Introduzione al corso
 
-![introduzione](https://youtu.be/DqLf72XBJUg)
-
 ### Obiettivo: aggiornamento!
 
 Benvenuti a tutti in questo programma di insegnamento dedicato alla sicurezza informatica. Questa formazione è progettata per essere accessibile a tutti, quindi non sono necessari prerequisiti informatici. Il nostro obiettivo principale è fornire le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale.
@@ -78,8 +76,6 @@ Questo programma di formazione è offerto gratuitamente con una licenza redistri
 
 ## Navigazione online
 
-![navigazione online](https://youtu.be/BEK7vGnkO64)
-
 Durante la navigazione su internet, è importante evitare alcuni errori comuni per preservare la propria sicurezza online. Ecco alcuni consigli per evitarli:
 
 ### Attenzione ai download di software:
@@ -116,11 +112,10 @@ TOR è legale ed è utilizzato da giornalisti, attivisti per la libertà e altre
 
 ## VPN e connessione Internet
 
-![vpn e connessione internet](https://youtu.be/oRO7sGexvzo)
-
 ### i VPN
 
 La protezione della propria connessione Internet è un aspetto cruciale della sicurezza online e l'utilizzo di reti private virtuali (VPN) è un metodo efficace per migliorare questa sicurezza, sia per le aziende che per gli utenti individuali.
+
 I VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo così la connessione più sicura. In un contesto professionale, i VPN consentono ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda da remoto. I dati scambiati sono crittografati, rendendo molto più difficile l'intercettazione da parte di terzi. Oltre a garantire l'accesso a una rete interna, l'uso di un VPN può consentire a un utente di far passare la propria connessione Internet attraverso la rete interna dell'azienda, dando l'impressione che la connessione provenga dall'azienda stessa. Ciò può essere particolarmente utile per accedere a servizi online che sono geograficamente limitati.
 
 ### Tipi di VPN
@@ -148,8 +143,6 @@ In sintesi, l'utilizzo di una VPN può migliorare notevolmente la sicurezza onli
 # Buone pratiche per l'uso del computer
 
 ## Utilizzo del computer
-
-![utilizzo del computer](https://youtu.be/lzJr5CIulSU)
 
 La sicurezza dei nostri computer è una questione fondamentale nel mondo digitale odierno. Oggi affronteremo tre punti chiave:
 
@@ -195,8 +188,6 @@ In conclusione, è fondamentale optare per un sistema operativo adatto alle prop
 
 ## Hack & gestione del backup: proteggere i propri dati
 
-![hack e gestione del backup](https://youtu.be/CJDjWPV3PeU)
-
 ### Come attaccano gli hacker?
 
 Per proteggersi adeguatamente, è fondamentale capire come i pirati informatici cercano di infiltrarsi nel tuo computer. Infatti, i virus non arrivano spesso per magia, ma sono piuttosto il risultato delle nostre azioni, anche involontarie!
@@ -235,8 +226,6 @@ Se rilevi un virus sul tuo computer, disconnettilo da Internet, effettua una sca
 
 ## Gestione delle caselle di posta
 
-![gestione della casella di posta](https://youtu.be/WjqH882f4cY)
-
 ### Inizio della sezione 2 del corso!
 
 Ora iniziamo la sezione 2 del corso. In questa sezione affronteremo tre argomenti essenziali per garantire la sicurezza degli accessi online: la gestione delle email, l'uso di un gestore di password e l'autenticazione a due fattori (2FA).
@@ -268,8 +257,6 @@ Bonus Bitcoin: Può essere consigliabile creare un indirizzo email appositamente
 **_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
 
 ## Gestore di password
-
-![gestore di password](https://youtu.be/HzLuZ6noePY)
 
 ### Cosa è un gestore di password?
 
@@ -320,8 +307,6 @@ Le password generate casualmente offrono un livello di sicurezza superiore, anch
 
 ## I 2 fattori di autenticazione
 
-![i 2FA](https://youtu.be/863n4N1XNjk)
-
 ### Perché implementare il 2FA
 
 L'autenticazione a due fattori (2FA) è uno strato di sicurezza aggiuntivo utilizzato per garantire che le persone che cercano di accedere a un account online siano effettivamente chi dicono di essere. Invece di limitarsi a inserire un nome utente e una password, il 2FA richiede una seconda forma di verifica.
@@ -367,7 +352,6 @@ Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatt
 
 ## Come lavorare in questa industria della sicurezza informatica
 
-![conclusione e lavorare nell'industria](https://youtu.be/YZ2EKaPvoZU)
 La cybersecurity, un settore in forte crescita, offre molte opportunità per coloro che sono appassionati della protezione dei sistemi e dei dati. Se questo settore ti intriga, ecco alcuni passaggi chiave per orientarti.
 
 ### Fondamenta accademiche e certificazioni:
@@ -399,8 +383,6 @@ L'evoluzione costante delle minacce richiede un costante monitoraggio delle noti
 Padroneggiando queste competenze e strumenti, sarai ben attrezzato per navigare con successo nel mondo della cybersecurity.
 
 ## Intervista a Renaud
-
-![Intervista](https://youtu.be/RVjE-KOSKDs)
 
 ### Gestione efficace delle password e rafforzamento dell'autenticazione: un approccio accademico
 

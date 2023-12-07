@@ -7,7 +7,17 @@ objectives:
   - Desarrollar un dominio de la Lightning Network y sus protocolos asociados.
 ---
 
-# Introducción
+Welcome to Cubo+ dev courses for Bitcoin!
+
+Over the next 20 hours, you will be delving deep into the BTC and LN protocols. This course is focused on programmers who want to start working in the BTC ecosystem and are seeking a solid understanding of the various tech stacks of BTC & LN.
+
+The videos were recorded live during the 2023 CUBO+ bootcamp in El Salvador and managed to gather world-renowned teachers. This course was offered for free, thanks to the generosity of Fulgure Venture and the collaborative efforts of teachers, The Bitcoin Office, DecouvreBitcoin, and many other contributors.
+
+Enjoy!
+
++++
+
+# Introducción y cursos preparatorios
 
 ## Introducción a los cursos de CUBO+
 
@@ -23,6 +33,76 @@ El curso tiene como objetivo equipar a los participantes con una comprensión pr
 
 Se espera que los participantes tengan un fuerte sentido de curiosidad, un deseo de aprender a nivel profesional y algunos conocimientos fundamentales en desarrollo. Si bien no se requiere un conocimiento detallado de Bitcoin, es esencial tener una comprensión básica de los principios de codificación y una disposición para involucrarse con conceptos técnicos complejos para aprovechar al máximo el acelerador.
 
+## Módulo 1 - Por qué Bitcoin
+
+### Por qué El Salvador necesita Bitcoin
+
+![video](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+
+La primera conferencia 'Por qué El Salvador necesita Bitcoin' proporciona una visión general de: el protocolo Bitcoin y sus raíces, el movimiento cypherpunk y la importancia de Bitcoin como herramienta de libertad (dinero sin censura, inclusión financiera y otros temas relacionados).
+
+### Movimiento Cypherpunk y Economía Austriaca
+
+![video](https://youtube.com/live/KIaC31YQLBA)
+
+En nuestra segunda conferencia 'Movimiento Cypherpunk y Economía Austriaca', profundizamos en la filosofía Cypherpunk introducida por Rikki en la conferencia anterior.
+
+Además, nuestra discusión se centró en la Escuela Austriaca de Economía, que se diferencia del sistema financiero actual (Economía Keynesiana). Exploramos conceptos como la escasez, la preferencia temporal, la durabilidad y el ahorro, sobre los cuales Saifedean profundizará aún más. Para prepararse para su conferencia, recomiendo leer "The Bitcoin Standard" (puede encontrarlo en 'Recursos Adicionales'), o al menos algunos capítulos.
+
+Es importante señalar que el primer módulo, 'Por qué Bitcoin', era necesario para comprender las raíces y los objetivos antes de pasar a 'Cómo Bitcoin', donde descubriremos la tecnología subyacente de Bitcoin y las decisiones que tomaron los primeros desarrolladores en el protocolo.
+Aquí está el enlace, ¡disfrútelo!
+
+## Módulo 2 - Cómo Bitcoin
+
+### Pila Tecnológica de Bitcoin
+
+![video](https://youtube.com/live/OKanfSTLlW0)
+
+En la primera conferencia del curso 'Cómo Bitcoin', comenzamos a explorar la pila tecnológica que respalda la red Bitcoin. Cubrimos una variedad de temas, incluyendo Hashcash, transacciones, la cadena de bloques, la Red Lightning y otros componentes clave del protocolo Bitcoin.
+
+### Pila Tecnológica de Bitcoin
+
+![video](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
+
+Durante la segunda conferencia de 'Cómo Bitcoin', realizamos un examen más profundo de la pila tecnológica de Bitcoin.
+
+## Módulo 3 - Desacreditando Bitcoin
+
+### Romper con la FUD
+
+![video](https://youtube.com/watch?v=P0reZe6pMpo)
+
+Desacreditando las blockchains y las shitcoins, y desacreditando mitos y concepciones erróneas sobre el desperdicio de energía de Bitcoin y su uso criminal.
+
+## Módulo 4 - Ejecutando Bitcoin
+
+### Instalación de Bitcoin Core
+
+![Video](https://youtube.com/live/K0meE5pldmI)
+
+En la primera conferencia del cuarto módulo, exploramos la arquitectura de Bitcoin y la instalación de un nodo de Bitcoin Core.
+
+### Instalación de C-lightning
+
+![video](https://youtube.com/live/p6SgjtplAAM)
+
+Durante nuestra segunda conferencia, nos adentramos en el proceso de instalación de C-lightning.
+
+### Seguridad y dispositivos de hardware
+
+![video](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+
+En la tercera conferencia, cubrimos temas relacionados con la seguridad, dispositivos de hardware y la configuración de Specter.
+
+## Módulo 5 - Mejorando Bitcoin
+
+### Problemas Abiertos en el Ecosistema Bitcoin
+
+![video](https://youtube.com/live/BVYKeTXMtzQ)
+
+¡Hola chicos, aquí está el enlace para la última conferencia del período preparatorio sobre los problemas de Bitcoin y posibles soluciones!
+
+
 # Fundamentos de Bitcoin
 
 ## Pensamiento de Seguridad en Bitcoin
@@ -32,11 +112,13 @@ Se espera que los participantes tengan un fuerte sentido de curiosidad, un deseo
 Peter Todd profundiza en las consideraciones de seguridad únicas de Bitcoin, enseñando a los desarrolladores cómo adoptar una mentalidad de seguridad en primer lugar. La conferencia tiene como objetivo inculcar una base sólida en el reconocimiento y mitigación de posibles amenazas en el desarrollo de Bitcoin, basándose en un ejercicio práctico de explicitar el Modelo de Amenazas del software para la marca de tiempo de las elecciones.
 
 ## Software Libre y de Código Abierto (FLOSS) en Bitcoin
+
 ![Video](https://youtu.be/GM-ho5M5_mQ)
 
 El uso de Software Libre y de Código Abierto (FLOSS) es fundamental en el ecosistema de Bitcoin. Peter Todd explora la importancia de FLOSS para Bitcoin, explorando la historia de FLOSS y examinando cómo Github nos permite construir de manera colaborativa software de código abierto como Bitcoin.
 
 ## Criptografía en Bitcoin
+
 ![Video](https://youtu.be/4Fw9xS7JlVU)
 
 Adam Gibson guía a los participantes a través de los fundamentos criptográficos de Bitcoin desde una perspectiva matemática. La sesión cubre las funciones criptográficas esenciales que están presentes en Bitcoin, como los hashes y su seguridad, los árboles de Merkle, los protocolos de identidad y firma, los logs discretos y las curvas elípticas.
@@ -57,7 +139,8 @@ Adam Gibson desglosa los diversos componentes de un nodo de Bitcoin. El capítul
 
 ## Estructuras de Datos de Bitcoin
 
-(el video estará disponible pronto)
+![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+
 Alekos Filini presenta un análisis en profundidad de las estructuras de datos de Bitcoin. Esto cubre la organización de los datos dentro de la cadena de bloques y cómo permite la robustez y eficiencia de la red.
 ## Pila de Software Bitcoin L1
 
@@ -113,24 +196,6 @@ Alekos Filini examina los protocolos construidos sobre la Lightning Network, exp
 
 # Bonus
 
-## Minería en Bitcoin
-
-![Video](https://youtu.be/22LadAWEMQo)
-
-Ajelex se adentra en el mundo de la minería de Bitcoin, detallando el proceso y su importancia en el contexto de la seguridad de la red y la creación de nuevos bitcoins.
-
-## Joinmarket
-
-![Video](https://youtu.be/VFjccozVwc8)
-Adam explora Joinmarket, una implementación de CoinJoin que mejora la privacidad y fungibilidad al permitir a los usuarios crear transacciones de Bitcoin colaborativas, sin confianza y anónimas.
-## Protocolos sobre la Red Lightning
-
-![Video](https://youtu.be/OLTQLtQyoZE)
-
-Alekos analiza los diversos protocolos que operan sobre la Red Lightning, mejorando sus capacidades más allá de los simples canales de pago. Este capítulo explora las innovaciones que estos protocolos aportan a la red, cómo interoperan entre sí y su papel en el ecosistema más amplio de Bitcoin, como Keysend, LNURL, Nostr y Lightning LSPs.
-
-# Bonus
-
 ## Fundamentos de la Minería de Bitcoin
 
 ![Video](https://youtu.be/22LadAWEMQo)
@@ -175,7 +240,7 @@ El grupo de Satoshi Fellowship presenta una aplicación de juegos LN utilizando 
 
 El grupo Lighting Walker presenta su solución para un servicio de remesas utilizando MySQL, JavaScript y la API de ZDB.
 
-# Reconocimientos y Sigue Profundizando en la Madriguera del Conejo
+## Reconocimientos
 
 Nos gustaría reconocer las contribuciones de nuestros educadores:
 

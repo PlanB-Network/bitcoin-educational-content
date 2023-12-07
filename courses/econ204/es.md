@@ -35,11 +35,10 @@ Sección 2 - ¿Qué es la inflación?
 - 2.1 - Un fenómeno monetario
 - 2.2 - Tipos de inflación
 - 2.3 - La deflación
+
 # Sección 2 - ¿Qué es la inflación?
 
 ## 2.1 - Un fenómeno monetario
-
-![video ](https://youtu.be/Hg8L_PIs008)
 
 ### Las definiciones de la inflación
 
@@ -168,8 +167,6 @@ Este análisis demuestra que la confianza en la moneda, y por extensión su valo
 En conclusión, este estudio sobre la devaluación monetaria abre la puerta a una comprensión profunda de los mecanismos de la inflación, que se explorarán en los siguientes videos. Discutiremos los diferentes tipos de inflación y el umbral en el que se convierten en una inflación alta o hiperinflación. Esta base sólida nos permitirá abordar las complejidades de la inflación en las próximas sesiones. Gracias por su atención y nos vemos en el próximo video para continuar esta exploración de las dinámicas monetarias.
 
 ## 2.2 - Los tipos de inflación
-
-![ Video](https://youtu.be/hHk5oV8HsNQ)
 
 ### La inflación no es un fenómeno multifactorial
 
@@ -339,27 +336,11 @@ Lo que se desprende de nuestra exploración es que la hiperinflación es un fen�
 
 En nuestras futuras discusiones, profundizaremos en la hiperinflación, explorando sus definiciones y manifestaciones en diversos contextos económicos. Nuestro objetivo será revelar los mecanismos subyacentes de la hiperinflación y explorar posibles soluciones para remediarla. Esta comprensión matizada nos permitirá comprender mejor los desafíos asociados y proponer estrategias informadas para la gestión de la inflación.
 Gracias por su atención, la próxima sesión estará completamente dedicada a definir y desmitificar la hiperinflación, teniendo en cuenta las diferentes perspectivas académicas y prácticas. Esperamos continuar esta exploración con ustedes en nuestra próxima reunión.
-## 2.3 - La deflación
-
-Próximamente creado por DAVID
-
-### Tipos de deflación
-
-### La deflación de los años 30 (estallido de la burbuja de crédito) (Jeff Booth)
-
-### Deflación del crecimiento de 1865 a 1896 (Dr. Philip Bagus)
-
-### Ajuste de salarios (Keynes vs Dr. Philip Bagus)
-
-### Si el precio de compra baja más rápido que el precio de venta, está bien
-
-### MSM y economistas fiat siempre hablan de la deflación Fiat
 
 # Sección 3 - ¿Qué es la hiperinflación?
 
 ## 3.1 - Definiciones de la hiperinflación
 
-![video provisional 3.1 ](https://youtu.be/qYMR-i7TtHY)
 
 ### Definiciones de la hiperinflación
 
@@ -412,8 +393,6 @@ Definiciones comunes de hiperinflación, como la propuesta por Kagan que estable
 Es importante tener en cuenta que algunos períodos históricos de alta inflación no se incluyen en las tablas clásicas de hiperinflación, a menudo debido a criterios estrictos de clasificación. Por ejemplo, durante la Guerra de Independencia de Estados Unidos en noviembre de 1779 y durante la Guerra Civil estadounidense en marzo de 1864, las tasas de inflación mensual fueron del 47.4% y 40% respectivamente. Estas tasas, aunque altas, no superan el umbral del 50% establecido por Kagan, excluyendo así estos períodos de los casos clasificados como hiperinflación. Esta omisión ilustra las limitaciones de las definiciones rígidas y destaca la necesidad de un enfoque más matizado para comprender la hiperinflación en toda su complejidad.
 
 ## 3.2 - Similitudes entre Weimar y Zimbabwe
-
-![Video](https://youtu.be/xqMESvFi7J8)
 
 ### Dos épocas, dos catástrofes
 
@@ -560,8 +539,6 @@ Esto completa este video sobre las similitudes de las experiencias vividas duran
 
 ## 3.3 - Diferencias entre Weimar y Zimbabwe y paralelismos contemporáneos
 
-![Video](https://youtu.be/jh_MOKDPmQQ)
-
 Transcripción:
 
 En este capítulo, exploraremos las diferencias y paralelismos entre los períodos de hiperinflación pasados y contemporáneos, con anécdotas y comparaciones relevantes para hoy.
@@ -652,8 +629,6 @@ Imagina un escenario en el que tienes una familia o seres queridos a los que des
 Hoy en día, frente a la disminución del poder adquisitivo, la inversión toma el relevo. Sin embargo, este enfoque conlleva sus propios riesgos. El ahorro siempre ha sido un remedio contra la incertidumbre. Tener reservas financieras para manejar situaciones imprevistas contribuye a la tranquilidad mental y fortalece la cohesión social. En conclusión, la protección de nuestro poder adquisitivo es esencial para mantener la estabilidad social e individual.
 
 ## 3.4 - Las redenominaciones en América Latina
-
-![Video](https://youtu.be/m2pcmbEzKyc)
 
 Vamos a analizar juntos diferentes períodos de redenominación en países de América Latina.
 
@@ -759,8 +734,6 @@ En conclusión, la hiperinflación es solo un aspecto de los desafíos económic
 
 ## 3.5 - Cómo salir de la hiperinflación
 
-![video](https://youtu.be/9PYH7ut3fq0)
-
 ### Cómo poner fin a la inflación moderada y la alta inflación
 Las conclusiones mencionadas se extraen del libro "Monetary Regime and Inflation" de Bernold. Según este autor, el único método para poner fin a la inflación es llevar a cabo una reforma monetaria e imponer restricciones al gobierno. Estas restricciones implican establecer una institución, como un banco central, que opere de manera independiente a las decisiones políticas del gobierno. La alta e hiperinflación a menudo son el resultado de financiar los déficits presupuestarios a través de la creación de dinero. Para controlar la inflación moderada, es esencial reducir el crecimiento de la masa monetaria. Bernold también sugiere que este crecimiento monetario sea relativo a los países vecinos. Un punto sorprendente es que, durante períodos de alta o hiperinflación, el valor total de la masa monetaria puede disminuir en realidad. Un ejemplo destacado de esta situación es el de Zimbabwe.
 ### Soluciones contraintuitivas
@@ -807,15 +780,11 @@ Lo más importante a tener en cuenta es que existen varias estrategias para sali
 
 ## 3.6 - Presentación de la colección de billetes de hiperinflación
 
-![video](https://youtu.be/h1uwR3Yge1M)
-
 El enlace a la colección escaneada está disponible en el Bitcoin Educational Toolkit, accesible desde la sección de Recursos de la plataforma.
 
 # Sección 4 - ¿Cómo llegamos aquí?
-## 4.1 - La aparición de la segunda capa de la moneda y los bancos centrales
-![video](https://youtu.be/cEon5lVtKZE)
 
-Transcripción:
+## 4.1 - La aparición de la segunda capa de la moneda y los bancos centrales
 
 La aparición de la segunda capa monetaria y los primeros bancos centrales es un tema fascinante. Este tema se aborda ampliamente en el libro "Layered Money" de Nick Battia. Lo recomiendo encarecidamente a aquellos que estén interesados en la evolución y sutilezas de nuestros sistemas monetarios. El objetivo de esta sección es comprender el origen de la creación monetaria y cómo esto pudo llevar a la hiperinflación.
 

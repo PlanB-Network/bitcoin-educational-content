@@ -455,7 +455,7 @@ En ciertas circunstancias económicas, el valor intrínseco de un billete puede 
 
 > Zimbabwe: "El banco central había desperdiciado dinero imprimiendo un billete que no valía el papel en el que estaba impreso. En otras palabras, su valor era inferior al del papel higiénico. Por absurdo que parezca, era más barato usar el billete de ZWD 100 billones como papel higiénico que comprar papel higiénico real".
 
-![imagen](assets/chapitre-3.2/PN3.pngG)
+![imagen](assets/chapitre-3.2/3.png)
 
 4. Conteo de dinero
 
@@ -495,11 +495,15 @@ En situaciones de hiperinflación o crisis monetaria, los mercados paralelos y n
 Weimar: "Sus transacciones se realizaban principalmente a través de los llamados banqueros de esquina, los operadores callejeros que surgieron con la inflación y que, prosperando en una economía enferma, vivían completamente aprovechando la diferencia entre los precios de compra y venta de divisas extranjeras".
 Zimbabwe: "También eran cambistas de moneda. Operaban impunemente entre la 2ª y la 6ª Avenida y Fort Street en Bulawayo, gracias a sus astutas habilidades comerciales que implicaban corrupción y otras prácticas. Esta zona de la ciudad era conocida como el 'Banco Mundial'".
 Argentina: "Así que fui a donde van todos los argentinos: las cuevas, que se encuentran en el barrio de Florida, en el corazón de Buenos Aires" - TheBigWhale.
+
 9. El cambio de moneda era ilegal.
+
 Los gobiernos, en un esfuerzo por estabilizar su propia moneda y controlar el flujo de capitales, pueden hacer ilegales estas transacciones en divisas extranjeras. Estas medidas represivas, aunque destinadas a proteger la economía nacional, a menudo pueden tener el efecto contrario, exacerbando la desconfianza del público y fomentando el mercado negro.
 Weimar: "La gente comenzó a comerciar a través del trueque y gradualmente recurrió a las divisas extranjeras como única forma de intercambio confiable. Se introdujeron nuevos decretos sobre la compra de letras de cambio extranjeras y el uso de divisas extranjeras para pagos internos. Además de la prisión, ahora se podían imponer multas de hasta diez veces el monto de una transacción ilegal".
 Zimbabwe: "Las redadas en las empresas llevaron al encarcelamiento de varios hombres de negocios de Bulawayo durante el fin de semana y a multas equivalentes al doble del monto en divisas recuperado, luego esta valentía se desvaneció".
+
 10. Control de capitales.
+
 Cuando un país enfrenta una crisis monetaria o económica, una de las respuestas comunes de los gobiernos es ejercer un estricto control sobre los movimientos y formas de capital. Ya sea a través de órdenes que obligan a aceptar monedas nacionales devaluadas o mediante sanciones severas contra aquellos que rechazan ciertos métodos de pago, estas medidas a menudo buscan contener el pánico y restaurar la confianza. Sin embargo, la efectividad varía y, a veces, estas medidas pueden resultar contraproducentes o desconectadas de la realidad experimentada por los ciudadanos.
 Weimar: "Los comerciantes recientemente se vieron obligados por un nuevo edicto a aceptar los billetes de banco del Estado; pero como también permitía el uso continuo de monedas extranjeras para todas las compras, los comerciantes generalmente encontraban excusas para no aceptar casi nada más".
 
@@ -522,7 +526,9 @@ Ante una economía en ruinas y regulaciones omnipresentes, la línea entre la su
 Weimar: "Todos los delitos contra el Estado, cada uno de ellos, en diferentes grados, se convirtieron en una cuestión de supervivencia para los individuos".
 
 Zimbabwe: "Cada residente en Zimbabwe era un criminal. Por más duro que suene, era cierto. Con la miríada de pequeñas leyes que regulaban cada aspecto de la vida, era inevitable que cada uno infringiera una ley todos los días. Poseer moneda extranjera era ilegal, según un SI publicado en 2004. Tener varias cuentas bancarias para evadir el límite diario de retiro era ilegal. No tener las placas de matrícula correctas en tu automóvil, o no tener una licencia de radio para el automóvil o un permiso para el generador, eran tantas leyes que alguien, en algún lugar, estaba infringiendo".
+
 13. Compra de divisas extranjeras a cualquier precio
+
 La compra frenética de divisas extranjeras a menudo ha marcado un punto crítico en la devaluación monetaria, exacerbando la caída del valor intrínseco.
 
 > Weimar: "Mannheimer, siguiendo las instrucciones de su jefe, salió en agosto de 1921 y comenzó a comprar divisas extranjeras a cualquier precio, 'porque Alemania tenía una cantidad infinita de marcos en papel pero no tenía divisas extranjeras'. Este fue el primer signo del colapso absoluto del valor del marco".
@@ -578,6 +584,7 @@ En Alemania, era común que la población atribuyera la inflación al aumento de
 
 Ante la crisis monetaria y económica, Alemania recurrió al "Notgeld" (moneda de necesidad). Estos billetes, impresos por ciudades o ciertas empresas, fueron diseñados para remediar la escasez de moneda corriente.
 De manera interesante, Francia también recurrió a los Notgeld, especialmente en la década de 1920. Esta iniciativa no fue solo una consecuencia directa de la hiperinflación, sino que también tuvo sus raíces en las perturbaciones causadas por la Primera Guerra Mundial. La guerra no solo desestabilizó la economía, sino que también aumentó el costo de los metales. Por lo tanto, el valor intrínseco de las monedas de metal a menudo superaba su valor nominal, lo que llevaba a las personas a almacenarlas. En ausencia de monedas, algunas instituciones, como la Cámara de Comercio de Lyon, imprimieron sus propios Notgeld.
+
 ![image](assets/chapitre-3.3/0.PNG)
 
 > "Lo que se debe hacer, se debe hacer." - un dicho local
@@ -605,6 +612,7 @@ Para aprender más sobre la gestión de la crisis alemana, este libro también e
 ![image](assets/chapitre-3.3/4.png)
 
 ### Los paralelos contemporáneos
+
 1. Manipulación de la política monetaria para controlar la economía.
 En la historia de la República de Weimar, es evidente que los industriales se mostraban reacios a la apreciación del Marco. Su capacidad para pedir prestado y pagar sus deudas con una moneda fuertemente devaluada les ofrecía una ventaja considerable. Este mecanismo facilitó la construcción de enormes complejos industriales a costos casi nulos. Estos industriales temían una apreciación del Marco ya que obstaculizaba sus actividades. Incluso algunos veían con buenos ojos la inflación galopante, ya que consideraban que garantizaba el empleo para la población. Sin embargo, no medían el impacto negativo de esta inflación en el ahorro y en la economía en general. Para estos actores económicos, la impresión de dinero era una bendición.
 
@@ -665,6 +673,7 @@ En la diapositiva, a la izquierda, se muestran los años de redenominación, el 
 
 A la derecha de la diapositiva, hay un gráfico de la inflación. Las flechas rojas representan los años de hiperinflación, definidos según el criterio de Kagan como una inflación del 50% por mes. Este criterio a veces puede llevar a interpretaciones ambiguas, con años que presentan tasas de inflación altas pero que no cumplen estrictamente con la definición de hiperinflación.
 Es importante destacar que la redenominación, durante períodos de inflación, es una medida común tomada por los gobiernos. Sin embargo, esto no resuelve el problema subyacente de la inflación o hiperinflación. Es simplemente una forma de cambiar el nombre de la moneda y eliminar ceros, sin abordar realmente la causa fundamental de la hiperinflación: la expansión de la masa monetaria. En un video posterior, discutiremos las soluciones reales para abordar y resolver el problema de la hiperinflación. En esta serie, destacaremos las consecuencias de una simple redenominación sin reformas adecuadas: la inflación persiste.
+
 Después de Argentina, nuestro estudio cubrirá Brasil, Bolivia, Perú, Nicaragua y Venezuela. Examinaremos las redenominaciones que han tenido lugar en estos países.
 
 ### Argentina
@@ -762,7 +771,9 @@ En conclusión, la hiperinflación es solo un aspecto de los desafíos económic
 ![video](https://youtu.be/9PYH7ut3fq0)
 
 ### Cómo poner fin a la inflación moderada y la alta inflación
+
 Las conclusiones mencionadas se extraen del libro "Monetary Regime and Inflation" de Bernold. Según este autor, el único método para poner fin a la inflación es llevar a cabo una reforma monetaria e imponer restricciones al gobierno. Estas restricciones implican establecer una institución, como un banco central, que opere de manera independiente a las decisiones políticas del gobierno. La alta e hiperinflación a menudo son el resultado de financiar los déficits presupuestarios a través de la creación de dinero. Para controlar la inflación moderada, es esencial reducir el crecimiento de la masa monetaria. Bernold también sugiere que este crecimiento monetario sea relativo a los países vecinos. Un punto sorprendente es que, durante períodos de alta o hiperinflación, el valor total de la masa monetaria puede disminuir en realidad. Un ejemplo destacado de esta situación es el de Zimbabwe.
+
 ### Soluciones contraintuitivas
 
 Al estudiar Zimbabwe, se observó que 10 billones de masa monetaria habían perdido todo su valor. En Weimar, era posible imprimir dos tercios del total nominal de 65 mil millones de masa monetaria en un solo día. Esto muestra cuánto puede devaluarse la masa monetaria. Para remediar esta situación, es necesario aumentar significativamente la masa monetaria hasta alcanzar un nivel adecuado. Luego, es indispensable llevar a cabo una reforma monetaria. En situaciones de alta inflación, esta reforma es inevitable, pero debe asegurarse de que haya suficiente dinero en circulación. Después de este paso, se pueden imponer restricciones al gobierno.
@@ -773,6 +784,7 @@ Un aspecto interesante planteado por Bernold es que el éxito de una reforma mon
 
 - En Zimbabwe, la solución adoptada para combatir la inflación fue la dolarización, lo que significa que adoptaron el dólar estadounidense u otras monedas de países vecinos. Este enfoque impide que el gobierno imprima dinero a su antojo.
 - En Alemania, la solución fue crear una nueva moneda, el Rentenmark. Esta moneda estaba respaldada por los activos territoriales del Reich, y esta estrategia resultó efectiva.
+
 ### El caso de Zimbabwe
 
 ![image](assets/chapitre-3.5/1.PNG)
@@ -791,6 +803,7 @@ Sin embargo, la dolarización no es una solución milagrosa. Aunque puede poner 
 
 En 2007, la tasa de inflación en Zimbabwe alcanzó el umbral del 50% mensual, lo que oficialmente marcó al país como hiperinflacionario. Después de la dolarización en 2009, la hiperinflación cesó, pero el país enfrentó otros desafíos económicos.
 Es preocupante notar que Zimbabwe ha intentado reintroducir su propia moneda y nuevamente han aparecido signos de alta inflación. Según algunas organizaciones internacionales, el país podría cumplir nuevamente con los criterios de hiperinflación, incluso si aún no ha alcanzado el umbral oficial del 50% mensual. Esto sirve como recordatorio de los peligros de la emisión excesiva de dinero y la financiación del déficit por parte del banco central.
+
 ## Conclusión
 
 En mi libro "Todo sobre Bitcoin", dediqué un capítulo completo a la hiperinflación en Zimbabwe. Detallo los eventos destacados, proporcionando varios ejemplos que ilustran cómo el país finalmente puso fin a la hiperinflación.
@@ -812,6 +825,7 @@ Lo más importante a tener en cuenta es que existen varias estrategias para sali
 El enlace a la colección escaneada está disponible en el Bitcoin Educational Toolkit, accesible desde la sección de Recursos de la plataforma.
 
 # Sección 4 - ¿Cómo llegamos aquí?
+
 ## 4.1 - La aparición de la segunda capa de la moneda y los bancos centrales
 ![video](https://youtu.be/cEon5lVtKZE)
 

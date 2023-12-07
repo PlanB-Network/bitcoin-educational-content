@@ -23,8 +23,6 @@ Você não precisa ter conhecimentos específicos para começar, o curso é aces
 
 ## Um salto para o desconhecido
 
-![Introdução](https://youtu.be/PdiL6_1wbQY)
-
 ### Bem-vindo a um novo paradigma monetário e tecnológico.
 
 O Bitcoin é uma inovação significativa que vai além de uma simples "moeda da internet". É uma revolução tanto tecnológica quanto monetária, capaz de questionar nossa relação com o dinheiro e a sociedade. O Bitcoin é uma moeda **neutra** e **descentralizada**, o que significa que não está sob o controle de nenhuma entidade ou instituição. É uma inovação significativa que vai além de uma simples moeda. Para entender bem esse famoso Bitcoin, é importante compreender que o Bitcoin (BTC) é tanto um protocolo de computador (Bitcoin) quanto uma unidade monetária (bitcoin).
@@ -131,8 +129,6 @@ Portanto, o Bitcoin é um protocolo que se insere em longos períodos de tempo e
 
 ## A moeda ao longo da História
 
-![A moeda](https://youtu.be/LslJVNCvHhA)
-
 A evolução da moeda é um aspecto fascinante da história humana, refletindo a engenhosidade das civilizações ao longo dos tempos para atender às necessidades econômicas em constante evolução.
 
 ![image](assets/Concept/chapitre1/2.jpeg)
@@ -191,8 +187,6 @@ A Bitcoin, pelo contrário, oferece novas possibilidades. Devido às suas propri
 
 ## Moedas fiduciárias
 
-![Les monnaies Fiduciaires](https://youtu.be/1hOrDrmT27g)
-
 "Aqueles que não aprendem com a história estão condenados a repetir os mesmos erros", disse George Santayana. Uma verdade que ressoa particularmente quando falamos do atual sistema monetário.
 
 ### Fiduciário = confiança
@@ -239,8 +233,6 @@ Ao mesmo tempo, a emergência das moedas digitais dos bancos centrais, ou CBDC, 
 ![imagem](assets/Concept/chapitre2/0.jpeg)
 
 ## As hiperinflações
-
-![As hiperinflações](https://youtu.be/cYKmgflsy_8)
 
 A hiperinflação é um fenômeno monetário próprio das moedas fiduciárias. Caracteriza-se pela perda completa da confiança em uma moeda e pelo aumento drástico da inflação através da impressão monetária pelas autoridades. Como resultado, as economias acumuladas pelos indivíduos podem se dissipar em um curto período de tempo, levando o país à beira do abismo econômico, social e político.
 
@@ -321,8 +313,6 @@ Em conclusão, a hiperinflação tem o efeito de corroer rapidamente o valor da 
 Une moeda que se base em uma instituição financeira de confiança de terceiros acaba sendo, na prática e a longo prazo, uma moeda defeituosa, pois é incapaz de garantir o poder de compra ou preservar as economias.
 
 ## 21 milhões de bitcoins
-
-![21 milhões de Bitcoin](https://youtu.be/Y92R4EWk5uo)
 
 ### A política monetária do Bitcoin
 
@@ -407,8 +397,6 @@ Em resumo, o Bitcoin, por sua natureza descentralizada, sua escassez programada 
 
 ### Conclusão da seção 1!
 
-![conclusão sobre a moeda](https://youtu.be/xJsT7Jk5xWE)
-
 A moeda é uma ferramenta social que deve se adaptar às necessidades e à tecnologia. Ao longo do tempo, o ouro foi usado como reserva de valor porque era raro e não podia ser desvalorizado. No entanto, mais tarde, o ouro foi substituído pela dívida e pela moeda fiduciária, que é fácil de transportar, mas também de manipular sua política monetária.
 
 O Bitcoin é uma alternativa monetária realista porque é raro e limitado a 21 milhões de bitcoins que não podem ser alterados. A criação monetária é mantida através do ajuste da dificuldade a cada 2 semanas e através do halving, garantindo uma prova matemática verificável de sua raridade. Ao contrário do euro ou do dólar, cujo volume em circulação é não verificável e muda frequentemente devido às decisões das instituições financeiras, o Bitcoin é uma moeda criptográfica com uma política monetária neutra e fixa. Portanto, é uma excelente reserva de valor global, pois não pode ser desvalorizada pela impressão de dinheiro.
@@ -422,8 +410,6 @@ Agora que estabelecemos as diferenças entre o Bitcoin e as moedas fiduciárias,
 ## O que são as carteiras de Bitcoin?
 
 Nesta seção 2, vamos explorar o armazenamento e a segurança dos Bitcoins nas carteiras. Isso permitirá que você entenda melhor onde estão esses famosos Bitcoins e como interagir com eles!
-
-![compreender as carteiras de Bitcoin](https://youtu.be/GsnX7qdODK8)
 
 ### Desmistificando as carteiras de Bitcoin
 
@@ -481,8 +467,6 @@ Escolha uma carteira que se adapte às suas necessidades e uso. Tutoriais detalh
 
 Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
 
-![Choisir sa sécurité](https://youtu.be/qhjEJuJHRf8)
-
 ### Faça as perguntas certas antes de começar
 
 Quando se detém bitcoins, a segurança dos seus fundos é uma grande preocupação. A melhor maneira de definir a segurança certa para a sua situação é fazer (e responder) a uma série de perguntas; o seu modelo de segurança dependerá das suas respostas. Vamos começar:
@@ -532,8 +516,6 @@ Agora que temos isso em mente, vamos ver na próxima seção os passos para cria
 
 ## Configurando uma carteira
 
-![configurar uma carteira](https://youtu.be/2MRRERHm7ZM)
-
 A segurança dos seus Bitcoins é de extrema importância e um simples erro pode ter consequências caras. É por isso que agora vamos ver as melhores práticas ao criar uma nova carteira Bitcoin.
 
 > Observe que o treinamento BTC102 o acompanha para ter sucesso nesta etapa.
@@ -569,8 +551,6 @@ As carteiras "frias" geralmente têm essas listas de palavras, assim como as car
 
 ## Passar no teste do tempo
 
-![passar no teste do tempo](https://youtu.be/p8eZPt_XnwI)
-
 A segurança é uma preocupação importante no ecossistema do Bitcoin. De fato, como qualquer forma de riqueza, seus bitcoins devem ser protegidos contra perdas, roubos e deterioração, especialmente a longo prazo. A segurança dos seus bitcoins requer algum conhecimento técnico e consciência dos riscos envolvidos, o que nos leva a discutir duas estratégias principais: gravar seus bitcoins em aço e criar um plano de herança.
 
 ### Gravar na rocha
@@ -599,8 +579,6 @@ Da mesma forma, evite divulgar em alto e bom som seu sistema de segurança em re
 
 ### Resumo sobre a segurança das carteiras Bitcoin
 
-![Conclusão capítulo 2](https://youtu.be/U28-oh950Dw)
-
 As carteiras Bitcoin são softwares que permitem armazenar e transacionar bitcoins. Existem vários tipos: carteiras móveis ou para PC, práticas para pequenas quantias e/ou despesas regulares; carteiras físicas, mais adequadas para a conservação de bitcoins a médio e longo prazo; carteiras multisig, que são mais complexas de gerenciar e exigem várias assinaturas para realizar transações.
 
 Ao criar uma carteira, você deve primeiro fazer um backup da sua chave privada. Esse backup é uma lista de 12 ou 24 palavras, ou 12 palavras que você pode escrever em um papel ou em uma placa de metal. Essa frase mnemônica permite restaurar sua carteira em qualquer aplicativo de carteira Bitcoin. Qualquer pessoa que tenha acesso a essa lista também tem acesso aos seus bitcoins. No Bitcoin, a soberania financeira está ligada à responsabilidade individual, portanto, é crucial que você proteja o acesso às suas carteiras e backups. Para isso, é importante seguir algumas regras:
@@ -614,8 +592,6 @@ Agora que temos uma base sobre carteiras de bitcoins e boas práticas para sua s
 # Aspectos técnicos do Bitcoin.
 
 ## Lançamento do Bitcoin
-
-![Lançamento do Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
 ### Vamos começar com um pouco de História.
 
@@ -667,8 +643,6 @@ Para aprofundar seu conhecimento sobre os escritos de Satoshi Nakamoto, recomend
 Agora que temos alguns elementos de contexto, vamos ver como funciona uma transação Bitcoin em geral.
 
 ## Transações Bitcoin
-
-![Explicação de uma transação](https://youtu.be/GJlUqtGzxLk)
 
 Uma transação Bitcoin é simplesmente uma transferência de propriedade de bitcoins, usando um endereço bitcoin. Vamos considerar, por exemplo, dois protagonistas: Alice e Bob. Alice quer adquirir bitcoins, enquanto Bob já os possui.
 
@@ -732,8 +706,6 @@ Vamos dar uma olhada mais detalhada no funcionamento de um nó Bitcoin.
 
 ## Os nós Bitcoin
 
-![https://youtu.be/3vQmDJ4_ooM](https://youtu.be/3vQmDJ4_ooM)
-
 Os nós são um elemento fundamental da arquitetura da rede Bitcoin. Eles desempenham várias funções cruciais:
 
 - Manter uma cópia da blockchain do Bitcoin
@@ -785,8 +757,6 @@ Após essa vitória, os nós ativaram uma atualização chamada SegWit, abrindo 
 ![os nós do Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.png)
 
 ## Os mineradores
-
-![os mineradores](https://youtu.be/Lr5L3uy244w)
 
 > Os mineradores servem para garantir a segurança da rede e adicionar transações aos blocos. Eles usam eletricidade por meio de máquinas ASIC para resolver a prova de trabalho do Bitcoin.
 
@@ -858,8 +828,6 @@ A teoria dos jogos aplicada ao Bitcoin afasta os mineradores desonestos. Os mine
 
 ## Bitcoin e ecologia
 
-![Bitcoin & ecologia](https://youtu.be/nV2b2xAMfmU)
-
 Acabamos de ver na seção anterior que a segurança do protocolo Bitcoin se baseia em um alto custo energético para produzir um registro público de transações sem a necessidade de terceiros confiáveis. O custo energético total é frequentemente comparado ao consumo elétrico de um pequeno país. Mas essa comparação faz sentido? É relevante para entender as razões por trás de um custo tão alto?
 
 ### Os custos energéticos do Bitcoin.
@@ -906,8 +874,6 @@ A tecnologia do Bitcoin é frequentemente mal compreendida, e as críticas em re
 
 ### Breve resumo dos aspectos técnicos do Bitcoin
 
-![conclusão capítulo 3](https://youtu.be/gqILoXTUKdc)
-
 'Satoshi Nakamoto lançou em janeiro de 2009 o protocolo Bitcoin, que desde então evoluiu graças a uma comunidade crescente de desenvolvedores, mineradores e usuários com nós Bitcoin. Estes, mantendo sua própria cópia do blockchain Bitcoin, o registro público de todas as transações Bitcoin, podem garantir a validade das transações de acordo com as regras de consenso específicas do Bitcoin. Especialmente garantindo que os mineradores produzam blocos válidos, que contenham algumas milhares de transações pendentes.
 
 Em média, um bloco é criado a cada 10 minutos e o minerador que encontrar um hash válido para o próximo bloco é recompensado pelo protocolo com uma recompensa cujo valor é definido pelas regras de consenso, e as taxas de transação de todas as transações presentes no bloco válido em questão. Como o resultado do algoritmo de hash (SHA256) para uma entrada dada é considerado imprevisível, o processo de mineração consiste em construir muitos blocos candidatos e testar se seu hash é válido ou não. No entanto, para garantir que o tempo médio entre dois blocos permaneça constante (~10 minutos), independentemente da quantidade de mineradores e de sua capacidade de processamento, a dificuldade de encontrar um hash válido é ajustada a cada 2016 blocos, ou seja, aproximadamente a cada 2 semanas. Os mineradores desenvolveram ao longo do tempo máquinas específicas para SHA256, chamadas de ASICS, para aumentar a taxa de hash/joule, o que significa, em outras palavras, o número de tentativas por segundo e por energia consumida.
@@ -919,8 +885,6 @@ Assim, o protocolo Bitcoin é um sistema monetário imutável e imparável, pois
 # Como obter Bitcoin?
 
 ## Bitcoin nunca dorme!
-
-![Bitcoin nunca dorme](https://youtu.be/7535MAeHzxM)
 
 O preço do Bitcoin é frequentemente caracterizado por uma volatilidade significativa. Seu valor pode flutuar consideravelmente com base nas variações do mercado e nas fases de mercado em alta (bull market) e mercado em baixa (bear market). Isso é verdade em 100% dos mercados financeiros, incluindo o bitcoin.
 
@@ -976,8 +940,6 @@ Hoje, em 2023, o Bitcoin continua a sobreviver e a crescer cada vez mais, se int
 
 ## Obter bitcoins trabalhando
 
-![obter bitcoins trabalhando](https://youtu.be/sHkadVRUQF8)
-
 ### Uma economia paralela está se desenvolvendo
 
 O Bitcoin pode ser visto como uma economia paralela às moedas fiduciárias. Isso significa que é possível vender bens ou serviços e ser pago em Bitcoin. As transações podem ser feitas diretamente em Bitcoin, sem a necessidade de passar por uma plataforma de câmbio, apenas de carteira Bitcoin para carteira Bitcoin.
@@ -1007,8 +969,6 @@ Vamos abordar esse assunto em detalhes em outro treinamento, mas para simplifica
 - Solução para grandes estruturas ou entusiastas do Bitcoin: BTCpay Server
 
 # Poupar com Bitcoin
-
-![epargne en bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
 ### Aviso antes de começar!
 
@@ -1097,8 +1057,6 @@ image](assets/Concept/chapitre15/3.png)
 
 ## Hyper-bitcoinisation
 
-![hyper-bitcoinisation](https://youtu.be/lLxndxrzXR0)
-
 ### A corrida maluca está apenas começando!
 
 Como toda nova tecnologia, a adoção do Bitcoin segue uma curva em S. Já ultrapassamos a era dos primeiros adotantes e os indicadores apontam para uma democratização completa do Bitcoin. É uma tecnologia viral que não pode ser interrompida. El Salvador fez a aposta audaciosa de adotar o Bitcoin de forma total, declarando-o como uma moeda de curso legal. No entanto, cada país reage de forma diferente a essa tecnologia. Alguns a proibiram e criminalizaram seu uso, adicionando assim à complexidade da adoção do Bitcoin de acordo com culturas, épocas e nações.
@@ -1122,8 +1080,6 @@ Si você deseja expandir seus conhecimentos sobre o Bitcoin, muitos autores, pen
 # O futuro do Bitcoin: A Lightning Network
 
 ## Breve introdução à Lightning Network
-
-![A Lightning Network](https://youtu.be/HFv3NN4z450)
 
 Agora que temos as bases do protocolo Bitcoin, vamos apresentar uma rede de pagamento que utiliza o protocolo Bitcoin para permitir transações em velocidade relâmpago. Estamos falando, é claro, da Lightning Network!
 
@@ -1161,7 +1117,6 @@ Em resumo, a Lightning Network é uma tentativa promissora de implantar um siste
 
 ## Casos de uso da Lightning Network
 
-![casos de uso da LN](https://youtu.be/_UV2jmQ8TQM)
 Comme acabamos de ver, o protocolo Bitcoin, embora revolucionário, enfrenta desafios significativos em termos de escalabilidade, a fim de realizar todas as nossas transações diárias. Para resolver esses problemas, uma solução de segunda camada conhecida como Lightning Network foi proposta em 2016 e hoje possui várias implementações diferentes, mas todas interoperáveis:
 
 - Core-lightning por Blockstream
@@ -1193,7 +1148,6 @@ Em conclusão, a Lightning Network abre uma infinidade de casos de uso empolgant
 
 ## Pílula azul ou pílula vermelha?
 
-![pílula vermelha](https://youtu.be/nCRVIoyyyck)
 
 Como Morpheus disse a Neo: "Se você tomar a pílula azul, a história acaba, você acorda na sua cama e acredita no que quiser. Se você tomar a pílula vermelha, fica no País das Maravilhas e eu te mostro até onde vai a toca do coelho." Você está pronto para explorar a toca do coelho do Bitcoin? Tome cuidado, pois você pode encontrar sua liberdade financeira!
 
@@ -1247,8 +1201,6 @@ O Bitcoin é importante e não deve ser considerado apenas um jogo de azar. É c
 
 ### Bitcoin: um protocolo revolucionário
 
-![Conclusão](https://youtu.be/BoZL_D7uLAg)
-
 Como vimos no capítulo anterior, o protocolo Bitcoin é neutro em relação a todos os seus usuários. Através das regras de consenso e criptografia, podemos registrar transações de forma imutável em um registro público global, garantindo transferências de valor monetário sem a necessidade de terceiros confiáveis. As camadas de infraestrutura de nível 2 (e em breve nível 3, com RGB) permitem que a rede evolua e desenvolva novas funcionalidades, especialmente para resolver problemas de escalabilidade.
 Bitcoin tem todas as características necessárias para ser uma moeda eficiente e saudável: divisível, transportável instantaneamente, não censurável, verificação de custo negligenciável e com uma política monetária já estabelecida para os séculos futuros com essas 21 milhões de unidades. Bitcoin é pseudo-anônimo e pode ser negociado em qualquer lugar do mundo sem a necessidade de autorização de qualquer entidade, apenas é necessário possuir suas próprias chaves privadas - como diz o ditado "Not your keys, not your bitcoins" ("não são suas chaves, não são seus bitcoins").
 Bitcoin é adotado por diversos grupos de pessoas, desde criptógrafos, libertários até empresas tradicionais e até mesmo um país. No entanto, o Bitcoin é para todos e o número de usuários está crescendo, assim como o número de nós Bitcoin que atuam como guardiões do histórico de transações, garantindo assim sua descentralização.
@@ -1260,8 +1212,6 @@ Mudar o sistema financeiro requer mudar a moeda. Satoshi criou o Bitcoin em 2008
 ## Agradecimentos e continue a cavar a toca do coelho
 
 ### Vá mais fundo
-
-![agradecimentos e continue a cavar a toca do coelho](https://youtu.be/A2P5GdkgB-M)
 
 Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Sua descoberta do bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na universidade.
 

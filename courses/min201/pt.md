@@ -58,8 +58,6 @@ Pronto para começar essa aventura cativante? Vamos mergulhar juntos no fascinan
 
 ## Explicação da mineração
 
-![O que é mineração de bitcoin?](https://www.youtube.com/watch?v=neEQzEQzmPQ)
-
 ### Mineração explicada: A analogia do quebra-cabeça
 
 Para explicar de forma simplificada o conceito de mineração, uma analogia relevante pode ser usada: a do quebra-cabeça. Assim como um quebra-cabeça, a mineração é uma tarefa complexa de ser realizada, mas fácil de ser verificada uma vez concluída. No contexto da mineração de Bitcoin, os mineradores se esforçam para resolver rapidamente um quebra-cabeça digital. O primeiro minerador a resolver o quebra-cabeça apresenta sua solução para toda a rede, que pode então verificar facilmente sua validade. Essa verificação bem-sucedida permite que o minerador valide um novo bloco e o adicione à cadeia de blocos do Bitcoin. Em reconhecimento ao seu trabalho, que envolve custos significativos, o minerador é recompensado com uma certa quantidade de bitcoins. Essa recompensa serve como um incentivo financeiro para os mineradores continuarem seu trabalho de validação de transações e segurança da rede Bitcoin.
@@ -97,10 +95,10 @@ Em relação à evolução das máquinas de mineração de Bitcoin, é important
 Diante da constante evolução tecnológica no campo da mineração, os profissionais precisam se posicionar estrategicamente. A indústria de mineração está sujeita a inovações contínuas, como evidenciado pelo recente lançamento da versão J do S19 e o próximo lançamento do S19 XP, que oferece capacidades de mineração significativamente superiores. Além disso, as melhorias não estão apenas relacionadas ao desempenho bruto das máquinas. Por exemplo, o novo modelo S19 XP utiliza um sistema de resfriamento líquido, uma modificação técnica que permite uma melhoria significativa na eficiência energética. Embora a inovação continue sendo uma constante, os ganhos futuros de eficiência provavelmente serão menores em comparação com os observados até agora, devido ao alcance de um certo limite de inovação tecnológica.
 
 ![image](assets/overview/chipevolution.png)
-Em conclusão, a indústria de mineração de Bitcoin continua a se adaptar e se desenvolver, e os atores do setor devem antecipar ganhos de eficiência, que serão mais limitados no futuro, e ajustar suas estratégias de acordo. Avanços tecnológicos futuros, embora ainda presentes, provavelmente ocorrerão em uma escala menor, refletindo a maturidade crescente do setor.
-## A indústria de mineração
 
-![A mineração de Bitcoin está muito centralizada? Riscos e soluções](https://www.youtube.com/watch?v=xkiY8DgkcLQ)
+Em conclusão, a indústria de mineração de Bitcoin continua a se adaptar e se desenvolver, e os atores do setor devem antecipar ganhos de eficiência, que serão mais limitados no futuro, e ajustar suas estratégias de acordo. Avanços tecnológicos futuros, embora ainda presentes, provavelmente ocorrerão em uma escala menor, refletindo a maturidade crescente do setor.
+
+## A indústria de mineração
 
 ### Pools de mineração
 
@@ -167,11 +165,10 @@ Quanto à questão do que deve ser incluído em um bloco Bitcoin, é crucial con
 Com o crescimento previsto da Lightning Network e o consequente aumento na abertura e fechamento de canais, o espaço nos blocos do Bitcoin se tornará cada vez mais valioso. A comunidade Bitcoin já tende a valorizar a preservação desse espaço, reconhecendo sua limitação intrínseca. Essa conscientização levou a discussões sobre o uso legítimo ou não do espaço dos blocos, com preocupações sobre "spam" na blockchain por transações consideradas não essenciais.
 
 ![image](assets/overview/block.png)
+
 A especulação cerca do uso futuro do espaço de blocos, mas é geralmente aceito que é um recurso escasso que deve ser usado com sabedoria. Mesmo que haja vontade de preencher esse espaço, é essencial preservá-lo para garantir a viabilidade de longo prazo da rede Bitcoin, antecipando um aumento futuro na demanda por espaço de blocos. Como em qualquer mercado livre, a oferta e a demanda regularão o uso do espaço de blocos. Com oferta limitada, as partes interessadas terão que tomar decisões informadas sobre o uso desse espaço valioso para garantir a eficiência e a segurança de longo prazo da rede Bitcoin.
 
 ## Mineração no protocolo Bitcoin
-
-![Quem tem o poder? Bitcoin, energia e fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
 O papel dos mineradores na rede Bitcoin tem sido um assunto de intenso debate durante a guerra dos blocos. Embora sejam essenciais para a segurança e funcionalidade da rede, os mineradores não necessariamente detêm o poder final no ecossistema Bitcoin. O equilíbrio entre mineradores, nós e usuários finais garante a integridade e a distribuição da rede.
 
@@ -247,12 +244,6 @@ Com a questão do potencial de proibição da mineração na Europa, as discuss�
 Diante de campanhas como as do Greenpeace e dos números frequentemente enganosos de alguns estudos, a melhor arma ainda é a informação verdadeira. É essencial informar o público em geral e os tomadores de decisão sobre a realidade da mineração, sua complexidade e nuances, em vez de permitir que eles se baseiem em estereótipos e informações imprecisas. Quanto mais pessoas estiverem informadas e conscientes do que a mineração realmente é, melhor a indústria poderá se defender contra possíveis regulamentações restritivas.
 
 Em conclusão, apesar do risco regulatório e da possibilidade de proibição da mineração na Europa, a arma mais poderosa ainda é a educação e a informação. O entendimento claro e preciso da mineração, seu funcionamento e seu impacto pode ajudar a desmistificar a indústria e combater a desinformação, oferecendo assim uma melhor resistência a regulamentações potencialmente prejudiciais. A iniciativa de educar e informar as pessoas sobre a mineração, como esta discussão está fazendo, é um passo na direção certa para garantir a sustentabilidade e o crescimento da mineração na Europa e em todo o mundo. Esforços contínuos para educar e informar são essenciais para garantir um futuro seguro e próspero para a indústria de mineração de Bitcoin.
-
-## Entrevista com um profissional da indústria de mineração
-
-### Por trás da mineração industrial - Sebastien Gouspillou
-
-![Por trás da mineração industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Mineração doméstica e reutilização de calor
 

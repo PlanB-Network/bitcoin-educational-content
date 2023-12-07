@@ -72,15 +72,27 @@ Dieses Dilemma führte zur Entstehung der modernen Zentralbanken. Im 19. Jahrhun
 
 Zusätzlich zur Aufrechterhaltung der finanziellen Stabilität sind Zentralbanken für die Festlegung wichtiger Leitzinssätze verantwortlich. Diese Sätze bestimmen die Kosten, zu denen lizenzierte Banken Gelder von der Zentralbank leihen können und definieren im Wesentlichen die Kosten für Liquidität für die Finanzinstitute, die eine entscheidende Rolle bei der Kreditvergabe in unseren Volkswirtschaften spielen. Daher dienen diese Sätze als Benchmark für das gesamte Finanzsystem. Als Einzelperson setzen sich die Zinssätze, die Sie für Ihre Hypothek zahlen, aus dem Leitzins und der Marge der Bank zusammen.
 
+![image](assets/Image/2.png)
+
+Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+
 Während der großen Finanzkrise von 2008 erklärte die Investmentbank Lehman Brothers nach erheblichen Verlusten bei ihren Hypothekensicherheiten und massiven Abhebungen besorgter Kunden Insolvenz. Als Reaktion auf diese beispiellose finanzielle Turbulenz injizierten Zentralbanker weltweit große Mengen an Liquidität in die Finanzmärkte, fusionierten kämpfende Investmentbanken mit Geschäftsbanken und senkten die Leitzinsen nahezu auf null, um einen systemischen Zusammenbruch zu verhindern.
 
 Diese Maßnahmen verhinderten zwar eine Kaskade von Insolvenzen, trugen jedoch wenig zur Linderung der anschließenden wirtschaftlichen Verlangsamung bei. Millionen verloren ihre Arbeitsplätze und Häuser, der Konsum brach ein, Unternehmen gingen pleite und Banken erlitten erhebliche Verluste. Trotz historisch niedriger Zinsen waren nur wenige bereit, Kredite aufzunehmen, was zu einem Teufelskreis führte, in dem die anfängliche Verringerung von Ausgaben und Investitionen sich selbst verstärkte. Infolgedessen unternahmen Zentralbanker weitere Schritte, indem sie quantitative Lockerungsprogramme (QE) umsetzten. Diese Programme beinhalteten den Kauf von Staatsanleihen und hypothekenbesicherten Wertpapieren durch Zentralbanken von Geschäftsbanken mit Zentralbankreserven.
+
+![image](assets/Image/3.png)
+
+Figure3 : Interest Rates Across Major Economies / Source: ECB
 
 Im Gegensatz zu vielen Erwartungen belebten QE-Programme das Wirtschaftswachstum nicht signifikant, ließen jedoch die Finanzanlagen auf historische Höchststände steigen. Davon profitierten hauptsächlich Wohlhabende und Finanzinstitute, da sie bereits erhebliche Mengen solcher Vermögenswerte besaßen, was zu einer Vergrößerung der Vermögensunterschiede führte. Angesichts der zuvor erklärten Struktur des Bankensystems sollte dieses Ergebnis nicht überraschen. Da Bankreserven nicht leicht in die Realwirtschaft fließen können, haben QE-Programme hauptsächlich die Vermögenspreise gesteigert, ohne die finanzielle Situation durchschnittlicher Personen effektiv zu verbessern.
 
 ### Der Cantillon-Effekt
 
 Dennoch kann aus dieser Episode ein wesentliches wirtschaftliches Prinzip abgeleitet werden: Wenn neues Geld geschaffen wird, profitieren zunächst diejenigen, die dem Geld am nächsten stehen, auf Kosten derjenigen, die weiter entfernt sind. Dieses wirtschaftliche Prinzip geht auf das 18. Jahrhundert zurück, als Richard Cantillon es in seinem "Essay über die Natur des Handels im Allgemeinen" beschrieb. Es wird heute umgangssprachlich als "Cantillon-Effekt" bezeichnet.
+
+![image](assets/Image/4.png)
+
+Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
 In diesem Fall erhielten Banker, Bankvorstände, Aktien- und Anleihebesitzer, Immobilienentwickler, Immobilienkreditgeber und alle, die finanzielle Vermögenswerte oder Immobilien besitzen, einen finanziellen Gewinn, während die Last auf allen anderen lag. Diese Situation hielt jahrelang an und erklärt größtenteils die wachsende Ungleichheit des Reichtums, das Gefühl der Entfremdung bei fleißigen Menschen und den scheinbar unaufhaltsamen Anstieg der Vermögenspreise trotz schwachem BIP-Wachstum.
 

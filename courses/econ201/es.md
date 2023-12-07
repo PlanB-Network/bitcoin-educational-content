@@ -71,13 +71,27 @@ Este dilema dio origen a los bancos centrales modernos. En el siglo XIX en Ingla
 
 Además de mantener la estabilidad financiera, los bancos centrales son responsables de establecer tasas de interés clave. Estas tasas determinan el costo al que los bancos con licencia pueden pedir prestado fondos al banco central, definiendo esencialmente el costo de la liquidez para las instituciones financieras que desempeñan un papel crucial en los préstamos en nuestras economías. Por lo tanto, estas tasas sirven como referencia para todo el sistema financiero. Como individuo, las tasas de interés que pagas en tu hipoteca se pueden desglosar en la tasa de política y el margen del banco.
 
+![image](assets/Image/2.png)
+
+Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+
 Durante la gran crisis financiera de 2008, Lehman Brothers, un gran banco de inversión, declaró bancarrota después de sufrir pérdidas significativas en sus tenencias de valores hipotecarios y experimentar retiros masivos de clientes preocupados. En respuesta a esta crisis financiera sin precedentes, los banqueros centrales de todo el mundo inyectaron grandes cantidades de liquidez en los mercados financieros, fusionaron bancos de inversión en dificultades con bancos comerciales y redujeron las tasas de política a casi cero en un esfuerzo por evitar un colapso sistémico.
 
 Si bien estas medidas evitaron una ola en cascada de quiebras, hicieron poco para aliviar la posterior desaceleración económica. Millones de personas perdieron sus empleos y hogares, el gasto del consumidor se desplomó, las empresas quebraron y los bancos incurrieron en pérdidas sustanciales. A pesar de las tasas de interés históricamente bajas, pocos estaban dispuestos a pedir prestado, lo que resultó en un ciclo vicioso en el que la disminución inicial del gasto y la inversión se reforzaron a sí mismas. En consecuencia, los banqueros centrales tomaron medidas adicionales implementando programas de Flexibilización Cuantitativa (QE, por sus siglas en inglés). Estos programas implicaban que los bancos centrales compraran bonos del gobierno y valores respaldados por hipotecas de los bancos comerciales con reservas del banco central.
 
+![image](assets/Image/3.png)
+
+Figure3 : Interest Rates Across Major Economies / Source: ECB
+
 Contrariamente a muchas expectativas, los programas de QE no revivieron significativamente el crecimiento económico, pero sí inflaron los activos financieros a niveles históricos. Esto benefició principalmente a los ricos y a las instituciones financieras, ya que ya tenían cantidades sustanciales de dichos activos, ampliando así las disparidades de riqueza. Dada la estructura del sistema bancario explicada anteriormente, este resultado no debería sorprender. Dado que las reservas bancarias no pueden fluir fácilmente hacia la economía real, los programas de QE principalmente impulsaron los precios de los activos sin mejorar efectivamente la situación financiera de las personas promedio.
 
+### The Cantillon Effect
+
 No obstante, se puede extraer un principio económico esencial de este episodio: cuando se crea dinero nuevo, inicialmente beneficia a aquellos más cercanos a la fuente del dinero, a expensas de aquellos más alejados. Esta idea económica se remonta al siglo XVIII, cuando Richard Cantillon la describió en su "Ensayo sobre la naturaleza del comercio en general". Ahora se conoce coloquialmente como el "Efecto Cantillon".
+
+![image](assets/Image/4.png)
+
+Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
 En esta instancia, los banqueros, ejecutivos bancarios, propietarios de acciones y bonos, desarrolladores inmobiliarios, prestamistas de bienes raíces y cualquier persona que posea activos financieros o bienes raíces recibieron una ganancia financiera, mientras que la carga recayó sobre todos los demás. Esta situación persistió durante años y explica en gran medida la creciente desigualdad de riqueza, la sensación de exclusión entre las personas trabajadoras y el aparentemente imparable aumento de los precios de los activos a pesar del lento crecimiento del PIB.
 
@@ -283,6 +297,8 @@ O, dicho de otra manera: como seres humanos, descontamos el valor de los bienes 
 Esta evaluación subjetiva del valor de los bienes futuros en comparación con los bienes presentes se conoce como preferencia temporal. Si todo lo demás es igual, los bienes presentes son inherentemente preferidos sobre los bienes futuros. Dado que somos mortales y el futuro siempre es incierto, naturalmente preferimos tener acceso a un bien ahora en lugar de más tarde. Si bien la preferencia temporal puede diferir entre individuos debido a una miríada de factores como la cultura, la riqueza, la educación, la fisiología, etc., las preferencias temporales siempre son positivas, lo que significa que, en igualdad de condiciones, siempre valoramos más los bienes presentes que los bienes futuros.
 
 Este concepto de valoración relativa de los bienes futuros sobre los bienes presentes es la raíz del fenómeno del interés. De hecho, en una economía con mercados de capital no manipulados, las tasas de interés de referencia (consideradas libres de riesgo de impago) se determinan en la intersección de la oferta y la demanda de capital. Por lo tanto, estas tasas representan el estado de las preferencias temporales para toda la economía: un aumento en la tasa de interés se produce como resultado de un aumento relativo en la demanda de capital en comparación con la oferta, lo que indica preferencias temporales más altas. Por el contrario, una disminución en las tasas de interés se produce debido a un aumento en el ahorro, es decir, un aumento en la oferta de capital, lo que indica una reducción en las preferencias temporales.
+
+![image](assets/Image/9.png)
 
 En una economía donde las tasas de interés no son manipuladas por el banco central, tendemos a observar una curva de rendimiento ascendente: a mayor vencimiento de la deuda, mayor es la tasa de interés. La situación opuesta no puede ocurrir porque implicaría que el futuro es más cierto que el presente, lo cual es una imposibilidad lógica.
 El concepto de preferencia temporal y cómo expresamos nuestra propia preferencia temporal a través del consumo y el ahorro es fundamental para los procesos de asignación de capital y producción. Volvamos a la teoría del capital de Eugen von Böhm-Bawerk, estudiante de Menger, para entender exactamente cómo la preferencia temporal afecta la organización de la producción.

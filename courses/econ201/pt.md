@@ -71,15 +71,28 @@ Esse dilema deu origem aos bancos centrais modernos. No século XIX, na Inglater
 
 Além de manter a estabilidade financeira, os bancos centrais são responsáveis por definir as taxas de juros-chave. Essas taxas determinam o custo pelo qual os bancos licenciados podem tomar empréstimos do banco central, essencialmente definindo o custo da liquidez para as instituições financeiras que desempenham um papel crucial no empréstimo em nossas economias. Portanto, essas taxas servem como referência para todo o sistema financeiro. Como indivíduo, as taxas de juros que você paga em sua hipoteca podem ser divididas em taxa de política e margem do banco.
 
+![image](assets/Image/2.png)
+
+Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+
 Durante a grande crise financeira de 2008, o Lehman Brothers, um grande banco de investimentos, declarou falência após sofrer perdas significativas em seus títulos hipotecários e experimentar saques massivos de clientes preocupados. Em resposta a essa turbulência financeira sem precedentes, banqueiros centrais ao redor do mundo injetaram grandes quantidades de liquidez nos mercados financeiros, fundiram bancos de investimento em dificuldades com bancos comerciais e reduziram as taxas de política para quase zero na tentativa de evitar um colapso sistêmico.
 
 Embora essas medidas tenham evitado uma onda em cascata de falências, elas pouco fizeram para aliviar a subsequente desaceleração econômica. Milhões perderam seus empregos e casas, os gastos do consumidor despencaram, as empresas faliram e os bancos incorreram em perdas substanciais. Apesar das taxas de juros historicamente baixas, poucos estavam dispostos a tomar empréstimos, resultando em um ciclo vicioso em que a diminuição inicial nos gastos e investimentos se reforçava. Consequentemente, os banqueiros centrais tomaram medidas adicionais implementando programas de Flexibilização Quantitativa (QE). Esses programas envolviam os bancos centrais comprando títulos do governo e títulos lastreados em hipotecas de bancos comerciais com reservas do banco central.
 
+![image](assets/Image/3.png)
+
+Figure3 : Interest Rates Across Major Economies / Source: ECB
+
 Ao contrário das expectativas de muitos, os programas de QE não reviveram significativamente o crescimento econômico, mas inflaram os ativos financeiros para níveis históricos. Isso beneficiou principalmente os ricos e as instituições financeiras, pois eles já possuíam quantidades substanciais desses ativos, ampliando assim as disparidades de riqueza. Dada a estrutura do sistema bancário explicada anteriormente, esse resultado não deve ser uma surpresa. Como as reservas bancárias não podem fluir facilmente para a economia real, os programas de QE impulsionaram principalmente os preços dos ativos sem melhorar efetivamente a situação financeira das pessoas comuns.
+
+### The Cantillon Effect
 
 No entanto, um princípio econômico essencial pode ser extraído desse episódio: quando novo dinheiro é criado, ele beneficia inicialmente aqueles mais próximos à fonte do dinheiro, em detrimento daqueles mais distantes. Essa percepção econômica remonta ao século XVIII, quando Richard Cantillon a descreveu em seu "Ensaio sobre a Natureza do Comércio em Geral". Agora é conhecido coloquialmente como "Efeito Cantillon".
 
+![image](assets/Image/4.png)
+
 Figura 4: Efeito Cantillon em poucas palavras / Fonte: River Financial
+
 Neste caso, banqueiros, executivos bancários, proprietários de ações e títulos, desenvolvedores imobiliários, credores imobiliários e qualquer pessoa que possua ativos financeiros ou imóveis receberam um ganho financeiro, enquanto o ônus recaiu sobre todos os outros. Essa situação persistiu por anos e explica em grande parte a crescente desigualdade de riqueza, o sentimento de exclusão entre os trabalhadores e o aumento aparentemente imparável nos preços dos ativos, apesar do crescimento lento do PIB.
 
 Em essência, o sistema está distorcido. Os bancos são intrinsecamente instáveis, mas sua falência pode colocar em risco toda a economia. Esse risco moral incentiva os executivos bancários a assumir riscos excessivos para maximizar a receita de seus bancos, sabendo que o banco central acabará por resgatá-los, transferindo o custo para os contribuintes. Em tais cenários, os banqueiros centrais criam condições para uma transferência maciça de poder de compra de trabalhadores e poupadores para proprietários de ativos e aqueles conectados ao sistema financeiro, desconectando assim o processo de criação de riqueza da acumulação de riqueza.
@@ -283,6 +296,8 @@ Ou, para dizer de outra forma: como seres humanos, desvalorizamos o valor dos be
 Essa avaliação subjetiva do valor dos bens futuros em comparação com os bens presentes é chamada de preferência temporal. Tudo o mais sendo igual, os bens presentes são inerentemente preferidos em relação aos bens futuros. Como somos mortais e o futuro é sempre incerto, naturalmente preferimos ter acesso a um bem agora em vez de mais tarde. Embora a preferência temporal possa variar entre indivíduos, devido a uma infinidade de fatores, como cultura, riqueza, educação, fisiologia, etc., as preferências temporais são sempre positivas, o que significa que, tudo o mais sendo igual, sempre valorizamos mais os bens presentes do que os bens futuros.
 
 Esse conceito de valoração relativa de bens futuros em relação a bens presentes está na raiz do fenômeno dos juros. De fato, em uma economia com mercados de capital não manipulados, as taxas de juros de referência (consideradas livres de risco de inadimplência) são determinadas na interseção entre oferta e demanda de capital. Portanto, essas taxas representam o estado das preferências temporais para toda a economia: um aumento na taxa de juros resulta de um aumento relativo na demanda por capital em comparação com a oferta, indicando preferências temporais mais altas. Por outro lado, uma diminuição nas taxas de juros ocorre devido a um aumento na poupança, ou seja, um aumento na oferta de capital, indicando uma redução nas preferências temporais.
+
+![image](assets/Image/9.png)
 
 Em uma economia em que as taxas de juros não são manipuladas pelo banco central, tendemos a observar uma curva de rendimento ascendente: quanto maior a maturidade da dívida, maior a taxa de juros. A situação oposta não pode ocorrer, pois implicaria que o futuro é mais certo do que o presente, o que é uma impossibilidade lógica.
 O conceito de preferência temporal e como expressamos nossa própria preferência temporal por meio do consumo e poupança é fundamental para os processos de alocação de capital e produção. Vamos nos voltar para o aluno de Menger, Eugen von Böhm-Bawerk, e sua teoria do capital para entender exatamente como a preferência temporal afeta a organização da produção.

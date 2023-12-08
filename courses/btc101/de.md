@@ -450,7 +450,7 @@ Man könnte sich die Frage stellen: Was ist, wenn jemand zufällig unsere Liste 
 
 Die Wahrscheinlichkeit eines Hacks Ihrer Bitcoin-Brieftasche ist daher astronomisch gering, wenn Sie bewährte Sicherheitspraktiken befolgen. Diese Praktiken werden im nächsten Abschnitt ausführlich erläutert.
 
-Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial unserer Universität](https://sovereignuniversity.org/tutorials/wallet).
+Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial PlanB](https://planb.network/tutorials/wallet).
 
 ## Sicherheit und Bitcoin-Brieftaschen
 
@@ -547,7 +547,7 @@ Es gibt viele Lösungen, um dies zu erreichen, einige sind kostengünstig wie de
 
 In Verbindung damit ist die Erstellung eines Erbschaftsplans ebenfalls ein entscheidender Schritt, um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden. Dieser Plan kann einen handgeschriebenen Brief enthalten, in dem Ihre Vermögenswerte detailliert aufgeführt sind, wie sie zugänglich sind und mit welchen Vertrauenspersonen Sie Kontakt aufnehmen können. Es ist auch wichtig, das Bitcoin-Vermächtnis mit einem Notar zu besprechen, um die Steuerkonformität zu gewährleisten, obwohl es wichtig ist, dass Sie Ihre Bitcoins niemals direkt einer anderen Person, einschließlich eines Notars, anvertrauen.
 
-Wenn Sie mehr über den Erbschaftsplan für Ihre Bitcoins erfahren möchten, empfehlen wir Ihnen Pamela Morgans Buch [Cryptoasset Inheritance Plan] (https://sovereignuniversity.org/resources/books/28/en) oder den BTC102-Kurs, bei dem wir Sie bei der Erstellung begleiten.
+Wenn Sie mehr über den Erbschaftsplan für Ihre Bitcoins erfahren möchten, empfehlen wir Ihnen Pamela Morgans Buch [Cryptoasset Inheritance Plan] (https://planb.network/resources/book/28) oder den BTC102-Kurs, bei dem wir Sie bei der Erstellung begleiten.
 
 ![image](assets/Concept/chapitre8/2.jpeg)
 
@@ -616,7 +616,7 @@ Im Jahr 2010, als Bitcoin die Aufmerksamkeit der Medien auf sich zieht, beschlie
 Trotz der Abwesenheit von Satoshi entwickelt sich Bitcoin weiter. Alle 10 Minuten wird die Geschichte von Bitcoin geschrieben, und das Protokoll funktioniert weiterhin wie geplant. Unabhängig von Angst, Unsicherheit oder Zweifel (FOMO für Fear Of Missing Out oder FUD für Fear Uncertainty Doubt) geht Bitcoin weiter voran, mit einer Online-Verfügbarkeit von 99,988%.
 Der Bitcoin wird von jedem Individuum anders wahrgenommen. Für einige ist er eine pilzartige Entität wie das [Myzel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), für andere ist er ein [Schwarzes Loch](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Ob man den Bitcoin mag oder hasst, er existiert weiterhin mit seinem konstanten Rhythmus von 10 Minuten pro Block, wie der Herzschlag eines neuen Währungssystems.
 
-Um Ihr Wissen über die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ich das [Buch von Phil Champagne](https://sovereignuniversity.org/resources/books) oder die ARTE-Dokumentation "Das Geheimnis Satoshi".
+Um Ihr Wissen über die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ich das [Buch von Phil Champagne](https://planb.network/resources/book) oder die ARTE-Dokumentation "Das Geheimnis Satoshi".
 
 ![image](assets/Concept/chapitre9/8.jpg)
 
@@ -996,7 +996,7 @@ Es gibt verschiedene Möglichkeiten, Bitcoins zu erwerben, von denen jede ihre e
 
 - DCA-Plattformen
 
-Eine gängige Methode, Bitcoins anzusammeln, ist das "Dollar Cost Averaging" (DCA), bei dem regelmäßig kleine Beträge investiert werden. Mehrere Plattformen bieten diesen Service an, wie die auf unserer [dedizierten Seite](https://sovereignuniversity.org/tutorials/exchange) aufgelisteten. Neben der einfachen Einrichtung eines DCA ist die Auszahlung auf Ihre Brieftasche in der Regel automatisch, was bedeutet, dass Sie immer die Kontrolle über Ihren Agenten haben werden.
+Eine gängige Methode, Bitcoins anzusammeln, ist das "Dollar Cost Averaging" (DCA), bei dem regelmäßig kleine Beträge investiert werden. Mehrere Plattformen bieten diesen Service an, wie die auf unserer [dedizierten Seite](https://planb.network/tutorials/exchange) aufgelisteten. Neben der einfachen Einrichtung eines DCA ist die Auszahlung auf Ihre Brieftasche in der Regel automatisch, was bedeutet, dass Sie immer die Kontrolle über Ihren Agenten haben werden.
 
 Heutzutage sind fast alle DCA-Lösungen relativ effizient und mit fast ähnlichen Gebühren, die Wahl hängt eher von der Verfügbarkeit in Ihrem Land ab.
 
@@ -1021,7 +1021,7 @@ Es ist wichtig zu beachten, dass KYC ein wichtiges Thema in unserer Branche ist,
 
 ### Lösung ohne KYC'
 
-Darüber hinaus gibt es mehrere [Marktplätze](https://sovereignuniversity.org/tutorials/exchange), auf denen man Bitcoins im Peer-to-Peer-Verfahren kaufen und verkaufen kann. Wenn Sie sich für diese interessieren, können Sie an unserer Schulung zum Thema BTC 205 teilnehmen. In der Regel sind diese Lösungen :
+Darüber hinaus gibt es mehrere [Marktplätze](https://planb.network/tutorials/exchange), auf denen man Bitcoins im Peer-to-Peer-Verfahren kaufen und verkaufen kann. Wenn Sie sich für diese interessieren, können Sie an unserer Schulung zum Thema BTC 205 teilnehmen. In der Regel sind diese Lösungen :
 
 - Bitcoin-Geldautomaten
 - Physische Treffen mit anderen Bitcoin-Enthusiasten.
@@ -1051,7 +1051,7 @@ Wir laden Sie ein, über diese neue Währungsrevolution nachzudenken. Es gibt so
 
 ![image](assets/Concept/chapitre17/3.png)
 
-Wenn Sie Ihr Wissen über Bitcoin erweitern möchten, haben viele Autoren, Denker und Essayisten zur Bildungsschicht von Bitcoin beigetragen. Seit einigen Jahren erfassen und klassifizieren wir diese Werke, um eine [Ressourcenbibliothek](https://sovereignuniversity.org/resources) für die Neugierigsten unter Ihnen anzubieten. Dort finden Sie die besten Podcasts, Websites, Artikel, Tutorials, Bücher und andere Inhalte.
+Wenn Sie Ihr Wissen über Bitcoin erweitern möchten, haben viele Autoren, Denker und Essayisten zur Bildungsschicht von Bitcoin beigetragen. Seit einigen Jahren erfassen und klassifizieren wir diese Werke, um eine [Ressourcenbibliothek](https://planb,network/resources) für die Neugierigsten unter Ihnen anzubieten. Dort finden Sie die besten Podcasts, Websites, Artikel, Tutorials, Bücher und andere Inhalte.
 
 > Milton Friedman, ein renommierter Ökonom, hatte bereits 1999 vorausgesagt: "Ich denke, dass das Internet eine der Hauptkräfte sein wird, um die Rolle der Regierung zu reduzieren. Das Einzige, was fehlt, aber bald entwickelt werden wird, ist ein zuverlässiges E-Geld - eine Methode, mit der Sie im Internet Geld von A nach B übertragen können, ohne dass A B kennt oder B A kennt." oder auf Französisch: "Je pense qu'Internet sera l'un des principaux facteurs de réduction du rôle des pouvoirs publics. La seule chose qui manque, mais qui sera bientôt développée, c'est une monnaie électronique fiable - une méthode par laquelle, sur Internet, vous pouvez transférer des fonds de A à B sans que A ne connaisse B ou que B ne connaisse A." Heute erfüllt Bitcoin diese Vorhersage.
 
@@ -1192,11 +1192,11 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 
 Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganzem Herzen, dass es Ihnen gefallen hat und Ihnen neue Möglichkeiten eröffnet hat. Ihre Entdeckung von Bitcoin steht erst am Anfang und ich lade Sie ein, alle anderen verfügbaren Kurse an der Universität zu entdecken.
 
-- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen.
-- [LN 201](https://sovereignuniversity.org/course/ln201/fr) und [LN 202](https://sovereignuniversity.org/course/ln202/fr) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen.'
-- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) wird sich mit der österreichischen Wirtschaft befassen
-- [SECU 101](https://sovereignuniversity.org/course/secu101/fr) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
-- [MINAGE 201](https://sovereignuniversity.org/course/min201/fr), um mehr über das Mining zu erfahren
+- [BTC 102](https://planb.network/course/btc102) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen.
+- [LN 201](https://planb.network/course/ln201) und [LN 202](https://planb.network/course/ln202) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen.'
+- [ECON 201](https://planb.network/course/econ201) wird sich mit der österreichischen Wirtschaft befassen
+- [SECU 101](https://planb.network/course/secu101) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
+- [MINAGE 201](https://planb.network/course/min201), um mehr über das Mining zu erfahren
 - und viele mehr...
 
 ## Unterstütze uns

@@ -147,12 +147,6 @@ Lassen Sie uns nun die Schritte für den Verkauf von Bitcoins auf Robosats betra
 
 🚨 Bitte seien Sie vorsichtig bei der Verwendung von Bisq, da es sich um eine fortgeschrittene Lösung handelt. Es ist möglicherweise nicht für Anfänger geeignet. Stellen Sie sicher, dass Sie etwas Erfahrung und Verständnis haben, bevor Sie loslegen. 🚨
 
-Wir betrachten diese Lösung im Detail, hier sind die Tutorial-Videos:
-
-![Teil 1](https://tube.nuagelibre.fr/videos/watch/b3885ea9-23e9-4b58-aa3f-401348da85a1)
-
-![Teil 2](https://tube.nuagelibre.fr/videos/watch/53276305-70d6-4c7f-9df9-e100a82eee16)
-
 Für diejenigen, die sich auskennen, gibt es hier eine kurze Anleitung, die die wesentlichen Schritte schnell beschreibt:
 
 1. Herunterladen und Installieren: Besuchen Sie die Bisq-Website und laden Sie die Anwendung herunter. Installieren Sie es auf Ihrem System.
@@ -160,6 +154,7 @@ Für diejenigen, die sich auskennen, gibt es hier eine kurze Anleitung, die die 
 3. Füllen Sie Ihre Bisq-Brieftasche auf: Klicken Sie auf "Fonds" und "Fonds erhalten", um Ihre Bisq-Adresse zu erhalten. Senden Sie Bitcoins an diese Adresse.
 4. Eine Transaktion durchführen: Klicken Sie auf "Kaufen/Verkaufen" und wählen Sie die gewünschte Transaktion aus. Folgen Sie den Anweisungen, um die Transaktion abzuschließen.
 5. Bestätigen Sie den Empfang: Sobald Sie die Zahlung erhalten haben, bestätigen Sie diese in der Bisq-App. Dadurch wird das Bitcoin aus der Treuhand freigegeben.
+
    Vergessen Sie nicht, alle Details Ihrer Transaktionen zu überprüfen und nur mit vertrauenswürdigen Parteien zu handeln.
 
 Hier ist ein umfassender Leitfaden, der Sie durch alle Schritte führt, um Bisq zu nutzen.

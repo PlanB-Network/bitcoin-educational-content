@@ -155,22 +155,13 @@ Now let's see the steps for selling bitcoins on Robosats:
 
 🚨 Please exercise caution when using Bisq as it is an advanced solution. It may not be suitable for beginner users. Make sure you have some experience and understanding before getting started. 🚨
 
-We are looking at this solution in detail, here are the tutorial videos:
-
-![part 1](https://tube.nuagelibre.fr/videos/watch/b3885ea9-23e9-4b58-aa3f-401348da85a1)
-
-![part 2](https://tube.nuagelibre.fr/videos/watch/53276305-70d6-4c7f-9df9-e100a82eee16)
-
 For the more resourceful, here is a concise guide outlining the essential steps:
 
 1. Download and Install: Visit the Bisq website and download the application. Install it on your system.
 2. Configure Payment Method: Open the application and go to "Account". Add the details of your payment method.
 3. Fund Your Bisq Wallet: Click on "Funds" and "Receive Funds" to get your Bisq address. Send Bitcoins to this address.
 4. Make a Transaction: Click on "Buy/Sell" and choose the desired transaction. Follow the instructions to complete the transaction.
-
-## 5. Confirm Receipt:
-
-Once you have received payment, confirm it in the Bisq application. This releases the Bitcoin from escrow. Always remember to check all transaction details and only deal with trusted parties.
+5. Confirm Receipt: Once you have received payment, confirm it in the Bisq application. This releases the Bitcoin from escrow. Always remember to check all transaction details and only deal with trusted parties.
 
 Here is a complete guide that will walk you through all the steps to use Bisq.
 

@@ -147,12 +147,6 @@ Vediamo ora i passaggi per la vendita di bitcoin su Robosats:
 
 🚨 Si prega di fare attenzione quando si utilizza Bisq, poiché si tratta di una soluzione avanzata. Potrebbe non essere adatta per gli utenti principianti. Assicurati di avere una certa esperienza e comprensione prima di iniziare. 🚨
 
-Esaminiamo in dettaglio questa soluzione, ecco i video tutorial:
-
-![parte 1](https://tube.nuagelibre.fr/videos/watch/b3885ea9-23e9-4b58-aa3f-401348da85a1)
-
-![parte 2](https://tube.nuagelibre.fr/videos/watch/53276305-70d6-4c7f-9df9-e100a82eee16)
-
 Per i più esperti, ecco una guida sintetica che riassume rapidamente i passaggi essenziali:
 
 1. Scarica e Installa: Visita il sito web di Bisq e scarica l'applicazione. Installala sul tuo sistema.

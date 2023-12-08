@@ -7,13 +7,13 @@ objectives:
   - Desarrollar un dominio de la Lightning Network y sus protocolos asociados.
 ---
 
-Welcome to Cubo+ dev courses for Bitcoin!
+¡Bienvenido a los cursos de desarrollo de Cubo+ para Bitcoin!
 
-Over the next 20 hours, you will be delving deep into the BTC and LN protocols. This course is focused on programmers who want to start working in the BTC ecosystem and are seeking a solid understanding of the various tech stacks of BTC & LN.
+Durante las próximas 20 horas, profundizarás en los protocolos BTC y LN. Este curso está enfocado a programadores que quieren empezar a trabajar en el ecosistema BTC y buscan una sólida comprensión de los distintos stacks tecnológicos de BTC y LN.
 
-The videos were recorded live during the 2023 CUBO+ bootcamp in El Salvador and managed to gather world-renowned teachers. This course was offered for free, thanks to the generosity of Fulgure Venture and the collaborative efforts of teachers, The Bitcoin Office, DecouvreBitcoin, and many other contributors.
+Los videos fueron grabados en vivo durante el 2023 CUBO+ bootcamp en El Salvador y lograron reunir a profesores de renombre mundial. Este curso se ofreció de forma gratuita, gracias a la generosidad de Fulgure Venture y los esfuerzos de colaboración de los profesores, The Bitcoin Office, DecouvreBitcoin, y muchos otros contribuyentes.
 
-Enjoy!
+¡Que lo disfrutes!
 
 +++
 

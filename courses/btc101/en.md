@@ -305,8 +305,6 @@ In conclusion, hyperinflation has the effect of rapidly degrading the value of t
 
 ## 21 million bitcoins
 
-![21 million bitcoins](https://./Y92R4EWk5uo)
-
 ### Bitcoin's Monetary Policy
 
 Bitcoin is a decentralized digital currency with a pre-defined maximum quantity of **21 million units**. This intrinsic characteristic of scarcity is determined by its computer code and reinforced by the consensus of all users participating in the protocol.

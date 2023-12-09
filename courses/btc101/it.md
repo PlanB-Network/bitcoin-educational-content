@@ -459,7 +459,7 @@ Potremmo chiederci: e se qualcuno indovinasse per caso la nostra lista di 12 o 2
 
 Quindi la probabilità di un hack del tuo portafoglio Bitcoin è astronomicamente bassa, se segui le buone pratiche di sicurezza. Pratiche che dettagliamo nella prossima sezione.
 
-Scegli un portafoglio che corrisponda alle tue esigenze e al tuo utilizzo. Tutorial dettagliati sull'uso e sulla sicurezza di diversi portafogli sono disponibili nella sezione [tutorial della nostra università](https://sovereignuniversity.org/tutorials/wallet).
+Scegli un portafoglio che corrisponda alle tue esigenze e al tuo utilizzo. Tutorial dettagliati sull'uso e sulla sicurezza di diversi portafogli sono disponibili nella sezione [tutorial della nostra università](https://planb.network/tutorials/wallet).
 
 ## Sicurezza e Portafogli Bitcoin
 
@@ -556,7 +556,7 @@ Ci sono molte soluzioni per farlo, alcune a basso costo come il "Blockmit", ment
 
 Inoltre, la creazione di un piano di eredità è un passo fondamentale per garantire che i vostri bitcoin siano gestiti correttamente dopo la vostra morte. Questo piano può includere una lettera scritta a mano che illustri i vostri beni, le modalità di accesso e le persone da contattare. È inoltre importante discutere il lascito di bitcoin con un notaio per garantire la conformità fiscale, anche se è importante non affidare mai i bitcoin direttamente a terzi, compreso un notaio.
 
-Se desiderate approfondire l'argomento di un piano di successione per i vostri bitcoin, vi consigliamo il libro di Pamela Morgan [Cryptoasset Inheritance Plan](https://sovereignuniversity.org/resources/books/28/en) o di seguire il corso di formazione BTC102 in cui vi guideremo nella sua creazione.
+Se desiderate approfondire l'argomento di un piano di successione per i vostri bitcoin, vi consigliamo il libro di Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) o di seguire il corso di formazione BTC102 in cui vi guideremo nella sua creazione.
 
 ![image](assets/Concept/chapitre8/2.jpeg)
 
@@ -624,7 +624,7 @@ Nel 2010, mentre il Bitcoin inizia a attirare l'attenzione dei media, Satoshi de
 Nonostante l'assenza di Satoshi, il Bitcoin continua a svilupparsi. Ogni 10 minuti, la storia di Bitcoin viene scritta e il protocollo continua a funzionare come previsto. Non importa la paura, l'incertezza o il dubbio (FOMO per Fear Of Missing Out o FUD per Fear Uncertainty Doubt), il Bitcoin continua ad avanzare, con una disponibilità online del 99,988%.
 Il Bitcoin è percepito in modo diverso da ogni individuo. Per alcuni, è un'entità fungina come il [micelio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), per altri è un [buco nero](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Che si ami o si odii il Bitcoin, continua ad esistere, con il suo ritmo costante di 10 minuti per blocco, come il battito di un nuovo sistema monetario.
 
-Per approfondire le conoscenze sugli scritti di Satoshi Nakamoto, consiglio il [libro di Phil Champagne](https://sovereignuniversity.org/resources/books) o il documentario di ARTE "il mistero di Satoshi".
+Per approfondire le conoscenze sugli scritti di Satoshi Nakamoto, consiglio il [libro di Phil Champagne](https://planb.network/resources/books) o il documentario di ARTE "il mistero di Satoshi".
 
 ![image](assets/Concept/chapitre9/8.jpg)
 
@@ -1006,7 +1006,7 @@ Esistono diversi modi per acquistare Bitcoin, ognuno con le proprie regolamentaz
 
 - Le piattaforme di DCA
 
-Un metodo comune per accumulare Bitcoin è il "Dollar Cost Averaging" (DCA), che consiste nell'investire regolarmente piccole somme. Diverse piattaforme offrono questo servizio, come quelle elencate nella nostra [pagina dedicata](https://sovereignuniversity.org/tutorials/exchange). Oltre alla semplicità di impostare un DCA, il prelievo verso il vostro portafoglio è generalmente automatico, il che significa che avrete sempre il controllo sul vostro agente.
+Un metodo comune per accumulare Bitcoin è il "Dollar Cost Averaging" (DCA), che consiste nell'investire regolarmente piccole somme. Diverse piattaforme offrono questo servizio, come quelle elencate nella nostra [pagina dedicata](https://planb.network/tutorials/exchange). Oltre alla semplicità di impostare un DCA, il prelievo verso il vostro portafoglio è generalmente automatico, il che significa che avrete sempre il controllo sul vostro agente.
 
 Oggi quasi tutte le soluzioni di DCA sono relativamente efficienti e con commissioni quasi simili, la scelta si baserà maggiormente sulla disponibilità nel vostro paese.
 
@@ -1031,7 +1031,7 @@ Dopo l'acquisto, è consigliabile ritirare immediatamente i Bitcoin dalle piatta
 
 ### Soluzione non-KYC'
 
-Inoltre, ci sono diverse [piattaforme di mercato](https://sovereignuniversity.org/tutorials/exchange) per acquistare e vendere bitcoin peer-to-peer. Se sei interessato a queste, puoi seguire il nostro corso BTC 205 sull'argomento. In generale, queste soluzioni sono:
+Inoltre, ci sono diverse [piattaforme di mercato](https://planb.network/tutorials/exchange) per acquistare e vendere bitcoin peer-to-peer. Se sei interessato a queste, puoi seguire il nostro corso BTC 205 sull'argomento. In generale, queste soluzioni sono:
 
 - ATM bitcoin
 - Incontri fisici con altri appassionati di bitcoin
@@ -1061,7 +1061,7 @@ Ti invitiamo a riflettere su questa nuova rivoluzione monetaria. Ci sono così t
 
 ![immagine](assets/Concept/chapitre17/3.png)
 
-Se desideri approfondire le tuo conoscimento sul Bitcoin, un gran numero di autori, pensatori, saggisti hanno contribuito alla parte educativa di Bitcoin. Da alcuni anni, stiamo catalogando e classificando queste opere per offrire una [biblioteca di risorse](https://sovereignuniversity.org/resources) ai più curiosi tra voi. Troverai i migliori podcast, siti web, articoli, tutorial, libri e altri contenuti.
+Se desideri approfondire le tuo conoscimento sul Bitcoin, un gran numero di autori, pensatori, saggisti hanno contribuito alla parte educativa di Bitcoin. Da alcuni anni, stiamo catalogando e classificando queste opere per offrire una [biblioteca di risorse](https://planb.network/resources) ai più curiosi tra voi. Troverai i migliori podcast, siti web, articoli, tutorial, libri e altri contenuti.
 
 > Milton Friedman, un rinomato economista, aveva previsto nel 1999: "Penso che Internet sarà una delle principali forze per ridurre il ruolo del governo. L'unica cosa che manca, ma che presto verrà sviluppata, è una moneta elettronica affidabile - un metodo mediante il quale su Internet puoi trasferire fondi da A a B senza che A conosca B o B conosca A." Oggi, il Bitcoin risponde a questa previsione.
 
@@ -1204,11 +1204,11 @@ Cambiare il sistema finanziario richiede di cambiare la valuta. Satoshi ha creat
 
 Congratulazioni per aver completato questa formazione BTC 101! Spero sinceramente che ti sia piaciuta e abbia aperto delle porte. La tua scoperta di Bitcoin è solo all'inizio e ti invito a scoprire tutte le altre formazioni disponibili nell'università.
 
-- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) ti aiuterà a creare il tuo piano Bitcoin
-- [LN 201](https://sovereignuniversity.org/course/ln201/fr) e [LN 202](https://sovereignuniversity.org/course/ln202/fr) ti permetteranno di scoprire Lightning Network, una rete di pagamenti di secondo livello.
-  '- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) affronterà l'economia austriaca
-- [SECU 101](https://sovereignuniversity.org/course/secu101/fr) ti permetterà di aggiornare la tua sicurezza digitale
-- [MINAGE 201](https://sovereignuniversity.org/course/min201/fr) per saperne di più sul mining
+- [BTC 102](https://planb.network/course/btc102) ti aiuterà a creare il tuo piano Bitcoin
+- [LN 201](https://planb.network/course/ln201) e [LN 202](https://planb.network/course/ln202) ti permetteranno di scoprire Lightning Network, una rete di pagamenti di secondo livello.
+  '- [ECON 201](https://planb.network/course/econ201) affronterà l'economia austriaca
+- [SECU 101](https://planb.network/course/secu101) ti permetterà di aggiornare la tua sicurezza digitale
+- [MINAGE 201](https://planb.network/course/min201) per saperne di più sul mining
 - e molti altri...
 
 ## Sostienici

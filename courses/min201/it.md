@@ -248,9 +248,6 @@ In conclusione, nonostante il rischio normativo e la possibilità di un divieto 
 
 ## Attakai - il home-mining reso possibile e accessibile!
 
-
-![Apresentamos Attakaï!](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
-
 Attakai, che significa "la temperatura ideale" in giapponese, è il nome dell'iniziativa volta a scoprire il mining di bitcoin attraverso il riutilizzo del calore, lanciata da @ajelexBTC e @jimzap21 con Découvre Bitcoin.
 
 Questa guida per il retrofitting di un ASIC servirà come base per imparare di più sul mining, il suo funzionamento e l'economia sottostante, dimostrando la possibilità di adattare un minatore di Bitcoin per l'uso come radiatori nelle abitazioni. Ciò offre maggiore comfort ed efficienza energetica, consentendo ai partecipanti di ottenere cash back in BTC non KYC sulla loro bolletta di riscaldamento elettrico.

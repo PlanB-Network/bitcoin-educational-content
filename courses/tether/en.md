@@ -410,7 +410,7 @@ Regrettably, our current system deviates from this ideal. Central bank intervent
 
 As a result of interest rate manipulation, economic expansions tend to be prolonged, leading to increased debt levels and fiscal irresponsibility. Conversely, economic contractions become more severe, exacerbating instability and hardship for those at the bottom of the social ladder.
 
-__Conclusion__
+### __Conclusion__
 
 Our current path of monetary intervention is not sustainable. The ever-increasing debt burden, coupled with uncomfortable inflation and rising costs of living, is leading to greater wealth inequality and social unrest. We can only expect these problems to worsen if we continue down this path.
 
@@ -418,7 +418,16 @@ Fortunately, there are options available to us. With the emergence of Bitcoin, w
 
 As we move forward, we encourage you to approach this new technology with an open mind and a critical eye, exploring how it can offer an alternative to our present-day financial systems. By doing so, we have the potential to address the problems of rising inequality and social unrest while building a more sustainable and equitable economic future.
 
-# EXAM ASI0
+## Module 1 Exam 
+
+Now that you went through the Module "The Price of Progress" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+
+1. Consider the emergence of Bitcoin and stablecoins as alternative systems to traditional fiat currency. What do you feel are some of the potential advantages and disadvantages, and how might they contribute to a more equitable economic future?
+2. What information can you gather from the debt-to-GDP ratio of the United States? What is the debt to GDP of your own country?
+3. How does suppressing interest rates impact the overall debt burden?
+4. How does the current monetary system exacerbate wealth inequality?
+5. In light of the information provided about debt and inflation, what is your opinion on the sustainability of the current monetary system? Do you think our current system is beneficial or detrimental in the long run?
 
 # Module 2: Financial Liberation - An Introduction to Bitcoin
 
@@ -800,13 +809,24 @@ If you are interested in further exploring the world of Bitcoin, many options ar
 
 Regardless of your interests, there are many resources available to help you learn more about Bitcoin and get involved.
 
-__Conclusion__
+### __Conclusion__
 
 Although we often hear that Bitcoin can never rival Visa or Mastercard, hopefully, this section has proven this notion to be untrue. Rather than competing directly with these companies, Bitcoin's base layer is designed to process high-value transactions much more efficiently than traditional methods. This makes it a fantastic alternative to traditional layer one solutions. Moreover, technologies like The Lightning Network, built on top of the Bitcoin layer one, enable nearly instantaneous transactions for just a fraction of a cent. Thus, Bitcoin can still compete with Visa and Mastercard, offering solutions for both businesses and individuals alike.
 
 Bitcoin's biggest advantage is that it allows us to have self-custody of a digital asset, which was never possible before. If you feel overwhelmed after going through this section, don't worry. Taking control of your own bitcoin is a powerful step towards financial freedom, but it also comes with new responsibilities. However, with a little bit of research and due diligence, these new responsibilities will quickly become second nature to you, and you'll feel comfortable taking on the task of safely securing your bitcoin.
 
-# QUIZ module 2 ASI0
+## Module 2 Exam
+
+Now that you went through the Module "An Examination of How We Got Here" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+
+1. What are your thoughts on the concept of a trustless and permissionless decentralised digital currency like Bitcoin? How do you think it compares to traditional forms of currency?
+2. Do you believe that the limited supply of bitcoin, with only 21 million coins, gives it value and makes it more desirable? Why or why not?
+3. Based on the information provided about Satoshi Nakamoto, do you think it is important to know the true identity of Bitcoin's creator? Why or why not?
+4. Do you agree with Satoshi Nakamoto's concerns about centralised banking systems and the trust required in conventional currencies? Why or why not?
+5. Imagine you live in a country experiencing high inflation. How could bitcoin provide a solution for preserving your purchasing power?
+6. Consider a scenario where you need to send money to a family member in a different country. How could Bitcoin's peer-to-peer nature and low fees benefit you in this situation?
+
 
 # Module 3: Stability Amidst Chaos - An Introduction to Tether & the World of Stablecoins
 
@@ -1110,6 +1130,16 @@ And if that wasn't enough, these stablecoins not only increase the usability of 
 
 Overall, stablecoins, like USDt and XAUt, have the potential to transform the lives of billions by offering them access to inclusive and much-needed financial services.
 
+## Module 3 Exam
+
+Now that you went through the Module "Stability Amidst Chaos" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+
+1. What are the advantages and disadvantages of using fiat-backed stablecoins compared to traditional fiat currencies like the US dollar?
+2. In your opinion, what are the potential benefits of USDt for individuals who lack access to banking services?
+3. In your opinion, how significant is the role of stablecoins in protecting individuals from the negative effects of inflation? Can stablecoins truly provide financial stability in an uncertain world?
+4. How do you think stablecoins can contribute to financial inclusion and economic development in developing countries?
+5. In your opinion, what measures should stablecoin issuers take to ensure the stability and trustworthiness of their stablecoins? How important is it for stablecoin issuers to be transparent about their reserve practices and provide regular reports?
 
 # Module 4: Overcoming Doubts - Debunking Common Misconceptions & Real-World Use Cases
 
@@ -1568,11 +1598,21 @@ HR Agency, Nigeria
 
 “In the HR industry, we have a lot of people to pay across different countries. And we simply cannot pay everyone in their national currency. With Tether USDt, we can pay everyone irrespective of their nationality and wherever they are working from, and they can exchange the USDt themselves whenever they want to.“
 
-__Conclusion__
+### __Conclusion__
 
 We hope you’ve found these stories inspiring. That said, it should be clear that stablecoins, such as USDt, play a pivotal role in enabling individuals access to fast and efficient international transfers, USD invoicing and payments, wages denominated in USD, and, most importantly, a relatively stable store of value compared to the countless volatile currencies. Without stablecoins, many of these individuals would face significant barriers when tapping into the global marketplace, connecting with international family members, or reaching otherwise inaccessible customers. Stablecoins have undeniably enhanced their financial connectivity and provided a valuable tool for navigating the complexities of our global economy.
 
-# EXAM module final , Asi0
+## Module 4 Exam
+
+
+Now that you went through the Module "Overcomming Doubts" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+1. How do you view the concept of value in relation to bitcoin? Do you think it is necessary for a currency to be backed by something tangible to be valuable?
+2. Reflecting on Roya Mahboob's work with the Digital Citizen Fund and the Women's Annex Foundation, what do you think are the key benefits of incorporating technology and Bitcoin into initiatives aimed at empowering women in developing countries?
+3. How important is financial independence for women's empowerment, particularly in countries where they face various forms of discrimination and limited opportunities? Can you think of other ways besides Bitcoin that could help women achieve financial independence in such contexts?
+4. Given Bitcoin’s ability to offer energy producers the ability to monetise energy directly, do you think this has significant benefits for energy producers and the overall energy market?
+5. Reflecting on the comparisons between Bitcoin's energy consumption and other industries, is it fair to single out Bitcoin for its energy usage? Why or why not?
+
 
 # Closing Remarks
 

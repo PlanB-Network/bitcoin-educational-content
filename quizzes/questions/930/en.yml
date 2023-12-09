@@ -1,0 +1,11 @@
+question: What is the purpose of nodes in the Bitcoin network? 
+answer: To maintain and secure the blockchain 
+wrong_answers:
+  - To process transactions
+  - To propose and implement changes to the Bitcoin codebase
+  - To compete with other miners
+explanation: |
+  Nodes are essential to the integrity and security of the Bitcoin network. 
+  They serve as the gatekeepers of the system, ensuring that transactions 
+  are processed accurately and according to the rules.
+reviewed: true

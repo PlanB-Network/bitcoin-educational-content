@@ -1,0 +1,12 @@
+question: How does inflation affect wage earners' purchasing power over time? 
+answer: Inflation erodes purchasing power as wages often lag behind the true rate of inflation.
+wrong_answers:
+  - Inflation increases purchasing power as wages rise faster than prices.
+  - Inflation has no effect on purchasing power.
+  - Inflation only affects the purchasing power of those who invest in financial markets.
+explanation: |
+  Inflation leads to a persistent increase in consumer prices, eroding the purchasing 
+  power of wage earners as their wages typically lag behind the true rate of inflation.
+  This makes it difficult for wage earners to achieve their long-term savings goals
+  and maintain their standard of living.
+reviewed: true

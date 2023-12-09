@@ -1,0 +1,12 @@
+question: What is the main advantage of using non-custodial wallets for bitcoin storage? 
+answer: Increased security and privacy 
+wrong_answers:
+  - Easy access to bitcoin
+  - Lower transaction fees
+  - No need for a password
+explanation: |
+  Non-custodial wallets are where you are the sole custodian of your funds,
+  meaning you have complete control over your private keys. Therefore,
+  non-custodial wallets offer a higher level of security and privacy 
+  over custodial wallets since you are the only one responsible for the safety of your funds.
+reviewed: true

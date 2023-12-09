@@ -1,0 +1,12 @@
+question: What is one benefit of centralised stablecoins despite their ability to freeze funds? 
+answer: They can swiftly respond to protect users in certain scenarios 
+wrong_answers:
+  - They offer complete decentralisation and security
+  - They are not subject to any regulations or interventions
+  - They operate independently from law enforcement
+explanation: |
+  Centralised stablecoins have the ability to intervene 
+  when it is in the best interest of users and the overall stability 
+  of the system, as demonstrated by examples where frozen funds were 
+  used to protect consumers and prevent hackers from profiting.
+reviewed: true

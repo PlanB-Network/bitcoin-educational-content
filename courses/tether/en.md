@@ -418,7 +418,7 @@ Fortunately, there are options available to us. With the emergence of Bitcoin, w
 
 As we move forward, we encourage you to approach this new technology with an open mind and a critical eye, exploring how it can offer an alternative to our present-day financial systems. By doing so, we have the potential to address the problems of rising inequality and social unrest while building a more sustainable and equitable economic future.
 
-## Module Exam 
+## Module 1 Exam 
 
 Now that you went through the Module "The Price of Progress" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
 
@@ -809,13 +809,24 @@ If you are interested in further exploring the world of Bitcoin, many options ar
 
 Regardless of your interests, there are many resources available to help you learn more about Bitcoin and get involved.
 
-__Conclusion__
+### __Conclusion__
 
 Although we often hear that Bitcoin can never rival Visa or Mastercard, hopefully, this section has proven this notion to be untrue. Rather than competing directly with these companies, Bitcoin's base layer is designed to process high-value transactions much more efficiently than traditional methods. This makes it a fantastic alternative to traditional layer one solutions. Moreover, technologies like The Lightning Network, built on top of the Bitcoin layer one, enable nearly instantaneous transactions for just a fraction of a cent. Thus, Bitcoin can still compete with Visa and Mastercard, offering solutions for both businesses and individuals alike.
 
 Bitcoin's biggest advantage is that it allows us to have self-custody of a digital asset, which was never possible before. If you feel overwhelmed after going through this section, don't worry. Taking control of your own bitcoin is a powerful step towards financial freedom, but it also comes with new responsibilities. However, with a little bit of research and due diligence, these new responsibilities will quickly become second nature to you, and you'll feel comfortable taking on the task of safely securing your bitcoin.
 
-# QUIZ module 2 ASI0
+## Module 2 Exam
+
+Now that you went through the Module "An Examination of How We Got Here" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+
+1. What are your thoughts on the concept of a trustless and permissionless decentralised digital currency like Bitcoin? How do you think it compares to traditional forms of currency?
+2. Do you believe that the limited supply of bitcoin, with only 21 million coins, gives it value and makes it more desirable? Why or why not?
+3. Based on the information provided about Satoshi Nakamoto, do you think it is important to know the true identity of Bitcoin's creator? Why or why not?
+4. Do you agree with Satoshi Nakamoto's concerns about centralised banking systems and the trust required in conventional currencies? Why or why not?
+5. Imagine you live in a country experiencing high inflation. How could bitcoin provide a solution for preserving your purchasing power?
+6. Consider a scenario where you need to send money to a family member in a different country. How could Bitcoin's peer-to-peer nature and low fees benefit you in this situation?
+
 
 # Module 3: Stability Amidst Chaos - An Introduction to Tether & the World of Stablecoins
 

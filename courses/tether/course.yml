@@ -1,5 +1,8 @@
 level: beginners
 hours: 5
 
+professors:
+  - rabbit-hole
+
 contributors:
   - rabbit-hole

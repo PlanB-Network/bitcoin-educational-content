@@ -1130,6 +1130,16 @@ And if that wasn't enough, these stablecoins not only increase the usability of 
 
 Overall, stablecoins, like USDt and XAUt, have the potential to transform the lives of billions by offering them access to inclusive and much-needed financial services.
 
+## Module 3 Exam
+
+Now that you went through the Module "Stability Amidst Chaos" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+
+1. What are the advantages and disadvantages of using fiat-backed stablecoins compared to traditional fiat currencies like the US dollar?
+2. In your opinion, what are the potential benefits of USDt for individuals who lack access to banking services?
+3. In your opinion, how significant is the role of stablecoins in protecting individuals from the negative effects of inflation? Can stablecoins truly provide financial stability in an uncertain world?
+4. How do you think stablecoins can contribute to financial inclusion and economic development in developing countries?
+5. In your opinion, what measures should stablecoin issuers take to ensure the stability and trustworthiness of their stablecoins? How important is it for stablecoin issuers to be transparent about their reserve practices and provide regular reports?
 
 # Module 4: Overcoming Doubts - Debunking Common Misconceptions & Real-World Use Cases
 

@@ -1,0 +1,12 @@
+question: How do Tether’s stablecoin offerings facilitate increased Bitcoin adoption? 
+answer: By providing a seamless bridge between traditional banking and Bitcoin 
+wrong_answers:
+  - By offering reduced transaction fees for Bitcoin purchases
+  - By eliminating the need for traditional banking services in Bitcoin transactions
+  - By offering higher security measures for bitcoin storage
+explanation: |
+  Stablecoins, like USDt, act as a bridge between traditional banking systems 
+  and the decentralised world of Bitcoin. They allow individuals to transact 
+  in and out of bitcoin without relying on traditional banking services, 
+  thereby increasing Bitcoin adoption.
+reviewed: true

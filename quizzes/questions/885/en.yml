@@ -1,11 +1,10 @@
-question: What does it mean for a good to have high salability?
-answer: It should be desired by as many people as possible, most of the time.
+question: Which of the following is NOT one of the three essential functions of money? 
+answer: Source of Energy 
 wrong_answers:
-  - It should be desired by a few people, most of the time.
-  - It should be desired by as many people as possible, some of the time.
-  - It should be desired by a few people, some of the time.
+  - Store of Value
+  - Medium of Exchange
+  - Unit of Account
 explanation: |
-  A good with high salability is one that is widely desired and can be
-  easily exchanged for other goods or services. This makes it suitable for use as
-  money.
-reviewed: false
+  The three essential functions of money are a store of value, medium of exchange, 
+  and unit of account. A source of energy is not a function of money.
+reviewed: true

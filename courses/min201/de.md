@@ -57,8 +57,6 @@ Bereit, dieses fesselnde Abenteuer zu beginnen? Tauchen wir gemeinsam in die fas
 
 ## Erklärung des Minings
 
-![Was ist Bitcoin-Mining?](https://www.youtube.com/watch?v=neEQzEQzmPQ)
-
 ### Das Mining erklärt: Das Puzzle-Gleichnis
 
 Um das Konzept des Minings vereinfacht zu erklären, kann ein passendes Gleichnis verwendet werden: das Puzzle. Ähnlich wie bei einem Puzzle ist das Mining eine komplexe Aufgabe, die jedoch leicht zu überprüfen ist, sobald sie abgeschlossen ist. Im Kontext des Bitcoin-Minings versuchen die Miner, schnell ein digitales Puzzle zu lösen. Der erste Miner, der das Puzzle löst, präsentiert seine Lösung dem gesamten Netzwerk, das dann leicht deren Gültigkeit überprüfen kann. Diese erfolgreiche Überprüfung ermöglicht es dem Miner, einen neuen Block zu validieren und zur Bitcoin-Blockchain hinzuzufügen. Als Anerkennung für ihre Arbeit, die mit erheblichen Kosten verbunden ist, wird der Miner mit einer bestimmten Anzahl von Bitcoins belohnt. Diese Belohnung dient als finanzieller Anreiz für die Miner, ihre Arbeit der Transaktionsvalidierung und Netzwerksicherung fortzusetzen.
@@ -157,11 +155,10 @@ Bei der Frage, was in einem Bitcoin-Block enthalten sein sollte, ist es entschei
 Mit dem erwarteten Wachstum des Lightning Networks und der damit verbundenen Zunahme von Kanalöffnungen und -schließungen wird der Platz in den Bitcoin-Blöcken immer wertvoller. Die Bitcoin-Community neigt bereits dazu, den Erhalt dieses Raums zu schätzen und erkennt seine intrinsische Begrenzung an. Dieses Bewusstsein hat zu Diskussionen über die legitime Nutzung des Blockraums geführt, wobei Bedenken hinsichtlich des "Spams" auf der Blockchain durch als nicht wesentlich betrachtete Transaktionen bestehen.
 
 ![image](assets/overview/block.png)
+
 Die Verwendung des Blockraums in der Zukunft ist Gegenstand von Spekulationen, aber es wird allgemein anerkannt, dass es sich um eine knappe Ressource handelt, die sorgfältig genutzt werden sollte. Auch wenn der Wunsch besteht, ihn zu füllen, ist es wichtig, ihn zu erhalten, um die langfristige Lebensfähigkeit des Bitcoin-Netzwerks zu gewährleisten und einer zukünftigen Nachfragesteigerung nach Blockraum vorzubeugen. Wie auf jedem freien Markt wird das Angebot und die Nachfrage die Nutzung des Blockraums regulieren. Bei begrenztem Angebot müssen die Stakeholder informierte Entscheidungen über die Nutzung dieses wertvollen Raums treffen, um die Effizienz und Sicherheit des Bitcoin-Netzwerks langfristig zu gewährleisten.
 
 ## Das Mining im Bitcoin-Protokoll
-
-![Wer hat die Macht? Bitcoin, Energie und Hersteller](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
 Die Rolle der Miner im Bitcoin-Netzwerk war während des Blockkriegs ein intensiv diskutiertes Thema. Obwohl sie für die Sicherheit und Funktionalität des Netzwerks unerlässlich sind, haben die Miner nicht unbedingt die ultimative Macht im Bitcoin-Ökosystem. Das Gleichgewicht zwischen Minern, Nodes und Endbenutzern gewährleistet die Integrität und Verteilung des Netzwerks.
 
@@ -247,12 +244,6 @@ Angesichts von Kampagnen wie denen von Greenpeace und den oft irreführenden Zah
 
 Zusammenfassend lässt sich sagen, dass trotz des regulatorischen Risikos und der Möglichkeit eines Mining-Verbots in Europa die stärkste Waffe die Bildung und Information ist. Ein klares und genaues Verständnis des Minings, seiner Funktionsweise und Auswirkungen kann dazu beitragen, die Branche zu entmystifizieren und gegen Desinformation anzukämpfen, was eine bessere Resistenz gegen potenziell schädliche Vorschriften bietet. Die Initiative, Menschen über das Mining zu schulen und zu informieren, wie es in dieser Diskussion geschieht, ist ein Schritt in die richtige Richtung, um die Nachhaltigkeit und das Wachstum des Minings in Europa und weltweit zu gewährleisten. Kontinuierliche Bemühungen zur Bildung und Information sind entscheidend, um eine sichere und erfolgreiche Zukunft für die Bitcoin-Mining-Branche zu gewährleisten.
 
-## Interview mit einem Branchenexperten
-
-### Einblick in das industrielle Mining - Sebastien Gouspillou
-
-![Einblick in das industrielle Mining - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
-
 # Home-Mining und Wärmerückgewinnung
 
 ## Attakai - Home-Mining ermöglicht und zugänglich gemacht!
@@ -304,6 +295,7 @@ Dies ist eine ausgezeichnete Gelegenheit, durch praktisches Lernen zu lernen und
 ## Leitfaden zum Kauf eines gebrauchten ASIC
 
 ![Einführung in Attakaï: Mit Bitcoin heizen](https://www.youtube.com/watch?v=U_PLo59lp-g)
+
 In diesem Abschnitt werden wir bewährte Praktiken für den Kauf eines gebrauchten Bitmain Antminer S9 behandeln, der die Grundlage für dieses Retrofitting-Tutorial als Heizkörper bildet. Dieser Leitfaden gilt auch für andere ASIC-Modelle, da es sich um einen allgemeinen Leitfaden für den Kauf gebrauchter Mining-Hardware handelt.
 Der Antminer S9 ist ein Gerät, das von Bitmain seit Mai 2016 angeboten wird. Er verbraucht 1400W Strom und erzeugt 13,5 TH/s. Obwohl er als alt betrachtet wird, ist er immer noch eine ausgezeichnete Option für den Einstieg ins Mining. Da er in großer Stückzahl produziert wurde, ist es einfach, Ersatzteile in vielen Teilen der Welt zu finden. Man kann ihn in der Regel peer-to-peer auf Websites wie Ebay oder LeBonCoin erwerben, da Händler, die sich an professionelle Kunden richten, ihn aufgrund seiner geringeren Wettbewerbsfähigkeit im Vergleich zu neueren Maschinen nicht mehr anbieten. Er ist weniger effizient als ASICs wie der Antminer S19, der seit März 2020 angeboten wird, aber das macht ihn zu einer erschwinglichen gebrauchten Hardware, die besser für die von uns durchgeführten Modifikationen geeignet ist.
 
@@ -659,6 +651,7 @@ Und voilà, Bravo! Sie haben die gesamte mechanische Komponente Ihres Miners aus
 ## Beitritt zu einem Mining-Pool
 
 ![Beitritt zu einem Mining-Pool mit einem Antminer S9](https://www.youtube.com/watch?v=wM-dRog6mls&t=166s)
+
 Man kann sich einen Mining-Pool wie eine landwirtschaftliche Genossenschaft vorstellen. Die Landwirte bringen ihre Produktion zusammen, um die Varianz von Angebot und Nachfrage zu reduzieren und so stabilere Einnahmen für ihren Betrieb zu erzielen. Ein Mining-Pool funktioniert auf die gleiche Weise, wobei die gemeinsam genutzte Ressource Hashes sind. Die Entdeckung eines einzigen gültigen Hashes ermöglicht die Erstellung eines Blocks und den Gewinn der Coinbase oder Belohnung, die derzeit 6,25 BTC plus die Transaktionsgebühren im Block beträgt. Wenn Sie alleine minen, werden Sie nur belohnt, wenn Sie einen Block finden. Da Sie gegen alle anderen Miner auf dem Planeten konkurrieren, hätten Sie sehr geringe Chancen, diese große Lotterie zu gewinnen, und Sie müssten trotzdem die mit der Nutzung Ihres Miners verbundenen Kosten tragen, ohne Garantie auf Erfolg. Mining-Pools lösen dieses Problem, indem sie die Rechenleistung von mehreren (tausenden) Minern bündeln und die Belohnung entsprechend dem prozentualen Anteil am Hashrate des Pools teilen, wenn ein Block gefunden wurde. Um Ihre Chancen, alleine einen Block zu minen, zu visualisieren, können Sie dieses Tool verwenden. Wenn Sie die Informationen eines Antminer S9 eingeben, sehen Sie, dass die Chancen, einen Hash zu finden, der die Erstellung eines Blocks ermöglicht, bei 1/24 777 849 pro Block oder 1/172 068 pro Tag liegen. Es würde im Durchschnitt (bei konstanter Hashrate und Schwierigkeit) 471 Jahre dauern, um einen Block zu finden.
 Trotzdem, da in Bitcoin alles Wahrscheinlichkeit ist, kommt es manchmal vor, dass "Solo-Miner" für dieses Risiko belohnt werden: Solo Bitcoin Miner löst Block mit einer Hashrate von nur 10 TH/s und schlägt extrem unwahrscheinliche Chancen - Decrypt
 

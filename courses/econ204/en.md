@@ -69,8 +69,6 @@ Good luck!
 
 ## 2.1 - A monetary phenomenon
 
-![video ](https://youtu.be/Hg8L_PIs008)
-
 ### Definitions of inflation
 
 Inflation is a concept that is often misunderstood due to the multiple definitions associated with it. The perception of inflation varies among different groups such as bitcoiners and traditional economists. Let's first clarify the definitions before discussing hyperinflation:
@@ -234,8 +232,6 @@ In conclusion, this study on monetary devaluation opens the door to a deep under
 
 ## 2.2 - Types of Inflation
 
-![Video](https://youtu.be/hHk5oV8HsNQ)
-
 ### Inflation is not a multifactorial phenomenon
 
 In this section, we will explore the different dimensions of inflation, a phenomenon that is often misunderstood. Although inflation is frequently perceived as a multifactorial phenomenon in the media and everyday discussions, it is crucial to remember that it is fundamentally a monetary phenomenon.
@@ -286,6 +282,7 @@ These nuances in measuring inflation by the CPI highlight the complexity of the 
 Modern Monetary Theory (MMT) offers a distinct perspective on money creation and inflation. According to MMT, money primarily originates from the government, which can print substantial amounts to finance its needs without causing inflation as long as the sectors targeted by these funds are not saturated. This is an approach that deviates from traditional monetary theories and emphasizes the importance of sectoral absorption capacities in the inflationary dynamics.
 
 ![image](assets/chapitre-2.2/4.PNG)
+
 An illustrative example of MMT is the American military-industrial complex. According to MMT, hundreds of billions of dollars can be allocated to this sector without causing inflation, thanks to its absorptive capacity. In contrast, if substantial funds are injected into road construction in the United States, where there is a limited number of companies and labor, inflation could occur due to resource scarcity and increased costs demanded by suppliers.
 Japan is often cited by MMT proponents as another example of the absence of inflation despite significant monetary printing. However, the situation in Japan also highlights the limitations of traditional measures of inflation such as the Consumer Price Index (CPI). In Japan, a large portion of the printed money is either saved or invested in real estate or stock markets, rather than spent in the current consumption economy. The CPI, by not fully capturing these dynamics, may underestimate actual inflation.
 
@@ -409,27 +406,10 @@ What emerges from our exploration is that hyperinflation is a complex and counte
 
 In our future discussions, we will delve deeper into hyperinflation, exploring its definitions and manifestations in various economic contexts. Our goal will be to uncover the underlying mechanisms of hyperinflation and explore potential solutions to address it. This nuanced understanding will enable us to better grasp the associated challenges and propose informed strategies for inflation management.
 Thank you for your attention. The next session will be entirely dedicated to defining and demystifying hyperinflation, taking into account different academic and practical perspectives. We look forward to continuing this exploration with you in our next meeting.
-## 2.3 - Deflation
-
-Soon to be created by DAVID
-
-### Types of deflation
-
-### The deflation of the 1930s (credit bubble burst) (Jeff Booth)
-
-### Growth deflation from 1865 to 1896 (Dr. Philip Bagus)
-
-### Wage adjustment (Keynes vs Dr. Philip Bagus)
-
-### If the purchase price decreases faster than the selling price, it's OK
-
-### MSM and fiat economists always talk about fiat deflation
 
 # Section 3 - What is hyperinflation?
 
 ## 3.1 - Definitions of hyperinflation
-
-![temporary video 3.1](https://youtu.be/qYMR-i7TtHY)
 
 ### Definitions of hyperinflation
 
@@ -482,8 +462,6 @@ Common definitions of hyperinflation, such as the one put forward by Kagan stati
 It should be noted that certain historical periods of high inflation are not included in the classic tables of hyperinflation, often due to strict classification criteria. For example, during the American War of Independence in November 1779, and during the American Civil War in March 1864, the monthly inflation rates were 47.4% and 40% respectively. These rates, although high, do not exceed the 50% threshold stipulated by Kagan, thus excluding these periods from being classified as hyperinflation cases. This omission illustrates the limitations of rigid definitions and highlights the need for a more nuanced approach to understanding hyperinflation in all its complexity.
 
 ## 3.2 - Weimar vs Zimbabwe similarities
-
-![Video](https://youtu.be/xqMESvFi7J8)
 
 ### Two eras, two catastrophes
 
@@ -639,8 +617,6 @@ This concludes this video on the similarities of the experiences during the peri
 
 ## 3.3 - Weimar vs Zimbabwe: Differences and Contemporary Parallels
 
-![Video](https://youtu.be/jh_MOKDPmQQ)
-
 Transcript:
 
 In this chapter, we will explore the differences and contemporary parallels between past and present hyperinflation periods, with anecdotes and relevant comparisons for today.
@@ -732,8 +708,6 @@ Imagine a scenario where you have a family or loved ones that you want to protec
 Today, in the face of declining purchasing power, investment takes over. However, this approach comes with its own risks. Savings have always been a remedy against uncertainty. Having financial reserves to manage unforeseen situations contributes to peace of mind and strengthens social cohesion. In conclusion, protecting our purchasing power is essential to maintain social and individual stability.
 
 ## 3.4 - Redenominations in Latin America
-
-![Video](https://youtu.be/m2pcmbEzKyc)
 
 We will now look at different periods of redenomination in Latin American countries.
 
@@ -836,8 +810,6 @@ In conclusion, hyperinflation is just one aspect of economic challenges. High in
 
 ## 3.5 - How to overcome hyperinflation
 
-![video](https://youtu.be/9PYH7ut3fq0)
-
 ### How to end moderate and high inflation
 The conclusions mentioned are drawn from the book "Monetary Regime and Inflation" by Bernold. According to Bernold, the only method to end inflation is to carry out a monetary reform and impose restrictions on the government. These restrictions involve the establishment of an institution, such as a central bank, that operates independently from the government's political decisions. High and hyperinflation are often the result of financing budget deficits through monetary creation. To address moderate inflation, it is essential to decrease the growth of the money supply. Bernold also suggests that this monetary growth should be relative to neighboring countries. A surprising point is that, during periods of high or hyperinflation, the total value of the money supply can actually decrease. A striking example of this situation is Zimbabwe.
 
@@ -885,13 +857,11 @@ The key takeaway is that there are several strategies to overcome hyperinflation
 
 ## 3.6 - Presentation of the hyperinflation banknote collection
 
-![video](https://youtu.be/h1uwR3Yge1M)
-
 The link to the scanned collection is available in the Bitcoin Educational Toolkit, accessible from the Resources section of the platform.
 
 # Section 4 - How did we get here?
+
 ## 4.1 - The Emergence of the Second Layer of Money and Central Banks
-![video](https://youtu.be/cEon5lVtKZE)
 
 Transcript:
 

@@ -51,8 +51,6 @@ We are in an industry where two main branches are emerging in the "cryptocurrenc
 
 The entire focus of this university is on the Bitcoin universe, not crypto.
 
-![Scams and financial fraud](https://youtu.be/LeyI3CBw2g4)
-
 The cryptocurrency domain, including Bitcoin, remains relatively young and lightly regulated. It is thus rich in various scams. Understanding the dangers and recognizing typical pitfalls is essential. Here are some frequently encountered scam situations:
 
 - Online donations & lotteries
@@ -148,8 +146,6 @@ Always keep in mind that not everyone will necessarily be transparent about thei
 
 ## Online Security
 
-![online security](https://youtu.be/d9Ccy17yWB0)
-
 In addition to cryptocurrency scams and financial scams, the main reason for losing bitcoins is related to poor online security management. It often happens that people use the same password for all their accounts, forget to update their computer, and neglect to regularly back up their data. If you are concerned about these practices, don't worry, it is always possible to improve your online security habits. Here are some basic measures to implement:
 
 - Use a password manager (see the LastPass tutorial),
@@ -190,8 +186,6 @@ Online anonymity is essential for a free and prosperous society. It enables free
 Once again, if you are interested in this topic, the SECU 101 training is available to guide you.
 
 ## Tips for Beginners
-
-![Tips for beginners](https://youtu.be/juMUJ3MWeZY)
 
 Formal education teaches us very little about investing. As a result, we often venture alone into this new and complex investment landscape.
 
@@ -316,8 +310,6 @@ If this is new to you, I strongly encourage you to follow BTC 101 before continu
 
 ## Why is Bitcoin important?
 
-![why is bitcoin so important](https://youtu.be/Iq0wZF3Ui9A)
-
 Why is the importance of Bitcoin so crucial? This is the central question of this university. Whether it concerns your studies or your investment strategy, without a clear understanding of the importance of Bitcoin, you risk deviating from your action plan. The goal is therefore to always keep in mind the fundamentals of Bitcoin, in order to ensure that your strategy remains in line with your convictions.
 
 Barack Obama once described Bitcoin as "a Swiss bank in your pocket". And indeed, Bitcoin offers the same opportunities to everyone, regardless of who you are. Whether you are a teenager, a president, a protester in Hong Kong, or a "yellow vest" in France, everyone has equal access to the same protocol and the same tools:
@@ -388,8 +380,6 @@ The main promoters of Bitcoin today are still primarily cyberpunks, oppressed ci
 Bitcoin has a highly philosophical, ethical, and political dimension while being completely indifferent to these considerations. Indeed, Bitcoin is a simple protocol that reproduces the same process over and over again. It is its users who have turned it into a weapon of liberation against the current financial system. From a Cyberpunk perspective, Bitcoin opposes a cashless society. It allows for the creation of fully private and intermediary-free digital financial transactions. For the cyberpunk movement, Bitcoin is the electronic equivalent of cash.
 
 ## Understanding the Bitcoin Industry
-
-![Understanding the Bitcoin Industry](https://youtu.be/fcXvjghA-uM)
 
 With the arrival of Bitcoin in 2009 by Satoshi Nakamoto, a multi-billion dollar industry was born. Despite its youth, this industry has experienced exponential growth over the past decade. New players arrive every day with large sums of money and are ready to forcefully enter this new industry. Today, the industry has reached a point of no return where governments, banks, internet giants, and others have joined the movement with various interventions.
 

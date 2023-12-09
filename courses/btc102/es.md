@@ -51,8 +51,6 @@ Estamos en una industria donde dos ramas principales están emergiendo en el sec
 
 Toda esta universidad se centra en el mundo de Bitcoin y no en las criptomonedas en general.
 
-![Estafas y fraudes financieros](https://youtu.be/LeyI3CBw2g4)
-
 El campo de las criptomonedas, incluido Bitcoin, sigue siendo relativamente joven y ligeramente regulado. Por lo tanto, está lleno de diversas estafas. Comprender los peligros y reconocer las trampas típicas es esencial. Aquí hay algunas situaciones de estafa que se encuentran con frecuencia:
 
 - Donaciones y loterías en línea
@@ -146,8 +144,6 @@ Siempre ten en cuenta que no todos serán necesariamente transparentes en sus in
 
 ## Seguridad en línea
 
-![seguridad en línea](https://youtu.be/d9Ccy17yWB0)
-
 Además de las estafas relacionadas con criptomonedas y finanzas, la principal razón para perder bitcoins está relacionada con una mala gestión de la seguridad en línea. A menudo, las personas utilizan la misma contraseña para todas sus cuentas, olvidan actualizar su computadora y descuidan hacer copias de seguridad regularmente. Si te sientes preocupado por estas prácticas, no te preocupes, siempre es posible mejorar tus hábitos de seguridad en línea. Aquí hay algunas medidas básicas que debes implementar:
 
 - Utilizar un administrador de contraseñas (ver el tutorial de LastPass),
@@ -188,8 +184,6 @@ El anonimato en línea es esencial para una sociedad libre y próspera. Permite 
 Una vez más, si este tema te interesa, el curso SECU 101 está disponible para acompañarte.
 
 ## Consejos para principiantes
-
-![Consejo para principiantes](https://youtu.be/juMUJ3MWeZY)
 
 La educación formal nos enseña muy poco sobre la inversión. Como resultado, a menudo nos aventuramos solos en este nuevo y complejo paisaje de inversión.
 
@@ -313,8 +307,6 @@ Si esto es nuevo para ti, te animo encarecidamente a seguir BTC 101 antes de seg
 
 ## ¿Por qué Bitcoin es importante?
 
-![por qué Bitcoin es tan importante](https://youtu.be/Iq0wZF3Ui9A)
-
 ¿Por qué la importancia de Bitcoin es tan crucial? Esa es la pregunta central de esta universidad. Ya sea en relación con tus estudios o tu estrategia de inversión, sin una comprensión clara de la importancia de Bitcoin, corres el riesgo de desviarte de tu plan de acción. Por lo tanto, el objetivo es siempre tener en cuenta los fundamentos de Bitcoin para asegurarse de que tu estrategia se mantenga en línea con tus convicciones.
 
 Barack Obama una vez describió a Bitcoin como "un banco suizo en tu bolsillo". Y de hecho, Bitcoin ofrece las mismas oportunidades para todos, independientemente de quién seas. Ya seas un adolescente, un presidente, un manifestante en Hong Kong o un "chaleco amarillo" en Francia, todos tienen acceso igual al mismo protocolo y las mismas herramientas:
@@ -383,8 +375,6 @@ Los principales promotores de Bitcoin en la actualidad siguen siendo principalme
 Bitcoin tiene una dimensión altamente filosófica, ética y política, aunque es completamente indiferente a estas consideraciones. De hecho, Bitcoin es simplemente un protocolo que reproduce el mismo proceso una y otra vez. Son los usuarios quienes lo han convertido en un arma de liberación contra el sistema financiero actual. Desde la perspectiva del movimiento Cyberpunk, Bitcoin se opone a una sociedad sin efectivo. Permite crear transacciones financieras digitales completamente privadas y sin intermediarios. Para el movimiento Cyberpunk, Bitcoin es el equivalente electrónico del dinero en efectivo.
 
 ## Comprender la industria de Bitcoin
-
-![comprender la industria de Bitcoin](https://youtu.be/fcXvjghA-uM)
 
 Con la llegada de Bitcoin en 2009 por Satoshi Nakamoto, nació una industria de varios miles de millones de dólares. A pesar de su juventud, esta industria ha experimentado un crecimiento exponencial en los últimos diez años. Cada día llegan nuevos actores con grandes sumas de dinero y están listos para ingresar con fuerza a esta nueva industria. Hoy en día, la industria ha alcanzado un punto de no retorno donde los gobiernos, los bancos, los gigantes de Internet y otros se han unido al movimiento con todo tipo de intervenciones.
 

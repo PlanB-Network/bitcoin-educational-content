@@ -35,11 +35,10 @@ Seção 2 - O que é inflação?
 - 2.1 - Um fenômeno monetário
 - 2.2 - Os tipos de inflação
 - 2.3 - A deflação
+
 # Seção 2 - O que é inflação?
 
 ## 2.1 - Um fenômeno monetário
-
-![vídeo](https://youtu.be/Hg8L_PIs008)
 
 ### Definições de inflação
 
@@ -203,8 +202,6 @@ Essa análise demonstra que a confiança na moeda, e por extensão seu valor, es
 Ao concluir, este estudo sobre a desvalorização monetária abre caminho para uma compreensão aprofundada dos mecanismos da inflação, que serão explorados nos próximos vídeos. Discutiremos os diferentes tipos de inflação e o limiar em que eles se transformam em inflação alta ou hiperinflação. Essa base sólida nos permitirá abordar as complexidades da inflação nas próximas sessões. Obrigado pela atenção e nos vemos no próximo vídeo para continuar essa exploração das dinâmicas monetárias.
 
 ## 2.2 - Os tipos de inflação
-
-![Vídeo](https://youtu.be/hHk5oV8HsNQ)
 
 ### A inflação não é um fenômeno multifatorial
 
@@ -374,27 +371,10 @@ O que emerge de nossa exploração é que a hiperinflação é um fenômeno comp
 
 Em nossas futuras discussões, mergulharemos mais profundamente na hiperinflação, explorando suas definições e manifestações em diversos contextos econômicos. Nosso objetivo será revelar os mecanismos subjacentes da hiperinflação e explorar soluções potenciais para lidar com ela. Essa compreensão equilibrada nos permitirá entender melhor os desafios associados e propor estratégias informadas para a gestão da inflação.
 Obrigado pela sua atenção. A próxima sessão será totalmente dedicada a definir e desmistificar a hiperinflação, levando em consideração diferentes perspectivas acadêmicas e práticas. Estamos ansiosos para continuar essa exploração com você em nosso próximo encontro.
-## 2.3 - A deflação
-
-Em breve será criado por DAVID
-
-### Tipos de deflação
-
-### A deflação dos anos 30 (estouro da bolha de crédito) (Jeff Booth)
-
-### Deflação do crescimento de 1865 a 1896 (Dr. Philip Bagus)
-
-### Ajuste de salários (Keynes vs Dr. Philip Bagus)
-
-### Se o preço de compra cair mais rápido do que o preço de venda, está tudo bem
-
-### MSM e economistas fiat sempre falam sobre a deflação Fiat
 
 # Seção 3 - O que é hiperinflação?
 
 ## 3.1 - Definições de hiperinflação
-
-![vídeo provisório 3.1](https://youtu.be/qYMR-i7TtHY)
 
 ### Definições de hiperinflação
 
@@ -410,10 +390,10 @@ Essa definição foi adotada na tabela Hanke-Krus, que documenta 56 episódios d
 
 ![imagem](assets/chapitre-3.1/1.png)
 
-zoom
-
 ![imagem](assets/chapitre-3.1/0.PNG)
+
 É importante observar que essa definição, embora precisa, pode possivelmente excluir alguns episódios de hiperinflação devido ao rigor do limite de 50%. Existe a possibilidade de ampliar essa definição para incluir outros episódios que, embora não atendam estritamente ao critério de Cagan, ainda representam períodos de inflação extremamente alta. Essa observação abre caminho para uma exploração mais ampla dos fenômenos de hiperinflação, permitindo uma compreensão mais detalhada de suas causas e efeitos. Nas discussões futuras, consideraremos revisitar essa definição e examinar episódios de hiperinflação não abrangidos pelo critério estrito de Cagan.
+
 ### A Definição de Hiperinflação por Cagan
 
 Philip Cagan, ao definir a hiperinflação, pode ter estabelecido um marco arbitrário com o limite de 50% de inflação mensal. Ele admite que essa definição é arbitrária e serviu principalmente para sua análise baseada em sete episódios de hiperinflação. A análise dos dados de Cagan revela que os três episódios de hiperinflação com as taxas de inflação mensais mais baixas foram em torno de 47%, 46% e 57%. Parece que o limite de 50% foi escolhido para abranger esses casos em seu estudo.
@@ -435,8 +415,11 @@ Philip Cagan, ao definir a hiperinflação, pode ter estabelecido um marco arbit
 Essa reflexão nos leva a questionar a rigidez da definição tradicional de hiperinflação e destaca a necessidade de talvez revisitar esse limite, incorporando mais episódios e dados históricos. A definição de hiperinflação pode exigir flexibilidade para abranger diversas manifestações de inflação extrema em diferentes contextos econômicos e históricos.
 
 ### A Definição de Hiperinflação de acordo com o International Accounting Standards Board (IASB)
+
 Quantos casos de hiperinflação existem atualmente?
+
 Definições comuns de hiperinflação, como a proposta por Kagan, que estabelece uma inflação mensal de 50%, podem às vezes ser confusas ou simplistas. Por exemplo, dois países com taxas de inflação anual de 1.000% e 3.000%, respectivamente, podem ser percebidos de maneira diferente dependendo da distribuição mensal dessa inflação. Se nenhum mês ultrapassar o limite de 50%, de acordo com a definição de Kagan, esses países não estariam em estado de hiperinflação. Essa abordagem pode levar a anomalias na classificação da hiperinflação, especialmente ao comparar inflações acumuladas ao longo do ano.
+
 ![image](assets/chapitre-3.1/7.PNG)
 
 - O trabalho de Kagan, "Monetary Dynamics of Hyperinflation", que estabelece uma análise fundamental da hiperinflação.
@@ -447,8 +430,6 @@ Definições comuns de hiperinflação, como a proposta por Kagan, que estabelec
 É importante observar que alguns períodos históricos de alta inflação não estão presentes nas tabelas clássicas de hiperinflação, muitas vezes devido aos critérios rigorosos de classificação. Por exemplo, durante a Guerra de Independência dos Estados Unidos em novembro de 1779 e durante a Guerra Civil Americana em março de 1864, as taxas de inflação mensal eram de 47,4% e 40%, respectivamente. Essas taxas, embora altas, não ultrapassam o limite de 50% estipulado por Kagan, excluindo assim esses períodos dos casos classificados como hiperinflação. Essa omissão ilustra as limitações das definições rígidas e destaca a necessidade de uma abordagem mais sutil para compreender a hiperinflação em toda a sua complexidade.
 
 ## 3.2 - Semelhanças entre Weimar e Zimbabwe
-
-![Video](https://youtu.be/xqMESvFi7J8)
 
 ### Duas épocas, duas catástrofes
 
@@ -601,10 +582,6 @@ Isso conclui este vídeo sobre as semelhanças das experiências vividas durante
 
 ## 3.3 - Diferenças entre Weimar e Zimbábue e paralelos contemporâneos
 
-![Vídeo](https://youtu.be/jh_MOKDPmQQ)
-
-Transcrição:
-
 Neste capítulo, exploraremos as diferenças e paralelos entre os períodos de hiperinflação passados e contemporâneos, com histórias e comparações relevantes para os dias de hoje.
 
 ### As diferenças entre a República de Weimar e o Zimbábue
@@ -693,8 +670,6 @@ Imagine um cenário em que você tem uma família ou entes queridos que você de
 Hoje, diante da queda do poder de compra, o investimento assume o controle. No entanto, essa abordagem tem seus próprios riscos. A poupança sempre foi um remédio contra a incerteza. Ter reservas financeiras para lidar com situações imprevistas contribui para a paz de espírito e fortalece a coesão social. Em conclusão, a proteção do nosso poder de compra é essencial para manter a estabilidade social e individual.
 
 ## 3.4 - As redenominações na América Latina
-
-![Vídeo](https://youtu.be/m2pcmbEzKyc)
 
 Vamos analisar juntos diferentes períodos de redenominação em países da América Latina.
 
@@ -796,10 +771,10 @@ Em conclusão, a hiperinflação é apenas um aspecto dos desafios econômicos. 
 
 ## 3.5 - Como sair da hiperinflação
 
-![video](https://youtu.be/9PYH7ut3fq0)
-
 ### Como acabar com a inflação moderada e a alta inflação
+
 As conclusões mencionadas são retiradas do livro "Monetary Regime and Inflation" de Bernold. De acordo com o autor, o único método para acabar com a inflação é realizar uma reforma monetária e impor restrições ao governo. Essas restrições envolvem a criação de uma instituição, como um banco central, que opera de forma independente das decisões políticas do governo. A hiperinflação é frequentemente o resultado do financiamento de déficits orçamentários por meio da criação de moeda. Para controlar a inflação moderada, é essencial reduzir o crescimento da oferta monetária. Bernold também sugere que esse crescimento monetário seja relativo aos países vizinhos. Um ponto surpreendente é que, durante períodos de alta ou hiperinflação, o valor total da oferta monetária pode realmente diminuir. Um exemplo marcante dessa situação é o do Zimbábue.
+
 ### Soluções contra-intuitivas
 
 Ao estudar o caso do Zimbábue, foi observado que 10 trilhões de unidades monetárias perderam todo o seu valor. Em Weimar, era possível imprimir dois terços do total nominal de 65 bilhões de unidades monetárias em um único dia. Isso mostra o quanto a oferta monetária pode ser desvalorizada. Para remediar essa situação, é necessário aumentar significativamente a oferta monetária para que ela atinja um nível apropriado. Em seguida, uma reforma monetária é indispensável. Em situações de alta inflação, essa reforma é inevitável, mas ela deve garantir que haja dinheiro suficiente em circulação. Após essa etapa, restrições podem ser impostas ao governo.
@@ -810,6 +785,7 @@ Um aspecto interessante levantado por Bernold é que o sucesso de uma reforma mo
 
 - No Zimbábue, a solução adotada para combater a inflação foi a dolarização, o que significa que eles adotaram o dólar americano ou outras moedas de países vizinhos. Essa abordagem impede o governo de imprimir moeda à vontade.
 - Na Alemanha, a solução foi criar uma nova moeda, o Rentenmark. Essa moeda estava lastreada nos ativos territoriais do Reich, e essa estratégia se mostrou eficaz.
+
 ### O caso do Zimbábue
 
 ![image](assets/chapitre-3.5/1.PNG)
@@ -844,15 +820,12 @@ A principal coisa a se lembrar é que existem várias estratégias para sair da 
 
 ## 3.6 - Apresentação da coleção de notas de hiperinflação
 
-![vídeo](https://youtu.be/h1uwR3Yge1M)
 
 O link para a coleção digitalizada está disponível no Bitcoin Educational Toolkit, acessível na seção Recursos da plataforma.
 
 # Seção 4 - Como chegamos até aqui?
-## 4.1 - O surgimento da segunda camada monetária e dos bancos centrais
-![video](https://youtu.be/cEon5lVtKZE)
 
-Transcrição:
+## 4.1 - O surgimento da segunda camada monetária e dos bancos centrais
 
 O surgimento da segunda camada monetária e dos primeiros bancos centrais é um assunto fascinante. Esse tema é amplamente abordado no livro "Layered Money" de Nick Battia. Eu o recomendo fortemente para aqueles que estão interessados na evolução e nas sutilezas dos nossos sistemas monetários. O objetivo desta seção é entender a origem da criação monetária e como isso pode levar à hiperinflação.
 
@@ -886,12 +859,14 @@ Durante o século XVII, a Inglaterra estava envolvida em várias guerras e preci
 Essas notas bancárias eram inicialmente lastreadas por depósitos de ouro e prata no banco. No entanto, à medida que o banco emitia mais notas do que tinha em reservas, a confiança nas notas começou a diminuir. Para resolver esse problema, o Banco da Inglaterra adotou uma política de "emissão fiduciária", em que as notas eram lastreadas apenas pela confiança do público no banco.
 
 Essa mudança foi fundamental para o desenvolvimento do sistema bancário moderno. O Banco da Inglaterra se tornou o modelo para outros bancos centrais ao redor do mundo, e o sistema de emissão fiduciária se tornou a base para a criação de moeda fiduciária.
+
 A criação do Banco da Inglaterra foi motivada pela necessidade de financiar a guerra no final do século XVII. Assim como o Banco de Amsterdã, ele impôs depósitos por decreto. A peculiaridade do Banco da Inglaterra foi relegar os bancos privados a uma posição secundária no sistema monetário, criando assim o que poderíamos chamar de uma "terceira camada" de moeda.
 Inicialmente, a primeira camada de moeda era representada pelo ouro. Os depósitos feitos nos bancos privados formavam a segunda camada. No entanto, quando esses depósitos não podiam mais ser convertidos em ouro, uma terceira camada de moeda surgiu. Agora, as notas emitidas pelos bancos privados não eram mais conversíveis em ouro, mas em papel-moeda do Banco da Inglaterra, que por sua vez era conversível em ouro. Essa evolução levou a uma complexificação do sistema monetário com a adição de camadas adicionais.
 
 #### O pânico de 1796
 
 ![image](assets/chapitre-4.1/6.png)
+
 Pânico bancário no banco Seamen's Savings durante o pânico de 1857.
 
 Após o pânico bancário de 1796, ocorreu um fenômeno em que todos buscavam subir a "pirâmide da moeda". As pessoas queriam trocar sua moeda de terceira camada pela da segunda camada e, finalmente, pela moeda de primeira camada, o ouro. Diante dessa corrida em massa, o Banco da Inglaterra foi obrigado a agir para estabilizar a situação. Para evitar uma possível deflação das reservas de ouro, ele decidiu suspender a conversibilidade de suas notas bancárias em ouro. Essa suspensão, inicialmente concebida como uma medida temporária, durou duas décadas.

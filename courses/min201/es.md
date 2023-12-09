@@ -58,8 +58,6 @@ Sección Práctica: Attakai
 
 ## Explicación de la minería
 
-![¿Qué es la minería de bitcoin?](https://www.youtube.com/watch?v=neEQzEQzmPQ)
-
 ### La Minería Explicada: La Analogía del Rompecabezas
 
 Para explicar de manera simplificada el concepto de la minería, se puede utilizar una analogía relevante: la del rompecabezas. Al igual que un rompecabezas, la minería es una tarea compleja de realizar, pero fácil de verificar una vez completada. En el contexto de la minería de Bitcoin, los mineros se esfuerzan por resolver rápidamente un rompecabezas digital. El primer minero en resolver el rompecabezas presenta su solución a toda la red, que luego puede verificar fácilmente su validez. Esta verificación exitosa permite al minero validar un nuevo bloque y agregarlo a la cadena de bloques de Bitcoin. Como reconocimiento a su trabajo, que implica costos significativos, el minero es recompensado con una cierta cantidad de bitcoins. Esta recompensa es un incentivo financiero para que los mineros continúen su trabajo de validación de transacciones y seguridad de la red Bitcoin.
@@ -97,10 +95,11 @@ En cuanto a la evolución de las máquinas de minería de Bitcoin, es importante
 Ante la constante evolución tecnológica en el campo de la minería, los profesionales deben posicionarse estratégicamente. La industria minera está sujeta a continuas innovaciones, como lo demuestra el reciente lanzamiento de la versión J del S19 y la próxima versión anticipada del S19 XP, que ofrecen capacidades de minería significativamente superiores. Además, las mejoras no se limitan solo al rendimiento bruto de las máquinas. Por ejemplo, el nuevo modelo S19 XP utiliza un sistema de enfriamiento líquido, una modificación técnica que permite una mejora significativa en la eficiencia energética. Aunque la innovación sigue siendo constante, es probable que las futuras ganancias de eficiencia sean menores en comparación con las observadas hasta ahora, debido a la alcanzada de un cierto umbral de innovación tecnológica.
 
 ![image](assets/overview/chipevolution.png)
+
 En conclusión, la industria de la minería de Bitcoin continúa adaptándose y desarrollándose, los actores del campo deben anticipar ganancias de eficiencia más limitadas en el futuro y ajustar sus estrategias en consecuencia. Los avances tecnológicos futuros, aunque aún presentes, probablemente se producirán a una escala más reducida, reflejando una madurez creciente del sector.
+
 ## La industria de la minería
 
-![¿La minería de Bitcoin demasiado centralizada? Riesgos y soluciones](https://www.youtube.com/watch?v=xkiY8DgkcLQ)
 
 ### Los Pools de Minería
 
@@ -148,9 +147,8 @@ La conclusión general es que la descentralización es crucial para la seguridad
 
 ## Las sutilezas de la industria minera
 
-![¿Calentar tu hogar minando bitcoins?](https://www.youtube.com/watch?v=SQaK4_8M0kA)
-
 ### El principio de Attakai
+
 En el contexto actual, la práctica de la minería de Bitcoin en S9 puede parecer compleja, pero un análisis más profundo abre el camino a alternativas innovadoras. El principio de Attakai se basa en una reflexión sobre el uso de instalaciones mineras en diversos tipos de edificios, como escuelas u hospitales. La idea principal es colocar algunas máquinas mineras en diferentes lugares, lo que permite reutilizar el calor emitido por estas máquinas para calentar los establecimientos. Al optar por modelos más eficientes como el S19, sería posible distribuir la actividad minera, favoreciendo así un mejor rendimiento general y contribuyendo de manera útil a la sociedad. Esta iniciativa tiene como objetivo competir con las grandes instalaciones mineras centralizadas utilizando el calor generado por las máquinas mineras de manera productiva y eficiente.
 
 La iniciativa Attakai surge de una experimentación personal de minería en el hogar realizada por dos amigos que deseaban participar activamente en la red de Bitcoin. Se encontraron con obstáculos importantes, como el alto nivel de ruido de los equipos de minería, diseñados para uso industrial y no doméstico. Para solucionar este problema, se realizaron modificaciones de hardware a las máquinas mineras. Se reemplazaron los equipos originales por ventiladores más eficientes y silenciosos, lo que hizo que la minería en el hogar fuera más accesible y menos molesta. Además, la adición de un adaptador Wi-Fi eliminó la necesidad de una conexión Ethernet por cable, simplificando aún más el proceso de minería en el hogar. En invierno, estos mineros modificados se utilizaron como fuente de calefacción, convirtiendo una molestia en un beneficio.
@@ -177,11 +175,11 @@ En cuanto a la cuestión de qué se debe incluir en un bloque de Bitcoin, es cru
 Con el crecimiento previsto de la Lightning Network y el consiguiente aumento en la apertura y cierre de canales, el espacio en los bloques de Bitcoin se volverá cada vez más valioso. La comunidad de Bitcoin tiende a valorar la preservación de este espacio, reconociendo su limitación intrínseca. Esta conciencia ha dado lugar a discusiones sobre el uso legítimo o no del espacio de los bloques, con preocupaciones sobre el "spam" en la cadena de bloques mediante transacciones consideradas no esenciales.
 
 ![image](assets/overview/block.png)
+
 La especulación rodea el uso futuro del espacio de bloques, pero generalmente se acepta que es un recurso escaso que debe utilizarse de manera prudente. Aunque existe el deseo de llenarlo, es esencial preservarlo para garantizar la viabilidad a largo plazo de la red de Bitcoin, anticipando un aumento futuro en la demanda de espacio en los bloques. Como en cualquier mercado libre, la oferta y la demanda regularán el uso del espacio de bloques. Con una oferta limitada, las partes interesadas deberán tomar decisiones informadas sobre el uso de este valioso espacio para garantizar la eficiencia y la seguridad a largo plazo de la red de Bitcoin.
 
 ## La minería en el protocolo de Bitcoin
 
-![¿Quién tiene el poder? Bitcoin, energía y fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
 El papel de los mineros en la red de Bitcoin ha sido objeto de intenso debate durante la guerra de bloques. Aunque son esenciales para la seguridad y funcionalidad de la red, los mineros no necesariamente tienen el poder supremo en el ecosistema de Bitcoin. El equilibrio entre los mineros, los nodos y los usuarios finales garantiza la integridad y distribución de la red.
 
@@ -240,12 +238,6 @@ Con la cuestión del potencial de prohibición de la minería en Europa, las dis
 Frente a campañas como las de Greenpeace y las cifras a menudo engañosas de algunos estudios, la mejor arma sigue siendo la información verídica. Es esencial informar al público en general y a los tomadores de decisiones sobre la realidad de la minería, su complejidad y sus matices, en lugar de permitirles basarse en estereotipos e información inexacta. Cuantas más personas estén informadas y sean conscientes de lo que realmente es la minería, mejor podrá defenderse la industria contra posibles regulaciones restrictivas.
 
 En conclusión, a pesar del riesgo regulatorio y la posibilidad de una prohibición de la minería en Europa, la arma más poderosa sigue siendo la educación y la información. Una comprensión clara y precisa de la minería, su funcionamiento y su impacto puede ayudar a desmitificar la industria y combatir la desinformación, ofreciendo así una mejor resistencia a las regulaciones potencialmente perjudiciales. La iniciativa de formar e informar a las personas sobre la minería, como lo hace esta discusión, es un paso en la dirección correcta para garantizar la sostenibilidad y el crecimiento de la minería en Europa y en todo el mundo. Los esfuerzos continuos para educar e informar son esenciales para asegurar un futuro seguro y próspero para la industria de la minería de Bitcoin.
-
-## Entrevista a un profesional de la industria minera
-
-### Detrás de escena de la minería industrial - Sebastien Gouspillou
-
-![Detrás de escena de la minería industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Minería en casa y reutilización del calor
 
@@ -352,6 +344,7 @@ Para resumir esta guía en una frase: **"No confíes, verifica"**.
 ## Guía de compra de piezas para modificaciones de hardware del S9
 
 ![Introducción a Attakaï: calentarse con Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
+
 Propietario de un Antminer S9, probablemente sepas lo ruidoso y voluminoso que puede ser este equipo. Sin embargo, es posible convertirlo en una calefacción silenciosa y conectada siguiendo algunos pasos simples. En esta sección, te presentaremos los equipos necesarios para realizar las modificaciones.
 Si eres un hábil manitas y estás buscando convertir un minero en una calefacción, este tutorial es para ti. Queremos advertirte que las modificaciones realizadas a un dispositivo electrónico pueden presentar riesgos eléctricos. Por lo tanto, es esencial tomar todas las precauciones necesarias para evitar cualquier daño o lesión.
 

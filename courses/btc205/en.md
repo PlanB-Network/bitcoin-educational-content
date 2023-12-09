@@ -18,14 +18,11 @@ We will therefore explore the different types of KYC (full KYC type France, KYC 
 
 # Introduction
 
-![introduction by Rogzy](https://youtu.be/3AHeKLTK7Sg)
-
 ## Explanation & Type of KYC
-
-![explanation of KYC types](https://youtu.be/kDhXoPU1KtM)
 
 KYC, or "Know Your Customer," is a regulatory standard that requires the collection of private customer information, such as their physical address, identification, or bank statements. This practice is common on brokerage platforms, which may require a complete KYC, including detailed information such as identification, a photo, proof of address, salary sheets, etc.
 The main objective of KYC is to combat money laundering, terrorism financing, and tax evasion. It is a law put in place by the AMF (Autorité des marchés financiers), the French market regulatory body. However, the application of KYC leads to the centralization of very sensitive databases containing personal user information. This information, having a certain value, can be sold to malicious entities.
+
 In addition, exchange platforms often require an excessive amount of personal information, putting users at risk and increasing compliance costs. These regulatory costs can discourage French businesses and harm their competitiveness on an international scale.
 
 There are three types of KYC, including full KYC which requires a complete and regulated collection of information to access the service. In Switzerland, an alternative called "KYC light" allows for the purchase and sale of bitcoins without providing identification, as long as the purchase amount does not exceed 1000 euros per day. Solutions like Relay allow for the use of this method.
@@ -43,8 +40,6 @@ It is important to note that this training presents various alternatives, as wel
 It is also important to note that the information presented here does not endorse any particular solution. It simply presents the available options for a better understanding of the subject. For any additional questions about Bitcoin, do not hesitate to consult online resources such as www.découvrebitcoin.com.
 
 ## Comparison of peer-to-peer buying and selling solutions
-
-![Comparison of peer-to-peer buying and selling solutions](https://youtu.be/HiwSjN04Mz0)
 
 P2P Solutions for Buying Bitcoin: Bisq, RoboSat, LNP2PBot, Peach, and HodlHodl
 
@@ -259,8 +254,6 @@ site: https://peachbitcoin.com/
 
 We are looking in detail at this solution in BTC 205 offered by @pivi\_, here are the tutorial videos:
 
-![peach](https://youtu.be/ziwhv9KqVkM)
-
 [Peach](https://peachbitcoin.com/) is a Swiss mobile application that allows you to buy and sell bitcoins peer-to-peer. This easy-to-use solution offers an intuitive interface, ideal for cryptocurrency transactions.
 
 The Peach application interface consists of four tabs: buy, sell, history, and settings. (Screenshot of the application interface)
@@ -277,8 +270,6 @@ In summary, the Peach mobile application offers an accessible solution for buyin
 ## Hold Hodl
 
 [HodlHodl](https://hodlhodl.com/) is a decentralized Bitcoin marketplace that prioritizes user control and security. Unlike traditional exchanges, it operates on a peer-to-peer model, allowing for direct exchanges between users. With its multi-signature escrow system, Hodl Hodl guarantees the security of funds during transactions. The platform also supports various payment methods and offers trading options such as contracts for difference (CFD).
-
-![hodlhodl tutorial](https://youtu.be/BDH9jE7kpD8)
 
 In this tutorial, we explain how to buy and sell bitcoins peer-to-peer on the HodlHodl platform.
 
@@ -315,8 +306,6 @@ Creating an offer to buy or sell bitcoins on HodlHodl is done as follows:
 
 ## Bonus: Side Shift.AI
 
-![SideShift AI](https://youtu.be/xG8Wc1Ti5b8)
-
 Here's a brief tutorial on using [SideShift AI](https://sideshift.ai/), a very useful tool for converting shitcoins to bitcoin. It's the ideal tool for those who have closed all their personal exchanges. No order system is required, and liquidity is available. However, please note that there is a 2.5% transaction fee.
 
 If you bought cryptos in a KYC manner, it is recommended to use Monero to convert these cryptos to bitcoin. Monero offers greater privacy than Bitcoin. For increased security, the CoinJoin operation is also recommended. CoinJoin mixes your transactions with those of other users to complicate the traceability of your transactions.
@@ -335,8 +324,6 @@ A rating system for the course will soon be integrated into this new E-learning 
 
 ## Interview with Steph from Peach Bitcoin
 
-![interview with Steph](https://youtu.be/LRGKD8qNSXw)
-
 Here is a summary of the interview:
 
 Peach Bitcoin is a non-custodial mobile application that allows for peer-to-peer buying and selling of Bitcoin. Currently, the Peach Bitcoin team, based in Switzerland, consists of eight members and is working to evolve the application to also serve as a wallet. Peach Bitcoin's unique model is based on a centralized company structure while maintaining a decentralized order book. Additionally, the application offers an option for cash transactions during in-person meetings.
@@ -351,7 +338,6 @@ In conclusion, the founder of Peach Bitcoin emphasizes the importance of competi
 
 ## Interview with Pierre
 
-![interview with Pierre](https://youtu.be/COoezuJncm8)
 Here is a summary of the interview:
 
 This interview concludes the Bitcoin 205 training which addresses the subject of peer-to-peer Bitcoin purchasing solutions. Organized by Pierre, this training aims to educate the French-speaking public on the technical solutions for peer-to-peer Bitcoin purchasing, a field that has been neglected until now. Thanks to the progress made, it is now possible to buy and use Bitcoin while preserving one's privacy, even with a simple phone and the Telegram application.

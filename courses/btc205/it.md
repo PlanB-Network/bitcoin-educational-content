@@ -18,27 +18,27 @@ Esploreremo quindi i diversi tipi di KYC (full KYC tipo Francia, KYC Light tipo 
 
 # Introduzione
 
-![introduzione di Rogzy](https://youtu.be/3AHeKLTK7Sg)
-
 ## Spiegazione e tipo di KYC
 
-![spiegazione dei tipi di KYC](https://youtu.be/kDhXoPU1KtM)
-
 Il KYC, per "Know Your Customer" (Conosci il tuo cliente), è una norma regolamentare che richiede la raccolta di informazioni private dei clienti, come il loro indirizzo fisico, il documento d'identità o i loro estratti conto bancari. Questa pratica è comune sulle piattaforme di intermediazione, che possono richiedere un KYC completo, comprendente informazioni dettagliate come un documento d'identità, una foto, una prova di residenza, schede di stipendio, ecc.
+
 L'obiettivo principale del KYC è combattere il riciclaggio di denaro, il finanziamento del terrorismo e l'evasione fiscale. Si tratta di una legge introdotta dall'AMF (Autorità dei mercati finanziari), l'organo di regolamentazione del mercato francese. Tuttavia, l'applicazione del KYC comporta la centralizzazione di basi di dati molto sensibili contenenti informazioni personali degli utenti. Queste informazioni, avendo un certo valore, possono essere vendute a entità malintenzionate.
+
 Inoltre, le piattaforme di scambio spesso richiedono una quantità eccessiva di informazioni personali, mettendo così gli utenti in pericolo e aumentando i costi di conformità. Questi costi regolamentari possono scoraggiare le imprese francesi e danneggiare la loro competitività a livello internazionale.
 Esistono tre tipi di KYC, tra cui il full KYC che richiede una raccolta completa e regolamentata di informazioni per accedere al servizio. In Svizzera, un'alternativa chiamata "KYC light" consente l'acquisto e la vendita di bitcoin senza fornire un documento d'identità, purché l'importo di acquisto non superi i 1000 euro al giorno. Soluzioni come Relay consentono di utilizzare questo metodo.
+
 In questo contesto, le autorità svizzere possono accedere alle informazioni bancarie per indagare sulle persone considerate a rischio. Gli indirizzi di consegna dei bitcoin sono anche tracciabili tramite il sistema bancario. Il KYC light è generalmente considerato più semplice e meno costoso del sistema francese.
+
 In Francia, l'acquisto di bitcoin online richiede l'invio di denaro a un terzo, tramite bonifico SEPA o Paypal. Per coloro che preferiscono l'anonimato, la sicurezza e la privacy, sono disponibili anche soluzioni per l'acquisto di bitcoin in contanti. Per volumi bassi, l'acquisto di bitcoin in contanti è un'opzione semplice e legale.
 
 Per poter vendere quotidianamente PLT di 100 euro di bitcoin a chiunque, è necessaria una regolamentazione da parte dell'AMF (Autorité des Marchés Financiers). In Francia, questa regolamentazione si applica principalmente ai privati che effettuano volumi elevati di transazioni. Le altre due modalità di acquisto di bitcoin includono l'uso di sportelli automatici (ATM) e gli scambi tra amici. Gli ATM sono regolamentati e richiedono un documento d'identità per transazioni superiori a 500 euro. Lo scambio tra amici, invece, offre un'esposizione al bitcoin in modo più discreto.
+
 Queste misure regolatorie sono in atto per contrastare il finanziamento del terrorismo, l'evasione fiscale e il riciclaggio di denaro. Il bitcoin, come database completamente tracciabile, rende il riciclaggio di denaro particolarmente difficile. L'uso di Bitcoin da parte dei criminali può essere rintracciato, il che rende il Bitcoin uno strumento poco efficace per il riciclaggio di denaro.
+
 È importante notare che questa formazione presenta diverse alternative, nonché strumenti che possono essere utilizzati per scopi malintenzionati o meno. Inoltre, offre spiegazioni sul funzionamento degli order book tra i makers (fornitori di ordini) e i takers (prenditori di ordini).
 È anche importante notare che le informazioni presentate qui non sostengono alcuna soluzione in particolare. Si tratta semplicemente di presentare le opzioni disponibili per una migliore comprensione dell'argomento. Per ulteriori domande sul Bitcoin, non esitate a consultare risorse online come www.découvrebitcoin.com.
 
 ## Confronto delle soluzioni di acquisto-vendita peer-to-peer
-
-![confronto delle soluzioni di acquisto-vendita P2P](https://youtu.be/HiwSjN04Mz0)
 
 Soluzioni P2P per l'acquisto di Bitcoin: Bisq, RoboSat, LNP2PBot, Peach e HodlHodl
 
@@ -252,8 +252,6 @@ sito: https://peachbitcoin.com/
 
 Esamineremo in dettaglio questa soluzione in BTC 205 offerto da @pivi\_, ecco i video tutorial:
 
-![pesca](https://youtu.be/ziwhv9KqVkM)
-
 [Peach](https://peachbitcoin.com/) è un'applicazione mobile svizzera che consente di acquistare e vendere Bitcoin peer-to-peer. Questa soluzione facile da usare offre un'interfaccia intuitiva, ideale per le transazioni in criptovalute.
 
 L'interfaccia dell'applicazione Peach è composta da quattro schede: acquista, vendi, cronologia e impostazioni. (Screenshot dell'interfaccia dell'applicazione)
@@ -268,8 +266,6 @@ In sintesi, l'applicazione mobile Peach offre una soluzione accessibile per acqu
 ## Hold Hodl
 
 [HodlHodl](https://hodlhodl.com/) è un mercato decentralizzato di Bitcoin che dà la priorità al controllo e alla sicurezza degli utenti. A differenza delle borse tradizionali, funziona secondo un modello peer-to-peer, consentendo scambi diretti tra gli utenti. Grazie al suo sistema di escrow multi-firma, Hodl Hodl garantisce la sicurezza dei fondi durante le transazioni. La piattaforma supporta anche diversi metodi di pagamento e offre opzioni di trading come i contratti per differenza (CFD).
-
-![hodlhodl tutorial](https://youtu.be/BDH9jE7kpD8)
 
 In questo tutorial, ti spieghiamo come acquistare e vendere bitcoin peer-to-peer sulla piattaforma HodlHodl.
 
@@ -305,8 +301,6 @@ La creazione di un'offerta di acquisto o vendita di bitcoin su HodlHodl avviene 
 
 ## Bonus: Side Shift.AI
 
-![SideShift AI](https://youtu.be/xG8Wc1Ti5b8)
-
 Ecco un breve tutorial sull'utilizzo di [SideShift AI](https://sideshift.ai/), uno strumento molto utile per convertire shitcoin in bitcoin. È lo strumento ideale per coloro che hanno chiuso tutti i loro exchange personali. Non è necessario alcun sistema di ordine e sono disponibili liquidità. Tuttavia, si prega di notare che ci sono commissioni del 2,5% per transazione.
 
 Se hai acquistato criptovalute in modo KYC, è consigliabile utilizzare Monero per convertire queste criptovalute in bitcoin. Monero offre una maggiore privacy rispetto a Bitcoin. Per una maggiore sicurezza, è anche consigliata l'operazione di CoinJoin. CoinJoin mescola le tue transazioni con quelle di altri utenti per complicare la tracciabilità delle tue transazioni.
@@ -325,8 +319,6 @@ Un sistema di valutazione per la formazione sarà presto integrato in questa nuo
 
 ## Intervista a Steph di Peach Bitcoin
 
-![intervista a steph](https://youtu.be/LRGKD8qNSXw)
-
 Ecco un riassunto dell'intervista:
 
 Peach Bitcoin è un'applicazione mobile non custodiale che consente l'acquisto e la vendita di Bitcoin peer-to-peer. Attualmente, il team di Peach Bitcoin, con sede in Svizzera, è composto da otto membri e sta lavorando per far evolvere l'applicazione in modo che funga anche da portafoglio. Il modello unico di Peach Bitcoin si basa su una struttura aziendale centralizzata, pur mantenendo un libro degli ordini decentralizzato. Inoltre, l'applicazione offre un'opzione per le transazioni in contanti durante gli incontri di persona.
@@ -341,7 +333,6 @@ In conclusione, la fondatrice di Peach Bitcoin sottolinea l'importanza della con
 
 ## Intervista a Pierre
 
-![intervista a Pierre](https://youtu.be/COoezuJncm8)
 Ecco un riassunto dell'intervista: Questa intervista conclude la formazione Bitcoin 205 che tratta delle soluzioni di acquisto peer-to-peer di Bitcoin. Organizzata da Pierre, questa formazione ha lo scopo di educare il pubblico francofono sulle soluzioni tecniche di acquisto peer-to-peer di Bitcoin, un campo fino ad ora trascurato. Grazie ai progressi compiuti, è ora possibile acquistare e utilizzare Bitcoin preservando la propria privacy, anche con un semplice telefono e l'applicazione Telegram.
 
 Uno dei metodi evidenziati è l'uso di CoinJoin con Samouraï per rafforzare la sicurezza. Questa soluzione consente di minimizzare i rischi legati alle entità centralizzate che detengono informazioni personali sugli utenti di Bitcoin. Si consiglia di acquistare Bitcoin in non-kyc, un metodo che consente di rafforzare l'anonimato. Inoltre, alcune piattaforme di scambio come Kraken offrono commissioni di prelievo più basse rispetto ad altre, il che va nella direzione dei principi di Bitcoin.

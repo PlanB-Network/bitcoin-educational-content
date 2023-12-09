@@ -38,8 +38,6 @@ Se sei pronto a intraprendere questa avventura, ti invito a cliccare sul seguent
 
 ## Denaro, Credito, Banche e Banche Centrali
 
-![Spiegazione del sistema bancario tradizionale](https://youtu.be/pz0RxlXNs7Y)
-
 > "Il problema fondamentale della valuta convenzionale è tutta la fiducia che è necessaria per farla funzionare. La banca centrale deve essere affidabile e non svalutare la valuta, ma la storia delle valute fiat è piena di violazioni di questa fiducia. Le banche devono essere affidabili nel custodire i nostri soldi e trasferirli elettronicamente, ma li prestano in onde di bolle di credito con appena una frazione in riserva. Dobbiamo fidarci di loro per la nostra privacy, fidarci che non lascino che i ladri di identità svuotino i nostri conti."
 >
 > Satoshi Nakamoto, inventore pseudonimo di Bitcoin
@@ -132,8 +130,6 @@ Nel prossimo capitolo, approfondiremo la pietra angolare fondamentale di qualsia
 >
 > Carl Menger, Principi di Economia Politica
 
-![Introduzione all'Economia Austriaca](https://youtu.be/ZSDCepNNacI)
-
 ### La Rivoluzione Marginale
 
 Alla base del ragionamento economico si pone la questione del valore. Come determiniamo il valore di qualcosa? Il valore è una proprietà intrinseca delle cose? O è, al contrario, un fenomeno soggettivo? Come confrontiamo il valore di due cose? Da dove proviene il valore?
@@ -208,8 +204,6 @@ Basandosi sulle intuizioni del valore ordinale soggettivo, Menger ha spiegato l'
 I capitoli successivi saranno dedicati all'emergere del denaro come fenomeno sociale, alla teoria del capitale e dell'interesse, che servirà da base per la Teoria del Ciclo Economico, e infine al ruolo dei prezzi per il calcolo economico.
 
 ## L'emergere del denaro come fenomeno sociale
-
-![Denaro](https://youtu.be/Dt8ounex2jg)
 
 Sebbene gli individui abbiano un interesse comune nella specializzazione e nella massimizzazione della divisione del lavoro, ci sono comunque problemi di coordinamento che limitano questa espansione.
 
@@ -360,8 +354,6 @@ Questo è ciò che scopriremo nel prossimo capitolo dedicato alla Teoria Austria
 
 ## La Teoria Austriaca del Ciclo Economico
 
-![Cicli Economici per la Scuola Austriaca](https://youtu.be/CrPE6mcOjx4)
-
 > "Più a lungo continua il boom del credito bancario inflazionistico, maggiore è l'ampiezza delle cattive investimenti in beni di capitale e maggiore è la necessità di liquidare questi investimenti insani. Quando l'espansione del credito si ferma, si inverte o anche rallenta significativamente, i cattivi investimenti vengono rivelati"
 >
 > Ludwig von Mises
@@ -434,8 +426,6 @@ Questo sarà l'argomento del prossimo e ultimo capitolo di questo corso.
 
 ## L'Impossibilità del Calcolo Economico nel Socialismo
 
-![L'Impossibilità del Calcolo Economico in un Sistema Socialista](https://youtu.be/E-9Fl6eg-mo)
-
 > "Dove non ci sono prezzi di mercato per i fattori di produzione perché non vengono né comprati né venduti, è impossibile ricorrere al calcolo nella pianificazione dell'azione futura e nel determinare il risultato dell'azione passata. Una gestione socialista della produzione semplicemente non saprebbe se ciò che pianifica ed esegue è il mezzo più appropriato per raggiungere gli scopi desiderati. Opererà nel buio, per così dire. Sprecherà i fattori di produzione scarsa, sia materiali che umani (lavoro). Il caos e la povertà per tutti saranno inevitabilmente il risultato"
 >
 > Ludwig von Mises, Planned Chaos
@@ -502,8 +492,6 @@ Gli economisti mainstream e i pianificatori centrali spesso non gradiscono gli e
 La tradizione austriaca incarna un approccio umile all'azione umana, trae profonde implicazioni dai concetti di valore soggettivo, incertezza, libero arbitrio e complessità. Spiega come l'ordine di mercato, nonostante non sia un prodotto del disegno umano, si ponga come l'istituzione centrale per il nostro sviluppo e prosperità. Se c'è un concetto chiave da trarre da questo corso, è che il capitalismo è diventato il sistema economico dominante grazie alla sua capacità di adattarsi ai cambiamenti in un mondo dinamico e incerto popolato da individui liberi.
 
 ## La Metodologia Austriaca
-
-![la metodologia austriaca](https://youtu.be/hMyYGwU76dI)
 
 La scuola austriaca di economia si distingue dalle altre scuole per la sua metodologia deduttiva-assiomatica, che si differenzia dall'approccio positivista spesso utilizzato nelle scienze sociali. L'approccio positivista si basa su leggi stabilite da dati empirici, adottando un metodo simile a quello delle scienze fisiche. Formula ipotesi da osservazioni, che vengono poi confermate o confutate da esperimenti temporanei. Il metodo scientifico consiste nel mantenere l'ipotesi che spiega meglio i dati e continuare ad esplorarla fino a trovare un'ipotesi più precisa.
 

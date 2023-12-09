@@ -38,8 +38,6 @@ Wenn Sie bereit sind, sich auf dieses Abenteuer einzulassen, lade ich Sie ein, a
 
 ## Geld, Kredit, Banken und Zentralbanken
 
-![Erklärung des traditionellen Bankensystems](https://youtu.be/pz0RxlXNs7Y)
-
 > "Das grundlegende Problem mit konventioneller Währung ist das Vertrauen, das erforderlich ist, um sie funktionieren zu lassen. Der Zentralbank muss vertraut werden, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voller Vertrauensbrüche. Den Banken muss vertraut werden, dass sie unser Geld halten und elektronisch übertragen, aber sie verleihen es in Wellen von Kreditblasen mit kaum einem Bruchteil als Reserve. Wir müssen ihnen in Bezug auf unsere Privatsphäre vertrauen, ihnen vertrauen, dass sie Identitätsdieben nicht erlauben, unsere Konten zu leeren."
 >
 > Satoshi Nakamoto, pseudonymer Erfinder von Bitcoin
@@ -133,8 +131,6 @@ Im nächsten Kapitel werden wir uns mit dem grundlegenden Eckpfeiler jeder wirts
 >
 > Carl Menger, Grundsätze der Volkswirtschaftslehre
 
-![Einführung in die Österreichische Schule der Nationalökonomie](https://youtu.be/ZSDCepNNacI)
-
 ### Die Grenznutzentheorie
 
 Der Kern des wirtschaftlichen Denkens liegt in der Frage des Wertes. Wie bestimmen wir den Wert von etwas? Ist Wert eine inhärente Eigenschaft von Dingen? Oder handelt es sich im Gegenteil um ein subjektives Phänomen? Wie vergleichen wir den Wert von zwei Dingen? Woher kommt der Wert?
@@ -210,8 +206,6 @@ Aufbauend auf den Erkenntnissen des subjektiven ordinalen Werts erklärte Menger
 Die folgenden Kapitel werden sich mit dem Entstehen von Geld als soziale Institution, der Theorie des Kapitals und des Zinses, die als Grundlage für die Theorie des Konjunkturzyklus dienen wird, und schließlich der Rolle der Preise für die wirtschaftliche Berechnung befassen.
 
 ## Das Entstehen von Geld als soziales Phänomen
-
-![Geld](https://youtu.be/Dt8ounex2jg)
 
 Obwohl Individuen ein gemeinsames Interesse an Spezialisierung und Maximierung der Arbeitsteilung haben, gibt es dennoch Koordinationsprobleme, die diese Expansion begrenzen.
 
@@ -361,8 +355,6 @@ Dies werden wir im nächsten Kapitel, das der österreichischen Theorie des Konj
 
 ## Die österreichische Theorie des Konjunkturzyklus
 
-![Wirtschaftszyklen für die österreichische Schule](https://youtu.be/CrPE6mcOjx4)
-
 > "Je länger der Boom der inflationären Bankkredite anhält, desto größer ist der Umfang der Fehlinvestitionen in Sachkapital und desto größer ist die Notwendigkeit der Liquidation dieser unsoliden Investitionen. Wenn die Kreditausweitung stoppt, sich umkehrt oder sogar signifikant verlangsamt, werden die Fehlinvestitionen offenbart."
 >
 > Ludwig von Mises
@@ -431,8 +423,6 @@ Dies wird das Thema des nächsten und letzten Kapitels dieses Kurses sein.
 
 ## Die Unmöglichkeit der wirtschaftlichen Berechnung im Sozialismus
 
-![Die Unmöglichkeit der wirtschaftlichen Berechnung in einem sozialistischen System](https://youtu.be/E-9Fl6eg-mo)
-
 > "Wo es keine Marktpreise für die Produktionsfaktoren gibt, weil sie weder gekauft noch verkauft werden, ist es unmöglich, bei der Planung zukünftiger Handlungen und bei der Bestimmung des Ergebnisses vergangener Handlungen auf Berechnungen zurückzugreifen. Eine sozialistische Produktionsführung würde einfach nicht wissen, ob das, was sie plant und ausführt, das geeignetste Mittel ist, um die angestrebten Ziele zu erreichen. Sie wird gewissermaßen im Dunkeln operieren. Sie wird die knappen Produktionsfaktoren, sowohl materiell als auch menschlich (Arbeit), verschwenden. Chaos und Armut für alle werden zwangsläufig die Folge sein."
 >
 > Ludwig von Mises, Geplante Chaos
@@ -498,8 +488,6 @@ Hauptstrom-Ökonomen und Zentralplaner mögen österreichische Ökonomen oft nic
 Die österreichische Tradition verkörpert einen bescheidenen Ansatz zum menschlichen Handeln und zieht tiefgreifende Schlussfolgerungen aus den Konzepten des subjektiven Wertes, der Unsicherheit, des freien Willens und der Komplexität. Sie erklärt, wie die Marktordnung, obwohl sie nicht das Produkt menschlichen Designs ist, als zentrale Institution für unsere Entwicklung und Wohlstand steht. Wenn es eine wichtige Erkenntnis aus diesem Kurs gibt, dann ist es, dass der Kapitalismus zum dominierenden Wirtschaftssystem wurde, weil er sich in einer dynamischen und unsicheren Welt, bevölkert von freien Individuen, an Veränderungen anpassen kann.
 
 ## Die österreichische Methodik
-
-![Die österreichische Methodik](https://youtu.be/hMyYGwU76dI)
 
 Die österreichische Schule der Wirtschaft unterscheidet sich von anderen Schulen durch ihre axiomatisch-deduktive Methodik, die sich von dem positivistischen Ansatz unterscheidet, der in den Sozialwissenschaften häufig verwendet wird. Der positivistische Ansatz basiert auf Gesetzen, die aus empirischen Daten abgeleitet werden und eine ähnliche Methode wie die Naturwissenschaften verwenden. Er formuliert Hypothesen aus Beobachtungen, die dann durch vorübergehende Experimente bestätigt oder widerlegt werden. Die wissenschaftliche Methode besteht darin, die Hypothese beizubehalten, die die Daten am besten erklärt, und sie weiter zu erforschen, bis eine präzisere Hypothese gefunden wird.
 

@@ -35,11 +35,10 @@ Seção 2 - O que é inflação?
 - 2.1 - Um fenômeno monetário
 - 2.2 - Os tipos de inflação
 - 2.3 - A deflação
+
 # Seção 2 - O que é inflação?
 
 ## 2.1 - Um fenômeno monetário
-
-![vídeo](https://youtu.be/Hg8L_PIs008)
 
 ### Definições de inflação
 
@@ -206,8 +205,6 @@ Essa análise demonstra que a confiança na moeda, e por extensão seu valor, es
 Ao concluir, este estudo sobre a desvalorização monetária abre caminho para uma compreensão aprofundada dos mecanismos da inflação, que serão explorados nos próximos vídeos. Discutiremos os diferentes tipos de inflação e o limiar em que eles se transformam em inflação alta ou hiperinflação. Essa base sólida nos permitirá abordar as complexidades da inflação nas próximas sessões. Obrigado pela atenção e nos vemos no próximo vídeo para continuar essa exploração das dinâmicas monetárias.
 
 ## 2.2 - Os tipos de inflação
-
-![Vídeo](https://youtu.be/hHk5oV8HsNQ)
 
 ### A inflação não é um fenômeno multifatorial
 
@@ -384,27 +381,10 @@ O que emerge de nossa exploração é que a hiperinflação é um fenômeno comp
 
 Em nossas futuras discussões, mergulharemos mais profundamente na hiperinflação, explorando suas definições e manifestações em diversos contextos econômicos. Nosso objetivo será revelar os mecanismos subjacentes da hiperinflação e explorar soluções potenciais para lidar com ela. Essa compreensão equilibrada nos permitirá entender melhor os desafios associados e propor estratégias informadas para a gestão da inflação.
 Obrigado pela sua atenção. A próxima sessão será totalmente dedicada a definir e desmistificar a hiperinflação, levando em consideração diferentes perspectivas acadêmicas e práticas. Estamos ansiosos para continuar essa exploração com você em nosso próximo encontro.
-## 2.3 - A deflação
-
-Em breve será criado por DAVID
-
-### Tipos de deflação
-
-### A deflação dos anos 30 (estouro da bolha de crédito) (Jeff Booth)
-
-### Deflação do crescimento de 1865 a 1896 (Dr. Philip Bagus)
-
-### Ajuste de salários (Keynes vs Dr. Philip Bagus)
-
-### Se o preço de compra cair mais rápido do que o preço de venda, está tudo bem
-
-### MSM e economistas fiat sempre falam sobre a deflação Fiat
 
 # Seção 3 - O que é hiperinflação?
 
 ## 3.1 - Definições de hiperinflação
-
-![vídeo provisório 3.1](https://youtu.be/qYMR-i7TtHY)
 
 ### Definições de hiperinflação
 
@@ -420,9 +400,8 @@ Essa definição foi adotada na tabela Hanke-Krus, que documenta 56 episódios d
 
 ![imagem](assets/chapitre-3.1/1.png)
 
-zoom
-
 ![imagem](assets/chapitre-3.1/0.PNG)
+
 É importante observar que essa definição, embora precisa, pode possivelmente excluir alguns episódios de hiperinflação devido ao rigor do limite de 50%. Existe a possibilidade de ampliar essa definição para incluir outros episódios que, embora não atendam estritamente ao critério de Cagan, ainda representam períodos de inflação extremamente alta. Essa observação abre caminho para uma exploração mais ampla dos fenômenos de hiperinflação, permitindo uma compreensão mais detalhada de suas causas e efeitos. Nas discussões futuras, consideraremos revisitar essa definição e examinar episódios de hiperinflação não abrangidos pelo critério estrito de Cagan.
 
 ### A Definição de Hiperinflação por Cagan
@@ -461,8 +440,6 @@ Definições comuns de hiperinflação, como a proposta por Kagan, que estabelec
 É importante observar que alguns períodos históricos de alta inflação não estão presentes nas tabelas clássicas de hiperinflação, muitas vezes devido aos critérios rigorosos de classificação. Por exemplo, durante a Guerra de Independência dos Estados Unidos em novembro de 1779 e durante a Guerra Civil Americana em março de 1864, as taxas de inflação mensal eram de 47,4% e 40%, respectivamente. Essas taxas, embora altas, não ultrapassam o limite de 50% estipulado por Kagan, excluindo assim esses períodos dos casos classificados como hiperinflação. Essa omissão ilustra as limitações das definições rígidas e destaca a necessidade de uma abordagem mais sutil para compreender a hiperinflação em toda a sua complexidade.
 
 ## 3.2 - Semelhanças entre Weimar e Zimbabwe
-
-![Video](https://youtu.be/xqMESvFi7J8)
 
 ### Duas épocas, duas catástrofes
 
@@ -622,10 +599,6 @@ Isso conclui este vídeo sobre as semelhanças das experiências vividas durante
 
 ## 3.3 - Diferenças entre Weimar e Zimbábue e paralelos contemporâneos
 
-![Vídeo](https://youtu.be/jh_MOKDPmQQ)
-
-Transcrição:
-
 Neste capítulo, exploraremos as diferenças e paralelos entre os períodos de hiperinflação passados e contemporâneos, com histórias e comparações relevantes para os dias de hoje.
 
 ### As diferenças entre a República de Weimar e o Zimbábue
@@ -718,8 +691,6 @@ Imagine um cenário em que você tem uma família ou entes queridos que você de
 Hoje, diante da queda do poder de compra, o investimento assume o controle. No entanto, essa abordagem tem seus próprios riscos. A poupança sempre foi um remédio contra a incerteza. Ter reservas financeiras para lidar com situações imprevistas contribui para a paz de espírito e fortalece a coesão social. Em conclusão, a proteção do nosso poder de compra é essencial para manter a estabilidade social e individual.
 
 ## 3.4 - As redenominações na América Latina
-
-![Vídeo](https://youtu.be/m2pcmbEzKyc)
 
 Vamos analisar juntos diferentes períodos de redenominação em países da América Latina.
 
@@ -822,8 +793,6 @@ Em conclusão, a hiperinflação é apenas um aspecto dos desafios econômicos. 
 
 ## 3.5 - Como sair da hiperinflação
 
-![video](https://youtu.be/9PYH7ut3fq0)
-
 ### Como acabar com a inflação moderada e a alta inflação
 
 As conclusões mencionadas são retiradas do livro "Monetary Regime and Inflation" de Bernold. De acordo com o autor, o único método para acabar com a inflação é realizar uma reforma monetária e impor restrições ao governo. Essas restrições envolvem a criação de uma instituição, como um banco central, que opera de forma independente das decisões políticas do governo. A hiperinflação é frequentemente o resultado do financiamento de déficits orçamentários por meio da criação de moeda. Para controlar a inflação moderada, é essencial reduzir o crescimento da oferta monetária. Bernold também sugere que esse crescimento monetário seja relativo aos países vizinhos. Um ponto surpreendente é que, durante períodos de alta ou hiperinflação, o valor total da oferta monetária pode realmente diminuir. Um exemplo marcante dessa situação é o do Zimbábue.
@@ -874,15 +843,12 @@ A principal coisa a se lembrar é que existem várias estratégias para sair da 
 
 ## 3.6 - Apresentação da coleção de notas de hiperinflação
 
-![vídeo](https://youtu.be/h1uwR3Yge1M)
 
 O link para a coleção digitalizada está disponível no Bitcoin Educational Toolkit, acessível na seção Recursos da plataforma.
 
 # Seção 4 - Como chegamos até aqui?
-## 4.1 - O surgimento da segunda camada monetária e dos bancos centrais
-![video](https://youtu.be/cEon5lVtKZE)
 
-Transcrição:
+## 4.1 - O surgimento da segunda camada monetária e dos bancos centrais
 
 O surgimento da segunda camada monetária e dos primeiros bancos centrais é um assunto fascinante. Esse tema é amplamente abordado no livro "Layered Money" de Nick Battia. Eu o recomendo fortemente para aqueles que estão interessados na evolução e nas sutilezas dos nossos sistemas monetários. O objetivo desta seção é entender a origem da criação monetária e como isso pode levar à hiperinflação.
 

@@ -51,8 +51,6 @@ Wir befinden uns in einer Branche, in der zwei Hauptzweige im Bereich "Kryptowä
 
 Die gesamte Universität konzentriert sich auf das Bitcoin-Universum und nicht auf Krypto.
 
-![Betrug und finanzielle Betrügereien](https://youtu.be/LeyI3CBw2g4)
-
 Der Bereich der Kryptowährungen, einschließlich Bitcoin, ist immer noch relativ jung und leicht reguliert. Er ist daher reich an verschiedenen Betrugsfällen. Das Verständnis der Gefahren und das Erkennen typischer Fallen sind von entscheidender Bedeutung. Hier sind einige häufig auftretende Betrugssituationen:
 
 - Online-Spenden und Lotterien
@@ -146,8 +144,6 @@ Behalten Sie immer im Hinterkopf, dass nicht jeder transparent über seine Absic
 
 ## Online-Sicherheit
 
-![Online-Sicherheit](https://youtu.be/d9Ccy17yWB0)
-
 Neben Betrügereien mit Kryptowährungen und Finanzangelegenheiten ist der Hauptgrund für den Verlust von Bitcoins eine schlechte Online-Sicherheitspraxis. Es kommt häufig vor, dass Menschen dasselbe Passwort für alle ihre Konten verwenden, vergessen, ihren Computer zu aktualisieren, und es versäumen, regelmäßig ihre Daten zu sichern. Wenn Sie sich von diesen Praktiken betroffen fühlen, machen Sie sich keine Sorgen, es ist immer möglich, Ihre Online-Sicherheitsgewohnheiten zu verbessern. Hier sind einige grundlegende Maßnahmen, die Sie ergreifen können:
 
 - Verwenden Sie einen Passwort-Manager (siehe das LastPass-Tutorial),
@@ -190,8 +186,6 @@ Online-Anonymität ist für eine freie und wohlhabende Gesellschaft von entschei
 Wenn Sie sich für dieses Thema interessieren, steht Ihnen das SECU 101-Training zur Verfügung, um Sie zu begleiten.
 
 ## Tipps für Anfänger
-
-![Tipps für Anfänger](https://youtu.be/juMUJ3MWeZY)
 
 Die formale Bildung lehrt uns nur wenig über Investitionen. Daher betreten wir oft alleine diese neue und komplexe Investitionslandschaft.
 
@@ -318,8 +312,6 @@ Wenn dies für Sie neu ist, empfehle ich Ihnen dringend, BTC 101 zu verfolgen, b
 
 ## Warum ist Bitcoin wichtig?
 
-![Warum ist Bitcoin so wichtig](https://youtu.be/Iq0wZF3Ui9A)
-
 Warum ist die Bedeutung von Bitcoin so entscheidend? Das ist die zentrale Frage dieser Universität. Ob es um Ihr Studium oder Ihre Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, von Ihrem Aktionsplan abzuweichen. Das Ziel ist es daher, die Grundlagen von Bitcoin immer im Hinterkopf zu behalten, um sicherzustellen, dass Ihre Strategie mit Ihren Überzeugungen im Einklang bleibt.
 
 Barack Obama beschrieb Bitcoin einmal als "eine Schweizer Bank in Ihrer Tasche". Und tatsächlich bietet Bitcoin jedem die gleichen Möglichkeiten, unabhängig davon, wer Sie sind. Ob Sie ein Teenager, ein Präsident, ein Demonstrant in Hongkong oder ein "Gelbwesten" in Frankreich sind, jeder hat den gleichen Zugang zum gleichen Protokoll und den gleichen Werkzeugen:
@@ -390,8 +382,6 @@ Die Hauptbefürworter von Bitcoin heute sind immer noch hauptsächlich Cyberpunk
 Bitcoin hat eine hochphilosophische, ethische und politische Dimension, ist aber völlig gleichgültig gegenüber diesen Überlegungen. Tatsächlich ist Bitcoin ein einfaches Protokoll, das den gleichen Prozess immer wieder reproduziert. Es sind seine Benutzer, die ihn zu einer Waffe der Befreiung gegen das aktuelle Finanzsystem gemacht haben. Aus der Sicht des Cyberpunk steht Bitcoin im Gegensatz zu einer bargeldlosen Gesellschaft. Es ermöglicht vollständig private und intermediärfreie digitale Finanztransaktionen. Für die Cyberpunk-Bewegung ist Bitcoin das elektronische Äquivalent von Bargeld.
 
 ## Die Bitcoin-Industrie verstehen
-
-![Die Bitcoin-Industrie verstehen](https://youtu.be/fcXvjghA-uM)
 
 Mit der Einführung von Bitcoin im Jahr 2009 durch Satoshi Nakamoto entstand eine Milliarden-Dollar-Industrie. Diese Industrie hat trotz ihrer Jugend in den letzten zehn Jahren ein exponentielles Wachstum erlebt. Jeden Tag kommen neue Akteure mit großen Geldsummen hinzu und sind bereit, in diese neue Branche einzusteigen. Heute hat die Industrie einen Punkt erreicht, an dem Regierungen, Banken, Internetgiganten und andere mit allen möglichen Eingriffen in die Bewegung eingetreten sind.
 

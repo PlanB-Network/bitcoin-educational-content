@@ -441,22 +441,6 @@ Dans nos discussions futures, nous plongerons plus profondément dans l'hyperinf
 
 Merci pour votre attention la prochaine session sera entièrement dédiée à définir et à démystifier l'hyperinflation, en tenant compte des différentes perspectives académiques et pratiques. Nous nous réjouissons de poursuivre cette exploration avec vous lors de notre prochaine rencontre.
 
-## 2.3 - La déflation
-
-Soon to be created by DAVID
-
-### Les types de déflation
-
-### La déflation des années 30 (credit bubble burst) (Jeff Booth)
-
-### Growth deflation de 1865 à 1896 (Dr. Philip Bagus)
-
-### Ajustement des salaires (Keynes vs Dr. Philip Bagus)
-
-### Si le prix d’achat baisse plus vite que le prix de vente c’est OK
-
-### MSM et économistes fiat parlent toujours de la déflation Fiat
-
 # Section 3 - Qu’est-ce que l’hyperinflation ?
 
 ## 3.1 - Les définitions de l'hyperinflation
@@ -734,8 +718,6 @@ C'est ce qui complète cette vidéo au sujet des similitudes des expériences v�
 ## 3.3 - Weimar vs Zimbabwe différences et parallèle contemporains
 
 ![Video](https://youtu.be/jh_MOKDPmQQ)
-
-Transcripte:
 
 Dans ce chapitre, nous explorerons les différences et parallèles entre les périodes d'hyperinflation passées et contemporaines, agrémentés d'anecdotes et de comparaisons pertinentes pour aujourd'hui.
 

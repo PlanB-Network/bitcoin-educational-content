@@ -69,8 +69,6 @@ Buona fortuna!
 
 ## 2.1 - Un fenomeno monetario
 
-![video](https://youtu.be/Hg8L_PIs008)
-
 ### Le definizioni dell'inflazione
 
 L'inflazione è un concetto spesso frainteso a causa delle molteplici definizioni ad esso associate. La percezione dell'inflazione varia tra diversi gruppi come i bitcoiners e gli economisti tradizionali. Prima di affrontare l'iperinflazione, chiariremo prima le definizioni:
@@ -197,8 +195,6 @@ Questa analisi dimostra che la fiducia nella moneta, e di conseguenza il suo val
 Concludendo, questo studio sulla svalutazione monetaria apre la porta a una comprensione approfondita dei meccanismi dell'inflazione, che saranno esplorati nei video successivi. Discuteremo dei diversi tipi di inflazione e della soglia in cui si trasformano in inflazione alta o iperinflazione. Questa solida base ci permetterà di affrontare le complessità dell'inflazione nelle prossime sessioni. Grazie per l'attenzione e ci vediamo nel prossimo video per continuare questa esplorazione delle dinamiche monetarie.
 
 ## 2.2 - I tipi di inflazione
-
-![Video](https://youtu.be/hHk5oV8HsNQ)
 
 ### L'inflazione non è un fenomeno multifattoriale
 
@@ -379,27 +375,9 @@ Ciò che emerge dalla nostra esplorazione è che l'iperinflazione è un fenomeno
 Nelle nostre future discussioni, approfondiremo ulteriormente l'iperinflazione, esplorando le sue definizioni e manifestazioni in vari contesti economici. Il nostro obiettivo sarà quello di svelare i meccanismi sottostanti dell'iperinflazione e di esplorare le possibili soluzioni per affrontarla. Questa comprensione sfumata ci permetterà di affrontare meglio le sfide associate e di proporre strategie informate per la gestione dell'inflazione.
 Grazie per la vostra attenzione, la prossima sessione sarà interamente dedicata a definire e svelare l'iperinflazione, tenendo conto delle diverse prospettive accademiche e pratiche. Siamo entusiasti di continuare questa esplorazione con voi nel nostro prossimo incontro.
 
-## 2.3 - La deflazione
-
-Presto creato da DAVID
-
-### Tipi di deflazione
-
-### La deflazione degli anni '30 (esplosione della bolla del credito) (Jeff Booth)
-
-### Deflazione della crescita dal 1865 al 1896 (Dr. Philip Bagus)
-
-### Adeguamento dei salari (Keynes vs Dr. Philip Bagus)
-
-### Se il prezzo di acquisto diminuisce più velocemente del prezzo di vendita, va bene
-
-### MSM ed economisti fiat parlano sempre di deflazione Fiat
-
 # Sezione 3 - Cos'è l'iperinflazione?
 
 ## 3.1 - Le definizioni di iperinflazione
-
-![video provvisorio 3.1 ](https://youtu.be/qYMR-i7TtHY)
 
 ### Le definizioni di iperinflazione
 
@@ -415,9 +393,9 @@ Questa definizione è stata adottata nella tabella Hanke-Krus, che documenta 56 
 
 ![immagine](assets/chapitre-3.1/1.png)
 
-zoom
 
 ![immagine](assets/chapitre-3.1/0.PNG)
+
 È importante notare che questa definizione, sebbene precisa, potrebbe escludere alcuni episodi di iperinflazione a causa della rigidità della soglia del 50%. Esiste la possibilità di ampliare questa definizione per includere altri episodi che, sebbene non rispondano strettamente al criterio di Cagan, rappresentano comunque periodi di inflazione estremamente elevata. Questa osservazione apre la porta a una più ampia esplorazione dei fenomeni dell'iperinflazione, consentendo una comprensione più sfumata delle sue cause e dei suoi effetti. Nelle discussioni successive, prenderemo in considerazione la possibilità di rivedere questa definizione ed esaminare episodi di iperinflazione non coperti dal rigido criterio di Cagan.
 
 ### La Definizione dell'Iperinflazione secondo Cagan
@@ -443,6 +421,7 @@ Questa riflessione ci porta a interrogare la rigidità della tradizionale defini
 ### La Definizione dell'Iperinflazione secondo l'International Accounting Standards Board (IASB)
 
 Quindi, quanti casi di iperinflazione ci sono in totale?
+
 Le definizioni comuni di iperinflazione, come quella avanzata da Kagan che stabilisce un'inflazione mensile del 50%, possono talvolta essere confuse o riduttive. Ad esempio, due paesi con tassi di inflazione annuale rispettivamente del 1.000% e del 3.000% possono essere percepiti in modo diverso a seconda della distribuzione mensile di questa inflazione. Se nessun mese supera la soglia del 50%, secondo la definizione di Kagan, questi paesi non sarebbero in uno stato di iperinflazione. Questo approccio può quindi portare ad anomalie nella classificazione dell'iperinflazione, soprattutto quando si confrontano inflazioni cumulative nell'arco dell'anno.
 
 ![image](assets/chapitre-3.1/7.PNG)
@@ -455,8 +434,6 @@ Le definizioni comuni di iperinflazione, come quella avanzata da Kagan che stabi
 È importante notare che alcuni periodi storici di alta inflazione non sono inclusi nelle tabelle classiche dell'iperinflazione, spesso a causa dei criteri rigorosi di classificazione. Ad esempio, durante la guerra d'indipendenza degli Stati Uniti nel novembre 1779 e durante la guerra civile americana nel marzo 1864, i tassi di inflazione mensile erano rispettivamente del 47,4% e del 40%. Questi tassi, sebbene elevati, non superano la soglia del 50% stabilita da Kagan, escludendo così questi periodi dai casi classificati come iperinflazione. Questa omissione illustra i limiti delle definizioni rigide e sottolinea la necessità di un approccio più sfumato per comprendere l'iperinflazione nella sua complessità.
 
 ## 3.2 - Similitudini tra Weimar e Zimbabwe
-
-![Video](https://youtu.be/xqMESvFi7J8)
 
 ### Due epoche, due catastrofi
 
@@ -674,8 +651,6 @@ Oggi, di fronte alla diminuzione del potere d'acquisto, gli investimenti prendon
 
 ## 3.4 - Le riforme valutarie in America Latina
 
-![Video](https://youtu.be/m2pcmbEzKyc)
-
 Guarderemo insieme diverse fasi di riforme valutarie in paesi dell'America Latina.
 
 ### Spiegazione dei grafici
@@ -778,8 +753,6 @@ In conclusione, l'iperinflazione è solo un aspetto delle sfide economiche. L'al
 
 ## 3.5 - Come uscire dall'iperinflazione
 
-![video](https://youtu.be/9PYH7ut3fq0)
-
 ### Come porre fine all'inflazione moderata e all'alta inflazione
 
 Le conclusioni menzionate sono tratte dal libro "Monetary Regime and Inflation" di Bernold. Secondo quest'ultimo, l'unico metodo per porre fine all'inflazione è attuare una riforma monetaria e imporre restrizioni al governo. Queste restrizioni implicano l'istituzione di un'istituzione, come una banca centrale, che opera in modo indipendente dalle decisioni politiche del governo. L'alta e l'iperinflazione sono spesso il risultato del finanziamento dei deficit di bilancio tramite la creazione di moneta. Per risolvere l'inflazione moderata, è essenziale ridurre la crescita della massa monetaria. Bernold suggerisce anche che questa crescita monetaria sia relativa ai paesi vicini. Un punto sorprendente è che, durante periodi di alta o iperinflazione, il valore totale della massa monetaria può effettivamente diminuire. Un esempio significativo di questa situazione è quello dello Zimbabwe.
@@ -830,15 +803,11 @@ La cosa più importante da ricordare è che ci sono diverse strategie per uscire
 
 ## 3.6 - Presentazione della collezione di banconote iperinflazionate
 
-![video](https://youtu.be/h1uwR3Yge1M)
-
 Il link alla collezione digitalizzata è disponibile nel Bitcoin Educational Toolkit, accessibile dalla sezione Risorse della piattaforma.
 
 # Sezione 4 - Come siamo arrivati qui?
-## 4.1 - L'emergere del secondo strato della moneta e delle banche centrali
-![video](https://youtu.be/cEon5lVtKZE)
 
-Trascrizione:
+## 4.1 - L'emergere del secondo strato della moneta e delle banche centrali
 
 L'emergere del secondo strato della moneta e delle prime banche centrali è un argomento affascinante. Questo tema è ampiamente trattato nel libro "Layered Money" di Nick Battia. Lo consiglio vivamente a coloro che sono interessati all'evoluzione e alle sfumature dei nostri sistemi monetari. L'obiettivo di questa sezione è comprendere l'origine della creazione monetaria e come ciò abbia potuto portare all'iperinflazione.
 

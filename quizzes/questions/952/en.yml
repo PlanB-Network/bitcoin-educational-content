@@ -1,0 +1,11 @@
+question: In what scenario might a stablecoin trade above its pegged price? 
+answer: When the demand for stablecoins surpasses an exchange's capacity 
+wrong_answers:
+  - When the stablecoin issuer freezes funds
+  - When the stablecoin is fully backed by cash reserves
+  - When there is strong selling pressure from users
+explanation: |
+  Stablecoins can trade above their pegged price when the 
+  demand for stablecoins exceeds an exchange's capacity to 
+  meet customer demands, typically on smaller exchanges.
+reviewed: true

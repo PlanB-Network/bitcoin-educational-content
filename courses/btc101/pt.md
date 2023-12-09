@@ -461,7 +461,7 @@ Poder-se-ia perguntar: e se alguém adivinhasse a nossa lista de 12 ou 24 palavr
 
 Portanto, a probabilidade de sua carteira Bitcoin ser hackeada é astronomicamente baixa, se você seguir boas práticas de segurança. Estas práticas são descritas em detalhe na próxima secção.
 
-Escolha uma carteira que se adapte às suas necessidades e uso. Tutoriais detalhados sobre o uso e segurança de diferentes carteiras estão disponíveis na [secção de tutoriais da nossa universidade](https://sovereignuniversity.org/tutorials/wallet).
+Escolha uma carteira que se adapte às suas necessidades e uso. Tutoriais detalhados sobre o uso e segurança de diferentes carteiras estão disponíveis na [secção de tutoriais da nossa universidade](https://planb.network/tutorials/wallet).
 
 ## Segurança e Carteiras Bitcoin
 
@@ -565,7 +565,7 @@ Existem muitas soluções para isso, algumas são de baixo custo, como o "Blockm
 
 Conjuntamente a isso, a criação de um plano de herança também é um passo crucial para garantir que seus bitcoins sejam adequadamente gerenciados após a sua morte. Esse plano pode incluir uma carta escrita à mão detalhando seus ativos, o modo de acesso a eles e o contato de pessoas de confiança para serem contatadas. Também é importante discutir a herança de bitcoins com um notário para garantir a conformidade fiscal, embora seja importante nunca confiar diretamente seus bitcoins a terceiros, incluindo um notário.
 
-Se você deseja explorar mais sobre o assunto do plano de herança para seus bitcoins, recomendamos o livro de Pamela Morgan [Cryptoasset Inheritance Plan](https://sovereignuniversity.org/resources/books/28/en) ou seguir o treinamento BTC102, onde o acompanhamos na sua criação.
+Se você deseja explorar mais sobre o assunto do plano de herança para seus bitcoins, recomendamos o livro de Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) ou seguir o treinamento BTC102, onde o acompanhamos na sua criação.
 
 ![image](assets/Concept/chapitre8/2.jpeg)
 
@@ -634,7 +634,7 @@ Em 2010, à medida que o Bitcoin começa a chamar a atenção da mídia, Satoshi
 Apesar da ausência de Satoshi, o Bitcoin continua a se desenvolver. A cada 10 minutos, a história do Bitcoin é escrita, e o protocolo continua a funcionar conforme o planejado. Não importa o medo, a incerteza ou a dúvida (FOMO para Fear Of Missing Out ou FUD para Fear Uncertainty Doubt), o Bitcoin continua avançando, com uma disponibilidade online de 99,988%.
 O Bitcoin é percebido de forma diferente por cada indivíduo. Para alguns, é uma entidade fungível como o [micélio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), para outros, é um [buraco negro](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Se você ama ou odeia o Bitcoin, ele continua a existir, com seu ritmo constante de 10 minutos por bloco, como os batimentos cardíacos de um novo sistema monetário.
 
-Para aprofundar seu conhecimento sobre os escritos de Satoshi Nakamoto, recomendo o [livro de Phil Champagne](https://sovereignuniversity.org/resources/books) ou o documentário da ARTE "le mystaire Satoshi".
+Para aprofundar seu conhecimento sobre os escritos de Satoshi Nakamoto, recomendo o [livro de Phil Champagne](https://planb.network/resources/books) ou o documentário da ARTE "le mystaire Satoshi".
 
 ![image](assets/Concept/chapitre9/8.jpg)
 
@@ -1018,7 +1018,7 @@ Existem várias maneiras de adquirir Bitcoins, cada uma com seus próprios regul
 
 - Plataformas DCA
 
-Um método comum de acumular Bitcoins é o Dollar Cost Averaging (DCA), que envolve investir regularmente pequenas quantias. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada](https://sovereignuniversity.org/tutorials/exchange). Para além da simplicidade da criação de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
+Um método comum de acumular Bitcoins é o Dollar Cost Averaging (DCA), que envolve investir regularmente pequenas quantias. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada](https://planb.network/tutorials/exchange). Para além da simplicidade da criação de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
 
 Atualmente, quase todas as soluções DCA são relativamente eficientes e têm taxas quase semelhantes, pelo que a escolha dependerá mais da disponibilidade no seu país.
 
@@ -1043,7 +1043,7 @@ Após a compra, é aconselhável retirar imediatamente os Bitcoins das plataform
 
 ### Solução não-KYC
 
-Além disso, existem vários [marketplaces] (https://sovereignuniversity.org/tutorials/exchange) para comprar e vender bitcoins numa base peer-to-peer. Se estiver interessado nestes mercados, pode seguir a nossa formação sobre BTC 205. Regra geral, estas soluções são :
+Além disso, existem vários [marketplaces] (https://planb.network/tutorials/exchange) para comprar e vender bitcoins numa base peer-to-peer. Se estiver interessado nestes mercados, pode seguir a nossa formação sobre BTC 205. Regra geral, estas soluções são :
 
 - ATMs Bitcoin
 - Encontros físicos com outros entusiastas do bitcoin
@@ -1073,7 +1073,7 @@ Convidamos você a refletir sobre essa nova revolução monetária. Há tantas c
 
 ![image](assets/Concept/chapitre17/3.png)
 
-Si você deseja expandir seus conhecimentos sobre o Bitcoin, muitos autores, pensadores e ensaístas contribuíram para a camada educacional do Bitcoin. Nos últimos anos, temos catalogado e classificado essas obras para oferecer uma [biblioteca de recursos](https://sovereignuniversity.org/resources) aos mais curiosos entre vocês. Você encontrará os melhores podcasts, sites, artigos, tutoriais, livros e outros conteúdos.
+Si você deseja expandir seus conhecimentos sobre o Bitcoin, muitos autores, pensadores e ensaístas contribuíram para a camada educacional do Bitcoin. Nos últimos anos, temos catalogado e classificado essas obras para oferecer uma [biblioteca de recursos](https://planb.network/resources) aos mais curiosos entre vocês. Você encontrará os melhores podcasts, sites, artigos, tutoriais, livros e outros conteúdos.
 
 > Milton Friedman, um renomado economista, previu em 1999: "Eu acredito que a internet será uma das principais forças para reduzir o papel do governo. A única coisa que está faltando, mas que em breve será desenvolvida, é uma moeda eletrônica confiável - um método pelo qual na internet você pode transferir fundos de A para B sem que A conheça B ou B conheça A." Hoje, o Bitcoin atende a essa previsão.
 
@@ -1215,11 +1215,11 @@ Mudar o sistema financeiro requer mudar a moeda. Satoshi criou o Bitcoin em 2008
 
 Parabéns por concluir este curso BTC 101! Espero sinceramente que você tenha gostado e que tenha aberto portas para você. Sua descoberta do bitcoin está apenas começando e convido você a explorar todos os outros cursos disponíveis na universidade.
 
-- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) irá ajudá-lo a criar seu plano bitcoin
-- [LN 201](https://sovereignuniversity.org/course/ln201/fr) e [LN 202](https://sovereignuniversity.org/course/ln202/fr) permitirão que você descubra a Lightning Network, uma rede de pagamento de segunda camada
-- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) abordará a economia austríaca
-- [SECU 101](https://sovereignuniversity.org/course/secu101/fr) permitirá que você atualize sua segurança digital
-- [MINAGE 201](https://sovereignuniversity.org/course/min201/fr) para saber mais sobre mineração
+- [BTC 102](https://planb.network/courses/btc102) irá ajudá-lo a criar seu plano bitcoin
+- [LN 201](https://planb.network/courses/ln201) e [LN 202](https://planb.network/courses/ln202) permitirão que você descubra a Lightning Network, uma rede de pagamento de segunda camada
+- [ECON 201](https://planb.network/courses/econ201) abordará a economia austríaca
+- [SECU 101](https://planb.network/courses/secu101) permitirá que você atualize sua segurança digital
+- [MINAGE 201](https://planb.network/courses/min201) para saber mais sobre mineração
 - e muitos outros...
 
 ## Apoie-nos

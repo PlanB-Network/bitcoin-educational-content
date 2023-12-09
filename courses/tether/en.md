@@ -410,7 +410,7 @@ Regrettably, our current system deviates from this ideal. Central bank intervent
 
 As a result of interest rate manipulation, economic expansions tend to be prolonged, leading to increased debt levels and fiscal irresponsibility. Conversely, economic contractions become more severe, exacerbating instability and hardship for those at the bottom of the social ladder.
 
-__Conclusion__
+### __Conclusion__
 
 Our current path of monetary intervention is not sustainable. The ever-increasing debt burden, coupled with uncomfortable inflation and rising costs of living, is leading to greater wealth inequality and social unrest. We can only expect these problems to worsen if we continue down this path.
 
@@ -418,7 +418,16 @@ Fortunately, there are options available to us. With the emergence of Bitcoin, w
 
 As we move forward, we encourage you to approach this new technology with an open mind and a critical eye, exploring how it can offer an alternative to our present-day financial systems. By doing so, we have the potential to address the problems of rising inequality and social unrest while building a more sustainable and equitable economic future.
 
-# EXAM ASI0
+## Module Exam 
+
+Now that you went through the Module "The Price of Progress" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+
+1. Consider the emergence of Bitcoin and stablecoins as alternative systems to traditional fiat currency. What do you feel are some of the potential advantages and disadvantages, and how might they contribute to a more equitable economic future?
+2. What information can you gather from the debt-to-GDP ratio of the United States? What is the debt to GDP of your own country?
+3. How does suppressing interest rates impact the overall debt burden?
+4. How does the current monetary system exacerbate wealth inequality?
+5. In light of the information provided about debt and inflation, what is your opinion on the sustainability of the current monetary system? Do you think our current system is beneficial or detrimental in the long run?
 
 # Module 2: Financial Liberation - An Introduction to Bitcoin
 

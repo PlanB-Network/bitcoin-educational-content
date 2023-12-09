@@ -459,7 +459,7 @@ Podríamos preguntarnos: ¿y si alguien adivinara por casualidad nuestra lista d
 
 Por lo tanto, la probabilidad de que su billetera de Bitcoin sea pirateada es astronómicamente baja si sigue las mejores prácticas de seguridad. Prácticas que detallamos en la próxima sección.
 
-Elija una billetera que se adapte a sus necesidades y uso. Hay tutoriales detallados sobre el uso y la seguridad de diferentes billeteras disponibles en la sección [tutorial de nuestra universidad](https://sovereignuniversity.org/tutorials/wallet).
+Elija una billetera que se adapte a sus necesidades y uso. Hay tutoriales detallados sobre el uso y la seguridad de diferentes billeteras disponibles en la sección [tutorial de nuestra universidad](https://planb.network/tutorials/wallet).
 
 ## Seguridad y Billeteras de Bitcoin
 
@@ -556,7 +556,7 @@ Existen muchas soluciones para lograr esto, algunas son de bajo costo como el "B
 
 Junto con esto, crear un plan de legado es también un paso crucial para garantizar que tus bitcoins se gestionan adecuadamente tras tu muerte. Este plan puede incluir una carta manuscrita en la que se detallen sus activos, cómo se accederá a ellos y con quién ponerse en contacto. También es importante discutir el legado de bitcoins con un notario para garantizar el cumplimiento de las obligaciones fiscales, aunque es importante no confiar nunca sus bitcoins directamente a un tercero, incluido un notario.
 
-Si desea profundizar en el tema de un plan de herencia para sus bitcoins, le recomendamos el libro de Pamela Morgan [Cryptoasset Inheritance Plan](https://sovereignuniversity.org/resources/books/28/en) o siga el curso de formación BTC102, donde le guiaremos en su creación.
+Si desea profundizar en el tema de un plan de herencia para sus bitcoins, le recomendamos el libro de Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) o siga el curso de formación BTC102, donde le guiaremos en su creación.
 
 ![image](assets/Concept/chapitre8/2.jpeg)
 
@@ -625,7 +625,7 @@ A pesar de la ausencia de Satoshi, Bitcoin continúa desarrollándose. Cada 10 m
 
 El Bitcoin es percibido de manera diferente por cada individuo. Para algunos, es una entidad fúngica como el [micelio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), para otros, es un [agujero negro](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Ya sea que ames u odies el Bitcoin, sigue existiendo, con su ritmo constante de 10 minutos por bloque, como los latidos del corazón de un nuevo sistema monetario.
 
-Para profundizar en tus conocimientos sobre los escritos de Satoshi Nakamoto, recomiendo el [libro de Phil Champagne](https://sovereignuniversity.org/resources/books) o el documental de ARTE "le mystaire Satoshi".
+Para profundizar en tus conocimientos sobre los escritos de Satoshi Nakamoto, recomiendo el [libro de Phil Champagne](https://planb.network/resources/books) o el documental de ARTE "le mystaire Satoshi".
 
 ![image](assets/Concept/chapitre9/8.jpg)
 
@@ -1008,7 +1008,7 @@ Existen varias formas de adquirir Bitcoins, cada una con sus propias regulacione
 
 - Plataformas de DCA
 
-Un método común para acumular Bitcoins es el "Dollar Cost Averaging" (DCA), que consiste en invertir regularmente pequeñas cantidades. Varias plataformas ofrecen este servicio, como las que se enumeran en nuestra [página dedicada](https://sovereignuniversity.org/tutorials/exchange). Además de la simplicidad de establecer un DCA, la retirada a tu billetera generalmente es automática, lo que significa que siempre tendrás el control sobre tus activos.
+Un método común para acumular Bitcoins es el "Dollar Cost Averaging" (DCA), que consiste en invertir regularmente pequeñas cantidades. Varias plataformas ofrecen este servicio, como las que se enumeran en nuestra [página dedicada](https://planb.network/tutorials/exchange). Además de la simplicidad de establecer un DCA, la retirada a tu billetera generalmente es automática, lo que significa que siempre tendrás el control sobre tus activos.
 
 Hoy en día, casi todas las soluciones de DCA son relativamente eficientes y con tarifas casi similares, la elección se basará más en la disponibilidad en tu país.
 
@@ -1033,7 +1033,7 @@ Es importante tener en cuenta que el KYC es un tema importante en nuestra indust
 
 ### Solución sin KYC
 
-Además, hay varios [lugares de mercado](https://sovereignuniversity.org/tutorials/exchange) para comprar y vender bitcoins de igual a igual. Si estás interesado en estos, puedes seguir nuestro curso sobre el tema BTC 205. En general, estas soluciones son:
+Además, hay varios [lugares de mercado](https://planb.network/tutorials/exchange) para comprar y vender bitcoins de igual a igual. Si estás interesado en estos, puedes seguir nuestro curso sobre el tema BTC 205. En general, estas soluciones son:
 
 - Cajeros automáticos de bitcoins
 - Encuentros físicos con otros entusiastas de bitcoin
@@ -1063,7 +1063,7 @@ Te invitamos a reflexionar sobre esta nueva revolución monetaria. Hay tantas co
 
 ![imagen](assets/Concept/chapitre17/3.png)
 
-Si desea ampliar sus conocimientos sobre Bitcoin, muchos autores, pensadores y ensayistas han contribuido a la capa educativa de Bitcoin. Durante los últimos años, hemos recopilado y clasificado estas obras para ofrecer una [biblioteca de recursos](https://sovereignuniversity.org/resources) a los más curiosos. Encontrarás los mejores podcasts, sitios web, artículos, tutoriales, libros y otros contenidos.
+Si desea ampliar sus conocimientos sobre Bitcoin, muchos autores, pensadores y ensayistas han contribuido a la capa educativa de Bitcoin. Durante los últimos años, hemos recopilado y clasificado estas obras para ofrecer una [biblioteca de recursos](https://planb.network/resources) a los más curiosos. Encontrarás los mejores podcasts, sitios web, artículos, tutoriales, libros y otros contenidos.
 
 > Milton Friedman, un economista renombrado, predijo en 1999: "Creo que Internet será una de las principales fuerzas para reducir el papel del gobierno. Lo único que falta, pero que pronto se desarrollará, es un dinero electrónico confiable: un método mediante el cual en Internet se puedan transferir fondos de A a B sin que A conozca a B o B conozca a A". Hoy en día, Bitcoin cumple con esta predicción.
 
@@ -1204,10 +1204,10 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi creó Bitcoin 
 
 ¡Felicitaciones por completar este curso BTC 101! Espero de todo corazón que te haya gustado y abierto puertas. Tu descubrimiento de Bitcoin apenas está comenzando y te invito a explorar todos los demás cursos disponibles en la universidad.
 
-- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) te ayudará a establecer tu plan de Bitcoin
-- [LN 201](https://sovereignuniversity.org/course/ln201/fr) y [LN 202](https://sovereignuniversity.org/course/ln202/fr) te permitirán descubrir la Lightning Network, una red de pagos de segunda capa.
-- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) abordará la economía austriaca- [ SECU 101 ](https://sovereignuniversity.org/course/secu101/fr) te permitirá actualizar tu seguridad digital
-- [MINAGE 201](https://sovereignuniversity.org/course/min201/fr) para aprender más sobre la minería
+- [BTC 102](https://planb.network/course/btc102) te ayudará a establecer tu plan de Bitcoin
+- [LN 201](https://planb.network/course/ln201) y [LN 202](https://planb.network/course/ln202) te permitirán descubrir la Lightning Network, una red de pagos de segunda capa.
+- [ECON 201](https://planb.network/course/econ201) abordará la economía austriaca- [ SECU 101 ](https://planb.network/course/secu101) te permitirá actualizar tu seguridad digital
+- [MINAGE 201](https://planb.network/course/min201) para aprender más sobre la minería
 - y muchos más...
 
 ## Apóyanos

@@ -1,11 +1,14 @@
-question: How do stablecoins help reduce the costs associated with remittances? 
-answer: By offering lower fees than traditional services 
+question: What are the main types of stablecoins mentioned in the text? 
+answer: Fiat-backed, commodity-backed, and algorithmic stablecoins. 
 wrong_answers:
-  - By providing free money transfer services
-  - By giving individuals better exchange rates than traditional services
-  - By digitising fiat currencies
+  - Digital and physical stablecoins
+  - Centralised and decentralised stablecoins
+  - Stablecoins backed by banks and stablecoins backed by individuals
 explanation: |
-  Stablecoins, unlike traditional money transfer services, have significantly 
-  lower fees because they do not require intermediaries such as banks or money 
-  transfer services.
+  In the previous chapters we have seen three main types of stablecoins; 
+  fiat-backed stablecoins, which are backed by traditional currencies 
+  like the US dollar; commodity-backed stablecoins, which are backed by 
+  commodities like gold or oil; and algorithmic stablecoins, which rely 
+  on a set of rules or algorithms to maintain their value. However, 
+  it notes that successful algorithmic stablecoins have yet to hit the market.
 reviewed: true

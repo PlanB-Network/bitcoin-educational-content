@@ -442,7 +442,7 @@ One might ask: what if someone accidentally guesses our list of 12 or 24 words? 
 
 Thus, the probability of hacking your Bitcoin wallet is astronomically low if you follow good security practices. Practices that we detail in the next section.
 
-Choose a wallet that suits your needs and usage. Detailed tutorials on the use and securing of different wallets are available in the [tutorial section of our university](https://sovereignuniversity.org/tutorials/wallet).
+Choose a wallet that suits your needs and usage. Detailed tutorials on the use and securing of different wallets are available in the [tutorial section of our university](https://planb.network/tutorials/wallet).
 
 ## Security and Bitcoin Wallets
 
@@ -542,7 +542,7 @@ There are many solutions to achieve this, some are low-cost like the "Blockmit,"
 
 Conjointly with this, creating an inheritance plan is also a crucial step to ensure that your bitcoins will be properly managed after your death. This plan can include a handwritten letter detailing your assets, their access methods, and the contact information of trusted individuals to be contacted. It is also important to discuss the inheritance of bitcoins with a notary to ensure tax compliance, although it is important to never directly entrust your bitcoins to a third party, including a notary.
 
-If you wish to further explore the subject of an inheritance plan for your bitcoins, we recommend Pamela Morgan's book [Cryptoasset Inheritance Plan](https://sovereignuniversity.org/resources/books/28/en) or taking the BTC102 course where we guide you in its creation.
+If you wish to further explore the subject of an inheritance plan for your bitcoins, we recommend Pamela Morgan's book [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) or taking the BTC102 course where we guide you in its creation.
 
 ![image](assets/Concept/chapitre8/2.jpeg)
 
@@ -612,7 +612,7 @@ Despite Satoshi's absence, Bitcoin continues to develop. Every 10 minutes, the h
 
 Bitcoin is perceived differently by each individual. For some, it's a fungal entity like [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), for others it's a [black hole](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
 
-To learn more about Satoshi Nakamoto's writings, I recommend [Phil Champagne's book](https://sovereignuniversity.org/resources/books) or the ARTE documentary "le mystaire Satoshi".
+To learn more about Satoshi Nakamoto's writings, I recommend [Phil Champagne's book](https://planb.network/resources/books) or the ARTE documentary "le mystaire Satoshi".
 
 ![image](assets/Concept/chapitre9/8.jpg)
 
@@ -992,7 +992,7 @@ There are several ways to acquire Bitcoins, each with its own regulations. Some 
 
 - DCA platforms
 
-A common method of accumulating Bitcoins is Dollar Cost Averaging (DCA), which involves regularly investing small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://sovereignuniversity.org/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
+A common method of accumulating Bitcoins is Dollar Cost Averaging (DCA), which involves regularly investing small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.network/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
 
 Today, almost all DCA solutions are relatively efficient and have almost similar fees, so the choice will depend more on availability in your country.
 
@@ -1017,7 +1017,7 @@ It is important to note that KYC is an important topic in our industry as its ef
 
 ### Non-KYC Solution
 
-In addition, there are several [marketplaces](https://sovereignuniversity.org/tutorials/exchange) to buy and sell bitcoins peer-to-peer. If you are interested in these, you can take our BTC 205 course on the subject. Generally, these solutions are:
+In addition, there are several [marketplaces](https://planb.network/tutorials/exchange) to buy and sell bitcoins peer-to-peer. If you are interested in these, you can take our BTC 205 course on the subject. Generally, these solutions are:
 
 - Bitcoin ATMs
 - Physical meetings with other bitcoin enthusiasts
@@ -1047,7 +1047,7 @@ We invite you to reflect on this new monetary revolution. There is so much to ex
 
 ![image](assets/Concept/chapitre17/3.png)
 
-If you want to expand your knowledge about Bitcoin, a large number of authors, thinkers, and essayists have contributed to the educational layer of Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://sovereignuniversity.org/resources) to the most curious among you. You will find the best podcasts, websites, articles, tutorials, books, and other content.
+If you want to expand your knowledge about Bitcoin, a large number of authors, thinkers, and essayists have contributed to the educational layer of Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://planb.network/resources) to the most curious among you. You will find the best podcasts, websites, articles, tutorials, books, and other content.
 
 > Milton Friedman, a renowned economist, predicted in 1999: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A."
 
@@ -1190,11 +1190,11 @@ Changing the financial system requires changing the currency. Satoshi created Bi
 
 Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed it and it opened doors for you. Your discovery of bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
 
-- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) will help you set up your bitcoin plan
-- [LN 201](https://sovereignuniversity.org/course/ln201/fr) and [LN 202](https://sovereignuniversity.org/course/ln202/fr) will allow you to discover the Lightning Network, a second-layer payment network'
-- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) will cover Austrian economics
-- [SECU 101](https://sovereignuniversity.org/course/secu101/fr) will allow you to update your digital security
-- [MINAGE 201](https://sovereignuniversity.org/course/min201/fr) to learn more about mining
+- [BTC 102](https://planb.network/course/btc102) will help you set up your bitcoin plan
+- [LN 201](https://planb.network/course/ln201) and [LN 202](https://planb.network/course/ln202) will allow you to discover the Lightning Network, a second-layer payment network'
+- [ECON 201](https://planb.network/course/econ201) will cover Austrian economics
+- [SECU 101](https://planb.network/course/secu101) will allow you to update your digital security
+- [MINAGE 201](https://planb.network/course/min201) to learn more about mining
 - and many more...
 
 ## Support us

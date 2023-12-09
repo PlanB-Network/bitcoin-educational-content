@@ -1,9 +1,10 @@
-course: tether
-part: 1
-chapter: 4
-difficulty: easy
-duration: 15
-author: Tether
+course: econ201
+part: 2
+chapter: 2
+difficulty: intermediate
+duration: 30
+author: DecouvreBitcoin
 tags:
-  - Money History
+  - Bitcoin
+  - Salability
   - Money

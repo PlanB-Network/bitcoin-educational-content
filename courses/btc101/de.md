@@ -1192,11 +1192,11 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 
 Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganzem Herzen, dass es Ihnen gefallen hat und Ihnen neue Möglichkeiten eröffnet hat. Ihre Entdeckung von Bitcoin steht erst am Anfang und ich lade Sie ein, alle anderen verfügbaren Kurse an der Universität zu entdecken.
 
-- [BTC 102](https://planb.network/course/btc102) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen.
-- [LN 201](https://planb.network/course/ln201) und [LN 202](https://planb.network/course/ln202) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen.'
-- [ECON 201](https://planb.network/course/econ201) wird sich mit der österreichischen Wirtschaft befassen
-- [SECU 101](https://planb.network/course/secu101) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
-- [MINAGE 201](https://planb.network/course/min201), um mehr über das Mining zu erfahren
+- [BTC 102](https://planb.network/courses/btc102) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen.
+- [LN 201](https://planb.network/courses/ln201) und [LN 202](https://planb.network/courses/ln202) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen.'
+- [ECON 201](https://planb.network/courses/econ201) wird sich mit der österreichischen Wirtschaft befassen
+- [SECU 101](https://planb.network/courses/secu101) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
+- [MINAGE 201](https://planb.network/courses/min201), um mehr über das Mining zu erfahren
 - und viele mehr...
 
 ## Unterstütze uns

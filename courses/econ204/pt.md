@@ -180,6 +180,7 @@ No mesmo espírito, Espanha e Holanda, como detentoras da moeda de reserva mundi
 No entanto, a situação mudou com a ascensão dos Estados Unidos como potência econômica dominante. Eles optaram por desvalorizar sua moeda de reserva, aproveitando a inflação a seu favor. Essa decisão é frequentemente atribuída à dinâmica alterada, onde a escolha da moeda de reserva não era mais tão livre como antes. A hegemonia americana estabeleceu o dólar como a moeda de reserva mundial, permitindo assim a manipulação de seu valor. Essa mudança de rumo revela o impacto potencial das políticas monetárias no comércio internacional em uma economia globalizada, marcando uma transição significativa na gestão das moedas de reserva mundiais.
 
 ### Último exemplo para a estrada: o Swiss Dinner
+
 O Swiss Dinar ilustra outra faceta fascinante da desvalorização monetária, desta vez ancorada no contexto iraquiano pré-Guerra do Golfo. Chamada assim em referência à notável qualidade de suas notas, essa moeda era emitida pelo Banco Central do Iraque e desfrutava de uma reputação de estabilidade na região do Oriente Médio. Essa confiança era devida, em particular, à qualidade de impressão das notas, feita na Inglaterra, insinuando uma certa robustez diante da desvalorização.
 ![image](assets/chapitre-2.1/16.png)
 
@@ -194,7 +195,9 @@ Um fenômeno distintivo surgiu na economia iraquiana pós-Guerra do Golfo: o sis
 A percepção comum muitas vezes associa a moeda à criação estatal, sendo sua emissão e valor regulados pelo Estado. Esse conceito tem suas raízes em civilizações antigas como Roma, onde as moedas eram padronizadas e estampadas pelo Império, conferindo assim um valor oficial às moedas. No entanto, uma exploração mais aprofundada revela que o valor intrínseco da moeda era principalmente derivado de seu conteúdo de metal precioso.
 
 ![image](assets/chapitre-2.1/18.PNG)
+
 Um exemplo concreto é ilustrado através do exame de um peso monetário equivalente a oito reales espanhóis, ou um dólar espanhol. Esse peso, marcado com um numeral romano indicando seu valor, era usado pelos cambistas para avaliar o valor das moedas com base em seu peso, e não apenas em sua estampagem. Ao pesar as moedas, os cambistas podiam determinar se elas haviam sido adulteradas ou danificadas, o que poderia reduzir seu valor. Essa prática destaca que, embora a estampagem padronizada pelo Estado conferisse um certo valor nominal à moeda, o verdadeiro valor residia no peso do metal precioso que ela continha.
+
 Essa análise demonstra que a confiança na moeda, e por extensão seu valor, estava ancorada em sua substância tangível, e não apenas na afirmação do Estado. Ela destaca a dualidade entre o valor nominal imposto pelo Estado e o valor intrínseco ditado pelo conteúdo de metal precioso. Assim, a moeda vai além de um simples instrumento estatal, seu valor fundamental está intrinsecamente ligado a elementos tangíveis e mensuráveis.
 
 #### Conclusão
@@ -249,7 +252,9 @@ Essas nuances na medição da inflação pelo IPC destacam a complexidade da rel
 #### Os argumentos da MMT
 
 A Teoria Monetária Moderna (MMT) propõe uma perspectiva distinta sobre a criação monetária e a inflação. De acordo com a MMT, o dinheiro emana principalmente do governo, que pode imprimir quantias substanciais para financiar suas necessidades, sem causar inflação, desde que os setores alvo desses fundos não estejam saturados. Essa é uma abordagem que se afasta das teorias monetárias tradicionais e enfatiza a importância das capacidades de absorção setorial na dinâmica inflacionária.
+
 Um exemplo ilustrativo da MMT é o complexo militar-industrial americano. De acordo com a MMT, centenas de bilhões de dólares podem ser alocados para esse setor sem causar inflação, devido à sua capacidade de absorção. Em contraste, se fundos substanciais forem injetados na construção de estradas nos Estados Unidos, onde há um número limitado de empresas e mão de obra, pode ocorrer inflação devido à escassez de recursos e ao aumento dos custos exigidos pelos fornecedores.
+
 O caso do Japão é frequentemente citado pelos defensores da MMT como outro exemplo da ausência de inflação apesar de uma impressão monetária significativa. No entanto, a situação no Japão também destaca as limitações das medidas tradicionais de inflação, como o Índice de Preços ao Consumidor (IPC). No Japão, grande parte do dinheiro impresso é poupada ou investida em imóveis ou mercados de ações, e não gasta na economia de consumo comum. O IPC, ao não capturar totalmente essas dinâmicas, pode subestimar a inflação real.
 
 A análise do Japão (https://ideas.repec.org/p/ces/ceswps/_9821.html) também destaca que o comportamento dos agentes econômicos, como poupança ou investimento em ativos não incluídos no IPC, pode mascarar o impacto inflacionário da impressão monetária. Além disso, a capacidade dos diferentes setores de absorver a liquidez injetada desempenha um papel crucial na manifestação ou não da inflação.
@@ -261,7 +266,9 @@ Um terceiro exemplo de por que a impressão monetária não causaria inflação 
 ![image](assets/chapitre-2.2/5.PNG)
 
 A impressão monetária pode ser vista como uma espada de Dâmocles suspensa sobre a economia. O dinheiro criado pode permanecer latente por um certo tempo, sem efeito inflacionário visível, desde que não seja injetado na economia por meio de empréstimos bancários ou outros mecanismos. No entanto, quando esse dinheiro latente é finalmente colocado em circulação, os efeitos inflacionários podem se manifestar. Isso foi observado ao longo dos anos 2020, quando o dinheiro criado anteriormente encontrou seu caminho na economia, levando à inflação.
+
 Este cenário destaca a importância dos mecanismos de transmissão monetária na determinação do impacto inflacionário da impressão de dinheiro. A criação de dinheiro pelo banco central é apenas uma peça do quebra-cabeça. O comportamento dos bancos privados, que decidem o volume de empréstimos a conceder, e o comportamento dos mutuários, que decidem como gastarão o dinheiro emprestado, também são elementos cruciais nessa dinâmica.
+
 #### A inflação é social!
 
 O exemplo da República de Weimar ilustra outro aspecto crucial da relação entre a impressão de dinheiro e a inflação: o papel das expectativas e do comportamento dos agentes econômicos. Quando o Banco Central da República de Weimar começou a imprimir uma grande quantidade de dinheiro, a incerteza econômica levou as pessoas a acumularem dinheiro, ou seja, a guardá-lo em vez de gastá-lo. Essa reação temporariamente retardou os efeitos inflacionários da impressão de dinheiro.
@@ -337,6 +344,7 @@ Ao explorar os tipos de inflação, é comum encontrar termos como "Demand Pull"
 
 - Cost Push:
   Por outro lado, a inflação do tipo Cost Push é atribuída ao aumento dos custos de produção, como os de recursos naturais ou mão de obra. Novamente, sem um aumento na oferta monetária, os aumentos de custos em um setor podem simplesmente reduzir os gastos em outros, sem causar uma inflação generalizada.
+
 Essas explicações tradicionais frequentemente associam aumentos de preços à inflação, o que pode causar confusão. Na realidade, para que ocorra uma inflação generalizada, é necessário um aumento na oferta monetária. Nesse contexto, os conceitos de Demand Pull e Cost Push podem explicar as variações de preços setoriais, mas não capturam a natureza monetária da inflação. Isso destaca a importância de distinguir entre aumentos de preços setoriais e inflação generalizada, e reafirma a necessidade de um aumento na oferta monetária para que a inflação se manifeste na economia. Essa análise oferece uma perspectiva mais sutil e precisa sobre as verdadeiras causas da inflação e desmistifica interpretações comuns que podem obscurecer a dinâmica monetária subjacente.
 
 ### Classificação da Inflação segundo Bernholz
@@ -353,7 +361,9 @@ Bernholz propõe uma classificação simplificada, mas precisa, da inflação em
 
 - Hiperinflação:
   A hiperinflação é uma extensão da alta inflação, caracterizada por grandes déficits orçamentários financiados pela criação monetária. Historicamente, nenhum caso de hiperinflação foi observado sem um financiamento deficitário substancial por meio da impressão de dinheiro. A hiperinflação gera um ciclo vicioso: a inflação erode o valor da moeda tão rapidamente que as receitas fiscais se desvalorizam antes mesmo de o Estado poder coletá-las, forçando assim o Estado a imprimir ainda mais dinheiro para se financiar. Esse ciclo auto-reforçador leva a taxas de inflação astronômicas, muitas vezes superando 50% ao mês.
+
 Esta classificação de Bernholz destaca a perigosa progressão da inflação moderada para a hiperinflação e enfatiza a importância crucial do controle monetário e orçamentário para prevenir espirais inflacionárias destrutivas. Também demonstra que as consequências prejudiciais para o financiamento estatal podem ocorrer muito antes de atingir o estágio de hiperinflação, oferecendo assim uma perspectiva equilibrada sobre as implicações da inflação em diferentes graus.
+
 ### Conclusão: Síntese sobre os Tipos de Inflação
 
 Para concluir, exploramos uma variedade de tipos de inflação, começando com termos frequentemente ouvidos como "inflação rastejante", "inflação caminhante" e "inflação galopante", cada um denotando diferentes níveis de percentagens de inflação dentro de uma economia. No entanto, para nosso estudo aprofundado sobre a hiperinflação, as categorias de inflação moderada, alta inflação e hiperinflação, conforme descritas por Bernholz, se revelam marcos cruciais.
@@ -471,7 +481,7 @@ Em certas circunstâncias econômicas, o valor intrínseco de uma nota pode se t
 
 > Zimbábue: "O banco central desperdiçou dinheiro imprimindo uma nota que não valia o papel em que estava impressa. Em outras palavras, seu valor era inferior ao do papel higiênico. Por mais absurdo que possa parecer, era mais barato usar a nota de ZWD 100 trilhões como papel higiênico do que comprar papel higiênico de verdade."
 
-![imagem](assets/chapitre-3.2/PN3.pngG)
+![imagem](assets/chapitre-3.2/3.png)
 
 4. Contagem de dinheiro
 
@@ -488,7 +498,9 @@ Técnica de contagem de dinheiro do Uzbequistão
 
 Em economias perturbadas, os métodos de pagamento tradicionais, como cheques, podem rapidamente perder sua eficácia. Os bancos, sobrecarregados pela crescente demanda por dinheiro devido à hiperinflação, podem racionar ou atrasar o depósito de cheques, reduzindo assim seu valor real. Essa instabilidade muitas vezes leva a uma hierarquização dos métodos de pagamento, onde os preços podem variar dependendo de como se escolhe pagar.
 > Weimar: "O aumento dos preços intensificou a demanda por dinheiro, tanto pelo Estado quanto por outros empregadores. Os bancos privados não conseguiam atender à demanda e precisavam racionar o depósito de cheques, de modo que os cheques não depositados permaneciam congelados enquanto seu poder de compra se esgotava."
+
 Zimbábue: "O valor temporal do dinheiro criou três preços para bens e serviços; a saber, um preço em dinheiro, um preço em pagamento bruto em tempo real e um preço por cheque. No final, ninguém aceitava cheques, que levavam cinco dias para serem descontados."
+
 6. Os "Burner-preneurs"
 
 À medida que o valor da moeda se deteriora, surgem novas oportunidades econômicas, explorando distorções de mercado. Esses empreendedores, frequentemente chamados de forma inventiva de "Burner-preneurs", podem prosperar ao tomar empréstimos em moeda desvalorizada para investir em bens tangíveis e, em seguida, pagar suas dívidas com uma moeda ainda mais desvalorizada.
@@ -510,8 +522,10 @@ Zimbábue: "Essas práticas, embora tenham enriquecido algumas pessoas, empobrec
 8. Os "bancos do mundo"
 
 Em situações de hiperinflação ou crise monetária, os mercados paralelos e não regulamentados de moedas estrangeiras tendem a proliferar. Esses "bancos" informais, frequentemente chamados de forma humorística de "bancos do mundo" ou por outros nomes locais, oferecem refúgio para aqueles que buscam proteger seus ativos da desvalorização. Embora esses mercados possam fornecer um salva-vidas econômico necessário, muitas vezes destacam a desconfiança generalizada em relação às instituições financeiras oficiais e às políticas governamentais.
+
 Weimar: "Suas transações eram feitas principalmente através dos chamados Winkelbankiers, os operadores de becos que surgiram com a inflação e que, prosperando em uma economia doente, viviam inteiramente aproveitando a diferença entre os preços de compra e venda de moedas estrangeiras."
 Zimbabwe: "Eles também eram cambistas. Eles operavam impunemente entre a 2ª e a 6ª Avenida e a Rua Fort em Bulawayo, graças às suas habilidades comerciais astutas envolvendo corrupção e outras práticas. Essa área da cidade era conhecida como 'Banco Mundial'."
+
 Argentina: "Então eu fui onde todos os argentinos vão: as cuevas, as 'cavernas', que são encontradas no bairro de Florida, no coração de Buenos Aires." - TheBigWhale
 
 9. A troca de moeda era ilegal
@@ -525,6 +539,7 @@ Zimbabwe: "Invasões em empresas levaram à prisão de vários empresários de B
 10. Controle de capitais
 
 Quando um país enfrenta uma crise monetária ou econômica, uma das respostas comuns dos governos é exercer um controle rigoroso sobre os movimentos e formas de capital. Seja por meio de ordens que forçam a aceitação de moedas nacionais desvalorizadas ou por meio de sanções severas contra aqueles que rejeitam certos métodos de pagamento, essas medidas geralmente visam conter o pânico e restaurar a confiança. No entanto, a eficácia varia e, às vezes, essas medidas podem se mostrar contraproducentes ou desconectadas da realidade vivida pelos cidadãos.
+
 Weimar: "Os comerciantes recentemente foram obrigados por um novo decreto a aceitar notas bancárias do Estado; no entanto, como também permitia o uso contínuo de moedas estrangeiras para todas as compras, os comerciantes geralmente encontravam desculpas para aceitar quase nada além disso."
 
 Zimbabwe: "O governo introduziu o SI 175/2008 em 12 de dezembro de 2008, referente ao pagamento com cheques. Ele estipulava: 'A penalidade por recusar um pagamento com cheque/cartão de crédito ou qualquer outro método de pagamento eletrônico intermediado por um banco será uma multa de nível 8 ou uma pena de prisão de seis meses, ou ambos.' Obviamente, ignoramos o SI, pois estava completamente desconectado da realidade."
@@ -544,7 +559,9 @@ Diante de uma economia em colapso e regulamentações onipresentes, a fronteira 
 Weimar: "Todos os crimes contra o Estado, cada um deles, em diferentes graus, se tornavam uma questão de sobrevivência para os indivíduos."
 
 Zimbabwe: "Cada residente no Zimbábue era um criminoso. Por mais difícil que possa parecer, era verdade. Com a miríade de pequenas leis que regiam cada aspecto da vida, era inevitável que cada um infringisse uma lei todos os dias. Possuir moedas estrangeiras era ilegal, de acordo com um SI publicado em 2004. Ter várias contas bancárias para contornar o limite diário de saque era ilegal. Não ter as placas de identificação corretas em seu carro, ou não ter uma licença de rádio para o carro ou uma licença para o gerador, eram tantas leis que alguém, em algum lugar, estava infringindo."
+
 13. Compra de moeda estrangeira a qualquer preço
+
 A compra frenética de moeda estrangeira muitas vezes marcou uma virada crítica na desvalorização monetária, exacerbando a queda do valor intrínseco.
 
 > Weimar: "Mannheimer, por instrução de seu chefe, saiu em agosto de 1921 e começou a comprar moeda estrangeira a qualquer preço - 'porque a Alemanha tinha uma quantidade infinita de marcos em papel, mas não tinha moeda estrangeira.' Foi o primeiro sinal do colapso absoluto do valor do marco."
@@ -596,6 +613,7 @@ Na Alemanha, era comum a população atribuir a inflação ao aumento do dólar,
 
 Diante da crise monetária e econômica, a Alemanha recorreu ao "Notgeld" (moeda de necessidade). Essas notas, impressas pelas cidades ou por algumas empresas, foram projetadas para remediar a escassez de moeda corrente.
 De forma interessante, a França também recorreu ao Notgeld, especialmente na década de 1920. Essa iniciativa não foi apenas uma consequência direta da hiperinflação, mas também teve raízes nas perturbações causadas pela Primeira Guerra Mundial. A guerra não apenas desestabilizou a economia, mas também aumentou o custo dos metais. Portanto, o valor intrínseco das moedas de metal muitas vezes excedia seu valor nominal, o que levava as pessoas a guardá-las. Na ausência de moedas, algumas instituições, como a Câmara de Comércio de Lyon, imprimiram seu próprio Notgeld.
+
 ![image](assets/chapitre-3.3/0.PNG)
 
 > "O que precisa ser feito, precisa ser feito." - um ditado local
@@ -623,6 +641,7 @@ Para saber mais sobre a gestão da crise alemã, este livro também é fundament
 ![image](assets/chapitre-3.3/4.png)
 
 ### Paralelos contemporâneos
+
 1. Manipulação da política monetária para controlar a economia.
 Na história da República de Weimar, é evidente que os industriais eram relutantes em relação à valorização do Marco. Sua capacidade de tomar empréstimos e pagar suas dívidas com uma moeda fortemente desvalorizada lhes proporcionou uma vantagem considerável. Esse mecanismo facilitou a construção de enormes complexos industriais a custos quase nulos. Esses industriais temiam a valorização do Marco, pois isso prejudicava suas atividades. Alguns até viam a inflação galopante com bons olhos, acreditando que ela garantia emprego para a população. No entanto, eles não percebiam o impacto negativo dessa inflação na poupança e na economia em geral. Para esses atores econômicos, a impressão de dinheiro era uma bênção.
 
@@ -643,9 +662,11 @@ A história da República de Weimar revela que, durante esse período, os ativos
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Aproximadamente 300 bilhões de dólares das reservas russas mantidas no exterior foram congelados no âmbito das sanções ocidentais, de um total de 640 bilhões de dólares em reservas do Banco Central Russo."
 
 3. O conceito de preço de mercado
+
 > Weimar : "Les entreprises zombies"
 
 sont des entreprises qui sont en faillite mais qui continuent d'exister grâce à des prêts bancaires ou à des subventions gouvernementales. Ces entreprises ne sont pas viables économiquement et ne contribuent pas à la croissance économique. Elles occupent des ressources et des capitaux qui pourraient être utilisés de manière plus productive ailleurs. La persistance de ces entreprises zombies peut être un signe de distorsions dans l'économie et peut entraver la reprise économique. Il est important de prendre des mesures pour identifier et éliminer ces entreprises afin de favoriser un environnement économique sain et dynamique.
+
 Weimar: "A estabilização pôs fim ao período em que os empresários podiam tomar empréstimos à vontade às custas de todos os outros. Um grande número de empresas, criadas ou desenvolvidas durante a abundância monetária, rapidamente se tornaram improdutivas quando o capital se tornou escasso."
 Uma empresa zumbi é uma empresa que, em condições normais de mercado, seria insolvente ou à beira da falência, mas que continua a operar, principalmente devido a empréstimos de baixo custo. Essas empresas ganham apenas dinheiro suficiente para cobrir suas dívidas, mas são incapazes de crescer significativamente.
 
@@ -726,6 +747,7 @@ Aqui está uma visão geral da tumultuada história monetária da Bolívia, marc
 ![image](assets/chapitre-3.4/4.PNG)
 
 O Peru apresenta um caso interessante em relação aos efeitos da regra arbitrária de 50%. Começando por sua história monetária, o Peru usava o ouro espanhol até o século XIX e declarou sua independência em 1821. O dólar peruano estava em uso de 1822 a 1863. Em 1863, o real peruano foi substituído pelo soldi oro, com uma taxa de 10 para 1, atingindo um valor máximo de 50.000. Em 1985, a moeda "Inti" foi introduzida com uma taxa de conversão de 1000 para 1, atingindo 5 milhões. Em 1991, o "SOL" foi lançado com uma taxa de 1 milhão para 1, com notas variando de 10 a 200.
+
 Ao examinar os períodos de redenominação, 1988 é considerado um ano de hiperinflação, especialmente em setembro. Julho-agosto de 1990 também viu um período de hiperinflação. Em 1988, a inflação anual foi de 667%, com um pico de 50% em setembro. Por outro lado, em 1989, houve uma inflação de 3000% sem nenhum mês ultrapassando 50%, portanto, não foi classificado como hiperinflação. Em 1990, a inflação atingiu 7481%. É claro que a regra dos 50% pode ser arbitrária, pois 1988 foi considerado um ano de hiperinflação, ao contrário de 1989. Se essa regra fosse reconsiderada, talvez fosse prudente reduzir o limite para incluir períodos como o vivido pelo Peru em 1989.
 > Entendendo o que está acontecendo
 >
@@ -804,6 +826,7 @@ No entanto, a dolarização não é uma solução milagrosa. Embora possa acabar
 
 Em 2007, a taxa de inflação no Zimbábue atingiu o patamar de 50% ao mês, oficialmente marcando o país como estando em hiperinflação. Após a dolarização em 2009, a hiperinflação cessou, mas o país enfrentou outros desafios econômicos.
 É preocupante notar que o Zimbábue tentou reintroduzir sua própria moeda e sinais de alta inflação surgiram novamente. De acordo com algumas organizações internacionais, o país já pode estar preenchendo novamente os critérios de hiperinflação, mesmo que ainda não tenha atingido o limite oficial de 50% ao mês. Isso serve como um lembrete dos perigos da emissão excessiva de moeda e do financiamento do déficit pelo banco central.
+
 ## Conclusão
 
 No meu livro intitulado "Tudo sobre o Bitcoin", dediquei um capítulo inteiro à hiperinflação no Zimbábue. Nele, detalho os eventos marcantes, fornecendo diversos exemplos que ilustram como o país finalmente conseguiu acabar com a hiperinflação.

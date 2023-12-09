@@ -85,7 +85,6 @@ Figure3: Taux d'intérêt dans les principales économies / Source: BCE
 
 Contrairement à de nombreuses attentes, les programmes d'assouplissement quantitatif n'ont pas relancé de manière significative la croissance économique, mais ont fait grimper les actifs financiers à des niveaux historiques. Cela a principalement profité aux riches et aux institutions financières, car elles détenaient déjà des quantités importantes de ces actifs, creusant ainsi les inégalités de richesse. Étant donné la structure du système bancaire expliquée précédemment, ce résultat ne devrait pas surprendre. Étant donné que les réserves bancaires ne peuvent pas facilement circuler dans l'économie réelle, les programmes d'assouplissement quantitatif ont principalement stimulé les prix des actifs sans améliorer efficacement la situation financière des individus moyens.
 
-
 ### L'effet Cantillon
 
 Néanmoins, un principe économique essentiel peut être tiré de cet épisode : lorsque de l'argent neuf est créé, il profite initialement à ceux qui sont les plus proches de la source de l'argent, au détriment de ceux qui en sont plus éloignés. Cette notion économique remonte au XVIIIe siècle, lorsque Richard Cantillon l'a exposée dans son "Essai sur la nature du commerce en général". On l'appelle maintenant familièrement l'"effet Cantillon".
@@ -93,6 +92,7 @@ Néanmoins, un principe économique essentiel peut être tiré de cet épisode :
 ![image](assets/Image/4.png)
 
 Figure4: L'effet Cantillon en un coup d'œil / Source: River Financial
+
 Dans ce cas, les banquiers, les dirigeants de banque, les propriétaires d'actions et d'obligations, les promoteurs immobiliers, les prêteurs immobiliers et toute personne détenant des actifs financiers ou immobiliers ont reçu une manne financière, tandis que le fardeau est tombé sur tout le monde. Cette situation a perduré pendant des années et explique en grande partie l'accroissement des inégalités de richesse, le sentiment de marginalisation chez les travailleurs acharnés et la hausse apparemment inexorable des prix des actifs malgré une croissance économique anémique.
 En essence, le système est biaisé. Les banques sont intrinsèquement instables, mais leur faillite peut mettre en péril l'ensemble de l'économie. Ce risque moral incite les dirigeants de banque à prendre des risques excessifs pour maximiser les revenus de leur banque, sachant que la banque centrale les renflouera ultimement, transférant ainsi le coût aux contribuables. Dans de tels scénarios, les banquiers centraux créent les conditions d'un transfert massif du pouvoir d'achat des travailleurs acharnés et des épargnants vers les propriétaires d'actifs et ceux qui sont liés au système financier, dissociant ainsi le processus de création de richesse de l'accumulation de richesse.
 
@@ -282,7 +282,9 @@ Dans ce sens, la production de biens monétaires, en favorisant l'expansion de l
 ### Incertitude
 
 Pour conclure notre analyse de l'institution monétaire, nous devons aborder la question de l'action économique dans le contexte de l'incertitude inévitable concernant l'avenir.
+
 Comme l'ont souligné les économistes autrichiens, l'action humaine est limitée dans le temps et toujours orientée vers l'avenir. Lorsqu'un individu agit, il modifie sa condition présente dans l'espoir d'obtenir une satisfaction future. Cette projection mentale peut être orientée vers un avenir proche ou lointain, mais pour qu'un individu puisse se projeter à long terme, il doit d'abord assurer sa subsistance à court terme car sa condition dans un avenir proche affecte directement sa condition dans un avenir lointain.
+
 Cela découle directement de la rationalité humaine ; personne ne peut ignorer la nature séquentielle des phénomènes temporels et la dépendance chronologique qui en résulte, car c'est l'une des contraintes essentielles de la vie humaine. Par conséquent, puisque l'avenir reste toujours incertain pour les humains, ils chercheront à assurer leur survie à long terme uniquement une fois que leur survie à court terme est assurée.
 
 À cet égard, l'argent, en permettant le stockage de valeur dans le présent et son transfert vers son futur soi-même, joue un rôle crucial dans la coordination intertemporelle de l'action humaine. En stockant de l'argent, c'est-à-dire en épargnant, les individus se prémunissent contre l'incertitude future et leur permettent ainsi d'orienter leurs actions vers des horizons temporels plus longs. Cependant, ils ne peuvent y parvenir que si l'argent utilisé constitue une réserve de valeur, c'est-à-dire s'il a une valeur dans le temps, ce qui, comme mentionné précédemment, est une caractéristique des biens durables et relativement rares.
@@ -300,6 +302,8 @@ Ou, pour le dire autrement : en tant qu'être humain, nous déprécions la valeu
 Cette évaluation subjective de la valeur des biens futurs par rapport aux biens présents est appelée préférence temporelle. Tout le reste étant égal, les biens présents sont intrinsèquement préférés aux biens futurs. Étant donné que nous sommes mortels et que l'avenir est toujours incertain, nous préférons naturellement avoir accès à un bien maintenant plutôt que plus tard. Bien que la préférence temporelle puisse varier d'un individu à l'autre en raison de nombreux facteurs tels que la culture, la richesse, l'éducation, la physiologie, etc., les préférences temporelles sont toujours positives, ce qui signifie que tout étant égal, nous valorisons toujours plus les biens présents que les biens futurs.
 
 Ce concept de valorisation relative des biens futurs par rapport aux biens présents est à la base du phénomène de l'intérêt. En effet, dans une économie avec des marchés du capital non manipulés, les taux d'intérêt de référence (considérés comme sans risque de défaut) sont déterminés à l'intersection de l'offre et de la demande de capital. Par conséquent, ces taux représentent l'état des préférences temporelles pour l'ensemble de l'économie : une augmentation du taux d'intérêt résulte d'une augmentation relative de la demande de capital par rapport à l'offre, indiquant des préférences temporelles plus élevées. À l'inverse, une baisse des taux d'intérêt se produit en raison d'une augmentation de l'épargne, c'est-à-dire une augmentation de l'offre de capital, indiquant une réduction des préférences temporelles.
+
+![image](assets/Image/9.png)
 
 Dans une économie où les taux d'intérêt ne sont pas manipulés par la banque centrale, nous avons tendance à observer une courbe des rendements croissante : plus la maturité de la dette est longue, plus le taux d'intérêt est élevé. La situation inverse ne peut pas se produire car cela impliquerait que l'avenir est plus certain que le présent, ce qui est une impossibilité logique.
 

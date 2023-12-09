@@ -70,22 +70,45 @@ Questo dilemma ha dato origine alle moderne banche centrali. Nel XIX secolo in I
 
 Oltre a mantenere la stabilità finanziaria, le banche centrali sono responsabili della determinazione dei tassi di interesse chiave. Questi tassi determinano il costo a cui le banche autorizzate possono prendere in prestito fondi dalla banca centrale, definendo essenzialmente il costo della liquidità per le istituzioni finanziarie che svolgono un ruolo cruciale nel prestito nelle nostre economie. Pertanto, questi tassi fungono da punto di riferimento per l'intero sistema finanziario. Come individuo, gli interessi che paghi sul tuo mutuo possono essere suddivisi nel tasso di politica monetaria e nel margine della banca.
 
+![image](assets/Image/2.png)
+
+Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+
 Durante la grande crisi finanziaria del 2008, Lehman Brothers, una grande banca d'investimento, dichiarò bancarotta dopo aver subito perdite significative sui suoi titoli ipotecari e aver subito prelievi massicci da parte di clienti preoccupati. In risposta a questa crisi finanziaria senza precedenti, i banchieri centrali di tutto il mondo iniettarono grandi quantità di liquidità nei mercati finanziari, fusero banche d'investimento in difficoltà con banche commerciali e abbassarono i tassi di politica monetaria quasi a zero nel tentativo di evitare un collasso sistemico.
 
 Sebbene queste misure abbiano impedito una cascata di fallimenti, hanno fatto poco per alleviare il successivo rallentamento economico. Milioni di persone hanno perso il lavoro e la casa, la spesa dei consumatori è crollata, le imprese sono fallite e le banche hanno subito perdite consistenti. Nonostante i tassi di interesse storicamente bassi, pochi erano disposti a prendere in prestito, risultando in un circolo vizioso in cui la diminuzione iniziale della spesa e degli investimenti si rinforzava. Di conseguenza, i banchieri centrali hanno adottato ulteriori misure implementando programmi di Emissione Quantitativa (QE). Questi programmi prevedevano che le banche centrali acquistassero titoli di stato e titoli garantiti da ipoteche dalle banche commerciali con riserve della banca centrale.
 
+![image](assets/Image/3.png)
+
+Figure3 : Interest Rates Across Major Economies / Source: ECB
+
 Contrariamente a molte aspettative, i programmi di QE non hanno significativamente ravvivato la crescita economica, ma hanno inflazionato gli asset finanziari a livelli storici. Ciò ha beneficiato principalmente i ricchi e le istituzioni finanziarie, poiché già possedevano quantità consistenti di tali asset, ampliando così le disparità di ricchezza. Date le caratteristiche del sistema bancario spiegate in precedenza, questo risultato non dovrebbe sorprendere. Poiché le riserve bancarie non possono fluire facilmente nell'economia reale, i programmi di QE hanno principalmente aumentato i prezzi degli asset senza migliorare efficacemente la situazione finanziaria delle persone comuni.
 
+### The Cantillon Effect
+
 Tuttavia, da questo episodio può essere tratto un principio economico fondamentale: quando viene creato nuovo denaro, inizialmente beneficia coloro che sono più vicini alla fonte del denaro, a spese di coloro che sono più lontani. Questo principio economico risale al XVIII secolo, quando Richard Cantillon lo ha delineato nel suo "Saggio sulla natura del commercio in generale". Ora è comunemente noto come "Effetto Cantillon".
+
+![image](assets/Image/4.png)
+
+Figure4: Cantillon Effect in a Nutshell / Source: River Financial
+
 In questo caso, banchieri, dirigenti bancari, proprietari di azioni e obbligazioni, sviluppatori immobiliari, creditori immobiliari e chiunque detenga attività finanziarie o immobiliari ha ricevuto un guadagno finanziario, mentre il peso è ricaduto su tutti gli altri. Questa situazione è perdurata per anni ed è in gran parte responsabile dell'aumento dell'ineguaglianza della ricchezza, del senso di esclusione tra le persone che lavorano duramente e dell'apparentemente inarrestabile aumento dei prezzi degli asset nonostante la crescita lenta del PIL.
 
 In sostanza, il sistema è distorto. Le banche sono intrinsecamente instabili, ma il loro fallimento può mettere a rischio l'intera economia. Questo rischio morale incentiva i dirigenti bancari a prendere rischi eccessivi per massimizzare i ricavi della propria banca, sapendo che la banca centrale alla fine li salverà, spostando il costo sui contribuenti. In tali scenari, le banche centrali creano le condizioni per un massiccio trasferimento di potere d'acquisto dalle persone che lavorano duramente e risparmiano ai proprietari di asset e a coloro che sono collegati al sistema finanziario, scollegando così il processo di creazione della ricchezza dall'accumulo di ricchezza.
+
+![image](assets/Image/5.png)
+
+Figure5: Wealth Distribution in China + Europe + the US / Source: OECD
 
 ### Conseguenze delle politiche di tassi di interesse zero
 
 Durante periodi prolungati di politiche di tassi di interesse zero (ZIRP), le banche hanno poche opportunità per ricostruire il proprio patrimonio perché i loro margini vengono erosi. Le banche guadagnano tipicamente prendendo in prestito a tassi a breve termine e prestando a tassi a lungo termine. Tuttavia, quando le banche centrali acquistano grandi quantità di obbligazioni e fissano i tassi a zero, le banche hanno scarso incentivo a prestare, soprattutto a imprenditori e altri rischianti. Invece, allocano le loro risorse per securitizzare il capitale esistente o fornire prestiti garantiti per soddisfare la domanda di coloro che beneficiano dell'effetto Cantillon.
 
 Un'altra conseguenza non voluta della ZIRP è che incoraggia i governi a impegnarsi in una spesa estensiva. Poiché i governi non affrontano costi di prestito e possono fare affidamento sulle banche centrali per acquistare i loro titoli attraverso programmi di QE, hanno un incentivo naturale a spendere il più possibile, soprattutto in contesti democratici in cui la spesa può ottenere voti. Questa tendenza spesso non tiene conto delle conseguenze a lungo termine di tale prodigalità fiscale, portando a un aumento significativo dei livelli di debito pubblico nelle economie sviluppate dalla crisi finanziaria globale (GFC).
+
+![image](assets/Image/6.png)
+
+Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country) / Source IMF
 
 Con l'aumento dell'inflazione a causa della creazione di denaro in risposta ai blocchi legati al COVID, le banche centrali stanno ora aumentando i tassi di interesse per frenare l'inflazione. Tuttavia, ciò rappresenta una sfida significativa per l'intero sistema. Le banche sono più indebitate che mai, i governi hanno livelli di debito storicamente alti, la crescita economica è lenta, i deficit si accumulano e i consumatori, alle prese con l'aumento dei prezzi dei beni essenziali, faticano a far quadrare i conti. Controllare l'inflazione richiederebbe di aumentare i tassi a un livello che potrebbe far fallire i governi, mentre le banche rischiano di perdere i depositanti poiché le persone spendono i loro risparmi per beni essenziali sempre più costosi o cercano rifugio in asset reali e fondi del mercato monetario per proteggersi dall'inflazione.
 
@@ -269,6 +292,9 @@ O, per dirlo in modo diverso: come esseri umani svalutiamo il valore dei beni fu
 Questa valutazione soggettiva del valore dei beni futuri rispetto ai beni presenti è chiamata preferenza temporale. Tutto il resto essendo uguale, i beni presenti sono inherentemente preferiti rispetto ai beni futuri. Poiché siamo mortali e il futuro è sempre incerto, preferiamo naturalmente avere accesso a un bene ora piuttosto che in seguito. Sebbene la preferenza temporale possa differire tra gli individui, a causa di una miriade di fattori come cultura, ricchezza, istruzione, fisiologia, ecc., le preferenze temporali sono sempre positive, il che significa che tutto ciò che è uguale, valutiamo sempre di più i beni presenti rispetto ai beni futuri.
 
 Questo concetto di valutazione relativa dei beni futuri rispetto ai beni presenti è alla base del fenomeno dell'interesse. Infatti, in un'economia con mercati di capitale non manipolati, i tassi di interesse di riferimento (considerati privi di rischio di insolvenza) sono determinati dall'intersezione tra offerta e domanda di capitale. Pertanto, questi tassi rappresentano lo stato delle preferenze temporali per l'intera economia: un aumento del tasso di interesse deriva da un aumento relativo della domanda di capitale rispetto all'offerta, indicando preferenze temporali più elevate. Al contrario, una diminuzione dei tassi di interesse avviene a causa di un aumento del risparmio, ovvero un aumento dell'offerta di capitale, indicando una riduzione delle preferenze temporali.
+
+![image](assets/Image/9.png)
+
 
 In un'economia in cui i tassi di interesse non sono manipolati dalla banca centrale, tendiamo a osservare una curva dei rendimenti in salita: maggiore è la scadenza del debito, più alto è il tasso di interesse. La situazione opposta non può accadere perché comporterebbe che il futuro è più certo del presente, il che è una impossibilità logica.
 Il concetto di preferenza temporale e come esprimiamo la nostra preferenza temporale attraverso l'atto di consumo e risparmio è fondamentale per i processi di allocazione del capitale e di produzione. Rivolgiamoci allo studente di Menger, Eugen von Böhm-Bawerk, e alla sua teoria del capitale per capire esattamente come la preferenza temporale influisce sull'organizzazione della produzione.

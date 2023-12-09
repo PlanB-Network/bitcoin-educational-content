@@ -404,6 +404,7 @@ Vergrößern
 
 ![Bild](assets/chapitre-3.1/0.PNG)
 Es ist zu beachten, dass diese Definition, obwohl präzise, möglicherweise aufgrund der Strenge der 50%-Schwelle bestimmte Episoden von Hyperinflation ausschließt. Es besteht die Möglichkeit, diese Definition zu erweitern, um andere Episoden einzuschließen, die zwar nicht streng dem Kriterium von Cagan entsprechen, aber dennoch Zeiträume mit extrem hoher Inflation darstellen. Diese Beobachtung eröffnet die Tür zu einer umfassenderen Erforschung von Hyperinflationsphänomenen, die ein nuancierteres Verständnis ihrer Ursachen und Auswirkungen ermöglicht. In weiteren Diskussionen werden wir erwägen, diese Definition zu überarbeiten und Episoden von Hyperinflation zu untersuchen, die nicht durch das strenge Kriterium von Cagan abgedeckt sind.
+
 ### Die Definition von Hyperinflation nach Cagan
 
 Philip Cagan hat möglicherweise mit der Schwelle von 50% monatlicher Inflation einen willkürlichen Meilenstein gesetzt, um Hyperinflation zu definieren. Er gibt selbst zu, dass diese Definition willkürlich ist und hauptsächlich seiner Analyse basierend auf sieben Episoden von Hyperinflation diente. Die Untersuchung von Cagans Daten zeigt, dass die drei Episoden von Hyperinflation mit den niedrigsten monatlichen Inflationsraten bei etwa 47%, 46% und 57% lagen. Es scheint, dass die Schwelle von 50% gewählt wurde, um diese Fälle in seine Studie einzubeziehen.
@@ -425,6 +426,7 @@ Philip Cagan hat möglicherweise mit der Schwelle von 50% monatlicher Inflation 
 Diese Überlegungen führen uns dazu, die Starrheit der traditionellen Definition von Hyperinflation in Frage zu stellen und die Notwendigkeit zu betonen, möglicherweise diese Schwelle durch die Integration weiterer Episoden und historischer Daten zu überdenken. Die Definition von Hyperinflation könnte Flexibilität erfordern, um verschiedene Manifestationen extremer Inflation in verschiedenen wirtschaftlichen und historischen Kontexten zu umfassen.
 
 ### Die Definition von Hyperinflation gemäß dem International Accounting Standards Board (IASB)
+
 Die IASB bietet eine einzigartige Perspektive auf Hyperinflation, die sich auf die Rechnungslegungspraktiken in Zeiten von Hyperinflation konzentriert. Dieser Ansatz ist entscheidend für Buchhalter und Unternehmen, die in Umgebungen mit Hyperinflation tätig sind, in denen der Geldwert schnell schwankt. Die Richtlinien der IASB identifizieren verschiedene Indikatoren für Hyperinflation:
 
 - Vorliebe für nicht monetäre Güter:
@@ -448,6 +450,7 @@ Diese Definition, die von der IASB bereitgestellt wird, weicht von der strengen 
 
 Also, wie viele Hyperinflationen gibt es insgesamt?
 Gängige Definitionen von Hyperinflation, wie die von Kagan vorgeschlagene, die eine monatliche Inflation von 50% vorsieht, können manchmal irreführend oder vereinfachend sein. Zum Beispiel können zwei Länder mit jeweils einer jährlichen Inflationsrate von 1.000% und 3.000% je nach monatlicher Verteilung dieser Inflation unterschiedlich wahrgenommen werden. Wenn kein Monat die Schwelle von 50% überschreitet, würden diese Länder nach Kagan's Definition nicht als hyperinflationär gelten. Diese Herangehensweise kann daher zu Anomalien bei der Klassifizierung von Hyperinflation führen, insbesondere wenn kumulierte Inflationen über das Jahr verglichen werden.
+
 ![image](assets/chapitre-3.1/7.PNG)
 
 - Das Werk von Kagan, "Monetary Dynamics of Hyperinflation", das eine grundlegende Analyse der Hyperinflation darstellt.
@@ -469,6 +472,7 @@ Mehrere Bücher waren besonders aufschlussreich:
 
 - "When Money Dies" von Adam Ferguson, das die Hyperinflation nach dem Ersten Weltkrieg in Deutschland sowie in Österreich und Ungarn nachzeichnet.
 - Zwei Bücher über die Hyperinflation in Simbabwe, "Zimbabwe Warm Heart Ugly Face" und "Hard Boiled Egg Index" von Jérôme Gardner und Kudzai Joseph Gou Min-Yu, bieten bewegende Zeugnisse eines CEO einer Bekleidungsgeschäftskette und eines landwirtschaftlichen Bankiers über ihre Erfahrungen während dieser turbulenten Zeit.
+
 ![image](assets/chapitre-3.2/1.PNG)
 
 Beim Konsolidieren meiner Notizen habe ich eine Vielzahl von Ähnlichkeiten zwischen den Erfahrungen der Hyperinflation in Simbabwe und der Weimarer Republik festgestellt, obwohl 90 Jahre zwischen ihnen liegen. Ich habe etwa 17 Ähnlichkeiten identifiziert, von denen 13 eine Art Fortschritt hin zur wirtschaftlichen Katastrophe darstellen, die in diesen Zeugnissen beschrieben wird. Diese faszinierenden Parallelen zeigen die wiederholende und verheerende Natur der Hyperinflation über Zeiten und Grenzen hinweg. Heute werden wir uns diese Ähnlichkeiten und die Art und Weise, wie sie eine besorgniserregende Entwicklung während Hyperinflationsperioden darstellen, genauer ansehen.

@@ -1598,11 +1598,21 @@ HR Agency, Nigeria
 
 “In the HR industry, we have a lot of people to pay across different countries. And we simply cannot pay everyone in their national currency. With Tether USDt, we can pay everyone irrespective of their nationality and wherever they are working from, and they can exchange the USDt themselves whenever they want to.“
 
-__Conclusion__
+### __Conclusion__
 
 We hope you’ve found these stories inspiring. That said, it should be clear that stablecoins, such as USDt, play a pivotal role in enabling individuals access to fast and efficient international transfers, USD invoicing and payments, wages denominated in USD, and, most importantly, a relatively stable store of value compared to the countless volatile currencies. Without stablecoins, many of these individuals would face significant barriers when tapping into the global marketplace, connecting with international family members, or reaching otherwise inaccessible customers. Stablecoins have undeniably enhanced their financial connectivity and provided a valuable tool for navigating the complexities of our global economy.
 
-# EXAM module final , Asi0
+## Module 4 Exam
+
+
+Now that you went through the Module "Overcomming Doubts" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz. 
+
+1. How do you view the concept of value in relation to bitcoin? Do you think it is necessary for a currency to be backed by something tangible to be valuable?
+2. Reflecting on Roya Mahboob's work with the Digital Citizen Fund and the Women's Annex Foundation, what do you think are the key benefits of incorporating technology and Bitcoin into initiatives aimed at empowering women in developing countries?
+3. How important is financial independence for women's empowerment, particularly in countries where they face various forms of discrimination and limited opportunities? Can you think of other ways besides Bitcoin that could help women achieve financial independence in such contexts?
+4. Given Bitcoin’s ability to offer energy producers the ability to monetise energy directly, do you think this has significant benefits for energy producers and the overall energy market?
+5. Reflecting on the comparisons between Bitcoin's energy consumption and other industries, is it fair to single out Bitcoin for its energy usage? Why or why not?
+
 
 # Closing Remarks
 

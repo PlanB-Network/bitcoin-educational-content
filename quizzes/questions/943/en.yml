@@ -1,0 +1,10 @@
+question: How many countries around the world restrict women from opening bank accounts in their own name? 
+answer: 72 
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  In 72 countries around the world, women are not allowed to open 
+  bank accounts in their own names.
+reviewed: true

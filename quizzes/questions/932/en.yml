@@ -1,0 +1,12 @@
+question: What advantage does Bitcoin's network offer over traditional financial systems? 
+answer: Decentralisation and security 
+wrong_answers:
+  - Increased inflation rates
+  - Dependency on intermediaries
+  - Centralised control over transactions
+explanation: |
+  Bitcoin's decentralised network provides a secure and efficient way to 
+  transact without the need for intermediaries or third parties. This 
+  reduces the risk of censorship and unauthorised changes to transactions,
+  as well as increases privacy.
+reviewed: true

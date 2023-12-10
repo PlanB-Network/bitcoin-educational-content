@@ -38,8 +38,6 @@ Wenn Sie bereit sind, sich auf dieses Abenteuer einzulassen, lade ich Sie ein, a
 
 ## Geld, Kredit, Banken und Zentralbanken
 
-![Erklärung des traditionellen Bankensystems](https://youtu.be/pz0RxlXNs7Y)
-
 > "Das grundlegende Problem mit konventioneller Währung ist das Vertrauen, das erforderlich ist, um sie funktionieren zu lassen. Der Zentralbank muss vertraut werden, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voller Vertrauensbrüche. Den Banken muss vertraut werden, dass sie unser Geld halten und elektronisch übertragen, aber sie verleihen es in Wellen von Kreditblasen mit kaum einem Bruchteil als Reserve. Wir müssen ihnen in Bezug auf unsere Privatsphäre vertrauen, ihnen vertrauen, dass sie Identitätsdieben nicht erlauben, unsere Konten zu leeren."
 >
 > Satoshi Nakamoto, pseudonymer Erfinder von Bitcoin
@@ -72,15 +70,27 @@ Dieses Dilemma führte zur Entstehung der modernen Zentralbanken. Im 19. Jahrhun
 
 Zusätzlich zur Aufrechterhaltung der finanziellen Stabilität sind Zentralbanken für die Festlegung wichtiger Leitzinssätze verantwortlich. Diese Sätze bestimmen die Kosten, zu denen lizenzierte Banken Gelder von der Zentralbank leihen können und definieren im Wesentlichen die Kosten für Liquidität für die Finanzinstitute, die eine entscheidende Rolle bei der Kreditvergabe in unseren Volkswirtschaften spielen. Daher dienen diese Sätze als Benchmark für das gesamte Finanzsystem. Als Einzelperson setzen sich die Zinssätze, die Sie für Ihre Hypothek zahlen, aus dem Leitzins und der Marge der Bank zusammen.
 
+![image](assets/Image/2.png)
+
+Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+
 Während der großen Finanzkrise von 2008 erklärte die Investmentbank Lehman Brothers nach erheblichen Verlusten bei ihren Hypothekensicherheiten und massiven Abhebungen besorgter Kunden Insolvenz. Als Reaktion auf diese beispiellose finanzielle Turbulenz injizierten Zentralbanker weltweit große Mengen an Liquidität in die Finanzmärkte, fusionierten kämpfende Investmentbanken mit Geschäftsbanken und senkten die Leitzinsen nahezu auf null, um einen systemischen Zusammenbruch zu verhindern.
 
 Diese Maßnahmen verhinderten zwar eine Kaskade von Insolvenzen, trugen jedoch wenig zur Linderung der anschließenden wirtschaftlichen Verlangsamung bei. Millionen verloren ihre Arbeitsplätze und Häuser, der Konsum brach ein, Unternehmen gingen pleite und Banken erlitten erhebliche Verluste. Trotz historisch niedriger Zinsen waren nur wenige bereit, Kredite aufzunehmen, was zu einem Teufelskreis führte, in dem die anfängliche Verringerung von Ausgaben und Investitionen sich selbst verstärkte. Infolgedessen unternahmen Zentralbanker weitere Schritte, indem sie quantitative Lockerungsprogramme (QE) umsetzten. Diese Programme beinhalteten den Kauf von Staatsanleihen und hypothekenbesicherten Wertpapieren durch Zentralbanken von Geschäftsbanken mit Zentralbankreserven.
+
+![image](assets/Image/3.png)
+
+Figure3 : Interest Rates Across Major Economies / Source: ECB
 
 Im Gegensatz zu vielen Erwartungen belebten QE-Programme das Wirtschaftswachstum nicht signifikant, ließen jedoch die Finanzanlagen auf historische Höchststände steigen. Davon profitierten hauptsächlich Wohlhabende und Finanzinstitute, da sie bereits erhebliche Mengen solcher Vermögenswerte besaßen, was zu einer Vergrößerung der Vermögensunterschiede führte. Angesichts der zuvor erklärten Struktur des Bankensystems sollte dieses Ergebnis nicht überraschen. Da Bankreserven nicht leicht in die Realwirtschaft fließen können, haben QE-Programme hauptsächlich die Vermögenspreise gesteigert, ohne die finanzielle Situation durchschnittlicher Personen effektiv zu verbessern.
 
 ### Der Cantillon-Effekt
 
 Dennoch kann aus dieser Episode ein wesentliches wirtschaftliches Prinzip abgeleitet werden: Wenn neues Geld geschaffen wird, profitieren zunächst diejenigen, die dem Geld am nächsten stehen, auf Kosten derjenigen, die weiter entfernt sind. Dieses wirtschaftliche Prinzip geht auf das 18. Jahrhundert zurück, als Richard Cantillon es in seinem "Essay über die Natur des Handels im Allgemeinen" beschrieb. Es wird heute umgangssprachlich als "Cantillon-Effekt" bezeichnet.
+
+![image](assets/Image/4.png)
+
+Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
 In diesem Fall erhielten Banker, Bankvorstände, Aktien- und Anleihebesitzer, Immobilienentwickler, Immobilienkreditgeber und alle, die finanzielle Vermögenswerte oder Immobilien besitzen, einen finanziellen Gewinn, während die Last auf allen anderen lag. Diese Situation hielt jahrelang an und erklärt größtenteils die wachsende Ungleichheit des Reichtums, das Gefühl der Entfremdung bei fleißigen Menschen und den scheinbar unaufhaltsamen Anstieg der Vermögenspreise trotz schwachem BIP-Wachstum.
 
@@ -120,8 +130,6 @@ Im nächsten Kapitel werden wir uns mit dem grundlegenden Eckpfeiler jeder wirts
 > "Wert existiert nur im menschlichen Bewusstsein"
 >
 > Carl Menger, Grundsätze der Volkswirtschaftslehre
-
-![Einführung in die Österreichische Schule der Nationalökonomie](https://youtu.be/ZSDCepNNacI)
 
 ### Die Grenznutzentheorie
 
@@ -198,8 +206,6 @@ Aufbauend auf den Erkenntnissen des subjektiven ordinalen Werts erklärte Menger
 Die folgenden Kapitel werden sich mit dem Entstehen von Geld als soziale Institution, der Theorie des Kapitals und des Zinses, die als Grundlage für die Theorie des Konjunkturzyklus dienen wird, und schließlich der Rolle der Preise für die wirtschaftliche Berechnung befassen.
 
 ## Das Entstehen von Geld als soziales Phänomen
-
-![Geld](https://youtu.be/Dt8ounex2jg)
 
 Obwohl Individuen ein gemeinsames Interesse an Spezialisierung und Maximierung der Arbeitsteilung haben, gibt es dennoch Koordinationsprobleme, die diese Expansion begrenzen.
 
@@ -349,8 +355,6 @@ Dies werden wir im nächsten Kapitel, das der österreichischen Theorie des Konj
 
 ## Die österreichische Theorie des Konjunkturzyklus
 
-![Wirtschaftszyklen für die österreichische Schule](https://youtu.be/CrPE6mcOjx4)
-
 > "Je länger der Boom der inflationären Bankkredite anhält, desto größer ist der Umfang der Fehlinvestitionen in Sachkapital und desto größer ist die Notwendigkeit der Liquidation dieser unsoliden Investitionen. Wenn die Kreditausweitung stoppt, sich umkehrt oder sogar signifikant verlangsamt, werden die Fehlinvestitionen offenbart."
 >
 > Ludwig von Mises
@@ -419,8 +423,6 @@ Dies wird das Thema des nächsten und letzten Kapitels dieses Kurses sein.
 
 ## Die Unmöglichkeit der wirtschaftlichen Berechnung im Sozialismus
 
-![Die Unmöglichkeit der wirtschaftlichen Berechnung in einem sozialistischen System](https://youtu.be/E-9Fl6eg-mo)
-
 > "Wo es keine Marktpreise für die Produktionsfaktoren gibt, weil sie weder gekauft noch verkauft werden, ist es unmöglich, bei der Planung zukünftiger Handlungen und bei der Bestimmung des Ergebnisses vergangener Handlungen auf Berechnungen zurückzugreifen. Eine sozialistische Produktionsführung würde einfach nicht wissen, ob das, was sie plant und ausführt, das geeignetste Mittel ist, um die angestrebten Ziele zu erreichen. Sie wird gewissermaßen im Dunkeln operieren. Sie wird die knappen Produktionsfaktoren, sowohl materiell als auch menschlich (Arbeit), verschwenden. Chaos und Armut für alle werden zwangsläufig die Folge sein."
 >
 > Ludwig von Mises, Geplante Chaos
@@ -486,8 +488,6 @@ Hauptstrom-Ökonomen und Zentralplaner mögen österreichische Ökonomen oft nic
 Die österreichische Tradition verkörpert einen bescheidenen Ansatz zum menschlichen Handeln und zieht tiefgreifende Schlussfolgerungen aus den Konzepten des subjektiven Wertes, der Unsicherheit, des freien Willens und der Komplexität. Sie erklärt, wie die Marktordnung, obwohl sie nicht das Produkt menschlichen Designs ist, als zentrale Institution für unsere Entwicklung und Wohlstand steht. Wenn es eine wichtige Erkenntnis aus diesem Kurs gibt, dann ist es, dass der Kapitalismus zum dominierenden Wirtschaftssystem wurde, weil er sich in einer dynamischen und unsicheren Welt, bevölkert von freien Individuen, an Veränderungen anpassen kann.
 
 ## Die österreichische Methodik
-
-![Die österreichische Methodik](https://youtu.be/hMyYGwU76dI)
 
 Die österreichische Schule der Wirtschaft unterscheidet sich von anderen Schulen durch ihre axiomatisch-deduktive Methodik, die sich von dem positivistischen Ansatz unterscheidet, der in den Sozialwissenschaften häufig verwendet wird. Der positivistische Ansatz basiert auf Gesetzen, die aus empirischen Daten abgeleitet werden und eine ähnliche Methode wie die Naturwissenschaften verwenden. Er formuliert Hypothesen aus Beobachtungen, die dann durch vorübergehende Experimente bestätigt oder widerlegt werden. Die wissenschaftliche Methode besteht darin, die Hypothese beizubehalten, die die Daten am besten erklärt, und sie weiter zu erforschen, bis eine präzisere Hypothese gefunden wird.
 

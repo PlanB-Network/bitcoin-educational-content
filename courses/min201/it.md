@@ -58,8 +58,6 @@ Pronti per iniziare questa avventura affascinante? Tuffiamoci insieme nel mondo 
 
 ## Spiegazione del mining
 
-![Cos'è il mining di bitcoin?](https://www.youtube.com/watch?v=neEQzEQzmPQ)
-
 ### Il Mining Spiegato: L'Analogia del Puzzle
 
 Per spiegare in modo semplificato il concetto di mining, si può utilizzare un'analogia pertinente: quella del puzzle. Come un puzzle, il mining è un compito complesso da completare, ma facile da verificare una volta completato. Nel contesto del mining di Bitcoin, i minatori cercano di risolvere rapidamente un puzzle digitale. Il primo minatore a risolvere il puzzle presenta la sua soluzione all'intera rete, che può quindi verificarne facilmente la validità. Questa verifica di successo consente al minatore di convalidare un nuovo blocco e aggiungerlo alla blockchain di Bitcoin. In riconoscimento del loro lavoro, che comporta costi significativi, il minatore viene ricompensato con un certo numero di bitcoin. Questa ricompensa costituisce un incentivo finanziario per i minatori a continuare il loro lavoro di convalida delle transazioni e di sicurezza della rete Bitcoin.
@@ -96,10 +94,10 @@ Per quanto riguarda l'evoluzione delle macchine per il mining di Bitcoin, è imp
 Di fronte all'evoluzione tecnologica costante nel campo del mining, i professionisti devono posizionarsi strategicamente. L'industria del mining è soggetta a continue innovazioni, come dimostra il recente lancio della versione J del S19, e l'attesa del S19 XP, che offrirà capacità di mining nettamente superiori. Inoltre, i miglioramenti non sono solo legati alle prestazioni grezze delle macchine. Ad esempio, il nuovo modello S19 XP utilizza un sistema di raffreddamento a liquido, una modifica tecnica che consente un miglioramento significativo dell'efficienza energetica. Sebbene l'innovazione rimanga una costante, i futuri guadagni di efficienza saranno probabilmente inferiori rispetto a quelli finora osservati, a causa del raggiungimento di una certa soglia di innovazione tecnologica.
 
 ![image](assets/overview/chipevolution.png)
-In conclusione, l'industria del mining di Bitcoin continua ad adattarsi e svilupparsi, e gli attori del settore devono anticipare guadagni di efficienza sempre più limitati in futuro e adeguare di conseguenza le loro strategie. Gli sviluppi tecnologici futuri, sebbene ancora presenti, probabilmente avverranno su una scala più ridotta, riflettendo una crescente maturità del settore.
-## L'industria del mining
 
-![Il mining di Bitcoin troppo centralizzato? Rischi e soluzioni](https://www.youtube.com/watch?v=xkiY8DgkcLQ)
+In conclusione, l'industria del mining di Bitcoin continua ad adattarsi e svilupparsi, e gli attori del settore devono anticipare guadagni di efficienza sempre più limitati in futuro e adeguare di conseguenza le loro strategie. Gli sviluppi tecnologici futuri, sebbene ancora presenti, probabilmente avverranno su una scala più ridotta, riflettendo una crescente maturità del settore.
+
+## L'industria del mining
 
 ### I pool di mining
 
@@ -183,11 +181,11 @@ Per quanto riguarda la questione di cosa dovrebbe essere incluso in un blocco Bi
 Con la prevista crescita del Lightning Network e l'aumento conseguente delle aperture e delle chiusure dei canali, lo spazio nei blocchi Bitcoin diventerà sempre più prezioso. La comunità Bitcoin tende già a valorizzare la preservazione di questo spazio, riconoscendone la limitazione intrinseca. Questa consapevolezza ha portato a discussioni sull'uso legittimo o meno dello spazio dei blocchi, con preoccupazioni riguardanti lo "spam" sulla blockchain tramite transazioni considerate non essenziali.
 
 ![image](assets/overview/block.png)
+
 La speculazione circonda l'uso futuro dello spazio dei blocchi, ma è generalmente accettato che sia una risorsa rara che dovrebbe essere utilizzata saggiamente. Anche se c'è il desiderio di riempirlo, è essenziale preservarlo per garantire la sostenibilità a lungo termine della rete Bitcoin, in previsione di un futuro aumento della domanda di spazio nei blocchi. Come in ogni mercato libero, l'offerta e la domanda regoleranno l'uso dello spazio dei blocchi. Con un'offerta limitata, le parti interessate dovranno fare scelte informate sull'uso di questo prezioso spazio per garantire l'efficienza e la sicurezza a lungo termine della rete Bitcoin.
 
 ## Il mining nel protocollo Bitcoin
 
-![Chi ha il potere? Bitcoin, energia e produttori](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
 Il ruolo dei minatori nella rete Bitcoin è stato oggetto di intenso dibattito durante la guerra dei blocchi. Sebbene siano essenziali per la sicurezza e la funzionalità della rete, i minatori non detengono necessariamente il potere ultimo nell'ecosistema Bitcoin. L'equilibrio tra i minatori, i nodi e gli utenti finali garantisce l'integrità e la distribuzione della rete.
 
@@ -245,20 +243,15 @@ Di fronte a campagne come quelle di Greenpeace e ai dati spesso ingannevoli di a
 
 In conclusione, nonostante il rischio normativo e la possibilità di un divieto del mining in Europa, l'arma più potente rimane l'educazione e l'informazione. Una comprensione chiara e precisa del mining, del suo funzionamento e del suo impatto può contribuire a demistificare l'industria e combattere la disinformazione, offrendo così una migliore resistenza alle potenziali regolamentazioni dannose. L'iniziativa di formare e informare le persone sul mining, come fa questa discussione, è un passo nella giusta direzione per garantire la sostenibilità e la crescita del mining in Europa e in tutto il mondo. Gli sforzi continui per educare e informare sono essenziali per assicurare un futuro sicuro e prospero per l'industria del mining di Bitcoin.
 
-## Intervista a un professionista dell'industria del mining
-
-### Dietro le quinte del mining industriale - Sebastien Gouspillou
-
-![Dietro le quinte del mining industriale - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Home-mining e riutilizzo del calore
 
 ## Attakai - il home-mining reso possibile e accessibile!
 
-![Vi presentiamo Attakaï!](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
-
 Attakai, che significa "la temperatura ideale" in giapponese, è il nome dell'iniziativa volta a scoprire il mining di bitcoin attraverso il riutilizzo del calore, lanciata da @ajelexBTC e @jimzap21 con Découvre Bitcoin.
+
 Questa guida per il retrofitting di un ASIC servirà come base per imparare di più sul mining, il suo funzionamento e l'economia sottostante, dimostrando la possibilità di adattare un minatore di Bitcoin per l'uso come radiatori nelle abitazioni. Ciò offre maggiore comfort ed efficienza energetica, consentendo ai partecipanti di ottenere cash back in BTC non KYC sulla loro bolletta di riscaldamento elettrico.
+
 Bitcoin regola automaticamente la difficoltà del mining e ricompensa i minatori per la loro partecipazione, tuttavia, la concentrazione dell'hashrate può rappresentare un rischio per la neutralità della rete. Utilizzare la potenza di calcolo di Bitcoin per soluzioni di riscaldamento beneficia direttamente la rete stessa, aumentando la distribuzione della potenza di calcolo.
 
 ### Perché riutilizzare il calore di un ASIC?

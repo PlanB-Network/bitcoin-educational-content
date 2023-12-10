@@ -1,0 +1,12 @@
+question: How do stablecoins, such as USDt, achieve relative stability in value? 
+answer: They are pegged to a stable asset or currency. 
+wrong_answers:
+  - They are backed by a central authority or government.
+  - They rely on blockchain technology for secure transactions.
+  - They are subject to fluctuations similar to other cryptocurrencies.
+explanation: |
+  Stablecoins maintain relative stability in value by being pegged 
+  to a more stable asset or currency, such as the US dollar or gold.
+  This pegging helps mitigate the volatility often associated with other 
+  digital assets like Bitcoin.
+reviewed: true

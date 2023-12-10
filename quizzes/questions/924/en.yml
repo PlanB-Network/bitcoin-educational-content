@@ -1,0 +1,11 @@
+question: What is one reason fiat currency leads to centralised control? 
+answer: It allows governments to control the money supply and interest rates. 
+wrong_answers:
+  - It is backed by physical commodities like gold and silver. 
+  - It is resistant to inflation. 
+  - It encourages decentralised financial systems.
+explanation: |
+  Fiat currency gives governments the power to control the money supply and
+  interest rates, allowing them to influence economic activity and resulting
+  in centralised control.
+reviewed: true

@@ -1,0 +1,11 @@
+question: What is the primary reason for short-term price volatility in stablecoins? 
+answer: Low liquidity levels on exchanges 
+wrong_answers:
+  - Lack of reserves to meet withdrawal demands
+  - Hacks compromising the stablecoin
+  - Depegging of stablecoins
+explanation: |
+  Short-term price volatility in stablecoins is often a result 
+  of liquidity issues, where smaller exchanges may lack the capability 
+  to meet customer demands, causing temporary price fluctuations.
+reviewed: true

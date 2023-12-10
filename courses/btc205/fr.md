@@ -18,13 +18,18 @@ Nous allons donc explorer les différents types de KYC (les full KYC type France
 
 # Introduction
 
+## Explication & type de KYC
+
+### Introduction
+
 ![introduction par Rogzy](https://youtu.be/3AHeKLTK7Sg)
 
-## Explication & type de KYC
+### Explication
 
 ![explication des types de KYC](https://youtu.be/kDhXoPU1KtM)
 
 Le KYC, pour "Know Your Customer" (Connaissez votre client), est une norme réglementaire qui requiert la collecte d'informations privées des clients, telles que leur adresse physique, leur pièce d'identité, ou encore leurs relevés bancaires. Cette pratique est courante sur les plateformes de courtage, qui peuvent demander un KYC complet, comprenant des informations détaillées comme une pièce d'identité, une photo, un justificatif de domicile, des fiches de salaire, etc.
+
 L'objectif principal du KYC est de lutter contre le blanchiment d'argent, le financement du terrorisme et l'évasion fiscale. Il s'agit d'une loi mise en place par l'AMF (Autorité des marchés financiers), l'organe de régulation du marché français. Toutefois, l'application du KYC entraîne la centralisation de bases de données très sensibles contenant des informations personnelles des utilisateurs. Ces informations, ayant une certaine valeur, peuvent être vendues à des entités malveillantes.
 
 En outre, les plateformes d'échange demandent souvent une quantité excessive d'informations personnelles, mettant ainsi les utilisateurs en danger et augmentant les coûts de conformité. Ces coûts réglementaires peuvent décourager les entreprises françaises et nuire à leur compétitivité à l'échelle internationale.
@@ -34,8 +39,11 @@ Dans ce cadre, les autorités suisses peuvent accéder aux informations bancaire
 En France, l'achat de bitcoins en ligne nécessite l'envoi d'argent à un tiers, par virement SEPA ou Paypal. Pour ceux qui privilégient l'anonymat, la sécurité et la vie privée, des solutions d'achat de bitcoins en espèces sont également disponibles. Pour des volumes faibles, l'achat de bitcoins en espèces est une option à la fois simple et légale.
 
 Pour pouvoir vendre quotidiennement des PLT de 100 euros de bitcoin à tout le monde, une régulation par l'AMF (Autorité des Marchés Financiers) est nécessaire. En France, cette régulation s'applique principalement aux particuliers qui réalisent des volumes importants de transactions. Les deux autres méthodes d'achat de bitcoin incluent l'utilisation de guichets automatiques (ATM) et les échanges entre amis. Les ATM sont régulés et nécessitent une pièce d'identité pour des transactions supérieures à 500 euros. L'échange entre amis, quant à lui, offre une exposition au bitcoin de manière plus discrète.
+
 Ces mesures régulatoires sont en place pour contrer le financement du terrorisme, l'évasion fiscale et le blanchiment d'argent. Le bitcoin, en tant que base de données entièrement traçable, rend le blanchiment d'argent particulièrement difficile. L'utilisation de Bitcoin par les criminels peut être retracée, ce qui fait du Bitcoin un outil peu efficace pour le blanchiment d'argent.
+
 Il est important de noter que cette formation présente diverses alternatives, ainsi que des outils qui peuvent être utilisés à des fins malveillantes ou non. De plus, elle offre des explications sur le fonctionnement des order books entre les makers (fournisseurs d'ordres) et les takers (preneurs d'ordres).
+
 Il est également important de noter que l'information présentée ici n'endosse aucune solution en particulier. Il s'agit simplement de présenter les options disponibles pour une meilleure compréhension du sujet. Pour toute question supplémentaire sur le Bitcoin, n'hésitez pas à consulter des ressources en ligne telles que www.découvrebitcoin.com.
 
 ## Comparatif des solutions d’achat-vente en pair à pair

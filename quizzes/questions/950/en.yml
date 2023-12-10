@@ -1,0 +1,11 @@
+question: What is one reason why it is important to conduct thorough research before trusting a stablecoin? 
+answer: Some stablecoins lack transparency and diligence 
+wrong_answers:
+  - Stablecoins have no risks associated with them
+  - Stablecoins are always fully backed by reserves
+  - Some stablecoins are regulated by the government
+explanation: |
+  Not all stablecoins offer the same level of transparency. 
+  Therefore, it is important to conduct thorough research 
+  before entrusting significant wealth to any particular stablecoin.
+reviewed: true

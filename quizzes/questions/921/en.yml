@@ -1,0 +1,11 @@
+question: Which of the following is necessary for a successful transaction in a barter system? 
+answer: A double coincidence of wants 
+wrong_answers:
+  - A common unit of account
+  - A central banking authority 
+  - A minimun balance requirement
+explanation: |
+  In a barter system, transactions take place directly between two parties exchanging goods or 
+  services without the use of money. A successful transaction requires a double coincidence of 
+  wants, meaning that both parties must have something the other wants to trade.
+reviewed: true

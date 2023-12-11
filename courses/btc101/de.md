@@ -84,7 +84,7 @@ Bevor der Begriff "Bitcoin" mit digitaler Währung und finanzieller Transformati
 
 ### Die Cypherpunks: Visionäre der digitalen Welt
 
-![image](assets/de/chapter0/0.png)'
+![image](assets/de/chapter0/0.png)
 
 Im Herzen der technologischen Entwicklung der 1980er und 1990er Jahre begann eine Gruppe von Menschen, sich intensiv mit der Rolle von Privatsphäre und Freiheit im digitalen Zeitalter auseinanderzusetzen. Diese Personen, die später als "Cypherpunks" bekannt wurden, glaubten fest daran, dass Kryptographie als Werkzeug dienen könnte, um individuelle Rechte vor staatlicher Einmischung und großen Unternehmen zu schützen.
 Bedeutende Persönlichkeiten wie Julian Assange, Wei Dai, Tim May und David Chaum trugen dazu bei, die Philosophie und Vision der Cypherpunks zu definieren. Diese Denker teilten ihre Ideen in einer einflussreichen Mailingliste, in der Teilnehmer aus der ganzen Welt darüber debattierten, wie Technologie am besten genutzt werden kann, um größere individuelle Freiheit zu gewährleisten.
@@ -279,7 +279,8 @@ Die Bewältigung einer Hyperinflationskrise erfordert oft radikale Veränderunge
 
   Deutschland hatte enorme Geldbeträge aufgenommen, um den Kriegsanstrengungen zu finanzieren, und nicht nur, dass Deutschland den Krieg nicht gewonnen hat, es musste auch Milliarden von Dollar an Reparationen zahlen. Der Monat mit der höchsten Inflation war Oktober 1923 mit einem Höhepunkt von 29.500 %, was einer täglichen Inflation von 20,9 % entspricht. Die Preise verdoppelten sich alle 3,7 Tage!
   Man erzählt, dass in Restaurants die Kellner alle 30 Minuten die Menüpreise bekanntgeben mussten, um die Inflation zu berücksichtigen. Die deutsche Währung wurde so nutzlos, dass einige Bürger ihr Papiergeld lieber verbrannten als Holz, weil es tatsächlich billiger war.
-  ![image](assets/de/chapter3/5.png)
+  
+![image](assets/de/chapter3/5.png)
 
 - Ungarn, 1945-1946
 
@@ -414,6 +415,7 @@ In dieser Branche verwenden wir Wallets, um mit dem Bitcoin-Netzwerk zu interagi
 Ein Wallet kann eine Software auf Ihrem Computer, eine App auf Ihrem Smartphone, ein physisches Gerät wie ein USB-Stick oder sogar ein Stück Papier sein. Diese verschiedenen Arten von Bitcoin-Wallets erfüllen jeweils unterschiedliche Anwendungsfälle. Einige dienen für große Beträge mit Schwerpunkt auf Sicherheit, andere auf Privatsphäre oder auf die tägliche Zahlung kleiner Beträge.
 
 'Portfolios werden daher in große Nutzungsfamilien unterteilt, wobei immer eine zentrale Frage im Mittelpunkt steht: Sind Sie Eigentümer der Mittel oder überlassen Sie die Kontrolle über Ihr Geld einem Dritten? Wir werden in Kapitel 6 ausführlich auf dieses Thema eingehen, aber die Idee ist einfach: Befindet sich das Geld in Ihrer Tasche oder in der Ihres Bankiers!
+
 ![image](assets/de/chapter5/3.png)
 
 ### Wie funktioniert eine Bitcoin-Brieftasche?
@@ -440,7 +442,7 @@ Es ist also wichtig zu verstehen, dass wir dank dieser Technologie problemlos Bi
 
 Obwohl Ihre Schlüssel in Ihrer Brieftasche gespeichert sind, sind die Bitcoins selbst tatsächlich in der Bitcoin-Blockchain "gespeichert", die ein öffentliches verteiltes Register im Bitcoin-Peer-to-Peer-Netzwerk ist (wir werden dies in Abschnitt 3 genauer betrachten). Daher bedeutet der Verlust des Geräts, auf dem sich Ihre Brieftasche befindet, nicht unbedingt den Verlust Ihrer Bitcoins. Was es Ihnen ermöglicht, Ihre Brieftasche neu zu erstellen und Ihre Bitcoins auszugeben, ist der private Schlüssel. Es ist daher entscheidend, diesen gut zu sichern.
 
-![image](assets/de/chapter5/1.png)'
+![image](assets/de/chapter5/1.png)
 
 Glücklicherweise kann dieser private Schlüssel seit 2017 in einer einfachen Liste von 12 oder 24 Wörtern codiert werden, die als mnemonischer Satz bezeichnet wird. Dieser Satz ist eine Sicherungskopie Ihrer Bitcoin-Brieftasche und ermöglicht es Ihnen, Ihre Brieftasche mit jeder Bitcoin-Brieftaschen-Software/-App wiederherzustellen. Jede Person, die Zugriff auf diese Wortliste hat, hat Zugriff auf Ihre Bitcoins.
 
@@ -474,6 +476,7 @@ Es gibt keine universelle Lösung. Nehmen Sie sich also Zeit, um diese Fragen zu
 Lassen Sie uns hier versuchen, mehrere Sicherheitsstufen für Ihre Bitcoins festzulegen:
 
 - **Niveau 0**, Sie verwenden einen sogenannten Treuhanddienst, bei dem Sie nicht der alleinige Inhaber Ihrer Bitcoins sind. Achten Sie darauf, dass dieser Vertrauensdritte jederzeit den Zugriff auf Ihre Gelder einschränken kann und Sie das gleiche Maß an finanzieller Souveränität haben wie bei einem traditionellen Bankensystem über ein Bankkonto.
+
   ![image](assets/de/chapter6/2.png)
 
 - **Niveau 1**, Sie verwenden eine Bitcoin-Wallet auf Ihrem Telefon oder Computer, bei der Sie der alleinige Inhaber Ihrer Bitcoins sind. Sie können Ihre Transaktionen problemlos durchführen. Achten Sie jedoch darauf, dass Sie zur Wiederherstellung des Zugriffs auf Ihre Gelder im Falle eines Verlusts Ihres Telefons oder Computers ein Backup der mnemonischen Phrase erstellen müssen. Es wird oft von einer "Hot Wallet" gesprochen, da der private Schlüssel in einem Gerät mit Internetzugang gespeichert ist.
@@ -638,7 +641,7 @@ Konkret öffnet Alice ihre Wallet und drückt auf "Empfangen". Ein QR-Code oder 
 
 Dann initiiert Bob die Transaktion, indem er Alices Empfangsadresse verwendet. Bob öffnet also seinerseits seine Bitcoin-Wallet, drückt auf "Senden", kopiert die Adresse, fügt einen Betrag und Transaktionsgebühren hinzu. Diese Gebühren sind ein Anreiz für die Miner, die Transaktion in den nächsten Block aufzunehmen.
 
-![image](assets/de/chapter10/1.png)'
+![image](assets/de/chapter10/1.png)
 
 > **Warum Gebühren zahlen?** Diese Gebühren sind notwendig, um einen freien Markt für die Einbeziehung von Transaktionen in Blöcke zu schaffen, da die Anzahl der Transaktionen in einem Block begrenzt ist. Ein Block hat eine Größe von 1 MB, was ein paar tausend Transaktionen pro Block entspricht. Die Gebühren einer Transaktion sind proportional zu ihrer Größe. Die Größe der Transaktion hängt wiederum von der Komplexität der Transaktion ab.
 
@@ -662,7 +665,7 @@ Dieser Proof of Work erfordert das Finden eines gültigen "Hash" für den betref
 
 Dieser neue gültige Block wird zur Bitcoin-Blockchain hinzugefügt, die ein öffentliches und unveränderliches Register aller Bitcoin-Transaktionen ist. Stellen Sie es sich als ein gemeinsames Konto vor, das von allen Bitcoin-Benutzern genutzt wird. Gemäß den Regeln des Protokolls wird etwa alle zehn Minuten ein Block hinzugefügt, dank der Anpassung der Schwierigkeit. In dem Abschnitt über die Miner werden wir sehen, welcher Mechanismus verhindert, dass das Register der Bitcoin-Transaktionen geändert wird.
 
-![image](assets/de/chapter10/5.png)'
+![image](assets/de/chapter10/5.png)
 
 ### Schritt 4: Der Block wird vom Wallet-Knoten von Alice als gültig und überprüft angesehen.
 
@@ -766,7 +769,7 @@ Im Laufe der Jahre haben sich die Miner mit immer effizienterer Hardware ausgest
 
 Die Hashrate des Bitcoin-Netzwerks ist sozusagen die Menge der Versuche, die pro Sekunde unternommen werden, um den nächsten Block zu finden. Heute liegt sie bei etwa 400 TH/s, was 400 Billionen Versuchen pro Sekunde entspricht! Je höher die globale Hashrate, desto schwieriger ist es für einen böswilligen Akteur, die Ressourcen für die Mehrheit des Minings zu monopolisieren und eine doppelte Ausgabe zu tätigen. Es ist also wirtschaftlich sinnvoller, die Regeln des Bitcoin-Protokolls zu befolgen, als gegen sie zu handeln. Dies wirft eine Frage auf: Wie werden die Miner bezahlt?
 
-!image](assetsoncept/capitel1216.png)
+![image](assets/de/chapter12/16.png)
 
 ### Was kann man in einem Block finden?
 
@@ -815,7 +818,7 @@ Wir haben gerade im vorherigen Abschnitt gesehen, dass die Sicherheit des Bitcoi
 
 Zunächst bewerten wir qualitativ die Umweltkosten des Minings. Ein Miner muss sich mit einer Maschine wie einem ASIC und einer Energiequelle in Form von Strom ausstatten, um diese Maschinen zu betreiben. ASICs bestehen hauptsächlich aus Aluminium und können entweder recycelt oder für eine zweite Verwendung wiederverwendet werden (wie es das Projekt [Attakaï](https://decouvrebitcoin.fr/attakai/) gezeigt hat, das einen Antminer S9 in eine Zusatzheizung umwandelt). Der eigentliche Kritikpunkt ist also der Energieverbrauch. Versuchen wir also, dies genauer zu betrachten.
 
-![image](assets/de/chapter13/1.png)'
+![image](assets/de/chapter13/1.png)
 
 Die elektrische Energie ist der Hauptkostenfaktor für einen Miner. Daher ist er daran interessiert, eine kostengünstige Stromquelle zu finden. Da Miner mobil sind, können sie an Orte gehen, an denen Kraftwerke installiert sind, die jedoch noch nicht mit dem Stromnetz des Gebiets verbunden sind. Die Miner spielen die Rolle des letzten Käufers, wodurch Kraftwerke finanziert werden können, noch bevor sie an das Stromnetz angeschlossen sind. Und wenn sie es sind, wird die Nachfrage nach Strom steigen, was den Preis erhöht und es für den Miner weniger rentabel macht, an diesen Orten Strom zu beziehen. Der Miner wird dann entscheiden, seine Anlage zu verlegen und sich an einem Ort niederzulassen, an dem die Nachfrage gering ist und daher auch der Preis.
 
@@ -835,13 +838,11 @@ Schließlich ist es wichtig, die wirtschaftlichen und Umweltauswirkungen der Ein
 
 Insbesondere durch den Vergleich mit dem aktuellen Finanzsystem. Das Finanzsystem ist aufgrund seiner Anreize für übermäßigen Konsum und Verschuldung problematisch. Der leichte Zugang zu Krediten, die Geldausgabe durch die Banken und der Rückgriff auf die fraktionelle Reserve sind allesamt Faktoren, die Überschuldung und damit übermäßigen Konsum fördern.
 
-!image](assetsConceptCapitel1312.png)
+![image](assets/de/chapter13/12.png)
 
 Es ist notwendig, das Geldsystem zu reformieren, damit die Knappheit unserer Ressourcen sich in der Knappheit unserer Währung widerspiegelt. Dies wird einen verantwortungsvolleren Konsum und eine langfristige Sichtweise fördern. Umgekehrt hat die Inflation, die zu Konsum und Investitionen anregt, auf lange Sicht negative Auswirkungen auf die Umwelt.
 
 Das heutige Finanzsystem entspricht den Vorstellungen der keynesianischen Ökonomie, die im Gegensatz zu denen der österreichischen Ökonomie den zeitlichen und dynamischen Aspekt von Situationen und Ressourcen nicht berücksichtigt. Mit anderen Worten: Eine unbegrenzte Währung kann die begrenzten Ressourcen unseres Planeten nicht effektiv widerspiegeln.
-
-!image](assetsConceptCapitel132.png)
 
 Politiker sind aufgrund ihrer kurzfristigen Sichtweise und dem Bedürfnis nach Wirtschaftswachstum, um wiedergewählt zu werden, nicht in der Lage, ökologische Probleme langfristig zu lösen. Im Gegensatz dazu ist die Einführung einer gesunden Währung wie Bitcoin eine potenzielle Alternative, die es ermöglichen könnte, die wirtschaftliche Macht wieder an die Menschen zurückzugeben.
 

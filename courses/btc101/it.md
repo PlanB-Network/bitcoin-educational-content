@@ -1206,7 +1206,7 @@ Congratulazioni per aver completato questa formazione BTC 101! Spero sincerament
 
 - [BTC 102](https://planb.network/courses/btc102) ti aiuterà a creare il tuo piano Bitcoin
 - [LN 201](https://planb.network/courses/ln201) e [LN 202](https://planb.network/courses/ln202) ti permetteranno di scoprire Lightning Network, una rete di pagamenti di secondo livello.
-  '- [ECON 201](https://planb.network/courses/econ201) affronterà l'economia austriaca
+- [ECON 201](https://planb.network/courses/econ201) affronterà l'economia austriaca
 - [SECU 101](https://planb.network/courses/secu101) ti permetterà di aggiornare la tua sicurezza digitale
 - [MINAGE 201](https://planb.network/courses/min201) per saperne di più sul mining
 - e molti altri...

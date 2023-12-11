@@ -620,7 +620,8 @@ On January 3, 2009, Satoshi officially inaugurates the Bitcoin network by creati
 
 > "We can win a major battle in the arms race and gain a
 > new territory of freedom for several years.” - Satoshi Nakamoto
-> ![image](assets/en/chapter9/7.png)
+
+![image](assets/en/chapter9/7.png)
 
 ### The Bitcoin protocol begins to live
 
@@ -671,7 +672,7 @@ In concrete terms, Alice opens her wallet and presses "receive". A QR code or ad
 
 Bob then initiates the transaction using Alice's reception address. Bob in turn opens his Bitcoin wallet, presses "send", copies and pastes the address, adds an amount and a transaction fee. These fees are an incentive for miners to include the transaction in the next block.
 
-![image](assets/en/chapter10/1.png)'
+![image](assets/en/chapter10/1.png)
 
 > **Why pay fees?** These fees are essential to create a free market for including transactions in blocks, as the number of transactions in a block is limited. In fact, a block has a size of 1 MB, which corresponds to a few thousand transactions per block. The fees of a transaction are proportional to its size. The size of the transaction, in turn, depends on the complexity of the transaction.
 

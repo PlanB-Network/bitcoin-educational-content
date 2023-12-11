@@ -1,0 +1,9 @@
+question: Anyone can duplicate the Bitcoin code, making it worthless, correct or incorrect? 
+answer: Correct
+wrong_answers:
+  - Incorrect
+explanation: |
+  While the code for Bitcoin is open source and can be copied, 
+  the value of bitcoin is not derived from its code. It is derived from 
+  its network of users and the trust and adoption it has built up over time.
+reviewed: true

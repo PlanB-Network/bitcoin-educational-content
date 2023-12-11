@@ -1,0 +1,10 @@
+question: What percentage of Bitcoin's total transaction volume has been used for illicit activity? 
+answer: Less than 1% 
+wrong_answers:
+  - 2-4%
+  - More than 5%
+  - It is unknown
+explanation: |
+  According to a report by Chainalysis in 2020, illicit activity only 
+  accounts for about 0.34% of all Bitcoin transactions.
+reviewed: true

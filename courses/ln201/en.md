@@ -20,9 +20,8 @@ Enjoy the discovery!
 +++
 
 # The Fundamentals
-## Understanding the Lightning Network
 
-![Understanding the Lightning Network](https://youtu.be/PszWk046x-I)
+## Understanding the Lightning Network
 
 The Lightning Network is a second-layer payment infrastructure built on the Bitcoin network that enables fast and low-cost transactions. To fully understand how the Lightning Network works, it is essential to understand what payment channels are and how they work.
 
@@ -70,8 +69,6 @@ Now, Bob wants to send 80,000 SAT to Alice. Not having the liquidity, he cannot.
 
 ## Bitcoin, addresses, UTXO and transactions
 
-![bitcoin, addresses, utxo and transactions](https://youtu.be/cadCJ2V7zTg)
-
 In this second chapter, we take the time to study how Bitcoin transactions actually work, which will be very useful for understanding Lightning. We also briefly discuss the concept of multi-signature addresses, which is crucial for understanding the next chapter on opening channels on the Lightning Network.
 
 - Private key > Public key > Address: During a transaction, Alice sends money to Bob. The latter provides an address given by his public key. Alice, who herself received the money on an address via her public key, now uses her private key to sign the transaction and thus unlock the bitcoins from the address.
@@ -99,9 +96,8 @@ In Lightning Network, multi-signatures are used. Therefore, 2 signatures are req
 ![explication](assets/chapitre2/1.JPG)
 
 # Opening and closing of channels
-## Channel Opening
 
-![open a channel](https://youtu.be/B2caBC0Rxko)
+## Channel Opening
 
 Now, we will take a closer look at channel opening and how it is done through a Bitcoin transaction.
 
@@ -145,10 +141,7 @@ Alice can now recover the funds alone, as she already has Bob's signature. She p
 
 ## Lightning Transaction & Commitment Transaction
 
-![Lightning Transaction & Commitment Transaction](https://youtu.be/aPqI34tpypM)
-
 ![cover](assets/chapitre4/1.JPG)
-
 
 Now let's analyze what really happens behind the scenes when transferring funds from one side to the other of a channel on the Lightning Network, with the notion of commitment transaction. The on-chain withdrawal/closure transaction represents the state of the channel, guaranteeing who owns the funds after each transfer. So after a Lightning Network transfer, there is an update of this transaction/contract not executed between the two peers, Alice and Bob, who create the same transaction with the current channel state in case of closure:
 
@@ -181,8 +174,6 @@ The money never moves, but the final balance is updated via a signed but not pub
 
 ## Commitment Transactions
 
-![transactions part 2](https://youtu.be/RRvoVTLRJ84)
-
 If commitment transactions dictate a channel state with liquidity at time X, can we cheat by publishing an old state? The answer is yes, because we already have the pre-signature of both participants in the unpublished transaction.
 
 ![instruction](assets/Chapitre5/0.JPG)
@@ -207,8 +198,6 @@ Similarly, Bob will provide his secret to Alice. So that if he tries to cheat, A
 The person who creates the transaction with the Timelock (the one who sends the money) can only use the revocation key after the Timelock. However, the person who receives the money can use it before the Timelock in case of cheating from one side to the other of a channel on the Lightning Network. In particular, we detail the mechanisms that allow us to guard against possible cheating by one's peer within the channel.
 
 ## Channel Closure
-
-![close a channel](https://youtu.be/FVmQvNpVW8Y)
 
 We are interested in channel closure through a Bitcoin transaction, which can take different forms depending on the case. There are 3 types of channel closure:
 
@@ -247,9 +236,9 @@ Alice tries to cheat by publishing an old commitment transaction. But Bob monito
 In conclusion, channel closure in the Lightning Network is a crucial step that can take various forms. In a cooperative closure, both parties communicate and agree on a final state of the channel. This is the fastest and least expensive option. On the other hand, a forced closure occurs when one party is non-responsive. This is a more expensive and longer situation due to unpredictable transaction fees and the activation of the Timelock. Finally, if a participant tries to cheat by publishing an old commitment transaction, the cheater, they can be punished by losing all the SAT from the channel. It is therefore crucial to understand these mechanisms for effective and fair use of the Lightning Network.
 
 # A liquidity network
+
 ## Lightning Network
 
-![Lightning Network](https://youtu.be/RAZAa3v41DM)
 
 In this seventh chapter, we study how Lightning works as a network of channels and how payments are routed from their source to their destination.
 
@@ -329,8 +318,6 @@ For Susie or Eden: they do not know who the final recipient is, nor who is sendi
 
 ## HTLC - Hashed Time Locked Contract
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
-
 In a traditional routing system, how can we ensure that Eden does not cheat and respects their part of the contract?
 
 HTLC is a payment contract that can only be unlocked with a secret. If it is not revealed, then the contract expires. It is therefore a conditional payment. How are they used?
@@ -382,8 +369,6 @@ When closing the channel, if it is a cooperative closure, payments are interrupt
 In summary, the HTLC mechanism adds an additional layer of security to the Lightning Network, ensuring that payments are executed correctly and that users fulfill their commitments.
 
 ## Finding your way
-
-![finding your way](https://youtu.be/wnUGJjOxd9Q)
 
 The only public data is the total channel capacity (Alice + Bob) but we do not know where the liquidity is located.
 To have more information, our node listens to the LN communication channel for announcements of new channels and updates to channel fees. Your node also looks at the blockchain for channel closures.
@@ -448,9 +433,8 @@ In conclusion, routing transactions on the Lightning Network is a complex proces
 Furthermore, to facilitate route searching, the recipient can provide additional information such as the address, amount, preimage hash, and indications on their channels. This can help identify channels with sufficient liquidity and avoid unnecessary transaction attempts. Ultimately, the Lightning Network routing system is designed to optimize the speed, security, and efficiency of transactions while preserving user privacy.
 
 # Tools of the Lightning Network
-## Invoice, LNURL, Keysend
 
-![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
+## Invoice, LNURL, Keysend
 
 ![cover](assets/chapitre10/0.JPG)
 
@@ -500,10 +484,7 @@ In conclusion, a Lightning Network invoice, although complex at first glance, ef
 
 ## Managing Liquidity
 
-![managing liquidity](https://youtu.be/YuPrbhEJXbg)
-
 ![instruction](assets/chapitre11/0.JPG)
-
 
 We provide some general guidelines to answer the perennial question of managing liquidity on Lightning.
 
@@ -543,9 +524,8 @@ The most complicated thing in LN is to keep liquidity.
 In conclusion, liquidity management on the Lightning Network is a key issue that depends on the type of user: buyer, merchant, or routing node. Buyers, who need outgoing liquidity, have the simplest task: they simply open channels. Merchants, who require incoming liquidity, must be connected to other nodes and actors. Routing nodes, on the other hand, seek to maintain a balance of liquidity on both sides. Several solutions exist for managing liquidity, such as purchasing channels or paying to increase receiving capacity. The "Loop Out" option, allowing for an Atomic Swap between LN and BTC, offers an interesting solution for rebalancing liquidity. Despite these strategies, maintaining liquidity on the Lightning Network remains a complex challenge.
 
 # Go further
-## Summary of the course
 
-![conclusion](https://youtu.be/MaWpD0rbkVo)
+## Summary of the course
 
 Our goal was to explain how the Lightning Network works and how it relies on Bitcoin to function.
 
@@ -573,8 +553,6 @@ To receive payments, liquidity must be managed in the channels, which can be don
 
 
 ## Fanis' Interview
-
-![Fanis interview](https://youtu.be/VeJ4oJIXo9k)
 
 Here is a summary of the interview:
 

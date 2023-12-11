@@ -37,8 +37,6 @@ Si estás listo para embarcarte en esta aventura, te invito a hacer clic en el s
 
 ## Dinero, Crédito, Bancos y Bancos Centrales
 
-![Explicación del sistema bancario tradicional](https://youtu.be/pz0RxlXNs7Y)
-
 > "El problema fundamental con la moneda convencional es toda la confianza que se requiere para que funcione. Se debe confiar en el banco central para que no devalúe la moneda, pero la historia de las monedas fiduciarias está llena de violaciones de esa confianza. Se debe confiar en los bancos para que guarden nuestro dinero y lo transfieran electrónicamente, pero lo prestan en oleadas de burbujas de crédito con apenas una fracción en reserva. Debemos confiar en ellos con nuestra privacidad, confiar en que no permitirán que los ladrones de identidad vacíen nuestras cuentas".
 >
 > Satoshi Nakamoto, inventor pseudónimo de Bitcoin
@@ -71,13 +69,27 @@ Este dilema dio origen a los bancos centrales modernos. En el siglo XIX en Ingla
 
 Además de mantener la estabilidad financiera, los bancos centrales son responsables de establecer tasas de interés clave. Estas tasas determinan el costo al que los bancos con licencia pueden pedir prestado fondos al banco central, definiendo esencialmente el costo de la liquidez para las instituciones financieras que desempeñan un papel crucial en los préstamos en nuestras economías. Por lo tanto, estas tasas sirven como referencia para todo el sistema financiero. Como individuo, las tasas de interés que pagas en tu hipoteca se pueden desglosar en la tasa de política y el margen del banco.
 
+![image](assets/Image/2.png)
+
+Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+
 Durante la gran crisis financiera de 2008, Lehman Brothers, un gran banco de inversión, declaró bancarrota después de sufrir pérdidas significativas en sus tenencias de valores hipotecarios y experimentar retiros masivos de clientes preocupados. En respuesta a esta crisis financiera sin precedentes, los banqueros centrales de todo el mundo inyectaron grandes cantidades de liquidez en los mercados financieros, fusionaron bancos de inversión en dificultades con bancos comerciales y redujeron las tasas de política a casi cero en un esfuerzo por evitar un colapso sistémico.
 
 Si bien estas medidas evitaron una ola en cascada de quiebras, hicieron poco para aliviar la posterior desaceleración económica. Millones de personas perdieron sus empleos y hogares, el gasto del consumidor se desplomó, las empresas quebraron y los bancos incurrieron en pérdidas sustanciales. A pesar de las tasas de interés históricamente bajas, pocos estaban dispuestos a pedir prestado, lo que resultó en un ciclo vicioso en el que la disminución inicial del gasto y la inversión se reforzaron a sí mismas. En consecuencia, los banqueros centrales tomaron medidas adicionales implementando programas de Flexibilización Cuantitativa (QE, por sus siglas en inglés). Estos programas implicaban que los bancos centrales compraran bonos del gobierno y valores respaldados por hipotecas de los bancos comerciales con reservas del banco central.
 
+![image](assets/Image/3.png)
+
+Figure3 : Interest Rates Across Major Economies / Source: ECB
+
 Contrariamente a muchas expectativas, los programas de QE no revivieron significativamente el crecimiento económico, pero sí inflaron los activos financieros a niveles históricos. Esto benefició principalmente a los ricos y a las instituciones financieras, ya que ya tenían cantidades sustanciales de dichos activos, ampliando así las disparidades de riqueza. Dada la estructura del sistema bancario explicada anteriormente, este resultado no debería sorprender. Dado que las reservas bancarias no pueden fluir fácilmente hacia la economía real, los programas de QE principalmente impulsaron los precios de los activos sin mejorar efectivamente la situación financiera de las personas promedio.
 
+### The Cantillon Effect
+
 No obstante, se puede extraer un principio económico esencial de este episodio: cuando se crea dinero nuevo, inicialmente beneficia a aquellos más cercanos a la fuente del dinero, a expensas de aquellos más alejados. Esta idea económica se remonta al siglo XVIII, cuando Richard Cantillon la describió en su "Ensayo sobre la naturaleza del comercio en general". Ahora se conoce coloquialmente como el "Efecto Cantillon".
+
+![image](assets/Image/4.png)
+
+Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
 En esta instancia, los banqueros, ejecutivos bancarios, propietarios de acciones y bonos, desarrolladores inmobiliarios, prestamistas de bienes raíces y cualquier persona que posea activos financieros o bienes raíces recibieron una ganancia financiera, mientras que la carga recayó sobre todos los demás. Esta situación persistió durante años y explica en gran medida la creciente desigualdad de riqueza, la sensación de exclusión entre las personas trabajadoras y el aparentemente imparable aumento de los precios de los activos a pesar del lento crecimiento del PIB.
 
@@ -117,8 +129,6 @@ En el próximo capítulo, profundizaremos en la piedra angular fundamental de cu
 > "El valor solo existe dentro de la conciencia humana"
 >
 > Carl Menger, Principios de Economía Política
-
-![Introducción a la Economía Austriaca](https://youtu.be/ZSDCepNNacI)
 
 ### La Revolución Marginal
 
@@ -194,8 +204,6 @@ Basándose en las ideas del valor ordinal subjetivo, Menger explicó el surgimie
 Los siguientes capítulos estarán dedicados al surgimiento del dinero como un fenómeno social, la teoría del capital y el interés, que servirán de base para la Teoría del Ciclo Económico, y por último, el papel de los precios en el cálculo económico.
 
 ## El Surgimiento del Dinero como un Fenómeno Social
-
-![Dinero](https://youtu.be/Dt8ounex2jg)
 
 Si bien los individuos tienen un interés común en la especialización y en maximizar la división del trabajo, aún existen problemas de coordinación que limitan esta expansión.
 
@@ -284,6 +292,8 @@ Esta evaluación subjetiva del valor de los bienes futuros en comparación con l
 
 Este concepto de valoración relativa de los bienes futuros sobre los bienes presentes es la raíz del fenómeno del interés. De hecho, en una economía con mercados de capital no manipulados, las tasas de interés de referencia (consideradas libres de riesgo de impago) se determinan en la intersección de la oferta y la demanda de capital. Por lo tanto, estas tasas representan el estado de las preferencias temporales para toda la economía: un aumento en la tasa de interés se produce como resultado de un aumento relativo en la demanda de capital en comparación con la oferta, lo que indica preferencias temporales más altas. Por el contrario, una disminución en las tasas de interés se produce debido a un aumento en el ahorro, es decir, un aumento en la oferta de capital, lo que indica una reducción en las preferencias temporales.
 
+![image](assets/Image/9.png)
+
 En una economía donde las tasas de interés no son manipuladas por el banco central, tendemos a observar una curva de rendimiento ascendente: a mayor vencimiento de la deuda, mayor es la tasa de interés. La situación opuesta no puede ocurrir porque implicaría que el futuro es más cierto que el presente, lo cual es una imposibilidad lógica.
 El concepto de preferencia temporal y cómo expresamos nuestra propia preferencia temporal a través del consumo y el ahorro es fundamental para los procesos de asignación de capital y producción. Volvamos a la teoría del capital de Eugen von Böhm-Bawerk, estudiante de Menger, para entender exactamente cómo la preferencia temporal afecta la organización de la producción.
 
@@ -341,8 +351,6 @@ Esto se ilustra perfectamente en el gráfico a continuación: las tasas a largo 
 # Perspectivas Económicas Austriacas
 
 ## La Teoría Austriaca del Ciclo Económico
-
-![Ciclos Económicos para la Escuela Austriaca](https://youtu.be/CrPE6mcOjx4)
 
 > "Cuanto más tiempo continúa el auge del crédito bancario inflacionario, mayor es el alcance de las inversiones incorrectas en bienes de capital y mayor es la necesidad de liquidar estas inversiones insostenibles. Cuando la expansión del crédito se detiene, se revierte o incluso se desacelera significativamente, se revelan las inversiones incorrectas"
 >
@@ -417,8 +425,6 @@ Este será el tema del próximo y último capítulo de este curso.
 
 ## La Imposibilidad del Cálculo Económico en el Socialismo
 
-![La Imposibilidad del Cálculo Económico en un Sistema Socialista](https://youtu.be/E-9Fl6eg-mo)
-
 > "Cuando no hay precios de mercado para los factores de producción porque no se compran ni se venden, es imposible recurrir al cálculo para planificar la acción futura y determinar el resultado de la acción pasada. Una gestión socialista de la producción simplemente no sabría si lo que planea y ejecuta es el medio más apropiado para alcanzar los fines buscados. Operará en la oscuridad, por así decirlo. Malgastará los escasos factores de producción, tanto materiales como humanos (trabajo). El caos y la pobreza para todos serán inevitables".
 >
 > Ludwig von Mises, Caos Planificado
@@ -485,8 +491,6 @@ Los economistas convencionales y los planificadores centrales a menudo no les gu
 La tradición austriaca encarna un enfoque humilde hacia la acción humana, sacando profundas implicaciones de los conceptos de valor subjetivo, incertidumbre, libre albedrío y complejidad. Explica cómo el orden del mercado, a pesar de no ser un producto del diseño humano, se erige como la institución central para nuestro desarrollo y prosperidad. Si hay una lección clave de este curso, es que el capitalismo se convirtió en el sistema económico dominante debido a su capacidad para adaptarse al cambio en un mundo dinámico e incierto poblado por individuos libres.
 
 ## La Metodología Austriaca
-
-![la metodología austriaca](https://youtu.be/hMyYGwU76dI)
 
 La escuela austriaca de economía se distingue de otras escuelas por su metodología axiomático-deductiva, que difiere del enfoque positivista utilizado a menudo en las ciencias sociales. El enfoque positivista se basa en leyes establecidas a partir de datos empíricos, adoptando un método similar al de las ciencias físicas. Formula hipótesis a partir de observaciones, que luego son confirmadas o refutadas por experimentos temporales. El método científico consiste en retener la hipótesis que mejor explique los datos y seguir explorándola hasta encontrar una hipótesis más precisa.
 

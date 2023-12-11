@@ -23,8 +23,6 @@ Du benötigst keine spezifischen Vorkenntnisse, um loszulegen. Der Kurs ist für
 
 ## Ein Sprung ins Unbekannte
 
-![Einführung](https://youtu.be/PdiL6_1wbQY)
-
 ### Willkommen in einem neuen monetären und technologischen Paradigma.
 
 Bitcoin ist eine bedeutende Innovation, die über eine einfache "Internetwährung" hinausgeht. Es ist eine technologische und monetäre Revolution, die unsere Beziehung zu Geld und Gesellschaft in Frage stellen kann. Bitcoin ist eine sogenannte **neutrale** und **dezentrale** Währung, was bedeutet, dass sie nicht von einer Entität oder Institution kontrolliert wird. Um Bitcoin wirklich zu verstehen, ist es wichtig zu verstehen, dass Bitcoin (auch BTC genannt) sowohl ein informatisches Protokoll (Bitcoin) als auch eine Währungseinheit (Bitcoin) ist.
@@ -130,8 +128,6 @@ Bitcoin ist also ein Protokoll, das sich über lange Zeiträume erstreckt und un
 
 ## Die Währung im Laufe der Geschichte
 
-![Die Währung](https://youtu.be/LslJVNCvHhA)
-
 Die Entwicklung der Währung ist ein faszinierender Aspekt der menschlichen Geschichte und spiegelt den Einfallsreichtum von Zivilisationen im Laufe der Zeit wider, um sich an sich ständig ändernde wirtschaftliche Bedürfnisse anzupassen.
 
 ![image](assets/de/chapter1/2.png)
@@ -188,8 +184,6 @@ Bitcoin hingegen bietet neue Möglichkeiten. Aufgrund seiner Eigenschaften, wie 
 
 ## Fiat-Währungen
 
-![Fiat-Währungen](https://youtu.be/1hOrDrmT27g)
-
 "Diejenigen, die nicht aus der Geschichte lernen, sind dazu verdammt, die gleichen Fehler zu wiederholen", sagte George Santayana. Eine Wahrheit, die besonders dann erklingt, wenn wir über das aktuelle Geldsystem sprechen.
 
 ### Fiduziarisch = Vertrauen
@@ -236,8 +230,6 @@ Gleichzeitig scheint die Einführung von digitalen Zentralbankwährungen, oder C
 ![image](assets/de/chapter2/0.png)
 
 ## Die Hyperinflationen
-
-![Die Hyperinflation](https://youtu.be/cYKmgflsy_8)
 
 Die Hyperinflation ist ein monetäres Phänomen, das für Fiatwährungen typisch ist. Sie zeichnet sich durch einen vollständigen Vertrauensverlust in eine Währung und eine drastische Inflation durch die Geldschöpfung der Behörden aus. Als Ergebnis können die von Einzelpersonen angesammelten Ersparnisse in relativ kurzer Zeit verschwinden, was das Land an den Rand des wirtschaftlichen, sozialen und politischen Abgrunds treibt.
 
@@ -314,8 +306,6 @@ Zusammenfassend führt Hyperinflation dazu, dass der Wert der Währung schnell a
 Eine Währung, die auf einem Vertrauensdritten wie einer Finanzinstitution beruht, erweist sich in der Praxis und langfristig als fehlerhafte Währung, da sie nicht in der Lage ist, die Kaufkraft zu garantieren oder Ersparnisse zu schützen.
 
 ## 21 Millionen Bitcoins
-
-![21 Millionen Bitcoins](https://youtu.be/Y92R4EWk5uo)
 
 ### Die Geldpolitik von Bitcoin
 
@@ -399,8 +389,6 @@ Insgesamt bietet Bitcoin durch seine dezentrale Natur, seine programmierte Knapp
 
 ### Fazit des Abschnitts 1!
 
-![Schlussfolgerung über Währung](https://youtu.be/xJsT7Jk5xWE)'
-
 Die Währung ist ein soziales Werkzeug, das sich den Bedürfnissen und der Technologie anpassen muss. Im Laufe der Zeit wurde Gold als Wertspeicher verwendet, da es selten war und nicht abgewertet werden konnte. Später wurde Gold jedoch durch Schulden und Fiat-Währung ersetzt, die leicht zu transportieren, aber auch manipulierbar ist.
 
 Bitcoin ist eine realistische alternative Währung, da sie selten ist und auf 21 Millionen Bitcoins begrenzt ist, die nicht geändert werden können. Die Geldschöpfung wird durch die Anpassung der Schwierigkeit alle 2 Wochen und durch das Halbieren sichergestellt, was einen mathematisch überprüfbaren Beweis für ihre Seltenheit garantiert. Im Gegensatz zu Euro oder Dollar, deren Umlaufmenge nicht überprüfbar ist und sich häufig aufgrund von Entscheidungen von Finanzinstitutionen ändert, ist Bitcoin eine kryptographische Währung mit einer neutralen und festen Geldpolitik. Es ist daher eine ausgezeichnete weltweite Wertspeicherung, da es nicht durch Geldschöpfung abgewertet werden kann.
@@ -414,8 +402,6 @@ Jetzt, da wir die Unterschiede zwischen Bitcoin und Fiat-Währungen festgestellt
 ## Was sind Bitcoin-Wallets?
 
 In diesem Abschnitt 2 werden wir die Speicherung und Sicherheit von Bitcoins in Wallets untersuchen. Dies wird Ihnen helfen, besser zu verstehen, wo sich diese berühmten Bitcoins befinden und wie Sie mit ihnen interagieren können!
-
-![Verständnis der Bitcoin-Wallets](https://youtu.be/GsnX7qdODK8)
 
 ### Entmystifizierung der Bitcoin-Wallets
 
@@ -466,11 +452,9 @@ Man könnte sich die Frage stellen: Was ist, wenn jemand zufällig unsere Liste 
 
 Die Wahrscheinlichkeit eines Hacks Ihrer Bitcoin-Brieftasche ist daher astronomisch gering, wenn Sie bewährte Sicherheitspraktiken befolgen. Diese Praktiken werden im nächsten Abschnitt ausführlich erläutert.
 
-Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial unserer Universität](https://sovereignuniversity.org/tutorials/wallet).
+Wählen Sie eine Brieftasche, die Ihren Bedürfnissen und Ihrer Verwendung entspricht. Detaillierte Anleitungen zur Verwendung und Sicherung verschiedener Brieftaschen finden Sie im Abschnitt [Tutorial PlanB](https://planb.network/tutorials/wallet).
 
 ## Sicherheit und Bitcoin-Brieftaschen
-
-![Wählen Sie Ihre Sicherheit](https://youtu.be/qhjEJuJHRf8)
 
 ### Die richtigen Fragen stellen, bevor Sie beginnen
 
@@ -517,8 +501,6 @@ Nun, da wir das im Hinterkopf haben, werden wir im nächsten Abschnitt die Schri
 
 ## Einrichtung einer Brieftasche
 
-![Einrichtung einer Brieftasche](https://youtu.be/2MRRERHm7ZM)
-
 Die Sicherheit Ihrer Bitcoins ist von entscheidender Bedeutung, und ein einfacher Fehler kann teure Folgen haben. Aus diesem Grund werden wir nun bewährte Verfahren bei der Erstellung einer neuen Bitcoin-Brieftasche betrachten.
 
 > Beachten Sie, dass der BTC102-Kurs Sie bei diesem Schritt unterstützt.
@@ -553,8 +535,6 @@ Kaltbrieftaschen haben in der Regel diese Wortlisten, genauso wie heiße Briefta
 
 ## Die Zeit überstehen
 
-![Die Zeit überstehen](https://youtu.be/p8eZPt_XnwI)
-
 Sicherheit ist ein wichtiges Anliegen im Bitcoin-Ökosystem. Wie jede Form von Reichtum müssen Ihre Bitcoins vor Verlust, Diebstahl und Verschlechterung geschützt werden, insbesondere auf lange Sicht. Die Sicherung Ihrer Bitcoins erfordert bestimmte technische Kenntnisse und das Bewusstsein für die damit verbundenen Risiken, was uns zu zwei Hauptstrategien führt: das Einprägen Ihrer Bitcoins in Stahl und die Erstellung eines Nachlassplans.
 
 ### In den Felsen eingravieren
@@ -569,7 +549,7 @@ Es gibt viele Lösungen, um dies zu erreichen, einige sind kostengünstig wie de
 
 In Verbindung damit ist die Erstellung eines Erbschaftsplans ebenfalls ein entscheidender Schritt, um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden. Dieser Plan kann einen handgeschriebenen Brief enthalten, in dem Ihre Vermögenswerte detailliert aufgeführt sind, wie sie zugänglich sind und mit welchen Vertrauenspersonen Sie Kontakt aufnehmen können. Es ist auch wichtig, das Bitcoin-Vermächtnis mit einem Notar zu besprechen, um die Steuerkonformität zu gewährleisten, obwohl es wichtig ist, dass Sie Ihre Bitcoins niemals direkt einer anderen Person, einschließlich eines Notars, anvertrauen.
 
-Wenn Sie mehr über den Erbschaftsplan für Ihre Bitcoins erfahren möchten, empfehlen wir Ihnen Pamela Morgans Buch [Cryptoasset Inheritance Plan] (https://sovereignuniversity.org/resources/books/28/en) oder den BTC102-Kurs, bei dem wir Sie bei der Erstellung begleiten.
+Wenn Sie mehr über den Erbschaftsplan für Ihre Bitcoins erfahren möchten, empfehlen wir Ihnen Pamela Morgans Buch [Cryptoasset Inheritance Plan] (https://planb.network/resources/book/28) oder den BTC102-Kurs, bei dem wir Sie bei der Erstellung begleiten.
 
 ![image](assets/de/chapter8/2.png)
 
@@ -582,8 +562,6 @@ Was Ihre Privatsphäre betrifft, so ist es sehr wichtig, dass Sie es vermeiden, 
 In der gleichen Logik sollten Sie es vermeiden, Ihr Sicherheitssystem bei Bitcoin-Treffen oder Begegnungen mit Fremden lautstark zu enthüllen...
 
 ### Zusammenfassung über die Sicherheit von Bitcoin-Wallets
-
-![Conclusion chapitre 2](https://youtu.be/U28-oh950Dw)
 
 Bitcoin-Wallets sind Softwareprogramme, mit denen man Nitcoins speichern und umtauschen kann. Es gibt verschiedene Arten von Wallets: Wallets auf Handys oder PCs, die praktisch für kleine Beträge und/oder regelmäßige Ausgaben sind; physische Wallets, die eher für die mittel- bis langfristige Aufbewahrung von Bitcoin geeignet sind; Multisig-Wallets, die komplexer zu verwalten sind und mehrere Unterschriften benötigen, um Transaktionen zu tätigen.
 
@@ -598,8 +576,6 @@ Jetzt, da wir die Grundlagen von Bitcoin-Brieftaschen und bewährte Sicherheitsp
 # Die technischen Aspekte von Bitcoin.
 
 ## Start von Bitcoin
-
-![Lancement de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
 ### Fangen wir mit etwas Geschichte an.
 
@@ -642,7 +618,7 @@ Im Jahr 2010, als Bitcoin die Aufmerksamkeit der Medien auf sich zieht, beschlie
 Trotz der Abwesenheit von Satoshi entwickelt sich Bitcoin weiter. Alle 10 Minuten wird die Geschichte von Bitcoin geschrieben, und das Protokoll funktioniert weiterhin wie geplant. Unabhängig von Angst, Unsicherheit oder Zweifel (FOMO für Fear Of Missing Out oder FUD für Fear Uncertainty Doubt) geht Bitcoin weiter voran, mit einer Online-Verfügbarkeit von 99,988%.
 Der Bitcoin wird von jedem Individuum anders wahrgenommen. Für einige ist er eine pilzartige Entität wie das [Myzel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), für andere ist er ein [Schwarzes Loch](https://dergigi.com/2019/05/01/bitcoins-gravity/i). Ob man den Bitcoin mag oder hasst, er existiert weiterhin mit seinem konstanten Rhythmus von 10 Minuten pro Block, wie der Herzschlag eines neuen Währungssystems.
 
-Um Ihr Wissen über die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ich das [Buch von Phil Champagne](https://sovereignuniversity.org/resources/books) oder die ARTE-Dokumentation "Das Geheimnis Satoshi".
+Um Ihr Wissen über die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ich das [Buch von Phil Champagne](https://planb.network/resources/book) oder die ARTE-Dokumentation "Das Geheimnis Satoshi".
 
 ![image](assets/de/chapter9/8.png)
 
@@ -651,8 +627,6 @@ Um Ihr Wissen über die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ic
 Nun, da wir etwas Kontext haben, schauen wir uns nun die allgemeine Funktionsweise einer Bitcoin-Transaktion an.
 
 ## Bitcoin-Transaktionen
-
-![Erklärung einer Transaktion](https://youtu.be/GJlUqtGzxLk)
 
 Eine Bitcoin-Transaktion ist einfach eine Übertragung des Eigentums an Bitcoins unter Verwendung einer Bitcoin-Adresse. Nehmen wir zum Beispiel zwei Protagonisten: Alice und Bob. Alice möchte Bitcoins erwerben, während Bob bereits welche besitzt.
 
@@ -716,8 +690,6 @@ Lassen Sie uns nun genauer betrachten, wie ein Bitcoin-Knoten funktioniert.
 
 ## Bitcoin-Knoten
 
-![https://youtu.be/3vQmDJ4_ooM](https://youtu.be/3vQmDJ4_ooM)
-
 Knoten sind ein wesentlicher Bestandteil der Bitcoin-Netzwerkarchitektur. Sie erfüllen verschiedene wichtige Funktionen:
 
 - Das Aufrechterhalten einer Kopie der Bitcoin-Blockchain
@@ -767,8 +739,6 @@ Nach diesem Sieg haben die Knoten ein Update namens SegWit aktiviert, das den We
 ![Bitcoin-Knoten](assets/posters/fr/12_explication_des_nodes_crop.png)
 
 ## Die Miner
-
-![Die Miner](https://youtu.be/Lr5L3uy244w)
 
 > Die Miner dienen dazu, das Netzwerk zu sichern und Transaktionen in Blöcke hinzuzufügen. Sie verwenden ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis zu lösen.
 
@@ -839,8 +809,6 @@ Die Spieltheorie, die auf Bitcoin angewendet wird, schließt unehrliche Miner au
 
 ## Bitcoin und die Umwelt
 
-![Bitcoin & Ökologie](https://youtu.be/nV2b2xAMfmU)
-
 Wir haben gerade im vorherigen Abschnitt gesehen, dass die Sicherheit des Bitcoin-Protokolls auf einem hohen Energieaufwand beruht, um ein öffentliches Transaktionsregister ohne Vertrauensinstanz zu erstellen. Die Gesamtenergiekosten werden oft mit dem Stromverbrauch eines kleinen Landes verglichen. Aber macht dieser Vergleich Sinn? Ist er relevant, um die Gründe hinter einem solchen Aufwand zu verstehen?
 
 ### Die Energiekosten von Bitcoin.
@@ -887,8 +855,6 @@ Die Bitcoin-Technologie wird oft missverstanden, und die Kritik an ihren ökolog
 
 ### Kurze Zusammenfassung der technischen Aspekte von Bitcoin
 
-![conclusion chapitre 3](https://youtu.be/gqILoXTUKdc)
-
 Satoshi Nakamoto veröffentlichte im Januar 2009 das Bitcoin-Protokoll, das seitdem dank einer wachsenden Gemeinschaft von Entwicklern, Minern und Benutzern mit Bitcoin-Knoten weiterentwickelt wurde. Diese halten eine eigene Kopie der Bitcoin-Blockchain, einem öffentlichen Register aller Bitcoin-Transaktionen, und können so die Gültigkeit der Transaktionen gemäß den Bitcoin-spezifischen Konsensregeln sicherstellen. Insbesondere stellen sie sicher, dass die Miner gültige Blöcke produzieren, die einige tausend ausstehende Transaktionen enthalten.
 
 Im Durchschnitt wird alle 10 Minuten ein Block erstellt und der Miner, der einen gültigen Hash für den nächsten Block findet, wird vom Protokoll mit einer Belohnung entlohnt, deren Höhe durch die Konsensregeln festgelegt ist, sowie den Transaktionsgebühren aller Transaktionen in diesem gültigen Block. Da das Ergebnis des Hash-Algorithmus (SHA256) für eine gegebene Eingabe als unvorhersehbar gilt, besteht der Mining-Prozess darin, viele Blockkandidaten zu erstellen und zu überprüfen, ob ihr Hash gültig ist oder nicht. Um jedoch sicherzustellen, dass die durchschnittliche Zeit zwischen zwei Blöcken konstant bleibt (~10 Minuten), unabhängig von der Anzahl der Miner und ihrer Rechenleistung, wird die Schwierigkeit, einen gültigen Hash zu finden, alle 2016 Blöcke angepasst, also etwa alle 2 Wochen. Im Laufe der Zeit haben die Miner spezielle SHA256-Maschinen, sogenannte ASICs, entwickelt, um das Verhältnis von Hashrate zu Joule zu erhöhen, was bedeutet, dass sie mehr Versuche pro Sekunde und pro verbrauchter Energie durchführen können.
@@ -900,8 +866,6 @@ Daher ist das Bitcoin-Protokoll ein unzensierbares und unaufhaltsames Währungss
 # Wie kann man Bitcoin erhalten?
 
 ## Bitcoin schläft nie!
-
-![Bitcoin schläft nie](https://youtu.be/7535MAeHzxM)
 
 Der Preis von Bitcoin wird oft durch signifikante Volatilität gekennzeichnet. Sein Wert kann stark schwanken, abhängig von Marktschwankungen und Phasen des Bullenmarktes und des Bärenmarktes. Dies gilt für 100% der Finanzmärkte, einschließlich Bitcoin.
 
@@ -955,8 +919,6 @@ Heute, im Jahr 2023, überlebt und wächst Bitcoin weiterhin, indem es sich jede
 
 ## Bitcoins durch Arbeit erhalten
 
-![Bitcoins durch Arbeit erhalten](https://youtu.be/sHkadVRUQF8)
-
 ### Eine parallele Wirtschaft entwickelt sich
 
 Bitcoin kann als parallele Wirtschaft zu Fiatwährungen betrachtet werden. Das bedeutet, dass es möglich ist, Waren oder Dienstleistungen zu verkaufen und in Bitcoin bezahlt zu werden. Transaktionen können direkt in Bitcoin durchgeführt werden, ohne dass eine Handelsplattform benötigt wird, einfach von Bitcoin-Wallet zu Bitcoin-Wallet.
@@ -986,8 +948,6 @@ Wir werden dieses Thema in einem anderen Kurs ausführlich behandeln, aber um es
 - Lösung für große Unternehmen oder begeisterte Bitcoin-Nutzer: BTCpay Server
 
 ## Mit Bitcoin sparen
-
-![Sparen in Bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
 ### Warnung vor dem Einstieg!
 
@@ -1038,7 +998,7 @@ Es gibt verschiedene Möglichkeiten, Bitcoins zu erwerben, von denen jede ihre e
 
 - DCA-Plattformen
 
-Eine gängige Methode, Bitcoins anzusammeln, ist das "Dollar Cost Averaging" (DCA), bei dem regelmäßig kleine Beträge investiert werden. Mehrere Plattformen bieten diesen Service an, wie die auf unserer [dedizierten Seite](https://sovereignuniversity.org/tutorials/exchange) aufgelisteten. Neben der einfachen Einrichtung eines DCA ist die Auszahlung auf Ihre Brieftasche in der Regel automatisch, was bedeutet, dass Sie immer die Kontrolle über Ihren Agenten haben werden.
+Eine gängige Methode, Bitcoins anzusammeln, ist das "Dollar Cost Averaging" (DCA), bei dem regelmäßig kleine Beträge investiert werden. Mehrere Plattformen bieten diesen Service an, wie die auf unserer [dedizierten Seite](https://planb.network/tutorials/exchange) aufgelisteten. Neben der einfachen Einrichtung eines DCA ist die Auszahlung auf Ihre Brieftasche in der Regel automatisch, was bedeutet, dass Sie immer die Kontrolle über Ihren Agenten haben werden.
 
 Heutzutage sind fast alle DCA-Lösungen relativ effizient und mit fast ähnlichen Gebühren, die Wahl hängt eher von der Verfügbarkeit in Ihrem Land ab.
 
@@ -1063,7 +1023,7 @@ Es ist wichtig zu beachten, dass KYC ein wichtiges Thema in unserer Branche ist,
 
 ### Lösung ohne KYC'
 
-Darüber hinaus gibt es mehrere [Marktplätze](https://sovereignuniversity.org/tutorials/exchange), auf denen man Bitcoins im Peer-to-Peer-Verfahren kaufen und verkaufen kann. Wenn Sie sich für diese interessieren, können Sie an unserer Schulung zum Thema BTC 205 teilnehmen. In der Regel sind diese Lösungen :
+Darüber hinaus gibt es mehrere [Marktplätze](https://planb.network/tutorials/exchange), auf denen man Bitcoins im Peer-to-Peer-Verfahren kaufen und verkaufen kann. Wenn Sie sich für diese interessieren, können Sie an unserer Schulung zum Thema BTC 205 teilnehmen. In der Regel sind diese Lösungen :
 
 - Bitcoin-Geldautomaten
 - Physische Treffen mit anderen Bitcoin-Enthusiasten.
@@ -1076,8 +1036,6 @@ Darüber hinaus gibt es mehrere [Marktplätze](https://sovereignuniversity.org/t
 Es ist auch wichtig zu beachten, dass in Ihrer Gerichtsbarkeit möglicherweise Steuern eingeführt werden. Wir empfehlen Ihnen, die Vorschriften Ihres Landes zu konsultieren, bevor Sie irgendwelche Maßnahmen ergreifen, die Sie in Verzug bringen könnten.
 
 ## Hyper-bitcoinisation
-
-![hyper-bitcoinisation](https://youtu.be/lLxndxrzXR0)
 
 ### Die wilde Fahrt hat gerade erst begonnen!
 
@@ -1095,15 +1053,13 @@ Wir laden Sie ein, über diese neue Währungsrevolution nachzudenken. Es gibt so
 
 ![image](assets/de/chapter17/3.png)
 
-Wenn Sie Ihr Wissen über Bitcoin erweitern möchten, haben viele Autoren, Denker und Essayisten zur Bildungsschicht von Bitcoin beigetragen. Seit einigen Jahren erfassen und klassifizieren wir diese Werke, um eine [Ressourcenbibliothek](https://sovereignuniversity.org/resources) für die Neugierigsten unter Ihnen anzubieten. Dort finden Sie die besten Podcasts, Websites, Artikel, Tutorials, Bücher und andere Inhalte.
+Wenn Sie Ihr Wissen über Bitcoin erweitern möchten, haben viele Autoren, Denker und Essayisten zur Bildungsschicht von Bitcoin beigetragen. Seit einigen Jahren erfassen und klassifizieren wir diese Werke, um eine [Ressourcenbibliothek](https://planb,network/resources) für die Neugierigsten unter Ihnen anzubieten. Dort finden Sie die besten Podcasts, Websites, Artikel, Tutorials, Bücher und andere Inhalte.
 
 > Milton Friedman, ein renommierter Ökonom, hatte bereits 1999 vorausgesagt: "Ich denke, dass das Internet eine der Hauptkräfte sein wird, um die Rolle der Regierung zu reduzieren. Das Einzige, was fehlt, aber bald entwickelt werden wird, ist ein zuverlässiges E-Geld - eine Methode, mit der Sie im Internet Geld von A nach B übertragen können, ohne dass A B kennt oder B A kennt." oder auf Französisch: "Je pense qu'Internet sera l'un des principaux facteurs de réduction du rôle des pouvoirs publics. La seule chose qui manque, mais qui sera bientôt développée, c'est une monnaie électronique fiable - une méthode par laquelle, sur Internet, vous pouvez transférer des fonds de A à B sans que A ne connaisse B ou que B ne connaisse A." Heute erfüllt Bitcoin diese Vorhersage.
 
 # Die Zukunft von Bitcoin: Das Lightning Network
 
 ## Kurze Einführung in das Lightning Network
-
-![Das Lightning Network](https://youtu.be/HFv3NN4z450)
 
 Nun, da wir die Grundlagen des Bitcoin-Protokolls haben, werden wir ein Zahlungsnetzwerk einführen, das das Bitcoin-Protokoll verwendet, um Transaktionen in Lichtgeschwindigkeit durchzuführen. Wir sprechen natürlich vom Lightning Network!
 
@@ -1140,8 +1096,6 @@ Insgesamt ist das Lightning Network ein vielversprechender Versuch, ein effizien
 
 ## Anwendungsfälle des Lightning Network
 
-![Anwendungsfälle des LN](https://youtu.be/_UV2jmQ8TQM)
-
 Wie wir gerade gesehen haben, steht das Bitcoin-Protokoll trotz seiner revolutionären Natur vor bedeutenden Herausforderungen in Bezug auf Skalierbarkeit, um all unsere täglichen Transaktionen durchführen zu können. Um diese Probleme zu lösen, wurde im Jahr 2016 eine sogenannte Second-Layer-Lösung namens Lightning Network vorgeschlagen, die heute mehrere verschiedene Implementierungen hat, aber alle miteinander kompatibel sind:
 
 - Core-lightning von Blockstream
@@ -1173,8 +1127,6 @@ In einem solchen System wird das Geld automatisch, basierend auf einem vordefini
 Zusammenfassend eröffnet das Lightning Network eine Vielzahl spannender Anwendungsfälle für Bitcoin-Benutzer. Die resultierenden Geschäftsmodelle und kommerziellen Möglichkeiten sind vielfältig und zahlreich. Wir ermutigen Sie, es selbst auszuprobieren, indem Sie die Podcast-App [Fountain](https://www.fountain.fm/) testen, die es Ihnen ermöglicht, für das Hören Ihrer Lieblings-Podcasts in einigen Sats entlohnt zu werden!
 
 ## Rote Pille oder blaue Pille?
-
-![rote Pille](https://youtu.be/nCRVIoyyyck)
 
 Wie Morpheus zu Neo sagte: "Nimmst du die blaue Pille, endet die Geschichte, du wachst in deinem Bett auf und glaubst, was du willst. Nimmst du die rote Pille, bleibst du im Wunderland, und ich zeige dir, wie tief das Kaninchenloch geht." Sind Sie bereit, das Kaninchenloch von Bitcoin zu erkunden? Seien Sie vorsichtig, denn Sie könnten Ihre finanzielle Freiheit wiederfinden!
 
@@ -1228,8 +1180,6 @@ Bitcoin ist wichtig und sollte nicht als reines Glücksspiel betrachtet werden. 
 
 ### Bitcoin: ein revolutionäres Protokoll
 
-![Conclusion](https://youtu.be/BoZL_D7uLAg)
-
 Wie wir im vorherigen Kapitel gesehen haben, ist das Bitcoin-Protokoll neutral gegenüber all seinen Benutzern. Dank Konsensregeln und Kryptographie können wir Transaktionen unveränderlich in einem globalen öffentlichen Register festhalten und so den Werttransfer ohne Vertrauensdritte gewährleisten. Die Infrastrukturebenen der Stufe 2 (und bald auch 3 mit RGB) ermöglichen die Skalierung des Netzwerks und die Entwicklung neuer Funktionen, insbesondere zur Lösung von Skalierungsproblemen.
 'Bitcoin hat alle notwendigen Eigenschaften, um eine effiziente und gesunde Währung zu sein: teilbar, sofort transportierbar, nicht zensierbar, vernachlässigbare Kosten für die Überprüfung und mit einer bereits festgelegten Geldpolitik für die kommenden Jahrhunderte mit diesen 21 Millionen Einheiten. Bitcoin ist pseudonym und kann weltweit ohne Genehmigung einer beliebigen Einheit gehandelt werden, solange Sie Ihre eigenen privaten Schlüssel besitzen - wie das Sprichwort sagt: "Not your keys, not your bitcoins" ("nicht deine Schlüssel, nicht deine Bitcoins").
 Bitcoin wird von verschiedenen Gruppen von Menschen angenommen, von Kryptographen über Libertäre bis hin zu traditionellen Unternehmen und sogar einem Land. Bitcoin ist jedoch für alle da, und die Anzahl der Benutzer wächst, ebenso wie die Anzahl der Bitcoin-Knoten, die als Hüter des Transaktionsverlaufs dienen und so seine Dezentralisierung gewährleisten.
@@ -1242,15 +1192,13 @@ Die Veränderung des Finanzsystems erfordert eine Veränderung der Währung. Sat
 
 ### Gehen Sie weiter
 
-![Dank und weiterhin den Kaninchenbau erkunden](https://youtu.be/A2P5GdkgB-M)
-
 Herzlichen Glückwunsch zum Abschluss dieses BTC 101-Kurses! Ich hoffe von ganzem Herzen, dass es Ihnen gefallen hat und Ihnen neue Möglichkeiten eröffnet hat. Ihre Entdeckung von Bitcoin steht erst am Anfang und ich lade Sie ein, alle anderen verfügbaren Kurse an der Universität zu entdecken.
 
-- [BTC 102](https://sovereignuniversity.org/course/btc102/fr) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen.
-- [LN 201](https://sovereignuniversity.org/course/ln201/fr) und [LN 202](https://sovereignuniversity.org/course/ln202/fr) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen.'
-- [ECON 201](https://sovereignuniversity.org/course/econ201/fr) wird sich mit der österreichischen Wirtschaft befassen
-- [SECU 101](https://sovereignuniversity.org/course/secu101/fr) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
-- [MINAGE 201](https://sovereignuniversity.org/course/min201/fr), um mehr über das Mining zu erfahren
+- [BTC 102](https://planb.network/courses/btc102) wird Ihnen helfen, Ihren Bitcoin-Plan umzusetzen.
+- [LN 201](https://planb.network/courses/ln201) und [LN 202](https://planb.network/courses/ln202) ermöglichen es Ihnen, das Lightning Network, ein Zahlungsnetzwerk in der zweiten Schicht, kennenzulernen.'
+- [ECON 201](https://planb.network/courses/econ201) wird sich mit der österreichischen Wirtschaft befassen
+- [SECU 101](https://planb.network/courses/secu101) ermöglicht es Ihnen, Ihre digitale Sicherheit zu aktualisieren
+- [MINAGE 201](https://planb.network/courses/min201), um mehr über das Mining zu erfahren
 - und viele mehr...
 
 ## Unterstütze uns

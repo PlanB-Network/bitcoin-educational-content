@@ -26,8 +26,6 @@ Théo; Beitrag
 
 ## Kursvorstellung
 
-![Einführung](https://youtu.be/DqLf72XBJUg)
-
 ### Ziel: Aktualisierung!
 
 Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, Ihnen das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu navigieren.
@@ -75,8 +73,6 @@ Zuerst werden wir besprechen, wie Sie Ihre E-Mail schützen können, die für Ih
 
 ## Online-Surfen
 
-![Online-Surfen](https://youtu.be/BEK7vGnkO64)
-
 Beim Surfen im Internet ist es wichtig, bestimmte häufige Fehler zu vermeiden, um Ihre Online-Sicherheit zu gewährleisten. Hier sind einige Tipps, um sie zu vermeiden:
 
 ### Achten Sie auf Software-Downloads:
@@ -113,8 +109,6 @@ TOR ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Persone
 
 ## VPN und Internetverbindung
 
-![vpn und internetverbindung](https://youtu.be/oRO7sGexvzo)
-
 ### VPNs
 
 Der Schutz Ihrer Internetverbindung ist ein entscheidender Aspekt der Online-Sicherheit, und die Verwendung von virtuellen privaten Netzwerken (VPNs) ist eine effektive Methode, um diese Sicherheit sowohl für Unternehmen als auch für einzelne Benutzer zu verbessern.
@@ -146,8 +140,6 @@ Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für 
 # Gute Computerpraktiken
 
 ## Computerbenutzung
-
-![Computerbenutzung](https://youtu.be/lzJr5CIulSU)
 
 Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digitalen Welt. Heute werden wir drei Schlüsselpunkte behandeln:
 
@@ -193,8 +185,6 @@ Zusammenfassend ist es entscheidend, ein Betriebssystem zu wählen, das Ihren Be
 
 ## Hack & Backup-Management: Schutz Ihrer Daten
 
-![Hack und Backup-Management](https://youtu.be/CJDjWPV3PeU)
-
 ### Wie greifen Hacker an?
 
 Um sich gut zu schützen, ist es entscheidend zu verstehen, wie Hacker versuchen, Ihren Computer zu infiltrieren. Viren kommen nicht oft aus dem Nichts, sondern sind eher die Folge unserer Handlungen, auch wenn sie unbeabsichtigt sind!
@@ -233,7 +223,6 @@ Wenn Sie einen Virus auf Ihrem Computer entdecken, trennen Sie ihn vom Internet,
 
 ## Das Management von E-Mail-Postfächern
 
-![Verwaltung des E-Mail-Postfachs](https://youtu.be/WjqH882f4cY)'
 Wir beginnen nun Abschnitt 2 des Kurses. In diesem Abschnitt werden wir drei wichtige Themen behandeln, um die Sicherheit des Online-Zugriffs zu gewährleisten: das Management von E-Mails, die Verwendung eines Passwort-Managers und die Zwei-Faktor-Authentifizierung (2FA).
 
 ### Einrichtung eines neuen E-Mail-Kontos!
@@ -264,8 +253,6 @@ Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für unsere Bi
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Passwort-Manager
-
-![Passwort-Manager](https://youtu.be/HzLuZ6noePY)
 
 ### Was ist ein Passwort-Manager?
 
@@ -316,8 +303,6 @@ Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können
 
 ## Die 2-Faktor-Authentifizierung
 
-![2FA](https://youtu.be/863n4N1XNjk)
-
 ### Warum 2FA implementieren
 
 Die Zwei-Faktor-Authentifizierung (2FA) ist eine zusätzliche Sicherheitsebene, die verwendet wird, um sicherzustellen, dass Personen, die versuchen, auf ein Online-Konto zuzugreifen, tatsächlich diejenigen sind, für die sie sich ausgeben. Anstatt nur einen Benutzernamen und ein Passwort einzugeben, erfordert die 2FA eine zweite Form der Überprüfung.
@@ -363,8 +348,6 @@ Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich 
 
 ## Wie man in dieser Cybersicherheitsbranche arbeitet
 
-![Fazit und Arbeiten in der Branche](https://youtu.be/YZ2EKaPvoZU)
-
 Die Cybersicherheit, ein aufstrebendes Gebiet, bietet zahlreiche Möglichkeiten für diejenigen, die sich für den Schutz von Systemen und Daten interessieren. Wenn Sie sich für diese Branche interessieren, finden Sie hier einige wichtige Schritte, um sich zu orientieren.
 
 ### Akademische Grundlagen und Zertifizierungen:
@@ -396,8 +379,6 @@ Die ständige Weiterentwicklung von Bedrohungen erfordert regelmäßige Überwac
 Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um erfolgreich in der Welt der Cybersicherheit zu navigieren.
 
 ## Interview mit Renaud
-
-![Interview](https://youtu.be/RVjE-KOSKDs)
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 

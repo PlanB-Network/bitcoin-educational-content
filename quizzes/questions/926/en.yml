@@ -1,0 +1,12 @@
+question: Why is it far harder to purchase a house today than in the 1980s? 
+answer: Suppressed interest rates make debt more enticing and inflation 
+wrong_answers:
+  - Inflation and rental rates 
+  - The rising cost of living and population growth
+  - Lack of properties and suppressed interest rates making debt more enticing
+explanation: |
+  While inflation is devaluing our currency’s purchasing power, making it 
+  harder to save, suppressed interest rates are making debt consumption 
+  more enticing. When the cost-of-capital is so cheap, people borrow beyond 
+  their means, funnelling more capital into assets, and driving up prices.
+reviewed: true

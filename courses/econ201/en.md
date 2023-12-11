@@ -38,8 +38,6 @@ If you are ready to embark on this adventure, I invite you to click on the follo
 
 ## Money, Credit, Banks, and Central Banks
 
-![Explanation of the traditional banking system](https://youtu.be/pz0RxlXNs7Y)
-
 > “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts.”
 >
 > Satoshi Nakamoto, pseudonymous inventor of Bitcoin
@@ -133,8 +131,6 @@ In the upcoming chapter, we will delve into the foundational cornerstone of any 
 >
 > Carl Menger, Principles of Political Economy
 
-![Introduction to Austrian Economics](https://youtu.be/ZSDCepNNacI)
-
 ### The Marginal Revolution
 
 At the root of economic reasoning lies the question of value. How do we determine the value of something? Is value an inherent property of things? Or is it, on the contrary, a subjective phenomenon? How do we compare the value of two things? Where does value come from?
@@ -212,8 +208,6 @@ Building on the insights of subjective ordinal value Menger explained the emerge
 The following chapters will be dedicated to the emergence of money as a social institution, the theory of capital and interest, which will serve as the basis for the Theory of the Business Cycle, and lastly the role of prices for economic calculation. 
 
 ## The Emergence of Money as a Social Phenomenon
-
-![Money](https://youtu.be/Dt8ounex2jg)
 
 While individuals have a common interest in specialization and maximizing the division of labor, there are still coordination problems that limit this expansion.
 
@@ -366,9 +360,8 @@ This is perfectly illustrated by the chart below: long-rates are lower than shor
 This is what we will find out in the next chapter dedicated to the Austrian Theory of the Business Cycle!
 
 # Austrian Economic Perspectives
-## The Austrian Theory of the Business Cycle
 
-![Economic Cycles for the Austrian School](https://youtu.be/CrPE6mcOjx4)
+## The Austrian Theory of the Business Cycle
 
 > “The longer the boom of inflationary bank credit continues, the greater the scope of malinvestments in capital goods, and the greater the need for liquidation of these unsound investments. When the credit expansion stops, reverses, or even significantly slows down, the malinvestments are revealed”
 >
@@ -444,8 +437,6 @@ This will be the subject of the next and last chapter of this course.
 
 ## The Impossibility of Economic Calculation under Socialism
 
-![The Impossibility of Economic Calculation in a Socialist System](https://youtu.be/E-9Fl6eg-mo)
-
 > “Where there are no market prices for the factors of production because they are neither bought nor sold, it is impossible to resort to calculation in planning future action and in determining the result of past action. A socialist management of production would simply not know whether or not what it plans and executes is the most appropriate means to attain the ends sought. It will operate in the dark, as it were. It will squander the scarce factors of production both material and human (labour). Chaos and poverty for all will unavoidably result”
 >
 > Ludwig von Mises, Planned Chaos
@@ -516,8 +507,6 @@ Mainstream economists and central planners often dislike Austrian economists bec
 The Austrian tradition embodies a humble approach to human action, drawing profound implications from the concepts of subjective value, uncertainty, free will, and complexity. It explains how the market order, despite not being a product of human design, stands as the central institution for our development and prosperity. If there's one key takeaway from this course, it is that capitalism became the dominant economic system because of its ability to adapt to change in a dynamic and uncertain world populated by free individuals.
 
 ## The Austrian Methodology
-
-![the Austrian methodology](https://youtu.be/hMyYGwU76dI)
 
 The Austrian school of economics distinguishes itself from other schools by its axiomatic-deductive methodology, which differs from the positivist approach often used in social sciences. The positivist approach is based on laws established from empirical data, adopting a method similar to that of physical sciences. It formulates hypotheses from observations, which are then confirmed or refuted by temporary experiments. The scientific method consists of retaining the hypothesis that best explains the data and continuing to explore it until a more precise hypothesis is found.
 

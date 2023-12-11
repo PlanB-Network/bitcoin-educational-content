@@ -38,8 +38,6 @@ Se sei pronto a intraprendere questa avventura, ti invito a cliccare sul seguent
 
 ## Denaro, Credito, Banche e Banche Centrali
 
-![Spiegazione del sistema bancario tradizionale](https://youtu.be/pz0RxlXNs7Y)
-
 > "Il problema fondamentale della valuta convenzionale è tutta la fiducia che è necessaria per farla funzionare. La banca centrale deve essere affidabile e non svalutare la valuta, ma la storia delle valute fiat è piena di violazioni di questa fiducia. Le banche devono essere affidabili nel custodire i nostri soldi e trasferirli elettronicamente, ma li prestano in onde di bolle di credito con appena una frazione in riserva. Dobbiamo fidarci di loro per la nostra privacy, fidarci che non lascino che i ladri di identità svuotino i nostri conti."
 >
 > Satoshi Nakamoto, inventore pseudonimo di Bitcoin
@@ -72,22 +70,45 @@ Questo dilemma ha dato origine alle moderne banche centrali. Nel XIX secolo in I
 
 Oltre a mantenere la stabilità finanziaria, le banche centrali sono responsabili della determinazione dei tassi di interesse chiave. Questi tassi determinano il costo a cui le banche autorizzate possono prendere in prestito fondi dalla banca centrale, definendo essenzialmente il costo della liquidità per le istituzioni finanziarie che svolgono un ruolo cruciale nel prestito nelle nostre economie. Pertanto, questi tassi fungono da punto di riferimento per l'intero sistema finanziario. Come individuo, gli interessi che paghi sul tuo mutuo possono essere suddivisi nel tasso di politica monetaria e nel margine della banca.
 
+![image](assets/Image/2.png)
+
+Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+
 Durante la grande crisi finanziaria del 2008, Lehman Brothers, una grande banca d'investimento, dichiarò bancarotta dopo aver subito perdite significative sui suoi titoli ipotecari e aver subito prelievi massicci da parte di clienti preoccupati. In risposta a questa crisi finanziaria senza precedenti, i banchieri centrali di tutto il mondo iniettarono grandi quantità di liquidità nei mercati finanziari, fusero banche d'investimento in difficoltà con banche commerciali e abbassarono i tassi di politica monetaria quasi a zero nel tentativo di evitare un collasso sistemico.
 
 Sebbene queste misure abbiano impedito una cascata di fallimenti, hanno fatto poco per alleviare il successivo rallentamento economico. Milioni di persone hanno perso il lavoro e la casa, la spesa dei consumatori è crollata, le imprese sono fallite e le banche hanno subito perdite consistenti. Nonostante i tassi di interesse storicamente bassi, pochi erano disposti a prendere in prestito, risultando in un circolo vizioso in cui la diminuzione iniziale della spesa e degli investimenti si rinforzava. Di conseguenza, i banchieri centrali hanno adottato ulteriori misure implementando programmi di Emissione Quantitativa (QE). Questi programmi prevedevano che le banche centrali acquistassero titoli di stato e titoli garantiti da ipoteche dalle banche commerciali con riserve della banca centrale.
 
+![image](assets/Image/3.png)
+
+Figure3 : Interest Rates Across Major Economies / Source: ECB
+
 Contrariamente a molte aspettative, i programmi di QE non hanno significativamente ravvivato la crescita economica, ma hanno inflazionato gli asset finanziari a livelli storici. Ciò ha beneficiato principalmente i ricchi e le istituzioni finanziarie, poiché già possedevano quantità consistenti di tali asset, ampliando così le disparità di ricchezza. Date le caratteristiche del sistema bancario spiegate in precedenza, questo risultato non dovrebbe sorprendere. Poiché le riserve bancarie non possono fluire facilmente nell'economia reale, i programmi di QE hanno principalmente aumentato i prezzi degli asset senza migliorare efficacemente la situazione finanziaria delle persone comuni.
 
+### The Cantillon Effect
+
 Tuttavia, da questo episodio può essere tratto un principio economico fondamentale: quando viene creato nuovo denaro, inizialmente beneficia coloro che sono più vicini alla fonte del denaro, a spese di coloro che sono più lontani. Questo principio economico risale al XVIII secolo, quando Richard Cantillon lo ha delineato nel suo "Saggio sulla natura del commercio in generale". Ora è comunemente noto come "Effetto Cantillon".
+
+![image](assets/Image/4.png)
+
+Figure4: Cantillon Effect in a Nutshell / Source: River Financial
+
 In questo caso, banchieri, dirigenti bancari, proprietari di azioni e obbligazioni, sviluppatori immobiliari, creditori immobiliari e chiunque detenga attività finanziarie o immobiliari ha ricevuto un guadagno finanziario, mentre il peso è ricaduto su tutti gli altri. Questa situazione è perdurata per anni ed è in gran parte responsabile dell'aumento dell'ineguaglianza della ricchezza, del senso di esclusione tra le persone che lavorano duramente e dell'apparentemente inarrestabile aumento dei prezzi degli asset nonostante la crescita lenta del PIL.
 
 In sostanza, il sistema è distorto. Le banche sono intrinsecamente instabili, ma il loro fallimento può mettere a rischio l'intera economia. Questo rischio morale incentiva i dirigenti bancari a prendere rischi eccessivi per massimizzare i ricavi della propria banca, sapendo che la banca centrale alla fine li salverà, spostando il costo sui contribuenti. In tali scenari, le banche centrali creano le condizioni per un massiccio trasferimento di potere d'acquisto dalle persone che lavorano duramente e risparmiano ai proprietari di asset e a coloro che sono collegati al sistema finanziario, scollegando così il processo di creazione della ricchezza dall'accumulo di ricchezza.
+
+![image](assets/Image/5.png)
+
+Figure5: Wealth Distribution in China + Europe + the US / Source: OECD
 
 ### Conseguenze delle politiche di tassi di interesse zero
 
 Durante periodi prolungati di politiche di tassi di interesse zero (ZIRP), le banche hanno poche opportunità per ricostruire il proprio patrimonio perché i loro margini vengono erosi. Le banche guadagnano tipicamente prendendo in prestito a tassi a breve termine e prestando a tassi a lungo termine. Tuttavia, quando le banche centrali acquistano grandi quantità di obbligazioni e fissano i tassi a zero, le banche hanno scarso incentivo a prestare, soprattutto a imprenditori e altri rischianti. Invece, allocano le loro risorse per securitizzare il capitale esistente o fornire prestiti garantiti per soddisfare la domanda di coloro che beneficiano dell'effetto Cantillon.
 
 Un'altra conseguenza non voluta della ZIRP è che incoraggia i governi a impegnarsi in una spesa estensiva. Poiché i governi non affrontano costi di prestito e possono fare affidamento sulle banche centrali per acquistare i loro titoli attraverso programmi di QE, hanno un incentivo naturale a spendere il più possibile, soprattutto in contesti democratici in cui la spesa può ottenere voti. Questa tendenza spesso non tiene conto delle conseguenze a lungo termine di tale prodigalità fiscale, portando a un aumento significativo dei livelli di debito pubblico nelle economie sviluppate dalla crisi finanziaria globale (GFC).
+
+![image](assets/Image/6.png)
+
+Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country) / Source IMF
 
 Con l'aumento dell'inflazione a causa della creazione di denaro in risposta ai blocchi legati al COVID, le banche centrali stanno ora aumentando i tassi di interesse per frenare l'inflazione. Tuttavia, ciò rappresenta una sfida significativa per l'intero sistema. Le banche sono più indebitate che mai, i governi hanno livelli di debito storicamente alti, la crescita economica è lenta, i deficit si accumulano e i consumatori, alle prese con l'aumento dei prezzi dei beni essenziali, faticano a far quadrare i conti. Controllare l'inflazione richiederebbe di aumentare i tassi a un livello che potrebbe far fallire i governi, mentre le banche rischiano di perdere i depositanti poiché le persone spendono i loro risparmi per beni essenziali sempre più costosi o cercano rifugio in asset reali e fondi del mercato monetario per proteggersi dall'inflazione.
 
@@ -108,8 +129,6 @@ Nel prossimo capitolo, approfondiremo la pietra angolare fondamentale di qualsia
 > "Il valore esiste solo nella coscienza umana"
 >
 > Carl Menger, Principi di Economia Politica
-
-![Introduzione all'Economia Austriaca](https://youtu.be/ZSDCepNNacI)
 
 ### La Rivoluzione Marginale
 
@@ -185,8 +204,6 @@ Basandosi sulle intuizioni del valore ordinale soggettivo, Menger ha spiegato l'
 I capitoli successivi saranno dedicati all'emergere del denaro come fenomeno sociale, alla teoria del capitale e dell'interesse, che servirà da base per la Teoria del Ciclo Economico, e infine al ruolo dei prezzi per il calcolo economico.
 
 ## L'emergere del denaro come fenomeno sociale
-
-![Denaro](https://youtu.be/Dt8ounex2jg)
 
 Sebbene gli individui abbiano un interesse comune nella specializzazione e nella massimizzazione della divisione del lavoro, ci sono comunque problemi di coordinamento che limitano questa espansione.
 
@@ -276,6 +293,9 @@ Questa valutazione soggettiva del valore dei beni futuri rispetto ai beni presen
 
 Questo concetto di valutazione relativa dei beni futuri rispetto ai beni presenti è alla base del fenomeno dell'interesse. Infatti, in un'economia con mercati di capitale non manipolati, i tassi di interesse di riferimento (considerati privi di rischio di insolvenza) sono determinati dall'intersezione tra offerta e domanda di capitale. Pertanto, questi tassi rappresentano lo stato delle preferenze temporali per l'intera economia: un aumento del tasso di interesse deriva da un aumento relativo della domanda di capitale rispetto all'offerta, indicando preferenze temporali più elevate. Al contrario, una diminuzione dei tassi di interesse avviene a causa di un aumento del risparmio, ovvero un aumento dell'offerta di capitale, indicando una riduzione delle preferenze temporali.
 
+![image](assets/Image/9.png)
+
+
 In un'economia in cui i tassi di interesse non sono manipolati dalla banca centrale, tendiamo a osservare una curva dei rendimenti in salita: maggiore è la scadenza del debito, più alto è il tasso di interesse. La situazione opposta non può accadere perché comporterebbe che il futuro è più certo del presente, il che è una impossibilità logica.
 Il concetto di preferenza temporale e come esprimiamo la nostra preferenza temporale attraverso l'atto di consumo e risparmio è fondamentale per i processi di allocazione del capitale e di produzione. Rivolgiamoci allo studente di Menger, Eugen von Böhm-Bawerk, e alla sua teoria del capitale per capire esattamente come la preferenza temporale influisce sull'organizzazione della produzione.
 
@@ -333,8 +353,6 @@ Questo è ciò che scopriremo nel prossimo capitolo dedicato alla Teoria Austria
 # Prospettive Economiche Austriache
 
 ## La Teoria Austriaca del Ciclo Economico
-
-![Cicli Economici per la Scuola Austriaca](https://youtu.be/CrPE6mcOjx4)
 
 > "Più a lungo continua il boom del credito bancario inflazionistico, maggiore è l'ampiezza delle cattive investimenti in beni di capitale e maggiore è la necessità di liquidare questi investimenti insani. Quando l'espansione del credito si ferma, si inverte o anche rallenta significativamente, i cattivi investimenti vengono rivelati"
 >
@@ -408,8 +426,6 @@ Questo sarà l'argomento del prossimo e ultimo capitolo di questo corso.
 
 ## L'Impossibilità del Calcolo Economico nel Socialismo
 
-![L'Impossibilità del Calcolo Economico in un Sistema Socialista](https://youtu.be/E-9Fl6eg-mo)
-
 > "Dove non ci sono prezzi di mercato per i fattori di produzione perché non vengono né comprati né venduti, è impossibile ricorrere al calcolo nella pianificazione dell'azione futura e nel determinare il risultato dell'azione passata. Una gestione socialista della produzione semplicemente non saprebbe se ciò che pianifica ed esegue è il mezzo più appropriato per raggiungere gli scopi desiderati. Opererà nel buio, per così dire. Sprecherà i fattori di produzione scarsa, sia materiali che umani (lavoro). Il caos e la povertà per tutti saranno inevitabilmente il risultato"
 >
 > Ludwig von Mises, Planned Chaos
@@ -476,8 +492,6 @@ Gli economisti mainstream e i pianificatori centrali spesso non gradiscono gli e
 La tradizione austriaca incarna un approccio umile all'azione umana, trae profonde implicazioni dai concetti di valore soggettivo, incertezza, libero arbitrio e complessità. Spiega come l'ordine di mercato, nonostante non sia un prodotto del disegno umano, si ponga come l'istituzione centrale per il nostro sviluppo e prosperità. Se c'è un concetto chiave da trarre da questo corso, è che il capitalismo è diventato il sistema economico dominante grazie alla sua capacità di adattarsi ai cambiamenti in un mondo dinamico e incerto popolato da individui liberi.
 
 ## La Metodologia Austriaca
-
-![la metodologia austriaca](https://youtu.be/hMyYGwU76dI)
 
 La scuola austriaca di economia si distingue dalle altre scuole per la sua metodologia deduttiva-assiomatica, che si differenzia dall'approccio positivista spesso utilizzato nelle scienze sociali. L'approccio positivista si basa su leggi stabilite da dati empirici, adottando un metodo simile a quello delle scienze fisiche. Formula ipotesi da osservazioni, che vengono poi confermate o confutate da esperimenti temporanei. Il metodo scientifico consiste nel mantenere l'ipotesi che spiega meglio i dati e continuare ad esplorarla fino a trovare un'ipotesi più precisa.
 

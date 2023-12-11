@@ -18,27 +18,26 @@ Wir werden also die verschiedenen Arten von KYC (vollständiges KYC wie in Frank
 
 # Einführung
 
-![Einführung von Rogzy](https://youtu.be/3AHeKLTK7Sg)
-
 ## Erklärung & Art des KYC
 
-![Erklärung der KYC-Arten](https://youtu.be/kDhXoPU1KtM)
-
 KYC, für "Know Your Customer" (Kennen Sie Ihren Kunden), ist eine regulatorische Norm, die die Sammlung von privaten Informationen der Kunden erfordert, wie ihre physische Adresse, ihre Identitätsdokumente oder ihre Bankauszüge. Diese Praxis ist auf Handelsplattformen üblich, die ein vollständiges KYC verlangen können, einschließlich detaillierter Informationen wie Identitätsdokumente, Fotos, Adressnachweise, Gehaltsabrechnungen usw.
+
 Das Hauptziel von KYC ist es, Geldwäsche, Terrorismusfinanzierung und Steuerhinterziehung zu bekämpfen. Es handelt sich um ein Gesetz, das von der AMF (Autorité des marchés financiers), der französischen Marktregulierungsbehörde, erlassen wurde. Die Anwendung von KYC führt jedoch zur Zentralisierung sehr sensibler Datenbanken, die persönliche Informationen der Benutzer enthalten. Diese Informationen, die einen gewissen Wert haben, können an bösartige Entitäten verkauft werden.
 Zudem verlangen Handelsplattformen oft eine übermäßige Menge an persönlichen Informationen, was die Benutzer gefährdet und die Compliance-Kosten erhöht. Diese regulatorischen Kosten können französische Unternehmen entmutigen und ihre Wettbewerbsfähigkeit auf internationaler Ebene beeinträchtigen.
 Es gibt drei Arten von KYC, darunter das Full KYC, das eine vollständige und regulierte Sammlung von Informationen erfordert, um auf den Service zugreifen zu können. In der Schweiz ermöglicht eine Alternative namens "KYC light" den Kauf und Verkauf von Bitcoins ohne Vorlage eines Ausweises, solange der Kaufbetrag 1000 Euro pro Tag nicht übersteigt. Lösungen wie Relay ermöglichen die Verwendung dieser Methode.
+
 In diesem Zusammenhang können die Schweizer Behörden auf Bankinformationen zugreifen, um Personen zu untersuchen, die als risikobehaftet gelten. Bitcoin-Lieferadressen sind auch über das Bankensystem nachverfolgbar. KYC light wird im Allgemeinen als einfacher und kostengünstiger als das französische System angesehen.
+
 In Frankreich erfordert der Online-Kauf von Bitcoins das Senden von Geld an einen Dritten per SEPA-Überweisung oder Paypal. Für diejenigen, die Anonymität, Sicherheit und Privatsphäre bevorzugen, stehen auch Lösungen für den Kauf von Bitcoins in bar zur Verfügung. Für geringe Volumina ist der Kauf von Bitcoins in bar eine einfache und legale Option.
 
 Um täglich Bitcoin-PLT im Wert von 100 Euro an jeden verkaufen zu können, ist eine Regulierung durch die AMF (Autorité des Marchés Financiers) erforderlich. In Frankreich gilt diese Regulierung hauptsächlich für Privatpersonen, die hohe Transaktionsvolumina durchführen. Die beiden anderen Methoden zum Kauf von Bitcoin umfassen die Verwendung von Geldautomaten (ATM) und den Austausch zwischen Freunden. Geldautomaten sind reguliert und erfordern eine Identitätsprüfung für Transaktionen über 500 Euro. Der Austausch zwischen Freunden bietet eine diskretere Möglichkeit, Bitcoin zu nutzen.
+
 Diese regulatorischen Maßnahmen sind zur Bekämpfung der Finanzierung von Terrorismus, Steuerhinterziehung und Geldwäsche vorgesehen. Bitcoin als vollständig nachverfolgbare Datenbank macht Geldwäsche besonders schwierig. Die Verwendung von Bitcoin durch Kriminelle kann zurückverfolgt werden, was Bitcoin zu einem wenig effektiven Werkzeug für Geldwäsche macht.
 Es ist wichtig zu beachten, dass diese Schulung verschiedene Alternativen sowie Werkzeuge präsentiert, die für böswillige oder nicht böswillige Zwecke genutzt werden können. Darüber hinaus bietet sie Erklärungen zum Funktionieren von Orderbüchern zwischen Makern (Auftragsanbietern) und Takern (Auftragsnehmern).
+
 Es ist auch wichtig zu beachten, dass die hier präsentierte Information keine bestimmte Lösung befürwortet. Es geht lediglich darum, die verfügbaren Optionen für ein besseres Verständnis des Themas darzustellen. Bei weiteren Fragen zum Bitcoin sollten Online-Ressourcen wie www.découvrebitcoin.com konsultiert werden.
 
 ## Vergleich der Peer-to-Peer-Kauf- und Verkaufslösungen
-
-![Vergleich der Peer-to-Peer-Kauf- und Verkaufslösungen](https://youtu.be/HiwSjN04Mz0)
 
 P2P-Lösungen zum Kauf von Bitcoin: Bisq, RoboSat, LNP2PBot, Peach und HodlHodl
 
@@ -147,12 +146,6 @@ Lassen Sie uns nun die Schritte für den Verkauf von Bitcoins auf Robosats betra
 
 🚨 Bitte seien Sie vorsichtig bei der Verwendung von Bisq, da es sich um eine fortgeschrittene Lösung handelt. Es ist möglicherweise nicht für Anfänger geeignet. Stellen Sie sicher, dass Sie etwas Erfahrung und Verständnis haben, bevor Sie loslegen. 🚨
 
-Wir betrachten diese Lösung im Detail, hier sind die Tutorial-Videos:
-
-![Teil 1](https://tube.nuagelibre.fr/videos/watch/b3885ea9-23e9-4b58-aa3f-401348da85a1)
-
-![Teil 2](https://tube.nuagelibre.fr/videos/watch/53276305-70d6-4c7f-9df9-e100a82eee16)
-
 Für diejenigen, die sich auskennen, gibt es hier eine kurze Anleitung, die die wesentlichen Schritte schnell beschreibt:
 
 1. Herunterladen und Installieren: Besuchen Sie die Bisq-Website und laden Sie die Anwendung herunter. Installieren Sie es auf Ihrem System.
@@ -160,6 +153,7 @@ Für diejenigen, die sich auskennen, gibt es hier eine kurze Anleitung, die die 
 3. Füllen Sie Ihre Bisq-Brieftasche auf: Klicken Sie auf "Fonds" und "Fonds erhalten", um Ihre Bisq-Adresse zu erhalten. Senden Sie Bitcoins an diese Adresse.
 4. Eine Transaktion durchführen: Klicken Sie auf "Kaufen/Verkaufen" und wählen Sie die gewünschte Transaktion aus. Folgen Sie den Anweisungen, um die Transaktion abzuschließen.
 5. Bestätigen Sie den Empfang: Sobald Sie die Zahlung erhalten haben, bestätigen Sie diese in der Bisq-App. Dadurch wird das Bitcoin aus der Treuhand freigegeben.
+
    Vergessen Sie nicht, alle Details Ihrer Transaktionen zu überprüfen und nur mit vertrauenswürdigen Parteien zu handeln.
 
 Hier ist ein umfassender Leitfaden, der Sie durch alle Schritte führt, um Bisq zu nutzen.
@@ -258,8 +252,6 @@ Website: https://peachbitcoin.com/
 
 Wir werden diese Lösung in BTC 205 von @pivi\_ im Detail betrachten. Hier sind die Video-Tutorials:
 
-![Peach](https://youtu.be/ziwhv9KqVkM)
-
 [Peach](https://peachbitcoin.com/) ist eine Schweizer mobile Anwendung, mit der Sie Bitcoins peer-to-peer kaufen und verkaufen können. Diese einfach zu bedienende Lösung bietet eine intuitive Benutzeroberfläche, die ideal für Kryptowährungstransaktionen ist.
 
 Die Benutzeroberfläche der Peach-Anwendung besteht aus vier Registerkarten: Kaufen, Verkaufen, Historie und Einstellungen. (Screenshot der Anwendungsoberfläche)
@@ -274,8 +266,6 @@ Insgesamt bietet die mobile Anwendung Peach eine zugängliche Lösung zum Kauf u
 ## Hold Hodl
 
 [HodlHodl](https://hodlhodl.com/) ist ein dezentralisierter Bitcoin-Marktplatz, der die Kontrolle und Sicherheit der Benutzer priorisiert. Im Gegensatz zu traditionellen Börsen arbeitet es nach einem Peer-to-Peer-Modell, das direkte Transaktionen zwischen Benutzern ermöglicht. Dank seines Multi-Signatur-Treuhand-Systems garantiert Hodl Hodl die Sicherheit von Mitteln während Transaktionen. Die Plattform unterstützt auch verschiedene Zahlungsmethoden und bietet Handelsoptionen wie Differenzkontrakte (CFD).
-
-![hodlhodl tutorial](https://youtu.be/BDH9jE7kpD8)
 
 In diesem Tutorial erklären wir Ihnen, wie Sie auf der HodlHodl-Plattform Bitcoins im Peer-to-Peer-Modus kaufen und verkaufen können.
 
@@ -311,8 +301,6 @@ Das Erstellen eines Angebots zum Kauf oder Verkauf von Bitcoins auf HodlHodl erf
 
 ## Bonus: Side Shift.AI
 
-![SideShift AI](https://youtu.be/xG8Wc1Ti5b8)
-
 Hier ist eine kurze Anleitung zur Verwendung von [SideShift AI](https://sideshift.ai/), einem sehr praktischen Tool zum Konvertieren von Shitcoins in Bitcoin. Es ist das ideale Tool für diejenigen, die alle ihre persönlichen Börsen geschlossen haben. Es ist kein Bestellsystem erforderlich und Liquidität ist verfügbar. Bitte beachten Sie jedoch, dass eine Gebühr von 2,5% pro Transaktion anfällt.
 
 Wenn Sie Kryptowährungen mit KYC gekauft haben, wird empfohlen, Monero zu verwenden, um diese Kryptowährungen in Bitcoin umzuwandeln. Monero bietet eine höhere Privatsphäre als Bitcoin. Für zusätzliche Sicherheit wird auch die CoinJoin-Operation empfohlen. CoinJoin mischt Ihre Transaktionen mit denen anderer Benutzer, um die Rückverfolgbarkeit Ihrer Transaktionen zu erschweren.
@@ -331,8 +319,6 @@ Ein Bewertungssystem für die Schulung wird bald in diese neue E-Learning-Plattf
 
 ## Interview mit Steph von Peach Bitcoin
 
-![Interview mit Steph](https://youtu.be/LRGKD8qNSXw)
-
 Hier ist eine Zusammenfassung des Interviews:
 
 Pitch Bitcoin ist eine nicht-custodial mobile Anwendung, die den Kauf und Verkauf von Bitcoin peer-to-peer ermöglicht. Derzeit besteht das Pitch Bitcoin-Team mit Sitz in der Schweiz aus acht Mitgliedern und bemüht sich, die Anwendung auch als Wallet zu nutzen. Das einzigartige Modell von Pitch Bitcoin basiert auf einer zentralisierten Unternehmensstruktur und behält gleichzeitig ein dezentrales Kauf- und Verkaufsbuch bei. Darüber hinaus bietet die Anwendung eine Option für Barzahlungen bei persönlichen Treffen.
@@ -346,8 +332,6 @@ Derzeit entwickelt Pitch Bitcoin mehrere Funktionen, um die Arbeit der Verkäufe
 Abschließend betont die Gründerin von Pitch Bitcoin die Bedeutung des Wettbewerbs im Bitcoin-Ökosystem, da das, was gut für Bitcoin ist, für alle von Vorteil ist. Sie ermutigt auch Vielfalt und Inklusion in der Bitcoin-Branche und darüber hinaus.
 
 ## Interview mit Pierre
-
-![Interview mit Pierre](https://youtu.be/COoezuJncm8)
 
 Hier ist eine Zusammenfassung des Interviews:
 

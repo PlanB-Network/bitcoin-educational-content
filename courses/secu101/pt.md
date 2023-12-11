@@ -26,8 +26,6 @@ Théo; Contribuição
 
 ## Introdução ao curso
 
-![introdução](https://youtu.be/DqLf72XBJUg)
-
 ### Objetivo: atualização!
 
 Bem-vindos a todos a este programa de ensino dedicado à segurança digital. Este treinamento foi projetado para ser acessível a todos, portanto, nenhum conhecimento prévio em informática é necessário. Nosso objetivo principal é fornecer a você o conhecimento e as habilidades necessárias para navegar de forma mais segura e privada no mundo digital.
@@ -74,8 +72,6 @@ Primeiro, veremos como proteger sua caixa de e-mails, essencial para suas comuni
 
 ## Navegação online
 
-![navegação online](https://youtu.be/BEK7vGnkO64)
-
 Ao navegar na internet, é importante evitar alguns erros comuns para preservar sua segurança online. Aqui estão algumas dicas para evitá-los:
 
 ### Cuidado com o download de softwares:
@@ -112,8 +108,6 @@ O TOR é legal e é usado por jornalistas, ativistas da liberdade e outras pesso
 
 ## VPN e conexão com a internet
 
-![vpn e conexão com a internet](https://youtu.be/oRO7sGexvzo)
-
 ### VPNs
 
 A proteção da sua conexão com a internet é um aspecto crucial da segurança online, e o uso de redes virtuais privadas (VPNs) é um método eficaz para melhorar essa segurança, tanto para empresas quanto para usuários individuais.
@@ -144,8 +138,6 @@ Em resumo, o uso de VPN pode melhorar significativamente a segurança online, ta
 # Boas práticas de uso do computador
 
 ## Uso do computador
-
-![uso do computador](https://youtu.be/lzJr5CIulSU)
 
 A segurança de nossos computadores é uma questão importante no mundo digital atual. Hoje, abordaremos três pontos-chave:
 
@@ -191,8 +183,6 @@ Em conclusão, é fundamental optar por um sistema operacional adequado às suas
 
 ## Hack e gerenciamento de backup: protegendo seus dados
 
-![hack e gerenciamento de backup](https://youtu.be/CJDjWPV3PeU)
-
 ### Como os hackers atacam?
 
 Para se proteger adequadamente, é fundamental entender como os hackers tentam infiltrar seu computador. Na verdade, os vírus não aparecem do nada, mas são mais frequentemente consequências de nossas ações, mesmo que involuntárias!
@@ -231,8 +221,6 @@ Se você detectar um vírus em seu computador, desconecte-o da internet, faça u
 
 ## Gerenciamento de caixas de e-mail
 
-![gerenciamento de caixa de e-mail](https://youtu.be/WjqH882f4cY)
-
 ### Configurar uma nova caixa de correio eletrónico!
 
 A caixa de correio é o ponto central da sua atividade online: se for comprometida, um hacker pode utilizá-la para recriar todas as suas palavras-passe através da função "palavra-passe esquecida" e, assim, obter acesso a muitos outros sites. É por isso que é necessário mantê-la segura.
@@ -261,8 +249,6 @@ Bônus Bitcoin: Pode ser aconselhável criar um endereço de e-mail especialment
 **_ Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub _**
 
 ## Gerenciador de senhas
-
-![gerenciador de senhas](https://youtu.be/HzLuZ6noePY)
 
 ### O que é um gerenciador de senhas?
 
@@ -313,8 +299,6 @@ Passwords geradas aleatoriamente oferecem um nível de segurança superior, embo
 
 ## Autenticação de 2 fatores
 
-![2FA](https://youtu.be/863n4N1XNjk)
-
 ### Por que implementar o 2FA
 
 A autenticação de dois fatores (2FA) é uma camada adicional de segurança usada para garantir que as pessoas que estão tentando acessar uma conta online sejam realmente quem dizem ser. Em vez de apenas digitar um nome de usuário e uma password, o 2FA requer uma segunda forma de verificação.
@@ -360,8 +344,6 @@ Regra de ouro: A segurança da informação é um alvo em movimento que se adapt
 
 ## Como trabalhar nesta indústria de cibersegurança
 
-![conclusão e trabalhar na indústria](https://youtu.be/YZ2EKaPvoZU)
-
 A cibersegurança, um campo em pleno crescimento, oferece uma infinidade de oportunidades para aqueles apaixonados pela proteção de sistemas e dados. Se essa indústria te intriga, aqui estão alguns passos-chave para se orientar.
 
 ### Fundações acadêmicas e certificações:
@@ -393,8 +375,6 @@ A evolução constante das ameaças requer uma vigilância regular das notícias
 Dominando essas habilidades e ferramentas, você estará bem equipado para navegar com sucesso no mundo da cibersegurança.
 
 ## Entrevista com Renaud
-
-![Entrevista](https://youtu.be/RVjE-KOSKDs)
 
 ### Gestão eficaz de senhas e fortalecimento da autenticação: uma abordagem acadêmica
 

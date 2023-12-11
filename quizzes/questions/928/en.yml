@@ -1,0 +1,12 @@
+question: How are new bitcoin created and introduced into circulation? 
+answer: Through mining as a reward for adding new transactions to the blockchain 
+wrong_answers:
+  - Through a centralised authority's issuance
+  - By purchasing them from Bitcoin exchanges
+  - By receiving them as transaction fees
+explanation: |
+  New bitcoin are introduced into circulation through a process called mining. 
+  Miners compete with one another to add new transactions to the blockchain. 
+  In exchange for their work, miners are rewarded with newly created bitcoin. 
+  This process also verifies and secures transactions on the Bitcoin network.
+reviewed: true

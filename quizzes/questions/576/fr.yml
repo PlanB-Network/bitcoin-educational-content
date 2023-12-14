@@ -1,9 +1,0 @@
-question: Que signifie-t-il si le prix d'achat diminue plus rapidement que le prix de vente ?
-answer: Cela signifie que le vendeur réalise un bénéfice car il est capable de vendre ses biens ou services pour plus que ce qu'il les a achetés.
-wrong_answers:
-  - Cela signifie que le vendeur subit une perte car il vend ses biens ou services pour moins que ce qu'il les a achetés.
-  - Cela signifie que l'acheteur réalise un bénéfice car il est capable d'acheter des biens ou services pour moins que ce qu'il les vend.
-  - Cela signifie que l'acheteur subit une perte car il achète des biens ou services pour plus que ce qu'il les vend.
-explanation: |
-  Si le prix d'achat diminue plus rapidement que le prix de vente, cela signifie que le vendeur réalise un bénéfice. Cela est dû au fait qu'il est capable de vendre ses biens ou services pour plus que ce qu'il les a achetés.
-reviewed: false

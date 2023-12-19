@@ -1,7 +1,7 @@
 ---
-nome: Segurança da Informação e Gerenciamento de Dados
-objetivo: Atualizar o gerenciamento de senhas e dados pessoais. Criar um backup, proteger-se de hackers e conscientizar sobre vigilância em massa.
-objetivos:
+name: Segurança da Informação e Gerenciamento de Dados
+goal: Atualizar o gerenciamento de senhas e dados pessoais. Criar um backup, proteger-se de hackers e conscientizar sobre vigilância em massa.
+objectives:
   - Atualizar sobre o gerenciamento dos seus dados pessoais e sobre as ferramentas que fortalecem a sua segurança.
   - Implementar um gerenciador de senhas seguro e fácil de usar.
   - Implementar a autenticação de dois fatores para reforçar a tua segurança e minimizar os riscos de invasão.

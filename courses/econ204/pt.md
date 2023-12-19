@@ -1,7 +1,7 @@
 ---
-nome: As Hiperinflações
-objetivo: Compreender a emergência das hiperinflações num mundo Fiat e as suas consequências
-objetivos:
+name: As Hiperinflações
+goal: Compreender a emergência das hiperinflações num mundo Fiat e as suas consequências
+objectives:
   - Estudar os ciclos hiperinflacionários
   - Compreender os impactos reais das hiperinflações nas nossas vidas quotidianas
   - Estudar as semelhanças das hiperinflações ao longo do tempo

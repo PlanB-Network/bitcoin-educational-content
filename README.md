@@ -54,26 +54,27 @@ with $R$ the reward, $B$ the base fee (currently 2,500 sats), $U$ the review urg
 | Language   | Language Code | Difficulty Factor | Branch Name                            |
 |------------|---------------|-------------------|----------------------------------------|
 | English    | EN            | 1.0               | `english-translation-and-review`       |
-| German     | DE            | 1.5               | `german-translation-and-review`        |
-| French     | FR            | 1.5               | `french-translation-and-review`        |
+| German     | DE            | 1.0               | `german-translation-and-review`        |
+| French     | FR            | 1.0               | `french-translation-and-review`        |
 | Italian    | IT            | 1.5               | `italian-translation-and-review`       |
-| Portuguese | PT            | 1.5               | `portuguese-translation-and-review`    |
+| Portuguese | PT            | 1.0               | `portuguese-translation-and-review`    |
 | Spanish    | ES            | 1.5               | `spanish-translation-and-review`       |
-| Danish     | DA            | 1.5               | `danish-translation-and-review`        |
+| Danish     | DA            | 2.0               | `danish-translation-and-review`        |
 | Dutch      | NL            | 1.5               |           Not yet created              |
-| Greek      | EL            | 2.0               |           Not yet created              |
-| Hindi      | HI            | 2.0               |           Not yet created              |
+| Greek      | EL            | 2.5               |           Not yet created              |
+| Hindi      | HI            | 3.0               |           Not yet created              |
 | Polish     | PL            | 2.0               |           Not yet created              |
-| Swahili    | SW            | 2.0               | `swahili-translation-and-review`       |
-| Afrikaans  | AF            | 2.0               | `afrikaans-translation-and-review`     |
-| Turkish    | TR            | 2.5               |           Not yet created              |
-| Thai       | TH            | 2.5               |           Not yet created              |
-| Bengali    | BN            | 2.5               |           Not yet created              |
-| Russian    | RU            | 2.5               |           Not yet created              |
+| Swahili    | SW            | 2.5               | `swahili-translation-and-review`       |
+| Afrikaans  | AF            | 2.5               | `afrikaans-translation-and-review`     |
+| Turkish    | TR            | 3.0               |           Not yet created              |
+| Bengali    | BN            | 4.0               |           Not yet created              |
+| Russian    | RU            | 2.0               |           Not yet created              |
 | Japanese   | JA            | 3.0               | `japanese-translation-and-review`      |
 | Arabic     | AR            | 3.0               | `arabic-translation-and-review`        |
-| Chinese    | ZH            | 3.0               |           Not yet created              |
+| Chinese    | ZH            | 2.5               |           Not yet created              |
 | Korean     | KO            | 3.0               |           Not yet created              |
+| Thai       | TH            | 3.5               |  `thai-translation-and-review`         |
+
 
 
 The reward is sent via Lightning once its review is merged into the `dev` branch. 

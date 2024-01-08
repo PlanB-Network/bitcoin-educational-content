@@ -30,8 +30,8 @@ Once content is reviewed, it will be reviewed by other peers before being merged
 
 Now that you understand the high-level procedure of the translation, you want to review a content you have to complete its associated issue via a PR from your local branch to the corresponding language branch (e.g. `italian-translation-and-review`).
 
-If you are not familiar with Git, don't worry, we have made a [step-by-step tutorial](https://www.canva.com/design/DAFwLztXxSU/opLGXqKq2UOkXH6txgVUkA/edit?utm_content=DAFwLztXxSU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) with complementary explanations. 
-Moreover, we are working on a local interface to hide all Github mechanics to the contributor. 
+**If you are not familiar with Git, don't worry, we have made a [step-by-step tutorial](https://notes.decouvrebitcoin.com/s/K9ijdGj9X) with comprehensive explanations.** 
+Moreover, we are working on a [local interface](https://github.com/pythcoiner/planb_contributor_client) to ease the workflow by hiding all Github mechanics to contributors. 
 
 ### Sat Reward 
 

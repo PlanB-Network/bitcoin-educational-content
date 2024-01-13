@@ -1,12 +1,38 @@
 ---
-name: Tether course
-goal: Tether course goals
+name: Introduction to Bitcoin & Stablecoin
+goal: An In-Depth Look at Bitcoin, Stablecoins, & the Sovereignty That Comes With Them
 objectives:
-  - Tether course objectives
+  - Understanding the historical evolution of money and the primary pain points resulting from our current financial system.
+  - Developing a comprehensive understanding of Bitcoin, differentiating it from traditional fiat currencies.
+  - Examining the role of stablecoins, specifically Tether, in financial stability and as a bridge between Bitcoin and traditional fiat currencies.
+  - Identifying and debunking common misconceptions surrounding Bitcoin and stablecoins.
 
 ---
 
-Tether course description 
+Have you ever wondered:
+
+* Why is my cost of living continuing to rise?
+* Is inflation really good for me?
+* What options are available to help me protect against inflation?
+* How does Bitcoin or stablecoins fit into all this?
+
+If you answered yes to any of these questions, you're in the right place.
+
+Welcome to "Opting In To Change," where we delve beneath the surface of our monetary systems while looking at some available tools for creating positive change. As our world grapples with encroaching threats to freedoms and escalating human rights violations, this course attempts to offer a guiding light—an alternative system that restores control back into the hands of the individual.
+
+If what you've just read has piqued your interest, we hope you'll join us on this educational journey.
+
+What To Expect:
+* Beginner friendly
+* Roughly 3 hours of self-paced content
+* Interactive quizzes to test your knowledge
+* Written by industry professionals
+* Examples from across the globe and from all walks of life
+
+Requirements:
+A passion for learning
+
+This course has been offert and sponsord by TETHER
 
 +++
 

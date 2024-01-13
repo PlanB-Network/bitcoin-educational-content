@@ -1,7 +1,7 @@
 ---
-name: Pheonix
+name: Phoenix
 
-description: Configuración de su billetera Pheonix
+description: Configuración de su billetera Phoenix
 ---
 
 ![phoenix](assets/cover.jpeg)
@@ -12,7 +12,7 @@ Para encontrar su documentación oficial, consulte su guía de preguntas frecuen
 
 ## Tutorial en video
 
-![ Phoenix: Tutorial de billetera Bitcoin Lightning](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
+![ Phoenix: Tutorial de billetera Bitcoin Lightning](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
 
 ## Guías escritas
 

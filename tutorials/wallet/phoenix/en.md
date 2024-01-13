@@ -12,7 +12,7 @@ To find their official documentation, refer to their FAQ guide: [https://phoenix
 
 ## Video Tutorial
 
-![Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
+![Phoenix: Bitcoin Lightning Wallet Tutorial](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
 
 ## Written Guides
 

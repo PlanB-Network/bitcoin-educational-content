@@ -1,7 +1,7 @@
 ---
-name: Pheonix
+name: Phoenix
 
-description: Configuração da sua carteira Pheonix
+description: Configuração da sua carteira Phoenix
 ---
 
 ![phoenix](assets/cover.jpeg)
@@ -12,7 +12,7 @@ Para encontrar a documentação oficial, consulte o guia de perguntas frequentes
 
 ## Tutorial em vídeo
 
-![ Phoenix: Tutorial da Carteira Bitcoin Lightning](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
+![ Phoenix: Tutorial da Carteira Bitcoin Lightning](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
 
 ## Guias escritos
 

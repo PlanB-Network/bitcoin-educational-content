@@ -6,6 +6,15 @@ objectives:
   - Gain practical skills in Bitcoin security, software development, and network governance.
   - Develop a mastery of the Lightning Network and its associated protocols.
 ---
+Welcome to the Cubo+ development courses for Bitcoin!
+
+Over the next 20 hours, you will dive deep into the BTC and LN protocols. This course is intended for programmers who want to start working in the BTC ecosystem and are looking for a solid understanding of the different technology stacks of BTC and LN.
+
+The videos were recorded live during the CUBO+ 2023 bootcamp in El Salvador and managed to bring together world-renowned teachers. This course was offered for free thanks to the generosity of Fulgure Venture and the collaborative efforts of the teachers, the Bitcoin office, DecouvreBitcoin, and many other actors.
+
+Enjoy!
+
++++
 
 # Introduction and preparatory courses
 

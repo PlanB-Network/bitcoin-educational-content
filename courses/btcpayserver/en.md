@@ -157,6 +157,71 @@ Block - ________________________________________________________________________
 Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Proof of Work (PoW), Hash Function, Block Reward, Blockchain, Longest Chain, 51% Attack, Output, Output Lock, Change, Satoshis, Public/Private Key, Address, Public-Key Cryptography, Digital Signature, Wallet
 
 # Objective 2: Introducing BTCPay Server.
+
+**Understanding BTCPay Server login screen.**
+
+**Managing user account(s)**
+
+**Creating a new store**
+
+## Working with BTCPay Server;
+
+The objective of this course block will be to have a general understanding of BTCPay Server software. In a shared environment, it’s recommended to follow the instructor’s demonstration and follow along with the BTCPay Server Coursebook to follow the teacher. You will learn how to create a wallet through multiple methods. Examples include Hot wallet setups and hardware wallets connected through BTCPay Server Vault. These objectives occur in the Demo environment, displayed and given access to by your course instructor.
+
+If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https:// directory.btcpayserver.org/filter/hosts. We strongly advise against using these third- party options as production environments, but they serve the right purposes for an introduction to using Bitcoin and BTCPay Server.
+
+As a BTCPay Server rockstar trainee, you might have previous experience setting up a Bitcoin node. This course will talk specifically tailored to the BTCPay Server Software stack.
+
+Many of the options in BTCPay Server exist in some form or another in other Bitcoin Wallet-related software.
+
+## BTCPay Server Login screen.
+
+![image](assets/en/0.jpeg)
+As you are welcomed to the Demo environment, you are asked to ‘Login’ or ‘Create your account.’ Server administrators might turn off the feature of creating new accounts for security reasons. BTCPay Server logos and button colors can be changed because BTCPay Server is Open Source Software. A Third-party host can White-label the software and change the entire look.
+
+## Create an Account window.
+
+![image](assets/en/1.png)
+Creating accounts on BTCPay Server requires valid Email address strings; example@email.com would be a valid string for Email.
+
+Password need to be at least 8 characters long, including letters, numbers, and characters. After setting the password once, you will have to verify the typed password to make sure it’s correct to what was typed in the first password field.
+
+When both the Email and Password fields are properly filled in, click on the ‘Create Account’ button. This will save the Email and password on the instructor’s BTCPay Server instance.
+
+**!Note!**
+If you follow this course on your own, creating this account would be something you might do on a third-party host; therefore, again, we mention never to use these as production environments but only for training purposes.
+
+## Account Creation by BTCPay Server Administrator.
+The Administrator of the BTCPay Server Instance can also create accounts for BTCPay Server. The Administrator of the BTCPay Server instance can click on ‘Server Settings’ (1), click on the ‘Users’ tab (2), and click the “+ Add User” button (3) in the top right of the Users tab. In Objective (4.3), you will learn more about the administrator control of Accounts.
+
+![image](assets/en/2.png)
+
+As an administrator, you would need the user’s Email address and set a standard password. It is advised as Administrator to inform the user that they should change this password before using the account for security reasons. If the Administrator does NOT set a Password and SMTP has been set on the server, the user will receive an email with an invite link to create their account and set the password themselves.
+
+## Objective Example 1;
+
+When following the course by an instructor, follow the link given by the instructor and create your account on the Demo environment provided. Ensure your email address and password are saved securely; you will need these login credentials for the rest of the demo objectives in this course.
+
+Your instructor may have gathered the email address upfront and sent an invitation link before this exercise. If instructed, check your Email.
+
+When taking the course without an instructor, create your account using the BTCPay Server demo environment; go to
+
+https://mainnet.demo.btcpayserver.org/login.
+
+This account should only be used for demonstration/training purposes and never for business.
+
+## Skill Summary:
+
+In this section, you learned the following:
+- How to create an account on a hosted server through the interface.
+- How a server administrator can manually add users in the server settings.
+
+## Knowledge assessment;
+
+## KA 2.1 Conceptual Review
+
+Give reasons why using a Demo Server is a bad idea for production purposes: _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 # Objective 3: Introduction to Bitcoin Keys
 # Objective 4: BTCPay Server Interface
 # Objective 5: BTCPay Server Default Plugins

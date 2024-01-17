@@ -189,6 +189,7 @@ Password need to be at least 8 characters long, including letters, numbers, and 
 When both the Email and Password fields are properly filled in, click on the ‘Create Account’ button. This will save the Email and password on the instructor’s BTCPay Server instance.
 
 **!Note!**
+
 If you follow this course on your own, creating this account would be something you might do on a third-party host; therefore, again, we mention never to use these as production environments but only for training purposes.
 
 ## Account Creation by BTCPay Server Administrator.
@@ -221,6 +222,83 @@ In this section, you learned the following:
 ## KA 2.1 Conceptual Review
 
 Give reasons why using a Demo Server is a bad idea for production purposes: _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Account Management on BTCPay Server
+
+After a store owner has created their account, they can manage it in the Bottom Left of the BTCPay Server UI. Underneath the Account button, there are multiple higher-level settings.
+- Dark/Light mode.
+- Hide Sensitive Info toggle.
+- Manage Account.
+
+## Dark and Light mode.
+
+Users of BTCPay Server can choose between a Light or Dark mode version of the UI. Customer- facing pages won’t change. They use customer- preferred settings regarding dark or light mode.
+
+## Hide Sensitive info toggle.
+
+![image](assets/en/3.png)
+
+The hide sensitive info button brings a quick and simple layer of security. Whenever you need to operate your BTCPay Server, but there might be people lurking over your shoulder in a public space, turn on Hide Sensitive Info, and all the values in BTCPay Server will be hidden. One might be able to look over your shoulder but can no longer see the values you are dealing with.
+
+## Manage Account.
+
+Once the user account has been created, this is where to manage passwords, 2fa, or API kes.
+
+## Manage Account - Account
+
+Optionally update your account with a different Email address. To ensure your email address is correct, BTCPay Server allows you to send a verification email. Click save if the user sets a new email address and confirms the verification worked. The username remains the same as the previous Email.
+
+A user may decide to delete their whole account. This can be done by clicking the delete button on the Account tab.
+
+![image](assets/en/4.png)
+
+**!Note!**
+
+After changing the Email, the username for the account will not change. The previous given Email Address will stay the Login name.
+
+## Manage Account - Password
+
+A student may want to change his password. He can do this by going to the Password tab. Here he is required to type his old password and can change it to a new one.
+
+![image](assets/en/5.png)
+
+## Two-Factor Authentication (2fa)
+
+To limit the consequences of a stolen password, you can use two-factor authentication (2fa), a relatively new security method. You can activate two- factor authentication via the Manage account and the tab for two-factor authentication. You must complete a second step after logging in with your username and password.
+
+BTCPay Server allows for two ways of enabling 2FA, App-based 2FA (Authy, Google, Microsoft authenticators) or through Security devices (FIDO2 or LNURL Auth).
+
+## Two-Factor Authentication - App based
+
+Based on your mobile phone’s Operating System (Android or iOS), users can pick between the following apps;
+
+1. Download a two-factor authenticator;
+    - Authy for [Android](https://play.google.com/store/apps/details?id=com.authy.authy) or [iOS](https://apps.apple.com/us/app/authy/id494168017)
+    - Microsoft Authenticator for [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) or [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+    - Google Authenticator for [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) or [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
+2. After downloading and installing the Authenticator App.
+    - Scan the QR Code provided by BTCPay Server
+    - Or enter the generated key by BTCPay Server manually into your Authenticator app.
+3. The Authenticator app will provide you with a unique code. Enter the unique code in BTCPay Server to verify the setup, and click verify to complete the process.
+
+![image](assets/en/6.png)
+
+## Skill Summary:
+
+In this section, you learned the following:
+
+- Account management options and the various ways to manage an account on a BTCPay Server instance.
+- How to set up app-based 2FA.
+
+## Knowledge assessment;
+## KA 2.2 Conceptual Review
+Describe how app-based 2FA helps secure your account: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Create your store wizard.
+
+When a new user logs into BTCPay Server, the environment is empty and needs a first store. The introduction wizard of BTCPay Server will give the user the option to ‘Create your store’ (1). A Store can be seen as a Home for your Bitcoin needs. A new BTCPay Server Node will start with Synching the Bitcoin Blockchain (2). Depending on what infrastructure you run BTCPay Server on, this can range from a few hours to a few days. The instance's current version is shown in the bottom right corner of your BTCPay Server UI. This is useful for reference when troubleshooting.
+
+![image](assets/en/7.png)
 
 # Objective 3: Introduction to Bitcoin Keys
 # Objective 4: BTCPay Server Interface

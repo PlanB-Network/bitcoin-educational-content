@@ -76,25 +76,20 @@ All you need to hand is:
 9. Finally, move to the next step of the web installer and click **Lock Bootloader**. You'll need to change the selection and confirm with the power button in the same way you did earlier in the process.
 10. When you see the word `Start`, confirm this with the power button and the device will boot into your new Google-free operating system.
 
-<p align="center">
-  <img src="assets/2.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/2.png)
 
-<p align="center">
-  <b>GrapheneOS start screen</b>
-</p>
+GrapheneOS start screen
+
 
 _After initial boot and setup, it is good practice to disable OEM unlocking from Settings > System > Developer Options._
 
 _You may also want to take the extra, optional but recommended step of verifying the install via the Auditor app. You'll need a separate Android phone with the app installed to complete this step. Instructions for this can be found [here](https://attestation.app/tutorial)._
 
-<p align="center">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/L1KZWjZVnAw" class=responsive title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
 
-<p align="center">
-  Video detailing the simple steps outlined above
-</p>
+![video](https://www.youtube.com/embed/L1KZWjZVnAw)
+
+Video detailing the simple steps outlined above
+
 
 If those simple steps seem like a step too far, you could consider purchasing a Pixel with the GrapheneOS software [pre-installed](https://ronindojo.io/en/roninmobile). Just be aware that you're putting a small amount of trust into the provider.
 
@@ -102,13 +97,10 @@ If those simple steps seem like a step too far, you could consider purchasing a 
 
 Now that you're set up, you might notice how bare bones GrapheneOS appears upon first installation. By default you'll have these apps installed:
 
-<p align="center">
-  <img src="assets/3.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/3.png)
 
-<p align="center">
-  <b>Default apps</b>
-</p>
+Default apps
+
 
 The only two you may not be familiar with are 'Auditor' and 'Vanadium'.
 
@@ -138,13 +130,10 @@ Head to **Settings** > **Battery**, then enable **Show battery percentage** in t
 **From iOS** - Use an app like Export Contact and use the 'vCard' export option to export a VCF file.
 Once you have the VCF file, you can transfer across to your GrapheneOS device with an external storage option like microSD card or USB drive. If you don't have any of those to hand, you could opt to share via one of the many apps listed below.
 
-<p align="center">
-  <img src="assets/4.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/4.png)
 
-<p align="center">
-  <b>Personalized home screen</b>
-</p>
+Personalized home screen
+
 
 ## Alternative Apps
 
@@ -160,13 +149,9 @@ To install F-Droid simply head to their website via a browser on your GrapheneOS
 
 As well as applications found within the default repository in F-Droid, many Open Source projects will also host their own repository that can be added in the F-Droid app settings. If this is the case, the project in question will walk you through the very simple steps required to achieve this on their website.
 
-<p align="center">
-  <img src="assets/5.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/5.png)
 
-<p align="center">
-  <b>F-Droid home screen</b>
-</p>
+F-Droid home screen
 
 ### Aurora Store
 
@@ -182,13 +167,10 @@ Aurora does also have some potential attack vectors, as the "anonymous accounts"
 
 **Top tip** - Sometimes the Aurora Store will experience rate limiting which limits your ability to search and install apps. To get around this go to **Settings** > **Apps** > **Aurora** > **Open by default**, then add the domain `play.google.com`. Now, whenever navigate to a product or service's website that has the 'Download via Play Store' link, tapping on it will open that app within Aurora for you to download.
 
-<p align="center">
-  <img src="assets/6.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
 
-<p align="center">
-  <b>Aurora Store home screen</b>
-</p>
+![image](assets/6.png)
+
+Aurora Store home screen
 
 ### APK Download
 
@@ -196,13 +178,9 @@ Apps on Android can also be downloaded and installed via an `.apk` file. This is
 
 The downside to this approach is that you don't get automatic updates, so you'll need to monitor that service's communication channels to learn about new releases. However there is a a great project called Obtanium that aims to fix this. [Obtainium](https://github.com/ImranR98/Obtainium) allows you to install and update Open-Source apps directly from their releases pages, and receive notifications when new releases are made available.
 
-<p align="center">
-  <img src="assets/7.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/7.png)
 
-<p align="center">
-  <b>Obtanium preview</b>
-</p>
+Obtanium preview
 
 ### Web Apps
 
@@ -212,13 +190,9 @@ To achieve this in Vanadium, GrapheneOS' native browser, simply navigate to the 
 
 The only downside of this approach is that because this is just a bookmarked web page, you won't get any form of notifications. Though some might see that as a positive!
 
-<p align="center">
-  <img src="assets/8.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/8.png)
 
-<p align="center">
-  <b>Twitter PWA</b>
-</p>
+Twitter PWA
 
 ### Web Browsers
 
@@ -247,13 +221,9 @@ Most people who have no interest in the privacy space are likely to be using Wha
 - [Threema](https://threema.ch/en/faq/libre_installation) offers a similar experience to Simplex, but has been around for longer and as a result, feels a little more polished. Threema is not free, a lifetime license costs $4.99 and can be bought with Bitcoin. Threema offers a web client and native desktop applications. The Android application is available via F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) is an unofficial FOSS fork of the official Telegram app for Android. Telegram has E2EE 'secret chats', but the default option is not private. Telegram FOSS can be downloaded from F-Droid.
 
-<p align="center">
-  <img src="assets/9.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
-
-<p align="center">
-  Left: <b>Threema</b> &nbsp; &nbsp; &nbsp; Right: <b>Simplex</b>
-</p>
+![image](assets/9.png)
+Left: Threema
+Right: Simplex
 
 ### Media
 
@@ -262,13 +232,10 @@ Most people who have no interest in the privacy space are likely to be using Wha
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) offers a YouTube experience without the annoying adverts and questionable permissions. With NewPipe you can subscribe to channels, listen in the background and even download for offline viewing. NewPipe is accessible via F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) is a podcast player that allows you to subscribe and manage all of your favorite shows. AntennaPod is available via F-Droid.
 
-<p align="center">
-  <img src="assets/11.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/11.png)
 
-<p align="center">
-  Left: <b>Spotube</b> &nbsp; &nbsp; &nbsp; Right: <b>ViMusic</b>
-</p>
+Left: Spotube
+Right: ViMusic
 
 ### Maps
 
@@ -278,13 +245,10 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) is maps alternative for travelers, tourists, hikers, and cyclists based on top of crowd-sourced OpenStreetMap data. It is a privacy-focused, open-source fork of Maps.me app (previously known as MapsWithMe). It supports 100% of features without an active Internet connection and can be downloaded from F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) is another great maps alternative that supports all of the features mentioned above.
 
-<p align="center">
-  <img src="assets/13.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/13.png)
 
-<p align="center">
-  Left: <b>Magic Earth</b> &nbsp; &nbsp; &nbsp; Right: <b>Organic Maps</b>
-</p>
+Left: Magic Earth
+Right: Organic Maps
 
 ### Email
 
@@ -292,13 +256,10 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Tutanota](https://tutanota.com/) offers the same features as Proton Mail, including optional paid services and can be downloaded as a direct APK or via F-Droid.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) is an open source email client that works with basically every email provider. It supports multiple accounts, a unified inbox and the OpenPGP encryption standard.
 
-<p align="center">
-  <img src="assets/15.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/15.png)
 
-<p align="center">
-  Left: <b>Proton Mail</b> &nbsp; &nbsp; &nbsp; Right: <b>Tutanota</b>
-</p>
+Left: Proton Mail
+Right: Tutanota
 
 ### Productivity
 
@@ -309,13 +270,10 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) is a keyboard app that allows you to customize pretty much anything you can think of when it comes to your phone typing experience. It can be downloaded via F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) is the default Google keyboard app. In my experience it offers by far the best type and swipe experience. If you download this app, ensure you completely disable all network related permissions. It can be downloaded via Aurora.
 
-<p align="center">
-  <img src="assets/17.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/17.png)
 
-<p align="center">
-  Left: <b>Notesnook</b> &nbsp; &nbsp; &nbsp; Right: <b>KDE Connect</b>
-</p>
+Left: Notesnook
+Right: KDE Connect
 
 ### Lifestyle
 
@@ -324,13 +282,9 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Proton Calendar](https://proton.me/calendar/download) is a simple to use E2EE that interacts seamlessly with your Proton email accounts. Proton Calendar can be downloaded as an APK or via the Aurora store.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) is an app for displaying and storing boarding passes, coupons, movie tickets and membership cards etc. Simply download the relevant `pkpass` or `espass` file and open with the app. PassAndroid is available via F-Droid.
 
-<p align="center">
-  <img src="assets/19.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
-
-<p align="center">
-  Left: <b>Geometric Weather</b> &nbsp; &nbsp; &nbsp; Right: <b>Proton Calendar</b>
-</p>
+![image](assets/19.png)
+Left: Geometric Weather
+Right: Proton Calendar
 
 ### Security/Privacy
 
@@ -340,13 +294,9 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) is a free, secure and Open Source app for Android to manage your 2-step verification tokens for your online services. Aegis is available via F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) is a paid, cross platform service that encrypts your data locally so you can safely upload it to your favourite cloud service. Cryptomator can be downloaded via F-Droid.
 
-<p align="center">
-  <img src="assets/21.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
-
-<p align="center">
-  Left: <b>Proton Pass</b>  &nbsp; &nbsp; &nbsp;    Right: <b>Bitwarden</b>
-</p>
+![image](assets/21.png)
+Left: Proton Pass
+Right: Bitwarden
 
 ### Cloud Solutions
 
@@ -355,13 +305,9 @@ If you want voice assistance whilst driving and using a maps app in GrapheneOS, 
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) offers a fully featured cloud based solution for collaboration, cross device sync and file storage. More advanced users can choose to self-host their Free and Open Source software on any hardware they like. The Android clients can be downloaded via F-Droid.
 - [Cryptpad](https://cryptpad.fr/) offers a free, web based, E2EE alternative to Google Docs.
 
-<p align="center">
-  <img src="assets/23.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/23.png)
 
-<p align="center">
-  <b>Proton Drive</b>
-</p>
+Proton Drive
 
 ## The Downsides
 
@@ -384,13 +330,9 @@ Before you rush to install these on day 1, I urge you to see how far you get wit
 
 If you do want to install them, simply tap the pre-installed 'Apps' application followed by 'Google Play Services'. Consider installing them alongside those less private apps you can't live without, inside a completely separate user profile to provide that extra layer of segregation from the rest of your phone.
 
-<p align="center">
-  <img src="assets/24.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/24.png)
 
-<p align="center">
-  <b>Play Services install screen</b>
-</p>
+Play Services install screen
 
 ### Profiles
 
@@ -401,13 +343,9 @@ You can read more about this use case [here](https://discuss.grapheneos.org/d/16
 
 If you decide to add a separate profile to suit your use case, the app [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) might be useful to you. Insular allows you to easily clone any of your existing apps across to the new profile without the need to go via any of the traditional install routes covered earlier in this guide. Insular also allows you to quickly 'freeze' any of those apps to completely disable all of that app's background services from running.
 
-<p align="center">
-  <img src="assets/24.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/24.png)
 
-<p align="center">
-  <b>User profile management screen</b>
-</p>
+User profile management screen
 
 ### e-Sims
 
@@ -430,23 +368,15 @@ To create your first backup:
 3. Choose the data to be backed up. If you have the space on your specified storage medium, I'd advise selecting everything.
 4. Tap the three dots n the top right, and choose **Backup now**.
 
-<p align="center">
-  <img src="assets/26.png" class="responsive" style="max-width: 80%; height: auto;" />
-</p>
+![image](assets/26.png)
 
-<p align="center">
-  <b>Backup screen</b>
-</p>
+Backup screen
 
 Remember that if you're making offline backups to external storage media, it makes sense to complete this step regularly to ensure any recent important updates to your phone are not lost if the worst were to happen.
 
-<p align="center">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/eyWmcItzisk" class=responsive title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+![video](https://www.youtube.com/embed/eyWmcItzisk)
 
-<p align="center">
-  <b>Video detailing the backup process</b>
-</p>
+Video detailing the backup process
 
 ## Conclusion
 

@@ -52,7 +52,7 @@ The BTCPay Server Foundation, which allowed Alekos and Bas to write this course,
 # Table of Contents
 1. [Objective 1: Introduction To Bitcoin Day 1.](#objective-1-introduction-to-bitcoin-day-1)
 2. [Objective 2: Introducing BTCPay Server.](#objective-2-introducing-btcpay-server)
-3. [Objective 3: Introduction to Bitcoin Keys](#objective-3-introduction-to-bitcoin-keys)
+3. [Objective 3: Introduction to Bitcoin Keys](#objective-3-introduction-to-securing-bitcoin-keys)
 4. [Objective 4: BTCPay Server Interface](#objective-4-btcpay-server-interface)
 5. [Objective 5: BTCPay Server Default Plugins](#objective-5-btcpay-server-default-plugins)
 6. [Objective 6: Configuring BTCPay Server](#objective-6-configuring-btcpay-server)
@@ -300,7 +300,151 @@ When a new user logs into BTCPay Server, the environment is empty and needs a fi
 
 ![image](assets/en/7.png)
 
-# Objective 3: Introduction to Bitcoin Keys
+## Create your store wizard
+
+Following this course will start with a slightly different screen than the previous page. As your instructor has prepared the Demo environment, the Bitcoin blockchain has been synchronized prior, and therefore you will not see the nodes’ sync status.
+
+A user may decide to delete their whole account. This can be done by clicking the delete button on the Account tab.
+
+![image](assets/en/8.png)
+
+**!Note!**
+
+BTCPay Server account’s can make unlimited amounts of stores. Each store is a wallet or “ home”.
+
+### Objective Example 1;
+
+Start by clicking on “Create your store. “
+
+![image](assets/en/9.png)
+
+This will create your first Home and dashboard for using BTCPay server.
+1. After clicking “Create your store,” BTCPay Server will require you to name the store; this can be anything useful to you.
+
+    ![image](assets/en/10.png)
+
+2. A default store currency has to be set next, either a fiat currency or denominated in a Bitcoin / Sats standard. For the demo environment, we will set it to USD.
+
+    ![image](assets/en/11.png)
+
+3. As a last parameter on the store setup, BTCPay Server requires you to set a “Preferred price source” to compare Bitcoin’s price against the current fiat price so your store displays the correct exchange rate between Bitcoin and the store-set fiat currency. We will stick with the default in the Demo example and set this to the Kraken exchange. BTCPay Server uses the Kraken API to check the exchange rates.
+
+    ![image](assets/en/12.png)
+
+4. Now that these store parameters have been set, click on the Create button, and BTCPay Server will create your first store’s dashboard, where the wizard will continue.
+
+    ![image](assets/en/13.png)
+
+Congratulations, you have created your first store, and this rounds up this exercise.
+
+![image](assets/en/14.png)
+
+**!Note!** 
+
+Place Note
+
+### Skill Summary:
+
+In this section, you learned:
+- Store creation and configuring a default currency combined with price source preferences.
+- Each “Store” is a new home separated from other stores on this installation of BTCPay Server.
+
+# Objective 3: Introduction to Securing Bitcoin Keys
+**Understanding Bitcoin Keys Generation**
+
+**Securing keys with hardware wallet**
+
+**Using your Bitcoin keys**
+
+**BTCPay Server Lightning Wallet**
+
+## What is involved in generating bitcoin keys ?
+
+Bitcoin wallets, when created, create a so-called “seed.” In the last objective, you created a “seed.” The series of words generated before are also known as mnemonic phrases. The seed is used to derive individual Bitcoin Keys from and used to send or receive Bitcoin. Seed phrases should never be shared with third parties or untrusted peers.
+
+The seed generation is done along the industry standard known as the “Hierarchical Deterministic (HD)” framework.
+
+![image](assets/en/15.png)
+
+## Addresses
+
+BTCPay Server built to generate a new Address. This alleviates the problem of public key or Address reuse. Using the same Public key makes tracking your entire payment history very easy. Thinking of keys as one-time-use vouchers would significantly improve your privacy. We also use Bitcoin Addresses, do not confuse these with Public keys.
+
+An Address gets derived from the Public key through a “hashing algorithm.” Most wallets and transactions, however, will display Addresses rather than those public keys. Addresses are, in general, shorter than public keys and usually begin with a ‘1’, ‘3’, or ‘bc1’, whereas public keys begin with “02”, “03”, or “04”.
+- Addresses starting with “1.....” are still very common addresses. As mentioned in Objective 2.3, these are legacy addresses. This address type is meant for P2PKH transactions. P2Pkh uses Base58 encoding, which makes the address case-sensitive. Its structure is based on the public key with an additional 1 digit as the identifier.
+
+- Addresses starting with “bc1...” are slowly moving into the very common addresses. These are known as (native) SegWit Addresses. These offer a better fee structure than the other mentioned Addresses. Native SegWit Addresses use Bech32 encoding and only allow for lowercase letters.
+
+- Addresses starting with “3...”are commonly still used by exchanges for deposit addresses. These addresses are mentioned in objective 2.3, wrapped or nested SegWit addresses. However, they could also function as a “Multisig Address.” When used as a SegWit address, there are some savings on transaction fees again, less so than Native SegWit. P2SH Addresses use Base58 encoding. This makes it case Sensitive, like the legacy address.
+
+- Addresses starting with “2..”. These are Testnet addresses. They are meant to receive testnet bitcoin (tBTC). You should never mix this up and send Bitcoin to these addresses. For development purposes, you can generate a testnet wallet. There are multiple faucets online to get testnet Bitcoin. Never purchase Testnet Bitcoin. Testnet Bitcoin is mined. This might be a reason for a developer to use Regtest instead. This is a playground environment for developers, missing certain network components. Bitcoin is, however, for development purposes, very useful.
+
+## Public Keys.
+Public keys get less used in practice today. Over time bitcoin users have been replacing them with Addresses instead. They do still exist and still get used occasionally. Public keys are, in general, much longer strings than addresses. Just like with addresses, they start with a specific identifier.
+- First, “02....” and “03..” Very standard public key identifiers encoded in SEC format. These can be processed and turned into addresses for receiving, used for creating multi-sig addresses, or to verify a signature. Early-day Bitcoin transactions used public keys as part of P2PK transactions.
+
+- HD wallets, however, use a different structure. “Xpub...”, “ypub..” or “zpub...” are called extended public keys rather called xpubs. These keys are used to derive many public keys as it’s part of the HD wallet. As your xpub holds the records of your entire history, meaning past and future transactions, never share these with untrusted parties.
+
+## Skill Summary:
+
+In this section, you learned the following:
+- The differences between addresses and public key data types and the benefits of using addresses over public keys.
+
+## Knowledge assessment
+
+Describe the benefit of using fresh addresses for each transaction compared to address reuse or public key methods: ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Storing Bitcoin Keys.
+
+After generating a seed phrase, the list of 12 - 24 words generated in this book requires proper backups and security, as these words are the only way to recover access to a wallet. The structure of HD wallets and how it generates addresses deterministically using that one seed, all your created addresses will get backed up using this one list of mnemonic words representing your seed or recovery phrase.
+
+Keep your recovery phrase secured. If accessed by someone, specifically with malicious intent, they can move your funds. Keeping the seed safe and secured but also remembering it is mutual to each other. There are several methods to store Bitcoin private keys, each with benefits and disadvantages, either in security, privacy, convenience, or physical means. Due to the importance of private keys, bitcoin users tend to store and safely keep these keys in “self custody” over using “custodial” services like banks. Depending on the user, he has to use either a Cold storage solution or a Hot wallet.
+
+## Hot and Cold storage of bitcoin keys.
+
+Usually, bitcoin wallets are denominated in a Hot Wallet or Cold Wallet. Most trade-offs lie in convenience, ease of use, and security risks. Each of these methods can also be seen in a custodian solution. However, trade-offs here are mostly security and privacy based and go beyond the scope of this course.
+
+## Hot wallet
+
+Hot wallets are the most convenient way of interacting with Bitcoin through mobile, web, or desktop software. The wallet is always connected to the internet, enabling users to send or receive Bitcoin. This, however, is also its weakness, the wallet, as it is always online, is now more vulnerable to attacks by hackers or malware on your device. In BTCPay Server, hot wallets store the private keys on the instance. Anyone accessing your BTCPay Server store could steal funds from this address if malicious. When BTCPay Server runs in a hosted environment, you should always consider this in your security profile and preferably not use a Hot-wallet in such a case. When BTCPay Server is installed on owned hardware, secured and trusted by you, the risk profile lowers significantly, but it never disappears!
+
+## Cold Wallet
+
+Individuals move their Bitcoin into a cold wallet because it can isolate the private keys from the internet. Removing the internet connection from the equation reduces the risk of malware, spyware, and SIM swaps. Cold storage is believed to be superior to hot storage for security and autonomy, so long as adequate precautions are taken to avoid losing the Bitcoin private keys. Cold storage is most suitable for large amounts of Bitcoin, which are not intended to be spent often due to the wallet setup’s complexity.
+
+There are various methods of how to store Bitcoin keys in cold storage, from paper wallets to brain wallets, hardware wallets, or, from the beginning, a wallet file. Most wallets use BIP 39 to generate the seed phrase mentioned in objective (3). However, within the Bitcoin core software, a consensus has yet to be reached on using it. Bitcoin Core software will still generate a Wallet.dat file you need to store in a secure offline location.
+
+## Skill Summary
+
+In this section, you learned:
+- The differences between hot and cold wallets in terms of functionality and their trade-offs.
+
+## Knowledge assessment
+
+### KA 3.2 Conceptual Review
+What is a wallet: __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Difference between hot and cold wallets: _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Describe what is meant by “generating a wallet”: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## BTCPay Server Wallet.
+
+BTCPay Server consists of the following standard wallet features.
+
+- Transactions 
+- Send
+- Receive
+- Rescan
+- Pull Payments
+- Payouts
+- PSBT
+- General settings
+
+## Transactions
+
+Administrators can see the in and outgoing transactions for the on-chain wallet connected to this specific store in the transactions view. Each transaction has a distinction between received and sent. Received will be green and outgoing transactions will be red. Within the BTCPay Server transaction view, administrators will also see a set of standard labels.
+
 # Objective 4: BTCPay Server Interface
 # Objective 5: BTCPay Server Default Plugins
 # Objective 6: Configuring BTCPay Server 

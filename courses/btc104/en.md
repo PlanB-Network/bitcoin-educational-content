@@ -10,10 +10,10 @@ objectives:
 
 Have you ever wondered:
 
-- Why is my cost of living continuing to rise?
-- Is inflation really good for me?
-- What options are available to help me protect against inflation?
-- How does Bitcoin or stablecoins fit into all this?
+Why is my cost of living continuing to rise?
+Is inflation really good for me?
+What options are available to help me protect against inflation?
+How does Bitcoin or stablecoins fit into all this?
 
 If you answered yes to any of these questions, you're in the right place.
 
@@ -23,14 +23,13 @@ If what you've just read has piqued your interest, we hope you'll join us on thi
 
 What To Expect:
 
-- Beginner friendly
-- Roughly 3 hours of self-paced content
-- Interactive quizzes to test your knowledge
-- Written by industry professionals
-- Examples from across the globe and from all walks of life
+Beginner friendly
+Roughly 3 hours of self-paced content
+Interactive quizzes to test your knowledge
+Written by industry professionals
+Examples from across the globe and from all walks of life
 
-Requirements:
-A passion for learning
+Requirements: A passion for learning
 
 This course has been offert and sponsord by TETHER
 

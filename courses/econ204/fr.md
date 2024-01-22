@@ -64,7 +64,6 @@ Section 6 - Comment se protéger de l’hyperinflation (Rogzy)
   Livres et ressources
 - Bonus: Témoignages de personnes qui vivent de l’hyperinflation (Rogzy)
 
-
 Bonne chance !
 
 # Section 2 - Qu’est-ce que l’inflation ?
@@ -81,7 +80,7 @@ L'inflation est un concept souvent mal interprété en raison des multiples déf
 
 - Définition du Larousse : L'inflation est un phénomène caractérisé par une hausse généralisée et continue du niveau des prix. Ici, le mot "généralisée" est crucial.
 
-![image](assets/chapitre-2.1/4.png)
+![image](assets/chapitre-2.1/4.PNG)
 
 À la lumière de ces définitions, il est essentiel de comprendre que, pour le Robert, l'inflation concerne principalement l'augmentation de la masse monétaire. En revanche, le Larousse se concentre sur les conséquences de cette expansion, à savoir la hausse généralisée des prix.
 
@@ -147,7 +146,7 @@ Le Maravédis, en tant que monnaie de cuivre, occupe une place particulière dan
 
 La dévaluation monétaire est un outil souvent utilisé par les États pour financer leurs dépenses ou stimuler l'économie. Cependant, l'Espagne se trouvait dans une situation délicate. Diluer le dollar espagnol aurait compromis sa position dans le commerce international. Pour surmonter ce dilemme, l'Espagne s'est tournée vers le Maravédis.
 
-![image](assets/chapitre-2.1/6.png)
+![image](assets/chapitre-2.1/6.PNG)
 
 Contrairement au précieux dollar espagnol en argent, le Maravédis était une monnaie de cuivre utilisée principalement au sein de la population locale. Cette monnaie a été ciblée pour la dévaluation. Lorsqu'une pièce de Maravédis était initialement valable pour deux maravedises, l'État la récupérait, la retamponnait avec une nouvelle valeur, par exemple "quatre", et ne retournait qu'une seule pièce au propriétaire. La pièce mentionnée avec le tampon "huit" est un témoignage de ce processus, ayant subi plusieurs cycles de dévaluation.
 
@@ -225,11 +224,11 @@ Cependant, la situation a évolué avec l'ascension des États-Unis en tant que 
 
 Le Swiss Dinar illustre une autre facette fascinante de la dévaluation monétaire, ancrée cette fois dans le contexte irakien pré-guerres du Golfe. Appelée ainsi en référence à la qualité notable de ses billets, cette monnaie était émise par la Banque centrale irakienne et jouissait d'une réputation de stabilité dans la région du Moyen-Orient. Cette confiance était notamment due à la qualité d'impression des billets, effectuée en Angleterre, insinuant une certaine robustesse face à la dévaluation.
 
-![image](assets/chapitre-2.1/16.png)
+![image](assets/chapitre-2.1/16.PNG)
 
 Cependant, les guerres du Golfe marquèrent un tournant dans l'histoire du Swiss Dinar. L'Irak, ne pouvant plus faire appel à son fournisseur anglais pour l'impression de ses billets, se tourna vers la Chine. Cette transition entraîna une nette différence dans la qualité des billets, la version chinoise étant perçue comme inférieure. Cette perception n'était pas sans fondement ; les billets chinois étaient plus facilement falsifiables et susceptibles d'être surimprimés par le gouvernement, menaçant ainsi leur valeur.
 
-![image](assets/chapitre-2.1/17.png)
+![image](assets/chapitre-2.1/17.PNG)
 
 Un phénomène distinctif émergea dans l'économie irakienne post-guerre du Golfe : le système de double prix. Les commerçants proposaient des prix différents selon le type de billet utilisé pour le paiement, favorisant le Swiss Dinar original au détriment du billet chinois. Ce système reflétait la confiance maintenue envers les billets de meilleure qualité, moins susceptibles de dévaluation, même dans un contexte où la valeur était principalement imposée par l'État. Cet épisode démontre l'importance des caractéristiques intrinsèques de la monnaie, et comment, même dans un régime de monnaie fiat, la qualité perçue d'une monnaie peut influencer sa valeur relative et, par extension, la confiance des acteurs économiques.
 
@@ -459,7 +458,7 @@ Pour illustrer, si l'inflation chute à 40% en juillet et ne remonte pas au-dess
 
 Cette définition a été adoptée dans le tableau Hanke-Krus, qui documente 56 épisodes d'hyperinflation. Toutefois, le tableau ne couvre pas tous les épisodes, comme celui du Venezuela en 2016, portant le total à 57.
 
-![image](assets/chapitre-3.1/1.png)
+![image](assets/chapitre-3.1/1.PNG)
 
 zoom
 
@@ -506,11 +505,11 @@ L'IASB propose une perspective unique sur l'hyperinflation, axée sur les pratiq
 - Inflation Cumulative sur Trois Ans :
   L'inflation cumulative sur trois ans approchant 100% (soit environ 24% par an), contrastant avec la définition de Kagan de 50% d'inflation mensuelle.
 
-![image](assets/chapitre-3.1/5.png)
+![image](assets/chapitre-3.1/5.PNG)
 
 Selon les critères de l'IASB, plusieurs pays, dont l'Argentine, l'Éthiopie, Haïti, l'Iran, le Liban, le Soudan, le Soudan du Sud, Suriname, la Syrie, la Turquie, le Venezuela, le Yémen et le Zimbabwe, sont actuellement en période d'hyperinflation.
 
-![image](assets/chapitre-3.1/6.png)
+![image](assets/chapitre-3.1/6.PNG)
 
 Cette définition fournie par l'IASB s'éloigne du seuil quantitatif strict proposé par Kagan, en intégrant une analyse qualitative des comportements économiques et des ajustements pratiques face à l'hyperinflation. Elle démontre que l'hyperinflation est un phénomène complexe qui nécessite une compréhension multidimensionnelle pour en saisir les implications réelles, en particulier dans le domaine de la comptabilité qui est crucial pour la stabilité et la transparence financière des entreprises et des marchés.
 
@@ -537,7 +536,7 @@ Danc ce chapitre, nous explorerons les impacts de l'hyperinflation, en nous conc
 
 Plusieurs ouvrages ont été particulièrement instructifs :
 
-![image](assets/chapitre-3.2/0.png)
+![image](assets/chapitre-3.2/0.PNG)
 
 - "When Money Dies" par Adam Ferguson, retrace l'hyperinflation post-Première Guerre mondiale en Allemagne, ainsi qu'en Autriche et en Hongrie.
 
@@ -575,7 +574,7 @@ Dans certaines circonstances économiques, la valeur intrinsèque d'un billet pe
 
 > Zimbabwe: “La Banque centrale avait gaspillé de l'argent en imprimant un billet qui ne valait pas le papier sur lequel il était imprimé. En d'autres termes, sa valeur était inférieure à celle du papier toilette. Aussi absurde que cela puisse paraître, il était alors moins cher d'utiliser le billet de ZWD 100 trillions comme papier toilette que d'acheter le véritable papier toilette.”
 
-![image](assets/chapitre-3.2/PN3.pngG)
+![image](assets/chapitre-3.2/PN3.PNGG)
 
 4. Comptage de l'argent
 
@@ -613,7 +612,7 @@ Dans des contextes économiques instables, les valeurs traditionnelles de travai
 
 > Zimbabwe: “Ces pratiques, si elles ont enrichi quelques personnes, ont appauvri la classe ouvrière urbaine ainsi que la population rurale. L'éducation avait perdu de sa valeur, car ce commerce était animé par des personnes n'ayant besoin ni d'éducation ni de travail acharné pour le justifier. Tout ce dont ils avaient besoin, c'étaient des relations et un capital initial pour démarrer leur affaire d'argent facile.”
 
-![image](assets/chapitre-3.2/5.png)
+![image](assets/chapitre-3.2/5.PNG)
 
 8. Les "banques du monde"
 
@@ -641,7 +640,7 @@ Lorsqu'un pays est confronté à une crise monétaire ou économique, l'une des 
 
 > Zimbabwe: “le gouvernement a introduit le SI 175/2008 le 12 décembre 2008 concernant le paiement par chèques. Il stipulait, ‘La pénalité pour avoir refusé un paiement par un chèque/carte bancaire ou une autre méthode de paiement électronique médiée par une banque, sera une amende de niveau 8 ou une peine d'emprisonnement d'une durée de six mois ou les deux.’ Évidemment, nous avons ignoré le SI car il était totalement en décalage avec la réalité.”
 
-![image](assets/chapitre-3.2/4.png)
+![image](assets/chapitre-3.2/4.PNG)
 
 11. Contraints de garder leurs boutiques ouvertes
 
@@ -669,7 +668,7 @@ L'achat frénétique de devises étrangères a souvent marqué un tournant criti
 
 ### Récap du déroulement
 
-![image](assets/chapitre-3.2/2.png)
+![image](assets/chapitre-3.2/2.PNG)
 
 Lors de l'analyse de la trajectoire économique, il est apparent que lorsqu'une haute inflation est atteinte, la valeur de la masse monétaire se dégrade. Cette dévaluation engendre plusieurs complications, notamment la pénurie de billets. Dans ce contexte, les opportunités d'arbitrage se manifestent, en particulier avec les fluctuations des taux de change. De ce fait, nombre d'individus se tournent vers cet arbitrage, investissant massivement dans des actifs tangibles, dans l'anticipation d'une dévaluation monétaire future qui leur permettrait de rembourser leurs dettes avec une monnaie affaiblie. Cet environnement économique nuit à l'attrait des emplois traditionnels, et par conséquent, érode la cohésion sociale.
 
@@ -677,7 +676,7 @@ Face à cette situation, l'État impose des régulations draconiennes, dont des 
 
 ### 4 Similitudes des conséquences de l'hyperinflation
 
-![image](assets/chapitre-3.2/6.png)
+![image](assets/chapitre-3.2/6.PNG)
 
 1. Oil and metals
 
@@ -727,7 +726,7 @@ Dans ce chapitre, nous explorerons les différences et parallèles entre les pé
 
 En Allemagne, il était courant que la population attribue l'inflation à la montée du dollar plutôt qu'à la dévaluation intrinsèque de leur propre monnaie. Beaucoup étaient persuadés que le phénomène observé était dû à une appréciation du dollar. Cette perception écartait toute reconnaissance du lien entre leur difficulté économique et la dévaluation monétaire, principalement induite par la création excessive de monnaie. Le livre "When Money Dies" illustre clairement cette méconnaissance parmi la population allemande. En revanche, au Zimbabwe, la situation était distincte : les citoyens étaient pleinement conscients de la cause sous-jacente de l'hyperinflation qu'ils subissaient.
 
-![image](assets/chapitre-3.3/3.png)
+![image](assets/chapitre-3.3/3.PNG)
 
 2. La monnaie de nécessité (Notgeld)
 
@@ -759,7 +758,7 @@ L'artiste derrière ce Notgeld semble adresser une critique ironique envers les 
 
 Pour en apprendre plus sur la gestion de la crise allemande ce livre est également fondamental.
 
-![image](assets/chapitre-3.3/4.png)
+![image](assets/chapitre-3.3/4.PNG)
 
 ### Les parallèles contemporains
 
@@ -806,7 +805,7 @@ Une compagnie zombie est une entreprise qui, en conditions de marché normales, 
 
 Cette notion de compagnie zombie n'est pas nouvelle. En effet, elle était présente dans la République de Weimar. À cette époque, bon nombre de compagnies étaient florissantes en apparence, profitant largement de l'accès au crédit gratuit. Elles empruntaient des sommes considérables, avec la perspective de rembourser ultérieurement avec une monnaie dépréciée en raison de l'inflation galopante. Cependant, lorsque l'inflation a cessé et que la marque allemande a repris de la valeur, ces entreprises, qui n'étaient pas véritablement viables en termes opérationnels et financiers, sont devenues non rentables et ont dû fermer leurs portes.
 
-![image](assets/chapitre-3.3/5.png)
+![image](assets/chapitre-3.3/5.PNG)
 
 Le phénomène des compagnies zombies ne se limite pas à l'histoire de l'Allemagne d'après-guerre. Aujourd'hui encore, de nombreuses grandes entreprises subsistent grâce à un accès privilégié à des crédits à taux d'intérêt très bas. Si elles devaient emprunter à des taux plus conventionnels, nombre d'entre elles cesseraient d'être rentables. C'est d'autant plus pertinent que nous sommes en 2023, et après une longue période de taux d'intérêt proches de zéro, ceux-ci ont commencé à augmenter. Cette évolution récente du paysage financier sera sans doute un test décisif pour ces compagnies autrefois qualifiées de "zombies".
 
@@ -967,7 +966,7 @@ Le Zimbabwe a accédé à l'indépendance en 1980 et a introduit le dollar zimba
 
 En 2006, le pays a introduit une nouvelle version de sa monnaie, le ZWN, avec un taux d'échange de 1 pour 1 000. En 2008, une autre dénomination, le ZWR, a été introduite avec un taux d'échange de 1 pour 10 milliards. Cela a conduit à la création des billets emblématiques de 100 trillions.
 
-![image](assets/chapitre-3.5/2.png)
+![image](assets/chapitre-3.5/2.PNG)
 
 #### La dollarisation & sortie de crise
 
@@ -1055,7 +1054,7 @@ Initialement, la première couche de monnaie était représentée par l'or. Les 
 
 #### La panique de 1796
 
-![image](assets/chapitre-4.1/6.png)
+![image](assets/chapitre-4.1/6.PNG)
 Panique bancaire à la banque Seamen's Savings durant la panique de 1857.
 
 Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le monde cherchait à remonter la "pyramide de la monnaie". Les gens voulaient échanger leur monnaie de troisième couche contre celle de la deuxième couche, puis, finalement, contre la monnaie de première couche, l'or. Face à cette ruée massive, la Banque d'Angleterre a été contrainte d'agir pour stabiliser la situation. Pour éviter une éventuelle déflation des réserves d'or, elle a décidé de suspendre la convertibilité de ses billets de banque en or. Cette suspension, initialement envisagée comme une mesure temporaire, s'est prolongée sur une période de deux décennies.

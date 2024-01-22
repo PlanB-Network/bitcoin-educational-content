@@ -48,12 +48,13 @@ A inflação é um conceito frequentemente mal interpretado devido às múltipla
 
 - Definição do Larousse: A inflação é um fenômeno caracterizado por um aumento generalizado e contínuo do nível de preços. Aqui, a palavra "generalizado" é crucial.
 
-![imagem](assets/chapitre-2.1/4.png)
+![imagem](assets/chapitre-2.1/4.PNG)
 
 À luz dessas definições, é essencial entender que, para o Robert, a inflação se refere principalmente ao aumento da oferta monetária. Por outro lado, o Larousse se concentra nas consequências dessa expansão, ou seja, o aumento generalizado dos preços.
 
 Durante nosso estudo sobre hiperinflação, adotaremos a segunda definição, a do aumento generalizado dos preços, pois ela é mais relevante e clara para o nosso assunto. No entanto, é crucial lembrar que esse aumento de preços geralmente é resultado da expansão da oferta monetária.
 O renomado economista Milton Friedman afirmou famosamente:
+
 > "A inflação é sempre e em todos os lugares um fenômeno monetário."
 
 Essa afirmação destaca a relação intrínseca entre a expansão monetária e a inflação. Nas próximas seções, exploraremos as interações entre inflação e crescimento econômico, com base nessas definições fundamentais.
@@ -77,6 +78,7 @@ Quando se fala em fenômeno monetário, refere-se à forma como a oferta monetá
 Ao longo da história, várias civilizações passaram por períodos de desvalorização monetária. Alguns desses períodos coincidem com eventos importantes ou guerras que exerceram pressão sobre a economia.
 
 #### 1. Guerra do Peloponeso e Segunda Guerra Púnica:
+
 A guerra do Peloponeso, um conflito entre Atenas e Esparta, e a Segunda Guerra Púnica, que opôs a República Romana a Cartago, são os primeiros exemplos de desvalorização monetária encontrados nos registros. Para financiar essas guerras, essas civilizações desvalorizaram suas moedas em metais preciosos. Elas pegaram moedas compostas principalmente de prata e incorporaram outros metais para reduzir o teor de prata, ao mesmo tempo em que aumentavam o número de moedas produzidas.
 ![image](assets/chapitre-2.1/8.PNG)
 
@@ -94,8 +96,8 @@ Embora esses períodos tenham experimentado uma inflação significativa, eles n
   Uma das moedas mais emblemáticas da Roma Antiga é o denário, uma moeda de prata. Eu possuo uma moeda específica de Marco Aurélio datada de 160 d.C., antes da grande desvalorização. Embora a câmera possa ter dificuldade em capturar os detalhes finos, a olho nu, pode-se ver que é uma bela moeda de prata, refletindo um teor de prata relativamente alto.
 
 - O Antoniniano (final do século III d.C.):
-Com a desvalorização monetária, uma nova moeda, o Antoniniano, surgiu. Essa moeda deveria valer dois denários, mas continha muito menos prata. Minha moeda de Antoniniano mostra claramente que o teor de prata foi consideravelmente reduzido. Ela é adornada com uma coroa, típica das moedas romanas da época, chamada "radiates". Ao comparar a cor e a qualidade, vemos que o Antoniniano está longe de ser uma moeda de prata pura.
-Ao comparar as duas moedas lado a lado, a diferença é flagrante. O denário de 160 d.C. tem uma aparência prateada distinta, enquanto o Antoniniano do final do século III d.C. é muito mais opaco, indicando uma diminuição significativa no teor de prata. Essa comparação visual oferece uma ilustração clara da desvalorização monetária que a Roma antiga sofreu ao longo de alguns séculos.
+  Com a desvalorização monetária, uma nova moeda, o Antoniniano, surgiu. Essa moeda deveria valer dois denários, mas continha muito menos prata. Minha moeda de Antoniniano mostra claramente que o teor de prata foi consideravelmente reduzido. Ela é adornada com uma coroa, típica das moedas romanas da época, chamada "radiates". Ao comparar a cor e a qualidade, vemos que o Antoniniano está longe de ser uma moeda de prata pura.
+  Ao comparar as duas moedas lado a lado, a diferença é flagrante. O denário de 160 d.C. tem uma aparência prateada distinta, enquanto o Antoniniano do final do século III d.C. é muito mais opaco, indicando uma diminuição significativa no teor de prata. Essa comparação visual oferece uma ilustração clara da desvalorização monetária que a Roma antiga sofreu ao longo de alguns séculos.
 
 ![image](assets/chapitre-2.1/3.PNG)
 
@@ -109,7 +111,7 @@ O Maravedi, como moeda de cobre, ocupa um lugar especial na história da moeda e
 
 A desvalorização monetária é uma ferramenta frequentemente usada pelos Estados para financiar seus gastos ou estimular a economia. No entanto, a Espanha estava em uma situação delicada. Diluir o dólar espanhol comprometeria sua posição no comércio internacional. Para superar esse dilema, a Espanha recorreu ao Maravedi.
 
-![image](assets/chapitre-2.1/6.png)
+![image](assets/chapitre-2.1/6.PNG)
 Ao contrário do valioso dólar espanhol de prata, o Maravédis era uma moeda de cobre usada principalmente pela população local. Essa moeda foi alvo de desvalorização. Quando uma moeda de Maravédis inicialmente valia dois maravedis, o Estado a recolhia, carimbava com um novo valor, por exemplo, "quatro", e devolvia apenas uma moeda ao proprietário. A moeda mencionada com o carimbo "oito" é um testemunho desse processo, tendo passado por vários ciclos de desvalorização.
 
 Essa estratégia permitiu ao Estado desvalorizar efetivamente uma moeda, criando inflação e se financiando indiretamente, ao mesmo tempo em que preservava a integridade do dólar espanhol no cenário internacional. No entanto, essa desvalorização direcionada teve consequências para a população local, que viu o valor de sua moeda corrente diluído.
@@ -125,6 +127,7 @@ Mais informações em: [link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHD
 Entre os séculos XV e XVII, a Europa testemunhou um fenômeno econômico notável, frequentemente descrito como a "revolução de preços". Esse período de inflação foi em grande parte desencadeado por um influxo maciço de metais preciosos, como ouro e prata, provenientes das Américas. Com uma economia europeia amplamente baseada no padrão metálico, essa entrada adicional de metais aumentou a oferta monetária. Como resultado, uma inflação de cerca de 1 a 2% ao ano se manifestou. À primeira vista, essa inflação pode parecer modesta. No entanto, naquela época, tal flutuação de preços era suficientemente incomum para ser considerada uma "revolução". Isso destaca o quanto as mudanças nas reservas monetárias podem influenciar o sistema econômico como um todo.
 
 #### 5. John Law e os assignats
+
 No século XVIII, a história econômica francesa foi marcada por dois eventos significativos relacionados à moeda. Primeiro, John Law, um economista e financista escocês, convenceu o governo francês a adotar um sistema monetário baseado em papel-moeda. Embora inicialmente considerada uma solução inovadora para os problemas financeiros do país, essa iniciativa rapidamente levou a uma inflação galopante. Em seguida, pouco tempo depois, durante os tumultos da Revolução Francesa, o governo introduziu os "assignats".
 
 ![image](assets/chapitre-2.1/9.PNG)
@@ -161,6 +164,7 @@ Após a apreensão do ouro, em 1934, uma nova série de notas foi colocada em ci
 
 ![image](assets/chapitre-2.1/13.PNG)
 A menção indicando sua conversibilidade em ouro foi removida e substituída por "This note is legal tender for all debt" (Esta nota é moeda legal para todas as dívidas).
+
 - Reavaliação do Ouro
 
 O que é fascinante nessa transição é a estratégia do governo. Em 1934, o preço do ouro foi reavaliado para 35 dólares a onça, em vez de 20,67 dólares. Essencialmente, o governo desvalorizou o dólar que as pessoas possuíam. Ao comprar ouro da população a 20,67 dólares a onça em 1933 e, em seguida, reavaliar o preço do ouro em 1934, o governo obteve um lucro substancial, ao mesmo tempo em que desvalorizava as economias de seus cidadãos.
@@ -182,11 +186,11 @@ No entanto, a situação mudou com a ascensão dos Estados Unidos como potência
 ### Último exemplo para a estrada: o Swiss Dinner
 
 O Swiss Dinar ilustra outra faceta fascinante da desvalorização monetária, desta vez ancorada no contexto iraquiano pré-Guerra do Golfo. Chamada assim em referência à notável qualidade de suas notas, essa moeda era emitida pelo Banco Central do Iraque e desfrutava de uma reputação de estabilidade na região do Oriente Médio. Essa confiança era devida, em particular, à qualidade de impressão das notas, feita na Inglaterra, insinuando uma certa robustez diante da desvalorização.
-![image](assets/chapitre-2.1/16.png)
+![image](assets/chapitre-2.1/16.PNG)
 
 No entanto, as Guerras do Golfo marcaram uma virada na história do Swiss Dinar. O Iraque, incapaz de contar mais com seu fornecedor inglês para a impressão de suas notas, voltou-se para a China. Essa transição resultou em uma clara diferença na qualidade das notas, sendo a versão chinesa percebida como inferior. Essa percepção não era infundada; as notas chinesas eram mais facilmente falsificáveis e suscetíveis a serem sobreimpressas pelo governo, ameaçando assim seu valor.
 
-![image](assets/chapitre-2.1/17.png)
+![image](assets/chapitre-2.1/17.PNG)
 
 Um fenômeno distintivo surgiu na economia iraquiana pós-Guerra do Golfo: o sistema de preços duplos. Os comerciantes ofereciam preços diferentes dependendo do tipo de nota usado para o pagamento, favorecendo o Swiss Dinar original em detrimento da nota chinesa. Esse sistema refletia a confiança mantida nas notas de melhor qualidade, menos suscetíveis à desvalorização, mesmo em um contexto em que o valor era principalmente imposto pelo Estado. Esse episódio demonstra a importância das características intrínsecas da moeda e como, mesmo em um regime de moeda fiduciária, a qualidade percebida de uma moeda pode influenciar seu valor relativo e, por extensão, a confiança dos agentes econômicos.
 
@@ -220,7 +224,7 @@ Aqui está uma desconstrução do assunto em vários pontos-chave:
   A inflação, por outro lado, é definida por um aumento generalizado dos preços em uma variedade de bens e serviços, não apenas em um setor específico.
 
 - A Essência Monetária da Inflação:
-Com uma oferta monetária fixa, um aumento de preços em um setor resultaria em uma queda de preços em outros setores, pois a quantidade de dinheiro disponível para gastar em outros lugares seria reduzida. A inflação está intimamente ligada a um aumento na oferta monetária que permite um aumento de preços em todos os setores simultaneamente.
+  Com uma oferta monetária fixa, um aumento de preços em um setor resultaria em uma queda de preços em outros setores, pois a quantidade de dinheiro disponível para gastar em outros lugares seria reduzida. A inflação está intimamente ligada a um aumento na oferta monetária que permite um aumento de preços em todos os setores simultaneamente.
 
 - Impacto da Oferta Monetária na Inflação e Deflação:
 
@@ -398,7 +402,7 @@ Para ilustrar, se a inflação cair para 40% em julho e não subir acima de 50% 
 
 Essa definição foi adotada na tabela Hanke-Krus, que documenta 56 episódios de hiperinflação. No entanto, a tabela não cobre todos os episódios, como o da Venezuela em 2016, elevando o total para 57.
 
-![imagem](assets/chapitre-3.1/1.png)
+![imagem](assets/chapitre-3.1/1.PNG)
 
 ![imagem](assets/chapitre-3.1/0.PNG)
 
@@ -447,11 +451,11 @@ Neste capítulo, exploraremos os impactos da hiperinflação, concentrando-nos n
 
 Vários livros foram particularmente instrutivos:
 
-![image](assets/chapitre-3.2/0.png)
+![image](assets/chapitre-3.2/0.PNG)
 
 - "When Money Dies" por Adam Ferguson, retrata a hiperinflação pós-Primeira Guerra Mundial na Alemanha, Áustria e Hungria.
 - Two books on hyperinflation in Zimbabwe, "Zimbabwe Warm Heart Ugly Face" and "Hard Boiled Egg Index" by Jérôme Gardner and Kudzai Joseph Gou Min-Yu respectively, offer poignant testimonies from a CEO of a clothing store chain and an agricultural banker on their experiences during this tumultuous period.
-![image](assets/chapter-3.2/1.PNG)
+  ![image](assets/chapter-3.2/1.PNG)
 
 As I consolidated my notes, I discerned a multitude of similarities between the experiences of hyperinflation in Zimbabwe and the Weimar Republic, despite the 90-year gap between them. I identified about 17 similarities, 13 of which illustrated a sort of progression towards the economic disaster depicted in these testimonies. These fascinating parallels demonstrate the repetitive and devastating nature of hyperinflation across time and borders. Today, we will examine these similarities and how they depict a worrisome trajectory during periods of hyperinflation.
 
@@ -476,16 +480,17 @@ The speed at which currency can lose its value in certain economic situations is
 > Zimbabwe: "On September 17, 2006, the governor of the RBZ, Gideon Gono, declared: '10 trillion is still out there and it has become manure.'"
 
 3. Banknotes worth less than the paper they are printed on
-Em certas circunstâncias econômicas, o valor intrínseco de uma nota pode se tornar inferior ao valor do papel em que ela é impressa. Essa desvalorização drástica transforma as notas de dinheiro, normalmente símbolos de valor e poder de compra, em simples pedaços de papel sem valor de mercado.
-> Weimar: "Denominações inteiras de notas em marcos não tinham valor quase imediatamente após saírem da impressora."
+   Em certas circunstâncias econômicas, o valor intrínseco de uma nota pode se tornar inferior ao valor do papel em que ela é impressa. Essa desvalorização drástica transforma as notas de dinheiro, normalmente símbolos de valor e poder de compra, em simples pedaços de papel sem valor de mercado.
+   > Weimar: "Denominações inteiras de notas em marcos não tinham valor quase imediatamente após saírem da impressora."
 
 > Zimbábue: "O banco central desperdiçou dinheiro imprimindo uma nota que não valia o papel em que estava impressa. Em outras palavras, seu valor era inferior ao do papel higiênico. Por mais absurdo que possa parecer, era mais barato usar a nota de ZWD 100 trilhões como papel higiênico do que comprar papel higiênico de verdade."
 
-![imagem](assets/chapitre-3.2/3.png)
+![imagem](assets/chapitre-3.2/3.PNG)
 
 4. Contagem de dinheiro
 
 Quando a moeda perde rapidamente seu valor, até mesmo as transações mais simples podem se tornar tarefas trabalhosas. Calcular o preço de um item ou simplesmente contar as notas necessárias para um pagamento pode levar vários minutos, adicionando uma camada de complexidade às interações diárias.
+
 > Weimar: "A compra mais comum em uma loja exigia três ou quatro minutos de cálculos, e uma vez determinado o preço, geralmente eram necessários vários minutos adicionais para contar as notas."
 
 > Zimbábue: "Os funcionários da loja também eram autorizados a contratar um trabalhador temporário para substituir o membro da equipe que ficava contando dinheiro o dia todo. Claro, contar o dinheiro na loja para fins administrativos e para depósito no banco era uma coisa, mas todo o processo precisava ser repetido no banco durante o depósito."
@@ -497,6 +502,7 @@ Técnica de contagem de dinheiro do Uzbequistão
 5. Pagamentos com cheque
 
 Em economias perturbadas, os métodos de pagamento tradicionais, como cheques, podem rapidamente perder sua eficácia. Os bancos, sobrecarregados pela crescente demanda por dinheiro devido à hiperinflação, podem racionar ou atrasar o depósito de cheques, reduzindo assim seu valor real. Essa instabilidade muitas vezes leva a uma hierarquização dos métodos de pagamento, onde os preços podem variar dependendo de como se escolhe pagar.
+
 > Weimar: "O aumento dos preços intensificou a demanda por dinheiro, tanto pelo Estado quanto por outros empregadores. Os bancos privados não conseguiam atender à demanda e precisavam racionar o depósito de cheques, de modo que os cheques não depositados permaneciam congelados enquanto seu poder de compra se esgotava."
 
 Zimbábue: "O valor temporal do dinheiro criou três preços para bens e serviços; a saber, um preço em dinheiro, um preço em pagamento bruto em tempo real e um preço por cheque. No final, ninguém aceitava cheques, que levavam cinco dias para serem descontados."
@@ -517,7 +523,7 @@ Weimar: "Enquanto as antigas virtudes de economia, honestidade e trabalho árduo
 
 Zimbábue: "Essas práticas, embora tenham enriquecido algumas pessoas, empobreceram a classe trabalhadora urbana e a população rural. A educação perdeu seu valor, pois esse comércio era impulsionado por pessoas que não precisavam de educação ou trabalho árduo para justificá-lo. Tudo o que eles precisavam eram conexões e capital inicial para iniciar seu negócio de dinheiro fácil."
 
-![imagem](assets/chapitre-3.2/5.png)
+![imagem](assets/chapitre-3.2/5.PNG)
 
 8. Os "bancos do mundo"
 
@@ -570,7 +576,7 @@ A compra frenética de moeda estrangeira muitas vezes marcou uma virada crítica
 
 ### Resumo do processo
 
-![imagem](assets/chapitre-3.2/2.png)
+![imagem](assets/chapitre-3.2/2.PNG)
 
 Ao analisar a trajetória econômica, fica evidente que quando a alta inflação é alcançada, o valor da massa monetária se deprecia. Essa desvalorização gera várias complicações, incluindo a escassez de notas. Nesse contexto, surgem oportunidades de arbitragem, especialmente com as flutuações das taxas de câmbio. Portanto, muitas pessoas recorrem a essa arbitragem, investindo maciçamente em ativos tangíveis, antecipando uma futura desvalorização monetária que lhes permitiria pagar suas dívidas com uma moeda enfraquecida. Esse ambiente econômico prejudica o apelo dos empregos tradicionais e, consequentemente, erode a coesão social.
 
@@ -578,7 +584,7 @@ Diante dessa situação, o Estado impõe regulamentações draconianas, incluind
 
 ### 4 Semelhanças nas consequências da hiperinflação
 
-![imagem](assets/chapitre-3.2/6.png)
+![imagem](assets/chapitre-3.2/6.PNG)
 
 1. Petróleo e metais
 
@@ -588,8 +594,8 @@ No contexto de escassez de recursos e dificuldades econômicas, os cupons de gas
 > Weimar: "À Berlin, des coupons d'essence ont été introduits pour limiter l'utilisation de carburant par les citoyens. Chaque personne avait droit à un certain nombre de coupons par mois, en fonction de ses besoins et de sa situation professionnelle."
 
 > Zimbabwe: "En raison de la pénurie de carburant, des coupons d'essence ont été introduits pour rationner l'approvisionnement en carburant. Chaque personne recevait un certain nombre de coupons par mois, en fonction de ses besoins et de sa profession."
-As populações estão procurando alternativas estáveis para transações. Em Weimar, produtos como latão e combustível foram usados como meio de troca devido ao seu valor intrínseco constante. No Zimbábue, diante da rápida desvalorização do dólar zimbabuano, os cupons de gasolina, que representavam uma quantidade fixa de um produto essencial, se tornaram uma moeda de fato. Essas situações destacam como as sociedades se adaptam a condições econômicas extremas, encontrando soluções inovadoras para manter o comércio e a economia em movimento.
-Weimar: "A troca já era uma forma comum de comércio; mas agora, produtos como latão e combustível se tornaram a moeda comum de compra e pagamento."
+> As populações estão procurando alternativas estáveis para transações. Em Weimar, produtos como latão e combustível foram usados como meio de troca devido ao seu valor intrínseco constante. No Zimbábue, diante da rápida desvalorização do dólar zimbabuano, os cupons de gasolina, que representavam uma quantidade fixa de um produto essencial, se tornaram uma moeda de fato. Essas situações destacam como as sociedades se adaptam a condições econômicas extremas, encontrando soluções inovadoras para manter o comércio e a economia em movimento.
+> Weimar: "A troca já era uma forma comum de comércio; mas agora, produtos como latão e combustível se tornaram a moeda comum de compra e pagamento."
 
 Zimbábue: "Esses vales, agora os usamos para pagar aluguéis aos proprietários, impostos municipais, contas de telefone, na verdade, quase tudo, porque todos pararam de aceitar pagamentos em dólares zimbabuanos e cheques."
 
@@ -607,7 +613,7 @@ Neste capítulo, exploraremos as diferenças e paralelos entre os períodos de h
 
 Na Alemanha, era comum a população atribuir a inflação ao aumento do dólar, em vez da desvalorização intrínseca de sua própria moeda. Muitos acreditavam que o fenômeno observado era devido à valorização do dólar. Essa percepção descartava qualquer reconhecimento da ligação entre suas dificuldades econômicas e a desvalorização monetária, principalmente induzida pela criação excessiva de moeda. O livro "When Money Dies" ilustra claramente essa falta de conhecimento entre a população alemã. Por outro lado, no Zimbábue, a situação era diferente: os cidadãos estavam plenamente conscientes da causa subjacente da hiperinflação que estavam enfrentando.
 
-![imagem](assets/chapitre-3.3/3.png)
+![imagem](assets/chapitre-3.3/3.PNG)
 
 2. Moeda de necessidade (Notgeld)
 
@@ -638,12 +644,12 @@ Em Weimar, algumas dívidas foram reavaliadas para compensar o impacto da infla�
 
 Para saber mais sobre a gestão da crise alemã, este livro também é fundamental.
 
-![image](assets/chapitre-3.3/4.png)
+![image](assets/chapitre-3.3/4.PNG)
 
 ### Paralelos contemporâneos
 
 1. Manipulação da política monetária para controlar a economia.
-Na história da República de Weimar, é evidente que os industriais eram relutantes em relação à valorização do Marco. Sua capacidade de tomar empréstimos e pagar suas dívidas com uma moeda fortemente desvalorizada lhes proporcionou uma vantagem considerável. Esse mecanismo facilitou a construção de enormes complexos industriais a custos quase nulos. Esses industriais temiam a valorização do Marco, pois isso prejudicava suas atividades. Alguns até viam a inflação galopante com bons olhos, acreditando que ela garantia emprego para a população. No entanto, eles não percebiam o impacto negativo dessa inflação na poupança e na economia em geral. Para esses atores econômicos, a impressão de dinheiro era uma bênção.
+   Na história da República de Weimar, é evidente que os industriais eram relutantes em relação à valorização do Marco. Sua capacidade de tomar empréstimos e pagar suas dívidas com uma moeda fortemente desvalorizada lhes proporcionou uma vantagem considerável. Esse mecanismo facilitou a construção de enormes complexos industriais a custos quase nulos. Esses industriais temiam a valorização do Marco, pois isso prejudicava suas atividades. Alguns até viam a inflação galopante com bons olhos, acreditando que ela garantia emprego para a população. No entanto, eles não percebiam o impacto negativo dessa inflação na poupança e na economia em geral. Para esses atores econômicos, a impressão de dinheiro era uma bênção.
 
 > Weimar: "É por essa razão que a valorização do marco era grandemente temida, e mesmo as poucas semanas de 'estabilidade' após Gênova causaram uma estagnação nos negócios."
 
@@ -672,7 +678,7 @@ Uma empresa zumbi é uma empresa que, em condições normais de mercado, seria i
 
 Essa noção de empresa zumbi não é nova. Na verdade, ela estava presente na República de Weimar. Naquela época, muitas empresas pareciam prósperas, aproveitando amplamente o acesso ao crédito gratuito. Elas tomavam empréstimos consideráveis, com a perspectiva de pagar posteriormente com uma moeda desvalorizada devido à inflação galopante. No entanto, quando a inflação parou e o marco alemão voltou a ter valor, essas empresas, que não eram verdadeiramente viáveis em termos operacionais e financeiros, se tornaram não lucrativas e tiveram que fechar suas portas.
 
-![image](assets/chapitre-3.3/5.png)
+![image](assets/chapitre-3.3/5.PNG)
 
 O fenômeno das empresas zumbis não se limita à história da Alemanha pós-guerra. Até hoje, muitas grandes empresas sobrevivem graças ao acesso privilegiado a créditos com juros muito baixos. Se tivessem que tomar empréstimos com taxas mais convencionais, muitas delas deixariam de ser lucrativas. Isso é ainda mais relevante em 2023, após um longo período de taxas de juros próximas de zero, que começaram a aumentar. Essa evolução recente do cenário financeiro certamente será um teste decisivo para essas empresas anteriormente chamadas de "zumbis".
 
@@ -685,8 +691,8 @@ Na história, observamos momentos em que as pessoas buscam enriquecer rapidament
 6. Poupança, o remédio contra a incerteza
 
 > a influência invasiva e destrutiva da constante erosão do valor do capital e da renda, bem como a incerteza em relação ao futuro.
-É interessante destacar uma citação que destaca o efeito destrutivo da erosão do valor do capital na coesão social, bem como a incerteza que ela gera. Ela diz: "a influência invasiva e destrutiva da erosão constante do valor do capital e da renda, bem como a incerteza em relação ao futuro."
-Imagine um cenário em que você tem uma família ou entes queridos que você deseja proteger. Você trabalha duro, economiza, para antecipar as incertezas futuras. Se tudo fosse previsível, a poupança seria inútil. Mas diante do imprevisto, como um carro quebrado, a poupança se torna um salva-vidas. Ela reduz a incerteza do mundo. No entanto, em períodos de hiperinflação, poupar se torna um desafio. O dinheiro perde rapidamente seu valor, tornando difícil o planejamento a longo prazo. Essa instabilidade financeira pode causar estresse e ansiedade.
+> É interessante destacar uma citação que destaca o efeito destrutivo da erosão do valor do capital na coesão social, bem como a incerteza que ela gera. Ela diz: "a influência invasiva e destrutiva da erosão constante do valor do capital e da renda, bem como a incerteza em relação ao futuro."
+> Imagine um cenário em que você tem uma família ou entes queridos que você deseja proteger. Você trabalha duro, economiza, para antecipar as incertezas futuras. Se tudo fosse previsível, a poupança seria inútil. Mas diante do imprevisto, como um carro quebrado, a poupança se torna um salva-vidas. Ela reduz a incerteza do mundo. No entanto, em períodos de hiperinflação, poupar se torna um desafio. O dinheiro perde rapidamente seu valor, tornando difícil o planejamento a longo prazo. Essa instabilidade financeira pode causar estresse e ansiedade.
 
 Hoje, diante da queda do poder de compra, o investimento assume o controle. No entanto, essa abordagem tem seus próprios riscos. A poupança sempre foi um remédio contra a incerteza. Ter reservas financeiras para lidar com situações imprevistas contribui para a paz de espírito e fortalece a coesão social. Em conclusão, a proteção do nosso poder de compra é essencial para manter a estabilidade social e individual.
 
@@ -716,6 +722,7 @@ Antes de 1826, a Argentina utilizava o dólar espanhol. Após sua independência
 
 O Brasil é um caso emblemático de redenominação monetária, como ilustrado por sua história rica em mudanças de moeda. Antes de sua independência, o Brasil utilizava o real português. No entanto, a partir de 1747, o país começou a usar seu próprio "real brasileiro", muito antes de sua declaração de independência em 1822. A tabela começa em 1818, marcando o início da emissão de notas de banco brasileiras, antes disso, a moeda era principalmente em forma de moedas. Essas notas atingirão valores de até um milhão de réis.
 A partir de 1942, o Brasil iniciou uma série de redenominações. Na maioria dos casos (1942, 1967, 1986, 1989, 1993), a taxa de conversão era de 1.000 para 1. Em 1990, ocorreu uma mudança de nome sem conversão. A sequência dessas moedas é a seguinte:
+
 - Réis (versão antiga) até 1942.
 - Cruzeiros em 1942.
 - Cruzeiros (nova versão) em 1967.
@@ -749,6 +756,7 @@ Aqui está uma visão geral da tumultuada história monetária da Bolívia, marc
 O Peru apresenta um caso interessante em relação aos efeitos da regra arbitrária de 50%. Começando por sua história monetária, o Peru usava o ouro espanhol até o século XIX e declarou sua independência em 1821. O dólar peruano estava em uso de 1822 a 1863. Em 1863, o real peruano foi substituído pelo soldi oro, com uma taxa de 10 para 1, atingindo um valor máximo de 50.000. Em 1985, a moeda "Inti" foi introduzida com uma taxa de conversão de 1000 para 1, atingindo 5 milhões. Em 1991, o "SOL" foi lançado com uma taxa de 1 milhão para 1, com notas variando de 10 a 200.
 
 Ao examinar os períodos de redenominação, 1988 é considerado um ano de hiperinflação, especialmente em setembro. Julho-agosto de 1990 também viu um período de hiperinflação. Em 1988, a inflação anual foi de 667%, com um pico de 50% em setembro. Por outro lado, em 1989, houve uma inflação de 3000% sem nenhum mês ultrapassando 50%, portanto, não foi classificado como hiperinflação. Em 1990, a inflação atingiu 7481%. É claro que a regra dos 50% pode ser arbitrária, pois 1988 foi considerado um ano de hiperinflação, ao contrário de 1989. Se essa regra fosse reconsiderada, talvez fosse prudente reduzir o limite para incluir períodos como o vivido pelo Peru em 1989.
+
 > Entendendo o que está acontecendo
 >
 > O ponto principal a ser entendido sobre as redenominações monetárias é que quando o valor da moeda atinge números astronômicos, como 5 ou 10 milhões, ela é redenominada. Esse processo pode se repetir várias vezes, envolvendo uma mudança de moeda. O resultado é que as economias das pessoas podem ser gravemente afetadas, mesmo na ausência de hiperinflação. Por exemplo, se alguém economiza 1.000 dólares em um ano e consegue economizar 100 dólares, no ano seguinte, a menor nota pode ser de 1.000 dólares, tornando os 100 dólares economizados anteriormente sem valor. Essa erosão das economias não requer uma hiperinflação evidente. Mesmo que alguém tenha economizado 10.000 dólares nos últimos dez anos, essa quantia pode acabar valendo uma quantia insignificante, incapaz de comprar uma simples garrafa de água. Essa realidade se manifesta em muitos países que passaram por redenominações, mesmo que apenas alguns meses tenham sido classificados como hiperinflacionários. Em contraste, alguns países, como a Nicarágua, passaram por muitos anos consecutivos de hiperinflação.
@@ -757,6 +765,7 @@ Ao examinar os períodos de redenominação, 1988 é considerado um ano de hiper
 
 ![imagem](assets/chapitre-3.4/5.PNG)
 O Nicarágua, anteriormente sob domínio espanhol, inicialmente usava o dólar espanhol, assim como muitos outros países colonizados pela Espanha. Depois de ser integrado ao Império Espanhol, ao Império Mexicano e à República Federal da América Central, a Nicarágua proclamou sua independência. A partir de 1878, o peso se tornou a moeda oficial do país, com valores variando entre 1 e 100. Em 1912, o país introduziu o primeiro Córdoba, seguido do segundo em 1988 e do terceiro em 1991, que ainda está em uso hoje. O primeiro Córdoba atingiu um valor de 1 milhão, o segundo 10 milhões. A redenominação em 1991 seguiu vários anos de hiperinflação.
+
 ### Venezuela
 
 ![image](assets/chapitre-3.4/6.PNG)
@@ -779,7 +788,7 @@ Após a adoção de uma taxa de câmbio flutuante em 1983, várias redenominaç�
 
 - Em 2008: o bolívar fuerte, ou "bolívar forte", foi introduzido, chegando a 100.000 antes de uma redenominação de mil para um.
 - Em 2018: o Soberano foi introduzido com notas de até 1 milhão. Em 2021, foi substituído pelo bolívar digital, que também atingiu 1 milhão, antes de uma nova redenominação para um milhão para um. Hoje, a nota de 10 ou 20 equivale a 10 milhões ou 20 milhões em Soberano.
-Notas dessa época, datadas de 2018, são distribuídas em várias conferências Bitcoin em Biarritz, Toronto e Miami. Essas notas Soberano atingiram um valor máximo de 1 milhão. Em seguida, ocorreu uma redenominação, reduzindo o valor de um milhão para cerca de 3 centavos. Atualmente, 10 notas de 1 milhão correspondem a uma nota de 10. Desde 2016, a Venezuela está em hiperinflação, representando o 57º período em uma tabela específica.
+  Notas dessa época, datadas de 2018, são distribuídas em várias conferências Bitcoin em Biarritz, Toronto e Miami. Essas notas Soberano atingiram um valor máximo de 1 milhão. Em seguida, ocorreu uma redenominação, reduzindo o valor de um milhão para cerca de 3 centavos. Atualmente, 10 notas de 1 milhão correspondem a uma nota de 10. Desde 2016, a Venezuela está em hiperinflação, representando o 57º período em uma tabela específica.
 
 No próximo vídeo, será apresentada uma coleção de notas de hiperinflação, com foco na Venezuela e em outros países listados. Essa coleção contém quase todas as notas venezuelanas. O estudo abordará as diferentes redenominações para cada país mencionado. Além disso, haverá uma exploração das redenominações no Zimbábue, um assunto de interesse notável.
 
@@ -816,7 +825,7 @@ O Zimbábue conquistou sua independência em 1980 e introduziu o dólar zimbabua
 
 Em 2006, o país introduziu uma nova versão de sua moeda, o ZWN, com uma taxa de câmbio de 1 para 1.000. Em 2008, outra denominação, o ZWR, foi introduzida com uma taxa de câmbio de 1 para 10 bilhões. Isso levou à criação das emblemáticas notas de 100 trilhões.
 
-![image](assets/chapitre-3.5/2.png)
+![image](assets/chapitre-3.5/2.PNG)
 
 #### Dolarização e saída da crise
 
@@ -842,7 +851,6 @@ No meu livro intitulado "Tudo sobre o Bitcoin", dediquei um capítulo inteiro à
 A principal coisa a se lembrar é que existem várias estratégias para sair da hiperinflação. Pode-se optar pela dolarização ou pela introdução de uma nova moeda. Essas soluções só funcionarão se a população confiar nelas. É crucial impor restrições rigorosas. Um banco central verdadeiramente independente é essencial. Ele não deve aumentar a oferta monetária para cobrir os déficits do governo. Em caso de inflação leve, limitar o crescimento da oferta monetária deve ser suficiente. No entanto, quando se enfrenta uma hiperinflação, é primordial, primeiro, ter uma oferta monetária adequada ao tamanho da economia em questão. Em seguida, é imperativo impor restrições rigorosas ao governo para estabilizar a situação.
 
 ## 3.6 - Apresentação da coleção de notas de hiperinflação
-
 
 O link para a coleção digitalizada está disponível no Bitcoin Educational Toolkit, acessível na seção Recursos da plataforma.
 
@@ -888,7 +896,7 @@ Inicialmente, a primeira camada de moeda era representada pelo ouro. Os depósit
 
 #### O pânico de 1796
 
-![image](assets/chapitre-4.1/6.png)
+![image](assets/chapitre-4.1/6.PNG)
 
 Pânico bancário no banco Seamen's Savings durante o pânico de 1857.
 
@@ -901,6 +909,7 @@ Os bancos centrais evoluíram para se tornarem emprestadores de última instânc
 ## Livros e recursos
 
 A hiperinflação é um assunto fascinante que foi estudado por meio de diversos eventos históricos. Se você deseja aprofundar esse assunto, aqui está uma lista de 10 recursos essenciais para ler e estudar:
+
 - "Quando o Dinheiro Morre: O Pesadelo do Gasto Deficitário, Desvalorização e Hiperinflação na Alemanha de Weimar" por Adam Fergusson. Este livro detalha a crise hiperinflacionária da Alemanha após a Primeira Guerra Mundial.
 
 - "A Economia da Inflação - Um Estudo sobre a Depreciação da Moeda na Alemanha Pós-Guerra" por Costantino Bresciani-Turroni. Uma análise aprofundada da hiperinflação alemã nos anos 1920.

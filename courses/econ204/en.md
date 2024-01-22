@@ -35,7 +35,7 @@ Section 2 - What is inflation?
 - 2.1 - A monetary phenomenon
 - 2.2 - Types of inflation
 - 2.3 - Deflation
-Section 3 - What is hyperinflation?
+  Section 3 - What is hyperinflation?
 - 3.1 - Definitions
 - 3.2 - Weimar vs Zimbabwe similarities
 - 3.3 - Weimar vs Zimbabwe differences and contemporary parallel
@@ -62,7 +62,6 @@ Section 6 - How to protect yourself from hyperinflation (Rogzy)
   Books and resources
 - Bonus: Testimonials from people living with hyperinflation (Rogzy)
 
-
 Good luck!
 
 # Section 2 - What is inflation?
@@ -77,12 +76,13 @@ Inflation is a concept that is often misunderstood due to the multiple definitio
 
 - Definition from Larousse: Inflation is a phenomenon characterized by a generalized and continuous rise in the level of prices. Here, the word "generalized" is crucial.
 
-![image](assets/chapitre-2.1/4.png)
+![image](assets/chapitre-2.1/4.PNG)
 
 In light of these definitions, it is essential to understand that, for Robert, inflation mainly concerns the increase in the money supply. On the other hand, Larousse focuses on the consequences of this expansion, namely the generalized rise in prices.
 
 In our study on hyperinflation, we will adopt the second definition, that of the generalized rise in prices, as it is more relevant and clear for our subject. However, it is crucial to remember that this rise in prices is generally the result of the expansion of the money supply.
 Renowned economist Milton Friedman famously stated:
+
 > "Inflation is always and everywhere a monetary phenomenon."
 
 This statement highlights the intrinsic relationship between monetary expansion and inflation. In the following sections, we will explore the interactions between inflation and economic growth, based on these fundamental definitions.
@@ -106,6 +106,7 @@ It is crucial to emphasize that hyperinflation is mainly observed with fiat curr
 Throughout history, various civilizations have experienced periods of monetary devaluation. Some of these periods coincide with major events or wars that have put pressure on the economy.
 
 #### 1. Peloponnesian War and Second Punic War:
+
 The Peloponnesian War, a conflict between Athens and Sparta, and the Second Punic War, between the Roman Republic and Carthage, are the earliest examples of currency devaluation found in the archives. To finance these wars, these civilizations devalued their currencies by reducing the silver content and incorporating other metals, while increasing the number of coins produced.
 ![image](assets/chapitre-2.1/8.PNG)
 
@@ -123,8 +124,8 @@ Although these periods experienced significant inflation, they did not reach the
   One of the most iconic coins of ancient Rome is the denarius, a silver currency. I own a specific coin from Marcus Aurelius dating back to 160 AD, before the major devaluation. Although the camera may struggle to capture the fine details, to the naked eye, it can be seen that it is a beautiful silver coin, reflecting a relatively high silver content.
 
 - The Antoninianus (late 3rd century AD):
-With monetary devaluation, a new currency, the Antoninianus, appeared. This currency was supposed to be worth two denarii, but contained much less silver. My Antoninianus coin clearly shows that the silver content has been significantly reduced. It is adorned with a crown, typical of Roman coins of this period, called "radiates". By comparing the color and quality, it can be seen that the Antoninianus is far from being a pure silver coin.
-When comparing the two coins side by side, the difference is striking. The denarius from 160 AD has a distinct silver appearance, while the Antoninianus from the late 3rd century AD is much duller, indicating a significant decrease in silver content. This visual comparison provides a clear illustration of the monetary devaluation that ancient Rome underwent over a few centuries.
+  With monetary devaluation, a new currency, the Antoninianus, appeared. This currency was supposed to be worth two denarii, but contained much less silver. My Antoninianus coin clearly shows that the silver content has been significantly reduced. It is adorned with a crown, typical of Roman coins of this period, called "radiates". By comparing the color and quality, it can be seen that the Antoninianus is far from being a pure silver coin.
+  When comparing the two coins side by side, the difference is striking. The denarius from 160 AD has a distinct silver appearance, while the Antoninianus from the late 3rd century AD is much duller, indicating a significant decrease in silver content. This visual comparison provides a clear illustration of the monetary devaluation that ancient Rome underwent over a few centuries.
 
 ![image](assets/chapitre-2.1/3.PNG)
 
@@ -138,7 +139,7 @@ The Maravedi, as a copper currency, occupies a special place in the history of S
 
 Monetary devaluation is a tool often used by states to finance their expenses or stimulate the economy. However, Spain found itself in a delicate situation. Diluting the Spanish dollar would have compromised its position in international trade. To overcome this dilemma, Spain turned to the Maravedi.
 
-![image](assets/chapitre-2.1/6.png)
+![image](assets/chapitre-2.1/6.PNG)
 Unlike the precious Spanish silver dollar, the Maravedis was a copper currency mainly used within the local population. This currency was targeted for devaluation. When a Maravedis coin was initially worth two maravedises, the state would retrieve it, re-stamp it with a new value, for example "four", and only return one coin to the owner. The coin mentioned with the stamp "eight" is evidence of this process, having undergone several cycles of devaluation.
 
 This strategy allowed the state to effectively devalue a currency, creating inflation and indirectly financing itself, while preserving the integrity of the Spanish dollar on the international stage. However, this targeted devaluation had consequences for the local population, who saw the value of their common currency diluted.
@@ -154,6 +155,7 @@ More about what? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoW
 Between the 15th and 17th centuries, Europe witnessed a remarkable economic phenomenon, often referred to as the "price revolution." This period of inflation was largely triggered by a massive influx of precious metals, particularly gold and silver, from the Americas. With the European economy largely based on the metallic standard at the time, this additional supply of metals increased the money supply. As a result, an inflation rate of about 1 to 2% per year emerged. At first glance, this inflation may seem modest. However, at that time, such price fluctuations were unusual enough to be considered a "revolution." This highlights how changes in monetary reserves can influence the entire economic system.
 
 #### 5. John Law and the Assignats
+
 In the 18th century, French economic history was marked by two significant events related to currency. First, John Law, a Scottish economist and financier, persuaded the French government to adopt a monetary system based on paper money. Although initially considered an innovative solution to the country's financial problems, this initiative quickly led to rampant inflation. Then, shortly after, during the turmoil of the French Revolution, the government introduced "assignats".
 ![image](assets/chapitre-2.1/9.PNG)
 
@@ -189,6 +191,7 @@ Following the seizure of gold in 1934, a new series of banknotes was put into ci
 
 ![image](assets/chapitre-2.1/13.PNG)
 The mention indicating their convertibility into gold has been removed and replaced by "This note is legal tender for all debt" (Ce billet est une monnaie légale pour toutes dettes).
+
 - Gold Revaluation
 
 What is fascinating about this transition is the government's strategy. In 1934, the price of gold was revalued to $35 per ounce, instead of $20.67. Essentially, the government devalued the dollar that people owned. By buying gold from the population at $20.67 per ounce in 1933, and then revaluing the price of gold in 1934, the government made a substantial profit while devaluing its citizens' savings.
@@ -208,12 +211,13 @@ In the same spirit, Spain and the Netherlands, as holders of the world reserve c
 However, the situation changed with the rise of the United States as the dominant economic power. They chose to devalue their reserve currency, thus exploiting inflation to their advantage. This decision is often attributed to the changed dynamics, where the choice of reserve currency was no longer as free as before. American hegemony established the dollar as the world reserve currency, allowing for manipulation of its value. This shift reveals the potential impact of monetary policies on international trade in a globalized economy, marking a significant transition in the management of global reserve currencies.
 
 ### Last example for the road: the Swiss Dinner
+
 The Swiss Dinar illustrates another fascinating aspect of monetary devaluation, this time anchored in the pre-Gulf War Iraqi context. Named after the notable quality of its banknotes, this currency was issued by the Central Bank of Iraq and enjoyed a reputation for stability in the Middle East region. This confidence was mainly due to the quality of the banknote printing, which was done in England, implying a certain robustness against devaluation.
-![image](assets/chapitre-2.1/16.png)
+![image](assets/chapitre-2.1/16.PNG)
 
 However, the Gulf Wars marked a turning point in the history of the Swiss Dinar. Iraq, no longer able to rely on its English supplier for banknote printing, turned to China. This transition resulted in a clear difference in the quality of the banknotes, with the Chinese version being perceived as inferior. This perception was not unfounded; the Chinese banknotes were more easily counterfeitable and susceptible to overprinting by the government, thus threatening their value.
 
-![image](assets/chapitre-2.1/17.png)
+![image](assets/chapitre-2.1/17.PNG)
 
 A distinctive phenomenon emerged in the post-Gulf War Iraqi economy: the dual pricing system. Merchants offered different prices depending on the type of banknote used for payment, favoring the original Swiss Dinar over the Chinese banknote. This system reflected the maintained trust in higher-quality banknotes, which were less prone to devaluation, even in a context where value was primarily imposed by the state. This episode demonstrates the importance of intrinsic characteristics of currency and how, even in a fiat currency regime, the perceived quality of a currency can influence its relative value and, by extension, the confidence of economic actors.
 
@@ -246,7 +250,7 @@ Here is a breakdown of the topic into several key points:
   Inflation, on the other hand, is defined by a generalized increase in prices across a range of goods and services, not just in a specific sector.
 
 - The Monetary Essence of Inflation:
-With a fixed money supply, an increase in prices in one sector would result in a decrease in prices in other sectors, as the amount of money available to spend elsewhere would be reduced. Inflation is closely related to an increase in the money supply, which allows for a simultaneous increase in prices in all sectors.
+  With a fixed money supply, an increase in prices in one sector would result in a decrease in prices in other sectors, as the amount of money available to spend elsewhere would be reduced. Inflation is closely related to an increase in the money supply, which allows for a simultaneous increase in prices in all sectors.
 
 - Impact of Money Supply on Inflation and Deflation:
 
@@ -296,6 +300,7 @@ A third example of why monetary printing would not cause inflation is that the r
 
 Monetary printing can be seen as a sword of Damocles hanging over the economy. The created money can remain latent for a certain period of time, without any visible inflationary effect, as long as it is not injected into the economy through bank loans or other mechanisms. However, when this latent money is finally put into circulation, inflationary effects can then manifest. This is what has been observed in the 2020s, where previously created money has found its way into the economy, leading to inflation.
 This scenario highlights the importance of monetary transmission mechanisms in determining the inflationary impact of money printing. Central bank money creation is just one piece of the puzzle. The behavior of private banks, who decide on the volume of loans to grant, and the behavior of borrowers, who decide how they will spend the borrowed money, are also crucial elements in this dynamic.
+
 #### Inflation is social!
 
 The example of the Weimar Republic illustrates another crucial aspect of the relationship between money printing and inflation: the role of expectations and the behavior of economic agents. When the Central Bank of the Weimar Republic began printing a large amount of money, economic uncertainty led individuals to hoard, i.e., store money rather than spend it. This reaction temporarily delayed the inflationary effects of money printing.
@@ -371,7 +376,7 @@ When exploring types of inflation, it is common to come across terms like "Deman
 
 - Cost Push:
   On the other hand, Cost Push inflation is attributed to the increase in production costs, such as those of natural resources or labor. Again, without an increase in the money supply, cost increases in one sector may simply reduce spending in others, without causing widespread inflation.
-These traditional explanations often associate price increases with inflation, which can be confusing. In reality, for widespread inflation to occur, an increase in the money supply is necessary. In this context, the concepts of Demand Pull and Cost Push can explain sectoral price variations, but they do not capture the monetary nature of inflation. This highlights the importance of distinguishing between sectoral price increases and widespread inflation, and reaffirms the need for an increase in the money supply for inflation to manifest throughout the economy. This analysis offers a more nuanced and precise perspective on the real causes of inflation and demystifies common interpretations that may mask the underlying monetary dynamics.
+  These traditional explanations often associate price increases with inflation, which can be confusing. In reality, for widespread inflation to occur, an increase in the money supply is necessary. In this context, the concepts of Demand Pull and Cost Push can explain sectoral price variations, but they do not capture the monetary nature of inflation. This highlights the importance of distinguishing between sectoral price increases and widespread inflation, and reaffirms the need for an increase in the money supply for inflation to manifest throughout the economy. This analysis offers a more nuanced and precise perspective on the real causes of inflation and demystifies common interpretations that may mask the underlying monetary dynamics.
 
 ### Classification of Inflation according to Bernholz
 
@@ -387,7 +392,7 @@ Bernholz proposes a simplified but precise classification of inflation into thre
 
 - Hyperinflation:
   Hyperinflation is an extension of high inflation, characterized by large budget deficits financed by money creation. Historically, no case of hyperinflation has been observed without substantial deficit financing through money printing. Hyperinflation creates a vicious cycle: inflation erodes the value of the currency so rapidly that tax revenues depreciate before the state can even collect them, thus forcing the state to print even more money to finance itself. This self-reinforcing cycle leads to astronomical inflation rates, often exceeding 50% per month.
-This classification by Bernholz highlights the dangerous progression from moderate inflation to hyperinflation, emphasizing the crucial importance of monetary and budgetary control in preventing destructive inflationary spirals. It also demonstrates that the detrimental consequences on state financing can occur well before reaching the stage of hyperinflation, providing a nuanced perspective on the implications of inflation at various degrees.
+  This classification by Bernholz highlights the dangerous progression from moderate inflation to hyperinflation, emphasizing the crucial importance of monetary and budgetary control in preventing destructive inflationary spirals. It also demonstrates that the detrimental consequences on state financing can occur well before reaching the stage of hyperinflation, providing a nuanced perspective on the implications of inflation at various degrees.
 
 ### Conclusion: Summary of Inflation Types
 
@@ -423,12 +428,13 @@ To illustrate, if inflation drops to 40% in July and does not rise above 50% unt
 
 This definition has been adopted in the Hanke-Krus table, which documents 56 episodes of hyperinflation. However, the table does not cover all episodes, such as the one in Venezuela in 2016, bringing the total to 57.
 
-![image](assets/chapitre-3.1/1.png)
+![image](assets/chapitre-3.1/1.PNG)
 
 zoom
 
 ![image](assets/chapitre-3.1/0.PNG)
 It should be noted that this definition, although precise, could possibly exclude certain episodes of hyperinflation due to the strictness of the 50% threshold. There is a possibility of expanding this definition to include other episodes that, although not strictly meeting Cagan's criteria, nevertheless represent periods of extremely high inflation. This observation opens the door to a broader exploration of hyperinflation phenomena, allowing for a more nuanced understanding of its causes and effects. In subsequent discussions, we will consider revisiting this definition and examining episodes of hyperinflation not covered by Cagan's strict criteria.
+
 ### The Definition of Hyperinflation by Cagan
 
 Philip Cagan may have set an arbitrary milestone with the 50% monthly inflation threshold when defining hyperinflation. He himself admits that this definition is arbitrary and primarily served his analysis based on seven episodes of hyperinflation. Examination of Cagan's data reveals that the three episodes of hyperinflation with the lowest monthly inflation rates were around 47%, 46%, and 57%. It appears that the 50% threshold was chosen to encompass these cases in his study.
@@ -471,11 +477,11 @@ In this chapter, we will explore the impacts of hyperinflation, focusing on the 
 
 Several books have been particularly informative:
 
-![image](assets/chapitre-3.2/0.png)
+![image](assets/chapitre-3.2/0.PNG)
 
 - "When Money Dies" by Adam Ferguson, traces the post-World War I hyperinflation in Germany, as well as in Austria and Hungary.
 - Two books on hyperinflation in Zimbabwe, "Zimbabwe Warm Heart Ugly Face" and "Hard Boiled Egg Index" by Jérôme Gardner and Kudzai Joseph Gou Min-Yu respectively, offer poignant testimonies from a CEO of a clothing store chain and an agricultural banker on their experiences during this tumultuous period.
-![image](assets/chapitre-3.2/1.PNG)
+  ![image](assets/chapitre-3.2/1.PNG)
 
 While consolidating my notes, I noticed numerous similarities between the experiences of hyperinflation in Zimbabwe and the Weimar Republic, despite the 90-year gap between them. I identified around 17 similarities, with 13 illustrating a sort of progression towards the economic disaster depicted in these testimonies. These fascinating parallels demonstrate the repetitive and devastating nature of hyperinflation across time and borders. Today, we will examine these similarities and how they depict a worrisome trajectory during periods of hyperinflation.
 
@@ -500,16 +506,17 @@ The speed at which currency can lose its value in certain economic situations is
 > Zimbabwe: "On September 17, 2006, the governor of the RBZ, Gideon Gono, declared: '10 trillion is still out there, and it has become manure.'"
 
 3. Banknotes worth less than the paper they are printed on
-In certain economic circumstances, the intrinsic value of a banknote can become lower than the value of the paper it is printed on. This drastic depreciation turns banknotes, which are normally symbols of value and purchasing power, into mere pieces of worthless paper.
-> Weimar: "Entire denominations of marks banknotes were almost worthless as soon as they came out of the printing press."
+   In certain economic circumstances, the intrinsic value of a banknote can become lower than the value of the paper it is printed on. This drastic depreciation turns banknotes, which are normally symbols of value and purchasing power, into mere pieces of worthless paper.
+   > Weimar: "Entire denominations of marks banknotes were almost worthless as soon as they came out of the printing press."
 
 > Zimbabwe: "The central bank wasted money by printing a banknote that was not worth the paper it was printed on. In other words, its value was lower than that of toilet paper. As absurd as it may sound, it was cheaper to use the ZWD 100 trillion banknote as toilet paper than to buy actual toilet paper."
 
-![image](assets/chapitre-3.2/PN3.png)
+![image](assets/chapitre-3.2/PN3.PNG)
 
 4. Money Counting
 
 When currency rapidly loses its value, even the simplest transactions can become laborious tasks. Calculating the price of an item or simply counting the bills needed for payment can take several minutes, adding a layer of complexity to daily interactions.
+
 > Weimar: "The most ordinary purchase in a store required three or four minutes of calculation, and once the price was determined, several more minutes were usually needed to count the banknotes."
 
 > Zimbabwe: "Store managers were also allowed to hire a temporary worker to replace the staff member who counted money all day. Of course, counting money in-store for administration and bank deposit was one thing, but the whole process had to be repeated at the bank during the deposit."
@@ -521,9 +528,9 @@ Money counting technique from Uzbekistan
 5. Check Payments
 
 In disrupted economies, traditional payment methods like checks can quickly lose their effectiveness. Banks, overwhelmed by the increasing demand for currency due to hyperinflation, may ration or delay the cashing of checks, thereby reducing their real value. This instability often leads to a prioritization of payment methods, where prices can vary depending on how one chooses to pay.
+
 > Weimar: "Price increases intensified the demand for money, both by the state and other employers. Private banks could not meet the demand at all and had to ration the cashing of checks, so uncashed checks remained frozen while their purchasing power dwindled."
-Zimbabwe: "The time value of money has created three prices for goods and services; namely, a cash price, a real-time gross settlement price, and a check price. Eventually, no one accepted checks, which took five days to clear."
-6. The "Burner-preneurs"
+> Zimbabwe: "The time value of money has created three prices for goods and services; namely, a cash price, a real-time gross settlement price, and a check price. Eventually, no one accepted checks, which took five days to clear." 6. The "Burner-preneurs"
 
 As the value of the currency erodes, new economic opportunities emerge, exploiting market distortions. These entrepreneurs, often dubbed with inventive names like "Burner-preneurs," can thrive by borrowing devalued currency to invest in tangible assets, and then repaying their debts with even more devalued currency.
 
@@ -539,7 +546,7 @@ Weimar: "As the old virtues of thrift, honesty, and hard work lost their appeal,
 
 Zimbabwe: "These practices, while enriching a few individuals, impoverished the urban working class and the rural population. Education lost its value, as this trade was driven by people who did not need education or hard work to justify it. All they needed were connections and initial capital to start their easy money business."
 
-![image](assets/chapitre-3.2/5.png)
+![image](assets/chapitre-3.2/5.PNG)
 
 8. The "world banks"
 
@@ -563,7 +570,7 @@ Weimar: "Merchants had recently been forced by a new decree to accept state bank
 
 Zimbabwe: "The government introduced SI 175/2008 on December 12, 2008, regarding payment by checks. It stated, 'The penalty for refusing payment by check/bank card or any other bank-mediated electronic payment method shall be a level 8 fine or a prison sentence of six months or both.' Obviously, we ignored the SI because it was completely out of touch with reality."
 
-![image](assets/chapitre-3.2/4.png)
+![image](assets/chapitre-3.2/4.PNG)
 
 11. Forced to keep their shops open
 
@@ -579,8 +586,7 @@ In the face of a collapsing economy and pervasive regulations, the line between 
 
 Weimar: "All crimes against the state, each and every one of them, to varying degrees, became a matter of survival for individuals."
 
-Zimbabwe: "Every resident in Zimbabwe was a criminal. Harsh as it may sound, it was true. With the myriad of small laws governing every aspect of life, it was inevitable that everyone would break a law every day. Owning foreign currency was illegal, according to an SI published in 2004. Having multiple bank accounts to bypass the daily withdrawal limit was illegal. Not having the correct license plates on your car, or no car radio license or generator permit, were all laws that someone, somewhere, was breaking."
-13. Buying foreign currencies at any price
+Zimbabwe: "Every resident in Zimbabwe was a criminal. Harsh as it may sound, it was true. With the myriad of small laws governing every aspect of life, it was inevitable that everyone would break a law every day. Owning foreign currency was illegal, according to an SI published in 2004. Having multiple bank accounts to bypass the daily withdrawal limit was illegal. Not having the correct license plates on your car, or no car radio license or generator permit, were all laws that someone, somewhere, was breaking." 13. Buying foreign currencies at any price
 The frantic purchase of foreign currencies has often marked a critical turning point in currency devaluation, exacerbating the fall in intrinsic value.
 
 > Weimar: "Mannheimer, on the instructions of his boss, went out in August 1921 and started buying foreign currencies at any price - 'because Germany had an infinite amount of paper marks but no foreign currencies.' This was the first sign of the absolute collapse in the value of the mark."
@@ -589,7 +595,7 @@ The frantic purchase of foreign currencies has often marked a critical turning p
 
 ### Summary of the process
 
-![image](assets/chapitre-3.2/2.png)
+![image](assets/chapitre-3.2/2.PNG)
 
 When analyzing the economic trajectory, it is apparent that when high inflation is reached, the value of the monetary mass deteriorates. This devaluation leads to several complications, including a shortage of banknotes. In this context, arbitrage opportunities arise, especially with exchange rate fluctuations. As a result, many individuals turn to this arbitrage, investing heavily in tangible assets in anticipation of future currency devaluation that would allow them to repay their debts with a weakened currency. This economic environment undermines the appeal of traditional jobs and, consequently, erodes social cohesion.
 
@@ -597,7 +603,7 @@ In response to this situation, the government imposes draconian regulations, inc
 
 ### 4 Similarities in the consequences of hyperinflation
 
-![image](assets/chapitre-3.2/6.png)
+![image](assets/chapitre-3.2/6.PNG)
 
 1. Oil and metals
 
@@ -607,7 +613,7 @@ In the context of a deteriorating economy and scarcity of resources, governments
 > Weimar: "In Berlin, due to the scarcity of gasoline, a coupon system was implemented to regulate its distribution. Each citizen was assigned a specific amount of coupons that allowed them to purchase a limited quantity of fuel."
 
 > Zimbabwe: "During the fuel crisis, the government introduced a coupon system to manage the distribution of gasoline. Each individual was given a set number of coupons that could be exchanged for a certain amount of fuel."
-The populations are looking for stable alternatives for transactions. In Weimar, products such as brass and fuel served as means of exchange due to their constant intrinsic value. In Zimbabwe, facing the rapid devaluation of the Zimbabwean dollar, gasoline coupons, which represented a fixed quantity of an essential product, became a de facto currency. These situations highlight how societies adapt to extreme economic conditions, finding innovative solutions to keep trade and the economy moving.
+> The populations are looking for stable alternatives for transactions. In Weimar, products such as brass and fuel served as means of exchange due to their constant intrinsic value. In Zimbabwe, facing the rapid devaluation of the Zimbabwean dollar, gasoline coupons, which represented a fixed quantity of an essential product, became a de facto currency. These situations highlight how societies adapt to extreme economic conditions, finding innovative solutions to keep trade and the economy moving.
 
 Weimar: "Bartering was already a common form of exchange; but now, goods like brass and fuel became the common currency for purchase and payment."
 
@@ -629,7 +635,7 @@ In this chapter, we will explore the differences and contemporary parallels betw
 
 In Germany, it was common for the population to attribute inflation to the rise of the dollar rather than the intrinsic devaluation of their own currency. Many believed that the observed phenomenon was due to an appreciation of the dollar. This perception dismissed any recognition of the link between their economic difficulty and monetary devaluation, mainly induced by excessive money creation. The book "When Money Dies" clearly illustrates this lack of understanding among the German population. In contrast, in Zimbabwe, the situation was different: citizens were fully aware of the underlying cause of the hyperinflation they were experiencing.
 
-![image](assets/chapitre-3.3/3.png)
+![image](assets/chapitre-3.3/3.PNG)
 
 2. Necessity currency (Notgeld)
 
@@ -659,11 +665,12 @@ In Weimar, some debts were revalued to compensate for the impact of inflation. T
 
 To learn more about the management of the German crisis, this book is also essential.
 
-![image](assets/chapitre-3.3/4.png)
+![image](assets/chapitre-3.3/4.PNG)
 
 ### Contemporary Parallels
+
 1. Manipulation of monetary policy to control the economy.
-In the history of the Weimar Republic, it is evident that industrialists were reluctant to see the appreciation of the Mark. Their ability to borrow and repay their debts with a heavily depreciated currency gave them a considerable advantage. This mechanism facilitated the construction of huge industrial complexes at almost no cost. These industrialists feared an appreciation of the Mark as it hindered their activities. Some even saw rampant inflation as a good thing, believing it guaranteed employment for the population. However, they did not realize the detrimental impact of this inflation on savings and the economy in general. For these economic actors, monetary printing was a blessing.
+   In the history of the Weimar Republic, it is evident that industrialists were reluctant to see the appreciation of the Mark. Their ability to borrow and repay their debts with a heavily depreciated currency gave them a considerable advantage. This mechanism facilitated the construction of huge industrial complexes at almost no cost. These industrialists feared an appreciation of the Mark as it hindered their activities. Some even saw rampant inflation as a good thing, believing it guaranteed employment for the population. However, they did not realize the detrimental impact of this inflation on savings and the economy in general. For these economic actors, monetary printing was a blessing.
 
 > Weimar: "This is why an appreciation of the mark was greatly feared, and even the few weeks of 'stability' after Genoa caused a stagnation of business."
 
@@ -682,15 +689,15 @@ The history of the Weimar Republic reveals that during this period, assets and c
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Approximately $300 billion of Russian reserves held abroad have indeed been frozen as part of Western sanctions, out of the $640 billion in reserves held by the Russian Central Bank."
 
 3. The concept of market prices.
-> Weimar : "Les entreprises zombies"
+   > Weimar : "Les entreprises zombies"
 
 > Contemporary: "Les entreprises zombies"
-Weimar: "Stabilization put an end to the period when entrepreneurs could borrow as much as they wanted at the expense of everyone else. A large number of companies, created or developed during the monetary abundance, quickly became unproductive when capital became scarce."
-A zombie company is a company that, under normal market conditions, would be insolvent or close to bankruptcy, but continues to operate mainly through low-cost borrowing. These companies earn just enough money to cover their debts but are unable to grow significantly.
+> Weimar: "Stabilization put an end to the period when entrepreneurs could borrow as much as they wanted at the expense of everyone else. A large number of companies, created or developed during the monetary abundance, quickly became unproductive when capital became scarce."
+> A zombie company is a company that, under normal market conditions, would be insolvent or close to bankruptcy, but continues to operate mainly through low-cost borrowing. These companies earn just enough money to cover their debts but are unable to grow significantly.
 
 The concept of zombie companies is not new. In fact, it was present in the Weimar Republic. At that time, many companies appeared to be flourishing, benefiting greatly from access to free credit. They borrowed considerable sums, with the prospect of repaying later with a depreciated currency due to rampant inflation. However, when inflation stopped and the German mark regained value, these companies, which were not truly viable in operational and financial terms, became unprofitable and had to close their doors.
 
-![image](assets/chapitre-3.3/5.png)
+![image](assets/chapitre-3.3/5.PNG)
 
 The phenomenon of zombie companies is not limited to the post-war history of Germany. Even today, many large companies survive thanks to privileged access to very low-interest credit. If they had to borrow at more conventional rates, many of them would cease to be profitable. This is particularly relevant as we are in 2023, and after a long period of near-zero interest rates, they have started to rise. This recent development in the financial landscape will undoubtedly be a decisive test for these companies that were once called "zombies".
 
@@ -703,7 +710,7 @@ Throughout history, there have been moments when individuals seek to get rich qu
 6. Savings, the remedy against uncertainty
 
 > the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future.
-It is interesting to highlight a quote that emphasizes the destructive effect of the erosion of the value of capital on social cohesion, as well as the uncertainty it generates. It says: "the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future."
+> It is interesting to highlight a quote that emphasizes the destructive effect of the erosion of the value of capital on social cohesion, as well as the uncertainty it generates. It says: "the invasive and destructive influence of the constant erosion of the value of capital and income, as well as uncertainty about the future."
 
 Imagine a scenario where you have a family or loved ones that you want to protect. You work hard, save money, to anticipate future uncertainties. If everything was predictable, saving would be useless. But in the face of the unexpected, like a broken-down car, savings become a lifeline. It reduces the uncertainty of the world. However, in a period of hyperinflation, saving becomes a challenge. Money quickly loses its value, making long-term planning difficult. This financial instability can cause stress and anxiety.
 
@@ -735,6 +742,7 @@ Before 1826, Argentina used the Spanish dollar. After its independence in 1816, 
 
 Brazil is an emblematic case of monetary redenomination, as illustrated by its history of currency changes. Before its independence, Brazil used the Portuguese real. However, as early as 1747, the country began using its own "Brazilian real," long before its declaration of independence in 1822. The table starts in 1818, marking the beginning of the issuance of Brazilian banknotes. Before that, the currency was mainly in the form of coins. These banknotes reached values of up to one million reals.
 Starting from 1942, Brazil began a series of redenominations. In most cases (1942, 1967, 1986, 1989, 1993), the conversion rate was 1,000 to 1. In 1990, a name change without conversion took place. The sequence of these currencies is as follows:
+
 - Réals (old version) until 1942.
 - Cruzeiros in 1942.
 - Cruzeiros (new version) in 1967.
@@ -776,6 +784,7 @@ Examining the redenomination periods, 1988 is considered a year of hyperinflatio
 
 ![image](assets/chapitre-3.4/5.PNG)
 Nicaragua, formerly under Spanish rule, initially used the Spanish dollar, like many other countries colonized by Spain. After being integrated into the Spanish Empire, the Mexican Empire, and then the Federal Republic of Central America, Nicaragua declared its independence. Starting in 1878, the peso became the country's official currency, with values fluctuating between 1 and 100. In 1912, the country introduced the first Cordoba, followed by the second in 1988 and the third in 1991, which is still in use today. The first Cordoba reached a value of 1 million, and the second 10 million. The redenomination in 1991 followed several years of hyperinflation.
+
 ### Venezuela
 
 ![image](assets/chapitre-3.4/6.PNG)
@@ -798,7 +807,7 @@ Following the adoption of a floating exchange rate in 1983, several redenominati
 
 - In 2008: the bolivar fuerte, or "strong bolivar," was introduced, reaching up to 100,000 before a redenomination of one thousand to one.
 - In 2018: the Soberano was introduced with bills reaching 1 million. In 2021, it was replaced by the digital bolivar, which also reached one million, before a new redenomination of one million to one. Today, the 10 or 20 bill is equivalent to 10 million or 20 million in Soberano.
-Bills from this period, dating back to 2018, are distributed at various Bitcoin conferences in Biarritz, Toronto, and Miami. These Soberano bills reached a maximum value of 1 million. A redenomination then took place, reducing the value of one million to about 3 cents. Currently, 10 bills of 1 million correspond to one 10 bill. Since 2016, Venezuela has been experiencing hyperinflation, representing the 57th period in a specific table.
+  Bills from this period, dating back to 2018, are distributed at various Bitcoin conferences in Biarritz, Toronto, and Miami. These Soberano bills reached a maximum value of 1 million. A redenomination then took place, reducing the value of one million to about 3 cents. Currently, 10 bills of 1 million correspond to one 10 bill. Since 2016, Venezuela has been experiencing hyperinflation, representing the 57th period in a specific table.
 
 In the next video, a collection of hyperinflation bills will be presented, focusing on Venezuela and other listed countries. This collection contains almost all Venezuelan bills. The study will focus on the different redenominations for each mentioned country. In addition, there will be an exploration of redenominations in Zimbabwe, a topic of notable interest.
 
@@ -813,6 +822,7 @@ In conclusion, hyperinflation is just one aspect of economic challenges. High in
 ## 3.5 - How to overcome hyperinflation
 
 ### How to end moderate and high inflation
+
 The conclusions mentioned are drawn from the book "Monetary Regime and Inflation" by Bernold. According to Bernold, the only method to end inflation is to carry out a monetary reform and impose restrictions on the government. These restrictions involve the establishment of an institution, such as a central bank, that operates independently from the government's political decisions. High and hyperinflation are often the result of financing budget deficits through monetary creation. To address moderate inflation, it is essential to decrease the growth of the money supply. Bernold also suggests that this monetary growth should be relative to neighboring countries. A surprising point is that, during periods of high or hyperinflation, the total value of the money supply can actually decrease. A striking example of this situation is Zimbabwe.
 
 ### Counterintuitive Solutions
@@ -825,6 +835,7 @@ An interesting aspect raised by Bernold is that the success of a monetary reform
 
 - In Zimbabwe, the solution adopted to counter inflation was dollarization, which means they adopted the US dollar or other currencies from neighboring countries. This approach prevents the government from printing money at will.
 - In Germany, the solution was to create a new currency, the Rentenmark. This currency was backed by the Reich's territorial assets, and this strategy proved to be effective.
+
 ### The case of Zimbabwe
 
 ![image](assets/chapitre-3.5/1.PNG)
@@ -833,7 +844,7 @@ Zimbabwe gained independence in 1980 and introduced the Zimbabwean dollar. Initi
 
 In 2006, the country introduced a new version of its currency, the ZWN, with an exchange rate of 1 to 1,000. In 2008, another denomination, the ZWR, was introduced with an exchange rate of 1 to 10 billion. This led to the creation of the iconic 100 trillion banknotes.
 
-![image](assets/chapitre-3.5/2.png)
+![image](assets/chapitre-3.5/2.PNG)
 
 #### Dollarization & Crisis Resolution
 
@@ -843,6 +854,7 @@ However, dollarization is not a miracle solution. Although it can end hyperinfla
 
 In 2007, Zimbabwe's inflation rate reached the threshold of 50% per month, officially marking the country as being in hyperinflation. After dollarization in 2009, hyperinflation ceased, but the country faced other economic challenges.
 It is concerning to note that Zimbabwe has since attempted to reintroduce its own currency, and signs of high inflation have reappeared. According to certain international organizations, the country may already meet the criteria for hyperinflation again, even if it has not yet reached the official threshold of 50% per month. This serves as a reminder of the dangers of excessive money issuance and central bank deficit financing.
+
 ## Conclusion
 
 In my book titled "Everything About Bitcoin," I dedicated an entire chapter to hyperinflation in Zimbabwe. I detail the significant events, providing various examples illustrating how the country ultimately put an end to hyperinflation.
@@ -907,12 +919,13 @@ After the Antwerp Stock Exchange, a major milestone was the founding of the VOC,
 After the creation of the VOC, another significant element in monetary history was the introduction of gold coins by the Bank of Amsterdam. These coins, dating back to 1722, were made of silver. However, what truly revolutionized finance at that time was not so much the coin itself, but the accounts associated with this currency at the Bank of Amsterdam. These accounts became the primary means of international exchange. Transactions were simply recorded in registers or ledgers. Thanks to this system, Amsterdam became the global economic center. Over time, the Bank of Amsterdam decided to impose the use of these accounts. Independent money changers were required to exchange their coins for deposits at the bank every day.
 
 #### Creation of the Bank of England to finance the war
+
 The creation of the Bank of England was motivated by the need to finance the war at the end of the 17th century. Like the Bank of Amsterdam, it imposed deposits by decree. The particularity of the Bank of England was to relegate private banks to a secondary position in the monetary system, thus creating what could be called a "third layer" of currency.
 Initially, the first layer of currency was represented by gold. Deposits made with private banks formed the second layer. However, when these deposits could no longer be converted into gold, a third layer of currency appeared. From then on, the notes issued by private banks were no longer convertible into gold but into paper currency from the Bank of England, which itself was convertible into gold. This evolution led to a complexification of the monetary system with the addition of additional layers.
 
 #### The Panic of 1796
 
-![image](assets/chapitre-4.1/6.png)
+![image](assets/chapitre-4.1/6.PNG)
 Bank panic at Seamen's Savings Bank during the Panic of 1857.
 
 Following the bank panic of 1796, a phenomenon occurred where everyone tried to move up the "money pyramid". People wanted to exchange their third-layer currency for second-layer currency, and ultimately for first-layer currency, gold. Faced with this massive rush, the Bank of England was forced to take action to stabilize the situation. To prevent a potential deflation of gold reserves, it decided to suspend the convertibility of its banknotes into gold. This suspension, initially intended as a temporary measure, lasted for a period of two decades.
@@ -924,6 +937,7 @@ Central banks have evolved to become lenders of last resort, suspending the conv
 ## Books and Resources
 
 Hyperinflation is a fascinating subject that has been studied through various historical events. If you wish to delve deeper into this topic, here is a list of 10 essential resources to read and study:
+
 - "When Money Dies: The Nightmare of Deficit Spending, Devaluation, and Hyperinflation in Weimar Germany" by Adam Fergusson. This book details the hyperinflation crisis in Germany after World War I.
 
 - "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany" by Costantino Bresciani-Turroni. An in-depth analysis of German hyperinflation in the 1920s.

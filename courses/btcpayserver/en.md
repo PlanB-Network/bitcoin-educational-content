@@ -709,8 +709,177 @@ Connecting the internal Lightning Node fails - If the internal connection fails,
 1. The Bitcoin on-chain node is fully synchronized
 2. The Internal lightning node is "Enabled" under "Lightning" > "Settings" > "BTC Lightning Settings"
 
-If you are unable to connect to your Lightning node, try restarting your server, or read for more details on BTCPay Server official documentation; https:// docs.btcpayserver.org/Troubleshooting/ . You cannot accept lightning payments in your store until your Lightning node appears "Online". Try to test your Lightning connection by clicking the "Public Node Info" link
+If you are unable to connect to your Lightning node, try restarting your server, or read for more details on BTCPay Server official documentation; https://docs.btcpayserver.org/Troubleshooting/ . You cannot accept lightning payments in your store until your Lightning node appears "Online". Try to test your Lightning connection by clicking the "Public Node Info" link
+
+## Lightning wallet
+
+![image](assets/en/32.png)
+
+### Lightning
+
+Within the Lightning wallet option in the left menu bar, server administrators will find easy access to RTL, their Public node Info, and Lightning settings specific to their BTCPay Server store.
+
+### Internal node info
+
+Server administrators can click on the internal node info and glance at their server status ( Online/ Offline) and connection string for Clearnet or Tor.
+
+### Change connection.
+
+If the store owner decides to use
+changed within the Lightning Settings - Change connection. Next to the Public Node info store, owners can find this option. It will bring back the initial setup for the external lightning node connection, fill out the new Lightning node information, click save, and update the store with the new node information.
+
+![image](assets/en/33.png)
+
+### Services
+
+If the server administrator decides to install multiple services for the Lightning implementation, they will be listed here. With a standard LND implementation, administrators will have Ride The Lightning (RTL) as a standard tool for node management.
+
+### BTC Lightning wallet settings
+
+After adding the Lightning node to the store in a prior step, within the settings of the Lightning wallet, store owners can still choose to deactivate it for their store by using the Toggle at the top of Lightning settings.
+
+![image](assets/en/34.png)
+
+### Lightning Payment options.
+
+Store owners can set parameters for the following to enhance the Lightning experience for their customers.
+
+- Display Lightning payment amounts in Satoshis.
+- Add hop hints for private channels to the Lightning invoice.
+- Unify on-chain and Lightning payment URL/QR codes at checkout.
+- Set a description template for lightning invoices.
+
+### LNURL
+
+Store owners can choose to either use or not use LNURL. A Lightning Network URL, or LNURL, is a proposed standard for interactions between Lightning Payer and payee. In short, an LNURL is a bech32 encoded url prefixed with lnurl. The Lightning wallet is expected to decode the URL, contact the URL, and await a JSON object with further instructions, most notably a tag defining the behavior of the knurl.
+
+- Enable LNURL
+- LNURL Classic Mode
+    - For wallet compatibility, Bech32 encoded(classic) vs cleartext URL(upcoming)
+- Allow the payee to pass a comment.
+
+## Example 1
+### Connect to Lightning with the internal node (Administrator).
+
+This option is only available if you are the Administrator of this instance or if the Administrator has changed the default settings where users can use the internal lightning node.
+
+As an administrator, click on the Lightning Wallet in the left menu bar. BTCPay Server will ask to use one of two options for connecting a Lightning Node, an Internal node, or a custom external node. Click on Use internal node and click on save.
+
+### Managing your Lightning node (RTL)
+
+After connecting to the internal lightning node, BTCPay Server will update and show a notification “BTC Lightning node updated, “confirming you have now connected Lightning to your store.
+
+Managing the lightning node is a task for the Administrator of the server. This involve.
+
+- Manage transaction
+- Managing liquidity
+    - Inbound liquidity
+    - Outbound liquidity
+- Managing peers and channels
+    - Connected peers
+    - Channel fees
+    - Channel status
+- Making frequent backups of the channel states.
+- Checking routing reports
+- Alternatively, use services such as Loop.
+
+All lightning node management is as standard done with RTL (assuming you are running on a LND implementation). Administrators can click on their Lightning Wallet in BTCPay Server and find a button to open RTL. The main Dashboard of BTCPay Server is now updated with the Lightning Network Tiles, including quick access to RTL.
+
+## Example 2
+### Connect to lightning with Alby.
+
+When connecting with a custodian like Alby, store owners should first create an account, visit: https://getalby.com/
+
+![image](assets/en/35.png)
+
+After creating the Alby account, go to your BTCPay Server store.
+
+Step 1: Click ‘Set up a Lightning node’ on the Dashboard or ‘Lightning’ underneath wallets.
+
+![image](assets/en/36.png)
+
+Step 2. Insert your Wallet connection credentials provided by Alby. On the Dashboard of, Alby, click on Wallet. Here you will find “Wallet Connection Credentials.” Copy these credentials. Paste the credentials from Alby into the Connection configuration field in BTCPay Server.
+
+![image](assets/en/37.png)
+
+Step 3; After providing BTCPay Server with the Connection details, click the “Test Connection “button to ensure the connection is working properly. Notice the “Connection to lightning node successful” message at the top of your screen. This confirms that everything works in order.
+
+![image](assets/en/38.png)
+
+Step 4; Click save, and your store is now connected with a lightning node by Alby.
+
+![image](assets/en/39.png)
+
+**!Note!**
+
+Never trust a custodian Lightning solution to more value than you are willing to lose.
+
+## Skill Summary:
+
+In this section you learned:
+
+- How to connect an internal or external Lightning node
+- The contents and function of various Lightning-related tiles in the Dashboard
+- How to configure Lightning wallet using Voltage Surge or Alby
+
+## Knowledge assessment;
+
+### KA 3.4.1 Practical Review
+
+Describe some of the various options for connecting a Lightning wallet to your store: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Objective 4: BTCPay Server Interface
+
+**Dashboard overview**
+
+**BTCPay Server Store settings**
+
+**BTCPay Server Server settings**
+
+**BTCPay Server Payments**
+
+## Dashboard overview
+
+BTCPay Server is a modular software package. However, there are standards that every BTCPay Server will have and the Administrator/users will interact with. Starting with the Dashboard. The main entry point of every BTCPay Server after logging in. The Dashboard gives an overview of how your store is performing, the wallet's current balance, and the last tx’s in the past 7 days. As it is a modular view, Plugins may utilize this view for their benefit and create their tiles on the Dashboard. For this course book, we will only talk about standard plugins/ apps and their respective views throughout BTCPay Server.
+
+## Dashboard Tiles
+
+Within the main view of the BTCPay Server dashboard are a couple of standard tiles available. These tiles are meant for the Store owner or Administrator to manage his store in one overview quickly.
+
+- Wallet balance
+- Transaction activity
+- Lightning Balance (if Lightning is enabled on
+the store)
+- Lightning Services (if Lightning is enabled on
+the store)
+- Recent transactions.
+- Recent Invoices
+- Current active Crowdfunds
+- Store performance / top-selling items.
+
+## Wallet balance
+
+The Wallet Balance tile gives a quick overview of your wallet’s funds and performance. It can be viewed in either BTC or Fiat currency in a Weekly, monthly, or yearly graph.
+
+![image](assets/en/40.png)
+
+## Transaction activity.
+
+Next to the Wallet Balance tile, BTCPay Server shows a quick overview of Payouts pending, the amount of Transactions in the last 7 days, and if your store has issued any refunds. Clicking on the Manage button brings you into management for pending payouts (learn more about payouts in objective (4.4) ).
+
+![image](assets/en/41.png)
+
+## Lightning Balance ( Only visible when Lightning is activated )
+
+When the Administrator has allowed Lightning network access, BTCPay Server dashboard now has a new tile with your Lightning node information. How much BTC is in channels, how this is balanced local or remote (inbound or outbound liquidity) if channels are closing or opening, and how much bitcoin is held on-chain on the lightning node.
+
+![image](assets/en/42.png)
+
+## Lightning Services ( Only visible when lightning is active )
+
+Next to seeing your Lightning balance on BTCPay Server dashboard, administrators will also see the tile for Lightning Services. Here administrators can find quick buttons for tools they use to manage their Lightning node; for example, Ride the Lightning is one of the standard tools with BTCPay Server for Lightning node management.
+
+![image](assets/en/43.png)
+
 # Objective 5: BTCPay Server Default Plugins
 # Objective 6: Configuring BTCPay Server 

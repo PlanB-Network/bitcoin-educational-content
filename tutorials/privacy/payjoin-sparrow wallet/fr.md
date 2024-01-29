@@ -14,7 +14,7 @@ Comme évoqué précédemment, Samourai Wallet propose un outil de PayJoin déno
 
 Stowaway s'appuie sur une catégorie de transactions que Samourai nomme les « _Cahoots_ ». Un Cahoot est en fait une transaction collaborative entre plusieurs utilisateurs, nécessitant un échange d'informations hors de la blockchain Bitcoin. À ce jour, Samourai propose deux outils de Cahoots : Stowaway (les Payjoins) et StonewallX2 (que nous découvrirons dans un prochain article).
 
-Les transactions Cahoots requièrent des échanges de transactions partiellement signées entre utilisateurs. Ce processus peut s'avérer long et contraignant, particulièrement à distance. Néanmoins, il reste réalisable manuellement avec un autre utilisateur, ce qui est pratique si les collaborateurs sont physiquement proches. En pratique, cela implique l'échange manuel de cinq codes QR à scanner successivement.
+Les transactions Cahoots requièrent des échanges de transactions partiellement signées entre les utilisateurs. Ce processus peut s'avérer long et contraignant, particulièrement quand on est à distance. Néanmoins, il reste réalisable manuellement avec un autre utilisateur, ce qui peut être pratique si les collaborateurs sont physiquement proches. En pratique, cela implique l'échange manuel de cinq codes QR à scanner successivement.
 
 À distance, ce procédé devient trop complexe. Pour résoudre ce problème, Samourai a mis au point un protocole de communication chiffré basé sur Tor, baptisé « _Soroban_ ». Avec Soroban, les échanges nécessaires à un Payjoin se font automatiquement, derrière une interface utilisateur conviviale. C'est cette seconde méthode que nous allons étudier dans cet article.
 
@@ -48,20 +48,6 @@ Une fois le Paynym du destinataire connecté à votre Paynym, vous pouvez effect
 
 ## Comment faire un Payjoin sur Sparrow Wallet ?
 
+Si vous avez réalisé ces quelques étapes préalables, vous êtes enfin prêt pour réaliser la transaction Payjoin ! Pour ce faire, suivez notre tutoriel vidéo :
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Tutoriel Payjoin - Sparrow Wallet](https://youtu.be/ZQxKod3e0Mg)

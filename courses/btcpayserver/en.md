@@ -1086,5 +1086,226 @@ When the role gets created, the name is fixed and cannot be changed after in the
 
 ![image](assets/en/59.png)
 
+## BTCPay Server Store settings - Webhooks
+
+Within BTCPay Server, it's reasonably easy to make a new “Webhook”. In the BTCPay Server Store settings - Webhooks tab, a store owner can easily create a new webhook by clicking on the “ + Create Webhook”. Webhooks allow BTCPay Server to send HTTP events related to your store to other servers or ecommerce integrations.
+
+![image](assets/en/60.png)
+
+You're now in the view for creating a Webhook. Make sure you know your Payload URL and paste this into your BTCPay Server. While you pasted the payload URL, underneath it shows the webhook secret. Copy the webhook secret and provide it on the endpoint. When everything has been set, you can toggle in BTCPay Server to Automatical redelivery. We will try to redeliver any failed delivery after 10 seconds, 1 minute, and up to 6 times after 10 minutes. You can toggle between every event or specify the events for your needs. Be sure to enable the webhook and hit the Add webhook to save it.
+
+![image](assets/en/61.png)
+
+Webhooks are not meant to be compatible with Bitpay API. There's two separate IPNs (in BitPay terms: "Instant Payment Notifications") in BTCPay Server.
+- Webhookp
+- Notifications
+
+Only use Notification URL when you create invoices through Bitpay api.
+
+## BTCPay Server Store settings - Payout Processors
+
+Payout processors work together with the Payouts concept in BTCPay Server. A payout aggregator to batch multiple transactions and send them at once; learn more about payouts in objective (4.4). With payout processors, a store owner can automate the batched payouts. BTCPay Server provides two methods of automated payouts, On-chain and Off- chain (LN).
+
+The store owner can click and configure both payout processors separately. A store owner might only want to run the on-chain processor once every X hours, whereas off-chain might go every few minutes. For On-chain, you may also set a target for which block it should be included. Per default, this is set to 1 (or the next block available). Notice that setting the Off-chain payout processor only has the interval timer and no block target. Lightning network payments are instant.
+
+![image](assets/en/62.png) ![image](assets/en/63.png)
+
+Store owners can only configure the on-chain processor if they have a Hot-wallet connected to their store.
+
+![image](assets/en/64.png)
+
+After setting up a Payout processor, you can quickly remove or modify it by returning to the Payout processor tab in BTCPay Server Store settings.
+
+**!?Note!?**
+
+Payout processor on-chain - The onchain payouts processor can only work on a store configured with a Hot wallet connected. If there is no hot wallet connected, BTCPay Server does not hold the keys to the wallet and won’t be able to automatically process the payouts.
+
+## BTCPay Server Store settings - Emails
+
+BTCPay Server can use Emails for Notifications or, when set correctly, to recover accounts that were made on the instance, as standard BTCPay Server does not send an email when the password is lost, for example.
+
+![image](assets/en/65.png)
+
+Before a store owner can set Email rules to fire off on specific events of his store, we have to set up some basic email settings. BTCPay Server needs these settings to send emails for events based on your store or for password resets.
+
+BTCPay Server made it easier to fill out this information by using the “Quick Fill” Option0
+- Gmail.com
+- Yahoo.com
+- Mailgun
+- Office365
+- SendGrid
+
+By using the quick fill option, BTCPay Server will pre-populate the fields for the SMTP server and port; now, the store owner only needs to fill out his credentials in an Email address, Login (which is usually equal to your email address), and your password. The advanced option BTCPay Server offers in the email settings is to Disable TLS Certificate security checks; by default, this is Enabled.
+
+![image](assets/en/66.png)
+
+With Email rules, a store owner can set specific events to trigger emails to specific email addresses.
+- Invoice Created
+- Invoice Received Payment
+- Invoice Processing
+- Invoice Expired
+- Invoice Settled
+- Invoice Invalid
+- Invoice Payment Settled
+
+If the customer has provided an Email address, these triggers can also send the information to the customer. Store owners can pre-fill the Subject line to make clear why this Email happened and what trigger caused it.
+
+![image](assets/en/67.png)
+
+## BTCPay Server Store settings - Forms
+
+As BTCPay Server does not gather any data, a store owner might want to add a custom form to their checkout experience; this way, the store owner can gather additional information from his customer. BTCPay Server Form builder consists of two parts, a visual and more advanced code view of the forms.
+
+When creating a new form, BTCPay Server opens a new window requesting basic information on what you want your new form to request. At first, the store owner needs to give a clear name to their new form, this name CANNOT be changed after setting it.
+
+![image](assets/en/68.png)
+
+After the store owner gives the form a name, you may also toggle the switch for “Allow form for public use “to ON, and it becomes green. This is so the form gets used in every customer-facing place. For example, if a store owner creates 1 separate invoice not through his Point Of Sale, he might still want to gather the info from the customer; this toggle to ON allows for that info to be gathered.
+
+![image](assets/en/69.png)
+
+Every form starts with at least 1 New form field. A store owner can pick what the type of field should be;
+
+- Text
+- Number
+- Password
+- Email
+- URL
+- Telephone numbers
+- Date
+- Hidden fields
+- Fieldset
+- A text area for open comments.
+- Option selector
+
+Every type comes with its parameters to fill. The store owner can set it to his liking. Below the first created field, store owners can keep adding new fields to this one form.
+
+![image](assets/en/70.png)
+
+### Advanced custom forms.
+
+BTCPay Server also allows you to build Forms in code. JSON, in particular. Instead of looking at the editor, store owners can click on the CODE button right next to the editor and get into the code of their Forms. In a field definition, only the following fields can be set; the values of the fields are stored in the metadata of the invoice:
+
+|      Field       | Description                                          |
+| ---------------- | ---------------------------------------------------- |
+| .fields.constant | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)  |
+| .fields.type | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel|
+| .fields.options | If .fields.type is select, the list of selectable values     |
+| .fields.options.text  | The text displayed for this option |
+| .fields.options.value | The value of the field if this option is selected|
+| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)|
+| .fields.name| The JSON property name of the field as it will appear in the invoice's metadata|
+| .fields.value | The default value of the field|
+| .fields.required| if true, the field will be required|
+| .fields.label |The label of the field|
+| .fields.helpText | Additional text to provide an explanation for the field.|
+| .fields.fields | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address.|
+
+The field name represents the JSON property name that stores the user- provided value in the invoice’s metadata. Some well-known names can be interpreted and modify the invoice’s settings.
+
+|    Field name    | Description            |
+| ---------------- | ---------------------- |
+| invoice_amount   | The invoice's amount   |
+| invoice_currency | The invoice's currency |
+
+You can pre-fill the fields of an invoice automatically by adding query strings to the form’s URL, such as “?your_field=value”.
+
+Here are some use cases for this feature:
+- Assisting user input: Pre-fill fields with known customer information to make it easier for them to complete the form. For example, if you already know a customer’s email address, you can pre-fill the email field to save them time.
+- Personalization: Customize the form based on customer preferences or segmentation. For instance, if you have different customer tiers, you can pre-fill the form with relevant data, such as their membership level or specific offers.
+- Tracking: Track the source of customer visits using hidden fields and pre-filled values. For example, you can create links with pre-filled utm_media values for each marketing channel (e.g., Twitter, Facebook, Email). This helps you analyze the effectiveness of your marketing efforts.
+- A/B testing: Pre-fill fields with different values to test different form versions, enabling you to optimize the user experience and conversion rates.
+
+## Skill Summary:
+
+In this section, you learned the following:
+- The layout and functions of the tabs in the Store Settings
+- A multitude of options for fine-tuning the handling of underlying exchange rates, partial payments, slight underpayments, and more.
+- Customize the checkout appearance, including price-dependent main chain vs. Lightning enablement on invoices.
+- Manage levels of store access and permissions across roles.
+- Configure automated emails and their triggers
+- Create custom forms for gathering additional customer information at checkout.
+
+## Knowledge assessment;
+### KA 4.2.1 Review
+
+What is the difference between Store Settings and Server Settings: __________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### KA 4.2.2 Hypothetical
+
+Describe some options you might select in Checkout Appearance > Invoice Settings, and why: ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## BTCPay Server - Server settings
+
+BTCPay Server consists of two different settings views. One is dedicated to Store settings and another for Server settings. The latter is only available if you are a Server administrator and not for store owners. Server administrators can add users, create custom roles, configure the email server, set policies, run maintenance tasks, check all services attached to BTCPay Server, upload files to the server, or check Logs.
+
+## BTCPay Server settings - Users
+
+As mentioned in objective (2.1, Account creation by Server administrator), Server Administrators can invite users to their server by adding them to the Users tab.
+
+## BTCPay Server settings - Server wide custom Roles
+
+BTCPay Server knows two sorts of custom roles, the store-specific custom roles (objective 4.2 BTCPay Server Store settings - Roles) and server-wide Custom roles in the BTCPay Server settings. Both hold a similar set of permissions; however, if set through the BTCpay Server Settings - Roles tab, the applied role will be server-wide and apply to multiple stores. Notice a “Server-wide” tag to the custom roles in Server settings.
+
+![image](assets/en/71.png)
+
+## BTCPay Server Server settings - Server wide custom Roles
+
+Server-wide custom roles permission set;
+- Modify your stores.
+- Manage exchange accounts linked to your stores.
+    - View exchange accounts linked to your stores.
+- Manage your pull payments.
+- Create pull payments.
+    - Create non-approved pull payments.
+- Modify invoices.
+    - View invoices.
+    - Create an invoice.
+    - Create invoices from the lightning nodes associated with yourstores.
+- View your stores.
+    - View invoices.
+    - View your payment requests.
+    - Modify stores’ webhooks.
+- Modify your payment requests.
+    - View your payment requests.
+- Use the lightning nodes associated with your stores.
+    - View the lightning invoices associated with your stores.
+    - Create invoices from the lightning nodes associated with your stores.
+- Deposit funds to exchange accounts linked to your stores.
+- Withdraw funds from exchange accounts to your store.
+- Trade funds on your store’s exchange accounts.
+
+**!?Note!?**
+
+When the role gets created, the name is fixed and cannot be changed after in the edit mode.
+
+## BTCPay Server settings - Email
+
+The Server-wide Email settings look similar to those in the Store-specific email settings (objective 4.2 BTCPay Server Store settings - Emails). However, this setup handles not only triggers for stores or administrator logs. This Email setup also makes password recovery available on BTCPay Server at Login. It works similarly to the Store-specific settings; administrators can Quickly fill in their Email parameters and enter their email credentials, and the server can now send emails.
+
+![image](assets/en/72.png)
+
+## BTCPay Server settings - Policies
+
+BTCPay Server policy administrators can set some settings on topics like Existing User settings, New Users Settings, Notifications settings, and Maintenance settings. These are meant for registering new users as admin or normal users or even hiding BTCPay Server from search engines by adding to your server header.
+
+![image](assets/en/73.png)
+
+### Existing user Settings
+
+The options available here are separate from custom roles. These extra permissions might make a store or store owner vulnerable to attacks. Policies that may be added to existing users:
+- Allow non-admins to use the internal Lightning node in their stores.
+    - This would allow store owners to use the server Administrator’s Lightning node and, therefore, his funds! Beware, this is not a solution to giving access to Lightning.
+- Allow non-admins to create hot wallets for their stores.
+    - This would allow anyone with an account on your BTCPay Server instance to create Hot-wallets and store their recovery seed on the Administrator’s server. This might make the Administrator liable for holding third party their funds!
+- Allow non-admins to import hot wallets for their stores.
+    - Similar to the previous topic of creating Hot wallets, this policy allows importing a hot wallet, with the same dangers mentioned in the creating hot wallets section.
+
+![image](assets/en/74.png)
+
+### New user settings 
+
+We can set some important settings to manage new users coming to the server. We can set a confirmation email for new registrations, Disable new user creation through the login screen, and restrict non-admins access to user creation over the API.
+
 # Objective 5: BTCPay Server Default Plugins
 # Objective 6: Configuring BTCPay Server 

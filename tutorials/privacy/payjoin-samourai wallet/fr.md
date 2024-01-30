@@ -6,7 +6,7 @@ description: Comment faire une transaction Payjoin sur Samourai Wallet ?
 
 > *"Force blockchain spies to rethink everything they think they know."*
 
-Le Payjoin est une structure spécifique de transaction Bitcoin qui permet d'améliorer la confidentialité des utilisateurs lors d'une dépense en collaborant avec le destinataire du paiement. Il existe plusieurs implémentations qui permettent de faciliter la mise en place d'un PayJoin et d'automatiser son opération. Parmi ces implémentations, la plus connue est Stowaway développée par les équipes de [Samourai Wallet](https://samouraiwallet.com/stowaway). Ce tutoriel est destiné à vous guider dans la réalisation d'une transaction Payjoin Stowaway via l'application Samourai Wallet.
+Le Payjoin est une structure spécifique de transaction Bitcoin qui permet d'améliorer la confidentialité des utilisateurs lors d'une dépense en collaborant avec le destinataire du paiement. Il existe plusieurs implémentations qui permettent de faciliter la mise en place d'un PayJoin et d'automatiser son opération. Parmi ces implémentations, la plus connue est Stowaway développée par les équipes de [Samourai Wallet](https://samouraiwallet.com/stowaway). Ce tutoriel vous explique comment réaliser une transaction Payjoin Stowaway via l'application Samourai Wallet.
 
 ## Comment fonctionne Stowaway ?
 
@@ -27,7 +27,7 @@ Pour faire simple, un Paynym est un identifiant unique lié à votre portefeuill
 - _Payjoin_ = Structure spécifique de transaction collaborative ;
 - _Stowaway_ = Implémentation de Payjoin disponible sur Samourai et Sparrow Wallet ;
 - _Cahoots_ = Nom donné par Samourai à tous leurs types de transactions collaboratives, notamment les Payjoin Stowaway ;
-- _Soroban_ = Protocole de communication chiffré établi sur Tor permettant de collaborer avec d'autres utilisateurs dans le cadre d'une transaction Cahoots.
+- _Soroban_ = Protocole de communication chiffré établi sur Tor permettant de collaborer avec d'autres utilisateurs dans le cadre d'une transaction Cahoots ;
 - _Paynym_ = Identifiant unique d'un portefeuille permettant d'établir une communication avec un autre utilisateur sur Soroban, en vue d'effectuer une transaction Cahoots.
 
 ## Comment établir une connexion entre Paynyms ?
@@ -36,8 +36,6 @@ Pour réaliser une transaction Cahoots à distance, notamment un PayJoin (Stowaw
 
 **Voici la procédure pour établir cette connexion :**
 
-Tout d'abord, il vous faut obtenir l'identifiant du Paynym du destinataire. Cela peut être fait en utilisant son surnom ou son code de paiement. Pour ce faire, depuis l'application Samourai Wallet, il doit cliquer sur l'image de son Paynym (le petit robot) en haut à gauche de l'écran, puis il doit cliquer sur le surnom de son Paynym qui commence par `+...`. Par exemple, le mien s'appelle ici `+namelessmode0aF`. Si votre collaborateur utilise Sparrow Wallet, découvrez notre tutoriel dédié en cliquant ici.
-
 Pour commencer, il est nécessaire d'obtenir le code de paiement du Paynym du destinataire du Payjoin. Dans l'application Samourai Wallet, le destinataire doit appuyer sur l'icône de son Paynym (le petit robot) située en haut à gauche de l'écran, puis cliquer sur son surnom de Paynym, commençant par `+...`. Par exemple, le mien est `+namelessmode0aF`. Si votre collaborateur utilise Sparrow Wallet, je vous invite à consulter notre tutoriel dédié en cliquant ici.
 
 ![connexion paynym samourai](assets/2.png)
@@ -45,7 +43,7 @@ Pour commencer, il est nécessaire d'obtenir le code de paiement du Paynym du de
 Votre collaborateur sera alors redirigé vers la page de son Paynym. De là, il pourra soit vous transmettre les identifiants de son Paynym, soit partager avec vous son code QR pour que vous puissiez le scanner. Pour cela, il doit cliquer sur la petite icône `partager` située en haut à droite de son écran.
 ![partager paynym samourai](assets/1.png)
 
-De votre côté, lancez votre application Samourai Wallet et accédez au menu `PayNyms` de la même manière. Si c'est votre première utilisation de votre Paynym, vous devrez en obtenir l'identifiant. 
+De votre côté, lancez votre application Samourai Wallet et accédez au menu `PayNyms` de la même manière. Si c'est la première utilisation de votre Paynym, vous devrez en obtenir l'identifiant. 
 
 ![demander un paynym](assets/3.png)
 
@@ -58,7 +56,7 @@ Cliquez sur le bouton `SUIVRE`.
 ![suivre paynym](assets/6.png)
 Validez en cliquant sur `YES`.
 ![valider suivre paynym](assets/7.png)
-Le logiciel vous proposera alors un bouton `SE CONNECTER`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est nécessaire uniquement si vous envisagez d'effectuer des paiements vers l'autre Paynym dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
+Le logiciel vous proposera alors un bouton `SE CONNECTER`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers l'autre Paynym dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
 ![connecter paynym](assets/8.png)
 Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre destinataire vous suive également. Vous pourrez ensuite effectuer un Payjoin.
 

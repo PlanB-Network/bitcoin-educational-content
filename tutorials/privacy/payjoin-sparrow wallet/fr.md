@@ -44,7 +44,7 @@ Saisissez ensuite l'identifiant du Paynym de votre collaborateur (soit son surno
 ![add contact](assets/4.png)
 Le logiciel vous proposera alors un bouton `Link Contact`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est nécessaire uniquement si vous envisagez d'effectuer des paiements vers le Paynym indiqué dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
 
-Une fois le Paynym du destinataire suivi par votre Paynym, refaite cette opération dans l'autre sens afin que votre destinataire vous suive également. Vous pourrez ensuite effectuer un Payjoin.
+Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre destinataire vous suive également. Vous pourrez ensuite effectuer un Payjoin.
 
 ## Comment faire un Payjoin sur Sparrow Wallet ?
 

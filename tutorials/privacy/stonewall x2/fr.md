@@ -17,9 +17,7 @@ On définit ainsi trois rôles différents dans les transactions Stonewall x2 :
 - Le collaborateur, qui met des bitcoins à disposition afin d'améliorer l'ensemble d'anonymat de la transaction, tout en récupérant intégralement ses fonds à la fin (une action neutre pour lui, modulo les frais de minage) ;
 - Le destinataire, qui peut ignorer la nature spécifique de la transaction et attend simplement un paiement de la part de l'émetteur.
 
-Prenons un exemple pour bien comprendre. Alice est chez le boulanger pour acheter sa baguette de pain qui coûte `4 000 sats`. Elle souhaite payer en bitcoins tout en conservant une certaine forme de confidentialité sur son paiement. Elle fait donc appel à son ami Bob, qui va l'aider dans cette tâche.
-
-Prenons un exemple pour mieux comprendre. Alice se trouve chez son boulanger pour acheter une baguette de pain à `4 000 sats`. Elle souhaite payer en bitcoins tout en conservant une certaine confidentialité, et fait donc appel à son ami Bob pour collaborer dans une transaction Stonewall x2.
+Prenons un exemple pour bien comprendre. Alice est chez le boulanger pour acheter sa baguette de pain qui coûte `4 000 sats`. Elle souhaite payer en bitcoins tout en conservant une certaine forme de confidentialité sur son paiement. Elle fait donc appel à son ami Bob, qui va l'aider dans cette démarche.
 ![schema stonewall x2](assets/1.png)
 En analysant cette transaction, on peut voir que le boulanger a effectivement reçu `4 000 sats` en paiement pour la baguette. Alice a utilisé `10 000 sats` en input et a récupéré `6 000 sats` en output, soit un solde net de `-4 000 sats`, ce qui correspond au prix de la baguette. Quant à Bob, il a fourni `15 000 sats` en input et a reçu deux outputs : l'un de `4 000 sats` et l'autre de `11 000 sats`, ce qui fait bien un solde de `0`. 
 
@@ -39,7 +37,7 @@ La logique devrait donc être la suivante lorsque l'on souhaite utiliser un outi
 - Si l'on ne trouve personne pour faire une transaction Stonewall x2, on peut faire une transaction Stonewall seul, qui va mimer le comportement d'une transaction Stonewall x2 ;
 - Enfin, la dernière possibilité serait de faire une transaction avec JoinBot, un serveur tenu par Samourai, qui peut, à la demande, jouer le rôle du collaborateur dans une transaction Stonewall x2.
 
-Si vous souhaitez trouver un collaborateur qui voudra bien vous assister dans une transaction Stonewall X2, vous pouvez aller faire un tour sur ce groupe Telegram (non officiel) maintenu par des utilisateurs de Samourai pour faire rencontrer émetteurs et collaborateurs : [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
+Si vous souhaitez trouver un collaborateur qui voudra bien vous assister dans une transaction Stonewall X2, vous pouvez également aller faire un tour sur ce groupe Telegram (non officiel) maintenu par des utilisateurs de Samourai pour faire rencontrer émetteurs et collaborateurs : [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
 ## Quelle est l'utilité d'une transaction Stonewall x2 ?
 
@@ -51,7 +49,7 @@ Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse 
 ![mauvaise interprétation stonewall x2](assets/4.png)
 Cette interprétation est inexacte car, comme vous le savez, un UTXO a été envoyé au Boulanger, Alice n'a qu'un output de change, et Bob en a deux.
 ![transaction stonewall x2](assets/1.png)
-Même si l'observateur extérieur parvient à identifier le paterne de la transaction Stonewall x2, il ne disposera pas de toutes les informations. Il ne pourra pas déterminer lequel des deux UTXO de mêmes montants correspond au paiement. De plus, il ne sera pas en mesure de savoir si c'est Alice ou Bob qui a effectué le paiement. Enfin, il ne pourra pas déterminer si les deux UTXO en entrée proviennent de deux personnes différentes ou s'ils appartiennent à une seule personne qui les a fusionnés. Ce dernier point est dû au fait que les transactions Stonewall, dont nous avons parlé au-dessus, suivent exactement le même paterne que les transactions Stonewall x2. Vu de l'extérieur et sans informations supplémentaires sur le contexte, il est impossible de différencier une transaction Stonewall d'une transaction Stonewall x2. Or, les premières ne sont pas des transactions collaboratives, alors que les secondes le sont. Cela permet d'ajouter encore plus de doute sur cette dépense.
+Même si l'observateur extérieur parvient à identifier le paterne de la transaction Stonewall x2, il ne disposera pas de toutes les informations. Il ne pourra pas déterminer lequel des deux UTXO de mêmes montants correspond au paiement. De plus, il ne sera pas en mesure de savoir si c'est Alice ou Bob qui a effectué le paiement. Enfin, il ne pourra pas déterminer si les deux UTXO en entrée proviennent de deux personnes différentes ou s'ils appartiennent à une seule personne qui les a fusionnés. Ce dernier point est dû au fait que les transactions Stonewall classiques, dont nous avons parlé au-dessus, suivent exactement le même paterne que les transactions Stonewall x2. Vu de l'extérieur et sans informations supplémentaires sur le contexte, il est impossible de différencier une transaction Stonewall d'une transaction Stonewall x2. Or, les premières ne sont pas des transactions collaboratives, alors que les secondes le sont. Cela permet d'ajouter encore plus de doute sur cette dépense.
 ![Stonewall or Stonewall x2 ?](assets/5.png)
 
 
@@ -93,7 +91,7 @@ Si de votre côté, vous êtes sur Sparrow Wallet, ouvrez votre portefeuille et 
 ![demande paynym sparrow](assets/14.png)
 Saisissez ensuite l'identifiant du Paynym de votre collaborateur (soit son surnom `+...`, soit son code de paiement `PM...`) dans la case `Find Contact`, puis cliquez sur le bouton `Add Contact`.
 ![ajouter paynym contact](15.png)
-Le logiciel vous proposera alors un bouton `Link Contact`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est nécessaire uniquement si vous envisagez d'effectuer des paiements vers le Paynym indiqué dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
+Le logiciel vous proposera alors un bouton `Link Contact`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers le Paynym indiqué dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
 
 Une fois le Paynym du collaborateur suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre collaborateur vous suive également. Vous pourrez ensuite effectuer une transaction Stonewall x2.
 
@@ -101,12 +99,9 @@ Une fois le Paynym du collaborateur suivi par votre Paynym, refaites cette opér
 ## Comment faire une transaction Stonewall x2 sur Samourai Wallet ?
 
 Si vous avez réalisé les étapes préalables de connexion des Paynyms, vous êtes enfin prêt pour réaliser la transaction Stonewall x2 ! Pour ce faire, suivez notre tutoriel vidéo sur Samourai Wallet :
-
-
-
-
+![Tutoriel Stonewall x2 - Samourai Wallet](https://youtu.be/89oYE1Hw3Fk?si=QTqUZ6IypiR6PPMr)
 
 ## Comment faire une transaction Stonewall x2 sur Sparrow Wallet ?
 
 Si vous avez réalisé les étapes préalables de connexion des Paynyms, vous êtes enfin prêt pour réaliser la transaction Stonewall x2 ! Pour ce faire, suivez notre tutoriel vidéo sur Sparrow Wallet :
-
+![Tutoriel Stonewall x2 - Sparrow Wallet](https://youtu.be/mO3Xpp34Hhk?si=bfYiTl0Gxjs9sNQq)

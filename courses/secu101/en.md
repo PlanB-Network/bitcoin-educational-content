@@ -70,7 +70,7 @@ First, we will see how to protect your email inbox, which is essential for your 
 
 # Everything you need to know about online browsing
 
-## 1. Online browsing
+## Online browsing
 
 When browsing the internet, it is important to avoid certain common mistakes to preserve your online security. Here are some tips to avoid them:
 
@@ -106,7 +106,7 @@ TOR is legal and is used by journalists, freedom activists, and others wishing t
 
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
-## 2. VPN and internet connection
+## VPN and internet connection
 
 ### VPNs
 

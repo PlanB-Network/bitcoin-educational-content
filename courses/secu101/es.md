@@ -74,7 +74,7 @@ Este programa de formación se ofrece de forma gratuita bajo una licencia redist
 
 # Todo sobre la navegación en línea
 
-## 1. Navegación en línea
+## Navegación en línea
 
 Al navegar por internet, es importante evitar algunos errores comunes para preservar tu seguridad en línea. Aquí tienes algunos consejos para evitarlos:
 

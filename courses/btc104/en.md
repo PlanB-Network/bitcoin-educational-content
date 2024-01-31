@@ -150,7 +150,7 @@ For money to be an effective intermediary for buying and selling goods and servi
 
 For money to be used as a common measure of the value of goods and services, it must be:
 
-**Fungible:** When money is said to be fungible, every unit of currency is interchangeable with any other unit. In simpler terms, it means that money is uniform and identical, regardless of where it came from or who owns it. For example, if you owe someone $10 and you give them a $10 bill, it doesn't matter if the bill came from your wallet or someone else's wallet. As long as it's a genuine $10 bill, it's considered to be of equal value. The concept of fungibility is important because it allows money to function effectively as a common unit of measurement, making transactions simpler and more efficient.
+**Fungible:** When money is said to be fungible, every unit of currency is interchangeable with any other unit. In simpler terms, it means that money is uniform and identical, regardless of where it came from or who owns it. For example, if you owe someone \$10 and you give them a \$10 bill, it doesn't matter if the bill came from your wallet or someone else's wallet. As long as it's a genuine \$10 bill, it's considered to be of equal value. The concept of fungibility is important because it allows money to function effectively as a common unit of measurement, making transactions simpler and more efficient.
 
 Conclusion
 
@@ -337,13 +337,13 @@ To give you an idea of the scale of money printing we are talking about, in the 
 
 This can be hard to visualise, so let’s take a look at a hypothetical example.
 
-Let's say we earn a salary of $30,000 per year, and we're planning to buy a new car that costs $15,000. After doing some math, we figure you can save $5,000 per year. That means, given zero inflation, it would take us three years to save up for the car. Sounds reasonable…
+Let's say we earn a salary of \$30,000 per year, and we're planning to buy a new car that costs \$15,000. After doing some math, we figure you can save \$5,000 per year. That means, given zero inflation, it would take us three years to save up for the car. Sounds reasonable…
 
 However, in such a scenario, we are failing to account for inflation. When we include inflation in the above scenario, we face a very different story.
 
-Assuming our income and savings potential stay the same, after three years of 10% inflation, the car would now cost $19,965. We’re now $4,965 short, and by the time we save for another year and finally have the $19,965, it now costs $21,961. The car is quickly getting further and further out of reach.
+Assuming our income and savings potential stay the same, after three years of 10% inflation, the car would now cost \$19,965. We’re now \$4,965 short, and by the time we save for another year and finally have the \$19,965, it now costs \$21,961. The car is quickly getting further and further out of reach.
 
-All in all, given zero inflation, it would take three years to save for a $15,000 car if we’re able to save $5,000 per year. However, with inflation at 10%, we now have to save for 4.5 years. That is 50% more time! 1.5 years of our life we won’t get back.
+All in all, given zero inflation, it would take three years to save for a \$15,000 car if we’re able to save \$5,000 per year. However, with inflation at 10%, we now have to save for 4.5 years. That is 50% more time! 1.5 years of our life we won’t get back.
 
 If our salary does not increase with inflation, we are earning less money as time passes. This is because the cost of living is increasing, but our salary is staying the same. This leads to a decrease in our purchasing power, making it more difficult to afford the same standard of living as before.
 
@@ -361,13 +361,13 @@ However, this suppression of interest rates comes at a cost: It makes capital mo
 
 This balancing act isn’t going quite as planned…
 
-![image](assets\1.png)
+![image](assets/1.png)
 
 Figure [Debt vs GDP](https://www.longtermtrends.net/us-debt-to-gdp/)
 
-When we add together Federal, corporate, and household debt, the resulting figure is a staggering $63.14 trillion, in contrast to the United States Gross Domestic Product (GDP) of $26.13 trillion. This means that the US has a total debt-to-GDP ratio of 241%. In other words, for every $1 of GDP generated, there is a whopping $2.41 in debt.
+When we add together Federal, corporate, and household debt, the resulting figure is a staggering \$63.14 trillion, in contrast to the United States Gross Domestic Product (GDP) of \$26.13 trillion. This means that the US has a total debt-to-GDP ratio of 241%. In other words, for every \$1 of GDP generated, there is a whopping \$2.41 in debt.
 
-$63.14t / $26.13t = 241%
+\$63.14t / \$26.13t = 241%
 
 Let’s assume conservatively that the average interest on this debt is 3%.
 
@@ -416,7 +416,7 @@ Figure: Performance by Asset Class ([Stocks](https://finance.yahoo.com/quote/%5E
 
 With this lagging of wages to asset prices, we have seen one of the greatest transfers of wealth from the lower class to the upper class in recent history
 
-![image](assets\2.png)
+![image](assets/2.png)
 
 Figure: Share of Total [Net Worth](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
@@ -609,7 +609,7 @@ _**Side Note:** It's important to emphasise that Bitcoin's decentralised nature 
 
 ### A Transaction From Start to Finish
 
-To understand how all these players work together, let's imagine a simple Bitcoin transaction between two people, Alice and Bob. Alice wants to send Bob one-thousandth of a bitcoin, around $29 at the time of writing.
+To understand how all these players work together, let's imagine a simple Bitcoin transaction between two people, Alice and Bob. Alice wants to send Bob one-thousandth of a bitcoin, around \$29 at the time of writing.
 
 #### Transaction Initiation
 
@@ -766,7 +766,7 @@ Let's explore what this means...
 
 When inspecting any monetary system, there are often different methods, or layers, of transacting, with each method offering various benefits to the user. The layers of transacting in our current monetary system include:
 
-**Layer One:** These transactions typically involve large amounts of money but have a low processing capacity, meaning that only a limited number of transactions can be processed per second. Examples of layer one transactions in the traditional monetary system include bank wire transfers and Fed Wire interbank transfers. These transactions are used for high-value transactions, but they are often slow and expensive, with wire transfer fees ranging from $10 to $50 and processing times that can take several days. While layer one transactions are secure and dependable, they may not be the best choice for consumers who need to make small transactions quickly and cost-effectively.
+**Layer One:** These transactions typically involve large amounts of money but have a low processing capacity, meaning that only a limited number of transactions can be processed per second. Examples of layer one transactions in the traditional monetary system include bank wire transfers and Fed Wire interbank transfers. These transactions are used for high-value transactions, but they are often slow and expensive, with wire transfer fees ranging from \$10 to \$50 and processing times that can take several days. While layer one transactions are secure and dependable, they may not be the best choice for consumers who need to make small transactions quickly and cost-effectively.
 
 **Layer Two:** This layer typically includes smaller value high-volume transactions, enabling many transactions to be processed per second. It provides faster and cheaper transactions, with fees usually around 1-3% of the transaction value. Common examples of layer two transactions in the traditional monetary system are credit and debit card payments, online payment services, and gift card transactions.
 
@@ -881,7 +881,7 @@ So, outside of the billions unable to access banking services and online banking
 
 To make matters worse, unless we resort to cash, all of our funds are subject to the constraints of traditional banking. This presents a significant risk should our government impose overbearing banking reform, as was seen during the Greek government's 2015 bankruptcy.
 
-During this crisis, banks were closed, ATM withdrawals were limited to a mere $67 per day, and after all that, the government still withdrew a significant [portion](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) of individuals' bank deposits to fund their fiscal irresponsibility.
+During this crisis, banks were closed, ATM withdrawals were limited to a mere \$67 per day, and after all that, the government still withdrew a significant [portion](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) of individuals' bank deposits to fund their fiscal irresponsibility.
 
 While cash may provide a workaround to such a crisis, relying on physical currency in a world where digital transactions are a necessity is not a viable long-term solution.
 
@@ -929,7 +929,7 @@ _**Side Note:** Don't worry if some of these terms don't quite make sense. We wi
 
 Stablecoins have become a popular topic in the cryptocurrency world, offering a less volatile alternative in the short term to cryptocurrencies like Bitcoin. As detailed in the introduction to this module, stablecoins are digital assets that are pegged to a stable asset like fiat currency or precious metals, designed to maintain a stable value. Let's, therefore, explore the history of stablecoins and take a closer look at some of the first stablecoins, including Tether’s USDt, the most well-known and widely used stablecoin.
 
-_**Fun Fact:** At the time of writing, Tether's USDt averages $20 billion in daily transaction volume. This surpasses bitcoin's recent daily volume of $15 billion. Furthermore, USDt is sitting in third position for the largest market cap behind Bitcoin and Ethereum._
+_**Fun Fact:** At the time of writing, Tether's USDt averages \$20 billion in daily transaction volume. This surpasses bitcoin's recent daily volume of \$15 billion. Furthermore, USDt is sitting in third position for the largest market cap behind Bitcoin and Ethereum._
 
 The idea of stablecoins dates back to the early days of cryptocurrency, with the concept of a stable asset-backed cryptocurrency being proposed in 2012 by the Mastercoin project. However, it wasn't until a few years later that stablecoins gained momentum, with projects like Bitshares and NuBits launching in 2014.
 
@@ -937,7 +937,7 @@ Bitshares introduced the first stablecoin called “bitUSD,” which was designe
 
 Despite these early attempts, it wasn't until Tether’s USDt was launched in 2014 that stablecoins gained mainstream attention. USDt, just like bitUSD, is a stablecoin that is designed to be pegged to the US dollar, with the value of one USDt equal to one US dollar. USDt was created by a company called Tether Limited, whose parent company also owns the cryptocurrency exchange Bitfinex.
 
-Initially, Tether was primarily used by traders to move funds between exchanges without the need for conversion to fiat currency. However, as more people started to use Tether, it gained its own momentum and popularity. Today, Tether is the most widely used stablecoin globally, processing over $30 billion daily. To put this number in perspective, [MasterCard](https://www.cardrates.com/advice/number-of-credit-card-transactions-per-day-year/#:~:text=4%20billion%20transactions%20were%20processed,a%20Japanese%20credit%20card%20company)) and [Visa](https://blog.unibulmerchantservices.com/processing-24000-visa-transactions-per-second-how-its-done/#:~:text=VisaNet%2C%20the%20card%20network's%20payment,24%2C000%20Visa%20transactions%20per%20second.) process, on [average](https://www.statista.com/statistics/279249/purchase-transactions-on-general-purpose-cards-worldwide/), $8.1 billion and $12 billion per day, respectively. Essentially, 50% more US dollars are transacted daily on USDt than Visa and Mastercard combined.
+Initially, Tether was primarily used by traders to move funds between exchanges without the need for conversion to fiat currency. However, as more people started to use Tether, it gained its own momentum and popularity. Today, Tether is the most widely used stablecoin globally, processing over \$30 billion daily. To put this number in perspective, [MasterCard](https://www.cardrates.com/advice/number-of-credit-card-transactions-per-day-year/#:~:text=4%20billion%20transactions%20were%20processed,a%20Japanese%20credit%20card%20company)) and [Visa](https://blog.unibulmerchantservices.com/processing-24000-visa-transactions-per-second-how-its-done/#:~:text=VisaNet%2C%20the%20card%20network's%20payment,24%2C000%20Visa%20transactions%20per%20second.) process, on [average](https://www.statista.com/statistics/279249/purchase-transactions-on-general-purpose-cards-worldwide/), \$8.1 billion and \$12 billion per day, respectively. Essentially, 50% more US dollars are transacted daily on USDt than Visa and Mastercard combined.
 
 Despite its widespread use, Tether has not been immune to controversy. In 2017, Tether and BitFinex, both owned by iFinex Inc, were accused of artificially inflating the price of bitcoin. These accusations were related to the allegation that Tether and BitFinex were issuing new USDt tokens without having the corresponding amount of US dollars to back them up. This would increase the supply of USDt, which in turn was allegedly used to inflate the price of bitcoin artificially.
 
@@ -969,7 +969,7 @@ Stablecoins are designed to maintain a stable value relative to a pegged asset. 
 
 Sounds a little confusing? Don't worry. Here is an example:
 
-Suppose you have $50 US and want to send this money to your friends and family using USDt. To initiate this process, you log into your online exchange and trade your $50 US dollars for $50 USDt. However, this exchange doesn't merely conjure up $50 worth of fresh USDt. Instead, periodically, when the exchange's USDt reserves run low, the issuer, in this scenario, Tether, generates new USDt for the exchange in return for USD. The USD backs these newly created USDt tokens. This ensures that each circulating $1 USDt is substantiated by equivalent cash or cash equivalents.
+Suppose you have \$50 US and want to send this money to your friends and family using USDt. To initiate this process, you log into your online exchange and trade your \$50 US dollars for \$50 USDt. However, this exchange doesn't merely conjure up \$50 worth of fresh USDt. Instead, periodically, when the exchange's USDt reserves run low, the issuer, in this scenario, Tether, generates new USDt for the exchange in return for USD. The USD backs these newly created USDt tokens. This ensures that each circulating \$1 USDt is substantiated by equivalent cash or cash equivalents.
 
 With this in mind, when you acquire USDt, it's not a freshly minted issuance. Rather, at a prior point, the exchange swapped USD for USDt, which you're now acquiring from the exchange. As time progresses and more users purchase USDt, the exchange's reserves dwindle while its USD holdings expand. This prompts the exchange to once again communicate with Tether to generate additional USDt in exchange for USD.
 
@@ -981,10 +981,10 @@ Although most of these institutions are heavily regulated and audited to ensure 
 
 For instance, as these stablecoins rely on not only a centralised issuer but also financial institutions to manage the currency held in reserves, if any of these entities were to fail, there is the potential for a decline in the value of the stablecoin and the publics loss in confidence in the issuer.
 
-Consider USDC, the second most popular stablecoin after USDt. When Silicon Valley Bank [collapsed](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) in March 2023, USDC temporarily lost its 1:1 peg to the USD and traded as low as [$0.88](https://www.coingecko.com/en/coins/usd-coin). That's a 12% loss of purchasing power overnight, which is concerning for something meant to be stable in price.
-The reason behind this drop in price was that Circle, the issuer of USDC, had kept a portion of its reserves at Silicon Valley Bank. As a result, when people caught on, they began to sell their USDC holdings out of fear that Circle would be unable to honour all redemption requests. Luckily for Circle, the Federal Reserve and the Federal Deposit Insurance Corporation (FDIC) intervened and guaranteed all the bank's deposits. This meant that Circle would not lose its reserves, and USDC quickly recovered to $1. However, it could have easily gone the other way, leaving USDC a relic of the past. With this in mind, it's important to research the different stablecoins available before choosing to invest or trade.
+Consider USDC, the second most popular stablecoin after USDt. When Silicon Valley Bank [collapsed](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) in March 2023, USDC temporarily lost its 1:1 peg to the USD and traded as low as [\$0.88](https://www.coingecko.com/en/coins/usd-coin). That's a 12% loss of purchasing power overnight, which is concerning for something meant to be stable in price.
+The reason behind this drop in price was that Circle, the issuer of USDC, had kept a portion of its reserves at Silicon Valley Bank. As a result, when people caught on, they began to sell their USDC holdings out of fear that Circle would be unable to honour all redemption requests. Luckily for Circle, the Federal Reserve and the Federal Deposit Insurance Corporation (FDIC) intervened and guaranteed all the bank's deposits. This meant that Circle would not lose its reserves, and USDC quickly recovered to \$1. However, it could have easily gone the other way, leaving USDC a relic of the past. With this in mind, it's important to research the different stablecoins available before choosing to invest or trade.
 
-Despite these shortcomings, the majority of trusted stablecoins are fiat-backed. Tokens like Tether’s USDt use this backing method and regularly move $5 billion or more daily.
+Despite these shortcomings, the majority of trusted stablecoins are fiat-backed. Tokens like Tether’s USDt use this backing method and regularly move \$5 billion or more daily.
 
 Let's now take a look at the next type of stablecoin…
 
@@ -1006,7 +1006,7 @@ First, XAUt provides a more convenient and accessible way to invest in gold, as 
 
 Second, it allows for fractional ownership, making it easier for investors to purchase smaller amounts of gold.
 
-**Why might one want this?** In the physical world, buying a whole ounce of gold for $1900 would be out of reach for many. But 1/1000th of an ounce of gold is now achievable through fractionalising the tokens. In the digital realm, a claim to a spec of gold dust is achievable— something infeasible in the physical realm.
+**Why might one want this?** In the physical world, buying a whole ounce of gold for \$1900 would be out of reach for many. But 1/1000th of an ounce of gold is now achievable through fractionalising the tokens. In the digital realm, a claim to a spec of gold dust is achievable— something infeasible in the physical realm.
 
 Lastly, XAUt is often more liquid than physical gold, which means it can be easily converted into fiat or bitcoin, enabling investors to quickly liquidate their holdings if needed.
 
@@ -1022,15 +1022,15 @@ Unlike other stablecoins backed by physical assets, algorithmic stablecoins use 
 
 For those unfamiliar with the term algorithm, you can think of an algorithm as simply a set of rules to be followed. This may sound confusing, so let's look at one type of algorithmic stability mechanism, called the rebase method, as an example.
 
-Let's say we release a new algorithmic stablecoin called AlgoCoin that uses the rebase method to ensure a price of $1. In such a scenario, AlgoCoin would automatically adjust the supply of tokens to maintain a stable price. This would be achieved by increasing or decreasing the supply of tokens based on the price change of the token.
+Let's say we release a new algorithmic stablecoin called AlgoCoin that uses the rebase method to ensure a price of \$1. In such a scenario, AlgoCoin would automatically adjust the supply of tokens to maintain a stable price. This would be achieved by increasing or decreasing the supply of tokens based on the price change of the token.
 
-If the price of AlgoCoin were above $1, the algorithm would increase the supply of tokens, effectively reducing the price of each token. Conversely, if the price of AlgoCoin was below $1, the protocol could somehow decrease the supply of tokens to increase the price of each token.
+If the price of AlgoCoin were above \$1, the algorithm would increase the supply of tokens, effectively reducing the price of each token. Conversely, if the price of AlgoCoin was below \$1, the protocol could somehow decrease the supply of tokens to increase the price of each token.
 
 This method would ensure that the price of AlgoCoin remains stable over time while still allowing for fluctuations in market demand.
 
 Now, it's important to note that reducing the circulating supply of a token, for example, by buying it automatically at market price or by destroying some supply with fees or storage costs, all without hurting its utility and thus its demand, is not as trivial as it may seem. When algorithmic stablecoins rely on complex rulesets to maintain their price stability, this makes them prone to technical and financial vulnerabilities. Which, if you follow the space, are taken advantage of regularly.
 
-In May 2022, some traders exploited a vulnerability in TerraUSD (UST), one of the major algorithmic stablecoins. As a result, UST's value plummeted from $18.7 billion to under $100 million within a month, representing a staggering [99.5%](https://www.coingecko.com/en/coins/terraclassicusd) decline.
+In May 2022, some traders exploited a vulnerability in TerraUSD (UST), one of the major algorithmic stablecoins. As a result, UST's value plummeted from \$18.7 billion to under \$100 million within a month, representing a staggering [99.5%](https://www.coingecko.com/en/coins/terraclassicusd) decline.
 
 With this in mind, while algorithmic stablecoins have gained attention for their potential to revolutionise the way we think about stable value in the digital world, it is important to note that they are still a relatively new concept and have been prone to bugs and vulnerabilities. As they are only partially, or at times, not backed by physical assets and rely heavily on developers and coding, as well as on delicate attempts at financial engineering, we recommend exercising caution and thoroughly researching before using any algorithmic stablecoins.
 
@@ -1068,24 +1068,24 @@ You're probably wondering: What's the problem here?
 
 To send money back overseas through a money transfer service such as Western Union is not free. It costs money, and not just a little, a significant amount.
 
-Sending $100 US back to Tonga incurs a cost of [$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus an additional loss of $8.60 due to the unfavourable exchange rate. This means more than 21% of the total amount sent goes to Western Union, a multinational corporation. As a result, a considerable sum that could have been in the hands of deserving Tongan families ends up in the pockets of the money transfer service provider.
+Sending \$100 US back to Tonga incurs a cost of [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus an additional loss of \$8.60 due to the unfavourable exchange rate. This means more than 21% of the total amount sent goes to Western Union, a multinational corporation. As a result, a considerable sum that could have been in the hands of deserving Tongan families ends up in the pockets of the money transfer service provider.
 Can you imagine the benefits of having an extra 21% added to your income?
 
-Furthermore, considering that Tonga's GDP was [$469](https://tradingeconomics.com/tonga/gdp) million in 2021, and 45.5% of it comes from remittances, the exorbitant fees charged for sending money back home means that Tonga is missing out on an additional $45.2 million. This amount would translate into a 9.6% increase in GDP if it weren't for these fees.
+Furthermore, considering that Tonga's GDP was [\$469](https://tradingeconomics.com/tonga/gdp) million in 2021, and 45.5% of it comes from remittances, the exorbitant fees charged for sending money back home means that Tonga is missing out on an additional \$45.2 million. This amount would translate into a 9.6% increase in GDP if it weren't for these fees.
 
 And if you thought Tonga was alone in this, guess again.
 
-Here is a sample of how much Western Union [charges](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) for sending $100 US dollars to some other prominent nations:
+Here is a sample of how much Western Union [charges](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) for sending \$100 US dollars to some other prominent nations:
 
-- **China:** $21.21 fee + $2.60 exchange rate loss (23.81% loss)
-- **Canada, USA, Mexico:** $16.86 fee + $1.20 exchange rate loss (18.06% loss)
-- **UK, Albania, Bosnia, Serbia, Slovenia:** $17.92 fee + $3.10 exchange rate loss (21.02% loss)
-- **Oceania and Southeast Asia:** $12.61 fee + $8.60 exchange rate loss (21.21% loss)
+- **China:** \$21.21 fee + \$2.60 exchange rate loss (23.81% loss)
+- **Canada, USA, Mexico:** \$16.86 fee + \$1.20 exchange rate loss (18.06% loss)
+- **UK, Albania, Bosnia, Serbia, Slovenia:** \$17.92 fee + \$3.10 exchange rate loss (21.02% loss)
+- **Oceania and Southeast Asia:** \$12.61 fee + \$8.60 exchange rate loss (21.21% loss)
   This is a staggering amount of money that is now in the hands of major US corporations. And this is where USDt comes in, as they provide a solution to the issue of high remittance fees.
 
 Unlike traditional money transfer services, USDt is a digital currency that, for the purpose of transacting, moves upon the rails of blockchain. Since it does not require intermediaries such as banks or money transfer services, the fees are significantly lower. Additionally, as transactions are executed on a public blockchain, this ensures greater transparency as well as privacy. This means individuals can send money to their loved ones in other countries almost instantly, securely, and at a far lower cost.
 
-For example, USDt, which operates primarily on the Ethereum and Tron blockchains, has averaged [$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) and [$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) transaction fees, respectively, over the last year, regardless of the amount sent— the fee remains the same whether sending $5 or $10,000. And as we speak, developers are working on [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) built on Bitcoin's Lightning network, which would see fees of around [$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+For example, USDt, which operates primarily on the Ethereum and Tron blockchains, has averaged [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) and [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) transaction fees, respectively, over the last year, regardless of the amount sent— the fee remains the same whether sending \$5 or \$10,000. And as we speak, developers are working on [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) built on Bitcoin's Lightning network, which would see fees of around [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
 
 With USDt, Tongans, as well as all others who send money back to their families, can receive far more of their remittances, which can significantly improve their quality of life and contribute to the economic development of their country.
 
@@ -1097,7 +1097,7 @@ As Adanna's story demonstrated, inflation is a painful reality for countless ind
 
 To illustrate the effect of double-digit inflation, a 10% inflation rate, as experienced by Europe in October 2022, would mean a 61.5% loss of purchasing power over ten years.
 
-![image](assets\3.png)
+![image](assets/3.png)
 
 _**Figure:** Inflations Effect On Purchasing [Power](https://anilsaidso.gumroad.com/)_
 
@@ -1209,12 +1209,12 @@ _However, this theory forgets that markets are composed of individuals, and huma
 
 Third, Bitcoin has the potential to revolutionise global exchange. For the first time in history, we have a method of transacting in a trustless, permissionless and decentralised manner. As discussed earlier in this course, this is unparalleled and offers immense benefits to both developed and developing countries alike.
 
-Lastly, bitcoin's total market value is sitting just shy of $550 billion US dollars. This may seem like an astronomical amount until you realise that gold, depending on one's calculation, is anywhere from $10 trillion to $20 trillion. That means that although Bitcoin offers many of the same benefits as gold, it trades at 1/40th of the value. And when we look at other assets, that divergence is even larger.
+Lastly, bitcoin's total market value is sitting just shy of \$550 billion US dollars. This may seem like an astronomical amount until you realise that gold, depending on one's calculation, is anywhere from \$10 trillion to \$20 trillion. That means that although Bitcoin offers many of the same benefits as gold, it trades at 1/40th of the value. And when we look at other assets, that divergence is even larger.
 
-- Global stock market: [$124.4 trillion](https://www.sifma.org/resources/research/fact-book/)
-- Global fixed income/bond market: $126.9 trillion
-- Global real estate market: [$326.5 trillion](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
-- Global derivatives market: Estimated at over [$1 quadrillion](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
+- Global stock market: [\$124.4 trillion](https://www.sifma.org/resources/research/fact-book/)
+- Global fixed income/bond market: \$126.9 trillion
+- Global real estate market: [\$326.5 trillion](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
+- Global derivatives market: Estimated at over [\$1 quadrillion](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
 
 All in all, when people call bitcoin a bubble, either:
 
@@ -1227,7 +1227,7 @@ Critics often point out that bitcoin's volatility makes it a poor investment opt
 
 First, bitcoin's volatility is a hot topic of debate and has caused some to criticise the asset for its sharp price swings. We believe this is a narrow view of volatility as volatility measures an asset's price movement, not just its declines. Those with the fortitude to hold onto bitcoin through its fluctuations have been richly rewarded. Take assets A and B, for example. Asset A increases on average by 10% per year with a deviation of 15%, while asset B moves by 5% per year with a deviation of 10%. Although asset B has lower volatility than asset A, asset A outperforms asset B in the long run. You must be willing to stomach the volatility to reap the rewards of bitcoin's price movements. Moreover, the USD may be less volatile day to day. However, if you have held the currency over the last 100 years, you've lost [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) of your purchasing power.
 
-Second, volatility is a natural phenomenon when it comes to technological adoption. When a new technology is introduced, there is bound to be uncertainty and speculation about its potential, which leads to price fluctuations. Artificial intelligence (AI) is a prime example of a highly volatile sector. From [2021 to 2022](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%202021.), the total value of AI increased from $51 billion to $119 billion. However, despite its volatility, the benefits of investing in AI cannot be ignored. From self-driving cars to personalised healthcare, the potential applications of AI are immense. So, if you're interested in AI, you wouldn't want to miss out on the opportunities it presents just because of its volatility.
+Second, volatility is a natural phenomenon when it comes to technological adoption. When a new technology is introduced, there is bound to be uncertainty and speculation about its potential, which leads to price fluctuations. Artificial intelligence (AI) is a prime example of a highly volatile sector. From [2021 to 2022](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%202021.), the total value of AI increased from \$51 billion to \$119 billion. However, despite its volatility, the benefits of investing in AI cannot be ignored. From self-driving cars to personalised healthcare, the potential applications of AI are immense. So, if you're interested in AI, you wouldn't want to miss out on the opportunities it presents just because of its volatility.
 
 Furthermore, bitcoin's volatility is not unique. Traditional financial markets also experience fluctuations in asset prices, such as the stock market, commodities market, and even currencies. In fact, the volatility of bitcoin is arguably less severe than many other assets.
 
@@ -1252,7 +1252,7 @@ Take the example of art. A painting is just canvas and paint, yet some pieces ar
 
 The same goes for bitcoin. People value it because it is a decentralised currency that is not controlled by any government or bank. It is scarce, with a limited supply, and is secure due to the technology behind it. Some people may not see these characteristics as offering value, and that is ok. But that doesn't mean that it is worthless.
 
-Price is a reflection of what people are willing to pay for something. If bitcoin were truly worthless, as it was not backed by anything, then it would be trading at $0, as nobody would be willing to exchange their hard-earned money for it.
+Price is a reflection of what people are willing to pay for something. If bitcoin were truly worthless, as it was not backed by anything, then it would be trading at \$0, as nobody would be willing to exchange their hard-earned money for it.
 
 Furthermore, the idea that currency must be backed by something of value is inaccurate. Fiat currencies, like the US dollar, are not backed by gold or anything tangible. Instead, their value is based on trust in the government that issues them and the belief that they can be exchanged for goods and services. In the case of bitcoin, its value is based on trust in the technology that underpins it and the belief that it can be used to store value or exchange goods and services.
 
@@ -1369,7 +1369,7 @@ However, now energy producers have a way of capitalising on this stranded energy
 
 Lastly, Bitcoin miners are motivated to seek out inexpensive energy sources since their profits depend on the cost of energy. Consequently, they actively look for stranded energy or other forms of energy that would otherwise go unused. One notable example is flare gas, which is released when petroleum companies extract oil from the ground. Flare gas is a byproduct of this process and is typically burned off due to the high cost associated with capturing it. This practice, known as flaring, not only results in wasted energy but also releases methane and various other gases into the atmosphere.
 
-![image](assets\4.png)
+![image](assets/4.png)
 
 _**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1426,7 +1426,7 @@ However, this is not the case for all stablecoins, with many not offering the sa
 
 Another common criticism is that stablecoins are often not fully backed by cash but rather "cash and cash equivalents." _This is the technical term for cash and cash-like reserves that can easily be converted to cash_. However, it is important to consider two points:
 
-First, stablecoin issuers often invest in cash equivalents rather than holding cash, as cash can significantly impact the stablecoin issuer's balance sheet. With current banking regulations, any balance sheet assets, such as cash, are subject to potential loss in the event of bankruptcy, and the Federal Deposit Insurance Corporation (FDIC) only provides insurance coverage for up to $250,000 USD, with amounts exceeding this limit at risk. To mitigate this exposure, stablecoins aiming to safeguard users against unforeseen events often invest in government-issued treasury bills. By investing in assets like treasuries, not only do they generate a yield, these assets can be deemed off-balance sheet securities. As a result, stablecoin issuers can protect their funds in the event of bank bankruptcy, as these securities could be returned to the customer. A compelling illustration of this occurred in February/March 2023, involving Silicon Valley Bank (SVB) and Circle, the company behind the stablecoin USDC. At that time, Circle had a substantial [$3.3 billion](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) in cash deposited with SVB. And then, SVB went bankrupt. To avert a financial disaster, the FDIC intervened to rescue Circle and other affected companies by covering the missing funds. However, this is not the standard course of action. This unprecedented event marked the first time in history such a situation had unfolded. Without the FDIC's intervention, Circle might have faced bankruptcy as well.
+First, stablecoin issuers often invest in cash equivalents rather than holding cash, as cash can significantly impact the stablecoin issuer's balance sheet. With current banking regulations, any balance sheet assets, such as cash, are subject to potential loss in the event of bankruptcy, and the Federal Deposit Insurance Corporation (FDIC) only provides insurance coverage for up to \$250,000 USD, with amounts exceeding this limit at risk. To mitigate this exposure, stablecoins aiming to safeguard users against unforeseen events often invest in government-issued treasury bills. By investing in assets like treasuries, not only do they generate a yield, these assets can be deemed off-balance sheet securities. As a result, stablecoin issuers can protect their funds in the event of bank bankruptcy, as these securities could be returned to the customer. A compelling illustration of this occurred in February/March 2023, involving Silicon Valley Bank (SVB) and Circle, the company behind the stablecoin USDC. At that time, Circle had a substantial [\$3.3 billion](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) in cash deposited with SVB. And then, SVB went bankrupt. To avert a financial disaster, the FDIC intervened to rescue Circle and other affected companies by covering the missing funds. However, this is not the standard course of action. This unprecedented event marked the first time in history such a situation had unfolded. Without the FDIC's intervention, Circle might have faced bankruptcy as well.
 
 Second, we often criticise stablecoin issuers for investing in non-cash assets, yet our existing banking system operates on a fractional reserve basis. In simple terms, banks do not hold sufficient reserves to meet the withdrawal demands of their customers. If a significant portion of our national population were to withdraw their deposits, the banking sector would quickly collapse. In fact, since 2020, the reserve requirement in the United States has been set at [zero](https://www.federalreserve.gov/monetarypolicy/reservereq.htm), meaning that banks are not obligated to retain **ANY** customer deposits.
 
@@ -1456,9 +1456,9 @@ In summary, next time a stablecoin trades above or below its intended price, be 
 
 In addressing the misconception that stablecoins can freeze your funds due to their centralised nature, it is important to emphasise the distinction between centralised and decentralised entities, each with its own advantages and disadvantages. While we strongly advocate for decentralised assets like Bitcoin, this does not mean centralised stablecoins lack value or benefits.
 
-One of the primary advantages of centralisation is the ability to intervene when it is in the best interest of users and the overall stability of the system. Although it is true, stablecoins issuers have the potential to freeze funds. In essentially all instances, this is not used as a malicious attack on the stablecoin holder. Instead, it is in conjunction with law enforcement to protect consumers. A notable example is the case of the FTX exchange collapse. In collaboration with law enforcement, Tether froze [$46 million](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) worth of USDt to protect consumer funds.
+One of the primary advantages of centralisation is the ability to intervene when it is in the best interest of users and the overall stability of the system. Although it is true, stablecoins issuers have the potential to freeze funds. In essentially all instances, this is not used as a malicious attack on the stablecoin holder. Instead, it is in conjunction with law enforcement to protect consumers. A notable example is the case of the FTX exchange collapse. In collaboration with law enforcement, Tether froze [\$46 million](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) worth of USDt to protect consumer funds.
 
-Another instance demonstrating the benefits of centralised intervention occurred after the [KuCoin hack](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) in September 2020. Tether froze approximately $35 million worth of USDt to prevent hackers from profiting from their illicit activities. These examples highlight how centralised stablecoins, in certain scenarios, can swiftly respond to malicious actors and safeguard the interests of their users.
+Another instance demonstrating the benefits of centralised intervention occurred after the [KuCoin hack](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) in September 2020. Tether froze approximately \$35 million worth of USDt to prevent hackers from profiting from their illicit activities. These examples highlight how centralised stablecoins, in certain scenarios, can swiftly respond to malicious actors and safeguard the interests of their users.
 
 With this in mind, while we prioritise bitcoin for long-term savings due to the absence of intermediaries or individuals who can co-opt the network, centralised stablecoins still hold several benefits, i.e. while the centralised nature of stablecoins allows for the potential freezing of funds, this trait can be a valuable tool in combating illicit activities and protecting users.
 
@@ -1508,7 +1508,7 @@ However, in recent years, Bitcoin has emerged as a powerful tool for financial e
 
 While the world watched in horror as the Taliban seized control of Afghanistan in [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), this young girl Roya was living in the heart of the conflict. At just seven years old, she found herself caught up in the turmoil and uncertainty of war as her hometown was invaded and occupied by the Taliban. Despite the danger and adversity she faced, on top of the fact that she was unable to go to school, Roya refused to be defeated. Instead, she turned to education as a way to overcome the limitations imposed upon her by her circumstances.
 
-![image](assets\5.png)
+![image](assets/5.png)
 
 \***Figure:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 
@@ -1562,73 +1562,73 @@ Owner of A Cafe, Vietnam
 
 “At my cafe in Binh Thanh district, we cater to a young clientele and occasional tourists, offering a variety of beverages, including coffee, soft drinks, and cocktails. Tether has become our go-to solution for processing payments from foreign customers who lack local currency or bank accounts. While the sales through Tether may be small currently, it provides us with a convenient way to bridge the currency gap and accommodate our international patrons. Customers are often amazed by our openness to accepting cryptocurrency payments, leaving a lasting impression on their experience."
 
-![image](assets\6.png)
+![image](assets/6.png)
 Parvinee Ratchaphokhinpiti
 Retired, Thailand
 
 “USDt revolutionised my international money transfers. As a retiree, I used to rely on slow bank wires. Thanks to USDt, I can now send money effortlessly through a digital asset exchange. Within 30 minutes, my sister received the funds. The time-saving benefits are invaluable, ensuring swift and hassle-free transactions.”
 
-![image](assets\7.png)
+![image](assets/7.png)
 Jamie Tran
 Piano Teacher, Vietnam
 
 "Sending money to my relatives overseas has been a frequent necessity, yet the process of converting currencies at local exchanges proved to be both time-consuming and expensive. To address these challenges, I introduced my relatives to the convenience of using USDt. This simple shift has enabled our family to save significant time and money in our financial transactions. With USDt, we now enjoy streamlined overseas transfers, ensuring efficient and cost-effective support for our loved ones."
 
-![image](assets\8.png)
+![image](assets/8.png)
 Roman
 Russian Expat living in Vietnam
 
 “Living in Vietnam, I frequently send Tether to my relatives and cousins in Russia. Transferring money overseas with Tether is hassle-free compared to using traditional banking methods. No bank visits, notarised documents, or explanations are required. With no sending limits, minimal fees, and fast transactions, funds are delivered within minutes.”
 
-![image](assets\9.png)
+![image](assets/9.png)
 Luis Graterol
 Audiovisual, Venezuela
 
 “My name is Luis Graterol, and Tether helped me secure my savings in another way. In Venezuela, we suffer due to the high inflation, and Tether has helped a lot. Its usability is simple, and in many cases, you can make transactions without any fees. USDt makes my life easier! It also helps me educate and encourage its use in the audiovisual media; since I discovered its ease, I receive my payments by USDt, and I save the tedious local fiat that affects many of us!”
 
-![image](assets\10.png)
+![image](assets/10.png)
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 
 “I’m from Venezuela and run a small breakfast delivery business. Tether USDt has been a viable solution for the problem of physical cash for me. USDt has also helped me with my savings because if I held my business accounts in the Venezuelan Bolivar, I could not have planned ahead with my sourcing of foods due to the constant devaluation”
 
-![image](assets\11.png)
+![image](assets/11.png)
 Marcela Romero
 Marketing and PR Manager, Guanacaste, Costa Rica
 
 “A few years ago, I moved to my husband's country. Due to the pandemic, I faced a unique migratory condition, resulting in a lengthy wait for residency or citizenship. For nearly three years, I lacked access to a bank account and couldn't work legally in the country. However, leveraging my online work capabilities and receiving my salary in USDt, I continued my career remotely with international companies. With Tether, I can instantly send money back home without high fees or delays. Tether has enabled me to pursue my professional goals and maintain financial independence despite government restrictions.”
 
-![image](assets\12.png)
+![image](assets/12.png)
 Simoneth Gomez
 QA Engineer, Venezuela, living in Argentina
 
-“Hi, my name is Simoneth Gomez. I'm from Venezuela, but I am currently living in Buenos Aires, where I work as a software quality analyst. When I came to Argentina, I had a distance of 12 km between my work and the place where I had to change money to send to my family in Venezuela. So I was introduced to USDt and started using it because instead of having to go that route for $5 or $10 on a bus, I was able to solve it from my desk in two minutes”
+“Hi, my name is Simoneth Gomez. I'm from Venezuela, but I am currently living in Buenos Aires, where I work as a software quality analyst. When I came to Argentina, I had a distance of 12 km between my work and the place where I had to change money to send to my family in Venezuela. So I was introduced to USDt and started using it because instead of having to go that route for \$5 or \$10 on a bus, I was able to solve it from my desk in two minutes”
 
-![image](assets\13.png)
+![image](assets/13.png)
 Carlos Caballero
 Psychologist, Argentina
 
 “Tether has been the solution that has allowed me to continue working in my profession during the years of the pandemic. The fact of being a currency anchored to the dollar allows it to have an international reference value. And its stability and security against the volatility of other cryptocurrencies is the main reason that led me to choose it.”
 
-![image](assets\14.png)
+![image](assets/14.png)
 Heloisa Passos
 CEO Sp4ce Games, Brazil
 
 "I have been working remotely for international companies for about five years now, and most of that time, I suffered with high interest rates from the national banks, which charge a large percentage rate for every international remittance made, in addition to the waiting time for clearing payments through the Swift system (about 24 hours). When I started receiving my salary in Tether, I realised how much time and money I started saving just by being paid in USDt."
 
-![image](assets\15.png)
+![image](assets/15.png)
 Samuel
 Trading Company, Nigeria
 
 “Using USDt has saved our business a lot of time because, as a Nigerian business getting USD requires going to our bank while spending valuable time filling out forms and queuing for hours to make withdrawals or transfers. With USDt, however, we can exchange it for local currency in less than 5 minutes and execute any transaction we might have.”
 
-![image](assets\16.png)
+![image](assets/16.png)
 Joshua
 Student, Nigeria
 
 “Tether has helped me in numerous ways. Earning in Tether has helped me beat the tension of the rising inflation in the country, and it has helped me cut down on wasteful spending. Also, it helps my savings retain their value as I'm not badly affected by the devaluation of the Naira.”
 
-![image](assets\17.png)
+![image](assets/17.png)
 Esther
 HR Agency, Nigeria
 
@@ -1649,6 +1649,8 @@ Now that you went through the Module "Overcomming Doubts" you will have to test 
 5. Reflecting on the comparisons between Bitcoin's energy consumption and other industries, is it fair to single out Bitcoin for its energy usage? Why or why not?
 
 # Closing Remarks
+
+## Closing Remarks
 
 Congratulations on making it to the end of the course! You've come a long way. Throughout this journey, we've delved into a wide array of topics, including:
 

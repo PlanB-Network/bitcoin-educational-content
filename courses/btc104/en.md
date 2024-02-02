@@ -1650,8 +1650,6 @@ Now that you went through the Module "Overcomming Doubts" you will have to test 
 
 # Closing Remarks
 
-## Closing Remarks
-
 Congratulations on making it to the end of the course! You've come a long way. Throughout this journey, we've delved into a wide array of topics, including:
 
 - The fascinating history of money.

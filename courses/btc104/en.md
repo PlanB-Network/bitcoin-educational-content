@@ -644,19 +644,19 @@ In the previous section, we delved into the unique functionality of Bitcoin that
 
 If you recall from Module One, we took a look at both the functions and characteristics of money, these being:
 
-1. **Store of Value:** Retains purchasing power over time.
+**Store of Value:** Retains purchasing power over time.
 
 - _Durable:_ Resistant to wear and tear.
 - _Scarce:_ Limited in quantity.
 - _Immutable:_ Cannot be changed or altered.
 
-2. **Medium of Exchange:** Used as a means to trade goods and services.
+**Medium of Exchange:** Used as a means to trade goods and services.
 
 - _Portable:_ Easily carried or transported.
 - _Divisible:_ Can be divided into smaller units.
 - _Accepted:_ Widely recognized and accepted as a form of payment.
 
-3. **Unit of Account:** Used to measure value.
+**Unit of Account:** Used to measure value.
 
 - _Fungible:_ Interchangeable with other units of the same type.
 
@@ -694,9 +694,7 @@ You may have noticed above that Bitcoin isn't simply a powerful asset for which 
 
 When we view fiat currencies from the perspective of "the asset" and "the network," it becomes apparent that we must place far greater trust and dependence on third parties and intermediaries. For example:
 
-#### The Asset
-
-_The fiat currencies we use as a store of value (E.g. US dollar, euro, yen, franc, pound sterling, etc.)._
+#### **The Asset** - _The fiat currencies we use as a store of value (E.g. US dollar, euro, yen, franc, pound sterling, etc.)._
 
 **Central Banks oversee Monetary Policy** – Monetary policy refers to the measures taken by a central bank to manage the interest rates and the total supply of money in circulation. When the central bank lowers interest rates or increases the money supply, it injects new money into the economy, thereby diluting the value of the existing currency in circulation. This results in a reduction of the currency's purchasing power, creating inflation.
 
@@ -704,9 +702,7 @@ _The fiat currencies we use as a store of value (E.g. US dollar, euro, yen, fran
 
 As citizens, we are subject to the decisions made by those in charge of monetary and fiscal policies, and we must rely on their judgment. We entrust our government and unelected central bankers to act in our best interests, but their choices can significantly affect our currency's purchasing power and, consequently, our standard of living. And history has demonstrated on numerous occasions that this trust has been violated, resulting in monetary debasement.
 
-#### The Network
-
-_The rails that allow us to transact with one another._
+#### **The Network** - _The rails that allow us to transact with one another._
 
 **When purchasing a coffee using our credit card, there are four or more different intermediaries** - First is the bank with which the coffee shop uses. Second, are the communication networks that enable the banks to transfer funds between each other. Next, there is the association that processes the transaction, such as Visa, Mastercard, or Discover. And finally, there is our own banking institution, which verifies and records the transaction.
 

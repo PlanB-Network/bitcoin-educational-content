@@ -44,15 +44,9 @@ Même si l'observateur extérieur parvient à identifier le paterne de la transa
 ![Stonewall or Stonewall x2 ?](assets/3.png)
 ## Comment faire une transaction Stonewall sur Samourai Wallet ?
 Contrairement aux transactions Stowaway ou Stonewall x2 (cahoots), la transaction Stonewall ne nécessite pas d'utiliser les Paynyms. Elle peut être réalisée directement, sans étapes de préparation. Pour ce faire, suivez notre tutoriel vidéo sur Samourai Wallet : 
-
-
-
-
+![Tutoriel Stonewall - Samourai Wallet](https://youtu.be/mlRtZvWGuk0?si=e_lSKJLvybWUna1j)
 
 ## Comment faire une transaction Stonewall sur Sparrow Wallet ?
 Contrairement aux transactions Stowaway ou Stonewall x2 (cahoots), la transaction Stonewall ne nécessite pas d'utiliser les Paynyms. Elle peut être réalisée directement, sans étapes de préparation. Pour ce faire, suivez notre tutoriel vidéo sur Sparrow Wallet : 
-
-
-
-
+![Tutoriel Stonewall - Sparrow Wallet](https://youtu.be/su89ljkV_OI?si=1jNaSJGvECUYe6Or)
 

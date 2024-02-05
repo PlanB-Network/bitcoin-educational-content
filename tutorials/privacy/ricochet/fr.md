@@ -20,6 +20,5 @@ description: Comprendre et utiliser les transactions Ricochet
 
 
 ## Comment faire une transaction Ricochet sur Samourai Wallet ?
-
-
-
+Pour réaliser une transaction Ricochet depuis l'application Samourai Wallet, suivez notre tutoriel vidéo :
+![tuto vidéo youtube ricochet](https://youtu.be/Gsz0zuVo3N4)

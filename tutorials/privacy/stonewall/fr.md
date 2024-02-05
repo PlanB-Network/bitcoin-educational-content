@@ -2,10 +2,9 @@
 name: Stonewall
 description: Comprendre et utiliser les transactions Stonewall
 ---
+![cover stonewall](assets/cover.webp)
 
-
-
-> *Make every spend a coinjoin.*
+> *"Break the assumptions of blockchain analysis with mathematically provable doubt between sender and recipient of your transactions."*
 
 ## C'est quoi une transaction Stonewall ?
 Stonewall est une forme spécifique de transaction Bitcoin visant à accroître la confidentialité des utilisateurs lors d'une dépense en imitant un coinjoin entre deux personnes, sans pour autant en être un. En effet, cette transaction n'est pas collaborative. Un utilisateur peut la construire tout seul, en faisant uniquement intervenir les UTXO lui appartenant en input. Vous pouvez donc créer une transaction Stonewall pour n'importe quelle occasion, sans avoir besoin de vous synchroniser avec un autre utilisateur.

@@ -35,3 +35,7 @@ Pour réaliser une transaction Ricochet depuis l'application Samourai Wallet, su
 Si vous souhaitez étudier les transactions Ricochet effectuée dans ce tutoriel, les voici :
 - La première transaction du Ricochet : [8deec9054dab10a35897b5efe0b3418e5012983888f8674835a9989a494921dc](https://mempool.space/fr/testnet/tx/8deec9054dab10a35897b5efe0b3418e5012983888f8674835a9989a494921dc)
 - La dernière transaction du Ricochet : [27980ce507630882f2a1ef94b941a0a3e086b80b10faf7bd168f3ebb4c3e4777](https://mempool.space/fr/testnet/tx/27980ce507630882f2a1ef94b941a0a3e086b80b10faf7bd168f3ebb4c3e4777)
+
+**Ressources externes :**
+- https://docs.samourai.io/en/wallet/features/ricochet ;
+- https://samouraiwallet.com/ricochet.

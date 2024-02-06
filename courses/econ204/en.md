@@ -16,7 +16,7 @@ Here, we will highlight trends and common patterns in episodes of hyperinflation
 
 +++
 
-# Section 1 - Introduction
+# Introduction
 
 ## Introduction
 
@@ -65,9 +65,9 @@ Section 6 - How to protect yourself from hyperinflation (Rogzy)
 
 Good luck!
 
-# Section 2 - What is inflation?
+# What is inflation?
 
-## 2.1 - A monetary phenomenon
+## A monetary phenomenon
 
 ### Definitions of inflation
 
@@ -230,7 +230,7 @@ This analysis demonstrates that trust in currency, and by extension its value, w
 
 In conclusion, this study on monetary devaluation opens the door to a deep understanding of inflation mechanisms, which will be explored in the following videos. We will discuss the different types of inflation and the threshold at which they transition to high or hyperinflation. This solid foundation will allow us to address the complexities of inflation in the upcoming sessions. Thank you for your attention, and see you in the next video to continue this exploration of monetary dynamics.
 
-## 2.2 - Types of Inflation
+## Types of Inflation
 
 ### Inflation is not a multifactorial phenomenon
 
@@ -407,9 +407,9 @@ What emerges from our exploration is that hyperinflation is a complex and counte
 In our future discussions, we will delve deeper into hyperinflation, exploring its definitions and manifestations in various economic contexts. Our goal will be to uncover the underlying mechanisms of hyperinflation and explore potential solutions to address it. This nuanced understanding will enable us to better grasp the associated challenges and propose informed strategies for inflation management.
 Thank you for your attention. The next session will be entirely dedicated to defining and demystifying hyperinflation, taking into account different academic and practical perspectives. We look forward to continuing this exploration with you in our next meeting.
 
-# Section 3 - What is hyperinflation?
+# What is hyperinflation?
 
-## 3.1 - Definitions of hyperinflation
+## Definitions of hyperinflation
 
 ### Definitions of hyperinflation
 
@@ -463,7 +463,7 @@ Common definitions of hyperinflation, such as the one put forward by Kagan stati
 
 It should be noted that certain historical periods of high inflation are not included in the classic tables of hyperinflation, often due to strict classification criteria. For example, during the American War of Independence in November 1779, and during the American Civil War in March 1864, the monthly inflation rates were 47.4% and 40% respectively. These rates, although high, do not exceed the 50% threshold stipulated by Kagan, thus excluding these periods from being classified as hyperinflation cases. This omission illustrates the limitations of rigid definitions and highlights the need for a more nuanced approach to understanding hyperinflation in all its complexity.
 
-## 3.2 - Weimar vs Zimbabwe similarities
+## Weimar vs Zimbabwe similarities
 
 ### Two eras, two catastrophes
 
@@ -617,7 +617,7 @@ Zimbabwe: "We now used these vouchers to pay rent to landlords, municipal taxes,
 
 This concludes this video on the similarities of the experiences during the periods of hyperinflation in Zimbabwe and the Weimar Republic. In the next video, we will discuss the differences and contemporary parallels. Thank you.
 
-## 3.3 - Weimar vs Zimbabwe: Differences and Contemporary Parallels
+## Weimar vs Zimbabwe: Differences and Contemporary Parallels
 
 Transcript:
 
@@ -709,7 +709,7 @@ Imagine a scenario where you have a family or loved ones that you want to protec
 
 Today, in the face of declining purchasing power, investment takes over. However, this approach comes with its own risks. Savings have always been a remedy against uncertainty. Having financial reserves to manage unforeseen situations contributes to peace of mind and strengthens social cohesion. In conclusion, protecting our purchasing power is essential to maintain social and individual stability.
 
-## 3.4 - Redenominations in Latin America
+## Redenominations in Latin America
 
 We will now look at different periods of redenomination in Latin American countries.
 
@@ -810,7 +810,7 @@ Based on the criterion of 50% inflation per month, several periods could have be
 
 In conclusion, hyperinflation is just one aspect of economic challenges. High inflation alone can be equally damaging. The next section will explore possible solutions to overcome hyperinflation.
 
-## 3.5 - How to overcome hyperinflation
+## How to overcome hyperinflation
 
 ### How to end moderate and high inflation
 The conclusions mentioned are drawn from the book "Monetary Regime and Inflation" by Bernold. According to Bernold, the only method to end inflation is to carry out a monetary reform and impose restrictions on the government. These restrictions involve the establishment of an institution, such as a central bank, that operates independently from the government's political decisions. High and hyperinflation are often the result of financing budget deficits through monetary creation. To address moderate inflation, it is essential to decrease the growth of the money supply. Bernold also suggests that this monetary growth should be relative to neighboring countries. A surprising point is that, during periods of high or hyperinflation, the total value of the money supply can actually decrease. A striking example of this situation is Zimbabwe.
@@ -857,13 +857,13 @@ In my book titled "Everything About Bitcoin," I dedicated an entire chapter to h
 
 The key takeaway is that there are several strategies to overcome hyperinflation. One can opt for dollarization or introduce a new currency. These solutions will only work if the population has confidence in them. It is crucial to impose strict constraints. A truly independent central bank is essential. It must not inflate the money supply to cover government deficits. In the case of mild inflation, limiting the growth of the money supply should suffice. However, when faced with hyperinflation, it is crucial to first have an appropriate money supply for the size of the economy in question. Then, it is imperative to impose strict constraints on the government to stabilize the situation.
 
-## 3.6 - Presentation of the hyperinflation banknote collection
+## Presentation of the hyperinflation banknote collection
 
 The link to the scanned collection is available in the Bitcoin Educational Toolkit, accessible from the Resources section of the platform.
 
-# Section 4 - How did we get here?
+# How did we get here?
 
-## 4.1 - The Emergence of the Second Layer of Money and Central Banks
+## The Emergence of the Second Layer of Money and Central Banks
 
 Transcript:
 

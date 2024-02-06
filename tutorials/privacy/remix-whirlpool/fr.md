@@ -2,6 +2,10 @@
 name: Remix - Whirlpool
 description: Combien faut-il faire de remix sur Whirlpool ?
 ---
+![cover remix- wp](assets/cover.webp)
+
+> *"Break the link your coins leave behind"*
+
 Voilà une question que l'on me pose très souvent. **Lorsque l'on fait des coinjoins avec Whirlpool, combien de remix faut-il faire pour avoir un résultat satisfaisant ?**
 
 L'utilité du coinjoin réside dans sa capacité à offrir du déni plausible, en noyant votre pièce au sein d'un groupe de pièces indifférenciables. Le but recherché par cette action est de briser les liens de traçabilité, tant du passé vers le présent que du présent vers le passé. Autrement dit, un analyste connaissant votre transaction initiale à l'entrée des cycles de coinjoins ne devrait pas être en mesure d'identifier avec certitude votre UTXO à la sortie des cycles de remix (analyse entrée de cycles vers sortie de cycles).
@@ -40,3 +44,9 @@ Elle affiche ainsi un score rétrospectif de `34 593` et un score prospectif de 
 C'est la raison pour laquelle je considère l'utilisation de Whirlpool comme particulièrement pertinente dans une stratégie `Hodl -> Mix -> Spend -> Replace`. À mon avis, la démarche la plus logique consiste à conserver l'essentiel de son épargne en bitcoins dans un cold wallet, tout en maintenant en permanence un certain nombre de pièces en coinjoin sur Samourai pour pouvoir couvrir les dépenses quotidiennes. Une fois les bitcoins issus des coinjoins dépensés, ils sont remplacés par de nouveaux, afin de revenir au seuil de pièces en mix que l'on a défini. Cette méthode permet de se libérer de la préoccupation des anonsets de nos UTXO, tout en rendant le délai nécessaire à l'efficacité des coinjoins bien moins contraignant.
 
 J'espère que cette réponse vous aura éclairé sur le modèle de Whirlpool. Si vous souhaitez en savoir plus sur le fonctionnement des coinjoins sur Bitcoin, je vous conseille de lire [mon article complet sur ce sujet](https://planb.network/tutorials/privacy/coinjoin).
+
+**Ressources externes :** 
+- https://samouraiwallet.com/whirlpool ;
+- https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923 ;
+- https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/ ;
+- https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.

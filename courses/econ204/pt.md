@@ -16,7 +16,7 @@ Aqui, destacaremos as tendências e padrões comuns nos episódios de hiperinfla
 
 +++
 
-# Seção 1 - Introdução
+# Introdução
 
 ## Introdução
 
@@ -36,9 +36,9 @@ Seção 2 - O que é inflação?
 - 2.2 - Os tipos de inflação
 - 2.3 - A deflação
 
-# Seção 2 - O que é inflação?
+# O que é inflação?
 
-## 2.1 - Um fenômeno monetário
+## Um fenômeno monetário
 
 ### Definições de inflação
 
@@ -204,7 +204,7 @@ Essa análise demonstra que a confiança na moeda, e por extensão seu valor, es
 
 Ao concluir, este estudo sobre a desvalorização monetária abre caminho para uma compreensão aprofundada dos mecanismos da inflação, que serão explorados nos próximos vídeos. Discutiremos os diferentes tipos de inflação e o limiar em que eles se transformam em inflação alta ou hiperinflação. Essa base sólida nos permitirá abordar as complexidades da inflação nas próximas sessões. Obrigado pela atenção e nos vemos no próximo vídeo para continuar essa exploração das dinâmicas monetárias.
 
-## 2.2 - Os tipos de inflação
+## Os tipos de inflação
 
 ### A inflação não é um fenômeno multifatorial
 
@@ -382,9 +382,9 @@ O que emerge de nossa exploração é que a hiperinflação é um fenômeno comp
 Em nossas futuras discussões, mergulharemos mais profundamente na hiperinflação, explorando suas definições e manifestações em diversos contextos econômicos. Nosso objetivo será revelar os mecanismos subjacentes da hiperinflação e explorar soluções potenciais para lidar com ela. Essa compreensão equilibrada nos permitirá entender melhor os desafios associados e propor estratégias informadas para a gestão da inflação.
 Obrigado pela sua atenção. A próxima sessão será totalmente dedicada a definir e desmistificar a hiperinflação, levando em consideração diferentes perspectivas acadêmicas e práticas. Estamos ansiosos para continuar essa exploração com você em nosso próximo encontro.
 
-# Seção 3 - O que é hiperinflação?
+# O que é hiperinflação?
 
-## 3.1 - Definições de hiperinflação
+## Definições de hiperinflação
 
 ### Definições de hiperinflação
 
@@ -439,7 +439,7 @@ Definições comuns de hiperinflação, como a proposta por Kagan, que estabelec
 
 É importante observar que alguns períodos históricos de alta inflação não estão presentes nas tabelas clássicas de hiperinflação, muitas vezes devido aos critérios rigorosos de classificação. Por exemplo, durante a Guerra de Independência dos Estados Unidos em novembro de 1779 e durante a Guerra Civil Americana em março de 1864, as taxas de inflação mensal eram de 47,4% e 40%, respectivamente. Essas taxas, embora altas, não ultrapassam o limite de 50% estipulado por Kagan, excluindo assim esses períodos dos casos classificados como hiperinflação. Essa omissão ilustra as limitações das definições rígidas e destaca a necessidade de uma abordagem mais sutil para compreender a hiperinflação em toda a sua complexidade.
 
-## 3.2 - Semelhanças entre Weimar e Zimbabwe
+## Semelhanças entre Weimar e Zimbabwe
 
 ### Duas épocas, duas catástrofes
 
@@ -597,7 +597,7 @@ Zimbábue: "Esses vales, agora os usamos para pagar aluguéis aos proprietários
 
 Isso conclui este vídeo sobre as semelhanças das experiências vividas durante os períodos de hiperinflação no Zimbábue e na República de Weimar. No próximo vídeo, falaremos sobre as diferenças e paralelos contemporâneos. Obrigado.
 
-## 3.3 - Diferenças entre Weimar e Zimbábue e paralelos contemporâneos
+## Diferenças entre Weimar e Zimbábue e paralelos contemporâneos
 
 Neste capítulo, exploraremos as diferenças e paralelos entre os períodos de hiperinflação passados e contemporâneos, com histórias e comparações relevantes para os dias de hoje.
 
@@ -690,7 +690,7 @@ Imagine um cenário em que você tem uma família ou entes queridos que você de
 
 Hoje, diante da queda do poder de compra, o investimento assume o controle. No entanto, essa abordagem tem seus próprios riscos. A poupança sempre foi um remédio contra a incerteza. Ter reservas financeiras para lidar com situações imprevistas contribui para a paz de espírito e fortalece a coesão social. Em conclusão, a proteção do nosso poder de compra é essencial para manter a estabilidade social e individual.
 
-## 3.4 - As redenominações na América Latina
+## As redenominações na América Latina
 
 Vamos analisar juntos diferentes períodos de redenominação em países da América Latina.
 
@@ -791,7 +791,7 @@ Com base no critério de 50% de inflação por mês, várias épocas poderiam te
 
 Em conclusão, a hiperinflação é apenas um aspecto dos desafios econômicos. A alta inflação, por si só, pode ser igualmente prejudicial. A próxima seção explorará possíveis soluções para sair da hiperinflação.
 
-## 3.5 - Como sair da hiperinflação
+## Como sair da hiperinflação
 
 ### Como acabar com a inflação moderada e a alta inflação
 
@@ -841,14 +841,14 @@ No meu livro intitulado "Tudo sobre o Bitcoin", dediquei um capítulo inteiro à
 
 A principal coisa a se lembrar é que existem várias estratégias para sair da hiperinflação. Pode-se optar pela dolarização ou pela introdução de uma nova moeda. Essas soluções só funcionarão se a população confiar nelas. É crucial impor restrições rigorosas. Um banco central verdadeiramente independente é essencial. Ele não deve aumentar a oferta monetária para cobrir os déficits do governo. Em caso de inflação leve, limitar o crescimento da oferta monetária deve ser suficiente. No entanto, quando se enfrenta uma hiperinflação, é primordial, primeiro, ter uma oferta monetária adequada ao tamanho da economia em questão. Em seguida, é imperativo impor restrições rigorosas ao governo para estabilizar a situação.
 
-## 3.6 - Apresentação da coleção de notas de hiperinflação
+## Apresentação da coleção de notas de hiperinflação
 
 
 O link para a coleção digitalizada está disponível no Bitcoin Educational Toolkit, acessível na seção Recursos da plataforma.
 
-# Seção 4 - Como chegamos até aqui?
+# Como chegamos até aqui?
 
-## 4.1 - O surgimento da segunda camada monetária e dos bancos centrais
+## O surgimento da segunda camada monetária e dos bancos centrais
 
 O surgimento da segunda camada monetária e dos primeiros bancos centrais é um assunto fascinante. Esse tema é amplamente abordado no livro "Layered Money" de Nick Battia. Eu o recomendo fortemente para aqueles que estão interessados na evolução e nas sutilezas dos nossos sistemas monetários. O objetivo desta seção é entender a origem da criação monetária e como isso pode levar à hiperinflação.
 

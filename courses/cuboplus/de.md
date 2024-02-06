@@ -33,7 +33,7 @@ Das Ziel des Kurses ist es, den Teilnehmern ein tiefes Verständnis der zugrunde
 
 Die Teilnehmer sollten eine starke Neugier, den Wunsch auf professionellem Niveau zu lernen, und grundlegende Kenntnisse in der Entwicklung mitbringen. Obwohl ein detaillierter Hintergrund in Bitcoin nicht erforderlich ist, sind ein grundlegendes Verständnis von Programmierprinzipien und die Bereitschaft, sich mit komplexen technischen Konzepten auseinanderzusetzen, entscheidend, um das Beste aus dem Beschleuniger herauszuholen.
 
-## Modul 1 - Warum Bitcoin
+## Warum Bitcoin
 
 ### Warum El Salvador Bitcoin braucht
 
@@ -52,7 +52,7 @@ Außerdem konzentrierte sich unsere Diskussion auf die Österreichische Schule d
 Es ist wichtig zu beachten, dass das erste Modul, 'Warum Bitcoin', notwendig war, um die Wurzeln und Ziele zu verstehen, bevor wir zu 'Wie Bitcoin' übergehen, wo wir die zugrunde liegende Technologie von Bitcoin und die Entscheidungen, die die ersten Entwickler im Protokoll getroffen haben, entdecken werden.
 Hier ist der Link, viel Spaß!
  
-## Modul 2 - Wie Bitcoin
+## Wie Bitcoin
 
 ### Technologiestapel von Bitcoin
 
@@ -66,7 +66,7 @@ In der ersten Konferenz des Kurses 'Wie Bitcoin' haben wir damit begonnen, den T
 
 Während der zweiten Konferenz von 'Wie Bitcoin' haben wir eine tiefere Untersuchung des Technologiestapels von Bitcoin durchgeführt.
 
-## Modul 3 - Bitcoin entzaubern
+## Bitcoin entzaubern
 
 ### Schluss mit der FUD
 
@@ -74,7 +74,7 @@ Während der zweiten Konferenz von 'Wie Bitcoin' haben wir eine tiefere Untersuc
 
 Entzauberung von Blockchains und Shitcoins sowie Entzauberung von Mythen und Missverständnissen über den Energieverbrauch von Bitcoin und seine kriminelle Nutzung.
 
-## Modul 4 - Bitcoin ausführen
+## Bitcoin ausführen
 
 ### Installation von Bitcoin Core
 
@@ -94,7 +94,7 @@ In unserer zweiten Vorlesung sind wir tiefer in den Installationsprozess von C-l
 
 In der dritten Vorlesung haben wir Themen im Zusammenhang mit Sicherheit, Hardware-Geräten und der Konfiguration von Specter behandelt.
 
-## Modul 5 - Bitcoin verbessern
+## Bitcoin verbessern
 
 ### Offene Probleme im Bitcoin-Ökosystem
 

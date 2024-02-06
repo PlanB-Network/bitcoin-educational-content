@@ -16,7 +16,7 @@ Qui metteremo in luce le tendenze e i modelli comuni negli episodi di iperinflaz
 
 +++
 
-# Sezione 1 - Introduzione
+# Introduzione
 
 ## Introduzione
 
@@ -65,9 +65,9 @@ Sezione 6 - Come proteggersi dall'iperinflazione (Rogzy)
 
 Buona fortuna!
 
-# Sezione 2 - Cos'è l'inflazione?
+# Cos'è l'inflazione?
 
-## 2.1 - Un fenomeno monetario
+## Un fenomeno monetario
 
 ### Le definizioni dell'inflazione
 
@@ -194,7 +194,7 @@ Questa analisi dimostra che la fiducia nella moneta, e di conseguenza il suo val
 
 Concludendo, questo studio sulla svalutazione monetaria apre la porta a una comprensione approfondita dei meccanismi dell'inflazione, che saranno esplorati nei video successivi. Discuteremo dei diversi tipi di inflazione e della soglia in cui si trasformano in inflazione alta o iperinflazione. Questa solida base ci permetterà di affrontare le complessità dell'inflazione nelle prossime sessioni. Grazie per l'attenzione e ci vediamo nel prossimo video per continuare questa esplorazione delle dinamiche monetarie.
 
-## 2.2 - I tipi di inflazione
+## I tipi di inflazione
 
 ### L'inflazione non è un fenomeno multifattoriale
 
@@ -375,9 +375,9 @@ Ciò che emerge dalla nostra esplorazione è che l'iperinflazione è un fenomeno
 Nelle nostre future discussioni, approfondiremo ulteriormente l'iperinflazione, esplorando le sue definizioni e manifestazioni in vari contesti economici. Il nostro obiettivo sarà quello di svelare i meccanismi sottostanti dell'iperinflazione e di esplorare le possibili soluzioni per affrontarla. Questa comprensione sfumata ci permetterà di affrontare meglio le sfide associate e di proporre strategie informate per la gestione dell'inflazione.
 Grazie per la vostra attenzione, la prossima sessione sarà interamente dedicata a definire e svelare l'iperinflazione, tenendo conto delle diverse prospettive accademiche e pratiche. Siamo entusiasti di continuare questa esplorazione con voi nel nostro prossimo incontro.
 
-# Sezione 3 - Cos'è l'iperinflazione?
+# Cos'è l'iperinflazione?
 
-## 3.1 - Le definizioni di iperinflazione
+## Le definizioni di iperinflazione
 
 ### Le definizioni di iperinflazione
 
@@ -433,7 +433,7 @@ Le definizioni comuni di iperinflazione, come quella avanzata da Kagan che stabi
 
 È importante notare che alcuni periodi storici di alta inflazione non sono inclusi nelle tabelle classiche dell'iperinflazione, spesso a causa dei criteri rigorosi di classificazione. Ad esempio, durante la guerra d'indipendenza degli Stati Uniti nel novembre 1779 e durante la guerra civile americana nel marzo 1864, i tassi di inflazione mensile erano rispettivamente del 47,4% e del 40%. Questi tassi, sebbene elevati, non superano la soglia del 50% stabilita da Kagan, escludendo così questi periodi dai casi classificati come iperinflazione. Questa omissione illustra i limiti delle definizioni rigide e sottolinea la necessità di un approccio più sfumato per comprendere l'iperinflazione nella sua complessità.
 
-## 3.2 - Similitudini tra Weimar e Zimbabwe
+## Similitudini tra Weimar e Zimbabwe
 
 ### Due epoche, due catastrofi
 
@@ -649,7 +649,7 @@ Immagina uno scenario in cui hai una famiglia o delle persone care che desideri 
 
 Oggi, di fronte alla diminuzione del potere d'acquisto, gli investimenti prendono il sopravvento. Tuttavia, questo approccio comporta i suoi rischi. Il risparmio è sempre stato un rimedio contro l'incertezza. Avere riserve finanziarie per gestire situazioni impreviste contribuisce a una serenità mentale e rafforza la coesione sociale. In conclusione, la protezione del nostro potere d'acquisto è essenziale per mantenere la stabilità sociale e individuale.
 
-## 3.4 - Le riforme valutarie in America Latina
+## Le riforme valutarie in America Latina
 
 Guarderemo insieme diverse fasi di riforme valutarie in paesi dell'America Latina.
 
@@ -751,7 +751,7 @@ Basandosi sul criterio del 50% di inflazione al mese, diverse periodi avrebbero 
 
 In conclusione, l'iperinflazione è solo un aspetto delle sfide economiche. L'alta inflazione, da sola, può essere altrettanto dannosa. La prossima sezione esplorerà le possibili soluzioni per uscire dall'iperinflazione.
 
-## 3.5 - Come uscire dall'iperinflazione
+## Come uscire dall'iperinflazione
 
 ### Come porre fine all'inflazione moderata e all'alta inflazione
 
@@ -801,13 +801,13 @@ Nel mio libro intitolato "Tutto su Bitcoin", ho dedicato un intero capitolo all'
 
 La cosa più importante da ricordare è che ci sono diverse strategie per uscire dall'iperinflazione. Si può optare per la dolarizzazione o introdurre una nuova valuta. Queste soluzioni funzioneranno solo se la popolazione ha fiducia in esse. È fondamentale imporre restrizioni rigorose. Una banca centrale veramente indipendente è essenziale. Non deve aumentare la massa monetaria per coprire i deficit governativi. In caso di inflazione lieve, limitare la crescita della massa monetaria dovrebbe essere sufficiente. Tuttavia, quando si affronta un'iperinflazione, è fondamentale prima avere una massa monetaria adeguata alla dimensione dell'economia in questione. Inoltre, è imperativo imporre restrizioni severe al governo per stabilizzare la situazione.
 
-## 3.6 - Presentazione della collezione di banconote iperinflazionate
+## Presentazione della collezione di banconote iperinflazionate
 
 Il link alla collezione digitalizzata è disponibile nel Bitcoin Educational Toolkit, accessibile dalla sezione Risorse della piattaforma.
 
-# Sezione 4 - Come siamo arrivati qui?
+# Come siamo arrivati qui?
 
-## 4.1 - L'emergere del secondo strato della moneta e delle banche centrali
+## L'emergere del secondo strato della moneta e delle banche centrali
 
 L'emergere del secondo strato della moneta e delle prime banche centrali è un argomento affascinante. Questo tema è ampiamente trattato nel libro "Layered Money" di Nick Battia. Lo consiglio vivamente a coloro che sono interessati all'evoluzione e alle sfumature dei nostri sistemi monetari. L'obiettivo di questa sezione è comprendere l'origine della creazione monetaria e come ciò abbia potuto portare all'iperinflazione.
 

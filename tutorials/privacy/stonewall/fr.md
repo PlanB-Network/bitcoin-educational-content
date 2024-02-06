@@ -50,3 +50,7 @@ Contrairement aux transactions Stowaway ou Stonewall x2 (cahoots), la transactio
 Contrairement aux transactions Stowaway ou Stonewall x2 (cahoots), la transaction Stonewall ne nécessite pas d'utiliser les Paynyms. Elle peut être réalisée directement, sans étapes de préparation. Pour ce faire, suivez notre tutoriel vidéo sur Sparrow Wallet : 
 ![Tutoriel Stonewall - Sparrow Wallet](https://youtu.be/su89ljkV_OI?si=1jNaSJGvECUYe6Or)
 
+
+**Ressources externes :**
+- https://docs.samourai.io/en/spend-tools#stonewall ;
+- https://samouraiwallet.com/stonewall.

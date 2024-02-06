@@ -32,7 +32,7 @@ Il corso mira a fornire ai partecipanti una profonda comprensione dei principi f
 
 Si prevede che i partecipanti abbiano una forte curiosità, una volontà di apprendere a livello professionale e una conoscenza di base dello sviluppo. Sebbene non sia richiesta una conoscenza dettagliata di Bitcoin, è essenziale avere una comprensione di base dei principi di programmazione e una predisposizione ad affrontare concetti tecnici complessi per trarre il massimo vantaggio dall'acceleratore.
 
-## Modulo 1 - Perché Bitcoin
+## Perché Bitcoin
 
 ### Perché El Salvador ha bisogno di Bitcoin
 
@@ -52,7 +52,7 @@ Abbiamo esplorato concetti come la scarsità, la preferenza temporale, la durabi
 È importante notare che il primo modulo, 'Perché Bitcoin', era necessario per comprendere le radici e gli obiettivi prima di passare a 'Come Bitcoin', dove scopriremo il sistema tecnologico di Bitcoin e i compromessi fatti dai primi sviluppatori nel protocollo.
 Ecco il link, goditi!
 
-## Modulo 2 - Come Bitcoin
+## Come Bitcoin
 
 ### Stack Tecnologico di Bitcoin
 
@@ -66,7 +66,7 @@ Nella prima lezione del corso 'Come Bitcoin', abbiamo iniziato ad esplorare l'in
 
 Durante la seconda lezione di 'Come Bitcoin', abbiamo condotto un'esaminazione più approfondita dello stack tecnologico di Bitcoin.
 
-## Modulo 3 - Smontare Bitcoin
+## Smontare Bitcoin
 
 ### Smentire le FUD
 
@@ -74,7 +74,7 @@ Durante la seconda lezione di 'Come Bitcoin', abbiamo condotto un'esaminazione p
 
 Smentendo le blockchains e le shitcoin e Smentendo i miti e le concezioni errate sullo spreco di energia di Bitcoin e sull'uso criminale
 
-## Modulo 4 - Esecuzione di Bitcoin
+## Esecuzione di Bitcoin
 
 ### Installazione di Bitcoin Core
 
@@ -94,7 +94,7 @@ Durante la nostra seconda lezione, ci siamo addentrati nel processo di installaz
 
 Nella terza lezione, abbiamo affrontato argomenti legati alla sicurezza, ai dispositivi hardware e alla configurazione di Specter
 
-## Modulo 5 - Migliorare Bitcoin
+## Migliorare Bitcoin
 
 ### Problemi aperti nell'ecosistema Bitcoin
 

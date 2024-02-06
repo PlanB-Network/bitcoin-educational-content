@@ -105,3 +105,7 @@ Si vous avez réalisé les étapes préalables de connexion des Paynyms, vous ê
 
 Si vous avez réalisé les étapes préalables de connexion des Paynyms, vous êtes enfin prêt pour réaliser la transaction Stonewall x2 ! Pour ce faire, suivez notre tutoriel vidéo sur Sparrow Wallet :
 ![Tutoriel Stonewall x2 - Sparrow Wallet](https://youtu.be/mO3Xpp34Hhk?si=bfYiTl0Gxjs9sNQq)
+
+**Ressources externes :** 
+- https://sparrowwallet.com/docs/spending-privately.html ;
+- https://docs.samourai.io/en/spend-tools#stonewallx2.

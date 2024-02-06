@@ -51,3 +51,7 @@ Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opéra
 Si vous avez réalisé ces quelques étapes préalables, vous êtes enfin prêt pour réaliser la transaction Payjoin ! Pour ce faire, suivez notre tutoriel vidéo :
 
 ![Tutoriel Payjoin - Sparrow Wallet](https://youtu.be/ZQxKod3e0Mg)
+
+**Ressources externes :** 
+- https://docs.samourai.io/en/spend-tools#stowaway ;
+- https://sparrowwallet.com/docs/spending-privately.html.

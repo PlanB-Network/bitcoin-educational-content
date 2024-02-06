@@ -2,7 +2,7 @@
 name: Payjoin - Sparrow Wallet
 description: Comment faire une transaction Payjoin sur Sparrow Wallet ?
 ---
-![couverture article tuto sparrow payjoin](assets/cover.png)
+![couverture article tuto sparrow payjoin](assets/cover.jpeg)
 
 > *"Force blockchain spies to rethink everything they think they know."*
 

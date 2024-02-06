@@ -16,7 +16,7 @@ Ici nous mettrons en lumière les tendances et les motifs communs dans les épis
 
 +++
 
-# Section 1 - Introduction
+# Introduction
 
 ## Introduction
 
@@ -67,9 +67,9 @@ Section 6 - Comment se protéger de l’hyperinflation (Rogzy)
 
 Bonne chance !
 
-# Section 2 - Qu’est-ce que l’inflation ?
+# Qu’est-ce que l’inflation ?
 
-## 2.1 - Un phénomène monétaire
+## Un phénomène monétaire
 
 ![video ](https://youtu.be/Hg8L_PIs008)
 
@@ -247,7 +247,7 @@ Cette analyse démontre que la confiance en la monnaie, et par extension sa vale
 
 En concluant, cette étude sur la dévaluation monétaire ouvre la porte à une compréhension approfondie des mécanismes d'inflation, qui seront explorés dans les vidéos suivantes. Nous discuterons des différents types d'inflation et du seuil où ils basculent vers une haute ou hyperinflation. Cette base solide nous permettra d'aborder les complexités de l'inflation dans les sessions à venir. Merci pour votre attention, et rendez-vous dans la prochaine vidéo pour poursuivre cette exploration des dynamiques monétaires.
 
-## 2.2 - Les types d’inflation
+## Les types d’inflation
 
 ![ Video](https://youtu.be/hHk5oV8HsNQ)
 
@@ -441,9 +441,9 @@ Dans nos discussions futures, nous plongerons plus profondément dans l'hyperinf
 
 Merci pour votre attention la prochaine session sera entièrement dédiée à définir et à démystifier l'hyperinflation, en tenant compte des différentes perspectives académiques et pratiques. Nous nous réjouissons de poursuivre cette exploration avec vous lors de notre prochaine rencontre.
 
-# Section 3 - Qu’est-ce que l’hyperinflation ?
+# Qu’est-ce que l’hyperinflation ?
 
-## 3.1 - Les définitions de l'hyperinflation
+## Les définitions de l'hyperinflation
 
 ![video provisoire 3.1 ](https://youtu.be/qYMR-i7TtHY)
 
@@ -527,7 +527,7 @@ Les définitions courantes d'hyperinflation, comme celle avancée par Kagan stip
 
 Il est à noter que certaines périodes historiques d'inflation élevée ne figurent pas dans les tableaux classiques d'hyperinflation, souvent en raison des critères stricts de classification. Par exemple, pendant la guerre d'indépendance des États-Unis en novembre 1779, et durant la guerre civile américaine en mars 1864, les taux d'inflation mensuels étaient respectivement de 47,4% et 40%. Ces taux, bien que élevés, ne dépassent pas le seuil de 50% stipulé par Kagan, excluant ainsi ces périodes des cas classés comme hyperinflation. Cette omission illustre les limites des définitions rigides et souligne la nécessité d'une approche plus nuancée pour appréhender l'hyperinflation dans toute sa complexité.
 
-## 3.2 - Weimar vs Zimbabwe similitudes
+## Weimar vs Zimbabwe similitudes
 
 ![Video](https://youtu.be/xqMESvFi7J8)
 
@@ -715,7 +715,7 @@ Zimbabwe : "Ces bons, nous les utilisions désormais pour payer les loyers aux p
 
 C'est ce qui complète cette vidéo au sujet des similitudes des expériences vécues durant les périodes d'hyperinflation du Zimbabwe et de la République de Weimar. Dans la prochaine vidéo, on va parler des différences et des parallèles contemporains. Merci.
 
-## 3.3 - Weimar vs Zimbabwe différences et parallèle contemporains
+## Weimar vs Zimbabwe différences et parallèle contemporains
 
 ![Video](https://youtu.be/jh_MOKDPmQQ)
 
@@ -826,7 +826,7 @@ Imaginez un scénario où vous avez une famille ou des proches que vous souhaite
 
 Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le relais. Cependant, cette approche comporte ses propres risques. L'épargne a toujours été un remède contre l'incertitude. Avoir des réserves financières pour gérer des situations imprévues contribue à une sérénité d'esprit et renforce la cohésion sociale. En conclusion, la protection de notre pouvoir d'épargne est essentielle pour maintenir la stabilité sociale et individuelle.
 
-## 3.4 - Les redénominations en Amérique Latine
+## Les redénominations en Amérique Latine
 
 ![Vidoe](https://youtu.be/m2pcmbEzKyc)
 
@@ -939,7 +939,7 @@ En se basant sur le critère du 50% d'inflation par mois, plusieurs périodes au
 
 En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La haute inflation, à elle seule, peut être tout aussi dommageable. La prochaine section explorera les solutions possibles pour sortir de l'hyperinflation.
 
-## 3.5 - Comment sortir de l’hyperinflation
+## Comment sortir de l’hyperinflation
 
 ![video](https://youtu.be/9PYH7ut3fq0)
 
@@ -993,15 +993,15 @@ Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier
 
 L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusieurs stratégies. On peut opter pour la dollarisation ou introduire une nouvelle monnaie. Ces solutions ne fonctionneront que si la population a confiance en elles. Il est crucial d'imposer des contraintes rigoureuses. Une banque centrale véritablement indépendante est essentielle. Elle ne doit pas gonfler la masse monétaire pour combler les déficits gouvernementaux. En cas d'inflation légère, limiter la croissance de la masse monétaire devrait suffire. Toutefois, lorsqu'on est confronté à une hyperinflation, il est primordial d'abord d'avoir une masse monétaire appropriée à la taille de l'économie en question. Ensuite, il est impératif d'imposer des contraintes strictes au gouvernement pour stabiliser la situation.
 
-## 3.6 - Présentation de la collection de billets d’hyperinflation
+## Présentation de la collection de billets d’hyperinflation
 
 ![video](https://youtu.be/h1uwR3Yge1M)
 
 Le lien vers la collection scannée est disponible dans le Bitcoin Educational Toolkit, accessible depuis la section Ressources de la plateforme.
 
-# Section 4 - Comment en sommes nous arrivés là ?
+# Comment en sommes nous arrivés là ?
 
-## 4.1 - L’émergence de la deuxième couche de la monnaie et des banques centrales
+## L’émergence de la deuxième couche de la monnaie et des banques centrales
 
 ![video](https://youtu.be/cEon5lVtKZE)
 

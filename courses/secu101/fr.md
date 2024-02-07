@@ -245,7 +245,7 @@ Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, eff
 
 Nous entamons désormais la section 2 du cours. Dans cette section, nous aborderons trois sujets essentiels pour assurer la sécurité des accès en ligne : la gestion des mails, l'utilisation d'un gestionnaire de mots de passe et l'authentification à deux facteurs (2FA).
 
-## Mise en place d'une nouvelle boite mail !
+### Mise en place d'une nouvelle boite mail !
 
 La boîte mail est le point central de votre activité en ligne : si elle est compromise, un pirate peut l'utiliser pour recréer tous vos mots de passe via la fonction "mot de passe oublié" et ainsi avoir accès à de nombreux autres sites. C'est pourquoi vous devez bien la sécuriser.
 
@@ -268,10 +268,6 @@ Il est conseillé d'utiliser le site Have I Been Pwned (Avez-vous été piraté)
 En règle générale, se mettre à utiliser une nouvelle adresse mail plus sécurisée n'est pas une mauvaise pratique et même nécessaire si l'on souhaite repartir sur des bases saines.
 
 Bonus Bitcoin : Il peut être conseillé de créer une adresse mail spécialement pour nos activités Bitcoin (création de comptes d'échange) afin de vraiment séparer les centres d'activité dans nos vies.
-
-### Tutoriel : création compte ProtonMail
-
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Gestionnaire de mots de passe
 
@@ -312,17 +308,6 @@ Pour créer un mot de passe fort, il est recommandé d'utiliser un grand nombre 
 
 Les mots de passe générés de manière aléatoire offrent un niveau de sécurité supérieur, bien qu'ils puissent être plus difficiles à retenir. Les gestionnaires de mots de passe peuvent générer des mots de passe aléatoires plus sécurisés. En utilisant un gestionnaire de mots de passe, vous n'avez pas besoin de mémoriser tous vos mots de passe. Il est important de remplacer progressivement vos anciens mots de passe par ceux générés par le gestionnaire, car ils sont plus forts et plus longs. Assurez-vous que le mot de passe maître de votre gestionnaire de mots de passe est également fort et sécurisé.
 
-### Tutoriel : création d’un mot de passe maître
-
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
-
-### Tutoriel : BitWarden
-
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
-
-### Tutoriel : KeePass
-
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Les 2 facteurs d’authentification
 
@@ -365,9 +350,31 @@ Continuez à apprendre et à mettre en place petit à petit les bonnes pratiques
 
 Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter à votre parcours d'apprentissage !
 
-### Tutoriel : des solutions 2FA et Yubikey
+# Section Pratique 
 
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
+## Mise en place d'un Boite Mail 
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Sécurisation en 2FA
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Création d'un gestionaire de mot de passe
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Sécurisation de vos comptes
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Mise en place de Back-up
+
+![video](https://youtu.be/vc6-Ouca09g)
+
+## Changement de navigateur & VPN
+
+![video](https://youtu.be/wTJnlSUkDRI)
 
 # Allez plus loins
 

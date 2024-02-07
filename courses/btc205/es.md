@@ -18,27 +18,29 @@ Por lo tanto, exploraremos los diferentes tipos de KYC (los full KYC tipo Franci
 
 # Introducción
 
-![introducción por Rogzy](https://youtu.be/3AHeKLTK7Sg)
 
 ## Explicación y tipo de KYC
-
-![explicación de los tipos de KYC](https://youtu.be/kDhXoPU1KtM)
 
 El KYC, para "Know Your Customer" (Conoce a tu cliente), es una norma regulatoria que requiere la recopilación de información privada de los clientes, como su dirección física, su identificación o sus extractos bancarios. Esta práctica es común en las plataformas de corretaje, que pueden solicitar un KYC completo, que incluye información detallada como una identificación, una foto, un comprobante de domicilio, hojas de salario, etc.
 
 El objetivo principal del KYC es combatir el lavado de dinero, el financiamiento del terrorismo y la evasión fiscal. Es una ley establecida por la AMF (Autoridad de los Mercados Financieros), el organismo regulador del mercado francés. Sin embargo, la aplicación del KYC conlleva la centralización de bases de datos muy sensibles que contienen información personal de los usuarios. Esta información, que tiene cierto valor, puede ser vendida a entidades malintencionadas.
+
 En adición, las plataformas de intercambio a menudo solicitan una cantidad excesiva de información personal, poniendo en peligro a los usuarios y aumentando los costos de cumplimiento. Estos costos regulatorios pueden desalentar a las empresas francesas y perjudicar su competitividad a nivel internacional.
+
 Existen tres tipos de KYC, incluyendo el KYC completo que requiere una recopilación completa y regulada de información para acceder al servicio. En Suiza, una alternativa llamada "KYC light" permite la compra y venta de bitcoins sin proporcionar una identificación, siempre y cuando el monto de compra no supere los 1000 euros por día. Soluciones como Relay permiten utilizar este método.
+
 En este marco, las autoridades suizas pueden acceder a la información bancaria para investigar a las personas consideradas de riesgo. Las direcciones de entrega de bitcoins también son rastreables a través del sistema bancario. El KYC light generalmente se considera más simple y menos costoso que el sistema francés.
+
 En Francia, la compra de bitcoins en línea requiere el envío de dinero a un tercero, por transferencia SEPA o Paypal. Para aquellos que prefieren el anonimato, la seguridad y la privacidad, también están disponibles soluciones de compra de bitcoins en efectivo. Para volúmenes bajos, la compra de bitcoins en efectivo es una opción simple y legal.
+
 Para poder vender diariamente PLT de 100 euros de bitcoin a cualquier persona, se requiere regulación por parte de la AMF (Autorité des Marchés Financiers). En Francia, esta regulación se aplica principalmente a particulares que realizan grandes volúmenes de transacciones. Los otros dos métodos de compra de bitcoin incluyen el uso de cajeros automáticos (ATM) y los intercambios entre amigos. Los ATM están regulados y requieren una identificación para transacciones superiores a 500 euros. El intercambio entre amigos, por otro lado, ofrece una exposición discreta al bitcoin.
 Estas medidas regulatorias están en su lugar para contrarrestar el financiamiento del terrorismo, la evasión fiscal y el lavado de dinero. El bitcoin, como base de datos completamente rastreable, hace que el lavado de dinero sea particularmente difícil. El uso de Bitcoin por parte de los delincuentes puede ser rastreado, lo que hace que Bitcoin sea una herramienta poco efectiva para el lavado de dinero.
+
 Es importante tener en cuenta que esta formación presenta diversas alternativas, así como herramientas que pueden ser utilizadas con fines malintencionados o no. Además, ofrece explicaciones sobre el funcionamiento de los libros de órdenes entre los creadores de mercado y los tomadores de órdenes.
+
 También es importante tener en cuenta que la información presentada aquí no respalda ninguna solución en particular. Simplemente se trata de presentar las opciones disponibles para una mejor comprensión del tema. Para cualquier pregunta adicional sobre Bitcoin, no dude en consultar recursos en línea como www.découvrebitcoin.com.
 
 ## Comparativa de soluciones de compra-venta peer-to-peer
-
-![comparativa de soluciones de compra-venta en p2p](https://youtu.be/HiwSjN04Mz0)
 
 Soluciones P2P para la compra de Bitcoin: Bisq, RoboSat, LNP2PBot, Peach y HodlHodl
 
@@ -148,12 +150,6 @@ Ahora veamos los pasos para vender bitcoins en Robosats:
 
 🚨 Tenga cuidado al usar Bisq, ya que es una solución avanzada. Puede que no sea adecuado para usuarios principiantes. Asegúrese de tener cierta experiencia y comprensión antes de comenzar. 🚨
 
-Examinamos esta solución en detalle, aquí están los videos tutoriales:
-
-![parte 1](https://tube.nuagelibre.fr/videos/watch/b3885ea9-23e9-4b58-aa3f-401348da85a1)
-
-![parte 2](https://tube.nuagelibre.fr/videos/watch/53276305-70d6-4c7f-9df9-e100a82eee16)
-
 Para los más hábiles, aquí hay una guía sintética que describe rápidamente los pasos esenciales:
 
 1. Descargar e instalar: Visite el sitio web de Bisq y descargue la aplicación. Instálela en su sistema.
@@ -259,8 +255,6 @@ sitio: https://peachbitcoin.com/
 
 Estamos examinando en detalle esta solución en BTC 205 ofrecido por @pivi\_, aquí están los videos tutoriales:
 
-![peach](https://youtu.be/ziwhv9KqVkM)
-
 [Peach](https://peachbitcoin.com/) es una aplicación móvil suiza que permite comprar y vender bitcoins de igual a igual. Esta solución fácil de usar ofrece una interfaz intuitiva, ideal para transacciones en criptomonedas.
 
 La interfaz de la aplicación Peach consta de cuatro pestañas: comprar, vender, historial y configuración. (Captura de pantalla de la interfaz de la aplicación)
@@ -275,8 +269,6 @@ En resumen, la aplicación móvil Peach ofrece una solución accesible para comp
 ## Hold Hodl
 
 [HodlHodl](https://hodlhodl.com/) es un mercado descentralizado de Bitcoin que prioriza el control y la seguridad de los usuarios. A diferencia de los intercambios tradicionales, funciona según un modelo de igual a igual, permitiendo intercambios directos entre usuarios. Gracias a su sistema de custodia multi-firma, Hodl Hodl garantiza la seguridad de los fondos durante las transacciones. La plataforma también admite varios métodos de pago y ofrece opciones de negociación como contratos por diferencia (CFD).
-
-![tutorial de hodlhodl](https://youtu.be/BDH9jE7kpD8)
 
 En este tutorial, le explicamos cómo comprar y vender bitcoins de igual a igual en la plataforma HodlHodl.
 
@@ -313,8 +305,6 @@ La creación de una oferta de venta o compra de bitcoins en HodlHodl se realiza 
 
 ## Bonus: Side Shift.AI
 
-![SideShift AI](https://youtu.be/xG8Wc1Ti5b8)
-
 Aquí hay un breve tutorial sobre cómo usar [SideShift AI](https://sideshift.ai/), una herramienta muy útil para convertir shitcoins en bitcoin. Es la herramienta ideal para aquellos que han cerrado todos sus exchanges personales. No se necesita ningún sistema de orden y hay liquidez disponible. Sin embargo, tenga en cuenta que hay una tarifa del 2,5% por transacción.
 
 Si ha comprado criptomonedas de manera KYC, se recomienda usar Monero para convertir esas criptomonedas en bitcoin. Monero ofrece una privacidad superior a la de Bitcoin. Para una mayor seguridad, también se recomienda la operación de CoinJoin. CoinJoin mezcla sus transacciones con las de otros usuarios para complicar la trazabilidad de sus transacciones.
@@ -333,8 +323,6 @@ Este curso, así como todo el contenido presente en esta universidad, ha sido of
 
 ## Entrevista con Steph de Peach Bitcoin
 
-![entrevista con Steph](https://youtu.be/LRGKD8qNSXw)
-
 Aquí hay un resumen de la entrevista:
 
 Pitch Bitcoin es una aplicación móvil no custodial que permite la compra y venta de Bitcoin de igual a igual. Actualmente, el equipo de Pitch Bitcoin, con sede en Suiza, consta de ocho miembros y está trabajando para hacer evolucionar la aplicación para que también sirva como billetera. El modelo único de Pitch Bitcoin se basa en una estructura empresarial centralizada, manteniendo un libro de órdenes descentralizado. Además, la aplicación ofrece una opción para transacciones en efectivo en reuniones en persona.
@@ -349,7 +337,6 @@ En conclusión, la fundadora de Pitch Bitcoin destaca la importancia de la compe
 
 ## Entrevista con Pierre
 
-![entrevista con Pierre](https://youtu.be/COoezuJncm8)
 Aquí hay un resumen de la entrevista:
 
 Esta entrevista cierra la formación Bitcoin 205 que aborda el tema de las soluciones de compra peer-to-peer de Bitcoin. Organizada por Pierre, esta formación tiene como objetivo educar al público francófono sobre las soluciones técnicas de compra peer-to-peer de Bitcoin, un área hasta ahora descuidada. Gracias a los avances realizados, ahora es posible comprar y usar Bitcoin preservando la privacidad, incluso con un simple teléfono y la aplicación Telegram.

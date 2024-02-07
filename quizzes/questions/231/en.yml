@@ -2,11 +2,9 @@ question: What does the Lightning Network make possible?
 answer: To transact between individuals who do not have a direct channel connection.
 wrong_answers:
   - To transact between individuals who have a direct channel connection only.
-  - To transact between individuals who have a direct channel connection and a third
-    party.
-  - To transact between individuals who have a direct channel connection and multiple
-    third parties.
-explanation: >-
+  - To transact between individuals who have a direct channel connection and a third party.
+  - To transact between individuals who have a direct channel connection and multiple third parties.
+explanation: |
   The Lightning Network makes it possible to transact between individuals
   who do not have a direct channel connection.
 reviewed: false

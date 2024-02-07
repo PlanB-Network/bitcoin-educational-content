@@ -26,8 +26,6 @@ Théo; contribución
 
 ## Introducción al curso
 
-![introducción](https://youtu.be/DqLf72XBJUg)
-
 ### Objetivo: ¡actualización!
 
 Bienvenidos a todos a este programa de enseñanza dedicado a la seguridad digital. Esta formación está diseñada para ser accesible para todos, por lo que no se requieren conocimientos previos de informática. Nuestro objetivo principal es proporcionarles los conocimientos y habilidades necesarios para navegar de manera más segura y privada en el mundo digital.
@@ -76,9 +74,7 @@ Este programa de formación se ofrece de forma gratuita bajo una licencia redist
 
 # Todo sobre la navegación en línea
 
-## 1. Navegación en línea
-
-![navegación en línea](https://youtu.be/BEK7vGnkO64)
+## Navegación en línea
 
 Al navegar por internet, es importante evitar algunos errores comunes para preservar tu seguridad en línea. Aquí tienes algunos consejos para evitarlos:
 
@@ -116,8 +112,6 @@ TOR es legal y es utilizado por periodistas, activistas de la libertad y otras p
 
 ## VPN y conexión a Internet
 
-![vpn y conexión a internet](https://youtu.be/oRO7sGexvzo)
-
 ### los VPN
 
 La protección de su conexión a Internet es un aspecto crucial de la seguridad en línea, y el uso de redes privadas virtuales (VPN) es un método efectivo para mejorar esta seguridad, tanto para empresas como para usuarios individuales.
@@ -148,8 +142,6 @@ En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en líne
 # Buenas prácticas para el uso de la computadora
 
 ## Uso de la computadora
-
-![uso de la computadora](https://youtu.be/lzJr5CIulSU)
 
 La seguridad de nuestras computadoras es un tema importante en el mundo digital actual. Hoy vamos a abordar tres puntos clave:
 
@@ -195,8 +187,6 @@ En conclusión, es fundamental optar por un sistema operativo adecuado a sus nec
 
 ## Hack y gestión de copias de seguridad: proteger sus datos
 
-![hack y gestión de copias de seguridad](https://youtu.be/CJDjWPV3PeU)
-
 ### ¿Cómo atacan los hackers?
 
 Para protegerse adecuadamente, es fundamental comprender cómo los piratas informáticos intentan infiltrarse en su computadora. De hecho, los virus no suelen aparecer por arte de magia, sino que son más bien consecuencia de nuestras acciones, ¡incluso involuntarias!
@@ -235,8 +225,6 @@ Si detecta un virus en su computadora, desconéctela de Internet, realice un an�
 
 ## Gestión de buzones de correo
 
-![gestion de la boite mail](https://youtu.be/WjqH882f4cY)'
-
 ### ¡Configuración de una nueva cuenta de correo electrónico!
 
 La cuenta de correo electrónico es el punto central de tu actividad en línea: si se ve comprometida, un pirata informático puede utilizarla para restablecer todas tus contraseñas a través de la función "olvidé mi contraseña" y así acceder a muchos otros sitios. Por eso es importante asegurarla correctamente.
@@ -264,8 +252,6 @@ Bonus Bitcoin: Puede ser recomendable crear una dirección de correo electrónic
 **_Tutorial en construcción, para contribuir o agregarlo, puedes pasar por GitHub_**
 
 ## Gestor de contraseñas
-
-![gestor de contraseñas](https://youtu.be/HzLuZ6noePY)
 
 ### ¿Qué es un gestor de contraseñas?
 
@@ -316,8 +302,6 @@ Las contraseñas generadas de manera aleatoria ofrecen un nivel de seguridad sup
 
 ## Los 2 factores de autenticación
 
-![los 2FA](https://youtu.be/863n4N1XNjk)
-
 ### Por qué implementar el 2FA
 
 La autenticación de dos factores (2FA) es una capa adicional de seguridad utilizada para asegurarse de que las personas que intentan acceder a una cuenta en línea sean realmente quienes dicen ser. En lugar de simplemente ingresar un nombre de usuario y una contraseña, el 2FA requiere una segunda forma de verificación.
@@ -363,8 +347,6 @@ Regla de oro: ¡La seguridad informática es un objetivo en constante evolución
 
 ## Cómo trabajar en esta industria de ciberseguridad
 
-![conclusión y trabajar en la industria](https://youtu.be/YZ2EKaPvoZU)
-
 La ciberseguridad, un campo en pleno auge, ofrece una multitud de oportunidades para aquellos apasionados por la protección de sistemas y datos. Si esta industria te intriga, aquí tienes algunos pasos clave para orientarte.
 
 ### Fundamentos académicos y certificaciones:
@@ -396,8 +378,6 @@ La evolución constante de las amenazas requiere estar al tanto de las noticias 
 Dominando estas habilidades y herramientas, estarás bien equipado para navegar con éxito en el mundo de la ciberseguridad.
 
 ## Entrevista a Renaud
-
-![Entrevista](https://youtu.be/RVjE-KOSKDs)
 
 ### Gestión eficiente de contraseñas y fortalecimiento de la autenticación: un enfoque académico
 

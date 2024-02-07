@@ -1,0 +1,19 @@
+question: What distinguishes Bitcoin from traditional currencies controlled by central banks or governments? 
+answer: All of them
+wrong_answers:
+  - Bitcoin requires collaboration among miners, nodes, and developers
+  - Bitcoin allows anyone to participate in the network and perform key roles
+  - Bitcoin relies on a decentralised system of consensus
+explanation: |
+  What distinguishes Bitcoin from traditional fiat currencies is that it's a 
+  collaborative effort between three essential roles and the community.
+  Nodes ensure the integrity and security of the network by serving as gatekeepers.
+  Miners are responsible for processing transactions and maintaining the blockchain.
+  Developers are highly skilled members of the Bitcoin community who work together 
+  to maintain and improve the software that powers the network.
+  The community, through the use of bitcoin, is what gives it value.
+  Each of these roles is essential to the functionality and success of Bitcoin as a 
+  digital currency. By entrusting these crucial tasks to the key players, Bitcoin can 
+  operate as a decentralised, secure, transparent, and accountable medium of exchange for 
+  all users, making it significantly different from the centralised currencies we use today.
+reviewed: true

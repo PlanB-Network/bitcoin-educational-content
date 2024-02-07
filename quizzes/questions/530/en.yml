@@ -1,9 +1,9 @@
 question:
   Is it possible to reverse from a Bitcoin address to the public key, or from
   the public key to the private key?
-answer: "No"
+answer: This is false
 wrong_answers:
-  - "Yes"
+  - This is true
   - Only from the public key to the private key
   - Only from the address to the public key
 explanation: |

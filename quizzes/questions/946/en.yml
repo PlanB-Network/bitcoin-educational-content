@@ -1,0 +1,12 @@
+question: What is the blockchain trilemma in the realm of cryptocurrencies? 
+answer: The trade-off between scalability, security, and decentralisation in cryptocurrencies 
+wrong_answers:
+  - A characteristic of Bitcoin that prioritises decentralisation and security over scalability
+  - The difficulty in determining the trajectory and values of cryptocurrencies
+  - The limitation of Bitcoin's technology in comparison to other cryptocurrencies
+explanation: |
+  The concept of the blockchain trilemma is the idea that cryptocurrencies 
+  must prioritise two out of three important characteristics; scalability, 
+  security, and decentralisation. Bitcoin prioritises decentralisation and security, 
+  which affects its scalability, but it still achieves it through alternative means.
+reviewed: true

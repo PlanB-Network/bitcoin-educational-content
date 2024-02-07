@@ -1,6 +1,5 @@
 question: What is the purpose of Bitcoin Improvement Proposals (BIPs)?
-answer: They are upgrade proposals that enhance the functionality and security of
-  HD wallets.
+answer: They are upgrade proposals that enhance the functionality and security of HD wallets.
 wrong_answers:
   - They are proposals to increase the value of Bitcoin.
   - They are proposals to change the Bitcoin mining process.

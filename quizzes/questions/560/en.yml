@@ -1,15 +1,10 @@
 question: What is the definition of inflation according to Larousse?
-answer: Inflation is a phenomenon characterized by a generalized and continuous rise
-  in the level of prices.
+answer: Inflation is a phenomenon characterized by a generalized and continuous rise in the level of prices.
 wrong_answers:
-  - Inflation is a phenomenon characterized by a generalized and continuous decrease
-    in the level of prices.
-  - Inflation is a phenomenon characterized by a specific and continuous rise in the
-    level of prices.
-  - Inflation is a phenomenon characterized by a generalized and intermittent rise
-    in the level of prices.
+  - Inflation is a phenomenon characterized by a generalized and continuous decrease in the level of prices.
+  - Inflation is a phenomenon characterized by a specific and continuous rise in the level of prices.
+  - Inflation is a phenomenon characterized by a generalized and intermittent rise in the level of prices.
 explanation: |
   According to Larousse, inflation is defined as a phenomenon characterized
-
-  by a generalized and continuous rise in the level of prices.'
+  by a generalized and continuous rise in the level of prices.
 reviewed: false

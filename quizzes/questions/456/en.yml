@@ -1,6 +1,5 @@
 question: What is the main function of a Bitcoin wallet?
-answer: It refers to a collection of private cryptographic keys derived from a single
-  master key.
+answer: It refers to a collection of private cryptographic keys derived from a single master key.
 wrong_answers:
   - It is a physical device that stores cryptocurrencies.
   - It is a digital platform for buying and selling cryptocurrencies.

@@ -1,9 +1,0 @@
-question: ¿Qué significa si el precio de compra disminuye más rápido que el precio de venta?
-answer: Significa que el vendedor está obteniendo ganancias, ya que puede vender sus bienes o servicios por más de lo que los compró.
-wrong_answers:
-  - Significa que el vendedor está teniendo pérdidas, ya que está vendiendo sus bienes o servicios por menos de lo que los compró.
-  - Significa que el comprador está obteniendo ganancias, ya que puede comprar bienes o servicios por menos de lo que los está vendiendo.
-  - Significa que el comprador está teniendo pérdidas, ya que está comprando bienes o servicios por más de lo que los está vendiendo.
-explanation: |
-  Si el precio de compra disminuye más rápido que el precio de venta, significa que el vendedor está obteniendo ganancias. Esto se debe a que puede vender sus bienes o servicios por más de lo que los compró.
-reviewed: false

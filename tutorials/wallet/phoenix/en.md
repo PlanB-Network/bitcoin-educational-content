@@ -25,7 +25,7 @@ Bellow in the "Getting started guide" section we will walk through the setup pro
 
 ## Video Tutorial
 
-![Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
+![Phoenix: Bitcoin Lightning Wallet Tutorial](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
 
 ## Getting Started Guide
 

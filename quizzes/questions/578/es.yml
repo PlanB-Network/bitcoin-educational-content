@@ -1,9 +1,0 @@
-question: ¿Qué es la deflación?
-answer: Es una disminución en el nivel general de precios de bienes y servicios.
-wrong_answers:
-  - Es un aumento en el nivel general de precios de bienes y servicios.
-  - Es una disminución en la oferta de dinero.
-  - Es un aumento en la oferta de dinero.
-explanation: |
-  La deflación es un término económico que se refiere a una disminución en el nivel general de precios de bienes y servicios. Es lo opuesto a la inflación, que es un aumento en el nivel general de precios.
-reviewed: false

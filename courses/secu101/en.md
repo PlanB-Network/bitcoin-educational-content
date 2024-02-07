@@ -26,8 +26,6 @@ Théo; contribution
 
 ## Course Introduction
 
-![introduction](https://youtu.be/DqLf72XBJUg)
-
 ### Objective: Update your security skills !
 
 Welcome everyone to this educational program dedicated to digital security. This training is designed to be accessible to everyone, so no prior knowledge of computer science is required. Our main goal is to provide you with the knowledge and skills necessary to navigate the digital world more safely and privately.
@@ -72,9 +70,7 @@ First, we will see how to protect your email inbox, which is essential for your 
 
 # Everything you need to know about online browsing
 
-## 1. Online browsing
-
-![online browsing](https://youtu.be/BEK7vGnkO64)
+## Online browsing
 
 When browsing the internet, it is important to avoid certain common mistakes to preserve your online security. Here are some tips to avoid them:
 
@@ -110,9 +106,7 @@ TOR is legal and is used by journalists, freedom activists, and others wishing t
 
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
-## 2. VPN and internet connection
-
-![vpn and internet connection](https://youtu.be/oRO7sGexvzo)
+## VPN and internet connection
 
 ### VPNs
 
@@ -145,8 +139,6 @@ In summary, the use of VPN can greatly improve online security, both for busines
 # Best Practices for Computer Use
 
 ## Computer Use
-
-![computer use](https://youtu.be/lzJr5CIulSU)
 
 The security of our computers is a major concern in today's digital world. Today, we will address three key points:
 
@@ -193,8 +185,6 @@ In conclusion, it is essential to choose an operating system that suits your nee
 
 ## Hacking & Backup Management: Protecting Your Data
 
-![hacking and backup management](https://youtu.be/CJDjWPV3PeU)
-
 ### How do hackers attack?
 
 In order to protect yourself well, it is essential to understand how hackers try to infiltrate your computer. Indeed, viruses do not often appear magically, but are rather the consequences of our actions, even unintentionally!
@@ -233,8 +223,6 @@ If you detect a virus on your computer, disconnect it from the internet, perform
 
 ## Managing email accounts
 
-![email account management](https://youtu.be/WjqH882f4cY)
-
 ## Setting up a new email account!
 
 The email account is the central point of your online activity: if it is compromised, a hacker can use it to reset all your passwords via the "forgot password" function and gain access to many other sites. That's why you need to secure it properly.
@@ -262,8 +250,6 @@ Bonus Bitcoin: It may be advisable to create a specific email address for our Bi
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## Password Manager
-
-![password manager](https://youtu.be/HzLuZ6noePY)
 
 ### What is a password manager?
 
@@ -314,8 +300,6 @@ Randomly generated passwords offer a higher level of security, although they may
 
 ## Two-Factor Authentication
 
-![2FA](https://youtu.be/863n4N1XNjk)
-
 ### Why implement 2FA
 
 Two-factor authentication (2FA) is an additional layer of security used to ensure that the people attempting to access an online account are who they claim to be. Instead of just entering a username and password, 2FA requires a second form of verification.
@@ -361,8 +345,6 @@ Golden rule: Cybersecurity is a moving target that will adapt to your learning j
 
 ## How to work in the cybersecurity industry
 
-![conclusion and working in the industry](https://youtu.be/YZ2EKaPvoZU)
-
 # Cybersecurity: A Growing Field with Endless Opportunities
 
 If you are passionate about protecting systems and data, the field of cybersecurity offers a multitude of opportunities. If this industry intrigues you, here are some key steps to guide you.
@@ -396,8 +378,6 @@ The constant evolution of threats requires regular monitoring of news and specia
 By mastering these skills and tools, you will be well-equipped to navigate the world of cybersecurity successfully.
 
 ## Interview with Renaud
-
-![Interview](https://youtu.be/RVjE-KOSKDs)
 
 ### Efficient Password Management and Authentication Strengthening: An Academic Approach
 

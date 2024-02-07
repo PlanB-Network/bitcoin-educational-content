@@ -1,6 +1,5 @@
 question: What is one of the main benefits of Bitcoin for people without a bank account?
-answer: Bitcoin allows for equality in transactions, regardless of your social status
-  or political position.
+answer: Bitcoin allows for equality in transactions, regardless of your social status or political position.
 wrong_answers:
   - Bitcoin allows for inequality in transactions.
   - Bitcoin only benefits people with a bank account.

@@ -1,6 +1,5 @@
 question: What is the TOR network?
-answer: A network that offers anonymity by masking the user's IP address and allowing
-  access to the Darknet.
+answer: A network that offers anonymity by masking the user's IP address and allowing access to the Darknet.
 wrong_answers:
   - A network that protects your device from viruses and other malicious software.
   - A network that hides your online activity from your internet service provider.

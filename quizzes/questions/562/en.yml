@@ -1,20 +1,12 @@
-question: What was the main cause of the "price revolution" between the 15th and 17th
-  centuries in Europe?
-answer: The "price revolution" was largely triggered by a massive influx of precious
-  metals, particularly gold and silver, from the Americas.
+question: What was the main cause of the "price revolution" between the 15th and 17th centuries in Europe?
+answer: The "price revolution" was largely triggered by a massive influx of precious metals, particularly gold and silver, from the Americas.
 wrong_answers:
-  - The "price revolution" was largely triggered by a massive outflow of precious
-    metals, particularly gold and silver, to the Americas.
-  - The "price revolution" was largely triggered by a massive influx of precious metals,
-    particularly gold and silver, from Asia.
-  - The "price revolution" was largely triggered by a massive outflow of precious
-    metals, particularly gold and silver, to Asia.
+  - The "price revolution" was largely triggered by a massive outflow of precious metals, particularly gold and silver, to the Americas.
+  - The "price revolution" was largely triggered by a massive influx of precious metals particularly gold and silver, from Asia.
+  - The "price revolution" was largely triggered by a massive outflow of precious metals, particularly gold and silver, to Asia.
 explanation: |
   Between the 15th and 17th centuries, Europe witnessed a remarkable economic
-
   phenomenon, often referred to as the "price revolution." This period of inflation
-
   was largely triggered by a massive influx of precious metals, particularly gold
-
   and silver, from the Americas.'
 reviewed: false

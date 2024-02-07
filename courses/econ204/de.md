@@ -16,7 +16,7 @@ Hier werden wir die gemeinsamen Trends und Muster in den Episoden der Hyperinfla
 
 +++
 
-# Abschnitt 1 - Einführung
+# Einführung
 
 ## Einführung
 
@@ -65,11 +65,9 @@ Abschnitt 6 - Wie man sich vor Hyperinflation schützt (Rogzy)
 
 Viel Glück!
 
-# Abschnitt 2 - Was ist Inflation?
+# Was ist Inflation?
 
-## 2.1 - Ein monetäres Phänomen
-
-![Video](https://youtu.be/Hg8L_PIs008)
+## Ein monetäres Phänomen
 
 ### Definitionen von Inflation
 
@@ -213,9 +211,7 @@ Diese Analyse zeigt, dass das Vertrauen in die Währung und damit auch ihr Wert 
 
 Zusammenfassend ermöglicht diese Studie zur Währungsabwertung ein tieferes Verständnis der Mechanismen der Inflation, die in den folgenden Videos untersucht werden. Wir werden über die verschiedenen Arten von Inflation und den Schwellenwert diskutieren, bei dem sie zu hoher oder Hyperinflation führen. Diese solide Grundlage wird es uns ermöglichen, die Komplexitäten der Inflation in den kommenden Sitzungen anzugehen. Vielen Dank für Ihre Aufmerksamkeit und bis zum nächsten Video, um diese Erkundung der monetären Dynamiken fortzusetzen.
 
-## 2.2 - Die Arten von Inflation
-
-![Video](https://youtu.be/hHk5oV8HsNQ)
+## Die Arten von Inflation
 
 ### Inflation ist kein multifaktorielles Phänomen
 
@@ -385,27 +381,10 @@ Was aus unserer Untersuchung hervorgeht, ist, dass Hyperinflation ein komplexes 
 
 In zukünftigen Diskussionen werden wir uns eingehender mit der Hyperinflation befassen und ihre Definitionen und Erscheinungsformen in verschiedenen wirtschaftlichen Kontexten untersuchen. Unser Ziel wird es sein, die zugrunde liegenden Mechanismen der Hyperinflation aufzudecken und potenzielle Lösungsansätze zu erforschen. Dieses differenzierte Verständnis wird es uns ermöglichen, die damit verbundenen Herausforderungen besser zu verstehen und fundierte Strategien zur Inflationsbekämpfung vorzuschlagen.
 Vielen Dank für Ihre Aufmerksamkeit. Die nächste Sitzung wird sich vollständig der Definition und Entmystifizierung der Hyperinflation widmen, unter Berücksichtigung verschiedener akademischer und praktischer Perspektiven. Wir freuen uns darauf, diese Erkundung bei unserem nächsten Treffen mit Ihnen fortzusetzen.
-## 2.3 - Die Deflation
 
-Bald erstellt von DAVID
+# Was ist Hyperinflation?
 
-### Arten der Deflation
-
-### Die Deflation der 1930er Jahre (Platzen der Kreditblase) (Jeff Booth)
-
-### Wachstumsdeflation von 1865 bis 1896 (Dr. Philip Bagus)
-
-### Anpassung der Löhne (Keynes vs. Dr. Philip Bagus)
-
-### Wenn der Einkaufspreis schneller sinkt als der Verkaufspreis, ist das in Ordnung
-
-### MSM und Fiat-Ökonomen sprechen immer von Fiat-Deflation
-
-# Abschnitt 3 - Was ist Hyperinflation?
-
-## 3.1 - Definitionen der Hyperinflation
-
-![vorläufiges Video 3.1](https://youtu.be/qYMR-i7TtHY)
+## Definitionen der Hyperinflation
 
 ### Definitionen der Hyperinflation
 
@@ -425,6 +404,7 @@ Vergrößern
 
 ![Bild](assets/chapitre-3.1/0.PNG)
 Es ist zu beachten, dass diese Definition, obwohl präzise, möglicherweise aufgrund der Strenge der 50%-Schwelle bestimmte Episoden von Hyperinflation ausschließt. Es besteht die Möglichkeit, diese Definition zu erweitern, um andere Episoden einzuschließen, die zwar nicht streng dem Kriterium von Cagan entsprechen, aber dennoch Zeiträume mit extrem hoher Inflation darstellen. Diese Beobachtung eröffnet die Tür zu einer umfassenderen Erforschung von Hyperinflationsphänomenen, die ein nuancierteres Verständnis ihrer Ursachen und Auswirkungen ermöglicht. In weiteren Diskussionen werden wir erwägen, diese Definition zu überarbeiten und Episoden von Hyperinflation zu untersuchen, die nicht durch das strenge Kriterium von Cagan abgedeckt sind.
+
 ### Die Definition von Hyperinflation nach Cagan
 
 Philip Cagan hat möglicherweise mit der Schwelle von 50% monatlicher Inflation einen willkürlichen Meilenstein gesetzt, um Hyperinflation zu definieren. Er gibt selbst zu, dass diese Definition willkürlich ist und hauptsächlich seiner Analyse basierend auf sieben Episoden von Hyperinflation diente. Die Untersuchung von Cagans Daten zeigt, dass die drei Episoden von Hyperinflation mit den niedrigsten monatlichen Inflationsraten bei etwa 47%, 46% und 57% lagen. Es scheint, dass die Schwelle von 50% gewählt wurde, um diese Fälle in seine Studie einzubeziehen.
@@ -446,6 +426,7 @@ Philip Cagan hat möglicherweise mit der Schwelle von 50% monatlicher Inflation 
 Diese Überlegungen führen uns dazu, die Starrheit der traditionellen Definition von Hyperinflation in Frage zu stellen und die Notwendigkeit zu betonen, möglicherweise diese Schwelle durch die Integration weiterer Episoden und historischer Daten zu überdenken. Die Definition von Hyperinflation könnte Flexibilität erfordern, um verschiedene Manifestationen extremer Inflation in verschiedenen wirtschaftlichen und historischen Kontexten zu umfassen.
 
 ### Die Definition von Hyperinflation gemäß dem International Accounting Standards Board (IASB)
+
 Die IASB bietet eine einzigartige Perspektive auf Hyperinflation, die sich auf die Rechnungslegungspraktiken in Zeiten von Hyperinflation konzentriert. Dieser Ansatz ist entscheidend für Buchhalter und Unternehmen, die in Umgebungen mit Hyperinflation tätig sind, in denen der Geldwert schnell schwankt. Die Richtlinien der IASB identifizieren verschiedene Indikatoren für Hyperinflation:
 
 - Vorliebe für nicht monetäre Güter:
@@ -469,6 +450,7 @@ Diese Definition, die von der IASB bereitgestellt wird, weicht von der strengen 
 
 Also, wie viele Hyperinflationen gibt es insgesamt?
 Gängige Definitionen von Hyperinflation, wie die von Kagan vorgeschlagene, die eine monatliche Inflation von 50% vorsieht, können manchmal irreführend oder vereinfachend sein. Zum Beispiel können zwei Länder mit jeweils einer jährlichen Inflationsrate von 1.000% und 3.000% je nach monatlicher Verteilung dieser Inflation unterschiedlich wahrgenommen werden. Wenn kein Monat die Schwelle von 50% überschreitet, würden diese Länder nach Kagan's Definition nicht als hyperinflationär gelten. Diese Herangehensweise kann daher zu Anomalien bei der Klassifizierung von Hyperinflation führen, insbesondere wenn kumulierte Inflationen über das Jahr verglichen werden.
+
 ![image](assets/chapitre-3.1/7.PNG)
 
 - Das Werk von Kagan, "Monetary Dynamics of Hyperinflation", das eine grundlegende Analyse der Hyperinflation darstellt.
@@ -478,9 +460,7 @@ Gängige Definitionen von Hyperinflation, wie die von Kagan vorgeschlagene, die 
 
 Es ist zu beachten, dass einige historische Zeiträume mit hoher Inflation nicht in den klassischen Tabellen der Hyperinflation enthalten sind, oft aufgrund strenger Klassifizierungskriterien. Zum Beispiel betrugen die monatlichen Inflationsraten während des amerikanischen Unabhängigkeitskrieges im November 1779 und während des amerikanischen Bürgerkrieges im März 1864 jeweils 47,4% und 40%. Diese Raten, obwohl hoch, überschreiten nicht die von Kagan festgelegte Schwelle von 50% und schließen diese Perioden daher von den als Hyperinflation eingestuften Fällen aus. Diese Auslassung verdeutlicht die Grenzen starrer Definitionen und unterstreicht die Notwendigkeit eines nuancierteren Ansatzes, um die Hyperinflation in ihrer ganzen Komplexität zu erfassen.
 
-## 3.2 - Ähnlichkeiten zwischen Weimar und Simbabwe
-
-![Video](https://youtu.be/xqMESvFi7J8)
+## Ähnlichkeiten zwischen Weimar und Simbabwe
 
 ### Zwei Epochen, zwei Katastrophen
 
@@ -492,6 +472,7 @@ Mehrere Bücher waren besonders aufschlussreich:
 
 - "When Money Dies" von Adam Ferguson, das die Hyperinflation nach dem Ersten Weltkrieg in Deutschland sowie in Österreich und Ungarn nachzeichnet.
 - Zwei Bücher über die Hyperinflation in Simbabwe, "Zimbabwe Warm Heart Ugly Face" und "Hard Boiled Egg Index" von Jérôme Gardner und Kudzai Joseph Gou Min-Yu, bieten bewegende Zeugnisse eines CEO einer Bekleidungsgeschäftskette und eines landwirtschaftlichen Bankiers über ihre Erfahrungen während dieser turbulenten Zeit.
+
 ![image](assets/chapitre-3.2/1.PNG)
 
 Beim Konsolidieren meiner Notizen habe ich eine Vielzahl von Ähnlichkeiten zwischen den Erfahrungen der Hyperinflation in Simbabwe und der Weimarer Republik festgestellt, obwohl 90 Jahre zwischen ihnen liegen. Ich habe etwa 17 Ähnlichkeiten identifiziert, von denen 13 eine Art Fortschritt hin zur wirtschaftlichen Katastrophe darstellen, die in diesen Zeugnissen beschrieben wird. Diese faszinierenden Parallelen zeigen die wiederholende und verheerende Natur der Hyperinflation über Zeiten und Grenzen hinweg. Heute werden wir uns diese Ähnlichkeiten und die Art und Weise, wie sie eine besorgniserregende Entwicklung während Hyperinflationsperioden darstellen, genauer ansehen.
@@ -627,9 +608,7 @@ Simbabwe: "Diese Gutscheine verwendeten wir nun, um Mieten an Vermieter, Kommuna
 
 Das schließt dieses Video über die Ähnlichkeiten der Erfahrungen während der Hyperinflationsperioden in Simbabwe und der Weimarer Republik ab. Im nächsten Video werden wir über die Unterschiede und zeitgenössischen Parallelen sprechen. Danke.
 
-## 3.3 - Unterschiede zwischen Weimar und Simbabwe und zeitgenössische Parallelen
-
-![Video](https://youtu.be/jh_MOKDPmQQ)
+## Unterschiede zwischen Weimar und Simbabwe und zeitgenössische Parallelen
 
 Transkript:
 
@@ -719,9 +698,7 @@ Stellen Sie sich eine Situation vor, in der Sie eine Familie oder nahestehende P
 
 Heutzutage übernimmt die Investition die Rolle des Schutzes vor dem Verlust der Kaufkraft. Diese Herangehensweise birgt jedoch ihre eigenen Risiken. Sparen war schon immer ein Mittel gegen Unsicherheit. Finanzielle Rücklagen für unvorhergesehene Situationen zu haben, trägt zu innerer Ruhe bei und stärkt den sozialen Zusammenhalt. Zusammenfassend ist der Schutz unserer Kaufkraft entscheidend, um soziale und individuelle Stabilität aufrechtzuerhalten.
 
-## 3.4 - Währungsumstellungen in Lateinamerika
-
-![Video](https://youtu.be/m2pcmbEzKyc)
+## Währungsumstellungen in Lateinamerika
 
 Wir werden uns gemeinsam verschiedene Phasen der Währungsumstellung in lateinamerikanischen Ländern ansehen.
 
@@ -820,9 +797,7 @@ Basierend auf dem Kriterium von 50% Inflation pro Monat hätten mehrere Perioden
 
 Zusammenfassend ist Hyperinflation nur ein Aspekt der wirtschaftlichen Herausforderungen. Hohe Inflation allein kann ebenso schädlich sein. Der nächste Abschnitt wird mögliche Lösungen zur Überwindung der Hyperinflation untersuchen.
 
-## 3.5 - Wie man Hyperinflation überwindet
-
-![video](https://youtu.be/9PYH7ut3fq0)
+## Wie man Hyperinflation überwindet
 
 ### Wie man moderate Inflation und hohe Inflation beendet
 Die genannten Schlussfolgerungen stammen aus dem Buch "Monetary Regime and Inflation" von Bernold. Laut Bernold ist die einzige Methode, um die Inflation zu beenden, eine Währungsreform durchzuführen und Regierungsbeschränkungen einzuführen. Diese Beschränkungen beinhalten die Einrichtung einer Institution wie einer Zentralbank, die unabhängig von den politischen Entscheidungen der Regierung agiert. Hohe und Hyperinflation sind oft das Ergebnis der Finanzierung von Haushaltsdefiziten durch die Geldschöpfung. Um die moderate Inflation zu bekämpfen, ist es entscheidend, das Wachstum der Geldmenge zu verringern. Bernold schlägt auch vor, dass dieses Geldmengenwachstum im Vergleich zu den Nachbarländern erfolgen sollte. Eine überraschende Feststellung ist, dass während Phasen hoher oder Hyperinflation der Gesamtwert der Geldmenge tatsächlich abnehmen kann. Ein markantes Beispiel für diese Situation ist Simbabwe.
@@ -869,15 +844,13 @@ In meinem Buch "Alles über Bitcoin" habe ich ein ganzes Kapitel der Hyperinflat
 
 Das Wichtigste ist, dass es verschiedene Strategien gibt, um aus der Hyperinflation herauszukommen. Man kann sich für die Dollarisierung entscheiden oder eine neue Währung einführen. Diese Lösungen funktionieren jedoch nur, wenn die Bevölkerung Vertrauen in sie hat. Es ist entscheidend, strenge Einschränkungen zu setzen. Eine wirklich unabhängige Zentralbank ist unerlässlich. Sie darf die Geldmenge nicht erhöhen, um Haushaltsdefizite auszugleichen. Bei leichter Inflation sollte es ausreichen, das Wachstum der Geldmenge zu begrenzen. Wenn man jedoch mit Hyperinflation konfrontiert ist, ist es zunächst wichtig, eine angemessene Geldmenge für die Größe der betreffenden Wirtschaft zu haben. Danach ist es unerlässlich, strenge Einschränkungen für die Regierung zu setzen, um die Situation zu stabilisieren.
 
-## 3.6 - Vorstellung der Sammlung von Hyperinflationsbanknoten
-
-![video](https://youtu.be/h1uwR3Yge1M)
+## Vorstellung der Sammlung von Hyperinflationsbanknoten
 
 Der Link zur gescannten Sammlung ist im Bitcoin Educational Toolkit verfügbar, das im Ressourcenbereich der Plattform zugänglich ist.
 
-# Abschnitt 4 - Wie sind wir hierher gekommen?
-## 4.1 - Das Aufkommen der zweiten Geldschicht und der Zentralbanken
-![video](https://youtu.be/cEon5lVtKZE)
+# Wie sind wir hierher gekommen?
+
+## Das Aufkommen der zweiten Geldschicht und der Zentralbanken
 
 Transkript:
 

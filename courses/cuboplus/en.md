@@ -7,7 +7,17 @@ objectives:
   - Develop a mastery of the Lightning Network and its associated protocols.
 ---
 
-# Introduction
+Welcome to the Cubo+ development courses for Bitcoin!
+
+Over the next 20 hours, you will dive deep into the BTC and LN protocols. This course is designed for programmers who want to start working in the BTC ecosystem and are seeking a solid understanding of the different technology stacks of BTC and LN.
+
+The videos were recorded live during the CUBO+ 2023 bootcamp in El Salvador and succeeded in bringing together world-renowned teachers. This course was offered for free thanks to the generosity of Fulgure Venture and the collaborative efforts of the teachers, the Bitcoin office, DecouvreBitcoin, and many other actors.
+
+Enjoy!
+
++++
+
+# Introduction and preparatory courses
 
 ## Introduction to CUBO+ courses
 
@@ -23,29 +33,101 @@ The course aims to equip participants with a deep understanding of Bitcoin's und
 
 Participants are expected to bring a strong sense of curiosity, an eagerness to learn at a professional level, and some foundational knowledge in development. While a detailed background in Bitcoin is not required, a basic understanding of coding principles and an openness to engaging with complex technical concepts are essential for making the most of the accelerator.
 
+## Why Bitcoin
+
+### Why El salvador needs Bitcoin
+
+![video](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+
+The first lecture ‘Why El Salvador needs Bitcoin’ provides an overview of: the Bitcoin protocol and its roots, the cypherpunk movement, and the importance of Bitcoin as a tool of freedom (uncensored money, financial inclusion, and other related topics).
+
+### Cyperpunk movement and austrian economics
+
+![video](https://youtube.com/live/KIaC31YQLBA)
+
+In our second lecture 'Cypherpunk movement and Austrian Economics', we delved deeper into the Cypherpunk philosophy introduced by Rikki in the previous lecture.
+
+Also, our discussion centered on the Austrian School of Economics, which distinguishes itself from the current financial system (Keynesian Economics).
+We explored concepts such as scarcity, time preference, durability and saving, which Saifedean will delve into further. To prepare for his lecture, I recommend reading The Bitcoin Standard (you can find it in 'Additional Resources'), or at least a few chapters.
+
+It is important to note that the first module, 'Why Bitcoin', was necessary to comprehend the roots and goals before moving on to 'How Bitcoin', where we will discover the Bitcoin's technological stack and tradeoffs early developers made in the protocol.
+Here is the link, enjoy!
+
+## How Bitcoin
+
+### Bitcoin's Technology Stack
+
+![video](https://youtube.com/live/OKanfSTLlW0)
+
+In the first lecture of 'How Bitcoin' course, we began exploring the technology stack that underpins the Bitcoin network. We covered a range of topics, including Hashcash, transactions, the blockchain, Lightning Network and other key components of the Bitcoin protocol.
+
+### Bitcoin's Technological Stack
+
+![video](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
+
+During the second lecture of 'How Bitcoin', we conducted a more in-depth examination of Bitcoin's technology stack.
+
+## Debunk Bitcoin
+
+### Cut the FUD
+
+![video](https://www.youtube.com/watch?v=P0reZe6pMpo)
+
+Debunking blockchains and shitcoin and Debunking myths and misconceptions about Bitcoin’s energy waste, and criminal usage
+
+## Running Bitcoin
+
+### Installation of Bitcoin Core
+
+![Video](https://youtube.com/live/K0meE5pldmI)
+
+In the first lecture of the 4th module we explored the Bitcoin's architecture and installation of a Bitcoin Core node
+
+### Installation of C-lightning
+
+![video](https://youtube.com/live/p6SgjtplAAM)
+
+During our second lecture, we delved into the process of installing c-lightning
+
+### Security and Hardware devices
+
+![video](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+
+In third lecture, we covered topics related to security, hardware devices, and the configuration of Specter
+
+## Imrpoving Bitcoin
+
+### Open Problems in the Bitcoin ecosystem
+
+![video](https://youtube.com/live/BVYKeTXMtzQ)
+
+Hey guys, here is the link for the last lecture of the preparatory period about Bitcoin problems and potential solutions
+
 # Bitcoin Fundamentals
 
 ## Security Thinking in Bitcoin
 
 ![Video](https://youtu.be/2f_rK74MB3U)
 
-Peter Todd delves into the security considerations unique to Bitcoin, teaching developers how to adopt a security-first mindset. The lecture aims to instill a strong foundation in recognizing and mitigating potential threats in Bitcoin development based on a pratical exercice of expliciting the Threat Model of software for timestamping election. 
+Peter Todd delves into the security considerations unique to Bitcoin, teaching developers how to adopt a security-first mindset. The lecture aims to instill a strong foundation in recognizing and mitigating potential threats in Bitcoin development based on a pratical exercice of expliciting the Threat Model of software for timestamping election.
 
 ## Free and Open Source Software (FLOSS) in Bitcoin
+
 ![Video](https://youtu.be/GM-ho5M5_mQ)
 
 The use of Free and Open Source Software (FLOSS) is critical in Bitcoin's ecosystem. Peter Todd explores the importance of FLOSS for Bitcoin, exploring the history of FLOSS and examining how Github allow us to collaboratively build open-source software like Bitcoin.
 
 ## Cryptography in Bitcoin
+
 ![Video](https://youtu.be/4Fw9xS7JlVU)
 
-Adam Gibson takes participants through the cryptographic underpinnings of Bitcoin from a mathematical perspective. The session covers the essential cryptographic functions that are present in Bitcoin, like hashes and their security, merkle trees, identity protocols and signature, discrete logs and elliptic curves. 
+Adam Gibson takes participants through the cryptographic underpinnings of Bitcoin from a mathematical perspective. The session covers the essential cryptographic functions that are present in Bitcoin, like hashes and their security, merkle trees, identity protocols and signature, discrete logs and elliptic curves.
 
 ## Bitcoin's Governance Model
 
 ![Video](https://youtu.be/KSpKwTFSOdc)
 
-Peter Todd discusses Bitcoin's governance model, providing insights into how decisions are made within the Bitcoin community and how this decentralized approach influences the protocol's development and stability. Notably he explores how different type of changes can lead to Soft or Hard Forks, how the governance difference between policy change and consensus rules, and what is the game of politics of change in Bitcoin.  
+Peter Todd discusses Bitcoin's governance model, providing insights into how decisions are made within the Bitcoin community and how this decentralized approach influences the protocol's development and stability. Notably he explores how different type of changes can lead to Soft or Hard Forks, how the governance difference between policy change and consensus rules, and what is the game of politics of change in Bitcoin.
 
 # Layer One Concepts
 
@@ -53,19 +135,19 @@ Peter Todd discusses Bitcoin's governance model, providing insights into how dec
 
 ![Video](https://youtu.be/jdHc-pbDI9E)
 
-Adam Gibson breaks down the various components of a Bitcoin node. The chapter focuses on the role each component plays in maintaining the network's functionality and integrity. In particularly he focuses on why we should run a bitcoin node, what does a bitcoin node do, and how the different components of a bitcoin node function. 
+Adam Gibson breaks down the various components of a Bitcoin node. The chapter focuses on the role each component plays in maintaining the network's functionality and integrity. In particularly he focuses on why we should run a bitcoin node, what does a bitcoin node do, and how the different components of a bitcoin node function.
 
 ## Bitcoin's Data Structures
 
-(the video will be available soon)
+![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
 
-Alekos Filini presents an in-depth look at Bitcoin's data structures. This covers the organization of data within the blockchain and how it enables the robustness and efficiency of the network. 
+Alekos Filini presents an in-depth look at Bitcoin's data structures. This covers the organization of data within the blockchain and how it enables the robustness and efficiency of the network.
 
 ## Bitcoin L1 Software Stack
 
 ![Video](https://youtu.be/L6FkntRwkOU)
 
-Daniela Brozzoni offers a comprehensive overview of the Bitcoin Layer 1 software stack, explaining the layers that comprise the foundation of Bitcoin's protocol (ie. Bitcoin nodes and Bitcoin wallets) and how to build Bitcoin software with an introduction to Bitcoin librairies and a deep dive into Bitcoin Development Kit (BDK). 
+Daniela Brozzoni offers a comprehensive overview of the Bitcoin Layer 1 software stack, explaining the layers that comprise the foundation of Bitcoin's protocol (ie. Bitcoin nodes and Bitcoin wallets) and how to build Bitcoin software with an introduction to Bitcoin librairies and a deep dive into Bitcoin Development Kit (BDK).
 
 # Lightning Network
 
@@ -79,19 +161,19 @@ Gabriel Comte provides a historical perspective on the development of payment ch
 
 ![Video](https://youtu.be/RaMeYgSBJQ0)
 
-Gabriel Comte recounts the history of atomic routing, detailing several  techniques that have been on the foundation of the routing layer of lightning network like Hub-and-Spokes model, Ripple model and Hashed TimeLocked Contracts (HTLCs). This history has been pivotal in enabling secure, trustless transactions across the Lightning Network.
+Gabriel Comte recounts the history of atomic routing, detailing several techniques that have been on the foundation of the routing layer of lightning network like Hub-and-Spokes model, Ripple model and Hashed TimeLocked Contracts (HTLCs). This history has been pivotal in enabling secure, trustless transactions across the Lightning Network.
 
 ## BOLT Review
 
 ![Video](https://youtu.be/Fy5W_ryWrCY)
 
-asi0 reviews BOLT, the Basis of Lightning Technology, explaining the specifications that any Lightning Network implements must respect. This will be a first deep dive into the different layers of the Lightning Network. 
+asi0 reviews BOLT, the Basis of Lightning Technology, explaining the specifications that any Lightning Network implements must respect. This will be a first deep dive into the different layers of the Lightning Network.
 
 ## Major LN Clients
 
 ![Video](https://youtu.be/a0Q_5dzpqKw)
 
-asi0 introduces the major Lightning Network (LN) clients, providing an analysis of their features, strengths based on a 2x2 matrix that evaluates the level of custody and liquidity management that the user has with LN clients. 
+asi0 introduces the major Lightning Network (LN) clients, providing an analysis of their features, strengths based on a 2x2 matrix that evaluates the level of custody and liquidity management that the user has with LN clients.
 
 # The Challenges of LN
 
@@ -115,38 +197,17 @@ Alekos Filini examines the protocols built on top of the Lightning Network, expl
 
 # Bonus
 
-## Mining in Bitcoin
-
-![Video](https://youtu.be/22LadAWEMQo)
-
-Ajelex delves into the world of Bitcoin mining, detailing the process and its significance in the context of network security and the creation of new bitcoins.
-
-## Joinmarket
-
-![Video](https://youtu.be/VFjccozVwc8)
-
-Adam explores Joinmarket, a CoinJoin implementation that improves privacy and fungibility by allowing users to create collaborative, trustless, and anonymous Bitcoin transactions.
-
-## Protocols on top of the Lightning Network
-
-![Video](https://youtu.be/OLTQLtQyoZE)
-
-Alekos discusses the various protocols that operate on top of the Lightning Network, enhancing its capabilities beyond simple payment channels. This chapter explores the innovations that these protocols bring to the network, how they interoperate, and their role in the broader ecosystem of Bitcoin like Keysend, LNURL, Nostr, Lightning LSPs.
-
-# Bonus
-
 ## Bitcoin Mining Essentials
 
 ![Video](https://youtu.be/22LadAWEMQo)
 
-Ajelex focuses on the business aspect of Bitcoin mining, examining strategies for maintaining profitability in a competitive market. The discussion includes an analysis of operational costs, efficiency measures, and the economics driving the mining industry. 
-
+Ajelex focuses on the business aspect of Bitcoin mining, examining strategies for maintaining profitability in a competitive market. The discussion includes an analysis of operational costs, efficiency measures, and the economics driving the mining industry.
 
 ## Understanding Joinmarket
 
 ![Video](https://youtu.be/VFjccozVwc8)
 
-Adam Gibson offers insight into Joinmarket, detailing how this CoinJoin implementation enhances Bitcoin's privacy and fungibility. He discusses how Joinmarket facilitates collaborative, trustless, and anonymous transactions within the Bitcoin ecosystem. Then in a second part, he show how to run Joinmarket in Signet. 
+Adam Gibson offers insight into Joinmarket, detailing how this CoinJoin implementation enhances Bitcoin's privacy and fungibility. He discusses how Joinmarket facilitates collaborative, trustless, and anonymous transactions within the Bitcoin ecosystem. Then in a second part, he show how to run Joinmarket in Signet.
 
 ## Cubo+ first year Hackathon
 
@@ -154,7 +215,7 @@ Adam Gibson offers insight into Joinmarket, detailing how this CoinJoin implemen
 
 ![Video](https://youtu.be/NiaahH57N1w)
 
-The Satoshi Legacy's group presents their work on building a Lightning e-commerce with Shopify, React JS and Hydrogen and the IBEX payment gateway. 
+The Satoshi Legacy's group presents their work on building a Lightning e-commerce with Shopify, React JS and Hydrogen and the IBEX payment gateway.
 
 ### Groupe 2 Hackathon - Honey Badger
 
@@ -168,20 +229,19 @@ Honey Badger's group presents her solution for a blog with Lightning Powered Mic
 
 The third group presents a Lightning Network Node Dashboard via a customed API, LND, vue.js, node.js, Bootstrap.
 
-
 ### Groupe 4 Hackathon - Satoshi Fellowship
 
 ![Video](https://youtu.be/mxLKiHa0mes#)
 
-Satoshi's Fellowship's group presents a LN gaming app using LnBits and MongoDB, Poetry, Node.js. 
+Satoshi's Fellowship's group presents a LN gaming app using LnBits and MongoDB, Poetry, Node.js.
 
 ### Groupe 5 Hackathon - Lighting Walker
 
 ![Video](https://youtu.be/IiY5PmkGNVo)
 
-Lightning Walker's group presents their solution for Remittances Service using MySQL, JavaScript and ZDB's API. 
+Lightning Walker's group presents their solution for Remittances Service using MySQL, JavaScript and ZDB's API.
 
-# Acknowledgments and Keep Digging the Rabbit Hole
+## Acknowledgments
 
 We'd like to acknowledge the contributions of our educators:
 

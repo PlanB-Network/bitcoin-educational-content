@@ -18,14 +18,12 @@ Portanto, vamos explorar os diferentes tipos de KYC (os KYC completos tipo Fran�
 
 # Introdução
 
-![introdução por Rogzy](https://youtu.be/3AHeKLTK7Sg)
-
 ## Explicação e tipo de KYC
 
-![explicação dos tipos de KYC](https://youtu.be/kDhXoPU1KtM)
-
 O KYC, para "Know Your Customer" (Conheça seu cliente), é uma norma regulatória que exige a coleta de informações privadas dos clientes, como seu endereço físico, identidade ou extratos bancários. Essa prática é comum em plataformas de corretagem, que podem solicitar um KYC completo, incluindo informações detalhadas como identidade, foto, comprovante de residência, folhas de pagamento, etc.
+
 O principal objetivo do KYC é combater a lavagem de dinheiro, o financiamento do terrorismo e a evasão fiscal. É uma lei implementada pela AMF (Autoridade dos Mercados Financeiros), o órgão regulador do mercado francês. No entanto, a aplicação do KYC leva à centralização de bases de dados muito sensíveis contendo informações pessoais dos usuários. Essas informações, tendo um certo valor, podem ser vendidas a entidades mal-intencionadas.
+
 Além disso, as plataformas de troca frequentemente solicitam uma quantidade excessiva de informações pessoais, colocando os usuários em risco e aumentando os custos de conformidade. Esses custos regulatórios podem desencorajar empresas francesas e prejudicar sua competitividade internacionalmente.
 
 Existem três tipos de KYC, incluindo o KYC completo, que exige a coleta completa e regulada de informações para acessar o serviço. Na Suíça, uma alternativa chamada "KYC light" permite a compra e venda de bitcoins sem fornecer identificação, desde que o valor da compra não exceda 1000 euros por dia. Soluções como o Relay permitem o uso desse método.
@@ -43,8 +41,6 @@ Essas medidas regulatórias estão em vigor para combater o financiamento do ter
 Também é importante observar que as informações apresentadas aqui não endossam nenhuma solução em particular. É simplesmente apresentar as opções disponíveis para uma melhor compreensão do assunto. Para qualquer pergunta adicional sobre o Bitcoin, não hesite em consultar recursos online, como www.découvrebitcoin.com.
 
 ## Comparativo das soluções de compra e venda peer-to-peer
-
-![comparativo das soluções de compra e venda p2p](https://youtu.be/HiwSjN04Mz0)
 
 Soluções P2P para compra de Bitcoin: Bisq, RoboSat, LNP2PBot, Peach e HodlHodl
 
@@ -154,12 +150,6 @@ Agora vamos ver os passos para vender bitcoins na Robosats:
 
 🚨 Por favor, tenha cuidado ao usar o Bisq, pois é uma solução avançada. Pode não ser adequado para usuários iniciantes. Certifique-se de ter alguma experiência e compreensão antes de começar. 🚨
 
-Estamos olhando mais de perto esta solução, aqui estão os vídeos tutoriais:
-
-![parte 1](https://tube.nuagelibre.fr/videos/watch/b3885ea9-23e9-4b58-aa3f-401348da85a1)
-
-![parte 2](https://tube.nuagelibre.fr/videos/watch/53276305-70d6-4c7f-9df9-e100a82eee16)
-
 Para os mais experientes, aqui está um guia sintético que relata rapidamente as etapas essenciais:
 
 1. Baixar e Instalar: Visite o site do Bisq e baixe o aplicativo. Instale-o em seu sistema.
@@ -264,8 +254,6 @@ site: https://peachbitcoin.com/
 
 Estamos analisando esta solução em detalhes no BTC 205 oferecido por @pivi\_, aqui estão os vídeos tutoriais:
 
-![peach](https://youtu.be/ziwhv9KqVkM)
-
 [Peach](https://peachbitcoin.com/) é um aplicativo móvel suíço que permite comprar e vender bitcoins peer-to-peer. Esta solução fácil de usar oferece uma interface intuitiva, ideal para transações em criptomoedas.
 
 A interface do aplicativo Peach é composta por quatro guias: comprar, vender, histórico e configurações. (Captura de tela da interface do aplicativo)
@@ -280,8 +268,6 @@ Em resumo, o aplicativo móvel Peach oferece uma solução acessível para compr
 ## Hold Hodl
 
 [HodlHodl](https://hodlhodl.com/) é um mercado descentralizado de Bitcoin que prioriza o controle e a segurança dos usuários. Ao contrário das bolsas tradicionais, funciona com um modelo peer-to-peer, permitindo trocas diretas entre usuários. Com seu sistema de custódia multiassinatura, Hodl Hodl garante a segurança dos fundos durante as transações. A plataforma também suporta vários modos de pagamento e oferece opções de negociação, como contratos por diferença (CFD).
-
-![tutorial hodlhodl](https://youtu.be/BDH9jE7kpD8)
 
 Neste tutorial, explicamos como comprar e vender bitcoins peer-to-peer na plataforma HodlHodl.
 
@@ -318,8 +304,6 @@ A criação de uma oferta de venda ou compra de bitcoins na HodlHodl é feita da
 
 ## Bônus: Side Shift.AI
 
-![SideShift AI](https://youtu.be/xG8Wc1Ti5b8)
-
 Aqui está um breve tutorial sobre como usar o [SideShift AI](https://sideshift.ai/), uma ferramenta muito útil para converter shitcoins em bitcoin. É a ferramenta ideal para aqueles que fecharam todas as suas exchanges pessoais. Nenhum sistema de ordem é necessário e há liquidez disponível. No entanto, observe que há uma taxa de 2,5% por transação.
 
 Se você comprou criptomoedas de forma KYC, é recomendável usar o Monero para converter essas criptomoedas em bitcoin. O Monero oferece maior privacidade do que o Bitcoin. Para maior segurança, a operação CoinJoin também é recomendada. O CoinJoin mistura suas transações com as de outros usuários para complicar a rastreabilidade de suas transações.
@@ -338,8 +322,6 @@ Um sistema de avaliação para a formação será em breve integrado a esta nova
 
 ## Entrevista com Steph de Peach Bitcoin
 
-![entrevista com Steph](https://youtu.be/LRGKD8qNSXw)
-
 Aqui está um resumo da entrevista:
 
 Pitch Bitcoin é um aplicativo móvel não custodial, permitindo a compra e venda de Bitcoin peer-to-peer. Atualmente, a equipe do Pitch Bitcoin, com sede na Suíça, é composta por oito membros e está trabalhando para evoluir o aplicativo para que ele também sirva como uma carteira. O modelo único do Pitch Bitcoin é baseado em uma estrutura de empresa centralizada, enquanto mantém um livro de pedidos descentralizado. Além disso, o aplicativo oferece uma opção para transações em dinheiro durante encontros pessoais.
@@ -354,7 +336,6 @@ Para concluir, a fundadora do Pitch Bitcoin destaca a importância da competiç�
 
 ## Entrevista com Pierre
 
-![entrevista com Pierre](https://youtu.be/COoezuJncm8)
 Aqui está um resumo da entrevista:
 
 Esta entrevista encerra o curso de treinamento Bitcoin 205 sobre o tema das soluções de compra peer-to-peer de Bitcoin. Organizado por Pierre, o objetivo do curso é educar o público de língua francesa sobre soluções técnicas para a compra de Bitcoin peer-to-peer, uma área que tem sido negligenciada até agora. Graças ao progresso alcançado, agora é possível comprar e usar Bitcoin preservando sua privacidade, mesmo com um simples telefone e o aplicativo Telegram.

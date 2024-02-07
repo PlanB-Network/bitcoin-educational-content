@@ -1,6 +1,5 @@
 question: What happens in a cooperative closure?
-answer: The two peers communicate and agree to close the channel, validate a final
-  state of the channel, and create a closing transaction.
+answer: The two peers communicate and agree to close the channel, validate a final state of the channel, and create a closing transaction.
 wrong_answers:
   - One peer forces the closure of the channel.
   - One peer tries to cheat by publishing an old commitment transaction.

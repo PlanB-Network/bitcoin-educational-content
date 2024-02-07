@@ -1,10 +1,7 @@
-question: What was the perception of the German population during the hyperinflation
-  period in the Weimar Republic?
-answer: They attributed inflation to the rise of the dollar rather than the intrinsic
-  devaluation of their own currency.
+question: What was the perception of the German population during the hyperinflation period in the Weimar Republic?
+answer: They attributed inflation to the rise of the dollar rather than the intrinsic devaluation of their own currency.
 wrong_answers:
-  - They were fully aware of the underlying cause of the hyperinflation they were
-    experiencing.
+  - They were fully aware of the underlying cause of the hyperinflation they were experiencing.
   - They blamed the government for their economic difficulties.
   - They believed that hyperinflation was a result of war reparations.
 explanation: |

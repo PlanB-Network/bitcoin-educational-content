@@ -1,0 +1,12 @@
+question: What was a significant limitation faced by individuals during the Greek government's 2015 bankruptcy crisis? 
+answer: Overbearing banking reform imposed by the government. 
+wrong_answers:
+  - Limited access to digital banking services
+  - The volatility of digital currencies like Bitcoin
+  - A shortage of physical currency (cash)
+explanation: |
+  During the Greek government's 2015 bankruptcy crisis, banks were closed, 
+  ATM withdrawals were limited, and a significant portion of individuals' 
+  bank deposits was withdrawn by the government to fund fiscal irresponsibility.
+  This event highlighted the risks associated with having money held within the traditional banking system.
+reviewed: true

@@ -1,9 +1,9 @@
 question:
   Is it recommended to memorize a passphrase or mnemonic phrase for a Bitcoin
   wallet?
-answer: "No"
+answer: This is false
 wrong_answers:
-  - "Yes"
+  - This is true
   - It depends on the length of the passphrase or mnemonic phrase
   - It depends on the complexity of the passphrase or mnemonic phrase
 explanation: |

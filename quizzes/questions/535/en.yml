@@ -1,7 +1,7 @@
 question: Does using a Bitcoin address save space in the blocks?
-answer: "No"
+answer: This is false
 wrong_answers:
-  - "Yes"
+  - This is true
   - Only if the address is compressed
   - Only if the address is hashed
 explanation: |

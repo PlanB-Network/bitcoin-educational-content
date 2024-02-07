@@ -1,6 +1,5 @@
 question: What is the goal of routing transactions on the Lightning Network?
-answer: To optimize the speed, security, and efficiency of transactions while preserving
-  user privacy.
+answer: To optimize the speed, security, and efficiency of transactions while preserving user privacy.
 wrong_answers:
   - To increase the size of the blockchain.
   - To decrease the speed of transactions.

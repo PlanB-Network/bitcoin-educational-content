@@ -336,7 +336,7 @@ L'équation de la courbe elliptique sur bitcoin correspond à la dernière équa
 
 Dans la prochaine section de ce cours, nous utiliserons des courbes qui sont sur le corps des réels simplement pour faciliter la compréhension.
 
-### Calculer la clé publique à partir de la clé privée
+## Calculer la clé publique à partir de la clé privée
 
 ![Calculer la clé publique depuis la clé privée](https://youtu.be/NJENwFU889Y)
 

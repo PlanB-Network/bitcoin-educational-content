@@ -1,6 +1,5 @@
 question: What is the purpose of a Bitcoin node in the context of the Lightning Network?
-answer: To help understand and explore the new aspects of Bitcoin brought about by
-  the Lightning Network.
+answer: To help understand and explore the new aspects of Bitcoin brought about by the Lightning Network.
 wrong_answers:
   - To mine new Bitcoins.
   - To trade Bitcoins.

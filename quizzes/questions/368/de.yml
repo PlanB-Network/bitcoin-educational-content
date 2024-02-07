@@ -1,0 +1,9 @@
+question: Welche Rolle spielen die vertrauenswürdigen Personen in Ihrem Nachlassplan?
+answer: Die vertrauenswürdigen Personen in Ihrem Nachlassplan sind dazu da, Ihrer Familie zu helfen, wenn Sie nicht mehr da sind. Sie geben Ratschläge zur Verwaltung von Schlüsseln und Wallets, helfen dabei, zu verstehen, wie man seine geheimen Phrasen (Seeds) sicher wiederherstellt, und geben Sicherheit während einer Transaktion.
+wrong_answers:
+  - Sie übernehmen den Besitz Ihrer Krypto-Vermögenswerte nach Ihrem Tod, verwalten Ihre Vermögenswerte und verteilen sie unter Ihren Erben.
+  - Sie stehlen Ihre Krypto-Vermögenswerte, bevor sie an Ihre Lieben übergeben werden, beeinträchtigen Ihre Transaktionen und schaffen Konflikte unter Ihren Erben.
+  - Sie ignorieren Ihre Familie, wenn Sie nicht mehr da sind, geben irreführende Ratschläge zur Verwaltung von Schlüsseln und Wallets und sorgen für Verwirrung während einer Transaktion.
+explanation: |
+  Die vertrauenswürdigen Personen in Ihrem Nachlassplan sind dazu da, Ihrer Familie zu helfen, wenn Sie nicht mehr da sind. Sie geben Ratschläge zur Verwaltung von Schlüsseln und Wallets, helfen dabei, zu verstehen, wie man seine geheimen Phrasen (Seeds) sicher wiederherstellt, und geben Sicherheit während einer Transaktion.
+reviewed: false

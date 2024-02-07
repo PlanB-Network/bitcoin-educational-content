@@ -1,0 +1,11 @@
+question: What should you do after writing the letter according to the chapter?
+answer: Review your work, make a copy of the letter, keep both copies in an envelope, seal it, sign the seal, and store this envelope in a safe but accessible place.
+wrong_answers:
+  - Ignore your work, make a copy of the letter, keep both copies in an envelope, seal it, sign the seal, and store this envelope in a dangerous but inaccessible place.
+  - Review your work, make a copy of the letter, keep both copies in an envelope, open it, sign the seal, and store this envelope in a safe but accessible place.
+  - Ignore your work, make a copy of the letter, keep both copies in an envelope, open it, sign the seal, and store this envelope in a dangerous but inaccessible place.
+explanation: |
+  After writing the letter, you should review your work, make a copy of
+  the letter, keep both copies in an envelope, seal it, sign the seal, and store this
+  envelope in a safe but accessible place, as suggested in the chapter.
+reviewed: false

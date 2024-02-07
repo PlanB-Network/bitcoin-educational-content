@@ -1,14 +1,9 @@
-question: What is the consequence of a decrease in interest rates due to an increase
-  in credit according to the Austrian Theory of the Business Cycle?
-answer: The economy enters a recession; asset prices fall, real wages decline, consumer
-  prices fall, and inventory piles up.
+question: What is the consequence of a decrease in interest rates due to an increase in credit according to the Austrian Theory of the Business Cycle?
+answer: The economy enters a recession; asset prices fall, real wages decline, consumer prices fall, and inventory piles up.
 wrong_answers:
-  - The economy enters a boom; asset prices rise, real wages increase, consumer prices
-    rise, and inventory decreases.
-  - The economy enters a stagnation; asset prices remain the same, real wages remain
-    the same, consumer prices remain the same, and inventory remains the same.
-  - The economy enters a deflation; asset prices fall, real wages increase, consumer
-    prices fall, and inventory increases.
+  - The economy enters a boom; asset prices rise, real wages increase, consumer prices rise, and inventory decreases.
+  - The economy enters a stagnation; asset prices remain the same, real wages remain the same, consumer prices remain the same, and inventory remains the same.
+  - The economy enters a deflation; asset prices fall, real wages increase, consumer prices fall, and inventory increases.
 explanation: |
   According to the Austrian Theory of the Business Cycle, when there is
   a decrease in interest rates due to an increase in credit, the economy enters a

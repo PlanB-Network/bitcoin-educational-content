@@ -1,7 +1,7 @@
 ---
-name: Pheonix
+name: Phoenix
 
-description: Mise en place de votre portefeuille Pheonix
+description: Mise en place de votre portefeuille Phoenix
 ---
 
 ![phoenix](assets/cover.jpeg)

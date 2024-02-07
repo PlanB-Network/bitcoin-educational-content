@@ -1,6 +1,5 @@
 question: Why is it important to use randomly generated passwords?
-answer: They offer a higher level of security and are more resistant to brute force
-  attacks.
+answer: They offer a higher level of security and are more resistant to brute force attacks.
 wrong_answers:
   - They are easier to remember.
   - They are shorter and simpler.

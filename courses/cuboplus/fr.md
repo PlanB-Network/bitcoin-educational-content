@@ -7,7 +7,17 @@ objectives:
   - Maîtriser le Lightning Network et ses protocoles associés.
 ---
 
-# Introduction
+Bienvenue dans les cours de développement Cubo+ pour Bitcoin !
+
+Au cours des 20 prochaines heures, vous plongerez profondément dans les protocoles BTC et LN. Ce cours s'adresse aux programmeurs qui souhaitent commencer à travailler dans l'écosystème BTC et recherchent une compréhension solide des différentes piles technologiques de BTC et LN.
+
+Les vidéos ont été enregistrées en direct lors du bootcamp CUBO+ 2023 au Salvador et ont réussi à réunir des enseignants de renommée mondiale. Ce cours a été offert gratuitement grâce à la générosité de Fulgure Venture et aux efforts de collaboration des enseignants, du bureau Bitcoin, de DecouvreBitcoin et de nombreux autres acteurs.
+
+Profitez-en !
+
++++
+
+# Introduction et cours préparatoires
 
 ## Introduction aux cours CUBO+
 
@@ -23,6 +33,77 @@ Le cours vise à doter les participants d'une compréhension approfondie des pri
 
 Les participants doivent faire preuve d'une grande curiosité, d'un désir d'apprendre à un niveau professionnel et de connaissances de base en développement. Bien qu'une expérience détaillée de Bitcoin ne soit pas requise, une compréhension de base des principes de codage et une ouverture à l'exploration de concepts techniques complexes sont essentielles pour tirer le meilleur parti de l'accélérateur.
 
+## Pourquoi Bitcoin
+
+### Pourquoi El Salvador a besoin de Bitcoin
+
+![vidéo](https://www.youtube.com/live/In8BJ3VlaM8?feature=share)
+
+La première conférence 'Pourquoi El Salvador a besoin de Bitcoin' fournit un aperçu de : le protocole Bitcoin et ses origines, le mouvement cypherpunk et l'importance de Bitcoin en tant qu'outil de liberté (argent non censuré, inclusion financière et autres sujets connexes).
+
+
+### Mouvement Cypherpunk et économie autrichienne
+
+![vidéo](https://youtube.com/live/KIaC31YQLBA)
+
+Dans notre deuxième conférence 'Mouvement Cypherpunk et Économie Autrichienne', nous sommes allés plus en profondeur dans la philosophie Cypherpunk introduite par Rikki lors de la conférence précédente.
+
+De plus, notre discussion s'est centrée sur l'École autrichienne d'économie, qui se distingue du système financier actuel (économie keynésienne). Nous avons exploré des concepts tels que la rareté, la préférence temporelle, la durabilité et l'épargne, sur lesquels Saifedean se penchera davantage. Pour vous préparer à sa conférence, je recommande de lire "The Bitcoin Standard" (vous pouvez le trouver dans les 'Ressources supplémentaires'), ou au moins quelques chapitres.
+
+Il est important de noter que le premier module, 'Pourquoi Bitcoin', était nécessaire pour comprendre les racines et les objectifs avant de passer à 'Comment Bitcoin', où nous découvrirons la pile technologique de Bitcoin et les compromis réalisés par les premiers développeurs dans le protocole.
+Voici le lien, profitez-en!
+
+## Comment Bitcoin
+
+### Stack Technologique de Bitcoin
+
+![vidéo](https://youtube.com/live/OKanfSTLlW0)
+
+Dans la première conférence du cours 'Comment Bitcoin', nous avons commencé à explorer la pile technologique qui sous-tend le réseau Bitcoin. Nous avons abordé un éventail de sujets, notamment Hashcash, les transactions, la blockchain, le Lightning Network et d'autres composants clés du protocole Bitcoin.
+
+### Stack Technologique de Bitcoin
+
+![vidéo](https://www.youtube.com/live/VT2nuXaYnHk?feature=share)
+
+Lors de la deuxième conférence de 'Comment Bitcoin', nous avons effectué un examen plus approfondi de la pile technologique de Bitcoin.
+
+## Démystification de Bitcoin
+
+### Couper les rumeurs
+
+![vidéo](https://youtube.com/watch?v=P0reZe6pMpo)
+
+Démystification des blockchains et des shitcoins, ainsi que démystification des mythes et des idées fausses concernant le gaspillage d'énergie de Bitcoin et son utilisation criminelle.
+
+## Exécution de Bitcoin
+
+### Installation de Bitcoin Core
+
+![Vidéo](https://youtube.com/live/K0meE5pldmI)
+
+Dans le premier cours du quatrième module, nous avons exploré l'architecture de Bitcoin et l'installation d'un nœud Bitcoin Core.
+
+### Installation de C-lightning
+
+![vidéo](https://youtube.com/live/p6SgjtplAAM)
+
+Lors de notre deuxième cours, nous avons plongé dans le processus d'installation de C-lightning.
+
+### Sécurité et dispositifs matériels
+
+![vidéo](https://www.youtube.com/live/_0N4EC9Veuw?feature=share)
+
+Dans le troisième cours, nous avons abordé des sujets liés à la sécurité, aux dispositifs matériels et à la configuration de Specter.
+
+## Améliorer Bitcoin
+
+### Problèmes ouverts dans l'écosystème Bitcoin
+
+![vidéo](https://youtube.com/live/BVYKeTXMtzQ)
+
+Salut à tous, voici le lien pour la dernière conférence de la période préparatoire sur les problèmes de Bitcoin et les solutions potentielles.
+
+
 # Fondamentaux de Bitcoin
 
 ## La réflexion sur la sécurité dans Bitcoin
@@ -32,11 +113,13 @@ Les participants doivent faire preuve d'une grande curiosité, d'un désir d'app
 Peter Todd explore les considérations de sécurité propres à Bitcoin, enseignant aux développeurs comment adopter une approche axée sur la sécurité. La conférence vise à instaurer une base solide pour reconnaître et atténuer les menaces potentielles dans le développement Bitcoin, en se basant sur un exercice pratique consistant à expliciter le modèle de menace d'un logiciel de chronométrage des élections.
 
 ## Logiciel libre et open source (FLOSS) dans Bitcoin
+
 ![Vidéo](https://youtu.be/GM-ho5M5_mQ)
 
 L'utilisation de logiciels libres et open source (FLOSS) est essentielle dans l'écosystème de Bitcoin. Peter Todd explore l'importance du FLOSS pour Bitcoin, en examinant l'histoire du FLOSS et en montrant comment Github nous permet de construire collectivement des logiciels open source comme Bitcoin.
 
 ## Cryptographie dans Bitcoin
+
 ![Vidéo](https://youtu.be/4Fw9xS7JlVU)
 
 Adam Gibson guide les participants à travers les bases cryptographiques de Bitcoin d'un point de vue mathématique. La session couvre les fonctions cryptographiques essentielles présentes dans Bitcoin, telles que les hachages et leur sécurité, les arbres de Merkle, les protocoles d'identité et de signature, les logarithmes discrets et les courbes elliptiques.
@@ -57,8 +140,10 @@ Adam Gibson décrit les différents composants d'un nœud Bitcoin. Le chapitre s
 
 ## Les structures de données de Bitcoin
 
-(La vidéo sera bientôt disponible)
+![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
+
 Alekos Filini présente un aperçu approfondi des structures de données de Bitcoin. Cela couvre l'organisation des données au sein de la blockchain et comment cela permet la robustesse et l'efficacité du réseau.
+
 ## Stack logiciel Bitcoin L1
 
 ![Vidéo](https://youtu.be/L6FkntRwkOU)
@@ -113,24 +198,6 @@ Alekos Filini examine les protocoles construits sur le Lightning Network, expliq
 
 # Bonus
 
-## Minage dans Bitcoin
-
-![Vidéo](https://youtu.be/22LadAWEMQo)
-
-Ajelex plonge dans le monde du minage de Bitcoin, détaillant le processus et son importance dans le contexte de la sécurité du réseau et de la création de nouveaux bitcoins.
-
-## Joinmarket
-
-![Vidéo](https://youtu.be/VFjccozVwc8)
-Adam explore Joinmarket, une implémentation de CoinJoin qui améliore la confidentialité et la fongibilité en permettant aux utilisateurs de créer des transactions Bitcoin collaboratives, sans confiance et anonymes.
-## Protocoles sur le réseau Lightning
-
-![Vidéo](https://youtu.be/OLTQLtQyoZE)
-
-Alekos discute des différents protocoles qui fonctionnent sur le réseau Lightning, améliorant ses capacités au-delà des simples canaux de paiement. Ce chapitre explore les innovations que ces protocoles apportent au réseau, comment ils interagissent entre eux et leur rôle dans l'écosystème plus large de Bitcoin, comme Keysend, LNURL, Nostr, Lightning LSPs.
-
-# Bonus
-
 ## Principes essentiels du minage de Bitcoin
 
 ![Vidéo](https://youtu.be/22LadAWEMQo)
@@ -175,7 +242,7 @@ Le groupe de Satoshi Fellowship présente une application de jeu LN utilisant Ln
 
 Le groupe Lighting Walker présente sa solution pour un service de transfert d'argent utilisant MySQL, JavaScript et l'API de ZDB.
 
-# Remerciements et continuez à creuser le terrier du lapin
+## Remerciements
 
 Nous tenons à remercier nos éducateurs :
 

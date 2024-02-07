@@ -20,9 +20,10 @@ Bienvenido al emocionante mundo del Lightning Network, una segunda capa de Bitco
 +++
 
 # Los fundamentales
+
 ## Comprender el Lightning Network
 
-![Comprender el lightning Network](https://youtu.be/PszWk046x-I)
+![video](https://youtu.be/zEpIS5uuTuo)
 
 La red Lightning es una infraestructura de pago de segunda capa, construida sobre la red Bitcoin, que permite transacciones rápidas y económicas. Para comprender completamente cómo funciona la red Lightning, es esencial entender qué son los canales de pago y cómo funcionan.
 
@@ -71,7 +72,7 @@ Ahora, Bob quiere enviar 80,000 SAT a Alice. Como no tiene la liquidez, no puede
 
 ## Bitcoin, direcciones, UTXO y transacciones
 
-![bitcoin, direcciones, utxo y transacciones](https://youtu.be/cadCJ2V7zTg)
+![video](https://youtu.be/42gfEp0zXOg)
 
 En este segundo capítulo, nos tomamos el tiempo para estudiar cómo funcionan realmente las transacciones de Bitcoin, lo que nos será muy útil para entender Lightning. También nos detenemos un momento en la noción de dirección multi-firma, que es fundamental para entender el próximo capítulo dedicado a la apertura de canales en la red Lightning.
 
@@ -100,9 +101,10 @@ En Lightning Network, se utilizan multisig. Por lo tanto, se necesitan 2 firmas 
 ![explication](assets/chapitre2/1.JPG)
 
 # Apertura y cierre de canales
+
 ## Apertura de canal
 
-![abrir un canal](https://youtu.be/B2caBC0Rxko)
+![video](https://youtu.be/vV6G07X2GH4)
 
 Ahora, nos enfocamos más detalladamente en la apertura de canal y cómo se realiza a través de una transacción de Bitcoin.
 
@@ -144,12 +146,11 @@ Por lo tanto, Alice puede recuperar los fondos sola, ya tiene la firma de Bob. L
 
 ## Transacción Lightning y de compromiso
 
-![transacción Lightning y transacción de compromiso](https://youtu.be/aPqI34tpypM)
-
-![cover](assets/chapitre4/1.JPG)
-
+![video](https://youtu.be/7vjBvkDRhZ0)
 
 Ahora analicemos lo que realmente sucede detrás de escena cuando se transfieren fondos de un lado a otro de un canal en la red Lightning, con la noción de transacción de compromiso. La transacción de retiro/cierre on-chain representa el estado del canal, lo que garantiza quién posee los fondos después de cada transferencia. Por lo tanto, después de una transferencia en la red Lightning, hay una actualización de esta transacción/contrato no realizado entre los dos pares, Alice y Bob, creando una misma transacción con el estado actual del canal en caso de cierre:
+
+![cover](assets/chapitre4/1.JPG)
 
 - Alice crea un canal con Bob con 130,000 SAT de su lado. La transacción de retiro aceptada por ambos en caso de cierre dice que 130,000 SAT irán a Alice al cierre, Bob está de acuerdo porque es justo.
 
@@ -180,7 +181,7 @@ El dinero nunca se mueve, pero el saldo final se actualiza a través de una tran
 
 ## Transacciones de compromiso
 
-![transacciones parte 2](https://youtu.be/RRvoVTLRJ84)
+![video](https://youtu.be/Lg1alt3MxDQ)
 
 Si las transacciones de compromiso dictan un estado del canal con la liquidez en el momento X, ¿se puede hacer trampa publicando un estado antiguo? La respuesta es sí, porque ya se tiene la pre-firma de los dos participantes en la transacción no publicada.
 
@@ -208,7 +209,7 @@ La persona que crea la transacción con el Timelock (quien envía el dinero) sol
 
 ## Cierre del canal
 
-![cerrar un canal](https://youtu.be/FVmQvNpVW8Y)
+![video](https://youtu.be/TgimOZN5rGs)
 
 Nos interesamos por el cierre del canal a través de una transacción de Bitcoin, que puede tomar diferentes formas según el caso. Existen 3 tipos de cierre de canal:
 
@@ -246,9 +247,10 @@ Alice intenta hacer trampa publicando una transacción de compromiso antigua. Pe
 En conclusión, el cierre del canal en Lightning Network es un paso crucial que puede tomar diversas formas. En un cierre cooperativo, ambas partes se comunican y acuerdan un estado final del canal. Es la opción más rápida y menos costosa. Por otro lado, un cierre forzado ocurre cuando una de las partes no responde. Es una situación más costosa y más larga debido a las tarifas de transacción impredecibles y la activación del Timelock. Finalmente, si un participante intenta hacer trampa publicando una transacción de compromiso antigua, el tramposo, puede ser castigado perdiendo todos los SAT del canal. Por lo tanto, es crucial comprender estos mecanismos para una utilización eficaz y justa de Lightning Network.
 
 # Una red de liquidez
+
 ## Lightning Network
 
-![Lightning Network](https://youtu.be/RAZAa3v41DM)
+![video](https://youtu.be/7sVE0N206B4)
 
 En este séptimo capítulo, estudiamos el funcionamiento de Lightning como una red de canales y cómo se enrutan los pagos desde su origen hasta su destino.
 Lightning es una red de canales de pago. Miles de pares con sus propios canales de liquidez están conectados entre sí, y así se autoutilizan para realizar transacciones entre pares no conectados.
@@ -329,7 +331,7 @@ Para Susie o Eden: no saben quién es el destinatario final ni quién envía. Es
 
 ## HTLC - Contrato de tiempo bloqueado y hash
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
+![video](https://youtu.be/k4z2LvAnqoo)
 
 En un sistema de enrutamiento clásico, ¿cómo asegurarse de que Eden no haga trampa y cumpla con su parte del contrato?
 
@@ -384,7 +386,7 @@ En resumen, el mecanismo HTLC agrega una capa adicional de seguridad en Lightnin
 
 ## Encontrar tu camino
 
-![encontrar tu camino](https://youtu.be/wnUGJjOxd9Q)
+![video](https://youtu.be/wyWv37M3NzA)
 
 El único dato público es la capacidad total del canal (Alice + Bob) pero no sabemos dónde está la liquidez.
 Para obtener más información, nuestro nodo escucha el canal de comunicación de LN para anuncios de nuevos canales y actualizaciones de tarifas de canales. Su nodo también mira la cadena de bloques para el cierre de canales.
@@ -449,13 +451,14 @@ En conclusión, el enrutamiento de transacciones en la Red Lightning es un proce
 Además, para facilitar la búsqueda de ruta, el destinatario puede proporcionar información adicional, como la dirección, la cantidad, el hash de la preimagen y las indicaciones sobre sus canales. Esto puede ayudar a identificar los canales con suficiente liquidez y evitar intentos de transacciones innecesarias. En última instancia, el sistema de enrutamiento de la Red Lightning está diseñado para optimizar la velocidad, la seguridad y la eficiencia de las transacciones, al tiempo que se preserva la privacidad de los usuarios.
 
 # Herramientas de la Lightning Network
+
 ## Factura, LNURL, Keysend
 
-![factura, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
-
-![cover](assets/chapitre10/0.JPG)
+![video](https://youtu.be/OrKbBjAow94)
 
 Una factura LN (o invoice) es larga y no es agradable de leer, pero permite representar de manera densa una solicitud de pago.
+
+![cover](assets/chapitre10/0.JPG)
 
 Ejemplo:
 lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3
@@ -501,11 +504,11 @@ En conclusión, una factura de Lightning Network, aunque compleja a primera vist
 
 ## Gestionar la liquidez
 
-![gestionar la liquidez](https://youtu.be/YuPrbhEJXbg)
-
-![instruction](assets/chapitre11/0.JPG)
+![video](https://youtu.be/tSflqK9QWI4)
 
 Damos algunas pautas generales para responder a la sempiterna pregunta de la gestión de la liquidez en Lightning.
+
+![instruction](assets/chapitre11/0.JPG)
 
 En LN, hay 3 tipos de personas:
 
@@ -541,11 +544,12 @@ Lo más complicado en LN es mantener la liquidez.
 ![instruction](assets/chapitre11/5.JPG)
 
 En conclusión, la gestión de la liquidez en la red Lightning Network es un desafío clave que depende del tipo de usuario: comprador, comerciante o nodo de enrutamiento. Los compradores, que necesitan liquidez saliente, tienen la tarea más sencilla: simplemente abren canales. Los comerciantes, que necesitan liquidez entrante, deben estar conectados a otros nodos y actores. Los nodos de enrutamiento, por su parte, buscan mantener un equilibrio de liquidez en ambos lados. Existen varias soluciones para gestionar la liquidez, como la compra de canales o el pago para aumentar la capacidad de recepción. La opción "Loop Out", que permite un Atomic Swap entre LN y BTC, ofrece una solución interesante para reequilibrar la liquidez. A pesar de estas estrategias, mantener la liquidez en la red Lightning Network sigue siendo un desafío complejo.
+
 # Vamos mas alla
 
 ## Resumen de la formación
 
-![conclusión](https://youtu.be/MaWpD0rbkVo)
+![video](https://youtu.be/yC5UOCjcAr0)
 
 Nuestro objetivo era explicar cómo funciona la red Lightning y cómo se basa en Bitcoin para funcionar.
 
@@ -572,8 +576,6 @@ Hay una componente de probabilidad cuando se envía un pago a través de Lightni
 Para recibir pagos, es necesario gestionar la liquidez en los canales, lo que se puede hacer pidiendo a otras personas que abran canales hacia nosotros, abriendo canales nosotros mismos y utilizando herramientas como Loop o comprando/alquilando canales en marketplaces.
 
 ## Entrevista con Fanis
-
-![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
 
 Aquí hay un resumen de la entrevista:
 

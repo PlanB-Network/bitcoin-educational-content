@@ -1,0 +1,11 @@
+question: What is the historical connection between money and commodities like gold? 
+answer: Gold is scarce and widely accepted as a store of value 
+wrong_answers:
+  - Gold makes money look more attractive 
+  - Gold is easily divisible 
+  - Gold is unique 
+explanation: |
+  Given gold's globalised scarcity in nature and the significant investment required 
+  to mine, refine, and store, gold has consistently traded at a premium above
+  other forms of money.
+reviewed: true

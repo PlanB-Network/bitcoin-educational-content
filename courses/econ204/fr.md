@@ -34,7 +34,6 @@ Section 2 - Qu’est-ce que l’inflation ?
 
 - 2.1 - Un phénomène monétaire
 - 2.2 - Les types d’inflation
-- 2.3 - La déflation
 
 Section 3 - Qu’est-ce que l’hyperinflation ?
 
@@ -48,21 +47,7 @@ Section 3 - Qu’est-ce que l’hyperinflation ?
 Section 4 - Comment en sommes nous arrivés là ?
 
 - 4.1 - L’émergence de la deuxième couche de la monnaie et des banques centrales
-- 4.2 - Centralisation du pouvoir à traver les crises (Rogzy)
-- 4.3 - Too big too fail & le pouvoir du législateur (Rogzy)
-
-Section 5 - L’hyperinflation aujourd’hui (Rogzy)
-
-USD (pétrodollar)
-Euro vs CAD
-Les petits pays (monnaies faibles, pays dollarisés)
-Quel serait l’impact pour la Canada et la France (illustrer la différence entres les pays face à l’hyperinflation) (Theo)
-
-Section 6 - Comment se protéger de l’hyperinflation (Rogzy)
-
-- Or, BTC, choisir un travail, s'éduquer, être mobile et flexible
-  Livres et ressources
-- Bonus: Témoignages de personnes qui vivent de l’hyperinflation (Rogzy)
+- 4.2 - Livres et ressources
 
 
 Bonne chance !
@@ -979,7 +964,7 @@ En 2007, le taux d'inflation au Zimbabwe avait atteint le seuil de 50 % par mois
 
 C'est inquiétant de noter que le Zimbabwe a depuis tenté de réintroduire sa propre monnaie, et des signes d'inflation élevée sont à nouveau apparus. Selon certaines organisations internationales, le pays pourrait déjà remplir à nouveau les critères d'hyperinflation, même s'il n'a pas encore atteint le seuil officiel de 50 % par mois. Cela sert de rappel sur les dangers de l'émission monétaire excessive et du financement du déficit par la banque centrale.
 
-## Conclusion
+### Conclusion
 
 Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation.
 
@@ -988,8 +973,6 @@ Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier
 Pour ceux qui sont curieux de l'expérience allemande après la Première Guerre mondiale, je recommande vivement la bande dessinée "Le banquier du Reich". Elle narre comment l'Allemagne a réussi à surmonter l'hyperinflation, notamment grâce à la création du Rentenmark.
 
 ![image](assets/chapitre-3.5/4.PNG)
-
-Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation. Pour ceux qui sont curieux de l'expérience allemande après la Première Guerre mondiale, je recommande vivement la bande dessinée "Le banquier du Reich". Elle narre comment l'Allemagne a réussi à surmonter l'hyperinflation, notamment grâce à la création du Rentenmark.
 
 L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusieurs stratégies. On peut opter pour la dollarisation ou introduire une nouvelle monnaie. Ces solutions ne fonctionneront que si la population a confiance en elles. Il est crucial d'imposer des contraintes rigoureuses. Une banque centrale véritablement indépendante est essentielle. Elle ne doit pas gonfler la masse monétaire pour combler les déficits gouvernementaux. En cas d'inflation légère, limiter la croissance de la masse monétaire devrait suffire. Toutefois, lorsqu'on est confronté à une hyperinflation, il est primordial d'abord d'avoir une masse monétaire appropriée à la taille de l'économie en question. Ensuite, il est impératif d'imposer des contraintes strictes au gouvernement pour stabiliser la situation.
 

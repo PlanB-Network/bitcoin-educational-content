@@ -1307,5 +1307,344 @@ The options available here are separate from custom roles. These extra permissio
 
 We can set some important settings to manage new users coming to the server. We can set a confirmation email for new registrations, Disable new user creation through the login screen, and restrict non-admins access to user creation over the API.
 
+- Require a confirmation email for registering.
+    - The server administrator has to have set up an Email server!
+- Disable new user registration on the server
+- Disable non-admins access to the user creation API endpoint.
+
+By default, BTCPay Server has toggled on Disable new user registration and turned off the non-admins access to the user creation API endpoint. This is out of a security aspect where no random person who might have found the BTCPay Login of your server can start creating accounts.
+
+![image](assets/en/75.png)
+
+### Notification Settings.
+
+![image](assets/en/76.png)
+
+### Maintenance Settings.
+
+BTCPay Server is an Open Source project that lives on GitHub. Whenever BTCPay Server releases a new version of the software, Administrators can be notified that a new version is available. Administrators may also want to discourage search engines (google, yahoo, duckduckgo) from indexing the BTCPay Server domain. As BTCPay Server is FOSS, developers worldwide might want to create new features; BTCPay Server has an experimental feature when toggled on, and an administrator can use features not meant for production yet, purely for testing purposes.
+
+- Check releases on GitHub and notify when a new BTCPay Server version is available.
+- Discourage search engines from indexing this site
+- Enable experimental features.
+
+![image](assets/en/77.png)
+
+### Plugins.
+
+BTCPay Server can add Plugins and expand its feature set. The plugins, by default, are loaded from the BTCPay Server plugin-builder repository. An administrator, however, may choose to see plugins in a Pre-release state, and if the plugin developer allows it, the server administrator can now install beta versions of plugins.
+
+![image](assets/en/78.png)
+
+### Customization Settings.
+
+A standard BTCPay Server deployment will be reachable through the domain set up for it at installation. However, a server administrator can remap the root domain and display one of the created apps from a specific store. The Server Administrator can also map specific domains to specific apps.
+
+- Display the app on the website’s root
+    - Displays list of possible apps to show on the root domain.
+
+![image](assets/en/79.png)
+
+- Map specific domains to specific apps.
+    - When you click to set up a specific domain for specific apps, the Administrator can set as many domains pointed to specific apps as needed.
+
+![image](assets/en/80.png)
+
+### Block explorers.
+
+BTCPay Server, as standard, comes with mempool.space as its Block explorer for transactions. When BTCPay Server generates a new invoice, and there is a transaction tied to it, the store owner can click to open the transaction; BTCPay Server will standard point towards mempool.space as a block explorer; a server Administrator may change this to his preference.
+
+![image](assets/en/81.png)
+
+## BTCPay Server settings - Services
+
+The BTCPay Server settings: Services tab is an overview of components your BTCPay Server uses. The services your BTCPay Server exposes might vary depending on the deployment method.
+
+A BTCPay Server Administrator can click on the “See information “behind each service to open it and set specific settings.
+
+![image](assets/en/82.png)
+
+### LND (gRPC)
+
+BTCPay exposes LND’s GRPC service for outside consumption; you will find connection information in this specific settings menu; compatible wallets are listed here. BTCPay Server also gives a QR code for connection to scan and apply in the mobile wallet.
+
+
+Server administrators can open more details to see;
+
+- Host details
+- Use of SSL
+- Macaroon
+- AdminMacaroon
+- InvoiceMacaroon
+- ReadonlyMacaroon
+- GRPC SSL Cipher suite (GRPC_SSL_CIPHER_SUITES)
+
+### LND (REST)
+
+BTCPay exposes LND’s REST service for outside consumption; you will find connection information here; compatible wallets are listed here. Among the compatible wallets are Joule, Alby, and ZeusLN. BTCPay Server gives a QR code for connection, scan and apply in the compatible wallet.
+
+- REST Uri
+- Macaroon
+- AdminMacaroon
+- InvoiceMacaroon
+- ReadonlyMacaroon
+
+### LND Seed Backup
+
+The LND seed backup is useful to recover funds from your LND wallet in case of a corruption of your Server. As the Lightning node is a Hot-wallet, you can find the confidential seed information on this page.
+
+LND documents the recovery process. See https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md for documentation.
+
+### Ride The Lightning
+
+Ride the Lightning is a Lightning node management tool built as Open Source software. BTCPay Server uses RTL as the Lightning node management component in its stack. BTCPay Server administrators can reach RTL through the Server settings - Services tab or by clicking on the Lightning wallet.
+
+### Full node P2P
+
+Server administrators may want to connect their Bitcoin node to a mobile wallet. This page exposes information to connect remotely to your full node via the P2P protocol. As of writing this book, BTCPay Server lists Blockstream Green and Wasabi wallet as compatible wallets. BTCPay Server gives a QR code for connection, scan and apply in the compatible wallet.
+
+### Full node RPC
+
+This page exposes information to connect remotely to your full node via the RPC protocol.
+
+### SSH
+
+SSH is used for maintenance purposes. BTCPay Server shows the initial connection command to reach your Server and SSH public keys authorized to connect to your Server. Server Administrators might want to turn off SSH changes through the UI of BTCPay Server.
+
+### Dynamic DNS.
+
+Dynamic DNS allows you to have a stable DNS name pointing to your Server, even if your IP address changes regularly. This is recommended if you are hosting BTCPay Server at home and wish to have a clearnet domain to access your Server.
+
+Note that you need to properly configure your NAT and BTCPay Server installation to get the HTTPS certificate.
+
+## BTCPay Server settings - Theme
+
+### Theme.
+
+BTCPay Server, as standard, comes with two themes: Light and Dark modes. These can be switched by Clicking on Account in the bottom left and toggling between Dark theme or Light theme. BTCPay Server administrators may add their theme by providing a custom CSS theme.
+
+Administrators can extend the Light/Dark theme by adding their own custom CSS or setting their custom theme as a full custom.
+
+![image](assets/en/83.png)
+
+### Server Branding
+
+Server administrators can change the BTCPay Server branding by setting a Server-wide branding of your company. As BTCPay Server is FOSS, server administrators can white label the software and change the look to suit their business.
+
+![image](assets/en/84.png)
+
+## BTCPay Server settings - Maintenance
+
+As a server administrator, your users expect you to take good care of the Server. Within BTCPay Server’s Maintenance tab, the admin can do some essential maintenance. Set the domain name to the BTCPay Server instance, Restart or clean up the Server. Possibly most important, run updates.
+
+BTCPay Server is an Open Source project and updates frequently. Every new release is announced by either your BTCPay Server Notifications or on the official Channels BTCPay Server communicates through.
+
+![image](assets/en/85.png)
+
+### Domain name
+
+After BTCPay Server is set up, an administrator might want to change away from his original Domain. Within the Maintenance tab, the administrator can change the Domain. After clicking confirm and setting up the proper DNS records on the Domain, BTCPay Server updates and restarts to return to the new Domain.
+
+![image](assets/en/86.png)
+
+### Restart
+
+Restart BTCPay Server and related services.
+
+![image](assets/en/87.png)
+
+### Clean
+
+BTCPay Server runs with Docker components; with updates, there might be leftovers of Docker images, temp files, etc. Server Administrators can clean this up and recoup space on their environment by running the Clean script.
+
+![image](assets/en/88.png)
+
+### Update
+
+Possibly the most important option in the Maintenance tab. BTCPay Server is built by the community, and therefore, its update cycles are more frequent than most software products. When BTCPay Server has a new release, administrators will be notified in their notification center. By clicking the update button, BTCPay Server will check GitHub for the latest release, update the Server and restart. Before updating, server administrators are always advised to read the release notes distributed through the official channels of BTCPay Server.
+
+![image](assets/en/89.png)
+
+## BTCPay Server settings - Logs
+
+Facing a problem is never fun. This document explains the most common workflow and steps to efficiently identify your issue and solve it yourself or with community help.
+
+Identifying the problem is crucial.
+
+### 1. Replicating the issue
+First and foremost, try to determine when the issue happens. Try to replicate the problem. Try to update and restart your Server to verify that you can reproduce your issue. If it describes your issue better, take a screenshot.
+
+### 1.1 Updating the server
+
+Check your version of BTCPay Server if it is much older than the [latest version](https://github.com/btcpayserver/btcpayserver/releases) of BTCPay Server. Updating your Server may resolve the issue.
+
+### 1.2 Restarting the server
+
+Restarting your Server is an easy way to solve many of the most common BTCPay Server issues. You may need to SSH into your Server to restart it.
+
+### 1.3 Restarting a service
+
+You may only need to restart a particular service in your BTCPay Server deployment for some issues. Such as restarting the lets encrypt container to renew the SSL certificate.
+
+sudo su -
+
+cd btcpayserver-docker
+
+docker restart letsencrypt-nginx-proxy-companion
+
+Use docker ps to find the name of a different service you would like to restart.
+
+### 2. Looking through the logs
+
+Logs can provide an essential piece of information. In the following paragraphs, we will describe how to get the log information for various parts of BTCPay.
+
+### 2.1 BTCPay Logs
+
+Since v1.0.3.8, you can easily access BTCPay Server logs from the front end. If you are a server admin, go to Server Settings > Logs and open the logs file. If you do not know what a particular error in the logs means, mention it when troubleshooting.
+
+If you want more detailed logs and are using a Docker deployment, you can view logs of specific Docker containers using the command line. See these [instructions to ssh](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) into an instance of BTCPay running on a VPS.
+
+On the next page, a general list of the container names used for BTCPay Server.
+
+Run the commands below to print logs by container name. Replace the container name to view other container logs.
+
+sudo su -
+
+cd btcpayserver-docker
+
+docker ps
+
+docker logs --tail 100 generated_btcpayserver_1
+
+| Logs for         | Container Name                                       |
+| ---------------- | ---------------------------------------------------- |
+| BTCPayServer     | generated_btcpayserver_1                             |
+| NBXplorer        | generated_nbxplorer_1                                |
+| Bitcoind         | btcpayserver_bitcoind                                |
+| Postgres         | generated_postgres_1                                 |
+| proxy            | letsencrypt-nginx-proxy-companion                    |
+| Nginx            | nginx-gen                                            |
+| Nginx            | nginx                                                |
+| c-lightning      | btcpayserver_clightning_bitcoin                      |
+| LND              | btcpayserver_lnd_bitcoin                             |
+| RTL              | generated_lnd_bitcoin_rtl_1                          |
+| Thunderhub       | generated_bitcoin_thub_1                             |
+| LibrePatron      | librepatron                                          |
+| Tor              | tor-gen                                              |
+| Tor              | tor                                                  |
+
+### 2.2.1 - Lightning Network LND - Docker
+
+There are a few ways to access your LND logs when using Docker. First log in as root:
+
+sudo su -
+
+Navigate to the correct directory:
+
+cd btcpayserver-docker
+
+Find container name:
+
+docker ps
+
+Print logs by container name:
+
+docker logs --tail 100 btcpayserver_lnd_bitcoin
+
+Alternatively, you can quickly print logs by using container ID (only the first unique ID characters are needed, such as the two furthest left characters):
+
+docker logs 'add your container ID '
+
+If for any reason you need more logs
+
+sudo su -
+
+cd /var/lib/docker/volumes/generated_lnd_bitcoin_datadir/_data/logs/ bitcoin/mainnet/
+
+inside that directory do ls
+
+You will see something like lnd.log lnd.log.13 lnd.log.15 lnd.log.16.gz lnd.log.17.gz
+
+To access uncompressed logs of those logs do cat lnd.log or if you want another one, use cat lnd.log.15
+
+To access compressed logs in .gzip use gzip -d lnd.log.16.gz (in this case we're accessing lnd.log.16.gz) This should give you a new file, where you can do cat lnd.log.16 . In case the above does not work, you may need to use install gzip first sudo apt-get install gzip
+
+### 2.2.2 - Lightning Network c-lightning - Docker
+
+sudo su -
+
+docker ps
+
+Find the c-lightning container ID.
+
+docker logs 'add your container ID here'
+
+alternatively, use this
+
+docker logs --tail 100 btcpayserver_clightning_bitcoin
+
+You can also get log information with c-lightning cli command.
+
+bitcoin-lightning-cli.sh getlog
+
+### 2.3 - Bitcoin Node Logs
+
+In addition to [looking at logs](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) of your Bitcoind container, you can also use any of the [bitcoin-cli commands](https://developer.bitcoin.org/reference/rpc/index.html)
+
+[(opens new window)](https://developer.bitcoin.org/reference/rpc/index.html) to obtain information from your bitcoin node. BTCPay includes a script to allow you to communicate with your Bitcoin node easily.
+
+Inside the btcpayserver-docker folder, get the blockchain information using your node:
+
+bitcoin-cli.sh getblockchaininfo
+
+## BTCPay Server settings - Files
+
+BTCPay Server has a local file system and uploads Store (product) assets, Logos, and branding directly to the Server. The Server’s file system is only accessible by Server Administrators; store owners can upload their logos/ branding at the store level.
+
+When the Server administrator is in the File Storage tab, it is possible to directly upload to your Server or change the file storage provider to a Local file system or Azure Blob Storage.
+
+![image](assets/en/90.png)
+
+![image](assets/en/91.png)
+
+## Skill Summary:
+
+In this section, you learned the following:
+
+- The difference between Store and Server settings, in particular as they relate to Users, Roles, and Emails
+- Set server-wide policies for Lightning or Bitcoin hot wallet use and creation, new user registration, and email notifications.
+- <stuff about services, but I did not fully understand this stuff enough to write a skill about it>
+- How to add custom themes (instead of simple light/dark options provided) as well as create custom logos
+- Perform simple server maintenance tasks via the GUI provided
+- Troubleshoot issues, including fetching details for any of the Docker containers or your node
+- Manage file storage
+
+## Knowledge assessment;
+
+### KA 4.3.1 Conceptual Review
+
+What is the difference in Roles assigned through Server vs Store Settings, and what describe a potential use for one over the other: __________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### KA 4.3.2 Practical Review
+
+Describe some possible use cases enabled in the Policies tab: __________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### KA 4.3.3 Practical Review
+
+Describe some actions an administrator might routinely make in the Maintenance tab: __________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Objective 4.4; 
+## BTCPay Server - Payments
+
+An invoice is a document the seller issues to a buyer to collect payment.
+
+In BTCPay Server, an invoice represents a document that must be paid within a defined time interval at a fixed exchange rate. Invoices have expiration because they lock the exchange rate within a specified time frame to protect the receiver from price fluctuations.
+
+The core of BTCPay Server is the ability to act as a Bitcoin invoice management system. An invoice is an essential tool for tracking and managing a received payment.
+
+Unless you use a built-in [Wallet](https://docs.btcpayserver.org/Wallet/) to receive payments manually, all payments within a store will be shown on the Invoices page. This page cumulatively sorts payments by date and is a central piece for invoice management and payment troubleshooting.
+
+![image](assets/en/92.png)
+
 # Objective 5: BTCPay Server Default Plugins
 # Objective 6: Configuring BTCPay Server 

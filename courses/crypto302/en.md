@@ -65,7 +65,7 @@ For those readers who wish to seek out more advanced knowledge on cryptography a
 Please have a look at the contributions file in the repository for some guidelines on how to support the project.
 
 
-# Chapter 1: What is Cryptography?
+# What is Cryptography?
 
 Let’s start our enquiry into the field of cryptography with one of the more charming and entertaining episodes in its history: that of the Beale ciphers.<sup>[1](#footnote1)</sup>
 
@@ -171,7 +171,7 @@ Hence, the idea of keeping communications secret by protecting the communication
 [^7]: See, for instance, Olga Khazan, “The creepy, long-standing practice of undersea cable tapping”, *The Atlantic*, July 16, 2013 (available at [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)) [^7].
 
 
-# Chapter 2: Mathematical Foundations of Cryptography I
+# Mathematical Foundations of Cryptography I
 
 Cryptography relies on mathematics. And if you want to build more than a superficial understanding of cryptography, you need to be comfortable with that mathematics. 
 
@@ -447,7 +447,7 @@ The reason for dropping the distinction between “random” and “uniform” i
 [^2]: If interested in a more formal exposition on these matters, you can consult Katz and Lindell’s *Introduction to Modern Cryptography*, esp. chapter 3 [^2].
 
 
-# Chapter 3: Mathematical Foundations of Cryptography II
+# Mathematical Foundations of Cryptography II
 
 This chapter covers a more advanced topic on the mathematical foundations of cryptography: number theory. Though number theory is important to symmetric cryptography (such as in the Rijndael Cipher), it is particularly important in the public key cryptographic setting.
 
@@ -762,7 +762,7 @@ For further discussion on modern number theory, you can consult many advanced di
 [^5]: Katz and Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar and Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin) [^5].
 
 
-# Chapter 4: Symmetric Cryptography
+# Symmetric Cryptography
 
 One of the two main branches of cryptography is symmetric cryptography. It includes encryption schemes as well as schemes concerned with authentication and integrity. Until the 1970s, all of cryptography would have consisted of symmetric encryption schemes. 
 
@@ -1171,7 +1171,7 @@ The communication session starts by Bob sending a ciphertext C<sub>0,B</sub> to 
 
 
 
-# Chapter 5: RC4 and AES
+# RC4 and AES
 
 In this Chapter, we will discuss the details of an encryption scheme with a modern primitive stream cipher, RC4 (or "Rivest cipher 4"), and a modern block cipher, AES. While the RC4 cipher has fallen into disfavor as a method of encryption, AES is the standard for modern symmetric encryption. These two examples should give a better idea of how symmetric encryption works under the hood. 
 
@@ -1356,7 +1356,7 @@ Without entering into the details, encryption schemes are assessed on the basis 
 
 The reasoning for the operations behind the Rijndael cipher is they produce both a high degree of confusion and diffusion. The confusion is produced by the Byte substitution operation, while the diffusion is produced by the shift rows and mix columns operations. 
 
-# Chapter 6: Asymmetric Cryptography
+# Asymmetric Cryptography
 
 As with symmetric cryptography, asymmetric schemes can be used to ensure both secrecy and authentication. By contrast, however, these schemes employ two keys rather than one: a private and a public key.
 
@@ -1601,7 +1601,7 @@ While collision resistance and hiding are the main properties sought of hash fun
 [^6]: The “hiding” terminology is not common language, but taken specifically from Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder, *Bitcoin and Cryptocurrency Technologies*, Princeton University Press (Princeton, 2016), Chapter 1 [^6].
 
 
-# Chapter 7 - The RSA cryptosystem
+# The RSA cryptosystem
 
 While symmetric cryptography is usually fairly intuitive for most people, this is typically not the case with asymmetric cryptography. Though you are likely comfortable with the high-level description offered in the previous sections, you are probably wondering what precisely one-way functions are and how exactly they are used to construct asymmetric schemes. 
 

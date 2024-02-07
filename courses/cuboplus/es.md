@@ -33,7 +33,7 @@ El curso tiene como objetivo equipar a los participantes con una comprensión pr
 
 Se espera que los participantes tengan un fuerte sentido de curiosidad, un deseo de aprender a nivel profesional y algunos conocimientos fundamentales en desarrollo. Si bien no se requiere un conocimiento detallado de Bitcoin, es esencial tener una comprensión básica de los principios de codificación y una disposición para involucrarse con conceptos técnicos complejos para aprovechar al máximo el acelerador.
 
-## Módulo 1 - Por qué Bitcoin
+## Por qué Bitcoin
 
 ### Por qué El Salvador necesita Bitcoin
 
@@ -52,7 +52,7 @@ Además, nuestra discusión se centró en la Escuela Austriaca de Economía, que
 Es importante señalar que el primer módulo, 'Por qué Bitcoin', era necesario para comprender las raíces y los objetivos antes de pasar a 'Cómo Bitcoin', donde descubriremos la tecnología subyacente de Bitcoin y las decisiones que tomaron los primeros desarrolladores en el protocolo.
 Aquí está el enlace, ¡disfrútelo!
 
-## Módulo 2 - Cómo Bitcoin
+## Cómo Bitcoin
 
 ### Pila Tecnológica de Bitcoin
 
@@ -66,7 +66,7 @@ En la primera conferencia del curso 'Cómo Bitcoin', comenzamos a explorar la pi
 
 Durante la segunda conferencia de 'Cómo Bitcoin', realizamos un examen más profundo de la pila tecnológica de Bitcoin.
 
-## Módulo 3 - Desacreditando Bitcoin
+## Desacreditando Bitcoin
 
 ### Romper con la FUD
 
@@ -74,7 +74,7 @@ Durante la segunda conferencia de 'Cómo Bitcoin', realizamos un examen más pro
 
 Desacreditando las blockchains y las shitcoins, y desacreditando mitos y concepciones erróneas sobre el desperdicio de energía de Bitcoin y su uso criminal.
 
-## Módulo 4 - Ejecutando Bitcoin
+## Ejecutando Bitcoin
 
 ### Instalación de Bitcoin Core
 
@@ -94,7 +94,7 @@ Durante nuestra segunda conferencia, nos adentramos en el proceso de instalació
 
 En la tercera conferencia, cubrimos temas relacionados con la seguridad, dispositivos de hardware y la configuración de Specter.
 
-## Módulo 5 - Mejorando Bitcoin
+## Mejorando Bitcoin
 
 ### Problemas Abiertos en el Ecosistema Bitcoin
 

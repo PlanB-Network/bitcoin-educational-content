@@ -33,7 +33,7 @@ The course aims to equip participants with a deep understanding of Bitcoin's und
 
 Participants are expected to bring a strong sense of curiosity, an eagerness to learn at a professional level, and some foundational knowledge in development. While a detailed background in Bitcoin is not required, a basic understanding of coding principles and an openness to engaging with complex technical concepts are essential for making the most of the accelerator.
 
-## Module 1 - Why Bitcoin
+## Why Bitcoin
 
 ### Why El salvador needs Bitcoin
 
@@ -53,7 +53,7 @@ We explored concepts such as scarcity, time preference, durability and saving, w
 It is important to note that the first module, 'Why Bitcoin', was necessary to comprehend the roots and goals before moving on to 'How Bitcoin', where we will discover the Bitcoin's technological stack and tradeoffs early developers made in the protocol.
 Here is the link, enjoy!
 
-## Module 2 - How Bitcoin
+## How Bitcoin
 
 ### Bitcoin's Technology Stack
 
@@ -67,7 +67,7 @@ In the first lecture of 'How Bitcoin' course, we began exploring the technology 
 
 During the second lecture of 'How Bitcoin', we conducted a more in-depth examination of Bitcoin's technology stack.
 
-## Module 3 - Debunk Bitcoin
+## Debunk Bitcoin
 
 ### Cut the FUD
 
@@ -75,7 +75,7 @@ During the second lecture of 'How Bitcoin', we conducted a more in-depth examina
 
 Debunking blockchains and shitcoin and Debunking myths and misconceptions about Bitcoin’s energy waste, and criminal usage
 
-## Module 4 - Running Bitcoin
+## Running Bitcoin
 
 ### Installation of Bitcoin Core
 
@@ -95,7 +95,7 @@ During our second lecture, we delved into the process of installing c-lightning
 
 In third lecture, we covered topics related to security, hardware devices, and the configuration of Specter
 
-## Module 5 - Imrpoving Bitcoin
+## Imrpoving Bitcoin
 
 ### Open Problems in the Bitcoin ecosystem
 

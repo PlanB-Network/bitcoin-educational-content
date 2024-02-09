@@ -1,5 +1,6 @@
 level: intermediate
-hours: 6
+hours: 666
+requires_payment: true
 
 professors:
   - super-brother

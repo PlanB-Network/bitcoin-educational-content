@@ -40,3 +40,9 @@ En voyant cette transaction sur la blockchain, un observateur extérieur qui sui
 Cette interprétation est évidemment incorrecte, car comme vous le savez déjà, les deux UTXO en entrée n'appartiennent pas à la même personne. De plus, la valeur réelle du paiement n'est pas de `19 000 sats`, mais bien de `4 000 sats`. L'analyse de l'observateur externe est ainsi dirigée vers une conclusion erronée, ce qui garantit la préservation de la confidentialité des parties prenantes.
 ![schéma transaction payjoin](assets/1.png)
 Si vous souhaitez analyser une véritable transaction Payjoin, en voici une que j'ai réalisée sur le testnet : [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
+
+**Ressources externes :** 
+- https://docs.samourai.io/en/spend-tools#stowaway ;
+- https://samouraiwallet.com/stowaway ;
+- https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt ;
+- https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

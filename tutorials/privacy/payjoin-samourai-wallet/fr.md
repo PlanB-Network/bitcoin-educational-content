@@ -66,3 +66,7 @@ Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opéra
 Si vous avez réalisé ces quelques étapes préalables, vous êtes enfin prêt pour réaliser la transaction Payjoin ! Pour ce faire, suivez notre tutoriel vidéo :
 
 ![Tutoriel vidéo Payjoin - Samourai Wallet](https://youtu.be/FXW6XZim0ww?si=EXalYwK1t9DT48aE)
+
+**Ressources externes :** 
+- https://docs.samourai.io/en/spend-tools#stowaway ;
+- https://samouraiwallet.com/stowaway.

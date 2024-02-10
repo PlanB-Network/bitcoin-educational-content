@@ -3,10 +3,6 @@ name: Noeud Bitcoin Core (mac & windows)
 description: Instalar Bitcoin Core en Mac o Windows
 ---
 
-# Instalar Bitcoin Core en Mac o Windows
-
-> La siguiente guía fue ofrecida por Parman (https://twitter.com/parman_the) puedes darle propina aquí; dandysack84@walletofsatoshi.com Fuente original; https://armantheparman.com/bitcoincore/
-
 Instalar Bitcoin Core en tu computadora regular se puede hacer, pero no es lo ideal. Si no te importa dejar tu computadora encendida las 24 horas del día, esto funcionará bien. Si necesitas apagar la computadora, resulta molesto esperar a que el software se sincronice cada vez que la vuelves a encender.
 
 Estas instrucciones son para usuarios de Mac o Windows. Es probable que los usuarios de Linux no necesiten mi ayuda, pero las instrucciones para Linux son muy similares a las de Mac.
@@ -150,7 +146,3 @@ Una vez que confirmes, la cadena de bloques comenzará a descargarse. Tomará va
 ![image](assets/15.png)
 
 Puedes apagar la computadora y volver a descargar si quieres, no causará ningún daño.
-
-> La siguiente guía fue ofrecida por Parman (https://twitter.com/parman_the)
-> Puedes darle propina aquí: dandysack84@walletofsatoshi.com
-> Fuente original: https://armantheparman.com/bitcoincore/

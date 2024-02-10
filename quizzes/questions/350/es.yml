@@ -1,0 +1,11 @@
+question: ¿Para qué se utiliza una billetera en caliente en el contexto de Bitcoin?
+answer: Para enviar y recibir bitcoins regularmente para uso diario.
+wrong_answers:
+  - Para almacenar de forma segura bitcoins a largo plazo.
+  - Para minar nuevos bitcoins.
+  - Para comerciar bitcoins en una plataforma de intercambio.
+explanation: |
+  Una billetera en caliente es un tipo de billetera de Bitcoin que está conectada a internet,
+  lo que la hace adecuada para transacciones diarias. Sin embargo, es más vulnerable a hackeos
+  y robos que una billetera en frío.
+reviewed: false

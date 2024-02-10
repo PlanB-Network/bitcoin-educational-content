@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal ventaja de Bitcoin sobre las cuentas bancarias tradicionales?
+answer: Control total sobre tu dinero
+wrong_answers:
+  - Tasas de interés más altas
+  - Comisiones de transacción más bajas
+  - Tiempos de transacción más rápidos
+explanation: |
+  El capítulo explica que Bitcoin ofrece una poderosa alternativa a los sistemas financieros tradicionales. Permite a todos preservar su privacidad, protegerse contra la inflación y la devaluación de la moneda, evadir regímenes autoritarios y recuperar la soberanía sobre su dinero.
+reviewed: false

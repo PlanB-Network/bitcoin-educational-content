@@ -6,13 +6,9 @@ description: Creación, copia de seguridad y uso de una clave privada de Bitcoin
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Creación, copia de seguridad y uso de una clave privada Bitcoin con un dispositivo Coldcard y Bitcoin Core
 
 ## ¡Guía completa para generar una clave privada usando una Coldcard y su uso a través de la interfaz de su nodo Bitcoin Core!
-
-Guía creada por WINTER ☩ HODLER como parte de Agora256. Licencia libre. Gracias por compartir\*\*\_
 
 En la base del uso de la red Bitcoin se encuentra el concepto de criptografía asimétrica: un par de claves -una privada y otra pública- que cifran y descifran datos, un concepto que garantiza la confidencialidad de la comunicación.
 
@@ -132,5 +128,3 @@ Back in Bitcoin Core, go to the File tab > Load TBSP from file, and enter the si
 The combination of the Coldcard device with Bitcoin Core, on which you run your own node, is powerful. Add to that a private key generated with 100 dice rolls and a secret phrase, and your wallet configuration becomes a sophisticated and robust fortress.
 
 Feel free to contact us to share all your comments and questions! Our goal is to share our knowledge and increase our understanding day by day.
-
-Original: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/

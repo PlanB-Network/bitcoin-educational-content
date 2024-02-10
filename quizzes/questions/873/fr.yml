@@ -1,0 +1,9 @@
+question: Selon Carl Menger, pourquoi l'échange volontaire entre deux individus a-t-il lieu?
+answer: Chaque partie croit que cela augmentera leur utilité subjective.
+wrong_answers:
+  - Chaque partie croit que cela diminuera leur utilité subjective.
+  - Chaque partie croit que cela maintiendra leur utilité subjective.
+  - Chaque partie croit que cela n'aura aucun effet sur leur utilité subjective.
+explanation: |
+  Menger déduit que l'échange volontaire entre deux individus a lieu parce que chaque partie croit que cela augmentera leur utilité subjective. Cela signifie que chaque partie croit qu'elle sera mieux lotie après l'échange.
+reviewed: false

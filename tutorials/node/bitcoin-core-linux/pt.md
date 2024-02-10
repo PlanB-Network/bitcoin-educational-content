@@ -9,8 +9,6 @@ description: Executando seu próprio nó com Bitcoin Core
 
 Introdução ao Bitcoin e ao conceito de um nó, complementado por um guia de instalação abrangente no Linux.
 
-_**Este tutorial é trazido até ti por WINTER ☩ HODLER através da iniciativa Agora256. Agradecemos o seu apoio e felicitamo-los pelo seu trabalho**_
-
 Uma das propostas mais interessantes do Bitcoin é a capacidade de executar o programa você mesmo e, assim, participar a um nível granular na rede e na verificação do livro-razão de transações públicas.
 
 O Bitcoin, um projeto de código aberto, tem sido distribuído publicamente e está disponível gratuitamente desde 2009. Quase 15 anos após a sua criação, a Bitcoin é atualmente uma rede monetária digital robusta e imparável, beneficiando de um poderoso efeito de rede orgânico. Pelos seus esforços e visão, Satoshi Nakamoto merece a nossa gratidão. A propósito, hospedamos o whitepaper sobre Bitcoin aqui na Agora 256 (nota: também na universidade).
@@ -74,7 +72,6 @@ Depois de instalar o Bitcoin Core, é recomendado deixá-lo em execução o máx
 No entanto, executar e sincronizar seu nó intermitentemente, mesmo que seja apenas para validar transações recebidas e emitidas, é uma boa prática.
 
 ![Creation wallet](assets/2.jpeg)
-**Fim do artigo 1 fornecido por Agora256; link original: https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/, continuamos com a seção 2**
 
 # Configuração do Tor para um nó Bitcoin Core
 
@@ -132,5 +129,3 @@ Para verificar os logs do seu nó Bitcoin em relação à sua interação com o 
 > - Guia de configuração do Tor por Jon Atack
 
 Como sempre, se você tiver alguma dúvida, não hesite em compartilhá-la com a comunidade Agora256, estamos aprendendo juntos para sermos melhores amanhã do que somos hoje!
-
-**FIM do tutorial da Agora256; link original: https://agora256.com/configuration-tor-bitcoin-core/. Obrigado a eles por nos fornecerem isso**

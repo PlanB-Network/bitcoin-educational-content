@@ -1,0 +1,9 @@
+question: Quel est le but des portefeuilles Bitcoin ?
+answer: Pour envoyer et recevoir des bitcoins
+wrong_answers:
+  - Pour miner des bitcoins
+  - Pour stocker des bitcoins physiques
+  - Pour convertir des bitcoins en d'autres devises
+explanation: |
+  Les portefeuilles Bitcoin sont utilisés pour envoyer et recevoir des bitcoins. Ce sont des portefeuilles numériques qui stockent les informations d'identification numériques nécessaires pour accéder à une adresse Bitcoin et dépenser les bitcoins.
+reviewed: false

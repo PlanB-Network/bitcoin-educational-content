@@ -1,0 +1,9 @@
+question: Quel est le principal objectif d'une mise à jour logicielle ?
+answer: Pour corriger les bugs et améliorer la sécurité de votre logiciel.
+wrong_answers:
+  - Pour ajouter de nouvelles fonctionnalités
+  - Pour changer l'interface du logiciel
+  - Pour augmenter la taille du logiciel
+explanation: |
+  Bien que les mises à jour logicielles apportent souvent de nouvelles fonctionnalités, leur objectif principal est de corriger les bugs et d'améliorer la sécurité du logiciel. Cela est crucial pour maintenir votre ordinateur en bon état de fonctionnement optimal.
+reviewed: false

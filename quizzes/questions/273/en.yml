@@ -1,0 +1,11 @@
+question: What is the main purpose of using tools like Signal, Tor, and ProtonMail?
+answer: To value and protect your privacy
+wrong_answers:
+  - To speed up your internet connection
+  - To protect your computer from viruses
+  - To provide free access to paid services
+explanation: |
+  Tools like Signal, Tor, and ProtonMail are used to value and protect
+
+  your privacy. They are part of the measures to improve online security habits.'
+reviewed: false

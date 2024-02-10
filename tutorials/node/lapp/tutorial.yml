@@ -1,5 +1,9 @@
 builder: LND
 
+credits:
+  professor: valley-egg
+  link: https://grunch.dev/guides/lapp/
+
 level: advanced
 
 category: lightning-network

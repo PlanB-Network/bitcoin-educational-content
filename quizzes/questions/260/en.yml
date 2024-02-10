@@ -1,0 +1,12 @@
+question: What is a common scam related to online contests or donations in the crypto
+  sector?
+answer: Advertisements promising free bitcoins.
+wrong_answers:
+  - Advertisements promising physical goods.
+  - Advertisements promising free fiat currency.
+  - Advertisements promising free software.
+explanation: |
+  Scams related to online contests or donations are very common in the
+  crypto sector. Advertisements promising free bitcoins are often used to deceive
+  inexperienced users.
+reviewed: false

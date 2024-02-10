@@ -6,10 +6,6 @@ description: Set up your VPN
 
 ![image](assets/cover.jpeg)
 
-# LN⚡VPN
-
-_**Guide proposé par FranklynHart dans le cadre de Agora256, post original https://agora256.com/lnvpn/**_
-
 LN VPN est un service VPN à la carte qui n'accepte que les paiements lightning. Aujourd'hui, je te montre comment t'en servir et laisser moins de traces quand tu te balades sur les interwebs.‌‌‌‌
 
 Il existe de nombreux fournisseurs de services VPN de qualité, nous avons d'ailleurs fait une revue exhaustive dans cet article (hyperlien) mais LN VPN se démarque et nous ne pouvions passer à côté de te le faire découvrir.
@@ -77,5 +73,3 @@ $ sudo ip link delete dev wg0
 ```
 
 Voilà! Tu sais maintenant te servir de LN VPN, un service VPN unique en son genre!
-
-> _**Guide proposé par FranklynHart dans le cadre de Agora256, post original https://agora256.com/lnvpn/**_

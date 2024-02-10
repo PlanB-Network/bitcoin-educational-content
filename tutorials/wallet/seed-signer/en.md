@@ -6,8 +6,6 @@ description: Set up of your Seed signer
 
 ![cover](assets/cover.jpeg)
 
-# Seed signer
-
 ## Materiel:
 
 1. Raspberry Pi Zéro (version 1.3)
@@ -58,7 +56,7 @@ Software Installation
    SeedSigner GPG Public Key
    seedsigner_pubkey.gpg
 
-## tutoriel video
+## Tutoriel video
 
 _guide taken from Southerbitcoiner, created by Cole_
 

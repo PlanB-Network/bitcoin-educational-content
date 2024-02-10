@@ -1,0 +1,9 @@
+question: Qual è l'impatto dei bilanci delle banche e delle banche centrali sull'inflazione?
+answer: Se il denaro appena creato rimane sui bilanci delle banche private senza essere prestato agli attori economici, non avrà un impatto diretto sull'economia reale e, di conseguenza, non causerà inflazione.
+wrong_answers:
+  - Se il denaro appena creato rimane sui bilanci delle banche private, ciò comporterà sempre inflazione.
+  - I bilanci delle banche e delle banche centrali non hanno alcun impatto sull'inflazione.
+  - Se il denaro appena creato viene prestato agli attori economici, ciò non causerà inflazione.
+explanation: |
+  Il capitolo spiega che la relazione tra la stampa di moneta e l'inflazione è modulata dal modo in cui il denaro appena creato viene introdotto nell'economia. Se questo denaro rimane sui bilanci delle banche private senza essere prestato agli attori economici, non avrà un impatto diretto sull'economia reale e, di conseguenza, non causerà inflazione.
+reviewed: false

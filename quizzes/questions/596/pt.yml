@@ -1,0 +1,9 @@
+question: Qual é uma consequência comum da hiperinflação, como observado nos casos do Zimbábue e da República de Weimar?
+answer: O valor intrínseco de uma cédula pode se tornar menor do que o valor do papel em que é impressa.
+wrong_answers:
+  - O valor da moeda aumenta.
+  - A demanda por cédulas diminui.
+  - O valor de ativos tangíveis diminui.
+explanation: |
+  Em certas circunstâncias econômicas, como a hiperinflação, o valor intrínseco de uma cédula pode se tornar menor do que o valor do papel em que é impressa. Essa depreciação drástica transforma as cédulas, que normalmente são símbolos de valor e poder de compra, em meros pedaços de papel sem valor.
+reviewed: false

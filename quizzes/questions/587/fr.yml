@@ -1,0 +1,9 @@
+question: Quelle est la principale caractéristique de l'hyperinflation selon la définition de Cagan?
+answer: Un taux d'inflation mensuel extrêmement élevé
+wrong_answers:
+  - Un taux d'inflation annuel extrêmement élevé
+  - Un taux d'inflation hebdomadaire extrêmement élevé
+  - Un taux d'inflation quotidien extrêmement élevé
+explanation: |
+  Selon la définition de Cagan, l'hyperinflation se caractérise par un taux d'inflation mensuel extrêmement élevé qui dépasse 50%.
+reviewed: false

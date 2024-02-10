@@ -1,0 +1,12 @@
+question: What is one of the aspects of cybersecurity that requires regular monitoring?
+answer: The constant evolution of threats
+wrong_answers:
+  - The stock market
+  - The weather
+  - The news
+explanation: |
+  The chapter mentions that the constant evolution of threats in cybersecurity
+
+
+  requires regular monitoring.'''
+reviewed: false

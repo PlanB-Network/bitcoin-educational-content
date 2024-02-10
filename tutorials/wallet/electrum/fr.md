@@ -12,11 +12,7 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Portefeuille Bitcoin Electrum
-
 > "Je dois dire que lorsque j'ai découvert ce guide, j'ai été choqué. Félicitations à Arman the Parman pour cela. Ce serait dommage de ne pas l'héberger ici et de le traduire dans autant de langues que possible. Honnêtement, des conseils de ce gars." Rogzy
-
-Publication originale : https://armantheparman.com/electrum/
 
 ![Portefeuille de bureau Electrum (Mac / Linux) - téléchargement, vérification, connexion à votre nœud.](https://youtu.be/wHmQNcRWdHM)
 

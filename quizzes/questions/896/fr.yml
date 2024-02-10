@@ -1,0 +1,9 @@
+question: Qu'est-ce que la Théorie autrichienne du cycle économique ?
+answer: La Théorie autrichienne du cycle économique est une théorie qui explique les cycles économiques comme des dynamiques endogènes du système bancaire à réserves fractionnaires, en mettant l'accent sur la nature séquentielle de l'action humaine et l'impact des fluctuations des taux d'intérêt sur la coordination intertemporelle des agents économiques.
+wrong_answers:
+  - La Théorie autrichienne du cycle économique est une théorie qui explique les cycles économiques comme le résultat d'événements externes et de l'optimisme des acteurs économiques.
+  - La Théorie autrichienne du cycle économique est une théorie qui explique les cycles économiques comme le résultat de changements dans la demande et l'offre agrégées.
+  - La Théorie autrichienne du cycle économique est une théorie qui explique les cycles économiques comme le résultat de changements dans les niveaux d'emploi, le PIB ou l'indice des prix à la consommation.
+explanation: |
+  La Théorie autrichienne du cycle économique, développée par Ludwig Von Mises et Friedrich Hayek, explique les cycles économiques comme des dynamiques endogènes du système bancaire à réserves fractionnaires. Elle met l'accent sur la nature séquentielle de l'action humaine et l'impact des fluctuations des taux d'intérêt sur la coordination intertemporelle des agents économiques.
+reviewed: false

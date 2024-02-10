@@ -1,0 +1,9 @@
+question: Was ist laut Cagans Definition das Hauptmerkmal von Hyperinflation?
+answer: Extrem hohe monatliche Inflationsrate
+wrong_answers:
+  - Extrem hohe jährliche Inflationsrate
+  - Extrem hohe wöchentliche Inflationsrate
+  - Extrem hohe tägliche Inflationsrate
+explanation: |
+  Laut Cagans Definition wird Hyperinflation durch eine extrem hohe monatliche Inflationsrate gekennzeichnet, die 50% übersteigt.
+reviewed: false

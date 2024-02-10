@@ -1,12 +1,10 @@
 ---
-name: Pheonix
+name: Phoenix
 
-description: Mise en place de votre portefeuille Pheonix
+description: Mise en place de votre portefeuille Phoenix
 ---
 
 ![phoenix](assets/cover.jpeg)
-
-# Phoenix
 
 Phoenix è un portafoglio lightning non custodiale creato da Acind, il team dietro l'implementazione di Lightning Eclair.
 
@@ -14,7 +12,7 @@ Per trovare la loro documentazione ufficiale, consultate la loro guida FAQ: http
 
 ## Tutorial Video
 
-![ Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
+![ Phoenix: Bitcoin Lightning Wallet Tutorial](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
 
 ## Guide scritte
 

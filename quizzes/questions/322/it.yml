@@ -1,0 +1,9 @@
+question: Cosa significa se non possiedi la chiave privata del tuo portafoglio Bitcoin?
+answer: Un terzo soggetto è responsabile della sicurezza dei tuoi bitcoin
+wrong_answers:
+  - Hai perso tutti i tuoi bitcoin
+  - Non puoi più effettuare transazioni con i tuoi bitcoin
+  - I tuoi bitcoin vengono automaticamente convertiti in un'altra criptovaluta
+explanation: |
+  Se non possiedi la chiave privata del tuo portafoglio Bitcoin, significa che un terzo soggetto è responsabile della sicurezza dei tuoi bitcoin. Sono soggetti agli stessi rischi delle piattaforme di scambio, come hacking, sequestro, regolamentazione o bancarotta.
+reviewed: false

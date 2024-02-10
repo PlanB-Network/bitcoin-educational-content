@@ -1,0 +1,10 @@
+question: Wie hoch war der anfängliche Wechselkurs des simbabwischen Dollars bei seiner Einführung im Jahr 1980?
+answer: Zwei simbabwische Dollar waren etwa 1,60 US-Dollar wert.
+wrong_answers:
+  - Ein simbabwischer Dollar war etwa 1 US-Dollar wert.
+  - Ein simbabwischer Dollar war etwa 2 US-Dollar wert.
+  - Zwei simbabwische Dollar waren etwa 2 US-Dollar wert.
+explanation: |
+  Simbabwe erlangte 1980 die Unabhängigkeit und führte den simbabwischen Dollar ein.
+  Anfangs waren zwei simbabwische Dollar etwa 1,60 US-Dollar wert.
+reviewed: false

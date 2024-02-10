@@ -1,0 +1,9 @@
+question: Qual è una delle misure per mantenere il tuo computer in condizioni di lavoro ottimali?
+answer: Eseguire regolarmente il backup dei tuoi dati
+wrong_answers:
+  - Condividere le tue password
+  - Utilizzare la stessa password per tutti gli account
+  - Trascurare di aggiornare il tuo computer
+explanation: |
+  Eseguire regolarmente il backup dei tuoi dati è una delle misure per mantenere il tuo computer in condizioni di lavoro ottimali. È anche una misura di base per migliorare le abitudini di sicurezza online.
+reviewed: false

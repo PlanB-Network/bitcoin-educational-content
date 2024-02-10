@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal característica de la hiperinflación según la definición de Cagan?
+answer: Una tasa de inflación mensual extremadamente alta
+wrong_answers:
+  - Una tasa de inflación anual extremadamente alta
+  - Una tasa de inflación semanal extremadamente alta
+  - Una tasa de inflación diaria extremadamente alta
+explanation: |
+  Según la definición de Cagan, la hiperinflación se caracteriza por una tasa de inflación mensual extremadamente alta que supera el 50%.
+reviewed: false

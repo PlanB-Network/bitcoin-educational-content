@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale di un portafoglio freddo per un utente frequente di Bitcoin?
+answer: Conservare in modo sicuro i bitcoin a lungo termine.
+wrong_answers:
+  - Inviare e ricevere regolarmente bitcoin per l'uso quotidiano.
+  - Scambiare bitcoin su una piattaforma di scambio.
+  - Estrarre nuovi bitcoin.
+explanation: |
+  Un portafoglio freddo è un tipo di portafoglio Bitcoin che non è collegato a Internet, rendendolo meno vulnerabile agli attacchi informatici e ai furti. Di solito viene utilizzato per conservare i bitcoin che non sono necessari per le transazioni quotidiane.
+reviewed: false

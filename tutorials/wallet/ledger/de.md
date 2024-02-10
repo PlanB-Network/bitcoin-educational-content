@@ -6,8 +6,6 @@ description: Anleitung zur Einrichtung Ihres Ledger Nano S Geräts
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Kalter physischer Geldbeutel – 60 € – Anfänger – Zum Sichern von 2.000 € bis 50.000 €
 
 Ledger ist die französische Lösung zur sicheren Aufbewahrung von Bitcoins auf einfache Weise.
@@ -17,8 +15,6 @@ In diesem Tutorial behandeln wir auch den Abschnitt über Passphrasen, eine fort
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Verbindung des Ledger mit der Sparrow Bitcoin Wallet (Anleitung)
-
-> https://armantheparman.com/ledgersparrow/
 
 Stellen Sie sicher, dass Sie zuerst den anderen Teil "Verwendung von Bitcoin-Hardware-Wallets" durchgehen. Ich werde einige Schritte überfliegen und mich hauptsächlich auf das konzentrieren, was spezifisch für Ledger ist.
 

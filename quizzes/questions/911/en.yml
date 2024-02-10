@@ -1,0 +1,11 @@
+question: What is the axiomatic-deductive method proposed by Ludwig von Mises in the study of social sciences?
+answer: This approach is based on fundamental propositions called axioms, similar to those used in mathematics.
+wrong_answers:
+  - This approach is based on empirical data and observations.
+  - This approach is based on temporary experiments and hypotheses.
+  - This approach is based on the positivist approach often used in social sciences.
+explanation: |
+  The axiomatic-deductive method proposed by Ludwig von Mises is based
+  on fundamental propositions called axioms, similar to those used in mathematics.
+  This method is used to study social sciences, including economics.
+reviewed: false

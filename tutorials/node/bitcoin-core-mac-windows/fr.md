@@ -3,10 +3,6 @@ name: Noeud Bitcoin Core (mac & windows)
 description: Installer Bitcoin Core sur Mac ou Windows
 ---
 
-# Installer Bitcoin Core sur Mac ou Windows
-
-> Le guide suivant a été offert par Parman (https://twitter.com/parman_the), vous pouvez lui donner des pourboires ici : dandysack84@walletofsatoshi.com Source originale : https://armantheparman.com/bitcoincore/
-
 Installer Bitcoin Core sur votre ordinateur habituel est possible, mais ce n'est pas idéal. Si vous ne dérange pas de laisser votre ordinateur allumé 24h/24 et 7j/7, cela fonctionnera bien. Si vous avez besoin d'éteindre l'ordinateur, il est ennuyeux d'attendre que le logiciel se synchronise à chaque fois que vous le rallumez.
 
 Ces instructions sont destinées aux utilisateurs de Mac ou de Windows. Les utilisateurs de Linux n'auront probablement pas besoin de mon aide, mais les instructions pour Linux sont très similaires à celles de Mac.
@@ -140,6 +136,7 @@ L'erreur apparaîtra à nouveau, mais cette fois-ci vous aurez un bouton OUVRIR 
 Bitcoin Core devrait se charger et vous serez présenté avec quelques options :
 
 ![image](assets/14.png)
+
 Ici, vous pouvez choisir d'utiliser le chemin d'accès par défaut pour le téléchargement de la blockchain, ou vous pouvez choisir votre disque externe. Je recommande de ne pas modifier le chemin d'accès par défaut si vous utilisez le disque interne, cela facilite la configuration lorsque vous installez d'autres logiciels pour communiquer avec Bitcoin Core.
 Vous pouvez choisir d'exécuter un nœud élagué, cela permet d'économiser de l'espace, mais limite ce que vous pouvez faire avec votre nœud. De toute façon, vous téléchargerez l'intégralité de la blockchain et la vérifierez, donc si vous avez de l'espace, conservez ce que vous avez téléchargé et ne l'élaguez pas si vous pouvez l'éviter.
 
@@ -148,7 +145,3 @@ Une fois que vous confirmez, le téléchargement de la blockchain commencera. Ce
 ![image](assets/15.png)
 
 Vous pouvez éteindre l'ordinateur et revenir pour télécharger si vous le souhaitez, cela ne causera aucun dommage.
-
-> Le guide suivant a été offert par Parman (https://twitter.com/parman_the)
-> Vous pouvez lui donner un pourboire ici : dandysack84@walletofsatoshi.com
-> Source originale : https://armantheparman.com/bitcoincore/

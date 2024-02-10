@@ -1,0 +1,9 @@
+question: Was ist die offizielle Schwelle, um ein Land als von Hyperinflation betroffen zu betrachten?
+answer: 50% pro Monat
+wrong_answers:
+  - 10% pro Monat
+  - 25% pro Monat
+  - 75% pro Monat
+explanation: |
+  Im Jahr 2007 erreichte die Inflationsrate in Simbabwe die Schwelle von 50% pro Monat und markierte offiziell das Land als von Hyperinflation betroffen.
+reviewed: false

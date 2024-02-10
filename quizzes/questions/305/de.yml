@@ -1,0 +1,9 @@
+question: Was ist die Hauptrolle der Miner im Bitcoin-Netzwerk?
+answer: Sie sichern das Netzwerk, indem sie die Proof-of-Work-Prozesse von Bitcoin durchführen.
+wrong_answers:
+  - Sie erzeugen neue Bitcoins.
+  - Sie regulieren den Preis von Bitcoin.
+  - Sie kontrollieren das Bitcoin-Netzwerk.
+explanation: |
+  Der Inhalt des Kapitels erklärt, dass Miner für die Sicherung des Bitcoin-Netzwerks verantwortlich sind. Sie verwenden Strom, um die Proof-of-Work-Prozesse von Bitcoin durchzuführen, was einen neuen Block erzeugt.
+reviewed: false

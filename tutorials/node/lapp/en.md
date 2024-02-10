@@ -3,13 +3,7 @@ name: LAPP bitcoin
 description: Tutorial to develop your first LApp
 ---
 
-# Tutorial to develop your first LApp
-
 Learn to code your first lightning app
-Francisco Calderón published on
-June 14, 2021
-
-https://grunch.dev/guides/lapp/
 
 Requirements:
 
@@ -599,7 +593,3 @@ block content
 ```
 
 If after paying the invoice you can see the message "Payment successful" and the payment proof, congratulations!!! you did it, you have finished your first LApp.
-
-https://grunch.dev/guides/lapp/ -
-Francisco Calderón published on
-June 14, 2021

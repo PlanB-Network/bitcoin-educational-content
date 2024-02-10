@@ -1,5 +1,9 @@
 builder: RGB
 
+credits:
+  professor: valley-egg
+  link: https://grunch.dev/blog/
+
 tags:
   - node
   - privacy

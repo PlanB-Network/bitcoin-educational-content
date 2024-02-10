@@ -6,11 +6,7 @@ description: LN-Multifunktions-Wallet
 
 ![Präsentation](assets/1.jpeg)
 
-# Blixt BTC ⚡️ LN Wallet/Node
-
 ## Ein leistungsstarker BTC/Lightning-Node in Ihrer Tasche, egal wo Sie sind
-
-**Von DarthCoin übersetzter Text von asi0 - 01/11/2022**
 
 Ich möchte Ihnen einen interessanten und gleichzeitig leistungsstarken neuen BTC/LN-Node und mobilen Wallet vorstellen - Blixt. Der Name stammt aus dem Schwedischen und bedeutet "Blitz".
 
@@ -230,6 +226,3 @@ Vergessen Sie auch nicht, dass es sich um ein Open-Source-Projekt handelt und di
 Ich hoffe, Sie werden die Verwendung genießen. Persönlich liebe ich sie und sie ist sehr nützlich für mich (hier ist ein Anwendungsfall, in dem diese Wallet ein großartiges Werkzeug ist).
 
 Möge ₿ITCOIN mit dir sein!
-
-> Wenn Ihnen die Arbeit von DarthCoin gefällt, können Sie einige Satoshis per LN senden: Verwenden Sie die Telegram-Seite @LNtxBot DarthCoin LNURL oder verwenden Sie einfach die Lightning-Adresse darthcoin@lntxbot.com'
-> '> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF'

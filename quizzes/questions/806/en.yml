@@ -1,0 +1,10 @@
+question: What is the importance of using a strong password for computer security?
+answer: To prevent unauthorized access to the system.
+wrong_answers:
+  - To make the system run faster.
+  - To increase the storage capacity.
+  - To improve the user interface.
+explanation: |
+  A strong password is crucial for computer security to prevent unauthorized
+  access to the system.
+reviewed: false

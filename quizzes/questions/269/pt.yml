@@ -1,0 +1,9 @@
+question: O que significa 2FA?
+answer: Autenticação de Dois Fatores
+wrong_answers:
+  - Autorização de Dois Fatores
+  - Autenticação de Duas Características
+  - Autenticação de Duas Funções
+explanation: |
+  2FA significa Autenticação de Dois Fatores. Ela fornece uma camada adicional de segurança para suas contas mais sensíveis.
+reviewed: false

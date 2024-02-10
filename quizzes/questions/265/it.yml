@@ -1,0 +1,9 @@
+question: Qual è una truffa comune nel campo degli investimenti finanziari?
+answer: Sistemi di vendita piramidale.
+wrong_answers:
+  - Vendita di beni fisici.
+  - Vendita di prodotti software.
+  - Vendita di valuta fiat.
+explanation: |
+  Nel campo degli investimenti finanziari, i sistemi di vendita piramidale e gli schemi Ponzi si distinguono come modelli illegali. Operano utilizzando i soldi dei nuovi investitori per pagare i partecipanti più anziani.
+reviewed: false

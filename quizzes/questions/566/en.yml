@@ -1,0 +1,12 @@
+question: What is the relationship between inflation and deflation in an economy?
+answer: Inflation and deflation are like communicating vessels in an economy. An increase in production can lead to deflation, but if the money supply is increased simultaneously, the deflationary effect is canceled out, resulting in inflation.
+wrong_answers:
+  - Inflation and deflation are independent of each other in an economy.
+  - Inflation always leads to deflation in an economy.
+  - Deflation always leads to inflation in an economy.
+explanation: |
+  The chapter explains that inflation and deflation are like communicating
+  vessels in an economy. An increase in production can lead to deflation, but if the
+  money supply is increased simultaneously, the deflationary effect is canceled out,
+  resulting in inflation.
+reviewed: false

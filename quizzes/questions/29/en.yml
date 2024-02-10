@@ -1,0 +1,10 @@
+question: What is the evolution of currency?
+answer: Raw stone -> Coin -> Banknote -> Bank card -> Blockchain -> Lightning Network
+wrong_answers:
+  - Raw stone -> Coin -> Banknote -> Blockchain -> Lightning Network
+  - Raw stone -> Coin -> Banknote -> Bank card -> Lightning Network
+  - Raw stone -> Coin -> Banknote -> Bank card -> Blockchain
+explanation: |
+  Currency, as any technology, evolved from raw stone
+  to metalic coin, then to banknote, bank card, and finally peer-to-peer networks with Bitcoin blockchain, and the Lightning Network.
+reviewed: true

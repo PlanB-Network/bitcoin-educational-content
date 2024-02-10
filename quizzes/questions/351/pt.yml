@@ -1,0 +1,9 @@
+question: Qual é uma forma não-KYC de comprar ou vender bitcoins?
+answer: Usando soluções peer-to-peer como Peach.
+wrong_answers:
+  - Usando uma carteira online.
+  - Usando uma carteira offline.
+  - Usando uma carteira de hardware.
+explanation: |
+  KYC, ou Know Your Customer, é um processo que as empresas usam para verificar a identidade de seus clientes. Métodos não-KYC, como soluções peer-to-peer, permitem que os usuários comprem ou vendam bitcoins sem precisar fornecer informações pessoais.
+reviewed: false

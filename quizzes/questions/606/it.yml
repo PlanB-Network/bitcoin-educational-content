@@ -1,0 +1,9 @@
+question: Qual è il criterio di Kagan per l'iperinflazione?
+answer: Un tasso di inflazione del 50% al mese.
+wrong_answers:
+  - Un tasso di inflazione del 50% all'anno.
+  - Un tasso di inflazione del 25% al mese.
+  - Un tasso di inflazione del 25% all'anno.
+explanation: |
+  Il criterio di Kagan definisce l'iperinflazione come un tasso di inflazione del 50% al mese. Questo criterio può talvolta portare a interpretazioni ambigue, con anni caratterizzati da alti tassi di inflazione ma che non soddisfano la rigorosa definizione di iperinflazione.
+reviewed: false

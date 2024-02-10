@@ -6,8 +6,6 @@ description: Como configurar o seu dispositivo Ledger Nano S
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Carteira física fria - €60 - Iniciante - Para proteger de €2.000 a €50.000
 
 A Ledger é a solução francesa para proteger bitcoins de maneira simples.
@@ -17,8 +15,6 @@ Neste tutorial, também discutiremos a seção de frases de segurança, uma solu
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Conectar o Ledger à carteira de Bitcoin Sparrow (guia de escrita)
-
-> https://armantheparman.com/ledgersparrow/
 
 Certifique-se de ler primeiro a outra parte "Usando Carteiras de Hardware Bitcoin". Vou passar rapidamente por algumas etapas e focar principalmente no que é específico para o Ledger aqui.
 

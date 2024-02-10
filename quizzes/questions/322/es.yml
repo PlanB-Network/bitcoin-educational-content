@@ -1,0 +1,9 @@
+question: ¿Qué significa si no posees la clave privada de tu billetera de Bitcoin?
+answer: Un tercero es responsable de la seguridad de tus bitcoins.
+wrong_answers:
+  - Has perdido todos tus bitcoins.
+  - Ya no puedes realizar transacciones con tus bitcoins.
+  - Tus bitcoins se convierten automáticamente en otra criptomoneda.
+explanation: |
+  Si no posees la clave privada de tu billetera de Bitcoin, significa que un tercero es responsable de la seguridad de tus bitcoins. Están sujetos a los mismos riesgos que las plataformas de intercambio, como el hackeo, la confiscación, la regulación o la quiebra.
+reviewed: false

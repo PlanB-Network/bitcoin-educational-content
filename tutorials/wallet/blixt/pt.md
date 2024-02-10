@@ -6,11 +6,7 @@ description: Carteira LN multifuncional
 
 ![apresentação](assets/1.jpeg)
 
-# Carteira/Nó Blixt BTC ⚡️ LN
-
 ## Um poderoso nó BTC/Lightning no seu bolso, onde quer que você esteja
-
-**Texto traduzido por asi0 - 01/11/2022**
 
 Gostaria de apresentar a você um novo nó e carteira móvel BTC/LN interessante e também poderoso - Blixt. O nome vem do sueco e significa "relâmpago".
 
@@ -227,6 +223,3 @@ Não esqueçamos também que este é um projeto de código aberto e sua manuten�
 Espero que você aproveite o uso dele. Pessoalmente, eu adoro e é muito útil para mim (veja aqui um caso de uso onde esta carteira é uma ótima ferramenta).
 
 Que o ₿ITCOIN esteja com você!
-
-> Se você aprecia o trabalho de DarthCoin, você pode enviar alguns satoshis por LN: usando a página Telegram @LNtxBot DarthCoin LNURL ou simplesmente usando o endereço Lightning darthcoin@lntxbot.com'
-> '> LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF09EMK2MRV944KUMMHDCHKCMN4WFK8QTMYV9E8G6RRDA5KULQ3NJF'

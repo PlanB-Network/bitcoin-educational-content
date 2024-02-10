@@ -1,0 +1,10 @@
+question: What type of user is most likely to need both a hot and a cold Bitcoin wallet?
+answer: A user who needs to use Bitcoin regularly.
+wrong_answers:
+  - A user who only uses Bitcoin occasionally.
+  - A user who mines Bitcoin.
+  - A user who only invests in Bitcoin for the long term.
+explanation: |
+  Regular Bitcoin users need a hot wallet for daily transactions and a
+  cold wallet for secure long-term storage.
+reviewed: false

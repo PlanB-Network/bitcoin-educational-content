@@ -1,0 +1,9 @@
+question: Que signifie-t-il si vous ne possédez pas la clé privée de votre portefeuille Bitcoin ?
+answer: Un tiers est responsable de la sécurité de vos bitcoins
+wrong_answers:
+  - Vous avez perdu tous vos bitcoins
+  - Vous ne pouvez plus effectuer de transactions avec vos bitcoins
+  - Vos bitcoins sont automatiquement convertis en une autre cryptomonnaie
+explanation: |
+  Si vous ne possédez pas la clé privée de votre portefeuille Bitcoin, cela signifie qu'un tiers est responsable de la sécurité de vos bitcoins. Ils sont soumis aux mêmes risques que les plateformes d'échange, tels que le piratage, la saisie, la réglementation ou la faillite.
+reviewed: false

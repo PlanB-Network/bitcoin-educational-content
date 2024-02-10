@@ -12,11 +12,7 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Electrum Bitcoin Wallet
-
 > "Ich muss sagen, als ich auf diesen Leitfaden gestoßen bin, war ich schockiert. Glückwunsch an Arman the Parman dafür. Es wäre schade gewesen, ihn nicht hier zu hosten und in so viele Sprachen wie möglich zu übersetzen. Ehrlich gesagt, Tipps für diesen Kerl." Rogzy
-
-Ursprünglicher Beitrag: https://armantheparman.com/electrum/
 
 ![Electrum Desktop Wallet (Mac / Linux) - herunterladen, überprüfen, mit Ihrem Knoten verbinden.](https://youtu.be/wHmQNcRWdHM)
 
@@ -870,6 +866,3 @@ Wenn Sie Ihr Electrum-Wallet auf einen anderen Computer verschieben, möchten Si
 ## Tipps:
 
 Wenn Sie diese Ressource nützlich finden und das, was ich für Bitcoin tue, unterstützen möchten, können Sie hier einige Sats spenden:
-
-Statische Lightning-Adresse: dandysack84@walletofsatoshi.com
-https://armantheparman.com/electrum/'

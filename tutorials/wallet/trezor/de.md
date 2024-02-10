@@ -6,10 +6,6 @@ description: Einrichtung und Verwendung des Trezor Modell One
 
 ![cover](assets/cover.jpeg)
 
-# Trezor Modell ONE
-
-Trezor Modell One
-
 Kaltlager-Hardware-Portfolio – 60€ – Anfänger – Sicher zwischen 2 000€ und 50 000€.
 
 Als kalte physische Brieftasche ist der Trezor ideal für den Einstieg in Bitcoin. Er ist einfach zu bedienen, nicht zu teuer und funktional.

@@ -1,0 +1,9 @@
+question: Qual é o objetivo de acumular bitcoins lentamente?
+answer: Permitir que sua estratégia de investimento se desenrole ao longo do tempo.
+wrong_answers:
+  - Para minerar novos Bitcoins.
+  - Para negociar Bitcoins.
+  - Para converter Bitcoins em outras criptomoedas.
+explanation: |
+  Acumular bitcoins lentamente é uma estratégia que permite que seu investimento se desenrole ao longo do tempo. Não é usado para minerar novos Bitcoins, negociar Bitcoins ou converter Bitcoins em outras criptomoedas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál fue el billete de mayor denominación en Brasil antes de su última redenominación en 1994?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  El billete de mayor denominación en Brasil alcanzó los 500,000, y la última redenominación en 1994 se realizó a una tasa de 2,750 a 1.
+reviewed: false

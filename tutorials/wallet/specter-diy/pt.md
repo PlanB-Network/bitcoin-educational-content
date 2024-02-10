@@ -6,8 +6,6 @@ description: Guia de configuração para Specter DIY
 
 ![capa](assets/cover.jpeg)
 
-# Specter DIY
-
 Especificação:
 
 - Placa de desenvolvedor

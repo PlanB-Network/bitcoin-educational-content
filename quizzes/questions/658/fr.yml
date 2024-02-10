@@ -1,0 +1,11 @@
+question: Que se passe-t-il avec la transaction de retrait après un transfert sur le réseau Lightning ?
+answer: Elle est mise à jour pour refléter le nouveau solde du canal.
+wrong_answers:
+  - Elle est exécutée et les fonds sont transférés.
+  - Elle est abandonnée et une nouvelle transaction est créée.
+  - Elle reste la même.
+explanation: |
+  Après un transfert sur le réseau Lightning, la transaction de retrait est mise à jour
+  pour refléter le nouveau solde du canal. Cette transaction n'est pas exécutée à moins que
+  le canal ne soit fermé.
+reviewed: false

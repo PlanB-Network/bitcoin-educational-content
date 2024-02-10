@@ -4,8 +4,6 @@ name: JADE
 description: How to set up your JADE device
 ---
 
-# Blockstream jade
-
 ![image](assets/cover.jpeg)
 
 ## Tutorial video
@@ -14,8 +12,6 @@ description: How to set up your JADE device
 Blockstream Jade - Mobile Bitcoin Hardware Wallet FULL TUTORIAL by BTCsession
 
 ## Full writing guide
-
-> Some original texte and image come from Arman The Parman; https://armantheparman.com/jade/ . We have revisited it to make it more indepth using other guide such as the https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
 
 ![image](assets/cover2.png)
 

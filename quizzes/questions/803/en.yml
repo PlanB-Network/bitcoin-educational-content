@@ -1,0 +1,10 @@
+question: What is the built-in antivirus in Windows?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender is the built-in antivirus in Windows. It is a safe and
+  effective solution for protecting the system from threats.
+reviewed: false

@@ -6,13 +6,9 @@ description: Création, sauvegarde et utilisation d'une clé privée Bitcoin ave
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
 
 ## Guide complet pour générer une clé privée à l'aide d'une Coldcard et son utilisation via l'interface de votre noeud Bitcoin Core !
-
-_**Guide créé par WINTER ☩ HODLER dans le cadre de Agora256. Licence libre. Merci pour son partage**_
 
 À la base de l'utilisation du réseau Bitcoin se trouve le concept de cryptographie asymétrique : un couple de clés – l'une privée et l'autre publique – ayant comme fonction de chiffrer et déchiffrer des données, un concept permettant d'assurer la confidentialité d'une communication.
 
@@ -135,5 +131,3 @@ De retour sur Bitcoin Core, allez dans l'onglet Fichier > Charger la TBSP d'un f
 La combinaison de l'appareil Coldcard avec Bitcoin Core, sur lequel vous roulez votre propre noeud, est puissante. Ajoutez à cela une clé privée générée avec 100 lancés de dé ainsi qu'une une phrase secrète, et votre configuration de portefeuille devient une forteresse sophistiquée et robuste.
 
 N'hésitez pas à nous contacter pour nous partager tous vos commentaires et questions ! Notre objectif est de partager nos connaissances et d'accroître notre savoir jour après jour.
-
-Orginal: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/

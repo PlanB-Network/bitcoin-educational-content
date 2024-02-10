@@ -6,8 +6,6 @@ description: Configuración de tu billetera Muum
 
 ![cover](assets/cover.png)
 
-# Billetera Muum
-
 Muun (https://muun.com/) es una billetera auto custodiada para bitcoin y lightning.
 
 ## tutorial en video
@@ -17,8 +15,6 @@ Muun (https://muun.com/) es una billetera auto custodiada para bitcoin y lightni
 ## Billetera Muun - Guía de uso completa
 
 Guía de uso completa (con capturas de pantalla) de la aplicación Muun; una billetera móvil amigable para Bitcoin que te permite realizar transacciones en la Lightning Network.
-
-> WINTER ☩ HODLER 1 de febrero de 2023 • 18 min de lectura https://agora256.com/muun-wallet-guide-dutilisation-complet/ Muun Wallet - Guía de uso completa
 
 ![imagen](assets/0.5.png)
 
@@ -291,5 +287,3 @@ Los canales Turbo permiten comenzar a operar en la red Lightning antes de que se
 En la parte inferior de la página de configuración se encuentra la opción "Cerrar sesión". Puede utilizar esta función si desea que la aplicación cierre la billetera actualmente reconocida por ella. Esto le permitirá crear una nueva billetera o importar o recuperar una existente.
 
 ![image](assets/53.png)
-
-https://agora256.com/muun-wallet-guide-dutilisation-complet/

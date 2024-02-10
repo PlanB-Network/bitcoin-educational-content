@@ -1,0 +1,12 @@
+question: What is the concept of "money streaming" in the context of the Lightning
+  Network?
+answer: Making micro-transactions every minute
+wrong_answers:
+  - Streaming video content for Bitcoin
+  - Streaming audio content for Bitcoin
+  - Streaming Bitcoin transactions in real-time
+explanation: >-
+  With the Lightning Network, we can make micro-transactions every minute,
+  which opens the door to experimenting with economic models where consumers pay for
+  content based on what they consume.
+reviewed: false

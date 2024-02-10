@@ -1,5 +1,9 @@
 builder: My Node
 
+credits:
+  professor: rebuild-kiss
+  link: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
+
 tags:
   - node
   - privacy

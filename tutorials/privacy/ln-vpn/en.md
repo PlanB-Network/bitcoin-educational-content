@@ -6,10 +6,6 @@ description: Set up your VPN
 
 ![image](assets/cover.jpeg)
 
-# LN⚡VPN
-
-_**Guide proposed by FranklynHart as part of Agora256, original post https://agora256.com/lnvpn/**_
-
 LN VPN is a customizable VPN service that only accepts lightning payments. Today, I'll show you how to use it and leave fewer traces when browsing the interwebs.
 
 There are many quality VPN service providers, and we have conducted a comprehensive review in this article (hyperlink). However, LN VPN stands out, and we couldn't miss the opportunity to introduce it to you.
@@ -78,5 +74,3 @@ Disable the tunnel:
 ```
 
 There you have it! You now know how to use LN VPN, a unique VPN service!
-
-> _**Guide provided by FranklynHart as part of Agora256, original post https://agora256.com/lnvpn/**_

@@ -6,8 +6,6 @@ description: How to set up your Ledger Nano S device
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Cold physical wallet – €60 – Beginner – To secure €2,000 to €50,000
 
 Ledger is the French solution for securing bitcoins in a simple way.
@@ -17,8 +15,6 @@ In this tutorial, we also discuss the passphrases section, an advanced security 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Connect Ledger to Sparrow Bitcoin Wallet (writing guide)
-
-> https://armantheparman.com/ledgersparrow/
 
 Make sure you go through the other piece “Using Bitcoin Hardware Wallets” first. I will skim through some steps and focus mostly on what is specific to Ledger here.
 

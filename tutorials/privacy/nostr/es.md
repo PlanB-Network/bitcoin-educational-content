@@ -4,11 +4,7 @@ name: NOSTR
 description: Descubre y comienza a usar NOSTR
 ---
 
-# Cómo usar Nostr en 2023: Una guía para principiantes
-
 Al final de esta guía, comprenderás qué es Nostr, habrás creado una cuenta y podrás utilizarla.
-
-**Esta guía te la ofrece FranklynHart en colaboración con Agora256. Gracias a él**
 
 ![Un nuevo retador ha llegado](assets/1.jpeg)
 
@@ -115,5 +111,3 @@ Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un 
 ## Conclusion
 
 Ça y est, petite autruche, tu as fait tes premiers pas sur Nostr. Maintenant, il te faudra apprendre à courir à la vitesse de l'éclair. Nous publierons prochainement des guides qui te montreront à gérer tes clés et comment intégrer lightning à ton expérience Nostr à l'aide de getalby.
-
-**guide écrit par FranklynHart dans le cadre de Agora256**'

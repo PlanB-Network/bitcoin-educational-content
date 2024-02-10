@@ -6,13 +6,9 @@ description: Creating, backing up, and using a Bitcoin private key with a Coldca
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core
 
 ## Complete guide to generating a private key using a Coldcard and using it through the interface of your Bitcoin Core node!
-
-_**Guide created by WINTER ☩ HODLER as part of Agora256. Free license. Thanks for sharing**_
 
 At the core of Bitcoin's network usage lies the concept of asymmetric cryptography: a pair of keys - one private and one public - that encrypt and decrypt data, a concept that ensures the confidentiality of communication.
 
@@ -132,5 +128,3 @@ Back in Bitcoin Core, go to the File tab > Load TBSP from file, and enter the si
 The combination of the Coldcard device with Bitcoin Core, on which you run your own node, is powerful. Add to that a private key generated with 100 dice rolls and a secret phrase, and your wallet configuration becomes a sophisticated and robust fortress.
 
 Feel free to contact us to share your comments and questions! Our goal is to share knowledge and increase our understanding day by day.
-
-Original: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/

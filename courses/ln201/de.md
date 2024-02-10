@@ -19,9 +19,9 @@ Viel Spaß beim Entdecken!
 
 +++
 
-# Das Lightning Network verstehen
+# Die Grundlagen
 
-![Das Lightning Network verstehen](https://youtu.be/PszWk046x-I)
+## Das Lightning Network verstehen
 
 Das Lightning-Netzwerk ist eine Zahlungsinfrastruktur der zweiten Schicht, die auf dem Bitcoin-Netzwerk aufgebaut ist und schnelle und kostengünstige Transaktionen ermöglicht. Um das Lightning-Netzwerk vollständig zu verstehen, ist es unerlässlich, zu verstehen, was Zahlungskanäle sind und wie sie funktionieren.
 
@@ -68,9 +68,7 @@ Jetzt möchte Bob 80.000 SAT an Alice senden. Da er nicht über die Liquidität 
 
 ![explication](assets/chapitre1/3.JPG)
 
-# Bitcoin, Adressen, UTXO und Transaktionen
-
-![Bitcoin, Adressen, UTXO und Transaktionen](https://youtu.be/cadCJ2V7zTg)
+## Bitcoin, Adressen, UTXO und Transaktionen
 
 In diesem zweiten Kapitel nehmen wir uns Zeit, um zu verstehen, wie Bitcoin-Transaktionen tatsächlich funktionieren, was uns bei der Verwendung von Lightning sehr nützlich sein wird. Wir werden auch kurz auf das Konzept der Multi-Signatur-Adresse eingehen, das für das nächste Kapitel über das Öffnen von Kanälen im Lightning-Netzwerk entscheidend ist.
 
@@ -98,10 +96,9 @@ Im Lightning Network werden Multi-Signaturen verwendet. Es sind also 2 Signature
 
 ![explication](assets/chapitre2/1.JPG)
 
+# Öffnung und Schließung der Kanäle
 
-# Kanaleröffnung
-
-![Öffnen eines Kanals](https://youtu.be/B2caBC0Rxko)
+## Kanaleröffnung
 
 Nun betrachten wir die Kanaleröffnung genauer und wie diese über eine Bitcoin-Transaktion erfolgt.
 
@@ -142,9 +139,7 @@ Alice kann also alleine auf die Mittel zugreifen, da sie bereits Bobs Unterschri
 
 ![explication](assets/chapitre3/3.JPG)
 
-# Lightning-Transaktionen und Engagement-Transaktionen
-
-![Lightning-Transaktionen und Engagement-Transaktionen](https://youtu.be/aPqI34tpypM)
+## Lightning-Transaktionen und Engagement-Transaktionen
 
 ![cover](assets/chapitre4/1.JPG)
 
@@ -177,9 +172,7 @@ Alice (90.000 SAT) =============== Bob (40.000 SAT)
 
 Das Geld bewegt sich also nie, aber das endgültige Gleichgewicht wird über eine signierte, aber nicht veröffentlichte On-Chain-Transaktion aktualisiert. Die Abhebungstransaktion ist also eine Engagement-Transaktion. Die Satoshis-Übertragungen sind eine weitere, aktuellere Engagement-Transaktion, die das Gleichgewicht aktualisiert.
 
-# Engagement-Transaktionen
-
-![Engagement-Transaktionen Teil 2](https://youtu.be/RRvoVTLRJ84)
+## Engagement-Transaktionen
 
 Wenn Engagement-Transaktionen den Kanalzustand mit der Liquidität zum Zeitpunkt X bestimmen, können wir dann betrügen, indem wir einen alten Zustand veröffentlichen? Die Antwort ist ja, da wir bereits die Vorunterschrift der beiden Teilnehmer in der nicht veröffentlichten Transaktion haben.
 
@@ -204,9 +197,7 @@ Auf die gleiche Weise wird Bob sein Geheimnis an Alice weitergeben, damit sie ih
 
 Die Person, die die Transaktion mit dem Timelock erstellt (die das Geld sendet), kann den Widerrufsschlüssel nur nach dem Timelock verwenden. Die Person, die das Geld empfängt, kann ihn jedoch vor dem Timelock verwenden, wenn es zu Betrug auf beiden Seiten eines Kanals im Lightning-Netzwerk kommt. Insbesondere gehen wir detailliert auf die Mechanismen ein, die dazu dienen, sich gegen möglichen Betrug seitens des Partners im Kanal zu schützen.
 
-# Kanalschließung
-
-![Kanalschließung](https://youtu.be/FVmQvNpVW8Y)
+## Kanalschließung
 
 Wir interessieren uns für die Kanalschließung durch eine Bitcoin-Transaktion, die je nach Fall unterschiedliche Formen annehmen kann. Es gibt drei Arten von Kanalschließungen:
 
@@ -218,14 +209,14 @@ Wir interessieren uns für die Kanalschließung durch eine Bitcoin-Transaktion, 
 ![instruction](assets/chapitre6/0.JPG)
 
 
-## Die Gute
+### Die Gute
 
 Die beiden Parteien sprechen miteinander und vereinbaren, den Kanal zu schließen. Sie stoppen alle Transaktionen und validieren einen endgültigen Zustand des Kanals. Sie einigen sich auf Netzwerkgebühren (die Person, die den Kanal öffnet, zahlt die Schließungsgebühren). Sie erstellen nun die Schließungstransaktion. Es gibt also eine Schließungstransaktion, die sich von den Engagement-Transaktionen unterscheidet, da es keinen Timelock und keinen Widerrufsschlüssel gibt. Die Transaktion wird veröffentlicht und Alice und Bob erhalten ihre jeweiligen Salden. Diese Art der Schließung ist in der Regel schnell (da kein Timelock vorhanden ist) und kostengünstig.
 
 ![instruction](assets/chapitre6/3.JPG)
 
 
-## Der Schurke
+### Der Schurke
 
 Alice möchte den Kanal schließen, aber Bob antwortet nicht, da er offline ist (Internet- oder Stromausfall). Alice wird daher die neueste Engagement-Transaktion (die letzte) veröffentlichen. Die Transaktion wird veröffentlicht und der Timelock wird aktiviert. Die Gebühren wurden bei der Erstellung dieser Transaktion vor X Zeit in der Vergangenheit festgelegt! Die MemPool ist das Netzwerk, das sich seitdem geändert hat, und das Protokoll verwendet standardmäßig Gebühren, die 5-mal höher sind als die aktuellen Gebühren zum Zeitpunkt der Erstellung der Transaktion. Erstellung von Gebühren in Höhe von 10 SAT, daher wurde die Transaktion mit 50 SAT berücksichtigt. Zum Zeitpunkt der erzwungenen Veröffentlichung ist das Netzwerk der Abschluss-Transaktion:
 
@@ -236,7 +227,7 @@ Dies macht die erzwungene Schließung länger (Timelock) und vor allem riskanter
 
 ![instruction](assets/chapitre6/4.JPG)
 
-## Der Betrüger
+### Der Betrüger
 
 Alice versucht zu betrügen, indem sie eine alte Engagement-Transaktion veröffentlicht. Aber Bob überwacht die MemPool und beobachtet, ob Transaktionen versuchen, alte zu veröffentlichen. Wenn er welche findet, verwendet er den Widerrufsschlüssel, um Alice zu bestrafen und alle SAT aus dem Kanal zu nehmen.
 
@@ -244,9 +235,9 @@ Alice versucht zu betrügen, indem sie eine alte Engagement-Transaktion veröffe
 
 Zusammenfassend ist die Schließung des Kanals im Lightning Network ein entscheidender Schritt, der verschiedene Formen annehmen kann. Bei einer kooperativen Schließung kommunizieren beide Parteien und einigen sich auf einen endgültigen Zustand des Kanals. Dies ist die schnellste und kostengünstigste Option. Eine erzwungene Schließung tritt jedoch auf, wenn eine der Parteien nicht reagiert. Dies ist eine teurere und längere Situation aufgrund unvorhersehbarer Transaktionsgebühren und der Aktivierung des Timelocks. Schließlich kann ein Teilnehmer, der versucht, durch Veröffentlichung einer alten Engagement-Transaktion zu betrügen, der Schurke sein und alle SAT des Kanals verlieren. Es ist daher entscheidend, diese Mechanismen für eine effektive und faire Nutzung des Lightning Network zu verstehen.
 
-# Lightning Network
+# Ein Liquiditätsnetzwerk
 
-![Lightning Network](https://youtu.be/RAZAa3v41DM)
+## Lightning Network
 
 In diesem siebten Kapitel untersuchen wir die Funktionsweise von Lightning als Kanalnetzwerk und wie Zahlungen von ihrer Quelle zu ihrem Ziel geleitet werden.
 
@@ -328,8 +319,6 @@ Für Susie oder Eden: Sie wissen nicht, wer der endgültige Empfänger ist oder 
 
 ## HTLC - Hashed Time Locked Contract
 
-![HTLC](https://youtu.be/-JC4mkq7H48)
-
 In einem herkömmlichen Routing-System, wie kann man sicherstellen, dass Eden nicht betrügt und seinen Teil des Vertrags einhält?
 
 HTLC ist also ein Zahlungsvertrag, der nur mit einem Geheimnis entsperrt werden kann. Wenn es nicht enthüllt wird, läuft der Vertrag ab. Es ist also eine bedingte Zahlung. Wie werden sie verwendet?
@@ -378,9 +367,7 @@ Zusammenfassend verwendet das Routing-System des Lightning-Netzwerks Hash Time-L
 
 Bei der Schließung des Kanals werden bei einer kooperativen Schließung die Zahlungen unterbrochen und die HTLCs gelöst, was in der Regel weniger kostspielig ist. Wenn die Schließung erzwungen wird, werden alle laufenden HTLC-Transaktionen veröffentlicht, was sehr teuer und unordentlich werden kann.Insgesamt fügt der HTLC-Mechanismus eine zusätzliche Sicherheitsebene im Lightning-Netzwerk hinzu, um sicherzustellen, dass Zahlungen ordnungsgemäß ausgeführt werden und die Benutzer ihre Verpflichtungen einhalten.
 
-# Finding Your Way
-
-![Finding Your Way](https://youtu.be/wnUGJjOxd9Q)
+## Finding Your Way
 
 Die einzigen öffentlichen Daten sind die gesamte Kanalkapazität (Alice + Bob), aber wir wissen nicht, wo die Liquidität ist. Um weitere Informationen zu erhalten, hört unser Knoten den LN-Kommunikationskanal ab, um Ankündigungen neuer Kanäle und Aktualisierungen der Kanalgebühren zu erhalten. Ihr Knoten sieht auch in der Blockchain nach, wenn Kanäle geschlossen werden.
 
@@ -444,9 +431,9 @@ Abschließend ist das Routing von Transaktionen im Lightning Network ein komplex
 
 Darüber hinaus kann der Empfänger zusätzliche Informationen wie Adresse, Betrag, Preimage-Hash und Hinweise auf seine Kanäle bereitstellen, um die Suche nach einer Route zu erleichtern. Dies kann dazu beitragen, Kanäle mit ausreichender Liquidität zu identifizieren und unnötige Transaktionsversuche zu vermeiden. Letztendlich ist das Routing-System im Lightning Network darauf ausgelegt, die Geschwindigkeit, Sicherheit und Effizienz von Transaktionen zu optimieren und gleichzeitig die Privatsphäre der Benutzer zu wahren.
 
-# Rechnung, LNURL, Keysend
+# Tools des Lightning Networks
 
-![Rechnung, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
+## Rechnung, LNURL, Keysend
 
 ![cover](assets/chapitre10/0.JPG)
 
@@ -463,7 +450,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 - 26 = abcdefghijklmnopqrstuvwxyz
 - 32 = nicht "b-i-o" und nicht "1"
 
-## lnbc1m
+### lnbc1m
 
 - ln = Lightning
 - Bc = Bitcoin (Mainnet)
@@ -473,7 +460,7 @@ lnbc1m1pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqr
 
 "Bitte zahlen Sie 100.000 SAT auf dem Lightning-Netzwerk des Bitcoin-Mainnets an pskuawzpp5qeuuva2txazy5g483tuv9pznn9ft8l5e49s5dndj2pqq0ptyn8msdqqcqzpgxqrrsssp5v4s00u579atm0em6eqm9nr7d0vr64z5j2sm5s33x3r9m4lgfdueq9qyyssqxkjzzgx5ef7ez3dks0laxayx4grrw7j22ppgzyhpydtv6hmc39skf9hjxn5yd3kvv7zpjdxd2s7crcnemh2fz26mnr6zu83w0a2fwxcqnvujl3".
 
-## Zeitstempel (wann es erstellt wurde)
+### Zeitstempel (wann es erstellt wurde)
 
 Es kann 0 oder mehr zusätzliche Teile enthalten:
 
@@ -495,17 +482,7 @@ Ein Keysend ermöglicht es Alice, Geld an Bob zu senden, ohne dass Bob die Anfra
 
 Zusammenfassend kodiert eine Lightning Network-Rechnung, obwohl sie auf den ersten Blick komplex erscheint, effektiv eine Zahlungsanforderung. Jeder Abschnitt der Rechnung enthält wichtige Informationen, einschließlich des zu zahlenden Betrags, des Empfängers, des Zeitstempels der Erstellung und möglicherweise weiterer Informationen wie dem Hash des Preimages, dem Zahlungsgeheimnis, den Routing-Anweisungen und der Ablaufzeit. Protokolle wie LNURL und Keysend bieten signifikante Verbesserungen in Bezug auf Flexibilität und Benutzererfahrung, z. B. die Möglichkeit, Geld ohne vorherige Anfrage der anderen Partei zu senden. Diese Technologien machen den Zahlungsprozess auf dem Lightning Network reibungsloser und effizienter.
 
-### Unterstütze uns
-
-Dieser Kurs sowie der gesamte Inhalt dieser Universität wurden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn teilen, Mitglied der Universität werden und sogar über GitHub zu ihrer Entwicklung beitragen. Im Namen des gesamten Teams vielen Dank!
-
-### Bewertung der Schulung
-
-Ein Bewertungssystem für die Ausbildung wird bald in diese neue E-Learning-Plattform integriert werden! In der Zwischenzeit vielen Dank für die Teilnahme am Kurs und wenn Sie ihn genossen haben, denken Sie daran, ihn zu teilen.
-
-# Liquiditätsmanagement
-
-![Liquiditätsmanagement](https://youtu.be/YuPrbhEJXbg)
+## Liquiditätsmanagement
 
 ![instruction](assets/chapitre11/0.JPG)
 
@@ -528,7 +505,7 @@ Eine andere Lösung wäre, Zahlungen zu leisten; Sie zahlen 100.000 aus einem be
 
 ![instruction](assets/chapitre11/2.JPG)
 
-## Lösung Loop Out: Atomic Swap LN - BTC
+### Lösung Loop Out: Atomic Swap LN - BTC
 
 Alice 2 Millionen - Susie 0
 
@@ -550,8 +527,6 @@ Zusammenfassend ist das Liquiditätsmanagement im Lightning Network ein Schlüss
 # Geh weiter
 
 ## Zusammenfassung der Schulung
-
-![conclusion](https://youtu.be/MaWpD0rbkVo)
 
 Unser Ziel war es, zu erklären, wie das Lightning-Netzwerk funktioniert und wie es auf Bitcoin aufbaut.
 
@@ -578,8 +553,6 @@ Es gibt eine Wahrscheinlichkeitskomponente, wenn eine Zahlung über das Lightnin
 Um Zahlungen zu erhalten, muss die Liquidität in den Kanälen verwaltet werden, was durch das Bitten anderer Personen, Kanäle zu uns zu öffnen, durch das Öffnen eigener Kanäle und durch die Verwendung von Tools wie Loop oder durch den Kauf/Miete von Kanälen auf Marktplätzen erfolgen kann.
 
 ## Interview mit Fanis
-
-![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
 
 Hier ist eine Zusammenfassung des Interviews:
 

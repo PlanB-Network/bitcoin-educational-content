@@ -1,0 +1,11 @@
+question: Qu'est-ce qu'une méthode d'achat ou de vente de bitcoins sans KYC ?
+answer: Utiliser des solutions pair-à-pair telles que Peach.
+wrong_answers:
+  - Utiliser un portefeuille en ligne.
+  - Utiliser un portefeuille hors ligne.
+  - Utiliser un portefeuille matériel.
+explanation: |
+  KYC, ou Know Your Customer, est un processus que les entreprises utilisent pour vérifier
+  l'identité de leurs clients. Les méthodes sans KYC, telles que les solutions pair-à-pair,
+  permettent aux utilisateurs d'acheter ou de vendre des bitcoins sans avoir à fournir d'informations personnelles.
+reviewed: false

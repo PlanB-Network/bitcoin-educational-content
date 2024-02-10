@@ -1,0 +1,11 @@
+question: What is the debate within the Bitcoin community regarding mining?
+answer: The balance between seeking profit and contributing to the security and distribution of the Bitcoin network
+wrong_answers:
+  - The balance between increasing the hashrate and decreasing the number of active nodes
+  - The balance between increasing the price and decreasing the cost
+  - The balance between increasing the number of transactions and decreasing the energy consumption
+explanation: |
+  The debate within the Bitcoin community regarding mining revolves around
+  the balance between seeking profit and contributing to the security and distribution
+  of the Bitcoin network. There are strong arguments on both sides of the debate.
+reviewed: false

@@ -6,8 +6,6 @@ description: Guida all'installazione e all'uso (CC Bistack)
 
 ![cover](assets/cover.jpeg)
 
-# Tutorial portafoglio - Green Wallet
-
 Portafoglio mobile caldo - Principiante - Gratuito - Per proteggere da 0 a 1.000 €
 
 Per proteggere importi inferiori a 1.000 €, un portafoglio caldo (connesso a Internet) gratuito è perfetto per iniziare. La configurazione è facile e l'interfaccia è progettata per i principianti.

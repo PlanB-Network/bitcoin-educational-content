@@ -1,0 +1,9 @@
+question: De acordo com Bernold, qual é o único método para acabar com a inflação?
+answer: Realizar uma reforma monetária e impor restrições ao governo
+wrong_answers:
+  - Aumentar a oferta monetária
+  - Diminuir a oferta monetária
+  - Adotar uma moeda estrangeira
+explanation: |
+  Bernold sugere que a única maneira de acabar com a inflação é realizar uma reforma monetária e impor restrições ao governo. Isso envolve o estabelecimento de uma instituição, como um banco central, que opera de forma independente das decisões políticas do governo.
+reviewed: false

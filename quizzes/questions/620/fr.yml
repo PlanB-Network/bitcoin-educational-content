@@ -1,0 +1,10 @@
+question: Quel est le seuil officiel pour qu'un pays soit considéré en hyperinflation ?
+answer: 50% par mois
+wrong_answers:
+  - 10% par mois
+  - 25% par mois
+  - 75% par mois
+explanation: |
+  En 2007, le taux d'inflation du Zimbabwe a atteint le seuil de 50% par mois,
+  marquant officiellement le pays comme étant en hyperinflation.
+reviewed: false

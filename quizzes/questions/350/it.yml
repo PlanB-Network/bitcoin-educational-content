@@ -1,0 +1,11 @@
+question: A cosa serve un portafoglio caldo nel contesto di Bitcoin?
+answer: Per inviare e ricevere regolarmente bitcoin per l'uso quotidiano.
+wrong_answers:
+  - Per conservare in modo sicuro bitcoin a lungo termine.
+  - Per estrarre nuovi bitcoin.
+  - Per scambiare bitcoin su una piattaforma di scambio.
+explanation: |
+  Un portafoglio caldo è un tipo di portafoglio Bitcoin che è connesso a Internet,
+  rendendolo adatto per le transazioni quotidiane. Tuttavia, è più vulnerabile agli attacchi informatici
+  e ai furti rispetto a un portafoglio freddo.
+reviewed: false

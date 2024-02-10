@@ -6,10 +6,6 @@ description: Configurar sua VPN
 
 ![image](assets/cover.jpeg)
 
-# LN⚡VPN
-
-_**Guia oferecido por FranklynHart como parte do Agora256, post original https://agora256.com/lnvpn/**_
-
 LN VPN é um serviço de VPN personalizado que aceita apenas pagamentos em lightning. Hoje, vou te mostrar como usá-lo e deixar menos rastros enquanto navega na internet.
 
 Existem muitos provedores de serviços de VPN de qualidade, inclusive fizemos uma revisão completa neste artigo (link), mas o LN VPN se destaca e não poderíamos deixar de apresentá-lo a você.
@@ -79,5 +75,3 @@ perl
 ```
 
 Pronto! Agora você sabe como usar o LN VPN, um serviço VPN único em sua categoria!
-
-> Guia fornecido por FranklynHart como parte do Agora256, post original em https://agora256.com/lnvpn/"

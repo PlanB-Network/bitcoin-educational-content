@@ -1,0 +1,10 @@
+question: Quel est le risque associé à la conservation des Bitcoins sur une plateforme d'échange ?
+answer: La plateforme pourrait faire faillite, vos Bitcoins pourraient être confisqués, ou la plateforme pourrait être piratée.
+wrong_answers:
+  - La plateforme pourrait augmenter ses frais, vos Bitcoins pourraient perdre de la valeur, ou la plateforme pourrait être piratée.
+  - La plateforme pourrait faire faillite, vos Bitcoins pourraient augmenter en valeur, ou la plateforme pourrait être piratée.
+  - La plateforme pourrait faire faillite, vos Bitcoins pourraient être confisqués, ou la plateforme pourrait augmenter ses frais.
+explanation: |
+  La conservation des Bitcoins sur une plateforme d'échange comporte des risques tels que la faillite de la plateforme, la confiscation de vos Bitcoins ou le piratage de la plateforme.
+  C'est pourquoi il est important d'avoir le contrôle sur votre clé privée.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le principal avantage d'utiliser un VPN?
+answer: Il protège votre vie privée en masquant votre adresse IP.
+wrong_answers:
+  - Il accélère votre connexion internet
+  - Il permet un accès gratuit aux services payants
+  - Il protège votre ordinateur contre les virus
+explanation: |
+  Un VPN, ou Réseau Privé Virtuel, protège votre vie privée en masquant votre adresse IP. Bien qu'il ne vous rende pas complètement anonyme, c'est une étape simple et efficace pour améliorer votre vie privée en ligne.
+reviewed: false

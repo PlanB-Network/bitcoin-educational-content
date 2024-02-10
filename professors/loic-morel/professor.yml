@@ -1,0 +1,21 @@
+name: Loïc Morel
+
+contributor_id: pretty-private
+
+links:
+  website: https://www.pandul.fr/
+  twitter: https://twitter.com/Loic_Pandul
+  nostr: npub1x2kakfryyzw7gfh9n8d53w7669ck0ly9k2ayj0l9h7wfa829n7dqyp6jgd
+
+affiliations:
+  - Pandul
+  - DécouvreBitcoin
+
+tags:
+  - privacy
+  - cryptography
+
+tips:
+  lightning_address: loic@sats.pandul.fr
+
+company: Pandul

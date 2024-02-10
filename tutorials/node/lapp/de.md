@@ -3,12 +3,7 @@ name: LAPP bitcoin
 description: Tutorial zur Entwicklung Ihrer ersten LApp
 ---
 
-# Tutorial zum Entwickeln deiner ersten LApp
-
 Lerne, wie du deine erste Lightning-App programmierst
-Francisco Calderón veröffentlicht am 14. Juni 2021
-
-https://grunch.dev/guides/lapp/
 
 Voraussetzungen:
 
@@ -591,5 +586,3 @@ block content
 ```
 
 Wenn Sie nach dem Bezahlen der Rechnung die Meldung "Zahlung erfolgreich" und den Zahlungsnachweis sehen, herzlichen Glückwunsch!!! Sie haben es geschafft, Sie haben Ihre erste LApp abgeschlossen.
-
-> [Link zum Originalartikel](https://grunch.dev/guides/lapp/) - Francisco Calderón veröffentlicht am 14. Juni 2021

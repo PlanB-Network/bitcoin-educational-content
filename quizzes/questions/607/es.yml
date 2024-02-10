@@ -1,0 +1,10 @@
+question: ¿Cuál es la causa subyacente de la hiperinflación que la redenominación no aborda?
+answer: La expansión de la oferta monetaria.
+wrong_answers:
+  - La disminución de la oferta monetaria.
+  - El aumento de la demanda de bienes y servicios.
+  - La disminución de la demanda de bienes y servicios.
+explanation: |
+  La causa raíz de la hiperinflación es la expansión de la oferta monetaria.
+  La redenominación es una medida común tomada por los gobiernos durante períodos de inflación, pero no resuelve este problema subyacente. Es solo una forma de cambiar el nombre de la moneda y eliminar ceros.
+reviewed: false

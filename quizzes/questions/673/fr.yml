@@ -1,0 +1,10 @@
+question: Qui crée la transaction avec le Timelock?
+answer: La personne qui envoie l'argent.
+wrong_answers:
+  - La personne qui reçoit l'argent.
+  - Les deux parties créent la transaction avec le Timelock.
+  - Aucune des parties ne crée la transaction avec le Timelock.
+explanation: |
+  La personne qui envoie l'argent crée la transaction avec le Timelock.
+  Cela les empêche de récupérer immédiatement leur argent.
+reviewed: false

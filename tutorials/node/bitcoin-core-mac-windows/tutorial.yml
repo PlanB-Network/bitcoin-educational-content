@@ -1,5 +1,9 @@
 builder: Bitcoin core
 
+credits:
+  professor: rebuild-kiss
+  link: https://armantheparman.com/bitcoincore/
+
 tags:
   - node
   - privacy

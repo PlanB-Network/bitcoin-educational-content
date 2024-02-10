@@ -1,0 +1,9 @@
+question: Wie reagierte die Bank of England auf die Bankenpanik von 1796?
+answer: Sie stellte die Konvertierbarkeit ihrer Banknoten in Gold ein.
+wrong_answers:
+  - Sie gab mehr Banknoten aus.
+  - Sie schloss.
+  - Sie erhöhte den Wert ihrer Banknoten.
+explanation: |
+  Nach der Bankenpanik von 1796 stellte die Bank of England die Konvertierbarkeit ihrer Banknoten in Gold ein, um eine potenzielle Deflation der Goldreserven zu verhindern. Diese vorübergehende Maßnahme dauerte tatsächlich zwei Jahrzehnte an.
+reviewed: false

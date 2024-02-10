@@ -1,0 +1,10 @@
+question: Which of the following is NOT one of the three essential functions of money? 
+answer: Source of Energy 
+wrong_answers:
+  - Store of Value
+  - Medium of Exchange
+  - Unit of Account
+explanation: |
+  The three essential functions of money are a store of value, medium of exchange, 
+  and unit of account. A source of energy is not a function of money.
+reviewed: true

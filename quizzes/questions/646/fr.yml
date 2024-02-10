@@ -1,0 +1,9 @@
+question: Quel est le but des adresses multi-signatures dans le Lightning Network ?
+answer: Elles nécessitent que deux parties s'accordent pour débloquer les fonds.
+wrong_answers:
+  - Elles permettent des temps de transaction plus rapides.
+  - Elles offrent une sécurité supplémentaire contre le piratage.
+  - Elles permettent l'utilisation de plusieurs cryptomonnaies.
+explanation: |
+  Les adresses multi-signatures dans le Lightning Network nécessitent que deux parties s'accordent pour débloquer les fonds. Il s'agit d'une mesure de sécurité qui garantit que les fonds ne peuvent être déplacés qu'avec le consentement des deux parties.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is the suggested solution for recurring Bitcoin purchases without stress?
+answer: Use a DCA solution
+wrong_answers:
+  - Use a hot wallet
+  - Use a cold wallet
+  - Use a non-KYC solution
+explanation: |
+  The suggested solution for recurring Bitcoin purchases without stress
+  is to use a DCA (Dollar Cost Averaging) solution. This strategy involves dividing
+  the total amount you want to invest across periodic purchases to reduce the impact
+  of volatility.
+reviewed: false

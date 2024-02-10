@@ -6,8 +6,6 @@ description: Recupera la tua privacy con Samourai
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Progettato per la privacy
-
 **Samourai Wallet** è un portafoglio dedicato alla privacy. Nonostante la sua interfaccia user-friendly, offre molta flessibilità nell'uso e nella sicurezza.
 
 Essendo **100% non custodiale**, dovrai **fare il backup** delle tue 12 parole e sicuramente includere una **passphrase** che non devi perdere.

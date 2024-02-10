@@ -1,0 +1,9 @@
+question: Selon les économistes autrichiens, quel est le résultat de la spécialisation des individus dans leur travail et de leur participation aux échanges ?
+answer: Les individus sont toujours mieux lotis.
+wrong_answers:
+  - Les individus sont toujours plus mal lotis.
+  - Il n'y a aucun changement dans la situation des individus.
+  - Le résultat varie en fonction de l'individu.
+explanation: |
+  Selon les économistes autrichiens, le résultat de la spécialisation des individus dans leur travail et de leur participation aux échanges est qu'ils sont toujours mieux lotis. Cela s'explique par le fait que la spécialisation et les échanges permettent aux individus de maximiser leur utilité subjective.
+reviewed: false

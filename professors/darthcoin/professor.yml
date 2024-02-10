@@ -1,0 +1,17 @@
+name: Darth Coin
+
+contributor_id: motor-chef
+
+links:
+  website: https://darthcoin.substack.com/
+  github: https://github.com/darth-coin
+  nostr: pub1lxktpvp5cnq3wl5ctu2x88e30mc0ahh8v47qvzc5dmneqqjrzlkqpm5xlc
+
+tags:
+  - bitcoin
+  - lightning
+  - merchants
+  - use cases
+
+tips:
+  lightning_address: darthcoin@getalby.com

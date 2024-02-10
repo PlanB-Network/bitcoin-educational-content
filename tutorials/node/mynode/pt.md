@@ -3,15 +3,11 @@ name: My Node
 description: Configure seu MyNode Bitcoin
 ---
 
-# Instalar o Bitcoin Core no Mac ou Windows
-
 ![imagem](assets/0.jpeg)
 
 https://mynodebtc.com/
 
 A maneira mais fácil e poderosa de executar um nó Bitcoin e Lightning! Combinamos o melhor software de código aberto com nossa interface, gerenciamento e suporte para que você possa usar Bitcoin e Lightning de forma fácil, privada e segura.
-
-> O seguinte guia foi oferecido por Parman (https://twitter.com/parman_the), você pode dar gorjeta a ele aqui: dandysack84@walletofsatoshi.com Fonte original: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
 
 ## Tipos de configurações de nó
 
@@ -193,6 +189,3 @@ Observe que o Electrum Server também precisa ser sincronizado, portanto, assim 
 Se você quiser experimentar outro nó também, digamos um RaspiBlitz, você precisará de um disco rígido externo SSD adicional e outro cartão micro SD para gravar. Caso contrário, é o mesmo equipamento, você simplesmente não pode executar o MyNode e o RaspiBlitz simultaneamente, obviamente. Se você quiser fazer isso, é hora de procurar outro Raspberry Pi.
 
 Agora que você tem um nó em execução, use-o, não o deixe apenas parado sem fazer nada por você. Siga meu artigo (e vídeo) sobre como conectar sua carteira de desktop Electrum ao Electrum Server e Bitcoin Core aqui.
-
-> O guia a seguir foi oferecido por Parman (https://twitter.com/parman_the)'
-> '> você pode dar gorjeta a ele aqui; dandysack84@walletofsatoshi.com Fonte original; https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/'

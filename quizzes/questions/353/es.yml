@@ -1,0 +1,9 @@
+question: ¿Cuál es una ventaja de utilizar una plataforma de intercambio para comprar y vender bitcoins?
+answer: Permite realizar transacciones regulares según las necesidades del usuario.
+wrong_answers:
+  - Permite realizar transacciones anónimas.
+  - Aumenta el valor de Bitcoin.
+  - Proporciona una plataforma para minar Bitcoin.
+explanation: |
+  Las plataformas de intercambio permiten a los usuarios comprar y vender bitcoins de manera regular y conveniente, según sus necesidades.
+reviewed: false

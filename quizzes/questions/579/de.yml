@@ -1,0 +1,9 @@
+question: Was ist der Schwellenwert für Hyperinflation gemäß der Definition von Philip Cagan?
+answer: Monatliche Inflation übersteigt 50%
+wrong_answers:
+  - Monatliche Inflation übersteigt 40%
+  - Monatliche Inflation übersteigt 60%
+  - Monatliche Inflation übersteigt 70%
+explanation: |
+  Gemäß der Definition von Philip Cagan beginnt Hyperinflation, wenn die monatliche Inflation 50% übersteigt.
+reviewed: false

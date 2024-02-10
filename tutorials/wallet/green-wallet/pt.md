@@ -6,8 +6,6 @@ description: Guia de configuração e uso (CC Bistack)
 
 ![capa](assets/cover.jpeg)
 
-# Tutorial de carteira - Green Wallet
-
 Carteira móvel quente - Iniciante - Gratuito - Para proteger de 0 a 1.000 €
 
 Para proteger quantias abaixo de 1.000€, uma carteira quente (conectada à internet) gratuita é perfeita para começar.

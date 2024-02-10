@@ -1,0 +1,9 @@
+question: Qual é o termo para uma empresa que continua operando principalmente por meio de empréstimos de baixo custo, apesar de estar insolvente ou perto da falência em condições normais de mercado?
+answer: Empresa zumbi
+wrong_answers:
+  - Empresa fantasma
+  - Empresa vampiro
+  - Empresa fantasma
+explanation: |
+  Uma empresa zumbi é uma empresa que, em condições normais de mercado, estaria insolvente ou perto da falência, mas continua operando principalmente por meio de empréstimos de baixo custo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel de empresas como OpenNode, Swiss Bitcoin Pay y BTCPay en el ecosistema de Bitcoin?
+answer: Estas empresas proporcionan herramientas que facilitan a los negocios aceptar Bitcoin.
+wrong_answers:
+  - No minan Bitcoin.
+  - No regulan Bitcoin.
+  - No emiten Bitcoin.
+explanation: |
+  Empresas como OpenNode, Swiss Bitcoin Pay y BTCPay proporcionan herramientas que facilitan a los negocios aceptar Bitcoin, contribuyendo a su adopción y uso en transacciones cotidianas.
+reviewed: false

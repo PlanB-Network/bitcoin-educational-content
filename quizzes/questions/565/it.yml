@@ -1,0 +1,9 @@
+question: Qual è l'impatto di un aumento della base monetaria sull'inflazione e sulla deflazione in un sistema a base monetaria fissa?
+answer: Un aumento della base monetaria annulla la potenziale deflazione causata da un aumento della produzione.
+wrong_answers:
+  - Un aumento della base monetaria porta alla deflazione.
+  - Un aumento della base monetaria non ha alcun impatto sull'inflazione o sulla deflazione.
+  - Un aumento della base monetaria porta a una diminuzione della produzione.
+explanation: |
+  Il capitolo spiega che in un sistema a base monetaria fissa, un aumento della produzione teoricamente dovrebbe portare alla deflazione, cioè a una diminuzione dei prezzi, poiché ci sarebbero più beni e servizi disponibili. Tuttavia, nel sistema monetario fiat attuale, un aumento della base monetaria annulla la potenziale deflazione causata da un aumento della produzione.
+reviewed: false

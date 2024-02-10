@@ -4,8 +4,6 @@ name: JADE
 description: Comment configurer votre appareil JADE
 ---
 
-# Blockstream jade
-
 ![image](assets/cover.jpeg)
 
 ## Vidéo tutorielle
@@ -14,8 +12,6 @@ description: Comment configurer votre appareil JADE
 Blockstream Jade - Portefeuille matériel Bitcoin mobile TUTORIEL COMPLET par BTCsession
 
 ## Guide d'écriture complet
-
-> Une partie du texte et de l'image provient d'Arman The Parman; https://armantheparman.com/jade/ . Nous l'avons revisité pour le rendre plus approfondi en utilisant d'autres guides tels que celui-ci : https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
 
 ![image](assets/cover2.png)
 

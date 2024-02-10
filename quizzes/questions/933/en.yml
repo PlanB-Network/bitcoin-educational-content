@@ -1,0 +1,13 @@
+question: How does Bitcoin benefit individuals in war-torn or unstable countries? 
+answer: It enables the storing of value in a decentralised and secure manner that has greater resistance to theft 
+wrong_answers:
+  - It allows access to traditional banking services
+  - It provides a physical asset that can increase in value 
+  - It offers protection against deflation
+explanation: |
+  In war-torn or unstable countries, individuals may struggle to 
+  access traditional banking services or face the risk of theft or 
+  confiscation of physical assets. Bitcoin allows individuals to store value 
+  in a decentralised and secure manner without the need for intermediaries 
+  or physical assets vulnerable to risks such as inflation, theft or confiscation.
+reviewed: true

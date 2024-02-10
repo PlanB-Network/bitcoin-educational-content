@@ -1,0 +1,9 @@
+question: ¿Cuáles son algunas de las billeteras que un Bitcoiner paranoico podría usar?
+answer: Billetera Samourai para billetera en caliente, Coldcard y/o Seed Signer para billetera en frío
+wrong_answers:
+  - Billetera Coinbase para billetera en caliente, Ledger para billetera en frío
+  - Billetera Binance para billetera en caliente, Trezor para billetera en frío
+  - PayPal para billetera en caliente, cuenta bancaria para billetera en frío
+explanation: |
+  El capítulo menciona la billetera Samourai para billetera en caliente y Coldcard y/o Seed Signer para billetera en frío como billeteras que un Bitcoiner paranoico podría usar.
+reviewed: false

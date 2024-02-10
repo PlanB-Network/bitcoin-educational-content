@@ -1,7 +1,7 @@
 ---
 name: Sicurezza informatica e gestione dei dati
 goal: Aggiornare la gestione delle password e dei dati personali. Creazione di un backup, protezione dagli hacker e sensibilizzazione alla sorveglianza di massa.
-obiettivi:
+objectives:
   - Aggiornarsi sulla gestione dei propri dati personali e sugli strumenti che rafforzano la propria sicurezza.
   - Implementare un gestore di password sicuro e facile da usare.
   - Implementare un'autenticazione a due fattori per rafforzare la propria sicurezza e ridurre al minimo i rischi di hacking.
@@ -9,264 +9,419 @@ obiettivi:
 
 # Un viaggio verso la protezione dei tuoi dati
 
-È importante capire che password semplici e riutilizzate possono essere facilmente violate dagli hacker, che possono sfruttare le tue informazioni personali per scopi malevoli.
+Benvenuti a tutti in questo programma di insegnamento dedicato alla sicurezza informatica. Questa formazione è progettata per essere accessibile a tutti, quindi non sono necessari prerequisiti informatici. Il nostro obiettivo principale è fornire le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale.
 
-Per evitare ciò, ti mostreremo come utilizzare un gestore di password sicuro come Bitwarden e trasferire le tue password da altri servizi di archiviazione. Affronteremo l'importanza della protezione dei tuoi dati personali, inclusa l'uso di backup su dischi rigidi esterni e pseudonimi per nascondere la tua identità online.
+Ciò si tradurrà nell'implementazione di diversi strumenti come una casella di posta sicura, uno strumento per gestire meglio le tue password e vari software per proteggere le tue attività quotidiane online.
 
-Discuteremo anche chi è meglio posizionato per proteggere l'utente: le aziende, la regolamentazione o l'utente stesso.
+In questa formazione, non cerchiamo di renderti un esperto, anonimo o invulnerabile, poiché ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili a tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
 
 Team dei contributori:
-
-- Renaud Lifchitz; professore
-- Thép Pantamis; professore
-- Muriel; design
-- Rogzy Noury & Fabian; produzione
-- Théo; contributo
+Muriel; design
+Rogzy Noury & Fabian; produzione
+Théo; contributo
 
 +++
 
-# Introduzione: Sicurezza 101: Miglioramento della tua Igiene Digitale
+# Introduzione
 
-![introduzione](https://youtu.be/DqLf72XBJUg)
+## Introduzione al corso
 
-Benvenuti tutti in questo programma educativo dedicato alla sicurezza digitale. Questa formazione è progettata per essere accessibile a tutti, senza prerequisiti informatici necessari. È con grande piacere che vi presento i miei colleghi esperti, Théo e Renaud, che ci accompagneranno in questo viaggio educativo.
+### Obiettivo: aggiornamento!
 
-Il nostro obiettivo principale è fornirvi le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale. Per iniziare, Renaud ci dà un prezioso consiglio: adottare gradualmente un atteggiamento di sana diffidenza. È un approccio cruciale che deve essere applicato in molti aspetti della sicurezza digitale.
+Benvenuti a tutti in questo programma di insegnamento dedicato alla sicurezza informatica. Questa formazione è progettata per essere accessibile a tutti, quindi non sono necessari prerequisiti informatici. Il nostro obiettivo principale è fornire le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale.
 
-## Sezione 1: Teoria - Navigazione Sicura, Evitare Link Pericolosi e Protezione della Privacy Online
+Ciò si tradurrà nell'implementazione di diversi strumenti come una casella di posta sicura, uno strumento per gestire meglio le tue password e vari software per proteggere le tue attività quotidiane online.
 
-In questa prima sezione, affronteremo gli aspetti teorici della sicurezza digitale. Discuteremo della navigazione sicura, dell'evitare link pericolosi e della protezione della privacy online. Comprendere come identificare un link potenzialmente dannoso e proteggere la propria privacy sono elementi essenziali per difendersi dalle minacce della cybersecurity.
-Esploreremo consigli pratici per verificare la fonte dei link prima di cliccarci sopra e per utilizzare strumenti come browser web privati, reti private virtuali (VPN) e firewall.
+Questa formazione è uno sforzo congiunto di tre dei nostri professori:
 
-## Sezione 2: Pratica - Gestione delle Credenziali e delle Password, Caselle di Posta e Autenticazione a Due Fattori
+- Renaud Lifchitz, esperto in sicurezza informatica
+- Théo Pantamis, dottore in matematica applicata
+- Rogzy, CEO di DécouvreBitcoin
 
-In questa seconda sezione pratica, affronteremo la gestione delle credenziali e delle password, così come altri aspetti importanti della sicurezza digitale. Esamineremo le buone pratiche per gestire in modo sicuro le tue credenziali e password, utilizzando gestori di password. Discuteremo anche dell'importanza di proteggere le tue caselle di posta da attacchi e intrusioni.
+La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante un costante aumento dei casi di hacking e sorveglianza di massa, non è mai troppo tardi per fare il primo passo e proteggerti.
+Dans questa formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile, ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
+Se stai cercando competenze più avanzate sull'argomento, le nostre risorse, tutorial o altri corsi sulla sicurezza informatica sono qui per te. Nel frattempo, ecco una breve panoramica del nostro programma per le prossime ore insieme.
 
-Ti presenteremo strumenti e tecniche per creare password robuste e uniche per ogni account, e ti spiegheremo come utilizzare un gestore di password per gestire efficacemente le tue informazioni di accesso. Inoltre, affronteremo l'autenticazione a due fattori (2FA) come misura di sicurezza aggiuntiva per proteggere i tuoi account online.
+### Sezione 1: Tutto ciò che devi sapere sulla navigazione online
 
-Comprendendo e applicando queste pratiche di gestione delle credenziali, delle password, delle caselle di posta e dell'autenticazione a due fattori, rafforzerai notevolmente la sicurezza delle tue informazioni online.
+- Capitolo 1 - Navigazione online
+- Capitolo 2 - Utilizzare Internet in sicurezza
 
-## Sezione Bonus: Intervista con Pantamis e Renaud
+Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle sue implicazioni in termini di sicurezza. Esploreremo poi le specificità dei browser, in particolare per quanto riguarda la gestione dei cookie. Vedremo anche come garantire una navigazione più sicura e anonima, utilizzando strumenti come TOR. Successivamente, metteremo l'accento sull'uso delle VPN per rafforzare la protezione dei tuoi dati. Infine, concluderemo con alcune raccomandazioni sull'uso sicuro delle connessioni WiFi.
 
-Come bonus, ti offriamo un'intervista esclusiva con Pantamis e Renaud, i nostri esperti di sicurezza digitale. Condivideranno le loro conoscenze approfondite e ulteriori consigli per migliorare la tua igiene digitale. Non perdere questa opportunità di imparare di più da questi professionisti esperti.
+### Sezione 2: Buone pratiche nell'uso del computer
 
-Questo programma di formazione è offerto gratuitamente con una licenza ridistribuibile. Desideriamo esprimere la nostra gratitudine ai nostri Patreons e al nostro team di ripresa per il loro indispensabile supporto nella realizzazione di questa formazione. Ringraziamo anche tutti i nostri donatori e sostenitori che ci permettono di continuare a produrre contenuti educativi gratuiti in tre lingue.
+- Capitolo 3 - Utilizzo del computer
+- Capitolo 4 - Hack e gestione del backup
 
-# Navigazione online
+In questa sezione, affronteremo tre aree chiave della sicurezza informatica. Innanzitutto, esploreremo i diversi sistemi operativi: Mac, PC e Linux, evidenziandone le specificità e i punti di forza. Successivamente, ci concentreremo sui metodi per proteggerti efficacemente dai tentativi di hacking e per rafforzare la sicurezza dei tuoi dispositivi. Infine, metteremo l'accento sull'importanza di proteggere e fare regolarmente il backup dei tuoi dati per prevenire perdite o ransomware.
 
-![navigazione online](https://youtu.be/BEK7vGnkO64)
+### Sezione 3: Implementazione delle soluzioni
 
-## La scelta del browser web
+- Capitolo 6 - Gestione della casella di posta
+- Capitolo 7 - Gestore di password
+- Capitolo 8 - Autenticazione a due fattori
 
-### Gli errori comuni durante la navigazione su internet e come evitarli
+In questa terza sezione pratica, passeremo alla pratica con l'implementazione delle tue soluzioni concrete.
 
-Durante la navigazione su internet, è importante evitare alcuni errori comuni per preservare la tua sicurezza online. Ecco alcuni consigli per evitarli:
+Prima di tutto, vedremo come proteggere la tua casella di posta, essenziale per le tue comunicazioni e spesso presa di mira dai pirati informatici. Successivamente, ti presenteremo cos'è un gestore di password: una soluzione pratica per non dimenticare o confondere le tue password, mantenendole comunque sicure. Infine, parleremo di una misura di sicurezza aggiuntiva, l'autenticazione a due fattori, che aggiunge un ulteriore livello di protezione ai tuoi account. Tutto sarà spiegato in modo chiaro e accessibile.
 
-- Errore legato ai download di software: Si consiglia di scaricare software dal sito ufficiale dell'editore anziché da siti generici. È anche consigliabile privilegiare software open source e gratuiti, poiché sono spesso più sicuri e privi di malware.
-- Errore legato ai browser web: Ci sono due grandi famiglie di browser, quelli basati su Chrome e quelli basati su Firefox. Anche se entrambe le famiglie di browser offrono un livello di sicurezza simile, è consigliabile evitare il browser Chrome di Google a causa dei suoi tracker. Possono essere preferite alternative più leggere di Chrome, come Chromium o Brave. Potrebbe essere necessario utilizzare diversi browser per accedere a determinati siti. L'uso del browser Brave può essere consigliato a causa del suo bloccatore di pubblicità integrato. È anche importante limitare il numero di estensioni installate per evitare problemi di sicurezza e prestazioni.
-- Errore legato alla gestione dei cookie: I cookie sono file creati dai siti web per memorizzare informazioni sul tuo dispositivo. Alcuni siti richiedono l'uso dei cookie per funzionare correttamente, tuttavia è importante notare che i cookie possono anche essere condivisi con siti di terze parti per scopi pubblicitari di tracciamento. Secondo regolamenti come il GDPR, è possibile rifiutare i cookie di tracciamento di terze parti. Si consiglia di accettare solo i cookie necessari per il corretto funzionamento del sito e di eliminare i cookie una volta lasciato il sito, utilizzando un'estensione o un programma dedicato alla gestione dei cookie.
+### Sezione Bonus: Intervista con Pantamis e Renaud
 
-### I browser web: scelta, sicurezza e gestione dei cookie
+En bonus, vi proponiamo un'intervista esclusiva con Pantamis e Renaud, i nostri esperti di sicurezza informatica. Condivideranno le loro conoscenze approfondite e consigli aggiuntivi per rafforzare la vostra igiene digitale. L'idea è imparare di più da questi professionisti esperti.
 
-Abbiamo già menzionato che i browser basati su Chrome e Firefox offrono un livello di sicurezza simile, ma è consigliabile evitare il browser Chrome di Google a causa dei suoi tracker. Potrebbe essere necessario utilizzare più browser per accedere a determinati siti e Brave potrebbe essere preferito per il suo bloccatore di pubblicità integrato.
+Questo programma di formazione è offerto gratuitamente con una licenza redistribuibile CC BY SA. Desideriamo esprimere la nostra gratitudine ai nostri Patreons e al nostro team di ripresa per il loro indispensabile supporto nella realizzazione di questa formazione. Ringraziamo anche tutti i nostri donatori e sostenitori che ci permettono di continuare a produrre contenuti educativi gratuiti a livello mondiale.
 
-Per quanto riguarda la gestione dei cookie, è importante rifiutare i cookie di tracciamento di terze parti mentre si accettano i cookie necessari per il funzionamento del sito. Dopo aver lasciato un sito, si consiglia di eliminare i cookie ad esso associati utilizzando un'estensione o un programma dedicato.
+# Tutto quello che c'è da sapere sulla navigazione online
 
-Alcuni browser consentono di eliminare i cookie o le sessioni in modo selettivo. Tuttavia, è importante trovare il giusto equilibrio tra praticità, facilità d'uso e sicurezza. Si tenga presente che anche se si eliminano i cookie, è possibile che le informazioni raccolte dai cookie di diversi siti siano ancora interconnesse.
+## Navigazione online
 
-Tenendo presente queste raccomandazioni per la scelta dei browser, la gestione dei cookie e la sicurezza online, sarai in grado di navigare in Internet in modo più sicuro e proteggere la tua privacy.
+Durante la navigazione su internet, è importante evitare alcuni errori comuni per preservare la propria sicurezza online. Ecco alcuni consigli per evitarli:
+
+### Attenzione ai download di software:
+
+Si consiglia di scaricare software dal sito ufficiale dell'editore anziché da siti generici.
+Esempio: Utilizzare www.signal/download e non www.logicieltelechargement.fr/signal.
+
+È anche consigliabile privilegiare i software open source perché spesso sono più sicuri e privi di software dannosi. Un software "open-source", ovvero aperto o libero, è un software il cui codice è noto a tutti e accessibile a tutti. È quindi possibile verificare, tra le altre cose, che non ci siano accessi nascosti per rubare i vostri dati personali.
+
+> Bonus: i software open source sono spesso gratuiti! Questa università è al 100% open source, quindi potete anche voi verificare il nostro codice tramite il nostro GitHub.
+
+### Gestione dei cookie: errori e buone pratiche
+
+I cookie sono file creati dai siti web per memorizzare informazioni sul vostro dispositivo. Sebbene alcuni siti richiedano questi cookie per funzionare correttamente, possono anche essere sfruttati da siti di terze parti, in particolare per scopi di tracciamento pubblicitario. In conformità con regolamenti come il GDPR, è possibile - e consigliato - rifiutare i cookie di tracciamento di terze parti, accettando quelli essenziali per il corretto funzionamento del sito. Dopo ogni visita a un sito, è consigliabile eliminare i cookie ad esso associati, sia manualmente che tramite un'estensione o un programma specifico. Alcuni browser offrono anche la possibilità di effettuare questa eliminazione in modo selettivo. Nonostante queste precauzioni, è fondamentale comprendere che le informazioni raccolte da diversi siti possono rimanere interconnesse, da qui l'importanza di trovare un equilibrio tra praticità e sicurezza.
+
+> Nota: Limitate anche il numero di estensioni installate sul vostro browser per evitare potenziali problemi di sicurezza e prestazioni.
+
+### Browser web: scelta, sicurezza
+
+Esistono due grandi famiglie di browser: quelli basati su Chrome e quelli basati su Firefox.
+Anche se entrambe le famiglie offrono un livello di sicurezza simile, si consiglia di evitare il browser Chrome di Google a causa dei suoi tracker. Possono essere preferite alternative più leggere di Chrome, come Chromium o Brave. Brave è particolarmente consigliato per il suo bloccatore di pubblicità integrato. Potrebbe essere necessario utilizzare più browser per accedere a determinati siti.
 
 ### La navigazione privata, TOR e altre alternative per una navigazione più sicura e anonima
 
-La navigazione privata, anche se non nasconde la navigazione al tuo provider di servizi Internet, consente di non lasciare tracce locali sul tuo computer. I cookie vengono automaticamente eliminati alla fine di ogni sessione, consentendo di accettare tutti i cookie senza essere tracciati. La navigazione privata può essere utile durante l'acquisto di servizi online, poiché i siti web seguono le nostre abitudini di ricerca e regolano i prezzi di conseguenza. Tuttavia, è importante notare che la navigazione privata è consigliata per sessioni temporanee e specifiche, e non per un utilizzo generale della navigazione su Internet.
+La navigazione privata, anche se non nasconde la navigazione al proprio provider di servizi Internet, consente di non lasciare tracce locali sul proprio computer. I cookie vengono automaticamente eliminati alla fine di ogni sessione, consentendo di accettare tutti i cookie senza essere tracciati. La navigazione privata può essere utile durante l'acquisto di servizi online, poiché i siti web seguono le nostre abitudini di ricerca e regolano i prezzi di conseguenza. Tuttavia, è importante notare che la navigazione privata è consigliata per sessioni temporanee e specifiche, non per un utilizzo generale della navigazione su Internet.
 
-Un'alternativa più avanzata è la rete TOR (The Onion Router), che offre l'anonimato mascherando l'indirizzo IP dell'utente e consentendo l'accesso al Darknet. TOR Browser è un browser appositamente progettato per utilizzare la rete TOR. Consente di visitare sia siti web convenzionali che siti web in formato .onion, che sono generalmente gestiti da individui e possono avere una natura illegale.
+Un'alternativa più avanzata è la rete TOR (The Onion Router), che offre l'anonimato mascherando l'indirizzo IP dell'utente e consentendo l'accesso al Darknet. TOR Browser è un browser appositamente progettato per utilizzare la rete TOR. Consente di visitare sia siti web convenzionali che siti web in .onion, che sono generalmente gestiti da individui e possono avere una natura illegale.
 
 TOR è legale ed è utilizzato da giornalisti, attivisti per la libertà e altre persone che desiderano sfuggire alla censura in paesi autoritari. Tuttavia, è importante capire che TOR non protegge i siti visitati né il computer stesso. Inoltre, l'utilizzo di TOR può rallentare la connessione Internet poiché i dati passano attraverso i computer di altre tre persone prima di raggiungere la loro destinazione. È anche essenziale notare che TOR non è una soluzione infallibile per garantire l'anonimato al 100% e non deve essere utilizzato per condurre attività illegali.
 
-## Tutorial: BRAVE
+### BRAVE
 
 **_Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub_**
 
-# VPN e connessione Internet
+## VPN e connessione Internet
 
-![vpn e connessione internet](https://youtu.be/oRO7sGexvzo)
+### i VPN
 
-## Utilizzare Internet in sicurezza
+La protezione della propria connessione Internet è un aspetto cruciale della sicurezza online e l'utilizzo di reti private virtuali (VPN) è un metodo efficace per migliorare questa sicurezza, sia per le aziende che per gli utenti individuali.
 
-### I VPN
+I VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo così la connessione più sicura. In un contesto professionale, i VPN consentono ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda da remoto. I dati scambiati sono crittografati, rendendo molto più difficile l'intercettazione da parte di terzi. Oltre a garantire l'accesso a una rete interna, l'uso di un VPN può consentire a un utente di far passare la propria connessione Internet attraverso la rete interna dell'azienda, dando l'impressione che la connessione provenga dall'azienda stessa. Ciò può essere particolarmente utile per accedere a servizi online che sono geograficamente limitati.
 
-L'igiene digitale è un aspetto cruciale della sicurezza online e l'uso di reti private virtuali (VPN) è un metodo efficace per migliorare questa sicurezza, sia per le aziende che per gli utenti individuali.
+### Tipi di VPN
 
-I VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo così la connessione più sicura. In un contesto aziendale, i VPN consentono ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda. I dati scambiati sono crittografati, rendendo molto più difficile intercettarli da parte di terzi. Oltre a garantire l'accesso a una rete interna, l'uso di un VPN può consentire a un utente di far passare la propria connessione Internet attraverso la rete interna dell'azienda, dando l'impressione che la connessione provenga dall'azienda stessa. Ciò può essere particolarmente utile per accedere a servizi online che sono geograficamente limitati.
-Esistono due tipi principali di VPN: le VPN aziendali e le VPN per il pubblico, come NordVPN. Le VPN aziendali tendono ad essere più costosi e complessi, mentre le VPN per il pubblico sono generalmente più accessibili e facili da usare. NordVPN, ad esempio, consente agli utenti di connettersi a Internet attraverso un server situato in un altro paese, il che può consentire di aggirare le restrizioni geografiche.
+Ci sono due tipi principali di VPN: le VPN aziendali e le VPN per il grande pubblico, come NordVPN. Le VPN aziendali tendono ad essere più costose e complesse, mentre le VPN per il grande pubblico sono generalmente più accessibili e facili da usare. NordVPN, ad esempio, consente agli utenti di connettersi a Internet passando attraverso un server situato in un altro paese, il che può consentire di aggirare le restrizioni geografiche.
 
-Tuttavia, l'utilizzo di una VPN per il pubblico non garantisce un anonimato completo. Molti fornitori di VPN conservano informazioni sugli utenti, il che potrebbe compromettere potenzialmente la loro anonimia. Sebbene le VPN possano essere utili per migliorare la sicurezza online, non sono una soluzione universale. Sono efficaci per alcuni utilizzi specifici, come l'accesso a servizi limitati geograficamente o il miglioramento della sicurezza durante gli spostamenti, ma non garantiscono una sicurezza totale. Quando si sceglie una VPN, è essenziale privilegiare l'affidabilità e la tecnicalità piuttosto che la popolarità. I fornitori di VPN che raccolgono meno informazioni personali sono generalmente i più sicuri. Servizi come iVPN e Mulvad non raccolgono informazioni personali e consentono persino pagamenti in Bitcoin per una maggiore privacy.
+Tuttavia, l'uso di una VPN per il grande pubblico non garantisce un anonimato completo. Molti fornitori di VPN conservano informazioni sui propri utenti, il che potrebbe compromettere potenzialmente la loro anonimato. Sebbene le VPN possano essere utili per migliorare la sicurezza online, non sono una soluzione universale. Sono efficaci per alcuni utilizzi specifici, come l'accesso a servizi geograficamente limitati o il miglioramento della sicurezza in movimento, ma non garantiscono una sicurezza totale. Quando si sceglie una VPN, è essenziale privilegiare l'affidabilità e la tecnicalità piuttosto che la popolarità. I fornitori di VPN che raccolgono meno informazioni personali sono generalmente i più sicuri. Servizi come iVPN e Mullvad non raccolgono informazioni personali e consentono persino pagamenti in Bitcoin per una maggiore privacy.
 
-Infine, una VPN può anche essere utilizzata per bloccare la pubblicità online, offrendo così un'esperienza di navigazione più piacevole e sicura. Tuttavia, è importante fare le proprie ricerche per trovare la VPN più adatta alle proprie esigenze specifiche. Per quanto riguarda la sicurezza online, è essenziale capire che la connessione 4G è generalmente più sicura del Wi-Fi pubblico. Tuttavia, l'utilizzo della connessione 4G può rapidamente esaurire il proprio piano dati. Il protocollo HTTPS è diventato lo standard per la crittografia dei dati sui siti web. Assicura che i dati scambiati tra l'utente e il sito web siano sicuri. Pertanto, è cruciale verificare che il sito che si sta visitando utilizzi effettivamente il protocollo HTTPS.
-Nell'Unione europea, la protezione dei dati è regolamentata dal Regolamento generale sulla protezione dei dati (RGPD). Pertanto, è più sicuro utilizzare fornitori europei di punti di accesso Wi-Fi, come la SNCF, che non rivendono i dati di connessione degli utenti. Tuttavia, il semplice fatto che un sito mostri un lucchetto non garantisce la sua autenticità. È importante verificare la chiave pubblica del sito utilizzando un sistema di certificati per confermarne l'autenticità. Sebbene la crittografia dei dati impedisca a terze parti di intercettare i dati scambiati, è comunque possibile per un individuo malintenzionato fingersi il sito e trasferire i dati in chiaro. Per evitare truffe online, è fondamentale verificare l'identità del sito su cui si sta navigando, controllando in particolare l'estensione e il nome di dominio. Inoltre, fate attenzione agli truffatori che utilizzano lettere simili negli URL per ingannare gli utenti.
+Infine, una VPN può anche essere utilizzata per bloccare la pubblicità online, offrendo così un'esperienza di navigazione più piacevole e sicura. Tuttavia, è importante fare le proprie ricerche per trovare la VPN più adatta alle proprie esigenze specifiche. L'uso di una VPN è consigliato per rafforzare la sicurezza, anche quando si naviga su Internet da casa. Ciò contribuisce a garantire un livello più elevato di sicurezza per i dati scambiati online. Infine, assicurati di verificare gli URL e il lucchetto nella barra degli indirizzi per confermare di essere sul sito che pensi di visitare.
 
-L'uso di una VPN è consigliato per aumentare la sicurezza, anche quando si naviga su Internet da casa. Ciò contribuisce a garantire un livello più elevato di sicurezza per i dati scambiati online. Infine, assicurati di verificare gli URL e il lucchetto nella barra degli indirizzi per confermare di essere effettivamente sul sito che pensi di visitare.
+### HTTPS e le reti Wi-Fi pubbliche
 
-In sintesi, l'uso di una VPN può migliorare notevolmente la sicurezza online, sia per le aziende che per gli utenti individuali. Inoltre, l'adozione di buone abitudini di navigazione può contribuire a una migliore igiene digitale. Nel prossimo segmento di questo corso, affronteremo la sicurezza del computer, inclusi gli aggiornamenti, l'antivirus e la gestione delle password.
+In materia di sicurezza online, è essenziale comprendere che la connessione 4G è generalmente più sicura del Wi-Fi pubblico. Tuttavia, l'utilizzo della connessione 4G può rapidamente esaurire il tuo pacchetto dati mobile. Il protocollo HTTPS è diventato lo standard per la crittografia dei dati sui siti web. Assicura che i dati scambiati tra l'utente e il sito web siano sicuri. È quindi fondamentale verificare che il sito che stai visitando utilizzi effettivamente il protocollo HTTPS.
 
-## Tutorial: IVPN
+Nell'Unione europea, la protezione dei dati è regolamentata dal Regolamento generale sulla protezione dei dati (GDPR). È quindi più sicuro utilizzare fornitori europei di punti di accesso Wi-Fi, come la SNCF, che non rivendono i dati di connessione degli utenti. Tuttavia, il semplice fatto che un sito mostri un lucchetto non garantisce la sua autenticità. È importante verificare la chiave pubblica del sito utilizzando un sistema di certificati per confermarne l'autenticità. Sebbene la crittografia dei dati impedisca a terzi di intercettare i dati scambiati, è comunque possibile per un individuo malintenzionato fingersi il sito e trasferire i dati in chiaro.
 
-**_Tutorial in costruzione, per contribuire o aggiungerlo, puoi passare attraverso GitHub_**
+Per evitare truffe online, è fondamentale verificare l'identità del sito su cui stai navigando, controllando in particolare l'estensione e il nome di dominio. Inoltre, fai attenzione agli truffatori che utilizzano lettere simili negli URL per ingannare gli utenti.
 
-# Utilizzo del computer
+In sintesi, l'utilizzo di una VPN può migliorare notevolmente la sicurezza online, sia per le aziende che per gli utenti individuali. Inoltre, l'adozione di buone abitudini di navigazione può contribuire a una migliore igiene digitale. Nel prossimo segmento di questo corso, affronteremo la sicurezza del computer, inclusi gli aggiornamenti, l'antivirus e la gestione delle password.
 
-![utilizzo del computer](https://youtu.be/lzJr5CIulSU)
+### Tutorial: IVPN
 
-## Buone pratiche di utilizzo
+**_ Tutorial in costruzione, per contribuire o aggiungerlo, puoi passare attraverso GitHub _**
 
-La sicurezza dei nostri computer è una questione fondamentale nel mondo digitale odierno. Oggi affronteremo tre punti chiave: la scelta del computer, gli aggiornamenti e l'antivirus per una sicurezza ottimale, e infine, le buone pratiche per la sicurezza del proprio computer e dei propri dati.
+# Buone pratiche per l'uso del computer
 
-Per quanto riguarda la scelta del computer, non ci sono differenze significative di sicurezza tra i computer vecchi e quelli nuovi. Tuttavia, esistono differenze di sicurezza tra i sistemi operativi: Windows, Linux e Mac. Si consiglia di non utilizzare un account amministratore quotidianamente, ma piuttosto di creare due account separati: un account amministratore e un account per l'uso quotidiano. Windows è spesso più esposto a software dannosi a causa del suo elevato numero di utenti e della facilità di passaggio dall'utente all'amministratore. Al contrario, le minacce sono meno numerose su Linux e Mac.
-Il **choix du système d'exploitation** doit être effectué en fonction de vos besoins et de vos préférences. Les systèmes Linux ont considérablement évolué ces dernières années, devenant de plus en plus conviviaux. **Ubuntu** est une alternative intéressante pour les débutants, avec une interface graphique facile à utiliser. Il est possible de partitionner un ordinateur pour expérimenter avec Linux tout en conservant Windows, mais cela peut se révéler complexe. Il est souvent préférable d'avoir un ordinateur dédié, une machine virtuelle ou une clé USB pour tester Linux ou Ubuntu.
+## Utilizzo del computer
 
-En ce qui concerne les **mises à jour et l'antivirus** pour une sécurité optimale, la mise à jour régulière du système d'exploitation et des applications est primordiale. Sur Windows 10, les mises à jour sont quasi continues et il est crucial de ne pas les bloquer ou les retarder. Chaque année, environ 15 000 vulnérabilités sont identifiées, ce qui souligne l'importance de maintenir les logiciels à jour pour se prémunir contre les virus. En général, le support logiciel se termine entre 3 et 5 ans après sa sortie, il est donc nécessaire de passer à la version supérieure pour continuer à bénéficier de la sécurité.
+La sicurezza dei nostri computer è una questione fondamentale nel mondo digitale odierno. Oggi affronteremo tre punti chiave:
 
-**Windows Defender**, l'antivirus intégré à Windows, est une solution sûre et efficace. Il convient de faire preuve de prudence avec les antivirus téléchargés sur Internet, qui peuvent être malveillants ou obsolètes. Linux et Mac, grâce à leur système de séparation des droits des utilisateurs, n'ont souvent pas besoin d'antivirus. Pour ceux qui souhaitent investir dans un antivirus payant, il est recommandé de choisir un antivirus qui analyse intelligemment les menaces inconnues et émergentes, comme **Kaspersky**. Les mises à jour de l'antivirus sont essentielles pour se protéger contre les nouvelles menaces.
+- la scelta del computer
+- gli aggiornamenti e l'antivirus per una sicurezza ottimale
+- le buone pratiche per la sicurezza del computer e dei dati.
 
-Pour finir, voici quelques **bonnes pratiques pour la sécurité** de votre ordinateur et de vos données. Il est important de choisir un antivirus efficace et agréable à utiliser. Il est également crucial d'adopter de bonnes pratiques sur son ordinateur, comme ne pas insérer de clés USB inconnues ou trouvées à des endroits suspects. Ces clés USB peuvent contenir des programmes malveillants qui peuvent se lancer automatiquement dès leur insertion. Le contrôle de la clé USB ne servira à rien une fois qu'elle aura été insérée. Certaines entreprises ont été victimes de piratage en raison de clés USB laissées négligemment dans des zones accessibles, comme un parking.
-Trattate il vostro computer come fareste con la vostra casa: rimanete vigili, effettuate regolarmente gli aggiornamenti, eliminate i file inutili e utilizzate una password forte per la sicurezza. È fondamentale crittografare i dati sui computer portatili e sugli smartphone per prevenire furti o perdite di dati. BitLocker per Windows, Lux per Linux e l'opzione integrata per Mac sono soluzioni per la crittografia dei dati. Si consiglia di attivare senza esitazione la crittografia dei dati e di annotare la password su un foglio da conservare in un luogo sicuro.
+### La scelta del computer e del sistema operativo
 
-In conclusione, è essenziale optare per un sistema operativo adatto alle proprie esigenze e tenerlo regolarmente aggiornato, così come le applicazioni installate. È anche fondamentale utilizzare un antivirus efficace e facile da usare e adottare buone pratiche per la sicurezza del vostro computer e dei vostri dati.
+Per quanto riguarda la scelta del computer, non ci sono differenze significative di sicurezza tra i computer vecchi e quelli nuovi. Tuttavia, esistono differenze di sicurezza tra i sistemi operativi: Windows, Linux e Mac.
+Riguardo a Windows, è consigliato non utilizzare un account amministratore quotidianamente, ma piuttosto creare due account separati: un account amministratore e un account per l'uso quotidiano. Windows è spesso più esposto a software dannosi a causa del suo elevato numero di utenti e della facilità di passaggio dall'utente all'amministratore. Al contrario, le minacce sono meno numerose su Linux e Mac.
 
-## Tutorial: Ubuntu
+La scelta del sistema operativo deve essere fatta in base alle proprie esigenze e preferenze. I sistemi Linux sono notevolmente migliorati negli ultimi anni, diventando sempre più user-friendly. Ubuntu è un'alternativa interessante per i principianti, con un'interfaccia grafica facile da usare. È possibile partizionare un computer per sperimentare con Linux mantenendo comunque Windows, ma ciò può risultare complesso. Spesso è preferibile avere un computer dedicato, una macchina virtuale o una chiavetta USB per testare Linux o Ubuntu.
 
-**_Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub_**
+### Aggiornamento del software
 
-# Hack & gestione del backup: proteggere i propri dati
+Per quanto riguarda gli aggiornamenti, la regola è semplice: **è fondamentale mantenere regolarmente aggiornato il sistema operativo e le applicazioni.**
 
-![hack e gestione del backup](https://youtu.be/CJDjWPV3PeU)
+Su Windows 10, gli aggiornamenti sono quasi continui ed è cruciale non bloccarli o ritardarli. Ogni anno vengono identificate circa 15.000 vulnerabilità, il che sottolinea l'importanza di mantenere il software aggiornato per proteggersi dai virus. In generale, il supporto software termina tra 3 e 5 anni dopo il rilascio, quindi è necessario passare alla versione successiva per continuare a beneficiare della sicurezza.
 
-## Cybersecurity e prevenzione
+La regola si applica praticamente a tutti i software. Infatti, gli aggiornamenti non hanno lo scopo di rendere obsoleta o lenta la tua macchina, ma di proteggerla dalle nuove minacce. Alcuni aggiornamenti sono considerati importanti e senza di essi il tuo computer corre seri rischi di essere sfruttato.
 
-Phishing, attenzione alle e-mail fraudolente:
-Rimanete attenti ai tentativi di phishing volti a sottrarre informazioni sensibili come le vostre credenziali e password. Evitate di cliccare su link sospetti e di condividere le vostre informazioni personali senza verificare la legittimità del mittente.
+Per darti un esempio concreto di errore: un software crackato che non può essere aggiornato rappresenta una doppia minaccia potenziale. L'arrivo del virus durante il suo download illegale da un sito sospetto e un utilizzo non sicuro di fronte alle nuove forme di attacco.
 
-Prudenza con gli allegati e le immagini nelle e-mail:
-Gli allegati e le immagini nelle e-mail possono contenere software dannosi. Non scaricate e non aprite gli allegati provenienti da mittenti sconosciuti o sospetti e assicuratevi che il vostro antivirus sia aggiornato.
+### Antivirus
 
-Ransomware e tipi di attacchi informatici:
-Il ransomware è un tipo di software dannoso che crittografa i dati dell'utente e richiede un riscatto per decifrarli. Informatevi sui diversi tipi di attacchi informatici e adottate misure per proteggere il vostro sistema e i vostri dati.
+- Hai bisogno di un antivirus? SÌ
+- Devi pagare? Dipende!
 
-Reazione in caso di rilevamento di un virus:
-Se rilevate un virus sul vostro computer, disconnettetevi da Internet, effettuate una scansione antivirus completa ed eliminate i file infetti. Successivamente, aggiornate i vostri software e il vostro sistema operativo e cambiate le vostre password per evitare ulteriori intrusioni.
+La scelta e l'installazione di un antivirus sono importanti. Windows Defender, l'antivirus integrato in Windows, è una soluzione sicura ed efficace. Per una soluzione gratuita è estremamente buono e molto meglio di molte soluzioni gratuite disponibili online. Infatti, è necessario fare attenzione agli antivirus scaricati da Internet, che possono essere dannosi o obsoleti.
+Per coloro che desiderano investire in un antivirus a pagamento, è consigliato scegliere un antivirus che analizzi intelligentemente le minacce sconosciute ed emergenti, come Kaspersky. Gli aggiornamenti dell'antivirus sono essenziali per proteggersi dalle nuove minacce.
+Nota: Linux e Mac, grazie al loro sistema di separazione dei diritti degli utenti, spesso non hanno bisogno di un antivirus.
 
-## Backup dei dati
+Infine, ecco alcune buone pratiche per la sicurezza del tuo computer e dei tuoi dati. È importante scegliere un antivirus efficace e piacevole da utilizzare. È anche cruciale adottare buone pratiche sul proprio computer, come non inserire chiavi USB sconosciute o trovate in luoghi sospetti. Queste chiavi USB potrebbero contenere programmi dannosi che si avviano automaticamente una volta inserite. Il controllo della chiave USB non servirà a nulla una volta che sarà stata inserita. Alcune aziende sono state vittime di hacking a causa di chiavi USB lasciate in modo negligente in zone accessibili, come un parcheggio.
 
-Effettuate regolarmente il backup dei vostri dati importanti su un supporto esterno o un servizio di archiviazione online sicuro. In questo modo, in caso di attacco informatico o guasto hardware, potrete recuperare i vostri dati senza perdere informazioni cruciali.
-Payer i hacker, una cattiva idea: Di solito è sconsigliato pagare i hacker in caso di ransomware o altri tipi di attacchi. Pagare il riscatto non garantisce il recupero dei tuoi dati e può incoraggiare i cybercriminali a continuare le loro attività dannose. È meglio privilegiare la prevenzione e il regolare backup dei tuoi dati per proteggerti.
+Tratta il tuo computer come faresti con la tua casa: rimani vigile, effettua regolarmente gli aggiornamenti, elimina i file inutili e utilizza una password sicura per la sicurezza. È cruciale crittografare i dati su laptop e smartphone per prevenire furti o perdite di dati. BitLocker per Windows, LUKS per Linux e l'opzione integrata per Mac sono soluzioni per la crittografia dei dati. È consigliabile attivare senza esitazione la crittografia dei dati e annotare la password su un foglio da conservare in un luogo sicuro.
 
-# Gestione della casella di posta
+In conclusione, è fondamentale optare per un sistema operativo adatto alle proprie esigenze e tenerlo aggiornato regolarmente, così come le applicazioni installate. È anche essenziale utilizzare un antivirus efficace e piacevole da utilizzare e adottare buone pratiche per la sicurezza del tuo computer e dei tuoi dati.
 
-![gestione della casella di posta](https://youtu.be/WjqH882f4cY)
+### Tutorial: Ubuntu
 
-In questa sezione, affronteremo tre argomenti essenziali per garantire la sicurezza degli accessi online: la gestione delle email, l'uso di un gestore di password e l'autenticazione a due fattori (2FA).
+**_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
+
+## Hack & gestione del backup: proteggere i propri dati
+
+### Come attaccano gli hacker?
+
+Per proteggersi adeguatamente, è fondamentale capire come i pirati informatici cercano di infiltrarsi nel tuo computer. Infatti, i virus non arrivano spesso per magia, ma sono piuttosto il risultato delle nostre azioni, anche involontarie!
+
+In generale, i virus arrivano perché hai autorizzato il tuo computer a invitarli a casa tua. Questo può accadere scaricando un software sospetto, un file torrent compromesso o semplicemente cliccando sul link di una e-mail fraudolenta!
+
+### Phishing, attenzione alle e-mail fraudolente:
+
+Attenzione! Le e-mail sono il primo vettore di attacco, ecco alcuni consigli:
+
+- Stai attento ai tentativi di phishing che cercano di ottenere informazioni sensibili come le tue credenziali e password. Evita di cliccare su link sospetti e di condividere le tue informazioni personali senza verificare la legittimità del mittente.
+- Fai attenzione agli allegati e alle immagini nelle email:
+  Gli allegati e le immagini nelle email possono contenere software dannosi. Non scaricare e non aprire gli allegati provenienti da mittenti sconosciuti o sospetti e assicurati che il tuo antivirus sia aggiornato.
+
+La regola d'oro qui è verificare attentamente il nome completo del mittente e l'origine dell'email. In caso di dubbio, cancella!
+
+### Ransomware e tipi di attacchi informatici:
+
+Il ransomware è un tipo di software dannoso che crittografa i dati dell'utente e richiede un riscatto per decifrarli. Questo tipo di attacco è sempre più comune e può diventare molto fastidioso per un'azienda o un individuo. Per proteggersi, è essenziale creare backup dei file più sensibili! Questo non fermerà il ransomware, ma ti permetterà semplicemente di ignorarlo.
+
+Effettua regolarmente il backup dei tuoi dati importanti su un supporto esterno o un servizio di archiviazione online sicuro. In questo modo, in caso di attacco informatico o guasto hardware, potrai recuperare i tuoi dati senza perdere informazioni cruciali.
+
+Soluzione semplice:
+
+- Acquista un disco rigido esterno e copia i tuoi dati su di esso. Scollegalo e riponilo in un luogo sicuro in casa. (Fai questo due volte e conserva uno dei due dischi in un altro luogo per proteggerti da un potenziale incendio.)
+
+- Crea un backup "cloud" tramite ProtonMail Drive, Sync o anche Google Drive. Devi solo caricare i tuoi dati sensibili su questo servizio di archiviazione online. Tuttavia, fai attenzione; i tuoi dati saranno potenzialmente su Internet e saranno detenuti da un terzo di fiducia.
+
+### Dovresti pagare gli hacker?
+
+NO, di solito è sconsigliato pagare gli hacker in caso di ransomware o altri tipi di attacchi. Pagare il riscatto non garantisce il recupero dei tuoi dati e può incoraggiare i criminali informatici a continuare le loro attività dannose. È meglio privilegiare la prevenzione e il regolare backup dei tuoi dati per proteggerti.
+
+Se rilevi un virus sul tuo computer, disconnettilo da Internet, effettua una scansione antivirus completa ed elimina i file infetti. Successivamente, aggiorna i tuoi software e il sistema operativo e cambia le tue password per evitare ulteriori intrusioni.
+
+# Implementazione delle soluzioni.
+
+## Gestione delle caselle di posta
+
+### Inizio della sezione 2 del corso!
+
+Ora iniziamo la sezione 2 del corso. In questa sezione affronteremo tre argomenti essenziali per garantire la sicurezza degli accessi online: la gestione delle email, l'uso di un gestore di password e l'autenticazione a due fattori (2FA).
+
+### Creazione di una nuova casella di posta!
+
+La casella di posta è il punto centrale della tua attività online: se viene compromessa, un hacker può utilizzarla per ricreare tutte le tue password tramite la funzione "password dimenticata" e quindi accedere a molti altri siti. Ecco perché è importante proteggerla adeguatamente.
+
+Una casella di posta deve quindi essere creata con una password unica e robusta (dettagli nel capitolo 7) e idealmente con un sistema di autenticazione a due fattori (dettagli nel capitolo 8).
+
+Nonostante tutti abbiamo già una casella di posta, è importante considerare la creazione di una nuova, più moderna, per partire su basi solide.
 
 ### Scelta del provider di posta e gestione degli indirizzi email
 
 La corretta gestione dei nostri indirizzi email è cruciale per garantire la sicurezza dei nostri accessi online. È importante scegliere un provider di posta sicuro e rispettoso della privacy. Ad esempio, ProtonMail è un servizio di posta sicuro e rispettoso della privacy.
 
-Nel momento della scelta di un provider di posta e della creazione di una password, è essenziale non riutilizzare mai la stessa password per diversi servizi online. Si consiglia di creare nuovi indirizzi email regolarmente e di separare gli utilizzi utilizzando diversi indirizzi email. È preferibile optare per un servizio di posta sicuro per gli account critici. È importante anche notare che alcuni servizi limitano la lunghezza delle password, quindi è importante fare attenzione a questa limitazione. Sono disponibili anche servizi per la creazione di indirizzi email temporanei, che possono essere utilizzati per account a durata limitata.
+Nella scelta di un provider di posta e nella creazione di una password, è essenziale non riutilizzare mai la stessa password per diversi servizi online. È consigliabile creare nuovi indirizzi email regolarmente e separare gli utilizzi utilizzando indirizzi email diversi. È meglio optare per un servizio di posta sicuro per gli account critici. È importante anche notare che alcuni servizi limitano la lunghezza delle password, quindi è importante fare attenzione a questa limitazione. Sono disponibili anche servizi per la creazione di indirizzi email temporanei, che possono essere utilizzati per account a durata limitata.
 
-È importante prendere in considerazione che vecchi provider di posta come La Poste, Arobase, Wig, Hotmail, sono ancora utilizzati, ma le loro pratiche di sicurezza possono essere meno buone rispetto a quelle di Gmail. Pertanto, si consiglia di avere due indirizzi email separati, uno per le comunicazioni generali e l'altro per il recupero dell'account, quest'ultimo dovrebbe essere più sicuro. È meglio evitare di mescolare l'indirizzo email con il proprio operatore telefonico o provider di accesso a internet, poiché potrebbe costituire un vettore di attacco.
-Sicurezza degli indirizzi email e utilizzo di Have I Been Pwned per verificare le violazioni dei dati
+È importante considerare che vecchi provider di posta come La Poste, Arobase, Wig, Hotmail, sono ancora utilizzati, ma le loro pratiche di sicurezza potrebbero essere meno buone rispetto a quelle di Gmail. Pertanto, è consigliabile avere due indirizzi email separati, uno per le comunicazioni generali e l'altro per il recupero dell'account, quest'ultimo deve essere meglio protetto. È meglio evitare di mescolare l'indirizzo email con il proprio operatore telefonico o provider di accesso a Internet, poiché potrebbe costituire un vettore di attacco.
 
-Si consiglia di utilizzare il sito Have I Been Pwned (Sei stato violato) per verificare se il nostro indirizzo email è stato compromesso e per essere avvisati delle future violazioni dei dati. Un database violato potrebbe essere sfruttato dai pirati informatici per inviare email di phishing o riutilizzare password compromesse.
-Il sito Have I Been Pwned consente di verificare se il nostro indirizzo email è stato compromesso senza comunicare direttamente tale indirizzo. È quindi consigliabile creare un secondo indirizzo email per scopi di sicurezza aggiuntiva. Le email sono un mezzo di comunicazione che dovrebbe continuare ad essere utilizzato per molto tempo. Tuttavia, è fondamentale proteggere le nostre password e implementare un' autenticazione a due fattori per rafforzare la sicurezza dei nostri account email.
+### Dovrei cambiare casella di posta?
 
-## Tutorial: creazione di un account ProtonMail
+Si consiglia di utilizzare il sito Have I Been Pwned (Sei stato violato) - https://haveibeenpwned.com/ - per verificare se il nostro indirizzo email è stato compromesso e per essere avvisati di future violazioni dei dati. Un database violato potrebbe essere sfruttato da hacker per inviare email di phishing o riutilizzare password compromesse.
+In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro non è una pratica sbagliata e addirittura necessaria se si desidera ripartire da basi sane.
+Bonus Bitcoin: Può essere consigliabile creare un indirizzo email appositamente per le nostre attività Bitcoin (creazione di account di scambio) al fine di separare realmente i centri di attività nelle nostre vite.
+
+### Tutorial: creazione di un account ProtonMail
 
 **_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
 
-# Gestore di password
+## Gestore di password
 
-![gestore di password](https://youtu.be/HzLuZ6noePY)
+### Cosa è un gestore di password?
 
-Per garantire la sicurezza del tuo account, è fondamentale creare password forti e sicure. La lunghezza della password non è sufficiente per garantirne la sicurezza. I caratteri devono essere completamente casuali per resistere agli attacchi di forza bruta. L'indipendenza degli eventi è anche importante per evitare le combinazioni più probabili. Le password comuni come "password" sono facilmente compromesse.
+Un gestore di password è uno strumento che consente di memorizzare, generare e gestire le password per diversi account online. Invece di dover ricordare molteplici password, è sufficiente ricordare una sola password principale per accedere a tutte le altre.
 
-Per creare una password forte, si consiglia di utilizzare un gran numero di caratteri casuali, evitando l'uso di parole o schemi prevedibili. È anche essenziale includere numeri e caratteri speciali. Tuttavia, è importante notare che alcuni siti possono limitare l'uso di determinati caratteri speciali. Le password che non sono generate casualmente sono facili da indovinare. Le varianti o gli aggiunti alle password non sono sicuri. I siti web non possono garantire la sicurezza delle password scelte dagli utenti.
+Con un gestore di password, non è più necessario preoccuparsi di dimenticare le password o di annotarle da qualche parte. È sufficiente ricordare una sola password principale. Inoltre, la maggior parte di questi strumenti genera password robuste per voi, aumentando la sicurezza dei vostri account.
+
+### Differenze tra alcuni gestori popolari:
+
+- LastPass: Uno dei gestori più popolari. È un servizio di terze parti, il che significa che le vostre password sono memorizzate sui loro server. Offre una versione gratuita e una versione a pagamento, con un'interfaccia user-friendly.
+
+- Dashlane: È anche un servizio di terze parti, con un'interfaccia intuitiva e funzionalità aggiuntive come il monitoraggio delle informazioni delle carte di credito e note sicure.
+
+### Auto-hosting per un maggiore controllo:
+
+- Bitwarden: È uno strumento open source, il che significa che è possibile esaminare il suo codice per verificare la sua sicurezza. Sebbene Bitwarden offra un servizio di hosting, consente anche agli utenti di auto-hosting, il che significa che è possibile controllare dove vengono memorizzate le vostre password, offrendo potenzialmente maggiore sicurezza e controllo.
+
+- KeePass: È una soluzione open source che è principalmente destinata all'auto-hosting. I vostri dati sono memorizzati localmente per impostazione predefinita, ma è possibile sincronizzare il database delle password utilizzando diversi metodi se lo si desidera. KeePass è ampiamente riconosciuto per la sua sicurezza e flessibilità, anche se potrebbe essere un po' meno user-friendly per i principianti.
+
+(Nota: La scelta tra un servizio di terze parti o un servizio di auto-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre l'auto-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
+
+### Cosa è una buona password:
+
+Un buon password è generalmente:
+
+- Lungo: almeno 12 caratteri.
+- Complesso: una combinazione di lettere maiuscole e minuscole, numeri e simboli.
+- Unico: non riutilizzare lo stesso password per diversi account.
+- Non basato su informazioni personali: evitare date di nascita, nomi, ecc.
+
+Per garantire la sicurezza del tuo account, è fondamentale creare password forti e sicure. La lunghezza della password non è sufficiente per garantirne la sicurezza. I caratteri devono essere completamente casuali per resistere agli attacchi di forza bruta. L'indipendenza degli eventi è anche importante per evitare le combinazioni più probabili. Password comuni come "password" sono facilmente compromesse.
+
+Per creare una password forte, si consiglia di utilizzare un gran numero di caratteri casuali, evitando parole o schemi prevedibili. È anche essenziale includere numeri e caratteri speciali. Tuttavia, è importante notare che alcuni siti possono limitare l'uso di determinati caratteri speciali. Le password non generate casualmente sono facili da indovinare. Varianti o aggiunte alle password non sono sicure. I siti web non possono garantire la sicurezza delle password scelte dagli utenti.
 
 Le password generate casualmente offrono un livello di sicurezza superiore, anche se possono essere più difficili da ricordare. I gestori di password possono generare password casuali più sicure. Utilizzando un gestore di password, non è necessario memorizzare tutte le password. È importante sostituire gradualmente le vecchie password con quelle generate dal gestore, poiché sono più forti e più lunghe. Assicurarsi che la password principale del gestore di password sia anche forte e sicura.
 
-## Tutorial: creazione di una password principale
+### Tutorial: creazione di una password principale
 
 **_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
 
-## Tutorial: BitWarden
+### Tutorial: BitWarden
 
 **_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
 
-## Tutorial: KeePass
+### Tutorial: KeePass
 
 **_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
 
-# I 2 fattori di autenticazione
+## I 2 fattori di autenticazione
 
-![i 2FA](https://youtu.be/863n4N1XNjk)
-Le diverse opzioni per l'autenticazione forte offrono livelli di sicurezza variabili. Gli SMS non sono considerati la migliore opzione in quanto forniscono solo una prova di possesso di un numero di telefono. Il 2FA (autenticazione a due fattori) è più sicuro in quanto utilizza diversi tipi di prove, come la conoscenza, il possesso e l'identificazione. I codici one-time password (HOTP e TOTP) sono più sicuri degli SMS in quanto richiedono un calcolo crittografico e vengono memorizzati localmente anziché nella memoria. I token hardware, come le chiavi USB o le smart card, offrono la massima sicurezza generando una chiave privata unica per ogni sito e verificando l'URL prima di autorizzare la connessione.
+### Perché implementare il 2FA
 
-Per una sicurezza ottimale con l'autenticazione forte, si consiglia di utilizzare un indirizzo email sicuro, un gestore di password sicuro e di adottare il 2FA utilizzando UBKey. Si consiglia inoltre di acquistare due UBKey per prevenire la perdita o il furto. La biometria può essere utilizzata come sostituto, ma è meno sicura della combinazione di conoscenza e possesso. I dati biometrici devono rimanere sull'apparecchio di autenticazione e non devono essere divulgati online. È importante considerare il modello di minaccia associato ai diversi metodi di autenticazione e adattare la propria pratica di conseguenza.
+L'autenticazione a due fattori (2FA) è uno strato di sicurezza aggiuntivo utilizzato per garantire che le persone che cercano di accedere a un account online siano effettivamente chi dicono di essere. Invece di limitarsi a inserire un nome utente e una password, il 2FA richiede una seconda forma di verifica.
 
-I token di autenticazione forte, come FIDO, 2F e WebAuthn, associati a una password, offrono un alto livello di sicurezza. Si consiglia di avere due token e conservare una copia di backup sia a casa che con sé. La crittografia e l'autenticazione sono concetti diversi in crittografia. Per proteggere i dati, è essenziale implementare il 2FA e utilizzare soluzioni come OTI, Google Authenticator e YubiKey.
+Questo secondo passaggio può essere:
 
-In conclusione, comprendere le diverse opzioni di autenticazione forte e scegliere il metodo più adatto sono essenziali per proteggere i nostri dati. Grazie per aver partecipato a questa presentazione e ricordate di consultare le risorse disponibili per ulteriori informazioni e formazione sull'argomento.
+- Un codice temporaneo inviato tramite SMS.
+- Un codice generato da un'applicazione come Google Authenticator o Authy.
+- Una chiave di sicurezza fisica che inserisci nel tuo computer.
 
-## Tutorial: soluzioni 2FA e YubiKey
+Con il 2FA, anche se un hacker ottiene la tua password, non potrà accedere al tuo account senza questo secondo fattore di verifica. Questo rende il 2FA essenziale per proteggere i tuoi account online da accessi non autorizzati.
+
+### Quale opzione scegliere?
+
+Le diverse opzioni per l'autenticazione forte offrono livelli di sicurezza variabili.
+
+- Gli SMS non sono considerati la migliore opzione perché forniscono solo una prova di possesso di un numero di telefono.
+- Il 2FA (autenticazione a due fattori) è più sicuro perché utilizza diversi tipi di prove, come la conoscenza, il possesso e l'identificazione. I codici one-time password (HOTP e TOTP) sono più sicuri degli SMS perché richiedono un calcolo crittografico e vengono memorizzati localmente anziché nella memoria.
+- I token hardware, come le chiavi USB o le smart card, offrono la massima sicurezza generando una chiave privata unica per ogni sito e verificando l'URL prima di autorizzare la connessione.
+
+Per una sicurezza ottimale con l'autenticazione forte, si consiglia di utilizzare un indirizzo email sicuro, un gestore di password sicuro e di adottare il 2FA utilizzando YubiKey. È anche consigliabile acquistare due YubiKey per prevenire la perdita o il furto, ad esempio conservando una copia di backup sia a casa che con sé.
+
+La biometria può essere utilizzata come sostituto, ma è meno sicura della combinazione di conoscenza e possesso. I dati biometrici devono rimanere sull'apparecchio di autenticazione e non devono essere divulgati online. È importante considerare il modello di minaccia associato ai diversi metodi di autenticazione e adattare la propria pratica di conseguenza.
+
+### Conclusioni della formazione:
+
+Come avete capito, l'implementazione di una buona igiene digitale non è necessariamente semplice, ma rimane accessibile!
+
+- Creazione di un nuovo indirizzo email sicuro.
+- Implementazione di un gestore di password.
+- Attivazione del 2FA.
+- Sostituzione progressiva delle nostre vecchie password con password forti con 2FA.
+
+Continuate ad imparare e ad implementare gradualmente le buone pratiche!
+
+Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatta al vostro percorso di apprendimento!
+
+### Tutorial: soluzioni 2FA e YubiKey
 
 **_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
 
-# Approfondisci
+# Andare oltre
 
-## come lavorare in questa industria
+## Come lavorare in questa industria della sicurezza informatica
 
-![conclusione e lavorare nell'industria](https://youtu.be/YZ2EKaPvoZU)
+La cybersecurity, un settore in forte crescita, offre molte opportunità per coloro che sono appassionati della protezione dei sistemi e dei dati. Se questo settore ti intriga, ecco alcuni passaggi chiave per orientarti.
+
+### Fondamenta accademiche e certificazioni:
+
+Una solida formazione in informatica, sistemi informativi o in un campo correlato è spesso il trampolino di lancio ideale per iniziare. Questi studi forniscono le basi necessarie per comprendere le sfide tecniche della cybersecurity. Per completare questa formazione, è opportuno ottenere certificazioni riconosciute nel settore. Sebbene queste certificazioni possano variare a seconda delle regioni, alcune come CISSP o CEH godono di un riconoscimento globale.
+
+La cybersecurity è un campo vasto e in continua evoluzione. Familiarizzare con gli strumenti essenziali e i diversi sistemi è cruciale. Inoltre, con così tanti sottodomini, dalla risposta agli incidenti all'hacking etico, è vantaggioso trovare la propria nicchia e specializzarsi in essa.
+
+### Acquisire esperienza pratica:
+
+L'importanza dell'esperienza pratica non può essere sottovalutata. Cercare stage o posizioni junior in aziende con team di sicurezza informatica è un ottimo modo per mettere in pratica le proprie conoscenze teoriche. Inoltre, partecipare a competizioni di hacking etico o simulazioni di cybersecurity può affinare le tue competenze in situazioni reali.
+
+La forza di una rete professionale è inestimabile. Unirsi ad associazioni professionali, hackerspace o forum online offre una piattaforma per scambiare idee con altri esperti. Allo stesso modo, partecipare a conferenze e workshop dedicati alla cybersecurity non solo permette di imparare, ma anche di creare legami con professionisti del settore.
+
+L'evoluzione costante delle minacce richiede un costante monitoraggio delle notizie e dei forum specializzati. In un settore in cui la fiducia è fondamentale, agire con etica e integrità è essenziale in ogni fase della tua carriera.
+
+### Competenze e strumenti da approfondire:
+
+- Strumenti di cybersecurity: Wireshark, Metasploit, Nmap.
+- Sistemi operativi: Linux, Windows, MacOS.
+- Linguaggi di programmazione: Python, C, Java.
+- Reti: TCP/IP, VPN, firewall.
+- Basi di dati: SQL, NoSQL.
+- Crittografia: SSL/TLS, crittografia simmetrica/asimmetrica.
+- Gestione degli incidenti: Analisi dei log, risposta agli incidenti.
+- Hacking etico: Tecniche di penetrazione, test di intrusioni.
+- Governance: Standard ISO, regolamenti GDPR/CCPA.
+
+Padroneggiando queste competenze e strumenti, sarai ben attrezzato per navigare con successo nel mondo della cybersecurity.
 
 ## Intervista a Renaud
 
-![Intervista](https://youtu.be/RVjE-KOSKDs)
-
 ### Gestione efficace delle password e rafforzamento dell'autenticazione: un approccio accademico
 
-Dans il modulo di formazione "Sicurezza 101" proposto da Découvre Bitcoin all'interno dell'Accademia, abbiamo affrontato l'importanza dei gestori di password. Tre dimensioni sono essenziali da considerare: la creazione, l'aggiornamento e l'implementazione delle password sui siti web.
-In generale, è sconsigliato utilizzare estensioni del browser per il riempimento automatico delle password. Questi strumenti possono rendere l'utente più vulnerabile agli attacchi di phishing. Renaud, un esperto riconosciuto in materia di sicurezza informatica, preferisce una gestione manuale tramite KeePass, che implica una copia-incolla manuale della password. Le estensioni tendono ad aumentare la superficie di attacco, possono rallentare le prestazioni del browser e quindi presentano un rischio non trascurabile. Pertanto, l'uso minimo di estensioni sul browser è una pratica consigliata.
+Nel modulo di formazione "Sicurezza 101" offerto da Découvre Bitcoin all'interno dell'Accademia, abbiamo affrontato l'importanza dei gestori di password. Tre dimensioni sono fondamentali da considerare: la creazione, l'aggiornamento e l'implementazione delle password sui siti web.
 
-I gestori di password generalmente incoraggiano l'uso di fattori di autenticazione aggiuntivi, come l'autenticazione a due fattori. Per una sicurezza ottimale, è consigliabile conservare gli OTP (One-Time Passwords) sul proprio dispositivo mobile. AndoTP offre una soluzione open source per generare e memorizzare i codici OTP sul telefono. Se Google Authenticator consente l'esportazione dei seed dei codici di autenticazione, la fiducia nella loro conservazione su un account Google è limitata. Le applicazioni OTI e AndoTP sono quindi consigliate per una gestione autonoma degli OTP.
+In generale, è sconsigliato utilizzare estensioni del browser per il riempimento automatico delle password. Questi strumenti possono rendere l'utente più vulnerabile agli attacchi di phishing. Renaud, un esperto riconosciuto in materia di sicurezza informatica, preferisce una gestione manuale tramite KeePass, che implica una copia e incolla manuale della password. Le estensioni tendono ad aumentare la superficie di attacco, possono rallentare le prestazioni del browser e quindi presentano un rischio non trascurabile. Pertanto, l'uso minimo di estensioni sul browser è una pratica consigliata.
 
-La questione dell'eredità digitale e del lutto digitale solleva l'importanza di avere una procedura per trasmettere le password dopo la morte di una persona. Un gestore di password facilita questa transizione memorizzando in modo sicuro tutti i segreti digitali in un unico luogo. Il gestore di password consente anche di identificare tutti gli account aperti e gestirne la chiusura o il trasferimento. È consigliabile annotare la password principale su carta, ma è opportuno conservarla in un luogo nascosto e sicuro. Se il disco rigido è crittografato e il computer è bloccato, la password non sarà accessibile, nemmeno in caso di furto.
+I gestori di password solitamente incoraggiano l'uso di fattori di autenticazione aggiuntivi, come l'autenticazione a due fattori. Per una sicurezza ottimale, è consigliabile conservare gli OTP (One-Time Password) sul proprio dispositivo mobile. AndoTP offre una soluzione open source per generare e memorizzare i codici OTP sul telefono. Se Google Authenticator consente l'esportazione dei seed dei codici di autenticazione, la fiducia nella loro conservazione su un account Google è limitata. Pertanto, le applicazioni OTI e AndoTP sono consigliate per una gestione autonoma degli OTP.
+
+La questione dell'eredità digitale e del lutto digitale solleva l'importanza di avere una procedura per trasmettere le password dopo la morte di una persona. Un gestore di password facilita questa transizione memorizzando in modo sicuro tutti i segreti digitali in un unico luogo. Il gestore di password consente anche di identificare tutti gli account aperti e gestirne la chiusura o il trasferimento. È consigliabile annotare la password principale su carta, ma è necessario conservarla in un luogo nascosto e sicuro. Se il disco rigido è crittografato e il computer è bloccato, la password non sarà accessibile, nemmeno in caso di furto.
 
 ### Verso un'era post-password: esplorazione di alternative credibili
 
 Le password, sebbene onnipresenti, presentano numerosi svantaggi, tra cui la possibilità di una trasmissione rischiosa durante il processo di autenticazione. Aziende leader come Microsoft e Apple propongono alternative innovative come la biometria e i token hardware, indicando una tendenza progressiva verso l'abbandono delle password.
-Passkeys, ad esempio, offre chiavi casuali crittografate, combinate con un fattore locale (biometria o PIN), che sono ospitate da un fornitore ma rimangono al di fuori della sua portata. Sebbene ciò richieda un aggiornamento dei siti web, l'approccio elimina la necessità di password, offrendo così un alto livello di sicurezza senza i vincoli associati alle password tradizionali o alla gestione di un deposito digitale sicuro.
+Passkeys, per esempio, offre chiavi casuali crittografate, combinate con un fattore locale (biometria o PIN), che sono ospitate da un fornitore ma rimangono al di fuori della sua portata. Sebbene ciò richieda un aggiornamento dei siti web, l'approccio elimina la necessità di password, offrendo così un livello di sicurezza elevato senza i vincoli associati alle password tradizionali o alla gestione di un deposito digitale sicuro.
 Passkiz è un'altra alternativa valida e sicura per la gestione delle password. Tuttavia, rimane una domanda importante: quella della disponibilità in caso di guasto del fornitore. Sarebbe quindi auspicabile che i giganti di Internet propongano sistemi per garantire questa disponibilità.
 
-L'autenticazione diretta sul servizio in questione rappresenta un'opzione interessante per non dipendere da terze parti. Tuttavia, il SSO (Single Sign-On) proposto dai giganti di Internet presenta anche problemi in termini di disponibilità e rischi di censura. Al fine di evitare perdite di dati, è cruciale ridurre al minimo la quantità di informazioni raccolte durante il processo di autenticazione.
+L'autenticazione diretta sul servizio in questione rappresenta un'opzione interessante per non dipendere da terze parti. Tuttavia, il SSO (Single Sign-On) proposto dai giganti di Internet pone anche problemi in termini di disponibilità e rischi di censura. Al fine di evitare perdite di dati, è fondamentale ridurre al minimo la quantità di informazioni raccolte durante il processo di autenticazione.
 
-### Sicurezza informatica: imperativi di pratiche sicure e rischi legati alla negligenza umana
+### La sicurezza informatica: l'imperativo di pratiche sicure e i rischi legati alla negligenza umana
 
 La sicurezza informatica può essere compromessa da pratiche semplici e dall'uso di password predefinite, come "admin". Non sempre sono necessari attacchi sofisticati per mettere a rischio la sicurezza informatica. Ad esempio, le password degli amministratori di un canale YouTube erano scritte nel codice sorgente privato di un'azienda. Le vulnerabilità di sicurezza sono spesso il risultato della negligenza umana.
 
-È anche importante notare che Internet è molto centralizzato e ampiamente controllato dagli Stati Uniti. Il server DNS può essere soggetto a censura e spesso utilizza DNS falsi per bloccare l'accesso a determinati siti. Il DNS è un protocollo vecchio e insufficientemente sicuro, il che può causare problemi di sicurezza. Nuovi protocolli, come DNSsec, sono emersi ma sono ancora poco utilizzati. Per aggirare la censura e il blocco degli annunci, è possibile scegliere fornitori DNS alternativi.
-Des alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la loro sicurezza migliorata e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I fornitori gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle". Altre considerazioni chiave
+È importante notare anche che Internet è molto centralizzato e ampiamente controllato dagli Stati Uniti. Il server DNS può essere soggetto a censura e spesso utilizza DNS falsi per bloccare l'accesso a determinati siti. Il DNS è un protocollo vecchio e insufficientemente sicuro, il che può causare problemi di sicurezza. Nuovi protocolli, come DNSsec, sono emersi ma sono ancora poco utilizzati. Per aggirare la censura e il blocco degli annunci, è possibile scegliere fornitori DNS alternativi.
+Des alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la loro sicurezza migliorata e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle". Altre considerazioni chiave
 
-Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'Académie, abbiamo anche discusso dell'autenticazione Lightning. Questo sistema genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte ai potenziali attacchi ai server DNS.
+Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'Accademia, abbiamo anche discusso dell'autenticazione Lightning. Questo sistema genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.
 
-# Ringraziamenti e continua a scavare la tana del coniglio
+## Ringraziamenti e continua a scavare la tana del coniglio
 
-## Valuta il corso e sostienici
+### Valuta il corso e sostienici
 
 Questo corso, insieme a tutto il contenuto presente su questa università, ti è stato offerto gratuitamente dalla nostra comunità. Per sostenerci, puoi condividerlo con gli altri, diventare membro dell'università e persino contribuire al suo sviluppo tramite GitHub. A nome di tutto il team, grazie!
 
-A breve verrà integrato un sistema di valutazione per il corso su questa nuova piattaforma di E-learning! Nel frattempo, grazie mille per aver seguito il corso e se ti è piaciuto, pensa di condividerlo con gli altri.
+Un sistema di valutazione per il corso sarà presto integrato in questa nuova piattaforma di e-learning! Nel frattempo, grazie mille per aver seguito il corso e se ti è piaciuto, pensa di condividerlo con gli altri.
 
-## Vai oltre
+### Vai oltre
 
-Congratulazioni per aver completato questo corso SECU 101! Spero sinceramente che ti sia piaciuto e che ti abbia aperto nuove opportunità. Ora sei pronto per ottenere i tuoi primi bitcoin o semplicemente continuare l'avventura con i corsi di livello 2!
+Congratulazioni per aver completato questa formazione SECU 101! Spero sinceramente che ti sia piaciuta e ti abbia aperto nuove porte. Ora sei pronto per ottenere i tuoi primi bitcoin o semplicemente continuare l'avventura con i corsi di livello 2!
 
 - BTC 101 ti fornirà le basi teoriche su Bitcoin
 - BTC 102 ti aiuterà a pianificare il tuo piano bitcoin
@@ -274,5 +429,5 @@ Congratulazioni per aver completato questo corso SECU 101! Spero sinceramente ch
 - ECON 201 affronterà l'economia austriaca
 - MINAGE 201 per saperne di più sul mining
 - (e molti altri)
-  Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & toute l'équipe
-  À bientôt!
+
+Un immenso grazie ai nostri Patreon, membri e donatori per il loro sostegno finanziario, grazie a coloro che condividono e grazie a coloro che hanno reso possibile questa formazione: Théo Pantamis, Renaud, Théo, Fabien, Noury, Muriel & tutto il team. A presto!

@@ -1,0 +1,9 @@
+question: Was ist der Cantillon-Effekt?
+answer: Der Cantillon-Effekt bezieht sich auf das ökonomische Prinzip, dass bei der Schaffung von neuem Geld zunächst diejenigen profitieren, die dem Geld am nächsten stehen, auf Kosten derjenigen, die weiter entfernt sind.
+wrong_answers:
+  - Der Cantillon-Effekt bezieht sich auf das ökonomische Prinzip, dass bei der Schaffung von neuem Geld alle in der Wirtschaft gleichermaßen profitieren.
+  - Der Cantillon-Effekt bezieht sich auf das ökonomische Prinzip, dass bei der Schaffung von neuem Geld zunächst diejenigen profitieren, die am weitesten von der Geldquelle entfernt sind, auf Kosten derjenigen, die näher dran sind.
+  - Der Cantillon-Effekt bezieht sich auf das ökonomische Prinzip, dass bei der Schaffung von neuem Geld keine Auswirkungen auf die Verteilung des Reichtums in der Wirtschaft hat.
+explanation: |
+  Der Cantillon-Effekt, benannt nach dem Wirtschaftswissenschaftler Richard Cantillon aus dem 18. Jahrhundert, beschreibt, wie die Verteilung von neuem Geld in einer Wirtschaft zu Ungleichheiten im Reichtum führen kann. Diejenigen, die dem neuen Geld am nächsten stehen (wie Banker und Vermögensbesitzer), profitieren zuerst und am stärksten, während diejenigen, die weiter entfernt sind (wie Durchschnittsarbeiter und Sparer), weniger oder sogar negative Auswirkungen aufgrund von Inflation sehen.
+reviewed: false

@@ -6,8 +6,6 @@ description: Comment configurer votre appareil Ledger Nano S
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Portefeuille physique à froid - 60 € - Débutant - Pour sécuriser de 2 000 € à 50 000 €
 
 Ledger est la solution française pour sécuriser les bitcoins de manière simple.
@@ -17,8 +15,6 @@ Dans ce tutoriel, nous aborderons également la section des phrases de passe, un
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Connecter Ledger à Sparrow Bitcoin Wallet (guide d'écriture)
-
-> https://armantheparman.com/ledgersparrow/
 
 Assurez-vous de consulter d'abord l'autre partie "Utilisation des portefeuilles matériels Bitcoin". Je survolerai certaines étapes et me concentrerai principalement sur ce qui est spécifique à Ledger ici.
 

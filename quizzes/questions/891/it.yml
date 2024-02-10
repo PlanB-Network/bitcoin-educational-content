@@ -1,0 +1,9 @@
+question: Qual è il ruolo dei beni di capitale nell'economia?
+answer: I beni di capitale vengono utilizzati nella produzione di altri beni. Consentono alle persone di ottenere beni di consumo.
+wrong_answers:
+  - I beni di capitale vengono utilizzati per il consumo.
+  - I beni di capitale non hanno alcun ruolo nell'economia.
+  - I beni di capitale vengono utilizzati per produrre altri beni di capitale.
+explanation: |
+  Per produrre beni di consumo, gli imprenditori combinano vari beni intermedi con i fattori originali di produzione (lavoro, terra e capitale) secondo uno schema che massimizza la produzione risultante. Tutti gli altri beni nell'economia, che possiamo chiamare "beni intermedi", hanno valore solo perché consentono alle persone di ottenere questi beni di consumo; sono beni utilizzati nella produzione di altri beni.
+reviewed: false

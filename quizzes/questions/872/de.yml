@@ -1,0 +1,9 @@
+question: "Was ist der grundlegende Unterschied zwischen Carl Mengers Grenznutzentheorie und der von Léon Walras und William Stanley Jevons?"
+answer: Mengers Theorie ist hauptsächlich subjektiv, während Walras und Jevons den Wert als objektives und messbares Phänomen betrachten.
+wrong_answers:
+  - Mengers Theorie ist hauptsächlich objektiv, während Walras und Jevons den Wert als subjektives und nicht messbares Phänomen betrachten.
+  - Mengers Theorie basiert auf der Arbeitswerttheorie, während Walras und Jevons den Wert basierend auf der Menge an genutztem Land in der Produktion betrachten.
+  - Mengers Theorie basiert auf der Theorie des Landwerts der Physiokraten, während Walras und Jevons den Wert basierend auf der in der Produktion verwendeten Arbeit betrachten.
+explanation: |
+  Laut dem Kapitel ist Mengers Grenznutzentheorie subjektiv, was bedeutet, dass sie auf der individuellen Wahrnehmung des Nutzens basiert, den eine Person aus einem Gut oder einer Dienstleistung ziehen kann. Andererseits betrachten Walras und Jevons den Wert als ein objektives und messbares Phänomen.
+reviewed: false

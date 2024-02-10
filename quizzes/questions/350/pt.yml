@@ -1,0 +1,11 @@
+question: Para que serve uma carteira quente no contexto do Bitcoin?
+answer: Para enviar e receber bitcoins regularmente para uso diário.
+wrong_answers:
+  - Para armazenar bitcoins com segurança a longo prazo.
+  - Para minerar novos bitcoins.
+  - Para negociar bitcoins em uma plataforma de câmbio.
+explanation: |
+  Uma carteira quente é um tipo de carteira de Bitcoin que está conectada à internet,
+  tornando-a adequada para transações diárias. No entanto, ela é mais vulnerável a hacking
+  e roubo do que uma carteira fria.
+reviewed: false

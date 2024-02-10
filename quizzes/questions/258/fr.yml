@@ -1,0 +1,9 @@
+question: Quelle est une caractéristique commune des schémas de Ponzi dans le domaine des cryptomonnaies ?
+answer: Ils utilisent l'argent des nouveaux investisseurs pour payer les participants plus anciens.
+wrong_answers:
+  - Ils impliquent toujours Bitcoin.
+  - Ils sont toujours légaux et réglementés.
+  - Ils impliquent toujours des actifs physiques.
+explanation: |
+  Les schémas de Ponzi dans le domaine des cryptomonnaies fonctionnent souvent en utilisant l'argent des nouveaux investisseurs pour payer les participants plus anciens. Cette nature insoutenable et cette dépendance aux nouveaux arrivants les rendent susceptibles de s'effondrer inévitablement.
+reviewed: false

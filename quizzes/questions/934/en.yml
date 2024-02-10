@@ -1,0 +1,11 @@
+question: What is the role of private keys in Bitcoin transactions? 
+answer: They are used to sign and authorise transactions. 
+wrong_answers:
+  - They are used to verify the authenticity of transactions.
+  - They are used to encrypt the transaction data.
+  - They are shared publicly for transparency.
+explanation: |
+  Private keys are an essential component of Bitcoin transactions.
+  They are used to sign and authorise transactions, providing proof 
+  of ownership and ensuring that only the owner can spend their bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo de uma atualização de software?
+answer: Corrigir bugs e melhorar a segurança do seu software.
+wrong_answers:
+  - Adicionar novos recursos
+  - Alterar a interface do software
+  - Aumentar o tamanho do software
+explanation: |
+  Embora as atualizações de software frequentemente tragam novos recursos, seu principal objetivo é corrigir bugs e melhorar a segurança do software. Isso é crucial para manter seu computador em condições de funcionamento ideais.
+reviewed: false

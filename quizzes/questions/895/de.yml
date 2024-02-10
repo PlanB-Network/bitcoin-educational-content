@@ -1,0 +1,9 @@
+question: Was ist die Beziehung zwischen Ersparnissen und Lebensstandard nach österreichischen Ökonomen?
+answer: Je mehr wir sparen, desto mehr Kapital können wir ansammeln, was wiederum zu Produktivitätssteigerungen führt und mehr Güter produziert. Dadurch wird ein höherer Lebensstandard erreicht.
+wrong_answers:
+  - Je mehr wir sparen, desto niedriger wird unser Lebensstandard.
+  - Es besteht keine Beziehung zwischen Ersparnissen und Lebensstandard.
+  - Je weniger wir sparen, desto höher wird unser Lebensstandard.
+explanation: |
+  "Österreichische Ökonomen betrachten die Senkung der Zeitpräferenzen als Ausgangspunkt für einen positiven Kreislauf der Ersparnisse -> mehr Kapitalgüter -> mehr Produktivität -> mehr Güter = höherer Lebensstandard -> niedrigere Zeitpräferenzen. Daher können wir durch Sparen mehr Kapital ansammeln, was wiederum zu Produktivitätssteigerungen führt und mehr Güter produziert. Dies führt zu einem höheren Lebensstandard."
+reviewed: false

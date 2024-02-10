@@ -1,0 +1,11 @@
+question: ¿Qué significa que un bien tenga una alta capacidad de venta?
+answer: Debe ser deseado por la mayor cantidad de personas posible, la mayor parte del tiempo.
+wrong_answers:
+  - Debe ser deseado por unas pocas personas, la mayor parte del tiempo.
+  - Debe ser deseado por la mayor cantidad de personas posible, algunas veces.
+  - Debe ser deseado por unas pocas personas, algunas veces.
+explanation: |
+  Un bien con alta capacidad de venta es aquel que es ampliamente deseado y puede ser
+  fácilmente intercambiado por otros bienes o servicios. Esto lo hace adecuado para su uso como
+  dinero.
+reviewed: false

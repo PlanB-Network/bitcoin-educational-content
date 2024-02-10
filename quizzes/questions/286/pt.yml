@@ -1,0 +1,9 @@
+question: Quais são as duas características que tornam o Bitcoin o que ele é hoje?
+answer: Seu código aberto e sua escassez
+wrong_answers:
+  - Sua anonimidade e sua descentralização
+  - Seu alto valor e sua volatilidade
+  - Sua facilidade de uso e sua aceitação global
+explanation: |
+  As duas principais características que definem o Bitcoin são seu código aberto, o que o torna transparente, auditável e utilizável por qualquer pessoa, e sua escassez, o que significa que só existirão 21 milhões de bitcoins no mundo.
+reviewed: false

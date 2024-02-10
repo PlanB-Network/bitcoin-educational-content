@@ -1,6 +1,9 @@
-level: expert
+level: advanced
 hours: 20
-teacher: Loïc Morel
+
+professors:
+  - pretty-private
+
 contributors:
   - rabbit-hole
   - another-satoshi

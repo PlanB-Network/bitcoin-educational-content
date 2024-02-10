@@ -1,0 +1,11 @@
+question: What does it mean to say that Bitcoin is like a black hole?
+answer: It will not disappear and will absorb everything in its path over time.
+wrong_answers:
+  - It will eventually collapse under its own weight.
+  - It is a threat to the global financial system.
+  - It is a mystery that scientists are still trying to understand.
+explanation: |
+  The statement that Bitcoin is like a black hole refers to its resilience
+  and its potential to become the dominant financial system, absorbing all other systems
+  in its path.
+reviewed: false

@@ -1,0 +1,10 @@
+question: ¿Qué es la Red Lightning?
+answer: Es la segunda capa de Bitcoin.
+wrong_answers:
+  - Es un intercambio de criptomonedas.
+  - Es un tipo de billetera de Bitcoin.
+  - Es un grupo de minería de Bitcoin.
+explanation: |
+  La Red Lightning es una tecnología de segunda capa aplicada a Bitcoin
+  que utiliza canales de micropagos para aumentar la capacidad de su cadena de bloques para realizar transacciones.
+reviewed: false

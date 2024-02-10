@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund, warum ein häufiger Bitcoin-Benutzer eine Wallet wählen würde, die auf dem Lightning Network für alltägliche Transaktionen basiert?
+answer: Es verbessert die Effizienz von Bitcoin-Transaktionen.
+wrong_answers:
+  - Es erhöht den Wert von Bitcoin.
+  - Es ermöglicht anonyme Transaktionen.
+  - Es bietet eine Plattform für den Handel mit Bitcoin.
+explanation: |
+  Das Lightning Network ist ein "Layer 2" Zahlungsprotokoll, das auf einer blockchain-basierten Kryptowährung wie Bitcoin arbeitet. Es ist darauf ausgelegt, schnelle und kostengünstige Transaktionen zu ermöglichen.
+reviewed: false

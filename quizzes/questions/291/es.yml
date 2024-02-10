@@ -1,0 +1,10 @@
+question: ¿Qué es la cadena de bloques de Bitcoin?
+answer: Una base de datos que registra todas las transacciones de Bitcoin.
+wrong_answers:
+  - Un tipo de moneda digital
+  - Una red de usuarios de Bitcoin
+  - Un método para minar bitcoins
+explanation: |
+  La cadena de bloques de Bitcoin es una base de datos que registra todas las transacciones de Bitcoin.
+  Es mantenida por mineros que añaden nuevas transacciones a la cadena de bloques.
+reviewed: false

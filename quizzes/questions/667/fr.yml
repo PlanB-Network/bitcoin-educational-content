@@ -1,0 +1,9 @@
+question: Que se passe-t-il lorsqu'une nouvelle transaction d'engagement est créée ?
+answer: Un nouveau secret est décidé et une nouvelle clé de révocation est créée, et la transaction d'engagement précédente doit être détruite en donnant le secret de révocation.
+wrong_answers:
+  - La transaction d'engagement précédente est conservée en tant que sauvegarde.
+  - Un nouveau délai est créé et la transaction d'engagement précédente est mise à jour.
+  - La transaction d'engagement précédente est mise à jour avec le nouveau secret et la nouvelle clé de révocation.
+explanation: |
+  Lorsqu'une nouvelle transaction d'engagement est créée, un nouveau secret et une nouvelle clé de révocation sont décidés. La transaction d'engagement précédente doit être détruite en donnant le secret de révocation pour empêcher toute partie de tricher en publiant un ancien état.
+reviewed: false

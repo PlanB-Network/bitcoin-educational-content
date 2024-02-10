@@ -1,0 +1,9 @@
+question: Was ist die Lösung für das Problem des direkten Austauschs bei der Arbeitsteilung?
+answer: Indirekter Austausch, der durch Geld ermöglicht wird.
+wrong_answers:
+  - Direkter Austausch, der durch Tauschhandel ermöglicht wird.
+  - Indirekter Austausch, der durch Tauschhandel ermöglicht wird.
+  - Direkter Austausch, der durch Geld ermöglicht wird.
+explanation: |
+  Geld ermöglicht den indirekten Austausch, bei dem eine Person von einer anderen kaufen kann und der Verkäufer diese Geldeinheit an einem anderen Ort, zu einem anderen Zeitpunkt und mit jemand anderem verwenden kann.
+reviewed: false

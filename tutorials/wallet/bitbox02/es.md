@@ -4,8 +4,6 @@ name: BitBox02
 description: Configuración y uso de BitBox02
 ---
 
-# Bitbox02
-
 ![cover](assets/cover.jpeg)
 
 El BitBox02 (https://bitbox.swiss/) es una billetera física fabricada en Suiza diseñada específicamente para asegurar tus Bitcoins. Algunas de sus características clave incluyen una fácil copia de seguridad y restauración utilizando una tarjeta microSD, un diseño minimalista y discreto, y un soporte completo para Bitcoin.
@@ -31,8 +29,6 @@ Ofrece una seguridad de vanguardia diseñada por expertos, con un diseño de dob
 Descarga las hojas de datos en su sitio web https://bitbox.swiss/bitbox02/
 
 ## Cómo usar la billetera de hardware BitBox02
-
-> La siguiente guía fue ofrecida por Parman (https://twitter.com/parman_the), puedes darle propina aquí: dandysack84@walletofsatoshi.com - Fuente original: https://armantheparman.com/bitbox02/
 
 ### Configuración del BitBox02
 

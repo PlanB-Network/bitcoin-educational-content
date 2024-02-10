@@ -1,0 +1,11 @@
+question: Quel est le critère de Kagan pour l'hyperinflation ?
+answer: Un taux d'inflation de 50% par mois.
+wrong_answers:
+  - Un taux d'inflation de 50% par an.
+  - Un taux d'inflation de 25% par mois.
+  - Un taux d'inflation de 25% par an.
+explanation: |
+  Le critère de Kagan définit l'hyperinflation comme un taux d'inflation de 50%
+  par mois. Ce critère peut parfois conduire à des interprétations ambiguës, avec
+  des années ayant des taux d'inflation élevés mais ne répondant pas à la définition stricte de l'hyperinflation.
+reviewed: false

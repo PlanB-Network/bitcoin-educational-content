@@ -1,0 +1,9 @@
+question: Qual è una delle conseguenze della dollarizzazione?
+answer: Perdita di una politica monetaria autonoma
+wrong_answers:
+  - Aumento dell'inflazione
+  - Aumento della base monetaria
+  - Diminuzione della fiducia pubblica
+explanation: |
+  La dollarizzazione può porre fine all'iperinflazione, ma presenta altre sfide economiche. Una delle conseguenze è la perdita di una politica monetaria autonoma. Senza una propria valuta, un paese non può regolare la propria politica monetaria per rispondere agli shock economici interni.
+reviewed: false

@@ -1,0 +1,4 @@
+description: |
+  Bottlepay è una piattaforma finanziaria digitale che utilizza la Lightning Network per consentire transazioni istantanee di bitcoin a livello globale. La piattaforma semplifica il trading di bitcoin, offrendo configurazioni rapide e semplici, percorsi di pagamento personalizzabili e la possibilità di acquistare e vendere bitcoin in singoli o in scambi ricorrenti. Bottlepay supporta depositi immediati tramite Open Banking e SEPA Instant, consentendo anche pagamenti diretti dai saldi in GBP o EUR a qualsiasi indirizzo bitcoin. Introduce inoltre l'innovativo 'Lightning Address', rendendo il processo di invio e ricezione di bitcoin tanto semplice quanto l'invio di una email. Nonostante le sue funzionalità avanzate, Bottlepay ha recentemente annunciato la chiusura della sua app.
+contributors:
+  - rabbit-hole

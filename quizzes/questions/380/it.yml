@@ -1,0 +1,9 @@
+question: Qual è lo scopo di un piano di eredità in Bitcoin?
+answer: Garantire che i tuoi cari possano accedere ai tuoi Bitcoin dopo la tua morte.
+wrong_answers:
+  - Per estrarre nuovi Bitcoin.
+  - Per scambiare Bitcoin.
+  - Per convertire Bitcoin in altre criptovalute.
+explanation: |
+  Un piano di eredità in Bitcoin è un piano che garantisce che i tuoi cari possano accedere ai tuoi Bitcoin dopo la tua morte. Non viene utilizzato per estrarre nuovi Bitcoin, scambiare Bitcoin o convertire Bitcoin in altre criptovalute.
+reviewed: false

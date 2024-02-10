@@ -1,0 +1,9 @@
+question: Cosa è un portafoglio caldo nel contesto di Bitcoin?
+answer: Un portafoglio digitale utilizzato per conservare, inviare e ricevere Bitcoin.
+wrong_answers:
+  - Un portafoglio fisico utilizzato per conservare Bitcoin.
+  - Un metodo per acquistare Bitcoin.
+  - Una piattaforma di scambio di Bitcoin.
+explanation: |
+  Nel contesto di Bitcoin, un portafoglio caldo è un portafoglio digitale utilizzato per conservare, inviare e ricevere Bitcoin. È tipicamente connesso a internet ed è quindi meno sicuro di un portafoglio freddo.
+reviewed: false

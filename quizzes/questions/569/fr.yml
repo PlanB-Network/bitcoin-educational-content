@@ -1,0 +1,9 @@
+question: Quel est l'impact des bilans des banques et des banques centrales sur l'inflation ?
+answer: Si la nouvelle monnaie créée reste sur les bilans des banques privées sans être prêtée aux acteurs économiques, elle n'aura pas d'impact direct sur l'économie réelle et, par conséquent, n'entraînera pas d'inflation.
+wrong_answers:
+  - Si la nouvelle monnaie créée reste sur les bilans des banques privées, cela entraînera toujours une inflation.
+  - Les bilans des banques et des banques centrales n'ont aucun impact sur l'inflation.
+  - Si la nouvelle monnaie créée est prêtée aux acteurs économiques, cela n'entraînera pas d'inflation.
+explanation: |
+  Le chapitre explique que la relation entre l'impression monétaire et l'inflation est modulée par la manière dont la nouvelle monnaie est introduite dans l'économie. Si cette monnaie reste sur les bilans des banques privées sans être prêtée aux acteurs économiques, elle n'aura pas d'impact direct sur l'économie réelle et, par conséquent, n'entraînera pas d'inflation.
+reviewed: false

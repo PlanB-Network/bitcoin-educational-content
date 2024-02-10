@@ -1,0 +1,9 @@
+question: Avec combien de SAT Alice commence-t-elle dans l'exemple ?
+answer: 130 000 SAT.
+wrong_answers:
+  - 100 000 SAT.
+  - 90 000 SAT.
+  - 0 SAT.
+explanation: |
+  Dans l'exemple, Alice ouvre un canal avec Bob avec 130 000 SAT de son côté.
+reviewed: false

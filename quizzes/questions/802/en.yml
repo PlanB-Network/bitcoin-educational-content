@@ -1,0 +1,10 @@
+question: Why is it crucial to regularly update the operating system and applications?
+answer: To protect against new threats and vulnerabilities.
+wrong_answers:
+  - To make the machine obsolete.
+  - To slow down the machine.
+  - To change the user interface.
+explanation: |
+  Regular updates are essential to protect the system from new threats
+  and vulnerabilities. They are not intended to make the machine obsolete or slow.
+reviewed: false

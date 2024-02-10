@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel de las personas de confianza en tu plan de herencia?
+answer: Para ayudar a tu familia cuando ya no estés aquí, brindando consejos sobre la gestión de claves y billeteras, ayudando a comprender cómo recuperar de manera segura tus frases secretas (semillas) y brindando garantía durante una transacción.
+wrong_answers:
+  - Tomar posesión de tus activos de criptomonedas después de tu muerte, administrar tus activos y distribuirlos entre tus herederos.
+  - Robar tus activos de criptomonedas antes de que sean entregados a tus seres queridos, comprometer tus transacciones y crear conflictos entre tus herederos.
+  - Ignorar a tu familia cuando ya no estés aquí, proporcionar consejos engañosos sobre la gestión de claves y billeteras, y crear confusión durante una transacción.
+explanation: |
+  Las personas de confianza en tu plan de herencia están ahí para ayudar a tu familia cuando ya no estés aquí. Brindan consejos sobre la gestión de claves y billeteras, ayudan a comprender cómo recuperar de manera segura tus frases secretas (semillas) y brindan garantía durante una transacción.
+reviewed: false

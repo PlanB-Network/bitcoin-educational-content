@@ -6,8 +6,6 @@ description: Mise en place de votre portefeuille Muum
 
 ![cover](assets/cover.png)
 
-# Muum wallet
-
 Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 
 ## video tutorial
@@ -17,8 +15,6 @@ Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 ## Muun Wallet - Guide d'utilisation complet
 
 Guide d'utilisation complet (avec captures d'écran) de l'application Muun; un portefeuille mobile Bitcoin convivial vous permettant de transiger sur le Lightning Network.
-
-> WINTER ☩ HODLER 1 févr. 2023 • 18 min read https://agora256.com/muun-wallet-guide-dutilisation-complet/ Muun Wallet - Guide d'utilisation complet
 
 ![image](assets/0.5.png)
 
@@ -291,5 +287,3 @@ Les Turbo channels permettent de pouvoir commencer à transiger sur le réseau L
 Au bas de la page des paramètres se trouve l’option “Log out”. Vous pouvez utiliser cette fonction si vous souhaitez que l’application déconnecte le portefeuille présentement reconnu par celle-ci. Cela vous permettra de créer un nouveau portefeuille ou bien d’en importer ou de récupérer un existant.
 
 ![image](assets/53.png)
-
-https://agora256.com/muun-wallet-guide-dutilisation-complet/

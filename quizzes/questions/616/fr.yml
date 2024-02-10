@@ -1,0 +1,9 @@
+question: Quelle a été la solution adoptée par le Zimbabwe pour contrer l'inflation?
+answer: Dollarisation
+wrong_answers:
+  - Imprimer plus d'argent
+  - Introduire une nouvelle devise
+  - Réduire l'offre monétaire
+explanation: |
+  Le Zimbabwe a adopté la dollarisation pour contrer l'inflation. Cela signifie qu'ils ont adopté le dollar américain ou d'autres devises provenant des pays voisins, ce qui empêche le gouvernement d'imprimer de l'argent à sa guise.
+reviewed: false

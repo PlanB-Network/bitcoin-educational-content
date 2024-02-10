@@ -1,0 +1,11 @@
+question: What is a common characteristic of Ponzi schemes in the cryptocurrency domain?
+answer: They use new investors' money to pay older participants.
+wrong_answers:
+  - They always involve Bitcoin.
+  - They are always legal and regulated.
+  - They always involve physical assets.
+explanation: |
+  Ponzi schemes in the cryptocurrency domain often operate by using new
+  investors' money to pay older participants. This unsustainable nature and dependence
+  on new arrivals make them likely to inevitably collapse.
+reviewed: false

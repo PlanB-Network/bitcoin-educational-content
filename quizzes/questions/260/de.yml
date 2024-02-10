@@ -1,0 +1,9 @@
+question: Welche häufigen Betrugsfälle gibt es im Zusammenhang mit Online-Wettbewerben oder Spenden im Kryptosektor?
+answer: Anzeigen, die kostenlose Bitcoins versprechen.
+wrong_answers:
+  - Anzeigen, die physische Waren versprechen.
+  - Anzeigen, die kostenlose Fiat-Währung versprechen.
+  - Anzeigen, die kostenlose Software versprechen.
+explanation: |
+  Betrugsfälle im Zusammenhang mit Online-Wettbewerben oder Spenden sind im Kryptosektor sehr verbreitet. Anzeigen, die kostenlose Bitcoins versprechen, werden oft verwendet, um unerfahrene Benutzer zu täuschen.
+reviewed: false

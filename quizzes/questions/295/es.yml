@@ -1,0 +1,10 @@
+question: ¿Cuál es el límite de bitcoins que existirán?
+answer: 21 millones
+wrong_answers:
+  - 100 millones
+  - 1 billón
+  - Sin límite
+explanation: |
+  El capítulo establece que nunca habrá más de 21 millones de bitcoins.
+  Este límite fue establecido en el protocolo de Bitcoin por Satoshi y no puede ser cambiado hoy en día.
+reviewed: false

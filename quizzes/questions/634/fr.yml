@@ -1,0 +1,9 @@
+question: Qu'est-ce qui détermine si une transaction est possible dans un canal de paiement Lightning ?
+answer: L'utilisateur qui envoie les fonds doit avoir suffisamment de Bitcoin de son côté du canal.
+wrong_answers:
+  - La capacité totale du canal doit être suffisante pour couvrir la transaction.
+  - L'utilisateur qui reçoit les fonds doit avoir suffisamment de Bitcoin de son côté du canal.
+  - La transaction doit être approuvée par le réseau Bitcoin.
+explanation: |
+  Pour qu'une transaction soit possible dans un canal de paiement Lightning, l'utilisateur qui envoie les fonds doit avoir suffisamment de Bitcoin de son côté du canal.
+reviewed: false

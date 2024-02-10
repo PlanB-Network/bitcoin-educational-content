@@ -9,8 +9,6 @@ description: Running your own node with Bitcoin Core
 
 Introduction to Bitcoin and the concept of a node, complemented by a comprehensive installation guide on Linux.
 
-_**This tutorial is brought to you by WINTER ☩ HODLER through the Agora256 initiative. Thank them for their support and congratulations on their work**_
-
 One of the most exciting propositions of Bitcoin is the ability to run the program oneself, and thus participate at a granular level in the network and the verification of the public transaction ledger.
 
 Bitcoin, an open-source project, has been publicly distributed and available for free since 2009. Nearly 15 years after its inception, Bitcoin is now a robust and unstoppable digital monetary network, benefiting from a powerful organic network effect. For their efforts and vision, Satoshi Nakamoto deserves our gratitude. By the way, we host the Bitcoin whitepaper here on Agora 256 (note: also on the university).
@@ -74,7 +72,6 @@ Once Bitcoin Core is installed, it is recommended to keep it running as much as 
 However, running and synchronizing your node intermittently, even just to validate received and sent transactions, remains a good practice.
 
 ![Creation wallet](assets/2.jpeg)
-**End of article 1 offered by Agora256; original link: https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/, we continue with section 2**
 
 # Configuring Tor for a Bitcoin Core Node
 
@@ -132,5 +129,3 @@ To view the logs of your Bitcoin node specifically related to its interaction wi
 > - Tor configuration guide by Jon Atack
 
 As always, if you have any questions, feel free to share them with the Agora256 community. We learn together to be better tomorrow than we are today!
-
-**END of Agora256 tutorial; original link: https://agora256.com/configuration-tor-bitcoin-core/. Thanks to them for providing this.**

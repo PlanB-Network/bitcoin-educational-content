@@ -12,11 +12,9 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Electrum Bitcoin Wallet
-
 > "I have to say, when i came across this guide i was shocked. Congrats on Arman the Parman for this. It would have been ashame not to host in here and translate it on as many language as possible. Honeslty, tips that dude." Rogzy
 
-Original post: https://armantheparman.com/electrum/
+Original post:
 
 ![Electrum Desktop Wallet (Mac / Linux) - download, verify, connect to your node.](https://youtu.be/wHmQNcRWdHM)
 

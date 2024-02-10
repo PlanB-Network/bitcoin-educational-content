@@ -6,8 +6,6 @@ description: Cómo configurar tu dispositivo Ledger Nano S
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Billetera física fría - €60 - Principiante - Para asegurar €2,000 a €50,000
 
 Ledger es la solución francesa para asegurar bitcoins de manera sencilla.
@@ -17,8 +15,6 @@ En este tutorial, también discutiremos la sección de frases de contraseña, un
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Conectar Ledger a Sparrow Bitcoin Wallet (guía de escritura)
-
-> https://armantheparman.com/ledgersparrow/
 
 Asegúrate de leer primero la otra parte "Usando billeteras de hardware de Bitcoin". Repasaré algunos pasos y me centraré principalmente en lo que es específico de Ledger aquí.
 

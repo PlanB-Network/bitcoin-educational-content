@@ -1,0 +1,10 @@
+question: Was ist eine Cold Wallet im Zusammenhang mit Bitcoin?
+answer: Eine Wallet zur Offline-Speicherung großer Mengen an Bitcoin.
+wrong_answers:
+  - Eine Wallet, die für Transaktionen in kalten Klimazonen verwendet wird.
+  - Eine Wallet, die für die Speicherung kleiner Mengen an Bitcoin verwendet wird.
+  - Eine Wallet, die für die kurzfristige Speicherung von Bitcoin verwendet wird.
+explanation: |
+  Eine Cold Wallet ist eine Wallet zur Offline-Speicherung großer Mengen an Bitcoin.
+  Sie gilt als sicherer als eine Hot Wallet, da sie weniger anfällig für Hacking ist.
+reviewed: false

@@ -6,8 +6,6 @@ description: Anleitung zur Einrichtung von Specter DIY
 
 ![cover](assets/cover.jpeg)
 
-# Specter DIY
-
 Spezifikationen:
 
 - Entwicklerplatine

@@ -1,12 +1,10 @@
 ---
-name: Pheonix
+name: Phoenix
 
 description: Einrichtung Ihrer Pheonix-Brieftasche
 ---
 
 ![phoenix](assets/cover.jpeg)
-
-# Phoenix
 
 Phoenix ist eine nicht verwahrte Lightning-Brieftasche, die von Acind, dem Team hinter der Lightning-Eclair-Implementierung, entwickelt wurde.
 
@@ -14,7 +12,7 @@ Um ihre offizielle Dokumentation zu finden, schauen Sie sich ihren FAQ-Leitfaden
 
 ## Video-Tutorial
 
-![Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
+![Phoenix: Bitcoin Lightning Wallet Tutorial](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
 
 ## Geschriebene Anleitungen
 

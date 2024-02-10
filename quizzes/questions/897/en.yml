@@ -1,0 +1,14 @@
+question: What happens when there is a decrease in interest rates due to an increase in savings according to the Austrian Theory of the Business Cycle?
+answer: The quantity of final goods consumed will decrease, interest rates will fall, entrepreneurs will use this influx of capital to create new investment goods and thus lengthen the production structure.
+wrong_answers:
+  - The quantity of final goods consumed will increase, interest rates will rise, entrepreneurs will use this influx of capital to create new investment goods and thus shorten the production structure.
+  - The quantity of final goods consumed will decrease, interest rates will rise, entrepreneurs will use this influx of capital to create new investment goods and thus shorten the production structure.
+  - The quantity of final goods consumed will increase, interest rates will fall, entrepreneurs will use this influx of capital to create new investment goods and thus shorten the production structure.
+explanation: |
+  According to the Austrian Theory of the Business Cycle, when there is
+  a decrease in interest rates due to an increase in savings, the quantity of final
+  goods consumed will decrease as saving involves postponing part of one's consumption
+  to a later date. As a result, interest rates will fall because the supply of capital
+  is increasing. This allows entrepreneurs to use this influx of capital to create
+  new investment goods and thus lengthen the production structure.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is one of the fundamental axioms in Austrian economics?
+answer: One of the fundamental axioms is positive time preferences, which are based on individual choices of goods or services today rather than tomorrow.
+wrong_answers:
+  - One of the fundamental axioms is the arbitrary setting of interest rates.
+  - One of the fundamental axioms is the reliance on empirical data.
+  - One of the fundamental axioms is the use of temporary experiments to confirm or
+    refute hypotheses.
+explanation: |
+  In Austrian economics, one of the fundamental axioms is positive time
+  preferences, which are based on individual choices of goods or services today rather
+  than tomorrow, due to uncertainty about the future.
+reviewed: false

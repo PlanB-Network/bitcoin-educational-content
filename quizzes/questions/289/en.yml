@@ -1,0 +1,11 @@
+question: What does it mean that Bitcoin is open source?
+answer: Anyone can look at how Bitcoin works, it is transparent and therefore auditable
+wrong_answers:
+  - Anyone can create their own version of Bitcoin
+  - Bitcoin is free to use
+  - Bitcoin's code is publicly available for modification
+explanation: |
+  Being open source means that Bitcoin's code is publicly available for
+  anyone to review. This makes it transparent and auditable, ensuring that the protocol
+  is equal for everyone.
+reviewed: false

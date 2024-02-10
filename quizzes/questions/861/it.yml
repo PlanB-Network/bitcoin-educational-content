@@ -1,0 +1,9 @@
+question: Qual è l'approccio principale dell'economia austriaca per comprendere l'economia?
+answer: L'economia austriaca comprende l'economia dal punto di vista della logica umana e della sociologia.
+wrong_answers:
+  - L'economia austriaca comprende l'economia attraverso equazioni matematiche.
+  - L'economia austriaca comprende l'economia dal punto di vista della stampa di denaro e della spesa.
+  - L'economia austriaca comprende l'economia dal punto di vista delle banche centrali.
+explanation: |
+  Il capitolo spiega che l'economia austriaca comprende l'economia dal punto di vista della logica umana e della sociologia, anziché affrontare questa disciplina attraverso equazioni matematiche.
+reviewed: false

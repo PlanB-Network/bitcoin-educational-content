@@ -1,0 +1,12 @@
+question: What is the ultimate purpose of economic activity according to Carl Menger?
+answer: The ultimate purpose of economic activity is consumption.
+wrong_answers:
+  - The ultimate purpose of economic activity is production.
+  - The ultimate purpose of economic activity is savings.
+  - The ultimate purpose of economic activity is investment.
+explanation: |
+  According to Carl Menger, goods are only considered economic goods (valued)
+  because they serve as means to ends chosen and valued by individuals. Therefore,
+  for Menger, the starting point of economic analysis is consumer goods, or final
+  goods, as they represent the ultimate purpose of economic activity.
+reviewed: false

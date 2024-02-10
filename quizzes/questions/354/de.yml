@@ -1,0 +1,9 @@
+question: Was ist eine Eigenschaft eines Bitcoin-Benutzers, der technisch kompetent ist?
+answer: Sie haben ein gutes Verständnis von Technologien, einschließlich heißer und kalter Bitcoin-Wallets und dem Lightning Network.
+wrong_answers:
+  - Sie verwenden Bitcoin nur für langfristige Investitionen.
+  - Sie verwenden Bitcoin nur für tägliche Transaktionen.
+  - Sie verwenden Bitcoin nur auf Handelsplattformen.
+explanation: |
+  Technisch kompetente Bitcoin-Benutzer verstehen die Technologien, die bei Bitcoin-Transaktionen zum Einsatz kommen, einschließlich verschiedener Arten von Wallets und dem Lightning Network.
+reviewed: false

@@ -1,5 +1,9 @@
 builder: LND
 
+credits:
+  professor: valley-egg
+  link: https://grunch.dev/guides/rpi-neutrino/
+
 level: advanced
 
 category: lightning-network

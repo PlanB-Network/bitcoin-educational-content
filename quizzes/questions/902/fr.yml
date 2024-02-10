@@ -1,0 +1,9 @@
+question: Quelle est la conséquence d'une baisse des taux d'intérêt due à une augmentation du crédit selon la théorie autrichienne du cycle économique ?
+answer: L'économie entre en récession ; les prix des actifs baissent, les salaires réels diminuent, les prix à la consommation baissent et les stocks s'accumulent.
+wrong_answers:
+  - L'économie entre en expansion ; les prix des actifs augmentent, les salaires réels augmentent, les prix à la consommation augmentent et les stocks diminuent.
+  - L'économie entre en stagnation ; les prix des actifs restent les mêmes, les salaires réels restent les mêmes, les prix à la consommation restent les mêmes et les stocks restent les mêmes.
+  - L'économie entre en déflation ; les prix des actifs baissent, les salaires réels augmentent, les prix à la consommation baissent et les stocks augmentent.
+explanation: |
+  Selon la théorie autrichienne du cycle économique, lorsque les taux d'intérêt baissent en raison d'une augmentation du crédit, l'économie entre en récession ; les prix des actifs baissent, les salaires réels diminuent, les prix à la consommation baissent et les stocks s'accumulent. Cela est dû au fait que la baisse des taux d'intérêt entraîne une mauvaise allocation des capitaux, ce qui finit par provoquer une récession.
+reviewed: false

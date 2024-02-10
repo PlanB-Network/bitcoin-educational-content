@@ -5,18 +5,15 @@ description: Guide pour configurer votre RaspiBlitz
 
 ![image](assets/0.jpeg)
 
-# RaspiBlitz
-
 Le RaspiBlitz est un nœud Lightning (LND et/ou Core Lightning) à faire soi-même, fonctionnant avec un Bitcoin-Fullnode sur un RaspberryPi (1TB SSD) et un bel écran pour une configuration et une surveillance faciles.
 
 Le RaspiBlitz est principalement destiné à apprendre comment exécuter votre propre nœud décentralisé depuis chez vous - car : Pas votre nœud, pas vos règles. Découvrez et développez l'écosystème croissant du Lightning Network en en devenant un membre à part entière. Construisez-le lors d'un atelier ou en tant que projet de week-end.
 
 ![video](https://youtu.be/DTHlSPMz3ns)
+
 RASPIBLITZ - Comment exécuter un nœud Lightning et Bitcoin Full Node par BTC session
 
 # Guide d'installation de Raspiblitz de Parman
-
-> Le guide suivant a été offert par Parman (https://twitter.com/parman_the), vous pouvez lui donner des pourboires ici : dandysack84@walletofsatoshi.com Source originale : https://armantheparman.com/raspiblitz/
 
 Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des applications associées. Je recommande cela et le nœud My Node à la plupart des utilisateurs (idéalement, avoir deux nœuds pour la redondance). Un avantage majeur est que le nœud Raspiblitz est un "logiciel libre et open source", contrairement à MyNode ou Umbrel. Pourquoi est-ce important ? Vlad Costa explique. Vous pouvez également exécuter le RaspbiBlitz avec une connexion WiFi plutôt qu'Ethernet - voici un guide supplémentaire à ce sujet (je n'ai pas trouvé de moyen de le faire avec MyNode).
 
@@ -185,6 +182,7 @@ Ensuite, les options Lightning apparaissent.
 Créez un nouveau mot de passe pour verrouiller votre portefeuille Lightning, puis un nouveau portefeuille sera créé et vous recevrez 24 mots à noter...
 
 ![image](assets/21.png)
+
 Assurez-vous de le noter et de le garder en sécurité. J'ai entendu parler d'une personne qui ne l'a pas fait parce qu'il ne prévoyait pas d'utiliser Lightning, mais qui a décidé un an plus tard de l'utiliser et d'ouvrir des canaux. Puis, se rendant compte que ses mots n'étaient pas sauvegardés, et je me souviens qu'il n'était pas possible d'extraire à nouveau les mots du dispositif, il a dû fermer tous ses canaux et recommencer. Il s'en est sorti, mais d'autres pourraient ne pas être aussi chanceux.
 Suite à cela, quelques minutes de texte défilent dans la fenêtre du terminal. Ensuite...
 
@@ -203,8 +201,5 @@ Appuyez sur CTRL+c pour quitter l'écran bleu. Vous accéderez au terminal Linux
 ![image](assets/24.png)
 
 FIN du guide
-
-> Le guide suivant a été offert par Parman (https://twitter.com/parman_the)
-> vous pouvez lui faire un don ici : dandysack84@walletofsatoshi.com Source originale : https://armantheparman.com/raspiblitz/
 
 Maintenant, votre nœud est prêt à fonctionner. Si vous avez encore besoin d'aide pour naviguer dans d'autres options, consultez le github pour plus de tutoriels et de guides https://github.com/raspiblitz/raspiblitz#feature-documentation

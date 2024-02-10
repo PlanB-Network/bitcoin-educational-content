@@ -1,0 +1,10 @@
+question: Quelle est une caractéristique commune des escroqueries dans le domaine des cryptomonnaies ?
+answer: Des promesses de rendements irréalistes.
+wrong_answers:
+  - Des promesses de biens physiques.
+  - Des promesses de produits logiciels.
+  - Des promesses de monnaie fiduciaire.
+explanation: |
+  Les escroqueries dans le domaine des cryptomonnaies font souvent des promesses de rendements irréalistes.
+  Il est crucial de ne pas faire confiance aveuglément, surtout lorsqu'il s'agit d'une bannière internet.
+reviewed: false

@@ -1,0 +1,12 @@
+question: What is the main reason why governments and central banks are exploring
+  the possibility of creating a digital version of their fiat currency?
+answer: To ensure control and comply with local regulations
+wrong_answers:
+  - To compete with Bitcoin
+  - To provide privacy protection
+  - To increase mass surveillance
+explanation: |
+  The chapter content explains that while these projects claim to compete
+  with Bitcoin, they remain centralized in order to ensure control and comply with
+  local regulations.
+reviewed: false

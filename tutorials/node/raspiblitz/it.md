@@ -5,8 +5,6 @@ description: Guida per configurare il tuo RaspiBlitz
 
 ![image](assets/0.jpeg)
 
-# RaspiBlitz
-
 Il RaspiBlitz è un nodo Lightning fai-da-te (LND e/o Core Lightning) che funziona insieme a un Bitcoin-Fullnode su un RaspberryPi (SSD da 1TB) e un bel display per una facile configurazione e monitoraggio.
 
 Il RaspiBlitz è principalmente rivolto all'apprendimento di come eseguire il proprio nodo decentralizzato da casa - perché: Non è il tuo nodo, non sono le tue regole. Scopri e sviluppa l'ecosistema in crescita della Lightning Network diventandone una parte integrante. Costruiscilo come parte di un workshop o come progetto da fare nel weekend.
@@ -15,8 +13,6 @@ Il RaspiBlitz è principalmente rivolto all'apprendimento di come eseguire il pr
 RASPIBLITZ - Come eseguire un nodo Lightning e Bitcoin Full Node di BTC session
 
 # Guida all'installazione di Raspiblitz di Parman
-
-> La seguente guida è stata offerta da Parman (https://twitter.com/parman_the) puoi dargli una mancia qui; dandysack84@walletofsatoshi.com Fonte originale; https://armantheparman.com/raspiblitz/
 
 Il Raspiblitz è un eccellente sistema per eseguire un nodo Bitcoin e le relative app. Raccomando questo e il nodo My Node alla maggior parte degli utenti (avere due nodi per la ridondanza sarebbe ideale). Un vantaggio importante è che il nodo Raspiblitz è "Software Open Source gratuito", a differenza di MyNode o Umbrel. Perché è importante? Vlad Costa spiega. Puoi anche eseguire il RaspbiBlitz con una connessione WiFi anziché Ethernet - ecco una guida supplementare per questo. (Non ho trovato un modo per farlo con MyNode).
 
@@ -185,6 +181,7 @@ Poi compaiono le opzioni di Lightning.
 Crea una nuova password per bloccare il tuo portafoglio Lightning, quindi verrà creato un nuovo portafoglio e ti verranno fornite 24 parole da annotare...
 
 ![image](assets/21.png)
+
 Assicurati di scriverlo e tenerlo al sicuro. Ho sentito di una persona che non lo ha fatto perché non aveva intenzione di utilizzare il lightning, ma poi, un anno dopo, ha deciso di utilizzarlo e ha aperto dei canali. Poi, rendendosi conto che le sue parole non erano state salvate, e ricordo che non era possibile estrarre nuovamente le parole dal dispositivo, ha dovuto chiudere tutti i suoi canali e ricominciare da capo. È riuscito a cavarsela, ma altri potrebbero non essere così fortunati.
 A seguito di ciò, alcuni minuti di testo scorrono nella finestra del terminale. Poi...
 
@@ -203,8 +200,5 @@ Premi CTRL+c per uscire dalla schermata blu. Accederai al terminale Linux del Pi
 ![image](assets/24.png)
 
 FINE della guida
-
-> La seguente guida è stata offerta da Parman (https://twitter.com/parman_the)
-> puoi dargli una mancia qui: dandysack84@walletofsatoshi.com Fonte originale: https://armantheparman.com/raspiblitz/
 
 Quindi da ora il tuo nodo è pronto per partire. Se hai ancora bisogno di aiuto per navigare tra le opzioni, consulta il github per ulteriori tutorial e guide https://github.com/raspiblitz/raspiblitz#feature-documentation

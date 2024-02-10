@@ -1,0 +1,14 @@
+question: What is the main disadvantage of using a self-hosted password manager?
+answer: It requires more technical knowledge to use.
+wrong_answers:
+  - It is more expensive than third-party services.
+  - It does not offer as many features as third-party services.
+  - It is not as secure as third-party services.
+explanation: |
+  A self-hosted password manager requires more technical knowledge to
+  use,
+
+  as you need to set up and manage your own server. However, it can offer more control
+
+  and security.'
+reviewed: false

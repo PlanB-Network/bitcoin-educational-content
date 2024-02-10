@@ -1,0 +1,9 @@
+question: Quel est un avantage d'utiliser une plateforme d'échange pour acheter et vendre des bitcoins ?
+answer: Cela permet d'effectuer des transactions régulières selon les besoins de l'utilisateur.
+wrong_answers:
+  - Cela permet d'effectuer des transactions anonymes.
+  - Cela augmente la valeur du Bitcoin.
+  - Cela fournit une plateforme pour miner des Bitcoins.
+explanation: |
+  Les plateformes d'échange permettent aux utilisateurs d'acheter et de vendre des bitcoins régulièrement et commodément, selon leurs besoins.
+reviewed: false

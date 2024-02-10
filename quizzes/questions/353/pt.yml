@@ -1,0 +1,9 @@
+question: Qual é uma vantagem de usar uma plataforma de câmbio para comprar e vender bitcoins?
+answer: Ela permite transações regulares de acordo com as necessidades do usuário.
+wrong_answers:
+  - Ela permite transações anônimas.
+  - Ela aumenta o valor do Bitcoin.
+  - Ela fornece uma plataforma para mineração de Bitcoin.
+explanation: |
+  As plataformas de câmbio permitem que os usuários comprem e vendam bitcoins regularmente e convenientemente, de acordo com suas necessidades.
+reviewed: false

@@ -6,8 +6,6 @@ description: Carteira Bitcoin Radicalmente Simples e Poderosa
 
 ![capa](assets/cover.jpeg)
 
-# Blue Wallet - Carteira Bitcoin Radicalmente Simples e Poderosa.
-
 A Blue Wallet é uma carteira de código aberto para Bitcoin que é extremamente fácil de usar, mas ainda assim flexível.
 
 - Uma carteira Bitcoin de camada 1 está disponível gratuitamente de forma não custodial.
@@ -19,9 +17,7 @@ A Blue Wallet é uma carteira de código aberto para Bitcoin que é extremamente
 
 ## BlueWallet: uma introdução
 
-> Guia oferecido pela Agora256, escrito por Hari Seldon - https://agora256.com/bluewallet-uma-introducao/ - 1 de fevereiro de 2023
-
-![imagem](assets/1.jpg)
+![imagem](assets/1.jpeg)
 
 Para poder receber ou enviar Bitcoin do seu celular (ou tablet), baixe a BlueWallet do site correspondente ao seu tipo de celular ou tablet:
 

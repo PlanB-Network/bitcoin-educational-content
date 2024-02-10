@@ -1,0 +1,9 @@
+question: Quelle a été la conséquence de la relégation des banques privées par la Banque d'Angleterre à une position secondaire dans le système monétaire ?
+answer: Une troisième couche de monnaie a été créée.
+wrong_answers:
+  - La Banque d'Angleterre a fait faillite.
+  - La valeur de l'or a augmenté.
+  - La Banque d'Amsterdam est devenue le centre économique mondial.
+explanation: |
+  Lorsque la Banque d'Angleterre a relégué les banques privées à une position secondaire dans le système monétaire, une troisième couche de monnaie a été créée. Les billets émis par les banques privées n'étaient plus convertibles en or, mais en monnaie fiduciaire de la Banque d'Angleterre, elle-même convertible en or.
+reviewed: false

@@ -223,7 +223,7 @@ If you detect a virus on your computer, disconnect it from the internet, perform
 
 ## Managing email accounts
 
-## Setting up a new email account!
+### Setting up a new email account!
 
 The email account is the central point of your online activity: if it is compromised, a hacker can use it to reset all your passwords via the "forgot password" function and gain access to many other sites. That's why you need to secure it properly.
 
@@ -345,7 +345,7 @@ Golden rule: Cybersecurity is a moving target that will adapt to your learning j
 
 ## How to work in the cybersecurity industry
 
-# Cybersecurity: A Growing Field with Endless Opportunities
+### Cybersecurity: A Growing Field with Endless Opportunities
 
 If you are passionate about protecting systems and data, the field of cybersecurity offers a multitude of opportunities. If this industry intrigues you, here are some key steps to guide you.
 

@@ -1646,5 +1646,87 @@ Unless you use a built-in [Wallet](https://docs.btcpayserver.org/Wallet/) to rec
 
 ![image](assets/en/92.png)
 
+## BTCPay Server Store settings - General
+### Invoice statuses
+
+The table below lists and describes standard invoice statuses in BTCPay and suggests common actions. Actions are just recommendations. It’s up to users to define the best course of action for their use case and business.
+
+| Invoice Status           | Description                                            | Action                   |
+| ------------------------ | ------------------------------------------------------ | ------------------------ |
+| New                      | Not paid, invoice timer still has not expired          | None |
+| New (paidPartial)        | Paid, not in full, invoice timer still has not expired | None |
+| Expired                  | Not paid, invoice timer expired                        | None |
+| Expired (paidPartial) ** | Paid, not in full amount, and expired                  | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark invoice as settled or invalid |
+| Expired (paidLate)       | Paid, in full amount, after the invoice timer has expired | Contact buyer to arrange a refund or process order if late confirmations are acceptable. |
+| Settled (paidOver)       | Paid more than the invoice amount, settled, received sufficient amount of confirmations | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
+| Processing               | Paid in full, but has not received sufficient amount of confirmations specified in the store settings | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
+| Processing (paidOver)    | Paid more than the invoice amount, not received sufficient amount of confirmations | Wait to be settled then contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
+| Settled                  | Paid, in full, received sufficient amount of confirmations in store | Fulfil the order |
+| Settled (marked)         | Status was manually changed to settled from an processing or invalid status | Store admin has marked the payment as settled |
+| Invalid*                 | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled |
+| Invalid (marked)         | Status was manually changed to invalid from a settled or expired status | Store admin has marked the payment as invalid |
+| Invalid (paidOver)       | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled |
+
+### Invoice details
+
+The invoice details page contains all information related to an invoice.
+
+Invoice information is created automatically based on invoice status, exchange rate, etc. Product information is created automatically if the invoice was created with product information, such as in the Point of Sale app.
+
+### Invoice filtering
+
+
+Invoices can be filtered via the quick filters located next to the search button or the advanced filters, which can be toggled by clicking the (Help) link on the top. Users can filter invoices by store, order id, item id, status, or date.
+
+### Invoice export
+
+BTCPay Server Invoices can be exported in CSV or JSON format. For more information about invoice export and accounting.
+
+### Refunding an invoice
+
+If, for any reason, you would like to issue a refund, you can easily create a refund from the invoice view.
+
+### Archiving invoices
+
+As a result of the no address re-use feature of BTCPay Server, it is common to see many expired invoices on your store’s invoice page. To hide them from your view, select them in the list and mark them as archived. Invoices that have been marked as archived are not deleted. Payment to an archived invoice will still be detected by your BTCPay Server (paidLate status). You can view the store’s archived invoices at any time by selecting archived invoices from the search filter dropdown.
+
+### Default Currency
+
+Store default currency, this was set at the store creation wizard
+
+### Allow anyone to create invoice.
+
+You should enable this option if you want to allow the outside world to create invoices in your store. This option is only useful if you're using the payment button or if you are issuing invoices via API or 3rd party HTML website. PoS app is pre-authorised and does not need this enabled for a random visitor to open your POS store and create an invoice.
+
+### Add Additional fee (network fee) to invoice..
+
+- Only if the customer makes more than one payment for the invoice
+- On every payment
+- Never add network fee
+
+### Invoice expires if the full amount has not been paid after .. Minutes.
+
+The invoice timer is set to 15 minutes by default. The timer is a protection mechanism against the volatility since it locks the cryptocurrency amount according to the crypto to fiat rates. If the customer does not pay the invoice within the defined period, the invoice is considered expired. The invoice is considered "paid" as soon as the transaction is visible on the blockchain (o-confirmations) but considered "complete" when it reaches the number of confirmations the merchant defined (usually, 1-6). The timer is customizable.
+
+### Consider the invoice paid even if the paid amount is ..% less than expected.
+
+In a situation where a customer uses an exchange wallet to pay directly for an invoice, the exchange takes a small amount of fee. This means that such invoice is not considered fully completed. The invoice gets status "paid partially." If a merchant wants to accept underpaid invoices, you can set the percentage rate here
+
+## BTCPay Server Payments - Requests
+
+Payment Requests are a feature that allows BTCPay store owners to create long-lived invoices. Funds are paid to a payment request using the exchange rate at the time of payment. This allows users to make payments at their convenience without negotiating or verifying exchange rates with the store owner at the time of payment.
+
+Users can pay requests in partial payments. The payment request will remain valid until it is paid in full or if the store owner requires an expiration time. Addresses are never re-used. A new address is generated each time the user clicks pay to create an invoice for the payment request.
+
+Store owners can print payment requests (or export invoice data) for record-keeping and accounting. BTCPay automatically labels invoices as Payment Requests in your store’s invoice list.
+
+### Customize Your Payment Requests
+- Invoice Amount - Set Requested Payment Amount
+- Denomination - Show Requested Amount in Fiat or Cryptocurrency
+- Payment Quantity - Allow only single payments or partial payments
+- Expiration Time - Allow payments until a date or without expiry
+- Description - Text Editor, Data Tables, Embed Photos & Videos
+- Appearance - Color and Style with CSS Themes
+
 # Objective 5: BTCPay Server Default Plugins
 # Objective 6: Configuring BTCPay Server 

@@ -1252,28 +1252,3 @@ Bitcoin is adopted by diverse groups of people, from cryptographers to libertari
 Bitcoin cannot be stopped anymore and cannot be censored anymore. It is a peaceful revolution to change the monetary system and enable financial inclusivity. Users can obtain Bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. Bitcoins can be stored in wallets, mobile applications, or physical devices. No trusted intermediary in Bitcoin, Bitcoin advocates transparency, freedom, and individual responsibility - as the saying goes "Don't Trust, Verify".
 
 Changing the financial system requires changing the currency. Satoshi created Bitcoin in 2008 to propose an attempt at this. Having access to easy and "magical" money corrupts. Bitcoin is therefore an alternative to build a new neutral monetary system. Bitcoin allows for the emancipation from the banking system. It is a social phenomenon that leads us to participate in a peaceful revolution. Are you ready to join?
-
-## Acknowledgments and keep digging the rabbit hole
-
-### Go further
-
-Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed it and it opened doors for you. Your discovery of bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
-
-- [BTC 102](https://planb.network/courses/btc102) will help you set up your bitcoin plan
-- [LN 201](https://planb.network/courses/ln201) and [LN 202](https://planb.network/courses/ln202) will allow you to discover the Lightning Network, a second-layer payment network'
-- [ECON 201](https://planb.network/courses/econ201) will cover Austrian economics
-- [SECU 101](https://planb.network/courses/secu101) will allow you to update your digital security
-- [MINAGE 201](https://planb.network/courses/min201) to learn more about mining
-- and many more...
-
-## Support us
-
-This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via [our GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). On behalf of the entire team, thank you!
-
-## Note the training
-
-A grading system for the training will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course and if you enjoyed it, please consider sharing it with others.
-
-A huge thank you to our Patreon supporters, members, and donors for their financial support, thank you to the people who share, and thank you to those who made this training possible: Rachel, Muriel, the StackinSat team, JohnOnChain, Fanis, Guillaume, Lounes, the proofreaders, and the reviewers.
-
-See you soon!

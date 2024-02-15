@@ -83,6 +83,85 @@ Enfin, installez votre Raspberry Pi dans son boîtier. Attention, une étape ult
 
 ### Étape 1 : Préparer la micro SD bootable
 
+Après avoir assemblé votre matériel, l'étape suivante consiste à installer RoninDojo. Pour cela, nous allons préparer une carte micro SD bootable à partir de votre ordinateur, en y gravant l'image disque adéquat.
+
+Il vous faudra utiliser le logiciel _**Raspberry Pi Imager**_, conçu pour faciliter le téléchargement, la configuration et l'écriture de systèmes d'exploitation sur une carte micro SD pour une utilisation avec un Raspberry Pi. Commencez par installer ce logiciel sur votre PC personnel :
+- Pour Ubuntu/Debian : https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
+- Pour Windows : https://downloads.raspberrypi.org/imager/imager_latest.exe 
+- Pour Mac : https://downloads.raspberrypi.org/imager/imager_latest.dmg
+
+Une fois le logiciel installé, ouvrez-le. À ce moment, insérez votre carte micro SD dans votre ordinateur personnel. Depuis l'interface de Raspberry Pi Imager, sélectionnez `CHOISIR L'OS` :
+
+![choisir OS](assets/fr/9.png)
+
+Ensuite, accédez au menu `Raspberry Pi OS (other)` :
+
+![choisir OS autres](assets/fr/10.png)
+
+Choisissez le système d'exploitation dénommé `Raspberry Pi OS (Legacy, 64-bits) Lite`, dont la taille est de `0.3 GB` :
+
+![choisir OS Legacy Lite](assets/fr/11.png)
+
+Après avoir sélectionné le système d'exploitation, vous serez redirigé vers le menu principal de Raspberry Pi Imager. Cliquez sur `CHOISIR LE STOCKAGE` :
+
+![choisir stockage](assets/fr/12.png)
+
+Sélectionnez votre carte micro SD :
+
+![choisir micro sd](assets/fr/13.png)
+
+Après avoir choisi le système d'exploitation et la carte micro SD, cliquez sur `SUIVANT` :
+
+![choisir suivant](assets/fr/14.png)
+
+Une nouvelle fenêtre apparaîtra. Sélectionnez `MODIFIER RÉGLAGES` :
+
+![modifier réglages](assets/fr/15.png)
+
+Dans cette fenêtre, accédez à l'onglet `GÉNÉRAL` et procédez aux réglages suivants (qui sont très importants pour que cela fonctionne) :
+- Activez l'option et attribuez `RoninDojo` comme nom d'hôte ;
+- Activez `Définir nom d'utilisateur et mot de passe`, saisissez `pi` comme nom d'utilisateur, choisissez un mot de passe et notez ces informations, car elles seront nécessaires ultérieurement. Ces identifiants sont temporaires et seront supprimés par la suite ;
+- Désactivez `Configurer le Wi-Fi` ;
+- Activez `Définir les réglages locaux` et sélectionnez votre fuseau horaire ainsi que le type de clavier correspondant à votre ordinateur ;
+
+![réglages généraux](assets/fr/16.png)
+
+Dans l'onglet SERVICES, cliquez sur la case `Activer SSH` et sélectionnez `Utiliser un mot de passe pour l'authentification` :
+
+![réglages services](assets/fr/17.png)
+
+Assurez vous également que dans l'onglet `OPTIONS`, la télémétrie est désactivée :
+
+![réglages options](assets/fr/18.png)
+
+Cliquez sur `ENREGISTRER` :
+
+![réglages enregistrer](assets/fr/19.png)
+
+Confirmez en cliquant sur `OUI` pour démarrer la création de la carte micro SD bootable :
+
+![réglages oui](assets/fr/20.png)
+
+Un message vous informera que toutes les données présentes sur la carte micro SD seront effacées. Confirmez en cliquant sur `OUI` pour lancer le processus :
+
+![écraser micro SD](assets/fr/21.png)
+
+Patientez jusqu'à ce que le logiciel termine de préparer votre carte micro SD :
+
+![écriture micro SD](assets/fr/22.png)
+
+Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer la carte de votre ordinateur :
+
+![écriture micro SD terminée](assets/fr/23.png)
+
+### Étape 2 :
+
+
+
+
+
+
+
 
 
 

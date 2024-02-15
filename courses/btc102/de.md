@@ -623,7 +623,7 @@ Insgesamt ist der Hodler ein geduldiger, disziplinierter und visionärer Investo
 
 In Bitcoin ist das Konzept des "Stackers" ziemlich bekannt. Die Idee ist einfach: Es gibt nur 21 Millionen Bitcoins, und jeder kleine Bitcoin zählt! Dieser kleine Bitcoin wird tatsächlich Satoshi (oder SAT) genannt. Der Stacker hat es sich zum Ziel gesetzt, so viele wie möglich anzusammeln.
 
-![image](assets\tuto\11.JPG)
+![image](assets/tuto/11.JPG)
 
 ### Der Plan
 
@@ -663,6 +663,7 @@ Psychologisches Porträt des Stackers
 
 - Strategisch und organisiert:
   Der Stacker ist in seinem Ansatz, Bitcoin anzusammeln, strategisch. Er plant sorgfältig seine Investitionen und ist organisiert bei der Umsetzung seines DCA-Plans.
+
 - Fokussiert auf Ziele:
   Sein Hauptziel ist klar: so viele Satoshis wie möglich anzusammeln. Diese Fokussierung leitet seine Handlungen und Investitionsentscheidungen, unabhängig davon, ob der Preis explodiert oder drastisch fällt.
 
@@ -678,7 +679,7 @@ Der Stacker ist eine methodische und fokussierte Person mit einem klaren Plan, u
 
 Schließlich ist der letzte Typ von Bitcoiner, der in einem Einführungskurs erwähnt werden kann, der Bitcoiner, der Bitcoin regelmäßig nutzen muss. Ob aus beruflichen Verpflichtungen oder einfach aus dem Wunsch, das Ökosystem zu unterstützen, es ist notwendig, Lösungen für den häufigen Gebrauch vorzusehen.
 
-![image](assets\tuto\12.JPG)
+![image](assets/tuto/12.JPG)
 
 ### Der Plan
 
@@ -731,6 +732,8 @@ Der Benutzer ist technisch versiert und aktiv in der Nutzung von Bitcoin engagie
 ## Der Paranoide
 
 An dieser Stelle möchte ich den paranoiden Bitcoin-Nutzer hinzufügen. Diese Art von Person möchte sich nicht dem KYC (Know Your Customer) aussetzen, bevorzugt Anonymität und legt großen Wert auf ihre Privatsphäre. Der Paranoide wird auch LN über seinen eigenen Knoten verwenden und an seiner Sicherheit arbeiten.
+
+![image](assets/tuto/13.JPG)
 
 ### Der Plan
 

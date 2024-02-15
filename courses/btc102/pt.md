@@ -631,7 +631,7 @@ Em suma, o hodler é um investidor paciente, disciplinado e visionário, que acr
 
 No Bitcoin, o conceito de "Stacker" é bastante conhecido. A ideia é simples: existem apenas 21 milhões de bitcoins, e cada pequeno bitcoin conta! Esse pequeno bitcoin é na verdade chamado de satoshi (ou SAT). O stacker tem como objetivo acumular o máximo possível.
 
-![image](assets\tuto\11.JPG)
+![image](assets/tuto/11.JPG)
 
 ### O plano
 
@@ -687,7 +687,7 @@ O acumulador é um indivíduo metódico e focado, com um plano claro para maximi
 
 Por fim, o último tipo de bitcoiner que pode ser mencionado em um curso introdutório é o bitcoiner que precisa usar o Bitcoin regularmente. Seja por obrigação profissional ou simplesmente por vontade de apoiar o ecossistema, é necessário fornecer soluções adequadas para uso frequente.
 
-![image](assets\tuto\12.JPG)
+![image](assets/tuto/12.JPG)
 
 ### O plano
 
@@ -739,6 +739,8 @@ O usuário é uma pessoa tecnicamente experiente e engajada no uso ativo do Bitc
 ## O paranóico
 
 Gostaria de acrescentar aqui o bitcoiner paranóico. Esse tipo de pessoa não deseja se expor ao KYC (Know Your Customer), prefere permanecer próximo ao anonimato e valoriza muito sua privacidade. O paranóico também usará a LN por meio de seu próprio nó e trabalhará em sua segurança.
+
+![image](assets/tuto/13.JPG)
 
 ### O plano
 

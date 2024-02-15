@@ -80,7 +80,7 @@ It should be noted that the content of this course is intended for purely educat
 
 Pump and Dump (P&D) is a notorious form of financial manipulation that can cause significant disruptions in the markets. It is characterized by a coordinated attack aimed at artificially increasing the price of an asset through various mechanisms, such as aggressive marketing, the use of algorithms, or artificial intelligence. The goal is to then sell these overvalued assets to make a profit.
 
-![Pump and dump](assets/prerequisites/8.JPG)
+![Pump and dump](assets/prerequis/8.JPG)
 
 The Pump and Dump strategy typically follows a well-defined pattern:
 
@@ -173,8 +173,8 @@ A password manager is a software that stores and manages your passwords. It help
 
 2FA provides an additional layer of security to your most sensitive accounts, whether they are cryptocurrency platforms, Google/Email accounts, banks, or online shopping sites. A second identification, usually a 6-digit code accessible from your phone, is required to log in. Remember to keep a backup copy of the key somewhere in case you lose your phone.
 
-![password manager](assets/prerequisites/3.JPG)
-![password manager](assets/prerequisites/4.JPG)
+![password manager](assets/prerequis/3.JPG)
+![password manager](assets/prerequis/4.JPG)
 
 A VPN, or Virtual Private Network, protects your privacy by masking your IP address. While it doesn't make you completely anonymous, it is still a simple and effective step to improve your online privacy. Choosing a VPN, downloading it, and using it is an easy process to set up.
 
@@ -203,7 +203,7 @@ In this section, we will look at some common mistakes that beginner investors ma
 - The importance of staying humble and discreet.
 - Adopting a long-term perspective.
 
-![password manager](assets/prerequisites/0.JPG)
+![password manager](assets/prerequis/0.JPG)
 
 Before diving into Bitcoin investment, it is essential to take the time to educate yourself.
 It is easy to make mistakes in the Bitcoin industry, and each mistake can be costly. By sharing some of the pitfalls I have encountered in my investment journey, as well as those I have observed in others, I hope to provide valuable advice for navigating this space. Some of these mistakes include:
@@ -259,7 +259,7 @@ And here are my recommendations:
 - Opting for a long-term perspective is often a wise strategy. Constantly monitoring market developments can be complex and requires full-time commitment. As Warren Buffet said, "If you aren't willing to own a stock for ten years, don't even think about owning it for ten minutes."
 - It is essential to be extremely vigilant when it comes to taxation: Each country has its own laws regarding Bitcoins. It is essential to inquire about the legislation in force in your country, especially regarding tax obligations. Poor planning could lead you to owe more money to the tax authorities than what you have earned.
 
-  ![taxation](assets/prerequisites/5.JPG)
+  ![taxation](assets/prerequis/5.JPG)
 
 Learning to invest is not something that is generally taught in school. Therefore, many people consider investing to be a risky, crazy, and inaccessible activity. To protect themselves, many people turn to a banker... which can turn out to be a mistake.
 
@@ -391,7 +391,7 @@ With the arrival of Bitcoin in 2009 by Satoshi Nakamoto, a multi-billion dollar 
 
 Bitcoin is a 0 to 1. It cannot be undone. Some will see it as evil personified, the Pandora's box is open and it now takes away their power and advantage. They will fight against it. Others will see in Bitcoin an opportunity to regain freedom, change the system, and improve our society. They will embrace it. Bitcoin doesn't care, it simply exists.
 
-![industry](assets/industry/2.JPG)
+![industry](assets/industrie/2.JPG)
 
 In this section, we will take a quick overview of the actors to better understand how the industry we are seeking to enter works.
 
@@ -432,11 +432,11 @@ Following the ICO bubble of 2017, many major players started developing their ow
 
 While they claim to compete with Bitcoin, these projects remain centralized in order to ensure control and comply with local regulations. They will not provide privacy protection, but rather increased mass surveillance. Facebook's "Libra" project positioned itself as a competitor to banks, not Bitcoin. Furthermore, without proof of work, a "blockchain" has no real value. It should be noted that Libra has since been abandoned and no true private blockchain project is currently being used globally, unlike Bitcoin which is.
 
-![blockchain](assets/industry/1.JPG)
+![blockchain](assets/industrie/1.JPG)
 
 The Bitcoin protocol is beyond the reach of regulations. Only the actors revolving around it can be regulated, and as Bitcoin is decentralized, laws, taxes, and regulations vary from country to country. China, for example, has banned the use of Bitcoin on numerous occasions, while countries like Canada, Switzerland, and Malta have taken a more favorable stance towards it. Most nations have set up cryptography task forces to develop new rules and regulations. However, this process is slow and the rules can change quite frequently. Despite this slow pace, Bitcoin and cryptocurrencies are at the center of many conversations.
 
-![blockchain](assets/industry/3.JPG)
+![blockchain](assets/industrie/3.JPG)
 
 It is recommended to conduct thorough research regarding the situation in your country. Banks are also heavily regulated when it comes to Bitcoin. Many of them close accounts and limit access to financial services for businesses dealing in Bitcoin, while also forming research teams to explore this new technology in order to improve their own infrastructure. No regulator, bank, or government wants to lose power, so they are preparing to deal with Bitcoin. It is important to note that Bitcoin, as such, cannot be modified or controlled by a single entity.
 
@@ -451,7 +451,7 @@ Exchange platforms serve as a link between fiat currency (government-issued curr
 
   Most legal exchange platforms comply with current banking regulations. They have also implemented rigorous Know Your Customer (KYC) procedures, which require you to provide identification to create an account. Therefore, the industry of purchasing solutions can be divided into KYC and non-KYC, as we will explore in detail soon.
 
-  ![blockchain](assets/industry/4.JPG)
+  ![blockchain](assets/industrie/4.JPG)
 
 **Caution**: "Big Brother" is watching you, supposedly for your safety, of course. Your data can be used by your government to track your activities.
 
@@ -529,7 +529,7 @@ Today, accepting Bitcoin in one's business has become a simple reality thanks to
 
 We have reached a point in the industry where everyone can participate, whether it is by using Bitcoin in their daily lives by spending it, accepting it in their business, contributing to education or code, or innovating beyond. In short, Bitcoin cannot be stopped anymore.
 
-![blockchain](assets/industry/7.JPG)
+![blockchain](assets/industrie/7.JPG)
 
 The metaphor of the "Bitcoin highway" seems to me to be one of the most accurate illustrations to describe the future of the industry and the Bitcoin infrastructure. Bitcoin positions itself as an alternative financial system. Young, in the process of maturing, and with its own imperfections, it is nevertheless solid. It will not disappear, and like a black hole, it will absorb everything in its path over time.
 
@@ -593,11 +593,16 @@ For this type of profile, it is advisable to use a cold wallet to start, such as
 
 Relevant Wallet Tutorial:
 
-- Ledger; Bitbox02; Cold Card: Trezor
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
 
 Exchange Options:
 
-- A reliable large exchange like Bitstamp, Binance, Kraken
+- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
+- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 If the hodler wants to go further: implement a DCA plan like the stacker and use a hot LN wallet for spending some bitcoin.
 
@@ -613,6 +618,7 @@ Here is a brief psychological profile of the Hodler, if you recognize yourself, 
 
 - Self-Discipline:
   The hodler is extremely disciplined. The most difficult part, as mentioned, is to do nothing, and it requires great self-discipline to resist the temptation to sell during short-term price peaks.
+
 - Resilience:
   Faced with price drops and market volatility, the hodler remains resilient, keeping faith in their investment and the future growth of Bitcoin.
 
@@ -624,6 +630,8 @@ In summary, the hodler is a patient, disciplined, and visionary investor who fir
 ## The stacker
 
 In Bitcoin, the concept of "Stacker" is quite well-known. The idea is simple: there are only 21 million bitcoins, and every little bitcoin counts! This small bitcoin is actually called a satoshi (or SAT). The stacker's goal is to accumulate as many as possible.
+
+![image](assets\tuto\11.JPG)
 
 ### The plan
 
@@ -637,11 +645,23 @@ Other solutions may include starting to sell goods or services in Bitcoin to acc
 
 ### Tutorials:
 
-- A hot wallet for quick accumulation
+A hot wallet for quick accumulation
 
-- A cold wallet for long-term security
+- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
+- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
 
-- A DCA platform to accumulate Bitcoin.
+A cold wallet for long-term security
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+A DCA platform to accumulate Bitcoin.
+
+- [Relai](https://planb.network/tutorials/exchange/relai)
+- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
 
 This type of profile can also, of course, use a broker to make a large purchase at once like a hodler, but generally, stacking is the concept of regularly adding sats to their wallet. A more common approach would be to learn how to use Bitcoin in a peer-to-peer manner and thus buy Bitcoin directly in cash with friends or members of the Bitcoin community.
 
@@ -651,6 +671,7 @@ Psychological Portrait of the Stacker
 
 - Strategic and Organized:
   The stacker is strategic in their approach to accumulating Bitcoin. They carefully plan their investments and are organized in implementing their DCA (Dollar-Cost Averaging) plan.
+
 - Goal-Oriented:
   Their main objective is clear: to accumulate as many satoshis as possible. This focus guides their actions and investment decisions, regardless of whether the price skyrockets or plummets.
 
@@ -665,6 +686,8 @@ The stacker is a methodical and focused individual, with a clear plan to maximiz
 ## The User
 
 Finally, the last type of bitcoiner that can be mentioned in an introductory course is the bitcoiner who needs to use Bitcoin regularly. Whether due to professional obligations or simply a desire to support the ecosystem, it is necessary to provide solutions suitable for frequent use.
+
+![image](assets\tuto\12.JPG)
 
 ### The Plan
 
@@ -682,12 +705,23 @@ To expose themselves to Bitcoin, this type of profile will have several options:
 
 ### Tutorial
 
-- LN Hot Wallet
+Hot Wallet LN
 
-- Cold Wallet
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
+- [Breez](https://planb.network/tutorials/wallet/breez)
 
-- Buying Platform
-  **Need:** a lightning wallet like [Phoenix](https://phoenix.acinq.co/) or [Wallet of Satoshi](https://www.walletofsatoshi.com/), a cold wallet like [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/), and a fast buying/selling solution like [Kraken](https://www.kraken.com/) or [Robosats](https://learn.robosats.com/)
+Cold Wallet
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Buying Platform
+
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 ### Is this for you?
 
@@ -718,9 +752,19 @@ They will then need to learn how to mix their coins, manage their UTXOs (Unspent
 
 ### Tutorial:
 
-- Hot wallet: [Samourai wallet](https://samouraiwallet.com/)
-- Cold wallet: [Coldcard](https://coldcard.com/) and/or [Seed Signer](https://seedsigner.com/) (DIY wallet)
-- Non-KYC purchase between individuals: [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
+Hot wallet: 
+- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+
+Cold wallet:
+- [Coldcard](https://planb.network/tutorials/wallet/coldcard) 
+- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY wallet)
+
+Non-KYC purchase between individuals: 
+- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [Bisq](https://planb.network/tutorials/exchange/bisq)
+- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+
 
 ### Is it for you?
 
@@ -929,12 +973,13 @@ I am truly proud that you have reached this stage. I sincerely mean it. What to 
 2. You may want to continue educating yourself on the technical, ideological, and philosophical aspects of Bitcoin. If you feel like your journey is just beginning, I encourage you to continue learning about Bitcoin. There is so much to learn that it is sometimes difficult to know where to start. Here is a list of courses and training that could accompany you:
 
 - Bitcoin node and Lightning Network: The Lightning Network, as we have already seen several times, brings a whole new vision of what Bitcoin is. Through this second layer, the possibilities are numerous, and an entire industry is being built on top of it. To accompany you in the discovery, I invite you to take LN 201 for a theoretical course or LN 202 for a practical course. Both courses are accessible to everyone at this stage of your learning and can help you better understand this new aspect of Bitcoin.
+
 - Austrian economics: If economics and finance are subjects that interest you, then the ECON 201 course is probably the right one to explore the deeper aspects of Austrian economics. There, you will discover this economic school of thought that opposes the more traditional Keynesianism. It is a good starting point to question our system and understand how we got here from a perspective of inflation and monetary manipulation.
+
 - Merchant solution: Finally, if you are more inclined to actually use Bitcoin, you can go to our tutorials section and explore the many solutions for merchants. This can offer you opportunities in our field, but also help your business or friends accept Bitcoin in their commerce and thus create a local economy based on Bitcoin in your city!
 
 In any case, all our courses are free, and many resources or tutorials are available on our platform to accompany you. Good luck with your studies!
 
-## Note the course!
+## Follow up
 
-## Support the course!
-Go further
+This course, as well as all the content available on this university, has been provided to you free of charge by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!

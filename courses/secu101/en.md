@@ -66,8 +66,6 @@ In this practical third section, we will move on to the implementation of your c
 
 First, we will see how to protect your email inbox, which is essential for your communications and often targeted by hackers. Then, we will introduce you to a password manager: a practical solution to no longer forget or mix up your passwords while keeping them secure. Finally, we will discuss an additional security measure, two-factor authentication, which adds an extra layer of protection to your accounts. Everything will be explained clearly and accessibly.
 
-### Bonus Section: Interview with Pantamis and Renaud
-
 # Everything you need to know about online browsing
 
 ## Online browsing

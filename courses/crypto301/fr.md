@@ -887,6 +887,8 @@ Générer une phrase mnémonique est un processus important pour sécuriser votr
 
 Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin est la méthode des signatures numériques.
 
+![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
+
 ## Conclusion et fin
 
 ### Remerciements et continuez à creuser le terrier du lapin

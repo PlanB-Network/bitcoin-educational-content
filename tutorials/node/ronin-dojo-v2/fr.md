@@ -40,7 +40,7 @@ Pour ma part, je fais fonctionner RoninDojo sur un Raspberry Pi doté de 8 Go de
 
 Il est important de noter que les équipes de RoninDojo ont signalé des problèmes fréquents liés au boîtier et à l'adaptateur SSD. J'ai moi-même été confronté à ces problèmes. **Il est donc fortement recommandé d'éviter les boîtiers équipés d'un câble USB pour le SSD de votre nœud.** Privilégiez à la place une carte d'extension de stockage conçue spécifiquement pour votre Raspberry Pi :
 
-![carte extension stockage RPI4](assets/1.png)
+![carte extension stockage RPI4](assets/fr/1.png)
 
 Pour stocker la blockchain Bitcoin, il vous faudra un SSD compatible avec la carte d'extension de stockage que vous avez choisie. Actuellement (février 2024), nous nous trouvons dans une phase de transition. Il est prévu que, dans quelques mois, les disques de 1 To ne suffiront plus pour contenir la taille croissante de la blockchain, surtout en considérant les diverses applications que vous prévoyez d'intégrer à votre nœud. Certains recommandent donc d'investir dans un SSD de 2 To pour être tranquille sur le long terme. Cependant, avec la tendance à la baisse des prix des SSD d'année en année, d'autres suggèrent de se contenter d'un disque de 1 To, qui devrait être suffisant pour un ou deux ans, argumentant qu'au moment où celui-ci deviendra obsolète, le coût des modèles de 2 To aura probablement diminué. Le choix dépend donc de vos préférences personnelles. Si vous envisagez de garder votre RoninDojo pour une durée significative et souhaitez éviter toute manipulation technique dans les années à venir, l'option d'un SSD de 2 To semble être la plus judicieuse, car elle vous offre une marge confortable pour l'avenir.
 
@@ -50,12 +50,34 @@ En complément, vous aurez besoin de divers petits composants :
 - Une carte micro SD d'au moins 16 Go (bien que 8 Go puissent techniquement suffire, la différence de prix entre les cartes de 8 et 16 Go est souvent négligeable) ;
 - Un câble Ethernet RJ45 pour la connexion réseau.
 
+![matériel noeud](assets/fr/2.png)
 
 ## Comment monter le Raspberry Pi 4 ?
+L'assemblage de votre nœud variera en fonction du matériel choisi, en particulier du type de boîtier. Toutefois, les grandes lignes des étapes à suivre restent généralement similaires dans le montage.
 
+Commencez par installer votre SSD sur la carte d'extension de stockage, en prenant soin de fixer les deux vis de verrouillage à l'arrière.
 
+![montage1](assets/fr/3.png)
 
+Puis fixez votre Raspberry Pi sur la carte d'extension.
 
+![montage2](assets/fr/4.png)
+
+Fixez également le ventilateur sur le Raspberry Pi.
+
+![montage3](assets/fr/5.png)
+
+Connectez les différents éléments en prêtant attention à utiliser les bonnes broches, en vous référant à la notice d'instructions de votre boîtier. Les fabricants de boîtiers proposent souvent des tutoriels vidéo pour vous aider dans l'assemblage. Dans mon cas, je dispose d'une carte d'extension additionnelle équipée d'un bouton on/off. Cette dernière n'est pas indispensable pour faire un nœud Bitcoin. Je l'utilise principalement pour avoir un bouton de mise sous tension.
+
+![montage4](assets/fr/6.png)
+
+Avant d'insérer l'ensemble du matériel dans le boîtier, il est important de vérifier le bon fonctionnement de votre Raspberry Pi, de la carte d'extension de stockage et du ventilateur en les mettant sous tension.
+
+![montage5](assets/fr/7.png)
+
+Enfin, installez votre Raspberry Pi dans son boîtier. Attention, une étape ultérieure nécessitera l'ajout de la carte micro SD dans le port adapté sur le Raspberry. Si votre boîtier est équipé d'une ouverture permettant d'insérer la carte SD sans avoir à l'ouvrir (comme c'est le cas pour le mien illustré sur la photo), vous pouvez procéder à la fermeture du boîtier dès à présent. En revanche, si votre boîtier ne dispose pas d'un accès direct au port micro SD, il vous faudra attendre d'avoir préparé la carte micro SD pour l'insérer avant de finaliser l'assemblage.
+
+![montage6](assets/fr/8.png)
 
 ## Comment installer RoninDojo v2 sur un Raspberry Pi 4 ?
 

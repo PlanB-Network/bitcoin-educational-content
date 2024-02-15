@@ -41,10 +41,10 @@ Many thanks to our teachers who have been part of this program:
 ### Seminaire schedual 
 
 Week 1 of the LN Tuscany event
-![image](assets\1.jpg)
+![image](assets/1.jpg)
 
 Once you've finished this course, if you are interested in the follow-up training, here is the second part of the schedule:
-![image](assets\2.jpg)
+![image](assets/2.jpg)
 
 Good luck with your studies.
 

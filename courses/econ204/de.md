@@ -35,7 +35,9 @@ Abschnitt 2 - Was ist Inflation?
 - 2.1 - Ein monetäres Phänomen
 - 2.2 - Die Arten von Inflation
 - 2.3 - Die Deflation
-  Abschnitt 3 - Was ist Hyperinflation?
+
+Abschnitt 3 - Was ist Hyperinflation?
+
 - 3.1 - Definitionen
 - 3.2 - Ähnlichkeiten zwischen Weimar und Simbabwe
 - 3.3 - Unterschiede und zeitgenössische Parallelen zwischen Weimar und Simbabwe
@@ -46,21 +48,7 @@ Abschnitt 2 - Was ist Inflation?
 Abschnitt 4 - Wie sind wir hierher gekommen?
 
 - 4.1 - Das Aufkommen der zweiten Geldschicht und der Zentralbanken
-- 4.2 - Zentralisierung der Macht durch Krisen (Rogzy)
-- 4.3 - Too big to fail & die Macht des Gesetzgebers (Rogzy)
-
-Abschnitt 5 - Hyperinflation heute (Rogzy)
-
-USD (Petrodollar)
-Euro vs CAD
-Kleine Länder (schwache Währungen, dollarisierte Länder)
-Welche Auswirkungen hätte dies auf Kanada und Frankreich (Unterschiede zwischen den Ländern im Umgang mit Hyperinflation veranschaulichen) (Theo)
-
-Abschnitt 6 - Wie man sich vor Hyperinflation schützt (Rogzy)
-
-- Gold, BTC, einen Job wählen, sich weiterbilden, mobil und flexibel sein
-  Bücher und Ressourcen
-- Bonus: Zeugnisse von Menschen, die von Hyperinflation betroffen sind (Rogzy)
+- 4.2 - Bücher und Ressourcen
 
 Viel Glück!
 

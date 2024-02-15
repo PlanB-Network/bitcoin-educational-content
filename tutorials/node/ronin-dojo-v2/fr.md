@@ -69,6 +69,8 @@ Fixez également le ventilateur sur le Raspberry Pi.
 
 Connectez les différents éléments en prêtant attention à utiliser les bonnes broches, en vous référant à la notice d'instructions de votre boîtier. Les fabricants de boîtiers proposent souvent des tutoriels vidéo pour vous aider dans l'assemblage. Dans mon cas, je dispose d'une carte d'extension additionnelle équipée d'un bouton on/off. Cette dernière n'est pas indispensable pour faire un nœud Bitcoin. Je l'utilise principalement pour avoir un bouton de mise sous tension.
 
+Si comme moi, vous avez une carte d'extension équipée d'un bouton marche/arrêt, n'oubliez pas d'installer le petit jumper « *Auto Power On* ». Cela permettra un démarrage automatique de votre nœud dès qu'il sera sous tension. Cette fonctionnalité s'avère particulièrement pratique en cas de coupure de courant, car elle permet à votre nœud de redémarrer de lui-même, sans intervention manuelle de votre part.
+
 ![montage4](assets/fr/6.png)
 
 Avant d'insérer l'ensemble du matériel dans le boîtier, il est important de vérifier le bon fonctionnement de votre Raspberry Pi, de la carte d'extension de stockage et du ventilateur en les mettant sous tension.
@@ -154,9 +156,75 @@ Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer 
 
 ![écriture micro SD terminée](assets/fr/23.png)
 
-### Étape 2 :
+### Étape 2 : Terminer le montage du nœud
+
+Vous pouvez maintenant insérer la carte micro SD dans le port adapté de votre Raspberry Pi. 
+
+![micro SD](assets/fr/24.png)
+
+Connectez ensuite votre Raspberry Pi à votre box internet à l'aide du câble Ethernet. Pour finir, mettez votre nœud en marche en connectant le câble d'alimentation et en actionnant le bouton de mise sous tension (si votre configuration en est pourvue).
+
+### Étape 3 : Établir une connexion SSH avec le nœud
+
+Pour commencer, il est nécessaire de trouver l'adresse IP de votre nœud. Vous avez le choix entre utiliser un outil tel que _[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)_ ou _[Angry IP Scanner](https://angryip.org/)_, ou consulter l'interface d'administration de votre routeur. L'adresse IP devrait se présenter sous la forme `192.168.1.??`. **Pour toutes les commandes qui suivent, remplacez `[IP]` par l'adresse IP réelle de votre nœud**, (en supprimant les crochets).
+
+Lancez un terminal.
+
+Pour éliminer une éventuelle clé déjà associée à l'adresse IP de votre nœud, exécutez la commande : `ssh-keygen -R [IP]`. Une erreur suite à cette commande n'est pas grave ; elle signifie simplement que la clé n'existe pas dans votre liste d'hôtes connus (ce qui est plutôt probable). Par exemple, si l'IP de votre nœud est `192.168.1.40`, la commande devient : `ssh-keygen -R 192.168.1.40`.
+
+Ensuite, établissez une connexion SSH avec votre nœud en exécutant la commande : `ssh pi@[IP]`.
+
+Un message s'affichera concernant l'authenticité de l'hôte : `The authenticity of host '[IP]' can't be established.`. Cela indique que l'authenticité de l'appareil auquel vous tentez de vous connecter ne peut être vérifiée faute de clé publique connue. Lors de la première connexion SSH à un nouvel hôte, ce message apparaît systématiquement. Vous devez répondre `yes` pour ajouter sa clé publique à votre répertoire local, ce qui empêchera l'affichage de ce message d'avertissement lors de connexions SSH futures à ce nœud. Saisissez donc `yes` et appuyez sur `entrer` pour valider.
+
+Il vous sera ensuite demandé de saisir votre mot de passe, celui défini précédemment comme temporaire à l'étape 1. Validez avec `entrer`. Vous serez alors connecté à votre nœud via SSH.
+
+En résumé, voici les commandes à exécuter :
+- `ssh-keygen -R [IP]`
+- `ssh pi@[IP]`
+- `yes`
+- Saisissez le mot de passe temporaire et validez.
+
+### Étape 4 : Mise à jour et préparation
+
+Vous êtes à présent connecté à votre nœud via une session SSH. Sur votre terminal, l'invite de commande devrait être : `pi@RoninDojo:~ $`. Pour commencer, mettez à jour la liste des paquets disponibles et installez les mises à jour des paquets existants avec la commande suivante :
+`sudo apt update && sudo apt upgrade -y`
+
+Une fois les mises à jour terminées, procédez à l'installation de *Git* et *Dialog* en utilisant la commande :
+`sudo apt install git dialog -y` 
+
+Ensuite, clonez la branche `master` du dépôt Git _RoninOS_ en exécutant :
+`sudo git clone --branch master https://code.samourai.io/ronindojo/RoninOS.git /opt/RoninOS`
+
+Exécutez le script `customize-image.sh` avec la commande :
+`cd /opt/RoninOS/ && sudo ./customize-image.sh`
+
+**Il est important de laisser le script s'exécuter sans interruption et d'attendre patiemment la fin de son processus**, qui dure environ 10 minutes. Lorsque le message `Setup is complete` s'affiche, vous pouvez avancer vers l'étape suivante.
+
+### Étape 5 : Lancement de RoninOS
+
+Lancez RoninOS avec la commande :
+`sudo systemctl start ronin-setup`
+
+Affichez les lignes du fichier de log avec la commande :
+`tail -f /home/ronindojo/.logs/setup.logs`
+
+À cette étape, **il est important de laisser faire le lancement de RoninOS et d'attendre la fin** de son exécution. Cela prend environ 40 minutes. Lorsque `All RoninDojo feature installations complete!` apparaît, vous pouvez passer à l'étape 6.
+
+### Étape 6 : Accéder à RoninUI et changer les identifiants
+
+Après avoir finalisé l'installation, pour vous connecter à votre nœud via un navigateur, assurez-vous que votre ordinateur personnel soit connecté au même réseau local que votre nœud. Si vous utilisez un VPN sur votre machine, désactivez-le temporairement. Pour accéder à l'interface du nœud dans votre navigateur, saisissez dans la barre d'URL :
+- Directement l'adresse IP de votre nœud, par exemple `192.168.1.??`.
+- Ou bien tapez `ronindojo.local`.
 
 
+
+.......
+
+
+
+
+
+### Étape 7 : Supprimer les identifiants temporaires
 
 
 
@@ -223,3 +291,4 @@ Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer 
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://oxt.me/](https://oxt.me/)
 - [https://kycp.org/#/](https://kycp.org/#/)
+- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)

@@ -68,6 +68,7 @@ Der Bereich der Kryptowährungen, einschließlich Bitcoin, ist immer noch relati
 Im Bereich der Finanzinvestitionen zeichnen sich Schneeballsysteme und Ponzi-Schemata als illegale Modelle aus. Sie funktionieren, indem sie das Geld neuer Investoren verwenden, um die alten Teilnehmer zu bezahlen. Ihre Nicht-Nachhaltigkeit und ihre Abhängigkeit von neuen Teilnehmern, um das System am Laufen zu halten, machen sie jedoch anfällig für einen unvermeidlichen Zusammenbruch.
 
 ![Ponzi-Schema](assets/prerequis/7.JPG)
+
 Diese Systeme werden oft durch zweifelhafte Elemente gekennzeichnet, wie zum Beispiel den Mangel an intrinsischem Wert, unrealistische Renditeversprechen und Marketingtaktiken, die Empfehlungen zur Anwerbung neuer Investoren fördern. Unveränderliche Auszahlungsfristen und die Verwendung gefälschter Profile in sozialen Netzwerken zur Werbung sind ebenfalls deutliche Anzeichen für diese Betrügereien. Aufgrund ihrer illegalen und unmoralischen Natur sowie des finanziellen Risikos, das sie darstellen, ist es wichtig, sie zu vermeiden.
 Letztendlich sind diese Systeme zum Scheitern verurteilt. Im Laufe der Zeit wird die Anforderung einer wachsenden Anzahl neuer Teilnehmer, um das System aufrechtzuerhalten, unüberwindbar. Wenn dieser Punkt erreicht ist, verschwindet die Illusion, das System bricht zusammen und die Investoren stehen oft ohne Möglichkeit zur Rückgewinnung ihrer Investition da.
 
@@ -90,6 +91,7 @@ Die Pump and Dump-Strategie folgt in der Regel einem festgelegten Muster:
 5. Der massive Verkauf führt zu einem abrupten Preisverfall des Vermögenswerts und hinterlässt viele Investoren mit erheblichen Verlusten.
 
 Es ist wichtig zu verstehen, dass die Teilnahme an solchen Strategien illegal ist und zu Klagen wegen Marktmanipulation führen kann. Darüber hinaus werden diese Strategien oft von einflussreichen Gruppen orchestriert, die Mitgliedschaftsgebühren verlangen. Obwohl einige Teilnehmer kurzfristige Gewinne erzielen können, sind Pump-and-Dump-Strategien in der Regel langfristig nicht rentabel.
+
 Daher wird empfohlen, sich auf finanzielle Bildung und verantwortungsbewusstes Investieren zu konzentrieren, anstatt sich von solchen manipulativen Taktiken verführen zu lassen. Der Erwerb solider Kenntnisse und die Annahme eines langfristigen Ansatzes sind entscheidende Schlüssel zum Erfolg in der Investmentwelt.
 
 Betrügereien im Zusammenhang mit Online-Wettbewerben oder Spenden sind im Kryptosektor sehr verbreitet. Anzeigen, die kostenlose Bitcoins versprechen, werden oft verwendet, um unerfahrene Benutzer zu täuschen. Wichtige Prinzipien, die im Hinterkopf behalten werden sollten, sind niemals Bitcoins zu senden und dabei zu erwarten, welche im Gegenzug zu erhalten, sowie Vorsicht vor unrealistischen Renditeversprechen. Es ist wichtig, nicht blind zu vertrauen, insbesondere wenn es um Banner im Internet geht.
@@ -583,11 +585,16 @@ Für diesen Anlegertyp wird empfohlen, zu Beginn eine Cold Wallet wie den Bitbox
 
 Relevante Wallet-Tutorials:
 
-- Ledger; Bitbox02; Cold Card: Trezor
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
 
 Handelsplattformen:
 
-- Eine effiziente große Börse wie Bitstamp, Binance, Kraken
+- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
+- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 Wenn der Hodler weiter gehen möchte: Einrichtung eines DCA-Plans wie Stacker und eines Hot Wallets LN für den Gebrauch, um etwas Bitcoin auszugeben.
 
@@ -603,6 +610,7 @@ Hier ist ein kleines psychologisches Porträt des Hodlers, wenn Sie sich darin w
 
 - Selbstbeherrschung:
   Der Hodler ist äußerst diszipliniert. Wie bereits erwähnt, ist das Schwierigste, nichts zu tun, und das erfordert eine große Selbstdisziplin, um der Versuchung zu widerstehen, bei kurzfristigen Preisspitzen zu verkaufen.
+
 - Widerstandsfähigkeit:
   Angesichts von Preisrückgängen und Marktvolatilität bleibt der Hodler widerstandsfähig und behält den Glauben an seine Investition und das zukünftige Wachstum von Bitcoin.
 
@@ -614,6 +622,8 @@ Insgesamt ist der Hodler ein geduldiger, disziplinierter und visionärer Investo
 ## Der Stacker
 
 In Bitcoin ist das Konzept des "Stackers" ziemlich bekannt. Die Idee ist einfach: Es gibt nur 21 Millionen Bitcoins, und jeder kleine Bitcoin zählt! Dieser kleine Bitcoin wird tatsächlich Satoshi (oder SAT) genannt. Der Stacker hat es sich zum Ziel gesetzt, so viele wie möglich anzusammeln.
+
+![image](assets/tuto/11.JPG)
 
 ### Der Plan
 
@@ -627,11 +637,23 @@ Andere Lösungen könnten darin bestehen, damit zu beginnen, Waren oder Dienstle
 
 ### Tutorials:
 
-- Eine Hot Wallet, um schnell anzusammeln.
+Eine Hot Wallet, um schnell anzusammeln.
 
-- Eine Cold Wallet für langfristige Sicherheit.
+- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
+- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
 
-- Eine DCA-Plattform zum Anhäufen von Bitcoin.
+Eine Cold Wallet für langfristige Sicherheit.
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Eine DCA-Plattform zum Anhäufen von Bitcoin.
+
+- [Relai](https://planb.network/tutorials/exchange/relai)
+- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
 
 Ein solches Profil kann natürlich auch einen Broker nutzen, um einen großen Kauf auf einmal zu tätigen, wie ein Hodler, aber im Allgemeinen besteht das Stacking-Konzept darin, regelmäßig Satoshis zu seinem Portfolio hinzuzufügen. Ein häufigerer Ansatz wäre also, Bitcoin peer-to-peer zu nutzen und Bitcoin direkt mit Bargeld von Freunden oder Mitgliedern der Bitcoin-Community zu kaufen.
 
@@ -641,6 +663,7 @@ Psychologisches Porträt des Stackers
 
 - Strategisch und organisiert:
   Der Stacker ist in seinem Ansatz, Bitcoin anzusammeln, strategisch. Er plant sorgfältig seine Investitionen und ist organisiert bei der Umsetzung seines DCA-Plans.
+
 - Fokussiert auf Ziele:
   Sein Hauptziel ist klar: so viele Satoshis wie möglich anzusammeln. Diese Fokussierung leitet seine Handlungen und Investitionsentscheidungen, unabhängig davon, ob der Preis explodiert oder drastisch fällt.
 
@@ -655,6 +678,8 @@ Der Stacker ist eine methodische und fokussierte Person mit einem klaren Plan, u
 ## Der Benutzer
 
 Schließlich ist der letzte Typ von Bitcoiner, der in einem Einführungskurs erwähnt werden kann, der Bitcoiner, der Bitcoin regelmäßig nutzen muss. Ob aus beruflichen Verpflichtungen oder einfach aus dem Wunsch, das Ökosystem zu unterstützen, es ist notwendig, Lösungen für den häufigen Gebrauch vorzusehen.
+
+![image](assets/tuto/12.JPG)
 
 ### Der Plan
 
@@ -672,12 +697,24 @@ Um sich Bitcoin auszusetzen, hat dieser Profiltyp mehrere Optionen:
 
 ### Tutorial
 
-- Hot Wallet LN
+Hot Wallet LN
 
-- Cold Wallet
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
+- [Breez](https://planb.network/tutorials/wallet/breez)
 
-- Kaufplattform
-  **Bedarf:** Eine Lightning Wallet wie [Phoenix](https://phoenix.acinq.co/) oder [Wallet of Satoshi](https://www.walletofsatoshi.com/), eine Cold Wallet wie [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/) und eine schnelle Kauf-/Verkaufslösung wie [Kraken](https://www.kraken.com/) oder [Robosats](https://learn.robosats.com/).
+Cold Wallet
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Kaufplattform
+
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
+
 
 ### Ist dies für Sie?
 
@@ -696,6 +733,8 @@ Der Benutzer ist technisch versiert und aktiv in der Nutzung von Bitcoin engagie
 
 An dieser Stelle möchte ich den paranoiden Bitcoin-Nutzer hinzufügen. Diese Art von Person möchte sich nicht dem KYC (Know Your Customer) aussetzen, bevorzugt Anonymität und legt großen Wert auf ihre Privatsphäre. Der Paranoide wird auch LN über seinen eigenen Knoten verwenden und an seiner Sicherheit arbeiten.
 
+![image](assets/tuto/13.JPG)
+
 ### Der Plan
 
 Für dieses Profil ist die Lösung für Anfänger recht einfach:
@@ -708,9 +747,19 @@ Anschließend muss er lernen, seine Coins zu mischen, seine UTXOs (Unspent Trans
 
 ### Tutorial:
 
-- Hot Wallet: [Samourai Wallet](https://samouraiwallet.com/)
-- Cold Wallet: [Coldcard](https://coldcard.com/) und/oder [Seed Signer](https://seedsigner.com/) (DIY-Wallet)
-- Nicht-KYC-Kauf zwischen Privatpersonen: [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
+Hot Wallet: 
+- [Samourai Wallet](https://planb.network/tutorials/wallet/samourai)
+
+Cold Wallet: 
+- [Coldcard](https://planb.network/tutorials/wallet/coldcard)  
+- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY-Wallet)
+
+Nicht-KYC-Kauf zwischen Privatpersonen:
+
+- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [Bisq](https://planb.network/tutorials/exchange/bisq)
+- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
 
 ### Ist es für Sie?
 
@@ -796,11 +845,13 @@ Es wird immer einen Kompromiss zwischen technischer Expertise, Verfügbarkeit un
 
 Aufteilung der Verantwortlichkeiten: Die Vertrauensperson sollte NIEMALS Zugriff auf Ihren privaten Schlüssel haben. Ihre einzige Aufgabe besteht darin, Ihren Angehörigen dabei zu helfen, das Sicherheitssystem Ihrer Bitcoins zu verstehen und Vertrauen aufzubauen. Deshalb wählen Sie zwei vertrauenswürdige Personen aus. Bei Bedarf können Sie auch auf eine Drittpartei (spezialisierter Anwalt oder Nachlassplanungsdienste) zurückgreifen.
 
-| Vertrauensperson      | Vertrauen        | BTC-Kenntnisse | Vertrauenswürdige Informationen | Hinweis                                                                                  |
-| --------------------- | ---------------- | -------------- | ------------------------------- | ---------------------------------------------------------------------------------------- | --- | ------------------ | ---- | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------ |
-| Mein Bruder Bob       | Sehr groß        | Niedrig        | Telefon & E-Mail                | "Bob weiß nicht viel über BTC, aber wir können ihm zu 100% vertrauen, um zu helfen."     |     | Mein Cousin Nathan | Groß | Durchschnittlich | Telefon & Instagram | Die Nummer 1 der Personen, mit denen man sprechen kann. Er kann Ihnen helfen. Er ist informiert. |
-| Ricco (Crypto-Kumpel) | Durchschnittlich | Sehr groß      | Twitter & E-Mail & Foto         | Vertrauen Sie ihm bei technischen Fragen. Niemals mit Geld. Sie müssen ihn kontaktieren. |
-| YouTuber & Influencer | Niedrig          | Groß           | YouTube-Link                    | Bilden Sie sich weiter, indem Sie ihm folgen. Er kann Ihnen nicht direkt helfen.         |
+| Vertrauensperson         | Vertrauen      | BTC-Kenntnisse  | Vertrauenswürdige Informationen | Hinweis                                                                                      |
+|--------------------------|----------------|-----------------|---------------------------------|---------------------------------------------------------------------------------------------|
+| Mein Bruder Bob          | Sehr groß      | Niedrig         | Telefon & E-Mail                | "Bob weiß nicht viel über BTC, aber wir können ihm zu 100% vertrauen, um zu helfen."        |
+| Mein Cousin Nathan       | Groß           | Durchschnittlich| Telefon & Instagram             | "Die Nummer 1 der Personen, mit denen man sprechen kann. Er kann Ihnen helfen. Er ist informiert." |
+| Ricco (Crypto-Kumpel)    | Durchschnittlich| Sehr groß       | Twitter & E-Mail & Foto         | "Vertrauen Sie ihm bei technischen Fragen. Niemals mit Geld. Sie müssen ihn kontaktieren."  |
+| YouTuber & Influencer    | Niedrig        | Groß            | YouTube-Link                    | "Bilden Sie sich weiter, indem Sie ihm folgen. Er kann Ihnen nicht direkt helfen."          |
+
 
 ### Schritt 2: Machen Sie eine einfache und schnelle Bestandsaufnahme
 
@@ -912,5 +963,3 @@ In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ress
 ## Unterstützen Sie die Schulung!
 
 Dieser Kurs sowie der gesamte Inhalt dieser Universität werden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn mit anderen teilen, Mitglied der Universität werden und sogar über GitHub zu ihrer Entwicklung beitragen. Im Namen des gesamten Teams, vielen Dank!
-
-## gehen Sie weiter

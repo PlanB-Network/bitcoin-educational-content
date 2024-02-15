@@ -623,11 +623,16 @@ Pour ce type de profil, il est conseillé d'utiliser un portefeuille de type fro
 
 Tutoriel Portfeuille pertinant:
 
-- Ledger ; bitbox02 ; cold card : trezor
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
 
-Moyen d'échange:
+Moyen d'échange qui permet de faire du volume:
 
-- Un gros éxchange efficae type bitstamp, bifinnex, kraken
+- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
+- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 Si le hold veut allez plus loins: mise en place d'un plan de DCA comme le stacker et un portfeuille chaud LN d'utilisation pour dépenser un peu de bitcoin
 
@@ -656,6 +661,8 @@ En somme, le hodler est un investisseur patient, discipliné, et visionnaire, qu
 
 Dans Bitcoin, le concept de "Stacker" est assez connu. L'idée est simple : il n'y a que 21 millions de bitcoins, et chaque petit bitcoin compte ! Ce petit bitcoin est en réalité appelé un satoshi (ou SAT). Le stacker se donne pour objectif d'en accumuler un maximum.
 
+![image](assets/tuto/11.JPG)
+
 ### Le plan
 
 Pour y parvenir, il va essayer de maximiser son exposition au maximum. Il va donc créer un plan de DCA (Dollar-Cost Averaging) pour pouvoir acheter un peu chaque semaine. C'est la meilleure solution pour commencer à s'exposer à Bitcoin sans avoir un capital initial important. Que ce soit 10 € par semaine, 25 € par semaine ou 100 € par mois, l'important est d'accumuler des satoshis sans trop y réfléchir. Son plan sera assez simple :
@@ -668,11 +675,23 @@ D'autres solutions peuvent consister à commencer à vendre des biens ou des ser
 
 ### Tutorials:
 
-- Un portefuille chaud pour accumulé rapidement
+Un portefuille chaud pour accumulé rapidement
 
-- Un portefeuille froid pour la sécurisation long terme
+- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
+- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
 
-- Une plateforme de DCA pour acculumuer du bitccoin.
+Un portefeuille froid pour la sécurisation long terme
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Une plateforme de DCA pour acculumuer du bitccoin.
+
+- [Relai](https://planb.network/tutorials/exchange/relai)
+- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
 
 Ce type de profile peut aussi bien evidement utilsier unbroker pour faire un gros achat d'un coup comme un holds, mais genement le stacking esty concepte de rajouter régulierement des sat a son portfeuille. Une approche plus courrente serait donc d'apprendre a utiliser bitcoin de facon pair a pair et ainsi acheter des bitcoin directement en cash avec des proche ou des membre de la communauté bitcoin
 
@@ -698,6 +717,8 @@ Le stacker est un individu méthodique et focalisé, avec un plan clair pour max
 
 Enfin, le dernier type de bitcoiner que l'on peut mentionner dans un cours d'introduction est le bitcoiner qui doit utiliser Bitcoin régulièrement. Que ce soit en raison d'une obligation professionnelle ou simplement par volonté de soutenir l'écosystème, il est nécessaire de prévoir des solutions adaptées à une utilisation fréquente.
 
+![image](assets/tuto/12.JPG)
+
 ### Le plan
 
 Pour cet utilisateur, il sera probablement nécessaire d'avoir deux types de portefeuilles :
@@ -714,13 +735,23 @@ Pour s'exposer à Bitcoin, ce type de profil aura plusieurs options :
 
 ### Tutorial
 
-- Portefeuille chaud LN
+Portefeuille chaud LN
 
-- Portefeuille froid
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
+- [Breez](https://planb.network/tutorials/wallet/breez)
 
-- Plateforme d'achat
+Portefeuille froid
 
-**Besoin :** un portefeuille lightning comme [Phoenix](https://phoenix.acinq.co/) ou [Wallet of Satoshi](https://www.walletofsatoshi.com/), un portefeuille froid de type [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/) et une solution d'achat/vente rapide comme [Kraken](https://www.kraken.com/) ou [Robosats](https://learn.robosats.com/)
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Plateforme d'achat
+
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 ### Est-ce pour vous ?
 
@@ -739,6 +770,8 @@ L'utilisateur est une personne technologiquement avisée et engagée dans l'util
 
 Je me permets d'ajouter ici le bitcoiner paranoïaque. Ce type de personne ne souhaite pas s'exposer au KYC (Know Your Customer), préfère rester proche de l'anonymat et accorde une grande importance à sa vie privée. Le paranoïaque utilisera aussi LN via son propre nœud et travaillera sur sa sécurité.
 
+![image](assets/tuto/13.JPG)
+
 ### Le plan
 
 Pour ce type de profil, la solution pour les débutants est assez simple :
@@ -751,9 +784,19 @@ Il devra ensuite apprendre à mélanger ses coins, gérer ses UTXO (Unspent Tran
 
 ### Tutorial:
 
-- Portefeuille chaud : [Samourai wallet](https://samouraiwallet.com/)
-- Portefeuille froid : [Coldcard](https://coldcard.com/) et/ou [Seed Signer](https://seedsigner.com/) (wallet DIY)
-- Achat non KYC entre particuliers : [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
+Portefeuille chaud :
+- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+
+Portefeuille froid : 
+- [Coldcard](https://planb.network/tutorials/wallet/coldcard) 
+- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (wallet DIY)
+
+Achat non KYC entre particuliers :
+
+- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [Bisq](https://planb.network/tutorials/exchange/bisq)
+- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
 
 ### Est-ce pour vous ?
 
@@ -974,5 +1017,3 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 ## Soutiens la formation !
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
-
-## allez plus loin

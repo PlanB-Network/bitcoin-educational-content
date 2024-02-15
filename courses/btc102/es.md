@@ -580,11 +580,16 @@ Para este tipo de perfil, se recomienda utilizar una billetera fría para comenz
 
 Tutorial de billetera relevante:
 
-- Ledger; bitbox02; cold card: trezor
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
 
 Medio de intercambio:
 
-- Una gran plataforma de intercambio eficiente como bitstamp, bifinnex, kraken
+- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
+- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 Si el hodler quiere ir más allá: implementar un plan de DCA como el stacker y una billetera caliente LN para gastar un poco de bitcoin.
 
@@ -600,6 +605,7 @@ Aquí hay un pequeño retrato psicológico del hodler, si te reconoces, ¡tal ve
 
 - Auto-disciplina:
   El hodler es extremadamente disciplinado. La parte más difícil, como se mencionó, es no hacer nada, y esto requiere una gran autodisciplina para resistir la tentación de vender en los picos de precios a corto plazo.
+
 - Resiliencia:
   Frente a las caídas de precios y la volatilidad del mercado, el hodler se mantiene resiliente, manteniendo la fe en su inversión y en el crecimiento futuro de Bitcoin.
 
@@ -611,6 +617,9 @@ En resumen, el hodler es un inversor paciente, disciplinado y visionario, que cr
 ## El stacker
 
 En Bitcoin, el concepto de "Stacker" es bastante conocido. La idea es simple: ¡solo hay 21 millones de bitcoins, y cada pequeño bitcoin cuenta! Este pequeño bitcoin se llama en realidad un satoshi (o SAT). El stacker tiene como objetivo acumular la mayor cantidad posible.
+
+![image](assets/tuto/11.JPG)
+
 
 ### El plan
 
@@ -624,11 +633,23 @@ Otras soluciones pueden incluir comenzar a vender bienes o servicios en Bitcoin 
 
 ### Tutoriales:
 
-- Una billetera caliente para acumular rápidamente.
+Una billetera caliente para acumular rápidamente.
 
-- Una billetera fría para la seguridad a largo plazo.
+- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
+- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
 
-- Una plataforma de DCA para acumular Bitcoin.
+Una billetera fría para la seguridad a largo plazo.
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Una plataforma de DCA para acumular Bitcoin.
+
+- [Relai](https://planb.network/tutorials/exchange/relai)
+- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
 
 Este tipo de perfil también puede utilizar un bróker para realizar una gran compra de una vez, como un hodler, pero generalmente el stacking es el concepto de agregar satoshis regularmente a su billetera. Un enfoque más común sería aprender a usar Bitcoin de manera peer-to-peer y comprar Bitcoin directamente en efectivo con amigos o miembros de la comunidad de Bitcoin.
 
@@ -638,6 +659,7 @@ Retrato psicológico del stacker
 
 - Estratégico y organizado:
   El acumulador es estratégico en su enfoque de acumulación de Bitcoin. Planifica cuidadosamente sus inversiones y está organizado en la implementación de su plan de DCA.
+
 - Enfocado en los Objetivos:
   Su objetivo principal es claro: acumular la mayor cantidad de satoshis posible. Esta focalización guía sus acciones y decisiones de inversión, sin importar si el precio se dispara o cae drásticamente.
 
@@ -652,6 +674,8 @@ El acumulador es una persona metódica y enfocada, con un plan claro para maximi
 ## El usuario
 
 Por último, el último tipo de bitcoiner que se puede mencionar en un curso de introducción es el bitcoiner que necesita usar Bitcoin regularmente. Ya sea debido a una obligación profesional o simplemente por voluntad de apoyar el ecosistema, es necesario prever soluciones adaptadas a un uso frecuente.
+
+![image](assets/tuto/12.JPG)
 
 ### El plan
 
@@ -669,12 +693,23 @@ Para exponerse a Bitcoin, este tipo de perfil tendrá varias opciones:
 
 ### Tutorial
 
-- Billetera caliente LN
+Billetera caliente LN
 
-- Billetera fría
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
+- [Breez](https://planb.network/tutorials/wallet/breez)
 
-- Plataforma de compra
-  **Necesidad:** una billetera lightning como [Phoenix](https://phoenix.acinq.co/) o [Wallet of Satoshi](https://www.walletofsatoshi.com/), una billetera fría como [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/) y una solución rápida de compra/venta como [Kraken](https://www.kraken.com/) o [Robosats](https://learn.robosats.com/)
+Billetera fría
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Plataforma de compra
+
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 ### ¿Es para ti?
 
@@ -693,6 +728,8 @@ El usuario es una persona tecnológicamente informada y comprometida con el uso 
 
 Me gustaría agregar aquí al bitcoiner paranoico. Este tipo de persona no desea exponerse al KYC (Conoce a tu cliente), prefiere mantenerse cerca del anonimato y valora mucho su privacidad. El paranoico también utilizará LN a través de su propio nodo y trabajará en su seguridad.
 
+![image](assets/tuto/13.JPG)
+
 ### El plan
 
 Para este tipo de perfil, la solución para principiantes es bastante simple:
@@ -705,9 +742,20 @@ Luego, deberá aprender a mezclar sus monedas, administrar sus UTXO (Salidas de 
 
 ### Tutorial:
 
-- Billetera caliente: [Samourai wallet](https://samouraiwallet.com/)
-- Billetera fría: [Coldcard](https://coldcard.com/) y/o [Seed Signer](https://seedsigner.com/) (billetera DIY)
-- Compra sin KYC entre particulares: [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
+Billetera caliente: 
+- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+
+Billetera fría: 
+
+- [Coldcard](https://planb.network/tutorials/wallet/coldcard)
+- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (billetera DIY)
+
+Compra sin KYC entre particulares:
+- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [Bisq](https://planb.network/tutorials/exchange/bisq)
+- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+
 
 ### ¿Es para ti?
 
@@ -793,11 +841,12 @@ Siempre habrá un compromiso entre experiencia técnica, disponibilidad y confia
 
 Separación de responsabilidades: La persona de confianza NUNCA debe tener acceso a su clave privada. Su único papel es ayudar a sus seres queridos a comprender el sistema de seguridad de sus bitcoins y a ganar confianza. Por eso elige a dos personas de confianza. Si es necesario, también puede recurrir a una organización externa (abogado especializado o servicios de planificación sucesoria).
 
-| Persona de confianza    | Confianza | Conocimiento en BTC | Información de confianza | Nota                                                                           |
-| ----------------------- | --------- | ------------------- | ------------------------ | ------------------------------------------------------------------------------ | --- | --------------- | ---- | ----- | -------------------- | --------------------------------------------------------------------------- |
-| Mi hermano Bob          | Muy alto  | Bajo                | Teléfono y correo        | "Bob no sabe mucho sobre BTC, pero podemos confiar en él al 100% para ayudar." |     | Mi primo Nathan | Alto | Medio | Teléfono e Instagram | Número 1 de las personas con las que hablar. Puede ayudarte. Está al tanto. |
-| Ricco (amigo de cripto) | Medio     | Muy alto            | Twitter, correo y foto   | Confía en él en cuestiones técnicas. Nunca con el dinero. Deberás contactarlo. |
-| YouTuber e influencer   | Bajo      | Alto                | Enlace de YouTube        | Aprende siguiéndolo. No puede ayudarte directamente.                           |
+| Persona de confianza    | Confianza | Conocimiento en BTC | Información de confianza  | Nota                                                                                   |
+|-------------------------|-----------|---------------------|---------------------------|----------------------------------------------------------------------------------------|
+| Mi hermano Bob          | Muy alto  | Bajo                | Teléfono y correo         | "Bob no sabe mucho sobre BTC, pero podemos confiar en él al 100% para ayudar."         |
+| Mi primo Nathan         | Alto      | Medio               | Teléfono e Instagram      | "Número 1 de las personas con las que hablar. Puede ayudarte. Está al tanto."          |
+| Ricco (amigo de cripto) | Medio     | Muy alto            | Twitter, correo y foto    | "Confía en él en cuestiones técnicas. Nunca con el dinero. Deberás contactarlo."       |
+| YouTuber e influencer   | Bajo      | Alto                | Enlace de YouTube         | "Aprende siguiéndolo. No puede ayudarte directamente."                                 |
 
 ### Paso 2: Realiza un inventario simple y rápido
 
@@ -859,19 +908,21 @@ Aquí están las personas que pueden ayudarles a responder preguntas y guiarles 
 
 (Inserta aquí el nombre de tus asesores, su afiliación a una organización (si corresponde), sus datos de contacto y cómo deben verificar su identidad, por ejemplo, base de datos de claves, fotos.)
 
-- "J'ai également utilisé mon ordinateur de bureau (MacBook Pro) pour accéder à différentes plateformes d'échange, applications, jeux et sites web liés aux bitcoins. Les identifiants et mots de passe nécessaires sont enregistrés dans un gestionnaire de mots de passe sécurisé, dont la clé d'accès est stockée dans le coffre de la banque."
+* También he usado mi computadora de escritorio (MacBook Pro) para acceder a diferentes plataformas de intercambio, aplicaciones, juegos y sitios web relacionados con bitcoins. Los identificadores y contraseñas necesarios están guardados en un gestor de contraseñas seguro, cuya clave de acceso se almacena en la caja fuerte del banco."
 
-- "J'ai récemment commencé à utiliser des portefeuilles physiques pour une meilleure sécurité. J'ai un portefeuille matériel Ledger Nano S qui est conservé dans le coffre de la banque, ainsi qu'une copie de sauvegarde stockée chez mon cousin Nathan."
+* Recientemente, he empezado a utilizar carteras físicas para mayor seguridad. Tengo una cartera de hardware Ledger Nano S que se guarda en la caja fuerte del banco, así como una copia de seguridad almacenada en la casa de mi primo Nathan."
 
-- "J'ai également mis en place une phrase secrète (passphrase) pour renforcer la sécurité de mes portefeuilles. La phrase secrète est écrite sur un morceau de papier et est conservée dans un endroit sûr à la maison."
+* También he establecido una frase secreta (passphrase) para aumentar la seguridad de mis carteras. La frase secreta está escrita en un pedazo de papel y se conserva en un lugar seguro en casa."
 
-- "Enfin, j'ai également configuré des portefeuilles multisig pour une sécurité supplémentaire. Les clés nécessaires sont réparties entre moi-même, mon frère Bob et mon ami Ricco. Les détails de la configuration sont enregistrés dans un document sécurisé, dont une copie est conservée dans le coffre de la banque."
+* Finalmente, también he configurado carteras multisig para una seguridad adicional. Las claves necesarias se distribuyen entre mí, mi hermano Bob y mi amigo Ricco. Los detalles de la configuración se guardan en un documento seguro, del cual se conserva una copia en la caja fuerte del banco."
 
-Veuillez noter que les informations ci-dessus sont fictives et ne doivent pas être utilisées comme de véritables informations personnelles.
+Por favor, ten en cuenta que la información anterior es ficticia y no debe ser utilizada como información personal real.
 
 - Utilizo mi computadora Dell 2018 para acceder a una plataforma de intercambio en línea llamada Bitstamp. Es posible que todavía tenga bitcoins o dólares en esta plataforma. Para acceder a mi cuenta, deberán contactar directamente a Bitstamp o iniciar sesión en mi cuenta (ten en cuenta que esto puede ser ilegal, verifica la legislación local).
+
 - Utilicé un administrador de contraseñas para acceder a ella y encontrarán mi respaldo en la caja de seguridad del banco. La cuenta también está protegida por autenticación de dos factores, a la cual pueden acceder a través de mi teléfono (Samsung Galaxy S8) o utilizando el código de respaldo almacenado en casa.
 - También tengo BTC en un dispositivo Trezor Model One. Accedo a él a través de mi PC y el sitio web Trezor.io. Las claves privadas de respaldo se encuentran almacenadas en la caja de seguridad del banco y con el tío Bob. El código PIN se encuentra en casa y con mi madre. El dispositivo en sí probablemente está en una caja fuerte en mi oficina.
+
 - Utilizo una frase secreta de seguridad avanzada para mi dispositivo Trezor. La copia de respaldo de esta frase secreta se encuentra en casa y con mi madre".
 
 Ahora vamos a concluir la carta con alguna información legal si es necesario, así como con palabras amables.
@@ -885,6 +936,7 @@ Ahora verifiquemos nuestro trabajo (Según "Cryptoasset Inheritance Planning" de
 - Activos: asegúrate de haber incluido una lista de tus activos.
 - Intercambios: verifica que hayas enumerado todos los intercambios que tienen fondos para ti.
 - Acceso: enumera la información que necesitarán para encontrar tu lugar de almacenamiento, así como todos los códigos de acceso necesarios.
+
   Si has marcado todas las casillas, ¡entonces estás listo para los últimos pasos! Haz una copia de esta carta y guarda ambas copias en un sobre. Ciérralo, firma el sello y guarda este sobre en un lugar seguro pero accesible. Asegúrate de que tus herederos sepan que deben recuperar este sobre si es necesario. No dudes en comprar el libro de Pamela para profundizar en este tema y planificar un momento para mejorar tu plan de herencia. También discútelo con tu notario para integrar legalmente este plan en tu testamento oficial.
   ¡Bravo! ¡Tienes una primera versión de tu plan de herencia y es un excelente comienzo!
 
@@ -900,13 +952,17 @@ Si has estado siguiendo nuestro contenido desde el principio, ¡ahora eres un ve
 Realmente estoy orgulloso de que hayas alcanzado este punto. Lo digo sinceramente. ¿Qué hacer a continuación? Si bien definitivamente deberías relajarte ahora y estar orgulloso de ti mismo, tu viaje con Bitcoin está lejos de terminar, y nunca realmente lo hará. Aquí tienes algunas opciones para seguir:
 
 1. Podrías simplemente continuar como lo has estado haciendo hasta ahora. Continúa acumulando bitcoins poco a poco y deja que tu estrategia se desarrolle con el tiempo. Ya tienes un nivel de seguridad suficiente, todo está en su lugar y has hecho lo necesario para ti y tu familia. No necesitas convertirte en un experto en trading y no necesitas saber mucho más sobre inversión. Probablemente tengas un trabajo aparte y aunque Bitcoin sea emocionante, tu objetivo principal era llegar a este punto. Esto es cierto para la mayoría de ustedes y lo respeto. Estoy muy contento de que hayas llegado hasta aquí en la "madriguera del conejo" de Bitcoin y espero que el viaje haya sido agradable. Gracias por confiar en mí para ayudarte a asegurar tus primeros bitcoins.
+
 2. Podrías querer seguir educándote sobre los aspectos técnicos, ideológicos y filosóficos de Bitcoin. Si sientes que tu viaje apenas comienza, te animo a seguir aprendiendo sobre Bitcoin. Hay tantas cosas que aprender que a veces es difícil saber por dónde empezar. Aquí tienes una lista de cursos y formaciones que podrían acompañarte:
 
 - Nodo de Bitcoin y Lightning Network: la Lightning Network, como ya hemos visto varias veces, ofrece una visión completamente diferente de lo que es Bitcoin. A través de esta capa dos, las posibilidades son múltiples y se está construyendo toda una industria sobre ella. Para ayudarte en el descubrimiento, te invito a hacer LN 201 para un curso teórico o LN 202 para un curso práctico. Ambos cursos son accesibles para todos en esta etapa de tu aprendizaje y pueden ayudarte a comprender mejor este nuevo aspecto de Bitcoin.
+
 - Economía austriaca: si la economía y las finanzas son temas que te interesan, entonces el curso ECON 201 es probablemente el adecuado para explorar los aspectos más profundos de la economía austriaca. Allí descubrirás este movimiento de pensamiento económico que se opone al movimiento más tradicional del keynesianismo. Es un buen comienzo para cuestionar nuestro sistema y comprender cómo llegamos a este punto desde el punto de vista de la inflación y la manipulación monetaria.
+
 - Solución para comerciantes: por último, si eres más del tipo que realmente quiere usar Bitcoin, puedes ir a nuestra sección de tutoriales y explorar las muchas soluciones para comerciantes. Esto puede ofrecerte oportunidades en nuestro entorno, pero también puede ayudarte a que tu empresa o tus amigos acepten Bitcoin en su comercio y así impulsar una economía local basada en Bitcoin en tu ciudad.
 
-En cualquier caso, todas nuestras formaciones siguen siendo gratuitas y hay muchos recursos o tutoriales disponibles en nuestra plataforma para acompañarte. ¡Buena suerte en tus estudios!## ¡Apoya la formación!
-Este curso, junto con todo el contenido presente en esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con otros, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de GitHub. En nombre de todo el equipo, ¡gracias!
+En cualquier caso, todas nuestras formaciones siguen siendo gratuitas y hay muchos recursos o tutoriales disponibles en nuestra plataforma para acompañarte. ¡Buena suerte en tus estudios!
 
-## ir más allá
+## ¡Apoya la formación!
+
+Este curso, junto con todo el contenido presente en esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con otros, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de GitHub. En nombre de todo el equipo, ¡gracias!

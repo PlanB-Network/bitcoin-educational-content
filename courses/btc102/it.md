@@ -288,7 +288,12 @@ Bitcoin è un protocollo informatico che consente di inviare valore in tutto il 
 
 Il famoso Bitcoin di cui sentite parlare tutto il tempo è quindi questa valuta digitale. Gli utenti di Bitcoin si inviano Bitcoin tra portafogli, e tutto ciò funziona grazie a una rete di nodi (server Bitcoin) che propagano le transazioni di tutti gli utenti tra di loro. Per garantire la finalità delle transazioni, alcuni attori di questa rete sono anche dei minatori (i famosi minatori), il cui obiettivo è registrare le transazioni propagate nella blockchain di Bitcoin (ancora più famosa).
 
+![in poche parole](assets/section2/6.JPG)
+
 Grazie a questo meccanismo piuttosto strano, otteniamo un database (la blockchain) che è immutabile nel tempo, decentralizzato nello spazio e che funziona ininterrottamente in tutto il mondo.
+
+![in poche parole](assets/section2/7.JPG)
+
 Ciò consente quindi, per la prima volta nella storia dell'umanità, di avere un sistema contabile a tripla entrata che consente a chiunque di utilizzare un sistema finanziario alternativo costruito su Internet senza nessuno che lo controlli o lo distrugga.
 
 Oltre al suo funzionamento tecnico (BTC 101 lo spiega), possiamo notare due caratteristiche che fanno di Bitcoin ciò che è oggi dopo 14 anni di esistenza:
@@ -382,7 +387,7 @@ With the arrival of Bitcoin in 2009 by Satoshi Nakamoto, a multi-billion dollar 
 
 Bitcoin is a 0 to 1. It cannot be undone. Some will see it as evil personified, Pandora's box is open and it now takes away their power and advantage. They will fight against it. Others will see in Bitcoin an opportunity to regain freedom, change the system, and improve our society. They will embrace it. Bitcoin doesn't care, it simply exists.
 
-![industry](assets/industry/2.JPG)
+![industry](assets/industrie/2.JPG)
 
 In this section, we will take a quick overview of the actors to better understand how the industry we are seeking to enter works.
 
@@ -497,6 +502,7 @@ Un potere illimitato? No. Gli sviluppatori principali non hanno un potere illimi
 ## L'architettura a strati di Bitcoin
 
 Bitcoin, come protocollo open source, può essere completato e arricchito da strati di protocolli/applicazioni aggiunti da chiunque. Alcune di queste funzionalità sono più significative di altre, creando un ecosistema dinamico con molte aziende che contribuiscono alla costruzione dell'infrastruttura. Esempi di tali progetti includono: Sidechains (ad esempio, Liquid Chain di Blockstream), Lightning Network di Lightning Labs e concetti di identità (ad esempio, Microsoft ION). Questi progetti sono come strati aggiuntivi aggiunti al protocollo Bitcoin iniziale.
+
 **Sapevi che?** Internet non è stato costruito in un unico blocco. È piuttosto il risultato di diversi strati di protocolli impilati l'uno sull'altro - HTTP, TCP, IP. In questo modo, ogni strato è estremamente efficiente nel compiere il compito specifico assegnatogli, mentre gli altri livelli soddisfano altre esigenze.
 
 Lightning è ora accessibile a tutti, è il livello di applicazione di Bitcoin
@@ -574,11 +580,16 @@ Per questo tipo di profilo, è consigliabile utilizzare un portafoglio freddo pe
 
 Tutorial sul portafoglio rilevante:
 
-- Ledger; Bitbox02; Cold card: Trezor
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
 
 Modalità di scambio:
 
-- Una grande piattaforma di scambio efficace come Bitstamp, Binance, Kraken
+- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
+- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 Se l'Hodler vuole andare oltre: creazione di un piano DCA come lo stacker e un portafoglio caldo LN per l'utilizzo di spendere un po' di bitcoin.
 
@@ -592,32 +603,78 @@ Ecco un piccolo ritratto psicologico dell'Hodler, se ti riconosci potrebbe esser
 - Visione a lungo termine:
   Ha una visione a lungo termine, credendo fermamente nel valore e nell'adozione crescente di Bitcoin nonostante gli ostacoli e le critiche.
 
-- Auto-disciplina:
-  Il stacker est extrêmement stratégique et organisé dans sa démarche d'accumulation de bitcoins. Il met en place un plan DCA et suit une méthode méthodique pour maximiser son exposition à Bitcoin.
+- Autodisciplina: 
+  L'hodler è estremamente disciplinato. La parte più difficile, come detto, è non fare nulla, e richiede grande autodisciplina resistere alla tentazione di vendere durante i picchi di prezzo a breve termine.
 
-- Patient et Persévérant: Le stacker est prêt à attendre et à accumuler des satoshis sur le long terme. Il est conscient que la valeur de Bitcoin peut fluctuer et est prêt à supporter la volatilité pour atteindre ses objectifs.
+- Resilienza:
+ Di fronte a cali di prezzo e volatilità del mercato, l'hodler rimane resiliente, mantenendo la fiducia nel proprio investimento e nella crescita futura del Bitcoin.
 
-- Visionnaire: Le stacker croit en la valeur à long terme de Bitcoin et en sa capacité à provoquer un changement positif dans le monde. Il est motivé par sa vision d'un avenir où Bitcoin joue un rôle central dans le système financier mondial.
+- Credenza nella Tecnologia:
+ Oltre al semplice perseguimento del profitto, l'hodler crede spesso nella tecnologia blockchain e nella capacità del Bitcoin di apportare cambiamenti positivi nel mondo.
 
-- Impliqué dans l'écosystème: Le stacker est souvent actif dans la communauté Bitcoin. Il cherche des opportunités pour accumuler davantage de satoshis, que ce soit en vendant des biens ou des services en Bitcoin, en demandant à être remboursé en Bitcoin ou en s'impliquant dans des projets liés à la technologie blockchain.
+In sintesi, l'hodler è un investitore paziente, disciplinato e visionario che crede fermamente nel valore a lungo termine del Bitcoin e è disposto a sopportare la volatilità a breve termine per ottenere guadagni sostanziali in futuro. È metodico nella sua strategia di investimento e attento alla sicurezza e alla pianificazione a lungo termine.
 
-En somme, le stacker est un investisseur stratégique, patient et visionnaire, qui croit fermement en la valeur à long terme de Bitcoin et qui est prêt à accumuler des satoshis régulièrement pour atteindre ses objectifs. Il est organisé dans sa démarche et impliqué dans l'écosystème Bitcoin.
-Lo stacker è strategico nel suo approccio all'accumulo di Bitcoin. Pianifica attentamente i suoi investimenti ed è organizzato nell'attuazione del suo piano di DCA.
+## Il stacker
 
-- Focalizzato sugli Obiettivi:
-  Il suo obiettivo principale è chiaro: accumulare il maggior numero possibile di satoshi. Questa focalizzazione guida le sue azioni e le sue decisioni di investimento, indipendentemente dal fatto che il prezzo aumenti o diminuisca drasticamente.
+Nel mondo di Bitcoin, il concetto di "Stacker" è piuttosto noto. L'idea è semplice: ci sono solo 21 milioni di bitcoin, e ogni piccolo bitcoin conta! Questo piccolo bitcoin è chiamato satoshi (o SAT). L'obiettivo dello stacker è accumulare quanti più satoshi possibile.
 
-- Conoscenza Finanziaria:
-  Comprende l'importanza della diversificazione e dell'investimento regolare, riducendo così il rischio e ottimizzando i rendimenti potenziali. Ciò è possibile attraverso una mediazione del prezzo e quindi un disinteresse per il corso.
+![image](assets/tuto/11.JPG)
 
-- Proattivo:
-  Cerca attivamente opportunità aggiuntive per guadagnare Bitcoin, che sia vendendo beni o servizi o esplorando altre strade nell'ecosistema Bitcoin.
+### Il piano
+
+Per raggiungere questo obiettivo, cercheranno di massimizzare la loro esposizione il più possibile. Creeranno quindi un piano di Dollar-Cost Averaging (DCA) per poter acquistare un po' ogni settimana. Questa è la migliore soluzione per iniziare ad avere esposizione a Bitcoin senza avere un significativo capitale iniziale. Che si tratti di €10 a settimana, €25 a settimana, o €100 al mese, l'importante è accumulare satoshi senza pensarci troppo. Il loro piano sarà piuttosto semplice:
+
+- Configurare un hot wallet.
+- Impostare un piano DCA su una piattaforma di scambio.
+- Aspettare e cercare altre soluzioni per accumulare satoshi.
+
+Altre soluzioni possono includere iniziare a vendere beni o servizi in Bitcoin per accumulare di più. Chiedere di essere rimborsati in Bitcoin da amici o iniziare a coinvolgersi nell'ecosistema per essere più vicini alla rivoluzione.
+
+### Tutorial:
+
+Un hot wallet per un'accumulazione rapida
+
+- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
+- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+
+Un cold wallet per la sicurezza a lungo termine
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Una piattaforma DCA per accumulare Bitcoin.
+
+- [Relai](https://planb.network/tutorials/exchange/relai)
+- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+
+Questo tipo di profilo può anche, ovviamente, utilizzare un broker per fare un grande acquisto in una volta come un hodler, ma generalmente, fare stacking significa aggiungere regolarmente sats al proprio portafoglio. Un approccio più comune sarebbe imparare come usare Bitcoin in modo peer-to-peer e quindi comprare Bitcoin direttamente in contanti con amici o membri della comunità Bitcoin.
+
+### È per te?
+
+Ritratto Psicologico dello Stacker
+
+- Strategico e Organizzato: 
+  Lo stacker è strategico nel suo approccio all'accumulo di Bitcoin. Pianifica attentamente i suoi investimenti ed è organizzato nell'implementare il suo piano DCA (Dollar-Cost Averaging).
+
+- Orientato agli Obiettivi:
+   Il loro obiettivo principale è chiaro: accumulare quanti più satoshi possibile. Questo focus guida le loro azioni e decisioni di investimento, indipendentemente dal fatto che il prezzo salga alle stelle o crolli.
+
+- Conoscenze Finanziarie:
+   Comprendono l'importanza della diversificazione e dell'investimento regolare, minimizzando così il rischio e ottimizzando i potenziali ritorni. Questo si ottiene attraverso la mediazione dei prezzi e quindi una mancanza di interesse nei movimenti di prezzo a breve termine.
+
+- Proattivo: 
+  Cerca attivamente opportunità aggiuntive per guadagnare Bitcoin, sia vendendo beni o servizi sia esplorando altre vie all'interno dell'ecosistema Bitcoin.
 
 Lo stacker è un individuo metodico e focalizzato, con un piano chiaro per massimizzare la sua accumulazione di satoshi. Dimostra proattività e conoscenza finanziaria, cercando costantemente modi per ottimizzare e proteggere i suoi investimenti in Bitcoin. Il suo approccio è caratterizzato da una regolarità e un'organizzazione impeccabile, mettendolo sulla strada di una crescita stabile e continua del suo portafoglio Bitcoin.
 
 ## L'utente
 
 Infine, l'ultimo tipo di bitcoiner che può essere menzionato in un corso introduttivo è il bitcoiner che deve utilizzare Bitcoin regolarmente. Che sia per un obbligo professionale o semplicemente per volontà di sostenere l'ecosistema, è necessario prevedere soluzioni adatte a un utilizzo frequente.
+
+![image](assets/tuto/12.JPG)
 
 ### Il piano
 
@@ -635,12 +692,23 @@ Per esporsi a Bitcoin, questo tipo di profilo avrà diverse opzioni:
 
 ### Tutorial
 
-- Portafoglio caldo LN
+Portafoglio caldo LN
 
-- Portafoglio freddo
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
+- [Breez](https://planb.network/tutorials/wallet/breez)
 
-- Piattaforma di acquisto
-  **Necessità:** un portafoglio lightning come [Phoenix](https://phoenix.acinq.co/) o [Wallet of Satoshi](https://www.walletofsatoshi.com/), un portafoglio hardware come [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/) e una soluzione di acquisto/vendita rapida come [Kraken](https://www.kraken.com/) o [Robosats](https://learn.robosats.com/)
+Portafoglio freddo
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Piattaforma di acquisto
+
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 ### È per te?
 
@@ -659,6 +727,8 @@ L'utente è una persona tecnologicamente competente e impegnata nell'uso attivo 
 
 Mi permetto di aggiungere qui il bitcoiner paranoico. Questo tipo di persona non desidera essere esposta al KYC (Know Your Customer), preferisce rimanere vicino all'anonimato e dà grande importanza alla sua privacy. Il paranoico utilizzerà anche LN tramite il proprio nodo e lavorerà sulla sua sicurezza.
 
+![image](assets/tuto/13.JPG)
+
 ### Il piano
 
 Per questo tipo di profilo, la soluzione per i principianti è piuttosto semplice:
@@ -671,9 +741,20 @@ Successivamente dovrà imparare a mixare le sue monete, gestire le sue UTXO (Uns
 
 ### Tutorial:
 
-- Portafoglio caldo: [Samourai wallet](https://samouraiwallet.com/)
-- Portafoglio freddo: [Coldcard](https://coldcard.com/) e/o [Seed Signer](https://seedsigner.com/) (portafoglio fai-da-te)
-- Acquisto non KYC tra privati: [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
+Portafoglio caldo: 
+- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+
+Portafoglio freddo: 
+- [Coldcard](https://planb.network/tutorials/wallet/coldcard)
+- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (portafoglio fai-da-te)
+
+Acquisto non KYC tra privati:
+
+- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [Bisq](https://planb.network/tutorials/exchange/bisq)
+- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+
 
 ### È per te?
 
@@ -761,11 +842,13 @@ Ci sarà sempre un compromesso tra competenza tecnica, disponibilità e fiducia.
 
 Separazione delle responsabilità: La persona di fiducia NON dovrebbe MAI avere accesso alla vostra chiave privata. Il suo unico ruolo è quello di aiutare i vostri cari a comprendere il sistema di sicurezza dei vostri Bitcoin e a guadagnare fiducia. Ecco perché si scelgono due persone di fiducia. Se necessario, è possibile ricorrere anche a un'organizzazione terza (avvocato specializzato o servizi di pianificazione successorale).
 
-| Persona di fiducia    | Fiducia      | Conoscenza di BTC | Informazioni di fiducia | Nota                                                                           |
-| --------------------- | ------------ | ----------------- | ----------------------- | ------------------------------------------------------------------------------ | --- | ----------------- | ------ | ----- | -------------------- | ------------------------------------------------------------------ |
-| Mio fratello Bob      | Molto grande | Bassa             | Telefono e mail         | "Bob non sa molto sulle BTC, ma possiamo fidarci al 100% di lui per aiutarci." |     | Mio cugino Nathan | Grande | Media | Telefono e Instagram | Numero 1 delle persone con cui parlare. Può aiutarti. È informato. |
-| Ricco (Crypto amico)  | Media        | Molto grande      | Twitter, mail e foto    | Fidati di lui per le domande tecniche. Mai con i soldi. Dovrai contattarlo.    |
-| Youtuber e influencer | Bassa        | Grande            | Link YouTube            | Istruisciti seguendolo. Non può aiutarti direttamente.                         |
+| Persona di fiducia     | Fiducia     | Conoscenza di BTC | Informazioni di fiducia  | Nota                                                                               |
+|------------------------|-------------|-------------------|--------------------------|------------------------------------------------------------------------------------|
+| Mio fratello Bob       | Molto grande| Bassa             | Telefono e mail          | "Bob non sa molto sulle BTC, ma possiamo fidarci al 100% di lui per aiutarci."     |
+| Mio cugino Nathan      | Grande      | Media             | Telefono e Instagram     | "Numero 1 delle persone con cui parlare. Può aiutarti. È informato."               |
+| Ricco (Crypto amico)   | Media       | Molto grande      | Twitter, mail e foto     | "Fidati di lui per le domande tecniche. Mai con i soldi. Dovrai contattarlo."      |
+| Youtuber e influencer  | Bassa       | Grande            | Link YouTube             | "Istruisciti seguendolo. Non può aiutarti direttamente."                           |
+
 
 ### Passaggio 2: Effettua un inventario semplice e veloce
 
@@ -827,17 +910,18 @@ Ecco le persone che possono aiutarvi a rispondere alle domande e guidarvi in que
 
 (Inserire qui il nome dei vostri advisor, la loro affiliazione a un'organizzazione (se presente), i loro contatti e come devono verificare la loro identità ad esempio, database delle chiavi, foto.)
 
-- "J'ai utilisé mon ordinateur de bureau (MacBook Pro) pour accéder à différentes plateformes d'échange telles que Coinbase et Binance. J'ai également installé des applications de portefeuille telles que Electrum et Exodus. Les informations de connexion et les mots de passe sont stockés dans un coffre-fort à la maison et une copie est également chez mon cousin Nathan."
+* "Ho utilizzato il mio computer desktop (MacBook Pro) per accedere a diverse piattaforme di scambio come Coinbase e Binance. Ho anche installato applicazioni di portafoglio come Electrum ed Exodus. Le informazioni di accesso e le password sono conservate in una cassaforte a casa e una copia si trova anche presso mio cugino Nathan."
 
-- "J'ai également utilisé des portefeuilles physiques tels que Ledger Nano S et Trezor pour stocker mes bitcoins. Les appareils sont conservés dans un coffre-fort à la banque et les mots de passe sont connus uniquement de moi."
+* "Ho anche utilizzato portafogli fisici come Ledger Nano S e Trezor per conservare i miei bitcoin. I dispositivi sono tenuti in una cassaforte in banca e le password sono conosciute solo da me."
 
-- "J'ai également une phrase secrète (passphrase) pour accéder à certains de mes portefeuilles. La phrase est écrite sur un morceau de papier et est conservée dans un coffre-fort à la maison."
+* "Ho anche una frase segreta (passphrase) per accedere ad alcuni dei miei portafogli. La frase è scritta su un pezzo di carta e conservata in una cassaforte a casa."
 
-- "Enfin, j'ai également configuré des portefeuilles multisig pour une sécurité supplémentaire. Les clés nécessaires pour déverrouiller ces portefeuilles sont réparties entre moi, mon frère Bob et mon cousin Nathan."
+* "Infine, ho anche configurato portafogli multisig per una sicurezza aggiuntiva. Le chiavi necessarie per sbloccare questi portafogli sono distribuite tra me, mio fratello Bob e mio cugino Nathan."
 
-Veuillez noter que les informations fournies ci-dessus sont fictives et ne doivent pas être utilisées dans un contexte réel.
+Si prega di notare che le informazioni fornite sopra sono fittizie e non dovrebbero essere utilizzate in un contesto reale.
 
 - Utilizzo il mio computer Dell 2018 per accedere a una piattaforma di scambio online chiamata Bitstamp. Potrei ancora avere Bitcoin o dollari su questa piattaforma. Per accedere al mio account, dovrai contattarli direttamente o accedere al mio account (fai attenzione, potrebbe essere illegale - verifica la tua legislazione locale).
+
 - Ho utilizzato un gestore di password per accedere, e troverai il mio backup nella cassetta di sicurezza della banca. L'account è anche protetto da un'autenticazione a due fattori, a cui puoi accedere tramite il mio telefono (Samsung Galaxy S8) o utilizzando il codice di backup conservato a casa.
 - Ho anche BTC su un dispositivo Trezor Model One. Accedo ad esso tramite il mio PC e il sito web Trezor.io. Le chiavi private di backup sono conservate nella cassetta di sicurezza della banca e da zio Bob. Il codice PIN è conservato a casa e dalla mia madre. Il dispositivo stesso è probabilmente in una cassaforte nel mio ufficio.
 - Utilizzo una frase segreta di sicurezza avanzata per il mio dispositivo Trezor. Il backup di questa frase segreta si trova a casa e dalla mia madre."
@@ -853,6 +937,7 @@ Ora verifichiamo il nostro lavoro (Tratto da "Cryptoasset Inheritance Planning" 
 - Attività: assicurati di aver incluso l'elenco delle tue attività.
 - Scambi: verifica di aver elencato tutti gli scambi che detengono fondi per te.
 - Accesso: elenca le informazioni di cui avranno bisogno per trovare il tuo luogo di conservazione e tutti i codici di accesso necessari.
+
   Se hai spuntato tutte le caselle, allora sei pronto per gli ultimi passaggi! Fai una copia di questa lettera e conserva entrambe le copie in una busta. Chiudila, firma il sigillo e metti la busta in un luogo sicuro ma accessibile. Assicurati che i tuoi eredi sappiano che devono recuperare questa busta se necessario. Non esitare a comprare il libro di Pamela per approfondire questo argomento e pianifica un momento per migliorare il tuo piano di eredità. Discutine anche con il tuo notaio per integrare legalmente questo piano nel tuo testamento ufficiale.
   Bravo! Hai una prima versione del tuo piano di eredità ed è un ottimo inizio!
 
@@ -868,10 +953,13 @@ Se hai seguito i nostri contenuti fin dall'inizio, sei ora un vero cittadino del
 Sono davvero orgoglioso che tu abbia raggiunto questo punto. Lo penso sinceramente. Cosa fare dopo? Anche se dovresti sicuramente rilassarti ora e essere fiero di te stesso, il tuo percorso con il Bitcoin è lontano dall'essere finito e non lo sarà mai veramente. Ecco alcune opzioni per il futuro:
 
 1. Potresti semplicemente continuare come hai fatto finora. Continua ad accumulare bitcoin gradualmente e lascia che la tua strategia si sviluppi nel tempo. Hai già un livello di sicurezza sufficiente, tutto è in ordine, e hai fatto ciò che era necessario per te e la tua famiglia. Non hai bisogno di diventare un esperto di trading, e non hai bisogno di sapere molto di più sugli investimenti. Probabilmente hai anche un lavoro a tempo pieno, e anche se Bitcoin è eccitante, il tuo obiettivo principale era arrivare a questo punto. Questo vale per la maggior parte di voi, e lo rispetto. Sono molto contento che tu sia arrivato fin qui nel "rabbit hole" di Bitcoin, e spero che il viaggio sia stato piacevole. Grazie per avermi dato fiducia nell'aiutarti a proteggere i tuoi primi bitcoin.
+
 2. Potresti voler continuare ad approfondire gli aspetti tecnici, ideologici e filosofici di Bitcoin. Se hai la sensazione che il tuo viaggio sia appena iniziato, ti incoraggio a continuare ad informarti su Bitcoin. Ci sono così tante cose da imparare che a volte è difficile sapere da dove cominciare. Ecco quindi un elenco di corsi e formazioni che potrebbero accompagnarti:
 
 - Nodo Bitcoin e Lightning Network: come abbiamo già visto più volte, il Lightning Network offre una visione completamente diversa di ciò che è Bitcoin. Attraverso questo secondo livello, le possibilità sono molteplici e un'intera industria si sta costruendo su di esso. Per accompagnarti nella scoperta, ti invito a seguire LN 201 per un corso teorico o LN 202 per un corso pratico. Entrambi i corsi sono accessibili a tutti a questo punto del tuo apprendimento e possono aiutarti a comprendere meglio questo nuovo aspetto di Bitcoin.
+
 - Economia austriaca: se l'economia e la finanza sono argomenti che ti interessano, allora il corso ECON 201 è probabilmente quello giusto per esplorare gli aspetti più profondi dell'economia austriaca. Scoprirai lì quel movimento di pensiero economico che si oppone al più tradizionale movimento keynesiano. È un buon punto di partenza per interrogarsi sul nostro sistema e capire come siamo arrivati a questo punto dal punto di vista dell'inflazione e della manipolazione monetaria.
+
 - Soluzione per i commercianti: infine, se sei più incline a voler utilizzare effettivamente Bitcoin, puoi andare nella nostra sezione tutorial e esplorare le numerose soluzioni per i commercianti. Questo può offrirti opportunità nel nostro settore, ma anche aiutarti a far accettare Bitcoin alla tua azienda o ai tuoi amici nel loro commercio e così far girare un'economia locale basata su Bitcoin nella tua città!
 
 In ogni caso, tutti i nostri corsi rimangono gratuiti e molte risorse o tutorial sono disponibili sulla nostra piattaforma per accompagnarti. Buon proseguimento negli studi!## Nota la formazione!
@@ -879,5 +967,3 @@ In ogni caso, tutti i nostri corsi rimangono gratuiti e molte risorse o tutorial
 ## Sostieni la formazione!
 
 Questo corso, così come l'intero contenuto presente su questa università, ti è stato offerto gratuitamente dalla nostra comunità. Per supportarci, puoi condividerlo con gli altri, diventare membro dell'università e persino contribuire al suo sviluppo tramite GitHub. A nome di tutto il team, grazie!
-
-## Approfondisci

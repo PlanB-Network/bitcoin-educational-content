@@ -381,7 +381,9 @@ Bitcoin oferece uma alternativa poderosa aos sistemas financeiros tradicionais. 
 ![em poucas palavras](assets/section2/11.JPG)
 
 Bitcoin, um movimento político?
+
 Os principais defensores do Bitcoin hoje ainda são principalmente ciberpunks, cidadãos oprimidos, anarquistas, seguidores da escola austríaca de economia, engenheiros de computação, financiadores e defensores da liberdade de expressão.
+
 Bitcoin possui uma dimensão altamente filosófica, ética e política, ao mesmo tempo em que é totalmente indiferente a essas considerações. Na verdade, o Bitcoin é um simples protocolo que reproduz o mesmo processo repetidamente. São os seus usuários que o transformaram em uma arma de libertação contra o sistema financeiro atual. Do ponto de vista do movimento Cyberpunk, o Bitcoin se opõe a uma sociedade sem dinheiro em espécie. Ele permite criar transações financeiras digitais totalmente privadas e sem intermediários. Para o movimento Cyberpunk, o Bitcoin é o equivalente eletrônico do dinheiro em espécie.
 
 ## Compreendendo a indústria do Bitcoin
@@ -389,6 +391,7 @@ Bitcoin possui uma dimensão altamente filosófica, ética e política, ao mesmo
 Com a chegada do Bitcoin em 2009 por Satoshi Nakamoto, uma indústria de vários bilhões de dólares nasceu. Essa indústria, apesar de sua juventude, teve um crescimento exponencial nos últimos dez anos. Novos players chegam todos os dias com grandes quantias de dinheiro e estão prontos para entrar com força nessa nova indústria. Hoje, a indústria atingiu um ponto sem retorno, onde governos, bancos, gigantes da internet e outros se juntaram ao movimento com todo tipo de intervenção.
 
 O Bitcoin é um 0 a 1. Ele não pode ser desfeito. Alguns o verão como o mal em pessoa, a caixa de Pandora está aberta e agora ela tira deles seu poder e vantagem. Eles vão lutar contra isso. Outros verão no Bitcoin uma oportunidade de recuperar a liberdade, mudar o sistema e melhorar nossa sociedade. Eles o abraçarão.
+
 O Bitcoin não se importa, ele simplesmente existe.
 
 ![indústria](assets/industrie/2.JPG)
@@ -397,6 +400,7 @@ Nesta seção, faremos um breve panorama dos atores para entender melhor como fu
 
 Qualquer pessoa pode criar sua própria criptomoeda - uma tarefa que leva apenas alguns minutos. No entanto, o valor desse token será exclusivamente determinado pelo mercado. Em dezembro de 2019, mais de 5000 tokens estavam listados no Coinmarketcap. Hoje, em 2023, esse número aumentou para mais de 23.000, com NFTs, DeFi e muitas outras coisas. Esses tokens criptográficos podem assumir diferentes formas: moeda, título de segurança, combustível para um ecossistema, sidechain, arte digital, etc.
 É crucial entender que 99,8% dessas novas "criptomoedas" são golpes, criados por profissionais de marketing com o objetivo de roubar seus bitcoins. No entanto, entre os raros 0,2% de projetos sérios, um esforço significativo está sendo feito para avançar, experimentar e desenvolver tecnologias inovadoras, capazes de trazer muitos benefícios aos usuários. Com o tempo, o setor irá melhorar, surgindo empresas legítimas que oferecem produtos reais. A questão de se isso acontecerá em outras blockchains além do Bitcoin ainda está em aberto. Por enquanto, uma coisa é certa: o Bitcoin é a única criptomoeda verdadeiramente descentralizada, resistente à censura, livre e séria o suficiente para justificar milhares de horas de trabalho.
+
 | Característica | Bitcoin | Alt-Coin (99,9% deles) |
 | ---------------- | ------------------------ | ---------------------------- |
 | Liquidez | Alta | Baixa |
@@ -589,11 +593,16 @@ Para esse tipo de perfil, é aconselhável usar uma carteira fria para começar,
 
 Tutorial de carteira relevante:
 
-- Ledger; bitbox02; cold card: trezor
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
 
 Meio de troca:
 
-- Uma grande troca eficiente como bitstamp, bifinnex, kraken
+- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
+- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 Se o hodler quiser ir mais longe: implementação de um plano de DCA como o stacker e uma carteira quente LN para gastar um pouco de bitcoin
 
@@ -609,6 +618,7 @@ Aqui está um pequeno retrato psicológico do hodler, se você se reconhecer, ta
 
 - Auto-disciplina:
   O hodler é extremamente disciplinado. A parte mais difícil, como mencionado, é não fazer nada, e isso requer uma grande autodisciplina para resistir à tentação de vender nos picos de preços de curto prazo.
+
 - Resiliência:
   Diante das quedas de preços e da volatilidade do mercado, o hodler permanece resiliente, mantendo a fé em seu investimento e no crescimento futuro do Bitcoin.
 
@@ -620,6 +630,8 @@ Em suma, o hodler é um investidor paciente, disciplinado e visionário, que acr
 ## O stacker
 
 No Bitcoin, o conceito de "Stacker" é bastante conhecido. A ideia é simples: existem apenas 21 milhões de bitcoins, e cada pequeno bitcoin conta! Esse pequeno bitcoin é na verdade chamado de satoshi (ou SAT). O stacker tem como objetivo acumular o máximo possível.
+
+![image](assets/tuto/11.JPG)
 
 ### O plano
 
@@ -633,11 +645,23 @@ Outras soluções podem incluir começar a vender bens ou serviços em Bitcoin p
 
 ### Tutoriais:
 
-- Uma carteira quente para acumular rapidamente.
+Uma carteira quente para acumular rapidamente.
 
-- Uma carteira fria para segurança a longo prazo.
+- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
+- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
 
-- Uma plataforma de DCA para acumular Bitcoin.
+Uma carteira fria para segurança a longo prazo.
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Uma plataforma de DCA para acumular Bitcoin.
+
+- [Relai](https://planb.network/tutorials/exchange/relai)
+- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
 
 Esse tipo de perfil também pode, é claro, usar uma corretora para fazer uma grande compra de uma vez, como um hodler, mas geralmente o stacking é o conceito de adicionar regularmente sats à sua carteira. Uma abordagem mais comum seria aprender a usar o Bitcoin de forma peer-to-peer e, assim, comprar Bitcoin diretamente em dinheiro com amigos ou membros da comunidade Bitcoin.
 
@@ -647,6 +671,7 @@ Retrato Psicológico do Stacker
 
 - Estratégico e Organizado:
   O acumulador é estratégico em sua abordagem de acumulação de Bitcoin. Ele planeja cuidadosamente seus investimentos e é organizado na implementação de seu plano de DCA.
+
 - Focado em Objetivos:
   Seu principal objetivo é claro: acumular o máximo de satoshis possível. Esse foco orienta suas ações e decisões de investimento, independentemente se o preço explode ou cai drasticamente.
 
@@ -661,6 +686,8 @@ O acumulador é um indivíduo metódico e focado, com um plano claro para maximi
 ## O usuário
 
 Por fim, o último tipo de bitcoiner que pode ser mencionado em um curso introdutório é o bitcoiner que precisa usar o Bitcoin regularmente. Seja por obrigação profissional ou simplesmente por vontade de apoiar o ecossistema, é necessário fornecer soluções adequadas para uso frequente.
+
+![image](assets/tuto/12.JPG)
 
 ### O plano
 
@@ -678,12 +705,23 @@ Para se expor ao Bitcoin, esse tipo de perfil terá várias opções:
 
 ### Tutorial
 
-- Carteira quente LN
+Carteira quente LN
 
-- Carteira fria
+- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
+- [Breez](https://planb.network/tutorials/wallet/breez)
 
-- Plataforma de compra
-  **Necessidade:** uma carteira lightning como [Phoenix](https://phoenix.acinq.co/) ou [Wallet of Satoshi](https://www.walletofsatoshi.com/), uma carteira fria como [Coldcard](https://coldcard.com/), [Trezor](https://trezor.io/), [Jade](https://blockstream.com/jade/), [Foundation](https://foundationdevices.com/), [Bitbox 02](https://bitcoin.org/en/wallets/hardware/bitbox/), [Ledger](https://www.ledger.com/) e uma solução rápida de compra/venda como [Kraken](https://www.kraken.com/) ou [Robosats](https://learn.robosats.com/)
+Carteira fria
+
+- [Ledger](https://planb.network/tutorials/wallet/ledger)
+- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
+- [Cold card](https://planb.network/tutorials/wallet/coldcard)
+- [Trezor](https://planb.network/tutorials/wallet/trezor)
+
+Plataforma de compra
+
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [kraken](https://planb.network/tutorials/exchange/kraken)
 
 ### É para você?
 
@@ -702,6 +740,8 @@ O usuário é uma pessoa tecnicamente experiente e engajada no uso ativo do Bitc
 
 Gostaria de acrescentar aqui o bitcoiner paranóico. Esse tipo de pessoa não deseja se expor ao KYC (Know Your Customer), prefere permanecer próximo ao anonimato e valoriza muito sua privacidade. O paranóico também usará a LN por meio de seu próprio nó e trabalhará em sua segurança.
 
+![image](assets/tuto/13.JPG)
+
 ### O plano
 
 Para esse tipo de perfil, a solução para iniciantes é bastante simples:
@@ -714,9 +754,20 @@ Em seguida, ele precisará aprender a misturar suas moedas, gerenciar suas UTXO 
 
 ### Tutorial:
 
-- Carteira quente: [Samourai wallet](https://samouraiwallet.com/)
-- Carteira fria: [Coldcard](https://coldcard.com/) e/ou [Seed Signer](https://seedsigner.com/) (carteira DIY)
-- Compra sem KYC entre particulares: [Peach](https://peachbitcoin.com/), [Robosats](https://learn.robosats.com/), [Bisq](https://bisq.network/), [HodlHodl](https://hodlhodl.com/)
+Carteira quente: 
+- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+
+Carteira fria: 
+- [Coldcard](https://planb.network/tutorials/wallet/coldcard)
+- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (carteira DIY)
+
+Compra sem KYC entre particulares: 
+
+- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
+- [Robosats](https://planb.network/tutorials/exchange/robosats)
+- [Bisq](https://planb.network/tutorials/exchange/bisq)
+- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+
 
 ### É para você?
 
@@ -804,11 +855,12 @@ Sempre haverá um compromisso entre expertise técnica, disponibilidade e confia
 
 Separação de responsabilidades: A pessoa de confiança NUNCA deve ter acesso à sua chave privada. Seu único papel é ajudar seus entes queridos a entender o sistema de segurança de seus Bitcoins e ganhar confiança. É por isso que você escolhe duas pessoas de confiança. Se necessário, você também pode recorrer a uma organização terceira (advogado especializado ou serviços de planejamento sucessório).
 
-| Pessoa de confiança      | Confiança  | Conhecimento em BTC | Informações de Confiança | Nota                                                                               |
-| ------------------------ | ---------- | ------------------- | ------------------------ | ---------------------------------------------------------------------------------- | --- | ---------------- | ---- | ----- | -------------------- | ------------------------------------------------------------------------- |
-| Meu irmão Bob            | Muito alto | Baixo               | Telefone e e-mail        | "Bob não sabe muito sobre BTC, mas podemos confiar 100% nele para ajudar."         |     | Meu primo Nathan | Alto | Médio | Telefone e Instagram | Número 1 de pessoas para conversar. Ele pode ajudar. Ele está por dentro. |
-| Ricco (Amigo de cripto)  | Médio      | Muito alto          | Twitter, e-mail e foto   | Confie nele para questões técnicas. Nunca com dinheiro. Você precisará contatá-lo. |
-| YouTuber e influenciador | Baixo      | Alto                | Link do YouTube          | Eduque-se seguindo-o. Ele não pode ajudar diretamente.                             |
+| Pessoa de confiança     | Confiança  | Conhecimento em BTC | Informações de Confiança | Nota                                                                                   |
+|-------------------------|------------|---------------------|--------------------------|----------------------------------------------------------------------------------------|
+| Meu irmão Bob           | Muito alto | Baixo               | Telefone e e-mail        | "Bob não sabe muito sobre BTC, mas podemos confiar 100% nele para ajudar."             |
+| Meu primo Nathan        | Alto       | Médio               | Telefone e Instagram     | "Número 1 de pessoas para conversar. Ele pode ajudar. Ele está por dentro."            |
+| Ricco (Amigo de cripto) | Médio      | Muito alto          | Twitter, e-mail e foto   | "Confie nele para questões técnicas. Nunca com dinheiro. Você precisará contatá-lo."   |
+| YouTuber e influenciador| Baixo      | Alto                | Link do YouTube          | "Eduque-se seguindo-o. Ele não pode ajudar diretamente."                               |
 
 ### Passo 2: Faça um inventário simples e rápido
 
@@ -870,13 +922,13 @@ Aqui estão as pessoas que podem ajudá-las a responder perguntas e orientá-las
 
 (Insira aqui o nome de seus consultores, sua afiliação a uma organização (se houver), suas informações de contato e como eles devem verificar sua identidade, por exemplo, banco de dados de chaves, fotos.)
 
-- "J'ai utilisé mon ordinateur de bureau pour accéder à différentes plateformes d'échange, applications, jeux et sites web liés aux bitcoins. Les informations de connexion et les mots de passe sont stockés dans un gestionnaire de mots de passe sécurisé. J'ai également utilisé des portefeuilles physiques pour stocker mes bitcoins, tels que le Ledger Nano S et le Trezor. Les phrases secrètes (passphrases) nécessaires pour accéder à ces portefeuilles sont conservées dans un coffre-fort à la maison et chez mon frère Bob. De plus, j'ai également utilisé des portefeuilles multisig pour une sécurité supplémentaire."
+* "Usei meu computador de mesa para acessar diferentes plataformas de troca, aplicativos, jogos e sites relacionados a bitcoins. As informações de login e as senhas são armazenadas em um gerenciador de senhas seguro. Também usei carteiras físicas para armazenar meus bitcoins, como o Ledger Nano S e o Trezor. As frases secretas (passphrases) necessárias para acessar essas carteiras são mantidas em um cofre em casa e com meu irmão Bob. Além disso, também usei carteiras multisig para uma segurança adicional."
 
-Si vous possédez d'autres crypto-actifs ou actifs numériques, veuillez les mentionner ici :
+Se você possui outros criptoativos ou ativos digitais, por favor, mencione-os aqui:
 
-- "En plus des bitcoins, je possède également des ethers (ETH) et des litecoins (LTC). Les informations de connexion et les mots de passe pour accéder à ces actifs sont également stockés dans un gestionnaire de mots de passe sécurisé."
+* "Além dos bitcoins, também possuo ethers (ETH) e litecoins (LTC). As informações de login e as senhas para acessar esses ativos também são armazenadas em um gerenciador de senhas seguro."
 
-Veuillez noter que cet inventaire est une liste générale et ne contient pas d'adresses précises. Assurez-vous de garder ces informations en lieu sûr et de les transmettre à vos héritiers de manière sécurisée.
+Por favor, note que este inventário é uma lista geral e não contém endereços específicos. Certifique-se de manter essas informações em local seguro e de transmiti-las de forma segura para seus herdeiros.
 
 - Utilizo meu computador Dell 2018 para acessar uma plataforma de troca online chamada Bitstamp. Pode ser que eu ainda tenha Bitcoins ou dólares nessa plataforma. Para acessar minha conta, você precisará entrar em contato diretamente com eles ou fazer login na minha conta (tenha cuidado, isso pode ser ilegal - verifique a legislação local).
 - Usei um gerenciador de senhas para acessar, e você encontrará meu backup no cofre do banco. A conta também é protegida por autenticação de dois fatores, que você pode acessar pelo meu telefone (Samsung Galaxy S8) ou usando o código de backup armazenado em casa.

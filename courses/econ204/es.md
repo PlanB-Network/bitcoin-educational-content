@@ -28,13 +28,31 @@ Aquí destacaremos las tendencias y patrones comunes en los episodios de hiperin
 
 Sección 1 - Introducción
 
-- 1.1 - Introducción al curso por Rogzy & David
+- Introducción al curso por Rogzy & David
 
 Sección 2 - ¿Qué es la inflación?
 
-- 2.1 - Un fenómeno monetario
-- 2.2 - Tipos de inflación
-- 2.3 - La deflación  
+- Un fenómeno monetario
+- Tipos de inflación
+- La deflación  
+
+Sección 3 - ¿QUÉ ES LA HIPERINFLACIÓN?
+
+- Definiciones De La Hiperinflación
+- Similitudes Entre Weimar Y Zimbabwe
+- Diferencias Entre Weimar Y Zimbabwe Y Paralelismos Contemporáneos
+- Las Redenominaciones En América Latina
+- Cómo Salir De La Hiperinflación
+- Conclusión
+- Presentación De La Colección De Billetes De Hiperinflación
+
+Sección 4 - ¿CÓMO LLEGAMOS AQUÍ?
+
+- La Aparición De La Segunda Capa De La Moneda Y Los Bancos Centrales
+- Libros Y Recursos
+
+Buenas suerte !
+
 
 # ¿Qué es la inflación?
 

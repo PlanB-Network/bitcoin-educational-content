@@ -35,7 +35,9 @@ Section 2 - What is inflation?
 - 2.1 - A monetary phenomenon
 - 2.2 - Types of inflation
 - 2.3 - Deflation
-  Section 3 - What is hyperinflation?
+
+Section 3 - What is hyperinflation?
+
 - 3.1 - Definitions
 - 3.2 - Weimar vs Zimbabwe similarities
 - 3.3 - Weimar vs Zimbabwe differences and contemporary parallel
@@ -45,22 +47,8 @@ Section 2 - What is inflation?
 
 Section 4 - How did we get here?
 
-- 4.1 - The emergence of the second layer of currency and central banks
-- 4.2 - Centralization of power through crises (Rogzy)
-- 4.3 - Too big to fail & the power of the legislator (Rogzy)
-
-Section 5 - Hyperinflation today (Rogzy)
-
-USD (petrodollar)
-Euro vs CAD
-Small countries (weak currencies, dollarized countries)
-What would be the impact for Canada and France (illustrate the difference between countries facing hyperinflation) (Theo)
-
-Section 6 - How to protect yourself from hyperinflation (Rogzy)
-
-- Gold, BTC, choosing a job, educating oneself, being mobile and flexible
-  Books and resources
-- Bonus: Testimonials from people living with hyperinflation (Rogzy)
+- 4.1 - The emergence of the second layer of money and central banks
+- 4.2 - Books and resources
 
 Good luck!
 
@@ -157,6 +145,7 @@ Between the 15th and 17th centuries, Europe witnessed a remarkable economic phen
 #### 5. John Law and the Assignats
 
 In the 18th century, French economic history was marked by two significant events related to currency. First, John Law, a Scottish economist and financier, persuaded the French government to adopt a monetary system based on paper money. Although initially considered an innovative solution to the country's financial problems, this initiative quickly led to rampant inflation. Then, shortly after, during the turmoil of the French Revolution, the government introduced "assignats".
+
 ![image](assets/chapitre-2.1/9.PNG)
 
 Assignats from 1793

@@ -34,7 +34,22 @@ Seção 2 - O que é inflação?
 
 - 2.1 - Um fenômeno monetário
 - 2.2 - Os tipos de inflação
-- 2.3 - A deflação
+
+Seção 3 - O que é hiperinflação?
+
+- 3.1 - As definições
+- 3.2 - Weimar vs Zimbábue semelhanças
+- 3.3 - Weimar vs Zimbábue diferenças e paralelos contemporâneos
+- 3.4 - As redenominações na América Latina
+- 3.5 - Como sair da hiperinflação
+- 3.6 - Apresentação da coleção de notas de hiperinflação
+
+Seção 4 - Como chegamos aqui?
+
+- 4.1 - A emergência da segunda camada do dinheiro e dos bancos centrais
+- 4.2 - Livros e recursos
+
+Boa sorte!
 
 # O que é inflação?
 

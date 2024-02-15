@@ -46,21 +46,7 @@ Sezione 2 - Cos'è l'inflazione?
 Sezione 4 - Come siamo arrivati a questo punto?
 
 - 4.1 - L'emergere del secondo strato della moneta e delle banche centrali
-- 4.2 - Centralizzazione del potere attraverso le crisi (Rogzy)
-- 4.3 - Troppo grandi per fallire e il potere del legislatore (Rogzy)
-
-Sezione 5 - L'iperinflazione oggi (Rogzy)
-
-USD (petrodollaro)
-Euro vs CAD
-I piccoli paesi (valute deboli, paesi dolarizzati)
-Quali sarebbero le conseguenze per il Canada e la Francia (illustrare la differenza tra i paesi di fronte all'iperinflazione) (Theo)
-
-Sezione 6 - Come proteggersi dall'iperinflazione (Rogzy)
-
-- Oro, BTC, scegliere un lavoro, educarsi, essere mobili e flessibili
-  Libri e risorse
-- Bonus: Testimonianze di persone che vivono l'iperinflazione (Rogzy)
+- 4.2 - Libri e risorse
 
 Buona fortuna!
 

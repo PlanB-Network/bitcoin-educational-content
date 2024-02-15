@@ -125,6 +125,7 @@ Miners tend to gravitate towards regions with low electricity tariffs, often in 
 ### Where do miners go and energy management?
 
 By highlighting the impact of Bitcoin miners in the world of energy, the trajectory is clear: these actors are constantly seeking sources of cheap electricity, often those that are wasted or untapped. This phenomenon is evident in regions with new electrical infrastructure, such as those equipped with recent hydroelectric dams.
+
 Let's take an example. In a country that is in the process of building a dam, electricity production often starts before the distribution lines are fully operational. This time gap can result in significant costs and discourage investment in such infrastructure projects. However, bitcoin miners can act as a flexible demand source, ready to consume this "orphaned" electricity, thus helping to offset infrastructure costs. The implication here is that new installations can be immediately profitable, promoting the creation of new sources of electricity. This principle also applies on smaller scales. Whether it's an individual using a hydroelectric generator on a small river or a household equipped with solar panels, the excess electricity produced can be used to power bitcoin mining operations.
 
 In France, for example, surplus electricity from solar panels is injected back into the grid and producers are compensated with a consumption credit from EDF. Similarly, one can imagine a miner operating on this surplus electricity, shutting down when local demand equals supply. Although this may seem selfish, prioritizing bitcoin production over supporting the local power grid, it presents another angle: stabilizing the power grid. The complex management of surplus electricity, sometimes even with associated costs for disposal, can be greatly simplified. Bitcoin miners can absorb these surpluses, acting as a flexible buffer, adjusting demand rather than supply. In a world where electricity production from renewable (non-controllable) sources is constantly increasing, miners can play a key role in ensuring the balance of our power grids, while benefiting from cheap or surplus electricity to power their mining operations.
@@ -132,6 +133,7 @@ In France, for example, surplus electricity from solar panels is injected back i
 ### Mining Centralization
 
 Mining centralization is addressed as a major challenge. Large players, such as Foundry, dominate the market, which can potentially lead to transaction censorship. This centralization can also make the network vulnerable to attacks, including the 51% attack, where an actor or group controls more than 50% of the network's hashing power, allowing them to control and manipulate the network.
+
 Regulation Risk It is emphasized that if a country like the United States were to decide to regulate or ban certain Bitcoin transactions, it could have a significant impact on the network, especially if a large portion of the hashing power is centralized in that country.
 
 ![image](assets/overview/foundry.png)
@@ -160,7 +162,9 @@ The question of the long-term efficiency and feasibility of using bitcoin miners
 ### Why Have BTC Rewards?
 
 The question of rewarding in bitcoin rather than another currency is essential in the system envisioned by Satoshi Nakamoto. The creation of Bitcoin is characterized by a fixed cap of 21 million units. The goal was to find a fair way to distribute these newly created units. Miners, by providing their computing power to secure the network and make any attack increasingly costly, effectively protect the Bitcoin network. In return for this crucial contribution, they are rewarded with newly created bitcoins, facilitating the distribution of coins within the ecosystem.
+
 It is a win-win system. Miners are rewarded for both securing the network and approving transactions. The newly created bitcoins are given as an incentive to strengthen security, and transaction fees are an additional income for approving transactions. These two elements combined make up the total reward for mining. The question of the future of mining arises due to the programmed reduction of mining rewards, halving every four years, an event known as "halving". By 2032, the block reward will be less than one bitcoin, and by 2140, no new bitcoins will be created. At this point, miners will rely solely on transaction fees for compensation. The Bitcoin network will need to support a large number of transactions, with sufficiently high fees, to ensure mining profitability.
+
 The rise of the Lightning Network, which allows for fast and low-cost transactions outside of the main Bitcoin chain, raises questions about the future of mining. The Lightning Network has the potential to significantly reduce transaction fees, thereby impacting miners' income. However, this will depend on the adoption and use of the Lightning Network compared to the main Bitcoin network. In a pessimistic scenario, miners may find it profitable to mine even at a loss if they have amortized their costs and have access to cheap electricity. In a more optimistic scenario, transaction fees on the main Bitcoin network could remain high enough to maintain mining profitability.
 
 ### What should be included in a Bitcoin Block?
@@ -189,6 +193,7 @@ The security dilemma of Bitcoin relies on a delicate balance. While miners play 
 
 The block wars revealed the inherent uncertainty and tension in managing the Bitcoin network. Although Bitcoin Core is currently the dominant chain, the debate over governance and network management persists.
 In the end, responsibility is shared among all actors in the Bitcoin network. A decrease in the number of users, nodes, or miners could weaken the network, increasing the risk of centralization and vulnerability to attacks. Each actor contributes to the robustness and security of the network, reinforcing the importance of maintaining a balance of power and responsibility.
+
 ### The power of miners
 
 Satoshi Nakamoto's elegant game theory established a situation where every actor in the Bitcoin network is incentivized to act correctly to protect both their own interests and those of other participants. This creates a balance where bad behavior can be punished, thus reinforcing the security and stability of the entire system. Despite this balance, states remain a potential threat. As indicated in the presentation at Surfing Bitcoin 2022, states may attempt to attack the mining industry, exposing the Bitcoin network to risks of centralization and attack. Hypothetical scenarios such as a military attack targeting mining hardware production facilities highlight the importance of geographical and industrial diversification for the resilience of the Bitcoin network.
@@ -198,7 +203,9 @@ Satoshi Nakamoto's elegant game theory established a situation where every actor
 The centralization of mining hardware production in China poses another risk. A refusal to export mining machines or an accumulation of hashrate for a potential 51% attack by China underscores the need for diversified mining hardware production. Faced with these risks, the Bitcoin community is actively exploring solutions. Companies like Intel are considering producing mining equipment in the United States, contributing to the distribution of production. Other initiatives, such as Block's open-source Mining Development Kit (MDK), aim to reduce the monopoly of mining hardware design and production, allowing for a broader distribution of hashrate. At the heart of these discussions is Bitcoin's fundamental mission: to be a censorship-resistant value exchange network. The Bitcoin community is constantly striving to strengthen distribution, censorship resistance, and the anti-fragility of the network, rejecting proposals such as transitioning to proof of stake that do not align with these fundamental principles.
 
 ### The physical link of proof of work vs proof of stake
+
 Proof of Work (PoW) is essential because it represents the physical link between the real world and Bitcoin. Although bitcoins are intangible, their production requires tangible energy, thus establishing a direct link with the physical and real world. This connection ensures that the production and validation of bitcoins and blocks have a real energy cost, anchoring the Bitcoin network in physical reality and preventing its complete domination by powerful entities. PoW acts as a barrier against centralization, ensuring that participation in the network and transaction validation require an investment in tangible resources. This prevents the monopolization of the network by entities that could otherwise take control without any significant entry barriers, thus ensuring a more equitable distribution of power and influence within the Bitcoin network.
+
 ![image](assets/overview/POWPOS.png)
 
 ### Limits of Proof of Stake
@@ -210,6 +217,7 @@ On the other hand, Proof of Stake (PoS), although it allows for small-scale part
 To recap, miners strengthen the Bitcoin network against censorship by using electricity to calculate the proof of work for Bitcoin, and they are rewarded with new bitcoins and transaction fees. With the professionalization of the industry, different actors are emerging, playing various roles, from chip creation to mining farm management. Additionally, finance also intervenes, exerting control by deciding who survives during different market phases. The issue of centralization persists, with the wealthiest entities potentially dominating the market. However, alternatives are being developed at the hardware and software levels. It is up to each individual to act and contribute to the distribution of the network. Bitcoin represents an unprecedented opportunity not only in terms of freedom but also energy independence. Despite controversies surrounding its electricity consumption, Bitcoin offers an economic incentive for a transition to a more rational and abundant use of energy, materializing what was previously an ecological ideal.
 
 ## Bitcoin price and hashrate, a correlation?
+
 Mining for Profit or for the Network?
 
 The current hashrate, even though the price of Bitcoin is at $30,000 compared to its previous peak of $69,000, highlights the tangible link between mining and the real world. Periods of price increases (bull market) lead to a high demand for Bitcoin mining and an increase in machine orders from manufacturers such as Avalon and Bitmain. However, production and delivery are not instantaneous, creating a mismatch between increased demand and later availability. This can lead to the delivery of machines ordered during a bull market in a declining market, highlighting a notable asymmetry between low price and high hashrate.
@@ -233,7 +241,9 @@ The question is profound and encompasses several dimensions of Bitcoin mining. T
 The Attakai initiative highlights the importance of contributing to the network while offering solutions to make mining more accessible and less harmful. The ability to mine at home, with more affordable hardware and solutions to reduce noise pollution, can help democratize Bitcoin mining. It encourages those interested in Bitcoin not only to invest and hold bitcoins but also to actively participate in securing the network. By providing tested equipment and guides for assembly and installation, Attakai facilitates entry into the world of Bitcoin mining. It also encourages innovation and continuous improvements, inviting the community to contribute and share their ideas and experiences to enhance home mining. The Attakai model is a response to the question of mining for profit or for the network. It is not just about making profits but also about strengthening the distribution and security of the Bitcoin network while enabling more people to participate in mining, learn, and understand this crucial industry. The challenge of a potential mining ban in Europe remains an open question. This raises concerns about the future of Bitcoin mining in the region and the need for balanced regulation that recognizes the importance of mining for the security and viability of the Bitcoin network while addressing environmental issues. Attakai and other similar initiatives can play a crucial role in this debate, showing that it is possible to mine in a more sustainable and responsible manner while positively contributing to the Bitcoin network.
 
 ## Sovereignty and regulation
+
 ### Sovereignty before profit?
+
 To address the crucial question of wealth through mining, it is important to consider various perspectives and approaches. Questions about the profitability of mining are common, with concerns surrounding the purchase of shares in companies such as Riot or the rental of mining machines in low-cost energy countries like Iceland or Russia. Before venturing into mining, an essential consideration would be to compare the profitability of mining to the direct purchase of Bitcoin. If the cost of mining one Bitcoin exceeds the cost of direct purchase, it is generally wiser to buy Bitcoin directly. This avoids the multiple challenges and costs associated with the mining process.
 
 However, mining offers unique avenues to get involved in the Bitcoin ecosystem. For example, mining Bitcoin in the winter can be a clever way to heat your home while generating income in Bitcoin. Another option is to invest in companies that sell mining hardware and store and manage the machines in low-cost energy locations, thus providing access to advantageous electricity rates without the hassle of equipment management.
@@ -243,16 +253,21 @@ Despite these options, mining presents significant challenges. The well-known ad
 ![image](assets/overview/self.png)
 
 ### Virgin Bitcoins
+
 Mining Forbidden in Europe?
 
 Translation:
-The aspiration to own one's own hashrate presents itself as a promising path in the world of mining. However, navigating this complex ecosystem requires a cautious approach. The cloud mining industry is marked by a large number of scams, fueled by a lack of understanding of mining on the part of many investors. Tempting offers, packaged in various ways, can easily mislead those who are not well-informed. On the other hand, owning one's own mining equipment offers considerable advantages. In addition to the personal satisfaction of actively contributing to the security of the Bitcoin network and seeing the rewards fall into one's wallet, there is the attractive aspect of "virgin bitcoins". These are freshly mined bitcoins that have never been spent and have no history attached to them. These bitcoins are often considered more valuable because they have never been "tainted", providing some guarantee against rejection by regulators or major exchange platforms.
+The aspiration to own one's own hashrate presents itself as a promising path in the world of mining. However, navigating this complex ecosystem requires a cautious approach. The cloud mining industry is marked by a large number of scams, fueled by a lack of understanding of mining on the part of many investors. Tempting offers, packaged in various ways, can easily mislead those who are not well-informed. On the other hand, owning one's own mining equipment offers considerable advantages. In addition to the personal satisfaction of actively contributing to the security of the Bitcoin network and seeing the rewards fall into one's wallet, there is the attractive aspect of "virgin bitcoins". These are freshly mined bitcoins that have never been spent and have no history attached to them.
+
+These bitcoins are often considered more valuable because they have never been "tainted", providing some guarantee against rejection by regulators or major exchange platforms.
 The ability to mine virgin bitcoins while avoiding know-your-customer (KYC) procedures is another added value. Many mining pools do not require miners to provide their identity, allowing them to acquire bitcoins without going through tedious identity verification processes. Virgin bitcoins are perceived as "clean", without any past history or association. They are particularly sought after by large institutional players who can guarantee the legitimacy of their digital assets to regulatory authorities. However, despite these advantages, it is crucial to recognize that the mining industry remains extremely competitive and volatile, and unforeseen incidents can disrupt mining operations.
 
 In this context, choosing an autonomous and educated approach to mining appears wise. Acquiring one's own hashrate and investing in personal mining equipment, while remaining aware of the risks and challenges, can potentially offer a safer and more satisfying path to acquiring virgin bitcoins, thereby strengthening individual financial sovereignty while supporting the Bitcoin ecosystem as a whole.
 
 ### Mining Prohibited in Europe?
+
 With the question of the potential ban on mining in Europe, discussions on regulation are becoming increasingly relevant. The fluctuating regulatory landscape can indeed have a significant impact on the Bitcoin mining industry. The ban on mining in Europe is a conceivable scenario, especially considering the precedents in China. Although mining operations continue in China despite the ban, Europe could follow a similar path. A broader distribution of the hashrate in different regions could help strengthen the mining community in Europe, enabling them to effectively counter misunderstandings and misconceptions about mining, its environmental impact, and its footprint on the power grid.
+
 ![image](assets/overview/regulation.jpg)
 
 Faced with campaigns like those of Greenpeace and the often misleading figures from certain studies, the best weapon remains accurate information. It is essential to inform the general public and decision-makers about the reality of mining, its complexity, and its nuances, rather than letting them rely on stereotypes and inaccurate information. The more informed and aware people there are about what mining really is, the better the industry can defend itself against potential restrictive regulations.
@@ -262,8 +277,6 @@ In conclusion, despite the regulatory risk and the possibility of a ban on minin
 # Home mining and heat reuse
 
 ## Attakai - making home mining possible and accessible!
-
-![Introducing Attakaï!](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
 
 Attakai, which means "the ideal temperature" in Japanese, is the name of the initiative aimed at discovering bitcoin mining through heat reuse launched by @ajelexBTC and @jimzap21 with Découvre Bitcoin.
 This ASIC retrofitting guide will serve as a basis for learning more about mining, its operation, and the underlying economy by demonstrating the possibility of adapting a Bitcoin miner for use as radiators in homes. This offers more comfort and savings, allowing participants to receive non-KYC BTC cash back on their electric heating bill.
@@ -310,7 +323,6 @@ This is an excellent opportunity to learn by practicing while being rewarded for
 
 ## Buying Guide for a Used ASIC
 
-![Introduction to Attakaï: Heating with Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 In this section, we will discuss best practices for purchasing a used Bitmain Antminer S9, the machine on which this radiator retrofitting tutorial will be based. This guide also applies to other models of ASICs as it is a general buying guide for used mining hardware.
 
 The Antminer S9 is a device offered by Bitmain since May 2016. It consumes 1400W of electricity and produces 13.5 TH/s. Although it is considered old, it remains an excellent option for starting mining. Since it has been produced in large quantities, it is easy to find spare parts abundantly in many regions of the world. It can generally be acquired peer-to-peer on sites such as eBay or LeBonCoin, as professional resellers no longer offer it due to its lower competitiveness compared to newer machines. It is less efficient than ASICs like the Antminer S19, offered since March 2020, but this makes it an affordable used hardware and more suitable for the modifications we will make.
@@ -346,7 +358,9 @@ The Antminer S9 is composed of the following parts:
 - A male C13 cable.
 
 ![image](assets/guide-achat/7.jpeg)
+
 When buying a used machine, it is important to check that all parts are included and functional. During the exchange, you should ask the seller to turn on the machine to check its proper functioning. It is important to verify that the device turns on correctly, and then check the internet connectivity by plugging in an Ethernet cable and accessing the Bitmain login interface via a web browser on the same local network. You can find this IP address by connecting to your internet router interface and looking for connected devices. This address should have the following format: 192.168.x.x
+
 ![image](assets/guide-achat/8.gif)
 
 Also, check that the default credentials work (username: root, password: root). If the default credentials do not work, you will need to reset the machine.
@@ -364,7 +378,6 @@ To summarize this guide in one sentence: **"Don't trust, verify."**
 
 ## Guide for purchasing hardware modifications for the S9
 
-![Introduction to Attakaï: heating with Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 Owner of an Antminer S9, you probably know how loud and bulky this equipment can be. However, it is possible to transform it into a silent and connected heater by following a few simple steps. In this section, we will present the necessary equipment to make the modifications.
 
 If you are a skilled handyman and are looking to transform a miner into a heater, this tutorial is for you. We want to warn you that modifications made to an electronic device can present electrical risks. It is therefore essential to take all necessary precautions to avoid any damage or injury.
@@ -391,6 +404,7 @@ Instead of using an Ethernet cable, you can connect your Antminer via WIFI by ad
 
 3. Optional: add a smart plug
 If you want to turn on/off your Antminer from your smartphone and monitor its power consumption, you can add a smart plug. We tested the ANTELA plug in the 16A version, compatible with the smartlife app. This smart plug allows you to view daily and monthly power consumption and connects directly to your internet router via WiFi.
+
 ![image](assets/piece/8.jpeg)
 
 List of equipment and links
@@ -410,8 +424,6 @@ List of equipment and links
 # Attakai - Modifying the Software of an Antminer S9
 
 ## Setting up a Vonet WIFI/Ethernet Bridge
-
-![Connect an Antminer S9 to your Wifi network](https://www.youtube.com/watch?v=y4oYURBaPqg)
 
 To connect your ASIC via WIFI, you will need a device called a bridge. This device allows you to retrieve the WIFI signal from your router and transmit it to another device via Ethernet.
 
@@ -457,8 +469,6 @@ This method can be applied between 2 minutes and 10 minutes after starting the m
 
 ## Installing BraiinsOS+ on an Antminer S9
 
-![Installing Braiins OS+ on your Antminer S9](https://www.youtube.com/watch?v=luqwlvzGsO4)
-
 The original software installed by Antminer on their mining machines is limited in functionality. That's why in this guide, we will install another software called BraiinsOS+. It is a third-party software developed by the very first Bitcoin mining pool that has more features and allows, for example, modifying the machine's power.
 
 There are several ways to install Braiins OS+ on an ASIC. You can refer to this guide as well as the [official Braiins documentation](https://academy.braiins.com/en/braiins-os/about/).
@@ -490,8 +500,6 @@ Here, we will see how to easily install Braiins OS+ directly on the memory of yo
 9. After a few moments, your Antminer will restart and you will be able to access the Braiins OS+ interface at the specified IP address, here 192.168.1.37, directly in the address bar of your browser. The default username is "root" and there is no default password.
 
 ## Configure BraiinsOS+
-
-![Configure your Antminer S9 with Braiins OS+](https://www.youtube.com/watch?v=dK0t8M8kLYg)
 
 You will need to connect to your ASIC using the local IP address of your device on your network through a browser.
 
@@ -537,8 +545,6 @@ On this first page, you can observe the real-time performance of your machine.
 
 ## Replace the power supply fan
 
-![Replace fans to reduce noise](https://www.youtube.com/watch?v=2CNGKZiveuc)
-
 > WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software that can reduce the performance of your machine. This measure is crucial because in order to reduce noise, we will install less powerful fans that can dissipate less heat.
 
 ![image](assets/hardware/cover.jpeg)
@@ -551,7 +557,9 @@ On this first page, you can observe the real-time performance of your machine.
 > WARNING: First of all, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.
 
 ![image](assets/hardware/1.jpeg)
+
 First, remove the 6 screws on the side of the case that hold it closed. Once the screws are removed, carefully open the case to remove the plastic protection covering the components.
+
 ![image](assets/hardware/2.jpeg)
 ![image](assets/hardware/3.jpeg)
 
@@ -589,7 +597,9 @@ Then, connect the cables with a sugar, the black wire with the black and the red
 
 ![image](assets/hardware/13.jpeg)
 ![image](assets/hardware/14.jpeg)
+
 Once the connection is made, it's time to install the new Noctua fan with the grille and the old screws. The new screws in the box will be reused later. Make sure to place it in the correct orientation. You will notice an arrow on one side of the fan, indicating the direction of airflow. It is important to position the fan so that this arrow points towards the inside of the case. Then reconnect the fan.
+
 ![image](assets/hardware/15.jpeg)
 ![image](assets/hardware/16.jpeg)
 
@@ -604,8 +614,6 @@ Once the connections are made, place the plastic cover over the case plastic and
 Finally, put the case cover back in place and screw the 6 screws on the sides to hold everything in place. And there you have it, your power supply case is now equipped with a new fan.
 
 ## Replacing the Main Fans
-
-![Replace fans to reduce noise](https://www.youtube.com/watch?v=2CNGKZiveuc)
 
 > WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software capable of reducing the performance of your machine. This measure is crucial because in order to reduce noise, we will install less powerful fans, which will dissipate less heat.
 
@@ -660,12 +668,14 @@ And there you have it, congratulations! You have just replaced the entire mechan
 
 ## Joining a mining pool
 
-![Joining a mining pool with an Antminer S9](https://www.youtube.com/watch?v=wM-dRog6mls&t=166s)
-One can imagine a mining pool as a farming cooperative. Farmers pool their production together to reduce the variance of supply and demand and thus obtain more stable income for their operation. A mining pool operates in the same way, with the shared resource being hashes. Indeed, the discovery of a single valid hash allows for the creation of a block and the winning of the coinbase or reward, currently 6.25 BTC plus the transaction fees included in the block. If you mine alone, you will only be rewarded when you find a block. Being in competition against all other miners on the planet, you would have very little chance of winning this lottery and you would still have to pay the fees associated with using your miner without any guarantee of success. Mining pools address this issue by pooling the computing power of several (thousands) of miners and sharing their rewards based on the percentage of participation in the pool's hashrate when a block is found. To visualize your chances of mining a block alone, you can use this tool. By entering the information for an Antminer S9, we can see that the chances of finding a hash that allows for the creation of a block are 1 in 24,777,849 for each block or 1 in 172,068 per day. On average (with a constant hashrate and difficulty), it would take 471 years to find a block.
+One can imagine a mining pool as a farming cooperative. Farmers pool their production together to reduce the variance of supply and demand and thus obtain more stable income for their operation. A mining pool operates in the same way, with the shared resource being hashes. Indeed, the discovery of a single valid hash allows for the creation of a block and the winning of the coinbase or reward, currently 6.25 BTC plus the transaction fees included in the block. 
+
+If you mine alone, you will only be rewarded when you find a block. Being in competition against all other miners on the planet, you would have very little chance of winning this lottery and you would still have to pay the fees associated with using your miner without any guarantee of success. Mining pools address this issue by pooling the computing power of several (thousands) of miners and sharing their rewards based on the percentage of participation in the pool's hashrate when a block is found. To visualize your chances of mining a block alone, you can use this tool. By entering the information for an Antminer S9, we can see that the chances of finding a hash that allows for the creation of a block are 1 in 24,777,849 for each block or 1 in 172,068 per day. On average (with a constant hashrate and difficulty), it would take 471 years to find a block.
 
 However, since everything in Bitcoin is based on probability, it sometimes happens that solo miners are rewarded for taking this risk: Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
 
 If you like to gamble, you can try it, but our guide will not focus in that direction. Instead, we will concentrate on the mining pool that best suits our needs for creating a heating system.
+
 Considerations to have when choosing a mining pool are the operation of the pool's rewards, which can vary, as well as the minimum amount before being able to withdraw rewards to an address. For example, Braiins, which offers the software we are discussing here, also offers a pool. This pool has a reward system called "Score" that encourages miners to mine for long periods. Participation includes a uptime factor expressed as a "scoring hashrate". In our case, where we want a heating system that can be turned on for only a few minutes, this is not the ideal reward system. We prefer a reward system that gives us an equal reward for each participation. Additionally, the minimum withdrawal amount for Braiins Pool is 100,000 sats and On-Chain. So we lose some sats in transaction fees and a portion of our reward can be locked if we don't mine enough during the winter.
 
 The reward model that interests us is PPS, which stands for "pay-per-share". This means that the miner will receive a reward for each valid share. There is also a variant of this system, FPPS (Full Pay Per Share), which not only divides the coinbase reward, but also the transaction fees included in the block. The mining pools we recommend for connecting your mining/heating are Linecoin Pool (FPPS) and Nicehash (PPS).
@@ -687,8 +697,8 @@ Then copy the Stratum address and your username:
 You can now go back to the Braiins OS+ interface to enter these credentials. For the password, you can leave the field empty.
 
 ![image](assets/software/21.jpeg)
+
 ## Optimizing the Performance of Your Antminer S9
-![Optimizing the performance of your Antminer S9 with auto-tuning](https://www.youtube.com/watch?v=yh8U9Ay1i-E&t=277s)
 
 Both overclocking and autotuning involve adjusting the frequencies on the hashing boards to improve the performance of the ASIC. The difference between the two lies in the complexity of these frequency settings.
 
@@ -699,6 +709,7 @@ Braiins OS+ supports overclocking, underclocking of ASICs, and autotuning. It al
 ### Optimizing the performance of your Antminer S9 with auto-tuning
 
 Before 2018, miners had two ways to gain an advantage in their activity: finding electricity at a reasonable cost and buying more efficient hardware. However, in 2018, a new advancement was discovered in the field of mining software and firmware, called AsicBoost. This technique allows miners to reduce their costs by approximately 13% by modifying the firmware running on their devices.
+
 Today, there is a new advancement in the software and firmware mining sector called autotuning, which offers an even greater advantage than AsicBoost. ASICs are composed of many small computer chips that perform hashing. These chips are made of silicon, the same element widely used in semiconductors and other microelectronic components. The key understanding here is that not all silicon chips are identical, each can vary slightly in its electrical properties. Hardware manufacturers are aware of this and publish the performance specifications of their mining machines based on the lower limit of their tolerances. In other words, manufacturers know the frequency that works best for average chips and they use this frequency uniformly for all chips in the machine.
 
 This puts an upper limit on the hash rate a machine can have. Autotuning is a process in which algorithms evaluate the optimal frequencies for chip-by-chip hashing, instead of treating the entire machine as a single unit. This means that a higher-quality chip that can perform more hashes per second will get a higher frequency, and a lower-quality chip that can perform relatively fewer hashes will get a lower frequency. Chip-level autotuning is essentially a way to optimize the performance of an ASIC through the software and firmware running on it.

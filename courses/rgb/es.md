@@ -27,11 +27,11 @@ En este nuevo programa, aprenderán los conceptos básicos de la programación R
 
 Semana 1 - LN 304
 
-![image](assets/image/1.jpg)
+![image](assets/image/1.webp)
 
 Semana 2 - Formación actual
 
-![image](assets/image/2.jpg)
+![image](assets/image/2.webp)
 
 Un gran agradecimiento a la persona que organizó estos cursos en vivo y a los 3 profesores que participaron:
 

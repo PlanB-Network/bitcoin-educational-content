@@ -61,7 +61,7 @@ Bereit, dieses fesselnde Abenteuer zu beginnen? Tauchen wir gemeinsam in die fas
 
 Um das Konzept des Minings vereinfacht zu erklären, kann ein passendes Gleichnis verwendet werden: das Puzzle. Ähnlich wie bei einem Puzzle ist das Mining eine komplexe Aufgabe, die jedoch leicht zu überprüfen ist, sobald sie abgeschlossen ist. Im Kontext des Bitcoin-Minings versuchen die Miner, schnell ein digitales Puzzle zu lösen. Der erste Miner, der das Puzzle löst, präsentiert seine Lösung dem gesamten Netzwerk, das dann leicht deren Gültigkeit überprüfen kann. Diese erfolgreiche Überprüfung ermöglicht es dem Miner, einen neuen Block zu validieren und zur Bitcoin-Blockchain hinzuzufügen. Als Anerkennung für ihre Arbeit, die mit erheblichen Kosten verbunden ist, wird der Miner mit einer bestimmten Anzahl von Bitcoins belohnt. Diese Belohnung dient als finanzieller Anreiz für die Miner, ihre Arbeit der Transaktionsvalidierung und Netzwerksicherung fortzusetzen.
 
-![image](assets/overview/puzzle.png)
+![image](assets/overview/puzzle.webp)
 
 Ursprünglich betrug die Belohnung im Bitcoin-Netzwerk 50 Bitcoins alle zehn Minuten, parallel zur Entdeckung eines Blocks alle zehn Minuten im Durchschnitt durch die Miner. Diese Belohnung wird alle 210.000 Blöcke halbiert, was ungefähr alle vier Jahre geschieht. Diese Vergütung dient als starke Motivation, um die Miner trotz der hohen Energiekosten am Mining-Prozess teilnehmen zu lassen. Ohne Belohnung würde das energieintensive Mining vernachlässigt werden und die Sicherheit und Stabilität des gesamten Bitcoin-Netzwerks gefährden.
 
@@ -73,7 +73,7 @@ Der Mining-Prozess besteht darin, einen gültigen Hash zu finden, der vom Bitcoi
 
 Zu Beginn dominierte die Ära der CPU, in der die Miner ihre eigenen Computer für das Bitcoin-Mining verwendeten. Die Entdeckung der Vorteile von GPUs (Grafikkarten) für diese Aufgabe markierte eine Wende, da sie die Hashrate erheblich erhöhten und den Energieverbrauch reduzierten. Der Fortschritt hielt nicht an, sondern führte zur späteren Einführung von FPGA (Field-Programmable Gate Array / programmierbares Gatterfeld). FPGA dienten als Plattform für die Entwicklung von ASICs (Application-Specific Integrated Circuit / anwendungsspezifische integrierte Schaltung).
 
-![image](assets/overview/chip.png)
+![image](assets/overview/chip.webp)
 
 ASICs sind Chips, vergleichbar mit einem CPU-Chip, jedoch entwickelt, um eine bestimmte Art von Berechnung so effizient wie möglich durchzuführen. Mit anderen Worten, ein CPU ist in der Lage, eine Vielzahl von verschiedenen Berechnungen durchzuführen, ohne besonders optimiert für einen bestimmten Typ von Berechnung zu sein, während ein ASIC in der Lage sein wird, nur einen bestimmten Typ von Berechnung, aber sehr effizient durchzuführen. Im Falle von Bitcoin-ASICs sind sie für die Berechnung des SHA256-Algorithmus vorgesehen.
 Heutzutage verwenden Bergleute ausschließlich ASICs, die speziell für diese Operation optimiert sind, um eine maximale Anzahl von Kombinationen mit möglichst geringem Energieverbrauch und so schnell wie möglich zu testen. Diese Computer, die außerhalb des Bitcoin-Minings keine anderen Aufgaben ausführen können, sind ein greifbares Zeugnis für die kontinuierliche Entwicklung und zunehmende Spezialisierung der Bitcoin-Mining-Industrie. Diese ständige Weiterentwicklung spiegelt die intrinsische Dynamik von Bitcoin wider, bei der eine Anpassung der Schwierigkeit sicherstellt, dass alle zehn Minuten ein Block produziert wird, trotz der exponentiellen Zunahme der Mining-Kapazität.
@@ -84,7 +84,7 @@ Um die Intensität dieses Prozesses zu veranschaulichen, betrachten Sie einen ty
 
 Die Schwierigkeitsanpassung ist ein entscheidender Mechanismus im Betrieb des Bitcoin-Netzwerks, der sicherstellt, dass Blöcke im Durchschnitt alle 10 Minuten abgebaut werden. Diese Dauer ist ein Durchschnitt, da der Mining-Prozess tatsächlich ein Wahrscheinlichkeitsspiel ist, ähnlich dem Würfeln in der Hoffnung, eine Zahl zu erhalten, die kleiner ist als die vom Schwierigkeitsgrad festgelegte Zahl. Alle 2016 Blöcke passt das Netzwerk die Mining-Schwierigkeit anhand der durchschnittlichen Zeit an, die zum Mining der vorherigen Blöcke benötigt wurde. Wenn die durchschnittliche Zeit über 10 Minuten liegt, wird die Schwierigkeit verringert, und umgekehrt, wenn die durchschnittliche Zeit darunter liegt, wird die Schwierigkeit erhöht. Dieser Anpassungsmechanismus stellt sicher, dass die Mining-Zeit für neue Blöcke konstant bleibt, unabhängig von der Anzahl der Bergleute oder der Gesamtberechnungsleistung des Netzwerks. Aus diesem Grund wird die Bitcoin-Blockchain auch als Timechain bezeichnet.
 
-![image](assets/overview/chinaban.png)
+![image](assets/overview/chinaban.webp)
 
 * Beispiel China:
 Der Fall von China illustriert perfekt diesen Mechanismus der Schwierigkeitsanpassung. Mit reichlich vorhandener und günstiger Energie war China der weltweit führende Hub für Bitcoin-Mining. Im Jahr 2021 verbot das Land plötzlich das Bitcoin-Mining auf seinem Territorium, was zu einem massiven Rückgang der globalen Hashrate des Bitcoin-Netzwerks um etwa 50% führte. Diese schnelle Abnahme der Mining-Leistung hätte das Bitcoin-Netzwerk ernsthaft stören können, indem sie die durchschnittliche Block-Mining-Zeit erhöht. Jedoch griff der Schwierigkeitsanpassungsmechanismus ein und senkte die Mining-Schwierigkeit, um sicherzustellen, dass die durchschnittliche Block-Mining-Frequenz bei 10 Minuten bleibt. Dieser Fall zeigt die Effizienz und Widerstandsfähigkeit des Bitcoin-Schwierigkeitsanpassungsmechanismus, der die Stabilität und Vorhersagbarkeit des Netzwerks auch bei plötzlichen und bedeutenden Veränderungen in der globalen Mining-Landschaft gewährleistet.
@@ -95,7 +95,7 @@ Bei der Entwicklung der Bitcoin-Mining-Maschinen ist es wichtig zu betonen, dass
 
 Angesichts der ständigen technologischen Entwicklung im Mining-Bereich müssen Fachleute sich strategisch positionieren. Die Mining-Industrie ist ständigen Innovationen ausgesetzt, wie zum Beispiel der kürzlich veröffentlichten J-Version des S19 und der erwarteten Veröffentlichung des S19 XP, der deutlich höhere Mining-Kapazitäten bietet. Darüber hinaus beziehen sich die Verbesserungen nicht nur auf die Rohleistung der Maschinen. Zum Beispiel verwendet das neue Modell S19 XP eine Flüssigkeitskühlung, eine technische Änderung, die eine signifikante Verbesserung der Energieeffizienz ermöglicht. Obwohl Innovation eine Konstante bleibt, werden zukünftige Effizienzgewinne wahrscheinlich geringer sein als bisher aufgrund des Erreichens einer gewissen Schwelle der technologischen Innovation.
 
-![image](assets/overview/chipevolution.png)
+![image](assets/overview/chipevolution.webp)
 
 Zusammenfassung:
 Die Bitcoin-Mining-Branche entwickelt sich weiter und die Akteure müssen sich auf zukünftig begrenztere Effizienzgewinne einstellen und ihre Strategien entsprechend anpassen. Zukünftige technologische Fortschritte werden voraussichtlich in kleinerem Maßstab stattfinden und spiegeln die zunehmende Reife des Sektors wider.
@@ -135,7 +135,7 @@ In Frankreich zum Beispiel wird überschüssiger Strom aus Solarmodulen in das N
 Die Zentralisierung des Minings wird als eine große Herausforderung betrachtet. Große Akteure wie Foundry dominieren den Markt, was potenziell zur Zensur von Transaktionen führen kann. Diese Zentralisierung kann das Netzwerk auch anfällig für Angriffe machen, insbesondere den 51%-Angriff, bei dem ein Akteur oder eine Gruppe mehr als 50% der Hashing-Leistung des Netzwerks kontrolliert und somit das Netzwerk kontrollieren und manipulieren kann.
 Regulierungsrisiko Es wird betont, dass eine Regulierung oder Verbote bestimmter Bitcoin-Transaktionen in Ländern wie den USA erhebliche Auswirkungen auf das Netzwerk haben könnte, insbesondere wenn ein großer Teil der Hashing-Leistung in diesem Land zentralisiert ist.
 
-![image](assets/overview/foundry.png)
+![image](assets/overview/foundry.webp)
 
 Um dieser Zentralisierung entgegenzuwirken, werden verschiedene Strategien diskutiert:
 
@@ -160,7 +160,7 @@ Bei der Frage, was in einem Bitcoin-Block enthalten sein sollte, ist es entschei
 
 Mit dem erwarteten Wachstum des Lightning Networks und der damit verbundenen Zunahme von Kanalöffnungen und -schließungen wird der Platz in den Bitcoin-Blöcken immer wertvoller. Die Bitcoin-Community neigt bereits dazu, den Erhalt dieses Raums zu schätzen und erkennt seine intrinsische Begrenzung an. Dieses Bewusstsein hat zu Diskussionen über die legitime Nutzung des Blockraums geführt, wobei Bedenken hinsichtlich des "Spams" auf der Blockchain durch als nicht wesentlich betrachtete Transaktionen bestehen.
 
-![image](assets/overview/block.png)
+![image](assets/overview/block.webp)
 
 Die Verwendung des Blockraums in der Zukunft ist Gegenstand von Spekulationen, aber es wird allgemein anerkannt, dass es sich um eine knappe Ressource handelt, die sorgfältig genutzt werden sollte. Auch wenn der Wunsch besteht, ihn zu füllen, ist es wichtig, ihn zu erhalten, um die langfristige Lebensfähigkeit des Bitcoin-Netzwerks zu gewährleisten und einer zukünftigen Nachfragesteigerung nach Blockraum vorzubeugen. Wie auf jedem freien Markt wird das Angebot und die Nachfrage die Nutzung des Blockraums regulieren. Bei begrenztem Angebot müssen die Stakeholder informierte Entscheidungen über die Nutzung dieses wertvollen Raums treffen, um die Effizienz und Sicherheit des Bitcoin-Netzwerks langfristig zu gewährleisten.
 
@@ -185,7 +185,7 @@ Letztendlich liegt die Verantwortung bei allen Akteuren im Bitcoin-Netzwerk. Ein
 
 Die elegante Spieltheorie von Satoshi Nakamoto hat eine Situation geschaffen, in der jeder Akteur im Bitcoin-Netzwerk dazu angeregt wird, sowohl seine eigenen Interessen als auch die der anderen Teilnehmer zu schützen. Dies schafft ein Gleichgewicht, bei dem schlechtes Verhalten bestraft werden kann und somit die Sicherheit und Stabilität des gesamten Systems gestärkt wird. Trotz dieses Gleichgewichts bleiben Staaten eine potenzielle Bedrohung. Wie in der Präsentation auf Surfing Bitcoin 2022 dargelegt, können Staaten versuchen, die Mining-Industrie anzugreifen und das Bitcoin-Netzwerk einem Risiko der Zentralisierung und des Angriffs auszusetzen. Hypothetische Szenarien wie ein militärischer Angriff auf Mining-Einrichtungen unterstreichen die Bedeutung geografischer und industrieller Diversifizierung für die Widerstandsfähigkeit des Bitcoin-Netzwerks.
 
-![image](assets/overview/miner.png)
+![image](assets/overview/miner.webp)
 
 Die Zentralisierung der Mining-Hardware-Produktion in China birgt ein weiteres Risiko. Eine Weigerung, Mining-Maschinen zu exportieren oder eine Ansammlung von Hashrate für einen potenziellen 51%-Angriff durch China verdeutlichen die Notwendigkeit einer diversifizierten Mining-Hardware-Produktion. Angesichts dieser Risiken erforscht die Bitcoin-Community aktiv Lösungen. Unternehmen wie Intel erwägen die Produktion von Mining-Equipment in den USA, um zur Verteilung der Produktion beizutragen. Andere Initiativen wie Block mit seinem Open-Source Mining Development Kit (MDK) zielen darauf ab, das Monopol bei der Gestaltung und Produktion von Mining-Hardware zu verringern und eine breitere Verteilung der Hashrate zu ermöglichen. Im Mittelpunkt dieser Diskussionen steht die grundlegende Mission von Bitcoin: ein zensurresistentes Werteaustausch-Netzwerk zu sein. Die Bitcoin-Community bemüht sich ständig, die Verteilung, Zensurresistenz und Antifragilität des Netzwerks zu stärken und lehnt Vorschläge wie den Übergang zum Proof-of-Stake ab, die nicht mit diesen grundlegenden Prinzipien übereinstimmen.
 
@@ -193,7 +193,7 @@ Die Zentralisierung der Mining-Hardware-Produktion in China birgt ein weiteres R
 
 Der Proof of Work (PoW) ist entscheidend, da er die physische Verbindung zwischen der realen Welt und Bitcoin darstellt. Obwohl Bitcoins immateriell sind, erfordert ihre Produktion eine greifbare Energie, die eine direkte Verbindung zur physischen und realen Welt herstellt. Diese Verbindung gewährleistet, dass die Produktion und Validierung von Bitcoins und Blöcken einen realen Energieaufwand erfordern und das Bitcoin-Netzwerk somit in der physischen Realität verankert ist und eine vollständige Dominanz durch mächtige Entitäten verhindert wird. Der PoW fungiert als Schutzwall gegen Zentralisierung, indem er sicherstellt, dass die Teilnahme am Netzwerk und die Validierung von Transaktionen eine Investition in greifbare Ressourcen erfordern. Dadurch wird verhindert, dass das Netzwerk von Entitäten monopolisiert wird, die sonst ohne signifikante Eintrittsbarrieren die Kontrolle übernehmen könnten, und gewährleistet eine gerechtere Verteilung von Macht und Einfluss innerhalb des Bitcoin-Netzwerks.
 
-![image](assets/overview/POWPOS.png)
+![image](assets/overview/POWPOS.webp)
 
 ### Grenzen des Proof of Stake
 
@@ -238,7 +238,7 @@ Dennoch bietet das Mining einzigartige Möglichkeiten, sich in das Bitcoin-Ökos
 
 Trotz dieser Optionen birgt das Mining bedeutende Herausforderungen. Das bekannte Sprichwort der Kryptowelt "Not your keys, not your Bitcoins" findet eine ähnliche Resonanz in der Mining-Welt: "Not your hashrate, not your reward". Geschichten von Enttäuschungen und abgeschalteten Maschinen sind an der Tagesordnung, wobei viele Akteure außergewöhnliche Ergebnisse versprechen, diese aber nicht liefern. Stromversorgungsprobleme und Maschinenausfälle können Investoren hilflos zurücklassen, mit teurer Ausrüstung, die sie nicht kontrollieren. In diesem Kontext sind Vorsicht und ein tiefes Verständnis der Mining-Branche entscheidend, bevor man sich darauf einlässt. Obwohl Gewinnchancen bestehen, sind die Risiken signifikant, und ein informierter und überlegter Ansatz ist entscheidend, um in diesem komplexen und oft unvorhersehbaren Bereich zu navigieren. Es ist daher von entscheidender Bedeutung, gründliche Recherchen anzustellen und die Vor- und Nachteile sorgfältig abzuwägen, bevor man sich dem Bitcoin-Mining widmet.
 
-![image](assets/overview/self.png)
+![image](assets/overview/self.webp)
 
 ### Jungfräuliche Bitcoins
 
@@ -252,7 +252,7 @@ In diesem Zusammenhang erscheint die Wahl eines eigenständigen und informierten
 
 Mit der Frage nach einem möglichen Verbot des Minings in Europa werden die Diskussionen über die Regulierung immer relevanter. Die sich ständig ändernde regulatorische Landschaft kann die Bitcoin-Mining-Industrie erheblich beeinflussen. Ein Verbot des Minings in Europa ist eine mögliche Entwicklung, insbesondere wenn man die Vorfälle in China betrachtet. Obwohl das Mining trotz des Verbots in China weiterhin stattfindet, könnte Europa einen ähnlichen Weg einschlagen. Eine breitere Verteilung der Hashrate in verschiedenen Regionen könnte dazu beitragen, die Mining-Community in Europa zu stärken und ihnen zu ermöglichen, Missverständnissen und falschen Vorstellungen über das Mining, seine Umweltauswirkungen und seinen Einfluss auf das Stromnetz effektiv entgegenzutreten.
 
-![image](assets/overview/regulation.jpg)
+![image](assets/overview/regulation.webp)
 
 Angesichts von Kampagnen wie denen von Greenpeace und den oft irreführenden Zahlen einiger Studien bleibt die beste Waffe die Wahrheitsfindung. Es ist entscheidend, die Öffentlichkeit und Entscheidungsträger über die Realität des Minings, seine Komplexität und Nuancen zu informieren, anstatt sie auf Stereotypen und falsche Informationen zurückgreifen zu lassen. Je mehr Menschen über das Mining informiert sind und sich der Realität bewusst sind, desto besser kann sich die Branche gegen möglicherweise einschränkende Vorschriften verteidigen.
 
@@ -315,41 +315,41 @@ Der Antminer S9 ist in mehreren Varianten (i, j) erhältlich, die geringfügige 
 
 Der Preis für ASICs variiert je nach vielen Faktoren wie dem Bitcoin-Preis, der Netzwerkschwierigkeit, der Effizienz der Maschine und den Stromkosten. Es ist daher schwierig, eine genaue Schätzung für den Kauf einer gebrauchten Maschine abzugeben. Im Februar 2023 liegt der erwartete Preis in Frankreich in der Regel zwischen 100€ und 200€, aber diese Preise können sich sehr schnell ändern.
 
-![image](assets/guide-achat/1.jpeg)
+![image](assets/guide-achat/1.webp)
 
 Der Antminer S9 besteht aus folgenden Teilen:
 
 - 3 Hashboards, die die Chips enthalten, die das Hashing erzeugen
 
-![image](assets/guide-achat/2.jpeg)
+![image](assets/guide-achat/2.webp)
 
 - Eine Steuerplatine mit einem Steckplatz für eine SD-Karte, einem Ethernet-Anschluss und Anschlüssen für die Hashboards und Lüfter. Dies ist das Gehirn Ihres ASIC.
 
-![image](assets/guide-achat/3.jpeg)
+![image](assets/guide-achat/3.webp)
 
 - 3 Datenkabel, die die Hashboards mit der Steuerplatine verbinden
 
-![image](assets/guide-achat/4.jpeg)
+![image](assets/guide-achat/4.webp)
 
 - Das Netzteil, das mit 220V arbeitet und daher wie ein herkömmliches Haushaltsgerät angeschlossen werden kann
 
-![image](assets/guide-achat/5.jpeg)
+![image](assets/guide-achat/5.webp)
 
 - 2 Lüfter mit 120mm Durchmesser
 
-![image](assets/guide-achat/6.jpeg)
+![image](assets/guide-achat/6.webp)
 
 - Ein männliches C13-Kabel
 
-![image](assets/guide-achat/7.jpeg)
+![image](assets/guide-achat/7.webp)
 
 Beim Kauf einer gebrauchten Maschine ist es wichtig, zu überprüfen, ob alle Teile vorhanden und funktionsfähig sind. Beim Austausch sollten Sie den Verkäufer bitten, die Maschine einzuschalten, um ihre ordnungsgemäße Funktion zu überprüfen. Es ist wichtig zu überprüfen, ob das Gerät ordnungsgemäß eingeschaltet wird, und dann die Internetverbindung zu überprüfen, indem Sie ein Ethernet-Kabel anschließen und über einen Webbrowser auf demselben lokalen Netzwerk auf die Bitmain-Anmeldeseite zugreifen. Sie können diese IP-Adresse finden, indem Sie sich mit der Benutzeroberfläche Ihres Internetrouters verbinden und nach verbundenen Geräten suchen. Diese Adresse sollte das folgende Format haben: 192.168.x.x
 
-![image](assets/guide-achat/8.gif)
+![image](assets/guide-achat/8.webp)
 
 Überprüfen Sie auch, ob die Standardanmeldeinformationen funktionieren (Benutzername: root, Passwort: root). Wenn die Standardanmeldeinformationen nicht funktionieren, müssen Sie einen Reset der Maschine durchführen.
 
-![image](assets/guide-achat/9.jpeg)
+![image](assets/guide-achat/9.webp)
 
 Sobald Sie verbunden sind, sollten Sie den Status jeder Hashboard auf dem Dashboard sehen können. Wenn der Miner mit einem Pool verbunden ist, sollten alle Hashboards funktionieren. Es ist wichtig zu beachten, dass Miner viel Lärm machen, das ist normal. Stellen Sie außerdem sicher, dass die Lüfter ordnungsgemäß funktionieren.
 
@@ -370,25 +370,25 @@ Wenn Sie ein erfahrener Heimwerker sind und Ihren Miner in eine Heizung verwande
 
 Die Original-Lüfter des Antminer S9 sind zu laut, um den Antminer als Heizung zu verwenden. Die Lösung besteht darin, sie durch leisere Lüfter zu ersetzen. Unser Team hat mehrere Modelle der Marke Noctua getestet und den Noctua NF-A14 iPPC-2000 PWM als besten Kompromiss ausgewählt. Achten Sie darauf, die 12V-Version der Lüfter auszuwählen. Dieser 140mm-Lüfter kann bis zu 1200W Heizleistung erzeugen und gleichzeitig einen theoretischen Geräuschpegel von 31 dB aufrechterhalten. Um diese 140mm-Lüfter installieren zu können, benötigen Sie einen Adapter von 140mm auf 120mm, den Sie im DécouvreBitcoin-Shop finden können. Außerdem werden wir auch 140mm-Schutzgitter hinzufügen.
 
-![image](assets/piece/1.jpeg)
-![image](assets/piece/2.jpeg)
-![image](assets/piece/3.jpeg)
+![image](assets/piece/1.webp)
+![image](assets/piece/2.webp)
+![image](assets/piece/3.webp)
 
 Der Lüfter des Netzteils ist ebenfalls ziemlich laut und muss ausgetauscht werden. Wir empfehlen den Noctua NF-A6x25 PWM. Beachten Sie, dass die Anschlüsse der Noctua-Lüfter nicht die gleichen sind wie die Originalanschlüsse. Sie benötigen also einen Adapter, um sie anzuschließen. Zwei sollten ausreichen. Achten Sie auch hier darauf, die 12V-Version des Lüfters auszuwählen.
 
-![image](assets/piece/4.jpeg)
-![image](assets/piece/5.jpeg)
+![image](assets/piece/4.webp)
+![image](assets/piece/5.webp)
 
 2. Hinzufügen eines WLAN/Ethernet-Bridges
 
 Anstatt ein Ethernet-Kabel zu verwenden, können Sie Ihren Antminer über WLAN verbinden, indem Sie einen WLAN/Ethernet-Bridge hinzufügen. Wir haben den vonets vap11g-300 ausgewählt, da er es Ihnen ermöglicht, das WLAN-Signal Ihres Internet-Routers einfach zu empfangen und an Ihren Antminer über Ethernet weiterzuleiten, ohne ein separates Netzwerk zu erstellen. Wenn Sie über Elektrokenntnisse verfügen, können Sie ihn direkt mit der Stromversorgung des Antminer betreiben, ohne ein USB-Ladegerät hinzufügen zu müssen. Dafür benötigen Sie eine weibliche 5,5mmx2,1mm-Buchse.
 
-![image](assets/piece/6.jpeg)
-![image](assets/piece/7.jpeg)
+![image](assets/piece/6.webp)
+![image](assets/piece/7.webp)
 
 3. Optional: Hinzufügen einer intelligenten Steckdose
 Wenn Sie Ihren Antminer von Ihrem Smartphone aus ein- und ausschalten und seinen Energieverbrauch überwachen möchten, können Sie eine Smart Plug hinzufügen. Wir haben den ANTELA Smart Plug in der 16A-Version getestet, der mit der Smartlife-App kompatibel ist. Mit diesem Smart Plug können Sie den täglichen und monatlichen Energieverbrauch überprüfen und er verbindet sich direkt über WLAN mit Ihrem Internetrouter.
-![image](assets/piece/8.jpeg)
+![image](assets/piece/8.webp)
 
 Liste des Materials und Links
 
@@ -416,22 +416,22 @@ Versorgen Sie die Bridge, indem Sie sie über USB anschließen.
 
 Verbinden Sie sich von Ihrem Computer aus mit dem WLAN VONETS_****** mit dem Passwort 12345678.
 
-![Bild](assets/software/vonet1.png)
+![Bild](assets/software/vonet1.webp)
 
 Benutzername: admin
 Passwort: admin
 
-![Bild](assets/software/vonet2.png)
+![Bild](assets/software/vonet2.webp)
 
 Wählen Sie den Assistenten aus.
 
-![Bild](assets/software/vonet3.png)
+![Bild](assets/software/vonet3.webp)
 
 Wählen Sie das WLAN aus, mit dem Sie Ihren Miner verbinden möchten, und klicken Sie auf Weiter.
 
 ACHTUNG: Die Vonet-Bridge funktioniert nur im 2,4-GHz-Band. Heutzutage bieten Router in der Regel zwei WLAN-Netzwerke an, eines im 2,4-GHz-Band und eines im 5-GHz-Band.
 
-![Bild](assets/software/vonet4.png)
+![Bild](assets/software/vonet4.webp)
 
 Geben Sie das Passwort Ihres WLAN-Netzwerks in "Source WIFI hotspot password" ein. Wenn Sie Ihre Vonet-Bridge nicht verwenden möchten, um Ihr WLAN-Netzwerk zu erweitern, aktivieren Sie das Kontrollkästchen "Disable Hotspot". Andernfalls lassen Sie dieses Kontrollkästchen deaktiviert.
 
@@ -449,7 +449,7 @@ Vor der Installation von BraiinOS+ kann es erforderlich sein, Ihren S9 auf die W
 Diese Methode kann zwischen 2 Minuten und 10 Minuten nach dem Start des Miners angewendet werden.
 2 Minuten nach dem Einschalten des Miners drücken Sie bitte 5 Sekunden lang auf die "Reset"-Taste und lassen Sie sie dann los. Der Miner wird innerhalb von 4 Minuten auf die Werkseinstellungen zurückgesetzt und startet automatisch neu (es ist nicht erforderlich, ihn auszuschalten).
 
-![image](assets/software/1.jpeg)
+![image](assets/software/1.webp)
 
 ## BraiinsOS+ auf einem Antminer S9 installieren
 
@@ -463,11 +463,11 @@ Hier zeigen wir Ihnen, wie Sie Braiins OS+ einfach direkt auf den Speicher Ihres
 2. Laden Sie die BOS-Toolbox für Windows / Linux herunter.
 3. Entpacken Sie die heruntergeladene Datei und öffnen Sie die Datei "bos-toolbox.bat". Wählen Sie die Sprache aus und nach kurzer Zeit sehen Sie dieses Fenster:
 
-![image](assets/software/5.jpeg)
+![image](assets/software/5.webp)
 
 4. Die BOS-Toolbox ermöglicht es Ihnen, die IP-Adresse Ihres Antminers leicht zu finden und BraiinsOS+ zu installieren. Wenn Sie die IP-Adresse Ihrer Maschine bereits kennen, können Sie zum Schritt 8 übergehen. Andernfalls gehen Sie zum Scan-Tab.
 
-![image](assets/software/6.jpeg)
+![image](assets/software/6.webp)
 
 5. Normalerweise liegt der IP-Adressbereich in Heimnetzwerken zwischen 192.168.1.1 und 192.168.1.255. Geben Sie daher im IP-Bereich-Feld "192.168.1.0/24" ein. Wenn Ihr Netzwerk anders ist, ändern Sie diese Adressen entsprechend. Klicken Sie dann auf "Start".
 
@@ -475,7 +475,7 @@ Hier zeigen wir Ihnen, wie Sie Braiins OS+ einfach direkt auf den Speicher Ihres
 
 7. Sie sollten alle Antminer in Ihrem Netzwerk sehen, hier ist die IP-Adresse 192.168.1.37
 
-![image](assets/software/7.jpeg)
+![image](assets/software/7.webp)
 
 8. Klicken Sie auf "Back" und dann auf die Registerkarte "Install". Geben Sie die zuvor gefundene IP-Adresse ein und klicken Sie auf "Start".
 
@@ -497,7 +497,7 @@ Sie werden dann vom Dashboard von Brains OS+ begrüßt.
 
 ### Dashboard
 
-![image](assets/software/14.jpeg)
+![image](assets/software/14.webp)
 
 Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit überwachen.
 
@@ -505,7 +505,7 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 - Auf der rechten Seite finden Sie die tatsächliche Hashrate, die durchschnittliche Chip-Temperatur, Ihre geschätzte Effizienz in W/THs und den Stromverbrauch.
 - Darunter finden Sie die Lüfterdrehzahl in Prozent der maximalen Geschwindigkeit sowie die Anzahl der Umdrehungen pro Minute.
 
-![image](assets/software/15.jpeg)
+![image](assets/software/15.webp)
 
 - Weiter unten finden Sie eine detaillierte Ansicht jedes Hashboards. Die durchschnittliche Temperatur des Boards und der Chips, die Spannung und die Frequenz.
 - Ein Überblick über die aktiven Mining-Pools in Pools.
@@ -514,15 +514,15 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 
 ### Konfiguration
 
-![image](assets/software/16.jpeg)
+![image](assets/software/16.webp)
 
 ### System
 
-![image](assets/software/17.jpeg)
+![image](assets/software/17.webp)
 
 ### Schnellaktionen
 
-![image](assets/software/18.jpeg)
+![image](assets/software/18.webp)
 
 # Attakai - Lüftermodifikation
 
@@ -530,7 +530,7 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 
 > ACHTUNG: Es ist unerlässlich, zuvor Braiins OS+ auf Ihrem Miner oder einer anderen Software installiert zu haben, die die Leistung Ihres Geräts reduzieren kann. Diese Maßnahme ist entscheidend, da wir leistungsschwächere Lüfter installieren werden, die weniger Wärme abführen können, um den Lärm zu reduzieren.
 
-![image](assets/hardware/cover.jpeg)
+![image](assets/hardware/cover.webp)
 
 ### Benötigte Materialien
 
@@ -539,60 +539,60 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 
 > ACHTUNG: Bevor Sie beginnen, stellen Sie sicher, dass Ihr Miner vom Stromnetz getrennt ist, um das Risiko eines Stromschlags zu vermeiden.
 
-![image](assets/hardware/1.jpeg)
+![image](assets/hardware/1.webp)
 
 Zunächst entfernen Sie die 6 Schrauben an der Seite des Gehäuses, die es geschlossen halten. Sobald die Schrauben entfernt sind, öffnen Sie das Gehäuse vorsichtig, um den Kunststoffschutz, der die Komponenten bedeckt, zu entfernen.
 
-![image](assets/hardware/2.jpeg)
-![image](assets/hardware/3.jpeg)
+![image](assets/hardware/2.webp)
+![image](assets/hardware/3.webp)
 
 Als nächstes ist es an der Zeit, den Original-Lüfter zu entfernen, wobei darauf geachtet werden muss, die anderen Komponenten nicht zu beschädigen. Entfernen Sie dazu die Schrauben, die ihn an Ort und Stelle halten, und lösen Sie vorsichtig den weißen Kleber, der den Stecker umgibt. Es ist wichtig, vorsichtig vorzugehen, um Kabel oder Stecker nicht zu beschädigen.
 
-![image](assets/hardware/4.jpeg)
+![image](assets/hardware/4.webp)
 
 Nachdem der Original-Lüfter entfernt wurde, werden Sie feststellen, dass die Anschlüsse des neuen Noctua-Lüfters nicht mit denen des Original-Lüfters übereinstimmen. Der neue Lüfter verfügt tatsächlich über 3 Kabel, einschließlich eines gelben Kabels, das die Geschwindigkeit steuert. In diesem speziellen Fall wird dieses Kabel jedoch nicht verwendet. Um den neuen Lüfter anzuschließen, wird daher empfohlen, einen speziellen Adapter zu verwenden. Es ist jedoch wichtig zu beachten, dass dieser Adapter manchmal schwer zu finden sein kann.
 
-![image](assets/hardware/5.jpeg)
+![image](assets/hardware/5.webp)
 
 Wenn Sie diesen Adapter nicht haben, können Sie den neuen Lüfter dennoch anschließen, indem Sie einen Drahtmutter verwenden. Dazu müssen Sie die Kabel des alten und des neuen Lüfters abschneiden.
 
-![image](assets/hardware/6.jpeg)
-![image](assets/hardware/7.jpeg)
+![image](assets/hardware/6.webp)
+![image](assets/hardware/7.webp)
 
 Verwenden Sie auf dem neuen Lüfter einen Cutter und schneiden Sie vorsichtig die Konturen des Hauptmantels 1 cm lang, ohne die Kabelmäntel darunter zu durchtrennen.
 
-![image](assets/hardware/8.jpeg)
+![image](assets/hardware/8.webp)
 
 Ziehen Sie dann den Hauptmantel nach unten und schneiden Sie die Kabelmäntel des roten und schwarzen Kabels auf die gleiche Weise wie zuvor ab. Schneiden Sie das gelbe Kabel bündig ab.
 
-![image](assets/hardware/9.jpeg)
+![image](assets/hardware/9.webp)
 
 Es ist schwieriger, den Hauptmantel des alten Lüfters zu durchschneiden, ohne die Mäntel der roten und schwarzen Kabel zu beschädigen. Dazu haben wir eine Nadel verwendet, die wir zwischen den Hauptmantel und die roten und schwarzen Kabel geschoben haben.
 
-![image](assets/hardware/10.jpeg)
-![image](assets/hardware/11.jpeg)
+![image](assets/hardware/10.webp)
+![image](assets/hardware/11.webp)
 
 Sobald die roten und schwarzen Kabel freigelegt sind, schneiden Sie vorsichtig die Mäntel ab, um die elektrischen Drähte nicht zu beschädigen.
 
-![image](assets/hardware/12.jpeg)
+![image](assets/hardware/12.webp)
 
 Verbinden Sie dann die Kabel mit einer Drahtmutter, das schwarze Kabel mit dem schwarzen und das rote Kabel mit dem roten. Sie können auch Elektrikerband hinzufügen.
 
-![image](assets/hardware/13.jpeg)
-![image](assets/hardware/14.jpeg)
+![image](assets/hardware/13.webp)
+![image](assets/hardware/14.webp)
 
 Nachdem die Verbindung hergestellt wurde, ist es an der Zeit, den neuen Noctua-Lüfter mit dem Gitter und den alten Schrauben zu montieren. Die neuen Schrauben, die sich in der Box befinden, werden später wiederverwendet. Stellen Sie sicher, dass Sie ihn in der richtigen Ausrichtung platzieren. Sie werden einen Pfeil auf einer der Seiten des Lüfters bemerken, der die Richtung des Luftstroms angibt. Es ist wichtig, den Lüfter so zu platzieren, dass dieser Pfeil nach innen zum Gehäuse zeigt. Schließen Sie dann den Lüfter wieder an.
 
-![image](assets/hardware/15.jpeg)
-![image](assets/hardware/16.jpeg)
+![image](assets/hardware/15.webp)
+![image](assets/hardware/16.webp)
 
 > Optional: Wenn Sie über Kenntnisse in Elektrizität verfügen, können Sie direkt an der 12V-Stromversorgungsbuchse einen weiblichen 5,5-mm-Klinkenstecker hinzufügen, der den Wi-Fi-Brücke Vonet direkt mit Strom versorgt. Wenn Sie sich jedoch nicht sicher sind, was Ihre elektrischen Fähigkeiten betrifft, ist es besser, den USB-Anschluss mit einem Smartphone-Ladegerät zu verwenden, um das Risiko eines Kurzschlusses oder eines elektrischen Schadens zu vermeiden.
 
-![image](assets/hardware/17.jpeg)
+![image](assets/hardware/17.webp)
 
 Nachdem die Verbindungen hergestellt wurden, legen Sie die Kunststoffabdeckung wieder über den Kunststoff des Gehäuses und nicht hinein.
 
-![image](assets/hardware/18.jpeg)
+![image](assets/hardware/18.webp)
 
 Setzen Sie schließlich die Gehäuseabdeckung wieder ein und schrauben Sie die 6 Schrauben an den Seiten fest, um alles an Ort und Stelle zu halten. Und voilà, Ihr Netzteilgehäuse ist jetzt mit einem neuen Lüfter ausgestattet.
 
@@ -600,7 +600,7 @@ Setzen Sie schließlich die Gehäuseabdeckung wieder ein und schrauben Sie die 6
 
 > ACHTUNG: Es ist unerlässlich, dass Sie zuvor Braiins OS+ oder eine andere Software auf Ihrem Miner installiert haben, die die Leistung Ihres Geräts reduzieren kann. Diese Maßnahme ist entscheidend, da wir leisere Lüfter installieren werden, die weniger Wärme abführen können.
 
-![image](assets/hardware/cover.jpeg)
+![image](assets/hardware/cover.webp)
 
 ### Benötigte Materialien
 
@@ -612,38 +612,38 @@ Setzen Sie schließlich die Gehäuseabdeckung wieder ein und schrauben Sie die 6
 
 1. Zuerst trennen Sie die Lüfter ab und schrauben sie ab.
 
-![image](assets/hardware/19.jpeg)
+![image](assets/hardware/19.webp)
 
 2. Die Anschlüsse der neuen Noctua-Lüfter passen nicht zu den Originalanschlüssen, aber keine Panik! Nehmen Sie Ihr Cutter-Messer heraus und schneiden Sie vorsichtig die kleinen Kunststofflaschen ab, damit die Anschlüsse perfekt zu Ihrem Miner passen.
 
-![image](assets/hardware/20.jpeg)
-![image](assets/hardware/21.jpeg)
+![image](assets/hardware/20.webp)
+![image](assets/hardware/21.webp)
 
 3. Es ist Zeit, die 3D-Teile zu installieren!
 Befestigen Sie sie auf beiden Seiten des Miners mit den Schrauben, die Sie von den Lüftern entfernt haben. Schrauben Sie sie fest, bis der Schraubenkopf in das 3D-Teil eingedrückt ist und es gut an Ort und Stelle gehalten wird. Achten Sie darauf, nicht zu fest anzuziehen, da Sie das Teil verformen könnten und eine der Schrauben einen Kondensator berühren könnte!
 
-![image](assets/hardware/22.jpeg)
+![image](assets/hardware/22.webp)
 
 4. Gehen wir nun zu den Lüftern über.
 
 Befestigen Sie sie mit den Schrauben, die in der Box enthalten sind, an den 3D-Teilen. Achten Sie auf die Luftzirkulationsrichtung, die Pfeile an den Seiten der Lüfter zeigen Ihnen die Richtung an. Gehen Sie von der Ethernet-Port-Seite zur anderen Seite. Siehe Foto unten.
 
-![image](assets/hardware/23.jpeg)
-![image](assets/hardware/24.jpeg)
-![image](assets/hardware/25.jpeg)
+![image](assets/hardware/23.webp)
+![image](assets/hardware/24.webp)
+![image](assets/hardware/25.webp)
 
 5. Letzter Schritt: Schließen Sie die Lüfter an und befestigen Sie die Gitter darüber mit den Schrauben, die nicht in der Lüfterbox verwendet wurden. Sie haben nur 4 davon, aber 2 pro Gitter in gegenüberliegenden Ecken reichen aus. Wenn nötig, können Sie auch in einem Baumarkt nach ähnlichen Schrauben suchen.
 
-![image](assets/hardware/26.jpeg)
-![image](assets/hardware/27.jpeg)
+![image](assets/hardware/26.webp)
+![image](assets/hardware/27.webp)
 
 Bis Sie Ihrem neuen Heizgerät ein sexieres Gehäuse bieten können, können Sie das Gehäuse und das Netzteil mit Elektriker-Kabelbindern befestigen.
 
-![image](assets/hardware/28.jpeg)
+![image](assets/hardware/28.webp)
 
 Und als letzter Schliff schließen Sie den Vonet-Bridge am Ethernet-Port an seine Stromversorgung an.
 
-![image](assets/hardware/29.jpeg)
+![image](assets/hardware/29.webp)
 
 Und voilà, Bravo! Sie haben die gesamte mechanische Komponente Ihres Miners ausgetauscht. Sie sollten jetzt viel weniger Lärm hören.
 
@@ -669,17 +669,17 @@ Das Belohnungsmodell, das uns interessiert, ist PPS, was "Pay-per-Share" bedeute
 
 Um einen Pool in Braiins 0S+ einzurichten, müssen Sie ein Konto in einem Pool Ihrer Wahl erstellen. Hier nehmen wir das Beispiel von Linecoin:
 
-![image](assets/software/19.jpeg)
+![image](assets/software/19.webp)
 
 Sobald Ihr Konto erstellt ist, klicken Sie auf "Mit Pool verbinden".
 
 Kopieren Sie dann die Stratum-Adresse sowie Ihren Benutzernamen:
 
-![image](assets/software/20.jpeg)
+![image](assets/software/20.webp)
 
 Sie können nun zur Benutzeroberfläche von Braiins OS+ zurückkehren und diese Anmeldeinformationen eingeben. Das Passwortfeld können Sie leer lassen.
 
-![image](assets/software/21.jpeg)
+![image](assets/software/21.webp)
 
 ## Optimieren Sie die Leistung Ihres Antminer S9
 

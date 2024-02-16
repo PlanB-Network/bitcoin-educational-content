@@ -56,12 +56,12 @@ Descrivere il profilo delle funzioni di hash crittografiche richiede la comprens
 L'irreversibilità, o resistenza alla preimmagine, significa che calcolare l'output dato l'input è facile, ma calcolare l'input dato l'output è impossibile.
 È una funzione unidirezionale.
 
-![immagine](assets/image/section1/0.JPG)
+![immagine](assets/image/section1/0.webp)
 
 La resistenza alla falsificazione deriva dal fatto che anche la più piccola modifica dell'input produrrà un output profondamente diverso.
 Queste funzioni consentono di verificare l'integrità del software scaricato.
 
-![immagine](assets/image/section1/1.JPG)
+![immagine](assets/image/section1/1.webp)
 
 Un'altra caratteristica cruciale che possiedono è la resistenza alle collisioni e alla seconda preimmagine. Una collisione si verifica quando due input distinti producono lo stesso output.
 
@@ -116,7 +116,7 @@ Utilizziamo i nostri 64 bit riservati dal passaggio precedente. Aggiungiamo zeri
 
 Ecco il risultato:
 
-![image](assets/image/section1/4.JPG)
+![image](assets/image/section1/4.webp)
 
 ### Elaborazione
 
@@ -130,7 +130,7 @@ I vettori di inizializzazione, da A a H, sono i primi 32 bit delle parti decimal
 
 Le costanti K, da 0 a 63, rappresentano i primi 32 bit delle parti decimali delle radici cubiche dei primi 64 numeri primi. Vengono utilizzate in ogni round della funzione di compressione. Anche i loro valori sono in formato esadecimale.
 
-![image](assets/image/section1/5.JPG)
+![image](assets/image/section1/5.webp)
 
 ##### Operazioni utilizzate
 
@@ -138,11 +138,11 @@ All'interno della funzione di compressione, utilizziamo operatori specifici come
 
 La tabella di verità:
 
-![image](assets/image/section1/6.JPG)
+![image](assets/image/section1/6.webp)
 
 Operazioni di spostamento dei bit:
 
-![image](assets/image/section1/7.JPG)
+![image](assets/image/section1/7.webp)
 
 #### La funzione di compressione
 
@@ -157,15 +157,15 @@ Eseguiamo 64 round di calcoli nella funzione di compressione. Nell'ultimo round,
 Quindi, ripetiamo tutti questi passaggi della funzione di compressione sul prossimo blocco di 512 bit, fino all'ultimo blocco.
 Tutte le aggiunte nella funzione di compressione sono somme modulo 2^32 per mantenere sempre una somma di 32 bit.
 
-![immagine](assets/image/section1/9.JPG)
+![immagine](assets/image/section1/9.webp)
 
-![immagine](assets/image/section1/8.JPG)
+![immagine](assets/image/section1/8.webp)
 
 ##### Un round della funzione di compressione
 
-![immagine](assets/image/section1/11.JPG)
+![immagine](assets/image/section1/11.webp)
 
-![immagine](assets/image/section1/10.JPG)
+![immagine](assets/image/section1/10.webp)
 
 La funzione di compressione verrà eseguita 64 volte. Abbiamo i nostri pezzi W e le nostre costanti K precedentemente definite come input.
 I quadrati/croci rossi corrispondono a una somma modulo 2^32 di 32 bit.
@@ -178,18 +178,18 @@ Come promemoria, i vettori di inizializzazione rappresentano i primi 32 bit dell
 
 Ecco un esempio di round:
 
-![immagine](assets/image/section1/12.1.png)
+![immagine](assets/image/section1/12.1.webp)
 
 ##### Stato intermedio
 
 Come promemoria, il messaggio è diviso in blocchi di 512 bit, che vengono poi divisi in pezzi da 32 bit. Per ogni blocco di 512 bit, applichiamo i 64 round della funzione di compressione.
 Lo stato intermedio corrisponde alla fine dei 64 round di un blocco. I valori della sequenza di output di questo 64° round vengono utilizzati come valori iniziali per la sequenza di input del primo round del blocco successivo.
 
-![immagine](assets/image/section1/12.2.png)
+![immagine](assets/image/section1/12.2.webp)
 
 #### Panoramica della funzione di hash
 
-![immagine](assets/image/section1/13.JPG)
+![immagine](assets/image/section1/13.webp)
 
 Possiamo notare che l'output del primo pezzo di messaggio di 512 bit corrisponde ai nostri vettori di inizializzazione come input per il secondo pezzo di messaggio di 512 bit, e così via.
 
@@ -277,7 +277,7 @@ Per iniziare, immergiamoci nel mondo dell'Elliptic Curve Digital Signature Algor
 
 Per essere compatibile con Bitcoin, una chiave privata deve essere compresa tra 1 e n-1, dove n rappresenta l'ordine della curva ellittica. Ciò significa che il numero totale di possibilità per una chiave privata di Bitcoin è quasi uguale a 1,158 x 10^77. Per mettere le cose in prospettiva, è approssimativamente lo stesso numero di atomi presenti nell'universo osservabile.
 
-![immagine](assets/image/section2/3.JPG)
+![immagine](assets/image/section2/3.webp)
 
 La chiave privata unica, indicata come k, viene quindi utilizzata per determinare una chiave pubblica.
 
@@ -285,7 +285,7 @@ La chiave pubblica, indicata come K, è un punto sulla curva ellittica che deriv
 
 La chiave pubblica è lunga 512 bit in quanto corrisponde a un punto sulla curva con una coordinata x di 256 bit e una coordinata y di 256 bit. Tuttavia, può essere compressa in un numero di 264 bit.
 
-![immagine](assets/image/section2/4.JPG)
+![immagine](assets/image/section2/4.webp)
 
 Il punto generatore (G) è il punto sulla curva da cui vengono generate tutte le chiavi pubbliche nel protocollo Bitcoin. Ha coordinate x e y specifiche, di solito rappresentate in esadecimale. Per secp256k1, le coordinate di G sono, in esadecimale:
 
@@ -304,7 +304,7 @@ Una delle proprietà notevoli delle curve ellittiche è che una linea non vertic
 
 M + L = U
 
-![immagine](assets/image/section2/5.JPG)
+![immagine](assets/image/section2/5.webp)
 
 ##### Aggiunta di un punto a se stesso = Raddoppio del punto
 Aggiungere un punto G a se stesso viene fatto disegnando una tangente alla curva in quel punto. Questa tangente, secondo le proprietà delle curve ellittiche, intersecherà la curva in un secondo punto unico -J. L'opposto di questo punto, J, è il risultato dell'aggiunta del punto G a se stesso.
@@ -312,7 +312,7 @@ G + G = J
 
 In effetti, il punto G è il punto di partenza per il calcolo di tutte le chiavi pubbliche degli utenti del sistema Bitcoin.
 
-![immagine](assets/image/section2/6.JPG)
+![immagine](assets/image/section2/6.webp)
 
 #### Moltiplicazione scalare su curve ellittiche
 
@@ -322,11 +322,11 @@ Similmente al raddoppio del punto, la moltiplicazione scalare del punto G per un
 
 Se n = 4, l'operazione viene ripetuta fino a raggiungere 4G.
 
-![immagine](assets/image/section2/7.JPG)
+![immagine](assets/image/section2/7.webp)
 
 Ecco un esempio di calcolo per 3G:
 
-![immagine](assets/image/section2/8.JPG)
+![immagine](assets/image/section2/8.webp)
 
 Queste operazioni su punti di una curva ellittica sono alla base del calcolo delle chiavi pubbliche. Derivare una chiave pubblica conoscendo la chiave privata è molto facile.
 Una chiave pubblica è un punto sulla curva ellittica, è il risultato della nostra aggiunta e raddoppio del punto G k volte. Con k = chiave privata.
@@ -336,7 +336,7 @@ In questo esempio:
 - La chiave privata k = 4
 - La chiave pubblica K = kG = 4G
 
-![immagine](assets/image/section2/9.JPG)
+![immagine](assets/image/section2/9.webp)
 
 Conoscendo la chiave privata k, è facile calcolare la chiave pubblica K. Tuttavia, è impossibile recuperare la chiave privata basandosi sulla chiave pubblica. Questo è il risultato di un'aggiunta o di un raddoppio di punti?
 
@@ -347,7 +347,7 @@ Nella nostra prossima lezione, esploreremo come viene creata una firma digitale 
 Il processo di firma digitale è un metodo chiave per dimostrare di essere il detentore di una chiave privata senza rivelarla. Questo viene realizzato utilizzando l'algoritmo ECDSA, che prevede la determinazione di un nonce unico, il calcolo di un numero specifico V e la creazione di una firma digitale composta da due parti, S1 e S2.
 È fondamentale utilizzare sempre un nonce unico per evitare attacchi di sicurezza. Un esempio notorio di ciò che può accadere quando questa regola non viene seguita è l'hacking della PlayStation 3, compromessa a causa del riutilizzo del nonce.
 
-![](assets/image/section2/10.JPG)
+![](assets/image/section2/10.webp)
 
 Passaggi:
 
@@ -370,7 +370,7 @@ k = la chiave privata- Calcola la firma: la concatenazione di S1 + S2.
 Ad esempio, per ottenere la chiave pubblica 3G, tracci una tangente al punto G, calcola l'opposto di -G per ottenere 2G, e poi aggiungi G e 2G. Per effettuare una transazione, devi dimostrare di conoscere il numero 3 sbloccando i bitcoin associati alla chiave pubblica 3G.
 Per creare una firma digitale e dimostrare di conoscere la chiave privata associata alla chiave pubblica 3G, calcoli prima un nonce, quindi il punto V associato a questo nonce (nell'esempio dato, è 4G). Quindi, calcoli il punto T aggiungendo la chiave pubblica 3G e il punto V, che dà 7G.
 
-![image](assets/image/section2/11.JPG)
+![image](assets/image/section2/11.webp)
 
 Semplifichiamo il processo di firma digitale.
 Nell'immagine precedente, la chiave privata k = 3.
@@ -404,7 +404,7 @@ Ecco i passaggi che il verificatore seguirà per convalidare la firma:
 5. Infine, il verificatore confermerà che I' è uguale a t. Se questo è il caso, la firma viene considerata valida. Se non lo è, la firma è invalida.
 Questo procedimento garantisce che solo il mittente che possiede la corrispondente chiave privata potrebbe aver prodotto una firma che supera questo processo di verifica.
 
-![image](assets/image/section2/12.JPG)
+![image](assets/image/section2/12.webp)
 
 In termini più semplici:
 La persona che produce la firma fornirà il numero t (nel nostro esempio, t = 7) e il punto V alla persona che la verifica.
@@ -446,7 +446,7 @@ L'importanza della sicurezza delle chiavi private nell'ecosistema Bitcoin è inn
 
 L'entropia si riferisce allo stato di "disordine" di un sistema. Da un'entropia esterna, cioè una fonte esterna di informazioni, è possibile utilizzare un generatore di numeri casuali per ottenere un numero casuale.
 
-![immagine](assets/image/section3/2.JPG)
+![immagine](assets/image/section3/2.webp)
 
 Diamo un'occhiata a come funziona un Generatore di Numeri Pseudo-Casuali (PRNG).
 
@@ -466,7 +466,7 @@ Un esempio di funzione di trasformazione è la funzione PBKDF2.
 - essere resistente anche se i risultati sono rivelati
 - avere un periodo sufficientemente lungo
 
-![immagine](assets/image/section3/3.JPG)
+![immagine](assets/image/section3/3.webp)
 
 Nel caso di Bitcoin, le chiavi private vengono generate da un'unica informazione alla base del portafoglio. Questa informazione consente la derivazione deterministica e gerarchica di coppie di chiavi figlie. L'entropia è alla base di ogni portafoglio HD, anche se non esiste uno standard per generare questo numero casuale. Pertanto, la generazione di numeri casuali rappresenta una sfida importante per la sicurezza delle transazioni Bitcoin.
 
@@ -474,7 +474,7 @@ Nel caso di Bitcoin, le chiavi private vengono generate da un'unica informazione
 
 La sicurezza di un portafoglio Bitcoin è una preoccupazione principale per tutti i suoi utenti. Un modo essenziale per garantire il backup del portafoglio è generare una frase mnemonica basata sull'entropia e sul checksum.
 
-![immagine](assets/image/section3/5.JPG)
+![immagine](assets/image/section3/5.webp)
 
 Per convertire l'entropia in una frase mnemonica, basta calcolare il checksum dell'entropia e concatenare l'entropia e il checksum.
 
@@ -484,7 +484,7 @@ La frase mnemonica è il risultato dell'entropia aggiunta al checksum.
 
 Il checksum garantisce la verifica dell'accuratezza della frase di recupero. Senza questo checksum, un errore nella frase potrebbe comportare la creazione di un portafoglio diverso e quindi la perdita di fondi. Il checksum viene ottenuto passando l'entropia attraverso la funzione SHA256 e recuperando i primi 8 bit dell'hash.
 
-![immagine](assets/image/section3/6.JPG)
+![immagine](assets/image/section3/6.webp)
 
 Esistono diversi standard per la frase mnemonica a seconda delle dimensioni dell'entropia. Lo standard più comunemente utilizzato per una frase di recupero di 24 parole è un'entropia di 256 bit. La dimensione del checksum è determinata dividendo la dimensione dell'entropia per 32.
 
@@ -492,7 +492,7 @@ Ad esempio, un'entropia di 256 bit genera un checksum di 8 bit. La concatenazion
 
 **Codifica della frase mnemonica:**
 
-![immagine](assets/image/section3/7.JPG)
+![immagine](assets/image/section3/7.webp)
 
 Gli ultimi 8 bit corrispondono al checksum.
 Ogni segmento di 11 bit viene convertito in decimale.
@@ -506,7 +506,7 @@ In conclusione, generare una frase mnemonica per proteggere un portafoglio Bitco
 
 La passphrase è una password aggiuntiva che può essere integrata in un portafoglio Bitcoin per aumentarne la sicurezza. Il suo utilizzo è facoltativo ed è a discrezione dell'utente. Aggiungendo informazioni arbitrarie che, insieme alla frase mnemonica, consentono il calcolo del seed del portafoglio, la passphrase ne migliora la sicurezza.
 
-![immagine](assets/image/section3/8.JPG)
+![immagine](assets/image/section3/8.webp)
 
 La passphrase è un sale crittografico opzionale di dimensioni scelte dall'utente. Migliora la sicurezza di un portafoglio HD aggiungendo informazioni arbitrarie che, combinati con la frase mnemonica, consentiranno il calcolo del seed.
 Una volta stabilita durante la creazione di un portafoglio, è necessaria per la derivazione di tutte le chiavi del portafoglio. La funzione pbkdf2 viene utilizzata per generare il seed dalla passphrase. Questo seed consente la derivazione di tutte le coppie di chiavi figlie del portafoglio. Se la passphrase viene modificata, il portafoglio Bitcoin diventa completamente diverso.
@@ -515,7 +515,7 @@ La passphrase è uno strumento essenziale per migliorare la sicurezza dei portaf
 
 Una passphrase efficace dovrebbe essere lunga (da 20 a 40 caratteri) e diversificata (utilizzando lettere maiuscole, lettere minuscole, numeri e simboli). Non dovrebbe essere direttamente correlata all'utente o al suo ambiente. È più sicuro utilizzare una sequenza casuale di caratteri piuttosto che una semplice parola come passphrase.
 
-![image](assets/image/section3/9.JPG)
+![image](assets/image/section3/9.webp)
 
 Una passphrase è più sicura di una semplice password. La passphrase ideale è lunga, varia e casuale. Può migliorare la sicurezza di un portafoglio o di un software hot. Può anche essere utilizzata per creare backup ridondanti e sicuri.
 
@@ -529,11 +529,11 @@ Nella nostra prossima lezione, esamineremo in dettaglio il funzionamento del see
 
 In questa parte del corso, esploreremo i passaggi per la derivazione di un portafoglio deterministico gerarchico (HD Wallet), che consente la creazione e la gestione gerarchica e deterministica di chiavi private e pubbliche.
 
-![image](assets/image/section4/0.JPG)
+![image](assets/image/section4/0.webp)
 
 La base dell'HD Wallet si basa su due elementi essenziali: la frase mnemonica e la passphrase (password aggiuntiva opzionale). Insieme, costituiscono il seed, una sequenza alfanumerica di 512 bit che serve come base per la derivazione delle chiavi del portafoglio. Da questo seed, è possibile derivare tutte le coppie di chiavi figlie del portafoglio Bitcoin. Il seed è la chiave che garantisce l'accesso a tutti i bitcoin associati al portafoglio, che tu utilizzi una passphrase o meno.
 
-![image](assets/image/section4/1.JPG)
+![image](assets/image/section4/1.webp)
 
 Per ottenere il seed, viene utilizzata la funzione pbkdf2 (Password-Based Key Derivation Function 2) con la frase mnemonica e la passphrase. L'output di pbkdf2 è un seed di 512 bit.
 
@@ -541,7 +541,7 @@ Dal seed, è possibile determinare la chiave privata master e il codice di caten
 
 Inizialmente, la funzione SHA-512 non era implementata nel protocollo Bitcoin, motivo per cui viene utilizzato HMAC SHA-512. L'uso di HMAC SHA-512 con la frase "Bitcoin SEED" vincola l'utente a generare un portafoglio specifico per Bitcoin. Il risultato di HMAC SHA-512 è un numero di 512 bit, diviso in due parti: i 256 bit più a sinistra rappresentano la chiave privata principale, mentre i 256 bit più a destra rappresentano il codice di catena principale.
 
-![image](assets/image/section4/2.JPG)
+![image](assets/image/section4/2.webp)
 
 La chiave privata principale è la chiave genitore di tutte le chiavi future nel portafoglio, mentre il codice di catena principale è coinvolto nella derivazione delle chiavi figlie. È importante notare che è impossibile derivare una coppia di chiavi figlie senza conoscere il codice di catena corrispondente della coppia genitore.
 
@@ -554,11 +554,11 @@ Nella prossima lezione, esploreremo in dettaglio le chiavi estese, come xPub, xP
 
 In questa parte della lezione, studieremo le chiavi estese (xPub, zPub, yPub) e i loro prefissi, che svolgono un ruolo importante nella derivazione delle chiavi figlie in un portafoglio deterministico gerarchico (HD Wallet).
 
-![image](assets/image/section4/3.JPG)
+![image](assets/image/section4/3.webp)
 
 Le chiavi estese sono diverse dalle chiavi principali. Un portafoglio HD genera una frase mnemonica e un seed per ottenere la chiave principale e il codice di catena principale. Le chiavi estese vengono utilizzate per derivare le chiavi figlie e richiedono sia la chiave genitore che il codice di catena corrispondente. Una chiave estesa combina queste due informazioni per semplificare il processo di derivazione.
 
-![image](assets/image/section4/4.JPG)
+![image](assets/image/section4/4.webp)
 
 Le chiavi pubbliche estese possono derivare solo chiavi pubbliche normali, mentre le chiavi private estese possono derivare sia chiavi pubbliche che private figlie, sia attraverso una derivazione normale che indurita. La derivazione indurita è la derivazione dalla chiave privata genitore, mentre la derivazione normale corrisponde alla derivazione dalla chiave pubblica genitore.
 
@@ -566,7 +566,7 @@ L'utilizzo di chiavi estese con il prefisso XPUB consente la derivazione di nuov
 
 Le chiavi estese sono identificate da prefissi specifici (XPRV, XPUB, YPUB, ZPUB) che indicano se si tratta di una chiave privata o pubblica estesa, nonché il suo scopo specifico. I metadati associati a una chiave estesa includono la versione (prefisso), la profondità, l'impronta digitale della chiave genitore, l'indice e il payload (codice di catena e chiave genitore).
 
-![image](assets/image/section4/5.JPG)
+![image](assets/image/section4/5.webp)
 
 La versione corrisponde al tipo di chiave: xpub, xprv, ...
 
@@ -577,7 +577,7 @@ L'indice è il numero della coppia che viene utilizzata per generare la chiave e
 Il payload è composto dal codice della catena (32 byte) e dalla chiave genitore (33 byte).
 Le chiavi pubbliche compressate hanno una dimensione di 33 byte, mentre le chiavi pubbliche non elaborate sono di 512 bit. Le chiavi pubbliche compressate mantengono le stesse informazioni delle chiavi non elaborate, ma con una dimensione ridotta. Le chiavi estese hanno una dimensione di 82 byte e il loro prefisso è rappresentato in base 58 attraverso una conversione in esadecimale. Il checksum viene calcolato utilizzando la funzione di hash HASH256.
 
-![Immagine](assets/image/section4/6.JPG)
+![Immagine](assets/image/section4/6.webp)
 
 Le derivazioni migliorate partono da indici che sono potenze di 2 (2^31). È interessante notare che i prefissi più comunemente utilizzati sono xpub e zpub, che corrispondono rispettivamente agli standard legacy e segwit v1 e segwit v0.
 
@@ -589,28 +589,28 @@ Come promemoria, abbiamo discusso del calcolo del seed e della chiave principale
 
 Il codice della catena principale svolge un ruolo importante nel recupero del portafoglio dal seed. Va notato che tutte le chiavi derivate dallo stesso seed avranno lo stesso codice della catena principale.
 
-![Immagine](assets/image/section4/7.JPG)
+![Immagine](assets/image/section4/7.webp)
 
 L'organizzazione gerarchica e la derivazione del portafoglio HD offrono una gestione più efficiente delle chiavi e delle strutture del portafoglio. Le chiavi estese consentono la derivazione di una coppia di chiavi figlie da una coppia di chiavi genitore utilizzando calcoli matematici e algoritmi specifici.
 Ci sono diversi tipi di coppie di chiavi figlie, tra cui chiavi rinforzate e chiavi normali. La chiave pubblica estesa consente solo la derivazione di chiavi pubbliche figlie normali, mentre la chiave privata estesa consente la derivazione di tutte le chiavi figlie, sia pubbliche che private, che siano in modalità normale o rinforzata. Ogni coppia di chiavi ha un indice che consente di differenziarle l'una dall'altra.
 
-![Immagine](assets/image/section4/8.JPG)
+![Immagine](assets/image/section4/8.webp)
 
 La derivazione delle chiavi figlie utilizza la funzione HMAC-SHA512 utilizzando la chiave genitore concatenata con l'indice e il codice della catena associato alla coppia di chiavi. Le chiavi figlie normali hanno un indice che va da 0 a 2 alla potenza di 31 meno 1, mentre le chiavi figlie rinforzate hanno un indice che va da 2 alla potenza di 31 a 2 alla potenza di 32 meno 1.
 
-![Immagine](assets/image/section4/9.JPG)
+![Immagine](assets/image/section4/9.webp)
 
-![Immagine](assets/image/section4/10.JPG)
+![Immagine](assets/image/section4/10.webp)
 
 Ci sono due tipi di coppie di chiavi figlie: coppie rinforzate e coppie normali. Il processo di derivazione delle chiavi figlie utilizza le chiavi pubbliche per generare condizioni di spesa, mentre le chiavi private vengono utilizzate per la firma. La chiave pubblica estesa consente solo la derivazione di chiavi pubbliche figlie normali, mentre la chiave privata estesa consente la derivazione di tutte le chiavi figlie, sia pubbliche che private, in modalità normale o rinforzata.
 
-![Immagine](assets/image/section4/11.JPG)
-![Immagine](assets/image/section4/12.JPG)
+![Immagine](assets/image/section4/11.webp)
+![Immagine](assets/image/section4/12.webp)
 
 La derivazione rinforzata utilizza la chiave privata genitore, mentre la derivazione normale utilizza la chiave pubblica genitore. La funzione HMAC-SHA512 viene utilizzata per la derivazione rinforzata, mentre la derivazione normale utilizza un digest a 512 bit. La chiave pubblica figlio viene ottenuta moltiplicando la chiave privata figlio per il generatore della curva ellittica.
 
-![immagine](assets/image/section4/13.JPG)
-![immagine](assets/image/section4/14.JPG)
+![immagine](assets/image/section4/13.webp)
+![immagine](assets/image/section4/14.webp)
 
 La derivazione gerarchica e la derivazione di molte coppie di chiavi in modo deterministico consentono la creazione di una struttura ad albero per la derivazione gerarchica. Nella prossima lezione di questo corso, studieremo la struttura del portafoglio HD e i percorsi di derivazione, con particolare attenzione alle notazioni dei percorsi di derivazione.
 
@@ -620,7 +620,7 @@ In questo capitolo, studieremo la struttura dell'albero di derivazione in un por
 
 L'HD Wallet utilizza livelli di profondità per organizzare le chiavi. Ogni derivazione da una coppia genitore a una coppia figlio corrisponde a un livello di profondità.
 
-![immagine](assets/image/section4/15.JPG)
+![immagine](assets/image/section4/15.webp)
 
 - La profondità 0 corrisponde alla chiave principale e al codice catena principale.
 
@@ -634,7 +634,7 @@ L'HD Wallet utilizza livelli di profondità per organizzare le chiavi. Ogni deri
 
 - La profondità 5 viene utilizzata per gli indirizzi di ricezione in un portafoglio standard. Nella prossima sezione, esamineremo in dettaglio la derivazione delle coppie di chiavi figlio.
 
-![immagine](assets/image/section4/16.JPG)
+![immagine](assets/image/section4/16.webp)
 
 Per ogni livello di profondità, utilizziamo gli indici per differenziare le coppie di chiavi figlio.
 
@@ -651,11 +651,11 @@ Nel prossimo capitolo, studieremo gli indirizzi di ricezione, i loro vantaggi di
 
 In questo capitolo, esploreremo gli indirizzi di ricezione, che svolgono un ruolo cruciale nel sistema Bitcoin. Consentono di ricevere fondi in una transazione e vengono generati da coppie di chiavi private e pubbliche. Sebbene esista un tipo di script chiamato Pay2PublicKey che consente di bloccare i bitcoin su una chiave pubblica, gli utenti preferiscono generalmente utilizzare gli indirizzi di ricezione invece di questo script.
 
-![image](assets/image/section5/0.JPG)
+![image](assets/image/section5/0.webp)
 
 Quando un destinatario desidera ricevere bitcoin, fornisce un indirizzo di ricezione al mittente anziché la sua chiave pubblica. Un indirizzo è in realtà un hash di una chiave pubblica, con un formato specifico. La chiave pubblica è derivata dalla chiave privata figlia utilizzando operazioni matematiche come l'addizione e il raddoppio dei punti sulle curve ellittiche.
 
-![image](assets/image/section5/1.JPG)
+![image](assets/image/section5/1.webp)
 
 È importante notare che non è possibile risalire da un indirizzo alla chiave pubblica, né dalla chiave pubblica alla chiave privata. Utilizzare un indirizzo riduce le dimensioni delle informazioni sulla chiave pubblica, che inizialmente è di 512 bit.
 
@@ -673,7 +673,7 @@ In questo capitolo, discuteremo della costruzione di un indirizzo di ricezione p
 
 ### Passaggio 1: Compressione della chiave pubblica
 
-![image](assets/image/section5/14.png)
+![image](assets/image/section5/14.webp)
 
 Un indirizzo deriva da una chiave pubblica figlia.
 
@@ -686,19 +686,19 @@ Utilizziamo il prefisso 0x02 per un y pari e 0x03 per un y dispari. Questa è la
 
 ### Passaggio 2: Hashing della chiave pubblica compressa
 
-![image](assets/image/section5/3.JPG)
+![image](assets/image/section5/3.webp)
 
 L'hashing della chiave pubblica compressa viene eseguito utilizzando la funzione SHA256. Viene quindi applicata la funzione RIPEMD160 al digest.
 
 ### Passaggio 3: Il payload = Payload dell'indirizzo
 
-![image](assets/image/section5/4.JPG)
+![image](assets/image/section5/4.webp)
 
 Il digest binario di RIPEMD160(SHA256(K)) viene utilizzato per formare gruppi di 5 bit. Ogni gruppo viene trasformato in base16 (esadecimale) e/o base 10.
 
 ### Passaggio 4: Aggiunta di metadati per il calcolo del checksum con il programma BCH
 
-![immagine](assets/image/section5/5.JPG)
+![immagine](assets/image/section5/5.webp)
 
 Nel caso degli indirizzi legacy, utilizziamo l'hashing doppio SHA256 per generare il checksum dell'indirizzo. Tuttavia, per gli indirizzi Segwit V0 e V1, ci affidiamo alla tecnologia di checksum BCH per garantire la rilevazione degli errori. Il programma BCH è in grado di suggerire e correggere errori con una probabilità di errore estremamente bassa. Attualmente, il programma BCH viene utilizzato per rilevare e suggerire modifiche da apportare, ma non le esegue automaticamente per conto dell'utente.
 Il programma BCH richiede diverse informazioni di input, tra cui l'HRP (Parte Leggibile dall'Uomo) che deve essere estesa. L'estensione dell'HRP comporta la codifica di ogni lettera in base 2 secondo il loro codice ASCII. Quindi, prendendo i primi 3 bit del risultato per ogni lettera e convertendoli in base 10 (in blu nell'immagine). Inserire un separatore 0. Quindi concatenare i successivi 5 bit di ogni lettera precedentemente convertiti in base 10 (in giallo nell'immagine).
@@ -709,7 +709,7 @@ La versione Segwit V0 è rappresentata dal codice 00 e il "payload" è in nero, 
 
 ### Passaggio 5: Calcolo del checksum con il programma BCH
 
-![immagine](assets/image/section5/6.JPG)
+![immagine](assets/image/section5/6.webp)
 
 L'input contenente i metadati viene quindi inviato al programma BCH per ottenere il checksum in base 10.
 
@@ -717,13 +717,13 @@ Qui abbiamo il checksum.
 
 ### Passaggio 6: Costruzione dell'indirizzo e conversione in Bech32
 
-![immagine](assets/image/section5/7.JPG)
+![immagine](assets/image/section5/7.webp)
 
 La concatenazione della versione, del payload e del checksum consente di costruire l'indirizzo. I caratteri in base 10 vengono quindi convertiti in caratteri Bech32 utilizzando una tabella di corrispondenza. L'alfabeto Bech32 include tutti i caratteri alfanumerici, ad eccezione di 1, b, i e o, per evitare confusione.
 
 ### Passaggio 7: Aggiunta dell'HRP e del separatore
 
-![immagine](assets/image/section5/8.JPG)
+![immagine](assets/image/section5/8.webp)
 
 In rosa, il checksum.
 In nero, il payload = l'hash della chiave pubblica.

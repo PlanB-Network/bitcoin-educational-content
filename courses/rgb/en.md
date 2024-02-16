@@ -27,11 +27,11 @@ In this new program, you will be learning the basics of RGB programming along wi
 
 Week 1 - LN 304
 
-![image](assets/image/1.jpg)
+![image](assets/image/1.webp)
 
 Week 2 - Current formation 
 
-![image](assets/image/2.jpg)
+![image](assets/image/2.webp)
 
 A big thanks to the person who've organize this live courses and the 3 teacher who've particiapted: 
 

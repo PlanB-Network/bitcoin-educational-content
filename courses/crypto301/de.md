@@ -66,12 +66,12 @@ Die Beschreibung des Profils kryptographischer Hash-Funktionen erfordert das Ver
 Unumkehrbarkeit oder Widerstandsfähigkeit gegen Preimage bedeutet, dass die Berechnung der Ausgabe anhand der Eingabe leicht durchgeführt werden kann, die Berechnung der Eingabe anhand der Ausgabe jedoch unmöglich ist.
 Es handelt sich um eine Einwegfunktion.
 
-![Bild](assets/image/section1/0.JPG)
+![Bild](assets/image/section1/0.webp)
 
 Die Fälschungssicherheit ergibt sich daraus, dass bereits die geringste Änderung der Eingabe zu einer grundlegend anderen Ausgabe führt.
 Diese Funktionen ermöglichen die Überprüfung der Integrität von heruntergeladener Software.
 
-![Bild](assets/image/section1/1.JPG)
+![Bild](assets/image/section1/1.webp)
 
 Eine weitere entscheidende Eigenschaft, die sie besitzen, ist ihre Widerstandsfähigkeit gegen Kollisionen und zweite Preimages. Eine Kollision tritt auf, wenn zwei unterschiedliche Eingaben die gleiche Ausgabe erzeugen.
 
@@ -123,7 +123,7 @@ Wir verwenden unsere 64 reservierten Bits aus dem vorherigen Schritt. Wir fügen
 
 Hier ist das Ergebnis:
 
-![image](assets/image/section1/4.JPG)
+![image](assets/image/section1/4.webp)
 
 ### Verarbeitung
 
@@ -137,7 +137,7 @@ Die Initialisierungsvektoren von A bis H sind die ersten 32 Bits der Dezimalteil
 
 Die Konstanten K von 0 bis 63 repräsentieren die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen. Sie werden in jeder Runde der Kompressionsfunktion verwendet. Ihre Werte sind ebenfalls im hexadezimalen Format.
 
-![image](assets/image/section1/5.JPG)
+![image](assets/image/section1/5.webp)
 
 ##### Verwendete Operationen
 
@@ -145,11 +145,11 @@ Innerhalb der Kompressionsfunktion verwenden wir spezifische Operatoren wie XOR,
 
 Die Wahrheitstabelle:
 
-![image](assets/image/section1/6.JPG)
+![image](assets/image/section1/6.webp)
 
 Bit-Verschiebungsoperationen:
 
-![image](assets/image/section1/7.JPG)
+![image](assets/image/section1/7.webp)
 
 #### Die Kompressionsfunktion
 
@@ -164,15 +164,15 @@ Wir führen 64 Runden von Berechnungen in der Kompressionsfunktion durch. In der
 Dann wiederholen wir all diese Schritte der Kompressionsfunktion auf dem nächsten 512-Bit-Block, bis zum letzten Block.
 Alle Additionen in der Kompressionsfunktion sind Modulo-2^32-Additionen, um immer eine 32-Bit-Summe zu erhalten.
 
-![image](assets/image/section1/9.JPG)
+![image](assets/image/section1/9.webp)
 
-![image](assets/image/section1/8.JPG)
+![image](assets/image/section1/8.webp)
 
 ##### Ein Durchlauf der Kompressionsfunktion
 
-![image](assets/image/section1/11.JPG)
+![image](assets/image/section1/11.webp)
 
-![image](assets/image/section1/10.JPG)
+![image](assets/image/section1/10.webp)
 
 Die Kompressionsfunktion wird 64 Mal durchgeführt. Wir haben unsere Teile W und unsere zuvor definierten Konstanten K als Eingabe.
 Die roten Quadrate/Kreuze entsprechen einer Modulo-2^32-Bit-Addition.
@@ -185,18 +185,18 @@ Als Erinnerung: Die Initialisierungsvektoren repräsentieren die ersten 32 Bits 
 
 Hier ist ein Beispiel für einen Durchlauf:
 
-![image](assets/image/section1/12.1.png)
+![image](assets/image/section1/12.1.webp)
 
 ##### Zwischenzustand
 
 Als Erinnerung: Die Nachricht wird in Blöcke von 512 Bits aufgeteilt, die dann in 32-Bit-Stücke aufgeteilt werden. Für jeden 512-Bit-Block wenden wir die 64 Durchläufe der Kompressionsfunktion an.
 Der Zwischenzustand entspricht dem Ende der 64 Durchläufe eines Blocks. Die Werte der Ausgabesequenz aus diesem 64. Durchlauf werden als Anfangswerte für die Eingabesequenz des ersten Durchlaufs des nächsten Blocks verwendet.
 
-![image](assets/image/section1/12.2.png)
+![image](assets/image/section1/12.2.webp)
 
 #### Überblick über die Hash-Funktion
 
-![image](assets/image/section1/13.JPG)
+![image](assets/image/section1/13.webp)
 
 Wir können feststellen, dass die Ausgabe des ersten 512-Bit-Nachrichtenstücks unseren Initialisierungsvektoren als Eingabe für das zweite 512-Bit-Nachrichtenstück entspricht und so weiter.
 
@@ -245,7 +245,7 @@ Hier kommt die digitale Signatur ins Spiel. Sie dient als mathematischer Nachwei
 
 Die Signatur kann mathematisch von anderen Teilnehmern im Bitcoin-Netzwerk überprüft werden.
 
-![image](assets/image/section2/0.JPG)
+![image](assets/image/section2/0.webp)
 
 Um die Sicherheit von Transaktionen zu gewährleisten, setzt Bitcoin auf zwei digitale Signaturprotokolle: ECDSA (Elliptic Curve Digital Signature Algorithm) und Schnorr. ECDSA ist seit der Einführung von Bitcoin im Jahr 2009 ein Signaturprotokoll, während Schnorr-Signaturen erst kürzlich im November 2021 hinzugefügt wurden. Obwohl beide Protokolle auf elliptischer Kurvenkryptographie basieren und ähnliche mathematische Mechanismen verwenden, unterscheiden sie sich hauptsächlich in Bezug auf die Signaturstruktur.
 
@@ -266,13 +266,13 @@ Das Bitcoin-Protokoll verwendet eine spezifische elliptische Kurve namens Secp25
 
 Bevor wir uns tiefer mit diesen Signaturmechanismen befassen, ist es wichtig zu verstehen, was eine elliptische Kurve ist. Eine elliptische Kurve wird durch die Gleichung y² = x³ + ax + b definiert. Jeder Punkt auf dieser Kurve hat eine charakteristische Symmetrie, die für ihre Nützlichkeit in der Kryptographie entscheidend ist.
 
-![image](assets/image/section2/1.JPG)
+![image](assets/image/section2/1.webp)
 
 Letztendlich werden verschiedene elliptische Kurven als sicher für kryptographische Zwecke anerkannt. Die bekannteste davon ist möglicherweise die secp256r1-Kurve. Für Bitcoin hat sich Satoshi Nakamoto jedoch für eine andere Kurve entschieden: secp256k1.
 
 Diese Kurve wird durch die Parameter a=0 und b=7 definiert, und ihre Gleichung lautet y² = x³ + 7 modulo n, wobei n die Primzahl ist, die die Ordnung der Kurve bestimmt.
 
-![image](assets/image/section2/2.JPG)
+![image](assets/image/section2/2.webp)
 
 Das erste Bild stellt die secp256k1-Kurve über dem reellen Feld und ihrer Gleichung dar.
 Das zweite Bild ist eine Darstellung der secp256k1-Kurve über dem Feld ZP, dem Feld der positiven natürlichen Zahlen, modulo p, wobei p eine Primzahl ist. Es sieht aus wie eine Wolke von Punkten. Wir verwenden dieses Feld der positiven natürlichen Zahlen, um Approximationen zu vermeiden.
@@ -288,7 +288,7 @@ Beginnen wir damit, in die Welt des Elliptic Curve Digital Signature Algorithm (
 
 Um mit Bitcoin kompatibel zu sein, muss ein privater Schlüssel zwischen 1 und n-1 liegen, wobei n die Ordnung der elliptischen Kurve darstellt. Dies bedeutet, dass die Gesamtzahl der Möglichkeiten für einen Bitcoin-privaten Schlüssel fast gleich 1,158 x 10^77 ist. Um dies in Perspektive zu setzen, handelt es sich ungefähr um die gleiche Anzahl von Atomen im beobachtbaren Universum.
 
-![image](assets/image/section2/3.JPG)
+![image](assets/image/section2/3.webp)
 
 Der eindeutige private Schlüssel, bezeichnet als k, wird dann verwendet, um einen öffentlichen Schlüssel zu bestimmen.
 
@@ -296,7 +296,7 @@ Der öffentliche Schlüssel, bezeichnet als K, ist ein Punkt auf der elliptische
 
 Der öffentliche Schlüssel ist 512 Bits lang, da er einem Punkt auf der Kurve mit einer x-Koordinate von 256 Bits und einer y-Koordinate von 256 Bits entspricht. Er kann jedoch zu einer 264-Bit-Zahl komprimiert werden.
 
-![image](assets/image/section2/4.JPG)
+![image](assets/image/section2/4.webp)
 
 Der Generatorpunkt (G) ist der Punkt auf der Kurve, von dem aus alle öffentlichen Schlüssel im Bitcoin-Protokoll generiert werden. Er hat spezifische x- und y-Koordinaten, die normalerweise in hexadezimaler Form dargestellt werden. Für secp256k1 lauten die Koordinaten von G in hexadezimaler Form:
 
@@ -314,7 +314,7 @@ Eine bemerkenswerte Eigenschaft von elliptischen Kurven ist, dass eine nicht-ver
 
 M + L = U
 
-![image](assets/image/section2/5.JPG)
+![image](assets/image/section2/5.webp)
 
 ##### Hinzufügen eines Punktes zu sich selbst = Punktverdopplung
 
@@ -323,7 +323,7 @@ G + G = J
 
 Tatsächlich ist der Punkt G der Ausgangspunkt für die Berechnung aller öffentlichen Schlüssel der Benutzer des Bitcoin-Systems.
 
-![image](assets/image/section2/6.JPG)
+![image](assets/image/section2/6.webp)
 
 #### Skalare Multiplikation auf elliptischen Kurven
 
@@ -333,11 +333,11 @@ Die skalare Multiplikation eines Punktes mit n entspricht dem Hinzufügen dieses
 
 Wenn n = 4 ist, wird die Operation wiederholt, bis 4G erreicht ist.
 
-![image](assets/image/section2/7.JPG)
+![image](assets/image/section2/7.webp)
 
 Hier ist eine Beispielberechnung für 3G:
 
-![image](assets/image/section2/8.JPG)
+![image](assets/image/section2/8.webp)
 
 Diese Operationen an Punkten einer elliptischen Kurve bilden die Grundlage für die Berechnung öffentlicher Schlüssel. Das Ableiten eines öffentlichen Schlüssels, wenn der private Schlüssel bekannt ist, ist sehr einfach.
 Ein öffentlicher Schlüssel ist ein Punkt auf der elliptischen Kurve, er ist das Ergebnis unserer Addition und Verdopplung des Punktes G k-mal. Mit k = privater Schlüssel.
@@ -347,7 +347,7 @@ In diesem Beispiel:
 - Der private Schlüssel k = 4
 - Der öffentliche Schlüssel K = kG = 4G
 
-![image](assets/image/section2/9.JPG)
+![image](assets/image/section2/9.webp)
 
 Wenn der private Schlüssel k bekannt ist, ist es einfach, den öffentlichen Schlüssel K zu berechnen. Es ist jedoch unmöglich, den privaten Schlüssel basierend auf dem öffentlichen Schlüssel abzurufen. Handelt es sich hierbei um das Ergebnis einer Addition oder einer Verdopplung von Punkten?
 
@@ -358,7 +358,7 @@ In unserer nächsten Lektion werden wir untersuchen, wie eine digitale Signatur 
 Der Prozess der digitalen Signatur ist eine wichtige Methode, um nachzuweisen, dass Sie der Inhaber eines privaten Schlüssels sind, ohne ihn preiszugeben. Dies wird mit Hilfe des ECDSA-Algorithmus erreicht, der das Bestimmen einer eindeutigen Nonce, das Berechnen einer spezifischen Zahl V und das Erstellen einer digitalen Signatur aus zwei Teilen, S1 und S2, umfasst.
 Es ist entscheidend, immer eine eindeutige Nonce zu verwenden, um Sicherheitsangriffe zu vermeiden. Ein berüchtigtes Beispiel dafür, was passieren kann, wenn diese Regel nicht befolgt wird, ist das Hacken der PlayStation 3, die aufgrund der Wiederverwendung von Nonce kompromittiert wurde.
 
-![](assets/image/section2/10.JPG)
+![](assets/image/section2/10.webp)
 
 Schritte:
 
@@ -382,7 +382,7 @@ Um beispielsweise den öffentlichen Schlüssel 3G zu erhalten, ziehen Sie eine T
 
 Um eine digitale Signatur zu erstellen und nachzuweisen, dass Sie den privaten Schlüssel kennen, der mit dem öffentlichen Schlüssel 3G verbunden ist, berechnen Sie zunächst eine Zufallszahl (Nonce) und dann den Punkt V, der mit diesem Nonce verbunden ist (im gegebenen Beispiel ist es 4G). Anschließend berechnen Sie den Punkt T, indem Sie den öffentlichen Schlüssel 3G und den Punkt V addieren, was 7G ergibt.
 
-![image](assets/image/section2/11.JPG)
+![image](assets/image/section2/11.webp)
 
 Lassen Sie uns den Prozess der digitalen Signatur vereinfachen.
 In dem vorherigen Bild ist der private Schlüssel k = 3.
@@ -416,7 +416,7 @@ Hier sind die Schritte, die der Überprüfer befolgt, um die Signatur zu validie
 5. Schließlich bestätigt der Überprüfer, dass I' gleich t ist. Wenn dies der Fall ist, wird die Signatur als gültig betrachtet. Andernfalls ist die Signatur ungültig.
 Dieses Verfahren stellt sicher, dass nur der Absender, der den entsprechenden privaten Schlüssel besitzt, eine Signatur erstellen konnte, die diesen Überprüfungsprozess besteht.
 
-![image](assets/image/section2/12.JPG)
+![image](assets/image/section2/12.webp)
 
 In einfacheren Worten:
 Die Person, die die Signatur erstellt, gibt die Zahl t (in unserem Beispiel t = 7) und den Punkt V an die Person weiter, die sie überprüft.
@@ -458,7 +458,7 @@ Die Bedeutung der Sicherheit des privaten Schlüssels im Bitcoin-Ökosystem ist 
 
 Entropie bezieht sich auf den "Unordnungszustand" eines Systems. Aus einer externen Entropie, das heißt, einer externen Informationsquelle, ist es möglich, mithilfe eines Zufallszahlengenerators eine Zufallszahl zu erhalten.
 
-![Bild](assets/image/section3/2.JPG)
+![Bild](assets/image/section3/2.webp)
 
 Schauen wir uns an, wie ein Pseudo-Zufallszahlengenerator (PRNG) funktioniert.
 
@@ -478,7 +478,7 @@ Ein Beispiel für eine Transformationsfunktion ist die PBKDF2-Funktion.
 - widerstandsfähig sein, selbst wenn die Ergebnisse offengelegt werden
 - eine ausreichend lange Periode haben
 
-![Bild](assets/image/section3/3.JPG)
+![Bild](assets/image/section3/3.webp)
 
 Im Falle von Bitcoin werden private Schlüssel aus einer einzigen Information am Anfang der Brieftasche generiert. Diese Information ermöglicht die deterministische und hierarchische Ableitung von Kinderschlüsselpaaren. Entropie ist die Grundlage jeder HD-Brieftasche, obwohl es keinen Standard für die Generierung dieser Zufallszahl gibt. Daher ist die Generierung von Zufallszahlen eine große Herausforderung bei der Sicherung von Bitcoin-Transaktionen.
 
@@ -486,7 +486,7 @@ Im Falle von Bitcoin werden private Schlüssel aus einer einzigen Information am
 
 Die Sicherheit einer Bitcoin-Brieftasche ist ein Hauptanliegen für alle Benutzer. Eine wesentliche Möglichkeit, die Sicherung der Brieftasche zu gewährleisten, besteht darin, eine mnemonische Phrase auf der Grundlage von Entropie und Prüfsumme zu generieren.
 
-![Bild](assets/image/section3/5.JPG)
+![Bild](assets/image/section3/5.webp)
 
 Um Entropie in eine mnemonische Phrase umzuwandeln, berechnen Sie einfach die Prüfsumme der Entropie und verknüpfen Sie die Entropie und die Prüfsumme.
 
@@ -496,7 +496,7 @@ Die mnemonische Phrase ist das Ergebnis der Entropie, die zur Prüfsumme hinzuge
 
 Die Prüfsumme gewährleistet die Überprüfung der Genauigkeit der Wiederherstellungsphrase. Ohne diese Prüfsumme könnte ein Fehler in der Phrase zur Erstellung einer anderen Brieftasche und somit zum Verlust von Geldern führen. Die Prüfsumme wird erhalten, indem die Entropie durch die SHA256-Funktion geleitet und die ersten 8 Bits des Hashes abgerufen werden.
 
-![Bild](assets/image/section3/6.JPG)
+![Bild](assets/image/section3/6.webp)
 
 Je nach Größe der Entropie gibt es verschiedene Standards für die mnemonische Phrase. Der am häufigsten verwendete Standard für eine 24-Wort-Wiederherstellungsphrase ist eine Entropie von 256 Bits. Die Größe der Prüfsumme wird durch die Division der Größe der Entropie durch 32 bestimmt.
 
@@ -504,7 +504,7 @@ Beispielsweise erzeugt eine Entropie von 256 Bits eine 8-Bit-Prüfsumme. Die Ver
 
 **Codierung der mnemonischen Phrase:**
 
-![Bild](assets/image/section3/7.JPG)
+![Bild](assets/image/section3/7.webp)
 
 Die letzten 8 Bits entsprechen der Prüfsumme.
 Jedes 11-Bit-Segment wird in Dezimalzahlen umgewandelt.
@@ -518,7 +518,7 @@ Zusammenfassend ist die Generierung einer mnemonischen Phrase zur Sicherung eine
 
 Die Passphrase ist ein zusätzliches Kennwort, das in eine Bitcoin-Brieftasche integriert werden kann, um ihre Sicherheit zu erhöhen. Die Verwendung ist optional und liegt im Ermessen des Benutzers. Durch Hinzufügen beliebiger Informationen, die zusammen mit der mnemonischen Phrase die Berechnung des Seeds der Brieftasche ermöglichen, erhöht die Passphrase ihre Sicherheit.
 
-![Bild](assets/image/section3/8.JPG)
+![Bild](assets/image/section3/8.webp)
 
 Die Passphrase ist ein optionaler kryptografischer Salt, dessen Größe vom Benutzer festgelegt wird. Sie verbessert die Sicherheit einer HD-Wallet, indem sie beliebige Informationen hinzufügt, die in Kombination mit der mnemonischen Phrase die Berechnung des Seeds ermöglichen.
 
@@ -528,7 +528,7 @@ Die Passphrase ist ein wichtiges Instrument zur Verbesserung der Sicherheit von 
 
 Eine effektive Passphrase sollte lang (20 bis 40 Zeichen) und vielfältig sein (Groß- und Kleinbuchstaben, Zahlen und Symbole verwenden). Sie sollte nicht direkt mit dem Benutzer oder seiner Umgebung in Verbindung stehen. Es ist sicherer, eine zufällige Zeichenfolge anstelle eines einfachen Wortes als Passphrase zu verwenden.
 
-![image](assets/image/section3/9.JPG)
+![image](assets/image/section3/9.webp)
 
 Eine Passphrase ist sicherer als ein einfaches Passwort. Die ideale Passphrase ist lang, vielfältig und zufällig. Sie kann die Sicherheit einer Wallet oder einer Hot-Software verbessern. Sie kann auch verwendet werden, um redundante und sichere Backups zu erstellen.
 
@@ -542,18 +542,18 @@ In unserer nächsten Lektion werden wir detailliert auf die Funktionsweise des S
 
 In diesem Teil des Kurses werden wir die Schritte zur Ableitung einer Hierarchisch Deterministischen Wallet (HD-Wallet) untersuchen, die die hierarchische und deterministische Erstellung und Verwaltung von privaten und öffentlichen Schlüsseln ermöglicht.
 
-![image](assets/image/section4/0.JPG)
+![image](assets/image/section4/0.webp)
 
 Die Grundlage der HD-Wallet beruht auf zwei wesentlichen Elementen: der mnemonischen Phrase und der Passphrase (optional zusätzliches Passwort). Zusammen bilden sie den Seed, eine alphanumerische Sequenz von 512 Bits, die als Grundlage für die Ableitung der Schlüssel der Wallet dient. Aus diesem Seed ist es möglich, alle Kinderschlüsselpaare der Bitcoin-Wallet abzuleiten. Der Seed ist der Schlüssel, der Zugriff auf alle mit der Wallet verbundenen Bitcoins gewährt, unabhängig davon, ob eine Passphrase verwendet wird oder nicht.
 
-![image](assets/image/section4/1.JPG)
+![image](assets/image/section4/1.webp)
 
 Um den Seed zu erhalten, wird die Funktion pbkdf2 (Password-Based Key Derivation Function 2) mit der mnemonischen Phrase und der Passphrase verwendet. Die Ausgabe von pbkdf2 ist ein 512-Bit Seed.
 
 Aus dem Seed ist es möglich, den Master-Privatschlüssel und den Chain Code mithilfe des HMAC SHA-512 (Hash-based Message Authentication Code Secure Hash Algorithm 512) Algorithmus zu bestimmen. Dieser Algorithmus erfordert eine Nachricht und einen Schlüssel als Eingabe, um ein Ergebnis zu generieren. Der Master-Privatschlüssel wird aus dem Seed und der Phrase "Bitcoin SEED" berechnet. Diese Phrase ist für alle Ableitungen aller HD-Wallets identisch und gewährleistet Konsistenz zwischen den Wallets.
 Ursprünglich wurde die SHA-512-Funktion nicht im Bitcoin-Protokoll implementiert, weshalb HMAC SHA-512 verwendet wird. Die Verwendung von HMAC SHA-512 mit dem Ausdruck "Bitcoin SEED" schränkt den Benutzer ein, eine Brieftasche spezifisch für Bitcoin zu generieren. Das Ergebnis von HMAC SHA-512 ist eine 512-Bit-Zahl, die in zwei Teile aufgeteilt ist: die linken 256 Bits repräsentieren den Master-Privatschlüssel, während die rechten 256 Bits den Master-Chain-Code repräsentieren.
 
-![image](assets/image/section4/2.JPG)
+![image](assets/image/section4/2.webp)
 
 Der Master-Privatschlüssel ist der übergeordnete Schlüssel aller zukünftigen Schlüssel in der Brieftasche, während der Master-Chain-Code an der Ableitung von Kinderschlüsseln beteiligt ist. Es ist wichtig zu beachten, dass es unmöglich ist, ein Kinderschlüsselpaar abzuleiten, ohne den entsprechenden Chain-Code des übergeordneten Paares zu kennen.
 
@@ -566,11 +566,11 @@ In der nächsten Lektion werden wir erweiterte Schlüssel im Detail untersuchen,
 
 In diesem Teil der Lektion werden wir erweiterte Schlüssel (xPub, zPub, yPub) und ihre Präfixe untersuchen, die eine wichtige Rolle bei der Ableitung von Kinderschlüsseln in einer hierarchisch deterministischen Brieftasche (HD-Wallet) spielen.
 
-![image](assets/image/section4/3.JPG)
+![image](assets/image/section4/3.webp)
 
 Erweiterte Schlüssel unterscheiden sich von Master-Schlüsseln. Eine HD-Brieftasche generiert eine mnemonische Phrase und einen Seed, um den Master-Schlüssel und den Master-Chain-Code zu erhalten. Erweiterte Schlüssel werden verwendet, um Kinderschlüssel abzuleiten und erfordern sowohl den übergeordneten Schlüssel als auch den entsprechenden Chain-Code. Ein erweiterter Schlüssel kombiniert diese beiden Informationen, um den Ableitungsprozess zu vereinfachen.
 
-![image](assets/image/section4/4.JPG)
+![image](assets/image/section4/4.webp)
 
 Erweiterte öffentliche Schlüssel können nur normale öffentliche Kinderschlüssel ableiten, während erweiterte private Schlüssel sowohl normale öffentliche als auch private Kinderschlüssel ableiten können, sei es durch normale oder gehärtete Ableitung. Gehärtete Ableitung erfolgt vom übergeordneten privaten Schlüssel, während normale Ableitung der Ableitung vom übergeordneten öffentlichen Schlüssel entspricht.
 
@@ -578,7 +578,7 @@ Die Verwendung von erweiterten Schlüsseln mit dem Präfix XPUB ermöglicht die 
 
 Erweiterte Schlüssel werden durch spezifische Präfixe (XPRV, XPUB, YPUB, ZPUB) identifiziert, die anzeigen, ob es sich um einen erweiterten privaten oder öffentlichen Schlüssel handelt, sowie um seinen spezifischen Zweck. Die mit einem erweiterten Schlüssel verbundenen Metadaten umfassen die Version (Präfix), Tiefe, Fingerabdruck des übergeordneten Schlüssels, Index und Payload (Chain-Code und übergeordneter Schlüssel).
 
-![image](assets/image/section4/5.JPG)
+![image](assets/image/section4/5.webp)
 
 Die Version entspricht dem Typ des Schlüssels: xpub, xprv, ...
 
@@ -589,7 +589,7 @@ Der Index ist die Nummer des Paares, das zur Generierung des erweiterten Schlüs
 Die Nutzlast besteht aus dem Chain-Code (32 Bytes) und dem Elternschlüssel (33 Bytes).
 Komprimierte öffentliche Schlüssel haben eine Größe von 33 Bytes, während rohe öffentliche Schlüssel 512 Bits haben. Komprimierte öffentliche Schlüssel behalten die gleichen Informationen wie rohe Schlüssel, sind jedoch kleiner. Erweiterte Schlüssel haben eine Größe von 82 Bytes und ihr Präfix wird in Base 58 durch eine Konvertierung in Hexadezimal dargestellt. Die Prüfsumme wird mit der HASH256-Hashfunktion berechnet.
 
-![Bild](assets/image/section4/6.JPG)
+![Bild](assets/image/section4/6.webp)
 
 Verbesserte Ableitungen beginnen bei Indizes, die Potenzen von 2 (2^31) sind. Es ist interessant zu beachten, dass die am häufigsten verwendeten Präfixe xpub und zpub sind, die jeweils den Legacy-Standards und SegWit v1 und SegWit v0 entsprechen.
 
@@ -601,28 +601,28 @@ Wie bereits erwähnt, haben wir die Berechnung des Seeds und des Master-Schlüss
 
 Der Master-Chain-Code spielt eine wichtige Rolle bei der Wiederherstellung der Brieftasche aus dem Seed. Es sollte beachtet werden, dass alle aus demselben Seed abgeleiteten Schlüssel denselben Master-Chain-Code haben werden.
 
-![Bild](assets/image/section4/7.JPG)
+![Bild](assets/image/section4/7.webp)
 
 Die hierarchische Organisation und Ableitung der HD-Brieftasche bieten eine effizientere Verwaltung von Schlüsseln und Brieftaschenstrukturen. Erweiterte Schlüssel ermöglichen die Ableitung eines Kinderschlüsselpaars aus einem Elternschlüsselpaar mithilfe mathematischer Berechnungen und spezifischer Algorithmen.
 Es gibt verschiedene Arten von Kinderschlüsselpaaren, einschließlich verstärkter Schlüssel und normaler Schlüssel. Der erweiterte öffentliche Schlüssel ermöglicht nur die Ableitung normaler Kinderschlüssel, während der erweiterte private Schlüssel die Ableitung aller Kinderschlüssel ermöglicht, sowohl öffentlicher als auch privater, unabhängig davon, ob sie im normalen oder verstärkten Modus sind. Jedes Schlüsselpaar hat einen Index, der sie voneinander unterscheidet.
 
-![Bild](assets/image/section4/8.JPG)
+![Bild](assets/image/section4/8.webp)
 
 Die Ableitung von Kinderschlüsseln verwendet die HMAC-SHA512-Funktion, wobei der Elternschlüssel mit dem Index und dem mit dem Schlüsselpaar verbundenen Chain-Code konkateniert wird. Normale Kinderschlüssel haben einen Index von 0 bis 2 hoch 31 minus 1, während verstärkte Kinderschlüssel einen Index von 2 hoch 31 bis 2 hoch 32 minus 1 haben.
 
-![Bild](assets/image/section4/9.JPG)
+![Bild](assets/image/section4/9.webp)
 
-![Bild](assets/image/section4/10.JPG)
+![Bild](assets/image/section4/10.webp)
 
 Es gibt zwei Arten von Kinderschlüsselpaaren: verstärkte Paare und normale Paare. Der Prozess der Ableitung von Kinderschlüsseln verwendet öffentliche Schlüssel, um Ausgabenbedingungen zu generieren, während private Schlüssel zum Signieren verwendet werden. Der erweiterte öffentliche Schlüssel ermöglicht nur die Ableitung normaler öffentlicher Kinderschlüssel, während der erweiterte private Schlüssel die Ableitung aller Kinderschlüssel ermöglicht, sowohl öffentlicher als auch privater, im normalen oder verstärkten Modus.
 
-![Bild](assets/image/section4/11.JPG)
-![Bild](assets/image/section4/12.JPG)
+![Bild](assets/image/section4/11.webp)
+![Bild](assets/image/section4/12.webp)
 
 Verstärkte Ableitung verwendet den übergeordneten privaten Schlüssel, während normale Ableitung den übergeordneten öffentlichen Schlüssel verwendet. Die HMAC-SHA512-Funktion wird für die verstärkte Ableitung verwendet, während die normale Ableitung eine 512-Bit-Prüfsumme verwendet. Der öffentliche Schlüssel des Kindes wird erhalten, indem der private Schlüssel des Kindes mit dem Generator der elliptischen Kurve multipliziert wird.
 
-![image](assets/image/section4/13.JPG)
-![image](assets/image/section4/14.JPG)
+![image](assets/image/section4/13.webp)
+![image](assets/image/section4/14.webp)
 
 Durch die hierarchische Ableitung und die deterministische Ableitung vieler Schlüsselpaare kann eine Baumstruktur für die hierarchische Ableitung erstellt werden. In der nächsten Lektion dieses Trainings werden wir uns die Struktur des HD-Wallets sowie die Ableitungspfade genauer ansehen, wobei der Schwerpunkt auf der Notation der Ableitungspfade liegt.
 
@@ -632,7 +632,7 @@ In diesem Kapitel werden wir uns die Struktur des Ableitungsbaums in einem Hiera
 
 Das HD-Wallet verwendet Tiefenschichten, um Schlüssel zu organisieren. Jede Ableitung von einem Elternpaar zu einem Kindpaar entspricht einer Tiefenschicht.
 
-![image](assets/image/section4/15.JPG)
+![image](assets/image/section4/15.webp)
 
 - Tiefenschicht 0 entspricht dem Master-Schlüssel und dem Master-Chain-Code.
 
@@ -646,7 +646,7 @@ Das HD-Wallet verwendet Tiefenschichten, um Schlüssel zu organisieren. Jede Abl
 
 - Tiefenschicht 5 wird für Empfangsadressen in einem Standard-Wallet verwendet. Im nächsten Abschnitt werden wir die Ableitung von Kinderschlüsselpaaren genauer untersuchen.
 
-![image](assets/image/section4/16.JPG)
+![image](assets/image/section4/16.webp)
 
 Für jede Tiefenschicht verwenden wir Indizes, um Kinderschlüsselpaare zu unterscheiden.
 
@@ -700,7 +700,7 @@ Der binäre Digest von RIPEMD160(SHA256(K)) wird verwendet, um Gruppen von 5 Bit
 
 ### Schritt 4: Hinzufügen von Metadaten für die Prüfsummenberechnung mit dem BCH-Programm
 
-![Bild](assets/image/section5/5.JPG)
+![Bild](assets/image/section5/5.webp)
 
 Im Fall von Legacy-Adressen verwenden wir die doppelte SHA256-Hashfunktion, um die Adressprüfsumme zu generieren. Für Segwit V0- und V1-Adressen verlassen wir uns jedoch auf die BCH-Prüfsummentechnologie, um Fehlererkennung zu gewährleisten. Das BCH-Programm ist in der Lage, Fehler vorzuschlagen und zu korrigieren, wobei die Wahrscheinlichkeit eines Fehlers äußerst gering ist. Derzeit wird das BCH-Programm verwendet, um Fehler zu erkennen und Änderungen vorzuschlagen, führt diese jedoch nicht automatisch im Namen des Benutzers aus.
 
@@ -712,7 +712,7 @@ Die Segwit V0-Version wird durch den Code 00 repräsentiert und die "Payload" is
 
 ### Schritt 5: Berechnung der Prüfsumme mit dem BCH-Programm
 
-![Bild](assets/image/section5/6.JPG)
+![Bild](assets/image/section5/6.webp)
 
 Die Eingabe mit den Metadaten wird dann dem BCH-Programm übergeben, um die Prüfsumme in Basis 10 zu erhalten.
 
@@ -720,13 +720,13 @@ Hier haben wir die Prüfsumme.
 
 ### Schritt 6: Adresskonstruktion und Umwandlung in Bech32
 
-![Bild](assets/image/section5/7.JPG)
+![Bild](assets/image/section5/7.webp)
 
 Die Verkettung von Version, Payload und Prüfsumme ermöglicht den Aufbau der Adresse. Die Zeichen in Basis 10 werden dann mithilfe einer Korrespondenztabelle in Bech32-Zeichen umgewandelt. Das Bech32-Alphabet umfasst alle alphanumerischen Zeichen, außer 1, b, i und o, um Verwechslungen zu vermeiden.
 
 ### Schritt 7: Hinzufügen des HRP und des Trennzeichens
 
-![Bild](assets/image/section5/8.JPG)
+![Bild](assets/image/section5/8.webp)
 
 In Pink die Prüfsumme.
 In Schwarz die Payload = der Hash des öffentlichen Schlüssels.

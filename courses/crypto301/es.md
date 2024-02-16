@@ -54,12 +54,12 @@ Describir el perfil de las funciones de hash criptográficas requiere comprender
 La irreversibilidad, o resistencia a la preimagen, significa que calcular la salida dada la entrada se puede hacer fácilmente, pero calcular la entrada a partir de la salida es imposible.
 Es una función unidireccional.
 
-![imagen](assets/image/section1/0.JPG)
+![imagen](assets/image/section1/0.webp)
 
 La resistencia a la falsificación proviene del hecho de que incluso la más mínima modificación de la entrada dará como resultado una salida profundamente diferente.
 Estas funciones permiten verificar la integridad del software descargado.
 
-![imagen](assets/image/section1/1.JPG)
+![imagen](assets/image/section1/1.webp)
 
 Otra característica crucial que poseen es su resistencia a las colisiones y a la segunda preimagen. Una colisión ocurre cuando dos entradas distintas producen la misma salida.
 Ciertamente, en el universo de las funciones de hash, las colisiones son inevitables, pero una excelente función de hash criptográfica las minimiza significativamente. El riesgo debe ser tan bajo que se pueda considerar insignificante. Es como si cada hash fuera una casa en una ciudad vasta; a pesar del enorme número de casas, una buena función de hash asegura que cada casa tenga una dirección única.
@@ -83,7 +83,7 @@ El uso de HASH160 es particularmente ventajoso ya que permite la seguridad de SH
 
 En resumen, el objetivo final de una función hash criptográfica es transformar información de tamaño arbitrario en una huella digital de tamaño fijo. Para ser reconocida como segura, debe tener varias fortalezas: irreversibilidad, resistencia a la manipulación, resistencia a colisiones y resistencia a segundas preimágenes.
 
-![imagen](assets/image/section1/2.JPG)
+![imagen](assets/image/section1/2.webp)
 
 Al final de esta exploración, hemos desmitificado las funciones hash criptográficas, destacado sus usos en el protocolo Bitcoin y analizado sus objetivos específicos. Hemos aprendido que para que las funciones hash se consideren seguras, deben ser resistentes a preimágenes, segundas preimágenes, colisiones y manipulación. También hemos cubierto la variedad de diferentes funciones hash utilizadas en el protocolo Bitcoin. En nuestra próxima sesión, profundizaremos en el núcleo de la función hash SHA256 y descubriremos las fascinantes matemáticas que le otorgan sus características únicas.
 
@@ -112,7 +112,7 @@ Usamos nuestros 64 bits reservados del paso anterior. Agregamos ceros para redon
 
 Aquí está el resultado:
 
-![image](assets/image/section1/4.JPG)
+![image](assets/image/section1/4.webp)
 
 ### Procesamiento
 
@@ -126,7 +126,7 @@ Los vectores de inicialización, de A a H, son los primeros 32 bits de las parte
 
 Las constantes K, de 0 a 63, representan los primeros 32 bits de las partes decimales de las raíces cúbicas de los primeros 64 números primos. Se utilizan en cada ronda de la función de compresión. Sus valores también están en formato hexadecimal.
 
-![image](assets/image/section1/5.JPG)
+![image](assets/image/section1/5.webp)
 
 ##### Operaciones utilizadas
 
@@ -134,11 +134,11 @@ Dentro de la función de compresión, utilizamos operadores específicos como XO
 
 La tabla de verdad:
 
-![image](assets/image/section1/6.JPG)
+![image](assets/image/section1/6.webp)
 
 Operaciones de desplazamiento de bits:
 
-![image](assets/image/section1/7.JPG)
+![image](assets/image/section1/7.webp)
 
 #### La función de compresión
 
@@ -153,15 +153,15 @@ Realizamos 64 rondas de cálculos en la función de compresión. En la última r
 Luego, repetimos todos estos pasos de la función de compresión en el siguiente bloque de 512 bits, hasta el último bloque.
 Todas las adiciones en la función de compresión son adiciones módulo 2^32 para mantener siempre una suma de 32 bits.
 
-![image](assets/image/section1/9.JPG)
+![image](assets/image/section1/9.webp)
 
-![image](assets/image/section1/8.JPG)
+![image](assets/image/section1/8.webp)
 
 ##### Una ronda de la función de compresión
 
-![image](assets/image/section1/11.JPG)
+![image](assets/image/section1/11.webp)
 
-![image](assets/image/section1/10.JPG)
+![image](assets/image/section1/10.webp)
 
 La función de compresión se realizará 64 veces. Tenemos nuestras piezas W y nuestras constantes K previamente definidas como entrada.
 Los cuadrados/cruces rojos corresponden a una adición de 32 bits módulo 2^32.
@@ -174,18 +174,18 @@ Como recordatorio, los vectores de inicialización representan los primeros 32 b
 
 Aquí hay un ejemplo de una ronda:
 
-![image](assets/image/section1/12.1.png)
+![image](assets/image/section1/12.1.webp)
 
 ##### Estado intermedio
 
 Como recordatorio, el mensaje se divide en bloques de 512 bits, que luego se dividen en piezas de 32 bits. Para cada bloque de 512 bits, aplicamos las 64 rondas de la función de compresión.
 El estado intermedio corresponde al final de las 64 rondas de un bloque. Los valores de la secuencia de salida de esta 64ª ronda se utilizan como valores iniciales para la secuencia de entrada de la primera ronda del siguiente bloque.
 
-![image](assets/image/section1/12.2.png)
+![image](assets/image/section1/12.2.webp)
 
 #### Resumen de la función hash
 
-![image](assets/image/section1/13.JPG)
+![image](assets/image/section1/13.webp)
 
 Podemos observar que la salida de la primera pieza de mensaje de 512 bits corresponde a nuestros vectores de inicialización como entrada para la segunda pieza de mensaje de 512 bits, y así sucesivamente.
 
@@ -233,7 +233,7 @@ Aquí es donde entra la firma digital. Sirve como prueba matemática de la poses
 
 La firma puede ser verificada matemáticamente por otros participantes en la red Bitcoin.
 
-![image](assets/image/section2/0.JPG)
+![image](assets/image/section2/0.webp)
 
 Para garantizar la seguridad de las transacciones, Bitcoin se basa en dos protocolos de firma digital: ECDSA (Algoritmo de Firma Digital de Curva Elíptica) y Schnorr. ECDSA ha sido un protocolo de firma integrado en Bitcoin desde su lanzamiento en 2009, mientras que las firmas Schnorr se agregaron más recientemente en noviembre de 2021. Aunque ambos protocolos se basan en criptografía de curva elíptica y utilizan mecanismos matemáticos similares, principalmente difieren en términos de estructura de firma.
 
@@ -254,13 +254,13 @@ El protocolo Bitcoin utiliza una curva elíptica específica llamada Secp256k1 p
 
 Antes de adentrarnos más en estos mecanismos de firma, es importante entender qué es una curva elíptica. Una curva elíptica se define por la ecuación y² = x³ + ax + b. Cada punto en esta curva tiene una simetría distintiva que es clave para su utilidad en criptografía.
 
-![image](assets/image/section2/1.JPG)
+![image](assets/image/section2/1.webp)
 
 En última instancia, se reconocen varias curvas elípticas como seguras para su uso criptográfico. La más conocida puede ser la curva secp256r1. Sin embargo, para Bitcoin, Satoshi Nakamoto optó por una curva diferente: secp256k1.
 
 Esta curva se define por los parámetros a=0 y b=7, y su ecuación es y² = x³ + 7 módulo n, donde n representa el número primo que determina el orden de la curva.
 
-![image](assets/image/section2/2.JPG)
+![image](assets/image/section2/2.webp)
 
 La primera imagen representa la curva secp256k1 sobre el campo real y su ecuación.
 La segunda imagen es una representación de la curva secp256k1 sobre el campo ZP, el campo de números naturales positivos, módulo p donde p es un número primo. Parece una nube de puntos. Utilizamos este campo de números naturales positivos para evitar aproximaciones.
@@ -276,7 +276,7 @@ Para comenzar, adentrémonos en el mundo del Algoritmo de Firma Digital de Curva
 
 Para ser compatible con Bitcoin, una clave privada debe estar entre 1 y n-1, donde n representa el orden de la curva elíptica. Esto significa que el número total de posibilidades para una clave privada de Bitcoin es casi igual a 1.158 x 10^77. Para poner esto en perspectiva, es aproximadamente la misma cantidad de átomos presentes en el universo observable.
 
-![imagen](assets/image/section2/3.JPG)
+![imagen](assets/image/section2/3.webp)
 
 La clave privada única, denotada como k, se utiliza luego para determinar una clave pública.
 
@@ -284,7 +284,7 @@ La clave pública, denotada como K, es un punto en la curva elíptica que se der
 
 La clave pública tiene una longitud de 512 bits, ya que corresponde a un punto en la curva con una coordenada x de 256 bits y una coordenada y de 256 bits. Sin embargo, se puede comprimir en un número de 264 bits.
 
-![imagen](assets/image/section2/4.JPG)
+![imagen](assets/image/section2/4.webp)
 
 El punto generador (G) es el punto en la curva a partir del cual se generan todas las claves públicas en el protocolo de Bitcoin. Tiene coordenadas x e y específicas, generalmente representadas en hexadecimal. Para secp256k1, las coordenadas de G son, en hexadecimal:
 
@@ -303,7 +303,7 @@ Una de las propiedades notables de las curvas elípticas es que una línea no ve
 
 M + L = U
 
-![imagen](assets/image/section2/5.JPG)
+![imagen](assets/image/section2/5.webp)
 
 ##### Sumando un punto consigo mismo = Duplicación de puntos
 Agregar un punto G a sí mismo se hace trazando una tangente a la curva en ese punto. Esta tangente, según las propiedades de las curvas elípticas, intersectará la curva en un segundo punto único -J. El opuesto de este punto, J, es el resultado de agregar el punto G a sí mismo.
@@ -311,7 +311,7 @@ G + G = J
 
 De hecho, el punto G es el punto de partida para calcular todas las claves públicas de los usuarios del sistema Bitcoin.
 
-![image](assets/image/section2/6.JPG)
+![image](assets/image/section2/6.webp)
 
 #### Multiplicación escalar en curvas elípticas
 
@@ -321,11 +321,11 @@ Similar al duplicado de puntos, la multiplicación escalar del punto G por un pu
 
 Si n = 4, entonces la operación se repite hasta alcanzar 4G.
 
-![image](assets/image/section2/7.JPG)
+![image](assets/image/section2/7.webp)
 
 Aquí hay un ejemplo de cálculo para 3G:
 
-![image](assets/image/section2/8.JPG)
+![image](assets/image/section2/8.webp)
 
 Estas operaciones en puntos de una curva elíptica son la base para calcular claves públicas. Derivar una clave pública conociendo la clave privada es muy fácil.
 Una clave pública es un punto en la curva elíptica, es el resultado de nuestra adición y duplicación del punto G k veces. Con k = clave privada.
@@ -335,7 +335,7 @@ En este ejemplo:
 - La clave privada k = 4
 - La clave pública K = kG = 4G
 
-![image](assets/image/section2/9.JPG)
+![image](assets/image/section2/9.webp)
 
 Conociendo la clave privada k, es fácil calcular la clave pública K. Sin embargo, es imposible recuperar la clave privada basándose en la clave pública. ¿Es este el resultado de una adición o una duplicación de puntos?
 
@@ -346,7 +346,7 @@ En nuestra próxima lección, exploraremos cómo se crea una firma digital utili
 El proceso de firma digital es un método clave para demostrar que eres el titular de una clave privada sin revelarla. Esto se logra utilizando el algoritmo ECDSA, que implica determinar un nonce único, calcular un número específico V y crear una firma digital compuesta por dos partes, S1 y S2.
 Es crucial siempre usar un nonce único para evitar ataques de seguridad. Un ejemplo notorio de lo que puede suceder cuando no se sigue esta regla es el pirateo de PlayStation 3, que se vio comprometido debido a la reutilización de nonces.
 
-![](assets/image/section2/10.JPG)
+![](assets/image/section2/10.webp)
 
 Pasos:
 
@@ -369,7 +369,7 @@ k = la clave privada: calcular la firma, que es la concatenación de S1 + S2.
 Por ejemplo, para obtener la clave pública 3G, trazas una tangente al punto G, calculas el opuesto de -G para obtener 2G, y luego sumas G y 2G. Para realizar una transacción, debes demostrar que conoces el número 3 desbloqueando los bitcoins asociados con la clave pública 3G.
 Para crear una firma digital y demostrar que conoces la clave privada asociada con la clave pública 3G, primero calculas un nonce y luego el punto V asociado con este nonce (en el ejemplo dado, es 4G). Luego, calculas el punto T sumando la clave pública 3G y el punto V, lo que da como resultado 7G.
 
-![image](assets/image/section2/11.JPG)
+![image](assets/image/section2/11.webp)
 
 Simplifiquemos el proceso de firma digital.
 En la imagen anterior, la clave privada k = 3.
@@ -403,7 +403,7 @@ Estos son los pasos que seguirá el verificador para validar la firma:
 5. Finalmente, el verificador confirmará que I' es igual a t. Si este es el caso, la firma se considera válida. Si no, la firma es inválida.
 Este procedimiento asegura que solo el remitente que posee la clave privada correspondiente podría haber producido una firma que pase este proceso de verificación.
 
-![image](assets/image/section2/12.JPG)
+![image](assets/image/section2/12.webp)
 
 En términos más simples:
 La persona que produce la firma proporcionará el número t (en nuestro ejemplo, t = 7) y el punto V a la persona que lo verifica.
@@ -445,7 +445,7 @@ La importancia de la seguridad de la clave privada en el ecosistema de Bitcoin e
 
 La entropía se refiere al estado de "desorden" de un sistema. A partir de una entropía externa, es decir, una fuente externa de información, es posible utilizar un generador de números aleatorios para obtener un número aleatorio.
 
-![imagen](assets/image/section3/2.JPG)
+![imagen](assets/image/section3/2.webp)
 
 Veamos cómo funciona un Generador de Números Pseudoaleatorios (PRNG).
 
@@ -465,7 +465,7 @@ Un ejemplo de función de transformación es la función PBKDF2.
 - ser resistente incluso si se revelan los resultados
 - tener un período suficientemente largo
 
-![imagen](assets/image/section3/3.JPG)
+![imagen](assets/image/section3/3.webp)
 
 En el caso de Bitcoin, las claves privadas se generan a partir de una única pieza de información en la base de la billetera. Esta información permite la derivación determinista y jerárquica de pares de claves secundarias. La entropía es la base de cada billetera HD, aunque no existe un estándar para generar este número aleatorio. Por lo tanto, la generación de números aleatorios es un desafío importante en la seguridad de las transacciones de Bitcoin.
 
@@ -473,7 +473,7 @@ En el caso de Bitcoin, las claves privadas se generan a partir de una única pie
 
 La seguridad de una billetera de Bitcoin es una preocupación importante para todos sus usuarios. Una forma esencial de asegurar la copia de seguridad de la billetera es generar una frase mnemotécnica basada en la entropía y la suma de verificación.
 
-![imagen](assets/image/section3/5.JPG)
+![imagen](assets/image/section3/5.webp)
 
 Para convertir la entropía en una frase mnemotécnica, simplemente calcula la suma de verificación de la entropía y concatena la entropía y la suma de verificación.
 
@@ -483,7 +483,7 @@ La frase mnemotécnica es el resultado de la entropía agregada a la suma de ver
 
 La suma de verificación garantiza la verificación de la precisión de la frase de recuperación. Sin esta suma de verificación, un error en la frase podría resultar en la creación de una billetera diferente y, por lo tanto, en la pérdida de fondos. La suma de verificación se obtiene pasando la entropía a través de la función SHA256 y recuperando los primeros 8 bits del hash.
 
-![imagen](assets/image/section3/6.JPG)
+![imagen](assets/image/section3/6.webp)
 
 Existen diferentes estándares para la frase mnemotécnica según el tamaño de la entropía. El estándar más utilizado para una frase de recuperación de 24 palabras es una entropía de 256 bits. El tamaño de la suma de verificación se determina dividiendo el tamaño de la entropía por 32.
 
@@ -491,7 +491,7 @@ Por ejemplo, una entropía de 256 bits genera una suma de verificación de 8 bit
 
 **Codificación de la frase mnemotécnica:**
 
-![imagen](assets/image/section3/7.JPG)
+![imagen](assets/image/section3/7.webp)
 
 Los últimos 8 bits corresponden a la suma de verificación.
 Cada segmento de 11 bits se convierte en decimal.
@@ -505,7 +505,7 @@ En conclusión, generar una frase mnemotécnica para asegurar una billetera de B
 
 La frase de paso es una contraseña adicional que se puede integrar en una billetera de Bitcoin para aumentar su seguridad. Su uso es opcional y está a discreción del usuario. Al agregar información arbitraria que, junto con la frase mnemotécnica, permite el cálculo de la semilla de la billetera, la frase de paso mejora su seguridad.
 
-![imagen](assets/image/section3/8.JPG)
+![imagen](assets/image/section3/8.webp)
 
 La frase de contraseña es una sal criptográfica opcional de un tamaño elegido por el usuario. Mejora la seguridad de una billetera HD al agregar información arbitraria que, combinada con la frase mnemotécnica, permitirá el cálculo de la semilla.
 Una vez establecida durante la creación de una billetera, es necesaria para la derivación de todas las claves de la billetera. La función pbkdf2 se utiliza para generar la semilla a partir de la frase de contraseña. Esta semilla permite la derivación de todos los pares de claves secundarias de la billetera. Si se cambia la frase de contraseña, la billetera de Bitcoin se vuelve completamente diferente.
@@ -514,7 +514,7 @@ La frase de contraseña es una herramienta esencial para mejorar la seguridad de
 
 Una frase de contraseña efectiva debe ser larga (de 20 a 40 caracteres) y diversa (utilizando letras mayúsculas, letras minúsculas, números y símbolos). No debe estar directamente relacionada con el usuario o su entorno. Es más seguro utilizar una secuencia aleatoria de caracteres en lugar de una palabra simple como frase de contraseña.
 
-![image](assets/image/section3/9.JPG)
+![image](assets/image/section3/9.webp)
 
 Una frase de contraseña es más segura que una contraseña simple. La frase de contraseña ideal es larga, variada y aleatoria. Puede mejorar la seguridad de una billetera o software en caliente. También se puede utilizar para crear copias de seguridad redundantes y seguras.
 
@@ -528,11 +528,11 @@ En nuestra próxima lección, examinaremos en detalle el funcionamiento de la se
 
 En esta parte del curso, exploraremos los pasos para derivar una Billetera Determinista Jerárquica (HD Wallet), que permite la creación y gestión jerárquica y determinista de claves privadas y públicas.
 
-![image](assets/image/section4/0.JPG)
+![image](assets/image/section4/0.webp)
 
 La base de la Billetera HD se basa en dos elementos esenciales: la frase mnemotécnica y la frase de contraseña (contraseña adicional opcional). Juntos, constituyen la semilla, una secuencia alfanumérica de 512 bits que sirve como base para derivar las claves de la billetera. A partir de esta semilla, es posible derivar todos los pares de claves secundarias de la billetera de Bitcoin. La semilla es la clave que otorga acceso a todos los bitcoins asociados con la billetera, ya sea que se use una frase de contraseña o no.
 
-![image](assets/image/section4/1.JPG)
+![image](assets/image/section4/1.webp)
 
 Para obtener la semilla, se utiliza la función pbkdf2 (Función de Derivación de Clave Basada en Contraseña 2) con la frase mnemotécnica y la frase de contraseña. La salida de pbkdf2 es una semilla de 512 bits.
 
@@ -540,7 +540,7 @@ A partir de la semilla, es posible determinar la clave privada maestra y el cód
 
 Inicialmente, la función SHA-512 no estaba implementada en el protocolo de Bitcoin, por lo que se utiliza HMAC SHA-512. El uso de HMAC SHA-512 con la frase "Bitcoin SEED" limita al usuario a generar una billetera específica para Bitcoin. El resultado de HMAC SHA-512 es un número de 512 bits, dividido en dos partes: los 256 bits más a la izquierda representan la clave privada maestra, mientras que los 256 bits más a la derecha representan el código de cadena maestro.
 
-![imagen](assets/image/section4/2.JPG)
+![imagen](assets/image/section4/2.webp)
 
 La clave privada maestra es la clave principal de todas las claves futuras en la billetera, mientras que el código de cadena maestro está involucrado en la derivación de las claves secundarias. Es importante tener en cuenta que es imposible derivar un par de claves secundarias sin conocer el código de cadena correspondiente del par principal.
 
@@ -553,11 +553,11 @@ En la próxima lección, exploraremos las claves extendidas en detalle, como xPu
 
 En esta parte de la lección, estudiaremos las claves extendidas (xPub, zPub, yPub) y sus prefijos, que desempeñan un papel importante en la derivación de claves secundarias en una Billetera Determinista Jerárquica (HD Wallet).
 
-![imagen](assets/image/section4/3.JPG)
+![imagen](assets/image/section4/3.webp)
 
 Las claves extendidas son distintas de las claves maestras. Una billetera HD genera una frase mnemotécnica y una semilla para obtener la clave maestra y el código de cadena maestro. Las claves extendidas se utilizan para derivar claves secundarias y requieren tanto la clave principal como el código de cadena correspondiente. Una clave extendida combina estas dos piezas de información para simplificar el proceso de derivación.
 
-![imagen](assets/image/section4/4.JPG)
+![imagen](assets/image/section4/4.webp)
 
 Las claves públicas extendidas solo pueden derivar claves públicas normales, mientras que las claves privadas extendidas pueden derivar tanto claves públicas como claves privadas secundarias, ya sea a través de una derivación normal o endurecida. La derivación endurecida es la derivación a partir de la clave privada principal, mientras que la derivación normal corresponde a la derivación a partir de la clave pública principal.
 
@@ -565,7 +565,7 @@ El uso de claves extendidas con el prefijo XPUB permite la derivación de nuevas
 
 Las claves extendidas se identifican mediante prefijos específicos (XPRV, XPUB, YPUB, ZPUB) que indican si es una clave privada o pública extendida, así como su propósito específico. Los metadatos asociados con una clave extendida incluyen la versión (prefijo), profundidad, huella digital de la clave principal, índice y carga útil (código de cadena y clave principal).
 
-![imagen](assets/image/section4/5.JPG)
+![imagen](assets/image/section4/5.webp)
 
 La versión corresponde al tipo de clave: xpub, xprv, ...
 
@@ -576,7 +576,7 @@ El índice es el número de la pareja que se utiliza para generar la clave exten
 La carga útil está compuesta por el código de cadena (32 bytes) y la clave principal (33 bytes).
 Las claves públicas comprimidas tienen un tamaño de 33 bytes, mientras que las claves públicas sin procesar tienen 512 bits. Las claves públicas comprimidas conservan la misma información que las claves sin procesar, pero con un tamaño reducido. Las claves extendidas tienen un tamaño de 82 bytes y su prefijo se representa en base 58 a través de una conversión a hexadecimal. El checksum se calcula utilizando la función hash HASH256.
 
-![imagen](assets/image/section4/6.JPG)
+![imagen](assets/image/section4/6.webp)
 
 Las derivaciones mejoradas comienzan desde índices que son potencias de 2 (2^31). Es interesante destacar que los prefijos más utilizados son xpub y zpub, que corresponden respectivamente a los estándares heredados y segwit v1 y segwit v0.
 
@@ -588,28 +588,28 @@ Como recordatorio, hemos discutido el cálculo de la semilla y la clave maestra,
 
 El código de cadena maestro juega un papel importante en la recuperación de la billetera a partir de la semilla. Cabe destacar que todas las claves derivadas de la misma semilla tendrán el mismo código de cadena maestro.
 
-![imagen](assets/image/section4/7.JPG)
+![imagen](assets/image/section4/7.webp)
 
 La organización jerárquica y la derivación de la billetera HD ofrecen una gestión más eficiente de las claves y las estructuras de la billetera. Las claves extendidas permiten la derivación de un par de claves secundarias a partir de un par de claves principales mediante cálculos matemáticos y algoritmos específicos.
 Existen diferentes tipos de pares de claves secundarias, incluyendo claves reforzadas y claves normales. La clave pública extendida solo permite la derivación de claves públicas secundarias normales, mientras que la clave privada extendida permite la derivación de todas las claves secundarias, tanto públicas como privadas, ya sea en modo normal o reforzado. Cada par de claves tiene un índice que les permite diferenciarse entre sí.
 
-![imagen](assets/image/section4/8.JPG)
+![imagen](assets/image/section4/8.webp)
 
 La derivación de claves secundarias utiliza la función HMAC-SHA512 utilizando la clave principal concatenada con el índice y el código de cadena asociado con el par de claves. Las claves secundarias normales tienen un índice que va desde 0 hasta 2 elevado a la potencia de 31 menos 1, mientras que las claves secundarias reforzadas tienen un índice que va desde 2 elevado a la potencia de 31 hasta 2 elevado a la potencia de 32 menos 1.
 
-![imagen](assets/image/section4/9.JPG)
+![imagen](assets/image/section4/9.webp)
 
-![imagen](assets/image/section4/10.JPG)
+![imagen](assets/image/section4/10.webp)
 
 Existen dos tipos de pares de claves secundarias: pares reforzados y pares normales. El proceso de derivación de claves secundarias utiliza claves públicas para generar condiciones de gasto, mientras que las claves privadas se utilizan para firmar. La clave pública extendida solo permite la derivación de claves públicas secundarias normales, mientras que la clave privada extendida permite la derivación de todas las claves secundarias, tanto públicas como privadas, en modo normal o reforzado.
 
-![imagen](assets/image/section4/11.JPG)
-![imagen](assets/image/section4/12.JPG)
+![imagen](assets/image/section4/11.webp)
+![imagen](assets/image/section4/12.webp)
 
 La derivación reforzada utiliza la clave privada principal, mientras que la derivación normal utiliza la clave pública principal. Se utiliza la función HMAC-SHA512 para la derivación reforzada, mientras que la derivación normal utiliza un resumen de 512 bits. La clave pública secundaria se obtiene multiplicando la clave privada secundaria por el generador de la curva elíptica.
 
-![image](assets/image/section4/13.JPG)
-![image](assets/image/section4/14.JPG)
+![image](assets/image/section4/13.webp)
+![image](assets/image/section4/14.webp)
 
 La derivación jerárquica y la derivación de muchas parejas de claves de manera determinista permiten la creación de una estructura de árbol para la derivación jerárquica. En la próxima lección de este entrenamiento, estudiaremos la estructura de la billetera HD, así como los caminos de derivación, con un enfoque particular en las notaciones de los caminos de derivación.
 
@@ -619,7 +619,7 @@ En este capítulo, estudiaremos la estructura del árbol de derivación en una B
 
 La billetera HD utiliza capas de profundidad para organizar las claves. Cada derivación de una pareja principal a una pareja secundaria corresponde a una capa de profundidad.
 
-![image](assets/image/section4/15.JPG)
+![image](assets/image/section4/15.webp)
 
 - La capa de profundidad 0 corresponde a la clave maestra y el código de cadena maestra.
 
@@ -633,7 +633,7 @@ La billetera HD utiliza capas de profundidad para organizar las claves. Cada der
 
 - La capa de profundidad 5 se utiliza para recibir direcciones en una billetera estándar. En la próxima sección, examinaremos la derivación de parejas de claves secundarias con más detalle.
 
-![image](assets/image/section4/16.JPG)
+![image](assets/image/section4/16.webp)
 
 Para cada capa de profundidad, utilizamos índices para diferenciar las parejas de claves secundarias.
 
@@ -650,11 +650,11 @@ En el próximo capítulo, estudiaremos las direcciones de recepción, sus ventaj
 
 En este capítulo, exploraremos las direcciones de recepción, las cuales desempeñan un papel crucial en el sistema Bitcoin. Permiten recibir fondos en una transacción y se generan a partir de pares de claves privadas y públicas. Aunque existe un tipo de script llamado Pay2PublicKey que permite bloquear bitcoins a una clave pública, los usuarios generalmente prefieren utilizar direcciones de recepción en lugar de este script.
 
-![image](assets/image/section5/0.JPG)
+![image](assets/image/section5/0.webp)
 
 Cuando un destinatario desea recibir bitcoins, proporciona una dirección de recepción al remitente en lugar de su clave pública. En realidad, una dirección es un hash de una clave pública, con un formato específico. La clave pública se deriva de la clave privada hija utilizando operaciones matemáticas como la suma de puntos y la duplicación en curvas elípticas.
 
-![image](assets/image/section5/1.JPG)
+![image](assets/image/section5/1.webp)
 
 Es importante tener en cuenta que no es posible revertir una dirección a la clave pública, ni de la clave pública a la clave privada. El uso de una dirección reduce el tamaño de la información de la clave pública, que inicialmente es de 512 bits.
 
@@ -672,7 +672,7 @@ En este capítulo, discutiremos la construcción de una dirección de recepción
 
 ### Paso 1: Compresión de la clave pública
 
-![image](assets/image/section5/14.png)
+![image](assets/image/section5/14.webp)
 
 Una dirección se deriva de una clave pública hija.
 
@@ -685,7 +685,7 @@ Utilizamos el prefijo 0x02 para un y par y 0x03 para un y impar. Esta es la form
 
 ### Paso 2: Hashing de la clave pública comprimida
 
-![image](assets/image/section5/3.JPG)
+![image](assets/image/section5/3.webp)
 
 El hashing de la clave pública comprimida se realiza utilizando la función SHA256. Luego se aplica la función RIPEMD160 al resumen.
 
@@ -695,7 +695,7 @@ El resumen binario de RIPEMD160(SHA256(K)) se utiliza para formar grupos de 5 bi
 
 ### Paso 4: Agregar metadatos para el cálculo del checksum con el programa BCH
 
-![imagen](assets/image/section5/5.JPG)
+![imagen](assets/image/section5/5.webp)
 
 En el caso de las direcciones heredadas, utilizamos el hash doble SHA256 para generar el checksum de la dirección. Sin embargo, para las direcciones Segwit V0 y V1, confiamos en la tecnología de checksum BCH para garantizar la detección de errores. El programa BCH es capaz de sugerir y corregir errores con una probabilidad extremadamente baja de error. Actualmente, el programa BCH se utiliza para detectar y sugerir modificaciones que deben realizarse, pero no las realiza automáticamente en nombre del usuario.
 El programa BCH requiere varias informaciones de entrada, incluyendo el HRP (Parte Legible por Humanos) que necesita ser extendido. La extensión del HRP implica codificar cada letra en base 2 según su código ASCII. Luego, tomando los primeros 3 bits del resultado para cada letra y convirtiéndolos a base 10 (en azul en la imagen). Insertar un separador 0. Luego concatenar los siguientes 5 bits de cada letra previamente convertida a base 10 (en amarillo en la imagen).
@@ -706,7 +706,7 @@ La versión Segwit V0 está representada por el código 00 y el "payload" está 
 
 ### Paso 5: Cálculo del checksum con el programa BCH
 
-![imagen](assets/image/section5/6.JPG)
+![imagen](assets/image/section5/6.webp)
 
 La entrada que contiene los metadatos se envía al programa BCH para obtener el checksum en base 10.
 
@@ -714,13 +714,13 @@ Aquí tenemos el checksum.
 
 ### Paso 6: Construcción de la dirección y conversión a Bech32
 
-![imagen](assets/image/section5/7.JPG)
+![imagen](assets/image/section5/7.webp)
 
 La concatenación de la versión, el payload y el checksum permite construir la dirección. Los caracteres en base 10 se convierten luego en caracteres Bech32 utilizando una tabla de correspondencia. El alfabeto Bech32 incluye todos los caracteres alfanuméricos, excepto 1, b, i y o, para evitar cualquier confusión.
 
 ### Paso 7: Agregar el HRP y el separador
 
-![imagen](assets/image/section5/8.JPG)
+![imagen](assets/image/section5/8.webp)
 
 En rosa, el checksum.
 En negro, el payload = el hash de la clave pública.

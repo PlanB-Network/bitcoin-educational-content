@@ -27,11 +27,11 @@ Dans ce nouveau programme, vous apprendrez les bases de la programmation RGB ain
 
 Semaine 1 - LN 304
 
-![image](assets/image/1.jpg)
+![image](assets/image/1.webp)
 
 Semaine 2 - Formation actuelle
 
-![image](assets/image/2.jpg)
+![image](assets/image/2.webp)
 
 Un grand merci à la personne qui a organisé ces cours en direct et aux 3 enseignants qui y ont participé :
 

@@ -55,12 +55,12 @@ Describing the profile of cryptographic hash functions requires understanding tw
 Irreversibility, or resistance to preimage, means that calculating the output given the input can be done easily, but calculating the input from the output is impossible.
 It is a one-way function.
 
-![image](assets/image/section1/0.JPG)
+![image](assets/image/section1/0.webp)
 
 Resistance to forgery comes from the fact that even the slightest modification of the input will result in a profoundly different output.
 These functions allow for verifying the integrity of downloaded software.
 
-![image](assets/image/section1/1.JPG)
+![image](assets/image/section1/1.webp)
 
 Another crucial characteristic they possess is their resistance to collisions and second preimage. A collision occurs when two distinct inputs produce the same output.
 Certainly, in the hashing universe, collisions are inevitable, but an excellent cryptographic hash function minimizes them significantly. The risk must be so low that it can be considered negligible. It's as if each hash were a house in a vast city; despite the enormous number of houses, a good hash function ensures that each house has a unique address.
@@ -83,7 +83,7 @@ The use of HASH160 is particularly advantageous as it allows for the security of
 
 In summary, the ultimate goal of a cryptographic hash function is to transform arbitrary-sized information into a fixed-size fingerprint. To be recognized as secure, it must have several strengths: irreversibility, resistance to tampering, resistance to collisions, and resistance to second preimages.
 
-![image](assets/image/section1/2.JPG)
+![image](assets/image/section1/2.webp)
 
 At the end of this exploration, we have demystified cryptographic hash functions, highlighted their uses in the Bitcoin protocol, and dissected their specific objectives. We have learned that for hash functions to be considered secure, they must be resistant to preimages, second preimages, collisions, and tampering. We have also covered the range of different hash functions used in the Bitcoin protocol. In our next session, we will delve into the core of the SHA256 hash function and discover the fascinating mathematics that give it its unique characteristics.
 
@@ -107,7 +107,7 @@ Let 1 be a bit reserved for the separator.
 Let P be the number of bits used for padding, and 64 be the number of bits set aside for the second pre-processing phase.
 The total should be a multiple of 512 bits, which is represented by n.
 
-![image](assets/image/section1/3.JPG)
+![image](assets/image/section1/3.webp)
 
 Example with an input message of 950 bits:
 
@@ -148,7 +148,7 @@ We use our 64 reserved bits from the previous step. We add zeros to round our 64
 
 Here is the result:
 
-![image](assets/image/section1/4.JPG)
+![image](assets/image/section1/4.webp)
 
 ### Processing
 
@@ -162,7 +162,7 @@ The initialization vectors, from A to H, are the first 32 bits of the decimal pa
 
 The constants K, from 0 to 63, represent the first 32 bits of the decimal parts of the cubic roots of the first 64 prime numbers. They are used in each round of the compression function. Their values are also in hexadecimal format.
 
-![image](assets/image/section1/5.JPG)
+![image](assets/image/section1/5.webp)
 
 ##### Used Operations
 
@@ -170,11 +170,11 @@ Within the compression function, we use specific operators such as XOR, AND, and
 
 The truth table:
 
-![image](assets/image/section1/6.JPG)
+![image](assets/image/section1/6.webp)
 
 Bit shift operations:
 
-![image](assets/image/section1/7.JPG)
+![image](assets/image/section1/7.webp)
 
 #### The Compression Function
 
@@ -190,15 +190,15 @@ Then, we repeat all these steps of the compression function on the next 512-bit 
 
 All additions in the compression function are modulo 2^32 additions to always keep a 32-bit sum.
 
-![image](assets/image/section1/9.JPG)
+![image](assets/image/section1/9.webp)
 
-![image](assets/image/section1/8.JPG)
+![image](assets/image/section1/8.webp)
 
 ##### One Round of the Compression Function
 
-![image](assets/image/section1/11.JPG)
+![image](assets/image/section1/11.webp)
 
-![image](assets/image/section1/10.JPG)
+![image](assets/image/section1/10.webp)
 
 The compression function will be performed 64 times. We have our pieces W and our previously defined constants K as input.
 The red squares/crosses correspond to a modulo 2^32-bit addition.
@@ -211,18 +211,18 @@ As a reminder, the initialization vectors represent the first 32 bits of the dec
 
 Here is an example of a round:
 
-![image](assets/image/section1/12.1.png)
+![image](assets/image/section1/12.1.webp)
 
 ##### Intermediate State
 
 As a reminder, the message is divided into blocks of 512 bits, which are then divided into 32-bit pieces. For each 512-bit block, we apply the 64 rounds of the compression function.
 The intermediate state corresponds to the end of the 64 rounds of a block. The values of the output sequence from this 64th round are used as initial values for the input sequence of the first round of the next block.
 
-![image](assets/image/section1/12.2.png)
+![image](assets/image/section1/12.2.webp)
 
 #### Overview of the hash function
 
-![image](assets/image/section1/13.JPG)
+![image](assets/image/section1/13.webp)
 
 We can notice that the output of the first 512-bit message piece corresponds to our initialization vectors as input for the second 512-bit message piece, and so on.
 
@@ -250,20 +250,20 @@ Let's note:
 - B: The size of the blocks of the hash function used.
 
 
-![image](assets/image/section1/14.JPG)
+![image](assets/image/section1/14.webp)
 
 HMAC-SHA512, which takes a message and a key as inputs, generates a fixed-size output. To ensure uniformity, the key is adjusted based on the size of the blocks used in the hash function. In the context of HD wallet derivation, HMAC-SHA-512 is used. It operates with 1024-bit (128-byte) blocks and adjusts the key accordingly. It uses the constants OPAD (0x5c) and IPAD (0x36), repeated as necessary to enhance security.
 
 The HMAC-SHA-512 process involves concatenating the result of SHA-512 applied to the key XOR OPAD and the key XOR IPAD with the message. When used with 1024-bit (128-byte) blocks, the input key is padded with zeros if necessary, then XORed with IPAD and OPAD. The modified key is then concatenated with the message.
 
-![image](assets/image/section1/15.JPG)
+![image](assets/image/section1/15.webp)
 
 The inclusion of a salt in the string code increases the security of derived keys. Without it, an attack could compromise the entire wallet and steal all bitcoins.
 
 PBKDF2 is used to convert a mnemonic phrase into a seed. This algorithm performs 2048 rounds using HMAC SHA512. Through these derivation algorithms, different inputs can produce a unique and fixed output, which mitigates the issue of possible length extension attacks on SHA-2 family functions.
 A length extension attack exploits a specific property of certain cryptographic hash functions. In such an attack, an attacker who already possesses the hash of an unknown message can use it to calculate the hash of a longer message, which is an extension of the original message. This is often possible without knowing the content of the original message, which can lead to significant security vulnerabilities if this type of hash function is used for tasks such as integrity verification.
 
-![image](assets/image/section1/16.JPG)
+![image](assets/image/section1/16.webp)
 
 In conclusion, HMAC and PBKDF2 algorithms play essential roles in the security of HD wallet derivation in the Bitcoin protocol. HMAC-SHA-512 is used to protect against length extension attacks, while PBKDF2 allows the conversion of the mnemonic phrase into a seed. The string code adds an additional source of entropy in key derivation, ensuring the robustness of the system.
 
@@ -279,7 +279,7 @@ This is where the digital signature comes in. It serves as mathematical proof of
 
 The signature can be mathematically verified by other participants in the Bitcoin network.
 
-![image](assets/image/section2/0.JPG)
+![image](assets/image/section2/0.webp)
 
 To ensure the security of transactions, Bitcoin relies on two digital signature protocols: ECDSA (Elliptic Curve Digital Signature Algorithm) and Schnorr. ECDSA has been a signature protocol integrated into Bitcoin since its launch in 2009, while Schnorr signatures were added more recently in November 2021. Although both protocols are based on elliptic curve cryptography and use similar mathematical mechanisms, they mainly differ in terms of signature structure.
 
@@ -300,13 +300,13 @@ The Bitcoin protocol uses a specific elliptic curve called Secp256k1 for its cry
 
 Before delving deeper into these signature mechanisms, it is important to understand what an elliptic curve is. An elliptic curve is defined by the equation y² = x³ + ax + b. Every point on this curve has a distinctive symmetry that is key to its usefulness in cryptography.
 
-![image](assets/image/section2/1.JPG)
+![image](assets/image/section2/1.webp)
 
 Ultimately, various elliptic curves are recognized as secure for cryptographic use. The most well-known may be the secp256r1 curve. However, for Bitcoin, Satoshi Nakamoto opted for a different curve: secp256k1.
 
 This curve is defined by the parameters a=0 and b=7, and its equation is y² = x³ + 7 modulo n, where n represents the prime number that determines the curve's order.
 
-![image](assets/image/section2/2.JPG)
+![image](assets/image/section2/2.webp)
 
 The first image represents the secp256k1 curve over the real field and its equation.
 The second image is a representation of the secp256k1 curve over the field ZP, the field of positive natural numbers, modulo p where p is a prime number. It looks like a cloud of points. We use this field of positive natural numbers to avoid approximations.
@@ -323,7 +323,7 @@ To begin, let's delve into the world of the Elliptic Curve Digital Signature Alg
 
 To be compatible with Bitcoin, a private key must be between 1 and n-1, where n represents the order of the elliptic curve. This means that the total number of possibilities for a Bitcoin private key is almost equal to 1.158 x 10^77. To put this into perspective, it's roughly the same number of atoms present in the observable universe.
 
-![image](assets/image/section2/3.JPG)
+![image](assets/image/section2/3.webp)
 
 The unique private key, denoted as k, is then used to determine a public key.
 
@@ -331,7 +331,7 @@ The public key, denoted as K, is a point on the elliptic curve that is derived f
 
 The public key is 512 bits long as it corresponds to a point on the curve with an x-coordinate of 256 bits and a y-coordinate of 256 bits. However, it can be compressed into a 264-bit number.
 
-![image](assets/image/section2/4.JPG)
+![image](assets/image/section2/4.webp)
 
 The generator point (G) is the point on the curve from which all public keys are generated in the Bitcoin protocol. It has specific x and y coordinates, usually represented in hexadecimal. For secp256k1, the coordinates of G are, in hexadecimal:
 
@@ -349,7 +349,7 @@ One of the remarkable properties of elliptic curves is that a non-vertical line 
 
 M + L = U
 
-![image](assets/image/section2/5.JPG)
+![image](assets/image/section2/5.webp)
 
 ##### Adding a point to itself = Point doubling
 
@@ -358,7 +358,7 @@ G + G = J
 
 In fact, point G is the starting point for calculating all public keys of Bitcoin system users.
 
-![image](assets/image/section2/6.JPG)
+![image](assets/image/section2/6.webp)
 
 #### Scalar multiplication on elliptic curves
 
@@ -368,11 +368,11 @@ Similar to point doubling, scalar multiplication of point G by a point n is done
 
 If n = 4, then the operation is repeated until reaching 4G.
 
-![image](assets/image/section2/7.JPG)
+![image](assets/image/section2/7.webp)
 
 Here is an example calculation for 3G:
 
-![image](assets/image/section2/8.JPG)
+![image](assets/image/section2/8.webp)
 
 These operations on points of an elliptic curve are the basis for calculating public keys. Deriving a public key knowing the private key is very easy.
 A public key is a point on the elliptic curve, it is the result of our addition and doubling of point G k times. With k = private key.
@@ -382,7 +382,7 @@ In this example:
 - The private key k = 4
 - The public key K = kG = 4G
 
-![image](assets/image/section2/9.JPG)
+![image](assets/image/section2/9.webp)
 
 Knowing the private key k, it is easy to calculate the public key K. However, it is impossible to retrieve the private key based on the public key. Is this the result of an addition or a doubling of points?
 
@@ -393,7 +393,7 @@ In our next lesson, we will explore how a digital signature is created using the
 The process of digital signature is a key method to prove that you are the holder of a private key without revealing it. This is achieved using the ECDSA algorithm, which involves determining a unique nonce, calculating a specific number V, and creating a digital signature composed of two parts, S1 and S2.
 It is crucial to always use a unique nonce to avoid security attacks. A notorious example of what can happen when this rule is not followed is the hacking of the PlayStation 3, which was compromised due to nonce reuse.
 
-![](assets/image/section2/10.JPG)
+![](assets/image/section2/10.webp)
 
 Steps:
 
@@ -418,7 +418,7 @@ For example, to obtain the public key 3G, you draw a tangent to point G, calcula
 
 To create a digital signature and prove that you know the private key associated with the public key 3G, you first calculate a nonce, then the point V associated with this nonce (in the given example, it is 4G). Then, you calculate the point T by adding the public key 3G and the point V, which gives 7G.
 
-![image](assets/image/section2/11.JPG)
+![image](assets/image/section2/11.webp)
 
 Let's simplify the process of digital signature.
 In the previous image, the private key k = 3.
@@ -452,7 +452,7 @@ Here are the steps that the verifier will follow to validate the signature:
 5. Finally, the verifier will confirm that I' is equal to t. If this is the case, the signature is considered valid. If not, the signature is invalid.
 This procedure ensures that only the sender possessing the corresponding private key could have produced a signature that passes this verification process.
 
-![image](assets/image/section2/12.JPG)
+![image](assets/image/section2/12.webp)
 
 In simpler terms:
 The person producing the signature will provide the number t (in our example, t = 7) and the point V to the person verifying it.
@@ -496,7 +496,7 @@ The importance of private key security in the Bitcoin ecosystem is undeniable. T
 
 Entropy refers to the "disorder" state of a system. From an external entropy, that is, an external source of information, it is possible to use a random number generator to obtain a random number.
 
-![image](assets/image/section3/2.JPG)
+![image](assets/image/section3/2.webp)
 
 Let's take a look at how a Pseudo-Random Number Generator (PRNG) works.
 
@@ -516,7 +516,7 @@ An example of a transformation function is the PBKDF2 function.
 - be resistant even if the results are revealed
 - have a sufficiently long period
 
-![image](assets/image/section3/3.JPG)
+![image](assets/image/section3/3.webp)
 
 In the case of Bitcoin, private keys are generated from a single piece of information at the base of the wallet. This information allows for deterministic and hierarchical derivation of child key pairs. Entropy is the foundation of every HD wallet, although there is no standard for generating this random number. Therefore, random number generation is a major challenge in securing Bitcoin transactions.
 
@@ -524,7 +524,7 @@ In the case of Bitcoin, private keys are generated from a single piece of inform
 
 The security of a Bitcoin wallet is a major concern for all its users. One essential way to ensure the backup of the wallet is to generate a mnemonic phrase based on entropy and checksum.
 
-![image](assets/image/section3/5.JPG)
+![image](assets/image/section3/5.webp)
 
 To convert entropy into a mnemonic phrase, simply calculate the checksum of the entropy and concatenate the entropy and checksum.
 
@@ -534,7 +534,7 @@ The mnemonic phrase is the result of the entropy added to the checksum.
 
 The checksum ensures the verification of the accuracy of the recovery phrase. Without this checksum, an error in the phrase could result in the creation of a different wallet and therefore the loss of funds. The checksum is obtained by passing the entropy through the SHA256 function and retrieving the first 8 bits of the hash.
 
-![image](assets/image/section3/6.JPG)
+![image](assets/image/section3/6.webp)
 
 Different standards exist for the mnemonic phrase depending on the size of the entropy. The most commonly used standard for a 24-word recovery phrase is an entropy of 256 bits. The size of the checksum is determined by dividing the size of the entropy by 32.
 
@@ -542,7 +542,7 @@ For example, an entropy of 256 bits generates an 8-bit checksum. The concatenati
 
 **Encoding of the mnemonic phrase:**
 
-![image](assets/image/section3/7.JPG)
+![image](assets/image/section3/7.webp)
 
 The last 8 bits correspond to the checksum.
 Each 11-bit segment is converted into decimal.
@@ -556,7 +556,7 @@ In conclusion, generating a mnemonic phrase to secure a Bitcoin wallet is a cruc
 
 The passphrase is an additional password that can be integrated into a Bitcoin wallet to increase its security. Its use is optional and is at the discretion of the user. By adding arbitrary information that, together with the mnemonic phrase, allows the calculation of the wallet's seed, the passphrase enhances its security.
 
-![image](assets/image/section3/8.JPG)
+![image](assets/image/section3/8.webp)
 
 The passphrase is an optional cryptographic salt of a size chosen by the user. It improves the security of an HD wallet by adding arbitrary information that, when combined with the mnemonic phrase, will allow the calculation of the seed.
 
@@ -566,7 +566,7 @@ The passphrase is an essential tool for enhancing the security of Bitcoin wallet
 
 An effective passphrase should be long (20 to 40 characters) and diverse (using uppercase letters, lowercase letters, numbers, and symbols). It should not be directly related to the user or their environment. It is safer to use a random sequence of characters rather than a simple word as a passphrase.
 
-![image](assets/image/section3/9.JPG)
+![image](assets/image/section3/9.webp)
 
 A passphrase is more secure than a simple password. The ideal passphrase is long, varied, and random. It can enhance the security of a wallet or hot software. It can also be used to create redundant and secure backups.
 
@@ -580,11 +580,11 @@ In our next lesson, we will examine in detail the functioning of the seed and th
 
 In this part of the course, we will explore the steps for deriving a Hierarchical Deterministic Wallet (HD Wallet), which allows for the hierarchical and deterministic creation and management of private and public keys.
 
-![image](assets/image/section4/0.JPG)
+![image](assets/image/section4/0.webp)
 
 The foundation of the HD Wallet relies on two essential elements: the mnemonic phrase and the passphrase (optional additional password). Together, they constitute the seed, an alphanumeric sequence of 512 bits that serves as the basis for deriving the wallet's keys. From this seed, it is possible to derive all the child key pairs of the Bitcoin wallet. The seed is the key that grants access to all the bitcoins associated with the wallet, whether you use a passphrase or not.
 
-![image](assets/image/section4/1.JPG)
+![image](assets/image/section4/1.webp)
 
 To obtain the seed, the pbkdf2 function (Password-Based Key Derivation Function 2) is used with the mnemonic phrase and the passphrase. The output of pbkdf2 is a 512-bit seed.
 
@@ -592,7 +592,7 @@ From the seed, it is possible to determine the master private key and the chain 
 
 Initially, the SHA-512 function was not implemented in the Bitcoin protocol, which is why HMAC SHA-512 is used. The use of HMAC SHA-512 with the phrase "Bitcoin SEED" constrains the user to generate a wallet specific to Bitcoin. The result of HMAC SHA-512 is a 512-bit number, divided into two parts: the leftmost 256 bits represent the master private key, while the rightmost 256 bits represent the master chain code.
 
-![image](assets/image/section4/2.JPG)
+![image](assets/image/section4/2.webp)
 
 The master private key is the parent key of all future keys in the wallet, while the master chain code is involved in the derivation of child keys. It is important to note that it is impossible to derive a child key pair without knowing the corresponding chain code of the parent pair.
 
@@ -605,11 +605,11 @@ In the next lesson, we will explore extended keys in detail, such as xPub, xPRV,
 
 In this part of the lesson, we will study extended keys (xPub, zPub, yPub) and their prefixes, which play an important role in deriving child keys in a Hierarchical Deterministic Wallet (HD Wallet).
 
-![image](assets/image/section4/3.JPG)
+![image](assets/image/section4/3.webp)
 
 Extended keys are distinct from master keys. An HD wallet generates a mnemonic phrase and a seed to obtain the master key and master chain code. Extended keys are used to derive child keys and require both the parent key and the corresponding chain code. An extended key combines these two pieces of information to simplify the derivation process.
 
-![image](assets/image/section4/4.JPG)
+![image](assets/image/section4/4.webp)
 
 Extended public keys can only derive normal child public keys, while extended private keys can derive both child public and private keys, whether through normal or hardened derivation. Hardened derivation is derivation from the parent private key, while normal derivation corresponds to derivation from the parent public key.
 
@@ -617,7 +617,7 @@ Using extended keys with the XPUB prefix allows for the derivation of new addres
 
 Extended keys are identified by specific prefixes (XPRV, XPUB, YPUB, ZPUB) that indicate whether it is an extended private or public key, as well as its specific purpose. The metadata associated with an extended key includes the version (prefix), depth, parent key fingerprint, index, and payload (chain code and parent key).
 
-![image](assets/image/section4/5.JPG)
+![image](assets/image/section4/5.webp)
 
 The version corresponds to the type of key: xpub, xprv, ...
 
@@ -630,7 +630,7 @@ The payload is composed of the chain code (32 bytes) and the parent key (33 byte
 
 Compressed public keys have a size of 33 bytes, while raw public keys are 512 bits. Compressed public keys retain the same information as raw keys, but with a reduced size. Extended keys have a size of 82 bytes and their prefix is represented in base 58 through a conversion to hexadecimal. The checksum is calculated using the HASH256 hash function.
 
-![image](assets/image/section4/6.JPG)
+![image](assets/image/section4/6.webp)
 
 Enhanced derivations start from indexes that are powers of 2 (2^31). It is interesting to note that the most commonly used prefixes are xpub and zpub, which correspond respectively to legacy standards and segwit v1 and segwit v0.
 
@@ -642,28 +642,28 @@ As a reminder, we have discussed the calculation of the seed and the master key,
 
 The master chain code plays an important role in wallet recovery from the seed. It should be noted that all keys derived from the same seed will have the same master chain code.
 
-![image](assets/image/section4/7.JPG)
+![image](assets/image/section4/7.webp)
 
 The hierarchical organization and derivation of the HD wallet offer more efficient management of keys and wallet structures. Extended keys allow the derivation of a child key pair from a parent key pair using mathematical calculations and specific algorithms.
 There are different types of child key pairs, including reinforced keys and normal keys. The extended public key only allows the derivation of normal child public keys, while the extended private key allows the derivation of all child keys, both public and private, whether they are in normal or reinforced mode. Each key pair has an index that allows them to be differentiated from each other.
 
-![image](assets/image/section4/8.JPG)
+![image](assets/image/section4/8.webp)
 
 The derivation of child keys uses the HMAC-SHA512 function using the parent key concatenated with the index and the chain code associated with the key pair. Normal child keys have an index ranging from 0 to 2 to the power of 31 minus 1, while reinforced child keys have an index ranging from 2 to the power of 31 to 2 to the power of 32 minus 1.
 
-![image](assets/image/section4/9.JPG)
+![image](assets/image/section4/9.webp)
 
-![image](assets/image/section4/10.JPG)
+![image](assets/image/section4/10.webp)
 
 There are two types of child key pairs: reinforced pairs and normal pairs. The process of deriving child keys uses public keys to generate spending conditions, while private keys are used for signing. The extended public key only allows the derivation of normal child public keys, while the extended private key allows the derivation of all child keys, both public and private, in normal or reinforced mode.
 
-![image](assets/image/section4/11.JPG)
-![image](assets/image/section4/12.JPG)
+![image](assets/image/section4/11.webp)
+![image](assets/image/section4/12.webp)
 
 Reinforced derivation uses the parent private key, while normal derivation uses the parent public key. The HMAC-SHA512 function is used for reinforced derivation, while normal derivation uses a 512-bit digest. The child public key is obtained by multiplying the child private key by the elliptic curve generator.
 
-![image](assets/image/section4/13.JPG)
-![image](assets/image/section4/14.JPG)
+![image](assets/image/section4/13.webp)
+![image](assets/image/section4/14.webp)
 
 Hierarchically deriving and deriving many key pairs deterministically allows for the creation of a tree structure for hierarchical derivation. In the next lesson of this training, we will study the structure of the HD wallet as well as derivation paths, with a particular focus on derivation path notations.
 
@@ -673,7 +673,7 @@ In this chapter, we will study the structure of the derivation tree in a Hierarc
 
 The HD Wallet uses depth layers to organize keys. Each derivation from a parent pair to a child pair corresponds to a depth layer.
 
-![image](assets/image/section4/15.JPG)
+![image](assets/image/section4/15.webp)
 
 - Depth 0 corresponds to the master key and the master chain code.
 
@@ -687,7 +687,7 @@ The HD Wallet uses depth layers to organize keys. Each derivation from a parent 
 
 - Depth 5 is used for receiving addresses in a standard wallet. In the next section, we will examine the derivation of child key pairs in more detail.
 
-![image](assets/image/section4/16.JPG)
+![image](assets/image/section4/16.webp)
 
 For each depth layer, we use indexes to differentiate child key pairs.
 
@@ -705,11 +705,11 @@ In the next chapter, we will study receiving addresses, their advantages of use,
 
 In this chapter, we will explore receiving addresses, which play a crucial role in the Bitcoin system. They allow funds to be received on a transaction and are generated from pairs of private and public keys. Although there is a script type called Pay2PublicKey that allows bitcoins to be locked to a public key, users generally prefer to use receiving addresses instead of this script.
 
-![image](assets/image/section5/0.JPG)
+![image](assets/image/section5/0.webp)
 
 When a recipient wants to receive bitcoins, they provide a receiving address to the sender instead of their public key. An address is actually a hash of a public key, with a specific format. The public key is derived from the child private key using mathematical operations such as point addition and doubling on elliptic curves.
 
-![image](assets/image/section5/1.JPG)
+![image](assets/image/section5/1.webp)
 
 It is important to note that it is not possible to reverse from an address to the public key, nor from the public key to the private key. Using an address reduces the size of the public key information, which initially is 512 bits.
 
@@ -727,7 +727,7 @@ In this chapter, we will discuss the construction of a receiving address for Bit
 
 ### Step 1: Compression of the public key
 
-![image](assets/image/section5/14.png)
+![image](assets/image/section5/14.webp)
 
 An address is derived from a child public key.
 
@@ -740,19 +740,19 @@ We use the prefix 0x02 for an even y and 0x03 for an odd y. This is the compress
 
 ### Step 2: Hashing of the compressed public key
 
-![image](assets/image/section5/3.JPG)
+![image](assets/image/section5/3.webp)
 
 The hashing of the compressed public key is performed using the SHA256 function. The RIPEMD160 function is then applied to the digest.
 
 ### Step 3: The payload = Address payload
 
-![image](assets/image/section5/4.JPG)
+![image](assets/image/section5/4.webp)
 
 The binary digest of RIPEMD160(SHA256(K)) is used to form groups of 5 bits. Each group is transformed into base16 (Hexadecimal) and/or base 10.
 
 ### Step 4: Adding metadata for checksum calculation with the BCH program
 
-![image](assets/image/section5/5.JPG)
+![image](assets/image/section5/5.webp)
 
 In the case of legacy addresses, we use double SHA256 hashing to generate the address checksum. However, for Segwit V0 and V1 addresses, we rely on the BCH checksum technology to ensure error detection. The BCH program is capable of suggesting and correcting errors with an extremely low probability of error. Currently, the BCH program is used to detect and suggest modifications to be made, but it does not automatically perform them on behalf of the user.
 
@@ -764,7 +764,7 @@ Segwit V0 version is represented by the code 00 and the "payload" is in black, i
 
 ### Step 5: Calculating the checksum with the BCH program
 
-![image](assets/image/section5/6.JPG)
+![image](assets/image/section5/6.webp)
 
 The input containing the metadata is then submitted to the BCH program to obtain the checksum in base 10.
 
@@ -772,13 +772,13 @@ Here we have the checksum.
 
 ### Step 6: Address construction and conversion to Bech32
 
-![image](assets/image/section5/7.JPG)
+![image](assets/image/section5/7.webp)
 
 The concatenation of the version, payload, and checksum allows building the address. The base 10 characters are then converted to Bech32 characters using a correspondence table. The Bech32 alphabet includes all alphanumeric characters, except for 1, b, i, and o, to avoid any confusion.
 
 ### Step 7: Adding the HRP and separator
 
-![image](assets/image/section5/8.JPG)
+![image](assets/image/section5/8.webp)
 
 In pink, the checksum.
 In black, the payload = the hash of the public key.

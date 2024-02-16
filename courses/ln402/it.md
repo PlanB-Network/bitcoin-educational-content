@@ -41,10 +41,10 @@ Un grande ringraziamento ai nostri insegnanti che hanno fatto parte di questo pr
 ### Programma del seminario
 
 Settimana 1 dell'evento LN Tuscany
-![image](assets/1.jpg)
+![image](assets/1.webp)
 
 Una volta completato questo corso, se sei interessato alla formazione successiva, ecco la seconda parte del programma:
-![image](assets/2.jpg)
+![image](assets/2.webp)
 
 Buona fortuna con i tuoi studi.
 

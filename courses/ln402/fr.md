@@ -41,10 +41,10 @@ Un grand merci à nos enseignants qui ont participé à ce programme :
 ### Programme du séminaire
 
 Semaine 1 de l'événement LN Tuscany
-![image](assets/1.jpg)
+![image](assets/1.webp)
 
 Une fois que vous aurez terminé ce cours, si vous êtes intéressé par la formation de suivi, voici la deuxième partie du programme :
-![image](assets/2.jpg)
+![image](assets/2.webp)
 
 Bonne chance dans vos études.
 

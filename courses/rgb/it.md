@@ -27,11 +27,11 @@ In questo nuovo programma, imparerete le basi della programmazione RGB insieme a
 
 Settimana 1 - LN 304
 
-![image](assets/image/1.jpg)
+![image](assets/image/1.webp)
 
 Settimana 2 - Formazione attuale
 
-![image](assets/image/2.jpg)
+![image](assets/image/2.webp)
 
 Un grande ringraziamento alla persona che ha organizzato questi corsi dal vivo e ai 3 insegnanti che hanno partecipato:
 

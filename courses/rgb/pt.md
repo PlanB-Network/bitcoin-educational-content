@@ -27,11 +27,11 @@ Neste novo programa, você aprenderá os conceitos básicos da programação RGB
 
 Semana 1 - LN 304
 
-![image](assets/image/1.jpg)
+![image](assets/image/1.webp)
 
 Semana 2 - Formação atual
 
-![image](assets/image/2.jpg)
+![image](assets/image/2.webp)
 
 Um grande agradecimento à pessoa que organizou estes cursos ao vivo e aos 3 professores que participaram:
 

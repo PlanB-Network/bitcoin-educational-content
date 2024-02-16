@@ -84,14 +84,14 @@ Bevor der Begriff "Bitcoin" mit digitaler Währung und finanzieller Transformati
 
 ### Die Cypherpunks: Visionäre der digitalen Welt
 
-![image](assets/de/chapter0/0.png)
+![image](assets/de/chapter0/0.webp)
 
 Im Herzen der technologischen Entwicklung der 1980er und 1990er Jahre begann eine Gruppe von Menschen, sich intensiv mit der Rolle von Privatsphäre und Freiheit im digitalen Zeitalter auseinanderzusetzen. Diese Personen, die später als "Cypherpunks" bekannt wurden, glaubten fest daran, dass Kryptographie als Werkzeug dienen könnte, um individuelle Rechte vor staatlicher Einmischung und großen Unternehmen zu schützen.
 Bedeutende Persönlichkeiten wie Julian Assange, Wei Dai, Tim May und David Chaum trugen dazu bei, die Philosophie und Vision der Cypherpunks zu definieren. Diese Denker teilten ihre Ideen in einer einflussreichen Mailingliste, in der Teilnehmer aus der ganzen Welt darüber debattierten, wie Technologie am besten genutzt werden kann, um größere individuelle Freiheit zu gewährleisten.
 
 ### Die Drei Grundlegenden Texte der Cypherpunks
 
-![image](assets/de/chapter0/2.png)
+![image](assets/de/chapter0/2.webp)
 
 Die Cypherpunk-Bewegung, mit ihren tiefen Wurzeln im digitalen Aktivismus und der Kryptographie, stützte sich auf mehrere grundlegende Texte, um ihre Prinzipien und ihre Vision für die Zukunft auszudrücken. Unter diesen Schriften ragen drei besonders heraus:
 
@@ -110,7 +110,7 @@ Vor dem Aufkommen von Bitcoin wurden mehrere Versuche unternommen, eine digitale
 
 Ein weiterer wichtiger Vorläufer ist "b-money" von Wei Dai. Obwohl es nie umgesetzt wurde, präsentierte es die Idee einer anonymen digitalen Währung, bei der die Betrugserkennung von einer Gemeinschaft von Bewertern und nicht von einer zentralen Behörde durchgeführt wurde.
 
-![image](assets/de/chapter0/1.png)
+![image](assets/de/chapter0/1.webp)
 
 In dieser fruchtbaren Umgebung veröffentlichte der mysteriöse Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. Er kombinierte mehrere Ideen aus der Cypherpunk-Bewegung, wie Proof-of-Work und kryptographische Zeitstempel, um eine dezentralisierte und zensurresistente digitale Währung zu schaffen.
 

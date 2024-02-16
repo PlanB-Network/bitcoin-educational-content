@@ -84,7 +84,7 @@ Antes de que el término "Bitcoin" se convirtiera en sinónimo de moneda digital
 
 ### Los Cypherpunks: Visionarios del Mundo Digital
 
-![image](assets/es/chapter0/0.png)
+![image](assets/es/chapter0/0.webp)
 
 En el corazón de la evolución tecnológica de las décadas de 1980 y 1990, un grupo de personas comenzó a cuestionarse profundamente el papel de la privacidad y la libertad en la era digital. Estos individuos, que más tarde serían conocidos como "cypherpunks", creían firmemente que la criptografía podría servir como una herramienta para proteger los derechos individuales contra la interferencia de los gobiernos y las grandes empresas.
 
@@ -92,7 +92,7 @@ Figuras emblemáticas como Julian Assange, Wei Dai, Tim May y David Chaum contri
 
 ### Los Tres Textos Fundamentales de los Cypherpunks
 
-![image](assets/es/chapter0/2.png)
+![image](assets/es/chapter0/2.webp)
 
 El movimiento cypherpunk, con sus raíces profundas en el activismo digital y la criptografía, se basó en varios textos fundamentales para expresar sus principios y su visión del futuro. Entre estos escritos, tres se destacan especialmente:
 
@@ -111,7 +111,7 @@ Antes de la aparición de Bitcoin, se hicieron varios intentos para crear una mo
 
 Otro precursor importante es "b-money" de Wei Dai. Aunque nunca se implementó, presentaba la idea de una moneda digital anónima donde la detección de fraudes era realizada por una comunidad de evaluadores en lugar de una autoridad central.
 
-![image](assets/es/chapter0/1.png)
+![image](assets/es/chapter0/1.webp)
 
 Fue en este entorno fértil que el misterioso Satoshi Nakamoto publicó el libro blanco de Bitcoin en 2008. Combinó varias ideas del movimiento cypherpunk, como las pruebas de trabajo y las marcas de tiempo criptográficas, para crear una moneda digital descentralizada y resistente a la censura.
 

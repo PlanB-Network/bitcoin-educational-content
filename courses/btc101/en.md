@@ -82,14 +82,14 @@ Before the term "Bitcoin" became synonymous with digital currency and financial 
 
 ### Cypherpunks: Visionaries of the Digital World
 
-![image](assets/en/chapter0/0.png)
+![image](assets/en/chapter0/0.webp)
 In the heart of the technological evolution of the 1980s and 1990s, a group of people began to deeply question the role of privacy and freedom in the digital age. These individuals, who would later become known as "cypherpunks," firmly believed that cryptography could serve as a tool to protect individual rights against interference from governments and large corporations.
 
 Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum contributed to defining the philosophy and vision of cypherpunks. These thinkers shared their ideas in an influential mailing list, where participants from around the world debated the best way to use technology to ensure greater individual freedom.
 
 ### The Three Pillar Texts of Cypherpunks
 
-![image](assets/en/chapter0/2.png)
+![image](assets/en/chapter0/2.webp)
 
 The cypherpunk movement, with its deep roots in digital activism and cryptography, relied on several fundamental texts to express its principles and vision of the future. Among these writings, three stand out in particular:
 
@@ -108,7 +108,7 @@ Before the emergence of Bitcoin, several attempts had been made to create a digi
 
 Another important precursor is Wei Dai's "b-money". Although it was never implemented, it presented the idea of an anonymous digital currency where fraud detection was performed by a community of evaluators rather than a central authority.
 
-![image](assets/en/chapter0/1.png)
+![image](assets/en/chapter0/1.webp)
 
 It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. He combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 

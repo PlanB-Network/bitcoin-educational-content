@@ -84,7 +84,7 @@ Prima che il termine "Bitcoin" diventasse sinonimo di moneta digitale e di trasf
 
 ### I Cypherpunk: Visionari del Mondo Digitale
 
-![image](assets/it/chapter0/0.png)
+![image](assets/it/chapter0/0.webp)
 
 Al cuore dell'evoluzione tecnologica degli anni '80 e '90, un gruppo di persone ha iniziato a interrogarsi profondamente sul ruolo della privacy e della libertà nell'era digitale. Queste persone, che sarebbero diventate in seguito conosciute come "cypherpunks", credevano fermamente che la crittografia potesse essere utilizzata come strumento per proteggere i diritti individuali dall'interferenza dei governi e delle grandi aziende.
 
@@ -92,7 +92,7 @@ Figure emblematiche come Julian Assange, Wei Dai, Tim May e David Chaum hanno co
 
 ### I Tre Testi Fondamentali dei Cypherpunks
 
-![image](assets/it/chapter0/2.png)
+![image](assets/it/chapter0/2.webp)
 
 Il movimento cypherpunk, con le sue radici profonde nell'attivismo digitale e nella crittografia, si è basato su diversi testi fondamentali per esprimere i suoi principi e la sua visione del futuro. Tra questi scritti, tre si distinguono in particolare:
 
@@ -111,7 +111,7 @@ Prima dell'apparizione di Bitcoin, sono stati fatti diversi tentativi per creare
 
 Un altro importante precursore è "b-money" di Wei Dai. Anche se non è mai stato implementato, presentava l'idea di una valuta digitale anonima in cui la rilevazione delle frodi era effettuata da una comunità di valutatori anziché da un'autorità centrale.
 
-![image](assets/it/chapter0/1.png)
+![image](assets/it/chapter0/1.webp)
 
 È in questo ambiente fertile che il misterioso Satoshi Nakamoto ha pubblicato il white paper di Bitcoin nel 2008. Ha combinato diverse idee provenienti dal movimento cypherpunk, come le prove di lavoro ed i timestamp crittografici, per creare una valuta digitale decentralizzata e resistente alla censura.
 

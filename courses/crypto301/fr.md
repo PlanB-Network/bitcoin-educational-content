@@ -253,7 +253,7 @@ HMAC et PBKDF2 sont des outils cryptographiques utilisés pour différentes tâc
 Le couple HMAC-SHA512  a pour caractéristique deux entrées : un message m (Entrée 1) et une clé K choisie arbitrairement par l'utilisateur (Entrée 2).
 Il a également une sortie de taille fixe : 512 bits
 
-```
+
 Notons : 
 - m : message de taille arbitraire choisi par l'utilisateur (entrée 1)
 - K : clé arbitraire choisie par l'utilisateur (entrée 2)
@@ -262,7 +262,7 @@ Notons :
 - opad : constante définie par l'octet 0x5c répété B fois.
 - ipad : constante définie par l'octet 0x36 répété B fois.
 - B : La taille des blocs de la fonction de hachage utilisée.
-```
+
 
 ![image](assets/image/section1/14.JPG)
 

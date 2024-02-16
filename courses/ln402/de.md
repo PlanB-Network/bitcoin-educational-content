@@ -1,6 +1,6 @@
 ---
 name: Entwicklung auf Lightning mit SDK
-goal: Die Lightning Network aus technischer Sicht kennenlernen
+goal: Erweitern Sie Ihre Lightning-Entwicklungsfähigkeiten mit einem fortgeschrittenen Training in Rust und SDK.
 objectives:
   - Sich mit der Programmiersprache Rust vertraut machen
   - Verstehen, warum Rust für die Entwicklung von Bitcoin verwendet wird
@@ -13,7 +13,7 @@ Willkommen zu Ihrer LN-Reise mit dem SDK.
 
 In diesem Kurs lernen Sie die Grundlagen des Rust-Buchs und setzen dann Ihre LN-Programmierung mit SDKs fort, um schließlich einige praktische Übungen durchzuführen. Unsere Lehrer aus verschiedenen Hintergründen werden Sie bei praktischen Fähigkeiten unterstützen und die verschiedenen Herausforderungen erklären, mit denen LN-Ingenieure heute oft konfrontiert sind.
 
-Dieser Kurs wurde während eines LIVE-Seminars aufgenommen, das von Fulgure Venture während der LN Tuscany-Veranstaltung im Oktober 2023 organisiert wurde.
+Dieser Kurs wurde während eines LIVE-Seminars aufgenommen, das von Fulgur'Ventures während der LN Tuscany-Veranstaltung im Oktober 2023 organisiert wurde.
 
 Viel Spaß beim Kurs!
 

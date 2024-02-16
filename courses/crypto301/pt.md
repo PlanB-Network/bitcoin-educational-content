@@ -22,15 +22,13 @@ Este treinamento não apenas fornecerá o conhecimento necessário para compreen
 
 ### Este treinamento é para você? SIM!
 
-![introdução por Rogzy](https://youtu.be/ul8zU5QWIXg)
-
 É um prazer recebê-lo no novo curso de treinamento intitulado "Crypto 301: Introdução à Criptografia e Carteira HD", ministrado pelo especialista no assunto, Loïc Morel. Este curso irá mergulhá-lo no fascinante mundo da criptografia, a disciplina fundamental da matemática que garante a criptografia e segurança de seus dados.
 
 Em nossas vidas diárias, e especialmente no mundo do Bitcoin, a criptografia desempenha um papel crucial. Conceitos relacionados à criptografia, como chaves privadas, chaves públicas, endereços, caminhos de derivação, semente e entropia, estão no cerne do uso e criação de uma carteira de Bitcoin. Ao longo deste curso, Loïc explicará em detalhes como as chaves privadas são geradas e como estão vinculadas aos endereços. Loïc também dedicará uma hora para explicar os detalhes matemáticos das curvas elípticas. Além disso, você entenderá por que o uso do HMAC SHA512 é importante para a segurança de sua carteira e qual a diferença entre uma semente e uma frase mnemônica.
-O objetivo final deste treinamento é capacitar você a compreender os processos técnicos envolvidos na criação de uma carteira HD e os métodos criptográficos utilizados. Ao longo dos anos, as carteiras de Bitcoin evoluíram para se tornarem mais fáceis de usar, mais seguras e padronizadas graças a BIPs específicos. Loïc ajudará você a entender esses BIPs para compreender as escolhas feitas pelos desenvolvedores de Bitcoin e criptógrafos. Assim como todos os treinamentos oferecidos por nossa universidade, este é completamente gratuito e de código aberto. Isso significa que você é livre para fazê-lo e usá-lo como desejar. Esperamos receber seus comentários ao final deste emocionante curso.
-### A palavra é sua, professor!
 
-![introdução por loïc](https://youtu.be/mwuxXLk4Kws)
+O objetivo final deste treinamento é capacitar você a compreender os processos técnicos envolvidos na criação de uma carteira HD e os métodos criptográficos utilizados. Ao longo dos anos, as carteiras de Bitcoin evoluíram para se tornarem mais fáceis de usar, mais seguras e padronizadas graças a BIPs específicos. Loïc ajudará você a entender esses BIPs para compreender as escolhas feitas pelos desenvolvedores de Bitcoin e criptógrafos. Assim como todos os treinamentos oferecidos por nossa universidade, este é completamente gratuito e de código aberto. Isso significa que você é livre para fazê-lo e usá-lo como desejar. Esperamos receber seus comentários ao final deste emocionante curso.
+
+### A palavra é sua, professor!
 
 Olá a todos, sou Loïc Morel, seu guia nesta exploração técnica da criptografia usada em carteiras de Bitcoin.
 
@@ -48,7 +46,7 @@ Junte-se a mim nesta jornada cativante e prepare-se para explorar o mundo da cri
 # Funções de Hash
 
 ## Introdução às funções de hash criptográficas relacionadas ao Bitcoin
-![2.1 - Funções de Hash Criptográficas](https://youtu.be/dvnGArYvVr8)
+
 Bem-vindo à sessão de hoje dedicada a uma imersão profunda no mundo criptográfico das funções de hash, um pilar crucial da segurança do protocolo Bitcoin. Imagine uma função de hash como um robô decifrador criptográfico ultraeficiente que transforma informações de qualquer tamanho em uma impressão digital digital única e de tamanho fixo, chamada de "hash", "digest" ou "checksum".
 Em resumo, uma função de hash recebe uma mensagem de entrada de tamanho arbitrário e a converte em uma impressão digital de tamanho fixo.
 
@@ -66,9 +64,11 @@ Essas funções permitem verificar a integridade de software baixado.
 
 Outra característica crucial que possuem é a resistência a colisões e segunda pré-imagem. Uma colisão ocorre quando duas entradas distintas produzem a mesma saída.
 Certamente, no universo das funções de hash, colisões são inevitáveis, mas uma excelente função de hash criptográfica as minimiza significativamente. O risco deve ser tão baixo que possa ser considerado negligível. É como se cada hash fosse uma casa em uma cidade vasta; apesar do enorme número de casas, uma boa função de hash garante que cada casa tenha um endereço único.
+
 A resistência à segunda pré-imagem depende da resistência a colisões; se houver resistência a colisões, então há resistência à segunda pré-imagem.
 Dada uma informação de entrada que nos é imposta, devemos encontrar uma segunda entrada, diferente da primeira, que produza uma colisão no hash de saída da função. A resistência à segunda pré-imagem é semelhante à resistência a colisões, exceto que a entrada é imposta.
 Agora vamos navegar pelas águas tumultuadas das funções de hash desatualizadas. SHA0, SHA1 e MD5 agora são considerados cascas enferrujadas no oceano da criptografia de hash. Eles são frequentemente desencorajados, pois perderam sua resistência a colisões. O princípio da gaiola de pombo explica por que, apesar de nossos melhores esforços, a evitação de colisões é impossível devido à limitação do tamanho da saída. Para ser verdadeiramente considerada segura, uma função de hash deve resistir a colisões, segundas pré-imagens e pré-imagens.
+
 Um elemento-chave no protocolo Bitcoin, a função de hash SHA-256 é o capitão do navio. Outras funções, como SHA-512, são usadas para derivação com HMAC e PBKDF. Além disso, o RIPMD160 é usado para reduzir uma impressão digital para 160 bits. Quando nos referimos a HASH256 e HASH160, estamos nos referindo ao uso de hash duplo com SHA-256 e RIPMD.
 
 Para HASH256, é um hash duplo da mensagem usando a função SHA256.
@@ -88,8 +88,6 @@ Em resumo, o objetivo final de uma função de hash criptográfica é transforma
 Ao final desta exploração, desmistificamos as funções de hash criptográficas, destacamos seus usos no protocolo Bitcoin e analisamos seus objetivos específicos. Aprendemos que, para as funções de hash serem consideradas seguras, elas devem ser resistentes a pré-imagens, segundas pré-imagens, colisões e adulteração. Também abordamos a variedade de diferentes funções de hash usadas no protocolo Bitcoin. Em nossa próxima sessão, iremos aprofundar no núcleo da função de hash SHA256 e descobrir a matemática fascinante que lhe confere suas características únicas.
 
 ## O Funcionamento Interno do SHA256
-
-![O Funcionamento Interno do SHA256](https://youtu.be/74SWg_ZbUj4)
 
 Bem-vindo à continuação de nossa fascinante jornada pelos labirintos criptográficos da função de hash. Hoje, revelamos os mistérios do SHA256, um processo complexo, porém engenhoso, que introduzimos anteriormente.
 -> 940 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
@@ -194,8 +192,6 @@ Em conclusão, gostaríamos de enfatizar o papel crucial dos cálculos realizado
 
 ## Os algoritmos usados para derivação
 
-![Os algoritmos usados para derivação](https://youtu.be/ZF1_BMsOJXc)
-
 Os algoritmos de derivação HMAC e PBKDF2 são componentes-chave no mecanismo de segurança do protocolo Bitcoin. Eles impedem uma variedade de ataques potenciais e garantem a integridade das carteiras de Bitcoin.
 HMAC e PBKDF2 são ferramentas criptográficas usadas para várias tarefas no Bitcoin. HMAC é usado principalmente para combater ataques de extensão de comprimento ao derivar carteiras Determinísticas Hierárquicas (HD), enquanto PBKDF2 é usado para converter uma frase mnemônica em uma semente.
 
@@ -236,6 +232,7 @@ No sistema Bitcoin, a unidade de conta é o bitcoin (observe o "b" minúsculo). 
 A assinatura pode ser verificada matematicamente por outros participantes na rede Bitcoin.
 
 ![image](assets/image/section2/0.JPG)
+
 Para garantir a segurança das transações, o Bitcoin depende de dois protocolos de assinatura digital: ECDSA (Elliptic Curve Digital Signature Algorithm - Algoritmo de Assinatura Digital de Curva Elíptica) e Schnorr. O ECDSA é um protocolo de assinatura integrado ao Bitcoin desde o seu lançamento em 2009, enquanto as assinaturas Schnorr foram adicionadas mais recentemente em novembro de 2021. Embora ambos os protocolos sejam baseados em criptografia de curva elíptica e usem mecanismos matemáticos semelhantes, eles diferem principalmente em termos de estrutura de assinatura.
 
 Neste curso, apresentaremos o algoritmo ECDSA.
@@ -272,8 +269,6 @@ Na próxima seção deste curso, usaremos curvas que estão no campo real apenas
 
 ## Calculando a chave pública a partir da chave privada
 
-![Calculando a chave pública a partir da chave privada](https://youtu.be/NJENwFU889Y)
-
 Para começar, vamos mergulhar no mundo do Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA). O Bitcoin utiliza esse algoritmo de assinatura digital para vincular chaves privadas e públicas. Nesse sistema, a chave privada é um número aleatório ou pseudo-aleatório de 256 bits. O número total de possibilidades para uma chave privada é teoricamente 2^256, mas na realidade é um pouco menor que isso. Para ser preciso, algumas chaves privadas de 256 bits não são válidas para o Bitcoin.
 
 Para ser compatível com o Bitcoin, uma chave privada deve estar entre 1 e n-1, onde n representa a ordem da curva elíptica. Isso significa que o número total de possibilidades para uma chave privada do Bitcoin é quase igual a 1,158 x 10^77. Para colocar isso em perspectiva, é aproximadamente o mesmo número de átomos presentes no universo observável.
@@ -292,6 +287,7 @@ O ponto gerador (G) é o ponto na curva a partir do qual todas as chaves públic
 
 - `Gx = 79BE667E F9DCBBAC 55A06295 CE870B07 029BFCDB 2DCE28D9 59F2815B 16F81798`
 - `Gy = 483ADA77 26A3C465 5DA4FBFC 0E1108A8 FD17B448 A6855419 9C47D08F FB10D4B8`
+
 Este ponto é útil para derivar todas as chaves públicas. Para calcular a chave pública K, basta multiplicar o ponto G pela chave privada k, de forma que: K = k.G
 
 Agora estudaremos como adicionar e multiplicar pontos em curvas elípticas.
@@ -343,8 +339,6 @@ Na nossa próxima lição, exploraremos como uma assinatura digital é criada us
 
 ## Assinando com a chave privada
 
-![Assinando com a chave privada](https://youtu.be/h2hIyGgPqkM)
-
 O processo de assinatura digital é um método chave para provar que você é o detentor de uma chave privada sem revelá-la. Isso é alcançado usando o algoritmo ECDSA, que envolve determinar um nonce único, calcular um número específico V e criar uma assinatura digital composta por duas partes, S1 e S2.
 É crucial sempre usar um nonce único para evitar ataques de segurança. Um exemplo notório do que pode acontecer quando essa regra não é seguida é o hackeamento do PlayStation 3, que foi comprometido devido ao reuso de nonce.
 
@@ -369,7 +363,9 @@ k = a chave privada - Calcular a assinatura: a concatenação de S1 + S2.
   K = a chave pública
 
 Por exemplo, para obter a chave pública 3G, você traça uma tangente ao ponto G, calcula o oposto de -G para obter 2G e depois adiciona G e 2G. Para realizar uma transação, você deve provar que conhece o número 3 desbloqueando os bitcoins associados à chave pública 3G.
+
 Para criar uma assinatura digital e provar que você conhece a chave privada associada à chave pública 3G, você primeiro calcula um nonce e depois o ponto V associado a esse nonce (no exemplo dado, é 4G). Em seguida, você calcula o ponto T adicionando a chave pública 3G e o ponto V, o que resulta em 7G.
+
 ![image](assets/image/section2/11.JPG)
 
 Vamos simplificar o processo de assinatura digital.
@@ -403,6 +399,7 @@ Aqui estão as etapas que o verificador seguirá para validar a assinatura:
 4. O verificador então calculará I', que é simplesmente a coordenada x do ponto P' módulo n.
 5. Por fim, o verificador confirmará se I' é igual a t. Se for o caso, a assinatura é considerada válida. Caso contrário, a assinatura é inválida.
 Esse procedimento garante que apenas o remetente que possui a chave privada correspondente poderia ter produzido uma assinatura que passe por esse processo de verificação.
+
 ![image](assets/image/section2/12.JPG)
 
 Em termos mais simples:
@@ -425,8 +422,6 @@ Para responder a essas perguntas e aprofundar sua compreensão sobre segurança 
 
 ## Evolução das carteiras de Bitcoin
 
-![Evolução das carteiras de Bitcoin](https://youtu.be/6tmu1R9cXyk)
-
 A Carteira Determinística Hierárquica, mais conhecida como HD wallet, desempenha um papel proeminente no ecossistema de criptomoedas. O termo "carteira" pode parecer enganador para aqueles que são novos nesse campo, pois não envolve a posse de dinheiro ou moedas. Em vez disso, refere-se a uma coleção de chaves privadas criptográficas.
 
 As primeiras carteiras eram softwares que agrupavam chaves determinadas privadamente de maneira pseudoaleatória, mas não tinham conexão entre elas. Essas carteiras são chamadas de "Just a Bunch Of Keys" (JBOK).
@@ -434,6 +429,7 @@ As primeiras carteiras eram softwares que agrupavam chaves determinadas privadam
 Como as chaves não têm conexão entre si, o usuário precisa fazer um novo backup para cada novo par de chaves gerado. Se o usuário sempre usar o mesmo par de chaves e comprometer a confidencialidade, ou gerar um novo par de chaves aleatoriamente e, portanto, precisar fazer um novo backup dessas chaves.
 
 No entanto, a complexidade de gerenciar essas chaves é compensada por um conjunto de protocolos chamados Propostas de Melhoria do Bitcoin (BIPs). Essas propostas de atualização estão no cerne da funcionalidade e segurança das HD wallets. Por exemplo, [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), lançado em 2012, revolucionou a forma como essas chaves são geradas e armazenadas, introduzindo o conceito de chaves derivadas de forma determinística e hierárquica. A ideia é derivar todas as chaves de forma determinística e hierárquica a partir de uma única informação: a semente. Isso simplifica muito o processo de backup dessas chaves, ao mesmo tempo em que mantém seu nível de segurança.
+
 Posteriormente, [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) introduziu uma inovação significativa: a frase mnemônica de 24 palavras. Esse sistema transformou uma sequência complexa e difícil de lembrar de números em uma série de palavras comuns, tornando muito mais fácil memorizar e armazenar. Além disso, [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) propôs adicionar uma senha adicional para aumentar a segurança das chaves individuais. Essas melhorias sucessivas levaram aos padrões BIP43 e BIP44, que padronizaram a estrutura e hierarquização das carteiras HD, tornando-as mais acessíveis e amigáveis para o público em geral.
 
 Nas seções seguintes, iremos aprofundar o funcionamento das carteiras HD. Discutiremos os princípios de derivação de chaves e examinaremos os conceitos fundamentais de entropia e geração de números aleatórios, que são essenciais para garantir a segurança da sua carteira HD.
@@ -442,7 +438,6 @@ Em resumo, é essencial destacar o papel central do BIP32 e BIP39 no design e se
 
 ## Entropia e Número Aleatório
 
-![Entropia e Número Aleatório](https://youtu.be/k18yH18w2TE)
 A importância da segurança da chave privada no ecossistema do Bitcoin é inegável. Elas são, de fato, o alicerce que garante a segurança das transações de Bitcoin. Para evitar qualquer vulnerabilidade associada à previsibilidade, essas chaves devem ser geradas de maneira verdadeiramente aleatória, o que pode se tornar rapidamente um exercício trabalhoso. O problema é que, na ciência da computação, é impossível gerar um número verdadeiramente aleatório, pois ele é necessariamente derivado de um processo determinístico; um código. É por isso que é essencial aprender sobre os diferentes Geradores de Números Aleatórios (RNG). Os tipos de RNG variam, desde Geradores de Números Pseudo-Aleatórios (PRNG) até Geradores de Números Verdadeiramente Aleatórios (TRNG), bem como PRNGs que incorporam uma fonte de entropia.
 
 Entropia se refere ao estado de "desordem" de um sistema. A partir de uma entropia externa, ou seja, uma fonte externa de informação, é possível usar um gerador de números aleatórios para obter um número aleatório.
@@ -468,11 +463,14 @@ Um exemplo de função de transformação é a função PBKDF2.
 - ter um período suficientemente longo
 
 ![imagem](assets/image/section3/3.JPG)
+
 No caso do Bitcoin, as chaves privadas são geradas a partir de uma única informação na base da carteira. Essa informação permite a derivação determinística e hierárquica de pares de chaves filhas. A entropia é a base de toda carteira HD, embora não haja um padrão para gerar esse número aleatório. Portanto, a geração de números aleatórios é um desafio importante na segurança das transações de Bitcoin.
+
 ## A frase mnemônica
 
-![A frase mnemônica](https://youtu.be/uJERqH9Xp7I)
+
 A segurança de uma carteira de Bitcoin é uma preocupação importante para todos os seus usuários. Uma maneira essencial de garantir o backup da carteira é gerar uma frase mnemônica com base na entropia e no checksum.
+
 ![imagem](assets/image/section3/5.JPG)
 
 Para converter a entropia em uma frase mnemônica, basta calcular o checksum da entropia e concatenar a entropia e o checksum.
@@ -502,10 +500,11 @@ Cada decimal corresponde a uma palavra de uma lista de 2048 palavras no BIP39. �
 Em conclusão, gerar uma frase mnemônica para proteger uma carteira de Bitcoin é um processo crucial. É importante aderir aos padrões da frase mnemônica com base no tamanho da entropia. Fazer backup da frase de recuperação de 24 palavras é essencial para evitar qualquer perda de fundos.
 
 ## A frase secreta
-![A frase secreta](https://youtu.be/dZkOYO7MXwc)
+
 A frase secreta é uma senha adicional que pode ser integrada a uma carteira de Bitcoin para aumentar sua segurança. Seu uso é opcional e fica a critério do usuário. Ao adicionar informações arbitrárias que, juntamente com a frase mnemônica, permitem o cálculo da semente da carteira, a frase secreta melhora sua segurança.
 
 ![imagem](assets/image/section3/8.JPG)
+
 A frase de acesso é um sal criptográfico opcional de tamanho escolhido pelo usuário. Ele melhora a segurança de uma carteira HD adicionando informações arbitrárias que, quando combinadas com a frase mnemônica, permitirão o cálculo da semente.
 Uma vez estabelecida durante a criação de uma carteira, ela é necessária para a derivação de todas as chaves da carteira. A função pbkdf2 é usada para gerar a semente a partir da frase de acesso. Essa semente permite a derivação de todos os pares de chaves filhas da carteira. Se a frase de acesso for alterada, a carteira Bitcoin se torna completamente diferente.
 
@@ -524,7 +523,7 @@ Em nossa próxima lição, examinaremos em detalhes o funcionamento da semente e
 # Criação de Carteiras Bitcoin
 
 ## Criação da Semente e Chave Mestra
-![Criação da semente e chave mestra](https://youtu.be/56yAt_JDWhY)
+
 Nesta parte do curso, exploraremos os passos para a derivação de uma Carteira Determinística Hierárquica (HD Wallet), que permite a criação e gerenciamento hierárquico e determinístico de chaves privadas e públicas.
 
 ![image](assets/image/section4/0.JPG)
@@ -537,6 +536,7 @@ Para obter a semente, é usada a função pbkdf2 (Função de Derivação de Cha
 
 A partir da semente, é possível determinar a chave privada mestra e o código de cadeia usando o algoritmo HMAC SHA-512 (Código de Autenticação de Mensagem Baseado em Hash Algoritmo Seguro 512). Esse algoritmo requer uma mensagem e uma chave como entrada para gerar um resultado. A chave privada mestra é calculada a partir da semente e da frase "Bitcoin SEED". Essa frase é idêntica para todas as derivações de todas as carteiras HD, garantindo consistência entre as carteiras.
 Inicialmente, a função SHA-512 não foi implementada no protocolo Bitcoin, razão pela qual o HMAC SHA-512 é utilizado. O uso do HMAC SHA-512 com a frase "Bitcoin SEED" restringe o usuário a gerar uma carteira específica para o Bitcoin. O resultado do HMAC SHA-512 é um número de 512 bits, dividido em duas partes: os 256 bits mais à esquerda representam a chave privada mestra, enquanto os 256 bits mais à direita representam o código de cadeia mestre.
+
 ![image](assets/image/section4/2.JPG)
 
 A chave privada mestra é a chave pai de todas as chaves futuras na carteira, enquanto o código de cadeia mestre está envolvido na derivação das chaves filhas. É importante observar que é impossível derivar um par de chaves filhas sem conhecer o código de cadeia correspondente do par pai.
@@ -547,8 +547,6 @@ Um par de chaves na carteira consiste em uma chave privada, uma chave pública e
 Na próxima lição, exploraremos as chaves estendidas em detalhes, como xPub, xPRV, zPub, e entenderemos por que são usadas e como são construídas.
 
 ## Chaves Estendidas
-
-![Chaves Estendidas](https://youtu.be/TRz760E_zUY)
 
 Nesta parte da lição, estudaremos chaves estendidas (xPub, zPub, yPub) e seus prefixos, que desempenham um papel importante na derivação de chaves filhas em uma Carteira Determinística Hierárquica (HD Wallet).
 
@@ -583,8 +581,6 @@ Na próxima lição, vamos nos concentrar na derivação de pares de chaves filh
 
 ## Derivação de pares de chaves filhas
 
-![Derivação de pares de chaves filhas](https://youtu.be/FXhI-GmE9Aw)
-
 Como lembrete, discutimos o cálculo da semente e da chave mestra, que são os primeiros elementos essenciais para a organização hierárquica e derivação da carteira HD (Hierarchical Deterministic). A semente, com um comprimento de 128 a 256 bits, é gerada aleatoriamente ou a partir de uma frase secreta. Ela desempenha um papel determinístico na derivação de todas as outras chaves. A chave mestra é a primeira chave derivada da semente e permite a derivação de todos os outros pares de chaves filhas.
 
 O código da cadeia mestra desempenha um papel importante na recuperação da carteira a partir da semente. Deve-se observar que todas as chaves derivadas da mesma semente terão o mesmo código da cadeia mestra.
@@ -605,7 +601,9 @@ Existem dois tipos de pares de chaves filhas: pares reforçados e pares normais.
 
 ![imagem](assets/image/section4/11.JPG)
 ![imagem](assets/image/section4/12.JPG)
+
 A derivação reforçada usa a chave privada pai, enquanto a derivação normal usa a chave pública pai. A função HMAC-SHA512 é usada para a derivação reforçada, enquanto a derivação normal usa um resumo de 512 bits. A chave pública filha é obtida multiplicando a chave privada filha pelo gerador da curva elíptica.
+
 ![image](assets/image/section4/13.JPG)
 ![image](assets/image/section4/14.JPG)
 
@@ -613,7 +611,6 @@ A derivação hierárquica e a derivação de muitos pares de chaves de forma de
 
 ## Estrutura da Carteira e Caminhos de Derivação
 
-![Estrutura da Carteira e Caminhos de Derivação](https://youtu.be/etO9UxwyE2I)
 Neste capítulo, estudaremos a estrutura da árvore de derivação em uma Carteira Determinística Hierárquica (HD Wallet). Já exploramos o cálculo da semente, a chave mestra e a derivação de pares de chaves filhas. Agora, vamos nos concentrar na organização das chaves dentro da carteira.
 
 A HD Wallet usa camadas de profundidade para organizar as chaves. Cada derivação de um par pai para um par filho corresponde a uma camada de profundidade.
@@ -647,8 +644,8 @@ No próximo capítulo, estudaremos endereços de recebimento, suas vantagens de 
 
 ## Endereços Bitcoin
 
-![Endereços Bitcoin](https://youtu.be/nqGBMjPtFNI)
 Neste capítulo, exploraremos os endereços de recebimento, que desempenham um papel crucial no sistema Bitcoin. Eles permitem que os fundos sejam recebidos em uma transação e são gerados a partir de pares de chaves privadas e públicas. Embora exista um tipo de script chamado Pay2PublicKey que permite que bitcoins sejam bloqueados em uma chave pública, os usuários geralmente preferem usar endereços de recebimento em vez desse script.
+
 ![image](assets/image/section5/0.JPG)
 
 Quando um destinatário deseja receber bitcoins, ele fornece um endereço de recebimento ao remetente em vez de sua chave pública. Um endereço é na verdade um hash de uma chave pública, com um formato específico. A chave pública é derivada da chave privada filha usando operações matemáticas como adição e duplicação de pontos em curvas elípticas.
@@ -666,7 +663,6 @@ Os endereços também fornecem uma segunda camada de segurança entre informaç�
 Diferentes prefixos são usados para endereços Bitcoin. Por exemplo, BC1Q corresponde a um endereço Segwit V0, BC1P a um endereço Taproot/Segwit V1 e os prefixos 1 e 3 estão associados a endereços Pay2PublicKeyH/Pay2ScriptH (legado). Na próxima lição, explicaremos passo a passo como derivar um endereço de uma chave pública.
 
 ## Como criar um endereço Bitcoin?
-![Como criar um endereço Bitcoin?](https://youtu.be/ewMGTN8dKjI)
 
 Neste capítulo, discutiremos a construção de um endereço de recebimento para transações Bitcoin. Um endereço de recebimento é uma representação alfanumérica de uma chave pública comprimida. A conversão de uma chave pública em um endereço de recebimento envolve várias etapas.
 
@@ -692,7 +688,9 @@ O hashing da chave pública comprimida é realizado usando a função SHA256. A 
 ### Etapa 3: O payload = Payload do endereço
 
 ![image](assets/image/section5/4.JPG)
+
 O resumo binário de RIPEMD160(SHA256(K)) é usado para formar grupos de 5 bits. Cada grupo é transformado em base16 (Hexadecimal) e/ou base 10.
+
 ### Passo 4: Adicionando metadados para cálculo de checksum com o programa BCH
 
 ![imagem](assets/image/section5/5.JPG)
@@ -732,8 +730,6 @@ Tudo é convertido para Bech32, então 'bc' é adicionado para bitcoin e '1' com
 
 ## Criando uma semente a partir de 128 lançamentos de dados!
 
-![Criando uma semente a partir de 128 lançamentos de dados!](https://youtu.be/lUw-1kk75Ok)
-
 Criar uma frase mnemônica é um passo crucial para garantir a segurança da sua carteira de criptomoedas. Existem vários métodos para gerar uma frase mnemônica, no entanto, vamos nos concentrar no método de geração manual usando dados. É importante observar que este método não é adequado para uma carteira de alto valor. É recomendado usar software de código aberto ou uma carteira de hardware para gerar a frase mnemônica. Para criar uma frase mnemônica, usaremos dados para gerar informações binárias. O objetivo é entender o processo de criação da frase mnemônica.
 
 **Passo 1 - Preparação:**
@@ -759,6 +755,10 @@ Gerar uma frase mnemônica é um processo importante para proteger sua carteira 
 ## BÔNUS: Entrevista com Théo Pantamis
 
 Outro método criptográfico amplamente usado no protocolo Bitcoin é o método de assinaturas digitais.
+
+
+![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
+
 ## Conclusão e Fim
 
 ### Agradecimentos e continue a explorar a toca do coelho
@@ -774,4 +774,5 @@ Sinta-se à vontade para assistir a essa entrevista para continuar explorando o 
 Este curso, juntamente com todo o conteúdo desta universidade, foi disponibilizado gratuitamente pela nossa comunidade. Para nos apoiar, você pode compartilhá-lo com outras pessoas, tornar-se membro da universidade e até contribuir para o seu desenvolvimento por meio do GitHub. Em nome de toda a equipe, obrigado!
 
 ### Avalie o curso
+
 Em breve, um sistema de avaliação para o treinamento será integrado a esta nova plataforma de aprendizado online! Enquanto isso, muito obrigado por fazer o curso e, se você gostou, considere compartilhá-lo com outras pessoas.

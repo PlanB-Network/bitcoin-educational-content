@@ -41,10 +41,10 @@ Vielen Dank an unsere Lehrer, die Teil dieses Programms waren:
 ### Seminarplan
 
 Woche 1 der LN Tuscany-Veranstaltung
-![image](assets\1.jpg)
+![image](assets/1.jpg)
 
 Nach Abschluss dieses Kurses, wenn Sie an einer weiterführenden Schulung interessiert sind, finden Sie hier der zweite Teil des Zeitplans:
-![image](assets\2.jpg)
+![image](assets/2.jpg)
 
 Viel Glück bei Ihren Studien.
 

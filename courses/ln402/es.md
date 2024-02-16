@@ -41,10 +41,10 @@ Muchas gracias a nuestros profesores que formaron parte de este programa:
 ### Programa del seminario
 
 Semana 1 del evento LN Tuscany
-![image](assets\1.jpg)
+![image](assets/1.jpg)
 
 Una vez que hayas terminado este curso, si estás interesado en el entrenamiento de seguimiento, aquí está la segunda parte del programa:
-![image](assets\2.jpg)
+![image](assets/2.jpg)
 
 Buena suerte con tus estudios.
 

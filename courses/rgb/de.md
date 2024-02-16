@@ -26,10 +26,10 @@ Hallo zusammen und herzlich willkommen zu diesen RGB-Kursen.
 In diesem neuen Programm werden Sie die Grundlagen der RGB-Programmierung sowie einige praktische Übungen lernen. Die Kurse werden vorerst nur auf Englisch sein. Dieses Programm war ursprünglich Teil eines 2-wöchigen fortgeschrittenen Entwickler-Bootcamps in Viareggio, Toskana, das von Fulgure Venture organisiert wurde. Die erste Woche konzentrierte sich auf Rust und SDK und kann im Programm LN 304 gefunden werden. In diesem Programm konzentrieren wir uns auf die zweite Woche des Bootcamps, die RGB behandelt.
 
 Woche 1 - LN 304
-![image](assets\Image\1.jpg)
+![image](assets/Image/1.jpg)
 
 Woche 2 - Aktuelle Formation
-![image](assets\Image\2.jpg)
+![image](assets/Image/2.jpg)
 
 Ein großes Dankeschön an die Person, die diese Live-Kurse organisiert hat, und die 3 Lehrer, die daran teilgenommen haben:
 

@@ -84,7 +84,6 @@ Enfin, installez votre Raspberry Pi dans son boîtier. Attention, une étape ult
 ## Comment installer RoninDojo v2 sur un Raspberry Pi 4 ?
 
 ### Étape 1 : Préparer la micro SD bootable
-
 Après avoir assemblé votre matériel, l'étape suivante consiste à installer RoninDojo. Pour cela, nous allons préparer une carte micro SD bootable à partir de votre ordinateur, en y gravant l'image disque adéquat.
 
 Il vous faudra utiliser le logiciel _**Raspberry Pi Imager**_, conçu pour faciliter le téléchargement, la configuration et l'écriture de systèmes d'exploitation sur une carte micro SD pour une utilisation avec un Raspberry Pi. Commencez par installer ce logiciel sur votre PC personnel :
@@ -157,7 +156,6 @@ Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer 
 ![écriture micro SD terminée](assets/fr/23.png)
 
 ### Étape 2 : Terminer le montage du nœud
-
 Vous pouvez maintenant insérer la carte micro SD dans le port adapté de votre Raspberry Pi. 
 
 ![micro SD](assets/fr/24.png)
@@ -165,7 +163,6 @@ Vous pouvez maintenant insérer la carte micro SD dans le port adapté de votre 
 Connectez ensuite votre Raspberry Pi à votre box internet à l'aide du câble Ethernet. Pour finir, mettez votre nœud en marche en connectant le câble d'alimentation et en actionnant le bouton de mise sous tension (si votre configuration en est pourvue).
 
 ### Étape 3 : Établir une connexion SSH avec le nœud
-
 Pour commencer, il est nécessaire de trouver l'adresse IP de votre nœud. Vous avez le choix entre utiliser un outil tel que _[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)_ ou _[Angry IP Scanner](https://angryip.org/)_, ou consulter l'interface d'administration de votre routeur. L'adresse IP devrait se présenter sous la forme `192.168.1.??`. **Pour toutes les commandes qui suivent, remplacez `[IP]` par l'adresse IP réelle de votre nœud**, (en supprimant les crochets).
 
 Lancez un terminal.
@@ -185,7 +182,6 @@ En résumé, voici les commandes à exécuter :
 - Saisissez le mot de passe temporaire et validez.
 
 ### Étape 4 : Mise à jour et préparation
-
 Vous êtes à présent connecté à votre nœud via une session SSH. Sur votre terminal, l'invite de commande devrait être : `pi@RoninDojo:~ $`. Pour commencer, mettez à jour la liste des paquets disponibles et installez les mises à jour des paquets existants avec la commande suivante :
 `sudo apt update && sudo apt upgrade -y`
 
@@ -201,7 +197,6 @@ Exécutez le script `customize-image.sh` avec la commande :
 **Il est important de laisser le script s'exécuter sans interruption et d'attendre patiemment la fin de son processus**, qui dure environ 10 minutes. Lorsque le message `Setup is complete` s'affiche, vous pouvez avancer vers l'étape suivante.
 
 ### Étape 5 : Lancement de RoninOS
-
 Lancez RoninOS avec la commande :
 `sudo systemctl start ronin-setup`
 
@@ -211,41 +206,67 @@ Affichez les lignes du fichier de log avec la commande :
 À cette étape, **il est important de laisser faire le lancement de RoninOS et d'attendre la fin** de son exécution. Cela prend environ 40 minutes. Lorsque `All RoninDojo feature installations complete!` apparaît, vous pouvez passer à l'étape 6.
 
 ### Étape 6 : Accéder à RoninUI et changer les identifiants
-
 Après avoir finalisé l'installation, pour vous connecter à votre nœud via un navigateur, assurez-vous que votre ordinateur personnel soit connecté au même réseau local que votre nœud. Si vous utilisez un VPN sur votre machine, désactivez-le temporairement. Pour accéder à l'interface du nœud dans votre navigateur, saisissez dans la barre d'URL :
 - Directement l'adresse IP de votre nœud, par exemple `192.168.1.??`.
 - Ou bien tapez `ronindojo.local`.
 
+Une fois sur la page d'accueil de RoninUI, vous serez invité à débuter la configuration. Pour ce faire, cliquez sur le bouton `Let's start`.
 
+![lets start](assets/fr/25.png)
 
-.......
+À cette étape, RoninUI vous présente votre mot de passe `root`. Il est essentiel de le conserver soigneusement. Vous pouvez opter pour une sauvegarde physique, sur papier, ou l'enregistrer dans un [gestionnaire de mots de passe](https://planb.network/courses/secu101/4/2).
 
+![mot de passe root](assets/fr/26.png)
 
+Après avoir sauvegardé le mot de passe `root`, cochez la case `I have backed up Root user credentials` et cliquez sur `Continue` pour continuer.
 
+![confirmer mot de passe root](assets/fr/27.png)
 
+L'étape suivante consiste à créer un mot de passe utilisateur, qui servira tant pour l'accès à l'interface web de RoninUI que pour établir des sessions SSH avec votre nœud. Choisissez un mot de passe robuste et assurez vous de bien le sauvegarder. Vous devrez entrer ce mot de passe à deux reprises avant de cliquer sur `Finish` pour valider. Quant au nom d'utilisateur, il est recommandé de conserver le choix par défaut, `ronindojo`. Si vous décidez de le modifier, n'oubliez pas d'ajuster les commandes des étapes suivantes en conséquence.
+
+![user credentials](assets/fr/28.png)
+
+Une fois ces actions réalisées, patientez le temps de l'initialisation de votre nœud. Vous accéderez alors à l'interface web de RoninUI. Vous êtes presque au bout du processus, il ne reste que quelques petites étapes !
+![Ronin UI](assets/fr/29.png)
 
 ### Étape 7 : Supprimer les identifiants temporaires
+Ouvrez un nouveau terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
+`SSH ronindojo@[IP]`
 
+Si, par exemple, l'adresse IP de votre nœud est `192.168.1.40`, la commande adéquate sera :
+`SSH ronindojo@192.168.1.40`
 
+Si vous avez changé votre nom d'utilisateur lors de l'étape précédente, en remplaçant le nom d'utilisateur par défaut (`ronindojo`) par un autre, veillez à utiliser ce nouveau nom dans la commande. Par exemple, si vous avez choisi `planb` comme nom d'utilisateur et que l'adresse IP est `192.168.1.40`, la commande à entrer sera :
+`SSH planb@192.168.1.40`
 
+Il vous sera demandé de saisir le mot de passe utilisateur. Entrez le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'à l'option `Exit RoninDojo` et appuyez sur `entrer` pour la sélectionner.
 
+![RoninCLI](assets/fr/30.png)
 
+À ce stade, vous vous trouvez sur le terminal de votre nœud, avec une invite de commande semblable à : `ronindojo@RoninDojo:~ $`. Pour retirer l'utilisateur temporaire créé durant la configuration de la carte micro SD bootable, saisissez la commande suivante et appuyez sur `entrer` :
+`sudo deluser --remove-home pi`
 
+Vous serez invité à confirmer votre mot de passe utilisateur. Entrez-le et validez en pressant `entrer`. Patientez le temps que l'opération se termine, puis utilisez la commande `exit` pour quitter le terminal.
 
+Félicitations ! Votre nœud RoninDojo v2 est désormais configuré et prêt à l'emploi. Il va débuter son IBD (*Initial Block Download*), procédant au téléchargement et à la vérification de la blockchain Bitcoin depuis le bloc de Genèse. Cette étape constitue à récupérer toutes les transactions Bitcoin réalisées depuis le 3 janvier 2009, et demande un certain temps. Une fois la blockchain intégralement téléchargée, l'indexeur procédera à la compression de la base de données. La durée de l'IBD peut considérablement varier. Votre nœud RoninDojo sera pleinement opérationnel une fois ce processus achevé.
 
-
-
-
-
+**Si vous procédez à la migration d'un ancien nœud RoninDojo v1** vers cette nouvelle version avec ce tutoriel tout en conservant le même SSD, votre nœud devrait automatiquement détecter et réutiliser les données existantes sur le disque, vous épargnant ainsi la nécessité de réaliser à nouveau l'IBD. Dans ce cas, il suffira d'attendre que votre nœud se resynchronise avec les derniers blocs.
 
 ## Comment utiliser son nœud RoninDojo v2 ?
 
-
-
 ### Connecter ses logiciels de portefeuilles à Electrs
+La première utilité de votre nœud fraichement installé et synchronisé sera de diffuser vos transactions au réseau Bitcoin. Vous souhaiterez probablement connecter vos différents portefeuilles à votre nœud afin de diffuser vos transactions de manière confidentielle. Vous pouvez faire cela grâce à Electrum Rust Server (electrs). Cette application est généralement préinstallée sur votre nœud RoninDojo. Si ce n'était pas le cas, vous pourriez l'installer manuellement via l'interface RoninCLI dans `Applications > Manage Applications > Install Electrum Server`.
 
+Pour obtenir l'adresse Tor de votre Electrum Server, depuis l'interface web RoninUI, allez dans :
+`Pairing > Electrum server > Pair now`
+![Pairing](assets/fr/31.png)
+![Electrs](assets/fr/32.png)
+Vous devrez alors saisir l'adresse `Hostname` se terminant par `.onion` dans votre logiciel de portefeuille, accompagnée du port `50001`.
+![hostname](assets/fr/33.png)
+Par exemple sur Sparrow Wallet, il suffit d'aller dans l'onglet :
+`File > Preferences > Server > Private Electrum`
 
-
+![Sparrow](assets/fr/34.png)
 
 ### Connecter ses logiciels de portefeuilles à Samourai Dojo
 

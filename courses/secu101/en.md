@@ -1,5 +1,5 @@
 ---
-name: Information Security & Data Management
+name: Update Your Online Security 
 goal: Update password and personal data management. Create a backup, protect against hackers, and raise awareness about mass surveillance.
 objectives:
   - Update on personal data management and tools that enhance your security.

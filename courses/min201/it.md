@@ -65,7 +65,9 @@ Per spiegare in modo semplificato il concetto di mining, si può utilizzare un'a
 ![immagine](assets/overview/puzzle.png)
 
 Inizialmente nella rete Bitcoin, la ricompensa assegnata era di 50 bitcoin ogni dieci minuti, parallelamente alla scoperta di un blocco ogni dieci minuti in media da parte dei minatori. Questa ricompensa subisce una divisione per due ogni 210.000 blocchi, ovvero approssimativamente ogni quattro anni. Questa remunerazione serve come potente incentivo per incoraggiare i minatori a partecipare al processo di mining nonostante il suo costo energetico. In assenza di ricompensa, il mining, costoso in termini di elettricità, verrebbe abbandonato, compromettendo così la sicurezza e la stabilità dell'intera rete Bitcoin.
+
 La ricompensa attuale per il mining è doppia. Da un lato, include la creazione di nuovi bitcoin, passati da 50 bitcoin ogni dieci minuti inizialmente a 6,25 bitcoin oggi (2023). Dall'altro lato, include le commissioni di transazione, o commissioni di mining, delle transazioni che il minatore sceglie di includere nel suo blocco. Quando viene effettuata una transazione bitcoin, vengono pagate delle commissioni di transazione. Queste commissioni funzionano come una sorta di asta in cui gli utenti indicano quanto sono disposti a pagare affinché la loro transazione venga inclusa nel blocco successivo. Per massimizzare la loro ricompensa, i minatori, agendo nel loro interesse personale, selezionano le transazioni più redditizie da includere nel loro blocco, tenendo conto dello spazio limitato disponibile. Pertanto, la ricompensa per il mining è composta sia dalla generazione di nuovi bitcoin che dalle commissioni di transazione, garantendo un incentivo continuo per i minatori e assicurando la durata e la sicurezza della rete Bitcoin.
+
 ### I Minatori e i Loro Strumenti: L'Estrazione
 
 Il processo di mining consiste nel trovare un hash valido accettabile dalla rete Bitcoin. Questo hash, una volta calcolato e trovato, è irreversibile, come le patate trasformate in purè. Verifica una determinata funzione senza possibilità di tornare indietro. I minatori, in competizione, utilizzano macchine per calcolare questi hash. Sebbene teoricamente sia possibile trovare questo hash manualmente, la complessità dell'operazione rende questa opzione impraticabile. Pertanto, vengono utilizzati computer in grado di eseguire rapidamente questi calcoli, anche se consumano una quantità significativa di elettricità.
@@ -75,18 +77,20 @@ All'inizio, dominava l'era della CPU, in cui i minatori utilizzavano i loro comp
 ![image](assets/overview/chip.png)
 
 Gli ASIC sono chip, simili al chip di una CPU, ma sono sviluppati per eseguire un solo tipo di calcolo specifico nel modo più efficiente possibile. In altre parole, una CPU è in grado di eseguire una moltitudine di tipi di calcoli diversi senza essere particolarmente ottimizzata per un tipo di calcolo o un altro, mentre un ASIC sarà in grado di eseguire un solo tipo di calcolo, ma in modo molto efficiente. Nel caso specifico, gli ASIC Bitcoin sono progettati per il calcolo dell'algoritmo SHA256.
+
 Oggi, i minatori utilizzano esclusivamente ASIC dedicati a questa operazione, ottimizzati per testare il numero massimo di combinazioni con il consumo di energia più basso possibile e nel minor tempo possibile. Questi computer, incapaci di eseguire compiti diversi dal mining di Bitcoin, sono una testimonianza tangibile dell'evoluzione continua e della crescente specializzazione dell'industria del mining di Bitcoin. Questa costante evoluzione riflette la dinamica intrinseca di Bitcoin, in cui un'ajustement de la difficulté garantisce la produzione di un blocco ogni dieci minuti nonostante l'aumento esponenziale della capacità di mining.
 
 Per illustrare l'intensità di questo processo, considera un minatore tipico in grado di eseguire 14 TeraHash al secondo, ovvero 14.000 miliardi di tentativi al secondo per trovare l'hash corretto. A livello della rete Bitcoin, si raggiungono attualmente circa 300 HexaHash al secondo, evidenziando la potenza collettiva impiegata nel mining di Bitcoin.
 
-### Ajustement de la difficulté:
+### Aggiustamento della difficoltà:
 
-L'ajustement de la difficulté è un meccanismo cruciale nel funzionamento della rete Bitcoin, garantendo che i blocchi vengano minati in media ogni 10 minuti. Questa durata è una media, poiché il processo di mining è in realtà un gioco di probabilità, simile al lancio di dadi nella speranza di ottenere un numero inferiore al numero definito dalla difficoltà. Ogni 2016 blocchi, la rete regola la difficoltà di mining in base al tempo medio necessario per minare i blocchi precedenti. Se il tempo medio è superiore a 10 minuti, la difficoltà viene ridotta, e viceversa se il tempo medio è inferiore, la difficoltà viene aumentata. Questo meccanismo di ajustement assicura che il tempo di mining dei nuovi blocchi rimanga costante nel tempo, indipendentemente dal numero di minatori o dalla potenza di calcolo complessiva della rete. È per questa ragione che la Blockchain di Bitcoin viene anche chiamata Timechain.
+L'aggiustamento della difficoltà è un meccanismo cruciale nel funzionamento della rete Bitcoin, garantendo che i blocchi vengano minati in media ogni 10 minuti. Questa durata è una media, poiché il processo di mining è in realtà un gioco di probabilità, simile al lancio di dadi nella speranza di ottenere un numero inferiore al numero definito dalla difficoltà. Ogni 2016 blocchi, la rete regola la difficoltà di mining in base al tempo medio necessario per minare i blocchi precedenti. Se il tempo medio è superiore a 10 minuti, la difficoltà viene ridotta, e viceversa se il tempo medio è inferiore, la difficoltà viene aumentata. Questo meccanismo di ajustement assicura che il tempo di mining dei nuovi blocchi rimanga costante nel tempo, indipendentemente dal numero di minatori o dalla potenza di calcolo complessiva della rete. È per questa ragione che la Blockchain di Bitcoin viene anche chiamata Timechain.
 
 ![image](assets/overview/chinaban.png)
 
 * Esempio della Cina:
 Il caso della Cina illustra perfettamente questo meccanismo di regolazione della difficoltà, ricca di energia abbondante e a basso costo, era il principale hub mondiale per il mining di Bitcoin. Nel 2021, il paese ha improvvisamente vietato il mining di Bitcoin sul suo territorio, causando una massiccia caduta del tasso di hash globale della rete Bitcoin, dell'ordine del 50%. Questa rapida diminuzione della potenza di mining avrebbe potuto gravemente disturbare la rete Bitcoin, aumentando il tempo medio di mining dei blocchi. Tuttavia, è intervenuto il meccanismo di regolazione della difficoltà, riducendo la difficoltà di mining per garantire che la frequenza di mining dei blocchi rimanga in media di 10 minuti. Questo caso dimostra l'efficienza e la resilienza del meccanismo di regolazione della difficoltà di Bitcoin, che assicura la stabilità e la prevedibilità della rete, anche in caso di cambiamenti improvvisi e significativi nel panorama del mining globale.
+
 ### Evoluzione delle Macchine per il Mining di Bitcoin
 
 Per quanto riguarda l'evoluzione delle macchine per il mining di Bitcoin, è importante sottolineare che il contesto è più orientato verso un modello di business tradizionale. I minatori guadagnano dalla validazione dei blocchi, un compito con una probabilità di successo relativamente bassa. Il modello di macchina attualmente in uso, l'Antminer S9, anche se è un modello più vecchio lanciato intorno al 2016, rimane in circolazione sul mercato dell'usato, negoziato a circa 100€ - 200€. Tuttavia, il prezzo delle macchine per il mining varia in base al valore di Bitcoin, e un modello più recente, l'Antminer S19, è attualmente stimato intorno ai 3000€.
@@ -112,7 +116,9 @@ Ad esempio, se un pool trova un blocco e vince 6,25 bitcoin, un minatore che con
 ### I software utilizzati dall'industria
 
 Nel contesto del mining di Bitcoin, il ruolo del software è altrettanto cruciale quanto l'hardware. Un esempio di ciò è illustrato dal ruolo di Bitmain, un produttore prolifico che ha sviluppato l'Antminer S9. Oltre all'hardware di mining, l'industria si basa fortemente sui pool di mining collaborativi, come Brainspool, che controlla circa il 5% dell'hashrate globale della rete Bitcoin.
+
 Gli attori di questa industria cercano costantemente di aumentare l'efficienza attraverso l'hardware e il software. Ad esempio, un software popolare utilizzato in questo contesto è BrainsOS Plus. Questo software sostituisce il sistema operativo originale della macchina di mining, consentendo di eseguire le stesse operazioni in modo più efficiente. Con un tale software, un minatore può aumentare l'efficienza della sua macchina del 25%. Ciò significa che con la stessa quantità di elettricità, la macchina può produrre un hash rate aggiuntivo del 25%, aumentando così le ricompense ricevute dal minatore. Questa ottimizzazione del software è un elemento essenziale per la competitività nel mining di Bitcoin, dimostrando l'importanza di un approccio integrato che combini miglioramenti hardware e software per massimizzare l'efficienza e i rendimenti.
+
 ### La regolamentazione e il costo dell'elettricità
 
 Come osservato in Cina e altrove, la regolamentazione influisce notevolmente sul mining. Sebbene non ci siano importanti minatori in Francia, la regolamentazione e i costi elevati dell'elettricità in Europa costituiscono ostacoli significativi. I minatori sono costantemente alla ricerca di elettricità a basso costo per massimizzare i loro guadagni. Pertanto, il costo elevato dell'elettricità in Europa e in Francia non favorisce l'attrazione dei minatori in queste regioni.
@@ -122,6 +128,7 @@ I minatori tendono a dirigere le loro attività verso regioni con tariffe elettr
 ### Dove vanno i minatori e la gestione dell'energia?
 
 Sottolineando l'impatto dei minatori di Bitcoin nel mondo dell'energia, la tendenza è chiara: questi attori sono costantemente alla ricerca di fonti di elettricità a basso costo, spesso quelle che vengono sprecate o non sfruttate. Questo fenomeno è evidente nelle regioni con nuove infrastrutture elettriche, come quelle dotate di recenti dighe idroelettriche.
+
 Prendiamo un esempio. In un paese in cui è in corso la costruzione di una diga, la produzione di elettricità spesso inizia prima che le linee di distribuzione siano completamente operative. Questo divario può comportare costi considerevoli e scoraggiare gli investimenti in progetti di infrastrutture simili. Tuttavia, i minatori di bitcoin possono agire come una fonte di domanda flessibile, pronti a consumare questa "elettricità orfana", contribuendo così ad ammortizzare i costi delle infrastrutture. L'implicazione qui è che è possibile rendere redditizie immediatamente nuove installazioni, favorendo la creazione di nuove fonti di elettricità. Questo principio si applica anche a scale più piccole. Che si tratti di un individuo che utilizza una centrale idroelettrica su un piccolo fiume o di una casa dotata di pannelli solari, l'eccesso di elettricità prodotta può essere utilizzato per alimentare un'operazione di mining di bitcoin.
 
 In Francia, ad esempio, gli eccessi di elettricità dai pannelli solari vengono reiniettati nella rete e i produttori vengono remunerati con un credito di consumo da parte di EDF. In modo simile, si può immaginare un minatore che opera su questi eccessi di elettricità, spegnendosi quando la domanda locale eguaglia l'offerta. Sebbene possa sembrare egoistico, privilegiare la produzione di bitcoin anziché sostenere la rete elettrica locale, presenta un altro punto di vista: la stabilizzazione della rete elettrica. La complessa gestione degli eccessi di elettricità, talvolta con costi associati alla loro eliminazione, può essere notevolmente semplificata. I minatori di bitcoin possono assorbire questi eccessi, agendo come un cuscinetto flessibile, regolando la domanda anziché l'offerta. In un mondo in cui la produzione di elettricità da fonti rinnovabili (poco pilotabili) è in costante aumento, i minatori possono svolgere un ruolo chiave nel garantire l'equilibrio delle nostre reti elettriche, beneficiando allo stesso tempo dell'elettricità a buon mercato o in eccesso per alimentare le loro operazioni di mining.
@@ -134,25 +141,16 @@ Rischio di regolamentazione. Si sottolinea che se un paese come gli Stati Uniti 
 ![image](assets/overview/foundry.png)
 
 Per contrastare questa centralizzazione, vengono affrontate diverse strategie:
-Le principe de Attakai est de permettre aux mineurs de crypto-monnaies d'utiliser la chaleur générée par leurs équipements de minage pour chauffer leur domicile. Cela permet de réduire les coûts de chauffage tout en contribuant à la sécurité et à la décentralisation du réseau Bitcoin.
 
-### Les avantages du Home Mining
+* **Home Mining:** L'idea del Home Mining si basa sulla decentralizzazione dell'attività di mining. Essa incoraggia gli individui a partecipare all'attività di mining dalle proprie abitazioni, distribuendo così più ampiamente il hashrate.
+* **Stratum V2:** Il protocollo Stratum V2 offre un'altra prospettiva. A differenza del suo predecessore, Stratum V2 consente ai minatori di scegliere le transazioni da includere nei blocchi che minano. Questa capacità rafforza la resistenza alla censura e diminuisce la capacità delle grandi pool di mining di dominare la rete. Dando più potere ai minatori individuali, il protocollo Stratum V2 può svolgere un ruolo determinante nella lotta contro la centralizzazione del hashrate.
+* **Open-Sourcing dei Software di Mining:** Questa è un'altra strategia potenzialmente efficace. Rendendo i software di mining accessibili a tutti, i piccoli minatori avrebbero le stesse opportunità delle grandi aziende di mining di partecipare e contribuire alla rete blockchain. Questo approccio incoraggerebbe una distribuzione più ampia del hashrate, contribuendo così alla decentralizzazione della rete.
+* **Diversificazione degli Attori e della Geografia:** Incoraggiare la partecipazione di vari attori di diverse regioni geografiche nel mining delle criptovalute può anche essere efficace. Diversificando geograficamente il hashrate, diventa più difficile per un singolo attore o paese esercitare un controllo o un'influenza sproporzionata sulla rete. Questo approccio può contribuire a proteggere la rete da potenziali attacchi e rafforzarne la decentralizzazione.
 
-Le Home Mining présente plusieurs avantages. Tout d'abord, il permet une distribution plus large du hashrate en encourageant les individus à participer à l'activité de minage depuis leur domicile. Cela réduit la concentration du pouvoir entre les mains de grandes pools de minage et renforce la résistance à la censure.
+La conclusione generale è che la decentralizzazione è fondamentale per la sicurezza e la resilienza della rete Bitcoin. Sebbene la centralizzazione possa offrire vantaggi in termini di efficienza, espone la rete a significativi rischi, tra cui la censura e gli attacchi del 51%. Iniziative come Takai e l'adozione di nuovi protocolli come Stratum V2 sono passi importanti verso la decentralizzazione e la protezione della rete Bitcoin da queste minacce.
 
-De plus, le Home Mining contribue à la décentralisation du réseau en diversifiant les acteurs et la géographie du minage. En encourageant la participation de mineurs de différentes régions géographiques, il devient plus difficile pour un seul acteur ou pays d'exercer un contrôle ou une influence disproportionnée sur le réseau.
+## Le sfumature dell'industria del mining
 
-### Le protocole Stratum V2
-
-Le protocole Stratum V2 offre une approche différente pour renforcer la décentralisation du réseau Bitcoin. Contrairement à son prédécesseur, Stratum V2 permet aux mineurs de choisir les transactions à inclure dans les blocs qu'ils minent. Cela donne plus de pouvoir aux mineurs individuels et diminue la capacité des grandes pools de minage à dominer le réseau. Ainsi, Stratum V2 joue un rôle déterminant dans la lutte contre la centralisation du hashrate.
-
-### L'open-sourcing des logiciels de minage
-
-Une autre stratégie pour favoriser la décentralisation est l'open-sourcing des logiciels de minage. En rendant ces logiciels accessibles à tous, les petits mineurs ont les mêmes opportunités que les grandes entreprises de minage pour participer et contribuer au réseau de blockchain. Cela encourage une distribution plus large du hashrate et contribue à la décentralisation du réseau.
-
-### Conclusion
-
-En conclusion, la décentralisation est cruciale pour la sécurité et la résilience du réseau Bitcoin. Des initiatives telles que Attakai, l'adoption du protocole Stratum V2 et l'open-sourcing des logiciels de minage sont des étapes importantes vers la décentralisation et la protection du réseau contre les risques de censure et d'attaques des 51%.
 Nel contesto attuale, la pratica del mining di Bitcoin con S9 può sembrare complessa, ma un'analisi più approfondita apre la strada a alternative innovative. Il principio di Attakai si basa su una riflessione sull'uso delle strutture di mining in diversi tipi di edifici, come scuole o ospedali. L'idea principale è quella di posizionare alcune macchine di mining in vari luoghi, consentendo così di riutilizzare il calore emesso da queste macchine per riscaldare gli edifici. Optando per modelli più performanti come gli S19, sarebbe possibile distribuire l'attività di mining, favorendo una migliore performance complessiva e contribuendo utilmente alla società. Questa iniziativa mirerebbe a competere con le grandi strutture di mining centralizzate utilizzando il calore generato dalle macchine di mining in modo produttivo ed efficiente.
 
 L'iniziativa Attakai deriva da un'esperienza personale di mining casalingo, realizzata da due amici desiderosi di partecipare attivamente alla rete Bitcoin. Hanno incontrato ostacoli significativi, come il livello di rumore elevato delle attrezzature di mining, progettate per un uso industriale e non domestico. Per ovviare a questo problema, sono state apportate modifiche hardware alle macchine di mining. Ventole più performanti e silenziose hanno sostituito le attrezzature originali, rendendo il mining casalingo più accessibile e meno disturbante. Inoltre, l'aggiunta di un adattatore Wi-Fi ha eliminato la necessità di una connessione Ethernet via cavo, semplificando ulteriormente il processo di mining casalingo. Durante l'inverno, questi minatori modificati sono stati utilizzati come fonte di riscaldamento, trasformando un fastidio in un beneficio.
@@ -162,6 +160,7 @@ Esponendo il loro progetto alla comunità Bitcoin e di fronte all'interesse susc
 ![image](assets/overview/attakai.png)
 
 ### La limite di questa decentralizzazione?
+
 Sebbene l'idea di decentralizzare il mining attraverso l'utilizzo produttivo del calore generato sembri promettente, presenta alcune limitazioni e rimangono delle domande. Le strutture ad alto consumo energetico, come saune e piscine, potrebbero beneficiare di questo concetto utilizzando il calore prodotto dai minatori per riscaldare l'acqua delle loro strutture. Questa pratica è già stata adottata da alcuni membri della comunità Bitcoin, che stanno esplorando diversi metodi per utilizzare in modo efficiente il calore generato dagli apparecchi di mining. Ad esempio, una sala per feste potrebbe teoricamente essere riscaldata da tre o quattro S19, ognuno dei quali consuma 3000 watt e produce una quantità equivalente di calore.
 
 Tuttavia, è importante sottolineare che il consumo di energia e la produzione di calore sono equivalenti, che l'energia venga utilizzata da un radiatore elettrico o da un minatore. Per ogni kilowatt di elettricità utilizzata, la quantità di calore prodotta sarà la stessa in entrambi i casi. La differenza sta nel fatto che il minatore fornirà non solo il calore, ma anche una ricompensa in bitcoin, offrendo così un incentivo economico per utilizzare un minatore anziché un semplice radiatore elettrico. Questa ricompensa aggiuntiva potrebbe contribuire ad attenuare le preoccupazioni legate all'alto consumo energetico dei minatori.
@@ -171,7 +170,9 @@ La questione dell'efficienza e della fattibilità a lungo termine dell'utilizzo 
 ### Perché avere ricompense in BTC?
 
 La questione della ricompensa in bitcoin anziché in un'altra valuta è fondamentale nel sistema ideato da Satoshi Nakamoto. La creazione del Bitcoin si caratterizza per un tetto massimo fisso di 21 milioni di unità. L'obiettivo era trovare un modo equo per distribuire queste unità appena create. I minatori, fornendo la loro potenza di calcolo per proteggere la rete, rendendo così sempre più costosa qualsiasi attacco, proteggono efficacemente la rete Bitcoin. In cambio di questo contributo cruciale, vengono ricompensati con i nuovi bitcoin creati, facilitando così la distribuzione delle monete nell'ecosistema.
+
 È un sistema vantaggioso per entrambe le parti. I minatori vengono pagati sia per la sicurezza della rete che per l'approvazione delle transazioni. I nuovi bitcoin creati vengono dati come incentivo per rafforzare la sicurezza, mentre le commissioni di transazione rappresentano un reddito aggiuntivo per l'approvazione delle transazioni. Questi due elementi combinati costituiscono la ricompensa totale per il mining. La questione del futuro del mining sorge a causa della riduzione programmata delle ricompense per il mining, che diminuiscono della metà ogni quattro anni, in un evento noto come "halving". Entro il 2032, la ricompensa per blocco sarà inferiore a un bitcoin e nel 2140 non verranno creati nuovi bitcoin. A quel punto, i minatori dipenderanno esclusivamente dalle commissioni di transazione per il pagamento. La rete Bitcoin dovrà supportare un grande volume di transazioni, con commissioni sufficientemente alte, per garantire la redditività del mining.
+
 L'emergere del Lightning Network, che consente transazioni veloci e a basso costo al di fuori della blockchain principale di Bitcoin, solleva interrogativi sul futuro del mining. Il Lightning Network ha il potenziale per ridurre significativamente le commissioni di transazione, influenzando così il reddito dei minatori. Tuttavia, ciò dipenderà dall'adozione e dall'uso del Lightning Network rispetto alla rete Bitcoin principale. In uno scenario pessimistico, i minatori potrebbero trovare redditizio continuare a minare anche a perdita, se hanno ammortizzato i loro costi e hanno accesso a energia elettrica a basso costo. In uno scenario più ottimistico, le commissioni di transazione sulla rete Bitcoin principale potrebbero rimanere sufficientemente alte da mantenere la redditività del mining.
 
 ### Cosa dovrebbe essere incluso in un blocco Bitcoin?
@@ -201,31 +202,39 @@ Il dilemma della sicurezza di Bitcoin si basa su un equilibrio delicato. Sebbene
 
 La guerra dei blocchi ha rivelato l'incertezza e la tensione intrinseche nella gestione della rete Bitcoin. Sebbene Bitcoin Core sia attualmente la catena dominante, il dibattito sulla governance e la gestione della rete persiste.
 Alla fine, la responsabilità è condivisa tra tutti gli attori della rete Bitcoin. Una diminuzione del numero di utenti, nodi o minatori potrebbe indebolire la rete, aumentando il rischio di centralizzazione e vulnerabilità agli attacchi. Ogni attore contribuisce alla robustezza e alla sicurezza della rete, rafforzando l'importanza di mantenere un equilibrio di potere e responsabilità.
+
 ### Il potere dei minatori
 
 L'elegante teoria dei giochi di Satoshi Nakamoto ha stabilito una situazione in cui ogni attore della rete Bitcoin è incentivato ad agire correttamente per proteggere sia i propri interessi che quelli degli altri partecipanti. Ciò crea un equilibrio in cui il comportamento scorretto può essere punito, rafforzando così la sicurezza e la stabilità dell'intero sistema. Nonostante questo equilibrio, gli Stati rimangono una potenziale minaccia. Come indicato nella presentazione a Surfing Bitcoin 2022, gli Stati possono cercare di attaccare l'industria del mining, esponendo la rete Bitcoin a rischi di centralizzazione e attacco. Scenari ipotetici come un attacco militare mirato alle strutture di produzione di hardware per il mining sottolineano l'importanza della diversificazione geografica e industriale per la resilienza della rete Bitcoin.
 
 ![image](assets/overview/miner.png)
 
-La centralizzazione della produzione di hardware per il mining in Cina rappresenta un altro rischio. Un rifiuto di esportare macchine per il mining o un accumulo di hashrate per un potenziale attacco del 51% da parte della Cina sottolineano la necessità di una produzione diversificata di hardware per il mining. Di fronte a questi rischi, la comunità Bitcoin sta attivamente esplorando soluzioni. Aziende come Intel stanno considerando la produzione di attrezzature per il mining negli Stati Uniti, contribuendo alla distribuzione della produzione. Altre iniziative, come quella di Block con il suo Mining Development Kit (MDK) open source, mirano a ridurre i monopoli nella progettazione e produzione di hardware per il mining, consentendo una distribuzione più ampia dell'hashrate. Al centro di queste discussioni c'è la missione fondamentale di Bitcoin: essere una rete di scambio di valore resistente alla censura. La comunità Bitcoin si impegna costantemente a rafforzare la distribuzione, la resistenza alla censura e l'antifragilità della rete, respingendo proposte come il passaggio al proof of stake, che non si allineano con questi principi fondamentali.
+La centralizzazione della produzione di hardware per il mining in Cina rappresenta un altro rischio. Un rifiuto di esportare macchine per il mining o un accumulo di hashrate per un potenziale attacco del 51% da parte della Cina sottolineano la necessità di una produzione diversificata di hardware per il mining. 
+
+Di fronte a questi rischi, la comunità Bitcoin sta attivamente esplorando soluzioni. Aziende come Intel stanno considerando la produzione di attrezzature per il mining negli Stati Uniti, contribuendo alla distribuzione della produzione. Altre iniziative, come quella di Block con il suo Mining Development Kit (MDK) open source, mirano a ridurre i monopoli nella progettazione e produzione di hardware per il mining, consentendo una distribuzione più ampia dell'hashrate. Al centro di queste discussioni c'è la missione fondamentale di Bitcoin: essere una rete di scambio di valore resistente alla censura. La comunità Bitcoin si impegna costantemente a rafforzare la distribuzione, la resistenza alla censura e l'antifragilità della rete, respingendo proposte come il passaggio al proof of stake, che non si allineano con questi principi fondamentali.
 
 ### Il legame fisico della prova di lavoro vs la prova di scommessa
-La corrélation entre le prix du bitcoin et le hashrate est un sujet d'intérêt dans l'industrie de la cryptomonnaie. Le hashrate fait référence à la puissance de calcul totale du réseau Bitcoin, mesurée en termes de nombre de calculs par seconde. Il est généralement considéré comme un indicateur de la sécurité et de la robustesse du réseau.
 
-Il existe une corrélation positive entre le prix du bitcoin et le hashrate. En d'autres termes, lorsque le prix du bitcoin augmente, le hashrate a tendance à augmenter également. Cela peut s'expliquer par le fait que lorsque le prix du bitcoin est élevé, il devient plus rentable pour les mineurs de participer au réseau et de consacrer des ressources à l'extraction de nouvelles pièces.
+La correlazione tra il prezzo del bitcoin e l'hashrate è un argomento di interesse nell'industria delle criptovalute. L'hashrate si riferisce alla potenza computazionale totale della rete Bitcoin, misurata in termini di numero di calcoli al secondo. È generalmente considerato un indicatore della sicurezza e della robustezza della rete.
 
-D'autre part, lorsque le prix du bitcoin baisse, certains mineurs peuvent trouver moins rentable de continuer à extraire, ce qui peut entraîner une diminution du hashrate. Cependant, il est important de noter que cette corrélation n'est pas toujours linéaire et peut être influencée par d'autres facteurs tels que la disponibilité de l'équipement minier et les coûts d'électricité.
+Esiste una correlazione positiva tra il prezzo del bitcoin e l'hashrate. In altre parole, quando il prezzo del bitcoin aumenta, anche l'hashrate tende ad aumentare. Questo può essere spiegato dal fatto che, quando il prezzo del bitcoin è alto, diventa più redditizio per i minatori partecipare alla rete e dedicare risorse all'estrazione di nuove monete.
 
-En conclusion, la corrélation entre le prix du bitcoin et le hashrate est complexe et peut être influencée par plusieurs facteurs. Cependant, il est généralement admis qu'une augmentation du prix du bitcoin est souvent accompagnée d'une augmentation du hashrate, ce qui renforce la sécurité et la résilience du réseau Bitcoin.
+D'altra parte, quando il prezzo del bitcoin diminuisce, alcuni minatori possono trovare meno redditizio continuare a estrarre, il che può portare a una diminuzione dell'hashrate. Tuttavia, è importante notare che questa correlazione non è sempre lineare e può essere influenzata da altri fattori come la disponibilità di attrezzature minerarie e i costi dell'elettricità.
+
+In conclusione, la correlazione tra il prezzo del bitcoin e l'hashrate è complessa e può essere influenzata da diversi fattori. Tuttavia, è generalmente accettato che un aumento del prezzo del bitcoin sia spesso accompagnato da un aumento dell'hashrate, il che rafforza la sicurezza e la resilienza della rete Bitcoin.
+
 Il mining di Bitcoin può essere svolto con l'obiettivo di ottenere un profitto o di contribuire alla sicurezza e alla decentralizzazione della rete. Molti miner si concentrano sul calcolo dei costi e sulla redditività dell'attività di mining, cercando di massimizzare i guadagni. Tuttavia, è importante considerare anche l'importanza di contribuire al funzionamento del network Bitcoin e alla sua sicurezza. I miner che scelgono di dedicarsi al mining per il bene della rete spesso sono disposti a sopportare costi più elevati e a guadagnare meno, poiché ritengono che la sicurezza e la decentralizzazione del network siano di fondamentale importanza per il successo a lungo termine di Bitcoin.
-La question de la souveraineté et de la régulation est également un aspect important du minage de Bitcoin. Certains pays considèrent le minage de Bitcoin comme une activité illégale ou non réglementée, ce qui peut entraîner des conséquences juridiques pour les mineurs. D'autres pays adoptent une approche plus favorable en encourageant le développement de l'industrie du minage de Bitcoin sur leur territoire.
 
-La souveraineté est également un enjeu majeur, car le minage de Bitcoin est un processus décentralisé qui ne dépend pas d'une autorité centrale. Cela signifie que les mineurs peuvent opérer indépendamment des frontières nationales, ce qui peut poser des défis aux gouvernements qui cherchent à réglementer cette activité.
+La questione della sovranità e della regolamentazione è anch'essa un aspetto importante del mining di Bitcoin. Alcuni paesi considerano il mining di Bitcoin un'attività illegale o non regolamentata, il che può comportare conseguenze legali per i minatori. Altri paesi adottano un approccio più favorevole incoraggiando lo sviluppo dell'industria del mining di Bitcoin sul loro territorio.
 
-Il est important de trouver un équilibre entre la souveraineté nationale et la régulation pour assurer la sécurité et la viabilité du réseau Bitcoin. Une régulation excessive peut entraîner une centralisation du pouvoir de hachage, tandis qu'une absence de régulation peut entraîner des risques pour les utilisateurs et le réseau lui-même.
+La sovranità è anche una questione importante, poiché il mining di Bitcoin è un processo decentralizzato che non dipende da un'autorità centrale. Ciò significa che i minatori possono operare indipendentemente dalle frontiere nazionali, il che può presentare sfide ai governi che cercano di regolamentare questa attività.
 
-La communauté Bitcoin continue de débattre de ces questions et cherche des solutions pour promouvoir une régulation équilibrée qui soutienne la souveraineté individuelle tout en garantissant la sécurité et la stabilité du réseau.
+È importante trovare un equilibrio tra la sovranità nazionale e la regolamentazione per garantire la sicurezza e la sostenibilità della rete Bitcoin. Una regolamentazione eccessiva può portare a una centralizzazione del potere di hash, mentre l'assenza di regolamentazione può comportare rischi per gli utenti e per la rete stessa.
+
+La comunità Bitcoin continua a dibattere su queste questioni e cerca soluzioni per promuovere una regolamentazione equilibrata che sostenga la sovranità individuale garantendo al contempo la sicurezza e la stabilità della rete.
+
 ### Sovranità prima del profitto?
+
 Per affrontare la questione cruciale della ricchezza attraverso il mining, è importante considerare diverse prospettive e approcci. Le domande sulla redditività del mining sono comuni, con domande che riguardano l'acquisto di azioni di aziende come Riot o il noleggio di macchine per il mining in paesi a basso costo energetico come l'Islanda o la Russia. Prima di avventurarsi nel mining, una considerazione essenziale sarebbe confrontare la redditività del mining con l'acquisto diretto di Bitcoin. Se il costo di mining di un Bitcoin supera il costo dell'acquisto diretto, di solito è più saggio acquistare direttamente il Bitcoin. Ciò evita le molteplici sfide e i costi associati al processo di mining.
 
 Tuttavia, il mining offre vie uniche per coinvolgersi nell'ecosistema Bitcoin. Ad esempio, il mining di Bitcoin in inverno può essere un modo ingegnoso per riscaldare la propria casa generando reddito in Bitcoin. Un'altra opzione è investire in aziende che vendono hardware per il mining e che conservano e gestiscono le macchine in posizioni a basso costo energetico, offrendo così l'accesso a tariffe elettriche vantaggiose senza i problemi legati alla gestione delle attrezzature.
@@ -235,8 +244,11 @@ Nonostante queste opzioni, il mining presenta sfide significative. Il noto adagi
 ![image](assets/overview/self.png)
 
 ### Bitcoin vergini
+
 L'interdiction du minage en Europe est un sujet qui suscite des débats et des préoccupations. Bien que certains pays européens aient mis en place des réglementations strictes concernant le minage de cryptomonnaies, il n'y a pas d'interdiction générale du minage en Europe. Les réglementations varient d'un pays à l'autre et peuvent être liées à des questions environnementales, énergétiques ou de conformité fiscale. Il est donc important de se renseigner sur les réglementations spécifiques du pays dans lequel vous vous trouvez avant de vous lancer dans le minage de cryptomonnaies.
+
 Con la questione del potenziale divieto del mining in Europa, le discussioni sulla regolamentazione stanno diventando sempre più rilevanti. Il mutevole panorama normativo potrebbe infatti influenzare notevolmente l'industria del mining di Bitcoin. Il divieto del mining in Europa è uno scenario plausibile, soprattutto considerando i precedenti in Cina. Nonostante il divieto, le operazioni di mining continuano in Cina, ma l'Europa potrebbe seguire una strada simile. Una distribuzione più ampia dell'hashrate in diverse regioni potrebbe contribuire a rafforzare la comunità dei minatori in Europa, consentendo loro di contrastare efficacemente i fraintendimenti e le false idee sul mining, il suo impatto ambientale e la sua impronta sulla rete elettrica.
+
 ![image](assets/overview/regulation.jpg)
 
 Di fronte a campagne come quelle di Greenpeace e ai dati spesso ingannevoli di alcuni studi, l'arma migliore rimane l'informazione veritiera. È essenziale informare il pubblico e i decisori sulla realtà del mining, sulla sua complessità e sfumatura, anziché lasciarli fare affidamento su stereotipi e informazioni inesatte. Più persone saranno informate e consapevoli di cosa sia realmente il mining, meglio l'industria potrà difendersi dalle eventuali regolamentazioni restrittive.
@@ -262,7 +274,9 @@ Per un investimento di 1 kW di energia elettrica, un radiatore elettrico produce
 
 Un computer, o più in generale una scheda elettronica, non consuma energia per effettuare calcoli, ha semplicemente bisogno che l'energia circoli nei suoi componenti per funzionare. Il consumo di energia è dovuto alla resistenza elettrica dei componenti che produce perdite, generando così calore, questo è ciò che viene chiamato effetto Joule.
 
-Alcune aziende hanno avuto l'idea di condividere le esigenze di potenza di calcolo e le esigenze di riscaldamento attraverso radiatori/server. L'idea è distribuire i server di un'azienda in piccole unità che potrebbero essere collocate in abitazioni o uffici. Tuttavia, questa idea incontra diversi problemi. Le esigenze dei server non sono legate alle esigenze di riscaldamento e le aziende non possono utilizzare le capacità di calcolo dei loro server in modo flessibile. Esistono anche limiti alla larghezza di banda che i singoli individui possono possedere. Tutti questi vincoli impediscono all'azienda di rendere redditizie queste costose installazioni o di fornire un'offerta stabile di server online senza avere centri dati in grado di prendere il sopravvento quando non è presente la necessità di riscaldamento.
+Alcune aziende hanno avuto l'idea di condividere le esigenze di potenza di calcolo e le esigenze di riscaldamento attraverso radiatori/server. L'idea è distribuire i server di un'azienda in piccole unità che potrebbero essere collocate in abitazioni o uffici. Tuttavia, questa idea incontra diversi problemi. Le esigenze dei server non sono legate alle esigenze di riscaldamento e le aziende non possono utilizzare le capacità di calcolo dei loro server in modo flessibile. Esistono anche limiti alla larghezza di banda che i singoli individui possono possedere.
+
+Tutti questi vincoli impediscono all'azienda di rendere redditizie queste costose installazioni o di fornire un'offerta stabile di server online senza avere centri dati in grado di prendere il sopravvento quando non è presente la necessità di riscaldamento.
 > "Il calore del tuo computer non viene sprecato se devi riscaldare la tua casa. Se usi un riscaldamento elettrico dove vivi, allora il calore del tuo computer non è uno spreco. Costa lo stesso generare quel calore con il tuo computer. Se hai un altro sistema di riscaldamento più economico dell'elettrico, allora lo spreco è solo nella differenza di costo. Se è estate e usi l'aria condizionata, allora è il doppio. Il mining di bitcoin dovrebbe avvenire dove è meno costoso. Forse sarà dove il clima è freddo e dove il riscaldamento è elettrico, dove il mining diventerà gratuito."
 > Satoshi Nakamoto - 8 agosto 2010
 
@@ -273,6 +287,7 @@ In sintesi, un radiatore elettrico e un minatore di Bitcoin producono entrambi 1
 ### Il valore aggiunto per Bitcoin
 
 Ciò che è importante capire è come il mining contribuisca alla decentralizzazione di Bitcoin.
+
 Diverse tecnologie già esistenti sono state ingegnosamente combinate per dare vita al consenso di Nakamoto. Questo consenso permette di ricompensare economicamente gli attori onesti per la loro partecipazione al funzionamento della rete Bitcoin, scoraggiando nel contempo gli attori disonesti. Questo è uno dei punti chiave che permette alla rete di esistere in modo sostenibile.
 Gli attori onesti, coloro che effettuano il mining secondo le regole, sono tutti in competizione tra loro per ottenere la più grande parte possibile della ricompensa per la produzione di nuovi blocchi. Questo incentivo economico porta naturalmente a una forma di centralizzazione poiché le aziende scelgono di specializzarsi in questa attività redditizia riducendo i loro costi grazie all'economia di scala. Questi attori industriali hanno una posizione vantaggiosa per l'acquisto, la manutenzione delle macchine ma anche per la negoziazione di tariffe elettriche all'ingrosso.
 
@@ -295,7 +310,6 @@ All'uscita dalla fabbrica, un minatore non è adatto per essere utilizzato come 
 
 ## Guida all'acquisto di un ASIC usato
 
-![Introduzione ad Attakaï: riscaldarsi con Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 In questa sezione vedremo le buone pratiche per l'acquisto di un Bitmain Antminer S9 usato, la macchina su cui si basa questo tutorial di retrofitting in radiatore. Questa guida funziona anche per altri modelli di ASIC in quanto si tratta di una guida generale per l'acquisto di hardware per il mining usato.
 L'Antminer S9 è un dispositivo offerto da Bitmain dal maggio 2016. Consuma 1400W di elettricità e produce 13,5 TH/s. Nonostante sia considerato vecchio, rimane un'ottima opzione per iniziare il mining. Dato che è stato prodotto in grande quantità, è facile trovare pezzi di ricambio in abbondanza in molte regioni del mondo. Di solito è possibile acquistarlo direttamente da privati su siti come Ebay o LeBonCoin, poiché i rivenditori per professionisti non lo offrono più a causa della sua minore competitività rispetto a macchine più recenti. È meno efficiente rispetto ad ASIC come l'Antminer S19, offerto dal marzo 2020, ma questo lo rende un hardware usato conveniente e più adatto alle modifiche che effettueremo.
 
@@ -330,7 +344,9 @@ L'Antminer S9 è composto dalle seguenti parti:
 - Un cavo maschio C13
 
 ![image](assets/guide-achat/7.jpeg)
+
 Quando acquisti una macchina usata, è importante verificare che tutte le parti siano incluse e funzionanti. Durante lo scambio, dovresti chiedere al venditore di accendere la macchina per verificarne il corretto funzionamento. È importante verificare che l'apparecchio si accenda correttamente, quindi verificare la connettività a Internet collegando un cavo Ethernet e accedendo all'interfaccia di connessione di Bitmain tramite un browser Internet sulla stessa rete locale. Puoi trovare questo indirizzo IP collegandoti all'interfaccia del tuo router Internet e cercando i dispositivi connessi. Questo indirizzo dovrebbe avere il seguente formato: 192.168.x.x
+
 ![image](assets/guide-achat/8.gif)
 
 Verifica anche che le credenziali predefinite funzionino (nome utente: root, password: root). Se le credenziali predefinite non funzionano, sarà necessario eseguire un reset della macchina.
@@ -348,7 +364,6 @@ Per sintetizzare questa guida in una frase: **"Non fidarti, verifica"**.
 
 ## Guida all'acquisto di parti per modifiche hardware del S9
 
-![Introduzione ad Attakaï: riscaldarsi con Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 Proprietario di un Antminer S9, probabilmente sai quanto questo dispositivo possa essere rumoroso e ingombrante. Tuttavia, è possibile trasformarlo in un riscaldamento silenzioso e connesso seguendo alcuni semplici passaggi. In questa sezione ti presenteremo l'attrezzatura necessaria per apportare le modifiche.
 
 Se sei un bricoleur esperto e stai cercando di trasformare un minatore in un riscaldamento, questo tutorial è fatto per te. Vogliamo avvertirti che le modifiche apportate a un dispositivo elettronico possono comportare rischi elettrici. Pertanto, è essenziale prendere tutte le precauzioni necessarie per evitare danni o lesioni.
@@ -375,6 +390,7 @@ Invece di utilizzare un cavo Ethernet, puoi connettere il tuo Antminer tramite W
 
 3. Opzionale: aggiungere una presa intelligente.
 Se desideri accendere/spegnere il tuo Antminer dal tuo smartphone e monitorarne il consumo energetico, puoi aggiungere una presa smart. Abbiamo testato la presa ANTELA in versione 16A compatibile con l'applicazione smartlife. Questa presa smart consente di consultare il consumo giornaliero e mensile e si connette direttamente al tuo router Internet tramite Wi-Fi.
+
 ![image](assets/piece/8.jpeg)
 
 Elenco del materiale e link
@@ -394,8 +410,6 @@ Elenco del materiale e link
 # Attakai - modifica del software di un Antminer S9
 
 ## Configurazione di un bridge WIFI/Ethernet Vonet
-
-![Collegare un Antminer S9 alla rete Wifi](https://www.youtube.com/watch?v=y4oYURBaPqg)
 
 Per collegare il tuo ASIC tramite WIFI, avrai bisogno di un dispositivo chiamato bridge, che consente di ricevere il segnale WIFI dal tuo router e trasmetterlo a un altro dispositivo tramite Ethernet.
 
@@ -438,13 +452,12 @@ Una volta che il bridge è connesso, collega il cavo Ethernet del bridge al tuo 
 
 Prima di installare BraiinOS+, potrebbe essere necessario ripristinare il tuo S9 alle impostazioni di fabbrica.
 Questa procedura può essere applicata tra 2 e 10 minuti dopo l'avvio del minatore.
+
 2 minuti dopo aver acceso il minatore, premere il pulsante "Reset" per 5 secondi, quindi rilasciarlo. Il minatore verrà ripristinato alle impostazioni di fabbrica entro 4 minuti e si riavvierà automaticamente (non è necessario spegnerlo).
 
 ![immagine](assets/software/1.jpeg)
 
 ## Installare BraiinsOS+ su un Antminer S9
-
-![Installare Braiins OS+ sul proprio Antminer S9](https://www.youtube.com/watch?v=luqwlvzGsO4)
 
 Il software originale installato da Antminer sulle loro macchine da mining è limitato in termini di funzionalità. Per questo motivo, in questa guida installeremo un altro software chiamato BraiinsOS+. Si tratta di un software di terze parti sviluppato dal primo pool di mining di Bitcoin che offre più funzionalità e consente, ad esempio, di modificare la potenza della macchina.
 
@@ -476,8 +489,6 @@ Vedremo qui come installare facilmente Braiins OS+ direttamente sulla memoria de
 9. Dopo alcuni istanti, il tuo Antminer si riavvierà e potrai accedere all'interfaccia di Braiins OS+ all'indirizzo IP indicato, qui 192.168.1.37, da inserire direttamente nella barra degli indirizzi del tuo browser, nome utente predefinito "root" senza password predefinita.
 
 ## Configurare BraiinsOS+
-
-![Configurare il tuo Antminer S9 con Braiins OS+](https://www.youtube.com/watch?v=dK0t8M8kLYg)
 
 Dovrai connetterti al tuo ASIC utilizzando l'indirizzo IP locale del tuo dispositivo sulla tua rete tramite un browser.
 
@@ -523,8 +534,6 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 
 ## Sostituire la ventola dell'alimentatore
 
-![Sostituire le ventole per ridurre il rumore](https://www.youtube.com/watch?v=2CNGKZiveuc)
-
 > ATTENZIONE: È essenziale aver installato in precedenza Braiins OS+ sul tuo minatore, o qualsiasi altro software in grado di ridurre le prestazioni della tua macchina. Questa misura è cruciale perché, al fine di ridurre il rumore, installeremo ventole meno potenti che saranno in grado di dissipare meno calore.
 
 ![image](assets/hardware/cover.jpeg)
@@ -537,7 +546,9 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 > ATTENZIONE: Prima di iniziare, assicurati di aver scollegato il tuo minatore per evitare qualsiasi rischio di scossa elettrica.
 
 ![image](assets/hardware/1.jpeg)
+
 Prima di tutto, rimuovi le 6 viti sul lato del case che lo tengono chiuso. Una volta rimosse le viti, apri delicatamente il case per rimuovere la protezione in plastica che copre i componenti.
+
 ![image](assets/hardware/2.jpeg)
 ![image](assets/hardware/3.jpeg)
 
@@ -575,7 +586,9 @@ Poi collega i cavi con un connettore, il filo nero con il nero e il filo rosso c
 
 ![image](assets/hardware/13.jpeg)
 ![image](assets/hardware/14.jpeg)
+
 Una volta effettuato il collegamento, è ora di installare il nuovo ventilatore Noctua con la griglia e le vecchie viti, le nuove viti presenti nella scatola saranno riutilizzate in seguito. Assicurati di posizionarlo nella giusta orientazione. Noterai una freccia su uno dei lati del ventilatore, che indica la direzione del flusso d'aria. È importante posizionare il ventilatore in modo che questa freccia punti verso l'interno del case. Quindi ricollega il ventilatore.
+
 ![image](assets/hardware/15.jpeg)
 ![image](assets/hardware/16.jpeg)
 
@@ -590,8 +603,6 @@ Una volta effettuati i collegamenti, rimetti la plastica del coperchio sopra la 
 Infine, rimetti il coperchio del case al suo posto e riavvita le 6 viti sui lati per mantenere tutto in posizione. Ecco fatto, il tuo case di alimentazione è ora dotato di un nuovo ventilatore.
 
 ## Sostituire i Ventilatori Principali
-
-![Sostituire i ventilatori per ridurre il rumore](https://www.youtube.com/watch?v=2CNGKZiveuc)
 
 > ATTENZIONE: È essenziale aver precedentemente installato Braiins OS+ sul tuo minatore, o qualsiasi altro software in grado di ridurre le prestazioni della tua macchina. Questa misura è cruciale perché, al fine di ridurre il rumore, installeremo ventilatori meno potenti, che saranno in grado di dissipare meno calore.
 
@@ -645,13 +656,16 @@ Ecco fatto, bravo! Hai appena sostituito l'intera parte meccanica del tuo minato
 
 ## Unisciti a un pool di mining
 
-![Unisciti a un pool di mining con un Antminer S9](https://www.youtube.com/watch?v=wM-dRog6mls&t=166s)
-Si vous souhaitez créer un système de chauffage en utilisant une pool de minage, il est important de choisir celle qui convient le mieux à vos besoins. Une pool de minage est un groupe de mineurs qui mettent en commun leur puissance de calcul pour augmenter leurs chances de trouver un bloc et de recevoir une récompense. En rejoignant une pool, vous partagez les frais et les récompenses avec les autres mineurs en fonction de votre contribution au hashrate de la pool.
+Se desiderate creare un sistema di riscaldamento utilizzando una pool di mining, è importante scegliere quella che meglio si adatta alle vostre esigenze. Una pool di mining è un gruppo di minatori che uniscono la loro potenza di calcolo per aumentare le loro possibilità di trovare un blocco e ricevere una ricompensa. Unendovi a una pool, condividete le spese e le ricompense con gli altri minatori in base al vostro contributo al hashrate della pool.
 
-Il est important de noter que si vous décidez de miner seul, vos chances de trouver un bloc et de recevoir une récompense sont très faibles. En rejoignant une pool, vous augmentez considérablement vos chances de succès. Cependant, il est également possible, bien que très improbable, de réussir en tant que mineur solo.
+È importante notare che se decidete di minare da soli, le vostre possibilità di trovare un blocco e di ricevere una ricompensa sono molto basse. Unendovi a una pool, aumentate notevolmente le vostre possibilità di successo. Tuttavia, è anche possibile, sebbene molto improbabile, avere successo come minatore solitario.
 
-Dans notre guide, nous nous concentrerons sur la création d'un système de chauffage en utilisant une pool de minage.
-Le considerazioni da tenere in considerazione nella scelta di un pool di mining sono il funzionamento delle ricompense del pool, che possono essere diverse, così come l'importo minimo prima di poter prelevare le ricompense su un indirizzo. Ad esempio, Braiins, che offre il software di cui stiamo parlando qui, offre anche un pool. Questo pool ha un sistema di ricompensa chiamato "Score" che incoraggia i minatori a minare per lunghi periodi. La partecipazione include un fattore di tempo di attività che viene espresso con un "scoring hashrate". Nel nostro caso, in cui desideriamo un sistema di riscaldamento che possa essere acceso solo per pochi minuti, questo non è il sistema di ricompensa ideale. Preferiamo invece un sistema di ricompensa che ci dia una ricompensa uguale per ogni partecipazione. Inoltre, l'importo minimo di prelievo per Braiins Pool è di 100.000 sats e On-Chain. Quindi perdiamo alcuni sats in commissioni di transazione e una parte della nostra ricompensa può essere bloccata se non miniamo abbastanza durante l'inverno.
+Nella nostra guida, ci concentreremo sulla creazione di un sistema di riscaldamento utilizzando una pool di mining.
+
+Le considerazioni da tenere in considerazione nella scelta di un pool di mining sono il funzionamento delle ricompense del pool, che possono essere diverse, così come l'importo minimo prima di poter prelevare le ricompense su un indirizzo. Ad esempio, Braiins, che offre il software di cui stiamo parlando qui, offre anche un pool. Questo pool ha un sistema di ricompensa chiamato "Score" che incoraggia i minatori a minare per lunghi periodi. La partecipazione include un fattore di tempo di attività che viene espresso con un "scoring hashrate". 
+
+Nel nostro caso, in cui desideriamo un sistema di riscaldamento che possa essere acceso solo per pochi minuti, questo non è il sistema di ricompensa ideale. Preferiamo invece un sistema di ricompensa che ci dia una ricompensa uguale per ogni partecipazione. Inoltre, l'importo minimo di prelievo per Braiins Pool è di 100.000 sats e On-Chain. Quindi perdiamo alcuni sats in commissioni di transazione e una parte della nostra ricompensa può essere bloccata se non miniamo abbastanza durante l'inverno.
+
 Il modello di ricompensa che ci interessa è il PPS, che significa "pay-per-share". Ciò significa che il minatore riceverà una ricompensa per ogni condivisione valida. Esiste anche una variante di questo sistema, il FPPS (Full Pay Per Share), che divide non solo la ricompensa della coinbase, ma anche le commissioni di transazione incluse nel blocco. I pool di mining che consigliamo per collegare il tuo mining/riscaldamento sono Linecoin Pool (FPPS) e Nicehash (PPS).
 
 - Nicehash: Il vantaggio di Nicehash è che il prelievo può essere effettuato utilizzando Lightning con commissioni minime. Inoltre, l'importo minimo di prelievo è di 2000 sats. Lo svantaggio è che Nicehash utilizza il suo hashrate per la blockchain più redditizia, senza dare realmente il controllo all'utente e quindi potrebbe non partecipare all'hashrate di Bitcoin.
@@ -671,18 +685,21 @@ Successivamente, copia l'indirizzo Stratum e il tuo nome utente:
 Ora puoi tornare all'interfaccia di Braiins OS+ per inserire queste credenziali. Per la password, puoi lasciare il campo vuoto.
 
 ![image](assets/software/21.jpeg)
+
 ## Ottimizzare le prestazioni del proprio Antminer S9
-![Ottimizzare le prestazioni del proprio Antminer S9 con l'autotuning](https://www.youtube.com/watch?v=yh8U9Ay1i-E&t=277s)
 
 L'overclocking e l'autotuning consistono entrambi nell'aggiustare le frequenze delle schede di hashing per migliorare le prestazioni dell'ASIC. La differenza tra i due risiede nella complessità di questi settaggi di frequenza.
 
-L'overclocking è un semplice aggiustamento che consiste nell'aumentare la frequenza delle schede di hashing per aumentare il tasso di hashing della macchina. L'underclocking, invece, consiste nel diminuire la frequenza di clock di un circuito integrato al di sotto della sua frequenza nominale. Riducendo la frequenza di clock di un ASIC tramite l'underclocking, si riduce anche il calore generato dall'hardware. Ciò consente di ridurre la velocità dei ventilatori necessari per raffreddare l'ASIC, poiché non devono lavorare così duramente per mantenere una temperatura adeguata. Riducendo la velocità dei ventilatori, si riduce anche il rumore generato dall'ASIC. Ciò può essere particolarmente utile per gli utenti che utilizzano ASIC a casa e cercano di ridurre al minimo le interferenze sonore causate dall'hardware di mining.
+L'overclocking è un semplice aggiustamento che consiste nell'aumentare la frequenza delle schede di hashing per aumentare il tasso di hashing della macchina. L'underclocking, invece, consiste nel diminuire la frequenza di clock di un circuito integrato al di sotto della sua frequenza nominale. 
+
+Riducendo la frequenza di clock di un ASIC tramite l'underclocking, si riduce anche il calore generato dall'hardware. Ciò consente di ridurre la velocità dei ventilatori necessari per raffreddare l'ASIC, poiché non devono lavorare così duramente per mantenere una temperatura adeguata. Riducendo la velocità dei ventilatori, si riduce anche il rumore generato dall'ASIC. Ciò può essere particolarmente utile per gli utenti che utilizzano ASIC a casa e cercano di ridurre al minimo le interferenze sonore causate dall'hardware di mining.
 
 Braiins OS+ supporta l'overclocking, l'underclocking degli ASIC e l'autotuning. Consente agli utenti di regolare in modo flessibile la frequenza di clock del proprio hardware per massimizzare le prestazioni o risparmiare energia secondo le proprie preferenze.
 
 ### Ottimizzare le prestazioni del proprio Antminer S9 con l'autotuning
 
 Prima del 2018, i minatori avevano due modi per ottenere un vantaggio nella loro attività: trovare elettricità a un costo ragionevole e acquistare hardware più efficiente. Tuttavia, nel 2018 è stata scoperta una nuova avanzata nel campo del software e del firmware di mining, chiamata AsicBoost. Questa tecnica consente ai minatori di ridurre i loro costi di circa il 13% modificando il firmware eseguito sui loro dispositivi.
+
 Oggi c'è un nuovo sviluppo nel settore del software e del firmware minerario chiamato autoregolazione (o autotuning) che offre un vantaggio ancora maggiore rispetto ad AsicBoost. Gli ASIC sono composti da numerosi piccoli chip informatici che eseguono l'hashing. Questi chip sono fatti di silicio, lo stesso elemento ampiamente utilizzato nei semiconduttori e in altri componenti microelettronici. La chiave di comprensione qui è che tutti i chip di silicio non sono identici, ognuno può variare leggermente nelle sue proprietà elettriche. I produttori di hardware lo sanno e pubblicano le specifiche di prestazione delle loro macchine minerarie in base al limite inferiore delle loro tolleranze. In altre parole, i produttori conoscono la frequenza che funziona meglio per i chip medi e utilizzano questa frequenza in modo uniforme per tutti i chip della macchina.
 
 Questo pone un limite superiore alla velocità di hashing che una macchina può avere. L'autoregolazione è un processo in cui gli algoritmi valutano le frequenze ottimali per l'hashing chip per chip, invece di trattare l'intera macchina come un'unica unità. Ciò significa che un chip di migliore qualità che può eseguire più hash al secondo otterrà una frequenza più alta, mentre un chip di qualità inferiore che può eseguire relativamente meno otterrà una frequenza più bassa. L'autoregolazione del chip è essenzialmente un modo per ottimizzare le prestazioni di un ASIC tramite il software e il firmware eseguiti su di esso.

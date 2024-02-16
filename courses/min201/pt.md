@@ -65,7 +65,9 @@ Para explicar de forma simplificada o conceito de mineração, uma analogia rele
 ![imagem](assets/overview/puzzle.png)
 
 Inicialmente na rede Bitcoin, a recompensa concedida era de 50 bitcoins a cada dez minutos, em paralelo à descoberta de um bloco a cada dez minutos, em média, pelos mineradores. Essa recompensa é reduzida pela metade a cada 210.000 blocos, aproximadamente a cada quatro anos. Essa remuneração serve como um poderoso incentivo para encorajar os mineradores a participarem do processo de mineração, apesar de seu custo energético. Sem a recompensa, a mineração, que consome muita eletricidade, seria abandonada, comprometendo assim a segurança e a estabilidade de toda a rede Bitcoin.
+
 A recompensa atual de mineração é dupla. Por um lado, inclui a criação de novos bitcoins, que passou de 50 bitcoins a cada dez minutos no início para 6,25 bitcoins hoje (2023). Por outro lado, inclui as taxas de transação, ou taxas de mineração, das transações que o minerador escolhe incluir em seu bloco. Quando uma transação de bitcoin é feita, são pagas taxas de transação. Essas taxas funcionam como um tipo de leilão, onde os usuários indicam quanto estão dispostos a pagar para que sua transação seja incluída no próximo bloco. Para maximizar sua recompensa, os mineradores, agindo em seu próprio interesse, selecionam as transações mais lucrativas para incluir em seu bloco, levando em consideração o espaço limitado disponível. Assim, a recompensa de mineração é composta tanto pela geração de novos bitcoins quanto pelas taxas de transação, garantindo um incentivo contínuo para os mineradores e garantindo a sustentabilidade e segurança da rede Bitcoin.
+
 ### Mineradores e suas Ferramentas: Mineração
 
 O processo de mineração consiste em encontrar um hash válido aceitável pela rede Bitcoin. Esse hash, uma vez calculado e encontrado, é irreversível, como batatas transformadas em purê. Ele verifica uma determinada função sem a possibilidade de voltar atrás. Os mineradores, em competição, usam máquinas para calcular esses hashes. Embora seja teoricamente possível encontrar esse hash manualmente, a complexidade da operação torna essa opção inviável. Computadores, capazes de realizar esses cálculos rapidamente, são, portanto, usados, consumindo, no entanto, uma quantidade significativa de eletricidade.
@@ -75,6 +77,7 @@ No início, a era da CPU dominava, onde os mineradores usavam seus computadores 
 ![image](assets/overview/chip.png)
 
 Os ASICs são chips, comparáveis ao chip de uma CPU, no entanto, eles são desenvolvidos para realizar apenas um tipo específico de cálculo da maneira mais eficiente possível. Em outras palavras, uma CPU é capaz de realizar uma variedade de tipos diferentes de cálculos sem ser particularmente otimizada para um tipo de cálculo ou outro, enquanto um ASIC será capaz de realizar apenas um tipo de cálculo, mas de maneira muito eficiente. No caso, os ASICs Bitcoin são projetados para calcular o algoritmo SHA256.
+
 Hoje em dia, os mineradores utilizam exclusivamente ASICs dedicadas a essa operação, otimizadas para testar o maior número possível de combinações com o menor consumo de energia e o mais rápido possível. Esses computadores, incapazes de executar tarefas além da mineração de Bitcoin, são um testemunho tangível da evolução contínua e da crescente especialização da indústria de mineração de Bitcoin. Essa evolução constante reflete a dinâmica intrínseca do Bitcoin, onde um ajuste na dificuldade garante a produção de um bloco a cada dez minutos, apesar do aumento exponencial na capacidade de mineração.
 
 Para ilustrar a intensidade desse processo, considere um minerador típico capaz de realizar 14 TeraHash por segundo, ou seja, 14 trilhões de tentativas a cada segundo para encontrar o hash correto. Em escala da rede Bitcoin, atualmente atingimos cerca de 300 HexaHash por segundo, destacando o poder coletivo mobilizado na mineração de Bitcoin.
@@ -136,7 +139,9 @@ Risco de Regulação É destacado que se um país como os Estados Unidos decidir
 ![image](assets/overview/foundry.png)
 
 Para combater essa centralização, diferentes estratégias são discutidas:
+
 * Attakai: Attakai est un concept qui consiste à utiliser la chaleur générée par l'activité de minage pour chauffer les domiciles. Cela permet de réduire les coûts de chauffage tout en contribuant à l'activité de minage. Cette approche est une façon innovante d'utiliser l'énergie produite par le minage de cryptomonnaies de manière plus efficace et durable.
+
 Na atualidade, a prática da mineração de Bitcoin em S9 pode parecer complexa, mas uma análise mais profunda abre caminho para alternativas inovadoras. O princípio do Attakai baseia-se em uma reflexão sobre o uso de instalações de mineração em vários tipos de edifícios, como escolas ou hospitais. A ideia principal é ter algumas máquinas de mineração em diferentes locais, permitindo assim reutilizar o calor emitido por essas máquinas para aquecer as instalações. Optando por modelos mais eficientes, como o S19, seria possível distribuir a atividade de mineração, promovendo um melhor desempenho geral e contribuindo de forma útil para a sociedade. Essa iniciativa visa competir com grandes instalações de mineração centralizadas, utilizando o calor gerado pelas máquinas de mineração de forma produtiva e eficiente.
 
 A iniciativa Attakai surgiu de uma experiência pessoal de mineração em casa, realizada por dois amigos que desejavam participar ativamente da rede Bitcoin. Eles enfrentaram obstáculos significativos, como o alto nível de ruído dos equipamentos de mineração, projetados para uso industrial e não doméstico. Para contornar esse problema, foram feitas modificações nos equipamentos de mineração. Ventiladores mais eficientes e silenciosos substituíram os equipamentos originais, tornando a mineração em casa mais acessível e menos perturbadora. Além disso, a adição de um adaptador Wi-Fi eliminou a necessidade de uma conexão Ethernet por cabo, simplificando ainda mais o processo de mineração em casa. No inverno, esses mineradores modificados foram utilizados como fonte de aquecimento, transformando um incômodo em benefício.
@@ -146,6 +151,7 @@ Ao expor seu projeto à comunidade Bitcoin e diante do interesse despertado, os 
 ![image](assets/overview/attakai.png)
 
 ### O limite dessa descentralização?
+
 Embora a ideia de descentralização da mineração através do uso produtivo do calor produzido pareça promissora, ela tem algumas limitações e questões permanecem. Estabelecimentos com alto consumo de energia, como saunas e piscinas, podem se beneficiar desse conceito usando o calor produzido pelos mineradores para aquecer a água de suas instalações. Essa prática já está sendo implementada por alguns membros da comunidade Bitcoin, que estão explorando diferentes métodos para usar eficientemente o calor gerado pelos equipamentos de mineração. Por exemplo, uma sala de festas teoricamente poderia ser aquecida por três ou quatro S19, cada um consumindo 3000 watts e produzindo uma quantidade equivalente de calor.
 
 No entanto, é importante ressaltar que o consumo de energia e a produção de calor são equivalentes, seja a energia usada por um aquecedor elétrico ou por um minerador. Para cada quilowatt de eletricidade usado, a quantidade de calor produzida será a mesma em ambos os casos. A diferença está no fato de que o minerador fornecerá não apenas o calor, mas também uma recompensa em bitcoin, oferecendo assim um incentivo econômico para usar um minerador em vez de um simples aquecedor elétrico. Essa recompensa adicional pode ajudar a mitigar as preocupações com o alto consumo de energia dos mineradores.
@@ -155,7 +161,10 @@ A questão da eficiência e viabilidade a longo prazo do uso de mineradores de b
 ### Por que ter recompensas em BTC?
 
 A questão da recompensa em bitcoin em vez de outra moeda é fundamental no sistema imaginado por Satoshi Nakamoto. A criação do Bitcoin é caracterizada por um limite fixo de 21 milhões de unidades. O objetivo era encontrar uma maneira justa de distribuir essas unidades recém-criadas. Os mineradores, ao fornecerem seu poder de computação para garantir a segurança da rede, tornando qualquer ataque cada vez mais custoso, efetivamente protegem a rede Bitcoin. Em troca dessa contribuição crucial, eles são recompensados com os novos bitcoins criados, facilitando assim a distribuição das moedas no ecossistema.
-É um sistema ganha-ganha. Os mineradores são remunerados tanto pela segurança da rede quanto pela aprovação das transações. Os novos bitcoins criados são dados como incentivo para fortalecer a segurança, e as taxas de transação são uma renda adicional para aprovar as transações. Esses dois elementos combinados constituem a recompensa total pela mineração. A questão do futuro da mineração surge devido à redução programada das recompensas de mineração, que diminuem pela metade a cada quatro anos, em um evento conhecido como "halving". Até 2032, a recompensa do bloco será inferior a um bitcoin, e em 2140, nenhum novo bitcoin será criado. Nesse ponto, os mineradores dependerão apenas das taxas de transação para remuneração. A rede Bitcoin precisará suportar uma grande quantidade de transações, com taxas suficientemente altas, para garantir a rentabilidade da mineração.
+É um sistema ganha-ganha. Os mineradores são remunerados tanto pela segurança da rede quanto pela aprovação das transações. 
+
+Os novos bitcoins criados são dados como incentivo para fortalecer a segurança, e as taxas de transação são uma renda adicional para aprovar as transações. Esses dois elementos combinados constituem a recompensa total pela mineração. A questão do futuro da mineração surge devido à redução programada das recompensas de mineração, que diminuem pela metade a cada quatro anos, em um evento conhecido como "halving". Até 2032, a recompensa do bloco será inferior a um bitcoin, e em 2140, nenhum novo bitcoin será criado. Nesse ponto, os mineradores dependerão apenas das taxas de transação para remuneração. A rede Bitcoin precisará suportar uma grande quantidade de transações, com taxas suficientemente altas, para garantir a rentabilidade da mineração.
+
 A ascensão da Lightning Network, que permite transações rápidas e de baixo custo fora da cadeia principal do Bitcoin, levanta questões sobre o futuro da mineração. A Lightning Network tem o potencial de reduzir significativamente as taxas de transação, afetando assim a receita dos mineradores. No entanto, isso dependerá da adoção e uso da Lightning Network em relação à rede principal do Bitcoin. Em um cenário pessimista, os mineradores podem achar lucrativo minerar mesmo com prejuízo, se tiverem amortizado seus custos e tiverem acesso a eletricidade barata. Em um cenário mais otimista, as taxas de transação na rede principal do Bitcoin podem permanecer suficientemente altas para manter a rentabilidade da mineração.
 
 ### O que deve ser incluído em um bloco Bitcoin?
@@ -183,7 +192,9 @@ Segurança e Equilíbrio de Poder
 O dilema da segurança do Bitcoin reside em um equilíbrio delicado. Embora os mineradores desempenhem um papel essencial na validação e criação de blocos, os nós mantêm a integridade verificando e validando transações e blocos. Um bloco incorreto ou fraudulento será rejeitado pelos nós, censurando assim o minerador e preservando a segurança da rede. O poder também é detido pelos nós e pelos usuários da rede Bitcoin. Os nós têm o poder de verificação e validação, enquanto os usuários têm o poder de escolher qual cadeia de blocos usar. Essa distribuição de poder garante a distribuição e a integridade da rede Bitcoin.
 
 A guerra dos blocos revelou a incerteza e a tensão inerentes à governança da rede Bitcoin. Embora o Bitcoin Core seja atualmente a cadeia dominante, o debate sobre a governança e a gestão da rede persiste.
+
 No final, a responsabilidade é compartilhada por todos os atores da rede Bitcoin. Uma diminuição no número de usuários, nós ou mineradores pode enfraquecer a rede, aumentando o risco de centralização e vulnerabilidade a ataques. Cada ator contribui para a robustez e segurança da rede, reforçando a importância de manter um equilíbrio de poder e responsabilidade.
+
 ### O poder dos mineradores
 
 A elegante teoria dos jogos de Satoshi Nakamoto estabeleceu uma situação em que cada ator da rede Bitcoin é incentivado a agir corretamente para proteger tanto seus próprios interesses quanto os dos outros participantes. Isso cria um equilíbrio onde o comportamento inadequado pode ser punido, fortalecendo assim a segurança e estabilidade de todo o sistema. Apesar desse equilíbrio, os Estados ainda representam uma ameaça potencial. Conforme indicado na apresentação do Surfing Bitcoin 2022, os Estados podem tentar atacar a indústria de mineração, expondo a rede Bitcoin a riscos de centralização e ataque. Cenários hipotéticos, como um ataque militar direcionado às instalações de produção de hardware de mineração, destacam a importância da diversificação geográfica e industrial para a resiliência da rede Bitcoin.
@@ -193,7 +204,9 @@ A elegante teoria dos jogos de Satoshi Nakamoto estabeleceu uma situação em qu
 A centralização da produção de hardware de mineração na China apresenta outro risco. A recusa em exportar máquinas de mineração ou a acumulação de hashrate para um potencial ataque de 51% pela China ressaltam a necessidade de uma produção diversificada de hardware de mineração. Diante desses riscos, a comunidade Bitcoin está ativamente explorando soluções. Empresas como a Intel estão considerando a produção de equipamentos de mineração nos Estados Unidos, contribuindo para a distribuição da produção. Outras iniciativas, como a da Block com seu Mining Development Kit (MDK) de código aberto, visam diminuir o monopólio do design e produção de hardware de mineração, permitindo uma distribuição mais ampla do hashrate. No cerne dessas discussões está a missão fundamental do Bitcoin: ser uma rede de troca de valor resistente à censura. A comunidade Bitcoin está constantemente se esforçando para fortalecer a distribuição, resistência à censura e anti-fragilidade da rede, rejeitando propostas como a transição para o proof of stake, que não estão alinhadas com esses princípios fundamentais.
 
 ### A Ligação física da prova de trabalho vs. a Prova de participação
+
 O Proof of Work (PoW) é essencial porque representa a ligação física entre o mundo real e o Bitcoin. Embora os bitcoins sejam imateriais, sua produção requer energia tangível, estabelecendo assim uma ligação direta com o mundo físico e real. Essa conexão garante que a produção e validação de bitcoins e blocos tenham um custo energético real, ancorando assim a rede Bitcoin na realidade física e impedindo sua completa dominação por entidades poderosas. O PoW atua como uma barreira contra a centralização, garantindo que a participação na rede e validação de transações exijam um investimento em recursos tangíveis. Isso impede a monopolização da rede por entidades que de outra forma poderiam assumir o controle sem qualquer barreira significativa, garantindo assim uma distribuição mais justa de poder e influência dentro da rede Bitcoin.
+
 ![image](assets/overview/POWPOS.png)
 
 ### Limitações do Proof of Stake
@@ -205,14 +218,17 @@ Por outro lado, o Proof of Stake (PoS), embora permita a participação em peque
 Para resumir, os mineradores fortalecem a rede Bitcoin contra a censura usando eletricidade para calcular a prova de trabalho do Bitcoin e são recompensados com novos bitcoins e taxas de transação. Com a profissionalização da indústria, diferentes atores emergem, desempenhando diversos papéis, desde a criação de chips até a gestão de fazendas de mineração. Além disso, as finanças também entram em jogo, exercendo controle ao decidir quem sobrevive durante as diferentes fases do mercado. A problemática da centralização persiste, com as entidades mais ricas potencialmente dominando o mercado. No entanto, alternativas estão sendo desenvolvidas em termos de hardware e software. Cabe a cada indivíduo agir e contribuir para a distribuição da rede. O Bitcoin representa uma oportunidade única não apenas em termos de liberdade, mas também de independência energética. Apesar das controvérsias em torno de seu consumo de eletricidade, o Bitcoin oferece um incentivo econômico para uma transição para um uso mais racional e abundante de energia, concretizando o que antes era um ideal ecológico.
 
 ## Preço do bitcoin e hashrate, uma correlação?
-Miner pour le profit ou pour le réseau ?
 
-La question de savoir si les mineurs de Bitcoin doivent miner pour le profit ou pour le bien du réseau est un débat constant dans l'industrie. Certains mineurs se concentrent uniquement sur la rentabilité, cherchant à maximiser leurs gains en exploitant efficacement les ressources disponibles. D'autres, en revanche, considèrent le minage comme une contribution à la sécurité et à la décentralisation du réseau Bitcoin, et sont prêts à accepter des bénéfices plus modestes.
+Minerar para lucro ou para a rede?
 
-Il est important de noter que le minage de Bitcoin est devenu de plus en plus compétitif au fil des ans, avec l'introduction de machines de minage plus puissantes et spécialisées. Cela signifie que les mineurs individuels ont souvent du mal à rivaliser avec les grandes opérations minières qui disposent de ressources considérables. Par conséquent, de nombreux mineurs ont rejoint des pools miniers, où ils combinent leurs ressources pour augmenter leurs chances de résoudre les problèmes mathématiques nécessaires à la validation des transactions.
+A questão de se os mineradores de Bitcoin devem minerar para lucro ou pelo bem da rede é um debate constante na indústria. Alguns mineradores focam unicamente na rentabilidade, buscando maximizar seus ganhos ao explorar eficientemente os recursos disponíveis. Outros, por outro lado, veem a mineração como uma contribuição para a segurança e descentralização da rede Bitcoin e estão dispostos a aceitar lucros mais modestos.
 
-Dans l'ensemble, il n'y a pas de réponse unique à la question de savoir si les mineurs doivent se concentrer sur le profit ou sur le réseau. Cela dépend des objectifs et des valeurs de chaque mineur individuel. Certains peuvent être motivés par le potentiel de gains élevés, tandis que d'autres peuvent être plus préoccupés par la sécurité et la décentralisation du réseau Bitcoin. Quelle que soit leur motivation, les mineurs jouent un rôle essentiel dans le fonctionnement du réseau Bitcoin en validant les transactions et en maintenant sa sécurité.
+É importante notar que a mineração de Bitcoin tornou-se cada vez mais competitiva ao longo dos anos, com a introdução de máquinas de mineração mais poderosas e especializadas. Isso significa que os mineradores individuais frequentemente têm dificuldades para competir com grandes operações de mineração que dispõem de recursos consideráveis. Como resultado, muitos mineradores juntaram-se a pools de mineração, onde combinam seus recursos para aumentar suas chances de resolver os problemas matemáticos necessários para validar transações.
+
+No geral, não há uma única resposta para a questão de se os mineradores devem focar no lucro ou na rede. Depende dos objetivos e valores de cada minerador individual. Alguns podem ser motivados pelo potencial de altos ganhos, enquanto outros podem estar mais preocupados com a segurança e a descentralização da rede Bitcoin. Independentemente de suas motivações, os mineradores desempenham um papel essencial no funcionamento da rede Bitcoin, validando transações e mantendo sua segurança.
+
 A questão é profunda e abrange várias dimensões da mineração de Bitcoin. O equilíbrio entre a busca pelo lucro e a contribuição para a segurança e distribuição da rede Bitcoin é um dilema constante para os mineradores. O debate continua na comunidade Bitcoin, com argumentos sólidos de ambos os lados.
+
 * Minerar para o lucro:
   - Prós: Os mineradores são naturalmente atraídos pelo potencial de lucro oferecido pela mineração de Bitcoin. O investimento em equipamentos de mineração caros pode ser rentabilizado pelas recompensas de mineração e taxas de transação, especialmente quando o preço do Bitcoin está alto.
   - Contras: A busca pelo lucro pode levar à centralização do poder de hash se apenas algumas grandes empresas puderem se dar ao luxo de investir em equipamentos de mineração de ponta. Além disso, o consumo de energia da mineração para o lucro pode ter um impacto ambiental significativo.
@@ -221,11 +237,15 @@ A questão é profunda e abrange várias dimensões da mineração de Bitcoin. O
   - Prós: Minerar para contribuir com a segurança e descentralização da rede Bitcoin é uma iniciativa nobre. Isso ajuda a fortalecer a resiliência da rede e a resistir à censura e ataques.
   - Contras: Sem um incentivo financeiro adequado, pode ser difícil para os mineradores continuarem a apoiar a rede, especialmente se estiverem operando com prejuízo.
 
-A iniciativa Attakai destaca a importância da contribuição para a rede, ao mesmo tempo em que oferece soluções para tornar a mineração mais acessível e menos prejudicial. A possibilidade de minerar em casa, com equipamentos mais acessíveis e soluções para reduzir o ruído, pode ajudar a democratizar a mineração de Bitcoin. Ela incentiva aqueles que estão interessados no Bitcoin não apenas a investir e possuir bitcoins, mas também a participar ativamente da segurança da rede. Ao fornecer equipamentos testados e guias para montagem e instalação, a Attakai facilita a entrada no mundo da mineração de Bitcoin. Também incentiva a inovação e melhorias contínuas, convidando a comunidade a contribuir e compartilhar suas ideias e experiências para melhorar a mineração em casa. O modelo Attakai é uma resposta à questão de minerar para o lucro ou para a rede. Não se trata apenas de obter lucros, mas também de fortalecer a distribuição e segurança da rede Bitcoin, permitindo que mais pessoas participem da mineração, aprendam e compreendam essa indústria crucial. O desafio da eventual proibição da mineração na Europa ainda é uma questão em aberto. Isso levanta preocupações sobre o futuro da mineração de Bitcoin na região e a necessidade de uma regulamentação equilibrada que reconheça a importância da mineração para a segurança e viabilidade da rede Bitcoin, ao mesmo tempo em que aborda questões ambientais. A Attakai e outras iniciativas semelhantes podem desempenhar um papel crucial nesse debate, mostrando que é possível minerar de forma mais sustentável e responsável, ao mesmo tempo em que contribuem positivamente para a rede Bitcoin.
+A iniciativa Attakai destaca a importância da contribuição para a rede, ao mesmo tempo em que oferece soluções para tornar a mineração mais acessível e menos prejudicial. A possibilidade de minerar em casa, com equipamentos mais acessíveis e soluções para reduzir o ruído, pode ajudar a democratizar a mineração de Bitcoin. Ela incentiva aqueles que estão interessados no Bitcoin não apenas a investir e possuir bitcoins, mas também a participar ativamente da segurança da rede. Ao fornecer equipamentos testados e guias para montagem e instalação, a Attakai facilita a entrada no mundo da mineração de Bitcoin. Também incentiva a inovação e melhorias contínuas, convidando a comunidade a contribuir e compartilhar suas ideias e experiências para melhorar a mineração em casa. 
+
+O modelo Attakai é uma resposta à questão de minerar para o lucro ou para a rede. Não se trata apenas de obter lucros, mas também de fortalecer a distribuição e segurança da rede Bitcoin, permitindo que mais pessoas participem da mineração, aprendam e compreendam essa indústria crucial. O desafio da eventual proibição da mineração na Europa ainda é uma questão em aberto. Isso levanta preocupações sobre o futuro da mineração de Bitcoin na região e a necessidade de uma regulamentação equilibrada que reconheça a importância da mineração para a segurança e viabilidade da rede Bitcoin, ao mesmo tempo em que aborda questões ambientais. A Attakai e outras iniciativas semelhantes podem desempenhar um papel crucial nesse debate, mostrando que é possível minerar de forma mais sustentável e responsável, ao mesmo tempo em que contribuem positivamente para a rede Bitcoin.
 
 
 ## Soberania e regulamentação
+
 ### Soberania antes do lucro?
+
 Ao abordar a questão crucial da riqueza através da mineração, é importante considerar diversas perspectivas e abordagens. As dúvidas sobre a rentabilidade da mineração são frequentes, com questionamentos sobre a compra de ações de empresas como a Riot ou o aluguel de máquinas de mineração em países com baixo custo energético, como a Islândia ou a Rússia. Antes de se aventurar na mineração, uma consideração essencial seria comparar a rentabilidade da mineração com a compra direta de Bitcoin. Se o custo de mineração de um Bitcoin for maior do que o custo de compra direta, geralmente é mais sensato comprar o Bitcoin diretamente. Isso evita os múltiplos desafios e custos associados ao processo de mineração.
 
 No entanto, a mineração oferece oportunidades únicas para se envolver no ecossistema do Bitcoin. Por exemplo, minerar Bitcoin no inverno pode ser uma maneira engenhosa de aquecer sua casa enquanto gera receita em Bitcoin. Outra opção é investir em empresas que vendem equipamentos de mineração e que armazenam e gerenciam as máquinas em locais com baixo custo energético, oferecendo acesso a tarifas elétricas vantajosas sem as complicações do gerenciamento dos equipamentos.
@@ -238,7 +258,9 @@ Apesar dessas opções, a mineração apresenta desafios significativos. O conhe
 A mineração proibida na Europa?
 
 A mineração de criptomoedas é uma atividade legal na maioria dos países europeus. No entanto, existem regulamentações específicas que os mineradores devem cumprir, como a conformidade com as leis de proteção de dados e a obtenção de licenças adequadas. Além disso, alguns países podem ter restrições adicionais ou requisitos específicos para a mineração de criptomoedas. É importante que os mineradores estejam cientes das leis e regulamentos locais antes de iniciar suas operações.
+
 Com a questão do potencial de proibição da mineração na Europa, as discussões sobre regulamentação estão se tornando cada vez mais relevantes. O cenário regulatório em constante mudança pode, de fato, ter um impacto significativo na indústria de mineração de Bitcoin. A proibição da mineração na Europa é um cenário possível, especialmente considerando os precedentes na China. Embora as operações de mineração continuem na China apesar da proibição, a Europa poderia seguir um caminho semelhante. Uma distribuição mais ampla da taxa de hash em diferentes regiões pode ajudar a fortalecer a comunidade de mineradores na Europa, permitindo que eles se oponham efetivamente a mal-entendidos e ideias falsas sobre mineração, seu impacto ambiental e sua pegada na rede elétrica.
+
 ![image](assets/overview/regulation.jpg)
 
 Diante de campanhas como as do Greenpeace e dos números frequentemente enganosos de alguns estudos, a melhor arma ainda é a informação verdadeira. É essencial informar o público em geral e os tomadores de decisão sobre a realidade da mineração, sua complexidade e nuances, em vez de permitir que eles se baseiem em estereótipos e informações imprecisas. Quanto mais pessoas estiverem informadas e conscientes do que a mineração realmente é, melhor a indústria poderá se defender contra possíveis regulamentações restritivas.
@@ -248,8 +270,6 @@ Em conclusão, apesar do risco regulatório e da possibilidade de proibição da
 # Mineração doméstica e reutilização de calor
 
 ## Attakai - tornando a mineração doméstica possível e acessível!
-
-![Apresentamos Attakaï!](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
 
 Attakai, que significa "temperatura ideal" em japonês, é o nome da iniciativa para descobrir a mineração de bitcoins por meio da reutilização de calor lançada por @ajelexBTC e @jimzap21 com o Découvre Bitcoin.
 Este guia de retrofitting de um ASIC servirá como base para aprender mais sobre mineração, seu funcionamento e a economia subjacente, demonstrando a possibilidade de adaptar um minerador de Bitcoin para uso como radiadores em residências. Isso oferece mais conforto e economia, permitindo que os participantes recebam cash back em BTC não KYC em sua conta de energia elétrica.
@@ -265,6 +285,7 @@ Para um investimento de 1 kW de energia elétrica, um radiador elétrico produz 
 Um computador, ou mais amplamente uma placa eletrônica, não consome energia para realizar cálculos, ele apenas precisa que a energia circule em seus componentes para funcionar. O consumo de energia é devido à resistência elétrica dos componentes, que gera perdas e, portanto, calor, isso é chamado de efeito Joule.
 
 Algumas empresas tiveram a ideia de combinar as necessidades de energia de computação e as necessidades de aquecimento por meio de radiadores/servidores. A ideia é distribuir os servidores de uma empresa em pequenas unidades que podem ser colocadas em residências ou escritórios. No entanto, essa ideia enfrenta vários problemas. A necessidade dos servidores não está relacionada à necessidade de aquecimento e as empresas não podem usar as capacidades de computação de seus servidores de forma flexível. Também existem limites para a largura de banda que os indivíduos podem ter. Todas essas restrições impedem que a empresa rentabilize essas instalações caras ou forneça um serviço de servidor online estável sem ter data centers capazes de assumir quando não há necessidade de aquecimento.
+
 "A energia térmica do seu computador não é desperdiçada se você precisar aquecer sua casa. Se você usa um aquecedor elétrico onde mora, então o calor do seu computador não é desperdício. É o mesmo custo se você gerar esse calor com seu computador. Se você tiver um sistema de aquecimento mais barato do que o elétrico, então o desperdício está apenas na diferença de custo. Se for verão e você estiver usando ar condicionado, então é o dobro. A mineração de bitcoins deve ocorrer onde for mais barata. Talvez seja onde o clima é frio e o aquecimento é elétrico, onde minerar se tornará gratuito."
 > Satoshi Nakamoto - 8 de agosto de 2010
 
@@ -275,6 +296,7 @@ Resumindo, um radiador elétrico e um minerador de Bitcoin produzem ambos 1 kW d
 ### O valor agregado para o Bitcoin
 
 O que é importante entender é como a mineração contribui para a descentralização do Bitcoin.
+
 Várias tecnologias já existentes foram combinadas de forma engenhosa para dar vida ao consenso de Nakamoto. Esse consenso permite recompensar economicamente os atores honestos por sua participação no funcionamento da rede Bitcoin, ao mesmo tempo em que desencoraja os atores desonestos. Esse é um dos pontos-chave que permite a existência sustentável da rede.
 Os atores honestos, aqueles que mineram de acordo com as regras, estão competindo entre si para obter a maior parte possível da recompensa pela produção de novos blocos. Esse incentivo econômico naturalmente leva a uma forma de centralização, pois as empresas optam por se especializar nessa atividade lucrativa, reduzindo seus custos por meio de economias de escala. Esses atores industriais têm uma posição vantajosa para a compra, manutenção de máquinas e negociação de tarifas de eletricidade no atacado.
 
@@ -296,7 +318,6 @@ Esta é uma excelente oportunidade para aprender praticando e ser recompensado p
 
 ## Guia de compra para um ASIC usado
 
-![Introdução ao Attakaï: aquecendo com Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 Nesta seção, veremos as melhores práticas para comprar um Bitmain Antminer S9 usado, a máquina na qual este tutorial de retrofitting em radiador será baseado. Este guia também funciona para outros modelos de ASIC, pois é um guia geral de compra de hardware de mineração usado.
 
 O Antminer S9 é um dispositivo oferecido pela Bitmain desde maio de 2016. Ele consome 1400W de eletricidade e produz 13,5 TH/s. Embora seja considerado antigo, ainda é uma excelente opção para começar a mineração. Como foi produzido em grande quantidade, é fácil encontrar peças sobressalentes em abundância em muitas regiões do mundo. Geralmente, pode ser adquirido de forma peer-to-peer em sites como o Ebay ou LeBonCoin, pois os revendedores voltados para profissionais não o oferecem mais devido à sua menor competitividade em comparação com máquinas mais recentes. É menos eficiente do que ASICs como o Antminer S19, lançado em março de 2020, mas isso o torna um hardware usado acessível e mais adequado para as modificações que faremos.
@@ -332,7 +353,9 @@ O Antminer S9 é composto pelas seguintes partes:
 - Um cabo macho C13
 
 ![image](assets/guide-achat/7.jpeg)
+
 Quando você compra uma máquina usada, é importante verificar se todas as peças estão incluídas e funcionais. Durante a troca, você deve pedir ao vendedor para ligar a máquina e verificar se ela está funcionando corretamente. É importante verificar se o aparelho liga corretamente e, em seguida, verificar a conectividade com a internet conectando um cabo Ethernet e acessando a interface de login da Bitmain por meio de um navegador da web na mesma rede local. Você pode encontrar este endereço IP conectando-se à interface do seu roteador de internet e procurando os dispositivos conectados. Este endereço deve ter o seguinte formato: 192.168.x.x
+
 ![image](assets/guide-achat/8.gif)
 
 Também verifique se as credenciais padrão funcionam (nome de usuário: root, senha: root). Se as credenciais padrão não funcionarem, será necessário redefinir a máquina.
@@ -342,6 +365,7 @@ Também verifique se as credenciais padrão funcionam (nome de usuário: root, s
 Depois de conectado, você deve ser capaz de ver o status de cada hashboard no painel de controle. Se o minerador estiver conectado a uma pool, você deve ver todos os hashboards funcionando. É importante observar que os mineradores fazem muito barulho, isso é normal. Certifique-se também de que os ventiladores estejam funcionando corretamente.
 
 Em seguida, você pode remover a pool de mineração do antigo proprietário para configurar a sua posteriormente. Se desejar, você também pode inspecionar os hashboards desmontando a máquina. No entanto, esta etapa é mais complexa e requer mais tempo e algumas ferramentas. Se você deseja prosseguir com essa desmontagem, pode consultar a próxima parte deste tutorial que detalha como fazê-lo. É importante observar que os mineradores acumulam muita poeira e requerem manutenção regular. É essa acumulação de poeira e a qualidade da manutenção que você pode observar desmontando a máquina.
+
 Depois de revisar todos esses pontos, você pode comprar sua máquina com um alto grau de confiança. Em caso de dúvida, consulte a comunidade.
 
 Para resumir este guia em uma frase: **"Não confie, verifique"**.
@@ -350,7 +374,6 @@ Para resumir este guia em uma frase: **"Não confie, verifique"**.
 
 ## Guia de compra de peças para modificações de hardware do S9
 
-![Introdução ao Attakaï: aquecendo com Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 Proprietário de um Antminer S9, você provavelmente sabe o quão barulhento e volumoso esse equipamento pode ser. No entanto, é possível transformá-lo em um aquecedor silencioso e conectado seguindo alguns passos simples. Nesta parte, apresentaremos os equipamentos necessários para fazer as modificações.
 
 Se você é um habilidoso em trabalhos manuais e está procurando transformar um minerador em um aquecedor, este tutorial é para você. Gostaríamos de alertá-lo que as modificações feitas em um aparelho eletrônico podem apresentar riscos elétricos. Portanto, é essencial tomar todas as precauções necessárias para evitar danos ou ferimentos.
@@ -397,8 +420,6 @@ Lista de materiais e links
 
 ## Configurando uma ponte WIFI/Ethernet Vonet
 
-![Conectando um Antminer S9 à sua rede Wi-Fi](https://www.youtube.com/watch?v=y4oYURBaPqg)
-
 Para conectar seu ASIC via Wi-Fi, você precisará de um dispositivo chamado ponte, que permite capturar o sinal Wi-Fi do seu roteador e transmiti-lo para outro dispositivo via Ethernet.
 
 Existem muitos dispositivos que podem fazer isso, mas recomendamos o VONETS WiFi Bridge/Repeteur por sua praticidade.
@@ -443,13 +464,12 @@ Depois de conectar a ponte, conecte o cabo Ethernet da ponte ao seu ASIC e ligue
 
 Antes de instalar o BraiinOS+, pode ser necessário redefinir seu S9 para as configurações de fábrica.
 Esta método pode ser aplicado entre 2 minutos e 10 minutos após a inicialização do minerador.
+
 2 minutos após ligar o minerador, pressione o botão "Reset" por 5 segundos e solte-o. O minerador será restaurado para as configurações de fábrica em 4 minutos e reiniciará automaticamente (não é necessário desligá-lo).
 
 ![imagem](assets/software/1.jpeg)
 
 ## Instalando o BraiinsOS+ em um Antminer S9
-
-![Instalando o Braiins OS+ em seu Antminer S9](https://www.youtube.com/watch?v=luqwlvzGsO4)
 
 O software original instalado pela Antminer em suas máquinas de mineração é limitado em funcionalidades. Por isso, neste guia, vamos instalar outro software chamado BraiinsOS+. É um software de terceiros desenvolvido pelo primeiro pool de mineração de Bitcoin, que possui mais funcionalidades e permite, por exemplo, modificar a potência da máquina.
 
@@ -481,8 +501,6 @@ Aqui, vamos ver como instalar facilmente o Braiins OS+ diretamente na memória d
 9. Após alguns instantes, o seu Antminer irá reiniciar e você poderá acessar a interface do Braiins OS+ no endereço IP em questão, aqui 192.168.1.37, digitando-o diretamente na barra de endereço do seu navegador, nome de usuário padrão "root" e sem senha padrão.
 
 ## Configurando o BraiinsOS+
-
-![Configurando o seu Antminer S9 com o Braiins OS+](https://www.youtube.com/watch?v=dK0t8M8kLYg)
 
 Você precisará se conectar ao seu ASIC usando o endereço IP local do seu dispositivo na sua rede através de um navegador.
 
@@ -528,8 +546,6 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 
 ## Substituindo o ventilador da fonte de alimentação
 
-![Substituindo os ventiladores para reduzir o ruído](https://www.youtube.com/watch?v=2CNGKZiveuc)
-
 > ATENÇÃO: É essencial ter instalado previamente o Braiins OS+ no seu minerador, ou qualquer outro software capaz de reduzir o desempenho da sua máquina. Essa medida é crucial, pois, com o objetivo de reduzir o ruído, iremos instalar ventiladores menos potentes, que poderão dissipar menos calor.
 
 ![image](assets/hardware/cover.jpeg)
@@ -542,7 +558,9 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 > ATENÇÃO: Antes de começar, certifique-se de desconectar o seu minerador para evitar qualquer risco de choque elétrico.
 
 ![image](assets/hardware/1.jpeg)
+
 Primeiramente, remova os 6 parafusos nas laterais do gabinete que o mantêm fechado. Depois de remover os parafusos, abra cuidadosamente o gabinete para remover a proteção plástica que cobre os componentes.
+
 ![image](assets/hardware/2.jpeg)
 ![image](assets/hardware/3.jpeg)
 
@@ -580,7 +598,9 @@ Em seguida, conecte os cabos com um conector, o fio preto com o preto e o fio ve
 
 ![image](assets/hardware/13.jpeg)
 ![image](assets/hardware/14.jpeg)
+
 Uma vez que a conexão tenha sido feita, é hora de instalar o novo ventilador Noctua com a grade e os parafusos antigos, os novos parafusos que estão na caixa serão reutilizados mais tarde. Certifique-se de colocá-lo na orientação correta. Você notará uma seta em um dos lados do ventilador, que indica a direção do fluxo de ar. É importante colocar o ventilador de forma que essa seta aponte para dentro do gabinete. Em seguida, reconecte o ventilador.
+
 ![image](assets/hardware/15.jpeg)
 ![image](assets/hardware/16.jpeg)
 
@@ -595,8 +615,6 @@ Depois de fazer as conexões, coloque o plástico da tampa sobre o plástico do 
 Por fim, recoloque a tampa do gabinete no lugar e parafuse os 6 parafusos nas laterais para fixar tudo no lugar. E pronto, sua fonte de alimentação agora está equipada com um novo ventilador.
 
 ## Substituindo os Ventiladores Principais
-
-![Substituindo os ventiladores para reduzir o ruído](https://www.youtube.com/watch?v=2CNGKZiveuc)
 
 > ATENÇÃO: É essencial ter instalado previamente o Braiins OS+ em seu minerador, ou qualquer outro software capaz de reduzir o desempenho de sua máquina. Essa medida é crucial, pois, com o objetivo de reduzir o ruído, vamos instalar ventiladores menos potentes, que poderão dissipar menos calor.
 
@@ -650,13 +668,16 @@ E pronto, parabéns! Você acabou de substituir toda a parte mecânica do seu mi
 
 ## Juntando-se a um pool de mineração
 
-![Juntando-se a um pool de mineração com um Antminer S9](https://www.youtube.com/watch?v=wM-dRog6mls&t=166s)
-Pode-se imaginar um pool de mineração como uma cooperativa agrícola. Os agricultores juntam sua produção para reduzir a variação da oferta e demanda e, assim, obter receitas mais estáveis para sua exploração. Um pool de mineração funciona da mesma forma e a matéria-prima compartilhada são os hashes. De fato, a descoberta de um único hash válido permite a criação de um bloco e, assim, ganhar a coinbase ou a recompensa atualmente de 6,25 BTC, além das taxas das transações incluídas no bloco. Se você minerar sozinho, só será recompensado quando encontrar um bloco. Competindo contra todos os outros mineradores do planeta, você teria muito poucas chances de ganhar essa grande loteria e ainda teria que pagar as taxas associadas ao uso do seu minerador sem nenhuma garantia de sucesso. Os pools de mineração resolvem esse problema ao compartilhar o poder de computação de vários (milhares) de mineradores e compartilhar a recompensa deles com base na porcentagem de participação no hashrate do pool quando um bloco é encontrado. Para visualizar suas chances de minerar um bloco sozinho, você pode usar esta ferramenta. Ao inserir as informações de um Antminer S9, vemos que as chances de encontrar um hash que permita a criação de um bloco são de 1/24.777.849 a cada bloco ou de 1/172.068 por dia. Em média (com hashrate e dificuldade constantes), levaria 471 anos para encontrar um bloco.
+Pode-se imaginar um pool de mineração como uma cooperativa agrícola. Os agricultores juntam sua produção para reduzir a variação da oferta e demanda e, assim, obter receitas mais estáveis para sua exploração. Um pool de mineração funciona da mesma forma e a matéria-prima compartilhada são os hashes. De fato, a descoberta de um único hash válido permite a criação de um bloco e, assim, ganhar a coinbase ou a recompensa atualmente de 6,25 BTC, além das taxas das transações incluídas no bloco. Se você minerar sozinho, só será recompensado quando encontrar um bloco.
+
+Competindo contra todos os outros mineradores do planeta, você teria muito poucas chances de ganhar essa grande loteria e ainda teria que pagar as taxas associadas ao uso do seu minerador sem nenhuma garantia de sucesso. Os pools de mineração resolvem esse problema ao compartilhar o poder de computação de vários (milhares) de mineradores e compartilhar a recompensa deles com base na porcentagem de participação no hashrate do pool quando um bloco é encontrado. Para visualizar suas chances de minerar um bloco sozinho, você pode usar esta ferramenta. Ao inserir as informações de um Antminer S9, vemos que as chances de encontrar um hash que permita a criação de um bloco são de 1/24.777.849 a cada bloco ou de 1/172.068 por dia. Em média (com hashrate e dificuldade constantes), levaria 471 anos para encontrar um bloco.
 
 No entanto, como no Bitcoin tudo é uma questão de probabilidade, às vezes os "mineradores solitários" são recompensados por esse risco: Minerador de Bitcoin Solitário Resolve Bloco com Taxa de Hash de Apenas 10 TH/s, Vencendo Probabilidades Extremamente Improváveis - Decrypt
 
 Se você gosta de jogar, pode tentar, mas nosso guia não seguirá nessa direção. Em vez disso, vamos nos concentrar no pool de mineração que melhor atende às nossas necessidades para criar um sistema de aquecimento.
-As considerações a serem feitas ao escolher um pool de mineração são o funcionamento das recompensas do pool, que podem ser diferentes, bem como o valor mínimo antes de poder retirar as recompensas para um endereço. Por exemplo, a Braiins, que oferece o software que estamos discutindo aqui, também oferece um pool. Este pool tem um sistema de recompensa chamado "Score" que incentiva os mineradores a minerar por longos períodos. A participação inclui um fator de tempo de atividade que é expresso com uma "taxa de hash de pontuação". No nosso caso, em que queremos um sistema de aquecimento que possa ser ligado apenas por alguns minutos, esse não é o sistema de recompensa ideal. Preferimos um sistema de recompensa que nos dê uma recompensa igual para cada participação. Além disso, o valor mínimo de retirada para o Braiins Pool é de 100.000 sats e On-Chain. Portanto, perdemos alguns sats em taxas de transação e parte da nossa recompensa pode ser bloqueada se não minerarmos o suficiente durante o inverno.
+
+As considerações a serem feitas ao escolher um pool de mineração são o funcionamento das recompensas do pool, que podem ser diferentes, bem como o valor mínimo antes de poder retirar as recompensas para um endereço. Por exemplo, a Braiins, que oferece o software que estamos discutindo aqui, também oferece um pool. Este pool tem um sistema de recompensa chamado "Score" que incentiva os mineradores a minerar por longos períodos. A participação inclui um fator de tempo de atividade que é expresso com uma "taxa de hash de pontuação". No nosso caso, em que queremos um sistema de aquecimento que possa ser ligado apenas por alguns minutos, esse não é o sistema de recompensa ideal. Preferimos um sistema de recompensa que nos dê uma recompensa igual para cada participação. Além disso, o valor mínimo de retirada para o Braiins Pool é de 100.000 sats e On-Chain. Portanto, perdemos alguns sats em taxas de transação e parte da nossa recompensa pode ser bloqueada se não minerarmos o suficiente durante o inverno. 
+
 O modelo de recompensa que nos interessa é o PPS, que significa "pagamento por ação". Isso significa que o minerador receberá uma recompensa por cada ação válida. Também existe uma variante desse sistema, o FPPS (Full Pay Per Share), que divide não apenas a recompensa da coinbase, mas também as taxas de transação incluídas no bloco. Os pools de mineração que recomendamos para conectar sua mineração/aquecimento são Linecoin Pool (FPPS) e Nicehash (PPS).
 
 - Nicehash: A vantagem do Nicehash é que a retirada pode ser feita usando o Lightning com taxas mínimas. Além disso, o valor mínimo de retirada é de 2000 sats. A desvantagem é que o Nicehash usa sua taxa de hash para a blockchain mais lucrativa, sem realmente dar controle ao usuário, e portanto, não necessariamente participa da taxa de hash do Bitcoin.
@@ -676,8 +697,8 @@ Em seguida, copie o endereço Stratum e seu nome de usuário:
 Agora você pode voltar para a interface do Braiins OS+ para inserir essas credenciais. Para a senha, você pode deixar o campo em branco.
 
 ![image](assets/software/21.jpeg)
+
 ## Otimizando o desempenho do Antminer S9
-![Otimizando o desempenho do Antminer S9 com auto-tuning](https://www.youtube.com/watch?v=yh8U9Ay1i-E&t=277s)
 
 O overclocking e o auto-tuning consistem em ajustar as frequências nos cartões de hash para melhorar o desempenho do ASIC. A diferença entre os dois está na complexidade dessas configurações de frequência.
 

@@ -296,14 +296,21 @@ Confirmez votre mot de passe utilisateur :
 ![Samourai Dojo](assets/fr/39.png)
 Attendez le temps de son installation, puis cliquez de nouveau sur le bouton `Manage` :
 ![Samourai Dojo](assets/fr/40.png)
-Vous obtiendrez un lien `.onion` pour accéder à votre propre instance de *Mempool.space* via le réseau Tor. Je vous conseille de sauvegarder ce lien dans vos favoris sur le navigateur Tor ou de l'ajouter à l'application Tor Browser sur votre smartphone pour avoir un accès facile et sécurisé depuis n'importe où.
+Vous obtiendrez un lien `.onion` pour accéder à votre propre instance de *Mempool.space* via le réseau Tor.
 ![Samourai Dojo](assets/fr/41.png)
+Je vous conseille de sauvegarder ce lien dans vos favoris sur le navigateur Tor ou de l'ajouter à l'application Tor Browser sur votre smartphone pour avoir un accès facile et sécurisé depuis n'importe où. Si vous ne disposez pas encore du navigateur Tor, vous pouvez le télécharger ici : [https://www.torproject.org/download/](https://www.torproject.org/download/)
+![Samourai Dojo](assets/fr/42.png)
 
 ### Utiliser Whirlpool pour mixer ses bitcoins
+Votre nœud RoninDojo intègre également _WhirlpoolCLI_, une interface de ligne de commande qui permet l'automatisation des coinjoins Whirlpool, et _WhirlpoolGUI_, une interface graphique conçue pour interagir avec _WhirlpoolCLI_.
 
 
 
+Effectuer un coinjoin via Whirlpool requiert que l'application utilisée soit active pour réaliser des remixes. Cette condition peut s'avérer contraignante pour ceux désirant atteindre des niveaux élevés d'anonsets. En effet, l'appareil accueillant l'application qui intègre Whirlpool doit rester en marche en permanence. Cela signifie que pour participer à des remixes 24 heures sur 24, votre ordinateur ou votre smartphone doit rester allumé avec Samourai ou Sparrow ouverts en continu. Une solution à cette contrainte est d'utiliser _WhirlpoolCLI_ sur une machine toujours allumée, telle qu'un nœud Bitcoin, permettant ainsi à vos pièces de se remixer sans interruption, et sans nécessiter de laisser allumé un autre appareil.
 
+Un tutoriel détaillé est en préparation pour vous guider pas à pas dans le processus de coinjoin de bitcoins avec Samourai Wallet et RoninDojo v2, depuis les premières étapes jusqu'à la réalisation complète.
+
+Pour une compréhension approfondie du coinjoin et de son utilisation sur Bitcoin, je vous invite à consulter cet article : [Comprendre et utiliser le coinjoin sur Bitcoin](https://planb.network/tutorials/privacy/coinjoin), où je détaille tout ce qu'il faut savoir sur cette technique.
 
 ### Utiliser Whirlpool Stat Tool (WST)
 

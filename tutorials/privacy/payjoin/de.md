@@ -17,7 +17,7 @@ Im Jahr 2015 erwähnte [LaurentMT](https://twitter.com/LaurentMT) diese Methode 
 Die Einzigartigkeit von Payjoin liegt in seiner Fähigkeit, eine Transaktion zu generieren, die auf den ersten Blick gewöhnlich erscheint, aber tatsächlich ein Mini-Coinjoin zwischen zwei Parteien ist. Um dies zu erreichen, bezieht die Transaktionsstruktur den Zahlungsempfänger neben dem eigentlichen Sender in die Inputs ein. Der Empfänger fügt eine Zahlung an sich selbst in der Mitte der Transaktion ein, um bezahlt zu werden.
 
 Nehmen wir ein konkretes Beispiel: Wenn Sie eine Baguette für `4000 Sats` kaufen und sich für einen Payjoin entscheiden, fügt Ihr Bäcker eine UTXO von `15.000 Sats` als Input hinzu, die ihm als Output in voller Höhe gehört, zusätzlich zu Ihren `4000 Sats`:
-![Diagramm einer Payjoin-Transaktion](assets/fr/1.png)
+![Diagramm einer Payjoin-Transaktion](assets/de/1.png)
 
 In diesem Beispiel bringt der Bäcker `15.000 Sats` als Input ein und erhält `19.000 Sats` als Output, mit einer Differenz von genau `4000 Sats`, dem Preis der Baguette. Auf Ihrer Seite geben Sie `10.000 Sats` ein und erhalten `6000 Sats` als Output, was einem Saldo von `-4000 Sats`, dem Preis der Baguette, entspricht. Um das Beispiel zu vereinfachen, habe ich in dieser Transaktion bewusst die Mining-Gebühren weggelassen.
 
@@ -30,10 +30,10 @@ Darüber hinaus ermöglicht Payjoin auch, einen externen Beobachter über den ta
 > Steganographie ist eine Technik, um Informationen in anderen Daten oder Objekten so zu verbergen, dass die Anwesenheit der versteckten Informationen nicht wahrnehmbar ist. Zum Beispiel kann eine geheime Nachricht in einem Punkt in einem Text versteckt werden, der nichts damit zu tun hat, so dass sie für das bloße Auge nicht erkennbar ist (dies ist die Technik des Mikropunkts). Im Gegensatz zur Verschlüsselung, bei der Informationen ohne den Entschlüsselungsschlüssel unverständlich gemacht werden, modifiziert die Steganographie die Informationen nicht. Sie bleiben offen sichtbar. Ihr Ziel ist es vielmehr, die Existenz der geheimen Nachricht zu verbergen, während die Verschlüsselung die Anwesenheit versteckter Informationen deutlich offenbart, jedoch ohne den Schlüssel unzugänglich.
 
 Kehren wir zu unserem Beispiel einer Payjoin-Transaktion für die Bezahlung eines Baguettes zurück.
-![Payjoin-Transaktionsschema von außen](assets/fr/2.png)
+![Payjoin-Transaktionsschema von außen](assets/de/2.png)
 Ein externer Beobachter, der den üblichen Heuristiken der Kettenanalyse folgt, würde diese Transaktion auf der Blockchain wie folgt interpretieren: "*Alice hat 2 UTXOs als Eingabe der Transaktion zusammengeführt, um `19.000 Sats` an Bob zu zahlen*."
-![Falsche Interpretation der Payjoin-Transaktion von außen](assets/fr/3.png)
-Diese Interpretation ist offensichtlich falsch, denn wie Sie bereits wissen, gehören die beiden Input-UTXOs nicht derselben Person. Darüber hinaus beträgt der tatsächliche Wert der Zahlung nicht `19.000 Sats`, sondern `4.000 Sats`. Die Analyse des externen Beobachters führt somit zu einer fehlerhaften Schlussfolgerung und gewährleistet die Wahrung der Vertraulichkeit der Beteiligten.![Payjoin-Transaktionsdiagramm](assets/fr/1.png)
+![Falsche Interpretation der Payjoin-Transaktion von außen](assets/de/3.png)
+Diese Interpretation ist offensichtlich falsch, denn wie Sie bereits wissen, gehören die beiden Input-UTXOs nicht derselben Person. Darüber hinaus beträgt der tatsächliche Wert der Zahlung nicht `19.000 Sats`, sondern `4.000 Sats`. Die Analyse des externen Beobachters führt somit zu einer fehlerhaften Schlussfolgerung und gewährleistet die Wahrung der Vertraulichkeit der Beteiligten.![Payjoin-Transaktionsdiagramm](assets/de/1.png)
 Wenn Sie eine echte Payjoin-Transaktion analysieren möchten, hier ist eine, die ich im Testnetz durchgeführt habe: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 **Externe Ressourcen:**

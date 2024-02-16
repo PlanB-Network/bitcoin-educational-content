@@ -19,7 +19,7 @@ Le transazioni Cahoots prevedono lo scambio di transazioni parzialmente firmate 
 Quando fatto a distanza, questo processo diventa troppo complesso. Per affrontare questo problema, Samourai ha sviluppato un protocollo di comunicazione crittografato basato su Tor, chiamato "Soroban". Con Soroban, gli scambi necessari per un Payjoin vengono automatizzati dietro un'interfaccia user-friendly. Questo è il secondo metodo che esploreremo in questo articolo.
 
 Questi scambi crittografati richiedono l'instaurazione di una connessione e l'autenticazione tra i partecipanti Cahoots. Le comunicazioni di Soroban si basano sui Paynym degli utenti. Se non sei familiare con i Paynym, ti invito a fare riferimento a questo articolo per ulteriori dettagli: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
-Per semplificarlo, un Paynym è un identificatore unico collegato al tuo portafoglio che consente varie funzionalità, inclusa la messaggistica crittografata. Il Paynym è presentato sotto forma di un identificatore e un'illustrazione che rappresenta un robot. Ecco un esempio del mio su Testnet: ![Paynym Sparrow](assets/fr/1.png)
+Per semplificarlo, un Paynym è un identificatore unico collegato al tuo portafoglio che consente varie funzionalità, inclusa la messaggistica crittografata. Il Paynym è presentato sotto forma di un identificatore e un'illustrazione che rappresenta un robot. Ecco un esempio del mio su Testnet: ![Paynym Sparrow](assets/it/1.png)
 
 **In sintesi:**
 - *Payjoin* = Struttura specifica di transazione collaborativa;
@@ -33,12 +33,12 @@ Per effettuare una transazione remota Cahoots, nello specifico un PayJoin (Stowa
 **Ecco la procedura per stabilire questa connessione:**
 
 Innanzitutto, è necessario ottenere l'identificatore Paynym del destinatario. Ciò può essere fatto utilizzando il loro nickname o il codice di pagamento. Per farlo, dal portafoglio Sparrow del destinatario, selezionare la scheda `Strumenti`, quindi fare clic su `Mostra PayNym`.
-![Mostra Paynym](assets/fr/2.png)
-![Paynym Sparrow](assets/fr/1.png)
+![Mostra Paynym](assets/it/2.png)
+![Paynym Sparrow](assets/it/1.png)
 Dal tuo lato, apri il tuo portafoglio Sparrow e accedi allo stesso menu `Mostra PayNym`. Se stai utilizzando il tuo Paynym per la prima volta, dovrai ottenere un identificatore facendo clic su `Recupera PayNym`.
-![Recupera paynym](assets/fr/3.png)
+![Recupera paynym](assets/it/3.png)
 Successivamente, inserisci l'identificatore Paynym del tuo collaboratore (sia il loro nickname `+...` che il loro codice di pagamento `PM...`) nella casella `Trova contatto`, quindi fai clic sul pulsante `Aggiungi contatto`.
-![Aggiungi contatto](assets/fr/4.png)
+![Aggiungi contatto](assets/it/4.png)
 Il software ti offrirà quindi un pulsante `Collega contatto`. Non è necessario fare clic su questo pulsante per il nostro tutorial. Questo passaggio è necessario solo se hai intenzione di effettuare pagamenti al Paynym indicato nel contesto di [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), che non è correlato al nostro tutorial.
 
 Una volta che il Paynym del destinatario è seguito dal tuo Paynym, ripeti questa operazione in direzione opposta in modo che anche il destinatario ti segua. A questo punto puoi effettuare un Payjoin.

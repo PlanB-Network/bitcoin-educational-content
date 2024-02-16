@@ -17,7 +17,7 @@ En 2015, [LaurentMT](https://twitter.com/LaurentMT) mencionó por primera vez es
 La singularidad de Payjoin radica en su capacidad para generar una transacción que parece ordinaria a primera vista, pero que en realidad es una mini Coinjoin entre dos partes. Para lograr esto, la estructura de la transacción involucra al destinatario del pago junto con el remitente real en las entradas. El destinatario incluye un pago a sí mismo en medio de la transacción, lo que les permite recibir el pago.
 
 Tomemos un ejemplo concreto: si compras una baguette por `4000 sats` utilizando una UTXO de `10,000 sats` y optas por un Payjoin, tu panadero agregará una UTXO de `15,000 sats` que les pertenece como entrada, la cual recibirán en su totalidad como salida, además de tus `4000 sats`:
-![Diagrama de transacción Payjoin](assets/fr/1.png)
+![Diagrama de transacción Payjoin](assets/es/1.png)
 
 En este ejemplo, el panadero introduce `15,000 sats` como entrada y obtiene `19,000 sats`, con una diferencia exacta de `4000 sats`, que es el precio de la baguette. Por tu parte, ingresas con `10,000 sats` y terminas con `6,000 sats` como salida, lo que representa un saldo de `-4000 sats`, que es el precio de la baguette. Para simplificar el ejemplo, omití deliberadamente las tarifas de minería en esta transacción.
 
@@ -30,10 +30,10 @@ Además, Payjoin también permite engañar a un observador externo sobre la cant
 > La esteganografía es una técnica de ocultación de información dentro de otros datos u objetos de tal manera que la presencia de la información oculta no sea perceptible. Por ejemplo, un mensaje secreto puede ocultarse dentro de un punto en un texto que no tiene nada que ver con él, haciéndolo indetectable a simple vista (esta es la técnica del micropunto). A diferencia del cifrado, que hace que la información sea incomprensible sin la clave de descifrado, la esteganografía no modifica la información. Permanece visible a simple vista. Su objetivo es más bien ocultar la existencia del mensaje secreto, mientras que el cifrado revela claramente la presencia de información oculta, aunque inaccesible sin la clave.
 
 Volviendo a nuestro ejemplo de una transacción Payjoin para el pago de una baguette.
-![Esquema de la transacción Payjoin desde el exterior](assets/fr/2.png)
+![Esquema de la transacción Payjoin desde el exterior](assets/es/2.png)
 Al ver esta transacción en la cadena de bloques, un observador externo que sigue las heurísticas habituales del análisis de la cadena la interpretaría de la siguiente manera: "*Alice fusionó 2 UTXOs como entradas de la transacción para pagar `19,000 sats` a Bob*."
-![Interpretación incorrecta de la transacción Payjoin desde el exterior](assets/fr/3.png)
-Esta interpretación es obviamente incorrecta porque, como ya sabes, las dos UTXOs de entrada no pertenecen a la misma persona. Además, el valor real del pago no es `19,000 sats`, sino `4,000 sats`. El análisis del observador externo se dirige así hacia una conclusión errónea, asegurando la preservación de la confidencialidad de las partes interesadas.![Diagrama de la transacción Payjoin](assets/fr/1.png)
+![Interpretación incorrecta de la transacción Payjoin desde el exterior](assets/es/3.png)
+Esta interpretación es obviamente incorrecta porque, como ya sabes, las dos UTXOs de entrada no pertenecen a la misma persona. Además, el valor real del pago no es `19,000 sats`, sino `4,000 sats`. El análisis del observador externo se dirige así hacia una conclusión errónea, asegurando la preservación de la confidencialidad de las partes interesadas.![Diagrama de la transacción Payjoin](assets/es/1.png)
 Si deseas analizar una transacción Payjoin real, aquí tienes una que realicé en la testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 **Recursos externos:**

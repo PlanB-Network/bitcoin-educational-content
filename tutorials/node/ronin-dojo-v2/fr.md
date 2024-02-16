@@ -276,7 +276,7 @@ Pour établir la connexion, il vous suffira de scanner le QR code de votre Dojo.
 ![Samourai Dojo](assets/fr/35.png)
 Pour associer votre portefeuille Samourai Wallet à votre Dojo, scannez simplement ce QR code lors de l'installation de l'application :
 
-![Samourai Dojo](assets/fr/36.png)
+![Samourai Wallet connexion](assets/fr/36.png)
 
 Si vous aviez déjà un portefeuille Samourai Wallet avant de configurer votre Ronin Dojo, il sera nécessaire de sauvegarder votre portefeuille, de désinstaller puis de réinstaller l'application Samourai Wallet, avant de restaurer votre portefeuille. Lors du lancement de l'application réinstallée, vous aurez l'option de vous connecter à un nouveau Dojo. **Attention, cette démarche comporte des risques de perte de vos bitcoins si elle n'est pas correctement exécutée !** Assurez-vous d'avoir le backup de votre portefeuille Samourai dans vos fichiers ainsi que de vérifier la validité de votre passphrase via `Settings > Troubleshoot > Passphrase`. Il est également important de disposer d'une sauvegarde lisible de votre phrase de récupération et de votre passphrase. Pour plus de précision dans cette opération, il est recommandé de suivre ce tutoriel détaillé : [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
@@ -289,22 +289,20 @@ Pour éviter ces risques, il est recommandé d'utiliser votre propre instance de
 
 Pour cela, commencez par installer *Mempool Space Visualizer* depuis RoninUI. Sur l'interface web, allez l'onglet `Dashboard` et cliquez sur `Manage` en dessous de `Mempool Space` :
 `Dashboard > Mempool Space > Manage`
-![Samourai Dojo](assets/fr/37.png)
+![Manage mempool](assets/fr/37.png)
 Cliquez ensuite sur le bouton `Install Mempool visualizer` :
-![Samourai Dojo](assets/fr/38.png)
+![install mempool](assets/fr/38.png)
 Confirmez votre mot de passe utilisateur :
-![Samourai Dojo](assets/fr/39.png)
+![password mempool](assets/fr/39.png)
 Attendez le temps de son installation, puis cliquez de nouveau sur le bouton `Manage` :
-![Samourai Dojo](assets/fr/40.png)
+![Mempool Manage](assets/fr/40.png)
 Vous obtiendrez un lien `.onion` pour accéder à votre propre instance de *Mempool.space* via le réseau Tor.
-![Samourai Dojo](assets/fr/41.png)
+![Mempool link](assets/fr/41.png)
 Je vous conseille de sauvegarder ce lien dans vos favoris sur le navigateur Tor ou de l'ajouter à l'application Tor Browser sur votre smartphone pour avoir un accès facile et sécurisé depuis n'importe où. Si vous ne disposez pas encore du navigateur Tor, vous pouvez le télécharger ici : [https://www.torproject.org/download/](https://www.torproject.org/download/)
-![Samourai Dojo](assets/fr/42.png)
+![Mempool Tor](assets/fr/42.png)
 
 ### Utiliser Whirlpool pour mixer ses bitcoins
 Votre nœud RoninDojo intègre également _WhirlpoolCLI_, une interface de ligne de commande qui permet l'automatisation des coinjoins Whirlpool, et _WhirlpoolGUI_, une interface graphique conçue pour interagir avec _WhirlpoolCLI_.
-
-
 
 Effectuer un coinjoin via Whirlpool requiert que l'application utilisée soit active pour réaliser des remixes. Cette condition peut s'avérer contraignante pour ceux désirant atteindre des niveaux élevés d'anonsets. En effet, l'appareil accueillant l'application qui intègre Whirlpool doit rester en marche en permanence. Cela signifie que pour participer à des remixes 24 heures sur 24, votre ordinateur ou votre smartphone doit rester allumé avec Samourai ou Sparrow ouverts en continu. Une solution à cette contrainte est d'utiliser _WhirlpoolCLI_ sur une machine toujours allumée, telle qu'un nœud Bitcoin, permettant ainsi à vos pièces de se remixer sans interruption, et sans nécessiter de laisser allumé un autre appareil.
 
@@ -313,16 +311,167 @@ Un tutoriel détaillé est en préparation pour vous guider pas à pas dans le p
 Pour une compréhension approfondie du coinjoin et de son utilisation sur Bitcoin, je vous invite à consulter cet article : [Comprendre et utiliser le coinjoin sur Bitcoin](https://planb.network/tutorials/privacy/coinjoin), où je détaille tout ce qu'il faut savoir sur cette technique.
 
 ### Utiliser Whirlpool Stat Tool (WST)
+Après avoir réalisé des coinjoins avec Whirlpool, il est utile d'évaluer précisément le degré de confidentialité obtenu pour vos UTXO mixés. Pour ce faire, vous pouvez utiliser l'outil Python *Whirlpool Stat Tool*. Cet outil vous donne la possibilité de mesurer à la fois le score prospectif et le score rétrospectif de vos UTXO, tout en analysant leur taux diffusion dans la pool. 
 
+Pour approfondir votre compréhension des mécanismes de calcul de ces anonsets, je vous recommande la lecture complémentaire de l'article : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), qui détaille le fonctionnement de ces indices.
 
+Pour accéder à l'outil WST, rendez vous sur RoninCLI. Pour ce faire, ouvrez un terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
+`SSH ronindojo@[IP]`
 
+Si, par exemple, l'adresse IP de votre nœud est `192.168.1.40`, la commande adéquate sera :
+`SSH ronindojo@192.168.1.40`
 
+Si vous avez changé votre nom d'utilisateur lors de l'étape 6, en remplaçant le nom d'utilisateur par défaut (`ronindojo`) par un autre, veillez à utiliser ce nouveau nom dans la commande. Par exemple, si vous avez choisi `planb` comme nom d'utilisateur et que l'adresse IP est `192.168.1.40`, la commande à entrer sera :
+`SSH planb@192.168.1.40`
 
+Il vous sera demandé de saisir le mot de passe utilisateur. Entrez le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'au menu `Samourai Toolkit` et appuyez sur `entrer` pour le sélectionner :
 
-### Utiliser le calculateur Boltzmann
+![Samourai Toolkit](assets/fr/43.png)
 
+Sélectionnez ensuite `Whirlpool Stat Tool` :
 
+![WST](assets/fr/44.png)
 
+À l'initialisation de WST, l'outil procédera à son installation automatique. Patientez durant cette étape. Les instructions d'utilisation vont défiler. Une fois l'installation achevée, appuyez sur n'importe quelle touche pour accéder au terminal de WST :
+
+![WST commandes](assets/fr/45.png)
+
+À l'écran s'affichera l'invite de commande suivante : 
+`wst#/tmp>`
+
+Si vous souhaitez sortir de cette interface et retourner au menu RoninCLI, entrez simplement : 
+`quit`
+
+D'abord, il est nécessaire de configurer le proxy pour utiliser Tor, afin d'assurer la confidentialité lors de l'extraction des données depuis [OXT](https://oxt.me/). Saisissez la commande : 
+`socks5 127.0.0.1:9050`
+
+Par la suite, procédez au téléchargement des informations de la pool contenant votre transaction : 
+`download 0001`
+
+Remplacez `0001` par le code de dénomination de la pool qui vous intéresse. Les codes de dénominations sont les suivants sur WST :
+- Pool 0,5 bitcoins : `05`
+- Pool 0,05 bitcoins : `005`
+- Pool 0,01 bitcoins : `001`
+- Pool 0,001 bitcoins : `0001`
+
+Après le téléchargement, chargez les données en remplaçant `0001` par le code de votre pool dans cette commande : `load 0001`
+
+![WST loading](assets/fr/46.png)
+
+Patientez le temps du chargement, qui peut durer quelques minutes. Une fois les données chargées, pour connaître les scores d'anonsets de votre pièce, exécutez la commande `score` suivie de votre TXID (sans les crochets) :
+`score [TXID]`
+
+![WST score](assets/fr/47.png)
+
+WST affichera alors le score rétrospectif (_Backward-looking metrics_), suivi du score prospectif (_Forward-looking metrics_). Outre les scores d'anonsets, WST indiquera également le taux de diffusion de votre transaction au sein de la pool, relatif à l'anonset.
+
+**Il est important de noter que le score prospectif de votre pièce doit être calculé à partir du TXID de votre mix initial, et non de votre mix le plus récent. Inversement, le score rétrospectif d'un UTXO est calculé à partir du TXID du dernier cycle.**
+
+### Utiliser le Calculateur Boltzmann
+Le calculateur Boltzmann est un outil précieux pour analyser en profondeur une transaction Bitcoin, en offrant la capacité de mesurer son niveau d'entropie parmi d'autres métriques avancées. Ces données fournissent une évaluation quantifiée de la confidentialité d'une transaction et aident à identifier d'éventuelles erreurs. Cet outil est déjà intégré à votre nœud RoninDojo, ce qui facilite son accès et son utilisation.
+
+Avant de détailler la procédure d'utilisation du Calculateur Boltzmann, il est important de comprendre la signification de ces indicateurs, leur méthode de calcul, et leur utilité. Bien qu'applicables à toute transaction Bitcoin, ces indicateurs sont particulièrement utiles pour évaluer la qualité d'une transaction Coinjoin.
+
+**Le premier indicateur** que le logiciel calcule est le nombre total de combinaisons possibles, indiqué sous `nb combinations` dans l'outil. Basé sur les valeurs des UTXO impliqués, cet indicateur chiffre le nombre de manières dont les entrées peuvent être associées aux sorties. Autrement dit, il détermine le nombre d'interprétations plausibles qu'une transaction peut susciter. À titre d'exemple, un coinjoin structuré selon le modèle Whirlpool 5x5 présente `1496` combinaisons possibles :
+![combinaisons](assets/fr/50.png)
+Crédit : [KYCP.org](https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d)
+
+**Le deuxième indicateur** calculé est l'entropie d'une transaction, désignée par `Entropy`. Lorsqu'une transaction présente un nombre élevé de combinaisons possibles, il est souvent plus pertinent de se référer à son entropie. Celle-ci est définie comme le logarithme binaire du nombre de combinaisons possibles. Voici la formule utilisée :
+- $E$ : l'entropie de la transaction ;
+- $C$ : le nombre de combinaisons possibles pour la transaction.
+$$E = \log_2(C)$$
+
+En mathématiques, le logarithme binaire (logarithme de base 2) correspond à l'opération inverse de l'exponentiation de 2. En d'autres termes, le logarithme binaire de $x$ est l'exposant auquel 2 doit être élevé pour obtenir $x$. Cet indicateur s'exprime donc en bits. Prenons l'exemple du calcul de l'entropie pour une transaction coinjoin structurée selon le modèle Whirlpool 5x5, qui, comme mentionné précédemment, offre un nombre de combinaisons possibles de `1496` :
+$$ C = 1496 $$
+$$ E = \log_2(1496) $$
+$$ E \approx 10.5469 \text{ bits}$$
+
+Ainsi, cette transaction coinjoin affiche une entropie de 10.5469 bits, ce qui est considéré comme très satisfaisant. Plus cette valeur est élevée, plus la transaction admet d'interprétations différentes, renforçant par conséquent son niveau de confidentialité.
+
+Prenons un exemple supplémentaire avec une transaction plus conventionnelle, comportant un input et deux outputs : [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/fr/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
+Dans le cas de cette transaction, l'unique interprétation possible est : `(inp 0) > (Outp 0 ; Outp 1)`. Par conséquent, son entropie s'établit à `0` :
+$$ C = 1 $$
+$$ E = \log_2(1) $$
+$$ E \approx 0 \text{ bits}$$
+
+**Le troisième indicateur** fourni par le Calculateur Boltzmann est dénommé `Wallet Efficiency`. Cet indicateur évalue l'efficacité de la transaction en la comparant à la transaction optimale envisageable dans une configuration identique. Cela nous amène à aborder le concept d'entropie maximale, qui correspond à l'entropie la plus élevée qu'une structure de transaction spécifique puisse théoriquement atteindre. Ainsi, pour une structure de coinjoin de type Whirlpool 5x5, l'entropie maximale est fixée à `10.5469`. L'efficacité de la transaction est alors calculée en confrontant cette entropie maximale à l'entropie réelle de la transaction analysée. La formule employée est la suivante :
+- $ER$ : l'entropie réelle de la transaction, exprimée en bits ;
+- $EM$ : l'entropie maximale possible pour une structure de transaction donnée, également en bits ;
+- $Ef$ : l'efficacité de la transaction, en bits.
+$$Ef = ER - EM$$ $$Ef = 10.5469 - 10.5469$$
+$$Ef = 0 \text{ bits}$$
+
+Cet indicateur est également exprimé en pourcentage, sa formule est alors :
+- $CR$ : le nombre de combinaisons possibles réelles ;
+- $CM$ : le nombre de combinaisons possibles au maximum avec la même structure ;
+- $Ef$ : l'efficacité exprimée en pourcentage.
+$$Ef = \frac{CR}{CM}$$
+$$Ef = \frac{1496}{1496}$$
+$$Ef = 100\%$$
+
+Une efficacité de `100 %` indique donc que la transaction exploite au maximum son potentiel de confidentialité en fonction de sa structure.
+
+**Le quatrième indicateur**, la densité de l'entropie, ou `Entropy Density`, offre une perspective sur l'entropie relative à chaque entrée ou sortie de la transaction. Cet indicateur s'avère utile pour évaluer et comparer l'efficacité de transactions de différentes tailles. Pour le calculer, on divise simplement l'entropie totale de la transaction par le nombre total d'entrées et de sorties impliquées. Prenons l'exemple d'un coinjoin de type Whirlpool 5x5 :
+- $ED$ : la densité de l'entropie exprimée en bits ;
+- $E$ : l'entropie de la transaction exprimée en bits ;
+- $T$ : le nombre total d'inputs et d'outputs dans la transaction.
+$$T = 5 + 5 = 10$$
+$$ED = \frac{E}{T}$$
+$$ED = \frac{10.5469}{10}$$
+$$ED = 1.054 \text{ bits}$$
+
+**La cinquième information** délivrée par le Calculateur Boltzmann est le tableau des probabilités de correspondance entre les entrées et les sorties. Ce tableau indique, à travers le `score de Boltzmann`, la probabilité qu'une entrée spécifique soit reliée à une sortie donnée. En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités mettrait en lumière les chances de lien entre chaque entrée et sortie, offrant ainsi une mesure quantitative de l'ambiguïté ou de la prévisibilité des associations dans la transaction :
+
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+|---------|----------|----------|----------|----------|----------|
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
+On voit bien ici que chaque entrée présente une chance égale d'être associée à n'importe quelle sortie, renforçant ainsi l'ambiguïté et la confidentialité de la transaction. Cependant, dans le cas d'une transaction simple comportant un unique input et deux outputs, la situation est différente :
+
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
+
+Ici, on constate que la probabilité pour chaque output d'être issu de l'input 0 est de 100%. Une probabilité plus faible traduit ainsi une plus grande confidentialité, en diluant les liens directs entre les entrées et les sorties.
+
+**La sixième information** fournie est le nombre de liens déterministes, complété par le ratio de ces liens déterministes. Cet indicateur révèle combien de connexions entre les entrées et les sorties dans la transaction analysée sont incontestables, avec une probabilité de 100%. Le ratio offre une perspective sur le poids des liens déterministes au sein de l'ensemble des liens de la transaction.
+
+Par exemple, une transaction coinjoin de type Whirlpool ne présente aucun lien déterministe, et affiche par conséquent un indicateur et un ratio de 0%. À l'opposé, dans notre seconde transaction examinée (avec un input et deux outputs), l'indicateur s'établit à 2 et le ratio atteint 100%. Ainsi, un indicateur nul signale une excellente confidentialité grâce à l'absence de liaisons directes et incontestables entre entrées et sorties.
+
+**Comment accéder au calculateur Boltzmann sur RoninDojo ?**
+
+Pour accéder à l'outil *Calculateur Boltzmann*, rendez vous sur RoninCLI. Pour ce faire, ouvrez un terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
+`SSH ronindojo@[IP]`
+
+Si, par exemple, l'adresse IP de votre nœud est `192.168.1.40`, la commande adéquate sera :
+`SSH ronindojo@192.168.1.40`
+
+Si vous avez changé votre nom d'utilisateur lors de l'étape 6, en remplaçant le nom d'utilisateur par défaut (`ronindojo`) par un autre, veillez à utiliser ce nouveau nom dans la commande. Par exemple, si vous avez choisi `planb` comme nom d'utilisateur et que l'adresse IP est `192.168.1.40`, la commande à entrer sera :
+`SSH planb@192.168.1.40`
+
+Il vous sera demandé de saisir le mot de passe utilisateur. Entrez le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'au menu `Samourai Toolkit` et appuyez sur `entrer` pour le sélectionner :
+
+![Samourai Toolkit](assets/fr/43.png)
+
+Sélectionnez ensuite `Boltzmann Calculator` :
+
+![boltzmann](assets/fr/49.png)
+
+Vous arrivez sur l'accueil du logiciel :
+
+![boltzmann accueil](assets/fr/51.png)
+
+Entrez la TXID de la transaction que vous souhaitez étudier et tapez sur la touche `entrer` :
+
+![boltzmann txid](assets/fr/52.png)
+
+Le calculateur vous fournit l'ensemble des indicateurs dont nous avons parlé précédemment :
+
+![boltzmann resultat](assets/fr/53.png)
 
 ### Les autres fonctionnalités de votre RoninDojo v2
 

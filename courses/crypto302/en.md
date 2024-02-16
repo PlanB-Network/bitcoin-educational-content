@@ -1,5 +1,5 @@
 ---
-name: Introduction to Cryptography.
+name: Introduction to formal Cryptography
 goal: A deep-dive introduction to the science and practice of cryptography. 
 objectives:
   - Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.

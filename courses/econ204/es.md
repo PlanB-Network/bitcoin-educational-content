@@ -66,7 +66,7 @@ La inflación es un concepto a menudo malinterpretado debido a las múltiples de
 
 - Definición del Larousse: La inflación es un fenómeno caracterizado por un aumento generalizado y continuo del nivel de los precios. Aquí, la palabra "generalizado" es crucial.
 
-![image](assets/chapitre-2.1/4.PNG)
+![image](assets/chapitre-2.1/4.webp)
 
 A la luz de estas definiciones, es esencial entender que, para el Robert, la inflación se refiere principalmente al aumento de la masa monetaria. Por otro lado, el Larousse se centra en las consecuencias de esta expansión, es decir, el aumento generalizado de los precios.
 
@@ -87,7 +87,7 @@ Cuando hablamos del fenómeno monetario, nos referimos a cómo se ve afectada la
 2. Reducción del contenido metálico:
    Otro método consistía en reducir la cantidad de metal precioso en las monedas basadas en metales como la plata o el oro. Un ejemplo destacado se encuentra en el Imperio Romano, donde el denario, inicialmente compuesto casi en su totalidad de plata, vio drásticamente reducido su contenido de plata con el tiempo. Esto equivalía a una forma de inflación, pero no necesariamente a una hiperinflación.
 
-![imagen](assets/chapitre-2.1/1.PNG)
+![imagen](assets/chapitre-2.1/1.webp)
 
 Es crucial destacar que es posible observar hiperinflación principalmente en monedas fiduciarias desconectadas de sus activos subyacentes, como los metales preciosos. Históricamente, cuando una moneda estaba respaldada por tales activos, había episodios de inflación (por ejemplo, mediante la devaluación del contenido metálico), pero estos episodios nunca alcanzaban los niveles extremos de hiperinflación. En las siguientes secciones, estudiaremos en detalle los períodos de devaluación monetaria y las implicaciones de estos diferentes sistemas monetarios en la inflación.
 
@@ -115,7 +115,7 @@ Esta estrategia permitió al Estado devaluar eficazmente una moneda, creando as�
 
 El caso del Maravédis ilustra cómo un Estado puede devaluar selectivamente una moneda local para satisfacer sus necesidades económicas internas, al tiempo que preserva el valor de una moneda de reserva en la escena mundial. Es un ejemplo impactante de la complejidad y sutileza de la política monetaria en la historia.
 
-![imagen](assets/chapitre-2.1/7.PNG)
+![imagen](assets/chapitre-2.1/7.webp)
 
 Más información -> [enlace](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
@@ -167,11 +167,11 @@ Sin embargo, la situación cambió con el ascenso de Estados Unidos como potenci
 ### Último ejemplo para el camino: la Cena Suiza
 
 El Swiss Dinar ilustra otra faceta fascinante de la devaluación monetaria, esta vez en el contexto pre-guerra del Golfo de Irak. Llamada así en referencia a la notable calidad de sus billetes, esta moneda fue emitida por el Banco Central de Irak y gozaba de una reputación de estabilidad en la región de Oriente Medio. Esta confianza se debía en parte a la calidad de impresión de los billetes, realizada en Inglaterra, lo que insinuaba cierta solidez frente a la devaluación.
-![image](assets/chapitre-2.1/16.PNG)
+![image](assets/chapitre-2.1/16.webp)
 
 Sin embargo, las guerras del Golfo marcaron un punto de inflexión en la historia del Swiss Dinar. Irak, al no poder contar más con su proveedor inglés para la impresión de sus billetes, recurrió a China. Esta transición resultó en una clara diferencia en la calidad de los billetes, siendo percibida la versión china como inferior. Esta percepción no era infundada; los billetes chinos eran más fácilmente falsificables y susceptibles de ser sobreimpresos por el gobierno, poniendo en peligro así su valor.
 
-![image](assets/chapitre-2.1/17.PNG)
+![image](assets/chapitre-2.1/17.webp)
 
 Un fenómeno distintivo surgió en la economía iraquí posterior a la guerra del Golfo: el sistema de doble precio. Los comerciantes ofrecían precios diferentes según el tipo de billete utilizado para el pago, favoreciendo al Swiss Dinar original en detrimento del billete chino. Este sistema reflejaba la confianza mantenida en los billetes de mejor calidad, menos propensos a la devaluación, incluso en un contexto donde el valor era principalmente impuesto por el Estado. Este episodio demuestra la importancia de las características intrínsecas de la moneda y cómo, incluso en un régimen de moneda fiduciaria, la calidad percibida de una moneda puede influir en su valor relativo y, por extensión, en la confianza de los actores económicos.
 
@@ -179,7 +179,7 @@ Un fenómeno distintivo surgió en la economía iraquí posterior a la guerra de
 
 La percepción común a menudo asocia la moneda con una creación estatal, donde su emisión y valor son regulados por el Estado. Este concepto tiene sus raíces en civilizaciones antiguas como Roma, donde las monedas eran estandarizadas y selladas por el Imperio, otorgándoles así un valor oficial. Sin embargo, una exploración más profunda revela que el valor intrínseco de la moneda se derivaba principalmente de su contenido de metal precioso.
 
-![image](assets/chapitre-2.1/18.PNG)
+![image](assets/chapitre-2.1/18.webp)
 Un ejemplo concreto se ilustra a través del examen de un peso monetario equivalente a ocho reales españoles, o un dólar español. Este peso, marcado con un número romano que indica su valor, era utilizado por los cambistas para evaluar el valor de las monedas en función de su peso, y no simplemente de su estampado. Al pesar las monedas, los cambistas podían determinar si habían sido alteradas o dañadas, lo que podría haber reducido su valor. Esta práctica pone de manifiesto que, aunque el estampado estandarizado por el Estado confería un cierto valor nominal a la moneda, el verdadero valor residía en el peso del metal precioso que contenía.
 
 Este análisis demuestra que la confianza en la moneda, y por extensión su valor, estaba arraigada en su sustancia tangible más que en la mera afirmación del Estado. Destaca la dualidad entre el valor nominal impuesto por el Estado y el valor intrínseco dictado por el contenido de metal precioso. Así, la moneda va más allá de ser simplemente un instrumento estatal, su valor fundamental está intrínsecamente ligado a elementos tangibles y medibles.
@@ -194,7 +194,7 @@ En conclusión, este estudio sobre la devaluación monetaria abre la puerta a un
 
 En esta sección, exploraremos las diferentes dimensiones de la inflación, un fenómeno a menudo mal entendido. Aunque la inflación a menudo se percibe como un fenómeno multifactorial en los medios de comunicación y las discusiones comunes, es crucial recordar que, en última instancia, es un fenómeno monetario.
 
-![image](assets/chapitre-2.2/0.PNG)
+![image](assets/chapitre-2.2/0.webp)
 
 Aquí hay una descomposición del tema en varios puntos clave:
 
@@ -245,7 +245,7 @@ El análisis de Japón también destaca que el comportamiento de los agentes eco
 
 Un tercer ejemplo de por qué la impresión de dinero no causaría inflación es que la relación entre la impresión de dinero y la inflación está modulada por la forma en que el dinero recién creado se introduce en la economía. Si este dinero permanece en el balance de los bancos privados sin ser prestado a los actores económicos, no impactará directamente en la economía real y, por lo tanto, no provocará inflación.
 
-![image](assets/chapitre-2.2/5.PNG)
+![image](assets/chapitre-2.2/5.webp)
 
 La impresión de dinero puede ser considerada como una espada de Damocles suspendida sobre la economía. El dinero creado puede permanecer latente durante un tiempo sin efectos inflacionarios visibles, siempre y cuando no se inyecte en la economía a través de préstamos bancarios u otros mecanismos. Sin embargo, cuando este dinero latente finalmente se pone en circulación, los efectos inflacionarios pueden manifestarse. Esto es lo que se observó durante los años 2020, donde el dinero creado previamente encontró su camino en la economía, dando lugar a una inflación.
 Este escenario destaca la importancia de los mecanismos de transmisión monetaria en la determinación del impacto inflacionario de la impresión de dinero. La creación de dinero por parte del banco central es solo una pieza del rompecabezas. El comportamiento de los bancos privados, que deciden el volumen de préstamos a otorgar, y el comportamiento de los prestatarios, que deciden cómo gastarán el dinero prestado, también son elementos cruciales en esta dinámica.
@@ -254,7 +254,7 @@ Este escenario destaca la importancia de los mecanismos de transmisión monetari
 
 El ejemplo de la República de Weimar ilustra otro aspecto crucial de la relación entre la impresión de dinero y la inflación: el papel de las expectativas y el comportamiento de los agentes económicos. Cuando el Banco Central de la República de Weimar comenzó a imprimir una gran cantidad de dinero, la incertidumbre económica llevó a las personas a atesorar, es decir, a almacenar el dinero en lugar de gastarlo. Esta reacción retrasó temporalmente los efectos inflacionarios de la impresión de dinero.
 
-![image](assets/chapitre-2.2/6.PNG)
+![image](assets/chapitre-2.2/6.webp)
 
 Sin embargo, cuando la situación económica comenzó a mejorar ligeramente, la confianza se restableció gradualmente. Las personas sacaron sus ahorros de sus escondites y comenzaron a gastar masivamente en la economía. Este cambio repentino de comportamiento, combinado con una alta cantidad de dinero ya existente, condujo a una explosión de la demanda. Con más dinero en circulación y una mayor demanda, los precios comenzaron a subir rápidamente, lo que resultó en una inflación notable.
 
@@ -274,37 +274,37 @@ Este ejemplo resalta la importancia del momento y el comportamiento de los agent
 
 Estos ejemplos se pueden utilizar en discusiones para explicar por qué la inflación no siempre es una consecuencia inmediata de la impresión monetaria, y cómo los contextos económicos y los comportamientos de los agentes influyen en la inflación.
 
-![image](assets/chapitre-2.2/0.5.PNG)
+![image](assets/chapitre-2.2/0.5.webp)
 
 Porque como se muestra en este [hilo](https://twitter.com/saifedean/status/1673639779433590786): La inflación es todo, excepto culpa de los bancos centrales.
 
 - Economistas culpando la inflación al cambio climático.
 
-![image](assets/chapitre-2.2/8.PNG)
+![image](assets/chapitre-2.2/8.webp)
 
 - Ejemplo de Suecia culpando a Beyoncé por la inflación durante un mes específico.
 
-![image](assets/chapitre-2.2/0.PNG)
+![image](assets/chapitre-2.2/0.webp)
 
 - Banco central de Polonia atribuyendo la inflación a la agresión rusa en Ucrania y a la pandemia.
 
-![image](assets/chapitre-2.2/7.PNG)
+![image](assets/chapitre-2.2/7.webp)
 
 - Brexit culpado por la inflación en el Reino Unido.
 
-![image](assets/chapitre-2.2/9.PNG)
+![image](assets/chapitre-2.2/9.webp)
 
 - Lanzamiento del juego Zelda asociado con un shock inflacionario.
 
-![image](assets/chapitre-2.2/12.PNG)
+![image](assets/chapitre-2.2/12.webp)
 
 - Taylor Swift supuestamente causando inflación.
 
-![image](assets/chapitre-2.2/15.PNG)
+![image](assets/chapitre-2.2/15.webp)
 
 ¿Cómo podrían Beyoncé o Taylor Swift, díganme, explicar un aumento generalizado de los precios? Ven que no tiene sentido. En resumen:
 
-![image](assets/chapitre-2.2/14.PNG)
+![image](assets/chapitre-2.2/14.webp)
 
 ### Exploración de los Tipos de Inflación
 
@@ -316,7 +316,7 @@ Es fundamental comprender la distinción entre los diferentes tipos de inflació
 
 - Hiperinflación: La hiperinflación es un fenómeno extremo en el que la tasa de inflación supera el 50% mensual, lo que, debido a la naturaleza exponencial de la inflación, equivale a una inflación anual de más del 13,000%. Este nivel de inflación desestabiliza gravemente la economía, haciendo que la moneda casi no tenga valor y provocando una pérdida de confianza en el sistema monetario.
 
-![imagen](assets/chapitre-2.2/17.PNG)
+![imagen](assets/chapitre-2.2/17.webp)
 
 En la exploración de los tipos de inflación, es común encontrar términos como "Demand Pull" y "Cost Push" en los recursos educativos. Estos conceptos, aunque válidos, tienden a explicar los aumentos de precios en lugar de la inflación como fenómeno monetario. Aquí hay un análisis más detallado:
 
@@ -331,7 +331,7 @@ En la exploración de los tipos de inflación, es común encontrar términos com
 
 Bernholz propone una clasificación simplificada pero precisa de la inflación en tres categorías, que permiten comprender mejor este fenómeno monetario complejo:
 
-![image](assets/chapitre-2.2/16.PNG)
+![image](assets/chapitre-2.2/16.webp)
 
 - Inflación Moderada:
   La inflación moderada se manifiesta cuando el nivel de masa monetaria es superior a lo normal, pero sin que el Estado recurra a grandes déficits financiados mediante la creación monetaria. Aunque el término "moderada" puede parecer insignificante, esta forma de inflación puede generar problemas sustanciales, aunque no se clasifique como alta inflación.
@@ -377,18 +377,18 @@ Para ilustrar, si la inflación cae al 40% en julio y no vuelve a subir por enci
 
 Esta definición ha sido adoptada en la tabla Hanke-Krus, que documenta 56 episodios de hiperinflación. Sin embargo, la tabla no cubre todos los episodios, como el de Venezuela en 2016, lo que eleva el total a 57.
 
-![imagen](assets/chapitre-3.1/1.PNG)
+![imagen](assets/chapitre-3.1/1.webp)
 
 zoom
 
-![imagen](assets/chapitre-3.1/0.PNG)
+![imagen](assets/chapitre-3.1/0.webp)
 Es importante tener en cuenta que esta definición, aunque precisa, podría posiblemente excluir algunos episodios de hiperinflación debido a la rigurosidad del umbral del 50%. Existe la posibilidad de ampliar esta definición para incluir otros episodios que, aunque no cumplan estrictamente con el criterio de Cagan, representen períodos de inflación extremadamente alta. Esta observación abre la puerta a una exploración más amplia de los fenómenos de hiperinflación, permitiendo una comprensión más matizada de sus causas y efectos. En discusiones posteriores, consideraremos volver a visitar esta definición y examinar episodios de hiperinflación no cubiertos por el estricto criterio de Cagan.
 
 ### La Definición de la Hiperinflación según Cagan
 
 Philip Cagan, al definir la hiperinflación, pudo haber establecido un hito arbitrario con el umbral del 50% de inflación mensual. Él mismo admite que esta definición es arbitraria y sirvió principalmente para su análisis basado en siete episodios de hiperinflación. El examen de los datos de Cagan revela que los tres episodios de hiperinflación con las tasas de inflación mensual más bajas fueron alrededor del 47%, 46% y 57%. Parece que el umbral del 50% fue elegido para abarcar estos casos en su estudio.
 
-![imagen](assets/chapitre-3.1/4.PNG)
+![imagen](assets/chapitre-3.1/4.webp)
 
 - Contexto Histórico:
   La definición de Cagan data de 1956 y se basa en un número limitado de episodios de hiperinflación disponibles en ese momento.
@@ -400,7 +400,7 @@ Philip Cagan, al definir la hiperinflación, pudo haber establecido un hito arbi
   Otros economistas, como Bernholz, autor de Monetary Regime and Inflation, también han calificado el umbral del 50% como arbitrario.
   Bernholz señala que existen episodios de alta inflación que tienen las mismas características cualitativas que los episodios de hiperinflación, sin alcanzar el umbral del 50%.
 
-![imagen](assets/chapitre-3.1/3.PNG)
+![imagen](assets/chapitre-3.1/3.webp)
 
 Esta reflexión nos lleva a cuestionar la rigidez de la definición tradicional de la hiperinflación y destaca la necesidad de tal vez revisar este umbral al integrar más episodios y datos históricos. La definición de la hiperinflación podría requerir flexibilidad para abarcar diversas manifestaciones de inflación extrema en diferentes contextos económicos e históricos.
 
@@ -408,7 +408,7 @@ Esta reflexión nos lleva a cuestionar la rigidez de la definición tradicional 
 
 Entonces, ¿cuántos casos de hiperinflación hay en total?
 Definiciones comunes de hiperinflación, como la propuesta por Kagan que establece una inflación mensual del 50%, a veces pueden ser confusas o simplistas. Por ejemplo, dos países con tasas de inflación anual del 1,000% y 3,000% respectivamente pueden ser percibidos de manera diferente según la distribución mensual de esa inflación. Si ningún mes supera el umbral del 50%, según la definición de Kagan, estos países no estarían en estado de hiperinflación. Este enfoque puede llevar a anomalías en la clasificación de la hiperinflación, especialmente cuando se comparan inflaciones acumuladas durante el año.
-![image](assets/chapitre-3.1/7.PNG)
+![image](assets/chapitre-3.1/7.webp)
 
 - El libro de Kagan, "Monetary Dynamics of Hyperinflation", que establece un análisis fundamental de la hiperinflación.
 - El libro de Bernold que estudia 30 períodos de hiperinflación distintos, ampliando así el espectro de análisis.
@@ -425,11 +425,11 @@ En este capítulo, exploraremos los impactos de la hiperinflación, centrándono
 
 Varios libros han sido particularmente instructivos:
 
-![image](assets/chapitre-3.2/0.PNG)
+![image](assets/chapitre-3.2/0.webp)
 
 - "When Money Dies" por Adam Ferguson, narra la hiperinflación posterior a la Primera Guerra Mundial en Alemania, así como en Austria y Hungría.
 - Two books on hyperinflation in Zimbabwe, "Zimbabwe Warm Heart Ugly Face" and "Hard Boiled Egg Index" by Jérôme Gardner and Kudzai Joseph Gou Min-Yu respectively, offer poignant testimonies from a CEO of a clothing store chain and an agricultural banker on their experiences during this tumultuous period.
-  ![image](assets/chapter-3.2/1.PNG)
+  ![image](assets/chapter-3.2/1.webp)
 
 In consolidating my notes, I discerned a multitude of similarities between the experiences of hyperinflation in Zimbabwe and in the Weimar Republic, despite the 90-year gap separating them. I identified about 17 similarities, 13 of which illustrated some sort of progression towards the economic disaster depicted in these testimonies. These fascinating parallels demonstrate the repetitive and devastating nature of hyperinflation across time and borders. Today, we will examine these similarities and how they depict a worrisome trajectory during periods of hyperinflation.
 
@@ -459,7 +459,7 @@ The speed at which currency can lose its value in certain economic situations is
 
 > Zimbabwe: "El banco central había desperdiciado dinero imprimiendo un billete que no valía el papel en el que estaba impreso. En otras palabras, su valor era inferior al del papel higiénico. Por absurdo que parezca, era más barato usar el billete de ZWD 100 billones como papel higiénico que comprar papel higiénico real".
 
-![imagen](assets/chapitre-3.2/3.PNG)
+![imagen](assets/chapitre-3.2/3.webp)
 
 4. Conteo de dinero
 
@@ -514,7 +514,7 @@ Weimar: "Los comerciantes recientemente se vieron obligados por un nuevo edicto 
 
 Zimbabwe: "El gobierno introdujo el SI 175/2008 el 12 de diciembre de 2008 con respecto al pago con cheques. Estipulaba: 'La penalización por rechazar un pago con cheque/tarjeta de crédito u otro método de pago electrónico mediado por un banco será una multa de nivel 8 o una pena de prisión de seis meses o ambas'. Obviamente, ignoramos el SI porque estaba completamente desfasado de la realidad".
 
-![imagen](assets/chapitre-3.2/4.PNG)
+![imagen](assets/chapitre-3.2/4.webp)
 
 11. Obligados a mantener sus tiendas abiertas
 
@@ -542,7 +542,7 @@ La compra frenética de divisas extranjeras a menudo ha marcado un punto crític
 
 ### Resumen del proceso
 
-![imagen](assets/chapitre-3.2/2.PNG)
+![imagen](assets/chapitre-3.2/2.webp)
 
 Al analizar la trayectoria económica, es evidente que cuando se alcanza una alta inflación, el valor de la masa monetaria se deprecia. Esta devaluación genera varias complicaciones, como la escasez de billetes. En este contexto, surgen oportunidades de arbitraje, especialmente con las fluctuaciones de los tipos de cambio. Como resultado, muchas personas recurren a este arbitraje, invirtiendo masivamente en activos tangibles, anticipando una futura devaluación monetaria que les permitiría pagar sus deudas con una moneda debilitada. Este entorno económico perjudica el atractivo de los empleos tradicionales y, por lo tanto, socava la cohesión social.
 
@@ -550,7 +550,7 @@ Ante esta situación, el Estado impone regulaciones draconianas, incluidos los c
 
 ### 4 Similitudes en las consecuencias de la hiperinflación
 
-![imagen](assets/chapitre-3.2/6.PNG)
+![imagen](assets/chapitre-3.2/6.webp)
 
 1. Petróleo y metales
 
@@ -581,14 +581,14 @@ En este capítulo, exploraremos las diferencias y paralelismos entre los períod
 
 En Alemania, era común que la población atribuyera la inflación al aumento del dólar en lugar de la devaluación intrínseca de su propia moneda. Muchos estaban convencidos de que el fenómeno observado se debía a una apreciación del dólar. Esta percepción descartaba cualquier reconocimiento de la conexión entre su dificultad económica y la devaluación monetaria, principalmente inducida por la creación excesiva de dinero. El libro "When Money Dies" ilustra claramente esta falta de conocimiento entre la población alemana. En cambio, en Zimbabwe, la situación era diferente: los ciudadanos eran plenamente conscientes de la causa subyacente de la hiperinflación que estaban experimentando.
 
-![imagen](assets/chapitre-3.3/3.PNG)
+![imagen](assets/chapitre-3.3/3.webp)
 
 2. La moneda de necesidad (Notgeld)
 
 Ante la crisis monetaria y económica, Alemania recurrió al "Notgeld" (moneda de necesidad). Estos billetes, impresos por ciudades o ciertas empresas, fueron diseñados para remediar la escasez de moneda corriente.
 De manera interesante, Francia también recurrió a los Notgeld, especialmente en la década de 1920. Esta iniciativa no fue solo una consecuencia directa de la hiperinflación, sino que también tuvo sus raíces en las perturbaciones causadas por la Primera Guerra Mundial. La guerra no solo desestabilizó la economía, sino que también aumentó el costo de los metales. Por lo tanto, el valor intrínseco de las monedas de metal a menudo superaba su valor nominal, lo que llevaba a las personas a almacenarlas. En ausencia de monedas, algunas instituciones, como la Cámara de Comercio de Lyon, imprimieron sus propios Notgeld.
 
-![image](assets/chapitre-3.3/0.PNG)
+![image](assets/chapitre-3.3/0.webp)
 
 > "Lo que se debe hacer, se debe hacer." - un dicho local
 
@@ -596,7 +596,7 @@ Entre los Notgeld, hay un billete en particular que llama la atención. Presenta
 
 El artista detrás de este Notgeld parece dirigir una crítica irónica hacia las autoridades responsables de la crisis de hiperinflación. El billete lleva la inscripción "La necesidad no conoce ley". Otra expresión específica de la localidad de origen del Notgeld dice: "Lo que se debe hacer, se debe hacer".
 
-![image](assets/chapitre-3.3/1.PNG)
+![image](assets/chapitre-3.3/1.webp)
 
 > "La necesidad no conoce ley"
 
@@ -612,7 +612,7 @@ En Weimar, algunas deudas fueron reevaluadas para compensar el impacto de la inf
 
 Para aprender más sobre la gestión de la crisis alemana, este libro también es fundamental.
 
-![image](assets/chapitre-3.3/4.PNG)
+![image](assets/chapitre-3.3/4.webp)
 
 ### Los paralelos contemporáneos
 
@@ -644,7 +644,7 @@ La historia de la República de Weimar revela que, durante este período, los ac
 
 Este concepto de empresa zombie no es nuevo. De hecho, estaba presente en la República de Weimar. En ese momento, muchas empresas parecían prósperas, aprovechando ampliamente el acceso al crédito gratuito. Tomaban préstamos considerables, con la perspectiva de pagar más tarde con una moneda devaluada debido a la inflación galopante. Sin embargo, cuando la inflación cesó y el marco alemán recuperó valor, estas empresas, que no eran realmente viables en términos operativos y financieros, se volvieron no rentables y tuvieron que cerrar.
 
-![imagen](assets/chapitre-3.3/5.PNG)
+![imagen](assets/chapitre-3.3/5.webp)
 
 El fenómeno de las empresas zombies no se limita a la historia de la Alemania de posguerra. Incluso hoy en día, muchas grandes empresas sobreviven gracias a un acceso privilegiado a créditos con tasas de interés muy bajas. Si tuvieran que pedir prestado a tasas más convencionales, muchas de ellas dejarían de ser rentables. Esto es especialmente relevante ahora que estamos en 2023, y después de un largo período de tasas de interés cercanas a cero, estas tasas han comenzado a aumentar. Esta evolución reciente del panorama financiero sin duda será una prueba decisiva para estas empresas que alguna vez fueron calificadas como "zombies".
 
@@ -652,7 +652,7 @@ El fenómeno de las empresas zombies no se limita a la historia de la Alemania d
 
 En la historia, se observan momentos en los que las personas buscan enriquecerse rápidamente, como fue el caso en Weimar y en Zimbabwe a través del arbitraje. Hoy en día, se nota una tendencia similar con la aparición de ciertas criptomonedas. Las personas son tentadas por ganancias rápidas, asumiendo riesgos con la esperanza de multiplicar exponencialmente su inversión. Este enfoque puede recordar al observado en períodos de hiperinflación, donde el arbitraje se utiliza para obtener ganancias rápidas, a menudo a expensas de otros.
 
-![imagen](assets/chapitre-3.3/6.PNG)
+![imagen](assets/chapitre-3.3/6.webp)
 
 6. El ahorro, el remedio contra la incertidumbre
 
@@ -670,7 +670,7 @@ Vamos a analizar juntos diferentes períodos de redenominación en países de Am
 
 En la diapositiva, a la izquierda, se muestran los años de redenominación, el nombre de la nueva moneda y la tasa de cambio con la moneda anterior. Tomando el ejemplo de Argentina, el peso moneda nacional se convirtió a una tasa de 25 por 1 de la moneda anterior, el peso real. En este contexto, examinaremos la evolución de la moneda argentina a lo largo del tiempo. Además, indicaremos las denominaciones iniciales y finales de los billetes de banco para cada período.
 
-![imagen](assets/chapitre-3.4/1.PNG)
+![imagen](assets/chapitre-3.4/1.webp)
 
 A la derecha de la diapositiva, hay un gráfico de la inflación. Las flechas rojas representan los años de hiperinflación, definidos según el criterio de Kagan como una inflación del 50% por mes. Este criterio a veces puede llevar a interpretaciones ambiguas, con años que presentan tasas de inflación altas pero que no cumplen estrictamente con la definición de hiperinflación.
 Es importante destacar que la redenominación, durante períodos de inflación, es una medida común tomada por los gobiernos. Sin embargo, esto no resuelve el problema subyacente de la inflación o hiperinflación. Es simplemente una forma de cambiar el nombre de la moneda y eliminar ceros, sin abordar realmente la causa fundamental de la hiperinflación: la expansión de la masa monetaria. En un video posterior, discutiremos las soluciones reales para abordar y resolver el problema de la hiperinflación. En esta serie, destacaremos las consecuencias de una simple redenominación sin reformas adecuadas: la inflación persiste.
@@ -679,13 +679,13 @@ Después de Argentina, nuestro estudio cubrirá Brasil, Bolivia, Perú, Nicaragu
 
 ### Argentina
 
-![image](assets/chapitre-3.4/1.PNG)
+![image](assets/chapitre-3.4/1.webp)
 
 Antes de 1826, Argentina utilizaba el dólar español. Después de su independencia en 1816, introdujo su propia moneda basada en el real español, lo que resultó en la creación de una moneda similar. La tabla comienza en 1881, año de la introducción del "peso moneda nacional" con billetes de hasta 10,000. Este fue seguido por el "peso ley", intercambiado a una tasa de 100 por 1 y con billetes de hasta un millón. Luego llegó el "peso argentino" con una tasa de cambio de 10,000 por 1 (equivalente a la eliminación de cuatro ceros), y billetes de hasta 10,000. En 1985, se introdujo el "australes" y se intercambió a 1000 por 1, con billetes de hasta 500,000. En 1992, se estableció el actual "peso ley" con una tasa de 10,000 por 1, eliminando una vez más cuatro ceros. Solo los años 1989 y 1990 experimentaron hiperinflación.
 
 ### Brasil
 
-![image](assets/chapitre-3.4/2.PNG)
+![image](assets/chapitre-3.4/2.webp)
 
 Brasil es un caso emblemático en términos de redenominación monetaria, como se ilustra en su historia llena de cambios de moneda. Antes de su independencia, Brasil utilizaba el real portugués. Sin embargo, desde 1747, el país comenzó a utilizar su propio "real brasileño", mucho antes de su declaración de independencia en 1822. La tabla comienza en 1818, marcando el inicio de la emisión de billetes brasileños, antes de eso, la moneda era principalmente en forma de monedas. Estos billetes alcanzarán valores de hasta un millón de reales.
 A partir de 1942, Brasil inició una serie de redenominaciones. En la mayoría de los casos (1942, 1967, 1986, 1989, 1993), la tasa de conversión fue de 1,000 a 1. En 1990, se produjo un cambio de nombre sin conversión. La secuencia de estas monedas es la siguiente:
@@ -703,7 +703,7 @@ El billete de mayor denominación alcanzó los 500,000, y la última redenominac
 
 ### Bolivia
 
-![image](assets/chapitre-3.4/3.PNG)
+![image](assets/chapitre-3.4/3.webp)
 
 Bolivia es otro ejemplo de un país que ha atravesado períodos de inflación aguda, lo que ha requerido redenominaciones monetarias. Aquí hay un resumen de su historia monetaria:
 
@@ -718,7 +718,7 @@ Aquí hay un resumen de la tumultuosa historia monetaria de Bolivia, marcada por
 
 ### Perú
 
-![image](assets/chapitre-3.4/4.PNG)
+![image](assets/chapitre-3.4/4.webp)
 
 Perú presenta un caso interesante en cuanto a los efectos de la regla arbitraria del 50%. Comenzando por su historia monetaria, Perú utilizaba el oro español hasta el siglo XIX y declaró su independencia en 1821. El dólar peruano estuvo en uso desde 1822 hasta 1863. En 1863, el real peruano fue reemplazado por el soldi oro, con una tasa de 10 a 1, alcanzando un valor máximo de 50,000. En 1985, se introdujo la moneda "Inti" con una tasa de conversión de 1000 a 1, llegando a 5 millones. En 1991, se lanzó el "SOL" con una tasa de 1 millón a 1, con billetes que van desde 10 hasta 200.
 Al examinar los períodos de redenominación, 1988 se considera un año de hiperinflación, especialmente en septiembre. Julio-agosto de 1990 también experimentó un período de hiperinflación. En 1988, la inflación anual fue del 667%, con un pico del 50% en septiembre. En cambio, en 1989 hubo una inflación del 3000% sin ningún mes que superara el 50%, por lo que no se clasificó como hiperinflación. En 1990, la inflación alcanzó el 7481%. Es evidente que la regla del 50% puede ser arbitraria, ya que 1988 fue considerado un año de hiperinflación, a diferencia de 1989. Si esta regla fuera reconsiderada, podría ser prudente reducir el umbral para incluir períodos como el experimentado por Perú en 1989.
@@ -729,26 +729,26 @@ Al examinar los períodos de redenominación, 1988 se considera un año de hiper
 
 ### Nicaragua
 
-![imagen](assets/chapitre-3.4/5.PNG)
+![imagen](assets/chapitre-3.4/5.webp)
 Nicaragua
 
 El Nicaragua, que antes estaba bajo el dominio español, inicialmente utilizaba el dólar español, al igual que muchos otros países colonizados por España. Después de ser integrado al Imperio español, al Imperio mexicano y luego a la República Federal de América Central, Nicaragua proclamó su independencia. A partir de 1878, el peso se convirtió en la moneda oficial del país, con valores que fluctuaban entre 1 y 100. En 1912, el país introdujo el primer Córdoba, seguido del segundo en 1988 y del tercero en 1991, que todavía se utiliza hoy en día. El primer Córdoba alcanzó un valor de 1 millón, el segundo 10 millones. La redenominación en 1991 siguió a varios años de hiperinflación.
 
 Venezuela
 
-![image](assets/chapitre-3.4/6.PNG)
+![image](assets/chapitre-3.4/6.webp)
 
 Venezuela es el último país mencionado en este video. El país ha experimentado cuatro redenominaciones monetarias a lo largo del tiempo. Al principio, Venezuela utilizaba el dólar español antes de declarar su independencia en 1811. En 1879, introdujo el bolívar como moneda oficial, que estuvo en vigencia hasta 1983, año en que el gobierno optó por un dólar de tipo flotante.
 
 Un hecho notable sobre Venezuela es su adhesión a la Unión Monetaria Latina. Esta unión incluía monedas como las 5 pesetas de España, las 5 dracmas de Grecia, los 5 bolívares de Venezuela, las 5 liras de Italia, los 5 francos belgas y los 5 francos franceses.
 
-![image](assets/chapitre-3.4/8.PNG)
+![image](assets/chapitre-3.4/8.webp)
 
-![image](assets/chapitre-3.4/7.PNG)
+![image](assets/chapitre-3.4/7.webp)
 
-![image](assets/chapitre-3.4/9.PNG)
+![image](assets/chapitre-3.4/9.webp)
 
-![image](assets/chapitre-3.4/10.PNG)
+![image](assets/chapitre-3.4/10.webp)
 
 Durante este período, la moneda de 5 bolívares de Venezuela tenía el mismo peso que las de los países miembros de la Unión, como Italia, España, Bélgica y Francia. Estos bolívares estaban compuestos de plata, con una moneda específica de 1929 que pesaba 25 gramos y tenía una pureza de 900, es decir, 90% de plata pura. Con el precio actual de la plata, esta moneda tiene un valor aproximado de 17 a 18 dólares estadounidenses.
 
@@ -787,13 +787,13 @@ Un aspecto interesante planteado por Bernold es que el éxito de una reforma mon
 
 ### El caso de Zimbabwe
 
-![image](assets/chapitre-3.5/1.PNG)
+![image](assets/chapitre-3.5/1.webp)
 
 Zimbabwe obtuvo su independencia en 1980 e introdujo el dólar de Zimbabwe. Inicialmente, dos dólares de Zimbabwe equivalían a aproximadamente 1,60 dólares estadounidenses. Sin embargo, en 1997, debido a medidas sociales a favor de los veteranos de la guerra de independencia, la moneda se devaluó un 72% en un solo día durante el Viernes Negro. Luego, a principios de la década de 2000, el país implementó un programa de redistribución de tierras, quitando las tierras a los propietarios blancos y entregándolas a la población local. Esta decisión perjudicó las exportaciones, ya que los nuevos propietarios a menudo no tenían la experiencia necesaria para administrar grandes explotaciones agrícolas. De hecho, mientras que Zimbabwe era un exportador neto en 1999, se convirtió en un importador neto en 2003.
 
 En 2006, el país introdujo una nueva versión de su moneda, el ZWN, con una tasa de cambio de 1 por 1,000. En 2008, se introdujo otra denominación, el ZWR, con una tasa de cambio de 1 por 10 mil millones. Esto llevó a la creación de los billetes emblemáticos de 100 billones.
 
-![image](assets/chapitre-3.5/2.PNG)
+![image](assets/chapitre-3.5/2.webp)
 
 #### Dolarización y salida de la crisis
 
@@ -808,11 +808,11 @@ Es preocupante notar que Zimbabwe ha intentado reintroducir su propia moneda y n
 
 En mi libro "Todo sobre Bitcoin", dediqué un capítulo completo a la hiperinflación en Zimbabwe. Detallo los eventos destacados, proporcionando varios ejemplos que ilustran cómo el país finalmente puso fin a la hiperinflación.
 
-![imagen](assets/chapitre-3.5/3.PNG)
+![imagen](assets/chapitre-3.5/3.webp)
 
 Para aquellos que estén interesados en la experiencia alemana después de la Primera Guerra Mundial, recomiendo encarecidamente el cómic "El banquero del Reich". Narra cómo Alemania logró superar la hiperinflación, especialmente a través de la creación del Rentenmark.
 
-![imagen](assets/chapitre-3.5/4.PNG)
+![imagen](assets/chapitre-3.5/4.webp)
 
 En mi libro "Todo sobre Bitcoin", dediqué un capítulo completo a la hiperinflación en Zimbabwe. Detallo los eventos destacados, proporcionando varios ejemplos que ilustran cómo el país finalmente puso fin a la hiperinflación. Para aquellos que estén interesados en la experiencia alemana después de la Primera Guerra Mundial, recomiendo encarecidamente el cómic "El banquero del Reich". Narra cómo Alemania logró superar la hiperinflación, especialmente a través de la creación del Rentenmark.
 
@@ -828,7 +828,7 @@ El enlace a la colección escaneada está disponible en el Bitcoin Educational T
 
 La aparición de la segunda capa monetaria y los primeros bancos centrales es un tema fascinante. Este tema se aborda ampliamente en el libro "Layered Money" de Nick Battia. Lo recomiendo encarecidamente a aquellos que estén interesados en la evolución y sutilezas de nuestros sistemas monetarios. El objetivo de esta sección es comprender el origen de la creación monetaria y cómo esto pudo llevar a la hiperinflación.
 
-![image](assets/chapitre-4.1/1.PNG)
+![image](assets/chapitre-4.1/1.webp)
 
 ### Moneda piramidal y bancos centrales
 
@@ -836,9 +836,9 @@ La aparición de la segunda capa monetaria y los primeros bancos centrales es un
 
 La historia de la moneda se remonta al siglo XIII en Italia, específicamente en Florencia. En ese momento, el florín y las letras de cambio eran comunes. Un ejemplo notable es el florín, adornado con la figura de San Juan Bautista.
 
-![image](assets/chapitre-4.1/2.PNG)
+![image](assets/chapitre-4.1/2.webp)
 
-![image](assets/chapitre-4.1/3.PNG)
+![image](assets/chapitre-4.1/3.webp)
 
 Aunque poseer un verdadero florín es costoso hoy en día, hay reproducciones disponibles. También existen otras monedas de la época, como el soldo de los Estados italianos del siglo XVII, que muestra una imagen de Cristo.
 
@@ -851,7 +851,7 @@ La práctica común en ese entonces era la siguiente: los orfebres emitían letr
 La bolsa de Amberes marcó un hito en la evolución del dinero en papel. Fue allí donde se introdujo la práctica de descontar los billetes a orden. Estos billetes eran instrumentos de papel que representaban un valor monetario, pero su particularidad era que llevaban nombres y fechas de vencimiento. Esto los hacía difíciles de intercambiar antes de la fecha de vencimiento.
 La creación del Banco de Inglaterra para financiar la guerra
 
-![image](assets/chapitre-4.1/6.PNG)
+![image](assets/chapitre-4.1/6.webp)
 
 Durante el siglo XVII, Inglaterra se encontraba en guerra con Francia y necesitaba una forma de financiar sus esfuerzos militares. En 1694, se creó el Banco de Inglaterra como una solución a este problema. El banco fue establecido como una institución privada con el propósito de prestar dinero al gobierno a cambio de ciertos privilegios, como el derecho a emitir billetes de banco respaldados por reservas de oro y plata.
 
@@ -865,7 +865,7 @@ Inicialmente, la primera capa de dinero estaba representada por el oro. Los dep�
 
 #### El pánico de 1796
 
-![image](assets/chapitre-4.1/6.PNG)
+![image](assets/chapitre-4.1/6.webp)
 Pánico bancario en el banco Seamen's Savings durante el pánico de 1857.
 
 Después del pánico bancario de 1796, se produjo un fenómeno en el que todo el mundo intentaba subir por la "pirámide del dinero". La gente quería intercambiar su dinero de la tercera capa por el de la segunda capa y, finalmente, por el dinero de la primera capa, el oro. Ante esta avalancha masiva, el Banco de Inglaterra se vio obligado a actuar para estabilizar la situación. Para evitar una posible deflación de las reservas de oro, decidió suspender la convertibilidad de sus billetes de banco en oro. Esta suspensión, inicialmente concebida como una medida temporal, se prolongó durante dos décadas.

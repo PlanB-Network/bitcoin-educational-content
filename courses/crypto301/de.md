@@ -22,15 +22,13 @@ Dieses Training wird Sie nicht nur mit dem Wissen ausstatten, um die Struktur ei
 
 ### Ist dieses Training für Sie geeignet? JA!
 
-![Einführung von Rogzy](https://youtu.be/ul8zU5QWIXg)
-
 Wir freuen uns, Sie zu dem neuen Schulungskurs "Crypto 301: Einführung in die Kryptographie und HD-Wallet" begrüßen zu dürfen, der von dem Experten auf diesem Gebiet, Loïc Morel, geleitet wird. Dieser Kurs wird Sie in die faszinierende Welt der Kryptographie eintauchen lassen, der grundlegenden Disziplin der Mathematik, die die Verschlüsselung und Sicherheit Ihrer Daten gewährleistet.
 
 In unserem täglichen Leben, insbesondere im Bereich von Bitcoin, spielt Kryptographie eine entscheidende Rolle. Konzepte im Zusammenhang mit Kryptographie, wie private Schlüssel, öffentliche Schlüssel, Adressen, Ableitungspfade, Seed und Entropie, stehen im Mittelpunkt der Verwendung und Erstellung einer Bitcoin-Wallet. Im Laufe dieses Kurses wird Loïc ausführlich erklären, wie private Schlüssel generiert werden und wie sie mit Adressen verknüpft sind. Loïc wird auch eine Stunde damit verbringen, die mathematischen Details elliptischer Kurven zu erklären. Darüber hinaus werden Sie verstehen, warum die Verwendung von HMAC SHA512 für die Sicherheit Ihrer Wallet wichtig ist und was der Unterschied zwischen einem Seed und einer mnemonischen Phrase ist.
-Das ultimative Ziel dieses Trainings ist es, Ihnen das Verständnis der technischen Prozesse bei der Erstellung einer HD-Wallet und der verwendeten kryptographischen Methoden zu ermöglichen. Im Laufe der Jahre haben sich Bitcoin-Wallets weiterentwickelt, um einfacher zu bedienen, sicherer und standardisierter zu sein, dank spezifischer BIPs. Loïc wird Ihnen helfen, diese BIPs zu verstehen, um die Entscheidungen der Bitcoin-Entwickler und Kryptographen zu erfassen. Wie alle von unserer Universität angebotenen Schulungen ist auch diese völlig kostenlos und Open Source. Das bedeutet, dass Sie sie frei nutzen und verwenden können, wie Sie möchten. Wir freuen uns darauf, Ihr Feedback am Ende dieses aufregenden Kurses zu erhalten.
-### Das Wort hat der Professor!
 
-![Einführung von Loïc](https://youtu.be/mwuxXLk4Kws)
+Das ultimative Ziel dieses Trainings ist es, Ihnen das Verständnis der technischen Prozesse bei der Erstellung einer HD-Wallet und der verwendeten kryptographischen Methoden zu ermöglichen. Im Laufe der Jahre haben sich Bitcoin-Wallets weiterentwickelt, um einfacher zu bedienen, sicherer und standardisierter zu sein, dank spezifischer BIPs. Loïc wird Ihnen helfen, diese BIPs zu verstehen, um die Entscheidungen der Bitcoin-Entwickler und Kryptographen zu erfassen. Wie alle von unserer Universität angebotenen Schulungen ist auch diese völlig kostenlos und Open Source. Das bedeutet, dass Sie sie frei nutzen und verwenden können, wie Sie möchten. Wir freuen uns darauf, Ihr Feedback am Ende dieses aufregenden Kurses zu erhalten.
+
+### Das Wort hat der Professor!
 
 Hallo allerseits, ich bin Loïc Morel, Ihr Führer durch diese technische Erkundung der Kryptographie, die in Bitcoin-Wallets verwendet wird.
 
@@ -40,6 +38,7 @@ Wir werden unser Abenteuer fortsetzen, indem wir die geheimnisvolle Welt der dig
 Als erfahrener professioneller Übersetzer liegt Ihre Hauptaufgabe darin, technische Inhalte aus dem Englischen präzise in Ihre Muttersprache, Deutsch, zu übersetzen. Bitte beachten Sie die folgenden Richtlinien, um eine hochwertige Übersetzung sicherzustellen:
 
 Ursprungssprache: Der Inhalt liegt ursprünglich auf Englisch vor.
+
 Art des Inhalts: Sie werden auf technisches Material stoßen, möglicherweise einschließlich branchenspezifischer Terminologie.
 Links und technische Begriffe: Übersetzen Sie keine URLs oder hochspezifischen technischen Begriffe. Wenn Sie unsicher sind, behalten Sie den Originalbegriff bei.
 Formatierungskonsistenz: Beibehaltung des gleichen Markdown-Layouts und der Formatierung wie im Originaltext. Die Konsistenz der Struktur ist entscheidend.
@@ -58,7 +57,7 @@ Begleiten Sie mich auf dieser fesselnden Reise und machen Sie sich bereit, die W
 # Hash-Funktionen
 
 ## Einführung in kryptographische Hash-Funktionen im Zusammenhang mit Bitcoin
-![2.1 - Kryptographische Hash-Funktionen](https://youtu.be/dvnGArYvVr8)
+
 Willkommen zur heutigen Sitzung, die ganz der tiefen Eintauchen in die kryptographische Welt der Hash-Funktionen gewidmet ist, einem entscheidenden Eckpfeiler der Sicherheit des Bitcoin-Protokolls. Stellen Sie sich eine Hash-Funktion als einen ultraleistungsfähigen kryptographischen Entschlüsselungsroboter vor, der Informationen beliebiger Größe in einen eindeutigen und festen digitalen Fingerabdruck, genannt "Hash", "Digest" oder "Checksum", umwandelt.
 Zusammenfassend nimmt eine Hash-Funktion eine Eingabebotschaft beliebiger Größe entgegen und wandelt sie in einen festen Ausgabefingerabdruck um.
 
@@ -75,8 +74,10 @@ Diese Funktionen ermöglichen die Überprüfung der Integrität von heruntergela
 ![Bild](assets/image/section1/1.JPG)
 
 Eine weitere entscheidende Eigenschaft, die sie besitzen, ist ihre Widerstandsfähigkeit gegen Kollisionen und zweite Preimages. Eine Kollision tritt auf, wenn zwei unterschiedliche Eingaben die gleiche Ausgabe erzeugen.
+
 In der Welt der Hash-Funktionen sind Kollisionen sicherlich unvermeidlich, aber eine ausgezeichnete kryptographische Hash-Funktion minimiert sie erheblich. Das Risiko muss so gering sein, dass es als vernachlässigbar angesehen werden kann. Es ist, als ob jeder Hash ein Haus in einer riesigen Stadt wäre; trotz der enormen Anzahl von Häusern stellt eine gute Hash-Funktion sicher, dass jedes Haus eine eindeutige Adresse hat.
 Die Widerstandsfähigkeit gegen zweite Preimages hängt von der Widerstandsfähigkeit gegen Kollisionen ab; wenn es Widerstand gegen Kollisionen gibt, dann gibt es auch Widerstand gegen zweite Preimages.
+
 Gegeben eine uns auferlegte Eingabeinformation, müssen wir eine zweite Eingabe finden, die sich von der ersten unterscheidet und eine Kollision im Ausgabe-Hash der Funktion erzeugt. Die Widerstandsfähigkeit gegen zweite Preimages ähnelt der Widerstandsfähigkeit gegen Kollisionen, mit dem Unterschied, dass die Eingabe vorgegeben ist.
 Lassen Sie uns nun die stürmischen Gewässer veralteter Hash-Funktionen befahren. SHA0, SHA1 und MD5 gelten heute als verrostete Schalen im Ozean der kryptographischen Hash-Funktionen. Sie werden oft abgeraten, da sie ihre Widerstandsfähigkeit gegen Kollisionen verloren haben. Das Schubfachprinzip erklärt, warum trotz unserer besten Bemühungen die Vermeidung von Kollisionen aufgrund der Begrenzung der Ausgabegröße unmöglich ist. Um als wirklich sicher zu gelten, muss eine Hash-Funktion Kollisionen, zweite Preimages und Preimages widerstehen.
 Ein Schlüsselelement im Bitcoin-Protokoll ist die SHA-256-Hashfunktion, die das Schiff steuert. Andere Funktionen wie SHA-512 werden zur Ableitung mit HMAC und PBKDF verwendet. Zusätzlich wird RIPMD160 verwendet, um einen Fingerabdruck auf 160 Bits zu reduzieren. Wenn wir von HASH256 und HASH160 sprechen, beziehen wir uns auf die Verwendung von doppeltem Hashing mit SHA-256 und RIPMD.
@@ -96,8 +97,6 @@ Zusammenfassend ist das ultimative Ziel einer kryptografischen Hashfunktion die 
 Am Ende dieser Erkundung haben wir kryptografische Hashfunktionen entmystifiziert, ihre Verwendung im Bitcoin-Protokoll hervorgehoben und ihre spezifischen Ziele analysiert. Wir haben gelernt, dass Hashfunktionen, um als sicher angesehen zu werden, widerstandsfähig gegen Vorbilder, zweite Vorbilder, Kollisionen und Manipulation sein müssen. Wir haben auch die verschiedenen Hashfunktionen behandelt, die im Bitcoin-Protokoll verwendet werden. In unserer nächsten Sitzung werden wir uns mit dem Kern der SHA256-Hashfunktion befassen und die faszinierende Mathematik entdecken, die ihr ihre einzigartigen Eigenschaften verleiht.
 
 ## Die Funktionsweise von SHA256
-
-![Die Funktionsweise von SHA256](https://youtu.be/74SWg_ZbUj4)
 
 Willkommen zur Fortsetzung unserer faszinierenden Reise durch die kryptografischen Irrgärten der Hashfunktion. Heute enthüllen wir die Geheimnisse von SHA256, einem komplexen, aber genialen Prozess, den wir zuvor vorgestellt haben.
 -> 940 + 1 + P + 64 = 1024-> P = 1024 - 1 - 64 - 950
@@ -131,6 +130,7 @@ Hier ist das Ergebnis:
 #### Verständnis der Voraussetzungen
 
 ##### Konstanten und Initialisierungsvektoren
+
 Jetzt bereiten wir uns auf die ersten Schritte der Verarbeitung der SHA-256-Funktion vor. Wie bei jedem guten Rezept benötigen wir einige grundlegende Zutaten, die wir Konstanten und Initialisierungsvektoren nennen.
 
 Die Initialisierungsvektoren von A bis H sind die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen. Sie dienen als Basiswerte in den ersten Verarbeitungsschritten. Ihre Werte sind im hexadezimalen Format.
@@ -163,6 +163,7 @@ Wir führen 64 Runden von Berechnungen in der Kompressionsfunktion durch. In der
 
 Dann wiederholen wir all diese Schritte der Kompressionsfunktion auf dem nächsten 512-Bit-Block, bis zum letzten Block.
 Alle Additionen in der Kompressionsfunktion sind Modulo-2^32-Additionen, um immer eine 32-Bit-Summe zu erhalten.
+
 ![image](assets/image/section1/9.JPG)
 
 ![image](assets/image/section1/8.JPG)
@@ -172,6 +173,7 @@ Alle Additionen in der Kompressionsfunktion sind Modulo-2^32-Additionen, um imme
 ![image](assets/image/section1/11.JPG)
 
 ![image](assets/image/section1/10.JPG)
+
 Die Kompressionsfunktion wird 64 Mal durchgeführt. Wir haben unsere Teile W und unsere zuvor definierten Konstanten K als Eingabe.
 Die roten Quadrate/Kreuze entsprechen einer Modulo-2^32-Bit-Addition.
 
@@ -203,8 +205,6 @@ Die Ausgabe des letzten Durchlaufs, des letzten Stücks, entspricht dem endgült
 Abschließend möchten wir die entscheidende Rolle der Berechnungen in den CH-, MAJ-, σ0- und σ1-Boxen betonen. Diese Operationen sind unter anderem die Wächter, die die Robustheit der SHA256-Hash-Funktion gegen Angriffe gewährleisten und sie zu einer bevorzugten Wahl zur Sicherung vieler digitaler Systeme machen, insbesondere innerhalb des Bitcoin-Protokolls. Es ist offensichtlich, dass die Schönheit von SHA256, obwohl komplex, in ihrer Fähigkeit liegt, die Eingabe aus dem Hash zu finden, während die Überprüfung des Hash für eine gegebene Eingabe eine mechanisch einfache Aktion ist.
 
 ## Die für die Ableitung verwendeten Algorithmen
-
-![Die für die Ableitung verwendeten Algorithmen](https://youtu.be/ZF1_BMsOJXc)
 
 Die HMAC- und PBKDF2-Ableitungsalgorithmen sind Schlüsselkomponenten im Sicherheitsmechanismus des Bitcoin-Protokolls. Sie verhindern verschiedene potenzielle Angriffe und gewährleisten die Integrität von Bitcoin-Wallets.
 HMAC und PBKDF2 sind kryptografische Werkzeuge, die für verschiedene Aufgaben in Bitcoin verwendet werden. HMAC wird hauptsächlich verwendet, um Längenerweiterungsangriffe bei der Ableitung von hierarchisch deterministischen (HD) Wallets zu bekämpfen, während PBKDF2 verwendet wird, um eine mnemonische Phrase in einen Seed umzuwandeln.
@@ -238,6 +238,7 @@ Zusammenfassend spielen die HMAC- und PBKDF2-Algorithmen eine wesentliche Rolle 
 ## Digitale Signaturen und elliptische Kurven
 
 Wo werden diese berühmten Bitcoins gespeichert? Nicht in einer Bitcoin-Brieftasche, wie man vielleicht denken würde. Tatsächlich speichert eine Bitcoin-Brieftasche die privaten Schlüssel, die zum Nachweis des Eigentums an den Bitcoins erforderlich sind. Die Bitcoins selbst werden auf der Blockchain, einer dezentralen Datenbank, die alle Transaktionen archiviert, erfasst.
+
 Im Bitcoin-System ist die Einheit der Rechnungseinheit der Bitcoin (beachten Sie das kleine "b"). Sie ist bis zu acht Dezimalstellen teilbar, wobei die kleinste Einheit der Satoshi ist. UTXOs oder "Unspent Transaction Outputs" repräsentieren die ungenutzten Transaktionsausgaben, die zu einem öffentlichen Schlüssel gehören, der mathematisch mit einem privaten Schlüssel verknüpft ist. Um diese Bitcoins auszugeben, muss man die Ausgabebedingung der Transaktion erfüllen können. Eine typische Ausgabebedingung besteht darin, dem Rest des Netzwerks nachzuweisen, dass der Benutzer der rechtmäßige Besitzer des öffentlichen Schlüssels ist, der mit dem UTXO verknüpft ist. Dazu muss der Benutzer den Besitz des privaten Schlüssels nachweisen, der dem öffentlichen Schlüssel jedes UTXO entspricht, ohne den privaten Schlüssel preiszugeben.
 
 Hier kommt die digitale Signatur ins Spiel. Sie dient als mathematischer Nachweis des Besitzes eines privaten Schlüssels, der mit einem bestimmten öffentlichen Schlüssel verknüpft ist. Diese Datensicherungstechnik basiert hauptsächlich auf einem faszinierenden Bereich der Kryptographie namens elliptische Kurvenkryptographie (ECC).
@@ -245,6 +246,7 @@ Hier kommt die digitale Signatur ins Spiel. Sie dient als mathematischer Nachwei
 Die Signatur kann mathematisch von anderen Teilnehmern im Bitcoin-Netzwerk überprüft werden.
 
 ![image](assets/image/section2/0.JPG)
+
 Um die Sicherheit von Transaktionen zu gewährleisten, setzt Bitcoin auf zwei digitale Signaturprotokolle: ECDSA (Elliptic Curve Digital Signature Algorithm) und Schnorr. ECDSA ist seit der Einführung von Bitcoin im Jahr 2009 ein Signaturprotokoll, während Schnorr-Signaturen erst kürzlich im November 2021 hinzugefügt wurden. Obwohl beide Protokolle auf elliptischer Kurvenkryptographie basieren und ähnliche mathematische Mechanismen verwenden, unterscheiden sie sich hauptsächlich in Bezug auf die Signaturstruktur.
 
 In diesem Kurs werden wir den ECDSA-Algorithmus vorstellen.
@@ -282,8 +284,6 @@ Im nächsten Abschnitt dieses Kurses werden wir Kurven verwenden, die sich einfa
 
 ## Berechnung des öffentlichen Schlüssels aus dem privaten Schlüssel
 
-![Berechnung des öffentlichen Schlüssels aus dem privaten Schlüssel](https://youtu.be/NJENwFU889Y)
-
 Beginnen wir damit, in die Welt des Elliptic Curve Digital Signature Algorithm (ECDSA) einzutauchen. Bitcoin verwendet diesen digitalen Signaturalgorithmus, um private und öffentliche Schlüssel zu verknüpfen. In diesem System ist der private Schlüssel eine zufällige oder pseudozufällige 256-Bit-Zahl. Die Gesamtzahl der Möglichkeiten für einen privaten Schlüssel beträgt theoretisch 2^256, aber in der Realität ist sie etwas geringer. Genauer gesagt sind einige 256-Bit private Schlüssel für Bitcoin ungültig.
 
 Um mit Bitcoin kompatibel zu sein, muss ein privater Schlüssel zwischen 1 und n-1 liegen, wobei n die Ordnung der elliptischen Kurve darstellt. Dies bedeutet, dass die Gesamtzahl der Möglichkeiten für einen Bitcoin-privaten Schlüssel fast gleich 1,158 x 10^77 ist. Um dies in Perspektive zu setzen, handelt es sich ungefähr um die gleiche Anzahl von Atomen im beobachtbaren Universum.
@@ -317,6 +317,7 @@ M + L = U
 ![image](assets/image/section2/5.JPG)
 
 ##### Hinzufügen eines Punktes zu sich selbst = Punktverdopplung
+
 Das Hinzufügen eines Punktes G zu sich selbst erfolgt durch das Zeichnen einer Tangente an die Kurve an diesem Punkt. Diese Tangente schneidet die Kurve gemäß den Eigenschaften elliptischer Kurven an einem zweiten eindeutigen Punkt -J. Das Gegenteil dieses Punktes, J, ist das Ergebnis des Hinzufügens des Punktes G zu sich selbst.
 G + G = J
 
@@ -347,13 +348,12 @@ In diesem Beispiel:
 - Der öffentliche Schlüssel K = kG = 4G
 
 ![image](assets/image/section2/9.JPG)
+
 Wenn der private Schlüssel k bekannt ist, ist es einfach, den öffentlichen Schlüssel K zu berechnen. Es ist jedoch unmöglich, den privaten Schlüssel basierend auf dem öffentlichen Schlüssel abzurufen. Handelt es sich hierbei um das Ergebnis einer Addition oder einer Verdopplung von Punkten?
 
 In unserer nächsten Lektion werden wir untersuchen, wie eine digitale Signatur mit dem ECDSA-Algorithmus und einem privaten Schlüssel zum Ausgeben von Bitcoins erstellt wird.
 
 ## Signieren mit dem privaten Schlüssel
-
-![Signieren mit dem privaten Schlüssel](https://youtu.be/h2hIyGgPqkM)
 
 Der Prozess der digitalen Signatur ist eine wichtige Methode, um nachzuweisen, dass Sie der Inhaber eines privaten Schlüssels sind, ohne ihn preiszugeben. Dies wird mit Hilfe des ECDSA-Algorithmus erreicht, der das Bestimmen einer eindeutigen Nonce, das Berechnen einer spezifischen Zahl V und das Erstellen einer digitalen Signatur aus zwei Teilen, S1 und S2, umfasst.
 Es ist entscheidend, immer eine eindeutige Nonce zu verwenden, um Sicherheitsangriffe zu vermeiden. Ein berüchtigtes Beispiel dafür, was passieren kann, wenn diese Regel nicht befolgt wird, ist das Hacken der PlayStation 3, die aufgrund der Wiederverwendung von Nonce kompromittiert wurde.
@@ -379,7 +379,9 @@ k = der private Schlüssel- Berechnen Sie die Signatur: die Verkettung von S1 + 
   K = der öffentliche Schlüssel
 
 Um beispielsweise den öffentlichen Schlüssel 3G zu erhalten, ziehen Sie eine Tangente zum Punkt G, berechnen Sie das Gegenteil von -G, um 2G zu erhalten, und fügen Sie dann G und 2G hinzu. Um eine Transaktion durchzuführen, müssen Sie nachweisen, dass Sie die Zahl 3 kennen, indem Sie die mit dem öffentlichen Schlüssel 3G verbundenen Bitcoins entsperren.
+
 Um eine digitale Signatur zu erstellen und nachzuweisen, dass Sie den privaten Schlüssel kennen, der mit dem öffentlichen Schlüssel 3G verbunden ist, berechnen Sie zunächst eine Zufallszahl (Nonce) und dann den Punkt V, der mit diesem Nonce verbunden ist (im gegebenen Beispiel ist es 4G). Anschließend berechnen Sie den Punkt T, indem Sie den öffentlichen Schlüssel 3G und den Punkt V addieren, was 7G ergibt.
+
 ![image](assets/image/section2/11.JPG)
 
 Lassen Sie uns den Prozess der digitalen Signatur vereinfachen.
@@ -413,6 +415,7 @@ Hier sind die Schritte, die der Überprüfer befolgt, um die Signatur zu validie
 4. Der Überprüfer berechnet dann I', was einfach die x-Koordinate des Punktes P' modulo n ist.
 5. Schließlich bestätigt der Überprüfer, dass I' gleich t ist. Wenn dies der Fall ist, wird die Signatur als gültig betrachtet. Andernfalls ist die Signatur ungültig.
 Dieses Verfahren stellt sicher, dass nur der Absender, der den entsprechenden privaten Schlüssel besitzt, eine Signatur erstellen konnte, die diesen Überprüfungsprozess besteht.
+
 ![image](assets/image/section2/12.JPG)
 
 In einfacheren Worten:
@@ -435,8 +438,6 @@ Um diese Fragen zu beantworten und Ihr Verständnis für die Sicherheit von Kryp
 
 ## Entwicklung von Bitcoin-Wallets
 
-![Entwicklung von Bitcoin-Wallets](https://youtu.be/6tmu1R9cXyk)
-
 Die Hierarchisch Deterministische Wallet, allgemein bekannt als HD Wallet, spielt eine herausragende Rolle im Kryptowährungsökosystem. Der Begriff "Wallet" mag für Neulinge auf diesem Gebiet irreführend sein, da er nicht das Halten von Geld oder Währungen umfasst. Stattdessen bezieht er sich auf eine Sammlung kryptografischer privater Schlüssel.
 
 Die frühen Wallets waren Software, die privat bestimmte Schlüssel pseudozufällig gruppierten, aber keine Verbindung zwischen ihnen hatten. Diese Wallets werden "Just a Bunch Of Keys" (JBOK) genannt.
@@ -444,6 +445,7 @@ Die frühen Wallets waren Software, die privat bestimmte Schlüssel pseudozufäl
 Da die Schlüssel keine Verbindung zueinander haben, muss der Benutzer für jedes neu generierte Schlüsselpaar eine neue Sicherungskopie erstellen. Entweder verwendet der Benutzer immer dasselbe Schlüsselpaar und gefährdet die Vertraulichkeit oder er generiert zufällig ein neues Schlüsselpaar und muss daher eine neue Sicherungskopie dieser Schlüssel erstellen.
 
 Die Komplexität der Verwaltung dieser Schlüssel wird jedoch durch eine Reihe von Protokollen namens Bitcoin Improvement Proposals (BIPs) ausgeglichen. Diese Upgrade-Vorschläge sind der Kern der Funktionalität und Sicherheit von HD Wallets. Zum Beispiel hat [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), das 2012 eingeführt wurde, die Art und Weise, wie diese Schlüssel generiert und gespeichert werden, revolutioniert, indem das Konzept der deterministisch und hierarchisch abgeleiteten Schlüssel eingeführt wurde. Die Idee besteht darin, alle Schlüssel deterministisch und hierarchisch aus einer eindeutigen Information abzuleiten: dem Seed. Dadurch wird der Prozess der Sicherung dieser Schlüssel erheblich vereinfacht, während ihr Sicherheitsniveau erhalten bleibt.
+
 Anschließend führte [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) eine bedeutende Innovation ein: die 24-Wort-Mnemonic-Phrase. Dieses System verwandelte eine komplexe und schwer zu merkende Zahlenfolge in eine Reihe gewöhnlicher Wörter, was das Merken und Speichern erheblich erleichterte. Zusätzlich schlug [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) vor, eine zusätzliche Passphrase hinzuzufügen, um die Sicherheit einzelner Schlüssel zu erhöhen. Diese aufeinanderfolgenden Verbesserungen führten zu den Standards BIP43 und BIP44, die die Struktur und Hierarchisierung von HD-Wallets standardisierten und sie für die breite Öffentlichkeit zugänglicher und benutzerfreundlicher machten.
 
 In den folgenden Abschnitten werden wir tiefer in die Funktionsweise von HD-Wallets eintauchen. Wir werden die Prinzipien der Schlüsselableitung erläutern und die grundlegenden Konzepte von Entropie und Zufallszahlenerzeugung untersuchen, die für die Sicherheit Ihres HD-Wallets unerlässlich sind.
@@ -452,7 +454,6 @@ Zusammenfassend ist es wichtig, die zentrale Rolle von BIP32 und BIP39 bei der G
 
 ## Entropie und Zufallszahl
 
-![Entropie und Zufallszahl](https://youtu.be/k18yH18w2TE)
 Die Bedeutung der Sicherheit des privaten Schlüssels im Bitcoin-Ökosystem ist unbestreitbar. Sie sind tatsächlich der Grundpfeiler, der die Sicherheit von Bitcoin-Transaktionen gewährleistet. Um jegliche Schwachstellen in Bezug auf Vorhersagbarkeit zu vermeiden, müssen diese Schlüssel auf wirklich zufällige Weise generiert werden, was schnell zu einer mühsamen Aufgabe werden kann. Das Problem ist, dass es in der Informatik unmöglich ist, eine wirklich zufällige Zahl zu generieren, da sie zwangsläufig aus einem deterministischen Prozess, einem Code, abgeleitet wird. Aus diesem Grund ist es wichtig, sich mit den verschiedenen Arten von Zufallszahlengeneratoren (RNG) vertraut zu machen. Die Arten von RNG variieren von Pseudo-Zufallszahlengeneratoren (PRNG) bis hin zu echten Zufallszahlengeneratoren (TRNG) sowie PRNGs, die eine Quelle für Entropie einbeziehen.
 
 Entropie bezieht sich auf den "Unordnungszustand" eines Systems. Aus einer externen Entropie, das heißt, einer externen Informationsquelle, ist es möglich, mithilfe eines Zufallszahlengenerators eine Zufallszahl zu erhalten.
@@ -478,11 +479,13 @@ Ein Beispiel für eine Transformationsfunktion ist die PBKDF2-Funktion.
 - eine ausreichend lange Periode haben
 
 ![Bild](assets/image/section3/3.JPG)
+
 Im Falle von Bitcoin werden private Schlüssel aus einer einzigen Information am Anfang der Brieftasche generiert. Diese Information ermöglicht die deterministische und hierarchische Ableitung von Kinderschlüsselpaaren. Entropie ist die Grundlage jeder HD-Brieftasche, obwohl es keinen Standard für die Generierung dieser Zufallszahl gibt. Daher ist die Generierung von Zufallszahlen eine große Herausforderung bei der Sicherung von Bitcoin-Transaktionen.
+
 ## Die mnemonische Phrase
 
-![Die mnemonische Phrase](https://youtu.be/uJERqH9Xp7I)
 Die Sicherheit einer Bitcoin-Brieftasche ist ein Hauptanliegen für alle Benutzer. Eine wesentliche Möglichkeit, die Sicherung der Brieftasche zu gewährleisten, besteht darin, eine mnemonische Phrase auf der Grundlage von Entropie und Prüfsumme zu generieren.
+
 ![Bild](assets/image/section3/5.JPG)
 
 Um Entropie in eine mnemonische Phrase umzuwandeln, berechnen Sie einfach die Prüfsumme der Entropie und verknüpfen Sie die Entropie und die Prüfsumme.
@@ -512,10 +515,11 @@ Es ist unerlässlich, die 24-Wort-Wiederherstellungsphrase zur Erhaltung der Int
 Zusammenfassend ist die Generierung einer mnemonischen Phrase zur Sicherung einer Bitcoin-Brieftasche ein entscheidender Prozess. Es ist wichtig, sich an die Standards der mnemonischen Phrase basierend auf der Größe der Entropie zu halten. Die Sicherung der 24-Wort-Wiederherstellungsphrase ist unerlässlich, um einen Verlust von Geldern zu verhindern.
 
 ## Die Passphrase
-![Die Passphrase](https://youtu.be/dZkOYO7MXwc)
+
 Die Passphrase ist ein zusätzliches Kennwort, das in eine Bitcoin-Brieftasche integriert werden kann, um ihre Sicherheit zu erhöhen. Die Verwendung ist optional und liegt im Ermessen des Benutzers. Durch Hinzufügen beliebiger Informationen, die zusammen mit der mnemonischen Phrase die Berechnung des Seeds der Brieftasche ermöglichen, erhöht die Passphrase ihre Sicherheit.
 
 ![Bild](assets/image/section3/8.JPG)
+
 Die Passphrase ist ein optionaler kryptografischer Salt, dessen Größe vom Benutzer festgelegt wird. Sie verbessert die Sicherheit einer HD-Wallet, indem sie beliebige Informationen hinzufügt, die in Kombination mit der mnemonischen Phrase die Berechnung des Seeds ermöglichen.
 
 Nachdem sie bei der Erstellung einer Wallet festgelegt wurde, ist sie für die Ableitung aller Schlüssel der Wallet erforderlich. Die Funktion pbkdf2 wird verwendet, um den Seed aus der Passphrase zu generieren. Dieser Seed ermöglicht die Ableitung aller Kinderschlüsselpaare der Wallet. Wenn die Passphrase geändert wird, wird die Bitcoin-Wallet vollständig verändert.
@@ -535,7 +539,7 @@ In unserer nächsten Lektion werden wir detailliert auf die Funktionsweise des S
 # Erstellung von Bitcoin-Wallets
 
 ## Erstellung des Seeds und des Master Keys
-![Erstellung des Seeds und des Master Keys](https://youtu.be/56yAt_JDWhY)
+
 In diesem Teil des Kurses werden wir die Schritte zur Ableitung einer Hierarchisch Deterministischen Wallet (HD-Wallet) untersuchen, die die hierarchische und deterministische Erstellung und Verwaltung von privaten und öffentlichen Schlüsseln ermöglicht.
 
 ![image](assets/image/section4/0.JPG)
@@ -548,6 +552,7 @@ Um den Seed zu erhalten, wird die Funktion pbkdf2 (Password-Based Key Derivation
 
 Aus dem Seed ist es möglich, den Master-Privatschlüssel und den Chain Code mithilfe des HMAC SHA-512 (Hash-based Message Authentication Code Secure Hash Algorithm 512) Algorithmus zu bestimmen. Dieser Algorithmus erfordert eine Nachricht und einen Schlüssel als Eingabe, um ein Ergebnis zu generieren. Der Master-Privatschlüssel wird aus dem Seed und der Phrase "Bitcoin SEED" berechnet. Diese Phrase ist für alle Ableitungen aller HD-Wallets identisch und gewährleistet Konsistenz zwischen den Wallets.
 Ursprünglich wurde die SHA-512-Funktion nicht im Bitcoin-Protokoll implementiert, weshalb HMAC SHA-512 verwendet wird. Die Verwendung von HMAC SHA-512 mit dem Ausdruck "Bitcoin SEED" schränkt den Benutzer ein, eine Brieftasche spezifisch für Bitcoin zu generieren. Das Ergebnis von HMAC SHA-512 ist eine 512-Bit-Zahl, die in zwei Teile aufgeteilt ist: die linken 256 Bits repräsentieren den Master-Privatschlüssel, während die rechten 256 Bits den Master-Chain-Code repräsentieren.
+
 ![image](assets/image/section4/2.JPG)
 
 Der Master-Privatschlüssel ist der übergeordnete Schlüssel aller zukünftigen Schlüssel in der Brieftasche, während der Master-Chain-Code an der Ableitung von Kinderschlüsseln beteiligt ist. Es ist wichtig zu beachten, dass es unmöglich ist, ein Kinderschlüsselpaar abzuleiten, ohne den entsprechenden Chain-Code des übergeordneten Paares zu kennen.
@@ -558,8 +563,6 @@ Es ist wichtig zu beachten, dass der Master-Privatschlüssel der erste aus dem S
 In der nächsten Lektion werden wir erweiterte Schlüssel im Detail untersuchen, wie z. B. xPub, xPRV, zPub, und verstehen, warum sie verwendet werden und wie sie konstruiert werden.
 
 ## Erweiterte Schlüssel
-
-![Erweiterte Schlüssel](https://youtu.be/TRz760E_zUY)
 
 In diesem Teil der Lektion werden wir erweiterte Schlüssel (xPub, zPub, yPub) und ihre Präfixe untersuchen, die eine wichtige Rolle bei der Ableitung von Kinderschlüsseln in einer hierarchisch deterministischen Brieftasche (HD-Wallet) spielen.
 
@@ -594,8 +597,6 @@ In unserer nächsten Lektion werden wir uns auf die Ableitung von Kinderschlüss
 
 ## Ableitung von Kinderschlüsselpaaren
 
-![Ableitung von Kinderschlüsselpaaren](https://youtu.be/FXhI-GmE9Aw)
-
 Wie bereits erwähnt, haben wir die Berechnung des Seeds und des Master-Schlüssels besprochen, die die ersten wesentlichen Elemente für die hierarchische Organisation und Ableitung der HD (Hierarchical Deterministic) Brieftasche sind. Der Seed, mit einer Länge von 128 bis 256 Bits, wird zufällig oder aus einer geheimen Phrase generiert. Er spielt eine deterministische Rolle bei der Ableitung aller anderen Schlüssel. Der Master-Schlüssel ist der erste Schlüssel, der aus dem Seed abgeleitet wird, und er ermöglicht die Ableitung aller anderen Kinderschlüsselpaare.
 
 Der Master-Chain-Code spielt eine wichtige Rolle bei der Wiederherstellung der Brieftasche aus dem Seed. Es sollte beachtet werden, dass alle aus demselben Seed abgeleiteten Schlüssel denselben Master-Chain-Code haben werden.
@@ -604,6 +605,7 @@ Der Master-Chain-Code spielt eine wichtige Rolle bei der Wiederherstellung der B
 
 Die hierarchische Organisation und Ableitung der HD-Brieftasche bieten eine effizientere Verwaltung von Schlüsseln und Brieftaschenstrukturen. Erweiterte Schlüssel ermöglichen die Ableitung eines Kinderschlüsselpaars aus einem Elternschlüsselpaar mithilfe mathematischer Berechnungen und spezifischer Algorithmen.
 Es gibt verschiedene Arten von Kinderschlüsselpaaren, einschließlich verstärkter Schlüssel und normaler Schlüssel. Der erweiterte öffentliche Schlüssel ermöglicht nur die Ableitung normaler Kinderschlüssel, während der erweiterte private Schlüssel die Ableitung aller Kinderschlüssel ermöglicht, sowohl öffentlicher als auch privater, unabhängig davon, ob sie im normalen oder verstärkten Modus sind. Jedes Schlüsselpaar hat einen Index, der sie voneinander unterscheidet.
+
 ![Bild](assets/image/section4/8.JPG)
 
 Die Ableitung von Kinderschlüsseln verwendet die HMAC-SHA512-Funktion, wobei der Elternschlüssel mit dem Index und dem mit dem Schlüsselpaar verbundenen Chain-Code konkateniert wird. Normale Kinderschlüssel haben einen Index von 0 bis 2 hoch 31 minus 1, während verstärkte Kinderschlüssel einen Index von 2 hoch 31 bis 2 hoch 32 minus 1 haben.
@@ -616,7 +618,9 @@ Es gibt zwei Arten von Kinderschlüsselpaaren: verstärkte Paare und normale Paa
 
 ![Bild](assets/image/section4/11.JPG)
 ![Bild](assets/image/section4/12.JPG)
+
 Verstärkte Ableitung verwendet den übergeordneten privaten Schlüssel, während normale Ableitung den übergeordneten öffentlichen Schlüssel verwendet. Die HMAC-SHA512-Funktion wird für die verstärkte Ableitung verwendet, während die normale Ableitung eine 512-Bit-Prüfsumme verwendet. Der öffentliche Schlüssel des Kindes wird erhalten, indem der private Schlüssel des Kindes mit dem Generator der elliptischen Kurve multipliziert wird.
+
 ![image](assets/image/section4/13.JPG)
 ![image](assets/image/section4/14.JPG)
 
@@ -624,7 +628,6 @@ Durch die hierarchische Ableitung und die deterministische Ableitung vieler Schl
 
 ## Wallet-Struktur und Ableitungspfade
 
-![Wallet-Struktur und Ableitungspfade](https://youtu.be/etO9UxwyE2I)
 In diesem Kapitel werden wir uns die Struktur des Ableitungsbaums in einem Hierarchisch Deterministischen Wallet (HD-Wallet) genauer ansehen. Wir haben bereits die Berechnung des Seeds, den Master-Schlüssel und die Ableitung von Kinderschlüsselpaaren untersucht. Jetzt werden wir uns auf die Organisation von Schlüsseln innerhalb des Wallets konzentrieren.
 
 Das HD-Wallet verwendet Tiefenschichten, um Schlüssel zu organisieren. Jede Ableitung von einem Elternpaar zu einem Kindpaar entspricht einer Tiefenschicht.
@@ -658,7 +661,6 @@ Im nächsten Kapitel werden wir uns mit Empfangsadressen, ihren Vorteilen und de
 
 ## Bitcoin-Adressen
 
-![Bitcoin-Adressen](https://youtu.be/nqGBMjPtFNI)
 In diesem Kapitel werden wir uns mit Empfangsadressen befassen, die eine entscheidende Rolle im Bitcoin-System spielen. Sie ermöglichen es, Gelder in einer Transaktion zu empfangen und werden aus Paaren von privaten und öffentlichen Schlüsseln generiert. Obwohl es einen Skripttyp namens Pay2PublicKey gibt, der Bitcoins an einen öffentlichen Schlüssel bindet, ziehen es Benutzer im Allgemeinen vor, anstelle dieses Skripts Empfangsadressen zu verwenden.
 
 Wenn ein Empfänger Bitcoins empfangen möchte, gibt er dem Sender anstelle seines öffentlichen Schlüssels eine Empfangsadresse an. Eine Adresse ist tatsächlich ein Hash eines öffentlichen Schlüssels mit einem bestimmten Format. Der öffentliche Schlüssel wird aus dem Kind-Privatschlüssel mithilfe mathematischer Operationen wie Punktaddition und Verdopplung auf elliptischen Kurven abgeleitet.
@@ -674,7 +676,6 @@ Es ist unerlässlich, darauf hinzuweisen, dass jede Adresse nur einmal verwendet
 Für Bitcoin-Adressen werden verschiedene Präfixe verwendet. Zum Beispiel entspricht BC1Q einer Segwit V0-Adresse, BC1P einer Taproot/Segwit V1-Adresse und Präfixe 1 und 3 sind mit Pay2PublicKeyH/Pay2ScriptH (Legacy)-Adressen verbunden. In der nächsten Lektion werden wir Schritt für Schritt erklären, wie man eine Adresse aus einem öffentlichen Schlüssel ableitet.
 
 ## Wie erstellt man eine Bitcoin-Adresse?
-![Wie erstellt man eine Bitcoin-Adresse?](https://youtu.be/ewMGTN8dKjI)
 
 In diesem Kapitel werden wir die Konstruktion einer Empfangsadresse für Bitcoin-Transaktionen diskutieren. Eine Empfangsadresse ist eine alphanumerische Darstellung eines komprimierten öffentlichen Schlüssels. Die Umwandlung eines öffentlichen Schlüssels in eine Empfangsadresse umfasst mehrere Schritte.
 
@@ -694,12 +695,15 @@ Wir verwenden das Präfix 0x02 für ein gerades y und 0x03 für ein ungerades y.
 Der Hash des komprimierten öffentlichen Schlüssels wird mit der SHA256-Funktion berechnet. Anschließend wird die RIPEMD160-Funktion auf den Digest angewendet.
 
 ### Schritt 3: Die Nutzlast = Adressnutzlast
+
 Der binäre Digest von RIPEMD160(SHA256(K)) wird verwendet, um Gruppen von 5 Bits zu bilden. Jede Gruppe wird in Basis16 (Hexadezimal) und/oder Basis 10 umgewandelt.
+
 ### Schritt 4: Hinzufügen von Metadaten für die Prüfsummenberechnung mit dem BCH-Programm
 
 ![Bild](assets/image/section5/5.JPG)
 
 Im Fall von Legacy-Adressen verwenden wir die doppelte SHA256-Hashfunktion, um die Adressprüfsumme zu generieren. Für Segwit V0- und V1-Adressen verlassen wir uns jedoch auf die BCH-Prüfsummentechnologie, um Fehlererkennung zu gewährleisten. Das BCH-Programm ist in der Lage, Fehler vorzuschlagen und zu korrigieren, wobei die Wahrscheinlichkeit eines Fehlers äußerst gering ist. Derzeit wird das BCH-Programm verwendet, um Fehler zu erkennen und Änderungen vorzuschlagen, führt diese jedoch nicht automatisch im Namen des Benutzers aus.
+
 Das BCH-Programm erfordert verschiedene Eingabeinformationen, einschließlich des HRP (Human Readable Part), das erweitert werden muss. Die Erweiterung des HRP beinhaltet die Codierung jedes Buchstabens in Basis 2 gemäß ihrem ASCII-Code. Dann werden die ersten 3 Bits des Ergebnisses für jeden Buchstaben genommen und in Basis 10 umgewandelt (in Blau in der Abbildung). Fügen Sie einen Trenner 0 ein. Dann werden die folgenden 5 Bits jedes zuvor in Basis 10 umgewandelten Buchstabens aneinandergehängt (in Gelb in der Abbildung).
 
 Die Erweiterung des HRP in Basis 10 ermöglicht es, die letzten fünf Bits jedes Zeichens zu isolieren und somit die Prüfsumme zu verstärken.
@@ -734,8 +738,6 @@ Alles wird in Bech32 umgewandelt, dann wird 'bc' für Bitcoin hinzugefügt und '
 
 ## Erstellen eines Seeds aus 128 Würfelwürfen!
 
-![Erstellen eines Seeds aus 128 Würfelwürfen!](https://youtu.be/lUw-1kk75Ok)
-
 Das Erstellen einer mnemonischen Phrase ist ein entscheidender Schritt zur Sicherung Ihrer Kryptowährungs-Wallet. Es gibt verschiedene Methoden zur Generierung einer mnemonischen Phrase, jedoch konzentrieren wir uns auf die manuelle Generierungsmethode mit Würfeln. Es ist wichtig zu beachten, dass diese Methode nicht für eine Wallet mit hohem Wert geeignet ist. Es wird empfohlen, Open-Source-Software oder eine Hardware-Wallet zu verwenden, um die mnemonische Phrase zu generieren. Um eine mnemonische Phrase zu erstellen, verwenden wir Würfel, um binäre Informationen zu generieren. Das Ziel ist es, den Prozess des Erstellens der mnemonischen Phrase zu verstehen.
 
 **Schritt 1 - Vorbereitung:**
@@ -763,6 +765,9 @@ Das Generieren einer mnemonischen Phrase ist ein wichtiger Prozess, um Ihre Kryp
 ## BONUS: Interview mit Théo Pantamis
 
 Eine weitere weit verbreitete kryptografische Methode im Bitcoin-Protokoll ist die Methode der digitalen Signaturen.
+
+![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
+
 ## Fazit und Abschluss
 
 ### Vielen Dank und weiterhin viel Erfolg

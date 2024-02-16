@@ -1,5 +1,5 @@
 ---
-name: Hyperinflations
+name: Hyperinflation Studies
 goal: Understanding the emergence of hyperinflations in a Fiat world and their consequences
 objectives:
   - Study hyperinflation cycles

@@ -2,9 +2,9 @@
 name: Introduction to RGB Programming
 goal: Learn the basics of the RGB programming stack and build your first RGB applications
 objectives:
-- Understand RGB theoretically
-- Run an RGB node
-- Build on top of RGB
+  - Understand RGB theoretically
+  - Run an RGB node
+  - Build on top of RGB
 ---
 
 # A journey into RGB

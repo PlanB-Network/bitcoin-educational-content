@@ -17,7 +17,7 @@ Portanto, existem apenas 2 papéis em uma transação Stonewall:
 - O destinatário, que pode ignorar a natureza específica da transação e simplesmente esperar um pagamento do remetente.
 
 Vamos pegar um exemplo para entender essa estrutura de transação. Alice está na padaria para comprar sua baguete, que custa 4.000 sats. Ela quer pagar em bitcoins mantendo um certo nível de privacidade para seu pagamento. Portanto, ela decide construir uma transação Stonewall para o pagamento.
-![transação stonewall padaria](assets/fr/1.png)
+![transação stonewall padaria](assets/pt/1.png)
 Ao analisar essa transação, podemos ver que o padeiro realmente recebeu 4.000 sats como pagamento pela baguete. Alice usou 2 UTXOs como entradas: um de 10.000 sats e outro de 15.000 sats. Como saída, ela recebeu 3 UTXOs: um de 4.000 sats, um de 6.000 sats e um de 11.000 sats. Alice, portanto, tem um saldo líquido de -4.000 sats nesta transação, que corresponde ao preço da baguete.
 
 Neste exemplo, eu negligenciei intencionalmente as taxas de mineração para facilitar o entendimento. Na realidade, as taxas de transação são totalmente cobertas pelo remetente.

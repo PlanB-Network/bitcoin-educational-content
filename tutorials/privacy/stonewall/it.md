@@ -16,7 +16,7 @@ Pertanto, ci sono solo 2 ruoli in una transazione Stonewall:
 - Il destinatario, che può ignorare la natura specifica della transazione e semplicemente aspettarsi un pagamento dal mittente.
 
 Prendiamo un esempio per capire questa struttura di transazione. Alice è in panetteria per comprare la sua baguette, che costa 4.000 sats. Vuole pagare in bitcoin mantenendo un certo livello di privacy per il suo pagamento. Pertanto, decide di costruire una transazione Stonewall per il pagamento.
-![transaction stonewall bakery](assets/fr/1.png)
+![transaction stonewall bakery](assets/it/1.png)
 Analizzando questa transazione, possiamo vedere che il panettiere ha effettivamente ricevuto 4.000 sats come pagamento per la baguette. Alice ha utilizzato 2 UTXO come input: uno da 10.000 sats e uno da 15.000 sats. Come output, ha ricevuto 3 UTXO: uno da 4.000 sats, uno da 6.000 sats e uno da 11.000 sats. Alice ha quindi un saldo netto di -4.000 sats in questa transazione, che corrisponde al prezzo della baguette.
 
 In questo esempio, ho intenzionalmente trascurato le commissioni di mining per facilitare la comprensione. In realtà, le commissioni di transazione sono interamente coperte dal mittente.

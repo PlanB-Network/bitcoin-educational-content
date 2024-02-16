@@ -16,7 +16,7 @@ Daher gibt es in einer Stonewall-Transaktion nur 2 Rollen:
 - Der Empfänger, der die spezifische Natur der Transaktion ignorieren kann und einfach eine Zahlung vom Absender erwartet.
 
 Lassen Sie uns anhand eines Beispiels diese Transaktionsstruktur verstehen. Alice ist in der Bäckerei, um ihr Baguette zu kaufen, das 4.000 Sats kostet. Sie möchte in Bitcoins bezahlen und dabei ein gewisses Maß an Privatsphäre für ihre Zahlung wahren. Daher beschließt sie, eine Stonewall-Transaktion für die Zahlung zu erstellen.
-![transaction stonewall bakery](assets/fr/1.png)
+![transaction stonewall bakery](assets/de/1.png)
 Bei der Analyse dieser Transaktion können wir sehen, dass der Bäcker tatsächlich 4.000 Sats als Zahlung für das Baguette erhalten hat. Alice hat 2 UTXOs als Eingabe verwendet: einen im Wert von 10.000 Sats und einen im Wert von 15.000 Sats. Als Ausgabe erhielt sie 3 UTXOs: einen im Wert von 4.000 Sats, einen im Wert von 6.000 Sats und einen im Wert von 11.000 Sats. Alice hat daher in dieser Transaktion einen Netto-Saldo von -4.000 Sats, was dem Preis des Baguettes entspricht.
 
 In diesem Beispiel habe ich absichtlich die Mining-Gebühren vernachlässigt, um das Verständnis zu erleichtern. In Wirklichkeit werden die Transaktionsgebühren vollständig vom Absender übernommen.

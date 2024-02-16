@@ -9,19 +9,19 @@ description: Wie viele Remixes sollten bei Whirlpool durchgeführt werden?
 Dies ist eine Frage, die mir oft gestellt wird. **Bei der Durchführung von Coinjoins mit Whirlpool, wie viele Remixes sollten durchgeführt werden, um zufriedenstellende Ergebnisse zu erzielen?**
 
 Der Zweck von Coinjoin besteht darin, durch das Mischen Ihrer Münze mit einer Gruppe von nicht unterscheidbaren Münzen eine plausible Abstreitbarkeit zu bieten. Das Ziel dieser Aktion ist es, die Rückverfolgbarkeitsverbindungen sowohl von der Vergangenheit zur Gegenwart als auch von der Gegenwart zur Vergangenheit zu unterbrechen. Mit anderen Worten, ein Analyst, der Ihre anfängliche Transaktion am Eingang der Coinjoin-Zyklen kennt, sollte Ihre UTXO am Ausgang der Remix-Zyklen nicht eindeutig identifizieren können (Analyse von Eingangszyklen zu Ausgangszyklen).
-![past-present links diagram](assets/fr/1.png)
+![past-present links diagram](assets/de/1.png)
 
 Umgekehrt sollte ein Analyst, der Ihre UTXO am Ausgang der Coinjoin-Zyklen kennt, nicht in der Lage sein, die ursprüngliche Transaktion am Eingang der Zyklen zu bestimmen (Analyse von Ausgangszyklen zu Eingangszyklen).
-![present-past links diagram](assets/fr/2.png)
+![present-past links diagram](assets/de/2.png)
 Die Anzahl der Remixes ist jedoch kein zuverlässiges Kriterium, um die Schwierigkeit zu bewerten, mit der ein Analyst Verbindungen zwischen Vergangenheit und Gegenwart oder umgekehrt herstellen würde. Ein relevanterer Indikator wäre die Größe der Gruppen, in denen sich Ihre Münze versteckt. Diese Indikatoren werden als "Anonsets" bezeichnet. Bei Whirlpool gibt es zwei Arten von Anonsets.
 
 Erstens können wir die Größe der Gruppe bestimmen, in der sich Ihre UTXO am Ausgang der Coinjoin-Zyklen befindet, d.h. die Anzahl der nicht unterscheidbaren Münzen, die sich in dieser Gruppe befinden.
-![probable UTXOs at exit](assets/fr/3.png)
+![probable UTXOs at exit](assets/de/3.png)
 Dieser Indikator, in Französisch "prospective anonset", in Englisch "forward anonset" oder "forward-looking metrics" genannt, ermöglicht es uns, den Widerstand Ihrer Münze gegen Analysen zu bewerten, die ihren Weg von Eingang zu Ausgang der Coinjoin-Zyklen verfolgen. Diese Metrik schätzt das Ausmaß, in dem Ihre UTXO vor Versuchen geschützt ist, ihre Geschichte vom Eingangspunkt zum Ausgangspunkt im Coinjoin-Prozess zu rekonstruieren. Wenn Ihre Transaktion beispielsweise an ihrem ersten Coinjoin-Zyklus teilgenommen hat und zwei weitere nachgelagerte Zyklen durchgeführt wurden, wäre das prospective anonset Ihrer Münze `13`:
-![forward anonset](assets/fr/4.png)
-Zweitens kann ein weiterer Indikator berechnet werden, um den Widerstand Ihrer Münze gegen eine Analyse von der Gegenwart in die Vergangenheit zu bewerten. Indem Sie Ihre UTXO am Ende der Zyklen kennen, bestimmt dieser Indikator die Anzahl der potenziellen Tx0-Transaktionen, die Ihre Eingabe in den Coinjoin-Zyklen gebildet haben könnten (Analyse vom Ende zu Beginn der Zyklen). Dieser Indikator misst, wie schwierig es für einen Analysten ist, den Ursprung Ihrer Münze nach dem Durchlaufen von Coinjoins zurückzuverfolgen.![Probable sources at input](assets/fr/5.png)
+![forward anonset](assets/de/4.png)
+Zweitens kann ein weiterer Indikator berechnet werden, um den Widerstand Ihrer Münze gegen eine Analyse von der Gegenwart in die Vergangenheit zu bewerten. Indem Sie Ihre UTXO am Ende der Zyklen kennen, bestimmt dieser Indikator die Anzahl der potenziellen Tx0-Transaktionen, die Ihre Eingabe in den Coinjoin-Zyklen gebildet haben könnten (Analyse vom Ende zu Beginn der Zyklen). Dieser Indikator misst, wie schwierig es für einen Analysten ist, den Ursprung Ihrer Münze nach dem Durchlaufen von Coinjoins zurückzuverfolgen.![Probable sources at input](assets/de/5.png)
 Der Name dieses Indikators lautet "backward anonset" oder "backward-looking metrics". Auf Französisch nenne ich es gerne "anonset rétrospectif". In der folgenden Abbildung entspricht dies allen orangefarbenen Tx0-Blasen:
-![backward anonset](assets/fr/6.png)
+![backward anonset](assets/de/6.png)
 Um mehr über die Berechnungsmethode dieser Indikatoren zu erfahren, empfehle ich Ihnen, [meinen Twitter-Thread](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) zu diesem Thema zu lesen. Wir bereiten auch einen umfassenderen Artikel im PlanB Network vor.
 Mir ist bewusst, dass die gegebene Antwort möglicherweise unbefriedigend erscheint, da Sie auf eine bestimmte Anzahl von Remixes gehofft haben und ich Sie auf die Dokumentation verweise. Der Grund dafür ist, dass die Anzahl der Remixes kein zuverlässiger Indikator ist, um die Anonymität, die in Coinjoin-Zyklen erreicht wird, zu bewerten. Daher ist es nicht möglich, eine feste Anzahl von Remixes als absoluten und universellen Sicherheitsschwellenwert festzulegen.
 
@@ -34,7 +34,7 @@ Es ist auch wichtig zu verstehen, dass die Schaffung von plausibler Leugnung nie
 Um diese berühmten Anonset-Indikatoren zu bestimmen, können Sie ein Python-Tool namens **WST** (Whirlpool Stats Tool) verwenden. Wir bereiten auch ein Tutorial zu diesem Tool für Sie vor.
 
 Es ist jedoch nicht immer notwendig, die Anonsets jeder Ihrer coinjoinierten Münzen zu berechnen. Das Design von Whirlpool selbst bietet Ihnen bereits Garantien. Wie bereits erwähnt, ist das retrospektive Anonset selten ein Problem. Von Ihrem ersten Mix an erhalten Sie bereits eine besonders hohe retrospektive Punktzahl. Was das potenzielle Anonset betrifft, müssen Sie Ihre Münze nur für einen ausreichend langen Zeitraum im Post-Mix-Konto belassen. Hier sind zum Beispiel die Anonset-Punktzahlen einer meiner `100.000 Sats`-Münzen nach zwei Monaten im Coinjoin-Pool:
-![WST Anonsets](assets/fr/7.png)
+![WST Anonsets](assets/de/7.png)
 Es zeigt eine retrospektive Punktzahl von `34.593` und eine potenzielle Punktzahl von `45.202`. Das bedeutet konkret zwei Dinge:
 - Wenn ein Analyst meine Münze am Ende der Zyklen kennt und versucht, ihre Herkunft zurückzuverfolgen, wird er auf `34.593` potenzielle Quellen stoßen, von denen jede mit gleicher Wahrscheinlichkeit meine sein könnte.
 - Wenn ein Analyst meine Münze am Anfang der Zyklen kennt und versucht, ihre Entsprechung am Ende zu bestimmen, wird er mit `45.202` möglichen UTXOs konfrontiert, von denen jeder mit gleicher Wahrscheinlichkeit meine sein könnte.

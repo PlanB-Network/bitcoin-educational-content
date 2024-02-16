@@ -269,15 +269,35 @@ Par exemple sur Sparrow Wallet, il suffit d'aller dans l'onglet :
 ![Sparrow](assets/fr/34.png)
 
 ### Connecter ses logiciels de portefeuilles à Samourai Dojo
+En alternative à l'utilisation d'Electrs, Dojo vous permet de connecter votre portefeuille logiciel compatible directement à votre nœud RoninDojo. Des portefeuilles comme Samourai Wallet et Sentinel offrent cette fonctionnalité.
 
+Pour établir la connexion, il vous suffira de scanner le QR code de votre Dojo. Pour accéder à ce QR code via RoninUI, naviguez vers :
+`Pairing > Samourai Dojo > Pair now`
+![Samourai Dojo](assets/fr/35.png)
+Pour associer votre portefeuille Samourai Wallet à votre Dojo, scannez simplement ce QR code lors de l'installation de l'application :
 
+![Samourai Dojo](assets/fr/36.png)
 
+Si vous aviez déjà un portefeuille Samourai Wallet avant de configurer votre Ronin Dojo, il sera nécessaire de sauvegarder votre portefeuille, de désinstaller puis de réinstaller l'application Samourai Wallet, avant de restaurer votre portefeuille. Lors du lancement de l'application réinstallée, vous aurez l'option de vous connecter à un nouveau Dojo. **Attention, cette démarche comporte des risques de perte de vos bitcoins si elle n'est pas correctement exécutée !** Assurez-vous d'avoir le backup de votre portefeuille Samourai dans vos fichiers ainsi que de vérifier la validité de votre passphrase via `Settings > Troubleshoot > Passphrase`. Il est également important de disposer d'une sauvegarde lisible de votre phrase de récupération et de votre passphrase. Pour plus de précision dans cette opération, il est recommandé de suivre ce tutoriel détaillé : [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
 ### Utiliser son propre explorateur de blocs Mempool.space
+Un explorateur de blocs transforme les informations brutes de la blockchain Bitcoin en un format structuré et facilement lisible. Avec des outils comme *Mempool.space*, il est possible d'analyser des transactions, de rechercher des adresses spécifiques, ou encore de consulter en temps réel les taux de frais moyens des mempools du réseau.
 
+L'utilisation d'explorateurs de blocs en ligne présente cependant des risques pour votre confidentialité et implique une confiance dans les données fournies par des tiers. En effet, en utilisant ces services sans passer par votre propre nœud, vous pourriez involontairement divulguer des informations sur vos transactions et devez vous fier à l'exactitude des informations présentées par le site.
 
+Pour éviter ces risques, il est recommandé d'utiliser votre propre instance de *Mempool.space* via le réseau Tor, directement hébergée sur votre nœud. Cette solution garantit la préservation de votre confidentialité et l'autonomie de vos données.
 
-
+Pour cela, commencez par installer *Mempool Space Visualizer* depuis RoninUI. Sur l'interface web, allez l'onglet `Dashboard` et cliquez sur `Manage` en dessous de `Mempool Space` :
+`Dashboard > Mempool Space > Manage`
+![Samourai Dojo](assets/fr/37.png)
+Cliquez ensuite sur le bouton `Install Mempool visualizer` :
+![Samourai Dojo](assets/fr/38.png)
+Confirmez votre mot de passe utilisateur :
+![Samourai Dojo](assets/fr/39.png)
+Attendez le temps de son installation, puis cliquez de nouveau sur le bouton `Manage` :
+![Samourai Dojo](assets/fr/40.png)
+Vous obtiendrez un lien `.onion` pour accéder à votre propre instance de *Mempool.space* via le réseau Tor. Je vous conseille de sauvegarder ce lien dans vos favoris sur le navigateur Tor ou de l'ajouter à l'application Tor Browser sur votre smartphone pour avoir un accès facile et sécurisé depuis n'importe où.
+![Samourai Dojo](assets/fr/41.png)
 
 ### Utiliser Whirlpool pour mixer ses bitcoins
 

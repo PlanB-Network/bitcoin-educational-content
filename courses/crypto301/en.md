@@ -1,5 +1,5 @@
 ---
-name: Introduction to Cryptography
+name: Introduction to Bitcoin Cryptography
 goal: Understand the creation of a Bitcoin wallet from a cryptographic perspective
 objectives:
   - Demystify cryptography terminology related to Bitcoin.

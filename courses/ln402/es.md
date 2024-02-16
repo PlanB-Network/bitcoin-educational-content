@@ -1,6 +1,6 @@
 ---
 name: Desarrollo en Lightning con SDK
-goal: Descubrir la Red Lightning desde una perspectiva técnica
+goal: Avanza tus habilidades de desarrollo en Lightning con formación intermedia en Rust y SDK.
 objectives:
   - Acostumbrarse al lenguaje Rust
   - Comprender por qué usar Rust para desarrollar Bitcoin
@@ -13,7 +13,7 @@ Bienvenido a tu viaje en LN con SDK.
 
 En este curso, aprenderás los conceptos básicos del libro de Rust, luego continuarás con la programación en LN utilizando SDK y finalizarás con algunos ejercicios prácticos. Nuestros profesores de diversos ámbitos te guiarán hacia habilidades prácticas y te explicarán los diversos desafíos a los que se enfrentan los ingenieros de LN en la actualidad.
 
-Este curso fue grabado durante un seminario en vivo organizado por Fulgure Venture durante el evento LN Tuscany en octubre de 2023.
+Este curso fue grabado durante un seminario en vivo organizado por Fulgur'Ventures durante el evento LN Tuscany en octubre de 2023.
 
 ¡Disfruta del curso!
 

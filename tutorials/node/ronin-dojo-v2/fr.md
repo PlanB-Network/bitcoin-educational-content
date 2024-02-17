@@ -6,7 +6,7 @@ description: Installer son nœud Bitcoin RoninDojo v2 sur un Raspberry Pi
 
 > "*Use Bitcoin with privacy.*"
 
-Dans [un précédent tutoriel](https://planb.network/tutorials/node/ronin-dojo), nous avions déjà expliqué la procédure d'installation et d'utilisation de RoninDojo v1. Cependant, au cours de l'année dernière, les équipes de RoninDojo ont lancé la version 2 de leur implémentation, qui a marquée un tournant significatif dans l'architecture du logiciel. En effet, ils ont délaissé la distribution Linux Manjaro au profit de Debian. Par conséquence, ils ne proposent plus d'image préconfigurée pour une installation automatique sur Raspberry Pi. Mais il existe tout de même une méthode pour procéder à une installation manuelle. C'est ce que j'ai utilisé pour mon propre nœud, et depuis, RoninDojo v2 fonctionne à merveille sur mon Raspberry Pi 4 depuis plusieurs mois. Je vous propose donc un nouveau tutoriel pour savoir comment installer manuellement RoninDojo v2 sur un Raspeberry Pi.
+Dans [un précédent tutoriel](https://planb.network/tutorials/node/ronin-dojo), nous avions déjà expliqué la procédure d'installation et d'utilisation de RoninDojo v1. Cependant, au cours de l'année dernière, les équipes de RoninDojo ont lancé la version 2 de leur implémentation, qui a marquée un tournant significatif dans l'architecture du logiciel. En effet, ils ont délaissé la distribution Linux Manjaro au profit de Debian. Par conséquence, ils ne proposent plus d'image préconfigurée pour une installation automatique sur Raspberry Pi. Mais il existe tout de même une méthode pour procéder à une installation manuelle. C'est ce que j'ai utilisé pour mon propre nœud, et depuis, RoninDojo v2 fonctionne à merveille sur mon Raspberry Pi 4. Je vous propose donc un nouveau tutoriel pour savoir comment installer manuellement RoninDojo v2 sur un Raspeberry Pi.
 
 ## Sommaire :
 - [[#Qu'est-ce que RoninDojo ?]]
@@ -16,11 +16,11 @@ Dans [un précédent tutoriel](https://planb.network/tutorials/node/ronin-dojo),
 - [[#Comment utiliser son nœud RoninDojo v2 ?]]
 
 ## Qu'est-ce que RoninDojo ?
-[Dojo](https://samouraiwallet.com/dojo) est initialement une implémentation de nœud complet Bitcoin, fondée sur Bitcoin Core, et mise au point par les équipes de Samourai Wallet. Cette solution peut être installée sur n'importe quel équipement. Contrairement à d'autres implémentations de Core, Dojo a été spécifiquement optimisé pour s'intégrer à l'environnement de l'application Android Samourai Wallet. Quant à RoninDojo, il s'agit d'un utilitaire conçu pour faciliter l'installation et la gestion de Dojo, ainsi que de divers autres outils complémentaires. En somme, RoninDojo enrichit l'implémentation de base de Dojo en y intégrant une multitude d'outils supplémentaires, tout en simplifiant son installation et sa gestion.
+[Dojo](https://samouraiwallet.com/dojo) est initialement une implémentation de nœud complet Bitcoin, fondée sur Bitcoin Core, et développée par les équipes de Samourai Wallet. Cette solution peut être installée sur n'importe quel équipement. Contrairement à d'autres implémentations de Core, Dojo a été spécifiquement optimisé pour s'intégrer à l'environnement de l'application Android Samourai Wallet. Quant à RoninDojo, il s'agit d'un utilitaire conçu pour faciliter l'installation et la gestion d'un Dojo, ainsi que de divers autres outils complémentaires. En somme, RoninDojo enrichit l'implémentation de base de Dojo en y intégrant une multitude d'outils supplémentaires, tout en simplifiant son installation et sa gestion.
 
 Ronin proposent [également une solution de node-in-box, dénommé le « *Tanto* »](https://ronindojo.io/en/products), un dispositif avec RoninDojo déjà installé sur un système assemblé par leur équipe. Le Tanto est une option payante, qui peut être intéressante pour ceux qui préfèrent éviter les complications techniques. Mais le code source de RoninDojo étant ouvert, il est aussi possible de le déployer sur son propre matériel. Cette alternative, plus économique, nécessite néanmoins quelques manipulations supplémentaires, que nous allons aborder dans ce tutoriel.
 
-RoninDojo est un Dojo, il permet donc d'intégrer facilement Whirlpool CLI à votre nœud Bitcoin afin de disposer de la meilleure expérience possible de CoinJoin. Avec Whirlpool CLI, il devient possible de procéder au remixage de vos bitcoins de manière continue, 24 heures sur 24, 7 jours sur 7, sans nécessiter que votre ordinateur personnel reste allumé, tout en renforçant significativement votre confidentialité.
+RoninDojo est un Dojo, il permet donc d'intégrer facilement Whirlpool CLI à votre nœud Bitcoin afin de disposer de la meilleure expérience possible de coinjoin. Avec Whirlpool CLI, il devient possible de procéder au remixage de vos bitcoins de manière continue, 24 heures sur 24, 7 jours sur 7, sans nécessiter que votre ordinateur personnel reste allumé.
 
 Au-delà de Whirlpool CLI, RoninDojo embarque une panoplie d'outils venant renforcer les fonctionnalités de votre Dojo. Parmi ceux-ci, le calculateur Boltzmann analyse le niveau de confidentialité de vos transactions, le serveur Electrum permet la connexion de vos portefeuilles Bitcoin à votre nœud, et le serveur Mempool vous permet de visualiser vos transactions en local, sans faire fuiter des informations.
 
@@ -74,7 +74,7 @@ Avant d'insérer l'ensemble du matériel dans le boîtier, il est important de v
 
 ![montage5](assets/fr/7.png)
 
-Enfin, installez votre Raspberry Pi dans son boîtier. Attention, une étape ultérieure nécessitera l'ajout de la carte micro SD dans le port adapté sur le Raspberry. Si votre boîtier est équipé d'une ouverture permettant d'insérer la carte SD sans avoir à l'ouvrir (comme c'est le cas pour le mien illustré sur la photo), vous pouvez procéder à la fermeture du boîtier dès à présent. En revanche, si votre boîtier ne dispose pas d'un accès direct au port micro SD, il vous faudra attendre d'avoir préparé la carte micro SD pour l'insérer avant de finaliser l'assemblage.
+Enfin, installez votre Raspberry Pi dans son boîtier. Attention, une étape ultérieure nécessitera l'ajout de la carte micro SD dans le port adapté sur le Raspberry Pi. Si votre boîtier est équipé d'une ouverture permettant d'insérer la carte SD sans avoir à l'ouvrir (comme c'est le cas pour le mien illustré sur la photo), vous pouvez procéder à la fermeture du boîtier dès à présent. En revanche, si votre boîtier ne dispose pas d'un accès direct au port micro SD, il vous faudra attendre d'avoir préparé la carte micro SD pour l'insérer avant de finaliser l'assemblage.
 
 ![montage6](assets/fr/8.png)
 
@@ -88,7 +88,7 @@ Il vous faudra utiliser le logiciel _**Raspberry Pi Imager**_, conçu pour facil
 - Pour Windows : https://downloads.raspberrypi.org/imager/imager_latest.exe 
 - Pour Mac : https://downloads.raspberrypi.org/imager/imager_latest.dmg
 
-Une fois le logiciel installé, ouvrez-le. À ce moment, insérez votre carte micro SD dans votre ordinateur personnel. Depuis l'interface de Raspberry Pi Imager, sélectionnez `CHOISIR L'OS` :
+Une fois le logiciel installé, ouvrez le, et insérez votre carte micro SD dans votre ordinateur personnel. Depuis l'interface de Raspberry Pi Imager, sélectionnez `CHOISIR L'OS` :
 
 ![choisir OS](assets/fr/9.png)
 
@@ -148,7 +148,7 @@ Patientez jusqu'à ce que le logiciel termine de préparer votre carte micro SD 
 
 ![écriture micro SD](assets/fr/22.png)
 
-Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer la carte de votre ordinateur :
+Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer la carte micro SD de votre ordinateur :
 
 ![écriture micro SD terminée](assets/fr/23.png)
 
@@ -157,16 +157,20 @@ Vous pouvez maintenant insérer la carte micro SD dans le port adapté de votre 
 
 ![micro SD](assets/fr/24.png)
 
-Connectez ensuite votre Raspberry Pi à votre box internet à l'aide du câble Ethernet. Pour finir, mettez votre nœud en marche en connectant le câble d'alimentation et en actionnant le bouton de mise sous tension (si votre configuration en est pourvue).
+Connectez ensuite votre Raspberry Pi à votre routeur à l'aide du câble Ethernet. Pour finir, mettez votre nœud en marche en connectant le câble d'alimentation et en actionnant le bouton de mise sous tension (si votre configuration en est pourvue).
 
 ### Étape 3 : Établir une connexion SSH avec le nœud
 Pour commencer, il est nécessaire de trouver l'adresse IP de votre nœud. Vous avez le choix entre utiliser un outil tel que _[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)_ ou _[Angry IP Scanner](https://angryip.org/)_, ou consulter l'interface d'administration de votre routeur. L'adresse IP devrait se présenter sous la forme `192.168.1.??`. **Pour toutes les commandes qui suivent, remplacez `[IP]` par l'adresse IP réelle de votre nœud**, (en supprimant les crochets).
 
 Lancez un terminal.
 
-Pour éliminer une éventuelle clé déjà associée à l'adresse IP de votre nœud, exécutez la commande : `ssh-keygen -R [IP]`. Une erreur suite à cette commande n'est pas grave ; elle signifie simplement que la clé n'existe pas dans votre liste d'hôtes connus (ce qui est plutôt probable). Par exemple, si l'IP de votre nœud est `192.168.1.40`, la commande devient : `ssh-keygen -R 192.168.1.40`.
+Pour éliminer une éventuelle clé déjà associée à l'adresse IP de votre nœud, exécutez la commande : 
+`ssh-keygen -R [IP]`. 
 
-Ensuite, établissez une connexion SSH avec votre nœud en exécutant la commande : `ssh pi@[IP]`.
+Une erreur suite à cette commande n'est pas grave ; elle signifie simplement que la clé n'existe pas dans votre liste d'hôtes connus (ce qui est plutôt probable). Par exemple, si l'IP de votre nœud est `192.168.1.40`, la commande devient : `ssh-keygen -R 192.168.1.40`.
+
+Ensuite, établissez une connexion SSH avec votre nœud en exécutant la commande : 
+`ssh pi@[IP]`.
 
 Un message s'affichera concernant l'authenticité de l'hôte : `The authenticity of host '[IP]' can't be established.`. Cela indique que l'authenticité de l'appareil auquel vous tentez de vous connecter ne peut être vérifiée faute de clé publique connue. Lors de la première connexion SSH à un nouvel hôte, ce message apparaît systématiquement. Vous devez répondre `yes` pour ajouter sa clé publique à votre répertoire local, ce qui empêchera l'affichage de ce message d'avertissement lors de connexions SSH futures à ce nœud. Saisissez donc `yes` et appuyez sur `entrer` pour valider.
 
@@ -204,7 +208,7 @@ Affichez les lignes du fichier de log avec la commande :
 
 ### Étape 6 : Accéder à RoninUI et changer les identifiants
 Après avoir finalisé l'installation, pour vous connecter à votre nœud via un navigateur, assurez-vous que votre ordinateur personnel soit connecté au même réseau local que votre nœud. Si vous utilisez un VPN sur votre machine, désactivez-le temporairement. Pour accéder à l'interface du nœud dans votre navigateur, saisissez dans la barre d'URL :
-- Directement l'adresse IP de votre nœud, par exemple `192.168.1.??`.
+- Directement l'adresse IP de votre nœud, par exemple `192.168.1.??` ;
 - Ou bien tapez `ronindojo.local`.
 
 Une fois sur la page d'accueil de RoninUI, vous serez invité à débuter la configuration. Pour ce faire, cliquez sur le bouton `Let's start`.
@@ -280,7 +284,7 @@ Si vous aviez déjà un portefeuille Samourai Wallet avant de configurer votre R
 ### Utiliser son propre explorateur de blocs Mempool.space
 Un explorateur de blocs transforme les informations brutes de la blockchain Bitcoin en un format structuré et facilement lisible. Avec des outils comme *Mempool.space*, il est possible d'analyser des transactions, de rechercher des adresses spécifiques, ou encore de consulter en temps réel les taux de frais moyens des mempools du réseau.
 
-L'utilisation d'explorateurs de blocs en ligne présente cependant des risques pour votre confidentialité et implique une confiance dans les données fournies par des tiers. En effet, en utilisant ces services sans passer par votre propre nœud, vous pourriez involontairement divulguer des informations sur vos transactions et devez vous fier à l'exactitude des informations présentées par le site.
+L'utilisation d'explorateurs de blocs en ligne présente cependant des risques pour votre confidentialité et implique une confiance dans les données fournies par des tiers. En effet, en utilisant ces services sans passer par votre propre nœud, vous pourriez involontairement divulguer des informations sur vos transactions et devez vous fier à l'exactitude des informations présentées par le propriétaire du site.
 
 Pour éviter ces risques, il est recommandé d'utiliser votre propre instance de *Mempool.space* via le réseau Tor, directement hébergée sur votre nœud. Cette solution garantit la préservation de votre confidentialité et l'autonomie de vos données.
 
@@ -303,14 +307,14 @@ Votre nœud RoninDojo intègre également _WhirlpoolCLI_, une interface de ligne
 
 Effectuer un coinjoin via Whirlpool requiert que l'application utilisée soit active pour réaliser des remixes. Cette condition peut s'avérer contraignante pour ceux désirant atteindre des niveaux élevés d'anonsets. En effet, l'appareil accueillant l'application qui intègre Whirlpool doit rester en marche en permanence. Cela signifie que pour participer à des remixes 24 heures sur 24, votre ordinateur ou votre smartphone doit rester allumé avec Samourai ou Sparrow ouverts en continu. Une solution à cette contrainte est d'utiliser _WhirlpoolCLI_ sur une machine toujours allumée, telle qu'un nœud Bitcoin, permettant ainsi à vos pièces de se remixer sans interruption, et sans nécessiter de laisser allumé un autre appareil.
 
-Un tutoriel détaillé est en préparation pour vous guider pas à pas dans le processus de coinjoin de bitcoins avec Samourai Wallet et RoninDojo v2, depuis les premières étapes jusqu'à la réalisation complète.
+Un tutoriel détaillé est en préparation pour vous guider pas à pas dans le processus de coinjoin avec Samourai Wallet et RoninDojo v2, de A à Z.
 
-Pour une compréhension approfondie du coinjoin et de son utilisation sur Bitcoin, je vous invite à consulter cet article : [Comprendre et utiliser le coinjoin sur Bitcoin](https://planb.network/tutorials/privacy/coinjoin), où je détaille tout ce qu'il faut savoir sur cette technique.
+Pour une compréhension approfondie du coinjoin et de son utilisation sur Bitcoin, je vous invite également à consulter cet autre article : [Comprendre et utiliser le coinjoin sur Bitcoin](https://planb.network/tutorials/privacy/coinjoin), où je détaille tout ce qu'il faut savoir sur cette technique.
 
 ### Utiliser Whirlpool Stat Tool (WST)
 Après avoir réalisé des coinjoins avec Whirlpool, il est utile d'évaluer précisément le degré de confidentialité obtenu pour vos UTXO mixés. Pour ce faire, vous pouvez utiliser l'outil Python *Whirlpool Stat Tool*. Cet outil vous donne la possibilité de mesurer à la fois le score prospectif et le score rétrospectif de vos UTXO, tout en analysant leur taux diffusion dans la pool. 
 
-Pour approfondir votre compréhension des mécanismes de calcul de ces anonsets, je vous recommande la lecture complémentaire de l'article : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), qui détaille le fonctionnement de ces indices.
+Pour approfondir votre compréhension des mécanismes de calcul de ces anonsets, je vous recommande la lecture de l'article : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool), qui détaille le fonctionnement de ces indices.
 
 Pour accéder à l'outil WST, rendez vous sur RoninCLI. Pour ce faire, ouvrez un terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
 `SSH ronindojo@[IP]`
@@ -360,14 +364,14 @@ Patientez le temps du chargement, qui peut durer quelques minutes. Une fois les 
 
 ![WST score](assets/fr/47.png)
 
-WST affichera alors le score rétrospectif (_Backward-looking metrics_), suivi du score prospectif (_Forward-looking metrics_). Outre les scores d'anonsets, WST indiquera également le taux de diffusion de votre transaction au sein de la pool, relatif à l'anonset.
+WST affichera alors le score rétrospectif (_Backward-looking metrics_), suivi du score prospectif (_Forward-looking metrics_). Outre les scores d'anonsets, WST indiquera également le taux de diffusion de votre transaction au sein de la pool, relatif à son anonset.
 
 **Il est important de noter que le score prospectif de votre pièce doit être calculé à partir du TXID de votre mix initial, et non de votre mix le plus récent. Inversement, le score rétrospectif d'un UTXO est calculé à partir du TXID du dernier cycle.**
 
 ### Utiliser le Calculateur Boltzmann
-Le calculateur Boltzmann est un outil précieux pour analyser en profondeur une transaction Bitcoin, en offrant la capacité de mesurer son niveau d'entropie parmi d'autres métriques avancées. Ces données fournissent une évaluation quantifiée de la confidentialité d'une transaction et aident à identifier d'éventuelles erreurs. Cet outil est déjà intégré à votre nœud RoninDojo, ce qui facilite son accès et son utilisation.
+Le calculateur Boltzmann est un outil pour analyser une transaction Bitcoin, en offrant la capacité de mesurer son niveau d'entropie parmi d'autres métriques avancées. Ces données fournissent une évaluation quantifiée de la confidentialité d'une transaction et aident à identifier d'éventuelles erreurs. Cet outil est déjà intégré à votre nœud RoninDojo, ce qui facilite son accès et son utilisation.
 
-Avant de détailler la procédure d'utilisation du Calculateur Boltzmann, il est important de comprendre la signification de ces indicateurs, leur méthode de calcul, et leur utilité. Bien qu'applicables à toute transaction Bitcoin, ces indicateurs sont particulièrement utiles pour évaluer la qualité d'une transaction Coinjoin.
+Avant de détailler la procédure d'utilisation du Calculateur Boltzmann, il est important de comprendre la signification de ces indicateurs, leur méthode de calcul, et leur utilité. Bien qu'applicables à toute transaction Bitcoin, ces indicateurs sont particulièrement utiles pour évaluer la qualité d'une transaction coinjoin.
 
 **Le premier indicateur** que le logiciel calcule est le nombre total de combinaisons possibles, indiqué sous `nb combinations` dans l'outil. Basé sur les valeurs des UTXO impliqués, cet indicateur chiffre le nombre de manières dont les entrées peuvent être associées aux sorties. Autrement dit, il détermine le nombre d'interprétations plausibles qu'une transaction peut susciter. À titre d'exemple, un coinjoin structuré selon le modèle Whirlpool 5x5 présente `1496` combinaisons possibles :
 ![combinaisons](assets/fr/50.png)
@@ -417,7 +421,7 @@ $$ED = \frac{E}{T}$$
 $$ED = \frac{10.5469}{10}$$
 $$ED = 1.054 \text{ bits}$$
 
-**La cinquième information** délivrée par le Calculateur Boltzmann est le tableau des probabilités de correspondance entre les entrées et les sorties. Ce tableau indique, à travers le `score de Boltzmann`, la probabilité qu'une entrée spécifique soit reliée à une sortie donnée. En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités mettrait en lumière les chances de lien entre chaque entrée et sortie, offrant ainsi une mesure quantitative de l'ambiguïté ou de la prévisibilité des associations dans la transaction :
+**La cinquième information** délivrée par le Calculateur Boltzmann est le tableau des probabilités de correspondance entre les entrées et les sorties. Ce tableau indique, à travers le `score de Boltzmann`, la probabilité qu'une entrée spécifique soit reliée à une sortie donnée. En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités mettrait en lumière les chances de lien entre chaque entrée et sortie, ce qui offre une mesure quantitative de l'ambiguïté ou de la prévisibilité des associations dans la transaction :
 
 | %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
 |---------|----------|----------|----------|----------|----------|
@@ -427,7 +431,7 @@ $$ED = 1.054 \text{ bits}$$
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
-On voit bien ici que chaque entrée présente une chance égale d'être associée à n'importe quelle sortie, renforçant ainsi l'ambiguïté et la confidentialité de la transaction. Cependant, dans le cas d'une transaction simple comportant un unique input et deux outputs, la situation est différente :
+On voit bien ici que chaque entrée présente une chance égale d'être associée à n'importe quelle sortie, ce qui renforce l'ambiguïté et la confidentialité de la transaction. Cependant, dans le cas d'une transaction simple comportant un unique input et deux outputs, la situation est différente :
 
 | %       | Output 0 | Output 1 |
 |---------|----------|----------|
@@ -435,7 +439,7 @@ On voit bien ici que chaque entrée présente une chance égale d'être associé
 
 Ici, on constate que la probabilité pour chaque output d'être issu de l'input 0 est de 100%. Une probabilité plus faible traduit ainsi une plus grande confidentialité, en diluant les liens directs entre les entrées et les sorties.
 
-**La sixième information** fournie est le nombre de liens déterministes, complété par le ratio de ces liens déterministes. Cet indicateur révèle combien de connexions entre les entrées et les sorties dans la transaction analysée sont incontestables, avec une probabilité de 100%. Le ratio offre une perspective sur le poids des liens déterministes au sein de l'ensemble des liens de la transaction.
+**La sixième information** fournie est le nombre de liens déterministes, complété par le ratio de ces liens. Cet indicateur révèle combien de connexions entre les entrées et les sorties dans la transaction analysée sont incontestables, avec une probabilité de 100%. Le ratio, lui, offre une perspective sur le poids de ces liens déterministes au sein de l'ensemble des liens de la transaction.
 
 Par exemple, une transaction coinjoin de type Whirlpool ne présente aucun lien déterministe, et affiche par conséquent un indicateur et un ratio de 0%. À l'opposé, dans notre seconde transaction examinée (avec un input et deux outputs), l'indicateur s'établit à 2 et le ratio atteint 100%. Ainsi, un indicateur nul signale une excellente confidentialité grâce à l'absence de liaisons directes et incontestables entre entrées et sorties.
 
@@ -462,19 +466,36 @@ Vous arrivez sur l'accueil du logiciel :
 
 ![boltzmann accueil](assets/fr/51.png)
 
-Entrez la TXID de la transaction que vous souhaitez étudier et tapez sur la touche `entrer` :
+Saisissez la TXID de la transaction que vous souhaitez étudier et tapez sur la touche `entrer` :
 
 ![boltzmann txid](assets/fr/52.png)
 
-Le calculateur vous fournit l'ensemble des indicateurs dont nous avons parlé précédemment :
+Le calculateur vous fournit alors l'ensemble des indicateurs dont nous avons parlé précédemment :
 
 ![boltzmann resultat](assets/fr/53.png)
 
 ### Les autres fonctionnalités de votre RoninDojo v2
+Votre nœud RoninDojo intègre diverses autres fonctionnalités. Vous avez notamment la possibilité de scanner des informations spécifiques afin de faire en sorte de les prendre en compte. Par exemple, il se peut parfois que votre portefeuille Samourai, connecté à RoninDojo, n'affiche pas les bitcoins que vous détenez réellement. Si la balance indique 0 alors que vous êtes certain d'avoir des bitcoins sur ce portefeuille, plusieurs raisons peuvent expliquer cette situation, telles qu'une erreur dans les chemins de dérivation. Mais une des causes peut également être que votre nœud ne surveille pas correctement vos adresses. Pour résoudre ce problème, vous pouvez vous assurer que votre nœud suit bien votre `xpub` grâce à l'outil _xpub tool_. Pour accéder à cet outil via RoninUI, suivez le chemin : 
+`Maintenance > XPUB Tool`
 
+Entrez la `xpub` qui pose problème et cliquez sur le bouton `Check` pour vérifier cette information :
+![xpub tool](assets/fr/54.png)
+Assurez vous que toutes les transactions soient correctement répertoriées. Il est également important de vérifier que le type de dérivation utilisé correspond bien à celui de votre portefeuille. Si ce n'est pas le cas, cliquez sur `Retype`, puis choisissez parmi `BIP44`, `BIP49`, ou `BIP84` selon vos besoins.
 
+Au-delà de cet outil, l'onglet `Maintenance` de RoninUI regorge d'autres fonctionnalités utiles :
+- *Transaction Tool* : Permet d'examiner les détails d'une transaction donnée ;
+- *Address Tool* : Permet de confirmer le suivi d'une adresse donnée par votre Dojo ;
+- *Rescan Blocks* : Force votre nœud à effectuer un nouveau scan d'une plage de blocs spécifiée.
 
+L'onglet `Push Tx` est une autre fonctionnalité intéressante de RoninUI, qui permet la diffusion d'une transaction signée sur le réseau Bitcoin. La transaction doit être saisie sous forme hexadécimale.
 
+Concernant les autres onglets disponibles sur votre tableau de bord RoninUI :
+- `Apps` : Héberge l'application Whirlpool, et sera sûrement utilisé pour intégrer de nouvelles applications à l'avenir ;
+- `Logs` : Offre un accès en temps réel aux journaux d'événements de vos logiciels ;
+- `System Info` : Fournit des informations générales sur votre nœud, comme la température du processeur, l'usage de l'espace de stockage, ou encore les données concernant la RAM. Vous y trouverez aussi les options `Reboot` et `Shut down` pour redémarrer ou éteindre votre nœud ;
+- `Settings` : Vous permet de modifier votre mot de passe utilisateur.
+
+Voilà ! Merci d'avoir suivi ce tutoriel jusqu'à la fin. Si vous l'avez apprécié, je vous encourage à le partager sur les réseaux sociaux. Par ailleurs, si vous en avez la possibilité, envisagez de soutenir par un don les développeurs qui mettent à disposition ces logiciels libres et open source de manière gratuite pour notre communauté : [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Pour approfondir vos connaissances sur RoninDojo et découvrir davantage de ressources, je vous recommande vivement de consulter les liens vers les ressources externes mentionnées ci-dessous.
 
 **Ressources externes :**
 - [https://samouraiwallet.com/dojo](https://samouraiwallet.com/dojo)

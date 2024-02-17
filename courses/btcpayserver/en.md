@@ -1675,7 +1675,6 @@ Invoice information is created automatically based on invoice status, exchange r
 
 ### Invoice filtering
 
-
 Invoices can be filtered via the quick filters located next to the search button or the advanced filters, which can be toggled by clicking the (Help) link on the top. Users can filter invoices by store, order id, item id, status, or date.
 
 ### Invoice export
@@ -1728,5 +1727,327 @@ Store owners can print payment requests (or export invoice data) for record-keep
 - Description - Text Editor, Data Tables, Embed Photos & Videos
 - Appearance - Color and Style with CSS Themes
 
+![image](assets/en/93.png)
+
+### Create a Payment Request
+
+In the left menu, go to Payment Request and click “ Create Payment Request”
+
+![image](assets/en/94.png)
+
+Provide the Request Name, Amount, Display Denomination, Associated Store, Expiration Time & Description (Optional)
+
+Select the option Allow payee to create invoices in their denomination if you want to allow partial payments.
+
+Click Save & View to review your payment request.
+
+BTCPay creates a URL for the payment request. Share this URL to view your payment request. Need multiple of the same request? You can duplicate payment requests using the Clone option in the main menu.
+
+![image](assets/en/95.png)
+
+**WARNING**
+
+Payment requests are store-dependent, meaning each payment request is associated with a store during creation. Be sure to have a wallet connected to your store to which the payment request belongs to.
+
+### Paid Request.
+
+The payee and requester can view the status of the payment request after sending the payment. The status will appear as Settled if payment has been received in full. If only partial payments were made, the Amount Due will show the balance due.
+
+![image](assets/en/96.png)
+
+### Customize Payment Requests
+
+The description content can be edited using the payment request’s text editor. Both options are available if you want to use additional color themes or custom CSS styling.
+
+Non-technical users can use a [bootstrap theme](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Further customization can be done by providing additional CSS code, like shown below.
+
+:root {
+
+--btcpay-font-family-base: 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+
+'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+--btcpay-primary: #7d4698;
+
+--btcpay-primary-accent: #59316b;
+
+--btcpay-body-text: #333a41;
+
+--btcpay-body-bg: #fff;
+
+--btcpay-bg-tile: #f8f9fa;
+}
+
+#mainNav {
+
+color: white;
+
+background: linear-gradient(#59316b, #331840);
+
+}
+
+#mainNav .btn-link {
+
+color: white;
+
+}
+
+## BTCPay Server Payments - Pull payments
+
+Traditionally, a receiver shares their Bitcoin address to make a Bitcoin payment, and the sender later sends money to this address. Such a system is called Push payment, as the sender initiates the payment while the receiver may be unavailable, pushing the payment to the receiver.
+
+However, what about reversing the role?
+
+What if, instead of a sender pushing the payment, the sender allows the receiver to pull the payment at a time the receiver sees fit? This is the concept of a Pull payment. This allows several new applications, such as:
+
+- A subscription service(where the subscriber allows the service to pull money every x amount of time)
+- Refunds (where the merchant allows the customer to pull the refund money to his wallet when they see fit)
+- Time-based billing for freelancers (where the person hiring allows the freelancer to pull money to his wallet as time gets reported)
+- Patronage(where the patron allows the recipient to pull money every month to continue supporting their work)
+- Automatic selling (where a customer of an exchange would allow an exchange to pull money from their wallet to sell every month automatically)
+- Balance withdraw system(where a high-volume service allows users to request withdrawals from their balance, the service can then easily batch all the payouts to many users at fixed intervals)
+
+## BTCPay Server Payments - Payouts
+
+The payout functionality is tied into the [Pull Payments](https://docs.btcpayserver.org/PullPayments/). This feature allows you to create payouts within your BTCPay. This feature allows you to process pull payment (refunds, salary payouts, or withdrawals).
+
+### Example 1 refund
+
+Let's start with the refund example. The customer has bought an item in your store but sadly has to return the item. They want a refund. Within BTCPay, you can create a [Refund](https://docs.btcpayserver.org/Refund/) and provide the customer with the link to claim their funds. Whenever the customer has given their address and claimed the funds, it will be shown in the Payouts.
+
+The first status it has is Awaiting Approval. Store clerks can check if multiple ones are waiting, and after making the selection, you use the Actions button.
+
+Options on the action button
+- Approve selected payouts
+- Approve & send selected payouts
+- Cancel selected payouts
+
+The next step is to Approve & send selected payouts as we want to refund the customer. Check the Customer's Address, shows the amount and if we want fees to be subtracted from the refund or not. Once you've done the checks, only signing the transaction is left.
+
+The customer now gets updated on the Claiming page. He can follow the transaction as he's provided with a link to a block explorer and his transaction. Once the transaction has been confirmed, and the status changes to Completed.
+
+### Example 2 Salary
+
+Now let's get into Salary payout, as this is driven from inside the store and not per the Customer's request. The underlying is the same; it uses the Pull payments. But instead of creating a refund, we will make a [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
+
+Goto the Pull Payments tab in your BTCPay server. In the top right, click the Create Pull Payment Button.
+
+Now we are in the creation of the Payout, give it a name and the desired amount in desired currency, fill out the Description, so the employee knows what it's about. The next portion is similar to refunds. The employee fills out the Destination address and the amount he wants to claim from this Payout. He might decide to make it 2 separate claims, to different addresses, or even partly claim over lightning.
+
+If there are multiple waiting Payouts, you can batch these to be signed and sent out. Once signed, the payouts move to the In progress tab and show the Transaction. When accepted by the network, the payout moves to the Completed tab. The completed tab is purely for historical purposes. It holds the processed Payouts and the transaction that belongs to it
+
+## BTCPay Server Payments - Pull payments
+
+### Concept
+
+When a sender configures a Pull payment, they can configure a number of properties:
+
+- Pull request Name
+- A limit amount
+- A Unit (such as BTC, SAT, USD)
+- Payment Methods
+    - BTC(On-chain)
+    - BTC(Off-chain)
+- Description
+- Custom CSS
+- End date (optional for Lightning Network BOLT11)
+
+After this, the sender can share the pull payment using a link with the receiver, allowing the receiver to create a payout. The receiver will choose their payout:
+
+- Which payment method to use
+- Where to send the money
+
+Once a payout is created, it will count toward the pull payment’s limit for the current period. The sender will then approve the payout by setting the rate at which the payout will be sent and proceed with payment.
+
+For the sender, we provide an easy-to-use way to batch the payment of several payouts from the [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
+
+### Greenfield API
+
+BTCPay Server provides a full API to both the sender and receiver that is documented in the /docs page of your instance. (or on the documentations website https://docs.btcpayserver.org)
+
+Since our API exposes the full capability of pull payments, a sender can automate payments to his own needs.
+
+## Skill Summary:
+
+In this section, you learned the following:
+- In-depth understanding of BTCPay Server’s invoice statuses as well as actions that can be performed on them
+- Customize and manage extended-life invoice mechanisms known as Requests.
+- The additional flexible payment possibilities opened up with BTCPay Server’s unique Pull Payment feature, particularly how to handle refunds and salary payments.
+
+##  Knowledge assessment;
+
+### KA 4.4.1 Conceptual Review
+
+What are some differences between invoices and payment requests, and what might be a good reason for using the latter: _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### KA 4.4.2 Conceptual Review
+
+How do pull payments expand on what typically can be done on-chain, and describe some use cases they enable: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 # Objective 5: BTCPay Server Default Plugins
+
+## Objective 5.1;
+## BTCPay Server Default plugins / Apps
+
+BTCPay server comes with a standard set of Plugins(Apps) that can make BTCPay Server into an e-commerce payment gateway. With the additions of a Point Of sale, Crowdfund platform, and an easy Pay button, BTCPay Server becomes an easy- to-deploy solution.
+
+## BTCPay Server - Point Of Sale
+
+One of the standard Plugins of BTCPay Server is Point of Sale (PoS). With the PoS plugin, a store owner can create a Webshop directly from BTCPay Server, the store owner does not need third-party e-commerce solutions to run a Webshop. The web-based PoS app allows users with brick-and-mortar stores to readily accept Bitcoin, without fees or a third party, directly to their wallet. The PoS can be displayed easily on tablets or other devices supporting web browsing. Users can easily create a home screen shortcut to access the web app quickly.
+
+### How to create a new Point of Sale
+
+BTCPay Server allows Store owners to create a Point of Sale in multiple layouts quickly. BTCPay Server recognizes that not every store is e-commerce, and not every store is a bar or restaurant, and it comes with multiple standard setups for your PoS.
+
+When the Store owner clicks on “Point of Sale” in his left menu bar, BTCPay Server will now ask for a name; this name will be visible in the left menu bar. Click Create to create the PoS. 
+
+![image](assets/en/97.png)
+
+### Update newly created Point of Sale
+
+After creating a new PoS, the following screen will be to update your Point of Sale and add items for your store.
+
+App name
+
+The name given here to your Point of Sale will be visible in the main menu of the BTCPay Server.
+
+Display Title
+
+The public will see the public title or name when visiting your store. BTCPay Server as standard names your store “Tea shop” Replace this with your shops name.
+
+![image](assets/en/98.png)
+
+### Choose Point of Sale Style
+
+BTCPay Server is capable of displaying its Point Of Sale in multiple ways.
+- Product list
+    - A shop view where customers can only purchase 1 product at a time.
+- Product list with a cart.
+    - A shop view where customers can purchase multiple items at once and get a shopping cart overview to the right of their screen.
+- Keypad only
+    - No product list, just a keypad for direct invoicing.
+- Print display (Printable product list with QR)
+    - If you cannot always display your product list digitally, you need an “offline” solution for products; BTCPay Server has a print display to function as an Offline store.
+
+![image](assets/en/99.png)
+
+### Point Of Sale Style - Product list.
+
+![image](assets/en/100.png)
+
+### Point Of Sale Style - Product list + Cart.
+
+![image](assets/en/101.png)
+
+### Point Of Sale Style - Keypad only
+
+![image](assets/en/102.png)
+
+### Point Of Sale Style - Print display
+
+![image](assets/en/103.png)
+
+### Currency
+
+The Store owner may set a different currency for his Point of Sale than his overall set default currency. The store’s default currency will automatically populate this field.
+
+### Description
+
+Tell the world about your shop; what are you selling, and for how much? Everything explaining your shop goes here.
+
+![image](assets/en/104.png)
+
+### Products.
+
+When a Point of Sale gets created, a standard BTCPay Server adds a couple of items to the shop for reference. Click the Edit button on any of the standard items to understand each possible option for an item better.
+
+Creating a new product in your store consists of the following fields;
+
+- Title
+- Price (fixed, minimum, or custom)
+- Image URL
+- Description
+- Inventory
+- ID
+- Buy Button Text.
+- Enable/Disable
+
+Once the store owner has populated all the new product fields, click on save, and you will notice that the Products section in the Point of Sale is now getting populated. Always make sure to save in the top right of your screen to circumvent that store owners might lose their progress on adding products.
+
+Store owners may also use the “Raw Editor” to configure their products. The raw editor requires a basic understanding of JSON structures.
+
+![image](assets/en/105.png)
+
+### Checkout.
+
+BTCPay Server allows for small PoS-specific checkout customization. The Store owner can set the “Buy for x” text or request specific customer data by adding in forms ( See objective 4.2 BTCPay Server Store settings - Form for more on custom forms).
+
+### Tips
+
+Only some shops need the option for Tips on their sales. Store owners may toggle this on or off as they see fit for their shop. If the shop uses tips toggled on, the store owner can set the text in the field for tips they like. BTCPay Server tips work based on a percentage amount. Store owners can add multiple percentages with comma separation.
+
+### Discounts
+
+As a store owner, you might want to give the customer a custom discount at checkout; the toggle for Discounts becomes available at your shop’s checkout. However, this is very much advised against self-checkout systems.
+
+### Custom Payments
+
+When the Custom Payments option is toggled on, the customer gets to input their set price equal to or above the original invoice generated by the store.
+
+### Additional Options
+
+After setting everything for your Point of Sale, some extra options are left. Store owners can easily Embed their PoS through an Iframe or embed a payment button linking to a specific store item. To stylize the just-created PoS store, owners may add custom CSS at the bottom of the additional options.
+
+### Delete this app
+
+If the store owner wants to entirely delete the Point of Sale from his BTCPay Server, at the bottom of updating the PoS, store owners can Click on the Delete this app button to fully destroy their PoS app. When clicking “Delete this app,” BTCPay Server will ask for confirmation by typing “DELETE” and confirming by clicking the Delete button. After deleting the store owner returns to the BTCPay Server dashboard.
+
+## BTCPay Server - Crowdfund
+
+Next to the Point of Sale plugin, BTCPay Server has the option to create a crowdfund. Just like any other Crowdfund platform, store owners can set a goal, create perks for contributions, and customize it to their needs.
+
+### How to set up a new crowdfund
+
+Click on the Crowdfund plugin through the main menu on the left of your BTCPay Server, below the Plugin section. BTCPay Server will now request a name for the Crowdfund; this name will also be displayed in the Left menu bar.
+
+![image](assets/en/106.png)
+
+### Update newly created Point of Sale
+
+Once the App is given a name, its next screen will be to update the App to have context.
+
+### App Name
+
+The name given to your Crowdfund will be visible in the main menu of BTCPay Server.
+
+### Display Title
+
+The title is given to the Crowdfund for the public.
+
+### Tagline
+
+Give the crowdfund a one-liner to recognize what the fundraiser is about.
+
+![image](assets/en/107.png)
+
+### Featured Image URL
+
+Every crowdfund has its main image, the one banner that you recognize directly. This image can be stored on your server if you have Administrative rights, Admins can upload under the BTCPay Server Server settings - Files. When you are a Store owner, the image must be uploaded to the web through a third party host (for example imgur)
+
+### Make Crowdfund Public.
+
+This toggle makes your Crowdfund go public and thus visible for the outside world. For testing purposes or to see if your theme is applied correctly, one might want to keep this set to OFF for the period of building the crowdfund.
+
+### Description
+
+Tell the world about your Crowdfund, what are you raising for? Everything explaining your crowdfund goes here.
+
+![image](assets/en/108.png)
+
+### Crowdfund Goal.
+
+Set a target goal for what the fundraiser should earn for the project and what currency the goal should be denominated. Ensure that if your goals are set between dates, include these target and end dates underneath Goals in crowdfund.
+
+![image](assets/en/109.png)
+
 # Objective 6: Configuring BTCPay Server 

@@ -1,44 +1,55 @@
 ---
 name: Stonewall
-description: Comprensione e utilizzo delle transazioni Stonewall
+description: Comprendere e utilizzare le transazioni Stonewall
 ---
 ![cover stonewall](assets/cover.jpeg)
 
-> *"Rompi le supposizioni dell'analisi della blockchain con un dubbio matematicamente provabile tra mittente e destinatario delle tue transazioni."*
+> *"Rompere le ipotesi dell'analisi della blockchain con un dubbio matematicamente provabile tra mittente e destinatario delle tue transazioni."*
 
-## Cosa è una transazione Stonewall?
-Stonewall è una forma specifica di transazione Bitcoin mirata ad aumentare la privacy dell'utente durante una spesa, imitando un coinjoin tra due persone, senza essere effettivamente tale. Infatti, questa transazione non è collaborativa. Un utente può costruirla da solo, coinvolgendo solo i propri UTXO come input. Pertanto, è possibile creare una transazione Stonewall per qualsiasi occasione senza bisogno di sincronizzarsi con un altro utente.
+## Cos'è una transazione Stonewall?
+Stonewall è una forma specifica di transazione Bitcoin volta ad aumentare la privacy dell'utente durante una transazione, imitando un coinjoin tra due parti, senza però esserlo realmente. Infatti, questa transazione non è collaborativa. Un utente può costruirla da solo, coinvolgendo solo i propri UTXO come input. Pertanto, puoi creare una transazione Stonewall per qualsiasi occasione senza dover coordinarti con un altro utente.
 
-Il funzionamento di una transazione Stonewall è il seguente: come input della transazione, il mittente utilizza 2 UTXO che gli appartengono. Come output, la transazione produce 4 output, di cui 2 saranno esattamente della stessa quantità. Gli altri 2 saranno resto. Tra i 2 output della stessa quantità, solo uno andrà effettivamente al destinatario del pagamento.
+Il funzionamento di una transazione Stonewall è il seguente: come input, il mittente utilizza 2 UTXO che gli appartengono. Come output, la transazione produce 4 output, inclusi 2 che saranno esattamente dello stesso importo. Gli altri 2 saranno il resto. Tra i 2 output dello stesso importo, solo uno andrà effettivamente al destinatario del pagamento.
 
-Pertanto, ci sono solo 2 ruoli in una transazione Stonewall:
+Ci sono solo 2 ruoli in una transazione Stonewall:
 - Il mittente, che effettua il pagamento effettivo;
-- Il destinatario, che può ignorare la natura specifica della transazione e semplicemente aspettarsi un pagamento dal mittente.
+- Il destinatario, che potrebbe non essere a conoscenza della natura specifica della transazione e semplicemente aspettarsi un pagamento dal mittente.
 
-Prendiamo un esempio per capire questa struttura di transazione. Alice è in panetteria per comprare la sua baguette, che costa 4.000 sats. Vuole pagare in bitcoin mantenendo un certo livello di privacy per il suo pagamento. Pertanto, decide di costruire una transazione Stonewall per il pagamento.
-![transaction stonewall bakery](assets/it/1.png)
-Analizzando questa transazione, possiamo vedere che il panettiere ha effettivamente ricevuto 4.000 sats come pagamento per la baguette. Alice ha utilizzato 2 UTXO come input: uno da 10.000 sats e uno da 15.000 sats. Come output, ha ricevuto 3 UTXO: uno da 4.000 sats, uno da 6.000 sats e uno da 11.000 sats. Alice ha quindi un saldo netto di -4.000 sats in questa transazione, che corrisponde al prezzo della baguette.
+Prendiamo un esempio per capire questa struttura di transazione. Alice è in panetteria per comprare la sua baguette, che costa `4.000 sats`. Vuole pagare in bitcoin mantenendo un certo livello di privacy nel suo pagamento. Pertanto, decide di creare una transazione Stonewall per il pagamento.
+![transaction stonewall bakery](assets/fr/1.png)
+Analizzando questa transazione, possiamo vedere che il panettiere ha effettivamente ricevuto `4.000 sats` come pagamento per la baguette. Alice ha utilizzato 2 UTXO come input: uno di `10.000 sats` e uno di `15.000 sats`. Come output, ha ricevuto 3 UTXO: uno di `4.000 sats`, uno di `6.000 sats` e uno di `11.000 sats`. Alice ha un saldo netto di `-4.000 sats` in questa transazione, che corrisponde al prezzo della baguette.
 
-In questo esempio, ho intenzionalmente trascurato le commissioni di mining per facilitare la comprensione. In realtà, le commissioni di transazione sono interamente coperte dal mittente.
+In questo esempio, ho intenzionalmente omesso le commissioni di mining per facilitare la comprensione. Nella realtà, le commissioni di transazione sono interamente a carico del mittente.
 
-Qual è la differenza tra Stonewall e Stonewall x2?
-La transazione Stonewall funziona allo stesso modo della transazione StonewallX2, con l'eccezione che quest'ultima richiede la collaborazione, a differenza della classica transazione Stonewall, da qui la designazione "x2". Infatti, la transazione Stonewall può essere eseguita senza la collaborazione esterna: il mittente può completarla senza l'aiuto di un'altra persona. Tuttavia, per una transazione Stonewall x2, un partecipante aggiuntivo, chiamato "collaboratore", si unisce al processo. Il collaboratore contribuisce con i propri bitcoin come input, insieme a quelli del mittente, e riceve l'intera somma come output (meno le commissioni di mining).
+## Qual è la differenza tra Stonewall e Stonewall x2?
+La transazione Stonewall opera nello stesso modo della transazione StonewallX2, con l'unica differenza che quest'ultima richiede collaborazione, a differenza della classica transazione Stonewall, da qui la designazione "x2". Infatti, la transazione Stonewall può essere eseguita senza richiedere cooperazione esterna: il mittente può portarla a termine senza l'assistenza di un'altra persona. Tuttavia, per una transazione Stonewall x2, un partecipante aggiuntivo, chiamato "collaboratore", si unisce al processo. Il collaboratore contribuisce con i propri bitcoin come input, insieme a quelli del mittente, e riceve l'intera somma come output (meno le commissioni di mining).
 
-Riprendiamo il nostro esempio con Alice in panetteria. Se avesse voluto effettuare una transazione Stonewall x2, Alice avrebbe dovuto collaborare con Bob (un terzo soggetto) durante la creazione della transazione. Ognuno avrebbe fornito un UTXO come input. Bob avrebbe quindi ricevuto l'intera sua contribuzione come output. Il panettiere avrebbe ricevuto il pagamento per la baguette allo stesso modo della transazione Stonewall, mentre Alice avrebbe ricevuto il suo saldo iniziale, meno il costo della baguette.
-![Stonewall Tutorial - Sparrow Wallet](https://youtu.be/mlRtZvWGuk0?si=e_lSKJLvybWUna1j)
-Come traduttore professionista esperto, il mio compito principale è tradurre con precisione contenuti tecnici dalla lingua di origine in italiano, la mia lingua madre. Seguirò le seguenti linee guida per garantire una traduzione di alta qualità:
+Rivisitiamo il nostro esempio con Alice in panetteria. Se avesse voluto effettuare una transazione Stonewall x2, Alice avrebbe dovuto collaborare con Bob (una terza parte) nella creazione della transazione. Avrebbero fornito ciascuno un UTXO di input. Bob avrebbe poi ricevuto l'intero importo del suo input come output. Il panettiere avrebbe ricevuto il pagamento per la sua baguette nello stesso modo della transazione Stonewall, mentre Alice avrebbe ricevuto indietro il suo saldo iniziale, meno il costo della baguette.
+![transaction stonewall x2](assets/fr/2.png)
+Da una prospettiva esterna, il modello della transazione sarebbe rimasto esattamente lo stesso.
+![Stonewall o Stonewall x2?](assets/fr/3.png)
 
-Lingua di origine: Il contenuto è originariamente nella lingua di origine.
-Natura del contenuto: Mi troverò di fronte a materiale tecnico, potenzialmente includendo terminologia specifica del settore.
-Link e termini tecnici: Non tradurrò gli URL o termini tecnici altamente specifici. Se non sono sicuro, manterrò il termine originale.
-Coerenza della formattazione: Manterrò lo stesso layout e la stessa formattazione del testo originale. La coerenza della struttura è fondamentale.
-Proprietà YML: Se una riga inizia con una proprietà YML (ad esempio, 'name:', 'goal:', 'objectives:'), manterrò il nome della proprietà in inglese.
-Contesto culturale: Per riferimenti culturali o specifici del contesto che potrebbero non tradursi direttamente, parafraserò per preservare il significato inteso o fornirò una breve spiegazione.
-L'accento sarà posto nel mantenere l'integrità del contenuto tecnico, garantendo al contempo che la traduzione sia comprensibile e accurata dal punto di vista contestuale in italiano.
+In sintesi, le transazioni Stonewall e Stonewall x2 condividono una struttura identica. La distinzione tra le due risiede nella loro natura collaborativa. La transazione Stonewall è sviluppata individualmente, senza la necessità di collaborazione. Al contrario, la transazione Stonewall x2 si basa sulla cooperazione tra due individui per la sua implementazione.
 
-Questo è il testo da tradurre:
+## Qual è lo scopo di una transazione Stonewall?
+La struttura Stonewall aggiunge una quantità significativa di entropia alla transazione e oscura l'analisi della catena. Da una prospettiva esterna, una tale transazione può essere interpretata come un piccolo coinjoin tra due persone. Ma in realtà, proprio come la transazione Stonewall x2, si tratta di un pagamento. Questo metodo crea quindi incertezze nell'analisi della catena e può persino portare a false piste.
+
+Rivediamo l'esempio di Alice in panetteria. La transazione sulla blockchain apparirebbe come segue:
+![Stonewall o Stonewall x2?](assets/fr/4.png)
+Un osservatore esterno che si affida alle euristiche comuni di analisi della catena potrebbe erroneamente concludere che "*due persone hanno eseguito un piccolo coinjoin, con un UTXO ciascuno in input e due UTXO ciascuno in output*".
+![Stonewall o Stonewall x2?](assets/fr/5.png)
+Questa interpretazione è errata perché, come sapete, un UTXO è stato inviato al panettiere, i 2 UTXO in input provengono da Alice, e lei ha ricevuto 3 output di resto.
+
+![transaction stonewall baker](assets/fr/1.png)
+Anche se un osservatore esterno riesce a identificare il modello della transazione Stonewall, non avrà tutte le informazioni. Non sarà in grado di determinare quale dei due UTXO dello stesso importo corrisponda al pagamento. Inoltre, non sarà in grado di determinare se i due UTXO in input provengano da due persone diverse o se appartengano a una singola persona che li ha uniti. Quest'ultimo punto è dovuto al fatto che le transazioni Stonewall x2, di cui abbiamo parlato sopra, seguono esattamente lo stesso modello delle transazioni Stonewall. Dall'esterno e senza informazioni aggiuntive sul contesto, è impossibile differenziare una transazione Stonewall da una transazione Stonewall x2. Tuttavia, le prime non sono transazioni collaborative, mentre le seconde lo sono. Questo aggiunge ancora più dubbi su questa spesa.
+![Stonewall o Stonewall x2?](assets/fr/3.png)
+## Come effettuare una transazione Stonewall su Samourai Wallet?
+A differenza delle transazioni Stowaway o Stonewall x2 (cahoots), la transazione Stonewall non richiede l'uso di Paynyms. Può essere effettuata direttamente, senza alcuna fase preparatoria. Per farlo, segui il nostro video tutorial su Samourai Wallet: 
+![Stonewall Tutorial - Samourai Wallet](https://youtu.be/mlRtZvWGuk0?si=e_lSKJLvybWUna1j)
+
+## Come effettuare una transazione Stonewall su Sparrow Wallet?
+A differenza delle transazioni Stowaway o Stonewall x2 (cahoots), la transazione Stonewall non richiede l'uso di Paynyms. Può essere effettuata direttamente, senza alcuna fase preparatoria.
 ![Stonewall Tutorial - Sparrow Wallet](https://youtu.be/su89ljkV_OI?si=1jNaSJGvECUYe6Or)
-
-**Risorse esterne:**
+**Risorse Esterne:**
 - https://docs.samourai.io/en/spend-tools#stonewall ;
 - https://samouraiwallet.com/stonewall.

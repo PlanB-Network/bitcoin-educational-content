@@ -27,6 +27,9 @@ En resumen, un Paynym es un identificador único vinculado a su billetera que pe
 - _Cahoots_ = Nombre dado por Samourai a todos sus tipos de transacciones colaborativas, incluido Payjoin Stowaway;
 - _Soroban_ = Protocolo de comunicación cifrada establecido en Tor, que permite la colaboración con otros usuarios en el contexto de una transacción Cahoots;
 - _Paynym_ = Identificador único de una billetera que permite la comunicación con otro usuario en Soroban, con el fin de realizar una transacción Cahoots.
+
+[**-> Descubre más sobre las transacciones Payjoin y su utilidad**](https://planb.network/tutorials/privacy/payjoin)
+
 ## Cómo establecer una conexión entre Paynyms?
 Para llevar a cabo una transacción remota de Cahoots, específicamente un PayJoin (Stowaway) a través de Samourai, es necesario "Seguir" al usuario con quien deseas colaborar, utilizando su Paynym. En el caso de un Stowaway, esto significa seguir a la persona a quien deseas enviar bitcoins.
 

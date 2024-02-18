@@ -38,6 +38,8 @@ Therefore, the logic should be as follows when using a Samourai spending tool:
 
 If you want to find a collaborator who is willing to assist you in a Stonewall X2 transaction, you can also visit this Telegram group (unofficial) maintained by Samourai users to connect senders and collaborators: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
+[**-> Learn more about Stonewall transactions**](https://planb.network/tutorials/privacy/stonewall)
+
 ## What is the purpose of a Stonewall x2 transaction?
 
 The Stonewall x2 structure adds a significant amount of entropy to the transaction and confuses chain analysis. From the outside, such a transaction can be interpreted as a small Coinjoin between two individuals. But in reality, it is a payment. This method generates uncertainties in chain analysis, and even leads to false leads.

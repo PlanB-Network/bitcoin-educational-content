@@ -41,6 +41,11 @@ Cette interprétation est évidemment incorrecte, car comme vous le savez déjà
 ![schéma transaction payjoin](assets/fr/1.png)
 Si vous souhaitez analyser une véritable transaction Payjoin, en voici une que j'ai réalisée sur le testnet : [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
+[**-> Découvrez notre tutoriel pour faire un Payjoin avec Samourai Wallet**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)
+
+[**-> Découvrez notre tutoriel pour faire un Payjoin avec Sparrow Wallet**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+
+
 **Ressources externes :** 
 - https://docs.samourai.io/en/spend-tools#stowaway ;
 - https://samouraiwallet.com/stowaway ;

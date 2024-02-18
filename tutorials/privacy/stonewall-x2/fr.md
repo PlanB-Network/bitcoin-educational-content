@@ -39,6 +39,8 @@ La logique devrait donc être la suivante lorsque l'on souhaite utiliser un outi
 
 Si vous souhaitez trouver un collaborateur qui voudra bien vous assister dans une transaction Stonewall X2, vous pouvez également aller faire un tour sur ce groupe Telegram (non officiel) maintenu par des utilisateurs de Samourai pour faire rencontrer émetteurs et collaborateurs : [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
+[**-> En savoir plus sur les transactions Stonewall**](https://planb.network/tutorials/privacy/stonewall)
+
 ## Quelle est l'utilité d'une transaction Stonewall x2 ?
 
 La structure Stonewall x2 ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse de chaîne. Vue de l'extérieur, une telle transaction peut être interprétée comme un petit Coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse de chaîne, voire oriente vers de fausses pistes.

@@ -36,6 +36,11 @@ Vedendo questa transazione sulla blockchain, un osservatore esterno che segue le
 Questa interpretazione è ovviamente errata perché, come già sai, le due UTXO di input non appartengono alla stessa persona. Inoltre, il valore effettivo del pagamento non è di `19.000 sats`, ma di `4.000 sats`. L'analisi dell'osservatore esterno è quindi indirizzata verso una conclusione erronea, garantendo la preservazione della riservatezza degli interessati.![Diagramma della transazione Payjoin](assets/it/1.png)
 Se desideri analizzare una vera transazione Payjoin, ne ho eseguita una sul testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
+[**-> Scopri il nostro tutorial su come effettuare un Payjoin con Samourai Wallet**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
+
+[**-> Scopri il nostro tutorial su come effettuare un Payjoin con Sparrow Wallet**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+
+
 **Risorse esterne:**
 - https://docs.samourai.io/en/spend-tools#stowaway;
 - https://samouraiwallet.com/stowaway;

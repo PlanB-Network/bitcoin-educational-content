@@ -11,7 +11,7 @@ objectives:
 
 Neste programa, vamos nos aprofundar no RGB, uma solução revolucionária de várias camadas para escalabilidade do Bitcoin. O RGB utiliza validação do lado do cliente para integrar seus contratos inteligentes no Bitcoin, permitindo contratos fora da cadeia e casos de uso escaláveis do protocolo. Desde DeFi até NFTs e criação de ativos, o RGB é uma tecnologia promissora que pode viabilizar muitos novos casos de uso não censuráveis.
 
-Neste curso, vamos primeiro nos concentrar nos aspectos teóricos, depois explorar o lado da programação e, por fim, analisar alguns exemplos e exercícios concretos da vida real. O curso originou-se de um seminário ao vivo organizado pela Fulgure e ministrado por três renomados professores e especialistas em RGB.
+Neste curso, vamos primeiro nos concentrar nos aspectos teóricos, depois explorar o lado da programação e, por fim, analisar alguns exemplos e exercícios concretos da vida real. O curso originou-se de um seminário ao vivo organizado pela Fulgur'Ventures e ministrado por três renomados professores e especialistas em RGB.
 
 Aproveite e boa sorte com um dos tópicos mais avançados do Bitcoin.
 
@@ -23,9 +23,9 @@ Aproveite e boa sorte com um dos tópicos mais avançados do Bitcoin.
 
 Olá a todos e bem-vindos a estes cursos de RGB.
 
-Neste novo programa, você aprenderá os conceitos básicos da programação RGB juntamente com alguns exercícios práticos. Os cursos serão apenas em inglês por enquanto. Este programa fazia originalmente parte de um bootcamp avançado de desenvolvimento de 2 semanas em Toscana, Viareggio, organizado pela Fulgure Venture. A primeira semana foi focada em Rust e SDK e pode ser encontrada no programa LN 304. Neste programa, nos concentramos na segunda semana do bootcamp, que abordará o RGB.
+Neste novo programa, você aprenderá os conceitos básicos da programação RGB juntamente com alguns exercícios práticos. Os cursos serão apenas em inglês por enquanto. Este programa fazia originalmente parte de um bootcamp avançado de desenvolvimento de 2 semanas em Toscana, Viareggio, organizado pela Fulgur'Ventures. A primeira semana foi focada em Rust e SDK e pode ser encontrada no programa [LN 402](https://planb.network/courses/ln402). Neste programa, nos concentramos na segunda semana do bootcamp, que abordará o RGB.
 
-Semana 1 - LN 304
+Semana 1 - [LN 402](https://planb.network/courses/ln402)
 
 ![image](assets/image/1.webp)
 
@@ -82,7 +82,9 @@ Boa sorte com seus estudos e, se precisar entrar em contato com nossa equipe ou 
 ## Bitmask
 
 ![video](https://youtu.be/nbUtV8GOR_U)
+
 ## Nó RGB parte 1 
+
 ![vídeo](https://youtu.be/5iAhsgCSL3U)
 
 ## Nó RGB parte 2
@@ -94,7 +96,7 @@ Boa sorte com seus estudos e, se precisar entrar em contato com nossa equipe ou 
 
 ## Palavra final
 
-Obrigado por participar dos cursos RGB oferecidos pela PlanB Network em colaboração com a Fulgure Venture. Estendemos nossa gratidão aos nossos professores pelo apoio. Se você estiver interessado em continuar seu trabalho com RGB, aqui está uma lista útil de recursos para você explorar:
+Obrigado por participar dos cursos RGB oferecidos pela PlanB Network em colaboração com a Fulgur'Ventures. Estendemos nossa gratidão aos nossos professores pelo apoio. Se você estiver interessado em continuar seu trabalho com RGB, aqui está uma lista útil de recursos para você explorar:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/

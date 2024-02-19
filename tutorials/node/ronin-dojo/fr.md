@@ -3,6 +3,9 @@ name: RoninDojo
 
 description: Installer et utiliser son nœud Bitcoin RoninDojo.
 ---
+**ATTENTION : Bien que ce tutoriel reste opérationnel pour l'installation de RoninDojo v1, il ne vous permettra pas de mettre à niveau votre nœud vers RoninDojo v2. Ainsi, bien que cette version demeure fonctionnelle, elle n'est plus tenue à jour. Pour bénéficier des dernières améliorations et fonctionnalités, je vous recommande fortement de consulter notre tutoriel dédié à l'installation directe de RoninDojo v2 sur votre Raspberry Pi :** https://planb.network/tutorials/privacy/ronin-dojo-v2
+
+---
 
 Faire tourner et utiliser son propre nœud est essentiel pour prendre réellement part au réseau Bitcoin. Bien qu'exécuter un nœud Bitcoin n'apporte aucun avantage pécuniaire à l'utilisateur, il lui permet de préserver sa confidentialité, d'agir en toute indépendance et de maîtriser sa confiance envers le réseau.
 

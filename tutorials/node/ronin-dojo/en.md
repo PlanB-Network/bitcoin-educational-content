@@ -3,6 +3,9 @@ name: RoninDojo
 
 description: Installing and using your RoninDojo Bitcoin node.
 ---
+**WARNING: Although this tutorial remains operational for installing RoninDojo v1, it will not allow you to upgrade your node to RoninDojo v2. Thus, while this version remains functional, it is no longer updated. To benefit from the latest improvements and features, I strongly recommend consulting our dedicated tutorial for the direct installation of RoninDojo v2 on your Raspberry Pi:** [https://planb.network/tutorials/privacy/ronin-dojo-v2](https://planb.network/tutorials/privacy/ronin-dojo-v2)
+
+---
 
 Running and using your own node is essential to truly participate in the Bitcoin network. While running a Bitcoin node does not bring any financial benefits to the user, it allows them to preserve their privacy, act independently, and have control over their trust in the network.
 

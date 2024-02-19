@@ -9,11 +9,11 @@ description: Installer son nœud Bitcoin RoninDojo v2 sur un Raspberry Pi
 Dans [un précédent tutoriel](https://planb.network/tutorials/node/ronin-dojo), nous avions déjà expliqué la procédure d'installation et d'utilisation de RoninDojo v1. Cependant, au cours de l'année dernière, les équipes de RoninDojo ont lancé la version 2 de leur implémentation, qui a marqué un tournant significatif dans l'architecture du logiciel. En effet, ils ont délaissé la distribution Linux Manjaro au profit de Debian. Par conséquence, ils ne proposent plus d'image préconfigurée pour une installation automatique sur Raspberry Pi. Mais il existe tout de même une méthode pour procéder à une installation manuelle. C'est ce que j'ai utilisé pour mon propre nœud, et depuis, RoninDojo v2 fonctionne à merveille sur mon Raspberry Pi 4. Je vous propose donc un nouveau tutoriel pour savoir comment installer manuellement RoninDojo v2 sur un Raspeberry Pi.
 
 ## Sommaire :
-- [[#Qu'est-ce que RoninDojo ?]]
-- [[#Quel matériel choisir pour installer RoninDojo v2 ?]]
-- [[#Comment monter le Raspberry Pi 4 ?]]
-- [[#Comment installer RoninDojo v2 sur un Raspberry Pi 4 ?]]
-- [[#Comment utiliser son nœud RoninDojo v2 ?]]
+- Qu'est-ce que RoninDojo ?
+- Quel matériel choisir pour installer RoninDojo v2 ?
+- Comment monter le Raspberry Pi 4 ?
+- Comment installer RoninDojo v2 sur un Raspberry Pi 4 ?
+- Comment utiliser son nœud RoninDojo v2 ?
 
 ## Qu'est-ce que RoninDojo ?
 [Dojo](https://samouraiwallet.com/dojo) est initialement une implémentation de nœud complet Bitcoin, fondée sur Bitcoin Core, et développée par les équipes de Samourai Wallet. Cette solution peut être installée sur n'importe quel équipement. Contrairement à d'autres implémentations de Core, Dojo a été spécifiquement optimisé pour s'intégrer à l'environnement de l'application Android Samourai Wallet. Quant à RoninDojo, il s'agit d'un utilitaire conçu pour faciliter l'installation et la gestion d'un Dojo, ainsi que de divers autres outils complémentaires. En somme, RoninDojo enrichit l'implémentation de base de Dojo en y intégrant une multitude d'outils supplémentaires, tout en simplifiant son installation et sa gestion.

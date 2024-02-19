@@ -2050,4 +2050,278 @@ Set a target goal for what the fundraiser should earn for the project and what c
 
 ![image](assets/en/109.png)
 
+### Perks
+
+Perks help a lot with your crowdfunding. This is because perks give people a way to participate in your campaign. They tap into selfish motivations as well as benevolent motivations. And they let you access your supporters’ spending, not just their philanthropic purse -- you can guess which is more significant.
+
+Creating a new perk consists of the following fields ;
+- Title
+- Price (fixed, minimum, or custom) 
+- Image URL
+- Description
+- Inventory
+- ID
+- Buy Button Text.
+- Enable/Disable
+
+Once the store owner has populated all the fields of the new to create perk, click on save, and you will notice that the Perks section in the crowdfunds is now getting populated.
+
+![image](assets/en/110.png)
+
+## BTCPay Server - Point Of Sale
+
+### Contributions.
+
+Store owners can choose how to display Perks, how they are sorted, or even ranked against the other perks. However, once the Crowdfunds goals are reached, store owners might want to stop donations flowing toward this fundraiser. Therefore, he can toggle on “Do not allow additional contributions after reaching the target. “This will stop the Crowdfund from accepting donations.
+
+### Crowdfund behavior
+
+Crowdfund’s standard only counts invoices created with the Crowdfund towards the goal. However, there might be instances where the Store owner wants all invoices made in this store to count towards the crowdfund.
+
+### Additional Options for customization
+
+BTCpay Server offers a couple of extra customizations. Add sounds, animations, or even discussion threads to the Crowdfund. Store owners might also change the look and feel of the Crowdfund by inputting their own custom CSS.
+
+### Delete this app
+
+If the store owner wants to fully delete the Crowdfund from his BTCPay Server, at the bottom of updating the Crowdfund store owners can Click on the “Delete this app” button to fully destroy their Crowdfund app. When clicking “Delete this app,” BTCPay Server will ask for confirmation by typing “DELETE” and confirming by clicking the Delete button. After deleting the store owner returns to the BTCPay Server dashboard.
+
+## BTCPay Server - Pay Button
+
+Easily-embeddable HTML and highly customizable payment buttons allow store owners to receive tips and donations. In the left menu bar of BTCPay Server, below the Plugins section, store owners can click the “Pay Button” and click Enable to create a Payment button.
+
+### General Settings
+
+Within the General Settings for the Payment Button, store owners can set
+- Standard price
+- Default Currency
+- Default Payment method
+    - Use store default
+    - BTC on-chain
+    - BTC Off-chain (Lightning)
+    - BTC Off-chain (LNURL-pay)
+- Checkout description 
+- Order ID
+
+### Display options.
+
+BTCPay Server’s Pay button can be configured to suit different styles. Buttons can have a fixed or custom amount, either shown with a slider or plus and min toggles.
+
+### Use Modal
+
+When creating the payment button, store owners can choose its behavior when a customer clicks it and show it in a modal or as a new page.
+
+**!?Note!?**
+
+Warning: Payment button should only be used for tips and donations
+
+Using the payment button for e-commerce integrations is not recommended since order relevant information can be modified by the user. For e-commerce, you should use our Greenfield API. If this store processes commercial transactions, we advise you to create a separate store before using the payment button.
+
+### Customize Pay button Text
+
+By default, BTCPay Server’s payment button states “Pay With BTCPay “Store owners can set this text to their desire and change the BTCPay Server logo to their own. Set the text by using the “Pay Button Text” and paste the image URL underneath the “Pay Button Image URL. “
+
+Image size.
+
+The size of the image in the button can only be set to three defaults.
+- 146x40px
+- 168x46px
+- 209x57px
+
+### Button Type
+
+BTCPay Server knows of three states for the Payment Button.
+
+- Fixed Amount
+    - The previous set price is in the button’s general settings.
+- Custom Amount
+    - BTCPay Server’s Pay button has + and - toggles to set a custom price.
+    - When using the custom amount, BTCPay Server will request a Min, Max, and how gradually it should increase.
+    - Buttons may be set to “Use Simple input style “.This takes away the +/- Toggles.
+    - Fit button inline where button and toggles appear inline.
+- Slider
+    - Similar to the custom amount, however,visually different as it has a slider instead of the +/- toggles.
+    - When using the Slider, BTCPay Server will request a Min, Max, and how gradually it should increase.
+
+**!?Note!?**
+
+Deleting the Payment button can be done at the top in the warning description.
+
+### Payment Notifications
+
+Server IPN ( Instant Payment Notification ) is meant for webhooks and can be filled by a URL to post-purchase data.
+
+### Email Notifications
+
+Whenever payment has happened, BTCPay Server can notify the store owner.
+
+### Browser redirect.
+
+When the customer completes the purchase, he will be redirected to this link if set by the store owner.
+
+### Advanced Payment Button Options.
+
+Specify additional query string parameters that should be appended to the checkout page once the invoice is created. For example, lang=da-DK would load the checkout page in Danish by default.
+
+### Use App as Endpoint
+
+Directly link the payment button to an item in one of the PoS or Crowdfund apps before.
+
+Store owners can click on the dropdown menu and select their desired App; once the App is selected, the store owner can add the item that needs to be linked.
+
+### Generated Code.
+
+As BTCPay Server’s Payment button is Easily-embeddable HTML, BTCPay Server shows the generated code to copy into a website at the bottom after configuring the Payment button.
+
+Store owners can copy the generated code into their website, and the Payment button from BTCPay Server is directly active on their website.
+
+### Payment Notifications
+
+Server IPN ( Instant Payment Notification ) is meant for webhooks and can be filled by a URL to post purchase data.
+
+### Email Notifications
+
+Whenever a payment has happened, BTCPay Server can notify the store owner.
+
+### Browser redirect.
+
+When the customer completes the purchase, he will be redirected to this link if set by the store owner.
+
+### Advanced Payment Button Options.
+
+Specify additional query string parameters that should be appended to the checkout page once the invoice is created. For example, lang=da-DK would load the checkout page in Danish by default.
+
+### Use App as Endpoint
+
+Directly link the payment button to an item in one of the PoS or Crowdfund apps before. Store owners can click on the dropdown menu and select their desired app, once the app is selected, the store owner can add the item that needs to be linked.
+
+### Generated Code.
+
+As BTCPay Server’s Payment button is Easily-embeddable HTML, BTCPay Server shows the generated code to copy into a website at the bottom after configuring the Payment button. Store owners can copy the generated code into their website and the Payment button from BTCPay Server is directly active on their website.
+
+## Skill Summary:
+
+In this section you learned:
+
+- How to use BTCPay Server’s integrated PoS plugin to easily create a custom store
+- How to use BTCPay Server’s integrated Crowdfund plugin to easily create a custom crowdfund app
+- Generating code for a custom pay button using the Pay Button plugin
+
+## Knowledge assessment;
+
+### KA 5.1.1 Review
+
+What are the three built-in plugins that come standard with BTCPay Server? In a few words, describe how each can be used: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 # Objective 6: Configuring BTCPay Server 
+
+**Basic understanding of installing BTCPay Server on a LunaNode environment**
+
+**Basic understanding of installing BTCPay Server on a Voltage.cloud environment**
+
+**Basic understanding of installing BTCPay Server on a Umbrel node**
+
+## Objective 6.1;
+## Installing BTCPay Server - Hosted Env. (LunaNode)
+
+These steps will provide all the information necessary to start using BTCPay Server on LunaNode. There are many options on how to deploy the software.
+You can find all details of BTCPay Server at https://docs.btcpayserver.org.
+
+### Where do we start?
+
+In this part, you will familiarize yourself with LunaNode as the hosting provider, learn about the first steps of using your BTCPay Server, and learn how to go with Lightning Network. After we have gone through all the steps, you can run a webshop or crowdfund platform accepting Bitcoin!
+
+This is one of many ways to deploy BTCPay Server. Read our documentation for more details,
+
+https://docs.btcpayserver.org.
+
+## BTCPay Server - LunaNode deployment.
+
+LunaNode deployment.
+
+First, go to the website of LunaNode.com, where we will create a new account. Click on the Sign Up top right or use the Get Started wizard on their homepage. 
+
+![image](assets/en/111.png)
+
+After you have created your new account, LunaNode sends a verification email. Once you verify the account, compared to Voltage, you immediately get presented to top up your account balance. This balance is needed to pay for the server space and hosting costs.
+
+![image](assets/en/112.png)
+
+### Add credit to your LunaNode account.
+
+Once you’ve clicked “ Deposit credit “, you get to set how much you want to top up your account with and how you want to pay for it. LunaNode and BTCPay Server will cost between 10$USD and 20$USD p/m. Compared to Voltage.cloud, you do get full access to your Virtual Private Server (VPS from here on) and therefore have some more control over your server. After you’ve created your new account, LunaNode sends a verification email. Once you verify the account, compared to Voltage, you now immediately get presented to top up your account balance. This balance is needed to pay for the server space and hosting cost.
+
+### How to deploy a new server?
+
+In this guide, we will go through the setup by creating a set of API keys and using the BTCPay Server launcher made by LunaNode.
+
+In your LunaNode dashboard, click API in the top right. This opens up a new page. We only have to set a Name for the API key. The rest will be taken care of by LunaNode and will not be covered in this guide. Click the Create API Credential button.
+After creating the API credentials, you get a long string of letters and characters. This is your API key.
+
+![image](assets/en/113.png)
+
+### How to deploy a new server?
+
+There are 2 parts to these credentials, API key and API ID; we will need both. Before we go into the next step, let’s open a second tab in the browser and go to https://launchbtcpay.lunanode.com/
+
+Here you will be asked to provide your API key and API ID. This is to verify it is you who provisions this new server. The API key should still be open in your previous tab; if you scroll down in the table below, you will find the API ID.
+
+Go back to the page with the Launcher, fill out the fields with your API key and ID, and click on continue.
+
+![image](assets/en/114.png)
+
+In the next step, you can provide a domain name. If you already own a domain and want to use this for BTCPay Server, make sure you also add the DNS record (Called an A record) on your domain. If you do not own a domain, use the LunaNode provided domain instead (you can change this later in BTCPay Server settings) and click Continue.
+
+Read more about setting or changing a DNS record for BTCPay Server; https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
+
+### Launch BTCPay Server on LunaNode.
+
+After taking the steps prior, we can set all the options for our new server. Here we will select Bitcoin(BTC) as our Supported currency; we can set an email to get notified about encryption certificates for renewal purposes; this is not mandatory.
+
+This guide aims at setting up a Mainnet environment (real-world Bitcoin); however, LunaNode also allows you to set this to Testnet or Regtest for development purposes. We will leave it on the Mainnet option for this guide.
+
+Choose your Lightning implementation. LunaNode offers two (2) different implementations, LND and Core Lightning. For this guide, we will take LND. There are little but true differences in both implementations; for more on this, we recommend reading the extensive documentation; https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
+
+![image](assets/en/115.png)
+
+LunaNode offers multiple Virtual Machine (VM) plans. These are different in price ranges and specifications of the server. For this guide, an m2 plan will suffice; however, if you have ticked more than just Bitcoin as currency, consider using at least m4.
+
+Accelerate the initial blockchain synchronization; this is optional and depends on your needs. There are advanced options like setting a Lightning Alias, pointing to a specific GitHub release, or setting SSH keys; none of these will be touched on in this guide.
+
+After filling out the form, you have to click Launch VM, and Lunanode will start creating your new VM, including BTCPay Server installed on it. This process takes a couple of minutes; once your server is ready, LunaNode gives you the link to your new BTCPay Server.
+
+After the creation process, click on the link to your BTCPay Server; here, you will be asked to create an Administrator account. See objective (2x) for more details on account creation.
+
+![image](assets/en/116.png)
+
+## Skill Summary:
+
+In this section you learned:
+
+- Creating and funding an account on LunaNode
+- Using the BTCPay Server Launcher to create your own server
+
+## Knowledge assessment;
+### KA 6.1.1 Conceptual Review
+
+Describe some of the differences between running an instance of BTCPay Server on a VPS vs. creating an account on a hosted instance: ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Objective 6.2;
+## Installing BTCPay Server - Hosted Env. (Voltage.cloud)
+
+Installing BTCPay Server -
+Hosted Env. (Voltage.cloud)
+You will get familiar with Voltage.cloud as the hosting provider, learn about the first steps of using your BTCPay Server, and learn how to go with Lightning Network. After we have gone through all the steps, you can run a webshop or crowdfund platform accepting Bitcoin!
+
+This is one of many ways to deploy BTCPay Server. Read our documentation for more details,
+https://docs.btcpayserver.org.
+
+## BTCPay Server - Voltage.cloud deployment.
+
+First, go to the website Voltage.cloud and sign up for a new account. When creating an account you can sign up for a 7 day free trial. Either Click on the Sign Up top right or use the “Try a free 7 day trail” on their homepage. 
+
+![image](assets/en/117.png)
+
+After you have made an account, click the NODES button on your dashboard. Once we have selected Nodes and created a new node, we get presented with the possible node’s Voltage offers. As this guide will also go over LightningNetwork, at Voltage, we first have to choose our Lightning implementation before we create a BTCPay Server. Click on LightningNode.
+
+![image](assets/en/118.png)

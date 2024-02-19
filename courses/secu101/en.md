@@ -75,7 +75,7 @@ When browsing the internet, it is important to avoid certain common mistakes to 
 ### Be cautious with software downloads:
 
 It is recommended to download software from the official website of the publisher rather than generic sites.
-Example: Use www.signal/download instead of www.logicieltelechargement.fr/signal.
+Example: Use www.signal.org/download instead of www.logicieltelechargement.fr/signal.
 
 It is also advisable to prioritize open-source software as they are often safer and free from malicious software. An "open-source" software is a software whose code is known and accessible to everyone. This allows for verification, among other things, that there is no hidden access to steal your personal data.
 

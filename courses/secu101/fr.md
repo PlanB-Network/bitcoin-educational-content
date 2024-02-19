@@ -52,14 +52,14 @@ Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, t
 - Chapitre 2 - Utiliser internet en sécurité
 
 Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et de ses implications en matière de sécurité. Nous explorerons ensuite les spécificités des navigateurs, notamment en ce qui concerne la gestion des cookies. Nous verrons également comment garantir une navigation plus sécurisée et anonyme, grâce à des outils tels que TOR. Par la suite, nous mettrons l'accent sur l'utilisation des VPN pour renforcer la protection de vos données. Enfin, nous terminerons par des recommandations concernant l'utilisation sécurisée des connexions WiFi.
-
+![[courses/secu101/assets/fr/1.png]]
 ### Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
 
 - Chapitre 3 - Utilisation de l’ordinateur
 - Chapitre 4 - Hack & gestion de back-up
 
 Dans cette section, nous aborderons trois domaines clés de la sécurité informatique. Premièrement, nous explorerons les différents systèmes d'exploitation : Mac, PC et Linux, en soulignant leurs spécificités et leurs points forts. Ensuite, nous nous pencherons sur les méthodes pour se protéger efficacement des tentatives de piratage et renforcer la sécurité de vos appareils. Enfin, nous mettrons l'accent sur l'importance de protéger et de sauvegarder régulièrement vos données pour prévenir toute perte ou ransomware.
-
+![[courses/secu101/assets/fr/2.png]]
 ### Section 3: Mise en place des solutions.
 
 - Chapitre 6 - Gestion de la boîte mail
@@ -69,7 +69,7 @@ Dans cette section, nous aborderons trois domaines clés de la sécurité inform
 Dans cette troisième section pratique, nous allons passer à la pratique avec la mise en place de vos solutions concrètes.
 
 D'abord, nous verrons comment protéger votre boîte mail, essentielle pour vos communications et souvent ciblée par les pirates. Ensuite, nous vous présenterons ce qu'est un gestionnaire de mots de passe : une solution pratique pour ne plus oublier ou mélanger vos mots de passe tout en les gardant sécurisés. Enfin, nous évoquerons une mesure de sécurité supplémentaire, l'authentification à deux facteurs, qui ajoute une couche de protection à vos comptes. Tout sera expliqué de manière claire et accessible.
-
+![[courses/secu101/assets/fr/3.png]]
 ### Section Bonus: Interview avec Pantamis et Renaud
 
 En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. l'idée est d'en apprendre davantage auprès de ces professionnels expérimentés.
@@ -87,7 +87,7 @@ Lors de la navigation sur internet, il est important d'éviter certaines erreurs
 ### Attention aux téléchargements de logiciels:
 
 Il est recommandé de télécharger des logiciels depuis le site officiel de l'éditeur plutôt que des sites génériques.
-Exemple: Utiliser www.signal/download et non pas www.logicieltelechargement.fr/signal.
+Exemple: Utiliser www.signal.org/download et non pas www.logicieltelechargement.fr/signal.
 
 Il est également conseillé de privilégier les logiciels open source car ils sont souvent plus sûrs et exempts de logiciels malveillants. Un logiciel "open-source" aka ouvert ou libre, est un logiciel dont le code est connu de tous et accessible par tous. On peut donc vérifier entre autre qu'il y ait pas d'accès caché pour voler vos données personnelles.
 
@@ -123,9 +123,9 @@ TOR est légal et est utilisé par des journalistes, des activistes de la libert
 
 ### les VPN
 
-La protection de votre connexion internet est aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
+La protection de votre connexion internet est un aspect crucial de la sécurité en ligne, et l'utilisation de réseaux privés virtuels (VPN) est une méthode efficace pour améliorer cette sécurité, tant pour les entreprises que pour les utilisateurs individuels.
 
-Les VPN sont des outils qui chiffrent les données transmises sur internet, rendant ainsi la connexion plus sécurisée. Dans un contexte professionnel, les VPN permettent aux employés d'accéder à distance au réseau interne de l'entreprise de manière sécurisée. Les données échangées sont cryptées, rendant leur interception par des tiers beaucoup plus difficile. En plus de sécuriser l'accès à un réseau interne, l'utilisation d'un VPN peut permettre à un utilisateur de faire passer sa connexion internet par le réseau interne de l'entreprise, donnant l'impression que sa connexion provient de l'entreprise. Cela peut être particulièrement utile pour accéder à des services en ligne qui sont géographiquement restreints.
+Les VPN sont des outils qui chiffrent les données transmises sur internet, rendant ainsi la connexion plus sécurisée. Dans un contexte professionnel, les VPN permettent aux employés d'accéder à distance au réseau interne de l'entreprise de manière sécurisée. Les données échangées sont chiffrées, rendant leur interception par des tiers beaucoup plus difficile. En plus de sécuriser l'accès à un réseau interne, l'utilisation d'un VPN peut permettre à un utilisateur de faire passer sa connexion internet par le réseau interne de l'entreprise, donnant l'impression que sa connexion provient de l'entreprise. Cela peut être particulièrement utile pour accéder à des services en ligne qui sont géographiquement restreints.
 
 ### Les types de VPN
 
@@ -159,7 +159,7 @@ La sécurité de nos ordinateurs est un enjeu majeur dans le monde numérique ac
 - les mises à jour et antivirus pour une sécurité optimale
 - les bonnes pratiques pour la sécurité de son ordinateur et de ses données.
 
-### Le choix de l'ordinateur et du système opérationnel
+### Le choix de l'ordinateur et du système d'exploitation
 
 Concernant le choix de l'ordinateur, il n'y a pas de différence significative de sécurité entre les anciens et les nouveaux ordinateurs. Cependant, des différences de sécurité existent entre les systèmes d'exploitation : Windows, Linux et Mac.
 
@@ -370,11 +370,11 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 
 ## Mise en place de Back-up
 
-![video](https://youtu.be/vc6-Ouca09g)
+![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Changement de navigateur & VPN
 
-![video](https://youtu.be/wTJnlSUkDRI)
+![video](https://youtu.be/vc6-Ouca09g)
 
 # Allez plus loins
 

@@ -76,7 +76,7 @@ Beim Surfen im Internet ist es wichtig, bestimmte häufige Fehler zu vermeiden, 
 ### Achten Sie auf Software-Downloads:
 
 Es wird empfohlen, Software von der offiziellen Website des Herausgebers herunterzuladen, anstatt von generischen Websites.
-Beispiel: Verwenden Sie www.signal/download und nicht www.logicieltelechargement.fr/signal.
+Beispiel: Verwenden Sie www.signal.org/download und nicht www.logicieltelechargement.fr/signal.
 
 Es wird auch empfohlen, Open-Source-Software zu bevorzugen, da sie oft sicherer ist und frei von bösartiger Software. Eine "Open-Source"-Software ist eine Software, deren Code allen bekannt und für alle zugänglich ist. Man kann also unter anderem überprüfen, ob es keine versteckten Zugriffe gibt, um Ihre persönlichen Daten zu stehlen.
 

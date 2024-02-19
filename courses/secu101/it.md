@@ -81,7 +81,7 @@ Durante la navigazione su internet, è importante evitare alcuni errori comuni p
 ### Attenzione ai download di software:
 
 Si consiglia di scaricare software dal sito ufficiale dell'editore anziché da siti generici.
-Esempio: Utilizzare www.signal/download e non www.logicieltelechargement.fr/signal.
+Esempio: Utilizzare www.signal.org/download e non www.logicieltelechargement.fr/signal.
 
 È anche consigliabile privilegiare i software open source perché spesso sono più sicuri e privi di software dannosi. Un software "open-source", ovvero aperto o libero, è un software il cui codice è noto a tutti e accessibile a tutti. È quindi possibile verificare, tra le altre cose, che non ci siano accessi nascosti per rubare i vostri dati personali.
 

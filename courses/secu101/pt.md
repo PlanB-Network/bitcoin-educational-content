@@ -75,7 +75,7 @@ Ao navegar na internet, é importante evitar alguns erros comuns para preservar 
 ### Cuidado com o download de softwares:
 
 Recomenda-se baixar softwares do site oficial do desenvolvedor em vez de sites genéricos.
-Exemplo: Utilizar www.signal/download e não www.logicieltelechargement.fr/signal.
+Exemplo: Utilizar www.signal.org/download e não www.logicieltelechargement.fr/signal.
 
 Também é aconselhável dar preferência a softwares de código aberto, pois eles geralmente são mais seguros e livres de softwares maliciosos. Um software "open-source" ou aberto é um software cujo código é conhecido e acessível por todos. Portanto, é possível verificar, entre outras coisas, se não há acesso oculto para roubar seus dados pessoais.
 

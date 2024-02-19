@@ -62,7 +62,7 @@ _guide taken from Southerbitcoiner, created by Cole_
 
 ### A collection of video guides covering SeedSigner: an open source, DIY Hardware Wallet/Signing device
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 SeedSigner is a Bitcoin Signing Device you can build from scratch. Sounds difficult, but this 4 part series should help you out :) I suggest you watch part 1 and 2, then decide wether you want to use desktop (watch part 3) or a mobile device (watch part 4).
 

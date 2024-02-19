@@ -3,7 +3,7 @@ name: My Node
 description: Richten Sie Ihre Bitcoin-MyNode ein
 ---
 
-![Bild](assets/0.jpeg)
+![Bild](assets/0.webp)
 
 https://mynodebtc.com/
 
@@ -42,21 +42,21 @@ Eine weitere Option besteht darin, Bitcoin Core und eine Variante des Electrum-S
 
 Navigieren Sie zum MyNode-Website-Link
 
-![Bild](assets/1.jpeg)
+![Bild](assets/1.webp)
 
 Klicken Sie auf <Jetzt herunterladen>
 
 Laden Sie die Version für Raspberry Pi 4 herunter:
 
-![Bild](assets/2.jpeg)
+![Bild](assets/2.webp)
 
 Es ist eine große Datei:
 
-![Bild](assets/3.jpeg)
+![Bild](assets/3.webp)
 
 Laden Sie die SHA 256-Hashes herunter
 
-![Bild](assets/4.jpeg)
+![Bild](assets/4.webp)
 
 Öffnen Sie das Terminal auf Mac oder Linux oder die Eingabeaufforderung für Windows. Geben Sie ein:
 
@@ -73,13 +73,13 @@ Flashen Sie die SD-Karte
 Ich konnte die digitale Signatur dafür nicht finden. Wenn Sie wissen, wie es geht, lassen Sie es mich bitte wissen und ich werde diesen Artikel aktualisieren.
 Etcher ist selbsterklärend in der Verwendung. Legen Sie Ihre Micro-SD-Karte ein und flashen Sie die Raspberry Pi-Software (.img-Datei) auf die SD-Karte.
 
-![image](assets/5.jpeg)
-![image](assets/6.jpeg)
-![image](assets/7.jpeg)
-![image](assets/8.jpeg)
-![image](assets/9.jpeg)
-![image](assets/10.jpeg)
-![image](assets/11.jpeg)
+![image](assets/5.webp)
+![image](assets/6.webp)
+![image](assets/7.webp)
+![image](assets/8.webp)
+![image](assets/9.webp)
+![image](assets/10.webp)
+![image](assets/11.webp)
 
 Sobald dies erledigt ist, ist das Laufwerk nicht mehr lesbar. Sie erhalten möglicherweise einen Fehler vom Betriebssystem und das Laufwerk sollte vom Desktop verschwinden. Ziehen Sie die Karte heraus.
 
@@ -87,20 +87,20 @@ Sobald dies erledigt ist, ist das Laufwerk nicht mehr lesbar. Sie erhalten mögl
 
 Die Teile (Gehäuse nicht gezeigt):
 
-![image](assets/12.jpeg)
-![image](assets/13.jpeg)
+![image](assets/12.webp)
+![image](assets/13.webp)
 
 Schließen Sie das Ethernet-Kabel und den USB-Anschluss der Festplatte an (noch nicht die Stromversorgung). Vermeiden Sie eine Verbindung zu den blau markierten USB-Anschlüssen in der Mitte. Es handelt sich um USB 3. MyNode empfiehlt die Verwendung des USB 2-Anschlusses, obwohl das Laufwerk möglicherweise USB 3-fähig ist.
 
-![image](assets/14.jpeg)
+![image](assets/14.webp)
 
 Die Micro-SD-Karte wird hier eingesetzt:
 
-![image](assets/15.jpeg)
+![image](assets/15.webp)
 
 Schließlich schließen Sie die Stromversorgung an:
 
-![image](assets/16.jpeg)
+![image](assets/16.webp)
 
 ## Finden Sie die IP-Adresse des Pi
 
@@ -128,7 +128,7 @@ Verwenden Sie Ihre eigene IP-Adresse. Der Benutzername für das MyNode-Gerät is
 
 Wenn Sie Ihren Pi zuvor verwendet und die Micro-SD-Karte ausgetauscht haben, erhalten Sie diesen Fehler:
 
-![image](assets/17.jpeg)
+![image](assets/17.webp)
 
 Was Sie tun müssen, ist zu dem Ort zu navigieren, an dem sich die Datei "known_hosts" befindet, und sie zu löschen. Es ist sicher. Die Fehlermeldung zeigt Ihnen den Pfad. Für mich war es /Benutzer/MeinBenutzername/.ssh/'
 Vergiss nicht den "." vor ssh, das zeigt an, dass es sich um ein verstecktes Verzeichnis handelt.
@@ -136,7 +136,7 @@ Versuche dann den ssh-Befehl erneut.
 
 Diesmal siehst du folgende Ausgabe:
 
-![image](assets/18.jpeg)
+![image](assets/18.webp)
 
 Die gelöschte Datei wurde gelöscht und du fügst einen neuen Fingerabdruck hinzu. Gib "yes" ein und drücke die Eingabetaste.
 
@@ -144,7 +144,7 @@ Du wirst aufgefordert, das Passwort einzugeben. Es lautet "bolt".
 
 Du hast jetzt Terminalzugriff auf den MyNode Pi, ohne einen Monitor, und kannst bestätigen, dass alles reibungslos geladen wurde.
 
-![image](assets/19.jpeg)
+![image](assets/19.webp)
 
 ## Zugriff über den Webbrowser
 
@@ -152,37 +152,37 @@ Du hast jetzt Terminalzugriff auf den MyNode Pi, ohne einen Monitor, und kannst 
 
 Gib die IP-Adresse in die Adressleiste des Browsers ein. Folgendes wird passieren:
 
-![image](assets/20.jpeg)
+![image](assets/20.webp)
 
 Gib das Passwort "bolt" ein - ändere es später.
 
 Dann wird Folgendes passieren:
 
-![image](assets/21.jpeg)
+![image](assets/21.webp)
 
 Wähle "Format Drive"
 
-![image](assets/22.jpeg)
+![image](assets/22.webp)
 
 Jetzt warten wir.
 
 Irgendwann wirst du gefragt, ob du deinen Produktkey eingeben möchtest oder die kostenlose "Community Edition" verwenden möchtest - ich werde die Premium Edition zeigen. Ich empfehle, für die Premium-Version zu bezahlen, wenn du es dir leisten kannst, es lohnt sich sehr.
 
-![image](assets/23.jpeg)
+![image](assets/23.webp)
 
 Du siehst dann den Fortschritt des heruntergeladenen Blocks. Es dauert Tage:
 
-![image](assets/24.jpeg)
+![image](assets/24.webp)
 
 Es ist sicher, die Maschine während des Downloads auszuschalten, wenn du es musst. Gehe zu den Einstellungen und finde den Button zum Ausschalten der Maschine. Ziehe nicht einfach das Kabel heraus, du könntest die Installation oder die Festplatte beschädigen.
 
 Stelle sicher, dass du frühzeitig zu "Einstellungen" gehst und QuickSync deaktivierst. Es wird den anfänglichen Blockdownload von vorne beginnen.
 
-![image](assets/25.jpeg)
+![image](assets/25.webp)
 
 Ich wollte mit der Erstellung des Leitfadens fortfahren, also hier ist ein weiterer MyNode, den ich zuvor vorbereitet habe. So sieht die Seite aus, wenn die Blockchain synchronisiert ist und mehrere "Apps" aktiviert und synchronisiert wurden:
 
-![image](assets/26.jpeg)
+![image](assets/26.webp)
 
 Beachte, dass auch der Electrum Server synchronisiert werden muss. Sobald die Bitcoin-Blockchain synchronisiert ist, klicke auf den Button, um den Vorgang zu starten - es dauert einen oder zwei Tage. Alles andere wird innerhalb weniger Minuten aktiviert, sobald du es auswählst. Du kannst Dinge anklicken und erkunden. Du wirst nichts kaputt machen. Wenn etwas kaputt geht (das ist mir passiert, aber ich denke, weil ich billige Teile hatte), musst du erneut flashen und den Download erneut starten. Das Problem, das ich mit MyNode habe, ist, dass wenn du "re-flashen" musst, du die Blockchain-Synchronisierung wieder von vorne beginnen musst. Es gibt technische Möglichkeiten, dies zu umgehen, aber es ist nicht einfach.
 

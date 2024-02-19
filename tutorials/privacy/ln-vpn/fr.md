@@ -35,7 +35,7 @@ Si tu n'as pas encore un portefeuille Bitcoin Lightning, pas de soucis, on a cr�
 
 A partir de https://lnvpn.com, il te faudra sélectionner le pays de l'IP de sortie du tunnel VPN ainsi qu'une durée. Une fois ces paramètres définis, clique sur Pay with lightning.
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 Une facture lightning s'affichera, il te suffira de la scanner avec ton portefeuille lightning.
 
@@ -43,7 +43,7 @@ Une fois la facture payée, il te faudra patienter de quelques secondes à plus 
 
 L'écran suivant s'affichera et il te suffira de cliquer sur "Download as File" pour recevoir ton fichier de config, celui-ci portera un nom qui ressemblera à lnvpn-xx-xx.conf où les "xx" correspondront à la date du jour.
 
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 ## Étape 2 : Activer le tunnel
 

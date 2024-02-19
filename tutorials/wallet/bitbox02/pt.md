@@ -8,7 +8,7 @@ description: Configuração e uso de um BitBox02
 
 O BitBox02 (https://bitbox.swiss/) é uma carteira física fabricada na Suíça, projetada especificamente para proteger seus Bitcoins. Algumas de suas principais características incluem backup e restauração fáceis usando um cartão microSD, design minimalista e discreto e suporte abrangente para Bitcoin.
 
-![device](assets/1.png)
+![device](assets/1.webp)
 
 Ele oferece segurança de ponta projetada por especialistas, apresentando um design de chip duplo que inclui um chip seguro. Seu código-fonte foi totalmente auditado por pesquisadores de segurança e é totalmente de código aberto. O BitBox02 vem com um aplicativo BitBoxApp simples, porém poderoso, que oferece gerenciamento seguro de seus Bitcoins. Ele suporta um nó completo para Bitcoin e garante comunicação criptografada de ponta a ponta entre o aplicativo e o dispositivo. Fabricado na Suíça, o BitBox02 conquistou uma reputação positiva entre seus usuários.
 
@@ -38,17 +38,17 @@ Conecte-o ao seu computador e o dispositivo será ligado (ainda não faça isso)
 
 Ele possui sensores acima e abaixo, e solicitará que você toque na parte superior ou inferior para orientar a tela da maneira desejada.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 ### Baixe o aplicativo BitBox02
 
 Visite https://shiftcrypto.ch/ e clique no link "App" no topo para acessar a página de download:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Clique no botão azul "Download":
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Para verificar o download (isso adiciona complexidade, mas é recomendado, especialmente se você armazena muitos bitcoins), consulte o Apêndice A.
 
@@ -58,41 +58,41 @@ Clique duas vezes no aplicativo para executá-lo (ele não é "instalado").
 
 No Mac, o sistema de segurança do seu computador exibirá um aviso. Basta ignorá-lo e clicar em "Abrir":
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Você verá então isso:
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Conecte o dispositivo ao computador.
 Ele mostrará um código de emparelhamento. Verifique se eles correspondem e, em seguida, toque no sensor para selecionar a marca de seleção. Em seguida, volte para a tela e o botão continuar estará disponível para você.
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Em seguida, você terá a opção de criar uma nova semente ou restaurar uma semente. Vou demonstrar a criação de uma nova semente (também é importante restaurar a semente que você criou para testar a qualidade do seu backup antes de carregar qualquer bitcoin na carteira).
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 O dispositivo veio com um cartão microSD. Insira-o, se ainda não o fez.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Nomeie seu dispositivo e clique em continuar, depois confirme no dispositivo.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Em seguida, você será solicitado a definir uma senha para o dispositivo. Isso não faz parte da sua semente. Também não é uma frase de acesso (isso faz parte da sua semente). É simplesmente uma senha para bloquear o dispositivo. Quando você ligar o dispositivo, será solicitado que você digite essa senha toda vez. Você tem permissão para 10 falhas consecutivas antes que o dispositivo apague toda a memória, então tenha cuidado. A animação na tela irá ensiná-lo a usar os controles do dispositivo para definir a senha.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Leia a próxima tela e marque cada caixa, depois continue.
 
-![image](assets/12.png)
-![image](assets/13.png)
-![image](assets/14.png)
+![image](assets/12.webp)
+![image](assets/13.webp)
+![image](assets/14.webp)
 
 E assim é como a carteira fica pronta para uso.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 ### NÃO TÃO RÁPIDO!!
 
@@ -100,23 +100,23 @@ E assim é como a carteira fica pronta para uso.
 
 Para obter nossa frase de semente e anotá-la, vá para a guia "gerenciar dispositivo" à esquerda e clique em "mostrar palavras de recuperação"
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Você pode então passar pela confirmação e o dispositivo apresentará as palavras. Anote-as com cuidado e nunca deixe ninguém ver as palavras.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Depois disso, você pode clicar na guia Bitcoin à esquerda para obter seus endereços de recebimento.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Ele mostra um de cada vez, mas pelo menos permite que você escolha qual endereço usar dos primeiros 20:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Clicar no botão azul mostrará o endereço completo e você será solicitado a verificar se o endereço corresponde à exibição na tela. Isso é uma boa prática para confirmar que nenhum malware em seu computador está tentando enganá-lo para enviar bitcoin para o endereço de um atacante.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Para enviar bitcoin para esta carteira, você pode copiar o endereço e colá-lo na página de saque da exchange onde estão suas moedas. Eu recomendo que você envie primeiro uma pequena quantidade de teste e depois pratique gastando-a de volta para a exchange ou para o segundo endereço em sua carteira.
 
@@ -126,11 +126,11 @@ Para quantias maiores, sugiro que você crie uma frase de acesso (veja abaixo). 
 
 A BitBox02 irá se conectar automaticamente a um nó. Vamos ver onde ela está se conectando. Clique na guia de configurações à esquerda e depois em "conectar seu próprio nó completo".
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 E aqui podemos ver que está se conectando ao nó da shiftcrypto. Não é ótimo. Traímos todos os nossos endereços de bitcoin para eles e nosso endereço IP (não a semente, é claro; eles podem ver nossos endereços/saldos, mas não podem gastá-los). Podemos inserir os detalhes do nosso próprio nó nesta página (fora do escopo deste guia específico) ou podemos usar um software melhor como Sparrow Bitcoin Wallet, Electrum Desktop Wallet ou Specter Desktop. Demonstrarei o Sparrow Bitcoin Wallet mais tarde no guia.
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Adicione uma frase secreta
 
@@ -140,13 +140,13 @@ Agora que configuramos o dispositivo com o aplicativo BitBox02 (e revelamos noss
 
 Vá em frente agora e "habilite" a função de frase secreta (mas ainda não estamos definindo uma frase secreta). Vá para a guia "gerenciar dispositivo" e clique em "habilitar frase secreta" (círculo vermelho abaixo).
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Leia os passos...
 
-![image](assets/24.png)
-![image](assets/25.png)
-![image](assets/26.png)
+![image](assets/24.webp)
+![image](assets/25.webp)
+![image](assets/26.webp)
 
 Agora desconecte o dispositivo e feche o aplicativo BitBox02.
 

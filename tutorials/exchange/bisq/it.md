@@ -37,7 +37,7 @@ Puoi scaricare e installare Bisq facilmente da questo sito web (https://bisq.net
 
 Se desideri compilare Bisq dal codice sorgente, ecco le istruzioni (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq è un software open-source gratuito/libero a cui puoi contribuire. (https://bisq.wiki/Contributor_checklist)
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 2. Fai il backup delle chiavi, annota il seed
 
@@ -51,7 +51,7 @@ Abbiamo anche preparato un breve tour dell'interfaccia di Bisq in modo da potern
 
 Ulteriori dettagli sono presenti nel wiki: annotare le parole seed e fare il backup della directory dei dati. (https://bisq.wiki/Backing_up_application_data)
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 3. Crea un account di pagamento
 
@@ -91,33 +91,33 @@ Guida passo passo di Bitcoiner.guide, alias bitcoinQ&A https://bitcoiner.guide/b
 
 3. Ora che il tuo metodo di pagamento è impostato, puoi andare alla scheda 'Acquista BTC' e vedere i venditori che offrono bitcoin in cambio del tuo metodo di pagamento scelto. Qui puoi vedere il prezzo del BTC, la differenza percentuale rispetto al prezzo 'spot' e la quantità di bitcoin in vendita da ciascun venditore. Una volta trovata un'offerta che ti piace, fai clic su 'Accetta offerta per acquistare BTC'.
 
-![immagine](assets/3.png)
+![immagine](assets/3.webp)
 
 4. Questo ti porterà a una schermata in cui puoi controllare e confermare i dettagli prima di entrare nello scambio. Quando sei soddisfatto, premi 'passaggio successivo'.
 
-![immagine](assets/4.png)
+![immagine](assets/4.webp)
 
 5. Ora devi finanziare il tuo portafoglio di scambio con una piccola quantità di bitcoin che funge da deposito di sicurezza. Di solito si tratta di circa il 15% della dimensione dello scambio. Anche il venditore deve effettuare un deposito dal suo lato.
 
-![immagine](assets/5.png)
+![immagine](assets/5.webp)
 
 6. Ora puoi confermare l'offerta e avviare lo scambio.
 
-![immagine](assets/6.png)
+![immagine](assets/6.webp)
 
 7. Avrai ora una breve attesa mentre la rete Bitcoin conferma la transazione dello scambio, che mette i depositi di sicurezza di entrambe le parti nell'escrow multi-sig.
 
-![immagine](assets/7.png)
+![immagine](assets/7.webp)
 
 8. Dopo una conferma sulla blockchain, vedrai una finestra con i dettagli del venditore a cui inviare il pagamento.
 
-![immagine](assets/8.png) 9. Una volta inviato il pagamento, premi il pulsante per confermare di averlo fatto e poi attendi che il venditore confermi di aver ricevuto i tuoi fondi. A questo punto puoi anche chattare con il tuo partner di scambio tramite messaggi crittografati end-to-end premendo "Apri chat con il trader". Una volta che il venditore conferma di aver ricevuto i fondi, i bitcoin acquistati insieme al tuo deposito di sicurezza saranno rilasciati nel tuo portafoglio Bisq.
+![immagine](assets/8.webp) 9. Una volta inviato il pagamento, premi il pulsante per confermare di averlo fatto e poi attendi che il venditore confermi di aver ricevuto i tuoi fondi. A questo punto puoi anche chattare con il tuo partner di scambio tramite messaggi crittografati end-to-end premendo "Apri chat con il trader". Una volta che il venditore conferma di aver ricevuto i fondi, i bitcoin acquistati insieme al tuo deposito di sicurezza saranno rilasciati nel tuo portafoglio Bisq.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 10. Ecco fatto, il tuo primo scambio è completo! Ora puoi decidere se prelevare i tuoi bitcoin in un portafoglio esterno o lasciarli nel tuo account Bisq.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 ## I compromessi nell'acquisto di bitcoin senza KYC (da bitcoin Q&A)
 

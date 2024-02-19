@@ -20,7 +20,7 @@ Wenn du die Website besuchen möchtest, klicke hier (https://blockstream.com/gre
 
 > Dieses Handbuch wurde von Bitstack erstellt und gehört ihnen. Bitstack ist eine Bitcoin-Neo-Bank mit Sitz in Paris, die Bitcoin-DCA ermöglicht. Geschrieben von Loic Morel am 15.02.2023. Dies gehört ihnen. https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 Wie installiere ich meine erste Bitcoin Wallet? Green Wallet Tutorial
 
@@ -44,7 +44,7 @@ Beim Start der App gelangen Sie zum Startbildschirm. Im Moment haben Sie noch ke
 
 Der erste Schritt, bevor Sie Ihre Wallet erstellen, besteht darin, die App-Einstellungen zu öffnen und diejenigen auszuwählen, die am besten zu Ihnen passen.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 - « Enhanced Privacy » ermöglicht es Ihnen, die Möglichkeit zum Erstellen von Bildschirmfotos in der Anwendung zu deaktivieren. Diese Option verbirgt auch Vorschauen und sichert automatisch die Anwendung, wenn Sie Ihr Telefon sperren. Sie ist nur auf Android verfügbar.
 - Sie können dann wählen, Ihren Datenverkehr über Tor zu leiten, um alle Ihre Verbindungen zu verschlüsseln. Dies verlangsamt den Betrieb Ihrer Anwendung leicht, aber ich empfehle Ihnen, es zu aktivieren, um Ihre Privatsphäre zu schützen.
@@ -67,7 +67,7 @@ Der nächste Schritt besteht darin, Ihre Bitcoin-Brieftasche zu erstellen. Klick
 > - Neue Brieftasche;
 > - Bitcoin.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Die Option "Brieftasche wiederherstellen" ermöglicht es Ihnen, den Zugriff auf eine bereits vorhandene Brieftasche mithilfe ihrer mnemonischen Phrase wiederherzustellen. Die Option "Nur-Ansicht-Brieftasche" ermöglicht es Ihnen, einen erweiterten öffentlichen Schlüssel (xpub) zu importieren, um die Bewegungen einer Brieftasche zu sehen, ohne ihre Mittel ausgeben zu können.
 
@@ -82,7 +82,7 @@ Sie können dann wählen, ob Sie eine 12-Wort- oder 24-Wort-Mnemonic-Phrase habe
 
 Eine 24-Wort-Phrase ist sicherer gegen Brute-Force-Angriffe als eine 12-Wort-Phrase. Dennoch ist eine 12-Wort-Phrase derzeit ausreichend sicher. Konkret bedeutet dies, dass Sie mit einer 12-Wort-Phrase knapp über dem vom NIST empfohlenen Mindestlimit liegen. Das bedeutet, dass Ihre Phrase heute sicher ist, aber möglicherweise in Zukunft aufgrund der Entwicklung der Informatik nicht mehr sicher sein wird (es sei denn, Sie verwenden zusätzlich eine BIP39-Passphrase). Standardmäßig empfehle ich Ihnen, eine 24-Wort-Phrase zu wählen, aber es liegt an Ihnen, Ihre eigene Wahl zu treffen.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Die Software wird Ihnen dann Ihre Wiederherstellungsphrase zur Verfügung stellen. Sie müssen sie ordnungsgemäß sichern, indem Sie sie auf einem geeigneten physischen Medium notieren. Es wird dringend davon abgeraten, diese Phrase auf einem beliebigen digitalen Medium, auch verschlüsselt, aufzubewahren. Sie sollten sie auf Papier oder Metall notieren, abhängig vom Wert, der gespeichert ist.
 
@@ -92,10 +92,10 @@ Die Wörter dieser Phrase müssen unbedingt zusammen notiert werden. Teilen Sie 
 
 Um mehr über Methoden zur Sicherung der Wiederherstellungsphrase zu erfahren, empfehle ich Ihnen dringend, meinen Artikel zu diesem Thema zu lesen.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Green Wallet bittet Sie dann, bestimmte Wörter Ihrer Phrase zu bestätigen, um sicherzustellen, dass Sie sie korrekt notiert haben.
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Sie können dann einen Namen für Ihre Brieftasche wählen, um sie von anderen zu unterscheiden, falls Sie später mehrere erstellen. Zu diesem Zeitpunkt spielt der Name keine große Rolle, da wir diese Brieftasche löschen werden, um die Gültigkeit des mnemonischen Satzes im nächsten Schritt zu überprüfen.
 
@@ -107,11 +107,11 @@ Sie können später eine biometrische Sperrfunktion hinzufügen, um die Eingabe 
 
 Sie müssen die gewählte PIN ein zweites Mal in der Green-App eingeben, um sie zu bestätigen.
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Herzlichen Glückwunsch! Sie haben die Erstellung Ihrer Bitcoin-Brieftasche abgeschlossen.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Wenn Sie Ihrem Bitcoin-Wallet eine BIP39-Passphrase hinzufügen möchten, müssen Sie auf die drei Punkte oben rechts auf dem Bildschirm klicken, wenn Sie Ihre PIN eingeben, um das Wallet zu entsperren. Achtung, ich rate Ihnen dringend davon ab, eine Passphrase zu verwenden, wenn Sie die zugrunde liegenden Ableitungsmechanismen nicht verstehen. Sie könnten den Zugriff auf Ihre Bitcoins verlieren.
 
@@ -125,23 +125,23 @@ Um dies zu tun, müssen Sie vor dem Löschen Ihrer Brieftasche eine Referenzinfo
 Um auf diese Informationen zuzugreifen, klicken Sie auf die Schaltfläche "Empfangen". Die Brieftasche zeigt Ihnen eine Adresse an. Notieren Sie sich die letzten 8 Zeichen auf einem anderen Stück Papier. Dies entspricht der Prüfsumme der Adresse.
 Zum Beispiel wären die zu notierenden 8 Zeichen in meiner Brieftasche: JTbP4482.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Sobald Sie diese Informationen notiert haben, können Sie Ihre Brieftasche löschen. Klicken Sie auf dem Brieftaschen-Startbildschirm auf das Einstellungssymbol und dann auf "Abmelden".
 
 > "Ich möchte noch einmal betonen, dass dieser Vorgang mit einer leeren Brieftasche durchgeführt werden muss, bevor Sie Bitcoins darauf überweisen. Andernfalls besteht die Gefahr, dass Sie sie verlieren."
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Sie werden dann zum Bildschirm zur Entsperrung Ihrer Brieftasche weitergeleitet. Klicken Sie oben rechts auf die drei Punkte und dann auf "Brieftasche löschen" und bestätigen Sie dies.
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Sie befinden sich nun auf dem Startbildschirm der Green Wallet-Anwendung und es ist keine Brieftasche mehr verfügbar. Sie befinden sich also in der gleichen Situation, als hätten Sie Ihr Telefon verloren oder beschädigt und versuchen, Ihre Brieftasche nur anhand der mnemonischen Phrase wiederherzustellen.
 
 Klicken Sie nun auf "Brieftasche hinzufügen", dann auf "Brieftasche wiederherstellen" und schließlich auf "Bitcoin".
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Die Software fragt uns dann, ob wir die Wiederherstellung über einen QR-Code oder über eine mnemonische Phrase durchführen möchten. In unserem Fall handelt es sich um eine Phrase.
 
@@ -151,24 +151,24 @@ Wenn alle Wörter eingegeben sind und die Software einen Fehler anzeigt, bedeute
 
 Andernfalls können Sie auf "Weiter" klicken.
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 Die Software zeigt Ihnen "Brieftasche nicht gefunden" an. Dies ist völlig normal, da wir bisher noch keine Bitcoins darauf überwiesen haben. Daher kann keine Transaktion in der Blockchain mit dieser Brieftasche verknüpft werden.
 
 Klicken Sie unten auf dem Bildschirm auf "Manuelle Wiederherstellung" und dann auf "Einzelne Signatur".
 
-![image](assets/28.png)
+![image](assets/28.webp)
 
 Schließlich werden Sie erneut aufgefordert, dieser Brieftasche einen Namen zu geben und eine PIN zuzuweisen. Sie können ihr denselben Namen und dieselbe PIN wie der ursprünglichen Brieftasche geben.
 Zur Erinnerung, diese PIN dient nur dazu, die Brieftasche in dieser Anwendung und auf diesem spezifischen Telefon zu entsperren. Im Gegensatz zum Wiederherstellungssatz ermöglicht er nicht die Wiederherstellung Ihrer Brieftasche in einer anderen Software oder Hardware.
 
-![image](assets/30.png)
+![image](assets/30.webp)
 
 Nachdem die PIN bestätigt wurde, gelangen Sie erneut zur Startseite Ihrer Brieftasche. Es ist Zeit zu überprüfen, ob Ihr Wiederherstellungssatz ordnungsgemäß funktioniert, indem Sie die erste abgeleitete Adresse überprüfen. Klicken Sie erneut auf "Empfangen", um zur ersten Adresse zu gelangen.
 
 Wenn die letzten 8 Zeichen genau mit denen übereinstimmen, die Sie als Referenz auf Ihrem Papier notiert haben, bevor Sie die Brieftasche gelöscht haben, dann ist Ihr Satz gültig. In meinem Fall kann man sehen, dass die Prüfsumme meiner ersten Adresse genau dem zuvor notierten Wert entspricht: JTbP4482.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 Ich weiß, dass diese Überprüfungsmethode mühsam ist, aber sie ist absolut notwendig, um die Sicherheit Ihrer Bitcoin-Brieftasche zu gewährleisten. Ich empfehle Ihnen dringend, diese Gewohnheit zu entwickeln, wenn Sie eine Brieftasche erstellen, egal ob auf einer Software oder Hardware.
 
@@ -186,13 +186,13 @@ Um gut zu starten, empfehle ich Ihnen, die Einstellungen Ihrer Brieftasche anzup
 
 - Die Option "Biometrische Verbindung" ermöglicht es Ihnen, Ihre Brieftasche mit Ihrem Fingerabdruck anstelle der PIN zu entsperren. Im Allgemeinen rate ich Ihnen davon ab, diese Option zu aktivieren. Biometrie ist viel weniger sicher als der PIN-Code.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 
 Standardmäßig weist Ihnen Green Wallet ein BIP49-Konto "Nested SegWit" mit P2SH-Adressen (Pay to Script Hash) zu. Vor einigen Jahren war die Verwendung dieses Kontotyps sinnvoll, da noch nicht jeder native SegWit-Adressen unterstützte. Heutzutage unterstützt die große Mehrheit der mit Bitcoin verbundenen Dienste SegWit, daher gibt es keinen Grund mehr, ein "Nested SegWit" Konto zu verwenden.
 
 Wir werden dann ein neues BIP84-Konto "Native SegWit" erstellen, um von all seinen Vorteilen zu profitieren und auch P2WPKH-Adressen (Pay to Witness Public Key Hash) zu haben. Klicken Sie dazu auf Ihr "Legacy SegWit-Konto", dann auf "Neues Konto hinzufügen" und schließlich auf "SegWit-Konto". Sie können diesem Konto einen Namen geben, wenn Sie möchten.
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 Wenn Sie später neue Konten in dieser Brieftasche erstellen müssen, empfehle ich Ihnen, standardmäßig SegWit V0 BIP84-Konten oder SegWit V1 BIP86-Konten (wenn sie verfügbar sind) zu wählen.
 
@@ -200,7 +200,7 @@ Auf der Startseite Ihrer Brieftasche können Sie Ihre verschiedenen Konten sehen
 
 Die Funktionsweise der Green Wallet-App ist sehr einfach. Um Bitcoins in Ihre Brieftasche zu empfangen, klicken Sie auf die Schaltfläche "Empfangen". Die Brieftasche zeigt Ihnen eine Empfangsadresse an. Eine Adresse ermöglicht den Empfang von Bitcoins in Ihrer Brieftasche. Sie können sie entweder als Text kopieren und an Ihren Zahlenden senden oder den QR-Code mit einer anderen Bitcoin-Brieftasche scannen, um die Adresse zu bezahlen.
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 Diese Art von Adresse gibt dem Zahlenden nicht den Betrag an, den er Ihnen senden muss. Sie können auch eine Adresse erstellen, die automatisch einen vom Zahlenden gewählten Betrag anfordert. Klicken Sie dazu auf "Weitere Optionen" und geben Sie den gewünschten Betrag ein.
 
@@ -212,11 +212,11 @@ Eine Empfangsadresse sollte nicht mehrmals verwendet werden. Dies ist eine schle
 
 Auf den untenstehenden Screenshots können Sie sehen, dass ich 0,02 BTC an meine Adresse gesendet habe. Die Transaktion erscheint in Green zuerst als "unbestätigt", während sie darauf wartet, von einem Miner in die Blockchain aufgenommen zu werden. Sobald die Transaktion mehrere Bestätigungen erhalten hat, haben Sie Ihre Bitcoins erfolgreich in Ihrer eigenen Brieftasche erhalten.
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 Wenn Sie Bitcoins senden möchten, müssen Sie die Empfangsadresse abrufen, an die Sie die Mittel senden möchten, und auf die Schaltfläche "Senden" klicken. Auf der nächsten Seite müssen Sie die Zieladresse eingeben. Sie können sie entweder manuell eingeben oder einen QR-Code scannen, indem Sie auf das entsprechende Symbol klicken. Wählen Sie dann den Transaktionsbetrag aus. Sie können entweder einen Betrag in Bitcoins oder einen Betrag in US-Dollar angeben, indem Sie auf den weißen Doppelpfeil klicken.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 In der Mitte des Bildschirms können Sie den Transaktionsgebührensatz für diese Transaktion auswählen. Sie können entweder den Empfehlungen der Anwendung folgen oder Ihre Gebühren anpassen. Je höher die Gebühren im Vergleich zu anderen ausstehenden Bestätigungstransaktionen sind, desto schneller wird Ihre Transaktion aufgenommen, und umgekehrt.
 
@@ -224,7 +224,7 @@ Klicken Sie dann auf "Weiter". Sie gelangen zu einem Bildschirm, auf dem Ihnen d
 
 Um die Transaktion zu signieren und im Bitcoin-Netzwerk zu verbreiten, ziehen Sie den grünen Schieberegler am unteren Bildschirmrand nach rechts.
 
-![image](assets/46.png)
+![image](assets/46.webp)
 
 Ihre Transaktion wird nun in Ihrem Bitcoin-Brieftaschen-Dashboard angezeigt.
 

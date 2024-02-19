@@ -17,7 +17,7 @@ Especificaciones clave
 - Batería de iones de litio de 1200 mAh extraíble por el usuario en formato Nokia BL-5C (incluida con la compra).
 - Funciones de seguridad: aislamiento de aire, entrada fácil de frase de contraseña, luces de seguridad, palabras anti-phishing, validación de seguridad.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # Video tutorial
 

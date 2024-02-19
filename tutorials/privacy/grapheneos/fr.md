@@ -72,7 +72,7 @@ Tout ce dont vous avez besoin est :
 9. Enfin, passez à l'étape suivante de l'installateur web et cliquez sur **"Verrouiller le bootloader"**. Vous devrez changer la sélection et confirmer avec le bouton d'alimentation de la même manière que vous l'avez fait précédemment dans le processus.
 10. Lorsque vous voyez le mot `Démarrer`, confirmez cela avec le bouton d'alimentation et l'appareil démarrera sur votre nouveau système d'exploitation sans Google.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Écran de démarrage de GrapheneOS
 
@@ -90,7 +90,7 @@ Si ces étapes simples vous semblent trop compliquées, vous pouvez envisager d'
 
 Maintenant que vous êtes prêt, vous remarquerez peut-être à quel point GrapheneOS est dépouillé lors de la première installation. Par défaut, vous aurez ces applications installées :
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Applications par défaut
 Les seuls termes avec lesquels vous pourriez ne pas être familiers sont "Auditor" et "Vanadium".
@@ -120,7 +120,7 @@ Accédez à **Paramètres** > **Batterie**, puis activez **Afficher le pourcenta
 **Depuis iOS** - Utilisez une application comme Export Contact et utilisez l'option d'exportation 'vCard' pour exporter un fichier VCF.
 Une fois que vous avez le fichier VCF, vous pouvez le transférer sur votre appareil GrapheneOS avec une option de stockage externe comme une carte microSD ou une clé USB. Si vous n'en avez pas sous la main, vous pouvez choisir de le partager via l'une des nombreuses applications répertoriées ci-dessous.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Écran d'accueil personnalisé
 
@@ -139,7 +139,7 @@ Pour installer F-Droid, il suffit de se rendre sur leur site web via un navigate
 
 En plus des applications disponibles dans le référentiel par défaut de F-Droid, de nombreux projets open source hébergent également leur propre référentiel qui peut être ajouté dans les paramètres de l'application F-Droid. Si tel est le cas, le projet en question vous guidera à travers les étapes très simples nécessaires pour y parvenir sur leur site web.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Écran d'accueil de F-Droid
 
@@ -156,7 +156,7 @@ Aurora présente également quelques vecteurs d'attaque potentiels, car les "com
 **Top conseil** - Parfois, Aurora Store sera soumis à des limites de taux qui limitent votre capacité à rechercher et installer des applications. Pour contourner cela, allez dans **Paramètres** > **Applications** > **Aurora** > **Ouvrir par défaut**, puis ajoutez le domaine `play.google.com`. Maintenant, chaque fois que vous accédez au site web d'un produit ou d'un service qui a le lien 'Télécharger via Play Store', en le touchant, l'application s'ouvrira dans Aurora pour que vous puissiez la télécharger.
 
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Écran d'accueil d'Aurora Store
 
@@ -166,7 +166,7 @@ Les applications sur Android peuvent également être téléchargées et install
 
 L'inconvénient de cette approche est que vous ne bénéficiez pas de mises à jour automatiques, vous devrez donc surveiller les canaux de communication de ce service pour connaître les nouvelles versions. Cependant, il existe un excellent projet appelé Obtanium qui vise à résoudre ce problème. [Obtainium](https://github.com/ImranR98/Obtainium) vous permet d'installer et de mettre à jour des applications open-source directement depuis leurs pages de versions, et de recevoir des notifications lorsque de nouvelles versions sont disponibles.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Aperçu d'Obtanium
 
@@ -178,7 +178,7 @@ Pour réaliser cela dans Vanadium, le navigateur natif de GrapheneOS, il vous su
 
 Le seul inconvénient de cette approche est que, parce qu'il s'agit simplement d'une page web mise en favori, vous ne recevrez aucune forme de notifications. Cependant, certains pourraient voir cela comme un avantage !
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 PWA Twitter
 
@@ -208,7 +208,7 @@ La plupart des personnes qui ne s'intéressent pas à la vie privée utilisent p
 - [Threema](https://threema.ch/en/faq/libre_installation) offre une expérience similaire à Simplex, mais existe depuis plus longtemps et, par conséquent, semble un peu plus abouti. Threema n'est pas gratuit, une licence à vie coûte 4,99 $ et peut être achetée avec Bitcoin. Threema propose un client web et des applications de bureau natives. L'application Android est disponible via F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) est un fork FOSS non officiel de l'application Telegram officielle pour Android. Telegram dispose de "chats secrets" E2EE, mais l'option par défaut n'est pas privée. Telegram FOSS peut être téléchargé depuis F-Droid.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 Gauche : Threema
 Droite : Simplex
 
@@ -219,7 +219,7 @@ Droite : Simplex
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) offre une expérience YouTube sans publicités ennuyeuses et sans autorisations douteuses. Avec NewPipe, vous pouvez vous abonner à des chaînes, écouter en arrière-plan et même télécharger pour une visualisation hors ligne. NewPipe est accessible via F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) est un lecteur de podcast qui vous permet de vous abonner et de gérer tous vos émissions préférées. AntennaPod est disponible via F-Droid.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Gauche : Spotube
 Droite : ViMusic
@@ -232,7 +232,7 @@ Si vous souhaitez bénéficier d'une assistance vocale lors de la conduite et de
 - [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) est une alternative aux cartes pour les voyageurs, les touristes, les randonneurs et les cyclistes, basée sur les données OpenStreetMap contribuées par la communauté. Il s'agit d'une application axée sur la confidentialité, open-source et dérivée de l'application Maps.me (anciennement connue sous le nom de MapsWithMe). Elle prend en charge 100% des fonctionnalités sans connexion Internet active et peut être téléchargée depuis F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) est une autre excellente alternative aux cartes qui prend en charge toutes les fonctionnalités mentionnées ci-dessus.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 Gauche : Magic Earth
 Droite : Organic Maps
@@ -243,7 +243,7 @@ Droite : Organic Maps
 - [Tutanota](https://tutanota.com/) propose les mêmes fonctionnalités que Proton Mail, y compris des services payants optionnels, et peut être téléchargé sous forme d'APK direct ou via F-Droid.
 - [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) est un client de messagerie open source qui fonctionne avec pratiquement tous les fournisseurs de messagerie. Il prend en charge plusieurs comptes, une boîte de réception unifiée et la norme de chiffrement OpenPGP.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Gauche : Proton Mail
 Droite : Tutanota
@@ -257,7 +257,7 @@ Droite : Tutanota
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) est une application de clavier qui vous permet de personnaliser à peu près tout ce que vous pouvez imaginer en ce qui concerne votre expérience de saisie sur téléphone. Il peut être téléchargé via F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) est l'application de clavier Google par défaut. D'après mon expérience, il offre de loin la meilleure expérience de saisie et de balayage. Si vous téléchargez cette application, assurez-vous de désactiver complètement toutes les autorisations liées au réseau. Elle peut être téléchargée via Aurora.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Gauche : Notesnook
 Droite : KDE Connect
@@ -269,7 +269,7 @@ Droite : KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) est un calendrier simple à utiliser et E2EE qui interagit parfaitement avec vos comptes de messagerie Proton. Proton Calendar peut être téléchargé sous forme d'APK ou via le magasin Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) est une application permettant d'afficher et de stocker des cartes d'embarquement, des coupons, des billets de cinéma et des cartes de membre, etc. Il vous suffit de télécharger le fichier `pkpass` ou `espass` correspondant et de l'ouvrir avec l'application. PassAndroid est disponible via F-Droid.
 
-![image](assets/19.png)
+![image](assets/19.webp)
 Gauche : Geometric Weather
 Droite : Proton Calendar
 
@@ -281,7 +281,7 @@ Droite : Proton Calendar
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) est une application gratuite, sécurisée et open source pour Android qui permet de gérer vos jetons de vérification en deux étapes pour vos services en ligne. Aegis est disponible via F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) est un service payant multiplateforme qui chiffre vos données localement afin que vous puissiez les télécharger en toute sécurité sur votre service cloud préféré. Cryptomator peut être téléchargé via F-Droid.
 
-![image](assets/21.png)
+![image](assets/21.webp)
 À gauche : Proton Pass
 À droite : Bitwarden
 
@@ -292,7 +292,7 @@ Droite : Proton Calendar
 - [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) offre une solution cloud complète pour la collaboration, la synchronisation entre appareils et le stockage de fichiers. Les utilisateurs plus avancés peuvent choisir d'héberger eux-mêmes leur logiciel libre et open source sur n'importe quel matériel de leur choix. Les clients Android peuvent être téléchargés via F-Droid.
 - [Cryptpad](https://cryptpad.fr/) propose une alternative gratuite et basée sur le web à Google Docs avec chiffrement de bout en bout.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Proton Drive
 
@@ -316,7 +316,7 @@ Avant de vous précipiter pour les installer dès le premier jour, je vous encou
 
 Si vous souhaitez les installer, il vous suffit de toucher l'application préinstallée "Applications", puis "Services Google Play". Pensez à les installer aux côtés de ces applications moins privées dont vous ne pouvez pas vous passer, dans un profil utilisateur complètement séparé pour fournir une couche supplémentaire de ségrégation par rapport au reste de votre téléphone.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Écran d'installation des services Play
 
@@ -329,7 +329,7 @@ Vous pouvez en savoir plus sur ce cas d'utilisation [ici](https://discuss.graphe
 
 Si vous décidez d'ajouter un profil séparé pour répondre à votre cas d'utilisation, l'application [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) pourrait vous être utile. Insular vous permet de cloner facilement l'une de vos applications existantes vers le nouveau profil sans passer par les méthodes d'installation traditionnelles mentionnées précédemment dans ce guide. Insular vous permet également de "geler" rapidement l'une de ces applications pour désactiver complètement tous les services en arrière-plan de cette application.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Écran de gestion des profils utilisateur
 
@@ -352,7 +352,7 @@ Pour créer votre première sauvegarde :
 3. Choisissez les données à sauvegarder. Si vous avez de l'espace sur votre support de stockage spécifié, je vous conseille de tout sélectionner.
 4. Appuyez sur les trois points en haut à droite, puis choisissez **Sauvegarder maintenant**.
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 Écran de sauvegarde
 

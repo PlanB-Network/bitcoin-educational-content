@@ -8,7 +8,7 @@ description: Configuration et utilisation d'un BitBox02
 
 Le BitBox02 (https://bitbox.swiss/) est un portefeuille physique fabriqué en Suisse spécialement conçu pour sécuriser vos Bitcoins. Parmi ses principales caractéristiques, on retrouve une sauvegarde et une restauration faciles à l'aide d'une carte microSD, un design minimaliste et discret, ainsi qu'une prise en charge complète de Bitcoin.
 
-![device](assets/1.png)
+![device](assets/1.webp)
 
 Il offre une sécurité de pointe conçue par des experts, avec une conception à double puce comprenant une puce sécurisée. Son code source a été entièrement audité par des chercheurs en sécurité et est entièrement open-source. Le BitBox02 est livré avec une application BitBoxApp simple mais puissante, qui assure une gestion sécurisée de vos Bitcoins. Il prend en charge un nœud complet pour Bitcoin et garantit une communication chiffrée de bout en bout entre l'application et l'appareil. Fabriqué en Suisse, le BitBox02 a acquis une réputation positive auprès de ses utilisateurs.
 
@@ -38,17 +38,17 @@ Connectez-le à votre ordinateur et l'appareil s'allumera (ne le faites pas enco
 
 Il dispose de capteurs au-dessus et en dessous, et il vous demandera de toucher le haut ou le bas pour orienter l'écran comme vous le souhaitez.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 ### Téléchargez l'application BitBox02
 
 Rendez-vous sur https://shiftcrypto.ch/ et cliquez sur le lien "App" en haut pour accéder à la page de téléchargement :
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Cliquez sur le bouton bleu "Télécharger" :
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Pour vérifier le téléchargement (cela ajoute de la complexité, mais c'est recommandé, surtout si vous stockez beaucoup de bitcoins), voir l'Annexe A.
 
@@ -58,41 +58,41 @@ Double-cliquez sur l'application pour la lancer (elle ne s'installe pas).
 
 Sur Mac, votre ordinateur vous donnera un avertissement. Ignorez-le simplement et cliquez sur "Ouvrir" :
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Vous verrez ensuite ceci :
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Connectez maintenant l'appareil à l'ordinateur.
 Il vous montrera un code d'appariement. Vérifiez qu'ils correspondent, puis touchez le capteur pour sélectionner la coche. Ensuite, revenez à l'écran, le bouton "Continuer" sera disponible pour vous.
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Vous aurez ensuite la possibilité de créer une nouvelle graine ou de restaurer une graine. Je vais vous montrer comment créer une nouvelle graine (Il est également important de restaurer la graine que vous avez créée pour tester la qualité de votre sauvegarde, avant de charger des bitcoins sur le portefeuille).
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 L'appareil est livré avec une carte microSD. Insérez-la si vous ne l'avez pas déjà fait.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Nommez votre appareil et cliquez sur "Continuer", puis confirmez sur l'appareil.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Vous serez ensuite invité à définir un mot de passe pour l'appareil. Ce n'est pas une partie de votre graine. Ce n'est pas non plus une phrase secrète (c'est une partie de votre graine). Il s'agit simplement d'un mot de passe pour verrouiller l'appareil. Lorsque vous allumez l'appareil, on vous demandera d'entrer ce mot de passe à chaque fois. Vous avez droit à 10 échecs consécutifs avant que l'appareil ne s'efface de toute sa mémoire, alors faites attention. L'animation à l'écran vous apprendra comment utiliser les commandes de l'appareil pour définir le mot de passe.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Lisez l'écran suivant, cochez chaque case, puis continuez.
 
-![image](assets/12.png)
-![image](assets/13.png)
-![image](assets/14.png)
+![image](assets/12.webp)
+![image](assets/13.webp)
+![image](assets/14.webp)
 
 Et voici à quoi ressemble le portefeuille une fois qu'il est prêt à être utilisé.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 ### PAS SI VITE !!
 
@@ -100,23 +100,23 @@ C'est assez étrange, mais le BitBox02 nous dit que nous sommes prêts à utilis
 
 Pour obtenir notre phrase de la graine et l'écrire, allez dans l'onglet "Gérer l'appareil" à gauche, puis cliquez sur "Afficher les mots de récupération".
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Vous pouvez ensuite passer par la confirmation, et l'appareil vous présentera les mots. Écrivez-les soigneusement et ne laissez jamais personne les voir.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Après cela, vous pouvez cliquer sur l'onglet Bitcoin à gauche pour obtenir vos adresses de réception.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Il en affiche une à la fois, mais au moins il vous permet de choisir quelle adresse utiliser parmi les 20 premières :
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 En cliquant sur le bouton bleu, l'adresse complète s'affiche, et vous serez invité à vérifier que l'adresse correspond à l'affichage à l'écran. C'est une bonne pratique pour confirmer qu'aucun logiciel malveillant sur votre ordinateur ne vous trompe en vous incitant à envoyer des bitcoins à une adresse d'attaquant.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Pour envoyer des bitcoins vers ce portefeuille, vous pouvez copier l'adresse et la coller dans la page de retrait de l'échange où se trouvent vos pièces. Je vous recommande d'envoyer d'abord une petite quantité de test, puis de pratiquer les dépenses, soit en les renvoyant à l'échange, soit à la deuxième adresse de votre portefeuille.
 
@@ -126,11 +126,11 @@ Pour des montants plus importants, je vous suggère de créer une phrase secrèt
 
 Le BitBox02 se connectera automatiquement à un nœud. Voyons où il se connecte. Cliquez sur l'onglet "Paramètres" à gauche, puis sur "connectez votre propre nœud complet".
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Et ici, nous pouvons voir qu'il se connecte au nœud de shiftcrypto. Pas génial. Nous avons trahi toutes nos adresses bitcoin en les leur donnant, ainsi que notre adresse IP (pas la graine bien sûr ; ils peuvent voir nos adresses/soldes, mais ne peuvent pas les dépenser). Nous pouvons entrer les détails de notre propre nœud sur cette page (au-delà de la portée de ce guide particulier), ou nous pouvons utiliser un meilleur logiciel comme Sparrow Bitcoin Wallet, Electrum Desktop Wallet ou Specter Desktop. Je vais vous montrer plus tard dans le guide comment utiliser Sparrow Bitcoin Wallet.
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Ajoutez une phrase secrète
 
@@ -140,13 +140,13 @@ Maintenant que nous avons configuré l'appareil avec l'application BitBox02 (et 
 
 Allez-y maintenant et "activez" la fonction de phrase secrète (mais nous ne définissons pas encore de phrase secrète). Allez dans l'onglet "Gérer l'appareil" et cliquez sur "Activer la phrase secrète" (cercle rouge ci-dessous).
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Lisez les étapes...
 
-![image](assets/24.png)
-![image](assets/25.png)
-![image](assets/26.png)
+![image](assets/24.webp)
+![image](assets/25.webp)
+![image](assets/26.webp)
 
 Déconnectez maintenant l'appareil et fermez l'application BitBox02.
 

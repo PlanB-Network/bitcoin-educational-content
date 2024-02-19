@@ -62,7 +62,7 @@ _Anleitung von Southerbitcoiner, erstellt von Cole_
 
 ### Eine Sammlung von Video-Anleitungen zu SeedSigner: einer Open-Source, DIY-Hardware-Wallet/Signing-Gerät
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 SeedSigner ist ein Bitcoin-Signiergerät, das Sie von Grund auf aufbauen können. Klingt schwierig, aber diese 4-teilige Serie sollte Ihnen helfen :) Ich empfehle Ihnen, Teil 1 und 2 anzusehen und dann zu entscheiden, ob Sie den Desktop (Teil 3) oder ein mobiles Gerät (Teil 4) verwenden möchten.
 

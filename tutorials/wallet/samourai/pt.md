@@ -26,19 +26,19 @@ Para explicações sobre cada uma dessas ferramentas, você pode consultar a se�
 
 Nossa nova tela de boas-vindas mostra uma prévia dos recursos de nossa carteira. Quando você tiver lido isso, toque em 'Começar'.
 
-![imagem](assets/1.png)
+![imagem](assets/1.webp)
 
 Permissões
 
 Conceda as permissões necessárias para que a carteira possa criar automaticamente um backup criptografado da sua carteira.
 
-![imagem](assets/2.png)
+![imagem](assets/2.webp)
 
 Tor
 
 A maioria dos usuários deve habilitar o Tor para privacidade em nível de rede. Em seguida, toque em Criar uma Nova Carteira.
 
-![imagem](assets/3.png)
+![imagem](assets/3.webp)
 
 Criando uma frase de segurança
 
@@ -49,7 +49,7 @@ Sua frase de segurança é um componente necessário ao restaurar por mnemônico
 > Não temos conhecimento de sua frase de segurança, se você esquecer sua frase de segurança, não poderemos ajudá-lo a redefini-la.
 > Não esqueça sua frase de segurança!
 
-![imagem](assets/4.png)
+![imagem](assets/4.webp)
 
 Criar um Código PIN
 
@@ -57,7 +57,7 @@ Agora você será solicitado a criar e confirmar um código PIN entre 5 e 8 díg
 
 Se você esquecer seu código PIN, sempre poderá acessar sua carteira com sua frase de segurança.
 
-![imagem](assets/5.png)
+![imagem](assets/5.webp)
 
 Criar um Backup em Papel
 
@@ -76,7 +76,7 @@ Um PayNym é um tipo de endereço oculto que é diferente dos endereços normais
 Após a criação bem-sucedida da sua carteira, você será solicitado a reivindicar um PayNym Bot. Esta é uma representação visual do hash SHA-256 do endereço PayNym da sua carteira.
 Uma vez reivindicado, você receberá um nome de Bot exclusivo que será enviado para o diretório público de bots PayNym, que pode ser encontrado em https://paynym.is
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 ## como usar
 

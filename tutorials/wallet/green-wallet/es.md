@@ -20,7 +20,7 @@ Si deseas visitar su sitio, haz clic aquí (https://blockstream.com/green/)!
 
 > Esta guía fue producida y pertenece a Bitstack. Bitstack es un banco de bitcoins neo con sede en París que permite DCA en bitcoin. Guía escrita por Loic Morel el 15/02/2023. Esto les pertenece. https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet
 
-![imagen](assets/0.png)
+![imagen](assets/0.webp)
 
 ¿Cómo instalar tu primera billetera de Bitcoin? Tutorial de Green Wallet
 
@@ -44,7 +44,7 @@ Al iniciar la aplicación, llegarás a la pantalla de inicio. Por ahora, no tien
 
 La primera acción que debes realizar antes de crear tu billetera es abrir los ajustes de la aplicación para elegir los que mejor se adapten a ti.
 
-![imagen](assets/1.png)
+![imagen](assets/1.webp)
 
 - "Enhanced Privacy" te permite desactivar la posibilidad de tomar capturas de pantalla en la aplicación. Esta opción también ocultará las vistas previas y asegurará automáticamente la aplicación cuando bloquees tu teléfono. Solo está disponible en Android;
 - Luego puedes elegir enrutar tu tráfico a través de Tor para que todas tus conexiones estén cifradas. Esto ralentiza ligeramente el funcionamiento de tu aplicación, pero te recomiendo que lo actives para preservar tu privacidad;
@@ -67,7 +67,7 @@ El siguiente paso es crear tu billetera Bitcoin. Para hacerlo, haz clic en:
 > - Nueva billetera;
 > - Bitcoin.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 La opción "Restaurar una billetera" te permite recuperar el acceso a una billetera existente utilizando su frase mnemotécnica. La opción "Billetera de solo lectura" te permite importar una clave pública extendida (xpub) para ver los movimientos de una billetera sin poder gastar sus fondos.
 
@@ -81,7 +81,7 @@ Luego puede elegir tener una frase mnemotécnica de 12 palabras o de 24 palabras
 
 Una frase de 24 palabras es más segura que una frase de 12 palabras frente a ataques de fuerza bruta. Sin embargo, hasta la fecha, una frase de 12 palabras sigue siendo lo suficientemente segura. Concretamente, si elige una frase de 12 palabras, estará justo por encima del límite mínimo recomendado por el NIST. Esto significa que su frase está segura hoy, pero puede que no lo esté en el futuro debido a la evolución de la informática (a menos que también utilice una frase de contraseña BIP39). Por defecto, le recomiendo que elija una frase de 24 palabras, pero es su elección personal.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Luego, el software le proporcionará su frase de recuperación. Debe guardarla adecuadamente anotándola en un soporte físico adecuado. Se desaconseja encarecidamente guardar esta frase en cualquier soporte digital, incluso cifrado. Debe anotarla en papel o en metal según el valor almacenado.
 
@@ -91,10 +91,10 @@ Las palabras de esta frase deben ser anotadas juntas. ¡No divida su frase! Adem
 
 Para obtener más información sobre los métodos de seguridad de la frase de recuperación, le recomiendo que lea mi artículo dedicado a este tema.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Green Wallet luego le pide que confirme algunas palabras de su frase para asegurarse de que las haya anotado correctamente.
-'![image](assets/10.png)
+'![image](assets/10.webp)
 
 A continuación, puedes elegir un nombre para tu billetera para diferenciarla de otras si en el futuro creas varias. En esta etapa, el nombre no es importante ya que eliminaremos esta billetera para verificar la validez de la frase mnemotécnica en el siguiente paso.
 
@@ -106,11 +106,11 @@ Luego podrás agregar una opción de bloqueo biométrico para evitar ingresar el
 
 Debes ingresar el PIN elegido nuevamente en la aplicación Green para confirmarlo.
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 ¡Felicidades! Has terminado de crear tu billetera de Bitcoin.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Si deseas agregar una frase de contraseña BIP39 a esta billetera de Bitcoin, debes hacer clic en los tres puntos en la parte superior derecha de la pantalla cuando ingreses tu PIN para desbloquear la billetera. Ten en cuenta que te desaconsejo firmemente usar una frase de contraseña si no comprendes los mecanismos de derivación involucrados. Podrías perder el acceso a tus bitcoins.
 
@@ -125,23 +125,23 @@ Para acceder a esta información, haz clic en el botón "Recibir". La billetera 
 
 Por ejemplo, en mi billetera, los 8 caracteres a anotar serían: JTbP4482.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Una vez que hayas anotado esta información, puedes eliminar tu billetera. Desde la pantalla de inicio de la billetera, haz clic en el ícono de configuración y luego en "Desconectar".
 
 > "Quiero aclarar una vez más que esta operación debe realizarse con una billetera vacía, antes de haber enviado bitcoins. De lo contrario, podrías perderlos".
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Luego serás redirigido a la pantalla de desbloqueo de tu billetera. Haz clic en los tres puntos en la esquina superior derecha de la pantalla y luego en "Eliminar billetera", y confirma.
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Ahora estás en la pantalla de inicio de la aplicación Green Wallet y no hay ninguna billetera disponible. Actualmente te encuentras en la misma situación que si hubieras perdido o roto tu teléfono y estuvieras intentando recuperar tu billetera solo con la frase mnemotécnica.
 
 Ahora debes hacer clic en "Agregar billetera", luego en "Restaurar billetera" y finalmente en "Bitcoin".
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Luego, el software nos pregunta si queremos recuperarla a través de un código QR o mediante una frase mnemotécnica. En nuestro caso, es una frase.
 
@@ -151,23 +151,23 @@ Una vez que hayas ingresado todas las palabras, si el software te indica que hay
 
 De lo contrario, puedes hacer clic en "Continuar".
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 El software te mostrará "Billetera no encontrada". Esto es completamente normal ya que, por el momento, aún no hemos enviado bitcoins a esta billetera. Por lo tanto, no puede detectar ninguna transacción en la cadena de bloques relacionada con esta billetera.
 
 Haz clic en "Restauración manual" en la parte inferior de la pantalla, luego en "Firma única".
 
-![image](assets/28.png)
+![image](assets/28.webp)
 
 Por último, se te pedirá que le des un nombre a esta billetera y le asignes un PIN. Puedes darle el mismo nombre y PIN que a la billetera inicial.
 Para recordar, este PIN solo tiene la funcionalidad de desbloquear la billetera en esta aplicación y en este teléfono específicamente. A diferencia de la frase de recuperación, no permite regenerar su billetera en otro software o hardware.
-![image](assets/30.png)
+![image](assets/30.webp)
 
 Una vez que el PIN se ha validado, volverá a la página de inicio de su billetera. Es hora de verificar si su frase de recuperación funciona correctamente observando la primera dirección derivada. Para hacer esto, una vez más, haga clic en "Recibir" para acceder a la primera dirección.
 
 Si los últimos 8 caracteres son exactamente los mismos que los que ha anotado como testigos en su papel antes de eliminar la billetera, entonces su frase es válida. En mi caso, se puede ver que el checksum de mi primera dirección es igual al valor anotado anteriormente: JTbP4482.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 Sé que esta práctica de verificación es tediosa, pero es absolutamente esencial para asegurar la seguridad de su billetera de Bitcoin. Le recomiendo encarecidamente que adquiera este hábito cuando cree una billetera, ya sea en software o hardware.
 
@@ -185,12 +185,12 @@ Para comenzar correctamente, le recomiendo que personalice la configuración de 
 
 - La opción "Conexión con biometría" le permite desbloquear su billetera con su huella digital en lugar del PIN. Por lo general, no recomiendo activar esta opción. La biometría es mucho menos segura que el código PIN.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 Por defecto, Green Wallet te asigna una cuenta BIP49 "Nested SegWit" con direcciones P2SH (Pay to Script Hash). Hace algunos años, el uso de este tipo de cuenta era relevante ya que no todos aún soportaban las direcciones nativas SegWit. Hoy en día, la gran mayoría de los servicios relacionados con Bitcoin admiten SegWit, por lo que ya no hay ninguna razón para utilizar una cuenta "Nested SegWit".
 
 Entonces crearemos una nueva cuenta BIP84 "Native SegWit" para aprovechar todas sus ventajas, y también para tener direcciones P2WPKH (Pay to Witness Public Key Hash). Para hacerlo, haz clic en tu cuenta "Legacy SegWit Account", luego en "Agregar una nueva cuenta" y finalmente en "Cuenta SegWit". Luego puedes darle un nombre a esta cuenta si lo deseas.
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 En el futuro, si necesitas crear nuevas cuentas en esta billetera, te recomiendo que elijas por defecto cuentas SegWit V0 BIP84 o SegWit V1 BIP86 (cuando estén disponibles).
 
@@ -198,7 +198,7 @@ En la página de inicio de tu billetera, puedes ver tus diferentes cuentas, incl
 
 Luego, el funcionamiento de la aplicación Green Wallet es muy sencillo. Para recibir bitcoins en tu billetera, haz clic en el botón "Recibir". La billetera te mostrará una dirección de recepción. Una dirección permite recibir bitcoins en tu billetera. Puedes copiarla en formato de texto para enviarla a quien te pague, o escanear el código QR con otra billetera Bitcoin para pagar la dirección.
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 Este tipo de dirección no indica al pagador la cantidad que debe enviarte. También puedes crear una dirección que automáticamente solicite una cantidad elegida al pagador. Para hacerlo, haz clic en "Más opciones" e ingresa la cantidad deseada.
 
@@ -209,11 +209,11 @@ Una dirección de recepción no debe ser utilizada varias veces. Es una mala pr�
 > "Consejo: Cuando copie y pegue una dirección de recepción, no es necesario verificar que cada carácter de la dirección sea correcto. De hecho, las direcciones incluyen una suma de verificación que permite detectar pequeños errores tipográficos. Solo es necesario verificar los primeros y últimos caracteres de la dirección para asegurarse de su validez.
 > En las capturas de pantalla a continuación, puede ver que envié 0.02 btc a mi dirección. La transacción aparece en Green, primero como "no confirmada" mientras espera ser incluida en la cadena de bloques por un minero. Una vez que la transacción ha recibido varias confirmaciones, ha recibido sus bitcoins en su propia billetera.
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 Si desea enviar bitcoins, debe obtener la dirección de recepción a la que desea enviar los fondos y hacer clic en el botón "Enviar". En la siguiente página, debe ingresar la dirección de destino. Puede ingresarla manualmente o escanear un código QR haciendo clic en el icono correspondiente. Luego elija el monto de la transacción. Puede ingresar un monto en bitcoins o un monto en dólares estadounidenses haciendo clic en la flecha doble blanca.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 En el centro de la pantalla, puede elegir la tarifa asignada a esta transacción. Puede optar por seguir las recomendaciones de la aplicación o personalizar sus tarifas. Cuanto más altas sean las tarifas en comparación con otras transacciones pendientes de confirmación, más rápido se incluirá su transacción y viceversa.
 
@@ -221,7 +221,7 @@ Luego haga clic en "Siguiente". Llegará a una pantalla que le muestra los detal
 
 Para firmar la transacción y difundirla a la red de Bitcoin, deslice el botón verde en la parte inferior de la pantalla hacia la derecha.
 
-![image](assets/46.png)
+![image](assets/46.webp)
 
 Su transacción ahora aparece en el panel de control de su billetera Bitcoin.
 

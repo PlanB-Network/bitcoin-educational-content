@@ -6,7 +6,7 @@ description: Como o PayNym funciona
 
 > "Ele é muito grande", todos diziam, e o galo da Índia, que nasceu com esporas e se achava o imperador, inflou-se como um navio com todas as velas içadas e avançou furioso em sua direção, vermelho até os olhos. O pobre patinho não sabia se devia parar ou continuar andando: ele ficou muito triste por ser ridicularizado por todos os patos da corte.
 
-![BIP47, ilustração do patinho feio](assets/1.png)
+![BIP47, ilustração do patinho feio](assets/1.webp)
 
 Uma das maiores preocupações no protocolo Bitcoin é a reutilização de endereços. A transparência e a distribuição da rede tornam essa prática perigosa para a privacidade do usuário. Para evitar problemas relacionados a isso, é recomendado usar um novo endereço de recebimento vazio para cada novo pagamento recebido em uma carteira, o que pode ser complicado em alguns casos.
 
@@ -77,7 +77,7 @@ Existem muitas soluções para essas organizações. Cada uma delas tem suas van
 Esse problema de reutilização de endereço não é negligenciável no Bitcoin. Como você pode ver no gráfico abaixo, extraído do site [oxt.me](http://oxt.me/), a taxa global de reutilização de endereço pelos usuários do Bitcoin é atualmente de 52%:
 Gráfico OXT.me mostrando a evolução da taxa global de reutilização de endereços na rede Bitcoin.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Crédito: https://oxt.me/charts
 
@@ -97,7 +97,7 @@ A associação dos códigos de pagamento dos dois usuários gera segredos compar
 
 O código de pagamento age como um identificador virtual, derivado da semente da carteira. Na estrutura de derivação da carteira HD, o código de pagamento está na profundidade 3, no nível das contas da carteira.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Seu objetivo de derivação é marcado como 47' (0x8000002F) em referência ao BIP47. Um caminho de derivação de um código de pagamento reutilizável seria, por exemplo:
 
@@ -109,13 +109,13 @@ Para que você possa imaginar como é um código de pagamento, aqui está o meu:
 
 Ele também pode ser codificado em um QRcode para facilitar a comunicação:
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Quanto aos PayNym Bots, esses robôs que vemos no Twitter são simplesmente representações visuais do seu código de pagamento, criadas pelo Samourai Wallet. Eles são criados usando uma função de hash, o que os torna quase únicos. Aqui está o meu com seu identificador:
 
 > +throbbingpond8B1
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Esses Bots não têm utilidade técnica real. Em vez disso, eles facilitam as interações entre os usuários, criando uma identidade visual virtual.
 
@@ -173,11 +173,11 @@ Certifique-se de verificar a assinatura do desenvolvedor e a integridade do soft
 
 Crie uma carteira e solicite seu PayNym clicando em "Show PayNym" no menu "Tool" na barra superior:
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Em seguida, você precisará vincular e conectar seu PayNym ao do seu destinatário. Para fazer isso, insira o código de pagamento reutilizável dele na janela "Find Contact", siga-o e, em seguida, faça a transação de notificação clicando em "Link Contact":
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Depois que a transação de notificação for confirmada, podemos enviar pagamentos para o código de pagamento reutilizável. Aqui está o procedimento:
 
@@ -237,11 +237,11 @@ O método criptográfico usado como base do BIP47 é o ECDH (Elliptic-Curve Diff
 
 Diffie-Hellman, em sua primeira versão, é um protocolo de acordo de chaves apresentado em 1976 que permite a duas pessoas, a partir de dois pares (chaves públicas e chaves privadas), determinar um segredo compartilhado trocando informações em um canal de comunicação não seguro.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Esse segredo compartilhado (a chave vermelha) pode então ser usado para realizar outras tarefas. Tipicamente, esse segredo compartilhado pode ser usado para criptografar e descriptografar uma comunicação em uma rede não segura:
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Para ter sucesso nessa troca, Diffie-Hellman usa aritmética modular para calcular o segredo comum. Aqui está uma explicação simplificada de como funciona:
 
@@ -257,7 +257,7 @@ Para ter sucesso nessa troca, Diffie-Hellman usa aritmética modular para calcul
 
 - Bob mistura a cor laranja recebida de Alice com sua cor secreta (azul pato). Ele também obtém a cor marrom.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 > Crédito: Ideia original: A.J. Han VinckVersão vetorial: FlugaalTradução: Dereckson, Domínio público, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Diffie-Hellman_Key_Exchange_(fr).svg
 
@@ -317,7 +317,7 @@ A troca de chaves Diffie-Hellman entre Alice e Bob funciona da seguinte maneira:
 
 Graças à distributividade do operador módulo, Alice e Bob encontram exatamente o mesmo valor de z. Esse número representa o segredo compartilhado entre eles, ou seja, o equivalente à cor marrom na explicação anterior. Eles podem usar esse segredo compartilhado para criptografar uma comunicação entre eles em uma rede não segura.
 
-![Diagrama do funcionamento técnico do Diffie-Hellman](assets/14.png)
+![Diagrama do funcionamento técnico do Diffie-Hellman](assets/14.webp)
 
 Um atacante que possua p, g, A e B será incapaz de calcular a, b ou z. Fazer essa operação seria o mesmo que inverter a exponenciação. Esse cálculo é impossível de ser realizado de outra forma que não seja tentando todas as possibilidades uma por uma, já que estamos trabalhando em um corpo finito. Isso seria equivalente a calcular o logaritmo discreto, ou seja, a recíproca da exponenciação em um grupo cíclico finito.
 
@@ -493,7 +493,7 @@ Como vimos na parte anterior, o Diffie-Hellman é usado para gerar um segredo co
 
 Aqui está um diagrama extraído do BIP47 que ilustra o que acabamos de descrever:
 
-![Diagrama Alice envia seu código de pagamento mascarado para o endereço de notificação de Bob](assets/16.png)
+![Diagrama Alice envia seu código de pagamento mascarado para o endereço de notificação de Bob](assets/16.webp)
 
 Crédito: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 
@@ -529,7 +529,7 @@ TXID:
 
 > 0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e
 
-![Transação de notificação BIP47](assets/17.png)
+![Transação de notificação BIP47](assets/17.webp)
 
 Crédito: https://blockstream.info/
 
@@ -545,7 +545,7 @@ Ao observar essa transação, já podemos ver que ela possui apenas uma entrada 
 
 O mais interessante de estudar é obviamente a saída 0 usando o OP_RETURN. Vamos dar uma olhada mais detalhada no que ela contém:
 
-![Saída OP_RETURN da transação de notificação BIP47](assets/18.png)
+![Saída OP_RETURN da transação de notificação BIP47](assets/18.webp)
 
 Crédito: https://blockstream.info/
 
@@ -660,9 +660,9 @@ Como visto na parte sobre Diffie-Hellman, simplesmente trocando suas respectivas
 >
 > S = a·B = a·b·G = b·a·G = b·A
 
-![Diagrama de geração de um segredo compartilhado com ECDHE](assets/19.png)
+![Diagrama de geração de um segredo compartilhado com ECDHE](assets/19.webp)
 Agora que Bob conhece o código de pagamento de Alice, ele será capaz de detectar os pagamentos BIP47 dela e poderá derivar as chaves privadas bloqueando os bitcoins recebidos.
-![Bob interpreta a transação de notificação de Alice](assets/20.png)
+![Bob interpreta a transação de notificação de Alice](assets/20.webp)
 
 Crédito: Códigos de Pagamento Reutilizáveis para Carteiras Determinísticas Hierárquicas, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 
@@ -740,7 +740,7 @@ Não confie. Verifique! Se você deseja entender os princípios básicos de uma 
 
 Depois de obter esse endereço de recebimento "K0" pertencente a Bob, Alice pode construir uma transação Bitcoin comum, selecionando uma UTXO que ela possui em outro ramo de sua carteira HD e gastando para o endereço "K0" de Bob.
 
-![Alice envia bitcoins com BIP47 para Bob](assets/21.png)
+![Alice envia bitcoins com BIP47 para Bob](assets/21.webp)
 
 Crédito: Códigos de Pagamento Reutilizáveis para Carteiras Determinísticas Hierárquicas, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 Se correspondermos esse esquema com o que eu descrevi anteriormente:
@@ -771,7 +771,7 @@ Vou recapitular as etapas que acabamos de ver juntos para enviar um pagamento BI
 
 Se ela quiser fazer um segundo pagamento, ela repetirá as etapas acima, exceto que ela selecionará a segunda chave pública derivada do código de pagamento do Bob. Ou seja, a próxima chave não utilizada. Ela terá então um segundo endereço de recebimento pertencente ao Bob "K1".
 
-![Alice deriva três endereços de recebimento BIP47 para Bob](assets/22.png)
+![Alice deriva três endereços de recebimento BIP47 para Bob](assets/22.webp)
 
 Crédito: Reusable Payment Codes for Hierarchical Deterministic Wallets, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 
@@ -787,7 +787,7 @@ TXID:
 
 Isso se parece com uma transação comum com uma entrada consumida, uma saída de pagamento de 210.000 sats e um troco:
 
-![Transação de pagamento Bitcoin com BIP47](assets/23.png)
+![Transação de pagamento Bitcoin com BIP47](assets/23.webp)
 
 Crédito: https://blockstream.info/
 
@@ -825,7 +825,7 @@ Depois que Bob tem essa chave pública "K0", ele pode derivar a chave privada as
 > Graças à lei de grupo da curva elíptica, Bob obtém exatamente a chave privada correspondente à chave pública utilizada por Alice. Portanto, temos:
 > K0 = k0·G
 
-![Bob gera seus endereços de recebimento BIP47](assets/24.png)
+![Bob gera seus endereços de recebimento BIP47](assets/24.webp)
 
 Crédito: Códigos de Pagamento Reutilizáveis para Carteiras Determinísticas Hierárquicas, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 
@@ -861,18 +861,18 @@ Como Alice não pode obter "b", a chave privada de Bob, ela é incapaz de determ
 
 Esquematicamente, podemos representar o cálculo do segredo compartilhado "S" da seguinte forma:
 
-![Cálculo do segredo compartilhado com ECDHE](assets/25.png)
+![Cálculo do segredo compartilhado com ECDHE](assets/25.webp)
 
 Depois de encontrar o segredo compartilhado com ECDH, Alice e Bob calculam a chave pública de pagamento BIP47 "K0", e Bob também calcula a chave privada associada "k0":
 
-![Derivação do endereço de recebimento BIP47 a partir do segredo compartilhado](assets/26.png)
+![Derivação do endereço de recebimento BIP47 a partir do segredo compartilhado](assets/26.webp)
 
 ### Reembolso do pagamento BIP47.
 
 Como Bob conhece o código de pagamento reutilizável de Alice, ele já possui todas as informações necessárias para enviar um reembolso a ela. Ele não precisará entrar em contato com Alice para solicitar qualquer informação. Ele apenas precisa notificá-la com uma transação de notificação, especialmente para que ela possa recuperar seus endereços BIP47 com sua semente, e então ele também pode enviar até 2^32 pagamentos para ela.
 Bob pode então reembolsar Alice da mesma forma que ela enviou os pagamentos para ele. Os papéis se invertem:
 
-![Bob envia um reembolso para Alice com o BIP47](assets/27.png)
+![Bob envia um reembolso para Alice com o BIP47](assets/27.webp)
 
 Crédito: Códigos de Pagamento Reutilizáveis para Carteiras Determinísticas Hierárquicas, Justus Ranvier. https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki
 

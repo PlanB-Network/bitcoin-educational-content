@@ -4,7 +4,7 @@ name: Blixt
 description: LN-Multifunktions-Wallet
 ---
 
-![Präsentation](assets/1.jpeg)
+![Präsentation](assets/1.webp)
 
 ## Ein leistungsstarker BTC/Lightning-Node in Ihrer Tasche, egal wo Sie sind
 
@@ -38,7 +38,7 @@ Hier sind einige Links zu dieser neuen Node/Wallet-App:
 >
 > Twitter-Feed mit Demos
 
-![Hauptbild](assets/2.JPEG)
+![Hauptbild](assets/2.webp)
 
 # Hauptfunktionen verfügbar
 

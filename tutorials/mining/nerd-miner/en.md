@@ -38,18 +38,18 @@ Then select the firmware corresponding to your ESP-32. Most of the time it is th
 
 > ⚠️ It is important that you use the Chrome browser - as it allows, by default, the use of flash and access to your USB ports.
 
-![](assets/webflasher.png)
+![](assets/webflasher.webp)
 
 ## Step 2: Connecting the ESP-32
 
 Once the webflasher is launched, a pop-up window will open showing the different USB ports recognized by the browser.
 You can then connect your ESP-32, and a new port will be displayed (in this case, it is the ttyACM0 port). You must then select it and click on "connect".
 
-![](assets/flasher-port-serial.png)
+![](assets/flasher-port-serial.webp)
 
 The software will then be downloaded to your ESP32 in a matter of seconds.
 
-![](assets/NM2-sucessfully-installed.png)
+![](assets/NM2-sucessfully-installed.webp)
 
 ## Step 3: NerdMiner Configuration
 
@@ -74,7 +74,7 @@ Once you have chosen your pool, you need to enter your bitcoin address to receiv
 Also, choose your time zone so that the NerdMiner can display the time correctly.
 You can now click on "save".
 
-![](assets/wifi-configuration.jpg)
+![](assets/wifi-configuration.webp)
 
 Congratulations, you are now part of the Bitcoin mining network!
 
@@ -85,7 +85,7 @@ The NerdMinerv2 software has 3 different screens, which you can access by clicki
 - The main screen provides access to the statistics of your NerdMiner.
 - The second screen provides access to the time, your hashrate, the price of bitcoin, and the block height.
 - The third screen provides access to statistics on the global bitcoin mining network.
-  ![](assets/NM2-screens.png)
+  ![](assets/NM2-screens.webp)
 
 If you want to reboot your NerdMiner, for example to change the WiFi network, you need to press the top button for 5 seconds.
 

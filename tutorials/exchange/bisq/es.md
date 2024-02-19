@@ -35,7 +35,7 @@ También es una buena idea verificar el archivo del instalador para asegurarte d
 
 Si deseas compilar Bisq desde el código fuente, aquí tienes las instrucciones (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq es un software libre y de código abierto al que puedes contribuir. (https://bisq.wiki/Contributor_checklist)
 
-![imagen](assets/1.png)
+![imagen](assets/1.webp)
 
 2. Hacer una copia de seguridad de las claves, anotar la semilla
 
@@ -48,7 +48,7 @@ También hemos preparado un breve recorrido por la interfaz de Bisq para que pue
 
 Más detalles se encuentran en la wiki: anotar tus palabras de semilla y hacer una copia de seguridad de tu directorio de datos. (https://bisq.wiki/Backing_up_application_data)
 
-![imagen](assets/2.png)
+![imagen](assets/2.webp)
 
 3. Crear una cuenta de pago
 
@@ -87,37 +87,37 @@ Guía paso a paso de Bitcoiner.guide, también conocido como bitcoinQ&A https://
 
 3. Ahora que tienes configurado tu método de pago, puedes ir a la pestaña 'Buy BTC' y ver los vendedores que ofrecen bitcoin a cambio de tu método de pago elegido. Aquí puedes ver el precio de BTC, la diferencia porcentual en comparación con el precio 'spot' y la cantidad de bitcoin en venta de cada vendedor. Una vez que hayas encontrado una oferta que te guste, haz clic en 'Take offer to buy BTC'.
 
-![imagen](assets/3.png)
+![imagen](assets/3.webp)
 
 4. Esto te llevará a una pantalla para que verifiques y confirmes los detalles antes de ingresar a la transacción. Cuando estés satisfecho, haz clic en 'next step'.
 
-![imagen](assets/4.png)
+![imagen](assets/4.webp)
 
 5. Ahora debes financiar tu billetera de transacciones con una pequeña cantidad de bitcoin que actúa como depósito de seguridad. Esto suele ser alrededor del 15% del tamaño de la transacción. El vendedor también debe realizar un depósito en su lado.
 
-![imagen](assets/5.png)
+![imagen](assets/5.webp)
 
 6. Ahora puedes confirmar la oferta y comenzar la transacción.
 
-![imagen](assets/6.png)
+![imagen](assets/6.webp)
 
 7. Ahora tendrás una espera muy corta mientras la red de Bitcoin confirma la transacción de la transacción, lo que coloca los depósitos de seguridad de ambas partes en el contrato de depósito múltiple.
 
-![imagen](assets/7.png)
+![imagen](assets/7.webp)
 
 8. Después de una confirmación en la cadena, verás una ventana con los detalles del vendedor para que realices el pago.
 
-![imagen](assets/8.png)
+![imagen](assets/8.webp)
 
 9. Una vez que hayas enviado el pago, presiona el botón para confirmar que lo has hecho y luego espera a que el vendedor confirme que ha recibido tus fondos. En este punto, también puedes chatear con tu socio comercial a través de mensajes encriptados de extremo a extremo presionando 'Abrir chat de trader'.
 
 Una vez que el vendedor confirme la recepción de los fondos, los bitcoins comprados junto con tu depósito de seguridad se liberarán en tu billetera de Bisq.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 10. ¡Eso es todo, tu primera operación está completa! Ahora puedes retirar tus bitcoins a una billetera externa o dejarlos en tu cuenta de Bisq.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 ## Los compromisos al comprar sin KYC (por preguntas y respuestas de Bitcoin)
 

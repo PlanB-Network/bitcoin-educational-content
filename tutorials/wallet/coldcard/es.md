@@ -40,7 +40,7 @@ Conectar la Coldcard con el NIP > Nuevas palabras de semilla > Lanzamiento de da
 
 Realice 100 lanzamientos de dados escribiendo el resultado obtenido del 1 al 6 en la Coldcard después de cada lanzamiento. Al practicar este método, está creando 256 bytes de entropía, lo que favorece la creación de una clave privada completamente aleatoria. Coinkite también proporciona la documentación necesaria para la verificación independiente de su sistema de generación de entropía.
 
-![Captura de pantalla de Cold Card](assets/guide-agora/1.jpeg)
+![Captura de pantalla de Cold Card](assets/guide-agora/1.webp)
 
 Una vez que se hayan completado los 100 lanzamientos de dados, presione ✓ y luego anote las 24 palabras obtenidas en orden. Verifique dos veces y presione ✓. ¡Finalmente, solo queda completar la prueba de verificación de las 24 palabras en la Coldcard, y ahí está, su nueva clave privada creada!
 
@@ -56,7 +56,7 @@ Antes de continuar, se recomienda tomar nota de la huella digital de la clave ma
 
 El objetivo es anotar la frase secreta por separado de la frase mnemotécnica, ya que un atacante que tenga acceso a ambos elementos tendrá acceso a los fondos que se encuentren allí. Por otro lado, un atacante que solo tenga acceso a uno de estos elementos no tendrá acceso a los fondos, y es esta ventaja específica la que optimiza el nivel de seguridad de la configuración de la billetera.
 
-![Adding a passphrase leads to a completely different wallet](assets/guide-agora/2.jpeg)
+![Adding a passphrase leads to a completely different wallet](assets/guide-agora/2.webp)
 
 ## Pasos a seguir para agregar una frase secreta con Coldcard:
 
@@ -80,13 +80,13 @@ Primero, inserta una tarjeta micro SD en Coldcard y luego exporta la billetera a
 
 Antes de seguir las instrucciones del archivo, comencemos por preparar la billetera en la interfaz de Bitcoin Core siguiendo estos pasos: ve a la pestaña Archivo > Crear una billetera. Elije un nombre para tu billetera (término intercambiable con "porte-monnaie" en Core) y marca las opciones Desactivar las claves privadas, Crear una billetera vacía y Billetera de descriptores como se muestra en la imagen a continuación. Luego, presiona el botón Crear.
 
-![crée un portefeuille](assets/guide-agora/3.jpeg)
+![crée un portefeuille](assets/guide-agora/3.webp)
 
 Una vez creada la billetera en Bitcoin Core, ve a la pestaña Ventana > Consola y asegúrate de que la billetera seleccionada en la parte superior de la página muestre correctamente el nombre de la que creaste.
 
 Ahora, en el archivo .txt generado previamente por la Coldcard, copia la línea que comienza con "importdescriptors" y pégala en la consola de Bitcoin Core. Debería devolver una respuesta que incluya la línea "success": true.
 
-![ fenetre des noeuds ](assets/guide-agora/4.jpeg)
+![ fenetre des noeuds ](assets/guide-agora/4.webp)
 
 Si la respuesta contiene "message": "Ranged descriptors should not have a label", borra la entrada "label": "Coldcard xxxx0000" en la línea copiada del archivo .txt y luego pega la línea completa nuevamente en la consola de Bitcoin Core.
 
@@ -111,7 +111,7 @@ Before proceeding, make sure the following options are enabled in Settings > Wal
 > - Spend unconfirmed coins (Optional)
 > - Enable TBPS checks
 
-![option ](assets/guide-agora/5.jpeg)
+![option ](assets/guide-agora/5.webp)
 
 ### Steps to send in air-gapped mode:
 
@@ -121,7 +121,7 @@ In the Coldcard, press Ready to sign, check the transaction details, then press 
 
 Back in Bitcoin Core, go to the File tab > Load TBSP from file, and enter the signed transaction file .psbt. The PSBT Operations box will appear on the screen, confirming that the transaction is fully signed and ready to be broadcasted. Just press Broadcast transaction.
 
-![PSBT operations](assets/guide-agora/6.jpeg)
+![PSBT operations](assets/guide-agora/6.webp)
 
 ### Conclusion
 

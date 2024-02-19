@@ -22,7 +22,7 @@ Eine Möglichkeit, die Spuren in einer Bitcoin-Transaktion zu verwischen, besteh
 
 Wie bereits erwähnt, ist die bekannteste Struktur für gemeinsame Transaktionen der Coinjoin. Zum Beispiel werden bei Coinjoin Whirlpool 5 Teilnehmer mit dem gleichen Betrag an Bitcoins als Eingabe und Ausgabe in den Transaktionen verwendet.
 
-![Schema einer Coinjoin-Transaktion auf Whirlpool](assets/1.jpeg)
+![Schema einer Coinjoin-Transaktion auf Whirlpool](assets/1.webp)
 
 Ein externer Beobachter dieser Transaktion wird nicht in der Lage sein zu wissen, welcher Output zu welchem Benutzer als Eingabe gehört. Wenn wir das Beispiel des Benutzers Nr. 4 (violett) nehmen, können wir seine UTXO als Eingabe erkennen, aber wir werden nicht wissen, welcher der 5 Outputs wirklich seiner ist. Die ursprüngliche Information wird nicht versteckt, sondern in einer Gruppe verwirrt.
 Der Benutzer kann den Besitz eines bestimmten UTXO in der Ausgabe leugnen. Dieses Phänomen wird als "plausible Abstreitbarkeit" bezeichnet und ermöglicht es, Vertraulichkeit in einer transparenten Bitcoin-Transaktion zu erreichen.
@@ -46,7 +46,7 @@ Der Mechanismus ist ziemlich einfach zu verstehen. Hier ist seine praktische Fun
 
 Hier ist zum Beispiel eine klassische StonewallX2-Transaktion, bei der ich eine Zahlung von 50.125 Sats geleistet habe. Der erste Input von 102.588 Sats stammt aus meiner Samourai Wallet. Der zweite Input von 104.255 Sats stammt aus dem Wallet meines Mitarbeiters:
 
-![Schema einer StonewallX2-Transaktion](assets/2.jpeg)
+![Schema einer StonewallX2-Transaktion](assets/2.webp)
 
 Es gibt 4 Outputs, von denen 2 den gleichen Betrag haben, um die Spuren zu verwischen:
 
@@ -101,7 +101,7 @@ Découvrez étape par étape comment réaliser une transaction StonewallX2 avec 
 
 Voici le schéma de la transaction que nous venons de réaliser dans la vidéo :
 
-![Schéma de ma transaction StonewallX2 avec JoinBot.](assets/3.jpeg)
+![Schéma de ma transaction StonewallX2 avec JoinBot.](assets/3.webp)
 
 On peut y découvrir 5 inputs :
 

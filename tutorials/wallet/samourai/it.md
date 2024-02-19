@@ -26,19 +26,19 @@ Per spiegazioni su ciascuno di questi strumenti, puoi fare riferimento alla sezi
 
 La nostra nuova schermata di benvenuto offre una panoramica delle funzionalità del nostro portafoglio. Quando le hai lette, tocca 'Inizia'.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Permessi
 
 Concedi i permessi necessari affinché il portafoglio possa creare automaticamente un backup crittografato del tuo portafoglio.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Tor
 
 La maggior parte degli utenti dovrebbe abilitare Tor per la privacy a livello di rete. Quindi tocca Crea un nuovo portafoglio.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Creazione di una passphrase
 
@@ -49,7 +49,7 @@ La tua passphrase è un componente obbligatorio quando si ripristina tramite mne
 > Non abbiamo conoscenza della tua passphrase, se dimentichi la tua passphrase non possiamo aiutarti a reimpostarla.
 > Non dimenticare la tua passphrase!
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Crea un codice PIN
 
@@ -57,7 +57,7 @@ Ti verrà ora chiesto di creare e confermare un codice PIN composto da 5 e 8 cif
 
 Se dimentichi il tuo codice PIN, puoi sempre accedere al tuo portafoglio con la tua passphrase.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Crea un backup cartaceo
 
@@ -76,7 +76,7 @@ Un PayNym è un tipo di indirizzo stealth diverso dagli indirizzi bitcoin normal
 Dopo aver creato con successo il tuo portafoglio, ti verrà chiesto di richiedere un PayNym Bot. Questo è una rappresentazione visiva dell'hash SHA-256 del tuo indirizzo PayNym del portafoglio.
 Una volta richiesto, ti verrà assegnato un nome unico per il Bot che verrà caricato nella directory pubblica dei bot PayNym, che puoi trovare su https://paynym.is
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 ## utilizzalo
 

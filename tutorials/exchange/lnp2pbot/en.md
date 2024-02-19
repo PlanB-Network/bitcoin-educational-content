@@ -22,11 +22,11 @@ All ressources: https://lnp2pbot.com/learn/
 
 - Start @lnp2pBot
 
-![video](assets/1.gif)
+![video](assets/1.webp)
 
 - Find offers in the channel @lnp2pbot Exchange.
 
-![video](assets/2.gif)
+![video](assets/2.webp)
 
 - Start buying and selling.
 

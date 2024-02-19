@@ -9,19 +9,19 @@ description: ¿Cuántas remezclas deben hacerse en Whirlpool?
 Esta es una pregunta que me hacen con frecuencia. **Cuando se hacen coinjoins con Whirlpool, ¿cuántas remezclas deben hacerse para obtener resultados satisfactorios?**
 
 El propósito de un coinjoin es ofrecer negación plausible al mezclar tu moneda con un grupo de monedas indistinguibles. El objetivo de esta acción es romper los vínculos de rastreo, tanto del pasado al presente como del presente al pasado. En otras palabras, un analista que conoce tu transacción inicial al ingresar a los ciclos de coinjoin no debería poder identificar definitivamente tu UTXO al salir de los ciclos de remezcla (análisis desde los ciclos de entrada hasta los ciclos de salida).
-![diagrama de vínculos pasado-presente](assets/es/1.png)
+![diagrama de vínculos pasado-presente](assets/es/1.webp)
 
 Por otro lado, un analista que conoce tu UTXO al salir de los ciclos de coinjoin no debería poder determinar la transacción original al ingresar a los ciclos (análisis desde los ciclos de salida hasta los ciclos de entrada).
-![diagrama de vínculos presente-pasado](assets/es/2.png)
+![diagrama de vínculos presente-pasado](assets/es/2.webp)
 Sin embargo, el número de remezclas no es un criterio confiable para evaluar la dificultad que un analista encontraría al establecer vínculos entre el pasado y el presente, o viceversa. Un indicador más relevante sería el tamaño de los grupos en los que tu moneda se está ocultando. Estos indicadores se conocen como "anonsets". En el caso de Whirlpool, existen dos tipos de anonsets.
 
 En primer lugar, podemos determinar el tamaño del grupo en el que se encuentra tu UTXO al salir de los ciclos de coinjoin, es decir, el número de monedas indistinguibles presentes dentro de este grupo.
-![posibles UTXOs al salir](assets/es/3.png)
+![posibles UTXOs al salir](assets/es/3.webp)
 Este indicador, llamado "anonset prospectivo" en francés, "forward anonset" en inglés o "métricas prospectivas", nos permite evaluar la resistencia de tu moneda a análisis que rastrean su recorrido desde la entrada hasta la salida de los ciclos de coinjoin. Esta métrica estima en qué medida tu UTXO está protegido contra intentos de reconstruir su historial desde su punto de entrada hasta su punto de salida en el proceso de coinjoin. Por ejemplo, si tu transacción participó en su primer ciclo de coinjoin y se realizaron dos ciclos adicionales aguas abajo, el anonset prospectivo de tu moneda sería `13`:
-![forward anonset](assets/es/4.png)
-En segundo lugar, se puede calcular otro indicador para evaluar la resistencia de tu moneda a un análisis desde el presente hacia el pasado. Al conocer tu UTXO al final de los ciclos, este indicador determina el número de transacciones Tx0 potenciales que podrían haber constituido tu entrada en los ciclos de coinjoin (análisis desde el final hasta el comienzo de los ciclos). Esta métrica mide qué tan difícil es para un analista rastrear el origen de tu moneda después de haber pasado por coinjoins.![Fuentes probables en la entrada](assets/es/5.png)
+![forward anonset](assets/es/4.webp)
+En segundo lugar, se puede calcular otro indicador para evaluar la resistencia de tu moneda a un análisis desde el presente hacia el pasado. Al conocer tu UTXO al final de los ciclos, este indicador determina el número de transacciones Tx0 potenciales que podrían haber constituido tu entrada en los ciclos de coinjoin (análisis desde el final hasta el comienzo de los ciclos). Esta métrica mide qué tan difícil es para un analista rastrear el origen de tu moneda después de haber pasado por coinjoins.![Fuentes probables en la entrada](assets/es/5.webp)
 El nombre de este indicador es "anonset retrospectivo" o "métricas retrospectivas". En francés, me gusta llamarlo "anonset rétrospectif". En el siguiente diagrama, esto corresponde a todas las burbujas Tx0 naranjas:
-![backward anonset](assets/es/6.png)
+![backward anonset](assets/es/6.webp)
 Para obtener más información sobre el método de cálculo de estos indicadores, te recomiendo leer [mi hilo de Twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sobre este tema. También estamos preparando un artículo más completo en la Red PlanB.
 Soy consciente de que la respuesta proporcionada puede parecer insatisfactoria, ya que esperabas un número específico de remezclas, y te estoy dirigiendo a la documentación. La razón de esto es que el número de remezclas no es un indicador confiable para evaluar el anonimato obtenido en los ciclos de coinjoin. Por lo tanto, no es posible definir un número fijo de remezclas como un umbral de seguridad absoluto y universal.
 
@@ -34,7 +34,7 @@ También es importante entender que la creación de la negación plausible nunca
 Para determinar estos famosos indicadores de anonset, puedes utilizar una herramienta de Python llamada **WST** (Whirlpool Stats Tool). También estamos preparando un tutorial sobre esta herramienta para ti.
 
 Sin embargo, no siempre es necesario calcular los anonsets de cada una de tus monedas coinjoin. El diseño de Whirlpool en sí mismo ya te proporciona garantías. Como se mencionó anteriormente, el anonset retrospectivo rara vez es una preocupación. Desde tu mezcla inicial, ya obtienes una puntuación retrospectiva particularmente alta. En cuanto al anonset prospectivo, solo necesitas mantener tu moneda en la cuenta posterior a la mezcla durante un período de tiempo suficientemente largo. Por ejemplo, aquí están las puntuaciones de anonset de una de mis monedas de `100,000 sats` después de pasar dos meses en el grupo de coinjoin:
-![WST anonsets](assets/es/7.png)
+![WST anonsets](assets/es/7.webp)
 Muestra una puntuación retrospectiva de `34,593` y una puntuación prospectiva de `45,202`. En términos concretos, esto significa dos cosas:
 - Si un analista conoce mi moneda al final de los ciclos e intenta rastrear su origen, se encontrará con `34,593` fuentes potenciales, cada una con la misma probabilidad de ser mía.
 - Si un analista conoce mi moneda al principio de los ciclos e intenta determinar su correspondencia al final, se enfrentará a `45,202` posibles UTXOs, cada uno con la misma probabilidad de ser mío.

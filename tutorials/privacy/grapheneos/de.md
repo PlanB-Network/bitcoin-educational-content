@@ -74,7 +74,7 @@ Alles, was Sie benötigen, ist:
 9. Gehen Sie abschließend zum nächsten Schritt des Webinstallers und klicken Sie auf **Bootloader sperren**. Sie müssen die Auswahl ändern und mit der Ein-/Aus-Taste bestätigen, wie Sie es zuvor im Prozess getan haben.
 10. Wenn Sie das Wort `Start` sehen, bestätigen Sie dies mit der Ein-/Aus-Taste und das Gerät startet in Ihr neues Google-freies Betriebssystem.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 GrapheneOS-Startbildschirm
 
@@ -93,7 +93,7 @@ Wenn Ihnen diese einfachen Schritte zu kompliziert erscheinen, können Sie erwä
 
 Jetzt, da Sie eingerichtet sind, werden Sie möglicherweise feststellen, wie minimalistisch GrapheneOS nach der ersten Installation aussieht. Standardmäßig sind folgende Apps installiert:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Standard-Apps
 Die einzigen beiden Begriffe, die Ihnen möglicherweise nicht vertraut sind, sind "Auditor" und "Vanadium".
@@ -123,7 +123,7 @@ Gehen Sie zu **Einstellungen** > **Batterie** und aktivieren Sie dann **Batterie
 **Von iOS** - Verwenden Sie eine App wie "Export Contact" und wählen Sie die Exportoption "vCard", um eine VCF-Datei zu exportieren.
 Sobald Sie die VCF-Datei haben, können Sie sie mit einer externen Speicheroption wie einer microSD-Karte oder einem USB-Laufwerk auf Ihr GrapheneOS-Gerät übertragen. Wenn Sie keine dieser Optionen zur Hand haben, können Sie sich für den Austausch über eine der vielen unten aufgeführten Apps entscheiden.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Personalisierter Startbildschirm
 
@@ -142,7 +142,7 @@ Um F-Droid zu installieren, gehen Sie einfach über den Browser auf Ihrem Graphe
 
 Neben den Anwendungen, die im Standard-Repository von F-Droid zu finden sind, hosten viele Open-Source-Projekte auch ihr eigenes Repository, das in den Einstellungen der F-Droid-App hinzugefügt werden kann. Wenn dies der Fall ist, führt Sie das betreffende Projekt auf ihrer Website durch die sehr einfachen Schritte, die erforderlich sind, um dies zu erreichen.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 F-Droid Startbildschirm
 
@@ -159,7 +159,7 @@ Aurora hat auch einige potenzielle Angriffsvektoren, da die "anonymen Konten" ta
 **Top-Tipp** - Manchmal tritt im Aurora Store eine Rate-Limitierung auf, die Ihre Fähigkeit zur Suche und Installation von Apps einschränkt. Um dies zu umgehen, gehen Sie zu **Einstellungen** > **Apps** > **Aurora** > **Standardmäßig öffnen** und fügen Sie die Domain `play.google.com` hinzu. Jetzt wird immer, wenn Sie zu einer Website eines Produkts oder Dienstes navigieren, das den Link 'Über den Play Store herunterladen' enthält, das Antippen dieses Links die App in Aurora öffnen, damit Sie sie herunterladen können.
 
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Startbildschirm des Aurora Store
 
@@ -169,7 +169,7 @@ Apps auf Android können auch über eine `.apk`-Datei heruntergeladen und instal
 
 Der Nachteil dieses Ansatzes ist, dass Sie keine automatischen Updates erhalten. Sie müssen also die Kommunikationskanäle des Dienstes überwachen, um über neue Versionen informiert zu werden. Es gibt jedoch ein großartiges Projekt namens Obtainium, das dieses Problem lösen soll. [Obtainium](https://github.com/ImranR98/Obtainium) ermöglicht es Ihnen, Open-Source-Apps direkt von deren Release-Seiten zu installieren und zu aktualisieren und Benachrichtigungen zu erhalten, wenn neue Versionen verfügbar sind.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Vorschau von Obtainium
 
@@ -181,7 +181,7 @@ Um dies in Vanadium, dem nativen Browser von GrapheneOS, zu erreichen, navigiere
 
 Der einzige Nachteil dieses Ansatzes ist, dass es sich hierbei nur um eine als Lesezeichen gespeicherte Webseite handelt und Sie keine Benachrichtigungen erhalten. Einige mögen das jedoch als positiv betrachten!
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Twitter PWA
 
@@ -210,7 +210,7 @@ Die meisten Menschen, die kein Interesse am Datenschutz haben, verwenden wahrsch
 - [Threema](https://threema.ch/en/faq/libre_installation) bietet ein ähnliches Erlebnis wie Simplex, ist aber schon länger auf dem Markt und wirkt daher etwas ausgereifter. Threema ist nicht kostenlos, eine lebenslange Lizenz kostet 4,99 US-Dollar und kann mit Bitcoin gekauft werden. Threema bietet einen Web-Client und native Desktop-Anwendungen. Die Android-Anwendung ist über F-Droid verfügbar.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) ist eine inoffizielle FOSS-Fork der offiziellen Telegram-App für Android. Telegram hat E2EE-"Geheime Chats", aber die Standardeinstellung ist nicht privat. Telegram FOSS kann von F-Droid heruntergeladen werden.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 Links: Threema
 Rechts: Simplex
 
@@ -221,7 +221,7 @@ Rechts: Simplex
 - [Joplin](https://f-droid.org/en/packages/net.cozic.joplin/) ist eine App für Notizen und Aufgaben, die eine große Anzahl von Notizen in Notizbüchern verwalten kann. Joplin ist über F-Droid verfügbar.
 - Mit [LibreOffice Viewer](https://f-droid.org/en/packages/org.documentfoundation.libreoffice/) können Sie alle Arten von Dokumenten, einschließlich Word-, Excel- und PowerPoint-Dateien, anzeigen und bearbeiten. LibreOffice Viewer ist über F-Droid verfügbar.
 
-![Bild](assets/17.png)
+![Bild](assets/17.webp)
 
 Links: Nextcloud
 Rechts: Joplin
@@ -232,7 +232,7 @@ Rechts: Joplin
 - [Element](https://f-droid.org/en/packages/im.vector.app/) (früher bekannt als Riot) ist eine dezentrale Messaging-App, mit der Sie sicher mit anderen chatten, telefonieren und zusammenarbeiten können. Element ist über F-Droid verfügbar.
 - [Telegram](https://telegram.org/) ist eine Cloud-basierte Messaging-App, die sich auf Geschwindigkeit und Sicherheit konzentriert. Telegram kann als direkte APK oder über Aurora heruntergeladen werden.
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Left: Signal
 Right: Element
@@ -242,7 +242,7 @@ Right: Element
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) ist eine Tastatur-App, mit der Sie praktisch alles anpassen können, was Sie sich beim Tippen auf Ihrem Telefon vorstellen können. Sie kann über F-Droid heruntergeladen werden.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) ist die Standard-Tastatur-App von Google. Meiner Erfahrung nach bietet sie das beste Schreib- und Wischerlebnis. Wenn Sie diese App herunterladen, stellen Sie sicher, dass Sie alle netzwerkbezogenen Berechtigungen vollständig deaktivieren. Sie kann über Aurora heruntergeladen werden.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Links: Notesnook
 Rechts: KDE Connect
@@ -254,7 +254,7 @@ Rechts: KDE Connect
 - [Proton Calendar](https://proton.me/calendar/download) ist ein einfach zu bedienender E2EE-Kalender, der nahtlos mit Ihren Proton-E-Mail-Konten interagiert. Proton Calendar kann als APK oder über den Aurora Store heruntergeladen werden.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) ist eine App zum Anzeigen und Speichern von Bordkarten, Gutscheinen, Kinokarten und Mitgliedskarten usw. Laden Sie einfach die entsprechende `pkpass`- oder `espass`-Datei herunter und öffnen Sie sie mit der App. PassAndroid ist über F-Droid verfügbar.
 
-![image](assets/19.png)
+![image](assets/19.webp)
 Links: Geometric Weather
 Rechts: Proton Calendar
 
@@ -266,7 +266,7 @@ Rechts: Proton Calendar
 - [Aegis](https://f-droid.org/de/packages/com.beemdevelopment.aegis/) ist eine kostenlose, sichere und Open Source-App für Android, mit der Sie Ihre 2-Faktor-Authentifizierungstoken für Ihre Online-Dienste verwalten können. Aegis ist über F-Droid verfügbar.
 - [Cryptomator](https://f-droid.org/de/packages/org.cryptomator.lite/) ist ein kostenpflichtiger plattformübergreifender Dienst, der Ihre Daten lokal verschlüsselt, damit Sie sie sicher in Ihren bevorzugten Cloud-Dienst hochladen können. Cryptomator kann über F-Droid heruntergeladen werden.
 
-![Bild](assets/21.png)
+![Bild](assets/21.webp)
 Links: Proton Pass
 Rechts: Bitwarden
 
@@ -277,7 +277,7 @@ Rechts: Bitwarden
 - [Nextcloud](https://f-droid.org/de/packages/com.nextcloud.client/) bietet eine voll ausgestattete Cloud-basierte Lösung für Zusammenarbeit, Geräteübergreifende Synchronisierung und Dateispeicherung. Fortgeschrittene Benutzer können wählen, ihre kostenlose und Open Source-Software auf beliebiger Hardware selbst zu hosten. Die Android-Clients können über F-Droid heruntergeladen werden.
 - [Cryptpad](https://cryptpad.fr/) bietet eine kostenlose, webbasierte, E2EE-Alternative zu Google Docs.
 
-![Bild](assets/23.png)
+![Bild](assets/23.webp)
 
 Proton Drive
 
@@ -301,7 +301,7 @@ Bevor Sie sich beeilen, diese am ersten Tag zu installieren, rate ich Ihnen, zu 
 
 Wenn Sie sie dennoch installieren möchten, tippen Sie einfach auf die vorinstallierte "Apps"-Anwendung, gefolgt von "Google Play-Dienste". Erwägen Sie, sie zusammen mit den weniger privaten Apps, auf die Sie nicht verzichten können, in einem vollständig separaten Benutzerprofil zu installieren, um eine zusätzliche Ebene der Trennung vom Rest Ihres Telefons zu bieten.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Installationsbildschirm für Play-Dienste
 
@@ -314,7 +314,7 @@ Sie können mehr über diesen Anwendungsfall [hier](https://discuss.grapheneos.o
 
 Wenn Sie sich entscheiden, ein separates Profil entsprechend Ihrem Anwendungsfall hinzuzufügen, könnte die App [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) nützlich für Sie sein. Insular ermöglicht es Ihnen, ganz einfach eine Ihrer vorhandenen Apps in das neue Profil zu klonen, ohne den herkömmlichen Installationsweg zu gehen, der zuvor in diesem Leitfaden behandelt wurde. Insular ermöglicht es Ihnen auch, schnell eine beliebige dieser Apps zu "einfrieren", um alle Hintergrunddienste dieser App vollständig zu deaktivieren.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Bildschirm zur Verwaltung von Benutzerprofilen
 
@@ -337,7 +337,7 @@ Um Ihre erste Sicherung zu erstellen:
 3. Wählen Sie die zu sichernden Daten aus. Wenn Sie genügend Platz auf Ihrem angegebenen Speichermedium haben, empfehle ich, alles auszuwählen.
 4. Tippen Sie auf die drei Punkte oben rechts und wählen Sie **Jetzt sichern**.
 
-![Bild](assets/26.png)
+![Bild](assets/26.webp)
 
 Sicherungsbildschirm
 

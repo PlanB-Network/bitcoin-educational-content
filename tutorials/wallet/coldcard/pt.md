@@ -40,7 +40,7 @@ Conectar a Coldcard com o PIN > Novas Palavras Semente > Rolagem de Dados de 24 
 
 Faça 100 lançamentos de dados, registrando o resultado de 1 a 6 na Coldcard após cada jogada. Ao praticar esse método, você cria 256 bytes de entropia, favorecendo assim a criação de uma chave privada completamente aleatória. A Coinkite também fornece a documentação necessária para a verificação independente de seu sistema de geração de entropia.
 
-![Screenshot Visuel Cold Card](assets/guide-agora/1.jpeg)
+![Screenshot Visuel Cold Card](assets/guide-agora/1.webp)
 
 Após concluir os 100 lançamentos de dados, pressione ✓ e anote as 24 palavras obtidas na ordem. Verifique duas vezes e pressione ✓. Por fim, basta completar o teste de verificação das 24 palavras na Coldcard e pronto, sua nova chave privada está criada!
 
@@ -56,7 +56,7 @@ Antes de prosseguir, é recomendável anotar a Impressão Digital da Chave Mestr
 
 O objetivo é anotar a frase secreta separadamente da frase mnemônica, pois um invasor que tenha acesso a esses dois elementos terá acesso aos fundos contidos neles. Por outro lado, um invasor que tenha acesso a apenas um desses dois elementos não terá acesso aos fundos, e é essa vantagem específica que otimiza o nível de segurança da configuração da carteira.
 
-![Adicionar uma frase secreta leva a uma carteira completamente diferente](assets/guide-agora/2.jpeg)
+![Adicionar uma frase secreta leva a uma carteira completamente diferente](assets/guide-agora/2.webp)
 
 ## Etapas para adicionar uma frase secreta com a Coldcard:
 
@@ -80,13 +80,13 @@ Primeiro, insira um cartão micro SD na Coldcard e exporte a carteira para o Bit
 
 Antes de seguir as instruções do arquivo, vamos começar preparando a carteira na interface do Bitcoin Core, seguindo estes passos: vá para a guia Arquivo > Criar uma carteira. Escolha um nome para sua carteira (termo intercambiável com "porte-monnaie" no Core) e marque as opções Desativar chaves privadas, Criar uma carteira vazia e Carteira de descritores, conforme ilustrado na imagem abaixo. Em seguida, pressione o botão Criar.
 
-![criar uma carteira](assets/guide-agora/3.jpeg)
+![criar uma carteira](assets/guide-agora/3.webp)
 
 Depois de criar a carteira no Bitcoin Core, vá para a guia Janela > Console e verifique se a carteira selecionada no topo da página exibe corretamente o nome da carteira que você criou.
 
 Agora, no arquivo .txt gerado anteriormente pela Coldcard, copie a linha que começa com "importdescriptors" e cole-a no console do Bitcoin Core. Uma resposta que inclua a linha "success": true deve ser retornada.
 
-![janela de nós](assets/guide-agora/4.jpeg)
+![janela de nós](assets/guide-agora/4.webp)
 
 Se a resposta contiver "message": "Ranged descriptors should not have a label", apague a entrada "label": "Coldcard xxxx0000" na linha copiada do arquivo .txt e cole novamente a linha completa no console do Bitcoin Core.
 
@@ -112,7 +112,7 @@ Antes de prosseguir, verifique se as seguintes opções estão ativadas em Confi
 > - Gastar moedas não confirmadas (Opcional)
 > - Ativar controles TBPS
 
-![opção](assets/guide-agora/5.jpeg)
+![opção](assets/guide-agora/5.webp)
 
 ### Etapas para enviar no modo air-gapped:
 
@@ -122,7 +122,7 @@ Na Coldcard, pressione Pronto para assinar, verifique os detalhes da transação
 
 De volta ao Bitcoin Core, vá para a guia Arquivo > Carregar TBSP de um arquivo e insira o arquivo de transação assinado .psbt. A caixa de diálogo Operações PSBT será exibida na tela, confirmando que a transação está completamente assinada e pronta para ser transmitida. Agora é só pressionar Transmitir transação.
 
-![Operações PSBT](assets/guide-agora/6.jpeg)
+![Operações PSBT](assets/guide-agora/6.webp)
 
 ### Conclusão
 

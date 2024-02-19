@@ -24,7 +24,7 @@ Der Ledger wird mit seinem eigenen USB-Kabel geliefert. Stellen Sie sicher, dass
 
 Schließen Sie es an Ihren Computer an und das Gerät wird eingeschaltet.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Durchlaufen Sie die Optionen. Sie werden sehen:
 
@@ -41,7 +41,7 @@ Seltsamerweise heißt es am Ende "Drücken Sie links, um Ihre Wörter zu überpr
 
 Der nächste Teil ist super nervig. Es werden die 24 Wörter durcheinander gebracht und Sie müssen jedes einzelne, von 1 bis 24, bestätigen, indem Sie alle Wörter für jede Auswahl durchgehen. Sobald Sie fertig sind, können Sie mit einem zweifachen Tastendruck bestätigen und fortfahren.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Auf Ihrem Dashboard sehen Sie eine Einstellungsschaltfläche und eine Plus-Schaltfläche, mit der Sie Apps installieren können. Aber Sie müssen zuerst eine Verbindung zu Ledger Live herstellen. Das machen wir als Nächstes...
 
@@ -51,15 +51,15 @@ Sie können Ledger Live von ihrer Webseite herunterladen, aber es ist besser, es
 
 Suchen Sie bei Google nach "ledger live GitHub" oder klicken Sie auf diesen Link https://github.com/LedgerHQ/ledger-live-desktop
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Scrollen Sie nach unten, bis Sie die Überschrift "Downloads" sehen...
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Unten sehen Sie den Link: Anweisungen zum Überprüfen des Hashes und der Signaturen der Installationspakete finden Sie auf dieser Seite. Klicken Sie auf diesen Link. (https://live.ledger.tools/lld-signatures)
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Oben gibt es Linkoptionen für das Softwarepaket, das Sie benötigen, abhängig von Ihrem Betriebssystem. Klicken Sie auf den entsprechenden Link, um es herunterzuladen.
 
@@ -90,32 +90,32 @@ Bevor Sie Ledger Live ausführen, ist es hilfreich, einen VPN einzuschalten. Led
 
 Installieren Sie die Software auf Ihrem Computer und führen Sie sie aus.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Wählen Sie Ihr Gerät aus und wählen Sie "Erstmalige Verwendung..."
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Sie werden dann durch einen Assistenten geführt, aber wir haben bereits alle diese Schritte durchgeführt, damit Sie sie durchgehen können.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Nach vielen Schritten und einem Quiz wird überprüft, ob das Gerät echt ist. Sie müssen sicherstellen, dass Sie verbunden sind und die PIN eingegeben haben, und dann wird auf dem Gerät gefragt, ob Sie Ledger Live die Verbindung erlauben möchten. Das müssen Sie natürlich bestätigen.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Es gab einige Shitcoin-Werbung, die als "Release Notes" getarnt war, in dem nächsten Pop-up. Schließen Sie es und dann sollten Sie zu diesem Bildschirm gelangen.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Sie müssen auf "Konto hinzufügen" klicken, um eine Bitcoin Wallet zu erhalten.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Stellen Sie sicher, dass Sie Bitcoin auswählen und nicht Bitcoin Cash oder irgendeinen anderen Shitcoin. Es wird das Gerät überprüfen und Sie müssen auf dem Gerät bestätigen, um fortzufahren. Es werden Adressen für ein paar Minuten berechnet. Klicken Sie dann auf FERTIG.
 
-![image](assets/12.png)
-![image](assets/13.png)
+![image](assets/12.webp)
+![image](assets/13.webp)
 
 Großartig. Jetzt haben Sie einen Shitcoin Wallet Manager mit einer Bitcoin Wallet auf Ihrem Computer. Sie benötigen dies tatsächlich nicht mehr und können es loswerden. Der eigentliche Zweck bestand darin, die Bitcoin App auf dem Gerät selbst zu erhalten, und dies war der einzige Weg, abgesehen von einigen extremen Software-Engineering-Techniken.
 
@@ -152,35 +152,35 @@ Jetzt werden wir sie laden und mit dem Ledger verbinden, mit dem Wallet, das die
 
 Erstellen Sie ein neues Wallet:
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Geben Sie ihm einen hübschen Namen.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Beachten Sie das Kontrollkästchen "Hat bestehende Transaktion". Wenn dies ein Wallet ist, das Sie zuvor verwendet haben, dann aktivieren Sie dieses Kontrollkästchen, sonst wird Ihr Guthaben fälschlicherweise als Null angezeigt. Durch Aktivieren dieses Kontrollkästchens fordern Sie Sparrow auf, die Datenbank von Bitcoin Core (die Blockchain) nach früheren Transaktionen zu durchsuchen. Für diese Anleitung verwenden wir ein brandneues Wallet, daher können Sie das Kontrollkästchen deaktiviert lassen.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Klicken Sie auf "Verbundene Hardware Wallet" und stellen Sie sicher, dass das Gerät tatsächlich verbunden ist, eingeschaltet ist, die PIN eingegeben wurde und Sie die Bitcoin-App geöffnet haben.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Klicken Sie auf "Scannen" und dann auf "Keystore importieren" auf dem nächsten Bildschirm.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Auf dem nächsten Bildschirm gibt es nichts zu bearbeiten, das Ledger hat es für Sie ausgefüllt. Klicken Sie auf "Anwenden".
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Auf dem nächsten Bildschirm können Sie ein Passwort hinzufügen. Verwechseln Sie dies nicht mit "Passphrase"; viele Leute tun das. Die Benennung ist unglücklich. Das Passwort ermöglicht es Ihnen, dieses Wallet auf Ihrem Computer zu sperren. Es ist spezifisch für diese Software auf diesem Computer. Es gehört nicht zu Ihrem Bitcoin-Privatschlüssel.
 
-'![image](assets/20.png)
+'![image](assets/20.webp)
 
 Nach einer Pause, während der Computer nachdenkt, werden Sie sehen, wie sich die Buttons auf der linken Seite von grau zu blau ändern. Herzlichen Glückwunsch, Ihre Brieftasche ist jetzt einsatzbereit. Machen Sie Transaktionen nach Herzenslust und senden Sie diese.
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 ## Empfangen
 
@@ -192,7 +192,7 @@ Sobald Sie das getan haben, müssen Sie die aufgeschriebenen Wörter sichern. Ei
 
 ## Senden
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Wenn Sie eine Zahlung vornehmen, müssen Sie die Adresse, an die Sie zahlen möchten, im Feld "An" einfügen. Sie können das Label tatsächlich nicht leer lassen, es dient nur zur Aufzeichnung Ihrer eigenen Brieftasche, aber Sparrow erlaubt es nicht - geben Sie einfach etwas ein (nur Sie werden es sehen). Geben Sie den Betrag ein und Sie können auch die Gebühr manuell anpassen.
 

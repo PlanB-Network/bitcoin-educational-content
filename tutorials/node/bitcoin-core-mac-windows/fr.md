@@ -17,7 +17,7 @@ Vous pouvez soit nettoyer un ancien ordinateur et l'utiliser comme un ordinateur
 
 Bitcoin Core occupera environ 400 gigaoctets de données sur votre disque dur et continuera à croître. Vous pouvez utiliser votre disque dur interne, mais vous pouvez également connecter un disque dur externe. Je vais expliquer les deux options. Idéalement, vous devriez utiliser un disque dur à semi-conducteurs. Si vous avez un vieil ordinateur, il n'en a probablement pas un intégré. Achetez simplement un SSD externe de 1 ou 2 téraoctets et utilisez-le. Le disque dur classique fonctionnera probablement, mais vous pourriez rencontrer des problèmes et il sera beaucoup plus lent.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 ## Télécharger Bitcoin Core
 
@@ -25,15 +25,15 @@ Allez sur bitcoin.org (assurez-vous de ne pas aller sur bitcoin.com, qui est un 
 
 Une fois là-bas, il n'est étrangement pas évident où obtenir le logiciel. Allez dans le menu des ressources et cliquez sur "Bitcoin Core", comme indiqué ci-dessous :
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Cela vous amènera à la page de téléchargement :
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Cliquez sur le bouton orange "Télécharger Bitcoin Core" :
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Il y a plusieurs options à choisir, en fonction de votre ordinateur. Les deux premières sont pertinentes pour ce guide ; choisissez Windows ou Mac dans la barre de gauche. Le téléchargement commencera après avoir cliqué dessus, probablement dans votre répertoire Téléchargements.
 
@@ -41,7 +41,7 @@ Il y a plusieurs options à choisir, en fonction de votre ordinateur. Les deux p
 
 Vous avez besoin du fichier qui contient les hachages des différentes versions. Ce fichier était autrefois sur la page de téléchargement de bitcoin.org, mais il a maintenant été déplacé vers bitcoincore.org/en/download :
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Vous avez besoin du fichier de hachages binaires SHA256. Ce fichier contient les hachages SHA256 des différents packages de téléchargement de Bitcoin Core.
 
@@ -64,7 +64,7 @@ Pour cela, consultez mon guide SHA256/gpg, et faites défiler jusqu'à la sectio
 
 De retour sur la page de téléchargement, obtenez le fichier de signatures de hachage SHA256
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Cliquez dessus et enregistrez le fichier sur le disque, de préférence dans le répertoire Téléchargements.
 
@@ -99,7 +99,7 @@ Le premier fichier répertorié est l'orthographe exacte du fichier de signature
 
 Voici la sortie que vous devriez obtenir
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Il est sûr d'ignorer le message d'avertissement - cela vous rappelle simplement que vous n'avez pas rencontré Wladimir à une étape clé et lui avez personnellement demandé quelle était sa clé publique, puis avez dit à votre ordinateur de faire entièrement confiance à cette clé.
 
@@ -109,39 +109,39 @@ Si vous avez reçu ce message, vous savez maintenant que le fichier SHA256SUMS.a
 
 Vous ne devriez pas avoir besoin d'instructions détaillées sur la façon d'installer le programme.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 ## Exécuter Bitcoin Core
 
 Sur un Mac, vous pourriez obtenir un avertissement (Apple est toujours anti-Bitcoin)
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Cliquez sur OK, puis ouvrez vos Préférences Système
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Cliquez sur l'icône Sécurité et confidentialité :
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Ensuite, cliquez sur "ouvrir quand même" :
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 L'erreur apparaîtra à nouveau, mais cette fois-ci vous aurez un bouton OUVRIR disponible. Cliquez dessus.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 Bitcoin Core devrait se charger et vous serez présenté avec quelques options :
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Ici, vous pouvez choisir d'utiliser le chemin d'accès par défaut pour le téléchargement de la blockchain, ou vous pouvez choisir votre disque externe. Je recommande de ne pas modifier le chemin d'accès par défaut si vous utilisez le disque interne, cela facilite la configuration lorsque vous installez d'autres logiciels pour communiquer avec Bitcoin Core.
 Vous pouvez choisir d'exécuter un nœud élagué, cela permet d'économiser de l'espace, mais limite ce que vous pouvez faire avec votre nœud. De toute façon, vous téléchargerez l'intégralité de la blockchain et la vérifierez, donc si vous avez de l'espace, conservez ce que vous avez téléchargé et ne l'élaguez pas si vous pouvez l'éviter.
 
 Une fois que vous confirmez, le téléchargement de la blockchain commencera. Cela prendra plusieurs jours.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Vous pouvez éteindre l'ordinateur et revenir pour télécharger si vous le souhaitez, cela ne causera aucun dommage.

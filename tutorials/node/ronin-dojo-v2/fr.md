@@ -37,7 +37,7 @@ Pour ma part, je fais fonctionner RoninDojo sur un Raspberry Pi doté de 8 Go de
 
 Il est important de noter que les équipes de RoninDojo ont signalé des problèmes fréquents liés au boîtier et à l'adaptateur SSD. J'ai moi-même été confronté à ces problèmes. **Il est donc fortement recommandé d'éviter les boîtiers équipés d'un câble USB pour le SSD de votre nœud.** Privilégiez à la place une carte d'extension de stockage conçue spécifiquement pour votre Raspberry Pi :
 
-![carte extension stockage RPI4](assets/fr/1.png)
+![carte extension stockage RPI4](assets/fr/1.webp)
 
 Pour stocker la blockchain Bitcoin, il vous faudra un SSD compatible avec la carte d'extension de stockage que vous avez choisie. Actuellement (février 2024), nous nous trouvons dans une phase de transition. Il est prévu que, dans quelques mois, les disques de 1 To ne suffiront plus pour contenir la taille croissante de la blockchain, surtout en considérant les diverses applications que vous prévoyez d'intégrer à votre nœud. Certains recommandent donc d'investir dans un SSD de 2 To pour être tranquille sur le long terme. Cependant, avec la tendance à la baisse des prix des SSD d'année en année, d'autres suggèrent de se contenter d'un disque de 1 To, qui devrait être suffisant pour un ou deux ans, argumentant qu'au moment où celui-ci deviendra obsolète, le coût des modèles de 2 To aura probablement diminué. Le choix dépend donc de vos préférences personnelles. Si vous envisagez de garder votre RoninDojo pour une durée significative et souhaitez éviter toute manipulation technique dans les années à venir, l'option d'un SSD de 2 To semble être la plus judicieuse, car elle vous offre une marge confortable pour l'avenir.
 
@@ -47,36 +47,36 @@ En complément, vous aurez besoin de divers petits composants :
 - Une carte micro SD d'au moins 16 Go (bien que 8 Go puissent techniquement suffire, la différence de prix entre les cartes de 8 et 16 Go est souvent négligeable) ;
 - Un câble Ethernet RJ45 pour la connexion réseau.
 
-![matériel noeud](assets/fr/2.png)
+![matériel noeud](assets/fr/2.webp)
 
 ## Comment monter le Raspberry Pi 4 ?
 L'assemblage de votre nœud variera en fonction du matériel choisi, en particulier du type de boîtier. Toutefois, les grandes lignes des étapes à suivre restent généralement similaires dans le montage.
 
 Commencez par installer votre SSD sur la carte d'extension de stockage, en prenant soin de fixer les deux vis de verrouillage à l'arrière.
 
-![montage1](assets/fr/3.png)
+![montage1](assets/fr/3.webp)
 
 Puis fixez votre Raspberry Pi sur la carte d'extension.
 
-![montage2](assets/fr/4.png)
+![montage2](assets/fr/4.webp)
 
 Fixez également le ventilateur sur le Raspberry Pi.
 
-![montage3](assets/fr/5.png)
+![montage3](assets/fr/5.webp)
 
 Connectez les différents éléments en prêtant attention à utiliser les bonnes broches, en vous référant à la notice de votre boîtier. Les fabricants de boîtiers proposent souvent des tutoriels vidéo pour vous aider dans l'assemblage. Dans mon cas, je dispose d'une carte d'extension additionnelle équipée d'un bouton on/off. Cette dernière n'est pas indispensable pour faire un nœud Bitcoin. Je l'utilise principalement pour avoir un bouton de mise sous tension.
 
 Si comme moi, vous avez une carte d'extension équipée d'un bouton marche/arrêt, n'oubliez pas d'installer le petit jumper « *Auto Power On* ». Cela permettra un démarrage automatique de votre nœud dès qu'il sera sous tension. Cette fonctionnalité s'avère particulièrement pratique en cas de coupure de courant, car elle permet à votre nœud de redémarrer de lui-même, sans intervention manuelle de votre part.
 
-![montage4](assets/fr/6.png)
+![montage4](assets/fr/6.webp)
 
 Avant d'insérer l'ensemble du matériel dans le boîtier, il est important de vérifier le bon fonctionnement de votre Raspberry Pi, de la carte d'extension de stockage et du ventilateur en les mettant sous tension.
 
-![montage5](assets/fr/7.png)
+![montage5](assets/fr/7.webp)
 
 Enfin, installez votre Raspberry Pi dans son boîtier. Attention, une étape ultérieure nécessitera l'ajout de la carte micro SD dans le port adapté sur le Raspberry Pi. Si votre boîtier est équipé d'une ouverture permettant d'insérer la carte SD sans avoir à l'ouvrir (comme c'est le cas pour le mien illustré sur la photo), vous pouvez procéder à la fermeture du boîtier dès à présent. En revanche, si votre boîtier ne dispose pas d'un accès direct au port micro SD, il vous faudra attendre d'avoir préparé la carte micro SD pour l'insérer avant de finaliser l'assemblage.
 
-![montage6](assets/fr/8.png)
+![montage6](assets/fr/8.webp)
 
 ## Comment installer RoninDojo v2 sur un Raspberry Pi 4 ?
 
@@ -90,31 +90,31 @@ Il vous faudra utiliser le logiciel _**Raspberry Pi Imager**_, conçu pour facil
 
 Une fois le logiciel installé, ouvrez-le, et insérez votre carte micro SD dans votre ordinateur personnel. Depuis l'interface de Raspberry Pi Imager, sélectionnez `CHOISIR L'OS` :
 
-![choisir OS](assets/fr/9.png)
+![choisir OS](assets/fr/9.webp)
 
 Ensuite, accédez au menu `Raspberry Pi OS (other)` :
 
-![choisir OS autres](assets/fr/10.png)
+![choisir OS autres](assets/fr/10.webp)
 
 Choisissez le système d'exploitation dénommé `Raspberry Pi OS (Legacy, 64-bits) Lite`, dont la taille est de `0.3 GB` :
 
-![choisir OS Legacy Lite](assets/fr/11.png)
+![choisir OS Legacy Lite](assets/fr/11.webp)
 
 Après avoir sélectionné le système d'exploitation, vous serez redirigé vers le menu principal de Raspberry Pi Imager. Cliquez sur `CHOISIR LE STOCKAGE` :
 
-![choisir stockage](assets/fr/12.png)
+![choisir stockage](assets/fr/12.webp)
 
 Sélectionnez votre carte micro SD :
 
-![choisir micro sd](assets/fr/13.png)
+![choisir micro sd](assets/fr/13.webp)
 
 Après avoir choisi le système d'exploitation et la carte micro SD, cliquez sur `SUIVANT` :
 
-![choisir suivant](assets/fr/14.png)
+![choisir suivant](assets/fr/14.webp)
 
 Une nouvelle fenêtre apparaîtra. Sélectionnez `MODIFIER RÉGLAGES` :
 
-![modifier réglages](assets/fr/15.png)
+![modifier réglages](assets/fr/15.webp)
 
 Dans cette fenêtre, accédez à l'onglet `GÉNÉRAL` et procédez aux réglages suivants (qui sont très importants pour que cela fonctionne) :
 - Activez l'option et attribuez `RoninDojo` comme nom d'hôte ;
@@ -122,40 +122,40 @@ Dans cette fenêtre, accédez à l'onglet `GÉNÉRAL` et procédez aux réglages
 - Désactivez `Configurer le Wi-Fi` ;
 - Activez `Définir les réglages locaux` et sélectionnez votre fuseau horaire ainsi que le type de clavier correspondant à votre ordinateur ;
 
-![réglages généraux](assets/fr/16.png)
+![réglages généraux](assets/fr/16.webp)
 
 Dans l'onglet SERVICES, cliquez sur la case `Activer SSH` et sélectionnez `Utiliser un mot de passe pour l'authentification` :
 
-![réglages services](assets/fr/17.png)
+![réglages services](assets/fr/17.webp)
 
 Assurez-vous également que dans l'onglet `OPTIONS`, la télémétrie est désactivée :
 
-![réglages options](assets/fr/18.png)
+![réglages options](assets/fr/18.webp)
 
 Cliquez sur `ENREGISTRER` :
 
-![réglages enregistrer](assets/fr/19.png)
+![réglages enregistrer](assets/fr/19.webp)
 
 Confirmez en cliquant sur `OUI` pour lancer la création de la carte micro SD bootable :
 
-![réglages oui](assets/fr/20.png)
+![réglages oui](assets/fr/20.webp)
 
 Un message vous informera que toutes les données présentes sur la carte micro SD seront effacées. Confirmez en cliquant sur `OUI` pour lancer le processus :
 
-![écraser micro SD](assets/fr/21.png)
+![écraser micro SD](assets/fr/21.webp)
 
 Patientez jusqu'à ce que le logiciel termine de préparer votre carte micro SD :
 
-![écriture micro SD](assets/fr/22.png)
+![écriture micro SD](assets/fr/22.webp)
 
 Lorsque le message indiquant la fin du processus s'affiche, vous pouvez retirer la carte micro SD de votre ordinateur :
 
-![écriture micro SD terminée](assets/fr/23.png)
+![écriture micro SD terminée](assets/fr/23.webp)
 
 ### Étape 2 : Terminer le montage du nœud
 Vous pouvez maintenant insérer la carte micro SD dans le port adapté de votre Raspberry Pi. 
 
-![micro SD](assets/fr/24.png)
+![micro SD](assets/fr/24.webp)
 
 Connectez ensuite votre Raspberry Pi à votre routeur à l'aide du câble Ethernet. Pour finir, mettez votre nœud en marche en connectant le câble d'alimentation et en actionnant le bouton de mise sous tension (si votre configuration en est pourvue).
 
@@ -213,22 +213,22 @@ Après avoir finalisé l'installation, pour vous connecter à votre nœud via un
 
 Une fois sur la page d'accueil de RoninUI, vous serez invité à lancer la configuration. Pour ce faire, cliquez sur le bouton `Let's start`.
 
-![lets start](assets/fr/25.png)
+![lets start](assets/fr/25.webp)
 
 À cette étape, RoninUI vous présente votre mot de passe `root`. Il est essentiel de le conserver soigneusement. Vous pouvez opter pour une sauvegarde physique, sur papier, ou l'enregistrer dans un [gestionnaire de mots de passe](https://planb.network/courses/secu101/4/2).
 
-![mot de passe root](assets/fr/26.png)
+![mot de passe root](assets/fr/26.webp)
 
 Après avoir sauvegardé le mot de passe `root`, cochez la case `I have backed up Root user credentials` et cliquez sur `Continue` pour continuer.
 
-![confirmer mot de passe root](assets/fr/27.png)
+![confirmer mot de passe root](assets/fr/27.webp)
 
 L'étape suivante consiste à créer un mot de passe utilisateur, qui servira tant pour l'accès à l'interface web de RoninUI que pour établir des sessions SSH avec votre nœud. Choisissez un mot de passe robuste et assurez-vous de bien le sauvegarder. Vous devrez entrer ce mot de passe à deux reprises avant de cliquer sur `Finish` pour valider. Quant au nom d'utilisateur, il est recommandé de conserver le choix par défaut, `ronindojo`. Si vous décidez de le modifier, n'oubliez pas d'ajuster les commandes des étapes suivantes en conséquence.
 
-![user credentials](assets/fr/28.png)
+![user credentials](assets/fr/28.webp)
 
 Une fois ces actions réalisées, patientez le temps de l'initialisation de votre nœud. Vous accéderez alors à l'interface web de RoninUI. Vous êtes presque au bout du processus, il ne reste que quelques petites étapes !
-![Ronin UI](assets/fr/29.png)
+![Ronin UI](assets/fr/29.webp)
 
 ### Étape 7 : Supprimer les identifiants temporaires
 Ouvrez un nouveau terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
@@ -242,7 +242,7 @@ Si vous avez changé votre nom d'utilisateur lors de l'étape précédente, en r
 
 Il vous sera demandé de saisir le mot de passe utilisateur. Entrez-le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'à l'option `Exit RoninDojo` et appuyez sur `entrer` pour la sélectionner.
 
-![RoninCLI](assets/fr/30.png)
+![RoninCLI](assets/fr/30.webp)
 
 À ce stade, vous vous trouvez sur le terminal de votre nœud, avec une invite de commande semblable à : `ronindojo@RoninDojo:~ $`. Pour retirer l'utilisateur temporaire créé durant la configuration de la carte micro SD bootable, saisissez la commande suivante et appuyez sur `entrer` :
 `sudo deluser --remove-home pi`
@@ -260,24 +260,24 @@ La première utilité de votre nœud fraichement installé et synchronisé sera 
 
 Pour obtenir l'adresse Tor de votre Electrum Server, depuis l'interface web RoninUI, allez dans :
 `Pairing > Electrum server > Pair now`
-![Pairing](assets/fr/31.png)
-![Electrs](assets/fr/32.png)
+![Pairing](assets/fr/31.webp)
+![Electrs](assets/fr/32.webp)
 Vous devrez alors saisir l'adresse `Hostname` se terminant par `.onion` dans votre logiciel de portefeuille, accompagnée du port `50001`.
-![hostname](assets/fr/33.png)
+![hostname](assets/fr/33.webp)
 Par exemple, sur Sparrow Wallet, il suffit d'aller dans l'onglet :
 `File > Preferences > Server > Private Electrum`
 
-![Sparrow](assets/fr/34.png)
+![Sparrow](assets/fr/34.webp)
 
 ### Connecter ses logiciels de portefeuilles à Samourai Dojo
 En alternative à l'utilisation d'Electrs, Dojo vous permet de connecter votre portefeuille logiciel compatible directement à votre nœud RoninDojo. Des portefeuilles comme Samourai Wallet et Sentinel offrent cette fonctionnalité.
 
 Pour établir la connexion, il vous suffira de scanner le QR code de votre Dojo. Pour accéder à ce QR code via RoninUI, naviguez vers :
 `Pairing > Samourai Dojo > Pair now`
-![Samourai Dojo](assets/fr/35.png)
+![Samourai Dojo](assets/fr/35.webp)
 Pour associer votre portefeuille Samourai Wallet à votre Dojo, scannez simplement ce QR code lors de l'installation de l'application :
 
-![Samourai Wallet connexion](assets/fr/36.png)
+![Samourai Wallet connexion](assets/fr/36.webp)
 
 Si vous aviez déjà un portefeuille Samourai Wallet avant de configurer votre Ronin Dojo, il est nécessaire de sauvegarder votre portefeuille, de désinstaller puis de réinstaller l'application Samourai Wallet, avant de restaurer votre portefeuille. Lors du lancement de l'application réinstallée, vous aurez l'option de vous connecter à un nouveau Dojo. **Attention, cette démarche comporte des risques de perte de vos bitcoins si elle n'est pas correctement exécutée !** Assurez-vous d'avoir le backup de votre portefeuille Samourai dans vos fichiers ainsi que de vérifier la validité de votre passphrase via `Settings > Troubleshoot > Passphrase`. Il est également important de disposer d'une sauvegarde lisible de votre phrase de récupération et de votre passphrase. Pour plus de précision dans cette opération, il est recommandé de suivre ce tutoriel détaillé : [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
@@ -290,17 +290,17 @@ Pour éviter ces risques, il est recommandé d'utiliser votre propre instance de
 
 Pour cela, commencez par installer *Mempool Space Visualizer* depuis RoninUI. Sur l'interface web, allez l'onglet `Dashboard` et cliquez sur `Manage` en dessous de `Mempool Space` :
 `Dashboard > Mempool Space > Manage`
-![Manage mempool](assets/fr/37.png)
+![Manage mempool](assets/fr/37.webp)
 Cliquez ensuite sur le bouton `Install Mempool visualizer` :
-![install mempool](assets/fr/38.png)
+![install mempool](assets/fr/38.webp)
 Confirmez votre mot de passe utilisateur :
-![password mempool](assets/fr/39.png)
+![password mempool](assets/fr/39.webp)
 Attendez le temps de son installation, puis cliquez de nouveau sur le bouton `Manage` :
-![Mempool Manage](assets/fr/40.png)
+![Mempool Manage](assets/fr/40.webp)
 Vous obtiendrez un lien `.onion` pour accéder à votre propre instance de *Mempool.space* via le réseau Tor.
-![Mempool link](assets/fr/41.png)
+![Mempool link](assets/fr/41.webp)
 Je vous conseille de sauvegarder ce lien dans vos favoris sur le navigateur Tor ou de l'ajouter à l'application Tor Browser sur votre smartphone pour avoir un accès facile et sécurisé depuis n'importe où. Si vous ne disposez pas encore du navigateur Tor, vous pouvez le télécharger ici : [https://www.torproject.org/download/](https://www.torproject.org/download/)
-![Mempool Tor](assets/fr/42.png)
+![Mempool Tor](assets/fr/42.webp)
 
 ### Utiliser Whirlpool pour mixer ses bitcoins
 Votre nœud RoninDojo intègre également _WhirlpoolCLI_, une interface de ligne de commande qui permet l'automatisation des coinjoins Whirlpool, et _WhirlpoolGUI_, une interface graphique conçue pour interagir avec _WhirlpoolCLI_.
@@ -327,15 +327,15 @@ Si vous avez changé votre nom d'utilisateur lors de l'étape 6, en remplaçant 
 
 Il vous sera demandé de saisir le mot de passe utilisateur. Entrez-le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'au menu `Samourai Toolkit` et appuyez sur `entrer` pour le sélectionner :
 
-![Samourai Toolkit](assets/fr/43.png)
+![Samourai Toolkit](assets/fr/43.webp)
 
 Sélectionnez ensuite `Whirlpool Stat Tool` :
 
-![WST](assets/fr/44.png)
+![WST](assets/fr/44.webp)
 
 À l'initialisation de WST, l'outil procédera à son installation automatique. Patientez durant cette étape. Les instructions d'utilisation vont défiler. Une fois l'installation achevée, appuyez sur n'importe quelle touche pour accéder au terminal de WST :
 
-![WST commandes](assets/fr/45.png)
+![WST commandes](assets/fr/45.webp)
 
 À l'écran s'affichera l'invite de commande suivante : 
 `wst#/tmp>`
@@ -357,12 +357,12 @@ Remplacez `0001` par le code de dénomination de la pool qui vous intéresse. Le
 
 Après le téléchargement, chargez les données en remplaçant `0001` par le code de votre pool dans cette commande : `load 0001`
 
-![WST loading](assets/fr/46.png)
+![WST loading](assets/fr/46.webp)
 
 Patientez le temps du chargement, qui peut durer quelques minutes. Une fois les données chargées, pour connaître les scores d'anonsets de votre pièce, exécutez la commande `score` suivie de votre TXID (sans les crochets) :
 `score [TXID]`
 
-![WST score](assets/fr/47.png)
+![WST score](assets/fr/47.webp)
 
 WST affichera alors le score rétrospectif (_Backward-looking metrics_), suivi du score prospectif (_Forward-looking metrics_). Outre les scores d'anonsets, WST indiquera également le taux de diffusion de votre transaction au sein de la pool, relatif à son anonset.
 
@@ -374,7 +374,7 @@ Le calculateur Boltzmann est un outil pour analyser une transaction Bitcoin, en 
 Avant de détailler la procédure d'utilisation du Calculateur Boltzmann, il est important de comprendre la signification de ces indicateurs, leur méthode de calcul, et leur utilité. Bien qu'applicables à toute transaction Bitcoin, ces indicateurs sont particulièrement utiles pour évaluer la qualité d'une transaction coinjoin.
 
 **Le premier indicateur** que le logiciel calcule est le nombre total de combinaisons possibles, indiqué sous `nb combinations` dans l'outil. Basé sur les valeurs des UTXO impliqués, cet indicateur chiffre le nombre de manières dont les entrées peuvent être associées aux sorties. Autrement dit, il détermine le nombre d'interprétations plausibles qu'une transaction peut susciter. À titre d'exemple, un coinjoin structuré selon le modèle Whirlpool 5x5 présente `1496` combinaisons possibles :
-![combinaisons](assets/fr/50.png)
+![combinaisons](assets/fr/50.webp)
 Crédit : [KYCP.org](https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d)
 
 **Le deuxième indicateur** calculé est l'entropie d'une transaction, désignée par `Entropy`. Lorsqu'une transaction présente un nombre élevé de combinaisons possibles, il est souvent plus pertinent de se référer à son entropie. Celle-ci est définie comme le logarithme binaire du nombre de combinaisons possibles. Voici la formule utilisée :
@@ -456,30 +456,30 @@ Si vous avez changé votre nom d'utilisateur lors de l'étape 6, en remplaçant 
 
 Il vous sera demandé de saisir le mot de passe utilisateur. Entrez-le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'au menu `Samourai Toolkit` et appuyez sur `entrer` pour le sélectionner :
 
-![Samourai Toolkit](assets/fr/43.png)
+![Samourai Toolkit](assets/fr/43.webp)
 
 Sélectionnez ensuite `Boltzmann Calculator` :
 
-![boltzmann](assets/fr/49.png)
+![boltzmann](assets/fr/49.webp)
 
 Vous arrivez sur l'accueil du logiciel :
 
-![boltzmann accueil](assets/fr/51.png)
+![boltzmann accueil](assets/fr/51.webp)
 
 Saisissez la TXID de la transaction que vous souhaitez étudier et tapez sur la touche `entrer` :
 
-![boltzmann txid](assets/fr/52.png)
+![boltzmann txid](assets/fr/52.webp)
 
 Le calculateur vous fournit alors l'ensemble des indicateurs dont nous avons parlé précédemment :
 
-![boltzmann resultat](assets/fr/53.png)
+![boltzmann resultat](assets/fr/53.webp)
 
 ### Les autres fonctionnalités de votre RoninDojo v2
 Votre nœud RoninDojo intègre diverses autres fonctionnalités. Vous avez notamment la possibilité de scanner des informations spécifiques afin de faire en sorte de les prendre en compte. Par exemple, il se peut parfois que votre portefeuille Samourai, connecté à RoninDojo, n'affiche pas les bitcoins que vous détenez réellement. Si la balance indique 0 alors que vous êtes certain d'avoir des bitcoins sur ce portefeuille, plusieurs raisons peuvent expliquer cette situation, telles qu'une erreur dans les chemins de dérivation. Mais une des causes peut également être que votre nœud ne surveille pas correctement vos adresses. Pour résoudre ce problème, vous pouvez vous assurer que votre nœud suit bien votre `xpub` grâce à l'outil _xpub tool_. Pour accéder à cet outil via RoninUI, suivez le chemin : 
 `Maintenance > XPUB Tool`
 
 Entrez la `xpub` qui pose problème et cliquez sur le bouton `Check` pour vérifier cette information :
-![xpub tool](assets/fr/54.png)
+![xpub tool](assets/fr/54.webp)
 Assurez-vous que toutes les transactions soient correctement répertoriées. Il est également important de vérifier que le type de dérivation utilisé correspond bien à celui de votre portefeuille. Si ce n'est pas le cas, cliquez sur `Retype`, puis choisissez parmi `BIP44`, `BIP49`, ou `BIP84` selon vos besoins.
 
 Au-delà de cet outil, l'onglet `Maintenance` de RoninUI regorge d'autres fonctionnalités utiles :

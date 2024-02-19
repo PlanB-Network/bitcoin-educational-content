@@ -17,7 +17,7 @@ In 2015, [LaurentMT](https://twitter.com/LaurentMT) first mentioned this method 
 The uniqueness of Payjoin lies in its ability to generate a transaction that appears ordinary at first glance but is actually a mini Coinjoin between two parties. To achieve this, the transaction structure involves the payment recipient alongside the actual sender in the inputs. The recipient includes a payment to themselves in the middle of the transaction, which allows them to be paid.
 
 Let's take a concrete example: if you buy a baguette for `4000 sats` using a UTXO of `10,000 sats` and opt for a Payjoin, your baker will add a UTXO of `15,000 sats` that belongs to them as an input, which they will receive in full as an output, in addition to your `4000 sats`:
-![Payjoin transaction diagram](assets/en/1.png)
+![Payjoin transaction diagram](assets/en/1.webp)
 
 In this example, the baker introduces `15,000 sats` as an input and comes out with `19,000 sats`, with a difference of exactly `4000 sats`, which is the price of the baguette. On your side, you enter with `10,000 sats` and end up with `6,000 sats` as an output, representing a balance of `-4000 sats`, which is the price of the baguette. To simplify the example, I deliberately omitted mining fees in this transaction.
 
@@ -31,10 +31,10 @@ Furthermore, Payjoin also allows for deceiving an external observer about the ac
 > Steganography is a technique of concealing information within other data or objects in such a way that the presence of the hidden information is not perceptible. For example, a secret message can be hidden inside a dot in a text that has nothing to do with it, making it undetectable to the naked eye (this is the technique of micropoint). Unlike encryption, which makes information incomprehensible without the decryption key, steganography does not modify the information. It remains displayed in plain sight. Its objective is rather to hide the existence of the secret message, whereas encryption clearly reveals the presence of hidden information, although inaccessible without the key.
 
 Let's go back to our example of a Payjoin transaction for the payment of a baguette.
-![Payjoin transaction schema from the outside](assets/en/2.png)
+![Payjoin transaction schema from the outside](assets/en/2.webp)
 By seeing this transaction on the blockchain, an external observer who follows the usual heuristics of chain analysis would interpret it as follows: "*Alice merged 2 UTXOs as inputs of the transaction to pay `19,000 sats` to Bob*."
-![Incorrect interpretation of Payjoin transaction from the outside](assets/en/3.png)
-This interpretation is obviously incorrect because, as you already know, the two input UTXOs do not belong to the same person. Furthermore, the actual value of the payment is not `19,000 sats`, but rather `4,000 sats`. The analysis of the external observer is thus directed towards an erroneous conclusion, ensuring the preservation of the confidentiality of the stakeholders.![payjoin transaction diagram](assets/en/1.png)
+![Incorrect interpretation of Payjoin transaction from the outside](assets/en/3.webp)
+This interpretation is obviously incorrect because, as you already know, the two input UTXOs do not belong to the same person. Furthermore, the actual value of the payment is not `19,000 sats`, but rather `4,000 sats`. The analysis of the external observer is thus directed towards an erroneous conclusion, ensuring the preservation of the confidentiality of the stakeholders.![payjoin transaction diagram](assets/en/1.webp)
 If you wish to analyze a real Payjoin transaction, here is one that I performed on the testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 [**-> Discover our tutorial on how to make a Payjoin with Samourai Wallet**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  

@@ -41,11 +41,11 @@ Evita:
 - Mac: son caras y el hardware no se lleva bien con los sistemas operativos Linux en mi experiencia
 - Cualquier cosa reacondicionada o de segunda mano (aunque no es un factor decisivo absoluto)
   En su lugar, busca una laptop con Windows 11 (Actualmente, Windows 11 es la última versión. Nos desharemos de ese software, no te preocupes). Busqué en amazon.com "Laptop con Windows 11" y encontré este buen ejemplo:
-  ![imagen](assets/1.png)
+  ![imagen](assets/1.webp)
 
 El precio de este es bueno. Las especificaciones son suficientes. Tiene una cámara incorporada que podemos usar para transacciones de códigos QR PSBT (de lo contrario, tendrías que comprar una cámara USB para hacerlo). No te preocupes por el hecho de que no sea una marca reconocida (es barata). Si quieres una marca mejor, te costará, por ejemplo:
 
-![imagen](assets/2.png)
+![imagen](assets/2.webp)
 
 Algunos de los más baratos solo tienen 64 GB de espacio en el disco; no he probado laptops con unidades tan pequeñas, probablemente esté bien tener 64 GB, pero podría ser un poco justo.
 
@@ -81,27 +81,27 @@ Vamos a usar cualquier computadora para grabar el sistema operativo en una memor
 
 Consigue una de estas cosas:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 O puedes usar algo como esto:
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 A continuación, ve a linuxmint.com
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Pasa el mouse sobre el menú de Descargas en la parte superior y luego haz clic en el enlace "Linux Mint 20.3" o cualquier versión que sea la última recomendada en el momento en que hagas esto.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Habrá algunos "sabores" para elegir. Elige "Cinnamon" para seguir esta guía. Haz clic en el botón Descargar.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 En la siguiente página, puedes desplazarte hacia abajo para ver los espejos (los espejos son varios servidores que tienen una copia del archivo que queremos). Puedes verificar la descarga usando SHA256 y gpg (recomendado), pero voy a omitir explicarlo aquí ya que he escrito guías al respecto anteriormente.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Elige un espejo que esté más cerca de ti y haz clic en su enlace (el texto verde en la columna del espejo). El archivo comenzará a descargarse, la versión que estoy descargando tiene 2.1 gigabytes.
 
@@ -109,7 +109,7 @@ Una vez descargado, puedes grabar el archivo en un dispositivo de memoria portá
 
 Luego ejecútalo:
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Haz clic en "Flash from file" y selecciona el archivo de LinuxMint que descargaste.
 
@@ -126,13 +126,13 @@ Cada computadora tendrá un menú de BIOS diferente. Explora y encuentra qué me
 
 Reinicia la computadora y debería cargarse desde el dispositivo de memoria USB. No podemos instalar Linux en el disco interno y Windows se eliminará para siempre.
 Cuando llegues a la siguiente pantalla, selecciona "Instalación OEM (para fabricantes)". Si en cambio eliges "Iniciar Linux Mint", se cargará una sesión de Linux Mint en el dispositivo de memoria, pero una vez que apagues la computadora, no se guardará ninguna de tu información, es básicamente una sesión temporal para que puedas probarlo.
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Se te guiará a través de un asistente gráfico que te hará varias preguntas que deberían ser sencillas. Una de ellas será la configuración del idioma, otra será la conexión a tu red de internet doméstica y la contraseña. Si se te solicita instalar software adicional, recházalo. Cuando llegues a la pregunta sobre el tipo de instalación, algunas personas pueden dudar: debes elegir "Borrar disco e instalar Linux Mint". Además, no encriptes la unidad y no selecciones LVM.
 
 Finalmente llegarás al escritorio. En este punto, aún no has terminado. En realidad, estás actuando como el fabricante (es decir, alguien que construye una computadora y configura Linux para el cliente). Necesitas hacer doble clic en el icono del escritorio "Instalar Linux Mint" para finalizarlo.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Recuerda quitar la memoria USB y luego reiniciar. Después de reiniciar, estarás utilizando el sistema operativo por primera vez como un nuevo usuario. Felicitaciones.
 

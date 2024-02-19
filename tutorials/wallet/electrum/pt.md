@@ -36,7 +36,7 @@ Clique na guia Download no topo.
 
 Clique no link de download que corresponde ao seu computador. Qualquer computador Linux ou Mac pode usar o link Python (círculo vermelho). Um computador Linux com um chip Intel ou AMD pode usar o Appimage (círculo verde; isso é como um arquivo executável do Windows). Um dispositivo Raspberry Pi tem um microprocessador ARM e só pode usar a versão Python (círculo vermelho), não o Appimage, mesmo que os Pi's executem o Linux. O círculo azul é para Windows e o círculo preto é para Mac.
 
-![imagem](assets/1.png)
+![imagem](assets/1.webp)
 
 ## Verificando o Electrum
 
@@ -50,13 +50,13 @@ Em outras palavras, com as três entradas (assinatura, chave pública e arquivo 
 
 Para obter a assinatura, clique no link correspondente ao arquivo que você baixou (veja as setas coloridas):
 
-![imagem](assets/2.png)
+![imagem](assets/2.webp)
 
 Clicar no link pode baixar automaticamente o arquivo para a pasta de downloads ou pode abrir no navegador. Se abrir no navegador, você precisa salvar o arquivo. Você pode clicar com o botão direito e selecionar "salvar como". Dependendo do sistema operacional ou navegador, talvez seja necessário clicar com o botão direito na área de espaço em branco, não no texto.
 
 Abaixo está como o texto baixado se parece. Você pode ver que existem várias assinaturas - essas são assinaturas de pessoas diferentes. Você pode verificar cada uma ou qualquer uma delas. Vou mostrar como verificar apenas a do desenvolvedor.
 
-![imagem](assets/3.png)
+![imagem](assets/3.webp)
 
 Em seguida, você precisa obter a chave pública de ThomasV - ele é o principal desenvolvedor. Você pode obtê-la diretamente dele, de sua conta Keybase, Github ou de outra pessoa, de um servidor de chaves ou do site do Electrum.
 
@@ -66,7 +66,7 @@ Para simplificar por enquanto, vou mostrar como obtê-la do site de qualquer man
 
 Role um pouco a página para encontrar o link para a chave pública de ThomasV (círculo vermelho abaixo). Clique nele e faça o download ou, se abrir algum texto no navegador, clique com o botão direito para salvar.
 
-![imagem](assets/4.png)
+![imagem](assets/4.webp)
 
 Agora você tem 3 novos arquivos, provavelmente todos na pasta de downloads. Não importa onde eles estejam, mas torna o processo mais fácil se você colocá-los todos na mesma pasta.
 
@@ -116,7 +116,7 @@ Agora temos uma cópia verificada do Electrum que é seguro de usar.
 
 Se você baixou a versão Python, é assim que você pode fazê-la funcionar. Você verá na página de download isso:
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Para Linux, é uma boa ideia primeiro atualizar seu sistema:
 
@@ -172,7 +172,7 @@ Apesar de eu odiar o Windows acima de tudo, este é o método mais simples. Bast
 
 Quando você carrega o Electrum pela primeira vez, uma janela será aberta como esta:
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Mais tarde, selecionaremos manualmente o servidor, mas por enquanto, deixe o padrão e a conexão automática.
 
@@ -180,27 +180,27 @@ Em seguida, crie uma carteira falsa - nunca coloque fundos nesta carteira. O obj
 
 Você pode deixar o nome como "default_wallet" ou alterá-lo para o que quiser e clicar em próximo. Mais tarde, se você tiver várias carteiras, poderá encontrá-las e abri-las nesta etapa clicando primeiro em "Escolher..."
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Escolha "Carteira padrão" e <Próximo>:
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Em seguida, selecione "Eu já tenho uma semente". Não quero que você crie uma semente do Electrum, pois ele usa seu próprio protocolo que não é compatível com outras carteiras - é por isso que não clicamos em "nova semente".
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Vá para https://iancoleman.io/bip39/ e crie uma semente falsa. Primeiro, altere o número de palavras para 12 (que é uma prática comum), em seguida, clique em "gerar" e copie as palavras na caixa para a área de transferência.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Em seguida, cole as palavras no Electrum. Aqui está um exemplo:
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 O Electrum estará procurando por palavras que correspondam ao seu próprio protocolo. Temos que contornar isso. Clique em opções e selecione "Semente BIP39":
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 A semente então se torna válida. (Antes de fazer isso, o Electrum estava esperando uma semente do Electrum, então essa semente era considerada inválida). Antes de clicar em próximo, observe o texto que diz "Checksum OK". É importante (para a carteira real que você pode usar posteriormente) que você veja isso antes de prosseguir, pois confirma a validade da semente que você inseriu. O aviso próximo ao final pode ser ignorado, é a reclamação do desenvolvedor do Electrum sobre o BIP39 e suas alegações "FUD" de que sua versão (que não é compatível com outras carteiras) é superior.
 
@@ -212,15 +212,15 @@ Depois de clicar em OK, você será levado de volta ao local onde digitou a fras
 
 Se você não solicitou uma frase secreta, verá esta tela a seguir - mais opções para o tipo de script da sua carteira e caminho de derivação, sobre os quais você pode aprender aqui (https://armantheparman.com/public-and-private-keys/), mas apenas deixe as configurações padrão e prossiga.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 > Para informações extras: A primeira opção permite que você escolha entre legado (endereços começando com "1"), pay-to-script-hash (endereços começando com "3") ou bech32/native segwit (endereços começando com "bc1q"). No momento da escrita, o Electrum ainda não suporta taproot (endereços começando com "bc1p"). A segunda opção nesta janela permite que você modifique o caminho de derivação. Sugiro que você nunca modifique isso, especialmente antes de entender o que significa. As pessoas enfatizarão a importância de escrever o caminho de derivação para que você possa recuperar sua carteira, se necessário, mas se você deixá-lo como padrão, provavelmente ficará bem, então não entre em pânico - mas ainda é uma boa prática escrever o caminho de derivação.
 
 Em seguida, você terá a opção de adicionar uma SENHA. Isso não deve ser confundido com "FRASE SECRETA". Uma senha bloqueia o arquivo em seu computador. Uma frase secreta faz parte da composição da chave privada. Como esta é uma carteira fictícia, você pode deixar a senha em branco e prosseguir.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 Você receberá um pop-up sobre notificações de nova versão (sugiro que você selecione não). A carteira então se gerará e estará pronta para uso (mas lembre-se, esta carteira está destinada a ser excluída, é apenas uma carteira falsa).
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Há algumas coisas que sugiro que você faça para configurar o ambiente de software (necessário apenas uma vez):
 
@@ -317,13 +317,13 @@ Vamos nos conectar ao nó da Bitaroo - Nos disseram que eles não estão coletan
 
 Acesse as Configurações de Rede clicando no círculo na parte inferior direita da janela da Carteira (vermelho indica não conectado, verde indica conectado e azul indica conectado via Tor).
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Depois de clicar no ícone do círculo, uma janela pop-up aparecerá: Sua carteira mostrará "conectado a 1 nó" desde que forçamos isso anteriormente.
 
 Desmarque a caixa "selecionar servidor automaticamente" e, em seguida, no campo Servidor, digite os detalhes da Bitaroo conforme mostrado:
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Feche a janela e agora devemos estar conectados ao nó da Bitaroo. Para confirmar, o círculo deve estar verde. Clique nele novamente e verifique se os detalhes do servidor não voltaram para um nó aleatório.
 
@@ -335,7 +335,7 @@ Se você tiver seu próprio nó, ótimo. Se você tiver apenas o Bitcoin Core e 
 > Se você executar um pacote de software de nó como o MyNode (o que eu recomendo para as pessoas começarem), Raspiblitz (recomendado à medida que você se torna mais avançado) ou Umbrel (pessoalmente, ainda não recomendo, pois tive muitos problemas), então você poderá conectar sua carteira simplesmente inserindo o endereço IP do computador (Raspberry Pi) que está executando o nó, além de dois pontos e 50002, como mostrado na imagem na seção anterior. (Mais adiante, mostrarei como encontrar o endereço IP do seu nó).
 > Abra as configurações de rede (clique no círculo verde ou vermelho no canto inferior direito). Desmarque a caixa "selecionar servidor automaticamente" e insira seu endereço IP, como eu fiz, o seu será diferente, mas os dois pontos e "50002" devem ser os mesmos.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Feche a janela e agora deveríamos estar conectados ao seu nó. Para confirmar, clique novamente no círculo e verifique se os detalhes do servidor não voltaram para um nó aleatório.
 
@@ -373,11 +373,11 @@ https://mynode.local
 
 Isso acessará o dispositivo e você pode clicar no link de configurações (veja meu "círculo" azul abaixo) para mostrar esta tela onde o endereço IP está localizado:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Esta página será carregada e você verá o IP do nó (círculo azul).
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Em seguida, no futuro, você pode digitar 192.168.0.150 ou http://192.168.0.150 em seu navegador.
 
@@ -396,7 +396,7 @@ Primeiro, encontre o endereço IP de qualquer dispositivo em sua rede (o computa
 
 Em um Mac, você encontrará nas preferências de rede:
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Estamos interessados nos primeiros 4 elementos (192.168.0), não no 4º elemento, o "166" que você vê na imagem (o seu será diferente).
 
@@ -428,7 +428,7 @@ Um por um, avance em direção ao 255. Eventualmente, você parará no número c
 
 Vai parecer algo assim (certifique-se de incluir os dois pontos e o número depois):
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 > É útil saber que esses endereços IP são INTERNOS à sua rede doméstica. Ninguém de fora pode vê-los e eles não são sensíveis. Eles são como ramais telefônicos em uma grande organização que o direcionam para diferentes telefones.
 
@@ -451,7 +451,7 @@ Na nova carteira que você criou, você verá uma lista de endereços. Os verdes
 
 Mais informações sobre chaves privadas do bitcoin podem ser encontradas neste guia.
 
-![imagem](assets/23.png)
+![imagem](assets/23.webp)
 
 Isso é muito diferente de algumas outras carteiras que apresentam apenas 1 endereço de cada vez.
 
@@ -465,31 +465,31 @@ Em seguida, volte para o site da chave privada de Ian Colman e insira a semente 
 
 Role para baixo e altere o caminho de derivação para BIP84 (segwit) para corresponder à sua carteira Electrum clicando na guia BIP84.
 
-![imagem](assets/24.png)
+![imagem](assets/24.webp)
 
 Abaixo disso, você verá a chave privada estendida da conta e a chave pública estendida da conta:
 
-![imagem](assets/25.png)
+![imagem](assets/25.webp)
 
 Vá para o Electrum e compare se eles correspondem. Há um menu no topo, carteira -> informações:
 
-![imagem](assets/26.png)
+![imagem](assets/26.webp)
 
 Isso aparece:
 
-![imagem](assets/27.png)
+![imagem](assets/27.webp)
 
 Observe que as duas chaves públicas correspondem.
 
 Em seguida, compare os endereços. Volte para o site de Ian Coleman e role até o final:
 
-![imagem](assets/28.png)
+![imagem](assets/28.webp)
 
 Observe que eles correspondem aos endereços no Electrum.
 
 Agora vamos verificar os endereços de troco. Role um pouco para cima até o caminho de derivação e altere o último 0 para um 1:
 
-![imagem](assets/29.png)
+![imagem](assets/29.webp)
 
 Agora role para baixo e compare se os endereços correspondem aos endereços amarelos no Electrum.
 
@@ -511,7 +511,7 @@ Isso tem vários propósitos.
 
 Abra sua carteira de teste do Electrum e clique na aba "Endereços", em seguida, clique com o botão direito do mouse no primeiro endereço e selecione Copiar -> Endereço:
 
-![image](assets/30.png)
+![image](assets/30.webp)
 
 O endereço agora está na memória do seu computador.
 
@@ -519,11 +519,11 @@ Agora vá para uma exchange onde você tem alguns bitcoins e vamos retirar uma p
 
 Faça login e clique no botão Enviar/Receber, que atualmente está no canto superior direito da página.
 
-![image](assets/31.png)
+![image](assets/31.webp)
 
 Obviamente, não tenho fundos na Coinbase, mas imagine que há fundos aqui e siga em frente: Cole o endereço do Electrum no campo "Para", como eu fiz. Você também precisará selecionar uma quantia (sugiro cerca de 50.000 sats). Não coloque uma "mensagem opcional" - a Coinbase está coletando dados suficientes seus (e vendendo-os), não há necessidade de ajudá-los. Por fim, clique em "Continuar". Depois disso, não sei quais outras janelas pop-up você verá, você está por conta própria, mas o método é semelhante para todas as exchanges.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 Dependendo da exchange, você pode ver os sats em sua carteira imediatamente ou pode haver um atraso de horas/dias.
 
@@ -535,40 +535,40 @@ Agora que temos uma UTXO em nossa carteira, devemos rotulá-la. Apenas nós pode
 
 Eu precisava de uma doação para esta carteira de teste, obrigado a @Sathoarder por me fornecer uma UTXO ativa (10.000 sats), e outra pessoa (anon) doou para o mesmo endereço (5.000 sats). Observe que há 15.000 sats no saldo do primeiro endereço e um total de 2 transações (coluna da extrema direita). Na parte inferior, o saldo é de 10.000 sats confirmados e mais 5.000 sats estão não confirmados (ainda na mempool).
 
-![image](assets/33.png)
+![image](assets/33.webp)
 
 Agora, se formos para a aba "Moedas", podemos ver duas "moedas recebidas" ou UTXOs. Ambas estão no mesmo endereço.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 
 Voltando para a aba de endereços, se você clicar duas vezes na área de "rótulos" ao lado do endereço, poderá inserir algum texto e depois pressionar <enter> para salvar:
 
-![image](assets/35.png)
+![image](assets/35.webp)
 Esta é uma boa prática para que você possa acompanhar de onde suas moedas vieram, se elas são KYC-free ou não, e quanto cada UTXO custou para você (caso precise vender e calcular o imposto a ser roubado por seu governo).
 
 Idealmente, você deve evitar acumular várias moedas no mesmo endereço. Se você decidir fazer isso (não faça), você pode rotular cada moeda em vez de todas elas com o mesmo rótulo usando o método de endereço. Você não pode realmente ir para a guia "moedas" e editar os rótulos lá (não, isso seria muito intuitivo!). Você precisa ir para a guia Histórico, encontrar a transação, rotulá-la e então verá os rótulos na seção de moedas. Quaisquer rótulos que você veja na seção de moedas são provenientes dos rótulos de endereço OU dos rótulos de histórico, mas qualquer rótulo de histórico substitui qualquer rótulo de endereço. Para fazer backup de seus rótulos em um arquivo, você pode exportá-los no menu superior, carteira -> rótulos -> exportar.
 
 Em seguida, vamos gastar as moedas do primeiro endereço para o segundo endereço. Clique com o botão direito no primeiro endereço e selecione "gastar de" (isso na verdade não é necessário neste cenário, mas imagine que temos muitas moedas em muitos endereços; usando esse recurso, podemos forçar a carteira a gastar apenas as moedas que queremos. Se quisermos selecionar várias moedas em vários endereços, podemos selecionar os endereços com um clique do mouse enquanto seguramos a tecla de comando, em seguida, clique com o botão direito e selecione "gastar de":
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 Depois de fazer isso, haverá uma barra verde na parte inferior da janela da carteira indicando o número de moedas que você selecionou e o total disponível para gastar.
 
 Você também pode gastar moedas individuais dentro de um endereço e excluir outras no mesmo endereço, mas isso é desencorajado porque você está deixando moedas em um endereço que foi enfraquecido criptograficamente devido ao gasto de uma das moedas (outra razão para não colocar várias moedas em um endereço, além de razões de privacidade, é que, dado que você deve gastá-las todas se gastar uma, isso se torna desnecessariamente caro). Veja como selecionar uma única moeda de um endereço compartilhado, mas não faça isso:
 
-![image](assets/37.png)
+![image](assets/37.webp)
 
 Agora, temos as duas moedas selecionadas para gastar. Em seguida, decidimos para onde enviá-las. Vamos enviá-las para o segundo endereço. Precisaremos copiar o endereço assim:
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 Em seguida, vá para a guia "Enviar" e cole o segundo endereço no campo "pagar para". Não é necessário adicionar uma descrição; você poderia, mas pode fazer isso depois editando os rótulos. Para o valor, selecione "Máximo" para gastar todas as moedas que selecionamos. Em seguida, clique em "Pagar" e depois clique no botão "avançado" na janela pop-up que aparece.
 
-![image](assets/39.png)
+![image](assets/39.webp)
 
 Sempre clique em "avançado" nesta etapa para que possamos ter um controle preciso e verificar exatamente o que está na transação. Aqui está a transação:
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 Vemos duas caixas/janelas internas brancas. A de cima é a janela de entradas (quais moedas estão sendo gastas) e a de baixo é a de saídas (para onde as moedas estão indo).
 Observe que o status (canto superior esquerdo) é "não assinado" por enquanto. O "Valor enviado" é 0 porque as moedas estão sendo transferidas dentro da carteira. A taxa é de 481 sats. Observe que se fossem 480 sats, o zero final seria removido, assim: 0.0000048 e, para o olho cansado, isso pode parecer 48 sats - tenha cuidado (algo que os desenvolvedores do Electrum devem corrigir).
@@ -576,7 +576,7 @@ O tamanho da transação refere-se ao tamanho dos dados em bytes, não à quanti
 
 Na parte inferior, temos algumas ferramentas sofisticadas de ajuste de taxa de mineração. Tudo o que você precisa fazer para transferências internas é definir a taxa mínima de 1 sat/byte. Basta digitar manualmente o número no campo Taxa alvo. Para verificar uma taxa apropriada para um pagamento externo, você pode consultar https://mempool.space para ver o quão ocupado está o mempool e algumas taxas sugeridas são exibidas.
 
-![imagem](assets/41.png)
+![imagem](assets/41.webp)
 
 Eu selecionei 1 sat/byte.
 
@@ -594,7 +594,7 @@ Se ajustarmos a taxa de mineração, o valor da saída mudará automaticamente.
 
 Depois de verificar tudo na transação e ter certeza de que está satisfeito com quais moedas está gastando e para onde as moedas estão indo, você pode clicar em "finalizar".
 
-![imagem](assets/42.png)
+![imagem](assets/42.webp)
 Depois de clicar em "finalizar", você não poderá mais fazer edições - Se precisar, terá que fechar isso e começar novamente. Observe que o botão "finalizar" mudou para "exportar" e novos botões apareceram: "salvar", "combinar", "assinar" e "transmitir". O botão "transmitir" está desativado porque a transação não está assinada e, portanto, inválida nessa etapa.
 Ao clicar em assinar, se você tiver uma senha para a carteira, será solicitado que insira a senha e, em seguida, o status (canto superior direito) mudará de "Não assinada" para "Assinada". Em seguida, o botão "Transmitir" estará disponível.
 
@@ -606,15 +606,15 @@ Algo a ser observado é que, em vez de transmitir, podemos salvar a transação 
 
 Clique no botão "exportar" (paradoxalmente, NÃO clique no botão "salvar") e você verá várias opções. A transação é codificada com texto e, portanto, pode ser salva de várias maneiras.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 Salvar em um código QR é muito interessante. Se você escolher isso, um QR code aparecerá:
 
-![image](assets/44.png)
+![image](assets/44.webp)
 
 Você pode então tirar uma foto do código QR. Existem várias coisas que você pode fazer com isso, mas por enquanto, vamos apenas dizer que você está carregando-o de volta para a carteira posteriormente. Você pode fechar o Electrum, carregar a carteira novamente e ir para o menu Ferramentas:
 
-![image](assets/45.png)
+![image](assets/45.webp)
 
 Isso abrirá a câmera do seu computador. Em seguida, mostre à câmera a foto do código QR no seu telefone e isso carregará a transação de volta, exatamente como você a deixou.
 
@@ -638,11 +638,11 @@ Observe que, ao ajustar a taxa de mineração, o valor de saída de troco será 
 
 Este é um recurso muito interessante do Electrum. Você acessa assim.
 
-![imagem](assets/46.png)
+![imagem](assets/46.webp)
 
 Você pode então inserir vários destinos para o saldo da UTXO que você está gastando, assim:
 
-![imagem](assets/47.png)
+![imagem](assets/47.webp)
 
 Cole o endereço, digite uma vírgula, depois um espaço, depois o valor, depois <enter>, depois faça novamente. NÃO INSIRA VALORES NAS JANELAS "VALOR" - O Electrum preencherá o total aqui conforme você digita os valores individuais na janela "Pagar para".
 
@@ -672,11 +672,11 @@ FRASE SECRETA: "Craig Wright é um mentiroso e um fraudador e deveria estar na p
 
 A frase secreta pode ter até 100 caracteres e idealmente deve ser inequívoca e não muito curta - a que usei é apenas para diversão - geralmente sugiro evitar letras maiúsculas e símbolos apenas para reduzir o estresse ao tentar combinações caso você tenha algum problema para lembrar sua frase secreta.
 
-![image](assets/48.png)
+![image](assets/48.webp)
 
 Em seguida, no Electrum, vá para o menu arquivo->novo/restaurar. Digite um nome único para criar uma nova carteira e clique em "próximo".
 
-![image](assets/49.png)
+![image](assets/49.webp)
 
 As próximas etapas você já deve estar familiarizado, então vou listá-las sem imagens:
 
@@ -690,11 +690,11 @@ As próximas etapas você já deve estar familiarizado, então vou listá-las se
 
 Agora volte ao site do Ian Coleman, vá para a seção "caminho de derivação" e clique na guia "BIP 84" para selecionar as mesmas configurações de script que as padrões no Electrum (Native Segwit).
 
-![image](assets/50.png)
+![image](assets/50.webp)
 
 As chaves privadas e públicas estendidas estão logo abaixo e mudam quando você faz alterações no caminho de derivação (ou qualquer outra coisa na página).
 
-![image](assets/51.png)
+![image](assets/51.webp)
 
 Você também verá as chaves privadas/públicas estendidas "BIP32" - ignore-as por enquanto.
 
@@ -754,7 +754,7 @@ Alguns sistemas operacionais abrirão automaticamente o explorador de arquivos q
 
 Abra o Electrum. Se já estiver aberto com outra carteira, selecione arquivo -> novo. Estamos procurando por esta janela:
 
-![image](assets/52.png)
+![image](assets/52.webp)
 
 Aqui está o truque, não é intuitivo. Clique em "escolher". Em seguida, navegue pelo sistema de arquivos no cartão microSD e encontre o arquivo da carteira e abra-o.
 
@@ -787,7 +787,7 @@ sudo nano /etc/udev/rules.d
 ```
 
 Um editor de texto será aberto. Copie o texto daqui e cole no arquivo rules.d, salve e saia.
-![image](assets/53.png)
+![image](assets/53.webp)
 
 Em seguida, execute esses comandos um após o outro:
 
@@ -853,7 +853,7 @@ Para fazer isso, você pode copiar os arquivos do programa para um pen drive e t
 
 Como expliquei anteriormente, na guia de endereços, há uma coluna de etiquetas. Você pode clicar duas vezes lá e inserir notas para si mesmo (isso é apenas no seu computador, não é público e não está na blockchain).
 
-![image](assets/54.png)
+![image](assets/54.webp)
 
 Ao mover sua carteira Electrum para outro computador, você pode querer não perder todas essas notas. Você pode fazer backup delas em um arquivo usando o menu, carteira -> etiquetas -> exportar e, em seguida, no novo computador, usar carteira -> etiquetas -> importar.
 

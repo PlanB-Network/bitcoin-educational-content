@@ -22,7 +22,7 @@ One way to blur the tracks in a Bitcoin transaction is to make a collaborative t
 
 As mentioned earlier, the most well-known structure of a collaborative transaction is Coinjoin. For example, on the Coinjoin Whirlpool protocol, transactions involve 5 participants as inputs and outputs, each with the same amount of bitcoins.
 
-![Diagram of a Coinjoin transaction on Whirlpool](assets/1.jpeg)
+![Diagram of a Coinjoin transaction on Whirlpool](assets/1.webp)
 
 An external observer of this transaction will be unable to know which output belongs to which user as input. If we take the example of user #4 (purple), we can recognize their input UTXO, but we will not know which of the 5 outputs is actually theirs. The initial information is not hidden, but rather confused within a group.
 The user is able to deny the possession of a certain UTXO as output. This phenomenon is called "plausible deniability", and it allows for confidentiality in a transparent Bitcoin transaction.
@@ -46,7 +46,7 @@ Its mechanism is quite simple to understand. Here is how it works in practice:
 
 For example, here is a typical StonewallX2 transaction in which I made a payment of 50,125 sats. The first input of 102,588 sats comes from my Samourai wallet. The second input of 104,255 sats comes from my collaborator's wallet:
 
-![StonewallX2 transaction diagram](assets/2.jpeg)
+![StonewallX2 transaction diagram](assets/2.webp)
 
 We can observe 4 outputs, including 2 of the same amount to confuse the tracks:
 
@@ -101,7 +101,7 @@ Discover step by step how to perform a StonewallX2 transaction with JoinBot in t
 
 Here is the transaction diagram that we just performed in the video:
 
-![Diagram of my StonewallX2 transaction with JoinBot.](assets/3.jpeg)
+![Diagram of my StonewallX2 transaction with JoinBot.](assets/3.webp)
 
 We can see 5 inputs:
 

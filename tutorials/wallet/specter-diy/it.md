@@ -15,7 +15,7 @@ Spec:
 - Custodia stampabile in 3D
 - Custodia essenziale progettata da Seedsigner
 
-![vista del dispositivo](assets/2.jpeg)
+![vista del dispositivo](assets/2.webp)
 
 ## Guida
 

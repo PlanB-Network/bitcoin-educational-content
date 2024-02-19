@@ -20,7 +20,7 @@ If you want to visit their website, click here (https://blockstream.com/green/)!
 
 > This guide was produced and belongs to Bitstack. Bitstack is a bitcoin neo bank based in Paris that allows DCA on bitcoin. Guide written by Loic Morel on 15/02/2023. This belongs to them. https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 How to Install Your First Bitcoin Wallet? Green Wallet Tutorial
 
@@ -44,7 +44,7 @@ When launching the application, you will arrive at the home screen. At the momen
 
 The first action to take before creating your wallet is to open the application settings to choose the ones that suit you best.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 - "Enhanced Privacy" allows you to disable the ability to take screenshots on the application. This option will also hide previews and automatically secure the application when you lock your phone. It is only available on Android;
 - You can then choose to route your traffic through Tor so that all your connections are encrypted. This slightly slows down the operation of your application, but I recommend activating it to preserve your privacy;
@@ -67,7 +67,7 @@ The next step is to create your Bitcoin wallet. To do this, click on:
 > - New wallet;
 > - Bitcoin.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 The "Restore a wallet" option allows you to regain access to an existing wallet using its mnemonic phrase. The "Watch-Only Wallet" option allows you to import an extended public key (xpub) to view the movements of a wallet without being able to spend its funds.
 
@@ -82,7 +82,7 @@ You can then choose to have a 12-word or 24-word mnemonic phrase. This phrase wi
 
 A 24-word phrase is more secure than a 12-word phrase against brute force attacks. However, currently, a 12-word phrase is still sufficiently secure. In practical terms, if you choose a 12-word phrase, you will be just above the minimum recommended limit by NIST. This means that your phrase is secure today, but it may not be in the future due to advancements in computing (unless you also use a BIP39 passphrase). By default, I recommend choosing a 24-word phrase, but it's up to you to make your own choice.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 The software will then provide you with your recovery phrase. You must save it properly by writing it down on a suitable physical medium. It is strongly advised not to keep this phrase on any digital medium, even if encrypted. It should be written on paper or metal depending on the stored value.
 
@@ -92,11 +92,11 @@ The words in this phrase must be written together. Do not split your phrase! Add
 
 To learn more about securing the recovery phrase, I strongly recommend reading my dedicated article on this topic.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Green Wallet then asks you to confirm certain words from your phrase to ensure that you have written them down correctly.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 You can then choose a name for your wallet to differentiate it from others if you create multiple wallets later on. At this stage, the name is not important since we will delete this wallet to verify the validity of the mnemonic phrase in the next step.
 
@@ -108,11 +108,11 @@ You can later add a biometric lock option to avoid entering the PIN every time y
 
 You must enter the chosen PIN a second time on the Green application to confirm it.
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Congratulations! You have completed the creation of your Bitcoin wallet.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 If you want to add a BIP39 passphrase to this Bitcoin wallet, you must click on the three dots at the top right of the screen when entering your PIN to unlock the wallet. Be careful, I strongly advise against using a passphrase if you do not understand the derivation mechanisms at play. You could lose access to your bitcoins.
 
@@ -127,23 +127,23 @@ To access this information, click on the "Receive" button. The wallet will displ
 
 For example, on my wallet, the 8 characters to note would be: JTbP4482.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Once you have noted this information, you can delete your wallet. From the wallet's home screen, click on the settings icon, then click on "Disconnect".
 
 > "I want to emphasize once again that this operation must be done with an empty wallet, before sending any bitcoins to it. Otherwise, you risk losing them."
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 You will then be taken to the wallet unlock screen. Click on the three dots in the top right corner of the screen, then click on "Delete Wallet", and confirm.
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 You are now on the home screen of the Green Wallet application, and there are no wallets available. You are currently in the same situation as if you had lost or broken your phone and were trying to recover your wallet from the mnemonic phrase only.
 
 Now click on "Add Wallet", then "Restore Wallet", and finally "Bitcoin".
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 The software then asks us if we want to recover from a QR code or from a mnemonic phrase. In our case, it is a phrase.
 
@@ -153,23 +153,23 @@ Once all the words are entered, if the software tells you there is an error, it 
 
 Otherwise, you can click on "Continue".
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 The software will indicate "Wallet not found". This is completely normal since, for the moment, we have not yet sent any bitcoins to it. Therefore, it cannot detect any transactions on the blockchain associated with this wallet.
 
 Click on "Manual Restore" at the bottom of the screen, then click on "Single Signature".
 
-![image](assets/28.png)
+![image](assets/28.webp)
 
 Finally, you will be asked to name this wallet and assign it a PIN. You can give it the same name and PIN as the initial wallet.
 For reminder, this PIN only serves to unlock the wallet on this application and on this specific phone. Unlike the recovery phrase, it does not allow you to regenerate your wallet on another software or hardware.
-![image](assets/30.png)
+![image](assets/30.webp)
 
 Once the PIN is validated, you will be taken back to the home page of your wallet. It is time to check if your recovery phrase is functional by observing the first derived address. To do this, once again, click on "Receive" to access the first address.
 
 If the last 8 characters are exactly the same as the ones you noted as witnesses on your paper before deleting the wallet, then your phrase is valid. In my case, we can see that the checksum of my first address is indeed equal to the previously noted value: JTbP4482.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 I know that this verification practice is tedious, but it is absolutely essential to ensure the proper security of your Bitcoin wallet. I strongly advise you to develop this habit when creating a wallet, whether it is on software or hardware.
 
@@ -187,12 +187,12 @@ To get started, I recommend customizing the settings of your wallet. To do this,
 
 - The "Biometric Connection" option allows you to unlock your wallet with your fingerprint instead of the PIN. Generally, I advise against activating this option. Biometrics are much less secure than the PIN code.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 By default, Green Wallet assigns you a BIP49 "Nested SegWit" account with P2SH (Pay to Script Hash) addresses. A few years ago, using this type of account was relevant because not everyone supported native SegWit addresses yet. Today, the vast majority of Bitcoin-related services support SegWit, so there is no longer any reason to use a "Nested SegWit" account.
 
 We will now create a new BIP84 "Native SegWit" account to take advantage of all its benefits, and also to have P2WPKH (Pay to Witness Public Key Hash) addresses. To do this, click on your "Legacy SegWit Account" and then on "Add a new account", and finally on "SegWit Account". You can then give a name to this account if you wish.
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 In the future, if you need to create new accounts on this wallet, I recommend choosing SegWit V0 BIP84 accounts by default, or SegWit V1 BIP86 (when available).
 
@@ -200,7 +200,7 @@ On the home page of your wallet, you can see your different accounts, including 
 
 Next, the operation of the Green Wallet application is very simple. To receive bitcoins in your wallet, click on the "Receive" button. The wallet displays a receiving address. An address allows you to receive bitcoins in your wallet. You can either copy it in text format to send it to your payer, or scan the QR code with another Bitcoin wallet to pay the address.
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 This type of address does not indicate to the payer the amount they should send you. You can also create an address that will automatically request a chosen amount from the payer. To do this, click on "More options" and enter the desired amount.
 
@@ -211,11 +211,11 @@ A receiving address should not be used multiple times. This is a bad practice th
 > "Tip: When copying and pasting a receiving address, you don't need to verify that each character of the address is correct. In fact, addresses include a checksum to detect a small typing error. It is only necessary to check the first and last characters of the address to ensure its validity."
 > On the screenshots below, you can see that I sent 0.02 btc to my address. The transaction appears on Green, initially as "unconfirmed" while waiting to be included in the blockchain by a miner. Once the transaction has received multiple confirmations, you have successfully received your bitcoins in your own wallet.
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 If you want to send bitcoins, you need to retrieve the receiving address to which you want to send the funds and click on the "Send" button. On the next page, you need to enter the destination address. You can either enter it manually or scan a QR code by clicking on the corresponding icon. Then choose the transaction amount. You can either enter an amount in bitcoins or an amount in US dollars by clicking on the white double arrow.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 In the center of the screen, you can choose the fee rate allocated to this transaction. You can either follow the application's recommendations or customize your fees. The higher the fees you set compared to other transactions waiting for confirmation, the faster your transaction will be included, and vice versa.
 
@@ -223,7 +223,7 @@ Click on "Next". You will then arrive on a screen giving you the details of your
 
 To sign the transaction and broadcast it to the Bitcoin network, slide the green button at the bottom of the screen to the right.
 
-![image](assets/46.png)
+![image](assets/46.webp)
 
 Your transaction now appears on the dashboard of your Bitcoin wallet.
 

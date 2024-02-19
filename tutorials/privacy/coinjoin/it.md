@@ -3,7 +3,7 @@ name: Coinjoin
 description: Comprendere e utilizzare CoinJoin su Bitcoin.
 ---
 
-![Caption](assets/1.jpeg)
+![Caption](assets/1.webp)
 
 ## Introduzione
 
@@ -53,7 +53,7 @@ Con l'avvento del CoinJoin, il mixaggio è diventato rapidamente obsoleto e gli 
 
 Di conseguenza, nel linguaggio comune dei bitcoiners, molti usano la parola "mixaggio" per parlare in definitiva di un CoinJoin. Anche se questa semantica è inizialmente errata, è generalmente accettata dagli utenti. Si parla quindi di "bitcoin mixati" per indicare UTXO provenienti da una transazione CoinJoin.
 
-![Legenda](assets/1.jpeg)
+![Legenda](assets/1.webp)
 
 Il CoinJoin è quindi una tecnica che consente di rompere la cronologia delle UTXO. Si basa su una transazione collaborativa con la stessa struttura: la transazione CoinJoin. Questo tipo di transazione è stato inizialmente proposto da Gregory Maxwell nel 2013 sul forum Bitcoin Talk: https://bitcointalk.org/index.php?topic=279249.0
 
@@ -91,7 +91,7 @@ Come avrete sicuramente capito se mi seguite su Twitter, personalmente preferisc
 
 Le caratteristiche menzionate per ciascuna implementazione sono valide al momento attuale. È possibile che siano cambiate quando leggete questo articolo.
 
-![Legenda](assets/2.jpeg)
+![Legenda](assets/2.webp)
 
 ## JoinMarket.
 
@@ -139,7 +139,7 @@ Ciò è reso possibile da una transazione CoinJoin in cui ogni utente deposita l
 Con questo tipo di costruzione restrittiva sugli input, la transazione CoinJoin di Whirlpool è l'unica che consente agli utenti di avere lo 0% di collegamenti deterministici tra gli input e gli output. Ciò significa che ogni output ha la stessa probabilità di appartenere a un utente di tutti gli altri output della transazione.
 Il numero di partecipanti per ogni mix è limitato a 5: 2 ingressi e 3 remixatori (scopriremo in seguito di cosa si tratta). Quindi ogni transazione CoinJoin su Whirlpool avrà sempre 5 ingressi e 5 uscite.
 
-![Rappresentazione schematica di una transazione CoinJoin Whirlpool.](assets/3.jpeg)
+![Rappresentazione schematica di una transazione CoinJoin Whirlpool.](assets/3.webp)
 
 ## Progettazione di Whirlpool.
 
@@ -201,7 +201,7 @@ Altri costi da considerare saranno ovviamente i costi di mining associati a qual
 
 Ogni CoinJoin è composto da 5 utenti. Tra questi, 2 sono ingressi e 3 sono remix. Pertanto, i due ingressi di ogni mix pagheranno i costi di mining per i 5 utenti, quindi questi due ingressi potranno a loro volta beneficiare della gratuità dei remix successivi.
 
-![legende](assets/4.jpeg)'
+![legende](assets/4.webp)'
 Grazie a questo modello di spese, Whirlpool si differenzia davvero dagli altri servizi di CoinJoin poiché gli Anon Sets degli UTXO non sono proporzionali al prezzo pagato dall'utente. È quindi possibile ottenere Anon Sets molto elevati, avendo semplicemente pagato le spese del pool e le spese di mining per due transazioni (Tx0 e mix iniziale).
 Ovviamente, l'utente dovrà anche pagare le spese di mining quando vorrà prelevare i suoi UTXO dal pool dopo aver effettuato i suoi numerosi remix.
 
@@ -249,7 +249,7 @@ Questa Tx0 permetterà anche di pagare le commissioni al coordinatore.
 
 Dovrete pagare le commissioni di mining per la Tx0.
 
-![Schema di una transazione Tx0 CoinJoin Bitcoin!](assets/5.jpeg)
+![Schema di una transazione Tx0 CoinJoin Bitcoin!](assets/5.webp)
 
 Credito (immagine modificata): KYCP.org: https://kycp.org/#/a126e48d4a6eb8d19682ec0e23ad45e76cd52b45f6c17be5068ae051d4b2cc24
 
@@ -297,7 +297,7 @@ Per darti un'immagine, il punteggio prospettico è il numero di UTXO attuali che
 
 Quindi, all'uscita di un primo CoinJoin Whirlpool, un UTXO avrà un punteggio prospettico pari a 5. Cioè, sarà nascosto in un gruppo probabile di 5 UTXO:
 
-![Schéma di calcolo del punteggio prospettico di un UTXO Bitcoin](assets/6.jpeg)
+![Schéma di calcolo del punteggio prospettico di un UTXO Bitcoin](assets/6.webp)
 
 Se una persona sta monitorando il mio UTXO in ingresso, non sarà in grado di sapere quale di questi 5 UTXO in uscita mi appartiene.
 
@@ -307,11 +307,11 @@ Ciò che è molto interessante con Whirlpool è che anche se il mio UTXO non vie
 
 Immaginiamo che il nostro UTXO abbia passato un primo mix e abbia quindi un punteggio di 5. Se un UTXO presente nello stesso mix passa a un nuovo remix, allora il punteggio del mio UTXO aumenterà a 9, anche se non si è mosso dal mix iniziale:
 
-![Schéma di calcolo del punteggio prospettico di un UTXO Bitcoin](assets/7.jpeg)
+![Schéma di calcolo del punteggio prospettico di un UTXO Bitcoin](assets/7.webp)
 
 Questo aumento del punteggio prospettico è esponenziale, poiché se un UTXO incontrato dall'UTXO che ho incontrato durante il mio primo mix viene remixato, allora il mio Anon Set aumenta ancora:
 
-![Schéma di calcolo del punteggio prospettico di un UTXO Bitcoin](assets/8.jpeg)
+![Schéma di calcolo del punteggio prospettico di un UTXO Bitcoin](assets/8.webp)
 
 Questo aumento esponenziale è reso possibile dal modello unico di Whirlpool basato su numerosi piccoli CoinJoin successivi.
 
@@ -331,7 +331,7 @@ Per esempio, immaginiamo che un osservatore della catena Bitcoin conosca un UTXO
 
 Per calcolare questo punteggio retrospettivo, è necessario contare tutti gli UTXO in ingresso provenienti da una Tx0 a partire dall'UTXO preso in considerazione. Successivamente, sarà necessario analizzare gli UTXO di remixaggio in ingresso alla transazione e risalire alle 3 transazioni CoinJoin precedenti da cui provengono. Su ciascuna di queste tre transazioni, si effettuerà lo stesso calcolo. Si continua così fino alla transazione CoinJoin Genesis, cioè la prima transazione CoinJoin del pool.
 
-![Schema di calcolo del punteggio retrospettivo di un UTXO Bitcoin](assets/9.jpeg)
+![Schema di calcolo del punteggio retrospettivo di un UTXO Bitcoin](assets/9.webp)
 
 Nello schema sopra, il calcolo del punteggio retrospettivo di uno degli UTXO in uscita dal CoinJoin in alto consiste nel calcolare il numero di Tx0 (le bolle blu) presenti nei CoinJoin ascendenti al CoinJoin preso in considerazione, fino al CoinJoin Genesis.
 
@@ -421,7 +421,7 @@ workdir /home/psyduck/wst
 # Replace the path in this example with your own path.
 ```
 
-![Launching WST command lines](assets/10.jpeg)
+![Launching WST command lines](assets/10.webp)
 
 Next, download the data from the pool that contains your transaction:
 
@@ -446,7 +446,7 @@ load 0001
 # Replace 0001 with the pool denomination code you are interested in.
 ```
 
-![Downloading WST data from OXT command lines](assets/11.jpeg)
+![Downloading WST data from OXT command lines](assets/11.webp)
 
 After loading the data, enter the score command followed by your TXID (transaction identifier) to obtain its Anon Sets:
 
@@ -456,7 +456,7 @@ score TXID
 # Replace TXID with the identifier of your transaction.
 ```
 
-![Result of calculating Anon Sets for a UTXO with WST](assets/11.jpeg)
+![Result of calculating Anon Sets for a UTXO with WST](assets/11.webp)
 
 WST ti mostra prima il punteggio retrospettivo (metriche backward-looking) e poi il punteggio prospettico (metriche forward-looking). Oltre ai punteggi degli Anon Sets, WST ti fornisce anche il tasso di diffusione del tuo output nel pool in base all'anon set.
 
@@ -510,28 +510,28 @@ Una volta creato il portafoglio, invia i satoshi da mixare. Clicca semplicemente
 
 Qui puoi vedere che ho appena creato il mio portafoglio e ho inviato poco più di 199k satoshi:
 
-![Réception de bitcoins sur Sparrow Wallet](assets/12.JPEG)
+![Réception de bitcoins sur Sparrow Wallet](assets/12.webp)
 
 Al momento, stai utilizzando un account classico. Questo account indicizzato 0' diventerà il tuo account di Deposito per il mixing.
 
 Per mixare questo UTXO che hai appena ricevuto, vai nella lista degli UTXO dell'account cliccando su "UTXOs" a sinistra dell'interfaccia:
 
-![Sélection des UTXO à mixer sur Sparrow Wallet](assets/13.JPEG)
+![Sélection des UTXO à mixer sur Sparrow Wallet](assets/13.webp)
 
 Seleziona quindi i diversi UTXO da mixare cliccandoci sopra. Se desideri selezionarne più di uno, tieni premuto il tasto Control e clicca su ognuno di essi. Una volta selezionato l'UTXO, verrà evidenziato in blu.
 
 Quindi clicca sul pulsante "Mix Selected" in fondo all'interfaccia:
 
-![Lancement du processus de mixage de bitcoins sur Sparrow Wallet](assets/14.JPEG)
+![Lancement du processus de mixage de bitcoins sur Sparrow Wallet](assets/14.webp)
 
 Si apre una finestra che ti spiega il funzionamento di Whirlpool. È una semplificazione di ciò che ti ho spiegato nella parte precedente.
 
 Clicca su "Next" dopo aver letto.
 
-![Introduction au fonctionnement de Whirlpool](assets/15.JPEG)
+![Introduction au fonctionnement de Whirlpool](assets/15.webp)
 On vous explique également le fonctionnement des comptes. Cliquez sur "Next" après avoir lu.
 
-![Introduction au fonctionnement des comptes sur Whirlpool](assets/16.JPEG)
+![Introduction au fonctionnement des comptes sur Whirlpool](assets/16.webp)
 
 Sur la page suivante, vous pourrez entrer un SCODE si vous en avez un. Un SCODE est un code de réduction à appliquer sur les frais d'entrée de pool. Samourai Wallet en fournit parfois à ses utilisateurs lors d'un évènement notable (exemple : pour Noël). Pensez à les suivre sur Twitter pour ne pas manquer les prochains SCODES : https://twitter.com/SamouraiWallet
 
@@ -539,17 +539,17 @@ Choisissez ensuite les frais de minage que vous souhaitez allouer à la Tx0 et a
 
 Une fois les frais choisis, cliquez sur "Next".
 
-![Paramétrage des frais de minage Whirlpool](assets/17.JPEG)
+![Paramétrage des frais de minage Whirlpool](assets/17.webp)
 
 Sur cette nouvelle fenêtre, vous pourrez choisir sur quelle pool entrer en cliquant sur la liste déroulante. La fenêtre vous annonce également les frais de pool que vous allez payer et le nombre d'UTXO qui entreront dans cette pool. Puis cliquez sur "Preview Premix".
 
 Dans mon exemple, je disposais d'un UTXO de 199k sats, je vais donc entrer avec seulement un UTXO dans la pool de 100k sats :
 
-![Choix de la pool de mixage](assets/18.JPEG)
+![Choix de la pool de mixage](assets/18.webp)
 
 Sparrow vous demandera ensuite d'entrer le mot de passe de votre portefeuille que vous avez paramétré lors de sa création sur le logiciel.
 
-![Confirmation du mot de passe du portefeuille Bitcoin](assets/19.JPEG)
+![Confirmation du mot de passe du portefeuille Bitcoin](assets/19.webp)
 
 Et, vous accèderez à l'aperçu de votre Tx0.
 
@@ -563,23 +563,23 @@ Vous pouvez également voir la structure de votre transaction avec les différen
 
 - Le Doxxic Change.
 
-![Vérification de la Tx0 finale avant diffusion](assets/20.JPEG)
+![Vérification de la Tx0 finale avant diffusion](assets/20.webp)
 
 Si la transaction vous convient, cliquez sur le bouton "Broadcast Transaction" pour diffuser votre Tx0. Sinon, vous pouvez également modifier les paramètres de cette Tx0 en cliquant sur le bouton "Clear" et en recommençant la construction de cette transaction.
 
-![Diffusion de la Tx0](assets/21.JPEG)
+![Diffusion de la Tx0](assets/21.webp)
 
 Une fois la Tx0 diffusée, vous pourrez retrouver vos UTXO prêts à être mixés dans le compte Premix. Votre UTXO est maintenant enregistré par le coordinateur et va être envoyé vers son mix initial.
 
-![Tx0 diffusée en attente de confirmation](assets/22.JPEG)
+![Tx0 diffusée en attente de confirmation](assets/22.webp)
 Qui, qui possiamo vedere che il mio UTXO proveniente da Tx0 è stato confermato una volta. Possiamo anche vedere il mix iniziale che è stato costruito e diffuso, ma che è in attesa di conferma:
-![Tx0 confermata, mix iniziale diffuso](assets/23.JPEG)
+![Tx0 confermata, mix iniziale diffuso](assets/23.webp)
 
 Se andiamo nell'account Postmix, possiamo vedere che l'UTXO proveniente dal mix iniziale è stato diffuso, ma non ancora confermato. Una volta confermato, rimarrà automaticamente disponibile per futuri remix che non saranno addebitati.
 
 Nella colonna "Mixes", potrete osservare il numero di remix dei vostri diversi UTXO. Ricordatevi che non è tanto il numero di remix che è importante, ma gli Anon Sets, anche se le due informazioni sono in parte correlate.
 
-![Mix iniziale confermato, UTXO in attesa di remix](assets/24.JPEG)
+![Mix iniziale confermato, UTXO in attesa di remix](assets/24.webp)
 
 Ecco, il vostro UTXO è stato mixato. Attualmente si trova nel pool in attesa di remix. Se desiderate interrompere il mixing, basta cliccare sul pulsante "Stop Mixing". Potrete riavviarlo cliccando sul pulsante "Start Mixing".
 
@@ -589,7 +589,7 @@ Potete eventualmente disattivare la modalità standby nelle opzioni del vostro s
 
 > Strumenti > Impedisci lo standby del computer
 
-![Impedire lo standby del computer](assets/25.JPEG)
+![Impedire lo standby del computer](assets/25.webp)
 
 Il pulsante "Mix to" presente nel vostro account Postmix nella sezione UTXO vi permette di configurare l'invio automatico del vostro UTXO mixato al portafoglio da voi scelto. Potete scegliere il numero di remix da effettuare prima dell'invio a questo portafoglio.
 
@@ -597,7 +597,7 @@ Questa opzione vi permette, ad esempio, di inviare automaticamente il vostro Pos
 
 Vi ho presentato qui una delle opzioni per mixare con Whirlpool, ma ne esistono altre. Ad esempio, potete mixare direttamente dal vostro smartphone con l'applicazione Samourai Wallet su Android. Il funzionamento sarà simile a quello descritto in questa sezione.
 
-![Samourai](assets/26.JPEG)
+![Samourai](assets/26.webp)
 
 ## Tutorial: Whirpool CLI su Dojo e Whirlpool GUI.
 
@@ -640,7 +640,7 @@ Se stai utilizzando Umbrel, vai su App Store nel menu di sinistra e installa "Sa
 
 Se stai utilizzando RoninDojo, vai su RoninUI tramite il tuo browser, accedi e clicca su "Manage" in blu nella parte inferiore della sezione "Dojo". Potrai accedere al codice QR di Samourai Dojo cliccando su "Display Values".
 
-![Indirizzo di connessione Dojo](assets/27.JPEG)
+![Indirizzo di connessione Dojo](assets/27.webp)
 
 ### Passaggio 2: Preparare il tuo portafoglio.
 
@@ -648,17 +648,17 @@ Per il portafoglio, utilizzeremo Samourai Wallet. Puoi scaricarlo dal Google Pla
 
 Avvia l'applicazione e accedi al tuo Dojo utilizzando il codice QR del passaggio precedente. Una volta connesso, fai clic su "Crea un nuovo portafoglio".
 
-![Connessione al Dojo da Samourai](assets/28.JPEG)
+![Connessione al Dojo da Samourai](assets/28.webp)
 
 Successivamente, Samourai ti chiederà di creare una Passphrase. Se non sai cosa sia una Passphrase e come configurarla correttamente, ti consiglio vivamente di leggere il mio articolo a riguardo: Tutto quello che devi sapere sulla Passphrase Bitcoin.
 
 Scegli una Passphrase forte e fai un backup fisico. Fai clic su "Avanti" per continuare.
 
-![Creazione della passphrase del portafoglio](assets/29.JPEG)
+![Creazione della passphrase del portafoglio](assets/29.webp)
 
 Successivamente, dovrai scegliere un PIN per accedere all'applicazione. Questo PIN è molto importante, ma non ha alcuna connessione con il tuo portafoglio Bitcoin. È specifico per il funzionamento dell'applicazione Samourai. Avrai bisogno di esso per accedere al tuo portafoglio dall'applicazione Samourai. Tuttavia, se hai bisogno di recuperare il tuo portafoglio, saranno necessarie solo la tua Passphrase e la tua frase di recupero (mnemonica). Scegli un PIN forte, fai un backup e fai clic su "Avanti".
 
-![Scelta del PIN dell'applicazione Samourai](assets/30.JPEG)
+![Scelta del PIN dell'applicazione Samourai](assets/30.webp)
 
 Ti verrà chiesto di confermare nuovamente questo PIN. Successivamente, potrai accedere alla frase di recupero del tuo portafoglio Samourai. Come la passphrase, queste informazioni devono essere adeguatamente salvate su un supporto fisico e sicuro, altrimenti potresti perdere definitivamente l'accesso ai tuoi bitcoin in caso di problemi. Per saperne di più sulla frase di recupero, ti consiglio di leggere questo articolo: Cos'è la frase di recupero Bitcoin?
 
@@ -690,13 +690,13 @@ Ora installeremo Whirlpool GUI, l'interfaccia grafica che ti permetterà di gest
 
 Prima di tutto, dovrai installare il kit di sviluppo Java Developper Kit (JDK). Puoi ad esempio installare OpenJDK gratuitamente da questo sito: https://adoptopenjdk.net/ Questo ti permetterà di compilare ed eseguire software sviluppati in Java.
 
-![Installazione di OpenJDK](assets/31.JPEG)
+![Installazione di OpenJDK](assets/31.webp)
 
 Una volta installato OpenJDK, potrai installare Whirlpool GUI dal sito ufficiale di Samourai Wallet: https://samouraiwallet.com/download/whirlpool
 
 Avvia Whirlpool GUI. Affinché Whirlpool GUI possa connettersi, dovrai avere in esecuzione Tor Daemon o Tor Browser sul tuo PC. Dovrai assicurarti di avviarli prima di ogni utilizzo di Whirlpool GUI su questo computer. Se non hai Tor, installalo dal sito ufficiale prima di iniziare: https://www.torproject.org/download/
 
-![Scelta di connessione Whirlpool GUI](assets/32.JPEG)
+![Scelta di connessione Whirlpool GUI](assets/32.webp)
 
 Da Whirlpool GUI, clicca su "Advanced: Remote CLI" per connettere la tua Whirlpool CLI al tuo Dojo. Avrai bisogno dell'indirizzo Tor della tua Whirlpool CLI.
 
@@ -707,13 +707,13 @@ Da Whirlpool GUI, clicca su "Advanced: Remote CLI" per connettere la tua Whirlpo
 Su Whirlpool GUI, inserisci l'indirizzo Tor trovato in precedenza nel campo "Indirizzo CLI". Lascia "http://", ma non inserire ":8899". Incolla semplicemente l'indirizzo che ti è stato fornito.
 Sur la prossima casella, inserisci 9050 se stai usando Tor Daemon o 9150 se stai usando il browser Tor. Se è la prima volta che ti connetti al tuo Whirlpool CLI da un Whirlpool GUI, puoi lasciare vuota la casella della chiave API. Altrimenti, inseriscila.
 
-![Connessione di Whirlpool GUI a Dojo](assets/33.JPEG)
+![Connessione di Whirlpool GUI a Dojo](assets/33.webp)
 
 Clicca sul pulsante "Connect" per abbinare il tuo Whirlpool GUI al tuo Whirlpool CLI. Sii paziente, potrebbe richiedere qualche istante per stabilire la connessione.
 
 Successivamente, potrai abbinare il tuo portafoglio Samourai. Clicca sul simbolo del codice QR a destra dello schermo per poterlo scannerizzare.
 
-![Connessione di Whirlpool GUI al portafoglio Samourai](assets/34.JPEG)
+![Connessione di Whirlpool GUI al portafoglio Samourai](assets/34.webp)
 
 Dal tuo portafoglio Samourai Wallet, vai su:
 
@@ -721,19 +721,19 @@ Dal tuo portafoglio Samourai Wallet, vai su:
 
 Scannerizza il codice QR del tuo Samourai su Whirlpool GUI.
 
-![Abbinamento del portafoglio Samourai a Whirlpool GUI](assets/35.JPEG)
+![Abbinamento del portafoglio Samourai a Whirlpool GUI](assets/35.webp)
 
 Verifica che la connessione sia stabilita su Whirlpool GUI. Nella prossima pagina, attiva "Use Dojo as wallet backend". Poi clicca sul pulsante "Initialize GUI".
 
-![Configurazione di Whirlpool GUI](assets/36.JPEG)
+![Configurazione di Whirlpool GUI](assets/36.webp)
 
 Successivamente, ti verrà chiesto di confermare la passphrase del tuo portafoglio Samourai. Clicca su "Sign in" una volta terminato.
 
-![Conferma della Passphrase del portafoglio](assets/37.JPEG)
+![Conferma della Passphrase del portafoglio](assets/37.webp)
 
 Attendi qualche istante. Una volta completata la configurazione, accederai a Whirlpool GUI:
 
-![Accesso all'interfaccia di Whirlpool GUI](assets/38.JPEG)
+![Accesso all'interfaccia di Whirlpool GUI](assets/38.webp)
 
 ### Passaggio 4: Mixare!
 
@@ -741,7 +741,7 @@ Tutto è pronto, sei pronto per mixare i tuoi bitcoin. Per farlo, invia i satosh
 
 Clicca sul pulsante "Deposit" per generare un indirizzo di ricezione.
 
-![Generazione di un indirizzo di ricezione Bitcoin](assets/39.JPEG)
+![Generazione di un indirizzo di ricezione Bitcoin](assets/39.webp)
 
 In questa pagina, puoi vedere gli importi minimi da depositare per entrare in un pool specifica. Prevedi sempre un importo leggermente superiore a questo, altrimenti la tua UTXO potrebbe non riuscire ad entrare nella pool desiderata fino a quando le commissioni di mining non diminuiscono.
 
@@ -750,11 +750,11 @@ Quindi invia i tuoi bitcoin da mixare all'indirizzo generato. Puoi generare un n
 Per una maggiore sicurezza del tuo deposito, preferisci depositare i tuoi fondi con Samourai Wallet. Basta cliccare sul + blu in basso a destra dell'applicazione, poi su "Ricevi".
 Una volta confermato il deposito, potrai vederlo apparire nell'account "Deposit" su Whirlpool GUI. Per iniziare la serie di Coinjoin, seleziona gli UTXO da inviare al mix e clicca sul pulsante "Premix". Attenzione, se selezioni contemporaneamente più UTXO diversi, verranno fusi durante la TX0. Ciò può comportare una perdita di privacy, soprattutto se le fonti degli UTXO sono diverse.
 
-![Lancio del mix Tx0](assets/40.JPEG)
+![Lancio del mix Tx0](assets/40.webp)
 
 Si apre la pagina di configurazione di Whirlpool. Scegli il pool in cui desideri entrare. Scegli le commissioni di mining allocate a TX0 e al CoinJoin iniziale. In fondo alla pagina vengono indicati l'importo del resto e l'importo e il numero di UTXO equalizzati. Se la configurazione ti soddisfa, clicca sul pulsante "Premix" per avviare il processo di CoinJoin.
 
-![Configurazione del mix Tx0](assets/41.JPEG)
+![Configurazione del mix Tx0](assets/41.webp)
 
 Una volta creata la TX0, puoi vedere i tuoi UTXO equalizzati nell'account "Premix" in attesa di conferma. Se desideri che il tuo Premix venga automaticamente mixato e che i tuoi futuri postmix si remixino automaticamente 24 ore su 24 e 7 giorni su 7, attiva l'opzione "Mix automaticamente premix e postmix" dalla scheda "Configurazione" a sinistra della finestra.
 
@@ -762,7 +762,7 @@ Ora puoi uscire da Whirlpool GUI, i tuoi UTXO sono disponibili per CoinJoin 24 o
 
 Puoi osservare i tuoi UTXO dall'account "Postmix" su Whirlpool GUI o dall'interfaccia Whirlpool su Samourai Wallet. Per farlo, clicca sul piccolo logo Samourai bianco in alto a sinistra dello schermo. Gli account Whirlpool si distinguono facilmente su Samourai Wallet con un colore azzurro chiaro:
 
-![Osservazione dei mix CoinJoin da Samourai](assets/42.JPEG)
+![Osservazione dei mix CoinJoin da Samourai](assets/42.webp)
 
 Per spendere i tuoi postmix, clicca semplicemente sull'icona + in basso a destra dello schermo, quindi scegli uno strumento di spesa adatto.
 
@@ -822,7 +822,7 @@ La particolarità del PayJoin è che produce una transazione che sembra normale,
 
 Ad esempio, se acquisti una baguette dal tuo panettiere per 4000 sats da un UTXO di 10.000 sats e desideri fare un PayJoin, il tuo panettiere aggiungerà alla tua transazione originale un UTXO di 15.000 sats che gli appartiene come input, che recupererà completamente come output, al fine di confondere l'analisi euristica:
 
-![Schema di una transazione Bitcoin PayJoin](assets/43.JPEG)
+![Schema di una transazione Bitcoin PayJoin](assets/43.webp)
 
 In questo esempio, si può vedere che il panettiere ha inserito 15.000 come input ed è uscito con 19.000. La differenza è effettivamente di 4.000 sats, ovvero il prezzo della sua baguette. Tu, che desideri acquistare la baguette a 4.000 sats, sei entrato con 10.000 e sei uscito con 6.000. La differenza è effettivamente di -4.000 sats, ovvero il prezzo della baguette. In questo esempio, ho intenzionalmente trascurato le commissioni di mining per semplificare.
 
@@ -842,7 +842,7 @@ Gli scambi crittografati richiedono comunque una forma di connessione e autentic
 
 In breve, un PayNym è una sorta di identificatore legato al tuo portafoglio che consente di implementare una serie di funzionalità, tra cui scambi di messaggi crittografati. Il PayNym è rappresentato da un identificatore e da un disegno di un robot. Ecco il mio ad esempio (sul Testnet):
 
-![PayNym su Sparrow Wallet](assets/44.JPEG)
+![PayNym su Sparrow Wallet](assets/44.webp)
 
 Per poter effettuare una transazione Cahoots a distanza e quindi un PayJoin tramite Samourai o Sparrow, devi "Seguire" un altro utente tramite il suo PayNym. Nel caso specifico, per effettuare uno Stowaway (PayJoin), devi seguire la persona a cui desideri inviare bitcoin.
 
@@ -850,26 +850,26 @@ Per fare ciò da Sparrow Wallet, è sufficiente inserire il PayNym o scannerizza
 
 Su Samourai, fai clic sul "+" blu in basso a destra dello schermo, quindi su "PayNyms" in viola. Se non hai ancora un PayNym, puoi generarne uno seguendo le istruzioni.
 
-![Portafoglio Bitcoin Samourai Wallet](assets/45.JPEG)
+![Portafoglio Bitcoin Samourai Wallet](assets/45.webp)
 
 **Tutorial eseguito su Testnet: questi non sono veri bitcoin.**
 Una volta nell'interfaccia PayNym, tocca il "+" blu. Potrai quindi seguire il PayNym del tuo collaboratore incollando il suo identificativo o scannerizzando il suo codice QR.
 
 Successivamente, clicca su "Segui":
 
-![Seguire un PayNym](assets/46.JPEG)
+![Seguire un PayNym](assets/46.webp)
 
 Ti verrà poi chiesto se desideri "connetterti" ad esso. Questa funzionalità consente di utilizzare successivamente BIP47. Ciò comporta alcuni costi. Nel nostro caso, non ne abbiamo bisogno, quindi non ci connetteremo.
 
-![Connettersi a un PayNym](assets/47.JPEG)
+![Connettersi a un PayNym](assets/47.webp)
 
 Nel mio esempio, ho effettuato un PayJoin tra il mio Samourai Wallet e il mio Sparrow Wallet. Per accedere a PayNym su Sparrow Wallet, basta cliccare su "Strumenti" e poi su "Mostra PayNym".
 
-![Mostrare il PayNym su Sparrow Wallet](assets/48.JPEG)
+![Mostrare il PayNym su Sparrow Wallet](assets/48.webp)
 
 Qui si può vedere che il mio PayNym arancione ha ricevuto correttamente la richiesta di Follow dal mio PayNym Bianco (su Samourai). Sono gentile, l'ho seguito anche io:
 
-![Seguire PayNym su Sparrow Wallet](assets/49.JPEG)
+![Seguire PayNym su Sparrow Wallet](assets/49.webp)
 
 Ora che i Nyms sono connessi, potranno comunicare tra loro in modo crittografato tramite Soroban. Possiamo quindi avviare una transazione Cahoots.
 
@@ -877,31 +877,31 @@ Per effettuare un PayJoin Stowaway da Samourai, sarà necessario costruire una t
 
 Clicca sul "+" blu, poi su "invia". Puoi anche scegliere specificamente quale UTXO desideri inviare:
 
-![Creare un PayJoin Bitcoin da Samourai Wallet](assets/50.JPEG)
+![Creare un PayJoin Bitcoin da Samourai Wallet](assets/50.webp)
 
 Successivamente, inserisci l'importo che desideri inviare. Nel mio esempio, invio 45.000 sats Testnet:
 
-![Configurazione del PayJoin Stowaway](assets/51.JPEG)
+![Configurazione del PayJoin Stowaway](assets/51.webp)
 
 Clicca poi su "Cahoots". Si aprirà questa finestra, dove potrai scegliere se fare uno StonewallX2 o uno Stowaway. Qui, vogliamo fare uno Stowaway:
 
-![Scelta del tipo di transazione collaborativa Cahoots Bitcoin](assets/52.JPEG)
+![Scelta del tipo di transazione collaborativa Cahoots Bitcoin](assets/52.webp)
 
 Come spiegato in precedenza, puoi effettuare il PayJoin manualmente o a distanza. È più veloce e facile farlo a distanza, ma richiede di essere connessi tramite PayNym. Nel nostro caso, sceglieremo questa opzione "Online":
 
-![Scelta del tipo di collaborazione manuale o soroban](assets/53.JPEG)
+![Scelta del tipo di collaborazione manuale o soroban](assets/53.webp)
 
 Ti verrà quindi chiesto di scegliere il tuo collaboratore tra i tuoi contatti PayNym. Qui scelgo "luckyfrost", che è il mio PayNym arancione su Sparrow:
 
-![Scelta del collaboratore](assets/54.JPEG)
+![Scelta del collaboratore](assets/54.webp)
 
 Conferma cliccando su "Verifica Transazione".
 
-![Verifica della transazione Bitcoin PayJoin Stowaway](assets/55.JPEG)
+![Verifica della transazione Bitcoin PayJoin Stowaway](assets/55.webp)
 
 Successivamente potrai scegliere le commissioni di mining allocate a questa transazione. È importante sapere che queste commissioni saranno pagate dall'emittente iniziale della transazione. Clicca su "Démarrer Stowaway".
 
-![Scelta delle commissioni di mining](assets/56.JPEG)
+![Scelta delle commissioni di mining](assets/56.webp)
 
 Successivamente verrai invitato ad attendere che il tuo partner confermi di essere d'accordo nel realizzare questa transazione collaborativa.
 
@@ -911,17 +911,17 @@ Per confermare su Sparrow Wallet, clicca sulla scheda "Tools", poi su "Find Mix 
 
 Il Cahoot è in corso. I tuoi due portafogli si scambiano transazioni parzialmente firmate e crittografate su Tor grazie a Soroban.
 
-![Svolgimento del cahoots tramite Soroban per Stowaway](assets/57.JPEG)
+![Svolgimento del cahoots tramite Soroban per Stowaway](assets/57.webp)
 
 Una volta costruita la transazione Stowaway, potrai diffondere la transazione per inviarla ai nodi della rete Bitcoin.
 
-![Cahoots completato, diffusione della transazione PayJoin Stowaway](assets/58.JPEG)
+![Cahoots completato, diffusione della transazione PayJoin Stowaway](assets/58.webp)
 
 Ecco, la transazione Stowaway è stata diffusa. Congratulazioni.
 
 Osservando la transazione, è possibile vedere gli input e gli output dei due utenti. La differenza tra l'output e l'input del PayNym bianco è di -45.000 sats, mentre la differenza per il PayNym arancione è di +45.000 sats, ovvero l'importo che ho inviato effettivamente.
 
-![Struttura della transazione PayJoin Stowaway](assets/59.JPEG)
+![Struttura della transazione PayJoin Stowaway](assets/59.webp)
 
 ### Stonewall.
 
@@ -941,7 +941,7 @@ Come puoi vedere in questo video, l'opzione Stonewall è preselezionata per impo
 
 Ecco come appare la transazione Stonewall che ho appena effettuato nel video:
 
-![Struttura della transazione Stonewall](assets/61.JPEG)
+![Struttura della transazione Stonewall](assets/61.webp)
 
 Si può vedere che Samourai ha aggregato 2 UTXO di mia proprietà come input:
 
@@ -982,7 +982,7 @@ Per effettuare una transazione StonewallX2 a distanza, è necessario essere conn
 
 Ecco come appare la transazione StonewallX2 che ho appena effettuato nel video:
 
-![Struttura della transazione collaborativa Bitcoin StonewallX2](assets/63.JPEG)
+![Struttura della transazione collaborativa Bitcoin StonewallX2](assets/63.webp)
 
 Il primo input di 102.588 S proviene dal mio portafoglio Samourai. Il secondo input di 104.255 S proviene dal portafoglio del mio collaboratore. Possiamo osservare 4 output di cui 2 dello stesso importo per confondere le tracce:
 

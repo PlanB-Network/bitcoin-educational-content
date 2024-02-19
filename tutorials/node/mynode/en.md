@@ -3,7 +3,7 @@ name: My Node
 description: Set up your bitcoin MyNode
 ---
 
-![image](assets/0.jpeg)
+![image](assets/0.webp)
 
 https://mynodebtc.com/
 
@@ -42,21 +42,21 @@ Another option is to just install Bitcoin Core and an Electrum Server variety (t
 
 Navigate to the MyNode website Link
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 Click <Download Now>
 
 Download the Raspberry Pi 4 version:
 
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 It’s a big file:
 
-![image](assets/3.jpeg)
+![image](assets/3.webp)
 
 Download the SHA 256 hashes
 
-![image](assets/4.jpeg)
+![image](assets/4.webp)
 
 Open the terminal on Mac or Linux or Command Prompt for Windows. Type:
 
@@ -74,13 +74,13 @@ I was unable to find the digital signature for this. If you know how, please let
 
 Etcher is self-explanatory to use. Insert your micro SD card and flash the Raspberry Pi software (.img file) onto the SD card.
 
-![image](assets/5.jpeg)
-![image](assets/6.jpeg)
-![image](assets/7.jpeg)
-![image](assets/8.jpeg)
-![image](assets/9.jpeg)
-![image](assets/10.jpeg)
-![image](assets/11.jpeg)
+![image](assets/5.webp)
+![image](assets/6.webp)
+![image](assets/7.webp)
+![image](assets/8.webp)
+![image](assets/9.webp)
+![image](assets/10.webp)
+![image](assets/11.webp)
 
 Once done, the drive is no longer readable. You may get an error from the operating system, and the drive should disappear from the desktop. Pull out the card.
 
@@ -88,20 +88,20 @@ Once done, the drive is no longer readable. You may get an error from the operat
 
 The parts (case not shown):
 
-![image](assets/12.jpeg)
-![image](assets/13.jpeg)
+![image](assets/12.webp)
+![image](assets/13.webp)
 
 Connect the ethernet cable, and the hard drive USB connector (not power yet). Avoid connecting to the blue-coloured USB ports in the centre. They are USB 3. MyNode recommends you use the USB 2 port, even though the drive may be USB 3 capable.
 
-![image](assets/14.jpeg)
+![image](assets/14.webp)
 
 The micro SD card goes here:
 
-![image](assets/15.jpeg)
+![image](assets/15.webp)
 
 Finally, connect the power:
 
-![image](assets/16.jpeg)
+![image](assets/16.webp)
 
 ## Find the IP address of the Pi
 
@@ -129,7 +129,7 @@ Use your own IP address. The user name for the MyNode device is “admin” by d
 
 If you have used your Pi before and switched the micro SD card around, you will get this error:
 
-![image](assets/17.jpeg)
+![image](assets/17.webp)
 
 What you need to do is to navigate to where the “known_hosts” file is and delete it. It’s safe to. The error message shows you the path. For me it was /Users/MyUserName/.ssh/
 
@@ -139,7 +139,7 @@ Then try the ssh command again.
 
 This time you’ll see this output:
 
-![image](assets/18.jpeg)
+![image](assets/18.webp)
 
 The file you deleted has been deleted and you are adding a new fingerprint. Type yes and <enter>.
 
@@ -147,7 +147,7 @@ You’ll be asked to enter the password. It is “bolt”
 
 You’ve now got terminal access to the MyNode Pi, without a monitor, and can confirm it’s all loaded smoothly.
 
-![image](assets/19.jpeg)
+![image](assets/19.webp)
 
 ## Access via the Web Browser
 
@@ -155,37 +155,37 @@ Open a browser. It needs to be a computer on your home network, you can’t do t
 
 Type the IP address in the browser address window. This will happen:
 
-![image](assets/20.jpeg)
+![image](assets/20.webp)
 
 Enter the password “bolt” – change it later.
 
 Then this will happen:
 
-![image](assets/21.jpeg)
+![image](assets/21.webp)
 
 Choose Format Drive
 
-![image](assets/22.jpeg)
+![image](assets/22.webp)
 
 Now we wait.
 
 At some point you will be asked if you want to put in your product key, or use the free “community edition” — I’m going to show the Premium edition. I do recommend paying for the premium version if you can afford it, it’s very worth it.
 
-![image](assets/23.jpeg)
+![image](assets/23.webp)
 
 You’ll then see the progress of blocks downloaded. It takes days:
 
-![image](assets/24.jpeg)
+![image](assets/24.webp)
 
 It’s safe to turn off the machine during the download if you need to. Go to settings and find the button to power off the machine. Don’t just yank the cord, you could corrupt the installation or the hard drive.
 
 Makes sure, early on, go to”Settings” and disable quicksync. It will begin the initial block download from the beginning.
 
-![image](assets/25.jpeg)
+![image](assets/25.webp)
 
 I wanted to proceed with creating the guide, so here is another MyNode I prepared earlier. This is what the page looks like when the blockchain is synced, and several “apps” have been enabled and synced:
 
-![image](assets/26.jpeg)
+![image](assets/26.webp)
 
 Note that Electrum Server needs to sync as well, so as soon as Bitcoin Blockchain is synced, click the button to start that process – takes a day or two. Everything else is enabled in a few minutes once you select to enable it. You can click things and explore. You won’t break anything. If something does break (this happened to me, but I think because I had cheap parts) you’ll have to re-flash and start downloading again. The problem I have with MyNode is that if you need to “re-flash” you end up needing to start the blockchain sync again from scratch. There are technical ways around this, but it’s not easy.
 

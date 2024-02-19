@@ -4,7 +4,7 @@ name: Blixt
 description: Portefeuille LN multi fonction
 ---
 
-![présentation](assets/1.jpeg)
+![présentation](assets/1.webp)
 
 ## Un puissant nœud BTC/Lightning dans votre poche, où que vous soyez
 
@@ -36,7 +36,7 @@ Voici quelques liens à propos de cette nouvelle application de nœud/portefeuil
 > Téléchargement de l’application Testflight pour iOS
 > Feed Twitter avec des démos
 
-![image principal](assets/2.JPEG)
+![image principal](assets/2.webp)
 
 # Principales fonctionnalités disponibles
 

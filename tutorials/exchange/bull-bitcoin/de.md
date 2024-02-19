@@ -18,7 +18,7 @@ Wie man Bitcoin in Kanada kauft: Bull Bitcoin von BTCsession
 
 **Dieses Tutorial wird von WINTER ☩ HODLER als Teil von Agora256 zur Verfügung gestellt, danke für seine Arbeit**
 
-![Zahlungslösung](assets/1.jpeg)
+![Zahlungslösung](assets/1.webp)
 
 Eines der spannendsten Angebote von Fiat-Währungen ist sicherlich die Möglichkeit, sie in Bitcoins umzutauschen, im Idealfall sogar ohne sich allzu sehr identifizieren zu müssen; eine Methode, die oft als No-KYC oder KYC-free bezeichnet wird. Das Akronym "KYC" bezieht sich auf den Prozess der Überprüfung der Identität einer bestimmten Person oder Einrichtung gemäß bestimmten staatlichen Vorschriften.
 
@@ -38,7 +38,7 @@ Der Vorgang ist sehr einfach: Gehen Sie zu einem der 5948 Canada Post-Schalter u
 
 Dann geben Sie den Betrag an, den Sie ausgeben möchten (zwischen $10.00 und $999.99), und bezahlen entweder bar oder mit Debitkarte. Nach 10 Minuten wird die Transaktion auf Bull Bitcoin abgeschlossen sein. Es fallen Gebühren von $3.50 bis $3.95 an, abhängig vom Betrag, bei der Transaktion am Postschalter. Diese Gebühren sind deutlich niedriger als die Gebühren, die bei Bitcoin-Automaten anfallen, einer anderen beliebten KYC-freien Option.
 
-![Zahlungslösung](assets/2.jpeg)
+![Zahlungslösung](assets/2.webp)
 
 Beachten Sie, dass tägliche und wöchentliche Transaktionslimits von $999.99 bzw. $2500.00 gelten. Wenn Sie versuchen, diese Limits bei einer Zahlung am Postschalter zu überschreiten, wird die Transaktion automatisch storniert.
 
@@ -46,7 +46,7 @@ Beachten Sie, dass tägliche und wöchentliche Transaktionslimits von $999.99 bz
 
 Wenn die Mittel auf Ihrem Bull Bitcoin-Konto verfügbar sind, ist es Zeit, zum Kauf von Bitcoin überzugehen! Gehen Sie zur Seite "Bitcoin kaufen" im Hauptmenü. Dort müssen Sie den Betrag Ihres Guthabens eingeben, den Sie ausgeben möchten, sowie das Netzwerk Ihrer Wahl (Bitcoin, Lightning Network, Liquid).
 
-![Bild 3](assets/3.jpeg)
+![Bild 3](assets/3.webp)
 
 Für die Bitcoin- und Liquid-Netzwerke müssen Sie eine Adresse teilen, um die Kauforder zu erstellen. Für das Lightning Network bietet Bull Bitcoin zwei verschiedene Zahlungsmethoden an: LNURL (Standardoption) oder Bolt11, nachdem die Bestellung erstellt wurde.
 

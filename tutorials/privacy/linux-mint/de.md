@@ -41,11 +41,11 @@ Vermeiden Sie:
 - Macs - sie sind teuer, und die Hardware harmoniert meiner Erfahrung nach nicht gut mit Linux-Betriebssystemen
 - Alles, was generalüberholt oder gebraucht ist (aber kein absolutes Ausschlusskriterium)
   Stattdessen suchen Sie nach einem Windows 11 Laptop (Derzeit ist Windows 11 die neueste Version. Wir werden diese Software loswerden, keine Sorge.). Ich habe auf amazon.com nach "Windows 11 Laptop" gesucht und dieses gute Beispiel gefunden:
-  ![image](assets/1.png)
+  ![image](assets/1.webp)
 
 Der Preis dieses oben genannten Modells ist gut. Die Spezifikationen sind ausreichend. Es hat eine eingebaute Kamera, die wir für QR-Code-PSBT-Transaktionen verwenden können (ansonsten müssten Sie eine USB-Kamera kaufen, um das zu tun). Machen Sie sich keine Sorgen darüber, dass es keine bekannte Marke ist (es ist günstig). Wenn Sie eine bessere Marke möchten, kostet es Sie mehr, z.B.:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Einige der günstigeren Modelle haben nur 64 GB Speicherplatz; Ich habe noch keine Laptops mit so kleinem Speicher getestet - es ist wahrscheinlich in Ordnung, 64 GB zu haben, aber es könnte knapp werden.
 
@@ -81,27 +81,27 @@ Wir werden einen beliebigen Computer verwenden, um das Betriebssystem auf einen 
 
 Besorgen Sie sich eines dieser Dinge:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Oder Sie können so etwas verwenden:
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Navigieren Sie als Nächstes zu linuxmint.com
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Bewegen Sie die Maus über das Menü "Download" oben und klicken Sie dann auf den Link "Linux Mint 20.3" oder die neueste empfohlene Version zum Zeitpunkt der Durchführung dieser Anleitung.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Es gibt einige "Varianten", aus denen Sie wählen können. Wählen Sie "Cinnamon", um dieser Anleitung zu folgen. Klicken Sie auf die Schaltfläche "Download".
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Auf der nächsten Seite können Sie nach unten scrollen, um die Spiegelserver (Mirrors) zu sehen (Mirrors sind verschiedene Server, die eine Kopie der Datei halten, die wir möchten). Sie können den Download mit SHA256 und gpg überprüfen (empfohlen), aber ich werde hier nicht erklären, wie das geht, da ich bereits Anleitungen dazu geschrieben habe.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Wählen Sie einen Spiegelserver aus, der Ihnen am nächsten liegt, und klicken Sie auf den Link (der grüne Text in der Spaltenspalte). Die Datei beginnt heruntergeladen zu werden - die Version, die ich herunterlade, ist 2,1 Gigabyte groß.
 
@@ -109,7 +109,7 @@ Sobald der Download abgeschlossen ist, können Sie die Datei auf ein tragbares S
 
 Führen Sie es dann aus:
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Klicken Sie auf "Flash from file" und wählen Sie die heruntergeladene LinuxMint-Datei aus.
 
@@ -127,13 +127,13 @@ Jeder Computer hat ein anderes BIOS-Menü. Erkunden Sie es und finden Sie heraus
 
 Starten Sie den Computer neu und er sollte vom USB-Speichergerät laden. Wir können Linux nicht auf der internen Festplatte installieren und Windows wird endgültig entfernt.
 Wenn Sie den folgenden Bildschirm erreichen, wählen Sie "OEM-Installation (für Hersteller)". Wenn Sie stattdessen "Linux Mint starten" wählen, wird eine Linux Mint-Sitzung von dem Speichergerät geladen, aber sobald Sie den Computer ausschalten, werden keine Ihrer Informationen gespeichert - es handelt sich im Grunde um eine temporäre Sitzung, damit Sie es ausprobieren können.
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Sie werden durch einen grafischen Assistenten geführt, der Ihnen eine Reihe von Fragen stellt, die einfach sein sollten. Eine davon sind die Spracheinstellungen, eine andere ist Ihre Heim-Internetverbindung und das Passwort. Wenn Sie aufgefordert werden, zusätzliche Software zu installieren, lehnen Sie dies ab. Wenn Sie zur Frage nach dem Installationstyp kommen, könnten einige Leute zögern - Sie müssen "Festplatte löschen und Linux Mint installieren" wählen. Verschlüsseln Sie außerdem nicht das Laufwerk und wählen Sie nicht LVM aus.
 
 Schließlich gelangen Sie zum Desktop. An diesem Punkt sind Sie noch nicht ganz fertig. Sie handeln tatsächlich als Hersteller (d.h. jemand, der einen Computer zusammenbaut und Linux für den Kunden einrichtet). Sie müssen das Desktop-Symbol "Linux Mint installieren" doppelklicken, um es abzuschließen.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Denken Sie daran, den USB-Stick zu entfernen und dann neu zu starten. Nach dem Neustart verwenden Sie das Betriebssystem zum ersten Mal als neuer Benutzer. Herzlichen Glückwunsch.
 

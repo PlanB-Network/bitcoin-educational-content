@@ -22,7 +22,7 @@ Uma maneira de confundir as pistas em uma transação Bitcoin é realizar uma tr
 
 Como mencionado anteriormente, a estrutura de transação colaborativa mais conhecida é a Coinjoin. Por exemplo, no protocolo Coinjoin Whirlpool, as transações envolvem 5 participantes de entrada e saída, cada um com a mesma quantidade de bitcoins.
 
-![Diagrama de uma transação Coinjoin no Whirlpool](assets/1.jpeg)
+![Diagrama de uma transação Coinjoin no Whirlpool](assets/1.webp)
 
 Um observador externo dessa transação será incapaz de saber qual saída pertence a qual usuário de entrada. Se pegarmos o exemplo do usuário nº 4 (roxo), podemos reconhecer sua UTXO como entrada, mas não saberemos qual das 5 saídas é realmente dele. A informação inicial não está escondida, mas sim confundida em um grupo.
 O utilizador tem a capacidade de negar a posse de um determinado UTXO de saída. Esse fenômeno é chamado de "plausibilidade de negação" e permite obter confidencialidade em uma transação Bitcoin, embora transparente.
@@ -46,7 +46,7 @@ Seu mecanismo é bastante simples de entender. Aqui está seu funcionamento prá
 
 Por exemplo, aqui está uma transação StonewallX2 clássica na qual fiz um pagamento de 50.125 sats. A primeira input de 102.588 sats vem da minha carteira Samourai. A segunda input de 104.255 sats vem da carteira do meu colaborador:
 
-![Esquema de uma transação StonewallX2](assets/2.jpeg)
+![Esquema de uma transação StonewallX2](assets/2.webp)
 
 Podemos observar 4 outputs, incluindo 2 com o mesmo valor para confundir as pistas:
 
@@ -101,7 +101,7 @@ Descubra passo a passo como realizar uma transação StonewallX2 com o JoinBot n
 
 Aqui está o esquema da transação que acabamos de realizar no vídeo:
 
-![Esquema da minha transação StonewallX2 com o JoinBot.](assets/3.jpeg)
+![Esquema da minha transação StonewallX2 com o JoinBot.](assets/3.webp)
 
 Podemos ver 5 inputs:
 

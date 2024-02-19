@@ -10,19 +10,19 @@ description: Quantos remixes devem ser feitos no Whirlpool?
 Essa é uma pergunta que frequentemente me fazem. **Ao fazer coinjoins com o Whirlpool, quantos remixes devem ser feitos para obter resultados satisfatórios?**
 
 O objetivo do coinjoin é oferecer negação plausível ao misturar sua moeda com um grupo de moedas indistinguíveis. A finalidade dessa ação é quebrar os elos de rastreabilidade, tanto do passado para o presente quanto do presente para o passado. Em outras palavras, um analista que conhece sua transação inicial na entrada dos ciclos de coinjoin não deve ser capaz de identificar definitivamente sua UTXO na saída dos ciclos de remix (análise dos ciclos de entrada para os ciclos de saída).
-![diagrama de elos passado-presente](assets/pt/1.png)
+![diagrama de elos passado-presente](assets/pt/1.webp)
 
 Da mesma forma, um analista que conhece sua UTXO na saída dos ciclos de coinjoin não deve ser capaz de determinar a transação original na entrada dos ciclos (análise dos ciclos de saída para os ciclos de entrada).
-![diagrama de elos presente-passado](assets/pt/2.png)
+![diagrama de elos presente-passado](assets/pt/2.webp)
 No entanto, o número de remixes não é um critério confiável para avaliar a dificuldade que um analista encontraria ao estabelecer elos entre o passado e o presente, ou vice-versa. Um indicador mais relevante seria o tamanho dos grupos nos quais sua moeda está escondida. Esses indicadores são chamados de "anonsets". No caso do Whirlpool, existem dois tipos de anonsets.
 
 Em primeiro lugar, podemos determinar o tamanho do grupo em que sua UTXO está escondida na saída dos ciclos de coinjoin, ou seja, o número de moedas indistinguíveis presentes dentro desse grupo.
-![UTXOs prováveis na saída](assets/pt/3.png)
+![UTXOs prováveis na saída](assets/pt/3.webp)
 Esse indicador, chamado de "anonset prospectivo" em francês, "forward anonset" em inglês ou "métricas prospectivas", nos permite avaliar a resistência de sua moeda a análises que traçam seu caminho da entrada para a saída dos ciclos de coinjoin. Essa métrica estima até que ponto sua UTXO está protegida contra tentativas de reconstruir sua história desde o ponto de entrada até o ponto de saída no processo de coinjoin. Por exemplo, se sua transação participou de seu primeiro ciclo de coinjoin e foram realizados mais dois ciclos subsequentes, o anonset prospectivo de sua moeda seria `13`:
-![anonset prospectivo](assets/pt/4.png)
-Em segundo lugar, outro indicador pode ser calculado para avaliar a resistência de sua moeda a uma análise do presente para o passado. Ao conhecer sua UTXO no final dos ciclos, esse indicador determina o número de transações Tx0 potenciais que poderiam ter constituído sua entrada nos ciclos de coinjoin (análise do final para o início dos ciclos). Esse indicador mede o quão difícil é para um analista rastrear a origem de sua moeda depois que ela passou por coinjoins.![Fontes prováveis na entrada](assets/pt/5.png)
+![anonset prospectivo](assets/pt/4.webp)
+Em segundo lugar, outro indicador pode ser calculado para avaliar a resistência de sua moeda a uma análise do presente para o passado. Ao conhecer sua UTXO no final dos ciclos, esse indicador determina o número de transações Tx0 potenciais que poderiam ter constituído sua entrada nos ciclos de coinjoin (análise do final para o início dos ciclos). Esse indicador mede o quão difícil é para um analista rastrear a origem de sua moeda depois que ela passou por coinjoins.![Fontes prováveis na entrada](assets/pt/5.webp)
 O nome desse indicador é "anonset retrospectivo" ou "métricas retrospectivas". Em francês, gosto de chamá-lo de "anonset rétrospectif". No diagrama abaixo, isso corresponde a todas as bolhas laranjas Tx0:
-![anonset retrospectivo](assets/pt/6.png)
+![anonset retrospectivo](assets/pt/6.webp)
 Para saber mais sobre o método de cálculo desses indicadores, recomendo ler [meu tópico no Twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sobre esse assunto. Também estamos preparando um artigo mais abrangente na PlanB Network.
 Estou ciente de que a resposta fornecida pode parecer insatisfatória, pois você esperava um número específico de remixes, e estou direcionando você para a documentação. A razão para isso é que o número de remixes não é um indicador confiável para avaliar o anonimato obtido em ciclos de coinjoin. Portanto, não é possível definir um número fixo de remixes como um limite de segurança absoluto e universal.
 
@@ -35,7 +35,7 @@ Também é importante entender que a criação de negação plausível nunca é 
 Para determinar esses famosos indicadores de anonset, você pode usar uma ferramenta em Python chamada **WST** (Whirlpool Stats Tool). Também estamos preparando um tutorial sobre essa ferramenta para você.
 
 No entanto, nem sempre é necessário calcular os anonsets de cada uma de suas moedas coinjoined. O próprio design do Whirlpool já fornece garantias. Como mencionado anteriormente, o anonset retrospectivo raramente é uma preocupação. A partir da sua mistura inicial, você já obtém uma pontuação retrospectiva particularmente alta. Quanto ao anonset prospectivo, basta manter sua moeda na conta pós-mix por um período de tempo suficientemente longo. Por exemplo, aqui estão as pontuações de anonset de uma das minhas moedas de `100.000 sats` após passar dois meses no pool de coinjoin:
-![WST anonsets](assets/pt/7.png)
+![WST anonsets](assets/pt/7.webp)
 Ele exibe uma pontuação retrospectiva de `34.593` e uma pontuação prospectiva de `45.202`. Em termos concretos, isso significa duas coisas:
 - Se um analista conhece minha moeda no final dos ciclos e tenta rastrear sua origem, ele encontrará `34.593` fontes potenciais, cada uma com a mesma probabilidade de ser minha.
 - Se um analista conhece minha moeda no início dos ciclos e tenta determinar sua correspondência no final, ele se deparará com `45.202` possíveis UTXOs, cada um com a mesma probabilidade de ser meu.

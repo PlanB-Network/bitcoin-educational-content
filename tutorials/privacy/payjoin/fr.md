@@ -19,7 +19,7 @@ C'est en 2015 que [LaurentMT](https://twitter.com/LaurentMT) évoquait pour la p
 La particularité du Payjoin réside dans sa capacité à générer une transaction qui paraît ordinaire à première vue, mais qui est en réalité un mini Coinjoin entre deux personnes. Pour cela, la structure de la transaction fait intervenir le destinataire du paiement dans les entrées aux côtés de l'expéditeur réel. Le destinataire inclut donc un paiement vers lui-même au milieu de la transaction qui permet elle-même de le payer. 
 
 Prenons un exemple concret : si vous achetez une baguette pour `4000 sats` à l'aide d'un UTXO de `10 000 sats`, et que vous optez pour un Payjoin, votre boulanger ajoutera un UTXO de `15 000 sats` lui appartenant en entrée, qu'il récupèrera en intégralité en sortie, en plus de vos `4000 sats` :
-![schéma transaction payjoin](assets/fr/1.png)
+![schéma transaction payjoin](assets/fr/1.webp)
 
 Dans cet exemple, le boulanger introduit `15 000 sats` en entrée et ressort avec `19 000 sats`, la différence est exactement de `4 000 sats`, c'est-à-dire le prix de la baguette. De votre côté, vous entrez avec `10 000 sats` et vous vous retrouvez avec `6 000 sats` à la sortie, ce qui représente bien un solde de `-4 000 sats`, c'est-à-dire le prix de la baguette. Pour simplifier l'exemple, j'ai délibérément omis les frais de minage dans cette transaction.
 
@@ -34,11 +34,11 @@ Ensuite, le Payjoin permet également de tromper un observateur extérieur sur l
 > La stéganographie est une technique de dissimulation d'informations au sein d'autres données ou objets, de manière à ce que la présence de l'information cachée ne soit pas perceptible. Par exemple, un message secret peut être dissimulé à l'intérieur d'un point dans un texte qui n'a rien à voir, le rendant indétectable à l'œil nu (c'est la technique du [micropoint](https://fr.wikipedia.org/wiki/Micropoint)). Contrairement au chiffrement, qui rend les informations incompréhensibles sans la clé de déchiffrement, la stéganographie ne modifie pas l'information. Elle reste affichée en clair. Son objectif est plutôt de cacher l'existence même du message secret, alors que le chiffrement révèle clairement la présence d'informations cachées, bien qu'inaccessibles sans la clé.
 
 Reprenons notre exemple de transaction Payjoin pour le paiement d'une baguette.
-![schéma transaction payjoin de l'extérieur](assets/fr/2.png)
+![schéma transaction payjoin de l'extérieur](assets/fr/2.webp)
 En voyant cette transaction sur la blockchain, un observateur extérieur qui suit les heuristiques habituelles de l'analyse de chaîne en fera l'interprétation suivante : « *Alice a fusionné 2 UTXO en entrée de la transaction afin de payer `19 000 sats` à Bob* ».
-![mauvaise interprétation transaction payjoin de l'extérieur](assets/fr/3.png)
+![mauvaise interprétation transaction payjoin de l'extérieur](assets/fr/3.webp)
 Cette interprétation est évidemment incorrecte, car comme vous le savez déjà, les deux UTXO en entrée n'appartiennent pas à la même personne. De plus, la valeur réelle du paiement n'est pas de `19 000 sats`, mais bien de `4 000 sats`. L'analyse de l'observateur externe est ainsi dirigée vers une conclusion erronée, ce qui garantit la préservation de la confidentialité des parties prenantes.
-![schéma transaction payjoin](assets/fr/1.png)
+![schéma transaction payjoin](assets/fr/1.webp)
 Si vous souhaitez analyser une véritable transaction Payjoin, en voici une que j'ai réalisée sur le testnet : [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 [**-> Découvrez notre tutoriel pour faire un Payjoin avec Samourai Wallet**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)

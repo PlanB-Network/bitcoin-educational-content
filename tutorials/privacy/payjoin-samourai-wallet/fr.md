@@ -21,7 +21,7 @@ Les transactions Cahoots requièrent des échanges de transactions partiellement
 Ces échanges chiffrés exigent d'établir une connexion et une authentification entre les participants des Cahoots. Les communications Soroban s'appuient donc sur les Paynyms des utilisateurs. Si vous n'êtes pas familier avec les Paynyms, je vous invite à consulter cet article pour plus de détails : [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
 
 Pour faire simple, un Paynym est un identifiant unique lié à votre portefeuille, qui permet diverses fonctionnalités, dont des échanges de messages chiffrés. Le Paynym se présente sous la forme d'un identifiant et d'une illustration représentant un robot. Voici, à titre d'exemple, le mien sur le Testnet :
-![paynym samourai wallet](assets/fr/1.png)
+![paynym samourai wallet](assets/fr/1.webp)
 
 **Pour résumer :**
 - _Payjoin_ = Structure spécifique de transaction collaborative ;
@@ -40,26 +40,26 @@ Pour réaliser une transaction Cahoots à distance, notamment un PayJoin (Stowaw
 
 Pour commencer, il est nécessaire d'obtenir le code de paiement du Paynym du destinataire du Payjoin. Dans l'application Samourai Wallet, le destinataire doit appuyer sur l'icône de son Paynym (le petit robot) située en haut à gauche de l'écran, puis cliquer sur son surnom de Paynym, commençant par `+...`. Par exemple, le mien est `+namelessmode0aF`. Si votre collaborateur utilise Sparrow Wallet, je vous invite à consulter notre tutoriel dédié en cliquant ici.
 
-![connexion paynym samourai](assets/fr/2.png)
+![connexion paynym samourai](assets/fr/2.webp)
 
 Votre collaborateur sera alors redirigé vers la page de son Paynym. De là, il pourra soit vous transmettre les identifiants de son Paynym, soit partager avec vous son code QR pour que vous puissiez le scanner. Pour cela, il doit cliquer sur la petite icône `partager` située en haut à droite de son écran.
-![partager paynym samourai](assets/fr/1.png)
+![partager paynym samourai](assets/fr/1.webp)
 
 De votre côté, lancez votre application Samourai Wallet et accédez au menu `PayNyms` de la même manière. Si c'est la première utilisation de votre Paynym, vous devrez en obtenir l'identifiant. 
 
-![demander un paynym](assets/fr/3.png)
+![demander un paynym](assets/fr/3.webp)
 
 Cliquez ensuite sur le `+` bleu en bas à droite de l'écran.
-![ajouter paynym collaborateur](assets/fr/4.png)
+![ajouter paynym collaborateur](assets/fr/4.webp)
 Vous pouvez alors coller le code de paiement de votre collaborateur en sélectionnant `COLLER LE CODE PAIEMENT`, ou ouvrir la caméra pour scanner son code QR en appuyant sur `SCANNEZ LE CODE QR`.
-![coller identifiant paynym](assets/fr/5.png)
+![coller identifiant paynym](assets/fr/5.webp)
 
 Cliquez sur le bouton `SUIVRE`.
-![suivre paynym](assets/fr/6.png)
+![suivre paynym](assets/fr/6.webp)
 Validez en cliquant sur `YES`.
-![valider suivre paynym](assets/fr/7.png)
+![valider suivre paynym](assets/fr/7.webp)
 Le logiciel vous proposera alors un bouton `SE CONNECTER`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers l'autre Paynym dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
-![connecter paynym](assets/fr/8.png)
+![connecter paynym](assets/fr/8.webp)
 Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre destinataire vous suive également. Vous pourrez ensuite effectuer un Payjoin.
 
 

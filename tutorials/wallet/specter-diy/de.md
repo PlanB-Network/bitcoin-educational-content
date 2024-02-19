@@ -15,7 +15,7 @@ Spezifikationen:
 - 3D-druckbares Gehäuse
 - Gehäuse ohne Zubehör, entworfen von Seedsigner
 
-![Geräteansicht](assets/2.jpeg)
+![Geräteansicht](assets/2.webp)
 
 ## Anleitung
 

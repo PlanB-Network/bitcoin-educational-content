@@ -6,7 +6,7 @@ description: Discover and start using NOSTR
 
 At the end of this guide, you will understand what Nostr is, you will have created an account, and you will be able to use it.
 
-![A new challenger has arrived](assets/1.jpeg)
+![A new challenger has arrived](assets/1.webp)
 
 ## What is Nostr?
 
@@ -20,7 +20,7 @@ Each user has one or more identities, and each identity is determined by a crypt
 
 To access the network, you need to use client software and connect to relays to receive and transmit content.
 
-![Key system](assets/2.jpeg)
+![Key system](assets/2.webp)
 
 ## 1. Cryptographic Keys
 
@@ -56,7 +56,7 @@ For the purposes of this guide, we will use iris.to (https://iris.to/) as this w
 
 ris will create a set of keys for you without you having to do anything more than enter a name (real or fictional) for your profile. Then click on GO and you're done!
 
-![Main menu](assets/3.jpeg)
+![Main menu](assets/3.webp)
 
 > ⚠️ Attention! You will need to keep track of your keys if you want to be able to access your profile again once your session is closed. I will show you how to do this at the very end of this guide.
 
@@ -64,11 +64,11 @@ ris will create a set of keys for you without you having to do anything more tha
 
 To publish content, it's as simple and intuitive as writing a few words in the publication field.
 
-![Publication](assets/4.jpeg)
+![Publication](assets/4.webp)
 
 There you go! You have published your first note on Nostr.
 
-![Post](assets/5.jpeg)
+![Post](assets/5.webp)
 
 ## Step 3: Find a friend
 
@@ -76,7 +76,7 @@ Find me on Nostr and never be alone again. I will subscribe back to anyone who s
 
 npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 in the search bar.
 
-![My profile](assets/6.jpeg)
+![My profile](assets/6.webp)
 
 Click on "follow" and in a few days at most, I will also subscribe to your feed. We will be friends. I will also be happy to read your message if you want to write me one.
 
@@ -86,11 +86,11 @@ Finally, make sure to also subscribe to Agora256's feed to receive a note every 
 
 You still have some work to do to customize your profile. To do this, click on the avatar that iris automatically generated for you in the upper right corner of the screen and then click on "edit profile".
 
-![Profile](assets/7.jpeg)
+![Profile](assets/7.webp)
 
 All you have to do now is tell iris where to find your image and profile banner on the interwebs. I recommend hosting your own content: protect what is yours.
 
-![Another option](assets/8.jpeg)
+![Another option](assets/8.webp)
 
 If you prefer, you can also upload images, they will be stored for you by iris on nostr.build, a free visual content hosting service for Nostr.
 
@@ -100,11 +100,11 @@ As you can see, you can also configure your client to be able to receive and sen
 
 This step is crucial if you want to keep access to your profile once you have logged out of the client or your session has expired.
 First, click on the "settings" icon represented by a gear
-![Setting](assets/9.jpeg)
+![Setting](assets/9.webp)
 
 Then, copy and paste one by one your npub, npub hex, nsec, and nsec hex into a text file that you will keep secure. I recommend encrypting this file if you know how to do it.
 
-![Key](assets/10.jpeg)
+![Key](assets/10.webp)
 
 > ⚠️ Take note of the warning that iris gives you. While you can share your public key without fear, it is a different story for your private key. Anyone who has the latter will be able to access your account.
 

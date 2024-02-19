@@ -15,7 +15,7 @@ Especificaciones:
 - Estuche imprimible en 3D
 - Estuche básico diseñado por Seedsigner
 
-![vista del dispositivo](assets/2.jpeg)
+![vista del dispositivo](assets/2.webp)
 
 ## Guía
 

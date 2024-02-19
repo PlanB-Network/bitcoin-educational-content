@@ -20,7 +20,7 @@ Simply download and install the app and you are on the Lightning Network!
 
 Wallet of Satoshi is really really easy to use.
 
-![cover](assets/1.png)
+![cover](assets/1.webp)
 
 from the home screen simply press send or receive, from there you can scan a Qr code to send or be scan to receive.
 

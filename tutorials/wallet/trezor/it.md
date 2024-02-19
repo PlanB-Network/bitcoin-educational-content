@@ -35,73 +35,73 @@ Trezor viene fornito con il suo cavo micro USB. Assicurati di utilizzare quello 
 
 Collegalo al tuo computer e il dispositivo si accenderà. Riceverai un messaggio che dice "Vai su Trezor.io/start". Fallo e scarica Trezor Suite sul tuo computer.
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 Clicca sul pulsante di download ("Ottieni app desktop")
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Nota i link Signature e Signing key. Per verificare il download (controllare che il download non sia stato manomesso), ci sono ulteriori passaggi che sono facoltativi se stai iniziando, ma OBBLIGATORI se hai una ricchezza significativa da proteggere. Le istruzioni per questo si trovano nell'Appendice A (fine della guida).
 
 Collega Trezor al computer con il cavo micro USB e installa ed esegui il programma. Ecco come appare su un Mac:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Riceverai un avviso sciocco dopo aver eseguito il programma, continua semplicemente:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Clicca su Configura Trezor
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Se il firmware è obsoleto, permetti a Trezor di aggiornare il firmware.
 
 Successivamente, puoi creare un nuovo seed o ripristinare un portafoglio da un dispositivo diverso con un seed che hai già. Passerò attraverso la creazione di un nuovo seed.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Clicca su "Crea nuovo portafoglio" - e conferma che desideri farlo sul dispositivo stesso cliccando sul pulsante di conferma.
 
 Quindi clicca sull'unica opzione "Backup seed standard"
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Poi clicca su "crea backup"
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Clicca sui tre segni di spunta per renderli verdi (naturalmente leggi ogni messaggio) e poi clicca su "inizia backup".
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Successivamente, vedrai questo:
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Sul dispositivo, vedi le parole presentate una per una e scrivile ORDINATAMENTE e NELL'ORDINE.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Imposta un PIN per bloccare il dispositivo (questo non fa parte del tuo seed, serve solo per bloccare il dispositivo in modo che nessuno possa accedere al seed contenuto all'interno).
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Hai la possibilità di aggiungere shitcoin al tuo portafoglio - ti esorto a non farlo e a salvare solo in Bitcoin, come spiego qui (perché Bitcoin) e qui (solo Bitcoin).
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Dai un nome al tuo portafoglio e clicca su "Access Suite":
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 È più semplice creare un portafoglio senza frase di accesso, ma è meglio crearne uno con una frase di accesso (il tuo vero portafoglio) E uno senza frase di accesso (il tuo portafoglio fittizio). Ogni volta che accedi al dispositivo tramite Trezor Suite, ti verrà chiesto se vuoi "applicare" la frase di accesso o meno.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Ho selezionato "Hidden Wallet" e ho digitato una frase di accesso che ho inventato "craigwrightisaliarandafraud"
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Mi piace come viene chiamato un portafoglio "nascosto", poiché spiega in parte come funzionano le frasi di accesso.
 
@@ -109,15 +109,15 @@ Conferma la frase di accesso sul dispositivo.
 
 Poiché questo portafoglio è vuoto, mi è stato chiesto di confermare che la frase di accesso sia corretta:
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Ti verrà quindi chiesto se desideri abilitare l'etichettatura. Non è qualcosa che ho esplorato, ma sembra un modo per etichettare le tue transazioni e salvare i dati sul tuo computer o sul cloud.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Infine, il tuo portafoglio sarà disponibile:
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Quello che hai sul tuo computer è ciò che viene chiamato un "portafoglio di osservazione", perché contiene le tue chiavi pubbliche (e indirizzi), ma non le tue chiavi private. Hai bisogno delle chiavi private per spendere (firmando transazioni con le chiavi private). Il modo per farlo è collegare il portafoglio hardware. Il punto del portafoglio hardware è che le transazioni possono essere passate avanti e indietro tra il computer e il Trezor, una firma può essere applicata all'interno del Trezor e la chiave privata rimane sempre contenuta nel dispositivo (per la sicurezza contro i malware informatici).
 
@@ -137,37 +137,37 @@ Caricheremo ora Sparrow e collegheremo il Trezor (con la frase di recupero ma or
 
 Crea un nuovo portafoglio:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Dagli un nome carino
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Clicca su "Connected Hardware Wallet".
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Clicca su "Scan" e poi su "set passphrase" nella schermata successiva per creare un nuovo portafoglio (usa una nuova frase di accesso, ad esempio la vecchia frase di accesso con un numero dopo funzionerebbe). Poi "send passphrase", poi confermala sul dispositivo.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Clicca poi su "importa keystore".
 
 Non c'è nulla da modificare nella schermata successiva, il Trezor l'ha compilata per te. Clicca su "Applica".
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Nella schermata successiva puoi aggiungere una password. Non confonderla con "passphrase"; molte persone lo fanno. La denominazione è sfortunata. La password ti permette di bloccare questo portafoglio sul tuo computer. È specifica per questo software su questo computer. Non fa parte della tua chiave privata Bitcoin.
 
 Clicca su "Applica".
 
-![image](assets/25.png)
+![image](assets/25.webp)
 
 Dopo una pausa, mentre il computer elabora, vedrai che i pulsanti a sinistra cambieranno da grigi a blu. Congratulazioni, il tuo portafoglio è ora pronto all'uso. Effettua e invia transazioni a tuo piacimento.
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 Ricezione
 
@@ -179,7 +179,7 @@ Una volta fatto ciò, devi fare il backup delle parole che hai scritto. Una sola
 
 ## Invio
 
-![image](assets/27.png)
+![image](assets/27.webp)
 
 Quando effettui un pagamento, devi incollare l'indirizzo a cui stai pagando nel campo "Pagare a". In realtà non puoi lasciare vuota l'etichetta, è solo per i tuoi registri personali del portafoglio, ma Sparrow non lo permette: inserisci qualcosa (solo tu lo vedrai). Inserisci l'importo e puoi anche regolare manualmente la commissione desiderata.
 
@@ -196,7 +196,7 @@ Appendice A - Verifica del download del software
 
 ## Appendice A - Verifica del download del software
 
-![image](assets/28 .png)
+![image](assets/28 .webp)
 
 Scarica la Firma (un file di testo) e la Chiave di Firma (un file di testo) e prendi nota dei nomi dei file e del percorso in cui hai scaricato i file.
 

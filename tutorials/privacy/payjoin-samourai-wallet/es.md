@@ -19,7 +19,7 @@ Las transacciones Cahoots implican intercambios de transacciones parcialmente fi
 Cuando se realiza de forma remota, este proceso se vuelve demasiado complejo. Para abordar este problema, Samourai ha desarrollado un protocolo de comunicación cifrada basado en Tor, llamado "Soroban". Con Soroban, los intercambios necesarios para un Payjoin se automatizan detrás de una interfaz fácil de usar. Este es el segundo método que estudiaremos en este artículo.
 
 Estos intercambios cifrados requieren establecer una conexión y autenticación entre los participantes de Cahoots. Por lo tanto, las comunicaciones de Soroban se basan en los Paynyms de los usuarios. Si no está familiarizado con los Paynyms, lo invito a consultar este artículo para obtener más detalles: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
-En resumen, un Paynym es un identificador único vinculado a su billetera que permite diversas funcionalidades, incluido el envío de mensajes cifrados. El Paynym se presenta en forma de un identificador y una ilustración que representa a un robot. Aquí tienes un ejemplo del mío en Testnet: ![paynym samourai wallet](assets/es/1.png)
+En resumen, un Paynym es un identificador único vinculado a su billetera que permite diversas funcionalidades, incluido el envío de mensajes cifrados. El Paynym se presenta en forma de un identificador y una ilustración que representa a un robot. Aquí tienes un ejemplo del mío en Testnet: ![paynym samourai wallet](assets/es/1.webp)
 
 **En resumen:**
 - _Payjoin_ = Estructura específica de transacciones colaborativas;
@@ -37,25 +37,25 @@ Para llevar a cabo una transacción remota de Cahoots, específicamente un PayJo
 
 Para comenzar, necesitas obtener el código de pago del Paynym del destinatario para el Payjoin. En la aplicación Samourai Wallet, el destinatario debe tocar el icono de su Paynym (el pequeño robot) ubicado en la parte superior izquierda de la pantalla, y luego hacer clic en su apodo de Paynym, que comienza con `+...`. Por ejemplo, el mío es `+namelessmode0aF`. Si tu colaborador utiliza Sparrow Wallet, te invito a consultar nuestro tutorial dedicado haciendo clic aquí.
 
-![connexion paynym samourai](assets/es/2.png)
+![connexion paynym samourai](assets/es/2.webp)
 
 Tu colaborador será redirigido a su página de Paynym. Desde allí, pueden compartirte sus credenciales de Paynym o compartirte su código QR para que lo escanees. Para hacer esto, deben hacer clic en el pequeño ícono de "compartir" ubicado en la parte superior derecha de su pantalla.
-![partager paynym samourai](assets/es/1.png)
+![partager paynym samourai](assets/es/1.webp)
 
 Por tu parte, inicia la aplicación Samourai Wallet y accede al menú "PayNyms" de la misma manera. Si es la primera vez que utilizas tu Paynym, necesitarás obtener el identificador.
 
-![demander un paynym](assets/es/3.png)
+![demander un paynym](assets/es/3.webp)
 
 Luego haz clic en el signo "+" azul en la parte inferior derecha de la pantalla.
-![ajouter paynym collaborateur](assets/es/4.png)
-Luego puedes pegar el código de pago de tu colaborador seleccionando `COLLER LE CODE PAIEMENT`, o abrir la cámara para escanear su código QR presionando `SCANNEZ LE CODE QR`.![paste paynym identifier](assets/es/5.png)
+![ajouter paynym collaborateur](assets/es/4.webp)
+Luego puedes pegar el código de pago de tu colaborador seleccionando `COLLER LE CODE PAIEMENT`, o abrir la cámara para escanear su código QR presionando `SCANNEZ LE CODE QR`.![paste paynym identifier](assets/es/5.webp)
 
 Haz clic en el botón `SUIVRE`.
-![follow paynym](assets/es/6.png)
+![follow paynym](assets/es/6.webp)
 Confirma haciendo clic en `YES`.
-![confirm follow paynym](assets/es/7.png)
+![confirm follow paynym](assets/es/7.webp)
 El software te ofrecerá un botón `SE CONNECTER`. No es necesario hacer clic en este botón para nuestro tutorial. Este paso solo es necesario si planeas hacer pagos al otro Paynym como parte del [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), que no está relacionado con nuestro tutorial.
-![connect paynym](assets/es/8.png)
+![connect paynym](assets/es/8.webp)
 Una vez que el Paynym del destinatario es seguido por tu Paynym, repite esta operación en dirección opuesta para que el destinatario también te siga. Luego puedes realizar un Payjoin.
 
 ## ¿Cómo hacer un Payjoin en Samourai Wallet?

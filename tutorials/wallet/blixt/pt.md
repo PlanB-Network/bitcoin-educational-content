@@ -4,7 +4,7 @@ name: Blixt
 description: Carteira LN multifuncional
 ---
 
-![apresentação](assets/1.jpeg)
+![apresentação](assets/1.webp)
 
 ## Um poderoso nó BTC/Lightning no seu bolso, onde quer que você esteja
 
@@ -35,7 +35,7 @@ Aqui estão alguns links sobre este novo aplicativo de nó/carteira:
 > Download do aplicativo Testflight para iOS
 > Feed do Twitter com demonstrações
 
-![imagem principal](assets/2.JPEG)
+![imagem principal](assets/2.webp)
 
 # Principais funcionalidades disponíveis
 

@@ -22,7 +22,7 @@ Un modo per confondere le tracce in una transazione Bitcoin è effettuare una tr
 
 Come accennato in precedenza, la struttura di transazione collaborativa più conosciuta è il Coinjoin. Ad esempio, nel protocollo Coinjoin Whirlpool, le transazioni coinvolgono 5 partecipanti in input e output, ognuno con la stessa quantità di bitcoin.
 
-![Schema di una transazione Coinjoin su Whirlpool](assets/1.jpeg)
+![Schema di una transazione Coinjoin su Whirlpool](assets/1.webp)
 
 Un osservatore esterno a questa transazione non sarà in grado di sapere a quale output appartiene ciascun utente in input. Ad esempio, prendendo l'esempio dell'utente n°4 (viola), possiamo riconoscere il suo UTXO in input, ma non sapremo quale dei 5 output sia effettivamente il suo. L'informazione iniziale non è nascosta, ma confusa all'interno di un gruppo.
 L'utente è in grado di negare il possesso di un certo UTXO in output. Questo fenomeno è chiamato "plausibile negabilità" e consente di ottenere la privacy in una transazione Bitcoin altrimenti trasparente.
@@ -45,7 +45,7 @@ Il suo meccanismo è abbastanza semplice da capire. Ecco come funziona nella pra
 
 Ad esempio, ecco una transazione StonewallX2 classica in cui ho effettuato un pagamento di 50.125 sats. Il primo input di 102.588 sats proviene dal mio portafoglio Samourai. Il secondo input di 104.255 sats proviene dal portafoglio del mio collaboratore:
 
-![Schema di una transazione StonewallX2](assets/2.jpeg)
+![Schema di una transazione StonewallX2](assets/2.webp)
 
 Possiamo osservare 4 output di cui 2 dello stesso importo per confondere le tracce:
 
@@ -100,7 +100,7 @@ Scopri passo dopo passo come effettuare una transazione StonewallX2 con JoinBot 
 
 Ecco lo schema della transazione che abbiamo appena effettuato nel video:
 
-![Schema della mia transazione StonewallX2 con JoinBot.](assets/3.jpeg)
+![Schema della mia transazione StonewallX2 con JoinBot.](assets/3.webp)
 
 Possiamo vedere 5 input:
 

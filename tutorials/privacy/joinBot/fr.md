@@ -22,7 +22,7 @@ Une façon de parvenir à brouiller les pistes dans une transaction Bitcoin est 
 
 Comme évoquée précédemment, la structure de transaction collaborative la plus connue est le Coinjoin. Par exemple, sur le protocole de Coinjoin Whirlpool, les transactions font intervenir 5 participants en entrée et en sortie, chacun avec une même somme de bitcoins.
 
-![Schéma d’une transaction Coinjoin sur Whirlpool](assets/1.jpeg)
+![Schéma d’une transaction Coinjoin sur Whirlpool](assets/1.webp)
 
 Un observateur extérieur de cette transaction sera en incapacité de savoir quel output appartient à quel utilisateur en entrée. Si l’on prend l’exemple de l’utilisateur n°4 (violet), on peut reconnaitre son UTXO en input, mais on ignorera lequel des 5 outputs est réellement le sien. L’information initiale n’est pas cachée, mais bien confondue dans un groupe.
 
@@ -47,7 +47,7 @@ Son mécanisme est assez simple à comprendre. Voici son fonctionnement pratique
 
 Par exemple, voici une transaction StonewallX2 classique dans laquelle j’ai effectué un paiement de 50 125 sats. Le premier input de 102 588 sats provient de mon portefeuille Samourai. Le second input de 104 255 sats provient du wallet de mon collaborateur :
 
-![Schéma d’une transaction StonewallX2](assets/2.jpeg)
+![Schéma d’une transaction StonewallX2](assets/2.webp)
 
 On peut observer 4 outputs dont 2 de même montant afin de brouiller les pistes :
 
@@ -105,7 +105,7 @@ Découvrez étape par étape comment réaliser une transaction StonewallX2 avec 
 
 Voici le schéma de la transaction que nous venons de réaliser dans la vidéo :
 
-![Schéma de ma transaction StonewallX2 avec JoinBot.](assets/3.jpeg)
+![Schéma de ma transaction StonewallX2 avec JoinBot.](assets/3.webp)
 
 On peut y découvrir 5 inputs :
 

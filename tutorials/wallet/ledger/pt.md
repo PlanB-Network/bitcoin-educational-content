@@ -24,7 +24,7 @@ O Ledger vem com seu próprio cabo USB. Certifique-se de usar esse cabo e não a
 
 Conecte-o ao seu computador e o dispositivo será ligado.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Navegue pelas opções. Você verá
 
@@ -41,7 +41,7 @@ Curiosamente, quando você chegar ao final, ele diz "pressione para a esquerda p
 
 A próxima parte é super irritante. Ele mistura as 24 palavras e você precisa confirmar cada uma, de 1 a 24, navegando por todas as palavras para cada seleção. Depois de terminar, ele permite que você confirme com uma pressão de dois botões e continue.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Você verá no seu painel que você tem um botão de configurações e um botão de sinal de mais que permite instalar aplicativos. Mas você precisa se conectar ao Ledger Live primeiro. Faremos isso a seguir...
 
@@ -51,15 +51,15 @@ Você pode baixar o Ledger Live em sua página da web, mas é melhor obtê-lo no
 
 Pesquise no Google "ledger live GitHub" ou clique neste link https://github.com/LedgerHQ/ledger-live-desktop
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Role para baixo até ver o título "Downloads"...
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Na parte inferior, você verá o link: Instruções para verificar o hash e as assinaturas dos pacotes de instalação estão disponíveis nesta página. Clique nesse link. (https://live.ledger.tools/lld-signatures)
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 No topo, há opções de links para o pacote de software que você precisa, dependendo do seu sistema operacional. Clique no apropriado para fazer o download.
 
@@ -90,32 +90,32 @@ Antes de executar o Ledger Live, é útil ativar uma VPN para garantir um pouco 
 
 Instale o software em seu computador e execute-o.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Selecione seu dispositivo e escolha "Primeira vez usando..."
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Você será guiado por um assistente, mas já fizemos todos esses passos, então você pode apenas avançar.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Após muitas etapas e um questionário, ele verificará se o dispositivo é genuíno. Você precisa garantir que esteja conectado e tenha inserido o PIN e, em seguida, ele perguntará no dispositivo se você permite que o Ledger Live se conecte. Você precisa confirmar isso, é claro.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Havia algum anúncio de shitcoin disfarçado de "notas de lançamento" na próxima janela pop-up. Dispense-o e você deverá chegar a esta tela.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Você precisa clicar em "Adicionar conta" para obter uma carteira de Bitcoin.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Certifique-se de escolher Bitcoin e não Bitcoin Cash ou qualquer outra shitcoin. Ele verificará o dispositivo e você precisará confirmar para prosseguir NO DISPOSITIVO. Ele calculará os endereços por alguns minutos. Em seguida, clique em CONCLUÍDO.
 
-![image](assets/12.png)
-![image](assets/13.png)
+![image](assets/12.webp)
+![image](assets/13.webp)
 
 Ótimo. Agora você tem um gerenciador de carteira de shitcoin contendo uma carteira de Bitcoin em seu computador. Na verdade, você não precisa mais disso e pode se livrar dele. O verdadeiro objetivo era obter o aplicativo Bitcoin no próprio dispositivo, e esta era a única maneira, exceto por realizar algumas técnicas extremas de engenharia de software.
 
@@ -152,35 +152,35 @@ Agora vamos carregá-la e conectar o Ledger, com a carteira contendo a frase de 
 
 Crie uma Nova Carteira:
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Dê um nome bonito a ela
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Observe a caixa de seleção "Tem transação existente". Se esta é uma carteira que você já usou antes, marque esta opção, caso contrário, seu saldo será exibido incorretamente como zero. Marcar esta caixa solicita ao Sparrow que examine o banco de dados do Bitcoin Core (o blockchain) em busca de transações anteriores. Para este guia, estamos usando uma carteira completamente nova, então você pode deixar a caixa desmarcada.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Clique em "Carteira de Hardware Conectada" e verifique se o dispositivo está realmente conectado, ligado, PIN inserido e se você inseriu o aplicativo Bitcoin.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Clique em "Digitalizar" e depois em "Importar Keystore" na próxima tela.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Não há nada para editar na próxima tela, o Ledger preencheu para você. Clique em "Aplicar"
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 A próxima tela permite que você adicione uma senha. Não confunda isso com "frase de acesso"; muitas pessoas fazem isso. A nomenclatura é infeliz. A senha permite que você bloqueie esta carteira em seu computador. É específica para este software neste computador. Não faz parte da sua chave privada do Bitcoin.
 
-'![image](assets/20.png)
+'![image](assets/20.webp)
 
 Após uma pausa, enquanto o computador pensa, você verá os botões à esquerda mudarem de cinza para azul. Parabéns, sua carteira está pronta para uso. Faça e envie transações à vontade.
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 ## Recebendo
 
@@ -192,7 +192,7 @@ Depois de fazer isso, você deve fazer backup das palavras que você anotou. Uma
 
 ## Enviando
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Ao fazer um pagamento, você precisa colar o endereço para o qual está pagando no campo "Pagar para". Na verdade, você não pode deixar o campo "Rótulo" em branco, é apenas para os registros de suas próprias carteiras, mas o Sparrow não permite isso - apenas insira algo (apenas você verá). Insira o valor e você também pode ajustar manualmente a taxa desejada.
 

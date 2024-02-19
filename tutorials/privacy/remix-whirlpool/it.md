@@ -9,19 +9,19 @@ description: Quanti remix dovrebbero essere fatti su Whirlpool?
 Questa è una domanda che mi viene spesso posta. **Quanti remix dovrebbero essere fatti con Whirlpool per ottenere risultati soddisfacenti?**
 
 Lo scopo del coinjoin è offrire una negabilità plausibile mescolando la tua moneta con un gruppo di monete indistinguibili. L'obiettivo di questa azione è rompere i collegamenti di tracciabilità, sia dal passato al presente che dal presente al passato. In altre parole, un analista che conosce la tua transazione iniziale all'ingresso dei cicli di coinjoin non dovrebbe essere in grado di identificare definitivamente il tuo UTXO all'uscita dei cicli di remix (analisi dai cicli di ingresso ai cicli di uscita).
-![diagramma collegamenti passato-presente](assets/it/1.png)
+![diagramma collegamenti passato-presente](assets/it/1.webp)
 
 Al contrario, un analista che conosce il tuo UTXO all'uscita dei cicli di coinjoin non dovrebbe essere in grado di determinare la transazione originale all'ingresso dei cicli (analisi dai cicli di uscita ai cicli di ingresso).
-![diagramma collegamenti presente-passato](assets/it/2.png)
+![diagramma collegamenti presente-passato](assets/it/2.webp)
 Tuttavia, il numero di remix non è un criterio affidabile per valutare la difficoltà che un analista incontrerebbe nel stabilire collegamenti tra passato e presente, o viceversa. Un indicatore più rilevante sarebbe la dimensione dei gruppi in cui la tua moneta si nasconde. Questi indicatori sono chiamati "anonsets". Nel caso di Whirlpool, ci sono due tipi di anonsets.
 
 In primo luogo, possiamo determinare la dimensione del gruppo in cui il tuo UTXO è nascosto all'uscita dei cicli di coinjoin, ovvero il numero di monete indistinguibili presenti all'interno di questo gruppo.
-![UTXOs probabili all'uscita](assets/it/3.png)
+![UTXOs probabili all'uscita](assets/it/3.webp)
 Questo indicatore, chiamato "prospective anonset" in francese, "forward anonset" in inglese o "forward-looking metrics", ci permette di valutare la resistenza della tua moneta ad analisi che tracciano il suo percorso dall'ingresso all'uscita dei cicli di coinjoin. Questa metrica stima fino a che punto il tuo UTXO è protetto contro i tentativi di ricostruire la sua storia dal punto di ingresso al punto di uscita nel processo di coinjoin. Ad esempio, se la tua transazione ha partecipato al suo primo ciclo di coinjoin e sono stati eseguiti altri due cicli successivi, il prospective anonset della tua moneta sarebbe `13`:
-![forward anonset](assets/it/4.png)
-In secondo luogo, un altro indicatore può essere calcolato per valutare la resistenza del tuo pezzo a un'analisi dal presente al passato. Conoscendo il tuo UTXO alla fine dei cicli, questo indicatore determina il numero di transazioni potenziali Tx0 che potrebbero aver costituito il tuo input nei cicli di coinjoin (analisi dalla fine all'inizio dei cicli). Questo indicatore misura quanto sia difficile per un analista risalire all'origine del tuo pezzo dopo che è passato attraverso i coinjoin.![Fonti probabili all'input](assets/it/5.png)
+![forward anonset](assets/it/4.webp)
+In secondo luogo, un altro indicatore può essere calcolato per valutare la resistenza del tuo pezzo a un'analisi dal presente al passato. Conoscendo il tuo UTXO alla fine dei cicli, questo indicatore determina il numero di transazioni potenziali Tx0 che potrebbero aver costituito il tuo input nei cicli di coinjoin (analisi dalla fine all'inizio dei cicli). Questo indicatore misura quanto sia difficile per un analista risalire all'origine del tuo pezzo dopo che è passato attraverso i coinjoin.![Fonti probabili all'input](assets/it/5.webp)
 Il nome di questo indicatore è "backward anonset" o "backward-looking metrics". In francese, mi piace chiamarlo "anonset rétrospectif". Nel diagramma sottostante, corrisponde a tutte le bolle arancioni Tx0:
-![backward anonset](assets/it/6.png)
+![backward anonset](assets/it/6.webp)
 Per saperne di più sul metodo di calcolo di questi indicatori, consiglio di leggere [il mio thread su Twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) su questo argomento. Stiamo anche preparando un articolo più completo su PlanB Network.
 Sono consapevole che la risposta fornita potrebbe sembrare insoddisfacente poiché speravi in un numero specifico di remix, e ti sto indirizzando alla documentazione. La ragione di ciò è che il numero di remix è un indicatore poco affidabile per valutare l'anonimato ottenuto nei cicli di coinjoin. Pertanto, non è possibile definire un numero fisso di remix come una soglia di sicurezza assoluta e universale.
 
@@ -34,7 +34,7 @@ D'altra parte, l'anonset retrospettivo non è una preoccupazione nel nostro caso
 Per determinare questi famosi indicatori di anonset, puoi utilizzare uno strumento Python chiamato **WST** (Whirlpool Stats Tool). Stiamo anche preparando un tutorial su questo strumento per te.
 
 Tuttavia, non è sempre necessario calcolare gli anonset di ciascuna delle tue monete coinjoin. Il design di Whirlpool stesso ti fornisce già delle garanzie. Come accennato in precedenza, l'anonset retrospettivo è raramente una preoccupazione. A partire dal tuo mix iniziale, ottieni già un punteggio retrospettivo particolarmente alto. Per quanto riguarda l'anonset prospettico, è sufficiente mantenere la tua moneta nell'account post-mix per un periodo di tempo sufficientemente lungo. Ad esempio, ecco i punteggi di anonset di una delle mie monete da `100.000 sats` dopo aver trascorso due mesi nel pool di coinjoin:
-![WST anonsets](assets/it/7.png)
+![WST anonsets](assets/it/7.webp)
 Mostra un punteggio retrospettivo di `34.593` e un punteggio prospettico di `45.202`. In termini concreti, ciò significa due cose:
 - Se un analista conosce la mia moneta alla fine dei cicli e cerca di risalire alla sua origine, si troverà di fronte a `34.593` possibili fonti, ognuna con la stessa probabilità di essere la mia.
 - Se un analista conosce la mia moneta all'inizio dei cicli e cerca di determinare la sua corrispondenza alla fine, si troverà di fronte a `45.202` possibili UTXO, ognuno con la stessa probabilità di essere il mio.

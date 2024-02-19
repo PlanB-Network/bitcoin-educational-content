@@ -17,7 +17,7 @@ Specifiche chiave
 - Batteria Batteria al litio rimovibile dall'utente da 1200 mAh nel formato Nokia BL-5C (inclusa con l'acquisto).
 - Funzioni di sicurezza Airgapped, facile inserimento della passphrase, luci di sicurezza, parole anti-phishing, convalida della sicurezza.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # Video tutorial
 

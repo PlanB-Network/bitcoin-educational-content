@@ -17,7 +17,7 @@ Caractéristiques clés
 - Batterie lithium-ion 1200 mAh amovible par l'utilisateur dans le format Nokia BL-5C (incluse avec l'achat).
 - Fonctionnalités de sécurité : déconnecté du réseau, saisie facile de la phrase de passe, voyants de sécurité, mots anti-hameçonnage, validation de sécurité.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # Tutoriel vidéo
 

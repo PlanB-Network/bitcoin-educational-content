@@ -16,7 +16,7 @@ https://hodlhodl.com/pages/faq_help
 
 Iniziare il tuo viaggio con HodlHodl: una guida passo passo
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 HodlHodl è uno scambio di criptovalute peer-to-peer (P2P), che supporta esclusivamente una valuta digitale ma offre la flessibilità di scambiare in qualsiasi valuta, comprese tutte le valute fiat e le altcoin. Un aspetto significativo di questa piattaforma P2P è che non impone alcuna commissione di deposito o prelievo, ma invece applica commissioni di trading che vanno dallo 0,5% allo 0,6%, a seconda dello stato di verifica dell'utente. Gli utenti hanno il vantaggio di una vasta gamma di metodi di pagamento, rendendo HodlHodl una delle piattaforme P2P più versatili. Alcuni dei metodi di pagamento comunemente utilizzati includono SWIFT, SEPA, bonifici bancari, transazioni con carta di credito, PayPal, Venmo, MoneyGram e Western Union. Tuttavia, le opzioni di pagamento disponibili dipendono dall'accettazione del venditore.
 
@@ -26,7 +26,7 @@ Una delle caratteristiche salienti di HodlHodl sono i limiti di trading variabil
 
 Per creare il tuo account, basta fare clic su 'Registrati', situato nell'angolo destro della homepage della piattaforma. Come previsto, ti verrà richiesto di inserire un indirizzo email, scegliere un nome utente e stabilire una password di pagamento. Inoltre, la piattaforma ti chiede di definire il tuo fuso orario locale, in quanto ciò aiuta a ottimizzare le tue ore operative e facilita il processo di transazione.
 
-![cover](assets/11.png)
+![cover](assets/11.webp)
 
 ### Personalizza il tuo profilo
 
@@ -49,43 +49,43 @@ Guida di Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 1. Visita hodlhodl.com e crea il tuo account. L'unico dettaglio che devi fornire è un nome utente e un indirizzo email. Sarai quindi indirizzato alla pagina principale.
 
-![cover](assets/11.png)
+![cover](assets/11.webp)
 
 2. Clicca su "Acquista BTC" nell'intestazione del sito web.
 
-![cover](assets/12.png)
+![cover](assets/12.webp)
 
 3. Seleziona il tipo e il metodo di pagamento desiderati. Puoi anche specificare un importo specifico qui, se necessario.
 
-![cover](assets/13.png)
+![cover](assets/13.webp)
 
 4. Seleziona l'offerta desiderata. Puoi quindi rivedere i dettagli dello scambio e leggere anche i rapporti di attività e le valutazioni dei peer.
 
-![cover](assets/14.png)
+![cover](assets/14.webp)
 
 5. Una volta soddisfatto, puoi specificare quanto vuoi acquistare, inserire l'indirizzo a cui desideri che venga inviato il bitcoin e confermare il metodo di pagamento pubblicizzato dal venditore. Clicca su "Accetta l'offerta e crea il contratto".
 
-![cover](assets/15.png)
+![cover](assets/15.webp)
 
 6. Ora hai creato il tuo contratto e devi cliccare su "Genera Escrow", dove ti verrà chiesto di creare una password di pagamento. La password di pagamento è una chiave di crittografia per la coppia di chiavi di escrow dell'utente. Viene utilizzata per depositare o rilasciare Bitcoin nell'escrow.
 
-![cover](assets/16.png)
+![cover](assets/16.webp)
 
 7. Ora devi aspettare che il venditore depositi i suoi bitcoin nell'escrow wallet. Dopo aver avviato il contratto, puoi chattare con il venditore utilizzando la chat sulla destra della pagina.
 
-![cover](assets/17.png)
+![cover](assets/17.webp)
 
 8. Una volta che il venditore ha depositato i suoi fondi nell'escrow, vedrai questa schermata che ti avvisa di non inviare i tuoi soldi fino a quando non ci sono un numero sufficiente di conferme sulla blockchain (questo varia a seconda delle condizioni di scambio). Puoi controllare lo stato della transazione di deposito del venditore cliccando sul link blu "ID transazione di deposito".
 
-![cover](assets/18.png)
+![cover](assets/18.webp)
 
 9. Una volta confermato, riceverai una notifica e potrai inviare i fondi al venditore utilizzando i dettagli che ti fornirà. Una volta fatto ciò, clicca su "Ho inviato il pagamento".
 
-![cover](assets/19.png)
+![cover](assets/19.webp)
 
 10. Dovrai quindi aspettare che il venditore confermi di aver ricevuto i fondi, momento in cui i bitcoin verranno inviati all'indirizzo che hai specificato all'inizio del contratto. Avrai anche l'opportunità di valutare il tuo peer.
 
-![cover](assets/20.png)
+![cover](assets/20.webp)
 
 Congratulazioni, hai appena acquistato dei bitcoin senza KYC!
 
@@ -96,13 +96,13 @@ Due consigli finali
 
 ## Opzione di prestito
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 Questa guida ti aiuterà a fare i primi passi nell'utilizzo della piattaforma Lend at Hodl Hodl.
 
 > FONTE/ https://medium.com/hodl-hodl/quick-guide-to-lend-or-borrow-on-lend-at-hodl-hodl-5a535d526217
 
-![image](assets/1.png)
+![image](assets/1.webp)
 Lend at Hodl Hodl (lend.hodlhodl.com) è una piattaforma progettata in modo che gli utenti di tutto il mondo possano prestare o prendere in prestito tra di loro senza dover fidarsi di un terzo o completare una procedura di verifica.
 
 LEND ti permette di prestare o prendere in prestito diverse stablecoin o criptovalute utilizzando BTC come garanzia. (Al momento, non è possibile prestare BTC, anche se questa possibilità è in fase di sviluppo per il futuro).
@@ -113,7 +113,7 @@ Prima di tutto, cercheremo tra le offerte esistenti quella che soddisfa le nostr
 
 Più in basso nella pagina principale troviamo la casella di ricerca:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Lo strumento di ricerca ci mostra di default le offerte di prestito.
 
@@ -129,7 +129,7 @@ Cliccando sul pulsante "Trova offerte", la piattaforma restituirà tutte le offe
 
 Supponiamo che scegliamo la seguente offerta:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 L'utente "NateN-09" offre di prestare tra 100 e 500 USDT inviati tramite la rete Liquid per un periodo di 1 settimana, a un tasso dello 0,50% (tieni presente che il tasso si applica per l'intero periodo contrattuale).
 
@@ -139,7 +139,7 @@ La relazione percentuale (LTV) tra il valore della garanzia e l'importo che il p
 
 Una volta inserita l'offerta, vedremo i dettagli come segue:
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Se l'offerta sembra appropriata e decidiamo di accettarla, completiamo i campi pendenti e confermiamo con il pulsante "ACCETTA E CREA".
 

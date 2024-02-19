@@ -17,7 +17,7 @@ Hauptmerkmale
 - Benutzer austauschbarer 1200 mAh Lithium-Ionen-Akku im Nokia BL-5C-Format (im Lieferumfang enthalten).
 - Sicherheitsfunktionen: Airgapped, einfache Passworteingabe, Sicherheitsleuchten, Anti-Phishing-Wörter, Sicherheitsvalidierung.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # Video-Tutorial
 

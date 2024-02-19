@@ -4,7 +4,7 @@ name: Blixt Wallet
 description: Nodo y Portafoglio LN mobile
 ---
 
-![presentation](assets/blixt_intro_it.jpg)
+![presentation](assets/blixt_intro_it.webp)
 
 ## Un potente nodo BTC/Lightning in tasca, ovunque tu sia
 
@@ -147,7 +147,7 @@ L'esecuzione di un nodo LN completo su un dispositivo mobile non è un compito f
 
 Una volta aperto Blixt, la schermata "Welcome" ti darà alcune opzioni:
 
-![Demo Blixt 01](assets/blixt_t01.jpg)
+![Demo Blixt 01](assets/blixt_t01.webp)
 
 In alto a destra, vedrai 3 punti che attivano un menu con:
 
@@ -161,13 +161,13 @@ Se scegli di "creare un nuovo portafoglio", verrai reindirizzato direttamente al
 
 Questo è il tuo "cockpit" ed è anche il "portafoglio LN principale", quindi sii consapevole, ti mostrerà solo l'equilibrio del tuo portafoglio LN. Il portafoglio Onchain viene visualizzato separatamente (vedi C).
 
-![Demo Blixt 02](assets/blixt_t02.jpg)
+![Demo Blixt 02](assets/blixt_t02.webp)
 
 A - Blixt icona dell'indicatore di sincronizzazione di blocchi. Questa è la cosa più importante per un nodo LN: essere sincronizzato con la rete. Se quell'icona è ancora lì a lavorare, significa che il tuo nodo non è pronto! Quindi abbi pazienza, in speciale per la prima sincronizzazione iniziale. Potrebbero essere necessari fino a 6-8 minuti, a seconda del dispositivo e della connessione Internet.
 
 Puoi fare clic su di esso e vedere lo stato della sincronizzazione:
 
-![Demo Blixt 03](assets/blixt_t03.jpg)
+![Demo Blixt 03](assets/blixt_t03.webp)
 
 Inoltre, è possibile fare clic sul pulsante "Mostra registro LND" (a) se si desidera vedere e leggere più dettagli tecnici del registro LND, in tempo reale. È molto utile per il debug e apprendere di più come funziona LN.
 
@@ -175,13 +175,13 @@ B - Qui puoi accedere a tutte le impostazioni BLIXT e sono molto! Blixt offre mo
 
 C - Qui hai il menu "Magic Drewer", anche in dettaglio qui. Ecco il "portafoglio onchain" (b), canali Lightning (C), contatti, Icona di stato dei canali (A), Keysend (D).
 
-![Demo Blixt 04](assets/blixt_t04.jpg)
+![Demo Blixt 04](assets/blixt_t04.webp)
 
 D - è il menu di aiuto, con collegamenti alla pagina FAQ / Guides, Contact Developer, GitHub Page e Telegram Support Group.
 
 E - Indica il tuo primo indirizzo BTC, in cui è possibile depositare i tuoi primi sats di test. Questo è facoltativo! Se depositi direttamente in quell'indirizzo, sta aprendo un canale LN verso il nodo Blixt. Ciò significa che vedrai i tuoi SAT depositati, entrando in un'altra transazione Onchain (TX), per aprire quel canale LN. Puoi verificarlo nel portafoglio Blixt OnChain (vedere il punto C), facendo clic sul menu TX in alto a destra.
 
-![Demo Blixt 05](assets/blixt_t05.jpg)
+![Demo Blixt 05](assets/blixt_t05.webp)
 
 Come puoi vedere nel registro delle transazioni OnChain, i passaggi sono molto dettagliati indicando dove stanno andando i sats (deposito, aperto, canale vicino)
 
@@ -206,11 +206,11 @@ Questo è molto semplice, fare solo pochi passi e un po 'di pazienza:
 - Seleziona un nodo e fai clic sul collegamento Titolo Nome, aprirà la sua pagina Amboss
 - Fare clic per visualizzare il codice QR per l'indirizzo URI nodo
 
-![Demo Blixt 06](assets/blixt_t06.jpg)
+![Demo Blixt 06](assets/blixt_t06.webp)
 
 Ora, apri Blixt e vai al cassetto superiore - Canali Lightning e fai clic sul pulsante "+"
 
-![Demo Blixt 07](assets/blixt_t07.jpg)
+![Demo Blixt 07](assets/blixt_t07.webp)
 
 Ora, fai clic su (A) la fotocamera per scansionare il codice QR dalla pagina Amboss e i dettagli del nodo verranno compilati. Aggiungi l'importo dei sats per il canale desiderato e quindi seleziona il tasso di commissione per il TX. È possibile lasciarlo automatico (b) per una conferma più rapida o regolare il pulsante facendo scorrere manualmente il pulsante. Puoi anche premere a lungo il numero e modificarlo come preferisci.
 
@@ -224,7 +224,7 @@ Una volta confermato, vedrai il canale attivo nella sezione "Canali Lightning".
 
 Ok, quindi ora abbiamo un canale LN con solo liquidità in uscita. Ciò significa che possiamo solo inviare, non possiamo ancora ricevere sats su LN. Perché? Hai letto le guide indicate all'inizio? NO? Torna indietro e leggili. È molto importante capire come funziona i canali LN.
 
-![Demo Blixt 08](assets/blixt_t08.jpg)
+![Demo Blixt 08](assets/blixt_t08.webp)
 
 Come puoi vedere in questo esempio, il canale aperto con il primo deposito, non ha troppa liquidità in entrata ("può ricevere") ma ha molta liquidità in uscita ("può inviare").
 
@@ -235,7 +235,7 @@ Allora quali opzioni hai, se vuoi ricevere più sats su LN?
 - Apri un canale Dunder, con nodo Blixt o qualsiasi altro provider Dunder LSP. Un canale Dunder è un modo semplice per ottenere un po 'di liquidità in entrata, ma allo stesso tempo depositi alcuni sats in quel canale. È anche buono perché aprirà il canale con un [UTXO](https://en.bitcoin.it/wiki/utxo) che non proviene dal tuo portafoglio Blixt. Che aggiungono un po 'di privacy.
 È anche buono perché, se non hai SAT in un portafoglio onchain, per aprire un normale canale LN, ma li hai in un altro portafoglio LN, puoi semplicemente pagare da un altro portafoglio attraverso LN l'apertura e il deposito (sul tuo lato) di quel canale Dunder. [Maggiori dettagli come funziona Dunder e come eseguire il tuo server qui.](Https://github.com/hsjoberg/dunder-lsp)
 
-![Demo Blixt 09](assets/blixt_t09.jpg)
+![Demo Blixt 09](assets/blixt_t09.webp)
 
 Ecco i passaggi come attivare l'apertura di un canale Dunder:
 - Vai alle impostazioni, nella sezione "Esperimenti" attiva la casella per "Abilita Dunder LSP".
@@ -244,7 +244,7 @@ Ecco i passaggi come attivare l'apertura di un canale Dunder:
 
 OK, quindi dopo la conferma del canale Dunder (richiederà pochi minuti), finirai con 2 canali LN: uno aperto inizialmente con il pilota automatico (canale A) e uno con più liquidità in entrata, aperta con Dunder (canale B).
 
-![Demo Blixt 10](assets/blixt_t10.jpg)
+![Demo Blixt 10](assets/blixt_t10.webp)
 
 Bene, ora sei a posto, per inviare e ricevere abbastanza sabato su LN!
 
@@ -254,7 +254,7 @@ Quindi ora discutiamo di come ripristinare un portafoglio Blixt o qualsiasi altr
 
 > Promemoria: in passato ho scritto una guida dedicata con più opzioni [come ripristinare un nodo LND schiantato](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), dove ho menzionato Anche il metodo di utilizzo di BLIXT come processo di ripristino rapido, utilizzando il file seed + canale.backup dal nodo LND morto. Ho anche scritto una guida su come ripristinare il tuo nodo BLixt o migrare il tuo BLIXT su un altro dispositivo, [qui](https://blixtwallet.github.io/faq#blixt-restore).
 
-![Demo Blixt 11](assets/blixt_t11.jpg)
+![Demo Blixt 11](assets/blixt_t11.webp)
 
 Ma spieghiamo in semplici passaggi questo processo. Come puoi vedere nell'immagine sopra, ci sono 2 cose che dovresti fare per ripristinare il tuo precedente nodo Blixt/LND:
 - Top Box è dove devi riempire con tutte le 24 parole dal tuo seme (nodo vecchio / morto)
@@ -268,7 +268,7 @@ Un'altra caratteristica utile è impostare un nodo Bitcoin specifico da quel men
 
 Quindi, una volta riempite quelle opzioni e premi il pulsante Restore, BLixt inizierà prima per sincronizzare i blocchi attraverso il neutrino, come abbiamo spiegato nel capitolo "Primo passo" di questa guida. Quindi sii paziente e osserva il processo di ripristino nella schermata principale, facendo clic sull'icona di sincronizzazione.
 
-![Demo Blixt 12](assets/blixt_t12.jpg)
+![Demo Blixt 12](assets/blixt_t12.webp)
 
 Come puoi vedere in questo esempio, mostra che i blocchi Bitcoin sono sincronizzati al 100% (A) e il processo di recupero è nel corso (B). Ciò significa che i canali LN che avevi in precedenza, saranno chiusi e i fondi ripristinati nel portafoglio Blixt Onchain.
 
@@ -276,15 +276,15 @@ Questo processo richiede tempo! Quindi, per favore, sii paziente e cerca di mant
 
 Una volta iniziato questo processo, è possibile controllare il cassetto magico: i canali di fulmini, lo stato di ciascuno dei tuoi canali precedenti, mostrando che sono in "pendente per chiudere". Una volta che ogni canale è chiuso, è possibile vedere il TX di chiusura nel portafoglio Onchain (vedi cassetto magico - onchain) e aprire il registro del menu TX.
 
-![Demo Blixt 13](assets/blixt_t13.jpg)
+![Demo Blixt 13](assets/blixt_t13.webp)
 
 Sarà inoltre bene a controllare e aggiungere se non ci sono, i tuoi colleghi precedentemente avevi nel tuo vecchio nodo LN. Quindi vai al menu Impostazioni, fino a "Lightning Network" e inserisci l'opzione "Show Lightning Peers".
 
-![Demo Blixt 14](assets/blixt_t14.jpg)
+![Demo Blixt 14](assets/blixt_t14.webp)
 
 All'interno della sezione vedrai i coetanei che sei connesso in quel momento e potresti aggiungere altro, meglio aggiungere quelli che avevi prima. Basta andare alla pagina Amboss, cercare alias o nodeid dei nodi peer e scansionare l'URI del nodo.
 
-![Demo Blixt 15](assets/blixt_t15.jpg)
+![Demo Blixt 15](assets/blixt_t15.webp)
 
 Come puoi nell'immagine sopra, sono 3 aspetti:
 
@@ -298,7 +298,7 @@ Questo indirizzo nodo URI devi aggiungerlo nella tua lista di pari. Quindi esser
 
 Ora puoi andare al cassetto magico (menu in alto a sinistra) - canali di fulmini e puoi vedere in quale altezza del blocco di maturità i fondi verranno restituiti nel tuo indirizzo onchain.
 
-![Demo Blixt 16](assets/blixt_t16.jpg)
+![Demo Blixt 16](assets/blixt_t16.webp)
 
 Quel blocco numero 764272 è quando i fondi saranno utilizzabili nel tuo indirizzo Bitcoin OnChain. E potrebbero essere necessari fino a 144 blocchi dal primo blocco di conferma fino a quando non vengono rilasciati. Quindi controllalo in [Mempool](https://mempool.space/).
 
@@ -312,7 +312,7 @@ Ma indicherò alcuni di quelli necessari per andare avanti usando il tuo Blixt e
 
 ### A - Nome (NameDesc)
 
-![Demo Blixt 17](assets/blixt_t17.jpg)
+![Demo Blixt 17](assets/blixt_t17.webp)
 
 [NameDesc](https://github.com/lightning/blips/blob/master/blip-0011.md) è uno standard per il trasporto di "nome del ricevitore" nelle fatture Bolt11.
 
@@ -322,11 +322,11 @@ Questa opzione è davvero utile in vari casi, quando si desidera inviare un nome
 
 Ecco un esempio di come apparirebbe quando usi [chat.blixtwallet.com](https://chat.blixtwallet.com/)
 
-![Demo Blixt 18](assets/blixt_t18.jpg)
+![Demo Blixt 18](assets/blixt_t18.webp)
 
 Questo è un altro esempio che invia a un'altra app di portafoglio che supportano denominata:
 
-![Demo Blixt 19](assets/blixt_t19.jpg)
+![Demo Blixt 19](assets/blixt_t19.webp)
 
 ### B - Backup di Canali LN e parole di semi
 
@@ -334,7 +334,7 @@ Questa è una caratteristica molto importante!
 
 Dopo l'apertura o la chiusura di un canale LN, è necessario eseguire un backup. Può essere eseguito manualmente salvare un piccolo file sul dispositivo locale (cartella di download di solito) o utilizzando un account Google Drive o iCloud.
 
-![Demo Blixt 20](assets/blixt_t20.jpg)
+![Demo Blixt 20](assets/blixt_t20.webp)
 
 Vai alle impostazioni Blixt - Sezione del portafoglio. Lì hai le opzioni per salvare tutti i dati importanti per il tuo portafoglio Blixt:
 - "Show mnemonic" - Visualirà il seme di 24 parole per scriverli
@@ -347,7 +347,7 @@ Consiglierei per questa sezione quanto segue:
 - Utilizzare un gestore password per archiviare in modo sicuro il file di semi e backup. [KeepAss](https://eparass.info/) o bitwarden sono molto buoni per questo e possono essere utilizzati su multipiattaforma e autosullati o offline.
 - Fai il backup ogni volta che apri o chiudi un canale. Quel file viene aggiornato con le informazioni sui canali. Non è necessario farlo dopo ogni transazione che hai fatto su LN. Il backup del canale non sta archiviando tali informazioni, sta archiviando solo lo stato del canale.
 
-![Demo Blixt 21](assets/blixt_t21.jpg)
+![Demo Blixt 21](assets/blixt_t21.webp)
 
 ## Conclusione
 

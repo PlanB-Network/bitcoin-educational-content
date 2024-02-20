@@ -253,6 +253,34 @@ Félicitations ! Votre nœud RoninDojo v2 est désormais configuré et prêt à 
 
 **Si vous procédez à la migration d'un ancien nœud RoninDojo v1** vers cette nouvelle version avec ce tutoriel tout en conservant le même SSD, votre nœud devrait automatiquement détecter et réutiliser les données existantes sur le disque, vous épargnant ainsi la nécessité de réaliser de nouveau l'IBD. Dans ce cas, il suffira d'attendre que votre nœud se resynchronise avec les derniers blocs.
 
+### Étape 8 : « veth* fix »
+Si vous rencontrez un bug avec votre RoninDojo v2 sur Raspberry Pi, où après une installation sans soucis, votre nœud devient subitement injoignable via SSH, mais se rétablit après un simple redémarrage, alors vous devez suivre cette étape 8. Ce bug fréquent peut être facilement corrigé grâce à une solution mise au point par la communauté : le « _veth fix_ ». Cette petite correction permet de remédier définitivement aux déconnexion intempestives. Voici comment l'appliquer.
+
+Ouvrez un nouveau terminal sur votre ordinateur personnel et établissez une connexion SSH avec votre nœud en utilisant la commande suivante :
+`SSH ronindojo@[IP]`
+
+Si, par exemple, l'adresse IP de votre nœud est `192.168.1.40`, la commande adéquate sera :
+`SSH ronindojo@192.168.1.40`
+
+Il vous sera demandé de saisir le mot de passe utilisateur. Entrez-le puis appuyez sur `entrer` pour valider. Vous accéderez alors à l'interface RoninCLI. Utilisez les flèches de votre clavier pour naviguer jusqu'à l'option `Exit RoninDojo` et appuyez sur `entrer` pour la sélectionner.
+
+À ce stade, vous vous trouvez sur le terminal de votre nœud, avec une invite de commande semblable à : `ronindojo@RoninDojo:~ $`. Pour appliquer le veth* fix, saisissez la commande suivante et appuyez sur `entrer` :
+`sudo nano /etc/dhcpcd.conf`
+
+Confirmez une nouvelle fois votre mot de passe et appuyez sur `entrer`.
+
+Vous arriverez sur le fichier `dhcpcd.conf`. Vous devez copier le texte suivant, en veillant à inclure l'astérisque, et l'ajouter tout en bas du fichier :
+`denyinterfaces veth*`
+
+Pour ce faire, déplacez-vous jusqu'au bas du fichier à l'aide de la flèche du bas de votre clavier, puis utilisez le clic droit de votre souris pour coller le texte sur une ligne indépendante.
+
+Après avoir ajouté le texte, pressez `ctrl X` pour commencer à quitter, suivi de `ctrl Y` pour confirmer l'enregistrement des modifications, et appuyez sur `entrer` pour finaliser et retourner à l'invite de commande. Pour vous assurer que la modification a été correctement appliquée, ouvrez à nouveau le fichier `dhcpcd.conf` en utilisant la commande appropriée.
+
+Pour terminer l'application du correctif, redémarrez votre nœud en exécutant :
+`sudo reboot now`
+
+À ce stade, vous pouvez fermer votre terminal. Laissez le temps nécessaire au redémarrage de votre RoninDojo, après quoi vous devriez être capable de vous reconnecter via l'interface graphique de votre navigateur. Ce processus devrait corriger le bug rencontré.
+
 ## Comment utiliser son nœud RoninDojo v2 ?
 
 ### Connecter ses logiciels de portefeuilles à Electrs

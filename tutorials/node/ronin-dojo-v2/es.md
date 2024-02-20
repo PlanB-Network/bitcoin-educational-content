@@ -233,6 +233,34 @@ Se te pedirá que confirmes tu contraseña de usuario. Ingrésala y valida presi
 ¡Felicidades! Tu nodo RoninDojo v2 ya está configurado y listo para usar. Comenzará su IBD (*Initial Block Download*, Descarga Inicial de Bloques), procediendo a descargar y verificar la blockchain de Bitcoin desde el bloque Génesis. Este paso implica recuperar todas las transacciones de Bitcoin realizadas desde el 3 de enero de 2009 y toma algo de tiempo. Una vez que la blockchain esté completamente descargada, el indexador procederá a comprimir la base de datos. La duración del IBD puede variar considerablemente. Tu nodo RoninDojo estará completamente operativo una vez que este proceso se haya completado.
 **Si estás migrando de un antiguo nodo RoninDojo v1** a esta nueva versión con este tutorial mientras mantienes el mismo SSD, tu nodo debería detectar automáticamente y reutilizar los datos existentes en el disco, ahorrándote la necesidad de realizar el IBD nuevamente. En este caso, solo necesitarás esperar a que tu nodo se resincronice con los últimos bloques.
 
+### Paso 8: "veth* fix"
+Si encuentras un error con tu RoninDojo v2 en Raspberry Pi, donde después de una instalación sin problemas, tu nodo de repente se vuelve inalcanzable vía SSH pero se recupera después de un simple reinicio, entonces necesitas seguir este paso 8. Este error común puede ser fácilmente solucionado con una solución desarrollada por la comunidad: el "_veth fix_". Esta pequeña corrección soluciona definitivamente las desconexiones abruptas. Aquí te explicamos cómo aplicarla.
+
+Abre un nuevo terminal en tu computadora personal y establece una conexión SSH con tu nodo utilizando el siguiente comando: 
+`SSH ronindojo@[IP]`
+
+Si, por ejemplo, la dirección IP de tu nodo es `192.168.1.40`, el comando apropiado sería: 
+`SSH ronindojo@192.168.1.40`
+
+Se te pedirá que introduzcas la contraseña del usuario. Ingrésala y presiona `enter` para validar. Luego accederás a la interfaz RoninCLI. Usa las flechas de tu teclado para navegar hasta la opción `Exit RoninDojo` y presiona `enter` para seleccionarla.
+
+En este punto, estás en el terminal de tu nodo, con un prompt similar a: `ronindojo@RoninDojo:~ $`. Para aplicar el veth* fix, escribe el siguiente comando y presiona `enter`: 
+`sudo nano /etc/dhcpcd.conf`
+
+Confirma tu contraseña nuevamente y presiona `enter`.
+
+Llegarás al archivo `dhcpcd.conf`. Necesitas copiar el texto siguiente, asegurándote de incluir el asterisco, y añadirlo al final del archivo: 
+`denyinterfaces veth*`
+
+Para hacerlo, muévete hasta el final del archivo usando la flecha hacia abajo de tu teclado, luego usa el clic derecho de tu ratón para pegar el texto en una línea independiente.
+
+Después de añadir el texto, presiona `ctrl X` para comenzar a salir, seguido de `ctrl Y` para confirmar el guardado de los cambios, y presiona `enter` para finalizar y volver al prompt de comandos. Para asegurarte de que la modificación ha sido aplicada correctamente, reabre el archivo `dhcpcd.conf` utilizando el comando apropiado.
+
+Para completar la aplicación de la corrección, reinicia tu nodo ejecutando: 
+`sudo reboot now`
+
+En este punto, puedes cerrar tu terminal. Deja el tiempo necesario para que tu RoninDojo se reinicie, tras lo cual deberías ser capaz de reconectarte a través de la interfaz gráfica de tu navegador. Este proceso debería solucionar el error encontrado.
+
 ## ¿Cómo usar tu nodo RoninDojo v2?
 
 ### Conectando tu software de billetera a Electrs

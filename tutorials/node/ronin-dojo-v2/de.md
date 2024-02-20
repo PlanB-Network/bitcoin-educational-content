@@ -233,6 +233,34 @@ Sie werden aufgefordert, Ihr Benutzerpasswort zu bestätigen. Geben Sie es ein u
 Herzlichen Glückwunsch! Ihr RoninDojo v2 Node ist jetzt konfiguriert und einsatzbereit. Er wird mit dem IBD (*Initial Block Download*) beginnen, um die Bitcoin-Blockchain vom Genesis-Block an herunterzuladen und zu verifizieren. Dieser Schritt umfasst das Abrufen aller seit dem 3. Januar 2009 getätigten Bitcoin-Transaktionen und nimmt einige Zeit in Anspruch. Sobald die Blockchain vollständig heruntergeladen ist, wird der Indexer fortfahren, die Datenbank zu komprimieren. Die Dauer des IBD kann erheblich variieren. Ihr RoninDojo Node wird voll funktionsfähig sein, sobald dieser Prozess abgeschlossen ist.
 **Wenn Sie von einem alten RoninDojo v1 Node** auf diese neue Version mit diesem Tutorial migrieren und dabei die gleiche SSD behalten, sollte Ihr Node automatisch die vorhandenen Daten auf der Festplatte erkennen und wiederverwenden, sodass Sie den IBD nicht erneut durchführen müssen. In diesem Fall müssen Sie nur darauf warten, dass Ihr Node mit den neuesten Blöcken resynchronisiert wird.
 
+### Schritt 8: "veth* fix"
+Wenn Sie auf Ihrem RoninDojo v2 auf Raspberry Pi auf einen Fehler stoßen, bei dem Ihr Knoten nach einer problemlosen Installation plötzlich über SSH nicht mehr erreichbar ist, sich aber nach einem einfachen Neustart wieder erholt, dann müssen Sie diesen Schritt 8 befolgen. Dieser häufige Fehler kann leicht mit einer von der Gemeinschaft entwickelten Lösung behoben werden: dem "_veth fix_". Diese kleine Korrektur behebt dauerhaft die plötzlichen Verbindungsabbrüche. Hier erfahren Sie, wie Sie sie anwenden.
+
+Öffnen Sie ein neues Terminal auf Ihrem persönlichen Computer und stellen Sie eine SSH-Verbindung zu Ihrem Knoten her, indem Sie den folgenden Befehl verwenden: 
+`SSH ronindojo@[IP]`
+
+Wenn beispielsweise die IP-Adresse Ihres Knotens `192.168.1.40` ist, wäre der passende Befehl: 
+`SSH ronindojo@192.168.1.40`
+
+Es wird Sie aufgefordert, das Benutzerpasswort einzugeben. Geben Sie es ein und drücken Sie `Enter`, um zu bestätigen. Sie gelangen dann zur RoninCLI-Schnittstelle. Verwenden Sie die Pfeiltasten Ihrer Tastatur, um zur Option `Exit RoninDojo` zu navigieren und drücken Sie `Enter`, um sie auszuwählen.
+
+An diesem Punkt befinden Sie sich im Terminal Ihres Knotens, mit einem Befehlsprompt ähnlich wie: `ronindojo@RoninDojo:~ $`. Um den veth* fix anzuwenden, geben Sie den folgenden Befehl ein und drücken Sie `Enter`: 
+`sudo nano /etc/dhcpcd.conf`
+
+Bestätigen Sie Ihr Passwort erneut und drücken Sie `Enter`.
+
+Sie gelangen zur Datei `dhcpcd.conf`. Sie müssen den folgenden Text kopieren, dabei das Sternchen einschließen, und ihn am Ende der Datei hinzufügen: 
+`denyinterfaces veth*`
+
+Um dies zu tun, bewegen Sie sich mit der Abwärtspfeil-Taste Ihrer Tastatur zum Ende der Datei und verwenden Sie dann die rechte Maustaste Ihrer Maus, um den Text auf einer unabhängigen Zeile einzufügen.
+
+Nachdem Sie den Text hinzugefügt haben, drücken Sie `ctrl X`, um den Vorgang zu starten, gefolgt von `ctrl Y`, um das Speichern der Änderungen zu bestätigen, und drücken Sie `Enter`, um den Vorgang abzuschließen und zum Befehlsprompt zurückzukehren. Um sicherzustellen, dass die Änderung korrekt angewendet wurde, öffnen Sie die Datei `dhcpcd.conf` erneut mit dem entsprechenden Befehl.
+
+Um die Anwendung der Korrektur abzuschließen, starten Sie Ihren Knoten neu, indem Sie ausführen: 
+`sudo reboot now`
+
+An diesem Punkt können Sie Ihr Terminal schließen. Lassen Sie dem RoninDojo genügend Zeit zum Neustarten, nach dem Sie sich über die grafische Benutzeroberfläche Ihres Browsers erneut verbinden sollten. Dieser Prozess sollte den aufgetretenen Fehler beheben.
+
 ## Wie verwenden Sie Ihren RoninDojo v2 Node?
 
 ### Verbinden Ihrer Wallet-Software mit Electrs

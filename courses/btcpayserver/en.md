@@ -2325,3 +2325,126 @@ First, go to the website Voltage.cloud and sign up for a new account. When creat
 After you have made an account, click the NODES button on your dashboard. Once we have selected Nodes and created a new node, we get presented with the possible node’s Voltage offers. As this guide will also go over LightningNetwork, at Voltage, we first have to choose our Lightning implementation before we create a BTCPay Server. Click on LightningNode.
 
 ![image](assets/en/118.png)
+
+Here you will have to select what kind of Lightning node you want. Voltage has a variety of options for your lighting setup. This is different when deploying with, for example, LunaNode. For the intent of this guide, a Lite Node will suffice. Read more on the differences in Voltage.cloud.
+
+![image](assets/en/119.png)
+
+Give your node a Name, set a password, and secure this password. If this password gets lost, you lose access to your backups, and Voltage cannot recover it. Create the node, and Voltage shows you the progress. Voltage has created your Lightning Node. We can now create the BTCPay Server instance and directly access the Lightning Network.
+
+Click on Nodes in the top left of your dashboard. Here you can set up the next portion of your BTCPay Server instance. Click “create new” once you are in the nodes overview. You get a similar screen as before(fig3). Now instead of Lightning Node, we choose BTCPay Server.
+
+Voltage shows you the geolocation of your BTCPay Server, voltage hosts in the US West region. Here you will also see the cost of hosting the server. Click Create and give your BTCPay Server a name. Enable Lightning and Voltage shows you the Lightning node created in the previous step. Click Create, and Voltage will create a BTCPay Server instance.
+
+![image](assets/en/120.png)
+
+After you hit create, Voltage presents you with the default username and password. These are similar to your previous set password in Voltage. Click the Login to Account button to redirect you to your BTCPay Server.
+
+Welcome to your new BTCPay Server instance. As we have already set up Lightning in the creation process, it shows you Lightning is enabled already!
+
+## Skill Summary:
+
+In this section you learned:
+
+- Creating an account on Voltage.cloud
+- Steps to get BTCPay Server running together with a Lightning node on the account
+
+## Knowledge assessment;
+### KA 6.2.1 Conceptual Review
+
+What are some key differences between the Voltage and LunaNode setups? _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Objective 6.3;
+
+## Installing BTCPay Server - Umbrel Node
+
+By the end of these steps, you can accept lightning payments to your BTCPay store on your local network. This process will also apply if you run an umbrel node in s restaurant or business. If you want to connect this store to a public website, follow the Advanced exercise to expose your umbrel node to the public.
+
+https://umbrel.com/
+
+![image](assets/en/121.png)
+
+## BTCPay Server - Umbrel deployment.
+
+After your Umbrel node has fully synced with the Bitcoin blockchain, go to the Umbrel App Store, and search for BTCPay Server underneath Apps.
+
+![image](assets/en/122.png)
+
+Click on BTCPay Server to see the App details. When the details are open for BTCPay Server, the bottom right shows the requirements for the App to run properly. It shows it requires Bitcoin and Lightning node. If you have not installed the Lightning Node on your Umbrel, click Install. This process can take a couple of minutes.
+
+![image](assets/en/123.png)
+
+After installing your lightning Node:
+
+1. Click open in the app details or on the App in the Umbrels dashboard.
+2. Click setup a new node; you will be shown 24 words for recovery of your lightning node.
+3. Write these down according to the objective (3).
+
+![image](assets/en/124.png)
+
+Umbrel will ask for verification on the words just written down. After the Lightning node is set up, return to the Umbrel App Store and find BTCPay Server. Click on the install button, and Umbrel will show if the required components are installed and that BTCPay Server requires access to these components. After installation, click Open in the top right of the App details or open BTCPay Server through your Umbrels dashboard.
+
+Umbrel will ask for verification on the words just written down.
+
+![image](assets/en/125.png)
+
+**!?Note!?**
+
+Make sure to store these in a proper location like learned in Objective 3 with storing keys.
+
+After the Lightning node is set up, return to the Umbrel App Store and find BTCPay Server. Click on the install button, and Umbrel will show if the required components are installed and that BTCPay Server requires access to these components.
+
+![image](assets/en/126.png)
+
+After installation, click Open in the top right of the App details or open BTCPay Server through your Umbrels dashboard.
+
+![image](assets/en/127.png)
+
+## Skill Summary:
+
+In this section you learned:
+
+- Steps to install BTCPay Server with Lightning functionality on an Umbrel node
+
+## Knowledge assessment;
+### KA 6.3.1 Conceptual Review
+
+
+How does the setup on Umbrel differ from the previous two hosted options? _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+![image](assets/en/128.png)
+
+We began with a first-principled exploration of the function and properties of money, a bit of history of various forms it has taken over time, and some of the shortcomings of our modern monetary system. We hope to have shown you the value and need of a new technology like Bitcoin. You should also have a general understanding of what Bitcoin is, how it works, and how it can scale with second layers like the Lightning Network. We also extensively covered how anyone can use BTCPay Server, from initial installation to store creation and complex invoice management, to become a financially self-sovereign individual or merchant.
+
+---
+
+Congratulations on completing this course. We hope you’ve enjoyed the content and continue to use and explore BTCPay Server, and are as excited about the promising future Bitcoin and the growing community of builders and participants will bring forth as we are.
+
+FOSS is inevitable.
+
+---
+
+# Glossary
+
+| Term             | Definition                                           |
+| ---------------- | ---------------------------------------------------- |
+|51% Attack     | The act of intentionally building a new longest chain of blocks to replace blocks in the blockchain. This allows you to replace transactions that have been mined into the blockchain. This kind of attack is easiest to perform when you have a majority of the mining power, which is why it’s referred to as a “Majority Attack” or a “51% Attack”.                             |
+| AccountKey       | The account key to rebase                            |
+| AccountKeyPath   | The path from the root to the account key is prefixed by the master public key fingerprint.                                |
+| Address          | Bitcoin addresses compactly encode the information necessary to pay a receiver. A modern address consists of a string of letters and numbers that starts with bc1 and looks like bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4. An address is a shorthand for a receiver’s locking script, which can be used by a sender to sign over funds to the receiver. Most addresses either represent the receiver’s public key or some form of script that defines more complex spending conditions. The preceding example is a bech32 address encoding a witness program locking funds to the hash of a public key (See Pay-to-Witness-Public-Key-Hash). There are also older address formats that start with 1 or 3 that use the Base58Check address encoding to represent public key hashes or script hashes.                                 |
+| Address Type            | An address can represent several different scripts. Addresses are encoded and prefixed in order to convey their script type. Legacy addresses use Base58, and when a legacy address is the hash of a public key, a so-called P2PKH address, it begins with a ‘1’. Less frequently, a legacy address is a hash of a script, in which case it will begin with a ‘3’. Currently, all SegWit addresses are encoded in Bech32 and begin with the prefix ‘bc1’.                    |
+| App            | BTCPay Server has plugins that might function as an application on it self.                                           |
+| BIP 329            | Export/import wallet labels                                                |
+| BIP49      | Defines the derivation scheme for HD wallets using the P2WPKH-nested-in-P2SH (BIP 141) serialization format for segregated witness transactions.                     |
+| Bitcoin Address              | Alphanumeric string where you send your bitcoin, so it “lives” there now Is an identificatory, which consists of a string of about 33 letters and numbers combined. In a current protocol version, an address starts with 1, 3, or b. Having a recipient’s address is a necessary part to initiate bitcoin transaction. Bitcoin addresses are generated from public keys and several addresses can be generated from one set of public keys to improve the privacy. Bitcoin addresses act just like email address, if you want to send a message you need to know where it is going, same is with bitcoin. Before sending a bitcoin transaction, you need to make sure that the recipient’s address is accurate since bitcoin transactions are irreversible and you may be sending bitcoin to the address which does not belong to a recipient.                            |
+| bitcoin versus Bitcoin              | Bitcoin is the monetary network, and bitcoin (lowercase) is a monetary unit on Bitcoin network. You use bitcoin currency or a token to transact on a Bitcoin network.                          |
+|Block|A block is a data structure in the Bitcoin blockchain that consists of a header and a body of Bitcoin transactions. The block is marked with a timestamp and commits to a specific predecessor (parent) block. When hashed, the block header provides the proof of work that makes the blockchain probabilistically immutable. Blocks must adhere to the rules enforced by network consensus to extend the blockchain. When a block is appended to the blockchain, the included transactions are considered to have their first confirmation.|
+|Block Explorer|An online tool that enables you to search for real-time and historical information about a blockchain, including data related to blocks, transactions, addresses, and more.|
+|Block Hash|A block hash is the SHA-256 hash of the block’s data, and is usually represented in hexadecimal format. A block hash can be interpreted as a very large number. In order to satisfy the Proof-of-Work requirement, a block hash must be below a certain threshold. Thus, all block hashes start with a series of zeros followed by an alphanumeric string. Some blocks have as many as twenty leading zeros, while earlier blocks have as few as eight. The number of zeros required roughly demonstrates the difficulty of mining at the time the block was published.|
+|Block Height|Each block is numbered in ascending order, starting at zero.|
+|Block Reward|Consists of the block subsidy (newly created bitcoin) and the sum of all transaction fees from transactions included in the block.|
+|Block Size|Each block has limited amount of data it can fit it. The data that did not fit into a certain block, it will be recorded in one of the following blocks. When it comes to bitcoin blocks, it used to have block size of 1mb, however after a soft fork the block size can technically fit up to 4mb of data.|
+|Block Subsidy|The amount of new bitcoin minted in each block. Each block that is produced and added to the blockchain allows the creator of the block to mint a certain amount of new bitcoin. The subsidy started at 50 BTC per block, and is cut in half every 210,000 blocks or roughly 4 years.|
+|Blockchain|A distributed log, or database, of all Bitcoin transactions. Transactions are grouped in discrete updates called blocks, limited up to 4 million weight units. Blocks are produced approximately every 10 minutes via a stochastic process called mining. Each block includes aa computationally intensive "proof of work." The proof of work requirement is used to regulate the block intervals and protect the blockchain against attacks to rewrite history: an attacker would need to outdo existing proof of work to replace already published blocks, making each block probabilistically immutable as it is buried under subsequent blocks.|
+|BTCPAY Server Vault|For optimal balance between ease of use, security and privacy, it's recommended to use BTCPay Server Wallet with a hardware wallet. BTCPay Vault is build to bridge the Hardware Wallet and BTCPay Server.|
+|Byzantine Generals' Problem|A game theory problem which describes the difficulty decentralized parties have in arriving at consensus without relying on a trusted central party. The name comes from the scenario of several generals besieging Byzantium. They have surrounded the city, but they must collectively decide when to attack. If all generals attack at the same time, they will win, but if they attack at different times, they will lose. The generals have no secure communication channels with one another because any messages they send or receive may have been intercepted or deceptively sent by Byzantium’s defenders. How can the generals organize to attack at the same time?|

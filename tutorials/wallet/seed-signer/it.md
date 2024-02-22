@@ -62,7 +62,7 @@ _Guida tratta da Southerbitcoiner, creata da Cole_
 
 ### Una raccolta di video guide su SeedSigner: un portafoglio hardware fai-da-te/open source
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 SeedSigner è un dispositivo di firma Bitcoin che puoi costruire da zero. Sembra difficile, ma questa serie di 4 parti dovrebbe aiutarti :) Ti consiglio di guardare la parte 1 e 2, quindi decidere se vuoi utilizzare un desktop (guarda la parte 3) o un dispositivo mobile (guarda la parte 4).
 

@@ -63,7 +63,7 @@ Each signature will return a line starting with: gpg: Good signature and another
 
 5. To choose a pruned node, check Limit blockchain storage and configure the data limit to be stored:
 
-![welcome](assets/1.jpeg)
+![welcome](assets/1.webp)
 
 ## Conclusion of Part 1: Installation Guide
 
@@ -71,7 +71,7 @@ Once Bitcoin Core is installed, it is recommended to keep it running as much as 
 
 However, running and synchronizing your node intermittently, even just to validate received and sent transactions, remains a good practice.
 
-![Creation wallet](assets/2.jpeg)
+![Creation wallet](assets/2.webp)
 
 # Configuring Tor for a Bitcoin Core Node
 
@@ -93,7 +93,7 @@ sudo systemctl restart tor
 
 Next, let's launch the Bitcoin Core graphical interface with the command bitcoin-qt. Then, enable the software's automated feature to route our connections through a Tor proxy: Settings > Network, and from there we can check Connect through SOCKS5 proxy (default proxy) as well as Use a separate SOCKS5 proxy to reach peers via Tor onion services.
 
-![option](assets/3.jpeg)
+![option](assets/3.webp)
 
 Bitcoin Core automatically detects if Tor is installed and, if so, will by default create outbound connections to other nodes also using Tor, in addition to connections to nodes using IPv4/IPv6 networks (clearnet).
 
@@ -103,7 +103,7 @@ Bitcoin Core automatically detects if Tor is installed and, if so, will by defau
 
 It is possible to configure Bitcoin Core to only use the Tor network to connect with peers, thus optimizing our anonymity through our node. Since there is no built-in functionality for this in the graphical interface, we will need to manually create a configuration file. Go to Settings, then Options.
 
-![option 2](assets/4.jpeg)
+![option 2](assets/4.webp)
 
 Here, click on Open configuration file. Once in the bitcoin.conf text file, simply add a line onlynet=onion and save the file. You need to restart Bitcoin Core for this command to take effect.
 We will then configure the Tor service so that Bitcoin Core can receive incoming connections via a proxy, allowing other nodes on the network to use our node to download blockchain data without compromising the security of our machine.
@@ -112,7 +112,7 @@ In the terminal, enter sudo nano /etc/tor/torrc to access the Tor service config
 
 With this configuration, Bitcoin Core will be able to establish incoming and outgoing connections with other nodes on the network only through the Tor network (Onion). To confirm this, click on the Window tab, then Peers.
 
-![Nodes Window](assets/5.jpeg)
+![Nodes Window](assets/5.webp)
 
 ## Additional Resources
 

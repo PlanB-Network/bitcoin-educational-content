@@ -36,13 +36,13 @@ Wenn du noch kein Bitcoin Lightning Wallet hast, keine Sorge, wir haben einen se
 
 Auf https://lnvpn.com musst du das Land der IP-Adresse des VPN-Tunnels und eine Laufzeit auswählen. Sobald diese Parameter festgelegt sind, klicke auf "Mit Lightning bezahlen".
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 Eine Lightning-Rechnung wird angezeigt, die du einfach mit deinem Lightning-Wallet scannen musst.
 
 Nachdem die Rechnung bezahlt wurde, musst du einige Sekunden bis zu etwa zwei Minuten warten, bis deine Wireguard-Konfigurationsparameter generiert werden. Wenn es etwas länger dauert, keine Panik, wir haben diesen Vorgang dutzende Male durchgeführt, manchmal dauert es etwas länger.
 'L'écran suivant s'affichera et il te suffira de cliquer sur "Download as File" pour recevoir ton fichier de config, celui-ci portera un nom qui ressemblera à lnvpn-xx-xx.conf où les "xx" correspondront à la date du jour.
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 ## Schritt 2: Tunnel aktivieren
 

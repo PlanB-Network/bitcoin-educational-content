@@ -15,7 +15,7 @@ Spec:
 - 3D Printable Case
 - Barebones case designed by Seedsigner
 
-![device view](assets/2.jpeg)
+![device view](assets/2.webp)
 
 ## Guide
 

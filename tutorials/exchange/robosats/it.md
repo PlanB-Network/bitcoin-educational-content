@@ -14,7 +14,7 @@ RoboSats (https://learn.robosats.com/) è un modo semplice per scambiare Bitcoin
 
 > Questa guida è di Bitocin Q&A (https://bitcoiner.guide/robosats/). Tutto il merito va a lui, supportatelo lì (https://bitcoiner.guide/contribute); BitcoinQ&A è anche un mentore di Bitcoin. Contattatelo per il mentoring!
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 RoboSats - Uno scambio P2P semplice e privato basato su Lightning
 
@@ -66,15 +66,15 @@ Al momento della stesura, RoboSats è ancora in fase di sviluppo attivo, quindi 
 
 > Quando carichi per la prima volta RoboSats, verrai accolto da questa pagina iniziale. Fai clic su Start.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Genera il tuo token e conservalo in un luogo sicuro, come un'app di appunti crittografata o un gestore di password. Questo token può essere utilizzato per recuperare il tuo ID Robot temporaneo nel caso in cui il tuo browser o app si chiuda a metà strada durante una transazione.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Incontra la tua nuova identità di Robot, quindi fai clic su Continua.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Fai clic su Offerte per sfogliare il libro degli ordini. In cima alla pagina puoi filtrare le tue preferenze. Assicurati di prendere nota delle percentuali di garanzia e del premio rispetto al tasso di cambio medio.
 
@@ -82,48 +82,48 @@ Fai clic su Offerte per sfogliare il libro degli ordini. In cima alla pagina puo
 - Scegli la tua valuta
 - Scegli il tuo metodo di pagamento
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 > Fai clic sull'offerta che desideri accettare. Inserisci l'importo (nella tua valuta fiat scelta) che desideri acquistare dal venditore, quindi controlla nuovamente i dettagli e fai clic su Prendi Ordine.
 
 Se il venditore non è online (individuabile da un punto rosso sulla sua immagine del profilo), vedrai un avviso che la transazione potrebbe richiedere più tempo del solito. Se continui e il venditore non procede in tempo, verrai compensato del 50% dell'importo della garanzia per il tempo perso.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Successivamente, devi bloccare la tua garanzia di transazione pagando la fattura sullo schermo. Si tratta di una fattura di blocco che viene congelata nel tuo portafoglio. Verrà addebitata solo se non riesci a completare il tuo lato della transazione.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Nel tuo portafoglio Lightning, scannerizza il codice QR e paga la fattura.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Successivamente, nel tuo portafoglio Lightning genera una fattura per l'importo mostrato e incollala nello spazio fornito.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Attendi che il venditore blocchi l'importo della sua transazione. Quando ciò avviene, RoboSats passerà automaticamente al passaggio successivo in cui si aprirà la finestra di chat. Saluta e chiedi al venditore le informazioni di pagamento in valuta fiat. Una volta fornite, invia il pagamento tramite il metodo scelto, quindi confermalo in RoboSats. Tutta la chat in RoboSats è crittografata con PGP, il che significa che solo tu e il tuo partner di transazione potete leggere i messaggi.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Una volta che il venditore conferma di aver ricevuto il pagamento, RoboSats rilascia automaticamente il pagamento utilizzando la fattura fornita in precedenza.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Quando la fattura viene pagata, la transazione è completata e la tua garanzia viene sbloccata. Vedrai quindi un riepilogo della transazione.
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Controlla il tuo portafoglio Lightning per confermare che i satoshi siano arrivati.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 ## Funzionalità aggiuntive
 
 Oltre all'ovvio acquisto e vendita di Bitcoin, RoboSats ha alcune altre funzionalità che dovresti conoscere.
 Garage dei Robot
 Vuoi avere più scambi contemporaneamente, ma non vuoi condividere la stessa identità tra di loro? Nessun problema! Clicca sulla scheda Robot, genera un Robot aggiuntivo e crea o prendi il tuo prossimo ordine.
-![image](assets/14.png)
+![image](assets/14.webp)
 
 ### Creazione di ordini
 
@@ -138,7 +138,7 @@ Oltre a prendere l'offerta di qualcun altro, puoi crearne una tua e aspettare ch
 - Paga la fattura Lightning per bloccare il tuo Maker Bond.
 - Il tuo ordine è ora attivo. Siediti e aspetta che qualcuno lo accetti.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 ### Pagamenti on-chain
 
@@ -147,7 +147,7 @@ RoboSats è incentrato su Lightning, ma gli acquirenti hanno la possibilità di 
 - Una commissione di scambio raccolta da RoboSats - Questa commissione è dinamica e varia a seconda di quanto è occupata la rete Bitcoin.
 - Una commissione di mining per la transazione di pagamento - Questa è configurabile dall'acquirente.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 ### Scambi P2P
 
@@ -157,7 +157,7 @@ Come acquirente di un'offerta di "Scambio in", invii Bitcoin on-chain al peer e 
 
 Le offerte di scambio di RoboSats possono anche includere alternative ancorate a Bitcoin come RBTC, LBTC e WBTC. Dovresti fare molta attenzione se interagisci con questi token poiché tutti presentano vari compromessi. Il Bitcoin ancorato non è Bitcoin!
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 ### Esegui il tuo client RoboSats
 
@@ -168,7 +168,7 @@ Gli utenti di Umbrel, Citadel e Start9 possono installare il proprio client Robo
 - Accesso sicuro a RoboSats da qualsiasi browser/dispositivo. Non è necessario utilizzare TOR se ti trovi nella tua rete locale o stai usando una VPN: il backend del tuo nodo gestisce la torificazione necessaria per l'anonimizzazione.
 - Consente di controllare a quale coordinatore di mercato P2P ti connetti (impostato su robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion per impostazione predefinita)
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 ## FAQ
 
@@ -182,7 +182,7 @@ Puoi annullare una transazione dopo aver pubblicato il tuo trade bond cliccando 
 
 Non ci sono restrizioni sui metodi di pagamento in RoboSats. Se non vedi offerte nel tuo metodo desiderato, crea la tua offerta utilizzandolo!
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 ### Cosa apprende RoboSats su di me quando lo uso?
 

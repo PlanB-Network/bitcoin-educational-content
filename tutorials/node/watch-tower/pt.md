@@ -69,6 +69,6 @@ Depois de fazer isso, você estará pronto para executar a torre. Como estamos e
 
 Como estamos executando no regtest, podemos minerar um bloco emitindo um comando RPC, sem precisar esperar pelo tempo médio de 10 minutos que normalmente vemos em outras redes (como mainnet ou testnet). Verifique a ajuda do bitcoin-cli e procure como minerar blocos. Se precisar de ajuda, você pode ler este artigo.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 É isso, você executou a torre com sucesso. Parabéns. 🎉

@@ -36,7 +36,7 @@ Se você ainda não tem uma carteira Bitcoin Lightning, não se preocupe, criamo
 
 A partir de https://lnvpn.com, você precisará selecionar o país do IP de saída do túnel VPN e a duração. Depois de definir esses parâmetros, clique em Pagar com lightning.
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 Uma fatura lightning será exibida, basta escaneá-la com sua carteira lightning.
 

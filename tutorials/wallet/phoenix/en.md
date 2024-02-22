@@ -36,7 +36,7 @@ You can download and install Phoenix from: [App Store](https://apps.apple.com/us
 
 Follow the instructions starting with the Welcome screen, step by step.
 
-![](assets/screenshot2.jpeg)
+![](assets/screenshot2.webp)
 
 You will be informed about automatic lightning channels creation.
 Starting with v2.0 is a major upgrade that brings "splicing" to Phoenix:
@@ -47,7 +47,7 @@ Starting with v2.0 is a major upgrade that brings "splicing" to Phoenix:
 
 Check [Phoenix blog post](https://acinq.co/blog/phoenix-splicing-update) for more details, especially the new fee model.
 
-![](assets/screenshot3.jpeg)
+![](assets/screenshot3.webp)
 
 ### Liquidity quick guide
 
@@ -72,23 +72,23 @@ So try to size your initial channel capacity to your personal needs for spending
 ### Back-up
 In the following screen you will be informed that Phoenix app will generate a seed phrase as backup for your wallet. Later these seed words MUST be saved in a safe place!
 
-![](assets/screenshot4.jpeg)
+![](assets/screenshot4.webp)
 
 The following screen indicate if you want to create a new wallet or restore a previously wallet, from seed phrase.
 
-![](assets/screenshot5.jpeg)
+![](assets/screenshot5.webp)
 
 Once the new wallet is created, you are alerted that you should do the backup of the seed phrase. Click on "Backup wallet" button.
 
-![](assets/screenshot6.jpeg)
+![](assets/screenshot6.webp)
 
 You will be alerted that these words from the seed are very important and sensitive and you should keep them private.
 
-![](assets/screenshot7.jpeg)
+![](assets/screenshot7.webp)
 
 These seed words you MUST save them into a safe place, like a password manager ([KeePass](https://keepass.info/) or [Bitwarden](https://bitwarden.com/)), keeping the database of this password manager into an offline USB encrypted stick for total safety.
 
-![](assets/screenshot8.jpeg)
+![](assets/screenshot8.webp)
 
 ### Receive payments
 
@@ -96,7 +96,7 @@ Before you start receiving please read the above chapter "Liquidity Quick Guide"
 
 So now, you are ready to receive sats into your Phoenix wallet!
 
-![](assets/screenshot9.jpeg)
+![](assets/screenshot9.webp)
 
 To receive a payment, in Phoenix you have the following options:
 - by using the displayed QR code, representing an "empty" Lightning invoice
@@ -104,52 +104,52 @@ To receive a payment, in Phoenix you have the following options:
 - by using / scanning a LNURL-withdraw QR code
 - by generating an on-chain Bitcoin address from your Phoenix wallet. Remember that this payment will be "converted" into a new Lightning channel (if you do not open one yet) or resizing an existing Lightning channel.
 
-![](assets/screenshot10.jpeg)
+![](assets/screenshot10.webp)
 
 Screen displayed to edit a new Lightning invoice and generate a new QR code for it:
 
-![](assets/screenshot11.jpeg)
+![](assets/screenshot11.webp)
 
 This is the screen where you can generate an on-chain BTC address and informed that the payment to this address will be "converted" into lightning liquidity and involve some fees.
 
-![](assets/screenshot12.jpeg)
+![](assets/screenshot12.webp)
 
 Once the payment was done, will be displayed a confirmation screen, all done!
 
-![](assets/screenshot13.jpeg)
+![](assets/screenshot13.webp)
 
 Optional you could add a personal note to each received payment. These notes are not saved anywhere else, are kept only in your device. If you restore your Phoenix wallet, these notes will not be restored. This is a useful feature to keep track of your sent and received payments.
 
-![](assets/screenshot14.jpeg)
+![](assets/screenshot14.webp)
 
 ### Send payments
 
 To send payments is quite simple process, just click on the mainb screen button "Send"
 
-![](assets/screenshot15.jpeg)
+![](assets/screenshot15.webp)
 
 You will be prompted to allow Phoenix app to access the device camera, to be able to scan QR codes.
 
-![](assets/screenshot16.jpeg)
+![](assets/screenshot16.webp)
 
 In the payment screen you have 3 options:
 - scan a QR code from a receiver Lightning invoice / LNURL
 - manually input (paste it), Lightning Address input or LNURL-pay code
 - load a QR image from local disk
 
-![](assets/screenshot17.jpeg)
+![](assets/screenshot17.webp)
 
 As you can see in this screen, the payment request was scanned and the details are already filled in. You just have to press "Pay" button.
 
-![](assets/screenshot18.jpeg)
+![](assets/screenshot18.webp)
 
 Once the payment is sent and confirmed, will be displayed a confirmation screen with short details of the payment, including the fee pais. If you want to see more payment details, click on "Details" button.
 
-![](assets/screenshot19.jpeg)
+![](assets/screenshot19.webp)
 
 In the details screen, you can see the technical details of the payment, including: payment hash and request, preimage, destination node and duration. Sometimes these details are useful to track payments, debug or identify with the receiver a specific payment.
 
-![](assets/screenshot20.jpeg)
+![](assets/screenshot20.webp)
 
 ### Settings
 
@@ -165,7 +165,7 @@ Other options in the Settings menu:
 - Logs - display debugging logs
 - Close all channels - Dangerous option that should be used ONLY in case you want to shut down indefinitelly your Phoenix node and recover the funds into your onchain address. That address later can be retrived using Electrum wallet, using your Phoenix seed phrase.
 
-![](assets/screenshot21.jpeg)
+![](assets/screenshot21.webp)
 
 ### Reset
 
@@ -175,22 +175,22 @@ If you are in a situation that your Phoneix app is having troubles (not making p
 - uninstall it from the old device if you want to move it to a new one
 - DO NOT run the same Phoenix wallet on multiple devices!
 
-![](assets/screenshot22.jpeg)
+![](assets/screenshot22.webp)
 
 Once you re-install it or install it on the new devices, click on the "Restore" button and follow the instructions
 
-![](assets/screenshot23.jpeg)
+![](assets/screenshot23.webp)
 
 You cannot use other type of seed, generated from other wallet apps. [See more details here](https://walletsrecovery.org/) about other wallet types and their type of seed and derivation path. Not all are compatible!
 
-![](assets/screenshot24.jpeg)
+![](assets/screenshot24.webp)
 
 You must introduce the seed words previosuly saved, one by one, in the specific order. Once you finish to introduce the 12 words, click the "Import" button and done.
 
-![](assets/screenshot25.jpeg)
+![](assets/screenshot25.webp)
 
 In few moments you will see your previous balance displayed. Also you will have the alert to make the backup of your seed. You can just go to the menu and select "I saved the backup" if you already did it.
 
-![](assets/screenshot26.jpeg)
+![](assets/screenshot26.webp)
 
 Done! Happy Lightning!

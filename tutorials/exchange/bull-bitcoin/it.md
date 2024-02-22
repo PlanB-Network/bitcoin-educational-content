@@ -18,7 +18,7 @@ Come acquistare Bitcoin in Canada: Bull Bitcoin di BTCsession
 
 **Questo tutorial è offerto da WINTER ☩ HODLER come parte di Agora256, grazie per il suo lavoro**
 
-![soluzione di pagamento](assets/1.jpeg)
+![soluzione di pagamento](assets/1.webp)
 
 Una delle proposte più entusiasmanti delle valute fiduciarie (fiat) è sicuramente quella di poterle scambiare in favore di Bitcoin, idealmente senza dover nemmeno identificarsi troppo; un metodo spesso indicato come no-KYC o KYC-free. L'acronimo 'KYC' si riferisce al processo di verifica dell'identità di un individuo o di un'entità specifica in conformità con determinate normative emesse a livello governativo.
 
@@ -38,7 +38,7 @@ Il funzionamento è molto semplice: è necessario recarsi in uno dei 5948 sporte
 
 Successivamente, è sufficiente specificare l'importo che si desidera pagare (tra $10.00 e $999.99) e pagarlo in contanti o con carta di debito. Dopo 10 minuti, la transazione verrà completata su Bull Bitcoin. Si applicano commissioni da $3.50 a $3.95, a seconda dell'importo, durante la transazione presso l'ufficio postale. Inoltre, queste commissioni sono notevolmente inferiori a quelle dei Bitcoin ATM, un'altra opzione popolare senza KYC.
 
-![soluzione di pagamento](assets/2.jpeg)
+![soluzione di pagamento](assets/2.webp)
 
 Si noti che si applicano limiti di transazione giornalieri e settimanali di $999.99 e $2500.00, rispettivamente. Se si tenta di superare questi limiti durante un pagamento presso l'ufficio postale, la transazione verrà semplicemente annullata automaticamente.
 
@@ -46,7 +46,7 @@ Si noti che si applicano limiti di transazione giornalieri e settimanali di $999
 
 Quando i fondi sono disponibili sul conto Bull Bitcoin, è il momento di passare alla fase di acquisto dei bitcoin! Vai alla pagina "Acquista Bitcoin" nel menu principale. Da lì, dovrai inserire l'importo del saldo che desideri spendere, così come la rete di tua scelta (Bitcoin, Lightning Network, Liquid).
 
-![immagine 3](assets/3.jpeg)
+![immagine 3](assets/3.webp)
 
 Per le reti Bitcoin e Liquid, dovrai condividere un indirizzo per poter creare l'ordine di acquisto. Per quanto riguarda la rete Lightning, Bull Bitcoin offre due metodi di pagamento diversi: LNURL (opzione predefinita) o Bolt11, una volta creato l'ordine.
 

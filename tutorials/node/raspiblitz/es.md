@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Guía para configurar tu RaspiBlitz
 ---
 
-![image](assets/0.jpeg)
+![image](assets/0.webp)
 
 El RaspiBlitz es un nodo Lightning de bricolaje (LND y/o Core Lightning) que se ejecuta junto con un nodo completo de Bitcoin en una RaspberryPi (SSD de 1TB) y una pantalla agradable para una configuración y monitoreo sencillos.
 
@@ -37,25 +37,25 @@ Necesitas exactamente el mismo equipo que necesitas para ejecutar un nodo MyNode
 No necesitas un monitor (ni teclado ni ratón).
 Nota: Este es el disco duro equivocado: es un disco duro externo portátil. No es un SSD. SSD es crucial. Por eso es barato (Precio en AUD)
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Este es el tipo correcto para obtener:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Esto es más rápido, pero innecesariamente caro:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 ## Paso 2: Descargar la imagen de Raspiblitz
 
 Navega al sitio web de Raspiblitz en GitHub y encuentra el enlace "descargar imagen":
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 El hash sha-256 del archivo descargado se proporciona en el sitio web. Cambiará con cada actualización. Si no entiendes de qué se trata esto, deberías hacerlo, así que escribí una guía que puedes leer aquí.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 ## Paso 3: Verificar la imagen
 
@@ -93,13 +93,13 @@ Puedes usar Balena Etcher para hacer esto. Descárgalo aquí.
 
 Etcher es fácil de usar. Inserta tu tarjeta micro SD y flashea el software de Raspiblitz (archivo .img) en la tarjeta SD.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Una vez hecho, la unidad ya no es legible. Es posible que recibas un error del sistema operativo y la unidad desaparezca del escritorio. Retira la tarjeta.
 
@@ -107,21 +107,21 @@ Una vez hecho, la unidad ya no es legible. Es posible que recibas un error del s
 
 Las partes (la carcasa no se muestra):
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Conecta el cable Ethernet y el conector USB del disco duro (aún no lo conectes a la corriente). Evita conectarlo a los puertos USB de color azul en el centro. Son USB 3. Utiliza el puerto USB 2, aunque el disco duro pueda ser compatible con USB 3 (más confiable).
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 La tarjeta micro SD va aquí:
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 Finalmente, conecta la corriente:
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 ## Paso 6: Encuentra la dirección IP del Pi
 
@@ -148,56 +148,56 @@ Para Windows, necesitarás instalar putty para acceder por SSH al Pi. Escribe el
 
 La primera vez que hagas esto, o cada vez que cambies el sistema operativo del Pi al cambiar la tarjeta SD, es posible que obtengas este error...
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 La forma de solucionarlo es navegar hasta donde se encuentra el archivo "known_hosts" (te lo indica en el mensaje de error) y eliminarlo. El comando es "rm known_hosts".
 
 Luego, repite el comando ssh para iniciar sesión. Esto sucederá...
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Escribe "yes" (sin comillas) para continuar.
 
 Si tienes éxito, se te pedirá una contraseña. Esta no es para tu computadora, sino para el raspiblitz. La contraseña genérica es "raspiblitz" y la cambiarás más adelante. La ventana de la terminal se volverá azul y tendrás opciones de menú como los antiguos menús de DOS. Navega con las teclas de flecha o el mouse.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Sigue las indicaciones, establece tus contraseñas y luego detectará tu disco duro y te dará la opción de formatearlo si es necesario.
 
 Luego se te preguntará si quieres copiar los datos de la cadena de bloques desde otra fuente o volver a descargarlos. Copiarlos es un proceso de aprendizaje y las instrucciones son bastante buenas, y es bueno tenerlas a mano...
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 La forma más sencilla pero más lenta es descargar toda la cadena desde cero...
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Mucho texto aparecerá rápidamente en la pantalla de la terminal. Puede que lo confundas con el proceso de descarga de la cadena de bloques, pero parece, al menos para mí, que está generando una clave privada para la comunicación.
 
 Luego aparecen las opciones de Lightning.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Crea una nueva contraseña para bloquear tu billetera de Lightning, luego se creará una nueva billetera y se te darán 24 palabras para que las anotes...
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Asegúrate de escribirlo y mantenerlo seguro. Escuché de una persona que no lo hizo porque no planeaba usar lightning, pero luego, un año después, decidió usarlo y abrió canales. Luego, al darse cuenta de que sus palabras no estaban respaldadas y recuerdo que no era posible extraer las palabras nuevamente del dispositivo, tuvo que cerrar todos sus canales y comenzar de nuevo. Se salió con la suya, pero otros podrían no tener tanta suerte.
 Después de esto, unos minutos de texto se desplazan hacia abajo en la ventana del terminal. Luego...
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Se cerrará la sesión de ssh. Vuelve a iniciar sesión, esta vez con tu nueva contraseña, contraseña A. Una vez dentro, se te pedirá la contraseña C para desbloquear tu billetera lightning.
 
 Ahora esperamos. Nos vemos en 2 semanas. Puedes cerrar el terminal, no afecta al Pi, es solo una ventana de comunicación.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Si por alguna razón quieres apagar el Pi antes de que se haya terminado de descargar la cadena de bloques, está bien siempre y cuando lo hagas correctamente. La cadena de bloques continuará descargándose desde donde se quedó una vez que te vuelvas a conectar.
 
 Presiona CTRL+c para salir de la pantalla azul. Accederás al terminal Linux del Pi. Aquí puedes escribir "menu" para cargar la siguiente pantalla y desde allí puedes apagar el Pi.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 FIN de la guía
 

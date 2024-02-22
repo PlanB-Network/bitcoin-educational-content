@@ -67,8 +67,6 @@ In diesem praktischen dritten Abschnitt werden wir zur praktischen Umsetzung Ihr
 
 Zuerst werden wir besprechen, wie Sie Ihre E-Mail schützen können, die für Ihre Kommunikation unerlässlich ist und oft von Hackern ins Visier genommen wird. Dann werden wir Ihnen vorstellen, was ein Passwort-Manager ist: eine praktische Lösung, um Ihre Passwörter nicht mehr zu vergessen oder durcheinander zu bringen, während sie sicher bleiben. Schließlich werden wir eine zusätzliche Sicherheitsmaßnahme, die Zwei-Faktor-Authentifizierung, ansprechen, die eine zusätzliche Schutzschicht für Ihre Konten bietet. Alles wird klar und verständlich erklärt.
 
-### Bonusabschnitt: Interview mit Pantamis und Renaud
-
 # Alles über das Surfen im Internet
 
 ## Online-Surfen

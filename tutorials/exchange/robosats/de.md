@@ -14,7 +14,7 @@ RoboSats (https://learn.robosats.com/) ist eine einfache Möglichkeit, Bitcoin g
 
 > Diese Anleitung stammt von Bitcoin Q&A (https://bitcoiner.guide/robosats/). Alle Credits gehen an ihn, unterstützen Sie ihn dort (https://bitcoiner.guide/contribute); BitcoinQ&A ist auch ein Bitcoin-Mentor. Kontaktieren Sie ihn für Mentoring!
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 RoboSats - Ein einfacher und privater Lightning-basierter P2P-Austausch
 
@@ -66,15 +66,15 @@ Zum Zeitpunkt des Schreibens befindet sich RoboSats noch in der aktiven Entwickl
 
 > Wenn Sie RoboSats zum ersten Mal laden, gelangen Sie zu dieser Startseite. Klicken Sie auf Start.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Generieren Sie Ihren Token und speichern Sie ihn an einem sicheren Ort, z. B. in einer verschlüsselten Notiz-App oder einem Passwort-Manager. Dieser Token kann verwendet werden, um Ihre vorübergehende Roboter-ID wiederherzustellen, falls Ihr Browser oder Ihre App während eines Handels geschlossen wird.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Begrüßen Sie Ihre neue Roboteridentität und klicken Sie dann auf Weiter.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Klicken Sie auf Angebote, um das Orderbuch zu durchsuchen. Oben auf der Seite können Sie dann nach Ihren Vorlieben filtern. Beachten Sie unbedingt die Bond-Prozentsätze und den Aufschlag auf den durchschnittlichen Wechselkurs.
 
@@ -82,41 +82,41 @@ Klicken Sie auf Angebote, um das Orderbuch zu durchsuchen. Oben auf der Seite k�
 - Wählen Sie Ihre Währung
 - Wählen Sie Ihre Zahlungsmethode(n)
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 > Klicken Sie auf das Angebot, das Sie annehmen möchten. Geben Sie den Betrag (in Ihrer gewählten Fiat-Währung) ein, den Sie vom Verkäufer kaufen möchten, überprüfen Sie abschließend die Details und klicken Sie auf Bestellung aufgeben.
 
 Wenn der Verkäufer nicht online ist (erkennbar an einem roten Punkt auf seinem Profilbild), erhalten Sie eine Warnung, dass der Handel länger als üblich dauern könnte. Wenn Sie fortfahren und der Verkäufer nicht rechtzeitig vorgeht, erhalten Sie 50% des Bond-Betrags als Entschädigung für Ihre verschwendete Zeit.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Als nächstes müssen Sie Ihre Handelsbindung durch Zahlung der Rechnung auf dem Bildschirm sperren. Dies ist eine Reservierungsrechnung, die in Ihrer Brieftasche eingefroren wird. Sie wird nur berechnet, wenn Sie Ihre Seite des Handels nicht abschließen.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Scannen Sie im Lightning Wallet den QR-Code und zahlen Sie die Rechnung.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Generieren Sie anschließend in Ihrem Lightning Wallet eine Rechnung für den angezeigten Betrag und fügen Sie sie in das vorgesehene Feld ein.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Warten Sie, bis der Verkäufer seinen Handelsbetrag sperrt. Wenn dies geschieht, wechselt RoboSats automatisch zum nächsten Schritt, bei dem das Chat-Fenster geöffnet wird. Sagen Sie Hallo und fragen Sie den Verkäufer nach seinen Fiat-Zahlungsinformationen. Sobald diese bereitgestellt wurden, senden Sie die Zahlung über die gewählte Methode und bestätigen Sie dies in RoboSats. Alle Chats in RoboSats sind PGP-verschlüsselt, was bedeutet, dass nur Sie und Ihr Handelspartner die Nachrichten lesen können.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Sobald der Verkäufer den Zahlungseingang bestätigt, gibt RoboSats automatisch die Zahlung frei, indem die zuvor bereitgestellte Rechnung verwendet wird.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Wenn die Rechnung bezahlt ist, ist der Handel abgeschlossen und Ihre Bindung wird aufgehoben. Sie sehen dann eine Handelszusammenfassung.
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Überprüfen Sie Ihr Lightning Wallet, um zu bestätigen, dass die Sats angekommen sind.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 ## Zusätzliche Funktionen
 
@@ -125,7 +125,7 @@ Neben dem offensichtlichen Kauf und Verkauf von Bitcoin hat RoboSats noch einige
 Robot Garage
 Möchten Sie mehrere Trades gleichzeitig haben, aber nicht dieselbe Identität teilen? Kein Problem! Klicken Sie auf die Registerkarte "Roboter", generieren Sie einen zusätzlichen Roboter und erstellen oder nehmen Sie Ihre nächste Bestellung entgegen.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 ### Bestellungen erstellen
 
@@ -140,7 +140,7 @@ Neben dem Annehmen eines Angebots von jemand anderem können Sie auch Ihr eigene
 - Bezahlen Sie die Lightning-Rechnung, um Ihre Maker-Bond zu sperren.
 - Ihre Bestellung ist jetzt aktiv. Lehnen Sie sich zurück und warten Sie, bis jemand sie annimmt.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 ### On-Chain-Auszahlungen
 
@@ -149,7 +149,7 @@ RoboSats konzentriert sich auf Lightning, aber Käufer haben die Möglichkeit, i
 - Eine Swap-Gebühr, die von RoboSats erhoben wird - Diese Gebühr ist dynamisch und variiert je nach Auslastung des Bitcoin-Netzwerks.
 - Eine Mining-Gebühr für die Auszahlungstransaktion - Diese kann vom Käufer konfiguriert werden.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 ### P2P-Swaps
 
@@ -159,7 +159,7 @@ Als Käufer eines "Swap In"-Angebots senden Sie On-Chain-Bitcoin an den Peer und
 
 RoboSats-Swap-Angebote können auch alternative Bitcoin-Pegelungen wie RBTC, LBTC und WBTC umfassen. Wenn Sie mit diesen Token interagieren, sollten Sie äußerst vorsichtig sein, da sie alle verschiedene Kompromisse mit sich bringen. Gepflegter Bitcoin ist nicht Bitcoin!
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 ### Führen Sie Ihren eigenen RoboSats-Client aus
 
@@ -170,7 +170,7 @@ Umbrel-, Citadel- und Start9-Node-Betreiber können ihren eigenen RoboSats-Clien
 - Greifen Sie sicher von jedem Browser/Gerät auf RoboSats zu. Wenn Sie sich in Ihrem lokalen Netzwerk befinden oder VPN verwenden, müssen Sie TOR nicht verwenden: Ihr Node-Backend übernimmt die Torifizierung, die für die Anonymisierung erforderlich ist.
 - Ermöglicht die Kontrolle darüber, mit welchem P2P-Marktkoordinator Sie sich verbinden (Standardmäßig robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion)
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 ## FAQ
 
@@ -184,7 +184,7 @@ Sie können einen Handel stornieren, nachdem Sie Ihre Bindung hinterlegt haben, 
 
 Es gibt keine Einschränkungen bei den Zahlungsmethoden in RoboSats. Wenn Sie keine Angebote in Ihrer gewünschten Methode sehen, erstellen Sie Ihr eigenes Angebot damit!
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 ### Was erfährt RoboSats über mich, wenn ich es benutze?
 

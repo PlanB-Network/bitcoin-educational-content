@@ -14,7 +14,7 @@ RoboSats (https://learn.robosats.com/) is an easy way to privately exchange Bitc
 
 > This guide is from Bitocin Q&A ( https://bitcoiner.guide/robosats/). All credit to him, support him there (https://bitcoiner.guide/contribute); BitcoinQ&A is also a bitcoin mentor. Contact him for mentoring !
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 RoboSats - A simple and private Lightning based P2P exchange
 
@@ -67,15 +67,15 @@ At the time of writing RoboSats is still undergoing active development, so the i
 
 > When you first load RoboSats you’ll be met with this landing page. Click Start.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Generate your token and store it somewhere safe like an encrypted notes app or password manager. This token can be used to recover your temporary Robot ID in the event that your browser or app closes mid way through a trade.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Meet your new Robot identity, then click Continue.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Click Offers to browse the order book. At the top of the page you can then filter to your preferences. Be sure to take note of the bond percentages and premium over the average exchange rate.
 
@@ -83,41 +83,41 @@ Click Offers to browse the order book. At the top of the page you can then filte
 - Choose your currency
 - Choose your payment method(s)
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 > Click on the offer you’d like to take. Enter the amount (in your chosen fiat currency) that you’d like to purchase from the seller, then have a final check of the details and click Take Order.
 
 If the seller is not online (denoted by a red dot on their profile image), you’ll see a warning that the trade could take longer than usual. If you continue and the seller does not proceed in time, you’ll be compensated 50% of their bond amount for your wasted time.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Next, you need to lock up your trade bond by paying the invoice on screen. This is a hold invoice that freezes in your wallet. It will only be charged if you fail to complete your side of the trade.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 In your Lightning Wallet, scan the QR code and pay the invoice.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Next, in your Lightning Wallet generate an invoice for the amount shown and paste into the space provided.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Wait for the seller to lock their trade amount. When this takes place, RoboSats will automatically move to the next step where the chat window will open. Say Hi and ask the seller for their fiat payment information. Once provided, send the payment via the chosen method then confirm this in RoboSats. All chat in RoboSats is PGP encrypted meaning only you and your trade peer can read the messages.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Once the seller confirms receipt of the payment, RoboSats automatically releases the payment using the invoice provided earlier.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 When the invoice is paid, the trade is finished and your bond is unlocked. You’ll then see a trade summary.
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Check your Lightning Wallet for confirmation that the sats have arrived.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 ## Additional Features
 
@@ -126,7 +126,7 @@ Robot Garage
 
 Want to have multiple trades going at the same time, but don’t want to share the same identity across them? No problem! Click on the Robot tab, generate an additional Robot and create or take your next order.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 ### Creating Orders
 
@@ -141,7 +141,7 @@ As well as taking someone else’s offer, you can create your own and wait for a
 - Pay the Lightning invoice to lock your Maker Bond.
 - Your order is now live. Sit back and wait for someone to accept it.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 ### On-chain Payouts
 
@@ -150,7 +150,7 @@ RoboSats is Lightning focused, but buyers do have the option to receive their sa
 - A swap fee collected by RoboSats - This fee is dynamic and moves depending on how busy the Bitcoin network is.
 - A mining fee for the payout transaction - This is configurable by the buyer.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 ### P2P Swaps
 
@@ -160,7 +160,7 @@ As the buyer of a ‘Swap In’ offer, you send on-chain Bitcoin to the peer and
 
 RoboSats swap offers can also incorporate pegged alternatives to Bitcoin that include RBTC, LBTC and WBTC. You should take extreme care if interacting with these tokens as they all come with various tradeoffs. Pegged Bitcoin is not Bitcoin!
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 ### Run your own RoboSats Client
 
@@ -171,7 +171,7 @@ Umbrel, Citadel and Start9 node runners can install their own RoboSats client di
 - Access RoboSats safely from any browser / device. No need to use TOR if you are on your local network or using VPN: your node backend handles the torification needed for anonymization.
 - Allows control over what P2P market coordinator you connect to (defaults to robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion)
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 ## FAQ
 
@@ -186,7 +186,7 @@ You can cancel a trade after posting your bond by clicking the Collaborative Can
 
 There are no restrictions on payment methods in RoboSats. If you don’t see any offers in your desired method, create your own offer using it!
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 ### What does RoboSats learn about me when I use it?
 

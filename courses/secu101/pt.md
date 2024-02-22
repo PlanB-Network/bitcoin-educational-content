@@ -66,8 +66,6 @@ Nesta terceira seção prática, vamos colocar em prática suas soluções concr
 
 Primeiro, veremos como proteger sua caixa de e-mails, essencial para suas comunicações e frequentemente alvo de hackers. Em seguida, apresentaremos o que é um gerenciador de senhas: uma solução prática para não esquecer ou misturar suas senhas, mantendo-as seguras. Por fim, abordaremos uma medida de segurança adicional, a autenticação de dois fatores, que adiciona uma camada de proteção às suas contas. Tudo será explicado de forma clara e acessível.
 
-### Seção Bônus: Entrevista com Pantamis e Renaud'
-
 # Tudo sobre navegação online
 
 ## Navegação online

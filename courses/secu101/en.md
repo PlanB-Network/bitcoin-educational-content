@@ -1,5 +1,5 @@
 ---
-name: Information Security & Data Management
+name: Update Your Online Security 
 goal: Update password and personal data management. Create a backup, protect against hackers, and raise awareness about mass surveillance.
 objectives:
   - Update on personal data management and tools that enhance your security.
@@ -65,8 +65,6 @@ In this section, we will cover three key areas of computer security. First, we w
 In this practical third section, we will move on to the implementation of your concrete solutions.
 
 First, we will see how to protect your email inbox, which is essential for your communications and often targeted by hackers. Then, we will introduce you to a password manager: a practical solution to no longer forget or mix up your passwords while keeping them secure. Finally, we will discuss an additional security measure, two-factor authentication, which adds an extra layer of protection to your accounts. Everything will be explained clearly and accessibly.
-
-### Bonus Section: Interview with Pantamis and Renaud
 
 # Everything you need to know about online browsing
 
@@ -223,7 +221,7 @@ If you detect a virus on your computer, disconnect it from the internet, perform
 
 ## Managing email accounts
 
-## Setting up a new email account!
+### Setting up a new email account!
 
 The email account is the central point of your online activity: if it is compromised, a hacker can use it to reset all your passwords via the "forgot password" function and gain access to many other sites. That's why you need to secure it properly.
 
@@ -345,7 +343,7 @@ Golden rule: Cybersecurity is a moving target that will adapt to your learning j
 
 ## How to work in the cybersecurity industry
 
-# Cybersecurity: A Growing Field with Endless Opportunities
+### Cybersecurity: A Growing Field with Endless Opportunities
 
 If you are passionate about protecting systems and data, the field of cybersecurity offers a multitude of opportunities. If this industry intrigues you, here are some key steps to guide you.
 

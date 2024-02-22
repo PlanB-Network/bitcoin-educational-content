@@ -53,7 +53,7 @@ Voraussetzungen:
 
 ## Schritt 1: Tails von Ihrem Computer herunterladen
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 > 🔗 Offizieller Tails-Abschnitt: https://tails.boum.org/install/linux/index.fr.html#download
 
@@ -63,7 +63,7 @@ Speichern Sie die Datei in einem bekannten Ordner wie "Downloads", da dies für 
 
 ## Schritt 2: Überprüfen Sie Ihren Download
 
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 > 🔗 Offizieller Tails-Abschnitt: https://tails.boum.org/install/linux/index.fr.html#verify
 
@@ -75,7 +75,7 @@ Verwenden Sie daher die Schaltfläche "Ihren Download auswählen ..." im offizie
 
 ## Schritt 3: Tails auf Ihrem USB-Stick installieren
 
-![image](assets/3.jpeg)
+![image](assets/3.webp)
 
 > 🔗 Offizieller Tails-Abschnitt:
 >
@@ -90,7 +90,7 @@ Viel Erfolg! Und weiter zu Schritt 4.
 
 ## Schritt 4: Starten Sie Tails von Ihrem USB-Stick neu
 
-![image](assets/4.jpeg)
+![image](assets/4.webp)
 
 > 🔗 Offizieller Abschnitt von Tails: https://tails.boum.org/install/linux/index.fr.html#restart
 > Es ist Zeit, einen Ihrer Computer mit Ihrem neuen USB-Stick zu starten. Stecken Sie diesen in einen der USB-Anschlüsse und starten Sie neu!
@@ -119,27 +119,27 @@ Um herauszufinden, welche Taste Sie drücken müssen, um das Startmenü anzuzeig
 
 Nachdem der USB-Stick ausgewählt wurde, sollten Sie diesen neuen Startbildschirm sehen. Das ist ein gutes Zeichen, lassen Sie den Computer also weiter hochfahren...
 
-![image](assets/5.jpeg)
+![image](assets/5.webp)
 
 ## Schritt 5: Willkommen bei Tails!
 
-![image](assets/6.jpeg)
+![image](assets/6.webp)
 
 > 🔗 Offizieller Abschnitt von Tails: https://tails.boum.org/install/linux/index.fr.html#tails
 
 Eine oder zwei Minuten nach dem Bootloader und dem Ladescreen erscheint der Willkommensbildschirm.
 
-![image](assets/7.jpeg)
+![image](assets/7.webp)
 
 Wählen Sie auf dem Willkommensbildschirm Ihre Sprache und Tastaturbelegung in der Sektion Sprache & Region aus. Klicken Sie auf Tails starten.
 
-![image](assets/8.jpeg)
+![image](assets/8.webp)
 
 Wenn Ihr Computer nicht über ein Kabel mit Ihrem Netzwerk verbunden ist, lesen Sie bitte die offiziellen Tails-Anweisungen, um Ihnen bei der Verbindung mit einem kabellosen Netzwerk zu helfen (Abschnitt "Testen Sie Ihr WLAN").
 
 Sobald Sie mit dem lokalen Netzwerk verbunden sind, erscheint der Tor-Verbindungsassistent, um Ihnen bei der Verbindung zum Tor-Netzwerk zu helfen.
 
-![image](assets/9.jpeg)
+![image](assets/9.webp)
 
 Sie können nun anonym surfen, die Optionen und die in Tails enthaltene Software erkunden. Viel Spaß dabei, Sie haben hier genügend Spielraum für Fehler, da nichts auf dem USB-Stick geändert wird... Bei Ihrem nächsten Neustart werden alle Ihre Erfahrungen vergessen sein!
 

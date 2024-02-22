@@ -20,7 +20,7 @@ Es una billetera custodial de configuración cero con un enfoque en la simplicid
 
 Wallet of Satoshi es realmente muy fácil de usar.
 
-![cover](assets/1.png)
+![cover](assets/1.webp)
 
 Desde la pantalla de inicio, simplemente presiona enviar o recibir, desde allí puedes escanear un código QR para enviar o ser escaneado para recibir.
 

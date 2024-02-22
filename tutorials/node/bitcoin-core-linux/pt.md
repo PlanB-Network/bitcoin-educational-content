@@ -63,7 +63,7 @@ Cada assinatura retornará uma linha começando com: gpg: Good signature e outra
 
 5. Para escolher um nó reduzido, marque a opção Limit blockchain storage e configure o limite de dados a ser armazenado:
 
-![welcome](assets/1.jpeg)
+![welcome](assets/1.webp)
 
 ## Conclusão da Parte 1: Guia de Instalação
 
@@ -71,7 +71,7 @@ Depois de instalar o Bitcoin Core, é recomendado deixá-lo em execução o máx
 
 No entanto, executar e sincronizar seu nó intermitentemente, mesmo que seja apenas para validar transações recebidas e emitidas, é uma boa prática.
 
-![Creation wallet](assets/2.jpeg)
+![Creation wallet](assets/2.webp)
 
 # Configuração do Tor para um nó Bitcoin Core
 
@@ -93,7 +93,7 @@ sudo systemctl restart tor
 
 Em seguida, vamos iniciar a interface gráfica do Bitcoin Core com o comando bitcoin-qt. Em seguida, ative a funcionalidade automatizada do software para direcionar nossas conexões por meio de um proxy Tor: Configurações > Rede e, a partir daí, podemos marcar a opção Conectar-se através de um proxy SOCKS5 (proxy padrão) e Usar um proxy SOCKS5 separado para alcançar os pares através dos serviços onion do Tor.
 
-![opção](assets/3.jpeg)
+![opção](assets/3.webp)
 
 O Bitcoin Core detecta automaticamente se o Tor está instalado e, se for o caso, criará conexões de saída (Outbound) por padrão para outros nós que também usam o Tor, além das conexões para nós que usam as redes IPv4/IPv6 (clearnet).
 
@@ -103,7 +103,7 @@ O Bitcoin Core detecta automaticamente se o Tor está instalado e, se for o caso
 
 É possível configurar o Bitcoin Core para usar apenas a rede Tor para se conectar com pares, otimizando assim nossa anonimidade por meio de nosso nó. Como não há uma funcionalidade para isso na interface gráfica, teremos que criar manualmente um arquivo de configuração. Vá para Configurações e depois Opções.
 
-![opção 2](assets/4.jpeg)
+![opção 2](assets/4.webp)
 
 Aqui, clique em Abrir arquivo de configuração. Uma vez no arquivo de texto bitcoin.conf, adicione simplesmente uma linha onlynet=onion e salve o arquivo. Você precisa reiniciar o Bitcoin Core para que este comando tenha efeito.
 Nós iremos então configurar o serviço Tor para que o Bitcoin Core possa receber conexões de entrada através de um proxy, permitindo que os pares da rede usem nosso nó para baixar dados do blockchain sem comprometer a segurança de nossa máquina.
@@ -112,7 +112,7 @@ No terminal, digite sudo nano /etc/tor/torrc para acessar o arquivo de configura
 
 Com essa configuração, o Bitcoin Core poderá estabelecer conexões de entrada e saída apenas com outros pares da rede na rede Tor (Onion). Para confirmar isso, clique na aba Janela e depois em Pares.
 
-![Fenetre des noeuds](assets/5.jpeg)
+![Fenetre des noeuds](assets/5.webp)
 
 ## Recursos adicionais
 

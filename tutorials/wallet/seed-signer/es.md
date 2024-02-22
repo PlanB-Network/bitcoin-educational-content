@@ -62,7 +62,7 @@ _Guía tomada de Southerbitcoiner, creada por Cole_
 
 ### Una colección de guías en video sobre SeedSigner: una billetera de hardware de código abierto y de bricolaje
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 SeedSigner es un dispositivo de firma de Bitcoin que puedes construir desde cero. Suena difícil, pero esta serie de 4 partes debería ayudarte : Te sugiero que veas la parte 1 y 2, luego decidas si quieres usar una computadora de escritorio (mira la parte 3) o un dispositivo móvil (mira la parte 4).
 

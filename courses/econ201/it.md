@@ -1,16 +1,16 @@
 ---
-name: Introduzione all'Economia Austriaca
-goal: Scoprire la scuola austriaca di pensiero economica. Studiare le loro opinioni sulla società e sulle realtà macro/microeconomiche.
-objectives:
+nome: Introduzione all'Economia Austriaca
+scopo: Scoprire il pensiero della scuola economica austriaca. Studiare le loro opinioni sulla società e sulle realtà macro/microeconomiche.
+obbiettivi:
   - Un'alternativa al Keynesianesimo
   - L'importanza di una valuta solida
-  - Perché e come vengono create le nostre fasi cicliche economiche?
+  - Perché e come vengono create le fasi cicliche economiche?
   - Perché i banchieri centrali sono impazziti?
 ---
 
 # Un viaggio nell'economia
 
-Benvenuti al corso di Théo Mogenet! Appassionato di economia, storia, letteratura, scienze politiche e tecnologia, ha deciso di condividere la sua conoscenza dell'economia austriaca con voi. Questo ramo, meno conosciuto nell'economia, si basa sulla razionalità umana e sul comportamento degli attori liberi. Meno intenso in matematica, si tratta soprattutto di logica e studio sociale.
+Benvenuti al corso di Théo Mogenet! Appassionato di economia, storia, letteratura, scienze politiche e tecnologia, ha deciso di condividere la sua conoscenza dell'economia austriaca con voi. Questo ramo, meno conosciuto dell'economia, si basa sulla razionalità umana e sul comportamento degli attori liberi. Meno intenso dal punto di vista matematico, tratta soprattutto di logica e studio sociale.
 
 Questa scuola di pensiero ha già diversi secoli alle spalle e ha un intero panorama di autori, pensieri ed economisti alle spalle. Grandi nomi dell'economia come Hayek, Rothbard, Mises, Bastiat o Menger hanno a lungo difeso questo movimento. In contrasto con l'onnipresente keynesianesimo dei nostri giorni, la scuola austriaca rimette l'individuo al centro dell'equazione con un approccio più liberale, capitalista e persino anarchico.
 
@@ -22,7 +22,7 @@ Questa scuola di pensiero ha già diversi secoli alle spalle e ha un intero pano
 
 Ciao a tutti e benvenuti a Econ 201: Introduzione all'Economia Austriaca.
 
-In questo corso offerto da Théo Mogenet, scoprirete questo ramo dell'economia che differisce molto dalla dottrina keynesiana. Fino ad ora, potreste aver imparato che la produzione e la gestione del denaro erano responsabilità delle banche centrali, con l'idea che la stampa di moneta e la spesa promuovano la crescita. Tuttavia, esiste un'altra scuola di pensiero economica: l'economia austriaca. Con oltre 200 anni di ricerca e sviluppo, riflessioni filosofiche e scritti di autori rinomati, questo approccio enfatizza una visione più sobria della crescita e della razionalità umana nella nostra economia.
+In questo corso offerto da Théo Mogenet, scoprirete questo ramo dell'economia che differisce molto dalla dottrina keynesiana. Fino ad ora, potreste aver imparato che la produzione e la gestione del denaro erano responsabilità delle banche centrali, con l'idea che la stampa di moneta e la spesa promuovono la crescita. Tuttavia, esiste un'altra scuola di pensiero economica: l'economia austriaca. Con oltre 200 anni di ricerca e sviluppo, riflessioni filosofiche e scritti di autori rinomati, questo approccio enfatizza una visione più sobria della crescita e della razionalità umana nella nostra economia.
 
 In realtà, l'economia è un campo estremamente sociale e complesso, composto da una miriade di piccoli attori interconnessi che contribuiscono insieme a formare un insieme coerente. Piuttosto che affrontare questa disciplina attraverso equazioni matematiche, dobbiamo comprenderla dal punto di vista della logica umana e della sociologia. In questo corso, esploreremo i concetti fondamentali dell'economia austriaca. Il vostro insegnante, Théomo Jeunet, è un professore appassionato e competente di economia austriaca.
 
@@ -32,13 +32,13 @@ Nella seconda parte di questo corso, esamineremo la differenza tra il keynesiane
 
 Questo corso sarà una combinazione di economia e filosofia, con una discussione aperta tra Théo e me. Se avete domande durante questo corso, non esitate a farle nel nostro Discord, di cui troverete il link nella descrizione.
 
-Ringrazio calorosamente Théo per la realizzazione di questo corso e spero che sia un eccellente insegnante per voi. Ci siamo divertiti molto a creare questo contenuto. Questo corso è accessibile a tutti e sarà, penso, essenziale per seguire i nostri futuri corsi più approfonditi sull'economia. Questo corso porrà le basi necessarie per esplorare in modo più dettagliato alcune teorie economiche che toccheremo solo brevemente qui.
+Ringrazio calorosamente Théo per la realizzazione di questo corso e spero che sia un eccellente insegnante per voi. Ci siamo divertiti molto a realizzare questo contenuto. Questo corso è accessibile a tutti e sarà, penso, essenziale per seguire i nostri futuri corsi più approfonditi sull'economia. Questo corso porrà le basi necessarie per esplorare in modo più dettagliato alcune teorie economiche che toccheremo solo brevemente qui.
 
-Se sei pronto a intraprendere questa avventura, ti invito a cliccare sul seguente video e iniziare con il video bonus sul nostro attuale sistema finanziario. Ora do la parola a Théo. Grazie a lui per la collaborazione con Descoupes Bitcoin per la realizzazione di questo video. Ci vedremo molto presto. Arrivederci!
+Se sei pronto a intraprendere questa avventura, ti invito a cliccare il video bonus sul nostro attuale sistema finanziario. Ora do la parola a Théo. Grazie a lui per la collaborazione con Descoupes Bitcoin per la realizzazione di questo video. Ci vedremo molto presto. Arrivederci!
 
 ## Denaro, Credito, Banche e Banche Centrali
 
-> "Il problema fondamentale della valuta convenzionale è tutta la fiducia che è necessaria per farla funzionare. La banca centrale deve essere affidabile e non svalutare la valuta, ma la storia delle valute fiat è piena di violazioni di questa fiducia. Le banche devono essere affidabili nel custodire i nostri soldi e trasferirli elettronicamente, ma li prestano in onde di bolle di credito con appena una frazione in riserva. Dobbiamo fidarci di loro per la nostra privacy, fidarci che non lascino che i ladri di identità svuotino i nostri conti."
+> "Il problema fondamentale della valuta convenzionale è tutta la fiducia che è necessaria per farla funzionare. La banca centrale deve essere affidabile e non svalutare la moneta, ma la storia delle valute fiat è piena di violazioni di questa fiducia. Le banche devono essere affidabili nel custodire i nostri soldi e trasferirli elettronicamente, ma li prestano in onde di bolle di credito con appena una frazione in riserva. Dobbiamo fidarci di loro per la nostra privacy, fidarci che non lascino che i ladri di identità svuotino i nostri conti."
 >
 > Satoshi Nakamoto, inventore pseudonimo di Bitcoin
 
@@ -72,7 +72,7 @@ Oltre a mantenere la stabilità finanziaria, le banche centrali sono responsabil
 
 ![image](assets/Image/2.png)
 
-Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
+Figura 2: Fallimento di Lehman Borthers (15/09/2008)
 
 Durante la grande crisi finanziaria del 2008, Lehman Brothers, una grande banca d'investimento, dichiarò bancarotta dopo aver subito perdite significative sui suoi titoli ipotecari e aver subito prelievi massicci da parte di clienti preoccupati. In risposta a questa crisi finanziaria senza precedenti, i banchieri centrali di tutto il mondo iniettarono grandi quantità di liquidità nei mercati finanziari, fusero banche d'investimento in difficoltà con banche commerciali e abbassarono i tassi di politica monetaria quasi a zero nel tentativo di evitare un collasso sistemico.
 
@@ -80,17 +80,17 @@ Sebbene queste misure abbiano impedito una cascata di fallimenti, hanno fatto po
 
 ![image](assets/Image/3.png)
 
-Figure3 : Interest Rates Across Major Economies / Source: ECB
+Figura 3 : Tassi di interesse nelle principali economie / Fonte: ECB
 
 Contrariamente a molte aspettative, i programmi di QE non hanno significativamente ravvivato la crescita economica, ma hanno inflazionato gli asset finanziari a livelli storici. Ciò ha beneficiato principalmente i ricchi e le istituzioni finanziarie, poiché già possedevano quantità consistenti di tali asset, ampliando così le disparità di ricchezza. Date le caratteristiche del sistema bancario spiegate in precedenza, questo risultato non dovrebbe sorprendere. Poiché le riserve bancarie non possono fluire facilmente nell'economia reale, i programmi di QE hanno principalmente aumentato i prezzi degli asset senza migliorare efficacemente la situazione finanziaria delle persone comuni.
 
-### The Cantillon Effect
+### Effetto Cantillon
 
 Tuttavia, da questo episodio può essere tratto un principio economico fondamentale: quando viene creato nuovo denaro, inizialmente beneficia coloro che sono più vicini alla fonte del denaro, a spese di coloro che sono più lontani. Questo principio economico risale al XVIII secolo, quando Richard Cantillon lo ha delineato nel suo "Saggio sulla natura del commercio in generale". Ora è comunemente noto come "Effetto Cantillon".
 
 ![image](assets/Image/4.png)
 
-Figure4: Cantillon Effect in a Nutshell / Source: River Financial
+Figura 4: Effetto Cantillon / Fonte: River Financial
 
 In questo caso, banchieri, dirigenti bancari, proprietari di azioni e obbligazioni, sviluppatori immobiliari, creditori immobiliari e chiunque detenga attività finanziarie o immobiliari ha ricevuto un guadagno finanziario, mentre il peso è ricaduto su tutti gli altri. Questa situazione è perdurata per anni ed è in gran parte responsabile dell'aumento dell'ineguaglianza della ricchezza, del senso di esclusione tra le persone che lavorano duramente e dell'apparentemente inarrestabile aumento dei prezzi degli asset nonostante la crescita lenta del PIL.
 
@@ -98,19 +98,19 @@ In sostanza, il sistema è distorto. Le banche sono intrinsecamente instabili, m
 
 ![image](assets/Image/5.png)
 
-Figure5: Wealth Distribution in China + Europe + the US / Source: OECD
+Figura 5: Distribuzione della ricchezza in China + Europa + US  / Fonte: OECD
 
-### Conseguenze delle politiche di tassi di interesse zero
+### Conseguenze delle politiche di tassi di interesse a zero
 
-Durante periodi prolungati di politiche di tassi di interesse zero (ZIRP), le banche hanno poche opportunità per ricostruire il proprio patrimonio perché i loro margini vengono erosi. Le banche guadagnano tipicamente prendendo in prestito a tassi a breve termine e prestando a tassi a lungo termine. Tuttavia, quando le banche centrali acquistano grandi quantità di obbligazioni e fissano i tassi a zero, le banche hanno scarso incentivo a prestare, soprattutto a imprenditori e altri rischianti. Invece, allocano le loro risorse per securitizzare il capitale esistente o fornire prestiti garantiti per soddisfare la domanda di coloro che beneficiano dell'effetto Cantillon.
+Durante periodi prolungati di politiche di tassi di interesse zero (ZIRP), le banche hanno poche opportunità per ricostruire il proprio patrimonio perché i loro margini vengono erosi. Le banche guadagnano tipicamente prendendo in prestito a tassi a breve termine e prestando a tassi a lungo termine. Tuttavia, quando le banche centrali acquistano grandi quantità di obbligazioni e fissano i tassi a zero, le banche hanno scarso incentivo a prestare, soprattutto a imprenditori e altri propensi al rischio. Invece, allocano le loro risorse per consolidare il capitale esistente o fornire prestiti garantiti per soddisfare la domanda di coloro che beneficiano dell'effetto Cantillon.
 
-Un'altra conseguenza non voluta della ZIRP è che incoraggia i governi a impegnarsi in una spesa estensiva. Poiché i governi non affrontano costi di prestito e possono fare affidamento sulle banche centrali per acquistare i loro titoli attraverso programmi di QE, hanno un incentivo naturale a spendere il più possibile, soprattutto in contesti democratici in cui la spesa può ottenere voti. Questa tendenza spesso non tiene conto delle conseguenze a lungo termine di tale prodigalità fiscale, portando a un aumento significativo dei livelli di debito pubblico nelle economie sviluppate dalla crisi finanziaria globale (GFC).
+Un'altra conseguenza non voluta della ZIRP è che incoraggia i governi a impegnarsi in una spesa estensiva. Poiché i governi non sostengono i costi del prestito e possono fare affidamento sulle banche centrali per acquistare i loro titoli attraverso programmi di QE, hanno un incentivo naturale a spendere il più possibile, soprattutto in contesti democratici in cui la spesa può ottenere voti. Questa tendenza spesso non tiene conto delle conseguenze a lungo termine di tale prodigalità fiscale, portando a un aumento significativo dei livelli di debito pubblico nelle economie sviluppate dalla crisi finanziaria globale (GFC).
 
 ![image](assets/Image/6.png)
 
-Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country) / Source IMF
+Figura 6: Debito Pubblico e Privato come % del PIL (Mondo, pesato per PIL per paese) / Fonte IMF
 
-Con l'aumento dell'inflazione a causa della creazione di denaro in risposta ai blocchi legati al COVID, le banche centrali stanno ora aumentando i tassi di interesse per frenare l'inflazione. Tuttavia, ciò rappresenta una sfida significativa per l'intero sistema. Le banche sono più indebitate che mai, i governi hanno livelli di debito storicamente alti, la crescita economica è lenta, i deficit si accumulano e i consumatori, alle prese con l'aumento dei prezzi dei beni essenziali, faticano a far quadrare i conti. Controllare l'inflazione richiederebbe di aumentare i tassi a un livello che potrebbe far fallire i governi, mentre le banche rischiano di perdere i depositanti poiché le persone spendono i loro risparmi per beni essenziali sempre più costosi o cercano rifugio in asset reali e fondi del mercato monetario per proteggersi dall'inflazione.
+Con l'aumento dell'inflazione a causa della creazione di denaro in risposta ai blocchi legati al COVID, le banche centrali stanno ora aumentando i tassi di interesse per frenare l'inflazione. Tuttavia, ciò rappresenta una sfida significativa per l'intero sistema. Le banche sono più indebitate che mai, i governi hanno livelli di debito storicamente alti, la crescita economica è lenta, i deficit si accumulano e i consumatori, alle prese con l'aumento dei prezzi dei beni essenziali, faticano a far quadrare i conti. Controllare l'inflazione richiederebbe di aumentare i tassi ad un livello che potrebbe far fallire i governi, mentre le banche rischiano di perdere i depositanti poiché le persone spendono i loro risparmi per beni essenziali sempre più costosi o cercano rifugio in asset reali e fondi del mercato monetario per proteggersi dall'inflazione.
 
 ### Conclusioni
 
@@ -118,7 +118,7 @@ Con l'aumento dell'inflazione a causa della creazione di denaro in risposta ai b
 >
 > John Maynard Keynes
 
-In sostanza, il nostro sistema sta affrontando sfide significative e Bitcoin emerge come l'unica alternativa credibile. Tuttavia, Bitcoin da solo non può risolvere i problemi all'interno del nostro sistema monetario. Soprattutto, abbiamo bisogno di individui che comprendano i principi economici di base tra gli appassionati di Bitcoin, consentendo una maggiore consapevolezza e un senso comune economico per guidarci lontano dalla costruzione di un'altra fragile base finanziaria per la nostra civiltà. L'obiettivo principale di questo corso è educare i nuovi appassionati di Bitcoin nei principi economici solidi.
+In sostanza, il nostro sistema sta affrontando sfide significative e Bitcoin emerge come l'unica alternativa credibile. Tuttavia, Bitcoin da solo non può risolvere i problemi all'interno del nostro sistema monetario. Soprattutto, abbiamo bisogno di individui che comprendano i principi economici di base tra gli appassionati di Bitcoin, consentendo una maggiore consapevolezza ed un senso comune economico per guidarci lontano dalla costruzione di un'altra fragile base finanziaria per la nostra civiltà. L'obiettivo principale di questo corso è educare i nuovi appassionati di Bitcoin nei principi economici solidi.
 Per raggiungere questo obiettivo, spiegheremo i principi fondamentali dell'"Economia Austriaca", una scuola di pensiero economica con una tradizione metodologica che risale al XVI secolo, fornendo approfondimenti sull'azione umana in condizioni economiche. Con questa introduzione, ora comprendi gli elementi essenziali della creazione di denaro e lo stato attuale del nostro sistema finanziario e monetario.
 Nel prossimo capitolo, approfondiremo la pietra angolare fondamentale di qualsiasi scuola di pensiero economica: la teoria del valore. I capitoli successivi esploreranno il denaro come istituzione sociale, la teoria del capitale e del ciclo economico, la sfida del calcolo economico e una breve panoramica della storia e della metodologia della Scuola Austriaca di Economia.
 

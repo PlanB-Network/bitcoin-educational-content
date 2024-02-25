@@ -180,6 +180,8 @@ Cliquez sur le bouton `Open` afin de d'ouvrir un dossier existant comme un coffr
 
 Votre explorateur de fichier va s'ouvrir. Vous devez localiser et sélectionner le dossier intitulé `GitHub`, qui devrait se situer dans votre répertoire `Documents` parmi vos fichiers. Ce chemin correspond à celui que vous avez établi durant l'étape 5. Après avoir choisi le dossier, confirmez sa sélection. La création de votre coffre sur Obsidian se lancera alors sur une nouvelle page du logiciel. 
 
+
+
 -> Attention, il ne faut surtout pas sélectionner le dossier `sovereign-university-data` lors de l'ouverture d'un nouveau coffre Obsidian. C'est bien le dossier parent `GitHub` qu'il faut sélectionner. Sinon, votre dossier de configuration `.obsidian` va être automatiquement placé à l'intérieur du dépôt. Nous ne voulons pas cela, car votre fichier de configuration `.obsidian` contient vos paramètres Obsidian. Cela ne sert à rien de les pousser sur le dépôt de PlanB Network. Une autre solution pour ignore le fichier de configuration est d'ajouter le dossier `.obsidian` dans le dossier `.gitignore`. Mais cette seconde solution viendra également modifier le fichier `.gitignore` du dépôt source.
 
 
@@ -187,12 +189,44 @@ Sur la gauche de la fenêtre, vous pouvez voir l'arborescence des fichiers avec 
 
 
 
+Noubliez pas de paramétrer Obsidian en dark mode : « *Light attracts bugs* » ;)
+
+
+
+## Étape 7 : Installer un éditeur de code
+
+La plupart de vos modification vont concerner des fichier Markdown (`.md`). Pour éditer ces fichiers, vous pouvez utiliser le logiciel Obsidian dont nous avons parlé précédemment. Cependant, nous utilisons également d'autres types de fichiers sur PlanB Network, et vous allez devoir en modifier certains.
+
+Par exemple, lorsque vous créez un nouveau tutoriel, vous allez devoir créer un fichier YAML (`.yml`) afin d'y renseigner les tags de votre tutoriel, son titre, ou encore votre identifiant de professeur. Obsidian ne prend pas en charge la modification de ces formats de fichiers. Vous allez donc avoir besoin d'un logiciel d'édition de code. 
+
+Pour ce faire, vous disposez de plusieurs solutions. En général, le logiciel de bloc note de votre PC permettra de modifier ces fichiers. Cependant, ce n'est pas le top pour travailler proprement. JE vous conseille donc d'opter pour un logiciel vraiment adapté comme [VS Code](https://code.visualstudio.com/download) ou [Sublime Text](https://www.sublimetext.com/download) (ce dernier est beaucoup plus léger et suffira à notre utilisation).
+
+Installez un de ces logiciels, et gardez le de côté pour la suite.
+
+## Étape 8 : Ajouter un nouveau professeur (facultatif)
+
+Si vous avez déjà contribué à PlanB Network, vous disposez déjà d'un identifiant de professeur. Vous pouvez le retrouver dans votre dossier sur [cette page](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Dans ce cas, vous pouvez passer cette étape. 
+
+
+
+Sinon, il va falloir créer votre profil afin que votre nom apparaisse sur vos futurs tutoriels. Pour ce faire, rendez-vous sur votre explorateur de fichiers sur votre dépôt local, et recherchez le dossier `professors`. Il se trouve dans :`\GitHub\sovereign-university-data\professors`.
+
+Dans ce dossier, créez un nouveau dossier intitulé avec votre nom ou votre pseudo. Attention, il ne doit pas y avoir d'espaces dans le nom du dossier. Par exemple, si vous vous appelez « Loic Pandul », et qu'aucun autre professeur ne s'appelle comme vous, créez le dossier `loic-pandul`.
 
 
 
 
 
-## Étape 7
+Pour vous facilitez la tâche, vous pouvez déjà copier et coller tous les documents d'un autre professeur dans votre propre dossier. Nous allons ensuite modifier ces documents pour les adapter à votre profil.
+
+
+
+
+Tout d'abord, rendez-vous dans le dossier `assets`. Supprimez l'image de profil du professeur copié, et ajoutez votre propre image de profil à la place. Cette image doit absolument être au format `.jpg` et doit être nommée `profile`. Le nom complet du fichier doit donc être `profile.jpg`. Attention, cette image sera publiée en ligne et disponible publiquement.
+
+
+
+
 
 
 

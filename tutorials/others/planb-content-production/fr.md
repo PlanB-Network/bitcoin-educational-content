@@ -178,10 +178,12 @@ Cliquez sur le bouton `Open` afin de d'ouvrir un dossier existant comme un coffr
 
 
 
-Votre explorateur de fichier va s'ouvrir. Vous devez localiser et sélectionner le dossier intitulé `sovereign-university-data`, qui devrait se situer dans votre répertoire `GitHub` parmi vos documents. Ce chemin correspond à celui que vous avez établi durant l'étape 5. Après avoir choisi le dossier, confirmez sa sélection. La création de votre coffre sur Obsidian se lancera alors sur une nouvelle page du logiciel.
+Votre explorateur de fichier va s'ouvrir. Vous devez localiser et sélectionner le dossier intitulé `GitHub`, qui devrait se situer dans votre répertoire `Documents` parmi vos fichiers. Ce chemin correspond à celui que vous avez établi durant l'étape 5. Après avoir choisi le dossier, confirmez sa sélection. La création de votre coffre sur Obsidian se lancera alors sur une nouvelle page du logiciel. 
+
+-> Attention, il ne faut surtout pas sélectionner le dossier `sovereign-university-data` lors de l'ouverture d'un nouveau coffre Obsidian. C'est bien le dossier parent `GitHub` qu'il faut sélectionner. Sinon, votre dossier de configuration `.obsidian` va être automatiquement placé à l'intérieur du dépôt. Nous ne voulons pas cela, car votre fichier de configuration `.obsidian` contient vos paramètres Obsidian. Cela ne sert à rien de les pousser sur le dépôt de PlanB Network. Une autre solution pour ignore le fichier de configuration est d'ajouter le dossier `.obsidian` dans le dossier `.gitignore`. Mais cette seconde solution viendra également modifier le fichier `.gitignore` du dépôt source.
 
 
-Sur la gauche de la fenêtre, vous pouvez voir l'arborescence des fichiers de votre dépôt. En cliquant sur les flèches situées à côté des noms de dossier, vous pouvez les dérouler pour accéder à leurs sous-dossiers et documents.
+Sur la gauche de la fenêtre, vous pouvez voir l'arborescence des fichiers avec vos différents dépôt GitHub qui ont été clonés en local. En cliquant sur les flèches situées à côté des noms de dossier, vous pouvez les dérouler pour accéder aux sous-dossiers des dépôts et à leurs documents.
 
 
 

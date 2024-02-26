@@ -146,6 +146,7 @@ Cliquez sur le bouton `Open` afin d'ouvrir un dossier existant comme un coffre.
 
 Votre explorateur de fichier va s'ouvrir. Vous devez localiser et sélectionner le dossier intitulé `GitHub`, qui devrait se situer dans votre répertoire `Documents` parmi vos fichiers. Ce chemin correspond à celui que vous avez établi durant l'étape 5. Après avoir choisi le dossier, confirmez sa sélection. La création de votre coffre sur Obsidian se lancera alors sur une nouvelle page du logiciel. 
 
+![github](assets/fr/29.png)
 
 
 ![github](assets/29.webp)

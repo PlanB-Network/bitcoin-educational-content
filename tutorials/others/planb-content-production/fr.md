@@ -2,15 +2,15 @@
 name: Contribution - Obsidian
 description: Comment contribuer à PlanB Network avec GitHub et Obsidian ?
 ---
-La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur Github, offrant ainsi la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
+La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, offrant ainsi la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
-Si vous désirez apporter votre pierre à l'édifice PlanB Network, mais que vous ne vous sentez pas à l'aise avec l'utilisation de Github, ce tutoriel est conçu spécialement pour vous. Nous allons voir en détail comment contribuer à PlanB Network via Github, tout en utilisant Obsidian, un outil conçu pour faciliter la rédaction.
+Si vous désirez apporter votre pierre à l'édifice PlanB Network, mais que vous ne vous sentez pas à l'aise avec l'utilisation de GitHub, ce tutoriel est conçu spécialement pour vous. Nous allons voir en détail comment contribuer à PlanB Network via GitHub, tout en utilisant Obsidian, un outil conçu pour faciliter la rédaction.
 
-Vous allez voir que la mise en place de tout le processus de travail est assez longue, surtout si vous n'avez jamais utilisé GitHub. Mais l'utilisation de Git nous facilite la collaboration sur la rédaction de contenus, car il permet un suivi précis des modifications, une gestion efficace des versions et permet également la revue et l'amélioration du contenu par d'autres contributeurs. De plus, une fois le processus de travail mis en place sur votre PC, vous verrez que Git facilitera grandement votre travail. Vous en ressortirez peut-être même avec l'envie d'utiliser Git pour vos autres projets personnels tellement ce protocole est efficace.
+Vous allez voir que la mise en place de tout le processus de travail est assez longue, surtout si vous n'avez jamais utilisé GitHub. Mais l'utilisation de Git nous facilite la collaboration sur la rédaction de contenus, car il permet un suivi précis des modifications, une gestion efficace des versions et permet également la revue et l'amélioration du contenu par d'autres contributeurs. De plus, une fois le processus de travail mis en place sur votre PC, vous verrez que Git facilitera grandement votre travail. Vous en ressortirez peut-être même avec l'envie d'utiliser Git pour vos autres projets personnels tellement ce logiciel est efficace.
 
 ## Petit Glossaire de Git
 - **Fetch origin :** Commande qui permet de récupérer les informations et les modifications récentes d'un dépôt distant sans les fusionner avec votre travail local.
-- **Pull origin :** Commande qui permet de récupérer les mises à jour d'un dépôt distant et les intégrer immédiatement à votre branche locale afin de la synchroniser.
+- **Pull origin :** Commande qui permet de récupérer les mises à jour d'un dépôt distant et de les intégrer immédiatement à votre branche locale afin de la synchroniser.
 - **Sync Fork :** Commande sur GitHub qui permet de mettre à jour votre fork d'un projet avec les dernières modifications du dépôt source.
 - **Push origin :** Commande qui sert à envoyer vos modifications locales à un dépôt distant.
 - **Pull Request :** Demande envoyée par un contributeur pour indiquer qu'il a poussé des modifications sur une branche dans un dépôt distant et qu'il souhaite que ces modifications soient examinées et potentiellement intégrées (merge) dans la branche principale du dépôt.
@@ -21,16 +21,16 @@ Vous allez voir que la mise en place de tout le processus de travail est assez l
 - **Clone :** Cloner un dépôt signifie en faire une copie locale sur votre ordinateur, vous donnant ainsi accès à tous les fichiers et à l'historique des modifications.
 - **Repository :** Espace de stockage pour un projet sur GitHub. Il contient tous les fichiers du projet ainsi que l'historique de toutes les modifications qui y ont été apportées.
 
-## Quel type de contenu rédiger ?
+## Quel type de contenu rédiger sur PlanB Network ?
 Nous recherchons en priorité des tutoriels sur des outils liés à Bitcoin ou à son écosystème. Ces contenus peuvent s'articuler autour de six catégories principales :
 - Portefeuille ;
 - Nœud ;
 - Minage ;
 - Marchand ;
-- Échanger ;
+- Échange ;
 - Confidentialité.
 
-Au-delà de ces sujets spécifiquement liés à Bitcoin, PlanB cherche également des contributions sur des thèmes favorisant la souveraineté individuelle, tels que :
+Au-delà de ces sujets spécifiquement liés à Bitcoin, PlanB cherche également des contributions sur des thèmes qui mettent en avant la souveraineté individuelle, tels que :
 - Les outils open sources ;
 - L'informatique ;
 - La cryptographie ;
@@ -51,11 +51,10 @@ Pour ajouter un tutoriel au site de PlanB Network, il faut faire une Pull Reques
 
 Ensuite, un administrateur examinera votre tutoriel. Si des ajustements sont requis, il vous en informera pour que les modifications soient apportées. Une fois approuvé, le tutoriel sera intégré au dépôt.
 
-
 ## Étape 1 : Création d'un compte GitHub
 Si vous n'êtes pas encore inscrit sur GitHub, il vous faudra créer un compte. Pour cela, rendez-vous sur [https://github.com/signup](https://github.com/signup). Saisissez votre adresse email, puis choisissez un mot de passe solide.
 ![github](assets/fr/1.png)
-Ensuite, choisissez votre nom d'utilisateur. Vous avez la possibilité de révéler votre véritable identité ou de préférer l'usage d'un pseudonyme. Cliquez sur `Continue` et complétez le Captcha. Un email contenant un code de confirmation vous sera envoyé ; vous devrez le saisir pour finaliser la création de votre compte.
+Choisissez ensuite votre nom d'utilisateur. Vous avez la possibilité de révéler votre véritable identité ou de préférer l'usage d'un pseudonyme. Cliquez sur `Continue` et complétez le Captcha. Un email contenant un code de confirmation vous sera envoyé ; vous devrez le saisir pour finaliser la création de votre compte.
 ![github](assets/fr/2.png)
 Remplissez les questions si vous souhaitez que GitHub vous oriente vers certains outils, ou bien, cliquez sur `skip personalization` pour passer.
 ![github](assets/fr/3.png)
@@ -69,13 +68,13 @@ Je vous conseille également d'aller faire un tour dans le menu `Password and au
 ![github](assets/fr/7.png)
 
 ## Étape 2 : Installer GitHub Desktop 
-Rendez-vous sur https://desktop.github.com/ pour télécharger le logiciel GitHub Desktop. Ce logiciel vous permet d'interagir facilement avec Github, sans avoir à utiliser un terminal.
+Rendez-vous sur https://desktop.github.com/ pour télécharger le logiciel GitHub Desktop. Ce logiciel vous permet d'interagir facilement avec GitHub, sans avoir à utiliser un terminal.
 ![github](assets/fr/8.png)
 Lors du premier lancement du logiciel, il vous sera demandé de connecter votre compte GitHub. Pour ce faire, cliquez sur `Sign in to GitHub.com`.
 
 ![github](assets/fr/9.png)
 
-Une page d'authentification s'ouvre sur votre navigateur. Entrez votre adresse email et votre mot de passe choisi à l'étape précédente, puis cliquez sur le bouton `Sign in`.
+Une page d'authentification s'ouvre sur votre navigateur. Entrez votre adresse email et votre mot de passe choisis à l'étape précédente, puis cliquez sur le bouton `Sign in`.
 ![github](assets/fr/10.png)
 Cliquez sur `Authorize desktop` pour confirmer la connexion entre votre compte et le logiciel.
 ![github](assets/fr/11.png)
@@ -101,7 +100,7 @@ Vous arriverez sur le logiciel Obsidian. Pour le moment, vous n'avez aucun fichi
 ## Étape 4 : Fork le dépôt de PlanB Network
 Rendez-vous sur le dépôt des données de PlanB Network à l'adresse suivante : [https://github.com/DecouvreBitcoin/sovereign-university-data](https://github.com/DecouvreBitcoin/sovereign-university-data). Si vous n'êtes pas connecté à votre compte GitHub, veuillez vous reconnecter.
 ![github](assets/fr/17.png)
-Depuis cette page, cliquez sur le bouton `Fork` en haut à droite de la page.
+Depuis cette page, cliquez sur le bouton `Fork` en haut à droite de la fenêtre.
 ![github](assets/fr/18.png)
 Dans le menu de création, vous pouvez laisser les paramètres par défaut. Vérifiez que la case `Copy the dev branch only` soit bien cochée, puis cliquez sur le bouton `Create fork`.
 ![github](assets/fr/19.png)
@@ -114,7 +113,7 @@ Revenez sur le logiciel GitHub Desktop. À présent, votre fork devrait figurer 
 
 ![github](assets/fr/21.png)
 
-Cliquez ensuite sur le bouton bleu : `Clone [votre nom]/sovereign-university-data`.
+Cliquez ensuite sur le bouton bleu : `Clone [username]/sovereign-university-data`.
 
 ![github](assets/fr/22.png)
 
@@ -130,7 +129,7 @@ Après le clonage du dépôt, le logiciel vous propose deux options. Vous devez 
 
 ![github](assets/fr/25.png)
 
-Votre GitHub Desktop est désormais correctement configuré. À présent, vous pouvez laisser le logiciel ouvert en arrière-plan pour suivre les modifications que nous effectuerons sur Obsidian.
+Votre GitHub Desktop est désormais correctement configuré. À présent, vous pouvez laisser le logiciel ouvert en arrière-plan pour suivre les modifications que nous effectuerons.
 
 ![github](assets/fr/26.png)
 
@@ -147,7 +146,7 @@ Votre explorateur de fichier va s'ouvrir. Vous devez localiser et sélectionner 
 
 ![github](assets/fr/29.png)
 
--> **Attention**, il est important de ne pas choisir le dossier `sovereign-university-data` lors de la création d'un nouveau coffre dans Obsidian. Sélectionnez plutôt le dossier parent, `GitHub`. Si vous sélectionnez le dossier `sovereign-university-data`, le dossier de configuration `.obsidian`, contenant vos paramètres Obsidian, sera automatiquement intégré au sein du dépôt. Nous souhaitons éviter cela, car il n'est pas nécessaire de transférer vos configurations Obsidian sur le dépôt de PlanB Network. Une alternative consiste à ajouter le dossier `.obsidian` au fichier `.gitignore`, mais cette méthode entraînerait également une modification du fichier `.gitignore` du dépôt source, ce qui n'est pas désirable.
+-> **Attention**, il est important de ne pas choisir le dossier `sovereign-university-data` lors de la création d'un nouveau coffre dans Obsidian. Sélectionnez plutôt le dossier parent, `GitHub`. Si vous sélectionnez le dossier `sovereign-university-data`, le dossier de configuration `.obsidian`, contenant vos paramètres locaux Obsidian, sera automatiquement intégré au sein du dépôt. Nous souhaitons éviter cela, car il n'est pas nécessaire de transférer vos configurations Obsidian sur le dépôt de PlanB Network. Une alternative consiste à ajouter le dossier `.obsidian` au fichier `.gitignore`, mais cette méthode entraînerait également une modification du fichier `.gitignore` du dépôt source, ce qui n'est pas désirable.
 
 Sur la gauche de la fenêtre, vous pouvez voir l'arborescence des fichiers avec vos différents dépôts GitHub qui ont été clonés en local. En cliquant sur les flèches situées à côté des noms de dossier, vous pouvez les dérouler pour accéder aux sous-dossiers des dépôts et à leurs documents.
 
@@ -169,9 +168,11 @@ Si vous avez précédemment contribué à PlanB Network, vous possédez déjà u
 ![github](assets/fr/32.png)
 Si vous n'avez pas encore contribué à PlanB Network, vous devrez créer votre profil pour que votre nom figure sur vos futurs tutoriels. Pour cela, nous allons commencer par créer une nouvelle branche dédiée à l'ajout de votre profil de professeur. Une branche dans Git est une version parallèle du projet, qui vous permet de faire des modifications sans affecter la branche principale, jusqu'à ce que le travail soit prêt à être fusionné.
 
-Avant de procéder à la création d'une nouvelle branche, il est important de s'assurer que vous travaillez sur la version la plus récente du projet pour réduire les risques de conflits lors de la fusion de vos modifications. Pour ce faire, ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. Il s'agit du fork que vous avez établi sur GitHub à l'étape 4. L'URL de votre fork devrait ressembler à : `https://github.com/[votre-nom-d'utilisateur]/sovereign-university-data`.
+Avant de procéder à la création d'une nouvelle branche, il est important de s'assurer que vous travaillez sur la version la plus récente du projet pour réduire les risques de conflits lors de la fusion de vos modifications. Pour ce faire, ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de PlanB. Il s'agit du fork que vous avez établi sur GitHub à l'étape 4. L'URL de votre fork devrait ressembler à : 
+
+`https://github.com/[username]/sovereign-university-data`
 ![github](assets/fr/34.png)
-Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton `Sync fork`. Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette mise à jour. Si, au contraire, votre branche est déjà à jour, GitHub vous en informera.
+Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton `Sync fork`. Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette synchronisation. Si, au contraire, votre branche est déjà à jour, GitHub vous en informera.
 ![github](assets/fr/35.png)
 Maintenant que votre fork sur GitHub est synchronisé avec le dépôt source de PlanB Network, il est temps d'actualiser également le dépôt local sur votre ordinateur. Ouvrez le logiciel GitHub Desktop et assurez-vous que votre fork est correctement sélectionné dans le coin supérieur gauche de la fenêtre.
 
@@ -189,7 +190,7 @@ Cliquez sur cette branche, puis cliquez sur le bouton `New Branch`.
 
 ![github](assets/fr/39.png)
 
-Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `DecouvreBitcoin/sovereign-university-data`. Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. Puisque cette branche est destinée à l'ajout d'un profil de professeur, un exemple de nom pourrait être : `add-professor-[votre-nom]`. Après avoir saisi le nom, cliquez sur `Create branch` pour confirmer sa création.
+Assurez-vous que la nouvelle branche soit basée sur le dépôt source, à savoir `DecouvreBitcoin/sovereign-university-data`. Nommez votre branche de manière à ce que le titre soit clair quant à son objectif, en utilisant des tirets pour séparer chaque mot. Puisque cette branche est destinée à l'ajout d'un profil de professeur, un exemple de nom pourrait être : `add-professor-[your-name]`. Après avoir saisi le nom, cliquez sur `Create branch` pour confirmer sa création.
 
 ![github](assets/fr/40.png)
 
@@ -211,7 +212,7 @@ Pour vous faciliter la tâche, vous pouvez déjà copier et coller tous les docu
 
 ![github](assets/fr/44.png)
 
-Commencez par vous diriger vers le dossier `assets`. Supprimez l'image de profil du professeur que vous avez précédemment copié, et remplacez-la par votre propre image de profil. Il est impératif que cette image soit au format `.jpg` et qu'elle porte le nom `profile`, donnant ainsi le nom de fichier complet `profile.jpg`. Prenez en compte que cette image sera publiée sur Internet et accessible à tous.
+Commencez par vous diriger vers le dossier `assets`. Supprimez l'image de profil du professeur que vous avez précédemment copié, et remplacez-la par votre propre image de profil. Il est impératif que cette image soit au format `.jpg` et qu'elle porte le nom `profile`, donnant ainsi le nom de fichier complet `profile.jpg`. Attention, cette image sera publiée sur Internet et accessible à tous.
 
 ![github](assets/fr/45.png)
 
@@ -304,7 +305,7 @@ Sur le logiciel GitHub Desktop, vous pouvez vous replacer sur la branche princip
 ![github](assets/fr/63.png)
 
 Si vous désirez apporter des modifications à votre contribution après avoir déjà soumis votre PR, la démarche à suivre dépend de l'état actuel de votre PR :
-- Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR ouverte ;
+- Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR encore ouverte ;
 - Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de PlanB Network avant de procéder.
 
 ## Étape 9 : Ajouter un nouveau tutoriel
@@ -416,7 +417,7 @@ Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tut
 
 ![github](assets/fr/80.png)
 
-Poursuivez la rédaction de votre tutoriel en écrivant votre contenu. Lorsque vous souhaitez intégrer un sous-titre, appliquez le formatage markdown adéquat en préfixant le texte du sous-titre avec `##`.
+Poursuivez la rédaction de votre tutoriel en écrivant votre contenu. Lorsque vous souhaitez intégrer un sous-titre, appliquez le formatage markdown adéquat en préfixant le texte avec `##`.
 
 ![github](assets/fr/81.png)
 
@@ -428,7 +429,7 @@ Lors de l'ajout d'éléments visuels dans votre tutoriel, veillez à sélectionn
 
 Si votre visuel comporte du texte, tel qu'un schéma, il est conseillé de le traduire dans les six langues proposées (allemand, anglais, français, italien, espagnol et portugais) et de placer chaque version traduite dans son sous-dossier linguistique dédié au sein du dossier `assets`.
 
-Les images doivent être numérotées séquentiellement selon leur ordre d'apparition dans le tutoriel. Ainsi, le premier visuel sera nommé `1.jpeg`, le second `2.jpeg`, et ainsi de suite.
+Les images doivent être numérotées séquentiellement selon leur ordre d'apparition dans le tutoriel. Ainsi, le premier visuel sera nommé `1.jpeg`, le second `2.jpeg`, et ainsi de suite. Vous pouvez utiliser différents formats d'images tels que `jpeg`, `png` ou encore `webp`.
 ![github](assets/fr/83.png)
 Une fois que vous avez terminé la rédaction de votre tutoriel dans la langue de votre choix, l'étape suivante consiste à soumettre une Pull Request. L'administrateur se chargera ensuite d'ajouter les cinq traductions manquantes de votre tutoriel, grâce à notre méthode de traduction automatisée. Pour procéder à la Pull Request, ouvrez le logiciel GitHub Desktop. Ce dernier devrait automatiquement détecter les modifications que vous avez effectuées localement par rapport au dépôt d'origine. Avant de continuer, vérifiez soigneusement sur la partie gauche de l'interface que ces modifications correspondent bien à ce que vous attendiez.
 
@@ -463,5 +464,5 @@ Sur le logiciel GitHub Desktop, vous pouvez vous replacer sur la branche princip
 ![github](assets/fr/63.png)
 
 Si vous désirez apporter des modifications à votre contribution après avoir déjà soumis votre PR, la démarche à suivre dépend de l'état actuel de votre PR :
-- Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR ouverte ;
+- Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications localement en restant sur la même branche. Une fois les modifications finalisées, utilisez le bouton `Push origin` pour ajouter un nouveau commit à votre PR encore ouverte ;
 - Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre dépôt local soit synchronisé avec le dépôt source de PlanB Network avant de procéder.

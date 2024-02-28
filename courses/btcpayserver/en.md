@@ -1,6 +1,6 @@
 # Bitcoin and BTCPay Server
 
-Introduction Course BTCPay Server Operator.
+Introduction Course BTCPay Server Operator
 
 AN UNFINISHED STORY
 
@@ -26,7 +26,6 @@ After the words spoken by Nicolas, it was time to start building. Lots of work w
 
 What does open source mean, and what goes into such a project?
 FOSS stands for Free & Open-Source Software. The former refers to terms that allow anyone to copy, modify, and even distribute versions (even for profit) of the software. The latter refers to openly sharing the source code, encouraging the public to contribute and improve it.
-
 This brings in experienced users enthusiastic about contributing to the software they already use and derive value from, proving over time to win out in adoption over proprietary software. It is consistent with the Bitcoin ethos that “information longs to be free.” It brings together passionate people who form a community and is simply more fun. Like Bitcoin, FOSS is inevitable.
 
 ### Before we begin.
@@ -82,7 +81,7 @@ Customers buys a product from the store with Bitcoin.
 
 **Scenario 1 - Traditional Banking System**
 - Set up:
-    - See diagrams/explainer in the attached Figjam - Activity Schematic.
+    - See diagrams/explainer in the attached Figjam - [Activity Schematic](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
     - Get three student volunteers to play the roles of Customer (Alice), Merchant (Bob), and Bank. 
 - Act out the sequence of events:
     - Customer- browsing the store online and finds an item for $25 which they want, and informs the Merchant they would like to purchase
@@ -164,11 +163,12 @@ Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Pr
 
 **Creating a new store**
 
+## Objective 2.1;
 ## Working with BTCPay Server;
 
 The objective of this course block will be to have a general understanding of BTCPay Server software. In a shared environment, it’s recommended to follow the instructor’s demonstration and follow along with the BTCPay Server Coursebook to follow the teacher. You will learn how to create a wallet through multiple methods. Examples include Hot wallet setups and hardware wallets connected through BTCPay Server Vault. These objectives occur in the Demo environment, displayed and given access to by your course instructor.
 
-If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https:// directory.btcpayserver.org/filter/hosts. We strongly advise against using these third- party options as production environments, but they serve the right purposes for an introduction to using Bitcoin and BTCPay Server.
+If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https://directory.btcpayserver.org/filter/hosts. We strongly advise against using these third-party options as production environments, but they serve the right purposes for an introduction to using Bitcoin and BTCPay Server.
 
 As a BTCPay Server rockstar trainee, you might have previous experience setting up a Bitcoin node. This course will talk specifically tailored to the BTCPay Server Software stack.
 
@@ -176,17 +176,19 @@ Many of the options in BTCPay Server exist in some form or another in other Bitc
 
 ## BTCPay Server Login screen.
 
-![image](assets/en/0.jpeg)
 As you are welcomed to the Demo environment, you are asked to ‘Login’ or ‘Create your account.’ Server administrators might turn off the feature of creating new accounts for security reasons. BTCPay Server logos and button colors can be changed because BTCPay Server is Open Source Software. A Third-party host can White-label the software and change the entire look.
+
+![image](assets/en/0.jpeg)
 
 ## Create an Account window.
 
-![image](assets/en/1.png)
 Creating accounts on BTCPay Server requires valid Email address strings; example@email.com would be a valid string for Email.
 
 Password need to be at least 8 characters long, including letters, numbers, and characters. After setting the password once, you will have to verify the typed password to make sure it’s correct to what was typed in the first password field.
 
 When both the Email and Password fields are properly filled in, click on the ‘Create Account’ button. This will save the Email and password on the instructor’s BTCPay Server instance.
+
+![image](assets/en/1.png)
 
 **!Note!**
 
@@ -223,6 +225,7 @@ In this section, you learned the following:
 
 Give reasons why using a Demo Server is a bad idea for production purposes: _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Objective 2.2;
 ## Account Management on BTCPay Server
 
 After a store owner has created their account, they can manage it in the Bottom Left of the BTCPay Server UI. Underneath the Account button, there are multiple higher-level settings.
@@ -230,13 +233,13 @@ After a store owner has created their account, they can manage it in the Bottom 
 - Hide Sensitive Info toggle.
 - Manage Account.
 
+![image](assets/en/3.png)
+
 ## Dark and Light mode.
 
 Users of BTCPay Server can choose between a Light or Dark mode version of the UI. Customer- facing pages won’t change. They use customer- preferred settings regarding dark or light mode.
 
 ## Hide Sensitive info toggle.
-
-![image](assets/en/3.png)
 
 The hide sensitive info button brings a quick and simple layer of security. Whenever you need to operate your BTCPay Server, but there might be people lurking over your shoulder in a public space, turn on Hide Sensitive Info, and all the values in BTCPay Server will be hidden. One might be able to look over your shoulder but can no longer see the values you are dealing with.
 
@@ -294,6 +297,7 @@ In this section, you learned the following:
 ## KA 2.2 Conceptual Review
 Describe how app-based 2FA helps secure your account: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Objective 2.3:
 ## Create your store wizard.
 
 When a new user logs into BTCPay Server, the environment is empty and needs a first store. The introduction wizard of BTCPay Server will give the user the option to ‘Create your store’ (1). A Store can be seen as a Home for your Bitcoin needs. A new BTCPay Server Node will start with Synching the Bitcoin Blockchain (2). Depending on what infrastructure you run BTCPay Server on, this can range from a few hours to a few days. The instance's current version is shown in the bottom right corner of your BTCPay Server UI. This is useful for reference when troubleshooting.
@@ -2559,3 +2563,28 @@ FOSS is inevitable.
 |Software Stack|In computing, a solution stack or software stack is a set of software subsystems or components needed to create a complete platform such that no additional software is needed to support applications|
 |Store|A store within BTCPay Server can be seen as a "Home" to a specific bitcoin wallet, extending with all the features of BTCPay Server.|
 |Store Settings|Settings within BTCPay Server specific to a store.|
+|Taproot|Upgrade to Bitcoin which would introduced several new features. The upgrade is described in BIPs 340, 341, and 342, and introduces the Schnorr signature scheme, Taproot, and Tapscript. Together, these upgrades introduce new, more efficient, flexible, and private ways of transferring bitcoin.|
+|Thier's Law|Law which states that good money will drive out bad money.|
+|Third-Party Host|When a website for an individual or company is run off of servers owned and managed by another business. The alternative is to have your website hosted on your servers in your own data center.|
+|Timelock|A timelock is a type of encumbrance that restricts the spending of some bitcoin until a specified future time or block height. Timelocks feature prominently in many Bitcoin contracts, including payment channels and HTLCs.|
+|Topology|The topology of the Lightning Network describes the shape of the Lightning Network as a mathematical graph. Nodes of the graph are the Lightning nodes (network participants/peers). The edges of the graph are the payment channels. The topology of the Lightning Network is publicly broadcast with the help of the gossip protocol, with the exception of unannounced channels. This means that the Lightning Network may be significantly larger than the announced number of channels and nodes. Knowing the topology is of particular interest in the source-based routing process of payments in which the sender discovers a route.|
+|Transaction|Transactions are data structures used by Bitcoin to transfer bitcoin from one address to another. Several thousand transactions are aggregated in a block, which is then recorded (mined) on the blockchain. The first transaction in each block, called the coinbase transaction, generates new bitcoin.|
+|Transaction ID|A string of letters and numbers that identifies a specific transaction on the blockchain. The string is simply the double SHA-256 hash of a transaction. This hash can be used to look up a transaction on a node or block explorer.|
+|Two Factor Authentication (2FA)|An identity and access management security method that requires two forms of identification to access resources and data, often with a secondary device in addition to the standard login password.|
+|Uncensorable|Property that no entity has the ability to reverse a Bitcoin transaction or blacklist a wallet or address.|
+|Unconfiscatable|Property that no entitty can take bitcoin from an entity against their will.|
+|Unspent Transaction Outputs (UTXO)|Outputs not yet spent, thus available to be spent in new transactions.|
+|User Experience (UX)|How a user interacts with and experiences a product, system or service. It includes a person's perceptions of utility, ease of use, and efficiency.|
+|User Interface (UI)|The point of human-computer interaction and communication in a device.|
+|Vefitiable|Property of a good which can be easily differentiated from impostors and counterfeits.|
+|Virtual|Being on or simulated on a computer or computer network.|
+|Virtual machine (VM)|In computing, a virtual machine is the virtualization or emulation of a computer system. Virtual machines are based on computer architectures and provide the functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination of the two.|
+|Virtual Private Server|A virtual private server is a virtual machine sold as a service by an Internet hosting service. The term "virtual dedicated server" also has a similar meaning. A virtual private server runs its own copy of an operating system, and customers may have superuser-level access to that operating system instance, so they can install almost any software that runs on that OS|
+|Volatility|Measure of the degree of variation in an asset’s price over time. Assets that experience large changes in price regularly are more volatile, whereas assets that have a more stable price are less volatile.|
+|Wallet|Bitcoin wallets hold a user’s keys, allowing users to receive bitcoin, sign transactions, and check their account balance. The private and public keys held in a bitcoin wallet serve two distinct functions, but are tied together in creation. Bitcoin wallets contain a user’s keys, not their actual bitcoin. Conceptually, a wallet is like a keychain in the sense that it holds many pairs of private and public keys. These keys are used to sign transactions, allowing a user to prove they own transaction outputs on the blockchain, i.e. their bitcoin. All bitcoin is recorded on the blockchain in the form of transaction outputs.|
+|Wasabi Wallet|An open-source, non-custodial, privacy-focused Bitcoin wallet for Desktop that implements trustless CoinJoin.|
+|Watch-Only Wallet|Bitcoin wallets that allow you to keep track of your bitcoin in cold storage while disabling the ability to spend funds. This is because watch-only wallets do not store or use private keys, and are therefore unable to authorize any spends on behalf of the user.|
+|Whale|Within the context of Bitcoin, a whale is someone who holds a large amount of bitcoin.|
+|White-Label|A white-label product is a product or service produced by one company that other companies rebrand to make it appear as if they had made it.|
+|Whitepaper|Introduces a new idea or topic for discussion. The Bitcoin whitepaper introduced Bitcoin as a “Peer-to-peer electronic cash system” which “required no trusted third parties”. Satoshi Nakamoto released the whitepaper on October 31, 2008 to an email list of cryptographers and cypherpunks.|
+|Wrapped Segwit|A design implementation included in the SegWit upgrade meant to enable wallets and other Bitcoin software to more easily support SegWit. In order to achieve this, the two native SegWit scripts, P2WPKH and P2WSH, are used as the “redeemScript” of a P2SH transaction, yielding wrapped SegWit script types of P2SH-P2WPKH and P2SH-P2WSH respectively.|

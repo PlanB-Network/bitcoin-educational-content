@@ -21,7 +21,7 @@ Exemple d'une transaction coinjoin :
 
 Afin de réaliser un coinjoin tout en garantissant que chaque utilisateur conserve le contrôle sur ses fonds à tout moment, le processus débute par la construction de la transaction par un coordinateur, qui la transmet ensuite à chaque participant. Chaque utilisateur procède alors à la signature de la transaction après avoir vérifié que celle-ci lui convient. Toutes les signatures collectées sont finalement intégrées à la transaction. Si une tentative de détournement des fonds est effectuée par un utilisateur ou le coordinateur, par le biais d'une modification des outputs de la transaction coinjoin, les signatures se révéleront invalides, ce qui conduira au rejet de la transaction par les nœuds.
 
-Il existe plusieurs implémentions de coinjoin, telles que Whirlpool, JoinMarket ou Wabisabi, chacune ayant pour objectif de gérer la coordination entre les participants et d'accroître l'efficacité des transactions coinjoin.
+Il existe plusieurs implémentations de coinjoin, telles que Whirlpool, JoinMarket ou Wabisabi, chacune ayant pour objectif de gérer la coordination entre les participants et d'accroître l'efficacité des transactions coinjoin.
 
 Dans ce tutoriel, nous nous pencherons sur mon implémentation préférée : Whirlpool, qui est disponible sur Samourai Wallet et Sparrow Wallet. C'est selon moi l'implémentation la plus efficace pour les coinjoins sur Bitcoin.
 
@@ -34,7 +34,7 @@ Inversement, il faut qu'un analyste connaissant votre UTXO à la sortie des cycl
 ![coinjoin](assets/fr/3.webp)
 Pour évaluer la difficulté pour un analyste de lier le passé au présent et vice-versa, il faut quantifier la taille des groupes au sein desquels votre pièce est dissimulée. Cette mesure nous indique le nombre d'analyses possédant une probabilité identique. Ainsi, si l'analyse correcte est noyée parmi 3 autres analyses de probabilité égale, votre niveau de dissimulation est très faible. En revanche, si l'analyse correcte se trouve au sein d'un ensemble de 20 000 analyses toutes aussi probables les unes que les autres, votre pièce est très bien cachée.
 
-Et justement, la taille de ces groupes, ce sont des indicateurs que l'on appelle les "anonsets".
+Et justement, la taille de ces groupes représente des indicateurs que l'on appelle les "anonsets".
 
 ## Comprendre les anonsets
 Les anonsets servent d'indicateurs pour évaluer le degré de confidentialité d'un UTXO particulier. Plus spécifiquement, ils mesurent le nombre d'UTXO indistinguables au sein de l'ensemble qui inclut la pièce étudiée. L'exigence d'un ensemble d'UTXO homogènes fait que les anonsets sont habituellement calculés sur des cycles de coinjoins. L'utilisation de ces indicateurs est particulièrement pertinente pour les coinjoins Whirlpool en raison de leur uniformité.
@@ -51,15 +51,15 @@ Cette métrique permet d'estimer dans quelle mesure votre UTXO est protégé con
 
 Par exemple, si votre transaction a participé à son premier cycle de coinjoin et que deux autres cycles descendants ont été réalisés, l'anonset prospectif de votre pièce s'élèverait à `13` :
 ![coinjoin](assets/fr/5.webp)
-Le second indique le nombre de sources possibles pour une pièce donnée, sachant l'UTXO en sortie de cycle. Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse présent vers passé (sortie vers entrée), c'est-à-dire à quel point il est difficile pour un analyste de remonter à l'origine de votre pièce, après qu'elle est passée dans des coinjoins. En anglais, le nom de cet indicateur est « *backward anonset* », ou « *backward-looking metrics* ».
+Le second indique le nombre de sources possibles pour une pièce donnée, sachant l'UTXO en sortie de cycle. Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse présent vers passé (sortie vers entrée), c'est-à-dire à quel point il est difficile pour un analyste de remonter à l'origine de votre pièce, avant les cycles de coinjoins. En anglais, le nom de cet indicateur est « *backward anonset* », ou « *backward-looking metrics* ».
 ![coinjoin](assets/fr/6.webp)
- En connaissant votre UTXO à la sortie des cycles, l'anonset rétrospectif détermine le nombre de transactions Tx0 potentielles qui auraient pu constituer votre entrée dans les cycles de coinjoins. Sur le schéma ci-dessous, cela correspond à l'addition de toutes les bulles oranges.
+ En connaissant votre UTXO à la sortie des cycles, l'anonset rétrospectif détermine le nombre de transactions Tx0 potentielles qui auraient pu constituer votre entrée dans les cycles de coinjoins. Sur le schéma ci-dessous, cela correspond à l'addition de toutes les bulles orange.
  ![coinjoin](assets/fr/7.webp)
 
 ## Calculer les anonsets avec Whirlpool Stats Tools (WST)
 Pour calculer ces indicateurs sur vos propres pièces qui sont passées dans des cycles de coinjoin, vous pouvez utiliser un outil spécialement développé par Samourai Wallet : *Whirlpool Stats Tools*.
 
-Si vous disposez d'un RoninDojo, WST est préinstallé sur votre nœud. Vous pouvez donc passer les étapes d'installations et suivre directement les étapes d'utilisation. Pour ceux qui ne disposent pas d'un nœud RoninDojo, voyons ensemble comment procéder à l'installation de cet outil sur un ordinateur.
+Si vous disposez d'un RoninDojo, WST est préinstallé sur votre nœud. Vous pouvez donc passer les étapes d'installation et suivre directement les étapes d'utilisation. Pour ceux qui ne disposent pas d'un nœud RoninDojo, voyons ensemble comment procéder à l'installation de cet outil sur un ordinateur.
 
 Vous aurez besoin de : Tor Browser (ou Tor), Python 3.4.4 ou supérieur, git et pip. Ouvrez un terminal. Afin de vérifier la présence et la version de ces logiciels sur votre système, saisissez les commandes suivantes :
 ```
@@ -166,7 +166,7 @@ Si l'on considère cette transaction comme le dernier coinjoin de la pièce, ell
 
 Outre les scores des anonsets, WST vous donne également le taux de diffusion de votre output dans la pool en fonction de l'anonset. Cet autre indicateur vous permet simplement de juger du potentiel d'amélioration de votre pièce. Ce taux est particulièrement utile pour l'anonset prospectif. En effet, si votre pièce a un taux de diffusion de 15 %, cela signifie qu'elle peut être confondue avec 15 % des pièces de la pool. C'est bien, mais vous avez encore une très large marge d'amélioration en continuant de remixer. En revanche, si votre pièce dispose d'un taux de diffusion de 95 %, alors vous êtes en train d'approcher des limites de la pool. Vous pouvez continuer de remixer, mais votre anonset ne va pas beaucoup augmenter.
 
-Il est important de noter que les anonsets calculés par WST ne sont pas d'une exactitude parfaite. Le volume de données à traiter étant considérable, WST utilise l'algorithme *HyperLogLogPlusPlus* pour réduire drastiquement la charge liée au traitement des données en local et la mémoire nécessaire. C'est un algorithme qui permet d'estimer le nombre de valeurs distinctes dans de très grands ensembles de données tout en conservant une grande précision dans le résultat. Les scores fournis en résultat sont donc suffisamment bons pour être utilisés dans vos analyses, car ce sont des estimations très proches de la réalité, mais ils ne doivent pas être interprétés comme des valeurs exactes à l'unité près.
+Il est important de noter que les anonsets calculés par WST ne sont pas d'une exactitude parfaite. Le volume de données à traiter étant énorme, WST utilise l'algorithme *HyperLogLogPlusPlus* pour réduire considérablement la charge liée au traitement des données en local et la mémoire nécessaire. C'est un algorithme qui permet d'estimer le nombre de valeurs distinctes dans de très grands ensembles de données tout en conservant une grande précision dans le résultat. Les scores fournis en résultat sont donc suffisamment bons pour être utilisés dans vos analyses, car ce sont des estimations très proches de la réalité, mais ils ne doivent pas être interprétés comme des valeurs exactes à l'unité près.
 
 Pour conclure, gardez à l'esprit qu'il n'est pas impératif de calculer systématiquement les anonsets pour chacune de vos pièces en coinjoins. La conception même de Whirlpool vous apporte déjà des garanties. En effet, l'anonset rétrospectif constitue rarement un sujet de préoccupation. Dès votre mix initial, vous obtenez un score rétrospectif particulièrement élevé grâce à l'héritage des mix précédents depuis le coinjoin Genesis. Concernant l'anonset prospectif, il suffit de conserver votre pièce dans le compte post-mix pendant une durée suffisamment importante.
 

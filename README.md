@@ -60,6 +60,7 @@ with $R$ the reward, $B$ the base fee (currently 2,500 sats), $U$ the review urg
 | Portuguese | PT            | 1.0               | `portuguese-translation-and-review`    |
 | Spanish    | ES            | 1.5               | `spanish-translation-and-review`       |
 | Danish     | DA            | 2.0               | `danish-translation-and-review`        |
+| Finish     | FI            | 2.0               | `finnish-translation-and-review`        |
 | Dutch      | NL            | 1.5               |           Not yet created              |
 | Greek      | EL            | 2.5               |           Not yet created              |
 | Hindi      | HI            | 3.0               |           Not yet created              |

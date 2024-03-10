@@ -14,7 +14,7 @@ In questo tutorial, studieremo il concetto di anonset, indicatori che ci permett
 Le transazioni coinjoin migliorano la privacy degli utenti Bitcoin complicando l'analisi della catena per gli osservatori esterni. La loro struttura consente di unire più monete da diversi utenti in una singola transazione, oscurando così le tracce e rendendo difficile determinare i collegamenti tra gli indirizzi di input e output.
 
 Il principio del coinjoin si basa su un approccio collaborativo: diversi utenti che desiderano mescolare i loro bitcoin depositano importi identici come input della stessa transazione. Questi importi vengono poi ridistribuiti in output di valore equivalente. Al termine della transazione, diventa impossibile associare un output specifico a un dato utente. Non esiste un collegamento diretto tra gli input e gli output, rompendo così l'associazione tra gli utenti e i loro UTXO, così come la storia di ogni moneta.
-![coinjoin](assets/1.png)
+![coinjoin](assets/1.webp)
 
 Esempio di una transazione coinjoin:
 [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
@@ -69,7 +69,7 @@ Una volta installati tutti questi software, da un terminale, clona il repository
 ```
 git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
 ```
-![WST](assets/8.png)
+![WST](assets/8.webp)
 Naviga nella directory WST:
 ```
 cd whirlpool_stats
@@ -79,7 +79,7 @@ Installa le dipendenze:
 ```
 pip3 install -r ./requirements.txt
 ```
-![WST](assets/9.png)
+![WST](assets/9.webp)
 Puoi anche installarle manualmente (opzionale):
 ```
 pip install PySocks
@@ -99,7 +99,7 @@ Avvia WST:
 ```
 python3 wst.py
 ```
-![WST](assets/10.png)
+![WST](assets/10.webp)
 Avvia Tor o Tor Browser in background.
 
 **-> Per gli utenti RoninDojo, potete riprendere il tutorial direttamente qui.**
@@ -115,19 +115,19 @@ socks5 127.0.0.1:9150
 ```
 
 Questa manipolazione ti permetterà di scaricare dati su OXT tramite Tor, per non divulgare informazioni sulle tue transazioni. Se sei un principiante e questo passaggio ti sembra complesso, sappi che si tratta semplicemente di indirizzare il tuo traffico internet attraverso Tor. Il metodo più semplice consiste nel lanciare il Tor Browser in background sul tuo computer, poi eseguire solo il secondo comando per connettersi tramite questo browser (`socks5 127.0.0.1:9150`).
-![WST](assets/11.png)
+![WST](assets/11.webp)
 Successivamente, naviga nella directory di lavoro da cui intendi scaricare i dati WST utilizzando il comando `workdir`. Questa cartella servirà per memorizzare i dati transazionali che recupererai da OXT sotto forma di file `.csv`. Queste informazioni sono essenziali per calcolare gli indicatori che stai cercando di ottenere. Sei libero di scegliere la posizione di questa directory. Potrebbe essere saggio creare una cartella specificamente per i dati WST. Come esempio, optiamo per la cartella dei download. Se stai utilizzando RoninDojo, questo passaggio non è necessario:
 ```
 workdir path/to/your/directory
 ```
 
 Il prompt dei comandi dovrebbe poi cambiare per indicare la tua directory di lavoro.
-![WST](assets/12.png)
+![WST](assets/12.webp)
 Poi scarica i dati dal pool contenente la tua transazione. Ad esempio, se sono nel pool `100,000 sats`, il comando è:
 ```
 download 0001
 ```
-![WST](assets/13.png)
+![WST](assets/13.webp)
 I codici di denominazione su WST sono i seguenti:
 - Pool 0,5 bitcoin: `05`
 - Pool 0,05 bitcoin: `005`
@@ -139,7 +139,7 @@ load 0001
 ```
 
 Questo passaggio richiede alcuni minuti a seconda del vostro computer. Ora è un buon momento per prepararsi un caffè! :)
-![WST](assets/14.png)
+![WST](assets/14.webp)
 Dopo aver caricato i dati, digitate il comando `score` seguito dal vostro TXID (identificativo della transazione) per ottenere i suoi anonset:
 ```
 score TXID
@@ -148,7 +148,7 @@ score TXID
 **Attenzione**, la scelta del TXID da utilizzare varia a seconda dell'anonset che si desidera calcolare. Per valutare l'anonset prospettico di una moneta, è necessario inserire, tramite il comando `score`, il TXID corrispondente al suo primo coinjoin, che è il mix iniziale effettuato con questo UTXO. D'altra parte, per determinare l'anonset retrospettivo, è necessario inserire il TXID dell'ultimo coinjoin effettuato. Per riassumere, l'anonset prospettico viene calcolato dal TXID del primo mix, mentre l'anonset retrospettivo viene calcolato dal TXID dell'ultimo mix.
 
 WST mostra quindi il punteggio retrospettivo (*Metriche retrospettive*) e il punteggio prospettico (*Metriche prospettiche*). Ad esempio, ho preso il TXID di una moneta casuale su Whirlpool che non mi appartiene.
-![WST](assets/15.png)
+![WST](assets/15.webp)
 La transazione in questione: [7fe6081fa4f4382be629fb2ef59029d058a22b6fd59cb31d1511fe9e0e7f32be](https://mempool.space/tx/7fe6081fa4f4382be629fb2ef59029d058a22b6fd59cb31d1511fe9e0e7f32be)
 
 Se consideriamo questa transazione come il primo coinjoin effettuato per la moneta in questione, allora essa beneficia di un anonset prospettico di `86.871`. Ciò significa che è nascosta tra `86.871` monete indistinguibili. Per un osservatore esterno che conosce questa moneta all'inizio dei cicli di coinjoin e tenta di tracciare il suo output, si troverà di fronte a `86.871` possibili UTXO, ognuno con una probabilità identica di essere la moneta cercata.

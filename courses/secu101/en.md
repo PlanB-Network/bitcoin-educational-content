@@ -95,7 +95,7 @@ Cookies are files created by websites to store information on your device. While
 
 There are two major families of browsers: those based on Chrome and those based on Firefox.
 Although both families offer a similar level of security, it is recommended to avoid Google Chrome browser due to its trackers. Lighter alternatives to Chrome, such as Chromium or Brave, may be preferred. Brave is particularly recommended for its built-in ad blocker. It may be necessary to use multiple browsers to access certain websites.
-![](courses/secu101/assets/fr/6.png)
+![](courses/secu101/assets/en/6.png)
 ### Private browsing, TOR, and other alternatives for more secure and anonymous browsing
 
 Private browsing, although it does not hide browsing from your internet service provider, allows you to not leave local traces on your computer. Cookies are automatically deleted at the end of each session, allowing you to accept all cookies without being tracked. Private browsing can be useful when purchasing online services, as websites track our search habits and adjust prices accordingly. However, it is important to note that private browsing is recommended for temporary and specific sessions, not for general internet browsing.
@@ -103,7 +103,7 @@ Private browsing, although it does not hide browsing from your internet service 
 A more advanced alternative is the TOR (The Onion Router) network, which offers anonymity by masking the user's IP address and allowing access to the Darknet. TOR Browser is a browser specifically designed to use the TOR network. It allows you to visit both conventional websites and .onion websites, which are typically operated by individuals and may be of an illegal nature.
 
 TOR is legal and is used by journalists, freedom activists, and others wishing to escape censorship in authoritarian countries. However, it is important to understand that TOR does not secure the visited sites or the computer itself. Additionally, using TOR can slow down the internet connection as data passes through three other people's computers before reaching its destination. It is also essential to note that TOR is not a foolproof solution to guarantee 100% anonymity and should not be used for illegal activities.
-![](courses/secu101/assets/fr/7.png)
+![](courses/secu101/assets/en/7.png)
 ### BRAVE
 
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
@@ -122,7 +122,7 @@ Protecting your internet connection is a crucial aspect of online security, and 
 There are two main types of VPNs: enterprise VPNs and consumer VPNs, such as NordVPN. Enterprise VPNs tend to be more expensive and complex, while consumer VPNs are generally more accessible and user-friendly. For example, NordVPN allows users to connect to the internet through a server located in another country, which can bypass geographical restrictions.
 
 However, using a consumer VPN does not guarantee complete anonymity. Many VPN providers retain information about their users, which can potentially compromise their anonymity. Although VPNs can be useful for improving online security, they are not a universal solution. They are effective for certain specific uses, such as accessing geographically limited services or improving security while traveling, but they do not guarantee total security. When choosing a VPN, it is essential to prioritize reliability and technicality over popularity. VPN providers that collect the least personal information are generally the safest. Services like iVPN and Mullvad do not collect personal information and even allow payments in Bitcoin for increased privacy.
-![](courses/secu101/assets/fr/9.png)
+![](courses/secu101/assets/en/9.png)
 Finally, a VPN can also be used to block online advertisements, providing a more enjoyable and secure browsing experience. However, it is important to do your own research to find the VPN that best suits your specific needs. Using a VPN is recommended to enhance security, even when browsing the internet at home. This helps ensure a higher level of security for exchanged data online. Finally, make sure to check the URLs and the small padlock in the address bar to confirm that you are on the site you intend to visit.
 
 ### HTTPS & public Wi-Fi networks'
@@ -152,11 +152,11 @@ The security of our computers is a major concern in today's digital world. Today
 ### Choosing the Computer and Operating System
 
 Regarding the choice of the computer, there is no significant difference in security between old and new computers. However, security differences exist between operating systems: Windows, Linux, and Mac.
-![](courses/secu101/assets/fr/11.png)
+![](courses/secu101/assets/en/11.png)
 Regarding Windows, it is recommended not to use an administrator account on a daily basis, but rather to create two separate accounts: an administrator account and an account for daily use. Windows is often more exposed to malware due to its large number of users and the ease of switching from user to administrator. On the other hand, threats are less common on Linux and Mac.
 
 The choice of operating system should be based on your needs and preferences. Linux systems have evolved considerably in recent years, becoming more and more user-friendly. Ubuntu is an interesting alternative for beginners, with an easy-to-use graphical interface. It is possible to partition a computer to experiment with Linux while keeping Windows, but this can be complex. It is often preferable to have a dedicated computer, a virtual machine, or a USB key to test Linux or Ubuntu.
-![](courses/secu101/assets/fr/12.png)
+![](courses/secu101/assets/en/12.png)
 
 ### Software Updates
 
@@ -175,7 +175,7 @@ To give you a concrete example of an error: cracked software that cannot be upda
 
 The choice and implementation of an anti-virus is important. Windows Defender, the built-in antivirus in Windows, is a safe and effective solution. For a free solution, it is extremely good and much better than many free solutions found online. Indeed, caution should be exercised with antivirus downloaded from the Internet, as they can be malicious or outdated.
 For those who wish to invest in a paid antivirus, it is recommended to choose an antivirus that intelligently analyzes unknown and emerging threats, such as Kaspersky. Antivirus updates are essential to protect against new threats.
-![](courses/secu101/assets/fr/13.png)
+![](courses/secu101/assets/en/13.png)
 > Note: Linux and Mac, thanks to their user rights separation system, often do not need antivirus.
 
 Finally, here are some good practices for the security of your computer and data. It is important to choose an effective and user-friendly antivirus. It is also crucial to adopt good practices on your computer, such as not inserting unknown or suspicious USB keys. These USB keys may contain malicious programs that can automatically launch upon insertion. Checking the USB key will be useless once it has been inserted. Some companies have been victims of hacking due to USB keys carelessly left in accessible areas, such as a parking lot.
@@ -209,7 +209,7 @@ The golden rule here is to carefully check the full name of the sender as well a
 ### Ransomware and types of cyber attacks:
 
 Ransomware is a type of malicious software that encrypts user data and demands a ransom to decrypt it. This type of attack is becoming increasingly common and can be very troublesome for a company or an individual. To protect yourself, it is imperative to create backups of the most sensitive files! This will not stop the ransomware, but it will allow you to simply ignore it.
-![](courses/secu101/assets/fr/14.png)
+![](courses/secu101/assets/en/14.png)
 Regularly back up your important data to an external storage device or a secure online storage service. This way, in the event of a cyber attack or hardware failure, you can recover your data without losing crucial information.
 
 Simple solution:
@@ -239,7 +239,7 @@ Although we all already have an email account, it is important to consider creat
 ### Choosing an email provider and managing email addresses
 
 Proper management of our email addresses is crucial to ensure the security of our online access. It is important to choose a secure and privacy-respecting email provider. For example, ProtonMail is a secure and privacy-respecting email service.
-![](courses/secu101/assets/fr/15.png)
+![](courses/secu101/assets/en/15.png)
 When choosing an email provider and creating a password, it is essential to never reuse the same password for different online services. It is recommended to regularly create new email addresses and separate uses by using different email addresses. It is preferable to opt for a secure email service for critical accounts. It should also be noted that some services limit the length of passwords, so it is important to be aware of this limitation. Services are also available for creating temporary email addresses, which can be used for limited-duration accounts.
 
 It is important to consider that older email providers such as La Poste, Arobase, Wig, Hotmail, are still used, but their security practices may not be as good as those of Gmail. Therefore, it is recommended to have two separate email addresses, one for general communications and the other for account recovery, with the latter being better secured. It is best to avoid mixing the email address with your phone operator or internet service provider, as this can be an attack vector.
@@ -247,7 +247,7 @@ It is important to consider that older email providers such as La Poste, Arobase
 ### Should I change my email account?
 
 It is advisable to use the website Have I Been Pwned (https://haveibeenpwned.com/) to check if our email address has been compromised and to be notified of future data breaches. A hacked database can be exploited by hackers to send phishing emails or reuse compromised passwords.
-![](courses/secu101/assets/fr/16.png)
+![](courses/secu101/assets/en/16.png)
 In general, starting to use a new, more secure email address is not a bad practice and even necessary if one wants to start fresh on a healthy basis.
 Bonus Bitcoin: It may be advisable to create a specific email address for our Bitcoin activities (creating exchange accounts) in order to truly separate the areas of activity in our lives.
 
@@ -268,13 +268,13 @@ With a password manager, you no longer have to worry about forgetting your passw
 - LastPass: One of the most popular managers. It is a third-party service, which means your passwords are stored on their servers. It offers a free version and a paid version, with a user-friendly interface.
 
 - Dashlane: It is also a third-party service, with an intuitive interface and additional features such as tracking credit card information and secure notes.
-![](courses/secu101/assets/fr/17.png)
+![](courses/secu101/assets/en/17.png)
 ### Self-hosting for more control:
 
 - Bitwarden: It is an open-source tool, which means you can review its code to verify its security. Although Bitwarden offers a hosted service, it also allows users to self-host, which means you can control where your passwords are stored, potentially offering more security and control.
 
 - KeePass: It is an open-source solution that is primarily intended for self-hosting. Your data is stored locally by default, but you can synchronize the password database using different methods if you wish. KeePass is widely recognized for its security and flexibility, although it may be slightly less user-friendly for beginners.
-![](courses/secu101/assets/fr/18.png)
+![](courses/secu101/assets/en/18.png)
 (Note: Choosing between a third-party service or a self-hosted service depends on your level of technological comfort and how you prioritize control versus convenience. Third-party services are generally more convenient for most people, while self-hosting requires more technical knowledge but can offer more control and peace of mind in terms of security.)
 
 ### What makes a good password:
@@ -382,7 +382,7 @@ The constant evolution of threats requires regular monitoring of news and specia
 - Governance: ISO standards, GDPR/CCPA regulations.
 
 By mastering these skills and tools, you will be well-equipped to navigate the world of cybersecurity successfully.
-![](courses/secu101/assets/fr/20.png)
+![](courses/secu101/assets/en/20.png)
 ## Interview with Renaud
 
 ### Efficient Password Management and Authentication Strengthening: An Academic Approach
@@ -392,7 +392,7 @@ In the training module "Security 101" offered by Découvre Bitcoin within the Ac
 It is generally not recommended to use browser extensions for automatic password filling. These tools can make the user more vulnerable to phishing attacks. Renaud, a recognized expert in cybersecurity, prefers manual management using KeePass, which involves manually copying and pasting the password. Extensions tend to increase the attack surface, can slow down browser performance, and therefore present a significant risk. Thus, minimal usage of extensions on the browser is a recommended practice.
 
 Password managers generally encourage the use of additional authentication factors, such as two-factor authentication. For optimal security, it is advisable to keep OTPs (One-Time Passwords) on your mobile device. AndoTP offers an open-source solution for generating and storing OTP codes on your phone. While Google Authenticator allows exporting authentication code seeds, trust in backup on a Google account remains limited. Therefore, the OTI and AndoTP applications are recommended for autonomous OTP management.
-![](courses/secu101/assets/fr/21.png)
+![](courses/secu101/assets/en/21.png)
 The question of digital inheritance and digital mourning raises the importance of having a procedure to transmit passwords after a person's death. A password manager facilitates this transition by securely storing all digital secrets in one place. The password manager also allows identifying all open accounts and managing their closure or transfer. It is recommended to write down the master password on paper, but it should be kept in a concealed and secure location. If the hard drive is encrypted and the computer is locked, the password will not be accessible, even in the case of burglary.
 
 ### Towards a Post-Password Era: Exploring Credible Alternatives

@@ -173,9 +173,10 @@ Pour conclure, gardez à l'esprit qu'il n'est pas impératif de calculer systém
 C'est la raison pour laquelle je considère l'utilisation de Whirlpool comme particulièrement pertinente dans une stratégie *Hodl -> Mix -> Spend -> Replace*. À mon avis, la démarche la plus logique consiste à conserver l'essentiel de son épargne en bitcoins dans un cold wallet, tout en maintenant en permanence un certain nombre de pièces en coinjoins sur Samourai pour pouvoir couvrir les dépenses quotidiennes. Une fois les bitcoins issus des coinjoins dépensés, ils sont remplacés par de nouveaux, afin de revenir au seuil de pièces en mix que l'on a défini. Cette méthode permet de se libérer de la préoccupation des anonsets de nos UTXO, tout en rendant le délai nécessaire à l'efficacité des coinjoins bien moins contraignant.
 
 **Ressources externes :** 
-- https://fountain.fm/episode/6nNoQEUHBCQR8hAXAkEx ;
-- https://en.wikipedia.org/wiki/HyperLogLog ;
-- https://code.samourai.io/whirlpool/whirlpool_stats ;
-- https://samouraiwallet.com/whirlpool ;
-- https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923 ;
-- https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+
+- [Podcast en Francąis sur l'analyse de chaîne](https://fountain.fm/episode/6nNoQEUHBCQR8hAXAkEx)
+- [Article wikipedia sur HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog)
+- [Repo de Samourai pour Whirlpool Stats](https://code.samourai.io/whirlpool/whirlpool_stats)
+- [Website de Whirlpool par Samourai](https://samouraiwallet.com/whirlpool)
+- [Article Medium en Anglais sur la vie privée et Bitcoin par Samourai](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923)
+- [Article Medium en Anglais sur le concept d'anonymity set par Samourai](https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7)

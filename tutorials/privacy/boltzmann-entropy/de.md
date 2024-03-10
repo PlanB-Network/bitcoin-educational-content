@@ -12,11 +12,11 @@ Dieses Python-Tool wurde von den Teams bei Samourai Wallet und OXT entwickelt, k
 Um den Boltzmann Calculator zu verwenden, stehen Ihnen zwei Optionen zur Verfügung. Die erste ist, das [Python-Tool](https://code.samourai.io/oxt/boltzmann) direkt auf Ihrem Gerät zu installieren. Alternativ können Sie sich für die Website [KYCP.org](https://kycp.org/#/) (_Know Your Coin Privacy_) entscheiden, die eine vereinfachte Nutzungsplattform bietet. Für [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2)-Nutzer, beachten Sie, dass dieses Tool bereits in Ihren Knoten integriert ist.
 
 Die Verwendung der KYCP-Seite ist ganz einfach: Geben Sie einfach den Transaktionsidentifikator (TXID), den Sie analysieren möchten, in die Suchleiste ein und drücken Sie `ENTER`.
-![KYCP](assets/1.png)
+![KYCP](assets/1.webp)
 Dann finden Sie verschiedene Informationen über die Transaktion, einschließlich der Verbindungen zwischen den Eingaben und Ausgaben. Klicken Sie auf `deterministische Verbindungen`.
-![KYCP](assets/2.png)
+![KYCP](assets/2.webp)
 Sie gelangen auf die Seite, die den Indikatoren des Boltzmann Calculators gewidmet ist.
-![KYCP](assets/3.png)
+![KYCP](assets/3.webp)
 Für diejenigen, die das Tool direkt von ihrem RoninDojo-Knoten aus verwenden möchten, ist es über `RoninCLI > Samourai Toolkit > Boltzmann Calculator` zugänglich.
 
 Für die lokale Verwendung auf Ihrem Computer sind spezifische Anweisungen für Ihr System unter dieser Adresse verfügbar: [https://code.samourai.io/oxt/boltzmann](https://code.samourai.io/oxt/boltzmann)
@@ -34,9 +34,9 @@ Drücken Sie dann die `ENTER`-Taste, um die Ergebnisse zu erhalten.
 Der erste Indikator, den die Software berechnet, ist die Gesamtzahl der möglichen Kombinationen, angegeben unter `nb combinations` oder `interpretations` im Tool.
 
 Unter Berücksichtigung der Werte der in der Transaktion beteiligten UTXOs berechnet dieser Indikator die Anzahl der Wege, auf denen die Eingaben den Ausgaben zugeordnet werden können. Mit anderen Worten, er bestimmt die Anzahl der plausiblen Interpretationen, die eine Transaktion aus der Perspektive eines externen Beobachters, der sie analysiert, hervorrufen kann.
-Zum Beispiel präsentiert ein Coinjoin, strukturiert nach dem Whirlpool 5x5-Modell, `1.496` mögliche Kombinationen: ![KYCP](assets/4.png)
-Ein Whirlpool Surge Cycle 7x7-Coinjoin bietet andererseits `9.934.563` mögliche Interpretationen: ![KYCP](assets/5.png)
-Im Gegensatz dazu wird eine traditionellere Transaktion mit 1 Eingabe und 2 Ausgaben nur eine einzige Interpretation präsentieren: ![KYCP](assets/6.png)
+Zum Beispiel präsentiert ein Coinjoin, strukturiert nach dem Whirlpool 5x5-Modell, `1.496` mögliche Kombinationen: ![KYCP](assets/4.webp)
+Ein Whirlpool Surge Cycle 7x7-Coinjoin bietet andererseits `9.934.563` mögliche Interpretationen: ![KYCP](assets/5.webp)
+Im Gegensatz dazu wird eine traditionellere Transaktion mit 1 Eingabe und 2 Ausgaben nur eine einzige Interpretation präsentieren: ![KYCP](assets/6.webp)
 
 ### Entropie:
 Der zweite berechnete Indikator ist die Entropie einer Transaktion, bezeichnet mit `Entropy`.

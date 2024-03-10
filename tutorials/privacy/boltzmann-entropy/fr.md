@@ -160,6 +160,8 @@ En reprenant l'exemple d'un coinjoin Whirlpool, le tableau des probabilités con
 | Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
+
 On voit bien ici que chaque entrée présente une chance égale d'être associée à n'importe quelle sortie, ce qui renforce la confidentialité de la transaction. 
 
 Le calcul du score de Boltzmann consiste à diviser le nombre d'interprétations dans lesquelles un certain événement se manifeste par le nombre total d'interprétations disponibles. Ainsi, pour déterminer le score associant l'entrée n°0 à la sortie n°3 (`512` interprétations), on procède de la manière suivante :
@@ -187,6 +189,8 @@ Cependant, dans le cas d'une transaction simple comportant un unique input et de
 | %       | Output 0 | Output 1 |
 |---------|----------|----------|
 | Input 0 | 100%     | 100%     |
+
+
 Ici, on constate que la probabilité pour chaque output d'être issu de l'input n°0 est de `100 %`. Une probabilité plus faible traduit ainsi une plus grande confidentialité, en diluant les liens directs entre les entrées et les sorties.
 
 ### Liens déterministes :
@@ -195,9 +199,10 @@ La sixième information fournie est le nombre de liens déterministes, complét�
 Par exemple, une transaction coinjoin de type Whirlpool ne présente aucun lien déterministe, et affiche par conséquent un indicateur et un ratio de `0 %`. À l'inverse, dans notre seconde transaction simple examinée (avec un input et deux outputs), l'indicateur s'établit à `2` et le ratio atteint `100 %`. Ainsi, un indicateur nul signale une excellente confidentialité grâce à l'absence de liaisons directes et incontestables entre entrées et sorties.
 
 **Ressources externes :**
-- https://code.samourai.io/oxt/boltzmann ;
-- https://gist.github.com/LaurentMT/e758767ca4038ac40aaf ;
-- https://gist.github.com/LaurentMT/d361bca6dc52868573a2 ;
-- https://gist.github.com/LaurentMT/e8644d5bc903f02613c6 ;
-- https://kycp.org/#/ ;
-- https://medium.com/@laurentmt/introducing-boltzmann-85930984a159.
+
+- [Code Boltzmann sur Samourai](https://code.samourai.io/oxt/boltzmann) 
+- [Bitcoin Transactions & Privacy (Part I) de Laurent MT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
+- [Bitcoin Transactions & Privacy (Part II) de Laurent MT](https://gist.github.com/LaurentMT/d361bca6dc52868573a2)
+- [Bitcoin Transactions & Privacy (Part III) de Laurent MT](https://gist.github.com/LaurentMT/e8644d5bc903f02613c6)
+- [Website de KYCP](https://kycp.org/#/)
+- [Article Medium sur une introduction au script Boltzmann par Laurent MT](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)

@@ -35,7 +35,7 @@ Der erste Indikator, den die Software berechnet, ist die Gesamtzahl der möglich
 
 Unter Berücksichtigung der Werte der in der Transaktion beteiligten UTXOs berechnet dieser Indikator die Anzahl der Wege, auf denen die Eingaben den Ausgaben zugeordnet werden können. Mit anderen Worten, er bestimmt die Anzahl der plausiblen Interpretationen, die eine Transaktion aus der Perspektive eines externen Beobachters, der sie analysiert, hervorrufen kann.
 Zum Beispiel präsentiert ein Coinjoin, strukturiert nach dem Whirlpool 5x5-Modell, `1.496` mögliche Kombinationen: ![KYCP](assets/4.webp)
-Ein Whirlpool Surge Cycle 7x7-Coinjoin bietet andererseits `9.934.563` mögliche Interpretationen: ![KYCP](assets/5.webp)
+Ein Whirlpool Surge Cycle 8x8-Coinjoin bietet andererseits `9.934.563` mögliche Interpretationen: ![KYCP](assets/5.webp)
 Im Gegensatz dazu wird eine traditionellere Transaktion mit 1 Eingabe und 2 Ausgaben nur eine einzige Interpretation präsentieren: ![KYCP](assets/6.webp)
 
 ### Entropie:
@@ -65,7 +65,7 @@ E = log2(1.496)
 E = 10,5469 Bits
 ```
 Somit zeigt diese Coinjoin-Transaktion eine Entropie von `10,5469 Bits`, was als sehr zufriedenstellend betrachtet wird. Je höher dieser Wert, desto mehr unterschiedliche Interpretationen lässt die Transaktion zu, wodurch ihr Datenschutzniveau gestärkt wird.
-Für eine 7x7-Coinjoin-Transaktion, die `9.934.563` Interpretationen bietet, wäre die Entropie:
+Für eine 8x8-Coinjoin-Transaktion, die `9.934.563` Interpretationen bietet, wäre die Entropie:
 ```
 C = 9.934.563
 E = log2(9.934.563)
@@ -128,11 +128,11 @@ E = 10.5469
 ED = 10.5469 / 10 = 1.054 Bits
 ```
 
-Berechnen wir auch die Entropiedichte für einen Whirlpool 7x7 Coinjoin:
+Berechnen wir auch die Entropiedichte für einen Whirlpool 8x8 Coinjoin:
 ```
-T = 7 + 7 = 14
+T = 8 + 8 = 16
 E = 23.244
-ED = 23.244 / 14 = 1.66 Bits
+ED = 23.244 / 16 = 1.453 bits
 ```
 
 ### Boltzmann-Score:
@@ -158,7 +158,7 @@ Gesamtinterpretationen = 1496
 Score = 512 / 1496 = 34%
 ```
 
-Nehmen wir das Beispiel eines Whirlpool 7x7 Coinjoin (Surge-Zyklus), würde die Boltzmann-Tabelle so aussehen:
+Nehmen wir das Beispiel eines Whirlpool 8x8 Coinjoin (Surge-Zyklus), würde die Boltzmann-Tabelle so aussehen:
 
 |       | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|

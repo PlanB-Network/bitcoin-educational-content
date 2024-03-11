@@ -35,7 +35,14 @@ Ainsi, la confidentialité sur Bitcoin est mise à mal lorsque des observateurs 
 
 ## Comment fonctionne Whirlpool ?
 
+Contrairement aux autres implémentations de coinjoin, Whirlpool se démarque par la construction de transactions « ZeroLink », c'est-à-dire avec strictement aucun lien technique possible entre tous les inputs et tous les outputs. Ce mixage parfait est rendu possible par une transaction coinjoin où chaque utilisateur dépose un même montant en input (modulo les frais de minage), qui ressortent en autant d'outputs de même montant.
 
+Avec ce type de construction restrictive sur les inputs, la transaction coinjoin de Whirlpool est la seule qui permette aux utilisateurs de disposer de 0 % de liens déterministes entre les inputs et les outputs. Cela signifie que chaque output a parfaitement la même probabilité d'appartenir à un utilisateur que tous les autres outputs de la transaction.
+
+Le nombre de participants à chaque mix Whirlpool était historiquement limité à 5, avec 2 entrants et 3 remixeurs (nous découvrirons plus tard en quoi cela consiste). 
+
+
+Toute transaction CoinJoin sur Whirlpool dispose donc toujours de 5 entrées et de 5 sorties.
 
 
 
@@ -67,15 +74,19 @@ Ainsi, la confidentialité sur Bitcoin est mise à mal lorsque des observateurs 
 ### Comment connaître la qualité de nos cycles de coinjoin ?
 
 
+
+
 ### Comment gérer le doxxic change ?
 
 
 
 
+
+
 **Ressources supplémentaires :** 
-- https://planb.network/tutorials/wallet/sparrow ;
-- https://planb.network/tutorials/wallet/samourai ;
-- https://docs.samourai.io/whirlpool/basic-concepts ;
-- https://twitter.com/SamouraiWallet/status/1489220847336308739 ;
-- https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin ;
-- https://bitcoinmagazine.com/technical/how-to-whirlpool-bitcoin-sparrow-wallet.
+- [Tutoriel vidéo Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow) ;
+- [Tutoriel vidéo Samourai Wallet](https://planb.network/tutorials/wallet/samourai) ;
+- [Documentation Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts) ;
+- [Thread Twitter sur les coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739) ;
+- [Article de blog sur les coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin) ;
+- [Tutoriel Bitcoin Magazine sur Whirlpool.](https://bitcoinmagazine.com/technical/how-to-whirlpool-bitcoin-sparrow-wallet)

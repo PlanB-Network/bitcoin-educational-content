@@ -3,7 +3,7 @@ name: RoninDojo
 
 description: Installieren und nutzen Sie Ihren eigenen Bitcoin RoninDojo-Knoten.
 ---
-**ACHTUNG: Obwohl dieses Tutorial für die Installation von RoninDojo v1 noch funktioniert, ermöglicht es nicht, Ihren Knoten auf RoninDojo v2 zu aktualisieren. Obwohl diese Version noch funktioniert, wird sie nicht mehr aktualisiert. Um von den neuesten Verbesserungen und Funktionen zu profitieren, empfehle ich Ihnen dringend, unser spezielles Tutorial für die direkte Installation von RoninDojo v2 auf Ihrem Raspberry Pi zu konsultieren:** [https://planb.network/tutorials/privacy/ronin-dojo-v2](https://planb.network/tutorials/privacy/ronin-dojo-v2)
+**ACHTUNG: Obwohl dieses Tutorial für die Installation von RoninDojo v1 noch funktioniert, ermöglicht es nicht, Ihren Knoten auf RoninDojo v2 zu aktualisieren. Obwohl diese Version noch funktioniert, wird sie nicht mehr aktualisiert. Um von den neuesten Verbesserungen und Funktionen zu profitieren, empfehle ich Ihnen dringend, unser spezielles Tutorial für die direkte Installation von RoninDojo v2 auf Ihrem Raspberry Pi zu konsultieren:** [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
 
 ---
 

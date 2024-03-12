@@ -3,7 +3,7 @@ name: RoninDojo
 
 description: Instalar e usar seu próprio nó Bitcoin RoninDojo.
 ---
-**ATENÇÃO: Embora este tutorial permaneça operacional para a instalação do RoninDojo v1, ele não permitirá que você atualize seu nó para o RoninDojo v2. Assim, embora esta versão continue funcional, ela não é mais atualizada. Para se beneficiar das últimas melhorias e funcionalidades, recomendo fortemente que consulte o nosso tutorial dedicado à instalação direta do RoninDojo v2 no seu Raspberry Pi:** [https://planb.network/tutorials/privacy/ronin-dojo-v2](https://planb.network/tutorials/privacy/ronin-dojo-v2)
+**ATENÇÃO: Embora este tutorial permaneça operacional para a instalação do RoninDojo v1, ele não permitirá que você atualize seu nó para o RoninDojo v2. Assim, embora esta versão continue funcional, ela não é mais atualizada. Para se beneficiar das últimas melhorias e funcionalidades, recomendo fortemente que consulte o nosso tutorial dedicado à instalação direta do RoninDojo v2 no seu Raspberry Pi:** [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
 
 ---
 

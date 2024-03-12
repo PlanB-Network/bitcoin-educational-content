@@ -1,3 +1,5 @@
+![image](assets/en/cover.png)
+
 # Bitcoin and BTCPay Server
 
 Introduction Course BTCPay Server Operator
@@ -24,7 +26,7 @@ After the words spoken by Nicolas, it was time to start building. Lots of work w
 
 <hr>
 
-What does open source mean, and what goes into such a project?
+What does open source mean, and what goes into such a project?<br>
 FOSS stands for Free & Open-Source Software. The former refers to terms that allow anyone to copy, modify, and even distribute versions (even for profit) of the software. The latter refers to openly sharing the source code, encouraging the public to contribute and improve it.
 This brings in experienced users enthusiastic about contributing to the software they already use and derive value from, proving over time to win out in adoption over proprietary software. It is consistent with the Bitcoin ethos that “information longs to be free.” It brings together passionate people who form a community and is simply more fun. Like Bitcoin, FOSS is inevitable.
 
@@ -107,7 +109,8 @@ Customers buys a product from the store with Bitcoin.
 - Update/Add records periodically with new transactions received from “random” computer provided all contents are valid (note: we are ignoring, for now, the Proof of Work component to all this, for simplicity), otherwise reject these and continue as before until the next “random” computer sends an update
     - The proper amount was rewarded if the contents were valid.
 - Act out the sequence of events:
-    - Customer- browsing the store online and finds an item for $25 which they want, and informs the Merchant they’d like to purchasK Q Merchant- asks for payment by sending the customer an invoice/address from their wallet.
+    - Customer- browsing the store online and finds an item for $25 which they want, and informs the Merchant they’d like to purchase
+    - Merchant- asks for payment by sending the customer an invoice/address from their wallet.
     - Customer- constructs a transaction (sending $25 worth of BTC to an address provided by Merchant) and broadcasts it to the Bitcoin Network.
 - Computers- receive the transaction and verify:
     - There is at least $25 of BTC in the address being sent from
@@ -362,6 +365,7 @@ In this section, you learned:
 
 **BTCPay Server Lightning Wallet**
 
+## Objective 3.1;
 ## What is involved in generating bitcoin keys ?
 
 Bitcoin wallets, when created, create a so-called “seed.” In the last objective, you created a “seed.” The series of words generated before are also known as mnemonic phrases. The seed is used to derive individual Bitcoin Keys from and used to send or receive Bitcoin. Seed phrases should never be shared with third parties or untrusted peers.
@@ -398,6 +402,7 @@ In this section, you learned the following:
 
 Describe the benefit of using fresh addresses for each transaction compared to address reuse or public key methods: ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Objective 3.2;
 ## Storing Bitcoin Keys.
 
 After generating a seed phrase, the list of 12 - 24 words generated in this book requires proper backups and security, as these words are the only way to recover access to a wallet. The structure of HD wallets and how it generates addresses deterministically using that one seed, all your created addresses will get backed up using this one list of mnemonic words representing your seed or recovery phrase.
@@ -432,6 +437,7 @@ Difference between hot and cold wallets: _______________________________________
 
 Describe what is meant by “generating a wallet”: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Objective 3.3;
 ## BTCPay Server Wallet.
 
 BTCPay Server consists of the following standard wallet features.
@@ -657,6 +663,7 @@ In this objective, you have learned how to generate a new Bitcoin wallet within 
 
 Describe a method for generating keys and a scheme for securing them, along with the trade-offs/risks of the security scheme: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Objective 3.4;
 ## BTCPay Server Wallet - Lightning
 
 When a server administrator provisions a new BTCPay Server instance, he can set up a lightning network implementation, LND, Core Lightning, or Eclair; see objective (6) for more detailed installation instructions.
@@ -716,9 +723,6 @@ Connecting the internal Lightning Node fails - If the internal connection fails,
 If you are unable to connect to your Lightning node, try restarting your server, or read for more details on BTCPay Server official documentation; https://docs.btcpayserver.org/Troubleshooting/ . You cannot accept lightning payments in your store until your Lightning node appears "Online". Try to test your Lightning connection by clicking the "Public Node Info" link
 
 ## Lightning wallet
-
-![image](assets/en/32.png)
-
 ### Lightning
 
 Within the Lightning wallet option in the left menu bar, server administrators will find easy access to RTL, their Public node Info, and Lightning settings specific to their BTCPay Server store.
@@ -726,6 +730,8 @@ Within the Lightning wallet option in the left menu bar, server administrators w
 ### Internal node info
 
 Server administrators can click on the internal node info and glance at their server status ( Online/ Offline) and connection string for Clearnet or Tor.
+
+![image](assets/en/32.png)
 
 ### Change connection.
 
@@ -842,6 +848,7 @@ Describe some of the various options for connecting a Lightning wallet to your s
 
 **BTCPay Server Payments**
 
+## Objective 4.1
 ## Dashboard overview
 
 BTCPay Server is a modular software package. However, there are standards that every BTCPay Server will have and the Administrator/users will interact with. Starting with the Dashboard. The main entry point of every BTCPay Server after logging in. The Dashboard gives an overview of how your store is performing, the wallet's current balance, and the last tx’s in the past 7 days. As it is a modular view, Plugins may utilize this view for their benefit and create their tiles on the Dashboard. For this course book, we will only talk about standard plugins/ apps and their respective views throughout BTCPay Server.
@@ -922,6 +929,7 @@ In this section, you learned the following:
 
 List as many tiles from memory as you can from the Dashboard: ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Objective 4.2;
 ## BTCPay Server Store settings
 
 Within the BTCPay Server software, we know of 2 types of settings. BTCPay Server Store-specific settings, the settings button found in the left menu bar below the Dashboard, and BTCPay Server settings, found at the bottom of the menu bar right above Account. The BTCPay Server Server-specific settings can only be viewed by Server administrators.
@@ -1239,6 +1247,7 @@ What is the difference between Store Settings and Server Settings: _____________
 
 Describe some options you might select in Checkout Appearance > Invoice Settings, and why: ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Objective 4.3;
 ## BTCPay Server - Server settings
 
 BTCPay Server consists of two different settings views. One is dedicated to Store settings and another for Server settings. The latter is only available if you are a Server administrator and not for store owners. Server administrators can add users, create custom roles, configure the email server, set policies, run maintenance tasks, check all services attached to BTCPay Server, upload files to the server, or check Logs.
@@ -2588,3 +2597,5 @@ FOSS is inevitable.
 |White-Label|A white-label product is a product or service produced by one company that other companies rebrand to make it appear as if they had made it.|
 |Whitepaper|Introduces a new idea or topic for discussion. The Bitcoin whitepaper introduced Bitcoin as a “Peer-to-peer electronic cash system” which “required no trusted third parties”. Satoshi Nakamoto released the whitepaper on October 31, 2008 to an email list of cryptographers and cypherpunks.|
 |Wrapped Segwit|A design implementation included in the SegWit upgrade meant to enable wallets and other Bitcoin software to more easily support SegWit. In order to achieve this, the two native SegWit scripts, P2WPKH and P2WSH, are used as the “redeemScript” of a P2SH transaction, yielding wrapped SegWit script types of P2SH-P2WPKH and P2SH-P2WSH respectively.|
+
+![image](assets/en/129.png)

@@ -1,3 +1,12 @@
+---
+name: BTC303
+goal: install btcpayserver for your business
+objectives:
+  - understand what btcpayserver is
+  - self-host and configure btcpayserver
+  - use btcpayserver in your daily business
+---
+
 ![image](assets/en/cover.png)
 
 # Bitcoin and BTCPay Server

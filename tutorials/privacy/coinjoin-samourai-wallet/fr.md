@@ -20,7 +20,7 @@ Afin de réaliser un coinjoin tout en garantissant que chaque utilisateur conser
 
 Il existe plusieurs implémentations de coinjoin, telles que Whirlpool, JoinMarket ou Wabisabi, chacune ayant pour objectif de gérer la coordination entre les participants et d'accroître l'efficacité des transactions coinjoin.
 
-Dans ce tutoriel, nous nous penchons sur l'implémentation **Whirlpool**, que je considère comme la solution la plus efficace pour faire des coinjoins sur Bitcoin. Bien que disponible sur plusieurs portefeuilles, nous explorons dans ce tutoriel exclusivement l'utilisation avec le logiciel Desktop Sparrow Wallet.
+Dans ce tutoriel, nous nous penchons sur l'implémentation **Whirlpool**, que je considère comme la solution la plus efficace pour faire des coinjoins sur Bitcoin. Bien que disponible sur plusieurs portefeuilles, nous explorons dans ce tutoriel exclusivement l'utilisation avec l'application mobile Samourai Wallet.
 
 ## Pourquoi faire des coinjoins sur Bitcoin ?
 Un des problèmes initiaux à tout système de paiement pair-à-pair est la double dépense : comment empêcher des individus mal intentionnés de dépenser à plusieurs reprises les mêmes unités monétaires sans faire appel à une autorité centrale pour arbitrer ?
@@ -85,7 +85,7 @@ En intégrant une pool avec vos bitcoins, ceux-ci seront divisés afin de géné
 
 Comme mentionné précédemment, un UTXO est considéré comme appartenant à une pool lorsqu'il est prêt à être intégré dans un coinjoin. Cela ne signifie toutefois pas que l'utilisateur en perd la possession. **À travers les différents cycles de mixage, vous conservez intégralement le contrôle de vos clés et, par conséquent, de vos bitcoins.** C'est d'ailleurs ce qui différencie la technique du coinjoin des autres techniques de mixages centralisés.
 
-Pour entrer dans une pool de coinjoin, il faut régler des frais de service ainsi que des frais de minage. Les frais de service sont fixes pour chaque pool et sont destinés à rémunérer les équipes en charge du développement et de la maintenance de Whirlpool. Pour les utilisateurs de Sparrow Wallet, ces frais sont reversés par les équipes de Samourai aux développeurs de Sparrow.
+Pour entrer dans une pool de coinjoin, il faut régler des frais de service ainsi que des frais de minage. Les frais de service sont fixes pour chaque pool et sont destinés à rémunérer les équipes en charge du développement et de la maintenance de Whirlpool. 
 
 Les frais de service pour l'utilisation de Whirlpool sont à régler une unique fois à l'entrée dans la pool. Une fois cette étape franchie, vous avez la possibilité de participer à un nombre illimité de remixages sans frais supplémentaires. Voici les frais fixes actuellement appliqués pour chaque pool :
 
@@ -167,9 +167,9 @@ Lorsque vous décidez de dépenser des UTXO mixés, vous pouvez le faire directe
 
 Comme nous le verrons dans le tutoriel suivant, il y a également l'option `mix to` qui offre la possibilité d'envoyer automatiquement vos pièces mixées vers un autre portefeuille, tel qu'un cold wallet, après un nombre défini de coinjoins.
 
-Après avoir abordé la théorie, plongeons dans la pratique avec un tutoriel sur l'utilisation de Whirlpool via le logiciel desktop Sparrow Wallet !
+Après avoir abordé la théorie, plongeons dans la pratique avec un tutoriel sur l'utilisation de Whirlpool via l'application Android Samourai Wallet !
 
-## Tutoriel : Coinjoin Whirlpool sur Sparrow Wallet
+## Tutoriel : Coinjoin Whirlpool sur Samourai Wallet
 Il existe de nombreuses options pour utiliser Whirlpool. La première que je souhaite vous présenter est l'option Sparrow Wallet, un logiciel open-source de gestion de portefeuille Bitcoin sur PC.
 
 Mixer sur Sparrow a pour avantage d'être assez facile à prendre en main, d'être rapide à mettre en place et de ne nécessiter aucun dispositif autre qu'un ordinateur et une connexion internet. En revanche, cette méthode dispose d'un inconvénient notable : les coinjoins ne se feront que lorsque Sparrow est lancé et connecté. Ce qui veut dire que si vous souhaitez mixer et remixer vos bitcoins 24h/24, vous devrez constamment laisser votre ordinateur allumé.
@@ -362,7 +362,6 @@ Ensuite, il faudra être prudent sur sa gestion du doxxic change, le change qui 
 Des tutoriels détaillés sur la mise en œuvre de ces différentes techniques vous seront proposés prochainement sur PlanB Network.
 
 **Ressources supplémentaires :** 
-- [Tutoriel vidéo Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow) ;
 - [Tutoriel vidéo Samourai Wallet](https://planb.network/tutorials/wallet/samourai) ;
 - [Documentation Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts) ;
 - [Thread Twitter sur les coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739) ;

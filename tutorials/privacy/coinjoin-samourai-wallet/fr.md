@@ -183,49 +183,49 @@ En revanche, cette méthode dispose de deux inconvénients notables :
 La solution idéale pour pallier ces limitations consiste à opérer votre propre Dojo associé à une instance Whirlpool CLI sur votre nœud Bitcoin personnel. Ainsi, vous éviterez toute fuite d'information et atteindrez une indépendance complète. Bien que le tutoriel présenté ci-après soit utile pour certains objectifs ou pour les débutants, pour optimiser véritablement votre session de coinjoins, l'utilisation de votre propre Dojo est recommandée. Un guide détaillé sur la mise en place de cette configuration sera bientôt disponible sur PlanB Network.
 
 ### Installer Samourai Wallet
-Pour commencer, vous allez évidemment avoir besoin du logiciel Sparrow Wallet. Vous pouvez directement le télécharger sur [le site officiel](https://samouraiwallet.com/download) avec l'APK, sur [leur GitLab](https://code.samourai.io/wallet/samourai-wallet-android), ou bien directement sur le [Google Play Store](https://play.google.com/store/apps/details?id=com.samourai.wallet&pcampaignid=web_share).
+Pour commencer, vous allez évidemment avoir besoin de l'application Samourai Wallet. Vous pouvez la télécharger directement sur [le site officiel](https://samouraiwallet.com/download) avec l'APK, sur [leur GitLab](https://code.samourai.io/wallet/samourai-wallet-android), ou bien sur le [Google Play Store](https://play.google.com/store/apps/details?id=com.samourai.wallet&pcampaignid=web_share).
 
 ### Créer un portefeuille logiciel
 Après l'installation du logiciel, vous devrez procéder à la création d'un portefeuille Bitcoin sur Samourai. Si vous en possédez déjà un, vous pouvez passer directement à l'étape suivante.
 
-Au lancement de l'application, cliquez sur le bouton bleu `Démarrer`. Vous devrez ensuite choisir un emplacement dans vos fichiers sur votre téléphone pour stocker la sauvegarde chiffrée de votre futur portefeuille.
+À l'ouverture de l'application, appuyez sur le bouton bleu `Démarrer`. Il vous sera ensuite demandé de sélectionner un emplacement dans les fichiers de votre téléphone où sera stockée la sauvegarde chiffrée de votre nouveau portefeuille.
 
 ![samourai](assets/fr/9.webp)
 
-Cliquez sur l'encoche pour activer Tor. Vous avez également la possibilité de choisir un Dojo à cette étape. Dans ce tutoriel, nous procédons avec le Dojo par défaut, vous pouvez donc laisser l'encoche décochée. Une fois Tor connecté, cliquez sur le bouton `Créer un nouveau portefeuille`.
+Activez Tor en cliquant sur l'encoche correspondante. À cette étape, vous avez aussi l'option de sélectionner un Dojo spécifique. Cependant, dans ce tutoriel, nous allons continuer avec le Dojo par défaut ; vous pouvez donc laisser l'option désactivée. Lorsque Tor est connecté, appuyez sur le bouton `Créer un nouveau portefeuille`.
 
 ![samourai](assets/fr/10.webp)
 
-Samourai vous demande ensuite de créer une passphrase BIP39. Ce mot de passe supplémentaire est extrêmement important, car il agit directement sur la dérivation de vos clés privées. En cas de perte de votre passphrase, vous ne pourrez plus du tout accéder à vos bitcoins. Ils seront définitivement perdus. Pour récupérer votre portefeuille Samourai, vous aurez besoin à la fois de la phrase de récupération de 12 et de la passphrase.
+Samourai Wallet vous invite ensuite à définir une passphrase BIP39. Ce mot de passe additionnel est très important puisqu'il agit directement dans la dérivation de vos clés privées. Une éventuelle perte de cette passphrase entrainerait l'impossibilité d'accéder à vos bitcoins, les rendant irrémédiablement perdus. Pour restaurer votre portefeuille Samourai, il est impératif de disposer à la fois de votre phrase de récupération de 12 mots et de la passphrase.
 
-Saisissez une passphrase forte, et faites-en une ou plusieurs sauvegardes physiques, que ce soit sur papier ou sur un support métallique, pour garantir la sécurité de vos bitcoins. Une fois ces étapes effectuées, cliquez sur la coche `Je suis conscient qu'en cas de perte...`, puis sur le bouton `SUIVANT`.
+Il est donc essentiel de choisir une passphrase robuste et d'en réaliser une ou plusieurs copies physiques, sur papier ou sur un support métallique, afin d'assurer la sécurité de vos bitcoins. Après avoir accompli ces tâches, cochez la case `Je suis conscient qu'en cas de perte...`, puis appuyez sur le bouton `SUIVANT`.
 
 ![samourai](assets/fr/11.webp)
 
-Vous pourrez ensuite choisir un code PIN entre 5 et 8 chiffres. Celui-ci permettra de verrouiller votre portefeuille sur votre téléphone. Vous en aurez besoin à chaque fois que vous souhaiterez accéder à l'application Samourai. Choisissez un PIN fort, puis faites-en une sauvegarde. Vous pouvez ensuite cliquer sur le bouton `SUIVANT`.
+Vous devez ensuite définir un code PIN composé de 5 à 8 chiffres. Ce code servira à sécuriser l'accès à votre portefeuille sur votre téléphone. Il vous sera demandé chaque fois que vous voudrez ouvrir l'application Samourai. Optez pour un code PIN robuste et assurez-vous d'en garder une copie sauvegardée. Après cela, vous pouvez appuyer sur le bouton `SUIVANT`.
 
 ![samourai](assets/fr/12.webp)
 
-Samourai vous demandera de confirmer une seconde fois votre PIN d'accès. Entrez-le, puis cliquez sur `FINALISER`.
+Samourai vous invitera à saisir de nouveau votre code PIN pour confirmation. Entrez-le, puis appuyez sur `FINALISER`.
 
 ![samourai](assets/fr/13.webp)
 
-Vous aurez ensuite accès aux 12 mots de votre phrase de récupération. Cette phrase permet de récupérer votre portefeuille avec la passphrase précédemment renseignée. Faites-en une ou plusieurs sauvegardes physiques, que ce soit sur papier ou sur un support métallique, pour garantir la sécurité de vos bitcoins.
+Vous accéderez par la suite à votre phrase de récupération composée de 12 mots. Cette phrase permet de récupérer votre portefeuille avec la passphrase précédemment renseignée. Il est fortement recommandé de réaliser une ou plusieurs copies de cette phrase sur des supports physiques, tels que du papier ou un matériau métallique, afin d'assurer la sécurité de vos bitcoins en cas de problème.
 
-Une fois terminé, vous arriverez sur votre nouveau portefeuille Samourai. 
+Après avoir effectué ces sauvegardes, vous serez dirigé vers l'interface de votre nouveau portefeuille Samourai.
 
 ![samourai](assets/fr/14.webp)
 
-On vous propose de demander votre PayNym Bot. Vous pouvez le faire si vous le souhaitez bien que ce ne soit pas indispensable pour notre tutoriel.
+Il vous est proposé d'obtenir votre PayNym Bot. Vous pouvez le demander si vous le souhaitez, bien que cela ne soit pas essentiel pour notre tutoriel.
 
 ![samourai](assets/fr/15.webp)
 
-Avant de recevoir des fonds sur ce nouveau portefeuille, je vous conseille vivement de vérifier une seconde fois les sauvegardes de votre portefeuille (passphrase et phrase de récupération). Si vous souhaitez vérifier la passphrase, vous pouvez le faire simplement en cliquant sur l'image de votre PayNym en haut à gauche de l'écran, puis :
+Avant de procéder à la réception de bitcoins sur ce nouveau portefeuille, il est fortement recommandé de vérifier à nouveau la validité des sauvegardes de votre portefeuille (la passphrase et la phrase de récupération). Pour vérifier la passphrase, vous pouvez sélectionner l'icône de votre PayNym Bot située en haut à gauche de l'écran, puis en suivre le chemin :
 ```
 Paramètres > Dépannage > Passphrase/test sauvegarde 
 ```
 
-Entrez votre passphrase. 
+Saisissez votre passphrase pour effectuer la vérification.
 
 ![samourai](assets/fr/16.webp)
 
@@ -233,19 +233,19 @@ Samourai vous confirmera si celle-ci est valide.
 
 ![samourai](assets/fr/17.webp)
 
-Pour vérifier la validité de votre sauvegarde de la phrase de récupération, cliquez sur l'image de votre PayNym en haut à gauche de l'écran, puis :
+Pour vérifiez votre sauvegarde de la phrase de récupération, accédez à l'icône de votre PayNym Bot, située en haut à gauche de l'écran, et suivez ce chemin :
 ```
 Paramètres > Portefeuille > Afficher la phrase de récupération de 12 mots
 ```
 
-Samourai ouvrira une fenêtre pour vous montrer votre phrase, vérifiez que celle-ci correspond bien à votre sauvegarde.
+Samourai vous affichera une fenêtre avec votre phrase de récupération. Assurez-vous qu'elle concorde précisément avec votre sauvegarde physique.
 
-Enfin, si vous souhaitez faire un test de récupération complet, vous pouvez noter une information témoin de votre portefeuille, comme par exemple, une des `xpub`, puis supprimer votre portefeuille alors qu'il est encore vide. Le but est ensuite de tenter de récupérer le portefeuille vide supprimé avec uniquement vos sauvegardes physiques. Si cela fonctionne bien, cela veut dire que vos sauvegardes sont fonctionnelles.
+Pour aller plus loin et réaliser un test de récupération complet, notez un élément témoin de votre portefeuille, tel qu'une des `xpub`, puis procédez à la suppression de votre portefeuille (à condition qu'il soit encore vide). L'objectif est de tenter de restaurer ce portefeuille vide en utilisant uniquement vos sauvegardes physiques. Si la restauration est réussie, cela indique que vos sauvegardes sont valides et fiables.
 
 ### Recevoir des bitcoins
-Après avoir créé votre portefeuille, vous disposerez initialement d'un unique compte, portant l'index `0'`. Il s'agit du compte de **dépôt** dont nous avons parlé dans les parties précédentes. C'est sur ce compte qu'il va falloir envoyer les bitcoins à mixer.
+Après avoir créé votre portefeuille, vous commencerez avec un seul compte, identifié par l'index `0'`. Il s'agit du compte de **dépôt** dont nous avons parlé dans les parties précédentes. C’est vers ce compte que vous devrez transférer les bitcoins destinés aux coinjoins.
 
-Pour ce faire, cliquez sur le `+` bleu en bas à droite de l'écran.
+Pour ce faire, cliquez sur le symbole `+` bleu situé en bas à droite de l'écran.
 
 ![samourai](assets/fr/18.webp)
 
@@ -262,123 +262,135 @@ Vous pouvez y envoyer les bitcoins à mixer.
 ![samourai](assets/fr/21.webp)
 
 ### Faire la Tx0
-Lorsque votre transaction est confirmée, vous pouvez ensuite vous rendre dans l'onglet `UTXOs`.
+Lorsque la transaction est confirmée, nous allons pouvoir lancer le processus de coinjoins. Pour ce faire, cliquez sur le bouton bleu `+` en bas à droite de l'écran.
 
+![samourai](assets/fr/22.webp)
 
+Puis cliquez sur `Whirlpool` en bleu.
 
+![samourai](assets/fr/23.webp)
 
+Patientez le temps que Whirlpool s'initialise et que Samourai créée les différents comptes nécessaires.
 
-Ensuite, choisissez le ou les UTXO que vous désirez soumettre aux cycles de coinjoins. Pour sélectionner plusieurs UTXO simultanément, maintenez la touche `Ctrl` enfoncée tout en cliquant sur les UTXO de votre choix.
+![samourai](assets/fr/24.webp)
 
+Vous arriverez ensuite sur la page d'accueil de Whirlpool. Cliquez sur `Démarrer`.
 
+![samourai](assets/fr/25.webp)
 
+Choisissez les UTXO du compte **dépôt** que vous souhaitez envoyer en cycles de coinjoins, puis cliquez sur `Suivant`.
 
+![samourai](assets/fr/26.webp)
 
-Cliquez ensuite sur le bouton `Mix Selected` en bas de la fenêtre. Si ce bouton n'apparait pas sur votre interface, c'est parce que vous être sur un portefeuille sécurisé avec un hardware wallet. Il faut utiliser un portefeuille logiciel pour faire des coinjoins avec Sparrow.
+À l'étape suivante, il vous faudra choisir le niveau de frais à allouer à la `Tx0` ainsi qu'à votre premier mix. Ce paramètre déterminera la vitesse à laquelle votre `Tx0` et votre coinjoin initial (ou vos coinjoins initiaux) seront confirmés. Gardez à l'esprit que les frais de minage pour la `Tx0` et le mix initial sont à votre charge, mais que vous n'aurez pas à payer de frais de minage pour les remixages suivants. Vous avez le choix entre les options `Low`, `Normal` ou `High`.
 
+![samourai](assets/fr/27.webp)
 
+Sur cette même fenêtre, vous avez la possibilité de choisir la pool dans laquelle vous allez entrer. Étant donné que j'ai initialement sélectionné un UTXO de `454 258 sats`, mon seul choix possible est la pool de `100 000 sats`. Cette page vous présente également les frais de service de la pool, en plus des frais de minage, ce qui vous permet de connaître le coût total pour ce cycle de coinjoins. Si tout vous convient, sélectionnez la pool appropriée et continuez en cliquant sur le bouton bleu `VÉRIFIER DÉTAILS CYCLE`.
 
+![samourai](assets/fr/28.webp)
 
+Vous pouvez ensuite voir tous les détails de votre cycle de coinjoins : 
+- le nombre d'UTXOs qui vont entrer dans la pool ;
+- les différents frais engagés ;
+- le montant du doxxic change...
 
-Une fenêtre s'ouvre pour vous expliquer le fonctionnement de Whirlpool. C'est une simplification de ce que je vous ai expliqué dans les parties précédentes. Cliquez sur `Next` pour passer.
+Vérifiez les informations, puis cliquez sur le bouton vert `DÉMARRER CYCLE`.
 
+![samourai](assets/fr/29.webp)
 
+Une fenêtre apparaîtra pour vous proposer de marquer le change toxique issu de votre entrée dans le cycle de coinjoin comme « non dépensable ». En sélectionnant `OUI`, cet UTXO ne sera pas visible dans votre portefeuille et ne pourra pas être sélectionné pour des transactions futures. Cependant, il restera accessible dans la liste des UTXO de votre portefeuille, où vous pourrez changer manuellement son statut. Il est recommandé d'opter pour cette option afin d'éviter toute erreur de manipulation qui pourrait compromettre votre confidentialité par la suite. Si vous choisissez `NON`, le change toxique demeurera disponible pour une utilisation dans votre portefeuille. Si vous souhaitez en savoir plus sur la gestion et l'utilisation de ce change toxique, je vous conseille de lire la dernière partie de ce tutoriel.
 
+![samourai](assets/fr/30.webp)
 
+Samourai va ensuite diffuser votre Tx0.
 
-Sur la page suivante, vous pourrez entrer un "SCODE" si vous en possédez un. Un SCODE est un code promotionnel permettant de bénéficier d'une réduction sur les frais de service de la pool. Samourai Wallet offre occasionnellement de tels codes à ses utilisateurs lors d'événements spéciaux. Je vous conseille [de suivre Samourai Wallet](https://twitter.com/SamouraiWallet) sur les réseaux sociaux pour ne pas passer à côté des futurs SCODES.
-
-Sur cette même page, vous devrez également définir le taux des frais alloués à la `Tx0` et à votre mix initial. Ce choix influencera la rapidité de confirmation de votre transaction préparatoire et de votre premier coinjoin. Rappelez-vous que les frais de minage sont à votre charge pour la `Tx0` et le mix initial, mais que vous ne serez pas redevable de frais de minage pour les remixes ultérieurs. Réglez la barre `Premix Priority` selon vos préférences, puis cliquez sur `Next`.
-
-
-
-
-
-
-Sur cette nouvelle fenêtre, vous aurez la possibilité de sélectionner la pool dans laquelle vous souhaitez entrer en utilisant la liste déroulante. Dans mon cas, ayant initialement sélectionné un UTXO de `456 214 sats`, mon unique choix possible est la pool de `100 000 sats`. Cette interface vous informe également sur les frais de service à régler ainsi que sur le nombre d'UTXO qui seront intégrés dans la pool. Si les conditions vous semblent satisfaisantes, continuez en cliquant sur `Preview Premix`.
-
-
-
-
-
-
-Après cette étape, Sparrow vous demandera de saisir le mot de passe de votre portefeuille, celui que vous avez établi lors de sa création sur le logiciel. Une fois le mot de passe entré, vous accéderez à l'aperçu de votre `Tx0`. Sur la partie gauche de votre fenêtre, vous constaterez que Sparrow a généré les différents comptes nécessaires à l'utilisation de Whirlpool (`Deposit`, `Premix`, `Postmix` et `Badbank`). Vous aurez aussi la possibilité de visualiser la structure de votre `Tx0`, avec les différents outputs :
-- Les frais de service ;
-- Les UTXO égalisés destinés à intégrer la pool ;
-- Le change toxique (Doxxic Change).
-
-
-
-
-
-
-Si la transaction vous convient, cliquez sur `Broadcast Transaction` pour diffuser votre `Tx0`. Dans le cas contraire, vous avez la possibilité d'ajuster les paramètres de cette `Tx0` en sélectionnant `Clear` pour effacer les données saisies et recommencer le processus de création depuis le départ.
-
-
-
-
+![samourai](assets/fr/31.webp)
 
 ### Faire les coinjoins
-Une fois la Tx0 diffusée, vous pourrez retrouver vos UTXO prêts à être mixés dans le compte `Premix`. 
+Une fois la Tx0 diffusée, vous pourrez la retrouver dans l'onglet `Transactions` du menu de Whirlpool.
 
-![sparrow](assets/fr/26.webp)
+![samourai](assets/fr/32.webp)
 
-Une fois la `Tx0` confirmée, vos UTXO seront inscrits auprès du coordinateur et les mix initiaux débuteront successivement de manière automatique.
+Vos UTXO prêts à être mixés sont dans l'onglet `Mixing en cours...`, ce qui correspond au compte **Premix**.
 
-![sparrow](assets/fr/27.webp)
+![samourai](assets/fr/33.webp)
 
-En consultant le compte `Postmix`, vous observerez les UTXO résultant des mix initiaux. Ces pièces resteront prêtes pour des remixages ultérieurs, lesquels ne vous occasionneront aucun frais supplémentaire.
+Une fois la `Tx0` confirmée, vos UTXO seront automatiquement inscrits auprès du coordinateur et les mix initiaux débuteront successivement de manière automatique.
 
-![sparrow](assets/fr/28.webp)
+![samourai](assets/fr/34.webp)
 
-Dans la colonne `Mixes`, il est possible de consulter le nombre de coinjoins réalisés par chacune de vos pièces. Comme nous le verrons dans les sections suivantes, ce qui importe véritablement n'est pas tant le nombre de remixes en soi, mais plutôt les anonsets associés, bien que ces deux indicateurs soient partiellement liés.
+En consultant l'onglet `Remixing`, qui correspond au compte **Postmix**, vous observerez les UTXO résultant des mix initiaux. Ces pièces resteront prêtes pour des remixages ultérieurs, lesquels ne vous occasionneront aucun frais supplémentaire. Je vous recommande de consulter cet autre article pour en savoir plus sur le processus de remixage et l'efficacité d'un cycle de coinjoins : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool). 
 
-![sparrow](assets/fr/29.webp)
+![samourai](assets/fr/35.webp)
 
-Pour interrompre temporairement les coinjoins, il suffit de cliquer sur `Stop Mixing`. Vous aurez la possibilité de reprendre les opérations à tout moment en sélectionnant `Start Mixing`.
+Il est possible de suspendre temporairement le remixage d'un UTXO en appuyant sur le bouton pause situé à sa droite. Pour le rendre à nouveau éligible aux remixages, il suffit de cliquer une seconde fois sur ce même bouton. Il est important de noter que seul un coinjoin peut être effectué par utilisateur et par pool simultanément. Ainsi, si vous avez 6 UTXO de `100 000 sats` prêts pour le coinjoin, seulement l'un d'entre eux pourra être mixé. Après le mixage d'un UTXO, Samourai Wallet procède à une sélection aléatoire d'un nouvel UTXO parmi vos disponibilités, afin de diversifier et équilibrer les remixages de chaque pièce.
 
-![sparrow](assets/fr/30.webp)
+![samourai](assets/fr/36.webp)
 
-Pour garantir une disponibilité continue de vos UTXO aux fins de remixage, il est nécessaire de maintenir le logiciel Sparrow actif. Fermer le logiciel ou éteindre votre ordinateur mettra les coinjoins en pause. Une solution pour contourner ce problème consiste à désactiver les fonctions de mise en veille via les paramètres de votre système d'exploitation. De plus, Sparrow propose une option permettant d'empêcher la mise en veille automatique de votre ordinateur, que vous trouverez sous l'onglet `Tools` et qui est intitulée `Prevent Computer Sleep`.
-
-![sparrow](assets/fr/31.webp)
+Pour garantir une disponibilité continue de vos UTXO aux fins de remixage, il est nécessaire de maintenir l'application Samourai active en tâche de fond. Vous devriez voir une notification sur votre téléphone qui vous confirme que Whirlpool est en cours d'exécution. Fermer l'application ou éteindre votre téléphone mettra les coinjoins en pause. 
 
 ### Terminer les coinjoins
-Pour dépenser vos bitcoins mixés, vous disposez de plusieurs choix. La méthode la plus directe consiste à accéder au compte `Postmix` et à sélectionner l'onglet `Send`.
+Pour dépenser vos bitcoins mixés, placez vous sur le compte **Postmix** noté `Remixing` dans les onglets du menu Whirlpool.
 
-![sparrow](assets/fr/32.webp)
+![samourai](assets/fr/37.webp)
 
-Dans cette section, vous aurez la possibilité de saisir l'adresse de destination, le montant à envoyer et les frais de transaction, de la même manière que pour toute autre transaction réalisée avec Sparrow Wallet. Si vous le souhaitez, vous pouvez également tirer parti de fonctionnalités avancées de confidentialité telles que Stonewall, en cliquant sur le bouton `Privacy`.
+Cliquez sur le logo bleu de Whirlpool situé en bas à droite.
 
-![sparrow](assets/fr/33.webp)
+![samourai](assets/fr/38.webp)
+
+Puis cliquez sur `Spend Mixed UTXOs`.
+
+![samourai](assets/fr/39.webp)
+
+Vous pouvez ensuite entrer l'adresse du destinataire ainsi que le montant à envoyer, de la même manière que pour toute autre transaction réalisée avec Samourai Wallet. Le fond d'écran bleu vous signale que les fonds sont dépensés à partir d'un compte Whirlpool, et non du compte de **dépôt**.
+
+![samourai](assets/fr/40.webp)
+
+En cliquant sur les 3 petits points en haut à droite, vous avez la possibilité de sélectionner des UTXO spécifiques.
+
+![samourai](assets/fr/41.webp)
+
+En cliquant sur le carré blanc en haut à droite de la fenêtre, vous pouvez scanner le code QR de l'adresse de réception avec votre appareil photo.
+
+![samourai](assets/fr/42.webp)
+
+Entrez les informations nécessaires pour votre transaction de dépense, puis cliquez sur le bouton bleu `VÉRIFIER TRANSACTION`.
+
+![samourai](assets/fr/43.webp)
+
+À l'étape suivante, vous avez la possibilité de modifier le taux de frais associé à votre transaction. Vous pouvez aussi activer l'option Stonewall en cochant la case correspondante. Si l'option Stonewall n'est pas sélectionnable, cela signifie que votre compte **Postmix** ne contient pas d'UTXO de taille suffisante pour supporter cette structure particulière de transaction.
 
 [-> En savoir plus sur les transactions Stonewall.](https://planb.network/tutorials/privacy/stonewall)
 
-Si vous désirez effectuer une sélection plus précise de vos pièces à dépenser, rendez-vous dans l'onglet `UTXOs`. Sélectionnez les UTXO que vous désirez spécifiquement consommer, puis appuyez sur le bouton `Send Selected` pour initier la transaction.
+Si tout vous convient, cliquez sur le bouton vert `SEND ... BTC`.
 
-![sparrow](assets/fr/34.webp)
+![samourai](assets/fr/44.webp)
 
-Enfin, l'option `Mix to...` disponible sur Sparrow offre la possibilité de retirer automatiquement un UTXO choisi des cycles de coinjoins, et ce, sans engendrer de frais supplémentaires. Cette fonctionnalité permet de déterminer un nombre de remixages après lequel l'UTXO ne sera pas réintégré dans votre compte `Postmix`, mais sera plutôt transféré directement vers un autre portefeuille. Cette option est souvent utilisée pour envoyer automatiquement des bitcoins mixés vers un cold wallet.
+Samourai procédera alors à la signature de votre transaction avant de la diffuser sur le réseau. Il vous suffit de patienter jusqu'à ce qu'elle soit ajoutée dans un bloc par un mineur.
 
-Pour utiliser cette option, commencez par ouvrir le portefeuille destinataire en parallèle de votre portefeuille de coinjoin au sein du logiciel Sparrow.
+![samourai](assets/fr/45.webp)
 
-![sparrow](assets/fr/35.webp)
+### Utiliser un SCODE
+Parfois, les équipes de Samourai Wallet proposent des "SCODE". Un SCODE est un code promotionnel permettant de bénéficier d'une réduction sur les frais de service de la pool. Samourai Wallet offre occasionnellement de tels codes à ses utilisateurs lors d'événements spéciaux. Je vous conseille [de suivre Samourai Wallet](https://twitter.com/SamouraiWallet) sur les réseaux sociaux pour ne pas passer à côté des futurs SCODES.
 
-Rendez-vous ensuite dans l'onglet `UTXOs`, et sélectionnez les pièces qui vous intéressent, puis cliquez sur le bouton `Mix to ...` en bas de la fenêtre.
+Pour appliquer un SCODE sur Samourai, avant d'initier un nouveau cycle de coinjoin, rendez-vous dans le menu Whirlpool et sélectionnez les trois petits points situés en haut à droite de l'écran.
 
-![sparrow](assets/fr/36.webp)
+![samourai](assets/fr/46.webp)
 
-Une fenêtre s'ouvre, commencez par sélectionner le wallet de destination dans la liste déroulante.
+Cliquez sur `SCODE (code promo) Whirlpool`.
 
-![sparrow](assets/fr/37.webp)
+![samourai](assets/fr/47.webp)
 
-Choisissez le seuil de coinjoins au-delà duquel le retrait sera effectué automatiquement. Je ne peux pas vous donner un nombre exact de remixages à réaliser, car cela varie selon votre situation personnelle et vos objectifs en terme de confidentialité, mais évitez de choisir un seuil trop bas. Je vous recommande de consulter cet autre article pour en savoir plus sur le processus de remixage : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool). 
+Entrez le SCODE dans la fenêtre qui s'est ouverte, puis validez en cliquant sur `OK`.
 
-Vous pouvez laisser l'option `Index range` sur sa valeur par défaut, `Full`. Cette fonction permet de mixer simultanément depuis différents clients, mais ce n'est pas ce que l'on veut faire dans ce tutoriel. Pour finaliser et activer l'option `Mix to...`, appuyez sur `Restart Whirlpool`.
+![samourai](assets/fr/48.webp)
 
-![sparrow](assets/fr/38.webp)
+Whirlpool va se fermer automatiquement. Attendez que Samourai finisse de charger, puis ouvrez de nouveau le menu de Whirlpool.
 
-Soyez tout de même prudent en utilisant l'option `Mix to`, car retirer des pièces mixées de votre compte `Postmix` peut considérablement augmenter le risque de compromettre votre confidentialité. Les raisons de cette potentialité sont détaillées dans les parties suivantes.
+![samourai](assets/fr/49.webp)
+
+Assurez-vous que votre SCODE a été correctement enregistré en cliquant une fois de plus sur les trois petits points, puis en sélectionnant `SCODE (code promo) Whirlpool`. Si tout est en ordre, vous êtes prêt à entamer un nouveau cycle Whirlpool en bénéficiant d'une réduction sur les frais de service. Il est important de noter que ces SCODE sont temporaires : ils restent valides pendant quelques jours avant de devenir obsolètes.
 
 ## Comment connaître la qualité de nos cycles de coinjoin ?
 Pour qu'un coinjoin soit véritablement efficace, il est essentiel qu'il présente une bonne homogénéité entre les montants des inputs et des outputs. Cette uniformité amplifie le nombre d'interprétations possibles aux yeux d'un observateur externe, augmentant ainsi l'incertitude autour de la transaction. Pour quantifier cette incertitude générée par un coinjoin, on peut recourir au calcul de l'entropie de la transaction. Pour une exploration approfondie de ces indicateurs, je vous renvoie vers le tutoriel : [BOLTZMANN CALCULATOR](https://planb.network/fr/tutorials/privacy/boltzmann-entropy). Le modèle de Whirlpool est reconnu comme celui qui apporte le plus d'homogénéité dans les coinjoins.

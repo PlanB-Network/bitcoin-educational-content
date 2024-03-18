@@ -4,6 +4,8 @@ description: Comment faire un coinjoin sur Samourai Wallet ?
 ---
 ![cover](assets/cover.webp)
 
+"*a bitcoin wallet for the streets*"
+
 Dans ce tutoriel, vous allez apprendre ce qu'est un coinjoin et comment en réaliser avec le logiciel Samourai Wallet et l'implémentation Whirlpool.
 
 ## Qu'est-ce qu'un coinjoin sur Bitcoin ?
@@ -16,11 +18,11 @@ Le principe du coinjoin repose sur une approche collaborative : plusieurs utilis
 
 Exemple d'une transaction coinjoin (qui ne provient pas de moi) : [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/fr/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
-Afin de réaliser un coinjoin tout en garantissant que chaque utilisateur conserve le contrôle sur ses fonds à tout moment, le processus débute par la construction de la transaction par un coordinateur, qui la transmet ensuite à chaque participant. Chaque utilisateur procède alors à la signature de la transaction après avoir vérifié que celle-ci lui convient. Toutes les signatures collectées sont finalement intégrées à la transaction. Si une tentative de détournement des fonds est effectuée par un utilisateur ou le coordinateur, par le biais d'une modification des outputs de la transaction coinjoin, les signatures se révéleront invalides, ce qui conduira au rejet de la transaction par les nœuds.
+Afin de réaliser un coinjoin tout en garantissant que chaque utilisateur conserve le contrôle sur ses fonds à tout moment, le processus débute par la construction de la transaction par un coordinateur, qui la transmet ensuite aux participants. Chaque utilisateur procède alors à la signature de la transaction après avoir vérifié que celle-ci lui convient. Toutes les signatures collectées sont finalement intégrées à la transaction. Si une tentative de détournement des fonds est effectuée par un utilisateur ou le coordinateur, par le biais d'une modification des outputs de la transaction coinjoin, les signatures se révéleront invalides, ce qui conduira au rejet de la transaction par les nœuds.
 
 Il existe plusieurs implémentations de coinjoin, telles que Whirlpool, JoinMarket ou Wabisabi, chacune ayant pour objectif de gérer la coordination entre les participants et d'accroître l'efficacité des transactions coinjoin.
 
-Dans ce tutoriel, nous nous penchons sur l'implémentation **Whirlpool**, que je considère comme la solution la plus efficace pour faire des coinjoins sur Bitcoin. Bien que disponible sur plusieurs portefeuilles, nous explorons dans ce tutoriel exclusivement l'utilisation avec l'application mobile Samourai Wallet.
+Dans ce tutoriel, nous nous penchons sur l'implémentation **Whirlpool**, que je considère comme la solution la plus efficace pour faire des coinjoins sur Bitcoin. Bien que disponible sur plusieurs portefeuilles, nous explorons dans ce tutoriel exclusivement l'utilisation avec l'application mobile Samourai Wallet, sans Dojo.
 
 ## Pourquoi faire des coinjoins sur Bitcoin ?
 Un des problèmes initiaux à tout système de paiement pair-à-pair est la double dépense : comment empêcher des individus mal intentionnés de dépenser à plusieurs reprises les mêmes unités monétaires sans faire appel à une autorité centrale pour arbitrer ?
@@ -170,103 +172,151 @@ Comme nous le verrons dans le tutoriel suivant, il y a également l'option `mix 
 Après avoir abordé la théorie, plongeons dans la pratique avec un tutoriel sur l'utilisation de Whirlpool via l'application Android Samourai Wallet !
 
 ## Tutoriel : Coinjoin Whirlpool sur Samourai Wallet
-Il existe de nombreuses options pour utiliser Whirlpool. La première que je souhaite vous présenter est l'option Sparrow Wallet, un logiciel open-source de gestion de portefeuille Bitcoin sur PC.
+Il existe de nombreuses options pour utiliser Whirlpool. Celle que je souhaite vous présenter ici est l'option Samourai Wallet (sans Dojo), une application open-source de gestion de portefeuille Bitcoin sur Android.
 
-Mixer sur Sparrow a pour avantage d'être assez facile à prendre en main, d'être rapide à mettre en place et de ne nécessiter aucun dispositif autre qu'un ordinateur et une connexion internet. En revanche, cette méthode dispose d'un inconvénient notable : les coinjoins ne se feront que lorsque Sparrow est lancé et connecté. Ce qui veut dire que si vous souhaitez mixer et remixer vos bitcoins 24h/24, vous devrez constamment laisser votre ordinateur allumé.
+Mixer sur Samourai sans Dojo a pour avantage d'être assez facile à prendre en main, d'être rapide à mettre en place et de ne nécessiter aucun dispositif autre qu'un téléphone Android et une connexion internet. 
 
-### Installer Sparrow Wallet
-Pour commencer, vous allez évidemment avoir besoin du logiciel Sparrow Wallet. Vous pouvez directement le télécharger sur [le site officiel](https://sparrowwallet.com/download/) ou sur [leur GitHub](https://github.com/sparrowwallet/sparrow/releases).
+En revanche, cette méthode dispose de deux inconvénients notables : 
+- Les coinjoins ne se feront que lorsque Samourai est lancé en arrière plan et connecté. Ce qui veut dire que si vous souhaitez mixer et remixer vos bitcoins 24h/24, vous devrez constamment laisser Samourai allumé ;
+- Si vous utilisez Whirlpool avec Samourai Wallet sans prendre soin de connecter votre propre Dojo, alors votre application va être obligée de se connecter au serveur maintenu par les équipes de Samourai, et vous leur révélerez les `xpub` de votre portefeuille. Ces informations anonymes sont nécessaires pour que votre application puisse trouver vos transactions.
 
-Avant d'installer le logiciel, il sera important de vérifier la signature et l'intégrité de l'exécutable que vous venez de télécharger. Si vous souhaitez avoir plus détails sur la procédure d'installation et la vérification du logiciel Sparrow, je vous conseille de lire cet autre tutoriel : *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*.
+La solution idéale pour pallier ces limitations consiste à opérer votre propre Dojo associé à une instance Whirlpool CLI sur votre nœud Bitcoin personnel. Ainsi, vous éviterez toute fuite d'information et atteindrez une indépendance complète. Bien que le tutoriel présenté ci-après soit utile pour certains objectifs ou pour les débutants, pour optimiser véritablement votre session de coinjoins, l'utilisation de votre propre Dojo est recommandée. Un guide détaillé sur la mise en place de cette configuration sera bientôt disponible sur PlanB Network.
+
+### Installer Samourai Wallet
+Pour commencer, vous allez évidemment avoir besoin du logiciel Sparrow Wallet. Vous pouvez directement le télécharger sur [le site officiel](https://samouraiwallet.com/download) avec l'APK, sur [leur GitLab](https://code.samourai.io/wallet/samourai-wallet-android), ou bien directement sur le [Google Play Store](https://play.google.com/store/apps/details?id=com.samourai.wallet&pcampaignid=web_share).
 
 ### Créer un portefeuille logiciel
-Après l'installation du logiciel, vous devrez procéder à la création d'un portefeuille Bitcoin. Il est important de noter que pour participer aux coinjoins, l'utilisation d'un portefeuille logiciel (également appelé "portefeuille chaud") est indispensable. Par conséquent, **il ne sera pas possible d'effectuer des coinjoins avec un portefeuille sécurisé par un hardware wallet**.
+Après l'installation du logiciel, vous devrez procéder à la création d'un portefeuille Bitcoin sur Samourai. Si vous en possédez déjà un, vous pouvez passer directement à l'étape suivante.
 
-Bien que cela ne soit pas impératif, dans le cas où vous envisagez de mixer des montants significatifs, il est vivement recommandé d'opter pour l'usage d'une passphrase BIP39 robuste pour ce portefeuille.
+Au lancement de l'application, cliquez sur le bouton bleu `Démarrer`. Vous devrez ensuite choisir un emplacement dans vos fichiers sur votre téléphone pour stocker la sauvegarde chiffrée de votre futur portefeuille.
 
-Pour créer un nouveau portefeuille, ouvrez Sparrow, puis cliquez sur l'onglet `File` et `New Wallet`.
+![samourai](assets/fr/9.webp)
 
-![sparrow](assets/fr/9.webp)
+Cliquez sur l'encoche pour activer Tor. Vous avez également la possibilité de choisir un Dojo à cette étape. Dans ce tutoriel, nous procédons avec le Dojo par défaut, vous pouvez donc laisser l'encoche décochée. Une fois Tor connecté, cliquez sur le bouton `Créer un nouveau portefeuille`.
 
-Choisissez un nom pour ce portefeuille, par exemple : "Coinjoin Wallet". Cliquez sur le bouton `Create Wallet`.
+![samourai](assets/fr/10.webp)
 
-![sparrow](assets/fr/10.webp)
+Samourai vous demande ensuite de créer une passphrase BIP39. Ce mot de passe supplémentaire est extrêmement important, car il agit directement sur la dérivation de vos clés privées. En cas de perte de votre passphrase, vous ne pourrez plus du tout accéder à vos bitcoins. Ils seront définitivement perdus. Pour récupérer votre portefeuille Samourai, vous aurez besoin à la fois de la phrase de récupération de 12 et de la passphrase.
 
-Laissez les paramètres par défaut, puis cliquez sur le bouton `New or Imported Software Wallet`.
+Saisissez une passphrase forte, et faites-en une ou plusieurs sauvegardes physiques, que ce soit sur papier ou sur un support métallique, pour garantir la sécurité de vos bitcoins. Une fois ces étapes effectuées, cliquez sur la coche `Je suis conscient qu'en cas de perte...`, puis sur le bouton `SUIVANT`.
 
-![sparrow](assets/fr/11.webp)
+![samourai](assets/fr/11.webp)
 
-Lorsque vous accédez à la fenêtre de création de portefeuille, je vous recommande de choisir une séquence de 12 mots, car c'est amplement suffisant. Sélectionnez `Generate New` pour générer une nouvelle phrase de récupération, et cliquez sur `Use Passphrase` si vous souhaitez ajouter une passphrase BIP39. Il est important d'effectuer une sauvegarde physique de vos informations de récupération, que ce soit sur papier ou sur un support métallique, pour garantir la sécurité de vos bitcoins.
+Vous pourrez ensuite choisir un code PIN entre 5 et 8 chiffres. Celui-ci permettra de verrouiller votre portefeuille sur votre téléphone. Vous en aurez besoin à chaque fois que vous souhaiterez accéder à l'application Samourai. Choisissez un PIN fort, puis faites-en une sauvegarde. Vous pouvez ensuite cliquer sur le bouton `SUIVANT`.
 
-![sparrow](assets/fr/12.webp)
+![samourai](assets/fr/12.webp)
 
-Assurez-vous de la validité de votre sauvegarde de la phrase de récupération avant de cliquer sur `Confirm Backup...`. Sparrow vous demandera par la suite de saisir de nouveau votre phrase pour vérifier que vous en avez bien pris note. Une fois cette étape effectuée, continuez en cliquant sur `Create Keystore`.
+Samourai vous demandera de confirmer une seconde fois votre PIN d'accès. Entrez-le, puis cliquez sur `FINALISER`.
 
-![sparrow](assets/fr/13.webp)
+![samourai](assets/fr/13.webp)
 
-Laissez le chemin de dérivation proposé par défaut et appuyez sur `Import Keystore`. Dans mon exemple, le chemin de dérivation diffère légèrement étant donné que j'utilise le Testnet pour faire ce tutoriel. Le chemin de dérivation qui devrait s'afficher pour vous est le suivant :
+Vous aurez ensuite accès aux 12 mots de votre phrase de récupération. Cette phrase permet de récupérer votre portefeuille avec la passphrase précédemment renseignée. Faites-en une ou plusieurs sauvegardes physiques, que ce soit sur papier ou sur un support métallique, pour garantir la sécurité de vos bitcoins.
+
+Une fois terminé, vous arriverez sur votre nouveau portefeuille Samourai. 
+
+![samourai](assets/fr/14.webp)
+
+On vous propose de demander votre PayNym Bot. Vous pouvez le faire si vous le souhaitez bien que ce ne soit pas indispensable pour notre tutoriel.
+
+![samourai](assets/fr/15.webp)
+
+Avant de recevoir des fonds sur ce nouveau portefeuille, je vous conseille vivement de vérifier une seconde fois les sauvegardes de votre portefeuille (passphrase et phrase de récupération). Si vous souhaitez vérifier la passphrase, vous pouvez le faire simplement en cliquant sur l'image de votre PayNym en haut à gauche de l'écran, puis :
 ```
-m/84'/0'/0'
+Paramètres > Dépannage > Passphrase/test sauvegarde 
 ```
 
-![sparrow](assets/fr/14.webp)
+Entrez votre passphrase. 
 
-Après cela, Sparrow affichera les détails de dérivation de votre nouveau portefeuille. Dans le cas où vous auriez défini une passphrase, il est fortement recommandé de noter votre `Master fingerprint`. Bien que cette empreinte de la clé maîtresse ne constitue pas une donnée sensible, elle vous sera utile pour vérifier ultérieurement que vous accédez bien au portefeuille correct et pour confirmer l'absence d'erreur lors de la saisie de votre passphrase.
+![samourai](assets/fr/16.webp)
 
-Cliquez sur le bouton `Apply`.
+Samourai vous confirmera si celle-ci est valide.
 
-![sparrow](assets/fr/15.webp)
+![samourai](assets/fr/17.webp)
 
-Sparrow vous invite à créer un mot de passe pour votre portefeuille. Ce mot de passe sera requis pour y accéder via le logiciel Sparrow Wallet. Choisissez un mot de passe fort, faites en une sauvegarde, puis cliquez sur `Set Password`.
+Pour vérifier la validité de votre sauvegarde de la phrase de récupération, cliquez sur l'image de votre PayNym en haut à gauche de l'écran, puis :
+```
+Paramètres > Portefeuille > Afficher la phrase de récupération de 12 mots
+```
 
-![sparrow](assets/fr/16.webp)
+Samourai ouvrira une fenêtre pour vous montrer votre phrase, vérifiez que celle-ci correspond bien à votre sauvegarde.
+
+Enfin, si vous souhaitez faire un test de récupération complet, vous pouvez noter une information témoin de votre portefeuille, comme par exemple, une des `xpub`, puis supprimer votre portefeuille alors qu'il est encore vide. Le but est ensuite de tenter de récupérer le portefeuille vide supprimé avec uniquement vos sauvegardes physiques. Si cela fonctionne bien, cela veut dire que vos sauvegardes sont fonctionnelles.
 
 ### Recevoir des bitcoins
 Après avoir créé votre portefeuille, vous disposerez initialement d'un unique compte, portant l'index `0'`. Il s'agit du compte de **dépôt** dont nous avons parlé dans les parties précédentes. C'est sur ce compte qu'il va falloir envoyer les bitcoins à mixer.
 
-Pour ce faire, sélectionnez l'onglet `Receive` situé à gauche de la fenêtre. Sparrow générera automatiquement une nouvelle adresse vierge pour recevoir des bitcoins.
+Pour ce faire, cliquez sur le `+` bleu en bas à droite de l'écran.
 
-![sparrow](assets/fr/17.webp)
+![samourai](assets/fr/18.webp)
 
-Vous pouvez entrer une étiquette pour cette adresse, puis envoyez-y les bitcoins à mixer.
+Cliquez ensuite sur le bouton vert `Recevoir`.
 
-![sparrow](assets/fr/18.webp)
+![samourai](assets/fr/19.webp)
+
+Samourai générera automatiquement une nouvelle adresse vierge pour recevoir des bitcoins. 
+
+![samourai](assets/fr/20.webp)
+
+Vous pouvez y envoyer les bitcoins à mixer.
+
+![samourai](assets/fr/21.webp)
 
 ### Faire la Tx0
 Lorsque votre transaction est confirmée, vous pouvez ensuite vous rendre dans l'onglet `UTXOs`.
 
-![sparrow](assets/fr/19.webp)
+
+
+
 
 Ensuite, choisissez le ou les UTXO que vous désirez soumettre aux cycles de coinjoins. Pour sélectionner plusieurs UTXO simultanément, maintenez la touche `Ctrl` enfoncée tout en cliquant sur les UTXO de votre choix.
 
-![sparrow](assets/fr/20.webp)
+
+
+
 
 Cliquez ensuite sur le bouton `Mix Selected` en bas de la fenêtre. Si ce bouton n'apparait pas sur votre interface, c'est parce que vous être sur un portefeuille sécurisé avec un hardware wallet. Il faut utiliser un portefeuille logiciel pour faire des coinjoins avec Sparrow.
 
-![sparrow](assets/fr/21.webp)
+
+
+
 
 Une fenêtre s'ouvre pour vous expliquer le fonctionnement de Whirlpool. C'est une simplification de ce que je vous ai expliqué dans les parties précédentes. Cliquez sur `Next` pour passer.
 
-![sparrow](assets/fr/22.webp)
+
+
+
 
 Sur la page suivante, vous pourrez entrer un "SCODE" si vous en possédez un. Un SCODE est un code promotionnel permettant de bénéficier d'une réduction sur les frais de service de la pool. Samourai Wallet offre occasionnellement de tels codes à ses utilisateurs lors d'événements spéciaux. Je vous conseille [de suivre Samourai Wallet](https://twitter.com/SamouraiWallet) sur les réseaux sociaux pour ne pas passer à côté des futurs SCODES.
 
 Sur cette même page, vous devrez également définir le taux des frais alloués à la `Tx0` et à votre mix initial. Ce choix influencera la rapidité de confirmation de votre transaction préparatoire et de votre premier coinjoin. Rappelez-vous que les frais de minage sont à votre charge pour la `Tx0` et le mix initial, mais que vous ne serez pas redevable de frais de minage pour les remixes ultérieurs. Réglez la barre `Premix Priority` selon vos préférences, puis cliquez sur `Next`.
 
-![sparrow](assets/fr/23.webp)
+
+
+
+
 
 Sur cette nouvelle fenêtre, vous aurez la possibilité de sélectionner la pool dans laquelle vous souhaitez entrer en utilisant la liste déroulante. Dans mon cas, ayant initialement sélectionné un UTXO de `456 214 sats`, mon unique choix possible est la pool de `100 000 sats`. Cette interface vous informe également sur les frais de service à régler ainsi que sur le nombre d'UTXO qui seront intégrés dans la pool. Si les conditions vous semblent satisfaisantes, continuez en cliquant sur `Preview Premix`.
 
-![sparrow](assets/fr/24.webp)
+
+
+
+
 
 Après cette étape, Sparrow vous demandera de saisir le mot de passe de votre portefeuille, celui que vous avez établi lors de sa création sur le logiciel. Une fois le mot de passe entré, vous accéderez à l'aperçu de votre `Tx0`. Sur la partie gauche de votre fenêtre, vous constaterez que Sparrow a généré les différents comptes nécessaires à l'utilisation de Whirlpool (`Deposit`, `Premix`, `Postmix` et `Badbank`). Vous aurez aussi la possibilité de visualiser la structure de votre `Tx0`, avec les différents outputs :
 - Les frais de service ;
 - Les UTXO égalisés destinés à intégrer la pool ;
 - Le change toxique (Doxxic Change).
 
-![sparrow](assets/fr/25.webp)
+
+
+
+
 
 Si la transaction vous convient, cliquez sur `Broadcast Transaction` pour diffuser votre `Tx0`. Dans le cas contraire, vous avez la possibilité d'ajuster les paramètres de cette `Tx0` en sélectionnant `Clear` pour effacer les données saisies et recommencer le processus de création depuis le départ.
+
+
+
+
 
 ### Faire les coinjoins
 Une fois la Tx0 diffusée, vous pourrez retrouver vos UTXO prêts à être mixés dans le compte `Premix`. 

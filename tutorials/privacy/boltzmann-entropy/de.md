@@ -2,7 +2,7 @@
 name: Boltzmann Calculator
 description: Verstehen Sie das Konzept der Entropie und wie man Boltzmann verwendet
 ---
-![cover](assets/cover.png)
+![cover](assets/cover.jpeg)
 
 Der Boltzmann Calculator ist ein Werkzeug zur Analyse einer Bitcoin-Transaktion, indem es deren Entropieniveau zusammen mit anderen fortgeschrittenen Metriken misst. Es bietet Einblicke in die Verbindungen zwischen den Eingaben und Ausgaben einer Transaktion. Diese Indikatoren bieten eine quantifizierte Bewertung der Privatsphäre einer Transaktion und helfen, potenzielle Fehler zu identifizieren.
 

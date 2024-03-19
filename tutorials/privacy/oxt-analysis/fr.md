@@ -2,7 +2,7 @@
 name: OXT - Chain Analysis
 description: Maîtriser les bases de l’analyse de chaîne sur Bitcoin
 ---
-Dans cet article, vous allez apprendre les fondements théoriques essentiels à maîtriser pour vous lancer dans des analyses de chaîne basiques sur Bitcoin, et surtout, pour comprendre comment opèrent ceux qui vous observent. Bien que cet article ne constitue pas un tutoriel pratique sur l'outil OXT (sujet que nous aborderons dans une future publication), il compile un ensemble de connaissances cruciales pour l'utilisation d'OXT. Pour chaque modèle, métrique et indicateur présenté, un lien vers une transaction exemple sur OXT est fourni, ce qui vous permettra de mieux comprendre son utilisation et de pouvoir pratiquer en parallèle de votre lecture.
+Dans cet article, vous allez apprendre les fondements théoriques essentiels à maîtriser pour vous lancer dans des analyses de chaîne basiques sur Bitcoin, et surtout, pour comprendre comment opèrent ceux qui vous observent. Bien que cet article ne constitue pas un tutoriel pratique sur l'outil OXT (sujet que nous aborderons dans une future publication), il compile un ensemble de connaissances cruciales pour son utilisation. Pour chaque modèle, métrique et indicateur présenté, un lien vers une transaction exemple sur OXT est fourni, ce qui vous permettra de mieux comprendre son utilisation et de pouvoir pratiquer en parallèle de votre lecture.
 
 ## Introduction
 Une des fonctions de la monnaie est de résoudre le problème de la double coïncidence des besoins. Dans un système établi sur le troc, la réalisation d'un échange nécessite non seulement de trouver un individu cédant un bien correspondant à mon besoin, mais aussi de lui procurer un bien de valeur équivalente qui satisfait son propre besoin. Trouver cet équilibre s'avère complexe. C'est pourquoi nous recourons à la monnaie qui permet de déplacer la valeur à la fois dans l'espace et dans le temps.
@@ -341,30 +341,22 @@ Effectivement, si l’on reprend notre exemple du PayJoin pour acheter une bague
 
 Au-delà du PayJoin et du CoinJoin, il existe de nombreuses autres structures de transactions Bitcoin qui permettent soit de bloquer l’analyse de chaîne, soit de la tromper. Parmi celles-ci, je pourrais citer les transactions [Stonewall](https://planb.network/fr/tutorials/privacy/stonewall) et [StonewallX2](https://planb.network/fr/tutorials/privacy/stonewall-x2), qui permettent soit de faire un mini Coinjoin flexible, soit d’imiter un mini Coinjoin flexible. Il y a également les transactions [Ricochet](https://planb.network/fr/tutorials/privacy/ricochet) qui permettent de simuler un changement de propriétaire des bitcoins en réalisant une multitude de faux transferts vers soi-même.
 
-Tous ces outils sont disponibles sur les portefeuilles Samourai Wallet sur mobile, et Sparrow Wallet sur PC. Si vous souhaitez en savoir plus sur ces structures de transaction spécifiques, je vous conseille de lire mes tutoriels correspondants :
+Tous ces outils sont disponibles sur les portefeuilles Samourai Wallet sur mobile, et Sparrow Wallet sur PC. Si vous souhaitez en savoir plus sur ces structures de transaction spécifiques, je vous conseille de découvrir mes tutoriels :
 - [PAYJOIN](https://planb.network/fr/tutorials/privacy/payjoin) ;
 - [PAYJOIN - SAMOURAI WALLET](https://planb.network/fr/tutorials/privacy/payjoin-samourai-wallet) ;
-- 
-
-  
+- [PAYJOIN - SPARROW WALLET](https://planb.network/fr/tutorials/privacy/payjoin-sparrow-wallet) ;
+- [STONEWALL](https://planb.network/fr/tutorials/privacy/stonewall) ;
+- [STONEWALL X2](https://planb.network/fr/tutorials/privacy/stonewall-x2) ;
+- [RICOCHET](https://planb.network/fr/tutorials/privacy/ricochet).
 
 ## Conclusion
-
 L’analyse de chaîne est une pratique qui consiste à essayer de tracer les flux de bitcoins on-chain. Pour ce faire, les analystes cherchent des patterns et des caractéristiques afin de conclure des hypothèses et des interprétations plus ou moins vraisemblables.
-
-  
 
 L'exactitude de ces heuristiques varie : certaines procurent un degré de certitude plus élevé que d'autres, mais aucune ne saurait prétendre à l'infaillibilité. L’accumulation de plusieurs heuristiques convergentes peut toutefois atténuer ce doute inhérent, bien qu'il demeure impossible de l'annihiler.
 
-  
-
 Nous pouvons regrouper ces méthodes en trois grandes catégories distinctes :
-
 - Les patterns, axés sur la structure globale de chaque transaction ;
-    
 - Les heuristiques internes, qui permettent l'examen exhaustif de tous les détails d'une transaction, sans toutefois s'étendre à son contexte ;
-    
 - Les heuristiques externes, qui englobent l'analyse de la transaction dans son environnement, ainsi que toute donnée externe susceptible d'apporter un éclairage.
-    
 
 En tant qu'utilisateur de Bitcoin, il est indispensable de s'approprier les principes fondamentaux de l'analyse de chaîne pour être en mesure de la contrer efficacement, et ainsi de protéger sa vie privée.

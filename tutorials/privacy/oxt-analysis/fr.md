@@ -2,6 +2,8 @@
 name: OXT - Chain Analysis
 description: Maîtriser les bases de l’analyse de chaîne sur Bitcoin
 ---
+![cover](assets/cover.webp)
+
 Dans cet article, vous allez apprendre les fondements théoriques essentiels à maîtriser pour vous lancer dans des analyses de chaîne basiques sur Bitcoin, et surtout, pour comprendre comment opèrent ceux qui vous observent. Bien que cet article ne constitue pas un tutoriel pratique sur l'outil OXT (sujet que nous aborderons dans une future publication), il compile un ensemble de connaissances cruciales pour son utilisation. Pour chaque modèle, métrique et indicateur présenté, un lien vers une transaction exemple sur OXT est fourni, ce qui vous permettra de mieux comprendre son utilisation et de pouvoir pratiquer en parallèle de votre lecture.
 
 ## Introduction
@@ -26,11 +28,8 @@ Contrairement au modèle bancaire, on ne souhaite pas avoir à faire confiance �
 C'est précisément cette diffusion publique de l’information qui complique la protection de la vie privée sur Bitcoin. Dans le système bancaire traditionnel, en théorie, seule l'institution financière a connaissance des transactions effectuées. En revanche, sur Bitcoin, l'ensemble des utilisateurs est informé de toutes les transactions, via leurs nœuds respectifs.
 
 À cause de cette contrainte de diffusion, le modèle de confidentialité de Bitcoin diffère de celui du système bancaire. Dans ce dernier, les transactions sont associées à l’identité de l’utilisateur, mais le flux d’information est coupé entre le tiers de confiance et le public. Autrement dit, votre banquier sait que vous achetez votre baguette tous les matins au boulanger du coin, mais votre voisin n’a pas connaissance de toutes ces transactions. Dans le cas de Bitcoin, puisque le flux d’information ne peut pas être cassé entre les transactions et le domaine public, le modèle de confidentialité repose sur la séparation entre l’identité de l’utilisateur et les transactions en elles-mêmes.
-
-![Modèle de confidentialité de Bitcoin](https://static.wixstatic.com/media/23ab18_3fcd6f46a7ed4fc4b0816feb1f2c96a9~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_3fcd6f46a7ed4fc4b0816feb1f2c96a9~mv2.png)
-
+![analysis](assets/fr/1.webp)
 *Schéma inspiré de celui de Satoshi Nakamoto dans le White Paper : Bitcoin: A Peer-to-Peer Electronic Cash System, partie 10 « Privacy ».*
-
 
 Puisque les transactions Bitcoin sont rendues publiques, il devient possible d'établir des liens entre elles pour en déduire des renseignements sur les parties impliquées. Cette activité constitue même une spécialité en soi, communément appelée « analyse de chaîne ». Dans cet article, je vous invite à explorer les fondamentaux de l'analyse de chaîne afin de comprendre comment vos bitcoins sont tracés.
 
@@ -88,7 +87,7 @@ Un pattern de transaction est simplement un modèle de transaction typique, que 
 ### L’envoi simple (ou le paiement simple)
 Ce modèle se caractérise par la consommation d’un ou plusieurs UTXOs en entrée et la production de deux UTXOs en sortie.
 
-![Pattern envoi simple (ou le paiement simple)](https://static.wixstatic.com/media/23ab18_5ebef0159c304cb5a505a260f18baa44~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_5ebef0159c304cb5a505a260f18baa44~mv2.png)
+![analysis](assets/fr/2.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’une transaction d’envoi ou de paiement. L’utilisateur a consommé ses propres UTXOs en entrée pour satisfaire en sortie un UTXO de paiement et un UTXO de change (rendu de monnaie qui revient vers le même utilisateur). Nous savons donc que l’utilisateur observé n’est vraisemblablement plus en possession d’un des deux UTXOs en sortie (celui du paiement), mais qu’il est toujours en possession de l’autre UTXO (celui de change).
 
@@ -100,7 +99,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de l’envoi si
 ### Le balayage (« sweep » en anglais)
 Ce modèle se caractérise par la consommation d’un seul UTXO en entrée et la production d’un seul UTXO en sortie.
 
-![Le balayage (« sweep » en anglais) :](https://static.wixstatic.com/media/23ab18_a2a9ac3de40a4316b36e3022b54c17c3~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_a2a9ac3de40a4316b36e3022b54c17c3~mv2.png)
+![analysis](assets/fr/3.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’un auto-transfert. L’utilisateur s’est transféré ses bitcoins à lui-même, sur une autre adresse lui appartenant. En effet, puisqu’aucun change n'existe sur la transaction, il est très peu plausible que l’on soit en présence d’un paiement. Nous savons alors que l’utilisateur observé est vraisemblablement encore en possession de cet UTXO.
 
@@ -112,7 +111,7 @@ Attention, ce type de pattern peut également révéler un auto-transfert sur le
 ### La consolidation
 Ce modèle se caractérise par la consommation de plusieurs UTXOs en entrée et la production d’un seul UTXO en sortie.
 
-![la consolidation](https://static.wixstatic.com/media/23ab18_a29f0c081f7a4bcdbd1ce2fd209c153d~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_a29f0c081f7a4bcdbd1ce2fd209c153d~mv2.png)
+![analysis](assets/fr/4.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’une consolidation. C’est une pratique courante chez les utilisateurs de Bitcoin, visant à fusionner plusieurs UTXOs en anticipation d'une éventuelle augmentation des frais de transaction. En effectuant cette opération durant une période où les frais sont bas, il est possible de réaliser des économies sur les frais futurs.
 
@@ -126,7 +125,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de la consolida
 ### La dépense groupée
 Ce modèle se caractérise par la consommation de quelques UTXO en entrée (souvent un seul) et la production de nombreux UTXOs en sortie.
 
-![La dépense groupée :](https://static.wixstatic.com/media/23ab18_647b3a04939340148a914b25b304655a~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_647b3a04939340148a914b25b304655a~mv2.png)
+![analysis](assets/fr/5.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’une dépense groupée. C’est une pratique qui révèle vraisemblablement une grosse activité économique, comme un exchange par exemple. La dépense groupée permet à ces entités d’économiser des frais en réunissant leurs dépenses dans une seule transaction.
 
@@ -138,7 +137,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de la dépense 
 ### Les transactions propres à un protocole
 Parmi les patterns de transactions, nous pouvons également identifier des modèles qui révèlent l’utilisation d’un protocole spécifique. Par exemple, les coinjoins Whirlpool vont avoir une structure facilement identifiable qui permet de les différencier d'autres transactions classiques.
 
-![Les transactions propres à un protocole :](https://static.wixstatic.com/media/23ab18_8f1578d82ac74763b01e49b405f52f6b~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_8f1578d82ac74763b01e49b405f52f6b~mv2.png)
+![analysis](assets/fr/6.webp)
 
 L'analyse de ce pattern suggère que nous sommes vraisemblablement en présence d'une transaction collaborative. Il est aussi possible d'y observer un coinjoin. Si cette dernière hypothèse se révèle exacte, alors le nombre de sorties pourrait nous fournir une estimation approximative du nombre de participants.
 
@@ -161,7 +160,7 @@ Cette heuristique regroupe l’étude des similitudes entre les entrées et les 
 
 La caractéristique la plus flagrante est la réutilisation d’une adresse de réception dans une même transaction.
 
-![réutilisation d’une adresse de réception dans une même transaction](https://static.wixstatic.com/media/23ab18_8cf1223931124ab8a9e24ff62cb2ba2e~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_8cf1223931124ab8a9e24ff62cb2ba2e~mv2.png)
+![analysis](assets/fr/7.webp)
 
 Cette heuristique laisse peu de place au doute. À moins qu’il se soit fait pirater sa clé privée, une même adresse de réception révèle forcément l’activité d’un unique utilisateur. L’interprétation qui en découle est que le change de la transaction est la sortie avec la même adresse que l’entrée. On pourra ainsi continuer de tracer l’individu à partir de ce change.
 
@@ -170,7 +169,7 @@ Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliq
 
 Ces similitudes entre les entrées et les sorties ne s’arrêtent pas à la réutilisation d’adresse. Toute ressemblance dans l’utilisation des scripts peut permettre l’application d’une heuristique. Par exemple, on va parfois pouvoir observer le même versionnage entre l’entrée et une des sorties de la transaction.
 
-![le même versionnage entre l’entrée et une des sorties de la transaction](https://static.wixstatic.com/media/23ab18_c091fab1c2ba42a3a17144c0ab9bd303~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_c091fab1c2ba42a3a17144c0ab9bd303~mv2.png)
+![analysis](assets/fr/8.webp)
 
 Sur ce schéma, on peut voir que l’input (entrée) n° 0 débloque un script P2WPKH* (SegWit V0 commençant par « bc1q »). L’output (sortie) n° 0 utilise le même type de script. En revanche, l’output n° 1 utilise un script P2TR* (SegWit V1 commençant par « bc1p »). L’interprétation de cette caractéristique est qu’il est vraisemblable que l’adresse avec le même versionnage que l’entrée soit l’adresse de change. Elle appartiendrait donc toujours au même utilisateur.
 
@@ -182,7 +181,7 @@ Sur cette dernière, on peut voir que l’input n° 0 et l’output n° 1 utilis
 ### Les paiements par nombres ronds
 Une autre heuristique interne qui peut nous permettre d’identifier le change est celle du nombre rond. De manière générale, lorsque l’on se retrouve face à un pattern de paiement simple (1 entrée et 2 sorties), si une des sorties dépense un montant rond, alors celle-ci représente le paiement.
 
-![Les paiements par nombres ronds :](https://static.wixstatic.com/media/23ab18_34814333094c4bfc99c195f9535d4aac~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_34814333094c4bfc99c195f9535d4aac~mv2.png)
+![analysis](assets/fr/9.webp)
 
 Par élimination, si une sortie représente le paiement, l’autre représente le change. On peut donc interpréter qu’il est vraisemblable que l’utilisateur en entrée soit toujours en possession de la sortie identifiée comme étant le change.
 
@@ -196,7 +195,7 @@ Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliq
 ### La grande sortie
 Lorsque l’on repère un écart suffisamment large entre 2 sorties de transactions sur un modèle de paiement simple, on peut estimer que la sortie la plus grande est vraisemblablement le change.
 
-![La grande sortie :](https://static.wixstatic.com/media/23ab18_f21d36083e6e4ddc938a292cd7a4b8ab~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_f21d36083e6e4ddc938a292cd7a4b8ab~mv2.png)
+![analysis](assets/fr/10.webp)
 
 Cette heuristique du plus gros output (sortie) est sûrement la plus imprécise de toutes. Si on l’identifie seule, elle est assez faible. Toutefois, cette caractéristique peut être additionnée avec d’autres heuristiques afin de réduire l’incertitude de notre interprétation.
 
@@ -238,7 +237,7 @@ Pour appliquer la CIOH, on va d’abord observer une transaction qui dispose de 
 
 En revanche, si la transaction ne rentre dans aucun pattern connu de transaction collaborative, alors on peut interpréter que toutes les entrées proviennent vraisemblablement de la même entité. Cela peut être très utile pour élargir un cluster déjà connu ou pour perpétuer un traçage.
 
-![Common Input Ownership Heuristic](https://static.wixstatic.com/media/23ab18_2f4d58ca46d54257aa101af44a265587~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_2f4d58ca46d54257aa101af44a265587~mv2.png)
+![analysis](assets/fr/11.webp)
 
 La CIOH a été découverte par Satoshi Nakamoto. Il en parle dans la partie 10 du White Paper (livre blanc) : « *[...] le lien est inévitable avec les transactions à plusieurs entrées, qui révèlent nécessairement que leurs entrées étaient détenues par un même propriétaire. Le risque est que si le propriétaire d'une clé est révélé, les liens peuvent révéler d'autres transactions qui ont appartenu au même propriétaire.* »
 
@@ -269,10 +268,8 @@ Au contraire, si l’on voit que le pattern temporel est plutôt réparti sur 16
 Au-delà de la nature de l’entité observée, le pattern temporel peut également nous indiquer approximativement la localisation de l’utilisateur. On pourra ainsi rapprocher d’autres transactions, et utiliser l’horodatage de celles-ci comme une heuristique supplémentaire pouvant s’ajouter à notre analyse.
 
 Par exemple, sur l'adresse réutilisée plusieurs fois dont je vous ai préalablement parlé, on peut observer que les transactions, qu'elles soient entrantes ou sortantes, se concentrent sur un intervalle de 13 heures.
-
-![analyse temporelle](https://static.wixstatic.com/media/23ab18_d488bfebd13b449ba1817cc8d782bc1b~mv2.png/v1/fill/w_740,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_d488bfebd13b449ba1817cc8d782bc1b~mv2.png)
-
-*[https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)*
+![analysis](assets/fr/12.webp)
+*Crédit : [https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)*
 
 Cet intervalle correspond vraisemblablement à l’Europe, à l’Afrique ou au Moyen-Orient. On peut donc interpréter que l’utilisateur derrière ces transactions habite par là.
 
@@ -317,7 +314,7 @@ La technique la plus populaire est sûrement le Coinjoin, une structure de trans
 - [COINJOIN - SPARROW WALLET](https://planb.network/fr/tutorials/privacy/coinjoin-sparrow-wallet) ;
 - [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/fr/tutorials/privacy/wst-anonsets).
 
-![coinjoin schéma](https://static.wixstatic.com/media/23ab18_3dacdde31e6d422bbba0cf36d9830605~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_3dacdde31e6d422bbba0cf36d9830605~mv2.png)
+![analysis](assets/fr/13.webp)
 
 Le CoinJoin est un excellent outil pour produire du déni plausible sur des pièces, mais il n’est pas optimisé pour tous les besoins de l’utilisateur en termes de confidentialité. Typiquement, le CoinJoin n’a pas été pensé pour devenir un outil de paiement. Il est très rigide sur les montants échangés afin de perfectionner la production de déni plausible. Puisque l’on ne peut pas choisir librement le montant des sorties de transaction, alors on ne peut pas utiliser le CoinJoin pour payer en bitcoins.
 
@@ -329,7 +326,7 @@ La particularité du PayJoin réside dans sa capacité à produire une transacti
 
 Par exemple, si vous achetez une baguette à votre boulanger pour 6 000 sats à partir d’un UTXO de 10 000 sats, et que vous souhaitez faire un PayJoin, votre boulanger va ajouter en entrée de votre transaction originelle un UTXO de 15 000 sats qui lui appartient, qu’il va récupérer en intégralité en sortie, afin de tromper les heuristiques :
 
-![Payjoin schéma](https://static.wixstatic.com/media/23ab18_a6386fb54436466589e16eae9bf0ddea~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23ab18_a6386fb54436466589e16eae9bf0ddea~mv2.png)
+![analysis](assets/fr/14.webp)
 
 Les frais de transaction sont négligés afin de faciliter la compréhension du schéma.
 
@@ -360,3 +357,12 @@ Nous pouvons regrouper ces méthodes en trois grandes catégories distinctes :
 - Les heuristiques externes, qui englobent l'analyse de la transaction dans son environnement, ainsi que toute donnée externe susceptible d'apporter un éclairage.
 
 En tant qu'utilisateur de Bitcoin, il est indispensable de s'approprier les principes fondamentaux de l'analyse de chaîne pour être en mesure de la contrer efficacement, et ainsi de protéger sa vie privée.
+
+## Miniglossaire technique :
+**P2PKH :** sigle pour Pay to Public Key Hash (« payer au hachage d’une clé publique »). C’est un modèle de script standard utilisé pour établir des conditions de dépenses sur un UTXO. Il permet de bloquer des bitcoins sur un hachage d’une clé publique, c’est-à-dire sur une adresse de réception. Ce script est associé au standard Legacy, et a été introduit dès les premières versions de Bitcoin par Satoshi Nakamoto. À la différence du P2PK, où la clé publique est explicitement incluse dans le script, le P2PKH utilise une empreinte cryptographique de la clé publique, avec quelques métadonnées, également nommée « adresse de réception ». Ce script inclut le hachage RIPEMD160 du SHA256 de la clé publique et stipule que, pour accéder aux fonds, le destinataire doit fournir une clé publique correspondant à ce hachage, ainsi qu'une signature numérique valide générée à partir de la clé privée associée. Les adresses P2PKH sont encodées en utilisant le format Base58Check, qui leur confère une résistance face aux erreurs typographiques grâce à l'utilisation d'une somme de contrôle. Ces adresses débutent systématiquement par le chiffre 1.
+
+**P2TR :** sigle pour Pay to Taproot (« payer à la racine »). C’est un modèle de script standard utilisé pour établir des conditions de dépenses sur un UTXO. P2TR a été introduit avec l'implémentation de Taproot en novembre 2021. Il utilise le protocole de Schnorr pour agréger des clés cryptographiques, ainsi que des arbres de Merkle pour des scripts alternatifs, connus sous le nom de MAST (Merkelized Alternative Script Tree). Contrairement aux transactions traditionnelles où les conditions de dépense sont exposées publiquement (parfois à la réception, parfois à la dépense), P2TR permet de masquer des scripts complexes derrière une seule clé publique apparente. Techniquement, un script P2TR verrouille des bitcoins sur une clé publique Schnorr unique, dénommée K. Cependant, cette clé K est en réalité un agrégat d'une clé publique P et d'une clé publique M, cette dernière étant calculée à partir de la racine de Merkle d'une liste de ScriptPubKeys. L'agrégation de clés est réalisée à l'aide du protocole de signature de Schnorr. Les bitcoins verrouillés avec un script P2TR peuvent être dépensés de deux manières distinctes : soit en publiant une signature pour la clé publique P, soit en satisfaisant l'un des scripts contenus dans l'arbre de Merkle. La première option est appelée « key path » (chemin de clé) et la seconde « script path » (chemin de script). Ainsi, P2TR permet aux utilisateurs d'envoyer des bitcoins soit à une clé publique, soit à plusieurs scripts de leur choix. Un autre avantage de ce script est que, bien qu'il y ait de multiples façons de dépenser une sortie P2TR, seule celle qui est utilisée doit être révélée à la dépense, permettant ainsi aux alternatives inutilisées de rester privées. Par exemple, grâce à l'agrégation des clés Schnorr, la clé publique P peut elle-même être une clé agrégée, représentant éventuellement un multisig. P2TR est une sortie SegWit de version 1, ce qui signifie que les signatures pour les entrées P2TR sont stockées dans le témoin d'une transaction, et non dans le ScriptSig. Les adresses P2TR utilisent un encodage Bech32m et commencent par bc1p.
+
+**P2WPKH :** sigle pour Pay to Witness Public Key Hash (« payer au témoin du hachage de la clé publique »). C’est un modèle de script standard utilisé pour établir des conditions de dépenses sur un UTXO. P2WPKH a été introduit avec l'implémentation de SegWit en août 2017. Ce script est similaire à P2PKH (Pay to Public Key Hash), en ce sens qu'il verrouille également des bitcoins sur la base du hachage d'une clé publique, c’est-à-dire d’une adresse de réception. La différence réside dans la manière dont les signatures et les scripts sont inclus dans la transaction. Dans le cadre de P2WPKH, les informations du script de signature (ScriptSig) sont déplacées de la structure traditionnelle de la transaction vers une section distincte appelée Witness (témoin). Ce déplacement est une caractéristique de la mise à jour SegWit (Segragated Witness). Cette technique présente l'avantage de réduire la taille des données de transaction dans le corps principal, tout en conservant les informations de script nécessaires à la validation dans une section séparée. Par conséquent, les transactions P2WPKH sont généralement moins coûteuses en termes de frais par rapport aux transactions Legacy. Les adresses P2WPKH sont écrites en utilisant l'encodage Bech32, ce qui contribue à une écriture plus concise et moins sujette aux erreurs typographiques grâce à la somme de contrôle sous forme de code BCH. Ces adresses commencent toujours par bc1q, ce qui permet de les distinguer facilement des adresses de réception Legacy. P2WPKH est une sortie SegWit de version 0.
+
+**UTXO :** Sigle de Unspent Transaction Output. Un UTXO est une sortie de transaction qui n'a pas encore été dépensée ou utilisée comme entrée pour une nouvelle transaction. Les UTXOs représentent la fraction de bitcoins que possède un utilisateur et qui sont actuellement disponibles pour être dépensés. Chaque UTXO est associé à un script de sortie spécifique, qui définit les conditions nécessaires pour dépenser les bitcoins. Les transactions dans Bitcoin consomment ces UTXOs en entrées (inputs) et créent de nouveaux UTXOs en sorties (outputs). Le modèle d'UTXO est fondamental sur Bitcoin, car il permet de vérifier facilement que les transactions n'essaient pas de dépenser des bitcoins qui n'existent pas ou qui ont déjà été dépensés. En gros, un UTXO c’est un morceau de Bitcoin.

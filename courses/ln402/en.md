@@ -51,6 +51,7 @@ Good luck with your studies.
 # Learn how to code with the rust book
 
 ## Introduction to Rust (1/7)
+<professor>radio-talent</professor>
 
 ![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
 

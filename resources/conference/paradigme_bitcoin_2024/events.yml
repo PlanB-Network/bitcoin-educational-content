@@ -6,8 +6,8 @@ events:
     builder: Paradigme Bitcoin
     type: conference
     language: 
-    - en
-    - fr
+      - en
+      - fr
     description: L'évènement Bitcoin suisse de l'été 2024!
     links:
       website: https://leparadigmebitcoin.ch/

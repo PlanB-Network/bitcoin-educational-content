@@ -1,0 +1,19 @@
+events: 
+  - date start: 2024-10-25
+    date finish: 2024-10-26
+    location: Lugano, switzerland
+    name: PlanB Lugano Forum 2024
+    builder: Lugano's Plan B
+    type: conference
+    language: 
+      - en
+      - it
+    description: Lugano's Plan ₿ Forum is the premier Bitcoin conference bringing together world leaders, technologists, and entrepreneurs to discuss Bitcoin adoption, economics, financial freedom, and freedom of speech.
+    links:
+      website: https://planb.lugano.ch/planb-forum/
+    tag: 
+      - International
+      - All Public
+      - General
+
+

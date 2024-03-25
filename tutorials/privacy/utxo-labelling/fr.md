@@ -20,7 +20,7 @@ Reprenons l'exemple de mon UTXO no-KYC issu de Bisq ; je souhaite éviter de le 
 ## Comment bien étiqueter ses UTXO ?
 Il n'y a pas de méthode universelle pour l'étiquetage des UTXO qui puisse convenir à tous. C'est à vous de définir un système d'étiquetage pour que vous puissiez facilement vous y retrouver sur votre portefeuille. 
 
-Un critère primordial dans l'étiquetage est la source de l'UTXO. Vous devriez simplement indiquer la manière dont cette pièce est parvenue dans votre portefeuille. Est-elle issue d'une plateforme d'échange ? D'un règlement de facture par un client ? D'un échange pair-à-pair ? Ou représente-t-elle le change d'une dépense ? Ainsi, vous pourriez spécifier :
+Un critère primordial dans l'étiquetage est la source de l'UTXO. Vous devriez simplement indiquer la manière dont cette pièce est parvenue dans votre portefeuille. Est-elle issue d'une plateforme d'échange ? D'un règlement de facture par un client ? D'un échange pair-à-pair ? Ou bien représente-t-elle le change d'une dépense ? Ainsi, vous pourriez spécifier :
 - `Retrait Exchange.com` ;
 - `Paiement Client X` ;
 - `Achat P2P Charles` ;
@@ -35,8 +35,6 @@ Pour affiner votre gestion des UTXO et respecter vos stratégies de ségrégatio
 Dans tous les cas, gardez à l'esprit qu'un bon étiquetage est un étiquetage que vous pourrez comprendre lorsque vous en aurez besoin. Si votre portefeuille Bitcoin est principalement destiné à l'épargne, il se peut que les étiquettes ne vous soient utiles que dans plusieurs décennies. Assurez-vous donc qu'elles soient claires, précises et exhaustives.
 
 Il est également conseillé de perpétuer l'étiquetage d'une pièce au fil des transactions. Par exemple, lors d'une consolidation d'UTXO no-KYC, assurez-vous de marquer l'UTXO résultant non pas seulement comme `consolidation`, mais spécifiquement comme `consolidation no-KYC` pour conserver une trace claire de sa provenance.
-
-Quant à l'ajout d'une date sur les étiquettes, ce n'est pas une nécessité. La plupart des portefeuilles logiciels affichent déjà la date de transaction, et il est toujours possible de retrouver cette information sur un explorateur de blocs grâce au TXID de la transaction.
 
 Enfin, il n'est pas obligatoire de mettre une date sur une étiquette. La plupart des logiciels de portefeuilles affichent déjà la date de transaction, et il est toujours possible de retrouver cette information sur un explorateur de blocs grâce au TXID de la transaction.
 

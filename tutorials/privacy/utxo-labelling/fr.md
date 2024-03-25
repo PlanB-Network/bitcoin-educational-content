@@ -22,13 +22,13 @@ Il n'y a pas de méthode universelle pour l'étiquetage des UTXO qui puisse conv
 
 Un critère primordial dans l'étiquetage est la source de l'UTXO. Vous devriez simplement indiquer la manière dont cette pièce est parvenue dans votre portefeuille. Est-elle issue d'une plateforme d'échange ? D'un règlement de facture par un client ? D'un échange pair-à-pair ? Ou bien représente-t-elle le change d'une dépense ? Ainsi, vous pourriez spécifier :
 - `Retrait Exchange.com` ;
-- `Paiement Client X` ;
+- `Paiement Client David` ;
 - `Achat P2P Charles` ;
 - `Change achat canapé`.
 
 Pour affiner votre gestion des UTXO et respecter vos stratégies de ségrégation de fonds au sein de votre portefeuille, vous pourriez enrichir vos étiquetages d'un indicateur supplémentaire qui reflète ces choix. Si votre portefeuille contient deux catégories d'UTXO que vous tenez à ne pas mélanger, vous pourriez intégrer un marqueur distinctif dans vos étiquettes pour distinguer clairement ces groupes. Ces marqueurs de séparation dépendront de vos propres critères, tels que la distinction entre UTXO KYC (connaissant votre identité) et no-KYC (anonymes), ou encore entre fonds professionnels et personnels. En reprenant les exemples d'étiquettes mentionnés précédemment, cela pourrait se traduire par :
 - `KYC - Retrait Exchange.com` ;
-- `KYC - Paiement Client X` ;
+- `KYC - Paiement Client David` ;
 - `NO KYC - Achat P2P Charles` ;
 - `NO KYC - Change achat canapé`.
 ![labelling](assets/fr/2.webp)

@@ -35,7 +35,7 @@ Il primo indicatore che il software calcola è il numero totale di combinazioni 
 
 Tenendo conto dei valori degli UTXO coinvolti nella transazione, questo indicatore calcola il numero di modi in cui gli input possono essere associati agli output. In altre parole, determina il numero di interpretazioni plausibili che una transazione può suscitare dal punto di vista di un osservatore esterno che la analizza.
 Ad esempio, un coinjoin strutturato secondo il modello Whirlpool 5x5 presenta `1.496` combinazioni possibili: ![KYCP](assets/4.webp)
-Un coinjoin Whirlpool Surge Cycle 7x7, d'altra parte, presenta `9.934.563` interpretazioni possibili: ![KYCP](assets/5.webp)
+Un coinjoin Whirlpool Surge Cycle 8x8, d'altra parte, presenta `9.934.563` interpretazioni possibili: ![KYCP](assets/5.webp)
 Al contrario, una transazione più tradizionale con 1 input e 2 output presenterà una sola interpretazione: ![KYCP](assets/6.webp)
 
 ### Entropia:
@@ -65,7 +65,7 @@ E = log2(1,496)
 E = 10.5469 bit
 ```
 Quindi, questa transazione coinjoin mostra un'entropia di `10.5469 bit`, che è considerata molto soddisfacente. Più alto è questo valore, più diverse interpretazioni ammette la transazione, rafforzando così il suo livello di privacy.
-Per una transazione coinjoin 7x7 che presenta `9,934,563` interpretazioni, l'entropia sarebbe:
+Per una transazione coinjoin 8x8 che presenta `9,934,563` interpretazioni, l'entropia sarebbe:
 ```
 C = 9,934,563
 E = log2(9,934,563)
@@ -128,11 +128,11 @@ E = 10.5469
 ED = 10.5469 / 10 = 1.054 bit
 ```
 
-Calcoliamo anche la densità di entropia per un coinjoin Whirlpool 7x7:
+Calcoliamo anche la densità di entropia per un coinjoin Whirlpool 8x8:
 ```
-T = 7 + 7 = 14
+T = 8 + 8 = 16
 E = 23.244
-ED = 23.244 / 14 = 1.66 bit
+ED = 23.244 / 16 = 1.453 bits
 ```
 
 ### Punteggio di Boltzmann:
@@ -154,7 +154,7 @@ Interpretazioni Totali = 1496
 Punteggio = 512 / 1496 = 34%
 ```
 
-Prendendo l'esempio di un coinjoin Whirlpool 7x7 (ciclo di surge), la tabella di Boltzmann sarebbe così:
+Prendendo l'esempio di un coinjoin Whirlpool 8x8 (ciclo di surge), la tabella di Boltzmann sarebbe così:
 
 |       | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|

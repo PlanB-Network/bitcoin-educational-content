@@ -37,7 +37,7 @@ En prenant en compte les valeurs des UTXO impliqués dans la transaction, cet in
 
 À titre d'exemple, un coinjoin structuré selon le modèle Whirlpool 5x5 présente `1 496` combinaisons possibles :
 ![KYCP](assets/4.webp)
-Un coinjoin Whirlpool Surge Cycle 7x7 présente lui `9 934 563` interprétations possibles :
+Un coinjoin Whirlpool Surge Cycle 8x8 présente lui `9 934 563` interprétations possibles :
 ![KYCP](assets/5.webp)
 En revanche, une transaction plus classique avec 1 input et 2 outputs présentera seulement une seule interprétation :
 ![KYCP](assets/6.webp)
@@ -72,7 +72,7 @@ E = 10.5469 bits
 
 Ainsi, cette transaction coinjoin affiche une entropie de `10.5469 bits`, ce qui est considéré comme très satisfaisant. Plus cette valeur est élevée, plus la transaction admet d'interprétations différentes, renforçant par conséquent son niveau de confidentialité.
 
-Pour une transaction coinjoin 7x7 présentant `9 934 563` interprétations, l'entropie serait :
+Pour une transaction coinjoin 8x8 présentant `9 934 563` interprétations, l'entropie serait :
 ```
 C = 9 934 563
 E = log2(9 934 563)
@@ -139,11 +139,11 @@ E = 10.5469
 ED = 10.5469 / 10 = 1.054 bits
 ```
 
-Calculons également la densité de l'entropie pour un coinjoin Whirlpool 7x7 :
+Calculons également la densité de l'entropie pour un coinjoin Whirlpool 8x8 :
 ```
-T = 7 + 7 = 14
+T = 8 + 8 = 16
 E = 23.244
-ED = 23.244 / 14 = 1.66 bits
+ED = 23.244 / 16 = 1.453 bits
 ```
 
 ### Score de Boltzmann :
@@ -171,7 +171,7 @@ Interprétations totales = 1496
 Score = 512 / 1496 = 34 %
 ```
 
-Si l'on reprend l'exemple d'un coinjoin Whirlpool 7x7 (surge cycle), le tableau de Boltzmann ressemblerait à cela :
+Si l'on reprend l'exemple d'un coinjoin Whirlpool 8x8 (surge cycle), le tableau de Boltzmann ressemblerait à cela :
 
 |       | OUT.0 | OUT.1 | OUT.2 | OUT.3 | OUT.4 | OUT.5 | OUT.6 | OUT.7 |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|

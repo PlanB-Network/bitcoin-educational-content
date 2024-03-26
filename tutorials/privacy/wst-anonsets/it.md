@@ -2,7 +2,7 @@
 name: Whirlpool Stats Tools - Anonsets
 description: Comprendere il concetto di anonset e come calcolarlo con WST
 ---
-![cover](assets/cover.jpg)
+![cover](assets/cover.jpeg)
 
 *"Interrompi il collegamento lasciato dalle tue monete"*
 

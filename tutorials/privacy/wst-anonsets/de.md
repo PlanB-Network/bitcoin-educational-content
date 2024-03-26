@@ -2,7 +2,7 @@
 name: Whirlpool Stats Tools - Anonsets
 description: Verstehen Sie das Konzept von Anonsets und wie man es mit WST berechnet
 ---
-![cover](assets/cover.jpg)
+![cover](assets/cover.jpeg)
 
 *"Unterbrechen Sie die Spur, die Ihre Münzen hinterlassen"*
 

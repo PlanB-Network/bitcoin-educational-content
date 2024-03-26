@@ -2,7 +2,7 @@
 name: Calculadora Boltzmann
 description: Entenda o conceito de entropia e como usar a Boltzmann
 ---
-![cover](assets/cover.png)
+![cover](assets/cover.jpeg)
 
 A Calculadora Boltzmann é uma ferramenta para analisar uma transação Bitcoin medindo seu nível de entropia junto com outras métricas avançadas. Ela fornece insights sobre as conexões entre as entradas e saídas de uma transação. Esses indicadores oferecem uma avaliação quantificada da privacidade de uma transação e ajudam a identificar potenciais erros.
 

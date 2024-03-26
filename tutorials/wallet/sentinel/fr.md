@@ -9,17 +9,17 @@ description: Qu'est-ce qu'un wallet Watch-Only et comment l'utiliser ?
 Dans cet article, nous explorons tout ce qu'il faut savoir sur les portefeuilles watch-only. Nous abordons leur fonctionnement et étudions les différentes applications disponibles sur le marché. Enfin, nous vous proposons un tutoriel détaillé sur l'une des applications de portefeuille watch-only les plus populaires : Sentinel.
 
 ## C'est quoi un Watch-Only Wallet ?
-Un portefeuille en lecture seule, ou watch-only wallet, est un type de logiciel conçu pour permettre à l'utilisateur d'observer les transactions associées à une ou plusieurs clés Bitcoin spécifiques, sans pour autant avoir accès aux clés privées correspondantes.
+Un portefeuille en lecture seule, ou watch-only wallet, est un type de logiciel conçu pour permettre à l'utilisateur d'observer les transactions associées à une ou plusieurs clés publiques Bitcoin spécifiques, sans pour autant avoir accès aux clés privées correspondantes.
 
 Ce type d'application conserve uniquement les données nécessaires à la surveillance d'un portefeuille Bitcoin, notamment pour voir son solde et son historique des transactions, mais elle n'a pas accès aux clés privées. Ainsi, il est impossible de dépenser les bitcoins détenus par le portefeuille sur l'application watch-only.
 ![watch-only](assets/fr/1.webp)
-On utilise généralement le watch-only en conjonction avec un portefeuille matériel, ou hardware wallet. Celui-ci va permettre de stocker les clés privées du portefeuille « à froid », sur un matériel non connecté à internet, qui dispose d'une infime surface d'attaque, ce qui isole les clés privées des environnements potentiellement vulnérables. L'application watch-only, elle, stocke exclusivement la clé publique étendue (`xpub`, `zpub`, etc.) du portefeuille Bitcoin. Cette clé parent ne permet pas de trouver les clés privées associées et, par conséquent, ne permet pas de dépenser les bitcoins. Toutefois, elle permet la dérivation des clés publiques enfant et des adresses de réception. Grâce à la connaissance des adresses du portefeuille sécurisé par le hardware wallet, l'application watch-only peut suivre ses transactions sur le réseau Bitcoin, ce qui offre à l'utilisateur la possibilité de surveiller son solde et de générer de nouvelles adresses de réception, sans avoir à connecter à chaque fois son hardware wallet.
+On utilise généralement le watch-only en conjonction avec un portefeuille matériel (hardware wallet). Celui-ci va permettre de stocker les clés privées du portefeuille « à froid », sur un matériel non connecté à internet, qui dispose d'une infime surface d'attaque, ce qui isole les clés privées des environnements potentiellement vulnérables. L'application watch-only, elle, stocke exclusivement la clé publique étendue (`xpub`, `zpub`, etc.) du portefeuille Bitcoin. Cette clé parente ne permet pas de trouver les clés privées associées et, par conséquent, ne permet pas de dépenser les bitcoins. Toutefois, elle permet la dérivation des clés publiques enfants et des adresses de réception. Grâce à la connaissance des adresses du portefeuille sécurisé par le hardware wallet, l'application watch-only peut suivre ces transactions sur le réseau Bitcoin, ce qui offre à l'utilisateur la possibilité de surveiller son solde et de générer de nouvelles adresses de réception, sans avoir à connecter à chaque fois son hardware wallet.
 
 ## Quel Watch-Only Wallet utiliser ?
 À l'heure actuelle, l'application de watch-only la plus complète est [Sentinel](https://sentinel.watch/), développée par les équipes de Samourai Wallet. Elle regroupe l'ensemble des fonctionnalités essentielles pour un bon portefeuille watch-only :
 - Support des clés étendues, des clés publiques et des adresses ;
 - Possibilité de classer plusieurs comptes ou portefeuilles dans des collections ;
-- Génération d'adresses pour recevoir des bitcoins sur son hardware wallet sans nécessiter son emploi direct ;
+- Génération d'adresse pour recevoir des bitcoins sur son hardware wallet sans nécessiter son emploi direct ;
 - Possibilité de construire et de diffuser des transactions hors-ligne ;
 - Option de connexion à son propre nœud Bitcoin ;
 - Intégration de Tor pour une confidentialité accrue.
@@ -56,7 +56,7 @@ Vous arriverez ensuite sur la page principale de Sentinel.
 
 ![watch-only](assets/fr/6.webp)
 
-Pour commencer, vous pouvez paramétrer l'application. Pour ce faire, cliquez sur les trois petits points en haut à droite, puis sur `Settings`.
+Pour commencer, vous pouvez paramétrer l'application. Cliquez sur les trois petits points en haut à droite, puis sur `Settings`.
 
 ![watch-only](assets/fr/7.webp)
 
@@ -93,7 +93,7 @@ On vous proposera ensuite de choisir la collection dans laquelle vous désirez i
 
 ![watch-only](assets/fr/14.webp)
 
-Pour voir en détail les différentes clés étendues d'une collection, il suffit de cliquer dessus. Vous pourrez ensuite naviguer dans les différents onglets pour voir l'historique des transactions.
+Pour voir en détail les clés étendues d'une collection, il suffit de cliquer dessus. Vous pourrez ensuite naviguer dans les différents onglets pour voir l'historique des transactions.
 
 ![watch-only](assets/fr/15.webp)
 
@@ -104,22 +104,22 @@ Depuis une collection, en tapant sur les trois petits points en haut à droite, 
 ### Envoi et réception de bitcoins depuis Sentinel
 Comme tout bon portefeuille watch-only, Sentinel vous permet de générer des adresses de réception pour recevoir des bitcoins sur le portefeuille tracé. Mais Sentinel offre également une autre fonctionnalité avancée : la création et la diffusion d'une transaction Bitcoin partiellement signée (PSBT). Ainsi, le portefeuille détenteur des clés privées peut signer cette transaction, laquelle, une fois signée, peut être diffusée sur le réseau Bitcoin par Sentinel. Voyons ensemble comment faire tout cela.
 
-**Attention, il est déconseillé de recevoir des bitcoins sur une adresse de réception non vérifiée par le portefeuille lui-même.** Si le portefeuille détenteur des clés privées, tel qu'un hardware wallet, ne vous a pas explicitement confirmé qu'une certaine adresse lui est affiliée, l'envoi de bitcoins vers cette adresse est un pratique risquée. En effet, sans cette confirmation, rien ne garantit que l'adresse appartient véritablement à votre portefeuille. Il est donc important d'utiliser avec prudence la fonctionnalité de réception d'un portefeuille watch-only et de garder à l'esprit que les fonds envoyés peuvent potentiellement être perdus.
+**Attention, il est déconseillé de recevoir des bitcoins sur une adresse de réception non vérifiée par le portefeuille lui-même.** Si le portefeuille détenteur des clés privées, tel qu'un hardware wallet, ne vous a pas explicitement confirmé qu'une certaine adresse lui est affiliée, l'envoi de bitcoins vers cette adresse est une pratique risquée. En effet, sans cette confirmation, rien ne garantit que l'adresse appartient véritablement à votre portefeuille. Il faut donc utiliser avec prudence la fonctionnalité de réception d'un portefeuille watch-only et garder à l'esprit que les fonds envoyés peuvent potentiellement être perdus.
 
 Pour recevoir des bitcoins via Sentinel, sélectionnez la collection qui vous intéresse, puis cliquez sur l'onglet correspondant à la clé publique étendue vers laquelle vous souhaitez transférer des fonds.
 
 ![watch-only](assets/fr/17.webp)
 
-Enfin, cliquez sur l'icone de la flèche en bas à gauche de l'écran. Sentinel vous génère ensuite une adresse de réception vierge. Vous pouvez la copier ou bien la scanner à l'aide du code QR.
+Enfin, cliquez sur l'icône de la flèche en bas à gauche de l'écran. Sentinel vous génère ensuite une adresse de réception vierge. Vous pouvez la copier, ou bien la scanner à l'aide du code QR.
 
 ![watch-only](assets/fr/18.webp)
 
-Pour générer une PSBT à partir de Sentinel, et donc initier une transaction de dépense, rendez-vous sur la clé étendue du portefeuille à partir duquel vous désirez effectuer le paiement. Prenons pour exemple mon compte de dépôt sur mon portefeuille Samourai. Cliquez ensuite sur l'icône représentant une flèche située en bas à droite de l'écran.
+Pour générer une PSBT à partir de Sentinel, et donc lancer une transaction de dépense, rendez-vous sur la clé étendue du portefeuille à partir duquel vous désirez effectuer le paiement. Prenons par exemple mon compte de dépôt sur mon portefeuille Samourai. Cliquez ensuite sur l'icône représentant une flèche située en bas à droite de l'écran.
 
 ![watch-only](assets/fr/19.webp)
 
-Saisissez ensuite l'ensemble des paramètres relatifs à votre transaction :
-- Indiquez l'adresse destinataire (en utilisant l'icône du QR code, vous avez la possibilité de scanner cette adresse) ;
+Saisissez l'ensemble des paramètres relatifs à votre transaction :
+- Indiquez l'adresse du destinataire (en cliquant sur l'icône du QR code, vous avez la possibilité de scanner cette adresse) ;
 - Précisez le montant à envoyer à cette adresse ;
 - Déterminez les frais de transaction.
 
@@ -127,7 +127,7 @@ Lorsque vous avez complété tous les champs nécessaires pour votre transaction
 
 ![watch-only](assets/fr/20.webp)
 
-Vous accéderez alors au PSBT, qui représente une transaction Bitcoin construite mais non signée, étant donné que Sentinel n'a pas accès à vos clés privées. Il vous est possible de copier cette transaction, de l'exporter sous forme de fichier `.psbt`, ou encore de la scanner via le code QR animé.
+Vous accéderez alors au PSBT, qui représente une transaction Bitcoin construite, mais non signée, étant donné que Sentinel n'a pas accès à vos clés privées. Il vous est possible de copier cette transaction, de l'exporter sous forme de fichier `.psbt`, ou encore de la scanner via le code QR animé.
 
 ![watch-only](assets/fr/21.webp)
 

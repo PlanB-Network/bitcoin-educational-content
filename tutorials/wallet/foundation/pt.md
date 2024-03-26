@@ -6,8 +6,6 @@ description: Como configurar seu dispositivo Foundation
 
 ![capa](assets/cover.jpeg)
 
-# Fondation
-
 A auto-guarda finalmente é possível com a carteira de hardware Passport e a carteira móvel Envoy. https://foundationdevices.com/
 
 Especificações principais
@@ -19,7 +17,7 @@ Especificações principais
 - Bateria Bateria de íon de lítio removível pelo usuário de 1200 mAh no formato Nokia BL-5C (incluída na compra).
 - Recursos de segurança Airgapped, entrada fácil de frase de acesso, luzes de segurança, palavras anti-phishing, validação de segurança.
 
-![dispositivo](assets/1.jpeg)
+![dispositivo](assets/1.webp)
 
 # vídeo tutorial
 

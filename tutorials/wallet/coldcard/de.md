@@ -6,8 +6,6 @@ description: Erstellung, Sicherung und Verwendung eines Bitcoin-Privatschlüssel
 
 ![cover](assets/cover.jpeg)
 
-# ColdCard
-
 Erstellung, Sicherung und Verwendung eines Bitcoin-Privatschlüssels mit einer Coldcard und Bitcoin Core
 
 ## Vollständiger Leitfaden zur Generierung eines Privatschlüssels mit einer Coldcard und zur Verwendung über die Benutzeroberfläche Ihres Bitcoin Core-Knotens!
@@ -42,7 +40,7 @@ Verbindung zur Coldcard mit PIN > Neue Seed-Wörter > 24-Wort-Würfelwurf
 
 Führen Sie 100 Würfelwürfe durch und notieren Sie das Ergebnis von 1 bis 6 auf der Coldcard nach jedem Wurf. Durch diese Methode erzeugen Sie 256 Bytes Entropie, was die Erzeugung eines vollständig zufälligen privaten Schlüssels ermöglicht. Coinkite stellt auch die erforderliche Dokumentation zur unabhängigen Überprüfung ihres Entropieerzeugungssystems zur Verfügung.
 
-![Screenshot Visuel Cold Card](assets/guide-agora/1.jpeg)
+![Screenshot Visuel Cold Card](assets/guide-agora/1.webp)
 
 Nach Abschluss der 100 Würfelwürfe drücken Sie ✓ und notieren die erhaltenen 24 Wörter in der richtigen Reihenfolge. Überprüfen Sie zweimal und drücken Sie ✓. Schließlich müssen Sie nur noch den 24-Wort-Überprüfungstest auf der Coldcard abschließen, und voilà, Ihr neuer privater Schlüssel ist erstellt!
 
@@ -58,7 +56,7 @@ Eine geheime Passphrase ist ein großartiges Element, das zu einer Wallet-Konfig
 
 Das Ziel besteht darin, die geheime Passphrase separat von der Mnemonik-Phrase zu notieren, da ein Angreifer, der Zugriff auf beide Elemente hat, Zugriff auf die darin enthaltenen Mittel hat. Im Gegensatz dazu hat ein Angreifer, der nur auf eines dieser beiden Elemente zugreifen kann, keinen Zugriff auf die Mittel, und genau dieser Vorteil optimiert das Sicherheitsniveau der Wallet-Konfiguration.
 
-![Hinzufügen einer geheimen Passphrase führt zu einer völlig anderen Wallet](assets/guide-agora/2.jpeg)
+![Hinzufügen einer geheimen Passphrase führt zu einer völlig anderen Wallet](assets/guide-agora/2.webp)
 
 ## Schritte zum Hinzufügen einer geheimen Passphrase mit der Coldcard:
 
@@ -83,13 +81,13 @@ Beziehen Sie sich auf unsere Installations- und Konfigurationsanleitungen für B
 Legen Sie zuerst eine microSD-Karte in die Coldcard ein und exportieren Sie die Wallet für Bitcoin Core, indem Sie diesen Schritten folgen: Advanced/Tools > Wallet exportieren > Bitcoin Core. Zwei Dateien werden auf der microSD-Karte gespeichert: bitcoin-core.sig & bitcoin-core.txt. Legen Sie die microSD-Karte in den Computer ein, auf dem Bitcoin Core installiert ist, und öffnen Sie die .txt-Datei. Sie sehen die Zeile Für Wallet mit Fingerabdruck des Master-Schlüssels. Überprüfen Sie, ob der achstellige XFP mit dem übereinstimmt, den Sie beim Erstellen Ihres privaten Schlüssels notiert haben.
 Bevor wir den Anweisungen in der Datei folgen, bereiten wir das Wallet in der Bitcoin Core-Schnittstelle vor, indem wir die folgenden Schritte ausführen: Gehen Sie zum Tab "Datei" > "Wallet erstellen". Wählen Sie einen Namen für Ihr Wallet (ein austauschbarer Begriff für Wallet in Core) und aktivieren Sie die Optionen "Private Keys deaktivieren", "Leeres Wallet erstellen" und "Wallet mit Descriptoren", wie im untenstehenden Bild gezeigt. Drücken Sie dann auf die Schaltfläche "Erstellen".
 
-![Wallet erstellen](assets/guide-agora/3.jpeg)
+![Wallet erstellen](assets/guide-agora/3.webp)
 
 Nachdem das Wallet in Bitcoin Core erstellt wurde, gehen Sie zum Tab "Fenster" > "Konsole" und stellen Sie sicher, dass das ausgewählte Wallet oben auf der Seite den Namen des von Ihnen erstellten Wallets anzeigt.
 
 Nun kopieren Sie in die Bitcoin Core-Konsole die Zeile aus der zuvor von der Coldcard generierten .txt-Datei, die mit "importdescriptors" beginnt. Eine Antwort mit der Zeile "success": true sollte zurückgegeben werden.
 
-![Knotenfenster](assets/guide-agora/4.jpeg)
+![Knotenfenster](assets/guide-agora/4.webp)
 
 Wenn die Antwort "message": "Ranged descriptors should not have a label" enthält, löschen Sie den Eintrag "label": "Coldcard xxxx0000" in der kopierten Zeile aus der .txt-Datei und fügen Sie dann die vollständige Zeile erneut in die Bitcoin Core-Konsole ein.
 
@@ -114,7 +112,7 @@ Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Optionen in den Ein
 > - Nicht bestätigte Münzen ausgeben (optional)
 > - TBPS-Überprüfungen aktivieren
 
-![Option](assets/guide-agora/5.jpeg)
+![Option](assets/guide-agora/5.webp)
 
 ### Schritte zum Senden im air-gapped-Modus:
 
@@ -124,7 +122,7 @@ Auf der Coldcard auf "Bereit zum Signieren" drücken, die Transaktionsdetails ü
 
 Gehen Sie zurück zu Bitcoin Core, wählen Sie die Registerkarte "Datei" > "TBSP aus Datei laden" und geben Sie die signierte Transaktionsdatei .psbt ein. Das PSBT-Operationsfeld wird angezeigt und bestätigt, dass die Transaktion vollständig signiert und bereit zur Verbreitung ist. Drücken Sie einfach auf "Transaktion verbreiten".
 
-![PSBT-Operationen](assets/guide-agora/6.jpeg)
+![PSBT-Operationen](assets/guide-agora/6.webp)
 
 ### Fazit
 

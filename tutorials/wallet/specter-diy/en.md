@@ -4,10 +4,7 @@ name: Specter DIY
 description: Set up guide for Specter DIY
 ---
 
-
 ![cover](assets/cover.jpeg)
-
-# Specter DIY
 
 Spec:
 
@@ -18,7 +15,7 @@ Spec:
 - 3D Printable Case
 - Barebones case designed by Seedsigner
 
-![device view](assets/2.jpeg)
+![device view](assets/2.webp)
 
 ## Guide
 

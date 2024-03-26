@@ -1,0 +1,9 @@
+question: ¿Qué es una billetera en el contexto de Bitcoin?
+answer: Un lugar seguro digital para tus bitcoins
+wrong_answers:
+  - Un dispositivo físico para almacenar bitcoins
+  - Un software para minar bitcoins
+  - Una plataforma para comprar y vender bitcoins
+explanation: |
+  El contenido del capítulo explica que los bitcoins se almacenan en lo que se llama una "billetera", que es un lugar seguro digital para tu dinero. Solo el titular de la clave puede acceder a ella.
+reviewed: false

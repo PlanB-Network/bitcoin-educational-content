@@ -16,11 +16,13 @@ This school of thought has already had several centuries behind it and has a who
 
 +++
 
-# Introduction by Rogzy
+# Introduction to ECON
+
+## Introduction 
 
 Hello everyone and welcome to Econ 201: Introduction to Austrian Economics.
 
-In this course offered by Théomogenes, you will discover this branch of economics that differs greatly from Keynesian doctrine. Until now, you may have learned that the production and management of money were the responsibility of central banks, with the idea that monetary printing and spending promote growth. However, there is another school of economic thought: Austrian economics. With over 200 years of research and development, philosophical reflections, and writings by renowned authors, this approach emphasizes a more sober vision of growth and human rationality in our economy.
+In this course offered by Théo Mogenet, you will discover this branch of economics that differs greatly from Keynesian doctrine. Until now, you may have learned that the production and management of money were the responsibility of central banks, with the idea that monetary printing and spending promote growth. However, there is another school of economic thought: Austrian economics. With over 200 years of research and development, philosophical reflections, and writings by renowned authors, this approach emphasizes a more sober vision of growth and human rationality in our economy.
 
 In reality, economics is an extremely social and complex field, composed of a myriad of interconnected small actors who together contribute to forming a coherent whole. Rather than approaching this discipline through mathematical equations, we must understand it from the perspective of human logic and sociology. In this course, we will explore the fundamental concepts of Austrian economics. Your instructor, Théomo Jeunet, is a passionate and competent professor of Austrian economics.
 
@@ -28,17 +30,13 @@ To start, we offer you a bonus video that will explain how our current financial
 
 In the second part of this course, we will examine the difference between Keynesianism and Austrian economics, exploring their respective schools of thought, methods of reflection, and tools they use to establish economic truth. We will also study the formation of economic crises. Is it due to human incompetence, market manipulation, or collective euphoria of people? We will explore how our cycles of growth, decline, recession, and golden age are created by human emotions.
 
-Finally, in the third part of this course, I will conduct an open interview with Théo, during which we will discuss many topics in macroeconomics, geopolitics, and economics in general. We will ask questions such as: Can a world survive solely on Bitcoin? Is an economic and financial system based on Austrian thought viable? Do negative interest rates not promote pollution, overconsumption, and depletion of Earth's resources?
-
 This course will be a combination of economics and philosophy, with an open discussion between Théo and myself. If you have any questions during this course, do not hesitate to ask them in our Discord, which you will find the link to in the description.
 
 I warmly thank Théo for producing this course, and I hope he will be an excellent teacher for you. We had a lot of fun creating this content. This course is accessible to everyone and will, I think, be essential to follow our future more in-depth courses on economics. This course will lay the necessary foundations to explore certain economic theories in more detail that we will only briefly touch on here.
 
 If you are ready to embark on this adventure, I invite you to click on the following video and start with the bonus video on our current financial system. I now give the floor to Théo. Thank you to him for collaborating with Descoupes Bitcoin for the realization of this video. I will see you very soon. Goodbye!
 
-# Money, Credit, Banks, and Central Banks
-
-![Explanation of the traditional banking system](https://youtu.be/pz0RxlXNs7Y)
+## Money, Credit, Banks, and Central Banks
 
 > “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts.”
 >
@@ -54,7 +52,7 @@ When a financial institution holds a banking license, it essentially means that 
 
 Upon purchasing the house, you instruct your banker to transfer money to the seller's account. If the seller's account is with a different bank, your banker notifies the corresponding banker at the other institution to ensure the seller's account is credited accordingly, while debiting your account by the corresponding amount.
 
-![image](assets/Image/1.png)
+![image](assets/Image/1.webp)
 
 Figure 1: Money Creation as Bookkeeping Entries
 
@@ -72,7 +70,7 @@ This conundrum gave rise to the modern central banks. In the 19th century in Eng
 
 In addition to maintaining financial stability, central banks are responsible for setting key policy rates. These rates determine the cost at which licensed banks can borrow funds from the central bank, essentially defining the cost of liquidity for the financial institutions that play a crucial role in lending in our economies. Therefore, these rates serve as a benchmark for the entire financial system. As an individual, the interest rates you pay on your mortgage can be broken down into the policy rate and the bank’s margin.
 
-![image](assets/Image/2.png)
+![image](assets/Image/2.webp)
 
 Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
 
@@ -80,18 +78,17 @@ During the major financial crisis of 2008, Lehman Brothers, a large investment b
 
 While these measures prevented a cascading wave of bankruptcies, they did little to alleviate the subsequent economic slowdown. Millions lost their jobs and homes, consumer spending plummeted, businesses went under, and banks incurred substantial losses. Despite historically low interest rates, few were willing to borrow, resulting in a vicious cycle where the initial decrease in spending and investment reinforced itself. Consequently, central bankers took further steps by implementing Quantitative Easing (QE) programs. These programs involved central banks purchasing government bonds and mortgage-backed securities from commercial banks with central bank reserves.
 
-![image](assets/Image/3.png)
+![image](assets/Image/3.webp)
 
 Figure3 : Interest Rates Across Major Economies / Source: ECB
 
 Contrary to many expectations, QE programs did not significantly revive economic growth but did inflate financial assets to historic levels. This primarily benefited the wealthy and financial institutions, as they already held substantial quantities of such assets, thereby widening wealth disparities. Given the structure of the banking system explained earlier, this outcome should not come as a surprise. Since bank reserves cannot easily flow into the real economy, QE programs mainly boosted asset prices without effectively improving the financial situations of average individuals.
 
-
 ### The Cantillon Effect
 
 Nonetheless, an essential economic principle can be drawn from this episode: when new money is created, it initially benefits those closest to the source of the money, at the expense of those further away. This economic insight dates back to the 18th century when Richard Cantillon outlined it in his "Essay on the Nature of Commerce in General." It is now colloquially referred as the “Cantillon Effect”. 
 
-![image](assets/Image/4.png)
+![image](assets/Image/4.webp)
 
 Figure4: Cantillon Effect in a Nutshell / Source: River Financial
 
@@ -99,7 +96,7 @@ In this instance, bankers, bank executives, stock and bond owners, real estate d
 
 In essence, the system is skewed. Banks are inherently unstable, yet their failure can jeopardize the entire economy. This moral hazard incentivizes bank executives to take excessive risks to maximize their bank's revenue, knowing that the central bank will ultimately bail them out, shifting the cost to taxpayers. In such scenarios, central bankers create conditions for a massive transfer of purchasing power from hardworking individuals and savers to asset owners and those connected to the financial system, thereby disconnecting the process of wealth creation from wealth accumulation.
 
-![image](assets/Image/5.png)
+![image](assets/Image/5.webp)
 
 Figure5: Wealth Distribution in China + Europe + the US / Source: OECD
 
@@ -109,7 +106,7 @@ During extended periods of Zero Interest Rate Policies (ZIRP), banks have limite
 
 Another unintended consequence of ZIRP is that it encourages governments to engage in extensive spending. Since governments face no borrowing costs and can rely on central banks to purchase their bonds through QE programs, they have a natural incentive to spend as much as possible, particularly in democratic contexts where spending can garner votes. This tendency often disregards the long-term consequences of such fiscal profligacy, leading to a significant increase in public debt levels across developed economies since the Global Financial Crisis (GFC).
 
-![image](assets/Image/6.png)
+![image](assets/Image/6.webp)
 
 Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country) / Source IMF
 
@@ -127,13 +124,12 @@ To achieve this goal, we will explain the fundamental principles of "Austrian Ec
 
 In the upcoming chapter, we will delve into the foundational cornerstone of any economic school of thought: the theory of value. Subsequent chapters will explore money as a social institution, the theory of capital and the business cycle, the challenge of economic calculation, and a brief overview of the history and methodology of the Austrian School of Economics. 
 
-# The Subjective Theory of Value
+# Theoretical Foundations
+## The Subjective Theory of Value
 
 > “Value only exists within human consciousness” 
 >
 > Carl Menger, Principles of Political Economy
-
-![Introduction to Austrian Economics](https://youtu.be/ZSDCepNNacI)
 
 ### The Marginal Revolution
 
@@ -143,7 +139,7 @@ Such questions have occupied economists and philosophers for many centuries and 
 
 After the physiocrats' theory of land value, positing that all value come from land, had been refuted by the classical economists' labor theory of value, postulating that the value of a good stems from the amount of labor going into its production, it was the turn of the marginal theory of value to supplant the latter. In the 1870s, following Marx, the last of the classical economists, three new schools of economic thought emerged almost simultaneously around a marginal theory of value: the Lausanne school with Léon Walras, the modern or neoclassical school with William Stanley Jevons, and the Austrian school with Carl Menger. This revolution in the theory of value constituted a significant renewal of economic thought.
 
-![image](assets/Image/7.png)
+![image](assets/Image/7.webp)
 
 From Left to Right: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -152,6 +148,8 @@ The marginal theory of value holds that economic value corresponds to what an ec
 It is common to present the marginalism of these three schools as similar. Indeed, Walras and Jevons are highly compatible, but Menger’s theorization diverges from the others in profound ways. In his work, now considered foundational to Austrian economic theory, titled "Grundsätze des Volkswirtschaftlehre" (Principles of Political Economy), published in 1874, Menger, offers a marginal, but primarily subjective, explanation of value, unlike Walras and Jevons, who consider value to be an objective and measurable phenomenon.
 
 ### Subjective Value
+
+![image](assets/Image/15.webp)
 
 The Austrian economist refutes the conception of Adam Smith's successors and abandons the idea that the value of a good comes from the amount of labor used in its production, in favor of the notion that its value is determined by the individual, who, in each context, performs a mental act of valuation regarding a specific quantity of a good or service. This intellectual leap made by Menger challenges the objectivity of value: for him, value is not an objective property of goods; it is merely the result of the relationship that the individual has with that thing: "value does not exist outside of human consciousness."
 
@@ -174,6 +172,10 @@ Any agent can say whether they prefer 2 bananas to an economics course, but no o
 This subjective conception of value, understood as a psychological relationship that the individual entertains with his goals and the means relevant to achieve them, also allows Austrian economists to explain the phenomenon of the division of labor.
 
 ### The Division of Labor
+
+![image](assets/Image/16.webp)
+
+Visiting a Nail Factory, Léonard Defrance (18th century)
 
 Everyone is unique and has a particular personal situation. Therefore, everyone possesses a superior ability to perform certain tasks than his peers (absolute advantage) or a superior ability to perform certain tasks than other ones (comparative advantage). It cannot be otherwise; to deny this elementary fact would be to claim that all humans are equal in all aspects.
 
@@ -205,9 +207,7 @@ Building on the insights of subjective ordinal value Menger explained the emerge
 
 The following chapters will be dedicated to the emergence of money as a social institution, the theory of capital and interest, which will serve as the basis for the Theory of the Business Cycle, and lastly the role of prices for economic calculation. 
 
-# The Emergence of Money as a Social Phenomenon
-
-![Money](https://youtu.be/Dt8ounex2jg)
+## The Emergence of Money as a Social Phenomenon
 
 While individuals have a common interest in specialization and maximizing the division of labor, there are still coordination problems that limit this expansion.
 
@@ -237,6 +237,8 @@ This game illustrates a problem frequently encountered in real life: in the abse
 
 ### Money to Solve Coordination Problems
 
+![image](assets/Image/17.webp)
+
 This problem has less impact in small communities (e.g., family, friend circles) because, in such cases, everyone knows each other directly, making it possible to remember each other's contributions. Assuming that leaving the community (desertion) incurs a cost, a reputation system based on individual agents' memory is usually sufficient to avoid the pitfalls posed by the prisoner's dilemma.
 
 However, when dealing with larger communities that benefit significantly from the division of labor, coordination problems reemerge. This is due to two main reasons:
@@ -254,6 +256,8 @@ Today, despite the impracticality of such a system, we could use writing or digi
 In pre-civilization times, these technologies did not exist. Thus, our ancestors had to find other solutions to enjoy the benefits of the division of labor without exposing themselves to the negative consequences of the prisoner's dilemma. The solution to this problem of direct exchange was indirect exchange facilitated by money.
 
 ### Double Coincidence of Wants and Salability
+
+![image](assets/Image/18.webp)
 
 Money can be seen as the solution discovered by our ancestors to address what economists call the "double coincidence of wants" problem. This problem has three dimensions: spatial, temporal, and interpersonal.
 
@@ -285,7 +289,7 @@ In this regard, money, by allowing the storage of value in the present and its t
 
 In the next chapter we will delve into the concept of time preference and explain the Austrian perspective on interest and capital, which will serve as basis for the following chapter about the Theory of the Business Cycle.  
 
-# Time Preference, Interest, and Capital
+## Time Preference, Interest, and Capital
 
 ### Time Preference
 
@@ -297,13 +301,15 @@ This subjective evaluation of the value of future goods compared to present good
 
 This concept of relative valuation of future goods over present goods is at the root of the phenomenon of interest. Indeed, in an economy with unmanipulated capital markets, reference interest rates (considered risk-free from default) are determined at the intersection of capital supply and demand. Therefore, these rates represent the state of time preferences for the entire economy: an increase in the interest rate results from a relative increase in demand for capital compared to supply, indicating higher time preferences. Conversely, a decrease in interest rates occurs due to an increase in savings, which is an increase in the supply of capital, indicating a reduction in time preferences.
 
-![image](assets/Image/9.png)
+![image](assets/Image/9.webp)
 
 In an economy where interest rates are not manipulated by the central bank, we tend to observe an upward-sloping yield curve: the longer the maturity of the debt, the higher the interest rate. The opposite situation can’t happen because it would entail that the future is more certain than the present, which is a logical impossibility. 
 
 The concept of time preference and how we express our own time preference by act of consumption and savings is fundamental to the processes of capital allocation and production. Let’s turn to Menger’s student, Eugen von Böhm-Bawerk, and his capital theory to understand exactly how time preference affect the organization of production.
 
 ### Capital Theory 
+
+![image](assets/Image/19.webp)
 
 At the beginning of this course, we saw that, for Carl Menger, goods are only considered economic goods (valued) because they serve as means to ends chosen and valued by individuals. According to this view, all economic analysis revolves around consumption because it is ultimately the motivating objective behind all economic activity. Therefore, for Menger, the starting point of economic analysis is consumer goods, or final goods, as they represent the ultimate purpose of economic activity. All other goods in the economy, which we can call "intermediate goods," only have value because they enable individuals to obtain these consumer goods: they are goods used in the production of other goods. 
 
@@ -319,11 +325,15 @@ Due to the sequential nature of human action, these intertemporal choices always
 
 To illustrate this point, let's revisit the example given by Böhm-Bawerk, in his work "Capital and Interest":
 
-![image](assets/Image/10.png)
+![image](assets/Image/10.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe and Production Detour/Roundabout:
+
+![image](assets/Image/20.webp)
+
+Robinson Crusoe Landing Stores from the Wreck, John Alexander Gilfillan (1793-1864)
 
 In his book, the Austrian economist invites us to consider the intertemporal trade-offs inherent in production detours through a thought experiment based on Robinson Crusoe alone on his island.
 
@@ -345,14 +355,13 @@ Now, as eluded in the first chapter, interest rates have been manipulated for de
 
 This is perfectly illustrated by the chart below: long-rates are lower than short-rates. First, this makes absolutely no sense, because it would entail that the future is more certain than the present. Second, it warrants an inquiry about the consequences for capital allocation: if everyone is incentivized to act as if savings were abundant, whereas savers are nowhere to be found because they are not rewarded for saving, what consequences could this yield for the economy?
 
-![image](assets/Image/11.png)
+![image](assets/Image/11.webp)
 
 This is what we will find out in the next chapter dedicated to the Austrian Theory of the Business Cycle!
 
+# Austrian Economic Perspectives
 
-# The Austrian Theory of the Business Cycle
-
-![Economic Cycles for the Austrian School](https://youtu.be/CrPE6mcOjx4)
+## The Austrian Theory of the Business Cycle
 
 > “The longer the boom of inflationary bank credit continues, the greater the scope of malinvestments in capital goods, and the greater the need for liquidation of these unsound investments. When the credit expansion stops, reverses, or even significantly slows down, the malinvestments are revealed”
 >
@@ -372,7 +381,7 @@ To describe this phenomenon of temporal miscoordination and its consequences as 
 
 To facilitate our explanation, we will return to Menger's classification of goods and represent the productive structure on a diagram consisting of an arbitrary number of stages:
  
-![image](assets/Image/12.png)
+![image](assets/Image/12.webp)
 
 In the above diagram, initial resources pass through various stages of production, undergoing transformations that bring them closer to the state of final consumer goods (through interaction with original factors of production: time, land, labor). The height of the right side of the triangle schematically represents GDP since it denotes the sum of all consumer goods sold in a period. The gap between each bar corresponds to the value added (in monetary terms) generated by each stage of the process. This difference can also be seen as the income associated with each stage (revenues - costs).
 
@@ -380,7 +389,7 @@ If, at the aggregate level, economic agents increase their savings, the quantity
 
 We will then obtain an extended production structure, a change that can be qualitatively represented by the following diagram:
 
-![image](assets/Image/13.png)
+![image](assets/Image/13.webp)
 
 Here, the monetary value of demanded consumer goods has decreased, freeing up ressources for the creation of an additional stage of production. In this scenario where the decrease in interest rates is a consequence of decreased consumption, i.e., increased savings, the area of the triangle, representing the quantity of money in circulation, remains unchanged. The transformation of the production structure (lengthening) simply results from a transfer of purchasing power from one part of the structure to another.
 
@@ -396,7 +405,7 @@ With lower interest rates, entrepreneurs can borrow more resources and thus crea
 
 Note that this is a completely logical consequence of the credit expansion. Insofar as banks produce fiduciary media by granting loans, one should naturally expect overall purchasing power to increase.
 
-![image](assets/Image/14.png)
+![image](assets/Image/14.webp)
 
 As credit enters the economy through loans to entrepreneurs, we should observe an increase in profits in the production sectors distant from consumption, and a decrease in relative profits in sectors closer to consumption. This higher profitability then supports a reallocation of capital towards these new, more capital-intensive stages (shipbuilding, automotive, construction, advanced technologies, etc.), and a decrease in investments in sectors closer to consumption.
 
@@ -412,6 +421,8 @@ Such an adjustment can be viewed as a period during which underconsumption, and 
 
 Unfortunately, this depressive mechanism is often interrupted by political power and central banks seeking to “boost” the economy through deficit spending and easy monetary policy.
 
+![image](assets/Image/21.webp)
+
 For both monetarists and Keynesians, the cause of the depression is insufficient aggregate demand, so neither pays attention to the evolution of relative prices, which, as we have seen, is the core of the problem. Thus, they believe that providing an incentive for credit expansion (lowering interest rates) and using the state's deficit capacity to boost demand will kickstart a recovery. In the short term, such measures may seem to produce the desired effects: the deficit supports spending, while the reduction in interest rates leads to higher asset prices, which, in turn, encourages asset holders to increase their spending. However, such boost eventually wanes off, while the structural problem remains, or even worsen as capital misallocation continues thanks to artificially low interest rates.  
 
 In the modern era, central banks and governments have been so zealous in preventing the manifestation of this adjustment process that we end up with mass structural unemployment and perpetual debt accumulation. Japan serves as an example in this regard. After the burst of an asset bubble in 1989-90, the Bank of Japan (BoJ) and the various governments in office used all the methods described here to try to "restart the Japanese economy." Apart from brief surges following spending programs and interest rate cuts, Japan has remained in a state of neurasthenic growth and over-indebtedness for 30 years. 
@@ -424,9 +435,7 @@ More than any other school of economics, the Austrian School insists on the impo
 
 This will be the subject of the next and last chapter of this course. 
 
-# The Impossibility of Economic Calculation under Socialism
-
-![The Impossibility of Economic Calculation in a Socialist System](https://youtu.be/E-9Fl6eg-mo)
+## The Impossibility of Economic Calculation under Socialism
 
 > “Where there are no market prices for the factors of production because they are neither bought nor sold, it is impossible to resort to calculation in planning future action and in determining the result of past action. A socialist management of production would simply not know whether or not what it plans and executes is the most appropriate means to attain the ends sought. It will operate in the dark, as it were. It will squander the scarce factors of production both material and human (labour). Chaos and poverty for all will unavoidably result”
 >
@@ -449,6 +458,8 @@ With his article, Mises introduced a new dimension to the debate. Setting aside 
 
 ### Explaining the Impossibility of Economic Calculation
 
+![image](assets/Image/24.webp)
+
 Most misconceptions about Mises's arguments arise from a misunderstanding of the roles played by managerial and entrepreneurial classes in a capitalist economy. Mises never dismissed the ability of managers to devise efficient production plans within their own operations. Instead, he emphasized the significance of entrepreneurs and shareholders, who, as owners of the means of production, allocate capital across different industries, thereby forming prices that serve as inputs in the economic calculations of managers.
 
 Without markets for capital and money, it becomes impossible to rationalize the use of resources across industries. This means that even if there is perfect organization within each firm or subpart of the economy, the entire economy cannot efficiently adjust to changes in resource availability, production conditions, and consumer preferences. In Mises's words:
@@ -465,6 +476,8 @@ This process is crucial because it validates or invalidates the efficiency of va
 
 From this perspective, a centrally planned economy will inevitably experience capital misallocation. In the short to medium term, such misallocations might go unnoticed because there are no market prices or bankruptcies to reveal them. However, due to the absence of feedback (prices) and reallocation mechanisms (bankruptcies), errors will accumulate until the wastefulness becomes apparent through a significant decline in living conditions.
 
+![image](assets/Image/22.webp)
+
 ### The Austrian Perspective and the Failures of Other Schools of Economics
 
 One could argue that painting such a panorama in hindsight is easy. After all, we are all aware of the empty shelves in the USSR, Venezuela's hardships, and the humanitarian catastrophe in Cambodia. But Mises foresaw these events as early as 1920. Yet, until the collapse of the USSR in 1989, many economists, including numerous Nobel laureates, were praising the Soviet economic miracle and predicting that the Soviet economy would soon surpass that of the USA.
@@ -472,6 +485,8 @@ One could argue that painting such a panorama in hindsight is easy. After all, w
 Despite this impressive forecasting and numerous empirical demonstrations of the impossibility of economic calculation under socialism, political leaders worldwide are more eager than ever to set prices, nationalize entire industries, and propose five-year plans, often applauded by economically uninformed populations. The consequences of such interventionism are acutely felt by people in formerly prosperous Western countries who are slowly witnessing the decline of their living standards.
 
 ### The Austrian Business Cycle Theory as a Specific Case of the Impossibility of Economic Calculation under Socialism
+
+![image](assets/Image/23.webp)
 
 In a previous chapter, we elucidated the dynamics of overinvestment and capital misallocation resulting from interest rate manipulation by central banks. Essentially, what we explained can be viewed as a specific case of the impossibility of economic calculation under socialism, applied to the realm of money markets. When prices are fixed outside their market values, entrepreneurs and capital allocators are incentivized to engage in investments that cannot be sustained in the long term due to a lack of savings. By interfering with the price system, central planners (in this case, central bankers) create a miscoordination between economic agents. In this instance, the intertemporal miscoordination entails overinvestment in higher-order investment goods and underinvestment in lower-order investment goods, which represents a specific manifestation of capital misallocation across industries.
 
@@ -491,9 +506,7 @@ Mainstream economists and central planners often dislike Austrian economists bec
 
 The Austrian tradition embodies a humble approach to human action, drawing profound implications from the concepts of subjective value, uncertainty, free will, and complexity. It explains how the market order, despite not being a product of human design, stands as the central institution for our development and prosperity. If there's one key takeaway from this course, it is that capitalism became the dominant economic system because of its ability to adapt to change in a dynamic and uncertain world populated by free individuals.
 
-# The Austrian Methodology
-
-![the Austrian methodology](https://youtu.be/hMyYGwU76dI)
+## The Austrian Methodology
 
 The Austrian school of economics distinguishes itself from other schools by its axiomatic-deductive methodology, which differs from the positivist approach often used in social sciences. The positivist approach is based on laws established from empirical data, adopting a method similar to that of physical sciences. It formulates hypotheses from observations, which are then confirmed or refuted by temporary experiments. The scientific method consists of retaining the hypothesis that best explains the data and continuing to explore it until a more precise hypothesis is found.
 
@@ -513,7 +526,8 @@ It is important to note that cherry-picking, which involves selectively choosing
 
 Methodology is an essential aspect in economics and in social sciences in general. It influences how questions are asked, hypotheses are formulated, and data is interpreted. Understanding the methodological differences between economic schools of thought can help us appreciate diverse perspectives and develop our own opinions on the topics discussed in previous episodes.
 
-# Further studies
+# Conclusion 
+## Further studies
 
 Congratulations on completing this ECON 201 course! I sincerely hope you enjoyed it and opened doors for yourself. Your discovery of Bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
 
@@ -535,9 +549,9 @@ By reading these works and exploring these online resources, you can develop a d
 
 This course, as well as all the content on this university, has been offered to you for free by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!
 
-### Rate the course
+### Rate the course (coming soon)
 
-A rating system for the course will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course, and if you enjoyed it, please consider sharing it with others.
+A rating system for the course will soon be integrated into this new E-learning platform! In the meantime, thank you very much for taking the course, and if you enjoyed it, please consider sharing it with others. (coming soon)
 
 If you want to continue digging into the subject of Austrian economics, I suggest several interviews with Théo Mogenet:
 

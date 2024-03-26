@@ -1,0 +1,9 @@
+question: Qu'est-ce que le dilemme du prisonnier dans le contexte de la division du travail ?
+answer: Il s'agit d'une situation où la collaboration mutuelle entraîne des gains sous-optimaux pour les individus, mais des gains maximum pour le groupe.
+wrong_answers:
+  - Il s'agit d'une situation où les individus refusent de collaborer, ce qui entraîne des gains maximum pour le groupe.
+  - Il s'agit d'une situation où les individus collaborent, ce qui entraîne des gains maximum pour eux-mêmes mais des gains sous-optimaux pour le groupe.
+  - Il s'agit d'une situation où les individus refusent de collaborer, ce qui entraîne des gains sous-optimaux pour eux-mêmes et le groupe.
+explanation: |
+  Le dilemme du prisonnier est un concept de la théorie des jeux où les individus ont intérêt à choisir des stratégies qui maximisent leur gain individuel, indépendamment des stratégies choisies par les autres, même lorsque l'équilibre plus souhaitable par la coordination/collaboration est possible.
+reviewed: false

@@ -2,14 +2,9 @@
 name: Foundation
 
 description: How to set up your Foundation device
-
 ---
 
-
 ![cover](assets/cover.jpeg)
-
-# Fondation
-
 
 Self-custody is finally attainable with Passport hardware wallet and Envoy mobile wallet. https://foundationdevices.com/
 
@@ -22,7 +17,7 @@ Key Specs
 - Power User-removable 1200 mAh Lithium ion battery in Nokia BL-5C form factor (included with purchase).
 - Security Features Airgapped, easy passphrase entry, security lights, anti-phishing words, security validation.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # tutoriel video
 

@@ -1,0 +1,9 @@
+question: Was ist der grundlegende Unterschied zwischen Preissteigerung und Inflation?
+answer: Preissteigerung kann sektorspezifisch sein und durch verschiedene Faktoren verursacht werden, während Inflation durch eine allgemeine Preissteigerung über eine Reihe von Gütern und Dienstleistungen definiert ist.
+wrong_answers:
+  - Preissteigerung ist eine allgemeine Preissteigerung über eine Reihe von Gütern und Dienstleistungen, während Inflation sektorspezifisch ist und durch verschiedene Faktoren verursacht wird.
+  - Preissteigerung und Inflation sind dasselbe, beide beziehen sich auf eine allgemeine Preissteigerung über eine Reihe von Gütern und Dienstleistungen.
+  - Preissteigerung bezieht sich auf eine Preissenkung, während Inflation eine Preiserhöhung bezeichnet.
+explanation: |
+  Das Kapitel erklärt, dass eine Preissteigerung sektorspezifisch sein kann und durch verschiedene Faktoren wie eine Verringerung der OPEC-Produktion für Öl oder ungünstige Wetterbedingungen für Weizen verursacht werden kann. Inflation hingegen wird durch eine allgemeine Preissteigerung über eine Reihe von Gütern und Dienstleistungen definiert, nicht nur in einem bestimmten Sektor.
+reviewed: false

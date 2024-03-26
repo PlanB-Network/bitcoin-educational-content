@@ -4,11 +4,9 @@ name: NOSTR
 description: Entdecke und beginne NOSTR zu verwenden
 ---
 
-# Wie man Nostr im Jahr 2023 verwendet: Ein Leitfaden für Anfänger
-
 Am Ende dieses Leitfadens wirst du verstehen, was Nostr ist, du wirst ein Konto erstellt haben und in der Lage sein, es zu verwenden.
 
-![Ein neuer Herausforderer ist angekommen](assets/1.jpeg)
+![Ein neuer Herausforderer ist angekommen](assets/1.webp)
 
 ## Was ist Nostr?
 
@@ -22,7 +20,7 @@ Jeder Benutzer hat eine oder mehrere Identitäten, wobei jede Identität durch e
 
 Um auf das Netzwerk zuzugreifen, muss man eine Client-Software verwenden und sich mit Relais verbinden, um Inhalte zu empfangen und zu senden.
 
-![Schlüsselsystem](assets/2.jpeg)
+![Schlüsselsystem](assets/2.webp)
 
 ## 1. Kryptographische Schlüssel
 
@@ -58,7 +56,7 @@ Für die Zwecke dieses Leitfadens werden wir iris.to (https://iris.to/) verwende
 
 ris wird für dich einen Schlüsselsatz generieren, ohne dass du etwas weiter tun musst, als einen Namen (echt oder fiktiv) für dein Profil einzugeben. Klicke dann auf GO und das war's!
 
-![Hauptmenü](assets/3.jpeg)
+![Hauptmenü](assets/3.webp)
 
 > ⚠️ Achtung! Du musst deine Schlüssel aufbewahren, wenn du nach dem Schließen deiner Sitzung erneut auf dein Profil zugreifen möchtest. Ich zeige dir am Ende dieses Leitfadens, wie das geht.
 
@@ -66,11 +64,11 @@ ris wird für dich einen Schlüsselsatz generieren, ohne dass du etwas weiter tu
 
 Um Inhalte zu veröffentlichen, ist nichts einfacher und intuitiver, als ein paar Worte in das Veröffentlichungsfeld zu schreiben.
 
-![Veröffentlichung](assets/4.jpeg)
+![Veröffentlichung](assets/4.webp)
 
 Da hast du es! Du hast deine erste Notiz auf Nostr veröffentlicht.
 
-![Beitrag](assets/5.jpeg)
+![Beitrag](assets/5.webp)
 
 ## Schritt 3: Einen Freund finden
 
@@ -78,7 +76,7 @@ Finde mich auf Nostr und sei nie wieder allein. Ich werde allen folgen, die mein
 
 npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 in die Suchleiste eingeben.
 
-![Mein Profil](assets/6.jpeg)
+![Mein Profil](assets/6.webp)
 
 Klicke auf "folgen" und in ein paar Tagen werde ich auch deinem Feed folgen. Wir werden Freunde sein. Es würde mich auch freuen, von dir zu lesen, wenn du mir eine Nachricht schreiben möchtest.
 
@@ -88,11 +86,11 @@ Stelle außerdem sicher, dass du dem Feed von Agora256 folgst, um eine Benachric
 
 Du hast noch ein wenig Arbeit, um dein Profil anzupassen. Klicke dazu auf den Avatar, den Iris automatisch für dich in der oberen rechten Ecke des Bildschirms generiert hat, und klicke dann auf "Profil bearbeiten".
 
-![Profil](assets/7.jpeg)
+![Profil](assets/7.webp)
 
 Du musst Iris nur noch mitteilen, wo sie dein Profilbild und dein Banner im Internet finden kann. Ich empfehle dir, deinen Inhalt selbst zu hosten: Schütze, was dir gehört.
 
-![Andere Option](assets/8.jpeg)
+![Andere Option](assets/8.webp)
 
 Wenn du möchtest, kannst du auch Bilder hochladen. Diese werden von Iris für dich auf nostr.build gespeichert, einem kostenlosen Dienst zur visuellen Inhaltsbereitstellung für Nostr.
 
@@ -102,11 +100,11 @@ Wie du sehen kannst, kannst du auch deinen Client konfigurieren, um Sats zu empf
 
 Dieser Schritt ist entscheidend, wenn du den Zugriff auf dein Profil behalten möchtest, nachdem du dich vom Client abgemeldet hast oder deine Sitzung abgelaufen ist.
 'D'abord, clique sur l'icône "settings" représentée par un engrenage
-![Setting](assets/9.jpeg)
+![Setting](assets/9.webp)
 
 Puis, copie-colle à tour de rôle tes npub, npub hex, nsec et nsec hex dans un fichier texte que tu garderas en sécurité. Je te recommande de crypter ce fichier, si tu sais comment le faire.
 
-![Clef](assets/10.jpeg)
+![Clef](assets/10.webp)
 
 > ⚠️ Remarque bien l'avertissement que te donne iris. Si tu peux partager ta clé publique sans crainte, il en est tout autrement de ta clé privée. Quiconque possède cette dernière pourra accéder à ton compte.
 

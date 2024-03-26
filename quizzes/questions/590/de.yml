@@ -1,0 +1,10 @@
+question: Was ist eine häufige Folge der Hyperinflation, wie sie in den Fällen von Simbabwe und der Weimarer Republik zu beobachten ist?
+answer: Der innere Wert einer Banknote kann niedriger werden als der Wert des Papiers, auf dem sie gedruckt ist.
+wrong_answers:
+  - Der Wert der Währung steigt.
+  - Die Nachfrage nach Banknoten sinkt.
+  - Der Wert von materiellen Vermögenswerten sinkt.
+explanation: |
+  In bestimmten wirtschaftlichen Umständen, wie bei Hyperinflation, kann der innere Wert einer Banknote niedriger werden als der Wert des Papiers, auf dem sie gedruckt ist.
+  Diese drastische Abwertung verwandelt Banknoten, die normalerweise Symbole für Wert und Kaufkraft sind, in bloße Stücke wertlosen Papiers.
+reviewed: false

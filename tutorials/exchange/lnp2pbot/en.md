@@ -6,8 +6,6 @@ description: Guide to set up your LN P2P Bot
 
 ![cover](assets/cover.jpeg)
 
-# LN p2p Bot
-
 Bitcoin is an accessible and equitable savings technology and it is a censorship-resistant medium of exchange. Lightning allows us to have immediate access to Bitcoin at a very low cost without losing all the properties that make Bitcoin the best money we can have access to.
 
 website: https://lnp2pbot.com/
@@ -24,11 +22,11 @@ All ressources: https://lnp2pbot.com/learn/
 
 - Start @lnp2pBot
 
-![video](assets/1.gif)
+![video](assets/1.webp)
 
 - Find offers in the channel @lnp2pbot Exchange.
 
-![video](assets/2.gif)
+![video](assets/2.webp)
 
 - Start buying and selling.
 

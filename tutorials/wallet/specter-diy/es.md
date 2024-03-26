@@ -6,8 +6,6 @@ description: Guía de configuración para Specter DIY
 
 ![portada](assets/cover.jpeg)
 
-# Specter DIY
-
 Especificaciones:
 
 - Placa de desarrollo
@@ -17,7 +15,7 @@ Especificaciones:
 - Estuche imprimible en 3D
 - Estuche básico diseñado por Seedsigner
 
-![vista del dispositivo](assets/2.jpeg)
+![vista del dispositivo](assets/2.webp)
 
 ## Guía
 

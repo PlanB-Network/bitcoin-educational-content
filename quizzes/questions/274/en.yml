@@ -1,0 +1,13 @@
+question: What is the main benefit of using a password manager according to the chapter?
+answer: It helps you never use the same password twice
+wrong_answers:
+  - It helps you remember your usernames
+  - It protects your computer from viruses
+  - It generates random passwords
+explanation: |
+  According to the chapter, a password manager helps you never use the
+
+  same password twice, choose complex and secure passwords, and facilitates your online
+
+  security management.'
+reviewed: false

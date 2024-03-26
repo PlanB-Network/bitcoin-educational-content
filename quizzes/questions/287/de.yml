@@ -1,0 +1,9 @@
+question: Was bedeutet die Unveränderlichkeit der Bitcoin-Blockchain?
+answer: Sie kann im Laufe der Zeit nicht verändert werden.
+wrong_answers:
+  - Sie kann nicht gehackt werden.
+  - Sie kann nicht kopiert werden.
+  - Sie kann nicht gelöscht werden.
+explanation: |
+  Die Unveränderlichkeit der Bitcoin-Blockchain bedeutet, dass eine einmal aufgezeichnete Transaktion nicht geändert oder gelöscht werden kann. Dadurch wird die Integrität und Zuverlässigkeit der Blockchain gewährleistet.
+reviewed: false

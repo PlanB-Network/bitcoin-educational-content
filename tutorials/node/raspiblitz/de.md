@@ -3,9 +3,7 @@ name: RaspiBlitz
 description: Anleitung zur Einrichtung Ihres RaspiBlitz
 ---
 
-![image](assets/0.jpeg)
-
-# RaspiBlitz
+![image](assets/0.webp)
 
 Der RaspiBlitz ist ein Do-it-yourself-Lightning-Node (LND und/oder Core Lightning), der zusammen mit einem Bitcoin-Fullnode auf einem RaspberryPi (1TB SSD) und einem schönen Display läuft, um die Einrichtung und Überwachung zu erleichtern.
 
@@ -40,25 +38,25 @@ Sie benötigen genau die gleiche Ausrüstung wie für einen MyNode-Node. Sie kö
 Sie benötigen keinen Monitor (oder Tastatur oder Maus).
 Hinweis: Dies ist die falsche Festplatte: Dies ist eine tragbare externe Festplatte. Es ist kein SSD. SSD ist entscheidend. Deshalb ist es billig (Preis in AUD)
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Dies ist der richtige Typ:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Dies ist schneller, aber unnötig teuer:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 ## Schritt 2: Raspiblitz-Image herunterladen
 
 Navigieren Sie zur Raspiblitz-Github-Website und suchen Sie den Link "Image herunterladen":
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Der SHA-256-Hash der heruntergeladenen Datei wird auf der Website bereitgestellt. Er ändert sich bei jedem Update. Wenn Sie nicht verstehen, worum es geht, sollten Sie dies tun, daher habe ich einen Leitfaden geschrieben, den Sie hier lesen können.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 ## Schritt 3: Image überprüfen
 
@@ -96,13 +94,13 @@ Sie können Balena Etcher verwenden, um dies zu tun. Laden Sie es hier herunter.
 
 Etcher ist selbsterklärend zu verwenden. Legen Sie Ihre Micro-SD-Karte ein und flashen Sie die Raspiblitz-Software (.img-Datei) auf die SD-Karte.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Sobald der Vorgang abgeschlossen ist, ist das Laufwerk nicht mehr lesbar. Sie erhalten möglicherweise einen Fehler vom Betriebssystem und das Laufwerk sollte vom Desktop verschwinden. Ziehen Sie die Karte heraus.
 
@@ -110,21 +108,21 @@ Sobald der Vorgang abgeschlossen ist, ist das Laufwerk nicht mehr lesbar. Sie er
 
 Die Teile (Gehäuse nicht gezeigt):
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Schließen Sie das Ethernet-Kabel und den USB-Anschluss der Festplatte an (noch nicht die Stromversorgung). Vermeiden Sie eine Verbindung zu den blauen USB-Anschlüssen in der Mitte. Sie sind USB 3. Verwenden Sie den USB 2-Anschluss, auch wenn das Laufwerk möglicherweise USB 3-fähig ist (zuverlässiger).
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Die Micro-SD-Karte wird hier eingesetzt:
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 Schließlich schließen Sie die Stromversorgung an:
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 ## Schritt 6: IP-Adresse des Pi finden
 
@@ -151,57 +149,57 @@ Für Windows musst du putty installieren, um dich über SSH mit dem Pi zu verbin
 
 Beim ersten Mal oder immer wenn du das Betriebssystem des Pi durch das Wechseln der SD-Karte änderst, erhältst du möglicherweise diesen Fehler...
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Die Lösung besteht darin, zum Speicherort der "known_hosts"-Datei zu navigieren (es wird dir in der Fehlermeldung angezeigt) und sie zu löschen. Der Befehl lautet "rm known_hosts".
 
 Wiederhole dann den SSH-Befehl, um dich anzumelden. Folgendes wird passieren...
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Gib "yes" (vollständiges Wort) ein, um fortzufahren.
 
 Wenn erfolgreich, wirst du nach einem Passwort gefragt. Dies ist nicht für deinen Computer, sondern für den Raspiblitz. Das generische Passwort lautet "raspiblitz" und du wirst es später ändern. Das Terminal-Fenster wird blau und du hast Menüoptionen wie die alten DOS-Menüs. Navigiere mit den Pfeiltasten oder der Maus.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Folge den Anweisungen, lege deine Passwörter fest und dann wird deine Festplatte erkannt und du erhältst die Möglichkeit, sie bei Bedarf zu formatieren.
 
 Dann wirst du gefragt, ob du die Blockchain-Daten von einer anderen Quelle kopieren oder sie erneut herunterladen möchtest. Das Kopieren ist ein Lernprozess und die Anweisungen sind ziemlich gut und gut aufzubewahren...
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Der einfache, aber langsamere Weg besteht darin, die gesamte Kette von Grund auf herunterzuladen...
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Viel Text wird über den Terminalbildschirm flackern. Du könntest es für den Prozess des Blockchain-Downloads halten, aber es sieht für mich so aus, als ob es einen privaten Schlüssel für die Kommunikation generiert.
 
 Dann erscheinen Lightning-Optionen.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Erstelle ein neues Passwort, um deine Lightning-Wallet zu sperren, dann wird eine neue Wallet erstellt und du erhältst 24 Wörter zum Aufschreiben...
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Stellen Sie sicher, dass Sie es aufschreiben und sicher aufbewahren. Ich habe von einer Person gehört, die es nicht getan hat, weil er nicht vorhatte, Lightning zu verwenden, aber dann ein Jahr später beschloss, es zu verwenden und Kanäle zu öffnen. Dann merkte er, dass seine Wörter nicht gesichert waren und ich erinnere mich, dass es nicht möglich war, die Wörter erneut vom Gerät abzurufen. Er musste alle seine Kanäle schließen und von vorne beginnen. Er ist damit davongekommen, aber andere könnten nicht so viel Glück haben.
 
 Danach scrollt einige Minuten lang Text durch das Terminalfenster. Dann...
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Sie werden von der SSH-Sitzung abgemeldet. Melden Sie sich erneut an, diesmal mit Ihrem neuen Passwort, Passwort A. Sobald Sie angemeldet sind, werden Sie nach Passwort C gefragt, um Ihre Lightning-Wallet zu entsperren.
 
 Jetzt warten wir. Wir sehen uns in 2 Wochen. Sie können das Terminal schließen, es hat keine Auswirkungen auf den Pi, es ist nur ein Kommunikationsfenster.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Wenn Sie aus irgendeinem Grund den Pi herunterfahren möchten, bevor die Blockchain fertig heruntergeladen ist, ist das in Ordnung, solange Sie es ordnungsgemäß tun. Die Blockchain wird dort weiter heruntergeladen, wo sie aufgehört hat, sobald Sie sich erneut verbinden.
 
 Drücken Sie STRG+C, um den blauen Bildschirm zu verlassen. Sie greifen auf das Linux-Terminal des Pi zu. Hier können Sie "menu" eingeben, um den folgenden Bildschirm zu laden, und von dort aus können Sie den Pi ausschalten.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 ENDE der Anleitung
 

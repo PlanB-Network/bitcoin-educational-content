@@ -1,0 +1,11 @@
+question: Wie war der Wechselkurs des digitalen Bolivar in Venezuela im Jahr 2021?
+answer: Eins zu eins Million.
+wrong_answers:
+  - Eins zu tausend.
+  - Eins zu zehntausend.
+  - Eins zu einhunderttausend.
+explanation: |
+  Im Jahr 2021 wurde der digitale Bolivar in Venezuela durch eine neue
+  Umwertung
+  von eins zu einer Million ersetzt.
+reviewed: false

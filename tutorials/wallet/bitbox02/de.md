@@ -4,13 +4,11 @@ name: BitBox02
 description: Einrichtung und Verwendung einer BitBox02
 ---
 
-# Bitbox02
-
 ![cover](assets/cover.jpeg)
 
 Die BitBox02 (https://bitbox.swiss/) ist eine in der Schweiz hergestellte physische Geldbörse, die speziell für die Sicherung Ihrer Bitcoins entwickelt wurde. Zu ihren wichtigsten Merkmalen gehören einfache Sicherung und Wiederherstellung mit einer microSD-Karte, ein minimalistisches und diskretes Design sowie umfassende Unterstützung für Bitcoin.
 
-![device](assets/1.png)
+![device](assets/1.webp)
 
 Sie bietet modernste Sicherheitstechnologie, die von Experten entwickelt wurde und einen sicheren Chip umfasst. Ihr Quellcode wurde von Sicherheitsforschern vollständig überprüft und ist vollständig Open Source. Die BitBox02 wird mit einer einfachen, aber leistungsstarken BitBoxApp geliefert, die eine sichere Verwaltung Ihrer Bitcoins ermöglicht. Sie unterstützt den Vollknoten für Bitcoin und gewährleistet eine Ende-zu-Ende-verschlüsselte Kommunikation zwischen der App und dem Gerät. Hergestellt in der Schweiz, hat die BitBox02 einen positiven Ruf bei ihren Benutzern erlangt.
 
@@ -40,17 +38,17 @@ Schließen Sie es an Ihren Computer an und das Gerät wird eingeschaltet (noch n
 
 Es hat Sensoren oben und unten und fordert Sie auf, oben oder unten zu berühren, um den Bildschirm entsprechend auszurichten.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 ### Laden Sie die BitBox02-App herunter
 
 Besuchen Sie https://shiftcrypto.ch/ und klicken Sie oben auf den Link "App", um zur Download-Seite zu gelangen:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Klicken Sie auf die blaue Schaltfläche "Herunterladen":
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Um den Download zu überprüfen (es erhöht die Komplexität, ist aber empfehlenswert, insbesondere wenn Sie viele Bitcoins speichern), siehe Anhang A.
 
@@ -60,42 +58,42 @@ Doppelklicken Sie auf die App, um sie auszuführen (sie wird nicht "installiert"
 
 Auf dem Mac erhalten Sie eine Warnung von Ihrem Computer. Ignorieren Sie sie einfach und klicken Sie auf "Öffnen":
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Sie sehen dann Folgendes:
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Schließen Sie das Gerät nun an den Computer an.
 Es wird Ihnen einen Pairing-Code anzeigen. Überprüfen Sie, ob sie übereinstimmen, und berühren Sie dann den Sensor, um das Häkchen auszuwählen. Dann zurück zum Bildschirm, wird der Weiter-Button für Sie verfügbar sein.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Sie haben dann die Möglichkeit, einen neuen Seed zu erstellen oder einen Seed wiederherzustellen. Ich werde das Erstellen eines neuen Seeds demonstrieren (Es ist wichtig, auch den erstellten Seed zur Überprüfung der Qualität Ihres Backups wiederherzustellen, bevor Sie Bitcoin in die Brieftasche laden).
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Das Gerät wurde mit einer microSD-Karte geliefert. Legen Sie sie ein, wenn Sie sie noch nicht haben.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Benennen Sie Ihr Gerät und klicken Sie auf "Weiter", dann bestätigen Sie auf dem Gerät.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Sie werden dann aufgefordert, ein Passwort für das Gerät festzulegen. Dies ist kein Teil Ihres Seeds. Es ist auch keine Passphrase (das ist Teil Ihres Seeds). Es handelt sich einfach um ein Passwort, um das Gerät zu sperren. Wenn Sie das Gerät einschalten, werden Sie jedes Mal nach diesem Passwort gefragt. Sie haben 10 aufeinanderfolgende Fehlversuche, bevor das Gerät sich selbst von allen Speicherinhalten löscht, also seien Sie vorsichtig. Die Animation auf dem Bildschirm wird Ihnen zeigen, wie Sie die Bedienelemente des Geräts verwenden, um das Passwort festzulegen.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Lesen Sie den nächsten Bildschirm und überprüfen Sie jedes Kästchen, dann fahren Sie fort.
 
-![image](assets/12.png)
-![image](assets/13.png)
-![image](assets/14.png)
+![image](assets/12.webp)
+![image](assets/13.webp)
+![image](assets/14.webp)
 
 Und so sieht die Brieftasche aus, wenn sie bereit ist.
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 ### NICHT SO SCHNELL!!
 
@@ -103,23 +101,23 @@ Es ist ziemlich seltsam, aber der BitBox02 sagt uns, dass wir das Gerät verwend
 
 Um unseren Seed-Phrasen zu erhalten und sie aufzuschreiben, gehen Sie zum Tab "Gerät verwalten" auf der linken Seite und klicken Sie dann auf "Wiederherstellungswörter anzeigen".
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Sie können dann die Bestätigung durchgehen, und das Gerät wird Ihnen die Wörter präsentieren. Schreiben Sie sie ordentlich auf und lassen Sie niemanden die Wörter sehen.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Danach können Sie auf den Bitcoin-Tab auf der linken Seite klicken, um Ihre Empfangsadressen zu erhalten.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Es zeigt jeweils eine Adresse an, aber zumindest können Sie aus den ersten 20 Adressen auswählen:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Durch Klicken auf die blaue Schaltfläche wird die vollständige Adresse angezeigt, und Sie werden aufgefordert, zu überprüfen, ob die Adresse mit der Anzeige auf dem Bildschirm übereinstimmt. Dies ist eine gute Praxis, um zu bestätigen, dass keine Malware auf Ihrem Computer Sie dazu verleitet, Bitcoin an die Adresse eines Angreifers zu senden.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Um Bitcoin an diese Brieftasche zu senden, können Sie die Adresse kopieren und in die Auszahlungsseite der Börse einfügen, auf der sich Ihre Münzen befinden. Ich empfehle Ihnen, zuerst einen kleinen Testbetrag zu senden und ihn entweder zurück an die Börse oder an die zweite Adresse in Ihrer Brieftasche auszugeben.
 
@@ -129,11 +127,11 @@ Für größere Beträge empfehle ich Ihnen, eine Passphrase zu erstellen (siehe 
 
 Der BitBox02 wird automatisch mit einem Knotenpunkt verbunden. Schauen wir mal, mit welchem er verbunden ist. Klicken Sie auf den Einstellungen-Tab auf der linken Seite und dann auf "Verbinden Sie Ihren eigenen Full Node".
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Hier können wir sehen, dass er mit dem Knotenpunkt von shiftcrypto verbunden ist. Nicht gut. Wir haben ihnen alle unsere Bitcoin-Adressen verraten und unsere IP-Adresse (natürlich nicht den Seed; sie können unsere Adressen/Salden sehen, aber nicht ausgeben). Wir können unsere eigenen Knotenpunkt-Details auf dieser Seite eingeben (außerhalb des Umfangs dieses speziellen Leitfadens) oder bessere Software wie Sparrow Bitcoin Wallet, Electrum Desktop Wallet oder Specter Desktop verwenden. Ich werde später im Leitfaden das Sparrow Bitcoin Wallet demonstrieren.
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Fügen Sie eine Passphrase hinzu
 
@@ -143,13 +141,13 @@ Jetzt, da wir das Gerät mit der BitBox02-App eingerichtet haben (und unsere Adr
 
 Gehen Sie jetzt voran und "aktivieren" Sie die Passphrase-Funktion (aber wir setzen noch keine Passphrase). Gehen Sie zum Tab "Gerät verwalten" und klicken Sie auf "Passphrase aktivieren" (roter Kreis unten).
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Lesen Sie die Schritte durch...
 
-![image](assets/24.png)
-![image](assets/25.png)
-![image](assets/26.png)
+![image](assets/24.webp)
+![image](assets/25.webp)
+![image](assets/26.webp)
 
 Trennen Sie nun das Gerät und schließen Sie die BitBox02-App.
 

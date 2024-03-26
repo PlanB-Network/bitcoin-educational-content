@@ -6,10 +6,6 @@ description: Configuración y uso del Trezor modelo One
 
 ![cover](assets/cover.jpeg)
 
-# Trezor modelo ONE
-
-Trezor modelo One
-
 Billetera física en frío: 60€ - Principiante - Seguridad entre 2 000€ y 50 000€.
 
 Como billetera física en frío, Trezor es ideal para comenzar en Bitcoin. Es fácil de usar, no demasiado caro y funcional.
@@ -39,73 +35,73 @@ El Trezor viene con su propio cable micro USB. Asegúrate de usar ese y no cualq
 
 Conéctalo a tu computadora y el dispositivo se encenderá. Obtendrás un mensaje que dice "Ve a Trezor.io/start". Haz eso y descarga Trezor Suite en tu computadora.
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 Haz clic en el botón de descarga ("Obtener aplicación de escritorio")
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Observa los enlaces de Firma y Clave de firma. Para verificar la descarga (comprobar que no se haya manipulado tu descarga), hay pasos adicionales que son opcionales si estás comenzando, pero OBLIGATORIOS si tienes una riqueza significativa para proteger. Las instrucciones para eso se encuentran en el Apéndice A (final de la guía).
 
 Conecta el Trezor a la computadora con el cable micro USB e instala y ejecuta el programa. Así es como se ve en una Mac:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Obtendrás una advertencia tonta después de ejecutar el programa, simplemente continúa:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Haz clic en Configurar Trezor
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Si el firmware está desactualizado, permite que Trezor actualice el firmware.
 
 A continuación, puedes crear una nueva semilla o restaurar una billetera desde otro dispositivo con una semilla que ya tengas. Voy a explicar cómo crear una nueva semilla.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Haz clic en "Crear nueva billetera" - y confirma que quieres hacer esto en el propio dispositivo haciendo clic en el botón de confirmación.
 
 Luego haz clic en la única opción "Copia de seguridad de semilla estándar"
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Luego haz clic en "crear copia de seguridad"
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Haz clic en las tres marcas de verificación para que se vuelvan verdes (por supuesto, lee cada mensaje) y luego haz clic en "comenzar copia de seguridad".
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 A continuación, verás esto:
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 En el dispositivo, ve las palabras que se te presentan una por una y escríbelas ORDENADAS y DE FORMA LEGIBLE.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Establece un PIN para bloquear el dispositivo (esto no forma parte de tu semilla, solo sirve para bloquear el dispositivo para que nadie pueda acceder a la semilla que contiene).
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Tienes opciones para agregar shitcoins a tu billetera, te insto a que no lo hagas y ahorres solo en Bitcoin, como explico aquí (por qué bitcoin) y aquí (por qué solo bitcoin).
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Nombra tu billetera y haz clic en "Acceder a Suite":
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 Es más sencillo crear una billetera sin frase de contraseña, pero es mejor crear una con una frase de contraseña (tu billetera real) y otra sin una frase de contraseña (tu billetera señuelo). Cada vez que accedas al dispositivo a través de Trezor Suite, se te preguntará si deseas "aplicar" la frase de contraseña o no.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Seleccioné "Billetera oculta" y escribí una frase de contraseña que inventé "craigwrightisaliarandafraud"
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Me gusta cómo se llama una billetera "oculta", ya que explica en parte cómo funcionan las frases de contraseña.
 
@@ -113,15 +109,15 @@ Confirma la frase de contraseña en el dispositivo.
 
 Como esta billetera está vacía, se me pidió que confirmara que la frase de contraseña es correcta:
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Luego se te preguntará si deseas habilitar el etiquetado. No es algo que haya explorado, pero suena como una forma de etiquetar tus transacciones y guardar los datos en tu computadora o en la nube.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Finalmente, tu billetera estará disponible:
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Lo que tienes en tu computadora se llama "billetera de observación", porque tiene tus claves públicas (y direcciones), pero no tus claves privadas. Necesitas las claves privadas para gastar (firmando transacciones con las claves privadas). La forma de hacerlo es conectando la billetera de hardware. El punto de la billetera de hardware es que las transacciones pueden pasar de ida y vuelta entre la computadora y Trezor, se puede aplicar una firma dentro de Trezor y la clave privada siempre permanece contenida dentro del dispositivo (para seguridad contra malware informático).
 
@@ -141,37 +137,37 @@ Ahora cargaremos Sparrow y conectaremos el Trezor (con la frase de recuperación
 
 Crea una nueva billetera:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Nómbrala de manera bonita.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Haz clic en "Billetera de hardware conectada".
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Haz clic en "Escanear" y luego en "establecer frase de contraseña" en la siguiente pantalla para crear una nueva billetera (usa una nueva frase de contraseña, por ejemplo, la antigua frase de contraseña con un número al final funcionaría). Luego "envía la frase de contraseña" y confírmala en el dispositivo.
 
-'![imagen](assets/23.png)
+'![imagen](assets/23.webp)
 
 Luego haz clic en "importar keystore".
 
 En la siguiente pantalla no hay nada que editar, el Trezor lo ha completado por ti. Haz clic en "Aplicar".
 
-![imagen](assets/24.png)
+![imagen](assets/24.webp)
 
 En la siguiente pantalla puedes agregar una contraseña. No confundas esto con "frase de contraseña"; muchas personas lo hacen. El nombre es desafortunado. La contraseña te permite bloquear esta billetera en tu computadora. Es específica de este software en esta computadora. No forma parte de tu clave privada de Bitcoin.
 
 Haz clic en "Aplicar".
 
-![imagen](assets/25.png)
+![imagen](assets/25.webp)
 
 Después de una pausa, mientras la computadora piensa, verás que los botones de la izquierda cambian de gris a azul. Felicidades, tu billetera está lista para usar. Realiza y envía transacciones a tu gusto.
 
-![imagen](assets/26.png)
+![imagen](assets/26.webp)
 
 Recepción
 
@@ -183,7 +179,7 @@ Una vez que hagas eso, debes hacer una copia de seguridad de las palabras que an
 
 ## Envío
 
-![imagen](assets/27.png)
+![imagen](assets/27.webp)
 
 Al realizar un pago, debes pegar la dirección a la que estás pagando en el campo "Pagar a". En realidad, no puedes dejar en blanco la etiqueta, solo es para los registros de tus propias billeteras, pero Sparrow no lo permite, solo ingresa algo (solo tú lo verás). Ingresa la cantidad y también puedes ajustar manualmente la tarifa que deseas.
 
@@ -200,7 +196,7 @@ Apéndice A - Verificar la descarga del software
 
 ## Apéndice A - Verificar la descarga del software
 
-![imagen](assets/28 .png)
+![imagen](assets/28 .webp)
 
 Descarga la Firma (un archivo de texto) y la Clave de firma (un archivo de texto) y toma nota de los nombres de archivo y de dónde descargaste el archivo.
 

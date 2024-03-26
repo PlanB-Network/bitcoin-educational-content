@@ -1,5 +1,8 @@
 level: intermediate
-hours: 7
-teacher: Rogzy
+hours: 6
+
+professors:
+  - hybrid-tornado
+
 contributors:
-  - rabbit-hole
+  - hybrid-tornado

@@ -1,0 +1,9 @@
+question: Qual è l'impatto dell'iperinflazione sul valore della moneta?
+answer: Provoca una rapida perdita di valore della moneta.
+wrong_answers:
+  - Provoca un aumento del valore della moneta.
+  - Non ha alcun impatto sul valore della moneta.
+  - Provoca una fluttuazione imprevedibile del valore della moneta.
+explanation: |
+  In un periodo di iperinflazione, la moneta perde rapidamente il suo valore, rendendo difficile la pianificazione a lungo termine.
+reviewed: false

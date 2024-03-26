@@ -1,0 +1,9 @@
+question: Qual è il ruolo dei minatori nella rete Bitcoin?
+answer: Registrare le transazioni propagate nella blockchain di Bitcoin
+wrong_answers:
+  - Creare nuovi bitcoin
+  - Regolare il valore dei bitcoin
+  - Verificare l'identità degli utenti di Bitcoin
+explanation: |
+  I minatori nella rete Bitcoin sono responsabili di registrare le transazioni che sono state propagate attraverso la rete nella blockchain di Bitcoin. Ciò garantisce la finalità delle transazioni.
+reviewed: false

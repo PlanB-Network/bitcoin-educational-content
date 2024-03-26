@@ -1,0 +1,9 @@
+question: Quanti episodi di iperinflazione sono documentati nella tabella Hanke-Krus?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  La tabella Hanke-Krus documenta 56 episodi di iperinflazione. Tuttavia, non copre tutti gli episodi, come quello in Venezuela nel 2016, portando il totale a 57.
+reviewed: false

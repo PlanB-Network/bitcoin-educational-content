@@ -1,0 +1,12 @@
+question: What is a common consequence of hyperinflation as seen in the cases of Zimbabwe and the Weimar Republic?
+answer: The intrinsic value of a banknote can become lower than the value of the paper it is printed on.
+wrong_answers:
+  - The value of the currency increases.
+  - The demand for banknotes decreases.
+  - The value of tangible assets decreases.
+explanation: |
+  In certain economic circumstances, such as hyperinflation, the intrinsic
+  value of a banknote can become lower than the value of the paper it is printed on.
+  This drastic depreciation turns banknotes, which are normally symbols of value and
+  purchasing power, into mere pieces of worthless paper.
+reviewed: false

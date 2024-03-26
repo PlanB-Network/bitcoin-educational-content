@@ -1,0 +1,11 @@
+question: What are the two characteristics that make Bitcoin what it is today?
+answer: Its open-source code and its scarcity
+wrong_answers:
+  - Its anonymity and its decentralization
+  - Its high value and its volatility
+  - Its ease of use and its global acceptance
+explanation: |
+  The two main characteristics that define Bitcoin are its open-source
+  code, which makes it transparent, auditable, and usable by anyone, and its scarcity,
+  which means there will only ever be 21 million bitcoins in the world.
+reviewed: false

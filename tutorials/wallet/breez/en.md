@@ -2,12 +2,9 @@
 name: Breez
 
 description: A powerfull lightning wallet
-
 ---
 
 ![cover](assets/cover.jpeg)
-
-# Breez: non-custodial Lightning client.
 
 To find all the importante information please refer to their extensive guide: https://doc.breez.technology/
 

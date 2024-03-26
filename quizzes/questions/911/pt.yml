@@ -1,0 +1,10 @@
+question: Qual é o método axiomático-dedutivo proposto por Ludwig von Mises no estudo das ciências sociais?
+answer: Este método é baseado em proposições fundamentais chamadas axiomas, semelhantes às usadas na matemática.
+wrong_answers:
+  - Este método é baseado em dados empíricos e observações.
+  - Este método é baseado em experimentos temporários e hipóteses.
+  - Este método é baseado na abordagem positivista frequentemente utilizada nas ciências sociais.
+explanation: |
+  O método axiomático-dedutivo proposto por Ludwig von Mises é baseado em proposições fundamentais chamadas axiomas, semelhantes às usadas na matemática.
+  Este método é utilizado para estudar as ciências sociais, incluindo a economia.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Qual è il metodo assiomatico-deduttivo proposto da Ludwig von Mises nello studio delle scienze sociali?
+answer: Questo approccio si basa su proposizioni fondamentali chiamate assiomi, simili a quelli utilizzati in matematica.
+wrong_answers:
+  - Questo approccio si basa su dati empirici e osservazioni.
+  - Questo approccio si basa su esperimenti temporanei e ipotesi.
+  - Questo approccio si basa sull'approccio positivista spesso utilizzato nelle scienze sociali.
+explanation: |
+  Il metodo assiomatico-deduttivo proposto da Ludwig von Mises si basa su proposizioni fondamentali chiamate assiomi, simili a quelli utilizzati in matematica.
+  Questo metodo viene utilizzato per lo studio delle scienze sociali, compresa l'economia.
+reviewed: false

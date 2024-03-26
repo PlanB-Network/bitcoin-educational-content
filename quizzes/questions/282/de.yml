@@ -1,0 +1,9 @@
+question: Was ist der Unterschied zwischen Handel und Investition im Zusammenhang mit Bitcoin?
+answer: Beim Handel handelt es sich um kurzfristige Verträge mit hohem Risiko, während bei der Investition der Kauf von BTC für den kurz- bis mittelfristigen Zeitraum mit begrenztem Risiko erfolgt.
+wrong_answers:
+  - Beim Handel handelt es sich um den Kauf von BTC für den kurz- bis mittelfristigen Zeitraum, während bei der Investition kurzfristige Verträge mit hohem Risiko erfolgen.
+  - Beim Handel handelt es sich um den Kauf von BTC für den langfristigen Zeitraum, während bei der Investition kurzfristige Verträge mit hohem Risiko erfolgen.
+  - Beim Handel handelt es sich um den Kauf von BTC für den kurz- bis mittelfristigen Zeitraum, während bei der Investition der Kauf von BTC für den langfristigen Zeitraum erfolgt.
+explanation: |
+  Im Zusammenhang mit Bitcoin beinhaltet der Handel kurzfristige Verträge mit hohem Risiko, während die Investition den Kauf von BTC für den kurz- bis mittelfristigen Zeitraum mit begrenztem Risiko beinhaltet.
+reviewed: false

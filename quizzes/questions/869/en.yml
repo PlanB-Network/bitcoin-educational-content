@@ -1,0 +1,15 @@
+question: What are the consequences of Zero Interest Rate Policies (ZIRP)?
+answer: ZIRP erodes banks' margins, discourages lending to entrepreneurs and risk-takers, and encourages governments to engage in extensive spending, leading to increased public debt.
+wrong_answers:
+  - ZIRP increases banks' profits, encourages lending to entrepreneurs and risk-takers, and discourages government spending.
+  - ZIRP has no significant impact on banks, lending practices, or government spending.
+  - ZIRP decreases public debt, encourages lending to entrepreneurs and risk-takers, and discourages government spending.
+explanation: |
+  Zero Interest Rate Policies (ZIRP) can have several unintended consequences.
+  Banks have limited opportunities to rebuild their equity because their margins are
+  eroded. They also have little incentive to lend, especially to entrepreneurs and
+  other risk-takers. Instead, they allocate their resources to securitize existing
+  capital or provide loans against collateral. Additionally, ZIRP encourages governments
+  to engage in extensive spending, leading to a significant increase in public debt
+  levels.
+reviewed: false

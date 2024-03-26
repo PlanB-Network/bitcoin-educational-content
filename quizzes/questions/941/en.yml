@@ -1,0 +1,14 @@
+question: What are the main types of stablecoins mentioned in the text? 
+answer: Fiat-backed, commodity-backed, and algorithmic stablecoins. 
+wrong_answers:
+  - Digital and physical stablecoins
+  - Centralised and decentralised stablecoins
+  - Stablecoins backed by banks and stablecoins backed by individuals
+explanation: |
+  In the previous chapters we have seen three main types of stablecoins; 
+  fiat-backed stablecoins, which are backed by traditional currencies 
+  like the US dollar; commodity-backed stablecoins, which are backed by 
+  commodities like gold or oil; and algorithmic stablecoins, which rely 
+  on a set of rules or algorithms to maintain their value. However, 
+  it notes that successful algorithmic stablecoins have yet to hit the market.
+reviewed: true

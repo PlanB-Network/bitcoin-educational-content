@@ -6,8 +6,6 @@ description: Comment configurer votre appareil Fondation
 
 ![cover](assets/cover.jpeg)
 
-# Fondation
-
 L'auto-garde est enfin accessible avec le portefeuille matériel Passport et le portefeuille mobile Envoy. https://foundationdevices.com/
 
 Caractéristiques clés
@@ -19,7 +17,7 @@ Caractéristiques clés
 - Batterie lithium-ion 1200 mAh amovible par l'utilisateur dans le format Nokia BL-5C (incluse avec l'achat).
 - Fonctionnalités de sécurité : déconnecté du réseau, saisie facile de la phrase de passe, voyants de sécurité, mots anti-hameçonnage, validation de sécurité.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # Tutoriel vidéo
 

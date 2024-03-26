@@ -1,0 +1,9 @@
+question: ¿Cuál es uno de los errores comunes que cometen los inversores principiantes al ingresar al mundo de Bitcoin?
+answer: Sobreinversión
+wrong_answers:
+  - Subinversión
+  - Invertir solo en Bitcoin
+  - No invertir en Bitcoin en absoluto
+explanation: |
+  Uno de los errores comunes que cometen los inversores principiantes al ingresar al mundo de Bitcoin es la sobreinversión, lo que significa invertir más dinero del que pueden permitirse perder. Esto puede llevar a problemas financieros si el valor de Bitcoin disminuye.
+reviewed: false

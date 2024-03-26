@@ -1,0 +1,9 @@
+question: Qual é uma das medidas para manter o seu computador em condições de funcionamento ótimas?
+answer: Fazer regularmente backup dos seus dados
+wrong_answers:
+  - Compartilhar suas senhas
+  - Usar a mesma senha para todas as contas
+  - Deixar de atualizar o seu computador
+explanation: |
+  Fazer regularmente backup dos seus dados é uma das medidas para manter o seu computador em condições de funcionamento ótimas. Também é uma medida básica para melhorar os hábitos de segurança online.
+reviewed: false

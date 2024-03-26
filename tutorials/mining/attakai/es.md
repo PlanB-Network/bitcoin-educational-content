@@ -64,40 +64,40 @@ El Antminer S9 existe en varias variantes (i, j) que realizan modificaciones men
 
 El precio de los ASIC varía según muchos factores, como el precio del bitcoin, la dificultad de la red, la eficiencia de la máquina y el costo de la electricidad. Por lo tanto, es difícil dar una estimación precisa para la compra de una máquina de segunda mano. En febrero de 2023, el precio esperado en Francia generalmente oscila entre 100€ y 200€, pero estos precios pueden cambiar rápidamente.
 
-![image](assets/guide-achat/1.jpeg)
+![image](assets/guide-achat/1.webp)
 
 El Antminer S9 está compuesto por las siguientes partes:
 
 - 3 placas de hash donde se encuentran los chips que producen el hash
 
-![image](assets/guide-achat/2.jpeg)'
+![image](assets/guide-achat/2.webp)'
 
 - Una tarjeta de control que incluye un espacio para una tarjeta SD, un puerto Ethernet y conectores para las hashboards y los ventiladores. Es el cerebro de tu ASIC.
-  ![image](assets/guide-achat/3.jpeg)
+  ![image](assets/guide-achat/3.webp)
 
 - 3 cables de datos que conectan las hashboards con la tarjeta de control.
 
-![image](assets/guide-achat/4.jpeg)
+![image](assets/guide-achat/4.webp)
 
 - La fuente de alimentación que funciona con 220V y puede ser conectada como un electrodoméstico común.
 
-![image](assets/guide-achat/5.jpeg)
+![image](assets/guide-achat/5.webp)
 
 - 2 ventiladores de 120mm.
 
-![image](assets/guide-achat/6.jpeg)
+![image](assets/guide-achat/6.webp)
 
 - Un cable macho C13.
 
-![image](assets/guide-achat/7.jpeg)
+![image](assets/guide-achat/7.webp)
 
 Cuando compras una máquina de segunda mano, es importante verificar que todas las piezas estén incluidas y funcionales. Durante el intercambio, debes pedir al vendedor que encienda la máquina para verificar su correcto funcionamiento. Es importante comprobar que el dispositivo se encienda correctamente y luego verificar la conectividad a internet conectando un cable Ethernet y accediendo a la interfaz de conexión de Bitmain a través de un navegador web en la misma red local. Puedes encontrar esta dirección IP conectándote a la interfaz de tu enrutador de internet y buscando los dispositivos conectados. Esta dirección debería tener el siguiente formato: 192.168.x.x
 
-![image](assets/guide-achat/8.gif)
+![image](assets/guide-achat/8.webp)
 
 También verifica que las credenciales predeterminadas funcionen (nombre de usuario: root, contraseña: root). Si las credenciales predeterminadas no funcionan, deberás realizar un reinicio de la máquina.
 
-![image](assets/guide-achat/9.jpeg)
+![image](assets/guide-achat/9.webp)
 
 Una vez conectado, deberías poder ver el estado de cada hashboard en el panel de control. Si el minero está conectado a un grupo de minería, deberías ver que todas las hashboards funcionan. Es importante tener en cuenta que los mineros hacen mucho ruido, esto es normal. Asegúrate también de que los ventiladores funcionen correctamente.
 
@@ -108,7 +108,7 @@ Para sintetizar esta guía en una frase: **"No confíes, verifica"**.
 
 ## Capítulo 2: Guía de compra de piezas para modificaciones
 
-![image](assets/piece/1.jpeg)
+![image](assets/piece/1.webp)
 
 ### ¿Cómo convertir tu Antminer S9 en una calefacción silenciosa y conectada?
 
@@ -118,27 +118,27 @@ Si eres propietario de un Antminer S9, probablemente sepas lo ruidoso y volumino
 
 Los ventiladores originales del Antminer S9 son demasiado ruidosos para utilizar tu Antminer como calefacción. La solución es reemplazarlos por ventiladores más silenciosos. Nuestro equipo ha probado varios modelos de la marca Noctua y ha seleccionado el Noctua NF-A14 iPPC-2000 PWM como la mejor opción, asegúrate de elegir la versión de 12V de los ventiladores. Este ventilador de 140mm puede generar hasta 1300W de calefacción manteniendo un nivel teórico de ruido de 31 dB. Para poder montar estos ventiladores de 140mm, deberás utilizar un adaptador de 140mm a 120mm que podrás encontrar en la tienda de DécouvreBitcoin. También agregaremos rejillas de protección de 140mm.
 
-![image](assets/piece/1.jpeg)
-![image](assets/piece/2.jpeg)
-![image](assets/piece/3.jpeg)
+![image](assets/piece/1.webp)
+![image](assets/piece/2.webp)
+![image](assets/piece/3.webp)
 
 El ventilador de la fuente de alimentación también es bastante ruidoso y debe ser reemplazado. Recomendamos el Noctua NF-A6x25 PWM. Ten en cuenta que los conectores de los ventiladores Noctua no son los mismos que los originales, por lo que necesitarás un adaptador para conectarlos, con 2 será suficiente. También ten cuidado de elegir la versión de 12V del ventilador.
 
-![image](assets/piece/4.jpeg)
-![image](assets/piece/5.jpeg)
+![image](assets/piece/4.webp)
+![image](assets/piece/5.webp)
 
 ### 2. Agregar un puente WIFI/Ethernet
 
 En lugar de utilizar un cable Ethernet, puedes conectar tu Antminer a través de WIFI agregando un puente WIFI/Ethernet. Hemos seleccionado el vonets vap11g-300 porque permite recuperar fácilmente la señal WIFI de tu caja de Internet y transmitirla a tu Antminer a través de Ethernet sin crear una subred. Si tienes habilidades eléctricas, puedes alimentarlo directamente con la fuente de alimentación del Antminer sin necesidad de agregar un cargador USB, para ello necesitarás un conector hembra de 5,5mmx2,1mm.
 
-![image](assets/piece/6.jpeg)
-![image](assets/piece/7.jpeg)
+![image](assets/piece/6.webp)
+![image](assets/piece/7.webp)
 
 ### 3. Opcional: agregar un enchufe conectado
 
 Si desea encender/apagar su Antminer desde su teléfono inteligente y monitorear su consumo de energía, puede agregar un enchufe inteligente. Hemos probado el enchufe ANTELA en su versión de 16A compatible con la aplicación smartlife. Este enchufe inteligente permite consultar el consumo diario y mensual y se conecta directamente a su caja de Internet a través de WIFI.
 
-![image](assets/piece/8.jpeg)
+![image](assets/piece/8.webp)
 
 > Lista de materiales y enlaces
 >
@@ -151,7 +151,7 @@ Si desea encender/apagar su Antminer desde su teléfono inteligente y monitorear
 
 ## Capítulo 3 - TUTORIAL: ¿Cómo convertir un minero en una calefacción?
 
-![imagen](assets/hardware/0.jpeg)
+![imagen](assets/hardware/0.webp)
 
 Si eres un manitas y estás buscando convertir un minero en una calefacción, este tutorial es para ti. Queremos advertirte que hacer modificaciones a un dispositivo electrónico puede presentar riesgos eléctricos e incendios. Por lo tanto, es esencial tomar todas las precauciones necesarias para evitar cualquier daño o lesión.
 De fábrica, un minero no es realmente utilizable como radiador en una vivienda, ya que es demasiado ruidoso y no es ajustable. Sin embargo, es posible realizar modificaciones simples para solucionar estos problemas.
@@ -174,98 +174,98 @@ Comenzaremos reemplazando el ventilador de la fuente de alimentación.
 
 > ATENCIÓN: Primero, antes de comenzar, asegúrate de haber desconectado tu minero para evitar cualquier riesgo de electrocución.
 
-![imagen](assets/hardware/1.jpeg)
+![imagen](assets/hardware/1.webp)
 
 Comenzaremos reemplazando el ventilador de la fuente de alimentación.
 
 Primero, retira los 6 tornillos en el lateral de la carcasa que la mantienen cerrada. Una vez retirados los tornillos, abre cuidadosamente la carcasa para quitar la protección de plástico que cubre los componentes.
 
-![imagen](assets/hardware/2.jpeg)
-![imagen](assets/hardware/3.jpeg)'
+![imagen](assets/hardware/2.webp)
+![imagen](assets/hardware/3.webp)'
 
 A continuación, es hora de retirar el ventilador original teniendo cuidado de no dañar los otros componentes. Para hacer esto, retire los tornillos que lo mantienen en su lugar y despegue suavemente el pegamento blanco que rodea el conector. Es importante proceder con delicadeza para evitar dañar los cables o los conectores.
 
-![image](assets/hardware/4.jpeg)
+![image](assets/hardware/4.webp)
 
 Una vez retirado el ventilador original, notará que los conectores del nuevo ventilador Noctua no coinciden con los del ventilador original. De hecho, el nuevo ventilador tiene 3 cables, incluido un cable amarillo que permite controlar la velocidad. Sin embargo, este cable no se utilizará en este caso específico. Para conectar el nuevo ventilador, se recomienda utilizar un adaptador especial. Sin embargo, es importante tener en cuenta que este adaptador a veces puede ser difícil de encontrar.
 
-![image](assets/hardware/5.jpeg)
+![image](assets/hardware/5.webp)
 
 Si no tiene este adaptador, aún puede conectar el nuevo ventilador utilizando un empalme de cables eléctricos. Para ello, deberá cortar los cables del ventilador antiguo y del nuevo ventilador.
 
-![image](assets/hardware/6.jpeg)
-![image](assets/hardware/7.jpeg)
+![image](assets/hardware/6.webp)
+![image](assets/hardware/7.webp)
 
 En el nuevo ventilador, use un cortador y corte cuidadosamente los contornos de la cubierta principal a 1 cm sin cortar las cubiertas de los cables debajo.
 
-![image](assets/hardware/8.jpeg)
+![image](assets/hardware/8.webp)
 
 Luego, tirando hacia abajo de la cubierta principal, corte las cubiertas de los cables rojo y negro de la misma manera que antes. Y corte el cable amarillo al ras.
 
-![image](assets/hardware/9.jpeg)
+![image](assets/hardware/9.webp)
 
 En el ventilador antiguo, es más delicado cortar la cubierta principal sin dañar las cubiertas de los cables rojo y negro. Para ello, hemos utilizado una aguja que hemos deslizado entre la cubierta principal y los cables rojo y negro.
 
-![image](assets/hardware/10.jpeg)
-![image](assets/hardware/11.jpeg)
+![image](assets/hardware/10.webp)
+![image](assets/hardware/11.webp)
 
 Una vez que los cables rojo y negro estén libres, corte las cubiertas siempre con cuidado para no dañar los cables eléctricos.
 
-![image](assets/hardware/12.jpeg)
+![image](assets/hardware/12.webp)
 
 Luego, conecte los cables con un empalme, el cable negro con el negro y el cable rojo con el rojo. También puede agregar cinta aislante.
 
-![image](assets/hardware/13.jpeg)
-![image](assets/hardware/14.jpeg)
+![image](assets/hardware/13.webp)
+![image](assets/hardware/14.webp)
 
 Una vez realizada la conexión, es hora de colocar el nuevo ventilador Noctua con la rejilla y los tornillos antiguos, los nuevos tornillos que se encuentran en la caja se reutilizarán más tarde. Asegúrese de colocarlo con la orientación correcta. Notará una flecha en uno de los lados del ventilador, que indica la dirección del flujo de aire. Es importante colocar el ventilador de manera que esta flecha apunte hacia el interior del estuche. Luego, vuelva a conectar el ventilador.
 
-![image](assets/hardware/15.jpeg)
-![image](assets/hardware/16.jpeg)
+![image](assets/hardware/15.webp)
+![image](assets/hardware/16.webp)
 
 > Opcional: Si tienes conocimientos en electricidad, puedes agregar directamente un conector hembra de 5,5 mm en la salida de alimentación de 12V, lo cual permitirá alimentar directamente el puente Wi-Fi Vonet. Sin embargo, si no estás seguro de tus habilidades en electricidad, es mejor utilizar el conector USB con un cargador de tipo smartphone para evitar cualquier riesgo de cortocircuito o daño eléctrico.
 
-![image](assets/hardware/17.jpeg)
+![image](assets/hardware/17.webp)
 
 Una vez realizadas las conexiones, asegúrate de colocar correctamente la cubierta de plástico sobre la carcasa y no dentro de ella.
 
-![image](assets/hardware/18.jpeg)
+![image](assets/hardware/18.webp)
 
 Finalmente, vuelve a colocar la cubierta de la carcasa en su lugar y vuelve a atornillar los 6 tornillos en los lados para mantener todo en su lugar. ¡Y listo, tu carcasa de alimentación ahora está equipada con un nuevo ventilador!
 
 ### Reemplazo de los 2 ventiladores principales
 
 1. En primer lugar, desconecta los ventiladores y desenróscalos.
-   ![image](assets/hardware/19.jpeg)
+   ![image](assets/hardware/19.webp)
 
 2. Los conectores de los nuevos ventiladores Noctua no coinciden con los originales, ¡pero no te preocupes! Saca tu cutter y corta cuidadosamente las pequeñas lengüetas de plástico para que los conectores se adapten perfectamente a tu minero.
 
-![image](assets/hardware/20.jpeg)
-![image](assets/hardware/21.jpeg)
+![image](assets/hardware/20.webp)
+![image](assets/hardware/21.webp)
 
 3. ¡Es hora de instalar las piezas 3D!
    Fíjalas en ambos lados del minero utilizando los tornillos que retiraste de los ventiladores. Atornilla hasta que la cabeza del tornillo se hunda en la pieza 3D y esta quede bien sujeta. Ten cuidado de no apretar demasiado, ¡podrías deformar la pieza y uno de los tornillos podría tocar un condensador! Luego corta cuidadosamente las pequeñas lengüetas de plástico para que los conectores se adapten perfectamente a tu minero.
 
-![image](assets/hardware/22.jpeg)
+![image](assets/hardware/22.webp)
 
 4. Ahora pasemos a los ventiladores.
    Fíjalos en las piezas 3D utilizando los tornillos suministrados en la caja. Presta atención a la dirección del flujo de aire, las flechas en los lados de los ventiladores te indicarán la dirección a seguir. Ve desde el lado del puerto Ethernet hacia el otro lado. Ver foto a continuación.
 
-![image](assets/hardware/23.jpeg)
-![image](assets/hardware/24.jpeg)
-![image](assets/hardware/25.jpeg)
+![image](assets/hardware/23.webp)
+![image](assets/hardware/24.webp)
+![image](assets/hardware/25.webp)
 
 5. Último paso: conecta los ventiladores y fija las rejillas encima con los tornillos que no se utilizaron en la caja del ventilador de la alimentación. Solo tienes 4, pero 2 por rejilla en ángulos opuestos serán suficientes. Si es necesario, también puedes buscar otros tornillos similares en una tienda de bricolaje.
 
-![image](assets/hardware/26.jpeg)'
-'![image](assets/hardware/27.jpeg)
+![image](assets/hardware/26.webp)'
+'![image](assets/hardware/27.webp)
 Mientras esperas poder ofrecer una carcasa más atractiva para tu nueva calefacción, puedes sujetar la caja y la fuente de alimentación juntas con abrazaderas de electricista.
 
-![image](assets/hardware/28.jpeg)
+![image](assets/hardware/28.webp)
 
 Y para el toque final, conecta el puente Vonet al puerto Ethernet a su fuente de alimentación. Si aún no lo has hecho, puedes seguir este tutorial para configurar tu puente.
 
-![image](assets/hardware/29.jpeg)
+![image](assets/hardware/29.webp)
 
 ¡Y listo, felicidades! Acabas de reemplazar toda la parte mecánica de tu minero. Ahora deberías escuchar mucho menos ruido.
 
@@ -279,7 +279,7 @@ Este método se puede aplicar dentro de los 10 minutos posteriores al inicio del
 
 Después de encender el minero durante 2 minutos, presiona el botón "Reset" durante 5 segundos y luego suéltalo. El minero se restaurará a los ajustes de fábrica en 4 minutos y se reiniciará automáticamente (no es necesario apagarlo).
 
-![image](assets/software/1.jpeg)
+![image](assets/software/1.webp)
 
 Restaurar mediante el lado web
 
@@ -291,7 +291,7 @@ Para esta parte, supondremos que la máquina está funcionando, está encendida 
 
 Primero, conéctate a tu máquina a través de tu red local:
 
-![image](assets/software/2.gif)
+![image](assets/software/2.webp)
 
 Una vez en la página de inicio de sesión, deberás iniciar sesión en el ASIC utilizando las credenciales predeterminadas:
 
@@ -302,11 +302,11 @@ Una vez en la página de inicio de sesión, deberás iniciar sesión en el ASIC 
 
 El sistema operativo principal es relativamente básico. Con las 4 pestañas: System, Miner Configuration, Miner Status, Network. En la pestaña Miner Configuration, puedes configurar hasta 3 grupos de minería.
 
-![image](assets/software/3.jpeg)
+![image](assets/software/3.webp)
 
 En la pestaña Miner Status, podrás observar diferentes información sobre el funcionamiento del ASIC en tiempo real. La tasa de hash expresada en GH/s, información más detallada sobre el grupo de minería, así como detalles sobre el estado de cada placa hash y la velocidad de los ventiladores en revoluciones por minuto.
 
-![image](assets/software/4.jpeg)
+![image](assets/software/4.webp)
 
 ### Braiins OS+'
 
@@ -330,11 +330,11 @@ Descubra cómo instalar fácilmente Braiins OS+ directamente en la memoria de su
 1. Encienda su Antminer y conéctelo a su caja de internet.
 2. Descargue BOS toolbox para Windows / Linux.
 3. Descomprima el archivo descargado y abra el archivo bos-toolbox.bat, elija el idioma y luego después de un momento verá esta ventana:
-   ![image](assets/software/5.jpeg)
+   ![image](assets/software/5.webp)
 
 4. Bos toolbox le permitirá encontrar fácilmente la dirección IP de su Antminer e instalar Braiins OS+. Si ya conoce la dirección IP de su máquina, puede pasar al paso 8. De lo contrario, vaya a la pestaña de escaneo.
 
-![image](assets/software/6.jpeg)
+![image](assets/software/6.webp)
 
 5. Por lo general, en las redes domésticas, el rango de direcciones IP se encuentra entre 192.168.1.1 y 192.168.1.255, así que ingrese "192.168.1.0/24" en el campo de rango de IP. Si su red es diferente, cambie estas direcciones. Luego haga clic en "Start".
 
@@ -342,19 +342,19 @@ Descubra cómo instalar fácilmente Braiins OS+ directamente en la memoria de su
 
 7. Debería ver todos los Antminer en su red, aquí la dirección IP es 192.168.1.37
 
-![image](assets/software/7.jpeg)
+![image](assets/software/7.webp)
 
 8. Haga clic en "Back" y luego en la pestaña de instalación, ingrese la dirección IP encontrada anteriormente en el campo de "Miner(s)" y "admin" (o "root") en el campo de contraseña, que es la contraseña predeterminada, luego haga clic en "Start".
    Si la instalación no funciona, ni con "admin" ni con "root" como contraseña, puede ser necesario realizar un restablecimiento de fábrica y volver a intentarlo.
 
-![image](assets/software/8.jpeg)
+![image](assets/software/8.webp)
 
 9. Después de un momento, su Antminer se reiniciará y podrá acceder a la interfaz de Braiins OS+ en la dirección IP mencionada, aquí 192.168.1.37, que debe ingresar directamente en la barra de direcciones de su navegador, el nombre de usuario predeterminado es "root" y no hay contraseña predeterminada.
    Instalación de Braiins OS+ en una tarjeta SD
 
-![image](assets/software/9.jpeg)
+![image](assets/software/9.webp)
 
-![image](assets/software/10.jpeg)
+![image](assets/software/10.webp)
 
 El segundo método utiliza la interfaz original de su Antminer. Este método funciona para máquinas con un sistema operativo anterior a 2019.
 
@@ -365,7 +365,7 @@ El segundo método utiliza la interfaz original de su Antminer. Este método fun
 3. Vaya a la pestaña de Sistema y luego a Actualización.
 4. Cargue el archivo que ha descargado y flashee la imagen.
 
-![image](assets/software/11.jpeg)
+![image](assets/software/11.webp)
 
 ### Tarjeta micro SD
 
@@ -376,9 +376,9 @@ Un segundo método le permite utilizar una tarjeta micro SD. Este método solo f
 2. Flashee la imagen descargada en una tarjeta micro SD. Para ello, puede utilizar Etcher. Simplemente copiar el archivo en la tarjeta micro SD no funcionará.
 3. Si tienes un Antminer S9 y sus variantes (S9i, S9j), deberás ajustar los "jumpers" para forzar que tu ASIC arranque desde el archivo contenido en la tarjeta micro SD en lugar de la NAND. Si tienes otro modelo, puedes pasar a la parte 4. Los jumpers se encuentran en la tarjeta de control en la parte superior del ASIC, cerca del puerto Ethernet. Deberás retirarla deslizándola hacia atrás. Una vez que hayas modificado la posición del jumper como se muestra en las imágenes a continuación "BOOT FROM SD", puedes volver a insertar la tarjeta de control y volver a conectar el S9.
 
-![image](assets/software/12.jpeg)
+![image](assets/software/12.webp)
 
-![image](assets/software/13.jpeg)
+![image](assets/software/13.webp)
 
 4. Inserta la tarjeta micro SD en el ASIC.
 5. Inicia el ASIC. Si se utilizó la versión de instalación automática, el nuevo sistema operativo se instalará automáticamente. La instalación se completa cuando ambos LEDs se encienden al mismo tiempo. Puedes reiniciar el ASIC y retirar la tarjeta micro SD. Si se descargó la otra versión, deberás dejar la tarjeta micro SD dentro del ASIC.
@@ -398,7 +398,7 @@ Entonces serás recibido por el panel de control de Brains OS+.
 
 ### Panel de control
 
-![image](assets/software/14.jpeg)
+![image](assets/software/14.webp)
 
 En esta primera página podrás observar el rendimiento de tu máquina en tiempo real.
 
@@ -406,7 +406,7 @@ En esta primera página podrás observar el rendimiento de tu máquina en tiempo
 - A la derecha, el hashrate real, la temperatura promedio de los chips, tu eficiencia estimada en W/THs y el consumo de energía.
 - Debajo, la velocidad de rotación de los ventiladores en porcentaje de la velocidad máxima y el número de rotaciones por minuto.
 
-![image](assets/software/15.jpeg)
+![image](assets/software/15.webp)
 
 - Más abajo encontrarás una vista detallada de cada hashboard. La temperatura promedio de la placa y los chips que la componen, el voltaje y la frecuencia.
 - Detalles sobre los pools de minería activos en Pools.
@@ -415,15 +415,15 @@ En esta primera página podrás observar el rendimiento de tu máquina en tiempo
 
 ### Configuración
 
-![image](assets/software/16.jpeg)
+![image](assets/software/16.webp)
 
 ### Sistema
 
-![image](assets/software/17.jpeg)
+![image](assets/software/17.webp)
 
 ### Acciones rápidas
 
-![image](assets/software/18.jpeg)
+![image](assets/software/18.webp)
 
 Configuración de un pool.
 
@@ -443,17 +443,17 @@ El modelo de recompensa que nos interesa es el PPS, que significa "pago por acci
 
 Para configurar un grupo en Braiins 0S+, deberá crear una cuenta en uno de los grupos de su elección. Aquí vamos a tomar el ejemplo de Lincoin:
 
-![image](assets/software/19.jpeg)
+![image](assets/software/19.webp)
 
 Una vez que haya creado su cuenta, haga clic en "Connect To Pool".
 
 Luego copie la dirección Stratum y su nombre de usuario:
 
-![image](assets/software/20.jpeg)
+![image](assets/software/20.webp)
 
 Ahora puede volver a la interfaz de Braiins OS+ para ingresar estas credenciales. Para la contraseña, puede dejar el campo vacío.
 
-![image](assets/software/21.jpeg)
+![image](assets/software/21.webp)
 
 ### Overclocking y Underclocking
 

@@ -6,8 +6,6 @@ description: Guía para configurar tu LN P2P Bot
 
 ![cover](assets/cover.jpeg)
 
-# LN p2p Bot
-
 Bitcoin es una tecnología de ahorro accesible y equitativa, y es un medio de intercambio resistente a la censura. Lightning nos permite tener acceso inmediato a Bitcoin a un costo muy bajo sin perder todas las propiedades que hacen de Bitcoin el mejor dinero al que podemos tener acceso.
 
 website: https://lnp2pbot.com/
@@ -24,11 +22,11 @@ Todos los recursos: https://lnp2pbot.com/learn/
 
 - Inicia @lnp2pBot
 
-![video](assets/1.gif)
+![video](assets/1.webp)
 
 - Encuentra ofertas en el canal @lnp2pbot Exchange.
 
-![video](assets/2.gif)
+![video](assets/2.webp)
 
 - Comienza a comprar y vender.
 

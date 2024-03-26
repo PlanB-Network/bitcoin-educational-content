@@ -1,0 +1,9 @@
+question: Qual é o papel de empresas como OpenNode, Swiss Bitcoin Pay e BTCPay no ecossistema do Bitcoin?
+answer: Elas fornecem ferramentas que facilitam para as empresas aceitarem Bitcoin.
+wrong_answers:
+  - Elas mineram Bitcoin.
+  - Elas regulam Bitcoin.
+  - Elas emitem Bitcoin.
+explanation: |
+  Empresas como OpenNode, Swiss Bitcoin Pay e BTCPay fornecem ferramentas que facilitam para as empresas aceitarem Bitcoin, contribuindo para sua adoção e uso em transações do dia a dia.
+reviewed: false

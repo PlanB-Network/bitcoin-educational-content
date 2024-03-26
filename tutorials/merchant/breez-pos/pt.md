@@ -6,8 +6,6 @@ description: Guia para começar a aceitar bitcoin usando o Breez POS
 
 ![capa](assets/cover.jpeg)
 
-# Breez Ponto de Vendas
-
 _Este texto vem do site de documentação do Breez: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
 ## O que é o Breez POS?

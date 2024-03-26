@@ -1,0 +1,9 @@
+question: O que é uma empresa zumbi?
+answer: Uma empresa que, em condições normais de mercado, estaria insolvente ou próxima da falência, mas continua operando principalmente por meio de empréstimos de baixo custo.
+wrong_answers:
+  - Uma empresa que está no mercado há mais de 100 anos.
+  - Uma empresa que opera no setor de tecnologia.
+  - Uma empresa que foi resgatada pelo governo.
+explanation: |
+  Uma empresa zumbi é uma empresa que, em condições normais de mercado, estaria insolvente ou próxima da falência, mas continua operando principalmente por meio de empréstimos de baixo custo. Essas empresas ganham dinheiro o suficiente para cobrir suas dívidas, mas são incapazes de crescer significativamente.
+reviewed: false

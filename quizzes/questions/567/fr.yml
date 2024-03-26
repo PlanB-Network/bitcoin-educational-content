@@ -1,0 +1,9 @@
+question: Quel est l'impact de l'Indice des Prix à la Consommation (IPC) sur la mesure de l'inflation?
+answer: L'IPC peut sous-estimer l'inflation réelle car il ne prend pas en compte de manière exhaustive l'évolution des prix de l'immobilier et peut compenser ou masquer les augmentations de prix réelles.
+wrong_answers:
+  - L'IPC mesure toujours avec précision l'inflation.
+  - L'IPC surestime l'inflation réelle.
+  - L'IPC n'a aucun impact sur la mesure de l'inflation.
+explanation: |
+  Le chapitre explique que l'IPC, utilisé comme principal indicateur de l'inflation, présente certaines limites. Par exemple, il ne prend pas en compte de manière exhaustive l'évolution des prix de l'immobilier. De plus, le calcul de l'IPC inclut certaines méthodologies qui peuvent compenser ou masquer les augmentations de prix réelles.
+reviewed: false

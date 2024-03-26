@@ -3,9 +3,7 @@ name: RGB
 description: Einführung und Vermögenserstellung auf RGB
 ---
 
-# Eine kurze Einführung in RGB-Protokolle
-
-![RGB vs Ethereum](assets/0.png)
+![RGB vs Ethereum](assets/0.webp)
 
 ## Einführung
 
@@ -26,7 +24,7 @@ In einfachen Worten ist RGB ein System, das es dem Benutzer ermöglicht, einen S
 
 Derzeit fördert die Blockchain-Branche, dass sowohl der Code der Smart Contracts als auch die Daten in der Blockchain gespeichert und von jedem Knoten im Netzwerk ausgeführt werden müssen, unabhängig von der übermäßigen Größenzunahme oder dem Missbrauch von Rechenressourcen. Das von RGB vorgeschlagene Schema ist jedoch viel intelligenter und effizienter, da es mit dem Blockchain-Paradigma bricht, indem es Smart Contracts und Daten von der Blockchain trennt und so die Netzwerküberlastung vermeidet, die in anderen Plattformen zu sehen ist. Darüber hinaus zwingt es nicht jeden Knoten, jeden Vertrag auszuführen, sondern nur die beteiligten Parteien, was eine bisher nie dagewesene Vertraulichkeit bietet.
 
-![RGB vs Ethereum](assets/1.png)
+![RGB vs Ethereum](assets/1.webp)
 
 ## Smart Contracts in RGB
 

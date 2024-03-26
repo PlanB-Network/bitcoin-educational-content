@@ -4,10 +4,6 @@ name: Tails
 description: Instalar Tails en una memoria USB
 ---
 
-# Instalar Tails en una memoria USB
-
-_**Guía propuesta por Hari Seldon en el marco de Agora256**_
-
 ![image](assets/cover.jpeg)
 
 Un sistema operativo portátil y amnésico que te protege contra la vigilancia y la censura.
@@ -57,7 +53,7 @@ Antes de comenzar este procedimiento, asegúrese de tener en su posesión una me
 
 ## Paso 1: Descargar Tails desde su ordenador
 
-![imagen](assets/1.jpeg)
+![imagen](assets/1.webp)
 
 > 🔗 Sección oficial de Tails: https://tails.boum.org/install/linux/index.fr.html#download
 
@@ -67,7 +63,7 @@ Guarde el archivo en una carpeta conocida, como "Descargas", ya que será necesa
 
 ## Paso 2: Verificar su descarga
 
-![imagen](assets/2.jpeg)
+![imagen](assets/2.webp)
 
 > 🔗 Sección oficial de Tails: https://tails.boum.org/install/linux/index.fr.html#verify
 
@@ -79,7 +75,7 @@ Es posible verificar manualmente que el archivo que acaba de descargar es el cor
 
 ## Paso 3: Instalar Tails en su memoria USB
 
-![imagen](assets/3.jpeg)
+![imagen](assets/3.webp)
 
 > 🔗 Sección oficial de Tails:
 >
@@ -94,7 +90,7 @@ Una vez que haya instalado y preparado las herramientas como se recomienda, podr
 
 ## Paso 4: Reiniciar con su memoria USB Tails
 
-![imagen](assets/4.jpeg)
+![imagen](assets/4.webp)
 
 > 🔗 Official Tails section: https://tails.boum.org/install/linux/index.fr.html#restart
 > Es hora de iniciar uno de tus ordenadores usando tu nuevo USB. ¡Inserta el USB en uno de los puertos USB y reinicia!
@@ -123,27 +119,27 @@ Para determinar qué tecla debes presionar para asegurarte de tener el menú de 
 
 Una vez seleccionado el USB, deberías ver esta nueva pantalla de inicio, es una muy buena señal, así que deja que el ordenador continúe su arranque...
 
-![image](assets/5.jpeg)
+![image](assets/5.webp)
 
 ## Paso 5: ¡Bienvenido a Tails!
 
-![image](assets/6.jpeg)
+![image](assets/6.webp)
 
 > 🔗 Official Tails section: https://tails.boum.org/install/linux/index.fr.html#tails
 
 Uno o dos minutos después del cargador de arranque y la pantalla de carga, aparecerá la Pantalla de bienvenida.
 
-![image](assets/7.jpeg)
+![image](assets/7.webp)
 
 En la Pantalla de bienvenida, selecciona tu idioma y distribución de teclado en la sección Idioma y región. Haz clic en Iniciar Tails.
 
-![image](assets/8.jpeg)
+![image](assets/8.webp)
 
 Si tu ordenador no está conectado a una red por cable, consulta las instrucciones oficiales de Tails para ayudarte a conectarte a una red sin Wi-Fi (sección "Prueba tu Wi-Fi").
 
 Una vez conectado a la red local, aparecerá el Asistente de Conexión a Tor para ayudarte a conectarte a la red Tor.
 
-![image](assets/9.jpeg)
+![image](assets/9.webp)
 
 Puedes comenzar a navegar de forma anónima, explorar las opciones y los programas incluidos en Tails. Disfruta, tienes total libertad para cometer errores, ya que nada se modifica en el USB... ¡Tu próximo reinicio habrá olvidado todas tus experiencias!
 
@@ -153,5 +149,3 @@ Una vez que hayas experimentado un poco más con tu propio USB de Tails, explora
 
 > Actualizar una clave con la última versión de Tails; Configurar y utilizar el almacenamiento persistente; Instalar software adicional.
 > D'ici là, comme toujours, si vous avez des questions, n'hésitez pas à les partager à la communauté Agora256, nous apprenons ensemble, pour être meilleur demain que nous ne le sommes aujourd'hui!
-
-> _**Guía propuesta por Hari Seldon en el marco de Agora256; publicación original: https://agora256.com/installer-tails-usb/**_

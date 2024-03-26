@@ -1,0 +1,10 @@
+question: What is the recommended wallet for a Hodler to start with?
+answer: A cold wallet like Bitbox02, Trezor, or Ledger.
+wrong_answers:
+  - A hot wallet mobile app.
+  - A physical wallet.
+  - A paper wallet.
+explanation: |
+  For a Hodler, it is advisable to start with a cold wallet like Bitbox02,
+  Trezor, or Ledger. These devices offer security for bitcoins in the long term.
+reviewed: false

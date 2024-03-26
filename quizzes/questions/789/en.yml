@@ -1,0 +1,11 @@
+question: What are cookies in the context of online browsing?
+answer: Files created by websites to store information on your device.
+wrong_answers:
+  - Small pieces of data sent from a website and stored on the user's computer by the user's web browser.
+  - Programs that track your online activity.
+  - Viruses that can harm your device.
+explanation: |
+  In the context of online browsing, cookies are files created by websites
+  to store information on your device. They are used to remember your preferences,
+  login information, and other data to improve your browsing experience.
+reviewed: false

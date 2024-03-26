@@ -1,0 +1,9 @@
+question: Qual è la relazione tra inflazione e deflazione in un'economia?
+answer: L'inflazione e la deflazione sono come vasi comunicanti in un'economia. Un aumento della produzione può portare alla deflazione, ma se contemporaneamente viene aumentata la quantità di denaro in circolazione, l'effetto deflazionistico viene annullato, risultando in inflazione.
+wrong_answers:
+  - L'inflazione e la deflazione sono indipendenti l'una dall'altra in un'economia.
+  - L'inflazione porta sempre alla deflazione in un'economia.
+  - La deflazione porta sempre all'inflazione in un'economia.
+explanation: |
+  Il capitolo spiega che l'inflazione e la deflazione sono come vasi comunicanti in un'economia. Un aumento della produzione può portare alla deflazione, ma se contemporaneamente viene aumentata la quantità di denaro in circolazione, l'effetto deflazionistico viene annullato, risultando in inflazione.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die Hauptidee hinter dem Konzept des Zeitwertes des Geldes?
+answer: Zeit hat Wert
+wrong_answers:
+  - Geld verliert im Laufe der Zeit an Wert
+  - Geld kann gegen Zeit eingetauscht werden
+  - Zeit kann gegen Geld eingetauscht werden
+explanation: |
+  Die Hauptidee hinter dem Konzept des Zeitwertes des Geldes ist, dass Zeit einen Wert hat. Wenn jemand beschließt, einen Schuldschein im Wert von 100 US-Dollar einen Monat im Voraus zu bezahlen, kann er ihn zum Beispiel für 98 US-Dollar erhalten und die 100 US-Dollar zum Fälligkeitsdatum erhalten.
+reviewed: false

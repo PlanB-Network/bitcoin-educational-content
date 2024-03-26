@@ -1,0 +1,10 @@
+question: Was ist ein UTXO im Zusammenhang mit Bitcoin?
+answer: Unausgegebene Transaktionsausgabe
+wrong_answers:
+  - Nicht identifizierte Transaktionsausgabe
+  - Nicht nachverfolgbare Transaktionsausgabe
+  - Nicht verifizierte Transaktionsausgabe
+explanation: |
+  Im Zusammenhang mit Bitcoin steht UTXO für unausgegebene Transaktionsausgabe.
+  Dies ist ein Begriff, der verwendet wird, um die Ausgabe einer Transaktion zu beschreiben, die ein Benutzer ausgeben kann.
+reviewed: false

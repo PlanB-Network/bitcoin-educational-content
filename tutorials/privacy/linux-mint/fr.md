@@ -1,12 +1,10 @@
 ---
-name: Installation de Linux Mint
+name: Linux Mint
 
 description: Configuration d'un ordinateur pour les transactions Bitcoin
 ---
 
 ![image](assets/cover.jpeg)
-
-# Un ordinateur pour les transactions Bitcoin (Installation de Linux Mint)
 
 ## Qu'est-ce qui ne va pas si vous utilisez un ordinateur ordinaire ?
 
@@ -43,11 +41,11 @@ Ma recommandation, si vous en avez les moyens et si la taille de votre portefeui
 - Les Mac - ils sont chers et le matériel ne fonctionne pas bien avec les systèmes d'exploitation Linux d'après mon expérience
 - Tout ce qui est reconditionné ou d'occasion (ce n'est pas un critère absolu pour rejeter l'option)
   Au lieu de cela, recherchez un ordinateur portable Windows 11 (actuellement, Windows 11 est la dernière version. Nous nous débarrasserons de ce logiciel, ne vous inquiétez pas.). J'ai cherché sur amazon.com un "ordinateur portable Windows 11" et j'ai trouvé cet bon exemple :
-  ![image](assets/1.png)
+  ![image](assets/1.webp)
 
 Le prix de celui-ci ci-dessus est bon. Les spécifications sont suffisantes. Il a une caméra intégrée que nous pouvons utiliser pour les transactions QR code PSBT (sinon, vous devriez acheter une caméra USB pour le faire). Ne vous inquiétez pas du fait que ce n'est pas une marque bien reconnue (c'est bon marché). Si vous voulez une meilleure marque, cela vous coûtera, par exemple :
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Certains des moins chers n'ont que 64 Go d'espace de stockage ; je n'ai pas testé d'ordinateurs portables avec des disques aussi petits - il est probablement possible d'avoir 64 Go, mais cela pourrait être limite.
 
@@ -83,27 +81,27 @@ Nous allons utiliser n'importe quel ordinateur pour transférer le système d'ex
 
 Obtenez l'un de ces éléments :
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Ou vous pouvez utiliser quelque chose comme ceci :
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Ensuite, rendez-vous sur linuxmint.com
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Survolez le menu Téléchargement en haut, puis cliquez sur le lien "Linux Mint 20.3" ou quelle que soit la version recommandée la plus récente au moment où vous faites cela.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Il y aura quelques "saveurs" parmi lesquelles choisir. Optez pour "Cinnamon" pour suivre ce guide. Cliquez sur le bouton Télécharger.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Sur la page suivante, vous pouvez faire défiler vers le bas pour voir les miroirs (les miroirs sont différents serveurs qui contiennent une copie du fichier que nous voulons). Vous pouvez vérifier le téléchargement à l'aide de SHA256 et gpg (recommandé), mais je vais passer à expliquer cela ici car j'ai déjà rédigé des guides à ce sujet.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Choisissez un miroir qui est le plus proche de chez vous et cliquez sur son lien (le texte vert dans la colonne du miroir). Le fichier commencera à se télécharger - la version que je télécharge fait 2,1 gigaoctets.
 
@@ -111,7 +109,7 @@ Une fois le téléchargement terminé, vous pouvez transférer le fichier sur un
 
 Ensuite, exécutez-le :
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Cliquez sur "Flash from file" et sélectionnez le fichier LinuxMint que vous avez téléchargé.
 
@@ -128,13 +126,13 @@ Chaque ordinateur aura un menu BIOS différent. Explorez et trouvez le menu qui 
 
 Redémarrez l'ordinateur et il devrait démarrer à partir du périphérique de stockage USB. Nous pouvons maintenant installer Linux sur le disque interne et Windows sera définitivement supprimé.
 Lorsque vous arrivez à l'écran suivant, sélectionnez "Installation OEM (pour les fabricants)". Si vous choisissez plutôt "Démarrer Linux Mint", vous obtiendrez une session Linux Mint chargée à partir du périphérique mémoire, mais une fois que vous éteignez l'ordinateur, aucune de vos informations n'est enregistrée - c'est essentiellement une session temporaire pour que vous puissiez l'essayer.
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Vous serez guidé à travers un assistant graphique qui vous posera plusieurs questions qui devraient être simples. L'une d'entre elles sera les paramètres de langue, une autre sera votre connexion Internet à domicile et votre mot de passe. Si on vous demande d'installer un logiciel supplémentaire, refusez. Lorsque vous arrivez à la question sur le type d'installation, certaines personnes peuvent hésiter - vous devez choisir "Effacer le disque et installer Linux Mint". De plus, ne chiffrez pas le disque et ne sélectionnez pas LVM.
 
 Vous arriverez finalement sur le bureau. À ce stade, vous n'avez pas tout à fait terminé. Vous agissez en réalité en tant que fabricant (c'est-à-dire quelqu'un qui assemble un ordinateur et configure Linux pour le client). Vous devez double-cliquer sur l'icône du bureau, "Installer Linux Mint", pour finaliser l'installation.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 N'oubliez pas de retirer la clé USB, puis redémarrez. Après le redémarrage, vous utiliserez le système d'exploitation pour la première fois en tant que nouvel utilisateur. Félicitations.
 

@@ -1,0 +1,10 @@
+question: Cos'è un UTXO nel contesto di Bitcoin?
+answer: Unspent Transaction Output (UTXO)
+wrong_answers:
+  - Unidentified Transaction Output (Output di transazione non identificato)
+  - Untraceable Transaction Output (Output di transazione non tracciabile)
+  - Unverified Transaction Output (Output di transazione non verificato)
+explanation: |
+  Nel contesto di Bitcoin, UTXO sta per Unspent Transaction Output (Output di transazione non speso).
+  Questo è un termine utilizzato per descrivere l'output di una transazione che un utente può spendere.
+reviewed: false

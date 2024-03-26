@@ -1,0 +1,9 @@
+question: Qual è la ragione principale per cui un'economia a pianificazione centralizzata inevitabilmente sperimenta una cattiva allocazione del capitale?
+answer: Non ci sono prezzi di mercato o fallimenti aziendali per rivelare e correggere le cattive allocazioni.
+wrong_answers:
+  - I pianificatori centrali non sono efficienti.
+  - I pianificatori centrali non hanno abbastanza informazioni.
+  - I pianificatori centrali non sono motivati ​​a allocare efficientemente le risorse.
+explanation: |
+  In un'economia a pianificazione centralizzata, non ci sono prezzi di mercato o fallimenti aziendali per rivelare e correggere le cattive allocazioni. Di conseguenza, gli errori si accumuleranno fino a quando lo spreco non diventerà evidente attraverso un significativo declino delle condizioni di vita.
+reviewed: false

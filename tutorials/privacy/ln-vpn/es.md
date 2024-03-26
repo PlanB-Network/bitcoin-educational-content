@@ -6,8 +6,6 @@ description: Configura tu VPN
 
 ![image](assets/cover.jpeg)
 
-# LN⚡VPN
-
 LN VPN es un servicio VPN personalizado que solo acepta pagos con lightning. Hoy te mostraré cómo utilizarlo y dejar menos rastros cuando navegas por Internet.
 
 Existen muchos proveedores de servicios VPN de calidad, de hecho, hicimos una revisión exhaustiva en este artículo (hipervínculo), pero LN VPN se destaca y no podíamos dejar de presentártelo.
@@ -38,7 +36,7 @@ Si aún no tienes un monedero Bitcoin Lightning, no te preocupes, hemos creado u
 
 Desde https://lnvpn.com, deberás seleccionar el país de la IP de salida del túnel VPN y la duración del plan. Una vez que hayas definido estos parámetros, haz clic en "Pagar con lightning".
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 Aparecerá una factura lightning, simplemente escanéala con tu monedero lightning.
 
@@ -46,7 +44,7 @@ Una vez que hayas pagado la factura, deberás esperar unos segundos o hasta dos 
 
 El siguiente pantalla se mostrará y simplemente tienes que hacer clic en "Descargar como archivo" para recibir tu archivo de configuración. Este archivo llevará un nombre similar a lnvpn-xx-xx.conf, donde "xx" corresponderá a la fecha del día.
 
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 ## paso 2: Activar el túnel
 

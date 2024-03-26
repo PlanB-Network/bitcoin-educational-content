@@ -1,0 +1,9 @@
+question: Welche zwei Merkmale machen Bitcoin zu dem, was es heute ist?
+answer: Sein Open-Source-Code und seine Knappheit
+wrong_answers:
+  - Seine Anonymität und seine Dezentralisierung
+  - Sein hoher Wert und seine Volatilität
+  - Seine Benutzerfreundlichkeit und seine weltweite Akzeptanz
+explanation: |
+  Die beiden Hauptmerkmale, die Bitcoin definieren, sind sein Open-Source-Code, der es transparent, überprüfbar und von jedem nutzbar macht, sowie seine Knappheit, was bedeutet, dass es nur 21 Millionen Bitcoins auf der Welt geben wird.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die Folge einer Zinssenkung aufgrund einer Kreditsteigerung gemäß der österreichischen Theorie des Konjunkturzyklus?
+answer: Die Wirtschaft gerät in eine Rezession; Vermögenspreise fallen, reale Löhne sinken, Verbraucherpreise fallen und Lagerbestände häufen sich.
+wrong_answers:
+  - Die Wirtschaft gerät in einen Aufschwung; Vermögenspreise steigen, reale Löhne steigen, Verbraucherpreise steigen und Lagerbestände nehmen ab.
+  - Die Wirtschaft gerät in eine Stagnation; Vermögenspreise bleiben gleich, reale Löhne bleiben gleich, Verbraucherpreise bleiben gleich und Lagerbestände bleiben gleich.
+  - Die Wirtschaft gerät in eine Deflation; Vermögenspreise fallen, reale Löhne steigen, Verbraucherpreise fallen und Lagerbestände steigen.
+explanation: |
+  Gemäß der österreichischen Theorie des Konjunkturzyklus gerät die Wirtschaft in eine Rezession, wenn es aufgrund einer Kreditsteigerung zu einer Zinssenkung kommt. Vermögenspreise fallen, reale Löhne sinken, Verbraucherpreise fallen und Lagerbestände häufen sich. Dies liegt daran, dass die Zinssenkung zu einer fehlerhaften Kapitalallokation führt, die letztendlich in einer Rezession resultiert.
+reviewed: false

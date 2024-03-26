@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal característica de Bitcoin que lo diferencia de otras criptomonedas?
+answer: Bitcoin es la única criptomoneda verdaderamente descentralizada, resistente a la censura, libre y seria.
+wrong_answers:
+  - Bitcoin es la única criptomoneda que se puede minar.
+  - Bitcoin es la única criptomoneda que se puede comprar o vender en plataformas de intercambio.
+  - Bitcoin es la única criptomoneda que se puede almacenar en una billetera.
+explanation: |
+  El contenido del capítulo afirma que Bitcoin es la única criptomoneda verdaderamente descentralizada, resistente a la censura, libre y seria, lo cual justifica miles de horas de trabajo. Esta es una característica clave que distingue a Bitcoin de otras criptomonedas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est une arnaque courante liée aux concours en ligne ou aux dons dans le secteur de la crypto-monnaie ?
+answer: Les publicités promettant des bitcoins gratuits.
+wrong_answers:
+  - Les publicités promettant des biens physiques.
+  - Les publicités promettant une monnaie fiduciaire gratuite.
+  - Les publicités promettant un logiciel gratuit.
+explanation: |
+  Les arnaques liées aux concours en ligne ou aux dons sont très courantes dans le secteur de la crypto-monnaie. Les publicités promettant des bitcoins gratuits sont souvent utilisées pour tromper les utilisateurs inexpérimentés.
+reviewed: false

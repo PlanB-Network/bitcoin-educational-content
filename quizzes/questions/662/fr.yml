@@ -1,0 +1,10 @@
+question: Quand la transaction de retrait est-elle exécutée lors d'un transfert sur le réseau Lightning ?
+answer: Lorsque le canal est fermé.
+wrong_answers:
+  - Lorsque le transfert est effectué.
+  - Lorsque le canal est ouvert.
+  - Elle n'est jamais exécutée.
+explanation: |
+  La transaction de retrait, qui représente l'état du canal,
+  n'est pas exécutée à moins que le canal ne soit fermé.
+reviewed: false

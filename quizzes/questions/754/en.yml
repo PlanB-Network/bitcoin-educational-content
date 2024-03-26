@@ -1,0 +1,10 @@
+question: What is the event called when the reward for mining Bitcoin transactions is halved?
+answer: Halving
+wrong_answers:
+  - Doubling
+  - Quartering
+  - Tripling
+explanation: |
+  The programmed reduction of mining rewards, halving every four years,
+  is an event known as "halving".
+reviewed: false

@@ -6,8 +6,6 @@ description: Wiedererlangen Sie Ihre Privatsphäre mit Samourai
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Entwickelt für Privatsphäre
-
 **Samourai Wallet** ist eine Wallet, die sich der Privatsphäre widmet. Trotz seiner benutzerfreundlichen Oberfläche bietet es eine große Flexibilität in der Verwendung und Sicherheit.
 
 Da es zu **100% nicht verwahrend** ist, müssen Sie Ihre 12 Wörter sichern und unbedingt eine **Passphrase** hinzufügen, die Sie nicht verlieren sollten.
@@ -28,19 +26,19 @@ Für Erklärungen zu jedem dieser Tools können Sie den Abschnitt **"Datenschutz
 
 Unser neuer Begrüßungsbildschirm gibt einen Überblick über die Funktionen unserer Wallet. Wenn Sie diese gelesen haben, tippen Sie auf "Los geht's".
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Berechtigungen
 
 Geben Sie die erforderlichen Berechtigungen frei, damit die Wallet automatisch ein verschlüsseltes Backup Ihrer Wallet erstellen kann.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Tor
 
 Die meisten Benutzer sollten dann Tor für den Datenschutz auf Netzwerkebene aktivieren. Tippen Sie dann auf "Neue Wallet erstellen".
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Erstellen einer Passphrase
 
@@ -51,7 +49,7 @@ Ihre Passphrase ist eine erforderliche Komponente beim Wiederherstellen über da
 > Wir haben keine Kenntnis von Ihrer Passphrase. Wenn Sie Ihre Passphrase vergessen, können wir Ihnen nicht bei der Zurücksetzung helfen.
 > Vergessen Sie Ihre Passphrase nicht!
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Erstellen eines PIN-Codes
 
@@ -59,7 +57,7 @@ Sie werden nun aufgefordert, einen PIN-Code zwischen 5 und 8 Ziffern zu erstelle
 
 Wenn Sie Ihren PIN-Code vergessen, können Sie jederzeit mit Ihrer Passphrase auf Ihre Wallet zugreifen.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Erstellen einer Papier-Sicherungskopie
 
@@ -78,7 +76,7 @@ Ein PayNym ist eine Art von Stealth-Adresse, die im Gegensatz zu normalen Bitcoi
 Nachdem Ihre Wallet erfolgreich erstellt wurde, werden Sie aufgefordert, einen PayNym-Bot zu beanspruchen. Dies ist eine visuelle Darstellung des SHA-256-Hashes Ihrer Wallet-PayNym-Adresse.
 Sobald Sie es beansprucht haben, wird Ihnen ein eindeutiger Bot-Name zugewiesen, der im öffentlichen Verzeichnis der PayNym-Bots hochgeladen wird. Dieses Verzeichnis finden Sie unter https://paynym.is
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 ## Verwendung
 

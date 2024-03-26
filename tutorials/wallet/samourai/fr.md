@@ -6,8 +6,6 @@ description: Récupérez votre vie privée avec Samourai
 
 ![Samourai Wallet](assets/cover.jpeg)
 
-# Samourai Wallet - Conçu pour la confidentialité
-
 **Samourai Wallet** est un portefeuille dédié à la confidentialité. Malgré son interface conviviale, il offre une grande flexibilité dans son utilisation et sa sécurité.
 
 Étant **100% non-custodial**, vous devrez **sauvegarder** vos 12 mots et inclure définitivement une **phrase secrète** que vous ne devez pas perdre.
@@ -28,19 +26,19 @@ Pour des explications sur chacun de ces outils, vous pouvez vous référer à la
 
 Notre nouvelle page d'accueil donne un aperçu des fonctionnalités de notre portefeuille. Lorsque vous les avez lues, appuyez sur 'Commencer'.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Permissions
 
 Accordez les autorisations nécessaires pour que le portefeuille puisse créer automatiquement une sauvegarde chiffrée de votre portefeuille.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Tor
 
 La plupart des utilisateurs devraient ensuite activer Tor pour une confidentialité au niveau du réseau. Ensuite, appuyez sur Créer un nouveau portefeuille.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Création d'une phrase secrète
 
@@ -51,7 +49,7 @@ Votre phrase secrète est un composant requis lors de la restauration par mnémo
 > Nous n'avons pas connaissance de votre phrase secrète, si vous oubliez votre phrase secrète, nous ne pouvons pas vous aider à la réinitialiser.
 > N'oubliez pas votre phrase secrète !
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Créer un code PIN
 
@@ -59,7 +57,7 @@ Vous serez maintenant invité à créer et à confirmer un code PIN de 5 à 8 ch
 
 Si vous oubliez votre code PIN, vous pouvez toujours accéder à votre portefeuille avec votre phrase secrète.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Créer une sauvegarde papier
 
@@ -78,7 +76,7 @@ Un PayNym est un type d'adresse furtive qui est différent des adresses Bitcoin 
 Une fois que votre portefeuille est créé avec succès, on vous demandera de réclamer un PayNym Bot. Il s'agit d'une représentation visuelle du hachage SHA-256 de l'adresse de votre portefeuille PayNym.
 Une fois revendiqué, vous recevrez un nom de bot unique qui sera téléchargé dans l'annuaire public des bots PayNym, que vous pouvez trouver à l'adresse https://paynym.is
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 ## Utilisation
 

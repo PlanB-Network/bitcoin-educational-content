@@ -1,0 +1,11 @@
+question: Welche Rolle spielen Miner im Bitcoin-Netzwerk?
+answer: Um die übermittelten Transaktionen in der Bitcoin-Blockchain aufzuzeichnen.
+wrong_answers:
+  - Um neue Bitcoins zu erstellen
+  - Um den Wert von Bitcoins zu regulieren
+  - Um die Identität von Bitcoin-Benutzern zu überprüfen
+explanation: |
+  Miner im Bitcoin-Netzwerk sind dafür verantwortlich, die Transaktionen aufzuzeichnen,
+  die über das Netzwerk in die Bitcoin-Blockchain übertragen wurden. Dies gewährleistet
+  die Endgültigkeit der Transaktionen.
+reviewed: false

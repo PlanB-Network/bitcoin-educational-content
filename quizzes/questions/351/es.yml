@@ -1,0 +1,9 @@
+question: ¿Qué es una forma de comprar o vender bitcoins sin KYC?
+answer: Utilizando soluciones peer-to-peer como Peach.
+wrong_answers:
+  - Utilizando una billetera en línea (hot wallet).
+  - Utilizando una billetera fría (cold wallet).
+  - Utilizando una billetera de hardware.
+explanation: |
+  KYC, o Conoce a tu Cliente, es un proceso que las empresas utilizan para verificar la identidad de sus clientes. Los métodos sin KYC, como las soluciones peer-to-peer, permiten a los usuarios comprar o vender bitcoins sin tener que proporcionar información personal.
+reviewed: false

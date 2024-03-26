@@ -4,10 +4,6 @@ name: Tails
 description: Instalar o Tails em um pendrive
 ---
 
-# Instalar o Tails em um pendrive
-
-_**Guia proposto por Hari Seldon como parte do Agora256**_
-
 ![image](assets/cover.jpeg)
 
 Um sistema operacional portátil e amnésico que protege você contra vigilância e censura.
@@ -57,7 +53,7 @@ Pré-requisitos
 
 ## Passo 1: Baixar o Tails para o seu computador
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 > 🔗 Seção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#download
 
@@ -67,7 +63,7 @@ Salve o arquivo em uma pasta conhecida, como "Downloads", pois isso será necess
 
 ## Passo 2: Verificar o seu download
 
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 > 🔗 Seção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#verify
 
@@ -79,7 +75,7 @@ Portanto, use o botão "Selecionar seu download..." oferecido na seção oficial
 
 ## Passo 3: Instalar o Tails no seu pen drive
 
-![image](assets/3.jpeg)
+![image](assets/3.webp)
 
 > 🔗 Seção oficial do Tails:
 >
@@ -94,7 +90,7 @@ Boa sorte! E vamos para o passo 4.
 
 ## Passo 4: Reinicie com o Tails no seu pen drive
 
-![image](assets/4.jpeg)
+![image](assets/4.webp)
 
 > 🔗 Secção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#restart
 > É hora de iniciar um dos seus computadores usando a sua nova pen USB. Insira-a numa das portas USB e reinicie!
@@ -123,27 +119,27 @@ Descubra qual tecla você precisa pressionar para garantir que você tenha o men
 
 Depois de selecionar a pen USB, você deverá ver esta nova tela de arranque, é um bom sinal, então deixe o computador continuar a iniciar...
 
-![imagem](assets/5.jpeg)
+![imagem](assets/5.webp)
 
 ## Passo 5: Bem-vindo ao Tails!
 
-![imagem](assets/6.jpeg)
+![imagem](assets/6.webp)
 
 > 🔗 Secção oficial do Tails: https://tails.boum.org/install/linux/index.fr.html#tails
 
 Um ou dois minutos após o carregador de inicialização e a tela de carregamento, a Tela de boas-vindas aparece.
 
-![imagem](assets/7.jpeg)
+![imagem](assets/7.webp)
 
 Na Tela de boas-vindas, selecione o seu idioma e layout de teclado na seção Idioma e Região. Clique em Iniciar o Tails.
 
-![imagem](assets/8.jpeg)
+![imagem](assets/8.webp)
 
 Se o seu computador não estiver conectado à rede com fios, consulte as instruções oficiais do Tails para ajudá-lo a conectar-se à rede sem fio (seção "Teste a sua rede sem fio").
 
 Depois de conectado à rede local, o Assistente de Conexão ao Tor aparece para ajudá-lo a se conectar à rede Tor.
 
-![imagem](assets/9.jpeg)
+![imagem](assets/9.webp)
 
 Você pode começar a navegar anonimamente, explorar as opções e os softwares incluídos no Tails. Divirta-se, você tem total liberdade para cometer erros, pois nada é alterado na pen USB... O próximo reinício esquecerá todas as suas experiências!
 
@@ -153,5 +149,3 @@ Depois de ter experimentado um pouco mais com a sua própria pen USB Tails, expl
 
 > Atualizar uma chave com a versão mais recente do Tails; Configurar e usar armazenamento persistente; Instalar software adicional.
 > Até lá, como sempre, se você tiver alguma dúvida, não hesite em compartilhá-la com a comunidade Agora256, estamos aprendendo juntos, para sermos melhores amanhã do que somos hoje!
-
-> _**Guia proposto por Hari Seldon como parte do Agora256; post original: https://agora256.com/installer-tails-usb/**_

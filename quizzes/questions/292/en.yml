@@ -1,0 +1,11 @@
+question: What is the purpose of Bitcoin wallets?
+answer: To send and receive bitcoins
+wrong_answers:
+  - To mine bitcoins
+  - To store physical bitcoins
+  - To convert bitcoins into other currencies
+explanation: |
+  Bitcoin wallets are used to send and receive bitcoins. They are digital
+  wallets that store the digital credentials necessary to access a bitcoin address
+  and spend the bitcoins.
+reviewed: false

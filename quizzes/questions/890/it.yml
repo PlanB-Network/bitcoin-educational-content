@@ -1,0 +1,9 @@
+question: Qual è l'implicazione della natura sequenziale dell'azione umana sulle attività di produzione?
+answer: Qualsiasi deviazione di produzione, cioè qualsiasi allungamento della struttura di produzione, richiede un risparmio precedente.
+wrong_answers:
+  - La natura sequenziale dell'azione umana non ha alcuna implicazione sulle attività di produzione.
+  - La natura sequenziale dell'azione umana implica che le attività di produzione debbano essere svolte in un ordine specifico.
+  - La natura sequenziale dell'azione umana implica che le attività di produzione debbano essere svolte contemporaneamente.
+explanation: |
+  A causa della natura sequenziale dell'azione umana, queste scelte intertemporali hanno sempre implicazioni per la sequenza delle azioni. In altre parole, le azioni a breve termine che si intraprendono sono subordinate agli obiettivi a lungo termine che si fissano, e le azioni a breve termine influenzeranno ciò che si potrà fare in futuro. L'implicazione di questo punto ovvio riguardante le attività di produzione è che qualsiasi deviazione di produzione, cioè qualsiasi allungamento della struttura di produzione, richiede un risparmio precedente.
+reviewed: false

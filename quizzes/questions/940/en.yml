@@ -1,0 +1,12 @@
+question: How do Tether’s various stablecoins contribute to financial freedom for individuals in unstable economies? 
+answer: By providing access to currencies with stable exchange rates 
+wrong_answers:
+  - By eliminating the need for physical cash
+  - By offering higher interest rates on savings
+  - By enabling instant global transactions
+explanation: |
+  Tether’s various stablecoins are pegged to stable assets like the US 
+  dollar or gold. This stability allows individuals in unstable economies 
+  to move their money into a currency that is not subject to the same 
+  inflation rates, helping them maintain the value of their savings.
+reviewed: true

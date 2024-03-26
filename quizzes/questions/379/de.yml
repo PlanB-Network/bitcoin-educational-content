@@ -1,0 +1,9 @@
+question: Was ist der Zweck der Zwei-Faktor-Authentifizierung (2FA) bei Bitcoin?
+answer: Um die Sicherheit von Bitcoin-Transaktionen zu erhöhen.
+wrong_answers:
+  - Um neue Bitcoins zu schürfen.
+  - Um Bitcoins zu handeln.
+  - Um Bitcoins in andere Kryptowährungen umzuwandeln.
+explanation: |
+  Die Zwei-Faktor-Authentifizierung (2FA) ist eine Methode zur Bestätigung der behaupteten Identität eines Benutzers, indem etwas bekanntes (Passwort) und ein zweiter Faktor verwendet werden, der nicht etwas ist, das sie haben oder etwas, das sie sind. Sie wird verwendet, um die Sicherheit von Bitcoin-Transaktionen zu erhöhen.
+reviewed: false

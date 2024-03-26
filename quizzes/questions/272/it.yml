@@ -1,0 +1,9 @@
+question: Qual è una delle misure di base per migliorare le abitudini di sicurezza online?
+answer: Abilitare l'autenticazione a due fattori (2FA)
+wrong_answers:
+  - Utilizzare la stessa password per tutti gli account
+  - Trascurare di eseguire regolarmente il backup dei dati
+  - Condividere le password
+explanation: |
+  Abilitare l'autenticazione a due fattori (2FA) è una delle misure di base per migliorare le abitudini di sicurezza online. Fornisce un ulteriore livello di sicurezza ai tuoi account più sensibili.
+reviewed: false

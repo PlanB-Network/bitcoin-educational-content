@@ -1,0 +1,9 @@
+question: Qual è la relazione tra preferenza temporale e tassi di interesse in un'economia con mercati di capitale non manipolati?
+answer: Un aumento dei tassi di interesse è il risultato di un aumento relativo della domanda di capitale rispetto all'offerta, indicando una preferenza temporale più alta. Al contrario, una diminuzione dei tassi di interesse avviene a causa di un aumento del risparmio, che rappresenta un aumento dell'offerta di capitale, indicando una riduzione delle preferenze temporali.
+wrong_answers:
+  - Un aumento dei tassi di interesse indica una diminuzione delle preferenze temporali, mentre una diminuzione dei tassi di interesse indica un aumento delle preferenze temporali.
+  - La preferenza temporale e i tassi di interesse sono inversamente correlati.
+  - La preferenza temporale e i tassi di interesse non hanno una relazione diretta.
+explanation: |
+  In un'economia con mercati di capitale non manipolati, i tassi di interesse di riferimento sono determinati all'incrocio tra l'offerta e la domanda di capitale. Pertanto, questi tassi rappresentano lo stato delle preferenze temporali per l'intera economia. Un aumento del tasso di interesse è il risultato di un aumento relativo della domanda di capitale rispetto all'offerta, indicando preferenze temporali più alte. Al contrario, una diminuzione dei tassi di interesse avviene a causa di un aumento del risparmio, che rappresenta un aumento dell'offerta di capitale, indicando una riduzione delle preferenze temporali.
+reviewed: false

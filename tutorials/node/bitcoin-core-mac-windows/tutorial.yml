@@ -1,11 +1,9 @@
 builder: Bitcoin core
 
 credits:
-  name: Arman the Parman
+  professor: rebuild-kiss
   link: https://armantheparman.com/bitcoincore/
-  tips:
-    lightning_adress: dandysack84@walletofsatoshi.com
-    
+
 tags:
   - node
   - privacy

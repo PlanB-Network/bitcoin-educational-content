@@ -1,0 +1,9 @@
+question: ¿Cuál es la conclusión principal de la conferencia sobre cómo superar la hiperinflación?
+answer: Existen varias estrategias para superar la hiperinflación, pero solo funcionarán si la población tiene confianza en ellas y se imponen restricciones estrictas al gobierno.
+wrong_answers:
+  - La única forma de superar la hiperinflación es a través de la dolarización.
+  - La única forma de superar la hiperinflación es mediante la introducción de una nueva moneda.
+  - La hiperinflación se puede superar simplemente aumentando la oferta monetaria.
+explanation: |
+  La conferencia sugiere que existen varias estrategias para superar la hiperinflación, como la dolarización o la introducción de una nueva moneda. Sin embargo, estas soluciones solo funcionarán si la población tiene confianza en ellas y se imponen restricciones estrictas al gobierno.
+reviewed: false

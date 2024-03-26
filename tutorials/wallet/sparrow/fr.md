@@ -6,8 +6,6 @@ description: Guide complet sur Sparrow
 
 ![cover](assets/cover.jpeg)
 
-# Sparrow
-
 ## Une série de vidéos couvrant le portefeuille Bitcoin Sparrow. Des guides pour les débutants et les utilisateurs plus avancés.
 
 > _Ce guide suivant est de Cole, merci de l'avoir partagé avec nous. Article original : https://www.southernbitcoiner.com/sparrow-guides/_

@@ -3,9 +3,7 @@ name: RaspiBlitz
 description: Guide pour configurer votre RaspiBlitz
 ---
 
-![image](assets/0.jpeg)
-
-# RaspiBlitz
+![image](assets/0.webp)
 
 Le RaspiBlitz est un nœud Lightning (LND et/ou Core Lightning) à faire soi-même, fonctionnant avec un Bitcoin-Fullnode sur un RaspberryPi (1TB SSD) et un bel écran pour une configuration et une surveillance faciles.
 
@@ -40,25 +38,25 @@ Vous avez besoin exactement du même matériel que pour exécuter un nœud MyNod
 Vous n'avez pas besoin d'un moniteur (ou d'un clavier ou d'une souris).
 Note: Ceci est le mauvais disque dur: il s'agit d'un disque dur externe portable. Ce n'est pas un SSD. Le SSD est crucial. C'est pourquoi il est bon marché (Prix en AUD)
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Voici le bon type à obtenir:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 C'est plus rapide, mais inutilement cher:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 ## Étape 2: Télécharger l'image Raspiblitz
 
 Accédez au site web de Raspiblitz sur Github et trouvez le lien "télécharger l'image":
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Le hash sha-256 du fichier téléchargé est fourni sur le site web. Il changera à chaque mise à jour. Si vous ne comprenez pas de quoi il s'agit, vous devriez le faire, alors j'ai écrit un guide que vous pouvez lire ici.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 ## Étape 3: Vérifier l'image
 
@@ -96,13 +94,13 @@ Vous pouvez utiliser Balena Etcher pour cela. Téléchargez-le ici.
 
 Etcher est facile à utiliser. Insérez votre carte micro SD et flashez le logiciel Raspiblitz (.img) sur la carte SD.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Une fois terminé, le lecteur n'est plus lisible. Vous pouvez recevoir une erreur du système d'exploitation et le lecteur devrait disparaître du bureau. Retirez la carte.
 
@@ -110,21 +108,21 @@ Une fois terminé, le lecteur n'est plus lisible. Vous pouvez recevoir une erreu
 
 Les pièces (le boîtier n'est pas montré):
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Connectez le câble Ethernet et le connecteur USB du disque dur (pas encore l'alimentation). Évitez de vous connecter aux ports USB de couleur bleue au centre. Ce sont des ports USB 3. Utilisez le port USB 2, même si le disque peut être compatible USB 3 (plus fiable).
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 La carte micro SD va ici:
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 Enfin, connectez l'alimentation:
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 ## Étape 6: Trouver l'adresse IP du Pi
 
@@ -151,56 +149,56 @@ Pour Windows, vous devrez installer putty pour vous connecter en SSH au Pi. Tape
 
 La première fois que vous le faites, ou chaque fois que vous changez le système d'exploitation du Pi en changeant la carte SD, vous pouvez obtenir cette erreur ou non...
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 La façon de la résoudre est de vous rendre à l'endroit où se trouve le fichier "known_hosts" (cela vous est indiqué dans le message d'erreur) et de le supprimer. La commande est "rm known_hosts".
 
 Ensuite, répétez la commande ssh pour vous connecter. Cela se produira...
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Tapez "yes" (en toutes lettres) pour continuer.
 
 Si vous réussissez, on vous demandera un mot de passe. Ce n'est pas pour votre ordinateur, mais pour le raspiblitz. Le mot de passe générique est "raspiblitz" et vous le changerez plus tard. La fenêtre du terminal deviendra bleue et vous aurez des options de menu comme les anciens menus DOS. Naviguez avec les touches fléchées ou la souris.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Suivez les invites, définissez vos mots de passe, puis il détectera votre disque dur et vous proposera de le formater si nécessaire.
 
 Ensuite, on vous demandera si vous souhaitez copier les données de la blockchain à partir d'une autre source ou les télécharger à nouveau. La copie est un processus d'apprentissage et les instructions sont assez bonnes, et bonnes à garder à portée de main...
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 La façon simple mais plus lente est de télécharger toute la chaîne à partir de zéro...
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Beaucoup de texte défilera à l'écran du terminal. Vous pourriez le confondre avec le processus de téléchargement de la blockchain, mais il me semble que cela génère une clé privée pour la communication.
 
 Ensuite, les options Lightning apparaissent.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Créez un nouveau mot de passe pour verrouiller votre portefeuille Lightning, puis un nouveau portefeuille sera créé et vous recevrez 24 mots à noter...
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Assurez-vous de le noter et de le garder en sécurité. J'ai entendu parler d'une personne qui ne l'a pas fait parce qu'il ne prévoyait pas d'utiliser Lightning, mais qui a décidé un an plus tard de l'utiliser et d'ouvrir des canaux. Puis, se rendant compte que ses mots n'étaient pas sauvegardés, et je me souviens qu'il n'était pas possible d'extraire à nouveau les mots du dispositif, il a dû fermer tous ses canaux et recommencer. Il s'en est sorti, mais d'autres pourraient ne pas être aussi chanceux.
 Suite à cela, quelques minutes de texte défilent dans la fenêtre du terminal. Ensuite...
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Vous serez déconnecté de la session ssh. Connectez-vous à nouveau, cette fois avec votre nouveau mot de passe, mot de passe A. Une fois connecté, on vous demandera le mot de passe C pour déverrouiller votre portefeuille Lightning.
 
 Maintenant, nous attendons. Rendez-vous dans 2 semaines. Vous pouvez fermer le terminal, cela n'affecte pas le Pi, c'est juste une fenêtre de communication.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Si, pour une raison quelconque, vous souhaitez éteindre le Pi avant que la blockchain ait fini de se télécharger, c'est possible tant que vous le faites correctement. La blockchain continuera de se télécharger là où elle s'était arrêtée une fois que vous vous reconnecterez.
 
 Appuyez sur CTRL+c pour quitter l'écran bleu. Vous accéderez au terminal Linux du Pi. Ici, vous pouvez taper "menu" pour charger l'écran suivant, et à partir de là, vous pouvez éteindre le Pi.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 FIN du guide
 

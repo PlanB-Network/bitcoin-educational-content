@@ -6,8 +6,6 @@ description: Come configurare il tuo dispositivo Fondazione
 
 ![cover](assets/cover.jpeg)
 
-# Fondazione
-
 L'autocustodia è finalmente raggiungibile con il portafoglio hardware Passport e il portafoglio mobile Envoy. https://foundationdevices.com/
 
 Specifiche chiave
@@ -19,7 +17,7 @@ Specifiche chiave
 - Batteria Batteria al litio rimovibile dall'utente da 1200 mAh nel formato Nokia BL-5C (inclusa con l'acquisto).
 - Funzioni di sicurezza Airgapped, facile inserimento della passphrase, luci di sicurezza, parole anti-phishing, convalida della sicurezza.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # Video tutorial
 

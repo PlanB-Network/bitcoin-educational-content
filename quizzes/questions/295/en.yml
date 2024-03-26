@@ -1,0 +1,11 @@
+question: What is the limit of bitcoins that will ever be?
+answer: 21 million
+wrong_answers:
+  - 100 million
+  - 1 billion
+  - No limit
+explanation: |
+  The chapter states that there will never be more than 21 million bitcoins.
+  This limit was established in the Bitcoin protocol by Satoshi and cannot be changed
+  today.
+reviewed: false

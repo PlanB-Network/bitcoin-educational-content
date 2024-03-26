@@ -1,6 +1,9 @@
-level: expert
+level: advanced
 hours: 10
-teacher:  Jan-Willem Burgers 
+
+professors:
+  - myth-initial
+
 contributors:
   - rabbit-hole
   - another-satoshi

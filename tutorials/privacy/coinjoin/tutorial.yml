@@ -9,9 +9,5 @@ tags:
 level: advanced
 
 credits:
-  name: Loïc Morel
+  professor: pretty-private
   link: https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
-  tips:
-    lightning_adress: loic@sats.pandul.fr
-    paynym: +throbbingpond8B1
-    Onchain:

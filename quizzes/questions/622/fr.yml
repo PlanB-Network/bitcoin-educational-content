@@ -1,0 +1,9 @@
+question: Quel était le taux de change initial du dollar zimbabwéen lors de son introduction en 1980?
+answer: Deux dollars zimbabwéens valaient environ 1,60 dollars américains.
+wrong_answers:
+  - Un dollar zimbabwéen valait environ 1 dollar américain.
+  - Un dollar zimbabwéen valait environ 2 dollars américains.
+  - Deux dollars zimbabwéens valaient environ 2 dollars américains.
+explanation: |
+  Le Zimbabwe a obtenu son indépendance en 1980 et a introduit le dollar zimbabwéen. Au départ, deux dollars zimbabwéens valaient environ 1,60 dollars américains.
+reviewed: false

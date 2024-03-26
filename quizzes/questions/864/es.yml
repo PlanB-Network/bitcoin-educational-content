@@ -1,0 +1,9 @@
+question: ¿Cuál es el objetivo principal del curso?
+answer: El curso tiene como objetivo explorar los conceptos fundamentales de la economía austriaca.
+wrong_answers:
+  - El curso tiene como objetivo promover la doctrina keynesiana.
+  - El curso tiene como objetivo explicar el funcionamiento de los bancos centrales.
+  - El curso tiene como objetivo promover la centralización del poder monetario.
+explanation: |
+  El capítulo menciona que el curso tiene como objetivo explorar los conceptos fundamentales de la economía austriaca.
+reviewed: false

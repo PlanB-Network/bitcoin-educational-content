@@ -1,0 +1,11 @@
+question: What is a hot wallet used for in the context of Bitcoin?
+answer: To regularly send and receive bitcoins for daily use.
+wrong_answers:
+  - To securely store bitcoins for the long term.
+  - To mine new bitcoins.
+  - To trade bitcoins on an exchange platform.
+explanation: |
+  A hot wallet is a type of Bitcoin wallet that is connected to the internet,
+  making it suitable for daily transactions. However, it is more vulnerable to hacking
+  and theft than a cold wallet.
+reviewed: false

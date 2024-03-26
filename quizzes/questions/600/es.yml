@@ -1,0 +1,9 @@
+question: ¿Qué es una empresa zombie?
+answer: Una empresa que, en condiciones normales del mercado, estaría insolvente o cerca de la quiebra, pero continúa operando principalmente a través de préstamos de bajo costo.
+wrong_answers:
+  - Una empresa que ha estado en funcionamiento durante más de 100 años.
+  - Una empresa que opera en el sector tecnológico.
+  - Una empresa que ha sido rescatada por el gobierno.
+explanation: |
+  Una empresa zombie es una empresa que, en condiciones normales del mercado, estaría insolvente o cerca de la quiebra, pero continúa operando principalmente a través de préstamos de bajo costo. Estas empresas ganan lo suficiente para cubrir sus deudas, pero no pueden crecer significativamente.
+reviewed: false

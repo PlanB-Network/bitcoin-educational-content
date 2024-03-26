@@ -1,0 +1,9 @@
+question: Quelles sont les plateformes qu'un Bitcoiner paranoïaque pourrait utiliser pour des achats entre particuliers sans KYC ?
+answer: Peach, Robosats, Bisq, HodlHodl
+wrong_answers:
+  - Coinbase, Binance, Kraken
+  - PayPal, Venmo, Cash App
+  - Carte de crédit, virement bancaire, espèces
+explanation: |
+  Le chapitre mentionne Peach, Robosats, Bisq et HodlHodl comme des plateformes que pourrait utiliser un Bitcoiner paranoïaque pour des achats entre particuliers sans KYC.
+reviewed: false

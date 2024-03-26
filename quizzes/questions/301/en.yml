@@ -1,0 +1,13 @@
+question: What is the main advantage of Bitcoin over traditional bank accounts?
+answer: Full control over your money
+wrong_answers:
+  - Higher interest rates
+  - Lower transaction fees
+  - Faster transaction times
+explanation: |
+  The chapter explains that Bitcoin offers a powerful alternative to
+  traditional
+  financial systems. It allows everyone to preserve their privacy, protect against
+  inflation and currency devaluation, bypass authoritarian regimes, and regain sovereignty
+  over their money.
+reviewed: false

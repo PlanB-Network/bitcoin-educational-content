@@ -1,0 +1,9 @@
+question: ¿Qué debes hacer después de guardar el sobre según el capítulo?
+answer: Asegúrate de que tus herederos sepan que necesitan recuperar este sobre si es necesario.
+wrong_answers:
+  - Asegúrate de que tus herederos no sepan que necesitan recuperar este sobre si es necesario.
+  - Asegúrate de que tus herederos sepan que no necesitan recuperar este sobre si es necesario.
+  - Asegúrate de que tus herederos no sepan que no necesitan recuperar este sobre si es necesario.
+explanation: |
+  Después de guardar el sobre, debes asegurarte de que tus herederos sepan que necesitan recuperar este sobre si es necesario, como se sugiere en el capítulo.
+reviewed: false

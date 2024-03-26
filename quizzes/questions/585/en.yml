@@ -1,0 +1,11 @@
+question: Who proposed the most recognized definition of hyperinflation?
+answer: Philip Cagan
+wrong_answers:
+  - Bernholz
+  - David
+  - Hanke-Krus
+explanation: |
+  The most recognized definition of hyperinflation comes from Philip Cagan,
+  who proposed a quantitative understanding of hyperinflation in his 1956 work, "The
+  Monetary Dynamics of Hyperinflation."
+reviewed: false

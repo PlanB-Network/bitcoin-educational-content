@@ -1,0 +1,9 @@
+question: Quelles sont les causes des crises économiques selon le cours ?
+answer: Les crises économiques peuvent être dues à l'incompétence humaine, à la manipulation du marché ou à l'euphorie collective des personnes.
+wrong_answers:
+  - Les crises économiques sont uniquement dues à la manipulation du marché.
+  - Les crises économiques sont uniquement dues à l'incompétence humaine.
+  - Les crises économiques sont uniquement dues à l'euphorie collective des personnes.
+explanation: |
+  Le chapitre mentionne que le cours explorera comment les crises économiques peuvent être dues à l'incompétence humaine, à la manipulation du marché ou à l'euphorie collective des personnes.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le principal avantage d'utiliser un gestionnaire de mots de passe selon le chapitre ?
+answer: Il vous aide à ne jamais utiliser le même mot de passe deux fois.
+wrong_answers:
+  - Il vous aide à vous souvenir de vos noms d'utilisateur.
+  - Il protège votre ordinateur contre les virus.
+  - Il génère des mots de passe aléatoires.
+explanation: |
+  Selon le chapitre, un gestionnaire de mots de passe vous aide à ne jamais utiliser le même mot de passe deux fois, à choisir des mots de passe complexes et sécurisés, et facilite la gestion de votre sécurité en ligne.
+reviewed: false

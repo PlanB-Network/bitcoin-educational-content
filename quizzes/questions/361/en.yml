@@ -1,0 +1,10 @@
+question: What are some of the characteristics of a paranoid Bitcoiner?
+answer: Vigilance, independence, distrust, knowledge, and pragmatism
+wrong_answers:
+  - Trust, dependence, ignorance, and impracticality
+  - Laziness, dependence, trust, and ignorance
+  - Trust, dependence, lack of knowledge, and impracticality
+explanation: |
+  The chapter describes a paranoid Bitcoiner as someone who is vigilant,
+  independent, distrustful, knowledgeable, and pragmatic.
+reviewed: false

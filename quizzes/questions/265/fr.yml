@@ -1,0 +1,9 @@
+question: Quelle est une arnaque courante dans le domaine de l'investissement financier ?
+answer: Les systèmes de vente pyramidale.
+wrong_answers:
+  - Vente de biens physiques.
+  - Vente de produits logiciels.
+  - Vente de monnaie fiduciaire.
+explanation: |
+  Dans le domaine de l'investissement financier, les systèmes de vente pyramidale et les schémas de Ponzi se distinguent comme des modèles illégaux. Ils fonctionnent en utilisant l'argent des nouveaux investisseurs pour payer les participants plus anciens.
+reviewed: false

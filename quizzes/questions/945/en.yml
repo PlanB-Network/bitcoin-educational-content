@@ -1,0 +1,13 @@
+question: Why is the argument that bitcoin is worthless because it is not backed by anything flawed? 
+answer: Value is subjective and based on people's beliefs and experiences. 
+wrong_answers:
+  - Bitcoin is backed by gold, which gives it inherent value.
+  - Bitcoin's value is determined by its scarcity and security features.
+  - Bitcoin's worth is based on its acceptance by governments and banks.
+explanation: |
+  Value is subjective and in the eye of the beholder. Bitcoin is valuable 
+  because people believe it to be so, just like art can be valuable despite 
+  being made of canvas and paint. The argument that currency must be backed by 
+  something of value is inaccurate, as the value of fiat currencies like the US 
+  dollar is based on trust and belief as well.
+reviewed: true

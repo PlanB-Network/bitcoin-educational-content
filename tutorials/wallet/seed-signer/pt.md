@@ -6,8 +6,6 @@ description: Configuração do seu Seed Signer
 
 ![capa](assets/cover.jpeg)
 
-# Seed Signer
-
 ## Material:
 
 1. Raspberry Pi Zero (versão 1.3)
@@ -64,7 +62,7 @@ _guia retirado de Southerbitcoiner, criado por Cole_
 
 ### Uma coleção de guias em vídeo sobre SeedSigner: uma carteira de hardware/DIY de código aberto
 
-![imagem](assets/1.jpeg)
+![imagem](assets/1.webp)
 
 SeedSigner é um dispositivo de assinatura de Bitcoin que você pode construir do zero. Parece difícil, mas esta série de 4 partes deve ajudar você :) Sugiro que você assista à parte 1 e 2 e depois decida se deseja usar um computador (assista à parte 3) ou um dispositivo móvel (assista à parte 4).
 

@@ -3,9 +3,7 @@ name: RGB
 description: Introducción y creación de activos en RGB
 ---
 
-# Una breve introducción a los protocolos RGB
-
-![RGB vs Ethereum](assets/0.png)
+![RGB vs Ethereum](assets/0.webp)
 
 ## Introducción
 
@@ -26,7 +24,7 @@ Podemos definir RGB como un conjunto de protocolos de código abierto que nos pe
 En términos simples, RGB es un sistema que permite al usuario auditar un contrato inteligente, ejecutarlo y verificarlo individualmente en cualquier momento sin tener un costo adicional, ya que no utiliza una cadena de bloques como lo hacen los sistemas "tradicionales". Los sistemas de contratos inteligentes complejos fueron pioneros en Ethereum, pero debido a que requieren que el usuario gaste cantidades significativas de gas para cada operación, nunca lograron la escalabilidad que prometieron, por lo tanto, nunca fue una opción para bancarizar a los usuarios excluidos del sistema financiero actual.
 Actualmente, la industria de la cadena de bloques promueve que tanto el código de los contratos inteligentes como los datos deben almacenarse en la cadena de bloques y ser ejecutados por cada nodo de la red, sin importar el aumento excesivo de tamaño o el mal uso de los recursos computacionales. El esquema propuesto por RGB es mucho más inteligente y eficiente, ya que rompe con el paradigma de la cadena de bloques al tener contratos inteligentes y datos separados de la cadena de bloques, evitando así la saturación de la red que se ve en otras plataformas. Además, no obliga a cada nodo a ejecutar cada contrato, sino a las partes involucradas, lo que agrega confidencialidad a un nivel nunca antes visto.
 
-![RGB vs Ethereum](assets/1.png)
+![RGB vs Ethereum](assets/1.webp)
 
 ## Contratos inteligentes en RGB
 

@@ -1,0 +1,11 @@
+question: What is the purpose of accumulating bitcoins slowly?
+answer: To let your investment strategy unfold over time.
+wrong_answers:
+  - To mine new Bitcoins.
+  - To trade Bitcoins.
+  - To convert Bitcoins into other cryptocurrencies.
+explanation: |
+  Accumulating bitcoins slowly is a strategy that allows your investment
+  to unfold over time. It is not used for mining new Bitcoins, trading Bitcoins, or
+  converting Bitcoins into other cryptocurrencies.
+reviewed: false

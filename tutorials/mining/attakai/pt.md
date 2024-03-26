@@ -63,41 +63,41 @@ O Antminer S9 existe em várias variantes (i, j) que trazem pequenas modificaç�
 
 O preço dos ASICs varia de acordo com vários fatores, como o preço do bitcoin, a dificuldade da rede, a eficiência da máquina e o custo da eletricidade. Portanto, é difícil dar uma estimativa precisa para a compra de uma máquina usada. Em fevereiro de 2023, o preço esperado na França geralmente varia entre 100€ e 200€, mas esses preços podem mudar rapidamente.
 
-![imagem](assets/guide-achat/1.jpeg)
+![imagem](assets/guide-achat/1.webp)
 
 O Antminer S9 é composto pelas seguintes partes:
 
 - 3 placas de hash onde estão os chips que produzem o hash
 
-![imagem](assets/guide-achat/2.jpeg)'
+![imagem](assets/guide-achat/2.webp)'
 
 - Uma placa de controle que inclui um slot para um cartão SD, uma porta Ethernet e conectores para as hashboards e os ventiladores. É o cérebro do seu ASIC.
 
-![image](assets/guide-achat/3.jpeg)
+![image](assets/guide-achat/3.webp)
 
 - 3 cabos de dados que conectam as hashboards à placa de controle
 
-![image](assets/guide-achat/4.jpeg)
+![image](assets/guide-achat/4.webp)
 
 - A fonte de alimentação que funciona em 220V e pode ser conectada como um eletrodoméstico comum
 
-![image](assets/guide-achat/5.jpeg)
+![image](assets/guide-achat/5.webp)
 
 - 2 ventiladores de 120mm
 
-![image](assets/guide-achat/6.jpeg)
+![image](assets/guide-achat/6.webp)
 
 - Um cabo macho C13
 
-![image](assets/guide-achat/7.jpeg)
+![image](assets/guide-achat/7.webp)
 
 Ao comprar uma máquina usada, é importante verificar se todas as peças estão incluídas e funcionais. Durante a troca, você deve pedir ao vendedor para ligar a máquina e verificar se ela está funcionando corretamente. É importante verificar se o aparelho liga corretamente e, em seguida, verificar a conectividade com a internet conectando um cabo Ethernet e acessando a interface de conexão da Bitmain por meio de um navegador de internet na mesma rede local. Você pode encontrar este endereço IP conectando-se à interface do seu roteador de internet e procurando os dispositivos conectados. Este endereço deve ter o seguinte formato: 192.168.x.x
 
-![image](assets/guide-achat/8.gif)
+![image](assets/guide-achat/8.webp)
 
 Também verifique se as credenciais padrão funcionam (nome de usuário: root, senha: root). Se as credenciais padrão não funcionarem, será necessário fazer um reset da máquina.
 
-![image](assets/guide-achat/9.jpeg)
+![image](assets/guide-achat/9.webp)
 
 Depois de conectado, você deve ser capaz de ver o estado de cada hashboard no painel de controle. Se o minerador estiver conectado a um pool, você deve ver todas as hashboards funcionando. É importante observar que os mineradores fazem muito barulho, isso é normal. Certifique-se também de que os ventiladores estão funcionando corretamente.
 
@@ -108,7 +108,7 @@ Para sintetizar este guia em uma frase: **"Não confie, verifique"**.
 
 ## Capítulo 2: Guia de compra de peças para modificações
 
-![image](assets/piece/1.jpeg)
+![image](assets/piece/1.webp)
 
 ### Como transformar o seu Antminer S9 em um aquecedor silencioso e conectado?
 
@@ -118,27 +118,27 @@ Se você é proprietário de um Antminer S9, provavelmente sabe o quão barulhen
 
 Os ventiladores originais do Antminer S9 são muito barulhentos para usar o seu Antminer como aquecedor. A solução é substituí-los por ventiladores mais silenciosos. Nossa equipe testou vários modelos da marca Noctua e selecionou o Noctua NF-A14 iPPC-2000 PWM como a melhor opção, certifique-se de escolher a versão de 12V dos ventiladores. Este ventilador de 140mm pode produzir até 1300W de aquecimento, mantendo um nível teórico de ruído de 31 dB. Para poder instalar esses ventiladores de 140mm, você precisará usar um adaptador de 140mm para 120mm, que pode ser encontrado na loja DécouvreBitcoin. E também adicionaremos grades de proteção de 140mm.
 
-![image](assets/piece/1.jpeg)
-![image](assets/piece/2.jpeg)
-![image](assets/piece/3.jpeg)
+![image](assets/piece/1.webp)
+![image](assets/piece/2.webp)
+![image](assets/piece/3.webp)
 
 O ventilador da fonte de alimentação também é bastante barulhento e precisa ser substituído. Recomendamos o Noctua NF-A6x25 PWM. Observe que os conectores dos ventiladores Noctua não são os mesmos que os originais, portanto, você precisará de um adaptador para conectá-los, 2 serão suficientes. Tome cuidado também para escolher a versão de 12V do ventilador.
 
-![image](assets/piece/4.jpeg)
-![image](assets/piece/5.jpeg)
+![image](assets/piece/4.webp)
+![image](assets/piece/5.webp)
 
 ### 2. Adicionar um bridge WIFI/Ethernet
 
 Em vez de usar um cabo Ethernet, você pode conectar o seu Antminer via WIFI adicionando um bridge WIFI/Ethernet. Selecionamos o vonets vap11g-300, pois ele permite facilmente captar o sinal WIFI do seu roteador e transmiti-lo para o seu Antminer via Ethernet sem criar uma sub-rede. Se você tiver habilidades elétricas, poderá alimentá-lo diretamente com a fonte de alimentação do Antminer, sem precisar adicionar um carregador USB, para isso você precisará de uma tomada fêmea de 5,5mmx2,1mm.
 
-![image](assets/piece/6.jpeg)
-![image](assets/piece/7.jpeg)
+![image](assets/piece/6.webp)
+![image](assets/piece/7.webp)
 
 ### 3. Opcional: adicionar uma tomada conectada
 
 'Se você quiser ligar/desligar seu Antminer do seu smartphone e monitorar seu consumo de energia, você pode adicionar uma tomada inteligente. Testamos a tomada ANTELA na versão 16A compatível com o aplicativo smartlife. Esta tomada inteligente permite consultar o consumo diário e mensal e se conecta diretamente ao seu roteador Wi-Fi.
 
-![image](assets/piece/8.jpeg)
+![image](assets/piece/8.webp)
 
 > Lista de equipamentos e links
 >
@@ -151,7 +151,7 @@ Em vez de usar um cabo Ethernet, você pode conectar o seu Antminer via WIFI adi
 
 ## Chapitre 3 - TUTORIEL : Como transformar um minerador em um aquecedor?
 
-![image](assets/hardware/0.jpeg)
+![image](assets/hardware/0.webp)
 
 Se você é um bricoleiro experiente e está procurando transformar um minerador em um aquecedor, este tutorial é para você. Gostaríamos de alertar que fazer modificações em um dispositivo eletrônico pode apresentar riscos elétricos e de incêndio. Portanto, é essencial tomar todas as precauções necessárias para evitar danos ou lesões.
 De fábrica, um minerador não é realmente utilizável como um radiador em uma residência, pois é muito barulhento e não é ajustável. No entanto, é possível fazer modificações simples para resolver esses problemas.
@@ -174,96 +174,96 @@ Vamos começar substituindo o ventilador da fonte de alimentação.
 
 > ATENÇÃO: Antes de tudo, certifique-se de ter desconectado seu minerador para evitar qualquer risco de choque elétrico.
 
-![image](assets/hardware/1.jpeg)
+![image](assets/hardware/1.webp)
 
 Vamos começar substituindo o ventilador da fonte de alimentação.
 
 Primeiro, remova os 6 parafusos na lateral do gabinete que o mantêm fechado. Depois de remover os parafusos, abra cuidadosamente o gabinete para remover a proteção de plástico que cobre os componentes.
 
-![image](assets/hardware/2.jpeg)
-![image](assets/hardware/3.jpeg)'
+![image](assets/hardware/2.webp)
+![image](assets/hardware/3.webp)'
 
 En seguida, é hora de remover o ventilador original, tendo cuidado para não danificar os outros componentes. Para fazer isso, remova os parafusos que o seguram no lugar e delicadamente descole a cola branca que envolve o conector. É importante proceder com delicadeza para evitar danificar os fios ou conectores.
 
-![image](assets/hardware/4.jpeg)
+![image](assets/hardware/4.webp)
 
 Uma vez removido o ventilador original, você notará que os conectores do novo ventilador Noctua não correspondem aos do ventilador original. Na verdade, o novo ventilador possui 3 fios, incluindo um fio amarelo que permite controlar a velocidade. No entanto, esse fio não será usado neste caso específico. Para conectar o novo ventilador, é recomendado usar um adaptador especial. No entanto, é importante observar que esse adaptador às vezes pode ser difícil de encontrar.
 
-![image](assets/hardware/5.jpeg)
+![image](assets/hardware/5.webp)
 
 Se você não tiver esse adaptador, ainda poderá conectar o novo ventilador usando um conector de fio elétrico. Para isso, você precisará cortar os cabos do antigo e do novo ventilador.
 
-![image](assets/hardware/6.jpeg)
-![image](assets/hardware/7.jpeg)
+![image](assets/hardware/6.webp)
+![image](assets/hardware/7.webp)
 
 No novo ventilador, use um cortador e corte cuidadosamente os contornos da capa principal a 1cm sem cortar as capas dos cabos abaixo.
 
-![image](assets/hardware/8.jpeg)
+![image](assets/hardware/8.webp)
 
 Em seguida, puxando a capa principal para baixo, corte as capas dos cabos vermelho e preto da mesma maneira que antes. E corte o cabo amarelo rente.
 
-![image](assets/hardware/9.jpeg)
+![image](assets/hardware/9.webp)
 
 No antigo ventilador, é mais delicado cortar a capa principal sem danificar as capas dos cabos vermelho e preto. Para isso, usamos uma agulha que deslizamos entre a capa principal e os fios vermelhos e pretos.
 
-![image](assets/hardware/10.jpeg)
-![image](assets/hardware/11.jpeg)
+![image](assets/hardware/10.webp)
+![image](assets/hardware/11.webp)
 
 Uma vez que os fios vermelhos e pretos estejam livres, corte as capas sempre com cuidado para não danificar os fios elétricos.
 
-![image](assets/hardware/12.jpeg)
+![image](assets/hardware/12.webp)
 
 Em seguida, conecte os cabos com um conector, o fio preto com o preto e o fio vermelho com o vermelho. Você também pode adicionar fita isolante.
 
-![image](assets/hardware/13.jpeg)
-![image](assets/hardware/14.jpeg)
+![image](assets/hardware/13.webp)
+![image](assets/hardware/14.webp)
 
 Uma vez que a conexão esteja feita, é hora de colocar o novo ventilador Noctua com a grade e os parafusos antigos, os novos parafusos que estão na caixa serão reutilizados posteriormente. Certifique-se de colocá-lo na orientação correta. Você notará uma seta em um dos lados do ventilador, que indica a direção do fluxo de ar. É importante colocar o ventilador de forma que essa seta aponte para dentro do gabinete. Em seguida, reconecte o ventilador.
-'![image](assets/hardware/15.jpeg)![image](assets/hardware/16.jpeg)
+'![image](assets/hardware/15.webp)![image](assets/hardware/16.webp)
 
 > Opcional: Se você tiver conhecimentos em eletricidade, pode adicionar diretamente na saída de alimentação de 12V um conector jack fêmea de 5,5 mm que permitirá alimentar diretamente a ponte Wi-Fi Vonet. No entanto, se você não tiver certeza de suas habilidades em eletricidade, é melhor usar o conector USB com um carregador de smartphone para evitar qualquer risco de curto-circuito ou dano elétrico.
 
-![image](assets/hardware/17.jpeg)
+![image](assets/hardware/17.webp)
 
 Depois de fazer as conexões, coloque a tampa de plástico sobre a caixa de plástico e não dentro dela.
 
-![image](assets/hardware/18.jpeg)
+![image](assets/hardware/18.webp)
 
 Por fim, recoloque a tampa da caixa no lugar e aperte os 6 parafusos nas laterais para fixar tudo no lugar. E pronto, sua caixa de alimentação agora está equipada com um novo ventilador.
 
 ### Substituição dos 2 ventiladores principais
 
 1.  Primeiro, desconecte os ventiladores e desparafuse-os.
-2.  ![image](assets/hardware/19.jpeg)
+2.  ![image](assets/hardware/19.webp)
 
 3.  Os conectores dos novos ventiladores Noctua não correspondem aos originais, mas não se preocupe! Pegue seu estilete e corte cuidadosamente as pequenas abas de plástico para que os conectores se encaixem perfeitamente no seu minerador.
 
-![image](assets/hardware/20.jpeg)
-![image](assets/hardware/21.jpeg)
+![image](assets/hardware/20.webp)
+![image](assets/hardware/21.webp)
 
 3. É hora de instalar as peças 3D!
    Fixe-as em ambos os lados do minerador usando os parafusos que você removeu dos ventiladores. Aperte até que a cabeça do parafuso esteja embutida na peça 3D e que ela esteja bem fixada no lugar. Cuidado para não apertar demais, você pode deformar a peça e um dos parafusos pode tocar em um capacitor! Em seguida, corte cuidadosamente as pequenas abas de plástico para que os conectores se encaixem perfeitamente no seu minerador.
 
-![image](assets/hardware/22.jpeg)
+![image](assets/hardware/22.webp)
 
 4. Agora vamos para os ventiladores.
    Fixe-os nas peças 3D usando os parafusos fornecidos na caixa. Preste atenção na direção do fluxo de ar, as setas nas laterais dos ventiladores indicarão a direção a seguir. Vá do lado da porta Ethernet para o outro lado. Veja a foto abaixo.
 
-![image](assets/hardware/23.jpeg)
-![image](assets/hardware/24.jpeg)
-![image](assets/hardware/25.jpeg)
+![image](assets/hardware/23.webp)
+![image](assets/hardware/24.webp)
+![image](assets/hardware/25.webp)
 
 5. Última etapa: conecte os ventiladores e fixe as grades por cima com os parafusos que não foram usados na caixa do ventilador de alimentação. Você só tem 4, mas 2 por grade em ângulos opostos serão suficientes. Se necessário, você também pode procurar por outros parafusos semelhantes em uma loja de ferragens.
 
-![image](assets/hardware/26.jpeg)'
-'![image](assets/hardware/27.jpeg)
+![image](assets/hardware/26.webp)'
+'![image](assets/hardware/27.webp)
 Enquanto espera poder oferecer uma caixa mais elegante para o seu novo aquecedor, pode prender a caixa e a fonte de alimentação juntas com abraçadeiras de eletricista.
 
-![image](assets/hardware/28.jpeg)
+![image](assets/hardware/28.webp)
 
 E para o toque final, ligue a ponte Vonet à porta Ethernet à sua fonte de alimentação. Se ainda não o fez, pode seguir este tutorial para configurar a sua ponte.
 
-![image](assets/hardware/29.jpeg)
+![image](assets/hardware/29.webp)
 
 E pronto, parabéns! Acabou de substituir toda a parte mecânica do seu minerador. Agora deverá ouvir muito menos ruído.
 
@@ -277,7 +277,7 @@ Este método pode ser aplicado nos primeiros 10 minutos após o arranque do mine
 
 Após ligar o minerador durante 2 minutos, pressione o botão "Reset" durante 5 segundos e depois solte-o. O minerador será restaurado para as configurações de fábrica em 4 minutos e reiniciará automaticamente (não é necessário desligá-lo).
 
-![image](assets/software/1.jpeg)
+![image](assets/software/1.webp)
 
 Restaurar através do lado web
 
@@ -289,7 +289,7 @@ Para esta parte, vamos assumir que a máquina está a funcionar, está ligada e 
 
 Primeiro, ligue-se à sua máquina através da sua rede local:
 
-![image](assets/software/2.gif)
+![image](assets/software/2.webp)
 
 Uma vez na página de login, terá de fazer login no ASIC utilizando as credenciais padrão:
 
@@ -300,11 +300,11 @@ Uma vez na página de login, terá de fazer login no ASIC utilizando as credenci
 
 O sistema operativo principal é relativamente básico. Com as 4 abas: Sistema, Configuração do Minerador, Estado do Minerador, Rede. Na aba Configuração do Minerador, pode configurar até 3 pools de mineração.
 
-![image](assets/software/3.jpeg)
+![image](assets/software/3.webp)
 
 Na aba Estado do Minerador, poderá observar várias informações sobre o funcionamento do ASIC em tempo real. A taxa de hash expressa em GH/s, informações mais detalhadas sobre o pool, bem como detalhes sobre o estado de cada placa de hash e a velocidade dos ventiladores em rotações por minuto.
 
-![image](assets/software/4.jpeg)
+![image](assets/software/4.webp)
 
 ### Braiins OS+'
 
@@ -328,11 +328,11 @@ Scoprite come installare facilmente Braiins OS+ direttamente sulla memoria del v
 1. Accendere l'Antimner e collegarlo al box Internet.
 2. Scaricare BOS toolbox Windows / Linux
 3. Descompacte o arquivo baixado e abra o arquivo bos-toolbox.bat, escolha o idioma e, após alguns instantes, você verá esta janela:
-   ![image](assets/software/5.jpeg)
+   ![image](assets/software/5.webp)
 
 4. A Bos toolbox permitirá que você encontre facilmente o endereço IP do seu Antminer e instale o Braiins OS+. Se você já conhece o endereço IP da sua máquina, pode pular para a etapa 8. Caso contrário, vá para a guia de escaneamento.
 
-![image](assets/software/6.jpeg)
+![image](assets/software/6.webp)
 
 5. Normalmente, em redes domésticas, a faixa de endereços IP está entre 192.168.1.1 e 192.168.1.255, então coloque "192.168.1.0/24" no campo de faixa de IP. Se a sua rede for diferente, altere esses endereços. Em seguida, clique em "Start".
 
@@ -340,19 +340,19 @@ Scoprite come installare facilmente Braiins OS+ direttamente sulla memoria del v
 
 7. Você deverá ver todos os Antminers na sua rede, aqui o endereço IP é 192.168.1.37.
 
-![image](assets/software/7.jpeg)
+![image](assets/software/7.webp)
 
 8. Clique em "Back" e depois na guia "install", insira o endereço IP encontrado anteriormente no campo "Miner(s)" e "admin" (ou "root") no campo "Password", que é a senha padrão, e clique em "Start".
    Se a instalação não funcionar, nem com "admin" ou "root" como senha, pode ser necessário fazer um reset factory e tentar novamente.
 
-![image](assets/software/8.jpeg)
+![image](assets/software/8.webp)
 
 9. Após alguns instantes, o seu Antminer será reiniciado e você poderá acessar a interface do Braiins OS+ no endereço IP em questão, aqui é 192.168.1.37, digitando-o diretamente na barra de endereço do seu navegador. O nome de usuário padrão é "root" e não há senha padrão.
    Instalação do Braiins OS+ em um cartão SD
 
-![image](assets/software/9.jpeg)
+![image](assets/software/9.webp)
 
-![image](assets/software/10.jpeg)
+![image](assets/software/10.webp)
 
 O segundo método utiliza a interface original do seu Antminer. Este método funciona para máquinas com um sistema operacional anterior a 2019.
 
@@ -363,7 +363,7 @@ O segundo método utiliza a interface original do seu Antminer. Este método fun
 3. Vá para a guia "System" e depois "Upgrade".
 4. Carregue o arquivo que você baixou e faça o flash da imagem.
 
-![image](assets/software/11.jpeg)
+![image](assets/software/11.webp)
 
 ### Cartão micro SD
 
@@ -374,9 +374,9 @@ Um segundo método permite que você use um cartão micro SD. Este método funci
 2. Faça o flash da imagem baixada em um cartão micro SD. Para isso, você pode usar o Etcher. Simplesmente copiar o arquivo para o cartão micro SD não funcionará.
 3. Se você possui um Antminer S9 e suas variantes (S9i, S9j), você precisará ajustar os "jumpers" para forçar o seu ASIC a inicializar a partir do arquivo contido no cartão micro SD em vez da NAND. Se você tiver outro modelo, você pode pular para a parte 4. Os jumpers estão localizados na placa de controle na parte superior do ASIC, próximo à porta Ethernet. Você precisará removê-la deslizando-a para trás. Depois de alterar a posição do jumper como nas imagens abaixo BOOT FROM SD, você pode reinserir a placa de controle e reconectar o S9.
 
-![image](assets/software/12.jpeg)
+![image](assets/software/12.webp)
 
-![image](assets/software/13.jpeg)
+![image](assets/software/13.webp)
 
 4. Insira o cartão micro SD no ASIC.
 5. Inicie o ASIC. Se a versão de instalação automática foi usada, o novo sistema operacional será instalado automaticamente. A instalação estará concluída quando os dois LEDs acenderem ao mesmo tempo. Você pode reiniciar o ASIC e remover o cartão micro SD. Se a outra versão foi baixada, você precisará deixar o cartão micro SD dentro do ASIC.
@@ -396,7 +396,7 @@ Você será recebido pelo painel de controle do Brains OS+
 
 ### Painel de controle
 
-![image](assets/software/14.jpeg)
+![image](assets/software/14.webp)
 
 Nesta primeira página, você poderá observar o desempenho da sua máquina em tempo real.
 
@@ -404,7 +404,7 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 - À direita, a taxa de hash real, a temperatura média dos chips, a eficiência estimada em W/THs e o consumo de energia.
 - Abaixo, a velocidade de rotação dos ventiladores em porcentagem da velocidade máxima e o número de rotações por minuto.
 
-![image](assets/software/15.jpeg)
+![image](assets/software/15.webp)
 
 - Mais abaixo, você encontrará uma visualização detalhada de cada placa de hash. A temperatura média da placa e dos chips que a compõem, a tensão e a frequência.
 - Detalhes sobre os pools de mineração ativos em Pools.
@@ -413,15 +413,15 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 
 ### Configuração
 
-![image](assets/software/16.jpeg)
+![image](assets/software/16.webp)
 
 ### Sistema
 
-![image](assets/software/17.jpeg)
+![image](assets/software/17.webp)
 
 ### Ações rápidas
 
-![image](assets/software/18.jpeg)
+![image](assets/software/18.webp)
 
 Configuração de um pool
 Un pool minerario può essere considerato come una cooperativa agricola. Gli agricoltori mettono in comune la loro produzione per ridurre la varianza della domanda e dell'offerta e ottenere così un reddito più stabile per la loro azienda agricola. Un mining pool funziona allo stesso modo, ma le materie prime messe in comune sono gli hash. La scoperta di un singolo hash valido consente di creare un blocco e di ottenere la ricompensa di 6,25 BTC più le commissioni di transazione incluse nel blocco. Se si effettua il mining da soli, si viene ricompensati solo quando si trova un blocco. Competendo contro tutti gli altri minatori del pianeta, avreste pochissime possibilità di vincere questa grande lotteria e dovreste comunque pagare le commissioni associate all'utilizzo del vostro miner, senza alcuna garanzia di successo. I pool di mining risolvono questo problema mettendo in comune la potenza di calcolo di diversi (migliaia) minatori e dividendo le ricompense tra loro in base alla percentuale di hashrate del pool che viene raggiunta quando viene trovato un blocco. È possibile utilizzare questo strumento per vedere le proprie possibilità di estrarre un singolo blocco. Se si inseriscono le informazioni per un Antminer S9, si può vedere che le probabilità di trovare un hash che consenta la creazione di un blocco sono 1/24.777.849 per ogni blocco, o 1/ 172.068 al giorno. In media (con un hashrate e una difficoltà costanti) ci vorrebbero 471 anni per trovare un blocco.
@@ -440,17 +440,17 @@ O modelo de recompensa que nos interessa é o PPS, que significa "pagamento por 
 
 Para configurar um pool no Braiins 0S+, você precisará criar uma conta em um dos pools de sua escolha. Aqui vamos usar o exemplo do Lincoin:
 
-![image](assets/software/19.jpeg)
+![image](assets/software/19.webp)
 
 Depois de criar sua conta, clique em Conectar ao Pool
 
 Em seguida, copie o endereço Stratum e seu nome de usuário:
 
-![image](assets/software/20.jpeg)
+![image](assets/software/20.webp)
 
 Agora você pode voltar para a interface do Braiins OS+ para inserir essas credenciais. Para a senha, você pode deixar o campo em branco.
 
-![image](assets/software/21.jpeg)
+![image](assets/software/21.webp)
 
 ### Overclocking e Underclocking
 

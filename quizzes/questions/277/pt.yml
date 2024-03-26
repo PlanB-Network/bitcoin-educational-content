@@ -1,0 +1,9 @@
+question: Qual é a diferença entre negociar, investir e manter no contexto do Bitcoin?
+answer: Negociar envolve contratos de curto prazo com alto risco, investir envolve comprar BTC para o curto a médio prazo com risco limitado, e manter envolve manter BTC por um longo prazo com risco limitado.
+wrong_answers:
+  - Negociar envolve comprar BTC para longo prazo, investir envolve contratos de curto prazo com alto risco, e manter envolve manter BTC por um curto a médio prazo com risco limitado.
+  - Negociar envolve comprar BTC para curto a médio prazo, investir envolve contratos de curto prazo com alto risco, e manter envolve manter BTC por um longo prazo com alto risco.
+  - Negociar envolve comprar BTC para curto a médio prazo, investir envolve contratos de curto prazo com alto risco, e manter envolve manter BTC por um longo prazo com risco limitado.
+explanation: |
+  Negociar, investir e manter são três estratégias diferentes usadas no mercado de Bitcoin. Negociar envolve contratos de curto prazo com alto risco, investir envolve comprar BTC para o curto a médio prazo com risco limitado, e manter envolve manter BTC por um longo prazo com risco limitado.
+reviewed: false

@@ -1,0 +1,8 @@
+title: "Applied Cryptography"
+publication_year: 1993
+cover: cover_en.jpeg
+original: true
+description: |
+  A Criptografia Aplicada é um livro escrito por Bruce Schneier, um especialista na área de segurança da computação e criptografia. O livro fornece uma introdução aos princípios e conceitos fundamentais da criptografia e abrange uma ampla gama de tópicos, incluindo criptografia simétrica e assimétrica, funções de hash, assinaturas digitais, gerenciamento de chaves e protocolos seguros. Ele também explora a história da criptografia e analisa os potenciais riscos e limitações dos sistemas criptográficos. O livro é um recurso essencial para qualquer pessoa interessada no campo da criptografia, desde iniciantes até especialistas.
+contributors:
+  - rabbit-hole

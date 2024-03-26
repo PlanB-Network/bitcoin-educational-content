@@ -1,0 +1,9 @@
+question: Qual foi a taxa de inflação anual na Bolívia em 1985?
+answer: 11.749%
+wrong_answers:
+  - 12.800%
+  - 10.000%
+  - 15.000%
+explanation: |
+  Em 1985, a taxa de inflação anual da Bolívia atingiu 11.749%, indicando que quase todos os meses a inflação estava próxima ou excedia o limite de hiperinflação de 50%.
+reviewed: false

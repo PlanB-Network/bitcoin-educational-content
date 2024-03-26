@@ -1,0 +1,9 @@
+question: Quel est l'objectif du cours de cette université ?
+answer: L'univers Bitcoin.
+wrong_answers:
+  - L'industrie mondiale des cryptomonnaies.
+  - L'industrie de la fintech.
+  - L'industrie de la blockchain.
+explanation: |
+  L'ensemble de l'objectif de cette université se concentre sur l'univers Bitcoin, pas sur les cryptomonnaies.
+reviewed: false

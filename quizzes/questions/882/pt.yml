@@ -1,0 +1,9 @@
+question: Por que o problema da coordenação na divisão do trabalho ressurge em comunidades maiores?
+answer: Porque os seres humanos são limitados por suas capacidades cognitivas e a medição socialmente aceita do valor das contribuições em troca é um problema não trivial.
+wrong_answers:
+  - Porque os seres humanos não estão interessados em trabalhar com grupos maiores e preferem comunidades menores.
+  - Porque comunidades maiores têm mais recursos, levando a menos necessidade de divisão do trabalho.
+  - Porque comunidades maiores têm mais conflitos, tornando a coordenação difícil.
+explanation: |
+  Em comunidades maiores, é impossível para uma pessoa manter e lembrar de relacionamentos sociais estáveis com mais de 150 indivíduos, tornando um sistema de reputação insuficiente para superar o dilema do prisioneiro em grande escala. Além disso, avaliar o valor das contribuições em troca é um problema complexo em comunidades maiores.
+reviewed: false

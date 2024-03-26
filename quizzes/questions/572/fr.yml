@@ -1,0 +1,9 @@
+question: Quelle est la définition de l'hyperinflation selon Bernholz ?
+answer: L'hyperinflation est une extension de l'inflation élevée, caractérisée par de grands déficits budgétaires financés par la création monétaire.
+wrong_answers:
+  - L'hyperinflation est une diminution de l'offre monétaire.
+  - L'hyperinflation est une augmentation modérée de l'offre monétaire.
+  - L'hyperinflation est une diminution de la production.
+explanation: |
+  Le chapitre explique que selon Bernholz, l'hyperinflation est une extension de l'inflation élevée, caractérisée par de grands déficits budgétaires financés par la création monétaire.
+reviewed: false

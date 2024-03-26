@@ -4,10 +4,6 @@ name: Tails
 description: Installare Tails su una chiavetta USB
 ---
 
-# Installare Tails su una chiavetta USB
-
-_**Guida proposta da Hari Seldon nell'ambito di Agora256**_
-
 ![image](assets/cover.jpeg)
 
 Un sistema operativo portatile e amnesico che ti protegge dalla sorveglianza e dalla censura.
@@ -57,7 +53,7 @@ Prima di iniziare questa procedura, assicurati di avere a disposizione una chiav
 
 ## Passaggio 1: Scaricare Tails dal tuo computer
 
-![immagine](assets/1.jpeg)
+![immagine](assets/1.webp)
 
 > 🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.fr.html#download
 
@@ -67,7 +63,7 @@ Salva il file in una cartella conosciuta, come "Download", perché sarà necessa
 
 ## Passaggio 2: Verificare il download
 
-![immagine](assets/2.jpeg)
+![immagine](assets/2.webp)
 
 > 🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.fr.html#verify
 
@@ -79,7 +75,7 @@ Per verificare il file, utilizza il pulsante "Seleziona il tuo download..." offe
 
 ## Passaggio 3: Installare Tails sulla tua chiavetta USB
 
-![immagine](assets/3.jpeg)
+![immagine](assets/3.webp)
 
 > 🔗 Sezione ufficiale di Tails:
 >
@@ -94,7 +90,7 @@ Buona fortuna! Ci vediamo al passaggio 4.
 
 ## Passaggio 4: Riavviare utilizzando la tua chiavetta USB Tails
 
-![immagine](assets/4.jpeg)
+![immagine](assets/4.webp)
 
 > 🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.fr.html#restart
 > È ora di avviare uno dei tuoi computer utilizzando la tua nuova chiavetta USB. Inseriscila in una delle porte USB e riavvia!
@@ -123,27 +119,27 @@ Per determinare quale tasto devi premere per accedere al menu di avvio e selezio
 
 Una volta selezionata la chiavetta USB, dovresti vedere questa nuova schermata di avvio, è un buon segno, quindi lascia che il computer continui ad avviarsi...
 
-![image](assets/5.jpeg)
+![image](assets/5.webp)
 
 ## Passaggio 5: Benvenuto in Tails!
 
-![image](assets/6.jpeg)
+![image](assets/6.webp)
 
 > 🔗 Sezione ufficiale di Tails: https://tails.boum.org/install/linux/index.fr.html#tails
 
 Uno o due minuti dopo il caricatore di avvio e la schermata di caricamento, appare la schermata di benvenuto.
 
-![image](assets/7.jpeg)
+![image](assets/7.webp)
 
 Nella schermata di benvenuto, seleziona la tua lingua e la disposizione della tastiera nella sezione Lingua e regione. Fai clic su Avvia Tails.
 
-![image](assets/8.jpeg)
+![image](assets/8.webp)
 
 Se il tuo computer non è collegato alla rete tramite cavo, consulta le istruzioni ufficiali di Tails per aiutarti a connetterti alla rete senza Wi-Fi (sezione "Testa la tua connessione Wi-Fi").
 
 Una volta connesso alla rete locale, compare l'Assistente di Connessione a Tor per aiutarti a connetterti alla rete Tor.
 
-![image](assets/9.jpeg)
+![image](assets/9.webp)
 
 Puoi iniziare a navigare in modo anonimo, esplorare le opzioni e i software inclusi in Tails. Divertiti, hai tutto lo spazio per fare errori, perché nulla viene modificato sulla chiavetta USB... Al prossimo riavvio, tutte le tue esperienze saranno dimenticate!
 
@@ -153,5 +149,3 @@ Una volta che avrai sperimentato un po' di più con la tua chiavetta USB Tails, 
 
 > Aggiornare una chiave con l'ultima versione di Tails; Configurare e utilizzare lo storage persistente; Installare software aggiuntivi.
 > Fino ad allora, come sempre, se avete domande, non esitate a condividerle con la comunità Agora256, impariamo insieme, per essere migliori domani di quanto siamo oggi!
-
-> _**Guida proposta da Hari Seldon nell'ambito di Agora256; post originale: https://agora256.com/installer-tails-usb/**_'

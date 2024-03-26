@@ -1,0 +1,10 @@
+question: Qu'est-ce qu'un portefeuille en ligne dans le contexte du Bitcoin ?
+answer: Un portefeuille pour stocker de petites quantités de Bitcoin en ligne.
+wrong_answers:
+  - Un portefeuille utilisé pour les transactions dans les climats chauds.
+  - Un portefeuille utilisé pour stocker de grandes quantités de Bitcoin.
+  - Un portefeuille utilisé pour stocker du Bitcoin pendant une longue période.
+explanation: |
+  Un portefeuille en ligne est un portefeuille utilisé pour stocker de petites quantités de Bitcoin en ligne.
+  Il est considéré comme moins sécurisé qu'un portefeuille hors ligne car il est plus vulnérable aux piratages.
+reviewed: false

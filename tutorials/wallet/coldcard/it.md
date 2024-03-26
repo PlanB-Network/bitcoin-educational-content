@@ -6,8 +6,6 @@ description: Creazione, backup e utilizzo di una chiave privata Bitcoin con un d
 
 ![copertina](assets/cover.jpeg)
 
-# ColdCard
-
 Creazione, backup e uso di una chiave privata Bitcoin con un dispositivo Coldcard e Bitcoin Core
 
 ## Guida completa alla generazione di una chiave privata con una Coldcard e al suo utilizzo attraverso l'interfaccia del vostro nodo Bitcoin Core!
@@ -41,7 +39,7 @@ Connessione a Coldcard con il PIN > Nuove parole seed > Lancio di dadi a 24 paro
 
 Effettua 100 lanci di dadi annotando il risultato ottenuto da 1 a 6 su Coldcard dopo ogni lancio. Utilizzando questo metodo, creerai 256 byte di entropia che favoriranno la creazione di una chiave privata completamente casuale. Coinkite fornisce anche la documentazione necessaria per la verifica indipendente del loro sistema di generazione di entropia.
 
-![Screenshot Visuale Cold Card](assets/guide-agora/1.jpeg)
+![Screenshot Visuale Cold Card](assets/guide-agora/1.webp)
 
 Una volta completati i 100 lanci di dadi, premi ✓ e annota le 24 parole ottenute nell'ordine. Verifica due volte e premi ✓. Infine, completa il test di verifica delle 24 parole su Coldcard e avrai creato la tua nuova chiave privata!
 
@@ -57,7 +55,7 @@ Una frase segreta (passphrase) è un elemento fantastico da aggiungere alla conf
 
 L'obiettivo è annotare la frase segreta separatamente dalla frase mnemonica perché un attaccante che ha accesso a entrambi gli elementi avrà accesso ai fondi contenuti. Al contrario, un attaccante che ha accesso solo a uno di questi elementi non avrà alcun accesso ai fondi, ed è proprio questo vantaggio specifico che ottimizza il livello di sicurezza della configurazione del portafoglio.
 
-![Aggiungere una frase segreta porta a un portafoglio completamente diverso](assets/guide-agora/2.jpeg)
+![Aggiungere una frase segreta porta a un portafoglio completamente diverso](assets/guide-agora/2.webp)
 
 ## Passaggi per aggiungere una frase segreta con Coldcard:
 
@@ -83,13 +81,13 @@ Advanced/Tools > Esporta Portafoglio > Bitcoin Core. Due file saranno registrati
 
 Prima di seguire le istruzioni nel file, iniziamo preparando il portafoglio nell'interfaccia di Bitcoin Core seguendo questi passaggi: vai alla scheda File > Crea un portafoglio. Scegli un nome per il tuo portafoglio (termine intercambiabile con "portafoglio" in Core) e seleziona le opzioni Disabilita le chiavi private, Crea un portafoglio vuoto e Portafoglio di descrittori come mostrato nell'immagine qui sotto. Quindi, premi il pulsante Crea.
 
-![crea un portafoglio](assets/guide-agora/3.jpeg)
+![crea un portafoglio](assets/guide-agora/3.webp)
 
 Una volta creato il portafoglio in Bitcoin Core, vai alla scheda Finestra > Console e assicurati che il portafoglio selezionato in alto nella pagina mostri correttamente il nome di quello che hai creato.
 
 Ora, nel file .txt generato precedentemente da Coldcard, copia la riga che inizia con importdescriptors e incollala nella console di Bitcoin Core. Dovrebbe essere restituita una risposta che include la riga "success": true.
 
-![finestra dei nodi](assets/guide-agora/4.jpeg)
+![finestra dei nodi](assets/guide-agora/4.webp)
 
 Se la risposta contiene "message": "I descrittori a intervalli non dovrebbero avere un'etichetta", cancella l'ingresso "label": "Coldcard xxxx0000" nella riga copiata dal file .txt e quindi incolla la riga completa nella console di Bitcoin Core.
 
@@ -115,7 +113,7 @@ Prima di procedere, assicurati che le seguenti opzioni siano attivate in Imposta
 > - Spendere moneta non confermata (Opzionale)
 > - Abilita i controlli TBPS
 
-![opzione](assets/guide-agora/5.jpeg)
+![opzione](assets/guide-agora/5.webp)
 
 ### Passaggi per inviare in modalità air-gapped:
 
@@ -125,7 +123,7 @@ Nella Coldcard, premi Pronto per firmare, verifica i dettagli della transazione 
 
 Tornando su Bitcoin Core, vai nella scheda File > Carica TBSP da un file e inserisci il file di transazione firmato .psbt. Verrà visualizzata la sezione Operazioni PSBT sullo schermo, confermando che la transazione è completamente firmata e pronta per essere diffusa. Non resta che premere Diffondi la transazione.
 
-![Operazioni PSBT](assets/guide-agora/6.jpeg)
+![Operazioni PSBT](assets/guide-agora/6.webp)
 
 ### Conclusioni
 

@@ -3,9 +3,7 @@ name: My Node
 description: Configura il tuo nodo Bitcoin MyNode
 ---
 
-# Installa Bitcoin Core su Mac o Windows
-
-![image](assets/0.jpeg)
+![image](assets/0.webp)
 
 https://mynodebtc.com/
 
@@ -44,21 +42,21 @@ Un'altra opzione è installare semplicemente Bitcoin Core e una varietà di serv
 
 Vai al sito web di MyNode Link
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 Clicca su <Download Now>
 
 Scarica la versione per Raspberry Pi 4:
 
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 È un file grande:
 
-![image](assets/3.jpeg)
+![image](assets/3.webp)
 
 Scarica gli hash SHA 256
 
-![image](assets/4.jpeg)
+![image](assets/4.webp)
 
 Apri il terminale su Mac o Linux o il Prompt dei comandi su Windows. Digita:
 
@@ -75,13 +73,13 @@ Flash della scheda SD
 Non sono riuscito a trovare la firma digitale per questo. Se sai come farlo, fammelo sapere e aggiornerò questo articolo.
 Etcher è autoesplicativo da usare. Inserisci la tua scheda micro SD e flasha il software Raspberry Pi (.img file) sulla scheda SD.
 
-![image](assets/5.jpeg)
-![image](assets/6.jpeg)
-![image](assets/7.jpeg)
-![image](assets/8.jpeg)
-![image](assets/9.jpeg)
-![image](assets/10.jpeg)
-![image](assets/11.jpeg)
+![image](assets/5.webp)
+![image](assets/6.webp)
+![image](assets/7.webp)
+![image](assets/8.webp)
+![image](assets/9.webp)
+![image](assets/10.webp)
+![image](assets/11.webp)
 
 Una volta fatto, l'unità non è più leggibile. Potresti ricevere un errore dal sistema operativo e l'unità dovrebbe scomparire dal desktop. Togli la scheda.
 
@@ -89,20 +87,20 @@ Una volta fatto, l'unità non è più leggibile. Potresti ricevere un errore dal
 
 Le parti (il case non è mostrato):
 
-![image](assets/12.jpeg)
-![image](assets/13.jpeg)
+![image](assets/12.webp)
+![image](assets/13.webp)
 
 Collega il cavo Ethernet e il connettore USB del disco rigido (non ancora l'alimentazione). Evita di collegarti alle porte USB di colore blu al centro. Sono USB 3. MyNode consiglia di utilizzare la porta USB 2, anche se il disco potrebbe supportare USB 3.
 
-![image](assets/14.jpeg)
+![image](assets/14.webp)
 
 La scheda micro SD va qui:
 
-![image](assets/15.jpeg)
+![image](assets/15.webp)
 
 Infine, collega l'alimentazione:
 
-![image](assets/16.jpeg)
+![image](assets/16.webp)
 
 ## Trova l'indirizzo IP del Pi
 
@@ -130,7 +128,7 @@ Usa il tuo indirizzo IP. Il nome utente predefinito per il dispositivo MyNode è
 
 Se hai già utilizzato il tuo Pi in precedenza e hai scambiato la scheda micro SD, otterrai questo errore:
 
-![image](assets/17.jpeg)
+![image](assets/17.webp)
 
 Quello che devi fare è navigare fino al percorso in cui si trova il file "known_hosts" e cancellarlo. È sicuro farlo. Il messaggio di errore ti mostra il percorso. Per me era /Users/MyUserName/.ssh/'
 Non dimenticare il "." prima di ssh, questo indica che è una directory nascosta.
@@ -138,7 +136,7 @@ Quindi prova di nuovo il comando ssh.
 
 Questa volta vedrai questo output:
 
-![image](assets/18.jpeg)
+![image](assets/18.webp)
 
 Il file che hai eliminato è stato eliminato e stai aggiungendo una nuova impronta digitale. Digita sì e <invio>.
 
@@ -146,7 +144,7 @@ Ti verrà chiesto di inserire la password. È "bolt".
 
 Ora hai accesso al terminale del MyNode Pi, senza un monitor, e puoi confermare che tutto è stato caricato correttamente.
 
-![image](assets/19.jpeg)
+![image](assets/19.webp)
 
 ## Accesso tramite browser web
 
@@ -154,37 +152,37 @@ Apri un browser. Deve essere un computer nella tua rete domestica, non puoi farl
 
 Digita l'indirizzo IP nella barra degli indirizzi del browser. Succederà questo:
 
-![image](assets/20.jpeg)
+![image](assets/20.webp)
 
 Inserisci la password "bolt" - cambiala in seguito.
 
 Poi succederà questo:
 
-![image](assets/21.jpeg)
+![image](assets/21.webp)
 
 Scegli "Format Drive"
 
-![image](assets/22.jpeg)
+![image](assets/22.webp)
 
 Ora aspettiamo.
 
 Ad un certo punto ti verrà chiesto se vuoi inserire la tua chiave di prodotto o utilizzare la versione gratuita "community edition" - io mostrerò la versione Premium. Consiglio di pagare per la versione premium se te lo puoi permettere, ne vale davvero la pena.
 
-![image](assets/23.jpeg)
+![image](assets/23.webp)
 
 Vedrai quindi il progresso dei blocchi scaricati. Ci vogliono giorni:
 
-![image](assets/24.jpeg)
+![image](assets/24.webp)
 
 Puoi spegnere la macchina durante il download se necessario. Vai nelle impostazioni e trova il pulsante per spegnere la macchina. Non staccare semplicemente la spina, potresti corrompere l'installazione o il disco rigido.
 
 Assicurati, all'inizio, di andare su "Impostazioni" e disabilitare quicksync. Inizierà il download del blocco iniziale dall'inizio.
 
-![image](assets/25.jpeg)
+![image](assets/25.webp)
 
 Volevo procedere con la creazione della guida, quindi ecco un altro MyNode che ho preparato in precedenza. Ecco come appare la pagina quando la blockchain è sincronizzata e diversi "app" sono stati abilitati e sincronizzati:
 
-![image](assets/26.jpeg)
+![image](assets/26.webp)
 
 Nota che anche il server Electrum deve sincronizzarsi, quindi non appena la blockchain di Bitcoin è sincronizzata, clicca il pulsante per avviare quel processo - ci vogliono uno o due giorni. Tutto il resto viene abilitato in pochi minuti una volta che selezioni di abilitarlo. Puoi cliccare su cose ed esplorare. Non romperai nulla. Se qualcosa si rompe (mi è successo, ma penso perché avevo parti economiche) dovrai riflashare e ricominciare a scaricare. Il problema che ho con MyNode è che se devi "riflashare" devi ricominciare la sincronizzazione della blockchain da zero. Ci sono modi tecnici per aggirare questo problema, ma non è facile.
 

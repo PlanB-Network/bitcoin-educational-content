@@ -6,8 +6,6 @@ description: Set up your VPN
 
 ![image](assets/cover.jpeg)
 
-# LN⚡VPN
-
 LN VPN is a customizable VPN service that only accepts lightning payments. Today, I'll show you how to use it and leave fewer traces when browsing the interwebs.
 
 There are many quality VPN service providers, and we have conducted a comprehensive review in this article (hyperlink). However, LN VPN stands out, and we couldn't miss the opportunity to introduce it to you.
@@ -38,7 +36,7 @@ If you don't have a Lightning Bitcoin wallet yet, no worries, we have created a 
 
 From https://lnvpn.com, you will need to select the country of the VPN tunnel's exit IP and a duration. Once these parameters are set, click on Pay with lightning.
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 A lightning invoice will be displayed, and you just need to scan it with your lightning wallet.
 
@@ -46,7 +44,7 @@ Once the invoice is paid, you will need to wait for a few seconds to up to two m
 The following text has been translated into English while maintaining the same markdown layout as the original text:
 
 The next screen will appear and you just have to click on "Download as File" to receive your config file, which will have a name that looks like lnvpn-xx-xx.conf where "xx" will correspond to the current date.
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 ## Step 2: Activate the tunnel
 

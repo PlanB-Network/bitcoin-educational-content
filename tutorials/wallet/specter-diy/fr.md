@@ -6,8 +6,6 @@ description: Guide d'installation pour Specter DIY
 
 ![cover](assets/cover.jpeg)
 
-# Specter DIY
-
 Spécifications :
 
 - Carte de développement
@@ -17,7 +15,7 @@ Spécifications :
 - Boîtier imprimable en 3D
 - Boîtier minimaliste conçu par Seedsigner
 
-![vue de l'appareil](assets/2.jpeg)
+![vue de l'appareil](assets/2.webp)
 
 ## Guide
 

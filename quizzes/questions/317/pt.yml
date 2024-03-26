@@ -1,0 +1,11 @@
+question: O que significa dizer que o Bitcoin é como um buraco negro?
+answer: Ele não desaparecerá e absorverá tudo em seu caminho ao longo do tempo.
+wrong_answers:
+  - Eventualmente, ele entrará em colapso devido ao seu próprio peso.
+  - É uma ameaça ao sistema financeiro global.
+  - É um mistério que os cientistas ainda estão tentando entender.
+explanation: |
+  A afirmação de que o Bitcoin é como um buraco negro refere-se à sua resiliência
+  e ao seu potencial de se tornar o sistema financeiro dominante, absorvendo todos os outros sistemas
+  em seu caminho.
+reviewed: false

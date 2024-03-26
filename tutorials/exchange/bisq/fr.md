@@ -6,8 +6,6 @@ description: Comment utiliser Bisq, une plateforme d'échange pair à pair
 
 ![cover](assets/cover.jpeg)
 
-# BISQ : échange pair à pair
-
 Bisq est une plateforme de trading décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre les utilisateurs du monde entier, sans avoir besoin d'un intermédiaire.
 
 Site web : https://bisq.network/
@@ -39,7 +37,7 @@ Il est également conseillé de vérifier votre fichier d'installation pour êtr
 
 Si vous souhaitez construire Bisq à partir des sources, voici les instructions (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq est un logiciel libre et open-source auquel vous pouvez contribuer. (https://bisq.wiki/Contributor_checklist)
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 2. Sauvegarder les clés, noter la graine
 
@@ -53,7 +51,7 @@ Nous avons également préparé une courte visite de l'interface de Bisq afin qu
 
 Plus de détails sont disponibles sur le wiki : notez vos mots de passe et sauvegardez votre répertoire de données. (https://bisq.wiki/Backing_up_application_data)
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 3. Créer un compte de paiement
 
@@ -92,37 +90,37 @@ Guide étape par étape par Bitcoiner.guide, alias bitcoinQ&A https://bitcoiner.
 
 3. Maintenant que votre méthode de paiement est configurée, vous pouvez aller dans l'onglet "Acheter BTC" et voir les vendeurs proposant du bitcoin en échange de votre méthode de paiement choisie. Ici, vous pouvez voir le prix du BTC, la différence en pourcentage par rapport au prix "spot" et la quantité de bitcoin en vente de chaque vendeur. Une fois que vous avez trouvé une offre qui vous convient, cliquez sur "Accepter l'offre pour acheter du BTC".
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 4. Cela vous amènera à un écran où vous pourrez vérifier et confirmer les détails avant d'entrer dans la transaction. Lorsque vous êtes satisfait, cliquez sur "étape suivante".
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 5. Vous devez maintenant financer votre portefeuille de transaction avec une petite quantité de bitcoin qui sert de dépôt de garantie. Cela représente généralement environ 15% de la taille de la transaction. Le vendeur doit également verser un dépôt de garantie de son côté.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 6. Vous pouvez maintenant confirmer l'offre et démarrer la transaction.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 7. Vous devrez maintenant attendre très peu de temps pendant que le réseau Bitcoin confirme la transaction de la transaction, ce qui place les dépôts de sécurité des deux parties dans l'escrow multi-sig.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 8. Après une confirmation sur la chaîne, vous verrez ensuite une fenêtre avec les coordonnées du vendeur pour effectuer le paiement.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 9. Une fois que vous avez envoyé le paiement, appuyez sur le bouton pour confirmer que vous l'avez fait, puis attendez que le vendeur confirme qu'il a bien reçu vos fonds. À ce stade, vous pouvez également discuter avec votre partenaire commercial via une messagerie chiffrée de bout en bout en appuyant sur "Ouvrir le chat du trader".
 
 Une fois que le vendeur confirme la réception des fonds, les bitcoins achetés ainsi que votre dépôt de garantie seront libérés dans votre portefeuille Bisq.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 10. Voilà, votre première transaction est maintenant terminée ! Vous pouvez maintenant soit retirer vos bitcoins vers un portefeuille externe, soit les laisser dans votre compte Bisq.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 ## Les compromis liés à l'achat sans KYC (par bitcoin Q&A)
 

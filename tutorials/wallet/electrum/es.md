@@ -12,8 +12,6 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Monedero de Bitcoin Electrum
-
 > "Debo decir que cuando encontré esta guía me sorprendí. Felicitaciones a Arman the Parman por esto. Hubiera sido una lástima no alojarlo aquí y traducirlo a tantos idiomas como sea posible. Honestamente, consejos de ese tipo." Rogzy
 
 ![Monedero de escritorio Electrum (Mac / Linux) - descargar, verificar, conectar a tu nodo.](https://youtu.be/wHmQNcRWdHM)
@@ -38,7 +36,7 @@ Haz clic en la pestaña de Descargas en la parte superior.
 
 Haz clic en el enlace de descarga que corresponda a tu computadora. Cualquier computadora Linux o Mac puede usar el enlace de Python (círculo rojo). Una computadora Linux con un chip Intel o AMD puede usar el Appimage (círculo verde; esto es como un archivo ejecutable de Windows). Un dispositivo Raspberry Pi tiene un microprocesador ARM y solo puede usar la versión de Python (círculo rojo), no Appimage, aunque las Pi ejecutan Linux. El círculo azul es para Windows y el círculo negro es para Mac.
 
-![imagen](assets/1.png)
+![imagen](assets/1.webp)
 
 ## Verificar Electrum
 
@@ -52,13 +50,13 @@ En otras palabras, con las tres entradas (firma, clave pública y archivo de dat
 
 Para obtener la firma, haz clic en el enlace correspondiente al archivo que descargaste (ver flechas de colores):
 
-![imagen](assets/2.png)
+![imagen](assets/2.webp)
 
 Al hacer clic en el enlace, es posible que el archivo se descargue automáticamente en tu carpeta de descargas o que se abra en el navegador. Si se abre en el navegador, debes guardar el archivo. Puedes hacer clic derecho y seleccionar "guardar como". Dependiendo del sistema operativo o navegador, es posible que debas hacer clic derecho en el área de espacio en blanco, no en el texto.
 
 A continuación, se muestra cómo se ve el texto descargado. Puedes ver que hay múltiples firmas, estas son firmas de diferentes personas. Puedes verificar cada una o cualquiera. Te mostraré cómo verificar solo la del desarrollador.
 
-![imagen](assets/3.png)
+![imagen](assets/3.webp)
 
 A continuación, necesitas obtener la clave pública de ThomasV, que es el principal desarrollador. Puedes obtenerla directamente de él, de su cuenta de Keybase, Github, de alguien más, de un servidor de claves o del sitio web de Electrum.
 
@@ -68,7 +66,7 @@ Para simplificarlo por ahora, te mostraré cómo obtenerla del sitio web de todo
 
 Desplázate un poco hacia abajo en la página para encontrar el enlace a la clave pública de ThomasV (círculo rojo a continuación). Haz clic en él y descárgalo, o si se abre algún texto en el navegador, haz clic derecho para guardarlo.
 
-![imagen](assets/4.png)
+![imagen](assets/4.webp)
 
 Ahora tienes 3 archivos nuevos, probablemente todos en la carpeta de descargas. No importa dónde estén, pero el proceso es más fácil si los colocas todos en la misma carpeta.
 
@@ -118,7 +116,7 @@ Ahora tenemos una copia verificada de Electrum que es segura de usar.
 
 Si descargaste la versión de Python, así es como puedes hacer que funcione. Verás esto en la página de descarga:
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Para Linux, es una buena idea actualizar primero tu sistema:
 
@@ -174,7 +172,7 @@ A pesar de que odio Windows más que cualquier otro sistema operativo, este es e
 
 Cuando cargues Electrum por primera vez, se abrirá una ventana como esta:
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Más adelante seleccionaremos tu servidor manualmente, pero por ahora, deja el valor predeterminado y la conexión automática.
 
@@ -182,27 +180,27 @@ A continuación, crea una billetera ficticia; nunca pongas fondos en esta billet
 
 Puedes dejar el nombre como "default_wallet" o cambiarlo a lo que prefieras, y haz clic en siguiente. Más adelante, si tienes varias billeteras, puedes encontrarlas y abrirlas en esta etapa haciendo clic en "Elegir..."
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Elige "Billetera estándar" y <Siguiente>:
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Luego, selecciona "Ya tengo una semilla". No quiero que te acostumbres a crear una semilla de Electrum, ya que utiliza su propio protocolo que no es compatible con otras billeteras; por eso no hacemos clic en "nueva semilla".
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Ve a https://iancoleman.io/bip39/ y crea una semilla ficticia. Primero, cambia el número de palabras a 12 (que es una práctica común), luego haz clic en "generar" y copia las palabras en el cuadro al portapapeles.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Luego pega las palabras en Electrum. Aquí tienes un ejemplo:
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Electrum buscará palabras que coincidan con su propio protocolo. Tenemos que evitar eso. Haz clic en opciones y selecciona "Semilla BIP39":
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 La semilla entonces se vuelve válida. (Antes de hacer esto, Electrum esperaba una semilla de Electrum, por lo que esta semilla se consideraba inválida). Antes de hacer clic en siguiente, fíjate en el texto que dice "Checksum OK". Es importante (para la billetera real que puedas usar más adelante) que veas esto antes de continuar, ya que confirma la validez de la semilla que ingresaste. La advertencia cerca de la parte inferior se puede ignorar, es la queja del desarrollador de Electrum sobre BIP39 y sus afirmaciones "FUD" de que su versión (que no es compatible con otras billeteras) es superior.
 
@@ -214,17 +212,17 @@ Después de hacer clic en OK, volverás a donde escribiste la frase de la semill
 
 Si no solicitaste una frase de contraseña, verás esta pantalla a continuación: más opciones para el tipo de script y la ruta de derivación de tu billetera, sobre las cuales puedes obtener más información aquí (https://armantheparman.com/public-and-private-keys/), pero simplemente deja los valores predeterminados y continúa.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 > Para información adicional: La primera opción te permite elegir entre legacy (direcciones que comienzan con "1"), pay-to-script-hash (direcciones que comienzan con "3") o bech32/native segwit (direcciones que comienzan con "bc1q"). En el momento de escribir esto, Electrum aún no admite taproot (direcciones que comienzan con "bc1p"). La segunda opción en esta ventana te permite modificar la ruta de derivación. Te sugiero que nunca modifiques esto, especialmente antes de entender qué significa. Las personas enfatizarán la importancia de escribir la ruta de derivación para que puedas recuperar tu billetera si es necesario, pero si la dejas como predeterminada, probablemente estarás bien, así que no entres en pánico, pero aún así es una buena práctica escribir la ruta de derivación.
 
 A continuación, se te dará la opción de agregar una CONTRASEÑA. Esto no debe confundirse con "FRASE DE CONTRASEÑA". Una contraseña bloquea el archivo en tu computadora. Una frase de contraseña es parte de la composición de la clave privada. Dado que esta es una billetera ficticia, puedes dejar la contraseña en blanco y continuar.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Obtendrás una ventana emergente sobre las notificaciones de nuevas versiones (te sugiero que selecciones no). La billetera se generará y estará lista para usar (pero recuerda, esta billetera está destinada a ser eliminada, es solo una billetera ficticia).
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Hay algunas cosas que te sugiero hacer para configurar el entorno de software (solo se requiere una vez):
 
@@ -321,13 +319,13 @@ Conectémonos al nodo de Bitaroo: nos dicen que no están recopilando datos. Son
 
 Ve a la Configuración de Red haciendo clic en el círculo en la parte inferior derecha de la ventana de la billetera (el rojo indica no conectado, el verde indica conectado y el azul indica conectado a través de Tor).
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Una vez que hagas clic en el ícono del círculo, aparecerá una ventana emergente: Tu billetera mostrará "conectado a 1 nodo" ya que lo forzamos anteriormente.
 
 Desmarca la casilla "seleccionar servidor automáticamente" y luego en el campo del servidor, escribe los detalles de Bitaroo como se muestra:
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Cierra la ventana y ahora deberíamos estar conectados al nodo de Bitaroo. Para confirmar, el círculo debería ser verde. Haz clic nuevamente en él y verifica que los detalles del servidor no hayan vuelto a cambiar a un nodo aleatorio.
 
@@ -339,7 +337,7 @@ Si tienes tu propio nodo, eso es genial. Si solo tienes Bitcoin Core y no un SER
 > Si ejecutas un paquete de software de nodo como MyNode (el que recomiendo a las personas para comenzar), Raspiblitz (recomendado a medida que te vuelves más avanzado) o Umbrel (personalmente aún no lo recomiendo ya que he experimentado demasiados problemas), entonces podrás conectar tu billetera simplemente ingresando la dirección IP de la computadora (Raspberry Pi) que ejecuta el nodo, seguido de dos puntos y 50002, como se muestra en la imagen de la sección anterior. (Más adelante te mostraré cómo encontrar la dirección IP de tu nodo).
 > Abre la configuración de red (haz clic en el círculo verde o rojo en la esquina inferior derecha). Desmarca la casilla "seleccionar servidor automáticamente" y luego ingresa tu dirección IP como lo he hecho yo, la tuya será diferente, pero los dos puntos y "50002" deberían ser iguales.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Cierra la ventana y ahora deberíamos estar conectados a tu nodo. Para confirmar, haz clic en el círculo nuevamente y verifica que los detalles del servidor no hayan vuelto a cambiar a un nodo aleatorio.
 
@@ -377,11 +375,11 @@ https://mynode.local
 
 Esto accederá al dispositivo y puedes hacer clic en el enlace de configuración (ver mi "círculo" azul a continuación) para mostrar esta pantalla donde se encuentra la dirección IP:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Esta página se cargará y verás la dirección IP del nodo (círculo azul).
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Luego, en el futuro, puedes escribir 192.168.0.150 o http://192.168.0.150 en tu navegador.
 
@@ -400,7 +398,7 @@ Primero, encuentra la dirección IP de cualquier dispositivo en tu red (la compu
 
 En una Mac, la encontrarás en las preferencias de red:
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Nos interesan los primeros 4 elementos (192.168.0), no el cuarto elemento, el "166" que ves en la imagen (el tuyo será diferente).
 
@@ -432,7 +430,7 @@ Uno por uno, avanza hacia 255. Eventualmente, te detendrás en el número correc
 
 Se verá algo así (asegúrate de incluir los dos puntos y el número después):
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 > Es útil saber que estas direcciones IP son INTERNAS a tu red doméstica. Nadie externo puede verlas y no son sensibles. Son como extensiones telefónicas en una gran organización que te dirigen a diferentes teléfonos.
 
@@ -455,7 +453,7 @@ En la nueva billetera que has creado, verás una lista de direcciones. Las verde
 
 Más información sobre las claves privadas de Bitcoin se puede encontrar en esta guía.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Esto es muy diferente a algunas otras billeteras que solo presentan una dirección a la vez.
 
@@ -469,31 +467,31 @@ A continuación, regresa al sitio web de la clave privada de Ian Colman e ingres
 
 Desplázate hacia abajo y cambia la ruta de derivación a BIP84 (segwit) para que coincida con tu billetera Electrum haciendo clic en la pestaña BIP84.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Debajo de eso, verás la clave privada extendida de la cuenta y la clave pública extendida de la cuenta:
 
-![image](assets/25.png)
+![image](assets/25.webp)
 
 Ve a Electrum y compara que coincidan. Hay un menú en la parte superior, billetera -> información:
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 Esto aparecerá:
 
-![image](assets/27.png)
+![image](assets/27.webp)
 
 Observa que las dos claves públicas coinciden.
 
 A continuación, compara las direcciones. Regresa al sitio de Ian Coleman y desplázate hacia abajo:
 
-![image](assets/28.png)
+![image](assets/28.webp)
 
 Observa que coinciden con las direcciones en Electrum.
 
 Ahora verificaremos las direcciones de cambio. Desplázate un poco hacia arriba hasta la ruta de derivación y cambia el último 0 por un 1:
 
-![image](assets/29.png)
+![image](assets/29.webp)
 
 Ahora desplázate hacia abajo y compara que las direcciones coincidan con las direcciones amarillas en Electrum.
 
@@ -515,7 +513,7 @@ Esto tiene varios propósitos.
 
 Abre tu billetera de prueba Electrum y haz clic en la pestaña "Direcciones", luego haz clic derecho en la primera dirección y selecciona Copiar -> Dirección:
 
-![image](assets/30.png)
+![image](assets/30.webp)
 
 La dirección ahora está en la memoria de tu computadora.
 
@@ -523,11 +521,11 @@ Ahora ve a un intercambio donde tengas algunos bitcoins y vamos a retirar una pe
 
 Inicia sesión y haz clic en el botón "Enviar/Recibir", que hoy en día se encuentra en la esquina superior derecha de la página web.
 
-![image](assets/31.png)
+![image](assets/31.webp)
 
 Obviamente no tengo fondos en Coinbase, pero imagina que hay fondos aquí y sigue los pasos: pega la dirección de Electrum en el campo "Para" como lo he hecho. También necesitarás seleccionar una cantidad (sugiero alrededor de 50,000 sats). No pongas un "mensaje opcional": Coinbase está recopilando suficiente información tuya (y vendiéndola), no hay necesidad de ayudarles. Por último, haz clic en "Continuar". Después de eso, no sé qué otras ventanas emergentes aparecerán, estás por tu cuenta, pero el método es similar para todos los intercambios.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 Dependiendo del intercambio, es posible que veas los sats en tu billetera de inmediato o que haya un retraso de horas/días.
 
@@ -539,39 +537,39 @@ Ahora que tenemos un UTXO en nuestra billetera, deberíamos etiquetarlo. Solo no
 
 Necesitaba una donación para esta billetera de prueba, gracias a @Sathoarder por proporcionarme un UTXO en vivo (10,000 sats), y otra persona (anónima) donó a la misma dirección (5000 sats). Observa que hay 15,000 sats en el saldo de la primera dirección y un total de 2 transacciones (columna de la extrema derecha). En la parte inferior, el saldo es de 10,000 sats confirmados y otros 5,000 sats están sin confirmar (todavía en el mempool).
 
-![image](assets/33.png)
+![image](assets/33.webp)
 
 Ahora, si vamos a la pestaña "Monedas", podemos ver dos "monedas recibidas" o UTXOs. Ambos están en la misma dirección.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 
 Volviendo a la pestaña de direcciones, si haces doble clic en el área de "etiquetas" junto a la dirección, podrás ingresar algún texto y luego presionar <enter> para guardar:
 
-![image](assets/35.png)
+![image](assets/35.webp)
 Esta es una buena práctica para que puedas hacer un seguimiento de dónde provienen tus monedas, si son KYC-free o no, y cuánto te costó cada UTXO (en caso de que necesites vender y calcular el impuesto que tu gobierno te robará).
 Idealmente, debes evitar acumular múltiples monedas en la misma dirección. Si decides hacerlo (no lo hagas), puedes etiquetar cada moneda en lugar de todas ellas con la misma etiqueta utilizando el método de dirección. En realidad, no puedes ir a la pestaña "monedas" y editar las etiquetas allí (no, ¡eso sería demasiado intuitivo!). Tienes que ir a la pestaña Historial, encontrar la transacción, etiquetarla y luego verás las etiquetas en la sección de monedas. Cualquier etiqueta que veas en la sección de monedas proviene de las etiquetas de dirección O las etiquetas de historial, pero cualquier etiqueta de historial anula cualquier etiqueta de dirección. Para hacer una copia de seguridad de tus etiquetas en un archivo, puedes exportarlas desde el menú en la parte superior, billetera->etiquetas->exportar.
 
 A continuación, gastemos las monedas de la primera dirección a la segunda dirección. Haz clic derecho en la primera dirección y selecciona "gastar desde" (esto en realidad no es necesario en este escenario, pero imagina que tenemos muchas monedas en muchas direcciones; utilizando esta función, podemos obligar a la billetera a gastar solo las monedas que queremos. Si queremos seleccionar varias monedas en varias direcciones, podemos seleccionar las direcciones con un clic izquierdo mientras mantenemos presionada la tecla de comando, luego hacer clic derecho y seleccionar "gastar desde":
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 Una vez que hagas eso, habrá una barra verde en la parte inferior de la ventana de la billetera que indica la cantidad de monedas que has seleccionado y el total disponible para gastar.
 
 También puedes gastar monedas individuales dentro de una dirección y excluir otras en la misma dirección, pero esto no se recomienda porque estás dejando monedas en una dirección que ha sido debilitada criptográficamente debido al gasto de una de las monedas (otra razón para no poner múltiples monedas en una dirección, además de razones de privacidad, es que dado que debes gastarlas todas si gastas una, esto se vuelve innecesariamente costoso). Así es cómo seleccionar una sola moneda de una dirección compartida, pero no lo hagas:
 
-![image](assets/37.png)
+![image](assets/37.webp)
 
 Ahora, tenemos las dos monedas seleccionadas para gastar. A continuación, decidimos dónde gastarlas. Enviémoslas a la segunda dirección. Necesitaremos copiar la dirección de la siguiente manera:
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 Luego ve a la pestaña "Enviar" y pega la segunda dirección en el campo "pagar a". No es necesario agregar una descripción; podrías hacerlo, pero puedes hacerlo más tarde editando las etiquetas. Para la cantidad, selecciona "Máx" para gastar todas las monedas que hemos seleccionado. Luego haz clic en "Pagar" y luego haz clic en el botón "avanzado" en la ventana emergente que aparece.
 
-![image](assets/39.png)
+![image](assets/39.webp)
 
 Siempre haz clic en "avanzado" en esta etapa para que podamos tener un control preciso y verificar exactamente qué hay en la transacción. Aquí está la transacción:
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 Vemos dos ventanas internas blancas. La de arriba es la ventana de entradas (qué monedas se están gastando) y la de abajo es la de salidas (a dónde van las monedas).
 Nota, el estado (arriba a la izquierda) es "no firmado" por ahora. El "Monto enviado" es 0 porque las monedas se están transfiriendo dentro de la billetera. La tarifa es de 481 sats. Ten en cuenta que si fuera 480 sats, el cero final se eliminaría, así: 0.0000048 y para el ojo cansado, esto puede parecer 48 sats, ten cuidado (algo que los desarrolladores de Electrum deberían solucionar).
@@ -579,7 +577,7 @@ El tamaño de la transacción se refiere al tamaño de los datos en bytes, no a 
 
 En la parte inferior, tenemos algunas herramientas de ajuste de tarifas de minería elegantes. Todo lo que necesitas hacer para transferencias internas es establecer la tarifa mínima de 1 sat/byte. Simplemente escribe manualmente el número en el campo de tarifa objetivo. Para verificar una tarifa adecuada para un pago externo, puedes consultar https://mempool.space para ver qué tan ocupado está el mempool y se muestran algunas tarifas sugeridas.
 
-![image](assets/41.png)
+![image](assets/41.webp)
 
 He seleccionado 1 sat/byte.
 
@@ -597,7 +595,7 @@ Si ajustamos la tarifa de minería, el valor de salida cambiará automáticament
 
 Una vez que verifiques todo en la transacción y estés seguro de que estás satisfecho con las monedas que estás gastando y a dónde van las monedas, puedes hacer clic en "finalizar".
 
-![image](assets/42.png)
+![image](assets/42.webp)
 Después de hacer clic en "finalizar", ya no puedes hacer ediciones. Si necesitas hacer cambios, debes cerrar esto y comenzar de nuevo. Observa que el botón "finalizar" ha cambiado a "exportar" y han aparecido nuevos botones: "guardar", "combinar", "firmar" y "transmitir". El botón "transmitir" está en gris porque la transacción no está firmada y, por lo tanto, no es válida en esta etapa.
 Una vez que hagas clic en "firmar", si tienes una contraseña para la billetera, se te pedirá que la ingreses, y luego el estado (arriba a la derecha) cambiará de "No firmada" a "Firmada". Luego, el botón "Transmitir" estará disponible.
 
@@ -609,15 +607,15 @@ Algo importante a tener en cuenta es que, en lugar de transmitir, podemos guarda
 
 Haz clic en el botón "exportar" (paradójicamente, NO hagas clic en el botón "guardar") y verás varias opciones. La transacción está codificada con texto y, por lo tanto, se puede guardar de varias formas.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 Guardar en un código QR es muy interesante. Si eliges esto, aparecerá un código QR:
 
-![image](assets/44.png)
+![image](assets/44.webp)
 
 Luego puedes tomar una foto del código QR. Hay varias cosas que puedes hacer con esto, pero por ahora, digamos que lo estás cargando de nuevo en la billetera más tarde. Puedes cerrar Electrum, cargar la billetera nuevamente e ir al menú Herramientas:
 
-![image](assets/45.png)
+![image](assets/45.webp)
 
 Esto abrirá la cámara de tu computadora. Luego, muestras a la cámara la foto del código QR en tu teléfono y esto cargará la transacción nuevamente, exactamente como la dejaste.
 
@@ -642,11 +640,11 @@ Ten en cuenta que al ajustar la tarifa de minería, el monto de salida de cambio
 
 Esta es una característica realmente interesante de Electrum. Puedes acceder a ella de la siguiente manera.
 
-![imagen](assets/46.png)
+![imagen](assets/46.webp)
 
 Luego puedes ingresar múltiples destinos para el saldo UTXO que estás gastando, así:
 
-![imagen](assets/47.png)
+![imagen](assets/47.webp)
 
 Pega la dirección, escribe una coma, luego un espacio, luego el monto, luego <enter>, y hazlo de nuevo. NO INGRESES MONTOS EN LAS VENTANAS "MONTO" - Electrum completará el total aquí a medida que escribas los montos individuales en la ventana "Pagar a".
 
@@ -676,11 +674,11 @@ FRASE DE CONTRASEÑA: "Craig Wright es un mentiroso y un estafador y debería es
 
 La frase de contraseña puede tener hasta 100 caracteres y idealmente no debe ser ambigua ni demasiado corta. La que he usado es solo por diversión. Generalmente sugiero evitar letras mayúsculas y símbolos para reducir el estrés al intentar combinar si alguna vez tienes problemas para recordar tu frase de contraseña.
 
-![image](assets/48.png)
+![image](assets/48.webp)
 
 A continuación, en Electrum, ve al menú archivo->nuevo/restaurar. Escribe un nombre único para crear una nueva billetera y haz clic en "siguiente".
 
-![image](assets/49.png)
+![image](assets/49.webp)
 
 Los siguientes pasos ya deberías estar familiarizado con ellos, así que los enumeraré sin imágenes:
 
@@ -694,11 +692,11 @@ Los siguientes pasos ya deberías estar familiarizado con ellos, así que los en
 
 Ahora regresa al sitio de Ian Coleman, baja a la sección "ruta de derivación" y haz clic en la pestaña "BIP 84" para seleccionar las mismas opciones de script que los valores predeterminados en Electrum (Segwit nativo).
 
-![image](assets/50.png)
+![image](assets/50.webp)
 
 Las claves privadas y públicas extendidas están justo debajo y cambian cuando haces cambios en la ruta de derivación (o cualquier otra cosa en la página).
 
-![image](assets/51.png)
+![image](assets/51.webp)
 
 También verás las claves privadas/públicas extendidas "BIP32" - por ahora, debes ignorarlas.
 
@@ -758,7 +756,7 @@ Algunos sistemas operativos abrirán automáticamente el explorador de archivos 
 
 Abra Electrum. Si ya está abierto con otra billetera, seleccione archivo –> nuevo. Estamos buscando esta ventana:
 
-![image](assets/52.png)
+![image](assets/52.webp)
 
 Aquí está el truco, no es intuitivo. Haga clic en "elegir". Luego navegue por el sistema de archivos en la tarjeta microSD y encuentre el archivo de billetera y ábralo.
 
@@ -791,7 +789,7 @@ sudo nano /etc/udev/rules.d
 ```
 
 Un editor de texto se abrirá. Copia el texto desde aquí y pégalo en el archivo rules.d, guarda y cierra.
-![image](assets/53.png)
+![image](assets/53.webp)
 
 Luego ejecuta estos comandos uno tras otro:
 
@@ -857,7 +855,7 @@ Para hacer esto, puedes copiar los archivos del programa en una unidad USB y tam
 
 Como expliqué anteriormente, en la pestaña de direcciones hay una columna de etiquetas. Puedes hacer doble clic allí e ingresar notas para ti mismo (solo en tu computadora, no es público ni está en la cadena de bloques).
 
-![image](assets/54.png)
+![image](assets/54.webp)
 
 Cuando muevas tu billetera Electrum a otra computadora, es posible que no desees perder todas estas notas. Puedes hacer una copia de seguridad de ellas en un archivo utilizando el menú wallet–>labels–>export, y luego en la nueva computadora, usar wallet–>labels–>import.
 

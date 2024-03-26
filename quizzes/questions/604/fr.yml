@@ -1,0 +1,9 @@
+question: Quel est le terme pour une entreprise qui continue à fonctionner principalement grâce à des emprunts à faible coût, malgré son insolvabilité ou sa proximité de la faillite dans des conditions de marché normales ?
+answer: Entreprise zombie
+wrong_answers:
+  - Entreprise fantôme
+  - Entreprise vampire
+  - Entreprise fantôme
+explanation: |
+  Une entreprise zombie est une entreprise qui, dans des conditions de marché normales, serait insolvable ou proche de la faillite, mais qui continue à fonctionner principalement grâce à des emprunts à faible coût.
+reviewed: false

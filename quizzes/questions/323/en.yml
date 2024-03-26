@@ -1,0 +1,10 @@
+question: What is a cold wallet in the context of Bitcoin?
+answer: A wallet for storing large amounts of Bitcoin offline
+wrong_answers:
+  - A wallet that is used for transactions in cold climates
+  - A wallet that is used for storing small amounts of Bitcoin
+  - A wallet that is used for storing Bitcoin for a short period of time
+explanation: |
+  A cold wallet is a wallet for storing large amounts of Bitcoin offline.
+  It is considered more secure than a hot wallet as it is less vulnerable to hacking.
+reviewed: false

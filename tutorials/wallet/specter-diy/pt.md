@@ -6,8 +6,6 @@ description: Guia de configuração para Specter DIY
 
 ![capa](assets/cover.jpeg)
 
-# Specter DIY
-
 Especificação:
 
 - Placa de desenvolvedor
@@ -17,7 +15,7 @@ Especificação:
 - Estojo imprimível em 3D
 - Estojo básico projetado por Seedsigner
 
-![visualização do dispositivo](assets/2.jpeg)
+![visualização do dispositivo](assets/2.webp)
 
 ## Guia
 

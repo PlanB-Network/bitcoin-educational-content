@@ -1,0 +1,9 @@
+question: ¿Qué es el FOMO en el contexto de la inversión en Bitcoin?
+answer: El FOMO (Fear Of Missing Out) se refiere al miedo a perderse algo, lo cual puede llevar a inversiones impulsivas.
+wrong_answers:
+  - Miedo a perder oportunidades, lo cual puede llevar a dudar a la hora de invertir.
+  - Miedo a las oscilaciones del mercado, lo cual puede generar ansiedad por la volatilidad del mercado.
+  - Miedo a la sobrecarga monetaria, lo cual puede llevar a una sobreinversión.
+explanation: |
+  En el contexto de la inversión en Bitcoin, el FOMO se refiere al miedo a perderse oportunidades. Esto puede llevar a inversiones impulsivas, ya que los inversores se apresuran a comprar Bitcoin por temor a perderse posibles ganancias.
+reviewed: false

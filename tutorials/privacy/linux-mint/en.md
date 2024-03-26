@@ -1,12 +1,10 @@
 ---
-name: Installing Linux Mint
+name: Linux Mint
 
 description: Set up a computer for bitcoin transactions
 ---
 
 ![image](assets/cover.jpeg)
-
-# A Computer for Bitcoin Transactions (Installing Linux Mint)
 
 ## What’s wrong if you use a regular computer?
 
@@ -45,11 +43,11 @@ Avoid:
 
 Instead, look for a Windows 11 laptop (Currently Windows 11 is the latest release. We’ll be getting rid of that software, don’t worry.). I searched on amazon.com for “Windows 11 Laptop” and found this good example:
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 The price of this one above is good. The specs are good enough. It has a build-in camera which we can use for QR code PSBT transactions (otherwise you’d have to buy a USB camera to do that). Don’t worry about the fact that it’s not a well-recognised brand (it’s cheap). If you want a better brand, it’ll cost you, eg:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Some of the cheaper ones have only 64Gb of drive space; I haven’t tested laptops with drives that small – it probably is OK to have 64Gb, but it might be pushing it.
 
@@ -86,27 +84,27 @@ We are going to use any computer to flash the operating system to a memory stick
 
 Get one of these things:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Or you can use something like this:
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Next, navigate to linuxmint.com
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Hover the mouse over the Download menu at the top and then click the link, “Linux Mint 20.3” or whatever version is the latest recommended one at the time you do this.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 There will be a few “flavours” to choose from. Go with “Cinnamon” to follow along with this guide. Click the Download button.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 On the next page, you can scroll down to see the mirrors (Mirrors are various servers that hold a copy of the file we want). You can verify the download using SHA256 and gpg (recommended), but I’m going to skip explaining that here as I have written guides on this already.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Choose a mirror that’s closest to you and click its link (the green text in the mirror column). The file will begin downloading – the version I’m downloading is 2.1 gigabytes.
 
@@ -114,7 +112,7 @@ Once it’s downloaded, you can flash the file to a portable memory device and m
 
 Then run it:
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Click flash from file, and select the LinuxMint file you downloaded.
 
@@ -133,13 +131,13 @@ Reboot the computer and it should load from the USB memory device. We can not in
 
 When you get to the following screen, select “OEM install (for manufacturers)”. If you instead choose “Start Linux Mint”, you’ll get a Linux Mint session loaded off the memory device, but once you shut down the computer, none of your information is saved – it’s basically a temporary session so you can try it out.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 You will be taken through a graphical wizard which will ask you a number of questions that should be straightforward. One will be Languange settings, another will be your home internet network connection and password. If prompted to install additional software, reject it. When you get to the question about the installation type, some people may hesitate – you need to choose “Erase disk and install Linux Mint”. Also, do not encrypt the drive and do not select LVM.
 
 You will eventually get to the desktop. At this point, you are not quite finished. You are actually acting as the manufacturer (i.e. someone building a computer and setting up Linux for the customer). You need to double click the desktop icon, “Install Linux Mint”, to finalise it.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Remember to remove the memory stick, and then reboot. After reboot, you’ll be using the operating system for the first time as a new user. Congratulations.
 

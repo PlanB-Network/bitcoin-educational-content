@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal problema con el sistema de reserva fraccionaria?
+answer: El principal problema con el sistema de reserva fraccionaria es que las retiradas significativas de un banco en particular pueden llevar potencialmente a su quiebra.
+wrong_answers:
+  - El principal problema con el sistema de reserva fraccionaria es que impide a los bancos prestar dinero.
+  - El principal problema con el sistema de reserva fraccionaria es que requiere que los bancos mantengan más reservas de las que reciben en depósitos.
+  - El principal problema con el sistema de reserva fraccionaria es que impide a los bancos crear nuevo dinero.
+explanation: |
+  En un sistema de reserva fraccionaria, los bancos solo mantienen una fracción de los fondos de sus depositantes en reserva, prestando el resto. Si muchos clientes retiran sus fondos simultáneamente, el banco puede no tener suficientes reservas para satisfacer estas demandas, lo que podría llevar a la quiebra.
+reviewed: false

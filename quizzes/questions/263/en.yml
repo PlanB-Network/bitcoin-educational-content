@@ -1,0 +1,10 @@
+question: What is a common characteristic of scams in the cryptocurrency domain?
+answer: Promises of unrealistic returns.
+wrong_answers:
+  - Promises of physical goods.
+  - Promises of software products.
+  - Promises of fiat currency.
+explanation: |
+  Scams in the cryptocurrency domain often promise unrealistic returns.
+  It is crucial not to blindly trust, especially when it comes to an internet banner.
+reviewed: false

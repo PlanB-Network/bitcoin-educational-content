@@ -1,0 +1,10 @@
+question: What will miners rely on for compensation after all 21 million bitcoins have been created?
+answer: Miners will rely solely on transaction fees for compensation.
+wrong_answers:
+  - Miners will rely solely on block rewards for compensation.
+  - Miners will rely solely on transaction confirmations for compensation.
+  - Miners will rely solely on network fees for compensation.
+explanation: |
+  By 2140, no new bitcoins will be created. At this point, miners will
+  rely solely on transaction fees for compensation.
+reviewed: false

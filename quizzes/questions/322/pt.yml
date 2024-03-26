@@ -1,0 +1,9 @@
+question: O que significa se você não possui a chave privada da sua carteira de Bitcoin?
+answer: Um terceiro é responsável pela segurança dos seus bitcoins.
+wrong_answers:
+  - Você perdeu todos os seus bitcoins.
+  - Você não pode mais fazer transações com seus bitcoins.
+  - Seus bitcoins são automaticamente convertidos para outra criptomoeda.
+explanation: |
+  Se você não possui a chave privada da sua carteira de Bitcoin, significa que um terceiro é responsável pela segurança dos seus bitcoins. Eles estão sujeitos aos mesmos riscos que as plataformas de câmbio, como hacking, apreensão, regulamentação ou falência.
+reviewed: false

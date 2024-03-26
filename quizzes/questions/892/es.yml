@@ -1,0 +1,12 @@
+question: ¿Cuál es el propósito último de la actividad económica según Carl Menger?
+answer: El propósito último de la actividad económica es el consumo.
+wrong_answers:
+  - El propósito último de la actividad económica es la producción.
+  - El propósito último de la actividad económica es el ahorro.
+  - El propósito último de la actividad económica es la inversión.
+explanation: |
+  Según Carl Menger, los bienes solo se consideran bienes económicos (valorados)
+  porque sirven como medios para fines elegidos y valorados por los individuos. Por lo tanto,
+  para Menger, el punto de partida del análisis económico son los bienes de consumo, o bienes finales,
+  ya que representan el propósito último de la actividad económica.
+reviewed: false

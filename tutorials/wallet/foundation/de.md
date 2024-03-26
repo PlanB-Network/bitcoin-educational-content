@@ -6,8 +6,6 @@ description: Anleitung zur Einrichtung Ihres Foundation-Geräts
 
 ![cover](assets/cover.jpeg)
 
-# Fondation
-
 Mit der Passport-Hardware-Wallet und der Envoy-Mobile-Wallet ist die Selbstverwahrung endlich erreichbar. https://foundationdevices.com/
 
 Hauptmerkmale
@@ -19,7 +17,7 @@ Hauptmerkmale
 - Benutzer austauschbarer 1200 mAh Lithium-Ionen-Akku im Nokia BL-5C-Format (im Lieferumfang enthalten).
 - Sicherheitsfunktionen: Airgapped, einfache Passworteingabe, Sicherheitsleuchten, Anti-Phishing-Wörter, Sicherheitsvalidierung.
 
-![device](assets/1.jpeg)
+![device](assets/1.webp)
 
 # Video-Tutorial
 

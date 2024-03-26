@@ -1,0 +1,9 @@
+question: Qual è la principale differenza tra l'analisi austriaca e quella dei monetaristi e dei keynesiani?
+answer: L'analisi austriaca presta particolare attenzione alle diverse fasi della produzione e alla struttura dei prezzi relativi, mentre i monetaristi e i keynesiani si fermano alle variabili aggregate come livelli di occupazione, PIL o indice dei prezzi al consumo.
+wrong_answers:
+  - L'analisi austriaca si ferma alle variabili aggregate come livelli di occupazione, PIL o indice dei prezzi al consumo, mentre i monetaristi e i keynesiani prestano particolare attenzione alle diverse fasi della produzione e alla struttura dei prezzi relativi.
+  - L'analisi austriaca e quella dei monetaristi e dei keynesiani sono essenzialmente le stesse.
+  - L'analisi austriaca si concentra sugli eventi esterni e sugli animal spirits, mentre i monetaristi e i keynesiani si concentrano sulla dinamica endogena del sistema bancario a riserva frazionaria.
+explanation: |
+  La principale differenza tra l'analisi austriaca e quella dei monetaristi e dei keynesiani è che la prima presta particolare attenzione alle diverse fasi della produzione e alla struttura dei prezzi relativi, mentre quest'ultima si ferma alle variabili aggregate come livelli di occupazione, PIL o indice dei prezzi al consumo.
+reviewed: false

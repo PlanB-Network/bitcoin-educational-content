@@ -1,0 +1,12 @@
+question: Qual é a solução sugerida para compras recorrentes de Bitcoin sem estresse?
+answer: Use uma solução de DCA (Dollar Cost Averaging).
+wrong_answers:
+  - Use uma carteira online (hot wallet).
+  - Use uma carteira offline (cold wallet).
+  - Use uma solução sem KYC (Know Your Customer).
+explanation: |
+  A solução sugerida para compras recorrentes de Bitcoin sem estresse
+  é usar uma solução de DCA (Dollar Cost Averaging). Essa estratégia envolve dividir
+  o valor total que você deseja investir em compras periódicas para reduzir o impacto
+  da volatilidade.
+reviewed: false

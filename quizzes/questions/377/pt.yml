@@ -1,0 +1,9 @@
+question: Qual é o objetivo de um nó Bitcoin no contexto da Lightning Network?
+answer: Para ajudar a entender e explorar os novos aspectos do Bitcoin trazidos pela Lightning Network.
+wrong_answers:
+  - Para minerar novos Bitcoins.
+  - Para negociar Bitcoins.
+  - Para armazenar Bitcoins.
+explanation: |
+  Um nó Bitcoin no contexto da Lightning Network é usado para entender e explorar os novos aspectos do Bitcoin trazidos pela Lightning Network. Ele não minera novos Bitcoins, negocia Bitcoins ou armazena Bitcoins.
+reviewed: false

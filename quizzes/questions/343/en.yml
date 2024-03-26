@@ -1,0 +1,11 @@
+question: What is a hot wallet in the context of Bitcoin?
+answer: A digital wallet used for storing, sending, and receiving Bitcoin
+wrong_answers:
+  - A physical wallet used for storing Bitcoin
+  - A method of buying Bitcoin
+  - A Bitcoin exchange platform
+explanation: |
+  In the context of Bitcoin, a hot wallet is a digital wallet used for
+  storing, sending, and receiving Bitcoin. It is typically connected to the internet
+  and is therefore less secure than a cold wallet.
+reviewed: false

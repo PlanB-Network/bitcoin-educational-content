@@ -6,8 +6,6 @@ description: How to use Bisq, a peer to peer exchange
 
 ![cover](assets/cover.jpeg)
 
-# BISQ: peer to peer exchange
-
 Bisq is a decentralized trading platform for digital assets, primarily Bitcoin. It provides direct, secure, and private transactions between users worldwide without the need for an intermediary.
 
 Website: https://bisq.network/
@@ -38,7 +36,7 @@ It's also a good idea to verify your installer file to be extra sure it hasn't b
 
 If you'd like to build Bisq from source, here are directions (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq is free/libre open-source software that you can contribute to. (https://bisq.wiki/Contributor_checklist)
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 2. Back Up Keys, Write Down Seed
 
@@ -52,7 +50,7 @@ We've also prepared a short tour of the Bisq interface so you can make the most 
 More details are on the wiki: writing down your seed words and backing up
 your data directory. (https://bisq.wiki/Backing_up_application_data)
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 3. Create a Payment Account
 
@@ -89,37 +87,37 @@ Step by Step guide by Bitcoiner.guide, aka bitcoinQ&A https://bitcoiner.guide/bi
 
 3. Now that your payment method is setup you can go to the ‘Buy BTC’ tab and see the sellers offering bitcoin in exchange for your chosen payment method. Here you can see the BTC price, percentage difference compared to the ‘spot’ price and the quantity of bitcoin for sale from each seller. Once you have found an offer you like, click ‘Take offer to buy BTC’.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 4. This will take you through to a screen this screen for you to check and confirm details before entering the trade. When you are happy, hit ‘next step’.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 5. You now need to fund your trade wallet with a small amount of bitcoin which acts as a security deposit. This is usually around 15% of the trade size. The seller also has to post a deposit on their side.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 6. You can now confirm the offer and start the trade
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 7. You will now have a very short wait while the Bitcoin network confirms the trade’s transaction which puts both parties security deposits into the escrow multi-sig.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 8. After one confirmation on chain you will then see a window with the sellers details for you to send payment to.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 9. Once you have sent the payment, press the button to confirm you have done so and then wait for the seller to confirm they have received your funds. At this point you can also chat with your trading partner via end to end encrypted messaging buy pressing ‘Open trader chat’.
 
 Once the seller confirms receipt of funds, the purchased bitcoin along with your security deposit will be released into your Bisq wallet.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 10. Thats it, your first trade is now complete! You can now either withdraw your bitcoin to an external wallet or leave in your Bisq account.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 ## The tradeoffs with buying non-KYC (by bitcoin Q&A)
 

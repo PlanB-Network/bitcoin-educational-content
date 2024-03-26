@@ -1,0 +1,9 @@
+question: Quel est le terme utilisé pour désigner l'argent d'urgence utilisé en Allemagne pendant la crise économique ?
+answer: Notgeld
+wrong_answers:
+  - Reichsmark
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Pendant la crise économique en Allemagne, le "Notgeld" (argent d'urgence) était utilisé pour pallier une pénurie de monnaie courante.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel est le risque de ne pas posséder la clé privée de votre portefeuille Bitcoin ?
+answer: Vos bitcoins sont exposés à des risques tels que le piratage, la saisie, la réglementation ou la faillite.
+wrong_answers:
+  - Vos bitcoins seront automatiquement convertis en une autre cryptomonnaie.
+  - Vos bitcoins perdront leur valeur.
+  - Vos bitcoins seront transférés vers un autre portefeuille.
+explanation: |
+  Si vous ne possédez pas la clé privée de votre portefeuille Bitcoin, vos bitcoins sont exposés à des risques tels que le piratage, la saisie, la réglementation ou la faillite.
+reviewed: false

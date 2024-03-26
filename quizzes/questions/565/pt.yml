@@ -1,0 +1,9 @@
+question: Qual é o impacto de um aumento na oferta monetária na inflação e deflação em um sistema de oferta monetária fixa?
+answer: Um aumento na oferta monetária anula a deflação potencial causada por um aumento na produção.
+wrong_answers:
+  - Um aumento na oferta monetária leva à deflação.
+  - Um aumento na oferta monetária não tem impacto na inflação ou deflação.
+  - Um aumento na oferta monetária leva a uma diminuição na produção.
+explanation: |
+  O capítulo explica que em um sistema de oferta monetária fixa, um aumento na produção teoricamente deveria levar à deflação, ou seja, uma diminuição nos preços, pois haveria mais bens e serviços disponíveis. No entanto, no atual sistema monetário fiduciário, um aumento na oferta monetária anula a deflação potencial causada por um aumento na produção.
+reviewed: false

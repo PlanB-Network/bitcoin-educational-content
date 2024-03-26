@@ -6,8 +6,6 @@ description: Schritt-für-Schritt-Anleitung für HODLHODL
 
 ![image](assets/cover.jpeg)
 
-# HODL HODL
-
 Hodl Hodl ist eine dezentralisierte Bitcoin-Börse, die Benutzerkontrolle und Sicherheit priorisiert. Im Gegensatz zu traditionellen Börsen arbeitet sie nach einem Peer-to-Peer-Modell und ermöglicht direkte Trades zwischen Benutzern. Mit ihrem Multi-Signatur-Eskrow-System gewährleistet Hodl Hodl die Sicherheit von Geldern während Transaktionen. Die Plattform unterstützt auch verschiedene Zahlungsmethoden und bietet Handelsoptionen wie Differenzkontrakte (CFDs) an.
 
 ![ HodlHodl - Bitcoin kaufen und verkaufen OHNE KYC ](https://youtu.be/FmyYxrZM3Ms)
@@ -18,7 +16,7 @@ https://hodlhodl.com/pages/faq_help
 
 Ihre Reise mit HodlHodl beginnen: Eine Schritt-für-Schritt-Anleitung
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 HodlHodl ist eine Peer-to-Peer (P2P) Kryptowährungsbörse, die ausschließlich eine digitale Währung unterstützt, aber die Flexibilität bietet, in jeder Währung zu handeln, einschließlich aller Fiat-Währungen und Altcoins. Ein wesentlicher Aspekt dieser P2P-Plattform ist, dass sie keine Ein- oder Auszahlungsgebühren erhebt, sondern Handelsgebühren von 0,5% bis 0,6% je nach Benutzerverifizierungsstatus erhebt.
 Benutzer haben den Vorteil einer breiten Palette von Zahlungsmethoden, was HodlHodl zu einer der vielseitigsten P2P-Plattformen macht. Einige der häufig verwendeten Zahlungsmethoden sind SWIFT, SEPA, Banküberweisungen, Kreditkartentransaktionen, PayPal, Venmo, MoneyGram und Western Union. Die verfügbaren Zahlungsoptionen hängen jedoch von der Akzeptanz des Verkäufers ab.
@@ -29,7 +27,7 @@ Eine der herausragenden Funktionen von HodlHodl sind die variablen Handelslimits
 
 Um ein eigenes Konto zu erstellen, klicken Sie einfach auf "Registrieren", das sich in der rechten Ecke auf der Startseite der Plattform befindet. Wie erwartet müssen Sie eine E-Mail-Adresse eingeben, einen Benutzernamen wählen und ein Zahlungspasswort festlegen. Darüber hinaus werden Sie aufgefordert, Ihre lokale Zeitzone festzulegen, da dies dazu beiträgt, Ihre Betriebsstunden zu optimieren und den Transaktionsprozess zu erleichtern.
 
-![cover](assets/11.png)
+![cover](assets/11.webp)
 
 ### Passen Sie Ihr Profil an
 
@@ -52,43 +50,43 @@ Anleitung von Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 1. Besuchen Sie hodlhodl.com und erstellen Sie Ihr Konto. Die einzigen Details, die Sie angeben müssen, sind ein Benutzername und eine E-Mail-Adresse. Sie gelangen dann zur Startseite.
 
-![cover](assets/11.png)
+![cover](assets/11.webp)
 
 2. Klicken Sie auf "BTC kaufen" in der Website-Navigation.
 
-![cover](assets/12.png)
+![cover](assets/12.webp)
 
 3. Wählen Sie Ihren gewünschten Zahlungstyp und -methode aus. Hier können Sie auch einen bestimmten Betrag angeben, falls erforderlich.
 
-![cover](assets/13.png)
+![cover](assets/13.webp)
 
 4. Wählen Sie Ihr gewünschtes Angebot aus. Sie können dann die Handelsdetails überprüfen und auch die Aktivitätsberichte und Bewertungen der Teilnehmer lesen.
 
-![cover](assets/14.png)
+![cover](assets/14.webp)
 
 5. Sobald Sie zufrieden sind, können Sie angeben, wie viel Sie kaufen möchten, die Adresse eingeben, an die Sie die Bitcoin senden möchten, und die vom Verkäufer beworbene Zahlungsmethode bestätigen. Klicken Sie auf "Angebot annehmen und Vertrag erstellen".
 
-![cover](assets/15.png)
+![cover](assets/15.webp)
 
 6. Sie haben jetzt Ihren Vertrag erstellt und müssen auf "Escrow generieren" klicken, wo Sie aufgefordert werden, ein Zahlungspasswort zu erstellen. Das Zahlungspasswort ist ein Verschlüsselungsschlüssel für das Escrow-Schlüsselpaar des Benutzers. Es wird verwendet, um Bitcoin in Escrow einzuzahlen oder freizugeben.
 
-![cover](assets/16.png)
+![cover](assets/16.webp)
 
 7. Jetzt müssen Sie darauf warten, dass der Verkäufer seine Bitcoin in die Escrow-Wallet einzahlt. Nachdem Sie den Vertrag gestartet haben, können Sie über das Chat-Fenster auf der rechten Seite der Seite mit dem Verkäufer chatten.
 
-![cover](assets/17.png)
+![cover](assets/17.webp)
 
 8. Sobald der Verkäufer seine Mittel in die Escrow eingezahlt hat, sehen Sie diesen Bildschirm, der Sie darauf hinweist, Ihr Geld nicht zu senden, bis eine ausreichende Anzahl von Blockchain-Bestätigungen vorliegt (dies variiert je nach Handelsbedingungen). Sie können den Fortschritt der Einzahlungstransaktion des Verkäufers über den blauen Link "Einzahlungstransaktions-ID" überprüfen.
 
-![cover](assets/18.png)
+![cover](assets/18.webp)
 
 9. Sobald bestätigt, werden Sie benachrichtigt und können dann die Gelder an den Verkäufer senden, gemäß den von ihm bereitgestellten Informationen. Sobald Sie dies getan haben, klicken Sie auf "Ich habe die Zahlung gesendet".
 
-![cover](assets/19.png)
+![cover](assets/19.webp)
 
 10. Sie müssen dann darauf warten, dass der Verkäufer bestätigt, dass er die Gelder erhalten hat. Zu diesem Zeitpunkt wird die Bitcoin an die Adresse freigegeben, die Sie zu Beginn des Vertrags angegeben haben. Sie haben auch die Möglichkeit, Ihren Teilnehmer zu bewerten.
 
-![cover](assets/20.png)
+![cover](assets/20.webp)
 
 Herzlichen Glückwunsch, Sie haben sich gerade einige nicht-KYC-Bitcoin gekauft!
 
@@ -99,13 +97,13 @@ Zwei abschließende Tipps
 
 ## Verleihoption
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 Diese Anleitung hilft Ihnen dabei, Ihre ersten Schritte auf der Lend at Hodl Hodl-Plattform zu machen.
 
 > QUELLE/ https://medium.com/hodl-hodl/quick-guide-to-lend-or-borrow-on-lend-at-hodl-hodl-5a535d526217
 
-![image](assets/1.png)
+![image](assets/1.webp)
 Lend at Hodl Hodl (lend.hodlhodl.com) ist eine Plattform, die entwickelt wurde, damit Benutzer aus der ganzen Welt untereinander verleihen oder sich Geld leihen können, ohne einer dritten Partei vertrauen zu müssen oder einen Verifizierungsprozess abzuschließen.
 
 LEND ermöglicht es Ihnen, verschiedene Stablecoins oder Kryptowährungen zu verleihen oder sich mit BTC als Sicherheit Geld zu leihen. (Zurzeit ist es nicht möglich, BTC zu verleihen, obwohl diese Möglichkeit für die Zukunft entwickelt wird).
@@ -116,7 +114,7 @@ Zuerst suchen wir unter den vorhandenen Angeboten nach einem, das unseren Bedür
 
 Weiter unten auf der Hauptseite finden wir das Suchfeld:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Das Suchwerkzeug zeigt uns standardmäßig die Angebote zum Ausleihen an.
 
@@ -132,7 +130,7 @@ Durch Klicken auf die Schaltfläche "Angebote finden" gibt die Plattform alle An
 
 Nehmen wir an, wir wählen das folgende Angebot:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Der Benutzer "NateN-09" bietet an, zwischen 100 und 500 USDT über das Liquid-Netzwerk für eine Woche zu verleihen, zu einem Zinssatz von 0,50% (beachten Sie, dass der Zinssatz für die gesamte Vertragslaufzeit gilt).
 
@@ -142,7 +140,7 @@ Das prozentuale Verhältnis (LTV) zwischen dem Wert der Sicherheit und dem Betra
 
 Sobald wir das Angebot eingeben, sehen wir die Details wie folgt:
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Wenn das Angebot angemessen erscheint und wir uns entscheiden, es anzunehmen, füllen wir die ausstehenden Felder aus und bestätigen mit der Schaltfläche "AKZEPTIEREN UND ERSTELLEN".
 

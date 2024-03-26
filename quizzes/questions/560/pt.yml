@@ -1,0 +1,9 @@
+question: Qual é a definição de inflação de acordo com o Larousse?
+answer: A inflação é um fenômeno caracterizado por um aumento generalizado e contínuo no nível de preços.
+wrong_answers:
+  - A inflação é um fenômeno caracterizado por uma diminuição generalizada e contínua no nível de preços.
+  - A inflação é um fenômeno caracterizado por um aumento específico e contínuo no nível de preços.
+  - A inflação é um fenômeno caracterizado por um aumento generalizado e intermitente no nível de preços.
+explanation: |
+  De acordo com o Larousse, a inflação é definida como um fenômeno caracterizado por um aumento generalizado e contínuo no nível de preços.
+reviewed: false

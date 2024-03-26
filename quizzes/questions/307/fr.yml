@@ -1,0 +1,9 @@
+question: Quel est le principal risque de laisser vos bitcoins sur une plateforme d'échange ?
+answer: La plateforme peut être piratée, saisie, faire faillite ou simplement disparaître avec votre argent.
+wrong_answers:
+  - Le prix du Bitcoin peut chuter soudainement.
+  - La plateforme peut augmenter ses frais.
+  - La plateforme peut limiter le nombre de bitcoins que vous pouvez acheter ou vendre.
+explanation: |
+  Le contenu du chapitre met en garde contre les risques importants liés aux plateformes d'échange et recommande de les éviter autant que possible. Elles peuvent être piratées, saisies, faire faillite ou simplement disparaître avec votre argent.
+reviewed: false

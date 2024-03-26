@@ -1,0 +1,9 @@
+question: Quais são algumas das melhores práticas que um Bitcoiner paranóico pode se educar?
+answer: Mistura de moedas e gerenciamento de UTXO
+wrong_answers:
+  - Como confiar em sistemas centralizados
+  - Como compartilhar informações pessoais com segurança
+  - Como usar um cartão de crédito para comprar Bitcoin online
+explanation: |
+  O capítulo menciona que um Bitcoiner paranóico pode se educar sobre as melhores práticas, como mistura de moedas e gerenciamento de UTXO, como parte de seu foco em privacidade e segurança.
+reviewed: false

@@ -12,8 +12,6 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Portefeuille Bitcoin Electrum
-
 > "Je dois dire que lorsque j'ai découvert ce guide, j'ai été choqué. Félicitations à Arman the Parman pour cela. Ce serait dommage de ne pas l'héberger ici et de le traduire dans autant de langues que possible. Honnêtement, des conseils de ce gars." Rogzy
 
 ![Portefeuille de bureau Electrum (Mac / Linux) - téléchargement, vérification, connexion à votre nœud.](https://youtu.be/wHmQNcRWdHM)
@@ -38,7 +36,7 @@ Cliquez sur l'onglet Télécharger en haut.
 
 Cliquez sur le lien de téléchargement correspondant à votre ordinateur. Tout ordinateur Linux ou Mac peut utiliser le lien Python (cercle rouge). Un ordinateur Linux avec une puce Intel ou AMD peut utiliser l'Appimage (cercle vert ; c'est comme un fichier exécutable Windows). Un appareil Raspberry Pi a un microprocesseur ARM et ne peut utiliser que la version Python (cercle rouge), pas Appimage, même si les Pi fonctionnent sous Linux. Le cercle bleu est pour Windows et le cercle noir est pour Mac.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 ## Vérification d'Electrum
 
@@ -52,13 +50,13 @@ En d'autres termes, avec les trois entrées (signature, clé publique et fichier
 
 Pour obtenir la signature, cliquez sur le lien correspondant au fichier que vous avez téléchargé (voir les flèches colorées):
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 En cliquant sur le lien, le fichier peut être automatiquement téléchargé dans votre dossier de téléchargements, ou il peut s'ouvrir dans le navigateur. S'il s'ouvre dans le navigateur, vous devez enregistrer le fichier. Vous pouvez faire un clic droit et sélectionner "enregistrer sous". Selon le système d'exploitation ou le navigateur, vous devrez peut-être faire un clic droit sur la zone d'espace blanc, pas sur le texte.
 
 Voici à quoi ressemble le texte téléchargé. Vous pouvez voir qu'il y a plusieurs signatures - ce sont des signatures de différentes personnes. Vous pouvez vérifier chacune d'entre elles. Je vais vous montrer comment vérifier celle du développeur.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Ensuite, vous devez obtenir la clé publique de ThomasV - c'est le principal développeur. Vous pouvez l'obtenir directement de lui, de son compte Keybase, de Github, ou de quelqu'un d'autre, d'un serveur de clés, ou du site Web Electrum.
 
@@ -68,7 +66,7 @@ Pour simplifier les choses pour l'instant, je vais vous montrer comment l'obteni
 
 Faites défiler un peu la page pour trouver le lien vers la clé publique de ThomasV (cercle rouge ci-dessous). Cliquez dessus et téléchargez-la, ou si cela ouvre un texte dans un navigateur, faites un clic droit pour enregistrer.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Vous avez maintenant 3 nouveaux fichiers, probablement tous dans le dossier de téléchargements. Peu importe où ils se trouvent, mais le processus est plus facile si vous les mettez tous dans le même dossier.
 
@@ -119,7 +117,7 @@ Maintenant, nous avons une copie vérifiée d'Electrum qui est sûre à utiliser
 
 Si vous avez téléchargé la version Python, voici comment la faire fonctionner. Vous verrez sur la page de téléchargement ceci :
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Pour Linux, il est conseillé de d'abord mettre à jour votre système :
 
@@ -175,7 +173,7 @@ Malgré le fait que je déteste Windows par-dessus tout, c'est la méthode la pl
 
 Lorsque vous chargez Electrum pour la première fois, une fenêtre s'ouvrira comme ceci :
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Nous sélectionnerons votre serveur manuellement plus tard, mais pour l'instant, laissez les paramètres par défaut et connectez-vous automatiquement.
 
@@ -183,27 +181,27 @@ Ensuite, créez un portefeuille fictif - ne mettez jamais de fonds dans ce porte
 
 Vous pouvez laisser le nom par défaut "default_wallet" ou le changer selon vos préférences, puis cliquez sur suivant. Plus tard, si vous avez plusieurs portefeuilles, vous pouvez les trouver et les ouvrir à cette étape en cliquant d'abord sur "Choisir..."
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Choisissez "Portefeuille standard" et <Suivant> :
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Ensuite, sélectionnez "J'ai déjà une graine". Je ne veux pas que vous preniez l'habitude de créer une graine Electrum, car elle utilise son propre protocole qui n'est pas compatible avec d'autres portefeuilles - c'est pourquoi nous ne cliquons pas sur "nouvelle graine".
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Rendez-vous sur https://iancoleman.io/bip39/ et créez une graine fictive. Tout d'abord, changez le nombre de mots à 12 (ce qui est une pratique courante), puis cliquez sur "générer" et copiez les mots dans la boîte dans votre presse-papiers.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Ensuite, collez les mots dans Electrum. Voici un exemple :
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Electrum recherchera des mots correspondant à son propre protocole. Nous devons contourner cela. Cliquez sur options, et sélectionnez BIP39 Seed :
 
-![image](assets/12.png)'
+![image](assets/12.webp)'
 
 La graine devient alors valide. (Avant cela, Electrum s'attendait à une graine Electrum, donc cette graine était considérée comme invalide). Avant de cliquer sur suivant, remarquez le texte qui dit "Checksum OK". Il est important (pour le vrai portefeuille que vous pourriez utiliser ultérieurement) que vous le voyiez avant de continuer, car cela confirme la validité de la graine que vous avez entrée. L'avertissement en bas peut être ignoré, c'est la plainte du développeur d'Electrum à propos de BIP39 et de leurs revendications "FUD"ey" selon lesquelles leur version (qui n'est pas compatible avec d'autres portefeuilles) est supérieure.
 
@@ -215,17 +213,17 @@ Après avoir cliqué sur OK, vous serez ramené à l'endroit où vous avez saisi
 
 Si vous n'avez pas demandé de phrase secrète, vous verrez ensuite cet écran - plus d'options pour le type de script de votre portefeuille et le chemin de dérivation que vous pouvez apprendre ici (https://armantheparman.com/public-and-private-keys/), mais laissez simplement les valeurs par défaut et continuez.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 > Pour des informations supplémentaires : La première option vous permet de choisir entre l'héritage (adresses commençant par "1"), le pay-to-script-hash (adresses commençant par "3") ou bech32/native segwit (adresses commençant par "bc1q"). Au moment de la rédaction, Electrum ne prend pas encore en charge taproot (adresses commençant par "bc1p"). La deuxième option dans cette fenêtre vous permet de modifier le chemin de dérivation. Je vous suggère de ne jamais le modifier, surtout avant de comprendre ce que cela signifie. Les gens insisteront sur l'importance d'écrire le chemin de dérivation afin de pouvoir récupérer votre portefeuille si nécessaire, mais si vous le laissez par défaut, vous devriez probablement vous en sortir, donc ne paniquez pas - mais il est toujours bon de prendre l'habitude d'écrire le chemin de dérivation.
 
 Ensuite, vous aurez la possibilité d'ajouter un MOT DE PASSE. Ne confondez pas cela avec "PHRASE SECRÈTE". Un mot de passe verrouille le fichier sur votre ordinateur. Une phrase secrète fait partie de la composition de la clé privée. Comme il s'agit d'un portefeuille fictif, vous pouvez laisser le mot de passe vide et continuer.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Vous recevrez une fenêtre contextuelle concernant les notifications de nouvelle version (je vous suggère de sélectionner non). Le portefeuille se générera alors et sera prêt à être utilisé (mais n'oubliez pas, ce portefeuille est destiné à être supprimé, c'est juste un portefeuille fictif).
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Il y a quelques choses que je vous suggère de faire pour configurer l'environnement logiciel (nécessaire une seule fois) :
 
@@ -322,13 +320,13 @@ Connectons-nous au nœud de Bitaroo - On nous dit qu'ils ne collectent pas de do
 
 Accédez aux paramètres réseau en cliquant sur le cercle dans la partie inférieure droite de la fenêtre du portefeuille (le rouge indique une absence de connexion, le vert indique une connexion, et le bleu indique une connexion via Tor).
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Une fois que vous avez cliqué sur l'icône du cercle, une fenêtre contextuelle apparaîtra : Votre portefeuille affichera "connecté à 1 nœud" car nous l'avons forcé plus tôt.
 
 Décochez la case "sélectionner le serveur automatiquement", puis dans le champ Serveur, saisissez les détails de Bitaroo comme indiqué :
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Fermez la fenêtre, et maintenant nous devrions être connectés au nœud de Bitaroo. Pour confirmer, le cercle devrait être vert. Cliquez dessus à nouveau et vérifiez que les détails du serveur ne sont pas revenus à un nœud aléatoire.
 
@@ -340,7 +338,7 @@ Si vous avez votre propre nœud, c'est génial. Si vous avez seulement Bitcoin C
 > Si vous utilisez un logiciel de nœud comme MyNode (celui que je recommande aux débutants), Raspiblitz (recommandé pour les utilisateurs plus avancés) ou Umbrel (que je ne recommande pas encore personnellement car j'ai rencontré trop de problèmes), vous pourrez connecter votre portefeuille simplement en entrant l'adresse IP de l'ordinateur (Raspberry Pi) sur lequel le nœud est exécuté, suivie de deux points et de 50002, comme indiqué sur l'image de la section précédente. (Plus bas, je vous montrerai comment trouver l'adresse IP de votre nœud).
 > Ouvrez les paramètres réseau (cliquez sur le cercle vert ou rouge en bas à droite). Décochez la case "sélectionner le serveur automatiquement", puis saisissez votre adresse IP comme je l'ai fait (la vôtre sera différente, mais les deux points et "50002" doivent être identiques).
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Fermez la fenêtre, et maintenant nous devrions être connectés à votre nœud. Pour vérifier, cliquez à nouveau sur le cercle et vérifiez que les détails du serveur n'ont pas été modifiés pour revenir à un nœud aléatoire.
 
@@ -378,11 +376,11 @@ https://mynode.local
 
 Cela accédera à l'appareil, et vous pouvez cliquer sur le lien des paramètres (voir mon "cercle" bleu ci-dessous) pour afficher cette page où se trouve l'adresse IP :
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Cette page se chargera et vous verrez l'adresse IP du nœud (cercle bleu).
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Ensuite, à l'avenir, vous pourrez taper 192.168.0.150 ou http://192.168.0.150 dans votre navigateur.
 
@@ -401,7 +399,7 @@ Tout d'abord, trouvez l'adresse IP de n'importe quel appareil de votre réseau (
 
 Sur un Mac, vous le trouverez dans les préférences réseau :
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Nous nous intéressons aux 4 premiers éléments (192.168.0), pas au 4e élément, le "166" que vous voyez sur l'image (le vôtre sera différent).
 
@@ -433,7 +431,7 @@ Un par un, progressez jusqu'à 255. Finalement, vous vous arrêterez au bon num�
 
 Cela ressemblera à quelque chose comme ça (assurez-vous d'inclure les deux-points et le numéro qui suit) :
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 > Il est utile de savoir que ces adresses IP sont INTERNES à votre réseau domestique. Personne à l'extérieur ne peut les voir et elles ne sont pas sensibles. Elles sont un peu comme des extensions téléphoniques dans une grande organisation qui vous dirigent vers différents téléphones.
 
@@ -457,7 +455,7 @@ Votre nouveau portefeuille dispose d'un ensemble d'adresses de réception qui pe
 
 Plus d'informations sur les clés privées Bitcoin peuvent être trouvées dans ce guide.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 C'est très différent de certains autres portefeuilles qui ne présentent qu'une seule adresse à la fois.
 
@@ -471,31 +469,31 @@ Ensuite, retournez sur le site de clé privée d'Ian Colman et saisissez la grai
 
 Faites défiler vers le bas et modifiez le chemin de dérivation en BIP84 (segwit) pour correspondre à votre portefeuille Electrum en cliquant sur l'onglet BIP84.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 En dessous, vous verrez la clé privée étendue du compte et la clé publique étendue du compte :
 
-![image](assets/25.png)
+![image](assets/25.webp)
 
 Allez dans Electrum et comparez-les. Il y a un menu en haut, portefeuille -> informations :
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 Cela apparaît :
 
-![image](assets/27.png)
+![image](assets/27.webp)
 
 Remarquez que les deux clés publiques correspondent.
 
 Ensuite, comparez les adresses. Retournez sur le site d'Ian Coleman et faites défiler vers le bas :
 
-![image](assets/28.png)
+![image](assets/28.webp)
 
 Remarquez qu'elles correspondent aux adresses dans Electrum.
 
 Maintenant, nous allons vérifier les adresses de changement. Remontez un peu vers le chemin de dérivation et changez le dernier 0 en 1 :
 
-![image](assets/29.png)
+![image](assets/29.webp)
 
 Maintenant, faites défiler vers le bas et comparez les adresses avec les adresses jaunes dans Electrum.
 
@@ -517,7 +515,7 @@ Cela a plusieurs objectifs.
 
 Ouvrez votre portefeuille de test Electrum et cliquez sur l'onglet "Adresses", puis faites un clic droit sur la première adresse et sélectionnez "Copier" -> "Adresse":
 
-![image](assets/30.png)
+![image](assets/30.webp)
 
 L'adresse est maintenant dans la mémoire de votre ordinateur.
 
@@ -525,11 +523,11 @@ Maintenant, allez sur une plateforme d'échange où vous avez des bitcoins, et r
 
 Connectez-vous et cliquez sur le bouton "Envoyer/Recevoir", qui se trouve actuellement en haut à droite de la page web.
 
-![image](assets/31.png)
+![image](assets/31.webp)
 
 Évidemment, je n'ai pas de fonds sur Coinbase, mais imaginez simplement qu'il y en a et suivez les étapes : Collez l'adresse d'Electrum dans le champ "À" comme je l'ai fait. Vous devrez également sélectionner un montant (je suggère environ 50 000 sats). Ne mettez pas de "message facultatif" - Coinbase collecte suffisamment de vos données (et les vend), il n'est donc pas nécessaire de les aider. Enfin, cliquez sur "Continuer". Après cela, je ne sais pas quels autres pop-ups vous obtiendrez, vous êtes seul, mais la méthode est similaire pour toutes les plateformes d'échange.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 Selon la plateforme d'échange, vous verrez peut-être les sats dans votre portefeuille immédiatement, ou il peut y avoir un délai de quelques heures/jours.
 
@@ -541,15 +539,15 @@ Maintenant que nous avons un UTXO dans notre portefeuille, nous devrions le lab�
 
 J'avais besoin d'un don pour ce portefeuille de test, merci à @Sathoarder de m'avoir fourni un UTXO en direct (10 000 sats), et une autre personne (anonyme) a fait un don à la même adresse (5 000 sats). Remarquez qu'il y a 15 000 sats dans le solde de la première adresse, et un total de 2 transactions (colonne de droite). En bas, le solde est de 10 000 sats confirmés, et 5 000 sats sont non confirmés (encore dans le mempool).
 
-![image](assets/33.png)
+![image](assets/33.webp)
 
 Maintenant, si nous allons à l'onglet "Coins", nous pouvons voir deux "coins reçus" ou UTXOs. Ils sont tous les deux dans la même adresse.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 
 En revenant à l'onglet "Adresses", si vous double-cliquez sur la zone "labels" à côté de l'adresse, vous pourrez entrer du texte, puis appuyez sur <enter> pour enregistrer :
 
-![image](assets/35.png)
+![image](assets/35.webp)
 
 Ceci est une bonne pratique pour que vous puissiez suivre d'où viennent vos pièces, si elles sont sans KYC ou non, et combien chaque UTXO vous a coûté (au cas où vous auriez besoin de vendre et de calculer les impôts qui vous seront volés par votre gouvernement).
 
@@ -557,25 +555,25 @@ Idéalement, vous devriez éviter d'accumuler plusieurs pièces dans la même ad
 
 Ensuite, dépensons les pièces de la première adresse vers la deuxième adresse. Cliquez avec le bouton droit de la souris sur la première adresse et sélectionnez "dépenser à partir de" ce n'est pas vraiment nécessaire dans ce scénario, mais imaginez que nous avons de nombreuses pièces dans de nombreuses adresses ; en utilisant cette fonctionnalité, nous pouvons forcer le portefeuille à ne dépenser que les pièces que nous voulons. Si nous voulons sélectionner plusieurs pièces dans plusieurs adresses, nous pouvons sélectionner les adresses avec un clic gauche tout en maintenant la touche de commande enfoncée, puis cliquer avec le bouton droit de la souris et sélectionner "dépenser à partir de" :
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 Une fois que vous avez fait cela, une barre verte apparaîtra en bas de la fenêtre du portefeuille indiquant le nombre de pièces que vous avez sélectionnées et le total disponible à dépenser.
 
 Vous pouvez également dépenser des pièces individuelles dans une adresse et exclure les autres dans la même adresse, mais cela est déconseillé car vous laissez des pièces dans une adresse qui a été affaiblie cryptographiquement en raison de la dépense d'une des pièces (une autre raison de ne pas mettre plusieurs pièces dans une seule adresse, en plus des raisons de confidentialité, est que, étant donné que vous devriez toutes les dépenser si vous en dépensez une, cela devient inutilement coûteux). Voici comment sélectionner une seule pièce à partir d'une adresse partagée, mais ne le faites pas :
 
-![image](assets/37.png)
+![image](assets/37.webp)
 
 Maintenant, nous avons sélectionné les deux pièces à dépenser. Ensuite, nous avons décidé où les dépenser. Envoyons-les à la deuxième adresse. Nous devrons copier l'adresse comme ceci :
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 Ensuite, allez à l'onglet "Envoyer" et collez la deuxième adresse dans le champ "payer à". Pas besoin d'ajouter une description ; vous pourriez le faire, mais vous pouvez le faire plus tard en modifiant les étiquettes. Pour le montant, sélectionnez "Max" pour dépenser toutes les pièces que nous avons sélectionnées. Ensuite, cliquez sur "Payer", puis cliquez sur le bouton "avancé" sur la fenêtre contextuelle qui apparaît.
 
-![image](assets/39.png)
+![image](assets/39.webp)
 
 Cliquez toujours sur "avancé" à cette étape pour pouvoir avoir un contrôle précis et vérifier exactement ce qui se trouve dans la transaction. Voici la transaction :
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 Nous voyons deux fenêtres internes blanches. La première en haut est la fenêtre des entrées (quelles pièces sont dépensées), et la seconde en bas est celle des sorties (où vont les pièces).
 
@@ -585,7 +583,7 @@ La taille de la transaction fait référence à la taille des données en octets
 
 En bas, nous avons quelques outils sophistiqués d'ajustement des frais miniers. Tout ce que vous avez à faire pour les transferts internes est de le régler sur les frais minimums de 1 sat/byte. Tapez simplement manuellement le nombre dans le champ Frais cible. Pour vérifier les frais appropriés pour un paiement externe, vous pouvez consulter https://mempool.space pour voir à quel point le mempool est occupé, et certains frais suggérés sont affichés.
 
-![image](assets/41.png)
+![image](assets/41.webp)
 
 J'ai sélectionné 1 sat/byte.
 
@@ -603,7 +601,7 @@ Si nous ajustons les frais de minage, la valeur de sortie changera automatiqueme
 
 Une fois que vous avez vérifié tout dans la transaction et que vous êtes sûr de laquelle de vos pièces vous dépensez et où vont les pièces, vous pouvez cliquer sur "finaliser".
 
-![image](assets/42.png)
+![image](assets/42.webp)
 
 Après avoir cliqué sur "finaliser", vous ne pouvez plus apporter de modifications - Si vous en avez besoin, vous devez fermer cela et recommencer. Remarquez que le bouton "finaliser" a changé en "exporter" et de nouveaux boutons sont apparus : "enregistrer", "combiner", "signer" et "diffuser". Le bouton "diffuser" est grisé car la transaction est non signée et donc invalide à ce stade.
 Une fois que vous avez cliqué sur "signer", si vous avez un mot de passe pour le portefeuille, vous serez invité à le saisir, puis le statut (en haut à droite) passera de "non signé" à "signé". Ensuite, le bouton "Diffuser" sera disponible.
@@ -616,15 +614,15 @@ Il convient de souligner qu'au lieu de diffuser, nous pouvons enregistrer la tra
 
 Cliquez sur le bouton "exporter" (paradoxalement, NE CLIQUEZ PAS sur le bouton "enregistrer"), et vous verrez plusieurs options. La transaction est encodée avec du texte et peut donc être enregistrée de plusieurs manières.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 L'enregistrement sous forme de code QR est très intéressant. Si vous choisissez cette option, un QR code apparaîtra :
 
-![image](assets/44.png)
+![image](assets/44.webp)
 
 Vous pouvez ensuite prendre une photo du code QR. Il y a plusieurs choses que vous pouvez faire avec cela, mais pour l'instant, disons simplement que vous le chargez à nouveau dans le portefeuille plus tard. Vous pouvez fermer Electrum, charger à nouveau le portefeuille et aller dans le menu Outils :
 
-![image](assets/45.png)
+![image](assets/45.webp)
 
 Cela chargera la caméra de votre ordinateur. Vous montrez ensuite à la caméra la photo du code QR sur votre téléphone, et cela chargera la transaction à nouveau, exactement comme vous l'avez laissée.
 
@@ -649,11 +647,11 @@ Notez que lorsque vous ajustez les frais de minage, le montant de la sortie de c
 
 Il s'agit d'une fonctionnalité très intéressante d'Electrum. Vous y accédez comme ceci.
 
-![image](assets/46.png)
+![image](assets/46.webp)
 
 Vous pouvez ensuite entrer plusieurs destinations pour le solde de la UTXO que vous dépensez, comme ceci :
 
-![image](assets/47.png)
+![image](assets/47.webp)
 
 Collez l'adresse, tapez une virgule, puis un espace, puis le montant, puis <entrée>, puis recommencez. NE SAISISSEZ PAS LES MONTANTS DANS LES FENÊTRES "MONTANT" - Electrum remplira le total ici au fur et à mesure que vous tapez les montants individuels dans la fenêtre "Payer à".
 
@@ -683,11 +681,11 @@ PHRASE SECRÈTE : "Craig Wright est un menteur et un escroc et mérite d'être e
 
 La phrase secrète peut comporter jusqu'à 100 caractères et idéalement ne devrait pas être ambiguë ni trop courte - celle que j'ai utilisée est juste pour le plaisir - je suggère généralement d'éviter les lettres majuscules et les symboles pour réduire votre stress lorsque vous essayez des combinaisons si vous avez déjà eu des problèmes pour vous souvenir de votre phrase secrète.
 
-![image](assets/48.png)
+![image](assets/48.webp)
 
 Ensuite, dans Electrum, allez dans le menu fichier -> nouveau/restaurer. Tapez un nom unique pour créer un nouveau portefeuille et cliquez sur "suivant".
 
-![image](assets/49.png)
+![image](assets/49.webp)
 
 Les étapes suivantes devraient vous être familières maintenant, donc je vais les énumérer sans images :
 
@@ -701,11 +699,11 @@ Les étapes suivantes devraient vous être familières maintenant, donc je vais 
 
 Maintenant, retournez sur le site Ian Coleman, descendez jusqu'à la section "chemin de dérivation" et cliquez sur l'onglet "BIP 84" pour sélectionner les mêmes paramètres de script que les valeurs par défaut dans Electrum (Native Segwit).
 
-![image](assets/50.png)
+![image](assets/50.webp)
 
 Les clés privées et publiques étendues sont juste en dessous, et elles changent lorsque vous apportez des modifications au chemin de dérivation (ou à toute autre chose plus haut sur la page).
 
-![image](assets/51.png)
+![image](assets/51.webp)
 
 Vous verrez également les clés privées/publiques étendues "BIP32" - elles doivent être ignorées pour le moment.
 
@@ -766,7 +764,7 @@ Certains systèmes d'exploitation ouvriront automatiquement l'explorateur de fic
 
 Ouvrez Electrum. S'il est déjà ouvert avec un autre portefeuille, sélectionnez fichier -> nouveau. Nous recherchons cette fenêtre :
 
-![image](assets/52.png)
+![image](assets/52.webp)
 
 Voici le truc, ce n'est pas intuitif. Cliquez sur "choisir". Ensuite, parcourez le système de fichiers sur la carte microSD et trouvez le fichier de portefeuille et ouvrez-le.
 
@@ -800,7 +798,7 @@ sudo nano /etc/udev/rules.d
 
 Un éditeur de texte s'ouvrira. Copiez le texte d'ici et collez-le dans le fichier rules.d, enregistrez et quittez.
 
-![image](assets/53.png)
+![image](assets/53.webp)
 
 Ensuite, exécutez ces commandes les unes après les autres :
 
@@ -868,7 +866,7 @@ Pour ce faire, vous pouvez copier les fichiers du programme sur une clé USB, ai
 
 Comme je l'ai expliqué précédemment, dans l'onglet des adresses, il y a une colonne d'étiquettes. Vous pouvez double-cliquer dessus et saisir des notes pour vous-même (elles ne sont présentes que sur votre ordinateur, pas publiques et pas sur la blockchain).
 
-![image](assets/54.png)
+![image](assets/54.webp)
 
 Lorsque vous déplacez votre portefeuille Electrum vers un autre ordinateur, vous ne souhaitez peut-être pas perdre toutes ces notes. Vous pouvez les sauvegarder dans un fichier en utilisant le menu, portefeuille -> étiquettes -> exporter, puis sur le nouvel ordinateur, utilisez portefeuille -> étiquettes -> importer.
 

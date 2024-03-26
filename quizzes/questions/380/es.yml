@@ -1,0 +1,9 @@
+question: ¿Cuál es el propósito de un plan de herencia en Bitcoin?
+answer: El propósito de un plan de herencia en Bitcoin es asegurar que tus seres queridos puedan acceder a tus Bitcoins después de tu fallecimiento.
+wrong_answers:
+  - Para minar nuevos Bitcoins.
+  - Para comerciar con Bitcoins.
+  - Para convertir Bitcoins en otras criptomonedas.
+explanation: |
+  Un plan de herencia en Bitcoin es un plan que garantiza que tus seres queridos puedan acceder a tus Bitcoins después de tu fallecimiento. No se utiliza para minar nuevos Bitcoins, comerciar con Bitcoins o convertir Bitcoins en otras criptomonedas.
+reviewed: false

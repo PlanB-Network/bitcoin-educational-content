@@ -1,0 +1,9 @@
+question: Qual è il concetto di vantaggio assoluto nel contesto della divisione del lavoro?
+answer: Un individuo possiede una capacità superiore nel svolgere determinati compiti rispetto ai suoi pari.
+wrong_answers:
+  - Un individuo possiede una capacità superiore nel svolgere tutti i compiti rispetto ai suoi pari.
+  - Un individuo possiede una capacità uguale nel svolgere determinati compiti rispetto ai suoi pari.
+  - Un individuo possiede una capacità inferiore nel svolgere determinati compiti rispetto ai suoi pari.
+explanation: |
+  Nel contesto della divisione del lavoro, il vantaggio assoluto si riferisce alla situazione in cui un individuo ha una capacità superiore nel svolgere determinati compiti rispetto ai suoi pari. Questo individuo ha quindi interesse a specializzarsi nella produzione di quel bene e poi scambiare l'eccedenza ottenuta con i beni desiderati.
+reviewed: false

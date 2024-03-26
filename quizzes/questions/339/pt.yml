@@ -1,0 +1,9 @@
+question: Qual é o objetivo principal de um acumulador de Bitcoin?
+answer: Acumular o máximo de satoshis possível
+wrong_answers:
+  - Acumular o máximo de bitcoins possível
+  - Vender bens ou serviços em Bitcoin
+  - Comprar Bitcoin diretamente em dinheiro com amigos ou membros da comunidade Bitcoin
+explanation: |
+  O objetivo principal de um acumulador de Bitcoin é acumular o máximo de satoshis possível. Isso é alcançado através da criação de um plano de Média de Custo em Dólar (DCA) e buscando outras soluções para acumular satoshis.
+reviewed: false

@@ -1,0 +1,11 @@
+question: What is the difference between enterprise VPNs and consumer VPNs?
+answer: Enterprise VPNs are more expensive and complex, while consumer VPNs are more accessible and user-friendly.
+wrong_answers:
+  - Enterprise VPNs are less secure than consumer VPNs.
+  - Consumer VPNs are more expensive than enterprise VPNs.
+  - Enterprise VPNs do not encrypt data, while consumer VPNs do.
+explanation: |
+  Enterprise VPNs are designed for businesses and are typically more expensive
+  and complex to set up and manage. On the other hand, consumer VPNs are designed
+  for individual users and are generally more accessible and user-friendly.
+reviewed: false

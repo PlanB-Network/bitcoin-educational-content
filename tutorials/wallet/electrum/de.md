@@ -12,8 +12,6 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Electrum Bitcoin Wallet
-
 > "Ich muss sagen, als ich auf diesen Leitfaden gestoßen bin, war ich schockiert. Glückwunsch an Arman the Parman dafür. Es wäre schade gewesen, ihn nicht hier zu hosten und in so viele Sprachen wie möglich zu übersetzen. Ehrlich gesagt, Tipps für diesen Kerl." Rogzy
 
 ![Electrum Desktop Wallet (Mac / Linux) - herunterladen, überprüfen, mit Ihrem Knoten verbinden.](https://youtu.be/wHmQNcRWdHM)
@@ -38,7 +36,7 @@ Klicken Sie auf den Download-Tab oben.
 
 Klicken Sie auf den Download-Link, der Ihrem Computer entspricht. Jeder Linux- oder Mac-Computer kann den Python-Link verwenden (roter Kreis). Ein Linux-Computer mit einem Intel- oder AMD-Chip kann die Appimage-Version verwenden (grüner Kreis; dies ist ähnlich wie eine ausführbare Windows-Datei). Ein Raspberry Pi-Gerät hat einen ARM-Mikroprozessor und kann nur die Python-Version verwenden (roter Kreis), nicht Appimage, obwohl Pi's Linux ausführen. Der blaue Kreis ist für Windows und der schwarze Kreis ist für Mac.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 ## Electrum überprüfen
 
@@ -52,13 +50,13 @@ Mit anderen Worten, mit den drei Eingaben (Signatur, öffentlicher Schlüssel un
 
 Um die Signatur zu erhalten, klicken Sie auf den Link, der der heruntergeladenen Datei entspricht (siehe farbige Pfeile):
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Wenn Sie auf den Link klicken, wird die Datei möglicherweise automatisch in Ihren Download-Ordner heruntergeladen oder sie wird im Browser geöffnet. Wenn sie im Browser geöffnet wird, müssen Sie die Datei speichern. Sie können mit der rechten Maustaste klicken und "Speichern unter" auswählen. Je nach Betriebssystem oder Browser müssen Sie möglicherweise mit der rechten Maustaste auf den Bereich außerhalb des Textes klicken.
 
 Unten sehen Sie, wie der heruntergeladene Text aussieht. Sie können sehen, dass es mehrere Signaturen gibt - dies sind Signaturen von verschiedenen Personen. Sie können jede einzelne überprüfen. Ich zeige Ihnen, wie Sie nur die des Entwicklers überprüfen können.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Als nächstes müssen Sie den öffentlichen Schlüssel von ThomasV erhalten - er ist der Hauptentwickler. Sie können ihn direkt von ihm, seinem Keybase-Konto, Github oder von jemand anderem, von einem Schlüsselserver oder von der Electrum-Website erhalten.
 
@@ -68,7 +66,7 @@ Um es vorerst einfach zu halten, zeige ich Ihnen trotzdem, wie Sie ihn von der W
 
 Scrollen Sie auf der Seite ein wenig nach unten, um den Link zum öffentlichen Schlüssel von ThomasV (roter Kreis unten) zu finden. Klicken Sie darauf und laden Sie ihn herunter, oder wenn er im Browser einen Text öffnet, klicken Sie mit der rechten Maustaste, um ihn zu speichern.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Sie haben jetzt 3 neue Dateien, wahrscheinlich alle im Download-Ordner. Es spielt keine Rolle, wo sie sich befinden, aber der Vorgang wird einfacher, wenn Sie sie alle in denselben Ordner legen.
 
@@ -119,7 +117,7 @@ Jetzt haben wir eine verifizierte Kopie von Electrum, die sicher verwendet werde
 
 Wenn Sie die Python-Version heruntergeladen haben, funktioniert dies folgendermaßen. Sie sehen auf der Download-Seite Folgendes:
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Für Linux ist es eine gute Idee, zuerst Ihr System zu aktualisieren:
 
@@ -175,7 +173,7 @@ Trotz der Tatsache, dass ich Windows am meisten hasse, ist dies die einfachste M
 
 Wenn Sie Electrum zum ersten Mal laden, wird ein Fenster wie dieses geöffnet:
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Wir werden später Ihren Server manuell auswählen, aber vorerst lassen Sie den Standardwert und die automatische Verbindung.
 
@@ -183,27 +181,27 @@ Erstellen Sie als nächstes eine Dummy-Wallet - legen Sie niemals Geld in diese 
 
 Sie können den Namen als "default_wallet" belassen oder ihn nach Belieben ändern und auf "Weiter" klicken. Später können Sie, wenn Sie mehrere Wallets haben, diese in diesem Stadium finden und öffnen, indem Sie zuerst auf "Auswählen..." klicken.
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Wählen Sie "Standard Wallet" und <Weiter>:
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Wählen Sie dann "Ich habe bereits einen Seed". Ich möchte nicht, dass Sie sich angewöhnen, einen Electrum Seed zu erstellen, da er sein eigenes Protokoll verwendet, das nicht mit anderen Wallets kompatibel ist - deshalb klicken wir nicht auf "neuen Seed".
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Gehen Sie zu https://iancoleman.io/bip39/ und erstellen Sie einen Dummy Seed. Ändern Sie zuerst die Wortanzahl auf 12 (was gängige Praxis ist), klicken Sie dann auf "generieren" und kopieren Sie die Wörter in das Feld in Ihre Zwischenablage.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Fügen Sie dann die Wörter in Electrum ein. Hier ist ein Beispiel:
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Electrum sucht nach Wörtern, die seinem eigenen Protokoll entsprechen. Das müssen wir umgehen. Klicken Sie auf "Optionen" und wählen Sie "BIP39 Seed":
 
-![image](assets/12.png)'
+![image](assets/12.webp)'
 Der Samen wird dann gültig. (Bevor dies geschieht, erwartete Electrum einen Electrum-Samen, daher wurde dieser Samen als ungültig angesehen). Bevor Sie auf Weiter klicken, beachten Sie den Text, der "Checksum OK" sagt. Es ist wichtig (für die echte Brieftasche, die Sie später verwenden können), dass Sie dies sehen, bevor Sie fortfahren, da dies die Gültigkeit des eingegebenen Samens bestätigt. Die Warnung unten kann ignoriert werden, es handelt sich um die Beschwerde des Electrum-Entwicklers über BIP39 und ihre "FUD'ey"-Behauptungen, dass ihre Version (die nicht mit anderen Brieftaschen kompatibel ist) überlegen ist.
 
 > Ein kurzer Umweg für eine wichtige Warnung. Der Zweck der Prüfsumme besteht darin, sicherzustellen, dass Sie Ihren Samen ohne Tippfehler eingegeben haben. Die Prüfsumme ist der letzte Teil des Samens (das 12. Wort ist das Prüfsummenwort), das mathematisch durch den ersten Teil des Samens (11 Wörter) bestimmt wird. Wenn Sie am Anfang etwas falsch eingeben würden, stimmt das Prüfsummenwort mathematisch nicht überein und die Brieftaschensoftware warnt Sie. Das bedeutet nicht, dass der Samen nicht verwendet werden kann, um eine funktionierende Bitcoin-Brieftasche zu erstellen. Stellen Sie sich vor, Sie erstellen eine Brieftasche mit einem Tippfehler, laden die Brieftasche mit Bitcoin und eines Tages müssen Sie die Brieftasche wiederherstellen, aber wenn Sie dies tun, stellen Sie den Tippfehler nicht wieder her - Sie stellen die falsche Brieftasche wieder her! Es ist ziemlich gefährlich, dass Electrum Sie weitermachen lässt und eine Brieftasche erstellt, wenn Ihre Prüfsumme ungültig ist, also seien Sie gewarnt, es liegt in Ihrer Verantwortung, sicherzustellen. Andere Brieftaschen lassen Sie nicht weitermachen, was viel sicherer ist. Das ist einer der Punkte, die ich meine, wenn ich sage, dass Electrum in Ordnung ist, wenn Sie lernen, es richtig zu verwenden (die Electrum-Entwickler sollten das beheben).
@@ -214,15 +212,15 @@ Nachdem Sie auf OK geklickt haben, gelangen Sie zurück zu dem Ort, an dem Sie d
 
 Wenn Sie keine Passphrase angefordert haben, sehen Sie als Nächstes diesen Bildschirm - weitere Optionen für Ihren Brieftaschenskripttyp und den Ableitungspfad, über die Sie hier mehr erfahren können (https://armantheparman.com/public-and-private-keys/), aber lassen Sie die Standardeinstellungen unverändert und fahren Sie fort.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 > Zusätzliche Informationen: Die erste Option ermöglicht es Ihnen, zwischen Legacy (Adressen, die mit "1" beginnen), Pay-to-Script-Hash (Adressen, die mit "3" beginnen) oder Bech32/Native SegWit (Adressen, die mit "bc1q" beginnen) zu wählen. Zum Zeitpunkt des Schreibens unterstützt Electrum noch nicht Taproot (Adressen, die mit "bc1p" beginnen). Die zweite Option in diesem Fenster ermöglicht es Ihnen, den Ableitungspfad zu ändern. Ich schlage vor, dass Sie dies niemals ändern, insbesondere bevor Sie verstehen, was es bedeutet. Die Leute werden die Bedeutung des Aufschreibens des Ableitungspfads betonen, damit Sie Ihre Brieftasche bei Bedarf wiederherstellen können, aber wenn Sie ihn als Standard belassen, werden Sie wahrscheinlich in Ordnung sein, also keine Panik - aber es ist trotzdem eine gute Praxis, den Ableitungspfad aufzuschreiben.
 
 Als Nächstes haben Sie die Möglichkeit, ein PASSWORT hinzuzufügen. Dies darf nicht mit "PASSPHRASE" verwechselt werden. Ein Passwort sperrt die Datei auf Ihrem Computer. Eine Passphrase ist Teil des Aufbaus des privaten Schlüssels. Da dies eine Dummy-Brieftasche ist, können Sie das Passwort leer lassen und fortfahren.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 Du erhältst ein Pop-up über Benachrichtigungen zu neuen Versionen (ich schlage vor, dass du "nein" auswählst). Die Wallet wird sich dann generieren und bereit zur Verwendung sein (aber denke daran, dass diese Wallet zur Löschung bestimmt ist, sie ist nur eine Dummy-Wallet).
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Es gibt einige Dinge, die ich vorschlage, um die Softwareumgebung einzurichten (nur einmal erforderlich):
 
@@ -319,13 +317,13 @@ Lassen Sie uns mit Bitaroo's Knoten verbinden - Wir haben gehört, dass sie kein
 
 Gehen Sie zu den Netzwerkeinstellungen, indem Sie auf den Kreis im unteren rechten Teil des Wallet-Fensters klicken (Rot bedeutet nicht verbunden, Grün bedeutet verbunden und Blau bedeutet über Tor verbunden).
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Sobald Sie auf das Kreissymbol klicken, wird ein Popup-Fenster angezeigt: Ihre Brieftasche zeigt "Mit 1 Knoten verbunden" an, da wir das zuvor erzwungen haben.
 
 Deaktivieren Sie das Kontrollkästchen "Server automatisch auswählen" und geben Sie dann im Serverfeld Bitaroo's Details wie gezeigt ein:
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Schließen Sie das Fenster, und jetzt sollten wir mit Bitaroo's Knoten verbunden sein. Zur Bestätigung sollte der Kreis grün sein. Klicken Sie erneut darauf und überprüfen Sie, ob sich die Serverdetails nicht wieder auf einen zufälligen Knoten geändert haben.
 
@@ -338,7 +336,7 @@ Wenn Sie Ihren eigenen Knoten haben, ist das großartig. Wenn Sie nur Bitcoin Co
 
 Öffnen Sie die Netzwerkeinstellungen (klicken Sie auf den grünen oder roten Kreis unten rechts). Deaktivieren Sie das Kontrollkästchen "Server automatisch auswählen" und geben Sie dann Ihre IP-Adresse ein, wie ich es getan habe. Ihre Adresse wird anders sein, aber der Doppelpunkt und "50002" sollten gleich bleiben.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Schließen Sie das Fenster, und jetzt sollten wir mit Ihrem Knoten verbunden sein. Um dies zu bestätigen, klicken Sie erneut auf den Kreis und überprüfen Sie, ob sich die Serverdetails nicht wieder auf einen zufälligen Knoten geändert haben.
 
@@ -374,11 +372,11 @@ https://mynode.local
 
 Dadurch wird auf das Gerät zugegriffen, und Sie können auf den Einstellungslink klicken (siehe meinen blauen "Kreis" unten), um diesen Bildschirm anzuzeigen, auf dem sich die IP-Adresse befindet:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Diese Seite wird geladen, und Sie sehen die IP-Adresse des Knotens (blauer "Kreis").
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Dann können Sie in Zukunft 192.168.0.150 oder http://192.168.0.150 in Ihren Browser eingeben.
 
@@ -397,7 +395,7 @@ Zuerst finden Sie die IP-Adresse eines beliebigen Geräts in Ihrem Netzwerk (der
 
 Auf einem Mac finden Sie dies in den Netzwerkeinstellungen:
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 Wir interessieren uns für die ersten 4 Elemente (192.168.0), nicht das 4. Element, die "166", die Sie auf dem Bild sehen (Ihre wird unterschiedlich sein).
 
@@ -429,7 +427,7 @@ Arbeiten Sie sich nacheinander bis zur Zahl 255 vor. Schließlich bleiben Sie be
 
 Es wird ungefähr so aussehen (stellen Sie sicher, dass Sie den Doppelpunkt und die Nummer danach angeben):
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 > Es ist nützlich zu wissen, dass diese IP-Adressen INTERN in Ihrem Heimnetzwerk sind. Niemand außerhalb kann sie sehen und sie sind nicht sensibel. Sie sind so etwas wie Telefonerweiterungen in einer großen Organisation, die Sie zu verschiedenen Telefonen weiterleiten.
 
@@ -453,7 +451,7 @@ Deine neue Brieftasche hat eine Reihe von Empfangsadressen, die mathematisch und
 
 Weitere Informationen zu Bitcoin-Privatschlüsseln findest du in diesem Leitfaden.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Das ist sehr unterschiedlich zu einigen anderen Brieftaschen, die jeweils nur eine Adresse anzeigen.
 
@@ -467,31 +465,31 @@ Als nächstes gehe zurück zur Ian Colman Private Key-Website und gib den Seed e
 
 Scrolle nach unten und ändere den Ableitungspfad zu BIP84 (segwit), um ihn mit deiner Electrum-Brieftasche abzugleichen, indem du auf den BIP84-Tab klickst.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Darunter siehst du den erweiterten privaten Schlüssel des Kontos und den erweiterten öffentlichen Schlüssel des Kontos:
 
-![image](assets/25.png)
+![image](assets/25.webp)
 
 Gehe zu Electrum und vergleiche, ob sie übereinstimmen. Es gibt ein Menü oben, Brieftasche -> Informationen:
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 Dies erscheint:
 
-![image](assets/27.png)
+![image](assets/27.webp)
 
 Beachte, dass die beiden öffentlichen Schlüssel übereinstimmen.
 
 Als nächstes vergleiche die Adressen. Gehe zurück zur Website von Ian Coleman und scrolle nach unten:
 
-![image](assets/28.png)
+![image](assets/28.webp)
 
 Beachte, dass sie mit den Adressen in Electrum übereinstimmen.
 
 Jetzt überprüfen wir die Wechseladressen. Scrolle etwas nach oben zum Ableitungspfad und ändere die letzte 0 in eine 1:
 
-![image](assets/29.png)
+![image](assets/29.webp)
 
 Scrolle nun nach unten und vergleiche, ob die Adressen mit den gelben Adressen in Electrum übereinstimmen.
 
@@ -513,7 +511,7 @@ Dies hat mehrere Zwecke.
 
 Öffnen Sie Ihre Test-Electrum-Brieftasche und klicken Sie auf den Tab "Adressen", klicken Sie dann mit der rechten Maustaste auf die erste Adresse und wählen Sie Kopieren -> Adresse:
 
-![image](assets/30.png)
+![image](assets/30.webp)
 
 Die Adresse befindet sich nun im Speicher Ihres Computers.
 
@@ -521,11 +519,11 @@ Gehen Sie nun zu einer Börse, auf der Sie einige Bitcoins haben, und lassen Sie
 
 Melden Sie sich an und klicken Sie auf die Schaltfläche "Senden/Empfangen", die sich heute oben rechts auf der Webseite befindet.
 
-![image](assets/31.png)
+![image](assets/31.webp)
 
 Offensichtlich habe ich keine Mittel bei Coinbase, aber stellen Sie sich vor, hier sind Mittel und folgen Sie weiter: Fügen Sie die Adresse aus Electrum in das Feld "An" ein, wie ich es getan habe. Sie müssen auch einen Betrag auswählen (ich schlage etwa 50.000 Sats vor). Geben Sie keine "optionale Nachricht" ein - Coinbase sammelt bereits genug Ihrer Daten (und verkauft sie), es besteht keine Notwendigkeit, ihnen zu helfen. Klicken Sie abschließend auf "Weiter". Danach weiß ich nicht, welche anderen Pop-ups Sie erhalten, Sie sind auf sich allein gestellt, aber die Methode ist für alle Börsen ähnlich.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 Je nach Börse sehen Sie möglicherweise die Sats in Ihrer Brieftasche sofort oder mit einer Verzögerung von Stunden/Tagen.
 
@@ -537,40 +535,40 @@ Jetzt, da wir eine UTXO in unserer Brieftasche haben, sollten wir sie beschrifte
 
 Ich brauchte eine Spende für diese Test-Brieftasche, danke an @Sathoarder, der mir eine lebendige UTXO (10.000 Sats) zur Verfügung gestellt hat, und eine andere Person (anon) hat an dieselbe Adresse gespendet (5000 Sats). Beachten Sie, dass sich 15.000 Sats im Guthaben der ersten Adresse befinden und insgesamt 2 Transaktionen (ganz rechte Spalte) vorhanden sind. Unten ist das Guthaben 10.000 Sats bestätigt und weitere 5.000 Sats sind unbestätigt (befinden sich noch im Mempool).
 
-![image](assets/33.png)
+![image](assets/33.webp)
 
 Wenn wir nun zum Tab "Coins" wechseln, können wir zwei "empfangene Münzen" oder UTXOs sehen. Sie befinden sich beide in derselben Adresse.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 
 Wenn wir zum Adress-Tab zurückkehren und auf den Bereich "Labels" neben der Adresse doppelklicken, können Sie einen Text eingeben und dann <Enter> drücken, um zu speichern:
 
-![image](assets/35.png)
+![image](assets/35.webp)
 Dies ist eine gute Übung, damit Sie verfolgen können, woher Ihre Münzen stammen, ob sie KYC-frei sind oder nicht und wie viel jeder UTXO Sie gekostet hat (falls Sie verkaufen und die Steuer berechnen müssen, die Ihnen von Ihrer Regierung gestohlen wird).
 
 Idealerweise sollten Sie vermeiden, mehrere Münzen an derselben Adresse anzusammeln. Wenn Sie sich dennoch dafür entscheiden (tun Sie das nicht), können Sie statt alle Münzen mit demselben Etikett zu versehen, jede Münze mit einem Etikett versehen, indem Sie die Adressmethode verwenden. Sie können tatsächlich nicht zum "Münzen"-Tab gehen und die Etiketten dort bearbeiten (nein, das wäre zu intuitiv!). Sie müssen zum Tab "Verlauf" gehen, die Transaktion finden, diese kennzeichnen und dann sehen Sie die Etiketten im Münzen-Bereich. Alle Etiketten, die Sie im Münzen-Bereich sehen, stammen entweder von den Adressetiketten oder den Verlaufsetiketten, aber jedes Verlaufsetikett hat Vorrang vor einem Adressetikett. Um Ihre Etiketten in einer Datei zu sichern, können Sie sie über das Menü oben exportieren, Wallet -> Etiketten -> Exportieren.
 
 Als nächstes verwenden wir die Münzen von der ersten Adresse für die zweite Adresse. Klicken Sie mit der rechten Maustaste auf die erste Adresse und wählen Sie "Ausgeben von" (Dies ist in diesem Szenario eigentlich nicht erforderlich, aber stellen Sie sich vor, wir haben viele Münzen in vielen Adressen; mit dieser Funktion können wir das Wallet zwingen, nur die gewünschten Münzen auszugeben. Wenn wir mehrere Münzen in mehreren Adressen auswählen möchten, können wir die Adressen mit einem Linksklick bei gedrückter Befehlstaste auswählen, dann mit der rechten Maustaste klicken und "Ausgeben von" auswählen:
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 Sobald Sie das getan haben, erscheint eine grüne Leiste am unteren Rand des Wallet-Fensters, die die Anzahl der ausgewählten Münzen und den insgesamt verfügbaren Betrag anzeigt.
 
 Sie können auch einzelne Münzen innerhalb einer Adresse ausgeben und andere ausschließen, die sich in derselben Adresse befinden, aber dies wird nicht empfohlen, da Sie Münzen in einer Adresse belassen, die aufgrund der Ausgabe einer der Münzen kryptografisch geschwächt wurde (ein weiterer Grund, keine mehreren Münzen an einer Adresse zu haben, abgesehen von Datenschutzgründen, ist, dass Sie, wenn Sie eine Münze ausgeben, alle ausgeben sollten, was unnötig teuer wird). So wählen Sie eine einzelne Münze aus einer gemeinsam genutzten Adresse aus, aber tun Sie das nicht:
 
-![image](assets/37.png)
+![image](assets/37.webp)
 
 Nun haben wir die beiden Münzen zum Ausgeben ausgewählt. Als nächstes entscheiden wir, wohin wir sie senden möchten. Lassen Sie uns sie an die zweite Adresse senden. Wir müssen die Adresse wie folgt kopieren:
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 Gehen Sie dann zum Tab "Senden" und fügen Sie die zweite Adresse in das Feld "An" ein. Es ist nicht notwendig, eine Beschreibung hinzuzufügen; Sie könnten es tun, aber Sie können dies später durch Bearbeiten der Etiketten tun. Wählen Sie für den Betrag "Max" aus, um alle ausgewählten Münzen auszugeben. Klicken Sie dann auf "Bezahlen" und anschließend auf die Schaltfläche "Erweitert" in dem angezeigten Popup.
 
-![image](assets/39.png)
+![image](assets/39.webp)
 
 Klicken Sie in diesem Stadium immer auf "Erweitert", damit wir eine feine Kontrolle haben und genau überprüfen können, was in der Transaktion enthalten ist. Hier ist die Transaktion:
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 Wir sehen zwei interne weiße Kästchen/Fenster. Das obere ist das Eingabefenster (welche Münzen ausgegeben werden) und das untere ist das Ausgabefenster (wohin die Münzen gehen).
 Beachte, der Status (oben links) ist vorerst "nicht signiert". Der "Gesendete Betrag" beträgt 0, da die Münzen innerhalb der Brieftasche übertragen werden. Die Gebühr beträgt 481 Sats. Beachte, dass wenn es 480 Sats wären, die letzte Null weggelassen würde, wie folgt: 0,0000048 und für das müde Auge kann dies wie 48 Sats aussehen - sei vorsichtig (etwas, das die Electrum-Entwickler beheben sollten).
@@ -579,7 +577,7 @@ Die Größe der Transaktion bezieht sich auf die Datenmenge in Bytes, nicht auf 
 
 Unten haben wir einige ausgeklügelte Werkzeuge zur Anpassung der Mining-Gebühr. Alles, was Sie für interne Überweisungen tun müssen, ist, sie auf die Mindestgebühr von 1 Sat/Byte einzustellen. Geben Sie einfach die Zahl manuell in das Feld "Zielgebühr" ein. Um eine angemessene Gebühr für eine externe Zahlung zu überprüfen, können Sie https://mempool.space konsultieren, um zu sehen, wie ausgelastet der Mempool ist, und es werden einige vorgeschlagene Gebühren angezeigt.
 
-![image](assets/41.png)
+![image](assets/41.webp)
 
 Ich habe 1 Sat/Byte ausgewählt.
 
@@ -597,7 +595,7 @@ Wenn wir die Mining-Gebühr anpassen, ändert sich der Ausgabewert automatisch.
 
 Sobald Sie alles in der Transaktion überprüft haben und sicher sind, dass Sie mit den Münzen, die Sie ausgeben, zufrieden sind und wohin die Münzen gehen, können Sie auf "Finalisieren" klicken.
 
-![image](assets/42.png)
+![image](assets/42.webp)
 
 Nachdem Sie auf "Finalisieren" geklickt haben, können Sie keine Änderungen mehr vornehmen - Wenn Sie dies tun müssen, müssen Sie dies schließen und erneut beginnen. Beachten Sie, dass die Schaltfläche "Finalisieren" in "Exportieren" geändert wurde und neue Schaltflächen angezeigt werden: "Speichern", "Kombinieren", "Unterzeichnen" und "Übertragen". Die Schaltfläche "Übertragen" ist ausgegraut, da die Transaktion nicht signiert ist und daher in diesem Stadium ungültig ist.
 
@@ -611,15 +609,15 @@ Etwas, das erwähnt werden sollte, ist, dass wir anstelle einer Übertragung die
 
 Klicken Sie auf die Schaltfläche "Exportieren" (paradoxerweise klicken Sie NICHT auf die Schaltfläche "Speichern"), und es werden Ihnen verschiedene Optionen angezeigt. Die Transaktion ist mit Text codiert und kann daher auf verschiedene Arten gespeichert werden.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 Das Speichern als QR-Code ist sehr interessant. Wenn Sie dies wählen, wird ein QR-Code angezeigt:
 
-![image](assets/44.png)
+![image](assets/44.webp)
 
 Sie können dann ein Foto des QR-Codes machen. Es gibt verschiedene Dinge, die Sie damit tun können, aber vorerst nehmen wir an, dass Sie ihn später wieder in die Brieftasche laden. Sie können Electrum schließen, die Brieftasche erneut laden und zum Menü "Tools" gehen:
 
-![image](assets/45.png)
+![image](assets/45.webp)
 
 Dadurch wird die Kamera Ihres Computers aktiviert. Zeigen Sie dann der Kamera das Foto des QR-Codes auf Ihrem Telefon, und die Transaktion wird genau so geladen, wie Sie sie verlassen haben.
 
@@ -643,11 +641,11 @@ Beachte, dass sich der Betrag der Wechselausgabe automatisch anpasst, nicht der 
 
 Dies ist eine wirklich interessante Funktion von Electrum. Du greifst darauf wie folgt zu.
 
-![image](assets/46.png)
+![image](assets/46.webp)
 
 Du kannst dann mehrere Ziele für das UTXO-Guthaben angeben, das du ausgibst, wie folgt:
 
-![image](assets/47.png)
+![image](assets/47.webp)
 
 Füge die Adresse ein, gib ein Komma, dann ein Leerzeichen, dann den Betrag ein, dann <Enter> ein und wiederhole es. GIB DIE BETRÄGE NICHT IN DIE "BETRAG"-FENSTER EIN - Electrum füllt hier automatisch den Gesamtbetrag ein, während du die einzelnen Beträge im "An" -Fenster eingibst.
 
@@ -677,11 +675,11 @@ PASSPHRASE: "Craig Wright ist ein Lügner und Betrüger und gehört ins Gefängn
 
 Die Passphrase kann bis zu 100 Zeichen lang sein und sollte idealerweise eindeutig und nicht zu kurz sein - die von mir verwendete ist nur zum Spaß - ich empfehle im Allgemeinen, Großbuchstaben und Symbole zu vermeiden, um Ihren Stress beim Ausprobieren von Kombinationen zu reduzieren, falls Sie jemals Probleme haben, sich an Ihre Passphrase zu erinnern.
 
-![image](assets/48.png)
+![image](assets/48.webp)
 
 Als nächstes gehen Sie in Electrum zum Menü Datei -> Neu/Wiederherstellen. Geben Sie einen eindeutigen Namen ein, um eine neue Geldbörse zu erstellen, und klicken Sie auf "Weiter".
 
-![image](assets/49.png)
+![image](assets/49.webp)
 
 Die nächsten Schritte sollten Ihnen mittlerweile vertraut sein, daher werde ich sie ohne Bilder auflisten:
 
@@ -695,11 +693,11 @@ Die nächsten Schritte sollten Ihnen mittlerweile vertraut sein, daher werde ich
 
 Gehen Sie nun zurück zur Ian Coleman-Website, scrollen Sie zum Abschnitt "Ableitungspfad" und klicken Sie auf die Registerkarte "BIP 84", um die gleichen Skript- und Semantikeinstellungen wie in Electrum (Native Segwit) auszuwählen.
 
-![image](assets/50.png)
+![image](assets/50.webp)
 
 Die erweiterten privaten und öffentlichen Schlüssel befinden sich direkt darunter und ändern sich, wenn Sie Änderungen am Ableitungspfad (oder an etwas anderem weiter oben auf der Seite) vornehmen.
 
-![image](assets/51.png)
+![image](assets/51.webp)
 
 Sie werden auch "BIP32 erweiterte private/öffentliche" Schlüssel sehen - diese sollen vorerst ignoriert werden.
 
@@ -759,7 +757,7 @@ Einige Betriebssysteme öffnen automatisch den Datei-Explorer, wenn Sie die micr
 
 Öffnen Sie Electrum. Wenn es bereits mit einem anderen Wallet geöffnet ist, wählen Sie Datei –> Neu. Wir suchen nach diesem Fenster:
 
-![image](assets/52.png)
+![image](assets/52.webp)
 
 Hier ist der Trick, er ist nicht intuitiv. Klicken Sie auf "Auswählen". Navigieren Sie dann im Dateisystem auf der microSD-Karte und finden Sie die Wallet-Datei und öffnen Sie sie.
 
@@ -793,7 +791,7 @@ sudo nano /etc/udev/rules.d
 
 Ein Texteditor wird geöffnet. Kopieren Sie den Text von hier und fügen Sie ihn in die Datei rules.d ein, speichern Sie und beenden Sie den Editor.
 
-![image](assets/53.png)
+![image](assets/53.webp)
 
 Führen Sie dann nacheinander diese Befehle aus:
 
@@ -861,7 +859,7 @@ Dazu können Sie die Programmdateien auf einen USB-Stick kopieren und auch das .
 
 Wie ich bereits erklärt habe, gibt es auf dem Adress-Tab eine Spalte für Labels. Sie können dort doppelklicken und Notizen für sich selbst eingeben (es ist nur auf Ihrem Computer, nicht öffentlich und nicht in der Blockchain).
 
-![image](assets/54.png)
+![image](assets/54.webp)
 
 Wenn Sie Ihr Electrum-Wallet auf einen anderen Computer verschieben, möchten Sie möglicherweise nicht alle diese Notizen verlieren. Sie können sie über das Menü "Wallet" -> "Labels" -> "Exportieren" in eine Datei sichern und dann auf dem neuen Computer über "Wallet" -> "Labels" -> "Importieren" verwenden.
 

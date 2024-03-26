@@ -1,0 +1,9 @@
+question: ¿Cuál fue la moneda de Perú antes del siglo XIX?
+answer: Oro español.
+wrong_answers:
+  - El dólar peruano.
+  - El real peruano.
+  - El soldi oro.
+explanation: |
+  Perú utilizó oro español hasta el siglo XIX. El dólar peruano estuvo en uso desde 1822 hasta 1863.
+reviewed: false

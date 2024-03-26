@@ -4,8 +4,6 @@ name: Bull Bitcoin
 description: Bull Bitcoin User Guide
 ---
 
-# Bull Bitcoin
-
 ![payment solution](assets/cover.jpeg)
 
 Bull Bitcoin (https://www.bullbitcoin.com) is a non-custodial exchange and payment service - Bitcoin only, no compromises!
@@ -20,7 +18,7 @@ How To Buy Bitcoin In Canada: Bull Bitcoin by BTCsession
 
 **This tutorial is provided by WINTER ☩ HODLER as part of Agora256, thanks for his work**
 
-![payment solution](assets/1.jpeg)
+![payment solution](assets/1.webp)
 
 One of the most exciting propositions of fiat currencies is certainly being able to exchange them for bitcoins, ideally without even having to identify oneself too much; a method often referred to as no-KYC or KYC-free. The acronym 'KYC' refers to the process of verifying the identity of a particular individual or entity in accordance with certain government regulations.
 
@@ -39,7 +37,7 @@ The operation is quite simple: you need to go to one of the 5948 Canada Post cou
 
 Then, you just need to specify the amount you want to spend (between $10.00 and $999.99) and pay in cash or by debit card. After 10 minutes, the transaction will be completed on Bull Bitcoin. Fees of $3.50 to $3.95 apply, depending on the amount, when making the transaction at the post office. These fees are considerably lower than those found with Bitcoin ATMs, another popular option that is free of KYC.
 
-![payment solution](assets/2.jpeg)
+![payment solution](assets/2.webp)
 
 Note that daily and weekly transaction limits of $999.99 and $2500.00 apply, respectively. Any attempt to exceed these limits when making a payment at the post office will simply result in the transaction being automatically canceled.
 
@@ -47,7 +45,7 @@ Note that daily and weekly transaction limits of $999.99 and $2500.00 apply, res
 
 When funds are available in your Bull Bitcoin account, it's time to move on to the step of buying bitcoins! Go to the 'Buy Bitcoin' page located in the main menu. From there, you will need to enter the amount of your balance that you want to spend, as well as the network of your choice (Bitcoin, Lightning Network, Liquid).
 
-![image 3](assets/3.jpeg)
+![image 3](assets/3.webp)
 
 For the Bitcoin and Liquid networks, you will need to share an address in order to create the purchase order. As for the Lightning network, Bull Bitcoin offers two different payment methods: LNURL (the default option) or Bolt11, once the order is created.
 

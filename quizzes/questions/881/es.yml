@@ -1,0 +1,9 @@
+question: ¿Qué es el dilema del prisionero en el contexto de la división del trabajo?
+answer: Es una situación en la que la colaboración mutua resulta en ganancias subóptimas para los individuos pero ganancias máximas para el grupo.
+wrong_answers:
+  - Es una situación en la que los individuos se niegan a colaborar, lo que lleva a ganancias máximas para el grupo.
+  - Es una situación en la que los individuos colaboran, lo que lleva a ganancias máximas para ellos mismos pero ganancias subóptimas para el grupo.
+  - Es una situación en la que los individuos se niegan a colaborar, lo que lleva a ganancias subóptimas tanto para ellos mismos como para el grupo.
+explanation: |
+  El dilema del prisionero es un concepto en la teoría de juegos donde los individuos tienen un incentivo para elegir estrategias que maximicen su ganancia individual, sin importar las estrategias elegidas por otros, incluso cuando es posible un equilibrio más deseable a través de la coordinación/colaboración.
+reviewed: false

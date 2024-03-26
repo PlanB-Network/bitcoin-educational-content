@@ -63,7 +63,7 @@ Jede Signatur liefert eine Zeile, die mit "gpg: Good signature" beginnt, und ein
 
 5. Um einen pruned node auszuwählen, aktivieren Sie "Limit blockchain storage" und konfigurieren Sie die Datenbegrenzung:
 
-![welcome](assets/1.jpeg)
+![welcome](assets/1.webp)
 
 ## Fazit Teil 1: Installationsanleitung
 
@@ -71,7 +71,7 @@ Nach der Installation von Bitcoin Core wird empfohlen, es so lange wie möglich 
 
 Es ist jedoch eine gute Praxis, den Knotenpunkt gelegentlich laufen und synchronisieren zu lassen, auch nur um empfangene und gesendete Transaktionen zu validieren.
 
-![Creation wallet](assets/2.jpeg)'
+![Creation wallet](assets/2.webp)'
 
 # Konfiguration von Tor für einen Bitcoin Core Knoten
 
@@ -93,7 +93,7 @@ sudo systemctl restart tor
 
 Als nächstes starten wir die grafische Oberfläche von Bitcoin Core mit dem Befehl bitcoin-qt. Dann aktivieren wir die automatische Funktion der Software, um unsere Verbindungen über einen Tor-Proxy zu leiten: Einstellungen > Netzwerk, und von dort aus können wir die Option Über SOCKS5-Proxy verbinden (Standard-Proxy) sowie einen separaten SOCKS5-Proxy verwenden, um Peers über Tor-Zwiebel-Dienste zu erreichen.
 
-![option](assets/3.jpeg)
+![option](assets/3.webp)
 
 Bitcoin Core erkennt automatisch, ob Tor installiert ist und wenn ja, wird es standardmäßig ausgehende Verbindungen zu anderen Knoten herstellen, die ebenfalls Tor benutzen, zusätzlich zu Verbindungen zu Knoten, die IPv4/IPv6-Netzwerke (clearnet) benutzen.
 
@@ -103,7 +103,7 @@ Bitcoin Core erkennt automatisch, ob Tor installiert ist und wenn ja, wird es st
 
 Es ist möglich, Bitcoin Core so zu konfigurieren, dass es nur das Tor-Netzwerk verwendet, um sich mit Peers zu verbinden und so die Anonymität durch unseren Knoten zu optimieren. Da es dafür keine Funktion in der grafischen Oberfläche gibt, müssen wir manuell eine Konfigurationsdatei erstellen. Gehe zu Einstellungen und dann zu Optionen.
 
-![Option 2](assets/4.jpeg)
+![Option 2](assets/4.webp)
 
 Klicken Sie hier auf Konfigurationsdatei öffnen. In der Textdatei bitcoin.conf fügen Sie einfach die Zeile onlynet=onion ein und speichern die Datei. Sie müssen Bitcoin Core neu starten, damit dieser Befehl wirksam wird.
 
@@ -113,7 +113,7 @@ Geben Sie im Terminal sudo nano /etc/tor/torrc ein, um auf die Konfigurationsdat
 
 Mit dieser Konfiguration kann Bitcoin Core nun eingehende und ausgehende Verbindungen nur über das Tor-Netzwerk (Onion) herstellen. Um dies zu bestätigen, klicken Sie auf das Fenster-Tab und dann auf "Peers".
 
-![Fenster der Knoten](assets/5.jpeg)
+![Fenster der Knoten](assets/5.webp)
 
 ## Weitere Ressourcen
 

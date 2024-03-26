@@ -62,40 +62,40 @@ Der Antminer S9 ist in mehreren Varianten (i, j) erhältlich, die geringfügige 
 
 Der Preis von ASICs variiert je nach vielen Faktoren wie dem Bitcoin-Preis, der Netzwerkschwierigkeit, der Effizienz der Maschine und den Stromkosten. Es ist daher schwierig, eine genaue Schätzung für den Kauf einer gebrauchten Maschine abzugeben. Im Februar 2023 liegt der erwartete Preis in Frankreich in der Regel zwischen 100€ und 200€, aber diese Preise können sich sehr schnell ändern.
 
-![image](assets/guide-achat/1.jpeg)
+![image](assets/guide-achat/1.webp)
 
 Der Antminer S9 besteht aus folgenden Teilen:
 
 - 3 Hashboards, auf denen die Chips zur Erzeugung des Hashes angebracht sind
 
-![image](assets/guide-achat/2.jpeg)'
+![image](assets/guide-achat/2.webp)'
 
 - Eine Steuerkarte mit einem Steckplatz für eine SD-Karte, einem Ethernet-Anschluss und Anschlüssen für die Hashboards und Lüfter. Das ist das Gehirn Ihres ASIC.
-  ![image](assets/guide-achat/3.jpeg)
+  ![image](assets/guide-achat/3.webp)
 
 - 3 Datenkabel, die die Hashboards mit der Steuerkarte verbinden.
 
-![image](assets/guide-achat/4.jpeg)
+![image](assets/guide-achat/4.webp)
 
 - Das Netzteil, das mit 220V funktioniert und daher wie ein herkömmliches Haushaltsgerät angeschlossen werden kann.
 
-![image](assets/guide-achat/5.jpeg)
+![image](assets/guide-achat/5.webp)
 
 - 2 120mm Lüfter
 
-![image](assets/guide-achat/6.jpeg)
+![image](assets/guide-achat/6.webp)
 
 - Ein männliches C13-Kabel
 
-![image](assets/guide-achat/7.jpeg)
+![image](assets/guide-achat/7.webp)
 
 Beim Kauf einer gebrauchten Maschine ist es wichtig, zu überprüfen, ob alle Teile vorhanden und funktionsfähig sind. Bei der Übergabe sollten Sie den Verkäufer bitten, die Maschine einzuschalten, um ihre ordnungsgemäße Funktion zu überprüfen. Es ist wichtig zu überprüfen, ob das Gerät ordnungsgemäß eingeschaltet wird und dann die Internetverbindung zu überprüfen, indem Sie ein Ethernet-Kabel anschließen und über einen Webbrowser auf demselben lokalen Netzwerk auf die Bitmain-Verbindungsseite zugreifen. Sie können diese IP-Adresse finden, indem Sie sich mit der Benutzeroberfläche Ihres Internetrouters verbinden und nach verbundenen Geräten suchen. Diese Adresse sollte das folgende Format haben: 192.168.x.x
 
-![image](assets/guide-achat/8.gif)
+![image](assets/guide-achat/8.webp)
 
 Überprüfen Sie auch, ob die Standardanmeldeinformationen funktionieren (Benutzername: root, Passwort: root). Wenn die Standardanmeldeinformationen nicht funktionieren, müssen Sie einen Reset der Maschine durchführen.
 
-![image](assets/guide-achat/9.jpeg)
+![image](assets/guide-achat/9.webp)
 
 Sobald Sie verbunden sind, sollten Sie den Status jedes Hashboards auf dem Dashboard sehen können. Wenn der Miner mit einem Pool verbunden ist, sollten alle Hashboards funktionieren. Es ist wichtig zu beachten, dass Miner viel Lärm machen, das ist normal. Stellen Sie außerdem sicher, dass die Lüfter ordnungsgemäß funktionieren.
 
@@ -106,7 +106,7 @@ Um diesen Leitfaden in einem Satz zusammenzufassen: "Vertraue nicht, überprüfe
 
 ## Kapitel 2: Leitfaden zum Kauf von Teilen für Modifikationen
 
-![image](assets/piece/1.jpeg)
+![image](assets/piece/1.webp)
 
 ### Wie verwandelt man seinen Antminer S9 in eine leise und vernetzte Heizung?
 
@@ -116,26 +116,26 @@ Wenn Sie einen Antminer S9 besitzen, wissen Sie wahrscheinlich, wie laut und spe
 
 Die Original-Lüfter des Antminer S9 sind zu laut, um Ihren Antminer als Heizung zu verwenden. Die Lösung besteht darin, sie durch leisere Lüfter zu ersetzen. Unser Team hat verschiedene Modelle der Marke Noctua getestet und den Noctua NF-A14 iPPC-2000 PWM als besten Kompromiss ausgewählt. Achten Sie darauf, die 12V-Version der Lüfter auszuwählen. Dieser 140mm Lüfter kann bis zu 1300W Heizleistung erzeugen und gleichzeitig einen theoretischen Geräuschpegel von 31 dB aufrechterhalten. Um diese 140mm Lüfter montieren zu können, benötigen Sie einen 140mm auf 120mm Adapter, den Sie im DécouvreBitcoin-Shop finden können. Außerdem werden wir auch 140mm Schutzgitter hinzufügen.
 
-![image](assets/piece/1.jpeg)
-![image](assets/piece/2.jpeg)
-![image](assets/piece/3.jpeg)
+![image](assets/piece/1.webp)
+![image](assets/piece/2.webp)
+![image](assets/piece/3.webp)
 
 Der Lüfter des Netzteils ist ebenfalls ziemlich laut und muss ausgetauscht werden. Wir empfehlen den Noctua NF-A6x25 PWM. Beachten Sie, dass die Anschlüsse der Noctua-Lüfter nicht die gleichen sind wie die Original-Anschlüsse, daher benötigen Sie einen Adapter, um sie anzuschließen. Zwei sollten ausreichen. Achten Sie auch hier darauf, die 12V-Version des Lüfters auszuwählen.
 
-![image](assets/piece/4.jpeg)
-![image](assets/piece/5.jpeg)
+![image](assets/piece/4.webp)
+![image](assets/piece/5.webp)
 
 ### 2. Hinzufügen eines WLAN/Ethernet-Bridges
 
 Anstatt ein Ethernet-Kabel zu verwenden, können Sie Ihren Antminer über WLAN verbinden, indem Sie einen WLAN/Ethernet-Bridge hinzufügen. Wir haben den vonets vap11g-300 ausgewählt, da er das WLAN-Signal Ihres Internet-Routers einfach empfangen und an Ihren Antminer über Ethernet weiterleiten kann, ohne ein separates Netzwerk zu erstellen. Wenn Sie über Elektrokenntnisse verfügen, können Sie ihn direkt mit der Stromversorgung des Antminer betreiben, ohne ein USB-Ladegerät hinzufügen zu müssen. Dafür benötigen Sie eine 5,5mmx2,1mm Buchse.
 
-![image](assets/piece/6.jpeg)
-![image](assets/piece/7.jpeg)
+![image](assets/piece/6.webp)
+![image](assets/piece/7.webp)
 
 ### 3. Optional: Hinzufügen einer intelligenten Steckdose
 
 Wenn Sie Ihren Antminer von Ihrem Smartphone aus ein- und ausschalten und seinen Energieverbrauch überwachen möchten, können Sie eine vernetzte Steckdose hinzufügen. Wir haben die ANTELA-Steckdose in der 16A-Version getestet, die mit der smartlife-App kompatibel ist. Diese vernetzte Steckdose ermöglicht es, den Verbrauch Tag für Tag und Monat für Monat abzurufen und verbindet sich direkt über WIFI mit Ihrer Internetbox.
-![Bild](assets/piece/8.jpeg)
+![Bild](assets/piece/8.webp)
 
 > Materialliste und Links
 >
@@ -148,7 +148,7 @@ Wenn Sie Ihren Antminer von Ihrem Smartphone aus ein- und ausschalten und seinen
 
 ## Kapitel 3 - TUTORIAL: Wie macht man aus einem Bergmann eine Heizung?
 
-![image](assets/hardware/0.jpeg)
+![image](assets/hardware/0.webp)
 
 Wenn Sie ein versierter Bastler sind und versuchen, einen Bergmann in eine Heizung umzuwandeln, ist dieses Tutorial genau das Richtige für Sie. Wir möchten Sie darauf hinweisen, dass Änderungen an einem elektronischen Gerät elektrische und Brandgefahren bergen können. Daher müssen Sie unbedingt alle notwendigen Vorsichtsmaßnahmen ergreifen, um Schäden oder Verletzungen zu vermeiden.
 
@@ -172,98 +172,98 @@ Wir beginnen damit, den Lüfter des Netzteils auszutauschen.
 
 > ACHTUNG: Bevor Sie beginnen, vergewissern Sie sich zunächst, dass Sie Ihren Minor vom Stromnetz getrennt haben, um die Gefahr eines Stromschlags zu vermeiden.
 
-![image](assets/hardware/1.jpeg)
+![image](assets/hardware/1.webp)
 
 Wir beginnen damit, den Lüfter des Netzteils auszutauschen.
 
 Entfernen Sie zunächst die 6 Schrauben an der Seite des Gehäuses, die es geschlossen halten. Wenn Sie die Schrauben entfernt haben, öffnen Sie das Gehäuse vorsichtig, um den Plastikschutz zu entfernen, der die Komponenten abdeckt.
 
-![image](assets/hardware/2.jpeg)
-![image](assets/hardware/3.jpeg)'
+![image](assets/hardware/2.webp)
+![image](assets/hardware/3.webp)'
 
 Ensuite ist es Zeit, den Original-Lüfter zu entfernen, wobei darauf geachtet werden muss, die anderen Komponenten nicht zu beschädigen. Entfernen Sie dazu die Schrauben, die ihn an Ort und Stelle halten, und lösen Sie vorsichtig den weißen Kleber um den Stecker herum. Es ist wichtig, vorsichtig vorzugehen, um die Drähte oder Stecker nicht zu beschädigen.
 
-![image](assets/hardware/4.jpeg)
+![image](assets/hardware/4.webp)
 
 Nachdem der Original-Lüfter entfernt wurde, werden Sie feststellen, dass die Anschlüsse des neuen Noctua-Lüfters nicht mit denen des Original-Lüfters übereinstimmen. Der neue Lüfter verfügt tatsächlich über 3 Drähte, wobei ein gelber Draht die Geschwindigkeit steuert. In diesem speziellen Fall wird dieser Draht jedoch nicht verwendet. Um den neuen Lüfter anzuschließen, wird daher empfohlen, einen speziellen Adapter zu verwenden. Es ist jedoch wichtig zu beachten, dass dieser Adapter manchmal schwer zu finden sein kann.
 
-![image](assets/hardware/5.jpeg)
+![image](assets/hardware/5.webp)
 
 Wenn Sie diesen Adapter nicht haben, können Sie den neuen Lüfter dennoch anschließen, indem Sie einen Drahtmutter verwenden. Dazu müssen Sie die Kabel des alten und des neuen Lüfters abschneiden.
 
-![image](assets/hardware/6.jpeg)
-![image](assets/hardware/7.jpeg)
+![image](assets/hardware/6.webp)
+![image](assets/hardware/7.webp)
 
 Verwenden Sie auf dem neuen Lüfter einen Cutter und schneiden Sie vorsichtig die Konturen des Hauptmantels 1 cm lang, ohne die Kabelmäntel darunter zu durchtrennen.
 
-![image](assets/hardware/8.jpeg)
+![image](assets/hardware/8.webp)
 
 Ziehen Sie dann den Hauptmantel nach unten und schneiden Sie die Kabelmäntel des roten und schwarzen Kabels auf die gleiche Weise wie zuvor ab. Schneiden Sie das gelbe Kabel bündig ab.
 
-![image](assets/hardware/9.jpeg)
+![image](assets/hardware/9.webp)
 
 Es ist schwieriger, den Hauptmantel des alten Lüfters ohne Beschädigung der roten und schwarzen Kabelmäntel zu durchtrennen. Dazu haben wir eine Nadel verwendet, die wir zwischen den Hauptmantel und die roten und schwarzen Kabel geschoben haben.
 
-![image](assets/hardware/10.jpeg)
-![image](assets/hardware/11.jpeg)
+![image](assets/hardware/10.webp)
+![image](assets/hardware/11.webp)
 
 Sobald die roten und schwarzen Kabel freigelegt sind, schneiden Sie vorsichtig die Kabelmäntel ab, um die elektrischen Drähte nicht zu beschädigen.
 
-![image](assets/hardware/12.jpeg)
+![image](assets/hardware/12.webp)
 
 Verbinden Sie dann die Kabel mit einer Drahtmutter, das schwarze Kabel mit dem schwarzen und das rote Kabel mit dem roten. Sie können auch Elektriker-Klebeband hinzufügen.
 
-![image](assets/hardware/13.jpeg)
-![image](assets/hardware/14.jpeg)
+![image](assets/hardware/13.webp)
+![image](assets/hardware/14.webp)
 
 Nachdem die Verbindung hergestellt wurde, ist es an der Zeit, den neuen Noctua-Lüfter mit dem Gitter und den alten Schrauben zu befestigen. Die neuen Schrauben, die sich in der Box befinden, werden später wiederverwendet. Stellen Sie sicher, dass Sie ihn in der richtigen Ausrichtung platzieren. Sie werden einen Pfeil auf einer der Seiten des Lüfters bemerken, der die Richtung des Luftstroms angibt. Es ist wichtig, den Lüfter so zu platzieren, dass dieser Pfeil nach innen zum Gehäuse zeigt. Schließen Sie dann den Lüfter wieder an.
 
-![image](assets/hardware/15.jpeg)![image](assets/hardware/16.jpeg)
+![image](assets/hardware/15.webp)![image](assets/hardware/16.webp)
 
 > Optional: Wenn Sie über Elektrokenntnisse verfügen, können Sie direkt an den 12V-Stromausgang einen weiblichen 5,5-mm-Klinkenstecker hinzufügen, um den Wi-Fi-Brücke Vonet direkt mit Strom zu versorgen. Wenn Sie sich jedoch nicht sicher sind, was Ihre Elektrofähigkeiten betrifft, ist es besser, den USB-Anschluss mit einem Smartphone-Ladegerät zu verwenden, um das Risiko eines Kurzschlusses oder eines elektrischen Schadens zu vermeiden.
 
-![image](assets/hardware/17.jpeg)
+![image](assets/hardware/17.webp)
 
 Nachdem die Verbindungen hergestellt wurden, setzen Sie die Kunststoffabdeckung wieder über den Kunststoffgehäuse und nicht hinein.
 
-![image](assets/hardware/18.jpeg)
+![image](assets/hardware/18.webp)
 
 Setzen Sie abschließend die Gehäuseabdeckung wieder ein und schrauben Sie die 6 Schrauben an den Seiten fest, um alles an Ort und Stelle zu halten. Und voilà, Ihr Stromversorgungsgehäuse ist jetzt mit einem neuen Lüfter ausgestattet.
 
 ### Austausch der 2 Hauptlüfter
 
 1. Zuerst trennen Sie die Lüfter ab und schrauben sie ab.
-   ![image](assets/hardware/19.jpeg)
+   ![image](assets/hardware/19.webp)
 
 2. Die Anschlüsse der neuen Noctua-Lüfter passen nicht zu den Originalanschlüssen, aber keine Panik! Nehmen Sie Ihr Cutter-Messer heraus und schneiden Sie vorsichtig die kleinen Plastiklaschen ab, damit die Anschlüsse perfekt zu Ihrem Miner passen.
 
-![image](assets/hardware/20.jpeg)
-![image](assets/hardware/21.jpeg)
+![image](assets/hardware/20.webp)
+![image](assets/hardware/21.webp)
 
 3. Jetzt ist es Zeit, die 3D-Teile zu installieren!
    Befestigen Sie sie auf beiden Seiten des Miners mit den Schrauben, die Sie von den Lüftern entfernt haben. Schrauben Sie so fest, dass der Schraubenkopf in das 3D-Teil eintaucht und es gut fixiert ist. Achten Sie darauf, nicht zu fest anzuziehen, da Sie das Teil verformen könnten und eine der Schrauben einen Kondensator berühren könnte! Schneiden Sie dann vorsichtig die kleinen Plastiklaschen ab, damit die Anschlüsse perfekt zu Ihrem Miner passen.
 
-![image](assets/hardware/22.jpeg)
+![image](assets/hardware/22.webp)
 
 4. Gehen wir nun zu den Lüftern über.
    Befestigen Sie sie mit den im Lieferumfang des Gehäuses enthaltenen Schrauben an den 3D-Teilen. Achten Sie auf die Luftzirkulationsrichtung, die Pfeile an den Seiten der Lüfter zeigen Ihnen die Richtung an. Gehen Sie von der Ethernet-Port-Seite zur anderen Seite. Siehe Foto unten.
 
-![image](assets/hardware/23.jpeg)
-![image](assets/hardware/24.jpeg)
-![image](assets/hardware/25.jpeg)
+![image](assets/hardware/23.webp)
+![image](assets/hardware/24.webp)
+![image](assets/hardware/25.webp)
 
 5. Letzter Schritt: Schließen Sie die Lüfter an und befestigen Sie die Gitter mit den Schrauben, die nicht im Lüftergehäuse verwendet wurden. Sie haben nur 4 davon, aber 2 pro Gitter in gegenüberliegenden Ecken reichen aus. Bei Bedarf können Sie auch in einem Baumarkt nach ähnlichen Schrauben suchen.
 
-![image](assets/hardware/26.jpeg)
-'![image](assets/hardware/27.jpeg)
+![image](assets/hardware/26.webp)
+'![image](assets/hardware/27.webp)
 
 Während Sie darauf warten, Ihrem neuen Heizgerät ein sexyeres Gehäuse zu bieten, können Sie das Gehäuse und das Netzteil mit Elektriker-Kabelbindern zusammenbinden.
 
-![image](assets/hardware/28.jpeg)
+![image](assets/hardware/28.webp)
 
 Und für den letzten Schliff schließen Sie den Vonet-Bridge an den Ethernet-Port an seine Stromversorgung an. Wenn Sie dies noch nicht getan haben, können Sie diesem Tutorial folgen, um Ihren Bridge einzurichten.
 
-![image](assets/hardware/29.jpeg)
+![image](assets/hardware/29.webp)
 
 Und voilà, Bravo! Sie haben gerade den gesamten mechanischen Teil Ihres Miners ausgetauscht. Sie sollten jetzt viel weniger Lärm hören.
 
@@ -277,7 +277,7 @@ Diese Methode kann innerhalb von 10 Minuten nach dem Start des Miners angewendet
 
 Nachdem Sie den Miner 2 Minuten lang eingeschaltet haben, drücken Sie bitte 5 Sekunden lang auf die "Reset"-Taste und lassen Sie sie dann los. Der Miner wird innerhalb von 4 Minuten auf die Werkseinstellungen zurückgesetzt und startet automatisch neu (es ist nicht erforderlich, ihn auszuschalten).
 
-![image](assets/software/1.jpeg)
+![image](assets/software/1.webp)
 
 Wiederherstellung über die Webseite
 
@@ -289,7 +289,7 @@ Für diesen Teil nehmen wir an, dass die Maschine funktioniert, eingeschaltet is
 
 Zuerst verbinden Sie sich über Ihr lokales Netzwerk mit Ihrer Maschine:
 
-![image](assets/software/2.gif)
+![image](assets/software/2.webp)
 
 Sobald Sie auf der Anmeldeseite sind, müssen Sie sich mit den Standard-Anmeldeinformationen beim ASIC anmelden:
 
@@ -300,11 +300,11 @@ Sobald Sie auf der Anmeldeseite sind, müssen Sie sich mit den Standard-Anmeldei
 
 Das Hauptbetriebssystem ist relativ einfach. Mit den 4 Registerkarten: System, Miner Configuration, Miner Status, Network. Im Miner Configuration-Tab können Sie bis zu 3 Mining-Pools konfigurieren.
 
-![image](assets/software/3.jpeg)
+![image](assets/software/3.webp)
 
 Im Miner Status-Tab können Sie verschiedene Informationen zur Echtzeitfunktion des ASICs anzeigen. Die Hashrate wird in GH/s angegeben, es gibt detailliertere Informationen über den Pool sowie Details zum Status jedes Hashboards und zur Lüftergeschwindigkeit in Umdrehungen pro Minute.
 
-![image](assets/software/4.jpeg)
+![image](assets/software/4.webp)
 
 ### Braiins OS+'
 
@@ -328,11 +328,11 @@ Erfahren Sie, wie Sie Braiins OS+ einfach direkt auf den Speicher Ihres Antminer
 1. Schließen Sie Ihren Antminer an und verbinden Sie ihn mit Ihrem Internet-Router.
 2. Laden Sie BOS-Toolbox für Windows / Linux herunter.
 3. Entpacken Sie die heruntergeladene Datei und öffnen Sie die Datei bos-toolbox.bat. Wählen Sie die Sprache und nach einigen Augenblicken sehen Sie dieses Fenster:
-4. ![image](assets/software/5.jpeg)
+4. ![image](assets/software/5.webp)
 
 5. Mit der Bos-Toolbox können Sie die IP-Adresse Ihres Antminer leicht finden und Braiins OS+ installieren. Wenn Sie bereits die IP-Adresse Ihrer Maschine kennen, können Sie zum Schritt 8 übergehen. Andernfalls gehen Sie zum Scan-Tab.
 
-![image](assets/software/6.jpeg)
+![image](assets/software/6.webp)
 
 5. Normalerweise liegt der IP-Adressbereich in Heimnetzwerken zwischen 192.168.1.1 und 192.168.1.255. Geben Sie also im IP-Bereich-Feld "192.168.1.0/24" ein. Wenn Ihr Netzwerk anders ist, ändern Sie bitte diese Adressen. Klicken Sie dann auf "Start".
 
@@ -340,19 +340,19 @@ Erfahren Sie, wie Sie Braiins OS+ einfach direkt auf den Speicher Ihres Antminer
 
 7. Sie sollten alle Antminer in Ihrem Netzwerk sehen, hier ist die IP-Adresse 192.168.1.37
 
-![image](assets/software/7.jpeg)
+![image](assets/software/7.webp)
 
 8. Klicken Sie auf "Zurück" und dann auf die Registerkarte "Installieren". Geben Sie die zuvor gefundene IP-Adresse in das Feld "Miner(s)" und "admin" (oder "root") in das Feld "Passwort" ein. Dies ist das Standardpasswort. Klicken Sie dann auf "Start".
    Wenn die Installation nicht funktioniert, weder mit "admin" noch mit "root" als Passwort, kann es erforderlich sein, einen Factory Reset durchzuführen und es erneut zu versuchen.
 
-![image](assets/software/8.jpeg)
+![image](assets/software/8.webp)
 
 9. Nach einigen Augenblicken wird Ihr Antminer neu starten und Sie können auf die Braiins OS+ Benutzeroberfläche unter der entsprechenden IP-Adresse zugreifen, hier 192.168.1.37, die Sie direkt in die Adressleiste Ihres Browsers eingeben. Der Standard-Benutzername ist "root" und es gibt kein Standardpasswort.
    Installation von Braiins OS+ auf einer SD-Karte
 
-![image](assets/software/9.jpeg)
+![image](assets/software/9.webp)
 
-![image](assets/software/10.jpeg)
+![image](assets/software/10.webp)
 
 Die zweite Methode verwendet die Originaloberfläche Ihres Antminer. Diese Methode funktioniert für Maschinen mit einem Betriebssystem vor 2019.
 
@@ -363,7 +363,7 @@ Die zweite Methode verwendet die Originaloberfläche Ihres Antminer. Diese Metho
 3. Gehen Sie zum System-Tab und dann zu Upgrade.
 4. Laden Sie die heruntergeladene Datei hoch und flashen Sie das Image.
 
-![image](assets/software/11.jpeg)
+![image](assets/software/11.webp)
 
 ### Micro-SD-Karte
 
@@ -373,9 +373,9 @@ Eine zweite Methode ermöglicht die Verwendung einer Micro-SD-Karte. Diese Metho
 
 2. Flashen Sie das heruntergeladene Image auf eine Micro-SD-Karte. Dazu können Sie Etcher verwenden. Das einfache Kopieren der Datei auf die Micro-SD-Karte funktioniert nicht.
 3. Wenn Sie einen Antminer S9 und seine Varianten (S9i, S9j) besitzen, müssen Sie "Jumper" einstellen, um Ihren ASIC dazu zu zwingen, von der auf der microSD-Karte enthaltenen Datei anstatt von NAND zu starten. Wenn Sie ein anderes Modell haben, können Sie zum Teil 4 übergehen. Die Jumper befinden sich auf der Steuerungskarte auf der Oberseite des ASICs in der Nähe des Ethernet-Anschlusses. Sie müssen es herausziehen, indem Sie es nach hinten schieben. Sobald die Jumperposition wie auf den folgenden Bildern BOOT FROM SD geändert wurde, können Sie die Steuerungskarte wieder einsetzen und den S9 erneut anschließen.
-4. ![image](assets/software/12.jpeg)
+4. ![image](assets/software/12.webp)
 
-![image](assets/software/13.jpeg)
+![image](assets/software/13.webp)
 
 4. Legen Sie die microSD-Karte in den ASIC ein.
 5. Starten Sie den ASIC. Wenn die automatische Installationsversion verwendet wurde, wird das neue Betriebssystem automatisch installiert. Die Installation ist abgeschlossen, wenn beide LEDs gleichzeitig leuchten. Sie können den ASIC neu starten und die microSD-Karte entfernen. Wenn die andere Version heruntergeladen wurde, müssen Sie die microSD-Karte im ASIC belassen.
@@ -395,7 +395,7 @@ Sie werden dann vom Brains OS+ Dashboard begrüßt.
 
 ### Dashboard
 
-![image](assets/software/14.jpeg)
+![image](assets/software/14.webp)
 
 Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit überwachen.
 
@@ -403,7 +403,7 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 - Auf der rechten Seite finden Sie die tatsächliche Hashrate, die durchschnittliche Chip-Temperatur, Ihre geschätzte Effizienz in W/THs und den Stromverbrauch.
 - Darunter finden Sie die Lüfterdrehzahl in Prozent der maximalen Geschwindigkeit sowie die Anzahl der Umdrehungen pro Minute.
 
-![image](assets/software/15.jpeg)
+![image](assets/software/15.webp)
 
 - Weiter unten finden Sie eine detaillierte Ansicht jedes Hashboards. Die durchschnittliche Temperatur des Boards und der Chips, die Spannung und die Frequenz.
 - Ein Überblick über die aktiven Mining-Pools in Pools.
@@ -412,15 +412,15 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 
 ### Konfiguration
 
-![image](assets/software/16.jpeg)
+![image](assets/software/16.webp)
 
 ### System
 
-![image](assets/software/17.jpeg)
+![image](assets/software/17.webp)
 
 ### Schnellaktionen
 
-![image](assets/software/18.jpeg)
+![image](assets/software/18.webp)
 
 Konfiguration eines Pools
 Man kann sich einen Mining-Pool wie eine landwirtschaftliche Genossenschaft vorstellen. Die Landwirte bringen ihre Produktion zusammen, um die Schwankungen von Angebot und Nachfrage zu reduzieren und so stabilere Einnahmen für ihren Betrieb zu erzielen. Ein Mining-Pool funktioniert auf die gleiche Weise, und das gemeinsame Gut, das eingebracht wird, sind Hashes. Die Entdeckung eines einzigen gültigen Hashes ermöglicht die Erstellung eines Blocks und damit den Gewinn der Coinbase oder Belohnung, die derzeit 6,25 BTC plus die Transaktionsgebühren im Block beträgt. Wenn Sie alleine minen, werden Sie nur belohnt, wenn Sie einen Block finden. Da Sie gegen alle anderen Miner auf dem Planeten konkurrieren, hätten Sie sehr geringe Chancen, diese große Lotterie zu gewinnen, und Sie müssten trotzdem die mit der Nutzung Ihres Miners verbundenen Gebühren zahlen, ohne Garantie auf Erfolg. Mining-Pools lösen dieses Problem, indem sie die Rechenleistung von mehreren (Tausenden) Minern bündeln und die Belohnung entsprechend dem prozentualen Anteil am Hashrate des Pools teilen, wenn ein Block gefunden wurde. Um Ihre Chancen, alleine einen Block zu minen, zu visualisieren, können Sie dieses Tool verwenden. Wenn Sie die Informationen eines Antminer S9 eingeben, sehen Sie, dass die Chancen, einen Hash zu finden, der die Erstellung eines Blocks ermöglicht, bei 1/24 777 849 pro Block oder 1/172 068 pro Tag liegen. Es würde im Durchschnitt (bei konstanter Hashrate und Schwierigkeit) 471 Jahre dauern, um einen Block zu finden.
@@ -438,17 +438,17 @@ Das Belohnungsmodell, das uns interessiert, ist PPS, was "Pay-per-Share" bedeute
 
 Um einen Pool in Braiins 0S+ einzurichten, müssen Sie ein Konto in einem Pool Ihrer Wahl erstellen. Hier nehmen wir das Beispiel von Lincoin:
 
-![image](assets/software/19.jpeg)
+![image](assets/software/19.webp)
 
 Sobald Ihr Konto erstellt ist, klicken Sie auf "Mit Pool verbinden".
 
 Kopieren Sie dann die Stratum-Adresse sowie Ihren Benutzernamen:
 
-![image](assets/software/20.jpeg)
+![image](assets/software/20.webp)
 
 Sie können nun zur Benutzeroberfläche von Braiins OS+ zurückkehren, um diese Anmeldeinformationen einzugeben. Das Passwortfeld können Sie leer lassen.
 
-![image](assets/software/21.jpeg)
+![image](assets/software/21.webp)
 
 ### Overclocking und Underclocking
 

@@ -12,8 +12,6 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-# Electrum Bitcoin Wallet
-
 > "I have to say, when i came across this guide i was shocked. Congrats on Arman the Parman for this. It would have been ashame not to host in here and translate it on as many language as possible. Honeslty, tips that dude." Rogzy
 
 Original post:
@@ -40,7 +38,7 @@ Click the Download tab at the top.
 
 Click on the download link that corresponds to your computer. Any Linux or Mac computer can use the Python link (red circle). A Linux computer with an Intel or AMD chip can use the Appimage (green circle; this is like a Windows executable file). A Raspberry Pi device has an ARM microprocessor and can only use the Python version (red circle), not Appimage, even though Pi’s run Linux. The blue circle is for Windows and the Black circle is for Mac.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 ## Verifying Electrum
 
@@ -54,13 +52,13 @@ In other words, with the three inputs (signature, public key, and data file), we
 
 To get the signature, click on the link corresponding to the file you downloaded (see coloured arrows):
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Clicking on the link may automatically download the file to your downloads folder, or it may open in the browser. If it opens in the browser, you need to save the file. You can right-click and select “save as”. Depending on the operating system or browser, you may need to right-click on the white space area, not the text.
 
 Below is what the downloaded text looks like. You can see there are multiple signatures – these are signatures by different people. You can verify each or any. I’ll be showing you how to verify just the developer’s.
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Next, you need to get ThomasV’s public key – he is the main developer. You can get that directly from him, his Keybase account, Github, or someone else, from a keyserver, or from the Electrum website.
 
@@ -70,7 +68,7 @@ To keep it simple for now, I’ll show you how to get it from the website anyway
 
 Scroll down the page a little to find the link to ThomasV’s public key (red circle below). Click it and download it, or if it opens some text in a browser, right-click to save.
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 You now have 3 new files, probably all in the downloads folder. It doesn’t matter where they are, but it makes the process easier if you put them all in the same folder.
 
@@ -121,7 +119,7 @@ Now we have a verified copy of Electrum which is safe to use.
 
 If you downloaded the Python version, this is how to make it work. You’ll see on the download page this:
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 For Linux, It’s a good idea to first update your system:
 
@@ -177,7 +175,7 @@ Despite the fact that I hate Windows most of all, this is the simplest method. J
 
 When you first load Electrum, a window will open like this:
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 We will later select your server manually, but for now, leave the default and auto-connect.
 
@@ -185,27 +183,27 @@ Next, create a dummy wallet – do not ever put funds in this wallet. The purpos
 
 You can leave the name as “default_wallet” or change it to whatever you like, and click next. Later, if you have multiple wallets, you can find them and open them at this stage by first clicking “Choose…”
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Choose “Standard wallet” and <Next>:
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Then, select “I already have a seed”. I don’t want you to get in the habit of creating an Electrum seed, as it uses its own protocol that is not compatible with other wallets – this is why we don’t click “new seed”.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Go to https://iancoleman.io/bip39/ and create a dummy seed. First, change the word number to 12 (which is common practice), then click “generate” and copy the words in the box to your clipboard.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Then paste the words into Electrum. Here is an example:
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Electrum will be looking for words that match its own protocol. We have to bypass that. Click options, and select BIP39 Seed:
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 The seed then becomes valid. (Before doing this, Electrum was expecting an Electrum seed so this seed was seen as invalid). Before you click next, notice the text that says “Checksum OK”. It is important (for the real wallet you may use later) that you see this before proceeding, as it confirms the validity of the seed you put in. The warning near the bottom can be ignored, it is the Electrum developer’s whinge about BIP39 and their “FUD’ey” claims that their version (which is not compatible with other wallets) is superior.
 
@@ -217,17 +215,17 @@ After clicking OK, you’ll be taken back to where you typed the seed phrase. If
 
 If you didn’t request a passphrase, you’ll see this screen next – more options for your wallet script type and derivation path which you can learn about here (https://armantheparman.com/public-and-private-keys/), but just leave the defaults and proceed.
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 > For extra info: The first option allows you to choose between legacy (addresses starting with “1”), pay-to-script-hash (addresses starting with “3”), or bech32/native segwit (addresses starting with “bc1q”). At the time of writing, Electrum does not yet support taproot (addresses starting with “bc1p”). The second option in this window allows you to modify the derivation path. I suggest you never modify this, especially before understanding what it means. People will emphasise the importance of writing the derivation path down so you can recover your wallet if needed, but if you leave it as the default, you’re going to probably be fine, so don’t panic – but it’s still good practice to write the derivation path down.
 
 Next, you’ll be given the option to add a PASSWORD. This is not to be confused with “PASSPHRASE”. A password locks the file on your computer. A passphrase is part of the make-up of the private key. Since this is a dummy wallet, you can leave the password blank and proceed.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 You’ll get a pop-up about new version notifications (I suggest you select no). The wallet will then generate itself and be ready to use (but remember, this wallet is destined for deletion, it’s just a dummy wallet).
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 There are some things I suggest you do to set up the software environment (required only once):
 
@@ -322,13 +320,13 @@ Let’s connect to Bitaroo’s node – We are told that they are not collecting
 
 Get to the Network Settings by clicking the circle in the bottom right part of the Wallet’s window (red indicates not connected, green indicates connected, and blue indicates connected via Tor).
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Once you click the circle icon, a pop-up window will appear: Your wallet will show “connected to 1 node” since we forced that earlier.
 
 Uncheck the “select server automatically” box, and then in the Server Field, type in Bitaroo’s details as shown:
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Close the window, and now we should be connected to Bitaroo’s node. To confirm, the circle should be green. Click it again and check that the server details haven’t changed back to a random node.
 
@@ -342,7 +340,7 @@ If you run a node software package like MyNode (the one I recommend people to st
 
 Open the Network settings (click the green or red circle in the bottom right). Uncheck the “select server automatically” box, then enter your IP address as I have done yours will be different, but the colon and “50002” should be the same.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Close the window, and now we should be connected to your node. To confirm, click the circle again and check that the server details haven’t changed back to a random node.
 
@@ -364,11 +362,11 @@ Sometimes, “mynode.local” doesn’t work (make sure you’re not typing it i
 
 This will access the device, and you can click on the settings link (see my blue “circle” below) to show this screen where the IP address is located:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 This page will load and you’ll see the node’s IP (blue “circle”)
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Then, in the future, you can type 192.168.0.150, or http://192.168.0.150 into your browser.
 
@@ -388,7 +386,7 @@ First, find the IP address of any device on your network (the current computer w
 
 On a Mac, you’ll find it in Network preferences:
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 We are interested in the first 4 elements (192.168.0), not the 4th element, the “166” that you see in the image (yours will be different).
 
@@ -416,7 +414,7 @@ One by one, work your way up towards 255. Eventually, you’ll stop at the corre
 
 It will look something like this (make sure you include the colon and number afterwards):
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 > It’s useful to know that these IP addresses are INTERNAL to your home network. Nobody outside can see them and they are not sensitive. They’re kind of like phone extensions in a large organisation directing you to different telephones.
 
@@ -440,7 +438,7 @@ You new wallet has a set of receiving addresses that can be mathematically and r
 
 More information about bitcoin private keys can be found in this guide.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 This is very different to some other wallets which only present 1 address at a time.
 
@@ -454,31 +452,31 @@ Next, go back to the Ian Colman private key website and enter the seed (instead 
 
 Scroll down and change the derivation path to BIP84 (segwit) to match your Electrum wallet by clicking the BIP84 tab.
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 Below that, you’ll see the account extended private key and the account extended public key:
 
-![image](assets/25.png)
+![image](assets/25.webp)
 
 Go to Electrum, and compare that they match. There is a menu at the top, wallet –>information:
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 This pops up:
 
-![image](assets/27.png)
+![image](assets/27.webp)
 
 Notice the two public keys match.
 
 Next, compare the addresses. Go back to Ian Coleman’s site and scroll to the bottom:
 
-![image](assets/28.png)
+![image](assets/28.webp)
 
 Notice they match with the addresses in Electrum.
 
 Now we’ll check the change addresses. Scroll up a bit to the derivation path and change the last 0 to a 1:
 
-![image](assets/29.png)
+![image](assets/29.webp)
 
 Now scroll down and compare the addresses match the yellow addresses in Electrum
 
@@ -500,7 +498,7 @@ This has a number of purposes.
 
 Open your test Electrum Wallet and click the Addresses tab, then right-click the first address and select Copy –> Address:
 
-![image](assets/30.png)
+![image](assets/30.webp)
 
 The address is now in your computer’s memory.
 
@@ -508,11 +506,11 @@ Now go to an exchange where you have some bitcoin, and let’s withdraw a small 
 
 Log in, and click the Send/Receive button, which as of today is in the top right corner of the webpage.
 
-![image](assets/31.png)
+![image](assets/31.webp)
 
 I obviously have no funds with Coinbase, but just imagine there are funds here and follow along: Paste the address from Electrum in the “To” field as I have done. You’ll also need to select an amount (I suggest 50,000 sats or so). Do not put an “optional message” – Coinbase is collecting enough of your data (and selling it), there is no need to help them. Finally, click “Continue”. After that I don’t know what other pop-ups you’ll get, you’re on your own, but the method is similar for all exchanges.
 
-![image](assets/32.png)
+![image](assets/32.webp)
 
 Depending on the exchange, you may see the sats in your wallet immediately, or some dealy of hours/days.
 
@@ -524,15 +522,15 @@ Now that we have a UTXO in our wallet, we should label it. Only we can see this 
 
 I needed a donation to this test wallet, thanks to @Sathoarder for providing me with a live UTXO (10,000 sats), and another person (anon) donated to the same address (5000 sats). Notice there are 15,000 sats in the first address balance, and a total of 2 transactions (far right column). Down the bottom, the Balance is 10,000 sats confirmed, and another 5,000 sats are unconfirmed (still in the mempool).
 
-![image](assets/33.png)
+![image](assets/33.webp)
 
 Now, if we head over to the Coins tab, we can see two “received coins” or UTXOs. They are both in the same address.
 
-![image](assets/34.png)
+![image](assets/34.webp)
 
 Going back to the address tab, if you double-click on the “labels” area next to the address, you’ll be able to enter some text, then hit <enter> to save:
 
-![image](assets/35.png)
+![image](assets/35.webp)
 
 This is good practice so you can keep a track of where your coins came from, if they are KYC-free or not, and how much each UTXO cost you (in case you need to sell and calculate the tax to be stolen from you by your government).
 
@@ -540,25 +538,25 @@ Ideally, you should avoid accumulating multiple coins in the same address. If yo
 
 Next, let’s spend the coins from the first address to the second address. Right-click the first address and select “spend from” (This is actually not necessary in this scenario, but imagine we have many coins in many addresses; using this feature, we can force the wallet to only spend the coins we want. If we want to select multiple coins in multiple addresses, we can select the addresses with a left-mouse click while holding the command key, then right-click, and select “spend from”:
 
-![image](assets/36.png)
+![image](assets/36.webp)
 
 Once you do that, there’re be a green bar at the bottom of the wallet window indicating the number of coins you have selected and the total available to spend.
 
 You can also spend individual coins within an address and exclude others in the same address, but this is discouraged because you are leaving coins in an address that has been cryptographically weakened due to the spending of one of the coins (another reason not to put multiple coins in one address, besides for privacy reasons, is that given that you should spend them all if you spend one, this gets expensive unnecessarily). Here’s how to select a single coin from a shared address, but don’t do it:
 
-![image](assets/37.png)
+![image](assets/37.webp)
 
 Now, we have the two coins selected for spending. Next, we decided where to spend them. Let’s send them to the second address. We’ll need to copy the address like so:
 
-![image](assets/38.png)
+![image](assets/38.webp)
 
 Then go to the “Send” tab, and paste the second address in the “pay to” field. No need to add a description; you could, but you can do that later by editing labels. For the amount, select “Max” to spend all the coins we selected. Then click “Pay”, and then click the “advanced” button on the pop-up that appears.
 
-![image](assets/39.png)
+![image](assets/39.webp)
 
 Always click “advanced” at this stage so we can get fine control and check exactly what’s in the transaction. Here is the transaction:
 
-![image](assets/40.png)
+![image](assets/40.webp)
 
 We see two internal white boxes/windows. The top one is the inputs window (which coins are being spent), and the bottom one is the outputs (where the coins are going).
 
@@ -568,7 +566,7 @@ The size of the transaction refers to the data size in bytes, not the amount of 
 
 Down the bottom, we have some fancy mining fee adjustment tools. All you need to do for internal transfers is set it to the minimum fee of 1 sat/byte. Just manually type the number in the Target fee field. To check an appropriate fee for an external payment, you can consult https://mempool.space to see how busy the mempool is, and some suggested fees are displayed.
 
-![image](assets/41.png)
+![image](assets/41.webp)
 
 I have selected 1 sat/byte.
 
@@ -586,7 +584,7 @@ If we adjust the mining fee, the output value will automatically change.
 
 Once you check everything in the transaction and are sure you are happy with which coins you are spending, and where the coins are going, you can click “finalise.”
 
-![image](assets/42.png)
+![image](assets/42.webp)
 
 After you click “finalise”, you can no longer make edits – If you need to, you have to close this and start again. Notice the “finalise” button has changed to “export”, and new buttons have appeared: “save”, “combine”, “sign” and “broadcast”. The “broadcast” button is greyed out because the transaction is unsigned and so invalid at this stage.
 
@@ -600,15 +598,15 @@ Something to point out is that instead of broadcasting, we can save the transact
 
 Click the “export” button (paradoxically, DO NOT click the “save” button), and you will see a number of options. The transaction is encoded with text, and therefore can be saved in a number of ways.
 
-![image](assets/43.png)
+![image](assets/43.webp)
 
 Saving to a QR code is very interesting. If you choose this, a QR will pop up:
 
-![image](assets/44.png)
+![image](assets/44.webp)
 
 You can then take a photo of the QR code. There are a number of things you can do with this, but for now, let’s just say you are loading it back into the wallet later. You can close Electrum, load the wallet again, and go to the menu Tools:
 
-![image](assets/45.png)
+![image](assets/45.webp)
 
 This will load up your computer’s camera. You then show the camera the photo of the QR code in your phone, and this will load the transaction back, exactly as you left it.
 
@@ -634,11 +632,11 @@ Note that as you adjust the mining fee, the change output amount will automatica
 
 This is a really interesting feature of Electrum. You access it like this.
 
-![image](assets/46.png)
+![image](assets/46.webp)
 
 You can then enter multiple destinations for the UTXO balance you are spending, like this:
 
-![image](assets/47.png)
+![image](assets/47.webp)
 
 Paste the address, type in a comma, then a space, then the amount, then <enter>, then do it again. DO NOT ENTER AMOUNTS IN THE “AMOUNT” WINDOWS – Electrum will populate the total here as you type the individual amounts in the “Pay to” window.
 
@@ -668,11 +666,11 @@ PASSPHRASE: “Craig Wright is a liar and a fraud and belongs in jail. Also, Ros
 
 The passphrase can be up to 100 characters long, and ideally should be unambiguous and not too short – The one I have used is just for fun – I generally suggest avoiding uppercase letters and symbols just to reduce your stress in trying combinations if you ever had an issue with remembering your passphrase.
 
-![image](assets/48.png)
+![image](assets/48.webp)
 
 Next, in Electrum, go to the menu file–>new/restore. Type a unique name to create a new wallet and click “next”.
 
-![image](assets/49.png)
+![image](assets/49.webp)
 
 The next steps you should be familiar with by now, so I’ll list them without pictures:
 
@@ -686,11 +684,11 @@ The next steps you should be familiar with by now, so I’ll list them without p
 
 Now go back to the Ian Coleman site, down to the “derivation path” section, and click the “BIP 84” tab to select the same script semantics as the defaults in Electrum (Native Segwit).
 
-![image](assets/50.png)
+![image](assets/50.webp)
 
 The extended private and public keys are just below, and they change when you make changes to the derivation path (or anything else higher up the page).
 
-![image](assets/51.png)
+![image](assets/51.webp)
 
 You will also see “BIP32 extended private/public” keys – these are to be ignored for now.
 
@@ -753,7 +751,7 @@ Some operating systems will automatically open up the file explorer when you ins
 
 Open Electrum. If it’s already open with some other wallet, select file –> new. We’re looking for this window:
 
-![image](assets/52.png)
+![image](assets/52.webp)
 
 Here’s the trick, it’s not intuitive. Click “choose”. Then navigate the file system on the microSD card and find the wallet file and open it.
 
@@ -787,7 +785,7 @@ sudo nano /etc/udev/rules.d
 
 A text editor will open. Copy the text from here and paste it into the rules.d file, save and exit.
 
-![image](assets/53.png)
+![image](assets/53.webp)
 
 Then run these commands one after the other:
 
@@ -853,7 +851,7 @@ To do this, you can copy the program files to a USB drive, and also copy the .el
 
 As I explained earlier, on the address tab, there is a label column. You can double-click there and enter notes for yourself (it’s only on your computer, not public, and not on the blockchain).
 
-![image](assets/54.png)
+![image](assets/54.webp)
 
 When moving your Electrum wallet to another computer, you may wish to not lose all these notes. You can back them up to a file using the menu, wallet–> labels –>export, and then on the new computer, use wallet–>labels–>import.
 

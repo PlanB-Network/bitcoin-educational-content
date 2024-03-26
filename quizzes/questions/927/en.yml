@@ -1,0 +1,17 @@
+question: What is the impact of printing more money on a currency's purchasing power? 
+answer: A deterioration in the purchasing power of the currency 
+wrong_answers:
+  - A rise in the purchasing power of the currency
+  - No impact
+  - More money = greater purchasing power
+explanation: |
+  When central banks decide to print money, they can’t simply create more value. 
+  For this newly printed money to be worth something, its value must come from the 
+  previous currency holders.
+  Think of the money supply as a pizza, and imagine it cut into four slices. 
+  Doubling the money supply would not be equivalent to doubling the amount of pizza. 
+  Instead, it would be equivalent to cutting those four slices in half to create 
+  eight slices. We have not gained any additional pizza. We just have more slices, 
+  each smaller in size. Therefore, when we print more money, we devalue the money 
+  that is already in existence.
+reviewed: true

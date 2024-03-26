@@ -1,0 +1,10 @@
+question: Welche Rolle spielt Geld bei der intertemporalen Koordination menschlichen Handelns?
+answer: Es ermöglicht die Speicherung von Wert in der Gegenwart und dessen Übertragung auf die eigene zukünftige Person.
+wrong_answers:
+  - Es ermöglicht die Speicherung von Wert in der Zukunft und dessen Übertragung auf die eigene gegenwärtige Person.
+  - Es ermöglicht die Speicherung von Wert in der Gegenwart und dessen Übertragung auf andere Personen.
+  - Es ermöglicht die Speicherung von Wert in der Zukunft und dessen Übertragung auf andere Personen.
+explanation: |
+  Durch das Speichern von Geld, d.h. Sparen, schützen sich Individuen vor zukünftiger Unsicherheit und ermöglichen es sich somit, ihr Handeln auf längere Zeithorizonte auszurichten.
+  Dies können sie jedoch nur erreichen, wenn das verwendete Geld einen Wert speichert.
+reviewed: false

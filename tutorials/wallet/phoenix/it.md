@@ -1,12 +1,10 @@
 ---
-name: Pheonix
+name: Phoenix
 
-description: Mise en place de votre portefeuille Pheonix
+description: Mise en place de votre portefeuille Phoenix
 ---
 
 ![phoenix](assets/cover.jpeg)
-
-# Phoenix
 
 Phoenix è un portafoglio lightning non custodiale creato da Acind, il team dietro l'implementazione di Lightning Eclair.
 
@@ -14,7 +12,7 @@ Per trovare la loro documentazione ufficiale, consultate la loro guida FAQ: http
 
 ## Tutorial Video
 
-![ Phoenix: Bitcoin Lightning Wallet Tutorial](https://www.youtube.com/watch?v=Cx5PK1H5OR0)
+![ Phoenix: Bitcoin Lightning Wallet Tutorial](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
 
 ## Guide scritte
 
@@ -22,44 +20,44 @@ Testo da scrivere ^^' seguite le immagini
 
 ### Download e configurazione
 
-![](assets/screenshot1.jpeg)
-![](assets/screenshot2.jpeg)
-![](assets/screenshot3.jpeg)
-![](assets/screenshot4.jpeg)
-![](assets/screenshot5.jpeg)
+![](assets/screenshot1.webp)
+![](assets/screenshot2.webp)
+![](assets/screenshot3.webp)
+![](assets/screenshot4.webp)
+![](assets/screenshot5.webp)
 
 ### Backup
 
-![](assets/screenshot6.jpeg)
-![](assets/screenshot7.jpeg)
-![](assets/screenshot8.jpeg)
+![](assets/screenshot6.webp)
+![](assets/screenshot7.webp)
+![](assets/screenshot8.webp)
 
 ### Ricevere
 
-![](assets/screenshot9.jpeg)
-![](assets/screenshot10.jpeg)
-![](assets/screenshot11.jpeg)
-![](assets/screenshot12.jpeg)
-![](assets/screenshot13.jpeg)
-![](assets/screenshot14.jpeg)
+![](assets/screenshot9.webp)
+![](assets/screenshot10.webp)
+![](assets/screenshot11.webp)
+![](assets/screenshot12.webp)
+![](assets/screenshot13.webp)
+![](assets/screenshot14.webp)
 
 ### Inviare
 
-![](assets/screenshot15.jpeg)
-![](assets/screenshot16.jpeg)
-![](assets/screenshot17.jpeg)
-![](assets/screenshot18.jpeg)
-![](assets/screenshot19.jpeg)
-![](assets/screenshot20.jpeg)
+![](assets/screenshot15.webp)
+![](assets/screenshot16.webp)
+![](assets/screenshot17.webp)
+![](assets/screenshot18.webp)
+![](assets/screenshot19.webp)
+![](assets/screenshot20.webp)
 
 ### Impostazioni
 
-![](assets/screenshot21.jpeg)
+![](assets/screenshot21.webp)
 
 ### Ripristino
 
-![](assets/screenshot22.jpeg)
-![](assets/screenshot23.jpeg)
-![](assets/screenshot24.jpeg)
-![](assets/screenshot25.jpeg)
-![](assets/screenshot26.jpeg)
+![](assets/screenshot22.webp)
+![](assets/screenshot23.webp)
+![](assets/screenshot24.webp)
+![](assets/screenshot25.webp)
+![](assets/screenshot26.webp)

@@ -1,0 +1,9 @@
+question: Que tipo de usuário é mais provável de precisar de uma carteira Bitcoin quente e fria?
+answer: Um usuário que precisa usar Bitcoin regularmente.
+wrong_answers:
+  - Um usuário que usa Bitcoin apenas ocasionalmente.
+  - Um usuário que minera Bitcoin.
+  - Um usuário que investe apenas em Bitcoin a longo prazo.
+explanation: |
+  Usuários regulares de Bitcoin precisam de uma carteira quente para transações diárias e uma carteira fria para armazenamento seguro a longo prazo.
+reviewed: false

@@ -6,8 +6,6 @@ description: Guía paso a paso para HODLHODL
 
 ![imagen](assets/cover.jpeg)
 
-# HODL HODL
-
 Hodl Hodl es un intercambio descentralizado de Bitcoin que prioriza el control y la seguridad del usuario. A diferencia de los intercambios tradicionales, opera en un modelo de igual a igual, permitiendo intercambios directos entre usuarios. Con su sistema de custodia multi-firma, Hodl Hodl garantiza la seguridad de los fondos durante las transacciones. La plataforma también admite varios métodos de pago y ofrece opciones de negociación como contratos por diferencia (CFDs).
 
 ![ HodlHodl - Compra y Venta de Bitcoin SIN KYC ](https://youtu.be/FmyYxrZM3Ms)
@@ -18,7 +16,7 @@ https://hodlhodl.com/pages/faq_help
 
 Iniciando tu viaje con HodlHodl: Una guía paso a paso
 
-![imagen](assets/5.png)
+![imagen](assets/5.webp)
 
 HodlHodl es un intercambio de criptomonedas de igual a igual (P2P) que admite exclusivamente una moneda digital pero ofrece la flexibilidad de comerciar en cualquier moneda, incluyendo todas las monedas fiduciarias y altcoins. Un aspecto importante de esta plataforma P2P es que no impone ninguna tarifa de depósito o retiro, en cambio, cobra tarifas de negociación que van desde el 0.5% al 0.6%, dependiendo del estado de verificación del usuario. Los usuarios tienen la ventaja de una amplia gama de métodos de pago, lo que hace de HodlHodl una de las plataformas P2P más versátiles. Algunos de los métodos de pago comúnmente utilizados incluyen SWIFT, SEPA, transferencias bancarias, transacciones con tarjeta de crédito, PayPal, Venmo, MoneyGram y Western Union. Sin embargo, las opciones de pago disponibles dependen de la aceptación del vendedor.
 
@@ -28,7 +26,7 @@ Una de las características destacadas de HodlHodl son los límites de negociaci
 
 Para crear tu propia cuenta, simplemente haz clic en 'Registrarse', ubicado en la esquina derecha de la página de inicio de la plataforma. Como era de esperar, se te pedirá que ingreses una dirección de correo electrónico, elijas un nombre de usuario y establezcas una contraseña de pago. Además, la plataforma te solicita que definas tu zona horaria local, ya que esto ayuda a agilizar tus horas de operación y facilita el proceso de transacción.
 
-![portada](assets/11.png)
+![portada](assets/11.webp)
 
 ### Personaliza tu perfil
 
@@ -51,43 +49,43 @@ Guía de Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 1. Visita hodlhodl.com y crea tu cuenta. Los únicos detalles que debes proporcionar son un nombre de usuario y una dirección de correo electrónico. Luego serás redirigido a la página de inicio.
 
-![cover](assets/11.png)
+![cover](assets/11.webp)
 
 2. Haz clic en "Comprar BTC" en el encabezado del sitio web.
 
-![cover](assets/12.png)
+![cover](assets/12.webp)
 
 3. Selecciona tu tipo y método de pago deseado. También puedes especificar una cantidad específica aquí si es necesario.
 
-![cover](assets/13.png)
+![cover](assets/13.webp)
 
 4. Selecciona la oferta deseada. Luego puedes revisar los detalles de la operación y también leer los informes de actividad y calificaciones de los pares.
 
-![cover](assets/14.png)
+![cover](assets/14.webp)
 
 5. Una vez que estés satisfecho, puedes especificar cuánto deseas comprar, ingresar la dirección a la que te gustaría que se envíe el bitcoin y confirmar el método de pago anunciado por el vendedor. Haz clic en "Aceptar oferta y crear contrato".
 
-![cover](assets/15.png)
+![cover](assets/15.webp)
 
 6. Ahora tienes tu contrato creado y debes hacer clic en "Generar Fideicomiso", donde se te pedirá que crees una contraseña de pago. La contraseña de pago es una clave de encriptación para el par de claves de fideicomiso del usuario. Se utiliza para depositar o liberar Bitcoin en o desde el fideicomiso.
 
-![cover](assets/16.png)
+![cover](assets/16.webp)
 
 7. Ahora debes esperar a que el vendedor deposite sus bitcoins en la billetera de fideicomiso. Después de iniciar el contrato, puedes chatear con el vendedor utilizando el cuadro de chat en el lado derecho de la página.
 
-![cover](assets/17.png)
+![cover](assets/17.webp)
 
 8. Una vez que el vendedor haya depositado sus fondos en el fideicomiso, verás esta pantalla que te aconseja no enviar tu dinero hasta que haya un número suficiente de confirmaciones en la cadena de bloques (esto varía según las condiciones de la operación). Puedes verificar el progreso de la transacción de depósito del vendedor haciendo clic en el enlace azul "ID de transacción de depósito".
 
-![cover](assets/18.png)
+![cover](assets/18.webp)
 
 9. Una vez confirmado, recibirás una notificación y luego podrás enviar los fondos al vendedor según los detalles que te proporcionará. Una vez que hayas hecho esto, haz clic en "He enviado el pago".
 
-![cover](assets/19.png)
+![cover](assets/19.webp)
 
 10. Luego deberás esperar a que el vendedor confirme que ha recibido los fondos, momento en el cual el bitcoin se liberará en la dirección que especificaste al inicio del contrato. También se te dará la oportunidad de calificar a tu par.
 
-![cover](assets/20.png)
+![cover](assets/20.webp)
 
 ¡Felicidades, acabas de comprar bitcoins sin KYC!
 
@@ -98,13 +96,13 @@ Dos consejos finales:
 
 ## Opción de préstamo
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 Esta guía te ayudará a dar tus primeros pasos en el uso de la plataforma Lend en Hodl Hodl.
 
 > FUENTE/ https://medium.com/hodl-hodl/quick-guide-to-lend-or-borrow-on-lend-at-hodl-hodl-5a535d526217
 
-![image](assets/1.png)
+![image](assets/1.webp)
 Lend at Hodl Hodl (lend.hodlhodl.com) es una plataforma diseñada para que los usuarios de todo el mundo puedan prestar o pedir prestado entre sí sin tener que confiar en un tercero o completar un procedimiento de verificación.
 
 LEND te permite prestar o pedir prestado diferentes stablecoins o criptomonedas utilizando BTC como garantía. (Por el momento, no es posible prestar BTC, aunque esa posibilidad se está desarrollando para el futuro).
@@ -115,7 +113,7 @@ Primero, vamos a buscar entre las ofertas existentes aquella que se ajuste a nue
 
 Más abajo en la página principal encontramos el cuadro de búsqueda:
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 La herramienta de búsqueda nos muestra las ofertas para pedir prestado de forma predeterminada.
 
@@ -131,7 +129,7 @@ Al hacer clic en el botón "Buscar ofertas", la plataforma nos devolverá todas 
 
 Supongamos que elegimos la siguiente oferta:
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 El usuario "NateN-09" ofrece prestar entre 100 y 500 USDT enviados a través de la red Liquid por un período de 1 semana, a una tasa del 0.50% (ten en cuenta que la tasa se aplica a todo el período del contrato).
 
@@ -141,7 +139,7 @@ La relación porcentual (LTV) entre el valor de la garantía y la cantidad que e
 
 Una vez que ingresamos a la oferta, veremos los detalles de la siguiente manera:
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Si la oferta parece adecuada y decidimos aceptarla, completamos los campos pendientes y confirmamos con el botón "ACEPTAR Y CREAR".
 

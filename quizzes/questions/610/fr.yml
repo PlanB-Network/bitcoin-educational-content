@@ -1,0 +1,9 @@
+question: Quel était le taux d'inflation annuel en Bolivie en 1985 ?
+answer: 11 749%
+wrong_answers:
+  - 12 800%
+  - 10 000%
+  - 15 000%
+explanation: |
+  En 1985, le taux d'inflation annuel en Bolivie a atteint 11 749%, ce qui indique que presque chaque mois, l'inflation était proche ou dépassait le seuil de l'hyperinflation de 50%.
+reviewed: false

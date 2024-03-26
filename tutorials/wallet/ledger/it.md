@@ -6,8 +6,6 @@ description: Come configurare il tuo dispositivo Ledger Nano S
 
 ![image](assets/cover.jpeg)
 
-# Ledger Nano S
-
 Portafoglio fisico a freddo - €60 - Principiante - Per proteggere da €2.000 a €50.000
 
 Ledger è la soluzione francese per proteggere i bitcoin in modo semplice.
@@ -26,7 +24,7 @@ Ledger viene fornito con il suo cavo USB. Assicurati di utilizzare quello e non 
 
 Collegalo al tuo computer e il dispositivo si accenderà.
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Scorri tra le opzioni. Vedrai
 
@@ -43,7 +41,7 @@ Stranamente, quando arrivi alla fine, dice "premi sinistra per verificare le tue
 
 La parte successiva è molto fastidiosa. Mescola le 24 parole e devi confermare ognuna, da 1 a 24, scorrere tutte le parole per ogni selezione. Una volta finito, ti permette di confermare con una pressione di due pulsanti e continuare.
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Vedrai sulla tua dashboard che hai un pulsante delle impostazioni e un pulsante più che ti consente di installare app. Ma devi connetterti a Ledger Live prima. Faremo questo dopo...
 
@@ -53,15 +51,15 @@ Potresti scaricare Ledger Live dal loro sito web, ma è meglio ottenerlo da GitH
 
 Cerca su Google "ledger live GitHub" o clicca su questo link https://github.com/LedgerHQ/ledger-live-desktop
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Scorri verso il basso fino a quando non vedi l'intestazione "Download"...
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 In fondo, vedrai il link: Le istruzioni per verificare l'hash e le firme dei pacchetti di installazione sono disponibili in questa pagina. Clicca su quel link. (https://live.ledger.tools/lld-signatures)
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 In alto, ci sono scelte di link per il pacchetto software di cui hai bisogno, a seconda del tuo sistema operativo. Clicca su quello appropriato per scaricare.
 
@@ -92,32 +90,32 @@ Prima di eseguire Ledger Live, è utile attivare una VPN per la privacy. Ledger 
 
 Installa il software sul tuo computer ed eseguilo.
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Seleziona il tuo dispositivo e seleziona "Prima volta che lo uso..."
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Verrai quindi guidato attraverso una procedura guidata, ma abbiamo già eseguito tutti questi passaggi, quindi puoi passare velocemente.
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Dopo molti passaggi e un quiz, verrà verificata l'autenticità del dispositivo. Devi assicurarti di essere connesso e di aver inserito il PIN, quindi verrà chiesto sul dispositivo se consenti a Ledger Live di connettersi. Devi confermare, ovviamente.
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 C'era una pubblicità di una shitcoin mascherata come "note di rilascio" nella successiva finestra pop-up. Ignorala, e poi dovresti arrivare a questa schermata.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Devi fare clic su "Aggiungi account" per ottenere un portafoglio Bitcoin.
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Assicurati di scegliere Bitcoin e non Bitcoin Cash o altre shitcoin. Verrà verificato il dispositivo e dovrai confermare per procedere SUL DISPOSITIVO. Calcolerà gli indirizzi per un paio di minuti. Quindi fai clic su FINE.
 
-![image](assets/12.png)
-![image](assets/13.png)
+![image](assets/12.webp)
+![image](assets/13.webp)
 
 Fantastico. Ora hai un gestore di portafogli shitcoin contenente un portafoglio Bitcoin sul tuo computer. In realtà non ne hai più bisogno e puoi eliminarlo. Lo scopo reale era ottenere l'app Bitcoin sul dispositivo stesso, ed è stato l'unico modo, a meno di eseguire alcune tecniche estreme di ingegneria del software.
 
@@ -155,35 +153,35 @@ Ora lo caricheremo e collegheremo Ledger, con il portafoglio contenente la passp
 
 Crea un nuovo portafoglio:
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 Dagli un nome carino
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 Nota la casella di controllo "Ha transazioni esistenti". Se si tratta di un portafoglio che hai già utilizzato in precedenza, seleziona questa opzione, altrimenti il saldo verrà mostrato erroneamente come zero. Selezionando questa casella, Sparrow chiederà di esaminare il database di Bitcoin Core (la blockchain) per le transazioni precedenti. Per questa guida, stiamo utilizzando un portafoglio completamente nuovo, quindi puoi lasciare la casella deselezionata.
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 Fai clic su "Portafoglio hardware collegato" e assicurati che il dispositivo sia effettivamente collegato, acceso, con il PIN inserito e che tu abbia inserito l'app Bitcoin.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Fai clic su "Scansiona" e poi su "Importa Keystore" nella schermata successiva.
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Non c'è nulla da modificare nella schermata successiva, Ledger l'ha compilata per te. Fai clic su "Applica"
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 La schermata successiva ti consente di aggiungere una password. Non confondere questa con "passphrase"; molte persone lo fanno. La denominazione è sfortunata. La password ti consente di bloccare questo portafoglio sul tuo computer. È specifica per questo software su questo computer. Non fa parte della tua chiave privata Bitcoin.
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Dopo una pausa, mentre il computer pensa, vedrai i pulsanti a sinistra cambiare da grigi a blu. Congratulazioni, il tuo portafoglio è ora pronto per l'uso. Effettua e invia transazioni a tuo piacimento.
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
 ## Ricezione
 
@@ -195,7 +193,7 @@ Una volta fatto ciò, devi fare il backup delle parole che hai scritto. Una sing
 
 ## Invio
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Quando effettui un pagamento, devi incollare l'indirizzo a cui stai pagando nel campo "Pagare a". In realtà non puoi lasciare vuota l'etichetta, è solo per i tuoi record personali del portafoglio, ma Sparrow non lo permette: inserisci qualcosa (solo tu lo vedrai). Inserisci l'importo e puoi anche regolare manualmente la commissione desiderata.
 

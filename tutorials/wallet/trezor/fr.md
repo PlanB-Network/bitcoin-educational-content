@@ -6,10 +6,6 @@ description: Configuration et utilisation du Trezor modèle One
 
 ![cover](assets/cover.jpeg)
 
-# Trezor modèle ONE
-
-Trezor modèle One
-
 Portefeuille matériel froid - 60€ - Débutant - Sécurise entre 2 000€ et 50 000€.
 
 En tant que portefeuille physique froid, le Trezor est idéal pour commencer avec Bitcoin. Il est facile à utiliser, pas trop cher et fonctionnel.
@@ -39,73 +35,73 @@ Le Trezor est livré avec son propre câble micro USB. Assurez-vous d'utiliser c
 
 Branchez-le sur votre ordinateur et l'appareil s'allumera. Vous recevrez un message qui dit "Rendez-vous sur Trezor.io/start". Faites-le, et téléchargez Trezor Suite sur votre ordinateur.
 
-![image](assets/0.png)
+![image](assets/0.webp)
 
 Cliquez sur le bouton de téléchargement ("Obtenir l'application de bureau")
 
-![image](assets/1.png)
+![image](assets/1.webp)
 
 Remarquez les liens de Signature et de Clé de signature. Pour vérifier le téléchargement (vérifier que votre téléchargement n'a pas été altéré), il y a des étapes supplémentaires qui sont facultatives si vous débutez, mais OBLIGATOIRES si vous avez une richesse importante à sécuriser. Les instructions à ce sujet se trouvent dans l'Annexe A (fin du guide).
 
 Connectez le Trezor à l'ordinateur avec le câble micro USB, et installez et exécutez le programme. Voici à quoi cela ressemble sur un Mac :
 
-![image](assets/2.png)
+![image](assets/2.webp)
 
 Vous recevrez un avertissement ridicule après avoir exécuté le programme, continuez simplement :
 
-![image](assets/3.png)
+![image](assets/3.webp)
 
 Cliquez sur Configurer Trezor
 
-![image](assets/4.png)
+![image](assets/4.webp)
 
 Si le micrologiciel est obsolète, autorisez Trezor à mettre à jour le micrologiciel.
 
 Ensuite, vous pouvez créer une nouvelle graine, ou restaurer un portefeuille à partir d'un autre appareil avec une graine que vous avez déjà. Je vais expliquer comment créer une nouvelle graine.
 
-![image](assets/5.png)
+![image](assets/5.webp)
 
 Cliquez sur "Créer un nouveau portefeuille" - et confirmez que vous souhaitez le faire sur l'appareil lui-même en cliquant sur le bouton de confirmation.
 
 Ensuite, cliquez sur la seule option "Sauvegarde de graine standard"
 
-![image](assets/6.png)
+![image](assets/6.webp)
 
 Ensuite, cliquez sur "créer une sauvegarde"
 
-![image](assets/7.png)
+![image](assets/7.webp)
 
 Cliquez sur les trois coches pour les rendre vertes (bien sûr, lisez chaque message), puis cliquez sur "commencer la sauvegarde".
 
-![image](assets/8.png)
+![image](assets/8.webp)
 
 Ensuite, vous verrez ceci :
 
-![image](assets/9.png)
+![image](assets/9.webp)
 
 Sur l'appareil, voyez les mots qui vous sont présentés un par un et notez-les SOIGNEUSEMENT et DANS L'ORDRE.
 
-![image](assets/10.png)
+![image](assets/10.webp)
 
 Définissez un code PIN pour verrouiller l'appareil (ce n'est pas une partie de votre graine, c'est simplement pour verrouiller l'appareil afin que personne ne puisse accéder à la graine qu'il contient).
 
-![image](assets/11.png)
+![image](assets/11.webp)
 
 Vous avez la possibilité d'ajouter des shitcoins à votre portefeuille - je vous exhorte à ne pas le faire et à économiser uniquement en Bitcoin, comme je l'explique ici (pourquoi Bitcoin) et ici (pourquoi uniquement Bitcoin).
 
-![image](assets/12.png)
+![image](assets/12.webp)
 
 Nommez votre portefeuille et cliquez sur "Accéder à la suite":
 
-![image](assets/13.png)
+![image](assets/13.webp)
 
 Il est plus simple de créer un portefeuille sans phrase secrète, mais il est préférable d'en créer un avec une phrase secrète (votre vrai portefeuille) ET un sans phrase secrète (votre portefeuille leurre). Chaque fois que vous accédez au dispositif via Trezor Suite, on vous demandera si vous souhaitez "appliquer" la phrase secrète ou non.
 
-![image](assets/14.png)
+![image](assets/14.webp)
 
 J'ai sélectionné "Portefeuille caché" et j'ai saisi une phrase secrète que j'ai inventée "craigwrightisaliarandafraud"
 
-![image](assets/15.png)
+![image](assets/15.webp)
 
 J'aime le fait qu'il soit appelé un portefeuille "caché", car cela explique en partie comment fonctionnent les phrases secrètes.
 
@@ -113,15 +109,15 @@ Confirmez la phrase secrète sur le dispositif.
 
 Étant donné que ce portefeuille est vide, on m'a demandé de confirmer que la phrase secrète est correcte:
 
-![image](assets/16.png)
+![image](assets/16.webp)
 
 On vous demandera ensuite si vous souhaitez activer l'étiquetage. Ce n'est pas quelque chose que j'ai exploré, mais cela semble être un moyen de marquer vos transactions et de sauvegarder les données sur votre ordinateur ou dans le cloud.
 
-![image](assets/17.png)
+![image](assets/17.webp)
 
 Enfin, votre portefeuille sera disponible:
 
-![image](assets/18.png)
+![image](assets/18.webp)
 
 Ce que vous avez sur votre ordinateur est ce qu'on appelle un "portefeuille de surveillance", car il contient vos clés publiques (et adresses), mais pas vos clés privées. Vous avez besoin des clés privées pour effectuer des dépenses (en signant des transactions avec les clés privées). La façon de le faire est de connecter le portefeuille matériel. L'intérêt du portefeuille matériel est que les transactions peuvent être échangées entre l'ordinateur et le Trezor, une signature peut être appliquée à l'intérieur du Trezor, et la clé privée reste toujours contenue à l'intérieur du dispositif (pour se protéger contre les logiciels malveillants informatiques).
 
@@ -141,37 +137,37 @@ Nous allons maintenant charger Sparrow et connecter le Trezor (avec la phrase de
 
 Créez un nouveau portefeuille:
 
-![image](assets/19.png)
+![image](assets/19.webp)
 
 Donnez-lui un joli nom
 
-![image](assets/20.png)
+![image](assets/20.webp)
 
 Cliquez sur "Portefeuille matériel connecté".
 
-![image](assets/21.png)
+![image](assets/21.webp)
 
-![image](assets/22.png)
+![image](assets/22.webp)
 
 Cliquez sur "Analyser", puis sur "définir une phrase secrète" à l'écran suivant pour créer un tout nouveau portefeuille (utilisez une toute nouvelle phrase secrète, par exemple l'ancienne phrase secrète avec un numéro à la fin fonctionnerait). Ensuite, "envoyez la phrase secrète", puis confirmez-la sur le dispositif.
 
-![image](assets/23.png)
+![image](assets/23.webp)
 
 Ensuite, cliquez sur "importer le keystore".
 
 Il n'y a rien à modifier sur l'écran suivant, le Trezor l'a rempli pour vous. Cliquez sur "Appliquer".
 
-![image](assets/24.png)
+![image](assets/24.webp)
 
 L'écran suivant vous permet d'ajouter un mot de passe. Ne confondez pas cela avec "phrase de passe"; beaucoup de gens le feront. Le choix du nom est malheureux. Le mot de passe vous permet de verrouiller ce portefeuille sur votre ordinateur. Il est spécifique à ce logiciel sur cet ordinateur. Il ne fait pas partie de votre clé privée Bitcoin.
 
 Cliquez sur "Appliquer".
 
-![image](assets/25.png)
+![image](assets/25.webp)
 
 Après une pause, pendant que l'ordinateur réfléchit, vous verrez les boutons à gauche passer du gris au bleu. Félicitations, votre portefeuille est maintenant prêt à être utilisé. Effectuez des transactions à votre guise.
 
-![image](assets/26.png)
+![image](assets/26.webp)
 
 Réception
 
@@ -183,7 +179,7 @@ Une fois que vous avez fait cela, vous devez sauvegarder les mots que vous avez 
 
 ## Envoi
 
-![image](assets/27.png)
+![image](assets/27.webp)
 
 Lorsque vous effectuez un paiement, vous devez coller l'adresse à laquelle vous payez dans le champ "Payer à". Vous ne pouvez pas laisser le champ "Étiquette" vide, c'est juste pour les enregistrements de vos propres portefeuilles, mais Sparrow ne le permet pas - entrez simplement quelque chose (vous seul le verrez). Entrez le montant et vous pouvez également ajuster manuellement les frais que vous souhaitez.
 
@@ -200,7 +196,7 @@ Annexe A - Vérifier le téléchargement du logiciel
 
 ## Annexe A - Vérifier le téléchargement du logiciel
 
-![image](assets/28 .png)
+![image](assets/28 .webp)
 
 Téléchargez la Signature (un fichier texte) et la Clé de signature (un fichier texte) et prenez note des noms de fichier et de l'emplacement où vous avez téléchargé le fichier.
 

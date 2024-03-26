@@ -1,0 +1,12 @@
+question: What is one of the motivations behind Bitcoin consuming energy through mining? 
+answer: To provide a powerful defence mechanism against centralisation
+wrong_answers:
+  - To make Bitcoin more expensive to use
+  - To reduce its value by increasing energy costs
+  - To discourage new users from joining the network
+explanation: |
+  One of the reasons Bitcoin consumes energy through mining is to 
+  provide a powerful defence mechanism against centralisation and 
+  undue manipulation. The distributed network of miners helps prevent 
+  centralised entities from co-opting the network or manipulating the rules in their favour.
+reviewed: true

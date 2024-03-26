@@ -1,0 +1,11 @@
+question: Qual foi a taxa de câmbio do bolívar digital na Venezuela em 2021?
+answer: Um milhão para um.
+wrong_answers:
+  - Mil para um.
+  - Dez mil para um.
+  - Cem mil para um.
+explanation: |
+  Em 2021, o bolívar digital na Venezuela foi substituído por uma nova
+  redenominação
+  de um milhão para um.
+reviewed: false

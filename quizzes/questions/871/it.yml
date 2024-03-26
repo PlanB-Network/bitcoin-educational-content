@@ -1,0 +1,9 @@
+question: Qual è il principale problema del sistema di riserva frazionaria?
+answer: Il principale problema del sistema di riserva frazionaria è che prelievi significativi da una particolare banca possono potenzialmente portarla al fallimento.
+wrong_answers:
+  - Il principale problema del sistema di riserva frazionaria è che impedisce alle banche di prestare denaro.
+  - Il principale problema del sistema di riserva frazionaria è che richiede alle banche di detenere più riserve di quanto ricevano in depositi.
+  - Il principale problema del sistema di riserva frazionaria è che impedisce alle banche di creare nuovo denaro.
+explanation: |
+  In un sistema di riserva frazionaria, le banche detengono solo una frazione dei fondi dei depositanti in riserva, prestando il resto. Se molti clienti cercano contemporaneamente di ritirare i loro fondi, la banca potrebbe non avere abbastanza riserve per soddisfare queste richieste, potenzialmente portando al fallimento.
+reviewed: false

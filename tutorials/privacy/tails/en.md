@@ -4,10 +4,6 @@ name: Tails
 description: Install Tails on a USB key
 ---
 
-# Install Tails on a USB key
-
-_**Guide proposed by Hari Seldon as part of Agora256**_
-
 ![image](assets/cover.jpeg)
 
 A portable and amnesic operating system that protects you against surveillance and censorship.
@@ -57,7 +53,7 @@ Prerequisites:
 
 ## Step 1: Download Tails from your computer
 
-![image](assets/1.jpeg)
+![image](assets/1.webp)
 
 > 🔗 Official Tails section: https://tails.boum.org/install/linux/index.fr.html#download
 
@@ -67,7 +63,7 @@ Save the file in a known folder, such as Downloads, as this will be necessary fo
 
 ## Step 2: Verify your download
 
-![image](assets/2.jpeg)
+![image](assets/2.webp)
 
 > 🔗 Official Tails section: https://tails.boum.org/install/linux/index.fr.html#verify
 
@@ -79,7 +75,7 @@ To verify the file, use the "Select your download..." button provided in the off
 
 ## Step 3: Install Tails on your USB key
 
-![image](assets/3.jpeg)
+![image](assets/3.webp)
 
 > 🔗 Official Tails section:
 >
@@ -94,7 +90,7 @@ Good luck! and see you at step 4.
 
 ## Step 4: Restart on your Tails USB key
 
-![image](assets/4.jpeg)
+![image](assets/4.webp)
 
 > 🔗 Official Tails section: https://tails.boum.org/install/linux/index.en.html#restart
 > It's time to start one of your computers using your new USB stick. Insert it into one of its USB ports and restart!
@@ -123,27 +119,27 @@ To determine which key you should press to ensure that you have the boot menu al
 
 Once the USB stick is selected, you should see this new boot screen, which is a very good sign, so let the computer continue to boot...
 
-![image](assets/5.jpeg)
+![image](assets/5.webp)
 
 ## Step 5: Welcome to Tails!
 
-![image](assets/6.jpeg)
+![image](assets/6.webp)
 
 > 🔗 Official Tails section: https://tails.boum.org/install/linux/index.en.html#tails
 
 One or two minutes after the boot loader and loading screen, the Welcome Screen appears.
 
-![image](assets/7.jpeg)
+![image](assets/7.webp)
 
 In the Welcome Screen, select your language and keyboard layout in the Language & Region section. Click on Start Tails.
 
-![image](assets/8.jpeg)
+![image](assets/8.webp)
 
 If your computer is not wired to your network, please refer to the official Tails instructions to help you connect to your network without Wi-Fi (section "Test your Wi-Fi").
 
 Once connected to the local network, the Tor Connection wizard appears to help you connect to the Tor network.
 
-![image](assets/9.jpeg)
+![image](assets/9.webp)
 
 You can start browsing anonymously, explore the options and software included in Tails. Enjoy yourself, you have plenty of room for errors, as nothing is modified on the USB stick... Your next restart will have forgotten all your experiences!
 
@@ -153,5 +149,3 @@ Once you have experimented a bit more with your own Tails USB stick, we will exp
 
 > Update a key with the latest version of Tails; Configure and use persistent storage; Install additional software.
 > Until then, as always, if you have any questions, feel free to share them with the Agora256 community. We are learning together to be better tomorrow than we are today!
-
-> _**Guide proposed by Hari Seldon as part of Agora256; original post: https://agora256.com/installer-tails-usb/**_

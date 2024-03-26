@@ -3,14 +3,7 @@ name: RGB
 description: Introdução e criação de ativos no RGB
 ---
 
-# Uma breve introdução aos protocolos RGB
-
-Francisco Calderón publicado em
-08 de novembro de 2021
-https://grunch.dev/blog/brief-intro-rgb/
-grunch@getalby.com
-
-![RGB vs Ethereum](assets/0.png)
+![RGB vs Ethereum](assets/0.webp)
 
 ## Introdução
 
@@ -30,7 +23,7 @@ Podemos definir o RGB como um conjunto de protocolos de código aberto que nos p
 Em termos simples, RGB é um sistema que permite ao usuário auditar um contrato inteligente, executá-lo e verificá-lo individualmente a qualquer momento sem ter um custo adicional, uma vez que não utiliza uma blockchain como os sistemas "tradicionais" fazem. Sistemas complexos de contratos inteligentes foram pioneiros no Ethereum, mas devido à necessidade do usuário de gastar quantidades significativas de gás para cada operação, eles nunca alcançaram a escalabilidade prometida, consequentemente, nunca foi uma opção para bancar os usuários excluídos do sistema financeiro atual.
 Atualmente, a indústria de blockchain promove que tanto o código dos contratos inteligentes quanto os dados devem ser armazenados na blockchain e executados por cada nó da rede, independentemente do aumento excessivo de tamanho ou do uso indevido de recursos computacionais. O esquema proposto pelo RGB é muito mais inteligente e eficiente, pois corta com o paradigma da blockchain, tendo contratos inteligentes e dados separados da blockchain e, assim, evita a saturação da rede vista em outras plataformas, por sua vez, não força cada nó a executar cada contrato, mas sim as partes envolvidas, o que adiciona confidencialidade a um nível nunca antes visto.
 
-![RGB vs Ethereum](assets/1.png)
+![RGB vs Ethereum](assets/1.webp)
 
 ## Contratos inteligentes no RGB
 
@@ -418,7 +411,3 @@ $ rgb0-cli fungible list -l
 Conseguimos criar um ativo fungível e movê-lo de uma transação para outra de forma privada, se verificarmos a transação confirmada em um explorador de blocos, não encontraríamos nada diferente de uma transação regular, isso se deve ao fato de que o RGB usa selos de uso único para ajustar as transações. Neste post, faço uma introdução sobre como o RGB funciona.
 
 Este post pode conter erros, se você encontrar algo, por favor, me avise para melhorar este guia, sugestões e críticas também são bem-vindas, feliz hacking! 🖖
-
-> Guia oferecido por Franscisco: grunch@getalby.com
-> https://twitter.com/negrunch
-> https://grunch.dev/blog/rgbnode-tutorial/'

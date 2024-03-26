@@ -1,0 +1,11 @@
+question: What should you do after storing the envelope according to the chapter?
+answer: Make sure your heirs know that they need to retrieve this envelope if necessary.
+wrong_answers:
+  - Make sure your heirs don't know that they need to retrieve this envelope if necessary.
+  - Make sure your heirs know that they don't need to retrieve this envelope if necessary.
+  - Make sure your heirs don't know that they don't need to retrieve this envelope
+    if necessary.
+explanation: |
+  After storing the envelope, you should make sure your heirs know that
+  they need to retrieve this envelope if necessary, as suggested in the chapter.
+reviewed: false

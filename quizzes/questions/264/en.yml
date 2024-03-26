@@ -1,0 +1,9 @@
+question: What is the focus of this university's course?
+answer: The Bitcoin universe.
+wrong_answers:
+  - The global cryptocurrency industry.
+  - The fintech industry.
+  - The blockchain industry.
+explanation: |
+  The entire focus of this university is on the Bitcoin universe, not crypto.
+reviewed: false

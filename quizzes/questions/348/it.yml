@@ -1,0 +1,9 @@
+question: Qual è il motivo principale per cui un utente frequente di Bitcoin opterebbe per un portafoglio basato sulla rete Lightning per le transazioni quotidiane?
+answer: Migliora l'efficienza delle transazioni Bitcoin.
+wrong_answers:
+  - Aumenta il valore di Bitcoin.
+  - Consente transazioni anonime.
+  - Fornisce una piattaforma per il trading di Bitcoin.
+explanation: |
+  La rete Lightning è un protocollo di pagamento di "livello 2" che opera su una criptovaluta basata su blockchain come Bitcoin. È progettata per consentire transazioni veloci e a basso costo.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Quelle est la vision des économistes autrichiens sur la fixation des taux d'intérêt ?
+answer: Les économistes autrichiens soulignent que fixer arbitrairement le taux d'intérêt peut conduire à des crises économiques.
+wrong_answers:
+  - Les économistes autrichiens estiment que le gouvernement devrait fixer les taux d'intérêt.
+  - Les économistes autrichiens estiment que les taux d'intérêt devraient être fixes et immuables.
+  - Les économistes autrichiens estiment que les taux d'intérêt devraient être fixés par la banque centrale.
+explanation: |
+  Les économistes autrichiens soulignent que fixer arbitrairement le taux d'intérêt peut conduire à des crises économiques et rendre le calcul impossible dans un régime socialiste.
+  Ils soutiennent que les relations de valorisation sont subjectives, donc les taux d'intérêt peuvent varier en fonction des individus et des circonstances.
+reviewed: false

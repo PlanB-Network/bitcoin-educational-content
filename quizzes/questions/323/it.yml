@@ -1,0 +1,10 @@
+question: Cosa è un portafoglio freddo nel contesto di Bitcoin?
+answer: Un portafoglio per conservare grandi quantità di Bitcoin offline.
+wrong_answers:
+  - Un portafoglio utilizzato per transazioni in climi freddi.
+  - Un portafoglio utilizzato per conservare piccole quantità di Bitcoin.
+  - Un portafoglio utilizzato per conservare Bitcoin per un breve periodo di tempo.
+explanation: |
+  Un portafoglio freddo è un portafoglio per conservare grandi quantità di Bitcoin offline.
+  È considerato più sicuro di un portafoglio caldo in quanto è meno vulnerabile agli attacchi informatici.
+reviewed: false

@@ -4,11 +4,9 @@ name: NOSTR
 description: Scopri e inizia a utilizzare NOSTR
 ---
 
-# Come utilizzare Nostr nel 2023: Una guida per principianti
-
 Alla fine di questa guida, capirai cosa è Nostr, avrai creato un account e sarai in grado di utilizzarlo.
 
-![Un nuovo sfidante è arrivato](assets/1.jpeg)
+![Un nuovo sfidante è arrivato](assets/1.webp)
 
 ## Che cos'è Nostr?
 
@@ -22,7 +20,7 @@ Ogni utente ha una o più identità, ogni identità è determinata da una coppia
 
 Per accedere alla rete, è necessario utilizzare un software client e connettersi a dei relay per ricevere ed emettere contenuti.
 
-![Sistema di chiavi](assets/2.jpeg)
+![Sistema di chiavi](assets/2.webp)
 
 ## 1. Le chiavi crittografiche
 
@@ -58,7 +56,7 @@ Per questa guida, useremo iris.to (https://iris.to/) poiché questo client web f
 
 ris creerà per te un set di chiavi senza che tu debba fare altro che inserire un nome (reale o fittizio) per il tuo profilo. Clicca poi su GO e il gioco è fatto!
 
-![Menu principale](assets/3.jpeg)
+![Menu principale](assets/3.webp)
 
 > ⚠️ Attenzione! Dovrai tenere traccia delle tue chiavi se vuoi poter accedere nuovamente al tuo profilo una volta chiusa la sessione. Ti mostrerò come fare, alla fine di questa guida.
 
@@ -66,11 +64,11 @@ ris creerà per te un set di chiavi senza che tu debba fare altro che inserire u
 
 Per pubblicare un contenuto, niente di più semplice e intuitivo che scrivere qualche parola nel campo di pubblicazione.
 
-![Pubblicazione](assets/4.jpeg)
+![Pubblicazione](assets/4.webp)
 
 Ecco fatto! Hai pubblicato il tuo primo post su Nostr.
 
-![Post](assets/5.jpeg)
+![Post](assets/5.webp)
 
 ## Passaggio 3: Trovare un amico
 
@@ -78,7 +76,7 @@ Trova me su Nostr e non sarai più solo. Mi iscrivo anche io a tutti coloro che 
 
 npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 nella barra di ricerca.
 
-![Il mio profilo](assets/6.jpeg)
+![Il mio profilo](assets/6.webp)
 
 Clicca su "follow" e entro pochi giorni mi iscriverò anche io al tuo feed. Saremo amici. Sarà un piacere anche leggerti se vorrai scrivermi un messaggio.
 
@@ -88,11 +86,11 @@ Inoltre, assicurati di iscriverti anche al feed di Agora256 per ricevere una not
 
 Hai ancora un po' di lavoro da fare per personalizzare il tuo profilo. Per farlo, clicca sull'avatar che iris ha generato automaticamente per te nell'angolo in alto a destra dello schermo e poi clicca su "modifica profilo".
 
-![Profilo](assets/7.jpeg)
+![Profilo](assets/7.webp)
 
 Non ti resta che indicare a iris dove trovare la tua immagine e la tua immagine di copertina su internet. Ti consiglio di ospitare tu stesso i tuoi contenuti: proteggi ciò che ti appartiene.
 
-![Altra opzione](assets/8.jpeg)
+![Altra opzione](assets/8.webp)
 
 Se preferisci, puoi anche scaricare delle immagini, che saranno conservate per te da iris su nostr.build, un servizio gratuito di hosting di contenuti visivi per Nostr.
 
@@ -102,11 +100,11 @@ Come puoi vedere, puoi anche configurare il tuo client per essere in grado di ri
 
 Questo passaggio è cruciale se vuoi mantenere l'accesso al tuo profilo una volta disconnesso dal client o quando la tua sessione sarà scaduta.
 D'abord, clicca sull'icona "settings" rappresentata da un ingranaggio
-![Setting](assets/9.jpeg)
+![Setting](assets/9.webp)
 
 Poi, copia e incolla uno dopo l'altro i tuoi npub, npub hex, nsec e nsec hex in un file di testo che terrai al sicuro. Ti consiglio di criptare questo file, se sai come farlo.
 
-![Clef](assets/10.jpeg)
+![Clef](assets/10.webp)
 
 > ⚠️ Presta attenzione all'avviso che ti dà iris. Se puoi condividere la tua chiave pubblica senza preoccupazioni, non è lo stesso per la tua chiave privata. Chiunque la possieda potrà accedere al tuo account.
 

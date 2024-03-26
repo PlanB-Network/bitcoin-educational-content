@@ -596,3 +596,19 @@ Speaker: Dejan Roljic
 Addressing global financial challenges, Bitcoin offers solutions bridging traditional & decentralized systems. Financial inclusion boosts economies. NAKA's mission: universal financial freedom.
 
 
+## Anuncio Bitcoin ATMs con Lightning Network 
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=15)
+
+Speaker: Matias Golderhörn 
+
+Athena Bitcoin como una de las compañías mas grandes de Bitcoin ATMs del mundo, desea anunciar oficialmente la compatibilidad de Lightning Network con nuestra red de ATMs en El Salvador. Ahora los usuarios podrán realizar retiros de efectivo instantáneos, utilizando la tecnología y ventajas de la Lightning Network, un anuncio que marcara un impulso importante en la adopción de Bitcoin en el país.
+
+
+## A New Era of Bitcoin Creators
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=16)
+
+Speaker: Julian Figueroa 
+
+How can we reach future Bitcoiners in a more engaging, creative way? Can we improve the way we "orange-pill" by storytelling in new mediums? And can we help successful creators sustain and challenge themselves to go beyond?

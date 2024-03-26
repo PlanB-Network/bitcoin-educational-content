@@ -1,7 +1,7 @@
 ---
-nome: Introduzione all'Economia Austriaca
-scopo: Scoprire il pensiero della scuola economica austriaca. Studiare le loro opinioni sulla società e sulle realtà macro/microeconomiche.
-obbiettivi:
+name: Introduzione all'Economia Austriaca
+goal: Scoprire il pensiero della scuola economica austriaca. Studiare le loro opinioni sulla società e sulle realtà macro/microeconomiche.
+objectives:
   - Un'alternativa al Keynesianesimo
   - L'importanza di una valuta solida
   - Perché e come vengono create le fasi cicliche economiche?

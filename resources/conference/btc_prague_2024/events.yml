@@ -1,16 +1,23 @@
-- date start: 2024-06-13
-  date finish: 2024-06-15
-  location: Prague, Czech Republic
+- start_date: 2024-06-13
+  end_date: 2024-06-15
+  address_line_1: Prague, Czech Republic
+  address_line_2:
+  address_line_3: 
   name: BTC Prague 2024
-  type: conference
   builder: BTCprague
+  type: conference
+  is_online: false
+  is_in_person: true
+  price_dollars: 0
+  description: The biggest, most influential bitcoin event in Europe ever, again!
   language: 
     - en
     - cs
-  description: The biggest, most influential bitcoin event in Europe ever, again! 
   links:
     website: https://www.btcprague.com/#
+    replay_url:
+    live_url :
   tag: 
     - International
-    - All Public
+    - Bitcoiner
     - General

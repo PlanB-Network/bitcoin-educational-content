@@ -612,3 +612,20 @@ Athena Bitcoin como una de las compañías mas grandes de Bitcoin ATMs del mundo
 Speaker: Julian Figueroa 
 
 How can we reach future Bitcoiners in a more engaging, creative way? Can we improve the way we "orange-pill" by storytelling in new mediums? And can we help successful creators sustain and challenge themselves to go beyond?
+
+# NAKA Stage
+
+## Teaching Bitcoin and Lightning through Games
+[video](https://www.youtube.com/watch?v=-J8TqUXgRoE&list=PLN2-dhqIYoj9ngqqB72myIsRmj5s1nyS_)
+
+Speaker: Scott Lindberg
+
+Frustrated with challenges reaching your pre-coiner loved ones? The focus of this presentation is how the experiential nature of tabletop games helps bridge the adoption gap by simplifying concepts for kids and adults.
+
+## BTC MAP - Merchant Adoption 
+
+[video](https://www.youtube.com/watch?v=4Qh7HIumiUo&list=PLN2-dhqIYoj9ngqqB72myIsRmj5s1nyS_&index=2)
+
+Speaker: Nathan Day 
+
+Nathan Day (BTC Map Co-founder) will present the current state of merchant adoption globally. Nathan will also tell the story of the work that was undertaken over the past 12-months to cleanse the global dataset and engage with communities across the planet.

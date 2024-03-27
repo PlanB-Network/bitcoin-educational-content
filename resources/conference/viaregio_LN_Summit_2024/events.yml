@@ -4,7 +4,7 @@
   address_line_2:
   address_line_3: 
   name: Tuscany Lightning Summit 2024
-  builder: BTCprague
+  builder: fulgure-ventures
   type: conference
   is_online: true
   is_in_person: false
@@ -13,7 +13,7 @@
   language: 
     - en
   links:
-    website: https://www.btcprague.com/#
+    website: 
     replay_url:
     live_url : https://peertube.planb.network/w/dbDb5kVwERRK6gnZEd6Ecg
   tag: 

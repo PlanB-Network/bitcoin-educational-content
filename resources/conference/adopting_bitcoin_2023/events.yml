@@ -1,17 +1,13 @@
-events: 
-  - date start: 
-    date finish:
-    location:
-    name: 
-    description:
-    links:
-      website: 
-      twitter:
-      telegram:
-      nostr:
-      youtube: 
-    tag: 
-      - 
-       
-
-
+- date start: 
+  date finish:
+  location:
+  name: 
+  description:
+  links:
+    website: 
+    twitter:
+    telegram:
+    nostr:
+    youtube: 
+  tag: 
+    - 

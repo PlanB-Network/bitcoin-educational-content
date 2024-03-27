@@ -178,3 +178,19 @@ Cette technique est donc idéale pour ceux qui recherchent une confidentialité 
 - **[Tutoriel coinjoin Sparrow Wallet](https://planb.network/fr/tutorials/privacy/coinjoin-sparrow-wallet)** ;
 - **[Tutoriel coinjoin Samourai Wallet (sans Dojo)](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet)**.
 
+### Comprendre le setup
+Pour commencer, vous allez avoir besoin d'un Dojo ! Dojo est une implémentation de nœud Bitcoin basée sur Bitcoin Core, développée par les équipes de Samourai. 
+
+Pour faire tourner votre propre Dojo, vous avez la possibilité soit d'[installer un nœud Dojo de façon autonome](https://samouraiwallet.com/dojo), soit de profiter de Dojo au sein d'une autre solution de nœud Bitcoin "node-in-box". À l'heure actuelle, les options disponibles sont :
+- [RoninDojo](https://ronindojo.io/), qui est un Dojo agrémenté d'outils supplémentaires, y compris un assistant d'installation et un assistant d'administration. Je détaille la procédure de mise en place et d'utilisation de RoninDojo dans cet autre tutoriel : [RONINDOJO V2](https://planb.network/fr/tutorials/node/ronin-dojo-v2) ;
+- [Umbrel](https://umbrel.com/) avec l'application "Samourai Server" ;
+- [MyNode](https://mynodebtc.com/) avec l'application "Dojo" ;
+- [Nodl](https://www.nodl.eu/) avec l'application "Dojo" ;
+- [Citadel](https://runcitadel.space/) avec l'application "Samourai".
+
+Dans notre configuration, nous interagirons avec trois interfaces distinctes :
+- **Samourai Wallet**, qui accueillera notre portefeuille Bitcoin dédié aux coinjoins. Disponible gratuitement et en open-source pour Android, cette application permet de contrôler votre portefeuille de mixage, notamment pour les dépenses de vos postmix depuis votre smartphone ;
+- **Whirlpool CLI** (_Command Line Interface_), qui fonctionnera sur le nœud hébergeant le Dojo. Ce logiciel aura accès aux clés de votre portefeuille Samourai. C'est lui qui se chargera de communiquer avec le coordinateur et qui gèrera les coinjoins en continu. Il agit comme une copie de votre portefeuille Samourai sur votre nœud, prête à participer aux coinjoins à tout moment ;
+- **Whirlpool GUI** (_Graphical User Interface_), l'interface utilisateur graphique que nous utiliserons pour surveiller l'activité de Whirlpool CLI et initier des mixages à distance. Whirlpool GUI offre une représentation visuelle des opérations menées par Whirlpool CLI. Ce logiciel doit être installé sur un ordinateur séparé du Dojo. Pour les utilisateurs d'Umbrel, MyNode, Nodl, et Citadel, Whirlpool GUI est obligatoire. Cependant, avec RoninDojo, l'interface Whirlpool GUI est déjà intégrée à l'interface web de votre nœud. Vous n'aurez donc pas besoin de l'installer sur un PC séparé.
+
+Selon moi, l'utilisation de RoninDojo représente la meilleure solution pour réaliser des coinjoins avec un Dojo. Puisque ce logiciel de node-in-box est en partenariat direct avec les équipes de Samourai, RoninDojo est bien plus optimisé pour faire cela. De plus, l'intégration de Whirlpool GUI dans l'interface web simplifie considérablement le processus de mise en place.

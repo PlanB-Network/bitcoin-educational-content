@@ -1,430 +1,352 @@
 ---
-name: Coinjoin - Samourai Wallet
-description: Comment faire un coinjoin sur Samourai Wallet ?
+name: Coinjoin - Sparrow Wallet
+description: How to perform a coinjoin on Sparrow Wallet?
 ---
 ![cover](assets/cover.jpeg)
 
-"*a bitcoin wallet for the streets*"
+In this tutorial, you will learn what a coinjoin is and how to perform one using the Sparrow Wallet software and the Whirlpool implementation.
 
-Dans ce tutoriel, vous allez apprendre ce qu'est un coinjoin et comment en réaliser avec le logiciel Samourai Wallet et l'implémentation Whirlpool.
+## What is a coinjoin on Bitcoin?
+**A coinjoin is a technique that breaks the traceability of bitcoins on the blockchain**. It relies on a collaborative transaction with a specific structure of the same name: the coinjoin transaction.
 
-## Qu'est-ce qu'un coinjoin sur Bitcoin ?
-**Le coinjoin est une technique qui permet de casser le traçage des bitcoins sur la blockchain**. Il repose sur une transaction collaborative à la structure spécifique de même nom : la transaction coinjoin.
+Coinjoins enhance the privacy of Bitcoin users by complicating chain analysis for external observers. Their structure allows merging multiple coins from different users into a single transaction, thus blurring the trails and making it difficult to determine the links between input and output addresses.
 
-Les coinjoins renforcent la confidentialité des utilisateurs de Bitcoin en complexifiant l'analyse de chaîne pour les observateurs externes. Leur structure permet de fusionner plusieurs pièces de différents utilisateurs en une unique transaction, brouillant ainsi les pistes et rendant difficile la détermination des liens entre les adresses d'entrée et de sortie.
-
-Le principe du coinjoin repose sur une approche collaborative : plusieurs utilisateurs qui souhaitent mélanger leurs bitcoins déposent des montants identiques en inputs d'une même transaction. Ces montants sont ensuite redistribués en outputs de valeur égale à chaque utilisateur. À l'issue de la transaction, il devient impossible d'associer un output spécifique à un utilisateur connu en entrée. Aucun lien direct n'existe entre les entrées et les sorties, ce qui vient rompre l'association entre les utilisateurs et leurs UTXO, de même que l'historique de chaque pièce.
+The principle of the coinjoin is based on a collaborative approach: several users who wish to mix their bitcoins deposit identical amounts as inputs of the same transaction. These amounts are then redistributed as outputs of equal value to each user. At the end of the transaction, it becomes impossible to associate a specific output with a known user at the input. No direct link exists between the inputs and outputs, which breaks the association between the users and their UTXO, as well as the history of each coin.
 ![coinjoin](assets/en/1.webp)
 
-Exemple d'une transaction coinjoin (qui ne provient pas de moi) : [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
+Example of a coinjoin transaction (not from me): [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/en/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
 
-Afin de réaliser un coinjoin tout en garantissant que chaque utilisateur conserve le contrôle sur ses fonds à tout moment, le processus débute par la construction de la transaction par un coordinateur, qui la transmet ensuite aux participants. Chaque utilisateur procède alors à la signature de la transaction après avoir vérifié que celle-ci lui convient. Toutes les signatures collectées sont finalement intégrées à la transaction. Si une tentative de détournement des fonds est effectuée par un utilisateur ou le coordinateur, par le biais d'une modification des outputs de la transaction coinjoin, les signatures se révéleront invalides, ce qui conduira au rejet de la transaction par les nœuds.
+To perform a coinjoin while ensuring that each user retains control over their funds at all times, the process begins with the construction of the transaction by a coordinator, who then transmits it to each participant. Each user then signs the transaction after verifying that it suits them. All collected signatures are finally integrated into the transaction. If an attempt to divert funds is made by a user or the coordinator, through a modification of the coinjoin transaction's outputs, the signatures will prove invalid, leading to the rejection of the transaction by the nodes.
 
-Il existe plusieurs implémentations de coinjoin, telles que Whirlpool, JoinMarket ou Wabisabi, chacune ayant pour objectif de gérer la coordination entre les participants et d'accroître l'efficacité des transactions coinjoin.
+There are several implementations of coinjoin, such as Whirlpool, JoinMarket, or Wabisabi, each aiming to manage coordination among participants and increase the efficiency of coinjoin transactions.
 
-Dans ce tutoriel, nous nous penchons sur l'implémentation **Whirlpool**, que je considère comme la solution la plus efficace pour faire des coinjoins sur Bitcoin. Bien que disponible sur plusieurs portefeuilles, nous explorons dans ce tutoriel exclusivement l'utilisation avec l'application mobile Samourai Wallet, sans Dojo.
+In this tutorial, we focus on the **Whirlpool** implementation, which I consider to be the most effective solution for performing coinjoins on Bitcoin. Although available on several wallets, this tutorial exclusively explores its use with the Sparrow Wallet Desktop software.
+## Why Perform CoinJoins on Bitcoin?
 
-## Pourquoi faire des coinjoins sur Bitcoin ?
-Un des problèmes initiaux à tout système de paiement pair-à-pair est la double dépense : comment empêcher des individus mal intentionnés de dépenser à plusieurs reprises les mêmes unités monétaires sans faire appel à une autorité centrale pour arbitrer ?
+One of the initial problems with any peer-to-peer payment system is double-spending: how to prevent malicious individuals from spending the same monetary units multiple times without resorting to a central authority for arbitration?
 
-Satoshi Nakamoto a apporté une solution à ce dilemme au travers du protocole Bitcoin, un système de paiement électronique pair-à-pair qui fonctionne indépendamment de toute autorité centrale. Dans son livre blanc, il souligne que la seule manière de certifier l'absence de double dépense est d'assurer la visibilité de toutes les transactions au sein du système de paiement.
+Satoshi Nakamoto provided a solution to this dilemma through the Bitcoin protocol, a peer-to-peer electronic payment system that operates independently of any central authority. In his white paper, he emphasizes that the only way to certify the absence of double-spending is to ensure the visibility of all transactions within the payment system.
 
-Afin de garantir que chaque participant soit au courant des transactions, ces dernières doivent être publiquement divulguées. Le fonctionnement de Bitcoin repose donc sur une infrastructure transparente et distribuée, permettant à tout opérateur de nœud de vérifier l'intégralité des chaînes de signatures électroniques et l'historique de chaque pièce, depuis sa création par un mineur.
+To ensure that each participant is aware of the transactions, they must be publicly disclosed. Thus, the operation of Bitcoin relies on a transparent and distributed infrastructure, allowing any node operator to verify the entirety of the electronic signature chains and the history of each coin, from its creation by a miner.
 
-La nature transparente et distribuée de la blockchain de Bitcoin signifie que tout utilisateur du réseau peut suivre et analyser les transactions de tous les autres participants. En conséquence, l'anonymat au niveau des transactions est impossible. Cependant, l'anonymat est préservé au niveau de l'identification des individus. Contrairement au système bancaire classique où chaque compte est lié à une identité personnelle, sur Bitcoin, les fonds sont associés à des paires de clés cryptographiques, offrant ainsi aux utilisateurs une forme de pseudonymat derrière des identifiants cryptographiques.
+The transparent and distributed nature of Bitcoin's blockchain means that any network user can follow and analyze the transactions of all other participants. Consequently, anonymity at the transaction level is impossible. However, anonymity is preserved at the level of individual identification. Unlike the traditional banking system where each account is linked to a personal identity, on Bitcoin, funds are associated with pairs of cryptographic keys, thus offering users a form of pseudonymity behind cryptographic identifiers.
 
-Ainsi, la confidentialité sur Bitcoin est mise à mal lorsque des observateurs extérieurs parviennent à associer des UTXO spécifiques à des utilisateurs identifiés. Une fois cette association établie, il devient possible de tracer leurs transactions et d'analyser l'historique de leurs bitcoins. Le coinjoin est justement une technique développée pour casser la traçabilité des UTXO, offrant ainsi une certaine couche de confidentialité aux utilisateurs de Bitcoin au niveau des transactions.
+Therefore, confidentiality on Bitcoin is compromised when external observers manage to associate specific UTXOs with identified users. Once this association is established, it becomes possible to trace their transactions and analyze the history of their bitcoins. Coinjoin is precisely a technique developed to break the traceability of UTXOs, thus offering a certain layer of confidentiality to Bitcoin users at the transaction level.
 
-## Comment fonctionne Whirlpool ?
-Whirlpool se distingue des autres méthodes de coinjoin par l'utilisation de transactions "_ZeroLink_", qui assurent qu'il n'y a strictement aucun lien technique possible entre tous les inputs et tous les outputs. Ce mixage parfait est obtenu grâce à une structure où chaque participant contribue avec un montant identique en input (à l'exception des frais de minage), générant ainsi des outputs de montants parfaitement égaux.
+## How Does Whirlpool Work?
 
-Cette approche restrictive sur les inputs confère aux transactions coinjoin de Whirlpool une caractéristique unique : l'absence totale de liens déterministes entre les inputs et les outputs. Autrement dit, chaque output possède une probabilité égale d'être attribué à n'importe quel participant, par rapport à tous les autres outputs de la transaction.
+Whirlpool stands out from other coinjoin methods by using "_ZeroLink_" transactions, which ensure that there is strictly no technical link possible between all the inputs and all the outputs. This perfect mixing is achieved through a structure where each participant contributes an identical amount in input (except for mining fees), thus generating outputs of perfectly equal amounts.
 
-Initialement, le nombre de participants à chaque coinjoin Whirlpool était limité à 5, avec 2 nouveaux entrants et 3 remixeurs (nous expliquerons ces concepts plus loin). Toutefois, l'augmentation des frais de transaction on-chain observée en 2023 a incité les équipes de Samourai à repenser leur modèle pour améliorer la confidentialité tout en réduisant les coûts. Ainsi, en tenant compte de la situation du marché des frais et du nombre de participants, le coordinateur peut désormais organiser des coinjoins incluant 6, 7 ou 8 participants. Ces sessions améliorées sont désignées sous le nom de "_Surge Cycles_". Il est important de noter que, quelle que soit la configuration, il y a toujours uniquement 2 nouveaux entrants dans les coinjoins Whirlpool.
+This restrictive approach on inputs gives Whirlpool coinjoin transactions a unique characteristic: the total absence of deterministic links between the inputs and the outputs. In other words, each output has an equal probability of being attributed to any participant, compared to all the other outputs of the transaction.
+Initially, the number of participants in each Whirlpool coinjoin was limited to 5, with 2 new entrants and 3 remixers (we will explain these concepts further on). However, the increase in on-chain transaction fees observed in 2023 prompted the Samourai teams to rethink their model to improve privacy while reducing costs. Thus, taking into account the market situation of fees and the number of participants, the coordinator can now organize coinjoins including 6, 7, or 8 participants. These enhanced sessions are referred to as "_Surge Cycles_". It is important to note that, regardless of the setup, there are always only 2 new entrants in the Whirlpool coinjoins.
 
-Ainsi, les transactions Whirlpool se caractérisent par un nombre identique d'inputs et d'outputs, pouvant être de :
-- 5 inputs et 5 outputs ;
+Therefore, Whirlpool transactions are characterized by an identical number of inputs and outputs, which can be:
+- 5 inputs and 5 outputs;
 ![coinjoin](assets/en/2.webp)
-- 6 inputs et 6 outputs ;
+- 6 inputs and 6 outputs;
 ![coinjoin](assets/en/3.webp)
-- 7 inputs et 7 outputs ;
+- 7 inputs and 7 outputs;
 ![coinjoin](assets/en/4.webp)
-- 8 inputs et 8 outputs.
+- 8 inputs and 8 outputs.
 ![coinjoin](assets/en/5.webp)
-Le modèle proposé par Whirlpool est ainsi basé sur de petites transactions coinjoin. À la différence de Wasabi et JoinMarket, où la robustesse des anonsets repose sur le volume de participants sur un cycle unique, Whirlpool mise sur l'enchaînement de plusieurs cycles de petite taille.
+The model proposed by Whirlpool is thus based on small coinjoin transactions. Unlike Wasabi and JoinMarket, where the robustness of the anonsets relies on the volume of participants in a single cycle, Whirlpool bets on the chaining of several small-sized cycles.
 
-Dans ce modèle, l'utilisateur s'acquitte des frais uniquement lors de son entrée initiale dans une pool, lui permettant ensuite de participer à une multitude de remixages sans frais supplémentaires. Ce sont les nouveaux entrants qui prennent en charge les frais de minage pour les remixeurs.
+In this model, the user incurs fees only upon their initial entry into a pool, allowing them to participate in a multitude of remixes without additional fees. It is the new entrants who bear the mining fees for the remixers.
 
-À chaque coinjoin supplémentaire auquel participe une pièce, ainsi que ses pairs rencontrés par le passé, les anonsets vont croître exponentiellement. L'objectif est donc de profiter de ces remixages gratuits qui, à chaque occurrence, contribuent à renforcer la densité des anonsets associés à chaque pièce mixée.
+With each additional coinjoin in which a coin participates, along with its past encountered peers, the anonsets will grow exponentially. The goal is thus to take advantage of these free remixes which, with each occurrence, contribute to strengthening the density of the anonsets associated with each mixed coin.
 
-Whirlpool a été conçu en prenant en compte deux exigences importantes :
-- L'accessibilité de l'implémentation sur appareils mobiles, étant donné que Samourai Wallet est avant tout une application de smartphone ;
-- La rapidité des cycles de remixage pour favoriser une augmentation significative des anonsets.
+Whirlpool was designed taking into account two important requirements:
+- The accessibility of implementation on mobile devices, given that Samourai Wallet is primarily a smartphone application;
+- The speed of the remixing cycles to promote a significant increase in anonsets.
 
-Ces impératifs ont guidé les choix des développeurs de Samourai Wallet dans la conception de Whirlpool, les amenant à restreindre les participants à un nombre limité par cycle. Un nombre trop restreint aurait compromis l'efficacité du coinjoin, réduisant drastiquement les anonsets générés à chaque cycle, tandis qu'un nombre trop important aurait posé des problèmes de gestion sur les applications mobiles et aurait entravé le flux de cycles.
+These imperatives guided the choices of the developers of Samourai Wallet in the design of Whirlpool, leading them to limit the number of participants per cycle. Too few participants would have compromised the effectiveness of the coinjoin, drastically reducing the anonsets generated with each cycle, while too many participants would have posed management problems on mobile applications and would have impeded the flow of cycles.
 
-**Finalement, nul besoin d'avoir un nombre élevé de participants par coinjoin sur Whirlpool puisque les anonsets se font sur l'accumulation de plusieurs cycles de coinjoins.**
+**Ultimately, there is no need to have a high number of participants per coinjoin on Whirlpool since the anonsets are made over the accumulation of several coinjoin cycles.**
+[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/wst-anonsets)
+### Coinjoin pools and fees
+To ensure that multiple cycles effectively increase the anonsets of mixed coins, a certain framework must be established to restrict the amounts of UTXOs used. Whirlpool defines different pools for this purpose.
 
-[-> En savoir plus sur les anonsets Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+A pool represents a group of users wishing to mix together, who agree on the amount of UTXOs to use to optimize the coinjoin process. Each pool specifies a fixed amount for the UTXO, which the user must adhere to in order to participate. Thus, to perform coinjoins with Whirlpool, you need to select a pool. The currently available pools are as follows:
+- 0.5 bitcoins;
+- 0.05 bitcoin;
+- 0.01 bitcoin;
+- 0.001 bitcoin (= 100,000 sats).
 
-### Les pools et les frais de coinjoin
-Pour que ces multiples cycles permettent bien de faire augmenter les anonsets des pièces mixées, il faut mettre un certain cadre afin de restreindre les montants des UTXO utilisés. Whirlpool définit ainsi différentes pools.
+By joining a pool with your bitcoins, they will be divided to generate UTXOs that are perfectly homogeneous with those of the other participants in the pool. Each pool has a maximum limit; thus, for amounts exceeding this limit, you will be forced either to make two separate entries within the same pool or to move to another pool with a higher amount:
 
-Une pool représente un ensemble d'utilisateurs souhaitant mixer ensemble, qui s'accorde sur le montant des UTXO à utiliser pour optimiser le processus de coinjoin. Chaque pool spécifie un montant fixe pour l'UTXO, auquel l'utilisateur doit se conformer pour y participer. Ainsi, pour faire des coinjoins avec Whirlpool, il vous faut sélectionner une pool. Les pools disponibles à l'heure actuelle sont les suivantes :
-- 0,5 bitcoins ;
-- 0,05 bitcoin ;
-- 0,01 bitcoin ;
-- 0,001 bitcoin (= 100 000 sats).
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-En intégrant une pool avec vos bitcoins, ceux-ci seront divisés afin de générer des UTXO parfaitement homogènes avec ceux des autres participants de la pool. Chaque pool possède une limite maximale ; ainsi, pour des montants excédant cette limite, vous serez contraint soit d'effectuer deux entrées distinctes au sein de la même pool, soit de vous orienter vers une autre pool de montant supérieur :
+As mentioned previously, a UTXO is considered to belong to a pool when it is ready to be integrated into a coinjoin. However, this does not mean that the user loses possession of it. **Through the various mixing cycles, you retain full control of your keys and, consequently, your bitcoins.** This is what differentiates the coinjoin technique from other centralized mixing techniques.
 
-| Pool (bitcoin) | Montant maximum par entrée (bitcoin) |
-|----------------|--------------------------------------|
-| 0,5            | 35                                   |
-| 0,05           | 3,5                                  |
-| 0,01           | 0,7                                  |
-| 0,001          | 0,025                                |
+To enter a coinjoin pool, service fees as well as mining fees must be paid. The service fees are fixed for each pool and are intended to compensate the teams responsible for the development and maintenance of Whirlpool. For Sparrow Wallet users, these fees are passed on by the Samourai teams to the developers of Sparrow.
 
-Comme mentionné précédemment, un UTXO est considéré comme appartenant à une pool lorsqu'il est prêt à être intégré dans un coinjoin. Cela ne signifie toutefois pas que l'utilisateur en perd la possession. **À travers les différents cycles de mixage, vous conservez intégralement le contrôle de vos clés et, par conséquent, de vos bitcoins.** C'est d'ailleurs ce qui différencie la technique du coinjoin des autres techniques de mixages centralisés.
+The service fees for using Whirlpool are to be paid once upon entering the pool. Once this step is completed, you have the opportunity to participate in an unlimited number of remixes without additional fees. Here are the current fixed fees for each pool:
 
-Pour entrer dans une pool de coinjoin, il faut régler des frais de service ainsi que des frais de minage. Les frais de service sont fixes pour chaque pool et sont destinés à rémunérer les équipes en charge du développement et de la maintenance de Whirlpool. 
+| Pool (bitcoin) | Entry fee (bitcoin)           |
+|----------------|-------------------------------|
+| 0.5            | 0.0175                        |
+| 0.05           | 0.00175                       |
+| 0.01           | 0.0005 (50,000 sats)            || 0.001          | 0.00005 (5,000 sats)            |
 
-Les frais de service pour l'utilisation de Whirlpool sont à régler une unique fois à l'entrée dans la pool. Une fois cette étape franchie, vous avez la possibilité de participer à un nombre illimité de remixages sans frais supplémentaires. Voici les frais fixes actuellement appliqués pour chaque pool :
+These fees essentially act as an entry ticket to the chosen pool, regardless of the amount you put in coinjoin. So, whether you join the 0.01 pool with exactly 0.01 BTC or you enter with 0.5 BTC, the fees will remain the same in absolute value.
 
-| Pool (bitcoin) | Frais d'entrée (bitcoin)        |
-|----------------|---------------------------------|
-| 0,5            | 0,0175                          |
-| 0,05           | 0,00175                         |
-| 0,01           | 0,0005 (50 000 sats)            |
-| 0,001          | 0,00005 (5 000 sats)            |
+Before proceeding with coinjoins, the user therefore has a choice between 2 strategies:
+- Opt for a smaller pool to minimize service fees, knowing that they will receive several small UTXOs in return;
+- Or prefer a larger pool, agreeing to pay higher fees to end up with a reduced number of larger-value UTXOs.
 
-Ces frais fonctionnent essentiellement comme un billet d'entrée pour la pool choisie, indépendamment de la somme que vous mettez en coinjoin. Ainsi, que vous intégriez la pool 0,01 avec exactement 0,01 BTC ou que vous y entriez avec 0,5 BTC, les frais demeureront identiques en valeur absolue.
+It is generally advised against merging several mixed UTXOs after the coinjoin cycles, as this could compromise the acquired confidentiality, especially due to the Common-Input-Ownership Heuristic (CIOH). Therefore, it might be wise to choose a larger pool, even if it means paying more, to avoid having too many small-value UTXOs as output. The user must weigh these trade-offs to choose the pool they prefer.
 
-Avant de procéder au coinjoins, l'utilisateur a donc le choix entre 2 stratégies : 
-- Opter pour une pool plus petite afin de minimiser les frais de service, sachant qu'il obtiendra en retour plusieurs petits UTXO ;
-- Ou bien privilégier une pool de plus grande taille, acceptant de régler des frais plus élevés pour finalement se retrouver avec un nombre réduit d'UTXO de plus grande valeur. 
+In addition to service fees, the mining fees inherent to any Bitcoin transaction must also be considered. As a Whirlpool user, you will be required to pay the mining fees for the preparation transaction (`Tx0`) as well as those for the first coinjoin. All subsequent remixes will be free, thanks to Whirlpool's model which relies on the payment of new entrants.
 
-Il est généralement déconseillé de fusionner plusieurs UTXO mixés après les cycles de coinjoins, car cela pourrait compromettre la confidentialité acquise, en particulier en raison de l'heuristique de possession commune des entrées (CIOH : *Common-Input-Ownership-Heuristic*). Par conséquent, il peut être judicieux de choisir une pool plus importante, même si cela implique de payer davantage, pour éviter d'avoir trop d'UTXO de petites valeurs en sortie. L'utilisateur doit évaluer ces compromis pour choisir la pool qu'il préfère.
-
-Outre les frais de service, les frais de minage propres à toute transaction Bitcoin doivent également être pris en compte. En tant qu'utilisateur de Whirlpool, vous serez tenu de payer les frais de minage de la transaction de préparation (`Tx0`) ainsi que ceux du premier coinjoin. Tous les remixages ultérieurs seront gratuits, grâce au modèle de Whirlpool qui repose sur le paiement de nouveaux entrants.
-
-En effet, dans chaque coinjoin Whirlpool, deux utilisateurs parmi les inputs sont des nouveaux entrants. Les autres inputs proviennent de remixeurs. De ce fait, les frais de minage pour l'ensemble des participants de la transaction sont pris en charge par ces deux nouveaux participants, qui pourront ensuite bénéficier eux aussi de remixages gratuits :
+Indeed, in each Whirlpool coinjoin, two users among the inputs are new entrants. The other inputs come from remixers. As a result, the mining fees for all participants in the transaction are covered by these two new participants, who will then also benefit from free remixes:
 ![coinjoin](assets/en/6.webp)
-Grâce à ce système de frais, Whirlpool se différencie réellement des autres services de coinjoin puisque les anonsets des UTXO ne sont pas proportionnels au prix payé par l'utilisateur. Ainsi, il est possible d'atteindre des niveaux d'anonymat considérablement élevés en ne s'acquittant que des frais d'entrée de la pool et des frais de minage pour deux transactions (la `Tx0` et le mix initial).
+Thanks to this fee system, Whirlpool truly differentiates itself from other coinjoin services since the anonsets of the UTXOs are not proportional to the price paid by the user. Thus, it is possible to achieve considerably high levels of anonymity by only paying the pool's entry fees and the mining fees for two transactions (the `Tx0` and the initial mix).
 
-Il est important de noter que l'utilisateur devra également prendre en charge les frais de minage pour retirer ses UTXO de la pool après avoir réalisé ses multiples coinjoins, sauf s'il a sélectionné l'option `mix to`, dont nous parlerons dans le tutoriel ci-dessous.
+It is important to note that the user will also have to cover the mining fees to withdraw their UTXOs from the pool after completing their multiple coinjoins, unless they have selected the `mix to` option, which we will discuss in the tutorial below.
 
-### Les comptes du portefeuille HD utilisés par Whirlpool
-Pour réaliser un coinjoin via Whirlpool, le portefeuille doit générer plusieurs comptes distincts. Un compte, dans le contexte d'un portefeuille HD (*Hierarchical Deterministic*), constitue une section entièrement isolée des autres, cette séparation intervenant au niveau de la troisième profondeur de hiérarchie du portefeuille, c'est-à-dire au niveau des `xpub`.
+### The HD wallet accounts used by Whirlpool
+To perform a coinjoin via Whirlpool, the wallet must generate several distinct accounts. An account, in the context of an HD (Hierarchical Deterministic) wallet, constitutes a section that is completely isolated from the others, this separation occurring at the third depth level of the wallet's hierarchy, that is, at the level of the `xpub`.
+An HD wallet can theoretically derive up to `2^(32/2)` different accounts. The initial account, used by default on all Bitcoin wallets, corresponds to the index `0'`.
 
-Un portefeuille HD peut théoriquement dériver jusqu'à `2^(32/2)` comptes différents. Le compte initial, utilisé par défaut sur tous les portefeuilles Bitcoin, correspond à l'index `0'`.
+For wallets adapted to Whirlpool, such as Samourai or Sparrow, 4 accounts are used to meet the needs of the coinjoin process:
+- The **deposit** account, identified by the index `0'`;
+- The **bad bank** (or doxxic change) account, identified by the index `2 147 483 644'`;
+- The **premix** account, identified by the index `2 147 483 645'`;
+- The **postmix** account, identified by the index `2 147 483 646'`.
 
-Pour les portefeuilles adaptés à Whirlpool, tels que Samourai ou Sparrow, 4 comptes sont utilisés pour répondre aux besoins du processus de coinjoin :
-- Le compte **dépôt**, identifié par l'index `0'` ;
-- Le compte **bad bank** (ou doxxic change), identifié par l'index `2 147 483 644'` ;
-- Le compte **premix**, identifié par l'index `2 147 483 645'` ;
-- Le compte **postmix**, identifié par l'index `2 147 483 646'`.
+Each of these accounts fulfills a specific function within the coinjoin.
 
-Chacun de ces comptes remplit une fonction particulière dans le cadre du coinjoin.
+All these accounts are linked to a single seed, which allows the user to recover access to all of their bitcoins by using their recovery phrase and, if applicable, their passphrase. However, it is necessary to specify to the software, during this recovery operation, the different account indexes that were used.
 
-Tous ces comptes sont liés à une unique graine (seed), ce qui permet à l'utilisateur de récupérer l'accès à l'ensemble de ses bitcoins en utilisant sa phrase de récupération et, le cas échéant, sa passphrase. Il est cependant nécessaire de préciser au logiciel, lors de cette opération de récupération, les différents index de comptes qui ont été utilisés.
+Let's now look at the different stages of a Whirlpool coinjoin within these accounts.
 
-Voyons maintenant les différentes étapes d'un coinjoin Whirlpool au sein de ces comptes.
+### The different stages of coinjoins on Whirlpool
+**Stage 1: The Tx0**
+The starting point of any Whirlpool coinjoin is the **deposit** account. This account is the one you automatically use when you create a new Bitcoin wallet. This account must be credited with the bitcoins you wish to mix.
 
-### Les différentes étapes des coinjoins sur Whirlpool
-**Étape 1 : La Tx0**
-Le point de départ de tout coinjoin Whirlpool est le compte **dépôt**. Ce compte est celui que vous utilisez automatiquement lorsque vous créez un nouveau portefeuille Bitcoin. Ce compte devra être crédité des bitcoins que l'on souhaite mixer.
+The `Tx0` represents the first stage of the Whirlpool mixing process. It aims to prepare and equalize the UTXOs for the coinjoin, by dividing them into units corresponding to the amount of the selected pool, in order to ensure the homogeneity of the mixing. The equalized UTXOs are then sent to the **premix** account. As for the difference that cannot enter the pool, it is separated into a specific account: the **bad bank** (or "doxxic change").
 
-La `Tx0` représente la première étape du processus de mixage de Whirlpool. Elle vise à préparer et à égaliser les UTXO pour le coinjoin, en les divisant en unités correspondant au montant de la pool sélectionnée, afin d'assurer l'homogénéité du mixage. Les UTXO ainsi égalisés sont ensuite envoyés vers le compte **premix**. Quant à la différence ne pouvant pas entrer dans la pool, elle est séparée sur un compte spécifique : le **bad bank** (ou "doxxic change").
-
-Cette transaction initiale `Tx0` sert aussi à régler les frais de service dus au coordinateur du mix. Contrairement aux étapes suivantes, cette transaction n'est pas collaborative ; l'utilisateur doit donc assumer l'intégralité des frais de minage :
+This initial transaction `Tx0` also serves to settle the service fees due to the mix coordinator. Unlike the following stages, this transaction is not collaborative; the user must therefore assume the full mining fees:
 ![coinjoin](assets/en/7.webp)
+In this example of a transaction `Tx0`, an input of `372,000 sats` from our **deposit** account is divided into several outgoing UTXOs, which are distributed as follows:
+- An amount of `5,000 sats` intended for the coordinator for service fees, corresponding to the entry into the pool of `100,000 sats`;
+- Three UTXOs prepared for mixing, redirected to our **premix** account and registered with the coordinator. These UTXOs are equalized at `108,000 sats` each, in order to cover the mining fees for their future initial mix;
+- The surplus, which cannot enter the pool because it is too small, is considered toxic change. It is sent to its specific account. Here, this change amounts to `40,000 sats`;
+- Finally, there are `3,000 sats` that do not constitute an output, but are the mining fees necessary to confirm the `Tx0`.
 
-Dans cet exemple d'une transaction `Tx0`, un input de `372 000 sats` issu de notre compte **dépôt** est divisé en plusieurs UTXO en sortie, qui se répartissent comme suit :
-- Un montant de `5 000 sats` destiné au coordinateur pour les frais de service, correspondant à l'entrée dans la pool de `100 000 sats` ;
-- Trois UTXO préparés pour le mixage, redirigés vers notre compte **premix** et enregistrés auprès du coordinateur. Ces UTXO sont égalisés à `108 000 sats` chacun, afin de couvrir les frais de minage pour leur futur mix initial ;
-- Le surplus ne pouvant pas entrer dans la pool, car trop petit, est considéré comme change toxique. Il est envoyé vers son compte spécifique. Ici, ce change s'élève à `40 000 sats` ;
-- Enfin, il reste `3 000 sats` qui ne constituent pas un output, mais qui sont les frais de minage nécessaires pour confirmer la `Tx0`.
+For example, here is a real Tx0 Whirlpool (which does not come from me): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/en/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-Par exemple, voici une vraie Tx0 Whirlpool (qui ne provient pas de moi) : [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/en/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
+**Step 2: The Toxic Change**
+The surplus, not having been able to integrate into the pool, here equivalent to `40,000 sats`, is redirected to the **bad bank** account, also referred to as "toxic change", to ensure a strict separation from the other UTXOs in the wallet.
 
-**Étape 2 : Le doxxic change**
-Le surplus n'ayant pas pu intégrer la pool, ici équivalent à `40 000 sats`, est redirigé vers le compte **bad bank**, également désigné sous le terme de "doxxic change", pour en assurer une séparation stricte avec les autres UTXO du portefeuille.
+This UTXO is dangerous for the user's privacy because not only is it always attached to its past, and therefore possibly to the identity of its owner, but in addition, it is noted as belonging to a user who has performed a coinjoin.
 
-Cet UTXO est dangereux pour la confidentialité de l'utilisateur, car non seulement il est toujours attaché à son passé, et donc éventuellement à l'identité de son propriétaire, mais en plus, il est noté comme appartenant à un utilisateur qui a fait un coinjoin.
+If this UTXO is merged with mixed outputs, the latter will lose all the privacy gained during the coinjoin cycles, notably because of the CIOH (*Common-Input-Ownership-Heuristic*). If it is merged with other toxic changes, the user risks losing privacy since this will link the different entries of the coinjoin cycles. It must therefore be treated with caution. The way to manage this toxic UTXO will be detailed in the last part of this article, and future tutorials will delve deeper into these methods on the PlanB Network.
 
-Si cet UTXO est fusionné avec des outputs mixés, ces derniers perdront toute la confidentialité gagnée durant les cycles de coinjoins, notamment à cause de la CIOH (*Common-Input-Ownership-Heuristic*). S'il est fusionné avec d'autres doxxic changes, l'utilisateur risque de perdre en confidentialité puisque cela viendra faire un lien entre les différentes entrées des cycles de coinjoins. Il faut donc le traiter avec prudence. La manière de gérer cet UTXO toxique sera détaillée dans la dernière partie de cet article, et de futurs tutoriels aborderont ces méthodes plus en profondeur sur PlanB Network.
-
-**Étape 3 : Le mix initial**
-Après la réalisation de la `Tx0`, les UTXO égalisés sont envoyés sur le compte **premix** de notre portefeuille, prêts à être introduits dans leur premier cycle de coinjoin, également appelé "mix initial". Si, comme dans notre exemple, la `Tx0` génère plusieurs UTXO destinés au mixage, chacun d'entre eux sera intégré dans un coinjoin initial distinct.
-
-Au terme de ces premiers mixes, le compte **premix** sera vide, tandis que nos pièces, ayant acquitté les frais de minage pour ce premier coinjoin, seront ajustées exactement au montant défini par la pool choisie. Dans notre exemple, nos UTXO initiaux de `108 000 sats` auront été réduits à exactement `100 000 sats`.
+**Step 3: The Initial Mix**
+After the completion of the `Tx0`, the equalized UTXOs are sent to the **premix** account of our wallet, ready to be introduced into their first cycle of coinjoin, also called "initial mix". If, as in our example, the `Tx0` generates multiple UTXOs intended for mixing, each of them will be integrated into a separate initial coinjoin.
+At the end of these initial mixes, the **premix** account will be empty, while our coins, having paid the mining fees for this first coinjoin, will be adjusted exactly to the amount defined by the chosen pool. In our example, our initial UTXOs of `108 000 sats` will have been reduced to exactly `100 000 sats`.
 ![coinjoin](assets/en/8.webp)
-**Étape 4 : Les remix**
-Après avoir fait le mix initial, les UTXO sont transférés dans le compte **postmix**. Ce compte rassemble les UTXO déjà mixés et ceux en attente de remixage. Lorsque le client Whirlpool est actif, les UTXO situés dans le compte **postmix** sont automatiquement disponibles pour des remixages et seront choisis de manière aléatoire pour participer à ces nouveaux cycles.
+**Step 4: The Remixes**
+After the initial mix, the UTXOs are transferred to the **postmix** account. This account gathers the already mixed UTXOs and those waiting for remixing. When the Whirlpool client is active, the UTXOs located in the **postmix** account are automatically available for remixing and will be randomly chosen to participate in these new cycles.
 
-Pour rappel, les remixages sont ensuite à 100 % gratuits : aucuns frais de service additionnels ou frais de minage ne sont requis. Conserver les UTXO dans le compte **postmix** maintient donc leur valeur intacte, et améliore en même temps leurs anonsets. Voilà pourquoi il est important de permettre à ces pièces de participer à plusieurs cycles de coinjoins. Cela ne vous coûte strictement rien, et cela permet d'augmenter leurs niveaux d'anonymat.
+As a reminder, remixes are then 100% free: no additional service fees or mining fees are required. Keeping the UTXOs in the **postmix** account thus maintains their value intact, and at the same time improves their anonsets. That's why it's important to allow these coins to participate in multiple coinjoin cycles. It costs you strictly nothing, and it increases their levels of anonymity.
 
-Lorsque vous décidez de dépenser des UTXO mixés, vous pouvez le faire directement depuis ce compte **postmix**. Il est conseillé de garder les UTXO mixés dans ce compte pour bénéficier de remixages gratuits et pour éviter qu'ils ne quittent le circuit de Whirlpool, ce qui pourrait diminuer leur confidentialité.
+When you decide to spend mixed UTXOs, you can do so directly from this **postmix** account. It is advisable to keep the mixed UTXOs in this account to benefit from free remixes and to prevent them from leaving the Whirlpool circuit, which could decrease their privacy.
 
-Comme nous le verrons dans le tutoriel suivant, il y a également l'option `mix to` qui offre la possibilité d'envoyer automatiquement vos pièces mixées vers un autre portefeuille, tel qu'un cold wallet, après un nombre défini de coinjoins.
+As we will see in the following tutorial, there is also the `mix to` option which offers the possibility to automatically send your mixed coins to another wallet, such as a cold wallet, after a defined number of coinjoins.
 
-Après avoir abordé la théorie, plongeons dans la pratique avec un tutoriel sur l'utilisation de Whirlpool via l'application Android Samourai Wallet !
+After discussing the theory, let's dive into practice with a tutorial on using Whirlpool via the Sparrow Wallet desktop software!
 
-## Tutoriel : Coinjoin Whirlpool sur Samourai Wallet
-Il existe de nombreuses options pour utiliser Whirlpool. Celle que je souhaite vous présenter ici est l'option Samourai Wallet (sans Dojo), une application open-source de gestion de portefeuille Bitcoin sur Android.
+## Tutorial: Coinjoin Whirlpool on Sparrow Wallet
+There are numerous options for using Whirlpool. The first one I want to introduce to you is the Sparrow Wallet option, an open-source Bitcoin wallet management software for PC.
+Using Sparrow has the advantage of being quite easy to get started with, quick to set up, and requiring no equipment other than a computer and an internet connection. However, there is a notable disadvantage: coinjoins will only occur when Sparrow is launched and connected. This means that if you want to mix and remix your bitcoins 24/7, you will need to constantly keep your computer turned on.
 
-Mixer sur Samourai sans Dojo a pour avantage d'être assez facile à prendre en main, d'être rapide à mettre en place et de ne nécessiter aucun dispositif autre qu'un téléphone Android et une connexion internet. 
+### Install Sparrow Wallet
+To begin, you will obviously need the Sparrow Wallet software. You can directly download it from [the official website](https://sparrowwallet.com/download/) or on [their GitHub](https://github.com/sparrowwallet/sparrow/releases).
 
-En revanche, cette méthode dispose de deux inconvénients notables : 
-- Les coinjoins ne se feront que lorsque Samourai est lancé en arrière-plan et connecté. Ce qui veut dire que si vous souhaitez mixer et remixer vos bitcoins 24h/24, vous devrez constamment laisser Samourai allumé ;
-- Si vous utilisez Whirlpool avec Samourai Wallet sans prendre soin de connecter votre propre Dojo, alors votre application va être obligée de se connecter au serveur maintenu par les équipes de Samourai, et vous leur révélerez les `xpub` de votre portefeuille. Ces informations anonymes sont nécessaires pour que votre application puisse trouver vos transactions.
+Before installing the software, it will be important to verify the signature and integrity of the executable you just downloaded. If you want more details on the installation process and verification of Sparrow software, I advise you to read this other tutorial: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/sparrow)*.
 
-La solution idéale pour pallier ces limitations consiste à opérer votre propre Dojo associé à une instance Whirlpool CLI sur votre nœud Bitcoin personnel. Ainsi, vous éviterez toute fuite d'information et atteindrez une indépendance complète. Bien que le tutoriel présenté ci-après soit utile pour certains objectifs ou pour les débutants, pour optimiser véritablement votre session de coinjoins, l'utilisation de votre propre Dojo est recommandée. Un guide détaillé sur la mise en place de cette configuration sera bientôt disponible sur PlanB Network.
+### Create a Software Wallet
+After installing the software, you will need to proceed with creating a Bitcoin wallet. It is important to note that to participate in coinjoins, the use of a software wallet (also called a "hot wallet") is essential. Therefore, **it will not be possible to perform coinjoins with a wallet secured by a hardware wallet**.
 
-### Installer Samourai Wallet
-Pour commencer, vous allez évidemment avoir besoin de l'application Samourai Wallet. Vous pouvez la télécharger directement sur [le site officiel](https://samouraiwallet.com/download) avec l'APK, sur [leur GitLab](https://code.samourai.io/wallet/samourai-wallet-android), ou bien sur le [Google Play Store](https://play.google.com/store/apps/details?id=com.samourai.wallet&pcampaignid=web_share).
+Although it is not imperative, in case you plan to mix significant amounts, it is highly recommended to opt for the use of a strong BIP39 passphrase for this wallet.
 
-### Créer un portefeuille logiciel
-Après l'installation du logiciel, vous devrez procéder à la création d'un portefeuille Bitcoin sur Samourai. Si vous en possédez déjà un, vous pouvez passer directement à l'étape suivante.
+To create a new wallet, open Sparrow, then click on the `File` tab and `New Wallet`.
 
-À l'ouverture de l'application, appuyez sur le bouton bleu `Démarrer`. Il vous sera ensuite demandé de sélectionner un emplacement dans les fichiers de votre téléphone où sera stockée la sauvegarde chiffrée de votre nouveau portefeuille.
+![sparrow](assets/en/9.webp)
 
-![samourai](assets/en/9.webp)
+Choose a name for this wallet, for example: "Coinjoin Wallet". Click on the `Create Wallet` button.
 
-Activez Tor en cliquant sur l'encoche correspondante. À cette étape, vous avez aussi l'option de sélectionner un Dojo spécifique. Cependant, dans ce tutoriel, nous allons continuer avec le Dojo par défaut ; vous pouvez donc laisser l'option désactivée. Lorsque Tor est connecté, appuyez sur le bouton `Créer un nouveau portefeuille`.
+![sparrow](assets/en/10.webp)
 
-![samourai](assets/en/10.webp)
+Leave the default settings, then click on the `New or Imported Software Wallet` button.
 
-Samourai Wallet vous invite ensuite à définir une passphrase BIP39. Ce mot de passe additionnel est très important puisqu'il agit directement dans la dérivation de vos clés privées. Une éventuelle perte de cette passphrase entraînerait l'impossibilité d'accéder à vos bitcoins, les rendant irrémédiablement perdus. Pour restaurer votre portefeuille Samourai, il est impératif de disposer à la fois de votre phrase de récupération de 12 mots et de la passphrase.
+![sparrow](assets/en/11.webp)
 
-Il est donc essentiel de choisir une passphrase robuste et d'en réaliser une ou plusieurs copies physiques, sur papier ou sur un support métallique, afin d'assurer la sécurité de vos bitcoins. Après avoir accompli ces tâches, cochez la case `Je suis conscient qu'en cas de perte...`, puis appuyez sur le bouton `SUIVANT`.
+When you access the wallet creation window, I recommend choosing a 12-word sequence, as it is amply sufficient. Select `Generate New` to generate a new recovery phrase, and click on `Use Passphrase` if you wish to add a BIP39 passphrase. It is important to make a physical backup of your recovery information, whether on paper or on a metal support, to ensure the security of your bitcoins.
 
-![samourai](assets/en/11.webp)
+![sparrow](assets/en/12.webp)
+Ensure the validity of your recovery phrase backup before clicking on `Confirm Backup...`. Sparrow will then ask you to enter your phrase again to verify that you have taken note of it. Once this step is completed, continue by clicking on `Create Keystore`.
+![sparrow](assets/en/13.webp)
 
-Vous devez ensuite définir un code PIN composé de 5 à 8 chiffres. Ce code servira à sécuriser l'accès à votre portefeuille sur votre téléphone. Il vous sera demandé chaque fois que vous voudrez ouvrir l'application Samourai. Optez pour un code PIN robuste et assurez-vous d'en garder une copie sauvegardée. Après cela, vous pouvez appuyer sur le bouton `SUIVANT`.
-
-![samourai](assets/en/12.webp)
-
-Samourai vous invitera à saisir de nouveau votre code PIN pour confirmation. Entrez-le, puis appuyez sur `FINALISER`.
-
-![samourai](assets/en/13.webp)
-
-Vous accéderez par la suite à votre phrase de récupération composée de 12 mots. Cette phrase permet de récupérer votre portefeuille avec la passphrase précédemment renseignée. Il est fortement recommandé de réaliser une ou plusieurs copies de cette phrase sur des supports physiques, tels que du papier ou un matériau métallique, afin d'assurer la sécurité de vos bitcoins en cas de problème.
-
-Après avoir effectué ces sauvegardes, vous serez dirigé vers l'interface de votre nouveau portefeuille Samourai.
-
-![samourai](assets/en/14.webp)
-
-Il vous est proposé d'obtenir votre PayNym Bot. Vous pouvez le demander si vous le souhaitez, bien que cela ne soit pas essentiel pour notre tutoriel.
-
-![samourai](assets/en/15.webp)
-
-Avant de procéder à la réception de bitcoins sur ce nouveau portefeuille, il est fortement recommandé de vérifier de nouveau la validité des sauvegardes de votre portefeuille (la passphrase et la phrase de récupération). Pour vérifier la passphrase, vous pouvez sélectionner l'icône de votre PayNym Bot située en haut à gauche de l'écran, puis en suivre le chemin :
+Leave the suggested derivation path as default and press `Import Keystore`. In my example, the derivation path differs slightly since I am using the Testnet for this tutorial. The derivation path that should appear for you is as follows:
 ```
-Paramètres > Dépannage > Passphrase/test sauvegarde 
+m/84'/0'/0'
 ```
 
-Saisissez votre passphrase pour effectuer la vérification.
+![sparrow](assets/en/14.webp)
 
-![samourai](assets/en/16.webp)
+After that, Sparrow will display the derivation details of your new wallet. In case you have set a passphrase, it is highly recommended to note your `Master fingerprint`. Although this master key fingerprint is not sensitive data, it will be useful for you to later verify that you are indeed accessing the correct wallet and to confirm the absence of errors when entering your passphrase.
 
-Samourai vous confirmera si celle-ci est valide.
+Click on the `Apply` button.
 
-![samourai](assets/en/17.webp)
+![sparrow](assets/en/15.webp)
 
-Pour vérifier votre sauvegarde de la phrase de récupération, accédez à l'icône de votre PayNym Bot, située en haut à gauche de l'écran, et suivez ce chemin :
-```
-Paramètres > Portefeuille > Afficher la phrase de récupération de 12 mots
-```
+Sparrow invites you to create a password for your wallet. This password will be required to access it via the Sparrow Wallet software. Choose a strong password, make a backup of it, and then click on `Set Password`.
 
-Samourai vous affichera une fenêtre avec votre phrase de récupération. Assurez-vous qu'elle coïncide précisément avec votre sauvegarde physique.
+![sparrow](assets/en/16.webp)
 
-Pour aller plus loin et réaliser un test de récupération complet, notez un élément témoin de votre portefeuille, tel qu'une des `xpub`, puis procédez à la suppression de votre portefeuille (à condition qu'il soit encore vide). L'objectif est de tenter de restaurer ce portefeuille vide en utilisant uniquement vos sauvegardes physiques. Si la restauration est réussie, cela indique que vos sauvegardes sont valides et fiables.
+### Receiving bitcoins
+After creating your wallet, you will initially have a single account, with the index `0'`. This is the **deposit** account we talked about in the previous parts. This is the account to which you will need to send the bitcoins to mix.
 
-### Recevoir des bitcoins
-Après avoir créé votre portefeuille, vous commencerez avec un seul compte, identifié par l'index `0'`. Il s'agit du compte de **dépôt** dont nous avons parlé dans les parties précédentes. C’est vers ce compte que vous devrez transférer les bitcoins destinés aux coinjoins.
+To do this, select the `Receive` tab on the left side of the window. Sparrow will automatically generate a new blank address to receive bitcoins.
 
-Pour ce faire, cliquez sur le symbole `+` bleu situé en bas à droite de l'écran.
+![sparrow](assets/en/17.webp)
 
-![samourai](assets/en/18.webp)
+You can enter a label for this address, and then send the bitcoins to be mixed to it.
 
-Cliquez ensuite sur le bouton vert `Recevoir`.
+![sparrow](assets/en/18.webp)
 
-![samourai](assets/en/19.webp)
+### Making the Tx0
+Once your transaction is confirmed, you can then go to the `UTXOs` tab.
 
-Samourai générera automatiquement une nouvelle adresse vierge pour recevoir des bitcoins. 
+![sparrow](assets/en/19.webp)
 
-![samourai](assets/en/20.webp)
+Next, choose the UTXO(s) you wish to submit to the coinjoin cycles. To select multiple UTXOs simultaneously, hold down the `Ctrl` key while clicking on the UTXOs of your choice.
 
-Vous pouvez y envoyer les bitcoins à mixer.
+![sparrow](assets/en/20.webp)
 
-![samourai](assets/en/21.webp)
+Then click on the `Mix Selected` button at the bottom of the window. If this button does not appear on your interface, it's because you are on a wallet secured with a hardware wallet. You need to use a software wallet to perform coinjoins with Sparrow.
+![sparrow](assets/en/21.webp)
+A window opens to explain how Whirlpool works. This is a simplification of what I explained in the previous parts. Click on `Next` to proceed.
 
-### Faire la Tx0
-Lorsque la transaction est confirmée, nous allons pouvoir lancer le processus de coinjoins. Pour ce faire, cliquez sur le bouton bleu `+` en bas à droite de l'écran.
+![sparrow](assets/en/22.webp)
 
-![samourai](assets/en/22.webp)
+On the next page, you can enter a "SCODE" if you have one. An SCODE is a promotional code that offers a discount on the service fees of the pool. Samourai Wallet occasionally provides such codes to its users during special events. I advise you to [follow Samourai Wallet](https://twitter.com/SamouraiWallet) on social media so you don't miss out on future SCODES.
 
-Puis cliquez sur `Whirlpool` en bleu.
+On the same page, you will also need to set the fee rate for the `Tx0` and your initial mix. This choice will influence the speed of confirmation for your preparatory transaction and your first coinjoin. Remember that you are responsible for the mining fees for the `Tx0` and the initial mix, but you will not owe mining fees for subsequent remixes. Adjust the `Premix Priority` slider according to your preferences, then click on `Next`.
 
-![samourai](assets/en/23.webp)
+![sparrow](assets/en/23.webp)
 
-Patientez le temps que Whirlpool s'initialise et que Samourai crée les différents comptes nécessaires.
+In this new window, you will have the option to select the pool you wish to enter using the dropdown list. In my case, having initially selected a UTXO of `456 214 sats`, my only possible choice is the pool of `100 000 sats`. This interface also informs you about the service fees to be paid as well as the number of UTXOs that will be integrated into the pool. If the conditions seem satisfactory to you, continue by clicking on `Preview Premix`.
 
-![samourai](assets/en/24.webp)
+![sparrow](assets/en/24.webp)
 
-Vous arriverez ensuite sur la page d'accueil de Whirlpool. Cliquez sur `Démarrer`.
+After this step, Sparrow will ask you to enter the password for your wallet, the one you established when creating it on the software. Once the password is entered, you will access the preview of your `Tx0`. On the left side of your window, you will see that Sparrow has generated the different accounts necessary for using Whirlpool (`Deposit`, `Premix`, `Postmix`, and `Badbank`). You will also have the opportunity to view the structure of your `Tx0`, with the different outputs:
+- The service fees;
+- The equalized UTXOs intended to enter the pool;
+- The toxic change (Doxxic Change).
 
-![samourai](assets/en/25.webp)
+![sparrow](assets/en/25.webp)
 
-Choisissez les UTXO du compte **dépôt** que vous souhaitez envoyer en cycles de coinjoins, puis cliquez sur `Suivant`.
+If the transaction is to your liking, click on `Broadcast Transaction` to broadcast your `Tx0`. Otherwise, you have the option to adjust the parameters of this `Tx0` by selecting `Clear` to erase the entered data and start the creation process from the beginning.
 
-![samourai](assets/en/26.webp)
+### Performing Coinjoins
+Once the Tx0 is broadcast, you will find your UTXOs ready to be mixed in the `Premix` account.
+![sparrow](assets/en/26.webp)
 
-À l'étape suivante, il vous faudra choisir le niveau de frais à allouer à la `Tx0` ainsi qu'à votre premier mix. Ce paramètre déterminera la vitesse à laquelle votre `Tx0` et votre coinjoin initial (ou vos coinjoins initiaux) seront confirmés. Gardez à l'esprit que les frais de minage pour la `Tx0` et le mix initial sont à votre charge, mais que vous n'aurez pas à payer de frais de minage pour les remixages suivants. Vous avez le choix entre les options `Low`, `Normal` ou `High`.
+Once the `Tx0` is confirmed, your UTXOs will be registered with the coordinator, and the initial mixes will start automatically in succession.
 
-![samourai](assets/en/27.webp)
+![sparrow](assets/en/27.webp)
 
-Sur cette même fenêtre, vous avez la possibilité de choisir la pool dans laquelle vous allez entrer. Étant donné que j'ai initialement sélectionné un UTXO de `454 258 sats`, mon seul choix possible est la pool de `100 000 sats`. Cette page vous présente également les frais de service de la pool, en plus des frais de minage, ce qui vous permet de connaître le coût total pour ce cycle de coinjoins. Si tout vous convient, sélectionnez la pool appropriée et continuez en cliquant sur le bouton bleu `VÉRIFIER DÉTAILS CYCLE`.
+By checking the `Postmix` account, you will observe the UTXOs resulting from the initial mixes. These coins will remain ready for subsequent remixing, which will not incur any additional fees.
 
-![samourai](assets/en/28.webp)
+![sparrow](assets/en/28.webp)
 
-Vous pouvez ensuite voir tous les détails de votre cycle de coinjoins : 
-- le nombre d'UTXOs qui vont entrer dans la pool ;
-- les différents frais engagés ;
-- le montant du doxxic change...
+In the `Mixes` column, it is possible to see the number of coinjoins performed by each of your coins. As we will see in the following sections, what truly matters is not so much the number of remixes per se, but rather the associated anonsets, although these two indicators are partially related.
 
-Vérifiez les informations, puis cliquez sur le bouton vert `DÉMARRER CYCLE`.
+![sparrow](assets/en/29.webp)
 
-![samourai](assets/en/29.webp)
+To temporarily stop the coinjoins, simply click on `Stop Mixing`. You will have the option to resume operations at any time by selecting `Start Mixing`.
 
-Une fenêtre apparaîtra pour vous proposer de marquer le change toxique issu de votre entrée dans le cycle de coinjoin comme « non dépensable ». En sélectionnant `OUI`, cet UTXO ne sera pas visible dans votre portefeuille et ne pourra pas être sélectionné pour des transactions futures. Cependant, il restera accessible dans la liste des UTXO de votre portefeuille, où vous pourrez changer manuellement son statut. Il est recommandé d'opter pour cette option afin d'éviter toute erreur de manipulation qui pourrait compromettre votre confidentialité par la suite. Si vous choisissez `NON`, le change toxique demeurera disponible pour une utilisation dans votre portefeuille. Si vous souhaitez en savoir plus sur la gestion et l'utilisation de ce change toxique, je vous conseille de lire la dernière partie de ce tutoriel.
+![sparrow](assets/en/30.webp)
 
-![samourai](assets/en/30.webp)
+To ensure continuous availability of your UTXOs for remixing, it is necessary to keep the Sparrow software active. Closing the software or turning off your computer will pause the coinjoins. A solution to circumvent this problem is to disable sleep functions through your operating system's settings. Additionally, Sparrow offers an option to prevent your computer from automatically going to sleep, which you can find under the `Tools` tab titled `Prevent Computer Sleep`.
 
-Samourai va ensuite diffuser votre Tx0.
+![sparrow](assets/en/31.webp)
 
-![samourai](assets/en/31.webp)
+### Completing the coinjoins
+To spend your mixed bitcoins, you have several options. The most direct method is to access the `Postmix` account and select the `Send` tab.
 
-### Faire les coinjoins
-Une fois la Tx0 diffusée, vous pourrez la retrouver dans l'onglet `Transactions` du menu de Whirlpool.
+![sparrow](assets/en/32.webp)
 
-![samourai](assets/en/32.webp)
+In this section, you will have the option to enter the destination address, the amount to send, and the transaction fees, in the same way as for any other transaction made with Sparrow Wallet. If you wish, you can also take advantage of advanced privacy features such as Stonewall, by clicking on the `Privacy` button.
 
-Vos UTXO prêts à être mixés sont dans l'onglet `Mixing en cours...`, ce qui correspond au compte **Premix**.
+![sparrow](assets/en/33.webp)
 
-![samourai](assets/en/33.webp)
+[-> Learn more about Stonewall transactions.](https://planb.network/tutorials/privacy/stonewall)
 
-Une fois la `Tx0` confirmée, vos UTXO seront automatiquement inscrits auprès du coordinateur et les mix initiaux débuteront successivement de manière automatique.
+If you wish to make a more precise selection of your coins to spend, go to the `UTXOs` tab. Select the UTXOs you specifically want to consume, then press the `Send Selected` button to initiate the transaction.
 
-![samourai](assets/en/34.webp)
+![sparrow](assets/en/34.webp)
+Finally, the `Mix to...` option available on Sparrow allows for the automatic removal of a selected UTXO from coinjoin cycles, without incurring additional fees. This feature enables the determination of a number of remixes after which the UTXO will not be reintegrated into your `Postmix` account, but will instead be transferred directly to another wallet. This option is often used to automatically send mixed bitcoins to a cold wallet.
+To use this option, start by opening the recipient wallet alongside your coinjoin wallet within the Sparrow software.
 
-En consultant l'onglet `Remixing`, qui correspond au compte **Postmix**, vous observerez les UTXO résultant des mix initiaux. Ces pièces resteront prêtes pour des remixages ultérieurs, lesquels ne vous occasionneront aucuns frais supplémentaires. Je vous recommande de consulter cet autre article pour en savoir plus sur le processus de remixage et l'efficacité d'un cycle de coinjoins : [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool). 
+![sparrow](assets/en/35.webp)
 
-![samourai](assets/en/35.webp)
+Then, go to the `UTXOs` tab, and select the coins that interest you, then click on the `Mix to...` button at the bottom of the window.
 
-Il est possible de suspendre temporairement le remixage d'un UTXO en appuyant sur le bouton pause situé à sa droite. Pour le rendre de nouveau éligible aux remixages, il suffit de cliquer une seconde fois sur ce même bouton. Il est important de noter que seul un coinjoin peut être effectué par utilisateur et par pool simultanément. Ainsi, si vous avez 6 UTXO de `100 000 sats` prêts pour le coinjoin, seulement l'un d'entre eux pourra être mixé. Après le mixage d'un UTXO, Samourai Wallet procède à une sélection aléatoire d'un nouvel UTXO parmi vos disponibilités, afin de diversifier et d'équilibrer les remixages de chaque pièce.
+![sparrow](assets/en/36.webp)
 
-![samourai](assets/en/36.webp)
+A window opens, start by selecting the destination wallet from the dropdown list.
 
-Pour garantir une disponibilité continue de vos UTXO aux fins de remixage, il est nécessaire de maintenir l'application Samourai active en tâche de fond. Vous devriez voir une notification sur votre téléphone qui vous confirme que Whirlpool est en cours d'exécution. Fermer l'application ou éteindre votre téléphone mettra les coinjoins en pause. 
+![sparrow](assets/en/37.webp)
 
-### Terminer les coinjoins
-Pour dépenser vos bitcoins mixés, placez-vous sur le compte **Postmix** noté `Remixing` dans les onglets du menu Whirlpool.
+Choose the coinjoin threshold beyond which the withdrawal will be made automatically. I cannot give you an exact number of remixes to perform, as this varies according to your personal situation and your privacy goals, but avoid choosing a threshold too low. I recommend consulting this other article to learn more about the remixing process: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool).
 
-![samourai](assets/en/37.webp)
+You can leave the `Index range` option on its default value, `Full`. This function allows for mixing simultaneously from different clients, but that's not what we want to do in this tutorial. To finalize and activate the `Mix to...` option, press `Restart Whirlpool`.
 
-Cliquez sur le logo bleu de Whirlpool situé en bas à droite.
+![sparrow](assets/en/38.webp)
 
-![samourai](assets/en/38.webp)
+However, be cautious when using the `Mix to` option, as removing mixed coins from your `Postmix` account can significantly increase the risk of compromising your privacy. The reasons for this potential are detailed in the following sections.
 
-Puis cliquez sur `Spend Mixed UTXOs`.
+## How to know the quality of our coinjoin cycles?
+For a coinjoin to be truly effective, it is essential that it presents good homogeneity between the amounts of inputs and outputs. This uniformity amplifies the number of possible interpretations in the eyes of an external observer, thereby increasing the uncertainty around the transaction. To quantify this uncertainty generated by a coinjoin, one can resort to calculating the transaction's entropy. For an in-depth exploration of these indicators, I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). The Whirlpool model is recognized as the one that brings the most homogeneity in coinjoins.
+Next, the performance of several coinjoin cycles is evaluated based on the size of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy gained against retrospective analysis (from the present to the past) and the second, against prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
 
-![samourai](assets/en/39.webp)
+## How to manage postmix?
+After performing coinjoin cycles, the best strategy is to keep your UTXOs in the **postmix** account, waiting for their future use. It is even advisable to let them remix indefinitely until you need to spend them.
 
-Vous pouvez ensuite entrer l'adresse du destinataire ainsi que le montant à envoyer, de la même manière que pour toute autre transaction réalisée avec Samourai Wallet. Le fond d'écran bleu vous signale que les fonds sont dépensés à partir d'un compte Whirlpool, et non du compte de **dépôt**.
+Some users might consider transferring their mixed bitcoins to a wallet secured by a hardware wallet. This is possible, but it is important to follow the recommendations of Samourai Wallet meticulously so as not to compromise the acquired confidentiality.
 
-![samourai](assets/en/40.webp)
+Merging UTXOs is the most frequently made mistake. It is necessary to avoid combining mixed UTXOs with unmixed UTXOs in the same transaction, in order to avoid the CIOH (*Common-Input-Ownership-Heuristic*). This requires careful management of your UTXOs within your wallet, especially in terms of labeling. Beyond coinjoin, merging UTXOs is generally a bad practice that often leads to a loss of privacy when not managed properly.
 
-En cliquant sur les 3 petits points en haut à droite, vous avez la possibilité de sélectionner des UTXO spécifiques.
+It is also important to be cautious about consolidating mixed UTXOs with each other. Moderate consolidations are conceivable if your mixed UTXOs have significant anonsets, but this will inevitably decrease the confidentiality of your coins. Ensure that consolidations are neither too large nor carried out after an insufficient number of remixes, as this risks establishing deducible links between your UTXOs before and after the coinjoin cycles. In case of doubt about these manipulations, the best practice is not to consolidate the postmix UTXOs, and to transfer them one by one to your hardware wallet, generating a new blank address each time. Again, remember to properly label each received UTXO.
+It is also advised against transferring your postmix UTXOs to a wallet using uncommon scripts. For example, if you enter Whirlpool from a multisig wallet using `P2WSH` scripts, there's little chance you'll be mixed with other users who have the same type of wallet originally. If you withdraw your postmix to this same multisig wallet, the privacy level of your mixed bitcoins will be greatly diminished. Beyond scripts, there are many other wallet fingerprints that can trick you.
+As with any Bitcoin transaction, it's also important not to reuse receiving addresses. Each new transaction should be received on a new, blank address.
 
-![samourai](assets/en/41.webp)
+The simplest and safest solution is to let your mixed UTXOs rest in their **postmix** account, letting them remix and only touching them to spend. Samourai and Sparrow wallets have additional protections against all these chain analysis-related risks. These protections help you avoid making mistakes.
 
-En cliquant sur le carré blanc en haut à droite de la fenêtre, vous pouvez scanner le code QR de l'adresse de réception avec votre appareil photo.
+## How to manage doxxic change?
+Next, you need to be careful in managing doxxic change, the change that couldn't enter the coinjoin pool. These toxic UTXOs, resulting from the use of Whirlpool, pose a risk to your privacy since they establish a link between you and the use of coinjoin. Therefore, it's imperative to handle them with care and not to combine them with other UTXOs, especially mixed UTXOs. Here are different strategies to consider for using them:
+- **Mix them in smaller pools:** If your toxic UTXO is significant enough to enter a smaller pool alone, consider mixing it. This is often the best option. However, it's crucial not to merge several toxic UTXOs to access a pool, as this could link your different entries;
+- **Mark them as "non-spendable":** Another approach is to no longer use them, to mark them as "non-spendable" in their dedicated account, and to just Hodl. This ensures you don't accidentally spend them. If the value of bitcoin increases, new pools more suited to your toxic UTXOs might emerge;
+- **Make donations:** Consider making donations, even modest ones, to developers working on Bitcoin and its associated software. You can also donate to organizations accepting BTC. If managing your toxic UTXOs seems too complicated, you can simply get rid of them by making a donation;
+- **Buy Gift Cards:** Platforms such as [Bitrefill](https://www.bitrefill.com/) allow you to exchange bitcoins for gift cards that can be used at various merchants. This can be a way to dispose of your toxic UTXOs without losing the associated value.
+- **Consolidate them on Monero:** Samourai Wallet now offers an atomic swap service between BTC and XMR. This is ideal for managing toxic UTXOs by consolidating them on Monero, without compromising your privacy via the CIOH, before sending them back to Bitcoin. However, this option can be costly in terms of mining fees and the premium due to liquidity constraints.
+- **Send them to the Lightning Network:** Transferring these UTXOs to the Lightning Network to benefit from reduced transaction fees is an option that might be interesting. However, this method may reveal certain information depending on your use of Lightning and should therefore be practiced with caution.
 
-![samourai](assets/en/42.webp)
+Detailed tutorials on implementing these different techniques will be offered soon on PlanB Network.
 
-Entrez les informations nécessaires pour votre transaction de dépense, puis cliquez sur le bouton bleu `VÉRIFIER TRANSACTION`.
-
-![samourai](assets/en/43.webp)
-
-À l'étape suivante, vous avez la possibilité de modifier le taux de frais associé à votre transaction. Vous pouvez aussi activer l'option Stonewall en cochant la case correspondante. Si l'option Stonewall n'est pas sélectionnable, cela signifie que votre compte **Postmix** ne contient pas d'UTXO de taille suffisante pour supporter cette structure particulière de transaction.
-
-[-> En savoir plus sur les transactions Stonewall.](https://planb.network/tutorials/privacy/stonewall)
-
-Si tout vous convient, cliquez sur le bouton vert `SEND ... BTC`.
-
-![samourai](assets/en/44.webp)
-
-Samourai procédera alors à la signature de votre transaction avant de la diffuser sur le réseau. Il vous suffit de patienter jusqu'à ce qu'elle soit ajoutée dans un bloc par un mineur.
-
-![samourai](assets/en/45.webp)
-
-### Utiliser un SCODE
-Parfois, les équipes de Samourai Wallet proposent des "SCODE". Un SCODE est un code promotionnel permettant de bénéficier d'une réduction sur les frais de service de la pool. Samourai Wallet offre occasionnellement de tels codes à ses utilisateurs lors d'événements spéciaux. Je vous conseille [de suivre Samourai Wallet](https://twitter.com/SamouraiWallet) sur les réseaux sociaux pour ne pas passer à côté des futurs SCODES.
-
-Pour appliquer un SCODE sur Samourai, avant de lancer un nouveau cycle de coinjoin, rendez-vous dans le menu Whirlpool et sélectionnez les trois petits points situés en haut à droite de l'écran.
-
-![samourai](assets/en/46.webp)
-
-Cliquez sur `SCODE (code promo) Whirlpool`.
-
-![samourai](assets/en/47.webp)
-
-Entrez le SCODE dans la fenêtre qui s'est ouverte, puis validez en cliquant sur `OK`.
-
-![samourai](assets/en/48.webp)
-
-Whirlpool va se fermer automatiquement. Attendez que Samourai finisse de charger, puis ouvrez de nouveau le menu de Whirlpool.
-
-![samourai](assets/en/49.webp)
-
-Assurez-vous que votre SCODE a été correctement enregistré en cliquant une fois de plus sur les trois petits points, puis en sélectionnant `SCODE (code promo) Whirlpool`. Si tout est en ordre, vous êtes prêt à entamer un nouveau cycle Whirlpool en bénéficiant d'une réduction sur les frais de service. Il est important de noter que ces SCODE sont temporaires : ils restent valides pendant quelques jours avant de devenir obsolètes.
-
-## Comment connaître la qualité de nos cycles de coinjoin ?
-Pour qu'un coinjoin soit véritablement efficace, il est essentiel qu'il présente une bonne homogénéité entre les montants des inputs et des outputs. Cette uniformité amplifie le nombre d'interprétations possibles aux yeux d'un observateur externe, augmentant ainsi l'incertitude autour de la transaction. Pour quantifier cette incertitude générée par un coinjoin, on peut recourir au calcul de l'entropie de la transaction. Pour une exploration approfondie de ces indicateurs, je vous renvoie vers le tutoriel : [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Le modèle de Whirlpool est reconnu comme celui qui apporte le plus d'homogénéité dans les coinjoins.
-
-Ensuite, la performance de plusieurs cycles de coinjoin est évaluée selon l'ampleur des groupes dans lesquels une pièce est dissimulée. La dimension de ces groupes définit ce qu'on nomme les anonsets. Il existe deux types d'anonsets : le premier évalue la confidentialité obtenue contre une analyse rétrospective (du présent vers le passé) et le second, contre une analyse prospective (du passé vers le présent). Pour une explication détaillée de ces deux indicateurs, je vous invite à consulter le tutoriel : [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets).
-
-## Comment gérer le postmix ?
-Après avoir effectué des cycles de coinjoins, la meilleure stratégie consiste à garder vos UTXO dans le compte **postmix**, en attente de leur utilisation future. Il est même conseillé de les laisser se remixer indéfiniment jusqu'à ce que vous ayez besoin de les dépenser.
-
-Certains utilisateurs pourraient envisager de transférer leurs bitcoins mixés vers un portefeuille sécurisé par un hardware wallet. Cela est possible, mais il est important de suivre scrupuleusement les recommandations de Samourai Wallet pour ne pas compromettre la confidentialité acquise.
-
-La fusion d'UTXO constitue l'erreur la plus fréquemment commise. Il faut éviter de combiner dans une même transaction des UTXO mixés avec des UTXO non mixés, afin d'éviter la CIOH (*Common-Input-Ownership-Heuristic*). Cela nécessite une gestion minutieuse de vos UTXO au sein de votre portefeuille, notamment au niveau de l'étiquetage. Au-delà du coinjoin, la fusion d'UTXO est une mauvaise pratique en général qui mène souvent à une perte de confidentialité lorsqu'elle n'est pas maîtrisée.
-
-Il faut également être vigilant sur la consolidation d'UTXO mixés entre eux. Des consolidations modérées sont envisageables si vos UTXO mixés disposent d'anonsets significatifs, mais cela viendra forcément diminuer la confidentialité de vos pièces. Veillez à ce que les consolidations ne soient ni trop importantes, ni réalisées après un nombre insuffisant de remixages, au risque d'établir des liens déductibles entre vos UTXO avant et après les cycles de coinjoins. En cas de doute sur ces manipulations, la meilleure pratique est de ne pas consolider les UTXO postmix, et de les transférer un à un vers votre hardware wallet, en générant à chaque fois une nouvelle adresse vierge. Encore une fois, pensez à bien étiqueter chaque UTXO reçu.
-
-Il est également déconseillé de transférer vos UTXO postmix vers un portefeuille utilisant des scripts peu répandus. Par exemple, si vous entrez sur Whirlpool depuis un portefeuille multisig utilisant des scripts `P2WSH`, il y a peu de chance que vous soyez mélangés avec d'autres utilisateurs ayant le même type de portefeuille à l'origine. Si vous ressortez vos postmix vers ce même portefeuille multisig, le niveau de confidentialité de vos bitcoins mixés sera fortement diminué. Au-delà des scripts, il existe de nombreuses autres empreintes de portefeuille qui peuvent vous jouer des tours.
-
-Comme pour toute transaction Bitcoin, il convient également de ne pas réutiliser les adresses de réception. Chaque nouvelle transaction doit être reçue sur une nouvelle adresse vierge.
-
-La solution la plus simple et la plus sûre consiste à laisser vos UTXO mixés au repos dans leur compte **postmix**, en les laissant se remixer et en ne les touchant que pour les dépenser. Les portefeuilles Samourai et Sparrow disposent de protections supplémentaires contre tous ces risques liés à l'analyse de chaîne. Ces protections vous permettent d'éviter de faire des erreurs.
-
-## Comment gérer le doxxic change ?
-Ensuite, il faudra être prudent sur sa gestion du doxxic change, le change qui n'a pas pu entrer dans la pool de coinjoin. Ces UTXO toxiques, issus de l'utilisation de Whirlpool, constituent un risque pour votre vie privée puisqu'ils établissent un lien entre vous et l'utilisation du coinjoin. Il est donc impératif de les gérer avec prudence et de ne pas les combiner avec d'autres UTXO, surtout des UTXO mixés. Voici différentes stratégies à envisager pour les utiliser :
-- **Mixez-les dans des pools plus petites :** Si votre UTXO toxique est suffisamment important pour entrer seul dans une pool de taille inférieure, envisagez de le mixer. C'est souvent la meilleure option. Cependant, il est crucial de ne pas fusionner plusieurs UTXO toxiques pour accéder à une pool, car cela pourrait relier vos différentes entrées ;
-- **Marquez-les comme "non dépensables" :** Une autre approche consiste à ne plus les utiliser, à les marquer comme "non dépensables" dans leur compte dédié, et à juste Hodl. Cela vous assure ainsi de ne pas les dépenser accidentellement. Si la valeur du bitcoin augmente, de nouvelles pools plus adaptées à vos UTXO toxiques pourraient voir le jour ;
-- **Faites des donations :** Pensez à faire des dons, même modestes, aux développeurs œuvrant sur Bitcoin et ses logiciels associés. Vous pouvez aussi donner à des associations acceptant le BTC. Si la gestion de vos UTXO toxiques vous semble trop compliquée, vous pouvez simplement vous en débarrasser en profitant pour en faire une donation ;
-- **Achetez des cartes-cadeaux :** Des plateformes telles que [Bitrefill](https://www.bitrefill.com/) vous permettent d'échanger des bitcoins contre des cartes cadeaux utilisables chez divers commerçants. Cela peut être une manière de vous séparer de vos UTXO toxiques sans perdre la valeur associée ;
-- **Consolidez-les sur Monero :** Samourai Wallet offre désormais un service de swap atomique entre BTC et XMR. C'est idéal pour gérer les UTXO toxiques en les consolidant sur Monero, sans compromettre votre confidentialité via la CIOH, avant de les renvoyer sur Bitcoin. Cette option peut toutefois s'avérer coûteuse en termes de frais de minage et de premium dû aux contraintes de liquidité ;
-- **Envoyez-les sur le Lightning Network :** Transférer ces UTXO sur le Lightning Network pour bénéficier de frais de transaction réduits est une option qui peut être intéressante. Cependant, cette méthode peut révéler certaines informations selon votre utilisation de Lightning et doit donc être pratiquée avec prudence.
-
-Des tutoriels détaillés sur la mise en œuvre de ces différentes techniques vous seront proposés prochainement sur PlanB Network.
-
-**Ressources supplémentaires :** 
-- [Tutoriel vidéo Samourai Wallet](https://planb.network/tutorials/wallet/samourai) ;
-- [Documentation Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts) ;
-- [Thread Twitter sur les coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739) ;
-- [Article de blog sur les coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+**Additional Resources:**
+- [Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/sparrow);
+- [Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/samourai);
+- [Samourai Wallet Documentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
+- [Twitter Thread on CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
+- [Blog Post on CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).

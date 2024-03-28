@@ -1,0 +1,23 @@
+- start_date: 2024-03-16 16:00:00 
+  end_date: 2024-04-06 19:00:00
+  timezone:  Europe/Rome
+  address_line_1: Torino, Italy
+  address_line_2: 112 C.so Francesco Ferrucci
+  address_line_3: 
+  name: Principles of Economics
+  builder: PlanB
+  type: Lecture
+  is_online: true
+  is_in_person: true
+  price_dollars: 5
+  description: 1st guest star lecture of PlanB Biz School
+  language: 
+    - en
+  links:
+    website:
+    replay_url: https://youtu.be/O-Ya6afc3fM
+    live_url :
+  tag: 
+    - economy
+    - Bitcoiner
+    - General

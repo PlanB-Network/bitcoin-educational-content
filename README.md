@@ -64,7 +64,7 @@ with $R$ the reward, $B$ the base fee (currently 2,500 sats), $U$ the review urg
 | Dutch      | NL            | 1.5               |           Not yet created              |
 | Greek      | EL            | 2.5               |           Not yet created              |
 | Hindi      | HI            | 3.0               |           Not yet created              |
-| Polish     | PL            | 2.0               |           Not yet created              |
+| Polish     | PL            | 2.0               | `finnish-translation-and-review`       |
 | Swahili    | SW            | 2.5               | `swahili-translation-and-review`       |
 | Afrikaans  | AF            | 2.5               | `afrikaans-translation-and-review`     |
 | Turkish    | TR            | 3.0               |           Not yet created              |
@@ -82,7 +82,7 @@ The reward is sent via Lightning once its review is merged into the `dev` branch
 
 ### Become a Content Producer
 
-For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:asi0@decouvrebitcoin.com) or do it via a PR.
+For now, DecouvreBitcoin is in charge of adding new pieces of content. But soon, we will open that process to outside contributions. Nevertheless, if you want to add some content, you should directly contact us via [mail](mailto:asi0@planb.network) or do it via a PR.
 
 
 ## Join the Network

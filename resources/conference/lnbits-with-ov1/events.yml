@@ -1,9 +1,9 @@
 - start_date: 2024-04-06 12:30:00 
   end_date: 2024-04-06 13:30:00
   timezone:  US/Central
-  address_line_1: Austin, Texas
+  address_line_1: Austin, Texas (USA)
   address_line_2: 621 E 6th St
-  address_line_3: USA
+  address_line_3: 
   name: LBbits workshop
   builder: PlebLab
   type: workshop

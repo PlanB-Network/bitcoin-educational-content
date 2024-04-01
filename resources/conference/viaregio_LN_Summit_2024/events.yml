@@ -1,16 +1,21 @@
-events: 
-  - date start: 2024-04-03
-    date finish: 2024-04-04
-    location: Viareggio, italy
-    name: Tuscany Lightning Summit 2024
-    description: Private LN event for networking
-    type: online
-    language: 
-      - en
-    builder: Fulgur Ventures
-    links:
-      website: 
-    tag: 
-      - Lightnin
-      - bitcoiner
-      - expert
+- start_date: 2024-04-02
+  end_date: 2024-04-04
+  address_line_1: Viareggio, italy
+  address_line_2:
+  address_line_3: 
+  name: Tuscany Lightning Summit 2024
+  builder: fulgure-ventures
+  type: conference
+  is_online: true
+  is_in_person: false
+  price_dollars: 0
+  description: Private LN event for networking
+  language: 
+    - en
+  links:
+    replay_url:
+    live_url : https://youtube.com/live/ZK2Yf49VRxo?feature=share
+  tag: 
+    - Lightning
+    - Bitcoiner
+    - General

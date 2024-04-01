@@ -1,18 +1,22 @@
-events: 
-  - date start: 2024-04-11
-    date finish: 2024-04-14
-    location:  Dallas, Texas (USA)
-    name: Bitblockboom 2024
-    builder: Bitblockboom
-    type: conference
-    language: 
-      - en
-    description: Network with fellow Bitcoiners in Dallas, Texas.
-    links:
-      website: https://bitblockboom.com/
-    tag: 
-      - international
-      - bitcoiner
-      - General
-
-
+- start_date: 2024-04-11
+  end_date: 2024-04-14
+  address_line_1:  Dallas, Texas (USA)
+  address_line_2:
+  address_line_3: 
+  name: Bitblockboom 2024
+  builder: Bitblockboom
+  type: conference
+  is_online: false
+  is_in_person: true
+  price_dollars: 0
+  description: Network with fellow Bitcoiners in Dallas, Texas
+  language: 
+    - en
+  links:
+    website: https://bitblockboom.com/
+    replay_url:
+    live_url :
+  tag: 
+    - International
+    - Bitcoiner
+    - General

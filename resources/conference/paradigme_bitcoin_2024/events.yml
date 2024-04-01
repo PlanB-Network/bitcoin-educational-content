@@ -1,19 +1,23 @@
-events: 
-  - date start: 2024-06-27
-    date finish: 2024-06-29
-    location:  Neuchatel, Switzerland
-    name: Paradigme Bitcoin 2024
-    builder: Paradigme Bitcoin
-    type: conference
-    language: 
-      - en
-      - fr
-    description: L'évènement Bitcoin suisse de l'été 2024!
-    links:
-      website: https://leparadigmebitcoin.ch/
-    tag: 
-      - National
-      - bitcoiner
-      - General
-
-
+- start_date: 2024-06-27
+  end_date: 2024-06-29
+  address_line_1: Neuchatel, Switzerland
+  address_line_2:
+  address_line_3: 
+  name: Paradigme Bitcoin 2024
+  builder: Paradigme Bitcoin
+  type: conference
+  is_online: false
+  is_in_person: true
+  price_dollars: 0
+  description: L'évènement Bitcoin suisse de l'été 2024!
+  language: 
+    - en
+    - fr
+  links:
+    website: https://leparadigmebitcoin.ch/
+    replay_url:
+    live_url :
+  tag: 
+    - National
+    - Bitcoiner
+    - General

@@ -281,65 +281,40 @@ Vous arriverez ensuite de nouveau sur votre portefeuille Samourai Wallet, mais c
 
 ### Préparer Whirlpool GUI
 On va maintenant installer Whirlpool GUI, l'interface graphique qui vous permettra de gérer vos cycles de coinjoins depuis votre PC habituel. Si vous utilisez RoninDojo, vous n'aurez pas besoin de suivre cette étape, car vous pouvez gérer vos coinjoins facilement, directement depuis l'interface web en cliquant sur `Apps > Whirlpool`. Si vous utilisez une autre implémentation de node-in-box, vous devez obligatoirement suivre cette étape.
-
-
-
-
+![coinjoin](assets/fr/28.webp)
 Rendez-vous sur votre ordinateur personnel et [téléchargez le logiciel Whirlpool depuis le site officiel](https://samouraiwallet.com/download/whirlpool) en choisissant la version adaptée à votre système d'exploitation.
 
-
-
-
-
+![coinjoin](assets/fr/29.webp)
 
 Avant de l'exécuter, vous allez avoir besoin d'installer JAVA 8 ou une version supérieure- sur votre machine. Pour ce faire, [vous pouvez simplement installer OpenJDK](https://adoptium.net/).
-
-
-
-
-
-
+![coinjoin](assets/fr/30.webp)
 Vous allez également avoir besoin de Tor Daemon ou de Tor Browser qui tournent en fond sur votre PC. À chaque utilisation de Whirlpool GUI, pensez à lancer Tor en fond. Si vous ne disposez pas encore de Tor, [installez-le](https://www.torproject.org/download/), puis lancez le en fond.
 
-
-
-
-
-
+![coinjoin](assets/fr/31.webp)
 
 Une fois JDK installé sur votre système, et Tor lancé en fond, lancez Whirlpool GUI.
 
+![coinjoin](assets/fr/32.webp)
 
+Depuis Whirlpool GUI, cliquez sur `Advanced: Remote CLI` pour connecter votre Whirlpool CLI qui est sur votre Dojo. Vous allez avoir besoin de l'adresse Tor de votre Whirlpool CLI. 
 
+![coinjoin](assets/fr/33.webp)
 
+Pour la trouver sur Umbrel et les autres implémentations de node-in-box, lancez simplement l'application Samourai Server ou Dojo (différents noms en fonction du logiciel que vous utilisez), vous trouverez l'adresse Tor sur la page.
 
-
-Depuis Whirlpool GUI, cliquez sur `Advanced: Remote CLI` pour connecter votre Whirlpool CLI qui est sur votre Dojo. Vous allez avoir besoin de l'adresse Tor de votre Whirlpool CLI. Pour la trouver sur Umbrel et les autres implémentations de node-in-box, lancez simplement l'application Samourai Server ou Dojo (différents noms en fonction du logicielque vous utilisez), vous trouverez l'adresse Tor sur la page.
-
-
-
-
-
+![coinjoin](assets/fr/34.webp)
 
 Sur Whirlpool GUI, entrez l'adresse Tor trouvée précédemment dans la case `CLI address`. Laissez le `http://`, mais ne mettez pas le port `:8899`. Collez simplement l'adresse qui vous a été donnée.
 
-
-
-
-
-
-
+![coinjoin](assets/fr/35.webp)
 
 Sur la case suivante, entrez `9050` si vous utilisez Tor Daemon ou `9150` si vous utilisez Tor Browser. Si c'est la première fois que vous vous connectez à votre Whirlpool CLI depuis un Whirlpool GUI, vous pouvez laisser la case de clé API vide. Sinon, renseignez-la dans la case prévue à cet effet. Vous pouvez la trouver sur la même page que votre adresse Tor.
 
-
-
-
+![coinjoin](assets/fr/36.webp)
 
 Une fois que vous avez tout renseigné, cliquez sur le bouton `Connect`. Patientez, la connexion peut prendre quelques minutes.
 
-
-
+![coinjoin](assets/fr/37.webp)
 
 ### Appairer son portefeuille Samourai Wallet à Whirlpool GUI 
 

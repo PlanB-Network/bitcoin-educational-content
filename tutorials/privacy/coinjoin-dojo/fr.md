@@ -196,7 +196,7 @@ Dans notre configuration, nous interagirons avec trois interfaces distinctes :
 Selon moi, l'utilisation de RoninDojo représente la meilleure solution pour réaliser des coinjoins avec un Dojo. Puisque ce logiciel de node-in-box est en partenariat direct avec les équipes de Samourai, RoninDojo est bien plus optimisé pour faire cela. De plus, l'intégration de Whirlpool GUI dans l'interface web simplifie considérablement le processus de mise en place. Dans ce tutoriel, je vais tout de même vous expliquer comment faire avec les autres solutions qui intègrent Dojo (Umbrel...).
 
 ### Préparer son Dojo
-Tout d'abord, vous allez devoir installer Dojo et récupérer le QR code ou le lien permettant de vous y connecter à distance. Cela se présente sous la forme d'un lien Tor en `.onion`. Si vous utilisez RoninDojo, il vous suffit d'aller dans le menu `Pairing`.
+Pour commencer, vous allez devoir installer Dojo et obtenir le QR code ou le lien qui vous permettra de vous y connecter à distance. Ce lien est une adresse Tor se terminant par `.onion`. Si vous utilisez RoninDojo, il vous suffira de naviguer vers le menu `Pairing` pour accéder à ces informations.
 
 ![coinjoin](assets/fr/10.webp)
 
@@ -220,79 +220,79 @@ En ouvrant l'application, vous aurez ensuite accès au QR code de connexion à v
 
 ![coinjoin](assets/fr/15.webp)
 
-Si vous utilisez un autre logiciel de node-in-box (MyNode, Nodl...), la marche à suivre est similaire à Umbrel. Vous devez installer l'application pour accéder aux informations de connexion de votre Dojo.
+Si vous utilisez un autre logiciel de node-in-box tel que MyNode, Citadel ou Nodl, le processus est semblable à celui d'Umbrel. Il faut installer l'application Samourai ou Dojo afin d'obtenir les informations nécessaires pour se connecter à votre Dojo.
 
 ![coinjoin](assets/fr/16.webp)
 
 ### Préparer son portefeuille Samourai Wallet
-Une fois que vous avez les informations de connexion de votre Dojo, vous allez pouvoir mettre en place votre portefeuille de coinjoin. Ici, deux possibilité se présentent. Si vous n'avez pas encore de portefeuille Samourai Wallet sur votre smartphone, il suffit d'en créer un. En revanche, si vous en avez déjà un, il va falloir réinstaller l'application Samourai Wallet pour pouvoir connecter un nouveau Dojo. En effet, c'est seulement lors du premier lancement de l'app que vous pouvez établir la connexion. Pas d'inquiétudes, grâce au fichier de sauvegarde automatiquement généré par Samourai sur votre téléphone, cette opération est assez rapide à réaliser.
+Après avoir récupéré les informations de connexion à votre Dojo, il est maintenant temps de configurer votre portefeuille pour les coinjoins. Deux cas de figure se présentent : si vous n'avez pas encore de portefeuille Samourai Wallet sur votre smartphone, la démarche est simple, il suffit d'en créer un nouveau. Cependant, si vous possédez déjà un portefeuille Samourai Wallet, vous devrez réinstaller l'application pour pouvoir y associer un nouveau Dojo. Cette étape est nécessaire car la connexion à un Dojo ne peut être établie qu'au premier lancement de l'application. Néanmoins, grâce au fichier de sauvegarde chiffré automatiquement généré par Samourai sur votre téléphone, cette procédure est simple et rapide.
 
-*Si vous n'avez jamais utilisé Samourai, vous pouvez donc sauter ces étapes et passer directement à l'installation de l'application.* 
+*Si vous n'avez jamais utilisé Samourai, vous pouvez ignorer ces étapes préliminaires et procéder directement à l'installation de l'application.*
 
-Avant toute chose, vérifiez que votre application Samourai Wallet soit bien à jour. Vous pouvez le faire soit depuis le Google Play Store, soit en comparant la version disponible [sur le site de Samourai](https://samouraiwallet.com/download), et en vérifiant votre propre version dans `Settings > Other`.
+Avant toute chose, assurez-vous que votre application Samourai Wallet est bien à jour. Pour ce faire, consultez le Google Play Store ou bien comparez la version de votre application dans `Settings > Other` avec celle disponible [sur le site de Samourai](https://samouraiwallet.com/download).
 
 ![coinjoin](assets/fr/17.webp)
 
-Vérifiez que vous êtes bien en possession la phrase de récupération de votre portefeuille Samourai et que celle-ci est lisible. Ensuite, effectuez un test sur votre passphrase BIP39 en allant dans le menu `Settings > Troubleshoot > Passphrase/Backup test`. 
+Assurez-vous d'être en possession de la phrase de récupération de votre portefeuille Samourai et vérifiez qu'elle est bien lisible. Puis, procédez à un test de votre passphrase BIP39 en naviguant dans `Settings > Troubleshoot > Passphrase/Backup test` pour confirmer son exactitude.
 
 ![coinjoin](assets/fr/18.webp)
 
-Entrez votre passphrase, puis vérifiez que Samourai vous confirme bien la validité de celle-ci : 
+Entrez votre passphrase, puis vérifiez que Samourai vous confirme bien la validité de celle-ci. 
 
 ![coinjoin](assets/fr/19.webp)
 
-Si votre passphrase n'est pas valide, ou si vous ne disposez pas de votre phrase de récupération, arrêtez tout ! **Vous risquez de perdre vos bitcoins dans l'opération !** Videz votre portefeuille, et recommencez de zéro avec un nouveau portefeuille neuf. Si et seulement si vous disposez bien de toutes ces informations de sauvegarde, et que votre passphrase est bien valide, alors vous pouvez continuer.
+Si votre passphrase est invalide, ou si vous ne possédez pas votre phrase de récupération, il est impératif de stopper immédiatement la procédure ! **Vous risquez de perdre vos bitcoins lors de cette opération.** Dans ce cas, il est conseillé de transférer vos fonds dans un autre portefeuille et de démarrer avec un nouveau portefeuille vierge. Les étapes suivantes sont à suivre uniquement si vous êtes certain de détenir toutes les informations de sauvegarde nécessaires et que votre passphrase est valide.
 
-Ensuite, créez une sauvegarde chiffrée de votre portefeuille et copiez-la dans votre presse papier. Pour ce faire, cliquez sur les trois petits points en haut à droite de l'écran, puis sur `Export wallet backup`.
+Poursuivez ensuite avec la création d'une sauvegarde chiffrée de votre portefeuille et copiez-la dans votre presse-papiers. Pour réaliser cette opération, cliquez sur les trois petits points situés en haut à droite de l'écran, puis sélectionnez `Export wallet backup`.
 
 ![coinjoin](assets/fr/20.webp)
 
 **À partir de cette étape, ne copiez plus rien dans votre presse-papier !** Il faut absolument que vous conserviez votre sauvegarde copiée.
 
-Si vous avez bien suivi les étapes précédentes, vous pouvez désormais supprimer votre portefeuille Samourai. Pour ce faire, allez dans le menu : `Settings > Wallet > Secure erase the wallet`.
+Si vous avez correctement exécuté les étapes précédentes, vous êtes à présent en mesure de supprimer votre portefeuille Samourai en toute sécurité. Pour cela, dirigez-vous dans : `Settings > Wallet > Secure erase the wallet`.
 
 ![coinjoin](assets/fr/21.webp)
 
 ![coinjoin](assets/fr/22.webp)
 
-*Si vous n'avez jamais utilisé Samourai, vous pouvez reprendre le tuto à cette étape.* 
+*Si vous n'avez jamais utilisé Samourai et que vous installez l'application de zéro, vous pouvez reprendre le tuto à cette étape.* 
 
-Votre application Samourai est de nouveau vierge. Lancez l'application et suivez les étapes de configuration.
+Votre application Samourai est désormais réinitialisée. Ouvrez l'application et procédez aux étapes de configuration comme si vous l'utilisiez pour la première fois.
 
 ![coinjoin](assets/fr/23.webp)
 
-Vous allez ensuite arriver sur la page qui vous permet de configurer votre Dojo. Cliquez sur la coche `Dojo`, puis entrez les informations de connexion de votre Dojo. Vous pouvez les scanner en cliquant sur `Scan QR`.
+À l'étape suivante, vous accéderez à la page dédiée à la configuration de votre Dojo. Sélectionnez l'option `Dojo`, puis saisissez les informations de connexion de votre Dojo. Pour ce faire, vous avez la possibilité de scanner les informations en appuyant sur `Scan QR`.
 
 ![coinjoin](assets/fr/24.webp)
 
-*Si vous n'avez jamais utilisé Samourai, vous devrez créer un nouveau portefeuille de zéro. Si vous en avez besoin, vous pouvez retrouver les étapes de configuration d'un nouveau portefeuille Samourai [dans cet autre tutoriel dans la partie « Créer un portefeuille logiciel »](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).* 
+*Pour les nouveaux utilisateurs de Samourai, il sera nécessaire de créer un portefeuille à partir de zéro. Si vous avez besoin d'assistance, vous pouvez consulter les instructions pour configurer un nouveau portefeuille Samourai [dans ce tutoriel, spécifiquement dans la section « Créer un portefeuille logiciel »](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
 
-Si vous faites un récupération de votre portefeuille Samourai déjà existant, cliquez sur le bouton `Restore existing wallet`, puis sur `I have a Samourai backup file`.
+Si vous procédez à la restauration d'un portefeuille Samourai déjà existant, sélectionnez `Restore existing wallet`, puis choisissez `I have a Samourai backup file`.
 
 ![coinjoin](assets/fr/25.webp)
 
-Normalement, vous disposez toujours de votre fichier de récupération dans votre presse-papier. Cliquez donc sur `PASTE` pour coller votre fichier dans la case prévue à cet effet. Pour le déchiffrer, vous devrez également renseigner la passphrase BIP39 de votre portefeuille juste en dessous. Cliquez ensuite sur `FINISH`.
+Normalement, vous devriez toujours avoir votre fichier de récupération dans votre presse-papiers. Cliquez alors sur `PASTE` pour insérer votre fichier dans l'emplacement dédié. Afin de le déchiffrer, il sera également nécessaire de saisir la passphrase BIP39 de votre portefeuille dans le champ correspondant, situé juste en dessous. Pour terminer, cliquez sur `FINISH`.
 
 ![coinjoin](assets/fr/26.webp)
 
-Vous arriverez ensuite de nouveau sur votre portefeuille Samourai Wallet, mais cette fois-ci connecté à votre propre Dojo.
+Vous serez alors redirigé vers votre portefeuille Samourai Wallet qui, cette fois, sera connecté à votre propre Dojo.
 
 ![coinjoin](assets/fr/27.webp)
 
-### Préparer Whirlpool GUI
-On va maintenant installer Whirlpool GUI, l'interface graphique qui vous permettra de gérer vos cycles de coinjoins depuis votre PC habituel. Si vous utilisez RoninDojo, vous n'aurez pas besoin de suivre cette étape, car vous pouvez gérer vos coinjoins facilement, directement depuis l'interface web en cliquant sur `Apps > Whirlpool`. Si vous utilisez une autre implémentation de node-in-box, vous devez obligatoirement suivre cette étape.
+### Installation de Whirlpool GUI
+Il est maintenant temps d'installer Whirlpool GUI, l'interface utilisateur graphique qui vous permettra de gérer vos cycles de coinjoins depuis votre PC habituel. Pour les utilisateurs de RoninDojo, cette étape n'est pas nécessaire puisque la gestion des coinjoins peut s'effectuer directement via l'interface web dans `Apps > Whirlpool`. En revanche, si vous utilisez une autre solution de nœud Bitcoin "node-in-box", il est impératif de procéder à cette installation.
 ![coinjoin](assets/fr/28.webp)
-Rendez-vous sur votre ordinateur personnel et [téléchargez le logiciel Whirlpool depuis le site officiel](https://samouraiwallet.com/download/whirlpool) en choisissant la version adaptée à votre système d'exploitation.
+Rendez-vous sur votre ordinateur personnel et [téléchargez le logiciel Whirlpool depuis le site officiel de Samourai Wallet](https://samouraiwallet.com/download/whirlpool), en sélectionnant la version qui correspond à votre système d'exploitation.
 
 ![coinjoin](assets/fr/29.webp)
 
-Avant de l'exécuter, vous allez avoir besoin d'installer JAVA 8 ou une version supérieure- sur votre machine. Pour ce faire, [vous pouvez simplement installer OpenJDK](https://adoptium.net/).
+Avant de lancer Whirlpool GUI, il est nécessaire d'installer JAVA 8 ou une version supérieure sur votre machine. Pour cela, [vous pouvez installer OpenJDK](https://adoptium.net/).
 ![coinjoin](assets/fr/30.webp)
-Vous allez également avoir besoin de Tor Daemon ou de Tor Browser qui tournent en fond sur votre PC. À chaque utilisation de Whirlpool GUI, pensez à lancer Tor en fond. Si vous ne disposez pas encore de Tor, [installez-le](https://www.torproject.org/download/), puis lancez le en fond.
+Il est également nécessaire d'avoir Tor Daemon ou Tor Browser opérationnels en arrière-plan sur votre ordinateur. Assurez-vous de démarrer Tor avant chaque session d'utilisation de Whirlpool GUI. Si Tor n'est pas encore installé sur votre machine, [vous pouvez le télécharger et l'installer depuis le site officiel du projet Tor](https://www.torproject.org/download/), puis veillez à le lancer fond.
 
 ![coinjoin](assets/fr/31.webp)
 
-Une fois JDK installé sur votre système, et Tor lancé en fond, lancez Whirlpool GUI.
+Une fois JDK installé sur votre système et Tor lancé en fond, vous pouvez démarrer Whirlpool GUI.
 
 ![coinjoin](assets/fr/32.webp)
 
@@ -300,15 +300,13 @@ Depuis Whirlpool GUI, cliquez sur `Advanced: Remote CLI` pour connecter votre Wh
 
 ![coinjoin](assets/fr/33.webp)
 
-Pour la trouver sur Umbrel et les autres implémentations de node-in-box, lancez simplement l'application Samourai Server ou Dojo (différents noms en fonction du logiciel que vous utilisez), vous trouverez l'adresse Tor sur la page.
-
+Pour localiser votre adresse Tor sur Umbrel et d'autres solutions "node-in-box", il suffit de démarrer l'application Samourai Server ou Dojo (le nom peut varier selon le logiciel utilisé). L'adresse Tor sera visible directement sur la page de l'application.
 ![coinjoin](assets/fr/34.webp)
-
-Sur Whirlpool GUI, entrez l'adresse Tor trouvée précédemment dans la case `CLI address`. Laissez le `http://`, mais ne mettez pas le port `:8899`. Collez simplement l'adresse qui vous a été donnée.
+Dans Whirlpool GUI, saisissez l'adresse Tor que vous avez obtenue précédemment dans le champ `CLI address`. Conservez le préfixe `http://`, mais ne mettez pas le port `:8899` à la fin. Collez uniquement l'adresse telle qu'elle vous a été fournie.
 
 ![coinjoin](assets/fr/35.webp)
 
-Sur la case suivante, entrez `9050` si vous utilisez Tor Daemon ou `9150` si vous utilisez Tor Browser. Si c'est la première fois que vous vous connectez à votre Whirlpool CLI depuis un Whirlpool GUI, vous pouvez laisser la case de clé API vide. Sinon, renseignez-la dans la case prévue à cet effet. Vous pouvez la trouver sur la même page que votre adresse Tor.
+Dans le champ Tor Proxy, inscrivez `socks5://127.0.0.1:9050` si vous utilisez Tor Daemon, ou `socks5://127.0.0.1:9150` si c'est Tor Browser. Lors de votre première connexion à Whirlpool CLI via Whirlpool GUI, il est possible de laisser vide le champ de la clé API. Si ce n'est pas votre première connexion, veuillez entrer votre clé API dans l'espace dédié. Cette clé peut être localisée sur la même page que votre adresse Tor.
 
 ![coinjoin](assets/fr/36.webp)
 
@@ -317,12 +315,9 @@ Une fois que vous avez tout renseigné, cliquez sur le bouton `Connect`. Patient
 ![coinjoin](assets/fr/37.webp)
 
 ### Appairer son portefeuille Samourai Wallet à Whirlpool GUI 
-
 *Pour les utilisateurs de RoninDojo, vous pouvez reprendre le tutoriel ici.*
 
-Nous allons maintenant appairer le portefeuille Samourai que l'on a précédemment créé au logiciel Whirlpool GUI, ou bien directement au RoninDojo pour les utilisateurs de RoninDojo.
-
-Que vous soyez sur Whirlpool GUI ou sur RoninDojo, on vous demande dorénavant de coller ou de scanner les informations d'apparage de votre Samourai.
+Nous allons maintenant appairer le portefeuille Samourai que nous avons configuré précédemment avec le logiciel Whirlpool GUI, ou bien directement avec RoninDojo pour ceux qui utilisent ce logiciel. Que vous utilisiez Whirlpool GUI ou RoninDojo, il vous sera demandé de coller ou de scanner les informations d'appairage de votre portefeuille Samourai.
 
 ![coinjoin](assets/fr/38.webp)
 
@@ -330,19 +325,19 @@ Pour trouver ces informations, rendez-vous dans les paramètres de votre portefe
 
 ![coinjoin](assets/fr/39.webp)
 
-Cliquez sur `Transactions`, puis sur `Appairer avec Whirlpool GUI`.
+Cliquez sur `Transactions`, puis sur `Pair to Whirlpool GUI`.
 
 ![coinjoin](assets/fr/40.webp)
 
-Samourai vous donne ensuite les informations permettant la connexion. Attention, ces informations sont sensibles ! Vous pouvez les transférer vers votre PC soit en les copiant, soit en scannant le QR code fournit à l'aide de votre webcam en cliquant sur le symbole du QR code.
+Samourai vous fournira alors les informations nécessaires pour établir la connexion. Attention, ces données sont sensibles ! Vous pouvez les transférer vers votre PC soit en les copiant directement, soit en scannant le QR code affiché, en utilisant la webcam de votre ordinateur après avoir cliqué sur le symbole du QR code.
 
 ![coinjoin](assets/fr/41.webp)
 
-Une fois réalisé, sur Whirlpool GUI, cliquez sur `Initialize GUI`. Patientez. Cette étape peut prendre quelques minutes.
+Après avoir effectué cette opération, dans Whirlpool GUI, sélectionnez `Initialize GUI`. Veuillez patienter, car cette étape peut prendre un moment.
 
 ![coinjoin](assets/fr/42.webp)
 
-Que vous soyez sur Whirlpool GUI ou sur RoninDojo, on vous demandera ensuite de renseigner la passphrase de votre portefeuille Samourai. Entrez-la dans la case prévue à cet effet, puis cliquez sur le bouton `Login`.
+Que vous utilisiez Whirlpool GUI ou RoninDojo, il vous sera demandé de saisir la passphrase de votre portefeuille Samourai. Insérez-la dans le champ dédié, puis appuyez sur le bouton `Login` pour poursuivre.
 
 ![coinjoin](assets/fr/43.webp)
 
@@ -351,14 +346,13 @@ Vous arriverez ensuite sur la page d'accueil de Whirlpool CLI
 ![coinjoin](assets/fr/44.webp)
 
 ### Lancer les coinjoins depuis Whirlpool GUI 
+*Pour les utilisateurs de RoninDojo, le processus à suivre est identique. L'interface de l'application Whirlpool intégrée dans RoninDojo offre les mêmes options et fonctionnalités que le logiciel Whirlpool GUI sur desktop. Vous pouvez donc suivre ces instructions de la même façon.*
 
-*Si vous êtes sur RoninDojo, le processus à suivre est exactement le même. L'interface de l'application Whirlpool sur RoninDojo dispose des mêmes boutons et des mêmes fonctionnalités que le logiciel desktop Whirlpool GUI. Vous pouvez donc suivre cette partie de la même manière.*
-
-Tout est en place, vous êtes fin prêts à mixer vos bitcoins. Pour ce faire, envoyez les bitcoins à mixer sur le compte **Deposit** de votre portefeuille Samourai Wallet. Vous pouvez le faire soit depuis l'application, soit depuis Whirlpool GUI. Pour ce faire, depuis la page d'accueil, cliquez sur le bouton `+ Deposit` en haut à gauche. 
+Maintenant que tout est configuré, vous êtes prêt à commencer le mixage de vos bitcoins. Pour cela, transférez les bitcoins que vous souhaitez mixer vers le compte **Dépôt** de votre portefeuille Samourai Wallet. Cette opération peut être réalisée soit directement via l'application Samourai Wallet, soit sur Whirlpool GUI. À partir de la page principale, cliquez sur le bouton `+ Deposit` situé en haut à gauche.
 
 ![coinjoin](assets/fr/45.webp)
 
-Whirlpool GUI vous génèrera une adresse de réception. Vous pouvez également voir le minimum à déposer pour pouvoir rentrer dans chaque pool de coinjoin en fonction du marché de frais actuel. Prévoyez toujours légèrement plus que ce montant, sans quoi votre UTXO risque de ne pas pouvoir entrer dans la pool souhaitée temps que les frais de minage ne baissent pas. Envoyez donc vos bitcoins à mixer sur l'adresse générée. Vous pouvez générer une nouvelle adresse en cliquant sur le bouton `Renew address`.
+Whirlpool GUI générera une adresse de réception. Il vous affichera également le montant minimum nécessaire pour participer à chaque pool de coinjoin. Ce montant varie en fonction du marché de frais. Il est conseillé de déposer un montant légèrement supérieur au minimum requis, car si les frais de minage ne diminuent pas, votre UTXO pourrait ne pas être accepté dans la pool désirée. Envoyez donc vos bitcoins à l'adresse fournie. Pour obtenir une nouvelle adresse, il suffit de cliquer sur le bouton `Renew address`.
 
 ![coinjoin](assets/fr/46.webp)
 
@@ -366,27 +360,27 @@ Une fois le dépôt confirmé, vous pourrez le voir apparaitre dans le compte **
 
 ![coinjoin](assets/fr/47.webp)
 
-Pour commencer les cycles de coinjoins, sélectionnez les UTXO à envoyer en mix et cliquez sur le bouton `Premix`. Attention, si vous sélectionnez plusieurs UTXO différents simultanément, ceux-ci seront fusionnés lors de la `TX0`. Cela peut mener à une perte de confidentialité, notamment si les sources des UTXO sont différentes.
+Pour lancer les cycles de coinjoins, sélectionnez les UTXO que vous souhaitez mixer et appuyez sur le bouton `Premix`. Faites attention : si vous sélectionnez plusieurs UTXO différents en même temps, ils seront regroupés lors de la transaction de préparation `TX0`. Cette fusion peut entraîner une diminution de la confidentialité, surtout si les UTXO proviennent de sources variées, à cause de la CIOH (*Common Input Ownership Heuristic*).
 
 ![coinjoin](assets/fr/48.webp)
 
-La page de configuration de Whirlpool s'ouvre. Choisissez la pool dans laquelle vous souhaitez entrer. Choisissez les frais de minages alloués à la `TX0` et aux coinjoins initiaux. En bas de page, on vous indique le montant du doxxic change et le montant et le nombre d'UTXO égalisés qui vont entrer en cycles de coinjoins. Si la configuration vous convient, cliquez sur le bouton `Premix` pour lancer le processus de coinjoins.
+La page de configuration de Whirlpool s'ouvre. Vous pouvez choisir la pool dans laquelle vous désirez entrer. Sélectionnez également les frais de minage dédiés à la `TX0` et aux premiers coinjoins. En bas de cette page, un résumé vous présentera le montant du doxxic change ainsi que le montant et le nombre d'UTXO qui seront égalisés et inclus dans les cycles de coinjoins. Si vous êtes satisfait de cette configuration, appuyez sur le bouton `Premix` pour débuter les cycles de coinjoins.
 ![coinjoin](assets/fr/49.webp)
 
-Une fois la `TX0` créée, vous pouvez voir vos UTXO égalisés dans le compte **Premix** en attente de confirmation. Si vous souhaitez que pièces se remixent automatiquement 24h/24 et 7j/7, activez l'option `Automatically mix premix & postmix` depuis l'onglet `Configuration` à gauche de votre fenêtre.
+Une fois la `TX0` créée, vous pourrez voir vos UTXO égalisés dans le compte **Premix**, en attente de confirmation. Pour permettre à vos pièces de se remixer automatiquement 24 heures sur 24 et 7 jours sur 7, je vous recommande d'activer l'option `Automatically mix premix & postmix`. Vous trouverez cette fonctionnalité dans l'onglet `Configuration`, situé à gauche de votre fenêtre Whirlpool GUI.
 
 ![coinjoin](assets/fr/50.webp)
 
-Une fois les coinjoins lancés, vous pouvez fermer Whirlpool GUI et Samourai Wallet. Seul votre nœud doit rester connecté pour pouvoir vous faire participer à des coinjoins. Pensez tout de même à vérifier de temps en temps l'avancée de vos coinjoins. Si vous voyez que vos UTXO ne sont plus sélectionnés pour participer à un coinjoin depuis un moment, cela veut dire qu'il y a eu un bug. Vous pouvez vous rendre sur Whirlpool CLI et cliquer sur `Start` pour relancer vos cycles de coinjoins.
+Après avoir démarré les coinjoins, vous pouvez quitter Whirlpool GUI ainsi que Samourai Wallet. Seul votre nœud doit rester connecté pour pouvoir participer à des coinjoins en continue. Néanmoins, il convient de vérifier périodiquement l'état d'avancement de vos cycles coinjoins. Si vous constatez que vos UTXO ne sont plus sélectionnés pour un coinjoin depuis un certain temps, cela peut indiquer un bug. Dans ce cas, accédez à Whirlpool CLI et sélectionnez `Start` pour réactiver vos cycles de coinjoins.
 
 ![coinjoin](assets/fr/51.webp)
 
-Vous pouvez observer vos UTXO mixés depuis le compte **Postmix** sur Whirlpool GUI. Vous pouvez également les voir et les dépenser depuis l'interface Whirlpool sur Samourai Wallet. Pour ce faire, cliquez sur le `+` bleu en bas de votre écran puis sur `Whirlpool`. 
+Vos UTXO mixés sont visibles depuis le compte **Postmix** sur Whirlpool GUI. De plus, vous avez la possibilité de les consulter et de les dépenser directement via l'interface Whirlpool sur Samourai Wallet. Pour accéder à ce menu, cliquez sur le `+` bleu situé en bas de votre écran, puis sélectionnez `Whirlpool`.
 
 ![coinjoin](assets/fr/52.webp)
 
-Les comptes Whirlpool se différencient facilement sur Samourai Wallet avec une couleur bleu clair. Depuis n'importe où et à tout moment, vous pouvez dépenser vos UTXO mixés.
+Les comptes Whirlpool sont facilement identifiables sur Samourai Wallet par leur couleur bleu. Vous avez ainsi la liberté de dépenser vos UTXO mixés depuis n'importe quel lieu et à tout moment.
 
 ![coinjoin](assets/fr/53.webp)
 
-Pour suivre facilement vos mix automatiques, je vous conseille également de configurer un portefeuille watch-only avec l'application Sentinel. Renseignez-y la ZPUB de votre compte **Postmix**, et suivez en temps réel l'évolution de vos cycles de coinjoins. Pour découvrir comment fonctionne Sentinel, je vous conseille de lire cet autre tutoriel : [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+Afin de suivre vos mixages automatiques, je vous conseille également de configurer un portefeuille watch-only via l'application Sentinel. Intégrez la ZPUB de votre compte **Postmix** et surveillez en temps réel le progrès de vos cycles de coinjoins. Si vous souhaitez comprendre comment utiliser Sentinel, je vous recommande de consulter cet autre tutoriel : [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).

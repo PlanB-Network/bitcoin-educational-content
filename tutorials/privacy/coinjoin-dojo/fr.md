@@ -322,7 +322,71 @@ Une fois que vous avez tout renseigné, cliquez sur le bouton `Connect`. Patient
 
 Nous allons maintenant appairer le portefeuille Samourai que l'on a précédemment créé au logiciel Whirlpool GUI, ou bien directement au RoninDojo pour les utilisateurs de RoninDojo.
 
+Que vous soyez sur Whirlpool GUI ou sur RoninDojo, on vous demande dorénavant de coller ou de scanner les informations d'apparage de votre Samourai.
 
+![coinjoin](assets/fr/38.webp)
 
+Pour trouver ces informations, rendez-vous dans les paramètres de votre portefeuille.
 
+![coinjoin](assets/fr/39.webp)
 
+Cliquez sur `Transactions`, puis sur `Appairer avec Whirlpool GUI`.
+
+![coinjoin](assets/fr/40.webp)
+
+Samourai vous donne ensuite les informations permettant la connexion. Attention, ces informations sont sensibles ! Vous pouvez les transférer vers votre PC soit en les copiant, soit en scannant le QR code fournit à l'aide de votre webcam en cliquant sur le symbole du QR code.
+
+![coinjoin](assets/fr/41.webp)
+
+Une fois réalisé, sur Whirlpool GUI, cliquez sur `Initialize GUI`. Patientez. Cette étape peut prendre quelques minutes.
+
+![coinjoin](assets/fr/42.webp)
+
+Que vous soyez sur Whirlpool GUI ou sur RoninDojo, on vous demandera ensuite de renseigner la passphrase de votre portefeuille Samourai. Entrez-la dans la case prévue à cet effet, puis cliquez sur le bouton `Login`.
+
+![coinjoin](assets/fr/43.webp)
+
+Vous arriverez ensuite sur la page d'accueil de Whirlpool CLI
+
+![coinjoin](assets/fr/44.webp)
+
+### Lancer les coinjoins depuis Whirlpool GUI 
+
+*Si vous êtes sur RoninDojo, le processus à suivre est exactement le même. L'interface de l'application Whirlpool sur RoninDojo dispose des mêmes boutons et des mêmes fonctionnalités que le logiciel desktop Whirlpool GUI. Vous pouvez donc suivre cette partie de la même manière.*
+
+Tout est en place, vous êtes fin prêts à mixer vos bitcoins. Pour ce faire, envoyez les bitcoins à mixer sur le compte **Deposit** de votre portefeuille Samourai Wallet. Vous pouvez le faire soit depuis l'application, soit depuis Whirlpool GUI. Pour ce faire, depuis la page d'accueil, cliquez sur le bouton `+ Deposit` en haut à gauche. 
+
+![coinjoin](assets/fr/45.webp)
+
+Whirlpool GUI vous génèrera une adresse de réception. Vous pouvez également voir le minimum à déposer pour pouvoir rentrer dans chaque pool de coinjoin en fonction du marché de frais actuel. Prévoyez toujours légèrement plus que ce montant, sans quoi votre UTXO risque de ne pas pouvoir entrer dans la pool souhaitée temps que les frais de minage ne baissent pas. Envoyez donc vos bitcoins à mixer sur l'adresse générée. Vous pouvez générer une nouvelle adresse en cliquant sur le bouton `Renew address`.
+
+![coinjoin](assets/fr/46.webp)
+
+Une fois le dépôt confirmé, vous pourrez le voir apparaitre dans le compte **Deposit** sur Whirlpool GUI. 
+
+![coinjoin](assets/fr/47.webp)
+
+Pour commencer les cycles de coinjoins, sélectionnez les UTXO à envoyer en mix et cliquez sur le bouton `Premix`. Attention, si vous sélectionnez plusieurs UTXO différents simultanément, ceux-ci seront fusionnés lors de la `TX0`. Cela peut mener à une perte de confidentialité, notamment si les sources des UTXO sont différentes.
+
+![coinjoin](assets/fr/48.webp)
+
+La page de configuration de Whirlpool s'ouvre. Choisissez la pool dans laquelle vous souhaitez entrer. Choisissez les frais de minages alloués à la `TX0` et aux coinjoins initiaux. En bas de page, on vous indique le montant du doxxic change et le montant et le nombre d'UTXO égalisés qui vont entrer en cycles de coinjoins. Si la configuration vous convient, cliquez sur le bouton `Premix` pour lancer le processus de coinjoins.
+![coinjoin](assets/fr/49.webp)
+
+Une fois la `TX0` créée, vous pouvez voir vos UTXO égalisés dans le compte **Premix** en attente de confirmation. Si vous souhaitez que pièces se remixent automatiquement 24h/24 et 7j/7, activez l'option `Automatically mix premix & postmix` depuis l'onglet `Configuration` à gauche de votre fenêtre.
+
+![coinjoin](assets/fr/50.webp)
+
+Une fois les coinjoins lancés, vous pouvez fermer Whirlpool GUI et Samourai Wallet. Seul votre nœud doit rester connecté pour pouvoir vous faire participer à des coinjoins. Pensez tout de même à vérifier de temps en temps l'avancée de vos coinjoins. Si vous voyez que vos UTXO ne sont plus sélectionnés pour participer à un coinjoin depuis un moment, cela veut dire qu'il y a eu un bug. Vous pouvez vous rendre sur Whirlpool CLI et cliquer sur `Start` pour relancer vos cycles de coinjoins.
+
+![coinjoin](assets/fr/51.webp)
+
+Vous pouvez observer vos UTXO mixés depuis le compte **Postmix** sur Whirlpool GUI. Vous pouvez également les voir et les dépenser depuis l'interface Whirlpool sur Samourai Wallet. Pour ce faire, cliquez sur le `+` bleu en bas de votre écran puis sur `Whirlpool`. 
+
+![coinjoin](assets/fr/52.webp)
+
+Les comptes Whirlpool se différencient facilement sur Samourai Wallet avec une couleur bleu clair. Depuis n'importe où et à tout moment, vous pouvez dépenser vos UTXO mixés.
+
+![coinjoin](assets/fr/53.webp)
+
+Pour suivre facilement vos mix automatiques, je vous conseille également de configurer un portefeuille watch-only avec l'application Sentinel. Renseignez-y la ZPUB de votre compte **Postmix**, et suivez en temps réel l'évolution de vos cycles de coinjoins. Pour découvrir comment fonctionne Sentinel, je vous conseille de lire cet autre tutoriel : [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)

@@ -106,7 +106,7 @@ Il est généralement déconseillé de fusionner plusieurs UTXO mixés après le
 
 Outre les frais de service, les frais de minage propres à toute transaction Bitcoin doivent également être pris en compte. En tant qu'utilisateur de Whirlpool, vous serez tenu de payer les frais de minage de la transaction de préparation (`Tx0`) ainsi que ceux du premier coinjoin. Tous les remixages ultérieurs seront gratuits, grâce au modèle de Whirlpool qui repose sur le paiement de nouveaux entrants.
 
-En effet, dans chaque coinjoin Whirlpool, deux utilisateurs parmi les inputs sont des nouveaux entrants. Les autres inputs proviennent de remixeurs. De ce fait, les frais de minage pour l'ensemble des participants de la transaction sont pris en charge par ces deux nouveaux participants, qui pourront ensuite bénéficier eux aussi de remixages gratuits :
+En effet, dans chaque coinjoin Whirlpool, deux utilisateurs parmi les inputs sont des nouveaux entrants. Les autres inputs proviennent de remixeurs. De ce fait, les frais de minage pour l'ensemble des participants de la transaction sont pris en charge par ces deux nouveaux participants, qui pourront ensuite bénéficier, eux aussi, de remixages gratuits :
 ![coinjoin](assets/fr/6.webp)
 Grâce à ce système de frais, Whirlpool se différencie réellement des autres services de coinjoin puisque les anonsets des UTXO ne sont pas proportionnels au prix payé par l'utilisateur. Ainsi, il est possible d'atteindre des niveaux d'anonymat considérablement élevés en ne s'acquittant que des frais d'entrée de la pool et des frais de minage pour deux transactions (la `Tx0` et le mix initial).
 
@@ -225,7 +225,7 @@ Si vous utilisez un autre logiciel de node-in-box tel que MyNode, Citadel ou Nod
 ![coinjoin](assets/fr/16.webp)
 
 ### Préparer son portefeuille Samourai Wallet
-Après avoir récupéré les informations de connexion à votre Dojo, il est maintenant temps de configurer votre portefeuille pour les coinjoins. Deux cas de figure se présentent : si vous n'avez pas encore de portefeuille Samourai Wallet sur votre smartphone, la démarche est simple, il suffit d'en créer un nouveau. Cependant, si vous possédez déjà un portefeuille Samourai Wallet, vous devrez réinstaller l'application pour pouvoir y associer un nouveau Dojo. Cette étape est nécessaire car la connexion à un Dojo ne peut être établie qu'au premier lancement de l'application. Néanmoins, grâce au fichier de sauvegarde chiffré automatiquement généré par Samourai sur votre téléphone, cette procédure est simple et rapide.
+Après avoir récupéré les informations de connexion à votre Dojo, il est maintenant temps de configurer votre portefeuille pour les coinjoins. Deux cas de figure se présentent : si vous n'avez pas encore de portefeuille Samourai Wallet sur votre smartphone, la démarche est simple, il suffit d'en créer un nouveau. Cependant, si vous possédez déjà un portefeuille Samourai Wallet, vous devrez réinstaller l'application pour pouvoir y associer un nouveau Dojo. Cette étape est nécessaire, car la connexion à un Dojo ne peut être établie qu'au premier lancement de l'application. Néanmoins, grâce au fichier de sauvegarde chiffré automatiquement généré par Samourai sur votre téléphone, cette procédure est simple et rapide.
 
 *Si vous n'avez jamais utilisé Samourai, vous pouvez ignorer ces étapes préliminaires et procéder directement à l'installation de l'application.*
 
@@ -364,14 +364,14 @@ Pour lancer les cycles de coinjoins, sélectionnez les UTXO que vous souhaitez m
 
 ![coinjoin](assets/fr/48.webp)
 
-La page de configuration de Whirlpool s'ouvre. Vous pouvez choisir la pool dans laquelle vous désirez entrer. Sélectionnez également les frais de minage dédiés à la `TX0` et aux premiers coinjoins. En bas de cette page, un résumé vous présentera le montant du doxxic change ainsi que le montant et le nombre d'UTXO qui seront égalisés et inclus dans les cycles de coinjoins. Si vous êtes satisfait de cette configuration, appuyez sur le bouton `Premix` pour débuter les cycles de coinjoins.
+La page de configuration de Whirlpool s'ouvre. Vous pouvez choisir la pool dans laquelle vous désirez entrer. Sélectionnez également les frais de minage dédiés à la `TX0` et aux premiers coinjoins. En bas de cette page, un résumé vous présentera le montant du doxxic change ainsi que le montant et le nombre d'UTXO qui seront égalisés et inclus dans les cycles de coinjoins. Si vous êtes satisfait de cette configuration, appuyez sur le bouton `Premix` pour commencer les cycles de coinjoins.
 ![coinjoin](assets/fr/49.webp)
 
 Une fois la `TX0` créée, vous pourrez voir vos UTXO égalisés dans le compte **Premix**, en attente de confirmation. Pour permettre à vos pièces de se remixer automatiquement 24 heures sur 24 et 7 jours sur 7, je vous recommande d'activer l'option `Automatically mix premix & postmix`. Vous trouverez cette fonctionnalité dans l'onglet `Configuration`, situé à gauche de votre fenêtre Whirlpool GUI.
 
 ![coinjoin](assets/fr/50.webp)
 
-Après avoir démarré les coinjoins, vous pouvez quitter Whirlpool GUI ainsi que Samourai Wallet. Seul votre nœud doit rester connecté pour pouvoir participer à des coinjoins en continue. Néanmoins, il convient de vérifier périodiquement l'état d'avancement de vos cycles coinjoins. Si vous constatez que vos UTXO ne sont plus sélectionnés pour un coinjoin depuis un certain temps, cela peut indiquer un bug. Dans ce cas, accédez à Whirlpool CLI et sélectionnez `Start` pour réactiver vos cycles de coinjoins.
+Après avoir démarré les coinjoins, vous pouvez quitter Whirlpool GUI ainsi que Samourai Wallet. Seul votre nœud doit rester connecté pour pouvoir participer à des coinjoins en continu. Néanmoins, il convient de vérifier périodiquement l'état d'avancement de vos cycles coinjoins. Si vous constatez que vos UTXO ne sont plus sélectionnés pour un coinjoin depuis un certain temps, cela peut indiquer un bug. Dans ce cas, accédez à Whirlpool CLI et sélectionnez `Start` pour réactiver vos cycles de coinjoins.
 
 ![coinjoin](assets/fr/51.webp)
 
@@ -379,7 +379,7 @@ Vos UTXO mixés sont visibles depuis le compte **Postmix** sur Whirlpool GUI. De
 
 ![coinjoin](assets/fr/52.webp)
 
-Les comptes Whirlpool sont facilement identifiables sur Samourai Wallet par leur couleur bleu. Vous avez ainsi la liberté de dépenser vos UTXO mixés depuis n'importe quel lieu et à tout moment.
+Les comptes Whirlpool sont facilement identifiables sur Samourai Wallet par leur couleur bleue. Vous avez ainsi la liberté de dépenser vos UTXO mixés depuis n'importe quel lieu et à tout moment.
 
 ![coinjoin](assets/fr/53.webp)
 

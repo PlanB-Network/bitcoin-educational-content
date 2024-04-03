@@ -37,3 +37,56 @@ Dans un contexte réel, il serait primordial de garantir la confidentialité de 
 Il est conseillé d'utiliser un nombre élevé de dés pour atténuer l'impact d'un dé éventuellement déséquilibré sur l'entropie. Avant leur utilisation, une vérification des dés est recommandée : cela peut être réalisé en les testant dans un bol d'eau fortement salée, permettant ainsi aux dés de flotter. Procédez ensuite à une vingtaine de lancers pour chaque dé dans l'eau salée, en observant les résultats. Si une ou deux faces apparaissent de manière disproportionnée par rapport aux autres, prolongez le test avec davantage de lancers. Des résultats uniformément répartis indiquent que le dé est fiable. Cependant, si une ou deux faces dominent régulièrement, ces dés doivent être mis de côté, car ils pourraient compromettre l'entropie de votre phrase mnémonique et, par conséquent, la sécurité de votre portefeuille.
 
 Dans des conditions réelles, après avoir effectué ces vérifications, vous seriez prêt à générer l'entropie nécessaire. Pour un portefeuille expérimental fictif réalisé dans le cadre de ce tutoriel, vous pourriez naturellement omettre ces préparatifs.
+
+## Quelques rappels sur la phrase de récupération
+Pour commencer, nous allons réviser les fondamentaux de la création d'une phrase de récupération selon le BIP39. Comme expliqué précédemment, la phrase est issue d'une information pseudo-aléatoire d'une certaine taille, à laquelle on ajoute une somme de contrôle pour assurer son intégrité.
+
+La taille de cette information initiale, souvent désignée sous le terme "entropie", est déterminée par le nombre de mots que l'on souhaite obtenir dans la phrase de récupération. Les formats les plus courants sont les phrases de 12 et de 24 mots, dérivant respectivement d'une entropie de 128 bits et de 256 bits. Voici donc un tableau de correspondance des différentes tailles d'entropie selon le BIP39 :
+
+| Nombre de mots | Entropie (bits) | Checksum (bits) | Entropie + Checksum (bits) |
+| -------------- | --------------- | --------------- | -------------------------- |
+| 12             | 128             | 4               | 132                        |
+| 15             | 160             | 5               | 165                        |
+| 18             | 192             | 6               | 198                        |
+| 21             | 224             | 7               | 231                        |
+| 24             | 256             | 8               | 264                        |
+L'entropie est donc un nombre aléatoire entre 128 et 256 bits. Dans ce tutoriel, nous allons prendre l'exemple d'une phrase de 12 mots, où une entropie de 128 bits équivaut à générer une séquence aléatoire de 128 `0` ou `1`. Cela représente un nombre composé de 128 chiffres en base 2 (binaire).
+
+Sur la base de cette entropie, on va générer une somme de contrôle. Une somme de contrôle est une valeur calculée à partir d'un ensemble de données, utilisée pour vérifier l'intégrité et la validité de ces données lors de leur transmission ou de leur stockage. Les algorithmes de somme de contrôle sont conçus pour détecter des erreurs accidentelles ou des altérations involontaires des données, comme les erreurs de transmission ou les corruptions de fichiers.
+
+Dans le cas de notre phrase de récupération, la somme de contrôle a pour fonction de repérer toute erreur de saisie lors de l'entrée de la phrase dans un logiciel de portefeuille. Une somme de contrôle incorrecte signale une éventuelle erreur dans la phrase. À l'inverse, une somme de contrôle exacte indique que la phrase est très probablement correcte.
+
+Pour obtenir cette somme de contrôle, l'entropie est passée dans la fonction de hachage SHA256. Cette opération produit une séquence de 256 bits en sortie, parmi lesquels seuls les `N` premiers bits seront conservés, `N` dépendant de la longueur de la phrase de récupération voulue (voir le tableau ci-dessus). Ainsi, pour une phrase de 12 mots, ce sont les 4 premiers bits du hachage qui seront retenus.
+
+
+
+Ces 4 premiers bits, formant la somme de contrôle, seront alors ajoutés à l'entropie originale. À cette étape, la phrase de récupération est pratiquement constituée, mais elle se présente encore sous une forme binaire.
+
+
+
+
+
+Pour convertir cette suite binaire en mots conformément au standard BIP39, nous allons d'abord diviser la séquence en segments de 11 bits.
+
+
+
+
+
+Chacun de ces paquets représente un nombre en binaire qui sera ensuite converti en un nombre décimal (base 10).
+
+
+
+
+
+
+Enfin, le nombre en décimal nous indique la position du mot correspondant dans la liste des 2048 mots du BIP39. Il ne reste alors plus qu'à sélectionner ces mots pour composer la phrase de récupération de notre portefeuille.
+
+
+
+
+
+
+Maintenant, passons à la pratique !
+
+## Génération de l'entropie
+

@@ -1,4 +1,9 @@
 # Image to WEBP Converter
+**UPDATE:** I've made a complete program for local image conversion with a GUI that's easier to use than this script, supports more formats, and automatically removes unnecessary metadata from images. You can test it here on the repo: https://github.com/LoicPandul/ImagesConverter
+
+**MISE À JOUR :** J'ai fait un logiciel complet pour la conversion d'image en local avec une GUI plus simple à utiliser que ce script, qui prend en charge plus de formats, et qui supprime automatiquement les métadonnées inutiles des images. Je vous conseille de le tester ici sur son repo : https://github.com/LoicPandul/ImagesConverter
+
+---
 
 EN : This little python script converts PNG, JPEG and JPG images into WEBP images. You can use it to quickly convert visuals and diagrams for your PlanB Network tutorials. The WEBP format allows you to reduce the size of your assets. The script converts the file and then deletes the source file automatically.
 

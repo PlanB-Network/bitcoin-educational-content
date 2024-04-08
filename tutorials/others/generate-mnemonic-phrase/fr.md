@@ -76,7 +76,15 @@ Maintenant, passons à la pratique ! Nous allons générer une phrase de récup�
 
 Munissez-vous de votre feuille de papier, de votre stylo et de vos dés. Pour commencer, nous allons devoir générer 128 bits de manière aléatoire, c'est-à-dire une séquence de 128 `0` et `1` à la suite. Pour ce faire, nous allons utiliser les dés.
 
-Les dés possèdent 6 faces, toutes avec une probabilité identique d'être tirée. Cependant, notre objectif est de produire un résultat binaire, soit deux issues possibles. Nous allons donc attribuer la valeur `0` à chaque lancer aboutissant sur un chiffre pair, et `1` pour un chiffre impair. En conséquence, nous effectuerons 128 lancers pour constituer notre entropie de 128 bits. Si le dé affiche `2`, `4`, ou `6`, nous inscrirons `0`; pour `1`, `3`, ou `5`, ce sera `1`. Chaque résultat sera noté de manière séquentielle, de gauche à droite et de haut en bas. Pour faciliter les étapes suivantes, nous regrouperons les bits par paquets de quatre et de trois, comme sur l'image ci-dessous. Chaque ligne doit disposer de 11 bits : 2 paquets de 4 bits et un paquet de 3 bits.
+
+
+
+
+
+
+Les dés possèdent 6 faces, toutes avec une probabilité identique d'être tirée. Cependant, notre objectif est de produire un résultat binaire, soit deux issues possibles. Nous allons donc attribuer la valeur `0` à chaque lancer aboutissant sur un chiffre pair, et `1` pour un chiffre impair. En conséquence, nous effectuerons 128 lancers pour constituer notre entropie de 128 bits. Si le dé affiche `2`, `4`, ou `6`, nous inscrirons `0`; pour `1`, `3`, ou `5`, ce sera `1`. Chaque résultat sera noté de manière séquentielle, de gauche à droite et de haut en bas. 
+
+Pour faciliter les étapes suivantes, nous regrouperons les bits par paquets de quatre et de trois, comme sur l'image ci-dessous. Chaque ligne doit disposer de 11 bits : 2 paquets de 4 bits et un paquet de 3 bits.
 
 
 
@@ -86,10 +94,143 @@ Les dés possèdent 6 faces, toutes avec une probabilité identique d'être tir�
 Comme on peut le voir sur mon exemple, le douzième mot est actuellement constitué de seulement 7 bits. Ceux-ci seront complétés par les 4 bits de la somme de contrôle lors de l'étape suivante pour former les 11 bits.
 
 
+
+
+
 ## Calcul de la checksum
 
 Cette étape est la plus critique dans la génération manuelle d'une phrase mnémonique, car elle requiert l'utilisation d'un ordinateur. Comme évoqué précédemment, la checksum correspond au début du hash SHA256 généré à partir de l'entropie. Bien qu'il soit théoriquement possible de calculer un SHA256 à la main pour une entrée de 128 ou 256 bits, cette tâche pourrait prendre une semaine entière. De plus, la moindre erreur dans les calculs manuels ne serait identifiée qu'à l'issue du processus, ce qui vous obligerait à tout reprendre depuis le début. Il est donc inimaginable de faire cette étape avec une feuille de papier et un stylo. L'ordinateur est quasi obligatoire. Si vous voulez toutefois apprendre à faire un SHA256 à la main, nous vous expliquons comment le faire dans [la formation CRYPTO301](https://planb.network/en/courses/crypto301).
 
 C'est pour cette raison que je vous déconseille fortement de faire une phrase manuelle pour un véritable portefeuille. Selon moi, l'utilisation d'un ordinateur dans ce processus, même en prenant toutes les précautions nécessaires, augmente de manière irraisonnable la surface d'attaque du portefeuille.
+
+
+
+
+
+
+Pour calculer la checksum en laissant le moins de traces possible, nous allons utiliser une distribution Linux amnésique à partir d'un support amovible nommée **Tails**. Ce système d'exploitation démarre depuis une clé USB et fonctionne entièrement sur la mémoire RAM de l'ordinateur, sans interagir avec le disque dur. Ainsi, il ne laisse, en théorie, aucune trace sur l'ordinateur après son extinction. Il est important de noter que Tails est compatible uniquement avec les processeurs de type x86_64, et non avec ceux de type ARM.
+
+Pour commencer, depuis votre ordinateur habituel, [téléchargez l'image de Tails depuis son site officiel](https://tails.net/install/index.fr.html). Assurez-vous de l'authenticité de votre téléchargement en utilisant la signature PGP ou l'outil de vérification proposé par le site.
+
+
+
+
+Procédez tout d'abord au formatage de votre clé USB, puis installez-y Tails à l'aide d'un outil tel que [Balena Etcher](https://etcher.balena.io/).
+
+
+
+
+
+Après la confirmation que le flashage est réussi, éteignez votre ordinateur. Procédez ensuite à la déconnexion de l'alimentation et au retrait du disque dur de la carte mère  votre PC. Dans le cas où une carte WiFi est présente, il convient de la déconnecter. De même, retirez tout câble Ethernet RJ45. Pour minimiser les risques de fuite de données, il est recommandé de débrancher votre box internet et d'éteindre votre téléphone mobile. De plus, assurez-vous de déconnecter tout périphérique superflu de votre ordinateur, tels que le micro, la webcam, les enceintes, ou le casque, et vérifiez que les autres périphériques soient uniquement connectés en filaire. Toutes ces étapes de préparation du PC ne sont pas indispensables, mais elles permettent simplement de réduire au maximum la surface d'attaque dans un contexte réel.
+
+Vérifiez si votre BIOS est configuré pour permettre le démarrage à partir d'un périphérique externe. Si ce n'est pas le cas, modifiez ce paramètre, puis redémarrez votre machine. Une fois que vous avez sécurisé l'environnement informatique, redémarrez l'ordinateur depuis la clé USB bootable avec Tails OS.
+
+Sur l'écran d'accueil de Tails, sélectionnez la langue de votre choix, puis lancez le système en cliquant sur `Start Tails`.
+
+
+
+
+
+Depuis le bureau, cliquez sur l'onglet `Applications`.
+
+
+
+
+
+Naviguez dans le menu `Utilities`.
+
+
+
+
+
+
+Et enfin, cliquez sur l'application `Terminal`.
+
+
+
+
+
+
+Vous arriverez sur un nouveau terminal vierge.
+
+
+
+
+
+
+Tapez la commande `echo`, suivie de votre séquence d'entropie générée auparavant, en veillant à insérer un espace entre `echo` et votre série de chiffres binaires.
+
+
+
+
+
+
+Ajoutez un espace supplémentaire, puis saisissez la commande suivante, en utilisant un _pipe_ (`|`) :
+```bash
+| shasum -a 256 -0
+```
+
+
+
+
+
+
+
+Dans l'exemple avec mon entropie, la commande totale est la suivante :
+```bash
+echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
+```
+
+Dans cette commande :
+- `echo` permet d'envoyer la séquence de bits ;
+- `|`, le _pipe_, sert à diriger la sortie de la commande `echo` vers l'entrée de la commande suivante ;
+- `shasum` lance une fonction de hachage appartenant à la famille SHA (_Secure Hash Algorithm_) ;
+- `-a` spécifie le choix d'un algorithme de hachage précis ;
+- `256` indique que l'algorithme SHA256 est utilisé ;
+- `-0` permet d'interpréter l'input comme un nombre binaire.
+
+Après avoir soigneusement vérifié que votre séquence binaire ne comporte pas d'erreur de saisie, appuyez sur la touche `Enter` pour exécuter la commande. Le terminal affichera alors le hash SHA256 de votre entropie.
+
+
+
+
+
+
+Pour le moment le hash est exprimé en format hexadécimal (base 16). Par exemple, le mien est : 
+```bash
+a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
+```
+
+Pour finaliser notre phrase mnémonique, nous avons besoin uniquement des 4 premiers bits du hash, qui constituent la somme de contrôle. Dans le format hexadécimal, chaque caractère représente 4 bits. Ainsi, nous retiendrons seulement le premier caractère du hash. Pour une phrase de 24 mots, il serait nécessaire de prendre en compte les deux premiers caractères. Dans mon exemple, cela correspond à la lettre : `a`. Notez soigneusement ce caractère quelque part sur votre feuille, puis éteignez votre ordinateur.
+
+La prochaine étape consiste à convertir ce caractère hexadécimal (base 16) en une valeur binaire (base 2), car notre phrase est construite dans ce format. Pour ce faire, vous pouvez utiliser le tableau de conversion suivant :
+
+| Décimal | Hexadécimal | Binaire |
+|---------|-------------|---------|
+| 0       | 0           | 0000    |
+| 1       | 1           | 0001    |
+| 2       | 2           | 0010    |
+| 3       | 3           | 0011    |
+| 4       | 4           | 0100    |
+| 5       | 5           | 0101    |
+| 6       | 6           | 0110    |
+| 7       | 7           | 0111    |
+| 8       | 8           | 1000    |
+| 9       | 9           | 1001    |
+| 10      | a           | 1010    |
+| 11      | b           | 1011    |
+| 12      | c           | 1100    |
+| 13      | d           | 1101    |
+| 14      | e           | 1110    |
+| 15      | f           | 1111    |
+Dans mon exemple, la lettre `a` correspond au nombre binaire `1010`. Ces 4 bits forment la somme de contrôle de notre phrase de récupération. Vous pouvez désormais les ajouter à l'entropie déjà notée sur votre feuille de papier, en les plaçant à la fin du dernier mot.
+
+
+
+
+
+Votre phrase mnémonique est à présent complète, mais elle est au format binaire. La prochaine étape consistera à la convertir en système décimal pour pouvoir ensuite associer chaque nombre à un mot correspondant dans la liste du BIP39.
+
+## Conversion des mots en décimal
 
 

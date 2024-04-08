@@ -232,5 +232,58 @@ Dans mon exemple, la lettre `a` correspond au nombre binaire `1010`. Ces 4 bits 
 Votre phrase mnémonique est à présent complète, mais elle est au format binaire. La prochaine étape consistera à la convertir en système décimal pour pouvoir ensuite associer chaque nombre à un mot correspondant dans la liste du BIP39.
 
 ## Conversion des mots en décimal
+Afin de convertir chaque ligne binaire en un nombre décimal, nous allons utiliser une méthode qui facilite le calcul à la main. Actuellement, vous disposez de douze lignes sur votre papier, chacune composée de 11 chiffres binaires `0` ou `1`. Pour procéder à une conversion en décimal, attribuez à chaque premier chiffre la valeur `1024` s'il est `1`, sinon `0`. Pour le second chiffre, la valeur `512` sera attribuée s'il est `1`, sinon `0`, et ainsi de suite jusqu'au onzième chiffre. Les correspondances sont les suivantes :
+- 1er bit : `1024` ;
+- 2e bit : `512` ;
+- 3e bit : `256` ;
+- 4e bit : `128` ;
+- 5e bit : `64` ;
+- 6e bit : `32` ;
+- 7e bit : `16` ;
+- 8e bit : `8` ;
+- 9e bit : `4` ;
+- 10e bit : `2` ;
+- 11e bit : `1`.
 
+Pour chaque ligne, nous additionnerons les valeurs correspondant aux chiffres `1` pour obtenir le nombre décimal équivalent du code binaire. Prenons l'exemple d'une ligne en binaire égale à :
+```bash
+1010 1101 101
+```
+
+La conversion se ferait comme cela :
+
+
+
+
+
+
+Le résultat serait alors :
+```bash
+1385
+```
+
+Pour chaque bit égal à `1`, reportez en dessous le nombre associé. Pour chaque bit égal à `0`, ne reportez rien. 
+
+
+
+
+
+
+Il suffit ensuite d'additionner tous les nombres validés par des `1` pour obtenir le nombre décimal représentant chaque ligne binaire. Par exemple, voici ce que ça donne pour ma feuille :
+
+
+
+
+
+
+## Recherche des mots de la phrase mnémonique
+Avec les nombres décimaux obtenus, nous pouvons désormais localiser les mots correspondants dans la liste pour composer la phrase mnémonique. Toutefois, la numérotation des 2048 mots de la liste du BIP39 s'étend de `1` à `2048`. Or, nos résultats calculés en binaire s'échelonnent de `0` à `2047`. Il y a donc un décalage d'une unité à rectifier. Pour corriger ce décalage, il suffit d'ajouter `1` aux douze nombres décimaux précédemment calculés.
+
+
+
+
+
+Après cet ajustement, vous disposez du rang de chaque mot au sein de la liste. Il ne reste plus qu'à identifier chaque mot selon son numéro. Évidemment, comme pour toutes les autres étapes, vous ne devez pas utiliser votre ordinateur pour effectuer cette conversion. Assurez-vous donc d'avoir imprimé la liste au préalable.
+
+[**-> Imprimer la liste du BIP39 en format A4.**]()
 

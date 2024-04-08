@@ -285,5 +285,5 @@ Avec les nombres décimaux obtenus, nous pouvons désormais localiser les mots c
 
 Après cet ajustement, vous disposez du rang de chaque mot au sein de la liste. Il ne reste plus qu'à identifier chaque mot selon son numéro. Évidemment, comme pour toutes les autres étapes, vous ne devez pas utiliser votre ordinateur pour effectuer cette conversion. Assurez-vous donc d'avoir imprimé la liste au préalable.
 
-[**-> Imprimer la liste du BIP39 en format A4.**]()
+[**-> Imprimer la liste du BIP39 en format A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 

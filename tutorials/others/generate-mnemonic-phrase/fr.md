@@ -70,7 +70,26 @@ Enfin, le nombre en décimal nous indique la position du mot correspondant dans 
 
 ![mnemonic](assets/fr/6.webp)
 
-Maintenant, passons à la pratique !
+Maintenant, passons à la pratique ! Nous allons générer une phrase de récupération de 12 mots. Toutefois, cette opération demeure identique dans le cas d'une phrase de 24 mots, à l'exception qu'il faudrait opter pour une entropie de 256 bits et une somme de contrôle de 8 bits, comme l'indique le tableau d'équivalence situé au début de cette partie.
 
 ## Génération de l'entropie
+
+Munissez-vous de votre feuille de papier, de votre stylo et de vos dés. Pour commencer, nous allons devoir générer 128 bits de manière aléatoire, c'est-à-dire une séquence de 128 `0` et `1` à la suite. Pour ce faire, nous allons utiliser les dés.
+
+Les dés possèdent 6 faces, toutes avec une probabilité identique d'être tirée. Cependant, notre objectif est de produire un résultat binaire, soit deux issues possibles. Nous allons donc attribuer la valeur `0` à chaque lancer aboutissant sur un chiffre pair, et `1` pour un chiffre impair. En conséquence, nous effectuerons 128 lancers pour constituer notre entropie de 128 bits. Si le dé affiche `2`, `4`, ou `6`, nous inscrirons `0`; pour `1`, `3`, ou `5`, ce sera `1`. Chaque résultat sera noté de manière séquentielle, de gauche à droite et de haut en bas. Pour faciliter les étapes suivantes, nous regrouperons les bits par paquets de quatre et de trois, comme sur l'image ci-dessous. Chaque ligne doit disposer de 11 bits : 2 paquets de 4 bits et un paquet de 3 bits.
+
+
+
+
+
+
+Comme on peut le voir sur mon exemple, le douzième mot est actuellement constitué de seulement 7 bits. Ceux-ci seront complétés par les 4 bits de la somme de contrôle lors de l'étape suivante pour former les 11 bits.
+
+
+## Calcul de la checksum
+
+Cette étape est la plus critique dans la génération manuelle d'une phrase mnémonique, car elle requiert l'utilisation d'un ordinateur. Comme évoqué précédemment, la checksum correspond au début du hash SHA256 généré à partir de l'entropie. Bien qu'il soit théoriquement possible de calculer un SHA256 à la main pour une entrée de 128 ou 256 bits, cette tâche pourrait prendre une semaine entière. De plus, la moindre erreur dans les calculs manuels ne serait identifiée qu'à l'issue du processus, ce qui vous obligerait à tout reprendre depuis le début. Il est donc inimaginable de faire cette étape avec une feuille de papier et un stylo. L'ordinateur est quasi obligatoire. Si vous voulez toutefois apprendre à faire un SHA256 à la main, nous vous expliquons comment le faire dans [la formation CRYPTO301](https://planb.network/en/courses/crypto301).
+
+C'est pour cette raison que je vous déconseille fortement de faire une phrase manuelle pour un véritable portefeuille. Selon moi, l'utilisation d'un ordinateur dans ce processus, même en prenant toutes les précautions nécessaires, augmente de manière irraisonnable la surface d'attaque du portefeuille.
+
 

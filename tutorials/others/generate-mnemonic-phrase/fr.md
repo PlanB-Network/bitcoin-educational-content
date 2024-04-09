@@ -26,7 +26,7 @@ Pour la création de votre phrase de récupération, vous aurez besoin de :
 - Une feuille de papier ;
 - Un stylo ou un crayon, idéalement de couleurs différentes pour faciliter l'organisation ;
 - Plusieurs dés, afin de minimiser les risques de biais liés à un dé déséquilibré ;
-- [La liste des 2048 mots du BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) imprimée.
+- [La liste des 2048 mots du BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf) imprimée.
 
 Par la suite, l'usage d'un ordinateur avec un terminal deviendra nécessaire pour le calcul de la somme de contrôle (checksum). C'est précisément pour cette raison que je déconseille la génération manuelle de la phrase mnémonique. À mon sens, l'intervention d'un ordinateur, même sous les précautions mentionnées dans ce tutoriel, accroît de manière significative la vulnérabilité d'un portefeuille.
 
@@ -200,15 +200,15 @@ Afin de convertir chaque ligne binaire en un nombre décimal, nous allons utilis
 - 11e bit : `1`.
 
 Pour chaque ligne, nous additionnerons les valeurs correspondant aux chiffres `1` pour obtenir le nombre décimal équivalent du code binaire. Prenons l'exemple d'une ligne en binaire égale à :
-```bash
+```
 1010 1101 101
 ```
 
 La conversion se ferait comme cela :
 ![mnemonic](assets/fr/21.webp)
 Le résultat serait alors :
-```bash
-1385
+```
+1389
 ```
 
 Pour chaque bit égal à `1`, reportez en dessous le nombre associé. Pour chaque bit égal à `0`, ne reportez rien. 
@@ -231,3 +231,67 @@ Après cet ajustement, vous disposez du rang de chaque mot au sein de la liste. 
 
 [**-> Imprimer la liste du BIP39 en format A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
+Par exemple, si le nombre dérivé de la première ligne est 1721, le mot correspondant sera le 1721ème de la liste :
+```
+1721. strike
+```
+
+
+
+
+
+
+
+De cette manière, on procède successivement avec les 12 mots pour contruire notre phrase mnémonique.
+
+
+
+
+
+## Création du portefeuille Bitcoin
+À ce stade, il ne nous reste plus qu'à importer notre phrase mnémonique sur un logiciel de portefeuille Bitcoin. Selon nos préférences, cela peut se faire sur un logiciel desktop pour obtenir un portefeuille chaud, ou sur un hardware wallet pour avoir un portefeuille froid.
+
+
+
+
+
+
+
+C'est seulement lors de l'importation que vous pourrez vérifier la validité de votre checksum. Si le logiciel indique un message d'erreur tel que `Invalid Checksum`, cela signifie qu'une erreur s'est glissée dans votre processus de création. Généralement, cette erreur découle soit d'un calcul erroné durant les conversions et additions à la main, soit d'une faute de frappe lors de la saisie de votre entropie dans le terminal sur Tails. Il sera nécessaire de reprendre le processus depuis le début pour corriger ces erreurs.
+
+
+
+
+
+
+
+Après avoir créé votre portefeuille, n'oubliez pas de sécuriser une copie de votre phrase de récupération sur un support physique, tel que du papier ou du métal, et de détruire la feuille de calcul utilisée pendant sa génération pour éviter toute fuite d'information.
+
+
+## Cas spécifique de l'option de lancé de dés sur les Coldcard
+Les hardware wallet de la famille des Coldcard proposent une fonctionnalité nommée _Dice Roll_, pour générer la phrase de récupération de votre portefeuille avec des dés. Cette méthode est très bien, car elle vous donne le contrôle direct sur la création de l'entropie, sans nécessiter l'usage d'un appareil externe pour le calcul de la checksum comme dans notre tutoriel. 
+
+Cependant, des incidents de vols de bitcoins ont été signalés récemment à cause d'une mauvaise utilisation de cette fonction. En effet, un nombre trop limité de lancers de dés peut entraîner une entropie insuffisante, rendant théoriquement possible la force brute de la phrase mnémonique et le vol des bitcoins associés. Pour ne pas être exposé à ce risque, il est conseillé d'effectuer au moins 99 lancers de dés sur les Coldcard, ce qui assure une entropie suffisante.
+
+
+
+
+
+
+
+
+La méthode d'interprétation des résultats proposée par Coldcard diffère de celle exposée dans ce tutoriel. Tandis que nous recommandons 128 lancers pour obtenir 128 bits de sécurité dans le tutoriel, Coldcard suggère 99 lancers pour atteindre 256 bits de sécurité. Dans notre approche, seuls deux résultats sont possibles pour chaque lancer de dé (pair ou impair). L'entropie générée par chaque lancer équivaut donc à `log2(2)`. Dans le cas de Coldcard, qui prend en compte les six faces possibles des dés (de 1 à 6), l'entropie par lancer est égale à `log2(6)`. C'est pour cette raison que dans notre tutoriel, nous devons effectuer plus de lancés pour obtenir le même niveau d'entropie.
+
+```
+Entropie = nombre de lancés * log2(nombre de résultats possibles sur le dé)
+
+Coldcard :
+
+Entropie = 99 * log2(6)
+Entropie = 255,91
+
+Notre tuto :
+
+Entropie = 128 * log2(2)
+Entropie = 128
+```

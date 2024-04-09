@@ -127,7 +127,7 @@ Tapez la commande `echo`, suivie de votre séquence d'entropie générée aupara
 
 ![mnemonic](assets/fr/17.webp)
 
-Ajoutez un espace supplémentaire, puis saisissez la commande suivante, en utilisant un _pipe_ (`|`) :
+Ajoutez un espace supplémentaire, puis saisissez la commande suivante, en utilisant un *pipe* (`|`) :
 ```bash
 | shasum -a 256 -0
 ```
@@ -141,8 +141,8 @@ echo 110101110001101110110000110000100110001001110000010000000010010110110010101
 
 Dans cette commande :
 - `echo` permet d'envoyer la séquence de bits ;
-- `|`, le _pipe_, sert à diriger la sortie de la commande `echo` vers l'entrée de la commande suivante ;
-- `shasum` lance une fonction de hachage appartenant à la famille SHA (_Secure Hash Algorithm_) ;
+- `|`, le *pipe*, sert à diriger la sortie de la commande `echo` vers l'entrée de la commande suivante ;
+- `shasum` lance une fonction de hachage appartenant à la famille SHA (*Secure Hash Algorithm*) ;
 - `-a` spécifie le choix d'un algorithme de hachage précis ;
 - `256` indique que l'algorithme SHA256 est utilisé ;
 - `-0` permet d'interpréter l'input comme un nombre binaire.
@@ -222,10 +222,7 @@ Il suffit ensuite d'additionner tous les nombres validés par des `1` pour obten
 ## Recherche des mots de la phrase mnémonique
 Avec les nombres décimaux obtenus, nous pouvons désormais localiser les mots correspondants dans la liste pour composer la phrase mnémonique. Toutefois, la numérotation des 2048 mots de la liste du BIP39 s'étend de `1` à `2048`. Or, nos résultats calculés en binaire s'échelonnent de `0` à `2047`. Il y a donc un décalage d'une unité à rectifier. Pour corriger ce décalage, il suffit d'ajouter `1` aux douze nombres décimaux précédemment calculés.
 
-
-
-
-
+![mnemonic](assets/fr/24.webp)
 
 Après cet ajustement, vous disposez du rang de chaque mot au sein de la liste. Il ne reste plus qu'à identifier chaque mot selon son numéro. Évidemment, comme pour toutes les autres étapes, vous ne devez pas utiliser votre ordinateur pour effectuer cette conversion. Assurez-vous donc d'avoir imprimé la liste au préalable.
 
@@ -235,50 +232,26 @@ Par exemple, si le nombre dérivé de la première ligne est 1721, le mot corres
 ```
 1721. strike
 ```
+![mnemonic](assets/fr/25.webp)
+De cette manière, on procède successivement avec les 12 mots pour construire notre phrase mnémonique.
 
-
-
-
-
-
-
-De cette manière, on procède successivement avec les 12 mots pour contruire notre phrase mnémonique.
-
-
-
-
+![mnemonic](assets/fr/26.webp)
 
 ## Création du portefeuille Bitcoin
 À ce stade, il ne nous reste plus qu'à importer notre phrase mnémonique sur un logiciel de portefeuille Bitcoin. Selon nos préférences, cela peut se faire sur un logiciel desktop pour obtenir un portefeuille chaud, ou sur un hardware wallet pour avoir un portefeuille froid.
 
-
-
-
-
-
+![mnemonic](assets/fr/27.webp)
 
 C'est seulement lors de l'importation que vous pourrez vérifier la validité de votre checksum. Si le logiciel indique un message d'erreur tel que `Invalid Checksum`, cela signifie qu'une erreur s'est glissée dans votre processus de création. Généralement, cette erreur découle soit d'un calcul erroné durant les conversions et additions à la main, soit d'une faute de frappe lors de la saisie de votre entropie dans le terminal sur Tails. Il sera nécessaire de reprendre le processus depuis le début pour corriger ces erreurs.
 
-
-
-
-
-
+![mnemonic](assets/fr/28.webp)
 
 Après avoir créé votre portefeuille, n'oubliez pas de sécuriser une copie de votre phrase de récupération sur un support physique, tel que du papier ou du métal, et de détruire la feuille de calcul utilisée pendant sa génération pour éviter toute fuite d'information.
 
-
 ## Cas spécifique de l'option de lancé de dés sur les Coldcard
-Les hardware wallet de la famille des Coldcard proposent une fonctionnalité nommée _Dice Roll_, pour générer la phrase de récupération de votre portefeuille avec des dés. Cette méthode est très bien, car elle vous donne le contrôle direct sur la création de l'entropie, sans nécessiter l'usage d'un appareil externe pour le calcul de la checksum comme dans notre tutoriel. 
+Les hardware wallet de la famille des Coldcard proposent [une fonctionnalité nommée *Dice Roll*](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), pour générer la phrase de récupération de votre portefeuille avec des dés. Cette méthode est très bien, car elle vous donne le contrôle direct sur la création de l'entropie, sans nécessiter l'usage d'un appareil externe pour le calcul de la checksum comme dans notre tutoriel. 
 
 Cependant, des incidents de vols de bitcoins ont été signalés récemment à cause d'une mauvaise utilisation de cette fonction. En effet, un nombre trop limité de lancers de dés peut entraîner une entropie insuffisante, rendant théoriquement possible la force brute de la phrase mnémonique et le vol des bitcoins associés. Pour ne pas être exposé à ce risque, il est conseillé d'effectuer au moins 99 lancers de dés sur les Coldcard, ce qui assure une entropie suffisante.
-
-
-
-
-
-
-
 
 La méthode d'interprétation des résultats proposée par Coldcard diffère de celle exposée dans ce tutoriel. Tandis que nous recommandons 128 lancers pour obtenir 128 bits de sécurité dans le tutoriel, Coldcard suggère 99 lancers pour atteindre 256 bits de sécurité. Dans notre approche, seuls deux résultats sont possibles pour chaque lancer de dé (pair ou impair). L'entropie générée par chaque lancer équivaut donc à `log2(2)`. Dans le cas de Coldcard, qui prend en compte les six faces possibles des dés (de 1 à 6), l'entropie par lancer est égale à `log2(6)`. C'est pour cette raison que dans notre tutoriel, nous devons effectuer plus de lancés pour obtenir le même niveau d'entropie.
 

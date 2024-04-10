@@ -79,6 +79,7 @@ Rejoignez-nous pour transformer votre utilisation de Bitcoin et devenir un utili
 
 # Comprendre et utiliser les transactions coinjoin
 
+
 ## C'est quoi une transaction coinjoin ?
 
 

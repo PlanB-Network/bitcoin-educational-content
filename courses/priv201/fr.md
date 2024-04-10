@@ -16,4 +16,101 @@ Cette formation se présente comme un parcours complet et généraliste. Chaque 
 
 Rejoignez-nous pour transformer votre utilisation de Bitcoin et devenir un utilisateur averti, capable de comprendre les enjeux autour de la confidentialité et de protéger sa vie privée.
 
+# Introduction
+
+
+
+
+# Définitions et concepts clés
+
+
+## Le modèle d'UTXO sur Bitcoin
+
+
+## La structure des transactions Bitcoin
+
+
+## Les scripts Bitcoin
+
+
+## Le modèle de confidentialité de Bitcoin
+
+
+
+
+
+
+# Comprendre l'analyse de chaîne et savoir s'en protéger
+
+
+## C'est quoi l'analyse de chaîne sur Bitcoin ?
+
+
+## Les patterns de transactions
+
+
+## Les heuristiques internes 
+
+
+## Les heuristiques externes
+
+
+
+
+
+# Maîtriser les bonnes pratiques pour protéger sa vie privée
+
+
+## La réutilisation d'adresse
+
+
+## La consolidation et la CIOH
+
+
+## Le nœud complet
+
+
+## Le KYC et l'identification des clés
+
+
+## Les méthodes d'acquisition
+
+
+
+# Comprendre et utiliser les transactions coinjoin
+
+## C'est quoi une transaction coinjoin ?
+
+
+## Zerolink et chaumian coinjoins
+
+
+## Les ensembles d'anonymat et l'entropie
+
+
+
+
+
+
+
+# Connaître les enjeux des autres techniques de confidentialité avancées
+
+
+
+## Les transactions payjoin
+
+
+## Les transactions spécifiques Samourai
+
+
+## Les transferts secret de propriété
+
+### Le Coin Swap
+
+### L'Atomic Swap
+
+### L'échange pair-à-pair
+
+
+
 

@@ -1,3 +1,9 @@
+---
+Name: Paradigm bitcoin
+Description: 
+Il s’agit d’un événement payant s’adressant à un public professionnel et aux Bitcoineurs.
+--- 
+
 # Main stage
 
 ## Bitcoin et horlogerie 

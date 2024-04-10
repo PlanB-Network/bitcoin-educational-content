@@ -9,42 +9,42 @@ description:
 
 ## Fiat Money & Fiat Food
 
-![video](https://www.youtube.com/embed/ZnvAYDEUVlg)
+![video](https://youtu.be/ZnvAYDEUVlg)
 
 Speaker: Saifedean Ammous
 
 ## The Art of Bitcoin Rhetoric
 
-![video](https://www.youtube.com/embed/PBAuHv5cPl8)
+![video](https://youtu.be/PBAuHv5cPl8)
 
 Speaker: Michael (Bitstein) Goldstein
 
 ## Bitcoin, Changing the Mental Model of Civilization
 
-![video](https://www.youtube.com/embed/qF0qRC3HdIc)
+![video](https://youtu.be/qF0qRC3HdIc)
 
 Speaker: Jimmy Song
 
 ## Accumulating Bitcoin
 
-![video](https://www.youtube.com/embed/iZookoWXQec)
+![video](https://youtu.be/iZookoWXQec)
 
 Speaker: Pierre Rochard
 
 ## Taproot & Schnoor, what is the futur of bitcoin
 
-![video](https://www.youtube.com/embed/yWEbIkytDJs)
+![video](https://youtu.be/yWEbIkytDJs)
 
 Speaker: Mike Schmidt
 
 ## Bitcoin, they can be only one
 
-![video](https://www.youtube.com/embed/QWaCr_tKjRk)
+![video](https://youtu.be/QWaCr_tKjRk)
 
 Speaker: Tone Vays
 
 ## Stages of Multi-Sig
 
-![video](https://www.youtube.com/embed/xrReq7V7oJU)
+![video](https://youtu.be/xrReq7V7oJU)
 
 Speaker: Justin Moon

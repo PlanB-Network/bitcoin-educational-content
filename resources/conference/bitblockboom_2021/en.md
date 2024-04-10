@@ -8,60 +8,60 @@ description:
 
 ## Bitcoin is inevitable 
 
-![video](https://www.youtube.com/embed/OjgYUICIp_E?list=PLoLI_Hx40HR_3VGPZBy5ZkgPZ5p2Tr2fI)
+![video](https://youtu.be/OjgYUICIp_E)
 
 Speaker: Surfer Jim
 
 ## Holder are the revolutionaries
 
-![video](https://www.youtube.com/embed/t8td5oN2F4c)
+![video](https://youtu.be/t8td5oN2F4c)
 
 Speaker: Dan Held
 
 ## Onboarding 1 billion people to private keys
 
-![video](https://www.youtube.com/embed/K9fWiK754jM)
+![video](https://youtu.be/K9fWiK754jM)
 
 Speaker: Justine Harper
 
 ## Bitcoin in one Lesson, How to run Bitcoin Psyop
 
-![video](https://www.youtube.com/embed/X2jNGH3NHwo)
+![video](https://youtu.be/X2jNGH3NHwo)
 
 Speaker: Parker Lewis
 
 ## Reggae and Bitcoin
 
-![video](https://www.youtube.com/embed/ljJmv8XpkdE)
+![video](https://youtu.be/ljJmv8XpkdE)
 
 Speaker: Bobo Dread
 
 ## The Bitcoin mafia
 
-![video](https://www.youtube.com/embed/NxCIGKhgSds)
+![video](https://youtu.be/NxCIGKhgSds)
 
 Speaker: American Hodl
 
 ## Bitcoining in an unfree world
 
-![video](https://www.youtube.com/embed/ZL4nUt6btm8)
+![video](https://youtu.be/ZL4nUt6btm8)
 
 Speaker: Stephan Livera
 
 ## All your models are destroyed
 
-![video](https://www.youtube.com/embed/u8d8byApzkA)
+![video](https://youtu.be/u8d8byApzkA)
 
 Speaker: Preston Pysh
 
 ## The History and Future of securing money
 
-![video](https://www.youtube.com/embed/RM5EZPXyZ3k)
+![video](https://youtu.be/RM5EZPXyZ3k)
 
 Speaker: Nick Neuman
 
 ## Rabbit Hole Recap BitBlockBoom 2021
 
-![video](https://www.youtube.com/embed/mKSyAJQabpI)
+![video](https://youtu.be/mKSyAJQabpI)
 
 Event: Rabbit Hole Recap

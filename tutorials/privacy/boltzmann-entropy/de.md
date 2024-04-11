@@ -49,7 +49,7 @@ Wenn eine Transaktion eine hohe Anzahl möglicher Kombinationen aufweist, ist es
 In der Praxis zeigt die Entropie, ob aus der Perspektive eines externen Beobachters eine Transaktion mehrere mögliche Interpretationen zulässt, basierend allein auf den Beträgen von Eingängen und Ausgängen, ohne andere externe oder interne Muster und Heuristiken zu berücksichtigen. Eine hohe Entropie ist dann gleichbedeutend mit besserer Vertraulichkeit für die Transaktion.
 
 Entropie wird als der binäre Logarithmus der Anzahl möglicher Kombinationen definiert. Hier ist die verwendete Formel:
-```
+```bash
 E: die Entropie der Transaktion
 C: die Anzahl möglicher Kombinationen für die Transaktion
 
@@ -59,21 +59,21 @@ E = log2(C)
 In der Mathematik entspricht der binäre Logarithmus (Basis-2-Logarithmus) der inversen Operation des Potenzierens von 2. Mit anderen Worten, der binäre Logarithmus von `x` ist der Exponent, zu dem `2` erhoben werden muss, um `x` zu erhalten. Dieser Indikator wird somit in Bits ausgedrückt.
 
 Nehmen wir das Beispiel der Berechnung der Entropie für eine Coinjoin-Transaktion, die nach dem Whirlpool 5x5-Modell strukturiert ist, das, wie zuvor erwähnt, eine Anzahl möglicher Kombinationen von `1.496` bietet:
-```
+```bash
 C = 1.496
 E = log2(1.496)
 E = 10,5469 Bits
 ```
 Somit zeigt diese Coinjoin-Transaktion eine Entropie von `10,5469 Bits`, was als sehr zufriedenstellend betrachtet wird. Je höher dieser Wert, desto mehr unterschiedliche Interpretationen lässt die Transaktion zu, wodurch ihr Datenschutzniveau gestärkt wird.
 Für eine 8x8-Coinjoin-Transaktion, die `9.934.563` Interpretationen bietet, wäre die Entropie:
-```
+```bash
 C = 9.934.563
 E = log2(9.934.563)
 E = 23,244 Bits
 ```
 
 Nehmen wir ein weiteres Beispiel mit einer konventionelleren Transaktion, die einen Eingang und zwei Ausgänge aufweist: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) Im Fall dieser Transaktion ist die einzige mögliche Interpretation: `(In.0) > (Out.0 ; Out.1)`. Folglich wird ihre Entropie auf `0` festgelegt:
-```
+```bash
 C = 1
 E = log2(1)
 E = 0 Bits
@@ -83,7 +83,7 @@ E = 0 Bits
 Der dritte Indikator, der vom Boltzmann-Rechner bereitgestellt wird, heißt `Wallet Efficiency`. Dieser Indikator bewertet die Effizienz der Transaktion, indem er sie mit der optimalen Transaktion vergleicht, die in einer identischen Konfiguration denkbar ist.
 Dies führt uns zur Diskussion des Konzepts der maximalen Entropie, die der höchsten Entropie entspricht, die eine spezifische Transaktionsstruktur theoretisch erreichen könnte. Die Effizienz der Transaktion wird dann berechnet, indem diese maximale Entropie mit der tatsächlichen Entropie der analysierten Transaktion konfrontiert wird.
 Die verwendete Formel lautet wie folgt:
-```
+```bash
 ER: die tatsächliche Entropie der Transaktion ausgedrückt in Bits
 EM: die maximal mögliche Entropie für eine gegebene Transaktionsstruktur ausgedrückt in Bits
 Ef: die Effizienz der Transaktion in Bits
@@ -92,14 +92,14 @@ Ef = ER - EM
 ```
 
 Zum Beispiel, für eine Whirlpool 5x5 Typ Coinjoin-Struktur, wird die maximale Entropie auf `10.5469` festgelegt:
-```
+```bash
 ER = 10.5469
 EM = 10.5469
 Ef = 10.5469 - 10.5469 = 0 Bits
 ```
 
 Dieser Indikator wird auch als Prozentsatz ausgedrückt, seine Formel lautet dann:
-```
+```bash
 CR: die tatsächliche Anzahl möglicher Kombinationen
 CM: die maximale Anzahl möglicher Kombinationen mit derselben Struktur
 Ef: die Effizienz ausgedrückt als Prozentsatz
@@ -113,7 +113,7 @@ Eine Effizienz von `100%` zeigt also an, dass die Transaktion ihr Potenzial für
 
 ### Entropiedichte:
 Der vierte Indikator ist die Entropiedichte, notiert im Werkzeug `Entropiedichte`. Sie bietet eine Perspektive auf die Entropie in Bezug auf jeden Input oder Output der Transaktion. Dieser Indikator erweist sich als nützlich für die Bewertung und den Vergleich der Effizienz von Transaktionen unterschiedlicher Größe. Um sie zu berechnen, teilt man einfach die Gesamtentropie der Transaktion durch die Gesamtzahl der beteiligten Inputs und Outputs:
-```
+```bash
 ED: die Entropiedichte ausgedrückt in Bits
 E: die Entropie der Transaktion ausgedrückt in Bits
 T: die Gesamtzahl der Inputs und Outputs in der Transaktion
@@ -122,14 +122,14 @@ ED = E / T
 ```
 
 Nehmen wir das Beispiel eines Whirlpool 5x5 Coinjoin:
-```
+```bash
 T = 5 + 5 = 10
 E = 10.5469
 ED = 10.5469 / 10 = 1.054 Bits
 ```
 
 Berechnen wir auch die Entropiedichte für einen Whirlpool 8x8 Coinjoin:
-```
+```bash
 T = 8 + 8 = 16
 E = 23.244
 ED = 23.244 / 16 = 1.453 bits
@@ -152,7 +152,7 @@ Nehmen wir wieder das Beispiel eines Whirlpool-Coinjoin, würde die Tabelle der 
 
 Hier können wir deutlich sehen, dass jede Eingabe die gleiche Chance hat, mit jedem Ausgang assoziiert zu werden, was die Vertraulichkeit der Transaktion erhöht.
 Die Berechnung des Boltzmann-Scores erfolgt durch Division der Anzahl der Interpretationen, in denen ein bestimmtes Ereignis auftritt, durch die Gesamtzahl der verfügbaren Interpretationen. Um also den Score zu bestimmen, der Eingabe Nr. 0 mit Ausgang Nr. 3 (`512` Interpretationen) verbindet, wird folgendes Verfahren verwendet:
-```
+```bash
 Interpretationen (IN.0 > OUT.3) = 512
 Gesamtinterpretationen = 1496
 Score = 512 / 1496 = 34%

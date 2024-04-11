@@ -205,7 +205,7 @@ Assurez-vous de la validité de votre sauvegarde de la phrase de récupération 
 ![sparrow](assets/fr/13.webp)
 
 Laissez le chemin de dérivation proposé par défaut et appuyez sur `Import Keystore`. Dans mon exemple, le chemin de dérivation diffère légèrement étant donné que j'utilise le Testnet pour faire ce tutoriel. Le chemin de dérivation qui devrait s'afficher pour vous est le suivant :
-```
+```bash
 m/84'/0'/0'
 ```
 

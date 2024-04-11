@@ -187,7 +187,7 @@ Assicurati della validità del tuo backup della frase di recupero prima di clicc
 ![sparrow](assets/it/13.webp)
 
 Lascia il percorso di derivazione suggerito come predefinito e premi `Importa Keystore`. Nel mio esempio, il percorso di derivazione differisce leggermente poiché sto usando il Testnet per questo tutorial. Il percorso di derivazione che dovrebbe apparire per te è il seguente:
-```
+```bash
 m/84'/0'/0'
 ```
 

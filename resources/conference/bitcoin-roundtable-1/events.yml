@@ -1,0 +1,22 @@
+- start_date: 2024-04-16 20:30:00
+  end_date: 2024-04-16 23:00:00
+  timezone: Europe/Rome
+  address_line_1:
+  address_line_2:
+  address_line_3:
+  name: The Bitcoin Roundtable
+  builder: PlanB Network
+  type: Lecture
+  is_online: true
+  is_in_person: false
+  price_dollars: 0
+  description: Bitcoin Circular Economies & Citadels
+  language:
+    - en
+  links:
+    website:
+    replay_url:
+    live_url: https://youtube.com/live/apXM1leMG7I?feature=share
+  tag:
+    - International
+    - General

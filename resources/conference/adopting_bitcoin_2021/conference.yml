@@ -1,12 +1,12 @@
-year: 2022
-name: Adopting Bitcoin 2022
+year: 2021
+name: Adopting Bitcoin 2021
 Builder: Galoy
 location: El Salvador
 language: 
  - en
  - esp
 links:
-  website: https://adoptingbitcoin.org/2023/
+  website: https://adoptingbitcoin.org
   twitter: https://twitter.com/AdoptingBTC
 tag: 
     - Bitcoiner

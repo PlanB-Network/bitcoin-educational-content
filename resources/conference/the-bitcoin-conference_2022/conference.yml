@@ -1,0 +1,13 @@
+year: 2022
+name:  Die Bitcoin Konferenz 2022
+Builder: 
+location: germany
+language: 
+ - en
+ - de
+links:
+  website: https://www.bconf.de/
+  twitter: https://twitter.com/thebconf
+tag: 
+  - Bitcoiner
+  - General

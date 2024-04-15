@@ -196,7 +196,7 @@ Ensure the validity of your recovery phrase backup before clicking on `Confirm B
 ![sparrow](assets/en/13.webp)
 
 Leave the suggested derivation path as default and press `Import Keystore`. In my example, the derivation path differs slightly since I am using the Testnet for this tutorial. The derivation path that should appear for you is as follows:
-```
+```bash
 m/84'/0'/0'
 ```
 

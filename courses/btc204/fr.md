@@ -39,51 +39,36 @@ L'objectif de cette formation n'est pas de vous rendre totalement anonyme dans v
 
 Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les UTXO, les adresse de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
 
-
-
-
-
+![BTC204](assets/fr/1.webp)
 
 ### Section 2 : Comprendre l'analyse de chaîne et savoir s'en protéger
 
 Dans la deuxième section, nous étudions les techniques employées par les entreprises d'analyse de chaîne pour tracer votre activité sur Bitcoin. Comprendre ces méthodes est crucial pour renforcer la protection de votre confidentialité. Cette partie a pour objectif d'examiner les stratégies des attaquants pour mieux appréhender les risques et préparer le terrain pour les techniques que nous étudierons dans les sections suivantes. Nous analyserons les modèles de transactions (patterns), les heuristiques internes et externes, ainsi que les interprétations vraisemblables de ces modèles. En plus d'un volet théorique, nous utiliserons OXT, un outil professionnel d'analyse de chaîne, à travers des exemples pratiques et des exercices pour vous initier à l'analyse de chaîne.
 
-
-
-
-
-
-
-
+![BTC204](assets/fr/2.webp)
 ### Section 3 : Maîtriser les bonnes pratiques pour protéger sa vie privée
 
 Dans la troisième section de notre formation, nous entrons dans le vif du sujet : la pratique ! L'objectif est de maîtriser toutes les bonnes pratiques essentielles qui doivent devenir des réflexes naturels pour tout utilisateur de Bitcoin. Nous aborderons l'utilisation d'adresses vierges, l'étiquetage, la consolidation, l'utilisation de nœuds complets, ainsi que le KYC et les méthodes d'acquisition. Le but est de vous fournir un aperçu complet des pièges à éviter pour établir de solides fondations dans notre quête de protection de la vie privée. Pour certaines de ces pratiques, vous serez guidé vers un tutoriel spécifique pour les mettre en œuvre.
 
-
-
-
+![BTC204](assets/fr/3.webp)
 
 ### Section 4 : Comprendre et utiliser les transactions coinjoin
 
 Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans la section 4, vous allez découvrir tout ce qu'il faut savoir sur cette méthode de mixage. Vous apprendrez ce qu'est le coinjoin, son histoire et ses objectifs, ainsi que les différents types de coinjoins existants. Des tutoriels vous seront également proposés pour utiliser les coinjoins de diverses manières. Enfin, pour les utilisateurs les plus aguerris, nous découvrirons ce que sont les anonsets et l'entropie, et comment calculer ces indicateurs à l'aide d'outils Python.
 
-
+![BTC204](assets/fr/4.webp)
 
 ### Section 5 : Connaître les enjeux des autres techniques de confidentialité avancées
 
 Enfin, dans la dernière section, nous ferrons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le Payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses. Des tutoriels seront également disponibles pour vous apprendre à maîtriser l'utilisation de ces outils.
 
-
-
-
-
+![BTC204](assets/fr/5.webp)
 
 ### Section Bonus : La privacy sur le Lightning Network
 
 Comme vous l'avez compris, le cœur de cette formation se concentre exclusivement sur la privacy onchain. Dans cette dernière partie bonus, je souhaite donc élargir le sujet à la confidentialité sur Lightning. Certains affirment que Lightning est privé par défaut, tandis que d'autres soutiennent que la confidentialité de l'utilisateur y est insuffisante. Quelle est donc la vérité ? Nous démêlerons le vrai du faux pour mieux comprendre les enjeux liés à la confidentialité sur le Lightning Network.
 
-
-
+![BTC204](assets/fr/6.webp)
 
 
 # Définitions et concepts clés

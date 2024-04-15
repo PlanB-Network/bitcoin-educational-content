@@ -1,0 +1,23 @@
+- start_date: 2024-05-11
+  end_date: 2024-05-14
+  address_line_1:  Dallas, Texas (USA)
+  address_line_2:
+  address_line_3: 
+  name: Trigger 8 FREE
+  builder: Bitblockboom
+  type: conference
+  book_online: true
+  book_in_person: true
+  price_dollars: 0
+  available_seats: 2
+  description: Network with fellow Bitcoiners in Dallas, Texas
+  language: 
+    - en
+  links:
+    website:
+    replay_url:
+    live_url :
+  tag: 
+    - International
+    - Bitcoiner
+    - General

@@ -6,8 +6,8 @@
   name: BTC Prague 2024
   builder: BTCprague
   type: conference
-  is_online: false
-  is_in_person: true
+  book_online: false
+  book_in_person: false
   price_dollars: 0
   description: The biggest, most influential bitcoin event in Europe ever, again!
   language: 

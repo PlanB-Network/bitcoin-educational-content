@@ -7,8 +7,8 @@
   name: LBbits workshop
   builder: PlebLab
   type: workshop
-  is_online: false
-  is_in_person: true
+  book_online: false
+  book_in_person: false
   price_dollars: 0
   description: workshop on programming nfc tags with lightning
   language: 

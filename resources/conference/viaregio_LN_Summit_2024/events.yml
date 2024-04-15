@@ -6,8 +6,8 @@
   name: Tuscany Lightning Summit 2024
   builder: fulgure-ventures
   type: conference
-  is_online: true
-  is_in_person: false
+  book_online: true
+  book_in_person: false
   price_dollars: 0
   description: Private LN event for networking
   language: 

@@ -7,8 +7,8 @@
   name: The Bitcoin Roundtable
   builder: PlanB Network
   type: Lecture
-  is_online: true
-  is_in_person: false
+  book_online: true
+  book_in_person: false
   price_dollars: 0
   description: Bitcoin Circular Economies & Citadels
   language:

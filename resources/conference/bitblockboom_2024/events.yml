@@ -6,8 +6,8 @@
   name: Bitblockboom 2024
   builder: Bitblockboom
   type: conference
-  is_online: false
-  is_in_person: true
+  book_online: false
+  book_in_person: false
   price_dollars: 0
   description: Network with fellow Bitcoiners in Dallas, Texas
   language: 

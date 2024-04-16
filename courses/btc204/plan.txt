@@ -1,0 +1,56 @@
+- Protégez votre vie privée sur Bitcoin
+
+- Introduction
+    | Introduction de la formation
+        | Section 1 : Définitions et concepts clés
+        | Section 2 : Comprendre l'analyse de chaîne et savoir s'en protéger
+        | Section 3 : Maîtriser les bonnes pratiques pour protéger sa vie privée
+        | Section 4 : Comprendre et utiliser les transactions coinjoin
+        | Section 5 : Connaître les enjeux des autres techniques de confidentialité avancées
+        | Section Bonus : La privacy sur le Lightning Network
+
+- Définitions et concepts clés
+    | Le modèle d'UTXO de Bitcoin
+        | Les UTXOs sur Bitcoin : qu'est-ce que c'est ?
+        | Les UTXOs et les conditions de dépense
+    | La structure des transactions Bitcoin
+        | Les inputs et les outputs d'une transaction
+        | Le change et la fusion dans une transaction Bitcoin
+        | Les frais de transaction
+        | La création des UTXOs sur Bitcoin
+        | Les implications du modèle d'UTXO
+    | Les scripts Bitcoin
+    | Le modèle de confidentialité de Bitcoin
+
+- Comprendre l'analyse de chaîne et savoir s'en protéger
+    | C'est quoi l'analyse de chaîne sur Bitcoin ?
+    | Les patterns de transactions
+    | Les heuristiques internes
+    | Les heuristiques externes
+    | Mise en pratique avec l'outil OXT
+    | Exercice analyse de chaîne
+
+- Maîtriser les bonnes pratiques pour protéger sa vie privée
+    | La réutilisation d'adresse
+    | Labelling et coin control
+    | La consolidation et la CIOH
+    | Le nœud complet
+    | Le KYC et l'identification des clés
+    | Les méthodes d'acquisition
+
+- Comprendre et utiliser les transactions coinjoin
+    | C'est quoi une transaction coinjoin ?
+    | Zerolink et chaumian coinjoins
+    | Les différentes implémentations de coinjoin
+    | Comprendre et utiliser Whirlpool
+    | Les ensembles d'anonymat et l'entropie
+
+- Connaître les enjeux des autres techniques de confidentialité avancées
+    | Les transactions payjoin
+    | Les transactions spécifiques Samourai
+    | Les transferts secret de propriété
+        | Le Coin Swap
+        | L'Atomic Swap
+        | L'échange pair-à-pair
+
+- Bonus : La privacy sur le Lightning Network

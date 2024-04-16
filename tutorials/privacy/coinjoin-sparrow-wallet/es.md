@@ -187,7 +187,7 @@ Asegura la validez de tu copia de seguridad de la frase de recuperación antes d
 ![sparrow](assets/es/13.webp)
 
 Deja la ruta de derivación sugerida como predeterminada y presiona `Import Keystore`. En mi ejemplo, la ruta de derivación difiere ligeramente ya que estoy usando el Testnet para este tutorial. La ruta de derivación que debería aparecer para ti es la siguiente:
-```
+```bash
 m/84'/0'/0'
 ```
 

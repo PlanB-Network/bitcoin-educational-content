@@ -58,7 +58,7 @@ To calculate these indicators on your own coins that have gone through coinjoin 
 If you have a RoninDojo, WST is preinstalled on your node. You can therefore skip the installation steps and directly follow the usage steps. For those who do not have a RoninDojo node, let's see how to proceed with the installation of this tool on a computer.
 
 You will need: Tor Browser (or Tor), Python 3.4.4 or higher, git, and pip. Open a terminal. To check the presence and version of these software on your system, enter the following commands:
-```
+```bash
 python --version
 git --version
 pip --version
@@ -69,22 +69,22 @@ If needed, you can download them from their respective websites:
 - https://www.torproject.org/download/;
 - https://git-scm.com/downloads.
 Once all these software are installed, from a terminal, clone the WST repository:
-```
+```bash
 git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
 ```
 ![WST](assets/8.webp)
 Navigate to the WST directory:
-```
+```bash
 cd whirlpool_stats
 ```
 
 Install the dependencies:
-```
+```bash
 pip3 install -r ./requirements.txt
 ```
 ![WST](assets/9.webp)
 You may also install them manually (optional):
-```
+```bash
 pip install PySocks
 pip install requests[socks]
 pip install plotly
@@ -94,12 +94,12 @@ pip install python-bitcoinrpc
 ```
 
 Navigate to the `/whirlpool_stats` subfolder:
-```
+```bash
 cd whirlpool_stats
 ```
 
 Start WST:
-```
+```bash
 python3 wst.py
 ```
 ![WST](assets/10.webp)
@@ -108,26 +108,26 @@ Launch Tor or Tor Browser in the background.
 **-> For RoninDojo users, you can resume the tutorial directly here.**
 
 Set the proxy to Tor (RoninDojo),
-```
+```bash
 socks5 127.0.0.1:9050
 ```
 
 or to Tor Browser depending on what you are using:
-```
+```bash
 socks5 127.0.0.1:9150
 ```
 
 This manipulation will allow you to download data on OXT via Tor, in order to not leak information about your transactions. If you are a novice and this step seems complex, know that it simply involves directing your internet traffic through Tor. The simplest method consists of launching the Tor Browser in the background on your computer, then executing only the second command to connect via this browser (`socks5 127.0.0.1:9150`).
 ![WST](assets/11.webp)
 Next, navigate to the working directory from which you intend to download the WST data using the `workdir` command. This folder will serve to store the transactional data that you will retrieve from OXT in the form of `.csv` files. This information is essential for calculating the indicators you are looking to obtain. You are free to choose the location of this directory. It might be wise to create a folder specifically for WST data. As an example, let's opt for the downloads folder. If you are using RoninDojo, this step is not necessary:
-```
+```bash
 workdir path/to/your/directory
 ```
 
 The command prompt should then have changed to indicate your working directory.
 ![WST](assets/12.webp)
 Then download the data from the pool containing your transaction. For example, if I am in the `100,000 sats` pool, the command is:
-```
+```bash
 download 0001
 ```
 ![WST](assets/13.webp)
@@ -137,14 +137,14 @@ The denomination codes on WST are as follows:
 - Pool 0.01 bitcoins: `001`
 - Pool 0.001 bitcoins: `0001`
 Once the data is downloaded, load it. For example, if I am in the pool of `100,000 sats`, the command is:
-```
+```bash
 load 0001
 ```
 
 This step takes a few minutes depending on your computer. Now is a good time to make yourself a coffee! :)
 ![WST](assets/14.webp)
 After loading the data, type the `score` command followed by your TXID (transaction identifier) to get its anonsets:
-```
+```bash
 score TXID
 ```
 

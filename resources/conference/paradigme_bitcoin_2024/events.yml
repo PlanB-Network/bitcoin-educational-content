@@ -6,8 +6,8 @@
   name: Paradigme Bitcoin 2024
   builder: Paradigme Bitcoin
   type: conference
-  is_online: false
-  is_in_person: true
+  book_online: false
+  book_in_person: false
   price_dollars: 0
   description: L'évènement Bitcoin suisse de l'été 2024!
   language: 

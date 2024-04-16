@@ -7,8 +7,8 @@
   name: Using Bitcoin Everyday
   builder: Bitpolito
   type: workshop
-  is_online: false
-  is_in_person: true
+  book_online: false
+  book_in_person: false
   price_dollars: 0
   description: Roy Sheinfeld, CEO di Breez, parlerà di Lightning Network, il layer 2 di Bitcoin.
   language: 

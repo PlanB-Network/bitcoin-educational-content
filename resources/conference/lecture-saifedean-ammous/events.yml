@@ -7,8 +7,8 @@
   name: Principles of Economics
   builder: PlanB
   type: Lecture
-  is_online: true
-  is_in_person: true
+  book_online: true
+  book_in_person: true
   price_dollars: 5
   description: 1st guest star lecture of PlanB Biz School
   language: 

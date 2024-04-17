@@ -1,9 +1,7 @@
 --- 
 name: Adopting Bitcoin 2021
-Description: 
-  El‍ Salvador‍ is‍ the‍ first‍ country‍ to‍ adopt‍ Bitcoin,‍ making‍ it‍ the‍ ground-zero‍ for‍ global‍ Bitcoin‍ adoption.‍
-  
-  This‍ novel‍ situation‍ presents‍ both‍ the‍ challenge‍ of‍ onboarding‍ users‍ and‍ the‍ opportunity‍ to‍ learn‍ from‍ them,‍ benefiting‍ the‍ entire‍ ecosystem,‍ from‍ protocol‍ and‍ application‍ developers‍ to‍ entrepreneurs,‍ investors,‍ and‍ the‍ many‍ communities‍ around‍ the‍ world‍ that‍ followed‍ Bitcoin‍ Beach's‍ example‍ by‍ establishing‍ circular‍ Bitcoin‍ economies.‍ 
+description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption. This novel situation presents both the challenge of onboarding users and the opportunity to learn from them, benefiting the entire ecosystem, from protocol and application developers to entrepreneurs, investors, and the many communities around the world that followed Bitcoin Beach's example by establishing circular Bitcoin economies.
+
 --- 
 
 # Bitfinex  Stage 
@@ -60,7 +58,7 @@ Speaker: Mike Peterson
 
 ![video](https://youtu.be/D7zDspY55gc?si=HfDJ5sG1VAyG8naU)
 
-As you may or may not know, El Zonte currently does not have a clinic or pharmacy of any kind for their community or the surrounding communities of 12,000 people. Suzie is a dentist who has partnered with 3 sisters in El Zonte (one is a physician and one will soon be graduating from dental school) to build a medical clinic, pharmacy and dental clinic all in one facility in El Zonte. The sisters are life long residents of El Zonte and 2 volunteer at Hope House. If you'd like to support, get in contact with SuzieBdds on Twitter:   / susiebdds  
+As you may or may not know, El Zonte currently does not have a clinic or pharmacy of any kind for their community or the surrounding communities of 12,000 people. Suzie is a dentist who has partnered with 3 sisters in El Zonte (one is a physician and one will soon be graduating from dental school) to build a medical clinic, pharmacy and dental clinic all in one facility in El Zonte. The sisters are life long residents of El Zonte and 2 volunteer at Hope House. 
 
 ## Bitcoin Jungle 
 

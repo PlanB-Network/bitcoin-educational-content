@@ -1,12 +1,12 @@
-year: 2018
+year: 2018-07
 name: Bitblockboom 2018
-Builder: 
-location: USA
+builder: Bitblockboom
+location: Dallas, USA
 language: 
- - en
+  - en
 links:
   website: https://bitblockboom.com/
   twitter: https://twitter.com/bitblockboom
 tag: 
-    - Bitcoiner
-    - General
+  - Bitcoiner
+  - General

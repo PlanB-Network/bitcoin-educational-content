@@ -1,9 +1,638 @@
 --- 
 name: Adopting Bitcoin 202
-Description: 
-  El‍ Salvador‍ is‍ the‍ first‍ country‍ to‍ adopt‍ Bitcoin,‍ making‍ it‍ the‍ ground-zero‍ for‍ global‍ Bitcoin‍ adoption.‍
-  
-  This‍ novel‍ situation‍ presents‍ both‍ the‍ challenge‍ of‍ onboarding‍ users‍ and‍ the‍ opportunity‍ to‍ learn‍ from‍ them,‍ benefiting‍ the‍ entire‍ ecosystem,‍ from‍ protocol‍ and‍ application‍ developers‍ to‍ entrepreneurs,‍ investors,‍ and‍ the‍ many‍ communities‍ around‍ the‍ world‍ that‍ followed‍ Bitcoin‍ Beach's‍ example‍ by‍ establishing‍ circular‍ Bitcoin‍ economies.‍ 
+description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption. This novel situation presents both the challenge of onboarding users and the opportunity to learn from them, benefiting the entire ecosystem, from protocol and application developers to entrepreneurs, investors, and the many communities around the world that followed Bitcoin Beach's example by establishing circular Bitcoin economies.
 --- 
 
-ASI0 did it before on anotehr brank / commit.
+# Blink Stage
+
+## Bitcoin is natural
+
+![video](https://www.youtube.com/watch?v=yr-KlqMSWNI&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE)
+
+Speaker: Charlie Stevens
+
+How Bitcoin can and will lead to the shift in our perspective of money, capital and investment to a longer term view, leading to a healthier, more mentally skilful global population. Why does bitcoin allow us to be ourselves. Using the Austrian Economics perspective.
+
+## Que es Bitcoin?
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=2)
+
+Speaker: Kevin Ayala
+
+Esta presentación,entregada en español para los locales, ayudará a responder preguntas de una forma visual y simple schoolofbitcoin.com es una educación en bitcoin que todos pueden entender
+
+## Stop orange-pilling your friends
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=3)
+
+Speaker: Cubby
+
+This talk will examine the phases of Bitcoin evangelism, talk about historical evangelism in a broad context, define subcultures, and make recommendations on who to approach and how to approach them. This will be more focused on Bitcoiners in years 4+ of their journey who have burned out talking to people they know, and who want to find people ready to receive the message. Focus: finding meaning, rejecting false prophets, and understanding how to craft virality and social change in a post-state future.
+
+
+
+## Get to Know Blink - The Everyday Bitcoin Wallet
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=4)
+
+Speaker: Andrew Begin
+
+Blink is a custodial Lightning wallet built for bottom-up Bitcoin adoption. It is designed to address the needs of communities around the world who use Bitcoin for everyday payments.
+
+
+## Technical talk about development of TorogozPay
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=5)
+
+Speaker: Torogoz Dev
+
+TorogozDev is a local program in El Salvador that aims to train developers in Bitcoin and Lightning, as well as identify problems and solve them through Bitcoin development. In 2023, Torogoz is working on the creation of its first project called TorogozPay. We would like to provide a technical explanation of how it was built. We hope that by November, the project will be completed with a significant percentage of progress in its development. The purpose is to encourage the creation of solutions using Bitcoin, and if possible, we will showcase a project demo.
+
+
+## Explicando Bitcoin para normies en Tiktok
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=6)
+
+Speaker: BTCAndres
+
+Así es como empecé a explicar a personas no técnicas, qué es bitcoin, donde comprarlo, como cuidarlo, en menos de un minuto, a gente que solo se interesaba sobre cRiPto.
+
+
+## This Bitcoin Course Will Orange-Pill Your Mom
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=7)
+
+Speaker: David da Silva Rosa
+
+How can we effectively educate ordinary people on how to protect their wealth and freedom with Bitcoin in the coming monetary reset? David da Silva Rosa shares a special announcement from My Bitcoin Academy (mybitcoin.academy).
+
+
+## The Balance of Bitcoin and Cacao
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=8)
+
+Speaker: Roger9000
+
+The Balance of Bitcoin and Cacao - A Bitcoin Chocolate Making Workshop in Bitcoin Country! El Salvador !! the heart of the Mythology of both Bitcoin and Cacao ! Bitcoin and Cacao are both Balancing, Heart Opening, and Self Love Generating. In this Bitcoin Chocolate Making Work shop we explore all the identical properties of Bitcoin and Cacao and the chocolate making experience including Duality, Alchemy, and the Mythology of Cacao and Bitcoin, and the Balance generated by both in the real world and within the individual. We talk about the chemical / health properties of the Super food Cacao and the Intent that is poured into your Chocolate and how this acts as an identification process for affirmation and Unconditional Acceptance of the Self and how this ultimately leads to Altruistic love for all those around us.
+
+
+## The Day After: Envisioning Stark Realities
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=9)
+
+Speaker: Bill Stebbins
+
+Many view bitcoin as a means of impregnable wealth preservation untouchable by state authorities and bypassing the need for “trusted” third party intermediation; a store-of-wealth “safe room” or “escape capsule” where one’s generational wealth can survive disruptive societal events from war to economic depression. Theoretically, bitcoin as an untouchable entity in cyberspace sanctuary could serve in this capacity, but applied within the thoroughly-considered context of such an event, could it function as anticipated? It can certainly protect wealth in instances of limited conflicts where, for example, refugees exfiltrate a troubled region, seed phrases in mind, and reconnect with their stack upon reaching safe jurisdiction. But what about larger global disruptions such as world war, nuclear war, or an extensive global fiat meltdown?
+
+
+## Operation Bitcoin
+
+![video](https://www.youtube.com/watch?v=HnZrkl9ZhqM&list=PLN2-dhqIYoj_tDxuQvowBnXs1-xliBJsE&index=10)
+
+Speaker: Gabe Lord
+
+Military veterans are finding a new mission in Bitcoin. OPERATION BITCOIN is bridging the gap between military service and the most important mission of our time.
+
+## Introducción a bitcoin autocustodia
+
+![video](https://www.youtube.com/watch?v=k74UXIRwKt8&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y)
+
+Speaker: Keith Mukai
+
+Una presentación en español (más o menos) por Keith Mukai, programador del proyecto SeedSigner (una billetera de hardware que es open source y puedes construir tú mismo).
+
+
+## Bitcoin Aligns Incentives
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=2)
+
+Speaker: Luke Broyles
+
+Luke Broyles presents the case as to why Bitcoin aligns the economic incentives of both the United States and El Salvador, in contrast to the current system where these two nations are not aligned.
+With an emphasis on the mission of Bitcoin and humanitarian impact, Luke explains how this is a paradigm shift for the coming decades and generations after us.
+Discussing the realities of self-interest with savings in Bitcoin along with the altruistic effort for helping people across the world with a low time preference.
+
+
+## Bitcoin Lake: Bitcoin Adoption in Guatemala
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=3)
+
+Speaker: Rudy, Eliazar
+
+“Lago Bitcoin (Bitcoin Lake) is regarded as one of the most successful Bitcoin adoption projects in the world.” Bitcoin Lake is a project located in the highlands of Guatemala. We have quickly become a highly recommended destination for Bitcoiners from around the world to come and see our focus on Bitcoin education, Orange pilling local businesses, and Bitcoin mining as a means to change the economic incentives associated with trash disposal with a portion of the proceeds going back into the community. This is our story of how it happened and how it is going. We will discuss our initial strategy for education and orange pilling business and how the realities on the ground changed our approach. We will discuss the challenges of building in a bear market and how this affected our Bitcoin mining initiative. We will also provide metrics of how the project has grown regarding bitcoin spent in the community since inception.
+
+
+## Bitcoin Yucatan: Orange pilling Mexico
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=4)
+
+Speaker: Daniel, Amanda, Mercedes
+
+The mission of Bitcoin Yucatan is to create a circular economy across Mexico's 130+ Pueblos Magicos across the country, beginning with the 7 Pueblos Magicos in the state of Yucatan.
+
+## The Great Parasite
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=5)
+
+Speaker: Micael Margiotta
+
+I want to present my new book in which i talk about the roots of our financial system. I tell the story of the US funding fathers and the war with the central bankers. I also explain how the fiat system works and why do we need bitcoin. I explain the dangers of falling into a surveillance state of CBDCs and social credit systems and how the Bitcoin network can help us to protects our natural rights. (Such as private property rights and free speach).
+
+## The Dollar Endgame
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=6)
+
+Speaker: Peruvian Bull
+
+The central banks are at a crossroads. After decades of zero bound interest rates and Quantitative Easing, debt levels domestically and worldwide have reached critical levels. As the money printing bonanza of 2020 comes home to roost, dark feedback loops lurk under the waters of our economy, foreboding of a future of extreme inflation and financial devastation. The Ships of State, unmoored from the tethers of hard money and taxation, have wandered into a debt-fueled maelstrom that threatens to destroy the very currencies we base our lives on. We are now entering a place from which few fiat monies have ever returned from alive.
+The Federal Reserve, the hegemon that runs the dollar-based global monetary system, is trapped in a black hole of it's own design. They believe they can save themselves, and the system. The terrifying truth is that we are not close to the event horizon- we're already past it. Only hard choices lie ahead. The Dollar Endgame approaches.
+
+
+## PathCoin: technical deep dive
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=7)
+
+Speaker: Adam Gibson
+
+The main stage presentation (at 1330 earlier in the afternoon) focused on what could be achieved in terms of trustless offline and offchain transactions using this "pathcoin" construct, leveraging MuSig+Schnorr with covenants.
+This second session actually explains how it works in detail in terms of Bitcoin Script and signature adaptors. This proper understanding will actually allow you to see (a) the true limitations and true potential of this design, and (b) hopefully inspire you to find ways to make it, or something similar, work better!
+
+## Onboarding to Bitcoin with Culture
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=8)
+
+Speaker: Francisco Chavarria
+
+Want to know how Yopaki and a group of bitcoiners pulled off projecting the bitcoin logo & Fix the money Fix the world on the Mexican Central Bank? Hear the ins & outs, share laughs, and learn the importance of culture.
+During this adventure (Mexico Bitcoin Block Party) an education announcement was made that will change the history of bitcoin education in Mexico and we believe we have the tools to crack the culture. To know what it is, come check out our fun announcement!
+
+
+## The Intersection of Bitcoin and Homeschooling
+
+![video](https://www.youtube.com/watch?v=Flk79rMHwMQ&list=PLN2-dhqIYoj9TwyrCB9VbdnGcTYXCf5_y&index=9)
+
+Speaker: Francisco Chavarria
+
+# Galoy Stage
+
+## Finance, in a Bitcoin Economy
+
+![video](https://www.youtube.com/watch?v=WpGIEH4g9NU&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4)
+
+Speaker: Asher Hopp
+
+The golden age of Bitcoin-denominated securities exchanges from 2011-2015 is an often overlooked, and controversial, part of our history. Prominent Bitcoin-denominated securities exchanges such as MPEx, GLBSE, Havelock, and BTCTC promised a future where entrepreneurs could raise capital in Bitcoin rather than dollars, and investors would be repaid in Bitcoin dividends. Ultimately these exchanges failed to deliver on their promise, but does that mean that the entire idea of Bitcoin-denominated capital formation should be abandoned?
+
+
+
+## Banking the Unbanked in Latin America
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=2)
+
+Speaker: Guillermo Contreras
+
+The right regulatory path and challenges of financially including the unbanked in El Salvador. Lessons learned along the way.
+
+
+## Banks without Bankers
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=3)
+
+Speaker: Eric Yakes
+
+Cryptography, incentives, and agency in a bitcoin financial system
+
+
+## Building mobile Lightning Wallets in 2023
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=4)
+
+Speaker: Kaloudis, Burtey, Hoenisch
+
+What is it like to build a mobile Lightning wallet in 2023?
+Node implementations are more mature and stable and easy-to-use libraries exist.
+However, releasing a new mobile Lightning wallet is not always a "breez", appstores might prevent developers from publishing their app and on-boarding new users has its own challenges.
+In this panel we discuss the state of the art of wallet development in 2023 and share experience from leading wallet developers in this space.
+
+
+## Building tools for the bitcoin journey
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=5)
+
+Speaker: Nicolas Burtey
+
+The “why” of the blink API
+
+
+## Building self-custodial lightning products
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=6)
+
+Speaker: Evan Kaloudis
+
+An overview of building self-custodial lightning wallet and products; challenges, opportunities, lessons, and what we're building with ZEUS.
+
+
+## Bootstrapping Bitcoin Development in El Salvador
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=7)
+
+Speaker: Ajelex, Rodrigo, Quezada, Villalobos
+
+To accelerate Bitcoin adoption in El Salvador, the Bitcoin Office and Fulgur Ventures collaborated to create Cubo+, a program designed to educate both young and experienced Salvadoran developers. The aim is to equip them with the knowledge and skills required to actively contribute to the Bitcoin ecosystem.
+Cubo+ brings together educators from around the world to mentor and train a new wave of Salvadoran Bitcoin developers. After an extensive selection process, 21 students were chosen from hundreds of applicants to embark on their journey in Bitcoin development. Their initiation began with online classes to ensure a strong foundation, culminating in an intensive one-month Bootcamp in July in El Salvador. During this Bootcamp, international teachers flew in to provide in-person instruction, resulting in the successful graduation of students equipped with the essential skills to actively engage in Bitcoin ecosystem projects.
+
+
+## Smart Bitcoin is here - The Power of Miniscript
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=8)
+
+Speaker: Augusto Lara
+
+Discover how Miniscript enables the next generation of smart wallets by letting you control who, how, and when your bitcoin is accessed. Let's explore its impact on security, recoverability, and innovative use cases.
+
+
+## Does Bitcoin Need Covenants?
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=9)
+
+Speaker: Brandon Black
+
+The future of bitcoin is bright because bitcoin is for everyone. If only that were true. As it stands (even with the lightning network) bitcoin is for about 100 million people. With covenants bitcoin will truly be for everyone.
+
+
+## Is Bitcoin decentralized enough?
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=10)
+
+Speaker: Zucco, Atack, Pouliot
+
+Bitcoin's unique properties are thanks to its decentralized nature. The nodes - miners - development triangle is decentralized, but are these areas decentralized themselves? How much decentralization is necessary in each? While any pleb can run a node and StratumV2 is around the corner to mitigate mining centralization, what, if any, improvements are necessary to preempt centralization in Bitcoin Core development? A critical look at Bitcoin's fundamentals.
+
+## Bitcoin Offshoring - Be Your Own Offshore Bank
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=11)
+
+Speaker: Dr. Ulrich Eder
+
+Offshoring Bitcoin may sound counterintuitive, but given the state of surveillance, prohibition, excessive taxation and sanctions, it is of great importance.
+
+
+## Standard of Contract: The Fourth Function of Money
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=12)
+
+Speaker: Dirac Delta
+
+The three function model of money is store of value, medium of exchange, and unit of account, plus the meme that monetization goes in that order. However, prior to this perspective, William Jevons, one of the three men behind the marginal revolution in economics, wrote in 1875 about the four primary monetary functions: what is now called unit of account comprised both measure and standard of value. Money is the tool that emerged to solve the double coincidence of wants problem, but it also solves the double coincidence of future wants problem, and in this regard, bitcoin's adoption is not only near zero, it is actually where volatility concerns are logical. However, just like an individual can have a fraction of their holdings in bitcoin, unlike medium of exchange where it would be nonsensical, tools will emerge that enable fractional value standards across a variety of contracts, and the global use of the bitcoin standard will finally get off zero.
+
+
+## The Top 5 Mistakes of Bitcoin Self Custody
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=13)
+
+Speaker: Juan Galt
+
+
+## Bitcoin and the Education System
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=14)
+
+Speaker: Jebs Wegmann
+
+A talk why the education system is the way it is and about how Bitcoin could disrupt the educational sector. The future is decentralized – for schools too!
+
+
+## The Renaissance of Free Banking
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=15)
+
+Speaker: Hubertus Hofkirchner
+
+Today we have a highly fragile banking system: fiat-based, loosely limited by fractional reserve requirements, heavily regulated and subject to government interventionism. It is a house of cards where even second tier banks are considered system-relevant and require bailouts. Recent advances on the legal and technical fronts allow us to think about a radically different system: a Bitcoin-based full reserve banking system under standard commercial law and strictly separated from the state.
+
+
+## Bitcoin FilmFest
+
+![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=15)
+
+Speaker: Bitcoin FilmFest
+
+Bitcoin's Filmmakers on the long sofa to share what goes into creating films that reach hearts and minds worldwide.
+
+
+## Preparing to scale for the next bull run
+
+
+![video](https://www.youtube.com/watch?v=_HaebW0hl6E&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4)
+
+Speaker: Amir Edjlali
+
+Gain insight into the perspective of Coinbase's Head of Product Compliance Strategy. Learn how the current crypto winter has influenced the approach to preparing for the next bull run.
+
+
+## Safeguarding elections information using Bitcoin
+
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=2)
+
+Speaker: Todd, Cordon
+
+Guatemala recently used the Bitcoin blockchain to safeguard all the official vote tally sheet images. Rafa and Peter tell the story of how it happened.
+
+
+## Sound Regs: Legal Framework for companies in ESA
+
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=3)
+
+Speaker: Jose Rodriguez
+
+The bold move to adopt Bitcoin as legal tender in El Salvador now presents tremendous opportunities for companies to thrive and scale. Learn how to engage in an empowering regulatory framework for BTC ventures and how to benefit from becoming a compliant regulated entity with tax-free conditions when domiciled in El Salvador. Regulatory harmony has never been so sound for Bitcoin companies.
+
+
+## Volcano Energy: Renewable Energy and Bitcoin Mining
+
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=4)
+
+Speaker: Martinez, Lopez
+
+Volcano Energy: the first Salvadoran Bitcoin Mining company, vertically integrating with renewable energy production: Wind, Solar and Geothermal.
+
+
+## Bitcoin and Open-Source AI
+
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=5)
+
+Speaker: Charles Lesieur
+
+Introduction to open-source AI and its benefits
+The benefits of the symbiotic relationship between open-source AI and Bitcoin
+How this relationship helps create a more equitable society
+
+
+## Bitcoin meets AI
+
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=6)
+
+Speaker: Svetski
+
+Is AI really a threat, or is it just another tool?
+Will AGI take over, or is that just a red herring?
+What happens when Bitcoin meets AI?
+What would Satoshi be, do and say if he was an AI?
+Join Svetski & The Spirit of Satoshi to discuss each of these questions and more
+
+
+## Decentalised exchanges on Lightning with RGB
+
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=7)
+
+Speaker: Federico Tenga
+
+The talk will provide an overview on how RGB can be used to move stablecoins and generic assets on top of the Lightning Network and how it can be leveraged to create truly decentralised exchanges.
+
+
+## PathCoin and the Cypherpunk Dream
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=8)
+
+Speaker: Adam Gibson
+
+The dream: to be able to pay someone bitcoin without any connection to them, or others, or to the bitcoin network. You want to literally pay someone by handing over a piece of paper, or a usb stick. Opendime did this with a hardware anti-tamper feature, but let's say we never trust hardware. Can we do it? PathCoin is a way to do it in a very limited way. With a small not-too-technical demonstration and explanation, I hope you will be inspired to think about it more deeply, and engineers and other thinkers can come to the deep dive investigation later in the afternoon.
+
+
+## The future of the non-custodial Bitcoin exchange experience
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=9)
+
+Speaker: Pouliot
+
+Exploring a standard for fostering Bitcoin and Lightning self-custody by integrating Bitcoin wallet, Lightning LSP and fiat exchange function within a single integrated user experience.
+
+
+## Sovereign Data Peer to Peer
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=10)
+
+Speaker: James Littlejohn
+
+As bitcoiners we have financial sovereignty but what about the data we use in the rest of our lives? From wearable devices to inputs into Large Language Models we give away data. This talk is about peer to peer data technologies: devices to datastores, networks to applications that can take us on the path to sovereign data.
+
+
+## Ordinal are reshaping Bitcoin
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=11)
+
+Speaker: Gallas, Lightrider, Raph, Skandera
+
+Ordinals have taken a central stage in conversations in February, polarized Bitcoin community and angered sound-money advocates whilst inviting a swath of individuals to join the new wave of experimentation. We will review the history, recent updates and look forward to what it can do in terms of Bitcoin native decentralized finance, art movements and cultural developments as well as addressing its challenges with chainstate / UTXO set growth.
+
+## Chain Duel: Building Lightning Games
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=12)
+
+Speaker: Francis Mars
+
+Chain Duel is a Lightning-native game that combines the timeless appeal of the classic Snake game with the world of competitive gaming and Bitcoin.
+
+
+## Satograms - Message the Entire Lightning Network
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=13)
+
+Speaker: BitcoinCoderBob
+
+Satograms enable anyone to message thousands of lightning nodes and wallets. Find out how we are changing the incentive model for spam messaging and how they work under the hood.
+
+
+## Decentralized Engagement with Lightning Rewards
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=14)
+
+Speaker: Nelson Inno
+
+Decentralized Engagement is a new marketing mechanic to stimulate a circular economy of satoshis by distributing rewards to users who participate in doing qualitative tasks for their favorite projects.
+
+## Legends of Lightning Pitch Presentation
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=15)
+
+Speaker: Unknown
+
+Conclusion of the Salvadoran Satellite for the Legends of Lightning Hackathon with a Pitch Presentation by participating teams.
+
+
+## Chain Duel Tournament
+
+![video](https://www.youtube.com/watch?v=kvtVtZX-SeY&list=PLN2-dhqIYoj9Rd6MP1V3s4iuPNKUAegX4&index=16)
+
+Speaker: Unknown
+
+
+# Bitfinex Stage
+
+## Opening Remarks
+
+![video](https://www.youtube.com/watch?v=nfDofHs_O5o&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y)
+
+Speaker: Javier Bastardo
+
+Conclusion of the Salvadoran Satellite for the Legends of Lightning Hackathon with a Pitch Presentation by participating teams.
+
+
+## A Salvadorian story: From attendee to AB speaker
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=2)
+
+Speaking: Reyna Chicas
+
+AB 2022 had a shift on my mind about the Bitcoin movement happening in El Salvador, I decided to participate and get involved more in Bitcoin education because I recognized that my country had a unique opportunity and I wanted to see more Salvadorans involved in the process. I knew I had to do my part and share more, do more and so I would also like to explain how even though, I thought I didn't have any skills I could help with, still, I was able to use some of my "fiat world jobs" experience and with fear and everything it has helped me to become a bitcoin educator, to say yes to go to Lago Bitcoin in Guatemala and be the first international teacher from MPB El Salvador. To now also be part of the board of directors to help impulse bitcoin education in my own country and empower more Salvadoreans to do so.
+
+
+## Salvadoran's perception of Bitcoin after 2 years
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=3)
+
+Speaker: Alejandra Guarjado
+
+After my participation in Miss Universe 2022 I decided to continue my work as an ambassador for El Salvador and for Bitcoin. My work consists largely of meeting and talking to people both internationally and in El Salvador. I decided to document 100 of these conversations with everyday Salvadorans by recording their answer to the question: What does Bitcoin mean to you?
+
+## Bitcoin as an International Asset
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=4)
+
+Speaker: Niko Jilch
+
+El Salvador is the first country to make Bitcoin legal tender. But there are other ways of adopting what Blackrock’s Larry Fink calls an „international asset“. Financial journalist and podcaster Niko Jilch looks at the way governments, corporations and central banks are approaching handling the emergence of the best money humanity has ever seen.
+
+
+## Towards Circularity: Paying the Supplier
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=5)
+
+Speaker: Burtey, Noor, Dismo
+
+In a major advancement for Bitcoin adoption, Blink Wallet (formerly known as Bitcoin Beach Wallet) and Dismo, the second-largest distributor in El Salvador, are thrilled to announce their groundbreaking partnership. As a part of this initiative, the Blink Wallet has already been successfully rolled out to 20 vendors who, beyond simply accepting Bitcoin, are now incentivized to pay their bills to Dismo with Bitcoin.
+
+
+## Freedom or Control?
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=6)
+
+Speaker: Paolo Ardoino
+
+We are not monsters. We are just ahead of the curve.
+
+
+## I came for Democracy but stayed for Bitcoin
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=6)
+
+Speaker: Carliño, Ed
+
+Digital Witness, a loose translation from what is known in Guatemala as FiscalDigital.net, is a crowdsourced verification of the Guatemalan voting system through a CAPTCHA-like OCR game. It leverages on-chain Bitcoin through the Open Timestamps (OTS) protocol and the lightning network via earned rewards through Stakwork. Thousands of n00bs, mostly in Guatemala, created millions of data points that can be cryptographically linked back to official elections documents. In this way, an independent citizen audit was run by the educational non-profit FundacionHCG.org to confirm whether the elected authorities awarded the correct winners in an election with over 25 million votes cast. Instead of trusting the elections authorities, together we verify every vote. Perhaps a new generation of bitcoiner can be born, one that came for the democracy…but stayed for Bitcoin.
+
+
+## 1 LN node, 1 ATM, 1 school in el Salvador
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=7)
+
+Speaker: Rogzy
+
+Our company (DB) with cubo+ is helping the ministry of education and bitcoin office to set up 1 LN node, 1 LN ATM, 1 hardware wallet in every school of the country. This is the way to create a strong LN infrastructure and educational base layer for el salvadorien
+
+
+## The Bitcoin Association of El Salvador
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=9)
+
+Speaker: Will Hernandez
+
+Presentation of The Bitcoin Association of El Salvador, benefits, the experience of its members, activities, services provided, key partnerships, and its global reach.
+
+## Bitcoin Adoption in LATAM beyond El Salvador
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=9)
+
+Speaker: Ho, Peterson ,Eliazar
+
+Latin America is a region of great potential. However, bad politicians and leaders have implemented dubious economic policies throughout the decades leaving millions of Latin Americans in poverty, no access to the banking system and no savings. Bitcoin can solve many of the problems facing the region but its penetration is low due to lack of understanding of the technology and perceived volatility.
+
+
+## Bitcoin and Psychedelics
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=10)
+
+Speaker: Ioni Appelberg
+
+Bitcoin is to the economy what psychedelics are for the mind. Discover the striking similarities between bitcoin and psychedelics. Explore how bitcoin catalyzes a hyperconnected economy, mirroring the mind-expanding effects of psychedelics. Discover how both expose inherent flaws and foster transformative potential. Learn how bitcoin is a non-chemical psychedelic for individuals and society alike.
+
+
+## Who are the Bitcoin generation?
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=11)
+
+Speaker: Samantha de Waal
+
+Did you first interact with Bitcoin as a young adult? Or maybe as a teenager? How about as a newborn?
+Who are the Bitcoin generation and what do the rest of you need to know about us?
+
+
+## The Bitcoin miracle at Virunga
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=12)
+
+Speaker: Sébastien Gouspillou
+
+The Screening of a mini-documentary on the Virunga Park, its hydroelectric project and the unexpected role of Bitcoin mining there. Then, a presentation from Sébastien Gouspillou of some data that shows that Africa has the potential of becoming a major mining spot, especially with hydro.
+
+
+## Financial Inclusion: A Pathway to Economic Freedom
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=14)
+
+Speaker: Dejan Roljic
+
+Addressing global financial challenges, Bitcoin offers solutions bridging traditional & decentralized systems. Financial inclusion boosts economies. NAKA's mission: universal financial freedom.
+
+
+## Anuncio Bitcoin ATMs con Lightning Network
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=15)
+
+Speaker: Matias Golderhörn
+
+Athena Bitcoin como una de las compañías mas grandes de Bitcoin ATMs del mundo, desea anunciar oficialmente la compatibilidad de Lightning Network con nuestra red de ATMs en El Salvador. Ahora los usuarios podrán realizar retiros de efectivo instantáneos, utilizando la tecnología y ventajas de la Lightning Network, un anuncio que marcara un impulso importante en la adopción de Bitcoin en el país.
+
+
+## A New Era of Bitcoin Creators
+
+![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=16)
+
+Speaker: Julian Figueroa
+
+How can we reach future Bitcoiners in a more engaging, creative way? Can we improve the way we "orange-pill" by storytelling in new mediums? And can we help successful creators sustain and challenge themselves to go beyond?
+
+# NAKA Stage
+
+## Teaching Bitcoin and Lightning through Games
+[video](https://www.youtube.com/watch?v=-J8TqUXgRoE&list=PLN2-dhqIYoj9ngqqB72myIsRmj5s1nyS_)
+
+Speaker: Scott Lindberg
+
+Frustrated with challenges reaching your pre-coiner loved ones? The focus of this presentation is how the experiential nature of tabletop games helps bridge the adoption gap by simplifying concepts for kids and adults.
+
+## BTC MAP - Merchant Adoption
+
+[video](https://www.youtube.com/watch?v=4Qh7HIumiUo&list=PLN2-dhqIYoj9ngqqB72myIsRmj5s1nyS_&index=2)
+
+Speaker: Nathan Day
+
+Nathan Day (BTC Map Co-founder) will present the current state of merchant adoption globally. Nathan will also tell the story of the work that was undertaken over the past 12-months to cleanse the global dataset and engage with communities across the planet.
+
+(this is not yet finished...)

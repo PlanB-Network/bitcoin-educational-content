@@ -134,7 +134,7 @@ Chaque transaction Bitcoin est donc constituée d'une ou de plusieurs entrées (
 
 **> Le saviez-vous ?** Théoriquement, une transaction bitcoin pourrait avoir une infinité d'inputs et d'outputs. Seule la taille maximum d'un bloc vient limiter ce nombre.
 
-Chaque input dans une transaction Bitcoin fait référence à un UTXO antérieur non dépensé. Pour utiliser un UTXO comme input, son détenteur doit démontrer qu'il en est le propriétaire légitime en validant le script qui lui est associé, c'est-à-dire, en satisfaisant la condition de dépense imposée. Généralement, cela nécessite la fourniture d'une signature numérique produite avec la clé privée correspondant à la clé publique qui avait initialement sécurisé cet UTXO. Le script consiste donc à vérifier que la signature correspond bien à la clé publique utilisée lors de la réception des fonds.
+Chaque input dans une transaction Bitcoin fait référence à un UTXO antérieur non dépensé. Pour utiliser un UTXO comme input, son détenteur doit démontrer qu'il en est le propriétaire légitime en validant le script qui lui est associé, c'est-à-dire, en satisfaisant la condition de dépense imposée. Généralement, cela revient à fournir une signature numérique produite avec la clé privée correspondant à la clé publique qui avait initialement sécurisé cet UTXO. Le script consiste donc à vérifier que la signature correspond bien à la clé publique utilisée lors de la réception des fonds.
 
 ![BTC204](assets/fr/13.webp)
 

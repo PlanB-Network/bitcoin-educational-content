@@ -1,74 +1,115 @@
 # PlanB Content Repo Documentation
 
-The documentation would help you explain: 
-- the purpose of the repo
-- how to contribute
-- the repo hierarchy 
-- the expected format for each different type of content:
-    - courses
-        - [course.yml` format](./course_yml_format.md)
-        - [`language_code.md` format](./course_language_format.md)
-    - tutorials
-        - [tutorial.yml` format](./tutorial_yml_format.md)
-        - [`language_code.md` format](./tutorial_language_format.md)
-    - resources
-        - books
-            - [book.yml` format](./book_yml_format.md)
-            - [`language_code.yml` format](./book_language_format.md)
-        - builders
-            - [builder.yml` format](./builder_yml_format.md)
-            - [`language_code.yml` format](./builder_language_format.md)
-        - conferences
-            - [conference.yml` format](./conference_yml_format.md)
-            - [`language_code.yml` format](./conference_language_format.md)
-        - podcasts
-            - [podcast.yml` format](./podcast_yml_format.md)
-            - [`language_code.yml` format](./podcast_language_format.md)
+This documentation aims to facilitate efficient and effective participation in the PlanB Content Repository, ensuring the availability of high-quality, accessible educational resources on Bitcoin.
+It covers the following aspects:
 
-# Why a PlanB Content Repo? 
+- [Purpose](#purpose)
+- [Repository Hierarchy](#repository-hierarchy)
+- [Expected Format for Different Types of Content](#expected-format-for-different-types-of-content)
+- [How to Contribute](#how-to-contribute)
 
-- Bitcoin is a revolutionizing technology but there's a ton of things to understand and/or to learn good practices, handy software and hardware to fully adopt it
-- Your time is precious, so why not using, contributing and sharing a single location that contains virtually all you need and should know about Bitcoin, high-quality and opensource educational resources from beginner to expert; one repo, thousands of contributors.
-- Language should not be an entry barrier, any piece of content that should be translated would be translated. For the moment, the PlanB content is present in the following languages:
-    - English
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-        - [Website](https://planb.network/en)
-    - French
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-        - [Website](https://planb.network/en)
-    - Italian
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-        - [Website](https://planb.network/en)
-    - German
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-        - [Website](https://planb.network/en)
-    - Spanish
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-        - [Website](https://planb.network/en)
-    - Portuguese
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-        - [Website](https://planb.network/en)
-    - Japanese
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-    - Arabic
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-    - Danish
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-    - Polish
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-    - Finnish
-        - [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-    - ... 
+## Purpose
 
-# How to contribute
+The PlanB Content Repo is designed to serve as a centralized hub for high-quality educational resources related to Bitcoin. Its key objectives include:
 
-- best way to contribute is to review the content directly here in the GitHub repo
-    - reviewing include
-        - correcting typos
-        - rephrases some part of a content for clarity or because an error is present
-        - reviewing the automated translation of a content (cf. here for a step-by-step tutorial for that task)
-    - add new piece of content in the repo
-        - to help you out we have a proper tutorial about it (cf. see directly on our website, or in the GitHub repo)
-- if you want to contribute to the open-source project under the PlanB Website you should go here
+- Facilitating understanding and adoption of Bitcoin technology.
+- Providing access to a wide range of educational materials, software, and hardware recommendations.
+- Enabling contribution and collaboration from a diverse community of users and developers.
+- Breaking down language barriers to ensure accessibility and inclusivity. For a list of supported languages, refer to the [Supported Languages](#supported-languages) section below.
 
+## Supported Languages
+
+The PlanB content is available in the following languages:
+
+- Arabic: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/16)
+- Danish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/24)
+- English: [Website](https://planb.network/en), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/21)
+- Finnish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/32)
+- French: [Website](https://planb.network/fr), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/13)
+- German: [Website](https://planb.network/de), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/17)
+- Italian: [Website](https://planb.network/it), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
+- Japanese: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/15)
+- Polish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/34)
+- Portuguese: [Website](https://planb.network/pt), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/20)
+- Spanish: [Website](https://planb.network/es), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/18)
+- Thaï: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/30)
+
+**If your language is not listed here, please suggest it by opening an issue.**
+
+
+## Repository Hierarchy
+
+The repository is organized according to the following hierarchy:
+
+- [Courses](./course_documentation.md): Course content are stored here and must respect some format specification 
+- [Tutorials](./tutorial_documentation.md): Tutorials are stored in categories and must respect some format specification
+- [Resources](./resource_documentation.md): Four type of resources (book, builder, conference, and podcast) are stored here and each of them has their own set of format specification 
+- [Exam](./exam_documentation.md): Exams and quizzes are stored here, and each of them has their own set of format specification
+- [Standards](./standard_documentation.md): standards are stored here and must respect some format specification
+
+For general aspect and specification that are used throughout the entire repo, please refere to the guidelines provided [here](./format_guidelines.md)
+
+
+Here's a visual representation of it:
+
+```
+root/
+│
+├── courses/
+│   ├── course101/
+│   └── ...
+│
+├── tutorials/
+│   ├── exchange/
+│   │   ├── tutorial101/
+│   │   └── ...
+│   ├── merchant/
+│   ├── node/
+│   ├── wallet/
+│   └── other/
+│
+├── resources/
+│   ├── books/
+│   │   ├── book-eg/
+│   │   └── ...
+│   ├── builders/
+│   │   ├── builder-eg/
+│   │   └── ...
+│   ├── conferences/
+│   │   ├── conference-eg/
+│   │   └── ...
+│   └── podcasts/
+│       ├── podcast-eg/
+│       └── ...
+│
+├── exams/
+│   └── ...
+│
+└── standards/
+    └── ..
+
+```
+
+## Expected Format for Different Types of Content
+
+Detailed specifications for the format of each content type are provided in separate documents:
+
+- For courses, refer to the [Course Documentation](./course_documentation.md).
+- For tutorials, refer to the [Tutorial Documentation](./tutorial_documentation.md).
+- For books, refer to the [Book Documentation](./book_documentation.md).
+- For builders, refer to the [Builder Documentation](./builder_documentation.md).
+- For conferences, refer to the [Conference Documentation](./conference_documentation.md).
+- For podcasts, refer to the [Podcast Documentation](./podcast_documentation.md).
+- For exams, refer to the [Exam Documentation](./exam_documentation.md).
+- For standards, refer to the [Standards Documentation](./standards_documentation.md).
+
+## How to Contribute
+
+Contributions to the PlanB Content Repo are encouraged and welcomed. Here's how you can contribute effectively:
+
+- **Reviewing Content**: Directly review content within the GitHub repository. This can involve tasks such as correcting typos, clarifying content, or reviewing automated translations. Refer to [this tutorial](./review_tutorial.md) for detailed instructions on the reviewing process.
+- **Adding New Content**: If you wish to add new content to the repository, refer to our [tutorial](https://planb.network/en/tutorials/others/planb-content-production) for step-by-step guidance. Alternatively, you can find instructions on our website or within the GitHub repository.
+- **Contributing to the PlanB Website**: For contributions specifically related to the PlanB website, please refer to the [corresponding repo](https://github.com/DecouvreBitcoin/sovereign-university)
+
+---
 

@@ -2,6 +2,8 @@
 name: Contribution - Obsidian
 description: Comment contribuer à PlanB Network avec GitHub et Obsidian ?
 ---
+![cover](assets/cover.jpeg)
+
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, offrant ainsi la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
 Si vous désirez apporter votre pierre à l'édifice PlanB Network, mais que vous ne vous sentez pas à l'aise avec l'utilisation de GitHub, ce tutoriel est conçu spécialement pour vous. Nous allons voir en détail comment contribuer à PlanB Network via GitHub, tout en utilisant Obsidian, un outil conçu pour faciliter la rédaction.

@@ -323,7 +323,7 @@ Performing a coinjoin via Whirlpool requires that the application used be active
 
 A detailed tutorial is in preparation to guide you step by step through the process of coinjoining with Samourai Wallet and RoninDojo v2, from A to Z.
 
-For a deeper understanding of coinjoin and its use on Bitcoin, I also invite you to consult this other article: [Understanding and using coinjoin on Bitcoin](https://planb.network/tutorials/privacy/coinjoin), where I detail everything you need to know about this technique.
+For a deeper understanding of coinjoin and its use on Bitcoin, I also invite you to consult this other article: [Understanding and using coinjoin on Bitcoin](https://planb.network/tutorials/privacy/coinjoin-dojo), where I detail everything you need to know about this technique.
 ### Using Whirlpool Stat Tool (WST)
 
 After performing coinjoins with Whirlpool, it's useful to precisely evaluate the privacy level achieved for your mixed UTXOs. To do this, you can use the Python tool *Whirlpool Stat Tool*. This tool allows you to measure both the prospective and retrospective scores of your UTXOs, while analyzing their diffusion rate in the pool.

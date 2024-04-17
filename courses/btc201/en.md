@@ -31,7 +31,7 @@ Examples from across the globe and from all walks of life
 
 Requirements: A passion for learning
 
-This course has been offert and sponsord by TETHER
+This course has been sponsored by TETHER
 
 +++
 

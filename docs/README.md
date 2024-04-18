@@ -34,8 +34,8 @@ The PlanB content is available in the following languages:
 - Spanish: [Website](https://planb.network/es), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/18)
 - Thaï: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/30)
 
-**If your language is not listed here, please suggest it by opening an issue.**
-
+**If your language is not listed here, please suggest it by opening an [issue](https://github.com/DecouvreBitcoin/sovereign-university-data/issues/new).**
+As we believe in the [value-4-value model](./value-4-value-model.md), we are always looking for contributors that are willing to review content in exchange of some sats (and knowledge). 
 
 ## Repository Hierarchy
 

@@ -53,7 +53,7 @@ For general aspect and specification that are used throughout the entire repo, p
 Here's a visual representation of it:
 
 ```
-root/
+sovereign-university-data/
 │
 ├── courses/
 │   ├── course101/
@@ -110,6 +110,8 @@ Contributions to the PlanB Content Repo are encouraged and welcomed. Here's how 
 - **Reviewing Content**: Directly review content within the GitHub repository. This can involve tasks such as correcting typos, clarifying content, or reviewing automated translations. Refer to [this tutorial](./review_tutorial.md) for detailed instructions on the reviewing process.
 - **Adding New Content**: If you wish to add new content to the repository, refer to our [tutorial](https://planb.network/en/tutorials/others/planb-content-production) for step-by-step guidance. Alternatively, you can find instructions on our website or within the GitHub repository.
 - **Contributing to the PlanB Website**: For contributions specifically related to the PlanB website, please refer to the [corresponding repo](https://github.com/DecouvreBitcoin/sovereign-university)
+
+If you have any questions or remarks, feel free to join our [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) and be part of the PlanB Content Builders 🤙 
 
 ---
 

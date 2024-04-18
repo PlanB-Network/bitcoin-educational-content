@@ -27,9 +27,9 @@ btc101/
 ```
 
 Here we used the course BTC101 as an example. This folder "btc101" contains : 
-- a [yaml file](#Yaml course file) which describes the course 
-- several language specific [markdown files](#Markdown course files) that contains the written courses
-- an [assets folder](#Assets course folder) that contains all the images used in the course
+- a [yaml file](#yaml-course-file) which describes the course 
+- several language specific [markdown files](#markdown-course-files) that contains the written courses
+- an [assets folder](#assets-course-folder) that contains all the images used in the course
 
 ## Yaml course file
 

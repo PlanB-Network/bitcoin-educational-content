@@ -1,3 +1,7 @@
+--- 
+name: Adopting Bitcoin 202
+description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption. This novel situation presents both the challenge of onboarding users and the opportunity to learn from them, benefiting the entire ecosystem, from protocol and application developers to entrepreneurs, investors, and the many communities around the world that followed Bitcoin Beach's example by establishing circular Bitcoin economies.
+--- 
 # Blink Stage
 
 ## Bitcoin is natural 

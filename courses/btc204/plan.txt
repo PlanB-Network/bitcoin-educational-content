@@ -6,7 +6,7 @@ Partie 1 - Introduction
         | Section 2 : Comprendre l'analyse de chaîne et savoir s'en protéger
         | Section 3 : Maîtriser les bonnes pratiques pour protéger sa vie privée
         | Section 4 : Comprendre et utiliser les transactions coinjoin
-        | Section 5 : Connaître les enjeux des autres techniques de confidentialité avancées
+        | Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées
         | Section Bonus : La privacy sur le Lightning Network
 
 Partie 2 - Définitions et concepts clés
@@ -19,8 +19,10 @@ Partie 2 - Définitions et concepts clés
         | Les frais de transaction
         | La création des UTXOs sur Bitcoin
         | Les implications du modèle d'UTXO
-    Chapitre 3 - Les scripts Bitcoin
-    Chapitre 4 - Le modèle de confidentialité de Bitcoin
+    Chapitre 3 - Le modèle de confidentialité de Bitcoin
+        | La monnaie : authenticité, intégrité et double dépense
+        | La prévention de la double dépense sur Bitcoin
+        | Le modèle de confidentialité : système bancaire vs. Bitcoin
 
 Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
     Chapitre 1 - C'est quoi l'analyse de chaîne sur Bitcoin ?
@@ -45,7 +47,7 @@ Partie 5 - Comprendre et utiliser les transactions coinjoin
     Chapitre 4 - Comprendre et utiliser Whirlpool
     Chapitre 5 - Les ensembles d'anonymat et l'entropie
 
-Partie 6 - Connaître les enjeux des autres techniques de confidentialité avancées
+Partie 6 - Connaître les enjeux d'autres techniques de confidentialité avancées
     Chapitre 1 - Les transactions payjoin
     Chapitre 2 - Les transactions spécifiques Samourai
     Chapitre 3 - Les transferts secret de propriété

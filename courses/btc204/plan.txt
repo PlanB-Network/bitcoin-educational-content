@@ -22,7 +22,7 @@ Partie 2 - Définitions et concepts clés
     Chapitre 3 - Le modèle de confidentialité de Bitcoin
         | La monnaie : authenticité, intégrité et double dépense
         | La prévention de la double dépense sur Bitcoin
-        | Le modèle de confidentialité : système bancaire vs. Bitcoin
+        | Le modèle de confidentialité : système bancaire vs Bitcoin
 
 Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
     Chapitre 1 - C'est quoi l'analyse de chaîne sur Bitcoin ?

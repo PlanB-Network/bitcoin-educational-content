@@ -64,7 +64,7 @@ with $R$ the reward, $B$ the base fee (currently 2,500 sats), $U$ the review urg
 | Dutch      | NL            | 1.5               |           Not yet created              |
 | Greek      | EL            | 2.5               |           Not yet created              |
 | Hindi      | HI            | 3.0               |           Not yet created              |
-| Polish     | PL            | 2.0               | `finnish-translation-and-review`       |
+| Polish     | PL            | 2.0               | `polish-translation-and-review`       |
 | Swahili    | SW            | 2.5               | `swahili-translation-and-review`       |
 | Afrikaans  | AF            | 2.5               | `afrikaans-translation-and-review`     |
 | Turkish    | TR            | 3.0               |           Not yet created              |

@@ -2,7 +2,7 @@
 name: Remix - Whirlpool
 description: ¿Cuántas remezclas deben hacerse en Whirlpool?
 ---
-![portada remix- wp](assets/cover.jpeg)
+![portada remix- wp](assets/cover.webp)
 
 > *"Rompe el vínculo que tus monedas dejan atrás"*
 

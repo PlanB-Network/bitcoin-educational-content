@@ -4,7 +4,7 @@ name: BitBox02
 description: Configuração e uso de um BitBox02
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 O BitBox02 (https://bitbox.swiss/) é uma carteira física fabricada na Suíça, projetada especificamente para proteger seus Bitcoins. Algumas de suas principais características incluem backup e restauração fáceis usando um cartão microSD, design minimalista e discreto e suporte abrangente para Bitcoin.
 

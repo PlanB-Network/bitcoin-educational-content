@@ -3,7 +3,7 @@ name: Noeud Bitcoin Core  (linux)
 description: Faire tourner son propre nœud avec Bitcoin Core
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 # Faire tourner son propre nœud avec Bitcoin Core
 

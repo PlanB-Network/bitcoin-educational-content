@@ -4,7 +4,7 @@ name: Sparrow
 description: Guía completa sobre Sparrow
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 ## Una serie de videos que cubren la Cartera de Bitcoin Sparrow. Guías para principiantes y usuarios más avanzados.
 

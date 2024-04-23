@@ -4,7 +4,7 @@ name: Specter
 description: Guide zur Einrichtung von Specter
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Für weitere Informationen finden Sie alle ihre Dokumentation auf ihrer Website https://docs.specter.solutions/desktop/
 

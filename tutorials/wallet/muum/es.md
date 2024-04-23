@@ -4,7 +4,7 @@ name: Muum
 description: Configuración de tu billetera Muum
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 Muun (https://muun.com/) es una billetera auto custodiada para bitcoin y lightning.
 

@@ -4,7 +4,7 @@ name: Blue Wallet
 description: Carteira Bitcoin Radicalmente Simples e Poderosa
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 A Blue Wallet é uma carteira de código aberto para Bitcoin que é extremamente fácil de usar, mas ainda assim flexível.
 

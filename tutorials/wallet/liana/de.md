@@ -4,7 +4,7 @@ name: Liana
 description: Anleitung zur Einrichtung Ihrer Liana Wallet
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Der Sicherheitsnetz für Ihre Coins, Liana ist eine einfache Bitcoin-Wallet, die On-Chain-Zeitschlösser verwendet, um Sicherheit und Wiederherstellung zu gewährleisten.
 

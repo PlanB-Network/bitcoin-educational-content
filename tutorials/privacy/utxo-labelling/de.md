@@ -2,7 +2,7 @@
 name: UTXO-Kennzeichnung
 description: Wie kennzeichnet man seine UTXOs korrekt?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 In diesem Tutorial erfahren Sie alles, was Sie über die Kennzeichnung von UTXOs in Ihrer Bitcoin-Wallet und über Coin Control wissen müssen. Wir beginnen mit einem theoretischen Abschnitt, um diese Konzepte vollständig zu verstehen, bevor wir zu einem praktischen Teil übergehen, in dem wir erkunden, wie man Kennzeichnungen konkret in der Haupt-Bitcoin-Wallet-Software verwendet.
 

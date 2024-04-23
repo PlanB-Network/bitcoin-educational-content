@@ -4,7 +4,7 @@ name: Linux Mint
 description: Configurar una computadora para transacciones de Bitcoin
 ---
 
-![imagen](assets/cover.jpeg)
+![imagen](assets/cover.webp)
 
 ## ¿Qué sucede si usas una computadora regular?
 

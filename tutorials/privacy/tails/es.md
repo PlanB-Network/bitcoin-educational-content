@@ -4,7 +4,7 @@ name: Tails
 description: Instalar Tails en una memoria USB
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Un sistema operativo portátil y amnésico que te protege contra la vigilancia y la censura.
 

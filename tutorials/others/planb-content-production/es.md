@@ -2,7 +2,7 @@
 name: Contribución - Obsidian
 description: ¿Cómo contribuir a la Red PlanB con GitHub y Obsidian?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 La misión de PlanB es proporcionar recursos educativos de primer nivel sobre Bitcoin, en tantos idiomas como sea posible. Todo el contenido publicado en el sitio es de código abierto y alojado en GitHub, ofreciendo así a cualquier persona la oportunidad de participar en el enriquecimiento de la plataforma. Las contribuciones pueden tomar diversas formas: corregir y revisar textos existentes, traducir a otros idiomas, actualizar información o crear nuevos tutoriales aún no disponibles en nuestro sitio.
 
@@ -337,7 +337,7 @@ Una vez que hayas terminado de modificar tu archivo `tutorial.yml`, guarda tu do
 
 ![github](assets/73.webp)
 Dentro de la carpeta `assets`, necesitas agregar un archivo llamado `logo.webp`, que servirá como miniatura para tu artículo. Esta imagen, que debe estar en formato `.webp`, debería tener una dimensión cuadrada para alinearse con la interfaz de usuario. Eres libre de elegir el logo del software cubierto en el tutorial o cualquier otra imagen relevante, siempre y cuando esté libre de derechos.
-Además, también agrega una imagen titulada `cover.jpeg` en la misma ubicación. Esta imagen se mostrará en la parte superior de tu tutorial. Asegúrate de que esta imagen, al igual que el logo, respete los derechos de uso y sea adecuada para el contexto de tu tutorial.
+Además, también agrega una imagen titulada `cover.webp` en la misma ubicación. Esta imagen se mostrará en la parte superior de tu tutorial. Asegúrate de que esta imagen, al igual que el logo, respete los derechos de uso y sea adecuada para el contexto de tu tutorial.
 
 ![github](assets/74.webp)
 
@@ -365,7 +365,7 @@ Llena el nombre de tu tutorial así como una breve descripción del mismo.
 
 Luego agrega tu imagen de portada al inicio de tu tutorial. Para hacer esto, escribe:
 
-`![cover-sparrow](assets/cover.jpeg)`
+`![cover-sparrow](assets/cover.webp)`
 
 Esta sintaxis será útil siempre que sea necesario agregar una imagen a tu tutorial. El signo de exclamación indica que es una imagen, con el texto alternativo (alt) especificado entre los corchetes. El camino hacia la imagen se indica entre los paréntesis.
 

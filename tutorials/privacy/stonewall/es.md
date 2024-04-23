@@ -2,7 +2,7 @@
 name: Stonewall
 description: Entendiendo y utilizando transacciones Stonewall
 ---
-![cover stonewall](assets/cover.jpeg)
+![cover stonewall](assets/cover.webp)
 
 > *"Rompe las suposiciones del análisis de blockchain con dudas matemáticamente probables entre el emisor y el receptor de tus transacciones."*
 

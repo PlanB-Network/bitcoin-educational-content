@@ -4,7 +4,7 @@ name: Linux Mint
 description: Configuration d'un ordinateur pour les transactions Bitcoin
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## Qu'est-ce qui ne va pas si vous utilisez un ordinateur ordinaire ?
 

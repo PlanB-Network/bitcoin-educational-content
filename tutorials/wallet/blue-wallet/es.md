@@ -4,7 +4,7 @@ name: Blue Wallet
 description: Billetera Bitcoin Radicalmente Simple y Potente
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Blue Wallet es una billetera de código abierto de Bitcoin que es extremadamente fácil de usar pero aún así flexible.
 

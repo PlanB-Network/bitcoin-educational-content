@@ -4,7 +4,7 @@ name: ZEUS
 description: Einrichtung der Zeus-Wallet
 ---
 
-![Zeus](assets/cover.jpeg)
+![Zeus](assets/cover.webp)
 
 **Zeus ist eine Open-Source, nicht verwahrte Bitcoin-Wallet**, die Ihnen die volle Kontrolle darüber gibt, wie Sie Zahlungen tätigen.
 

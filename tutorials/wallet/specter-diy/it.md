@@ -4,7 +4,7 @@ name: Specter DIY
 description: Guida di installazione per Specter DIY
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Spec:
 

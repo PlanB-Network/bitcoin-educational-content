@@ -4,7 +4,7 @@ name: Green Wallet
 description: Guía de configuración y uso (CC Bistack)
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Billetera móvil caliente - Principiante - Gratis - Para asegurar de 0 a 1,000 €
 

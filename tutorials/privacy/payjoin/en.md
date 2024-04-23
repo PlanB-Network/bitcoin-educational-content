@@ -2,7 +2,7 @@
 name: Payjoin
 description: What is a Payjoin on Bitcoin?
 ---
-![Payjoin thumbnail - steganography](assets/cover.jpeg)
+![Payjoin thumbnail - steganography](assets/cover.webp)
 
 ## Understanding Payjoin Transactions on Bitcoin
 

@@ -2,7 +2,7 @@
 name: Remix - Whirlpool
 description: Quanti remix dovrebbero essere fatti su Whirlpool?
 ---
-![cover remix- wp](assets/cover.jpeg)
+![cover remix- wp](assets/cover.webp)
 
 > *"Rompi il collegamento che le tue monete lasciano dietro di sé"*
 

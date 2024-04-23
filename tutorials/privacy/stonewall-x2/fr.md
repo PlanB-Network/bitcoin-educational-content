@@ -2,7 +2,7 @@
 name: Stonewall x2
 description: Comprendre et utiliser les transactions Stonewall x2
 ---
-![cover stonewall x2](assets/cover.jpeg)
+![cover stonewall x2](assets/cover.webp)
 
 > *Make every spend a coinjoin.*
 

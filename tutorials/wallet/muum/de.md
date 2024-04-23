@@ -4,7 +4,7 @@ name: Muum
 description: Einrichtung Ihrer Muum-Brieftasche
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 Muun (https://muun.com/) ist eine selbstverwaltete Brieftasche für Bitcoin und Lightning.
 

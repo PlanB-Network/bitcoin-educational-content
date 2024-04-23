@@ -2,7 +2,7 @@
 name: Contribution - Obsidian
 description: How to contribute to PlanB Network with GitHub and Obsidian?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 The mission of PlanB is to provide top-tier educational resources on Bitcoin, in as many languages as possible. All content published on the site is open-source and hosted on GitHub, thus offering anyone the opportunity to participate in enriching the platform. Contributions can take various forms: correcting and proofreading existing texts, translating into other languages, updating information, or creating new tutorials not yet available on our site.
 
@@ -350,7 +350,7 @@ Once you have finished modifying your `tutorial.yml` file, save your document by
 
 Within the `assets` folder, you need to add a file named `logo.webp`, which will serve as a thumbnail for your article. This image, which must be in `.webp` format, should have a square dimension to align with the user interface. You are free to choose the logo of the software covered in the tutorial or any other relevant image, provided it is free of rights.
 
-In addition, also add an image titled `cover.jpeg` in the same location. This image will be displayed at the top of your tutorial. Ensure that this image, like the logo, respects usage rights and is suitable for the context of your tutorial.
+In addition, also add an image titled `cover.webp` in the same location. This image will be displayed at the top of your tutorial. Ensure that this image, like the logo, respects usage rights and is suitable for the context of your tutorial.
 
 ![github](assets/74.webp)
 
@@ -378,7 +378,7 @@ Fill in the name of your tutorial as well as a short description of it.
 
 Then add your cover image at the beginning of your tutorial. To do this, type:
 
-`![cover-sparrow](assets/cover.jpeg)`
+`![cover-sparrow](assets/cover.webp)`
 
 This syntax will be useful whenever adding an image to your tutorial is necessary. The exclamation point indicates that it is an image, with the alternative text (alt) specified between the brackets. The path to the image is indicated between the parentheses.
 

@@ -3,7 +3,7 @@ name: Payjoin - Samourai Wallet
 description: Como realizar uma transação Payjoin no Samourai Wallet?
 ---
 
-![capa do samourai payjoin](assets/cover.jpeg)
+![capa do samourai payjoin](assets/cover.webp)
 
 > *"Força os espiões da blockchain a repensarem tudo o que eles pensam que sabem."*
 

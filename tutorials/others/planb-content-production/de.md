@@ -2,7 +2,7 @@
 name: Beitrag - Obsidian
 description: Wie kann man zum PlanB-Netzwerk mit GitHub und Obsidian beitragen?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Die Mission von PlanB ist es, erstklassige Bildungsressourcen über Bitcoin in möglichst vielen Sprachen bereitzustellen. Alle Inhalte, die auf der Website veröffentlicht werden, sind Open-Source und werden auf GitHub gehostet, was jedem die Möglichkeit bietet, an der Bereicherung der Plattform teilzunehmen. Beiträge können verschiedene Formen annehmen: Korrekturlesen und Korrigieren bestehender Texte, Übersetzen in andere Sprachen, Aktualisieren von Informationen oder Erstellen neuer Tutorials, die auf unserer Website noch nicht verfügbar sind.
 
@@ -337,7 +337,7 @@ Sobald Sie die Bearbeitung Ihrer `tutorial.yml`-Datei abgeschlossen haben, speic
 
 ![github](assets/73.webp)
 Im Ordner `assets` müssen Sie eine Datei mit dem Namen `logo.webp` hinzufügen, die als Thumbnail für Ihren Artikel dienen wird. Dieses Bild, das im `.webp`-Format vorliegen muss, sollte quadratische Abmessungen haben, um sich der Benutzeroberfläche anzupassen. Sie können frei das Logo der in dem Tutorial behandelten Software oder ein anderes relevantes Bild wählen, vorausgesetzt, es ist frei von Rechten.
-Fügen Sie außerdem ein Bild mit dem Titel `cover.jpeg` am gleichen Ort hinzu. Dieses Bild wird oben in Ihrem Tutorial angezeigt. Stellen Sie sicher, dass dieses Bild, wie das Logo, die Nutzungsrechte respektiert und für den Kontext Ihres Tutorials geeignet ist.
+Fügen Sie außerdem ein Bild mit dem Titel `cover.webp` am gleichen Ort hinzu. Dieses Bild wird oben in Ihrem Tutorial angezeigt. Stellen Sie sicher, dass dieses Bild, wie das Logo, die Nutzungsrechte respektiert und für den Kontext Ihres Tutorials geeignet ist.
 
 ![github](assets/74.webp)
 
@@ -365,7 +365,7 @@ Füllen Sie den Namen Ihres Tutorials sowie eine kurze Beschreibung desselben au
 
 Fügen Sie dann Ihr Cover-Bild am Anfang Ihres Tutorials hinzu. Dazu tippen Sie:
 
-`![cover-sparrow](assets/cover.jpeg)`
+`![cover-sparrow](assets/cover.webp)`
 
 Diese Syntax wird immer dann nützlich sein, wenn es notwendig ist, ein Bild zu Ihrem Tutorial hinzuzufügen. Das Ausrufezeichen zeigt an, dass es sich um ein Bild handelt, wobei der alternative Text (alt) zwischen den Klammern angegeben ist. Der Pfad zum Bild wird zwischen den Klammern angegeben.
 

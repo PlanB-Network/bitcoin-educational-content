@@ -4,7 +4,7 @@ name: Relai
 description: Set up and use Relai
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Recurring bitcoin purchase solution – Relai is a Swiss solution without KYC
 

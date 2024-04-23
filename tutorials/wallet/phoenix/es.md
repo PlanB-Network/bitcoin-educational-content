@@ -4,7 +4,7 @@ name: Phoenix
 description: Configuración de su billetera Phoenix
 ---
 
-![phoenix](assets/cover.jpeg)
+![phoenix](assets/cover.webp)
 
 Phoenix es una billetera Lightning no custodial creada por Acind, el equipo detrás de la implementación Lightning Eclair.
 

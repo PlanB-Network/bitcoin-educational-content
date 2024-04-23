@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Cómo configurar tu dispositivo Ledger Nano S
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Billetera física fría - €60 - Principiante - Para asegurar €2,000 a €50,000
 

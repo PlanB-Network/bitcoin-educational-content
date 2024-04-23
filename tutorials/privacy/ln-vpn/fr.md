@@ -4,7 +4,7 @@ name: LN VPN
 description: Set up your VPN
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 LN VPN est un service VPN à la carte qui n'accepte que les paiements lightning. Aujourd'hui, je te montre comment t'en servir et laisser moins de traces quand tu te balades sur les interwebs.‌‌‌‌
 

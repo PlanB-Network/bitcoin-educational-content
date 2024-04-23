@@ -3,7 +3,7 @@ name: Noeud Bitcoin Core (linux)
 description: Eseguire il proprio nodo con Bitcoin Core
 ---
 
-![copertina](assets/cover.jpeg)
+![copertina](assets/cover.webp)
 
 # Eseguire il proprio nodo con Bitcoin Core
 

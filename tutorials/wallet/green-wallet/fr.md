@@ -4,7 +4,7 @@ name: Green Wallet
 description: Guide de mise en place et utilisation (CC Bistack )
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Portefeuille mobile chaud – Débutant – Gratuit – Pour sécuriser de 0 à 1 000 €
 

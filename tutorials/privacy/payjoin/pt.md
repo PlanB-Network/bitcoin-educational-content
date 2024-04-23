@@ -3,7 +3,7 @@ name: Payjoin
 description: O que é um Payjoin no Bitcoin?
 ---
 
-![Miniatura do Payjoin - esteganografia](assets/cover.jpeg)
+![Miniatura do Payjoin - esteganografia](assets/cover.webp)
 
 ## Compreendendo Transações Payjoin no Bitcoin
 

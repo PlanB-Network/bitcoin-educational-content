@@ -4,7 +4,7 @@ name: BTCpay Server
 description: Guia para configurar seu servidor BTCPay e gerenciá-lo
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 O servidor BTCpay (https://btcpayserver.org/) é a melhor maneira de aceitar #Bitcoin. Sem taxas, sem intermediários. Processador de pagamento Bitcoin gratuito, de código aberto e auto-hospedado para indivíduos e empresas autônomos.
 

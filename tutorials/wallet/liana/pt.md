@@ -4,7 +4,7 @@ name: Liana
 description: Como configurar sua Liana Wallet
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 A rede de segurança para suas moedas, Liana é uma carteira simples de Bitcoin que usa bloqueios de tempo on-chain para garantir segurança e recuperação.
 

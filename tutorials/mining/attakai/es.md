@@ -4,7 +4,7 @@ name: Attakaï
 description: transformación de un S9 en calefacción para el hogar
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 # Attakai - ¡haciendo posible y accesible el home-mining!
 

@@ -4,7 +4,7 @@ name: StackingSat
 description: How to use Stackinsat
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 StackinSat (https://stackinsat.com/) is a French Bitcoin DCA solution with automatic withdrawal to your wallet
 

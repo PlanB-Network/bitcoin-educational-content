@@ -2,7 +2,7 @@
 name: Ferramentas de Estatísticas Whirlpool - Anonsets
 description: Entenda o conceito de anonset e como calculá-lo com o WST
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 *"Quebre o rastro que suas moedas deixam para trás"*
 

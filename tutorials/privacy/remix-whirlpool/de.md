@@ -2,7 +2,7 @@
 name: Remix - Whirlpool
 description: Wie viele Remixes sollten bei Whirlpool durchgeführt werden?
 ---
-![cover remix- wp](assets/cover.jpeg)
+![cover remix- wp](assets/cover.webp)
 
 > *"Break the link your coins leave behind"*
 

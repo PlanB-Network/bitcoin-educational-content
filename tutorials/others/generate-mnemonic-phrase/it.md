@@ -2,7 +2,7 @@
 name: Mnemonic Phrase - Dice Roll
 description: Come generare la propria frase di recupero con i dadi?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 In questo tutorial, imparerai come costruire manualmente una frase di recupero per un portafoglio Bitcoin utilizzando i lanci dei dadi.
 

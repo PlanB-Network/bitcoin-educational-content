@@ -2,7 +2,7 @@
 name: RoninDojo v2
 description: Instalación de tu nodo Bitcoin RoninDojo v2 en una Raspberry Pi
 ---
-![cover RoninDojo v2](assets/cover.jpeg)
+![cover RoninDojo v2](assets/cover.webp)
 
 > "*Usa Bitcoin con privacidad.*"
 

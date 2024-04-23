@@ -3,7 +3,7 @@ name: Noeud Bitcoin Core (linux)
 description: Executando seu próprio nó com Bitcoin Core
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 # Executando seu próprio nó com Bitcoin Core
 

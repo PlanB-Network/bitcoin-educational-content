@@ -2,7 +2,7 @@
 name: Sentinel Watch-Only
 description: ¿Qué es una cartera Watch-Only y cómo usarla?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 *"Mantén tus claves privadas, privadas."*
 

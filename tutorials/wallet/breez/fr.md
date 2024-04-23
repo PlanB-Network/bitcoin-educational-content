@@ -4,7 +4,7 @@ name: Breez
 description: Un portefeuille Lightning puissant
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Pour trouver toutes les informations importantes, veuillez vous référer à leur guide complet : https://doc.breez.technology/
 

@@ -4,7 +4,7 @@ name: Seed Signer
 description: Configuration de votre Seed signer
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 ## Matériel :
 

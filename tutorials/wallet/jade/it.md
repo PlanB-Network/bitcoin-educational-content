@@ -4,7 +4,7 @@ name: JADE
 description: Come configurare il tuo dispositivo JADE
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## Video tutorial
 

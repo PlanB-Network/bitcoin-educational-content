@@ -4,7 +4,7 @@ name: Tails
 description: Installer Tails sur une clé USB
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Un système d'exploitation portable et amnésique qui vous protège contre la surveillance et la censure.
 

@@ -2,7 +2,7 @@
 name: Contributo - Obsidian
 description: Come contribuire alla Rete PlanB con GitHub e Obsidian?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 La missione di PlanB è fornire risorse educative di prim'ordine su Bitcoin, nel maggior numero di lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, offrendo così a chiunque l'opportunità di partecipare all'arricchimento della piattaforma. I contributi possono assumere varie forme: correzione e revisione di testi esistenti, traduzione in altre lingue, aggiornamento delle informazioni o creazione di nuovi tutorial non ancora disponibili sul nostro sito.
 
@@ -318,7 +318,7 @@ Per iniziare, apri il tuo file `tutorial.yml` utilizzando il tuo editor di codic
 
 Una volta che hai finito di modificare il tuo file `tutorial.yml`, salva il tuo documento cliccando su `File > Salva`. Ora puoi chiudere il tuo editor di codice.
 All'interno della cartella `assets`, è necessario aggiungere un file denominato `logo.webp`, che fungerà da miniatura per il tuo articolo. Questa immagine, che deve essere in formato `.webp`, dovrebbe avere una dimensione quadrata per allinearsi con l'interfaccia utente. Sei libero di scegliere il logo del software trattato nel tutorial o qualsiasi altra immagine pertinente, purché sia libera da diritti.
-Inoltre, aggiungi anche un'immagine intitolata `cover.jpeg` nella stessa posizione. Questa immagine verrà visualizzata in cima al tuo tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti di utilizzo e sia adatta al contesto del tuo tutorial.
+Inoltre, aggiungi anche un'immagine intitolata `cover.webp` nella stessa posizione. Questa immagine verrà visualizzata in cima al tuo tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti di utilizzo e sia adatta al contesto del tuo tutorial.
 
 ![github](assets/74.webp)
 
@@ -346,7 +346,7 @@ Compila il nome del tuo tutorial così come una breve descrizione dello stesso.
 
 Poi aggiungi la tua immagine di copertina all'inizio del tuo tutorial. Per farlo, digita:
 
-`![cover-sparrow](assets/cover.jpeg)`
+`![cover-sparrow](assets/cover.webp)`
 
 Questa sintassi sarà utile ogni volta che sarà necessario aggiungere un'immagine al tuo tutorial. Il punto esclamativo indica che si tratta di un'immagine, con il testo alternativo (alt) specificato tra le parentesi quadre. Il percorso dell'immagine è indicato tra le parentesi.
 

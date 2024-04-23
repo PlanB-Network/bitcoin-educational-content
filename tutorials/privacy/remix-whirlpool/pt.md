@@ -3,7 +3,7 @@ name: Remix - Whirlpool
 description: Quantos remixes devem ser feitos no Whirlpool?
 ---
 
-![capa remix- wp](assets/cover.jpeg)
+![capa remix- wp](assets/cover.webp)
 
 > *"Quebre o elo que suas moedas deixam para trás"*
 

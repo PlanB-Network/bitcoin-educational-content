@@ -3,7 +3,7 @@ name: JoinBot
 description: Verstehen und Verwenden des JoinBots
 ---
 
-![DALL·E – Samurai-Roboter in einem roten Wald, 3D-Rendering](assets/cover.jpeg)
+![DALL·E – Samurai-Roboter in einem roten Wald, 3D-Rendering](assets/cover.webp)
 
 JoinBot ist ein neues Tool, das mit dem neuesten Update 0.99.98f der beliebten Bitcoin-Wallet-Software Samourai Wallet eingeführt wurde. Es ermöglicht Ihnen, einfach eine gemeinsame Transaktion durchzuführen, um Ihre Privatsphäre zu optimieren, ohne einen Partner finden zu müssen.
 

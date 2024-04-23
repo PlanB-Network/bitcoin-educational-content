@@ -4,7 +4,7 @@ name: Trezor modèle One
 description: Configuration et utilisation du Trezor modèle One
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Portefeuille matériel froid - 60€ - Débutant - Sécurise entre 2 000€ et 50 000€.
 

@@ -4,7 +4,7 @@ name: Tails
 description: Installare Tails su una chiavetta USB
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Un sistema operativo portatile e amnesico che ti protegge dalla sorveglianza e dalla censura.
 

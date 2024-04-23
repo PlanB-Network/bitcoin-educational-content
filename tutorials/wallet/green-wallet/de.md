@@ -4,7 +4,7 @@ name: Green Wallet
 description: Einrichtungs- und Verwendungshandbuch (CC Bistack)
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Mobiles Warm Wallet - Anfänger - Kostenlos - Zur Sicherung von 0 bis 1.000 €
 

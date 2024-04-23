@@ -4,7 +4,7 @@ name: Liana
 description: How to set up your Liana Wallet
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Le filet de sécurité pour vos coins, Liana est un simple portefeuille Bitcoin qui utilise des verrous de temps on-chain pour assurer la sécurité et la récupération.
 

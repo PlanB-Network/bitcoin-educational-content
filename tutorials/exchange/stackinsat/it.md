@@ -4,7 +4,7 @@ name: StackingSat
 description: Come utilizzare Stackinsat
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 StackinSat (https://stackinsat.com/) è una soluzione francese per il DCA Bitcoin con un prelievo automatico verso il tuo portafoglio
 

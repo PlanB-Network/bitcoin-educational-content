@@ -4,7 +4,7 @@ name: Attakaï
 description: Transformation eines S9 in eine Heizung für das Haus
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 # Attakai - Home-Mining ermöglicht und zugänglich gemacht!
 

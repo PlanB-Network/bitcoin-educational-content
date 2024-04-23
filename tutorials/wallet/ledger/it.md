@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Come configurare il tuo dispositivo Ledger Nano S
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Portafoglio fisico a freddo - €60 - Principiante - Per proteggere da €2.000 a €50.000
 

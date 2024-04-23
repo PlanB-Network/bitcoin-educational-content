@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Anleitung zur Einrichtung Ihres Ledger Nano S Geräts
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Kalter physischer Geldbeutel – 60 € – Anfänger – Zum Sichern von 2.000 € bis 50.000 €
 

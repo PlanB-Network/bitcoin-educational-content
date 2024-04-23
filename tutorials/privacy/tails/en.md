@@ -4,7 +4,7 @@ name: Tails
 description: Install Tails on a USB key
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 A portable and amnesic operating system that protects you against surveillance and censorship.
 

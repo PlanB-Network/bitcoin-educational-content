@@ -4,7 +4,7 @@ name: Linux Mint
 description: Set up a computer for bitcoin transactions
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## What’s wrong if you use a regular computer?
 

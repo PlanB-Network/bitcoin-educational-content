@@ -2,7 +2,7 @@
 name: Stonewall
 description: Comprendre et utiliser les transactions Stonewall
 ---
-![cover stonewall](assets/cover.jpeg)
+![cover stonewall](assets/cover.webp)
 
 > *"Break the assumptions of blockchain analysis with mathematically provable doubt between sender and recipient of your transactions."*
 

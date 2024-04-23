@@ -4,7 +4,7 @@ name: JADE
 description: How to set up your JADE device
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## Tutorial video
 

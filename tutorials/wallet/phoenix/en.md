@@ -4,7 +4,7 @@ name: Phoenix
 description: Setting up your Phoenix wallet
 ---
 
-![phoenix](assets/cover.jpeg)
+![phoenix](assets/cover.webp)
 
 ## Introduction
 

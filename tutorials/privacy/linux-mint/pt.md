@@ -4,7 +4,7 @@ name: Linux Mint
 description: Configurando um computador para transações de bitcoin
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## O que há de errado em usar um computador comum?
 

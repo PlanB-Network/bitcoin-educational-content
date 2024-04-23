@@ -2,7 +2,7 @@
 name: Sentinel Watch-Only
 description: What is a Watch-Only wallet and how to use it?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 *"Keep your private keys, private."*
 

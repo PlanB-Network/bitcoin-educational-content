@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Comment configurer votre appareil Ledger Nano S
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Portefeuille physique à froid - 60 € - Débutant - Pour sécuriser de 2 000 € à 50 000 €
 

@@ -2,7 +2,7 @@
 name: Frase Mnemônica - Rolagem de Dados
 description: Como gerar sua própria frase de recuperação com dados?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Neste tutorial, você aprenderá como construir manualmente uma frase de recuperação para uma carteira Bitcoin usando rolagens de dados.
 

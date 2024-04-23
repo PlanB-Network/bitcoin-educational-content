@@ -4,7 +4,7 @@ name: Tails
 description: Instalar o Tails em um pendrive
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Um sistema operacional portátil e amnésico que protege você contra vigilância e censura.
 

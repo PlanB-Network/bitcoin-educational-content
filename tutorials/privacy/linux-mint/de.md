@@ -4,7 +4,7 @@ name: Linux Mint
 description: Richten Sie einen Computer für Bitcoin-Transaktionen ein
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## Was ist falsch, wenn Sie einen normalen Computer verwenden?
 

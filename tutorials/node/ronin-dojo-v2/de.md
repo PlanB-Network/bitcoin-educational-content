@@ -2,7 +2,7 @@
 name: RoninDojo v2
 description: Installation deines RoninDojo v2 Bitcoin-Knotens auf einem Raspberry Pi
 ---
-![cover RoninDojo v2](assets/cover.jpeg)
+![cover RoninDojo v2](assets/cover.webp)
 
 > "*Nutze Bitcoin mit Privatsphäre.*"
 

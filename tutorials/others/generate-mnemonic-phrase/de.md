@@ -2,7 +2,7 @@
 name: Mnemonic Phrase - Würfelwurf
 description: Wie Sie Ihre eigene Wiederherstellungsphrase mit Würfeln generieren?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 In diesem Tutorial lernen Sie, wie Sie manuell eine Wiederherstellungsphrase für eine Bitcoin-Wallet mithilfe von Würfelwürfen erstellen.
 

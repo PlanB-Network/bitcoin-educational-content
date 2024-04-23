@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Como configurar o seu dispositivo Ledger Nano S
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Carteira física fria - €60 - Iniciante - Para proteger de €2.000 a €50.000
 

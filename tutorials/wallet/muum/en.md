@@ -4,7 +4,7 @@ name: Muum
 description: Setting up your Muum wallet
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 Muun (https://muun.com/) is a self-custodial wallet for bitcoin and lightning.
 

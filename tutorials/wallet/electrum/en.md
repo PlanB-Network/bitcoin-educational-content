@@ -4,7 +4,7 @@ name: Electrum
 description: Full Electrum Guide, from 0 to hero
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 Description for electrum
 

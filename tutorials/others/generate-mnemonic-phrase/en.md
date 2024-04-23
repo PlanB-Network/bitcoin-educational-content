@@ -2,7 +2,7 @@
 name: Mnemonic Phrase - Dice Roll
 description: How to generate your own recovery phrase with dice?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 In this tutorial, you will learn how to manually construct a recovery phrase for a Bitcoin wallet using dice rolls.
 

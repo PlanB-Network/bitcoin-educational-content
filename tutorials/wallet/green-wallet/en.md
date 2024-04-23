@@ -4,7 +4,7 @@ name: Green Wallet
 description: Setup and Usage Guide (CC Bistack)
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Hot Mobile Wallet - Beginner - Free - To secure from 0 to 1,000 €
 

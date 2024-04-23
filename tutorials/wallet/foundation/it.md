@@ -4,7 +4,7 @@ name: Foundation
 description: Come configurare il tuo dispositivo Fondazione
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 L'autocustodia è finalmente raggiungibile con il portafoglio hardware Passport e il portafoglio mobile Envoy. https://foundationdevices.com/
 

@@ -4,7 +4,7 @@ name: Foundation
 description: Anleitung zur Einrichtung Ihres Foundation-Geräts
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Mit der Passport-Hardware-Wallet und der Envoy-Mobile-Wallet ist die Selbstverwahrung endlich erreichbar. https://foundationdevices.com/
 

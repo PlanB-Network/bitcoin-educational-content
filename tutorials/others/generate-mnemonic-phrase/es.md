@@ -2,7 +2,7 @@
 name: Frase Mnemotécnica - Lanzamiento de Dados
 description: ¿Cómo generar tu propia frase de recuperación con dados?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 En este tutorial, aprenderás cómo construir manualmente una frase de recuperación para una cartera de Bitcoin usando lanzamientos de dados.
 

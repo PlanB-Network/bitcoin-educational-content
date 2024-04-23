@@ -3,7 +3,7 @@ name: Bisq
 description: Cómo usar Bisq, un intercambio peer to peer
 ---
 
-![portada](assets/cover.jpeg)
+![portada](assets/cover.webp)
 
 Bisq es una plataforma de trading descentralizada para activos digitales, principalmente Bitcoin. Proporciona transacciones directas, seguras y privadas entre usuarios de todo el mundo sin necesidad de un intermediario.
 

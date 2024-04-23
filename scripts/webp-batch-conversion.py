@@ -8,10 +8,6 @@ def convert_to_webp_and_calculate_savings(root_dir):
 
     for root, dirs, files in os.walk(root_dir):
         for file in files:
-            if file.lower() == 'thumbnail.png':
-                print(f"Skipping conversion for {file}")
-                continue
-
             if file.lower().endswith(('.png', '.jpg', '.jpeg')):
                 img_path = os.path.join(root, file)
                 original_size = os.path.getsize(img_path)  # Get original file size
@@ -46,7 +42,7 @@ def update_md_links(root_dir):
                     content = md_file.read()
 
                 # Replace image extensions except for 'thumbnail.png'
-                updated_content = re.sub(r'(?<!thumbnail)\.(png|jpg|jpeg)(?!\.webp)', '.webp', content, flags=re.IGNORECASE)
+                updated_content = re.sub(r'\.(png|jpg|jpeg)(?!\.webp)', '.webp', content, flags=re.IGNORECASE)
 
                 with open(md_path, 'w', encoding='utf-8') as md_file:
                     md_file.write(updated_content)
@@ -54,7 +50,8 @@ def update_md_links(root_dir):
                 print(f"Updated image links in {md_path}")
 
 if __name__ == "__main__":
-    root_dir = '../courses/btc101/'
+    root_dir = '../'
     convert_to_webp_and_calculate_savings(root_dir)
     update_md_links(root_dir)
+
 

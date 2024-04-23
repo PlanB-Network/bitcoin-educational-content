@@ -2,7 +2,7 @@
 name: Sentinel Watch-Only
 description: Cos'è un portafoglio Watch-Only e come utilizzarlo?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 *"Mantieni le tue chiavi private, private."*
 

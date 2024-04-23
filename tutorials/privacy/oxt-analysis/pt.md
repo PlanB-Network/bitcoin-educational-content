@@ -2,7 +2,7 @@
 name: OXT - Análise de Cadeia
 description: Domine os fundamentos básicos da análise de cadeia no Bitcoin
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Neste artigo, você aprenderá os fundamentos teóricos essenciais necessários para embarcar em análises básicas de cadeia no Bitcoin e, mais importante, para entender como aqueles que observam você operam. Embora este artigo não seja um tutorial prático sobre a ferramenta OXT (um tópico que abordaremos em um tutorial futuro), ele compila um conjunto de conhecimentos cruciais para seu uso. Para cada modelo, métrica e indicador apresentado, um link para uma transação de exemplo no OXT é fornecido, o que permitirá que você entenda melhor seu uso e pratique ao lado de sua leitura.
 

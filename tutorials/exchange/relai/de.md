@@ -4,7 +4,7 @@ name: Relai
 description: Einrichtung und Verwendung von Relai
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Wiederkehrende Bitcoin-Kauflösung - Relai ist eine Schweizer Lösung ohne KYC
 

@@ -4,7 +4,7 @@ name: Muum
 description: Configurazione del tuo portafoglio Muum
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 Muun (https://muun.com/) è un portafoglio auto-custodito per bitcoin e lightning.
 

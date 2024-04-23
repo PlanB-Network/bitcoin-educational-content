@@ -2,7 +2,7 @@
 name: Phrase mnémonique - Lancé de dés
 description: Comment générer soi-même sa phrase de récupération avec des dés ?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Dans ce tutoriel, vous allez apprendre comment construire manuellement une phrase de récupération pour un portefeuille Bitcoin en utilisant des lancers de dés.
 

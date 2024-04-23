@@ -2,7 +2,7 @@
 name: Labelling UTXO
 description: Comment bien étiqueter ses UTXO ?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Dans ce tutoriel, vous allez découvrir tout ce qu'il faut savoir sur l'étiquetage des UTXO dans votre portefeuille Bitcoin et le coin control. Nous commençons par une section théorique pour bien comprendre ces concepts, avant de passer à une partie pratique où nous explorons comment utiliser concrètement des étiquettes dans les principaux logiciels de portefeuille Bitcoin.
 

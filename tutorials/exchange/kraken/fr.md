@@ -4,7 +4,7 @@ name: Kraken
 description: Comment utiliser Kraken
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Kraken (https://www.kraken.com/) est une plateforme d'achat et de vente de Bitcoin, elle est compatible avec KYC et LN.
 

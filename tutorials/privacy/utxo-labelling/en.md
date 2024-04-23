@@ -2,7 +2,7 @@
 name: Labelling UTXO
 description: How to properly label your UTXO?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 In this tutorial, you will discover everything you need to know about labeling UTXOs in your Bitcoin wallet and about coin control. We start with a theoretical section to fully understand these concepts, before moving on to a practical part where we explore how to concretely use labels in the main Bitcoin wallet software.
 

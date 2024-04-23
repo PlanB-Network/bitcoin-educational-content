@@ -3,7 +3,7 @@ name: JoinBot
 description: Comprender y utilizar JoinBot
 ---
 
-![DALL·E - samourai robot en un bosque rojo, renderizado en 3D](assets/cover.jpeg)
+![DALL·E - samourai robot en un bosque rojo, renderizado en 3D](assets/cover.webp)
 
 JoinBot es una nueva herramienta que se agrega a la suite Samourai Wallet con la última actualización 0.99.98f del famoso software de billetera Bitcoin. Te permite realizar fácilmente una transacción colaborativa para optimizar tu privacidad, sin tener que encontrar un compañero.
 

@@ -5,7 +5,7 @@ description: Guide to set up your BTCPay server and manage it
 
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 BTCpay server (https://btcpayserver.org/) is the best way to accept #Bitcoin. No fees, no intermediary. Free, open source & self-hosted Bitcoin payment processor for self-sovereign individuals and businesses.
 

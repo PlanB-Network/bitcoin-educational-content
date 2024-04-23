@@ -4,7 +4,7 @@ name: Cold Card
 description: Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core
 

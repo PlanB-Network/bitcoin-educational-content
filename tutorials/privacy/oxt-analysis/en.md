@@ -2,7 +2,7 @@
 name: OXT - Chain Analysis
 description: Master the basics of chain analysis on Bitcoin
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 In this article, you will learn the essential theoretical foundations needed to embark on basic chain analyses on Bitcoin, and more importantly, to understand how those observing you operate. Although this article is not a practical tutorial on the OXT tool (a topic we will cover in a future tutorial), it compiles a set of crucial knowledge for its use. For each model, metric, and indicator presented, a link to an example transaction on OXT is provided, which will allow you to better understand its use and to practice alongside your reading.
 

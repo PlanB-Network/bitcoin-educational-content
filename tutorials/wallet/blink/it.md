@@ -4,7 +4,7 @@ name: Blink
 description: Impara come utilizzare il portafoglio Blink
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Bitcoin Beach Wallet sta cambiando nome e sta introducendo molte nuove funzionalità. BBW è un portafoglio Lightning custodiale open source nato su Bitcoin Beach e progettato per la costruzione della comunità. Presto si chiamerà Blink.
 

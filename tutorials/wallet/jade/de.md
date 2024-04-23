@@ -4,7 +4,7 @@ name: JADE
 description: Anleitung zur Einrichtung Ihres JADE-Geräts
 ---
 
-![Bild](assets/cover.jpeg)
+![Bild](assets/cover.webp)
 
 ## Tutorial-Video
 

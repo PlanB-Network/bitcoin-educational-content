@@ -4,7 +4,7 @@ name: Trezor model One
 description: Set up and use of Trezor model One
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Cold hardware portfolio – 60€ – Beginner – Secure between 2 000€ and 50 000€.
 

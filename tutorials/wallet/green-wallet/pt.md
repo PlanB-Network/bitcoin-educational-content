@@ -4,7 +4,7 @@ name: Green Wallet
 description: Guia de configuração e uso (CC Bistack)
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 Carteira móvel quente - Iniciante - Gratuito - Para proteger de 0 a 1.000 €
 

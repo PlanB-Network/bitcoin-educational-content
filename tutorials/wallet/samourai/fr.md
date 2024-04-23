@@ -4,7 +4,7 @@ name: Samouraï
 description: Récupérez votre vie privée avec Samourai
 ---
 
-![Samourai Wallet](assets/cover.jpeg)
+![Samourai Wallet](assets/cover.webp)
 
 **Samourai Wallet** est un portefeuille dédié à la confidentialité. Malgré son interface conviviale, il offre une grande flexibilité dans son utilisation et sa sécurité.
 

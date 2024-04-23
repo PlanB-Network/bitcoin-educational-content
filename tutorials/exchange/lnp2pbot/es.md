@@ -4,7 +4,7 @@ name: LN P2P Bot
 description: Guía para configurar tu LN P2P Bot
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Bitcoin es una tecnología de ahorro accesible y equitativa, y es un medio de intercambio resistente a la censura. Lightning nos permite tener acceso inmediato a Bitcoin a un costo muy bajo sin perder todas las propiedades que hacen de Bitcoin el mejor dinero al que podemos tener acceso.
 

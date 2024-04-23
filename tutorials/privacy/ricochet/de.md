@@ -2,7 +2,7 @@
 name: Ricochet
 description: Verständnis und Verwendung von Ricochet-Transaktionen
 ---
-![cover ricochet](assets/cover.jpeg)
+![cover ricochet](assets/cover.webp)
 
 > *"Ein Premium-Tool, das Ihrer Transaktion zusätzliche Verbindungen zur Geschichte hinzufügt. Umgehen Sie die Schwarzen Listen und schützen Sie sich vor ungerechtfertigten Kontosperrungen durch Dritte."*
 

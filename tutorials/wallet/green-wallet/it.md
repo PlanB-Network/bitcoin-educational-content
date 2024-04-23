@@ -4,7 +4,7 @@ name: Green Wallet
 description: Guida all'installazione e all'uso (CC Bistack)
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Portafoglio mobile caldo - Principiante - Gratuito - Per proteggere da 0 a 1.000 €
 

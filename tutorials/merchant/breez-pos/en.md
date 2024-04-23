@@ -4,7 +4,7 @@ name: Breez point of sales
 description: Guide to start accepting bitcoin using Breez POS
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 _This texte comes from the Breez documentation website : https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 

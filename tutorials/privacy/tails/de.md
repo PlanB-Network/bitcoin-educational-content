@@ -4,7 +4,7 @@ name: Tails
 description: Tails auf einem USB-Stick installieren
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Ein tragbares und amnesisches Betriebssystem, das Sie vor Überwachung und Zensur schützt.
 

@@ -4,7 +4,7 @@ name: ZEUS
 description: Configuración de la billetera Zeus
 ---
 
-![Zeus](assets/cover.jpeg)
+![Zeus](assets/cover.webp)
 
 **Zeus es una billetera de Bitcoin de código abierto y no custodial** que te brinda control total sobre cómo realizas pagos.
 

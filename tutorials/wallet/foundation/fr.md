@@ -4,7 +4,7 @@ name: Foundation
 description: Comment configurer votre appareil Fondation
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 L'auto-garde est enfin accessible avec le portefeuille matériel Passport et le portefeuille mobile Envoy. https://foundationdevices.com/
 

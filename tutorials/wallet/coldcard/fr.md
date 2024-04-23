@@ -4,7 +4,7 @@ name: Cold Card
 description: Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
 

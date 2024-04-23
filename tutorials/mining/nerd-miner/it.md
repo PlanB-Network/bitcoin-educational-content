@@ -3,7 +3,7 @@ name: Nerdminer
 description: Inizia a minare bitcoin con una probabilità di vincita vicina allo 0
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 > Configurazione del tuo NerdMiner_v2
 

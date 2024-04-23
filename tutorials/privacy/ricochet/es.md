@@ -2,7 +2,7 @@
 name: Ricochet
 description: Comprendiendo y utilizando transacciones Ricochet
 ---
-![portada ricochet](assets/cover.jpeg)
+![portada ricochet](assets/cover.webp)
 
 > *"Una herramienta premium que agrega saltos adicionales de historial a tu transacción. Desafía las listas negras y ayuda a protegerte contra el cierre injusto de cuentas de terceros."*
 

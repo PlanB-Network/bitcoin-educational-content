@@ -2,7 +2,7 @@
 name: Contribution - Obsidian
 description: Comment contribuer à PlanB Network avec GitHub et Obsidian ?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, offrant ainsi la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
@@ -383,7 +383,7 @@ Une fois la modification de votre fichier `tutorial.yml` terminée, enregistrez 
 
 Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`, qui servira de vignette pour votre article. Cette image, devant obligatoirement être au format `.webp`, doit respecter une dimension carrée afin de s'harmoniser avec l'interface utilisateur. Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits.
 
-En complément, ajoutez également au même endroit une image intitulée `cover.jpeg`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
+En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
 
 ![github](assets/74.webp)
 
@@ -413,7 +413,7 @@ Remplissez le nom de votre tutoriel ainsi qu'une courte description de celui-ci.
 
 Ajoutez ensuite votre image de couverture au début de votre tutoriel. Pour ce faire, tapez : 
 
-`![cover-sparrow](assets/cover.jpeg)`
+`![cover-sparrow](assets/cover.webp)`
 
 Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tutoriel sera nécessaire. Le point d'exclamation signale qu'il s'agit d'une image, dont le texte alternatif (alt) est spécifié entre les crochets. Le chemin d'accès à l'image est indiqué entre les parenthèses.
 

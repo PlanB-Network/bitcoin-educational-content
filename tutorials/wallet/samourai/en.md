@@ -4,7 +4,7 @@ name: Samouraï
 description: Regain your privacy with Samourai
 ---
 
-![Samourai Wallet](assets/cover.jpeg)
+![Samourai Wallet](assets/cover.webp)
 
 **Samourai Wallet** is a wallet dedicated to privacy. Despite its user-friendly interface, it offers a great deal of flexibility in its use and security.
 

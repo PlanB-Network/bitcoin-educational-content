@@ -4,7 +4,7 @@ name: Specter DIY
 description: Set up guide for Specter DIY
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Spec:
 

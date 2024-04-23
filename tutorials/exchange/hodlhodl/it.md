@@ -4,7 +4,7 @@ name: HODL HODL
 description: Guida passo passo per HODLHODL
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 Hodl Hodl è uno scambio decentralizzato di Bitcoin che privilegia il controllo e la sicurezza dell'utente. A differenza degli scambi tradizionali, opera su un modello peer-to-peer, consentendo scambi diretti tra utenti. Con il suo sistema di escrow multi-firma, Hodl Hodl garantisce la sicurezza dei fondi durante le transazioni. La piattaforma supporta anche vari metodi di pagamento e offre opzioni di trading come i contratti per differenza (CFD).
 

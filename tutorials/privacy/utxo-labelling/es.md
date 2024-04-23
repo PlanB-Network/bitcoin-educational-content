@@ -2,7 +2,7 @@
 name: Etiquetado de UTXO
 description: ¿Cómo etiquetar correctamente tu UTXO?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 En este tutorial, descubrirás todo lo que necesitas saber sobre el etiquetado de UTXOs en tu billetera de Bitcoin y sobre el control de monedas. Comenzamos con una sección teórica para entender completamente estos conceptos, antes de pasar a una parte práctica donde exploramos cómo usar concretamente las etiquetas en el principal software de billetera de Bitcoin.
 

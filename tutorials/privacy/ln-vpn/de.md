@@ -4,7 +4,7 @@ name: LN VPN
 description: Richten Sie Ihr VPN ein
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 LN VPN ist ein VPN-Service à la carte, der nur Lightning-Zahlungen akzeptiert. Heute zeige ich dir, wie du es benutzen kannst und weniger Spuren hinterlässt, wenn du im Internet surfst.
 

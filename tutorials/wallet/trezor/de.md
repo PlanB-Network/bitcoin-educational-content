@@ -4,7 +4,7 @@ name: Trezor Modell One
 description: Einrichtung und Verwendung des Trezor Modell One
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Kaltlager-Hardware-Portfolio – 60€ – Anfänger – Sicher zwischen 2 000€ und 50 000€.
 

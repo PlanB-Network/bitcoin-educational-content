@@ -2,7 +2,7 @@
 name: Coinjoin - Sparrow Wallet
 description: How to perform a coinjoin on Sparrow Wallet?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 In this tutorial, you will learn what a coinjoin is and how to perform one using the Sparrow Wallet software and the Whirlpool implementation.
 

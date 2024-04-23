@@ -4,7 +4,7 @@ name: Breez
 description: Uma carteira poderosa de Lightning
 ---
 
-![capa](assets/cover.jpeg)
+![capa](assets/cover.webp)
 
 Para encontrar todas as informações importantes, consulte o guia extenso deles: https://doc.breez.technology/
 

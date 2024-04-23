@@ -4,7 +4,7 @@ name: Relai
 description: Configuración y uso de Relai
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Solución de compra recurrente de Bitcoin: Relai es una solución suiza sin KYC
 

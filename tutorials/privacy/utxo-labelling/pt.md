@@ -2,7 +2,7 @@
 name: Rotulagem de UTXO
 description: Como rotular corretamente seu UTXO?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Neste tutorial, você descobrirá tudo o que precisa saber sobre a rotulagem de UTXOs na sua carteira Bitcoin e sobre o controle de moedas. Começamos com uma seção teórica para entender completamente esses conceitos, antes de passar para uma parte prática onde exploramos como usar concretamente rótulos no principal software de carteira Bitcoin.
 

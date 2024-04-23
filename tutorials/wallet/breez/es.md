@@ -4,7 +4,7 @@ name: Breez
 description: Una billetera de rayos poderosa
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Para encontrar toda la información importante, consulte su extensa guía: https://doc.breez.technology/
 

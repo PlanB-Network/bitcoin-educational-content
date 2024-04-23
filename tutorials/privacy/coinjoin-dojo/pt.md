@@ -2,7 +2,7 @@
 name: Coinjoin - Dojo
 description: Como realizar um coinjoin com seu próprio Dojo?
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Neste tutorial, você aprenderá o que é um coinjoin e como realizar um usando o software Samourai Wallet e a implementação Whirlpool, utilizando seu próprio Dojo. Na minha opinião, este método é atualmente o melhor para misturar seus bitcoins.
 

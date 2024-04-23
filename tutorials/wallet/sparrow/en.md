@@ -4,7 +4,7 @@ name: Sparrow
 description: Full guide on Sparrow
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 ## A series of videos covering Sparrow Bitcoin Wallet. Guides for beginners and more advanced users.
 

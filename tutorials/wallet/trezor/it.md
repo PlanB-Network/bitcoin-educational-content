@@ -4,7 +4,7 @@ name: Trezor model One
 description: Configurazione e utilizzo di Trezor model One
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Portafoglio hardware a freddo - 60€ - Principiante - Sicuro tra 2.000€ e 50.000€.
 

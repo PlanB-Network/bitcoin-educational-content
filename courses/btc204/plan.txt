@@ -26,6 +26,11 @@ Partie 2 - Définitions et concepts clés
 
 Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
     Chapitre 1 - C'est quoi l'analyse de chaîne sur Bitcoin ?
+        | Définition et fonctionnement
+        | Les objectifs de l'analyse de chaîne
+        | Se défendre face à l'analyse de chaîne
+        | Les méthodes de l'analyse de chaîne
+        | Satoshi Nakamoto et l'analyse de chaîne
     Chapitre 2 - Les patterns de transactions
     Chapitre 3 - Les heuristiques internes
     Chapitre 4 - Les heuristiques externes

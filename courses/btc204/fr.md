@@ -334,23 +334,23 @@ Nous verrons dans les chapitres suivants en quoi elles consistent, mais il est d
 
 Un pattern de transaction est simplement un modèle ou une structure globale de transaction typique, que l’on peut retrouver sur la blockchain, dont on connaît l’interprétation vraisemblable. Lorsque l’on étudie les patterns, on va s’attarder sur une seule transaction que l’on va analyser à un niveau élevé. 
 
-En d’autres termes, on va uniquement regarder le nombre d’entrées et le nombre de sorties, sans nous attarder sur ses détails plus spécifiques ou son environnement. À partir du modèle observé, nous pourrons interpréter la nature de la transaction. On va alors rechercher des caractéristiques sur sa structure et en déduire une interprétation.
+En d’autres termes, nous allons uniquement regarder le nombre d’UTXO en inputs et le nombre d'UTXO en outputs, sans nous attarder sur les détails plus spécifiques ou l'environnement de la transaction. À partir du modèle observé, nous pourrons interpréter la nature de la transaction. On va alors rechercher des caractéristiques sur sa structure et en déduire une interprétation.
 
 32
 
-Dans cette partie, nous allons découvrir ensemble les principaux modèles de transactions que l'on peut rencontrer en analyse de chaîne, et pour chaque modèle, je vous donnerai l'interprétation vraisemblable de cette structure.
+Dans cette partie, nous allons découvrir ensemble les principaux modèles de transactions que l'on peut rencontrer en analyse de chaîne, et pour chaque modèle, je vous donnerai l'interprétation vraisemblable de cette structure, ainsi qu'un exemple concret.
 
 ### L’envoi simple (ou le paiement simple)
 
-On commence avec un pattern très répandu, puisque c'est celui qui ressort sur la plupart des paiements en bitcoins. Le modèle du paiement simple se caractérise par la consommation d’un ou plusieurs UTXOs en inputs et la production de 2 UTXOs en outputs. Ce modèle va donc ressembler à cela :
+On commence par un pattern très répandu, puisque c'est celui qui ressort sur la plupart des paiements en bitcoins. Le modèle du paiement simple se caractérise par la consommation d’un ou plusieurs UTXOs en inputs et la production de 2 UTXOs en outputs. Ce modèle va donc ressembler à cela :
 
 33
 
-Lorsque l'on repère cette structure de transaction sur la blockchain, on peut déjà en tirer une interprétation. Comme son l'indique, ce modèle indique que nous sommes en présence d’une transaction d’envoi ou de paiement. L’utilisateur a consommé son propre UTXO en inputs pour satisfaire en sortie un UTXO de paiement et un UTXO de change (rendu de monnaie qui revient vers le même utilisateur). 
+Lorsque l'on repère cette structure de transaction sur la blockchain, on peut déjà en tirer une interprétation. Comme son nom l'indique, ce modèle indique que nous sommes en présence d’une transaction d’envoi ou de paiement. L’utilisateur a consommé son propre UTXO en inputs pour satisfaire en outputs un UTXO de paiement et un UTXO de change (rendu de monnaie qui revient vers le même utilisateur). 
 
 Nous savons donc que l’utilisateur observé n’est vraisemblablement plus en possession d’un des deux UTXOs en outputs (celui du paiement), mais qu’il est toujours en possession de l’autre UTXO (celui de change).
 
-Pour l'instant, il nous est impossible de préciser quelle sortie représente quel UTXO, puisque ce n'est pas l'objectif de l'étude de patterns. Nous y parviendrons en nous appuyant sur les heuristiques que nous étudierons dans les parties suivantes. À ce stade, notre objectif se limite à identifier la nature de la transaction en question, qui est, en l'occurrence, un envoi simple.
+Pour l'instant, il nous est impossible de préciser quel output représente quel UTXO, puisque ce n'est pas l'objectif de l'étude de patterns. Nous y parviendrons en nous appuyant sur les heuristiques que nous étudierons dans les parties suivantes. À ce stade, notre objectif se limite à identifier la nature de la transaction en question, qui est, en l'occurrence, un envoi simple.
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de l’envoi simple :
 [b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769](https://oxt.me/transaction/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
@@ -369,7 +369,7 @@ Ce deuxième modèle se caractérise par la consommation d’un seul UTXO en ent
 
 35
 
-L’interprétation de ce modèle est que nous sommes en présence d’un auto-transfert. L’utilisateur s’est transféré ses bitcoins à lui-même, sur une autre adresse lui appartenant. Puisqu’aucun change n'existe sur la transaction, il est très peu plausible que l’on soit en présence d’un paiement. En effet, lorsqu'un paiement est effectué, il est presque impossible que le payeur dispose d'un UTXO correspondant exactement au montant requis par le vendeur, en plus des frais de transaction.
+L’interprétation de ce modèle est que nous sommes en présence d’un auto-transfert. L’utilisateur s’est transféré ses bitcoins à lui-même, sur une autre adresse lui appartenant. Puisqu’aucun change n'existe sur la transaction, il est très peu plausible que l’on soit en présence d’un paiement. En effet, lorsqu'un paiement est effectué, il est presque impossible que le payeur dispose d'un UTXO correspondant exactement au montant requis par le vendeur, en plus des frais de transaction. En général, le payeur est donc obligé de produire un output de change.
 
 Nous savons alors que l’utilisateur observé est vraisemblablement encore en possession de cet UTXO. Dans le cadre d'une analyse de chaîne, si nous savons que l'UTXO utilisé en input de la transaction appartient à Alice, on peut supposer que l'UTXO en output lui appartient également. Ce qui deviendra intéressant par la suite, c'est de trouver des heuristiques internes à la transaction qui pourraient renforcer cette hypothèse (nous étudierons ces heuristiques dans le chapitre 3.3).
 
@@ -382,7 +382,7 @@ Source : https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c4
 
 Attention toutefois, ce type de pattern peut également révéler un auto-transfert vers le compte d’une plateforme d’échange de cryptomonnaies. Ce seront l’étude des adresses connues et le contexte de la transaction qui nous permettront de savoir si c’est un balayage vers un portefeuille en self-custody ou un retrait vers une plateforme. En effet, les adresses des plateformes d'échange sont souvent facilement identifiables. 
 
-Reprenons l'exemple d'Alice : si le balayage mène vers une adresse connue d'une plateforme (comme Binance par exemple), cela peut signifier que les bitcoins ont été transférés hors de la possession directe d'Alice, probablement dans l'intention de les vendre ou de les stocker sur cette plateforme. En revanche, si l'adresse de destination est inconnue, il est raisonnable de supposer qu'il s'agit simplement d'un autre portefeuille appartenant toujours à Alice. Mais ce type d'étude rentre plutôt dans la catégorie des heuristiques et pas dans l'étude patterns.
+Reprenons l'exemple d'Alice : si le balayage mène vers une adresse connue d'une plateforme (comme Binance par exemple), cela peut signifier que les bitcoins ont été transférés hors de la possession directe d'Alice, probablement dans l'intention de les vendre ou de les stocker sur cette plateforme. En revanche, si l'adresse de destination est inconnue, il est raisonnable de supposer qu'il s'agit simplement d'un autre portefeuille appartenant toujours à Alice. Mais ce type d'étude rentre plutôt dans la catégorie des heuristiques et pas dans l'étude des patterns.
 
 ### La consolidation
 
@@ -394,7 +394,7 @@ L’interprétation de ce modèle est que nous sommes en présence d’une conso
 
 Nous pouvons en déduire que l’utilisateur derrière ce modèle de transaction était vraisemblablement en possession de l’intégralité des UTXOs en inputs et qu’il est toujours en possession de l’UTXO en output. C’est donc sûrement un auto-transfert.
 
-Tout comme le balayage, ce type de pattern peut également révéler un auto-transfert sur le compte d’un exchange. Ce seront l’étude des adresses connues et le contexte de la transaction qui nous permettront de savoir si c’est une consolidation vers un portefeuille en self-custody ou un retrait vers une plateforme.
+Tout comme le balayage, ce type de pattern peut également révéler un auto-transfert sur le compte d’une plateforme d'échange. Ce seront l’étude des adresses connues et le contexte de la transaction qui nous permettront de savoir si c’est une consolidation vers un portefeuille en self-custody ou un retrait vers une plateforme.
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la consolidation :
 [77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://oxt.me/transaction/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
@@ -409,15 +409,15 @@ Dans le cadre d'une analyse de chaîne, ce modèle peut révéler beaucoup d'inf
 
 ### La dépense groupée
 
-Ce modèle se caractérise par la consommation de quelques UTXOs en entrée (souvent un seul) et la production de nombreux UTXOs en sortie.
+Ce modèle se caractérise par la consommation de quelques UTXOs en inputs (souvent un seul) et la production de nombreux UTXOs en outputs.
 
 40
 
 L’interprétation de ce modèle est que nous sommes en présence d’une dépense groupée. C’est une pratique qui révèle vraisemblablement une très grosse activité économique, comme une plateforme d'échange par exemple. La dépense groupée permet à ces entités d’économiser des frais en réunissant leurs dépenses dans une seule transaction.
 
-Nous pouvons en déduire que l’UTXO en input provient d’une société avec une grosse activité économique et que les UTXOs en sorties vont se disperser. Beaucoup appartiendront à des clients de la société qui ont fait un retrait de bitcoins de la plateforme. D’autres iront peut-être vers des sociétés partenaires. Enfin, il y aura certainement un ou plusieurs changes qui reviendront à la société émettrice.
+Nous pouvons déduire de ce modèle que l’UTXO en input provient d’une société avec une grosse activité économique et que les UTXOs en sorties vont se disperser. Beaucoup appartiendront à des clients de la société qui ont fait un retrait de bitcoins de la plateforme. D’autres iront peut-être vers des sociétés partenaires. Enfin, il y aura certainement un ou plusieurs changes qui reviendront à la société émettrice.
 
-Par exemple, voici une transaction Bitcoin qui adopte le pattern de la dépense groupée :
+Par exemple, voici une transaction Bitcoin qui adopte le pattern de la dépense groupée (vraisemblablement, c'est une transaction émise par la plateforme Bybit) :
 [8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://oxt.me/transaction/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 41
@@ -430,7 +430,7 @@ Parmi les patterns de transactions, nous pouvons également identifier des modè
 
 42
 
-L'analyse de ce pattern suggère que nous sommes vraisemblablement en présence d'une transaction collaborative. Il est aussi possible d'y observer un coinjoin. Si cette dernière hypothèse se révèle exacte, alors le nombre de sorties pourrait nous fournir une estimation approximative du nombre de participants.
+L'analyse de ce pattern suggère que nous sommes vraisemblablement en présence d'une transaction collaborative. Il est aussi possible d'y observer un coinjoin. Si cette dernière hypothèse se révèle exacte, alors le nombre de sorties pourrait nous fournir une estimation approximative du nombre de participants au coinjoin.
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la transaction collaborative de type coinjoin :
 [00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
@@ -439,11 +439,9 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de la transacti
 
 Source : https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 
-Il existe de nombreux autres protocoles qui disposent de leurs propres structures spécifiques. Ainsi, nous pourrions distinguer des transactions de type Wabisabi ou bien des transactions Stamps ou encore Runes par exemple.
+Il existe de nombreux autres protocoles qui disposent de leurs propres structures spécifiques. Ainsi, nous pourrions distinguer des transactions de type Wabisabi, des transactions Stamps ou encore Runes par exemple.
 
 Grâce à ces paternes de transactions, on peut déjà interpréter un certain nombre d'informations sur une transaction donnée. Mais la structure de la transaction n'est pas la seule source d'information pour une analyse. Nous pouvons également étudier les détails de celle-ci. Ces détails uniquement internes à une transaction, c'est ce que j'aime appeler des "heuristiques internes", et nous allons les étudier dans le chapitre suivant.
-
-Grâce à ces modèles de transactions, nous sommes déjà en mesure d'interpréter une série d'informations sur une transaction spécifique. Toutefois, la structure même de la transaction n'est pas l'unique source d'information pour une analyse. Il est également possible d'examiner les détails spécifiques à chaque transaction, ce que j'aime qualifier d'"heuristiques internes". Nous allons étudier ces heuristiques internes dans le prochain chapitre.
 
 ## Les heuristiques internes 
 

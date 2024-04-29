@@ -7,7 +7,7 @@ description: Understanding and using JoinBot
 
 JoinBot is a new tool that is added to the Samourai Wallet suite with the latest update 0.99.98f of the famous Bitcoin wallet software. It allows you to easily make a collaborative transaction to optimize your privacy, without having to find a partner.
 
-**Thanks to the excellent Fanis Michalakis for the idea of using DALL-E for the thumbnail!**
+*Thanks to the excellent Fanis Michalakis for the idea of using DALL-E for the thumbnail!*
 
 ## What is a collaborative transaction on Bitcoin?
 
@@ -69,8 +69,6 @@ From the outside, a StonewallX2 transaction cannot be differentiated from a Ston
 Furthermore, the advantage of StonewallX2 over a Stowaway-type PayJoin is that it can be used in any situation. The actual recipient of the payment does not contribute any inputs to the transaction. Thus, a StonewallX2 can be used to pay at any merchant accepting Bitcoin, even if the merchant does not use Samourai or Sparrow.
 On the other hand, the main disadvantage of this transaction structure is that it requires a collaborator who is willing to use their bitcoins to participate in your payment. If you have bitcoin friends willing to help you in any situation, this is not a problem. However, if you don't know any other Samourai Wallet users, or if no one is available to collaborate, then you are stuck.
 
-However, there is a Telegram group where you can find other Samourai users who are willing to collaborate with you. You can find it by clicking here.
-
 To solve this problem, the Samourai team recently added a new feature to their application: JoinBot.
 
 # What is JoinBot?
@@ -123,10 +121,6 @@ JoinBot is an additional tool that adds more choices and freedom for Samourai us
 
 If you can perform a classic StonewallX2 with a friend, I still recommend using this tool. However, if you are stuck and cannot find any collaborators to make a payment, you know that JoinBot will be available 24/7 to collaborate with you.
 
-> External resources:
-> '
->
-> - [Understanding Bitcoin Privacy with OXT - Part 1/4](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923)
-> - [Video: Understanding Bitcoin Privacy with OXT](https://youtu.be/vhUREWiY570)
-> - [Privacy-Enhanced Transactions](https://docs.samourai.io/wallet/privacy-enhanced-transactions)
-> - [Comprendre et utiliser le CoinJoin sur Bitcoin](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)
+**External resources:**
+- https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
+- https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin

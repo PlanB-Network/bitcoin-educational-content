@@ -39,7 +39,7 @@ Da Bitcoin-Transaktionen öffentlich gemacht werden, wird es möglich, Verbindun
 
 Die Mehrheit der Unternehmen, die sich auf Chain-Analyse spezialisiert haben, operieren als Black Boxes und legen ihre Methodologien nicht offen. Daher ist es schwierig, Informationen über diese Praxis zu erhalten. Für die Erstellung dieses Artikels stützte ich mich hauptsächlich auf die wenigen offenen Ressourcen, die verfügbar sind:
 - Der Großteil meines Artikels ist aus der Serie von vier Artikeln mit dem Namen: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produziert von Samourai Wallet im Jahr 2021, entnommen;
-- Ich habe auch verschiedene Berichte von [OXT Research](https://medium.com/oxt-research) verwendet, sowie [ihr kostenloses Chain-Analyse-Tool](https://oxt.me/);
+- Ich habe auch verschiedene Berichte von [OXT Research](https://medium.com/oxt-research) verwendet, sowie ihr kostenloses Chain-Analyse-Tool ;
 - Im Allgemeinen stammt mein Wissen aus den verschiedenen Tweets und Inhalten von [@LaurentMT](https://twitter.com/LaurentMT) und [@ErgoBTC](https://twitter.com/ErgoBTC);
 - Ich ließ mich auch von [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) inspirieren, an dem ich neben [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___), und [@LaurentMT](https://twitter.com/LaurentMT) teilnahm.
 
@@ -99,7 +99,7 @@ Dieses Modell ist durch den Verbrauch eines einzigen UTXOs als Eingabe und die P
 Die Interpretation dieses Modells ist, dass wir in Anwesenheit einer Selbstübertragung sind. Der Benutzer hat seine Bitcoins an sich selbst, an eine andere Adresse, die sie besitzen, übertragen. Da es in der Transaktion kein Wechselgeld gibt, ist es sehr unwahrscheinlich, dass wir es mit einer Zahlung zu tun haben. Wir wissen dann, dass der beobachtete Benutzer wahrscheinlich immer noch im Besitz dieses UTXOs ist.
 
 Zum Beispiel, hier ist eine Bitcoin-Transaktion, die das Sweep-Muster annimmt:
-[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://oxt.me/transaction/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
+[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://mempool.space/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
 Jedoch kann dieser Typ von Muster auch eine Selbstübertragung auf ein Exchange-Konto (Kryptowährungsbörse) aufdecken. Es wird die Untersuchung bekannter Adressen und der Kontext der Transaktion sein, die es uns ermöglichen wird zu wissen, ob es sich um ein Sweep zu einem Wallet in Eigenverwahrung oder eine Auszahlung an eine Plattform handelt.
 
@@ -115,7 +115,7 @@ Wir können ableiten, dass der Benutzer hinter dieser Transaktion wahrscheinlich
 Genau wie das Sweep kann auch dieser Typ von Muster eine Selbstübertragung auf ein Exchange-Konto aufdecken. Es wird die Untersuchung bekannter Adressen und der Kontext der Transaktion sein, die es uns ermöglichen wird zu wissen, ob es sich um eine Konsolidierung zu einem Wallet in Eigenverwahrung oder eine Auszahlung an eine Plattform handelt.
 
 Zum Beispiel, hier ist eine Bitcoin-Transaktion, die das Konsolidierungsmuster annimmt:
-[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://oxt.me/transaction/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)### Das Batch-Spending-Modell
+[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://mempool.space/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)### Das Batch-Spending-Modell
 Dieses Modell zeichnet sich durch den Verbrauch weniger UTXOs als Eingabe (oft nur eines) und die Erzeugung vieler UTXOs als Ausgabe aus.
 
 ![Analyse](assets/de/5.webp)
@@ -125,7 +125,7 @@ Die Interpretation dieses Modells ist, dass wir in Anwesenheit eines Batch-Spend
 Wir können ableiten, dass der UTXO-Eingang von einem Unternehmen mit erheblicher wirtschaftlicher Aktivität stammt und dass die UTXO-Ausgänge sich verteilen werden. Einige werden zu Kunden des Unternehmens gehören. Andere könnten an Partnerunternehmen gehen. Schließlich wird sicherlich eine Änderung zurück an das ausstellende Unternehmen gehen.
 
 Zum Beispiel hier ist eine Bitcoin-Transaktion, die das Batch-Spending-Muster annimmt:
-[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://oxt.me/transaction/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
+[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://mempool.space/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 ### Protokollspezifische Transaktionen
 Unter den Transaktionsmustern können wir auch Modelle identifizieren, die die Verwendung eines spezifischen Protokolls offenbaren. Zum Beispiel werden Whirlpool-Coinjoins eine leicht identifizierbare Struktur haben, die sie von anderen klassischen Transaktionen unterscheidet.
@@ -135,7 +135,7 @@ Unter den Transaktionsmustern können wir auch Modelle identifizieren, die die V
 Die Analyse dieses Musters legt nahe, dass wir wahrscheinlich in Anwesenheit einer kollaborativen Transaktion sind. Es ist auch möglich, einen Coinjoin zu beobachten. Wenn sich diese letztere Hypothese als zutreffend erweist, könnte uns die Anzahl der Ausgänge eine ungefähre Schätzung der Anzahl der Teilnehmer liefern.
 
 Zum Beispiel hier ist eine Bitcoin-Transaktion, die das Muster des kollaborativen Transaktionstyps Coinjoin annimmt:
-[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
+[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://mempool.space/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
 Es gibt viele andere Protokolle, die ihre eigenen spezifischen Strukturen haben. So könnten wir zum Beispiel Transaktionen des Typs Wabisabi oder Stamps-Transaktionen unterscheiden.
 
@@ -157,14 +157,14 @@ Die offensichtlichste Eigenschaft ist die Wiederverwendung einer Empfangsadresse
 Diese Heuristik lässt wenig Raum für Zweifel. Sofern ihr privater Schlüssel nicht kompromittiert wurde, offenbart dieselbe Empfangsadresse unweigerlich die Aktivität eines einzelnen Benutzers. Die daraus folgende Interpretation ist, dass das Wechselgeld der Transaktion die Ausgabe mit derselben Adresse wie die Eingabe ist. Dies ermöglicht es uns, die Spur der Person von diesem Wechselgeld aus weiterzuverfolgen.
 
 Hier ist zum Beispiel eine Transaktion, bei der diese Heuristik wahrscheinlich angewendet werden kann:
-[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://oxt.me/transaction/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
+[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 Diese Ähnlichkeiten zwischen den Eingaben und Ausgaben beschränken sich nicht auf die Wiederverwendung von Adressen. Jede Ähnlichkeit in der Verwendung von Skripten kann die Anwendung einer Heuristik ermöglichen. Zum Beispiel kann manchmal dieselbe Versionierung zwischen einer Eingabe und einer der Ausgaben der Transaktion beobachtet werden.
 
 ![Analyse](assets/de/8.webp)
 In diesem Diagramm können wir sehen, dass Eingabe Nummer 0 ein P2WPKH-Skript (SegWit V0, beginnend mit "bc1q") entsperrt. Ausgabe Nummer 0 verwendet denselben Skripttyp. Jedoch verwendet Ausgabe Nummer 1 ein P2TR-Skript (SegWit V1, beginnend mit "bc1p"). Die Interpretation dieser Eigenschaft ist, dass es wahrscheinlich ist, dass die Adresse mit derselben Versionierung wie die Eingabe die Wechseladresse ist. Sie würde daher immer noch demselben Benutzer gehören.
 Hier ist eine Transaktion, bei der diese Heuristik wahrscheinlich angewendet werden kann:
-[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://oxt.me/transaction/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
+[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 In dieser Transaktion können wir sehen, dass Eingabe Nummer 0 und Ausgabe Nummer 1 P2WPKH-Skripte (SegWit V0) verwenden, während Ausgabe Nummer 0 einen anderen Skripttyp verwendet, P2PKH (Legacy).
 
@@ -189,7 +189,7 @@ Diese Heuristik der größten Ausgabe ist wahrscheinlich die ungenaueste von all
 Zum Beispiel, wenn wir eine Transaktion untersuchen, die eine Ausgabe mit einem runden Betrag und eine andere Ausgabe mit einem größeren Betrag aufweist, ermöglicht die gemeinsame Anwendung der Heuristik der runden Zahlungen und derjenigen, die die größte Ausgabe betrifft, unsere Unsicherheit zu reduzieren.
 
 Zum Beispiel, hier ist eine Transaktion, bei der diese Heuristik wahrscheinlich angewendet werden kann:
-[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://oxt.me/transaction/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
+[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 ## Externe Heuristiken zur Transaktion
 Die Untersuchung externer Heuristiken ist die Analyse von Ähnlichkeiten, Mustern und Merkmalen bestimmter Elemente, die nicht inhärent zur Transaktion selbst sind. Mit anderen Worten, wenn wir uns zuvor darauf beschränkt haben, Elemente zu nutzen, die der Transaktion intrinsisch sind, mit internen Heuristiken, erweitern wir nun unser Analysefeld auf die Umgebung der Transaktion dank externer Heuristiken.
@@ -201,7 +201,7 @@ Die Interpretation der Adresswiederverwendung ist, dass alle auf dieser Adresse 
 Wie in der Einleitung erklärt, wurde diese Heuristik von Satoshi Nakamoto selbst entdeckt. Im White Paper erwähnt er speziell eine Lösung, um Benutzer davon abzuhalten, sie zu produzieren, was einfach darin besteht, für jede neue Transaktion eine frische Adresse zu verwenden: "*Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, um sie nicht mit einem gemeinsamen Besitzer in Verbindung zu bringen.*"
 
 Zum Beispiel, hier ist eine Adresse, die in mehreren Transaktionen wiederverwendet wurde:
-[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 ### Die Ähnlichkeit von Skripten und Wallet-Fingerabdrücken
 Neben der Wiederverwendung von Adressen gibt es viele andere Heuristiken, die Aktionen demselben Wallet oder einem Cluster von Adressen zuordnen können.
@@ -246,7 +246,7 @@ Umgekehrt, wenn man sieht, dass das zeitliche Muster eher über 16 spezifische S
 
 Über die Natur der beobachteten Entität hinaus kann das zeitliche Muster uns auch einen ungefähren Standort des Nutzers geben. Wir können somit andere Transaktionen korrelieren und den Zeitstempel dieser als zusätzliche Heuristik verwenden, die zu unserer Analyse hinzugefügt werden kann.
 Zum Beispiel, bei der mehrfach genutzten Adresse, die ich zuvor erwähnt habe, kann man beobachten, dass die Transaktionen, egal ob eingehend oder ausgehend, sich über ein 13-Stunden-Intervall konzentrieren. ![Analyse](assets/de/12.webp)
-*Kredit: [https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)*
+*Kredit: OXT*
 
 Dieses Intervall entspricht wahrscheinlich Europa, Afrika oder dem Nahen Osten. Daher kann interpretiert werden, dass der Nutzer hinter diesen Transaktionen dort lebt.
 

@@ -40,7 +40,7 @@ Dado que las transacciones de Bitcoin se hacen públicas, se vuelve posible esta
 
 La mayoría de las empresas especializadas en análisis de cadena operan como cajas negras y no revelan sus metodologías. Por lo tanto, es difícil obtener información sobre esta práctica. Para la redacción de este artículo, me basé principalmente en los pocos recursos abiertos disponibles:
 - La mayor parte de mi artículo se extrae de la serie de cuatro artículos llamada: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), producida por Samourai Wallet en 2021;
-- También utilicé varios informes de [OXT Research](https://medium.com/oxt-research), así como [su herramienta gratuita de análisis de cadena](https://oxt.me/);
+- También utilicé varios informes de [OXT Research](https://medium.com/oxt-research), así como su herramienta gratuita de análisis de cadena ;
 - Más ampliamente, mi conocimiento proviene de los diferentes tweets y contenidos de [@LaurentMT](https://twitter.com/LaurentMT) y [@ErgoBTC](https://twitter.com/ErgoBTC);
 - También me inspiré en [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) en el que participé junto a [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___), y [@LaurentMT](https://twitter.com/LaurentMT).
 
@@ -99,7 +99,7 @@ Este modelo se caracteriza por el consumo de un único UTXO como entrada y la pr
 La interpretación de este modelo es que estamos ante una auto-transferencia. El usuario ha transferido sus bitcoins a sí mismo, a otra dirección que posee. De hecho, dado que no hay cambio en la transacción, es muy improbable que estemos tratando con un pago. Entonces sabemos que el usuario observado probablemente aún esté en posesión de este UTXO.
 
 Por ejemplo, aquí hay una transacción de Bitcoin que adopta el patrón de barrido:
-[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://oxt.me/transaction/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
+[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://mempool.space/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
 Sin embargo, este tipo de patrón también puede revelar una auto-transferencia a una cuenta de intercambio (plataforma de intercambio de criptomonedas). Será el estudio de direcciones conocidas y el contexto de la transacción lo que nos permitirá saber si es un barrido a una billetera de auto-custodia o una retirada a una plataforma.
 
@@ -115,7 +115,7 @@ Podemos deducir que el usuario detrás de esta transacción probablemente estaba
 Al igual que el barrido, este tipo de patrón también puede revelar una auto-transferencia a una cuenta de intercambio. Será el estudio de direcciones conocidas y el contexto de la transacción lo que nos permitirá saber si es una consolidación a una billetera de auto-custodia o una retirada a una plataforma.
 
 Por ejemplo, aquí hay una transacción de Bitcoin que adopta el patrón de consolidación:
-[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://oxt.me/transaction/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
+[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://mempool.space/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 ### El Modelo de Gasto por Lotes
 Este modelo se caracteriza por el consumo de unos pocos UTXOs como entrada (a menudo solo uno) y la producción de muchos UTXOs como salida.
 
@@ -126,7 +126,7 @@ La interpretación de este modelo es que estamos en presencia de un gasto por lo
 Podemos deducir que la entrada de UTXO proviene de una empresa con actividad económica significativa y que los UTXOs de salida se dispersarán. Algunos pertenecerán a los clientes de la empresa. Otros pueden ir hacia empresas asociadas. Finalmente, ciertamente habrá un cambio que regresa a la empresa emisora.
 
 Por ejemplo, aquí hay una transacción de Bitcoin que adopta el patrón de gasto por lotes:
-[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://oxt.me/transaction/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
+[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://mempool.space/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 ### Transacciones Específicas del Protocolo
 Entre los patrones de transacción, también podemos identificar modelos que revelan el uso de un protocolo específico. Por ejemplo, los coinjoins de Whirlpool tendrán una estructura fácilmente identificable que permite diferenciarlos de otras transacciones clásicas.
@@ -136,7 +136,7 @@ Entre los patrones de transacción, también podemos identificar modelos que rev
 El análisis de este patrón sugiere que probablemente estamos en presencia de una transacción colaborativa. También es posible observar un coinjoin. Si esta última hipótesis resulta ser precisa, entonces el número de salidas podría proporcionarnos una estimación aproximada del número de participantes.
 
 Por ejemplo, aquí hay una transacción de Bitcoin que adopta el patrón del tipo de transacción colaborativa coinjoin:
-[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
+[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://mempool.space/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
 Existen muchos otros protocolos que tienen sus propias estructuras específicas. Así, podríamos distinguir transacciones del tipo Wabisabi o transacciones Stamps, por ejemplo.
 
@@ -158,14 +158,14 @@ La característica más obvia es la reutilización de una dirección de recepci�
 Esta heurística deja poco margen para la duda. A menos que su clave privada haya sido comprometida, la misma dirección de recepción revela inevitablemente la actividad de un único usuario. La interpretación que sigue es que el cambio de la transacción es la salida con la misma dirección que la entrada. Esto nos permite continuar rastreando al individuo a partir de este cambio.
 
 Por ejemplo, aquí hay una transacción donde esta heurística probablemente se pueda aplicar:
-[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://oxt.me/transaction/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
+[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 Estas similitudes entre las entradas y salidas no se detienen en la reutilización de direcciones. Cualquier semejanza en el uso de scripts puede permitir la aplicación de una heurística. Por ejemplo, a veces se puede observar la misma versión entre una entrada y una de las salidas de la transacción.
 
 ![análisis](assets/es/8.webp)
 En este diagrama, podemos ver que la entrada número 0 desbloquea un script P2WPKH (SegWit V0 que comienza con "bc1q"). La salida número 0 utiliza el mismo tipo de script. Sin embargo, la salida número 1 utiliza un script P2TR (SegWit V1 que comienza con "bc1p"). La interpretación de esta característica es que es probable que la dirección con la misma versión que la entrada sea la dirección de cambio. Por lo tanto, todavía pertenecería al mismo usuario.
 Aquí hay una transacción donde esta heurística probablemente se pueda aplicar:
-[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://oxt.me/transaction/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
+[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 En esta transacción, podemos ver que la entrada número 0 y la salida número 1 usan scripts P2WPKH (SegWit V0), mientras que la salida número 0 utiliza un tipo de script diferente, P2PKH (Legacy).
 
@@ -190,7 +190,7 @@ Esta heurística de la salida más grande es probablemente la más imprecisa de 
 Por ejemplo, si examinamos una transacción que presenta una salida con una cantidad redonda y otra salida con una cantidad mayor, la aplicación conjunta de la heurística de pagos redondos y la que concierne a la salida más grande nos permite reducir nuestro nivel de incertidumbre.
 
 Por ejemplo, aquí hay una transacción donde esta heurística probablemente se pueda aplicar:
-[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://oxt.me/transaction/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
+[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 ## Heurísticas Externas a la Transacción
 El estudio de las heurísticas externas es el análisis de similitudes, patrones y características de ciertos elementos que no son inherentes a la transacción misma. En otras palabras, si anteriormente nos limitábamos a explotar elementos intrínsecos a la transacción con heurísticas internas, ahora estamos expandiendo nuestro campo de análisis al entorno de la transacción gracias a las heurísticas externas.
@@ -202,7 +202,7 @@ La interpretación de la reutilización de direcciones es que todos los UTXOs bl
 Como se explicó en la introducción, esta heurística fue descubierta por el propio Satoshi Nakamoto. En el White Paper, menciona específicamente una solución para evitar que los usuarios la produzcan, que es simplemente usar una dirección fresca para cada nueva transacción: "*Como un cortafuegos adicional, un nuevo par de claves podría ser utilizado para cada transacción para mantenerlas no vinculadas a un propietario común.*"
 
 Por ejemplo, aquí hay una dirección reutilizada en múltiples transacciones:
-[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 ### La Similitud de Scripts y Huellas Digitales de Carteras
 Más allá de la reutilización de direcciones, existen muchas otras heurísticas que pueden vincular acciones a la misma billetera o a un grupo de direcciones.
@@ -247,7 +247,7 @@ Por el contrario, si se ve que el patrón temporal está más bien distribuido d
 
 Más allá de la naturaleza de la entidad observada, el patrón temporal también puede darnos una ubicación aproximada del usuario. Así podemos correlacionar otras transacciones, y usar el timestamp de estas como una heurística adicional que se puede añadir a nuestro análisis.
 Por ejemplo, en la dirección que se ha reutilizado varias veces que mencioné anteriormente, se puede observar que las transacciones, ya sean entrantes o salientes, están concentradas en un intervalo de 13 horas. ![análisis](assets/es/12.webp)
-*Crédito: [https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)*
+*Crédito: OXT*
 
 Este intervalo probablemente corresponde a Europa, África o Medio Oriente. Por lo tanto, se puede interpretar que el usuario detrás de estas transacciones vive allí.
 

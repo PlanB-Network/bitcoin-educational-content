@@ -4,9 +4,19 @@ description: How to perform a Payjoin transaction on Samourai Wallet?
 ---
 ![samourai payjoin cover](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, Payjoins Stowaway now only function by manually exchanging PSBTs between the concerned parties, provided both users are connected to their own Dojo. However, it is possible that these tools might be relaunched in the coming weeks. In the meantime, you can still consult this article to understand the theoretical operation of Stowaway.*
+
+_If you plan to perform a Stowaway manually, the procedure is very similar to that described in this tutorial. The main difference lies in the choice of the type of Stowaway transaction: instead of selecting `Online`, click on `In Person / Manual`. Then, you will need to manually exchange the PSBTs to construct the Stowaway transaction. If you are physically close to your collaborator, you can scan the QR codes successively. If you are at a distance, JSON files can be exchanged via a secure communication channel. The rest of the tutorial remains unchanged._
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 > *"Force blockchain spies to rethink everything they think they know."*
 
-Payjoin is a specific Bitcoin transaction structure that enhances user privacy during a spend by collaborating with the payment recipient. There are several implementations that facilitate the setup and automation of PayJoin. Among these implementations, the most well-known is Stowaway, developed by the teams at [Samourai Wallet](https://samouraiwallet.com/stowaway). This tutorial explains how to perform a Stowaway Payjoin transaction using the Samourai Wallet application.
+Payjoin is a specific Bitcoin transaction structure that enhances user privacy during a spend by collaborating with the payment recipient. There are several implementations that facilitate the setup and automation of PayJoin. Among these implementations, the most well-known is Stowaway, developed by the teams at Samourai Wallet. This tutorial explains how to perform a Stowaway Payjoin transaction using the Samourai Wallet application.
 
 ## How does Stowaway work?
 
@@ -66,5 +76,4 @@ If you have completed these preliminary steps, you are finally ready to perform 
 ![Payjoin Video Tutorial - Samourai Wallet](https://youtu.be/FXW6XZim0ww?si=EXalYwK1t9DT48aE)
 
 **External resources:**
-- https://docs.samourai.io/en/spend-tools#stowaway;
-- https://samouraiwallet.com/stowaway.
+- https://docs.samourai.io/en/spend-tools#stowaway.

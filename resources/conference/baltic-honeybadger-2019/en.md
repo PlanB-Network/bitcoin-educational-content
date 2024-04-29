@@ -1,6 +1,6 @@
 ---
-Name: Honey Badger 2019
-Description: The most OG Bitcoin conference in the world
+name: Honey Badger 2019
+description: The most OG Bitcoin conference in the world
 ---
 
 # Main Stage 

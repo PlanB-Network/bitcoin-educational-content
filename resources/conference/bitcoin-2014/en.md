@@ -1,6 +1,6 @@
 ---
-Name: Bitcoin 2014
-Description: Here are some recording feature of Bitcoin 2014 conference hold in Amsterdam 
+name: Bitcoin 2014
+description: Here are some recording feature of Bitcoin 2014 conference hold in Amsterdam 
 
 ---
 

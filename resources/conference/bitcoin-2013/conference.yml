@@ -1,6 +1,6 @@
 year: 2013-05
 name: Bitcoin 2013
-Builder: bitcoin-foundation
+builder: bitcoin-foundation
 location: San Jose, USA
 language: 
   - en

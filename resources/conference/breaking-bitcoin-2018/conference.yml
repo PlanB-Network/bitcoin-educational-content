@@ -1,6 +1,6 @@
 year: 2018
 name: Breaking Bitcoin 2018
-Builder: breaking-bitcoin
+builder: breaking-bitcoin
 location: Lisbon, Portugal
 language: 
   - en

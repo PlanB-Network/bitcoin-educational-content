@@ -1,6 +1,6 @@
 year: 2023-11
 name: B-only 2023
-Builder: b-only
+builder: b-only
 location: Annecy, France
 language: 
   - fr

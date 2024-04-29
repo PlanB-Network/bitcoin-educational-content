@@ -1,6 +1,6 @@
 ---
-Name:  Tuscany Lightning Summit 2024
-Description: Private Lightning event for builder
+name:  Tuscany Lightning Summit 2024
+description: Private Lightning event for builder
 
 ---
 

@@ -4,6 +4,13 @@ description: ¿Qué es un Payjoin en Bitcoin?
 ---
 ![Miniatura de Payjoin - esteganografía](assets/cover.webp)
 
+***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, los Payjoins ya no están operativos en Sparrow Wallet, y los Stowaway en Samourai Wallet solo funcionan intercambiando manualmente los PSBT entre las partes involucradas, siempre que ambos usuarios estén conectados a su propio Dojo. Sin embargo, es posible que estas herramientas sean relanzadas en las próximas semanas. Mientras tanto, puede consultar este artículo para entender el funcionamiento teórico de los payjoins.*
+
+_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+
+_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+
+---
 ## Comprendiendo las transacciones Payjoin en Bitcoin
 
 Payjoin es una estructura específica de transacción de Bitcoin que mejora la privacidad del usuario durante un pago al colaborar con el destinatario del pago.
@@ -43,6 +50,5 @@ Si deseas analizar una transacción Payjoin real, aquí tienes una que realicé 
 
 **Recursos externos:**
 - https://docs.samourai.io/en/spend-tools#stowaway;
-- https://samouraiwallet.com/stowaway;
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.

@@ -4,6 +4,14 @@ description: Comprendre et utiliser les transactions Ricochet
 ---
 ![cover ricochet](assets/cover.webp)
 
+***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, l'outil Ricochet n'est plus disponible. Il est toutefois possible que cet outil soit remis en service dans les semaines à venir. En attendant, vous pouvez uniquement réaliser un Ricochet manuellement. La partie théorique de cet article demeure pertinente pour comprendre son fonctionnement et apprendre comment le faire manuellement.*
+
+_Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
+
+_Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction._
+
+---
+
 > *"A premium tool that adds extra hops of history to your transaction. Stump the blacklists and help guard against unjust 3rd party account closures."*
 
 ## C'est quoi un Ricochet ?
@@ -37,5 +45,4 @@ Si vous souhaitez étudier les transactions Ricochet effectuée dans ce tutoriel
 - La dernière transaction du Ricochet : [27980ce507630882f2a1ef94b941a0a3e086b80b10faf7bd168f3ebb4c3e4777](https://mempool.space/fr/testnet/tx/27980ce507630882f2a1ef94b941a0a3e086b80b10faf7bd168f3ebb4c3e4777)
 
 **Ressources externes :**
-- https://docs.samourai.io/en/wallet/features/ricochet ;
-- https://samouraiwallet.com/ricochet.
+- https://docs.samourai.io/en/wallet/features/ricochet.

@@ -5,6 +5,14 @@ description: Understanding and using JoinBot
 
 ![DALL·E – samurai robot in a red forest, 3D render](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, **the JoinBot service is no longer available**. As of now, it is no longer possible to use this tool. However, you can still carry out Stonewall X2, but you need to find a collaborator and manually exchange PSBTs. This service may be relaunched in the coming months depending on the progress of the case.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 JoinBot is a new tool that is added to the Samourai Wallet suite with the latest update 0.99.98f of the famous Bitcoin wallet software. It allows you to easily make a collaborative transaction to optimize your privacy, without having to find a partner.
 
 *Thanks to the excellent Fanis Michalakis for the idea of using DALL-E for the thumbnail!*

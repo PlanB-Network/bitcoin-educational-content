@@ -3,6 +3,13 @@ name: BIP47 - PayNym
 
 description: ¿Cómo funcionan los PayNym?
 ---
+***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, la aplicación ya no puede ser utilizada por usuarios que no dispongan de su propio Dojo. El BIP47 sigue siendo utilizable en Sparrow Wallet para todos los usuarios y **en Samourai Wallet solo para los usuarios que dispongan de un Dojo**.*
+
+_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+
+_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+
+---
 
 > "Es demasiado grande", decían todos, y el gallo de Indias que había nacido con espolones y se creía emperador, se infló como un barco con todas las velas desplegadas y se dirigió hacia él con gran furia y rojo hasta los ojos. El pobre patito no sabía si debía detenerse o seguir adelante: se entristeció mucho al ser ridiculizado por todos los patos de la corte.
 
@@ -16,7 +23,7 @@ Este compromiso es tan antiguo como el Libro Blanco. Satoshi ya nos advertía so
 
 Existen muchas soluciones para recibir múltiples pagos sin reutilizar direcciones. Cada una de ellas tiene sus propios compromisos y desventajas. Entre todas estas soluciones, está el [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki), una propuesta desarrollada por Justus Ranvier y publicada en 2015 que permite generar códigos de pago reutilizables. Su objetivo es poder realizar múltiples transacciones hacia la misma persona sin reutilizar direcciones.
 
-Inicialmente, esta propuesta fue recibida con desprecio por parte de una parte de la comunidad y nunca se agregó a Bitcoin Core. Sin embargo, algunos software decidieron implementarla por su cuenta. Así, [Samourai Wallet](https://samouraiwallet.com/) desarrolló su propia implementación de BIP47: PayNym. Hoy en día, esta implementación está disponible en Samourai Wallet para teléfonos inteligentes, pero también en [Sparrow Wallet](https://sparrowwallet.com/) para PC.
+Inicialmente, esta propuesta fue recibida con desprecio por parte de una parte de la comunidad y nunca se agregó a Bitcoin Core. Sin embargo, algunos software decidieron implementarla por su cuenta. Así, Samourai Wallet desarrolló su propia implementación de BIP47: PayNym. Hoy en día, esta implementación está disponible en Samourai Wallet para teléfonos inteligentes, pero también en [Sparrow Wallet](https://sparrowwallet.com/) para PC.
 
 Con el tiempo, Samourai ha programado nuevas características relacionadas directamente con PayNym. Ahora existe todo un ecosistema de herramientas para optimizar la privacidad del usuario basadas en PayNym y BIP47.
 En este artículo, descubrirás el principio de BIP47 y PayNym, los mecanismos de estos protocolos y las aplicaciones prácticas que se derivan de ellos. Solo abordaré la primera versión de BIP47, la que se utiliza actualmente para PayNym, pero las versiones 2, 3 y 4 funcionan prácticamente de la misma manera.
@@ -74,12 +81,12 @@ La reutilización de direcciones permite a un observador establecer un vínculo 
 Es por esta razón que la mayoría de las carteras de Bitcoin generan automáticamente una nueva dirección de recepción cuando se hace clic en el botón "Recibir". Para el usuario regular, acostumbrarse a usar direcciones nuevas no es un gran inconveniente. Sin embargo, para un comercio en línea, un intercambio o una campaña de donación, esta restricción puede volverse rápidamente inmanejable.
 Existen muchas soluciones para estas organizaciones. Cada una de ellas tiene sus ventajas y desventajas, pero hasta la fecha, y como veremos más adelante, el BIP47 se diferencia realmente de las demás.
 
-Este problema de la reutilización de direcciones no es insignificante en Bitcoin. Como se puede ver en el gráfico a continuación, extraído del sitio [oxt.me](http://oxt.me/), la tasa global de reutilización de direcciones por parte de los usuarios de Bitcoin es actualmente del 52%:
+Este problema de la reutilización de direcciones no es insignificante en Bitcoin. Como se puede ver en el gráfico a continuación, extraído del sitio oxt.me, la tasa global de reutilización de direcciones por parte de los usuarios de Bitcoin es actualmente del 52%:
 Gráfico de OXT.me que muestra la evolución de la tasa global de reutilización de direcciones en la red de Bitcoin.
 
 ![image](assets/2.webp)
 
-Crédito: https://oxt.me/charts
+Crédito: OXT
 
 La mayoría de estas reutilizaciones provienen de los intercambios que, por razones de eficiencia y facilidad, reutilizan la misma dirección muchas veces. Hasta la fecha, el BIP47 sería la mejor solución para frenar este fenómeno en los intercambios. Esto permitiría reducir la tasa global de reutilización de direcciones, sin causar demasiadas fricciones para estas entidades.
 

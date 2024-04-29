@@ -4,6 +4,14 @@ description: Beherrschen Sie die Grundlagen der Chain-Analyse bei Bitcoin
 ---
 ![cover](assets/cover.webp)
 
+***ACHTUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April ist **die Website OXT.me derzeit nicht zugänglich**. Es bleibt jedoch möglich, dass dieses Werkzeug in den kommenden Wochen wieder eingeführt wird. In der Zwischenzeit können Sie dieses Tutorial nutzen, um die Grundlagen der Chain-Analyse auf Bitcoin zu verstehen. Alle Heuristiken und Muster, die ich Ihnen vorstelle, bleiben auf Bitcoin-Transaktionen anwendbar. Auch wenn diese Werkzeuge weniger optimiert sind als OXT, können Sie vorübergehend [Mempool.space](https://mempool.space/) oder [Bitcoin Explorer](https://bitcoinexplorer.org/) verwenden, um die theoretischen Konzepte dieses Artikels in die Praxis umzusetzen.*
+
+_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+---
+
 In diesem Artikel lernen Sie die wesentlichen theoretischen Grundlagen kennen, die erforderlich sind, um mit grundlegenden Chain-Analysen bei Bitcoin zu beginnen und noch wichtiger, um zu verstehen, wie diejenigen, die Sie beobachten, operieren. Obwohl dieser Artikel kein praktisches Tutorial zum OXT-Tool ist (ein Thema, das wir in einem zukünftigen Tutorial behandeln werden), stellt er eine Reihe von entscheidenden Kenntnissen für dessen Verwendung zusammen. Für jedes vorgestellte Modell, jede Metrik und jeden Indikator wird ein Link zu einer Beispieltransaktion auf OXT bereitgestellt, der es Ihnen ermöglicht, dessen Verwendung besser zu verstehen und parallel zu Ihrer Lektüre zu üben.
 
 ## Einführung

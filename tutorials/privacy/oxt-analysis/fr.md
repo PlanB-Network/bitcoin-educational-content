@@ -4,6 +4,14 @@ description: Maîtriser les bases de l’analyse de chaîne sur Bitcoin
 ---
 ![cover](assets/cover.webp)
 
+***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, **le site OXT.me n'est actuellement plus accessible**. Cependant, il reste possible que cet outil soit relancé dans les semaines à venir. En attendant, vous pouvez toujours profiter de ce tutoriel pour comprendre les bases de l'analyse de chaîne sur Bitcoin. Toutes les heuristiques et tous les patterns que je vous présente restent applicables aux transactions Bitcoin. Même si ces outils sont moins optimisés que OXT, vous pouvez utilisez provisoirement [Mempool.space](https://mempool.space/) ou bien [Bitcoin Explorer](https://bitcoinexplorer.org/) pour mettre en pratique les notions théoriques de cet article.*
+
+_Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
+
+_Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction._
+
+---
+
 Dans cet article, vous allez apprendre les fondements théoriques essentiels à maîtriser pour vous lancer dans des analyses de chaîne basiques sur Bitcoin, et surtout, pour comprendre comment opèrent ceux qui vous observent. Bien que cet article ne constitue pas un tutoriel pratique sur l'outil OXT (sujet que nous aborderons dans un futur tuto), il compile un ensemble de connaissances cruciales pour son utilisation. Pour chaque modèle, métrique et indicateur présenté, un lien vers une transaction exemple sur OXT est fourni, ce qui vous permettra de mieux comprendre son utilisation et de pouvoir pratiquer en parallèle de votre lecture.
 
 ## Introduction

@@ -4,6 +4,14 @@ description: Comprendere e utilizzare le transazioni Stonewall
 ---
 ![cover stonewall](assets/cover.webp)
 
+***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, l'uso dell'app Samourai Wallet richiede ora una connessione al proprio Dojo per funzionare correttamente. A parte questo, le transazioni Stonewall non sono affatto influenzate e possono ancora essere eseguite senza problemi. Infatti, questi tipi di transazioni vengono effettuate autonomamente, senza la necessità di collaborazione esterna o connessione tramite Soroban.*
+
+_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
+
+_Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo né incoraggiamo l'uso di questi strumenti per scopi criminali. È responsabilità di ogni utente rispettare le leggi vigenti nella propria giurisdizione._
+
+---
+
 > *"Rompere le ipotesi dell'analisi della blockchain con un dubbio matematicamente provabile tra mittente e destinatario delle tue transazioni."*
 
 ## Cos'è una transazione Stonewall?
@@ -52,6 +60,6 @@ A differenza delle transazioni Stowaway o Stonewall x2 (cahoots), la transazione
 ## Come effettuare una transazione Stonewall su Sparrow Wallet?
 A differenza delle transazioni Stowaway o Stonewall x2 (cahoots), la transazione Stonewall non richiede l'uso di Paynyms. Può essere effettuata direttamente, senza alcuna fase preparatoria.
 ![Stonewall Tutorial - Sparrow Wallet](https://youtu.be/su89ljkV_OI?si=1jNaSJGvECUYe6Or)
+
 **Risorse Esterne:**
-- https://docs.samourai.io/en/spend-tools#stonewall ;
-- https://samouraiwallet.com/stonewall.
+- https://docs.samourai.io/en/spend-tools#stonewall.

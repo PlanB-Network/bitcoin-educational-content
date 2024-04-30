@@ -4,6 +4,14 @@ description: Como realizar um coinjoin com seu próprio Dojo?
 ---
 ![cover](assets/cover.webp)
 
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, a ferramenta Whirlpool não funciona mais, mesmo para pessoas que têm seu próprio Dojo ou usam Sparrow Wallet. No entanto, ainda é possível que essa ferramenta seja reativada nas próximas semanas ou relançada de uma forma diferente. Além disso, a parte teórica deste artigo permanece relevante para entender os princípios e objetivos dos coinjoins em geral (não apenas Whirlpool), bem como a eficácia do modelo Whirlpool.*
+
+_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados às ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
+
+_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
+
+---
+
 Neste tutorial, você aprenderá o que é um coinjoin e como realizar um usando o software Samourai Wallet e a implementação Whirlpool, utilizando seu próprio Dojo. Na minha opinião, este método é atualmente o melhor para misturar seus bitcoins.
 
 ## O que é um coinjoin no Bitcoin?
@@ -161,7 +169,7 @@ Esta técnica é, portanto, ideal para aqueles que buscam máxima privacidade e 
 ### Entendendo a Configuração
 Para começar, você vai precisar de um Dojo! Dojo é uma implementação de nó Bitcoin baseada no Bitcoin Core, desenvolvida pelas equipes da Samourai.
 
-Para rodar o seu próprio Dojo, você tem a opção de [instalar um nó Dojo autonomamente](https://samouraiwallet.com/dojo), ou aproveitar o Dojo em cima de outra solução de nó Bitcoin "nó-em-caixa". Atualmente, as opções disponíveis são:
+Para rodar o seu próprio Dojo, você tem a opção de instalar um nó Dojo autonomamente, ou aproveitar o Dojo em cima de outra solução de nó Bitcoin "nó-em-caixa". Atualmente, as opções disponíveis são:
 - [RoninDojo](https://ronindojo.io/), que é um Dojo aprimorado com ferramentas adicionais, incluindo um assistente de instalação e um assistente de administração. Detalho o procedimento para configurar e usar o RoninDojo neste outro tutorial: [RONINDOJO V2](https://planb.network/pt/tutorials/node/ronin-dojo-v2);
 - [Umbrel](https://umbrel.com/) com a aplicação "Samourai Server";
 - [MyNode](https://mynodebtc.com/) com a aplicação "Dojo";
@@ -208,7 +216,7 @@ Após recuperar as informações de conexão ao seu Dojo, agora é hora de confi
 Por outro lado, se você já possui uma Samourai Wallet, precisará reinstalar o aplicativo para associá-lo a um novo Dojo. Este passo é necessário porque a conexão com um Dojo só pode ser estabelecida no primeiro lançamento do aplicativo. No entanto, graças ao arquivo de backup criptografado gerado automaticamente pelo Samourai em seu telefone, este procedimento é simples e rápido.
 *Se você nunca usou o Samourai, pode pular estas etapas preliminares e prosseguir diretamente para a instalação do aplicativo.*
 
-Antes de tudo, certifique-se de que sua aplicação Samourai Wallet está atualizada. Para fazer isso, verifique a Google Play Store ou compare a versão do seu aplicativo em `Configurações > Outros` com a disponível [no site do Samourai](https://samouraiwallet.com/download).
+Antes de tudo, certifique-se de que sua aplicação Samourai Wallet está atualizada. Para fazer isso, verifique a Google Play Store ou compare a versão do seu aplicativo em `Configurações > Outros` com a disponível no site do Samourai.
 
 ![coinjoin](assets/pt/17.webp)
 
@@ -256,7 +264,7 @@ Você será então redirecionado para sua Samourai Wallet que, desta vez, estar�
 ### Instalando Whirlpool GUI
 Agora é hora de instalar o Whirlpool GUI, a interface gráfica que permitirá que você gerencie seus ciclos de coinjoin do seu PC usual. Para usuários do RoninDojo, esta etapa não é necessária, pois a gestão dos coinjoins pode ser feita diretamente via interface web em `Apps > Whirlpool`. No entanto, se você estiver usando outra solução de "nó-em-caixa" Bitcoin, é imperativo proceder com esta instalação.
 ![coinjoin](assets/pt/28.webp)
-Vá ao seu computador pessoal e [baixe o software Whirlpool do site oficial da Samourai Wallet](https://samouraiwallet.com/download/whirlpool), selecionando a versão que corresponde ao seu sistema operacional.
+Vá ao seu computador pessoal e baixe o software Whirlpool do site oficial da Samourai Wallet, selecionando a versão que corresponde ao seu sistema operacional.
 
 ![coinjoin](assets/pt/29.webp)
 

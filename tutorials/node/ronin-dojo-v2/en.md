@@ -4,6 +4,14 @@ description: Installing your RoninDojo v2 Bitcoin node on a Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, certain features of RoninDojo, such as Whirlpool, are no longer operational. However, it is possible that these tools could be reinstated or relaunched differently in the coming weeks. Additionally, since the RoninDojo code was hosted on Samourai's GitLab, which was also seized, it is currently not possible to download the code remotely. The RoninDojo teams are likely working on republishing the code.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 > "*Use Bitcoin with privacy.*"
 
 In [a previous tutorial](https://planb.network/tutorials/node/ronin-dojo), we had already explained the procedure for installing and using RoninDojo v1. However, over the last year, the RoninDojo teams have launched version 2 of their implementation, which marked a significant turning point in the software's architecture. Indeed, they moved away from the Linux Manjaro distribution in favor of Debian. Consequently, they no longer offer a pre-configured image for automatic installation on Raspberry Pi. But there is still a method for proceeding with a manual installation. This is what I used for my own node, and since then, RoninDojo v2 has been working wonderfully on my Raspberry Pi 4. I am therefore offering a new tutorial on how to manually install RoninDojo v2 on a Raspberry Pi.
@@ -16,7 +24,7 @@ In [a previous tutorial](https://planb.network/tutorials/node/ronin-dojo), we ha
 - How to use your RoninDojo v2 node?
 
 ## What is RoninDojo?
-[Dojo](https://samouraiwallet.com/dojo) is initially a full Bitcoin node implementation, based on Bitcoin Core, and developed by the Samourai Wallet teams. This solution can be installed on any equipment. Unlike other Core implementations, Dojo has been specifically optimized to integrate with the Android application environment of Samourai Wallet. As for RoninDojo, it is a utility designed to facilitate the installation and management of a Dojo, as well as various other complementary tools. In short, RoninDojo enriches the basic implementation of Dojo by integrating a multitude of additional tools, while simplifying its installation and management.
+Dojo is initially a full Bitcoin node implementation, based on Bitcoin Core, and developed by the Samourai Wallet teams. This solution can be installed on any equipment. Unlike other Core implementations, Dojo has been specifically optimized to integrate with the Android application environment of Samourai Wallet. As for RoninDojo, it is a utility designed to facilitate the installation and management of a Dojo, as well as various other complementary tools. In short, RoninDojo enriches the basic implementation of Dojo by integrating a multitude of additional tools, while simplifying its installation and management.
 
 Ronin also offers [a node-in-box solution, called the "*Tanto*"](https://ronindojo.io/en/products), a device with RoninDojo already installed on a system assembled by their team. The Tanto is a paid option, which may be interesting for those who prefer to avoid technical complications. But since the source code of RoninDojo is open, it is also possible to deploy it on your own hardware. This alternative, more economical, nevertheless requires some additional manipulations, which we will cover in this tutorial.
 RoninDojo is a Dojo, thus it allows for easy integration of Whirlpool CLI into your Bitcoin node to provide the best possible coinjoin experience. With Whirlpool CLI, it becomes possible to continuously remix your bitcoins, 24 hours a day, 7 days a week, without requiring your personal computer to remain on.
@@ -357,7 +365,7 @@ The following command prompt will be displayed:
 If you wish to exit this interface and return to the RoninCLI menu, simply enter:
 `quit`
 
-First, it's necessary to configure the proxy to use Tor, to ensure confidentiality when extracting data from [OXT](https://oxt.me/). Enter the command:
+First, it's necessary to configure the proxy to use Tor, to ensure confidentiality when extracting data from OXT. Enter the command:
 `socks5 127.0.0.1:9050`
 
 Subsequently, proceed to download the pool information containing your transaction:
@@ -388,7 +396,8 @@ Before detailing the procedure for using the Boltzmann Calculator, it is importa
 
 **The first indicator** that the software calculates is the total number of possible combinations, indicated under `nb combinations` in the tool. Based on the values of the UTXOs involved, this indicator quantifies the number of ways in which inputs can be associated with outputs. In other words, it determines the number of plausible interpretations a transaction can generate. For example, a coinjoin structured according to the Whirlpool 5x5 model presents `1496` possible combinations:
 ![combinations](assets/en/50.webp)
-Credit: [KYCP.org](https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d)
+Credit: KYCP
+
 **The second indicator** calculated is the entropy of a transaction, designated by `Entropy`. When a transaction has a high number of possible combinations, it is often more relevant to refer to its entropy. This is defined as the binary logarithm of the number of possible combinations. Here is the formula used:
 - $E$: the entropy of the transaction;
 - $C$: the number of possible combinations for the transaction.
@@ -504,8 +513,8 @@ Regarding the other tabs available on your RoninUI dashboard:
 There you have it! Thank you for following this tutorial to the end. If you enjoyed it, I encourage you to share it on social media. Furthermore, if you have the opportunity, consider supporting the developers who make these free and open-source software available to our community with a donation: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). To deepen your knowledge of RoninDojo and discover more resources, I highly recommend consulting the links to the external resources mentioned below.
 
 **External resources:**
-- [https://samouraiwallet.com/dojo](https://samouraiwallet.com/dojo)
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
-- [https://code.samourai.io/ronindojo/RoninDojo](https://code.samourai.io/ronindojo/RoninDojo)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
+- [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
+- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)

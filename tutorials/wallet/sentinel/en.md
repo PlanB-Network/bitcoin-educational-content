@@ -4,6 +4,16 @@ description: What is a Watch-Only wallet and how to use it?
 ---
 ![cover](assets/cover.webp)
 
+---
+
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Sentinel app continues to function, but **it is mandatory to use your own Dojo** in order to access blockchain information and broadcast transactions.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 *"Keep your private keys, private."*
 
 In this article, we explore everything you need to know about watch-only wallets. We discuss how they work and examine the different applications available on the market. Finally, we offer a detailed tutorial on one of the most popular watch-only wallet applications: Sentinel.
@@ -38,7 +48,7 @@ Upon first opening the application, you are given the choice between:
 - `Connect to Dojo`;
 - `Connect to Samourai's server`.
 
-[Dojo](https://samouraiwallet.com/dojo), developed by the Samourai team, is a full Bitcoin node version that can be installed standalone or added in one click to node-in-box solutions such as [Umbrel](https://umbrel.com/) and [RoninDojo](https://ronindojo.io/).
+Dojo, developed by the Samourai team, is a full Bitcoin node version that can be installed standalone or added in one click to node-in-box solutions such as [Umbrel](https://umbrel.com/) and [RoninDojo](https://ronindojo.io/).
 
 [**-> Discover how to install RoninDojo v2 on a Raspberry Pi.**](https://planb.network/en/tutorials/node/ronin-dojo-v2)
 

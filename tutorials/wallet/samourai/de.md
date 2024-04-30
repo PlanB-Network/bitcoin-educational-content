@@ -6,6 +6,16 @@ description: Wiedererlangen Sie Ihre Privatsphäre mit Samourai
 
 ![Samourai Wallet](assets/cover.webp)
 
+---
+
+***WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April funktioniert die Samourai-App weiterhin, aber **es ist zwingend erforderlich, Ihr eigenes Dojo zu nutzen**, um auf Blockchain-Informationen zuzugreifen und Transaktionen zu verbreiten.*
+
+_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+---
+
 **Samourai Wallet** ist eine Wallet, die sich der Privatsphäre widmet. Trotz seiner benutzerfreundlichen Oberfläche bietet es eine große Flexibilität in der Verwendung und Sicherheit.
 
 Da es zu **100% nicht verwahrend** ist, müssen Sie Ihre 12 Wörter sichern und unbedingt eine **Passphrase** hinzufügen, die Sie nicht verlieren sollten.

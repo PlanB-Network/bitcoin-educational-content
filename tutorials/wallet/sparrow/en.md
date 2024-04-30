@@ -40,6 +40,16 @@ Sparrow Wallet is built for advanced users, and at first, it can be a bit of sen
 
 ## How to CoinJoin with Sparrow Wallet.
 
+---
+
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Whirlpool tool no longer functions, even for those using it on Sparrow Wallet. However, it remains possible that this tool could be reinstated in the coming weeks or relaunched in a different manner.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 Bitcoin's blockchain is completely transparent, and using bad practices can be terrible for your financial privacy. One of the best things you can do to reclaim your privacy is through CoinJoin. Here is how to use Samourai Whirlpool CoinJoin within Sparrow Wallet.
 
 ![Coinjoin with sparrow](https://youtu.be/p24SxLI1ews)

@@ -4,6 +4,14 @@ description: How to perform a coinjoin on Sparrow Wallet?
 ---
 ![cover](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Whirlpool tool no longer functions, even for individuals who have their own Dojo or are using Sparrow Wallet. However, it remains possible that this tool could be reinstated in the coming weeks or relaunched in a different manner. Moreover, the theoretical part of this article remains relevant for understanding the principles and objectives of coinjoins in general (not just Whirlpool), as well as understanding the effectiveness of the Whirlpool model.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 In this tutorial, you will learn what a coinjoin is and how to perform one using the Sparrow Wallet software and the Whirlpool implementation.
 
 ## What is a coinjoin on Bitcoin?

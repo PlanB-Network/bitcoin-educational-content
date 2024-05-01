@@ -10,7 +10,7 @@ Après avoir assisté plusieurs utilisateurs dans la récupération de leurs bit
 
 *Un grand merci à [@Louferlou](https://twitter.com/Louferlou), qui a assisté plusieurs utilisateurs dans leur récupération et partagé ses expériences avec moi, et qui a également contribué aux tests pour déterminer ce qui est encore fonctionnel.*
 
-## Est-ce que Samourai fonctionne encore ?
+## Est-ce que Samourai Wallet fonctionne encore ?
 
 Oui, **l'application Samourai Wallet fonctionne toujours**, mais avec certaines conditions.
 
@@ -26,7 +26,7 @@ Si votre application Samourai était déjà connectée à votre propre Dojo, alo
 
 Le principal problème que vous pourriez rencontrer est l'inaccessibilité des comptes Whirlpool depuis l'application. Habituellement, Samourai tente d'établir une connexion avec votre Whirlpool CLI et de lancer les cycles de coinjoins avant de vous donner accès à ces comptes. Cependant, étant donné que cette connexion n'est plus possible, l'application peut continuer à chercher sans fin sans jamais vous donner accès aux comptes Whirlpool. Dans ce cas, vous pouvez récupérer ces comptes sur un autre logiciel de portefeuille tout en conservant uniquement le compte de dépôt sur Samourai.
 
-## Quels sont les outils encore disponibles sur Samourai ?
+### Quels sont les outils encore disponibles sur Samourai ?
 
 En revanche, certains outils sont soit affectés par l'arrêt des serveurs, soit carrément indisponibles.
 
@@ -58,7 +58,7 @@ Pour ce qui est de Whirlpool, le protocole ne semble plus fonctionner, même pou
 
 Toutefois, je garde espoir que ce protocole puisse être réactivé ou peut-être repensé différemment dans les semaines à venir, selon l'évolution de l'affaire. Cette pause pourrait être l'occasion pour explorer de nouvelles approches ou améliorations potentielles à ce système.
 
-## Quels sont les outils externes encore disponibles ?
+### Quels sont les outils externes encore disponibles ?
 
 Au niveau des autres outils en lien avec l'environnement de Samourai, certains sont encore disponibles et d'autres ne le sont plus.
 
@@ -68,21 +68,21 @@ L'outil Whirlpool Stats Tool n'est plus disponible au téléchargement, car il �
 
 Le site KYCP.org n'est actuellement plus accessible.
 
-Le GitLab qui hébergeait le code de l'outil Python Boltzmann Calculator a aussi été saisi. À l'heure actuelle, il n'est donc plus possible de télécharger cet outil. Mais si vous aviez déjà téléchargé l'outil Python sur un RoninDojo, vous pouvez continuer à utiliser Boltzmann Calculator de la même manière qu'auparavant.
+Le GitLab qui hébergeait le code de l'outil Python Boltzmann Calculator a aussi été saisi. À l'heure actuelle, il n'est donc plus possible de télécharger cet outil. Mais si vous disposez d'un RoninDojo, vous pouvez continuer à utiliser Boltzmann Calculator de la même manière qu'auparavant.
 
-Pour ce qui est de RoninDojo, ce logiciel de node-in-box continue de fonctionner correctement malgré l'indisponibilité de certains outils spécifiques tels que Whirlpool CLI et WST. Si vous désirez obtenir davantage d'informations sur RoninDojo ou si vous avez des questions spécifiques, je vous encourage à rejoindre le groupe Telegram de la communauté : [https://t.me/RoninDojoNode](https://t.me/RoninDojoNode).
+Pour ce qui est de RoninDojo, ce logiciel de node-in-box continue de fonctionner correctement malgré l'indisponibilité de certains outils spécifiques tels que Whirlpool CLI et WST. Si vous désirez obtenir davantage d'informations sur RoninDojo ou si vous avez des questions spécifiques, je vous encourage à rejoindre [leur groupe Telegram](https://t.me/RoninDojoNode).
 
 Cependant, le code source de RoninDojo n'est actuellement plus accessible, car il était hébergé sur le GitLab de Samourai. Il n'est donc pas possible pour le moment de l'installer manuellement sur un Raspberry Pi.
 
 En ce qui concerne le logiciel de portefeuille watch-only Sentinel, la situation est similaire à celle de l'application Samourai. Si vous disposez de votre propre Dojo, vous pouvez continuer à utiliser Sentinel sans aucun problème. Cependant, si vous n'avez pas de Dojo, vous ne serez plus en mesure d'établir une connexion. Contrairement à Samourai, le site web de Sentinel est toujours accessible en ligne. Mais soyez prudent avec ce site et l'APK qui y est proposée, car on ne sait pas qui contrôle actuellement ces ressources.
 
-## Est-ce que Sparrow Wallet est affecté ?
+### Est-ce que Sparrow Wallet est affecté ?
 
 Sparrow Wallet fonctionne toujours de manière normale, à l'exception des outils de Samourai qui ne sont plus disponibles. Actuellement, il n'est plus possible d'effectuer des coinjoins via Sparrow. De même, les outils de dépense collaboratifs ne sont plus accessibles, car Sparrow ne propose pas l'option d'échange manuel des PSBT, contrairement à Samourai. Pour toutes les autres fonctionnalités, Sparrow fonctionne sans problème. Vous pouvez d'ailleurs utiliser ce logiciel pour récupérer un portefeuille Samourai si nécessaire.
 
 ## Comment récupérer un portefeuille Samourai ?
 
-Comme nous l'avons vu dans les sections précédentes, si vous possédez votre propre Dojo, il n'est pas forcément nécessaire de changer de logiciel. **Samourai reste un excellent choix de portefeuille chaud** pour vos dépenses quotidiennes. Toutefois, si êtes sans Dojo ou si vous préférez opter pour un autre logiciel, je vous explique le processus de récupération complet, en expliquant les éventuels blocages que vous pourriez rencontrer.
+Comme nous l'avons vu dans les sections précédentes, si vous possédez votre propre Dojo, il n'est pas forcément nécessaire de changer de logiciel. **Samourai reste un excellent choix de portefeuille chaud** pour vos dépenses quotidiennes. Toutefois, si vous n'avez pas de Dojo ou si vous préférez opter pour un autre logiciel, je vous explique le processus de récupération complet, en détaillant les éventuels blocages que vous pourriez rencontrer.
 
 Dans tous les cas, il est important de prendre votre temps et de veiller à ne pas commettre d'erreur. Rappelez-vous qu'il n'y a pas d'urgence car vous détenez vos clés privées, et la saisie des serveurs de Samourai n'affecte en rien cela. Quoi qu'il arrive, ils ne pourront évidemment pas accéder à vos clés privées.
 
@@ -90,16 +90,15 @@ Dans tous les cas, il est important de prendre votre temps et de veiller à ne p
 
 Pour récupérer votre portefeuille, vous devez obligatoirement disposer de votre passphrase, même si vous optez pour une récupération via le fichier de sauvegarde. Commencez par vérifier la validité de cette passphrase. Ouvrez votre application Samourai Wallet, cliquez sur l'icône de votre Paynym en haut à gauche, puis sélectionnez `Paramètres`.
 
-
+![samourai](assets/1.webp)
 
 Ensuite, cliquez sur `Dépannage` puis sur `Passphrase/test sauvegarde`.
 
-
+![samourai](assets/2.webp)
 
 Saisissez votre passphrase et cliquez sur `Ok`. Si elle est correcte, Samourai vous le confirmera. Vous avez aussi la possibilité de vérifier le fichier de sauvegarde si vous envisagez de l'utiliser ultérieurement.
 
-
-
+![samourai](assets/3.webp)
 
 Cette étape est facultative mais recommandée. Elle permet de confirmer que la passphrase est correcte, ce qui élimine une source potentielle de problèmes ultérieurs. Si Samourai indique que la passphrase est incorrecte à cette étape, la récupération ne pourra pas se faire. Assurez-vous d'avoir saisi correctement la passphrase et vérifiez-la à nouveau.
 
@@ -107,96 +106,55 @@ Cette étape est facultative mais recommandée. Elle permet de confirmer que la 
 
 Depuis la version 1.8.6 de Sparrow Wallet, il est possible d'importer directement votre portefeuille Samourai à l'aide du fichier texte de sauvegarde nommé `samourai.txt`, que votre application Samourai Wallet génère automatiquement. Ce fichier contient toutes les informations nécessaires pour récupérer votre portefeuille et est chiffré avec votre passphrase pour en assurer la sécurité.
 
-
-
-
-
 Si vous choisissez cette option, vous aurez besoin de votre fichier `samourai.txt` à jour et de votre passphrase. Pour générer ce fichier sur Samourai Wallet, cliquez sur les trois petits points en haut à droite, puis sélectionnez `Exporter sauvegarde portefeuille`.
 
+![samourai](assets/4.webp)
 
-
-
-
-Ensuite, choisissez `Exporter vers le presse-papiers`.
-
-
-
-
-
-Après cela, vous allez devoir transmettre ce fichier sur votre PC de manière sécurisée. Étant donné que le fichier est chiffré mais que la passphrase suffit pour le déchiffrer, il est important de prendre des précautions lors de sa transmission. Si vous optez pour un transfert direct sous forme de texte brut, vous devrez recréer un fichier `samourai.txt` sur votre PC et y coller le contenu du presse-papiers. Une alternative serait de récupérer directement le fichier `samourai.txt` depuis les fichiers stockés sur votre téléphone.
+Ensuite, choisissez `Exporter vers le presse-papiers`. Après cela, vous allez devoir transmettre ce fichier sur votre PC de manière sécurisée. Étant donné que le fichier est chiffré mais que la passphrase suffit pour le déchiffrer, il est important de prendre des précautions lors de sa transmission. Si vous optez pour un transfert direct sous forme de texte brut, vous devrez recréer un fichier `samourai.txt` sur votre PC et y coller le contenu du presse-papiers. Une alternative serait de récupérer directement le fichier `samourai.txt` depuis les fichiers stockés sur votre téléphone.
 
 Une fois que vous avez accès au fichier sur votre PC, ouvrez Sparrow Wallet, cliquez sur l'onglet `File` et sélectionnez `Import Wallet` pour commencer l'importation de votre portefeuille.
 
-
-
-
-
+![samourai](assets/5.webp)
 
 Descendez jusqu'à `Samourai Backup`, cliquez sur `Import File` puis sélectionnez votre fichier `samourai.txt`.
 
-
-
-
-
-
-
-
+![samourai](assets/6.webp)
 
 Sparrow vous demandera ensuite un mot de passe pour déchiffrer le fichier. Ce mot de passe est en fait votre passphrase. Saisissez-la dans le champ correspondant et cliquez sur `Import`.
 
-
-
-
-
-Pour le type de script, si vous n'avez pas configuré d'autres scripts dans Samourai, vous devriez normalement utiliser uniquement du SegWit V0 (Native SegWit / P2WPKH). Conservez ce script par défaut et cliquez sur `Import`.
-
-
-
-
-Nommez votre portefeuille, par exemple "Samourai Recovery", puis cliquez sur `Create Wallet`.
-
-
-
-
-Sparrow vous demandera ensuite de choisir un mot de passe. Ce mot de passe protège uniquement l'accès à votre portefeuille sur ce PC et ne concerne pas la dérivation des clés de votre portefeuille. Assurez-vous de choisir un mot de passe solide, notez-le pour vous en souvenir, et cliquez sur `Set Password`.
-
-
-
-
-Sparrow va alors dériver les clés de votre portefeuille et rechercher les transactions correspondantes.
-
-
-
-
-
+![samourai](assets/7.webp)
 
 Si à ce stade, votre portefeuille n’apparaît pas, il est possible que vous ayez commis une erreur lors de la copie du fichier `samourai.txt` ou lors de la saisie de la passphrase. Vous pouvez consulter la section dédiée à la résolution des problèmes pour plus d'aide.
 
+![samourai](assets/8.webp)
 
+Pour le type de script, si vous n'avez pas configuré d'autres scripts dans Samourai, vous devriez normalement utiliser uniquement du SegWit V0 (Native SegWit / P2WPKH). Conservez ce script par défaut et cliquez sur `Import`.
 
+![samourai](assets/9.webp)
 
+Nommez votre portefeuille, par exemple "Samourai Recovery", puis cliquez sur `Create Wallet`.
 
+![samourai](assets/10.webp)
 
+Sparrow vous demandera ensuite de choisir un mot de passe. Ce mot de passe protège uniquement l'accès à votre portefeuille sur ce PC et ne concerne pas la dérivation des clés de votre portefeuille. Assurez-vous de choisir un mot de passe solide, notez-le pour vous en souvenir, et cliquez sur `Set Password`.
+
+![samourai](assets/11.webp)
+
+Sparrow va alors dériver les clés de votre portefeuille et rechercher les transactions correspondantes.
+
+![samourai](assets/12.webp)
 
 Pour l'instant, seul votre compte de dépôt est accessible. Si vous n'utilisiez Samourai que pour ce compte, vous devriez voir l'intégralité de vos fonds. Cependant, si vous utilisiez également Whirlpool, vous aurez besoin de dériver les comptes `premix`, `postmix` et `badbank`. Sur Sparrow, cliquez simplement sur l'onglet `Settings`, puis sur `Add Accounts...`.
 
-
-
-
-
+![samourai](assets/13.webp)
 
 Dans la fenêtre qui s'ouvre, sélectionnez `Whirlpool Accounts` dans la liste déroulante, puis cliquez sur `OK`.
 
-
-
-
-
+![samourai](assets/14.webp)
 
 Vous verrez alors apparaître vos différents comptes Whirlpool et Sparrow va dériver les clés nécessaires pour utiliser les bitcoins associés.
 
-
-
-
+![samourai](assets/15.webp)
 
 Si vous utilisez un autre logiciel que Sparrow, comme Electrum, pour récupérer votre portefeuille Samourai, voici les index des comptes Whirlpool pour les récupérer manuellement :
 - Dépôt : `m/84'/0'/0'`
@@ -204,31 +162,131 @@ Si vous utilisez un autre logiciel que Sparrow, comme Electrum, pour récupérer
 - Premix : `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, consultez notre tutoriel : [https://planb.network/tutorials/wallet/sparrow](https://planb.network/tutorials/wallet/sparrow)
+Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, vous pouvez également consulter[ notre tutoriel dédié](https://planb.network/tutorials/wallet/sparrow).
 
 Je vous recommande aussi d'importer manuellement les étiquettes que vous aviez associées à vos UTXO sur Samourai. Cela vous permettra de réaliser un contrôle efficace de vos pièces (coin control) sur Sparrow par la suite.
 
 ### Option 2 : Récupérer le portefeuille sur Sparrow avec la phrase mnémonique
 
+Si vous ne souhaitez pas réaliser la récupération avec le fichier de sauvegarde, vous pouvez opter pour une méthode plus classique en utilisant simplement votre phrase de récupération de 12 mots et votre passphrase. Cette seconde option est souvent plus simple.
 
+Pour commencer, assurez-vous d'avoir votre phrase de récupération et votre passphrase à portée de main. Ensuite, ouvrez le logiciel Sparrow Wallet, cliquez sur l'onglet `File` et sélectionnez `Import Wallet` pour commencer l'importation de votre portefeuille.
+
+![samourai](assets/16.webp)
+
+Choisissez `Mnemonic Words (BIP39)` et, dans la liste déroulante, cliquez sur `Use 12 Words`.
+
+![samourai](assets/17.webp)
+
+Saisissez les 12 mots de votre phrase de récupération dans le bon ordre.
+
+![samourai](assets/18.webp)
+
+Si Sparrow affiche un message `Invalid Checksum`, cela indique que la somme de contrôle de la phrase de récupération n'est pas valide, ce qui signifie probablement que vous avez fait une erreur en saisissant les mots.
+
+![samourai](assets/19.webp)
+
+Si votre phrase est correcte, cochez la case `Use Passphrase?` et entrez votre passphrase dans le champ dédié. Enfin, si tout vous semble correct, cliquez sur le bouton `Discover Wallet`.
+
+![samourai](assets/20.webp)
+
+Nommez votre portefeuille, par exemple "Samourai Recovery", puis cliquez sur `Create Wallet`.
+
+![samourai](assets/21.webp)
+
+Sparrow vous demandera ensuite de choisir un mot de passe. Ce mot de passe protège uniquement l'accès à votre portefeuille sur ce PC et ne concerne pas la dérivation des clés de votre portefeuille. Assurez-vous de choisir un mot de passe solide, notez-le pour vous en souvenir, et cliquez sur `Set Password`.
+
+![samourai](assets/22.webp)
+
+Sparrow va alors dériver les clés de votre portefeuille et rechercher les transactions correspondantes.
+
+![samourai](assets/23.webp)
+
+Si à ce stade, votre portefeuille n’apparaît pas, il est possible que vous ayez commis une erreur lors de la saisie de la passphrase ou de la phrase de récupération. Vous pouvez consulter la section dédiée à la résolution des problèmes pour plus d'aide.
+
+Pour l'instant, seul votre compte de dépôt est accessible. Si vous n'utilisiez Samourai que pour ce compte, vous devriez voir l'intégralité de vos fonds. Cependant, si vous utilisiez également Whirlpool, vous aurez besoin de dériver les comptes `premix`, `postmix` et `badbank`. Sur Sparrow, cliquez simplement sur l'onglet `Settings`, puis sur `Add Accounts...`.
+
+![samourai](assets/24.webp)
+
+Dans la fenêtre qui s'ouvre, sélectionnez `Whirlpool Accounts` dans la liste déroulante, puis cliquez sur `OK`.
+
+![samourai](assets/25.webp)
+
+Vous verrez alors apparaître vos différents comptes Whirlpool et Sparrow va dériver les clés nécessaires pour utiliser les bitcoins associés.
+
+![samourai](assets/26.webp)
+
+Si vous utilisez un autre logiciel que Sparrow, comme Electrum, pour récupérer votre portefeuille Samourai, voici les index des comptes Whirlpool pour les récupérer manuellement :
+- Dépôt : `m/84'/0'/0'`
+- Bad Bank : `m/84'/0'/2147483644'`
+- Premix : `m/84'/0'/2147483645'`
+- Postmix: `m/84'/0'/2147483646'`
+
+Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, vous pouvez également consulter[ notre tutoriel dédié](https://planb.network/tutorials/wallet/sparrow).
+
+Je vous recommande aussi d'importer manuellement les étiquettes que vous aviez associées à vos UTXO sur Samourai. Cela vous permettra de réaliser un contrôle efficace de vos pièces (coin control) sur Sparrow par la suite.
 
 ### Quels sont les problèmes fréquemment rencontrés ?
 
-Après avoir aidé plusieurs personnes ces derniers jours, je pense avoir rencontré la plupart des problèmes qui peuvent venir empêcher la récupération de votre portefeuille.
+Après avoir aidé plusieurs personnes ces derniers jours, je pense avoir rencontré la plupart des problèmes qui peuvent empêcher la récupération de votre portefeuille. Si vous ne parvenez toujours pas à accéder à votre portefeuille malgré les tutoriels précédents, voici quelques recommandations supplémentaires.
 
+Tout d'abord, pour que la récupération fonctionne, il faut absolument que la phrase de récupération soit correcte. Si vous ne parvenez pas à retrouver votre phrase de 12 mots, vous pouvez utiliser l'option 1 pour récupérer depuis le fichier de sauvegarde de Samourai. Vous pouvez aussi accéder à votre phrase de récupération directement dans Samourai Wallet en naviguant dans `Paramètres`, puis `Portefeuille`, et enfin en sélectionnant `Afficher la phrase de récupération à 12 mots`.
 
+Ensuite, une erreur de saisie dans votre passphrase pendant la récupération entraînera des clés dérivées incorrectes, ce qui empêchera la récupération de votre portefeuille sur Sparrow. **Il faut que la passphrase soit parfaitement exacte !**
 
+Pour résoudre cela, je vous conseille d'abord de vérifier dans l'application Samourai la validité de votre passphrase comme décrit dans la section "_Vérifier la passphrase_" de cet article :
+1. **Validation dans Samourai :** Si Samourai confirme que la passphrase est correcte, essayez de nouveau la récupération depuis le début, en faisant attention à bien renseigner la passphrase dans Sparrow sans erreur ;
+2. **Erreur de passphrase :** Si Samourai indique que la passphrase est incorrecte, il est inutile de continuer les tentatives sur Sparrow. Tant que la bonne passphrase n'est pas retrouvée, la récupération de votre portefeuille est impossible. Si vous avez perdu votre passphrase définitivement, conservez bien votre application Samourai. Il ne vous reste plus qu'à espérer que les serveurs soient relancés afin de pouvoir effectuer des dépenses directement depuis l'application sans nécessiter de récupération. **Ne tentez pas de connecter un Dojo dans ce cas**, car cela impliquerait de réinitialiser votre portefeuille sur Samourai, ce qui requiert l'accès à la passphrase.
 
+Parmi les autres erreurs rencontrées, nombreuses sont celles liées à la configuration réseau sur Sparrow.
 
+Assurez-vous d'abord que Sparrow est bien configuré en mode `mainnet` plutôt qu'en mode `testnet`. En effet, si Sparrow recherche vos transactions sur le Testnet, il ne trouvera rien car votre portefeuille est sur le Mainnet. Le Testnet est une version alternative de Bitcoin, utilisée uniquement pour les tests et le développement, et fonctionne sur un réseau distinct du réseau principal (mainnet), avec ses propres blocs et transactions. Pour vérifier sur quel réseau vous êtes, cliquez sur l'onglet `Tools`, puis sur `Restart In`. Si l'option `Mainnet` est affichée, alors vous n'êtes pas sur le réseau principal. Sélectionnez-la pour redémarrer Sparrow sur le Mainnet, puis recommencez votre processus de récupération.
 
+![samourai](assets/27.webp)
 
+Certains ont aussi rencontré des difficultés pour connecter Sparrow à leur nœud. En bas à droite de Sparrow, un switch coloré indique si votre logiciel est correctement connecté à un nœud Bitcoin. Pour retrouver vos transactions Samourai, il faut absolument que le logiciel soit bien connecté. Vérifiez que le switch est activé, comme sur mon image ci-dessous (jaune pour un nœud public, vert pour Bitcoin Core et bleu pour un serveur Electrum).
 
+![samourai](assets/28.webp)
 
+Si le switch n'est pas activé, cliquez dessus pour réactiver la connexion.
 
+![samourai](assets/29.webp)
 
+Si le problème persiste, voici quelques solutions possibles :
+- Si vous essayez de vous connecter à votre serveur Electrum (bleu) ou à votre Bitcoin Core (vert) et que Sparrow n'arrive pas à se connecter, vérifiez les informations de connexion sous `File > Preferences... > Server` ;
 
+![samourai](assets/30.webp)
 
+- Si le problème de connexion persiste, cela pourrait être dû à une synchronisation incomplète de votre nœud. Assurez-vous que votre nœud et votre indexeur sont synchronisés à 100%. Si nécessaire en dernier recourt, déconnectez votre nœud de Sparrow et connectez-vous à un nœud public ;
+- Si vous étiez déjà connecté à un nœud public et que la connexion échoue, tentez de changer de nœud en en sélectionnant un autre dans la liste déroulante.
 
+![samourai](assets/31.webp)
+
+Si vous avez réussi à récupérer votre portefeuille mais que celui-ci semble incomplet, il est possible qu'il y ait un problème lié à la dérivation.
+
+Un problème pourrait subvenir si vous avez utilisé votre compte de dépôt Samourai avec un type de script différent du `P2WPKH`. Par défaut, Samourai utilise ce type de script, mais si vous l'avez modifié manuellement, vous devez également ajuster cela lors de la récupération sur Sparrow.
+
+Pour dériver les branches pour d'autres types de script, vous devez répéter le processus de récupération pour chaque type de script utilisé. Pour cela, allez dans `File > New Wallet` sur Sparrow, sélectionnez un autre type de script dans la liste déroulante, cliquez sur `New or Imported Software Wallet`, et suivez les mêmes étapes que dans le tutoriel initial.
+
+![samourai](assets/32.webp)
+
+Un autre problème de dérivation que j'ai rencontré est lié à la valeur du Gap Limit. Cette valeur indique à Sparrow après combien d'adresses vides il doit arrêter de dériver de nouvelles adresses. Si après la récupération, vous observez que certaines transactions sont manquantes, cela peut être dû à un Gap Limit trop bas. Pour résoudre ce problème, placez-vous sur le compte qui pose problème, par exemple, le compte postmix (si plusieurs comptes sont concernés, répétez cette opération pour chacun).
+
+![samourai](assets/33.webp)
+
+Cliquez sur l'onglet `Settings` puis sur le bouton `Advanced...`.
+
+![samourai](assets/34.webp)
+
+Augmentez progressivement la valeur du Gap Limit, par exemple, je l'ai mise à `400` ici. Puis, cliquez sur le bouton `Close`. 
+
+![samourai](assets/35.webp)
+
+Cliquez sur `Apply` pour finaliser. Sparrow va alors dériver un plus grand nombre d'adresses et rechercher des fonds sur celles-ci, ce qui devrait permettre de retrouver l'intégralité de vos transactions.
+
+![samourai](assets/36.webp)
+
+Voilà pour les différents problème de récupération que j'ai pu rencontrer durant les derniers jours. Si après avoir testé toutes ces solutions, vous êtes encore en difficulté, je vous invite à rejoindre [le Discord de Découvre Bitcoin](https://discord.gg/xKKm29XGBb) pour demander de l'aide. Je fréquente régulièrement ce Discord et je serai ravi de vous aider si je possède la solution. D'autres bitcoiners pourront également partager leurs expériences et vous apporter leur aide.
 
 Une fois la récupération terminée, vous avez dorénavant accès à vos bitcoins. C'est une bonne chose, mais ce n'est pas forcément suffisant. En effet, la saisie des serveurs soulève de nouveaux risques potentiels pour votre confidentialité. Dans la section suivante, nous examinons en détail ces risques et exposons les précautions à prendre pour protéger votre vie privée.
 
@@ -266,21 +324,11 @@ Pour ceux qui ont toujours utilisé Sparrow ou Samourai avec leur propre Dojo, l
 
 Pour illustrer cela, prenons un exemple concret. Imaginez que vous ayez participé à un premier cycle de coinjoin, suivi par deux cycles supplémentaires de coinjoins descendants. Si les xpubs des utilisateurs sans Dojo n'ont pas fuité, alors l'anonset prospectif de votre pièce serait de 13.
 
-
-
-
-
-
-
+![samourai](assets/37.webp)
 
 Cependant, si l'on envisage que les xpubs ont fuité et que vous avez croisé un utilisateur sans dojo lors du coinjoin initial, puis deux durant le premier coinjoin descendant, alors votre anonset prospectif ne serait plus que de 10 au lieu de 13 de point de vue de l'autorité.
 
-
-
-
-
-
-
+![samourai](assets/38.webp)
 
 Cette potentielle diminution des anonsets est complexe à quantifier car elle dépend de nombreux facteurs, et chaque pièce est affectée différemment. Par exemple, un utilisateur sans Dojo croisé dans les premiers cycles impacte beaucoup plus l'anonset prospectif qu'un croisé dans les derniers cycles. Pour vous donner une idée de la situation, qui reste hypothétique, les dernières statistiques fournies par Samourai indiquaient qu'entre 85% et 90% des pièces engagées dans des coinjoins provenaient d'utilisateurs avec Dojo, Sparrow ou Bitcoin Keeper, c'est-à-dire d'utilisateurs qui, même dans le pire des cas, n'auraient pas vu leurs xpubs fuiter.
 

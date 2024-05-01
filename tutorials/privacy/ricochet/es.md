@@ -4,6 +4,14 @@ description: Comprendiendo y utilizando transacciones Ricochet
 ---
 ![portada ricochet](assets/cover.webp)
 
+***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, la herramienta Ricochet ya no está disponible. Sin embargo, es posible que esta herramienta se reactive en las próximas semanas. Mientras tanto, solo puede realizar un Ricochet manualmente. La parte teórica de este artículo sigue siendo relevante para entender su funcionamiento y aprender cómo hacerlo manualmente.*
+
+_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+
+_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+
+---
+
 > *"Una herramienta premium que agrega saltos adicionales de historial a tu transacción. Desafía las listas negras y ayuda a protegerte contra el cierre injusto de cuentas de terceros."*
 
 ## ¿Qué es Ricochet?
@@ -37,4 +45,3 @@ Si deseas estudiar las transacciones Ricochet realizadas en este tutorial, aquí
 
 **Recursos externos:**
 - https://docs.samourai.io/en/wallet/features/ricochet
-- https://samouraiwallet.com/ricochet

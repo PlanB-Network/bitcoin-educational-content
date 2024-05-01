@@ -4,9 +4,17 @@ description: Como fazer uma transação Payjoin na carteira Sparrow?
 ---
 ![tutorial cover image sparrow payjoin](assets/cover.webp)
 
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, **os Payjoins não estão mais operacionais no Sparrow Wallet**, e os Stowaway no Samourai Wallet só funcionam trocando manualmente os PSBT entre as partes envolvidas, desde que ambos os usuários estejam conectados ao seu próprio Dojo. No entanto, é possível que essas ferramentas sejam relançadas nas próximas semanas. Enquanto isso, você pode consultar este artigo para entender o funcionamento teórico dos payjoins.*
+
+_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados aos ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
+
+_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
+
+---
+
 > *"Force os espiões da blockchain a repensarem tudo o que eles pensam que sabem."*
 
-Payjoin é uma estrutura específica de transação Bitcoin que melhora a privacidade do usuário durante os gastos, colaborando com o destinatário do pagamento. Existem várias implementações que facilitam a configuração e automação do PayJoin. Entre essas implementações, a mais conhecida é o Stowaway desenvolvido pela equipe da [Samourai Wallet](https://samouraiwallet.com/stowaway). Este tutorial tem como objetivo orientá-lo no processo de fazer uma transação Payjoin Stowaway usando o software Sparrow Wallet.
+Payjoin é uma estrutura específica de transação Bitcoin que melhora a privacidade do usuário durante os gastos, colaborando com o destinatário do pagamento. Existem várias implementações que facilitam a configuração e automação do PayJoin. Entre essas implementações, a mais conhecida é o Stowaway desenvolvido pela equipe da Samourai Wallet. Este tutorial tem como objetivo orientá-lo no processo de fazer uma transação Payjoin Stowaway usando o software Sparrow Wallet.
 
 ## Como o Stowaway funciona?
 

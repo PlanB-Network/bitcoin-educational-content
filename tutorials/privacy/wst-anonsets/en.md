@@ -4,6 +4,14 @@ description: Understand the concept of anonset and how to calculate it with WST
 ---
 ![cover](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Whirlpool Stats Tool is no longer available for download, as it was hosted on Samourai's Gitlab. Even if you had previously downloaded this tool locally to your machine, or it was installed on your RoninDojo node, WST will not function at this time. It relied on data provided by OXT.me for its operation, and this site is no longer accessible. Currently, WST is not particularly useful since the Whirlpool protocol is inactive. However, it remains possible that these softwares might be reinstated in the coming weeks. Moreover, the theoretical part of this article remains relevant for understanding the principles and goals of coinjoins in general (not just Whirlpool), as well as understanding the effectiveness of the Whirlpool model. You can also learn how to quantify the privacy provided by coinjoin cycles.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 *"Break the link your coins leave behind"*
 
 In this tutorial, we will study the concept of anonsets, indicators that allow us to estimate the quality of a coinjoin process on Whirlpool. We will cover the method of calculation and interpretation of these indicators. Following the theoretical part, we will move on to practice by learning to calculate the anonsets of a specific transaction using the Python tool *Whirlpool Stats Tools* (WST).
@@ -169,7 +177,7 @@ This is why I consider the use of Whirlpool as particularly relevant in a *Hodl 
 
 - [Podcast in French on chain analysis](https://fountain.fm/episode/6nNoQEUHBCQR8hAXAkEx)
 - [Wikipedia article on HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog)
-- [Samourai's repository for Whirlpool Stats](https://code.samourai.io/whirlpool/whirlpool_stats)
-- [Whirlpool website by Samourai](https://samouraiwallet.com/whirlpool)
+- Samourai's repository for Whirlpool Stats
+- Whirlpool website by Samourai
 - [Medium article in English on privacy and Bitcoin by Samourai](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923)
 - [Medium article in English on the concept of anonymity set by Samourai](https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7)

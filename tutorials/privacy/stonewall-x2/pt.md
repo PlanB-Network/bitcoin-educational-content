@@ -5,6 +5,16 @@ description: Compreensão e uso de transações Stonewall x2
 
 ![capa stonewall x2](assets/cover.webp)
 
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, as transações Stonewallx2 só funcionam trocando manualmente os PSBT entre as partes envolvidas, desde que ambos os usuários estejam conectados ao seu próprio Dojo. No entanto, é possível que essas ferramentas sejam reativadas nas próximas semanas. Enquanto isso, você pode consultar este artigo para entender o funcionamento teórico das Stonewallx2 e aprender a realizá-las manualmente.*
+
+_Se você planeja realizar um Stonewallx2 manualmente, o procedimento é muito semelhante ao descrito neste tutorial. A principal diferença está na escolha do tipo de transação Stonewallx2: em vez de selecionar `Online`, clique em `In Person / Manual`. Em seguida, você precisará trocar manualmente os PSBT para construir a transação Stonewallx2. Se você está fisicamente próximo ao seu colaborador, você pode escanear os códigos QR successivamente. Se você está à distância, os arquivos JSON podem ser trocados através de um canal de comunicação seguro. O resto do tutorial permanece inalterado._
+
+_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados às ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
+
+_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
+
+---
+
 > *Faça de cada gasto uma coinjoin.*
 
 ## O que é uma transação Stonewall x2?

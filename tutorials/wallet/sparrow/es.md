@@ -40,6 +40,16 @@ La cartera Sparrow está diseñada para usuarios avanzados y, al principio, pued
 
 ## Cómo hacer CoinJoin con la cartera Sparrow.
 
+---
+
+***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, la herramienta Whirlpool ha dejado de funcionar, incluso para aquellos que la utilizan en Sparrow Wallet. Sin embargo, sigue siendo posible que esta herramienta se reactive en las próximas semanas o se relance de una manera diferente.*
+
+_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+
+_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+
+---
+
 La cadena de bloques de Bitcoin es completamente transparente y el uso de malas prácticas puede ser terrible para tu privacidad financiera. Una de las mejores cosas que puedes hacer para recuperar tu privacidad es a través de CoinJoin. Aquí te mostramos cómo usar CoinJoin de Samourai Whirlpool dentro de la cartera Sparrow.
 
 ![Coinjoin con Sparrow](https://youtu.be/p24SxLI1ews)

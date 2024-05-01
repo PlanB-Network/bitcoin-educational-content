@@ -4,6 +4,16 @@ description: O que é uma carteira Watch-Only e como usá-la?
 ---
 ![cover](assets/cover.webp)
 
+---
+
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, o aplicativo Sentinel ainda funciona, mas **é obrigatório usar seu próprio Dojo** para ter acesso às informações da blockchain e transmitir transações.*
+
+_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados às ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
+
+_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
+
+---
+
 *"Mantenha suas chaves privadas, privadas."*
 
 Neste artigo, exploramos tudo o que você precisa saber sobre carteiras watch-only. Discutimos como elas funcionam e examinamos as diferentes aplicações disponíveis no mercado. Por fim, oferecemos um tutorial detalhado sobre uma das aplicações de carteira watch-only mais populares: Sentinel.
@@ -37,7 +47,8 @@ Comece instalando o aplicativo Sentinel. Você pode fazer isso tanto pela Google
 Ao abrir o aplicativo pela primeira vez, você tem a escolha entre:
 - `Conectar ao Dojo`;
 - `Conectar ao servidor do Samourai`.
-[Dojo](https://samouraiwallet.com/dojo), desenvolvido pela equipe Samourai, é uma versão completa de nó Bitcoin que pode ser instalada de forma independente ou adicionada com um clique a soluções de nó-em-caixa como [Umbrel](https://umbrel.com/) e [RoninDojo](https://ronindojo.io/).
+
+Dojo, desenvolvido pela equipe Samourai, é uma versão completa de nó Bitcoin que pode ser instalada de forma independente ou adicionada com um clique a soluções de nó-em-caixa como [Umbrel](https://umbrel.com/) e [RoninDojo](https://ronindojo.io/).
 
 [**-> Descubra como instalar o RoninDojo v2 em um Raspberry Pi.**](https://planb.network/pt/tutorials/node/ronin-dojo-v2)
 

@@ -4,6 +4,16 @@ description: ¿Qué es una cartera Watch-Only y cómo usarla?
 ---
 ![cover](assets/cover.webp)
 
+---
+
+***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, la aplicación Sentinel sigue funcionando, pero **es obligatorio utilizar su propio Dojo** para poder acceder a la información de la blockchain y difundir transacciones.*
+
+_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+
+_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+
+---
+
 *"Mantén tus claves privadas, privadas."*
 
 En este artículo, exploramos todo lo que necesitas saber sobre las carteras watch-only. Discutimos cómo funcionan y examinamos las diferentes aplicaciones disponibles en el mercado. Finalmente, ofrecemos un tutorial detallado sobre una de las aplicaciones de cartera watch-only más populares: Sentinel.
@@ -37,7 +47,8 @@ Comienza instalando la aplicación Sentinel. Puedes hacerlo ya sea desde Google 
 Al abrir la aplicación por primera vez, se te da la opción entre:
 - `Conectar a Dojo`;
 - `Conéctate al servidor de Samourai`.
-[Dojo](https://samouraiwallet.com/dojo), desarrollado por el equipo de Samourai, es una versión de nodo completo de Bitcoin que puede instalarse de manera independiente o añadirse en un clic a soluciones de nodo en caja como [Umbrel](https://umbrel.com/) y [RoninDojo](https://ronindojo.io/).
+
+Dojo, desarrollado por el equipo de Samourai, es una versión de nodo completo de Bitcoin que puede instalarse de manera independiente o añadirse en un clic a soluciones de nodo en caja como [Umbrel](https://umbrel.com/) y [RoninDojo](https://ronindojo.io/).
 
 [**-> Descubre cómo instalar RoninDojo v2 en un Raspberry Pi.**](https://planb.network/es/tutorials/node/ronin-dojo-v2)
 

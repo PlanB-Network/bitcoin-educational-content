@@ -1,8 +1,6 @@
 ---
 name: Bitcoin 2013
 description: Here are some recording feature of the 2013 Bitcoin confernece hold in in San Jose, California, May 18, 2013, hosted by the Bitcoin Foundation.
-https://www.bitcoinfoundation.org/
-
 ---
 
 # KeyNote

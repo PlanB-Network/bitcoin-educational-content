@@ -4,6 +4,14 @@ description: Impara le basi dell'analisi della catena su Bitcoin
 ---
 ![cover](assets/cover.webp)
 
+***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, **il sito web OXT.me non è attualmente accessibile**. Tuttavia, rimane possibile che questo strumento possa essere riattivato nelle prossime settimane. Nel frattempo, puoi ancora approfittare di questo tutorial per comprendere le basi dell'analisi della catena su Bitcoin. Tutte le euristiche e i pattern che presento rimangono applicabili alle transazioni Bitcoin. Anche se questi strumenti sono meno ottimizzati di OXT, puoi utilizzare temporaneamente [Mempool.space](https://mempool.space/) o [Bitcoin Explorer](https://bitcoinexplorer.org/) per mettere in pratica i concetti teorici di questo articolo.*
+
+_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
+
+_Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo né incoraggiamo l'uso di questi strumenti per scopi criminali. È responsabilità di ogni utente rispettare le leggi vigenti nella propria giurisdizione._
+
+---
+
 In questo articolo, imparerai le fondamenta teoriche essenziali necessarie per intraprendere analisi di base della catena su Bitcoin e, cosa ancora più importante, per comprendere come coloro che ti osservano operano. Sebbene questo articolo non sia un tutorial pratico sullo strumento OXT (un argomento che tratteremo in un futuro tutorial), raccoglie un insieme di conoscenze cruciali per il suo utilizzo. Per ogni modello, metrica e indicatore presentato, viene fornito un link a una transazione esemplificativa su OXT, che ti permetterà di comprendere meglio il suo utilizzo e di esercitarti durante la lettura.
 
 ## Introduzione
@@ -32,7 +40,7 @@ Poiché le transazioni Bitcoin sono rese pubbliche, diventa possibile stabilire 
 
 La maggior parte delle aziende specializzate in analisi della catena opera come scatole nere e non divulga le proprie metodologie. Pertanto, è difficile ottenere informazioni su questa pratica. Per la stesura di questo articolo, mi sono principalmente affidato alle poche risorse aperte disponibili:
 - La maggior parte del mio articolo è estratta dalla serie di quattro articoli denominata: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), prodotta da Samourai Wallet nel 2021;
-- Ho utilizzato anche vari rapporti di [OXT Research](https://medium.com/oxt-research), così come [il loro strumento gratuito di analisi della catena](https://oxt.me/);
+- Ho utilizzato anche vari rapporti di [OXT Research](https://medium.com/oxt-research), così come il loro strumento gratuito di analisi della catena ;
 - Più in generale, le mie conoscenze provengono dai diversi tweet e contenuti di [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC);
 - Sono stato anche ispirato da [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) in cui ho partecipato insieme a [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___), e [@LaurentMT](https://twitter.com/LaurentMT).
 
@@ -91,7 +99,7 @@ Questo modello è caratterizzato dal consumo di un singolo UTXO come input e dal
 L'interpretazione di questo modello è che ci troviamo di fronte a un auto-trasferimento. L'utente ha trasferito i propri bitcoin a se stesso, a un altro indirizzo di sua proprietà. Infatti, poiché non c'è cambio nella transazione, è molto improbabile che ci troviamo di fronte a un pagamento. Sappiamo quindi che l'utente osservato probabilmente è ancora in possesso di questo UTXO.
 
 Per esempio, ecco una transazione Bitcoin che adotta il modello di sweep:
-[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://oxt.me/transaction/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
+[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://mempool.space/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
 Tuttavia, questo tipo di modello può anche rivelare un auto-trasferimento a un conto di scambio (piattaforma di scambio di criptovalute). Sarà lo studio degli indirizzi noti e il contesto della transazione che ci permetterà di sapere se si tratta di uno sweep a un portafoglio di auto-custodia o di un prelievo a una piattaforma.
 
@@ -107,7 +115,7 @@ Possiamo dedurre che l'utente dietro questa transazione era probabilmente in pos
 Proprio come lo sweep, anche questo tipo di modello può rivelare un auto-trasferimento a un conto di scambio. Sarà lo studio degli indirizzi noti e il contesto della transazione che ci permetterà di sapere se si tratta di un consolidamento a un portafoglio di auto-custodia o di un prelievo a una piattaforma.
 
 Per esempio, ecco una transazione Bitcoin che adotta il modello di consolidamento:
-[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://oxt.me/transaction/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)### Il Modello di Spesa in Batch
+[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://mempool.space/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)### Il Modello di Spesa in Batch
 Questo modello è caratterizzato dal consumo di pochi UTXO come input (spesso solo uno) e dalla produzione di molti UTXO come output.
 
 ![analisi](assets/it/5.webp)
@@ -117,7 +125,7 @@ L'interpretazione di questo modello è che ci troviamo di fronte a una spesa in 
 Possiamo dedurre che l'input UTXO proviene da un'azienda con un'attività economica significativa e che gli output UTXO si disperderanno. Alcuni apparterranno ai clienti dell'azienda. Altri potrebbero andare verso aziende partner. Infine, ci sarà certamente un resto che ritorna all'azienda emittente.
 
 Per esempio, ecco una transazione Bitcoin che adotta il modello di spesa in batch:
-[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://oxt.me/transaction/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
+[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://mempool.space/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 ### Transazioni Specifiche del Protocollo
 Tra i modelli di transazione, possiamo anche identificare modelli che rivelano l'uso di un protocollo specifico. Ad esempio, i coinjoin di Whirlpool avranno una struttura facilmente identificabile che permette di differenziarli da altre transazioni classiche.
@@ -127,7 +135,7 @@ Tra i modelli di transazione, possiamo anche identificare modelli che rivelano l
 L'analisi di questo modello suggerisce che probabilmente ci troviamo di fronte a una transazione collaborativa. È anche possibile osservare un coinjoin. Se quest'ultima ipotesi si rivela accurata, allora il numero di output potrebbe fornirci una stima approssimativa del numero di partecipanti.
 
 Per esempio, ecco una transazione Bitcoin che adotta il modello del tipo di transazione collaborativa coinjoin:
-[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
+[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://mempool.space/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
 Ci sono molti altri protocolli che hanno le loro specifiche strutture. Così, potremmo distinguere transazioni del tipo Wabisabi o transazioni Stamps, ad esempio.
 
@@ -149,14 +157,14 @@ La caratteristica più ovvia è il riutilizzo di un indirizzo di ricezione nella
 Questa euristica lascia poco spazio al dubbio. A meno che la loro chiave privata non sia stata compromessa, lo stesso indirizzo di ricezione rivela inevitabilmente l'attività di un singolo utente. L'interpretazione che ne segue è che il resto della transazione è l'output con lo stesso indirizzo dell'input. Questo ci permette di continuare a tracciare l'individuo da questo cambio.
 
 Ad esempio, ecco una transazione dove questa euristica può probabilmente essere applicata:
-[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://oxt.me/transaction/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
+[54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 Queste somiglianze tra gli input e gli output non si fermano al riutilizzo degli indirizzi. Qualsiasi somiglianza nell'uso degli script può permettere l'applicazione di un'euristica. Ad esempio, a volte si può osservare la stessa versione tra un input e uno degli output della transazione.
 
 ![analisi](assets/it/8.webp)
 In questo diagramma, possiamo vedere che l'input numero 0 sblocca uno script P2WPKH (SegWit V0 che inizia con "bc1q"). L'output numero 0 utilizza lo stesso tipo di script. Tuttavia, l'output numero 1 utilizza uno script P2TR (SegWit V1 che inizia con "bc1p"). L'interpretazione di questa caratteristica è che è probabile che l'indirizzo con la stessa versione dell'input sia l'indirizzo di cambio. Apparterrebbe quindi ancora allo stesso utente.
 Ecco una transazione dove questa euristica può probabilmente essere applicata:
-[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://oxt.me/transaction/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
+[db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 In questa transazione, possiamo vedere che l'input numero 0 e l'output numero 1 utilizzano script P2WPKH (SegWit V0), mentre l'output numero 0 utilizza un tipo di script diverso, P2PKH (Legacy).
 
@@ -181,7 +189,7 @@ Questa euristica dell'output più grande è probabilmente la più imprecisa di t
 Ad esempio, se esaminiamo una transazione che presenta un output con un importo tondo e un altro output con un importo maggiore, l'applicazione congiunta dell'euristica dei pagamenti tondi e quella relativa all'output più grande ci permette di ridurre il nostro livello di incertezza.
 
 Ad esempio, ecco una transazione dove questa euristica può probabilmente essere applicata:
-[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://oxt.me/transaction/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
+[b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 ## Euristiche Esterne alla Transazione
 Lo studio delle euristiche esterne è l'analisi delle somiglianze, dei modelli e delle caratteristiche di certi elementi che non sono intrinseci alla transazione stessa. In altre parole, se precedentemente ci siamo limitati a sfruttare elementi intrinseci alla transazione con euristiche interne, ora stiamo espandendo il nostro campo di analisi all'ambiente della transazione grazie alle euristiche esterne.
@@ -193,7 +201,7 @@ L'interpretazione del riutilizzo degli indirizzi è che tutti gli UTXO bloccati 
 Come spiegato nell'introduzione, questa euristica è stata scoperta da Satoshi Nakamoto stesso. Nel White Paper, menziona specificamente una soluzione per prevenire che gli utenti la producano, che è semplicemente quella di utilizzare un nuovo indirizzo per ogni nuova transazione: "*Come ulteriore firewall, una nuova coppia di chiavi potrebbe essere utilizzata per ogni transazione per mantenerle non collegate a un proprietario comune.*"
 
 Ad esempio, ecco un indirizzo riutilizzato in più transazioni:
-[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+[bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 ### La Somiglianza degli Script e le Impronte dei Portafogli
 Oltre al riutilizzo degli indirizzi, esistono molte altre euristiche che possono collegare azioni allo stesso portafoglio o a un cluster di indirizzi.
@@ -238,7 +246,7 @@ Al contrario, se si vede che il modello temporale è piuttosto distribuito su 16
 
 Oltre alla natura dell'entità osservata, il modello temporale può anche darci una posizione approssimativa dell'utente. Possiamo così correlare altre transazioni, e usare il timestamp di queste come un'euristica aggiuntiva che può essere aggiunta alla nostra analisi.
 Ad esempio, riguardo all'indirizzo riutilizzato più volte che ho precedentemente menzionato, si può osservare che le transazioni, sia in entrata che in uscita, sono concentrate in un intervallo di 13 ore. ![analisi](assets/it/12.webp)
-*Credit: [https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0](https://oxt.me/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)*
+*Credit: OXT*
 
 Questo intervallo corrisponde probabilmente all'Europa, all'Africa o al Medio Oriente. Pertanto, si può interpretare che l'utente dietro queste transazioni viva lì.
 

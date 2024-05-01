@@ -84,20 +84,144 @@ Sparrow Wallet fonctionne toujours de manière normale, à l'exception des outil
 
 Comme nous l'avons vu dans les sections précédentes, si vous possédez votre propre Dojo, il n'est pas forcément nécessaire de changer de logiciel. **Samourai reste un excellent choix de portefeuille chaud** pour vos dépenses quotidiennes. Toutefois, si êtes sans Dojo ou si vous préférez opter pour un autre logiciel, je vous explique le processus de récupération complet, en expliquant les éventuels blocages que vous pourriez rencontrer.
 
-### Récupérer avec Sparrow Wallet
+Dans tous les cas, il est important de prendre votre temps et de veiller à ne pas commettre d'erreur. Rappelez-vous qu'il n'y a pas d'urgence car vous détenez vos clés privées, et la saisie des serveurs de Samourai n'affecte en rien cela. Quoi qu'il arrive, ils ne pourront évidemment pas accéder à vos clés privées.
+
+### Vérifier la passphrase
+
+Pour récupérer votre portefeuille, vous devez obligatoirement disposer de votre passphrase, même si vous optez pour une récupération via le fichier de sauvegarde. Commencez par vérifier la validité de cette passphrase. Ouvrez votre application Samourai Wallet, cliquez sur l'icône de votre Paynym en haut à gauche, puis sélectionnez `Paramètres`.
+
+
+
+Ensuite, cliquez sur `Dépannage` puis sur `Passphrase/test sauvegarde`.
+
+
+
+Saisissez votre passphrase et cliquez sur `Ok`. Si elle est correcte, Samourai vous le confirmera. Vous avez aussi la possibilité de vérifier le fichier de sauvegarde si vous envisagez de l'utiliser ultérieurement.
+
+
+
+
+Cette étape est facultative mais recommandée. Elle permet de confirmer que la passphrase est correcte, ce qui élimine une source potentielle de problèmes ultérieurs. Si Samourai indique que la passphrase est incorrecte à cette étape, la récupération ne pourra pas se faire. Assurez-vous d'avoir saisi correctement la passphrase et vérifiez-la à nouveau.
+
+### Option 1 : Récupérer le portefeuille sur Sparrow avec le fichier de sauvegarde
+
+Depuis la version 1.8.6 de Sparrow Wallet, il est possible d'importer directement votre portefeuille Samourai à l'aide du fichier texte de sauvegarde nommé `samourai.txt`, que votre application Samourai Wallet génère automatiquement. Ce fichier contient toutes les informations nécessaires pour récupérer votre portefeuille et est chiffré avec votre passphrase pour en assurer la sécurité.
+
+
+
+
+
+Si vous choisissez cette option, vous aurez besoin de votre fichier `samourai.txt` à jour et de votre passphrase. Pour générer ce fichier sur Samourai Wallet, cliquez sur les trois petits points en haut à droite, puis sélectionnez `Exporter sauvegarde portefeuille`.
+
+
+
+
+
+Ensuite, choisissez `Exporter vers le presse-papiers`.
+
+
+
+
+
+Après cela, vous allez devoir transmettre ce fichier sur votre PC de manière sécurisée. Étant donné que le fichier est chiffré mais que la passphrase suffit pour le déchiffrer, il est important de prendre des précautions lors de sa transmission. Si vous optez pour un transfert direct sous forme de texte brut, vous devrez recréer un fichier `samourai.txt` sur votre PC et y coller le contenu du presse-papiers. Une alternative serait de récupérer directement le fichier `samourai.txt` depuis les fichiers stockés sur votre téléphone.
+
+Une fois que vous avez accès au fichier sur votre PC, ouvrez Sparrow Wallet, cliquez sur l'onglet `File` et sélectionnez `Import Wallet` pour commencer l'importation de votre portefeuille.
 
 
 
 
 
 
-### Récupérer avec Electrum
+Descendez jusqu'à `Samourai Backup`, cliquez sur `Import File` puis sélectionnez votre fichier `samourai.txt`.
 
 
+
+
+
+
+
+
+
+Sparrow vous demandera ensuite un mot de passe pour déchiffrer le fichier. Ce mot de passe est en fait votre passphrase. Saisissez-la dans le champ correspondant et cliquez sur `Import`.
+
+
+
+
+
+Pour le type de script, si vous n'avez pas configuré d'autres scripts dans Samourai, vous devriez normalement utiliser uniquement du SegWit V0 (Native SegWit / P2WPKH). Conservez ce script par défaut et cliquez sur `Import`.
+
+
+
+
+Nommez votre portefeuille, par exemple "Samourai Recovery", puis cliquez sur `Create Wallet`.
+
+
+
+
+Sparrow vous demandera ensuite de choisir un mot de passe. Ce mot de passe protège uniquement l'accès à votre portefeuille sur ce PC et ne concerne pas la dérivation des clés de votre portefeuille. Assurez-vous de choisir un mot de passe solide, notez-le pour vous en souvenir, et cliquez sur `Set Password`.
+
+
+
+
+Sparrow va alors dériver les clés de votre portefeuille et rechercher les transactions correspondantes.
+
+
+
+
+
+
+Si à ce stade, votre portefeuille n’apparaît pas, il est possible que vous ayez commis une erreur lors de la copie du fichier `samourai.txt` ou lors de la saisie de la passphrase. Vous pouvez consulter la section dédiée à la résolution des problèmes pour plus d'aide.
+
+
+
+
+
+
+
+Pour l'instant, seul votre compte de dépôt est accessible. Si vous n'utilisiez Samourai que pour ce compte, vous devriez voir l'intégralité de vos fonds. Cependant, si vous utilisiez également Whirlpool, vous aurez besoin de dériver les comptes `premix`, `postmix` et `badbank`. Sur Sparrow, cliquez simplement sur l'onglet `Settings`, puis sur `Add Accounts...`.
+
+
+
+
+
+
+Dans la fenêtre qui s'ouvre, sélectionnez `Whirlpool Accounts` dans la liste déroulante, puis cliquez sur `OK`.
+
+
+
+
+
+
+Vous verrez alors apparaître vos différents comptes Whirlpool et Sparrow va dériver les clés nécessaires pour utiliser les bitcoins associés.
+
+
+
+
+
+Si vous utilisez un autre logiciel que Sparrow, comme Electrum, pour récupérer votre portefeuille Samourai, voici les index des comptes Whirlpool pour les récupérer manuellement :
+- Dépôt : `m/84'/0'/0'`
+- Bad Bank : `m/84'/0'/2147483644'`
+- Premix : `m/84'/0'/2147483645'`
+- Postmix: `m/84'/0'/2147483646'`
+
+Vous avez maintenant accès à vos bitcoins sur Sparrow. Si vous avez besoin d'aide pour utiliser Sparrow Wallet, consultez notre tutoriel : [https://planb.network/tutorials/wallet/sparrow](https://planb.network/tutorials/wallet/sparrow)
+
+Je vous recommande aussi d'importer manuellement les étiquettes que vous aviez associées à vos UTXO sur Samourai. Cela vous permettra de réaliser un contrôle efficace de vos pièces (coin control) sur Sparrow par la suite.
+
+### Option 2 : Récupérer le portefeuille sur Sparrow avec la phrase mnémonique
 
 
 
 ### Quels sont les problèmes fréquemment rencontrés ?
+
+Après avoir aidé plusieurs personnes ces derniers jours, je pense avoir rencontré la plupart des problèmes qui peuvent venir empêcher la récupération de votre portefeuille.
+
+
+
+
+
+
+
 
 
 

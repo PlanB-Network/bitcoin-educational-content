@@ -5,9 +5,17 @@ description: Comprendre et utiliser le JoinBot
 
 ![DALL·E – samourai robot in a red forest, 3D render](assets/cover.webp)
 
+***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, **le service de JoinBot n'est plus disponible**. À l'heure actuelle, il n'est donc plus possible d'utiliser cet outil. Vous pouvez tout de même continuer de faire des Stonewall X2, mais il faut trouver un collaborateur et faire les échanges de PSBT manuellement. Ce service sera peut-être relancé dans les mois qui viennent en fonction de l'avancée de l'affaire.*
+
+_Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
+
+_Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction._
+
+--- 
+
 JoinBot est un nouvel outil qui vient s’ajouter à la suite Samourai Wallet avec la dernière mise à jour 0.99.98f du célèbre logiciel de portefeuille Bitcoin. Il vous permet de réaliser facilement une transaction collaborative afin d’optimiser votre confidentialité, sans pour autant devoir trouver un partenaire.
 
-** Merci à l’excellent Fanis Michalakis pour l’idée d’utiliser DALL-E pour la miniature ! **
+*Merci à l’excellent Fanis Michalakis pour l’idée d’utiliser DALL-E pour la miniature !*
 
 ## Qu’est-ce qu’une transaction collaborative sur Bitcoin ?
 
@@ -72,8 +80,6 @@ Ensuite, l’avantage de StonewallX2 par rapport à un PayJoin de type Stowaway 
 
 En revanche, l’inconvénient principal de cette structure de transaction est qu’elle nécessite un collaborateur qui veuille bien utiliser ses bitcoins pour participer à votre paiement. Si vous avez des amis bitcoiners prêts à vous aider en toute circonstance, cela n’est pas un problème. En revanche, si vous ne connaissez pas d’autres utilisateurs de Samourai Wallet, ou bien si personne n’est disponible pour collaborer, alors vous êtes bloqué.
 
-Il existe toutefois un groupe Telegram où vous pouvez trouver d’autres utilisateurs de Samourai qui voudront bien collaborer avec vous. Vous pouvez le retrouver en cliquant ici.
-
 Pour résoudre cette problématique, les équipes de Samourai ont récemment ajouté une nouvelle fonctionnalité à leur application : JoinBot.
 
 # C’est quoi JoinBot ?
@@ -127,9 +133,6 @@ JoinBot est un outil supplémentaire qui permet d’ajouter plus de choix et de 
 
 Si vous pouvez réaliser un StonewallX2 classique avec un ami, je vous conseille tout de même de préférer cette utilisation de l’outil. En revanche, si vous êtes bloqués et que vous ne trouvez aucun collaborateur pour faire un paiement, vous savez que JoinBot sera disponible 24h/24 et 7j/7 pour collaborer avec vous.
 
-> Ressources externes :
->
-> - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
-> - https://youtu.be/vhUREWiY570
-> - https://docs.samourai.io/wallet/privacy-enhanced-transactions
-> - https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
+**Ressources externes :**
+- https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
+- https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin

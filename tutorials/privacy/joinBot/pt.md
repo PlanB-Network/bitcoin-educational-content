@@ -5,9 +5,17 @@ description: Compreender e usar o JoinBot
 
 ![DALL·E - samurai robô em uma floresta vermelha, renderização 3D](assets/cover.webp)
 
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, **o serviço de JoinBot não está mais disponível**. Atualmente, não é mais possível usar essa ferramenta. No entanto, ainda é possível realizar Stonewall X2, mas você precisa encontrar um colaborador e trocar os PSBT manualmente. Este serviço pode ser reiniciado nos próximos meses, dependendo do progresso do caso.*
+
+_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados aos ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
+
+_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
+
+---
+
 O JoinBot é uma nova ferramenta que foi adicionada à suíte Samourai Wallet com a última atualização 0.99.98f do famoso software de carteira Bitcoin. Ele permite que você faça facilmente uma transação colaborativa para otimizar sua privacidade, sem precisar encontrar um parceiro.
 
-**Agradecimentos ao excelente Fanis Michalakis pela ideia de usar o DALL-E para a miniatura!**
+*Agradecimentos ao excelente Fanis Michalakis pela ideia de usar o DALL-E para a miniatura!*
 
 ## O que é uma transação colaborativa no Bitcoin?
 
@@ -67,27 +75,30 @@ A força da transação StonewallX2 reside no fato de que um observador externo 
 Do exterior, uma transação StonewallX2 não pode ser diferenciada de uma transação Stonewall. A diferença efetiva entre elas reside apenas no fato de que o Stonewall não é colaborativo. Ele usa apenas as UTXOs de um único usuário. No entanto, em suas estruturas no registro de contas, Stonewall e StonewallX2 são perfeitamente idênticos. Isso permite adicionar ainda mais interpretações possíveis a essa estrutura de transação, pois um observador externo não poderá saber se as entradas vêm da mesma pessoa ou de dois colaboradores.
 
 Em seguida, a vantagem do StonewallX2 em relação a um PayJoin do tipo Stowaway é que ele pode ser usado em todas as situações. O destinatário efetivo do pagamento não deposita nenhuma entrada na transação. Assim, podemos usar um StonewallX2 para pagar em qualquer comerciante que aceite Bitcoin, mesmo que este último não use Samourai ou Sparrow.
-En revanche, l’inconvénient principal de cette structure de transaction est qu’elle nécessite un collaborateur qui veuille bien utiliser ses bitcoins pour participer à votre paiement. Si vous avez des amis bitcoiners prêts à vous aider en toute circonstance, cela n’est pas un problème. En revanche, si vous ne connaissez pas d’autres utilisateurs de Samourai Wallet, ou bien si personne n’est disponible pour collaborer, alors vous êtes bloqué.
 
-Il existe toutefois un groupe Telegram où vous pouvez trouver d’autres utilisateurs de Samourai qui voudront bien collaborer avec vous. Vous pouvez le retrouver en cliquant ici.
+Por outro lado, a principal desvantagem desta estrutura de transação é que requer um colaborador que esteja disposto a utilizar os seus bitcoins para participar no seu pagamento. Se tiveres amigos bitcoiners que estejam dispostos a ajudar-te em qualquer circunstância, isto não é um problema. Por outro lado, se não conheceres nenhum outro utilizador da Carteira Samourai, ou se ninguém estiver disponível para colaborar, então estás preso.
 
-Pour résoudre cette problématique, les équipes de Samourai ont récemment ajouté une nouvelle fonctionnalité à leur application : JoinBot.
+Para resolver este problema, as equipas do Samourai adicionaram recentemente uma nova funcionalidade à sua aplicação: JoinBot.
 
-# C’est quoi JoinBot ?
+# O que é o JoinBot?
 
-Le principe de JoinBot est simple. Si vous ne trouvez personne avec qui collaborer pour une transaction StonewallX2, vous pouvez collaborer avec lui. Concrètement, vous allez en fait réaliser une transaction collaborative directement avec Samourai Wallet.
+O princípio por detrás do JoinBot é simples. Se você não consegue encontrar ninguém para colaborar em uma transação StonewallX2, você pode colaborar com eles. Em termos práticos, você pode realmente realizar uma transação colaborativa diretamente com a Samourai Wallet.
 
-Ce service est très commode, notamment pour les utilisateurs novices, puisqu’il est disponible 24h/24 et 7j/7. Si vous devez effectuer un paiement urgent et que vous souhaitez faire un StonewallX2, vous n’aurez plus besoin de contacter un ami, ou bien de chercher un collaborateur en ligne. JoinBot se chargera de vous assister.
+Este serviço é muito conveniente, especialmente para utilizadores novatos, uma vez que está disponível 24 horas por dia, 7 dias por semana. Se precisar de fazer um pagamento urgente e desejar fazer um StonewallX2, já não precisará de contactar um amigo ou procurar um colaborador online. O JoinBot ajuda-o.
 
-Un autre avantage de JoinBot est que les UTXO qu’il fournit en input sont issus exclusivement de postmix Whirlpool, ce qui vient améliorer la confidentialité de votre paiement. De plus, puisque JoinBot est tout le temps en ligne, vous devriez collaborer avec des UTXO qui disposent de larges Anonset prospectifs.
+Outra vantagem do JoinBot é o facto de os UTXO que fornece como entrada serem exclusivamente provenientes de postmixes da Whirlpool, o que melhora a confidencialidade do seu pagamento. Além disso, como o JoinBot está sempre online, deve trabalhar com UTXOs que tenham grandes Anonsets potenciais.
 
-Évidemment, JoinBot dispose de certains compromis qu’il convient de signaler :
+Obviamente, o JoinBot tem alguns compromissos que vale a pena salientar:
 
-> Comme pour un StonewallX2 classique, votre collaborateur est forcément au courant des UTXO utilisés et de leur destination. Dans le cas de JoinBot, Samourai connait les détails de cette transaction. Ce n’est pas forcément une mauvaise chose, mais il faut le garder à l’esprit.
-> Pour éviter les spams, Samourai prélève 3,5 % de frais de service sur le montant de la transaction effective, avec une limite maximale de 0,01 BTC. Par exemple, si j’envoie un paiement réel de 100 kilosats avec JoinBot, le montant des frais de service sera de 3 500 sats.
-> Pour utiliser JoinBot, vous devez obligatoirement disposer d’au moins deux UTXO non liés et disponibles sur votre portefeuille.
-> Sur un StonewallX2 classique, les frais de minage sont partagés équitablement entre les deux collaborateurs. Avec JoinBot, vous devrez évidemment payer l’intégralité des frais de minage.
-> A fim de que uma transação JoinBot seja exatamente igual a uma transação clássica StonewallX2 ou Stonewall, o pagamento das taxas de serviço é feito em uma transação totalmente separada. O reembolso da metade das taxas de mineração inicialmente pagas pela Samourai será feito nesta segunda transação. Para otimizar sua privacidade até o fim, o pagamento das taxas é feito usando uma transação com a estrutura Stowaway (PayJoin).
+Tal como num StonewallX2 clássico, o seu colaborador está necessariamente ciente dos UTXOs usados e para onde vão. No caso do JoinBot, Samourai conhece os detalhes da transação. Isto não é necessariamente uma coisa má, mas é algo a ter em conta.
+
+Para evitar spam, Samourai cobra uma taxa de serviço de 3,5% sobre o valor real da transação, com um limite máximo de 0,01 BTC. Por exemplo, se eu enviar um pagamento efetivo de 100 kilosats utilizando o JoinBot, a taxa de serviço será de 3.500 sats.
+
+Para usar o JoinBot, tens de ter pelo menos dois UTXO desvinculados disponíveis na tua carteira.
+
+Numa StonewallX2 clássica, os custos de mineração são partilhados igualmente entre os dois colaboradores. Com o JoinBot, terá obviamente de pagar a totalidade da taxa de extração.
+
+A fim de que uma transação JoinBot seja exatamente igual a uma transação clássica StonewallX2 ou Stonewall, o pagamento das taxas de serviço é feito em uma transação totalmente separada. O reembolso da metade das taxas de mineração inicialmente pagas pela Samourai será feito nesta segunda transação. Para otimizar sua privacidade até o fim, o pagamento das taxas é feito usando uma transação com a estrutura Stowaway (PayJoin).
 
 ## Como usar o JoinBot?
 
@@ -123,9 +134,6 @@ O JoinBot é uma ferramenta adicional que permite adicionar mais escolhas e libe
 
 Se você puder realizar um StonewallX2 clássico com um amigo, eu ainda recomendo usar essa opção. No entanto, se você estiver bloqueado e não encontrar nenhum colaborador para fazer um pagamento, saiba que o JoinBot estará disponível 24 horas por dia, 7 dias por semana para colaborar com você.
 
-> Recursos externos: '
->
-> - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
-> - https://youtu.be/vhUREWiY570
-> - https://docs.samourai.io/wallet/privacy-enhanced-transactions
-> - https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin
+**Recursos externos:**
+- https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
+- https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin

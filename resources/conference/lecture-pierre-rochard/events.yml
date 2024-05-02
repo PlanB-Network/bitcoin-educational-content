@@ -1,0 +1,22 @@
+- start_date: 2024-05-04 14:00:00 
+  end_date: 2024-05-04 17:00:00
+  timezone:  America/El_Salvador
+  address_line_1: San Salvador, El Salvador
+  address_line_2: Universidad Don Bosco | Campus Antiguo Cuscatlán
+  address_line_3: Avenida Albert Einstein 233
+  name: Pierre Rochard - Mining Technology and Economics
+  builder: PlanB
+  type: Lecture
+  book_online: true
+  book_in_person: true
+  price_dollars: 50
+  description: 2st guest star lecture of PlanB Biz School
+  language: 
+    - en
+  links:
+    replay_url:
+    live_url : https://peertube.planb.network/videos/embed/76c0fa8b-ee1e-4ab3-a1b3-f40318cf44eb
+  tag: 
+    - economy
+    - Bitcoiner
+    - General

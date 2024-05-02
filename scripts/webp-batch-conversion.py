@@ -76,7 +76,7 @@ def update_md_links(root_dir):
                 print(f"Updated image links in {md_path}")
 
 if __name__ == "__main__":
-    root_dir = './../resources/conference/'
+    root_dir = './../resources/conference/lecture-pierre-rochard/assets/'
     convert_to_webp_and_remove_metadata(root_dir)  # Converts non-WebP files and strips metadata
     remove_metadata_from_existing_webp(root_dir)   # Ensures existing WebP files have no metadata
     update_md_links(root_dir)                      # Updates markdown links

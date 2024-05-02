@@ -5,7 +5,7 @@
   address_line_2: Universidad Don Bosco | Campus Antiguo Cuscatlán
   address_line_3: Avenida Albert Einstein 233
   name: Pierre Rochard - Mining Technology and Economics
-  builder: PlanB
+  builder: planb_network
   type: Lecture
   book_online: true
   book_in_person: true
@@ -16,7 +16,7 @@
   links:
     replay_url:
     live_url : https://peertube.planb.network/videos/embed/76c0fa8b-ee1e-4ab3-a1b3-f40318cf44eb
-  tag: 
+  tags: 
     - economy
     - Bitcoiner
     - General

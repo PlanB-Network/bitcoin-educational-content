@@ -15,7 +15,8 @@
     - en
   links:
     replay_url:
-    live_url : https://peertube.planb.network/videos/embed/76c0fa8b-ee1e-4ab3-a1b3-f40318cf44eb
+    live_url: https://peertube.planb.network/videos/embed/4f4a811a-2d98-40dc-80ea-736088b408e7 
+    chat_url: https://peertube.planb.network/plugins/livechat/router/webchat/room/4f4a811a-2d98-40dc-80ea-736088b408e7 
   tags: 
     - economy
     - Bitcoiner

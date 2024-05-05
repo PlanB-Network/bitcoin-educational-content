@@ -4,6 +4,14 @@ description: Understanding and using Stonewall transactions
 ---
 ![cover stonewall](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, using the Samourai Wallet app now requires a connection to your own Dojo to function properly. Aside from this, Stonewall transactions are not affected at all and can still be performed without any issues. Indeed, these types of transactions are carried out autonomously, without the need for external collaboration or connection via Soroban.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 > *"Break the assumptions of blockchain analysis with mathematically provable doubt between sender and recipient of your transactions."*
 
 ## What is a Stonewall transaction?
@@ -56,5 +64,4 @@ Unlike Stowaway or Stonewall x2 (cahoots) transactions, the Stonewall transactio
 
 
 **External Resources:**
-- https://docs.samourai.io/en/spend-tools#stonewall ;
-- https://samouraiwallet.com/stonewall.
+- https://docs.samourai.io/en/spend-tools#stonewall.

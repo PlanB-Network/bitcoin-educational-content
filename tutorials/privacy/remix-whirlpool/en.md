@@ -4,6 +4,14 @@ description: How many remixes should be done on Whirlpool?
 ---
 ![cover remix- wp](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Whirlpool Stats Tool is no longer available for download, as it was hosted on Samourai's Gitlab. Even if you had previously downloaded this tool locally to your machine, or it was installed on your RoninDojo node, WST will not function at this time. It relied on data provided by OXT.me for its operation, and this site is no longer accessible. Currently, WST is not particularly useful since the Whirlpool protocol is inactive. However, it remains possible that these softwares might be reinstated in the coming weeks. Moreover, the theoretical part of this article remains relevant for understanding the principles and goals of coinjoins in general (not just Whirlpool), as well as understanding the effectiveness of the Whirlpool model. You can also learn how to quantify the privacy provided by coinjoin cycles.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 > *"Break the link your coins leave behind"*
 
 This is a question I am often asked. **When doing coinjoins with Whirlpool, how many remixes should be done to achieve satisfactory results?**
@@ -31,7 +39,7 @@ It is true that each additional remix of your piece increases its anonymity sets
 The retrospective anonset, on the other hand, is not a concern in our case. In fact, from your initial coinjoin, you benefit from an inheritance of previous pool transactions, immediately giving your piece a high backward anonset, with a marginal increase in each subsequent cycle.
 It is also important to understand that the creation of plausible deniability is never complete. It relies on the probability of tracing your coin. This probability decreases as the size of the groups concealing it increases. Therefore, you should adjust your objectives in terms of anonsets according to your personal expectations. Ask yourself about the reasons that lead you to use coinjoins and the levels of anonymity necessary to achieve these objectives. For example, if the use of coinjoins is simply aimed at preserving the privacy of your wallet when sending a few sats to your godchild for their birthday, very high levels of anonymity are not necessary. Your godchild is probably unable to perform in-depth chain analysis, and even if they were, the repercussions on your life would not be catastrophic. However, if you are the target of an authoritarian regime where the slightest piece of information can result in imprisonment, your actions will need to be guided by much stricter criteria.
 
-To determine these famous anonset indicators, you can use a Python tool called **WST** (Whirlpool Stats Tool). We are also preparing a tutorial on this tool for you.
+To determine these famous anonset indicators, you can use a Python tool called **WST** (Whirlpool Stats Tool).
 
 However, it is not always necessary to calculate the anonsets of each of your coinjoined coins. The design of Whirlpool itself already provides you with guarantees. As mentioned earlier, retrospective anonset is rarely a concern. From your initial mix, you already obtain a particularly high retrospective score. As for prospective anonset, you just need to keep your coin in the post-mix account for a sufficiently long period of time. For example, here are the anonset scores of one of my `100,000 sats` coins after spending two months in the coinjoin pool:
 ![WST anonsets](assets/en/7.webp)
@@ -43,7 +51,7 @@ That is why I consider the use of Whirlpool to be particularly relevant in a `Ho
 I hope this answer has shed some light on the Whirlpool model. If you want to learn more about how coinjoins work on Bitcoin, I recommend reading [my comprehensive article on this topic](https://planb.network/tutorials/privacy/coinjoin-dojo).
 
 **External resources:**
-- https://samouraiwallet.com/whirlpool
+- Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.

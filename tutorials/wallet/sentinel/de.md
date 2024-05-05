@@ -4,6 +4,16 @@ description: Was ist eine Watch-Only-Wallet und wie verwendet man sie?
 ---
 ![cover](assets/cover.webp)
 
+---
+
+***WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April funktioniert die Sentinel-App weiterhin, aber **es ist zwingend erforderlich, Ihr eigenes Dojo zu nutzen**, um auf Blockchain-Informationen zuzugreifen und Transaktionen zu verbreiten.*
+
+_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+---
+
 *"Bewahre deine privaten Schlüssel privat."*
 
 In diesem Artikel erforschen wir alles, was Sie über Watch-Only-Wallets wissen müssen. Wir diskutieren, wie sie funktionieren und untersuchen die verschiedenen auf dem Markt verfügbaren Anwendungen. Abschließend bieten wir ein detailliertes Tutorial über eine der beliebtesten Watch-Only-Wallet-Anwendungen: Sentinel.
@@ -37,7 +47,8 @@ Beginnen Sie mit der Installation der Sentinel-Anwendung. Dies können Sie entwe
 Beim ersten Öffnen der Anwendung haben Sie die Wahl zwischen:
 - `Connect to Dojo`;
 - `Verbindung zum Server von Samourai herstellen`.
-[Dojo](https://samouraiwallet.com/dojo), entwickelt vom Samourai-Team, ist eine vollständige Bitcoin-Node-Version, die eigenständig installiert oder mit einem Klick zu Node-in-Box-Lösungen wie [Umbrel](https://umbrel.com/) und [RoninDojo](https://ronindojo.io/) hinzugefügt werden kann.
+
+Dojo, entwickelt vom Samourai-Team, ist eine vollständige Bitcoin-Node-Version, die eigenständig installiert oder mit einem Klick zu Node-in-Box-Lösungen wie [Umbrel](https://umbrel.com/) und [RoninDojo](https://ronindojo.io/) hinzugefügt werden kann.
 
 [**-> Entdecken Sie, wie Sie RoninDojo v2 auf einem Raspberry Pi installieren.**](https://planb.network/de/tutorials/node/ronin-dojo-v2)
 

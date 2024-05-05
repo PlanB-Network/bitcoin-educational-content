@@ -4,6 +4,14 @@ description: Comprendere il concetto di anonset e come calcolarlo con WST
 ---
 ![cover](assets/cover.webp)
 
+***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, lo strumento Whirlpool Stats Tool non è più disponibile per il download, poiché era ospitato sul Gitlab di Samourai. Anche se avevate precedentemente scaricato questo strumento localmente sul vostro computer, o era installato sul vostro nodo RoninDojo, WST non funzionerà al momento. Dipendeva dai dati forniti da OXT.me per il suo funzionamento, e questo sito non è più accessibile. Attualmente, WST non è particolarmente utile poiché il protocollo Whirlpool è inattivo. Tuttavia, rimane possibile che questi software possano essere rimessi in servizio nelle prossime settimane. Inoltre, la parte teorica di questo articolo rimane pertinente per comprendere i principi e gli obiettivi dei coinjoins in generale (non solo Whirlpool), oltre a comprendere l'efficacia del modello Whirlpool. Potrete anche imparare a quantificare la privacy fornita dai cicli di coinjoin.*
+
+_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
+
+_Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo né incoraggiamo l'uso di questi strumenti per scopi criminali. È responsabilità di ogni utente rispettare le leggi vigenti nella propria giurisdizione._
+
+---
+
 *"Interrompi il collegamento lasciato dalle tue monete"*
 
 In questo tutorial, studieremo il concetto di anonset, indicatori che ci permettono di stimare la qualità di un processo di coinjoin su Whirlpool. Copriremo il metodo di calcolo e interpretazione di questi indicatori. Dopo la parte teorica, passeremo alla pratica imparando a calcolare gli anonset di una transazione specifica utilizzando lo strumento Python *Whirlpool Stats Tools* (WST).
@@ -166,7 +174,7 @@ Questo è il motivo per cui considero l'uso di Whirlpool particolarmente rilevan
 
 - [Podcast in francese sull'analisi della catena](https://fountain.fm/episode/6nNoQEUHBCQR8hAXAkEx)
 - [Articolo di Wikipedia su HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog)
-- [Repository di Samourai per le statistiche di Whirlpool](https://code.samourai.io/whirlpool/whirlpool_stats)
-- [Sito web di Whirlpool di Samourai](https://samouraiwallet.com/whirlpool)
+- Repository di Samourai per le statistiche di Whirlpool
+- Sito web di Whirlpool di Samourai
 - [Articolo su Medium in inglese sulla privacy e Bitcoin di Samourai](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923)
 - [Articolo su Medium in inglese sul concetto di set di anonimato di Samourai](https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7)

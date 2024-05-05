@@ -4,6 +4,14 @@ description: How to perform a coinjoin on Samourai Wallet?
 ---
 ![cover](assets/cover.webp)
 
+***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, the Whirlpool tool no longer functions, even for individuals who have their own Dojo or are using Sparrow Wallet. However, it remains possible that this tool could be reinstated in the coming weeks or relaunched in a different manner. Moreover, the theoretical part of this article remains relevant for understanding the principles and objectives of coinjoins in general (not just Whirlpool), as well as understanding the effectiveness of the Whirlpool model.*
+
+_We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
+
+_This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
+
+---
+
 "*a bitcoin wallet for the streets*"
 
 In this tutorial, you will learn what a coinjoin is and how to perform one using the Samourai Wallet software and the Whirlpool implementation.
@@ -170,7 +178,7 @@ However, this method has two notable drawbacks:
 The ideal solution to overcome these limitations is to operate your own Dojo associated with a Whirlpool CLI instance on your personal Bitcoin node. This way, you will avoid any information leakage and achieve complete independence. Although the tutorial presented below is useful for certain goals or for beginners, to truly optimize your coinjoin session, using your own Dojo is recommended. A detailed guide on setting up this configuration will soon be available on PlanB Network.
 
 ### Installing Samourai Wallet
-To start, you will obviously need the Samourai Wallet application. You can download it directly from [the official website](https://samouraiwallet.com/download) with the APK, on [their GitLab](https://code.samourai.io/wallet/samourai-wallet-android), or on the [Google Play Store](https://play.google.com/store/apps/details?id=com.samourai.wallet&pcampaignid=web_share).
+To start, you will obviously need the Samourai Wallet app. You can download it directly from the official website using the APK, from their GitLab, or from the Google Play Store.
 
 ### Creating a Software Wallet
 After installing the software, you will need to proceed with creating a Bitcoin wallet on Samourai. If you already have one, you can skip directly to the next step.

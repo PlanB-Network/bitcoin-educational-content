@@ -40,6 +40,16 @@ Le portefeuille Sparrow est conçu pour les utilisateurs avancés et, au début,
 
 ## Comment utiliser CoinJoin avec le portefeuille Sparrow.
 
+---
+
+***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, l'outil Whirlpool ne fonctionne plus, même pour les personnes qui l'utilisent sur Sparrow Wallet. Il reste cependant possible que cet outil soit remis en service dans les semaines à venir ou relancé d'une manière différente.
+
+_Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
+
+_Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction._
+
+---
+
 La blockchain de Bitcoin est totalement transparente et l'utilisation de mauvaises pratiques peut être terrible pour votre confidentialité financière. L'une des meilleures choses que vous puissiez faire pour retrouver votre vie privée est d'utiliser CoinJoin. Voici comment utiliser CoinJoin Samourai Whirlpool dans le portefeuille Sparrow.
 
 ![Coinjoin avec Sparrow](https://youtu.be/p24SxLI1ews)

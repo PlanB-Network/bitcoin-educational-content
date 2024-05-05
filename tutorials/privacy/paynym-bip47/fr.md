@@ -3,6 +3,13 @@ name: BIP47 - PayNym
 
 description: Comment fonctionne les PayNym
 ---
+***ATTENTION :** Suite à l'arrestation des fondateurs de Samourai Wallet et à la saisie de leurs serveurs le 24 avril dernier, l'application ne peut plus être utilisée par les utilisateurs qui ne disposent pas de leur propre Dojo. Le BIP47 reste utilisable sur Sparrow Wallet pour tous les utilisateurs et **sur Samourai Wallet uniquement pour les utilisateurs disposant d'un Dojo**.*
+
+_Nous suivons de près l'évolution de cette affaire ainsi que les développements concernant les outils associés. Soyez assuré que nous mettrons ce tutoriel à jour au fur et à mesure que de nouvelles informations seront disponibles._
+
+_Ce tutoriel est fourni à des fins éducatives et informatives uniquement. Nous ne cautionnons ni n'encourageons l'utilisation de ces outils à des fins criminelles. Il est de la responsabilité de chaque utilisateur de respecter les lois en vigueur dans sa juridiction._
+
+---
 
 > « Il est trop grand, » disaient-ils tous, et le coq d’Inde qui était venu au monde avec des éperons et qui se croyait empereur, se gonfla comme un bâtiment toutes voiles dehors, et marcha droit sur lui en grande fureur et rouge jusqu’aux yeux. Le pauvre canet ne savait s’il devait s’arrêter ou marcher : il eut bien du chagrin d’être bafoué par tous les canards de la cour.
 
@@ -16,7 +23,7 @@ Ce compromis est vieux comme le White Paper. Satoshi nous mettait déjà en gard
 
 De nombreuses solutions existent pour recevoir de multiples paiements, sans pour autant produire de réutilisation d'adresse. Chacune d'elles dispose de ses compromis et de ses inconvénients. Parmi toutes ces solutions, il y a le [BIP47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki), une proposition développée par Justus Ranvier et publiée en 2015 permettant de générer des codes de paiements réutilisables. Leur objectif est de pouvoir réaliser plusieurs transactions vers une même personne, sans pour autant réutiliser d'adresse.
 
-Au départ, cette proposition a reçu un accueil méprisant de la part d'une partie de la communauté, et elle n'a jamais été ajoutée à Bitcoin Core. Certains logiciels ont tout de même choisi de l'implémenter de leur côté. Ainsi, [Samourai Wallet](https://samouraiwallet.com/) a développé sa propre implémentation du BIP47 : PayNym. Aujourd'hui, cette implémentation est évidemment disponible sur Samourai Wallet pour les smartphones, mais également sur [Sparrow Wallet](https://sparrowwallet.com/) pour les PC.
+Au départ, cette proposition a reçu un accueil méprisant de la part d'une partie de la communauté, et elle n'a jamais été ajoutée à Bitcoin Core. Certains logiciels ont tout de même choisi de l'implémenter de leur côté. Ainsi, Samourai Wallet a développé sa propre implémentation du BIP47 : PayNym. Aujourd'hui, cette implémentation est évidemment disponible sur Samourai Wallet pour les smartphones, mais également sur [Sparrow Wallet](https://sparrowwallet.com/) pour les PC.
 
 Avec le temps, Samourai a programmé de nouvelles fonctionnalités directement liées à PayNym. À présent, il existe tout un écosystème d'outils permettant d'optimiser la confidentialité de l'utilisateur fondés sur PayNym et sur BIP47.
 
@@ -78,12 +85,12 @@ C'est pour cette raison que la majorité des logiciels de portefeuille Bitcoin v
 
 Il existe de nombreuses solutions pour ces organisations. Chacune d'entre elles dispose de ses avantages et de ses inconvénients, mais à ce jour, et comme nous le verrons plus loin, le BIP47 se différencie réellement des autres.
 
-Ce problème de la réutilisation d'adresse est loin d'être négligeable sur Bitcoin. Comme vous pouvez le voir sur le graphique ci-dessous extrait du site [oxt.me](http://oxt.me/), le taux global de réutilisation d'adresse par les utilisateurs de Bitcoin est actuellement de 52% :
+Ce problème de la réutilisation d'adresse est loin d'être négligeable sur Bitcoin. Comme vous pouvez le voir sur le graphique ci-dessous extrait du site oxt.me, le taux global de réutilisation d'adresse par les utilisateurs de Bitcoin est actuellement de 52% :
 Graphique OXT.me évolution du taux global de réutilisation d'adresses sur le réseau Bitcoin.
 
 ![image](assets/2.webp)
 
-Crédit : https://oxt.me/charts
+Crédit : OXT
 
 La majorité de ces réutilisations provient des exchanges qui, pour des raisons d'efficacité et de facilité, réutilisent une même adresse de nombreuses fois. À ce jour, le BIP47 serait la meilleure solution pour endiguer ce phénomène chez les exchanges. Cela permettrait d'engager à la baisse ce taux global de réutilisation d'adresse, sans pour autant occasionner trop de frictions pour ces entités.
 

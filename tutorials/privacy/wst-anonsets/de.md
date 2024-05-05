@@ -4,6 +4,14 @@ description: Verstehen Sie das Konzept von Anonsets und wie man es mit WST berec
 ---
 ![cover](assets/cover.webp)
 
+***ACHTUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April ist das Whirlpool Stats Tool nicht mehr zum Download verfügbar, da es auf dem Gitlab von Samourai gehostet wurde. Auch wenn Sie dieses Tool zuvor lokal auf Ihrem Computer heruntergeladen hatten oder es auf Ihrem RoninDojo-Knoten installiert war, wird WST derzeit nicht funktionieren. Es war abhängig von den Daten, die von OXT.me bereitgestellt wurden, und diese Website ist nicht mehr zugänglich. Derzeit ist WST nicht besonders nützlich, da das Whirlpool-Protokoll inaktiv ist. Es bleibt jedoch möglich, dass diese Software in den kommenden Wochen wieder in Betrieb genommen wird. Darüber hinaus bleibt der theoretische Teil dieses Artikels relevant, um die Prinzipien und Ziele von Coinjoins im Allgemeinen (nicht nur Whirlpool) zu verstehen sowie die Effektivität des Whirlpool-Modells zu verstehen. Sie können auch lernen, wie die durch Coinjoin-Zyklen bereitgestellte Anonymität quantifiziert wird.*
+
+_Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind._
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+---
+
 *"Unterbrechen Sie die Spur, die Ihre Münzen hinterlassen"*
 
 In diesem Tutorial werden wir das Konzept von Anonsets studieren, Indikatoren, die es uns ermöglichen, die Qualität eines Coinjoin-Prozesses auf Whirlpool zu schätzen. Wir werden die Berechnungs- und Interpretationsmethode dieser Indikatoren behandeln. Nach dem theoretischen Teil werden wir zur Praxis übergehen, indem wir lernen, die Anonsets einer spezifischen Transaktion mit dem Python-Tool *Whirlpool Stats Tools* (WST) zu berechnen.
@@ -166,7 +174,7 @@ Aus diesem Grund halte ich die Nutzung von Whirlpool als besonders relevant in e
 
 - [Podcast auf Französisch über Kettenanalyse](https://fountain.fm/episode/6nNoQEUHBCQR8hAXAkEx)
 - [Wikipedia-Artikel über HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog)
-- [Samourais Repository für Whirlpool-Statistiken](https://code.samourai.io/whirlpool/whirlpool_stats)
-- [Whirlpool-Website von Samourai](https://samouraiwallet.com/whirlpool)
+- Samourais Repository für Whirlpool-Statistiken
+- Whirlpool-Website von Samourai
 - [Medium-Artikel auf Englisch über Privatsphäre und Bitcoin von Samourai](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923)
 - [Medium-Artikel auf Englisch über das Konzept des Anonymitätssets von Samourai](https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7)

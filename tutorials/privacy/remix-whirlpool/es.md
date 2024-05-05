@@ -4,6 +4,14 @@ description: ¿Cuántas remezclas deben hacerse en Whirlpool?
 ---
 ![portada remix- wp](assets/cover.webp)
 
+***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, la herramienta Whirlpool Stats Tool ya no está disponible para descargar, ya que estaba alojada en el Gitlab de Samourai. Incluso si había descargado previamente esta herramienta localmente en su máquina, o estaba instalada en su nodo RoninDojo, WST no funcionará por el momento. Dependía de los datos proporcionados por OXT.me para su funcionamiento, y este sitio ya no está accesible. Actualmente, WST no es particularmente útil ya que el protocolo Whirlpool está inactivo. Sin embargo, es posible que estos softwares se reactiven en las próximas semanas. Además, la parte teórica de este artículo sigue siendo relevante para entender los principios y objetivos de los coinjoins en general (no solo Whirlpool), así como la eficacia del modelo Whirlpool. También puede aprender a cuantificar la privacidad proporcionada por los ciclos de coinjoin.*
+
+_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+
+_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+
+---
+
 > *"Rompe el vínculo que tus monedas dejan atrás"*
 
 Esta es una pregunta que me hacen con frecuencia. **Cuando se hacen coinjoins con Whirlpool, ¿cuántas remezclas deben hacerse para obtener resultados satisfactorios?**
@@ -31,7 +39,7 @@ Por otro lado, el anonset retrospectivo no es una preocupación en nuestro caso.
 
 También es importante entender que la creación de la negación plausible nunca es completa. Se basa en la probabilidad de rastrear tu moneda. Esta probabilidad disminuye a medida que aumenta el tamaño de los grupos que la ocultan. Por lo tanto, debes ajustar tus objetivos en términos de anonsets de acuerdo con tus expectativas personales. Pregúntate sobre las razones que te llevan a usar coinjoins y los niveles de anonimato necesarios para alcanzar estos objetivos. Por ejemplo, si el uso de coinjoins tiene como objetivo simplemente preservar la privacidad de tu billetera al enviar unos pocos satoshis a tu ahijado por su cumpleaños, no es necesario tener niveles muy altos de anonimato. Es probable que tu ahijado no pueda realizar un análisis exhaustivo de la cadena y, incluso si pudiera, las repercusiones en tu vida no serían catastróficas. Sin embargo, si eres el objetivo de un régimen autoritario donde la más mínima información puede resultar en prisión, tus acciones deberán guiarse por criterios mucho más estrictos.
 
-Para determinar estos famosos indicadores de anonset, puedes utilizar una herramienta de Python llamada **WST** (Whirlpool Stats Tool). También estamos preparando un tutorial sobre esta herramienta para ti.
+Para determinar estos famosos indicadores de anonset, puedes utilizar una herramienta de Python llamada **WST** (Whirlpool Stats Tool).
 
 Sin embargo, no siempre es necesario calcular los anonsets de cada una de tus monedas coinjoin. El diseño de Whirlpool en sí mismo ya te proporciona garantías. Como se mencionó anteriormente, el anonset retrospectivo rara vez es una preocupación. Desde tu mezcla inicial, ya obtienes una puntuación retrospectiva particularmente alta. En cuanto al anonset prospectivo, solo necesitas mantener tu moneda en la cuenta posterior a la mezcla durante un período de tiempo suficientemente largo. Por ejemplo, aquí están las puntuaciones de anonset de una de mis monedas de `100,000 sats` después de pasar dos meses en el grupo de coinjoin:
 ![WST anonsets](assets/es/7.webp)
@@ -43,7 +51,7 @@ Es por eso que considero que el uso de Whirlpool es especialmente relevante en u
 Espero que esta respuesta haya aclarado un poco el modelo de Whirlpool. Si quieres aprender más sobre cómo funcionan los coinjoins en Bitcoin, te recomiendo leer [mi artículo completo sobre este tema](https://planb.network/tutorials/privacy/coinjoin-dojo).
 
 **Recursos externos:**
-- https://samouraiwallet.com/whirlpool
+- Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.

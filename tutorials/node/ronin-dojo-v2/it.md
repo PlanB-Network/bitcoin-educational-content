@@ -4,6 +4,14 @@ description: Installazione del tuo nodo Bitcoin RoninDojo v2 su Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
+***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, alcune funzionalità di RoninDojo, come Whirlpool, non sono più operative. Tuttavia, è possibile che questi strumenti possano essere rimessi in servizio o rilanciati in modo diverso nelle prossime settimane. Inoltre, poiché il codice di RoninDojo era ospitato sul GitLab di Samourai, che è stato anch'esso sequestrato, attualmente non è possibile scaricare il codice a distanza. I team di RoninDojo stanno probabilmente lavorando alla ripubblicazione del codice.*
+
+_Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
+
+_Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo né incoraggiamo l'uso di questi strumenti per scopi criminali. È responsabilità di ogni utente rispettare le leggi vigenti nella propria giurisdizione._
+
+---
+
 > "*Usa Bitcoin con privacy.*"
 
 In [un tutorial precedente](https://planb.network/tutorials/node/ronin-dojo), avevamo già spiegato la procedura per installare e utilizzare RoninDojo v1. Tuttavia, nell'ultimo anno, i team di RoninDojo hanno lanciato la versione 2 della loro implementazione, che ha segnato un punto di svolta significativo nell'architettura del software. Infatti, si sono allontanati dalla distribuzione Linux Manjaro a favore di Debian. Di conseguenza, non offrono più un'immagine pre-configurata per l'installazione automatica su Raspberry Pi. Ma esiste ancora un metodo per procedere con un'installazione manuale. Questo è quello che ho usato per il mio nodo, e da allora, RoninDojo v2 ha funzionato meravigliosamente sul mio Raspberry Pi 4. Offro quindi un nuovo tutorial su come installare manualmente RoninDojo v2 su Raspberry Pi.
@@ -16,7 +24,7 @@ In [un tutorial precedente](https://planb.network/tutorials/node/ronin-dojo), av
 - Come utilizzare il tuo nodo RoninDojo v2?
 
 ## Cos'è RoninDojo?
-[Dojo](https://samouraiwallet.com/dojo) è inizialmente un'implementazione completa di nodo Bitcoin, basata su Bitcoin Core, e sviluppata dai team di Samourai Wallet. Questa soluzione può essere installata su qualsiasi apparecchiatura. A differenza di altre implementazioni Core, Dojo è stato specificamente ottimizzato per integrarsi con l'ambiente applicativo Android di Samourai Wallet. Per quanto riguarda RoninDojo, è uno strumento progettato per facilitare l'installazione e la gestione di un Dojo, così come vari altri strumenti complementari. In breve, RoninDojo arricchisce l'implementazione base di Dojo integrando una moltitudine di strumenti aggiuntivi, semplificando al contempo la sua installazione e gestione.
+Dojo è inizialmente un'implementazione completa di nodo Bitcoin, basata su Bitcoin Core, e sviluppata dai team di Samourai Wallet. Questa soluzione può essere installata su qualsiasi apparecchiatura. A differenza di altre implementazioni Core, Dojo è stato specificamente ottimizzato per integrarsi con l'ambiente applicativo Android di Samourai Wallet. Per quanto riguarda RoninDojo, è uno strumento progettato per facilitare l'installazione e la gestione di un Dojo, così come vari altri strumenti complementari. In breve, RoninDojo arricchisce l'implementazione base di Dojo integrando una moltitudine di strumenti aggiuntivi, semplificando al contempo la sua installazione e gestione.
 
 Ronin offre anche [una soluzione nodo-in-box, chiamata "*Tanto*"](https://ronindojo.io/en/products), un dispositivo con RoninDojo già installato su un sistema assemblato dal loro team. Il Tanto è un'opzione a pagamento, che può essere interessante per coloro che preferiscono evitare complicazioni tecniche. Ma poiché il codice sorgente di RoninDojo è aperto, è anche possibile distribuirlo sul proprio hardware. Questa alternativa, più economica, richiede tuttavia alcune manipolazioni aggiuntive, che tratteremo in questo tutorial.
 RoninDojo è un Dojo, quindi permette una facile integrazione di Whirlpool CLI nel tuo nodo Bitcoin per fornire la migliore esperienza di coinjoin possibile. Con Whirlpool CLI, diventa possibile remixare continuamente i tuoi bitcoin, 24 ore su 24, 7 giorni su 7, senza richiedere che il tuo computer personale rimanga acceso.
@@ -345,7 +353,7 @@ Verrà visualizzato il seguente prompt dei comandi:
 Se desideri uscire da questa interfaccia e tornare al menu RoninCLI, inserisci semplicemente:
 `quit`
 
-Prima di tutto, è necessario configurare il proxy per utilizzare Tor, per garantire la riservatezza durante l'estrazione dei dati da [OXT](https://oxt.me/). Inserisci il comando:
+Prima di tutto, è necessario configurare il proxy per utilizzare Tor, per garantire la riservatezza durante l'estrazione dei dati da OXT. Inserisci il comando:
 `socks5 127.0.0.1:9050`
 Successivamente, procedi con il download delle informazioni del pool contenenti la tua transazione:
 `download 0001`
@@ -375,7 +383,8 @@ Prima di dettagliare la procedura per utilizzare il Calcolatore Boltzmann, è im
 
 **Il primo indicatore** che il software calcola è il numero totale di combinazioni possibili, indicato sotto `nb combinations` nello strumento. Basato sui valori degli UTXO coinvolti, questo indicatore quantifica il numero di modi in cui gli input possono essere associati agli output. In altre parole, determina il numero di interpretazioni plausibili che una transazione può generare. Ad esempio, un coinjoin strutturato secondo il modello Whirlpool 5x5 presenta `1496` combinazioni possibili:
 ![combinations](assets/it/50.webp)
-Credit: [KYCP.org](https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d)
+Credit: KYCP
+
 **Il secondo indicatore** calcolato è l'entropia di una transazione, designata da `Entropy`. Quando una transazione ha un alto numero di combinazioni possibili, è spesso più rilevante fare riferimento alla sua entropia. Questa è definita come il logaritmo binario del numero di combinazioni possibili. Ecco la formula utilizzata:
 - $E$: l'entropia della transazione;
 - $C$: il numero di combinazioni possibili per la transazione.
@@ -486,8 +495,8 @@ Riguardo alle altre schede disponibili sulla tua dashboard RoninUI:
 Ecco fatto! Grazie per aver seguito questo tutorial fino alla fine. Se ti è piaciuto, ti incoraggio a condividerlo sui social media. Inoltre, se hai l'opportunità, considera di supportare gli sviluppatori che rendono disponibili questi software liberi e open-source alla nostra comunità con una donazione: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Per approfondire la tua conoscenza di RoninDojo e scoprire altre risorse, ti consiglio vivamente di consultare i link alle risorse esterne menzionate di seguito.
 
 **Risorse esterne:**
-- [https://samouraiwallet.com/dojo](https://samouraiwallet.com/dojo)
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
-- [https://code.samourai.io/ronindojo/RoninDojo](https://code.samourai.io/ronindojo/RoninDojo)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
+- [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
+- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)

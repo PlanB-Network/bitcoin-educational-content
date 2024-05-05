@@ -3,7 +3,13 @@ name: RoninDojo
 
 description: Instalar e usar seu próprio nó Bitcoin RoninDojo.
 ---
-**ATENÇÃO: Embora este tutorial permaneça operacional para a instalação do RoninDojo v1, ele não permitirá que você atualize seu nó para o RoninDojo v2. Assim, embora esta versão continue funcional, ela não é mais atualizada. Para se beneficiar das últimas melhorias e funcionalidades, recomendo fortemente que consulte o nosso tutorial dedicado à instalação direta do RoninDojo v2 no seu Raspberry Pi:** [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, algumas funcionalidades do RoninDojo, como o Whirlpool, não estão mais operacionais. No entanto, é possível que essas ferramentas sejam reativadas ou relançadas de forma diferente nas próximas semanas. Além disso, como o código do RoninDojo estava hospedado no GitLab da Samourai, que também foi apreendido, atualmente não é possível fazer o download do código remotamente. É provável que as equipes do RoninDojo estejam trabalhando para republicar o código.*
+
+_Estamos acompanhando de perto a evolução deste caso, bem como os desenvolvimentos relacionados às ferramentas associadas. Fique assegurado de que atualizaremos este tutorial à medida que novas informações estiverem disponíveis._
+
+_Este tutorial é fornecido apenas para fins educativos e informativos. Não endossamos nem encorajamos o uso dessas ferramentas para fins criminosos. É responsabilidade de cada usuário cumprir as leis em sua jurisdição._
+
+_Este tutorial é dedicado à instalação do RoninDojo v1. Para aproveitar as últimas melhorias e funcionalidades, recomendo fortemente que consulte nosso tutorial dedicado à instalação direta do RoninDojo v2 em seu Raspberry Pi:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
 
 ---
 
@@ -427,7 +433,7 @@ Em outras palavras, esse indicador representa o número de interpretações poss
 
 ![Esquema de uma transação Coinjoin em kycp.org](assets/32.webp)
 
-Crédito: https://kycp.org/#/fe5e5abab7ea452f87603f7ebc2fa4e77380eafcc927e1cb51e1a72401ab073d
+Crédito: KYCP
 
 2. O segundo indicador calculado é a entropia de uma transação ("Entropia"). Dado que o número de combinações possíveis pode ser muito alto para uma transação, pode-se optar por usar a entropia. A entropia representa o logaritmo binário do número de combinações possíveis. Sua fórmula é a seguinte:
 
@@ -460,7 +466,7 @@ Vamos dar outro exemplo. Aqui está uma transação "clássica" que tem uma entr
 
 ![Esquema de transação bitcoin em oxt.me](assets/34.webp)
 
-Crédito: https://oxt.me/graph/transaction/tiid/9815286
+Crédito: OXT
 
 Essa transação tem apenas uma única interpretação possível:
 
@@ -667,14 +673,10 @@ Para saber mais sobre RoninDojo, recomendo que você verifique os links em minha
 
 ### Referências externas:
 
-- https://samouraiwallet.com/dojo
 - https://ronindojo.io/index.html
 - https://wiki.ronindojo.io/en/home
-- https://code.samourai.io/ronindojo/RoninDojo
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
-- https://oxt.me/
-- https://kycp.org/#/
 - https://fr.wikipedia.org/wiki/Formule_de_Boltzmann
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

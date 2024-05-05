@@ -4,12 +4,20 @@ description: Verstehen Sie das Konzept der Entropie und wie man Boltzmann verwen
 ---
 ![cover](assets/cover.webp)
 
+***WARNUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April ist die Website KYCP.org derzeit nicht zugänglich. Das Gitlab, das den Python Boltzmann Calculator Code hostete, wurde ebenfalls beschlagnahmt. Derzeit ist es nicht mehr möglich, dieses Tool herunterzuladen. Es besteht jedoch die Möglichkeit, dass der Code in den kommenden Wochen von anderen neu veröffentlicht wird. In der Zwischenzeit können Sie von diesem Tutorial profitieren, um die Funktionsweise des Boltzmann Calculators zu verstehen. Die von diesem Tool bereitgestellten Indikatoren sind auf jede Bitcoin-Transaktion anwendbar und können auch manuell berechnet werden. Ich werde Ihnen alle notwendigen Berechnungen in diesem Tutorial zur Verfügung stellen. Wenn Sie das Python-Tool bereits auf Ihrem Gerät heruntergeladen haben oder ein RoninDojo verwenden, können Sie das Tool weiterhin nutzen und diesem Tutorial wie gewohnt folgen, es funktioniert immer noch.*
+
+*Wir verfolgen die Entwicklungen in diesem Fall sowie die Entwicklungen bezüglich der zugehörigen Tools genau. Seien Sie versichert, dass wir dieses Tutorial aktualisieren werden, sobald neue Informationen verfügbar sind.*
+
+_Dieses Tutorial wird nur zu Bildungs- und Informationszwecken bereitgestellt. Wir befürworten oder ermutigen die Verwendung dieser Tools zu kriminellen Zwecken nicht. Es liegt in der Verantwortung jedes Benutzers, die Gesetze in seiner Gerichtsbarkeit zu beachten._
+
+---
+
 Der Boltzmann Calculator ist ein Werkzeug zur Analyse einer Bitcoin-Transaktion, indem es deren Entropieniveau zusammen mit anderen fortgeschrittenen Metriken misst. Es bietet Einblicke in die Verbindungen zwischen den Eingaben und Ausgaben einer Transaktion. Diese Indikatoren bieten eine quantifizierte Bewertung der Privatsphäre einer Transaktion und helfen, potenzielle Fehler zu identifizieren.
 
 Dieses Python-Tool wurde von den Teams bei Samourai Wallet und OXT entwickelt, kann aber für jede Bitcoin-Transaktion verwendet werden.
 
 ## Wie verwendet man den Boltzmann Calculator?
-Um den Boltzmann Calculator zu verwenden, stehen Ihnen zwei Optionen zur Verfügung. Die erste ist, das [Python-Tool](https://code.samourai.io/oxt/boltzmann) direkt auf Ihrem Gerät zu installieren. Alternativ können Sie sich für die Website [KYCP.org](https://kycp.org/#/) (_Know Your Coin Privacy_) entscheiden, die eine vereinfachte Nutzungsplattform bietet. Für [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2)-Nutzer, beachten Sie, dass dieses Tool bereits in Ihren Knoten integriert ist.
+Um den Boltzmann Calculator zu verwenden, stehen Ihnen zwei Optionen zur Verfügung. Die erste ist, das Python-Tool direkt auf Ihrem Gerät zu installieren. Alternativ können Sie sich für die Website KYCP.org (_Know Your Coin Privacy_) entscheiden, die eine vereinfachte Nutzungsplattform bietet. Für [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2)-Nutzer, beachten Sie, dass dieses Tool bereits in Ihren Knoten integriert ist.
 
 Die Verwendung der KYCP-Seite ist ganz einfach: Geben Sie einfach den Transaktionsidentifikator (TXID), den Sie analysieren möchten, in die Suchleiste ein und drücken Sie `ENTER`.
 ![KYCP](assets/1.webp)
@@ -18,8 +26,6 @@ Dann finden Sie verschiedene Informationen über die Transaktion, einschließlic
 Sie gelangen auf die Seite, die den Indikatoren des Boltzmann Calculators gewidmet ist.
 ![KYCP](assets/3.webp)
 Für diejenigen, die das Tool direkt von ihrem RoninDojo-Knoten aus verwenden möchten, ist es über `RoninCLI > Samourai Toolkit > Boltzmann Calculator` zugänglich.
-
-Für die lokale Verwendung auf Ihrem Computer sind spezifische Anweisungen für Ihr System unter dieser Adresse verfügbar: [https://code.samourai.io/oxt/boltzmann](https://code.samourai.io/oxt/boltzmann)
 
 Wie bei der KYCP.org-Seite müssen Sie, sobald das Python-Tool installiert ist, einfach den TXID der Transaktion, die Sie analysieren möchten, einfügen.
 
@@ -183,9 +189,9 @@ Zum Beispiel hat eine Whirlpool-Typ-Coinjoin-Transaktion keine deterministischen
 
 **Externe Ressourcen:**
 
-- [Boltzmann Code auf Samourai](https://code.samourai.io/oxt/boltzmann) 
+- Boltzmann Code auf Samourai
 - [Bitcoin-Transaktionen & Privatsphäre (Teil I) von Laurent MT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [Bitcoin-Transaktionen & Privatsphäre (Teil II) von Laurent MT](https://gist.github.com/LaurentMT/d361bca6dc52868573a2)
 - [Bitcoin-Transaktionen & Privatsphäre (Teil III) von Laurent MT](https://gist.github.com/LaurentMT/e8644d5bc903f02613c6)
-- [KYCP-Website](https://kycp.org/#/)
+- KYCP-Website
 - [Medium-Artikel zur Einführung in das Boltzmann-Skript von Laurent MT](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)

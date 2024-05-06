@@ -50,15 +50,23 @@ En plus des sources directes archivées sur Internet, nous nous basons sur un ce
 - *Digital Cash* de Finn Brunton, publié en 2019 ;
 - *This Machine Kills Secrets* d'Andy Greenberg, publié en 2012.
 
-# Les origines de Bitcoin
+# Aux origines de Bitcoin
 
-## eCash : l'argent liquide électronique
+## eCash : l'argent liquide électronique chaumien
+
+Avant d'aborder l'histoire proprement dite de la création de Bitcoin par Satoshi Nakamoto, il convient de parler de ce qui a précédé. Nous aborderons le sujet en trois parties : le concept d'argent liquide chaumien communément appelé *eCash*, les monnaies privées reposant sur les systèmes centralisés telles que e-gold, et les modèles techniques qui ont été imaginés avant la mise en place du système distribué robuste qu'est Bitcoin.
+
+Le premier concept, eCash, est issu du travail de David Chaum, informaticien et cryptographe américain né en 1955, qui est considéré comme un pionnier dans le domaine des communications anonymes et comme un précurseur des cypherpunks. Ce dernier a contribué de façon majeure au développement de la cryptographie dans les années 80. Il a mis au point son système d'argent liquide (dit « chaumien ») dans le même temps, et a tenté de le mettre en application dans les années 90 par le biais de son entreprise DigiCash.
+
+L'action de David Chaum faisait suite à une révolution conceptuelle : le dévoilement de la cryptographie asymétrique en 1976 par Whitfield Diffie et Martin Hellman. L'idée de monnaie numérique a également émergé de cette découverte primordiale. Outre la dissimulation de l'information contenue dans un message, la cryptographie asymétrique permettait la mise en place de procédés de signature. Il devenait ainsi possible pour une personne de prouver mathématiquement qu'elle était propriétaire d'un certain montant d'unités de compte numérique.
+
+Dans ce chapitre, nous étudierons ce que la cryptographie asymétrique a apporté, comment David Chaum l'a utilisée pour concevoir eCash, et comment son concept a par la suite été mis en application.
 
 ### L'émergence de la cryptographie asymétrique
 
 Diffie et Hellman, 1976
 
-### David Chaum et l'argent liquide électronique
+### La signature aveugle et l'argent liquide électronique
 
 Procédé de signature aveugle, fonctionnement de eCash
 

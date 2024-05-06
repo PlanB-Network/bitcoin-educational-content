@@ -12,6 +12,12 @@ description: Private Lightning event for builder
 
 Speaker: Steve Lee
 
+## Toto
+
+![video](https://youtu.be/0Aq1ANhKV0E)
+
+Speaker: Tata
+
 ## Add Lightning to your app using the Breez SDK
 
 ![video](https://youtu.be/jyRKzXyTB_w)

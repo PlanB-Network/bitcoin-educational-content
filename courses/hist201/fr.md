@@ -62,9 +62,37 @@ L'action de David Chaum faisait suite à une révolution conceptuelle : le dév
 
 Dans ce chapitre, nous étudierons ce que la cryptographie asymétrique a apporté, comment David Chaum l'a utilisée pour concevoir eCash, et comment son concept a par la suite été mis en application.
 
-### L'émergence de la cryptographie asymétrique
+### L'émergence de la cryptographie moderne
 
-Diffie et Hellman, 1976
+La cryptographie est la discipline qui a pour but la sécurisation de la communication en présence de tiers malveillants en assurant la confidentialité, l'authenticité et l'intégrité de l'information transmise.
+
+Pendant des siècles, il s'agissait uniquement de dissimuler le contenu d'un message par une méthode de chiffrement reposant sur une clé unique servant à chiffrer et à déchiffrer ce message. C'est ce qu'on appelle la cryptographie *symétrique*. Le [code de César](https://fr.wikipedia.org/wiki/Chiffrement_par_décalage), consistant à remplacer chaque lettre d'un texte par une lettre à une distance fixe dans l'alphabet, en est l'exemple le plus connu (la distance choisie est alors la clé). Avec le développement de la télécommunication et avec la construction des premières machines à calculer et des ordinateurs au cours du XX^e siècle, les algorithmes de chiffrement se sont ensuite considérablement complexifiés. Toutefois, même si ce type de cryptographie fonctionne très bien, il possède un inconvénient majeur : la nécessité d'échanger la clé de manière sécurisée avant de pouvoir communiquer.
+
+C'est pour résoudre ce problème que la cryptographie *asymétrique*, aussi appelée cryptographie à clé publique, est apparue. Celle-ci repose sur deux clés distinctes : une clé privée, censée rester secrète, et une clé publique, dérivée de la clé privée. La clé privée ne peut théoriquement pas être retrouvée facilement à partir de la clé publique, ce qui fait que cette dernière peut être partagée à tous en toute tranquillité.
+
+<!-- TODO -->
+
+**extrait** Dans ce type de cryptographie, le chiffrement asymétrique consiste à utiliser la clé publique comme une clé de chiffrement et la clé privée comme une clé de déchiffrement. Le destinataire génère une paire de clés, garde la clé privée pour lui et partage la clé publique à son interlocuteur pour qu'il lui envoie des messages. Le fonctionnement de ce chiffrement est ainsi analogue à celui d'une boîte aux lettres que le destinataire utiliserait pour recevoir des lettres et dont lui seul posséderait la clé.
+
+**extrait** La signature numérique repose à l'inverse sur le fait d'utiliser la clé privée comme une clé de signature et la clé publique comme clé de vérification. L'expéditeur signe un message à l'aide de la clé privée et l'envoie à son interlocuteur, qui peut vérifier son authenticité en utilisant la clé publique.
+
+La cryptographie asymétrique a été découverte indépendamment par plusieurs chercheurs au cours des années 70. Néanmoins, les premiers à présenter ce qu'ils avaient trouvé ont été Whitfield Diffie et Martin Hellman, deux cryptographes de l'université Stanford. Ainsi, en novembre 1976, ils ont publié un article intitulé « [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) » dans la revue *IEEE Transactions on Information Theory*. Dans l'introduction de cet article, ils écrivaient :
+
+> « Nous sommes aujourd'hui à la veille d'une révolution dans le domaine de la cryptographie. Le développement de matériel numérique bon marché a permis de s'affranchir des limites de conception de l'informatique mécanique et de ramener le coût des dispositifs cryptographiques de haute qualité à un niveau tel qu'ils peuvent être utilisés dans des applications commerciales telles que les distributeurs de billets distants et les terminaux d'ordinateurs. À leur tour, ces applications créent un besoin pour de nouveaux types de systèmes cryptographiques qui minimisent la nécessité de canaux de distribution de clés sécurisés et fournissent l'équivalent d'une signature écrite. Dans le même temps, les développements théoriques de la théorie de l'information et de l'informatique promettent de fournir des cryptosystèmes dont la sécurité est prouvée, transformant ainsi cet art ancien en science. »
+>
+> Original: "We stand today on the brink of a revolution in cryptography. The development of cheap digital hardware has freed it from the design limitations of mechanical computing and brought the cost of high grade cryptographic devices down to where they can be used in such commercial applications as remote cash dispensers and computer terminals. In turn, such applications create a need for new types of cryptographic systems which minimize the necessity of secure key distribution channels and supply the equivalent of a written signature. At the same time, theoretical developments in information theory and computer science show promise of providing provably secure cryptosystems, changing this ancient art into a science."
+
+L'article décrivait un algorithme d'échange de clés (destiné à la transmission de clés secrètes pour le chiffrement symétrique) ainsi qu'un procédé de signature numérique.
+
+**extrait** Le système cryptographique asymétrique le plus connu a été conçu juste après la publication du papier de Diffie et Hellman : il s'agit de l'algorithme de chiffrement RSA, créé en 1977 par Ronald Rivest, Adi Shamir et Leonard Adleman et breveté par le MIT en 1983. Celui-ci se base sur des opérations algébriques et sa sécurité provient de la difficulté à décomposer de très grands nombres en facteurs premiers. Il permet de chiffrer un message pour l'envoyer à quelqu'un, mais aussi (grâce à l'interversion des rôles des clés) de signer électroniquement ce message pour le publier. Cet algorithme est encore aujourd'hui utilisé très largement sur Internet, et en particulier dans le commerce électronique.
+
+La cryptographie asymétique a été présentée au sein d'un article de Martin Gardner intitulé « [Mathematical Games: A new kind of cipher that would take millions of years to break](https://simson.net/ref/1977/Gardner_RSA.pdf) », en français : « Un nouveau type de code dont le déchiffrement prendrait des millions d'années ».
+
+**extrait**  La cryptographie asymétrique ouvrait également la voie aux fonctions à sens unique, des fonctions dont le calcul d’une image est facile mais dont l’obtention d’un antécédent est difficile. En effet, les systèmes de chiffrement à clé publique pouvaient former eux-mêmes des fonctions de ce type. On a assisté en particulier au développement des premières fonctions de hachage cryptographiques, qui transformaient un message de taille variable en une empreinte de taille fixe. Entre 1989 et 1991, plusieurs algorithmes de hachage (MD2, MD4, MD5) ont été conçus par Ronald Rivest pour le MIT.
+
+Ces éléments constitutifs de Bitcoin sont issus de ces recherches. Le schéma de signature ECDSA intégré dans Bitcoin a été créé en 1992 pour le NIST. La fonction de hachage SHA-256 a elle été publiée en 2001, au sein de la suite d'algorithmes SHA-2 rendue publique par la NSA. Pour en savoir plus, vous pouvez vous reporter à la formation [Crypto 301](../crypto301/fr.md) présentée par Loïc Morel.
+
+Cette révolution dans le domaine de la cryptographie a également inspiré le jeune David Chaum, alors doctorant à l'Université de Berkeley...
 
 ### La signature aveugle et l'argent liquide électronique
 

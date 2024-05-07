@@ -3,88 +3,58 @@ name: BitBlockBoom 2018
 description: The BitBlockBoom! is a bitcoin conference. To put it in simple terms this conference is only for people who are interested in Bitcoin. Attendees range from people highly known and heavily involved in Bitcoin, to people who are just trying to learn what bitcoin is all about. You will not find anyone shilling shitcoins or NFTs. This is a True Bitcoin Conference. BitBlockBoom has created a wonderful atmosphere to meet and discuss bitcoin with the speakers and other bitcoiners. 
 ---
 
-# Main Stage
+# Main Stage 
 
-## Bitcoin An Unstoppable Force
+## Bitcoin: The most advanced form of money ever
 
-![video](https://youtu.be/K0yESdK22Aw)
+![video](https://youtu.be/L5cr9DZyA_g?si=IdKYfZjZu6EgpEVz
 
-Speaker: Guy Swann
+Speaker: Saifedean Ammous
 
-## BTC - Pay For Anyone, Not Everyone
+## Bitcoin Governance: Proof of Hat vs. Proof of Work
 
-![video](https://youtu.be/koCujSoudAg)
+![video](https://youtu.be/JFemF_XFVes?si=rlx25uQnJHQnY4xq
 
-Speaker: Britt Kelly
+Speaker: Pierre Rochard
 
-## The Moral Case For Bitcoin
+## Everyone is Still a Scammer
 
-![video](https://youtu.be/bZS3q8iqDow)
+![video](https://youtu.be/nIlkpX6qqLg?si=L63qQtn0Be9nDu0x
 
-Speaker: Jimmy Song
+Speaker: Michael Goldstein 
 
-## Nascent Multisig Adoption
+## Can Cryptocurrencies Save Latin America?
 
-![video](https://youtu.be/zRbMWLuTlsg)
+![video](https://youtu.be/imqZaRU-5rI?si=LFxTegLH5O5LXRvM
 
-Speaker: Will Cole
+Speaker: Felipe Huicochea
 
-## Bitcoin's Decentralization
+## Trading Bots and Trading Software
 
-![video](https://youtu.be/h72m9vIVmzc)
+![video](https://youtu.be/3LXgFmsd_6M?si=17lHoHgk5eFcohDF
 
-Speaker: Tone Vays
+Speaker: Casey Watkins
 
-## Why Bitcoin Adoption Will Happen 'Gradually Then Suddenly'
+## The Time Value of Bitcoin and Bitcoin Capital Markets
 
-![video](https://youtu.be/7WqoQay84Ro)
+![video](https://youtu.be/9EBkOzpUAh0?si=WRnxp2cm7cdxp26B
 
-Speaker: Parker Lewis
+Nik Bhatia
 
-## US Taxation Of Bitcoin
+## Effectively Evaluating Cryptocurrencies
 
-![video](https://youtu.be/JKGx2l5UlLM)
+![video](https://youtu.be/wZOfux2L6as?si=xxbuQ2FpQtnWsY86
 
-Speaker: Jeff Vandrew Jr
+Speaker: Austin Akers
 
-## The Age Of Discontinuity
+## What Should You Know Before Buying an ASIC Miner
 
-![video](https://youtu.be/ff2tXsH9X5w)
+![video](https://youtu.be/Qde_Ktt1OeE?si=WLgm620fdc8T5pbL
 
-Speaker: Chris Dannen
+Speaker: Mike Clear
 
-## Masters And Slaves Of Money
+## Bitcoin's Cypherpunk Roots 
 
-![video](https://youtu.be/jbDbOanA_dw)
+![video](https://youtu.be/0TAC9PJJGs8?si=Y68-TEOm8vE0-zVU
 
-Speaker: Robert Breedlove
-
-## Computing and Bitcoin
-
-![video](https://youtu.be/xNfbiyv7OIM)
-
-Speaker: Matt Hill
-
-## Global, Non- Governmental, Honest, Sound Money.
-
-![video](https://youtu.be/2WHSZd0L4rA)
-
-Speaker: Ben Woosley
-
-## Bitcoin as defends against tyranny
-
-![video](https://youtu.be/8bM0xLVG5VI)
-
-Speaker: Stephen Cole
-
-## Rabbit Hole Recap LIVE
-
-![video](https://youtu.be/WzhQR0ThvB0)
-
-Speakers: Marty Bent & Matt Odell
-
-## Al's Lacrosse Awards Show
-
-![video](https://youtu.be/lxEYUHkhaFM)
-
-Event: Al's Lacrosse Awards Show
+Speaker: Mark ‘Rizzn’ Hopkins

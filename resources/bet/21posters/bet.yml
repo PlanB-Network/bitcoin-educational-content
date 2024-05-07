@@ -1,0 +1,17 @@
+name: 21 Posters
+builder: DecouvreBitcoin
+type: Educational Content
+language: 
+  - en
+  - fr
+  - esp
+links:
+  download: 
+  view: https://penpot.planb.network/#/view/c157057b-fd28-8042-8004-5004d6068cdd?page-id=7d7b7e64-d4bb-807c-8004-50116435dca5&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-50282377b03c&zoom=fill
+description: |
+  Discover Bitcoin in 21 posters 2m high and 1.8m long, ideal for conference hall and public event
+tags:
+  - bitcoin
+  - technology
+contributors:
+  - rabbit-hole

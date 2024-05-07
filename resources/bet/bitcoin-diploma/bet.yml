@@ -1,0 +1,14 @@
+name: Bitcoin diploma
+language: en
+builder: Mi Primer Bitcoin
+type: Educational Content
+links:
+  download:
+  view: https://github.com/MyFirstBitcoin
+description: |
+  Mi primer bitcoin diploma book
+tags:
+  - bitcoin
+
+contributors:
+  - rabbit-hole

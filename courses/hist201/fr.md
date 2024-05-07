@@ -96,22 +96,55 @@ Cette révolution dans le domaine de la cryptographie a également inspiré le j
 
 Cela explique son intérêt pour le domaine de la cryptographie, auquel il a contribué dès l'année 1979. En 1981, il a décrit les bases de la communication anonyme au travers de réseaux de mélange (*mix networks*), qui servirait notamment aux services de relai de courriel (Mixmaster) et au réseau anonyme Tor. En 1982, il a participé à la fondation de l'*International Association for Cryptologic Research* (IACR) lors de la conférence annuelle CRYPTO '82. La même année (et c'est ce qui nous intéresse ici), dans un article intitulé « [Blind Signature for Untraceable Payments](https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF) » il a publié le procédé de signature aveugle, qui est à la base de son modèle de monnaie électronique respectueux de la vie privée : eCash.
 
-Le modèle eCash permet aux clients de réaliser des paiements qui sont relativement confidentiels. Les utilisateurs peuvent conserver des billets numériques directement. Il repose sur des serveurs, appelés des banques (*banks*) ou des monnaieries (*mints*), qui émettent et remplacent les billets des utilisateurs à chaque transaction. Lorsqu'un billet est transféré, le destinataire l'envoie à sa banque qui se charge de le vérifier et de lui en redonner un autre. Les banques entretiennent chacune un registre des billets dépensés pour empêcher la double dépense. Chaque système eCash est chapeauté par une autorité centrale qui délivre les habilitations.
-
 Comme [l'expliquait](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiCash_s-Ecash%E2%84%A2-to-be-Issued-by-Deutsche-Bank.pdf) David Chaum en 1996 :
 
 > « Ecash [*sic*\] est une forme numérique d'argent liquide qui fonctionne sur Internet, où l'argent liquide papier ne peut pas exister. Comme les espèces, il offre aux consommateurs une réelle possibilité de cacher ce qu'ils achètent. »
 >
 > Original: "Ecash is a digital form of cash that works on the Internet where paper cash can't. Like cash, it offers consumers true privacy in what they buy."
 
-Voyons maintenant comment intervient le procédé de signature aveugle dans le modèle... Ce procédé permet à un signataire de signer quelque chose sans voir ce qu'il signe et sans pour autant qu'il signe n'importe quoi.
+Le modèle eCash permet aux clients de réaliser des paiements qui sont relativement confidentiels. Les utilisateurs peuvent conserver des billets numériques directement. Il repose sur des serveurs, appelés des banques (*banks*) ou des monnaieries (*mints*), qui émettent et remplacent les billets des utilisateurs à chaque transaction. Lorsqu'un billet est transféré, le destinataire l'envoie à sa banque qui se charge de le vérifier et de lui en redonner un autre. Les banques entretiennent chacune un registre des billets dépensés pour empêcher la double dépense. Chaque système eCash est chapeauté par une autorité centrale qui délivre les habilitations.
+
+Les billets numériques peuvent être émis sans garantie ou bénéficier d'une adossement. Dans le premier cas, ils forment une monnaie de base qui doit acquérir une valeur en elle-même. Dans le second cas, ils sont adossés à une autre monnaie (typiquement le dollar) et l'utilisateur peut à tout moment rendre ses billets à sa banque pour récupérer la somme correspondante.
+
+Voyons maintenant comment intervient le procédé de signature aveugle dans le modèle... Ce procédé permet à un signataire de signer quelque chose sans voir ce qu'il signe et sans pour autant qu'il signe n'importe quoi. Le fonctionnement de ce procédé mathématique (que nous ne décrirons pas ici) est analogue à la signature d'un billet physique en [papier carbone](https://fr.wikipedia.org/wiki/Papier_carbone) situé dans une enveloppe fermée. Chaque billet représente une quantité précise d'unités monétaires (coupure).
+
+Voici une illustration des différentes étapes qui interviennent dans la création et le remplacement d'un billet chaumien (provenant de *L'Élégance de Bitcoin*) :
 
 ![Création et remplacement d'un billet chaumien](assets/img/ch1/3.webp)
-*Création et remplacement d'un billet chaumien (source : L'Élégance de Bitcoin)*
+
+**extrait** En voici les étapes, dont chacune correspond à une opération mathématique :
+
+1. Alice crée un billet en papier carbone ;
+2. Alice place le billet dans une enveloppe fermée ;
+3. Alice envoie l'enveloppe contenant son billet à la banque et lui
+communique la coupure souhaitée ;
+4. La banque signe l'enveloppe en indiquant la quantité d'unités que le billet représente (la banque dispose d'une clé privée pour chaque coupure), ce qui a pour effet de signer le billet en papier carbone à l'intérieur ;
+5. La banque renvoie l'enveloppe à Alice ;
+6. Alice ouvre l'enveloppe pour récupérer son billet signé ;
+7. Alice vérifie que la signature de la banque est authentique (en vérifiant qu'elle correspond à la clé publique de la banque liée à la coupure demandée).
+
+**extrait** Le transfert du billet signé se fait en le donnant à quelqu'un d'autre. Ainsi, le paiement de Bob par Alice pour un service rendu se compose des étapes suivantes : d'abord, Alice transmet le billet à Bob ; puis, Bob vérifie qu'il a bien été signé par la banque d'Alice ; ensuite, il envoie immédiatement le billet réceptionné à sa banque ; enfin, la banque de Bob vérifie que le billet n'a pas déjà été utilisé et, le cas échéant, signe un nouveau billet de la même coupure pour le donner à Bob.
+
+Tout ceci implique qu'aucune banque du système ne peut relier le paiement à l'identité d'Alice, ce qui explique pourquoi on parle de confidentialité pour le client. Le commerçant en revanche est obligé de passer par une banque pour confirmer le paiement, et sa banque peut donc connaître les montants qu'il a reçus. De plus, le système dépend de tiers de confiance, dont l'autorité centrale qui désigne les banques participantes, ce qui le rend fragile.
 
 ### Les mises en œuvre de eCash
 
-CyberBucks, Magic Money, Mark Twain Bank
+David Chaum a fondé sa propre société en 1990, DigiCash B.V., pour mettre en application son idée d'argent liquide électronique. Elle était basée à Amsterdam aux Pays-Bas et détenait les brevets de son procédé. Internet était encore naissant (le Web était encore en développement) et le commerce électronique inexistant ; ainsi, le modèle eCash constituait une formidable opportunité.
+
+Toutefois, ce n'est l'entreprise de David Chaum qui a testé pour la première fois le modèle : ce sont les cypherpunks qui ont mis en œuvre la chose sans tenir compte des brevets et qui n'ont pas demandé l'autorisation. Ainsi, un protocole Magic Money a été présenté sur la liste de diffusion des cypherpunks le 4 février 1994 par un développeur anonyme se faisant appeler Pr0duct Cypher. Ce protocole permettait de créer sa monnaie en faisant fonctionner un serveur de courrier électronique qui servait de monnaierie eCash. Les cypherpunks ont pu jouer avec en créant toutes sortes d'unités de compte comme les Tacky Tokens, les GhostMarks, les DigiFrancs ou encore les NexusBucks. L'utilité de ces jetons était cependant minimale, et les échanges très rares.
+
+Après quelques années de développement, un prototype a été présenté en mai 1994 lors de la première conférence internationale sur le World Wide Web au CERN à Genève. DigiCash a ensuite réalisé un essai qui a débuté le 19 octobre de
+cette année, avec l'émission de CyberBucks qui n'étaient pas adossés à une autre monnaie. Divers commerçants acceptaient les CyberBucks dans le cadre de cette expérience. Les cypherpunks se sont également appropriés la chose en l'utilisant pour procéder à des échanges réels. Les CyberBucks ont ainsi acquis une valeur, mais celle-ci s'est effondrée lorsque eCash a été déployé dans le système bancaire classique.
+
+Ce déploiement a commencé en octobre 1995 avec le début du partenariat de DigiCash avec la Mark Twain Bank, une petite banque du Missouri. Contrairement au cas des CyberBucks, l'unité de compte était adossée au dollar américain. Entre 1996 et 1998, six banques ont suivi la Mark Twain Bank : la Merita Bank en Finlande, la Deutsche Bank en Allemagne, l'Advance Bank en Australie, la Bank Austria en Autriche, la Den norske Bank en Norvège et le Crédit Suisse en Suisse.
+
+La presse promettait alors à ce système un avenir radieux. Néanmoins, tout ne s'est pas passé comme prévu. À cause de son caractère têtu et suspicieux, David Chaum a souhaité garder le contrôle sur son entreprise et a resusé des partenariats avec de grands acteurs financiers comme ING et ABN AMRO, Visa, Netscape et Microsoft. Il a quitté son poste en 1997 et la même année l'entreprise a déménagé son siège social en Californie. Durant l'année 1998, les banques partenaires ont annoncé abandonner eCash. DigiCash a fini par faire faillite en novembre 1998, mettant fin à l'argent liquide électronique et laissant la place aux cartes de crédit et à PayPal.
+
+Cependant, la demande pour une monnaie numérique robuste et confidentielle n'a pas disparu. En 1999, Milton Friedman, prix Nobel d'économie et fondateur de l'École de Chicago, [prédisait](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) ainsi au micro de la National Taxpayers Union Foundation :
+
+> « Je pense qu'Internet va devenir l'une des forces majeures qui va réduire le rôle de l'État. La seule chose qui manque, mais qui sera bientôt développée, c'est un argent liquide électronique fiable, une méthode qui permette de transférer des fonds de A à B sur Internet sans que A connaisse B ou que B connaisse A. »
+>
+> Original: "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash, a method whereby on the internet you can transfer funds from A to B without A knowing B or B knowing A."
 
 ## Les systèmes centralisés
 

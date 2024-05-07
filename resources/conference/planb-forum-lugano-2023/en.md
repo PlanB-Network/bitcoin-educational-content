@@ -186,7 +186,7 @@ Speaker: Giw Zanganeh
 
 Speaker: Jimmy Song, Stacy Herbert, Max Keiser
 
-# P2P Stage 2023
+# P2P Stage
 
 ## Sats vs Bits
 
@@ -356,7 +356,7 @@ Speaker: Claudio Levrini
 
 Speaker: Salvatore Scorsone, Giorgio Rasetto
 
-# MasterClass 
+# UTXO room
 
 ## Austrian Economics
 
@@ -375,6 +375,56 @@ Speaker: Santiago Racca
 ![video](https://youtu.be/A1l8iuXFE5Y)
 
 Speaker: Michael Kunz
+
+## How to debootstrap a Bitcoin Valley
+
+![video](https://youtu.be/RogKKmHiNvs)
+
+Speaker: Marco Amadori
+
+## Running Lightning nodes in the cloud
+
+![video](https://youtu.be/SoYF4TsWTbA)
+
+Speaker: Massimo Musumeci
+
+## Setting up BTCPay Server with USDT
+
+![video](https://youtu.be/eEXTH9YeLfI)
+
+Speaker: Rockstar Dev
+
+## Monitoring Lightning nodes to optimise performance
+
+![video](https://youtu.be/zWzNrJfOQUw)
+
+Speaker: Bastian Feder, Adrian Pauli
+
+## Crypto Tax in Switzerland
+
+![video](https://youtu.be/3maEnZ3k72s)
+
+Speaker: Alex Naray
+
+## Keeping it legal in Switzerland: From starting a company with Bitcoin to banking to security tokens
+
+![video](https://youtu.be/5EAL5svjIlU)
+
+Speaker: Alexis Roussel, Harry Halpin
+
+## Open Timestamps and their role in the Guatemalan PresidentialElection
+
+![video](https://youtu.be/Z35kmqc9Hoc)
+
+Speaker: Peter Todd
+
+## Designing for a Billion Bitcoiners
+
+![video](https://youtu.be/4muVLL-Y6R4)
+
+Speaker: Aldert Greijdanus
+
+# Hal Finney room
 
 ## Bitcoin on the Web – the Potential of the Lightning Network
 
@@ -424,23 +474,11 @@ Speaker: Alexandre Poltorak, Darko Gasic
 
 Speaker: Lyudmyla Kozlovska, Julian Liniger and Mauro Del Barba
 
-## How to debootstrap a Bitcoin Valley
-
-![video](https://youtu.be/RogKKmHiNvs)
-
-Speaker: Marco Amadori
-
 ## How to run a bitcoin Miner
 
 ![video](https://youtu.be/s9gK3o5IZ6E)
 
 Speaker: Kristian Csepcsar
-
-## Running Lightning nodes in the cloud
-
-![video](https://youtu.be/SoYF4TsWTbA)
-
-Speaker: Massimo Musumeci
 
 ## Set-up a DEX on lightning
 
@@ -454,44 +492,8 @@ Speaker: Federico Tenga
 
 Speaker: Obi Nwosu, Sebastien Gouspillou, Bota Jardemalie, Mauro Del Barba and Lyudmyla Kozlovska
 
-## Setting up BTCPay Server with USDT
-
-![video](https://youtu.be/eEXTH9YeLfI)
-
-Speaker: Rockstar Dev
-
-## Monitoring Lightning nodes to optimise performance
-
-![video](https://youtu.be/zWzNrJfOQUw)
-
-Speaker: Bastian Feder, Adrian Pauli
-
-## Crypto Tax in Switzerland
-
-![video](https://youtu.be/3maEnZ3k72s)
-
-Speaker: Alex Naray
-
 ## Crash Course in Bitcoin Signet: Troubleshooting Trials
 
 ![video](https://youtu.be/R4Bz3edPHMw)
 
 Speaker: Emanuele Napoli
-
-## Keeping it legal in Switzerland: From starting a company with Bitcoin to banking to security tokens
-
-![video](https://youtu.be/5EAL5svjIlU)
-
-Speaker: Alexis Roussel, Harry Halpin
-
-## Open Timestamps and their role in the Guatemalan PresidentialElection
-
-![video](https://youtu.be/Z35kmqc9Hoc)
-
-Speaker: Peter Todd
-
-## Designing for a Billion Bitcoiners
-
-![video](https://youtu.be/4muVLL-Y6R4)
-
-Speaker: Aldert Greijdanus

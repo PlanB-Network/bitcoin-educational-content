@@ -13,8 +13,8 @@
   language: 
     - en
   links:
-    replay_url:
-    live_url : https://www.youtube.com/embed/ZK2Yf49VRxo
+    replay_url: https://www.youtube.com/playlist?list=PLB0XFvq7uxtkKnkopbXGUoXljqgC1hlzt
+    live_url : 
   tags: 
     - Lightning
     - Bitcoiner

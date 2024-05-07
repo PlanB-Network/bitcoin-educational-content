@@ -1,6 +1,6 @@
 ---
 name:  Tuscany Lightning Summit 2024
-description: Private Lightning event for builder
+description: Private Lightning event for builder organised by Fulgur' ventures.
 
 ---
 

@@ -425,6 +425,7 @@ $$ED = \frac{E}{T}$$
 $$ED = \frac{10.5469}{10}$$
 $$ED = 1.054 \text{ bit}$$
 **Il quinto elemento informativo** fornito dal Calcolatore di Boltzmann è la tabella delle probabilità di corrispondenza tra input e output. Questa tabella indica, tramite il `punteggio di Boltzmann`, la probabilità che un input specifico sia connesso a un dato output. Prendendo l'esempio di un coinjoin Whirlpool, la tabella delle probabilità evidenzierebbe le possibilità di collegamento tra ciascun input e output, fornendo una misura quantitativa dell'ambiguità o prevedibilità delle associazioni nella transazione:
+
 | %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
 |---------|----------|----------|----------|----------|----------|
 | Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
@@ -432,6 +433,7 @@ $$ED = 1.054 \text{ bit}$$
 | Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Qui, è evidente che ciascun input ha la stessa probabilità di essere associato a qualsiasi output, il che rafforza l'ambiguità e la riservatezza della transazione. Tuttavia, nel caso di una transazione semplice con un singolo input e due output, la situazione è diversa:
 

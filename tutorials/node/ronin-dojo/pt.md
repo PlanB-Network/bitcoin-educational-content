@@ -525,12 +525,14 @@ A quinta informação fornecida pelo calculador Boltzmann é a tabela de probabi
 
 Se pegarmos nosso exemplo com um Coinjoin Whirlpool, a tabela de probabilidades será:
 
-| Input | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
-| ----- | -------- | -------- | -------- | -------- | -------- | --- | --- | --- | --- | --- | --- | --- |
-| 0     | 34%      | 34%      | 34%      | 34%      | 34%      |
-| 1     | 34%      | 34%      | 34%      | 34%      | 34%      |
-| 2     | 34%      | 34%      | 34%      | 34%      | 34%      |
-| 3     | 34%      | 34%      | 34%      | 34%      | 34%      |     | 4   | 34% | 34% | 34% | 34% | 34% |
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+|---------|----------|----------|----------|----------|----------|
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Aqui podemos ver que cada input tem a mesma probabilidade de estar relacionado a cada output.
 

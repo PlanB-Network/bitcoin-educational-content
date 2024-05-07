@@ -467,6 +467,7 @@ $$ED = 1.054 \text{ bits}$$
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
+
 On voit bien ici que chaque entrée présente une chance égale d'être associée à n'importe quelle sortie, ce qui renforce l'ambiguïté et la confidentialité de la transaction. Cependant, dans le cas d'une transaction simple comportant un unique input et deux outputs, la situation est différente :
 
 | %       | Output 0 | Output 1 |

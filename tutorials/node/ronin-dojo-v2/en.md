@@ -441,6 +441,7 @@ $$ED = \frac{E}{T}$$
 $$ED = \frac{10.5469}{10}$$
 $$ED = 1.054 \text{ bits}$$
 **The fifth piece of information** delivered by the Boltzmann Calculator is the table of matching probabilities between inputs and outputs. This table indicates, through the `Boltzmann score`, the probability that a specific input is connected to a given output. Taking the example of a Whirlpool coinjoin, the probability table would highlight the chances of linkage between each input and output, providing a quantitative measure of the ambiguity or predictability of associations in the transaction:
+
 | %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
 |---------|----------|----------|----------|----------|----------|
 | Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
@@ -448,6 +449,7 @@ $$ED = 1.054 \text{ bits}$$
 | Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Here, it is clear that each input has an equal chance of being associated with any output, which reinforces the ambiguity and confidentiality of the transaction. However, in the case of a simple transaction with a single input and two outputs, the situation is different:
 

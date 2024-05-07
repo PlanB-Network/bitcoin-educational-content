@@ -106,6 +106,9 @@ Comme [l'expliquait](https://chaum.com/wp-content/uploads/2022/01/05-07-96-DigiC
 
 Voyons maintenant comment intervient le procédé de signature aveugle dans le modèle... Ce procédé permet à un signataire de signer quelque chose sans voir ce qu'il signe et sans pour autant qu'il signe n'importe quoi.
 
+![Création et remplacement d'un billet chaumien](assets/img/ch1/3.webp)
+*Création et remplacement d'un billet chaumien (source : L'Élégance de Bitcoin)*
+
 ### Les mises en œuvre de eCash
 
 CyberBucks, Magic Money, Mark Twain Bank

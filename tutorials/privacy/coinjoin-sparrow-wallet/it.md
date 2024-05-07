@@ -92,12 +92,14 @@ Per entrare in una piscina di coinjoin, devono essere pagate le tariffe di servi
 
 Le tariffe di servizio per l'utilizzo di Whirlpool devono essere pagate una volta all'ingresso nella piscina. Una volta completato questo passaggio, hai l'opportunità di partecipare a un numero illimitato di remix senza tariffe aggiuntive. Ecco le attuali tariffe fisse per ogni piscina:
 
-| Piscina (bitcoin) | Tariffa di ingresso (bitcoin) |
-|-------------------|-------------------------------|
-| 0,5               | 0,0175                        |
-| 0,05              | 0,00175                       |
-| 0,01              | 0,0005 (50.000 sats)          |
-| 0,001             | 0,00005 (5.000 sats)          |
+| Pool (bitcoin) | Commissione di ingresso (bitcoin) |
+| -------------- | --------------------------------- |
+| 0,5            | 0,0175                            |
+| 0,05           | 0,00175                           |
+| 0,01           | 0,0005 (50 000 sats)              |
+| 0,001          | 0,00005 (5 000 sats)              |
+
+
 Queste commissioni agiscono essenzialmente come un biglietto d'ingresso per la pool scelta, indipendentemente dall'importo che inserisci in coinjoin. Quindi, sia che tu partecipi alla pool da 0,01 con esattamente 0,01 BTC sia che entri con 0,5 BTC, le commissioni rimarranno le stesse in valore assoluto.
 Prima di procedere con i coinjoin, l'utente ha quindi la scelta tra 2 strategie:
 - Optare per una pool più piccola per minimizzare le commissioni di servizio, sapendo che riceveranno in cambio diversi piccoli UTXO;

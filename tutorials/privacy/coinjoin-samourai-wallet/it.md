@@ -89,11 +89,14 @@ Come menzionato in precedenza, un UTXO è considerato appartenente a una pool qu
 
 Per entrare in una pool di coinjoin, devono essere pagate le commissioni di servizio così come le commissioni di mining. Le commissioni di servizio sono fisse per ogni pool e sono destinate a compensare i team responsabili dello sviluppo e della manutenzione di Whirlpool.
 Le commissioni di servizio per l'utilizzo di Whirlpool devono essere pagate solo una volta all'ingresso nella pool. Dopo questo passaggio, hai l'opportunità di partecipare a un numero illimitato di remix senza alcuna commissione aggiuntiva. Ecco le attuali commissioni fisse per ogni pool:
+
 | Pool (bitcoin) | Commissione di ingresso (bitcoin) |
-|----------------|-----------------------------------|
-| 0,5            | 0,0175                     || 0,05           | 0,00175                    |
-| 0,01           | 0,0005 (50.000 sats)       |
-| 0,001          | 0,00005 (5.000 sats)       |
+| -------------- | --------------------------------- |
+| 0,5            | 0,0175                            |
+| 0,05           | 0,00175                           |
+| 0,01           | 0,0005 (50 000 sats)              |
+| 0,001          | 0,00005 (5 000 sats)              |
+
 
 Queste commissioni agiscono essenzialmente come un biglietto d'ingresso per il pool scelto, indipendentemente dall'importo che si inserisce in coinjoin. Pertanto, sia che si partecipi al pool da 0,01 BTC con esattamente 0,01 BTC o si entri con 0,5 BTC, le commissioni rimarranno le stesse in valore assoluto.
 

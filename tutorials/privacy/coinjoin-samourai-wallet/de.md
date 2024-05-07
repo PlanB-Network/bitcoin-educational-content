@@ -89,11 +89,14 @@ Wie zuvor erwähnt, wird ein UTXO als zu einem Pool gehörend betrachtet, wenn e
 
 Um in einen Coinjoin-Pool einzutreten, müssen Servicegebühren sowie Mining-Gebühren bezahlt werden. Die Servicegebühren sind für jeden Pool festgelegt und sollen die Teams entschädigen, die für die Entwicklung und Wartung von Whirlpool verantwortlich sind.
 Servicegebühren für die Nutzung von Whirlpool sind nur einmal beim Eintritt in den Pool zu zahlen. Nach diesem Schritt haben Sie die Möglichkeit, an einer unbegrenzten Anzahl von Remixes ohne zusätzliche Gebühren teilzunehmen. Hier sind die aktuellen festen Gebühren für jeden Pool:
-| Pool (Bitcoin) | Eintrittsgebühr (Bitcoin)   |
-|----------------|-----------------------------|
-| 0,5            | 0,0175                     || 0,05           | 0,00175                    |
-| 0,01           | 0,0005 (50.000 Sats)       |
-| 0,001          | 0,00005 (5.000 Sats)       |
+
+| Pool (bitcoin) | Eintrittsgebühr (Bitcoin) |
+| -------------- | ------------------------- |
+| 0,5            | 0,0175                    |
+| 0,05           | 0,00175                   |
+| 0,01           | 0,0005 (50 000 sats)      |
+| 0,001          | 0,00005 (5 000 sats)      |
+
 
 Diese Gebühren fungieren im Wesentlichen als Eintrittskarte für den gewählten Pool, unabhängig von der Menge, die Sie in Coinjoin einbringen. Ob Sie also dem 0,01 Pool mit genau 0,01 BTC beitreten oder ihn mit 0,5 BTC betreten, die Gebühren bleiben im absoluten Wert gleich.
 

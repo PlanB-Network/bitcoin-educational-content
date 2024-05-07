@@ -95,11 +95,13 @@ To enter a coinjoin pool, service fees as well as mining fees must be paid. The 
 
 The service fees for using Whirlpool are to be paid once upon entering the pool. Once this step is completed, you have the opportunity to participate in an unlimited number of remixes without additional fees. Here are the current fixed fees for each pool:
 
-| Pool (bitcoin) | Entry fee (bitcoin)           |
-|----------------|-------------------------------|
-| 0.5            | 0.0175                        |
-| 0.05           | 0.00175                       |
-| 0.01           | 0.0005 (50,000 sats)            || 0.001          | 0.00005 (5,000 sats)            |
+| Pool (bitcoin) | Entry Fee (bitcoin)        |
+|----------------|---------------------------|
+| 0.5            | 0.0175                    |
+| 0.05           | 0.00175                   |
+| 0.01           | 0.0005 (50,000 sats)      |
+| 0.001          | 0.00005 (5,000 sats)      |
+
 
 These fees essentially act as an entry ticket to the chosen pool, regardless of the amount you put in coinjoin. So, whether you join the 0.01 pool with exactly 0.01 BTC or you enter with 0.5 BTC, the fees will remain the same in absolute value.
 

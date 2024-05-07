@@ -37,12 +37,12 @@ The unique drawbacks of Sentinel lie in the fact that the application is exclusi
 For those looking to track a multi-signature wallet, Blue Wallet is the only application I know of that offers a watch-only mode for these types of wallets, and it is accessible on both Android and iOS.
 
 For iOS users looking for an alternative to Sentinel, [Green Wallet](https://blockstream.com/green/) or [Blue Wallet](https://bluewallet.io/watch-only/) may be options, although their watch-only functionality is not as comprehensive as Sentinel's.
-![watch-only](assets/en/2.webp)
+![watch-only](assets/notext/2.webp)
 ## How to Use the Sentinel Watch-Only Wallet?
 ### Installation and Setup
 Start by installing the Sentinel application. You can do this either from the Google Play Store or by using the [APK available for download on the official website](https://sentinel.watch/download/).
 
-![watch-only](assets/en/3.webp)
+![watch-only](assets/notext/3.webp)
 
 Upon first opening the application, you are given the choice between:
 - `Connect to Dojo`;
@@ -54,56 +54,56 @@ Dojo, developed by the Samourai team, is a full Bitcoin node version that can be
 
 If you have your own Dojo, you can connect it at this stage. By doing so, you will benefit from the highest level of privacy when checking your Bitcoin network transaction information.
 
-![watch-only](assets/en/4.webp)
+![watch-only](assets/notext/4.webp)
 
 Otherwise, it is possible to opt for Samourai's default server. You can also choose whether to connect via Tor or not.
 
-![watch-only](assets/en/5.webp)
+![watch-only](assets/notext/5.webp)
 
 You will then arrive at the main page of Sentinel.
 
-![watch-only](assets/en/6.webp)
+![watch-only](assets/notext/6.webp)
 
 To get started, you can set up the application. Click on the three small dots in the top right corner, then on `Settings`.
 
-![watch-only](assets/en/7.webp)
+![watch-only](assets/notext/7.webp)
 By selecting `User PIN code`, you have the option to set a password to secure access to your watch-only wallet. You also have the ability to change the reference currency for converting your balances into fiat currency, or even to hide fiat values by activating the `Hide fiat values` option. For increased security, you can activate `Disable Screenshots`, which prevents any screenshots of your Sentinel application and thus avoids any disclosure of information on an external screen.
-![watch-only](assets/en/8.webp)
+![watch-only](assets/notext/8.webp)
 
 In this settings menu, you also have the option to back up your Sentinel.
 
 ### Using the Watch-Only Wallet
 From the homepage, press the blue `NEW` button to add a new extended public key to track. You then have the option to scan the QR code of your key, or to directly paste the key (`xpub`, `zpub`...) by selecting `Paste Pubkey`.
 
-![watch-only](assets/en/9.webp)
+![watch-only](assets/notext/9.webp)
 
 Generally, the `xpub` of your wallet is directly accessible via the wallet management software you use. For example, if you manage your hardware wallet with Sparrow, this information is found in the `Settings` tab, under the `Keystore` section.
 
-![watch-only](assets/en/10.webp)
+![watch-only](assets/notext/10.webp)
 
 After entering the extended public key in Sentinel, the application offers you to create a new collection. A collection represents a set of extended public keys organized together. This option gives you the possibility not just to list all your `xpubs`, but to classify them in an orderly manner. For example, if you have a Samourai Wallet with multiple accounts (deposit, premix, postmix...), you can gather all these accounts under the `Samourai` collection. For wallets managed for your family, you might create a collection named `Family`.
 
 Select `Create new collection`. Then enter a name for the extended key you just integrated. For example, if I scan the deposit account of my Samourai wallet, I would name this key `Deposit`. Click on `SAVE` to finalize.
 
-![watch-only](assets/en/11.webp)
+![watch-only](assets/notext/11.webp)
 
 Next, assign a name to this collection and press the validation icon located at the top right of the screen to save the collection. Your collection is now visible on the Sentinel home screen.
 
-![watch-only](assets/en/12.webp)
+![watch-only](assets/notext/12.webp)
 
 If you wish to add another extended public key, click on `NEW` again and enter your key.
 
-![watch-only](assets/en/13.webp)
+![watch-only](assets/notext/13.webp)
 You will then be prompted to choose the collection you wish to integrate this key into, or to create a new one. For example, in my case, I've set up a collection specifically for my Ledger wallet.
-![watch-only](assets/en/14.webp)
+![watch-only](assets/notext/14.webp)
 
 To see the extended keys of a collection in detail, simply click on it. You can then navigate through the different tabs to view the transaction history.
 
-![watch-only](assets/en/15.webp)
+![watch-only](assets/notext/15.webp)
 
 From a collection, by tapping on the three small dots at the top right, then on `View Unspent Outputs`, you can access a list of UTXOs held by the tracked wallet.
 
-![watch-only](assets/en/16.webp)
+![watch-only](assets/notext/16.webp)
 
 ### Sending and Receiving Bitcoins from Sentinel
 As with any good watch-only wallet, Sentinel allows you to generate receiving addresses to receive bitcoins on the tracked wallet. But Sentinel also offers another advanced feature: the creation and broadcast of a partially signed Bitcoin transaction (PSBT). Thus, the wallet holding the private keys can sign this transaction, which, once signed, can be broadcast on the Bitcoin network by Sentinel. Let's see how to do all this.
@@ -112,15 +112,15 @@ As with any good watch-only wallet, Sentinel allows you to generate receiving ad
 
 To receive bitcoins via Sentinel, select the collection of interest, then click on the tab corresponding to the extended public key towards which you wish to transfer funds.
 
-![watch-only](assets/en/17.webp)
+![watch-only](assets/notext/17.webp)
 
 Finally, click on the arrow icon at the bottom left of the screen. Sentinel then generates a blank receiving address for you. You can copy it, or scan it using the QR code.
 
-![watch-only](assets/en/18.webp)
+![watch-only](assets/notext/18.webp)
 
 To generate a PSBT from Sentinel, and thus initiate a spending transaction, go to the extended key of the wallet from which you wish to make the payment. Let's take, for example, my deposit account on my Samourai wallet. Then click on the arrow icon located at the bottom right of the screen.
 
-![watch-only](assets/en/19.webp)
+![watch-only](assets/notext/19.webp)
 
 Enter all the parameters related to your transaction:
 - Enter the recipient's address (by clicking on the QR code icon, you have the option to scan this address);
@@ -129,27 +129,27 @@ Enter all the parameters related to your transaction:
 
 Once you have filled in all the necessary fields for your transaction, press the `COMPOSE UNSIGNED TRANSACTION` button.
 
-![watch-only](assets/en/20.webp)
+![watch-only](assets/notext/20.webp)
 
 You will then access the PSBT, which represents a constructed but unsigned Bitcoin transaction, since Sentinel does not have access to your private keys. You have the option to copy this transaction, export it as a `.psbt` file, or scan it via the animated QR code.
 
-![watch-only](assets/en/21.webp)
+![watch-only](assets/notext/21.webp)
 
 Then, go to your wallet that has the private keys to sign the transaction (Samourai, hardware wallet...).
 
-![watch-only](assets/en/22.webp)
+![watch-only](assets/notext/22.webp)
 
 Once the transaction is signed, you can return to Sentinel to broadcast it. To do this, from the home menu, click on the three small dots at the top right, then on `Broadcast transaction`.
 
-![watch-only](assets/en/23.webp)
+![watch-only](assets/notext/23.webp)
 
 You have the option to enter your signed PSBT in three different ways:
 - By pasting it directly from your clipboard;
 - By importing it from a `.psbt` file;
 - By scanning it via a QR code.
 
-![watch-only](assets/en/24.webp)
+![watch-only](assets/notext/24.webp)
 
 Once the signed transaction is entered in the gray frame, you can click on the green `BROADCAST TRANSACTION` button to broadcast it on the Bitcoin network. Sentinel will give you its TXID.
 
-![watch-only](assets/en/25.webp)
+![watch-only](assets/notext/25.webp)

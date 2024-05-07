@@ -16,7 +16,7 @@ This tutorial can be followed for experimental purposes only for the creation of
 A recovery phrase, also sometimes called a "mnemonic," "seed phrase," or "secret phrase," is a sequence usually composed of 12 or 24 words, which is generated in a pseudo-random manner from a source of entropy. The pseudo-random sequence is always completed with a checksum.
 
 The mnemonic phrase, together with an optional passphrase, is used to deterministically derive all the keys associated with an HD (Hierarchical Deterministic) wallet. This means that from this phrase, it is possible to deterministically generate and recreate all the private and public keys of the Bitcoin wallet, and consequently, access the funds associated with it.
-![mnemonic](assets/en/1.webp)
+![mnemonic](assets/notext/1.webp)
 The purpose of this sentence is to provide an easy-to-use means of backup and recovery of bitcoins. It is imperative to keep the mnemonic phrase in a safe and secure place, as anyone in possession of this phrase would have access to the funds of the corresponding wallet. If it is used in the context of a traditional wallet, and without an optional passphrase, it often constitutes a SPOF (Single Point Of Failure). 
 Usually, this phrase is given to you directly when creating your wallet, by the software or hardware wallet used. However, it is also possible to generate this phrase by yourself, and then enter it on the chosen support to derive the wallet keys. This is what we will learn to do in this tutorial.
 
@@ -31,7 +31,7 @@ Subsequently, the use of a computer with a terminal will become necessary for th
 
 For an experimental approach concerning a "fictitious wallet", it is possible to use your usual computer and its terminal. However, for a more rigorous approach aimed at limiting the risks of compromising your phrase, the ideal would be to use a PC disconnected from the internet (preferably without a wifi component or RJ45 wired connection), equipped with the minimum of peripherals (all of which should be connected by cable, to avoid Bluetooth), and above all, running on an amnesic Linux distribution such as [Tails](https://tails.boum.org/index.fr.html), started from a removable medium.
 
-![mnemonic](assets/en/2.webp)
+![mnemonic](assets/notext/2.webp)
 
 In a real context, it would be crucial to ensure the confidentiality of your workspace by choosing a location away from prying eyes, without people traffic, and free of cameras (webcams, phones...).
 It is recommended to use a high number of dice to mitigate the impact of a potentially unbalanced die on entropy. Before their use, checking the dice is recommended: this can be achieved by testing them in a bowl of salt-saturated water, allowing the dice to float. Then proceed to roll each die about twenty times in the salt water, observing the results. If one or two faces appear disproportionately compared to the others, extend the test with more rolls. Uniformly distributed results indicate that the die is reliable. However, if one or two faces regularly dominate, these dice should be set aside, as they could compromise the entropy of your mnemonic phrase and, consequently, the security of your wallet.
@@ -57,30 +57,30 @@ In the case of our mnemonic phrase, the function of the checksum is to spot any 
 To obtain this checksum, the entropy is passed through the SHA256 hash function. This operation produces a 256-bit sequence as output, of which only the first `N` bits will be retained, `N` depending on the desired length of the recovery phrase (see the table above). Thus, for a 12-word phrase, the first 4 bits of the hash will be kept.
 ![mnemonic](assets/en/3.webp)
 These first 4 bits, forming the checksum, will then be added to the original entropy. At this stage, the recovery phrase is practically constituted, but it is still in binary form. To convert this binary sequence into words in accordance with the BIP39 standard, we will first divide the sequence into 11-bit segments.
-![mnemonic](assets/en/4.webp)
+![mnemonic](assets/notext/4.webp)
 Each of these packets represents a number in binary which will then be converted into a decimal number (base 10). We will add `1` to each number, because in computing, counting starts from `0`, but the BIP39 list is numbered starting from `1`.
 
-![mnemonic](assets/en/5.webp)
+![mnemonic](assets/notext/5.webp)
 
 Finally, the number in decimal tells us the position of the corresponding word in [the list of 2048 BIP39 words](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). All that remains is to select these words to compose the recovery phrase for our wallet.
 
-![mnemonic](assets/en/6.webp)
+![mnemonic](assets/notext/6.webp)
 
 Now, let's move on to practice! We will generate a 12-word recovery phrase. However, this operation remains identical in the case of a 24-word phrase, except that it would require 256 bits of entropy and an 8-bit checksum, as indicated in the equivalence table located at the beginning of this section.
 
 ## Step 1: Generating the Entropy
 Prepare your sheet of paper, your pen, and your dice. To begin, we will need to generate 128 bits randomly, that is, a sequence of 128 `0`s and `1`s in a row. To do this, we will use dice.
-![mnemonic](assets/en/7.webp)
+![mnemonic](assets/notext/7.webp)
 
 Dice have 6 sides, all with an identical probability of being rolled. However, our goal is to produce a binary result, meaning two possible outcomes. Therefore, we will assign the value `0` to each roll that lands on an even number, and `1` for each odd number. As a result, we will perform 128 rolls to create our 128-bit entropy. If the die shows `2`, `4`, or `6`, we will write down `0`; for `1`, `3`, or `5`, it will be `1`. Each result will be noted sequentially, from left to right and top to bottom.
 
 To facilitate the following steps, we will group the bits into packets of four and three, as shown in the image below. Each line must have 11 bits: 2 packets of 4 bits and one packet of 3 bits.
 
-![mnemonic](assets/en/8.webp)
+![mnemonic](assets/notext/8.webp)
 
 As you can see in my example, the twelfth word is currently made up of only 7 bits. These will be completed by the 4 bits of the checksum in the next step to form the 11 bits.
 
-![mnemonic](assets/en/9.webp)
+![mnemonic](assets/notext/9.webp)
 
 ## Step 2: Calculating the checksum
 This step is the most critical in the manual generation of a mnemonic phrase, as it requires the use of a computer. As mentioned earlier, the checksum corresponds to the beginning of the SHA256 hash generated from the entropy. Although it is theoretically possible to calculate a SHA256 by hand for an input of 128 or 256 bits, this task could take an entire week. Moreover, any error in manual calculations would only be identified at the end of the process, forcing you to start over from the beginning. Therefore, it is unimaginable to do this step with just a sheet of paper and a pen. A computer is almost mandatory. If you still want to learn how to do a SHA256 by hand, we explain how to do it in [the CRYPTO301 course](https://planb.network/en/courses/crypto301).
@@ -88,41 +88,41 @@ This step is the most critical in the manual generation of a mnemonic phrase, as
 For this reason, I strongly advise against creating a manual phrase for an actual wallet. In my opinion, using a computer at this stage, even with all necessary precautions, unreasonably increases the attack surface of the wallet.
 To calculate the checksum while leaving as few traces as possible, we will use an amnesic Linux distribution from a removable drive named **Tails**. This operating system boots from a USB stick and operates entirely on the computer's RAM, without interacting with the hard drive. Thus, in theory, it leaves no trace on the computer after it is turned off. Please note that Tails is only compatible with x86_64 type processors, and not with ARM type processors.
 To start, from your usual computer, [download the Tails image from its official website](https://tails.net/install/index.fr.html). Ensure the authenticity of your download by using the developer's signature or the verification tool offered by the site.
-![mnemonic](assets/en/10.webp)
+![mnemonic](assets/notext/10.webp)
 First, proceed to format your USB stick, then install Tails using a tool such as [Balena Etcher](https://etcher.balena.io/).
-![mnemonic](assets/en/11.webp)
+![mnemonic](assets/notext/11.webp)
 After confirming that the flashing is successful, turn off your computer. Then proceed to disconnect the power supply and remove the hard drive from your PC's motherboard. In the case where a WiFi card is present, it should be disconnected. Similarly, remove any RJ45 Ethernet cable. To minimize the risk of data leakage, it is recommended to unplug your internet box and turn off your mobile phone. Moreover, ensure to disconnect any superfluous peripherals from your computer, such as the microphone, webcam, speakers, or headset, and check that other peripherals are only connected via wire. All these PC preparation steps are not essential, but they simply help to reduce the attack surface as much as possible in a real context.
 
 Check if your BIOS is configured to allow booting from an external device. If not, change this setting, then restart your machine. Once you have secured the computer environment, restart the computer from the USB stick with Tails OS.
 
 On the Tails welcome screen, select the language of your choice, then launch the system by clicking on `Start Tails`.
 
-![mnemonic](assets/en/12.webp)
+![mnemonic](assets/notext/12.webp)
 
 From the desktop, click on the `Applications` tab.
 
-![mnemonic](assets/en/13.webp)
+![mnemonic](assets/notext/13.webp)
 
 Navigate to the `Utilities` menu.
 
-![mnemonic](assets/en/14.webp)
+![mnemonic](assets/notext/14.webp)
 
 And finally, click on the `Terminal` application.
 
-![mnemonic](assets/en/15.webp)
+![mnemonic](assets/notext/15.webp)
 
 You will arrive at a new blank command terminal.
 
-![mnemonic](assets/en/16.webp)
+![mnemonic](assets/notext/16.webp)
 Type the `echo` command, followed by your previously generated entropy, making sure to insert a space between `echo` and your binary digit sequence.
-![mnemonic](assets/en/17.webp)
+![mnemonic](assets/notext/17.webp)
 
 Add an additional space, then enter the following command, using a *pipe* (`|`):
 ```bash
 | shasum -a 256 -0
 ```
 
-![mnemonic](assets/en/18.webp)
+![mnemonic](assets/notext/18.webp)
 
 In the example with my entropy, the total command is as follows:
 ```bash
@@ -139,7 +139,7 @@ In this command:
 
 After carefully checking that your binary sequence does not contain any typing errors, press the `Enter` key to execute the command. The terminal will then display the SHA256 hash of your entropy.
 
-![mnemonic](assets/en/19.webp)
+![mnemonic](assets/notext/19.webp)
 
 For now, the hash is expressed in hexadecimal format (base 16). For example, mine is:
 ```bash
@@ -150,27 +150,30 @@ To finalize our mnemonic phrase, we only need the first 4 bits of the hash, whic
 
 The next step is to convert this hexadecimal character (base 16) into a binary value (base 2), as our phrase is constructed in this format. To do this, you can use the following conversion table:
 
+
 | Decimal (base 10) | Hexadecimal (base 16) | Binary (base 2) |
-| ----------------- | --------------------- | ---------------- |
-| 0                 | 0                     | 0000             |
-| 1                 | 1                     | 0001             |
-| 2                 | 2                     | 0010             |
-| 3                 | 3                     | 0011             || 4                 | 4                     | 0100             |
-| 5                 | 5                     | 0101             |
-| 6                 | 6                     | 0110             |
-| 7                 | 7                     | 0111             |
-| 8                 | 8                     | 1000             |
-| 9                 | 9                     | 1001             |
-| 10                | a                     | 1010             |
-| 11                | b                     | 1011             |
-| 12                | c                     | 1100             |
-| 13                | d                     | 1101             |
-| 14                | e                     | 1110             |
-| 15                | f                     | 1111             |
+| ----------------- | --------------------- | --------------- |
+| 0                 | 0                     | 0000            |
+| 1                 | 1                     | 0001            |
+| 2                 | 2                     | 0010            |
+| 3                 | 3                     | 0011            |
+| 4                 | 4                     | 0100            |
+| 5                 | 5                     | 0101            |
+| 6                 | 6                     | 0110            |
+| 7                 | 7                     | 0111            |
+| 8                 | 8                     | 1000            |
+| 9                 | 9                     | 1001            |
+| 10                | a                     | 1010            |
+| 11                | b                     | 1011            |
+| 12                | c                     | 1100            |
+| 13                | d                     | 1101            |
+| 14                | e                     | 1110            |
+| 15                | f                     | 1111            |
+
 
 In my example, the letter `a` corresponds to the binary number `1010`. These 4 bits form the checksum of our recovery phrase. You can now add them to the entropy already noted on your sheet of paper, placing them at the end of the last word.
 
-![mnemonic](assets/en/20.webp)
+![mnemonic](assets/notext/20.webp)
 
 Your mnemonic phrase is now complete, but it is in binary format. The next step will be to convert it into the decimal system so that you can then associate each number with a corresponding word in the BIP39 list.
 
@@ -194,7 +197,7 @@ For each line, we will add up the values corresponding to the digits `1` to obta
 ```
 
 The conversion would be as follows:
-![mnemonic](assets/en/21.webp)
+![mnemonic](assets/notext/21.webp)
 The result would then be:
 ```bash
 1389
@@ -202,14 +205,14 @@ The result would then be:
 
 For each bit equal to `1`, report the associated number below. For each bit equal to `0`, report nothing.
 
-![mnemonic](assets/en/22.webp)
+![mnemonic](assets/notext/22.webp)
 Then, simply add up all the numbers validated by `1`s to get the decimal number representing each binary line. For example, here's what it looks like for my sheet:
-![mnemonic](assets/en/23.webp)
+![mnemonic](assets/notext/23.webp)
 
 ## Step 4: Searching for the Words of the Mnemonic Phrase
 With the decimal numbers obtained, we can now locate the corresponding words in the list to compose the mnemonic phrase. However, the numbering of the 2048 words in the BIP39 list ranges from `1` to `2048`. But, our calculated binary results range from `0` to `2047`. Therefore, there is a one-unit shift that needs to be corrected. To correct this shift, simply add `1` to the twelve previously calculated decimal numbers.
 
-![mnemonic](assets/en/24.webp)
+![mnemonic](assets/notext/24.webp)
 
 After this adjustment, you have the rank of each word within the list. All that remains is to identify each word by its number. Obviously, as with all the other steps, you must not use your computer to perform this conversion. Therefore, make sure you have printed the list beforehand.
 
@@ -219,19 +222,19 @@ For example, if the number derived from the first line is 1721, the correspondin
 ```bash
 1721. strike
 ```
-![mnemonic](assets/en/25.webp)
+![mnemonic](assets/notext/25.webp)
 In this manner, we proceed successively with the 12 words to construct our mnemonic phrase.
 
-![mnemonic](assets/en/26.webp)
+![mnemonic](assets/notext/26.webp)
 
 ## Step 5: Creating the Bitcoin Wallet
 At this point, all that remains is to import our mnemonic phrase into a Bitcoin wallet software. Depending on our preferences, this can be done on a desktop software to obtain a hot wallet, or on a hardware wallet for a cold wallet.
 
-![mnemonic](assets/en/27.webp)
+![mnemonic](assets/notext/27.webp)
 
 It is only during the importation that you can verify the validity of your checksum. If the software displays a message such as `Invalid Checksum`, it means that an error has crept into your creation process. Generally, this error stems either from a miscalculation during the manual conversions and additions, or from a typo when entering your entropy in the terminal on Tails. It will be necessary to restart the process from the beginning to correct these errors.
 
-![mnemonic](assets/en/28.webp)
+![mnemonic](assets/notext/28.webp)
 After creating your wallet, don't forget to back up your recovery phrase on a physical medium, such as paper or metal, and destroy the spreadsheet used during its generation to prevent any information leaks.
 
 ## Specific Case of the Dice Roll Option on Coldcards

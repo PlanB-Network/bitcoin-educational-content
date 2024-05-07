@@ -245,7 +245,7 @@ Tatsächlich wurde ein paar Tage später entdeckt, dass die Gelder PayPal gehör
 Umgekehrt, wenn man sieht, dass das zeitliche Muster eher über 16 spezifische Stunden verteilt ist, dann kann geschätzt werden, dass wir es mit einem individuellen Nutzer zu tun haben, oder vielleicht einem lokalen Geschäft, abhängig von den ausgetauschten Volumen.
 
 Über die Natur der beobachteten Entität hinaus kann das zeitliche Muster uns auch einen ungefähren Standort des Nutzers geben. Wir können somit andere Transaktionen korrelieren und den Zeitstempel dieser als zusätzliche Heuristik verwenden, die zu unserer Analyse hinzugefügt werden kann.
-Zum Beispiel, bei der mehrfach genutzten Adresse, die ich zuvor erwähnt habe, kann man beobachten, dass die Transaktionen, egal ob eingehend oder ausgehend, sich über ein 13-Stunden-Intervall konzentrieren. ![Analyse](assets/de/12.webp)
+Zum Beispiel, bei der mehrfach genutzten Adresse, die ich zuvor erwähnt habe, kann man beobachten, dass die Transaktionen, egal ob eingehend oder ausgehend, sich über ein 13-Stunden-Intervall konzentrieren. ![Analyse](assets/notext/12.webp)
 *Kredit: OXT*
 
 Dieses Intervall entspricht wahrscheinlich Europa, Afrika oder dem Nahen Osten. Daher kann interpretiert werden, dass der Nutzer hinter diesen Transaktionen dort lebt.

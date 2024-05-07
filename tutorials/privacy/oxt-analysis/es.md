@@ -246,7 +246,7 @@ De hecho, unos días después, se descubrió que los fondos pertenecían a PayPa
 Por el contrario, si se ve que el patrón temporal está más bien distribuido durante 16 horas específicas, entonces se puede estimar que estamos tratando con un usuario individual, o quizás un negocio local dependiendo de los volúmenes intercambiados.
 
 Más allá de la naturaleza de la entidad observada, el patrón temporal también puede darnos una ubicación aproximada del usuario. Así podemos correlacionar otras transacciones, y usar el timestamp de estas como una heurística adicional que se puede añadir a nuestro análisis.
-Por ejemplo, en la dirección que se ha reutilizado varias veces que mencioné anteriormente, se puede observar que las transacciones, ya sean entrantes o salientes, están concentradas en un intervalo de 13 horas. ![análisis](assets/es/12.webp)
+Por ejemplo, en la dirección que se ha reutilizado varias veces que mencioné anteriormente, se puede observar que las transacciones, ya sean entrantes o salientes, están concentradas en un intervalo de 13 horas. ![análisis](assets/notext/12.webp)
 *Crédito: OXT*
 
 Este intervalo probablemente corresponde a Europa, África o Medio Oriente. Por lo tanto, se puede interpretar que el usuario detrás de estas transacciones vive allí.

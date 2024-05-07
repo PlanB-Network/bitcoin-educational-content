@@ -43,12 +43,12 @@ Para realizar una transacción remota de Cahoots, específicamente un PayJoin (S
 **Aquí está el procedimiento para establecer esta conexión:**
 
 Primero, necesitas obtener el identificador Paynym del destinatario. Esto se puede hacer utilizando su apodo o código de pago. Para hacer esto, desde la billetera Sparrow del destinatario, selecciona la pestaña `Herramientas`, luego haz clic en `Mostrar PayNym`.
-![Mostrar Paynym](assets/es/2.webp)
+![Mostrar Paynym](assets/notext/2.webp)
 ![Paynym Sparrow](assets/es/1.webp)
 En tu lado, abre tu billetera Sparrow y accede al mismo menú `Mostrar PayNym`. Si estás utilizando tu Paynym por primera vez, necesitarás obtener un identificador haciendo clic en `Recuperar PayNym`.
-![Recuperar paynym](assets/es/3.webp)
+![Recuperar paynym](assets/notext/3.webp)
 A continuación, ingresa el identificador Paynym de tu colaborador (ya sea su apodo `+...` o su código de pago `PM...`) en el cuadro `Buscar contacto`, luego haz clic en el botón `Agregar contacto`.
-![Agregar contacto](assets/es/4.webp)
+![Agregar contacto](assets/notext/4.webp)
 El software te ofrecerá un botón `Enlazar contacto`. No es necesario hacer clic en este botón para nuestro tutorial. Este paso solo es necesario si planeas hacer pagos al Paynym indicado en el contexto de [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), que no está relacionado con nuestro tutorial.
 
 Una vez que el Paynym del destinatario es seguido por tu Paynym, repite esta operación en la dirección opuesta para que tu destinatario también te siga. Luego puedes realizar un Payjoin.

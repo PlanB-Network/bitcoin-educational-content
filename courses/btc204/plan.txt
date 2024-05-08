@@ -5,9 +5,10 @@ Partie 1 - Introduction
         | Section 1 : Définitions et concepts clés
         | Section 2 : Comprendre l'analyse de chaîne et savoir s'en protéger
         | Section 3 : Maîtriser les bonnes pratiques pour protéger sa vie privée
-        | Section 4 : Comprendre et utiliser les transactions coinjoin
+        | Section 4 : Comprendre les transactions coinjoin
         | Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées
-        | Section Bonus : La privacy sur le Lightning Network
+        | Section 6 : Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
+        | Section Bonus : La privacy sur les protocoles de seconde couche
 
 Partie 2 - Définitions et concepts clés
     Chapitre 1 - Le modèle d'UTXO de Bitcoin
@@ -39,24 +40,22 @@ Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
         | Les transactions propres à un protocole
     Chapitre 3 - Les heuristiques internes
     Chapitre 4 - Les heuristiques externes
-    Chapitre 5 - Mise en pratique avec l'outil OXT
-    Chapitre 6 - Exercice analyse de chaîne
+    Chapitre 5 - Mise en pratique avec l'outil Mempool.space
 
 Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée
     Chapitre 1 - La réutilisation d'adresse
-    Chapitre 2 - Labelling et coin control
-    Chapitre 3 - La consolidation et la CIOH
+    Chapitre 2 - L'étiquetage et le contrôle des pièces
+    Chapitre 3 - La consolidation, la gestion des UTXO et la CIOH
     Chapitre 4 - Le nœud complet
     Chapitre 5 - Le KYC et l'identification des clés
     Chapitre 6 - Les méthodes d'acquisition
 
-Partie 5 - Comprendre et utiliser les transactions coinjoin
+Partie 5 - Comprendre les transactions coinjoin
     Chapitre 1 - C'est quoi une transaction coinjoin ?
     Chapitre 2 - Zerolink et chaumian coinjoins
     Chapitre 3 - Les différentes implémentations de coinjoin
-    Chapitre 4 - Comprendre et utiliser Whirlpool
-    Chapitre 5 - Les ensembles d'anonymat
-    Chapitre 6 - L'entropie
+    Chapitre 4 - Les ensembles d'anonymat
+    Chapitre 5 - L'entropie
 
 Partie 6 - Connaître les enjeux d'autres techniques de confidentialité avancées
     Chapitre 1 - Les transactions payjoin
@@ -66,4 +65,20 @@ Partie 6 - Connaître les enjeux d'autres techniques de confidentialité avancé
         | L'Atomic Swap
         | L'échange pair-à-pair
 
-Partie 7 - Bonus : La privacy sur le Lightning Network
+Partie 7 - Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
+    Chapitre 1 - La confidentialité sur le réseau P2P
+        | P2P transport V2
+        | TOR
+        | Dandelion
+    Chapitre 2 - Le BIP47
+    Chapitre 3 - Silent Payments
+    Chapitre 4 - Le soft fork Taproot
+        | Les bénéfices à moyen et long terme
+        | Les inconvénients à court terme
+
+Partie 8 - Bonus : La privacy sur les protocoles de seconde couche
+    Chapitre 1 - La confidentialité sur le Lightning Network
+    Chapitre 2 - La confidentialité sur les sidechains
+    Chapitre 3 - La confidentialité sur les banques chaumiennes
+        | Fedimint
+        | Cashu

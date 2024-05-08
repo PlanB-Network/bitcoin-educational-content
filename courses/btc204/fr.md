@@ -46,27 +46,34 @@ Pour commencer, nous allons réviser ensemble les principes fondamentaux qui ré
 Dans la deuxième section, nous étudions les techniques employées par les entreprises d'analyse de chaîne pour tracer votre activité sur Bitcoin. Comprendre ces méthodes est crucial pour renforcer la protection de votre confidentialité. Cette partie a pour objectif d'examiner les stratégies des attaquants pour mieux appréhender les risques et préparer le terrain pour les techniques que nous étudierons dans les sections suivantes. Nous analyserons les modèles de transactions (patterns), les heuristiques internes et externes, ainsi que les interprétations vraisemblables de ces modèles. En plus d'un volet théorique, nous apprendrons à utiliser un explorateur de bloc pour faire de l'analyse de chaîne, à travers des exemples pratiques et des exercices.
 
 ![BTC204](assets/notext/2.webp)
+
 ### Section 3 : Maîtriser les bonnes pratiques pour protéger sa vie privée
 
 Dans la troisième section de notre formation, nous entrons dans le vif du sujet : la pratique ! L'objectif est de maîtriser toutes les bonnes pratiques essentielles qui doivent devenir des réflexes naturels pour tout utilisateur de Bitcoin. Nous aborderons l'utilisation d'adresses vierges, l'étiquetage, la consolidation, l'utilisation de nœuds complets, ainsi que le KYC et les méthodes d'acquisition. Le but est de vous fournir un aperçu complet des pièges à éviter pour établir de solides fondations dans notre quête de protection de la vie privée. Pour certaines de ces pratiques, vous serez guidé vers un tutoriel spécifique pour les mettre en œuvre.
 
 ![BTC204](assets/fr/3.webp)
 
-### Section 4 : Comprendre et utiliser les transactions coinjoin
+### Section 4 : Comprendre les transactions coinjoin
 
-Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans la section 4, vous allez découvrir tout ce qu'il faut savoir sur cette méthode de mixage. Vous apprendrez ce qu'est le coinjoin, son histoire et ses objectifs, ainsi que les différents types de coinjoins existants. Des tutoriels vous seront également proposés pour utiliser les coinjoins de diverses manières. Enfin, pour les utilisateurs les plus aguerris, nous découvrirons ce que sont les anonsets et l'entropie, et comment calculer ces indicateurs à l'aide d'outils Python.
+Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans la section 4, vous allez découvrir tout ce qu'il faut savoir sur cette méthode de mixage. Vous apprendrez ce qu'est le coinjoin, son histoire et ses objectifs, ainsi que les différents types de coinjoins existants. Enfin, pour les utilisateurs les plus aguerris, nous découvrirons ce que sont les anonsets et l'entropie, et comment calculer ces indicateurs.
 
 ![BTC204](assets/fr/4.webp)
 
 ### Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées
 
-Enfin, dans la dernière section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le Payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses. Des tutoriels seront également disponibles pour vous apprendre à maîtriser l'utilisation de ces outils.
+Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le Payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
 ![BTC204](assets/fr/5.webp)
 
-### Section Bonus : La privacy sur le Lightning Network
+### Section 6 : Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
 
-Comme vous l'avez compris, le cœur de cette formation se concentre exclusivement sur la privacy onchain. Dans cette dernière partie bonus, je souhaite donc élargir le sujet à la confidentialité sur Lightning. Certains affirment que Lightning est privé par défaut, tandis que d'autres soutiennent que la confidentialité de l'utilisateur y est insuffisante. Quelle est donc la vérité ? Nous démêlerons le vrai du faux pour mieux comprendre les enjeux liés à la confidentialité sur le Lightning Network.
+Alors que les sections précédentes se concentraient sur les solutions de confidentialité applicatives, cette sixième section se penchera sur les enjeux au niveau protocolaire pour la vie privée des utilisateurs. Nous aborderons la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons également des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin. Pour conclure, nous examinerons les impacts sur la confidentialité, tant positifs que négatifs, du dernier grand soft fork de Bitcoin, Taproot.
+
+***LOIC : AJOUTER SCHEMA EXEMPLE ICI***
+
+### Section Bonus : La privacy sur les protocoles de seconde couche
+
+Comme vous l'avez compris, le cœur de cette formation se concentre exclusivement sur la privacy onchain. Dans cette dernière partie bonus, je souhaite donc élargir le sujet à la confidentialité sur les autres protocoles en lien avec Bitcoin. Nous parlerons notamment de la vie privée sur le Lightning Network. Certains affirment que Lightning est privé par défaut, tandis que d'autres soutiennent que la confidentialité de l'utilisateur y est insuffisante. Quelle est donc la vérité ? Nous démêlerons le vrai du faux pour mieux comprendre les enjeux liés à la confidentialité sur le Lightning Network. Nous évoquerons également les sidechains comme Liquid Network et les banques chaumiennes comme Cashu ou Fedimint.
 
 ![BTC204](assets/notext/6.webp)
 
@@ -336,7 +343,7 @@ Un pattern de transaction est simplement un modèle ou une structure globale de 
 
 En d’autres termes, nous allons uniquement regarder le nombre d’UTXO en inputs et le nombre d'UTXO en outputs, sans nous attarder sur les détails plus spécifiques ou l'environnement de la transaction. À partir du modèle observé, nous pourrons interpréter la nature de la transaction. On va alors rechercher des caractéristiques sur sa structure et en déduire une interprétation.
 
-32
+![BTC204](assets/fr/32.webp)
 
 Dans cette partie, nous allons découvrir ensemble les principaux modèles de transactions que l'on peut rencontrer en analyse de chaîne, et pour chaque modèle, je vous donnerai l'interprétation vraisemblable de cette structure, ainsi qu'un exemple concret.
 
@@ -344,7 +351,7 @@ Dans cette partie, nous allons découvrir ensemble les principaux modèles de tr
 
 On commence par un pattern très répandu, puisque c'est celui qui ressort sur la plupart des paiements en bitcoins. Le modèle du paiement simple se caractérise par la consommation d’un ou plusieurs UTXOs en inputs et la production de 2 UTXOs en outputs. Ce modèle va donc ressembler à cela :
 
-33
+![BTC204](assets/fr/33.webp)
 
 Lorsque l'on repère cette structure de transaction sur la blockchain, on peut déjà en tirer une interprétation. Comme son nom l'indique, ce modèle indique que nous sommes en présence d’une transaction d’envoi ou de paiement. L’utilisateur a consommé son propre UTXO en inputs pour satisfaire en outputs un UTXO de paiement et un UTXO de change (rendu de monnaie qui revient vers le même utilisateur). 
 
@@ -353,11 +360,14 @@ Nous savons donc que l’utilisateur observé n’est vraisemblablement plus en 
 Pour l'instant, il nous est impossible de préciser quel output représente quel UTXO, puisque ce n'est pas l'objectif de l'étude de patterns. Nous y parviendrons en nous appuyant sur les heuristiques que nous étudierons dans les parties suivantes. À ce stade, notre objectif se limite à identifier la nature de la transaction en question, qui est, en l'occurrence, un envoi simple.
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de l’envoi simple :
-[b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769](https://oxt.me/transaction/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
-34
+```bash
+b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
+```
 
-Source : https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
+![BTC204](assets/fr/34.webp)
+
+Source : [Mempool.space](https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
 Après ce premier exemple, vous devriez avoir une meilleure compréhension de ce que signifie étudier un "modèle de transaction". Nous examinons une transaction en nous focalisant uniquement sur sa structure, sans prendre en compte son environnement ou les détails spécifiques de la transaction. Nous l'observons uniquement de manière globale dans cette première étape.
 
@@ -367,18 +377,21 @@ Maintenant que vous comprenez ce qu'est un pattern, passons aux autres modèles 
 
 Ce deuxième modèle se caractérise par la consommation d’un seul UTXO en entrée et la production d’un seul UTXO en sortie.
 
-35
+![BTC204](assets/fr/35.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’un auto-transfert. L’utilisateur s’est transféré ses bitcoins à lui-même, sur une autre adresse lui appartenant. Puisqu’aucun change n'existe sur la transaction, il est très peu plausible que l’on soit en présence d’un paiement. En effet, lorsqu'un paiement est effectué, il est presque impossible que le payeur dispose d'un UTXO correspondant exactement au montant requis par le vendeur, en plus des frais de transaction. En général, le payeur est donc obligé de produire un output de change.
 
 Nous savons alors que l’utilisateur observé est vraisemblablement encore en possession de cet UTXO. Dans le cadre d'une analyse de chaîne, si nous savons que l'UTXO utilisé en input de la transaction appartient à Alice, on peut supposer que l'UTXO en output lui appartient également. Ce qui deviendra intéressant par la suite, c'est de trouver des heuristiques internes à la transaction qui pourraient renforcer cette hypothèse (nous étudierons ces heuristiques dans le chapitre 3.3).
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern du balayage :
-[35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d](https://oxt.me/transaction/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
-36
+```bash
+35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
+```
 
-Source : https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
+![BTC204](assets/fr/36.webp)
+
+Source : [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
 Attention toutefois, ce type de pattern peut également révéler un auto-transfert vers le compte d’une plateforme d’échange de cryptomonnaies. Ce seront l’étude des adresses connues et le contexte de la transaction qui nous permettront de savoir si c’est un balayage vers un portefeuille en self-custody ou un retrait vers une plateforme. En effet, les adresses des plateformes d'échange sont souvent facilement identifiables. 
 
@@ -388,7 +401,7 @@ Reprenons l'exemple d'Alice : si le balayage mène vers une adresse connue d'une
 
 Ce modèle se caractérise par la consommation de plusieurs UTXOs en entrée et la production d’un seul UTXO en sortie.
 
-37
+![BTC204](assets/fr/37.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’une consolidation. C’est une pratique courante chez les utilisateurs de Bitcoin, visant à fusionner plusieurs UTXOs en anticipation d'une éventuelle augmentation des frais de transaction. En effectuant cette opération durant une période où les frais sont bas, il est possible de réaliser des économies sur les frais futurs. Nous parlerons plus en détail de cette pratique dans le chapitre 4.3.
 
@@ -397,47 +410,56 @@ Nous pouvons en déduire que l’utilisateur derrière ce modèle de transaction
 Tout comme le balayage, ce type de pattern peut également révéler un auto-transfert sur le compte d’une plateforme d'échange. Ce seront l’étude des adresses connues et le contexte de la transaction qui nous permettront de savoir si c’est une consolidation vers un portefeuille en self-custody ou un retrait vers une plateforme.
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la consolidation :
-[77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94](https://oxt.me/transaction/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-38
+```bash
+77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
+```
 
-Source : https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
+![BTC204](assets/fr/38.webp)
+
+Source : [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
 Dans le cadre d'une analyse de chaîne, ce modèle peut révéler beaucoup d'informations. Par exemple, si l'on sait que l'un des inputs appartient à Alice, on peut supposer que tous les autres inputs et l'output de cette transaction lui appartiennent également. Cette hypothèse permettrait alors de remonter la chaîne de transactions antérieures pour découvrir et analyser d'autres transactions vraisemblablement associées à Alice.
 
-39
+![BTC204](assets/fr/39.webp)
 
 ### La dépense groupée
 
 Ce modèle se caractérise par la consommation de quelques UTXOs en inputs (souvent un seul) et la production de nombreux UTXOs en outputs.
 
-40
+![BTC204](assets/fr/40.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’une dépense groupée. C’est une pratique qui révèle vraisemblablement une très grosse activité économique, comme une plateforme d'échange par exemple. La dépense groupée permet à ces entités d’économiser des frais en réunissant leurs dépenses dans une seule transaction.
 
 Nous pouvons déduire de ce modèle que l’UTXO en input provient d’une société avec une grosse activité économique et que les UTXOs en sorties vont se disperser. Beaucoup appartiendront à des clients de la société qui ont fait un retrait de bitcoins de la plateforme. D’autres iront peut-être vers des sociétés partenaires. Enfin, il y aura certainement un ou plusieurs changes qui reviendront à la société émettrice.
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la dépense groupée (vraisemblablement, c'est une transaction émise par la plateforme Bybit) :
-[8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43](https://oxt.me/transaction/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
-41
+```bash
+8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
+```
 
-Source : https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
+![BTC204](assets/fr/41.webp)
+
+Source : [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 ### Les transactions propres à un protocole
 
 Parmi les patterns de transactions, nous pouvons également identifier des modèles qui révèlent l’utilisation d’un protocole spécifique. Par exemple, les coinjoins Whirlpool (dont nous allons parler dans la partie 5) vont avoir une structure facilement identifiable qui permet de les différencier d'autres transactions plus classiques.
 
-42
+![BTC204](assets/fr/42.webp)
 
 L'analyse de ce pattern suggère que nous sommes vraisemblablement en présence d'une transaction collaborative. Il est aussi possible d'y observer un coinjoin. Si cette dernière hypothèse se révèle exacte, alors le nombre de sorties pourrait nous fournir une estimation approximative du nombre de participants au coinjoin.
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la transaction collaborative de type coinjoin :
-[00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea](https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
-43
+```bash
+00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
+```
 
-Source : https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
+![BTC204](assets/fr/43.webp)
+
+Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
 Il existe de nombreux autres protocoles qui disposent de leurs propres structures spécifiques. Ainsi, nous pourrions distinguer des transactions de type Wabisabi, des transactions Stamps ou encore Runes par exemple.
 
@@ -451,11 +473,9 @@ Grâce à ces paternes de transactions, on peut déjà interpréter un certain n
 
 
 
-## Mise en pratique avec l'outil OXT
+## Mise en pratique avec l'outil Mempool.space
 
 
-
-## Exercice analyse de chaîne
 
 
 
@@ -464,13 +484,13 @@ Grâce à ces paternes de transactions, on peut déjà interpréter un certain n
 **Contributeurs et ressources :**
 Pour la rédaction de cette partie 3 sur l'analyse de chaîne, je me suis appuyé sur les ressources suivantes :
 - La série de quatre articles nommée : [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produite par Samourai Wallet en 2021 ;
-- Les différents rapports d’[OXT Research](https://medium.com/oxt-research), ainsi que [leur outil gratuit d’analyse de chaîne](https://oxt.me/) ;
+- Les différents rapports d’[OXT Research](https://medium.com/oxt-research), ainsi que leur outil gratuit d’analyse de chaîne ;
 - Plus largement, mes connaissances proviennent des différents tweets et contenus de [@LaurentMT](https://twitter.com/LaurentMT) et de [@ErgoBTC](https://twitter.com/ErgoBTC) ;
 - Le [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) auquel j’ai participé en compagnie de [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) et [@LaurentMT](https://twitter.com/LaurentMT).
 
 Je tiens à remercier leurs auteurs, développeurs et producteurs. Merci également aux relecteurs qui ont méticuleusement corrigé l'article qui a servi de base à cette partie 3 et m'ont gratifié de leurs conseils d’experts :
 - [Gilles Cadignan](https://twitter.com/gillesCadignan) ;
-- [Ludovic Lars](https://twitter.com/lugaxker) ([https://viresinnumeris.fr/](https://viresinnumeris.fr/)).
+- [Ludovic Lars](https://viresinnumeris.fr/).
 
 # Maîtriser les bonnes pratiques pour protéger sa vie privée
 
@@ -479,11 +499,11 @@ Je tiens à remercier leurs auteurs, développeurs et producteurs. Merci égalem
 
 
 
-## Labelling et coin control
+## L'étiquetage et le contrôle des pièces
 
 
 
-## La consolidation et la CIOH
+## La consolidation, la gestion des UTXO et la CIOH
 
 
 
@@ -499,7 +519,7 @@ Je tiens à remercier leurs auteurs, développeurs et producteurs. Merci égalem
 
 
 
-# Comprendre et utiliser les transactions coinjoin
+# Comprendre les transactions coinjoin
 
 
 ## C'est quoi une transaction coinjoin ?
@@ -512,9 +532,6 @@ Je tiens à remercier leurs auteurs, développeurs et producteurs. Merci égalem
 
 ## Les différentes implémentations de coinjoin
 
-
-
-## Comprendre et utiliser Whirlpool
 
 
 
@@ -550,6 +567,59 @@ Je tiens à remercier leurs auteurs, développeurs et producteurs. Merci égalem
 
 
 
+# Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
 
-# Bonus : La privacy sur le Lightning Network
+
+
+## La confidentialité sur le réseau P2P
+
+### P2P transport V2
+
+### TOR
+
+### Dandelion
+
+
+
+
+## Le BIP47
+
+
+
+## Silent Payments
+
+
+
+## Le soft fork Taproot
+
+### Les bénéfices à moyen et long terme
+
+
+### Les inconvénients à court terme
+
+
+
+
+
+
+
+# Bonus : La privacy sur les protocoles de seconde couche
+
+
+
+
+## La confidentialité sur le Lightning Network
+
+
+
+
+## La confidentialité sur les sidechains
+
+
+
+## La confidentialité sur les banques chaumiennes
+
+### Fedimint
+
+### Cashu
 

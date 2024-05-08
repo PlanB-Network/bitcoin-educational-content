@@ -48,6 +48,12 @@ Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée
     Chapitre 3 - La consolidation, la gestion des UTXO et la CIOH
     Chapitre 4 - Le nœud complet
     Chapitre 5 - Le KYC et l'identification des clés
+        | La facilitation du traçage onchain
+        | L’exposition à la surveillance étatique
+        | Le risque de fuite de données personnelles
+        | Quelques idées reçues sur le KYC
+        | Peut-on annuler un KYC ?
+        | La différence entre KYC et identification des clés
     Chapitre 6 - Les méthodes d'acquisition
 
 Partie 5 - Comprendre les transactions coinjoin

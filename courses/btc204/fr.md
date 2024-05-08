@@ -28,12 +28,13 @@ Bitcoin n'est pas là que pour le "Number Go Up" et la conservation de la valeur
 
 Bitcoin offre une échappatoire pacifique au joug des États, vous permettant de jouir pleinement de vos droits naturels, qui ne sauraient être remis en cause par les lois établies. Grâce à l'invention de Satoshi Nakamoto, vous avez le pouvoir d'imposer le respect de votre propriété privée et de retrouver la liberté de contracter.
 
-Toutefois, Bitcoin n'est pas anonyme par défaut, ce qui peut représenter un risque pour les individus engagés dans la contre-économie, en particulier dans des régions sous régime despotique. Comme nous le verrons, bien que Bitcoin offre certaines protections de la confidentialité de manière intrinsèque, il est crucial d'utiliser des outils supplémentaires pour optimiser et défendre cette confidentialité.
+Toutefois, Bitcoin n'est pas anonyme par défaut, ce qui peut représenter un risque pour les individus engagés dans la contre-économie, en particulier dans des régions sous régime despotique. Mais ce n'est pas le seul danger. Étant donné que le bitcoin est un actif de valeur et incensurable, il peut susciter la convoitise de voleurs. Ainsi, protéger sa vie privée devient également une question de sécurité : cela peut vous aider à prévenir les piratages informatiques et les agressions physiques.
+
+Comme nous le verrons, bien que le protocole offre certaines protections de la confidentialité de manière intrinsèque, il est crucial d'utiliser des outils supplémentaires pour optimiser et défendre cette confidentialité.
 
 Cette formation se présente comme un parcours complet et généraliste pour comprendre les enjeux de la confidentialité sur Bitcoin. Chaque notion technique est abordée dans le détail et appuyée par des schémas explicatifs. Le but est de rendre les connaissances accessibles à tous, même aux utilisateurs débutants et intermédiaires. Pour les bitcoiners les plus aguerris, nous abordons également tout au long de cette formation des concepts très techniques et parfois méconnus pour approfondir la compréhension de chaque sujet.
 
-L'objectif de cette formation n'est pas de vous rendre totalement anonyme dans votre utilisation de Bitcoin, mais plutôt de vous fournir les outils essentiels pour savoir protéger votre confidentialité. Vous aurez la liberté de choisir parmi les concepts et les outils présentés pour élaborer vos propres stratégies, adaptées à vos objectifs et à vos besoins spécifiques.
-
+L'objectif de cette formation n'est pas de vous rendre totalement anonyme dans votre utilisation de Bitcoin, mais plutôt de vous fournir les outils essentiels pour savoir protéger votre confidentialité selon vos objectifs personnels. Vous aurez la liberté de choisir parmi les concepts et les outils présentés pour élaborer vos propres stratégies, adaptées à vos objectifs et à vos besoins spécifiques.
 
 ### Section 1 : Définitions et concepts clés
 
@@ -513,9 +514,96 @@ Je tiens à remercier leurs auteurs, développeurs et producteurs. Merci égalem
 
 ## Le KYC et l'identification des clés
 
+KYC est le sigle de "Know Your Customer", ce qui veut dire en anglais "connaître son client". C'est une procédure réglementaire mise en place par certaines entreprises qui opèrent dans le secteur de Bitcoin. Cette procédure vise à vérifier et enregistrer l'identité de leurs clients dans le but affiché de lutter contre le blanchiment d'argent et le financement du terrorisme.
+
+En pratique, le KYC implique la collecte de diverses données personnelles du client, qui peuvent varier selon les juridictions, mais incluent généralement une pièce d'identité, une photographie et un justificatif de domicile. Ces informations sont ensuite vérifiées et conservées pour une utilisation ultérieure.
+
+Cette procédure est devenue obligatoire pour toutes les plateformes d'échange régulées dans la majorité des pays occidentaux. Cela signifie que toute personne désirant échanger des monnaies étatiques contre du bitcoin via ces plateformes doit se conformer aux exigences du KYC.
+
+Cette procédure n'est pas sans risques pour la confidentialité des utilisateurs. Dans ce chapitre, nous allons examiner en détail ces risques et analyser les impacts spécifiques du KYC et des processus d'identification sur la vie privée des utilisateurs de Bitcoin.
+
+### La facilitation du traçage onchain
+
+Le premier risque associé au KYC est qu'il offre un point d'entrée privilégié pour une analyse de chaîne. Comme nous l'avons vu dans la section précédente, les analystes peuvent regrouper et suivre les activités sur la blockchain en utilisant des patterns de transactions et des heuristiques. Une fois qu'ils ont réussi à clustériser l'activité on-chain d'un utilisateur, il suffit de trouver un seul point d'entrée parmi toutes ses transactions et toutes ses clés pour compromettre entièrement sa confidentialité.
+
+Lorsque vous effectuez un KYC, vous fournissez un point d'entrée de très grande qualité pour une analyse de chaîne, car vous associez vos adresses de réception utilisées lors du retrait de vos bitcoins d'une plateforme d'échange à votre identité complète et vérifiée. En théorie, ces informations ne sont connues que par l'entreprise à laquelle vous les avez fournies, mais, comme nous le verrons plus loin, le risque de fuite de données est réel. De plus, le simple fait qu'une entreprise détienne ces informations peut être problématique, même si elle ne les partage pas.
+
+Ainsi, si vous ne prenez pas d'autres mesures pour limiter le regroupement de vos activités sur la blockchain, toute personne ayant connaissance de ce point d'entrée qu'est le KYC peut potentiellement relier toute votre activité sur Bitcoin à votre identité. Du point de vue de cette entreprise, votre utilisation de Bitcoin perd donc toute confidentialité. Pour illustrer cela par une comparaison, c'est comme si votre banquier de la *Banque X* avait accès non seulement à toutes vos transactions effectuées avec la *Banque X*, mais pouvait également observer vos transactions avec la *Banque Y* et toutes vos transactions en espèces.
+
+Rappelez-vous de la première partie de cette formation : le modèle de confidentialité de Bitcoin, tel que conçu par Satoshi Nakamoto, repose sur la séparation entre l'identité de l'utilisateur et ses paires de clés. Bien que cette couche de confidentialité ne soit plus suffisante aujourd'hui, il est toujours prudent de limiter autant que possible sa dégradation.
+
+### L’exposition à la surveillance étatique
+
+La seconde problématique liée au KYC est tout simplement qu'il rend possible le fait de savoir que vous avez eu du bitcoin pour les États. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Un autre problème introduit par le KYC en lien avec la surveillance étatique est la délation par les plateformes régulées. Je ne connais pas bien les exigences dans d'autre juridictions, mais en France, les "Prestataires de Services sur Actif Numérique" (PSAN) sont tenus de dénoncer au autorités chargées de la lutte contre le blanchiment tout mouvement de fonds qu'elles jugeraient suspect. 
+SOURCES CHIFFRES 2023
+
+
+### Le risque de fuite de données personnelles
+
+Une autre problématique du KYC réside dans le fait qu'il nécessite la conservation de toutes vos données personnelles sur les serveurs d'une entreprise privée.
+
+Certains évènements récents nous ont rappelé que personne n’est à l’abri de défaillances, qu'elles soient financières ou informatiques. En 2022, les clients de Celsius en ont subi les conséquences. Suite à la faillite de l'entreprise, le nom des créanciers ainsi que le montant de leurs actifs ont été rendus publics par la justice américaine lors de la procédure administrative.
+
+Il y a un peu plus de deux ans, c’était un fleuron de la cybersécurité dans le domaine des cryptomonnaies qui a vu les données personnelles de ses clients dérobées. Bien que cet incident ne soit pas directement lié à l'achat de bitcoins, un tel risque demeure également pour les plateformes d'échange. Il y existe donc un risque certain lié à ces données personnelles. 
+
+Il est vrai que nous confions déjà bon nombre de nos données personnelles à des entreprises privées. Cependant, le risque ici est double puisque ces données non seulement permettent de vous identifier, mais sont également liées à une activité sur Bitcoin. En effet, lorsqu'un hacker parvient à accéder aux données des clients d'une plateforme d'échange, il peut raisonnablement supposer que ces clients possèdent des bitcoins. Ce risque est donc accentué du fait que le bitcoin, comme tout autre bien de valeur, attire les convoitises de voleurs.
+
+En cas de fuite de données, dans le meilleur des cas, vous pourriez être la cible de tentatives d'hameçonnage ciblées. Dans le pire des cas, vous pourriez vous retrouver au centre de menaces physiques à votre domicile.
+
+Outre les risques spécifiques liés à Bitcoin, il faut également considérer les dangers associés à la transmission de documents d'identité. En effet, en cas de fuite de données, il est possible de devenir victime d'usurpation d'identité. Ainsi, les enjeux ne se limitent pas uniquement à la protection de la confidentialité des transactions, mais concernent également la sécurité personnelle de chaque individu.
+
+### Quelques idées reçues sur le KYC
+
+Il est important de déconstruire certaines idées reçues sur le KYC que l’on retrouve fréquemment sur Twitter ou dans nos échanges entre bitcoiners.
+
+Tout d'abord, il est inexact de penser que protéger sa confidentialité pour des bitcoins acquis via KYC est inutile. Les outils et méthodes de confidentialité sur Bitcoin sont variés et servent des objectifs différents. L'utilisation de transactions coinjoin sur des bitcoins issus de KYC, par exemple, n'est pas une mauvaise idée. Bien sûr, il est nécessaire d'être prudent avec les plateformes d'échange régulées pour éviter le gel ou le bannissement de son compte, mais d'un point de vue strictement technique, ces pratiques ne sont pas incompatibles. Le coinjoin a pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer certains risques d'analyse de chaîne associés au KYC. Bien qu'il ne supprime pas tous les risques, cela représente déjà un bénéfice significatif. 
+
+La confidentialité sur Bitcoin ne doit pas être envisagée de manière binaire, comme une distinction entre des bitcoins "anonymes" et d'autres qui ne le seraient pas. Posséder des bitcoins acquis via KYC ne signifie pas que tout est perdu ; au contraire, l'utilisation d'outils de confidentialité peut s'avérer encore plus bénéfique.
+
+Inversement, acquérir du bitcoin par une méthode sans KYC ne garantit pas une confidentialité parfaite et n'exempte pas de la nécessité de prendre d'autres mesures de protection. Si vous détenez du bitcoin non-KYC mais que vous réutilisez plusieurs fois des adresses de réception, vos transactions pourront être tracées et regroupées. Le moindre lien avec le monde extérieur à Bitcoin pourrait compromettre la seule couche de confidentialité dont vous disposiez. Il est donc important de considérer tous les outils et méthodes améliorant la confidentialité sur Bitcoin comme complémentaires. Chaque technique aborde un risque spécifique et peut ajouter une couche supplémentaire de protection. Ainsi, posséder du bitcoin non-KYC ne dispense absolument pas de prendre d'autres précautions.
+
+### Peut-on annuler un KYC ?
+
+On me demande parfois s'il est possible de "revenir en arrière" après avoir effectué un KYC, et comme vous pouvez l'imaginer suite aux discussions précédentes, la réponse est nuancée. Pour éviter les risques associés au KYC, la méthode la plus simple consiste à ne pas y recourir lors de l'acquisition de bitcoins. Nous approfondirons ce sujet dans le prochain chapitre. Cependant, si le KYC a déjà été réalisé et que des bitcoins ont été achetés, existe-t-il des moyens d'atténuer les risques encourus ?
+
+
+
+
+
+
+
+
+### La différence entre KYC et identification des clés
+
+
+
+
+
+
+
+
 
 
 ## Les méthodes d'acquisition
+
+
+Après avoir lu le chapitre précédent, vous vous demandez peut-être comment acquérir du bitcoin sans passer une procédure KYC afin d'éviter les risque qu'elle implique pour l'utilisateur ? Il existe de nombreuses méthodes.
+
+
 
 
 

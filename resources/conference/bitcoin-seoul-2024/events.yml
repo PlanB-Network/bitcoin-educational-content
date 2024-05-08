@@ -1,0 +1,23 @@
+- start_date: 2024-05-29 
+  end_date: 2024-05-31
+  address_line_1: Seoul, korea
+  address_line_2: 
+  address_line_3: 
+  name: Bitcoin Seoul 2024
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: The largest Bitcoin event in Asia is coming to Seoul, S.Korea.
+  language: 
+    - en
+  links:
+    website: https://www.bitcoinseoul.kr/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - General
+
+

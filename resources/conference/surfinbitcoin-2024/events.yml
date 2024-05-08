@@ -1,0 +1,23 @@
+- start_date: 2024-08-28 
+  end_date: 2024-08-30
+  address_line_1: Biarritz, France
+  address_line_2: 
+  address_line_3: 
+  name: Surfin'Bitcoin 2024
+  builder: StackSat
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: The 100% Bitcoin Conference
+  language: 
+    - fr
+  links:
+    website: https://surfinbitcoin.com/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - General
+
+

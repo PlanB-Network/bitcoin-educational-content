@@ -7,7 +7,7 @@ description: bitcoin++ is talking about Bitcoin Scripts in Austin Texas
 
 ## A Socratic Seminar on Fee Management
 
-https://youtu.be/pPFlpDE2TLk?si=GgOdlKCzChtLBkaz
+![video](https://youtu.be/pPFlpDE2TLk?si=GgOdlKCzChtLBkaz)
 
 Speaker: Buck Perley
 
@@ -16,7 +16,7 @@ In this socratic seminar discussion, Buck Perley from Unchained Capital leads a 
 ## Simple Layer Twos
 
 
-https://youtu.be/yPkGjpvofNM?si=ZHsSXxKk5a4Bjty5
+![video](https://youtu.be/yPkGjpvofNM?si=ZHsSXxKk5a4Bjty5)
 
 Speaker: Christian Lewe (@uncomputable)
 
@@ -24,25 +24,25 @@ Christian Lewe of Blockstream Research (clewe) presents on: Simplicity is a prop
 
 ## Settle channels privately through WabiSabi
 
-https://youtu.be/8oc9V59PTDU?si=mZshdBBRP4MgDht6
+![video](https://youtu.be/8oc9V59PTDU?si=mZshdBBRP4MgDht6)
 
 Speaker: Turbolay
 
 ## Liquid Network, Smart Contract Layer for Lightning Applications
 
-https://youtu.be/R91VHrj-Vxc?si=LiyDU9lG_jH699XW
+![video](https://youtu.be/R91VHrj-Vxc?si=LiyDU9lG_jH699XW)
 
 Speaker: Marco Tiero
 
 ## Translational Bitcoin Development
 
-https://youtu.be/BsWR94cbZ3Y?si=7Kv2ywGsL_bH_p8d
+![video](https://youtu.be/BsWR94cbZ3Y?si=7Kv2ywGsL_bH_p8d)
 
 Speaker: Tadge Dryja
 
 ## Super_Testnet
 
-https://youtu.be/cSREdRrBVtk?si=j6qTTHfB9YwOE0ta
+![video](https://youtu.be/cSREdRrBVtk?si=j6qTTHfB9YwOE0ta)
 
 Spacechains, a modest sidechain proposal
 
@@ -57,51 +57,51 @@ Super Testnet presents:
 
 ## Building Lightning Gateways for Fedimint
 
-https://youtu.be/odhruq5GuG8?si=5BmB06aC4j3y0Nvk
+![video](https://youtu.be/odhruq5GuG8?si=5BmB06aC4j3y0Nvk)
 
 Speaker: Okjodom
 
 
 ## bitcoin is a layer cake
 
-https://youtu.be/l34O4cHXATY?si=EjI9XK_gE7x06tKx
+![video](https://youtu.be/l34O4cHXATY?si=EjI9XK_gE7x06tKx)
 
 Speaker: niftynei
 
 ## Ordinals, More Than Inscriptions
 
-https://youtu.be/MV052jwkoDk?si=iu6R33DuIdrPRC_9
+![video](https://youtu.be/MV052jwkoDk?si=iu6R33DuIdrPRC_9)
 
 Speaker: Psifour
 
 ## Leveraging Miniscript
 
-https://youtu.be/l0Ct9fX9EZQ?si=uZJXNskwmC_UaCTM
+![video](https://youtu.be/l0Ct9fX9EZQ?si=uZJXNskwmC_UaCTM)
 
 Speaker: Rob Hamilton
 
 
 ## Towards a Validity Rollup on Bitcoin with Taproot
 
-https://youtu.be/Nldg_tjeX_A?si=zmt-6M1tsCsy2Ftg
+![video](https://youtu.be/Nldg_tjeX_A?si=zmt-6M1tsCsy2Ftg)
 
 Speaker: Simanta Gautam
 
 ## Building Trustless Bridges
 
-https://youtu.be/M40yzuv6DNY?si=xk68b2L_pJaO0Bqq
+![video](https://youtu.be/M40yzuv6DNY?si=xk68b2L_pJaO0Bqq)
 
 Speaker: John Light
 
 ## Anchors & Shackles (Ark)
 
-https://youtu.be/OBt1nS14Ac4?si=yjXmbCI7xHnNjF8r
+![video](https://youtu.be/OBt1nS14Ac4?si=yjXmbCI7xHnNjF8r)
 
 Speaker: Burak
 
 ## Unjamming Lightning  
 
-https://youtu.be/S7ZH4hr2FlA?si=CgcrXfqtQonb5gBM
+![video](https://youtu.be/S7ZH4hr2FlA?si=CgcrXfqtQonb5gBM)
 
 Speaker: Clara Shikhelman
 
@@ -110,19 +110,19 @@ In this presentation, we will delve into the consequences of such attacks, explo
 
 ## The Nostr Protocol Explained
 
-https://youtu.be/aIL8eBLb1sc?si=5EwbYUrmarvcgM2i
+![video](https://youtu.be/aIL8eBLb1sc?si=5EwbYUrmarvcgM2i)
 
 Speaker: Greg Heartsfield
 
 ## Writing Your First CLN Plugin
 
-https://youtu.be/Ls37xVlAL2w?si=Y7OGzQbBKKuX5MYO
+![video](https://youtu.be/Ls37xVlAL2w?si=Y7OGzQbBKKuX5MYO)
 
 Speaker: Chris Guida
 
 ## Stablesats -- Bringing Stability to Bitcoin
 
-https://youtu.be/S_rKMNbcoNk?si=0e9gzHBae1JL20J0
+![video](https://youtu.be/S_rKMNbcoNk?si=0e9gzHBae1JL20J0)
 
 Speaker: Kody Low
 
@@ -130,61 +130,61 @@ Kody Low of Fedimint //Base58 presents: One problem that persists for people in 
 
 ## Build a Fedimint Module
 
-https://youtu.be/T454R_3P8GA?si=SFXfzAbW0SUyDZ0k
+![video](https://youtu.be/T454R_3P8GA?si=SFXfzAbW0SUyDZ0k)
 
 Speaker: Justin Moon
 
 ## Lightning on Taproot
 
-https://youtu.be/E_z4hjvVzoQ?si=XFPsPUEoygBq2sf1
+![video](https://youtu.be/E_z4hjvVzoQ?si=XFPsPUEoygBq2sf1)
 
 Speaker: Arik
 
 ##  Lightning Service Providers
 
-https://youtu.be/bxwHe8GsxRo?si=bI-xOmg1MjZwIvdY
+![video](https://youtu.be/bxwHe8GsxRo?si=bI-xOmg1MjZwIvdY)
 
 Speaker: Nick Slaney
 
 ## Splicing Plays
 
-https://youtu.be/zynf3JtFdsY?si=xwRHJT-JXzvKAzRu
+![video](https://youtu.be/zynf3JtFdsY?si=xwRHJT-JXzvKAzRu)
 
 Speaker:  Dusty Daemon
 
 ## Barnard; Building Core Lightning Web Apps
 
-https://youtu.be/vBUvKARV_so?si=rclXc--j8YprQ_h8
+![video](https://youtu.be/vBUvKARV_so?si=rclXc--j8YprQ_h8)
 
 Speaker: Aaron
 
 ## Exploring P2P Hashrate Markets V2
 
-https://youtu.be/IvfmfcAX9wU?si=ujR6qgDL-F8MA8q7
+![video](https://youtu.be/IvfmfcAX9wU?si=ujR6qgDL-F8MA8q7)
 
 Speaker: Nico Preti
 
 ## NostrMail -- PGP for the plebs
 
-https://youtu.be/qQAhGCdqGZ4?si=Ah1tuLRY9LesId1E
+![video](https://youtu.be/qQAhGCdqGZ4?si=Ah1tuLRY9LesId1E)
 
 Speaker: Asher Pembroke PhD:
 
 ## Toward a More Decentralized Web
 
-https://youtu.be/HkkqSM6uFR8?si=tT3__K9QaEgf9EmX
+![video](https://youtu.be/HkkqSM6uFR8?si=tT3__K9QaEgf9EmX)
 
 Speaker: Daniel Buchner
 
 ## Making New Friends & Lightning LARP
 
-https://youtu.be/lPrpdKY1wlc?si=gfy7WDiDpTVrNCYK
+![video](https://youtu.be/lPrpdKY1wlc?si=gfy7WDiDpTVrNCYK)
 
 Speaker: D++
 
 ## Nix for Bitcoiners
 
-https://youtu.be/IrneGNN3e6c?si=wk5TrhUFC_pRWstX
+![video](https://youtu.be/IrneGNN3e6c?si=wk5TrhUFC_pRWstX)
 
 Speaker: Julien
 
@@ -192,7 +192,7 @@ Speaker: Julien
 
 ## Getting started with LDK Node
 
-https://youtu.be/B1YC8nJdc4s?si=6OYzMBvEdIKMi2T6
+![video](https://youtu.be/B1YC8nJdc4s?si=6OYzMBvEdIKMi2T6)
 
 Speaker: Conor Okus + Jeff Czyz
 
@@ -202,7 +202,7 @@ Conor Okus and Jeff Czyz of Spiral presents: LDK Node is a ready-to-go Lightning
 
 ## Layer-2s Panel Discussion 
 
-https://youtu.be/gzXzAtTvMhM?si=2kpRJu3NrnREJAUV
+![video](https://youtu.be/gzXzAtTvMhM?si=2kpRJu3NrnREJAUV)
 
 Speaker:  niftynei, John Light, Paul Sztorc, and Super Testnet
 
@@ -210,17 +210,17 @@ Speaker:  niftynei, John Light, Paul Sztorc, and Super Testnet
 
 ## Hackathon Keynote: Christopher Calicott
 
-https://youtu.be/DxEc606i1_Y?si=wL7lJtPbTAb-zzVd
+![video](https://youtu.be/DxEc606i1_Y?si=wL7lJtPbTAb-zzVd)
 
 Speaker: 
 
 ## Silas Pembroke: A Presentation 
 
-https://youtu.be/60FuZIacbGQ?si=IjpXIoLWpm82VTdC
+![video](https://youtu.be/60FuZIacbGQ?si=IjpXIoLWpm82VTdC)
 
 Speaker:  Silas Pembroke: A Presentation 
 
 ##  bitcoin++ ATX 2023: Hackathon Presentations + Awards 
 
-https://youtu.be/s5QBgniOnGo?si=ybrkjfgMrdwXw35W
+![video](https://youtu.be/s5QBgniOnGo?si=ybrkjfgMrdwXw35W)
 

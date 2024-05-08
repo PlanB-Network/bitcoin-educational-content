@@ -1,0 +1,23 @@
+- start_date: 2024-07-02 
+  end_date: 2024-07-03
+  address_line_1: Calgary, Canada
+  address_line_2: 
+  address_line_3: 
+  name: Bitcoin Rodeo 2024
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: From the technical to the hysterical, get ready to be enlightened and entertained with Bitcoin-only content delivered by local and international bitcoiners
+  language: 
+    - en
+  links:
+    website: https://www.bitcoinrodeo.com/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - General
+
+

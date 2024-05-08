@@ -484,7 +484,7 @@ Grâce à ces paternes de transactions, on peut déjà interpréter un certain n
 **Contributeurs et ressources :**
 Pour la rédaction de cette partie 3 sur l'analyse de chaîne, je me suis appuyé sur les ressources suivantes :
 - La série de quatre articles nommée : [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produite par Samourai Wallet en 2021 ;
-- Les différents rapports d’[OXT Research](https://medium.com/oxt-research), ainsi que leur outil gratuit d’analyse de chaîne ;
+- Les différents rapports d’[OXT Research](https://medium.com/oxt-research), ainsi que leur outil gratuit d’analyse de chaîne (qui n'est plus disponible pour le moment suite à l'arrestation des fondateurs de Samourai Wallet) ;
 - Plus largement, mes connaissances proviennent des différents tweets et contenus de [@LaurentMT](https://twitter.com/LaurentMT) et de [@ErgoBTC](https://twitter.com/ErgoBTC) ;
 - Le [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) auquel j’ai participé en compagnie de [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) et [@LaurentMT](https://twitter.com/LaurentMT).
 

@@ -1,19 +1,19 @@
 ---
-name: Cập Nhật Bảo Mật Trực Tuyến Của Bạn
-goal: Cập nhật quản lý mật khẩu và dữ liệu cá nhân. Tạo bản sao lưu, bảo vệ khỏi hacker và nâng cao nhận thức về giám sát hàng loạt.
+name: Nâng Cấp Bảo Mật Trực Tuyến Của Bạn
+goal: Nâng cấp trình quản lý mật khẩu và dữ liệu cá nhân. Tạo bản sao lưu, bảo vệ khỏi hacker và nâng cao nhận thức về giám sát hàng loạt.
 objectives:
-  - Cập nhật về quản lý dữ liệu cá nhân và các công cụ tăng cường bảo mật của bạn.
-  - Triển khai một trình quản lý mật khẩu an toàn và thân thiện với người dùng.
-  - Triển khai xác thực hai yếu tố để tăng cường bảo mật và giảm thiểu rủi ro bị hack.
+  - Nâng cấp kỹ năng quản lý dữ liệu cá nhân và các công cụ tăng cường bảo mật của bạn.
+  - Sử dụng một trình quản lý mật khẩu an toàn và thân thiện với người dùng.
+  - Sử dụng xác thực hai yếu tố để tăng cường bảo mật và giảm thiểu rủi ro bị hack.
 ---
 
 # Hành trình bảo vệ dữ liệu của bạn
 
-Chào mừng mọi người đến với chương trình giáo dục này dành riêng cho bảo mật số. Khóa học này được thiết kế để tiếp cận được với mọi người, vì vậy không yêu cầu kiến thức trước về khoa học máy tính. Mục tiêu chính của chúng tôi là cung cấp cho bạn kiến thức và kỹ năng cần thiết để điều hướng thế giới số một cách an toàn và riêng tư hơn.
+Chào mừng mọi người đến với chương trình đào tạo được thiết kế riêng cho bảo mật số. Khóa học này được thiết kế để ai cũng có thể tiếp cận được, vì vậy không yêu phải có kiến thức về khoa học máy tính để tham gia. Mục tiêu chính của chúng tôi là cung cấp cho bạn những kiến thức và kỹ năng cần thiết để khám phá thế giới số một cách an toàn và riêng tư hơn.
 
-Điều này sẽ liên quan đến việc triển khai một số công cụ như dịch vụ email an toàn, công cụ quản lý mật khẩu tốt hơn và các phần mềm khác để bảo vệ hoạt động trực tuyến của bạn.
+Điều này sẽ liên quan đến việc sử dụng một số công cụ như dịch vụ email an toàn, công cụ quản lý mật khẩu tốt hơn và các phần mềm khác để bảo vệ hoạt động trực tuyến của bạn.
 
-Trong khóa học này, chúng tôi không nhằm mục đích biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận để bắt đầu thay đổi thói quen trực tuyến của bạn và lấy lại quyền kiểm soát chủ quyền số của mình.
+Trong khóa học này, chúng tôi không có mục tiêu biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận để bạn bắt đầu thay đổi thói quen trực tuyến của bản thân và lấy lại quyền kiểm soát chủ quyền số của mình.
 
 Nhóm cộng tác viên:
 Muriel; thiết kế
@@ -24,55 +24,55 @@ Théo; đóng góp
 
 # Giới thiệu
 
-## Giới thiệu Khóa Học
+## Giới thiệu khóa học
 
-### Mục tiêu: Cập nhật kỹ năng bảo mật của bạn!
+### Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!
 
-Chào mừng mọi người đến với chương trình giáo dục này dành riêng cho bảo mật số. Khóa học này được thiết kế để tiếp cận được với mọi người, vì vậy không yêu cầu kiến thức trước về khoa học máy tính. Mục tiêu chính của chúng tôi là cung cấp cho bạn kiến thức và kỹ năng cần thiết để điều hướng thế giới số một cách an toàn và riêng tư hơn.
+Chào mừng mọi người đến với chương trình đào tạo được thiết kế riêng cho bảo mật số. Khóa học này được thiết kế để ai cũng có thể tiếp cận được, vì vậy không yêu phải có kiến thức về khoa học máy tính để tham gia. Mục tiêu chính của chúng tôi là cung cấp cho bạn những kiến thức và kỹ năng cần thiết để khám phá thế giới số một cách an toàn và riêng tư hơn.
 
-Điều này sẽ liên quan đến việc triển khai một số công cụ như dịch vụ email an toàn, công cụ quản lý mật khẩu tốt hơn và các phần mềm khác để bảo vệ hoạt động trực tuyến của bạn.
+Điều này sẽ liên quan đến việc sử dụng một số công cụ như dịch vụ email an toàn, công cụ quản lý mật khẩu tốt hơn và các phần mềm khác để bảo vệ hoạt động trực tuyến của bạn.
 
-Khóa học này là nỗ lực hợp tác của ba giáo sư của chúng tôi:
+Khóa học này là nỗ lực hợp tác từ ba giáo sư của chúng tôi:
 
 - Renaud Lifchitz, chuyên gia bảo mật mạng
 - Théo Pantamis, Tiến sĩ toán ứng dụng
 - Rogzy, CEO của DécouvreBitcoin
 
-Vệ sinh số của bạn rất quan trọng trong một thế giới ngày càng số hóa. Mặc dù số lượng hack và giám sát hàng loạt không ngừng tăng lên, nhưng không bao giờ là quá muộn để bắt đầu bảo vệ bản thân.
-Trong khóa học này, chúng tôi không cố gắng biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận cho mọi người để bắt đầu thay đổi thói quen trực tuyến của bạn và lấy lại quyền kiểm soát chủ quyền số của mình.
-Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, tài nguyên, hướng dẫn hoặc các khóa học bảo mật mạng khác của chúng tôi đều sẵn sàng phục vụ bạn. Trong khi chờ đợi, dưới đây là một cái nhìn tổng quan về chương trình của chúng tôi trong vài giờ tới cùng nhau.
+Sức khoẻ số của bạn rất quan trọng trong một thế giới ngày càng số hóa. Mặc dù số lượng các vụ hack và giám sát hàng loạt không ngừng tăng lên, không bao giờ là quá muộn để bắt đầu bảo vệ bản thân.
+Trong khóa học này, chúng tôi không có mục tiêu biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận để bạn bắt đầu thay đổi thói quen trực tuyến của bản thân và lấy lại quyền kiểm soát chủ quyền số của mình.
+Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, các tài nguyên, các hướng dẫn hoặc các khóa học về an ninh mạng khác của chúng tôi đều sẵn sàng phục vụ bạn. Trong khi chờ đợi, dưới đây là một cái nhìn tổng quan về chương trình của chúng ta trong vài giờ tới cùng nhau.
 
 ### Phần 1: Tất cả những gì bạn cần biết về duyệt web trực tuyến
 
 - Chương 1 - Duyệt web trực tuyến
 - Chương 2 - Sử dụng internet một cách an toàn
 
-Để bắt đầu, chúng tôi sẽ thảo luận về tầm quan trọng của việc chọn một trình duyệt web và những hậu quả của nó đối với bảo mật. Sau đó, chúng tôi sẽ khám phá các đặc điểm cụ thể của trình duyệt, đặc biệt là về quản lý cookie. Chúng tôi cũng sẽ xem xét cách đảm bảo trải nghiệm duyệt web an toàn và ẩn danh hơn, sử dụng các công cụ như TOR. Sau đó, chúng tôi sẽ tập trung vào việc sử dụng VPN để tăng cường bảo vệ dữ liệu của bạn. Cuối cùng, chúng tôi sẽ kết thúc với các khuyến nghị cho việc sử dụng kết nối WiFi một cách an toàn.
+Để bắt đầu, chúng ta sẽ thảo luận về tầm quan trọng của việc chọn một trình duyệt web và những hậu quả của lựa chọn đó đối với vấn đề bảo mật. Sau đó, chúng ta sẽ khám phá các đặc điểm cụ thể của trình duyệt, đặc biệt là về quản lý cookie. Chúng ta cũng sẽ xem xét cách đảm bảo trải nghiệm duyệt web an toàn và ẩn danh hơn, sử dụng các công cụ như TOR. Sau đó, chúng ta sẽ tập trung vào việc sử dụng VPN để tăng cường bảo vệ dữ liệu của bạn. Cuối cùng, chúng ta sẽ kết thúc với các khuyến nghị cho việc sử dụng kết nối WiFi một cách an toàn.
 
 ![](assets/en/1.webp)
 
-### Phần 2: Các phương pháp hay nhất cho việc sử dụng máy tính
+### Phần 2: Các thói quen tốt nhất cho việc sử dụng máy tính
 
 - Chương 3 - Sử dụng máy tính
 - Chương 4 - Hacking & quản lý sao lưu
-Trong phần này, chúng ta sẽ đề cập đến ba lĩnh vực chính của bảo mật máy tính. Đầu tiên, chúng ta sẽ khám phá các hệ điều hành khác nhau: Mac, PC và Linux, nêu bật những đặc điểm và ưu điểm riêng của chúng. Sau đó, chúng ta sẽ tìm hiểu các phương pháp bảo vệ hiệu quả chống lại các nỗ lực hack và tăng cường bảo mật cho thiết bị của bạn. Cuối cùng, chúng ta sẽ nhấn mạnh tầm quan trọng của việc bảo vệ và sao lưu dữ liệu định kỳ để ngăn chặn mất mát hoặc ransomware.![](assets/en/2.webp)
+Trong phần này, chúng ta sẽ đề cập đến ba lĩnh vực chính của bảo mật máy tính. Đầu tiên, chúng ta sẽ khám phá các hệ điều hành khác nhau: Mac, PC và Linux, nêu bật những đặc điểm và ưu điểm riêng của chúng. Sau đó, chúng ta sẽ tìm hiểu các phương pháp bảo vệ hiệu quả nhằm chống lại các nỗ lực hack và tăng cường bảo mật cho thiết bị của bạn. Cuối cùng, chúng ta sẽ nhấn mạnh tầm quan trọng của việc bảo vệ và sao lưu dữ liệu định kỳ để ngăn chặn mất mát hoặc tấn công mã độc.![](assets/en/2.webp)
 
 ### Phần 3: Triển khai giải pháp
 
 - Chương 6 - Quản lý email
-- Chương 7 - Quản lý mật khẩu
+- Chương 7 - Trình quản lý mật khẩu
 - Chương 8 - Xác thực hai yếu tố
 
-Trong phần thực hành thứ ba này, chúng ta sẽ chuyển sang triển khai các giải pháp cụ thể của bạn.
+Trong phần thứ ba này, chúng ta sẽ chuyển sang triển khai các giải pháp cụ thể của bạn.
 
-Đầu tiên, chúng ta sẽ xem cách bảo vệ hộp thư đến email của bạn, điều này rất quan trọng cho giao tiếp của bạn và thường xuyên bị hacker nhắm đến. Sau đó, chúng ta sẽ giới thiệu bạn với một trình quản lý mật khẩu: một giải pháp thực tế để không còn quên hoặc lẫn lộn mật khẩu của bạn trong khi vẫn giữ chúng an toàn. Cuối cùng, chúng ta sẽ thảo luận về một biện pháp bảo mật bổ sung, xác thực hai yếu tố, nó thêm một lớp bảo vệ nữa cho tài khoản của bạn. Mọi thứ sẽ được giải thích một cách rõ ràng và dễ tiếp cận.
+Đầu tiên, chúng ta sẽ xem cách bảo vệ hộp thư email của bạn, điều này rất quan trọng cho giao tiếp của bạn và đây là nơi thường xuyên bị hacker nhắm đến. Sau đó, chúng ta sẽ giới thiệu bạn với một trình quản lý mật khẩu: một giải pháp thực tế để không còn bị quên hoặc lẫn lộn mật khẩu của bạn trong khi vẫn giữ chúng an toàn. Cuối cùng, chúng ta sẽ thảo luận về một biện pháp bảo mật bổ sung, xác thực hai yếu tố, nó cung cấp thêm một lớp bảo vệ nữa cho tài khoản của bạn. Mọi thứ sẽ được giải thích một cách rõ ràng và dễ tiếp cận.
 ![](assets/en/3.webp)
 
 # Tất cả những gì bạn cần biết về duyệt web trực tuyến
 
 ## Duyệt web trực tuyến
 
-Khi duyệt internet, việc tránh một số sai lầm phổ biến để bảo vệ an ninh trực tuyến của bạn là rất quan trọng. Dưới đây là một số mẹo để tránh chúng:
+Khi duyệt web trên internet, việc tránh được một số sai lầm phổ biến để bảo vệ an ninh trực tuyến của bạn là rất quan trọng. Dưới đây là một số mẹo để tránh chúng:
 
 ### Hãy cẩn thận với việc tải phần mềm:
 
@@ -80,28 +80,28 @@ Nên tải phần mềm từ trang web chính thức của nhà xuất bản tha
 Ví dụ: Sử dụng www.signal.org/download thay vì www.logicieltelechargement.fr/signal.
 ![](assets/en/4.webp)
 
-Cũng nên ưu tiên phần mềm mã nguồn mở vì chúng thường an toàn hơn và không chứa phần mềm độc hại. Phần mềm "mã nguồn mở" là phần mềm có mã được biết đến và có thể truy cập bởi mọi người. Điều này cho phép kiểm tra, giữa những thứ khác, rằng không có quyền truy cập ẩn nào để đánh cắp dữ liệu cá nhân của bạn.
+Cũng nên ưu tiên phần mềm mã nguồn mở vì chúng thường an toàn hơn và không chứa phần mềm độc hại. Phần mềm "mã nguồn mở" là phần mềm có mã code được biết đến và có thể truy cập bởi mọi người. Điều này cho phép chúng được kiểm tra và xác nhận rằng không có quyền truy cập ẩn nào để đánh cắp dữ liệu cá nhân của bạn.
 
-> Bonus: Phần mềm mã nguồn mở thường miễn phí! Trường đại học này 100% mã nguồn mở, vì vậy bạn cũng có thể kiểm tra mã của chúng tôi trên GitHub của chúng tôi.
+> Bonus: Phần mềm mã nguồn mở thường miễn phí! Trường đại học này 100% mã nguồn mở, vì vậy bạn cũng có thể kiểm tra mã nguồn của chúng tôi trên GitHub của chúng tôi.
 ![](assets/en/5.webp)
 
-### Quản lý cookie: Lỗi và phương pháp tốt nhất
+### Quản lý cookie: Lỗi và thói quen tốt nhất
 
-Cookie là các tệp được tạo bởi các trang web để lưu trữ thông tin trên thiết bị của bạn. Mặc dù một số trang web yêu cầu cookie này để hoạt động đúng cách, chúng cũng có thể bị khai thác bởi các trang web bên thứ ba, đặc biệt là cho mục đích theo dõi quảng cáo. Phù hợp với các quy định như GDPR, có thể - và được khuyến nghị - từ chối cookie theo dõi của bên thứ ba trong khi chấp nhận những cookie cần thiết cho sự hoạt động đúng đắn của trang web. Sau mỗi lần truy cập vào một trang web, việc xóa cookie liên quan, bằng tay hoặc thông qua một tiện ích mở rộng hoặc chương trình cụ thể, là điều khôn ngoan. Một số trình duyệt thậm chí còn cung cấp khả năng xóa cookie một cách lựa chọn. Mặc dù có những biện pháp phòng ngừa này, việc hiểu rằng thông tin thu thập bởi các trang web khác nhau có thể vẫn liên kết với nhau là rất quan trọng, do đó tầm quan trọng của việc tìm kiếm một sự cân bằng giữa tiện ích và bảo mật.
+Cookie là các tệp tin được tạo bởi các trang web để lưu trữ thông tin trên thiết bị của bạn. Mặc dù một số trang web yêu cầu cookie này để hoạt động đúng cách, chúng cũng có thể bị khai thác bởi các trang web bên thứ ba, đặc biệt là cho mục đích theo dõi để quảng cáo. Phù hợp với các quy định như GDPR, bạn được khuyến nghị nên từ chối cho phép các bên thứ ba theo dõi cookie trong khi chấp nhận những cookie cần thiết cho sự hoạt động đúng đắn của trang web. Sau mỗi lần truy cập vào một trang web, bạn nên xóa cookie liên quan, bằng tay hoặc thông qua một tiện ích mở rộng hoặc chương trình cụ thể. Một số trình duyệt thậm chí còn cung cấp khả năng xóa cookie theo cách tuỳ chọn. Mặc dù có những biện pháp phòng ngừa này, việc hiểu rằng thông tin bị thu thập bởi các trang web khác nhau có thể vẫn liên kết với nhau là rất quan trọng, do đó việc kiếm được một sự cân bằng giữa tính tiện ích và khả năng bảo mật là rất quan trọng
 
-> Lưu ý: Cũng hạn chế số lượng tiện ích mở rộng được cài đặt trên trình duyệt của bạn để tránh các vấn đề về bảo mật và hiệu suất tiềm ẩn.
+> Lưu ý: Bạn cũng nên hạn chế số lượng tiện ích mở rộng được cài đặt trên trình duyệt của mình để tránh các vấn đề về tiềm ẩn về bảo mật và hiệu suất hoạt động.
 
 ### Trình duyệt web: lựa chọn, bảo mật
 
-Có hai họ trình duyệt chính: những cái dựa trên Chrome và những cái dựa trên Firefox.
-Mặc dù cả hai họ đều cung cấp một mức độ bảo mật tương tự, nên tránh sử dụng trình duyệt Google Chrome do các bộ theo dõi của nó. Các lựa chọn nhẹ hơn cho Chrome, như Chromium hoặc Brave, có thể được ưu tiên. Brave đặc biệt được khuyến nghị vì có trình chặn quảng cáo tích hợp. Có thể cần sử dụng nhiều trình duyệt để truy cập một số trang web.
+Có hai họ trình duyệt chính: những trình duyệt dựa trên Chrome và những trình duyệt dựa trên Firefox.
+Mặc dù cả hai họ đều cung cấp một mức độ bảo mật tương tự, nên tránh sử dụng trình duyệt Google Chrome do các bộ theo dõi của nó. Các lựa chọn nhẹ hơn cho Chrome, như Chromium hoặc Brave, có thể được ưu tiên. Brave đặc biệt được khuyến nghị vì nó được tích hợp chức năng chặn quảng cáo. Có thể cần sử dụng nhiều trình duyệt để truy cập một số trang web cụ thể.
 ![](assets/en/6.webp)
 ### Duyệt web riêng tư, TOR, và các lựa chọn khác cho việc duyệt web an toàn và ẩn danh hơn
-Duyệt web ẩn danh, mặc dù không ẩn hoạt động duyệt web của bạn khỏi nhà cung cấp dịch vụ internet, nhưng cho phép bạn không để lại dấu vết trên máy tính cá nhân. Cookies sẽ tự động được xóa sau mỗi phiên, cho phép bạn chấp nhận tất cả cookies mà không bị theo dõi. Duyệt web ẩn danh có thể hữu ích khi mua sắm dịch vụ trực tuyến, vì các trang web theo dõi thói quen tìm kiếm của chúng ta và điều chỉnh giá cả tương ứng. Tuy nhiên, quan trọng là phải lưu ý rằng duyệt web ẩn danh được khuyến nghị cho các phiên cụ thể và tạm thời, không phải cho việc duyệt web chung trên internet.
+Duyệt web ẩn danh, mặc dù không ẩn hoàn toàn hoạt động duyệt web của bạn khỏi con mắt của nhà cung cấp dịch vụ internet, nhưng nó cho phép bạn không để lại dấu vết trên máy tính cá nhân. Cookies sẽ tự động được xóa sau mỗi phiên, cho phép bạn chấp nhận tất cả cookies mà không bị theo dõi. Duyệt web ẩn danh có thể hữu ích khi mua sắm dịch vụ trực tuyến, vì các trang web theo dõi thói quen tìm kiếm của chúng ta và điều chỉnh giá cả tương ứng. Tuy nhiên, điều quan trọng là phải lưu ý rằng duyệt web ẩn danh được khuyến nghị cho các phiên cụ thể và tạm thời, không phải cho hoạt động duyệt web chung trên internet.
 
-Một lựa chọn tiên tiến hơn là mạng TOR (The Onion Router), cung cấp sự ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet. TOR Browser là một trình duyệt được thiết kế đặc biệt để sử dụng mạng TOR. Nó cho phép bạn truy cập cả các trang web thông thường và các trang web .onion, thường được vận hành bởi cá nhân và có thể mang tính chất bất hợp pháp.
+Một lựa chọn tiến bộ hơn là mạng TOR (The Onion Router), cung cấp sự ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet. TOR Browser là một trình duyệt được thiết kế đặc biệt để sử dụng mạng TOR. Nó cho phép bạn truy cập cả các trang web thông thường và các trang web .onion, thường được vận hành bởi các cá nhân và có thể mang tính chất bất hợp pháp.
 
-TOR là hợp pháp và được sử dụng bởi các nhà báo, nhà hoạt động vì tự do, và những người khác muốn tránh kiểm duyệt ở các quốc gia độc tài. Tuy nhiên, quan trọng là phải hiểu rằng TOR không bảo vệ các trang web được truy cập hoặc chính máy tính. Ngoài ra, sử dụng TOR có thể làm chậm kết nối internet vì dữ liệu phải đi qua máy tính của ba người khác trước khi đến đích. Cũng cần lưu ý rằng TOR không phải là giải pháp hoàn hảo để đảm bảo 100% ẩn danh và không nên được sử dụng cho các hoạt động bất hợp pháp.
+TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà hoạt động vì tự do, và những người khác muốn tránh kiểm duyệt ở các quốc gia độc tài. Tuy nhiên, điều quan trọng là phải được hiểu rằng TOR không bảo vệ các trang web được truy cập hoặc chính các máy tính. Ngoài ra, sử dụng TOR có thể làm chậm kết nối internet vì dữ liệu phải đi qua máy tính của ba người khác trước khi đến đích. Cũng cần lưu ý rằng TOR không phải là giải pháp hoàn hảo để đảm bảo 100% ẩn danh và không nên sử dụng TOR cho các hoạt động bất hợp pháp.
 ![](assets/en/7.webp)
 ### BRAVE
 
@@ -111,14 +111,14 @@ TOR là hợp pháp và được sử dụng bởi các nhà báo, nhà hoạt �
 
 ### VPNs
 
-Bảo vệ kết nối internet của bạn là một khía cạnh quan trọng của an ninh trực tuyến, và sử dụng mạng riêng ảo (VPNs) là một phương pháp hiệu quả để tăng cường an ninh này, cả cho doanh nghiệp và người dùng cá nhân.
+Bảo vệ kết nối internet của bạn là một khía cạnh quan trọng của bảo mật trực tuyến, và sử dụng mạng riêng ảo (VPNs) là một phương pháp hiệu quả để tăng cường khả năng bảo mật này, cả cho doanh nghiệp và người dùng cá nhân.
 
-'VPNs là các công cụ mã hóa dữ liệu truyền qua internet, làm cho kết nối an toàn hơn. Trong một bối cảnh chuyên nghiệp, VPNs cho phép nhân viên truy cập an toàn vào mạng nội bộ của công ty từ xa. Dữ liệu trao đổi được mã hóa, làm cho việc can thiệp bởi bên thứ ba trở nên khó khăn hơn nhiều. Ngoài việc bảo mật truy cập vào mạng nội bộ, sử dụng VPN cũng có thể cho phép người dùng định tuyến kết nối internet của họ qua mạng nội bộ của công ty, tạo ra ấn tượng rằng kết nối của họ đến từ công ty. Điều này có thể đặc biệt hữu ích để truy cập các dịch vụ trực tuyến bị hạn chế theo địa lý.
+VPN là các công cụ mã hóa dữ liệu truyền qua internet, làm cho kết nối an toàn hơn. Trong một bối cảnh chuyên môn, VPNs cho phép nhân viên truy cập an toàn vào mạng nội bộ của công ty từ xa. Dữ liệu trao đổi được mã hóa, làm cho việc can thiệp bởi bên thứ ba trở nên khó khăn hơn nhiều. Ngoài việc bảo mật truy cập vào mạng nội bộ, sử dụng VPN cũng có thể cho phép người dùng định tuyến kết nối internet của họ qua mạng nội bộ của công ty, tạo ra ấn tượng rằng kết nối của họ đến từ công ty. Điều này có thể đặc biệt hữu ích để truy cập các dịch vụ trực tuyến bị hạn chế theo địa lý.
 ![](assets/en/8.webp)
 
 ### Các loại VPN
 
-Có hai loại VPN chính: VPN doanh nghiệp và VPN cho người tiêu dùng, như NordVPN. VPN doanh nghiệp có xu hướng đắt hơn và phức tạp hơn, trong khi VPN cho người tiêu dùng thường dễ tiếp cận và thân thiện với người dùng hơn. Ví dụ, NordVPN cho phép người dùng kết nối internet thông qua một máy chủ đặt tại một quốc gia khác, có thể vượt qua các hạn chế địa lý.
+Có hai loại VPN chính: VPN doanh nghiệp và VPN cho người dùng cá nhân, như NordVPN. VPN doanh nghiệp có xu hướng đắt hơn và phức tạp hơn, trong khi VPN cho người tiêu dùng thường dễ tiếp cận và thân thiện với người dùng hơn. Ví dụ, NordVPN cho phép người dùng kết nối internet thông qua một máy chủ đặt tại một quốc gia khác, có thể vượt qua các hạn chế địa lý.
 
 Tuy nhiên, sử dụng VPN cho người tiêu dùng không đảm bảo hoàn toàn ẩn danh. Nhiều nhà cung cấp VPN giữ lại thông tin về người dùng của họ, có thể tiềm ẩn rủi ro về ẩn danh. Mặc dù VPN có thể hữu ích để cải thiện an ninh trực tuyến, chúng không phải là giải pháp toàn diện. Chúng hiệu quả cho một số mục đích cụ thể, như truy cập dịch vụ bị hạn chế địa lý hoặc cải thiện an ninh khi đi du lịch, nhưng không đảm bảo an ninh tuyệt đối. Khi chọn VPN, quan trọng là ưu tiên độ tin cậy và kỹ thuật hơn là phổ biến. Các nhà cung cấp VPN thu thập ít thông tin cá nhân nhất thường là an toàn nhất. Dịch vụ như iVPN và Mullvad không thu thập thông tin cá nhân và thậm chí cho phép thanh toán bằng Bitcoin để tăng cường sự riêng tư.
 ![](assets/en/9.webp)

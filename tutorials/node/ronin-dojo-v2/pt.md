@@ -425,13 +425,15 @@ $$ED = \frac{E}{T}$$
 $$ED = \frac{10.5469}{10}$$
 $$ED = 1.054 \text{ bits}$$
 **A quinta informação** fornecida pelo Calculador Boltzmann é a tabela de probabilidades de correspondência entre entradas e saídas. Esta tabela indica, através do `Boltzmann score`, a probabilidade de que uma entrada específica esteja conectada a uma saída dada. Tomando o exemplo de um coinjoin Whirlpool, a tabela de probabilidade destacaria as chances de ligação entre cada entrada e saída, fornecendo uma medida quantitativa da ambiguidade ou previsibilidade das associações na transação:
-| %       | Saída 0 | Saída 1 | Saída 2 | Saída 3 | Saída 4 |
-|---------|---------|---------|---------|---------|---------|
-| Entrada 0 | 34%     | 34%     | 34%     | 34%     | 34%     |
-| Entrada 1 | 34%     | 34%     | 34%     | 34%     | 34%     |
-| Entrada 2 | 34%     | 34%     | 34%     | 34%     | 34%     |
-| Entrada 3 | 34%     | 34%     | 34%     | 34%     | 34%     |
-| Entrada 4 | 34%     | 34%     | 34%     | 34%     | 34%     |
+
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+|---------|----------|----------|----------|----------|----------|
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Aqui, fica claro que cada entrada tem uma chance igual de estar associada a qualquer saída, o que reforça a ambiguidade e confidencialidade da transação. No entanto, no caso de uma transação simples com uma entrada e duas saídas, a situação é diferente:
 

@@ -22,7 +22,8 @@ Dans ce tutoriel, nous allons étudier le concept d'anonsets, des indicateurs qu
 Les transactions coinjoin renforcent la confidentialité des utilisateurs de Bitcoin en complexifiant l'analyse de chaîne pour les observateurs externes. Leur structure permet de fusionner plusieurs pièces de différents utilisateurs en une unique transaction, brouillant ainsi les pistes et rendant difficile la détermination des liens entre les adresses d'entrée et de sortie.
 
 Le principe du coinjoin repose sur une approche collaborative : plusieurs utilisateurs qui souhaitent mélanger leurs bitcoins déposent des montants identiques en entrées d'une même transaction. Ces montants sont ensuite redistribués en sorties de valeur équivalente. À l'issue de la transaction, il devient impossible d'associer un output spécifique à un utilisateur donné. Aucun lien direct n'existe entre les entrées et les sorties, rompant ainsi l'association entre les utilisateurs et leurs UTXO, de même que l'historique de chaque pièce.
-![coinjoin](assets/1.webp)
+
+![coinjoin](assets/notext/1.webp)
 
 Exemple d'une transaction coinjoin :
 [323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2](https://mempool.space/tx/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2)
@@ -37,9 +38,13 @@ Dans ce tutoriel, nous nous pencherons sur mon implémentation préférée : Whi
 L'utilité du coinjoin réside dans sa capacité à produire du déni plausible, en noyant votre pièce au sein d'un groupe de pièces indifférenciables. Le but recherché par cette action est de briser les liens de traçabilité, tant du passé vers le présent que du présent vers le passé. 
 
 Autrement dit, un analyste connaissant votre transaction initiale à l'entrée des cycles de coinjoins ne devrait pas être en mesure d'identifier avec certitude votre UTXO à la sortie des cycles de remix (analyse entrée de cycles vers sortie de cycles).
-![coinjoin](assets/2.webp)
+
+![coinjoin](assets/fr/2.webp)
+
 Inversement, il faut qu'un analyste connaissant votre UTXO à la sortie des cycles de coinjoin se trouve dans l'incapacité de déterminer la transaction originelle à l'entrée des cycles (analyse sortie de cycles vers entrée de cycles).
-![coinjoin](assets/3.webp)
+
+![coinjoin](assets/fr/3.webp)
+
 Pour évaluer la difficulté pour un analyste de lier le passé au présent et vice-versa, il faut quantifier la taille des groupes au sein desquels votre pièce est dissimulée. Cette mesure nous indique le nombre d'analyses possédant une probabilité identique. Ainsi, si l'analyse correcte est noyée parmi 3 autres analyses de probabilité égale, votre niveau de dissimulation est très faible. En revanche, si l'analyse correcte se trouve au sein d'un ensemble de 20 000 analyses toutes aussi probables les unes que les autres, votre pièce est très bien cachée.
 
 Et justement, la taille de ces groupes représente des indicateurs que l'on appelle les "anonsets".
@@ -54,15 +59,22 @@ Deux types d'anonsets existent :
 - **L'ensemble d'anonymat rétrospectif.** 
 
 Le premier indique la taille du groupe parmi lequel se cache l'UTXO étudié en sortie de cycle, sachant l'UTXO en entrée, c'est-à-dire le nombre de pièces indifférenciables présentes au sein de ce groupe. Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse passé vers présent (entrée vers sortie). En anglais, le nom de cet indicateur est « *forward anonset* », ou « *forward-looking metrics* ». 
-![coinjoin](assets/4.webp)
+
+![coinjoin](assets/fr/4.webp)
+
 Cette métrique permet d'estimer dans quelle mesure votre UTXO est protégé contre les tentatives de reconstitution de son historique depuis son point d'entrée jusqu'à son point de sortie dans le processus de coinjoin. 
 
 Par exemple, si votre transaction a participé à son premier cycle de coinjoin et que deux autres cycles descendants ont été réalisés, l'anonset prospectif de votre pièce s'élèverait à `13` :
-![coinjoin](assets/5.webp)
+
+![coinjoin](assets/fr/5.webp)
+
 Le second indique le nombre de sources possibles pour une pièce donnée, sachant l'UTXO en sortie de cycle. Cet indicateur permet de mesurer la résistance de la confidentialité de la pièce face à une analyse présent vers passé (sortie vers entrée), c'est-à-dire à quel point il est difficile pour un analyste de remonter à l'origine de votre pièce, avant les cycles de coinjoins. En anglais, le nom de cet indicateur est « *backward anonset* », ou « *backward-looking metrics* ».
-![coinjoin](assets/6.webp)
+
+![coinjoin](assets/fr/6.webp)
+
  En connaissant votre UTXO à la sortie des cycles, l'anonset rétrospectif détermine le nombre de transactions Tx0 potentielles qui auraient pu constituer votre entrée dans les cycles de coinjoins. Sur le schéma ci-dessous, cela correspond à l'addition de toutes les bulles orange.
- ![coinjoin](assets/7.webp)
+ 
+![coinjoin](assets/fr/7.webp)
 
 ## Calculer les anonsets avec Whirlpool Stats Tools (WST)
 Pour calculer ces indicateurs sur vos propres pièces qui sont passées dans des cycles de coinjoin, vous pouvez utiliser un outil spécialement développé par Samourai Wallet : *Whirlpool Stats Tools*.
@@ -85,7 +97,9 @@ Une fois tous ces logiciels installés, depuis un terminal, clonez le dépôt de
 ```bash
 git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
 ```
-![WST](assets/8.webp)
+
+![WST](assets/notext/8.webp)
+
 Naviguez dans le répertoire de WST :
 ```bash
 cd whirlpool_stats
@@ -95,7 +109,9 @@ Installez les dépendances :
 ```bash
 pip3 install -r ./requirements.txt
 ```
-![WST](assets/9.webp)
+
+![WST](assets/notext/9.webp)
+
 Vous pouvez éventuellement les installer manuellement (facultatif) :
 ```bash
 pip install PySocks
@@ -115,7 +131,9 @@ Démarrez WST :
 ```bash
 python3 wst.py
 ```
-![WST](assets/10.webp)
+
+![WST](assets/notext/10.webp)
+
 Lancez Tor ou Tor Browser en fond.
 
 **-> Pour les utilisateurs RoninDojo, vous pouvez reprendre le tutoriel directement ici.**
@@ -131,19 +149,25 @@ socks5 127.0.0.1:9150
 ```
 
 Cette manipulation vous permettra de télécharger les données sur OXT via Tor, afin de ne pas faire fuiter des informations sur vos transactions. Si vous êtes novice et que cette étape vous semble complexe, sachez qu'il s'agit simplement de diriger votre trafic internet à travers Tor. La méthode la plus simple consiste à lancer le navigateur Tor Browser en arrière-plan sur votre ordinateur, puis à exécuter uniquement la seconde commande pour vous connecter via ce navigateur (`socks5 127.0.0.1:9150`).
-![WST](assets/11.webp)
+
+![WST](assets/notext/11.webp)
+
 Ensuite, dirigez-vous sur le répertoire de travail depuis lequel vous avez l'intention de télécharger les données de WST à l'aide de la commande `workdir`. Ce dossier servira à stocker les données transactionnelles que vous allez récupérer depuis OXT sous forme de fichiers `.csv`. Ces informations sont essentielles au calcul des indicateurs que vous cherchez à obtenir. Vous êtes libre de choisir l'emplacement de ce répertoire. Il pourrait être judicieux de créer un dossier spécifiquement destiné aux données de WST. À titre d'exemple, optons pour le dossier de téléchargements. Si vous utilisez RoninDojo, cette étape n'est pas nécessaire :
 ```bash
 workdir chemin/vers/votre/répertoire
 ```
 
 L'invite de commande devrait alors avoir changé pour indiquer votre répertoire de travail.
-![WST](assets/12.webp)
+
+![WST](assets/notext/12.webp)
+
 Téléchargez ensuite les données de la pool qui contient votre transaction. Par exemple, si je suis dans la pool de `100 000 sats`, la commande est :
 ```bash
 download 0001
 ```
-![WST](assets/13.webp)
+
+![WST](assets/notext/13.webp)
+
 Les codes de dénominations sont les suivants sur WST :
 - Pool 0,5 bitcoins : `05`
 - Pool 0,05 bitcoins : `005`
@@ -156,7 +180,9 @@ load 0001
 ```
 
 Cette étape prend quelques minutes en fonction de votre ordinateur. C'est le moment de vous faire un café ! :)
-![WST](assets/14.webp)
+
+![WST](assets/notext/14.webp)
+
 Après avoir chargé les données, tapez la commande `score` suivie de votre TXID (identifiant de transaction) pour obtenir ses anonsets :
 ```bash
 score TXID
@@ -165,7 +191,9 @@ score TXID
 **Attention**, le choix du TXID à utiliser varie en fonction de l'anonset que vous désirez calculer. Pour évaluer l'anonset prospectif d'une pièce, il est nécessaire d'entrer, via la commande `score`, le TXID correspondant à son premier coinjoin, soit le mix initial effectué avec cet UTXO. En revanche, pour déterminer l'anonset rétrospectif, vous devrez saisir le TXID du dernier coinjoin réalisé. Pour résumer, l'anonset prospectif est calculé à partir du TXID du premier mix, tandis que l'anonset rétrospectif est calculé à partir du TXID du dernier mix.
 
 WST vous affiche alors le score rétrospectif (*Backward-looking metrics*) puis le score prospectif (*Forward-looking metrics*). Pour l'exemple, j'ai pris le TXID d'une pièce au hasard sur Whirlpool qui ne m'appartient pas.
-![WST](assets/15.webp)
+
+![WST](assets/notext/15.webp)
+
 La transaction en question : [7fe6081fa4f4382be629fb2ef59029d058a22b6fd59cb31d1511fe9e0e7f32be](https://mempool.space/tx/7fe6081fa4f4382be629fb2ef59029d058a22b6fd59cb31d1511fe9e0e7f32be)
 
 Si l'on considère cette transaction comme le premier coinjoin effectué pour la pièce concernée, alors elle bénéficie d'un anonset prospectif de `86 871`. Cela signifie qu'elle se dissimule parmi `86 871` pièces indiscernables. Pour un observateur externe connaissant cette pièce au début des cycles de coinjoin et tentant de retracer sa sortie, il sera confronté à `86 871` UTXO possibles, chacun ayant une probabilité identique d'être la pièce recherchée.

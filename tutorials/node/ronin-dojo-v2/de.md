@@ -425,13 +425,15 @@ $$ED = \frac{E}{T}$$
 $$ED = \frac{10.5469}{10}$$
 $$ED = 1.054 \text{ Bits}$$
 **Das fünfte Informationsstück**, das vom Boltzmann-Rechner geliefert wird, ist die Tabelle der Übereinstimmungswahrscheinlichkeiten zwischen Eingängen und Ausgängen. Diese Tabelle zeigt durch den `Boltzmann-Score` die Wahrscheinlichkeit, dass ein bestimmter Eingang mit einem gegebenen Ausgang verbunden ist. Am Beispiel eines Whirlpool-Coinjoin würde die Wahrscheinlichkeitstabelle die Chancen der Verknüpfung zwischen jedem Eingang und Ausgang hervorheben und bietet ein quantitatives Maß für die Ambiguität oder Vorhersehbarkeit von Assoziationen in der Transaktion:
-| %       | Ausgang 0 | Ausgang 1 | Ausgang 2 | Ausgang 3 | Ausgang 4 |
-|---------|-----------|-----------|-----------|-----------|-----------|
-| Eingang 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
-| Eingang 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
-| Eingang 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
-| Eingang 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
-| Eingang 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+|---------|----------|----------|----------|----------|----------|
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Hier ist klar, dass jeder Eingang eine gleiche Chance hat, mit jedem Ausgang verbunden zu sein, was die Ambiguität und Vertraulichkeit der Transaktion verstärkt. Jedoch ist die Situation bei einer einfachen Transaktion mit einem Eingang und zwei Ausgängen anders:
 

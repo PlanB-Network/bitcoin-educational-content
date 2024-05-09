@@ -90,12 +90,14 @@ As mentioned previously, a UTXO is considered to belong to a pool when it is rea
 
 To enter a coinjoin pool, service fees as well as mining fees must be paid. The service fees are fixed for each pool and are intended to compensate the teams responsible for the development and maintenance of Whirlpool.
 Service fees for using Whirlpool are to be paid only once upon entering the pool. After this step, you have the opportunity to participate in an unlimited number of remixes without any additional fees. Here are the current fixed fees for each pool:
+
 | Pool (bitcoin) | Entry Fee (bitcoin)        |
 |----------------|---------------------------|
 | 0.5            | 0.0175                    |
 | 0.05           | 0.00175                   |
 | 0.01           | 0.0005 (50,000 sats)      |
 | 0.001          | 0.00005 (5,000 sats)      |
+
 
 These fees essentially function as an entry ticket for the chosen pool, regardless of the amount you put in coinjoin. Thus, whether you join the 0.01 pool with exactly 0.01 BTC or enter it with 0.5 BTC, the fees will remain the same in absolute value.
 

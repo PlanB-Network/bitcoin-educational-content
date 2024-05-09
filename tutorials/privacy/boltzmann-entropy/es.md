@@ -182,6 +182,8 @@ Sin embargo, en el caso de una transacción simple con una sola entrada y dos sa
 | %       | Salida 0 | Salida 1 |
 |---------|----------|----------|
 | Entrada 0 | 100%     | 100%     |
+
+
 Aquí, se observa que la probabilidad de que cada salida provenga de la entrada N.º 0 es del `100%`. Por lo tanto, una probabilidad menor se traduce en una mayor privacidad al diluir los vínculos directos entre entradas y salidas.
 
 ### Enlaces Deterministas:

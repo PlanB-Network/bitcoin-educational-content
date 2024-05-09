@@ -86,11 +86,14 @@ Como se mencionó anteriormente, un UTXO se considera que pertenece a una piscin
 
 Para entrar en una piscina de coinjoin, se deben pagar tarifas de servicio así como tarifas de minería. Las tarifas de servicio son fijas para cada piscina y están destinadas a compensar a los equipos responsables del desarrollo y mantenimiento de Whirlpool.
 Las tarifas de servicio para usar Whirlpool se deben pagar solo una vez al entrar en la piscina. Después de este paso, tienes la oportunidad de participar en un número ilimitado de remixes sin ninguna tarifa adicional. Aquí están las tarifas fijas actuales para cada piscina:
-| Piscina (bitcoin) | Tarifa de Entrada (bitcoin) |
-|-------------------|-----------------------------|
-| 0.5            | 0.0175                    || 0.05           | 0.00175                   |
-| 0.01           | 0.0005 (50,000 sats)      |
-| 0.001          | 0.00005 (5,000 sats)      |
+
+| Pool (bitcoin) | Tarifa de Entrada (bitcoin) |
+| -------------- | --------------------------- |
+| 0,5            | 0,0175                      |
+| 0,05           | 0,00175                     |
+| 0,01           | 0,0005 (50 000 sats)        |
+| 0,001          | 0,00005 (5 000 sats)        |
+
 
 Estas tarifas funcionan esencialmente como un boleto de entrada para el pool elegido, independientemente de la cantidad que se ingrese en coinjoin. Por lo tanto, ya sea que te unas al pool de 0.01 con exactamente 0.01 BTC o entres con 0.5 BTC, las tarifas permanecerán iguales en valor absoluto.
 

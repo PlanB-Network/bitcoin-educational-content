@@ -165,7 +165,7 @@ Avec Bitcoin, Satoshi Nakamoto a créé une monnaie numérique robuste et confid
 
 Dans le chapitre précédent, nous avons étudié la première forme d'argent liquide électronique qui est issue de l'apparition d'Internet et de la cryptographie moderne : le modèle eCash de David Chaum. Ce dernier a grandement influencé Satoshi Nakamoto et constitue une étape clé dans le parcours qui a mené à Bitcoin. Mais l'histoire des origines de la cryptomonnaie ne se résume pas à eCash ; elle repose aussi sur les expériences de monnaie privées fonctionnant sur Internet, qui ont été développées à partir de la fin des années 1990.
 
-Dans ce chapitre, nous regarderons ce qui a été fait du côté des monnaies privées au États-Unis. Nous évoquerons tout d'abord le cas du Liberty Dollar. Puis nous nous intéresserons au cas des systèmes centralisés comme e-gold et Liberty Reserve. Nous parlerons au passage de PayPal, dont la démarche est différente mais qui n'en constitue pas moins un exemple éclairant.
+Dans ce chapitre, nous regarderons ce qui a été fait du côté des monnaies privées au États-Unis. Nous évoquerons tout d'abord le cas du Liberty Dollar. Puis nous nous intéresserons au cas des systèmes centralisés comme e-gold et Liberty Reserve. Nous parlerons pour finir de PayPal, dont la démarche est différente mais qui n'en constitue pas moins un exemple éclairant.
 
 Dans tous les cas, ces systèmes ont fini par être arrêtés par les autorités ou ont dû se conformer aux réglementations financières. C'est pourquoi Satoshi Nakamoto, qui avait une bonne connaissance de ces systèmes, comprenait profondément la nécessité pour un système alternatif de ne pas reposer sur un tiers de confiance.
 
@@ -205,13 +205,13 @@ Ce succès s'est néanmoins estompé avec l'intervention étatique. Au terme d'u
 
 D'autres systèmes ont été créés sur le même modèle. Nous pouvons citer GoldMoney, fondé par James Turk et son fils en février 2001, qui s'est aujourd'hui adapté aux réglementations financières. e-Bullion, le système fondé par James Fayed en juillet 2001, a lui fermé ses portes en 2008. Enfin, l'une des dernières devises en or numérique était Pecunix, qui a été fondée au Panama par Simon Davis en 2002 et qui s'est arrêtée en 2015, dans le cadre d'une escroquerie de sortie.
 
-### PayPal
-
-Peter Thiel, Confinity Inc., 1998
-
 ### Liberty Reserve
 
 Arthur Budovsky, 2006
+
+### PayPal
+
+Peter Thiel, Confinity Inc., 1998
 
 ## Les alternatives centralisées et Bitcoin
 

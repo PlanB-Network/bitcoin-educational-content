@@ -16,7 +16,7 @@ Este tutorial solo puede seguirse con fines experimentales para la creación de 
 Una frase de recuperación, también a veces llamada "mnemónica", "frase semilla" o "frase secreta", es una secuencia usualmente compuesta de 12 o 24 palabras, que se genera de manera pseudoaleatoria a partir de una fuente de entropía. La secuencia pseudoaleatoria siempre se completa con un checksum.
 
 La frase mnemotécnica, junto con una frase de paso opcional, se utiliza para derivar de manera determinista todas las claves asociadas con una cartera HD (Determinista Jerárquica). Esto significa que a partir de esta frase, es posible generar y recrear de manera determinista todas las claves privadas y públicas de la cartera de Bitcoin, y consecuentemente, acceder a los fondos asociados con ella.
-![mnemonic](assets/es/1.webp)
+![mnemonic](assets/notext/1.webp)
 El propósito de esta frase es proporcionar un medio fácil de usar para la copia de seguridad y recuperación de bitcoins. Es imperativo mantener la frase mnemotécnica en un lugar seguro y protegido, ya que cualquier persona en posesión de esta frase tendría acceso a los fondos de la cartera correspondiente. Si se usa en el contexto de una cartera tradicional, y sin una frase de paso opcional, a menudo constituye un SPOF (Punto Único de Fallo).
 Usualmente, esta frase se te da directamente al crear tu cartera, por el software o cartera de hardware utilizado. Sin embargo, también es posible generar esta frase por ti mismo, y luego introducirla en el soporte elegido para derivar las claves de la cartera. Esto es lo que aprenderemos a hacer en este tutorial.
 
@@ -29,7 +29,7 @@ Para la creación de tu frase de recuperación a mano, necesitarás:
 
 Posteriormente, el uso de un ordenador con terminal se hará necesario para el cálculo del checksum. Es precisamente por esta razón que desaconsejo la generación manual de la frase mnemotécnica. En mi opinión, la intervención de un ordenador, incluso bajo las precauciones mencionadas en este tutorial, aumenta significativamente la vulnerabilidad de una cartera.
 Para un enfoque experimental relacionado con una "billetera ficticia", es posible usar tu computadora habitual y su terminal. Sin embargo, para un enfoque más riguroso destinado a limitar los riesgos de comprometer tu frase, lo ideal sería usar una PC desconectada de internet (preferiblemente sin un componente wifi o conexión cableada RJ45), equipada con el mínimo de periféricos (todos los cuales deberían estar conectados por cable, para evitar Bluetooth), y sobre todo, funcionando en una distribución Linux amnésica como [Tails](https://tails.boum.org/index.fr.html), iniciada desde un medio extraíble.
-![mnemonic](assets/es/2.webp)
+![mnemonic](assets/notext/2.webp)
 
 En un contexto real, sería crucial asegurar la confidencialidad de tu espacio de trabajo eligiendo una ubicación lejos de miradas indiscretas, sin tráfico de personas y libre de cámaras (webcams, teléfonos...).
 Se recomienda usar un alto número de dados para mitigar el impacto de un dado potencialmente desequilibrado en la entropía. Antes de su uso, se recomienda revisar los dados: esto se puede lograr probándolos en un tazón de agua saturada con sal, permitiendo que los dados floten. Luego procede a lanzar cada dado unas veinte veces en el agua salada, observando los resultados. Si una o dos caras aparecen desproporcionadamente en comparación con las otras, extiende la prueba con más lanzamientos. Resultados distribuidos uniformemente indican que el dado es confiable. Sin embargo, si una o dos caras dominan regularmente, estos dados deberían ser apartados, ya que podrían comprometer la entropía de tu frase mnemónica y, consecuentemente, la seguridad de tu billetera.
@@ -54,28 +54,28 @@ En el caso de nuestra frase mnemotécnica, la función del checksum es detectar 
 Para obtener este checksum, la entropía se pasa a través de la función hash SHA256. Esta operación produce una secuencia de 256 bits como salida, de los cuales solo se retendrán los primeros `N` bits, dependiendo `N` de la longitud deseada de la frase de recuperación (ver la tabla arriba). Así, para una frase de 12 palabras, se conservarán los primeros 4 bits del hash.
 ![mnemonic](assets/es/3.webp)
 Estos primeros 4 bits, formando el checksum, se añadirán entonces a la entropía original. En esta etapa, la frase de recuperación está prácticamente constituida, pero aún está en forma binaria. Para convertir esta secuencia binaria en palabras de acuerdo con el estándar BIP39, primero dividiremos la secuencia en segmentos de 11 bits.
-![mnemonic](assets/es/4.webp)
+![mnemonic](assets/notext/4.webp)
 Cada uno de estos paquetes representa un número en binario que luego se convertirá en un número decimal (base 10). Añadiremos `1` a cada número, porque en informática, el conteo comienza desde `0`, pero la lista BIP39 está numerada comenzando desde `1`.
 
-![mnemonic](assets/es/5.webp)
+![mnemonic](assets/notext/5.webp)
 
 Finalmente, el número en decimal nos indica la posición de la palabra correspondiente en [la lista de 2048 palabras BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Solo queda seleccionar estas palabras para componer la frase de recuperación para nuestra billetera.
 
-![mnemonic](assets/es/6.webp)
+![mnemonic](assets/notext/6.webp)
 
 Ahora, ¡pasemos a la práctica! Generaremos una frase de recuperación de 12 palabras. Sin embargo, esta operación permanece idéntica en el caso de una frase de 24 palabras, excepto que requeriría 256 bits de entropía y un checksum de 8 bits, como se indica en la tabla de equivalencia ubicada al principio de esta sección.
 
 ## Paso 1: Generando la Entropía
 Prepara tu hoja de papel, tu bolígrafo y tus dados. Para comenzar, necesitaremos generar 128 bits aleatoriamente, es decir, una secuencia de 128 `0`s y `1`s seguidos. Para hacer esto, usaremos dados.
-![mnemonic](assets/es/7.webp)
+![mnemonic](assets/notext/7.webp)
 
 Los dados tienen 6 caras, todas con una probabilidad idéntica de ser lanzadas. Sin embargo, nuestro objetivo es producir un resultado binario, es decir, dos posibles resultados. Por lo tanto, asignaremos el valor `0` a cada lanzamiento que caiga en un número par, y `1` para cada número impar. Como resultado, realizaremos 128 lanzamientos para crear nuestra entropía de 128 bits. Si el dado muestra `2`, `4`, o `6`, anotaremos `0`; para `1`, `3`, o `5`, será `1`. Cada resultado se anotará secuencialmente, de izquierda a derecha y de arriba abajo.
 
 Para facilitar los siguientes pasos, agruparemos los bits en paquetes de cuatro y tres, como se muestra en la imagen a continuación. Cada línea debe tener 11 bits: 2 paquetes de 4 bits y un paquete de 3 bits.
 
-![mnemonic](assets/es/8.webp)
+![mnemonic](assets/notext/8.webp)
 Como puedes ver en mi ejemplo, la duodécima palabra está actualmente compuesta solo por 7 bits. Estos se completarán con los 4 bits del checksum en el siguiente paso para formar los 11 bits.
-![mnemonic](assets/es/9.webp)
+![mnemonic](assets/notext/9.webp)
 
 ## Paso 2: Calculando el checksum
 Este paso es el más crítico en la generación manual de una frase mnemotécnica, ya que requiere el uso de una computadora. Como se mencionó anteriormente, el checksum corresponde al inicio del hash SHA256 generado a partir de la entropía. Aunque teóricamente es posible calcular un SHA256 a mano para una entrada de 128 o 256 bits, esta tarea podría llevar una semana entera. Además, cualquier error en los cálculos manuales solo se identificaría al final del proceso, obligándote a empezar de nuevo desde el principio. Por lo tanto, es inimaginable hacer este paso con solo una hoja de papel y un bolígrafo. Una computadora es casi obligatoria. Si aún quieres aprender cómo hacer un SHA256 a mano, explicamos cómo hacerlo en [el curso CRYPTO301](https://planb.network/en/courses/crypto301).
@@ -83,39 +83,39 @@ Este paso es el más crítico en la generación manual de una frase mnemotécnic
 Por esta razón, aconsejo fuertemente en contra de crear una frase manual para una cartera real. En mi opinión, usar una computadora en esta etapa, incluso con todas las precauciones necesarias, aumenta de manera irrazonable la superficie de ataque de la cartera.
 Para calcular el checksum dejando la menor cantidad de rastros posible, usaremos una distribución Linux amnésica desde una unidad extraíble llamada **Tails**. Este sistema operativo se inicia desde una memoria USB y opera enteramente en la RAM del computador, sin interactuar con el disco duro. Así, en teoría, no deja rastro en el computador después de que se apaga. Ten en cuenta que Tails solo es compatible con procesadores tipo x86_64, y no con procesadores tipo ARM.
 Para comenzar, desde tu computadora habitual, [descarga la imagen de Tails desde su sitio web oficial](https://tails.net/install/index.fr.html). Asegura la autenticidad de tu descarga utilizando la firma del desarrollador o la herramienta de verificación ofrecida por el sitio.
-![mnemonic](assets/es/10.webp)
+![mnemonic](assets/notext/10.webp)
 Primero, procede a formatear tu memoria USB, luego instala Tails usando una herramienta como [Balena Etcher](https://etcher.balena.io/).
-![mnemonic](assets/es/11.webp)
+![mnemonic](assets/notext/11.webp)
 Después de confirmar que el flasheo fue exitoso, apaga tu computadora. Luego procede a desconectar la fuente de alimentación y quitar el disco duro de la placa base de tu PC. En el caso de que esté presente una tarjeta WiFi, debería ser desconectada. De manera similar, quita cualquier cable Ethernet RJ45. Para minimizar el riesgo de fuga de datos, se recomienda desenchufar tu caja de internet y apagar tu teléfono móvil. Además, asegúrate de desconectar cualquier periférico superfluo de tu computadora, como el micrófono, la cámara web, los altavoces o el auricular, y verifica que otros periféricos solo estén conectados por cable. Todos estos pasos de preparación de la PC no son esenciales, pero simplemente ayudan a reducir la superficie de ataque tanto como sea posible en un contexto real.
 
 Verifica si tu BIOS está configurada para permitir el arranque desde un dispositivo externo. Si no, cambia esta configuración, luego reinicia tu máquina. Una vez que hayas asegurado el entorno informático, reinicia la computadora desde la memoria USB con Tails OS.
 
 En la pantalla de bienvenida de Tails, selecciona el idioma de tu elección, luego lanza el sistema haciendo clic en `Start Tails`.
 
-![mnemonic](assets/es/12.webp)
+![mnemonic](assets/notext/12.webp)
 
 Desde el escritorio, haz clic en la pestaña `Applications`.
 
-![mnemonic](assets/es/13.webp)
+![mnemonic](assets/notext/13.webp)
 
 Navega al menú `Utilities`.
 
-![mnemonic](assets/es/14.webp)
+![mnemonic](assets/notext/14.webp)
 Y finalmente, haz clic en la aplicación `Terminal`.
-![mnemonic](assets/es/15.webp)
+![mnemonic](assets/notext/15.webp)
 
 Llegarás a un nuevo terminal de comandos en blanco.
 
-![mnemonic](assets/es/16.webp)
+![mnemonic](assets/notext/16.webp)
 Escribe el comando `echo`, seguido de tu entropía generada previamente, asegurándote de insertar un espacio entre `echo` y tu secuencia de dígitos binarios.
-![mnemonic](assets/es/17.webp)
+![mnemonic](assets/notext/17.webp)
 
 Añade un espacio adicional, luego introduce el siguiente comando, utilizando un *pipe* (`|`):
 ```bash
 | shasum -a 256 -0
 ```
 
-![mnemonic](assets/es/18.webp)
+![mnemonic](assets/notext/18.webp)
 
 En el ejemplo con mi entropía, el comando total es el siguiente:
 ```bash
@@ -132,7 +132,7 @@ En este comando:
 
 Después de verificar cuidadosamente que tu secuencia binaria no contenga errores de tipeo, presiona la tecla `Enter` para ejecutar el comando. El terminal mostrará entonces el hash SHA256 de tu entropía.
 
-![mnemonic](assets/es/19.webp)
+![mnemonic](assets/notext/19.webp)
 
 Por ahora, el hash se expresa en formato hexadecimal (base 16). Por ejemplo, el mío es:
 ```bash
@@ -164,7 +164,7 @@ El siguiente paso es convertir este carácter hexadecimal (base 16) en un valor 
 
 En mi ejemplo, la letra `a` corresponde al número binario `1010`. Estos 4 bits forman el checksum de nuestra frase de recuperación. Ahora puedes añadirlos a la entropía ya anotada en tu hoja de papel, colocándolos al final de la última palabra.
 
-![mnemonic](assets/es/20.webp)
+![mnemonic](assets/notext/20.webp)
 
 Tu frase mnemotécnica está ahora completa, pero está en formato binario. El siguiente paso será convertirla al sistema decimal para que luego puedas asociar cada número con una palabra correspondiente en la lista BIP39.
 
@@ -188,7 +188,7 @@ Para cada línea, sumaremos los valores correspondientes a los dígitos `1` para
 ```
 
 La conversión sería la siguiente:
-![mnemonic](assets/es/21.webp)
+![mnemonic](assets/notext/21.webp)
 El resultado sería entonces:
 ```bash
 1389
@@ -196,14 +196,14 @@ El resultado sería entonces:
 
 Para cada bit igual a `1`, reporta el número asociado abajo. Para cada bit igual a `0`, no reportes nada.
 
-![mnemonic](assets/es/22.webp)
+![mnemonic](assets/notext/22.webp)
 Luego, simplemente suma todos los números validados por los `1`s para obtener el número decimal que representa cada línea binaria. Por ejemplo, así es como se ve para mi hoja:
-![mnemonic](assets/es/23.webp)
+![mnemonic](assets/notext/23.webp)
 
 ## Paso 4: Buscando las Palabras de la Frase Mnemotécnica
 Con los números decimales obtenidos, ahora podemos localizar las palabras correspondientes en la lista para componer la frase mnemotécnica. Sin embargo, la numeración de las 2048 palabras en la lista BIP39 varía de `1` a `2048`. Pero, nuestros resultados binarios calculados varían de `0` a `2047`. Por lo tanto, hay un desplazamiento de una unidad que necesita ser corregido. Para corregir este desplazamiento, simplemente añade `1` a los doce números decimales previamente calculados.
 
-![mnemonic](assets/es/24.webp)
+![mnemonic](assets/notext/24.webp)
 Después de este ajuste, tienes el rango de cada palabra dentro de la lista. Todo lo que queda es identificar cada palabra por su número. Obviamente, como con todos los otros pasos, no debes usar tu computadora para realizar esta conversión. Por lo tanto, asegúrate de haber impreso la lista de antemano.
 [**-> Imprime la lista BIP39 en formato A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
@@ -211,19 +211,19 @@ Por ejemplo, si el número derivado de la primera línea es 1721, la palabra cor
 ```bash
 1721. strike
 ```
-![mnemónico](assets/es/25.webp)
+![mnemónico](assets/notext/25.webp)
 De esta manera, procedemos sucesivamente con las 12 palabras para construir nuestra frase mnemónica.
 
-![mnemónico](assets/es/26.webp)
+![mnemónico](assets/notext/26.webp)
 
 ## Paso 5: Creando la Cartera de Bitcoin
 En este punto, todo lo que queda es importar nuestra frase mnemónica en un software de cartera de Bitcoin. Dependiendo de nuestras preferencias, esto se puede hacer en un software de escritorio para obtener una cartera caliente, o en una cartera de hardware para una cartera fría.
 
-![mnemónico](assets/es/27.webp)
+![mnemónico](assets/notext/27.webp)
 
 Solo durante la importación puedes verificar la validez de tu suma de comprobación. Si el software muestra un mensaje como `Checksum Inválido`, significa que un error se ha colado en tu proceso de creación. Generalmente, este error proviene ya sea de un error de cálculo durante las conversiones y adiciones manuales, o de un error tipográfico al ingresar tu entropía en el terminal en Tails. Será necesario reiniciar el proceso desde el principio para corregir estos errores.
 
-![mnemónico](assets/es/28.webp)
+![mnemónico](assets/notext/28.webp)
 Después de crear tu cartera, no olvides respaldar tu frase de recuperación en un medio físico, como papel o metal, y destruir la hoja de cálculo utilizada durante su generación para evitar cualquier fuga de información.
 
 ## Caso Específico de la Opción de Lanzamiento de Dados en Coldcards

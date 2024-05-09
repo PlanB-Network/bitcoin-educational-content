@@ -43,12 +43,12 @@ Um eine Remote-Cahoots-Transaktion durchzuführen, insbesondere eine PayJoin (St
 **Hier ist das Verfahren zur Herstellung dieser Verbindung:**
 
 Zunächst müssen Sie die Paynym-Kennung des Empfängers erhalten. Dies kann mit ihrem Spitznamen oder Zahlungscode erfolgen. Gehen Sie dazu von der Sparrow-Brieftasche des Empfängers aus zum Tab "Tools" und klicken Sie dann auf "Show PayNym".
-![Show Paynym](assets/de/2.webp)
+![Show Paynym](assets/notext/2.webp)
 ![Paynym Sparrow](assets/de/1.webp)
 Auf Ihrer Seite öffnen Sie Ihre Sparrow-Brieftasche und greifen auf das gleiche Menü "Show PayNym" zu. Wenn Sie Ihren Paynym zum ersten Mal verwenden, müssen Sie eine Kennung erhalten, indem Sie auf "Retrieve PayNym" klicken.
-![Retrieve paynym](assets/de/3.webp)
+![Retrieve paynym](assets/notext/3.webp)
 Geben Sie anschließend die Paynym-Kennung Ihres Mitarbeiters (entweder ihren Spitznamen `+...` oder ihren Zahlungscode `PM...`) in das Feld "Find Contact" ein und klicken Sie dann auf die Schaltfläche "Add Contact".
-![add contact](assets/de/4.webp)
+![add contact](assets/notext/4.webp)
 Die Software bietet Ihnen dann eine Schaltfläche "Link Contact" an. Für unser Tutorial ist es nicht erforderlich, auf diese Schaltfläche zu klicken. Dieser Schritt ist nur erforderlich, wenn Sie Zahlungen an den im Zusammenhang mit [BIP47](https://planb.network/tutorials/privacy/paynym-bip47) angegebenen Paynym vornehmen möchten, was nichts mit unserem Tutorial zu tun hat.
 
 Sobald der Paynym des Empfängers von Ihrem Paynym aus gefolgt wird, wiederholen Sie diesen Vorgang in umgekehrter Richtung, damit Ihr Empfänger Ihnen ebenfalls folgt. Sie können dann einen Payjoin durchführen.

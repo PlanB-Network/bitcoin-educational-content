@@ -16,7 +16,7 @@ Questo tutorial può essere seguito solo a scopo sperimentale per la creazione d
 Una frase di recupero, chiamata anche a volte "mnemonica", "frase seme" o "frase segreta", è una sequenza solitamente composta da 12 o 24 parole, che viene generata in modo pseudo-casuale da una fonte di entropia. La sequenza pseudo-casuale è sempre completata con un checksum.
 
 La frase mnemonica, insieme a una passphrase opzionale, è utilizzata per derivare deterministicamente tutte le chiavi associate a un portafoglio HD (Hierarchical Deterministic). Questo significa che da questa frase, è possibile generare e ricreare deterministicamente tutte le chiavi private e pubbliche del portafoglio Bitcoin, e di conseguenza, accedere ai fondi ad esso associati.
-![mnemonic](assets/it/1.webp)
+![mnemonic](assets/notext/1.webp)
 Lo scopo di questa frase è fornire un mezzo facile da usare per il backup e il recupero dei bitcoin. È imperativo mantenere la frase mnemonica in un luogo sicuro e protetto, poiché chiunque in possesso di questa frase avrebbe accesso ai fondi del portafoglio corrispondente. Se utilizzata nel contesto di un portafoglio tradizionale, e senza una passphrase opzionale, costituisce spesso un SPOF (Single Point Of Failure). 
 Solitamente, questa frase ti viene data direttamente alla creazione del tuo portafoglio, dal software o dal portafoglio hardware utilizzato. Tuttavia, è anche possibile generare questa frase da soli, e poi inserirla sul supporto scelto per derivare le chiavi del portafoglio. Questo è ciò che impareremo a fare in questo tutorial.
 
@@ -29,7 +29,7 @@ Per la creazione della tua frase di recupero a mano, avrai bisogno di:
 
 Successivamente, l'uso di un computer con un terminale diventerà necessario per il calcolo del checksum. È proprio per questo motivo che sconsiglio la generazione manuale della frase mnemonica. A mio avviso, l'intervento di un computer, anche sotto le precauzioni menzionate in questo tutorial, aumenta significativamente la vulnerabilità di un portafoglio.
 Per un approccio sperimentale riguardante un "portafoglio fittizio", è possibile utilizzare il proprio computer abituale e il suo terminale. Tuttavia, per un approccio più rigoroso volto a limitare i rischi di compromissione della propria frase, l'ideale sarebbe utilizzare un PC disconnesso da internet (preferibilmente senza componente wifi o connessione cablata RJ45), dotato del minimo dei periferici (tutti collegati tramite cavo, per evitare il Bluetooth), e soprattutto, funzionante su una distribuzione Linux amnesica come [Tails](https://tails.boum.org/index.fr.html), avviata da un supporto rimovibile.
-![mnemonico](assets/it/2.webp)
+![mnemonico](assets/notext/2.webp)
 
 In un contesto reale, sarebbe cruciale assicurare la confidenzialità del proprio spazio di lavoro scegliendo una posizione lontana da occhi indiscreti, senza traffico di persone e priva di telecamere (webcam, telefoni...).
 Si raccomanda di utilizzare un alto numero di dadi per mitigare l'impatto di un dado potenzialmente non bilanciato sull'entropia. Prima del loro utilizzo, si consiglia di controllare i dadi: ciò può essere realizzato testandoli in una ciotola di acqua satura di sale, permettendo ai dadi di galleggiare. Quindi procedere a lanciare ogni dado circa venti volte nell'acqua salata, osservando i risultati. Se una o due facce appaiono sproporzionatamente rispetto alle altre, estendere il test con più lanci. Risultati distribuiti uniformemente indicano che il dado è affidabile. Tuttavia, se una o due facce dominano regolarmente, questi dadi dovrebbero essere messi da parte, poiché potrebbero compromettere l'entropia della propria frase mnemonica e, di conseguenza, la sicurezza del proprio portafoglio.
@@ -54,26 +54,26 @@ Nel caso della nostra frase mnemonica, la funzione del checksum è quella di ril
 Per ottenere questo checksum, l'entropia viene passata attraverso la funzione hash SHA256. Questa operazione produce in output una sequenza di 256 bit, di cui verranno trattenuti solo i primi `N` bit, dove `N` dipende dalla lunghezza desiderata della frase di recupero (vedi la tabella sopra). Quindi, per una frase di 12 parole, verranno mantenuti i primi 4 bit dell'hash.
 ![mnemonic](assets/it/3.webp)
 Questi primi 4 bit, che formano il checksum, verranno poi aggiunti all'entropia originale. A questo punto, la frase di recupero è praticamente costituita, ma è ancora in forma binaria. Per convertire questa sequenza binaria in parole in conformità con lo standard BIP39, divideremo prima la sequenza in segmenti di 11 bit.
-![mnemonic](assets/it/4.webp)
+![mnemonic](assets/notext/4.webp)
 Ciascuno di questi pacchetti rappresenta un numero in binario che verrà poi convertito in un numero decimale (base 10). Aggiungeremo `1` a ciascun numero, perché in informatica, il conteggio inizia da `0`, ma la lista BIP39 è numerata a partire da `1`.
 
-![mnemonic](assets/it/5.webp)
+![mnemonic](assets/notext/5.webp)
 
 Infine, il numero in decimale ci indica la posizione della parola corrispondente nella [lista delle 2048 parole BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Non resta che selezionare queste parole per comporre la frase di recupero per il nostro portafoglio.
 
-![mnemonic](assets/it/6.webp)
+![mnemonic](assets/notext/6.webp)
 
 Ora, passiamo alla pratica! Genereremo una frase di recupero di 12 parole. Tuttavia, questa operazione rimane identica nel caso di una frase di 24 parole, eccetto che richiederebbe 256 bit di entropia e un checksum di 8 bit, come indicato nella tabella di equivalenza situata all'inizio di questa sezione.
 
 ## Passo 1: Generazione dell'Entropia
 Prepara il tuo foglio di carta, la tua penna e i tuoi dadi. Per iniziare, dovremo generare casualmente 128 bit, ovvero una sequenza di 128 `0` e `1` di fila. Per fare ciò, useremo i dadi.
-![mnemonic](assets/it/7.webp)
+![mnemonic](assets/notext/7.webp)
 
 I dadi hanno 6 facce, tutte con una probabilità identica di essere lanciate. Tuttavia, il nostro obiettivo è produrre un risultato binario, ovvero due possibili esiti. Pertanto, assegneremo il valore `0` a ogni lancio che atterra su un numero pari, e `1` per ogni numero dispari. Di conseguenza, eseguiremo 128 lanci per creare la nostra entropia di 128 bit. Se il dado mostra `2`, `4`, o `6`, scriveremo `0`; per `1`, `3`, o `5`, sarà `1`. Ogni risultato sarà annotato sequenzialmente, da sinistra a destra e dall'alto verso il basso.
 
 Per facilitare i passaggi successivi, raggrupperemo i bit in pacchetti di quattro e tre, come mostrato nell'immagine sottostante. Ogni riga deve avere 11 bit: 2 pacchetti di 4 bit e un pacchetto di 3 bit.
 
-![mnemonic](assets/it/8.webp)
+![mnemonic](assets/notext/8.webp)
 Come potete vedere nel mio esempio, la dodicesima parola è attualmente composta da soli 7 bit. Questi saranno completati dai 4 bit del checksum nel prossimo passo per formare gli 11 bit.
 
 ## Passo 2: Calcolo del checksum
@@ -95,20 +95,20 @@ Dal desktop, cliccate sulla scheda `Applications`.
 
 Navigate al menu `Utilities`.
 E infine, clicca sull'applicazione `Terminal`.
-![mnemonic](assets/it/15.webp)
+![mnemonic](assets/notext/15.webp)
 
 Arriverai a un nuovo terminale di comando vuoto.
 
-![mnemonic](assets/it/16.webp)
+![mnemonic](assets/notext/16.webp)
 Digita il comando `echo`, seguito dalla tua entropia generata in precedenza, assicurandoti di inserire uno spazio tra `echo` e la tua sequenza di cifre binarie.
-![mnemonic](assets/it/17.webp)
+![mnemonic](assets/notext/17.webp)
 
 Aggiungi uno spazio aggiuntivo, poi inserisci il seguente comando, utilizzando un *pipe* (`|`):
 ```bash
 | shasum -a 256 -0
 ```
 
-![mnemonic](assets/it/18.webp)
+![mnemonic](assets/notext/18.webp)
 
 Nell'esempio con la mia entropia, il comando completo è il seguente:
 ```bash
@@ -125,7 +125,7 @@ In questo comando:
 
 Dopo aver attentamente controllato che la tua sequenza binaria non contenga errori di battitura, premi il tasto `Enter` per eseguire il comando. Il terminale mostrerà quindi l'hash SHA256 della tua entropia.
 
-![mnemonic](assets/it/19.webp)
+![mnemonic](assets/notext/19.webp)
 
 Per ora, l'hash è espresso in formato esadecimale (base 16). Ad esempio, il mio è:
 ```bash
@@ -157,7 +157,7 @@ Il prossimo passo è convertire questo carattere esadecimale (base 16) in un val
 
 Nel mio esempio, la lettera `a` corrisponde al numero binario `1010`. Questi 4 bit formano il checksum della nostra frase di recupero. Ora puoi aggiungerli all'entropia già annotata sul tuo foglio di carta, posizionandoli alla fine dell'ultima parola.
 
-![mnemonic](assets/it/20.webp)
+![mnemonic](assets/notext/20.webp)
 
 La tua frase mnemonica è ora completa, ma è in formato binario. Il passo successivo sarà convertirla nel sistema decimale in modo che tu possa poi associare ogni numero con una corrispondente parola nella lista BIP39.
 
@@ -181,7 +181,7 @@ Per ogni linea, sommeremo i valori corrispondenti alle cifre `1` per ottenere il
 ```
 
 La conversione sarebbe la seguente:
-![mnemonic](assets/it/21.webp)
+![mnemonic](assets/notext/21.webp)
 Il risultato sarebbe quindi:
 ```bash
 1389
@@ -189,14 +189,14 @@ Il risultato sarebbe quindi:
 
 Per ogni bit uguale a `1`, riporta il numero associato sotto. Per ogni bit uguale a `0`, non riportare nulla.
 
-![mnemonic](assets/it/22.webp)
+![mnemonic](assets/notext/22.webp)
 Poi, semplicemente somma tutti i numeri validati dai `1` per ottenere il numero decimale che rappresenta ogni linea binaria. Ecco come appare per il mio foglio:
-![mnemonic](assets/it/23.webp)
+![mnemonic](assets/notext/23.webp)
 
 ## Passo 4: Ricerca delle Parole della Frase Mnemonica
 Con i numeri decimali ottenuti, possiamo ora localizzare le parole corrispondenti nella lista per comporre la frase mnemonica. Tuttavia, la numerazione delle 2048 parole nella lista BIP39 varia da `1` a `2048`. Ma, i nostri risultati binari calcolati variano da `0` a `2047`. Pertanto, c'è uno spostamento di una unità che deve essere corretto. Per correggere questo spostamento, basta aggiungere `1` ai dodici numeri decimali precedentemente calcolati.
 
-![mnemonic](assets/it/24.webp)
+![mnemonic](assets/notext/24.webp)
 Dopo questo aggiustamento, hai il rango di ogni parola all'interno della lista. Tutto ciò che rimane è identificare ogni parola con il suo numero. Ovviamente, come per tutti gli altri passaggi, non devi usare il computer per eseguire questa conversione. Pertanto, assicurati di aver stampato la lista in anticipo.
 [**-> Stampa la lista BIP39 in formato A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
@@ -204,19 +204,19 @@ Per esempio, se il numero derivato dalla prima linea è 1721, la parola corrispo
 ```bash
 1721. strike
 ```
-![mnemonic](assets/it/25.webp)
+![mnemonic](assets/notext/25.webp)
 In questo modo, procediamo successivamente con le 12 parole per costruire la nostra frase mnemonica.
 
-![mnemonic](assets/it/26.webp)
+![mnemonic](assets/notext/26.webp)
 
 ## Passo 5: Creazione del Portafoglio Bitcoin
 A questo punto, tutto ciò che rimane è importare la nostra frase mnemonica in un software di portafoglio Bitcoin. A seconda delle nostre preferenze, ciò può essere fatto su un software desktop per ottenere un hot wallet, o su un portafoglio hardware per un cold wallet.
 
-![mnemonic](assets/it/27.webp)
+![mnemonic](assets/notext/27.webp)
 
 È solo durante l'importazione che puoi verificare la validità del tuo checksum. Se il software mostra un messaggio come `Invalid Checksum`, significa che un errore si è insinuato nel tuo processo di creazione. Generalmente, questo errore deriva o da un errore di calcolo durante le conversioni manuali e le aggiunte, o da un errore di battitura quando inserisci la tua entropia nel terminale su Tails. Sarà necessario ricominciare il processo dall'inizio per correggere questi errori.
 
-![mnemonic](assets/it/28.webp)
+![mnemonic](assets/notext/28.webp)
 Dopo aver creato il tuo portafoglio, non dimenticare di fare il backup della tua frase di recupero su un supporto fisico, come carta o metallo, e distruggere il foglio di calcolo utilizzato durante la sua generazione per prevenire qualsiasi fuga di informazioni.
 
 ## Caso Specifico dell'Opzione di Lancio dei Dadi sui Coldcards

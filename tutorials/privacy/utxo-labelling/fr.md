@@ -44,98 +44,98 @@ Enfin, il n'est pas obligatoire de mettre une date sur une étiquette. La plupar
 
 Connectez et ouvrez votre portefeuille sur Specter Desktop, puis sélectionnez ensuite l'onglet `Addresses`.
 
-![labelling](assets/fr/3.webp)
+![labelling](assets/notext/3.webp)
 
 Ici, vous verrez apparaitre la liste de toutes vos adresses, ainsi que les éventuels bitcoins bloqués sur celles-ci. Par défaut, les adresses sont identifiées par leur index sous la colonne `Label`. Pour changer une étiquette, il suffit de cliquer dessus, saisir le libellé souhaité, puis valider en cliquant sur l'icône bleue.
 
-![labelling](assets/fr/4.webp)
+![labelling](assets/notext/4.webp)
 
 Votre étiquette apparaitra ensuite dans la liste de vos adresses.
 
-![labelling](assets/fr/5.webp)
+![labelling](assets/notext/5.webp)
 
 Vous pouvez également attribuer une étiquette en amont, au moment où vous partagez votre adresse de réception à l'envoyeur. Pour cela, en accédant à l'onglet `Receive`, notez votre étiquette dans le champ dédié.
 
-![labelling](assets/fr/6.webp)
+![labelling](assets/notext/6.webp)
 
 ## Tutoriel : étiqueter sur Electrum
 
 Sur Electrum Wallet, après vous être connecté à votre portefeuille, cliquez sur la transaction à laquelle vous désirez attribuer une étiquette depuis l'onglet `Historique`.
 
-![labelling](assets/fr/7.webp)
+![labelling](assets/notext/7.webp)
 
 Une nouvelle fenêtre s'ouvre. Cliquez sur la case `Description` et tapez votre étiquette.
 
-![labelling](assets/fr/8.webp)
+![labelling](assets/notext/8.webp)
 
 Une fois l'étiquette entrée, vous pouvez fermer cette fenêtre.
 
-![labelling](assets/fr/9.webp)
+![labelling](assets/notext/9.webp)
 
 Votre étiquette a bien été enregistrée. Vous pouvez la retrouver sous l'onglet `Description`.
 
-![labelling](assets/fr/10.webp)
+![labelling](assets/notext/10.webp)
 
 Dans l'onglet `Monnaie`, depuis lequel vous pouvez faire du coin control, votre étiquette se retrouve dans la colonne `Libellé`.
 
-![labelling](assets/fr/11.webp)
+![labelling](assets/notext/11.webp)
 
 ## Tutoriel : étiqueter sur Green Wallet
 
 Dans l'application Green Wallet, accédez à votre portefeuille et sélectionnez la transaction que vous voulez étiqueter. Puis, cliquez sur la petite icône en forme de crayon pour noter votre étiquette.
 
-![labelling](assets/fr/12.webp)
+![labelling](assets/notext/12.webp)
 
 Tapez votre étiquette, puis cliquez sur le bouton vert `Sauvegarder`.
 
-![labelling](assets/fr/13.webp)
+![labelling](assets/notext/13.webp)
 
 Vous pourrez retrouver votre étiquette à la fois dans les détails de votre transaction et sur le tableau de bord de votre portefeuille.
 
-![labelling](assets/fr/14.webp)
+![labelling](assets/notext/14.webp)
 
 ## Tutoriel : étiqueter sur Samourai Wallet
 
 Dans Samourai Wallet, il existe différentes méthodes qui permettent d'attribuer une étiquette à une transaction. Pour la première, commencez par ouvrir votre portefeuille et sélectionnez la transaction à laquelle vous voulez ajouter une étiquette. Appuyez ensuite sur le bouton `Add`, situé à côté de la case `Notes`.
 
-![labelling](assets/fr/15.webp)
+![labelling](assets/notext/15.webp)
 
 Tapez votre étiquette et confirmez en cliquant sur le bouton bleu `Add`.
 
-![labelling](assets/fr/16.webp)
+![labelling](assets/notext/16.webp)
 
 Vous retrouverez votre étiquette dans les détails de votre transaction, mais également sur le tableau de bord de votre portefeuille.
 
-![labelling](assets/fr/17.webp)
+![labelling](assets/notext/17.webp)
 
 Pour la seconde méthode, cliquez sur les trois petits points en haut à droite de l'écran, puis sur le menu `Montrer les sorties de transactions non dépensées`.
 
-![labelling](assets/fr/18.webp)
+![labelling](assets/notext/18.webp)
 
 Vous y trouverez une liste exhaustive de tous les UTXO présents dans votre portefeuille. La liste affichée concerne mon compte de dépôt, cependant, cette opération peut être répliquée pour les comptes Whirlpool en naviguant depuis le menu dédié.
 
 Cliquez ensuite sur l'UTXO que vous souhaitez étiqueter, puis sur le bouton `Add`.
 
-![labelling](assets/fr/19.webp)
+![labelling](assets/notext/19.webp)
 
 Tapez votre étiquette et confirmez en cliquant sur le bouton bleu `Add`. Vous retrouverez ensuite votre étiquette à la fois dans les détails de votre transaction et sur le tableau de bord de votre portefeuille.
 
-![labelling](assets/fr/20.webp)
+![labelling](assets/notext/20.webp)
 
 ## Tutoriel : étiqueter sur Sparrow Wallet
 
 Avec le logiciel Sparrow Wallet, il est possible d'attribuer des étiquettes de multiples manières. La méthode la plus simple consiste à ajouter une étiquette en amont, lors de la communication d'une adresse de réception à l'expéditeur. Pour ce faire, dans le menu `Receive`, cliquez sur le champ `Label` et saisissez l'étiquette de votre choix. Celle-ci sera conservée et accessible dans l'ensemble du logiciel dès lors que des bitcoins seront reçus sur l'adresse.
 
-![labelling](assets/fr/21.webp)
+![labelling](assets/notext/21.webp)
 
 Si vous avez oublié d'étiqueter votre adresse lors de la réception, il est toujours possible d'en ajouter une ultérieurement via le menu `Transactions`. Il suffit de cliquer sur votre transaction au sein de la colonne `Label`, puis de saisir l'étiquette désirée.
 
-![labelling](assets/fr/22.webp)
+![labelling](assets/notext/22.webp)
 
 Vous avez également la possibilité d'ajouter ou de modifier vos étiquettes depuis le menu `Addresses`.
 
-![labelling](assets/fr/23.webp)
+![labelling](assets/notext/23.webp)
 
 Enfin, vous pouvez consulter vos étiquettes dans le menu `UTXOs`. Sparrow Wallet ajoute automatiquement entre parenthèses derrière votre étiquette la nature de l'output, ce qui permet de distinguer les UTXO issus de change de ceux reçus directement.
 
-![labelling](assets/fr/24.webp)
+![labelling](assets/notext/24.webp)

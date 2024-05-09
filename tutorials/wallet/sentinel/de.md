@@ -37,12 +37,12 @@ Die einzigartigen Nachteile von Sentinel liegen in der Tatsache, dass die Anwend
 Für diejenigen, die eine Multi-Signatur-Wallet verfolgen möchten, ist Blue Wallet die einzige Anwendung, die ich kenne, die einen Watch-Only-Modus für diese Arten von Wallets bietet, und sie ist sowohl auf Android als auch auf iOS zugänglich.
 
 Für iOS-Benutzer, die nach einer Alternative zu Sentinel suchen, könnten [Green Wallet](https://blockstream.com/green/) oder [Blue Wallet](https://bluewallet.io/watch-only/) Optionen sein, obwohl ihre Watch-Only-Funktionalität nicht so umfassend wie die von Sentinel ist.
-![watch-only](assets/de/2.webp)
+![watch-only](assets/notext/2.webp)
 ## Wie verwendet man die Sentinel Watch-Only-Wallet?
 ### Installation und Einrichtung
 Beginnen Sie mit der Installation der Sentinel-Anwendung. Dies können Sie entweder über den Google Play Store oder durch Verwendung des [auf der offiziellen Website zum Download verfügbaren APK](https://sentinel.watch/download/) tun.
 
-![watch-only](assets/de/3.webp)
+![watch-only](assets/notext/3.webp)
 
 Beim ersten Öffnen der Anwendung haben Sie die Wahl zwischen:
 - `Connect to Dojo`;
@@ -54,54 +54,54 @@ Dojo, entwickelt vom Samourai-Team, ist eine vollständige Bitcoin-Node-Version,
 
 Wenn Sie Ihr eigenes Dojo haben, können Sie es in diesem Stadium verbinden. Dadurch profitieren Sie vom höchsten Grad an Privatsphäre beim Überprüfen Ihrer Bitcoin-Netzwerktransaktionsinformationen.
 
-![watch-only](assets/de/4.webp)
+![watch-only](assets/notext/4.webp)
 
 Andernfalls ist es möglich, sich für den Standardserver von Samourai zu entscheiden. Sie können auch wählen, ob Sie sich über Tor verbinden möchten oder nicht.
 
-![watch-only](assets/de/5.webp)
+![watch-only](assets/notext/5.webp)
 
 Dann gelangen Sie zur Hauptseite von Sentinel.
 
-![watch-only](assets/de/6.webp)
+![watch-only](assets/notext/6.webp)
 
 Um zu beginnen, können Sie die Anwendung einrichten. Klicken Sie auf die drei kleinen Punkte in der oberen rechten Ecke und dann auf `Einstellungen`.
 
-![watch-only](assets/de/7.webp)
+![watch-only](assets/notext/7.webp)
 Indem Sie `Benutzer-PIN-Code` auswählen, haben Sie die Möglichkeit, ein Passwort festzulegen, um den Zugang zu Ihrer Watch-Only-Wallet zu sichern. Sie haben auch die Möglichkeit, die Referenzwährung für die Umrechnung Ihrer Guthaben in Fiatwährung zu ändern oder sogar Fiatwerte auszublenden, indem Sie die Option `Fiatwerte ausblenden` aktivieren. Für erhöhte Sicherheit können Sie `Screenshots deaktivieren` aktivieren, was jegliche Screenshots Ihrer Sentinel-Anwendung verhindert und somit jegliche Offenlegung von Informationen auf einem externen Bildschirm vermeidet.
-![watch-only](assets/de/8.webp)
+![watch-only](assets/notext/8.webp)
 
 In diesem Einstellungsmenü haben Sie auch die Möglichkeit, Ihr Sentinel zu sichern.
 
 ### Verwendung der Watch-Only-Wallet
 Von der Startseite aus drücken Sie den blauen `NEU`-Button, um einen neuen erweiterten öffentlichen Schlüssel hinzuzufügen, den Sie verfolgen möchten. Dann haben Sie die Möglichkeit, den QR-Code Ihres Schlüssels zu scannen oder den Schlüssel (`xpub`, `zpub`...) direkt einzufügen, indem Sie `Pubkey einfügen` auswählen.
 
-![watch-only](assets/de/9.webp)
+![watch-only](assets/notext/9.webp)
 
 Allgemein ist der `xpub` Ihrer Wallet direkt über die Wallet-Verwaltungssoftware, die Sie verwenden, zugänglich. Wenn Sie beispielsweise Ihre Hardware-Wallet mit Sparrow verwalten, finden Sie diese Information im Tab `Einstellungen` unter dem Abschnitt `Keystore`.
 
-![watch-only](assets/de/10.webp)
+![watch-only](assets/notext/10.webp)
 
 Nachdem Sie den erweiterten öffentlichen Schlüssel in Sentinel eingegeben haben, bietet Ihnen die Anwendung an, eine neue Sammlung zu erstellen. Eine Sammlung repräsentiert eine Gruppe von zusammen organisierten erweiterten öffentlichen Schlüsseln. Diese Option gibt Ihnen nicht nur die Möglichkeit, alle Ihre `xpubs` aufzulisten, sondern sie auch auf geordnete Weise zu klassifizieren. Wenn Sie beispielsweise eine Samourai-Wallet mit mehreren Konten (Einlage, Premix, Postmix...) haben, können Sie all diese Konten unter der Sammlung `Samourai` zusammenfassen. Für Wallets, die Sie für Ihre Familie verwalten, könnten Sie eine Sammlung mit dem Namen `Familie` erstellen.
 
 Wählen Sie `Neue Sammlung erstellen`. Geben Sie dann einen Namen für den gerade integrierten erweiterten Schlüssel ein. Wenn ich beispielsweise das Einzahlungskonto meiner Samourai-Wallet scanne, würde ich diesen Schlüssel `Einzahlung` nennen. Klicken Sie auf `SPEICHERN`, um abzuschließen.
 
-![watch-only](assets/de/11.webp)
+![watch-only](assets/notext/11.webp)
 
 Als Nächstes weisen Sie dieser Sammlung einen Namen zu und drücken das Validierungssymbol oben rechts auf dem Bildschirm, um die Sammlung zu speichern. Ihre Sammlung ist jetzt auf dem Startbildschirm von Sentinel sichtbar.
 
-![watch-only](assets/de/12.webp)
+![watch-only](assets/notext/12.webp)
 Wenn Sie einen weiteren erweiterten öffentlichen Schlüssel hinzufügen möchten, klicken Sie erneut auf `NEW` und geben Sie Ihren Schlüssel ein.
-![watch-only](assets/de/13.webp)
+![watch-only](assets/notext/13.webp)
 Anschließend werden Sie aufgefordert, die Sammlung auszuwählen, in die Sie diesen Schlüssel integrieren möchten, oder eine neue zu erstellen. In meinem Fall habe ich beispielsweise eine Sammlung speziell für mein Ledger-Wallet eingerichtet.
-![watch-only](assets/de/14.webp)
+![watch-only](assets/notext/14.webp)
 
 Um die erweiterten Schlüssel einer Sammlung im Detail zu sehen, klicken Sie einfach darauf. Sie können dann durch die verschiedenen Tabs navigieren, um die Transaktionshistorie anzusehen.
 
-![watch-only](assets/de/15.webp)
+![watch-only](assets/notext/15.webp)
 
 Von einer Sammlung aus können Sie durch Tippen auf die drei kleinen Punkte oben rechts und dann auf `View Unspent Outputs` auf eine Liste von UTXOs zugreifen, die vom verfolgten Wallet gehalten werden.
 
-![watch-only](assets/de/16.webp)
+![watch-only](assets/notext/16.webp)
 
 ### Bitcoins von Sentinel senden und empfangen
 Wie bei jedem guten Watch-Only-Wallet ermöglicht es Ihnen Sentinel, Empfangsadressen zu generieren, um Bitcoins auf dem verfolgten Wallet zu empfangen. Aber Sentinel bietet auch eine weitere fortgeschrittene Funktion: die Erstellung und Übertragung einer teilweise signierten Bitcoin-Transaktion (PSBT). So kann das Wallet, das die privaten Schlüssel hält, diese Transaktion signieren, die, einmal signiert, über das Bitcoin-Netzwerk von Sentinel übertragen werden kann. Lassen Sie uns sehen, wie all dies funktioniert.
@@ -110,15 +110,15 @@ Wie bei jedem guten Watch-Only-Wallet ermöglicht es Ihnen Sentinel, Empfangsadr
 
 Um Bitcoins über Sentinel zu empfangen, wählen Sie die Sammlung von Interesse aus und klicken Sie dann auf den Tab, der dem erweiterten öffentlichen Schlüssel entspricht, zu dem Sie Mittel übertragen möchten.
 
-![watch-only](assets/de/17.webp)
+![watch-only](assets/notext/17.webp)
 
 Klicken Sie schließlich auf das Pfeilsymbol unten links auf dem Bildschirm. Sentinel generiert dann eine leere Empfangsadresse für Sie. Sie können sie kopieren oder sie mithilfe des QR-Codes scannen.
 
-![watch-only](assets/de/18.webp)
+![watch-only](assets/notext/18.webp)
 
 Um eine PSBT von Sentinel zu generieren und somit eine Ausgabentransaktion zu initiieren, gehen Sie zum erweiterten Schlüssel des Wallets, von dem aus Sie die Zahlung vornehmen möchten. Nehmen wir zum Beispiel mein Einzahlungskonto auf meinem Samourai-Wallet. Dann klicken Sie auf das Pfeilsymbol unten rechts auf dem Bildschirm.
 
-![watch-only](assets/de/19.webp)
+![watch-only](assets/notext/19.webp)
 
 Geben Sie alle Parameter ein, die mit Ihrer Transaktion zusammenhängen:
 - Geben Sie die Adresse des Empfängers ein (durch Klicken auf das QR-Code-Symbol haben Sie die Möglichkeit, diese Adresse zu scannen);
@@ -127,25 +127,25 @@ Geben Sie alle Parameter ein, die mit Ihrer Transaktion zusammenhängen:
 
 Sobald Sie alle notwendigen Felder für Ihre Transaktion ausgefüllt haben, drücken Sie den `COMPOSE UNSIGNED TRANSACTION`-Button.
 
-![watch-only](assets/de/20.webp)
+![watch-only](assets/notext/20.webp)
 
 Sie gelangen dann zur PSBT, die eine konstruierte, aber nicht signierte Bitcoin-Transaktion darstellt, da Sentinel keinen Zugriff auf Ihre privaten Schlüssel hat. Sie haben die Möglichkeit, diese Transaktion zu kopieren, als `.psbt`-Datei zu exportieren oder sie über den animierten QR-Code zu scannen.
 
-![watch-only](assets/de/21.webp)
+![watch-only](assets/notext/21.webp)
 
 Gehen Sie dann zu Ihrem Wallet, das die privaten Schlüssel hat, um die Transaktion zu signieren (Samourai, Hardware-Wallet...).
 
-![watch-only](assets/de/22.webp)
+![watch-only](assets/notext/22.webp)
 Sobald die Transaktion signiert ist, können Sie zu Sentinel zurückkehren, um sie zu übertragen. Um dies zu tun, klicken Sie im Hauptmenü oben rechts auf die drei kleinen Punkte und dann auf `Broadcast transaction`.
-![watch-only](assets/de/23.webp)
+![watch-only](assets/notext/23.webp)
 
 Sie haben die Möglichkeit, Ihre signierte PSBT auf drei verschiedene Arten einzugeben:
 - Indem Sie sie direkt aus Ihrer Zwischenablage einfügen;
 - Indem Sie sie aus einer `.psbt` Datei importieren;
 - Indem Sie sie über einen QR-Code scannen.
 
-![watch-only](assets/de/24.webp)
+![watch-only](assets/notext/24.webp)
 
 Sobald die signierte Transaktion im grauen Rahmen eingegeben ist, können Sie auf den grünen `BROADCAST TRANSACTION` Knopf klicken, um sie im Bitcoin-Netzwerk zu übertragen. Sentinel wird Ihnen seine TXID mitteilen.
 
-![watch-only](assets/de/25.webp)
+![watch-only](assets/notext/25.webp)

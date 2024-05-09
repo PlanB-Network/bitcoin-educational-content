@@ -4,7 +4,7 @@
   address_line_2: 
   address_line_3: 
   name: B-only 2024
-  builder: bitcoin annecy
+  builder: B-only
   type: conference
   book_online: false
   book_in_person: false

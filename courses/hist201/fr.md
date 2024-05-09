@@ -147,7 +147,7 @@ Néanmoins, tout ne s'est pas passé comme prévu. À cause de son caractère t�
 
 Le développement du modèle eCash n'a cependant pas été infructueux. Il a été à la base de multiples initiatives.
 
-Au cours des années 90, d'autres solutions techniques permettant de faire des paiements sur Internet ont profité de la tendance lancée par eCash : c'était le cas de CyberCash, First Virtual ou Open Market, qui profitait des inconvénients des paiements par carte bancaire qui étaient peu pratiques, coûteux et peu sécurisés à l’époque. Des systèmes de micropaiements ont également fait leur apparition à l’instar de CyberCoin (géré par CyberCash), NetBill et MilliCent. Ces systèmes n'ont jamais réellement, pris mais ils ont ouvert la voie au développement de PayPal à partir de 1999.
+Au cours des années 90, d'autres solutions techniques permettant de faire des paiements sur Internet ont profité de la tendance lancée par eCash : c'était le cas de CyberCash, First Virtual ou Open Market, qui profitait des inconvénients des paiements par carte bancaire qui étaient peu pratiques, coûteux et peu sécurisés à l'époque. Des systèmes de micropaiements ont également fait leur apparition à l'instar de CyberCoin (géré par CyberCash), NetBill et MilliCent. Ces systèmes n'ont jamais réellement pris, mais ils ont ouvert la voie au développement de PayPal à partir de 1999.
 
 D'autres systèmes centralisés alternatifs sont également apparus en parallèle, comme e-gold et Liberty Reserve. Ces derniers géraient des monnaies numériques privées et bénéficiaient du flou juridique qui pouvait exister dans le cyberespace. Nous en parlerons dans le chapitre suivant.
 
@@ -189,9 +189,21 @@ img: pièces de Liberty Dollar ?
 
 En septembre 2006, l'*U.S. Mint* a émis un [communiqué de presse](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers), écrit conjointement avec le département de la Justice, dans lequel elle concluait que l'utilisation des pièces de NORFED violait la section 486 du titre 18 du Code des États-Unis et constituait « un crime fédéral ». Par conséquent, après une descente du FBI dans les locaux de NORFED en 2007, les violations ont été retenues contre NotHaus et ses associés, qui ont été arrêtés en 2009 et jugés en mars 2011. En 2014, Bernard von NotHaus a été condamné en appel à six mois d'assignation à résidence et à trois ans de liberté conditionnelle.
 
-### e-gold
+### e-gold : de l'or sur le Web
 
-Douglas Jackson, 1996, systèmes apparentés (Pecunix, e-Bullion, GoldMoney)
+Le système e-gold était ce qu'on appelle une « devise en or numérique » (ou *digital gold currency* en anglais), c'est-à-dire une monnaie transférée électroniquement et
+garantie intégralement par une quantité équivalente en or conservée en lieu sûr. Il a été co-fondé par Douglas Jackson et Barry Downey en 1996. Douglas Jackson était un
+cancérologue américain vivant en Floride, qui était adepte de l'économiste autrichien Friedrich von Hayek et qui souhaitait créer une « [meilleure monnaie](https://blog.bettermoney.com/) » avec e-gold.
+
+Le principe est que chaque unité d'e-gold peut être convertie en or réel. Les réserves d'or étaient administrée par une société située aux États-Unis appelée Gold & Silver Reserve Inc. (G&SR). Le système informatique était géré par une deuxième entreprise, e-gold Ltd., enregistrée à Saint-Christophe-et-Niévès dans les Caraïbes.
+
+Le système e-gold profitait du Web naissant, et en particulier du tout récent navigateur Netscape. Chaque client pouvait avoir accès à son compte depuis le site web. Pour l'époque, il était très performant, mettant à profit un système à règlement brut en temps réel inspiré du virement interbancaire.
+
+Le système e-gold a rencontré un grand succès : à son apogée en 2006, il [garantissait](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 3,6 tonnes d'or, soit plus de 80 millions de dollars, [traitait](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75 000 transactions par jour, pour un volume annualisé de 3 milliards de dollars, et gérait plus de 2,7 millions de comptes.
+
+Ce succès s'est néanmoins estompé avec l'intervention étatique. Au terme d'une enquête menée par le Secret Service, Douglas Jackson, ses deux sociétés et ses associés ont été [inculpés](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html) le 27 avril 2007 par le département de la Justice pour facilitation de blanchiment d'argent et activité de transfert d'argent sans licence. En novembre 2008, Douglas Jackson a été jugé coupable et a notamment été condamné à 3 ans de liberté surveillée, incluant 6 mois d'assignation à résidence sous surveillance électronique. Après une tentative infructueuse d'obtenir une licence, e-gold a dû fermer ses portes définitivement en novembre 2009.
+
+D'autres systèmes ont été créés sur le même modèle. Nous pouvons citer GoldMoney, fondé par James Turk et son fils en février 2001, qui s'est aujourd'hui adapté aux réglementations financières. e-Bullion, le système fondé par James Fayed en juillet 2001, a lui fermé ses portes en 2008. Enfin, l'une des dernières devises en or numérique était Pecunix, qui a été fondée au Panama par Simon Davis en 2002 et qui s'est arrêtée en 2015, dans le cadre d'une escroquerie de sortie.
 
 ### PayPal
 
@@ -200,6 +212,16 @@ Peter Thiel, Confinity Inc., 1998
 ### Liberty Reserve
 
 Arthur Budovsky, 2006
+
+## Les alternatives centralisées et Bitcoin
+
+Inconvénients des systèmes centralisés
+
+La fermeture de ces systèmes est contemporaine de la création et des débuts de Bitcoin.
+
+Dustin Trammell, eLD
+
+Satoshi, e-gold, Pecunix, Liberty Reserve
 
 ## Les systèmes décentralisés
 

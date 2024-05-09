@@ -534,23 +534,19 @@ Rappelez-vous de la première partie de cette formation : le modèle de confiden
 
 ### L’exposition à la surveillance étatique
 
-La seconde problématique liée au KYC est tout simplement qu'il rend possible le fait de savoir que vous avez eu du bitcoin pour les États. 
+La deuxième grande problématique du KYC est qu'il révèle à l'État que vous avez possédé du bitcoin à un moment donné. Lorsque vous achetez des bitcoins via un acteur régulé, il devient possible pour l'État de connaître cette possession. Actuellement, cela peut sembler anodin, mais il est important de se rappeler que l'avenir politique et économique de votre pays n'est pas entre vos mains.
 
+Tout d'abord, l'État peut rapidement adopter une posture autoritaire. L'histoire regorge d'exemples où les politiques ont changé brusquement. Aujourd'hui, en Europe, les bitcoiners peuvent écrire des articles, participer à des conférences, et gérer leurs portefeuilles en self-custody. Mais qui peut dire ce que demain réserve ? Si Bitcoin devenait soudainement l'ennemi public numéro un, être associé à celui-ci dans les dossiers de l'État pourrait s'avérer problématique.
 
+Ensuite, face à des crises économiques sévères, l'État pourrait envisager de saisir les bitcoins détenus par les citoyens. Peut-être que demain, les bitcoiners seront perçus comme des profiteurs de crise et seront taxés de manière excessive en raison de leurs gains comparés à la dévaluation des monnaies fiat.
 
+Vous pourriez penser que ce n'est pas un problème car vos bitcoins sont mixés et donc non traçables. Toutefois, le traçage n'est pas l'enjeu ici. Le véritable problème est que l'État sait que vous avez possédé du bitcoin. Cette simple information pourrait suffire pour vous incriminer ou vous demander des comptes. Vous pourriez tenter de prétendre avoir dépensé vos bitcoins, mais cela devrait se refléter dans votre déclaration fiscale, et vous vous feriez coincer. Vous pourriez également dire que vous avez perdu vos clés dans un accident de bateau, mais au-delà de la blague sur Twitter, pensez-vous réellement que cela serait suffisant pour vous disculper ?
 
+Il est donc important de prendre en compte le risque lié au simple fait que l'État puisse savoir que vous avez possédé du BTC, même si ce risque peut sembler lointain aujourd'hui.
 
+Un autre problème posé par le KYC en matière de surveillance étatique est la délation obligatoire par les plateformes régulées. Bien que je ne sois pas familier avec les règlementations dans d'autres juridictions, en France, les *Prestataires de Services sur Actifs Numériques* (PSAN) sont contraints de signaler aux autorités de surveillance financière tout mouvement de fonds qu'ils considèrent comme suspect.
 
-
-
-
-
-
-
-
-Un autre problème introduit par le KYC en lien avec la surveillance étatique est la délation par les plateformes régulées. Je ne connais pas bien les exigences dans d'autre juridictions, mais en France, les "Prestataires de Services sur Actif Numérique" (PSAN) sont tenus de dénoncer au autorités chargées de la lutte contre le blanchiment tout mouvement de fonds qu'elles jugeraient suspect. 
-SOURCES CHIFFRES 2023
-
+Ainsi, en 2023 en France, 1 449 actes suspects ont été rapportés par les PSAN. Pour l'instant, la majorité de ces actes est liée à la criminalité. Cependant, les autorités demandent également aux plateformes régulées de signaler toute transaction Bitcoin suspecte uniquement sur la base de sa structure. Si vous effectuez une transaction collaborative, ou même simplement une transaction présentant un schéma un peu atypique, et que cette transaction se produit non loin du retrait de vos bitcoins de ces plateformes, vous pourriez vous retrouver signalé aux autorités. Même en l'absence de malversation et dans l'exercice légitime de vos droits, cette délation pourrait entraîner des vérifications et une surveillance accrue, des désagréments que vous auriez évités sans le KYC.
 
 ### Le risque de fuite de données personnelles
 

@@ -1,4 +1,4 @@
-- start_date: 2024-05-11 
+  - start_date: 2024-05-11 
   end_date: 2024-05-11
   address_line_1: Brescia, Italia
   address_line_2: 
@@ -11,13 +11,13 @@
   price_dollars: 0
   description: L'unica conferenza Bitcoin-Only italiana. Entra in contatto con esperti e appassionati. 
   language: 
-    - it
+      - it
   links:
     website: https://bitcareforum.it/
     replay_url:
     live_url :
   tags: 
-    - bitcoiner
-    - General
+      - bitcoiner
+      - General
 
 

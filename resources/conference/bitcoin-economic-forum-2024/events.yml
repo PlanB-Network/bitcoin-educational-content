@@ -1,4 +1,4 @@
-- start_date: 2024-05-18 
+  - start_date: 2024-05-18 
   end_date: 2024-05-20
   address_line_1: Bretagne, France
   address_line_2: 
@@ -11,13 +11,13 @@
   price_dollars: 0
   description: The pleb organization for bitcoin cooperation
   language: 
-    - fr
+      - fr
   links:
     website: https://www.breizhbitcoin.com/
     replay_url:
     live_url :
   tags: 
-    - bitcoiner
-    - General
+      - bitcoiner
+      - General
 
 

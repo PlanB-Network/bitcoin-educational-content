@@ -1,4 +1,4 @@
-- start_date: 2024-06-28 
+  - start_date: 2024-06-28 
   end_date: 2024-06-30
   address_line_1: Germany
   address_line_2: 
@@ -11,13 +11,13 @@
   price_dollars: 0
   description: Ziel der Veranstaltung ist es die Bitcoin Adoption voranzubringen, sich mit gleichgesinnten Menschen auszutauschen und jede Menge Spaß zu haben. 
   language: 
-    - de
+      - de
   links:
     website: https://einundzwanzig-stuttg.art/
     replay_url:
     live_url :
   tags: 
-    - bitcoiner
-    - General
+      - bitcoiner
+      - General
 
 

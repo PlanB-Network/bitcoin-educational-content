@@ -50,26 +50,26 @@ Pour réaliser une transaction Cahoots à distance, notamment un PayJoin (Stowaw
 
 Pour commencer, il est nécessaire d'obtenir le code de paiement du Paynym du destinataire du Payjoin. Dans l'application Samourai Wallet, le destinataire doit appuyer sur l'icône de son Paynym (le petit robot) située en haut à gauche de l'écran, puis cliquer sur son surnom de Paynym, commençant par `+...`. Par exemple, le mien est `+namelessmode0aF`. Si votre collaborateur utilise Sparrow Wallet, je vous invite à consulter notre tutoriel dédié en cliquant ici.
 
-![connexion paynym samourai](assets/fr/2.webp)
+![connexion paynym samourai](assets/notext/2.webp)
 
 Votre collaborateur sera alors redirigé vers la page de son Paynym. De là, il pourra soit vous transmettre les identifiants de son Paynym, soit partager avec vous son code QR pour que vous puissiez le scanner. Pour cela, il doit cliquer sur la petite icône `partager` située en haut à droite de son écran.
 ![partager paynym samourai](assets/fr/1.webp)
 
 De votre côté, lancez votre application Samourai Wallet et accédez au menu `PayNyms` de la même manière. Si c'est la première utilisation de votre Paynym, vous devrez en obtenir l'identifiant. 
 
-![demander un paynym](assets/fr/3.webp)
+![demander un paynym](assets/notext/3.webp)
 
 Cliquez ensuite sur le `+` bleu en bas à droite de l'écran.
-![ajouter paynym collaborateur](assets/fr/4.webp)
+![ajouter paynym collaborateur](assets/notext/4.webp)
 Vous pouvez alors coller le code de paiement de votre collaborateur en sélectionnant `COLLER LE CODE PAIEMENT`, ou ouvrir la caméra pour scanner son code QR en appuyant sur `SCANNEZ LE CODE QR`.
-![coller identifiant paynym](assets/fr/5.webp)
+![coller identifiant paynym](assets/notext/5.webp)
 
 Cliquez sur le bouton `SUIVRE`.
-![suivre paynym](assets/fr/6.webp)
+![suivre paynym](assets/notext/6.webp)
 Validez en cliquant sur `YES`.
-![valider suivre paynym](assets/fr/7.webp)
+![valider suivre paynym](assets/notext/7.webp)
 Le logiciel vous proposera alors un bouton `SE CONNECTER`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est obligatoire uniquement si vous envisagez d'effectuer des paiements vers l'autre Paynym dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
-![connecter paynym](assets/fr/8.webp)
+![connecter paynym](assets/notext/8.webp)
 Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre destinataire vous suive également. Vous pourrez ensuite effectuer un Payjoin.
 
 

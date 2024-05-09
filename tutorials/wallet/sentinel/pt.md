@@ -37,12 +37,12 @@ Os únicos pontos negativos do Sentinel residem no fato de que a aplicação est
 Para aqueles que procuram rastrear uma carteira multi-assinatura, a Blue Wallet é a única aplicação que conheço que oferece um modo watch-only para esses tipos de carteiras, e está acessível tanto no Android quanto no iOS.
 
 Para usuários de iOS em busca de uma alternativa ao Sentinel, [Green Wallet](https://blockstream.com/green/) ou [Blue Wallet](https://bluewallet.io/watch-only/) podem ser opções, embora sua funcionalidade watch-only não seja tão abrangente quanto a do Sentinel.
-![watch-only](assets/pt/2.webp)
+![watch-only](assets/notext/2.webp)
 ## Como Usar a Carteira Watch-Only Sentinel?
 ### Instalação e Configuração
 Comece instalando o aplicativo Sentinel. Você pode fazer isso tanto pela Google Play Store quanto usando o [APK disponível para download no site oficial](https://sentinel.watch/download/).
 
-![watch-only](assets/pt/3.webp)
+![watch-only](assets/notext/3.webp)
 
 Ao abrir o aplicativo pela primeira vez, você tem a escolha entre:
 - `Conectar ao Dojo`;
@@ -54,54 +54,54 @@ Dojo, desenvolvido pela equipe Samourai, é uma versão completa de nó Bitcoin 
 
 Se você tem seu próprio Dojo, pode conectá-lo nesta etapa. Ao fazer isso, você se beneficiará do mais alto nível de privacidade ao verificar as informações de transação da rede Bitcoin.
 
-![watch-only](assets/pt/4.webp)
+![watch-only](assets/notext/4.webp)
 
 Caso contrário, é possível optar pelo servidor padrão do Samourai. Você também pode escolher se deseja conectar via Tor ou não.
 
-![watch-only](assets/pt/5.webp)
+![watch-only](assets/notext/5.webp)
 
 Você então chegará à página principal do Sentinel.
 
-![watch-only](assets/pt/6.webp)
+![watch-only](assets/notext/6.webp)
 
 Para começar, você pode configurar o aplicativo. Clique nos três pequenos pontos no canto superior direito e, em seguida, em `Configurações`.
 
-![watch-only](assets/pt/7.webp)
+![watch-only](assets/notext/7.webp)
 Ao selecionar `Código PIN do Usuário`, você tem a opção de definir uma senha para proteger o acesso à sua carteira somente de visualização. Você também tem a capacidade de alterar a moeda de referência para converter seus saldos em moeda fiduciária, ou até mesmo ocultar os valores em fiat ativando a opção `Ocultar valores em fiat`. Para maior segurança, você pode ativar `Desativar Capturas de Tela`, o que impede qualquer captura de tela do seu aplicativo Sentinel e, assim, evita qualquer divulgação de informações em uma tela externa.
-![watch-only](assets/pt/8.webp)
+![watch-only](assets/notext/8.webp)
 
 Neste menu de configurações, você também tem a opção de fazer backup do seu Sentinel.
 
 ### Usando a Carteira Somente de Visualização
 Na página inicial, pressione o botão azul `NOVO` para adicionar uma nova chave pública estendida para rastrear. Você então tem a opção de escanear o código QR da sua chave, ou colar diretamente a chave (`xpub`, `zpub`...) selecionando `Colar Pubkey`.
 
-![watch-only](assets/pt/9.webp)
+![watch-only](assets/notext/9.webp)
 
 Geralmente, o `xpub` da sua carteira é diretamente acessível através do software de gerenciamento de carteira que você usa. Por exemplo, se você gerencia sua carteira de hardware com Sparrow, essa informação é encontrada na aba `Configurações`, sob a seção `Keystore`.
 
-![watch-only](assets/pt/10.webp)
+![watch-only](assets/notext/10.webp)
 
 Após inserir a chave pública estendida no Sentinel, o aplicativo oferece a você a opção de criar uma nova coleção. Uma coleção representa um conjunto de chaves públicas estendidas organizadas juntas. Esta opção lhe dá a possibilidade não apenas de listar todos os seus `xpubs`, mas de classificá-los de maneira ordenada. Por exemplo, se você tem uma Samourai Wallet com várias contas (depósito, premix, pós-mix...), você pode reunir todas essas contas sob a coleção `Samourai`. Para carteiras gerenciadas para sua família, você pode criar uma coleção chamada `Família`.
 
 Selecione `Criar nova coleção`. Em seguida, insira um nome para a chave estendida que você acabou de integrar. Por exemplo, se eu escanear a conta de depósito da minha carteira Samourai, eu nomearia esta chave como `Depósito`. Clique em `SALVAR` para finalizar.
 
-![watch-only](assets/pt/11.webp)
+![watch-only](assets/notext/11.webp)
 
 Em seguida, atribua um nome a esta coleção e pressione o ícone de validação localizado no canto superior direito da tela para salvar a coleção. Sua coleção agora está visível na tela inicial do Sentinel.
 
-![watch-only](assets/pt/12.webp)
+![watch-only](assets/notext/12.webp)
 Se desejar adicionar outra chave pública estendida, clique em `NOVO` novamente e insira sua chave.
-![watch-only](assets/pt/13.webp)
+![watch-only](assets/notext/13.webp)
 Você será então solicitado a escolher a coleção na qual deseja integrar esta chave, ou criar uma nova. Por exemplo, no meu caso, configurei uma coleção especificamente para minha carteira Ledger.
-![watch-only](assets/pt/14.webp)
+![watch-only](assets/notext/14.webp)
 
 Para ver as chaves estendidas de uma coleção em detalhes, basta clicar nela. Você pode então navegar pelas diferentes abas para visualizar o histórico de transações.
 
-![watch-only](assets/pt/15.webp)
+![watch-only](assets/notext/15.webp)
 
 A partir de uma coleção, tocando nos três pequenos pontos no canto superior direito, e então em `Ver Saídas Não Gastas`, você pode acessar uma lista de UTXOs mantidos pela carteira rastreada.
 
-![watch-only](assets/pt/16.webp)
+![watch-only](assets/notext/16.webp)
 
 ### Enviando e Recebendo Bitcoins pelo Sentinel
 Como qualquer boa carteira somente de visualização, o Sentinel permite que você gere endereços de recebimento para receber bitcoins na carteira rastreada. Mas o Sentinel também oferece outra funcionalidade avançada: a criação e transmissão de uma transação Bitcoin parcialmente assinada (PSBT). Assim, a carteira que detém as chaves privadas pode assinar esta transação, que, uma vez assinada, pode ser transmitida na rede Bitcoin pelo Sentinel. Vamos ver como fazer tudo isso.
@@ -110,15 +110,15 @@ Como qualquer boa carteira somente de visualização, o Sentinel permite que voc
 
 Para receber bitcoins via Sentinel, selecione a coleção de interesse, e então clique na aba correspondente à chave pública estendida para a qual você deseja transferir fundos.
 
-![watch-only](assets/pt/17.webp)
+![watch-only](assets/notext/17.webp)
 
 Finalmente, clique no ícone de seta no canto inferior esquerdo da tela. O Sentinel então gera um endereço de recebimento em branco para você. Você pode copiá-lo ou escaneá-lo usando o código QR.
 
-![watch-only](assets/pt/18.webp)
+![watch-only](assets/notext/18.webp)
 
 Para gerar um PSBT pelo Sentinel, e assim iniciar uma transação de gasto, vá até a chave estendida da carteira da qual você deseja fazer o pagamento. Vamos tomar, por exemplo, minha conta de depósito na minha carteira Samourai. Então clique no ícone de seta localizado no canto inferior direito da tela.
 
-![watch-only](assets/pt/19.webp)
+![watch-only](assets/notext/19.webp)
 
 Insira todos os parâmetros relacionados à sua transação:
 - Insira o endereço do destinatário (clicando no ícone do código QR, você tem a opção de escanear este endereço);
@@ -127,25 +127,25 @@ Insira todos os parâmetros relacionados à sua transação:
 
 Uma vez que você preencheu todos os campos necessários para sua transação, pressione o botão `COMPOSE UNSIGNED TRANSACTION`.
 
-![watch-only](assets/pt/20.webp)
+![watch-only](assets/notext/20.webp)
 
 Você então acessará o PSBT, que representa uma transação Bitcoin construída mas não assinada, já que o Sentinel não tem acesso às suas chaves privadas. Você tem a opção de copiar esta transação, exportá-la como um arquivo `.psbt`, ou escaneá-la via o código QR animado.
 
-![watch-only](assets/pt/21.webp)
+![watch-only](assets/notext/21.webp)
 
 Então, vá até sua carteira que possui as chaves privadas para assinar a transação (Samourai, carteira de hardware...).
 
-![watch-only](assets/pt/22.webp)
+![watch-only](assets/notext/22.webp)
 Uma vez que a transação é assinada, você pode retornar ao Sentinel para transmiti-la. Para fazer isso, a partir do menu inicial, clique nos três pequenos pontos no canto superior direito, e então em `Broadcast transaction`.
-![watch-only](assets/pt/23.webp)
+![watch-only](assets/notext/23.webp)
 
 Você tem a opção de inserir sua PSBT assinada de três maneiras diferentes:
 - Colando diretamente da sua área de transferência;
 - Importando-a de um arquivo `.psbt`;
 - Escaneando-a via um código QR.
 
-![watch-only](assets/pt/24.webp)
+![watch-only](assets/notext/24.webp)
 
 Uma vez que a transação assinada é inserida no quadro cinza, você pode clicar no botão verde `BROADCAST TRANSACTION` para transmiti-la na rede Bitcoin. O Sentinel fornecerá seu TXID.
 
-![watch-only](assets/pt/25.webp)
+![watch-only](assets/notext/25.webp)

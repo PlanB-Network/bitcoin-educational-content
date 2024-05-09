@@ -260,7 +260,7 @@ Conversely, if one sees that the temporal pattern is rather spread over 16 speci
 Beyond the nature of the observed entity, the temporal pattern can also give us an approximate location of the user. We can thus correlate other transactions, and use the timestamp of these as an additional heuristic that can be added to our analysis.
 
 For example, on the address reused several times that I previously mentioned, one can observe that the transactions, whether incoming or outgoing, are concentrated over a 13-hour interval.
-![analysis](assets/en/12.webp)
+![analysis](assets/notext/12.webp)
 *Credit: OXT*
 
 This interval likely corresponds to Europe, Africa, or the Middle East. Therefore, it can be interpreted that the user behind these transactions lives there.

@@ -524,12 +524,14 @@ Die fünfte Information, die vom Boltzmann-Rechner bereitgestellt wird, ist die 
 
 Wenn wir unser Beispiel mit einem Whirlpool Coinjoin nehmen, sieht die Wahrscheinlichkeitstabelle wie folgt aus:
 
-| Eingang | Ausgang 0 | Ausgang 1 | Ausgang 2 | Ausgang 3 | Ausgang 4 |
-| ------- | --------- | --------- | --------- | --------- | --------- | --- | --- | --- | --- | --- | --- | --- |
-| 0       | 34%       | 34%       | 34%       | 34%       | 34%       |
-| 1       | 34%       | 34%       | 34%       | 34%       | 34%       |
-| 2       | 34%       | 34%       | 34%       | 34%       | 34%       |
-| 3       | 34%       | 34%       | 34%       | 34%       | 34%       |     | 4   | 34% | 34% | 34% | 34% | 34% |
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+|---------|----------|----------|----------|----------|----------|
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Hier sehen wir, dass jeder Input die gleiche Wahrscheinlichkeit hat, mit jedem Output verbunden zu sein.
 

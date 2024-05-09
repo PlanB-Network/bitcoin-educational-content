@@ -46,12 +46,12 @@ Pour réaliser une transaction Cahoots à distance, notamment un PayJoin (Stowaw
 **Voici la procédure pour établir cette connexion :**
 
 Tout d'abord, il vous faut obtenir l'identifiant du Paynym du destinataire. Cela peut être fait en utilisant son surnom ou son code de paiement. Pour ce faire, depuis le portefeuille Sparrow du destinataire, sélectionnez l'onglet `Tools`, puis cliquez sur `Show PayNym`.
-![Show Paynym](assets/fr/2.webp)
+![Show Paynym](assets/notext/2.webp)
 ![Paynym Sparrow](assets/fr/1.webp)
 De votre côté, ouvrez votre portefeuille Sparrow Wallet et accédez au même menu `Show PayNym`. Si vous utilisez votre Paynym pour la première fois, il vous faudra obtenir un identifiant en cliquant sur `Retrieve PayNym`.
-![Retrieve paynym](assets/fr/3.webp)
+![Retrieve paynym](assets/notext/3.webp)
 Saisissez ensuite l'identifiant du Paynym de votre collaborateur (soit son surnom `+...`, soit son code de paiement `PM...`) dans la case `Find Contact`, puis cliquez sur le bouton `Add Contact`.
-![add contact](assets/fr/4.webp)
+![add contact](assets/notext/4.webp)
 Le logiciel vous proposera alors un bouton `Link Contact`. Il n'est pas nécessaire de cliquer sur ce bouton pour notre tutoriel. Cette étape est nécessaire uniquement si vous envisagez d'effectuer des paiements vers le Paynym indiqué dans le cadre du [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), ce qui n'a rien à voir avec notre tutoriel.
 
 Une fois le Paynym du destinataire suivi par votre Paynym, refaites cette opération dans l'autre sens afin que votre destinataire vous suive également. Vous pourrez ensuite effectuer un Payjoin.

@@ -42,92 +42,92 @@ Finalmente, não é obrigatório colocar uma data em uma etiqueta. A maioria dos
 
 Conecte e abra sua carteira no Specter Desktop, em seguida, selecione a aba `Addresses`.
 
-![labelling](assets/pt/3.webp)
+![labelling](assets/notext/3.webp)
 Aqui, você verá a lista de todos os seus endereços, bem como quaisquer bitcoins que estão bloqueados neles. Por padrão, os endereços são identificados pelo seu índice sob a coluna `Label`. Para mudar uma etiqueta, basta clicar nela, inserir a etiqueta desejada e, em seguida, confirmar clicando no ícone azul.
-![labelling](assets/pt/4.webp)
+![labelling](assets/notext/4.webp)
 
 Sua etiqueta então aparecerá na lista dos seus endereços.
 
-![labelling](assets/pt/5.webp)
+![labelling](assets/notext/5.webp)
 
 Você também pode atribuir uma etiqueta antecipadamente, quando compartilhar seu endereço de recebimento com o remetente. Para fazer isso, acessando a aba `Receive`, anote sua etiqueta no campo dedicado.
 
-![labelling](assets/pt/6.webp)
+![labelling](assets/notext/6.webp)
 
 ## Tutorial: Rotulagem no Electrum
 
 No Electrum Wallet, após fazer login na sua carteira, clique na transação à qual você deseja atribuir uma etiqueta a partir da aba `History`.
 
-![labelling](assets/pt/7.webp)
+![labelling](assets/notext/7.webp)
 
 Uma nova janela se abre. Clique na caixa `Description` e digite sua etiqueta.
 
-![labelling](assets/pt/8.webp)
+![labelling](assets/notext/8.webp)
 
 Uma vez que a etiqueta é inserida, você pode fechar esta janela.
 
-![labelling](assets/pt/9.webp)
+![labelling](assets/notext/9.webp)
 
 Sua etiqueta foi salva com sucesso. Você pode encontrá-la sob a aba `Description`.
 
-![labelling](assets/pt/10.webp)
+![labelling](assets/notext/10.webp)
 
 Na aba `Coins`, da qual você pode realizar o controle de moedas, sua etiqueta é encontrada na coluna `Label`.
 
-![labelling](assets/pt/11.webp)
+![labelling](assets/notext/11.webp)
 
 ## Tutorial: Rotulagem no Green Wallet
 
 No aplicativo Green Wallet, acesse sua carteira e selecione a transação que você deseja rotular. Em seguida, clique no pequeno ícone de lápis para anotar sua etiqueta.
 
-![labelling](assets/pt/12.webp)
+![labelling](assets/notext/12.webp)
 
 Digite sua etiqueta, em seguida clique no botão verde `Save`.
 
-![labelling](assets/pt/13.webp)
+![labelling](assets/notext/13.webp)
 
 Você poderá encontrar sua etiqueta tanto nos detalhes da sua transação quanto no painel de controle da sua carteira.
 
-![labelling](assets/pt/14.webp)
+![labelling](assets/notext/14.webp)
 
 ## Tutorial: Rotulagem no Samourai Wallet
 
 No Samourai Wallet, existem diferentes métodos que permitem atribuir uma etiqueta a uma transação. Para o primeiro, comece abrindo sua carteira e selecione a transação à qual você deseja adicionar uma etiqueta. Em seguida, pressione o botão `Add`, localizado ao lado da caixa `Notes`.
 
-![labelling](assets/pt/15.webp)
+![labelling](assets/notext/15.webp)
 
 Digite sua etiqueta e confirme clicando no botão azul `Add`.
-![labelling](assets/pt/16.webp)
+![labelling](assets/notext/16.webp)
 Você encontrará sua etiqueta nos detalhes da sua transação, mas também no painel de controle da sua carteira.
 
-![labelling](assets/pt/17.webp)
+![labelling](assets/notext/17.webp)
 Para o segundo método, clique nos três pequenos pontos no canto superior direito da tela, em seguida, no menu `Show Unspent Transaction Outputs`.
-![labelling](assets/pt/18.webp)
+![labelling](assets/notext/18.webp)
 
 Aqui, você encontrará uma lista completa de todos os UTXOs presentes na sua carteira. A lista exibida pertence à minha conta de depósito, no entanto, esta operação pode ser replicada para contas Whirlpool navegando pelo menu dedicado.
 
 Em seguida, clique no UTXO que deseja etiquetar, seguido pelo botão `Add`.
 
-![labelling](assets/pt/19.webp)
+![labelling](assets/notext/19.webp)
 
 Digite sua etiqueta e confirme clicando no botão azul `Add`. Você então encontrará sua etiqueta tanto nos detalhes da sua transação quanto no painel de controle da sua carteira.
 
-![labelling](assets/pt/20.webp)
+![labelling](assets/notext/20.webp)
 
 ## Tutorial: Etiquetagem no Sparrow Wallet
 
 Com o software Sparrow Wallet, é possível atribuir etiquetas de várias maneiras. O método mais simples é adicionar uma etiqueta antecipadamente, ao comunicar um endereço de recebimento ao remetente. Para fazer isso, no menu `Receive`, clique no campo `Label` e insira a etiqueta de sua escolha. Isso será preservado e acessível em todo o software assim que os bitcoins forem recebidos no endereço.
 
-![labelling](assets/pt/21.webp)
+![labelling](assets/notext/21.webp)
 
 Se você esqueceu de etiquetar seu endereço ao recebê-lo, ainda é possível adicionar uma etiqueta posteriormente através do menu `Transactions`. Basta clicar na sua transação dentro da coluna `Label`, e então inserir a etiqueta desejada.
 
-![labelling](assets/pt/22.webp)
+![labelling](assets/notext/22.webp)
 
 Você também tem a opção de adicionar ou modificar suas etiquetas a partir do menu `Addresses`.
 
-![labelling](assets/pt/23.webp)
+![labelling](assets/notext/23.webp)
 
 Finalmente, você pode visualizar suas etiquetas no menu `UTXOs`. Sparrow Wallet adiciona automaticamente entre parênteses atrás da sua etiqueta a natureza da saída, o que ajuda a distinguir UTXOs resultantes de troco daqueles recebidos diretamente.
 
-![labelling](assets/pt/24.webp)
+![labelling](assets/notext/24.webp)

@@ -156,6 +156,7 @@ Nehmen wir wieder das Beispiel eines Whirlpool-Coinjoin, würde die Tabelle der 
 | Eingabe 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Eingabe 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
+
 Hier können wir deutlich sehen, dass jede Eingabe die gleiche Chance hat, mit jedem Ausgang assoziiert zu werden, was die Vertraulichkeit der Transaktion erhöht.
 Die Berechnung des Boltzmann-Scores erfolgt durch Division der Anzahl der Interpretationen, in denen ein bestimmtes Ereignis auftritt, durch die Gesamtzahl der verfügbaren Interpretationen. Um also den Score zu bestimmen, der Eingabe Nr. 0 mit Ausgang Nr. 3 (`512` Interpretationen) verbindet, wird folgendes Verfahren verwendet:
 ```bash
@@ -177,11 +178,14 @@ Nehmen wir das Beispiel eines Whirlpool 8x8 Coinjoin (Surge-Zyklus), würde die 
 | IN.6  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
 | IN.7  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
 
+
 Jedoch ist die Situation bei einer einfachen Transaktion mit einer einzelnen Eingabe und zwei Ausgängen anders:
 
 | %       | Ausgang 0 | Ausgang 1 |
 |---------|-----------|-----------|
 | Eingabe 0 | 100%     | 100%     |
+
+
 Hier wird beobachtet, dass die Wahrscheinlichkeit für jedes Ergebnis, von Eingabe Nr. 0 zu stammen, bei `100%` liegt. Eine niedrigere Wahrscheinlichkeit bedeutet somit eine größere Privatsphäre, indem die direkten Verbindungen zwischen Eingaben und Ausgaben verwässert werden.
 ### Deterministische Verbindungen:
 Das sechste bereitgestellte Informationsstück ist die Anzahl der deterministischen Verbindungen, ergänzt durch das Verhältnis dieser Verbindungen. Dieser Indikator offenbart, wie viele Verbindungen zwischen den Eingaben und Ausgaben in der analysierten Transaktion unbestreitbar sind, mit einer Wahrscheinlichkeit von `100%`. Das Verhältnis bietet andererseits eine Perspektive auf das Gewicht dieser deterministischen Verbindungen innerhalb der gesamten Menge an Transaktionsverbindungen.

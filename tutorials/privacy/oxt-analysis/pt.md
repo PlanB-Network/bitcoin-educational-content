@@ -244,7 +244,7 @@ De fato, alguns dias depois, descobriu-se que os fundos pertenciam ao PayPal, vi
 Por outro lado, se observarmos que o padrão temporal está mais espalhado por 16 horas específicas, então pode-se estimar que estamos lidando com um usuário individual, ou talvez um negócio local dependendo dos volumes trocados.
 
 Além da natureza da entidade observada, o padrão temporal também pode nos dar uma localização aproximada do usuário. Podemos assim correlacionar outras transações, e usar o timestamp destas como uma heurística adicional que pode ser adicionada à nossa análise.
-Por exemplo, no endereço reutilizado várias vezes que mencionei anteriormente, pode-se observar que as transações, sejam elas de entrada ou saída, estão concentradas em um intervalo de 13 horas. ![análise](assets/pt/12.webp)
+Por exemplo, no endereço reutilizado várias vezes que mencionei anteriormente, pode-se observar que as transações, sejam elas de entrada ou saída, estão concentradas em um intervalo de 13 horas. ![análise](assets/notext/12.webp)
 *Crédito: OXT*
 
 Esse intervalo provavelmente corresponde à Europa, África ou Oriente Médio. Portanto, pode-se interpretar que o usuário por trás dessas transações vive lá.

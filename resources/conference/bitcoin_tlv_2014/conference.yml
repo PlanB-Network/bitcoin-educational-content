@@ -1,12 +1,12 @@
 year: 2014
 name: Bitcoin TLV 2014
-Builder: 
+builder: 
 location: Tel Aviv, Israel
 language: 
- - he
+   - he
 links:
   website: https://bitcoin.org.il/
 tag: 
- - Bitcoiner
- - General
+   - Bitcoiner
+   - General
 

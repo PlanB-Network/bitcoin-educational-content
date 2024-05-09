@@ -1,6 +1,6 @@
 --- 
 name: Bitcoin TLV 2015
-Description: 
+description: 
   The annual conference of the Israeli Bitcoin Association, on November 25, 2015
 --- 
 

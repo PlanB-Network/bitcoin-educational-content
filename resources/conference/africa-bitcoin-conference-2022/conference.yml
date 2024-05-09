@@ -1,12 +1,12 @@
 year: 2022-12
 name: Africa Bitcoin Conference 2022
-Builder: 
+builder: 
 location: Accra, Ghana
 language: 
- - en
+   - en
 links:
   website: https://afrobitcoin.org/
 tag: 
-  - Bitcoiner
-  - General
-  - lighnting network
+    - Bitcoiner
+    - General
+    - lighnting network

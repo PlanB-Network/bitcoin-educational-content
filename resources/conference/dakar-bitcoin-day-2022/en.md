@@ -1,6 +1,6 @@
 ---
-Name: Dakar Bitcoin Day 2022
-Description: 
+name: Dakar Bitcoin Day 2022
+description: 
 An event held in Dakar, Senegal, and 100% dedicated to #bitcoin
 ---
 

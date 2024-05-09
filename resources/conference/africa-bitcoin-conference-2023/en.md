@@ -1,6 +1,6 @@
 ---
-Name: Bitcoin Africa Conference 2023 
-Description: 
+name: Bitcoin Africa Conference 2023 
+description: 
  2023 Africa Bitcoin Conference hosted at the Kempinski Gold Coast Hotel in Accra, Ghana
 ---
 

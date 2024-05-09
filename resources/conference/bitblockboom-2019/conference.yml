@@ -3,10 +3,10 @@ name: Bitblockboom 2019
 builder: Bitblockboom
 location: Dallas, USA
 language: 
-  - en
+    - en
 links:
   website: https://bitblockboom.com/
   twitter: https://twitter.com/bitblockboom
 tags: 
-  - Bitcoiner
-  - General
+    - Bitcoiner
+    - General

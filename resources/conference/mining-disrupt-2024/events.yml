@@ -1,4 +1,4 @@
-- start_date: 2024-06-24 
+  - start_date: 2024-06-24 
   end_date: 2024-06-26
   address_line_1: Miami, USA
   address_line_2: 
@@ -11,13 +11,13 @@
   price_dollars: 0
   description: Worlds Largest Bitcoin Mining Conference & Expo
   language: 
-    - en
+      - en
   links:
     website: https://miningdisrupt.com/
     replay_url:
     live_url :
   tags: 
-    - bitcoiner
-    - mining
+      - bitcoiner
+      - mining
 
 

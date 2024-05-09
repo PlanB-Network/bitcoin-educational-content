@@ -1,6 +1,6 @@
 --- 
 name: Bitcoin4India 2023
-Description: 
+description: 
   The inaugural Bitcoin4India conference witnessed 20+ speakers and 200 plus participants. It was a gala event where we learned, networked and of course, orange pilled! This year we continue to network Indian bitcoiners. Don’t miss Asia’s largest bitcoin event.
 
 --- 

@@ -1,4 +1,4 @@
-- start_date: 2024-09-27 
+  - start_date: 2024-09-27 
   end_date: 2024-09-29
   address_line_1: Madrid, Spain
   address_line_2: 
@@ -11,13 +11,13 @@
   price_dollars: 0
   description: Descubre, aprende y comparte de la mano de especialistas de diferentes disciplinas en el evento referencia sobre Bitcoin en español.
   language: 
-    - es
+      - es
   links:
     website: https://wobitcoin.org/
     replay_url:
     live_url :
   tags: 
-    - bitcoiner
-    - General
+      - bitcoiner
+      - General
 
 

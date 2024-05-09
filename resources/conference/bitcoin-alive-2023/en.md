@@ -1,6 +1,6 @@
 ---
-Name: Bitcoin Alive 2023
-Description: 
+name: Bitcoin Alive 2023
+description: 
   Bitcoin Alive brings together Australia’s Bitcoin community for a day of the highest quality Bitcoin content - featuring the best Bitcoin minds from Australia and the world. 
 ---
 

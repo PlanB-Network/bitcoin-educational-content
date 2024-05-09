@@ -1,12 +1,12 @@
 year: 2023-09
 name: Watch Out 2023
-Builder: 
+builder: 
 location: Spain
 language: 
- - es
+   - es
 links:
   website: https://wobitcoin.org/
   twitter: https://twitter.com/Wo_Bitcoin
 tag: 
-  - Bitcoiner
-  - General
+    - Bitcoiner
+    - General

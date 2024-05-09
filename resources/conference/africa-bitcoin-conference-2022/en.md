@@ -1,6 +1,6 @@
 ---
-Name: Bitcoin Africa Conference 2022  
-Description: 
+name: Bitcoin Africa Conference 2022  
+description: 
  2022 Africa Bitcoin Conference hosted at the Kempinski Gold Coast Hotel in Accra, Ghana
 ---
 

@@ -1,8 +1,8 @@
 question: Qui est remercié pour la production du cours?
-answer: "Théo"
+answer: "Théo Mogenet"
 wrong_answers:
   - Descoupes Bitcoin
-  - "Théomo Jeunet"
+  - "Théo Boloré"
   - Aucune des réponses ci-dessus
 explanation: |
   "Le chapitre mentionne que Théo est remercié pour la production du cours."

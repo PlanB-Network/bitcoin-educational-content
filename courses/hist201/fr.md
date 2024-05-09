@@ -197,7 +197,9 @@ cancérologue américain vivant en Floride, qui était adepte de l'économiste a
 
 Le principe est que chaque unité d'e-gold peut être convertie en or réel. Les réserves d'or étaient administrée par une société située aux États-Unis appelée Gold & Silver Reserve Inc. (G&SR). Le système informatique était géré par une deuxième entreprise, e-gold Ltd., enregistrée à Saint-Christophe-et-Niévès dans les Caraïbes.
 
-Le système e-gold profitait du Web naissant, et en particulier du tout récent navigateur Netscape. Chaque client pouvait avoir accès à son compte depuis le site web. Pour l'époque, il était très performant, mettant à profit un système à règlement brut en temps réel inspiré du virement interbancaire.
+Le système e-gold profitait du Web naissant, et en particulier du tout récent navigateur Netscape. Chaque client pouvait avoir accès à son compte depuis le site web. Pour l'époque, il était très performant, mettant à profit un système à règlement brut en temps réel inspiré du virement interbancaire. Voici à quoi ressemblait l'envoi d'e-gold en 2005 (image tirée d'un [tutoriel](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) de l'époque) :
+
+![Envoi sur e-gold en 2005](assets/img/ch2/2.png)
 
 Le système e-gold a rencontré un grand succès : à son apogée en 2006, il [garantissait](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 3,6 tonnes d'or, soit plus de 80 millions de dollars, [traitait](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75 000 transactions par jour, pour un volume annualisé de 3 milliards de dollars, et gérait plus de 2,7 millions de comptes.
 

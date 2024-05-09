@@ -441,7 +441,7 @@ Los portafolios se dividen en grandes familias de uso, siempre con una pregunta 
 
 ### Cómo funciona una billetera de Bitcoin
 
-Ya sea tu "banquero" de Bitcoin o tú mismo, en general, la gran mayoría de las billeteras de Bitcoin funcionan con una tecnología similar, la criptografía asimétrica, y por lo tanto, un sistema de par de claves: una clave privada para recibir y una clave pública para gastar.
+Ya sea tu "banquero" de Bitcoin o tú mismo, en general, la gran mayoría de las billeteras de Bitcoin funcionan con una tecnología similar, la criptografía asimétrica, y por lo tanto, un sistema de par de claves: una clave privada para gastar y una clave pública para recibir.
 
 - Clave privada
   Al inicializar una billetera, se genera y se te da una frase de recuperación secreta (clave privada) en forma de 24 palabras.

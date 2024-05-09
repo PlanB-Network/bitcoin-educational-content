@@ -464,7 +464,7 @@ Les portefeuilles se divisent donc en grandes familles d'utilisation, avec toujo
 
 ### Comment fonctionne un portefeuille bitcoin
 
-Que ce soit votre "banquier" Bitcoin ou vous-même, en règle générale, la grande majorité des portefeuilles Bitcoin fonctionnent avec une technologie similaire, celle de la cryptographie asymétrique, et donc un système de paire de clés : une clé privée pour recevoir et une clé publique pour dépenser.
+Que ce soit votre "banquier" Bitcoin ou vous-même, en règle générale, la grande majorité des portefeuilles Bitcoin fonctionnent avec une technologie similaire, celle de la cryptographie asymétrique, et donc un système de paire de clés : une clé privée pour dépenser et une clé publique pour recevoir.
 
 - Clé privée
   Lors de l'initialisation d'un portefeuille, une phrase de récupération secrète (clé privée) est générée et vous est donnée sous la forme de 24 mots.

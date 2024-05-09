@@ -420,7 +420,7 @@ Ein Wallet kann eine Software auf Ihrem Computer, eine App auf Ihrem Smartphone,
 
 ### Wie funktioniert eine Bitcoin-Brieftasche?
 
-Egal, ob es sich um Ihren Bitcoin-"Banker" oder um Sie selbst handelt, in der Regel funktionieren die meisten Bitcoin-Brieftaschen mit ähnlicher Technologie, nämlich asymmetrischer Kryptographie und einem Schlüsselpaar-System: ein privater Schlüssel zum Empfangen und ein öffentlicher Schlüssel zum Ausgeben.
+Egal, ob es sich um Ihren Bitcoin-"Banker" oder um Sie selbst handelt, in der Regel funktionieren die meisten Bitcoin-Brieftaschen mit ähnlicher Technologie, nämlich asymmetrischer Kryptographie und einem Schlüsselpaar-System: einen privaten Schlüssel zum Ausgeben und einen öffentlichen Schlüssel zum Empfangen.
 
 - Privater Schlüssel
   Bei der Initialisierung einer Brieftasche wird ein geheimer Wiederherstellungssatz (privater Schlüssel) generiert und Ihnen in Form von 24 Wörtern gegeben.

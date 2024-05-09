@@ -425,7 +425,7 @@ I portafogli si dividono quindi in grandi famiglie di utilizzo, con sempre come 
 
 ### Come funziona un portafoglio bitcoin
 
-Che sia il tuo "banchiere" Bitcoin o te stesso, in generale, la grande maggioranza dei portafogli Bitcoin funziona con una tecnologia simile, quella della crittografia asimmetrica, e quindi un sistema di coppia di chiavi: una chiave privata per ricevere e una chiave pubblica per spendere.
+Che sia il tuo "banchiere" Bitcoin o te stesso, in generale, la grande maggioranza dei portafogli Bitcoin funziona con una tecnologia simile, quella della crittografia asimmetrica, e quindi un sistema di coppia di chiavi: una chiave privata per spendere e una chiave pubblica per ricevere.
 
 - Chiave privata
   Durante l'inizializzazione di un portafoglio, viene generata una frase di recupero segreta (chiave privata) e ti viene data sotto forma di 24 parole.

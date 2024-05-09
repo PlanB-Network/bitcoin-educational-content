@@ -43,94 +43,94 @@ Finally, it is not mandatory to put a date on a label. Most wallet software alre
 
 Connect and open your wallet on Specter Desktop, then select the `Addresses` tab.
 
-![labelling](assets/en/3.webp)
+![labelling](assets/notext/3.webp)
 Here, you will see the list of all your addresses, as well as any bitcoins that are locked on them. By default, addresses are identified by their index under the `Label` column. To change a label, simply click on it, enter the desired label, and then confirm by clicking on the blue icon.
-![labelling](assets/en/4.webp)
+![labelling](assets/notext/4.webp)
 
 Your label will then appear in the list of your addresses.
 
-![labelling](assets/en/5.webp)
+![labelling](assets/notext/5.webp)
 
 You can also assign a label in advance, when you share your receiving address with the sender. To do this, by accessing the `Receive` tab, note your label in the dedicated field.
 
-![labelling](assets/en/6.webp)
+![labelling](assets/notext/6.webp)
 
 ## Tutorial: Labeling on Electrum
 
 On Electrum Wallet, after logging into your wallet, click on the transaction to which you want to assign a label from the `History` tab.
 
-![labelling](assets/en/7.webp)
+![labelling](assets/notext/7.webp)
 
 A new window opens. Click on the `Description` box and type your label.
 
-![labelling](assets/en/8.webp)
+![labelling](assets/notext/8.webp)
 
 Once the label is entered, you can close this window.
 
-![labelling](assets/en/9.webp)
+![labelling](assets/notext/9.webp)
 
 Your label has been successfully saved. You can find it under the `Description` tab.
 
-![labelling](assets/en/10.webp)
+![labelling](assets/notext/10.webp)
 
 In the `Coins` tab, from which you can perform coin control, your label is found in the `Label` column.
 
-![labelling](assets/en/11.webp)
+![labelling](assets/notext/11.webp)
 
 ## Tutorial: Labeling on Green Wallet
 
 In the Green Wallet app, access your wallet and select the transaction you want to label. Then, click on the small pencil icon to note your label.
 
-![labelling](assets/en/12.webp)
+![labelling](assets/notext/12.webp)
 
 Type your label, then click on the green `Save` button.
 
-![labelling](assets/en/13.webp)
+![labelling](assets/notext/13.webp)
 
 You will be able to find your label both in the details of your transaction and on the dashboard of your wallet.
 
-![labelling](assets/en/14.webp)
+![labelling](assets/notext/14.webp)
 
 ## Tutorial: Labeling on Samourai Wallet
 
 In Samourai Wallet, there are different methods that allow you to assign a label to a transaction. For the first one, start by opening your wallet and select the transaction to which you want to add a label. Then press the `Add` button, located next to the `Notes` box.
 
-![labelling](assets/en/15.webp)
+![labelling](assets/notext/15.webp)
 
 Type your label and confirm by clicking on the blue `Add` button.
 
-![labelling](assets/en/16.webp)
+![labelling](assets/notext/16.webp)
 
 You will find your label in the details of your transaction, but also on the dashboard of your wallet.
 
-![labelling](assets/en/17.webp)
+![labelling](assets/notext/17.webp)
 For the second method, click on the three small dots at the top right of the screen, then on the `Show Unspent Transaction Outputs` menu.
-![labelling](assets/en/18.webp)
+![labelling](assets/notext/18.webp)
 
 Here, you will find a comprehensive list of all the UTXOs present in your wallet. The displayed list pertains to my deposit account, however, this operation can be replicated for Whirlpool accounts by navigating from the dedicated menu.
 
 Then click on the UTXO you wish to label, followed by the `Add` button.
 
-![labelling](assets/en/19.webp)
+![labelling](assets/notext/19.webp)
 
 Type your label and confirm by clicking on the blue `Add` button. You will then find your label both in the details of your transaction and on your wallet's dashboard.
 
-![labelling](assets/en/20.webp)
+![labelling](assets/notext/20.webp)
 
 ## Tutorial: Labeling on Sparrow Wallet
 
 With Sparrow Wallet software, it is possible to assign labels in multiple ways. The simplest method is to add a label upfront, when communicating a receiving address to the sender. To do this, in the `Receive` menu, click on the `Label` field and enter the label of your choice. This will be preserved and accessible throughout the software as soon as bitcoins are received on the address.
 
-![labelling](assets/en/21.webp)
+![labelling](assets/notext/21.webp)
 
 If you forgot to label your address upon receipt, it is still possible to add one later via the `Transactions` menu. Simply click on your transaction within the `Label` column, then enter the desired label.
 
-![labelling](assets/en/22.webp)
+![labelling](assets/notext/22.webp)
 
 You also have the option to add or modify your labels from the `Addresses` menu.
 
-![labelling](assets/en/23.webp)
+![labelling](assets/notext/23.webp)
 
 Finally, you can view your labels in the `UTXOs` menu. Sparrow Wallet automatically adds in parentheses behind your label the nature of the output, which helps to distinguish UTXOs resulting from change from those received directly.
 
-![labelling](assets/en/24.webp)
+![labelling](assets/notext/24.webp)

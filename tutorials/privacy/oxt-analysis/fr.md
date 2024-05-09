@@ -276,7 +276,7 @@ Au contraire, si l’on voit que le pattern temporel est plutôt réparti sur 16
 Au-delà de la nature de l’entité observée, le pattern temporel peut également nous indiquer approximativement la localisation de l’utilisateur. On pourra ainsi rapprocher d’autres transactions, et utiliser l’horodatage de celles-ci comme une heuristique supplémentaire pouvant s’ajouter à notre analyse.
 
 Par exemple, sur l'adresse réutilisée plusieurs fois dont je vous ai préalablement parlé, on peut observer que les transactions, qu'elles soient entrantes ou sortantes, se concentrent sur un intervalle de 13 heures.
-![analysis](assets/fr/12.webp)
+![analysis](assets/notext/12.webp)
 *Crédit : OXT*
 
 Cet intervalle correspond vraisemblablement à l’Europe, à l’Afrique ou au Moyen-Orient. On peut donc interpréter que l’utilisateur derrière ces transactions habite par là.

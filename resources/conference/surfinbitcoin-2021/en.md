@@ -7,103 +7,103 @@ description: L’édition 2021 de Surfin’ Bitcoin a accueilli plus de 700 pers
 
 ## Lighting Network au El Salvador 
 
-[Live replay](://youtu.be/GDEvm6lqDJk?si=30javK1j2u5f74G9)
+![video](https://youtu.be/GDEvm6lqDJk?si=30javK1j2u5f74G9)
 
 Speaker: Nicolas Burtey
 
 ## Lightning Network : paiements illimités à bas coût
 
-[Live replay](://youtu.be/8zo-rCBkSPs?si=ILWuqpJOPQVy_mGi)
+![video](https://youtu.be/8zo-rCBkSPs?si=ILWuqpJOPQVy_mGi)
 
 Speaker: Yorick de Mombynes
 
 ## Bitcoin : unique solution à la transition énergétique ?
 
-[Live replay](://youtu.be/An3OXqdM-7Y?si=gvWJsMnIiGjYHuLd)
+![video](https://youtu.be/An3OXqdM-7Y?si=gvWJsMnIiGjYHuLd)
 
 Speaker: Sebastien Gouspillou
 
 ## L'or plus "énergivore" que Bitcoin ?! 
 
-[Live replay](://youtu.be/mduJupwcuyc?si=9mtGjhgIHinQ4pXR)
+![video](https://youtu.be/mduJupwcuyc?si=9mtGjhgIHinQ4pXR)
 
 Speaker: Pierre Noizat 
 
 ## Nocoiner : voilà pourquoi il ne faut pas douter de bitcoin !
 
-[Live replay](://youtu.be/bc_ig53LK84?si=V1DcHpkAZ4nDBYRu)
+![video](https://youtu.be/bc_ig53LK84?si=V1DcHpkAZ4nDBYRu)
 
 
 Speaker: Adli Takkal Bataille & Rogzy
 
 ## Le wallet crypto qui bientôt sécurisera + que votre patrimoine
 
-[Live replay](://youtu.be/w9Ijo4ktcbk?si=UeE36pq2e94B441f)
+![video](https://youtu.be/w9Ijo4ktcbk?si=UeE36pq2e94B441f)
 
 Speaker: Pascal Gauthier & Charles Guillemet
 
 ## Après le tsunami crypto, la vague de régulation ?
 
-[Live replay](://youtu.be/XwYxItVivMU?si=1S4qRBQUzDL8d0AA)
+![video](https://youtu.be/XwYxItVivMU?si=1S4qRBQUzDL8d0AA)
 
 Speaker: [Faustine Fleuret & William O'rorke]
 
 ## La finance de demain avec Lightning Network & Bitcoin
 
-[Live replay](://youtu.be/Yv3H_Yi9TPM?si=xI_UyzxQMZ-f_2fW)
+![video](https://youtu.be/Yv3H_Yi9TPM?si=xI_UyzxQMZ-f_2fW)
 
 Speaker: Romain Rouphaël, Bastien Teinturier et Antoine Poinsot
 
 ## La DeFi et les applications décentralisées, le vrai tournant depuis l’arrivée de Bitcoin ?
 
-[Live replay](://youtu.be/rVK0T_ZKqKg?si=2QVMXY7qqAR892E0)
+![video](https://youtu.be/rVK0T_ZKqKg?si=2QVMXY7qqAR892E0)
 
 Speaker:  Mark Zeller (intégrateur chez AAVE),  Laurent Weisan (nodl.it) et Sosthene (développeur indépendant). 
 
 ## Quand Bitcoin sauve les épargnants de la ruine
 
-[Live replay](://youtu.be/BdF2iGY2sqw?si=xmdCzahKkL1AR1dJ)
+![video](https://youtu.be/BdF2iGY2sqw?si=xmdCzahKkL1AR1dJ)
 
 Speaker: Richard Detente
 
 ## Pourquoi Bitcoin est-il le meilleur actif financier de tous les temps ?
 
-[Live replay](://youtu.be/kAYHz_YMWuM?si=pwEfpVdQo2P7XKhh)
+![video](https://youtu.be/kAYHz_YMWuM?si=pwEfpVdQo2P7XKhh)
 
 Speaker: Nicolas Chéron , Mathieu Jamar , Vincent Boy
 
 ## Bitcoin : trader ou investir, il faut choisir !
 
-[Live replay](://youtu.be/ZrAXTXpMFvs?si=71Ycjmnaobb3fk8j)
+![video](https://youtu.be/ZrAXTXpMFvs?si=71Ycjmnaobb3fk8j)
 
 Speaker: Nicolas Chéron
 
 ## Payer sans tiers de confiance ? Une réalité avec Bitcoin 
 
-[Live replay](://youtu.be/zok1Ss3Uk8o?si=V3R2rMPPA2o9lUw_)
+![video](https://youtu.be/zok1Ss3Uk8o?si=V3R2rMPPA2o9lUw_)
 
 Speaker: Nicolas Dorier
 
 ##  Bitcoin est indestructible !
 
-[Live replay](://youtu.be/r14_D2EbPqk?si=B90I4rqJBUPiEcJz)
+![video](https://youtu.be/r14_D2EbPqk?si=B90I4rqJBUPiEcJz)
 
 Speaker: Gilles Cadignan
 
 ## Bitcoin, la monnaie de référence de demain ?
 
-[Live replay](://youtu.be/DouDH1wo9Tw?si=PxSM4uKFhP587TD2)
+![video](https://youtu.be/DouDH1wo9Tw?si=PxSM4uKFhP587TD2)
 
 Speaker: Ferghane Azihari 
 
 ## Quelle crypto pourrait remplacer Bitcoin ? 
 
-[Live replay](://youtu.be/YHNvJtoP9E0?si=7c5ZokNehoMj7_cQ)
+![video](https://youtu.be/YHNvJtoP9E0?si=7c5ZokNehoMj7_cQ)
 
 Speaker: Gilles Cadignan, Marc Zeller & Thibaud Maréchal
 
 ## Bitcoin : les nouvelles fondations du XXI° siècle. Technologie, pouvoir, révolution 
 
-[Live replay](://youtu.be/734oBm8drOg?si=GteEFrbUWW0wp9Rf)
+![video](https://youtu.be/734oBm8drOg?si=GteEFrbUWW0wp9Rf)
 
 Speaker: Olivier Babeau

@@ -152,7 +152,10 @@ Prendendo di nuovo l'esempio di un coinjoin Whirlpool, la tabella delle probabil
 | ------- | -------- | -------- | -------- | -------- | -------- |
 | Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
+
 Qui, possiamo chiaramente vedere che ogni input ha la stessa probabilità di essere associato a qualsiasi output, il che aumenta la confidenzialità della transazione.
+
 Il calcolo del punteggio di Boltzmann prevede la divisione del numero di interpretazioni in cui si verifica un certo evento per il numero totale di interpretazioni disponibili. Pertanto, per determinare il punteggio che associa l'input numero 0 all'output numero 3 (`512` interpretazioni), si utilizza la seguente procedura:
 ```bash
 Interpretazioni (IN.0 > OUT.3) = 512
@@ -178,6 +181,8 @@ Tuttavia, nel caso di una semplice transazione con un singolo input e due output
 | %       | Output 0 | Output 1 |
 |---------|----------|----------|
 | Input 0 | 100%     | 100%     |
+
+
 Qui, si osserva che la probabilità che ciascun output provenga dall'input n. 0 è del `100%`. Una probabilità inferiore si traduce quindi in una maggiore privacy, diluendo i collegamenti diretti tra input e output.
 
 ### Collegamenti Deterministici:

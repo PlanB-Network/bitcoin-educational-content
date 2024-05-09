@@ -73,37 +73,37 @@ Sarai in grado di trovare la tua etichetta sia nei dettagli della tua transazion
 In Samourai Wallet, ci sono diversi metodi che ti permettono di assegnare un'etichetta a una transazione. Per il primo, inizia aprendo il tuo portafoglio e seleziona la transazione a cui vuoi aggiungere un'etichetta. Poi premi il pulsante `Add`, situato accanto alla casella `Notes`.
 
 Digita la tua etichetta e conferma cliccando sul pulsante blu `Add`.
-![etichettatura](assets/it/16.webp)
+![etichettatura](assets/notext/16.webp)
 Troverai la tua etichetta nei dettagli della tua transazione, ma anche sulla dashboard del tuo portafoglio.
 
-![etichettatura](assets/it/17.webp)
+![etichettatura](assets/notext/17.webp)
 Per il secondo metodo, clicca sui tre piccoli punti in alto a destra dello schermo, poi sul menu `Mostra Output di Transazione Non Spesi`.
-![etichettatura](assets/it/18.webp)
+![etichettatura](assets/notext/18.webp)
 
 Qui, troverai un elenco completo di tutti gli UTXO presenti nel tuo portafoglio. L'elenco visualizzato si riferisce al mio conto deposito, tuttavia, questa operazione può essere replicata per i conti Whirlpool navigando dal menu dedicato.
 
 Poi clicca sull'UTXO che desideri etichettare, seguito dal pulsante `Aggiungi`.
 
-![etichettatura](assets/it/19.webp)
+![etichettatura](assets/notext/19.webp)
 
 Digita la tua etichetta e conferma cliccando sul pulsante blu `Aggiungi`. Troverai quindi la tua etichetta sia nei dettagli della tua transazione che sulla dashboard del tuo portafoglio.
 
-![etichettatura](assets/it/20.webp)
+![etichettatura](assets/notext/20.webp)
 
 ## Tutorial: Etichettatura su Sparrow Wallet
 
 Con il software Sparrow Wallet, è possibile assegnare etichette in più modi. Il metodo più semplice è aggiungere un'etichetta in anticipo, quando si comunica un indirizzo di ricezione al mittente. Per fare ciò, nel menu `Ricevi`, clicca sul campo `Etichetta` e inserisci l'etichetta di tua scelta. Questa sarà conservata e accessibile in tutto il software non appena i bitcoin sono ricevuti sull'indirizzo.
 
-![etichettatura](assets/it/21.webp)
+![etichettatura](assets/notext/21.webp)
 
 Se hai dimenticato di etichettare il tuo indirizzo al momento della ricezione, è comunque possibile aggiungerne uno in seguito tramite il menu `Transazioni`. Semplicemente clicca sulla tua transazione all'interno della colonna `Etichetta`, poi inserisci l'etichetta desiderata.
 
-![etichettatura](assets/it/22.webp)
+![etichettatura](assets/notext/22.webp)
 
 Hai anche l'opzione di aggiungere o modificare le tue etichette dal menu `Indirizzi`.
 
-![etichettatura](assets/it/23.webp)
+![etichettatura](assets/notext/23.webp)
 
 Infine, puoi visualizzare le tue etichette nel menu `UTXO`. Sparrow Wallet aggiunge automaticamente tra parentesi dietro la tua etichetta la natura dell'output, il che aiuta a distinguere gli UTXO risultanti dal resto da quelli ricevuti direttamente.
 
-![etichettatura](assets/it/24.webp)
+![etichettatura](assets/notext/24.webp)

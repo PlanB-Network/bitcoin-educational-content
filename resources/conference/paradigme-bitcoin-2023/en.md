@@ -1,6 +1,6 @@
 ---
 name: Paradigme bitcoin
-description: Il s’agit d’un événement payant s’adressant à un public professionnel et aux Bitcoineurs.
+description: Le canton de Neuchâtel accueille depuis quelques années un écosystème florissant autour de Bitcoin. ici, Il s’agit d’un événement payant s’adressant à un public professionnel et aux Bitcoineurs.
 --- 
 
 # Main stage

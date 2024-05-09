@@ -84,12 +84,12 @@ Durante la navigazione su internet, è importante evitare alcuni errori comuni p
 
 Si consiglia di scaricare software dal sito ufficiale dell'editore anziché da siti generici.
 Esempio: Utilizzare www.signal.org/download e non www.logicieltelechargement.fr/signal.
-![](assets/it/4.webp)
+![](assets/notext/4.webp)
 
 È anche consigliabile privilegiare i software open source perché spesso sono più sicuri e privi di software dannosi. Un software "open-source", ovvero aperto o libero, è un software il cui codice è noto a tutti e accessibile a tutti. È quindi possibile verificare, tra le altre cose, che non ci siano accessi nascosti per rubare i vostri dati personali.
 
 > Bonus: i software open source sono spesso gratuiti! Questa università è al 100% open source, quindi potete anche voi verificare il nostro codice tramite il nostro GitHub.
-![](assets/it/5.webp)
+![](assets/notext/5.webp)
 
 ### Gestione dei cookie: errori e buone pratiche
 
@@ -101,7 +101,7 @@ I cookie sono file creati dai siti web per memorizzare informazioni sul vostro d
 
 Esistono due grandi famiglie di browser: quelli basati su Chrome e quelli basati su Firefox.
 Anche se entrambe le famiglie offrono un livello di sicurezza simile, si consiglia di evitare il browser Chrome di Google a causa dei suoi tracker. Possono essere preferite alternative più leggere di Chrome, come Chromium o Brave. Brave è particolarmente consigliato per il suo bloccatore di pubblicità integrato. Potrebbe essere necessario utilizzare più browser per accedere a determinati siti.
-![](assets/it/6.webp)
+![](assets/notext/6.webp)
 ### La navigazione privata, TOR e altre alternative per una navigazione più sicura e anonima
 
 La navigazione privata, anche se non nasconde la navigazione al proprio provider di servizi Internet, consente di non lasciare tracce locali sul proprio computer. I cookie vengono automaticamente eliminati alla fine di ogni sessione, consentendo di accettare tutti i cookie senza essere tracciati. La navigazione privata può essere utile durante l'acquisto di servizi online, poiché i siti web seguono le nostre abitudini di ricerca e regolano i prezzi di conseguenza. Tuttavia, è importante notare che la navigazione privata è consigliata per sessioni temporanee e specifiche, non per un utilizzo generale della navigazione su Internet.
@@ -109,7 +109,7 @@ La navigazione privata, anche se non nasconde la navigazione al proprio provider
 Un'alternativa più avanzata è la rete TOR (The Onion Router), che offre l'anonimato mascherando l'indirizzo IP dell'utente e consentendo l'accesso al Darknet. TOR Browser è un browser appositamente progettato per utilizzare la rete TOR. Consente di visitare sia siti web convenzionali che siti web in .onion, che sono generalmente gestiti da individui e possono avere una natura illegale.
 
 TOR è legale ed è utilizzato da giornalisti, attivisti per la libertà e altre persone che desiderano sfuggire alla censura in paesi autoritari. Tuttavia, è importante capire che TOR non protegge i siti visitati né il computer stesso. Inoltre, l'utilizzo di TOR può rallentare la connessione Internet poiché i dati passano attraverso i computer di altre tre persone prima di raggiungere la loro destinazione. È anche essenziale notare che TOR non è una soluzione infallibile per garantire l'anonimato al 100% e non deve essere utilizzato per condurre attività illegali.
-![](assets/it/7.webp)
+![](assets/notext/7.webp)
 ### BRAVE
 
 **_Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub_**
@@ -128,7 +128,7 @@ I VPN sono strumenti che crittografano i dati trasmessi su Internet, rendendo co
 Ci sono due tipi principali di VPN: le VPN aziendali e le VPN per il grande pubblico, come NordVPN. Le VPN aziendali tendono ad essere più costose e complesse, mentre le VPN per il grande pubblico sono generalmente più accessibili e facili da usare. NordVPN, ad esempio, consente agli utenti di connettersi a Internet passando attraverso un server situato in un altro paese, il che può consentire di aggirare le restrizioni geografiche.
 
 Tuttavia, l'uso di una VPN per il grande pubblico non garantisce un anonimato completo. Molti fornitori di VPN conservano informazioni sui propri utenti, il che potrebbe compromettere potenzialmente la loro anonimato. Sebbene le VPN possano essere utili per migliorare la sicurezza online, non sono una soluzione universale. Sono efficaci per alcuni utilizzi specifici, come l'accesso a servizi geograficamente limitati o il miglioramento della sicurezza in movimento, ma non garantiscono una sicurezza totale. Quando si sceglie una VPN, è essenziale privilegiare l'affidabilità e la tecnicalità piuttosto che la popolarità. I fornitori di VPN che raccolgono meno informazioni personali sono generalmente i più sicuri. Servizi come iVPN e Mullvad non raccolgono informazioni personali e consentono persino pagamenti in Bitcoin per una maggiore privacy.
-![](assets/it/9.webp)
+![](assets/notext/9.webp)
 Infine, una VPN può anche essere utilizzata per bloccare la pubblicità online, offrendo così un'esperienza di navigazione più piacevole e sicura. Tuttavia, è importante fare le proprie ricerche per trovare la VPN più adatta alle proprie esigenze specifiche. L'uso di una VPN è consigliato per rafforzare la sicurezza, anche quando si naviga su Internet da casa. Ciò contribuisce a garantire un livello più elevato di sicurezza per i dati scambiati online. Infine, assicurati di verificare gli URL e il lucchetto nella barra degli indirizzi per confermare di essere sul sito che pensi di visitare.
 
 ### HTTPS e le reti Wi-Fi pubbliche
@@ -158,11 +158,11 @@ La sicurezza dei nostri computer è una questione fondamentale nel mondo digital
 ### La scelta del computer e del sistema operativo
 
 Per quanto riguarda la scelta del computer, non ci sono differenze significative di sicurezza tra i computer vecchi e quelli nuovi. Tuttavia, esistono differenze di sicurezza tra i sistemi operativi: Windows, Linux e Mac.
-![](assets/it/11.webp)
+![](assets/notext/11.webp)
 Riguardo a Windows, è consigliato non utilizzare un account amministratore quotidianamente, ma piuttosto creare due account separati: un account amministratore e un account per l'uso quotidiano. Windows è spesso più esposto a software dannosi a causa del suo elevato numero di utenti e della facilità di passaggio dall'utente all'amministratore. Al contrario, le minacce sono meno numerose su Linux e Mac.
 
 La scelta del sistema operativo deve essere fatta in base alle proprie esigenze e preferenze. I sistemi Linux sono notevolmente migliorati negli ultimi anni, diventando sempre più user-friendly. Ubuntu è un'alternativa interessante per i principianti, con un'interfaccia grafica facile da usare. È possibile partizionare un computer per sperimentare con Linux mantenendo comunque Windows, ma ciò può risultare complesso. Spesso è preferibile avere un computer dedicato, una macchina virtuale o una chiavetta USB per testare Linux o Ubuntu.
-![](assets/it/12.webp)
+![](assets/notext/12.webp)
 
 ### Aggiornamento del software
 
@@ -181,7 +181,7 @@ Per darti un esempio concreto di errore: un software crackato che non può esser
 
 La scelta e l'installazione di un antivirus sono importanti. Windows Defender, l'antivirus integrato in Windows, è una soluzione sicura ed efficace. Per una soluzione gratuita è estremamente buono e molto meglio di molte soluzioni gratuite disponibili online. Infatti, è necessario fare attenzione agli antivirus scaricati da Internet, che possono essere dannosi o obsoleti.
 Per coloro che desiderano investire in un antivirus a pagamento, è consigliato scegliere un antivirus che analizzi intelligentemente le minacce sconosciute ed emergenti, come Kaspersky. Gli aggiornamenti dell'antivirus sono essenziali per proteggersi dalle nuove minacce.
-![](assets/it/13.webp)
+![](assets/notext/13.webp)
 Nota: Linux e Mac, grazie al loro sistema di separazione dei diritti degli utenti, spesso non hanno bisogno di un antivirus.
 
 Infine, ecco alcune buone pratiche per la sicurezza del tuo computer e dei tuoi dati. È importante scegliere un antivirus efficace e piacevole da utilizzare. È anche cruciale adottare buone pratiche sul proprio computer, come non inserire chiavi USB sconosciute o trovate in luoghi sospetti. Queste chiavi USB potrebbero contenere programmi dannosi che si avviano automaticamente una volta inserite. Il controllo della chiave USB non servirà a nulla una volta che sarà stata inserita. Alcune aziende sono state vittime di hacking a causa di chiavi USB lasciate in modo negligente in zone accessibili, come un parcheggio.
@@ -215,7 +215,7 @@ La regola d'oro qui è verificare attentamente il nome completo del mittente e l
 ### Ransomware e tipi di attacchi informatici:
 
 Il ransomware è un tipo di software dannoso che crittografa i dati dell'utente e richiede un riscatto per decifrarli. Questo tipo di attacco è sempre più comune e può diventare molto fastidioso per un'azienda o un individuo. Per proteggersi, è essenziale creare backup dei file più sensibili! Questo non fermerà il ransomware, ma ti permetterà semplicemente di ignorarlo.
-![](assets/it/14.webp)
+![](assets/notext/14.webp)
 Effettua regolarmente il backup dei tuoi dati importanti su un supporto esterno o un servizio di archiviazione online sicuro. In questo modo, in caso di attacco informatico o guasto hardware, potrai recuperare i tuoi dati senza perdere informazioni cruciali.
 
 Soluzione semplice:
@@ -249,7 +249,7 @@ Nonostante tutti abbiamo già una casella di posta, è importante considerare la
 ### Scelta del provider di posta e gestione degli indirizzi email
 
 La corretta gestione dei nostri indirizzi email è cruciale per garantire la sicurezza dei nostri accessi online. È importante scegliere un provider di posta sicuro e rispettoso della privacy. Ad esempio, ProtonMail è un servizio di posta sicuro e rispettoso della privacy.
-![](assets/it/15.webp)
+![](assets/notext/15.webp)
 Nella scelta di un provider di posta e nella creazione di una password, è essenziale non riutilizzare mai la stessa password per diversi servizi online. È consigliabile creare nuovi indirizzi email regolarmente e separare gli utilizzi utilizzando indirizzi email diversi. È meglio optare per un servizio di posta sicuro per gli account critici. È importante anche notare che alcuni servizi limitano la lunghezza delle password, quindi è importante fare attenzione a questa limitazione. Sono disponibili anche servizi per la creazione di indirizzi email temporanei, che possono essere utilizzati per account a durata limitata.
 
 È importante considerare che vecchi provider di posta come La Poste, Arobase, Wig, Hotmail, sono ancora utilizzati, ma le loro pratiche di sicurezza potrebbero essere meno buone rispetto a quelle di Gmail. Pertanto, è consigliabile avere due indirizzi email separati, uno per le comunicazioni generali e l'altro per il recupero dell'account, quest'ultimo deve essere meglio protetto. È meglio evitare di mescolare l'indirizzo email con il proprio operatore telefonico o provider di accesso a Internet, poiché potrebbe costituire un vettore di attacco.
@@ -257,7 +257,7 @@ Nella scelta di un provider di posta e nella creazione di una password, è essen
 ### Dovrei cambiare casella di posta?
 
 Si consiglia di utilizzare il sito Have I Been Pwned (Sei stato violato) - https://haveibeenpwned.com/ - per verificare se il nostro indirizzo email è stato compromesso e per essere avvisati di future violazioni dei dati. Un database violato potrebbe essere sfruttato da hacker per inviare email di phishing o riutilizzare password compromesse.
-![](assets/it/16.webp)
+![](assets/notext/16.webp)
 
 In generale, iniziare a utilizzare un nuovo indirizzo email più sicuro non è una pratica sbagliata e addirittura necessaria se si desidera ripartire da basi sane.
 Bonus Bitcoin: Può essere consigliabile creare un indirizzo email appositamente per le nostre attività Bitcoin (creazione di account di scambio) al fine di separare realmente i centri di attività nelle nostre vite.
@@ -279,13 +279,13 @@ Con un gestore di password, non è più necessario preoccuparsi di dimenticare l
 - LastPass: Uno dei gestori più popolari. È un servizio di terze parti, il che significa che le vostre password sono memorizzate sui loro server. Offre una versione gratuita e una versione a pagamento, con un'interfaccia user-friendly.
 
 - Dashlane: È anche un servizio di terze parti, con un'interfaccia intuitiva e funzionalità aggiuntive come il monitoraggio delle informazioni delle carte di credito e note sicure.
-![](assets/it/17.webp)
+![](assets/notext/17.webp)
 ### Auto-hosting per un maggiore controllo:
 
 - Bitwarden: È uno strumento open source, il che significa che è possibile esaminare il suo codice per verificare la sua sicurezza. Sebbene Bitwarden offra un servizio di hosting, consente anche agli utenti di auto-hosting, il che significa che è possibile controllare dove vengono memorizzate le vostre password, offrendo potenzialmente maggiore sicurezza e controllo.
 
 - KeePass: È una soluzione open source che è principalmente destinata all'auto-hosting. I vostri dati sono memorizzati localmente per impostazione predefinita, ma è possibile sincronizzare il database delle password utilizzando diversi metodi se lo si desidera. KeePass è ampiamente riconosciuto per la sua sicurezza e flessibilità, anche se potrebbe essere un po' meno user-friendly per i principianti.
-![](assets/it/18.webp)
+![](assets/notext/18.webp)
 (Nota: La scelta tra un servizio di terze parti o un servizio di auto-hosting dipende dal vostro livello di comfort tecnologico e da come priorizzate il controllo rispetto alla comodità. I servizi di terze parti sono generalmente più convenienti per la maggior parte delle persone, mentre l'auto-hosting richiede una maggiore conoscenza tecnica ma può offrire maggiore controllo e tranquillità in termini di sicurezza.)
 
 ### Cosa è una buona password:
@@ -326,7 +326,7 @@ Questo secondo passaggio può essere:
 - Un codice temporaneo inviato tramite SMS.
 - Un codice generato da un'applicazione come Google Authenticator o Authy.
 - Una chiave di sicurezza fisica che inserisci nel tuo computer.
-![](assets/it/19.webp)
+![](assets/notext/19.webp)
 Con il 2FA, anche se un hacker ottiene la tua password, non potrà accedere al tuo account senza questo secondo fattore di verifica. Questo rende il 2FA essenziale per proteggere i tuoi account online da accessi non autorizzati.
 
 ### Quale opzione scegliere?
@@ -391,7 +391,7 @@ L'evoluzione costante delle minacce richiede un costante monitoraggio delle noti
 - Governance: Standard ISO, regolamenti GDPR/CCPA.
 
 Padroneggiando queste competenze e strumenti, sarai ben attrezzato per navigare con successo nel mondo della cybersecurity.
-![](assets/it/20.webp)
+![](assets/notext/20.webp)
 ## Intervista a Renaud
 
 ### Gestione efficace delle password e rafforzamento dell'autenticazione: un approccio accademico
@@ -401,7 +401,7 @@ Nel modulo di formazione "Sicurezza 101" offerto da Découvre Bitcoin all'intern
 In generale, è sconsigliato utilizzare estensioni del browser per il riempimento automatico delle password. Questi strumenti possono rendere l'utente più vulnerabile agli attacchi di phishing. Renaud, un esperto riconosciuto in materia di sicurezza informatica, preferisce una gestione manuale tramite KeePass, che implica una copia e incolla manuale della password. Le estensioni tendono ad aumentare la superficie di attacco, possono rallentare le prestazioni del browser e quindi presentano un rischio non trascurabile. Pertanto, l'uso minimo di estensioni sul browser è una pratica consigliata.
 
 I gestori di password solitamente incoraggiano l'uso di fattori di autenticazione aggiuntivi, come l'autenticazione a due fattori. Per una sicurezza ottimale, è consigliabile conservare gli OTP (One-Time Password) sul proprio dispositivo mobile. AndoTP offre una soluzione open source per generare e memorizzare i codici OTP sul telefono. Se Google Authenticator consente l'esportazione dei seed dei codici di autenticazione, la fiducia nella loro conservazione su un account Google è limitata. Pertanto, le applicazioni OTI e AndoTP sono consigliate per una gestione autonoma degli OTP.
-![](assets/it/21.webp)
+![](assets/notext/21.webp)
 La questione dell'eredità digitale e del lutto digitale solleva l'importanza di avere una procedura per trasmettere le password dopo la morte di una persona. Un gestore di password facilita questa transizione memorizzando in modo sicuro tutti i segreti digitali in un unico luogo. Il gestore di password consente anche di identificare tutti gli account aperti e gestirne la chiusura o il trasferimento. È consigliabile annotare la password principale su carta, ma è necessario conservarla in un luogo nascosto e sicuro. Se il disco rigido è crittografato e il computer è bloccato, la password non sarà accessibile, nemmeno in caso di furto.
 
 ### Verso un'era post-password: esplorazione di alternative credibili

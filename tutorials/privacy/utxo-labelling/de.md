@@ -42,92 +42,92 @@ Schließlich ist es nicht zwingend erforderlich, ein Datum auf ein Etikett zu se
 
 Verbinden und öffnen Sie Ihre Wallet in Specter Desktop und wählen Sie dann den Tab `Adressen`.
 
-![Beschriftung](assets/de/3.webp)
+![Beschriftung](assets/notext/3.webp)
 Hier sehen Sie die Liste aller Ihrer Adressen sowie alle darauf gesperrten Bitcoins. Standardmäßig werden Adressen unter der Spalte `Label` durch ihren Index identifiziert. Um ein Label zu ändern, klicken Sie einfach darauf, geben das gewünschte Label ein und bestätigen dann durch Klicken auf das blaue Symbol.
-![Beschriftung](assets/de/4.webp)
+![Beschriftung](assets/notext/4.webp)
 
 Ihr Label wird dann in der Liste Ihrer Adressen angezeigt.
 
-![Beschriftung](assets/de/5.webp)
+![Beschriftung](assets/notext/5.webp)
 
 Sie können auch im Voraus ein Label zuweisen, wenn Sie Ihre Empfangsadresse mit dem Absender teilen. Dazu notieren Sie Ihr Label im dafür vorgesehenen Feld, indem Sie auf den Tab `Empfangen` zugreifen.
 
-![Beschriftung](assets/de/6.webp)
+![Beschriftung](assets/notext/6.webp)
 
 ## Tutorial: Beschriftung in Electrum
 
 In der Electrum Wallet klicken Sie nach dem Einloggen in Ihre Wallet auf die Transaktion, der Sie ein Label zuweisen möchten, im Tab `Verlauf`.
 
-![Beschriftung](assets/de/7.webp)
+![Beschriftung](assets/notext/7.webp)
 
 Ein neues Fenster öffnet sich. Klicken Sie auf das Feld `Beschreibung` und geben Sie Ihr Label ein.
 
-![Beschriftung](assets/de/8.webp)
+![Beschriftung](assets/notext/8.webp)
 
 Sobald das Label eingegeben ist, können Sie dieses Fenster schließen.
 
-![Beschriftung](assets/de/9.webp)
+![Beschriftung](assets/notext/9.webp)
 
 Ihr Label wurde erfolgreich gespeichert. Sie finden es unter dem Tab `Beschreibung`.
 
-![Beschriftung](assets/de/10.webp)
+![Beschriftung](assets/notext/10.webp)
 
 Im Tab `Münzen`, von dem aus Sie die Münzkontrolle durchführen können, finden Sie Ihr Label in der Spalte `Label`.
 
-![Beschriftung](assets/de/11.webp)
+![Beschriftung](assets/notext/11.webp)
 
 ## Tutorial: Beschriftung in Green Wallet
 
 In der Green Wallet-App greifen Sie auf Ihre Wallet zu und wählen die Transaktion aus, die Sie beschriften möchten. Klicken Sie dann auf das kleine Stiftsymbol, um Ihr Label zu notieren.
 
-![Beschriftung](assets/de/12.webp)
+![Beschriftung](assets/notext/12.webp)
 
 Geben Sie Ihr Label ein und klicken Sie auf den grünen `Speichern`-Button.
 
-![Beschriftung](assets/de/13.webp)
+![Beschriftung](assets/notext/13.webp)
 
 Sie werden Ihr Label sowohl in den Details Ihrer Transaktion als auch auf dem Dashboard Ihrer Wallet finden können.
 
-![Beschriftung](assets/de/14.webp)
+![Beschriftung](assets/notext/14.webp)
 
 ## Tutorial: Beschriftung in Samourai Wallet
 
 In der Samourai Wallet gibt es verschiedene Methoden, um einer Transaktion ein Label zuzuweisen. Für die erste Methode öffnen Sie Ihre Wallet und wählen die Transaktion aus, der Sie ein Label hinzufügen möchten. Drücken Sie dann den `Hinzufügen`-Button, der sich neben dem Feld `Notizen` befindet.
 
-![Beschriftung](assets/de/15.webp)
+![Beschriftung](assets/notext/15.webp)
 
 Geben Sie Ihr Label ein und bestätigen Sie durch Klicken auf den blauen `Hinzufügen`-Button.
-![Beschriftung](assets/de/16.webp)
+![Beschriftung](assets/notext/16.webp)
 Ihr Label finden Sie in den Details Ihrer Transaktion, aber auch auf dem Dashboard Ihrer Wallet.
 
-![Beschriftung](assets/de/17.webp)
+![Beschriftung](assets/notext/17.webp)
 Für die zweite Methode klicken Sie auf die drei kleinen Punkte oben rechts auf dem Bildschirm und dann auf das Menü `Show Unspent Transaction Outputs`.
-![Beschriftung](assets/de/18.webp)
+![Beschriftung](assets/notext/18.webp)
 
 Hier finden Sie eine umfassende Liste aller UTXOs in Ihrer Wallet. Die angezeigte Liste bezieht sich auf mein Einzahlungskonto, jedoch kann diese Operation für Whirlpool-Konten durch Navigation aus dem dedizierten Menü repliziert werden.
 
 Klicken Sie dann auf das UTXO, das Sie beschriften möchten, gefolgt vom `Add`-Button.
 
-![Beschriftung](assets/de/19.webp)
+![Beschriftung](assets/notext/19.webp)
 
 Geben Sie Ihr Label ein und bestätigen Sie durch Klicken auf den blauen `Add`-Button. Danach finden Sie Ihr Label sowohl in den Details Ihrer Transaktion als auch auf dem Dashboard Ihrer Wallet.
 
-![Beschriftung](assets/de/20.webp)
+![Beschriftung](assets/notext/20.webp)
 
 ## Tutorial: Beschriftung im Sparrow Wallet
 
 Mit der Sparrow Wallet-Software ist es möglich, Labels auf mehrere Arten zuzuweisen. Die einfachste Methode besteht darin, ein Label im Voraus hinzuzufügen, wenn man eine Empfangsadresse an den Sender kommuniziert. Dazu klicken Sie im Menü `Receive` auf das Feld `Label` und geben das gewünschte Label ein. Dies wird bewahrt und ist im gesamten Programm zugänglich, sobald Bitcoins auf der Adresse empfangen werden.
 
-![Beschriftung](assets/de/21.webp)
+![Beschriftung](assets/notext/21.webp)
 
 Wenn Sie vergessen haben, Ihre Adresse bei Erhalt zu beschriften, ist es immer noch möglich, später ein Label hinzuzufügen, über das Menü `Transactions`. Klicken Sie einfach auf Ihre Transaktion in der Spalte `Label` und geben Sie das gewünschte Label ein.
 
-![Beschriftung](assets/de/22.webp)
+![Beschriftung](assets/notext/22.webp)
 
 Sie haben auch die Möglichkeit, Ihre Labels über das Menü `Addresses` hinzuzufügen oder zu ändern.
 
-![Beschriftung](assets/de/23.webp)
+![Beschriftung](assets/notext/23.webp)
 
 Schließlich können Sie Ihre Labels im Menü `UTXOs` einsehen. Sparrow Wallet fügt automatisch in Klammern hinter Ihrem Label die Art des Outputs hinzu, was hilft, UTXOs, die aus Wechselgeld resultieren, von denen zu unterscheiden, die direkt empfangen wurden.
 
-![Beschriftung](assets/de/24.webp)
+![Beschriftung](assets/notext/24.webp)

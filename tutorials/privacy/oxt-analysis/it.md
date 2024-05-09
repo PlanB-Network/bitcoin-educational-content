@@ -245,7 +245,7 @@ Infatti, pochi giorni dopo, è stato scoperto che i fondi appartenevano a PayPal
 Al contrario, se si vede che il modello temporale è piuttosto distribuito su 16 ore specifiche, allora si può stimare che stiamo trattando con un utente individuale, o forse un'attività locale a seconda dei volumi scambiati.
 
 Oltre alla natura dell'entità osservata, il modello temporale può anche darci una posizione approssimativa dell'utente. Possiamo così correlare altre transazioni, e usare il timestamp di queste come un'euristica aggiuntiva che può essere aggiunta alla nostra analisi.
-Ad esempio, riguardo all'indirizzo riutilizzato più volte che ho precedentemente menzionato, si può osservare che le transazioni, sia in entrata che in uscita, sono concentrate in un intervallo di 13 ore. ![analisi](assets/it/12.webp)
+Ad esempio, riguardo all'indirizzo riutilizzato più volte che ho precedentemente menzionato, si può osservare che le transazioni, sia in entrata che in uscita, sono concentrate in un intervallo di 13 ore. ![analisi](assets/notext/12.webp)
 *Credit: OXT*
 
 Questo intervallo corrisponde probabilmente all'Europa, all'Africa o al Medio Oriente. Pertanto, si può interpretare che l'utente dietro queste transazioni viva lì.

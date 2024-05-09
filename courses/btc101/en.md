@@ -295,7 +295,7 @@ Resolving a hyperinflation crisis often requires radical changes, such as revolu
 
   Hungary found itself on the losing side of the conflict and the war had destroyed most of its industrial production capacity. The month with the highest inflation was July 1946, with a price inflation of 41,900,000,000,000,000%, equivalent to 207% per day. Prices doubled every 15 hours!
 
-  The last banknote to be put into circulation was a 100 million billion pengo (100,000,000,000,000,000,000) banknote in 1946.
+  The last banknote to be put into circulation was a 100 million billion pengo (100,000,000,000,000,000) banknote in 1946.
 
 ![image](assets/en/chapter3/6.webp)
 
@@ -368,7 +368,7 @@ Bitcoin's scarcity is guaranteed by two key mechanisms: the adjustment of mining
 
 ![image](assets/en/chapter4/2.webp)
 
-> Did you know? Miners are incentivized to mine a block to earn the new bitcoins and transaction fees associated with the transactions they include in their block. As the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block reward.'
+> Did you know? Miners are incentivized to mine a block to earn the new bitcoins (block subsidy) and transaction fees associated with the transactions they include in their block. As the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block subsidy.'
 
 - Game theory is a mathematical concept that relies on human rationality. Here, in Bitcoin, it is the users who vote for protocol changes. Yes, you read that right: any modification to the Bitcoin protocol would require the agreement of the entire community of users, which is highly complex. So, if someone wanted to create a 22nd million bitcoin, they would have to convince all users to voluntarily devalue their own savings, which is unlikely to happen because Bitcoin is global and not governed by a central group.
 
@@ -409,7 +409,7 @@ In summary, Bitcoin, with its decentralized nature, programmed scarcity, and tra
 
 ## What are Bitcoin wallets?
 
-In this section 2, we will explore the storage and security of Bitcoins within wallets. This will allow you to better understand where these famous Bitcoins are located and how to interact with them!
+In this section 2, we will explore the storage and security of Bitcoins within wallets. This will allow you to better understand where these famous bitcoins are located and how to interact with them!
 
 ### Demystifying Bitcoin wallets
 
@@ -427,12 +427,12 @@ Portfolios are therefore divided into large families of use, always with a centr
 
 ### How does a Bitcoin wallet work
 
-Whether it's your Bitcoin "banker" or yourself, in general, the vast majority of Bitcoin wallets work with similar technology, that of asymmetric cryptography, and therefore a system of key pairs: a private key to receive and a public key to spend.
+Whether it's your Bitcoin "banker" or yourself, in general, the vast majority of Bitcoin wallets work with similar technology, that of asymmetric cryptography, and therefore a system of key pairs: a private key to spend and a public key to receive.
 
 - Private key
   When initializing a wallet, a secret recovery phrase (private key) is generated and given to you in the form of 24 words.
 
-  The private key is very important because it represents ownership of the Bitcoins and therefore the right to use or send them. The holder of the private key is the owner of the Bitcoins.
+  The private key is very important because it represents ownership of the bitcoins and therefore the right to use or send them. The holder of the private key is the owner of the Bitcoins.
 
   This key must be kept secret and well preserved, as it is the key that unlocks your fortune!
 
@@ -447,7 +447,7 @@ It is therefore important to understand that thanks to this technology, we can e
 
 ### Are the Bitcoins in the wallet then?
 
-Although your keys are stored in your wallet, the bitcoins themselves are actually "stored" in the Bitcoin blockchain, which is a public distributed ledger within the Bitcoin peer-to-peer network (we will look at this in section 3). That is why losing the device on which you have your wallet does not necessarily mean the loss of your Bitcoins. What allows you to recreate your wallet and spend your bitcoin is the private key. It is therefore crucial to secure it properly.
+Although your keys are stored in your wallet, the bitcoins themselves are actually "stored" in the Bitcoin blockchain, which is a public distributed ledger within the Bitcoin peer-to-peer network (we will look at this in section 3). That is why losing the device on which you have your wallet does not necessarily mean the loss of your bitcoins. What allows you to recreate your wallet and spend your bitcoin is the private key. It is therefore crucial to secure it properly.
 
 ![image](assets/en/chapter5/1.webp)
 
@@ -510,7 +510,7 @@ Of course, we can have multiple use cases, and in such cases, it is recommended 
 
 The amount one is willing to leave on a specific security level depends on each individual. For some, leaving 1 BTC on a hot wallet is reasonable, while for others, it is absolutely not. In any case, avoid spending a lot on security by buying a physical wallet when you want to secure a small amount. Also, keep in mind that overcomplicating the security and accessibility of your bitcoins can harm you if, for example, you mishandle the backups of your wallets.
 
-In conclusion, direct ownership of one's Bitcoins is an essential element to ensure financial sovereignty. It is recommended to use a mobile wallet for daily expenses and an offline, or "cold," physical wallet to store larger amounts. Businesses, on the other hand, should consider using multi-signature systems, or "multisig," for increased and shared security. It is also essential to avoid custodial services, which can replicate some vulnerabilities of the traditional financial system as much as possible.
+In conclusion, direct ownership of one's bitcoins is an essential element to ensure financial sovereignty. It is recommended to use a mobile wallet for daily expenses and an offline, or "cold," physical wallet to store larger amounts. Businesses, on the other hand, should consider using multi-signature systems, or "multisig," for increased and shared security. It is also essential to avoid custodial services, which can replicate some vulnerabilities of the traditional financial system as much as possible.
 
 Now that we have this in mind, let's move on to the next section to see the steps to create a Bitcoin wallet. However, if you wish to further explore the topic of security, you can read this [article by DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
@@ -520,7 +520,7 @@ Now that we have this in mind, let's move on to the next section to see the step
 
 ## Setting up a wallet
 
-The security of your Bitcoins is of crucial importance, and a simple mistake can have costly consequences. That's why we will now look at the best practices when creating a new Bitcoin wallet.
+The security of your bitcoins is of crucial importance, and a simple mistake can have costly consequences. That's why we will now look at the best practices when creating a new Bitcoin wallet.
 
 > Note that the BTC102 course will guide you through this step.
 
@@ -662,11 +662,11 @@ Now that we have some background, let's take a look at how a Bitcoin transaction
 
 ## Bitcoin transactions
 
-A Bitcoin transaction is simply a transfer of ownership of Bitcoins, using a Bitcoin address. Let's take, for example, two protagonists: Alice and Bob. Alice wishes to acquire Bitcoins, while Bob already owns some.
+A Bitcoin transaction is simply a transfer of ownership of bitcoins, using a Bitcoin address. Let's take, for example, two protagonists: Alice and Bob. Alice wishes to acquire bitcoins, while Bob already owns some.
 
 ### Step 1 - Creating the transaction via the wallet
 
-For Bob to transfer Bitcoins to Alice, Alice must provide Bob with one of her Bitcoin addresses. This address, derived from Alice's public key, is unique to her Bitcoin wallet.
+For Bob to transfer bitcoins to Alice, Alice must provide Bob with one of her Bitcoin addresses. This address, derived from Alice's public key, is unique to her Bitcoin wallet.
 
 In concrete terms, Alice opens her wallet and presses "receive". A QR code or address like this bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr will be displayed. It's her "Bitcoin IBAN" of sorts. She provides it to Bob.
 
@@ -674,9 +674,9 @@ Bob then initiates the transaction using Alice's reception address. Bob in turn 
 
 ![image](assets/en/chapter10/1.webp)
 
-> **Why pay fees?** These fees are essential to create a free market for including transactions in blocks, as the number of transactions in a block is limited. In fact, a block has a size of 1 MB, which corresponds to a few thousand transactions per block. The fees of a transaction are proportional to its size. The size of the transaction, in turn, depends on the complexity of the transaction.
+> **Why pay fees?** These fees are essential to create a free market for including transactions in blocks, as the number of transactions in a block is limited. In fact, a block has a size of 1 MB (can expand to 4MB after Segwit update), which corresponds to a few thousand transactions per block. The fees of a transaction are proportional to its size. The size of the transaction, in turn, depends on the complexity of the transaction.
 
-To finalize the transaction, Bob must provide a signature with the private key of the addresses he uses to pay Alice. This verifies that he is the owner of the Bitcoins he wants to transfer. This step is usually done automatically on mobile wallets, or it is a confirmation on your physical wallet: "Are you sure you want to send X to Y? Yes or no".
+To finalize the transaction, Bob must provide a signature with the private key of the addresses he uses to pay Alice. This verifies that he is the owner of the bitcoins he wants to transfer. This step is usually done automatically on mobile wallets, or it is a confirmation on your physical wallet: "Are you sure you want to send X to Y? Yes or no".
 
 ### Step 2: Propagation of the transaction through nodes to miners
 
@@ -812,9 +812,9 @@ The coinbase transaction is always the first one; it includes the reward receive
 
 ### Miners' compensation
 
-Initially, a miner is compensated when they find a valid block. More precisely, they are compensated in two ways: (i) through the reward included in the block and (ii) through transaction fees in the transactions included in the block. The amount of the reward is defined by the consensus rules and depends on the Epoch we are in.
+Initially, a miner is compensated when they find a valid block. More precisely, they are compensated in two ways: (i) through the subsidy (newly minted bitcoins) included in the block and (ii) through transaction fees in the transactions included in the block. The amount of the subsidy is defined by the consensus rules and depends on the Epoch we are in. Block reward = Block subsidy + transaction fees.
 
-Indeed, for the first blocks, the reward was 50 bitcoins, then every 210,000 blocks (approximately every 4 years), it is halved. Today (in 2023), we are in the 4th Epoch; therefore, the reward is 6.25 bitcoins. This reward is the mechanism for creating new bitcoins in Bitcoin. As the reward decreases over time, it means that there is a limit of 21 million bitcoins - currently, there are already over 19.4 million bitcoins in circulation, which is over 92%.
+Indeed, for the first blocks, the block subsidy was 50 bitcoins, then every 210,000 blocks (approximately every 4 years), it is halved. Today (in 2023), we are in the 4th Epoch; therefore, the subsidy is 6.25 bitcoins. This subsidy is the mechanism for creating new bitcoins in Bitcoin. As the subsidy decreases over time, it means that there is a limit of 21 million bitcoins - currently, there are already over 19.4 million bitcoins in circulation, which is over 92%.
 
 ![image](assets/en/chapter12/18.webp)
 
@@ -938,17 +938,17 @@ Then again in 2020, the market experienced another speculative bubble that drove
 
 Based on past cycles, it seems that the periodicity of Bitcoin's economic cycles is equivalent to the duration between two halvings. Perhaps because the halving event acts as a trigger by halving the emission of new bitcoins.
 
-These significant fluctuations have created a reputation for Bitcoin as an extremely dangerous asset that causes its users to lose money. Although the price can drop by 10-20 or even 50% in a few days, it is important to understand that Bitcoin, the protocol, is not affected by price changes.
+These significant fluctuations have created a reputation for bitcoin as an extremely dangerous asset that causes its users to lose money. Although the price can drop by 10-20 or even 50% in a few days, it is important to understand that Bitcoin, the protocol, is not affected by price changes.
 
-This significant volatility is fully accepted today by Bitcoin actors and can be mitigated by several solutions such as financial hedges (stablecoins), a strong long-term belief (hodling), or simply not putting 100% of one's money into Bitcoin without understanding anything. Understanding why the price of Bitcoin fluctuates so much is therefore essential to be able to progress in this industry because ultimately, it is the price and cycles that temper and regulate our market to some extent. However, we can note that as Bitcoin grows and matures, volatility becomes less significant.
+This significant volatility is fully accepted today by Bitcoin actors and can be mitigated by several solutions such as financial hedges (stablecoins), a strong long-term belief (hodling), or simply not putting 100% of one's money into Bitcoin without understanding anything. Understanding why the price of bitcoin fluctuates so much is therefore essential to be able to progress in this industry because ultimately, it is the price and cycles that temper and regulate our market to some extent. However, we can note that as Bitcoin grows and matures, volatility becomes less significant.
 
 ![image](assets/en/chapter14/5.webp)
 
-Although the btc/dollar pair fluctuates in the short term, Bitcoin, due to its limited quantity of 21 million bitcoins and its halving process (halving the monetary creation every 4 years on average), follows a general upward trend in a quasi-mechanical manner. Of course, like any financial asset, Bitcoin is subject to economic cycles including periods of euphoria, speculative bubbles, and corrections. This phenomenon is quite common in emerging technologies, where the market is not always rational or efficient.
+Although the btc/dollar pair fluctuates in the short term, bitcoin, due to its limited quantity of 21 million bitcoins and its halving process (halving the monetary creation every 4 years on average), follows a general upward trend in a quasi-mechanical manner. Of course, like any financial asset, bitcoin is subject to economic cycles including periods of euphoria, speculative bubbles, and corrections. This phenomenon is quite common in emerging technologies, where the market is not always rational or efficient.
 
 ### A unique market
 
-These cycles of speculative bubbles are quite unique in the world, as it is very rare for the same asset to experience so many bubbles one after another. This can be explained simply because Bitcoin is not a bubble that will disappear but a currency that is actually used everywhere in the world. The Bitcoin protocol is unique in that it operates on a global scale, 24 hours a day, 7 days a week, making regulation difficult for financial authorities.
+These cycles of speculative bubbles are quite unique in the world, as it is very rare for the same asset to experience so many bubbles one after another. This can be explained simply because bitcoin is not a bubble that will disappear but a currency that is actually used everywhere in the world. The Bitcoin protocol is unique in that it operates on a global scale, 24 hours a day, 7 days a week, making regulation difficult for financial authorities.
 
 ![image](assets/en/chapter14/4.webp)
 
@@ -964,13 +964,13 @@ Today, in 2023, Bitcoin continues to survive and grow even more by integrating i
 
 ### A parallel economy is developing
 
-Bitcoin can be seen as a parallel economy to fiat currencies. This means that it is possible to sell goods or services and be paid in Bitcoin. Transactions can be made directly in Bitcoin, without the need to go through an exchange platform, simply from Bitcoin wallet to Bitcoin wallet.
+Bitcoin can be seen as a parallel economy to fiat currencies. This means that it is possible to sell goods or services and be paid in bitcoin. Transactions can be made directly in bitcoin, without the need to go through an exchange platform, simply from Bitcoin wallet to Bitcoin wallet.
 
-The Bitcoin economy exists and is developing in certain regions of the world, such as El Salvador where Bitcoin has been legal tender since 2021. Furthermore, some individuals, businesses, and organizations already accept Bitcoin as a means of payment for their products or services.
+The Bitcoin economy exists and is developing in certain regions of the world, such as El Salvador where bitcoin has been legal tender since 2021. Furthermore, some individuals, businesses, and organizations already accept Bitcoin as a means of payment for their products or services.
 
 ![image](assets/en/chapter16/6.webp)
 
-In addition, to facilitate the use of Bitcoin in everyday transactions, an open-source and collaborative project has been launched: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). This platform lists all the merchants that accept Bitcoin as well as the different Bitcoin communities around the world. You can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
+In addition, to facilitate the use of bitcoin in everyday transactions, an open-source and collaborative project has been launched: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). This platform lists all the merchants that accept bitcoin as well as the different Bitcoin communities around the world. You can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
 
 ### Why accept Bitcoin instead of buying it?
 
@@ -998,7 +998,7 @@ We will cover this topic in detail in another training, but to keep it simple, w
 
 ### Warning before getting started!
 
-Bitcoin has become a major financial asset, mainly due to its limited supply and increasing demand. However, buying Bitcoin carries risks that require special attention. It is therefore recommended to conduct your own research and learn more about the subject to become familiar with the technology before investing.
+Bitcoin has become a major financial asset, mainly due to its limited supply and increasing demand. However, buying bitcoin carries risks that require special attention. It is therefore recommended to conduct your own research and learn more about the subject to become familiar with the technology before investing.
 
 - Only invest what you can afford to lose.
 - Bitcoin is a highly volatile financial asset; its price can drop to 0.
@@ -1009,7 +1009,7 @@ Bitcoin has become a major financial asset, mainly due to its limited supply and
 
 ### Mini Checklist before taking the plunge
 
-Before diving into buying Bitcoin, make sure you have:
+Before diving into buying bitcoin, make sure you have:
 
 - A secure wallet.
 - A solid understanding of Bitcoin.
@@ -1027,7 +1027,7 @@ In concrete terms, there are two questions to ask yourself:
 
 - Dollar Cost Average
 
-Recurring purchases involve buying small amounts of Bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of Bitcoin owned. It is an ideal solution for long-term savings without worrying about the price and volatility of Bitcoin. Set it up and forget about it.
+Recurring purchases involve buying small amounts of bitcoin at regular intervals. This method smooths out the price over time and provides continuous growth in the amount of bitcoin owned. It is an ideal solution for long-term savings without worrying about the price and volatility of bitcoin. Set it up and forget about it.
 
 ![image](assets/en/chapter15/2.webp)
 
@@ -1035,17 +1035,17 @@ Recurring purchases involve buying small amounts of Bitcoin at regular intervals
 
 - Spontaneous purchase
 
-Spontaneous purchase is used to immediately gain exposure to Bitcoin. Whether it's buying during a crash or taking advantage of a bonus, the decision is yours. You will need to muster up your courage and press the buy button.
+Spontaneous purchase is used to immediately gain exposure to bitcoin. Whether it's buying during a crash or taking advantage of a bonus, the decision is yours. You will need to muster up your courage and press the buy button.
 
-Given the significant volatility of Bitcoin, special attention must be paid to your emotions. FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, Doubt) are your worst enemies in this context! Stay calm and follow the strategy you have established in advance to avoid impulsive and potentially harmful decision-making.
+Given the significant volatility of bitcoin, special attention must be paid to your emotions. FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, Doubt) are your worst enemies in this context! Stay calm and follow the strategy you have established in advance to avoid impulsive and potentially harmful decision-making.
 
-### Who should we buy our Bitcoin from?
+### Who should we buy our bitcoin from?
 
-There are several ways to acquire Bitcoins, each with its own regulations. Some platforms require identification for verification, while others do not. It is crucial to understand the regulations associated with each platform.
+There are several ways to acquire bitcoins, each with its own regulations. Some platforms require identification for verification, while others do not. It is crucial to understand the regulations associated with each platform.
 
 - DCA platforms
 
-A common method of accumulating Bitcoins is Dollar Cost Averaging (DCA), which involves regularly investing small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.network/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
+A common method of accumulating bitcoins is Dollar Cost Averaging (DCA), which involves regularly investing small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.network/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
 
 Today, almost all DCA solutions are relatively efficient and have almost similar fees, so the choice will depend more on availability in your country.
 
@@ -1057,12 +1057,12 @@ Their use is simple and accessible to everyone:
 
 1. Set up a KYC/\* account
 2. Transfer funds to your account
-3. Purchase Bitcoin
-4. Withdraw Bitcoin to your wallet
+3. Purchase bitcoin
+4. Withdraw bitcoin to your wallet
 
 ![image](assets/en/chapter15/1.webp)
 
-After the purchase, it is advisable to immediately withdraw the Bitcoins from the exchange platforms to minimize the risks of hacking and fund blocking. Withdrawal fees can be high, sometimes up to 25 euros depending on the platform.
+After the purchase, it is advisable to immediately withdraw the bitcoins from the exchange platforms to minimize the risks of hacking and fund blocking. Withdrawal fees can be high, sometimes up to 25 euros depending on the platform.
 
 > Know Your Customer (KYC) regulations require users to provide identification to combat terrorism financing, tax evasion, and money laundering.
 
@@ -1249,7 +1249,7 @@ Bitcoin has all the necessary characteristics to be an efficient and healthy cur
 
 Bitcoin is adopted by diverse groups of people, from cryptographers to libertarians to traditional businesses and even a country. However, Bitcoin is for everyone, and its number of users is growing, as is the number of Bitcoin nodes that serve as guardians of transaction history, ensuring its decentralization.
 
-Bitcoin cannot be stopped anymore and cannot be censored anymore. It is a peaceful revolution to change the monetary system and enable financial inclusivity. Users can obtain Bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. Bitcoins can be stored in wallets, mobile applications, or physical devices. No trusted intermediary in Bitcoin, Bitcoin advocates transparency, freedom, and individual responsibility - as the saying goes "Don't Trust, Verify".
+Bitcoin cannot be stopped anymore and cannot be censored anymore. It is a peaceful revolution to change the monetary system and enable financial inclusivity. Users can obtain bitcoins by accepting them for their trade or by buying them through regulated or unregulated platforms. Bitcoins can be stored in wallets, mobile applications, or physical devices. No trusted intermediary in Bitcoin, Bitcoin advocates transparency, freedom, and individual responsibility - as the saying goes "Don't Trust, Verify".
 
 Changing the financial system requires changing the currency. Satoshi created Bitcoin in 2008 to propose an attempt at this. Having access to easy and "magical" money corrupts. Bitcoin is therefore an alternative to build a new neutral monetary system. Bitcoin allows for the emancipation from the banking system. It is a social phenomenon that leads us to participate in a peaceful revolution. Are you ready to join?
 

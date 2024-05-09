@@ -295,7 +295,7 @@ Resolving a hyperinflation crisis often requires radical changes, such as revolu
 
   Hungary found itself on the losing side of the conflict and the war had destroyed most of its industrial production capacity. The month with the highest inflation was July 1946, with a price inflation of 41,900,000,000,000,000%, equivalent to 207% per day. Prices doubled every 15 hours!
 
-  The last banknote to be put into circulation was a 100 million billion pengo (100,000,000,000,000,000,000) banknote in 1946.
+  The last banknote to be put into circulation was a 100 million billion pengo (100,000,000,000,000,000) banknote in 1946.
 
 ![image](assets/en/chapter3/6.webp)
 

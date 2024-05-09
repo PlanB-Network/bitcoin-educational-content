@@ -520,15 +520,21 @@ Concrètement, le KYC implique la collecte de diverses données personnelles du 
 
 Cette procédure est devenue obligatoire pour toutes les plateformes d'échange régulées dans la majorité des pays occidentaux. Cela signifie que toute personne désirant échanger des monnaies étatiques contre du bitcoin via ces plateformes doit se conformer aux exigences du KYC.
 
-Cette procédure n'est pas sans risques pour la confidentialité des utilisateurs. Dans ce chapitre, nous allons examiner en détail ces risques et analyser les impacts spécifiques du KYC et des processus d'identification sur la vie privée des utilisateurs de Bitcoin.
+Cette procédure n'est pas sans risques pour la confidentialité et la sécurité des utilisateurs. Dans ce chapitre, nous allons examiner en détail ces risques et analyser les impacts spécifiques du KYC et des processus d'identification sur la vie privée des utilisateurs de Bitcoin.
 
 ### La facilitation du traçage onchain
 
-Le premier risque associé au KYC est qu'il offre un point d'entrée privilégié pour une analyse de chaîne. Comme nous l'avons vu dans la section précédente, les analystes peuvent regrouper et suivre les activités sur la blockchain en utilisant des patterns de transactions et des heuristiques. Une fois qu'ils ont réussi à clusteriser l'activité onchain d'un utilisateur, il suffit de trouver un seul point d'entrée parmi toutes ses transactions et toutes ses clés pour compromettre entièrement sa confidentialité.
+Le premier risque associé au KYC est qu'il offre un point d'entrée privilégié pour une analyse de chaîne. Comme nous l'avons vu dans la partie précédente, les analystes peuvent regrouper et suivre les activités sur la blockchain en utilisant des patterns de transactions et des heuristiques. Une fois qu'ils ont réussi à clusteriser l'activité onchain d'un utilisateur, il suffit de trouver un seul point d'entrée parmi toutes ses transactions et toutes ses clés pour compromettre entièrement sa confidentialité.
+
+![BTC204](assets/notext/29.webp)
 
 Lorsque vous effectuez un KYC, vous fournissez un point d'entrée de très grande qualité pour une analyse de chaîne, car vous associez vos adresses de réception utilisées lors du retrait de vos bitcoins d'une plateforme d'échange à votre identité complète et vérifiée. En théorie, ces informations ne sont connues que par l'entreprise à laquelle vous les avez fournies, mais, comme nous le verrons plus loin, le risque de fuite de données est réel. De plus, le simple fait qu'une entreprise détient ces informations peut être problématique, même si elle ne les partage pas.
 
-Ainsi, si vous ne prenez pas d'autres mesures pour limiter le regroupement de vos activités sur la blockchain, toute personne ayant connaissance de ce point d'entrée qu'est le KYC peut potentiellement relier toute votre activité sur Bitcoin à votre identité. Du point de vue de cette entreprise, votre utilisation de Bitcoin perd donc toute confidentialité. Pour illustrer cela par une comparaison, c'est comme si votre banquier de la *Banque X* avait accès non seulement à toutes vos transactions effectuées avec la *Banque X*, mais pouvait également observer vos transactions avec la *Banque Y* et toutes vos transactions en espèces.
+Ainsi, si vous ne prenez pas d'autres mesures pour limiter le regroupement de vos activités sur la blockchain, toute personne ayant connaissance de ce point d'entrée qu'est le KYC peut potentiellement relier toute votre activité sur Bitcoin à votre identité. Du point de vue de cette entreprise, votre utilisation de Bitcoin perd donc toute confidentialité. 
+
+![BTC204](assets/notext/44.webp)
+
+Pour illustrer cela par une comparaison, c'est comme si votre banquier de la *Banque X* avait accès non seulement à toutes vos transactions effectuées avec la *Banque X*, mais pouvait également observer vos transactions avec la *Banque Y* et toutes vos transactions en espèces.
 
 Rappelez-vous de la première partie de cette formation : le modèle de confidentialité de Bitcoin, tel que conçu par Satoshi Nakamoto, repose sur la séparation entre l'identité de l'utilisateur et ses paires de clés. Bien que cette couche de confidentialité ne soit plus suffisante aujourd'hui, il est toujours prudent de limiter autant que possible sa dégradation.
 
@@ -536,7 +542,7 @@ Rappelez-vous de la première partie de cette formation : le modèle de confiden
 
 La deuxième grande problématique du KYC est qu'il révèle à l'État que vous avez possédé du bitcoin à un moment donné. Lorsque vous achetez des bitcoins via un acteur régulé, il devient possible pour l'État de connaître cette possession. Actuellement, cela peut sembler anodin, mais il est important de se rappeler que l'avenir politique et économique de votre pays n'est pas entre vos mains.
 
-Tout d'abord, l'État peut rapidement adopter une posture autoritaire. L'histoire regorge d'exemples où les politiques ont changé brusquement. Aujourd'hui, en Europe, les bitcoiners peuvent écrire des articles, participer à des conférences, et gérer leurs portefeuilles en self-custody. Mais qui peut dire ce que demain réserve ? Si Bitcoin devenait soudainement l'ennemi public numéro un, être associé à celui-ci dans les dossiers de l'État pourrait s'avérer problématique.
+Tout d'abord, l'État peut rapidement adopter une posture autoritaire. L'histoire regorge d'exemples où les politiques ont changé brusquement. Aujourd'hui, en Europe, les bitcoiners peuvent écrire des articles sur Bitcoin, participer à des conférences, et gérer leurs portefeuilles en self-custody. Mais qui peut dire ce que demain réserve ? Si Bitcoin devenait soudainement l'ennemi public numéro un, être associé à celui-ci dans les dossiers de l'État pourrait s'avérer problématique.
 
 Ensuite, face à des crises économiques sévères, l'État pourrait envisager de saisir les bitcoins détenus par les citoyens. Peut-être que demain, les bitcoiners seront perçus comme des profiteurs de crise et seront taxés de manière excessive en raison de leurs plus-values face à la dévaluation des monnaies fiat.
 
@@ -567,6 +573,8 @@ Outre les risques spécifiques liés à Bitcoin, il faut également considérer 
 Il est important de déconstruire certaines idées reçues sur le KYC que l’on retrouve fréquemment sur Twitter ou dans nos échanges entre bitcoiners.
 
 Tout d'abord, il est inexact de penser que protéger sa confidentialité pour des bitcoins acquis via KYC est inutile. Les outils et méthodes de confidentialité sur Bitcoin sont variés et servent des objectifs différents. L'utilisation de transactions coinjoin sur des bitcoins issus de KYC, par exemple, n'est pas une mauvaise idée. Bien sûr, il est nécessaire d'être prudent avec les plateformes d'échange régulées pour éviter le gel ou le bannissement de son compte, mais d'un point de vue strictement technique, ces pratiques ne sont pas incompatibles. Le coinjoin a pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer certains risques d'analyse de chaîne associés au KYC. Bien qu'il ne supprime pas tous les risques, cela représente déjà un bénéfice significatif. 
+
+![BTC204](assets/notext/45.webp)
 
 La confidentialité sur Bitcoin ne doit pas être envisagée de manière binaire, comme une distinction entre des bitcoins "anonymes" et d'autres qui ne le seraient pas. Posséder des bitcoins acquis via KYC ne signifie pas que tout est perdu ; au contraire, l'utilisation d'outils de confidentialité peut s'avérer encore plus bénéfique.
 

@@ -5,44 +5,86 @@ description: The BitBlockBoom! is a bitcoin conference. To put it in simple term
 
 # Main Stage
 
-## Fiat Money & Fiat Food
+## Bitcoin An Unstoppable Force
 
-![video](https://youtu.be/ZnvAYDEUVlg)
+![video](https://youtu.be/K0yESdK22Aw)
 
-Speaker: Saifedean Ammous
+Speaker: Guy Swann
 
-## The Art of Bitcoin Rhetoric
+## BTC - Pay For Anyone, Not Everyone
 
-![video](https://youtu.be/PBAuHv5cPl8)
+![video](https://youtu.be/koCujSoudAg)
 
-Speaker: Michael (Bitstein) Goldstein
+Speaker: Britt Kelly
 
-## Bitcoin, Changing the Mental Model of Civilization
+## The Moral Case For Bitcoin
 
-![video](https://youtu.be/qF0qRC3HdIc)
+![video](https://youtu.be/bZS3q8iqDow)
 
 Speaker: Jimmy Song
 
-## Accumulating Bitcoin
+## Nascent Multisig Adoption
 
-![video](https://youtu.be/iZookoWXQec)
+![video](https://youtu.be/zRbMWLuTlsg)
 
-Speaker: Pierre Rochard
+Speaker: Will Cole
 
-## Taproot & Schnoor, what is the futur of bitcoin
+## Bitcoin's Decentralization
 
-![video](https://youtu.be/yWEbIkytDJs)
-
-Speaker: Mike Schmidt
-
-## Bitcoin, they can be only one
-
-![video](https://youtu.be/QWaCr_tKjRk)
+![video](https://youtu.be/h72m9vIVmzc)
 
 Speaker: Tone Vays
 
-## Stages of Multi-Sig
+## Why Bitcoin Adoption Will Happen 'Gradually Then Suddenly'
 
-![video](https://youtu.be/xrReq7V7oJU)
+![video](https://youtu.be/7WqoQay84Ro)
 
-Speaker: Justin Moon
+Speaker: Parker Lewis
+
+## US Taxation Of Bitcoin
+
+![video](https://youtu.be/JKGx2l5UlLM)
+
+Speaker: Jeff Vandrew Jr
+
+## The Age Of Discontinuity
+
+![video](https://youtu.be/ff2tXsH9X5w)
+
+Speaker: Chris Dannen
+
+## Masters And Slaves Of Money
+
+![video](https://youtu.be/jbDbOanA_dw)
+
+Speaker: Robert Breedlove
+
+## Computing and Bitcoin
+
+![video](https://youtu.be/xNfbiyv7OIM)
+
+Speaker: Matt Hill
+
+## Global, Non- Governmental, Honest, Sound Money.
+
+![video](https://youtu.be/2WHSZd0L4rA)
+
+Speaker: Ben Woosley
+
+## Bitcoin as defends against tyranny
+
+![video](https://youtu.be/8bM0xLVG5VI)
+
+Speaker: Stephen Cole
+
+## Rabbit Hole Recap LIVE
+
+![video](https://youtu.be/WzhQR0ThvB0)
+
+Speakers: Marty Bent & Matt Odell
+
+## Al's Lacrosse Awards Show
+
+![video](https://youtu.be/lxEYUHkhaFM)
+
+Event: Al's Lacrosse Awards Show

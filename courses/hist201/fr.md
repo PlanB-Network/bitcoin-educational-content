@@ -42,7 +42,7 @@ Bitcoin a enfin hérité de l'éthos du mouvement des cypherpunks, un mouvement 
 
 Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. Il est vraisemblable que Satoshi Nakamoto se trouvait aux États-Unis lorsqu'il travaillait sur son projet. Toutefois, Bitcoin est un projet international et nous nous référerons donc au fuseau universel. Ainsi, nous dirons que le lancement effectif du réseau principal a eu lieu le 9 janvier à 2 heures 54 du matin, plutôt que le 8 janvier à 18 heures 54 (heure du Pacifique, UTC-8).
 
-En plus des sources directes archivées sur Internet, nous nous basons sur un certain nombre d'ouvrages de référence. En voici les principaux :
+Le contenu est adapté (partiellement) de *L'Élégance de Bitcoin* (Ludovic Lars, 2024). En plus des sources directes archivées sur Internet, nous nous basons sur un certain nombre d'ouvrages de référence. En voici les principaux :
 
 - *The Genesis Book* d'Aaron van Wirdum, publié en 2024 ;
 - *Digital Gold* de Nathaniel Popper, publié en 2014 ;

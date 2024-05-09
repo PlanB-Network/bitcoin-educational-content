@@ -574,25 +574,27 @@ Inversement, acquérir du bitcoin par une méthode sans KYC ne garantit pas une 
 
 ### Peut-on annuler un KYC ?
 
-On me demande parfois s'il est possible de "revenir en arrière" après avoir effectué un KYC, et comme vous pouvez l'imaginer suite aux discussions précédentes, la réponse est nuancée. Pour éviter les risques associés au KYC, la méthode la plus simple consiste à ne pas y recourir lors de l'acquisition de bitcoins. Nous approfondirons ce sujet dans le prochain chapitre. Cependant, si le KYC a déjà été réalisé et que des bitcoins ont été achetés, existe-t-il des moyens d'atténuer les risques encourus ?
+On me demande parfois s'il est possible de "revenir en arrière" après avoir effectué un KYC, et comme vous pouvez l'imaginer suite aux paragraphes précédents, la réponse est nuancée. Pour éviter les risques associés au KYC, la méthode la plus simple consiste à ne pas y recourir lors de l'acquisition de bitcoins. Nous approfondirons ce sujet dans le prochain chapitre. Cependant, si le KYC a déjà été réalisé et que des bitcoins ont été achetés, existe-t-il des moyens d'atténuer les risques encourus ?
 
+Concernant le risque de traçabilité de vos transactions, l'utilisation du coinjoin est une solution. Nous aborderons en détail cette méthode plus tard dans la formation, mais sachez que le coinjoin permet de casser l'historique d'une pièce et de prévenir son traçage passé-présent et présent-passé. Même pour des BTC obtenus via une plateforme régulée, cette technique peut empêcher leur traçabilité.
 
+Cependant, le coinjoin n'efface pas le deuxième risque lié au KYC : le fait que l'État soit informé de votre possession de bitcoins. En effet, même si vos pièces ne sont plus traçables, l'État, selon les juridictions, peut avoir accès à vos déclarations de cession de crypto-actifs. Comme ce risque n'est pas technique mais administratif, il n'existe pas de solutions propres à Bitcoin pour l'éliminer, à part ne pas s'exposer au KYC initialement. La seule approche légale pour mitiger ce risque est de vendre vos bitcoins acquis via des plateformes régulées, puis de les racheter via des moyens sans KYC. En vendant et en déclarant la cession, l'administration devrait constater que vous ne les possédez plus.
 
-
-
-
-
+Quant au risque de fuite de vos données personnelles et documents d'identité, c'est un danger externe à Bitcoin et il n'existe aucune solution technique pour l'éviter. Une fois vos données révélées, il est difficile d'annuler cette opération. Vous pouvez tenter de fermer votre compte sur la plateforme, mais cela ne garantit pas la suppression de vos données KYC, surtout lorsque la vérification d'identité est sous-traitée. La vérification de la suppression complète de vos informations est impossible. Il n'existe donc aucune solution pour empêcher complètement ce risque et s'assurer qu'il n'existe plus.
 
 ### La différence entre KYC et identification des clés
 
+Parfois, certains bitcoiners tendent à élargir le terme de "KYC" à tout échange BTC impliquant un virement ou un paiement par carte bancaire, car ces moyens peuvent aussi révéler l'origine du paiement, tout comme le ferait un KYC. Cependant, il ne faut pas confondre KYC et identification des clés. À titre personnel, je dois admettre que ma perception de ce sujet a évolué avec le temps.
 
+Le KYC désigne spécifiquement une procédure réglementaire mise en œuvre par certaines entreprises pour vérifier et enregistrer l'identité de leurs clients. C'est une chose binaire : lors de l'acquisition de vos bitcoins, soit vous faites un KYC, soit vous n'en faites pas. Cependant, l'identification des clés, qui concerne la liaison entre une facette de l'identité d'un utilisateur et une activité onchain, n'est pas aussi binaire, mais représente plutôt un continuum. En effet, dans le cadre de l'acquisition ou de la cession de bitcoins, cette identification est toujours possible à des degrés différents.
 
+Par exemple, si vous achetez des bitcoins sur une plateforme régulée en Suisse, le KYC n'est pas nécessaire. Toutefois, il peut y avoir une identification de vos clés, car l'achat a été réalisé via votre compte bancaire. C'est là que les deux premiers risques associés au KYC — facilitation du traçage onchain et exposition à la surveillance étatique — peuvent également se manifester dans un échange sans KYC. Si l'entité suisse signale des transactions suspectes aux autorités de votre pays, ces dernières peuvent simplement vérifier le compte bancaire ayant servi à l'achat pour découvrir votre identité. Ainsi, l'achat sans KYC sur des plateformes régulées se situe plutôt haut dans l'échelle de risque pour l'identification des clés.
 
+Cependant, éviter les plateformes régulées et opter pour des méthodes d'acquisition en P2P ne supprime pas totalement le risque d'identification des clés, mais le diminue simplement. Considérons l'exemple d'un achat sur Bisq ou une autre plateforme P2P. Pour régler votre contrepartie, vous utiliserez probablement votre compte bancaire. Si les autorités interrogent la personne avec laquelle vous avez échangé et lui demandent votre nom, nous retrouvons les risques 1 et 2 précédemment évoqués. Ces risques sont certes bien moindres que lors d'un achat sans KYC sur une plateforme, et encore plus réduits que lors d'un achat avec KYC, mais ils restent présents dans une moindre mesure.
 
+Enfin, même si vous acquérez vos bitcoins par un échange physique contre des espèces, vous n'êtes pas totalement anonyme. La personne avec laquelle vous avez échangé a vu votre visage, qui fait partie de votre identité. Bien que minime dans cet exemple, il existe encore une possibilité d'identification des clés.
 
-
-
-
+En somme, lors d'un échange de bitcoins contre d'autres actifs, qu'il s'agisse d'un achat en monnaie étatique ou d'une vente contre un bien réel, il y a toujours une certaine forme d'identification des clés. Selon la méthode d'échange choisie, cette identification peut varier en intensité. Il est important de ne pas confondre cette identification avec le KYC, qui est un processus réglementaire bien défini. Cependant, il existe un lien entre le KYC et le spectre d'identification, puisque le KYC se situe à l'extrémité supérieure de ce spectre, car il facilite de manière systématique l'identification des clés de l'utilisateur par les autorités.
 
 ## Les méthodes d'acquisition
 

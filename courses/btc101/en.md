@@ -368,7 +368,7 @@ Bitcoin's scarcity is guaranteed by two key mechanisms: the adjustment of mining
 
 ![image](assets/en/chapter4/2.webp)
 
-> Did you know? Miners are incentivized to mine a block to earn the new bitcoins and transaction fees associated with the transactions they include in their block. As the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block reward.'
+> Did you know? Miners are incentivized to mine a block to earn the new bitcoins (block subsidy) and transaction fees associated with the transactions they include in their block. As the number of bitcoins issued approaches the 21 million limit, miners will be remunerated more through their transaction fees than through the block subsidy.'
 
 - Game theory is a mathematical concept that relies on human rationality. Here, in Bitcoin, it is the users who vote for protocol changes. Yes, you read that right: any modification to the Bitcoin protocol would require the agreement of the entire community of users, which is highly complex. So, if someone wanted to create a 22nd million bitcoin, they would have to convince all users to voluntarily devalue their own savings, which is unlikely to happen because Bitcoin is global and not governed by a central group.
 

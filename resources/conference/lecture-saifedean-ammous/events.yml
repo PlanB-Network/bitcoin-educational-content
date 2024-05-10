@@ -1,4 +1,4 @@
-  - start_date: 2024-03-16 16:00:00 
+- start_date: 2024-03-16 16:00:00 
   end_date: 2024-03-16 19:00:00
   timezone:  Europe/Rome
   address_line_1: Torino, Italy
@@ -12,11 +12,11 @@
   price_dollars: 5
   description: 1st guest star lecture of PlanB Biz School
   language: 
-      - en
+    - en
   links:
     replay_url: https://www.youtube.com/embed/O-Ya6afc3fM
     live_url :
   tags: 
-      - economy
-      - Bitcoiner
-      - General
+    - economy
+    - Bitcoiner
+    - General

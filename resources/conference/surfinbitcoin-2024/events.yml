@@ -1,4 +1,4 @@
-  - start_date: 2024-08-28 
+- start_date: 2024-08-28 
   end_date: 2024-08-30
   address_line_1: Biarritz, France
   address_line_2: 
@@ -11,13 +11,13 @@
   price_dollars: 0
   description: The 100% Bitcoin Conference
   language: 
-      - fr
+    - fr
   links:
     website: https://surfinbitcoin.com/
     replay_url:
     live_url :
   tags: 
-      - bitcoiner
-      - General
+    - bitcoiner
+    - General
 
 

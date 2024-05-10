@@ -3,10 +3,10 @@ name: Bitcoin++ 2024
 builder: Bitcoin++
 location: Austin, USA
 language: 
-    - en
+  - en
 links:
   website: https ://btcplusplus.dev/
   twitter: https ://twitter.com/btcplusplus
 tags: 
-    - Bitcoiner
-    - technical
+  - Bitcoiner
+  - technical

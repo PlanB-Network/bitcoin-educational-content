@@ -195,7 +195,7 @@ Le système e-gold était ce qu'on appelle une « devise en or numérique » (
 garantie intégralement par une quantité équivalente en or conservée en lieu sûr. Il a été co-fondé par Douglas Jackson et Barry Downey en 1996. Douglas Jackson était un
 cancérologue américain vivant en Floride, qui était adepte de l'économiste autrichien Friedrich von Hayek et qui souhaitait créer une « [meilleure monnaie](https://blog.bettermoney.com/) » avec e-gold.
 
-Le principe est que chaque unité d'e-gold peut être convertie en or réel. Les réserves d'or étaient administrée par une société située aux États-Unis appelée Gold & Silver Reserve Inc. (G&SR). Le système informatique était géré par une deuxième entreprise, e-gold Ltd., enregistrée à Saint-Christophe-et-Niévès dans les Caraïbes.
+Le principe est que chaque unité d'e-gold peut être convertie en or réel. Les réserves d'or étaient administrée par une société située aux États-Unis appelée Gold & Silver Reserve Inc. (G&SR). Le système informatique était géré par une deuxième entreprise, e-gold Ltd., enregistrée à Saint-Christophe-et-Niévès dans les Caraïbes. L'or n'était pas le seul métal concerné : les utilisateurs pouvaient aussi détenir et échanger de l'e-silver, de l'e-platinum et de l'e-palladium sur le même modèle.
 
 Le système e-gold profitait du Web naissant, et en particulier du tout récent navigateur Netscape. Chaque client pouvait avoir accès à son compte depuis le site web. Pour l'époque, il était très performant, mettant à profit un système à règlement brut en temps réel inspiré du virement interbancaire. Voici à quoi ressemblait l'envoi d'e-gold en 2005 (image tirée d'un [tutoriel](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) de l'époque) :
 
@@ -209,7 +209,14 @@ D'autres systèmes ont été créés sur le même modèle. Nous pouvons citer Go
 
 ### Liberty Reserve
 
-Arthur Budovsky, 2006
+Un autre exemple de monnaie privée centralisée était le système Liberty Reserve, qui permettait à ses utilisateurs de détenir et de transférer des devises électroniques indexées sur le dollar étasunien, sur l'euro ou sur l'or. Ce système a été créé par Arthur Budovsky, un Américain d'origine ukrainienne, et Vladimir Kats, immigré russe de Saint-Petersbourg. En 2006, Arthur Budovsky s'est expatrié au Costa Rica, alors considéré comme un paradis fiscal, où il a enregistré sa société, Liberty Reserve S.A.
+
+Le système était assez similaire à e-gold. Il a grandement bénéficié de l'arrêt de ce dernier en avril 2007 suite à l'inculpation de Douglas Jackson et de ses associés. En mai 2013, [d'après le département de la Justice américaine](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf), Liberty Reserve possédait plus d'un million d'utilisateurs dans le monde, dont plus de 200 000 aux États-Unis, et traitait 12 millions de transactions financières annuellement, pour un volume combiné de plus de 1,4 milliard de dollars. L'utilisation se faisait majoritairement dans le cadre d'activités criminelles, mais [ne se limitait pas](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) à ces dernières : Liberty Reserve était aussi utilisé par les traders du Forex ou bien pour les transferts à l'étranger.
+
+Toutefois, le système a fini par subir le même sort que e-gold. En 2009, la Superintendencia General de Entidades Financieras costaricaine s'est intéressée au cas de Liberty Reserve, lui demandant d'obtenir une licence (ce que la société n'est pas parvenue à faire). En novembre 2011, le FinCEN étasunien qui a délivré un avis selon lequel le système était « utilisé par les criminels pour effectuer des transactions anonymes ». Enfin, Liberty Reserve a été arrêtée au terme d'une opération internationale : le 24 mai 2013, Arthur
+Budovsky et ses principaux associés ont été inculpés et arrêtés dans des juridictions différentes (Espagne, États-Unis, Costa Rica) et le site principal a été saisi par le département de la Justice. En 2016, après une extradition vers les États-Unis, Arthur Budovsky a été condamné à 20 ans de prison ferme pour blanchiment d'argent.
+
+Cet exemple montre ainsi que l'arbitrage juridictionnel ne suffit pas pour protéger la monnaie de l'intervention étatique.
 
 ### PayPal
 

@@ -1,7 +1,6 @@
 ---
 name: bitcare 2023
-description: 
-L’unica conferenza Bitcoin-Only italiana. Entra in contatto con esperti e appassionati. 
+description: L’unica conferenza Bitcoin-Only italiana. Entra in contatto con esperti e appassionati. 
 ---
 
 # Main Stage

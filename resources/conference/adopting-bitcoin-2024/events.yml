@@ -1,4 +1,4 @@
-  - start_date: 2024-11-15 
+- start_date: 2024-11-15 
   end_date: 2024-11-16
   address_line_1: San Salvador, El Salvador 
   address_line_2: 
@@ -11,14 +11,14 @@
   price_dollars: 0
   description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption.
   language: 
-      - en
+    - en
   links:
     website: https://sv24.adoptingbitcoin.org/
     replay_url:
     live_url :
   tags: 
-      - International
-      - bitcoiner
-      - General
+    - International
+    - bitcoiner
+    - General
 
 

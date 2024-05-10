@@ -1,7 +1,6 @@
 ---
 name:  Die Bitcoin Konferenz 2023
-description: BTC23 - The Bitcoin Conference
-The biggest Bitcoin conference in German went into the second round BTC23 was even better, more diverse and definitely more controversial. We were open - for Bitcoiners, interested people and also skeptics from all directions. Three days with Bitcoiners, thought leaders and entrepreneurs from the Space - full of relevant talks, debates and conversations. And of course, party! BTC23 was for everyone.
+description: The biggest Bitcoin conference in German went into the second round BTC23 was even better, more diverse and definitely more controversial. We were open - for Bitcoiners, interested people and also skeptics from all directions. Three days with Bitcoiners, thought leaders and entrepreneurs from the Space - full of relevant talks, debates and conversations. And of course, party! BTC23 was for everyone.
 ---
 
 # English Talk

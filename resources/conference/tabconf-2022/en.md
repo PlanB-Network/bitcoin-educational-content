@@ -1,8 +1,6 @@
 ---
 name: Tab Conf 2022
-description: 
-TABConf 2022, a technical Bitcoin conference held last year. Don't miss TABConf 2023, happening from September 6-9 in Atlanta, Georgia! 
-
+description: TABConf 2022, a technical Bitcoin conference held last year. Don't miss TABConf 2023, happening from September 6-9 in Atlanta, Georgia! 
 --- 
 # KeyNote
 

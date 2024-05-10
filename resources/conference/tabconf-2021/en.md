@@ -1,10 +1,6 @@
 ---
 name: Tab Conf 2021
-description: 
-TABConf’s mission is to create a forum for protocol and application developers to collaborate, debate, and innovate on Bitcoin.
-
-At TABConf, we bring together the best and brightest minds in the bitcoin world to share their insights, knowledge, and experience about the latest developments. From seasoned core devs to up-and-coming plebs.
-
+description: TABConf’s mission is to create a forum for protocol and application developers to collaborate, debate, and innovate on Bitcoin. At TABConf, we bring together the best and brightest minds in the bitcoin world to share their insights, knowledge, and experience about the latest developments. From seasoned core devs to up-and-coming plebs.
 --- 
 # KeyNote
 

@@ -1,9 +1,6 @@
 ---
 name: Tab Conf 2023
-description: 
-At TABConf, we bring together the best and brightest minds in the bitcoin world to share their insights, knowledge, and experience about the latest developments. From seasoned core devs to up-and-coming plebs.
-
-Don’t miss out on your chance to be a part of TABConf 2023. Join us in Atlanta, and we will make some magic happen! 🤘 Read about our history at TABCon
+description: At TABConf, we bring together the best and brightest minds in the bitcoin world to share their insights, knowledge, and experience about the latest developments. From seasoned core devs to up-and-coming plebs. Don’t miss out on your chance to be a part of TABConf 2023. Join us in Atlanta, and we will make some magic happen! 🤘 Read about our history at TABCon
 --- 
 
 #  Main Stage

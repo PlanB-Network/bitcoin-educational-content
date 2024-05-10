@@ -1,7 +1,6 @@
 ---
 name: Dakar Bitcoin Day 2023
-description: 
-An event held in Dakar, Senegal, and 100% dedicated to #bitcoin
+description: An event held in Dakar, Senegal, and 100% dedicated to #bitcoin
 ---
 
 # Day 1

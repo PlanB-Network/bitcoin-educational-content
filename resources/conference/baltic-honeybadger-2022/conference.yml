@@ -3,10 +3,10 @@ name: Baltic HoneyBadger 2022
 builder: HodlHodl
 location: Riga, Latvia
 language: 
-    - en
+  - en
 links:
   website: https://baltichoneybadger.com/
 tags: 
-    - Bitcoiner
-    - General
-    - lightning network
+  - Bitcoiner
+  - General
+  - lightning network

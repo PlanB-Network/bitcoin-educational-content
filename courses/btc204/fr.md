@@ -40,31 +40,31 @@ L'objectif de cette formation n'est pas de vous rendre totalement anonyme dans v
 
 Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les UTXO, les adresses de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
 
-![BTC204](assets/fr/1.webp)
+![BTC204](assets/fr/11/1.webp)
 
 ### Section 2 : Comprendre l'analyse de chaîne et savoir s'en protéger
 
 Dans la deuxième section, nous étudions les techniques employées par les entreprises d'analyse de chaîne pour tracer votre activité sur Bitcoin. Comprendre ces méthodes est crucial pour renforcer la protection de votre confidentialité. Cette partie a pour objectif d'examiner les stratégies des attaquants pour mieux appréhender les risques et préparer le terrain pour les techniques que nous étudierons dans les sections suivantes. Nous analyserons les modèles de transactions (patterns), les heuristiques internes et externes, ainsi que les interprétations vraisemblables de ces modèles. En plus d'un volet théorique, nous apprendrons à utiliser un explorateur de bloc pour faire de l'analyse de chaîne, à travers des exemples pratiques et des exercices.
 
-![BTC204](assets/notext/2.webp)
+![BTC204](assets/notext/11/2.webp)
 
 ### Section 3 : Maîtriser les bonnes pratiques pour protéger sa vie privée
 
 Dans la troisième section de notre formation, nous entrons dans le vif du sujet : la pratique ! L'objectif est de maîtriser toutes les bonnes pratiques essentielles qui doivent devenir des réflexes naturels pour tout utilisateur de Bitcoin. Nous aborderons l'utilisation d'adresses vierges, l'étiquetage, la consolidation, l'utilisation de nœuds complets, ainsi que le KYC et les méthodes d'acquisition. Le but est de vous fournir un aperçu complet des pièges à éviter pour établir de solides fondations dans notre quête de protection de la vie privée. Pour certaines de ces pratiques, vous serez guidé vers un tutoriel spécifique pour les mettre en œuvre.
 
-![BTC204](assets/fr/3.webp)
+![BTC204](assets/fr/11/3.webp)
 
 ### Section 4 : Comprendre les transactions coinjoin
 
 Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans la section 4, vous allez découvrir tout ce qu'il faut savoir sur cette méthode de mixage. Vous apprendrez ce qu'est le coinjoin, son histoire et ses objectifs, ainsi que les différents types de coinjoins existants. Enfin, pour les utilisateurs les plus aguerris, nous découvrirons ce que sont les anonsets et l'entropie, et comment calculer ces indicateurs.
 
-![BTC204](assets/fr/4.webp)
+![BTC204](assets/fr/11/4.webp)
 
 ### Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées
 
 Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le Payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
-![BTC204](assets/fr/5.webp)
+![BTC204](assets/fr/11/5.webp)
 
 ### Section 6 : Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
 
@@ -76,7 +76,7 @@ Alors que les sections précédentes se concentraient sur les solutions de confi
 
 Comme vous l'avez compris, le cœur de cette formation se concentre exclusivement sur la privacy onchain. Dans cette dernière partie bonus, je souhaite donc élargir le sujet à la confidentialité sur les autres protocoles en lien avec Bitcoin. Nous parlerons notamment de la vie privée sur le Lightning Network. Certains affirment que Lightning est privé par défaut, tandis que d'autres soutiennent que la confidentialité de l'utilisateur y est insuffisante. Quelle est donc la vérité ? Nous démêlerons le vrai du faux pour mieux comprendre les enjeux liés à la confidentialité sur le Lightning Network. Nous évoquerons également les sidechains comme Liquid Network et les banques chaumiennes comme Cashu ou Fedimint.
 
-![BTC204](assets/notext/6.webp)
+![BTC204](assets/notext/11/7.webp)
 
 
 # Définitions et concepts clés
@@ -92,7 +92,7 @@ Sur le protocole Bitcoin, la gestion des unités monétaires s'articule autour d
 
 Ce modèle se distingue profondément des systèmes bancaires traditionnels qui reposent sur un mécanisme de comptes et de soldes pour suivre les flux financiers. En effet, dans le système bancaire, les soldes individuels sont maintenus dans des comptes attachés à une identité. Par exemple, lorsque vous achetez une baguette chez un boulanger, votre banque débite simplement le montant de l'achat de votre compte, réduisant ainsi votre solde, tandis que le compte du boulanger est crédité du même montant, augmentant son solde. Dans ce système, il n'y a aucune notion de lien entre l'argent qui entre sur votre compte et l'argent qui en sort, à part les enregistrements de transactions.
 
-![BTC204](assets/fr/7.webp)
+![BTC204](assets/fr/21/1.webp)
 
 Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et les unités monétaires ne sont pas gérées via des soldes, mais à travers des UTXO. Un UTXO représente une quantité spécifique de bitcoins qui n'a pas encore été dépensée, formant ainsi un "morceau de bitcoin", qui peut être grand ou petit. Par exemple, un UTXO pourrait valoir `500 BTC` ou simplement `700 SATS`.
 
@@ -109,11 +109,11 @@ Théoriquement, un UTXO peut représenter n'importe quelle valeur en bitcoins, a
 
 Les UTXOs sont les instruments d'échange sur Bitcoin. Chaque transaction se traduit par la consommation d'UTXOs en entrées et la création de nouveaux UTXOs en sorties. Lorsqu'une transaction est réalisée, les UTXOs utilisés comme entrées sont considérés comme "dépensés", et de nouveaux UTXOs sont générés et attribués aux destinataires indiqués dans les sorties de la transaction. Ainsi, un UTXO représente simplement une sortie de transaction non dépensée, et donc une quantité de bitcoins appartenant à un utilisateur à un moment donné.
 
-![BTC204](assets/fr/8.webp)
+![BTC204](assets/fr/21/2.webp)
 
 Tous les UTXOs sont sécurisés par des scripts qui définissent les conditions sous lesquelles ils peuvent être dépensés. Pour consommer un UTXO, un utilisateur doit démontrer au réseau qu'il satisfait les conditions stipulées par le script qui sécurise cet UTXO. Généralement, les UTXOs sont protégés par une clé publique (ou une adresse de réception qui représente cette clé publique). Pour dépenser un UTXO associé à cette clé publique, l'utilisateur doit prouver qu'il détient la clé privée correspondante, en fournissant une signature numérique réalisée avec cette clé. C'est la raison pour laquelle on dit que votre portefeuille Bitcoin ne contient pas réellement des bitcoins, mais qu'il stocke vos clés privées, qui elles-mêmes vous donnent accès à vos UTXOs et, par extension, aux bitcoins qu'ils représentent.
 
-![BTC204](assets/fr/9.webp)
+![BTC204](assets/fr/21/3.webp)
 
 Étant donné que le concept de compte est absent sur Bitcoin, le solde d'un portefeuille correspond simplement à la somme des valeurs de tous les UTXOs qu'il peut dépenser. Par exemple, si votre portefeuille Bitcoin peut dépenser les 4 UTXOs suivants :
 
@@ -126,7 +126,7 @@ Tous les UTXOs sont sécurisés par des scripts qui définissent les conditions 
 
 Le solde total de votre portefeuille serait de `17 BTC`.
 
-![BTC204](assets/fr/10.webp)
+![BTC204](assets/fr/21/4.webp)
 
 ## La structure des transactions Bitcoin
 
@@ -134,17 +134,17 @@ Le solde total de votre portefeuille serait de `17 BTC`.
 
 Une transaction Bitcoin est une opération enregistrée sur la blockchain qui permet de transférer la propriété de bitcoins d'une personne à une autre. Plus précisément, puisque nous sommes sur un modèle d'UTXO et qu'il n'y a pas de comptes, la transaction satisfait les conditions de dépense qui sécurisaient un ou plusieurs UTXOs, les consomme et crée en équivalence de nouveaux UTXOs dotés de nouvelles conditions de dépense. En bref, une transaction déplace des bitcoins d'un script qui est satisfait vers un nouveau script prévu pour les sécuriser.
 
-![BTC204](assets/fr/11.webp)
+![BTC204](assets/fr/22/1.webp)
 
 Chaque transaction Bitcoin est donc constituée d'une ou de plusieurs entrées (inputs) et d'une ou de plusieurs sorties (outputs). Les inputs sont des UTXOs consommés par la transaction pour générer les outputs. Les outputs sont de nouveaux UTXOs qui seront utilisables comme inputs pour de futures transactions.
 
-![BTC204](assets/fr/12.webp)
+![BTC204](assets/fr/22/2.webp)
 
 **> Le saviez-vous ?** Théoriquement, une transaction bitcoin pourrait avoir une infinité d'inputs et d'outputs. Seule la taille maximale d'un bloc vient limiter ce nombre.
 
 Chaque input dans une transaction Bitcoin fait référence à un UTXO antérieur non dépensé. Pour utiliser un UTXO comme input, son détenteur doit démontrer qu'il en est le propriétaire légitime en validant le script qui lui est associé, c'est-à-dire, en satisfaisant la condition de dépense imposée. Généralement, cela revient à fournir une signature numérique produite avec la clé privée correspondant à la clé publique qui avait initialement sécurisé cet UTXO. Le script consiste donc à vérifier que la signature correspond bien à la clé publique utilisée lors de la réception des fonds.
 
-![BTC204](assets/fr/13.webp)
+![BTC204](assets/fr/22/3.webp)
 
 Chaque output, de son côté, précise le montant des bitcoins à transférer, ainsi que le destinataire. Ce dernier est défini par un nouveau script qui, en général, bloque l'UTXO nouvellement créé avec une adresse de réception ou une nouvelle clé publique.
 
@@ -158,11 +158,11 @@ Cette mécanique est similaire à celle d'une pièce d'or. Imaginons que vous po
 
 Sur Bitcoin, le fonctionnement est semblable. Imaginons qu'Alice possède un UTXO de `10 000 SATS` et qu'elle souhaite acheter une baguette coûtant `4 000 SATS`. Alice va faire une transaction avec en input 1 UTXO de `10 000 SATS` qu'elle consommera entièrement, et en outputs, elle créera 2 UTXOs d'une valeur de `4 000 SATS` et de `6 000 SATS`. L'UTXO de `4 000 SATS` sera envoyé au boulanger en paiement de la baguette, tandis que l'UTXO de `6 000 SATS` reviendra à Alice sous forme de monnaie. Cet UTXO qui revient à l'émetteur initial de la transaction, c'est ce que l'on appelle le "change" dans le jargon Bitcoin.
 
-![BTC204](assets/fr/14.webp)
+![BTC204](assets/fr/22/4.webp)
 
 Imaginons à présent qu'Alice ne possède pas un unique UTXO de `10 000 SATS`, mais plutôt deux UTXOs de `3 000 SATS` chacun. Dans cette situation, aucun des UTXOs individuellement ne suffit pour régler les `4 000 SATS` de la baguette. Alice doit donc utiliser simultanément les 2 UTXOs de `3 000 SATS` comme inputs de sa transaction. De cette manière, le montant total des inputs atteindra `6 000 SATS`, lui permettant ainsi de satisfaire le paiement de `4 000 SATS` au boulanger. Cette méthode, qui consiste à regrouper plusieurs UTXOs dans les inputs d'une transaction, est souvent désignée par le terme "fusion".
 
-![BTC204](assets/fr/15.webp)
+![BTC204](assets/fr/22/5.webp)
 
 ### Les frais de transaction
 
@@ -175,7 +175,7 @@ Frais = total inputs - total outputs
 
 Reprenons l'exemple d'Alice qui dispose d'un UTXO de `10 000 SATS` et souhaite acheter une baguette à `4 000 SATS`. Alice crée une transaction avec comme input son UTXO de `10 000 SATS`. Elle génère ensuite un output de `4 000 SATS` destiné au boulanger pour le paiement de la baguette. Pour encourager les mineurs à intégrer sa transaction dans un bloc, Alice alloue `200 SATS` de frais. Elle crée donc un second output, le change, qui lui reviendra, s'élevant à `5 800 SATS`.
 
-![BTC204](assets/fr/16.webp)
+![BTC204](assets/fr/22/6.webp)
 
 En appliquant la formule des frais, nous constatons qu'il reste effectivement `200 SATS` pour les mineurs :
 ```bash
@@ -197,7 +197,7 @@ La coinbase est un type spécifique de transaction Bitcoin, qui est unique pour 
 
 La particularité de la transaction coinbase est qu'elle est la seule à pouvoir créer des bitcoins ex nihilo, sans nécessiter de consommer des inputs pour générer ses outputs. Ces bitcoins nouvellement créés constituent ce que l'on pourrait appeler les "UTXOs originels".
 
-![BTC204](assets/fr/17.webp)
+![BTC204](assets/fr/22/7.webp)
 
 Les bitcoins issus de la subvention de bloc sont de nouveaux BTC créés à partir de rien, suivant un calendrier d'émission préétabli dans les règles de consensus. La subvention de bloc se réduit de moitié tous les 210 000 blocs, c'est-à-dire environ tous les quatre ans, dans un processus appelé "halving". À l'origine, 50 bitcoins étaient créés avec chaque subvention, mais ce montant a diminué graduellement ; actuellement, il est de 3,125 bitcoins par bloc.
 
@@ -216,11 +216,11 @@ Ensuite, comme mentionné dans les parties précédentes, les pièces sur Bitcoi
 ### La monnaie : authenticité, intégrité et double dépense
 Une des fonctions de la monnaie est de résoudre le problème de la double coïncidence des besoins. Dans un système établi sur le troc, la réalisation d'un échange nécessite non seulement de trouver un individu cédant un bien correspondant à mon besoin, mais aussi de lui procurer un bien de valeur équivalente qui satisfait son propre besoin. Trouver cet équilibre s'avère complexe. 
 
-![BTC204](assets/notext/18.webp)
+![BTC204](assets/notext/23/1.webp)
 
 C'est pourquoi nous recourons à la monnaie qui permet de déplacer la valeur à la fois dans l'espace et dans le temps.
 
-![BTC204](assets/notext/19.webp)
+![BTC204](assets/notext/23/2.webp)
 
 Pour que la monnaie résolve ce problème, il est essentiel que la partie qui fournit un bien ou un service soit convaincue de sa capacité à dépenser cette somme ultérieurement. Ainsi, tout individu rationnel souhaitant accepter une pièce de monnaie, qu'elle soit numérique ou physique, s'assurera qu'elle remplit deux critères fondamentaux :
 - **La pièce doit être intègre et authentique ;**
@@ -232,18 +232,18 @@ L’authenticité est également une caractéristique difficile à vérifier sur
 
 En revanche, en raison de leur nature, la double dépense n'est pas un problème pour les monnaies physiques. Si je vous cède un billet de 10 €, il quitte irrévocablement ma possession pour entrer dans la vôtre, ce qui exclut naturellement toute possibilité de dépense multiple des unités monétaires qu’il incarne. En bref, je ne pourrai pas dépenser de nouveau ce billet de 10 €.
 
-![BTC204](assets/notext/20.webp)
+![BTC204](assets/notext/23/3.webp)
 
 Pour la monnaie numérique, la difficulté est différente. S’assurer de l’authenticité et de l’intégrité d’une pièce est souvent plus simple. Comme nous l'avons vu dans la partie précédente, le modèle d'UTXO sur Bitcoin permet de tracer une pièce jusqu'à son origine, et donc de vérifier qu'elle a bien été créée de manière conforme aux règles de consensus par un mineur.
 
 En revanche, s’assurer de l'absence de double dépense est plus complexe, puisque tout bien numérique est en essence de l'information. Contrairement aux biens physiques, l'information ne se divise pas lors des échanges, mais se propage en se multipliant. Par exemple, si je vous transmets un document par courrier électronique, ce dernier se retrouve alors dupliqué. De votre côté, vous ne pouvez pas vérifier avec certitude que j'ai effacé le document original.
 
-![BTC204](assets/notext/21.webp)
+![BTC204](assets/notext/23/4.webp)
 
 ### La prévention de la double dépense sur Bitcoin
 Le seul moyen d’éviter cette duplication d’un bien numérique est d’être au courant de l’intégralité des échanges sur le système. De cette manière, on peut savoir qui possède quoi et actualiser les avoirs de chacun en fonction des transactions effectuées. C’est ce qui se fait, par exemple, pour la monnaie scripturale dans le système bancaire. Lorsque l’on paie 10 € à un commerçant par carte bancaire, la banque constate cet échange et actualise le livre des comptes.
 
-![BTC204](assets/notext/22.webp)
+![BTC204](assets/notext/23/5.webp)
 
 Sur Bitcoin, la prévention de la double dépense se fait de la même manière. On va chercher à confirmer l'absence d'une transaction ayant déjà dépensé les pièces en question. Si ces dernières n'ont jamais été utilisées, alors nous pouvons être assurés qu'aucune double dépense n'aura lieu. Ce principe avait été décrit par Satoshi Nakamoto dans le White Paper avec cette célèbre phrase :
 
@@ -256,19 +256,19 @@ C'est précisément cette diffusion publique de l’information qui complique la
 ### Le modèle de confidentialité : système bancaire vs Bitcoin
 Dans le système traditionnel, votre compte bancaire est lié à votre identité. Le banquier est en capacité de savoir quel compte bancaire appartient à quel client, et quelles sont les transactions associées. Néanmoins, ce flux d’informations est coupé entre la banque et le domaine public. Autrement dit, il est impossible de connaître le solde et les transactions d’un compte bancaire qui appartient à un autre individu. Seule la banque a accès à ces informations.
 
-![BTC204](assets/fr/23.webp)
+![BTC204](assets/fr/23/6.webp)
 
 Par exemple, votre banquier est au courant que vous achetez votre baguette chaque matin chez le boulanger du quartier, mais votre voisin, lui, n'a pas connaissance de cette transaction. Ainsi, le flux d'informations est accessible aux parties concernées, notamment la banque, mais reste inaccessible à des personnes extérieures.
 
-![BTC204](assets/fr/24.webp)
+![BTC204](assets/fr/23/7.webp)
 
 À cause de la contrainte de diffusion publique des transactions que nous avons vue dans la partie précédente, le modèle de confidentialité de Bitcoin ne peut pas suivre le modèle du système bancaire. Dans le cas de Bitcoin, puisque le flux d’information ne peut pas être cassé entre les transactions et le domaine public, **le modèle de confidentialité repose sur la séparation entre l’identité de l’utilisateur et les transactions** en elles-mêmes.
 
-![BTC204](assets/fr/25.webp)
+![BTC204](assets/fr/23/8.webp)
 
 Par exemple, si vous achetez une baguette chez le boulanger en payant en BTC, votre voisin, qui possède son propre nœud complet, peut voir votre transaction passer, tout comme il peut voir toutes les autres transactions du système. Toutefois, si les principes de confidentialité sont respectés, il ne devrait pas être en mesure de relier cette transaction spécifique à votre identité.
 
-![BTC204](assets/fr/26.webp)
+![BTC204](assets/fr/23/9.webp)
 
 Mais puisque les transactions Bitcoin sont rendues publiques, il devient tout de même possible d'établir des liens entre elles pour en déduire des renseignements sur les parties impliquées. Cette activité constitue même une spécialité en soi que l'on appelle "analyse de chaîne". Dans la partie suivante de la formation, je vous invite à explorer les fondamentaux de l'analyse de chaîne afin de comprendre comment vos bitcoins sont tracés et de savoir mieux s'en défendre.
 
@@ -285,7 +285,7 @@ Pour vulgariser, l’analyse de chaîne se fait en trois grandes étapes :
 2. **Le repérage de caractéristiques connues ;**
 3. **La déduction d’hypothèses.**
 
-![BTC204](assets/fr/27.webp)
+![BTC204](assets/fr/31/1.webp)
 
 L'analyse de chaîne peut être effectuée par n'importe qui. Il suffit d'avoir accès aux informations publiques de la blockchain via un nœud complet pour observer les mouvements des transactions et émettre des hypothèses. Il existe également des outils gratuits qui facilitent cette analyse, comme le site [OXT.me](https://oxt.me/) que nous explorerons en détail dans les deux derniers chapitres de cette partie. Toutefois, le principal risque pour la confidentialité provient des entreprises spécialisées dans l'analyse de chaîne. Ces sociétés ont fait passer l'analyse de chaîne à une échelle industrielle et vendent leurs services à des institutions financières ou des gouvernements. Parmi ces entreprises, Chainalysis est sûrement la plus connue.
 
@@ -293,13 +293,13 @@ L'analyse de chaîne peut être effectuée par n'importe qui. Il suffit d'avoir 
 
 Un des objectifs de l’analyse de chaîne consiste à regrouper diverses activités sur Bitcoin en vue de déterminer l'unicité de l'utilisateur les ayant effectuées. Par la suite, il sera possible de tenter de rattacher ce faisceau d'activités à une identité réelle.
 
-![BTC204](assets/notext/28.webp)
+![BTC204](assets/notext/31/2.webp)
 
 Rappelez-vous du chapitre précédent. Je vous ai expliqué pourquoi le modèle de confidentialité de Bitcoin reposait originellement sur la séparation entre l’identité de l’utilisateur et ses transactions. Il serait donc tentant de penser que l'analyse de chaîne s'avère inutile, puisque même si l'on parvient à regrouper des activités onchain, on ne peut pas les associer à une identité réelle. 
 
 Théoriquement, cette affirmation est exacte. Dans la première partie de cette formation, nous avons vu que l'on emploie des paires de clés cryptographiques pour établir des conditions sur les UTXO. Par essence, ces paires de clés ne divulguent aucune information sur l’identité de leurs détenteurs. Ainsi, même si l'on réussit à regrouper les activités associées à différentes paires de clés, cela ne nous renseigne en rien sur l'entité à l'origine de ces activités.
 
-![BTC204](assets/notext/29.webp)
+![BTC204](assets/notext/31/3.webp)
 
 Cependant, la réalité pratique est bien plus complexe. Il existe une multitude de comportements qui risquent de lier une identité réelle à une activité onchain. En analyse, on appelle cela un point d’entrée, et il en existe une multitude. 
 
@@ -307,13 +307,13 @@ Le plus courant, c’est évidemment le KYC (*Know Your Customer*). Si vous reti
 
 Ces points d'entrée sont quasiment inévitables dans l'usage de Bitcoin. Bien que l'on puisse chercher à en restreindre la portée, ils demeureront présents. C'est pourquoi il est crucial de combiner les méthodes visant à préserver votre vie privée. Si maintenir une séparation entre votre identité réelle et vos transactions est une démarche intéressante, elle demeure aujourd'hui insuffisante. En effet, si l'ensemble de vos activités onchain peut être regroupé, alors le moindre petit point d'entrée est susceptible de compromettre l'unique couche de confidentialité que vous aviez instaurée.
 
-![BTC204](assets/notext/30.webp)
+![BTC204](assets/notext/31/4.webp)
 
 ### Se défendre face à l'analyse de chaîne
 
 Ainsi, il faut également pouvoir faire face à l’analyse de chaîne dans notre utilisation de Bitcoin. En procédant de la sorte, nous pouvons minimiser l'agrégation de nos activités et limiter l’impact d’un point d’entrée sur notre vie privée. 
 
-![BTC204](assets/notext/31.webp)
+![BTC204](assets/notext/31/5.webp)
 
 Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme [le Coinjoin](https://planb.network/fr/tutorials/privacy/coinjoin-samourai-wallet) ou [le Payjoin](https://planb.network/fr/tutorials/privacy/payjoin) (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
 
@@ -344,7 +344,7 @@ Un pattern de transaction est simplement un modèle ou une structure globale de 
 
 En d’autres termes, nous allons uniquement regarder le nombre d’UTXO en inputs et le nombre d'UTXO en outputs, sans nous attarder sur les détails plus spécifiques ou l'environnement de la transaction. À partir du modèle observé, nous pourrons interpréter la nature de la transaction. On va alors rechercher des caractéristiques sur sa structure et en déduire une interprétation.
 
-![BTC204](assets/fr/32.webp)
+![BTC204](assets/fr/32/01.webp)
 
 Dans cette partie, nous allons découvrir ensemble les principaux modèles de transactions que l'on peut rencontrer en analyse de chaîne, et pour chaque modèle, je vous donnerai l'interprétation vraisemblable de cette structure, ainsi qu'un exemple concret.
 
@@ -352,7 +352,7 @@ Dans cette partie, nous allons découvrir ensemble les principaux modèles de tr
 
 On commence par un pattern très répandu, puisque c'est celui qui ressort sur la plupart des paiements en bitcoins. Le modèle du paiement simple se caractérise par la consommation d’un ou plusieurs UTXOs en inputs et la production de 2 UTXOs en outputs. Ce modèle va donc ressembler à cela :
 
-![BTC204](assets/fr/33.webp)
+![BTC204](assets/fr/32/02.webp)
 
 Lorsque l'on repère cette structure de transaction sur la blockchain, on peut déjà en tirer une interprétation. Comme son nom l'indique, ce modèle indique que nous sommes en présence d’une transaction d’envoi ou de paiement. L’utilisateur a consommé son propre UTXO en inputs pour satisfaire en outputs un UTXO de paiement et un UTXO de change (rendu de monnaie qui revient vers le même utilisateur). 
 
@@ -366,7 +366,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de l’envoi si
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
-![BTC204](assets/fr/34.webp)
+![BTC204](assets/fr/32/03.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
@@ -378,7 +378,7 @@ Maintenant que vous comprenez ce qu'est un pattern, passons aux autres modèles 
 
 Ce deuxième modèle se caractérise par la consommation d’un seul UTXO en entrée et la production d’un seul UTXO en sortie.
 
-![BTC204](assets/fr/35.webp)
+![BTC204](assets/fr/32/04.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’un auto-transfert. L’utilisateur s’est transféré ses bitcoins à lui-même, sur une autre adresse lui appartenant. Puisqu’aucun change n'existe sur la transaction, il est très peu plausible que l’on soit en présence d’un paiement. En effet, lorsqu'un paiement est effectué, il est presque impossible que le payeur dispose d'un UTXO correspondant exactement au montant requis par le vendeur, en plus des frais de transaction. En général, le payeur est donc obligé de produire un output de change.
 
@@ -390,7 +390,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern du balayage :
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
-![BTC204](assets/fr/36.webp)
+![BTC204](assets/fr/32/05.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
@@ -402,7 +402,7 @@ Reprenons l'exemple d'Alice : si le balayage mène vers une adresse connue d'une
 
 Ce modèle se caractérise par la consommation de plusieurs UTXOs en entrée et la production d’un seul UTXO en sortie.
 
-![BTC204](assets/fr/37.webp)
+![BTC204](assets/fr/32/06.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’une consolidation. C’est une pratique courante chez les utilisateurs de Bitcoin, visant à fusionner plusieurs UTXOs en anticipation d'une éventuelle augmentation des frais de transaction. En effectuant cette opération durant une période où les frais sont bas, il est possible de réaliser des économies sur les frais futurs. Nous parlerons plus en détail de cette pratique dans le chapitre 4.3.
 
@@ -416,19 +416,19 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de la consolida
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
-![BTC204](assets/fr/38.webp)
+![BTC204](assets/fr/32/07.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
 Dans le cadre d'une analyse de chaîne, ce modèle peut révéler beaucoup d'informations. Par exemple, si l'on sait que l'un des inputs appartient à Alice, on peut supposer que tous les autres inputs et l'output de cette transaction lui appartiennent également. Cette hypothèse permettrait alors de remonter la chaîne de transactions antérieures pour découvrir et analyser d'autres transactions vraisemblablement associées à Alice.
 
-![BTC204](assets/fr/39.webp)
+![BTC204](assets/fr/32/08.webp)
 
 ### La dépense groupée
 
 Ce modèle se caractérise par la consommation de quelques UTXOs en inputs (souvent un seul) et la production de nombreux UTXOs en outputs.
 
-![BTC204](assets/fr/40.webp)
+![BTC204](assets/fr/32/09.webp)
 
 L’interprétation de ce modèle est que nous sommes en présence d’une dépense groupée. C’est une pratique qui révèle vraisemblablement une très grosse activité économique, comme une plateforme d'échange par exemple. La dépense groupée permet à ces entités d’économiser des frais en réunissant leurs dépenses dans une seule transaction.
 
@@ -440,7 +440,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de la dépense 
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
-![BTC204](assets/fr/41.webp)
+![BTC204](assets/fr/32/10.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
@@ -448,7 +448,7 @@ Source : [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13
 
 Parmi les patterns de transactions, nous pouvons également identifier des modèles qui révèlent l’utilisation d’un protocole spécifique. Par exemple, les coinjoins Whirlpool (dont nous allons parler dans la partie 5) vont avoir une structure facilement identifiable qui permet de les différencier d'autres transactions plus classiques.
 
-![BTC204](assets/fr/42.webp)
+![BTC204](assets/fr/32/11.webp)
 
 L'analyse de ce pattern suggère que nous sommes vraisemblablement en présence d'une transaction collaborative. Il est aussi possible d'y observer un coinjoin. Si cette dernière hypothèse se révèle exacte, alors le nombre de sorties pourrait nous fournir une estimation approximative du nombre de participants au coinjoin.
 
@@ -458,7 +458,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de la transacti
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
 
-![BTC204](assets/fr/43.webp)
+![BTC204](assets/fr/32/12.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
@@ -526,13 +526,13 @@ Cette procédure n'est pas sans risques pour la confidentialité et la sécurit�
 
 Le premier risque associé au KYC est qu'il offre un point d'entrée privilégié pour une analyse de chaîne. Comme nous l'avons vu dans la partie précédente, les analystes peuvent regrouper et suivre les activités sur la blockchain en utilisant des patterns de transactions et des heuristiques. Une fois qu'ils ont réussi à clusteriser l'activité onchain d'un utilisateur, il suffit de trouver un seul point d'entrée parmi toutes ses transactions et toutes ses clés pour compromettre entièrement sa confidentialité.
 
-![BTC204](assets/notext/29.webp)
+![BTC204](assets/notext/45/1.webp)
 
 Lorsque vous effectuez un KYC, vous fournissez un point d'entrée de très grande qualité pour une analyse de chaîne, car vous associez vos adresses de réception utilisées lors du retrait de vos bitcoins d'une plateforme d'échange à votre identité complète et vérifiée. En théorie, ces informations ne sont connues que par l'entreprise à laquelle vous les avez fournies, mais, comme nous le verrons plus loin, le risque de fuite de données est réel. De plus, le simple fait qu'une entreprise détient ces informations peut être problématique, même si elle ne les partage pas.
 
 Ainsi, si vous ne prenez pas d'autres mesures pour limiter le regroupement de vos activités sur la blockchain, toute personne ayant connaissance de ce point d'entrée qu'est le KYC peut potentiellement relier toute votre activité sur Bitcoin à votre identité. Du point de vue de cette entreprise, votre utilisation de Bitcoin perd donc toute confidentialité. 
 
-![BTC204](assets/notext/44.webp)
+![BTC204](assets/notext/45/2.webp)
 
 Pour illustrer cela par une comparaison, c'est comme si votre banquier de la *Banque X* avait accès non seulement à toutes vos transactions effectuées avec la *Banque X*, mais pouvait également observer vos transactions avec la *Banque Y* et toutes vos transactions en espèces.
 
@@ -574,7 +574,7 @@ Il est important de déconstruire certaines idées reçues sur le KYC que l’on
 
 Tout d'abord, il est inexact de penser que protéger sa confidentialité pour des bitcoins acquis via KYC est inutile. Les outils et méthodes de confidentialité sur Bitcoin sont variés et servent des objectifs différents. L'utilisation de transactions coinjoin sur des bitcoins issus de KYC, par exemple, n'est pas une mauvaise idée. Bien sûr, il est nécessaire d'être prudent avec les plateformes d'échange régulées pour éviter le gel ou le bannissement de son compte, mais d'un point de vue strictement technique, ces pratiques ne sont pas incompatibles. Le coinjoin a pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer certains risques d'analyse de chaîne associés au KYC. Bien qu'il ne supprime pas tous les risques, cela représente déjà un bénéfice significatif. 
 
-![BTC204](assets/notext/45.webp)
+![BTC204](assets/notext/45/3.webp)
 
 La confidentialité sur Bitcoin ne doit pas être envisagée de manière binaire, comme une distinction entre des bitcoins "anonymes" et d'autres qui ne le seraient pas. Posséder des bitcoins acquis via KYC ne signifie pas que tout est perdu ; au contraire, l'utilisation d'outils de confidentialité peut s'avérer encore plus bénéfique.
 

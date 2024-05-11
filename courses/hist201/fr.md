@@ -238,13 +238,11 @@ Toutefois, les choses n'ont pas évolué dans le sens souhaité et PayPal a dû 
 
 ## Les alternatives centralisées et Bitcoin
 
-Ainsi, les tentatives de créer des services centralisés alternatifs au système existant ont toutes finies par être arrêtées, d'une façon ou d'une autre. L'inconvénient de ces modèles est qu'ils reposent sur un tiers de confiance, qui peut faire faillite, partir avec la caisse ou bien être contrôlé par les autorités. Dans le dernier cas, le service en question est face à un dilemme : s'adapter en se conformant aux réglementations financières, comme l'ont fait GoldMoney et PayPal, ou périr en refusant d'obéir, un destin subi par e-gold et Liberty Reserve.
+Ainsi, les tentatives de créer des services centralisés alternatifs au système existant ont toutes finies par être arrêtées, d'une façon ou d'une autre. L'inconvénient de ces modèles est qu'ils reposent sur un tiers de confiance, qui peut faire faillite, partir avec la caisse ou bien être contrôlé par les autorités. Dans le dernier cas, le service en question est face à un dilemme : s'adapter en se conformant aux réglementations financières, comme l'ont fait GoldMoney et PayPal, ou périr en refusant d'obéir, un destin subi par e-gold et Liberty Reserve ou encore le Liberty Dollar.
 
-La fermeture de ces systèmes est contemporaine de la création et des débuts de Bitcoin.
+La fermeture de ces derniers systèmes a été contemporaine de la création et des débuts de Bitcoin. Par conséquent, Satoshi Nakamoto et les premiers utilisateurs de Bitcoin les connaissaient bien. Pour ce qui est de Satoshi, il [avait connaissance](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) du modèle utilisé par e-gold et a [évoqué](https://bitcointalk.org/index.php?topic=87.msg807#msg807) à plusieurs reprises Pecunix et Liberty Reserve dans ses interventions publiques et privées.
 
-Dustin Trammell, eLD
-
-Satoshi, e-gold, Pecunix, Liberty Reserve
+C'est à cause de cette fragilité des systèmes centralisés que les partisans de la liberté -- dont notamment les cypherpunks -- ont cherché à créer une monnaie décentralisée. Il fallait trouver un moyen d'éviter de faire reposer l'intégralité de l'infrastructure du système sur un point unique. C'est pourquoi plusieurs modèles « minimisant la confiance » ont émergé à la fin des années 1990 et au début des années 2000, avant la découverte de Bitcoin. Le prochain chapitre sera consacré à eux.
 
 ## Les systèmes décentralisés
 
@@ -290,7 +288,7 @@ Metzdowd Cryptography mailing list, document de 9 pages, critiques et réponses,
 
 ### La sortie du logiciel et le lancement du réseau (janv. 2009)
 
-Annonce sur la liste, version 0.1, réponse aux questions, échanges avec Hal Finney
+Annonce sur la liste, version 0.1, réponse aux questions, échanges avec Hal Finney, échanges avec Dustin Trammell
 
 ## Présenter Bitcoin au monde (janv. 2009 -- oct. 2009)
 

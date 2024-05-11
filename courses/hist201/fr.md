@@ -244,7 +244,13 @@ La fermeture de ces derniers systèmes a été contemporaine de la création et 
 
 C'est à cause de cette fragilité des systèmes centralisés que les partisans de la liberté -- dont notamment les cypherpunks -- ont cherché à créer une monnaie décentralisée. Il fallait trouver un moyen d'éviter de faire reposer l'intégralité de l'infrastructure du système sur un point unique. C'est pourquoi plusieurs modèles « minimisant la confiance » ont émergé à la fin des années 1990 et au début des années 2000, avant la découverte de Bitcoin. Le prochain chapitre sera consacré à eux.
 
-## Les systèmes décentralisés
+## Les modèles décentralisés qui ont précédé Bitcoin
+
+Bitcoin constitue un modèle décentralisé de monnaie numérique. En cela, il évite le recours à un tiers de confiance, qui constituerait un point de défaillance unique du système. Comme l'ont montré les exemples de eCash, des devises en or numérique et de Liberty Reserve, la centralisation d'un système qui se veut être alternatif au système en place mène inévitablement à sa fermeture, d'une façon ou d'une autre.
+
+Bitcoin n'est cependant pas le premier concept de monnaie décentralisée à avoir été proposé. Dès la fin des années 1990, de tels modèles ont été décrits par les cypherpunks, qui étaient obsédés par la liberté et la confidentialité des individus sur Internet, et qui jugeaient (à l'instar de David Chaum) qui les systèmes surveillés menaient à un avenir dystopique. Ils [appelaient](https://cypherpunks.venona.com/date/1993/03/msg00392.html) à « écrire du code » et considéraient que la « monnaie électronique » constituait un élément essentiel de leur idéal.
+
+Dans ce chapitre, nous étudierons l'émergence des divers éléments techniques fondateurs qui ont plus tard été utilisés dans Bitcoin. Ensuite, nous parlerons de b-money, de bit gold et de RPOW, respectivement conçus par les cypherpunks Wei Dai, Nick Szabo et Hal Finney. Enfin, nous évoquerons le cas de Ripple, dont le modèle est légèrement différent, mais qui a sa place dans l'histoire de la création de Bitcoin.
 
 ### Le consensus distribué
 
@@ -273,6 +279,8 @@ Hal Finney, 2004
 ### Ripple
 
 Ryan Fugger, 2004
+
+« répartir la confiance plutôt que de la concentrer »
 
 # L'action de Satoshi Nakamoto (2008 -- 2011)
 

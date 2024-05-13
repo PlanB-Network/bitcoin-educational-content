@@ -748,9 +748,28 @@ Ces avatars peuvent aussi être représentés sous forme d'images :
 
 Bien que ces robots n'aient pas de fonctionnalité technique spécifique dans le cadre du BIP47, ils jouent un rôle dans la facilitation des interactions entre utilisateurs en offrant une identité visuelle facilement reconnaissable.
 
+---
+
+*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur PlanB Network : [CRYPTO 301](https://planb.network/en/courses/crypto301).*
+
 ### Le code de paiement réutilisable
 
+Comme mentionné auparavant, le code de paiement réutilisable est situé à la profondeur 3 du portefeuille HD, ce qui le rend comparable à une `xpub`, tant par sa position dans la structure du portefeuille que par son rôle.
 
+Le code de paiement de 80 octets se décompose comme suit :
+- **L'octet `0` : La version**. Pour la première version du BIP47, cet octet est fixé à `0x01` ;
+- **L'octet `1` : Le champ de bits**. Cet espace est réservé pour intégrer des indications supplémentaires lors d'usages spécifiques. Pour une utilisation classique avec PayNym, cet octet est défini à `0x00` ;
+- **L'octet `2` : La parité de `y`**. Cet octet est `0x02` ou `0x03`, indiquant si l'ordonnée de la clé publique est paire ou impaire, car on utilise une clé publique compressée ;
+- **De l'octet `3` à l'octet `34` : La valeur de `x`**. Ces octets représentent l'abscisse de la clé publique. La concaténation de `x` et de la parité de `y` forme la clé publique compressée complète ;
+- **De l'octet `35` à l'octet `66` : Le code de chaîne**. Cet espace contient le code de chaîne associé à la clé publique ;
+- **De l'octet `67` à l'octet `79` : Le rembourrage**. Cet espace est destiné à d'éventuelles évolutions futures. Pour la version actuelle, on y place simplement des zéros pour atteindre la taille de 80 octets requise pour une sortie `OP_RETURN`.
+
+Voici la représentation hexadécimale de mon code de paiement réutilisable déjà présenté dans la section précédente :
+```bash
+0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
+```
+
+![BTC204](assets/fr/72/7.webp)
 
 
 

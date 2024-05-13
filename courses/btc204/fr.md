@@ -723,10 +723,87 @@ Le code de paiement sert ainsi d'identifiant virtuel issu de la graine du portef
 
 ![BTC204](assets/fr/72/5.webp)
 
+L'objectif de dérivation pour le BIP47 est identifié par l'index `47'` (`0x8000002F`), faisant référence au BIP47. Un exemple de chemin de dérivation pour un code de paiement réutilisable serait le suivant :
+```bash
+m/47'/0'/0'/
+```
+
+Pour vous donner une idée de ce à quoi ressemble un code de paiement, voici le mien :
+```bash
+PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+```
+
+Ce code peut également être encodé en QR code, afin de faciliter sa communication, tout comme une adresse de réception classique.
+
+Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur Twitter, il s'agit de représentations visuelles du code de paiement, créées par Samourai Wallet. Elles sont générées via une fonction de hachage, ce qui leur confère une quasi-unicité. Ils se présentent sous forme d'une petite chaîne de caractères débutant par `+` :
+```bash
++throbbingpond8B1
++twilightresonance487
++billowingfire340
+```
+
+Ces avatars peuvent aussi être représentés sous forme d'images :
+
+![BTC204](assets/notext/72/6.webp)
+
+Bien que ces robots n'aient pas de fonctionnalité technique spécifique dans le cadre du BIP47, ils jouent un rôle dans la facilitation des interactions entre utilisateurs en offrant une identité visuelle facilement reconnaissable.
+
+### Le code de paiement réutilisable
+
+
+
+
+
+### L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
+
+
+
+
+
+### La transaction de notification
+
+
+
+### Construction de la transaction de notification
+
+
+
+### Réception de la transaction de notification
+
+
+
+### La transaction de paiement BIP47
+
+
+
+### Réception du paiement BIP47 et dérivation de la clé privée
+
+
+
+### Remboursement du paiement BIP47
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ## Silent Payments
+
+
 
 
 

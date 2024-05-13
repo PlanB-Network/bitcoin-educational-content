@@ -250,11 +250,26 @@ Bitcoin constitue un modèle décentralisé de monnaie numérique. En cela, il �
 
 Bitcoin n'est cependant pas le premier concept de monnaie décentralisée à avoir été proposé. Dès la fin des années 1990, de tels modèles ont été décrits par les cypherpunks, qui étaient obsédés par la liberté et la confidentialité des individus sur Internet, et qui jugeaient (à l'instar de David Chaum) qui les systèmes surveillés menaient à un avenir dystopique. Ils [appelaient](https://cypherpunks.venona.com/date/1993/03/msg00392.html) à « écrire du code » et considéraient que la « monnaie électronique » constituait un élément essentiel de leur idéal.
 
-Dans ce chapitre, nous étudierons l'émergence des divers éléments techniques fondateurs qui ont plus tard été utilisés dans Bitcoin. Ensuite, nous parlerons de b-money, de bit gold et de RPOW, respectivement conçus par les cypherpunks Wei Dai, Nick Szabo et Hal Finney. Enfin, nous évoquerons le cas de Ripple, dont le modèle est légèrement différent, mais qui a sa place dans l'histoire de la création de Bitcoin.
+Dans ce chapitre, nous étudierons l'émergence des divers éléments techniques fondateurs qui ont plus tard été utilisés dans Bitcoin : le consensus distribué, l'horodatage et la preuve de travail. Ensuite, nous parlerons de b-money, de bit gold et de RPOW, respectivement conçus par les cypherpunks Wei Dai, Nick Szabo et Hal Finney. Enfin, nous évoquerons le cas de Ripple, dont le modèle est légèrement différent, mais qui a sa place dans l'histoire de la création de Bitcoin.
 
 ### Le consensus distribué
 
-Lamport et al., 1980
+Avec l'émergence des ordinateurs dans les années 1950, est apparue la possibilité de les connecter entre eux et c'est ainsi que les premiers réseaux informatiques se sont
+formés, menant au développement d'Internet, le « réseau des réseaux », dans les années 70. S'est inévitablement posée la question de l'infrastructure de ces réseaux. Dans son article fondateur de 1964 (décrivant la commutation de paquets), l'informaticien polono-américain Paul Baran recensait ainsi trois types de réseaux~: le réseau centralisé, reposant sur un nœud unique ; le réseau distribué, où chaque point est un nœud ; le réseau décentralisé (non distribué), reposant sur un réseau distribué de nœuds multiples.
+
+![Les réseaux centralisé, décentralisé et distirbué selon Paul Baran](assets/img/ch3/1.webp)
+
+On peut dégager deux modèles purs de ces considérations : le modèle client-serveur, où un serveur central répond aux requêtes des clients, et le modèle pair à pair, où chaque nœud a le même rôle dans le système. Ce dernier modèle a particulièrement été utile pour le partage de fichiers dans les années 2000, avec la création de BitTorrent et d'autres protocoles similaires. Le réseau Tor est lui décentralisé, pas purement pair à pair.
+
+Un problème qu'on rencontre dans le cas des architectures distribuées est le problème du consensus distribué, qu'on appelle généralement le problème des généraux byzantins, qui a été formalisé par Leslie Lamport, Robert Shostak et Marshall Pease dans un article publié en 1982. Ce problème traite de la remise en cause de la fiabilité des transmissions et de l'intégrité des participants dans les systèmes pair à pair, et il s'applique dans les cas où les composants d'un système informatique ont besoin d'être en accord.
+
+Le problème est énoncé sous la forme d'une métaphore faisant intervenir des généraux de l'armée de l'Empire byzantin, qui assiègent une ville ennemie avec leurs troupes dans le but de l'attaquer et qui ne peuvent communiquer qu'à l'aide de messagers. L'objectif est de trouver une stratégie (c'est-à-dire un algorithme) permettant de gérer la présence de traîtres et de s'assurer que tous les généraux loyaux se mettent d'accord sur un plan de bataille pour que l'attaque soit un succès. En voici une illustration (source : *L'Élégance de Bitcoin*) :
+
+![Le problème des généraux byzantins](assets/img/ch3/2.webp)
+
+La résolution de ce problème est importante pour les systèmes distribués qui gèreraient une unité de compte. De tels systèmes demandent en effet que les participants se mettent d'accord sur la propriété des unités de compte, à savoir sur qui possède quoi.
+
+Avant Bitcoin, le problème était résolu de manière absolue par des algorithmes dits « classiques » qui nécessitaient que les nœuds soient connus à l'avance et que deux d'entre eux soient honnêtes. Le plus connu d'entre eux est probablement l'algorithme de consensus [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (sigle de *Practical Byzantine Fault Tolerance*), qui a été mis au point par Miguel Castro et Barbara Liskov en 1999 et qui permettait à un nombre donné de participants de se mettre d'accord en gérant des milliers de requêtes par seconde avec une latence de moins d'une milliseconde.
 
 ### L'horodatage de documents
 

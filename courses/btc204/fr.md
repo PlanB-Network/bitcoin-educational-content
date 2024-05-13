@@ -799,6 +799,33 @@ Concrètement, pour générer la clé publique compressée et le code de chaîne
 
 ### L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
 
+Le protocole cryptographique au cœur du BIP47 est désigné sous l'acronyme ECDH, pour *Elliptic-Curve Diffie-Hellman*. Cette méthode est une variante de l'échange de clés Diffie-Hellman original.
+
+Introduit en 1976, Diffie-Hellman est un protocole d'accord de clés qui permet à deux parties, munies chacune d'une paire de clés (publique et privée), de convenir d'un secret commun, même en communiquant uniquement via un canal public et non sécurisé.
+
+![BTC204](assets/fr/72/10.webp)
+
+Ce secret commun (ici la clé bleue), peut alors servir à d'autres opérations. Typiquement, on peut utiliser ce secret partagé pour chiffrer et déchiffrer une communication sur un réseau non sécurisé :
+
+![BTC204](assets/notext/72/11.webp)
+
+Pour réussir cet échange, Diffie-Hellman utilise l'arithmétique modulaire afin de calculer le secret partagé. Voici son fonctionnement vulgarisé :
+- Alice et Bob s'accordent sur une couleur commune, ici le jaune, qui constitue une donnée publique (les attaquants connaissent cette couleur) ;
+- Alice sélectionne une couleur secrète, ici le rouge, et mélange les deux pour obtenir de l'orange ;
+- Bob choisit également une couleur secrète, ici le bleu, et la mélange au jaune pour obtenir du vert ;
+- Ils échangent ensuite les couleurs obtenues, l'orange et le vert. Cet échange peut se faire sur un réseau non sécurisé et observé par des attaquants ;
+- En mélangeant le vert de Bob à sa propre couleur secrète, Alice produit du marron ;
+- Bob, faisant de même avec l'orange d'Alice et son bleu secret, obtient également du marron.
+
+![BTC204](assets/fr/72/12.webp)
+
+Dans cette vulgarisation, la couleur marron représente le secret partagé entre Alice et Bob. Il faut imaginer qu'en réalité, il est impossible pour l'attaquant de séparer les couleurs orange et verte, afin de retrouver les couleurs secrètes d'Alice ou de Bob.
+
+À présent, examinons comment fonctionne réellement ce protocole, non pas avec des analogies de couleurs, mais en utilisant de véritables nombres et de l'arithmétique modulaire !
+
+
+
+
 
 
 

@@ -271,6 +271,8 @@ La résolution de ce problème est importante pour les systèmes distribués qui
 
 Avant Bitcoin, le problème était résolu de manière absolue par des algorithmes dits « classiques » qui nécessitaient que les nœuds soient connus à l'avance et que deux d'entre eux soient honnêtes. Le plus connu d'entre eux est probablement l'algorithme de consensus [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (sigle de *Practical Byzantine Fault Tolerance*), qui a été mis au point par Miguel Castro et Barbara Liskov en 1999 et qui permettait à un nombre donné de participants de se mettre d'accord en gérant des milliers de requêtes par seconde avec une latence de moins d'une milliseconde.
 
+Avec l'algorithme de consensus de Bitcoin, Satoshi Nakamoto l'a résolue de manière probabiliste, permettant de supprimer certaines contraintes en sacrifiant la finalité stricte des transactions. Le 13 novembre 2008, il [écrivait](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) ainsi que « la chaîne de preuves de travail [était\] une solution au problème des généraux byzantins ». (original: "The proof-of-work chain is a solution to the Byzantine Generals' Problem.")
+
 ### L'horodatage de documents
 
 Haber et Scornetta, 1991

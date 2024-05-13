@@ -771,7 +771,31 @@ Voici la représentation hexadécimale de mon code de paiement réutilisable dé
 
 ![BTC204](assets/fr/72/7.webp)
 
+Ensuite, il faut également ajouter au début l'octet du préfixe `P` pour indiquer clairement qu'il s'agit d'un code de paiement. Cet octet est représenté par `0x47` :
+```bash
+0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
+```
 
+Enfin, pour assurer l'intégrité du code de paiement, on procède à un calcul de somme de contrôle en utilisant `HASH256`, qui consiste en un double hachage avec la fonction `SHA256`. Les quatre premiers octets résultants de ce hachage sont ensuite concaténés à la fin du code de paiement :
+```bash
+0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
+```
+
+![BTC204](assets/fr/72/8.webp)
+
+Une fois ces étapes complétées, le code de paiement est prêt. Il ne reste plus qu'à le convertir en base 58 pour obtenir sa version finale :
+```bash
+PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
+```
+
+Au cours de ce processus de création du code de paiement, nous utilisons une clé publique compressée ainsi qu'un code de chaîne. Tous deux sont issus d'une dérivation déterministe et hiérarchique à partir de la graine du portefeuille. Le chemin de dérivation utilisé pour y parvenir est :
+```bash
+m/47'/0'/0'/
+```
+
+Concrètement, pour générer la clé publique compressée et le code de chaîne associés au code de paiement réutilisable, nous commençons par calculer la clé privée maîtresse à partir de la graine du portefeuille. Nous procédons ensuite à la dérivation d'une paire de clés filles en utilisant l'indice `47 + 2^31` (dérivation renforcée). Cette étape est suivie de deux autres dérivations successives de paires filles, chacune utilisant l'indice `2^31` (dérivation renforcée).
+
+![BTC204](assets/notext/72/9.webp)
 
 ### L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
 

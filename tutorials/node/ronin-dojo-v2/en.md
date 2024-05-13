@@ -42,7 +42,7 @@ RoninDojo offers an image for automatic installation of its software on a [RockP
 For my part, I run RoninDojo on a Raspberry Pi equipped with 8 GB of RAM. Although some community members have managed to get it working on devices with only 4 GB of RAM, I have not tested this configuration myself. Given the small price difference, it seems wise to opt for the 8 GB RAM version. This could also prove useful if you plan to repurpose your Raspberry Pi for other uses in the future.
 It is important to note that the RoninDojo teams have reported frequent issues related to the case and the SSD adapter. I have faced these issues myself. **Therefore, it is strongly recommended to avoid cases equipped with a USB cable for your node's SSD.** Instead, prefer a storage expansion card specifically designed for your Raspberry Pi:
 
-![storage expansion card RPI4](assets/en/1.webp)
+![storage expansion card RPI4](assets/notext/1.webp)
 
 To store the Bitcoin blockchain, you will need an SSD compatible with the storage expansion card you have chosen. Currently (February 2024), we are in a transition phase. It is expected that, in a few months, 1 TB disks will no longer be sufficient to contain the growing size of the blockchain, especially considering the various applications you plan to integrate into your node. Some therefore recommend investing in a 2 TB SSD for peace of mind in the long term. However, with the downward trend in SSD prices year after year, others suggest settling for a 1 TB disk, which should be sufficient for one or two years, arguing that by the time it becomes obsolete, the cost of 2 TB models will probably have decreased. The choice thus depends on your personal preferences. If you plan to keep your RoninDojo for a significant duration and wish to avoid any technical handling in the coming years, the option of a 2 TB SSD seems to be the most prudent, as it offers you a comfortable margin for the future.
 
@@ -52,35 +52,35 @@ In addition, you will need various small components:
 - A micro SD card of at least 16 GB (although 8 GB could technically suffice, the price difference between 8 and 16 GB cards is often negligible);
 - An RJ45 Ethernet cable for network connection.
 
-![node material](assets/en/2.webp)
+![node material](assets/notext/2.webp)
 
 ## How to assemble the Raspberry Pi 4?
 The assembly of your node will vary depending on the chosen hardware, especially the type of case. However, the general outline of the steps to follow remains generally similar in the assembly.
 Start by installing your SSD on the storage expansion card, taking care to secure the two locking screws at the back.
 
-![assembly1](assets/en/3.webp)
+![assembly1](assets/notext/3.webp)
 
 Then attach your Raspberry Pi to the expansion card.
 
-![assembly2](assets/en/4.webp)
+![assembly2](assets/notext/4.webp)
 
 Also, attach the fan to the Raspberry Pi.
 
-![assembly3](assets/en/5.webp)
+![assembly3](assets/notext/5.webp)
 
 Connect the various components, paying attention to use the correct pins, referring to the manual of your case. Case manufacturers often offer video tutorials to assist you in the assembly. In my case, I have an additional expansion card equipped with an on/off button. This is not essential for making a Bitcoin node. I mainly use it to have a power button.
 
 If, like me, you have an expansion card equipped with an on/off button, do not forget to install the small "Auto Power On" jumper. This will allow your node to start automatically as soon as it is powered on. This feature is particularly useful in the event of a power outage, as it allows your node to restart by itself, without manual intervention on your part.
 
-![assembly4](assets/en/6.webp)
+![assembly4](assets/notext/6.webp)
 
 Before inserting all the hardware into the case, it is important to check the proper functioning of your Raspberry Pi, the storage expansion card, and the fan by powering them on.
 
-![assembly5](assets/en/7.webp)
+![assembly5](assets/notext/7.webp)
 
 Finally, install your Raspberry Pi in its case. Be aware, a later step will require adding the micro SD card into the appropriate port on the Raspberry Pi. If your case is equipped with an opening that allows you to insert the SD card without having to open it (as is the case with mine illustrated in the photo), you can proceed to close the case now. However, if your case does not have direct access to the micro SD port, you will need to wait until you have prepared the micro SD card to insert it before finalizing the assembly.
 
-![assembly6](assets/en/8.webp)
+![assembly6](assets/notext/8.webp)
 
 ## How to install RoninDojo v2 on a Raspberry Pi 4?
 
@@ -93,31 +93,31 @@ You will need to use the _**Raspberry Pi Imager**_ software, designed to facilit
 
 Once the software is installed, open it, and insert your micro SD card into your personal computer. From the Raspberry Pi Imager interface, select `CHOOSE OS`:
 
-![choose OS](assets/en/9.webp)
+![choose OS](assets/notext/9.webp)
 
 Next, go to the `Raspberry Pi OS (other)` menu:
 
-![choose OS others](assets/en/10.webp)
+![choose OS others](assets/notext/10.webp)
 
 Choose the operating system named `Raspberry Pi OS (Legacy, 64-bit) Lite`, which is `0.3 GB` in size:
 
-![choose OS Legacy Lite](assets/en/11.webp)
+![choose OS Legacy Lite](assets/notext/11.webp)
 
 After selecting the operating system, you will be redirected to the main menu of Raspberry Pi Imager. Click on `CHOOSE STORAGE`:
 
-![choose storage](assets/en/12.webp)
+![choose storage](assets/notext/12.webp)
 
 Select your micro SD card:
 
-![choose micro sd](assets/en/13.webp)
+![choose micro sd](assets/notext/13.webp)
 
 After choosing the operating system and the micro SD card, click on `NEXT`:
 
-![choose next](assets/en/14.webp)
+![choose next](assets/notext/14.webp)
 
 A new window will appear. Select `EDIT CONFIGURATION`:
 
-![edit settings](assets/en/15.webp)
+![edit settings](assets/notext/15.webp)
 
 In this window, go to the `GENERAL` tab and make the following settings (which are very important for it to work):
 - Enable the option and assign `RoninDojo` as the hostname;
@@ -125,38 +125,38 @@ In this window, go to the `GENERAL` tab and make the following settings (which a
 - Disable `Configure Wi-Fi`;
 - Enable `Set locale settings` and select your time zone as well as the keyboard type corresponding to your computer;
 
-![general settings](assets/en/16.webp)
+![general settings](assets/notext/16.webp)
 
 In the SERVICES tab, click on the `Enable SSH` box and select `Use a password for authentication`:
 
-![services settings](assets/en/17.webp)
+![services settings](assets/notext/17.webp)
 
 Also, ensure that in the `OPTIONS` tab, telemetry is disabled:
 
-![options settings](assets/en/18.webp)
+![options settings](assets/notext/18.webp)
 
 Click on `SAVE`:
 
-![settings save](assets/en/19.webp)
+![settings save](assets/notext/19.webp)
 Confirm by clicking on `YES` to start creating the bootable micro SD card:
-![settings yes](assets/en/20.webp)
+![settings yes](assets/notext/20.webp)
 
 A message will inform you that all data on the micro SD card will be erased. Confirm by clicking on `YES` to start the process:
 
-![overwrite micro SD](assets/en/21.webp)
+![overwrite micro SD](assets/notext/21.webp)
 
 Wait until the software finishes preparing your micro SD card:
 
-![writing micro SD](assets/en/22.webp)
+![writing micro SD](assets/notext/22.webp)
 
 When the message indicating the end of the process appears, you can remove the micro SD card from your computer:
 
-![writing micro SD completed](assets/en/23.webp)
+![writing micro SD completed](assets/notext/23.webp)
 
 ### Step 2: Complete the Node Assembly
 You can now insert the micro SD card into the appropriate port of your Raspberry Pi.
 
-![micro SD](assets/en/24.webp)
+![micro SD](assets/notext/24.webp)
 
 Then connect your Raspberry Pi to your router using the Ethernet cable. Finally, turn on your node by connecting the power cable and pressing the power button (if your setup includes one).
 
@@ -212,22 +212,22 @@ After completing the installation, to connect to your node via a browser, ensure
 
 Once on the RoninUI homepage, you will be prompted to start the setup. To do this, click on the `Let's start` button.
 
-![lets start](assets/en/25.webp)
+![lets start](assets/notext/25.webp)
 
 At this stage, RoninUI presents you with your `root` password. It is essential to keep it safe. You can opt for a physical backup, on paper, or save it in a [password manager](https://planb.network/courses/secu101/4/2).
 
-![root password](assets/en/26.webp)
+![root password](assets/notext/26.webp)
 
 After saving the `root` password, check the box `I have backed up Root user credentials` and click on `Continue` to proceed.
 
-![confirm root password](assets/en/27.webp)
+![confirm root password](assets/notext/27.webp)
 
 The next step involves creating a user password, which will be used both for accessing the RoninUI web interface and for establishing SSH sessions with your node. Choose a strong password and make sure to save it securely. You will need to enter this password twice before clicking on `Finish` to validate. As for the username, it is recommended to keep the default choice, `ronindojo`. If you decide to change it, remember to adjust the commands in the following steps accordingly.
 
-![user credentials](assets/en/28.webp)
+![user credentials](assets/notext/28.webp)
 
 Once these actions are completed, wait for your node to initialize. You will then access the RoninUI web interface. You are almost at the end of the process, only a few small steps left!
-![Ronin UI](assets/en/29.webp)
+![Ronin UI](assets/notext/29.webp)
 
 ### Step 7: Remove Temporary Credentials
 Open a new terminal on your personal computer and establish an SSH connection with your node using the following command:
@@ -239,7 +239,7 @@ If, for example, the IP address of your node is `192.168.1.40`, the appropriate 
 If you changed your username during the previous step, replacing the default username (`ronindojo`) with another, make sure to use this new name in the command. For example, if you chose `planb` as the username and the IP address is `192.168.1.40`, the command to enter will be:
 `SSH planb@192.168.1.40`
 You will be asked to enter the user password. Enter it and then press `enter` to validate. You will then access the RoninCLI interface. Use the arrow keys on your keyboard to navigate to the `Exit RoninDojo` option and press `enter` to select it.
-![RoninCLI](assets/en/30.webp)
+![RoninCLI](assets/notext/30.webp)
 
 At this point, you are on your node's terminal, with a command prompt similar to: `ronindojo@RoninDojo:~ $`. To remove the temporary user created during the configuration of the bootable micro SD card, enter the following command and press `enter`:
 `sudo deluser --remove-home pi`
@@ -285,23 +285,23 @@ The first use of your freshly installed and synchronized node will be to broadca
 
 To obtain the Tor address of your Electrum Server, from the RoninUI web interface, go to:
 `Pairing > Electrum server > Pair now`
-![Pairing](assets/en/31.webp)
-![Electrs](assets/en/32.webp)
-You will then need to enter the `Hostname` address ending in `.onion` in your wallet software, accompanied by port `50001`. ![hostname](assets/en/33.webp)
+![Pairing](assets/notext/31.webp)
+![Electrs](assets/notext/32.webp)
+You will then need to enter the `Hostname` address ending in `.onion` in your wallet software, accompanied by port `50001`. ![hostname](assets/notext/33.webp)
 For example, on Sparrow Wallet, simply go to the tab:
 `File > Preferences > Server > Private Electrum`
 
-![Sparrow](assets/en/34.webp)
+![Sparrow](assets/notext/34.webp)
 
 ### Connecting your wallet software to Samourai Dojo
 As an alternative to using Electrs, Dojo allows you to connect your compatible software wallet directly to your RoninDojo node. Wallets like Samourai Wallet and Sentinel offer this functionality.
 
 To establish the connection, you will just need to scan the QR code of your Dojo. To access this QR code via RoninUI, navigate to:
 `Pairing > Samourai Dojo > Pair now`
-![Samourai Dojo](assets/en/35.webp)
+![Samourai Dojo](assets/notext/35.webp)
 To link your Samourai Wallet to your Dojo, simply scan this QR code during the app installation:
 
-![Samourai Wallet connection](assets/en/36.webp)
+![Samourai Wallet connection](assets/notext/36.webp)
 
 If you already had a Samourai Wallet before setting up your Ronin Dojo, it is necessary to back up your wallet, uninstall and then reinstall the Samourai Wallet app, before restoring your wallet. Upon launching the reinstalled app, you will have the option to connect to a new Dojo. **Be careful, this process carries the risk of losing your bitcoins if not executed correctly!** Make sure you have the backup of your Samourai wallet in your files and verify the validity of your passphrase via `Settings > Troubleshoot > Passphrase`. It is also important to have a readable backup of your recovery phrase and your passphrase. For more precision in this operation, it is recommended to follow this detailed tutorial: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
@@ -312,17 +312,17 @@ However, using online block explorers poses risks to your privacy and involves t
 To mitigate these risks, it is recommended to use your own instance of *Mempool.space* via the Tor network, directly hosted on your node. This solution ensures the preservation of your privacy and the autonomy of your data.
 To do this, start by installing *Mempool Space Visualizer* from RoninUI. On the web interface, go to the `Dashboard` tab and click on `Manage` below `Mempool Space`:
 `Dashboard > Mempool Space > Manage`
-![Manage mempool](assets/en/37.webp)
+![Manage mempool](assets/notext/37.webp)
 Then click on the `Install Mempool visualizer` button:
-![install mempool](assets/en/38.webp)
+![install mempool](assets/notext/38.webp)
 Confirm your user password:
-![password mempool](assets/en/39.webp)
+![password mempool](assets/notext/39.webp)
 Wait for the installation to complete, then click again on the `Manage` button:
-![Mempool Manage](assets/en/40.webp)
+![Mempool Manage](assets/notext/40.webp)
 You will obtain a `.onion` link to access your own instance of *Mempool.space* via the Tor network.
-![Mempool link](assets/en/41.webp)
+![Mempool link](assets/notext/41.webp)
 I advise you to save this link in your favorites on the Tor browser or add it to the Tor Browser app on your smartphone for easy and secure access from anywhere. If you do not yet have the Tor browser, you can download it here: [https://www.torproject.org/download/](https://www.torproject.org/download/)
-![Mempool Tor](assets/en/42.webp)
+![Mempool Tor](assets/notext/42.webp)
 
 ### Using Whirlpool to mix your bitcoins
 Your RoninDojo node also integrates _WhirlpoolCLI_, a command-line interface that enables the automation of Whirlpool coinjoins, and _WhirlpoolGUI_, a graphical interface designed to interact with _WhirlpoolCLI_.
@@ -349,15 +349,15 @@ If you changed your username during step 6, replacing the default username (`ron
 
 You will be asked to enter the user password. Enter it and press `enter` to validate. You will then access the RoninCLI interface. Use the arrow keys on your keyboard to navigate to the `Samourai Toolkit` menu and press `enter` to select it:
 
-![Samourai Toolkit](assets/en/43.webp)
+![Samourai Toolkit](assets/notext/43.webp)
 
 Then select `Whirlpool Stat Tool`:
 
-![WST](assets/en/44.webp)
+![WST](assets/notext/44.webp)
 
 Upon initializing WST, the tool will proceed with its automatic installation. Wait during this step. The usage instructions will scroll through. Once the installation is completed, press any key to access the WST terminal:
 
-![WST commands](assets/en/45.webp)
+![WST commands](assets/notext/45.webp)
 
 The following command prompt will be displayed:
 `wst#/tmp>`
@@ -378,12 +378,12 @@ Replace `0001` with the denomination code of the pool you are interested in. The
 
 After downloading, load the data by replacing `0001` with your pool's code in this command: `load 0001`
 
-![WST loading](assets/en/46.webp)
+![WST loading](assets/notext/46.webp)
 
 Wait for the loading to complete, which may take a few minutes. Once the data is loaded, to know the anonset scores of your coin, execute the command `score` followed by your TXID (without the brackets):
 `score [TXID]`
 
-![WST score](assets/en/47.webp)
+![WST score](assets/notext/47.webp)
 
 WST will then display the retrospective score (_Backward-looking metrics_), followed by the prospective score (_Forward-looking metrics_). Besides the anonset scores, WST will also indicate the diffusion rate of your transaction within the pool, relative to its anonset.
 
@@ -395,7 +395,7 @@ The Boltzmann calculator is a tool for analyzing a Bitcoin transaction, offering
 Before detailing the procedure for using the Boltzmann Calculator, it is important to understand the meaning of these indicators, their calculation method, and their utility. Although applicable to any Bitcoin transaction, these indicators are particularly useful for assessing the quality of a coinjoin transaction.
 
 **The first indicator** that the software calculates is the total number of possible combinations, indicated under `nb combinations` in the tool. Based on the values of the UTXOs involved, this indicator quantifies the number of ways in which inputs can be associated with outputs. In other words, it determines the number of plausible interpretations a transaction can generate. For example, a coinjoin structured according to the Whirlpool 5x5 model presents `1496` possible combinations:
-![combinations](assets/en/50.webp)
+![combinations](assets/notext/50.webp)
 Credit: KYCP
 
 **The second indicator** calculated is the entropy of a transaction, designated by `Entropy`. When a transaction has a high number of possible combinations, it is often more relevant to refer to its entropy. This is defined as the binary logarithm of the number of possible combinations. Here is the formula used:
@@ -441,6 +441,7 @@ $$ED = \frac{E}{T}$$
 $$ED = \frac{10.5469}{10}$$
 $$ED = 1.054 \text{ bits}$$
 **The fifth piece of information** delivered by the Boltzmann Calculator is the table of matching probabilities between inputs and outputs. This table indicates, through the `Boltzmann score`, the probability that a specific input is connected to a given output. Taking the example of a Whirlpool coinjoin, the probability table would highlight the chances of linkage between each input and output, providing a quantitative measure of the ambiguity or predictability of associations in the transaction:
+
 | %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
 |---------|----------|----------|----------|----------|----------|
 | Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
@@ -448,6 +449,7 @@ $$ED = 1.054 \text{ bits}$$
 | Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Here, it is clear that each input has an equal chance of being associated with any output, which reinforces the ambiguity and confidentiality of the transaction. However, in the case of a simple transaction with a single input and two outputs, the situation is different:
 
@@ -472,30 +474,30 @@ If you changed your username during step 6, replacing the default username (`ron
 
 You will be asked to enter the user password. Enter it and then press `enter` to validate. You will then access the RoninCLI interface. Use the arrows on your keyboard to navigate to the `Samourai Toolkit` menu and press `enter` to select it:
 
-![Samourai Toolkit](assets/en/43.webp)
+![Samourai Toolkit](assets/notext/43.webp)
 
 Then select `Boltzmann Calculator`:
 
-![boltzmann](assets/en/49.webp)
+![boltzmann](assets/notext/49.webp)
 
 You will arrive at the software's home page:
 
-![boltzmann home](assets/en/51.webp)
+![boltzmann home](assets/notext/51.webp)
 
 Enter the TXID of the transaction you wish to study and press the `enter` key:
 
-![boltzmann txid](assets/en/52.webp)
+![boltzmann txid](assets/notext/52.webp)
 
 The calculator then provides you with all the indicators we have previously discussed:
 
-![boltzmann result](assets/en/53.webp)
+![boltzmann result](assets/notext/53.webp)
 
 ### Other features of your RoninDojo v2
 Your RoninDojo node integrates various other features. In particular, you have the ability to scan specific information to take it into account. For example, sometimes your Samourai wallet, connected to RoninDojo, may not display the bitcoins you actually hold. If the balance indicates 0 while you are certain to have bitcoins in this wallet, several reasons can explain this situation, such as an error in the derivation paths. But one of the causes can also be that your node is not properly monitoring your addresses. To solve this problem, you can ensure that your node is indeed following your `xpub` using the _xpub tool_. To access this tool via RoninUI, follow the path:
 `Maintenance > XPUB Tool`
 
 Enter the `xpub` that is causing the problem and click on the `Check` button to verify this information:
-![xpub tool](assets/en/54.webp)
+![xpub tool](assets/notext/54.webp)
 Ensure that all transactions are properly listed. It is also important to verify that the derivation type used matches that of your wallet. If this is not the case, click on `Retype`, then choose from `BIP44`, `BIP49`, or `BIP84` according to your needs.
 Beyond this tool, the `Maintenance` tab of RoninUI is full of other useful features:
 - *Transaction Tool*: Allows examining the details of a given transaction;

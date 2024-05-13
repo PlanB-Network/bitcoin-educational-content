@@ -73,33 +73,33 @@ If you choose the second option, you will need to establish a connection between
 
 To start, it is necessary to obtain the payment code of your collaborator's Paynym. In the Samourai Wallet application, your collaborator must press the icon of their Paynym (the little robot) located at the top left of the screen, then click on their Paynym nickname, starting with `+...`. For example, mine is `+namelessmode0aF`.
 
-![samourai paynym](assets/en/6.webp)
-If your collaborator is using Sparrow Wallet, they should click on the 'Tools' tab, then on 'Show PayNym'.![paynym sparrow](assets/en/7.webp)
+![samourai paynym](assets/notext/6.webp)
+If your collaborator is using Sparrow Wallet, they should click on the 'Tools' tab, then on 'Show PayNym'.![paynym sparrow](assets/notext/7.webp)
 **Following your collaborator's PayNym from Samourai Wallet:**
 
 If you are using Samourai Wallet, launch the application and access the 'PayNyms' menu in the same way. If this is your first time using your PayNym, you will need to obtain its identifier.
 
-![request paynym samourai](assets/en/8.webp)
+![request paynym samourai](assets/notext/8.webp)
 
 Then click on the blue '+' at the bottom right of the screen.
-![add collaborator paynym](assets/en/9.webp)
+![add collaborator paynym](assets/notext/9.webp)
 You can then paste your collaborator's payment code by selecting 'PASTE PAYMENT CODE', or open the camera to scan their QR code by pressing 'SCAN QR CODE'.
-![paste paynym identifier](assets/en/10.webp)
+![paste paynym identifier](assets/notext/10.webp)
 
 Click on the 'FOLLOW' button.
-![follow paynym](assets/en/11.webp)
+![follow paynym](assets/notext/11.webp)
 Confirm by clicking 'YES'.
-![confirm follow paynym](assets/en/12.webp)
+![confirm follow paynym](assets/notext/12.webp)
 The software will then offer you a 'CONNECT' button. It is not necessary to click on this button for our tutorial. This step is only required if you plan to make payments to the other PayNym as part of the [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), which is unrelated to our tutorial.
-![connect paynym](assets/en/13.webp)
+![connect paynym](assets/notext/13.webp)
 Once your PayNym is following your collaborator's PayNym, repeat this process in the opposite direction so that your collaborator can also follow you. You can then perform a Stonewall x2 transaction.
 
 **Following your collaborator's PayNym from Sparrow Wallet:**
 
 If you are using Sparrow Wallet, open your wallet and access the 'Show PayNym' menu. If you are using your PayNym for the first time, you will need to obtain an identifier by clicking on 'Retrieve PayNym'.
-![request paynym sparrow](assets/en/14.webp)
+![request paynym sparrow](assets/notext/14.webp)
 Then enter your collaborator's PayNym identifier (either their nickname '+...' or their payment code 'PM...') in the 'Find Contact' box, and click on the 'Add Contact' button.
-![add contact paynym](assets/en/15.webp)
+![add contact paynym](assets/notext/15.webp)
 The software will then offer you a 'Link Contact' button. It is not necessary to click on this button for our tutorial. This step is only required if you plan to make payments to the indicated PayNym as part of the [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), which is unrelated to our tutorial.
 
 Once your PayNym is following your collaborator's PayNym, repeat this process in the opposite direction so that your collaborator can also follow you. You can then perform a Stonewall x2 transaction.

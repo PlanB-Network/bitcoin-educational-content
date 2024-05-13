@@ -16,7 +16,7 @@ Ce tutoriel peut être suivi à titre expérimental uniquement pour la création
 Une phrase de récupération, également parfois nommée "mnémonique", "seed phrase", ou "phrase secrète", est une séquence composée habituellement de 12 ou 24 mots, qui est générée de manière pseudo-aléatoire à partir d'une source d'entropie. La séquence pseudo-aléatoire est toujours complétée d'une somme de contrôle (checksum).
 
 La phrase mnémonique, conjointement avec une passphrase optionnelle, est utilisée pour dériver de façon déterministe l'intégralité des clés associées à un portefeuille HD (déterministe et hiérarchique). Cela signifie qu’à partir de cette phrase, il est possible de générer et de recréer de manière déterministe l'ensemble des clés privées et publiques du portefeuille Bitcoin, et par conséquent, d'accéder aux fonds qui y sont associés. 
-![mnemonic](assets/fr/1.webp)
+![mnemonic](assets/notext/1.webp)
 L'utilité de cette phrase est de fournir un moyen de sauvegarde et de récupération des bitcoins facile à utiliser. Il est impératif de conserver la phrase ménmonique en lieu sûr et de manière sécurisée, car toute personne en possession de cette phrase aurait accès aux fonds du portefeuille correspondant. Si elle est utilisée dans le cadre d’un portefeuille classique, et sans passphrase optionnelle, elle constitue souvent un SPOF (point de défaillance unique). 
 
 Habituellement, cette phrase vous est donnée directement lors de la création de votre portefeuille, par le logiciel ou le hardware wallet utilisé. Cependant, il est aussi possible de générer cette phrase par vous-même, pour ensuite la saisir sur le support choisi afin de dériver les clés du portefeuille. C'est ce que nous allons apprendre à faire dans ce tutoriel.
@@ -32,7 +32,7 @@ Par la suite, l'usage d'un ordinateur avec un terminal deviendra nécessaire pou
 
 Pour une démarche expérimentale concernant un "portefeuille fictif", il est possible d'utiliser votre ordinateur habituel et son terminal. Cependant, pour une approche plus rigoureuse visant à limiter les risques de compromission de votre phrase, l'idéal serait d'utiliser un PC déconnecté d'internet (de préférence sans composant wifi ni connexion filaire RJ45), équipé du minimum de périphériques (tous devant être connectés par câble, afin d'éviter le bluetooth), et surtout, fonctionnant sous une distribution Linux amnésique telle que [Tails](https://tails.boum.org/index.fr.html), démarrée depuis un support amovible.
 
-![mnemonic](assets/fr/2.webp)
+![mnemonic](assets/notext/2.webp)
 
 Dans un contexte réel, il serait primordial de garantir la confidentialité de votre espace de travail en choisissant un lieu à l'abri des regards, sans circulation de personnes et exempt de caméras (webcams, téléphones...).
 
@@ -62,31 +62,31 @@ Dans le cas de notre phrase mnémonique, la somme de contrôle a pour fonction d
 Pour obtenir cette somme de contrôle, l'entropie est passée dans la fonction de hachage SHA256. Cette opération produit une séquence de 256 bits en sortie, parmi lesquels seuls les `N` premiers bits seront conservés, `N` dépendant de la longueur de la phrase de récupération voulue (voir le tableau ci-dessus). Ainsi, pour une phrase de 12 mots, ce sont les 4 premiers bits du hachage qui seront retenus.
 ![mnemonic](assets/fr/3.webp)
 Ces 4 premiers bits, formant la somme de contrôle, seront alors ajoutés à l'entropie originale. À cette étape, la phrase de récupération est pratiquement constituée, mais elle se présente encore sous une forme binaire. Pour convertir cette suite binaire en mots conformément au standard BIP39, nous allons d'abord diviser la séquence en segments de 11 bits.
-![mnemonic](assets/fr/4.webp)
+![mnemonic](assets/notext/4.webp)
 Chacun de ces paquets représente un nombre en binaire qui sera ensuite converti en un nombre décimal (base 10). Nous ajouterons `1` sur chaque nombre, car dans l'informatique, on compte à partir de `0`, mais la liste BIP39 est numérotée à partir de `1`.
 
-![mnemonic](assets/fr/5.webp)
+![mnemonic](assets/notext/5.webp)
 
 Enfin, le nombre en décimal nous indique la position du mot correspondant dans [la liste des 2048 mots du BIP39](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf). Il ne reste alors plus qu'à sélectionner ces mots pour composer la phrase de récupération de notre portefeuille.
 
-![mnemonic](assets/fr/6.webp)
+![mnemonic](assets/notext/6.webp)
 
 Maintenant, passons à la pratique ! Nous allons générer une phrase de récupération de 12 mots. Toutefois, cette opération demeure identique dans le cas d'une phrase de 24 mots, à l'exception qu'il faudrait opter pour une entropie de 256 bits et une somme de contrôle de 8 bits, comme l'indique le tableau d'équivalence situé au début de cette partie.
 
 ## Étape 1 : Génération de l'entropie
 Munissez-vous de votre feuille de papier, de votre stylo et de vos dés. Pour commencer, nous allons devoir générer 128 bits de manière aléatoire, c'est-à-dire une séquence de 128 `0` et `1` à la suite. Pour ce faire, nous allons utiliser les dés.
 
-![mnemonic](assets/fr/7.webp)
+![mnemonic](assets/notext/7.webp)
 
 Les dés possèdent 6 faces, toutes avec une probabilité identique d'être tirées. Cependant, notre objectif est de produire un résultat binaire, soit deux résultats possibles. Nous allons donc attribuer la valeur `0` à chaque lancer aboutissant sur un chiffre pair, et `1` pour chaque chiffre impair. En conséquence, nous effectuerons 128 lancers pour constituer notre entropie de 128 bits. Si le dé affiche `2`, `4`, ou `6`, nous inscrirons `0`; pour `1`, `3`, ou `5`, ce sera `1`. Chaque résultat sera noté de manière séquentielle, de gauche à droite et de haut en bas. 
 
 Pour faciliter les étapes suivantes, nous regrouperons les bits par paquets de quatre et de trois, comme sur l'image ci-dessous. Chaque ligne doit disposer de 11 bits : 2 paquets de 4 bits et un paquet de 3 bits.
 
-![mnemonic](assets/fr/8.webp)
+![mnemonic](assets/notext/8.webp)
 
 Comme on peut le voir sur mon exemple, le douzième mot est actuellement constitué de seulement 7 bits. Ceux-ci seront complétés par les 4 bits de la somme de contrôle lors de l'étape suivante pour former les 11 bits.
 
-![mnemonic](assets/fr/9.webp)
+![mnemonic](assets/notext/9.webp)
 
 ## Étape 2 : Calcul de la checksum
 Cette étape est la plus critique dans la génération manuelle d'une phrase mnémonique, car elle requiert l'utilisation d'un ordinateur. Comme évoqué précédemment, la checksum correspond au début du hash SHA256 généré à partir de l'entropie. Bien qu'il soit théoriquement possible de calculer un SHA256 à la main pour une entrée de 128 ou 256 bits, cette tâche pourrait prendre une semaine entière. De plus, la moindre erreur dans les calculs manuels ne serait identifiée qu'à l'issue du processus, ce qui vous obligerait à tout reprendre depuis le début. Il est donc inimaginable de faire cette étape avec une feuille de papier et un stylo. L'ordinateur est quasi obligatoire. Si vous voulez toutefois apprendre à faire un SHA256 à la main, nous vous expliquons comment le faire dans [la formation CRYPTO301](https://planb.network/en/courses/crypto301).
@@ -96,43 +96,43 @@ C'est pour cette raison que je vous déconseille fortement de faire une phrase m
 Pour calculer la checksum en laissant le moins de traces possible, nous allons utiliser une distribution Linux amnésique à partir d'un support amovible nommée **Tails**. Ce système d'exploitation démarre depuis une clé USB et fonctionne entièrement sur la mémoire RAM de l'ordinateur, sans interagir avec le disque dur. Ainsi, il ne laisse, en théorie, aucune trace sur l'ordinateur après son extinction. Veuillez noter que Tails est compatible uniquement avec les processeurs de type x86_64, et non avec ceux de type ARM.
 
 Pour commencer, depuis votre ordinateur habituel, [téléchargez l'image de Tails depuis son site officiel](https://tails.net/install/index.fr.html). Assurez-vous de l'authenticité de votre téléchargement en utilisant la signature du développeur ou l'outil de vérification proposé par le site.
-![mnemonic](assets/fr/10.webp)
+![mnemonic](assets/notext/10.webp)
 Procédez tout d'abord au formatage de votre clé USB, puis installez-y Tails à l'aide d'un outil tel que [Balena Etcher](https://etcher.balena.io/).
-![mnemonic](assets/fr/11.webp)
+![mnemonic](assets/notext/11.webp)
 Après la confirmation que le flashage est réussi, éteignez votre ordinateur. Procédez ensuite à la déconnexion de l'alimentation et au retrait du disque dur de la carte mère de votre PC. Dans le cas où une carte WiFi est présente, il convient de la déconnecter. De même, retirez tout câble Ethernet RJ45. Pour minimiser les risques de fuite de données, il est recommandé de débrancher votre box internet et d'éteindre votre téléphone mobile. De plus, assurez-vous de déconnecter tout périphérique superflu de votre ordinateur, tels que le micro, la webcam, les enceintes, ou le casque, et vérifiez que les autres périphériques soient uniquement connectés en filaire. Toutes ces étapes de préparation du PC ne sont pas indispensables, mais elles permettent simplement de réduire au maximum la surface d'attaque dans un contexte réel.
 
 Vérifiez si votre BIOS est configuré pour permettre le démarrage à partir d'un périphérique externe. Si ce n'est pas le cas, modifiez ce paramètre, puis redémarrez votre machine. Une fois que vous avez sécurisé l'environnement informatique, redémarrez l'ordinateur depuis la clé USB avec Tails OS.
 
 Sur l'écran d'accueil de Tails, sélectionnez la langue de votre choix, puis lancez le système en cliquant sur `Start Tails`.
 
-![mnemonic](assets/fr/12.webp)
+![mnemonic](assets/notext/12.webp)
 
 Depuis le bureau, cliquez sur l'onglet `Applications`.
 
-![mnemonic](assets/fr/13.webp)
+![mnemonic](assets/notext/13.webp)
 
 Naviguez dans le menu `Utilities`.
 
-![mnemonic](assets/fr/14.webp)
+![mnemonic](assets/notext/14.webp)
 
 Et enfin, cliquez sur l'application `Terminal`.
 
-![mnemonic](assets/fr/15.webp)
+![mnemonic](assets/notext/15.webp)
 
 Vous arriverez sur un nouveau terminal de commande vierge.
 
-![mnemonic](assets/fr/16.webp)
+![mnemonic](assets/notext/16.webp)
 
 Tapez la commande `echo`, suivie de votre entropie générée à l'étape précédente, en veillant à insérer un espace entre `echo` et votre séquence de chiffres binaires.
 
-![mnemonic](assets/fr/17.webp)
+![mnemonic](assets/notext/17.webp)
 
 Ajoutez un espace supplémentaire, puis saisissez la commande suivante, en utilisant un *pipe* (`|`) :
 ```bash
 | shasum -a 256 -0
 ```
 
-![mnemonic](assets/fr/18.webp)
+![mnemonic](assets/notext/18.webp)
 
 Dans l'exemple avec mon entropie, la commande totale est la suivante :
 ```bash
@@ -149,7 +149,7 @@ Dans cette commande :
 
 Après avoir soigneusement vérifié que votre séquence binaire ne comporte pas d'erreur de saisie, appuyez sur la touche `Enter` pour exécuter la commande. Le terminal affichera alors le hash SHA256 de votre entropie.
 
-![mnemonic](assets/fr/19.webp)
+![mnemonic](assets/notext/19.webp)
 
 Pour le moment le hash est exprimé en format hexadécimal (base 16). Par exemple, le mien est : 
 ```bash
@@ -179,9 +179,10 @@ La prochaine étape consiste à convertir ce caractère hexadécimal (base 16) e
 | 14                | e                     | 1110             |
 | 15                | f                     | 1111             |
 
+
 Dans mon exemple, la lettre `a` correspond au nombre binaire `1010`. Ces 4 bits forment la somme de contrôle de notre phrase de récupération. Vous pouvez désormais les ajouter à l'entropie déjà notée sur votre feuille de papier, en les plaçant à la fin du dernier mot.
 
-![mnemonic](assets/fr/20.webp)
+![mnemonic](assets/notext/20.webp)
 
 Votre phrase mnémonique est à présent complète, mais elle est au format binaire. La prochaine étape consistera à la convertir en système décimal pour pouvoir ensuite associer chaque nombre à un mot correspondant dans la liste du BIP39.
 
@@ -205,7 +206,7 @@ Pour chaque ligne, nous additionnerons les valeurs correspondant aux chiffres `1
 ```
 
 La conversion se ferait comme cela :
-![mnemonic](assets/fr/21.webp)
+![mnemonic](assets/notext/21.webp)
 Le résultat serait alors :
 ```bash
 1389
@@ -213,16 +214,16 @@ Le résultat serait alors :
 
 Pour chaque bit égal à `1`, reportez en dessous le nombre associé. Pour chaque bit égal à `0`, ne reportez rien. 
 
-![mnemonic](assets/fr/22.webp)
+![mnemonic](assets/notext/22.webp)
 
 Il suffit ensuite d'additionner tous les nombres validés par des `1` pour obtenir le nombre décimal représentant chaque ligne binaire. Par exemple, voici ce que ça donne pour ma feuille :
 
-![mnemonic](assets/fr/23.webp)
+![mnemonic](assets/notext/23.webp)
 
 ## Étape 4 : Recherche des mots de la phrase mnémonique
 Avec les nombres décimaux obtenus, nous pouvons désormais localiser les mots correspondants dans la liste pour composer la phrase mnémonique. Toutefois, la numérotation des 2048 mots de la liste du BIP39 s'étend de `1` à `2048`. Or, nos résultats calculés en binaire s'échelonnent de `0` à `2047`. Il y a donc un décalage d'une unité à rectifier. Pour corriger ce décalage, il suffit d'ajouter `1` aux douze nombres décimaux précédemment calculés.
 
-![mnemonic](assets/fr/24.webp)
+![mnemonic](assets/notext/24.webp)
 
 Après cet ajustement, vous disposez du rang de chaque mot au sein de la liste. Il ne reste plus qu'à identifier chaque mot selon son numéro. Évidemment, comme pour toutes les autres étapes, vous ne devez pas utiliser votre ordinateur pour effectuer cette conversion. Assurez-vous donc d'avoir imprimé la liste au préalable.
 
@@ -232,19 +233,19 @@ Par exemple, si le nombre dérivé de la première ligne est 1721, le mot corres
 ```bash
 1721. strike
 ```
-![mnemonic](assets/fr/25.webp)
+![mnemonic](assets/notext/25.webp)
 De cette manière, on procède successivement avec les 12 mots pour construire notre phrase mnémonique.
 
-![mnemonic](assets/fr/26.webp)
+![mnemonic](assets/notext/26.webp)
 
 ## Étape 5 : Création du portefeuille Bitcoin
 À ce stade, il ne nous reste plus qu'à importer notre phrase mnémonique sur un logiciel de portefeuille Bitcoin. Selon nos préférences, cela peut se faire sur un logiciel desktop pour obtenir un portefeuille chaud, ou sur un hardware wallet pour avoir un portefeuille froid.
 
-![mnemonic](assets/fr/27.webp)
+![mnemonic](assets/notext/27.webp)
 
 C'est seulement lors de l'importation que vous pourrez vérifier la validité de votre checksum. Si le logiciel indique un message tel que `Invalid Checksum`, cela signifie qu'une erreur s'est glissée dans votre processus de création. Généralement, cette erreur découle soit d'un calcul erroné durant les conversions et additions à la main, soit d'une faute de frappe lors de la saisie de votre entropie dans le terminal sur Tails. Il sera nécessaire de reprendre le processus depuis le début pour corriger ces erreurs.
 
-![mnemonic](assets/fr/28.webp)
+![mnemonic](assets/notext/28.webp)
 
 Après avoir créé votre portefeuille, n'oubliez pas de faire une sauvegarde de votre phrase de récupération sur un support physique, tel que du papier ou du métal, et de détruire la feuille de calcul utilisée pendant sa génération pour éviter toute fuite d'information.
 

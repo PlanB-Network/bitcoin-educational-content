@@ -151,7 +151,10 @@ Tomando o exemplo de um coinjoin Whirlpool novamente, a tabela de probabilidades
 | ------- | ------- | ------- | ------- | ------- | ------- |
 | Entrada 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
 | Entrada 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
+
 Aqui, podemos ver claramente que cada entrada tem uma chance igual de ser associada a qualquer saída, o que aumenta a confidencialidade da transação.
+
 Calcular a pontuação de Boltzmann envolve dividir o número de interpretações nas quais um certo evento ocorre pelo número total de interpretações disponíveis. Assim, para determinar a pontuação associando a entrada Nº 0 com a saída Nº 3 (`512` interpretações), o seguinte procedimento é usado:
 ```bash
 Interpretações (IN.0 > OUT.3) = 512
@@ -172,11 +175,14 @@ Tomando o exemplo de um Whirlpool 8x8 coinjoin (ciclo de aumento), a tabela Bolt
 | IN.6  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
 | IN.7  | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   | 23%   |
 
+
 No entanto, no caso de uma transação simples com uma única entrada e duas saídas, a situação é diferente:
 
 | %       | Saída 0 | Saída 1 |
 |---------|---------|---------|
 | Entrada 0 | 100%    | 100%    |
+
+
 Aqui, observa-se que a probabilidade de cada saída originar-se da entrada Nº 0 é de `100%`. Uma probabilidade menor, portanto, traduz-se em maior privacidade ao diluir os vínculos diretos entre entradas e saídas.
 ### Vínculos Determinísticos:
 A sexta informação fornecida é o número de vínculos determinísticos, complementada pela razão desses vínculos. Este indicador revela quantas conexões entre as entradas e saídas na transação analisada são incontestáveis, com uma probabilidade de `100%`. A razão, por outro lado, oferece uma perspectiva sobre o peso desses vínculos determinísticos dentro do conjunto total de vínculos de transação.

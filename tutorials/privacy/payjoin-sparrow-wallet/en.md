@@ -45,12 +45,12 @@ To perform a remote Cahoots transaction, specifically a PayJoin (Stowaway) via S
 **Here is the procedure to establish this connection:**
 
 First, you need to obtain the recipient's Paynym identifier. This can be done using their nickname or payment code. To do this, from the recipient's Sparrow wallet, select the `Tools` tab, then click on `Show PayNym`.
-![Show Paynym](assets/en/2.webp)
+![Show Paynym](assets/notext/2.webp)
 ![Paynym Sparrow](assets/en/1.webp)
 On your side, open your Sparrow Wallet and access the same `Show PayNym` menu. If you are using your Paynym for the first time, you will need to obtain an identifier by clicking on `Retrieve PayNym`.
-![Retrieve paynym](assets/en/3.webp)
+![Retrieve paynym](assets/notext/3.webp)
 Next, enter your collaborator's Paynym identifier (either their nickname `+...` or their payment code `PM...`) in the `Find Contact` box, then click on the `Add Contact` button.
-![add contact](assets/en/4.webp)
+![add contact](assets/notext/4.webp)
 The software will then offer you a `Link Contact` button. It is not necessary to click on this button for our tutorial. This step is only necessary if you plan to make payments to the Paynym indicated in the context of [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), which is unrelated to our tutorial.
 
 Once the recipient's Paynym is followed by your Paynym, repeat this operation in the opposite direction so that your recipient also follows you. You can then perform a Payjoin.

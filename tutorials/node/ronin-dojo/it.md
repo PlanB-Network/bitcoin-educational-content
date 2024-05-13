@@ -531,12 +531,14 @@ La quinta informazione fornita dal calcolatore Boltzmann è la tabella delle pro
 
 Se riprendiamo il nostro esempio con un Coinjoin Whirlpool, la tabella delle probabilità sarà:
 
-| Input | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
-| ----- | -------- | -------- | -------- | -------- | -------- | --- | --- | --- | --- | --- | --- | --- |
-| 0     | 34%      | 34%      | 34%      | 34%      | 34%      |
-| 1     | 34%      | 34%      | 34%      | 34%      | 34%      |
-| 2     | 34%      | 34%      | 34%      | 34%      | 34%      |
-| 3     | 34%      | 34%      | 34%      | 34%      | 34%      |     | 4   | 34% | 34% | 34% | 34% | 34% |
+| %       | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
+|---------|----------|----------|----------|----------|----------|
+| Input 0 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 1 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 2 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 3 | 34%      | 34%      | 34%      | 34%      | 34%      |
+| Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
+
 
 Si può vedere chiaramente che ogni input ha la stessa probabilità di essere collegato ad ogni output.
 

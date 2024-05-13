@@ -425,7 +425,7 @@ Uma carteira pode ser um software em seu computador, um aplicativo em seu smartp
 
 ### Como funciona uma carteira de bitcoin
 
-Seja o seu "banqueiro" de bitcoin ou você mesmo, em geral, a grande maioria das carteiras de bitcoin funciona com uma tecnologia semelhante, a criptografia assimétrica, e, portanto, um sistema de par de chaves: uma chave privada para receber e uma chave pública para gastar.
+Seja o seu "banqueiro" de bitcoin ou você mesmo, em geral, a grande maioria das carteiras de bitcoin funciona com uma tecnologia semelhante, a criptografia assimétrica, e, portanto, um sistema de par de chaves: uma chave privada para gastar e uma chave pública para receber.
 
 - Chave privada
   Ao inicializar uma carteira, uma frase de recuperação secreta (chave privada) é gerada e fornecida a você na forma de 24 palavras.

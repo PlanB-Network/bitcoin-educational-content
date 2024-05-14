@@ -81,6 +81,7 @@ Partie 7 - Découvrir les propositions d'amélioration du protocole en lien avec
         | Le code de paiement réutilisable
         | L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
         | La transaction de notification
+        | Le modèle de confidentialité du BIP47
         | Construction de la transaction de notification
         | Réception de la transaction de notification
         | La transaction de paiement BIP47

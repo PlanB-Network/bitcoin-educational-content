@@ -750,7 +750,7 @@ Bien que ces robots n'aient pas de fonctionnalité technique spécifique dans le
 
 ---
 
-*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur PlanB Network : [CRYPTO 301](https://planb.network/en/courses/crypto301).*
+*Dans les sections suivantes de ce chapitre dédié au BIP47, nous allons examiner en détail son fonctionnement, en mettant un accent particulier sur les méthodes cryptographiques utilisées. Pour saisir pleinement ces explications quelque peu techniques, il est essentiel de comprendre au préalable la structure des portefeuilles HD, les procédés de dérivation de clés et les principes fondamentaux de la cryptographie basée sur les courbes elliptiques. Si vous souhaitez approfondir ces concepts, une autre formation gratuite est disponible sur PlanB Network : [CRYPTO 301](https://planb.network/en/courses/crypto301). Je vous conseille tout de même de les suivre, car en comprenant le fonctionnement technique du BIP47, vous comprendrez beaucoup plus facilement d'autres propositions similaires dont nous allons parler dans les chapitres suivants.*
 
 ### Le code de paiement réutilisable
 
@@ -918,7 +918,7 @@ K = k·G
 
 Dans cette formule, `K` désigne la clé publique, `k` la clé privée, et `G` le point générateur.
 
-L'une des caractéristiques essentielles de ces clés est la simplicité de calculer `K` à partir de `k` et `G`, tandis qu'il est pratiquement impossible de retrouver `k` à partir de `K` et `G`. Cette asymétrie crée une fonction à sens unique. En d'autres termes, il est facile de déduire la clé publique si l'on connaît la clé privée, mais retrouver la clé privée à partir de la clé publique est impossible. Cette sécurité repose encore sur la difficulté calculatoire du logarithme discret.
+L'une des caractéristiques essentielles de ces clés est la facilité de calculer `K` à partir de `k` et `G`, tandis qu'il est pratiquement impossible de retrouver `k` à partir de `K` et `G`. Cette asymétrie crée une fonction à sens unique. En d'autres termes, il est facile de calculer la clé publique si l'on connaît la clé privée, mais retrouver la clé privée à partir de la clé publique est impossible. Cette sécurité repose encore sur la difficulté calculatoire du logarithme discret.
 
 On va donc utiliser cette propriété pour adapter notre algorithme Diffie-Hellman. **Le principe de fonctionnement d'ECDH est le suivant :**
 
@@ -965,6 +965,26 @@ ECDH est de ce fait un algorithme permettant un échange de clés. Il est souv
 TLS est notamment responsable du `s` dans `https` ainsi que du cadenas visible dans la barre d'adresse de votre navigateur, symboles du chiffrement des communications. En suivant cette formation, vous utilisez donc ECDH, et il est très probable que vous en fassiez usage quotidiennement sans même le savoir.
 
 ### La transaction de notification
+
+Comme nous l'avons vu dans la partie précédente, ECDH est une variante de l'échange Diffie-Hellman utilisant des paires de clés établies sur une courbe elliptique. Cela tombe bien, nous possédons déjà de nombreuses paires de clés respectant ce standard dans nos portefeuilles Bitcoin ! L'idée du BIP47 est d'utiliser les paires de clés des portefeuilles déterministes hiérarchiques Bitcoin des deux parties pour établir des secrets partagés et éphémères entre elles. Dans le cadre du BIP47, on utilise donc plutôt ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
+
+![BTC204](assets/notext/72/14.webp)
+
+ECDHE est utilisé une première fois dans le BIP47 pour transmettre le code de paiement de l'expéditeur vers le destinataire. C'est la fameuse **transaction de notification**. Cette étape est essentielle car pour que le BIP47 fonctionne efficacement, les deux parties impliquées (l'expéditeur et le destinataire) doivent connaître le code de paiement de l'autre. Cette connaissance permet la dérivation des clés publiques éphémères et, par conséquent, des adresses de réception vierges associées.
+
+Avant cet échange, l'expéditeur est logiquement déjà en connaissance du code de paiement du destinataire puisqu'il l'a récupéré off-chain, par exemple sur son site web, sur une facture ou encore sur ses réseaux sociaux. Cependant, le destinataire n'a pas forcément connaissance du code de paiement de l'expéditeur. Le code doit pourtant lui être transmis ; autrement, il ne pourra pas dériver les clés éphémères nécessaires à l'identification des adresses où sont stockés ses bitcoins, ni accéder à ses fonds. Bien que cette transmission du code de l'envoyeur puisse techniquement s'effectuer off-chain par d'autres moyens de communication, cela pose problème si le portefeuille doit être récupéré à partir de la graine seulement.
+
+En effet, contrairement aux adresses conventionnelles, les adresses BIP47 ne sont pas dérivées directement depuis la graine du destinataire—utiliser une `xpub` serait plus simple dans ce cas—mais résultent d'un calcul combinant les deux codes de paiement : celui de l'expéditeur et celui du destinataire. Ainsi, si le destinataire perd son portefeuille et tente de le restaurer à partir de sa graine, il récupérera son propre code de paiement, qui est directement dérivé de sa graine. Cependant, pour retrouver les adresses éphémères, il lui sera indispensable de disposer également des codes de paiement de tous ceux qui lui ont envoyé des bitcoins via le BIP47. D'où l'importance de la transaction de notification qui permet de sauvegarder ces informations sur la blockchain de Bitcoin, tout en pouvant le retrouver très facilement sans avoir à chercher dans le milliard de transactions exécutées depuis son lancement en 2009.
+
+![BTC204](assets/fr/72/15.webp)
+
+Il serait donc possible de mettre en œuvre le BIP47 sans recourir à la transaction de notification, à condition que chaque utilisateur conserve une sauvegarde des codes de paiement de ses pairs. Cependant, cette méthode se révèle complexe à gérer tant qu'une solution simple, robuste et efficace pour réaliser, stocker et actualiser ces sauvegardes n'est pas développée. Dans l'état actuel des choses, la transaction de notification s'avère donc presque incontournable.
+
+Dans les chapitres suivants, nous étudierons toutefois d'autres protocoles ayant des objectifs similaires à ceux du BIP47, mais qui ne nécessitent pas de transaction de notification. Ces alternatives introduisent cependant leurs propres compromis.
+
+Outre son rôle de sauvegarde des codes de paiement, la transaction de notification a également une fonction de notification pour le destinataire, comme le suggère son nom. Elle signale au client du destinataire qu'une nouveau tunnel de paiement a été établi, et lui suggère donc de surveiller les adresses éphémères qui en découlent.
+
+### Le modèle de confidentialité du BIP47
 
 
 

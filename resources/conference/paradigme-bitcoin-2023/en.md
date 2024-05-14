@@ -1,5 +1,5 @@
 ---
-name: Paradigme bitcoin
+name: Paradigme bitcoin 2023
 description: Le canton de Neuchâtel accueille depuis quelques années un écosystème florissant autour de Bitcoin. ici, Il s’agit d’un événement payant s’adressant à un public professionnel et aux Bitcoineurs.
 --- 
 

@@ -1,0 +1,24 @@
+- start_date: 2024-06-20 14:00:00
+  end_date: 2024-06-20 17:00:00
+  timezone: America/El_Salvador
+  address_line_1: San Salvador, El Salvador
+  address_line_2: 
+  address_line_3: 
+  name: The Seventh Property by Eric Yakes
+  builder: old-uncle
+  type: Lecture
+  book_online: true
+  book_in_person: true
+  price_dollars: 50
+  description: 12th guest star lecture of PlanB Biz School
+  language:
+    - en
+  links:
+    replay_url:
+    live_url: https://www.youtube.com/embed/rZZsBwujhRE?si=Rt-hLzJzQrauS8HI
+    chat_url: https://peertube.planb.network/plugins/livechat/router/webchat/room/5cfef3a1-9154-4ff1-bba0-7a7755dfe65c
+  tags:
+    - Bitcoin
+    - economics
+    - technology
+

@@ -236,7 +236,7 @@ La vision originelle de PayPal était révolutionnaire, conformément à la visi
 
 Toutefois, les choses n'ont pas évolué dans le sens souhaité et PayPal a dû se conformer aux réglementations financières en tous genres, à tel point que le service est devenu aujourd'hui célèbre pour la censure des paiements et les gels de compte tout autour du monde. Il était vain de croire qu'un tel système pouvait défier le pouvoir en place.
 
-## Les alternatives centralisées et Bitcoin
+### Les alternatives centralisées et Bitcoin
 
 Ainsi, les tentatives de créer des services centralisés alternatifs au système existant ont toutes finies par être arrêtées, d'une façon ou d'une autre. L'inconvénient de ces modèles est qu'ils reposent sur un tiers de confiance, qui peut faire faillite, partir avec la caisse ou bien être contrôlé par les autorités. Dans le dernier cas, le service en question est face à un dilemme : s'adapter en se conformant aux réglementations financières, comme l'ont fait GoldMoney et PayPal, ou périr en refusant d'obéir, un destin subi par e-gold et Liberty Reserve ou encore le Liberty Dollar.
 
@@ -261,7 +261,7 @@ formés, menant au développement d'Internet, le « réseau des réseaux », d
 
 On peut dégager deux modèles purs de ces considérations : le modèle client-serveur, où un serveur central répond aux requêtes des clients, et le modèle pair à pair, où chaque nœud a le même rôle dans le système. Ce dernier modèle a particulièrement été utile pour le partage de fichiers dans les années 2000, avec la création de BitTorrent et d'autres protocoles similaires. Le réseau Tor est lui décentralisé, pas purement pair à pair.
 
-Un problème qu'on rencontre dans le cas des architectures distribuées est le problème du consensus distribué, qu'on appelle généralement le problème des généraux byzantins, qui a été formalisé par Leslie Lamport, Robert Shostak et Marshall Pease dans un article publié en 1982. Ce problème traite de la remise en cause de la fiabilité des transmissions et de l'intégrité des participants dans les systèmes pair à pair, et il s'applique dans les cas où les composants d'un système informatique ont besoin d'être en accord.
+Un problème qu'on rencontre dans le cas des architectures distribuées est le problème du consensus distribué, qu'on appelle généralement le problème des généraux byzantins, qui a été formalisé par Leslie Lamport, Robert Shostak et Marshall Pease dans un [article](https://lamport.azurewebsites.net/pubs/byz.pdf) publié en 1982. Ce problème traite de la remise en cause de la fiabilité des transmissions et de l'intégrité des participants dans les systèmes pair à pair, et il s'applique dans les cas où les composants d'un système informatique ont besoin d'être en accord.
 
 Le problème est énoncé sous la forme d'une métaphore faisant intervenir des généraux de l'armée de l'Empire byzantin, qui assiègent une ville ennemie avec leurs troupes dans le but de l'attaquer et qui ne peuvent communiquer qu'à l'aide de messagers. L'objectif est de trouver une stratégie (c'est-à-dire un algorithme) permettant de gérer la présence de traîtres et de s'assurer que tous les généraux loyaux se mettent d'accord sur un plan de bataille pour que l'attaque soit un succès. En voici une illustration (source : *L'Élégance de Bitcoin*) :
 
@@ -275,7 +275,15 @@ Avec l'algorithme de consensus de Bitcoin, Satoshi Nakamoto l'a résolue de mani
 
 ### L'horodatage de documents
 
-Haber et Scornetta, 1991
+L'horodatage (*timestamping* en anglais) est une technique qui consiste à associer une date et une heure à une information comme un évènement ou un document. D'un point de vue légal, cela permet par exemple de s'assurer de l'existence d'un contrat avant une date donnée. Dans le monde réel, il existe ainsi une multitude de moyens d'horodater quelque chose, comme l'envoi d'un document dans une enveloppe scellée ou l'inscription d'une ligne chronologique dans un carnet de notes.
+
+Mais l'horodatage est particulièrement utile dans le monde numérique, où les fichiers (texte, image, audio ou vidéo) sont facilement modifiables. L'horodatage peut être réalisé par des services centralisés, qui se chargent de sauvegarder des documents reçus (ou bien leurs empreintes et d'y associer la date et l'heure de réception. On parle dans ce cas d'horodatage certifié (*trusted timestamping*).
+
+En 1991, une technique d'horodatage confidentielle et sécurisée a été proposée par Stuart Haber et Scott Scornetta, deux chercheurs travaillant pour Bell Communications Research Inc. (communément appelé « Bellcore »), un consortium de R&D situé dans le New Jersey. Dans leur article intitulé « [*How to time-stamp a digital document*](http://www.staroceans.org/e-book/Haber_Stornetta.pdf) », ils décrivaient comment un service d'horodatage certifié pouvait utiliser une fonction à sens unique (comme la fonction de hachage MD4) et un algorithme de signature pour accroître la confidentialité des documents des clients et la fiabilité de la certification. En particulier, l'idée était de chaîner les informations en appliquant la fonction à sens unique à l'horodatage précédent.
+
+Haber et Scornetta ont mis leur idée en application par la publication d'empreintes cryptographiques (résultant d'un hachage des données utiles) dans les petites annonces du New York Times à partir de 1992. Ils ont ensuite créé leur propre société en 1994, Surety Technologies, dans le but de se consacrer pleinement à cette activité. Ils sont ainsi [connus](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) pour avoir créé la première chaîne temporelle d'horodatages publics, l'empreinte précédente étant prise en compte dans le calcul de la nouvelle empreinte à publier dans le journal, ce qui préfigurait la chaîne de blocs de Bitcoin.
+
+Trois articles de Haber et Scornetta ont été cités par Satoshi Nakamoto dans [livre blanc de Bitcoin](https://bitcoin.org/bitcoin.pdf) : l'article de 1991 précédemment mentionné, un [article](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) de 1993 qui améliorait les protocoles proposés dans le précédent, notamment par l'utilisation des arbres de Merkle, et un [article](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) de 1997 qui présentait une façon de nommer les fichiers de manière universelle au moyen de fonctions à sens unique. Était aussi cité un [article](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) décrivant un nouveau système d'horodatage écrit en 1999 par Henri Massias, Xavier Serret-Avila et Jean-Jacques Quisquater, trois hommes travaillant pour le groupe de recherche en cryptographie de l'Université catholique de Louvain, en Belgique.
 
 ### La preuve de travail
 

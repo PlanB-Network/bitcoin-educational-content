@@ -823,12 +823,146 @@ Dans cette vulgarisation, la couleur marron représente le secret partagé entre
 
 À présent, examinons comment fonctionne réellement ce protocole, non pas avec des analogies de couleurs, mais en utilisant de véritables nombres et de l'arithmétique modulaire !
 
+Avant d’aborder les mécanismes de Diffie-Hellman, permettez-moi de vous rappeler brièvement deux notions mathématiques essentielles dont nous allons avoir besoin :
+- Un **nombre premier** est un entier naturel qui n’admet que deux diviseurs : `1` et lui-même. Par exemple, `7` est un nombre premier, car il ne peut être divisé que par `1` et `7`. En revanche, `8` n'est pas un nombre premier puisqu'il est divisible par `1`, `2`, `4` et `8`. Il a donc quatre diviseurs entiers et positifs au lieu de deux ;
+- Le **modulo** (noté `mod` ou `%`) est une opération mathématique qui, entre deux nombres entiers, renvoie le reste de la division euclidienne du premier par le second. Par exemple, `16 mod 5 = 1`.
 
+**L'échange de clés Diffie-Hellman entre Alice et Bob se déroule comme suit :**
 
+- Alice et Bob conviennent de deux nombres communs : `p` et `g`. `p` est un nombre premier, et plus ce nombre est grand, plus Diffie-Hellman sera sécurisé. `g` est une racine primitive de `p`. Ces deux nombres peuvent être communiqués en clair sur un réseau non sécurisé. Ils représentent l'équivalant à **la couleur jaune** dans la vulgarisation précédente. Il est donc important qu'Alice et Bob utilisent exactement les mêmes valeurs pour `p` et `g`.
 
+- Une fois ces paramètres définis, Alice et Bob choisissent chacun un nombre aléatoire secret. Alice nomme son nombre aléatoire secret `a` (équivalent de **la couleur rouge**) et Bob nomme le sien `b` (équivalent de **la couleur bleue**). Ces nombres doivent impérativement rester secrets.
 
+- Plutôt que d'échanger directement les nombres `a` et `b`, chaque partie calcule `A` et `B` de la manière suivante :
 
+`A` est égal à `g` élevé à la puissance `a` modulo `p` :
 
+```bash
+A = g^a % p 
+```
+
+`B` est égal à `g` élevé à la puissance `b` modulo `p` :
+
+```bash
+B = g^b % p
+```
+
+- Les valeurs `A` (équivalent de **la couleur orange**) et `B` (équivalent de **la couleur verte**) sont échangées entre les deux parties. Cet échange peut s'effectuer en clair sur un réseau non sécurisé ;
+
+- Alice, ayant reçu `B`, elle calcule la valeur de `z` de la manière suivante :
+
+`z` est égal à `B` élevé à la puissance `a` modulo `p` :
+
+```bash
+z = B^a % p
+```
+
+Pour rappel :
+
+```bash
+B = g^b % p
+```
+
+Ainsi, on obtient :
+
+```bash
+z = B^a % p
+z = (g^b)^a % p
+```
+
+En appliquant les règles des puissances :
+
+```bash
+(x^n)^m = x^(nm)
+```
+
+On obtient alors :
+
+```bash
+z = g^(ba) % p
+```
+
+- De son côté, Bob, ayant reçu `A`, calcule également la valeur de `z` de la manière suivante :
+
+`z` est égal à `A` élevé à la puissance `b` modulo `p` :
+
+```bash
+z = A^b % p
+```
+
+Ainsi, on obtient :
+
+```bash
+z = (g^a)^b % p
+z = g^(ab) % p
+z = g^(ba) % p
+```
+
+Grâce à la distributivité de l'opérateur modulo, Alice et Bob obtiennent exactement la même valeur `z`. Ce nombre représente leur secret commun, équivalent à **la couleur marron** dans la vulgarisation précédente avec les pots de peinture. Ils peuvent maintenant utiliser ce secret commun pour chiffrer leurs communications de manière symétrique sur un réseau non sécurisé.
+
+![BTC204](assets/notext/72/13.webp)
+
+Un attaquant, même en possession de `p`, `g`, `A` et `B` (les valeurs publiques), ne pourra pas calculer `a`, `b` ou `z` (les valeurs privées). Pour y parvenir, il faudrait inverser l'exponentiation, une opération impossible sans essayer toutes les possibilités une par une, car cela revient à calculer le logarithme discret, c'est-à-dire la réciproque de l'exponentielle dans un groupe cyclique fini.
+
+Ainsi, tant que les valeurs de `a`, `b` et `p` sont suffisamment grandes, le protocole Diffie-Hellman est sécurisé. Typiquement, avec des paramètres de 2048 bits (un nombre de 600 chiffres en décimal), tester toutes les possibilités pour `a` et `b` serait impraticable. À ce jour, avec de tels nombres, cet algorithme est considéré comme sûr.
+
+C'est justement là que réside le principal inconvénient du protocole Diffie-Hellman. Pour être sécurisé, l'algorithme doit utiliser des nombres de grande taille. C'est pourquoi, de nos jours, on préfère utiliser l'algorithme ECDH (*Elliptic Curve Diffie-Hellman*), une variante de Diffie-Hellman qui repose sur une courbe algébrique, plus précisément une courbe elliptique. Cette approche permet de travailler avec des nombres beaucoup plus petits tout en conservant une sécurité équivalente, réduisant ainsi les ressources nécessaires pour le calcul et le stockage.
+
+Le principe général de l'algorithme reste le même. Cependant, au lieu d'utiliser un nombre aléatoire `a` et un nombre `A` calculé à partir de `a` par exponentiation modulaire, nous utilisons une paire de clés établies sur une courbe elliptique. Au lieu de s'appuyer sur la distributivité de l'opérateur modulo, nous utilisons la loi de groupe sur les courbes elliptiques, et plus précisément l'associativité de cette loi.
+
+Pour expliquer brièvement le principe de la cryptographie sur les courbes elliptiques, une clé privée est représentée par un nombre aléatoire situé entre `1` et `n-1`, où `n` représente l'ordre de la courbe. La clé publique, quant à elle, est un point spécifique sur cette courbe, obtenu à partir de la clé privée par des opérations d'addition et de doublement de points à partir du point générateur, selon l'équation :
+
+```bash
+K = k·G
+```
+
+Dans cette formule, `K` désigne la clé publique, `k` la clé privée, et `G` le point générateur.
+
+L'une des caractéristiques essentielles de ces clés est la simplicité de calculer `K` à partir de `k` et `G`, tandis qu'il est pratiquement impossible de retrouver `k` à partir de `K` et `G`. Cette asymétrie crée une fonction à sens unique. En d'autres termes, il est facile de déduire la clé publique si l'on connaît la clé privée, mais retrouver la clé privée à partir de la clé publique est impossible. Cette sécurité repose encore sur la difficulté calculatoire du logarithme discret.
+
+On va donc utiliser cette propriété pour adapter notre algorithme Diffie-Hellman. **Le principe de fonctionnement d'ECDH est le suivant :**
+
+- Alice et Bob conviennent ensemble d'une courbe elliptique cryptographiquement sûre et de ses paramètres. Ces informations sont publiques ;
+
+- Alice génère un nombre aléatoire `ka` qui sera sa clé privée. Cette clé privée doit rester secrète. Elle détermine sa clé publique `Ka` par addition et doublement de points sur la courbe elliptique choisie :
+
+```bash
+Ka = ka·G
+```
+
+- Bob génère également un nombre aléatoire `kb` qui sera sa clé privée. Il calcule la clé publique associée `Kb` :
+
+```bash
+Kb = kb·G
+```
+
+- Alice et Bob s'échangent leurs clés publiques `Ka` et `Kb` sur un réseau public non sécurisé.
+
+- Alice calcule un point `(x,y)` sur la courbe en appliquant sa clé privée `ka` à la clé publique de Bob `Kb` :
+
+```bash
+(x,y) = ka·Kb
+```
+
+- Bob calcule un point `(x,y)` sur la courbe en appliquant sa clé privée `kb` à la clé publique d'Alice `Ka` :
+
+```bash
+(x,y) = kb·Ka
+```
+
+- Alice et Bob obtiennent le même point sur la courbe elliptique. Le secret partagé sera l'abscisse `x` de ce point.
+
+Ils obtiennent bien le même secret partagé car :
+
+```bash
+(x,y) = ka·Kb = ka·(kb·G) = (ka·kb)·G = (kb·ka)·G = kb·(ka·G) = kb·Ka
+```
+
+Un éventuel attaquant observant le réseau public non sécurisé ne pourra obtenir que les clés publiques de chacun et les paramètres de la courbe elliptique choisie. Comme expliqué précédemment, ces informations seules ne suffisent pas à déterminer les clés privées. Par conséquent, l'attaquant ne peut pas trouver le secret partagé entre Alice et Bob.
+
+ECDH est de ce fait un algorithme permettant un échange de clés. Il est souvent utilisé en conjonction avec d'autres méthodes cryptographiques pour établir un protocole complet. Par exemple, ECDH est intégré au cœur de TLS (*Transport Layer Security*), un protocole de chiffrement et d'authentification utilisé pour la couche de transport d'internet. TLS utilise ECDHE pour l'échange de clés, une variante d'ECDH où les clés sont éphémères, afin d'apporter de la confidentialité persistante. En complément, TLS utilise des algorithmes d'authentification comme ECDSA, des algorithmes de chiffrement tels qu'AES, et des fonctions de hachage comme SHA256.
+
+TLS est notamment responsable du `s` dans `https` ainsi que du cadenas visible dans la barre d'adresse de votre navigateur, symboles du chiffrement des communications. En suivant cette formation, vous utilisez donc ECDH, et il est très probable que vous en fassiez usage quotidiennement sans même le savoir.
 
 ### La transaction de notification
 

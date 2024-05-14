@@ -76,7 +76,16 @@ Partie 7 - Découvrir les propositions d'amélioration du protocole en lien avec
         | P2P transport V2
         | TOR
         | Dandelion
-    Chapitre 2 - Le BIP47
+    Chapitre 2 - BIP47 et codes de paiements réutilisables
+        | Principe général du BIP47 et de PayNym
+        | Le code de paiement réutilisable
+        | L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
+        | La transaction de notification
+        | Construction de la transaction de notification
+        | Réception de la transaction de notification
+        | La transaction de paiement BIP47
+        | Réception du paiement BIP47 et dérivation de la clé privée
+        | Remboursement du paiement BIP47
     Chapitre 3 - Silent Payments
     Chapitre 4 - Le soft fork Taproot
         | Les bénéfices à moyen et long terme

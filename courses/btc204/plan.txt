@@ -83,6 +83,8 @@ Partie 7 - Découvrir les propositions d'amélioration du protocole en lien avec
         | La transaction de notification
         | Le modèle de confidentialité du BIP47
         | Construction de la transaction de notification
+        | Transaction de notification : étude concrète
+        | Le XOR, qu'est-ce que c'est ?
         | Réception de la transaction de notification
         | La transaction de paiement BIP47
         | Réception du paiement BIP47 et dérivation de la clé privée

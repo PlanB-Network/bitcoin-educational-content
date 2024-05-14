@@ -1016,6 +1016,85 @@ En sommes  le modèle de confidentialité offert par les paiements BIP47 pourrai
 
 ### Construction de la transaction de notification
 
+Maintenant, voyons comment fonctionne cette transaction de notification. Imaginons qu'Alice souhaite envoyer des fonds à Bob avec le BIP47. Dans mon exemple, Alice agit ainsi comme l'expéditrice et Bob comme le destinataire. Ce dernier a publié son code de paiement sur son site web. Alice est donc déjà en connaissance du code de paiement de Bob.
+
+1. **Alice calcule un secret partagé avec ECDH :**
+
+- Elle sélectionne une paire de clés au sein de son portefeuille HD se trouvant sur une branche différente de son code de paiement. Attention, cette paire ne doit pas être associée facilement à l'adresse de notification d'Alice, ni à l'identité d'Alice (voir section précédente) ;
+
+- Alice sélectionne la clé privée de cette paire. Nous la nommons `a` (minuscule) ;
+
+```bash
+a
+```
+   
+- Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index `/0`). Nous nommons cette clé publique `B` (majuscule). La clé privée associée à cette clé publique est nommée `b` (minuscule). `B` est déterminé par addition et doublement de points sur la courbe elliptique depuis `G` (le point générateur) avec `b` (la clé privée) :
+
+```bash
+B = b·G
+```
+
+- Alice calcule un point secret `S` (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée `a` à partir de la clé publique de Bob `B`.
+
+```bash
+S = a·B
+```
+
+- Alice calcule le facteur aveuglant `f` qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : `x` qui est l'abscisse du point secret calculé précédemment. La première entrée est `o` qui est l'UTXO consommé en input de cette transaction (outpoint).
+
+```bash
+f = HMAC-SHA512(o, x)
+```
+
+2. **Alice convertit son code de paiement personnel en base 2 (binaire).**
+
+3. **Elle utilise ce facteur aveuglant comme clé pour réaliser un chiffrement symétrique sur la charge utile de son code de paiement.** L'algorithme de chiffrement utilisé est simplement un `XOR`. L'opération effectuée est comparable au chiffre de Vernam, également nommé "One-Time Pad".
+
+- Alice sépare dans un premier temps son facteur aveuglant en deux : les 32 premiers octets sont nommés `f1` et les 32 derniers octets sont nommés `f2`. On a donc :
+
+```bash
+f = f1 || f2
+```
+
+- Alice calcule le chiffré `x'` de l'abscisse de la clé publique `x` de son code de paiement, et le chiffré `c'` de son code de chaine `c` séparément. `f1` et `f2` agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif).
+
+```bash
+x' = x XOR f1
+c' = c XOR f2
+```
+
+- Alice remplace les valeurs réelles de l'abscisse de la clé publique `x` et du code de chaine `c` dans son code de paiement par les valeurs chiffrées `x'` et `c'`.
+
+4. Alice dispose donc actuellement de son code de paiement avec une charge utile chiffrée. Elle va construire et diffuser une transaction impliquant sa clé publique `A` en input, un output à destination de l'adresse de notification de Bob, et une sortie `OP_RETURN` constituée de son code de paiement avec la charge utile chiffrée. **Cette transaction est la transaction de notification**.
+
+Un `OP_RETURN` est un opcode qui permet de marquer une sortie de transaction Bitcoin comme invalide. Aujourd'hui, il est utilisé pour diffuser ou pour ancrer de l'information sur la blockchain Bitcoin. On peut y stocker jusqu'à 80 octets de datas qui sont inscrites sur la chaine, et donc visibles par tous les autres utilisateurs.
+
+Comme nous l'avons vu dans les sections précédente, ECDH est utilisé pour générer un secret partagé entre deux utilisateurs qui communiquent sur un réseau non sécurisé, et potentiellement observé par des attaquants. Dans le BIP47, ECDH est utilisé pour pouvoir communiquer sur le réseau Bitcoin, qui par nature est un réseau de communication transparent et observé par de nombreux attaquants. Le secret partagé calculé grâce à l'échange de clés ECDH est ensuite utilisé pour chiffrer l'information secrète à transmettre : le code de paiement de l'expéditeur (Alice).
+
+Je récapitule les étapes que l'on vient de voir ensemble pour réaliser une transaction de notification :
+- Alice récupère le code de paiement et l'adresse de notification de Bob ;
+- Alice sélectionne un UTXO qui lui appartient sur son portefeuille HD avec la paire de clés correspondante ;
+- Elle calcule un point secret sur la courbe elliptique grâce à ECDH ;
+- Elle utilise ce point secret pour calculer un HMAC qui est le facteur aveuglant ;
+- Elle utilise ce facteur aveuglant pour chiffrer la charge utile de son code de paiement personnel ;
+- Elle utilise une sortie de transaction `OP_RETURN` pour communiquer le code de paiement masqué à Bob.
+
+
+
+
+
+### Transaction de notification : étude concrète
+
+
+
+
+
+### Le XOR, qu'est-ce que c'est ?
+
+Avant de continuer la description technique de cette transaction de notification, attardons-nous quelques instants sur cette opération XOR. Le XOR est un opérateur logique au niveau des bits fondé sur l'algèbre de Boole. À partir de deux opérandes en bits, il renvoie 1 si les bits de même rang sont différents, et il renvoie 0 si les bits de même rang sont égaux. Voici la table de vérité du XOR en fonction des valeurs des opérandes D et E :
+
+
+
 
 
 ### Réception de la transaction de notification

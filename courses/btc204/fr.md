@@ -986,7 +986,33 @@ Outre son rôle de sauvegarde des codes de paiement, la transaction de notificat
 
 ### Le modèle de confidentialité du BIP47
 
+Avant de détailler le fonctionnement technique de la transaction de notification, il est important de discuter du modèle de confidentialité associé au BIP47, qui justifie certaines mesures prises lors de la création de cette transaction initiale.
 
+Le code de paiement, en soi, ne présente pas un risque direct pour la confidentialité. À l'inverse du modèle traditionnel de Bitcoin, qui vise à briser le lien entre l'identité de l'utilisateur et ses transactions (qui sont publiques) en préservant l'anonymat des clés et des adresses, le code de paiement peut être ouvertement associé à une identité sans constituer une menace.
+
+En effet, le code de paiement n'est pas utilisé pour dériver directement les adresses recevant les paiements BIP47. Ces adresses sont plutôt générées via l'application d'ECDH entre les clés dérivées des codes de paiement des deux parties concernées.
+
+Ainsi, un code de paiement en lui-même n'entraîne pas directement une perte de confidentialité puisque seule l'adresse de notification est dérivée de celui-ci. Bien que cette adresse puisse révéler certaines informations, elle ne permet normalement pas de découvrir les parties avec lesquelles vous réalisez des transactions, à moins d'une analyse de chaîne approfondie. En effet, si l'expéditeur utilise des UTXOs qui peuvent être reliés à son identité pour effectuer la transaction de notification, alors il devient possible de déduire que son identité est probablement liée à des paiements BIP47 vers votre code de paiement. Cela ne révélera pas les transactions sous-jacentes, mais indiquera leur vraisemblable existence.
+
+Il est donc essentiel de maintenir cette séparation stricte entre les codes de paiements des utilisateurs. Dans cet objectif, l'étape de communication initiale du code est un moment critique pour la confidentialité du paiement, et pourtant obligatoire pour le bon fonctionnement du protocole. Si l'un des codes de paiement peut être obtenu publiquement (comme sur un site web), le second code, celui de l'expéditeur, ne doit en aucun cas être relié au premier.
+
+Prenons un exemple concret : je désire faire un don à un mouvement politique via le BIP47 :
+- L'organisation a rendu public son code de paiement sur son site internet ou via ses réseaux sociaux ;
+- Ce code est donc lié au mouvement politique ;
+- Je récupère ce code de paiement ;
+- Avant de procéder à un envoi, je dois m'assurer qu'ils connaissent mon propre code de paiement, qui est aussi lié à mon identité puisque je l'utilise pour recevoir des transactions sur mes réseaux sociaux.
+
+Comment leur transmettre mon code sans risque ? L'utilisation de moyens de communication conventionnels pourrait entraîner une fuite d'informations, et par conséquent, m'associer à ce mouvement politique. La transaction de notification offre une solution grâce à une couche de chiffrement qui empêche justement cette association entre deux codes. Bien que ce ne soit pas la seule méthode pour transmettre secrètement le code de paiement de l'expéditeur, elle se révèle très efficace.
+
+Dans le schéma ci-dessous, les traits oranges indiquent les points où le flux d'information doit être interrompu, et les flèches noires montrent les connexions potentiellement observables par des tiers :
+
+![BTC204](assets/fr/72/16.webp)
+
+En réalité, dans le modèle de confidentialité traditionnel de Bitcoin, il est souvent complexe de dissocier complètement le flux d'information entre la paire de clés et l'utilisateur, surtout lors de transactions à distance. Par exemple, dans le cadre d'une campagne de donation, le bénéficiaire doit inévitablement divulguer une adresse ou une clé publique via son site web ou ses réseaux sociaux. L'emploi correct du BIP47, notamment avec la transaction de notification, permet de contourner ce problème grâce à l'ECDHE et à la couche de chiffrement que nous étudierons plus loin.
+
+Bien sûr, le modèle de confidentialité classique de Bitcoin s'observe toujours pour les clés publiques éphémères, qui sont dérivées de l'association des deux codes de paiement. Les deux modèles sont en fait complémentaires. Ce que je veux souligner ici, c'est que contrairement à l'usage habituel d'une clé publique pour recevoir des bitcoins, le code de paiement peut être lié à une identité spécifique, car l'information "_Alice effectue une transaction avec Bob_" est rompue à une autre étape. Le code de paiement sert à générer les adresses de paiement, mais en se basant uniquement sur l'observation de la blockchain, il est impossible de lier une transaction de paiement BIP47 aux codes de paiement utilisés pour l'exécuter, sauf si les UTXOs impliqués étaient déjà liés à une identité précédemment et que les utilisateurs ont associé leurs codes de paiement à leurs identités respectives.
+
+En sommes  le modèle de confidentialité offert par les paiements BIP47 pourrait être considéré comme supérieur à celui de base de Bitcoin, bien qu'il ne soit pas pour autant magique.
 
 ### Construction de la transaction de notification
 

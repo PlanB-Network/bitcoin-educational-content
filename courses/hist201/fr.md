@@ -324,13 +324,27 @@ constituer ainsi un or intégralement numérique.
 
 L'élément central du protocole était que la création monétaire se faisait par preuve de travail : les morceaux de bit gold étaient créés grâce à la puissance de calcul des ordinateurs et chaque solution était calculée à partir d'une autre, ce qui conduisait à former une chaîne de preuves de travail. La date et l'heure de production de ces preuves de travail étaient certifiées au moyen de serveurs d'horodatage multiples. Le système reposait sur un registre public de titres de propriété, référençant les possessions et les échanges des utilisateurs, ces derniers étant identifiés par leurs clés publiques et autorisant les transactions grâce à leurs clés privées. Le registre était vérifié et maintenu par un réseau de serveurs appelé « club de propriété » coordonné par un algorithme de consensus classique appelé [*Byzantine Quorum System*](https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf).
 
-Le ressemblance de bit gold avec Bitcoin était frappante. Les trois éléments constitutifs du systèmes (la production des preuves de travail, leur horodatage et la gestion du registre de propriété), qui étaient séparés dans bit gold, peuvent se retrouver dans Bitcoin en un seul et même concept : la chaîne de blocs. C'est pourquoi beaucoup y ont vu une ébauche de Bitcoin et spéculé sur le fait que Nick Szabo pourrait être Satoshi.
+Le ressemblance de bit gold avec Bitcoin est frappante. Les trois éléments constitutifs du systèmes (la production des preuves de travail, leur horodatage et la gestion du registre de propriété), qui étaient séparés dans bit gold, peuvent se retrouver dans Bitcoin en un seul et même concept : la chaîne de blocs. C'est pourquoi beaucoup y ont vu une ébauche de Bitcoin et spéculé sur le fait que Nick Szabo pourrait être Satoshi.
 
 Toutefois, leurs deux visions divergeaient. La façon dont étaient produits les morceaux de bit gold faisait que ceux-ci n'étaient pas fongibles, c'est-à-dire qu'ils ne pouvaient pas être mélangés entre eux : ils devaient donc être évalués sur un marché extérieur au système pour pouvoir être utilisés pour servir de base à une réelle unité de compte homogène. bit gold était ainsi pensé comme un système de règlement permettant de gérer une monnaie de réserve rare, et au-dessus duquel serait construit une économie bancaire libre, si possible utilisant le modèle chaumien. Ainsi, en avril 2008, Nick Szabo [demandait](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269) encore de l'aide dans un commentaire sur son blog pour mettre en œuvre son concept. Cependant, cette mise en œuvre n'a jamais eu lieu.
 
-### RPOW
+### RPOW : les preuves de travail réutilisables
 
-Hal Finney, 2004
+Le troisième système a être issu de l'esprit des cypherpunks est le système RPOW, abréviation de *Reusable Proofs of Work*, mis au point par Hal Finney en 2004. Hal Finney était un informaticien et cryptographe américain qui vivait dans la région de Los Angeles. Cypherpunk de la première heure, il s'était passionné pour les idées de David Chaum et pour son fameux modèle eCash. Il travaillait depuis 1996 sur le développement du logiciel de chiffrement PGP avec Phil Zimmermann.
+
+Pour concevoir son système RPOW, Hal Finney a repris les idées derrière eCash et bit gold. La particularité de son système est qu'il se basait sur un serveur transparent qui permettait de rendre transférables les preuves de travail produites par Hashcash. Ce serveur utilisait le cryptoprocesseur IBM 4758 Secure Cryptographic Coprocessor, un élément de haute sécurité résistant aux falsifications, qui permettait, par un procédé d'authentification conçu par IBM, de vérifier quels programmes étaient exécutés sur la machine. Un utilisateur externe pouvait de cette façon s'assurer à tout instant que le serveur RPOW faisait fonctionner le bon programme, dont le code était par ailleurs disponible publiquement.
+
+Les jetons de preuve de travail réutilisable étaient gérés par le serveur, qui se chargeait de les signer à l'aide du chiffrement RSA. Ils étaient fabriqués par la production d'une preuve de travail via Hashcash, ou bien à partir d'un jeton de RPOW précédent. Lors d'un paiement, l'expéditeur donnait ses jetons de RPOW au destinataire qui s'empressait de communiquer avec le serveur pour recevoir un ou plusieurs nouveaux jetons, dont la valeur globale était égale à la valeur en entrée. Le fonctionnement des RPOW était ainsi
+similaire à celui des billets numériques dans eCash.
+
+Hal Finney a non seulement conçu un modèle, mais l'a mis en œuvre personnellement. Le 15 août 2004, il a ainsi [annoncé](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) le lancement du système RPOW sur le liste des cypherpunks, en plus de documenter son fonctionnement sur le site web consacré (rpow.net). Il l'a ensuite [présenté](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) à la CodeCon 2005 organisée à San Francisco, où il a pu faire part des utilisations qu'il envisageaient pour les jetons de preuve de travail, à savoir : le transfert de la valeur, la régulation du courrier indésirable, le commerce dans les jeux vidéos, le jeu d'argent en ligne comme le poker, et l'anti-parasitisme sur les protocoles de partage de fichiers comme BitTorrent.
+
+Toutefois, RPOW présentait des défauts intrinsèques qui peuvent expliquer pourquoi il n’a pas rencontré le succès escompté :
+
+- Son modèle de sécurité était plutôt faible, car il reposait sur un serveur centralisé ;
+- Sa politique monétaire (basée sur le hachage) n'était pas spécialement attractive en raison de la hausse exponentielle des performances informatiques.
+
+Ainsi, l'utilisation réelle de RPOW a été anecdotique, mais ce dernier a eu le mérite d'« [ouvrir la voie](https://mmalmi.github.io/satoshi/#email-24) » à Bitcoin en constituant une preuve de concept expérimentale, quatre ans avant l'arrivée de Satoshi Nakamoto.
 
 ### Ripple
 

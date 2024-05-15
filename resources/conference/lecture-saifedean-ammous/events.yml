@@ -9,7 +9,8 @@
   type: Lecture
   book_online: true
   book_in_person: true
-  price_dollars: 5
+  price_dollars: 50
+  available_seats: 10
   description: 1st guest star lecture of PlanB Biz School
   language: 
     - en

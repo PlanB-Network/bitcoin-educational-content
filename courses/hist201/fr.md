@@ -311,9 +311,22 @@ Même s'il était assez ingénieux, le concept de b-money présenté par Wei Dai
 
 Après sa publication sur la liste, b-money a attiré l'attention des cypherpunks, et en particulier [celle d'Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Néanmoins, Wei Dai n'a jamais implémenté son modèle, non seulement parce ce dernier était dysfonctionnel, mais aussi à cause de la [désillusion](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) du cryptographe à l'égard de la cryptoanarchie. Toutefois, b-money a fini par être cité dans le livre blanc de Bitcoin, ce qui en fait l'un de ses précurseurs.
 
-### bit gold
+### bit gold, l'or numérique avant Bitcoin
 
-Nick Szabo, 1998
+Le deuxième modèle à avoir émergé des idées des cypherpunks était l'idée de bit gold imaginée par Nick Szabo en 1998. Celui-ci était un informaticien américain d'origine hongroise, qui avait notamment travaillé pour comme consultant pour DigiCash pendant six mois. Cypherpunk, il est connu pour avoir formalisé la notion de *smart contract* en 1995.
+
+En 1994, Nick Szabo avait créé une liste de diffusion privée appelée libtech-l, qui avait pour but, comme son nom l'indique, d'héberger des discussions sur les techniques libératoires, permettant de protéger les libertés individuelles face aux assauts des autorités. Y avaient accès des cypherpunks comme les Wei Dai et Hal Finney, ainsi les économistes Larry White et George Selgin, partisans de la concurrence des monnaies hayekienne et de la banque libre.
+
+C'est sur la liste libtech-l que Nick Szabo a initialement décrit son concept initialement sur libtech-l, avant d'héberger une [ébauche](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) de livre blanc en 1999 sur son site personnel. Il a ensuite présenté le concept en 2005, dans un [article](https://unenumerated.blogspot.com/2005/12/bit-gold.html) publié sur son blog, Unenumerated.
+
+bit gold était un protocole censé gérer la création et les échanges d'une ressource virtuelle appelée le bit gold. Contrairement à l'e-gold qui était garanti par de l'or physique, ou la b-money indexée en théorie sur un panier de marchandises, le bit gold ne devait être adossé à aucun autre bien, mais posséder une rareté infalsifiable intrinsèque, et
+constituer ainsi un or intégralement numérique.
+
+L'élément central du protocole était que la création monétaire se faisait par preuve de travail : les morceaux de bit gold étaient créés grâce à la puissance de calcul des ordinateurs et chaque solution était calculée à partir d'une autre, ce qui conduisait à former une chaîne de preuves de travail. La date et l'heure de production de ces preuves de travail étaient certifiées au moyen de serveurs d'horodatage multiples. Le système reposait sur un registre public de titres de propriété, référençant les possessions et les échanges des utilisateurs, ces derniers étant identifiés par leurs clés publiques et autorisant les transactions grâce à leurs clés privées. Le registre était vérifié et maintenu par un réseau de serveurs appelé « club de propriété » coordonné par un algorithme de consensus classique appelé [*Byzantine Quorum System*](https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf).
+
+Le ressemblance de bit gold avec Bitcoin était frappante. Les trois éléments constitutifs du systèmes (la production des preuves de travail, leur horodatage et la gestion du registre de propriété), qui étaient séparés dans bit gold, peuvent se retrouver dans Bitcoin en un seul et même concept : la chaîne de blocs. C'est pourquoi beaucoup y ont vu une ébauche de Bitcoin et spéculé sur le fait que Nick Szabo pourrait être Satoshi.
+
+Toutefois, leurs deux visions divergeaient. La façon dont étaient produits les morceaux de bit gold faisait que ceux-ci n'étaient pas fongibles, c'est-à-dire qu'ils ne pouvaient pas être mélangés entre eux : ils devaient donc être évalués sur un marché extérieur au système pour pouvoir être utilisés pour servir de base à une réelle unité de compte homogène. bit gold était ainsi pensé comme un système de règlement permettant de gérer une monnaie de réserve rare, et au-dessus duquel serait construit une économie bancaire libre, si possible utilisant le modèle chaumien. Ainsi, en avril 2008, Nick Szabo [demandait](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269) encore de l'aide dans un commentaire sur son blog pour mettre en œuvre son concept. Cependant, cette mise en œuvre n'a jamais eu lieu.
 
 ### RPOW
 

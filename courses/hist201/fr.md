@@ -285,11 +285,21 @@ Haber et Scornetta ont mis leur idée en application par la publication d'emprei
 
 Trois articles de Haber et Scornetta ont été cités par Satoshi Nakamoto dans [livre blanc de Bitcoin](https://bitcoin.org/bitcoin.pdf) : l'article de 1991 précédemment mentionné, un [article](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) de 1993 qui améliorait les protocoles proposés dans le précédent, notamment par l'utilisation des arbres de Merkle, et un [article](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) de 1997 qui présentait une façon de nommer les fichiers de manière universelle au moyen de fonctions à sens unique. Était aussi cité un [article](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) décrivant un nouveau système d'horodatage écrit en 1999 par Henri Massias, Xavier Serret-Avila et Jean-Jacques Quisquater, trois hommes travaillant pour le groupe de recherche en cryptographie de l'Université catholique de Louvain, en Belgique.
 
-### La preuve de travail
+### La preuve de travail et Hashcash
 
-Adam Back, Hashcash, 1997
+La preuve de travail (*proof of work* en anglais) est un procédé permettant à un appareil informatique de démontrer de manière objective et quantifiable qu'il a dépensé de l'énergie, afin d'être sélectionné pour accéder à un service ou à un privilège. Il s'agit essentiellement d'un mécanisme de résistance aux attaques Sybil, qui rend difficile pour un attaquant de multiplier des identités à l'excès pour perturber ou prendre le contrôle d'un système de réputation quelconque.
+
+Le concept de preuve de travail a été décrit pour la première fois en 1992 par les informaticiens Cynthia Dwork et Moni Naor, qui travaillaient alors au centre de recherche IBM d'Almaden, situé au sud de San José en Californie. Au sein d'un article de recherche intitulé [*Pricing via Processing or Combatting Junk Mail*](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf), ils ont présenté une méthode pour combattre le courrier indésirable (*spam*) dans les boîtes e-mail. Le modèle consistait à forcer les utilisateurs à résoudre un puzzle cryptographique pour chaque courriel envoyé, afin de limiter la capacité à envoyer des courriels en masse tout en permettant aux expéditeurs ponctuels de ne pas être gênés. Toutefois, ils n'ont jamais été jusqu'à mettre en œuvre leur idée.
+
+Avec la popularisation d'Internet dans les années 90, la problème du courrier électronique indésirable est devenu de plus en plus pregnant, y compris sur la liste de diffusion des cypherpunks. C'est pourquoi le concept de Dwork et Naor a été [implémenté](https://cypherpunks.venona.com/date/1997/03/msg00774.html) par le jeune cypherpunk britannique Adam Back en 1997 avec Hashcash, un algorithme produisant de manière simple des preuves de travail au moyen d'une fonction de hachage. Plus précisément, il s'agit de trouver une collision partielle de la fonction de hachage considérée, c'est-à-dire à obtenir deux messages ayant une empreinte commençant par les mêmes bits de données (note : à partir de la version 1.0 sortie en 2002, il s'agit de découvrir une collision partielle pour l'empreinte zéro, à savoir trouver un antécédant dont l'empreinte commence par un nombre de zéros binaires déterminés). Puisque la fonction de hachage est à sens unique, une telle obtention ne peut être réalisée qu'en testant une à une les différentes possibilités, ce qui demande une dépense énergétique.
+
+Mais les cypherpunks ne se limitaient pas à considérer la preuve de travail comme un simple moyen de limiter le spam ; ils souhaitaient également l'utiliser comme une manière de garantir le coût de production d'une monnaie numérique. Ainsi, en 1997, Adam Back lui-même [envisageait](https://cypherpunks.venona.com/date/1997/04/msg00822.html) pleinement cette idée, mais il avait conscience que les preuves de travail ainsi obtenues ne pouvaient pas être transférées d'une manière pleinement distribuée (à cause du problème de la double dépense) et qu'il fallait par conséquent passer par un système centralisé à la eCash. De même, en 1996, les cryptographes Ronald Rivest et Adi Shamir ont décrit MicroMint, un système de micropaiement centralisé dont les pièces devaient être impossibles à contrefaire grâce à la production de preuves de travail.
+
+Il fallait trouver un bon agencement qui puisse permettre à un tel modèle de fonctionner de manière robuste et durable. Et c'est ce que les cypherpunks Wei Dai, Nick Szabo et Hal Finney allaient essayer de faire avec leurs protocoles respectifs : b-money, bit gold et RPOW.
 
 ### b-money
+
+libtech-l
 
 Wei Dai, 1998
 

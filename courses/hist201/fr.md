@@ -388,9 +388,39 @@ Bitcoin forme donc l'aboutissement d'une quête pour la cybermonnaie, une monnai
 
 ## La naissance de Bitcoin (août 2008 -- janv. 2009)
 
+Après avoir appris d'où venait Bitcoin, nous allons à présent nous concentrer sur son histoire proprement dite. <!--TODO-->
+
+La naissance de Bitcoin est marquée par un évènement majeur : la publication du livre blanc, le document fondateur qui explique le fonctionnement technique de Bitcoin, le 31 octobre 2008. Le réseau a été lancé en janvier 2009, un peu plus de deux mois plus tard. L'activité de Satoshi Nakamoto ne s'est cependant pas limitée à ça : il a tout fait pour que Bitcoin soit lancé dans les meilleures conditions.
+
+### La découverte (printemps 2007 -- août 2008)
+
+Si on en croit son [propre](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [témoignage](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto se met à travailler sur Bitcoin durant le printemps 2007. Après avoir [effectué](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) diverses recherches sur le sujet des monnaies numériques, il finit par trouver un moyen de résoudre le problème de la double-dépense sans tiers de confiance. Pendant plus d'un an, il garde secret son modèle, souhaitant le peaufiner pour s'assurer de sa solidité. Tel qu'il [l'écrira](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) plus tard :
+
+> « À un moment donné, j'ai été convaincu qu'il y avait un moyen de mettre en place ce système sans requérir aucune confiance et je n'ai pas pu m'empêcher de continuer à y penser. &nbsp;Le travail a consisté bien plus à concevoir qu'à coder. »
+>
+> Original: "At some point I became convinced there was a way to do this without any trust required at all and couldn't resist to keep thinking about it. &nbsp;Much more of the work was designing than coding."
+
+Pour s'assurer qu'il fonctionne correctement, Satoshi [programme](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) un prototype avant de rédiger le livre blanc. Cette manière de faire est à l'opposé de ce qui se fait d'ordinaire au sein de la communauté universitaire, où les concepts sont présentés formellement dans des articles scientifiques avant qu'ils soient mis en application. Il [affirmera](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) :
+
+> « En fait, j'ai fait ça un peu à l'envers. &nbsp;J'ai dû écrire tout le code avant de pouvoir me convaincre que je pouvais résoudre tous les problèmes, et je n'ai écrit le papier qu'après. »
+>
+> Original: "I actually did this kind of backwards. &nbsp;I had to write all the code before I could convince myself that I could solve every problem, then I wrote the paper."
+
 ### La préparation (août 2008 -- oct. 2008)
 
-Contact d'Adam Back et de Wei Dai, brouillon de livre blanc, site web, dépôt SourceForge
+C'est en août 2008 que Satoshi Nakamoto se décide à préparer la sortie de Bitcoin. Le 18, il réserve le nom de domaine Bitcoin.org via le service anonyme AnonymousSpeech (ainsi que [Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720), n'ayant probablement pas finalisé le choix du nom à donner à son concept). Le nom de domaine sera utilisé pour héberger le site principal de Bitcoin. Le nom de domaine Bitcoin.com est alors détenu par un [spéculateur](https://mmalmi.github.io/satoshi/#email-28), et il sera [utilisé](https://web.archive.org/web/20090719065532/http://www.bitcoin.com/) entre 2009 et 2011 par une société appelée BitCoin Ltd., spécialisée dans les micropaiements.
+
+Le 20 août, il [entre en contact](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) avec Adam Back en lui envoyant un courriel pour lui demander un conseil sur la façon de citer son article sur Hashcash dans le livre blanc. Difficile de ne pas y voir un prétexte servant à faire en sorte que l'inventeur de Hashcash prenne connaissance de son nouveau système.
+
+Le courriel contient un lien vers une ébauche du livre blanc. Le nom du fichier PDF est `ecash.pdf` et son titre est « *Electronic Cash Without a Trusted Third Party* ». Le résumé est le même que celui de la première version publiée en octobre, à un mot près. Malheureusement nous ne disposons pas du document intégral.
+
+Le lendemain, ayant lu le résumé envoyé par Satoshi (mais pas le papier), Adam Back le redirige vers le proposition b-money de Wei Dai, qui semble posséder des similarités avec son concept. Satoshi répond en le remerciant pour son indication et en précisant que « [ses propres\] idées partent exactement du même point ». (*original: "my ideas start from exactly that point"*). Adam Back lui indique aussi l'existence de MicroMint, mais Satoshi ne répondra pas.
+
+Le surlendemain, le 22 août, Satoshi envoie donc un courriel à Wei Dai pour lui dire qu'il « se prépare à publier un document qui étend [ses\] idées à un système complètement fonctionnel » et pour lui demander l'année de publication de sa page sur la b-money afin d'y faire référence dans le livre blanc. (*original: "I'm getting ready to release a paper that expands on your ideas into a complete working system."*) Comme dans le cas de son échange avec Adam Back, il partage à Wei Dai l'ébauche du livre blanc.
+
+Malgré ces interactions, Adam Back et Wei Dai ne s'intéressent pas immédiatement au concept de Satoshi. Ce ne sera que des années plus tard qu'ils reviendront vers Bitcoin : Wei Dai en 2011 et Adam Back en 2013.
+
+De son côté, Satoshi Nakamoto se prépare à rendre public son invention. Le 3 octobre, il termine la première version du livre blanc de Bitcoin, dont le nom est désormais choisi. Le 5 octobre, il s'inscrit sur la plateforme de gestion de projets SourceForge, là où le code source ouvert du logiciel sera hébergé et maintenu jusqu'en 2011, avant de migrer sur GitHub.
 
 ### La publication du livre blanc (oct. 2008 -- déc. 2008)
 

@@ -277,9 +277,13 @@ Avec l'algorithme de consensus de Bitcoin, Satoshi Nakamoto l'a résolue de mani
 
 L'horodatage (*timestamping* en anglais) est une technique qui consiste à associer une date et une heure à une information comme un évènement ou un document. D'un point de vue légal, cela permet par exemple de s'assurer de l'existence d'un contrat avant une date donnée. Dans le monde réel, il existe ainsi une multitude de moyens d'horodater quelque chose, comme l'envoi d'un document dans une enveloppe scellée ou l'inscription d'une ligne chronologique dans un carnet de notes.
 
-Mais l'horodatage est particulièrement utile dans le monde numérique, où les fichiers (texte, image, audio ou vidéo) sont facilement modifiables. L'horodatage peut être réalisé par des services centralisés, qui se chargent de sauvegarder des documents reçus (ou bien leurs empreintes et d'y associer la date et l'heure de réception. On parle dans ce cas d'horodatage certifié (*trusted timestamping*).
+Mais l'horodatage est particulièrement utile dans le monde numérique, où les fichiers (texte, image, audio ou vidéo) sont facilement modifiables. L'horodatage peut être réalisé par des services centralisés, qui se chargent de sauvegarder des documents reçus (ou bien leurs empreintes) et d'y associer la date et l'heure de réception. On parle dans ce cas d'horodatage certifié (*trusted timestamping*).
 
 En 1991, une technique d'horodatage confidentielle et sécurisée a été proposée par Stuart Haber et Scott Scornetta, deux chercheurs travaillant pour Bell Communications Research Inc. (communément appelé « Bellcore »), un consortium de R&D situé dans le New Jersey. Dans leur article intitulé « [*How to time-stamp a digital document*](http://www.staroceans.org/e-book/Haber_Stornetta.pdf) », ils décrivaient comment un service d'horodatage certifié pouvait utiliser une fonction à sens unique (comme la fonction de hachage MD4) et un algorithme de signature pour accroître la confidentialité des documents des clients et la fiabilité de la certification. En particulier, l'idée était de chaîner les informations en appliquant la fonction à sens unique à l'horodatage précédent.
+
+![Exemple d'horodatage certifié](assets/img/ch3/3.webp)
+
+Exemple d'horodatage certifié (source : [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber et Scornetta ont mis leur idée en application par la publication d'empreintes cryptographiques (résultant d'un hachage des données utiles) dans les petites annonces du New York Times à partir de 1992. Ils ont ensuite créé leur propre société en 1994, Surety Technologies, dans le but de se consacrer pleinement à cette activité. Ils sont ainsi [connus](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) pour avoir créé la première chaîne temporelle d'horodatages, l'empreinte précédente étant prise en compte dans le calcul de la nouvelle empreinte à publier dans le journal, ce qui préfigurait la chaîne de blocs de Bitcoin.
 
@@ -297,7 +301,7 @@ Mais les cypherpunks ne se limitaient pas à considérer la preuve de travail co
 
 Il fallait trouver un bon agencement qui puisse permettre à un tel modèle de fonctionner de manière robuste et durable. C'est ce que les cypherpunks Wei Dai, Nick Szabo et Hal Finney ont essayé de faire avec leurs protocoles respectifs (b-money, bit gold et RPOW), que nous allons étudier dans la suite. Et c'est ce que Satoshi Nakamoto a fini par faire en incluant Hashcash dans sa conception de Bitcoin.
 
-### b-money
+### b-money : le stablecoin décentralisé
 
 Le premier protocole à être issu du mouvement des cypherpunks était b-money, un modèle monnaie numérique décentralisée conceptualisé par Wei Dai en 1998. Ce dernier était un jeune cryptographe sino-américain vivant à Seattle et travaillant pour Microsoft, qui s'était impliqué sur la liste de diffusion à partir de 1994. Il s'est notamment illustré par la création de la bibliothèque libre Crypto++, qui serait plus tard utilisée dans le logiciel de Bitcoin.
 
@@ -311,11 +315,17 @@ Même s'il était assez ingénieux, le concept de b-money présenté par Wei Dai
 
 Après sa publication sur la liste, b-money a attiré l'attention des cypherpunks, et en particulier [celle d'Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Néanmoins, Wei Dai n'a jamais implémenté son modèle, non seulement parce ce dernier était dysfonctionnel, mais aussi à cause de la [désillusion](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) du cryptographe à l'égard de la cryptoanarchie. Toutefois, b-money a fini par être cité dans le livre blanc de Bitcoin, ce qui en fait l'un de ses précurseurs.
 
+![Citation de b-money dans le livre blanc de Bitcoin](assets/img/ch3/4.webp)
+
 ### bit gold : l'or numérique avant Bitcoin
 
 Le deuxième modèle à avoir émergé des idées des cypherpunks était l'idée de bit gold imaginée par Nick Szabo en 1998. Celui-ci était un informaticien américain d'origine hongroise, qui avait notamment travaillé pour comme consultant pour DigiCash pendant six mois. Cypherpunk, il est connu pour avoir formalisé la notion de *smart contract* en 1995.
 
 En 1994, Nick Szabo avait créé une liste de diffusion privée appelée libtech-l, qui avait pour but, comme son nom l'indique, d'héberger des discussions sur les techniques libératoires, permettant de protéger les libertés individuelles face aux assauts des autorités. Y avaient accès des cypherpunks comme les Wei Dai et Hal Finney, ainsi les économistes Larry White et George Selgin, partisans de la concurrence des monnaies hayekienne et de la banque libre.
+
+![Nick Szabo en 1997](assets/img/ch3/5.webp)
+
+Nick Szabo en 1997 (source : [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
 C'est sur la liste libtech-l que Nick Szabo a initialement décrit son concept initialement sur libtech-l, avant d'héberger une [ébauche](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) de livre blanc en 1999 sur son site personnel. Il a ensuite présenté le concept en 2005, dans un [article](https://unenumerated.blogspot.com/2005/12/bit-gold.html) publié sur son blog, Unenumerated.
 
@@ -337,6 +347,10 @@ Pour concevoir son système RPOW, Hal Finney a repris les idées derrière eCash
 Les jetons de preuve de travail réutilisable étaient gérés par le serveur, qui se chargeait de les signer à l'aide du chiffrement RSA. Ils étaient fabriqués par la production d'une preuve de travail via Hashcash, ou bien à partir d'un jeton de RPOW précédent. Lors d'un paiement, l'expéditeur donnait ses jetons de RPOW au destinataire qui s'empressait de communiquer avec le serveur pour recevoir un ou plusieurs nouveaux jetons, dont la valeur globale était égale à la valeur en entrée. Le fonctionnement des RPOW était ainsi
 similaire à celui des billets numériques dans eCash.
 
+En voici une illustration [conçue](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) par Hal Finney lui-même :
+
+![Échange dans RPOW](assets/img/ch3/6.webp)
+
 Hal Finney a non seulement conçu un modèle, mais l'a mis en œuvre personnellement. Le 15 août 2004, il a ainsi [annoncé](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) le lancement du système RPOW sur le liste des cypherpunks, en plus de documenter son fonctionnement sur le site web consacré (rpow.net). Il l'a ensuite [présenté](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) à la CodeCon 2005 organisée à San Francisco, où il a pu faire part des utilisations qu'il envisageaient pour les jetons de preuve de travail, à savoir : le transfert de la valeur, la régulation du courrier indésirable, le commerce dans les jeux vidéos, le jeu d'argent en ligne comme le poker, et l'anti-parasitisme sur les protocoles de partage de fichiers comme BitTorrent.
 
 Toutefois, RPOW présentait des défauts intrinsèques qui peuvent expliquer pourquoi il n'a pas rencontré le succès escompté :
@@ -346,11 +360,15 @@ Toutefois, RPOW présentait des défauts intrinsèques qui peuvent expliquer pou
 
 Ainsi, l'utilisation réelle de RPOW a été anecdotique, mais ce dernier a eu le mérite d'« [ouvrir la voie](https://mmalmi.github.io/satoshi/#email-24) » à Bitcoin en constituant une preuve de concept expérimentale, quatre ans avant l'arrivée de Satoshi Nakamoto.
 
-### Ripple : le crédit décentralisé
+### Ripple : la décentralisation du crédit
 
 Un autre modèle prédécesseur de Bitcoin, moins connu, mais qui a pour autant sa place ici, est le protocole de crédit distribué Ripple, qui a été conçu par le développeur canadien Ryan Fugger en 2004. Ce dernier avait été inspiré par le concept du [système d'échange local](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (SEL), quelque chose qu'il avait expérimenté à Vancouver avant de concevoir son protocole. Il a publié le [livre blanc](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) de Ripple le 14 avril 2004 et l'a ensuite mis en œuvre par le biais d'une preuve de concept appelée RipplePay, qui fonctionnait sur un serveur central et qui permettait aux utilisateurs de se connecter avec une simple adresse de courrier électronique.
 
 Le concept de Ripple se fondait sur l'idée que la monnaie était essentiellement constituée de reconnaissances de dette (IOUs), c'est-à-dire de crédit. Il s'agissait d'établir un réseau pair à pair dont les liens seraient des relations de crédit entre les personnes. Les paiements se faisaient alors par le routage d'une série d'emprunts, tous les participants étant des banquiers se prêtant de l'argent mutuellement. Alice pouvait payer 10 $ à David, en prêtant 10 $ à Bob, et en demandant à Bob de faire de même auprès de Carole, puis à Carole de faire de même auprès de David : le compte de David était ensuite crédité de 10 $ issus de la création monétaire d'Alice. Le système fonctionnait ainsi par ondulations, ce qui explique le nom du projet.
+
+Voici une vidéo de présentation de Ripple réalisée en 2011 :
+
+![Vidéo de présentation de Ripple (2011)](https://www.youtube.com/watch?v=f9KqSgRZYgg)
 
 Malgré l'enthousiasme de sa communauté et quelques milliers d'utilisateurs, Ripple possédait des défauts majeurs qui l'ont empêché de connaître le succès. En particulier, il souffrait du « [problème de l'engagement décentralisé](https://fiatjaf.com/3cb7c325.html) » : durant un paiement, les participants ne pouvaient pas s'engager d'une façon sûre pour assurer la chaîne de prêts, un problème qui serait résolu plus tard par Lightning.
 

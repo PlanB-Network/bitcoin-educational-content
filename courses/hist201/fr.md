@@ -311,7 +311,7 @@ Même s'il était assez ingénieux, le concept de b-money présenté par Wei Dai
 
 Après sa publication sur la liste, b-money a attiré l'attention des cypherpunks, et en particulier [celle d'Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Néanmoins, Wei Dai n'a jamais implémenté son modèle, non seulement parce ce dernier était dysfonctionnel, mais aussi à cause de la [désillusion](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) du cryptographe à l'égard de la cryptoanarchie. Toutefois, b-money a fini par être cité dans le livre blanc de Bitcoin, ce qui en fait l'un de ses précurseurs.
 
-### bit gold, l'or numérique avant Bitcoin
+### bit gold : l'or numérique avant Bitcoin
 
 Le deuxième modèle à avoir émergé des idées des cypherpunks était l'idée de bit gold imaginée par Nick Szabo en 1998. Celui-ci était un informaticien américain d'origine hongroise, qui avait notamment travaillé pour comme consultant pour DigiCash pendant six mois. Cypherpunk, il est connu pour avoir formalisé la notion de *smart contract* en 1995.
 
@@ -339,18 +339,32 @@ similaire à celui des billets numériques dans eCash.
 
 Hal Finney a non seulement conçu un modèle, mais l'a mis en œuvre personnellement. Le 15 août 2004, il a ainsi [annoncé](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) le lancement du système RPOW sur le liste des cypherpunks, en plus de documenter son fonctionnement sur le site web consacré (rpow.net). Il l'a ensuite [présenté](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) à la CodeCon 2005 organisée à San Francisco, où il a pu faire part des utilisations qu'il envisageaient pour les jetons de preuve de travail, à savoir : le transfert de la valeur, la régulation du courrier indésirable, le commerce dans les jeux vidéos, le jeu d'argent en ligne comme le poker, et l'anti-parasitisme sur les protocoles de partage de fichiers comme BitTorrent.
 
-Toutefois, RPOW présentait des défauts intrinsèques qui peuvent expliquer pourquoi il n’a pas rencontré le succès escompté :
+Toutefois, RPOW présentait des défauts intrinsèques qui peuvent expliquer pourquoi il n'a pas rencontré le succès escompté :
 
 - Son modèle de sécurité était plutôt faible, car il reposait sur un serveur centralisé ;
 - Sa politique monétaire (basée sur le hachage) n'était pas spécialement attractive en raison de la hausse exponentielle des performances informatiques.
 
 Ainsi, l'utilisation réelle de RPOW a été anecdotique, mais ce dernier a eu le mérite d'« [ouvrir la voie](https://mmalmi.github.io/satoshi/#email-24) » à Bitcoin en constituant une preuve de concept expérimentale, quatre ans avant l'arrivée de Satoshi Nakamoto.
 
-### Ripple
+### Ripple : le crédit décentralisé
 
-Ryan Fugger, 2004
+Un autre modèle prédécesseur de Bitcoin, moins connu, mais qui a pour autant sa place ici, est le protocole de crédit distribué Ripple, qui a été conçu par le développeur canadien Ryan Fugger en 2004. Ce dernier avait été inspiré par le concept du [système d'échange local](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (SEL), quelque chose qu'il avait expérimenté à Vancouver avant de concevoir son protocole. Il a publié le [livre blanc](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) de Ripple le 14 avril 2004 et l'a ensuite mis en œuvre par le biais d'une preuve de concept appelée RipplePay, qui fonctionnait sur un serveur central et qui permettait aux utilisateurs de se connecter avec une simple adresse de courrier électronique.
 
-« répartir la confiance plutôt que de la concentrer »
+Le concept de Ripple se fondait sur l'idée que la monnaie était essentiellement constituée de reconnaissances de dette (IOUs), c'est-à-dire de crédit. Il s'agissait d'établir un réseau pair à pair dont les liens seraient des relations de crédit entre les personnes. Les paiements se faisaient alors par le routage d'une série d'emprunts, tous les participants étant des banquiers se prêtant de l'argent mutuellement. Alice pouvait payer 10 $ à David, en prêtant 10 $ à Bob, et en demandant à Bob de faire de même auprès de Carole, puis à Carole de faire de même auprès de David : le compte de David était ensuite crédité de 10 $ issus de la création monétaire d'Alice. Le système fonctionnait ainsi par ondulations, ce qui explique le nom du projet.
+
+Malgré l'enthousiasme de sa communauté et quelques milliers d'utilisateurs, Ripple possédait des défauts majeurs qui l'ont empêché de connaître le succès. En particulier, il souffrait du « [problème de l'engagement décentralisé](https://fiatjaf.com/3cb7c325.html) » : durant un paiement, les participants ne pouvaient pas s'engager d'une façon sûre pour assurer la chaîne de prêts, un problème qui serait résolu plus tard par Lightning.
+
+Voyant que son projet n'allait nulle part,  Ryan Fugger a laissé les rênes de Ripple aux dirigeants de l'entreprise OpenCoin Inc., Chris Larsen et Jed McCaleb, en novembre 2012. La société a été renommée en Ripple Labs en 2013. Ces derniers en ont fait un protocole sensiblement différent du concept initial, reposant sur un algorithme de consensus et sur une unité de compte native, le XRP. Ryan Fugger a fini par modifier le nom de sa preuve de concept en [Rumplepay](https://rumplepay.com/) en 2020 pour éviter la confusion.
+
+Ripple était pour ainsi dire contemporain de Bitcoin, et il s'avère que beaucoup de gens intéressés par ce dernier s'étaient aussi intéressés au premier. En effet, Ripple constituait un modèle novateur, fondée sur une architecture distribuée, une caractéristique partagée avec Bitcoin. À ce sujet, Satoshi Nakamoto [écrirait](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz) que « Ripple est unique en ce qu'il répartit la confiance plutôt que de la concentrer ».
+
+### Bitcoin, l'aboutissement d'une quête
+
+Ainsi, à la fin des années 2000, tous les éléments constitutifs de Bitcoin étaient connus et plusieurs tentatives de les combiner avait été réalisées. Toutefois, les assemblages proposés n'avaient pas été probants. Les cypherpunks en particuliers se sont désintéressés de cette question, jugeant que la conception d'une monnaie numérique réellement décentralisée était impossible. Satoshi Nakamoto leur a donné tort.
+
+Bitcoin constitue en effet un assemblage ingénieux de tous ces concepts. Il repose sur la signature numérique, issue de la cryptographie asymétrique proposée par Diffie et Hellmann en 1976. Il est un « argent liquide électronique » comme s'y destinait le modèle eCash de David Chaum mis en application dans les années 90. Par son algorithme de consensus novateur, il résout de manière robuste le problème des généraux byzantins, énoncé par Lamport, Shostak et Pease en 1982. Avec le gestion de sa chaîne de blocs sur un réseau pair à pair, il est une forme de « serveur d'horodatage distribué », reprenant le concept de Haber et Scornetta de 1991. Pour la sélection des blocs de transactions et pour la production des unités, il fait usage de la preuve de travail, utilisant un procédé proche de Hashcash, proposé par Adam Back en 1997. Enfin, il rappelle par sa conception les projets de b-money, bit gold, RPOW et Ripple, auxquels Satoshi Nakamoto a rendu hommage, d'une façon ou d'une autre.
+
+Bitcoin forme donc l'aboutissement d'une quête pour la cybermonnaie, une monnaie existant intégralement sur Internet et n'étant pas à la merci des États. Dans les prochains chapitres, nous raconterons comment il a pris vie et quels ont été les évènements marquants de ses premières années d'existence.
 
 # L'action de Satoshi Nakamoto (2008 -- 2011)
 

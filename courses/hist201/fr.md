@@ -368,7 +368,7 @@ Le concept de Ripple se fondait sur l'idée que la monnaie était essentiellemen
 
 Voici une vidéo de présentation de Ripple réalisée en 2011 :
 
-![Vidéo de présentation de Ripple (2011)](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+![Vidéo (Youtube) de présentation de Ripple en 2011](https://youtu.be/f9KqSgRZYgg)
 
 Malgré l'enthousiasme de sa communauté et quelques milliers d'utilisateurs, Ripple possédait des défauts majeurs qui l'ont empêché de connaître le succès. En particulier, il souffrait du « [problème de l'engagement décentralisé](https://fiatjaf.com/3cb7c325.html) » : durant un paiement, les participants ne pouvaient pas s'engager d'une façon sûre pour assurer la chaîne de prêts, un problème qui serait résolu plus tard par Lightning.
 

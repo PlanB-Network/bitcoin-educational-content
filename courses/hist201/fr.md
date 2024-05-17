@@ -394,7 +394,7 @@ La naissance de Bitcoin est marquée par un évènement majeur : la publication
 
 ### La découverte (printemps 2007 -- août 2008)
 
-Si on en croit son [propre](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [témoignage](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto se met à travailler sur Bitcoin durant le printemps 2007. Après avoir [effectué](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) diverses recherches sur le sujet des monnaies numériques, il finit par trouver un moyen de résoudre le problème de la double-dépense sans tiers de confiance. Pendant plus d'un an, il garde secret son modèle, souhaitant le peaufiner pour s'assurer de sa solidité. Tel qu'il [l'écrira](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) plus tard :
+Si on en croit son [propre](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [témoignage](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto se met à travailler sur Bitcoin durant le printemps 2007. Après avoir [effectué](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) diverses recherches sur le sujet des monnaies numériques, il finit par trouver un moyen de résoudre le problème de la double dépense sans tiers de confiance. Pendant plus d'un an, il garde secret son modèle, souhaitant le peaufiner pour s'assurer de sa solidité. Tel qu'il [l'écrira](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) plus tard :
 
 > « À un moment donné, j'ai été convaincu qu'il y avait un moyen de mettre en place ce système sans requérir aucune confiance et je n'ai pas pu m'empêcher de continuer à y penser. &nbsp;Le travail a consisté bien plus à concevoir qu'à coder. »
 >
@@ -412,6 +412,8 @@ C'est en août 2008 que Satoshi Nakamoto se décide à préparer la sortie de Bi
 
 Le 20 août, il [entre en contact](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) avec Adam Back en lui envoyant un courriel pour lui demander un conseil sur la façon de citer son article sur Hashcash dans le livre blanc. Difficile de ne pas y voir un prétexte servant à faire en sorte que l'inventeur de Hashcash prenne connaissance de son nouveau système.
 
+img: photo d'Adam Back
+
 Le courriel contient un lien vers une ébauche du livre blanc. Le nom du fichier PDF est `ecash.pdf` et son titre est « *Electronic Cash Without a Trusted Third Party* ». Le résumé est le même que celui de la première version publiée en octobre, à un mot près. Malheureusement nous ne disposons pas du document intégral.
 
 Le lendemain, ayant lu le résumé envoyé par Satoshi (mais pas le papier), Adam Back le redirige vers le proposition b-money de Wei Dai, qui semble posséder des similarités avec son concept. Satoshi répond en le remerciant pour son indication et en précisant que « [ses propres\] idées partent exactement du même point ». (*original: "my ideas start from exactly that point"*). Adam Back lui indique aussi l'existence de MicroMint, mais Satoshi ne répondra pas.
@@ -420,11 +422,43 @@ Le surlendemain, le 22 août, Satoshi envoie donc un courriel à Wei Dai pour lu
 
 Malgré ces interactions, Adam Back et Wei Dai ne s'intéressent pas immédiatement au concept de Satoshi. Ce ne sera que des années plus tard qu'ils reviendront vers Bitcoin : Wei Dai en 2011 et Adam Back en 2013.
 
-De son côté, Satoshi Nakamoto se prépare à rendre public son invention. Le 3 octobre, il termine la première version du livre blanc de Bitcoin, dont le nom est désormais choisi. Le 5 octobre, il s'inscrit sur la plateforme de gestion de projets SourceForge, là où le code source ouvert du logiciel sera hébergé et maintenu jusqu'en 2011, avant de migrer sur GitHub.
+De son côté, Satoshi se prépare à rendre public son invention. Le 3 octobre, il termine la première version du livre blanc de Bitcoin, dont le nom est désormais choisi. Le 5 octobre, il s'inscrit sur la plateforme de gestion de projets SourceForge, là où le code source ouvert du logiciel sera hébergé et maintenu jusqu'en 2011, avant de migrer sur GitHub.
 
-### La publication du livre blanc (oct. 2008 -- déc. 2008)
+### La publication du livre blanc (oct. 2008 -- nov. 2008)
 
-Metzdowd Cryptography mailing list, document de 9 pages, critiques et réponses, code, bitcoin-list
+Le 31 octobre 2008, Satoshi Nakamoto publie la première version du livre blanc sur une liste de diffusion de courrier électronique dédiée à la cryptographie, appelée simplement la « *Cryptography mailing list* ». Cette liste est gérée par le développeur Perry Metzger depuis 1996, date de sa [création](https://cypherpunks.venona.com/date/1996/12/msg00102.html) en 1996, en réaction au nombre de plus en plus important de courriels sur la liste des cypherpunks, et est hébergée sur son site personnel, Metdowd.com, depuis [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Elle est l'héritière de la liste des cypherpunks, à la différence qu'elle est soumise à une modération stricte. En 2008, plusieurs anciens cypherpunks y participent encore, comme John Gilmore, Hal Finney ou encore Len Sassaman.
+
+Dans son premier [courriel](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) adressé à la liste, Satoshi écrit sobrement :
+
+> « J'ai travaillé sur un nouveau système d'argent liquide électronique qui est entièrement pair à pair, dépourvu de tiers de confiance. »
+>
+> Original: "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party."
+
+Il liste également les propriétés principales de son modèle :
+
+- « Les doubles dépenses sont évitées grâce à un réseau pair à pair. »
+- « Pas de monnaierie ni d'autre tiers de confiance. »
+- « Les participants peuvent être anonymes. »
+- « Les nouvelles unités sont fabriquées à partir d'une preuve de travail de style Hashcash. »
+- « La preuve de travail utilisée pour la génération des nouvelles pièces permet également au réseau d'éviter les doubles dépenses. »
+
+(*original: "Double-spending is prevented with a peer-to-peer network. &nbsp;No mint or other trusted parties. &nbsp;Participants can be anonymous. &nbsp;New coins are made from Hashcash style proof-of-work. &nbsp;The proof-of-work for new coin generation also powers the network to prevent double-spending."*)
+
+Dans son courriel, il inclue un lien vers le livre blanc, déjà hébergé sur Bitcoin.org, qui est un court document de 9 pages, présenté comme un article scientifique, décrivant le fonctionnement technique de Bitcoin. Ce document est centré sur le problème des paiements en ligne.
+
+![Titre et résumé de la première version du livre blanc (octobre 2008)](assets/img/ch4/2.webp)
+
+**extrait** Suite à cette annonce, Satoshi reçoit peu de réponses, et beaucoup d'entre elles sont sceptiques. On lui reproche trois choses :
+
+- Tout d'abord, le cypherpunk James A. Donald [remet en cause](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) le passage à l'échelle du système en disant qu'« il ne semble pas pouvoir s'adapter à la taille requise ». Satoshi lui [répond](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) : « La bande passante n'est peut-être pas aussi prohibitive que vous le pensez. »
+- Le deuxième commentaire négatif provient de John R. Levine, auteur du livre *Internet pour les Nuls* et consultant spécialisé dans l'infrastructure du courrier électronique, le filtrage des spams et les brevets logiciels. Ce dernier [critique](https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html) la sécurité de Bitcoin en évoquant la puissance de calcul détenue par les « fermes de machines zombies » composées d'ordinateurs contrôlés par des pirates. Il explique en particulier que, sur Internet, « les gentils ont une puissance de calcul nettement inférieure à celle des méchants ». Satoshi [répond](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html) brillamment : « L'exigence est que les gentils disposent collectivement d'une puissance de calcul supérieure à celle de n'importe quel attaquant. »
+- Enfin, un individu du nom de Ray Dillinger (utilisant le pseudonyme bear) s'interroge sur la valeur de l'unité de compte, déplorant le fait que « les preuves de travail informatiques n'ont pas de valeur intrinsèque » et reprochant le caractère inflationniste du système. Satoshi lui [répond](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) que « l'augmentation de la vitesse du matériel est prise en charge » en expliquant ensuite l'ajustement de la difficulté.
+
+**extrait** Cet accueil sceptique n'est pas partagé par l'intégralité des personnes inscrites sur la liste de diffusion. En particulier, Hal Finney est résolument enthousiaste et écrit dans son [message](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) du 7 novembre que « Bitcoin semble être une idée très prometteuse ». Le cryptographe a en effet une vision optimiste de l'avenir. Il [déclarera](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) à ce sujet quelques années plus tard que « les cryptographes grisonnants [...\] ont tendance à devenir cyniques » mais que lui « était plus idéaliste » ayant « toujours aimé la cryptographie, son mystère et son paradoxe ».
+
+### Le code et la politique monétaire (nov. 2008 -- déc. 2008)
+
+Incitation (livre blanc), réponse à Ray Dillinger, code, bitcoin-list
 
 ### La sortie du logiciel et le lancement du réseau (janv. 2009)
 

@@ -17,7 +17,7 @@
   links:
     replay_url:
     live_url: https://www.youtube.com/embed/S3QSGccg0RM?si=CP06kwSCCvIC_Rpl
-    chat_url: https://peertube.planb.network/p/livechat/room?room=094e83f1-1067-4aed-88cc-6d50fdc6a936
+    chat_url: https://peertube.planb.network/plugins/livechat/webchat/room/094e83f1-1067-4aed-88cc-6d50fdc6a936 
   tags:
     - economy
     - innovation

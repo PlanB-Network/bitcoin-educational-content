@@ -467,7 +467,7 @@ In a major advancement for Bitcoin adoption, Blink Wallet (formerly known as Bit
 
 ## Freedom or Control?  
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=6)
+![video](https://youtu.be/4f4ETAKN9bU?si=iKqjQ2twKN92Jn3a)
 
 Speaker: Paolo Ardoino
 
@@ -475,7 +475,7 @@ We are not monsters. We are just ahead of the curve.
 
 ## I came for Democracy but stayed for Bitcoin 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=6)
+![video](https://youtu.be/eyvfGnlzXqo?si=pTXDcC4K3HkbcAmY)
 
 Speaker: Carliño, Ed
 
@@ -483,7 +483,7 @@ Digital Witness, a loose translation from what is known in Guatemala as FiscalDi
 
 ## 1 LN node, 1 ATM, 1 school in el Salvador 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=7)
+![video](https://youtu.be/K-IRlNoelbc?si=OohKLxu5Enc0Tn0Z)
 
 Speaker: Rogzy
 
@@ -491,7 +491,7 @@ Our company (DB) with cubo+ is helping the ministry of education and bitcoin off
 
 ## The Bitcoin Association of El Salvador 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=9)
+![video](https://youtu.be/Qgx6-ReJLbI?si=wNK7Pry2aE7a9AV6)
 
 Speaker: Will Hernandez 
 
@@ -499,7 +499,7 @@ Presentation of The Bitcoin Association of El Salvador, benefits, the experience
 
 ## Bitcoin Adoption in LATAM beyond El Salvador 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=9)
+![video](https://youtu.be/LoxqzCCReW4?si=JkcubdJPjfHT2fur)
 
 Speaker: Ho, Peterson ,Eliazar
 
@@ -507,7 +507,7 @@ Latin America is a region of great potential. However, bad politicians and leade
 
 ## Bitcoin and Psychedelics
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=10)
+![video](https://youtu.be/vhPfvlNfzmw?si=hrgb_XKNIA0wIx5Y)
 
 Speaker: Ioni Appelberg 
 
@@ -515,7 +515,7 @@ Bitcoin is to the economy what psychedelics are for the mind. Discover the strik
 
 ## Who are the Bitcoin generation? 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=11)
+![video](https://youtu.be/-I4iHsJxGSM?si=MzjlQ4-w20B6s2it)
 
 Speaker: Samantha de Waal 
 
@@ -524,7 +524,7 @@ Who are the Bitcoin generation and what do the rest of you need to know about us
 
 ## The Bitcoin miracle at Virunga 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=12)
+![video](https://youtu.be/D2eri4eOa3c?si=AxiYZIydxIGArHnC)
 
 Speaker: Sébastien Gouspillou 
 
@@ -532,7 +532,7 @@ The Screening of a mini-documentary on the Virunga Park, its hydroelectric proje
 
 ## Financial Inclusion: A Pathway to Economic Freedom 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=14)
+![video](https://youtu.be/QLcjiSvQSII?si=OjGxhxbq_QGoKgv9)
 
 Speaker: Dejan Roljic 
 
@@ -540,7 +540,7 @@ Addressing global financial challenges, Bitcoin offers solutions bridging tradit
 
 ## Anuncio Bitcoin ATMs con Lightning Network 
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=15)
+![video](https://youtu.be/SccaAJzkAlw?si=W6lHw7q5BZaKl28T)
 
 Speaker: Matias Golderhörn 
 
@@ -548,7 +548,7 @@ Athena Bitcoin como una de las compañías mas grandes de Bitcoin ATMs del mundo
 
 ## A New Era of Bitcoin Creators
 
-![video](https://www.youtube.com/watch?v=rstDeS1IdSM&list=PLN2-dhqIYoj8mrfUxSxvzBXOgeOsW1P5Y&index=16)
+![video](https://youtu.be/th5LC0bBInc?si=_P7jnTF9Hhy--Mpk)
 
 Speaker: Julian Figueroa 
 
@@ -557,7 +557,8 @@ How can we reach future Bitcoiners in a more engaging, creative way? Can we impr
 # NAKA Stage
 
 ## Teaching Bitcoin and Lightning through Games
-[video](https://youtu.be/-J8TqUXgRoE?si=-fnHIN6mPdNYakTG)
+
+![video](https://youtu.be/-J8TqUXgRoE?si=-fnHIN6mPdNYakTG)
 
 Speaker: Scott Lindberg
 
@@ -565,7 +566,7 @@ Frustrated with challenges reaching your pre-coiner loved ones? The focus of thi
 
 ## BTC MAP - Merchant Adoption 
 
-[video](https://youtu.be/4Qh7HIumiUo?si=ucAsCwUW9-WKSKXO)
+![video](https://youtu.be/4Qh7HIumiUo?si=ucAsCwUW9-WKSKXO)
 
 Speaker: Nathan Day 
 

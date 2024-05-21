@@ -10,9 +10,3 @@ description: The BitBlockBoom! is a bitcoin conference. To put it in simple term
 ![video](https://www.youtube.com/live/JIB1SN9kSV0?si=jEY2PLGswrhTT9KI)
 
 Speaker: Guy Swann
-
-## NOSTR WORKSHOPS
-
-![video](https://youtu.be/bgCJAM-Z630?si=jeGbAxg6HkoYs7AZ)
-
-Speakers: Elsat 

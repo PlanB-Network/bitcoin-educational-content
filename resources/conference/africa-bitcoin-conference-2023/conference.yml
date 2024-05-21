@@ -6,7 +6,8 @@ language:
    - en
 links:
   website: https://afrobitcoin.org/
-tag: 
+  twitter: https://twitter.com/AfroBitcoinOrg
+tags: 
   - Bitcoiner
   - General
   - lightning network

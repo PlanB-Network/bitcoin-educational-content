@@ -1,7 +1,7 @@
 ---
 name: Watch out 2022  
 description: 
- El evento presencial para aprender sobre #Bitcoin y el mundo actual, conocerse y cooperar. 
+ El evento presencial para aprender sobre Bitcoin y el mundo actual, conocerse y cooperar. 
 ---
 
 # Mains Stage

@@ -39,6 +39,9 @@ Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
         | La dépense groupée
         | Les transactions propres à un protocole
     Chapitre 3 - Les heuristiques internes
+        | Les similitudes internes
+        | Les paiements par nombres ronds
+        | Le plus grand output
     Chapitre 4 - Les heuristiques externes
     Chapitre 5 - Mise en pratique avec l'outil Mempool.space
 

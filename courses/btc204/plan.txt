@@ -43,6 +43,8 @@ Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
         | Les paiements par nombres ronds
         | Le plus grand output
     Chapitre 4 - Les heuristiques externes
+        | La réutilisation d’adresse
+        | La similitude des scripts et les empreintes de portefeuilles
     Chapitre 5 - Mise en pratique avec l'outil Mempool.space
 
 Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée

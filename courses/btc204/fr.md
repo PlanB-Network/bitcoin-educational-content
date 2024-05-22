@@ -575,6 +575,55 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 ## Les heuristiques externes
 
+L’étude des heuristiques externes, c’est l’analyse des similitudes, des patterns et des caractéristiques de certains éléments qui ne sont pas propres à la transaction en elle-même. Autrement dit, si précédemment, nous nous limitions à l'exploitation d'éléments intrinsèques à la transaction avec les heuristiques internes, nous élargissons désormais notre champ d’analyse à l'environnement de la transaction grâce aux heuristiques externes.
+
+### La réutilisation d’adresse
+
+C’est une des heuristiques les plus connues des bitcoiners. La réutilisation d’adresse permet d’établir un lien entre différentes transactions et différents UTXOs. Elle s’observe lorsqu’une adresse de réception Bitcoin est utilisée plusieurs fois.
+
+Ainsi, il est possible d'exploiter la réutilisation d'adresse au sein d'une même transaction comme une heuristique interne pour identifier le change (c'est ce que nous avons vu dans le chapitre précédent). Mais la réutilisation d'adresse peut également servir d'heuristique externe pour reconnaître l'unicité d'une entité derrière plusieurs transactions.
+
+L’interprétation de la réutilisation d’une adresse est que tous les UTXOs bloqués sur cette adresse appartiennent (ou ont appartenu) à une même entité. Cette heuristique laisse peu de place à l'incertitude. Lorsque l'on parvient à l'identifier, l'interprétation qui en découle a de fortes chances de correspondre à la réalité. Elle permet donc le regroupement de différentes activités onchain, afin d'observer ce que l'on désigne par le terme de "cluster".
+
+![BTC204](assets/fr/34/01.webp)
+
+Comme expliqué en introduction de cette partie 3, cette heuristique fut découverte par Satoshi Nakamoto lui-même. Dans le White Paper, il évoque justement une solution pour que les utilisateurs évitent de la produire, qui est tout simplement d’utiliser une adresse vierge pour chaque nouvelle transaction : 
+
+« _En guise de pare-feu additionnel, une nouvelle paire de clés pourrait être utilisée pour chaque transaction afin de les garder non liées à un propriétaire commun._ »
+
+![BTC204](assets/notext/34/02.webp)
+
+Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
+
+Par exemple, voici une adresse réutilisée sur plusieurs transactions :
+
+```bash
+bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
+```
+
+![BTC204](assets/notext/34/03.webp)
+
+Source : [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+
+### La similitude des scripts et les empreintes de portefeuilles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Mise en pratique avec l'outil Mempool.space
@@ -798,7 +847,7 @@ Dans le système bancaire traditionnel, par exemple, nous sommes habitués à pa
 
 ![BTC204](assets/notext/72/2.webp)
 
-Cependant, le fonctionnement de Bitcoin est différent : il est impératif de générer une nouvelle adresse de réception pour chaque transaction entrante. Ce compromis entre praticité d'utilisation et confidentialité remonte à l'origine même du White Paper de Bitcoin. Dès la publication de son document fin 2008, Satoshi Nakamoto nous alertait déjà sur ce risque :
+Cependant, le fonctionnement de Bitcoin est différent : il est impératif de générer une nouvelle adresse de réception pour chaque transaction entrante. Ce compromis entre praticité d'utilisation et confidentialité remonte à l'origine même du White Paper de Bitcoin. Dès la publication de la première version de son document fin 2008, Satoshi Nakamoto nous alertait déjà sur ce risque :
 
 **« *En guise de pare-feu additionnel, une nouvelle paire de clés pourrait être utilisée pour chaque transaction afin de les garder non liées à un propriétaire commun.* »**
 

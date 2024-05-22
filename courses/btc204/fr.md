@@ -336,6 +336,10 @@ Notons que les deux premières heuristiques d'analyse de chaîne ont été déco
 - la CIOH (*Common Input Ownership Heuristic*) ;
 - et la réutilisation d’adresse.
 
+![BTC204](assets/notext/31/6.webp)
+
+Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
+
 Nous verrons dans les chapitres suivants en quoi elles consistent, mais il est déjà intéressant de noter que ces deux heuristiques conservent toujours une prééminence dans l’analyse de chaîne aujourd’hui.
 
 ## Les patterns de transactions
@@ -468,7 +472,106 @@ Grâce à ces paternes de transactions, on peut déjà interpréter un certain n
 
 ## Les heuristiques internes 
 
+Une heuristique interne est une caractéristique spécifique que l'on identifie au sein même d'une transaction, sans nécessiter l'examen de son environnement, et qui nous permet de réaliser des déductions. Contrairement aux patterns qui se focalisent sur la structure globale de la transaction à un haut niveau, les heuristiques internes se fondent sur l'ensemble des données extractibles. Cela inclut :
+- Les montants des différents UTXOs en entrée comme en sortie ;
+- Tout ce qui concerne les scripts : les adresses de réception, les versionnages, les locktimes…
 
+Généralement, ce type d’heuristique va nous permettre d’identifier le change dans une transaction spécifique. Ce faisant, nous pourrons ensuite perpétuer le traçage d’une entité sur plusieurs transactions différentes. En effet, si l'on identifie un UTXO appartenant à un utilisateur que l'on souhaite suivre, il est crucial de déterminer, lorsqu'il effectue une transaction, quel output a été transféré à un autre utilisateur et quel output représente le change, qui reste ainsi en sa possession.
+
+![BTC204](assets/fr/33/01.webp)
+
+Une nouvelle fois, je vous rappelle que ces heuristiques ne sont pas d’une précision absolue. Prises individuellement, elles nous permettent uniquement d’identifier des scénarios vraisemblables. C’est l’accumulation de plusieurs heuristiques qui contribue à atténuer l'incertitude, sans toutefois jamais parvenir à l'éliminer totalement.
+
+### Les similitudes internes
+
+Cette heuristique regroupe l’étude des similitudes entre les inputs et les outputs d’une même transaction. Si l’on observe une même caractéristique sur les entrées et sur une seule des sorties de la transaction, alors il est vraisemblable que cette sortie constitue le change. 
+
+La caractéristique la plus flagrante est la réutilisation d’une adresse de réception dans une même transaction.
+
+![BTC204](assets/fr/33/02.webp)
+
+Cette heuristique laisse peu de place au doute. À moins qu’il se soit fait pirater sa clé privée, une même adresse de réception révèle forcément l’activité d’un unique utilisateur. L’interprétation qui en découle est que le change de la transaction est l'output avec la même adresse que l’input. On pourra ainsi continuer de tracer l’individu à partir de ce change.
+
+Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
+
+```bash
+54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
+```
+
+![BTC204](assets/notext/33/03.webp)
+
+Source : [Mempool.space](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
+
+Ces similitudes entre les entrées et les sorties ne s’arrêtent pas à la réutilisation d’adresse. Toute ressemblance dans l’utilisation des scripts peut permettre l’application d’une heuristique. Par exemple, on va parfois pouvoir observer le même versionnage entre l’entrée et une des sorties de la transaction.
+
+![BTC204](assets/fr/33/04.webp)
+
+Sur ce schéma, on peut voir que l’input n° 0 débloque un script P2WPKH (SegWit V0 commençant par `bc1q`). L’output n° 0 utilise le même type de script. En revanche, l’output n° 1 utilise un script P2TR (SegWit V1 commençant par `bc1p`). L’interprétation de cette caractéristique est qu’il est vraisemblable que l’adresse avec le même versionnage que l’input soit l’adresse de change. Elle appartiendrait donc toujours au même utilisateur.
+
+Voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
+
+```dash
+db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
+```
+
+![BTC204](assets/notext/33/05.webp)
+
+Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
+
+Sur cette dernière, on peut voir que l’input n° 0 et l’output n° 1 utilisent des scripts P2WPKH (SegWit V0), alors que l’output n° 0 utilise un script différent de type P2PKH (Legacy).
+
+Au début des années 2010, cette heuristique basée sur le versionnage des scripts était relativement peu utile du fait de la limitation des types de script disponibles. Cependant, avec le temps et les mises à jour successives de Bitcoin, une diversité croissante de types de script a été introduite. Cette heuristique devient donc de plus en plus pertinente, car avec un éventail plus large de types de script, les utilisateurs se divisent en groupes plus restreints, augmentant ainsi les chances d'appliquer cette heuristique de réutilisation interne du versionnage. Pour cette raison, dans une perspective de confidentialité uniquement, il est conseillé d'opter pour le type de script le plus courant. Par exemple, lorsque je rédige ces lignes, les scripts Taproot (`bc1p`) sont moins fréquemment utilisés que les scripts SegWit V0 (`bc1q`). Bien que les premiers offrent des bénéfices économiques et de confidentialité dans certains contextes spécifiques, pour des utilisations de signature unique plus traditionnelles, il peut être judicieux de s'en tenir à un standard plus ancien pour des raisons de confidentialité, jusqu'à ce que le nouveau standard soit plus largement adopté.
+
+### Les paiements par nombres ronds
+
+Une autre heuristique interne qui peut nous permettre d’identifier le change est celle du nombre rond. De manière générale, lorsque l’on se retrouve face à un pattern de paiement simple (1 input et 2 outputs), si une des sorties dépense un montant rond, alors celle-ci représente le paiement.
+
+![BTC204](assets/fr/33/06.webp)
+
+Par élimination, si une sortie représente le paiement, l’autre représente le change. On peut donc interpréter qu’il est vraisemblable que l’utilisateur en entrée soit toujours en possession de la sortie identifiée comme étant le change.
+
+Il convient de souligner que cette heuristique n'est pas toujours applicable, puisque la majorité des paiements s'effectuent encore en unités de compte fiduciaires. En effet, lorsqu'un commerçant en France accepte le bitcoin, en général, il n’affiche pas des prix stables en sats. Il optera plutôt pour une conversion entre le prix en euros et le montant en bitcoins à régler. Il ne devrait donc pas y avoir de nombre rond en sortie de la transaction. 
+
+Néanmoins, un analyste pourrait tenter de réaliser cette conversion en tenant compte du taux de change en vigueur lorsque la transaction a été diffusée sur le réseau. Prenons l'exemple d'une transaction avec un input de `97 552 sats` et deux outputs, l'un de `31 085 sats` et l'autre de `64 152 sats`. À première vue, cette transaction ne semble pas impliquer des montants ronds. Cependant, en appliquant le taux de change de 64 339 € au moment de la transaction, nous obtenons une conversion en euros qui se présente comme suit :
+- Un input de 62,76 € ;
+- Un output de 20 € ;
+- Un output de 41,27 €.
+
+Une fois convertie en monnaie fiat, cette transaction permet d'appliquer l'heuristique du paiement par montant rond. L'output de 20 € a probablement été destiné à un commerçant, ou a du moins changé de propriétaire. Par déduction, l'output de 41,27 € est vraisemblablement resté en possession de l'utilisateur initial.
+
+![BTC204](assets/fr/33/07.webp)
+
+Si un jour, le bitcoin devient l’unité de compte préférée dans nos échanges, cette heuristique pourrait devenir encore plus utile pour les analyses.
+
+Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
+
+```bash
+2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a
+```
+
+![BTC204](assets/notext/33/08.webp)
+
+Source : [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
+
+### Le plus grand output
+
+Lorsque l’on repère un écart suffisamment large entre 2 sorties de transaction sur un modèle de paiement simple, on peut estimer que la sortie la plus grande est vraisemblablement le change.
+
+![BTC204](assets/fr/33/09.webp)
+
+Cette heuristique du plus gros output est sûrement la plus imprécise de toutes. Si on l’identifie seule, elle est assez faible. Toutefois, cette caractéristique peut être additionnée avec d’autres heuristiques afin de réduire l’incertitude de notre interprétation.
+
+Par exemple, si nous examinons une transaction présentant une sortie avec un montant rond et une autre sortie avec un montant plus important, l'application conjointe de l'heuristique des paiements ronds et de celle concernant la plus grande sortie nous permet de réduire notre niveau d'incertitude.
+
+Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
+
+```bash
+b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
+```
+
+![BTC204](assets/notext/33/10.webp)
+
+Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 ## Les heuristiques externes
 

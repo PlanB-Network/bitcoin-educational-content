@@ -1,0 +1,19 @@
+- start_date: 2024-01-13 04:00:00
+  end_date: 2024-01-13 19:00:00
+  timezone: Asia/Bangkok
+  address_line_1: 65 Sukhumvit 13 Soi 1-1
+  address_line_2: Khwaeng Khlong Toei Nuea, Watthana
+  address_line_3: Krung Thep Maha Nakhon 10110, Tailandia
+  name: BOBFERENCE
+  builder: BOB Space
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Join us at BOB's first Unconference, where the ethos of Bitcoin's decentralization and open collaboration come to life. Our event is dedicated to bringing together the backbone of Bitcoin within Asia, fostering an environment where innovation, privacy, and freedom are paramount. 
+  language: 
+    - en
+  tags: 
+    - conference
+    - technology
+    - education

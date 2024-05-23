@@ -17,10 +17,10 @@ Here, we will highlight trends and common patterns in episodes of hyperinflation
 +++
 
 # Introduction
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
 ## Introduction
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 This program aims to provide a deep understanding of the emergence of hyperinflations in a world dominated by Fiat currency and to examine their significant consequences. Participants will explore hyperinflation cycles in detail, analyzing the causes, triggers, and historical and contemporary examples. They will also examine the tangible impact of hyperinflations on the economy and daily life, studying the repercussions on currency value, purchasing power, and individual and collective savings.
 
@@ -55,10 +55,10 @@ Section 4 - How did we get here?
 Good luck!
 
 # What is inflation?
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## A monetary phenomenon
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Definitions of inflation
 
@@ -228,7 +228,7 @@ This analysis demonstrates that trust in currency, and by extension its value, w
 In conclusion, this study on monetary devaluation opens the door to a deep understanding of inflation mechanisms, which will be explored in the following videos. We will discuss the different types of inflation and the threshold at which they transition to high or hyperinflation. This solid foundation will allow us to address the complexities of inflation in the upcoming sessions. Thank you for your attention, and see you in the next video to continue this exploration of monetary dynamics.
 
 ## Types of Inflation
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### Inflation is not a multifactorial phenomenon
 
@@ -407,10 +407,10 @@ In our future discussions, we will delve deeper into hyperinflation, exploring i
 Thank you for your attention. The next session will be entirely dedicated to defining and demystifying hyperinflation, taking into account different academic and practical perspectives. We look forward to continuing this exploration with you in our next meeting.
 
 # What is hyperinflation?
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Definitions of hyperinflation
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Definitions of hyperinflation
 
@@ -466,7 +466,7 @@ Common definitions of hyperinflation, such as the one put forward by Kagan stati
 It should be noted that certain historical periods of high inflation are not included in the classic tables of hyperinflation, often due to strict classification criteria. For example, during the American War of Independence in November 1779, and during the American Civil War in March 1864, the monthly inflation rates were 47.4% and 40% respectively. These rates, although high, do not exceed the 50% threshold stipulated by Kagan, thus excluding these periods from being classified as hyperinflation cases. This omission illustrates the limitations of rigid definitions and highlights the need for a more nuanced approach to understanding hyperinflation in all its complexity.
 
 ## Weimar vs Zimbabwe similarities
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Two eras, two catastrophes
 
@@ -621,7 +621,7 @@ Zimbabwe: "We now used these vouchers to pay rent to landlords, municipal taxes,
 This concludes this video on the similarities of the experiences during the periods of hyperinflation in Zimbabwe and the Weimar Republic. In the next video, we will discuss the differences and contemporary parallels. Thank you.
 
 ## Weimar vs Zimbabwe: Differences and Contemporary Parallels
-<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
+<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Transcript:
 
@@ -715,7 +715,7 @@ Imagine a scenario where you have a family or loved ones that you want to protec
 Today, in the face of declining purchasing power, investment takes over. However, this approach comes with its own risks. Savings have always been a remedy against uncertainty. Having financial reserves to manage unforeseen situations contributes to peace of mind and strengthens social cohesion. In conclusion, protecting our purchasing power is essential to maintain social and individual stability.
 
 ## Redenominations in Latin America
-<chapterId>c39bdd74-3140-57c6-a784-b238b16879e3</chapterId>
+<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 We will now look at different periods of redenomination in Latin American countries.
 
@@ -819,7 +819,7 @@ Based on the criterion of 50% inflation per month, several periods could have be
 In conclusion, hyperinflation is just one aspect of economic challenges. High inflation alone can be equally damaging. The next section will explore possible solutions to overcome hyperinflation.
 
 ## How to overcome hyperinflation
-<chapterId>31db2b15-3aac-5765-878a-83727bb6df32</chapterId>
+<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### How to end moderate and high inflation
 
@@ -856,7 +856,7 @@ In 2007, Zimbabwe's inflation rate reached the threshold of 50% per month, offic
 It is concerning to note that Zimbabwe has since attempted to reintroduce its own currency, and signs of high inflation have reappeared. According to certain international organizations, the country may already meet the criteria for hyperinflation again, even if it has not yet reached the official threshold of 50% per month. This serves as a reminder of the dangers of excessive money issuance and central bank deficit financing.
 
 ## Conclusion
-<chapterId>1515bcd5-1280-5b5b-a09b-b4d729deec19</chapterId>
+<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
 
 In my book titled "Everything About Bitcoin," I dedicated an entire chapter to hyperinflation in Zimbabwe. I detail the significant events, providing various examples illustrating how the country ultimately put an end to hyperinflation.
 
@@ -871,15 +871,15 @@ In my book titled "Everything About Bitcoin," I dedicated an entire chapter to h
 The key takeaway is that there are several strategies to overcome hyperinflation. One can opt for dollarization or introduce a new currency. These solutions will only work if the population has confidence in them. It is crucial to impose strict constraints. A truly independent central bank is essential. It must not inflate the money supply to cover government deficits. In the case of mild inflation, limiting the growth of the money supply should suffice. However, when faced with hyperinflation, it is crucial to first have an appropriate money supply for the size of the economy in question. Then, it is imperative to impose strict constraints on the government to stabilize the situation.
 
 ## Presentation of the hyperinflation banknote collection
-<chapterId>05d7b315-d15e-53bf-aff2-8d3750ec5225</chapterId>
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 The link to the scanned collection is available in the Bitcoin Educational Toolkit, accessible from the Resources section of the platform.
 
 # How did we get here?
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## The Emergence of the Second Layer of Money and Central Banks
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 Transcript:
 
@@ -939,7 +939,7 @@ Following the bank panic of 1796, a phenomenon occurred where everyone tried to 
 Central banks have evolved to become lenders of last resort, suspending the convertibility of their currency into gold. Although this action was initially intended as a temporary solution, it ultimately became permanent, marking the advent of the concept of the lender of last resort. This transformation has shaped central banks as we know them today. However, in more fragile economies, this ability to print money at will can lead to undesirable consequences, such as hyperinflation, if used irresponsibly.
 
 ## Books and Resources
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 Hyperinflation is a fascinating subject that has been studied through various historical events. If you wish to delve deeper into this topic, here is a list of 10 essential resources to read and study:
 

@@ -20,10 +20,10 @@ Um Ihnen den Einstieg in dieses Abenteuer zu erleichtern, habe ich diesen kosten
 +++
 
 # Einführung und Voraussetzungen zum Verständnis von Bitcoin
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Einführung in den BTC102-Kurs
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Willkommen bei BTC 102! Ein praxisorientierter Kurs, der Sie bei der Einrichtung Ihres Bitcoin-Plans begleiten wird! In diesem Kurs werden wir uns also darauf vorbereiten, Ihre ersten Bitcoins zu erhalten, sie ordnungsgemäß zu sichern und einen guten Einstieg in diese neue Branche zu gewährleisten.
 
@@ -44,7 +44,7 @@ Sie haben verstanden, dass dieses Training wirklich dazu dient, Sie von Anfang a
 Viel Glück :)
 
 ## Betrug und finanzielle Betrügereien
-<chapterId>2d8a18cc-a293-5613-90d6-e7658211c6c4</chapterId>
+<chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Wir befinden uns in einer Branche, in der zwei Hauptzweige im Bereich "Kryptowährungen" entstehen:
 
@@ -148,7 +148,7 @@ Es ist wichtig zu beachten, dass jeder ein eigenes Programm hat, auch ich. Ich g
 Behalten Sie immer im Hinterkopf, dass nicht jeder transparent über seine Absichten sein wird. Hinterfragen Sie immer das Ziel der Handlungen einer Person und vertrauen Sie nicht blindlings.
 
 ## Online-Sicherheit
-<chapterId>a8f5986a-2cbd-5282-b10c-e6df1a114d58</chapterId>
+<chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 Neben Betrügereien mit Kryptowährungen und Finanzangelegenheiten ist der Hauptgrund für den Verlust von Bitcoins eine schlechte Online-Sicherheitspraxis. Es kommt häufig vor, dass Menschen dasselbe Passwort für alle ihre Konten verwenden, vergessen, ihren Computer zu aktualisieren, und es versäumen, regelmäßig ihre Daten zu sichern. Wenn Sie sich von diesen Praktiken betroffen fühlen, machen Sie sich keine Sorgen, es ist immer möglich, Ihre Online-Sicherheitsgewohnheiten zu verbessern. Hier sind einige grundlegende Maßnahmen, die Sie ergreifen können:
 
@@ -192,7 +192,7 @@ Online-Anonymität ist für eine freie und wohlhabende Gesellschaft von entschei
 Wenn Sie sich für dieses Thema interessieren, steht Ihnen das SECU 101-Training zur Verfügung, um Sie zu begleiten.
 
 ## Tipps für Anfänger
-<chapterId>69751f37-a4e6-5e04-afa2-385a6a392c02</chapterId>
+<chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Die formale Bildung lehrt uns nur wenig über Investitionen. Daher betreten wir oft alleine diese neue und komplexe Investitionslandschaft.
 
@@ -285,10 +285,10 @@ Wenn du deinen Schlüssel verlierst, verlierst du auch dein Geld. Es ist ratsam,
 Viel Glück! Ich hoffe, du begleitest mich in die Welt von Bitcoin und erlaubst mir, dich dabei zu unterstützen, deine ersten Bitcoins zu erwerben und zu sichern, ohne Risiken einzugehen!
 
 # Verständnis dessen, worauf wir uns einlassen
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin in 5 Minuten
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 In diesem Kurs möchten wir uns auf den Aktionsplan konzentrieren, um deine ersten Bitcoins zu erhalten. Wenn du eine ausführliche Erklärung der Grundlagen von Bitcoin wünschst, empfehlen wir dir BTC 101, das kostenlos auf dieser Plattform verfügbar ist.
 
@@ -320,7 +320,7 @@ Wenn dies für Sie neu ist, empfehle ich Ihnen dringend, BTC 101 zu verfolgen, b
 ![in a nutshell](assets/section2/10.webp)
 
 ## Warum ist Bitcoin wichtig?
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Warum ist die Bedeutung von Bitcoin so entscheidend? Das ist die zentrale Frage dieser Universität. Ob es um Ihr Studium oder Ihre Anlagestrategie geht, ohne ein klares Verständnis der Bedeutung von Bitcoin besteht die Gefahr, von Ihrem Aktionsplan abzuweichen. Das Ziel ist es daher, die Grundlagen von Bitcoin immer im Hinterkopf zu behalten, um sicherzustellen, dass Ihre Strategie mit Ihren Überzeugungen im Einklang bleibt.
 
@@ -392,7 +392,7 @@ Die Hauptbefürworter von Bitcoin heute sind immer noch hauptsächlich Cyberpunk
 Bitcoin hat eine hochphilosophische, ethische und politische Dimension, ist aber völlig gleichgültig gegenüber diesen Überlegungen. Tatsächlich ist Bitcoin ein einfaches Protokoll, das den gleichen Prozess immer wieder reproduziert. Es sind seine Benutzer, die ihn zu einer Waffe der Befreiung gegen das aktuelle Finanzsystem gemacht haben. Aus der Sicht des Cyberpunk steht Bitcoin im Gegensatz zu einer bargeldlosen Gesellschaft. Es ermöglicht vollständig private und intermediärfreie digitale Finanztransaktionen. Für die Cyberpunk-Bewegung ist Bitcoin das elektronische Äquivalent von Bargeld.
 
 ## Die Bitcoin-Industrie verstehen
-<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
+<chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Mit der Einführung von Bitcoin im Jahr 2009 durch Satoshi Nakamoto entstand eine Milliarden-Dollar-Industrie. Diese Industrie hat trotz ihrer Jugend in den letzten zehn Jahren ein exponentielles Wachstum erlebt. Jeden Tag kommen neue Akteure mit großen Geldsummen hinzu und sind bereit, in diese neue Branche einzusteigen. Heute hat die Industrie einen Punkt erreicht, an dem Regierungen, Banken, Internetgiganten und andere mit allen möglichen Eingriffen in die Bewegung eingetreten sind.
 
@@ -516,7 +516,7 @@ Unbegrenzte Macht? Nein. Die Hauptentwickler haben keine unbegrenzte Macht und k
 ![blockchain](assets/industrie/5.webp)
 
 ## Die Schichtenarchitektur von Bitcoin
-<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
+<chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, als Open-Source-Protokoll, kann von jedem mit zusätzlichen Protokoll-/Anwendungs-Schichten ergänzt und erweitert werden. Einige dieser Funktionen sind bedeutender als andere und schaffen ein dynamisches Ökosystem mit einer Vielzahl von Unternehmen, die zur Entwicklung der Infrastruktur beitragen. Beispiele für solche Projekte sind Sidechains (z.B. Liquid Chain von Blockstream), das Lightning Network von Lightning Labs und Identitätskonzepte (z.B. Microsoft ION). Diese Projekte sind wie zusätzliche Schichten, die dem ursprünglichen Bitcoin-Protokoll hinzugefügt werden.
 
@@ -545,10 +545,10 @@ Das ist die Zukunftsvision, die ich für Bitcoin habe. Es wird zu einer Autobahn
 Das ist, glaube ich, die Idee, die Andreas Antonopoulos mir vorgestellt hat. @aantonop
 
 # Umsetzung Ihres Plans
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Wählen Sie Ihr Profil
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Jetzt, da wir die grundlegenden Grundlagen überprüft und gelernt haben, wie man Betrügereien und Geldverluste vermeidet, können wir unseren Plan ausarbeiten. Der Plan wird zu Beginn recht einfach sein, aber es ist wichtig, loszulegen. Sie können ihn immer anpassen, während die Zeit vergeht.
 
@@ -575,7 +575,7 @@ Damit sollten Sie Ihren Bedürfnissen gerecht werden, den passenden Plan auswäh
 **Hinweis:** Wenn Sie den privaten Schlüssel (eine Liste von 24 Wörtern) nicht besitzen, ist eine dritte Partei für die Sicherheit Ihrer Bitcoins verantwortlich. Mit anderen Worten, Sie besitzen Ihre Bitcoins nicht mehr. Sie unterliegen denselben Risiken wie Handelsplattformen, wie z.B. Hacking, Beschlagnahmung, Regulierung oder Insolvenz.
 
 ## Der Hodler
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Ob in Investitionen oder in Bitcoin, langfristige Anlagen sind in der Regel die Norm. Statistisch gesehen sind sie langfristig am rentabelsten und am einfachsten umzusetzen:
 
@@ -633,7 +633,7 @@ Hier ist ein kleines psychologisches Porträt des Hodlers, wenn Sie sich darin w
 Insgesamt ist der Hodler ein geduldiger, disziplinierter und visionärer Investor, der fest an den langfristigen Wert von Bitcoin glaubt und bereit ist, kurzfristige Volatilität zu ertragen, um in Zukunft erhebliche Gewinne zu erzielen. Er ist methodisch in seiner Anlagestrategie und achtet auf Sicherheit und langfristige Planung.
 
 ## Der Stacker
-<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
+<chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 In Bitcoin ist das Konzept des "Stackers" ziemlich bekannt. Die Idee ist einfach: Es gibt nur 21 Millionen Bitcoins, und jeder kleine Bitcoin zählt! Dieser kleine Bitcoin wird tatsächlich Satoshi (oder SAT) genannt. Der Stacker hat es sich zum Ziel gesetzt, so viele wie möglich anzusammeln.
 
@@ -690,7 +690,7 @@ Psychologisches Porträt des Stackers
 Der Stacker ist eine methodische und fokussierte Person mit einem klaren Plan, um seine Satoshis-Ansammlung zu maximieren. Er zeigt Proaktivität und finanzielles Verständnis, indem er ständig nach Möglichkeiten sucht, seine Bitcoin-Investitionen zu optimieren und abzusichern. Sein Ansatz zeichnet sich durch Regelmäßigkeit und eine fehlerlose Organisation aus und führt ihn auf den Weg zu einem stabilen und kontinuierlichen Wachstum seines Bitcoin-Portfolios.
 
 ## Der Benutzer
-<chapterId>c39bdd74-3140-57c6-a784-b238b16879e3</chapterId>
+<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Schließlich ist der letzte Typ von Bitcoiner, der in einem Einführungskurs erwähnt werden kann, der Bitcoiner, der Bitcoin regelmäßig nutzen muss. Ob aus beruflichen Verpflichtungen oder einfach aus dem Wunsch, das Ökosystem zu unterstützen, es ist notwendig, Lösungen für den häufigen Gebrauch vorzusehen.
 
@@ -745,7 +745,7 @@ Kaufplattform
 Der Benutzer ist technisch versiert und aktiv in der Nutzung von Bitcoin engagiert. Er sucht ständig nach Möglichkeiten, die Effizienz und Sicherheit seiner Transaktionen und Bitcoin-Bestände zu verbessern. Seine Flexibilität und sein Engagement für das Ökosystem spiegeln sich in seiner Bereitschaft wider, verschiedene Lösungen von Lightning-Wallets bis hin zu schnellen Austauschlösungen zu nutzen. Obwohl er aktiv in Bitcoin-Transaktionen involviert ist, vernachlässigt er nicht die Sicherheit und achtet darauf, eine klare Trennung zwischen seinen Bitcoins für den täglichen Gebrauch und denen, die langfristig aufbewahrt werden, aufrechtzuerhalten.
 
 ## Der Paranoide
-<chapterId>31db2b15-3aac-5765-878a-83727bb6df32</chapterId>
+<chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
 An dieser Stelle möchte ich den paranoiden Bitcoin-Nutzer hinzufügen. Diese Art von Person möchte sich nicht dem KYC (Know Your Customer) aussetzen, bevorzugt Anonymität und legt großen Wert auf ihre Privatsphäre. Der Paranoide wird auch LN über seinen eigenen Knoten verwenden und an seiner Sicherheit arbeiten.
 
@@ -797,10 +797,10 @@ Nicht-KYC-Kauf zwischen Privatpersonen:
 Im Geiste des Paranoikers sind Vorsicht, Sicherheit und Anonymität von größter Bedeutung. Diese Prioritäten bestimmen einen bewussten und wohlüberlegten Ansatz für die Verwendung von Bitcoin, der Selbstständigkeit und Vorsicht fördert. Der Paranoiker ist bereit, Zeit und Mühe zu investieren, um die Sicherheit und Vertraulichkeit seiner Bitcoins zu gewährleisten und geschickt im Ökosystem zu navigieren, um unnötige Exposition zu vermeiden. Obwohl er für manche übermäßig vorsichtig erscheinen mag, betrachtet der Paranoiker seine Sorgfalt und Aufmerksamkeit für Details als wesentlich für eine erfolgreiche und sichere Teilnahme an der Welt von Bitcoin.
 
 # Die Zukunft mit Bitcoin
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Erstellung eines Nachlassplans
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
 Stellen Sie sich das folgende dramatische Szenario vor.
 Ein Autounfall, BOOM, und du bist nicht mehr in dieser Welt. Du verschwindest und lässt deine Familie ohne ihren Bitcoin-Experten zurück. Sie wissen nicht, wo das Geld ist, erinnern sich aber daran, dass du ständig von Begriffen wie Schlüssel, Wortliste und der Unumkehrbarkeit von Bitcoin-Transaktionen gesprochen hast. Sie sind am Boden zerstört, verwirrt und müssen nun alles selbst verstehen. Obwohl diese Situation beängstigend erscheinen mag, ist sie eine reale Möglichkeit, die nicht vernachlässigt werden kann. Du hast dann zwei Möglichkeiten: Entweder widmest du 15 Minuten bis 1 Stunde, um einen Nachfolgeplan zu erstellen, oder du tust nichts. Niemand wird dich dafür verurteilen, aber wenn Menschen von dir abhängig sind, könnten diese 15 Minuten einen großen Unterschied an einem Tag machen. Die Entscheidung liegt bei dir.
@@ -961,10 +961,10 @@ _Cryptoasset Inheritance Planning, Ein einfacher Leitfaden für Besitzer, Pamela
 Sie sind die Besten :D Mein Team und meine Schüler danken Ihnen ebenfalls!
 
 # Dankeschön und weiterhin den Kaninchenbau erkunden
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Herzlichen Glückwunsch! SIE GEHÖREN ZU DEN TOP 0,1%
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Wenn Sie unserem Inhalt von Anfang an gefolgt sind, sind Sie jetzt ein echter Bürger des 21. Jahrhunderts und einer der erfahrensten im Bereich Bitcoin! Sie verwenden einen Passwort-Manager und die Zwei-Faktor-Authentifizierung (2FA). Sie verstehen, was Bitcoin ist und warum es wichtig ist. Sie besitzen Bitcoins und haben eine sichere Möglichkeit, mehr zu kaufen oder zu verdienen. Sie haben Ihre Bitcoins in einer "kalten" Brieftasche gespeichert und eine angemessene Schlüsselverwaltung eingerichtet. Sie haben einen Nachlassplan für Ihre Angehörigen erstellt. Sie sind jetzt sicher und können sich entspannen! Genießen Sie ein Bier und seien Sie stolz auf sich!
 
@@ -981,6 +981,6 @@ Ich bin wirklich stolz, dass Sie diesen Meilenstein erreicht haben. Ich meine es
 In jedem Fall bleiben alle unsere Schulungen kostenlos, und es stehen viele Ressourcen oder Tutorials auf unserer Plattform zur Verfügung, um Sie zu begleiten. Viel Erfolg bei Ihren Studien!## Beachten Sie die Schulung!
 
 ## Unterstützen Sie die Schulung!
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 Dieser Kurs sowie der gesamte Inhalt dieser Universität werden Ihnen kostenlos von unserer Community zur Verfügung gestellt. Um uns zu unterstützen, können Sie ihn mit anderen teilen, Mitglied der Universität werden und sogar über GitHub zu ihrer Entwicklung beitragen. Im Namen des gesamten Teams, vielen Dank!

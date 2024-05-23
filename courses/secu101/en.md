@@ -23,10 +23,10 @@ Théo; contribution
 +++
 
 # Introduction
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Course Introduction
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Objective: Update your security skills !
 
@@ -73,10 +73,10 @@ First, we will see how to protect your email inbox, which is essential for your 
 ![](assets/en/3.webp)
 
 # Everything you need to know about online browsing
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Online browsing
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 When browsing the internet, it is important to avoid certain common mistakes to preserve your online security. Here are some tips to avoid them:
 
@@ -115,7 +115,7 @@ TOR is legal and is used by journalists, freedom activists, and others wishing t
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## VPN and internet connection
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPNs
 
@@ -147,10 +147,10 @@ In summary, the use of VPN can greatly improve online security, both for busines
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 # Best Practices for Computer Use
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Computer Use
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 The security of our computers is a major concern in today's digital world. Today, we will address three key points:
 
@@ -198,7 +198,7 @@ In conclusion, it is essential to choose an operating system that suits your nee
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## Hacking & Backup Management: Protecting Your Data
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### How do hackers attack?
 
@@ -235,10 +235,10 @@ NO, it is generally not recommended to pay hackers in the case of ransomware or 
 If you detect a virus on your computer, disconnect it from the internet, perform a full antivirus scan, and delete infected files. Then, update your software and operating system, and change your passwords to prevent further intrusions.
 
 # Implementation of solutions.
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Managing email accounts
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ### Setting up a new email account!
 
@@ -268,7 +268,7 @@ Bonus Bitcoin: It may be advisable to create a specific email address for our Bi
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## Password Manager
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### What is a password manager?
 
@@ -318,7 +318,7 @@ Randomly generated passwords offer a higher level of security, although they may
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## Two-Factor Authentication
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Why implement 2FA
 
@@ -362,10 +362,10 @@ Golden rule: Cybersecurity is a moving target that will adapt to your learning j
 **_Tutorial under construction, to contribute or add it, you can go through GitHub._**
 
 # Go further
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## How to work in the cybersecurity industry
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 ### Cybersecurity: A Growing Field with Endless Opportunities
 
@@ -400,7 +400,7 @@ The constant evolution of threats requires regular monitoring of news and specia
 By mastering these skills and tools, you will be well-equipped to navigate the world of cybersecurity successfully.
 ![](assets/notext/20.webp)
 ## Interview with Renaud
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ### Efficient Password Management and Authentication Strengthening: An Academic Approach
 
@@ -433,7 +433,7 @@ Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other 
 As part of the "Security 101" training module on Découvre Bitcoin Academy, we also discussed Lightning authentication. This system generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as Nuget and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security, but it is necessary to remain vigilant against potential attacks on DNS servers.
 
 ## Acknowledgments and keep digging the rabbit hole
-<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ### Rate the training & support us
 

@@ -23,10 +23,10 @@ Théo; 貢献
 +++
 
 # 導入
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## コースの紹介
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### 目標：セキュリティスキルを更新する！
 
@@ -69,10 +69,10 @@ Théo; 貢献
 ![](assets/ja/3.webp)
 
 # オンラインブラウジングについて知っておくべきすべて
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## オンラインブラウジング
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 インターネットを閲覧する際には、オンラインセキュリティを保護するために、特定の一般的な間違いを避けることが重要です。これらを避けるためのいくつかのヒントは以下の通りです：
 
@@ -110,7 +110,7 @@ TORは合法であり、ジャーナリスト、自由活動家、検閲を逃�
 **_チュートリアルは現在作成中です。GitHubを通じて貢献したり追加したりすることができます。_**
 
 ## VPNとインターネット接続
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPN
 
@@ -142,10 +142,10 @@ VPNには主に2つのタイプがあります：企業向けVPNと消費者向�
 **_チュートリアルは建設中です。貢献したり追加したりするには、GitHubを通じて行うことができます_**
 
 # コンピュータ使用のベストプラクティス
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## コンピュータの使用
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 今日のデジタル世界では、私たちのコンピュータのセキュリティが大きな懸念事項です。今日は、以下の三つの重要なポイントについて取り上げます：
 
@@ -192,7 +192,7 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 **_チュートリアルは建設中です。貢献したり追加したりするには、GitHubを通じて行うことができます_**
 
 ## ハッキング＆バックアップ管理：あなたのデータを守る
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### ハッカーはどのように攻撃しますか？
 
@@ -227,10 +227,10 @@ Windows 10では、アップデートはほぼ連続しており、それらを�
 コンピューターにウイルスが検出された場合は、インターネットから切断し、完全なアンチウイルススキャンを実行し、感染したファイルを削除してください。その後、ソフトウェアとオペレーティングシステムを更新し、さらなる侵入を防ぐためにパスワードを変更してください。
 
 # 解決策の実装。
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## メールアカウントの管理
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ### 新しいメールアカウントの設定！
 
@@ -260,7 +260,7 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 **_チュートリアルは現在作成中です。貢献したり追加したりするには、GitHubを通じて行うことができます_**
 
 ## パスワードマネージャー
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### パスワードマネージャーとは何ですか？
 
@@ -310,7 +310,7 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 **_チュートリアルは建設中です。貢献したり追加したりするには、GitHubを通じて行ってください_**
 
 ## 二要素認証
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### 2FAを実装する理由
 
@@ -352,10 +352,10 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 **_チュートリアルは現在作成中です。貢献したり追加したりするには、GitHubを通じて行ってください。_**
 
 # より深く掘り下げる
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## サイバーセキュリティ業界での働き方
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 ### サイバーセキュリティ：無限の機会を持つ成長分野
 
@@ -390,7 +390,7 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 これらのスキルとツールを習得することで、サイバーセキュリティの世界を成功裏に航海するために十分な装備が整います。
 ![](assets/notext/20.webp)
 ## レノーとのインタビュー
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ### 効率的なパスワード管理と認証強化：学術的アプローチ
 Découvre Bitcoinのアカデミーで提供されているトレーニングモジュール「セキュリティ101」では、パスワードマネージャーの重要性について議論しました。考慮すべき3つの次元があります：パスワードの作成、更新、およびウェブサイトへの実装です。
@@ -419,7 +419,7 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 "Découvre Bitcoin Academy"の「セキュリティ101」トレーニングモジュールの一環として、Lightning認証についても議論しました。このシステムは、メールアドレスや個人情報を提供する必要なく、各サービスに異なる識別子を生成します。ユーザーが制御する分散型アイデンティティが可能ですが、分散型アイデンティティプロジェクトには標準化と正規化が不足しています。Microsoft Storeの外でオープンソースソフトウェアをダウンロードすることを可能にするパッケージマネージャー、例えばNugetやChocolatéは、悪意のある攻撃を避けるために推奨されます。要約すると、DNSはオンラインセキュリティにとって重要ですが、DNSサーバーに対する潜在的な攻撃に対して警戒を続ける必要があります。
 
 ## 謝辞とさらに深く掘り下げる
-<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ### トレーニングを評価して、私たちをサポートしてください
 

@@ -17,10 +17,10 @@ Cette école de pensée a déjà plusieurs siècles d'existence et compte de nom
 +++
 
 # Introduction à ECON
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Introduction
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Bonjour à tous et bienvenue à l'Econ 201 : Introduction à l'économie autrichienne.
 
@@ -38,7 +38,7 @@ Je remercie chaleureusement Théo d'avoir produit ce cours et j'espère qu'il se
 Si vous êtes prêt à vous lancer dans cette aventure, je vous invite à cliquer sur la vidéo suivante et à commencer par la vidéo bonus sur notre système financier actuel. Je laisse maintenant la parole à Théo. Merci à lui de collaborer avec Descoupes Bitcoin pour la réalisation de cette vidéo. Je vous reverrai très bientôt. Au revoir !
 
 ## L'argent, le crédit, les banques et les banques centrales
-<chapterId>2d8a18cc-a293-5613-90d6-e7658211c6c4</chapterId>
+<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 ![Explication du système bancaire traditionnel](https://youtu.be/pz0RxlXNs7Y)
 
@@ -128,10 +128,10 @@ Pour atteindre cet objectif, nous expliquerons les principes fondamentaux de l'"
 Dans le prochain chapitre, nous nous pencherons sur la pierre angulaire fondamentale de toute école de pensée économique : la théorie de la valeur. Les chapitres suivants exploreront l'argent en tant qu'institution sociale, la théorie du capital et du cycle économique, le défi du calcul économique, ainsi qu'un bref aperçu de l'histoire et de la méthodologie de l'école autrichienne d'économie.
 
 # Fondements théoriques
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## La théorie subjective de la valeur
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "La valeur n'existe que dans la conscience humaine"
 >
@@ -215,7 +215,7 @@ S'appuyant sur les idées de la valeur ordinale subjective, Menger a expliqué l
 Les chapitres suivants seront consacrés à l'émergence de l'argent en tant que phénomène social, à la théorie du capital et de l'intérêt, qui servira de base à la théorie du cycle économique, et enfin au rôle des prix dans le calcul économique.
 
 ## L'émergence de l'argent en tant que phénomène social
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 ![Argent](https://youtu.be/Dt8ounex2jg)
 
@@ -298,7 +298,7 @@ Cela découle directement de la rationalité humaine ; personne ne peut ignorer 
 Dans le prochain chapitre, nous approfondirons le concept de préférence temporelle et expliquerons la perspective autrichienne sur l'intérêt et le capital, qui servira de base pour le chapitre suivant sur la théorie du cycle économique.
 
 ## Préférence Temporelle, Intérêt et Capital
-<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
+<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Préférence Temporelle
 
@@ -367,10 +367,10 @@ Cela est parfaitement illustré par le graphique ci-dessous : les taux longs son
 C'est ce que nous découvrirons dans le prochain chapitre consacré à la théorie autrichienne du cycle économique !
 
 # Perspectives économiques autrichiennes
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## La théorie autrichienne du cycle économique
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 ![Cycles économiques pour l'école autrichienne](https://youtu.be/CrPE6mcOjx4)
 
@@ -446,7 +446,7 @@ Plus que toute autre école d'économie, l'école autrichienne insiste sur l'imp
 Cela sera le sujet du prochain et dernier chapitre de ce cours.
 
 ## L'impossibilité du calcul économique sous le socialisme
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 ![L'impossibilité du calcul économique dans un système socialiste](https://youtu.be/E-9Fl6eg-mo)
 
@@ -516,7 +516,7 @@ Les économistes mainstream et les planificateurs centraux n'apprécient souvent
 La tradition autrichienne incarne une approche humble de l'action humaine, tirant des implications profondes des concepts de valeur subjective, d'incertitude, de libre arbitre et de complexité. Elle explique comment l'ordre du marché, bien qu'il ne soit pas le produit d'une conception humaine, est l'institution centrale de notre développement et de notre prospérité. Si vous ne deviez retenir qu'une seule chose de ce cours, c'est que le capitalisme est devenu le système économique dominant en raison de sa capacité à s'adapter aux changements dans un monde dynamique et incertain peuplé d'individus libres.
 
 ## La Méthodologie Autrichienne
-<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
+<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 ![la méthodologie autrichienne](https://youtu.be/hMyYGwU76dI)
 
@@ -538,10 +538,10 @@ Il est important de noter que la sélection des données, qui consiste à choisi
 La méthodologie est un aspect essentiel en économie et en sciences sociales en général. Elle influence la façon dont les questions sont posées, les hypothèses sont formulées et les données sont interprétées. Comprendre les différences méthodologiques entre les écoles de pensée économique peut nous aider à apprécier les perspectives diverses et à développer nos propres opinions sur les sujets abordés dans les épisodes précédents.
 
 # Conclusion
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 ## Études supplémentaires
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Félicitations pour avoir terminé ce cours ECON 201 ! J'espère sincèrement que vous l'avez apprécié et que vous vous êtes ouvert de nouvelles perspectives. Votre découverte du Bitcoin ne fait que commencer, et je vous invite à explorer tous les autres cours disponibles à l'université.
 

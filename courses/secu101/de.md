@@ -23,10 +23,10 @@ Théo; Beitrag
 +++
 
 # Einführung
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Kursvorstellung
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Ziel: Aktualisierung!
 
@@ -72,10 +72,10 @@ Zuerst werden wir besprechen, wie Sie Ihre E-Mail schützen können, die für Ih
 ![](assets/de/3.webp)
 
 # Alles über das Surfen im Internet
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Online-Surfen
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Beim Surfen im Internet ist es wichtig, bestimmte häufige Fehler zu vermeiden, um Ihre Online-Sicherheit zu gewährleisten. Hier sind einige Tipps, um sie zu vermeiden:
 
@@ -114,7 +114,7 @@ TOR ist legal und wird von Journalisten, Freiheitsaktivisten und anderen Persone
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## VPN und Internetverbindung
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPNs
 
@@ -146,10 +146,10 @@ Zusammenfassend kann die Verwendung eines VPN die Online-Sicherheit sowohl für 
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 # Gute Computerpraktiken
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Computerbenutzung
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 Die Sicherheit unserer Computer ist ein wichtiges Anliegen in der heutigen digitalen Welt. Heute werden wir drei Schlüsselpunkte behandeln:
 
@@ -197,7 +197,7 @@ Zusammenfassend ist es entscheidend, ein Betriebssystem zu wählen, das Ihren Be
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Hack & Backup-Management: Schutz Ihrer Daten
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Wie greifen Hacker an?
 
@@ -234,10 +234,10 @@ NEIN, es wird im Allgemeinen nicht empfohlen, Hacker bei Ransomware oder anderen
 Wenn Sie einen Virus auf Ihrem Computer entdecken, trennen Sie ihn vom Internet, führen Sie eine vollständige Antiviren-Analyse durch und entfernen Sie infizierte Dateien. Aktualisieren Sie dann Ihre Software und Ihr Betriebssystem und ändern Sie Ihre Passwörter, um weitere Eindringlinge zu vermeiden.
 
 # Implementierung von Lösungen.
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Das Management von E-Mail-Postfächern
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 Wir beginnen nun Abschnitt 2 des Kurses. In diesem Abschnitt werden wir drei wichtige Themen behandeln, um die Sicherheit des Online-Zugriffs zu gewährleisten: das Management von E-Mails, die Verwendung eines Passwort-Managers und die Zwei-Faktor-Authentifizierung (2FA).
 
@@ -270,7 +270,7 @@ Bonus Bitcoin: Es kann ratsam sein, eine spezielle E-Mail-Adresse für unsere Bi
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Passwort-Manager
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### Was ist ein Passwort-Manager?
 
@@ -320,7 +320,7 @@ Zufällig generierte Passwörter bieten ein höheres Maß an Sicherheit, können
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 ## Die 2-Faktor-Authentifizierung
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Warum 2FA implementieren
 
@@ -364,10 +364,10 @@ Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich 
 **_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
 
 # Gehen Sie weiter
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Wie man in dieser Cybersicherheitsbranche arbeitet
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 Die Cybersicherheit, ein aufstrebendes Gebiet, bietet zahlreiche Möglichkeiten für diejenigen, die sich für den Schutz von Systemen und Daten interessieren. Wenn Sie sich für diese Branche interessieren, finden Sie hier einige wichtige Schritte, um sich zu orientieren.
 
@@ -400,7 +400,7 @@ Die ständige Weiterentwicklung von Bedrohungen erfordert regelmäßige Überwac
 Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um erfolgreich in der Welt der Cybersicherheit zu navigieren.
 ![](assets/notext/20.webp)
 ## Interview mit Renaud
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 
@@ -434,7 +434,7 @@ Weitere Schlüsselüberlegungen
 Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
 ## Danksagungen und graben Sie weiter im Kaninchenbau
-<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ### Bewerten Sie den Kurs & unterstützen Sie uns
 

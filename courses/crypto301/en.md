@@ -17,10 +17,10 @@ This training will not only equip you with the knowledge to understand the struc
 +++
 
 # Introduction
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Introduction to Cryptography
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 ### Is this training for you? YES!
 
@@ -46,10 +46,10 @@ To top it all off, we will conclude our journey by examining Bitcoin addresses. 
 Join me on this captivating journey, and get ready to explore the world of cryptography like never before. Leave your preconceptions at the door and open your mind to a new way of understanding Bitcoin and its fundamental structure.
 
 # Hash Functions
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Introduction to cryptographic hash functions related to Bitcoin
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 Welcome to today's session dedicated to an in-depth immersion into the cryptographic world of hash functions, a crucial cornerstone of Bitcoin protocol security. Imagine a hash function as an ultra-efficient cryptographic deciphering robot that transforms information of any size into a unique and fixed-size digital fingerprint, called a "hash," "digest," or "checksum."
 In summary, a hash function takes an input message of arbitrary size and converts it into a fixed-size output fingerprint.
@@ -92,7 +92,7 @@ In summary, the ultimate goal of a cryptographic hash function is to transform a
 At the end of this exploration, we have demystified cryptographic hash functions, highlighted their uses in the Bitcoin protocol, and dissected their specific objectives. We have learned that for hash functions to be considered secure, they must be resistant to preimages, second preimages, collisions, and tampering. We have also covered the range of different hash functions used in the Bitcoin protocol. In our next session, we will delve into the core of the SHA256 hash function and discover the fascinating mathematics that give it its unique characteristics.
 
 ## The Inner Workings of SHA256
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
 Welcome to the continuation of our fascinating journey through the cryptographic mazes of the hash function. Today, we unveil the mysteries of SHA256, a complex yet ingenious process that we introduced earlier.
 As a skilled professional translator, my primary task is to accurately translate technical content from French into English while adhering to the provided guidelines. Here is the translation of the text:
@@ -236,7 +236,7 @@ The output of the last round, of the last piece, corresponds to the final result
 In conclusion, we would like to emphasize the crucial role of the calculations performed in the CH, MAJ, σ0, and σ1 boxes. These operations, among others, are the guardians that ensure the robustness of the SHA256 hash function against attacks, making it a preferred choice for securing many digital systems, especially within the Bitcoin protocol. It is evident that, although complex, the beauty of SHA256 lies in its ability to find the input from the hash, while verifying the hash for a given input is a mechanically simple action.
 
 ## The algorithms used for derivation
-<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
+<chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
 The HMAC and PBKDF2 derivation algorithms are key components in the security mechanism of the Bitcoin protocol. They prevent a variety of potential attacks and ensure the integrity of Bitcoin wallets.
 HMAC and PBKDF2 are cryptographic tools used for various tasks in Bitcoin. HMAC is primarily used to counter length extension attacks when deriving Hierarchical Deterministic (HD) wallets, while PBKDF2 is used to convert a mnemonic phrase into a seed.
@@ -274,10 +274,10 @@ A length extension attack exploits a specific property of certain cryptographic 
 In conclusion, HMAC and PBKDF2 algorithms play essential roles in the security of HD wallet derivation in the Bitcoin protocol. HMAC-SHA-512 is used to protect against length extension attacks, while PBKDF2 allows the conversion of the mnemonic phrase into a seed. The string code adds an additional source of entropy in key derivation, ensuring the robustness of the system.
 
 # Digital Signatures
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
 
 ## Digital Signatures and Elliptic Curves
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
 Where are these famous bitcoins stored? Not in a Bitcoin wallet, as one might think. In reality, a Bitcoin wallet stores the private keys necessary to prove ownership of the bitcoins. The bitcoins themselves are recorded on the blockchain, a decentralized database that archives all transactions.
 
@@ -326,7 +326,7 @@ The equation of the elliptic curve in Bitcoin corresponds to the last equation i
 In the next section of this course, we will use curves that are on the real field simply to facilitate understanding.
 
 ## Calculating the public key from the private key
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 
 To begin, let's delve into the world of the Elliptic Curve Digital Signature Algorithm (ECDSA). Bitcoin utilizes this digital signature algorithm to link private and public keys. In this system, the private key is a random or pseudo-random 256-bit number. The total number of possibilities for a private key is theoretically 2^256, but in reality, it is slightly less than that. To be precise, some 256-bit private keys are not valid for Bitcoin.
 
@@ -398,7 +398,7 @@ Knowing the private key k, it is easy to calculate the public key K. However, it
 In our next lesson, we will explore how a digital signature is created using the ECDSA algorithm with a private key to spend bitcoins.
 
 ## Signing with the private key
-<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
+<chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
 The process of digital signature is a key method to prove that you are the holder of a private key without revealing it. This is achieved using the ECDSA algorithm, which involves determining a unique nonce, calculating a specific number V, and creating a digital signature composed of two parts, S1 and S2.
 It is crucial to always use a unique nonce to avoid security attacks. A notorious example of what can happen when this rule is not followed is the hacking of the PlayStation 3, which was compromised due to nonce reuse.
@@ -482,10 +482,10 @@ That being said, the management of these keys, as well as their creation, is ano
 To answer these questions and deepen your understanding of cryptography security, our next course will focus on the concept of Hierarchical Deterministic Wallets (HD wallets) and the use of mnemonic phrases. These mechanisms offer elegant ways to effectively manage your cryptocurrency keys while enhancing security.
 
 # The mnemonic phrase
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Evolution of Bitcoin wallets
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 The Hierarchical Deterministic Wallet, more commonly known as HD wallet, plays a prominent role in the cryptocurrency ecosystem. The term "wallet" may seem misleading to those who are new to this field, as it does not involve holding money or currencies. Instead, it refers to a collection of cryptographic private keys.
 
@@ -503,7 +503,7 @@ In the following sections, we will delve deeper into the workings of HD wallets.
 In summary, it is essential to highlight the central role of BIP32 and BIP39 in the design and security of HD wallets. These protocols allow for the generation of multiple keys from a single seed, which is supposed to be a random or pseudo-random number. Today, these standards are adopted by the majority of cryptocurrency wallets, whether they are dedicated to a single cryptocurrency or support multiple types of currencies.
 
 ## Entropy and Random Number
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
 The importance of private key security in the Bitcoin ecosystem is undeniable. They are indeed the cornerstone that ensures the security of Bitcoin transactions. To avoid any vulnerability associated with predictability, these keys must be generated in a truly random manner, which can quickly become a laborious exercise. The problem is that in computer science, it is impossible to generate a truly random number since it is necessarily derived from a deterministic process; a code. That is why it is essential to learn about the different Random Number Generators (RNG). The types of RNG vary, ranging from Pseudo-Random Number Generators (PRNG) to True Random Number Generators (TRNG), as well as PRNGs that incorporate a source of entropy.
 
@@ -534,7 +534,7 @@ An example of a transformation function is the PBKDF2 function.
 In the case of Bitcoin, private keys are generated from a single piece of information at the base of the wallet. This information allows for deterministic and hierarchical derivation of child key pairs. Entropy is the foundation of every HD wallet, although there is no standard for generating this random number. Therefore, random number generation is a major challenge in securing Bitcoin transactions.
 
 ## The mnemonic phrase
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 
 The security of a Bitcoin wallet is a major concern for all its users. One essential way to ensure the backup of the wallet is to generate a mnemonic phrase based on entropy and checksum.
 
@@ -567,7 +567,7 @@ It is essential to backup the 24-word recovery phrase to preserve the integrity 
 In conclusion, generating a mnemonic phrase to secure a Bitcoin wallet is a crucial process. It is important to adhere to the standards of the mnemonic phrase based on the size of the entropy. Backing up the 24-word recovery phrase is essential to prevent any loss of funds.
 
 ## The passphrase
-<chapterId>2574ea14-a95a-5d59-b95b-bb0e704d3333</chapterId>
+<chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
 The passphrase is an additional password that can be integrated into a Bitcoin wallet to increase its security. Its use is optional and is at the discretion of the user. By adding arbitrary information that, together with the mnemonic phrase, allows the calculation of the wallet's seed, the passphrase enhances its security.
 
@@ -590,10 +590,10 @@ It is crucial to take care of passphrase backups to avoid losing access to the w
 In our next lesson, we will examine in detail the functioning of the seed and the first key pair generated from it. Feel free to follow this course to continue your learning. We look forward to seeing you again very soon.
 
 # Creation of Bitcoin Wallets
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>9c25e767-7eae-50b8-8c5f-679d8fc83bab</partId>
 
 ## Creation of the Seed and Master Key
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
 In this part of the course, we will explore the steps for deriving a Hierarchical Deterministic Wallet (HD Wallet), which allows for the hierarchical and deterministic creation and management of private and public keys.
 
@@ -619,7 +619,7 @@ It is important to note that the master private key is the first private key der
 In the next lesson, we will explore extended keys in detail, such as xPub, xPRV, zPub, and understand why they are used and how they are constructed.
 
 ## Extended Keys
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
 In this part of the lesson, we will study extended keys (xPub, zPub, yPub) and their prefixes, which play an important role in deriving child keys in a Hierarchical Deterministic Wallet (HD Wallet).
 
@@ -655,7 +655,7 @@ Enhanced derivations start from indexes that are powers of 2 (2^31). It is inter
 In our next lesson, we will focus on the derivation of child key pairs using the knowledge acquired about extended keys and the master key of the wallet.
 
 ## Derivation of child key pairs
-<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
+<chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
 As a reminder, we have discussed the calculation of the seed and the master key, which are the first essential elements for the hierarchical organization and derivation of the HD (Hierarchical Deterministic) wallet. The seed, with a length of 128 to 256 bits, is generated randomly or from a secret phrase. It plays a deterministic role in the derivation of all other keys. The master key is the first key derived from the seed, and it allows the derivation of all other child key pairs.
 
@@ -687,7 +687,7 @@ Reinforced derivation uses the parent private key, while normal derivation uses 
 Hierarchically deriving and deriving many key pairs deterministically allows for the creation of a tree structure for hierarchical derivation. In the next lesson of this training, we will study the structure of the HD wallet as well as derivation paths, with a particular focus on derivation path notations.
 
 ## Wallet Structure and Derivation Paths
-<chapterId>27e2b44f-b256-5b89-909f-e2b49e29ac6a</chapterId>
+<chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
 In this chapter, we will study the structure of the derivation tree in a Hierarchical Deterministic Wallet (HD Wallet). We have already explored seed calculation, the master key, and the derivation of child key pairs. Now, we will focus on organizing keys within the wallet.
 
@@ -720,10 +720,10 @@ Extended keys, such as XPUB, allow you to share your wallet with multiple people
 In the next chapter, we will study receiving addresses, their advantages of use, and the steps involved in their construction.
 
 # What is a Bitcoin address?
-<partId>784a12be-e7a7-571f-878d-b4165d3c2c38</partId>
+<partId>81ec8d17-f8ee-5aeb-8035-d370866f4281</partId>
 
 ## Bitcoin addresses
-<chapterId>0d1e498d-080f-5fd1-8aa0-5c0448bf87cb</chapterId>
+<chapterId>0a887ed8-3424-5a52-98e1-e4b406150475</chapterId>
 
 In this chapter, we will explore receiving addresses, which play a crucial role in the Bitcoin system. They allow funds to be received on a transaction and are generated from pairs of private and public keys. Although there is a script type called Pay2PublicKey that allows bitcoins to be locked to a public key, users generally prefer to use receiving addresses instead of this script.
 
@@ -744,7 +744,7 @@ It is essential to emphasize that each address should be used only once. Reusing
 Different prefixes are used for Bitcoin addresses. For example, BC1Q corresponds to a Segwit V0 address, BC1P to a Taproot/Segwit V1 address, and prefixes 1 and 3 are associated with Pay2PublicKeyH/Pay2ScriptH (legacy) addresses. In the next lesson, we will explain step by step how to derive an address from a public key.
 
 ## How to create a Bitcoin address?
-<chapterId>ccd706d1-3ab2-59ab-b7a7-8cae2859ebd7</chapterId>
+<chapterId>6dee7bf3-7767-5f8d-a01b-659b95cfe0a5</chapterId>
 
 In this chapter, we will discuss the construction of a receiving address for Bitcoin transactions. A receiving address is an alphanumeric representation of a compressed public key. The conversion of a public key into a receiving address involves several steps.
 
@@ -810,10 +810,10 @@ In blue, the version.
 Everything is converted to Bech32, then 'bc' is added for bitcoin and '1' as a separator, and here is the address.
 
 # Go further
-<partId>01e4315e-f1c9-52bc-b412-81a937b9cd20</partId>
+<partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Creating a seed from 128 dice rolls!
-<chapterId>6f4c3d3b-f77d-5b4d-b2cb-9155de9b3ce2</chapterId>
+<chapterId>0f4d40a7-cf0e-5faf-bc4d-691486771ac1</chapterId>
 
 Creating a mnemonic phrase is a crucial step in securing your cryptocurrency wallet. There are several methods to generate a mnemonic phrase, however, we will focus on the manual generation method using dice. It is important to note that this method is not suitable for a high-value wallet. It is recommended to use open-source software or a hardware wallet to generate the mnemonic phrase. To create a mnemonic phrase, we will use dice to generate binary information. The goal is to understand the process of creating the mnemonic phrase.
 
@@ -839,14 +839,14 @@ Immediately test your mnemonic phrase on Sparrow Wallet by creating a wallet fro
 Generating a mnemonic phrase is an important process to secure your cryptocurrency wallet. It is recommended to use more secure methods, such as using open-source software or a hardware wallet, to generate the mnemonic phrase. However, completing this workshop helps to better understand how we can create a Bitcoin wallet from a random number.
 
 ## BONUS: Interview with Théo Pantamis
-<chapterId>08353ad8-328b-583d-8773-d7382c1828dd</chapterId>
+<chapterId>39f0ec5a-e258-55cb-9789-bc46d314d816</chapterId>
 
 Another widely used cryptographic method on the Bitcoin protocol is the method of digital signatures.
 
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 ## Conclusion and End
-<chapterId>1d608922-b401-5a42-ae28-bb62022da629</chapterId>
+<chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
 ### Thanks and keep digging the rabbit hole
 

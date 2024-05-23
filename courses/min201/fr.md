@@ -21,10 +21,10 @@ Si vous avez besoin d’aide pour votre attaque, un Telegram a été créé pour
 +++
 
 # Introduction
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
 ## Bienvenue!
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 Bienvenue dans MINAGE 201: une introduction au minage. Ajelex, Jim & Rogzy sont heureux de vous accompagner dans vos premiers pas concrets dans cette nouvelle industrie. En espérant que le cours vous plaise et que vous rejoignez l'aventure du home mining !
 
@@ -58,10 +58,10 @@ Section Pratique : Attakai
 Prêts à commencer cette aventure captivante ? Plongeons ensemble dans le monde fascinant du home-mining !
 
 # Tout connaître sur le minage 
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
 ## Explication du minage
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
 ![Qu'est-ce que le minage de bitcoin ?](https://www.youtube.com/watch?v=neEQzEQzmPQ)
 
@@ -110,7 +110,7 @@ Face à l'évolution technologique constante dans le domaine du minage, les prof
 En conclusion, l'industrie du minage de Bitcoin continue de s'adapter et de se développer, les acteurs du domaine doivent anticiper des gains d'efficience, plus limités à l'avenir, et ajuster leurs stratégies en conséquence. Les avancées technologiques futures, bien qu'encore présentes, se feront probablement à une échelle plus réduite, reflétant une maturité croissante du secteur.
 
 ## L'industrie du minage
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
 ![Le minage de Bitcoin trop centralisé ? Risques et solutions](https://www.youtube.com/watch?v=xkiY8DgkcLQ)
 
@@ -162,7 +162,7 @@ Open-Sourcing des Logiciels de Minage
 La conclusion générale est que la décentralisation est cruciale pour la sécurité et la résilience du réseau Bitcoin. Bien que la centralisation puisse offrir des avantages en termes d'efficacité, elle expose le réseau à des risques significatifs, notamment la censure et les attaques des 51%. Des initiatives comme Takai et l'adoption de nouveaux protocoles comme Stratum V2 sont des étapes importantes vers la décentralisation et la protection du réseau Bitcoin contre ces menaces.
 
 ## Les nuances de l'industrie du minage
-<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
+<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
 ![Chauffer son domicile en minant des bitcoins ?](https://www.youtube.com/watch?v=SQaK4_8M0kA)
 
@@ -203,7 +203,7 @@ Avec la croissance prévue du Lightning Network et l'augmentation conséquente d
 La spéculation entoure l'utilisation future de l'espace des blocs, mais il est généralement admis que c'est une ressource rare qui devrait être utilisée judicieusement. Même si l'envie est là de le combler, il est essentiel de le préserver pour assurer la viabilité à long terme du réseau Bitcoin, anticipant une augmentation future de la demande d'espace dans les blocs. Comme dans tout marché libre, l’offre et la demande réguleront l'utilisation de l'espace des blocs. Avec une offre limitée, les parties prenantes devront faire des choix éclairés sur l'utilisation de cet espace précieux pour garantir l’efficacité et la sécurité du réseau Bitcoin à long terme.
 
 ## Le minage dans le protocole bitcoin
-<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
+<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
 ![Qui a le pouvoir ? Bitcoin, énergie et fabricants ](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
@@ -245,7 +245,7 @@ D'un autre côté, le Proof of Stake (PoS), bien qu'il permette la participation
 Pour récapituler, les mineurs fortifient le réseau Bitcoin contre la censure en utilisant de l'électricité pour calculer la preuve de travail du Bitcoin, et sont récompensés par de nouveaux bitcoins et les frais de transaction. Avec la professionnalisation de l’industrie, différents acteurs émergent, jouant divers rôles, de la création des puces à la gestion des fermes de minage. Par ailleurs, la finance intervient aussi, exerçant un contrôle, en décidant qui survit pendant les différentes phases du marché. La problématique de la centralisation subsiste, avec les entités les plus riches dominant potentiellement le marché. Toutefois, des alternatives sont en cours de développement au niveau matériel et logiciel. Il appartient à chaque individu d’agir et de contribuer à la distribution du réseau. Bitcoin représente une occasion inouïe non seulement en termes de liberté, mais aussi d'indépendance énergétique. Malgré les controverses autour de sa consommation d'électricité, Bitcoin offre un incitatif économique pour une transition vers une utilisation plus rationnelle et abondante de l'énergie, concrétisant ce qui était auparavant un idéal écologique.
 
 ## Prix du bitcoin et hashrate, une corrélation ?
-<chapterId>4410c144-dc14-52a1-bb99-6e0e01a44103</chapterId>
+<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
 ![Comment obtenir un bitcoin blanc et vierge ? ](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
@@ -277,7 +277,7 @@ L'initiative Attakai met en avant l'importance de la contribution au réseau tou
 
 
 ## Souveraineté et régulation
-<chapterId>690f58c5-973c-5aa9-b255-93dfe5ba10af</chapterId>
+<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
 ### Souveraineté avant profit ? 
 
@@ -316,10 +316,10 @@ En conclusion, malgré le risque réglementaire et la possibilité d'une interdi
 ![Les coulisses du minage industriel - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Home-mining et réutilisation de la chaleur
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
 ## Attakai - le home-mining rendu possible et accessible !
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 ![On vous présente Attakaï !](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
 
@@ -371,7 +371,7 @@ C’est une excellente opportunité pour apprendre en pratiquant tout en étant 
 
 
 ## Guide d’achat pour un ASIC d’occasion
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
 ![Introduction à Attakaï: se chauffer avec Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 
@@ -429,7 +429,7 @@ Pour synthétiser ce guide en une phrase : **« Ne faites pas confiance, vérifi
 [Vous pouvez également vous tourner vers des professionnels du reconditionnement de machines de minage, tels que notre partenaire 21energy. Ils proposent des S9 testés, nettoyés et avec le logiciel BraiiinOS+ déjà installé. Grâce au code d’affiliation « decouvre », vous bénéficierez d'une réduction de 10% sur l'achat d'un S9 tout en soutenant le projet Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
 ## Guide d’achat des pièces pour modifications hardware du S9
-<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
+<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
 ![Introduction à Attakaï: se chauffer avec Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
 
@@ -480,10 +480,10 @@ Liste du matériel et liens
 * [Optionnel prise connectée ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - modification du logiciel d’un Antminer S9
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
 ## Paramétrer un bridge WIFI/Ethernet Vonet
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
 ![Connecter un Antminer S9 à son réseau Wifi](https://www.youtube.com/watch?v=y4oYURBaPqg)
 
@@ -528,7 +528,7 @@ Il est possible qu’il soit nécessaire de débrancher/rebrancher le bridge s'i
 Une fois le bridge connecté branchez le câble Ethernet du bridge à votre ASIC puis branchez l’ASIC au secteur, vous pourrez alors vous connecter à l’interface de l’ASIC de la même manière que s’il était connecté directement en Ethernet à votre routeur.
 
 ## Réinitialiser un Antminer S9
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
 
 Avant d’installer BraiinOS+ il peut être nécessaire de réinitialiser votre S9 avec ses paramètres d’usine.
 
@@ -539,7 +539,7 @@ Cette méthode peut être appliquée entre 2 minutes et 10 minutes après le dé
 ![image](assets/software/1.webp)
 
 ## Installer BraiinsOS+ sur un Antminer S9
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
 ![Installer Braiins OS+ sur son Antminer S9](https://www.youtube.com/watch?v=luqwlvzGsO4)
 
@@ -576,7 +576,7 @@ Nous allons voir ici comment installer facilement Braiins OS+ directement sur la
 9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
 
 ## Configurer BraiinsOS+
-<chapterId>2574ea14-a95a-5d59-b95b-bb0e704d3333</chapterId>
+<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
 ![Configurer son Antminer S9 avec Braiins OS+](https://www.youtube.com/watch?v=dK0t8M8kLYg)
 
@@ -621,10 +621,10 @@ Sur cette première page vous pourrez observer les performances de votre machine
 ![image](assets/software/18.webp)
 
 # Attakai - Modification des ventilateurs
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
 ## Remplacer le ventilateur de l'alimentation
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 ![Remplacer les ventilateurs pour réduire les nuisances sonores](https://www.youtube.com/watch?v=2CNGKZiveuc)
 
@@ -698,7 +698,7 @@ Une fois les branchements effectués, remettez bien le plastique du couvercle pa
 Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur les côtés pour maintenir le tout bien en place. Et voilà, votre boîtier d’alimentation est désormais équipé d’un nouveau ventilateur
 
 ## Remplacer les ventilateurs Principaux
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 ![Remplacer les ventilateurs pour réduire les nuisances sonores](https://www.youtube.com/watch?v=2CNGKZiveuc)
 
@@ -755,10 +755,10 @@ Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique 
 
 
 # Attakai - Paramétrage
-<partId>784a12be-e7a7-571f-878d-b4165d3c2c38</partId>
+<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
 ## Rejoindre une pool de minage
-<chapterId>0d1e498d-080f-5fd1-8aa0-5c0448bf87cb</chapterId>
+<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
 ![Rejoindre une pool de minage avec un Antminer S9](https://www.youtube.com/watch?v=wM-dRog6mls&t=166s)
 
@@ -791,7 +791,7 @@ Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rent
 ![image](assets/software/21.webp)
 
 ## Optimiser les performances de sont Antminer S9
-<chapterId>ccd706d1-3ab2-59ab-b7a7-8cae2859ebd7</chapterId>
+<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
 ![Optimiser les performances de son Antminer S9 avec l'auto-tunning](https://www.youtube.com/watch?v=yh8U9Ay1i-E&t=277s)
 
@@ -813,7 +813,7 @@ Le résultat final est un taux de hachage plus élevé par watt d’électricit�
 
 
 ## Contrôler un Antminer S9 depuis son smartphone
-<chapterId>dc215de0-a864-5314-a819-31fb39e620bc</chapterId>
+<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 
 ### Créer des raccourcis sur IOS
 

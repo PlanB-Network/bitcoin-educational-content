@@ -23,10 +23,10 @@ Théo; Contribuição
 +++
 
 # Introdução
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Introdução ao curso
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Objetivo: atualização!
 
@@ -71,10 +71,10 @@ Primeiro, veremos como proteger sua caixa de e-mails, essencial para suas comuni
 ![](assets/pt/3.webp)
 
 # Tudo sobre navegação online
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Navegação online
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Ao navegar na internet, é importante evitar alguns erros comuns para preservar sua segurança online. Aqui estão algumas dicas para evitá-los:
 
@@ -113,7 +113,7 @@ O TOR é legal e é usado por jornalistas, ativistas da liberdade e outras pesso
 **_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
 
 ## VPN e conexão com a internet
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPNs
 
@@ -144,10 +144,10 @@ Em resumo, o uso de VPN pode melhorar significativamente a segurança online, ta
 **_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
 
 # Boas práticas de uso do computador
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Uso do computador
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 A segurança de nossos computadores é uma questão importante no mundo digital atual. Hoje, abordaremos três pontos-chave:
 
@@ -195,7 +195,7 @@ Em conclusão, é fundamental optar por um sistema operacional adequado às suas
 **_Tutorial em construção, para contribuir ou adicioná-lo, você pode usar o GitHub_**
 
 ## Hack e gerenciamento de backup: protegendo seus dados
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Como os hackers atacam?
 
@@ -232,10 +232,10 @@ NÃO, geralmente é desaconselhável pagar aos hackers em caso de ransomware ou 
 Se você detectar um vírus em seu computador, desconecte-o da internet, faça uma análise antivírus completa e exclua os arquivos infectados. Em seguida, atualize seus softwares e sistema operacional e altere suas senhas para evitar outras intrusões.
 
 # Implementação das soluções.
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Gerenciamento de caixas de e-mail
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ### Configurar uma nova caixa de correio eletrónico!
 
@@ -265,7 +265,7 @@ Bônus Bitcoin: Pode ser aconselhável criar um endereço de e-mail especialment
 **_ Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub _**
 
 ## Gerenciador de senhas
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### O que é um gerenciador de senhas?
 
@@ -315,7 +315,7 @@ Passwords geradas aleatoriamente oferecem um nível de segurança superior, embo
 **_Tutorial em construção, para contribuir ou adicioná-lo, você pode passar pelo GitHub_**
 
 ## Autenticação de 2 fatores
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Por que implementar o 2FA
 
@@ -359,10 +359,10 @@ Regra de ouro: A segurança da informação é um alvo em movimento que se adapt
 **_Tutorial em construção, para contribuir ou adicioná-lo, você pode usar o GitHub_**
 
 # Vá além
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Como trabalhar nesta indústria de cibersegurança
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 A cibersegurança, um campo em pleno crescimento, oferece uma infinidade de oportunidades para aqueles apaixonados pela proteção de sistemas e dados. Se essa indústria te intriga, aqui estão alguns passos-chave para se orientar.
 
@@ -395,7 +395,7 @@ A evolução constante das ameaças requer uma vigilância regular das notícias
 Dominando essas habilidades e ferramentas, você estará bem equipado para navegar com sucesso no mundo da cibersegurança.
 ![](assets/notext/20.webp)
 ## Entrevista com Renaud
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ### Gestão eficaz de senhas e fortalecimento da autenticação: uma abordagem acadêmica
 
@@ -425,7 +425,7 @@ Des alternativas aos anúncios intrusivos incluem o Google DNS, OpenDNS e outros
 No módulo de treinamento "Segurança 101" do Descubra Bitcoin na Academia, também discutimos a autenticação do Lightning. Esse sistema gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais. É possível ter identidades descentralizadas controladas pelo usuário, mas falta padronização e normalização nos projetos de identidade descentralizada. Gerenciadores de pacotes como Nuget e Chocolaté, que permitem baixar software de código aberto fora da Microsoft Store, são recomendados para evitar ataques maliciosos. Em resumo, o DNS é crucial para a segurança online, mas é necessário permanecer vigilante contra possíveis ataques aos servidores DNS.
 
 ## Agradecimentos e continue a explorar a toca do coelho
-<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ### Avalie o curso e nos apoie
 

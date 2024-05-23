@@ -20,10 +20,10 @@ El curso debería tomar aproximadamente 15 horas. A lo largo del recorrido, se e
 +++
 
 # Introducción
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
 ## Un salto hacia lo desconocido
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 ### Bienvenido a un nuevo paradigma monetario y tecnológico.
 
@@ -79,7 +79,7 @@ Antes de abordar la definición y el funcionamiento del dinero en una sociedad (
 Lo más importante aquí es comprender de manera general esta nueva tecnología. Esperamos que este curso les guste y les brinde las bases necesarias para comprender y tal vez seguir avanzando en este nuevo paradigma monetario mundial.
 
 ## La prehistoria de Bitcoin
-<chapterId>2d8a18cc-a293-5613-90d6-e7658211c6c4</chapterId>
+<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 ![La prehistoria de Bitcoin](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 
@@ -129,10 +129,10 @@ Por lo tanto, Bitcoin es un protocolo que se inscribe en tiempos largos y nos in
 ![La prehistoria de Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 # La monnaie
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
 ## La monnaie à travers l'Histoire
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
 La evolución del dinero es un aspecto fascinante de la historia humana, reflejando la ingeniosidad de las civilizaciones a lo largo de los siglos para satisfacer las necesidades económicas en constante evolución.
 
@@ -195,7 +195,7 @@ Bitcoin, por otro lado, presenta nuevas posibilidades. Debido a sus propiedades,
 ![Alt text](assets/posters/esp/3_moneda.webp)
 
 ## Las monedas fiduciarias
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 "Aquellos que no aprenden de la historia están condenados a repetir los mismos errores", dijo George Santayana. Una verdad que resuena especialmente cuando se habla del sistema monetario actual.
 
@@ -247,7 +247,7 @@ Al mismo tiempo, la aparición de las monedas digitales de los bancos centrales,
 ![Alt text](assets/posters/esp/4_las_monedas_fiduciarias.webp)
 
 ## Las hiperinflaciones
-<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
+<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
 La hiperinflación es un fenómeno monetario propio de las monedas fiduciarias. Se caracteriza por una pérdida completa de la confianza en una moneda y un aumento drástico de la inflación a través de la impresión de dinero por parte de las autoridades. Como resultado, los ahorros acumulados por los individuos pueden desaparecer en un lapso de tiempo relativamente corto, lo que lleva al país al borde del abismo económico, social y político.
 
@@ -329,7 +329,7 @@ Una moneda que depende de un tercero de confianza, como una entidad financiera, 
 ![Alt text](assets/posters/esp/5_las_hiperinflaciones.webp)
 
 ## 21 millones de Bitcoins
-<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
+<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 ### La política monetaria de Bitcoin
 
@@ -428,10 +428,10 @@ Bitcoin es ante todo una forma de moneda que incita a cuestionar el poder de las
 Ahora que hemos establecido las diferencias entre Bitcoin y las monedas fiduciarias, en los próximos capítulos estudiaremos qué son las carteras de Bitcoin, ya que es su responsabilidad asegurar sus fondos. De hecho, la soberanía financiera que ofrece Bitcoin va necesariamente de la mano con la responsabilidad individual.
 
 # Las carteras de Bitcoin
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
 ## ¿Qué son las carteras de Bitcoin?
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 En esta sección 2, exploraremos el almacenamiento y la seguridad de los bitcoins en las carteras. Esto le permitirá comprender mejor dónde se encuentran estos famosos bitcoins y cómo interactuar con ellos.
 
@@ -492,7 +492,7 @@ Elija una billetera que se adapte a sus necesidades y uso. Hay tutoriales detall
 ![Alt text](assets/posters/esp/8_que_es_un_wallet.webp)
 
 ## Seguridad y Billeteras de Bitcoin
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 ### Hacer las preguntas correctas antes de comenzar
 
@@ -543,7 +543,7 @@ Ahora que tenemos esto en mente, vamos a ver en la próxima sección los pasos p
 ![Alt text](assets/posters/esp/9_que_wallet_elegir.webp)
 
 ## Configuración de una billetera
-<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
+<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
 La seguridad de tus Bitcoins es de vital importancia y un simple error puede tener consecuencias costosas. Por eso, ahora vamos a ver las mejores prácticas al crear una nueva billetera Bitcoin.
 
@@ -581,7 +581,7 @@ Las carteras "frías" generalmente tienen estas listas de palabras, al igual que
 ![Alt text](assets/posters/esp/10_configurar_tu_monedero.webp)
 
 ## Pasar la prueba del tiempo
-<chapterId>c39bdd74-3140-57c6-a784-b238b16879e3</chapterId>
+<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 La seguridad es una preocupación importante en el ecosistema de Bitcoin. De hecho, al igual que cualquier forma de riqueza, tus bitcoins deben protegerse contra pérdidas, robos y deterioro, especialmente a largo plazo. La seguridad de tus bitcoins requiere cierto conocimiento técnico y la conciencia de los riesgos asociados, lo que nos lleva a discutir dos estrategias principales: grabar tus bitcoins en acero y crear un plan de herencia.
 
@@ -626,10 +626,10 @@ Al crear una billetera, primero debe hacer una copia de seguridad de su clave pr
 Ahora que tenemos una base de conocimientos sobre las billeteras de Bitcoin y las buenas prácticas para asegurarlas, abordaremos en el próximo capítulo el funcionamiento técnico de Bitcoin. Una vez más, conocer los fundamentos del protocolo Bitcoin le permitirá comprender mejor su funcionamiento y utilizarlo de manera más efectiva.
 
 # Los aspectos técnicos de Bitcoin.
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 ## Lanzamiento de Bitcoin
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
 ### Comencemos con un poco de historia.
 
@@ -685,7 +685,7 @@ Ahora que tenemos algunos elementos de contexto, veamos cómo funciona en genera
 ![Alt text](assets/posters/esp/7_bitcoin_emepeza.webp)
 
 ## Las transacciones de Bitcoin
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
 Una transacción de Bitcoin es simplemente una transferencia de propiedad de bitcoins, utilizando una dirección de bitcoin. Tomemos, por ejemplo, a dos protagonistas: Alice y Bob. Alice quiere adquirir bitcoins, mientras que Bob ya los tiene.
 
@@ -748,7 +748,7 @@ De hecho, para que la red de Bitcoin sea completamente destruida, se necesitarí
 Veamos más detalladamente cómo funciona un nodo de Bitcoin.
 
 ## Los nodos de Bitcoin
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 Los nodos son un elemento fundamental de la arquitectura de la red de Bitcoin. Realizan diversas funciones cruciales:
 
@@ -799,7 +799,7 @@ Después de esta victoria, los nodos activaron una actualización llamada SegWit
 ![los nodos de Bitcoin](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Los mineros
-<chapterId>2574ea14-a95a-5d59-b95b-bb0e704d3333</chapterId>
+<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 > Los mineros sirven para asegurar la red y agregar transacciones a los bloques. Utilizan electricidad a través de máquinas ASIC para resolver la prueba de trabajo de Bitcoin.
 
@@ -869,7 +869,7 @@ La teoría del juego aplicada a Bitcoin descarta a los mineros deshonestos. Los 
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 ## Bitcoin y la ecología
-<chapterId>7f80ca68-d162-5f68-b5de-ad28f9fb63d2</chapterId>
+<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
 
 Acabamos de ver en la sección anterior que la seguridad del protocolo Bitcoin se basa en un alto costo energético para producir un registro público de transacciones sin necesidad de un tercero de confianza. El costo energético total a menudo se compara con el consumo eléctrico de un país pequeño. Pero, ¿tiene sentido esta comparación? ¿Es relevante para comprender las razones detrás de dicho costo?
@@ -929,10 +929,10 @@ Para que los mineros sean lo más rentables posible en su actividad, deben obten
 Así, el protocolo Bitcoin es un sistema monetario incensurable e imparable porque cada componente del protocolo está distribuido geográficamente en todo el mundo, por ejemplo, hay alrededor de 40,000 nodos Bitcoin en todos los continentes. Las reglas de consenso de Bitcoin son tales que es más rentable seguirlas que tratar de transgredirlas, y por lo tanto no se requiere confianza entre los actores. Bitcoin no tiene líder y no se puede detener. Es posible regular las plataformas de intercambio para limitar Bitcoin, pero esto está restringido en términos de impacto. En resumen, ningún juez o estado puede censurar o detener a Bitcoin.
 
 # ¿Cómo obtener Bitcoin?
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
 ## ¡Bitcoin nunca duerme!
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 El precio de Bitcoin a menudo se caracteriza por una volatilidad significativa. Su valor puede fluctuar considerablemente según las variaciones del mercado y las fases del mercado alcista (bull market) y bajista (bear market). Esto se aplica al 100% de los mercados financieros, incluido Bitcoin.
 
@@ -991,7 +991,7 @@ Hoy, en 2023, Bitcoin sigue sobreviviendo y creciendo cada vez más al integrars
 ![Alt text](assets/posters/esp/15_el_precio_de_bitcoin.webp)
 
 ## Obtener bitcoins trabajando
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 ### Se está desarrollando una economía paralela
 
@@ -1026,7 +1026,7 @@ Trataremos este tema en detalle en otra formación, pero para simplificar, se pu
 ![Alt text](assets/posters/esp/17_trabajor_por_tener_bitcoin.webp)
 
 ## Ahorrar con Bitcoin
-<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
+<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 ### ¡Advertencia antes de empezar!
 
@@ -1119,7 +1119,7 @@ También es importante tener en cuenta que es posible que se implementen impuest
 ![Alt text](assets/posters/esp/16_agorrar_en_bitcoin.webp)
 
 ## Hiper-bitcoinización
-<chapterId>27e2b44f-b256-5b89-909f-e2b49e29ac6a</chapterId>
+<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
 ### ¡La locura apenas comienza!
 
@@ -1146,10 +1146,10 @@ Si desea ampliar sus conocimientos sobre Bitcoin, muchos autores, pensadores y e
 ![Alt text](assets/posters/esp/18_hyper_bitcoinizacion.webp)
 
 # El futuro de Bitcoin: Lightning Network
-<partId>784a12be-e7a7-571f-878d-b4165d3c2c38</partId>
+<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
 ## Breve introducción a Lightning Network
-<chapterId>0d1e498d-080f-5fd1-8aa0-5c0448bf87cb</chapterId>
+<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
 Ahora que tenemos los conceptos básicos del protocolo Bitcoin, vamos a presentar una red de pagos que utiliza el protocolo Bitcoin para permitir transacciones a la velocidad del rayo. ¡Estamos hablando, por supuesto, de Lightning Network!
 
@@ -1190,7 +1190,7 @@ En resumen, la Lightning Network es un intento prometedor de implementar un sist
 ![Alt text](assets/posters/esp/20_lightning_network.webp)
 
 ## Casos de uso de la Lightning Network
-<chapterId>ccd706d1-3ab2-59ab-b7a7-8cae2859ebd7</chapterId>
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 Como acabamos de ver, el protocolo Bitcoin, aunque revolucionario, enfrenta importantes desafíos en términos de escalabilidad para poder realizar todas nuestras transacciones diarias. Para resolver estos problemas, se propuso una solución de segunda capa conocida como Lightning Network en 2016, la cual hoy en día tiene varias implementaciones diferentes pero todas interoperables:
 
@@ -1226,7 +1226,7 @@ En conclusión, la Lightning Network abre una multitud de casos de uso emocionan
 ![Alt text](assets/posters/esp/21_ln_exemplo_de_eso.webp)
 
 ## ¿Píldora azul o píldora roja?
-<chapterId>dc215de0-a864-5314-a819-31fb39e620bc</chapterId>
+<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 Como dijo Morfeo a Neo: "Si tomas la píldora azul, la historia termina, despiertas en tu cama y crees lo que quieras creer. Si tomas la píldora roja, te quedas en el País de las Maravillas y te muestro hasta dónde llega la madriguera". ¿Estás listo para explorar la madriguera de Bitcoin? ¡Ten cuidado, podrías encontrar tu libertad financiera!
 
@@ -1289,7 +1289,7 @@ Bitcoin no puede ser detenido ni censurado. Es una revolución pacífica para ca
 Cambiar el sistema financiero requiere cambiar la moneda. Satoshi creó Bitcoin en 2008 como un intento de abordar esto. Tener acceso a dinero fácil y "mágico" corrompe. Por lo tanto, Bitcoin es una alternativa para construir un nuevo sistema monetario neutral. Bitcoin permite la emancipación del sistema bancario. Es un fenómeno social que nos lleva a participar en una revolución pacífica. ¿Estás listo para unirte?
 
 ## Agradecimientos y sigue profundizando en la madriguera del conejo
-<chapterId>3bd3f9e2-78a2-55e7-b4d9-9e0ea30f3066</chapterId>
+<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
 
 ### Ve más allá
 
@@ -1302,12 +1302,12 @@ Cambiar el sistema financiero requiere cambiar la moneda. Satoshi creó Bitcoin 
 - y muchos más...
 
 ## Apóyanos
-<chapterId>f8493651-8987-5406-af02-d4177cd73d78</chapterId>
+<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
 Este curso, junto con todo el contenido presente en esta universidad, te ha sido ofrecido de forma gratuita por nuestra comunidad. Para apoyarnos, puedes compartirlo con tus amigos, convertirte en miembro de la universidad e incluso contribuir a su desarrollo a través de [nuestro GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). ¡En nombre de todo el equipo, gracias!
 
 ## Califica el curso
-<chapterId>fcea3bc9-deba-54c5-857f-7d3127b5ac24</chapterId>
+<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 
 ¡Pronto se integrará un sistema de calificación para el curso en esta nueva plataforma de E-learning! Mientras tanto, muchas gracias por haber tomado el curso y si te gustó, considera compartirlo con tus amigos.
 

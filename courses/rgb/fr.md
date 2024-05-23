@@ -18,10 +18,10 @@ Profitez-en et bonne chance avec l'un des sujets les plus avancés de Bitcoin.
 +++
 
 # Introduction au cours RGB
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>c6f7a70f-d894-595f-8c0a-b54759778839</partId>
 
 ## Présentation du cours
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
 
 Bonjour à tous et bienvenue dans ces cours RGB.
 
@@ -44,75 +44,75 @@ Un grand merci à la personne qui a organisé ces cours en direct et aux 3 ensei
 Bonne chance dans vos études, et si vous avez besoin de contacter notre équipe ou les enseignants, veuillez utiliser le canal approprié. Ce cours sera bientôt mis à jour avec une section texte pour chaque chapitre, des examens et des images. Restez à l'écoute.
 
 # RGB en théorie
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
 
 ## Comprendre RGB
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 ![video](https://youtu.be/AF2XbifPGXM)
 
 ## Validation côté client
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
 ![video](https://youtu.be/FS6PDprWl5Q)
 
 ## Explication de l'état RGB
-<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
+<chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 ![video](https://youtu.be/tmAVdyXGmj4)
 
 ## Logique métier RGB
-<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
+<chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 ![video](https://youtu.be/lUTjeuM0oTA)
 
 # Programmation sur RGB
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>148a7436-d079-56d9-be08-aaa4c14c6b3a</partId>
 
 ## Bases de la programmation RGB
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
 ![video](https://youtu.be/Uo1UoxiImsI)
 
 ## Programmation RGB Partie 2
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 ![video](https://youtu.be/sVoKIi-1XbY)
 
 ## Rédaction de contrats intelligents
-<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
+<chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
 ![video](https://youtu.be/GRwS-NvWF3I)
 
 ## Sujets avancés RGB et discussions futures
-<chapterId>c39bdd74-3140-57c6-a784-b238b16879e3</chapterId>
+<chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
 ![video](https://youtu.be/mqCupTlDbA0)
 
 # Construire sur RGB
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>
 
 ## Bitmask
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 ![video](https://youtu.be/nbUtV8GOR_U)
 
 ## Noeud RGB partie 1 
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 ![vidéo](https://youtu.be/5iAhsgCSL3U)
 
 ## Noeud RGB partie 2
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
 ![vidéo](https://youtu.be/piQQH4Q2nr0)
 
 
 # Conclusion 
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 ## Mot de clôture
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
 Merci d'avoir participé aux cours RGB proposés par PlanB Network en collaboration avec Fulgur'Ventures. Nous exprimons notre gratitude à nos enseignants pour leur soutien. Si vous êtes intéressé à poursuivre votre travail avec RGB, voici une liste utile de ressources à explorer :
 

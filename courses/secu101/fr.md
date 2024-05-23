@@ -23,10 +23,10 @@ Théo; Contribution
 +++
 
 # Introduction
-<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Introduction du cours
-<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
 
@@ -79,10 +79,10 @@ En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, n
 Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement.
 
 # Tout savoir sur la navigation en ligne
-<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Navigation en ligne
-<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 ![navigation en ligne](https://youtu.be/BEK7vGnkO64)
 
@@ -123,7 +123,7 @@ TOR est légal et est utilisé par des journalistes, des activistes de la libert
 **_Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub_**
 
 ## VPN et connexion internet
-<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
 
@@ -155,10 +155,10 @@ En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en li
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 # Les bonnes pratiques d'utilisation de l'ordinateur
-<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Utilisation de l’ordinateur
-<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 ![utilisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
 
@@ -208,7 +208,7 @@ En conclusion, il est primordial d'opter pour un système d'exploitation adapté
 **_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
 
 ## Hack & gestion de back-up : protéger ses données
-<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ![hack et gestion de back-up](https://youtu.be/CJDjWPV3PeU)
 
@@ -248,10 +248,10 @@ NON, Il est généralement déconseillé de payer les hackers en cas de ransomwa
 Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
 # Mise en place des solutions.
-<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## La gestion des boites mails
-<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
 
@@ -282,7 +282,7 @@ En règle générale, se mettre à utiliser une nouvelle adresse mail plus sécu
 Bonus Bitcoin : Il peut être conseillé de créer une adresse mail spécialement pour nos activités Bitcoin (création de comptes d'échange) afin de vraiment séparer les centres d'activité dans nos vies.
 
 ## Gestionnaire de mots de passe
-<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ![gestionnaire de mots de passe](https://youtu.be/HzLuZ6noePY)
 
@@ -323,7 +323,7 @@ Les mots de passe générés de manière aléatoire offrent un niveau de sécuri
 
 
 ## Les 2 facteurs d’authentification
-<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ![les 2FA](https://youtu.be/863n4N1XNjk)
 
@@ -365,20 +365,20 @@ Continuez à apprendre et à mettre en place petit à petit les bonnes pratiques
 Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter à votre parcours d'apprentissage !
 
 # Section Pratique 
-<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Mise en place d'un Boite Mail 
-<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Sécurisation en 2FA
-<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Création d'un gestionaire de mot de passe
-<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ![video](https://youtu.be/y7Xkv4E5YmU)
 

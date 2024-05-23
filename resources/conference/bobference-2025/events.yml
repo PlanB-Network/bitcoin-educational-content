@@ -11,8 +11,12 @@
   book_in_person: false
   price_dollars: 0
   description: Join us at BOB's first Unconference, where the ethos of Bitcoin's decentralization and open collaboration come to life. Our event is dedicated to bringing together the backbone of Bitcoin within Asia, fostering an environment where innovation, privacy, and freedom are paramount. 
-  language: 
+   language: 
     - en
+  links:
+    website: https://www.flockstr.com/event/naddr1qqyrsvnrv4jrvvpeqyt8wumn8ghj7un9d3shjtnwdaehgu3wvfskueqzyzyxwkja3ycqj3sysd7xc05ypjzgx2xk06hj8gqgh5jd6kp3zssyzqcyqqq8evctvy9x4
+    replay_url:
+    live_url :
   tags: 
     - conference
     - technology

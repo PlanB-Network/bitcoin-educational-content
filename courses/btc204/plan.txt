@@ -45,6 +45,9 @@ Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
     Chapitre 4 - Les heuristiques externes
         | La réutilisation d’adresse
         | La similitude des scripts et les empreintes de portefeuilles
+        | L'heuristique de propriété commune des entrées (CIOH)
+        | Les données offchain
+        | Les modèles temporels
     Chapitre 5 - Mise en pratique avec l'outil Mempool.space
 
 Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée

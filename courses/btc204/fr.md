@@ -613,7 +613,7 @@ Tout d’abord, un analyste peut s’aider des similitudes dans l’utilisation 
 
 De manière plus globale, un analyste peut également se focaliser sur les empreintes caractéristiques d'un portefeuille. Il s'agit de procédés spécifiques à une utilisation que l'on peut chercher à identifier dans le but de les exploiter comme heuristiques de traçage. Autrement dit, si l’on observe une accumulation des mêmes caractéristiques internes sur des transactions attribuées à l’entité tracée, on peut tenter d’identifier ces mêmes caractéristiques sur d’autres transactions.
 
-Par exemple, on va pouvoir identifier que l’utilisateur tracé envoie systématiquement son change sur des adresses P2TR (`bc1p…`). Si ce processus se répète, on pourra l’utiliser comme une heuristique pour la suite de notre analyse. On peut aussi utiliser d’autres empreintes, comme l’ordre des UTXOs, la place du change dans les sorties, la signalisation de RBF (Replace-by-Fee), ou encore, le numéro de version, le champs `nSequence` et le champs `nLockTime`.
+Par exemple, on va pouvoir identifier que l’utilisateur tracé envoie systématiquement son change sur des adresses P2TR (`bc1p…`). Si ce processus se répète, on pourra l’utiliser comme une heuristique pour la suite de notre analyse. On peut aussi utiliser d’autres empreintes, comme l’ordre des UTXOs, la place du change dans les sorties, la signalisation de RBF (Replace-by-Fee), ou encore, le numéro de version, le champ `nSequence` et le champ `nLockTime`.
 
 ![BTC204](assets/fr/34/04.webp)
 
@@ -653,13 +653,13 @@ Pour vous donner un exemple, voici une transaction sur laquelle nous pouvons vra
 
 Source : [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
 
-### Les données off-chain
+### Les données offchain
 
 Évidemment, l’analyse de chaîne ne se limite pas exclusivement à des données onchain. Toute donnée issue d'une analyse antérieure ou accessible sur internet peut également être utilisée pour affiner une analyse.
 
 Par exemple, si l'on observe que les transactions tracées sont systématiquement diffusées depuis le même nœud Bitcoin et que l'on parvient à identifier son adresse IP, il est possible que l'on puisse repérer d'autres transactions de la même entité, en plus de déterminer un part de l'identité de l'émetteur. Bien que cette pratique ne soit pas facilement réalisable, car elle nécessite d'opérer de nombreux nœuds, il est possible que certaines entreprises spécialisées dans l'analyse de chaîne l'emploient.
 
-L'analyste a aussi la possibilité de s’appuyer sur des analyses préalablement rendues open-source, ou bien sur ses propres analyses antérieures. Peut-être que l’on va pouvoir trouver une sortie qui pointe vers un cluster d’adresses que l’on avait déjà identifiées. Parfois, il est aussi possible de s'appuyer sur des sorties qui pointent vers un exchange, les adresses de ces plateformes étant généralement connues.
+L'analyste a aussi la possibilité de s’appuyer sur des analyses préalablement rendues open-source, ou bien sur ses propres analyses antérieures. Peut-être que l’on va pouvoir trouver une sortie qui pointe vers un cluster d’adresses que l’on avait déjà identifiées. Parfois, il est aussi possible de s'appuyer sur des sorties qui pointent vers une plateforme d'échange, les adresses de ces entreprises étant généralement connues.
 
 De la même manière, on peut réaliser une analyse par élimination. Par exemple, si lors de l'analyse d'une transaction comportant deux outputs, l'une d'elles se rattache à un cluster d'adresses déjà connu, mais distinct de l'entité que l'on trace, alors on peut interpréter que l'autre sortie représente vraisemblablement le change.
 
@@ -673,9 +673,9 @@ On y pense moins, mais certains comportements humains sont reconnaissables oncha
 
 Tout d’abord, une analyse temporelle permet parfois d’identifier la nature de l’entité tracée. Si l’on observe que les transactions sont diffusées de manière constante sur 24 heures, alors cela va trahir une forte activité économique. L’entité derrière ces transactions est vraisemblablement une entreprise, potentiellement internationale et peut-être avec des procédures automatisées en interne.
 
-Par exemple, [j’avais reconnu ce modèle il y a quelques mois](https://twitter.com/Loic_Pandul/status/1701127409712452072) en analysant [la transaction qui avait par erreur alloué 19 bitcoins de frais](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Une simple analyse temporelle m’avait permis d'émettre l’hypothèse que l’on avait affaire à un service automatisé, et donc vraisemblablement à une grosse entité de type exchange.
+Par exemple, [j’avais reconnu ce modèle il y a quelques mois](https://twitter.com/Loic_Pandul/status/1701127409712452072) en analysant [la transaction qui avait par erreur alloué 19 bitcoins de frais](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Une simple analyse temporelle m’avait permis d'émettre l’hypothèse que l’on avait affaire à un service automatisé, et donc vraisemblablement à une grosse entité comme une plateforme d'échange.
 
-Effectivement, quelques jours plus tard, on a découvert que les fonds appartenaient à PayPal, via l’exchange Paxos.
+Effectivement, quelques jours plus tard, on a découvert que les fonds appartenaient à PayPal, via la plateforme d'échange Paxos.
 
 Au contraire, si l’on voit que le pattern temporel est plutôt réparti sur 16 heures bien spécifiques, alors on peut estimer que l’on a affaire à un utilisateur individuel, ou peut-être à une entreprise locale en fonction des volumes échangés.
 

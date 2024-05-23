@@ -695,7 +695,100 @@ Cet intervalle correspond vraisemblablement à l’Europe, à l’Afrique ou au 
 
 Dans un registre différent, c'est également une analyse temporelle de ce type qui a permis de formuler l'hypothèse selon laquelle Satoshi Nakamoto n’opérait pas depuis le Japon, mais bien depuis les États-Unis : [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
 
-## Mise en pratique avec l'outil Mempool.space
+## Mise en pratique avec un explorateur de blocs
+
+Dans ce dernier chapitre, nous allons appliquer concrètement les concepts que nous avons étudiés jusqu'ici. Je vais vous présenter des exemples de transactions Bitcoin réelles, et vous devrez en extraire les informations que je vous demande. 
+
+Idéalement, pour faire ces exercices, l'utilisation d'un outil professionnel d'analyse de chaîne serait préférable. Cependant, depuis l'arrestation des créateurs de Samourai Wallet, le seul outil gratuit d'analyse OXT.me n'est plus disponible. Nous allons donc opter pour un explorateur de blocs classique pour ces exercices. Je vous recommande d'utiliser [Mempool.space](https://mempool.space/) pour ses nombreuses fonctionnalités et sa gamme d'outils d'analyse de chaîne, mais vous pouvez également opter pour un autre explorateur tel que [Bitcoin Explorer](https://bitcoinexplorer.org/).
+
+Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateur de blocs pour les réaliser et notez vos réponses sur une feuille de papier. Ensuite, à la fin de ce chapitre, je vous fournirai les réponses afin que vous puissiez vérifier et corriger vos résultats.
+
+*Les transactions sélectionnées pour ces exercices ont été choisies uniquement pour leurs caractéristiques d'une manière quelque peu aléatoire. Ce chapitre est destiné uniquement à des fins éducatives et informatives. Je tiens à préciser que je ne soutiens ni n'encourage l'utilisation de ces outils à des fins malveillantes. L'objectif est de vous enseigner comment vous protéger contre l'analyse de chaîne, et non de mener des analyses pour exposer des informations privées d'autres personnes.*
+
+### Exercice 1
+
+
+
+
+
+### Exercice 2
+
+
+
+
+
+### Exercice 3
+
+
+
+
+
+
+
+### Exercice 4
+
+
+
+
+
+
+
+### Exercice 5
+
+
+
+
+
+
+
+
+### Exercice 6
+
+
+
+
+
+
+
+
+
+
+### Exercice 7
+
+
+
+
+
+
+
+
+### Exercice 8
+
+
+
+
+
+
+
+
+
+### Exercice 9
+
+
+
+
+
+
+
+
+
+### Exercice 10
+
+
+
+
+
+
 
 
 

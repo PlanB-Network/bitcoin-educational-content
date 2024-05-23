@@ -701,21 +701,29 @@ Dans ce dernier chapitre, nous allons appliquer concrètement les concepts que n
 
 Idéalement, pour faire ces exercices, l'utilisation d'un outil professionnel d'analyse de chaîne serait préférable. Cependant, depuis l'arrestation des créateurs de Samourai Wallet, le seul outil gratuit d'analyse OXT.me n'est plus disponible. Nous allons donc opter pour un explorateur de blocs classique pour ces exercices. Je vous recommande d'utiliser [Mempool.space](https://mempool.space/) pour ses nombreuses fonctionnalités et sa gamme d'outils d'analyse de chaîne, mais vous pouvez également opter pour un autre explorateur tel que [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
-Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateur de blocs pour les réaliser et notez vos réponses sur une feuille de papier. Ensuite, à la fin de ce chapitre, je vous fournirai les réponses afin que vous puissiez vérifier et corriger vos résultats.
+Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateur de blocs pour les réaliser et notez vos réponses sur une feuille de papier. Ensuite, à la fin de ce chapitre, je vous fournirai les réponses afin que vous puissiez vérifier et corriger vos résultats. Les exercices sont classés par ordre de difficulté.
 
 *Les transactions sélectionnées pour ces exercices ont été choisies uniquement pour leurs caractéristiques d'une manière quelque peu aléatoire. Ce chapitre est destiné uniquement à des fins éducatives et informatives. Je tiens à préciser que je ne soutiens ni n'encourage l'utilisation de ces outils à des fins malveillantes. L'objectif est de vous enseigner comment vous protéger contre l'analyse de chaîne, et non de mener des analyses pour exposer des informations privées d'autres personnes.*
 
 ### Exercice 1
 
+Identifiant de la transaction à analyser : 
 
+```bash
+3769d3b124e47ef4ffb5b52d11df64b0a3f0b82bb10fd6b98c0fd5111789bef7
+```
 
-
+Quel est le nom du modèle de cette transaction et quelles interprétations vraisemblables peut-on tirer en examinant uniquement son modèle, c'est-à-dire la structure de la transaction ?
 
 ### Exercice 2
 
+Identifiant de la transaction à analyser : 
 
+```bash
+baa228f6859ca63e6b8eea24ffad7e871713749d693ebd85343859173b8d5c20
+```
 
-
+Quel est le nom du modèle de cette transaction et quelles interprétations vraisemblables peut-on tirer en examinant uniquement son modèle, c'est-à-dire la structure de la transaction ?
 
 ### Exercice 3
 
@@ -786,6 +794,17 @@ Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateu
 
 
 
+
+
+
+
+### Solutions des exercices
+
+***Exercice 1 :***
+Le modèle de cette transaction est celui du paiement simple. Si l'on étudie uniquement sa structure, on peut interpréter qu'un output représente le change et l'autre output représente un paiement effectif. Nous savons donc que l’utilisateur observé n’est vraisemblablement plus en possession d’un des deux UTXOs en outputs (celui du paiement), mais qu’il est toujours en possession de l’autre UTXO (celui de change).
+
+***Exercice 2 :***
+Le modèle de cette transaction est celui de la dépense groupée. Ce modèle révèle vraisemblablement une grosse activité économique, comme une plateforme d'échange par exemple. Nous pouvons en déduire que l’UTXO en input provient d’une société avec une grosse activité économique et que les UTXOs en outputs vont se disperser. Certains appartiendront à des clients de la société qui ont retiré leurs bitcoins vers des portefeuilles en self-custody. D’autres iront peut-être vers des sociétés partenaires. Enfin, il y aura certainement un change qui reviendra à la société émettrice.
 
 
 

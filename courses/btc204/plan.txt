@@ -59,6 +59,7 @@ Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
         | Exercice 8
         | Exercice 9
         | Exercice 10
+        | Solutions des exercices
 
 Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée
     Chapitre 1 - La réutilisation d'adresse

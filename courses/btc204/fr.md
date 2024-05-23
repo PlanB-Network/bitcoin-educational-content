@@ -583,7 +583,7 @@ C’est une des heuristiques les plus connues des bitcoiners. La réutilisation 
 
 Ainsi, il est possible d'exploiter la réutilisation d'adresse au sein d'une même transaction comme une heuristique interne pour identifier le change (c'est ce que nous avons vu dans le chapitre précédent). Mais la réutilisation d'adresse peut également servir d'heuristique externe pour reconnaître l'unicité d'une entité derrière plusieurs transactions.
 
-L’interprétation de la réutilisation d’une adresse est que tous les UTXOs bloqués sur cette adresse appartiennent (ou ont appartenu) à une même entité. Cette heuristique laisse peu de place à l'incertitude. Lorsque l'on parvient à l'identifier, l'interprétation qui en découle a de fortes chances de correspondre à la réalité. Elle permet donc le regroupement de différentes activités onchain, afin d'observer ce que l'on désigne par le terme de "cluster".
+L’interprétation de la réutilisation d’une adresse est que tous les UTXOs bloqués sur cette adresse appartiennent (ou ont appartenu) à une même entité. Cette heuristique laisse peu de place à l'incertitude. Lorsque l'on parvient à l'identifier, l'interprétation qui en découle a de fortes chances de correspondre à la réalité. Elle permet donc le regroupement de différentes activités onchain.
 
 ![BTC204](assets/fr/34/01.webp)
 

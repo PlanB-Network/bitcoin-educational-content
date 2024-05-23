@@ -476,9 +476,19 @@ Ces remarques font probablement prendre conscience à Satoshi qu'il peut mettre 
 
 Dans le même temps, les questions de ses interlocuteurs le poussent à partager le code source de son modèle. Le 16 novembre, Satoshi transmet le code à Hal Finney, James A. Donald et Ray Dillinger. Le 17, dans un réponse à James A. Donald sur la liste, il [écrit](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) qu'il lui a envoyé « les fichiers principaux », que ceux-ci sont « disponibles sur demande pour le moment » et que leur « publication complète » aura lieu « bientôt ». (*original: "I sent you the main files. &nbsp;(available by request at the moment, full release soon)"*) Dans cette portion du code, qui sera [rendu publique](https://bitcointalk.org/index.php?action=printpage;topic=382374.0) en 2013 par Ray Dillinger lui-même, on peut constater que tous les éléments fondateurs de Bitcoin sont présents : la chaîne de blocs (alors encore appelée « *timechain* »), la preuve de travail, le modèle de représentation par des pièces (UTXO), la programmabilité des transactions, les frais de transaction et la réduction de moitié (*halving*).
 
-Des paramètres diffèrent cependant, ce qui indique qu'ils ont été choisis de façon spontanée ou, comme l'[écrira](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi, que ce choix constituait une « supposition éclairée ». (*original: "educated guess"*) Le temps de bloc, c'est-à-dire la période visée entre chaque bloc, est de 15 minutes au lieu de 10. La période d'ajustement de la difficulté est de 2 880 blocs (soit 30 jours pour un temps de blocs de 15 minutes) au lieu de 2 016 blocs (ce qui correspond à 14 jours pour un temps de bloc de 10 minutes). La mécanique de réduction de moitié, présente dans la fonction `GetBlockValue`, fait que le halving doit avoir lieu 100 000 blocs, soit tous les 2 ans et 311 jours environ. Il se crée 100 bitcoins durant la première période de 100 000 blocs, 50 durant la deuxième période, etc. de sorte que la quantité totale de bitcoins converge vers 20 millions. Chaque bitcoin (COIN) est divisible en 100 centimes (CENT), qui sont eux-mêmes divisibles en 10 000 unités de base, si bien qu'un bitcoin peut être divisé en 1 million d'unités plus petites, et non en 100 millions comme dans la version 0.1.
+Des paramètres diffèrent cependant, ce qui indique qu'ils ont été choisis de façon spontanée ou, comme l'[écrira](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi, que ce choix constituait une « supposition éclairée ». (*original: "educated guess"*) Le temps de bloc, c'est-à-dire la période visée entre chaque bloc, est de 15 minutes au lieu de 10. La période d'ajustement de la difficulté est de 2 880 blocs (soit 30 jours pour un temps de blocs de 15 minutes) au lieu de 2 016 blocs (ce qui correspond à 14 jours pour un temps de bloc de 10 minutes). La mécanique de réduction de moitié, présente dans la fonction `GetBlockValue`, fait que le halving doit avoir lieu 100 000 blocs, soit tous les 2 ans et 311 jours environ :
 
-img: fonction GetBlockValue
+```cpp
+int64 GetBlockValue(int64 nFees)
+{
+    int64 nSubsidy = 10000 * CENT;
+    for (int i = 100000; i <= nBestHeight; i += 100000)
+        nSubsidy /= 2;
+    return nSubsidy + nFees;
+}
+```
+
+Il se crée 100 bitcoins durant la première période de 100 000 blocs, 50 durant la deuxième période, etc. de sorte que la quantité totale de bitcoins converge vers 20 millions. Chaque bitcoin (COIN) est divisible en 100 centimes (CENT), qui sont eux-mêmes divisibles en 10 000 unités de base, si bien qu'un bitcoin peut être divisé en 1 million d'unités plus petites, et non en 100 millions comme dans la version 0.1.
 
 Hal Finney et Ray Dillinger [réalisent](https://www.linkedin.com/pulse/id-known-what-we-were-starting-ray-dillinger/) alors un examen minutieux du code. Chacun se concentre sur une partie spécifique du système : Ray Dillinger s'intéresse à la partie concernant le consensus, et Hal Finney étudie le système de script.
 

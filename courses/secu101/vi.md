@@ -23,8 +23,10 @@ Théo; đóng góp
 +++
 
 # Giới thiệu
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Giới thiệu khóa học
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 ### Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!
 
@@ -69,8 +71,10 @@ Trong phần thứ ba này, chúng ta sẽ chuyển sang triển khai các giả
 ![](assets/en/3.webp)
 
 # Tất cả những gì bạn cần biết về duyệt web trực tuyến
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Duyệt web trực tuyến
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 Khi duyệt web trên internet, việc tránh được một số sai lầm phổ biến để bảo vệ an ninh trực tuyến của bạn là rất quan trọng. Dưới đây là một số mẹo để tránh chúng:
 
@@ -108,6 +112,7 @@ TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà ho�
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập GitHub_**
 
 ## VPN và kết nối internet
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 ### VPNs
 
@@ -139,8 +144,10 @@ Tóm lại, việc sử dụng VPN có thể cải thiện đáng kể bảo m�
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
 
 # Những thói quen tốt cần có khi sử dụng máy tính
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Sử dụng máy tính
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 Bảo mật cho máy tính của chúng ta là một mối quan tâm lớn trong thế giới số hóa ngày nay. Hôm nay, chúng ta sẽ đề cập đến ba điểm chính:
 
@@ -186,6 +193,7 @@ Kết luận, việc chọn một hệ điều hành phù hợp với nhu cầu 
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub_**
 
 ## Quản lý hacking & sao lưu: Bảo vệ dữ liệu của Bạn
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 ### Hacker tấn công như thế nào?
 
@@ -220,8 +228,10 @@ KHÔNG, nói chung bạn được khuyến khích không trả tiền cho hacker
 Nếu bạn phát hiện vi rút trên máy tính, hãy ngắt kết nối khỏi internet, thực hiện quét toàn bộ bằng phần mềm diệt vi rút và xóa các tệp tin bị nhiễm. Sau đó, cập nhật phần mềm và hệ điều hành của bạn, rồi thay đổi mật khẩu để ngăn chặn sự xâm nhập lần sau.
 
 # Triển khai giải pháp.
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 
 ## Quản lý tài khoản email
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 ### Thiết lập một tài khoản email mới!
 
@@ -251,6 +261,7 @@ Bitcoin Bonus: Có thể nên tạo một địa chỉ email cụ thể cho các
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub_**
 
 ## Trình quản lý mật khẩu
+<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
 
 ### Trình quản lý mật khẩu là gì?
 
@@ -300,6 +311,7 @@ Mật khẩu được tạo ra một cách ngẫu nhiên cung cấp một mức 
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập qua GitHub_**
 
 ## Xác thực hai yếu tố
+<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
 
 ### Tại sao cần sử dụng xác thực hai yếu tố
 
@@ -341,8 +353,10 @@ Quy tắc vàng: An ninh mạng là một mục tiêu động và nó sẽ thíc
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể qua GitHub._**
 
 # Đi sâu hơn
+<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
 
 ## Làm thế nào để làm việc trong ngành an ninh mạng
+<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
 
 ### An ninh mạng: Một lĩnh vực đang phát triển với rất nhiều cơ hội
 
@@ -377,6 +391,7 @@ Sự phát triển liên tục của các mối đe dọa đòi hỏi bạn ph�
 Khi thành thạo những kỹ năng và các công cụ này, bạn sẽ được trang bị tốt để gặt hái được thành công trong ngành an ninh mạng.
 ![](assets/en/20.webp)
 ## Phỏng vấn với Renaud
+<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
 
 ### Quản lý mật khẩu hiệu quả và xác thực tăng cường: Tiếp cận ở góc độ học thuật
 Trong mô-đun đào tạo "An ninh mạng 101" do Découvre Bitcoin cung cấp tại Học viện, chúng tôi đã thảo luận về tầm quan trọng của trình quản lý mật khẩu. Ba khía cạnh cần xem xét bao gồm: tạo, cập nhật và sử dụng mật khẩu trên các trang web.
@@ -405,6 +420,7 @@ Các phương án thay thế để chống lại quảng cáo xâm nhập bao g�
 Là một phần của mô-đun đào tạo "Bảo mật 101" tại Découvre Bitcoin Academy, chúng ta cũng đã thảo luận về xác thực Lightning. Hệ thống này tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần cung cấp địa chỉ email hay thông tin cá nhân. Có thể có các danh tính phi tập trung do người dùng kiểm soát, nhưng đang thiếu sự tiêu chuẩn hóa trong các dự án danh tính phi tập trung. Các trình quản lý gói như Nuget và Chocolaté, cho phép tải xuống phần mềm mã nguồn mở ngoài Microsoft Store, được khuyến nghị dùng để tránh các cuộc tấn công độc hại. Tóm lại, DNS rất quan trọng cho bảo mật trực tuyến, nhưng cần phải luôn cảnh giác trước các cuộc tấn công tiềm năng vào máy chủ DNS.
 
 ## Lời cảm ơn và tiếp tục khám phá
+<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
 
 ### Đánh giá khóa học & hỗ trợ chúng tôi
 

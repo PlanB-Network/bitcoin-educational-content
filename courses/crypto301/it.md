@@ -17,8 +17,10 @@ Questo corso non solo ti fornirà le conoscenze per comprendere la struttura di 
 +++
 
 # Introduzione
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Introduzione alla crittografia
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 ### Questo corso è adatto a te? SÌ!
 
@@ -45,8 +47,10 @@ Per concludere, esamineremo gli indirizzi Bitcoin. Spiegheremo come vengono crea
 Unisciti a me in questo affascinante viaggio e preparati a esplorare il mondo della crittografia come mai prima d'ora. Lascia i preconcetti alla porta e apri la tua mente a un nuovo modo di comprendere Bitcoin e la sua struttura fondamentale.
 
 # Funzioni di Hash
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Introduzione alle funzioni di hash crittografiche correlate a Bitcoin
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 Benvenuti alla sessione odierna dedicata a un'immersione approfondita nel mondo crittografico delle funzioni di hash, una pietra angolare cruciale della sicurezza del protocollo Bitcoin. Immaginate una funzione di hash come un efficientissimo robot crittografico che trasforma informazioni di qualsiasi dimensione in un'impronta digitale unica e di dimensioni fisse, chiamata "hash", "digest" o "checksum".
 In sintesi, una funzione di hash prende un messaggio di input di dimensione arbitraria e lo converte in un'impronta digitale di dimensioni fisse.
@@ -88,6 +92,7 @@ In sintesi, l'obiettivo finale di una funzione di hash crittografica è trasform
 Alla fine di questa esplorazione, abbiamo svelato i misteri delle funzioni di hash crittografiche, evidenziato il loro utilizzo nel protocollo Bitcoin e analizzato i loro obiettivi specifici. Abbiamo appreso che per considerare sicure le funzioni di hash devono essere resistenti alle preimmagini, alle seconde preimmagini, alle collisioni e alle manipolazioni. Abbiamo anche esaminato la gamma di diverse funzioni di hash utilizzate nel protocollo Bitcoin. Nella prossima sessione, approfondiremo il nucleo della funzione di hash SHA256 e scopriremo la matematica affascinante che le conferisce le sue caratteristiche uniche.
 
 ## Il funzionamento interno di SHA256
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 
 Benvenuti al proseguimento del nostro affascinante viaggio attraverso i labirinti crittografici della funzione di hash. Oggi sveliamo i misteri di SHA256, un processo complesso ma ingegnoso che abbiamo introdotto in precedenza.
@@ -198,6 +203,7 @@ L'output dell'ultimo round, dell'ultimo pezzo, corrisponde al risultato finale d
 In conclusione, vorremmo sottolineare il ruolo cruciale dei calcoli eseguiti nelle caselle CH, MAJ, σ0 e σ1. Queste operazioni, tra le altre, sono le guardie che garantiscono la robustezza della funzione di hash SHA256 contro gli attacchi, rendendola una scelta preferita per la sicurezza di molti sistemi digitali, specialmente all'interno del protocollo Bitcoin. È evidente che, sebbene complessa, la bellezza di SHA256 risiede nella sua capacità di trovare l'input dall'hash, mentre verificare l'hash per un dato input è un'azione meccanicamente semplice.
 
 ## Gli algoritmi utilizzati per la derivazione
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 Gli algoritmi di derivazione HMAC e PBKDF2 sono componenti chiave nel meccanismo di sicurezza del protocollo Bitcoin. Prevengono una varietà di potenziali attacchi e garantiscono l'integrità dei portafogli Bitcoin.
 
@@ -229,8 +235,10 @@ Un attacco di estensione della lunghezza sfrutta una proprietà specifica di alc
 In conclusione, gli algoritmi HMAC e PBKDF2 svolgono un ruolo essenziale nella sicurezza della derivazione del portafoglio HD nel protocollo Bitcoin. HMAC-SHA-512 viene utilizzato per proteggersi dagli attacchi di estensione della lunghezza, mentre PBKDF2 consente la conversione della frase mnemonica in un seed. Il codice stringa aggiunge una fonte aggiuntiva di entropia nella derivazione delle chiavi, garantendo la robustezza del sistema.
 
 # Firme digitali
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Firme digitali e curve ellittiche
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 Dove vengono conservati questi famosi bitcoin? Non in un portafoglio Bitcoin, come si potrebbe pensare. In realtà, un portafoglio Bitcoin conserva le chiavi private necessarie per dimostrare la proprietà dei bitcoin. I bitcoin stessi sono registrati sulla blockchain, un database decentralizzato che archivia tutte le transazioni.
 Nel sistema Bitcoin, l'unità di conto è il bitcoin (nota la "b" minuscola). È divisibile fino a otto decimali, con la più piccola unità chiamata satoshi. UTXO, o "Unspent Transaction Outputs" (output di transazione non spesi), rappresentano gli output di transazione non spesi appartenenti a una chiave pubblica che è collegata matematicamente a una chiave privata. Per spendere questi bitcoin, è necessario soddisfare la condizione di spesa della transazione. Una tipica condizione di spesa consiste nel dimostrare al resto della rete che l'utente è il legittimo proprietario della chiave pubblica associata all'UTXO. Per fare ciò, l'utente deve dimostrare di possedere la chiave privata corrispondente alla chiave pubblica collegata a ciascun UTXO senza rivelare la chiave privata.
@@ -271,6 +279,7 @@ L'equazione della curva ellittica in Bitcoin corrisponde all'ultima equazione ne
 Nella prossima sezione di questo corso, utilizzeremo curve che sono nel campo reale semplicemente per facilitare la comprensione.
 
 ## Calcolo della chiave pubblica dalla chiave privata
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 
 Per iniziare, immergiamoci nel mondo dell'Elliptic Curve Digital Signature Algorithm (ECDSA). Bitcoin utilizza questo algoritmo di firma digitale per collegare chiavi private e pubbliche. In questo sistema, la chiave privata è un numero casuale o pseudo-casuale di 256 bit. Il numero totale di possibilità per una chiave privata è teoricamente 2^256, ma in realtà è leggermente inferiore a questo valore. Per essere precisi, alcune chiavi private di 256 bit non sono valide per Bitcoin.
@@ -343,6 +352,7 @@ Conoscendo la chiave privata k, è facile calcolare la chiave pubblica K. Tuttav
 Nella nostra prossima lezione, esploreremo come viene creata una firma digitale utilizzando l'algoritmo ECDSA con una chiave privata per spendere bitcoin.
 
 ## Firma con la chiave privata
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 Il processo di firma digitale è un metodo chiave per dimostrare di essere il detentore di una chiave privata senza rivelarla. Questo viene realizzato utilizzando l'algoritmo ECDSA, che prevede la determinazione di un nonce unico, il calcolo di un numero specifico V e la creazione di una firma digitale composta da due parti, S1 e S2.
 È fondamentale utilizzare sempre un nonce unico per evitare attacchi di sicurezza. Un esempio notorio di ciò che può accadere quando questa regola non viene seguita è l'hacking della PlayStation 3, compromessa a causa del riutilizzo del nonce.
@@ -423,8 +433,10 @@ Detto ciò, la gestione di queste chiavi, così come la loro creazione, è un'al
 Per rispondere a queste domande e approfondire la comprensione della sicurezza crittografica, il nostro prossimo corso si concentrerà sul concetto di portafogli deterministici gerarchici (HD wallets) e sull'uso di frasi mnemoniche. Questi meccanismi offrono modi eleganti per gestire in modo efficace le chiavi delle criptovalute, migliorando la sicurezza.
 
 # La frase mnemonica
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 
 ## Evoluzione dei portafogli Bitcoin
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 Il portafoglio deterministico gerarchico, più comunemente noto come HD wallet, svolge un ruolo di primo piano nell'ecosistema delle criptovalute. Il termine "portafoglio" può sembrare fuorviante per coloro che sono nuovi in questo campo, poiché non implica il possesso di denaro o valute. Invece, si riferisce a una collezione di chiavi private crittografiche.
 
@@ -441,6 +453,7 @@ Nelle sezioni seguenti, approfondiremo il funzionamento dei portafogli HD. Discu
 In sintesi, è essenziale sottolineare il ruolo centrale di BIP32 e BIP39 nella progettazione e sicurezza dei portafogli HD. Questi protocolli consentono la generazione di molteplici chiavi da un singolo seed, che dovrebbe essere un numero casuale o pseudo-casuale. Oggi, questi standard sono adottati dalla maggior parte dei portafogli di criptovalute, che siano dedicati a una singola criptovaluta o supportino diversi tipi di valute.
 
 ## Entropia e Numero Casuale
+<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
 
 L'importanza della sicurezza delle chiavi private nell'ecosistema Bitcoin è innegabile. Sono infatti il fondamento che garantisce la sicurezza delle transazioni Bitcoin. Per evitare qualsiasi vulnerabilità associata alla prevedibilità, queste chiavi devono essere generate in modo veramente casuale, il che può rapidamente diventare un esercizio laborioso. Il problema è che nell'informatica è impossibile generare un numero veramente casuale poiché deriva necessariamente da un processo deterministico; un codice. Ecco perché è essenziale conoscere i diversi Generatori di Numeri Casuali (RNG). I tipi di RNG variano, spaziando dai Generatori di Numeri Pseudo-Casuali (PRNG) ai Generatori di Numeri Veramente Casuali (TRNG), nonché PRNG che incorporano una fonte di entropia.
 
@@ -471,6 +484,7 @@ Un esempio di funzione di trasformazione è la funzione PBKDF2.
 Nel caso di Bitcoin, le chiavi private vengono generate da un'unica informazione alla base del portafoglio. Questa informazione consente la derivazione deterministica e gerarchica di coppie di chiavi figlie. L'entropia è alla base di ogni portafoglio HD, anche se non esiste uno standard per generare questo numero casuale. Pertanto, la generazione di numeri casuali rappresenta una sfida importante per la sicurezza delle transazioni Bitcoin.
 
 ## La frase mnemonica
+<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
 
 La sicurezza di un portafoglio Bitcoin è una preoccupazione principale per tutti i suoi utenti. Un modo essenziale per garantire il backup del portafoglio è generare una frase mnemonica basata sull'entropia e sul checksum.
 
@@ -503,6 +517,7 @@ Ogni decimale corrisponde a una parola di una lista di 2048 parole su BIP39. È 
 In conclusione, generare una frase mnemonica per proteggere un portafoglio Bitcoin è un processo cruciale. È importante attenersi agli standard della frase mnemonica in base alle dimensioni dell'entropia. Eseguire il backup della frase di recupero di 24 parole è essenziale per evitare la perdita di fondi.
 
 ## La passphrase
+<chapterId>2574ea14-a95a-5d59-b95b-bb0e704d3333</chapterId>
 
 La passphrase è una password aggiuntiva che può essere integrata in un portafoglio Bitcoin per aumentarne la sicurezza. Il suo utilizzo è facoltativo ed è a discrezione dell'utente. Aggiungendo informazioni arbitrarie che, insieme alla frase mnemonica, consentono il calcolo del seed del portafoglio, la passphrase ne migliora la sicurezza.
 
@@ -524,8 +539,10 @@ Una passphrase è più sicura di una semplice password. La passphrase ideale è 
 Nella nostra prossima lezione, esamineremo in dettaglio il funzionamento del seed e la prima coppia di chiavi generata da esso. Sentiti libero di seguire questo corso per continuare il tuo apprendimento. Non vediamo l'ora di rivederti molto presto.
 
 # Creazione dei portafogli Bitcoin
+<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
 
 ## Creazione del Seed e della Chiave Master
+<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
 
 In questa parte del corso, esploreremo i passaggi per la derivazione di un portafoglio deterministico gerarchico (HD Wallet), che consente la creazione e la gestione gerarchica e deterministica di chiavi private e pubbliche.
 
@@ -551,6 +568,7 @@ Una coppia di chiavi nel portafoglio è composta da una chiave privata, una chia
 Nella prossima lezione, esploreremo in dettaglio le chiavi estese, come xPub, xPRV, zPub, e capiremo perché vengono utilizzate e come vengono costruite.
 
 ## Chiavi estese
+<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
 
 In questa parte della lezione, studieremo le chiavi estese (xPub, zPub, yPub) e i loro prefissi, che svolgono un ruolo importante nella derivazione delle chiavi figlie in un portafoglio deterministico gerarchico (HD Wallet).
 
@@ -584,6 +602,7 @@ Le derivazioni migliorate partono da indici che sono potenze di 2 (2^31). È int
 Nella nostra prossima lezione, ci concentreremo sulla derivazione delle coppie di chiavi figlie utilizzando le conoscenze acquisite sulle chiavi estese e la chiave principale del portafoglio.
 
 ## Derivazione delle coppie di chiavi figlie
+<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
 
 Come promemoria, abbiamo discusso del calcolo del seed e della chiave principale, che sono i primi elementi essenziali per l'organizzazione gerarchica e la derivazione del portafoglio HD (Hierarchical Deterministic). Il seed, con una lunghezza di 128 a 256 bit, viene generato casualmente o da una frase segreta. Gioca un ruolo deterministico nella derivazione di tutte le altre chiavi. La chiave principale è la prima chiave derivata dal seed e consente la derivazione di tutte le altre coppie di chiavi figlie.
 
@@ -615,6 +634,7 @@ La derivazione rinforzata utilizza la chiave privata genitore, mentre la derivaz
 La derivazione gerarchica e la derivazione di molte coppie di chiavi in modo deterministico consentono la creazione di una struttura ad albero per la derivazione gerarchica. Nella prossima lezione di questo corso, studieremo la struttura del portafoglio HD e i percorsi di derivazione, con particolare attenzione alle notazioni dei percorsi di derivazione.
 
 ## Struttura del portafoglio e percorsi di derivazione
+<chapterId>27e2b44f-b256-5b89-909f-e2b49e29ac6a</chapterId>
 
 In questo capitolo, studieremo la struttura dell'albero di derivazione in un portafoglio deterministico gerarchico (HD Wallet). Abbiamo già esplorato il calcolo del seed, la chiave principale e la derivazione delle coppie di chiavi figlio. Ora, ci concentreremo sull'organizzazione delle chiavi all'interno del portafoglio.
 
@@ -646,8 +666,10 @@ Le chiavi estese, come XPUB, ti consentono di condividere il tuo portafoglio con
 Nel prossimo capitolo, studieremo gli indirizzi di ricezione, i loro vantaggi di utilizzo e i passaggi coinvolti nella loro costruzione.
 
 # Cos'è un indirizzo Bitcoin?
+<partId>784a12be-e7a7-571f-878d-b4165d3c2c38</partId>
 
 ## Indirizzi Bitcoin
+<chapterId>0d1e498d-080f-5fd1-8aa0-5c0448bf87cb</chapterId>
 
 In questo capitolo, esploreremo gli indirizzi di ricezione, che svolgono un ruolo cruciale nel sistema Bitcoin. Consentono di ricevere fondi in una transazione e vengono generati da coppie di chiavi private e pubbliche. Sebbene esista un tipo di script chiamato Pay2PublicKey che consente di bloccare i bitcoin su una chiave pubblica, gli utenti preferiscono generalmente utilizzare gli indirizzi di ricezione invece di questo script.
 
@@ -668,6 +690,7 @@ Gli indirizzi forniscono anche un secondo livello di sicurezza tra informazioni 
 Vengono utilizzati diversi prefissi per gli indirizzi Bitcoin. Ad esempio, BC1Q corrisponde a un indirizzo Segwit V0, BC1P a un indirizzo Taproot/Segwit V1 e i prefissi 1 e 3 sono associati agli indirizzi Pay2PublicKeyH/Pay2ScriptH (legacy). Nella prossima lezione, spiegheremo passo dopo passo come derivare un indirizzo da una chiave pubblica.
 
 ## Come creare un indirizzo Bitcoin?
+<chapterId>ccd706d1-3ab2-59ab-b7a7-8cae2859ebd7</chapterId>
 
 In questo capitolo, discuteremo della costruzione di un indirizzo di ricezione per le transazioni Bitcoin. Un indirizzo di ricezione è una rappresentazione alfanumerica di una chiave pubblica compressa. La conversione di una chiave pubblica in un indirizzo di ricezione comporta diversi passaggi.
 
@@ -732,8 +755,10 @@ In blu, la versione.
 Tutto viene convertito in Bech32, quindi viene aggiunto 'bc' per bitcoin e '1' come separatore, ed ecco l'indirizzo.
 
 # Approfondimenti
+<partId>01e4315e-f1c9-52bc-b412-81a937b9cd20</partId>
 
 ## Creazione di un seed da 128 lanci di dadi!
+<chapterId>6f4c3d3b-f77d-5b4d-b2cb-9155de9b3ce2</chapterId>
 
 Creare una frase mnemonica è un passaggio cruciale per proteggere il portafoglio della tua criptovaluta. Ci sono diversi metodi per generare una frase mnemonica, tuttavia, ci concentreremo sul metodo di generazione manuale utilizzando i dadi. È importante notare che questo metodo non è adatto per un portafoglio di alto valore. Si consiglia di utilizzare software open-source o un portafoglio hardware per generare la frase mnemonica. Per creare una frase mnemonica, utilizzeremo i dadi per generare informazioni binarie. L'obiettivo è comprendere il processo di creazione della frase mnemonica.
 
@@ -758,6 +783,7 @@ Testa immediatamente la tua frase mnemonica su Sparrow Wallet creando un portafo
 Generare una frase mnemonica è un processo importante per proteggere il tuo portafoglio di criptovalute. Si consiglia di utilizzare metodi più sicuri, come l'uso di software open source o un portafoglio hardware, per generare la frase mnemonica. Tuttavia, completando questo workshop si contribuisce a comprendere meglio come è possibile creare un portafoglio Bitcoin da un numero casuale.
 
 ## BONUS: Intervista con Théo Pantamis
+<chapterId>08353ad8-328b-583d-8773-d7382c1828dd</chapterId>
 
 Un altro metodo crittografico ampiamente utilizzato nel protocollo Bitcoin è il metodo delle firme digitali.
 
@@ -765,6 +791,7 @@ Un altro metodo crittografico ampiamente utilizzato nel protocollo Bitcoin è il
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 ## Conclusioni e fine
+<chapterId>1d608922-b401-5a42-ae28-bb62022da629</chapterId>
 
 ### Grazie e continua a scavare nella tana del coniglio
 

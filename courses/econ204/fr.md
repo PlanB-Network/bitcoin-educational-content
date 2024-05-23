@@ -17,8 +17,10 @@ Ici nous mettrons en lumière les tendances et les motifs communs dans les épis
 +++
 
 # Introduction
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Introduction
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 Ce programme vise à offrir une compréhension profonde de l’émergence des hyperinflations dans un monde dominé par la monnaie Fiat et d’examiner leurs conséquences considérables. Les participants exploreront en détail les cycles hyperinflationnistes, en analysant les causes, les déclencheurs et les exemples historiques et contemporains. Ils se pencheront également sur l'impact tangible des hyperinflations sur l'économie et la vie quotidienne, étudiant les répercussions sur la valeur de la monnaie, le pouvoir d'achat, et l'épargne individuelle et collective.
 
@@ -52,8 +54,10 @@ Section 4 - Comment en sommes nous arrivés là ?
 Bonne chance !
 
 # Qu’est-ce que l’inflation ?
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Un phénomène monétaire
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 ![video ](https://youtu.be/Hg8L_PIs008)
 
@@ -232,6 +236,7 @@ Cette analyse démontre que la confiance en la monnaie, et par extension sa vale
 En concluant, cette étude sur la dévaluation monétaire ouvre la porte à une compréhension approfondie des mécanismes d'inflation, qui seront explorés dans les vidéos suivantes. Nous discuterons des différents types d'inflation et du seuil où ils basculent vers une haute ou hyperinflation. Cette base solide nous permettra d'aborder les complexités de l'inflation dans les sessions à venir. Merci pour votre attention, et rendez-vous dans la prochaine vidéo pour poursuivre cette exploration des dynamiques monétaires.
 
 ## Les types d’inflation
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 ![ Video](https://youtu.be/hHk5oV8HsNQ)
 
@@ -426,8 +431,10 @@ Dans nos discussions futures, nous plongerons plus profondément dans l'hyperinf
 Merci pour votre attention la prochaine session sera entièrement dédiée à définir et à démystifier l'hyperinflation, en tenant compte des différentes perspectives académiques et pratiques. Nous nous réjouissons de poursuivre cette exploration avec vous lors de notre prochaine rencontre.
 
 # Qu’est-ce que l’hyperinflation ?
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Les définitions de l'hyperinflation
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 ![video provisoire 3.1 ](https://youtu.be/qYMR-i7TtHY)
 
@@ -512,6 +519,7 @@ Les définitions courantes d'hyperinflation, comme celle avancée par Kagan stip
 Il est à noter que certaines périodes historiques d'inflation élevée ne figurent pas dans les tableaux classiques d'hyperinflation, souvent en raison des critères stricts de classification. Par exemple, pendant la guerre d'indépendance des États-Unis en novembre 1779, et durant la guerre civile américaine en mars 1864, les taux d'inflation mensuels étaient respectivement de 47,4% et 40%. Ces taux, bien que élevés, ne dépassent pas le seuil de 50% stipulé par Kagan, excluant ainsi ces périodes des cas classés comme hyperinflation. Cette omission illustre les limites des définitions rigides et souligne la nécessité d'une approche plus nuancée pour appréhender l'hyperinflation dans toute sa complexité.
 
 ## Weimar vs Zimbabwe similitudes
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 ![Video](https://youtu.be/xqMESvFi7J8)
 
@@ -700,6 +708,7 @@ Zimbabwe : "Ces bons, nous les utilisions désormais pour payer les loyers aux p
 C'est ce qui complète cette vidéo au sujet des similitudes des expériences vécues durant les périodes d'hyperinflation du Zimbabwe et de la République de Weimar. Dans la prochaine vidéo, on va parler des différences et des parallèles contemporains. Merci.
 
 ## Weimar vs Zimbabwe différences et parallèle contemporains
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 ![Video](https://youtu.be/jh_MOKDPmQQ)
 
@@ -811,6 +820,7 @@ Imaginez un scénario où vous avez une famille ou des proches que vous souhaite
 Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le relais. Cependant, cette approche comporte ses propres risques. L'épargne a toujours été un remède contre l'incertitude. Avoir des réserves financières pour gérer des situations imprévues contribue à une sérénité d'esprit et renforce la cohésion sociale. En conclusion, la protection de notre pouvoir d'épargne est essentielle pour maintenir la stabilité sociale et individuelle.
 
 ## Les redénominations en Amérique Latine
+<chapterId>c39bdd74-3140-57c6-a784-b238b16879e3</chapterId>
 
 ![Vidoe](https://youtu.be/m2pcmbEzKyc)
 
@@ -924,6 +934,7 @@ En se basant sur le critère du 50% d'inflation par mois, plusieurs périodes au
 En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La haute inflation, à elle seule, peut être tout aussi dommageable. La prochaine section explorera les solutions possibles pour sortir de l'hyperinflation.
 
 ## Comment sortir de l’hyperinflation
+<chapterId>31db2b15-3aac-5765-878a-83727bb6df32</chapterId>
 
 ![video](https://youtu.be/9PYH7ut3fq0)
 
@@ -976,6 +987,7 @@ Pour ceux qui sont curieux de l'expérience allemande après la Première Guerre
 L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusieurs stratégies. On peut opter pour la dollarisation ou introduire une nouvelle monnaie. Ces solutions ne fonctionneront que si la population a confiance en elles. Il est crucial d'imposer des contraintes rigoureuses. Une banque centrale véritablement indépendante est essentielle. Elle ne doit pas gonfler la masse monétaire pour combler les déficits gouvernementaux. En cas d'inflation légère, limiter la croissance de la masse monétaire devrait suffire. Toutefois, lorsqu'on est confronté à une hyperinflation, il est primordial d'abord d'avoir une masse monétaire appropriée à la taille de l'économie en question. Ensuite, il est impératif d'imposer des contraintes strictes au gouvernement pour stabiliser la situation.
 
 ## Présentation de la collection de billets d’hyperinflation
+<chapterId>1515bcd5-1280-5b5b-a09b-b4d729deec19</chapterId>
 
 ![video](https://youtu.be/h1uwR3Yge1M)
 
@@ -984,6 +996,7 @@ Le lien vers la collection scannée est disponible dans le Bitcoin Educational T
 # Comment en sommes nous arrivés là ?
 
 ## L’émergence de la deuxième couche de la monnaie et des banques centrales
+<chapterId>05d7b315-d15e-53bf-aff2-8d3750ec5225</chapterId>
 
 ![video](https://youtu.be/cEon5lVtKZE)
 

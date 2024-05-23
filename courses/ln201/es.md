@@ -20,8 +20,10 @@ Bienvenido al emocionante mundo del Lightning Network, una segunda capa de Bitco
 +++
 
 # Los fundamentales
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Comprender el Lightning Network
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 ![video](https://youtu.be/zEpIS5uuTuo)
 
@@ -71,6 +73,7 @@ Ahora, Bob quiere enviar 80,000 SAT a Alice. Como no tiene la liquidez, no puede
 ![explication](assets/chapitre1/3.webp)
 
 ## Bitcoin, direcciones, UTXO y transacciones
+<chapterId>2d8a18cc-a293-5613-90d6-e7658211c6c4</chapterId>
 
 ![video](https://youtu.be/42gfEp0zXOg)
 
@@ -101,8 +104,10 @@ En Lightning Network, se utilizan multisig. Por lo tanto, se necesitan 2 firmas 
 ![explication](assets/chapitre2/1.webp)
 
 # Apertura y cierre de canales
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Apertura de canal
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 ![video](https://youtu.be/vV6G07X2GH4)
 
@@ -145,6 +150,7 @@ Por lo tanto, Alice puede recuperar los fondos sola, ya tiene la firma de Bob. L
 ![explication](assets/chapitre3/3.webp)
 
 ## Transacción Lightning y de compromiso
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 ![video](https://youtu.be/7vjBvkDRhZ0)
 
@@ -180,6 +186,7 @@ Alice (90,000 SAT) =============== Bob (40,000 SAT)
 El dinero nunca se mueve, pero el saldo final se actualiza a través de una transacción firmada pero no publicada on-chain. Por lo tanto, la transacción de retiro es una transacción de compromiso. Las transferencias de satoshis son otra transacción de compromiso más reciente que actualiza el saldo.
 
 ## Transacciones de compromiso
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 ![video](https://youtu.be/Lg1alt3MxDQ)
 
@@ -208,6 +215,7 @@ De la misma manera, Bob proporcionará su secreto a Alice para que si intenta ha
 La persona que crea la transacción con el Timelock (quien envía el dinero) solo puede usar la clave de revocación después del Timelock. Sin embargo, la persona que recibe el dinero puede usarlo antes del Timelock en caso de trampa de un lado a otro de un canal en la Red Lightning. En particular, detallamos los mecanismos que permiten protegerse contra una posible trampa por parte de su par dentro del canal.
 
 ## Cierre del canal
+<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
 
 ![video](https://youtu.be/TgimOZN5rGs)
 
@@ -247,8 +255,10 @@ Alice intenta hacer trampa publicando una transacción de compromiso antigua. Pe
 En conclusión, el cierre del canal en Lightning Network es un paso crucial que puede tomar diversas formas. En un cierre cooperativo, ambas partes se comunican y acuerdan un estado final del canal. Es la opción más rápida y menos costosa. Por otro lado, un cierre forzado ocurre cuando una de las partes no responde. Es una situación más costosa y más larga debido a las tarifas de transacción impredecibles y la activación del Timelock. Finalmente, si un participante intenta hacer trampa publicando una transacción de compromiso antigua, el tramposo, puede ser castigado perdiendo todos los SAT del canal. Por lo tanto, es crucial comprender estos mecanismos para una utilización eficaz y justa de Lightning Network.
 
 # Una red de liquidez
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Lightning Network
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 ![video](https://youtu.be/7sVE0N206B4)
 
@@ -330,6 +340,7 @@ En el LN, es el nodo de Alice el que decide la ruta antes del envío. Por lo tan
 Para Susie o Eden: no saben quién es el destinatario final ni quién envía. Esto es un enrutamiento en cebolla. El nodo debe mantener un plan de la red para encontrar su ruta, pero ninguno de los intermediarios tiene información.
 
 ## HTLC - Contrato de tiempo bloqueado y hash
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 ![video](https://youtu.be/k4z2LvAnqoo)
 
@@ -385,6 +396,7 @@ Al cerrar el canal, si es una clausura cooperativa, los pagos se interrumpen y l
 En resumen, el mecanismo HTLC agrega una capa adicional de seguridad en Lightning Network, asegurando que los pagos se ejecuten correctamente y que los usuarios cumplan con sus compromisos.
 
 ## Encontrar tu camino
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 ![video](https://youtu.be/wyWv37M3NzA)
 
@@ -451,8 +463,10 @@ En conclusión, el enrutamiento de transacciones en la Red Lightning es un proce
 Además, para facilitar la búsqueda de ruta, el destinatario puede proporcionar información adicional, como la dirección, la cantidad, el hash de la preimagen y las indicaciones sobre sus canales. Esto puede ayudar a identificar los canales con suficiente liquidez y evitar intentos de transacciones innecesarias. En última instancia, el sistema de enrutamiento de la Red Lightning está diseñado para optimizar la velocidad, la seguridad y la eficiencia de las transacciones, al tiempo que se preserva la privacidad de los usuarios.
 
 # Herramientas de la Lightning Network
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 
 ## Factura, LNURL, Keysend
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 ![video](https://youtu.be/OrKbBjAow94)
 
@@ -503,6 +517,7 @@ Un Keysend permite a Alice enviar dinero a Bob sin tener la solicitud de Bob. Al
 En conclusión, una factura de Lightning Network, aunque compleja a primera vista, codifica de manera efectiva una solicitud de pago. Cada sección de la factura contiene información clave, incluyendo la cantidad a pagar, el destinatario, el timestamp de creación y potencialmente otra información como el hash de la preimagen, el secreto de pago, las indicaciones de enrutamiento y la duración de vencimiento. Los protocolos como LNURL y Keysend ofrecen mejoras significativas en términos de flexibilidad y experiencia de usuario, permitiendo, por ejemplo, enviar fondos sin una solicitud previa de la otra parte. Estas tecnologías hacen que el proceso de pago sea más fluido y eficiente en la Lightning Network.
 
 ## Gestionar la liquidez
+<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
 
 ![video](https://youtu.be/tSflqK9QWI4)
 
@@ -546,8 +561,10 @@ Lo más complicado en LN es mantener la liquidez.
 En conclusión, la gestión de la liquidez en la red Lightning Network es un desafío clave que depende del tipo de usuario: comprador, comerciante o nodo de enrutamiento. Los compradores, que necesitan liquidez saliente, tienen la tarea más sencilla: simplemente abren canales. Los comerciantes, que necesitan liquidez entrante, deben estar conectados a otros nodos y actores. Los nodos de enrutamiento, por su parte, buscan mantener un equilibrio de liquidez en ambos lados. Existen varias soluciones para gestionar la liquidez, como la compra de canales o el pago para aumentar la capacidad de recepción. La opción "Loop Out", que permite un Atomic Swap entre LN y BTC, ofrece una solución interesante para reequilibrar la liquidez. A pesar de estas estrategias, mantener la liquidez en la red Lightning Network sigue siendo un desafío complejo.
 
 # Vamos mas alla
+<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
 
 ## Resumen de la formación
+<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
 
 ![video](https://youtu.be/yC5UOCjcAr0)
 
@@ -576,6 +593,7 @@ Hay una componente de probabilidad cuando se envía un pago a través de Lightni
 Para recibir pagos, es necesario gestionar la liquidez en los canales, lo que se puede hacer pidiendo a otras personas que abran canales hacia nosotros, abriendo canales nosotros mismos y utilizando herramientas como Loop o comprando/alquilando canales en marketplaces.
 
 ## Entrevista con Fanis
+<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
 
 Aquí hay un resumen de la entrevista:
 
@@ -602,6 +620,7 @@ Para los comerciantes, es necesario gestionar la liquidez para aceptar pagos en 
 Por último, el futuro de Bitcoin es prometedor con una posible proyección de un millón en cinco años. Para asegurar la profesionalización de la industria y la creación de un sistema alternativo al sistema bancario existente, es importante contribuir a la red y dejar de confiar.
 
 ## Agradecimientos y sigue excavando la madriguera del conejo
+<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
 
 ¡Felicidades! 🎉
 ¡Has completado el curso LN 201 - Introducción a Lightning Network!

@@ -20,8 +20,10 @@ Bonne découverte !
 +++
 
 # Les fondamentaux
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Comprendre le Lightning Network
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 ![Comprendre le lightning Network](https://youtu.be/PszWk046x-I)
 
@@ -73,6 +75,7 @@ Désormais, Bob souhaite envoyer 80 000 SAT à Alice. N’ayant pas la liquidit�
 ![explication](assets/chapitre1/3.webp)
 
 ## Bitcoin, adresses, UTXO et transactions
+<chapterId>2d8a18cc-a293-5613-90d6-e7658211c6c4</chapterId>
 
 ![bitcoin, adresses, utxo et transactions](https://youtu.be/cadCJ2V7zTg)
 
@@ -104,8 +107,10 @@ Dans Lightning Network, on utilise des multi-signatures. Il faut donc 2 signatur
 ![explication](assets/chapitre2/1.webp)
 
 # Ouverture et fermeture des canaux
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Ouverture de canal
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 ![ouvrir un canal](https://youtu.be/B2caBC0Rxko)
 
@@ -151,6 +156,7 @@ Alice peut donc récupérer les fonds seule, elle a déjà la signature de Bob. 
 ![explication](assets/chapitre3/3.webp)
 
 ## Transaction Lightning & d’engagement
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 ![trasanction lightning & transaction d'engagement](https://youtu.be/aPqI34tpypM)
 
@@ -187,6 +193,7 @@ Alice (90,000 SAT) =============== Bob (40,000 SAT)
 L’argent ne bouge donc jamais mais la balance finale s’actualise via une transaction signée mais non publiée on-chain. La transaction de retrait est donc une transaction d’engagement. Les transferts de satoshis sont une autre transaction d’engagement plus récente qui actualise la balance.
 
 ## Transactions d'engagement
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 ![transactions partie 2](https://youtu.be/RRvoVTLRJ84)
 
@@ -214,6 +221,7 @@ De la même façon, Bob va fournir son secret à Alice. Pour que s’il essaie d
 La personne qui crée la transaction avec le Timelock (celui qui envoie l’argent) peut utiliser la clé de révocation uniquement après le Timelock. Cependant la personne qui reçoit l’argent, peut l’utiliser avant le Timelock en cas de triche d‘un côté à l’autre d’un canal sur le Lightning Network. En particulier, nous passons en détail les mécanismes qui permettent de se prémunir d’une éventuelle tricherie de la part de son pair au sein du canal.
 
 ## Fermeture de canal
+<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
 
 ![fermer un canal](https://youtu.be/FVmQvNpVW8Y)
 
@@ -252,8 +260,10 @@ Alice essaie de tricher en publiant une ancienne transaction d‘engagement. Mai
 Pour conclure, la fermeture de canal dans le Lightning Network est une étape cruciale qui peut prendre diverses formes. Dans une fermeture coopérative, les deux parties communiquent et s'accordent sur un état final du canal. C'est l'option la plus rapide et la moins coûteuse. En revanche, une fermeture forcée survient lorsque l'une des parties est non responsive. C'est une situation plus coûteuse et plus longue en raison des frais de transaction imprévisibles et de l'activation du Timelock. Enfin, si un participant tente de tricher en publiant une ancienne transaction d'engagement, le truand, il peut être puni en perdant tous les SAT du canal. Il est donc crucial de comprendre ces mécanismes pour une utilisation efficace et équitable du Lightning Network.
 
 # Un réseau de liquidité
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Lightning le Réseau
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 ![lightning le réseau](https://youtu.be/RAZAa3v41DM)
 
@@ -336,6 +346,7 @@ Dans le LN, c’est donc le nœud d’Alice qui va décider de la route avant l�
 Pour Susie ou Eden : ils ne savent pas qui est le destinataire final, ni celui qui envoie. Ceci est un routage en oignon. Le nœud doit donc garder un plan du réseau pour trouver sa route, mais aucun des intermédiaires n’a d’information.
 
 ## HTLC – Hashed Time Locked Contract
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 ![HTLC](https://youtu.be/-JC4mkq7H48)
 
@@ -391,6 +402,7 @@ Dans le cas où Bob ne révèle pas le secret dans un certain laps de temps, le 
 Lors de la clôture du canal, si c'est une clôture coopérative, les paiements sont interrompus et les HTLCs sont résolus, ce qui est généralement moins coûteux. Si la clôture est forcée, toutes les transactions HTLC en cours sont publiées, ce qui peut devenir très coûteux et désordonné.En somme, le mécanisme des HTLC ajoute une couche de sécurité supplémentaire dans le Lightning Network, assurant que les paiements sont exécutés correctement et que les utilisateurs respectent leurs engagements.
 
 ## Trouver sa voie
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 ![trouver sa voie](https://youtu.be/wnUGJjOxd9Q)
 
@@ -460,7 +472,9 @@ Par ailleurs, pour faciliter la recherche de route, le destinataire peut fournir
 En fin de compte, le système de routage du Lightning Network est conçu pour optimiser la vitesse, la sécurité et l'efficacité des transactions, tout en préservant la confidentialité des utilisateurs.
 
 # Outils du lightning Network
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 ## Invoice, LNURL, Keysend
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 ![invoice, LNURL, Keysend](https://youtu.be/CHnXJuZTarU)
 
@@ -513,6 +527,7 @@ Un Keysend permet à Alice d’envoyer de l’argent à Bob sans avoir la demand
 En conclusion, une facture Lightning Network, bien que complexe à première vue, encode de manière efficace une demande de paiement. Chaque section de l'invoice renferme des informations clés, incluant le montant à payer, le destinataire, le timestamp de création, et potentiellement d'autres informations comme le hash de la préimage, le secret de paiement, les indications de routage, et la durée d'expiration. Les protocoles tels que LNURL et Keysend offrent des améliorations significatives en termes de flexibilité et d'expérience utilisateur, permettant par exemple d'envoyer des fonds sans demande préalable de l'autre partie. Ces technologies rendent le processus de paiement plus fluide et plus efficace sur le Lightning Network.
 
 ## Gérer sa liquidité
+<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
 
 ![gerer sa liquidité](https://youtu.be/YuPrbhEJXbg)
 
@@ -556,8 +571,10 @@ Le plus compliqué dans LN est de garder la liquidité.
 En conclusion, la gestion de la liquidité sur le réseau Lightning Network est un enjeu clé, qui dépend du type d'utilisateur : acheteur, commerçant ou nœud de routage. Les acheteurs, ayant besoin de liquidité sortante, ont la tâche la plus simple : ils ouvrent simplement des canaux. Les commerçants, nécessitant une liquidité entrante, doivent être connectés à d'autres nœuds et acteurs. Les nœuds de routage, quant à eux, cherchent à maintenir un équilibre de liquidité des deux côtés. Plusieurs solutions existent pour gérer la liquidité, comme l'achat de canaux ou le paiement pour augmenter la capacité de réception. L'option "Loop Out", permettant un Atomic Swap entre LN et BTC, offre une solution intéressante pour rééquilibrer la liquidité. Malgré ces stratégies, maintenir la liquidité sur le réseau Lightning Network reste un défi complexe.
 
 # Allez plus loin
+<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
 
 ## Résumé de la formation
+<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
 
 ![conclusion](https://youtu.be/MaWpD0rbkVo)
 
@@ -591,6 +608,7 @@ Pour recevoir des paiements, il faut gérer la liquidité dans les canaux, ce qu
 
 
 ## Interview de Fanis
+<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
 
 ![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
 
@@ -621,6 +639,7 @@ Pour les marchands, il est nécessaire de gérer la liquidité pour accepter les
 Enfin, le futur de Bitcoin est prometteur avec une projection possible d'un million en cinq ans. Pour assurer la professionnalisation de l'industrie et la création d'un système alternatif à celui du système bancaire existant, il est important de contribuer au réseau et d'arrêter de faire confiance.
 
 ## Remerciements et continuez à creuser le terrier du lapin
+<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
 
 Félicitations ! 🎉
 

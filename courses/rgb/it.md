@@ -18,8 +18,10 @@ Buon divertimento e buona fortuna con uno degli argomenti più avanzati di Bitco
 +++
 
 # Introduzione al corso RGB
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Presentazione del corso
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 Ciao a tutti e benvenuti a questi corsi su RGB.
 
@@ -42,57 +44,73 @@ Un grande ringraziamento alla persona che ha organizzato questi corsi dal vivo e
 Buona fortuna con i tuoi studi e se hai bisogno di contattare il nostro team o gli insegnanti, utilizza il canale appropriato. Questi corsi verranno presto aggiornati con una sezione di testo per ogni capitolo, esami e immagini. Resta sintonizzato.
 
 # RGB in teoria
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Comprendere RGB
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 ![video](https://youtu.be/AF2XbifPGXM)
 
 ## Convalida lato client
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 ![video](https://youtu.be/FS6PDprWl5Q)
 
 ## Spiegazione dello stato di RGB
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 ![video](https://youtu.be/tmAVdyXGmj4)
 
 ## Logica aziendale di RGB
+<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
 
 ![video](https://youtu.be/lUTjeuM0oTA)
 
 # Programmazione su RGB
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Fondamenti della programmazione RGB
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 ![video](https://youtu.be/Uo1UoxiImsI)
 
 ## Programmazione RGB - Parte 2
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 ![video](https://youtu.be/sVoKIi-1XbY)
 
 ## Scrittura di smart contract
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 ![video](https://youtu.be/GRwS-NvWF3I)
 
 ## Argomenti avanzati su RGB e discussioni future
+<chapterId>c39bdd74-3140-57c6-a784-b238b16879e3</chapterId>
 
 ![video](https://youtu.be/mqCupTlDbA0)
 
 # Costruire su RGB
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 
 ## Bitmask
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 ![video](https://youtu.be/nbUtV8GOR_U)
 
 ## Nodo RGB parte 1
+<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
 
 ![video](https://youtu.be/5iAhsgCSL3U)
 
 ## Nodo RGB parte 2
+<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
 ![video](https://youtu.be/piQQH4Q2nr0)
 
 # Conclusioni
+<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
 
 ## Parola finale
+<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
 Grazie per aver partecipato ai corsi RGB offerti da PlanB Network in collaborazione con Fulgur'Ventures. Estendiamo la nostra gratitudine ai nostri insegnanti per il loro supporto. Se sei interessato a continuare il tuo lavoro con RGB, ecco una lista utile di risorse da esplorare:
 
 - https://rgb.tech/

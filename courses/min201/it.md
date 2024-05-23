@@ -21,8 +21,10 @@ Se avete bisogno di aiuto per il vostro progetto, è stato creato un gruppo Tele
 +++
 
 # Introduzione
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Benvenuti!
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 Benvenuti in MINING 201: un'introduzione al mining. Ajelex, Jim & Rogzy sono felici di accompagnarvi nei vostri primi passi concreti in questa nuova industria. Speriamo che il corso vi piaccia e che vi uniate all'avventura del mining casalingo!
 
@@ -55,8 +57,10 @@ Sezione Pratica: Attakai
 Pronti per iniziare questa avventura affascinante? Tuffiamoci insieme nel mondo affascinante del mining casalingo!
 
 # Conoscere tutto sul mining
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Spiegazione del mining
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 ### Il Mining Spiegato: L'Analogia del Puzzle
 
@@ -102,6 +106,7 @@ Di fronte all'evoluzione tecnologica costante nel campo del mining, i profession
 In conclusione, l'industria del mining di Bitcoin continua ad adattarsi e svilupparsi, e gli attori del settore devono anticipare guadagni di efficienza sempre più limitati in futuro e adeguare di conseguenza le loro strategie. Gli sviluppi tecnologici futuri, sebbene ancora presenti, probabilmente avverranno su una scala più ridotta, riflettendo una crescente maturità del settore.
 
 ## L'industria del mining
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 ### I pool di mining
 
@@ -150,6 +155,7 @@ Per contrastare questa centralizzazione, vengono affrontate diverse strategie:
 La conclusione generale è che la decentralizzazione è fondamentale per la sicurezza e la resilienza della rete Bitcoin. Sebbene la centralizzazione possa offrire vantaggi in termini di efficienza, espone la rete a significativi rischi, tra cui la censura e gli attacchi del 51%. Iniziative come Takai e l'adozione di nuovi protocolli come Stratum V2 sono passi importanti verso la decentralizzazione e la protezione della rete Bitcoin da queste minacce.
 
 ## Le sfumature dell'industria del mining
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 Nel contesto attuale, la pratica del mining di Bitcoin con S9 può sembrare complessa, ma un'analisi più approfondita apre la strada a alternative innovative. Il principio di Attakai si basa su una riflessione sull'uso delle strutture di mining in diversi tipi di edifici, come scuole o ospedali. L'idea principale è quella di posizionare alcune macchine di mining in vari luoghi, consentendo così di riutilizzare il calore emesso da queste macchine per riscaldare gli edifici. Optando per modelli più performanti come gli S19, sarebbe possibile distribuire l'attività di mining, favorendo una migliore performance complessiva e contribuendo utilmente alla società. Questa iniziativa mirerebbe a competere con le grandi strutture di mining centralizzate utilizzando il calore generato dalle macchine di mining in modo produttivo ed efficiente.
 
@@ -186,6 +192,7 @@ Con la prevista crescita del Lightning Network e l'aumento conseguente delle ape
 La speculazione circonda l'uso futuro dello spazio dei blocchi, ma è generalmente accettato che sia una risorsa rara che dovrebbe essere utilizzata saggiamente. Anche se c'è il desiderio di riempirlo, è essenziale preservarlo per garantire la sostenibilità a lungo termine della rete Bitcoin, in previsione di un futuro aumento della domanda di spazio nei blocchi. Come in ogni mercato libero, l'offerta e la domanda regoleranno l'uso dello spazio dei blocchi. Con un'offerta limitata, le parti interessate dovranno fare scelte informate sull'uso di questo prezioso spazio per garantire l'efficienza e la sicurezza a lungo termine della rete Bitcoin.
 
 ## Il mining nel protocollo Bitcoin
+<chapterId>bc0933f0-8e8c-5fc6-8bd8-86a31925ea2e</chapterId>
 
 
 Il ruolo dei minatori nella rete Bitcoin è stato oggetto di intenso dibattito durante la guerra dei blocchi. Sebbene siano essenziali per la sicurezza e la funzionalità della rete, i minatori non detengono necessariamente il potere ultimo nell'ecosistema Bitcoin. L'equilibrio tra i minatori, i nodi e gli utenti finali garantisce l'integrità e la distribuzione della rete.
@@ -259,6 +266,7 @@ In conclusione, nonostante il rischio normativo e la possibilità di un divieto 
 # Home-mining e riutilizzo del calore
 
 ## Attakai - il home-mining reso possibile e accessibile!
+<chapterId>4410c144-dc14-52a1-bb99-6e0e01a44103</chapterId>
 
 Attakai, che significa "la temperatura ideale" in giapponese, è il nome dell'iniziativa volta a scoprire il mining di bitcoin attraverso il riutilizzo del calore, lanciata da @ajelexBTC e @jimzap21 con Découvre Bitcoin.
 
@@ -309,6 +317,7 @@ All'uscita dalla fabbrica, un minatore non è adatto per essere utilizzato come 
 
 
 ## Guida all'acquisto di un ASIC usato
+<chapterId>690f58c5-973c-5aa9-b255-93dfe5ba10af</chapterId>
 
 In questa sezione vedremo le buone pratiche per l'acquisto di un Bitmain Antminer S9 usato, la macchina su cui si basa questo tutorial di retrofitting in radiatore. Questa guida funziona anche per altri modelli di ASIC in quanto si tratta di una guida generale per l'acquisto di hardware per il mining usato.
 L'Antminer S9 è un dispositivo offerto da Bitmain dal maggio 2016. Consuma 1400W di elettricità e produce 13,5 TH/s. Nonostante sia considerato vecchio, rimane un'ottima opzione per iniziare il mining. Dato che è stato prodotto in grande quantità, è facile trovare pezzi di ricambio in abbondanza in molte regioni del mondo. Di solito è possibile acquistarlo direttamente da privati su siti come Ebay o LeBonCoin, poiché i rivenditori per professionisti non lo offrono più a causa della sua minore competitività rispetto a macchine più recenti. È meno efficiente rispetto ad ASIC come l'Antminer S19, offerto dal marzo 2020, ma questo lo rende un hardware usato conveniente e più adatto alle modifiche che effettueremo.
@@ -408,8 +417,10 @@ Elenco del materiale e link
 * [Presa intelligente opzionale ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - modifica del software di un Antminer S9
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Configurazione di un bridge WIFI/Ethernet Vonet
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 Per collegare il tuo ASIC tramite WIFI, avrai bisogno di un dispositivo chiamato bridge, che consente di ricevere il segnale WIFI dal tuo router e trasmetterlo a un altro dispositivo tramite Ethernet.
 
@@ -449,6 +460,7 @@ Potrebbe essere necessario scollegare/ricollegare il bridge se non si connette a
 Una volta che il bridge è connesso, collega il cavo Ethernet del bridge al tuo ASIC e collega l'ASIC all'alimentazione. Potrai quindi accedere all'interfaccia dell'ASIC allo stesso modo in cui lo faresti se fosse collegato direttamente via Ethernet al tuo router.
 
 ## Ripristinare un Antminer S9
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 Prima di installare BraiinOS+, potrebbe essere necessario ripristinare il tuo S9 alle impostazioni di fabbrica.
 Questa procedura può essere applicata tra 2 e 10 minuti dopo l'avvio del minatore.
@@ -458,6 +470,7 @@ Questa procedura può essere applicata tra 2 e 10 minuti dopo l'avvio del minato
 ![immagine](assets/software/1.webp)
 
 ## Installare BraiinsOS+ su un Antminer S9
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 Il software originale installato da Antminer sulle loro macchine da mining è limitato in termini di funzionalità. Per questo motivo, in questa guida installeremo un altro software chiamato BraiinsOS+. Si tratta di un software di terze parti sviluppato dal primo pool di mining di Bitcoin che offre più funzionalità e consente, ad esempio, di modificare la potenza della macchina.
 
@@ -531,8 +544,10 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 ![image](assets/software/18.webp)
 
 # Attakai - Modifica delle ventole
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 
 ## Sostituire la ventola dell'alimentatore
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 > ATTENZIONE: È essenziale aver installato in precedenza Braiins OS+ sul tuo minatore, o qualsiasi altro software in grado di ridurre le prestazioni della tua macchina. Questa misura è cruciale perché, al fine di ridurre il rumore, installeremo ventole meno potenti che saranno in grado di dissipare meno calore.
 
@@ -603,6 +618,7 @@ Una volta effettuati i collegamenti, rimetti la plastica del coperchio sopra la 
 Infine, rimetti il coperchio del case al suo posto e riavvita le 6 viti sui lati per mantenere tutto in posizione. Ecco fatto, il tuo case di alimentazione è ora dotato di un nuovo ventilatore.
 
 ## Sostituire i Ventilatori Principali
+<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
 
 > ATTENZIONE: È essenziale aver precedentemente installato Braiins OS+ sul tuo minatore, o qualsiasi altro software in grado di ridurre le prestazioni della tua macchina. Questa misura è cruciale perché, al fine di ridurre il rumore, installeremo ventilatori meno potenti, che saranno in grado di dissipare meno calore.
 
@@ -655,6 +671,7 @@ Ecco fatto, bravo! Hai appena sostituito l'intera parte meccanica del tuo minato
 # Attakai - Configurazione
 
 ## Unisciti a un pool di mining
+<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
 
 Se desiderate creare un sistema di riscaldamento utilizzando una pool di mining, è importante scegliere quella che meglio si adatta alle vostre esigenze. Una pool di mining è un gruppo di minatori che uniscono la loro potenza di calcolo per aumentare le loro possibilità di trovare un blocco e ricevere una ricompensa. Unendovi a una pool, condividete le spese e le ricompense con gli altri minatori in base al vostro contributo al hashrate della pool.
 
@@ -687,6 +704,7 @@ Ora puoi tornare all'interfaccia di Braiins OS+ per inserire queste credenziali.
 ![image](assets/software/21.webp)
 
 ## Ottimizzare le prestazioni del proprio Antminer S9
+<chapterId>2574ea14-a95a-5d59-b95b-bb0e704d3333</chapterId>
 
 L'overclocking e l'autotuning consistono entrambi nell'aggiustare le frequenze delle schede di hashing per migliorare le prestazioni dell'ASIC. La differenza tra i due risiede nella complessità di questi settaggi di frequenza.
 

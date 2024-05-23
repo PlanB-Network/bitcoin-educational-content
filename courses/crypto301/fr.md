@@ -17,8 +17,10 @@ Cette formation vous dotera non seulement des connaissances pour comprendre la s
 +++
 
 # Introduction
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Introduction à la cryptographie
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 ### Est-ce que cette formation est pour vous ? OUI !
 
@@ -49,8 +51,10 @@ Pour couronner le tout, nous terminerons notre parcours en examinant les adresse
 Embarquez avec moi pour ce voyage captivant, et préparez-vous à explorer l'univers de la cryptographie comme jamais auparavant. Laissez vos préconceptions à la porte et ouvrez votre esprit à une nouvelle manière de comprendre Bitcoin et sa structure fondamentale.
 
 # Les fonctions de hachage
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## Introduction aux fonctions de hachage cryptographique relative à Bitcoin
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 ![2.1 - les fonctions de hachage cryptographiques](https://youtu.be/dvnGArYvVr8)
 
@@ -95,6 +99,7 @@ Pour résumer, l'objectif ultime d'une fonction de hachage cryptographique est d
 Au terme de cette exploration, nous avons démystifié les fonctions de hachage cryptographiques, mis en évidence leurs utilisations dans le protocole Bitcoin, et décortiqué leurs objectifs spécifiques. Nous avons appris que pour être considérées comme sûres, les fonctions de hachage doivent être résistantes à la préimage, à la seconde préimage, aux collisions et à la falsification. Nous avons également parcouru l'éventail des différentes fonctions de hachage utilisées dans le protocole Bitcoin. Dans notre prochaine session, nous plongerons dans le coeur de la fonction de hachage SHA256, et découvrirons les mathématiques fascinantes qui lui confèrent ses caractéristiques uniques.
 
 ## Les rouages de SHA256
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 ![Les rourages de SHA256](https://youtu.be/74SWg_ZbUj4)
 
@@ -241,6 +246,7 @@ L'output du dernier tour, du dernier morceau correspond au résultat final de la
 Pour conclure, nous voudrions souligner le rôle crucial des calculs effectués dans les boîtes CH, MAJ, σ0 et σ1. Ces opérations, parmi d'autres, sont les gardiens qui assurent la robustesse de la fonction de hachage SHA256 face aux attaques, faisant de celle-ci un choix privilégié pour la sécurisation de nombreux systèmes numériques, notamment au sein du protocole Bitcoin. Il est donc évident que bien que complexe, la beauté de SHA256 réside dans sa robustesse à retrouver l'entrée à partir du hash, alors que la vérification du hash pour une entrée donnée est une action mécaniquement simple.
 
 ## Les algorithmes utilisés pour la dérivation
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 ![Les algorithmes utilisés pour la dérivation](https://youtu.be/ZF1_BMsOJXc)
 
@@ -283,8 +289,10 @@ Une attaque par extension de longueur exploite une propriété spécifique de ce
 En conclusion, les algorithmes HMAC et PBKDF2 jouent des rôles essentiels dans la sécurité de la dérivation des portefeuilles HD dans le protocole Bitcoin. L'HMAC-SHA-512 est utilisé pour se prémunir contre les attaques par extension de longueur, tandis que PBKDF2 permet la conversion de la phrase mémonique en graine. Le code de chaîne ajoute une source d'entropie supplémentaire dans la dérivation des clés, assurant ainsi la robustesse du système.
 
 # Les signatures numériques
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## Signatures numériques et courbes elliptiques
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 ![Signatures numériques et courbes elliptiques](https://youtu.be/gOjYiPkx4z8)
 
@@ -337,6 +345,7 @@ L'équation de la courbe elliptique sur bitcoin correspond à la dernière équa
 Dans la prochaine section de ce cours, nous utiliserons des courbes qui sont sur le corps des réels simplement pour faciliter la compréhension.
 
 ## Calculer la clé publique à partir de la clé privée
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 ![Calculer la clé publique depuis la clé privée](https://youtu.be/NJENwFU889Y)
 
@@ -411,6 +420,7 @@ Connaissant la clé privée k, il est facile de calculer la clé publique K. Imp
 Dans notre prochain cours, nous explorerons comment une signature numérique est réalisée en utilisant l'algorithme ECDSA avec une clé privée pour dépenser des bitcoins. 
 
 ## Signer avec la clé privée
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 ![Signer avec la clé privée](https://youtu.be/h2hIyGgPqkM)
 
@@ -501,8 +511,10 @@ Cela dit, la gestion de ces clés, ainsi que leur création, est une autre quest
 Pour répondre à ces questions et approfondir votre compréhension de la sécurité de la cryptographie, notre prochain cours se concentrera sur le concept de Portefeuille Déterministe Hiérarchique (HD wallets) et l'utilisation des phrases mnémoniques. Ces mécanismes offrent des moyens élégants de gérer efficacement vos clés de cryptomonnaie tout en renforçant la sécurité.
 
 # La phrase mnémonique
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 
 ## Évolution des portefeuilles Bitcoin
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 ![Évolution des portefeuilles Bitcoin](https://youtu.be/6tmu1R9cXyk)
 
@@ -528,6 +540,7 @@ En guise de synthèse, il est essentiel de souligner le rôle central des BIP32 
 
 
 ## Entropie et nombre aléatoire
+<chapterId>1c92568c-a899-597f-85f7-c903d2f7245d</chapterId>
 
 ![Entropie et nombre aléatoire](https://youtu.be/k18yH18w2TE)
 
@@ -564,6 +577,7 @@ Un exemple de fonction de transformation est le fonction PBKDF2.
 Dans le cas du Bitcoin, les clés privées sont générées à partir d'une seule information à la base du portefeuille. Cette information permet une dérivation déterministe et hiérarchique des paires de clés enfant. L'entropie est le socle de tout portefeuille HD, bien qu'il n'existe pas de standard pour la génération de ce nombre aléatoire. Par conséquent, la génération de nombres aléatoires est un enjeu majeur pour sécuriser les transactions Bitcoin.
 
 ## La phrase mnémonique
+<chapterId>7d9ef9ef-da53-50c5-89af-ef2c18a4622b</chapterId>
 
 ![La phrase mnémonique](https://youtu.be/uJERqH9Xp7I)
 
@@ -598,6 +612,7 @@ Il est essentiel de sauvegarder la phrase de récupération de 24 mots pour pré
 En conclusion, la génération d'une phrase mémonique pour sécuriser un portefeuille Bitcoin est un processus crucial. Il est important de respecter les standards de la phrase mémonique en fonction de la taille de l'entropie. La sauvegarde de la phrase de récupération de 24 mots est essentielle pour prévenir toute perte de fonds. 
 
 ## La passphrase
+<chapterId>2574ea14-a95a-5d59-b95b-bb0e704d3333</chapterId>
 
 ![La passphrase](https://youtu.be/dZkOYO7MXwc)
 
@@ -622,8 +637,10 @@ Il est crucial de prendre soin des sauvegardes de la passphrase pour éviter de 
 Dans notre prochain cours, nous examinerons en détail le fonctionnement de la graine et la première paire de clés générée à partir de celle-ci. N'hésitez pas à suivre ce cours pour continuer votre apprentissage. Nous avons hâte de vous retrouver très bientôt.
 
 # Création des portefeuilles Bitcoin
+<partId>60a0d096-0430-5ccc-b0e4-caddc9ae4884</partId>
 
 ## Création de la graine et de la clé maîtresse
+<chapterId>987618e2-ee4b-5a59-918e-aefab568d334</chapterId>
 
 ![Création de la graine et de la clé maîtresse](https://youtu.be/56yAt_JDWhY)
 
@@ -652,6 +669,7 @@ Il est important de souligner que la clé privée maîtresse est la première cl
 Dans le prochain cours, nous explorerons en détail les clés étendues, telles que les xPub, xPRV, zPub, et nous comprendrons pourquoi elles sont utilisées et comment elles sont construites.
 
 ## Les clés étendues
+<chapterId>13e0779f-1cfc-50f2-9243-5fcb4932a9b9</chapterId>
 
 ![Les clés étendues](https://youtu.be/TRz760E_zUY)
 
@@ -692,6 +710,7 @@ Les dérivations renforcées commencent à partir des indexes qui sont des puiss
 Dans notre prochain cours, nous nous pencherons sur la dérivation des paires de clés enfants en utilisant les connaissances acquises sur les clés étendues et la clé maîtresse du portefeuille.
 
 ## Dérivation des paires de clés enfants
+<chapterId>177c0b30-bc23-5305-bd33-4d834f83679d</chapterId>
 
 ![Dérivation des paires de clés enfants](https://youtu.be/FXhI-GmE9Aw)
 
@@ -726,6 +745,7 @@ La dérivation renforcée utilise la clé privée parent, tandis que la dérivat
 La hiérarchisation et la dérivation de nombreuses paires de clés de manière déterministe permettent de créer un schéma en arbre pour la dérivation hiérarchique. Dans le prochain cours de cette formation, nous étudierons la structure du portefeuille HD ainsi que les chemins de dérivation, en mettant notamment l'accent sur les notations des chemins de dérivation.
 
 ## Structure du portefeuille et chemins de dérivation
+<chapterId>27e2b44f-b256-5b89-909f-e2b49e29ac6a</chapterId>
 
 ![Structure du portefeuille et chemins de dérivation](https://youtu.be/etO9UxwyE2I)
 
@@ -760,8 +780,10 @@ Les clés étendues, telles que XPUB, permettent de partager votre portefeuille 
 Dans le prochain chapitre, nous allons étudier les adresses de réception, leurs avantages d'utilisation et les étapes de leur construction.
 
 # Qu'est-ce qu'une adresse Bitcoin ?
+<partId>784a12be-e7a7-571f-878d-b4165d3c2c38</partId>
 
 ## Les adresses Bitcoin
+<chapterId>0d1e498d-080f-5fd1-8aa0-5c0448bf87cb</chapterId>
 
 ![Les adresses Bitcoin](https://youtu.be/nqGBMjPtFNI)
 
@@ -784,6 +806,7 @@ Il est essentiel de souligner que chaque adresse devrait être à usage unique. 
 Différents préfixes sont utilisés pour les adresses Bitcoin. Par exemple, BC1Q correspond à une adresse Segwit V0, BC1P à une adresse Taproot/Segwit V1, et les préfixes 1 et 3 sont associés aux adresses Pay2PublicKeyH/Pay2ScriptH (legacy). Dans le prochain cours, nous expliquerons étape par étape la dérivation d'une adresse à partir d'une clé publique.
 
 ## Comment créer une adresse Bitcoin ?
+<chapterId>ccd706d1-3ab2-59ab-b7a7-8cae2859ebd7</chapterId>
 
 ![Comment créer une adresse Bitcoin ?](https://youtu.be/ewMGTN8dKjI)
 
@@ -853,8 +876,10 @@ En bleu, la version.
 Le tout est converti en Bech32, puis est rajouté 'bc' pour bitcoin et '1' comme séparateur et voici l'adresse.
 
 # Allez plus loins
+<partId>01e4315e-f1c9-52bc-b412-81a937b9cd20</partId>
 
 ## Création d’une seed depuis 128 lancés de dés !
+<chapterId>6f4c3d3b-f77d-5b4d-b2cb-9155de9b3ce2</chapterId>
 
 ![Création d’une seed depuis 128 lancés de dés !](https://youtu.be/lUw-1kk75Ok)
 
@@ -884,12 +909,14 @@ Testez immédiatement votre phrase mnémonique sur Sparrow Wallet en créant un 
 Générer une phrase mnémonique est un processus important pour sécuriser votre portefeuille de crypto-monnaie. Il est recommandé d'utiliser des méthodes plus sécurisées, comme l'utilisation de logiciels open source ou de hardware wallet, pour générer la phrase mnémonique. Toutefois, réaliser cet atelier permet de mieux saisir comment à partir d'un nombre aléatoire nous pouvons créer un portefeuille Bitcoin.
 
 ## BONUS: Interview avec Théo Pantamis
+<chapterId>08353ad8-328b-583d-8773-d7382c1828dd</chapterId>
 
 Une autre méthode cryptographique grandement utilisée sur le protocole Bitcoin est la méthode des signatures numériques.
 
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 ## Conclusion et fin
+<chapterId>1d608922-b401-5a42-ae28-bb62022da629</chapterId>
 
 ### Remerciements et continuez à creuser le terrier du lapin
 

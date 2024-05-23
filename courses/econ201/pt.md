@@ -17,8 +17,10 @@ Essa escola de pensamento já tem vários séculos de história e conta com uma 
 +++
 
 # Introdução à ECON
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Introdução
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 Olá a todos e bem-vindos ao Econ 201: Introdução à Economia Austríaca.
 
@@ -36,6 +38,7 @@ Agradeço calorosamente a Théo por produzir este curso e espero que ele seja um
 Se você está pronto para embarcar nessa aventura, convido você a clicar no seguinte vídeo e começar com o vídeo bônus sobre nosso sistema financeiro atual. Agora, dou a palavra ao Théo. Agradeço a ele por colaborar com o Descoupes Bitcoin na realização deste vídeo. Até breve. Adeus!
 
 ## Dinheiro, Crédito, Bancos e Bancos Centrais
+<chapterId>2d8a18cc-a293-5613-90d6-e7658211c6c4</chapterId>
 
 > "O problema fundamental com a moeda convencional é toda a confiança necessária para fazê-la funcionar. O banco central deve ser confiável para não desvalorizar a moeda, mas a história das moedas fiduciárias está cheia de violações dessa confiança. Os bancos devem ser confiáveis para guardar nosso dinheiro e transferi-lo eletronicamente, mas eles emprestam em ondas de bolhas de crédito com apenas uma fração em reserva. Temos que confiar neles com nossa privacidade, confiar neles para não deixar ladrões de identidade esvaziarem nossas contas."
 >
@@ -122,8 +125,10 @@ Para alcançar esse objetivo, explicaremos os princípios fundamentais da "Econo
 No próximo capítulo, aprofundaremos a pedra fundamental de qualquer escola de pensamento econômico: a teoria do valor. Os capítulos subsequentes explorarão o dinheiro como uma instituição social, a teoria do capital e do ciclo de negócios, o desafio do cálculo econômico e uma breve visão geral da história e metodologia da Escola Austríaca de Economia.
 
 # Fundamentos Teóricos
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 
 ## A Teoria Subjetiva do Valor
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 > "O valor só existe dentro da consciência humana"
 >
@@ -202,6 +207,7 @@ Baseando-se nos insights do valor ordinal subjetivo, Menger explicou o surgiment
 Os próximos capítulos serão dedicados ao surgimento do dinheiro como um fenômeno social, à teoria do capital e dos juros, que servirá de base para a Teoria do Ciclo de Negócios, e por último, ao papel dos preços para o cálculo econômico.
 
 ## O Surgimento do Dinheiro como um Fenômeno Social
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 Embora os indivíduos tenham um interesse comum na especialização e na maximização da divisão do trabalho, ainda existem problemas de coordenação que limitam essa expansão.
 
@@ -280,6 +286,7 @@ Nesse sentido, o dinheiro, ao permitir o armazenamento de valor no presente e su
 No próximo capítulo, aprofundaremos o conceito de preferência temporal e explicaremos a perspectiva austríaca sobre juros e capital, que servirá de base para o próximo capítulo sobre a Teoria do Ciclo Econômico.
 
 ## Preferência Temporal, Juros e Capital
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 ### Preferência Temporal
 
@@ -348,8 +355,10 @@ Isso é perfeitamente ilustrado pelo gráfico abaixo: as taxas de longo prazo s�
 Isso é o que descobriremos no próximo capítulo dedicado à Teoria Austríaca do Ciclo Econômico!
 
 # Perspectivas Econômicas Austríacas
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## A Teoria Austríaca do Ciclo Econômico
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 > "Quanto mais tempo durar o boom do crédito bancário inflacionário, maior será o escopo de investimentos malfeitos em bens de capital e maior será a necessidade de liquidação desses investimentos insustentáveis. Quando a expansão do crédito para, se reverte ou até mesmo desacelera significativamente, os investimentos malfeitos são revelados"
 >
@@ -423,6 +432,7 @@ Mais do que qualquer outra escola de economia, a Escola Austríaca insiste na im
 Este será o assunto do próximo e último capítulo deste curso.
 
 ## A Impossibilidade do Cálculo Econômico sob o Socialismo
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 > "Onde não há preços de mercado para os fatores de produção porque eles não são comprados nem vendidos, é impossível recorrer ao cálculo no planejamento de ações futuras e na determinação do resultado de ações passadas. Uma gestão socialista da produção simplesmente não saberia se o que planeja e executa é o meio mais apropriado para atingir os fins desejados. Ela operará no escuro, por assim dizer. Ela desperdiçará os escassos fatores de produção, tanto materiais quanto humanos (trabalho). O caos e a pobreza para todos inevitavelmente resultarão"
 >
@@ -489,6 +499,7 @@ Economistas mainstream e planejadores centrais frequentemente não gostam dos ec
 A tradição austríaca incorpora uma abordagem humilde para a ação humana, tirando implicações profundas dos conceitos de valor subjetivo, incerteza, livre arbítrio e complexidade. Ela explica como a ordem de mercado, apesar de não ser um produto do design humano, se estabelece como a instituição central para nosso desenvolvimento e prosperidade. Se houver uma lição fundamental deste curso, é que o capitalismo se tornou o sistema econômico dominante por causa de sua capacidade de se adaptar às mudanças em um mundo dinâmico e incerto, povoado por indivíduos livres.
 
 ## A Metodologia Austríaca
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 A escola austríaca de economia se distingue das outras escolas por sua metodologia axiomático-dedutiva, que difere da abordagem positivista frequentemente usada nas ciências sociais. A abordagem positivista é baseada em leis estabelecidas a partir de dados empíricos, adotando um método semelhante ao das ciências físicas. Ela formula hipóteses a partir de observações, que são então confirmadas ou refutadas por experimentos temporários. O método científico consiste em reter a hipótese que melhor explica os dados e continuar a explorá-la até que uma hipótese mais precisa seja encontrada.
 
@@ -509,8 +520,10 @@ Um exemplo de diferença metodológica é a posição dos defensores da Teoria M
 A metodologia é um aspecto essencial na economia e nas ciências sociais em geral. Ela influencia como as perguntas são feitas, as hipóteses são formuladas e os dados são interpretados. Compreender as diferenças metodológicas entre as escolas de pensamento econômico pode nos ajudar a apreciar perspectivas diversas e desenvolver nossas próprias opiniões sobre os tópicos discutidos nos episódios anteriores.
 
 # Conclusão
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 
 ## Estudos adicionais
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 Parabéns por concluir este curso ECON 201! Espero sinceramente que você tenha gostado e aberto portas para si mesmo. Sua descoberta do Bitcoin está apenas começando, e convido você a explorar todos os outros cursos disponíveis na universidade.
 

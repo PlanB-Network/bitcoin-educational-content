@@ -17,8 +17,10 @@ This school of thought has already had several centuries behind it and has a who
 +++
 
 # Introduction to ECON
+<partId>49bbd914-b954-5a23-af75-88e4a7375153</partId>
 
 ## Introduction 
+<chapterId>059d0d7d-eeb7-5e22-9542-4b4246fabb75</chapterId>
 
 Hello everyone and welcome to Econ 201: Introduction to Austrian Economics.
 
@@ -37,6 +39,7 @@ I warmly thank Théo for producing this course, and I hope he will be an excelle
 If you are ready to embark on this adventure, I invite you to click on the following video and start with the bonus video on our current financial system. I now give the floor to Théo. Thank you to him for collaborating with Descoupes Bitcoin for the realization of this video. I will see you very soon. Goodbye!
 
 ## Money, Credit, Banks, and Central Banks
+<chapterId>2d8a18cc-a293-5613-90d6-e7658211c6c4</chapterId>
 
 > “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts.”
 >
@@ -125,7 +128,9 @@ To achieve this goal, we will explain the fundamental principles of "Austrian Ec
 In the upcoming chapter, we will delve into the foundational cornerstone of any economic school of thought: the theory of value. Subsequent chapters will explore money as a social institution, the theory of capital and the business cycle, the challenge of economic calculation, and a brief overview of the history and methodology of the Austrian School of Economics. 
 
 # Theoretical Foundations
+<partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>
 ## The Subjective Theory of Value
+<chapterId>0d330f89-c4ef-5cdc-bd45-eda2aab8dc4c</chapterId>
 
 > “Value only exists within human consciousness” 
 >
@@ -208,6 +213,7 @@ Building on the insights of subjective ordinal value Menger explained the emerge
 The following chapters will be dedicated to the emergence of money as a social institution, the theory of capital and interest, which will serve as the basis for the Theory of the Business Cycle, and lastly the role of prices for economic calculation. 
 
 ## The Emergence of Money as a Social Phenomenon
+<chapterId>3f7271a0-fecb-521c-bc73-aa828eea6eb3</chapterId>
 
 While individuals have a common interest in specialization and maximizing the division of labor, there are still coordination problems that limit this expansion.
 
@@ -290,6 +296,7 @@ In this regard, money, by allowing the storage of value in the present and its t
 In the next chapter we will delve into the concept of time preference and explain the Austrian perspective on interest and capital, which will serve as basis for the following chapter about the Theory of the Business Cycle.  
 
 ## Time Preference, Interest, and Capital
+<chapterId>da504e7f-9591-5566-9a76-cf8cfea24a9b</chapterId>
 
 ### Time Preference
 
@@ -360,8 +367,10 @@ This is perfectly illustrated by the chart below: long-rates are lower than shor
 This is what we will find out in the next chapter dedicated to the Austrian Theory of the Business Cycle!
 
 # Austrian Economic Perspectives
+<partId>ac9255ed-d90c-5992-ab87-65ea02eb6c17</partId>
 
 ## The Austrian Theory of the Business Cycle
+<chapterId>e15d3376-d255-5811-9174-6f0f68d108ed</chapterId>
 
 > “The longer the boom of inflationary bank credit continues, the greater the scope of malinvestments in capital goods, and the greater the need for liquidation of these unsound investments. When the credit expansion stops, reverses, or even significantly slows down, the malinvestments are revealed”
 >
@@ -436,6 +445,7 @@ More than any other school of economics, the Austrian School insists on the impo
 This will be the subject of the next and last chapter of this course. 
 
 ## The Impossibility of Economic Calculation under Socialism
+<chapterId>6f3c4d8d-2c98-5975-9775-b13ceb49a4e4</chapterId>
 
 > “Where there are no market prices for the factors of production because they are neither bought nor sold, it is impossible to resort to calculation in planning future action and in determining the result of past action. A socialist management of production would simply not know whether or not what it plans and executes is the most appropriate means to attain the ends sought. It will operate in the dark, as it were. It will squander the scarce factors of production both material and human (labour). Chaos and poverty for all will unavoidably result”
 >
@@ -507,6 +517,7 @@ Mainstream economists and central planners often dislike Austrian economists bec
 The Austrian tradition embodies a humble approach to human action, drawing profound implications from the concepts of subjective value, uncertainty, free will, and complexity. It explains how the market order, despite not being a product of human design, stands as the central institution for our development and prosperity. If there's one key takeaway from this course, it is that capitalism became the dominant economic system because of its ability to adapt to change in a dynamic and uncertain world populated by free individuals.
 
 ## The Austrian Methodology
+<chapterId>81420b43-e943-5061-8eb0-3c63f0798a0e</chapterId>
 
 The Austrian school of economics distinguishes itself from other schools by its axiomatic-deductive methodology, which differs from the positivist approach often used in social sciences. The positivist approach is based on laws established from empirical data, adopting a method similar to that of physical sciences. It formulates hypotheses from observations, which are then confirmed or refuted by temporary experiments. The scientific method consists of retaining the hypothesis that best explains the data and continuing to explore it until a more precise hypothesis is found.
 
@@ -527,7 +538,9 @@ It is important to note that cherry-picking, which involves selectively choosing
 Methodology is an essential aspect in economics and in social sciences in general. It influences how questions are asked, hypotheses are formulated, and data is interpreted. Understanding the methodological differences between economic schools of thought can help us appreciate diverse perspectives and develop our own opinions on the topics discussed in previous episodes.
 
 # Conclusion 
+<partId>3633fb39-a55b-5882-bcbe-e8d8cf2c4b00</partId>
 ## Further studies
+<chapterId>94354163-ea15-5f4d-a320-57a22c9ad2b3</chapterId>
 
 Congratulations on completing this ECON 201 course! I sincerely hope you enjoyed it and opened doors for yourself. Your discovery of Bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
 

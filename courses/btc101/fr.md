@@ -20,10 +20,8 @@ Vous n'avez pas besoin de connaissances spécifiques pour vous lancer, la format
 +++
 
 # Introduction
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
 ## Un saut vers l'inconnu
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 ![Introduction](https://youtu.be/PdiL6_1wbQY)
 
@@ -81,7 +79,6 @@ Avant d'aborder la définition et le fonctionnement de la monnaie dans une soci�
 L'importance ici est surtout de comprendre de façon générale cette nouvelle technologie. Nous espérons que cette formation vous plaira et vous apportera la base nécessaire pour comprendre et peut-être continuer d'avancer dans ce nouveau paradigme monétaire mondial.
 
 ## La préhistoire du Bitcoin
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 ![La préhistoire du Bitcoin](https://www.youtube.com/watch?v=ljHLhTzrLsw)
 
@@ -137,10 +134,8 @@ Bitcoin est donc un protocole qui s'inscrit sur des temps longs, et qui nous inc
 ![La préhistoire du Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
 # La monnaie
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
 ## La monnaie à travers l'Histoire
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
 ![La monnaie](https://youtu.be/LslJVNCvHhA)
 
@@ -205,7 +200,6 @@ Bitcoin, quant à lui, présente de nouvelles possibilités. De part ses propri�
 ![la monnaie](assets/posters/fr/3_lamonnaiecrop.webp)
 
 ## Les monnaies fiduciaires
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 ![Les monnaies Fiduciaires](https://youtu.be/1hOrDrmT27g)
 
@@ -261,7 +255,6 @@ Néanmoins, nous ne pouvons pas leurs arracher violemment, tout ce que l’on pe
 ![Alt text](assets/posters/fr/4_lamonnaiefiatcrop.webp)
 
 ## Les hyperinflations
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
 ![Les hyperinflation](https://youtu.be/cYKmgflsy_8)
 
@@ -347,7 +340,6 @@ Une monnaie qui repose sur un tiers de confiance comme une institution financiè
 ![Alt text](assets/posters/fr/5_hyperinflation_crop.webp)
 
 ## 21 millions de bitcoins
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 ![21 millions de Bitcoin](https://youtu.be/Y92R4EWk5uo)
 
@@ -448,10 +440,8 @@ Bitcoin est avant tout une forme de monnaie qui incite à remettre en question l
 Maintenant que nous avons établi les différences entre Bitcoin et les monnaies fiduciaires, nous allons dans les prochains chapitres étudier ce que sont les portefeuilles Bitcoin car il est de votre responsabilité de sécuriser vos fonds. En effet la sovereineté financière qu'offre Bitcoin va nécessairement de pair avec la responsabilité individuelle.
 
 # Les portefeuilles Bitcoin
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
 ## Que sont les portefeuilles Bitcoin ?
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 Dans cette section 2, nous allons explorer le stockage et la sécurité des Bitcoins au sein de portefeuilles. Cela vous permettra de mieux comprendre où se trouvent ces fameux Bitcoins et comment interagir avec eux !
 
@@ -515,7 +505,6 @@ Choisissez un portefeuille qui correspond à vos besoins et à votre utilisation
 ![Alt text](assets/posters/fr/8_explication_des_portefeuilles_bitcoin_crop.webp)
 
 ## Sécurité et Portefeuilles Bitcoin
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 ![Choisir sa sécurité](https://youtu.be/qhjEJuJHRf8)
 
@@ -569,7 +558,6 @@ Maintenant que nous avons cela en tête, nous allons voir à la prochaine sectio
 ![Alt text](assets/posters/fr/9_choisir_son_portefeuille_crop.webp)
 
 ## Mise en place d'un portefeuille
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
 ![mettre en place un portefeuille](https://youtu.be/2MRRERHm7ZM)
 
@@ -611,7 +599,6 @@ Les portefeuilles "froids" ont tous généralement ces listes de mots, tout comm
 ![Alt text](assets/posters/fr/10_mise_en_place_du_portefeuille_crop.webp)
 
 ## Passer l’épreuve du temps
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 ![passer l'épreuve du temps](https://youtu.be/p8eZPt_XnwI)
 
@@ -660,10 +647,8 @@ Lors de la création d'un portefeuille, vous devez en premier lieu faire une sau
 Maintenant que nous avons bases des portefeuilles bitcoins et des bonnes pratiques concernant leur sécurisation, nous aborderons au prochain chapitre le fonctionnement technique de Bitcoin. Ici encore, connaître les bases du protocol Bitcoin va vous permettre de mieux comprendre son fonctionnement, ce qui vous permettra d'en avoir une meilleure utilisation.
 
 # Les aspects techniques du Bitcoin.
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 ## Lancement de Bitcoin
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
 
 ![Lancement de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
@@ -724,7 +709,6 @@ Maintenant que nous avons quelques éléments de contexte, voyons à présent co
 ![Alt text](assets/posters/fr/7_lancement_de_bitcoin_crop.webp)
 
 ## Les transactions Bitcoin
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
 ![Explication d'une transaction](https://youtu.be/GJlUqtGzxLk)
 
@@ -789,7 +773,6 @@ En effet, pour que le réseau Bitcoin soit complètement détruit, il faudrait d
 Voyons donc plus en détail le fonctionnement d'un nœud Bitcoin.
 
 ## Les nœuds Bitcoin
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 ![https://youtu.be/3vQmDJ4_ooM](https://youtu.be/3vQmDJ4_ooM)
 
@@ -844,7 +827,6 @@ Suite à cette victoire, les nœuds ont activé une mise à jour nommée SegWit,
 ![les noeuds Bitcoins](assets/posters/fr/12_explication_des_nodes_crop.webp)
 
 ## Les mineurs
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 ![les mineurs](https://youtu.be/Lr5L3uy244w)
 
@@ -920,7 +902,6 @@ La théorie du jeu appliquée à Bitcoin écarte les mineurs malhonnêtes. Les m
 ![les mineurs](assets/posters/fr/13_explication_des_mineurs_crop.webp)
 
 ## Bitcoin et l’écologie
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
 ![Bitcoin & écologie](https://youtu.be/nV2b2xAMfmU)
 
@@ -983,10 +964,8 @@ Pour que les mineurs soit le plus rentable dans son activité, il se doit de se 
 Ainsi, le protocole Bitcoin est un système monétaire incensurable et instoppable car chaque composante du protocole est distribué géographiquement sur l'ensemble du globe -- à titre d'exemple, on dénombre environ 40 000 nœuds Bitcoin sur l'ensemble des continents. Les règles de consensus de Bitcoin sont telles qu'il est plus économiquement rentable de les suivre que de chercher à les transgresser, et par conséquent aucune confiance n'est requise entre les acteurs. Bitcoin n'a pas de leader et ne peut pas être arrêté. Il est possible de réguler les plateformes d'échanges pour limiter Bitcoin, mais cela est restreint en terme d'impact. En somme, aucun juge ou état ne peut censurer ou arrêter Bitcoin.
 
 # Comment se procurer des Bitcoin ?
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
 ## Bitcoin ne dort jamais !
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 ![Bitcoin ne dort jamais](https://youtu.be/7535MAeHzxM)
 
@@ -1048,7 +1027,6 @@ Aujourd'hui, en 2023, le Bitcoin continue de survivre et de grossir toujours plu
 ![Alt text](assets/posters/fr/15_bitcoin_ne_dort_jamais_crop.webp)
 
 ## Obtenir des bitcoins en travaillant
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 ![obtenir des bitcoin en travaillant](https://youtu.be/sHkadVRUQF8)
 
@@ -1087,7 +1065,6 @@ D'autres solutions intermédiaires ou concurrentes de ces choix existent bien é
 ![Alt text](assets/posters/fr/17_travailler_pour_des_bitcoin_crop.webp)
 
 ## Épargner avec Bitcoin
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 ![epargne en bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
@@ -1184,7 +1161,6 @@ Il est également important de noter qu'il est possible que des impôts soient m
 ![Alt text](assets/posters/fr/16_epargne_avec_bitcoin_crop.webp)
 
 ## Hyper-bitcoinisation
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
 
 ![hyper-bitcoinisation](https://youtu.be/lLxndxrzXR0)
 
@@ -1213,10 +1189,8 @@ Si vous souhaitez développer vos connaissances sur le Bitcoin, un grand nombre 
 ![Alt text](assets/posters/fr/18_hyperbitcoinisation_crop.webp)
 
 # Le futur de Bitcoin: Le Lightning Network
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
 ## Courte introduction au Lightning Network
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
 ![Le lightning Network](https://youtu.be/HFv3NN4z450)
 
@@ -1263,7 +1237,6 @@ En somme, le Lightning Network est une tentative prometteuse pour déployer un s
 ![Alt text](assets/posters/fr/20_explication_lightning_network_crop.webp)
 
 ## Cas d’usage du Lightning Network
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 ![cas d'usage du LN](https://youtu.be/_UV2jmQ8TQM)
 
@@ -1304,7 +1277,6 @@ En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation pas
 ![Alt text](assets/posters/fr/21_cas_d_usage_lightning_network_crop.webp)
 
 ## Pilule bleue ou pilule rouge ?
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 ![pilule rouge](https://youtu.be/nCRVIoyyyck)
 
@@ -1374,7 +1346,6 @@ Bitcoin ne peut plus être arrêté et ne peut plus être censuré. C'est une r�
 Changer le système financier nécessite de changer la monnaie. Satoshi a créé Bitcoin en 2008 pour pallier proposer une tentative à cela. Avoir accès à de l'argent facile et "magique" corrompt. Bitcoin est donc une alternative pour constuire un nouveau système monétaire neutre. Bitcoin permet l'émancipation du système bancaire. C'est un phénomène social et qui nous amène à partciper à une révolution pacifique. Êtes-vous prêt à la rejoindre ?
 
 ## Remerciements et continuez à creuser le terrier du lapin
-<chapterId>c153facd-fe77-5954-b18b-d0e2243e787a</chapterId>
 
 ### Allez plus loins
 
@@ -1390,12 +1361,10 @@ Félicitations pour avoir terminé cette formation BTC 101 ! J'espère de tout c
 - et bien d'autres...
 
 ## Soutiens-nous
-<chapterId>3e6e756b-b6c4-5d41-bece-767922348067</chapterId>
 
 Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via [notre GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data). Au nom de toute l'équipe, merci !
 
 ## Note la formation
-<chapterId>44d01865-5c89-55a5-a397-a014960eec0f</chapterId>
 
 Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 

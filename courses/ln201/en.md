@@ -20,10 +20,8 @@ Enjoy the discovery!
 +++
 
 # The Fundamentals
-<partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
 
 ## Understanding the Lightning Network
-<chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
 The Lightning Network is a second-layer payment infrastructure built on the Bitcoin network that enables fast and low-cost transactions. To fully understand how the Lightning Network works, it is essential to understand what payment channels are and how they work.
 
@@ -70,7 +68,6 @@ Now, Bob wants to send 80,000 SAT to Alice. Not having the liquidity, he cannot.
 ![explication](assets/chapitre1/3.webp)
 
 ## Bitcoin, addresses, UTXO and transactions
-<chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
 In this second chapter, we take the time to study how Bitcoin transactions actually work, which will be very useful for understanding Lightning. We also briefly discuss the concept of multi-signature addresses, which is crucial for understanding the next chapter on opening channels on the Lightning Network.
 
@@ -99,10 +96,8 @@ In Lightning Network, multi-signatures are used. Therefore, 2 signatures are req
 ![explication](assets/chapitre2/1.webp)
 
 # Opening and closing of channels
-<partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
 
 ## Channel Opening
-<chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
 Now, we will take a closer look at channel opening and how it is done through a Bitcoin transaction.
 
@@ -145,7 +140,6 @@ Alice can now recover the funds alone, as she already has Bob's signature. She p
 ![explication](assets/chapitre3/3.webp)
 
 ## Lightning Transaction & Commitment Transaction
-<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
 ![cover](assets/chapitre4/1.webp)
 
@@ -179,7 +173,6 @@ Alice (90,000 SAT) =============== Bob (40,000 SAT)
 The money never moves, but the final balance is updated via a signed but not published on-chain transaction. The withdrawal transaction is therefore a commitment transaction. The satoshi transfers are another more recent commitment transaction that updates the balance.
 
 ## Commitment Transactions
-<chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
 If commitment transactions dictate a channel state with liquidity at time X, can we cheat by publishing an old state? The answer is yes, because we already have the pre-signature of both participants in the unpublished transaction.
 
@@ -205,7 +198,6 @@ Similarly, Bob will provide his secret to Alice. So that if he tries to cheat, A
 The person who creates the transaction with the Timelock (the one who sends the money) can only use the revocation key after the Timelock. However, the person who receives the money can use it before the Timelock in case of cheating from one side to the other of a channel on the Lightning Network. In particular, we detail the mechanisms that allow us to guard against possible cheating by one's peer within the channel.
 
 ## Channel Closure
-<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
 We are interested in channel closure through a Bitcoin transaction, which can take different forms depending on the case. There are 3 types of channel closure:
 
@@ -244,10 +236,8 @@ Alice tries to cheat by publishing an old commitment transaction. But Bob monito
 In conclusion, channel closure in the Lightning Network is a crucial step that can take various forms. In a cooperative closure, both parties communicate and agree on a final state of the channel. This is the fastest and least expensive option. On the other hand, a forced closure occurs when one party is non-responsive. This is a more expensive and longer situation due to unpredictable transaction fees and the activation of the Timelock. Finally, if a participant tries to cheat by publishing an old commitment transaction, the cheater, they can be punished by losing all the SAT from the channel. It is therefore crucial to understand these mechanisms for effective and fair use of the Lightning Network.
 
 # A liquidity network
-<partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
 
 ## Lightning Network
-<chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
 
 In this seventh chapter, we study how Lightning works as a network of channels and how payments are routed from their source to their destination.
@@ -327,7 +317,6 @@ In the Lightning Network, it is Alice's node that decides the route before sendi
 For Susie or Eden: they do not know who the final recipient is, nor who is sending the payment. This is onion routing. The node must keep a plan of the network to find its route, but none of the intermediaries have any information.
 
 ## HTLC - Hashed Time Locked Contract
-<chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
 In a traditional routing system, how can we ensure that Eden does not cheat and respects their part of the contract?
 
@@ -380,7 +369,6 @@ When closing the channel, if it is a cooperative closure, payments are interrupt
 In summary, the HTLC mechanism adds an additional layer of security to the Lightning Network, ensuring that payments are executed correctly and that users fulfill their commitments.
 
 ## Finding your way
-<chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
 The only public data is the total channel capacity (Alice + Bob) but we do not know where the liquidity is located.
 To have more information, our node listens to the LN communication channel for announcements of new channels and updates to channel fees. Your node also looks at the blockchain for channel closures.
@@ -445,10 +433,8 @@ In conclusion, routing transactions on the Lightning Network is a complex proces
 Furthermore, to facilitate route searching, the recipient can provide additional information such as the address, amount, preimage hash, and indications on their channels. This can help identify channels with sufficient liquidity and avoid unnecessary transaction attempts. Ultimately, the Lightning Network routing system is designed to optimize the speed, security, and efficiency of transactions while preserving user privacy.
 
 # Tools of the Lightning Network
-<partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
 
 ## Invoice, LNURL, Keysend
-<chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
 ![cover](assets/chapitre10/0.webp)
 
@@ -497,7 +483,6 @@ A Keysend allows Alice to send money to Bob without having Bob's request. Alice 
 In conclusion, a Lightning Network invoice, although complex at first glance, effectively encodes a payment request. Each section of the invoice contains key information, including the amount to be paid, the recipient, the creation timestamp, and potentially other information such as the hash of the preimage, the payment secret, routing hints, and expiration time. Protocols such as LNURL and Keysend offer significant improvements in terms of flexibility and user experience, allowing, for example, to send funds without prior request from the other party. These technologies make the payment process smoother and more efficient on the Lightning Network.
 
 ## Managing Liquidity
-<chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
 ![instruction](assets/chapitre11/0.webp)
 
@@ -539,10 +524,8 @@ The most complicated thing in LN is to keep liquidity.
 In conclusion, liquidity management on the Lightning Network is a key issue that depends on the type of user: buyer, merchant, or routing node. Buyers, who need outgoing liquidity, have the simplest task: they simply open channels. Merchants, who require incoming liquidity, must be connected to other nodes and actors. Routing nodes, on the other hand, seek to maintain a balance of liquidity on both sides. Several solutions exist for managing liquidity, such as purchasing channels or paying to increase receiving capacity. The "Loop Out" option, allowing for an Atomic Swap between LN and BTC, offers an interesting solution for rebalancing liquidity. Despite these strategies, maintaining liquidity on the Lightning Network remains a complex challenge.
 
 # Go further
-<partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
 ## Summary of the course
-<chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
 Our goal was to explain how the Lightning Network works and how it relies on Bitcoin to function.
 
@@ -570,7 +553,6 @@ To receive payments, liquidity must be managed in the channels, which can be don
 
 
 ## Fanis' Interview
-<chapterId>077cb5f5-1626-5da5-9964-e67b1de503bf</chapterId>
 
 Here is a summary of the interview:
 
@@ -596,7 +578,6 @@ However, it is important to note that Lightning routing nodes could be regulated
 Finally, the future of Bitcoin is promising with a possible projection of one million in five years. To ensure the professionalization of the industry and the creation of an alternative system to the existing banking system, it is important to contribute to the network and stop trusting.
 
 ## Acknowledgments and keep digging the rabbit hole
-<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
 Congratulations! 🎉
 You have completed the LN 201 training - Introduction to the Lightning Network!

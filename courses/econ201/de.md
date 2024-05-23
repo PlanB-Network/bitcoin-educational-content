@@ -17,10 +17,8 @@ Diese Denkschule hat bereits mehrere Jahrhunderte hinter sich und eine ganze Rei
 +++
 
 # Einführung in die Wirtschaftswissenschaften
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Einführung
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Hallo zusammen und herzlich willkommen zu Econ 201: Einführung in die österreichische Wirtschaftswissenschaft.
 
@@ -39,7 +37,6 @@ Ich danke Théo herzlich für die Erstellung dieses Kurses und hoffe, dass er ei
 Wenn Sie bereit sind, sich auf dieses Abenteuer einzulassen, lade ich Sie ein, auf das folgende Video zu klicken und mit dem Bonusvideo über unser derzeitiges Finanzsystem zu beginnen. Ich übergebe jetzt das Wort an Théo. Vielen Dank an ihn für die Zusammenarbeit mit Descoupes Bitcoin bei der Realisierung dieses Videos. Ich werde euch bald wiedersehen. Auf Wiedersehen!
 
 ## Geld, Kredit, Banken und Zentralbanken
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > "Das grundlegende Problem mit konventioneller Währung ist das Vertrauen, das erforderlich ist, um sie funktionieren zu lassen. Der Zentralbank muss vertraut werden, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voller Vertrauensbrüche. Den Banken muss vertraut werden, dass sie unser Geld halten und elektronisch übertragen, aber sie verleihen es in Wellen von Kreditblasen mit kaum einem Bruchteil als Reserve. Wir müssen ihnen in Bezug auf unsere Privatsphäre vertrauen, ihnen vertrauen, dass sie Identitätsdieben nicht erlauben, unsere Konten zu leeren."
 >
@@ -127,10 +124,8 @@ Um dieses Ziel zu erreichen, werden wir die grundlegenden Prinzipien der "Öster
 Im nächsten Kapitel werden wir uns mit dem grundlegenden Eckpfeiler jeder wirtschaftlichen Denkschule befassen: der Werttheorie. In den folgenden Kapiteln werden wir Geld als soziale Institution, die Kapital- und Konjunkturtheorie, die Herausforderung der wirtschaftlichen Berechnung sowie einen kurzen Überblick über die Geschichte und Methodik der Österreichischen Schule der Nationalökonomie untersuchen.
 
 # Theoretische Grundlagen
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## Die subjektive Werttheorie
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "Wert existiert nur im menschlichen Bewusstsein"
 >
@@ -211,7 +206,6 @@ Aufbauend auf den Erkenntnissen des subjektiven ordinalen Werts erklärte Menger
 Die folgenden Kapitel werden sich mit dem Entstehen von Geld als soziale Institution, der Theorie des Kapitals und des Zinses, die als Grundlage für die Theorie des Konjunkturzyklus dienen wird, und schließlich der Rolle der Preise für die wirtschaftliche Berechnung befassen.
 
 ## Das Entstehen von Geld als soziales Phänomen
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Obwohl Individuen ein gemeinsames Interesse an Spezialisierung und Maximierung der Arbeitsteilung haben, gibt es dennoch Koordinationsprobleme, die diese Expansion begrenzen.
 
@@ -289,7 +283,6 @@ In diesem Zusammenhang spielt Geld eine entscheidende Rolle bei der intertempora
 Im nächsten Kapitel werden wir das Konzept der Zeitpräferenz genauer untersuchen und die österreichische Perspektive auf Zinsen und Kapital erläutern, die als Grundlage für das folgende Kapitel zur Theorie des Konjunkturzyklus dienen wird.
 
 ## Zeitpräferenz, Zinsen und Kapital
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Zeitpräferenz
 
@@ -359,10 +352,8 @@ Dies wird perfekt durch das folgende Diagramm veranschaulicht: Die langfristigen
 Dies werden wir im nächsten Kapitel, das der österreichischen Theorie des Konjunkturzyklus gewidmet ist, herausfinden!
 
 # Österreichische Wirtschaftsperspektiven
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Die österreichische Theorie des Konjunkturzyklus
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > "Je länger der Boom der inflationären Bankkredite anhält, desto größer ist der Umfang der Fehlinvestitionen in Sachkapital und desto größer ist die Notwendigkeit der Liquidation dieser unsoliden Investitionen. Wenn die Kreditausweitung stoppt, sich umkehrt oder sogar signifikant verlangsamt, werden die Fehlinvestitionen offenbart."
 >
@@ -431,7 +422,6 @@ Mehr als jede andere Wirtschaftsschule besteht die Österreichische Schule auf d
 Dies wird das Thema des nächsten und letzten Kapitels dieses Kurses sein.
 
 ## Die Unmöglichkeit der wirtschaftlichen Berechnung im Sozialismus
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > "Wo es keine Marktpreise für die Produktionsfaktoren gibt, weil sie weder gekauft noch verkauft werden, ist es unmöglich, bei der Planung zukünftiger Handlungen und bei der Bestimmung des Ergebnisses vergangener Handlungen auf Berechnungen zurückzugreifen. Eine sozialistische Produktionsführung würde einfach nicht wissen, ob das, was sie plant und ausführt, das geeignetste Mittel ist, um die angestrebten Ziele zu erreichen. Sie wird gewissermaßen im Dunkeln operieren. Sie wird die knappen Produktionsfaktoren, sowohl materiell als auch menschlich (Arbeit), verschwenden. Chaos und Armut für alle werden zwangsläufig die Folge sein."
 >
@@ -498,7 +488,6 @@ Hauptstrom-Ökonomen und Zentralplaner mögen österreichische Ökonomen oft nic
 Die österreichische Tradition verkörpert einen bescheidenen Ansatz zum menschlichen Handeln und zieht tiefgreifende Schlussfolgerungen aus den Konzepten des subjektiven Wertes, der Unsicherheit, des freien Willens und der Komplexität. Sie erklärt, wie die Marktordnung, obwohl sie nicht das Produkt menschlichen Designs ist, als zentrale Institution für unsere Entwicklung und Wohlstand steht. Wenn es eine wichtige Erkenntnis aus diesem Kurs gibt, dann ist es, dass der Kapitalismus zum dominierenden Wirtschaftssystem wurde, weil er sich in einer dynamischen und unsicheren Welt, bevölkert von freien Individuen, an Veränderungen anpassen kann.
 
 ## Die österreichische Methodik
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Die österreichische Schule der Wirtschaft unterscheidet sich von anderen Schulen durch ihre axiomatisch-deduktive Methodik, die sich von dem positivistischen Ansatz unterscheidet, der in den Sozialwissenschaften häufig verwendet wird. Der positivistische Ansatz basiert auf Gesetzen, die aus empirischen Daten abgeleitet werden und eine ähnliche Methode wie die Naturwissenschaften verwenden. Er formuliert Hypothesen aus Beobachtungen, die dann durch vorübergehende Experimente bestätigt oder widerlegt werden. Die wissenschaftliche Methode besteht darin, die Hypothese beizubehalten, die die Daten am besten erklärt, und sie weiter zu erforschen, bis eine präzisere Hypothese gefunden wird.
 
@@ -517,10 +506,8 @@ Es ist wichtig zu beachten, dass das Cherry-Picking, bei dem selektiv Daten ausg
 Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissenschaften im Allgemeinen. Sie beeinflusst, wie Fragen gestellt, Hypothesen formuliert und Daten interpretiert werden. Das Verständnis der methodologischen Unterschiede zwischen ökonomischen Denkschulen kann uns helfen, vielfältige Perspektiven zu schätzen und unsere eigenen Meinungen zu den in früheren Episoden diskutierten Themen zu entwickeln.
 
 # Fazit
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
 ## Weitere Studien
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Herzlichen Glückwunsch zur Absolvierung dieses ECON 201 Kurses! Ich hoffe aufrichtig, dass Sie ihn genossen haben und sich neue Möglichkeiten für sich eröffnet haben. Ihre Entdeckung von Bitcoin steht erst am Anfang, und ich lade Sie ein, alle anderen Kurse an der Universität zu erkunden.
 

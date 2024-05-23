@@ -19,10 +19,8 @@ This introduction to cryptography seeks to capture the middle ground. While it s
 +++
 
 # An Introduction to Cryptography
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
 ## Short description
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
 
 This book offers a deep-dive introduction to the science and practice of cryptography. Where possible it focuses on conceptual, rather than formal exposition of the material. 
 
@@ -68,7 +66,6 @@ Please have a look at the contributions file in the repository for some guidelin
 
 
 # What is Cryptography?
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
 
 Let’s start our enquiry into the field of cryptography with one of the more charming and entertaining episodes in its history: that of the Beale ciphers.<sup>[1](#footnote1)</sup>
 
@@ -76,7 +73,6 @@ The story of the Beale ciphers is, in my opinion, more likely to be fiction than
 
 
 ## The Beale ciphers
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
 In both the Winter of 1820 and 1822, a man named Thomas J. Beale stayed at an inn owned by Robert Morriss in Lynchburg (Virginia). At the end of Beale’s second stay, he handed Morriss an iron box with valuable papers for safekeeping. 
 
@@ -107,7 +103,6 @@ After decryption, the second message provides the detailed contents of the treas
 
 
 ## Modern cryptography
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
 
 Colorful stories such as that of the Beale ciphers are what most of us associate with cryptography. Yet, modern cryptography differs in at least four important ways from these types of historical examples.
 
@@ -147,7 +142,6 @@ For another example, **phishing attacks** are a common problem in our modern age
 
 
 ## Open communications
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
 
 Modern cryptography is designed to provide security assurances in an **open communications** environment. If our communication channel is so well-protected that eavesdroppers have no chance of manipulating or even just observing our messages, then cryptography is superfluous. Most of our communication channels, however, are hardly this well-guarded.
 
@@ -178,7 +172,6 @@ Hence, the idea of keeping communications secret by protecting the communication
 
 
 # Mathematical Foundations of Cryptography I
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
 Cryptography relies on mathematics. And if you want to build more than a superficial understanding of cryptography, you need to be comfortable with that mathematics. 
 
@@ -188,7 +181,6 @@ The next chapter deals with number theory, which is much more challenging.
 
 
 ## Random variables
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
 
 A random variable is typically denoted by a non-bold, uppercase letter. So, for instance, we might talk about a random variable X, a random variable Y, or a random variable Z. This is the notation I will also employ from here on out.  
 
@@ -310,7 +302,6 @@ I might, for instance, ask you the probability that pigs will fly by 2030, after
 
 
 ## The modulo operation
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
 
 The most basic expression with the **modulo operation** is of the following form: x mod y.
 
@@ -378,7 +369,6 @@ Everyone can intuitively understand how the shift cipher works and probably use 
 
 
 ## The XOR operation
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
 
 All computer data is processed, stored, and sent across networks at the level of bits. Any cryptographic schemes that are applied to computer data also operate at the bit-level. 
 
@@ -412,7 +402,6 @@ An XOR operation is equivalent to the special case of performing a modulo operat
 
 
 ## Pseudorandomness
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
 
 In our discussion of random and uniform variables, we drew a specific distinction between “random” and “uniform”. That distinction is typically maintained in practice when describing random variables. However, in our current context, this distinction needs to be dropped and “random” and “uniform” are used synonymously. I will explain why at the end of the section.  
 
@@ -452,7 +441,6 @@ The reason for dropping the distinction between “random” and “uniform” i
 
 
 ## Notes
-<chapterId>7cccd92c-15bc-5394-9024-af126988ecd7</chapterId>
 
 [^1]: We can define this statement exactly, using the terminology from the previous section. Let a uniform variable K have **K** as its set of possible outcomes. So Pr [K = 0] = 1/26, Pr [K = 1] = 1/26, and so on. Sample the uniform variable K once to yield a particular key [^1].
 
@@ -460,7 +448,6 @@ The reason for dropping the distinction between “random” and “uniform” i
 
 
 # Mathematical Foundations of Cryptography II
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
 This chapter covers a more advanced topic on the mathematical foundations of cryptography: number theory. Though number theory is important to symmetric cryptography (such as in the Rijndael Cipher), it is particularly important in the public key cryptographic setting.
 
@@ -468,7 +455,6 @@ If you are finding the details of number theory cumbersome, I would recommend a 
 
 
 ## What is number theory?
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
 
 You might characterize **number theory** as the study of the properties of integers and mathematical functions that work with integers. 
 
@@ -482,7 +468,6 @@ The sets from abstract algebra can deal with many types of objects, from the sha
 
   
 ## Groups
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 
 A basic concept in mathematics is that of a set of elements. A set is usually denoted by accolade signs with the elements separated by commas. 
 
@@ -542,7 +527,6 @@ Transactions in Bitcoin typically involve locking outputs to one or more public 
 
 
 ## Cyclic groups
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
 
 A major distinction we can draw is between a **finite** and an **infinite group**. The former has a finite number of elements, while the latter has an infinite number of elements. The number of elements in any finite group is known as the **order of the group**. All practical cryptography that involves the use of groups relies on finite (number-theoretic) groups. 
 
@@ -618,7 +602,6 @@ For instance, suppose our group is ℤ* mod 160,481,182 (where 160,481,182 is in
 
 
 ## Fields
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
 
 A group is the basic algebraic structure in abstract algebra, but there are many more. The only other algebraic structure you need to be familiar with is that of a field, specifically that of a finite field. This type of algebraic structure is frequently used in cryptography, such as in the Advanced Encryption Standard. The latter is the main symmetric encryption scheme that you will encounter in practice.  
 
@@ -745,7 +728,6 @@ Why would extension fields with base 2 over sets of polynomials, like in the exa
 
 
 ## Abstract algebra in practice
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
 
 Despite the formal language and abstractness of the discussion, the concept of a group should not be too difficult to grasp. It is just a set of elements together with an binary operation, where performance of that binary operation on those elements meets four general conditions. An Abelian group just has an extra condition known as commutativity. A cyclic group, in turn, is a special kind of Abelian group, namely one that has a generator. A field is merely a more complex construct from the basic group notion.  
 
@@ -761,7 +743,6 @@ Most importantly, you will see the importance of number theoretic groups and fie
 
 
 ## Further exploration
-<chapterId>ab51038d-82bd-5c5d-a759-276cfbf7fbce</chapterId>
 
 For further discussion on abstract algebra, I would recommend the excellent video series on abstract algebra by Socratica.<sup>[4](#footnote4)</sup> I would particularly recommend the following videos: “What is abstract algebra?”, “Group definition (expanded)”, “Ring definition (expanded)”, and “Field definition (expanded).” These four videos will give you some additional insight into much of the discussion above. (We did not discuss rings, but a field is just a special type of ring.) 
 
@@ -782,7 +763,6 @@ For further discussion on modern number theory, you can consult many advanced di
 
 
 # Symmetric Cryptography
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
 
 One of the two main branches of cryptography is symmetric cryptography. It includes encryption schemes as well as schemes concerned with authentication and integrity. Until the 1970s, all of cryptography would have consisted of symmetric encryption schemes. 
 
@@ -794,7 +774,6 @@ Before starting our discussion on symmetric cryptography, I want to briefly make
 
 
 ## Alice and Bob
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
 
 In illustrating the principles of cryptography, people often rely on examples involving Alice and Bob. I will do so as well. 
 
@@ -810,7 +789,6 @@ Following are five key points to keep in mind about examples involving Alice and
 
 
 ## Symmetric encryption schemes
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
 
 We can loosely define a **symmetric encryption scheme** as any cryptographic scheme with three algorithms: 
 
@@ -844,7 +822,6 @@ Bob encrypts the message M at time T<sub>0</sub> with the key K to produce the c
 
 
 ## An example: The shift cipher
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
 
 In Chapter 2, we encountered the shift cipher which is an example of a very simple symmetric encryption scheme. Let’s look at it again here. 
 
@@ -879,7 +856,6 @@ You may also come across the terms to **encipher** or to **decipher**. These ter
 
 
 ## Brute force attacks and Kerckhoff's principle
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
 The shift cipher is a very insecure symmetric encryption scheme, at least in the modern world.<sup>[1](#footnote1)</sup> An attacker could just attempt decryption of any ciphertext with all 26 possible keys to see which result makes sense. This type of attack, where the attacker is just cycling through keys to see what works, is known as a **brute force attack** or **exhaustive key search**. 
 
@@ -918,7 +894,6 @@ While we will not delve into all the details of the various notions of cryptogra
 
 
 ## Stream ciphers
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
 Symmetric encryption schemes are standardly subdivided into two types: stream ciphers and block ciphers. This distinction is somewhat troublesome, however, as people use these terms in an inconsistent manner. In the next few sections, I will set out the distinction in the way I think is best. You should be aware, however, that many people will use these terms somewhat differently than I set out.
 
@@ -997,7 +972,6 @@ In my view, defining condition (1) more broadly provides an easier way to organi
 
 
 ## Block ciphers
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
 
 The first way that a **block cipher** is commonly understood is as something more primitive than a stream cipher: A core algorithm that performs a length-preserving transformation on a string of a suitable length with the aid of a key. This algorithm can be used for creating encryption schemes and perhaps other types of cryptographic schemes. 
 
@@ -1067,7 +1041,6 @@ The AES block cipher will be explained in detail in *Chapter 5*.
 
 
 ## Clearing up the confusion
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
 
 The confusion about the distinction between block ciphers and stream ciphers arises because sometimes people will understand the term block cipher as referring specifically to a *block cipher with a block mode of encryption*. 
 
@@ -1091,7 +1064,6 @@ From this discussion, you should now understand *Figure 8*. It provides an overv
 
 
 ## Message authentication codes
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
 
 Encryption is concerned with secrecy. But cryptography is also concerned with broader themes, such as message integrity, authenticity, and non-repudiation. So called **message authentication codes** (MACs) are symmetric key cryptographic schemes that support authenticity and integrity in communications. 
 
@@ -1120,7 +1092,6 @@ While I have drawn a distinction between message authenticity and integrity in m
 
 
 ## Authenticated encryption
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
 
 Typically, you would want to guarantee both secrecy and authenticity in communication and, hence, encryption schemes and MAC schemes are typically used together. 
 
@@ -1158,7 +1129,6 @@ There is a palette of hash functions that can be used to create an HMAC. The mos
 
 
 ## Secure communication sessions
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
 
 Suppose that two parties are in a communication session, so they send multiple messages back and forth. 
 
@@ -1188,7 +1158,6 @@ The communication session starts by Bob sending a ciphertext C<sub>0,B</sub> to 
 
 
 ## Notes
-<chapterId>b96d38dd-c9cb-56a7-8764-4af8526bc63f</chapterId>
 
 [^1]: According to Seutonius, a shift cipher with a constant key value of 3 was used by Julius Caeser in his military communications. So A would always become D, B always E, C always F, and so on. This particular version of the Shift cipher has, thus, become known as the **Caesar Cipher** (though it is not really a cipher in the modern sense of the word, as the key value is constant). The Caesar cipher may have been secure in the first century BC, if Rome’s enemies were very unfamiliar with encryption. But it clearly would not be a very secure scheme in modern times [^1].
 
@@ -1203,13 +1172,11 @@ The communication session starts by Bob sending a ciphertext C<sub>0,B</sub> to 
 
 
 # RC4 and AES
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
 
 In this Chapter, we will discuss the details of an encryption scheme with a modern primitive stream cipher, RC4 (or "Rivest cipher 4"), and a modern block cipher, AES. While the RC4 cipher has fallen into disfavor as a method of encryption, AES is the standard for modern symmetric encryption. These two examples should give a better idea of how symmetric encryption works under the hood. 
 
 
 ## The RC4 stream cipher
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
 
 In order to have a sense of how modern pseudorandom stream ciphers work, I will focus on the RC4 stream cipher. It is a pseudorandom stream cipher that was used in the WEP and WAP wireless access point security protocols as well as in TLS. As RC4 has many proven weaknesses, it has fallen into disfavor. In fact, the Internet Engineering Task Force now forbids the use of RC4 suites by client and server applications in all instances of TLS.<sup>[3](#footnote3)</sup> Nevertheless, it works well as an example to illustrate how a primitive stream cipher works.  
 
@@ -1293,7 +1260,6 @@ Importantly, the keystream produced with RC4 should be treated as a one-time pad
 
 
 ## AES with a 128-bit key
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
 
 As mentioned in the previous chapter, the National Institute of Standards and Technology (NIST) held a competition between 1997 and 2000 to determine a new symmetric encryption standard. The Rijndael cipher turned out to be the winning entry. The name is a word play on the names of the Belgian creators, Vincent Rijmen en Joan Daemen. 
 
@@ -1391,7 +1357,6 @@ Without entering into the details, encryption schemes are assessed on the basis 
 The reasoning for the operations behind the Rijndael cipher is they produce both a high degree of confusion and diffusion. The confusion is produced by the Byte substitution operation, while the diffusion is produced by the shift rows and mix columns operations. 
 
 # Asymmetric Cryptography
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
 
 As with symmetric cryptography, asymmetric schemes can be used to ensure both secrecy and authentication. By contrast, however, these schemes employ two keys rather than one: a private and a public key.
 
@@ -1399,7 +1364,6 @@ We start our enquiry with the discovery of asymmetric cryptography, particularly
 
 
 ## The key distribution and management problem
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
 
 Suppose that Bob wants to buy a new rain coat from Jim’s Sporting Goods, an online sporting goods retailer with millions of customers in North America. This will be his first purchase from them and he wants to use his credit card. So, Bob will first need to create an account with Jim’s Sporting Goods, which requires sending over personal details such as his address and credit card information. He can, then, go through the steps needed to purchase the rain coat. 
 
@@ -1437,7 +1401,6 @@ So, what happened in the 1970s? How is it possible that we can instantly make pu
 
 
 ## New directions in cryptography
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
 
 By the 1970s, the key distribution and key management problems had grabbed the attention of a group of American academic cryptographers: Whitfield Diffie, Martin Hellman, and Ralph Merkle. In the face of severe skepticism from the majority of their peers, they ventured to devise a solution to it. 
 
@@ -1491,7 +1454,6 @@ According to their own accounts and that of GCHQ, it was James Ellis who first d
 
 
 ## Asymmetric encryption and authentication
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
 
 An overview of asymmetric encryption with the help of Bob and Alice is provided in *Figure 1*.
 
@@ -1563,7 +1525,6 @@ Key distribution has now become vastly simpler for Jim’s Sporting Goods. It is
 
 
 ## Hash functions
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
 
 Hash functions are ubiquitous in cryptography. They are neither symmetric nor asymmetric schemes, but fall into a cryptographic category in their own right. 
 
@@ -1641,7 +1602,6 @@ While collision resistance and hiding are the main properties sought of hash fun
 
 
 # The RSA cryptosystem
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
 
 While symmetric cryptography is usually fairly intuitive for most people, this is typically not the case with asymmetric cryptography. Though you are likely comfortable with the high-level description offered in the previous sections, you are probably wondering what precisely one-way functions are and how exactly they are used to construct asymmetric schemes. 
 
@@ -1653,7 +1613,6 @@ Lets now first turn to the factoring problem.
 
 
 ## The factoring problem
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
 
 Whenever you multiply two numbers, say a and b, we refer to the numbers a and b as **factors**, and the result as the **product**. Attempting to write a number N into the multiplication of two or more factors is called **factorization** or **factoring**.<sup>[1](#footnote1)</sup> You can call any problem that requires this a **factorization problem**.
 
@@ -1720,7 +1679,6 @@ Hence, the factorization problem, under certain circumstances, can plausibly be 
 
 
 ## Number theoretic results
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
 
 Unfortunately, the factoring problem cannot be used directly for asymmetric cryptographic schemes. However, we can use a more complex but related problem to this effect: the RSA problem. 
 
@@ -1838,7 +1796,6 @@ We know have all the number theoretic results needed to state the RSA problem cl
 
 
 ## The RSA cryptosystem
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
 
 We are now ready to state the RSA problem. Suppose you create a set of variables consisting of p, q, N, φ(N), e, d, and y. Call this set Π. It is created as follows: 
 
@@ -1915,10 +1872,8 @@ Nevertheless, with adding a bit of clever complexity, the RSA problem can be use
 
 
 # Contributions
-<partId>4556aab1-4876-552a-b6db-df6837bbf27a</partId>
 
 ## About
-<chapterId>ff08a57b-740f-5d7e-8cf2-81db0908166e</chapterId>
 
 Any contributions are most welcome. Before doing so, please have a look below for background information on my own plans for the book as well the guidelines for making contributions.
 
@@ -1951,7 +1906,6 @@ You can find a short description of the license [here](https://creativecommons.o
 You can find a complete version of the license [here](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode). 
 
 ## Notation
-<chapterId>07250f8d-ad7c-5531-a70c-4417d6d1b865</chapterId>
 
 
 ### Key terms

@@ -761,7 +761,7 @@ bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 
 À partir de cette information et en utilisant **uniquement l'heuristique de la réutilisation d'adresse**, quelles sont les transactions Bitcoin que l'on peut rattacher à l'identité de Loïc ?
 
-*Évidemment, je ne suis pas le vrai propriétaire de cette adresse de réception et je ne l'ai pas postée sur les réseaux sociaux. C'est une adresse que j'ai pris aléatoirement sur la blockchain.*
+*Évidemment, je ne suis pas le vrai propriétaire de cette adresse de réception et je ne l'ai pas postée sur les réseaux sociaux. C'est une adresse que j'ai prise aléatoirement sur la blockchain.*
 
 ### Exercice 6
 
@@ -824,9 +824,9 @@ bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 
 Ainsi, on peut supposer que l'output `0` correspond à un paiement et que l'output `1` est le change de la transaction, ce qui signifierait que l'utilisateur en input possède toujours l'output `1`.
 
-Pour étayer ou réfuter cette hypothèse, nous pouvons rechercher d'autres heuristiques qui soit confirment notre pensée, soit diminuent la probabilité que notre hypothèse soit correcte.
+Pour étayer ou réfuter cette hypothèse, nous pouvons rechercher d'autres heuristiques qui soient confirment notre pensée, soit diminuent la probabilité que notre hypothèse soit correcte.
 
-J'ai repéré au moins une autre heuristiques. C'est celle de l'output le plus grand. L'output `0` mesure `123 689 sats`, tandis que l'output `1` mesure `505 839 sats`. Il y a donc une différence significative entre ces deux outputs. L'heuristique de l'output le plus grand suggère que l'output le plus volumineux est vraisemblablement le change. Cette heuristique vient donc renforcer davantage notre hypothèse initiale.
+J'ai repéré au moins une autre heuristique. C'est celle de l'output le plus grand. L'output `0` mesure `123 689 sats`, tandis que l'output `1` mesure `505 839 sats`. Il y a donc une différence significative entre ces deux outputs. L'heuristique de l'output le plus grand suggère que l'output le plus volumineux est vraisemblablement le change. Cette heuristique vient donc renforcer davantage notre hypothèse initiale.
 
 Il semble donc vraisemblable que l'utilisateur ayant fourni l'UTXO en input détienne toujours l'output `1`, qui semble incarner le change de la transaction.
 
@@ -859,7 +859,7 @@ Ainsi, on peut supposer que l'output `0` correspond à un paiement et que l'outp
 
 Pour étayer ou réfuter cette hypothèse, nous pouvons rechercher d'autres heuristiques qui soit confirment notre pensée, soit diminuent la probabilité que notre hypothèse soit correcte.
 
-J'ai repéré au moins une autre heuristiques. C'est celle de l'output de montant rond. L'output `0` mesure `70 000 sats`, tandis que l'output `1` mesure `22 962 sats`. Nous sommes donc en présence d'un output parfaitement rond en unité de compte BTC. L'heuristique de l'output rond suggère que l'UTXO avec un montant rond est vraisemblablement celui du paiement, et que par élimination, l'autre représente le change. Cette heuristique vient donc renforcer davantage notre hypothèse initiale.
+J'ai repéré au moins une autre heuristique. C'est celle de l'output de montant rond. L'output `0` mesure `70 000 sats`, tandis que l'output `1` mesure `22 962 sats`. Nous sommes donc en présence d'un output parfaitement rond en unité de compte BTC. L'heuristique de l'output rond suggère que l'UTXO avec un montant rond est vraisemblablement celui du paiement, et que par élimination, l'autre représente le change. Cette heuristique vient donc renforcer davantage notre hypothèse initiale.
 
 Cependant, dans cet exemple, une autre heuristique pourrait remettre en question notre hypothèse de départ. Effectivement, l'output `0` est plus important que l'output `1`. Si l'on se base sur l'heuristique selon laquelle l'output le plus grand est généralement le change, on pourrait en déduire que l'output `0` est le change. Toutefois, cette contre-hypothèse paraît invraisemblable, car les deux autres heuristiques apparaissent substantiellement plus convaincantes que celle de l'output le plus grand. Par conséquent, il semble raisonnable de maintenir notre hypothèse initiale malgré cette contradiction apparente.
 
@@ -918,7 +918,7 @@ En analysant les heures de confirmation des transactions, les horaires UTC suiva
 21:55
 ```
 
-En analysant ces horaires, il apparaît que les timezones UTC-7 et UTC-8 sont cohérentes avec une plage d'activités humaines courantes (entre 08:00 et 23:00) pour une majorité des horaires :
+En analysant ces horaires, il apparaît que les fuseaux UTC-7 et UTC-8 sont cohérentes avec une plage d'activités humaines courantes (entre 08:00 et 23:00) pour une majorité des horaires :
 
 ```bash
 05:43 UTC > 22:43 UTC-7
@@ -942,12 +942,12 @@ En analysant ces horaires, il apparaît que les timezones UTC-7 et UTC-8 sont co
 
 ![BTC204](assets/notext/35/2.webp)
 
-Le fuseau horaire UTC-7 est particulièrement pertinent en été, car il inclut des états et régions tels que :
+Le fuseau horaire UTC-7 est particulièrement pertinent en été, car il inclut des états et des régions tels que :
 - Californie (avec des villes comme Los Angeles, San Francisco, et San Diego) ;
 - Nevada (avec Las Vegas) ;
 - Oregon (avec Portland) ;
 - Washington (avec Seattle) ;
-- ainsi que la région canadienne de la Colombie-Britannique (avec des villes comme Vancouver et Victoria).
+- La région canadienne de la Colombie-Britannique (avec des villes comme Vancouver et Victoria).
 
 Ces informations suggèrent que Loïc pourrait vraisemblablement résider sur la côte ouest des États-Unis ou du Canada.
 

@@ -17,8 +17,10 @@ Nous allons donc explorer les différents types de KYC (les full KYC type France
 +++
 
 # Introduction
+<partId>9aa6ddfd-a257-549f-bb23-f77f1ca5d330</partId>
 
 ## Explication & type de KYC
+<chapterId>13d18e82-0c50-5a7f-97d8-39cf5b4ef085</chapterId>
 
 ### Introduction
 
@@ -47,6 +49,7 @@ Il est important de noter que cette formation présente diverses alternatives, a
 Il est également important de noter que l'information présentée ici n'endosse aucune solution en particulier. Il s'agit simplement de présenter les options disponibles pour une meilleure compréhension du sujet. Pour toute question supplémentaire sur le Bitcoin, n'hésitez pas à consulter des ressources en ligne telles que www.découvrebitcoin.com.
 
 ## Comparatif des solutions d’achat-vente en pair à pair
+<chapterId>aad2dccb-0d2c-5533-859b-372b0f10d1ca</chapterId>
 
 ![comparatif des solutions d'achat-vente en p2p](https://youtu.be/HiwSjN04Mz0)
 
@@ -113,6 +116,7 @@ Chaque solution P2P a ses propres avantages et inconvénients. Nous proposons ci
 | - Historique de trade et système de notation : ces fonctionnalités permettent d'évaluer la fiabilité des autres utilisateurs. |                                                                                                                                          |
 
 ## Conclusion sur les solutions P2P
+<chapterId>c904985a-78dd-593e-a9c4-bfd1208d10c3</chapterId>
 
 En résumé, chaque solution P2P a ses avantages et inconvénients. Bisq est considérée comme la plus robuste et sécurisée, mais moins facile d'accès. RoboSat est open source mais moins robuste que Bisq. LNP2PBot est moins robuste et sécurisé que les autres solutions, moins rapide et moins user-friendly que RoboSat, mais plus que Bisq. Peach est l'application la plus facile et rapide pour acheter du Bitcoin en non-KYC, mais une entreprise est derrière, donc des faiblesses en termes de sécurité et robustesse. HodlHodl est un protocole géré par une entreprise et close source, donc des faiblesses en termes de sécurité et robustesse, et un peu plus compliqué que Peach.
 
@@ -120,8 +124,10 @@ Le bon vieux cash en face à face reste toujours une solution, pour de petits mo
 Outre les solutions P2P, il existe d'autres options d'échange de cryptomonnaies. kycnot.me propose des services tels que VPN, VPS, SMS, etc. Bitrefil permet d'acheter des cartes cadeaux. Chaque solution sur [kycnotme](https://kycnot.me/) est présentée avec ses points positifs et négatifs.
 
 # Les Tutoriels sur les solutions d'achat/vente en p2p
+<partId>582cee39-f6d0-5fb8-906f-b3e4c9f36fa5</partId>
 
 ## Robosats
+<chapterId>1f1bd705-fcb3-5e32-8aa7-9ba184488326</chapterId>
 
 ![robosats](https://tube.nuagelibre.fr/videos/watch/1978a2e0-64a0-4437-9229-7614cdf5bf61?start=0s)
 
@@ -152,6 +158,7 @@ Voyons maintenant les étapes pour la vente de bitcoins sur Robosats:
 - Si quelqu'un accepte votre offre de vente, discutez avec le pair pour procéder au paiement en fiat. Une fois le paiement effectué, le trade est complété et les satoshis vendus !
 
 ## BISQ: solution d'achat en peet à peer
+<chapterId>28b010ce-0e9b-5f20-a622-fa64629b2d88</chapterId>
 
 [Bisq](https://bisq.network/) est une plateforme d'échange décentralisée pour les actifs numériques, principalement Bitcoin. Elle permet des transactions directes, sécurisées et privées entre utilisateurs du monde entier sans besoin d'un intermédiaire.
 
@@ -228,6 +235,7 @@ Pour vendre du Bitcoin sur BISQ :
 Une fois que l'acheteur a effectué le dépôt de la transaction sur BISQ, les Bitcoins sont automatiquement envoyés à l'acheteur et vous recevez l'argent. Le compte est vérifié et signé après une transaction avec un compte signé.
 
 ## LNP2PBOT
+<chapterId>e3b61150-90e3-5ab4-bc12-4a05879321f5</chapterId>
 
 ![LNp2pbot tutoriel](https://tube.nuagelibre.fr/videos/watch/57ed232d-6149-4267-be38-92b0f32800f7)
 
@@ -264,6 +272,7 @@ Si vous souhaitez acheter des Bitcoins en envoyant une Invoice LN, suivez ces é
 En utilisant ces méthodes, vous pouvez acheter et vendre des bitcoins sur Telegram de manière sécurisée.
 
 ## Peach Bitcoin
+<chapterId>05e328c4-1003-586e-85c3-65109e3486e1</chapterId>
 
 site: https://peachbitcoin.com/
 
@@ -284,6 +293,7 @@ Comme Peach est toujours en version bêta, certains bugs peuvent survenir. Il es
 En somme, l'application mobile Peach offre une solution accessible pour acheter et vendre des bitcoins en pair à pair. Une utilisation sécurisée et optimale de Peach est la clé pour réussir vos transactions.
 
 ## Hold Hodl
+<chapterId>2c285751-ae9f-54af-8b28-c7c0beac7b43</chapterId>
 
 [HodlHodl](https://hodlhodl.com/) est une place de marchée de Bitcoin décentralisée qui accorde la priorité au contrôle et à la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre les utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
 
@@ -323,6 +333,7 @@ La création d'une offre de vente ou d'achat de bitcoins sur HodlHodl se déroul
 - Une fois l'offre créée, vous pouvez la voir, l'éditer, la dupliquer ou la supprimer à votre guise.
 
 ## Bonus: Side Shift.AI
+<chapterId>bd1f0844-af1e-53da-9518-b3b22f802276</chapterId>
 
 ![SideShift AI](https://youtu.be/xG8Wc1Ti5b8)
 
@@ -341,8 +352,10 @@ Ce cours, ainsi que l'intégralité du contenu présent sur cette université, v
 Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
 
 # Pour aller plus loin
+<partId>28194543-78b5-5f98-852a-2fc76439ddde</partId>
 
 ## Interview de Steph de Peach Bitcoin
+<chapterId>76ed1f17-1d0b-5c0f-8726-91ab4e2e2955</chapterId>
 
 ![interview de steph](https://youtu.be/LRGKD8qNSXw)
 
@@ -359,6 +372,7 @@ Actuellement, Pitch Bitcoin est en train de développer plusieurs fonctionnalit�
 Pour conclure, la fondatrice de Pitch Bitcoin souligne l'importance de la compétition dans l'écosystème Bitcoin, car ce qui est bon pour Bitcoin est bénéfique pour tout le monde. Elle encourage également la diversité et l'inclusion dans l'industrie du Bitcoin et au-delà.
 
 ## Interview de Pierre
+<chapterId>4e4ba218-01ec-5f3a-bc49-c148bb22ee61</chapterId>
 
 ![interview de Pierre](https://youtu.be/COoezuJncm8)
 
@@ -376,6 +390,7 @@ La formation souligne l'importance du rôle de l'éducation dans la compréhensi
 En conclusion, Bitcoin est présenté comme une monnaie décentralisée nécessitant une éducation publique et une ouverture d'esprit pour être pleinement compris et utilisé. La formation vise à aider les participants à comprendre les diverses solutions d'achat en pair à pair et à utiliser ces outils pour renforcer leur anonymat et leur sécurité lors de l'utilisation de Bitcoin.
 
 ## Article bonus sur la vie privée
+<chapterId>9f1aa75a-3031-58b2-9d4a-11a5c4197302</chapterId>
 
 Un super [article](https://decouvrebitcoin.fr/tribune-sur-le-kyc-et-lidentification-des-bitcoins-onchain/) de Loïc Morel sur le KYC et l’identification
 

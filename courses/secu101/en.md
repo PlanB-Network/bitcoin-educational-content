@@ -357,9 +357,33 @@ Keep learning and gradually implement good practices!
 
 Golden rule: Cybersecurity is a moving target that will adapt to your learning journey!
 
-### Tutorial: 2FA and YubiKey solutions
+# Practical Section 
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub._**
+## Setting up a Mailbox 
+
+Notice that, for the moment, this part of the course only contains how-to tutorials in French. We are currently working on translating the video to publish it in your language. If you want to help us translate, contact us via the [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Securing in 2FA
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Creating a password manager
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Securing your accounts
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Back-up set-up
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Change of browser & VPN
+
+![video](https://youtu.be/vc6-Ouca09g)
 
 # Go further
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -399,6 +423,7 @@ The constant evolution of threats requires regular monitoring of news and specia
 
 By mastering these skills and tools, you will be well-equipped to navigate the world of cybersecurity successfully.
 ![](assets/notext/20.webp)
+
 ## Interview with Renaud
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 

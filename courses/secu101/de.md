@@ -359,10 +359,33 @@ Machen Sie weiterhin Fortschritte und setzen Sie nach und nach die richtigen Pra
 
 Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich an Ihren Lernfortschritt anpasst!
 
-### Tutorial: 2FA- und YubiKey-Lösungen
+# Praktischer Abschnitt
 
-**_Tutorial in Bearbeitung, um beizutragen oder es hinzuzufügen, können Sie GitHub verwenden_**
+## Einrichtung eines Postfachs
 
+Beachten Sie, dass dieser Teil des Kurses derzeit nur Anleitungen auf Französisch enthält. Wir arbeiten gerade daran, das Video zu übersetzen, um es in Ihrer Sprache zu veröffentlichen. Wenn Sie uns beim Übersetzen helfen möchten, kontaktieren Sie uns über [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data).
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Absicherung mit 2FA
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Erstellung eines Passwort-Managers
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Absicherung Ihrer Konten
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Einrichtung eines Back-ups
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Browserwechsel & VPN
+
+![video](https://youtu.be/vc6-Ouca09g)
 # Gehen Sie weiter
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

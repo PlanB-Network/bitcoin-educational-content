@@ -368,6 +368,7 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Mise en place d'un Boite Mail 
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 ![video](https://youtu.be/vpYJYWhmEZg)
@@ -430,6 +431,7 @@ L'évolution constante des menaces nécessite une veille régulière des actuali
 
 En maîtrisant ces compétences et outils, vous serez bien équipé pour naviguer avec succès dans le monde de la cybersécurité.
 ![](assets/notext/20.webp)
+
 ## Interview de Renaud
 
 ![Interview](https://youtu.be/RVjE-KOSKDs)

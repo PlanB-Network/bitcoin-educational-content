@@ -347,9 +347,33 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 
 黄金律：サイバーセキュリティは、あなたの学習の旅に適応する移動目標です！
 
-### チュートリアル：2FAとYubiKeyソリューション
+# 実践セクション
 
-**_チュートリアルは現在作成中です。貢献したり追加したりするには、GitHubを通じて行ってください。_**
+## メールボックスの設定
+
+現時点では、このコースの一部にはフランス語のハウツー・チュートリアルのみが含まれています。私たちは現在、ビデオを翻訳してあなたの言語で公開する作業を行っています。翻訳を手伝っていただける場合は、[GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)経由でお問い合わせください。
+
+![ビデオ](https://youtu.be/vpYJYWhmEZg)
+
+## 2FAでのセキュリティ強化
+
+![ビデオ](https://youtu.be/mNcAKRDmz5o)
+
+## パスワードマネージャーの作成
+
+![ビデオ](https://youtu.be/y7Xkv4E5YmU)
+
+## アカウントのセキュリティ強化
+
+![ビデオ](https://youtu.be/0JHZRALmGY0)
+
+## バックアップの設定
+
+![ビデオ](https://youtu.be/wTJnlSUkDRI)
+
+## ブラウザとVPNの変更
+
+![ビデオ](https://youtu.be/vc6-Ouca09g)
 
 # より深く掘り下げる
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>

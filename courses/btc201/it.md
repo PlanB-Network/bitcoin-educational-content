@@ -1453,6 +1453,9 @@ Oltre a fornire indipendenza finanziaria, Bitcoin ha anche restituito dignità a
 Inoltre, con l'aiuto di Mahboob e Bitcoin, queste donne in Afghanistan possono ora connettersi con un pubblico globale. Si spera che, negli anni a venire, queste donne continueranno a condividere le loro storie e prospettive con il mondo, contribuendo a rompere le barriere che esistono tra diverse culture e comunità.
 
 Nel complesso, Bitcoin è stato uno strumento potente per l'empowerment finanziario delle donne.
+
+## Mercedes
+
 Nata in Messico nel 1949 in condizioni di povertà, Mercedes ha sperimentato fin da giovane le nette disuguaglianze che affliggevano la sua società. Durante l'infanzia, ha affrontato numerose sfide, tra cui la repressione governativa dei movimenti studenteschi e le difficoltà uniche vissute dalle donne in condizioni di povertà. Inoltre, il vasto divario tra ricchi e poveri, combinato con un accesso limitato a un'istruzione di qualità, ha intrappolato la sua famiglia e innumerevoli altri nella povertà. Frustrata da queste ingiustizie, Mercedes si è avvicinata al marxismo (comunismo), sostenendo il cambiamento sociale e la riforma economica.
 
 Nonostante le forti convinzioni marxiste, Mercedes è arrivata a riconoscere i limiti intrinseci di questi sistemi tradizionali riguardo alla distribuzione del potere e della ricchezza. Questa realizzazione l'ha spinta a cercare altrove, momento in cui ha incontrato Bitcoin e il suo potenziale di sfidare i sistemi finanziari che aveva a lungo criticato. Motivata dalla prospettiva di favorire la liberazione e l'empowerment finanziario, Mercedes ha indirizzato la sua energia nel sostenere il potenziale trasformativo di Bitcoin.
@@ -1482,60 +1485,73 @@ Proprietario di un Caffè, Vietnam
 
 "Nel mio caffè nel distretto di Binh Thanh, serviamo una clientela giovane e occasionali turisti, offrendo una varietà di bevande, inclusi caffè, bibite e cocktail. Tether è diventato la nostra soluzione preferita per elaborare i pagamenti dai clienti stranieri che non dispongono di valuta locale o conti bancari. Sebbene le vendite tramite Tether siano attualmente limitate, ci offre un modo conveniente per colmare il divario valutario e accogliere i nostri clienti internazionali. I clienti sono spesso stupiti dalla nostra apertura all'accettazione di pagamenti in criptovaluta, lasciando un'impressione duratura sulla loro esperienza."
 
+![image](assets/6.webp)
 Parvinee Ratchaphokhinpiti
 Pensionato, Thailandia
 
 "USDt ha rivoluzionato i miei trasferimenti di denaro internazionali. Da pensionato, ero solito affidarmi a bonifici bancari lenti. Grazie a USDt, ora posso inviare denaro senza sforzo tramite uno scambio di asset digitali. Entro 30 minuti, mia sorella ha ricevuto i fondi. I benefici in termini di risparmio di tempo sono inestimabili, garantendo transazioni rapide e senza problemi."
 
+![image](assets/7.webp)
 Jamie Tran
 Insegnante di Pianoforte, Vietnam
 
 "Inviare denaro ai miei parenti all'estero è stata una necessità frequente, ma il processo di conversione delle valute presso gli scambi locali si è rivelato sia dispendioso in termini di tempo che costoso. Per affrontare queste sfide, ho introdotto i miei parenti alla comodità di utilizzare USDt. Questo semplice cambiamento ha permesso alla nostra famiglia di risparmiare tempo e denaro significativi nelle nostre transazioni finanziarie. Con USDt, ora godiamo di trasferimenti transfrontalieri semplificati, garantendo un supporto efficiente e conveniente per i nostri cari."
 
+![image](assets/8.webp)
 Roman
 Espatriato Russo che vive in Vietnam
 
 "Vivendo in Vietnam, invio frequentemente Tether ai miei parenti e cugini in Russia. Trasferire denaro all'estero con Tether è senza problemi rispetto all'uso dei metodi bancari tradizionali. Non sono necessarie visite in banca, documenti notarizzati o spiegazioni. Senza limiti di invio, con commissioni minime e transazioni rapide, i fondi vengono consegnati in pochi minuti."
 
+![image](assets/9.webp)
 Luis Graterol
 Audiovisivo, Venezuela
 
 "Il mio nome è Luis Graterol, e Tether mi ha aiutato a proteggere i miei risparmi in un altro modo. In Venezuela, soffriamo a causa dell'alta inflazione, e Tether è stato di grande aiuto. La sua usabilità è semplice e, in molti casi, è possibile effettuare transazioni senza commissioni. USDt rende la mia vita più facile! Aiuta anche me a educare e incoraggiare il suo uso nei media audiovisivi; da quando ho scoperto la sua facilità, ricevo i miei pagamenti in USDt e risparmio il tedioso fiat locale che colpisce molti di noi!"
 
+![image](assets/10.webp)
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 
 "Sono del Venezuela e gestisco una piccola attività di consegna colazioni. Tether USDt è stata una soluzione valida per il problema del contante fisico per me. USDt mi ha anche aiutato con i miei risparmi perché se avessi tenuto i conti della mia attività in Bolivar venezuelano, non avrei potuto pianificare in anticipo con il mio approvvigionamento di cibo a causa della costante svalutazione."
+
+![image](assets/11.webp)
 Marcela Romero
 Responsabile Marketing e PR, Guanacaste, Costa Rica
 
 "Qualche anno fa, mi sono trasferita nel paese di mio marito. A causa della pandemia, mi sono trovata in una condizione migratoria unica, risultando in una lunga attesa per la residenza o la cittadinanza. Per quasi tre anni, non ho avuto accesso a un conto bancario e non ho potuto lavorare legalmente nel paese. Tuttavia, sfruttando le mie capacità di lavoro online e ricevendo il mio stipendio in USDt, ho continuato la mia carriera a distanza con aziende internazionali. Con Tether, posso inviare denaro a casa istantaneamente senza alte commissioni o ritardi. Tether mi ha permesso di perseguire i miei obiettivi professionali e mantenere l'indipendenza finanziaria nonostante le restrizioni governative."
 
+![image](assets/12.webp)
 Simoneth Gomez
 Ingegnere QA, Venezuela, residente in Argentina
 
 "Ciao, mi chiamo Simoneth Gomez. Sono del Venezuela, ma attualmente vivo a Buenos Aires, dove lavoro come analista della qualità del software. Quando sono arrivata in Argentina, avevo una distanza di 12 km tra il mio lavoro e il posto dove dovevo cambiare denaro per inviarlo alla mia famiglia in Venezuela. Così mi è stato presentato USDt e ho iniziato a usarlo perché invece di dover fare quel tragitto per \$5 o \$10 in autobus, sono stata in grado di risolvere tutto dalla mia scrivania in due minuti"
 
+![image](assets/13.webp)
 Carlos Caballero
 Psicologo, Argentina
 
 "Tether è stata la soluzione che mi ha permesso di continuare a lavorare nella mia professione durante gli anni della pandemia. Il fatto di essere una valuta ancorata al dollaro le permette di avere un valore di riferimento internazionale. E la sua stabilità e sicurezza rispetto alla volatilità delle altre criptovalute è il motivo principale che mi ha spinto a sceglierla."
 
+![image](assets/14.webp)
 Heloisa Passos
 CEO Sp4ce Games, Brasile
 
 "Lavoro a distanza per aziende internazionali da circa cinque anni ormai, e la maggior parte di quel tempo, ho sofferto per gli alti tassi di interesse delle banche nazionali, che addebitano una grande percentuale per ogni rimessa internazionale effettuata, oltre al tempo di attesa per l'elaborazione dei pagamenti attraverso il sistema Swift (circa 24 ore). Quando ho iniziato a ricevere il mio stipendio in Tether, mi sono resa conto di quanto tempo e denaro ho iniziato a risparmiare semplicemente venendo pagata in USDt."
 
+![image](assets/15.webp)
 Samuel
 Trading Company, Nigeria
 
 "Usare USDt ha risparmiato alla nostra azienda molto tempo perché, come azienda nigeriana che ottiene USD richiede di andare alla nostra banca mentre si spende tempo prezioso compilando moduli e facendo la coda per ore per effettuare prelievi o trasferimenti. Con USDt, tuttavia, possiamo scambiarlo con la valuta locale in meno di 5 minuti ed eseguire qualsiasi transazione che potremmo avere."
 
+![image](assets/16.webp)
 Joshua
 Studente, Nigeria
 
 "Tether mi ha aiutato in numerosi modi. Guadagnare in Tether mi ha aiutato a superare la tensione dell'inflazione crescente nel paese, e mi ha aiutato a ridurre le spese inutili. Inoltre, aiuta i miei risparmi a mantenere il loro valore poiché non sono gravemente colpito dalla svalutazione della Naira."
 
+![image](assets/17.webp)
 Esther
 Agenzia HR, Nigeria
 

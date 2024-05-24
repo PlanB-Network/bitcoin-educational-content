@@ -354,10 +354,33 @@ Continue aprendendo e implementando gradualmente as boas práticas!
 
 Regra de ouro: A segurança da informação é um alvo em movimento que se adaptará ao seu percurso de aprendizagem!
 
-### Tutorial: soluções 2FA e YubiKey
+# Seção Prática
 
-**_Tutorial em construção, para contribuir ou adicioná-lo, você pode usar o GitHub_**
+## Configurando uma Caixa de Correio
 
+Observe que, por enquanto, esta parte do curso contém apenas tutoriais em francês. Estamos trabalhando na tradução do vídeo para publicá-lo em seu idioma. Se você quiser nos ajudar a traduzir, entre em contato conosco através do [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Segurança em 2FA
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Criando um gerenciador de senhas
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Protegendo suas contas
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Configuração de Backup
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Mudança de navegador & VPN
+
+![video](https://youtu.be/vc6-Ouca09g)
 # Vá além
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

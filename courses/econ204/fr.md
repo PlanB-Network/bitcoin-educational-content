@@ -974,7 +974,7 @@ En 2007, le taux d'inflation au Zimbabwe avait atteint le seuil de 50 % par mois
 
 C'est inquiétant de noter que le Zimbabwe a depuis tenté de réintroduire sa propre monnaie, et des signes d'inflation élevée sont à nouveau apparus. Selon certaines organisations internationales, le pays pourrait déjà remplir à nouveau les critères d'hyperinflation, même s'il n'a pas encore atteint le seuil officiel de 50 % par mois. Cela sert de rappel sur les dangers de l'émission monétaire excessive et du financement du déficit par la banque centrale.
 
-### Conclusion
+## Conclusion
 
 Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation.
 

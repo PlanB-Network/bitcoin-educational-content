@@ -366,9 +366,33 @@ Continuate ad imparare e ad implementare gradualmente le buone pratiche!
 
 Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatta al vostro percorso di apprendimento!
 
-### Tutorial: soluzioni 2FA e YubiKey
+# Sezione Pratica
 
-**_ Tutorial in costruzione, per contribuire o aggiungerlo, è possibile passare attraverso GitHub _**
+## Configurazione di una Casella di Posta
+
+Si noti che, al momento, questa parte del corso contiene solo tutorial in francese. Stiamo attualmente lavorando alla traduzione del video per pubblicarlo nella tua lingua. Se vuoi aiutarci a tradurre, contattaci tramite [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Sicurezza con 2FA
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Creazione di un gestore di password
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Sicurezza dei tuoi account
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Configurazione del backup
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Cambio di browser e VPN
+
+![video](https://youtu.be/vc6-Ouca09g)
 
 # Andare oltre
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>

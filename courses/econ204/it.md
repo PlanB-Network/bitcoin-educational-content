@@ -542,62 +542,65 @@ Nell'analisi del percorso economico, è evidente che quando si raggiunge un'alta
 
 Di fronte a questa situazione, lo Stato impone regolamentazioni draconiane, tra cui i controlli sui capitali. Impone anche ai commercianti di accettare la valuta nazionale e i controlli. Man mano, vengono promulgate nuove leggi che ampliano la definizione di comportamenti criminali. Alla fine, il tasso di cambio sale in modo esponenziale, poiché lo Stato è disposto a scambiare la sua valuta, stampata a basso costo, con valute estere più robuste.
 
-### 4 Similitudini delle conseguenze dell'iperinflazione
+### 4 Somiglianze nelle conseguenze dell'iperinflazione
 
-![image](assets/chapitre-3.2/6.webp)
+![immagine](assets/chapitre-3.2/6.webp)
 
 1. Petrolio e metalli
 
-In Germania durante il periodo di Weimar, il furto di materiali preziosi era così diffuso che il piombo dei tetti veniva spesso rubato. In Zimbabwe, la disperazione ha spinto alcuni a interrompere l'alimentazione elettrica per estrarre l'olio dai trasformatori e usarlo nei loro veicoli.
-Dans les périodes de crise économique, les gouvernements peuvent mettre en place des systèmes de rationnement pour contrôler la distribution de certains biens essentiels, tels que l'essence. Les coupons d'essence sont utilisés pour limiter la quantité de carburant qu'une personne peut acheter, afin de prévenir les pénuries et de garantir une distribution équitable.
+In Germania durante il periodo di Weimar, il furto di materiali preziosi era tale che il piombo dai tetti veniva frequentemente rubato. In Zimbabwe, la disperazione ha spinto alcuni a interrompere la rete elettrica per estrarre olio dai trasformatori e usarlo nei loro veicoli.
+Nel contesto di un'economia in deterioramento e scarsità di risorse, i governi possono implementare sistemi di razionamento per controllare la distribuzione di beni essenziali. Questo include l'uso di buoni o voucher per regolare l'acquisto di benzina o carburante.
 
-> Weimar: "Les coupons d'essence étaient nécessaires pour acheter du carburant, mais ils étaient souvent difficiles à obtenir et les files d'attente étaient interminables."
+> Weimar: "A Berlino, a causa della scarsità di benzina, è stato implementato un sistema di buoni per regolare la sua distribuzione. Ogni cittadino riceveva una quantità specifica di buoni che gli permetteva di acquistare una quantità limitata di carburante."
 
-> Zimbabwe: "En raison de la pénurie d'essence, le gouvernement a introduit des coupons d'essence pour contrôler la distribution et éviter les achats excessifs."
-> Le Zimbabwe, en revanche, n'a pas émis de monnaie de nécessité pendant l'hyperinflation. Les coupons d'essence ont plutôt rempli ce rôle, en tant que moyen d'échange alternatif.
+> Zimbabwe: "Durante la crisi del carburante, il governo ha introdotto un sistema di buoni per gestire la distribuzione della benzina. Ogni individuo riceveva un numero determinato di buoni che potevano essere scambiati per una certa quantità di carburante."
+> Le popolazioni cercano alternative stabili per le transazioni. A Weimar, prodotti come l'ottone e il carburante servivano come mezzi di scambio a causa del loro costante valore intrinseco. In Zimbabwe, di fronte alla rapida svalutazione del dollaro zimbabwese, i buoni benzina, che rappresentavano una quantità fissa di un prodotto essenziale, diventavano una valuta de facto. Queste situazioni evidenziano come le società si adattino a condizioni economiche estreme, trovando soluzioni innovative per mantenere il commercio e l'economia in movimento.
 
-3. L'influence étrangère
+Weimar: "Il baratto era già una forma comune di scambio; ma ora, beni come l'ottone e il carburante diventavano la valuta comune per acquisti e pagamenti."
 
-La République de Weimar a été fortement influencée par les conditions économiques mondiales, en particulier par les réparations de guerre imposées par le traité de Versailles. Le Zimbabwe, quant à lui, a été principalement affecté par des facteurs internes tels que la mauvaise gestion économique et la politique monétaire irresponsable.
+Zimbabwe: "Ora usavamo questi voucher per pagare l'affitto ai proprietari di immobili, le tasse comunali, le bollette telefoniche, infatti, quasi tutto, poiché tutti avevano smesso di accettare pagamenti in dollari zimbabwesi e assegni."
 
-### Les parallèles contemporains
+#### Conclusione
 
-1. L'hyperinflation au Venezuela
+Questo conclude questo video sulle somiglianze delle esperienze durante i periodi di iperinflazione in Zimbabwe e nella Repubblica di Weimar. Nel prossimo video, discuteremo le differenze e i paralleli contemporanei. Grazie.
 
-Le Venezuela est actuellement confronté à une crise économique majeure, caractérisée par une hyperinflation similaire à celle vécue par la République de Weimar et le Zimbabwe. Les citoyens vénézuéliens ont également cherché des alternatives stables pour les transactions, telles que l'utilisation de devises étrangères et de crypto-monnaies.
+## Weimar vs Zimbabwe: Differenze e Paralleli Contemporanei
+<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
-2. Les crypto-monnaies
+In questo capitolo, esploreremo le differenze e i paralleli contemporanei tra i periodi passati e presenti di iperinflazione, con aneddoti e confronti pertinenti per oggi.
 
-Les crypto-monnaies, telles que le Bitcoin, ont émergé comme une alternative potentielle aux monnaies nationales dans les pays touchés par l'hyperinflation. Ces monnaies numériques offrent une stabilité relative et une protection contre la dévaluation monétaire.
+### Differenze tra la Repubblica di Weimar e lo Zimbabwe
 
-### Conclusion
+1. È colpa del dollaro!
 
-Bien que chaque période d'hyperinflation ait ses propres caractéristiques distinctes, il existe des similitudes et des parallèles qui peuvent être observés entre elles. Comprendre ces similitudes et différences peut nous aider à mieux appréhender les crises économiques actuelles et à envisager des solutions innovantes pour maintenir le commerce et l'économie en mouvement.
-In modo interessante, anche la Francia ha utilizzato i Notgeld, soprattutto negli anni '20. Questa iniziativa non era solo una conseguenza diretta dell'iperinflazione, ma aveva anche radici nelle perturbazioni causate dalla Prima Guerra Mondiale. La guerra non solo ha destabilizzato l'economia, ma ha anche aumentato il costo dei metalli. Di conseguenza, il valore intrinseco delle monete in metallo spesso superava il loro valore nominale, spingendo le persone a conservarle. In assenza di monete, alcune istituzioni, come la Camera di Commercio di Lione, hanno stampato i propri Notgeld.
+In Germania, era comune che la popolazione attribuisse l'inflazione all'ascesa del dollaro piuttosto che alla svalutazione intrinseca della propria moneta. Molti credevano che il fenomeno osservato fosse dovuto a un apprezzamento del dollaro. Questa percezione negava qualsiasi riconoscimento del legame tra le loro difficoltà economiche e la svalutazione monetaria, principalmente indotta dalla creazione eccessiva di denaro. Il libro "When Money Dies" illustra chiaramente questa mancanza di comprensione tra la popolazione tedesca. Al contrario, in Zimbabwe, la situazione era diversa: i cittadini erano pienamente consapevoli della causa sottostante dell'iperinflazione che stavano vivendo.
 
-![image](assets/chapitre-3.3/0.webp)
+![immagine](assets/chapitre-3.3/3.webp)
 
-> "Ciò che deve essere fatto, deve essere fatto." - un detto locale
+2. Moneta di necessità (Notgeld)
 
-Tra i Notgeld, un particolare biglietto attira l'attenzione. Presenta un'illustrazione toccante: al centro, una persona è raffigurata mentre defeca un Marco. Sul retro, una tabella dei prezzi dal 1913 al 1921 illustra l'aumento dell'inflazione durante questo periodo.
+Di fronte alla crisi monetaria ed economica, la Germania ricorreva al "Notgeld" (denaro d'emergenza). Queste banconote, stampate da città o alcune aziende, erano progettate per affrontare la carenza di moneta comune.
+Curiosamente, anche la Francia ha fatto ricorso al Notgeld, in particolare negli anni '20. Questa iniziativa non fu solo una diretta conseguenza dell'iperinflazione, ma aveva anche radici nelle perturbazioni causate dalla Prima Guerra Mondiale. La guerra non solo destabilizzò l'economia, ma aumentò anche il costo dei metalli. Di conseguenza, il valore intrinseco delle monete metalliche spesso superava il loro valore nominale, spingendo le persone a tesaurizzarle. In assenza di monete, alcune istituzioni, come la Camera di Commercio di Lione, stamparono il loro proprio Notgeld.
 
-L'artista dietro questo Notgeld sembra rivolgere una critica ironica alle autorità responsabili della crisi dell'iperinflazione. Il biglietto porta la scritta "La necessità non conosce legge". Un'altra espressione specifica del luogo di origine del Notgeld recita: "Ciò che deve essere fatto, deve essere fatto".
+> "Quello che deve essere fatto, deve essere fatto." - un detto locale
 
-![image](assets/chapitre-3.3/1.webp)
+Tra i Notgeld, spicca una particolare banconota. Presenta un'illustrazione toccante: al centro, un individuo è raffigurato mentre defeca una Mark. Sul retro, una tabella dei prezzi dal 1913 al 1921 illustra l'ascesa dell'inflazione in quel periodo.
 
-> "La necessità non conosce legge"
+L'artista dietro questo Notgeld sembra fare una critica ironica alle autorità responsabili della crisi dell'iperinflazione. La banconota porta l'iscrizione "La necessità non conosce legge". Un'altra espressione specifica della località di origine del Notgeld afferma: "Quello che deve essere fatto, deve essere fatto".
 
-> La prima Shitcoin: In modo aneddotico, guardando l'illustrazione centrale del biglietto, dove la moneta è letteralmente svalutata dall'azione della persona, potrebbe essere definita la prima "shitcoin".
+> "la necessità non conosce legge"
 
-3. Obbligazioni e ipoteche
+> La prima Shitcoin: Aneddoticamente, guardando l'illustrazione centrale della banconota, dove la valuta è letteralmente svalutata dall'azione dell'individuo, potrebbe essere chiamata la prima "shitcoin".
 
-A Weimar, alcuni debiti sono stati rivalutati per compensare l'impatto dell'inflazione. Questa misura non è stata adottata nello Zimbabwe.
+3. Obbligazioni e Mutui
 
-> Weimar: "Una decisione di rivalutare i prestiti governativi è diventata legge nel 1925, il che ha portato gli azionisti a ricevere il 2,5% del loro investimento iniziale a condizione che tutti i ripristini fossero stati pagati."
+A Weimar, alcuni debiti sono stati rivalutati per compensare l'impatto dell'inflazione. Questa misura non è stata adottata in Zimbabwe.
 
-> Zimbabwe: "Nel luglio 2007 (tre anni dopo), potevo tirare fuori dalla mia tasca una banconota svalutata di ZDW 500.000 (bt "000"), ora del valore di 1,67 dollari al tasso di cambio parallelo, e rimborsare il mutuo, che avrebbe dovuto essere rimborsato in vent'anni. Inoltre, questa banconota rappresentava solo lo 0,49% del mio stipendio mensile dello stesso mese."
+> Weimar: "Una decisione di rivalutare i prestiti governativi è diventata legge nel 1925, risultando in azionisti che ricevevano il 2,5 percento del loro investimento iniziale a condizione che tutte le riparazioni fossero state pagate."
 
-Per saperne di più sulla gestione della crisi tedesca, questo libro è anche fondamentale.
+> Zimbabwe: "Nel luglio 2007 (tre anni dopo), potevo estrarre dalla mia tasca una banconota svalutata di ZDW 500.000, ora valutata $1.67 al tasso di mercato parallelo, e ripagare il mutuo ipotecario, che doveva essere estinto in vent'anni. Inoltre, questa nota rappresentava solo lo 0,49 percento del mio stipendio mensile per lo stesso mese."
+
+Per saperne di più sulla gestione della crisi tedesca, questo libro è altresì essenziale.
 
 ![image](assets/chapitre-3.3/4.webp)
 

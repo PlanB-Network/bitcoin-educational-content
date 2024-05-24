@@ -623,8 +623,6 @@ This concludes this video on the similarities of the experiences during the peri
 ## Weimar vs Zimbabwe: Differences and Contemporary Parallels
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
-Transcript:
-
 In this chapter, we will explore the differences and contemporary parallels between past and present hyperinflation periods, with anecdotes and relevant comparisons for today.
 
 ### Differences between the Weimar Republic and Zimbabwe

@@ -361,10 +361,33 @@ Como has entendido, establecer una buena higiene digital no siempre es sencillo,
 
 Regla de oro: ¡La seguridad informática es un objetivo en constante evolución que se adaptará a tu proceso de aprendizaje!
 
-### Tutorial: soluciones de 2FA y YubiKey
+# Sección Práctica
 
-**_Tutorial en construcción, para contribuir o agregarlo, puedes utilizar GitHub_**
+## Configuración de un Buzón de Correo
 
+Ten en cuenta que, por el momento, esta parte del curso solo contiene tutoriales en francés. Actualmente estamos trabajando en traducir el video para publicarlo en tu idioma. Si deseas ayudarnos a traducir, contáctanos a través de [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Seguridad en 2FA
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Creación de un gestor de contraseñas
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Asegurando tus cuentas
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Configuración de copia de seguridad
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Cambio de navegador y VPN
+
+![video](https://youtu.be/vc6-Ouca09g)
 # Ve más allá
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 

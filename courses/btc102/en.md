@@ -20,8 +20,10 @@ To help you start this adventure, I have created this free course. Only Bitcoin,
 +++
 
 # Introduction and prerequisites to understand Bitcoin
+<partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Introduction to BTC102 course
+<chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Welcome to BTC 102! A practical course that will guide you in setting up your Bitcoin plan! Through this course, we will prepare to get your first bitcoins, secure them properly, and ensure a smooth entry into this new industry.
 
@@ -42,6 +44,7 @@ As you can see, the purpose of this training is to accompany you so that you adh
 Good luck :)
 
 ## Scams and Financial Frauds
+<chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 We are in an industry where two main branches are emerging in the "cryptocurrency" sector:
 
@@ -147,6 +150,7 @@ It is important to note that everyone has an agenda, including myself. I believe
 Always keep in mind that not everyone will necessarily be transparent about their intentions. Always question the purpose of someone's actions and do not blindly trust them.
 
 ## Online Security
+<chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 In addition to cryptocurrency scams and financial scams, the main reason for losing bitcoins is related to poor online security management. It often happens that people use the same password for all their accounts, forget to update their computer, and neglect to regularly back up their data. If you are concerned about these practices, don't worry, it is always possible to improve your online security habits. Here are some basic measures to implement:
 
@@ -190,6 +194,7 @@ Online anonymity is essential for a free and prosperous society. It enables free
 Once again, if you are interested in this topic, the SECU 101 training is available to guide you.
 
 ## Tips for Beginners
+<chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Formal education teaches us very little about investing. As a result, we often venture alone into this new and complex investment landscape.
 
@@ -282,8 +287,10 @@ If you lose your key, you also lose your money. It is best to follow industry be
 Good luck! I hope you will follow me into the world of Bitcoin and allow me to guide you in acquiring and securing your first Bitcoins without taking risks!
 
 # Understanding what we're getting into
+<partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin in 5 minutes
+<chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 In this course, we want to focus on the action plan to get your first bitcoins. If you want a thorough explanation of the fundamentals of Bitcoin, we recommend BTC 101, available for free on this platform.
 
@@ -314,6 +321,7 @@ If this is new to you, I strongly encourage you to follow BTC 101 before continu
 ![in a nutshell](assets/section2/10.webp)
 
 ## Why is Bitcoin important?
+<chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Why is the importance of Bitcoin so crucial? This is the central question of this university. Whether it concerns your studies or your investment strategy, without a clear understanding of the importance of Bitcoin, you risk deviating from your action plan. The goal is therefore to always keep in mind the fundamentals of Bitcoin, in order to ensure that your strategy remains in line with your convictions.
 
@@ -386,6 +394,7 @@ The main promoters of Bitcoin today are still primarily cyberpunks, oppressed ci
 Bitcoin has a highly philosophical, ethical, and political dimension while being completely indifferent to these considerations. Indeed, Bitcoin is a simple protocol that reproduces the same process over and over again. It is its users who have turned it into a weapon of liberation against the current financial system. From a Cyberpunk perspective, Bitcoin opposes a cashless society. It allows for the creation of fully private and intermediary-free digital financial transactions. For the cyberpunk movement, Bitcoin is the electronic equivalent of cash.
 
 ## Understanding the Bitcoin Industry
+<chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 With the arrival of Bitcoin in 2009 by Satoshi Nakamoto, a multi-billion dollar industry was born. Despite its youth, this industry has experienced exponential growth over the past decade. New players arrive every day with large sums of money and are ready to forcefully enter this new industry. Today, the industry has reached a point of no return where governments, banks, internet giants, and others have joined the movement with various interventions.
 
@@ -511,6 +520,7 @@ Unlimited power? No. Core developers do not have unlimited power and cannot modi
 ![blockchain](assets/industrie/5.webp)
 
 ## Bitcoin's Layered Architecture
+<chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, as an open-source protocol, can be complemented and enriched by layers of protocols/applications added by anyone. Some of these features are more significant than others, creating a dynamic ecosystem with a multitude of companies contributing to the development of the infrastructure. Examples of such projects include Sidechains (e.g., Liquid Chain by Blockstream), the Lightning Network by Lightning Labs, and identity concepts (e.g., Microsoft ION). These projects are like additional layers added to the original Bitcoin protocol.
 
@@ -543,8 +553,10 @@ This is the future vision I have for Bitcoin. It will become a highway for inter
 Andreas Antonopoulos, if I'm not mistaken, introduced me to this idea. @aantonop
 
 # Setting up your plan
+<partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Choosing your profile
+<chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Now that we have reviewed the fundamental basics and learned how to avoid scams and financial losses, we can develop our plan. The plan will be fairly simple to start with, but it is important to get started. You can always modify it as time goes on.
 
@@ -571,6 +583,7 @@ With this, you should find what suits you, choose the appropriate plan, and then
 **Reminder:** If you do not possess the private key (a list of 24 words), a third party is responsible for the security of your bitcoins. In other words, you no longer own your bitcoins. They are subject to the same risks as exchange platforms such as hacking, seizure, regulation, or bankruptcy.
 
 ## The Hodler
+<chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Whether in investments or in Bitcoin, long-term holding is generally the norm. It is statistically the most profitable in the long term and the simplest to implement:
 
@@ -628,6 +641,7 @@ Here is a brief psychological profile of the Hodler, if you recognize yourself, 
 In summary, the hodler is a patient, disciplined, and visionary investor who firmly believes in the long-term value of Bitcoin and is willing to endure short-term volatility to achieve substantial gains in the future. They are methodical in their investment strategy and attentive to security and long-term planning.
 
 ## The stacker
+<chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 In Bitcoin, the concept of "Stacker" is quite well-known. The idea is simple: there are only 21 million bitcoins, and every little bitcoin counts! This small bitcoin is actually called a satoshi (or SAT). The stacker's goal is to accumulate as many as possible.
 
@@ -684,6 +698,7 @@ Psychological Portrait of the Stacker
 The stacker is a methodical and focused individual, with a clear plan to maximize their accumulation of satoshis. They demonstrate proactivity and financial knowledge, constantly seeking ways to optimize and secure their Bitcoin investments. Their approach is characterized by consistency and flawless organization, putting them on the path to steady and continuous growth of their Bitcoin portfolio.
 
 ## The User
+<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Finally, the last type of bitcoiner that can be mentioned in an introductory course is the bitcoiner who needs to use Bitcoin regularly. Whether due to professional obligations or simply a desire to support the ecosystem, it is necessary to provide solutions suitable for frequent use.
 
@@ -737,6 +752,7 @@ Buying Platform
 The user is a technologically savvy individual who is actively involved in the active use of Bitcoin. They are constantly seeking ways to improve the efficiency and security of their Bitcoin transactions and holdings. Their flexibility and commitment to the ecosystem are reflected in their willingness to use a variety of solutions, from lightning wallets to fast exchange solutions. While actively involved in Bitcoin transactions, they do not neglect security, ensuring a clear division between their bitcoins for daily use and those held long-term.
 
 ## The Paranoid Bitcoiner
+<chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
 I would like to add the paranoid Bitcoiner here. This type of person does not want to expose themselves to KYC (Know Your Customer), prefers to remain close to anonymity, and places great importance on their privacy. The paranoid Bitcoiner will also use LN via their own node and work on their security.
 
@@ -788,8 +804,10 @@ Non-KYC purchase between individuals:
 In the mindset of the Paranoid individual, caution, security, and anonymity are paramount. These priorities dictate a deliberate and well-thought-out approach to using Bitcoin, promoting self-sufficiency and caution. The Paranoid individual is willing to invest time and effort to ensure the security and privacy of their bitcoins while skillfully navigating the ecosystem to avoid unnecessary exposure. While it may seem overly cautious to some, the Paranoid individual considers their diligence and attention to detail essential for successful and secure participation in the world of Bitcoin.
 
 # The future with Bitcoin
+<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Creating an inheritance plan
+<chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
 Let's imagine the following dramatic scenario.
 A car accident, BOOM, and you're no longer in this world. You disappear, leaving your family without their Bitcoin expert. They don't know where the money is, but they remember you constantly mentioning terms like key, word list, and the irreversibility of Bitcoin transactions. They are devastated, bewildered, and now have to figure everything out on their own. While this situation may seem terrifying, it is a real possibility that cannot be ignored. You then have two choices: spend between 15 minutes and 1 hour to establish an estate plan, or do nothing. No one will judge, but if people depend on you, those 15 minutes could make a big difference one day. It's up to you.
@@ -964,8 +982,10 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 You are the best :D My team and my students also thank you!
 
 # Acknowledgments and keep digging the rabbit hole
+<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Congratulations! YOU ARE IN THE TOP 0.1%
+<chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 If you have been following our content from the beginning, you are now a true citizen of the 21st century and one of the most experienced in the field of Bitcoin! You use a password manager and two-factor authentication (2FA). You understand what Bitcoin is and why it is important. You own Bitcoins and have a safe way to buy or earn more. You have stored your Bitcoins in a "cold" wallet and have implemented proper key management. You have created an inheritance plan for your loved ones. You are now secure and can relax! Enjoy a beer and be proud of yourself!
 
@@ -983,5 +1003,6 @@ I am truly proud that you have reached this stage. I sincerely mean it. What to 
 In any case, all our courses are free, and many resources or tutorials are available on our platform to accompany you. Good luck with your studies!
 
 ## Follow up
+<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 This course, as well as all the content available on this university, has been provided to you free of charge by our community. To support us, you can share it with others, become a member of the university, and even contribute to its development via GitHub. On behalf of the entire team, thank you!

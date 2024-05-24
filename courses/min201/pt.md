@@ -21,8 +21,10 @@ Se você precisar de ajuda para sua empreitada, um grupo no Telegram foi criado 
 +++
 
 # Introdução
+<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
 ## Bem-vindo!
+<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 Bem-vindo ao MINING 201: uma introdução à mineração. Ajelex, Jim & Rogzy estão felizes em acompanhá-lo em seus primeiros passos concretos nesta nova indústria. Esperamos que você goste do curso e se junte à aventura da mineração doméstica!
 
@@ -55,8 +57,10 @@ Seção Prática: Attakai
 Pronto para começar essa aventura cativante? Vamos mergulhar juntos no fascinante mundo da mineração caseira!
 
 # Tudo o que você precisa saber sobre mineração
+<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
 ## Explicação da mineração
+<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
 ### Mineração explicada: A analogia do quebra-cabeça
 
@@ -102,6 +106,7 @@ Diante da constante evolução tecnológica no campo da mineração, os profissi
 Em conclusão, a indústria de mineração de Bitcoin continua a se adaptar e se desenvolver, e os atores do setor devem antecipar ganhos de eficiência, que serão mais limitados no futuro, e ajustar suas estratégias de acordo. Avanços tecnológicos futuros, embora ainda presentes, provavelmente ocorrerão em uma escala menor, refletindo a maturidade crescente do setor.
 
 ## A indústria de mineração
+<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
 ### Pools de mineração
 
@@ -178,6 +183,7 @@ Com o crescimento previsto da Lightning Network e o consequente aumento na abert
 A especulação cerca do uso futuro do espaço de blocos, mas é geralmente aceito que é um recurso escasso que deve ser usado com sabedoria. Mesmo que haja vontade de preencher esse espaço, é essencial preservá-lo para garantir a viabilidade de longo prazo da rede Bitcoin, antecipando um aumento futuro na demanda por espaço de blocos. Como em qualquer mercado livre, a oferta e a demanda regularão o uso do espaço de blocos. Com oferta limitada, as partes interessadas terão que tomar decisões informadas sobre o uso desse espaço valioso para garantir a eficiência e a segurança de longo prazo da rede Bitcoin.
 
 ## A mineração no protocolo bitcoin
+<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
 ![Quem tem o poder? Bitcoin, energia e fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
@@ -213,6 +219,7 @@ Por outro lado, o Proof of Stake (PoS), embora permita a participação em peque
 Para recapitular, os mineradores fortalecem a rede Bitcoin contra a censura usando eletricidade para calcular a prova de trabalho do Bitcoin, e são recompensados com novos bitcoins e taxas de transação. Com a profissionalização da indústria, diferentes atores emergem, desempenhando diversos papéis, desde a criação de chips até a gestão de fazendas de mineração. Além disso, o setor financeiro também intervém, exercendo controle ao decidir quem sobrevive durante as diferentes fases do mercado. A problemática da centralização persiste, com as entidades mais ricas potencialmente dominando o mercado. No entanto, alternativas estão sendo desenvolvidas em nível de hardware e software. Cabe a cada indivíduo agir e contribuir para a distribuição da rede. Bitcoin representa uma oportunidade extraordinária não apenas em termos de liberdade, mas também de independência energética. Apesar das controvérsias em torno de seu consumo de eletricidade, Bitcoin oferece um incentivo econômico para uma transição para um uso mais racional e abundante de energia, concretizando o que antes era um ideal ecológico.
 
 ## Preço do Bitcoin e Hashrate, uma correlação?
+<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
 ![Como obter um bitcoin branco e puro?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
@@ -233,6 +240,7 @@ A questão é profunda e abrange várias dimensões da mineração de Bitcoin. O
 
 * Minerar para o lucro:
 ## Mineração para a Rede:
+<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
 ### Prós:
 - Mineração para contribuir com a segurança e a descentralização da rede Bitcoin é uma iniciativa nobre. Isso ajuda a fortalecer a resiliência da rede e a resistir à censura e ataques.
@@ -243,6 +251,7 @@ A questão é profunda e abrange várias dimensões da mineração de Bitcoin. O
 A iniciativa Attakai destaca a importância da contribuição para a rede enquanto oferece soluções para tornar a mineração mais acessível e menos prejudicial. A possibilidade de minerar em casa, com equipamento mais acessível e soluções para reduzir a poluição sonora, pode ajudar a democratizar a mineração de Bitcoin. Ela incentiva aqueles que têm interesse no Bitcoin não apenas a investir e possuir bitcoins, mas também a participar ativamente na segurança da rede. Ao fornecer equipamentos testados e guias para montagem e instalação, Attakai facilita a entrada no mundo da mineração de Bitcoin. Também incentiva a inovação e melhorias contínuas, convidando a comunidade a contribuir e compartilhar suas ideias e experiências para aprimorar a mineração doméstica. O modelo Attakai é uma resposta à questão de minerar para lucro ou para a rede. Não se trata apenas de realizar lucros, mas também de fortalecer a distribuição e a segurança da rede Bitcoin, permitindo que mais pessoas participem da mineração, aprendam e compreendam essa indústria crucial. O desafio da possível proibição da mineração na Europa permanece uma questão em aberto. Isso levanta preocupações sobre o futuro da mineração de Bitcoin na região e a necessidade de uma regulação equilibrada que reconheça a importância da mineração para a segurança e viabilidade da rede Bitcoin, enquanto aborda as questões ambientais. Attakai e outras iniciativas similares podem desempenhar um papel crucial neste debate, mostrando que é possível minerar de maneira mais sustentável e responsável, contribuindo positivamente para a rede Bitcoin.
 
 ## Soberania e Regulação
+<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
 ### Soberania antes do lucro?
 Para abordar a questão crucial da riqueza por meio da mineração, é importante considerar diversas perspectivas e abordagens. As questões sobre a rentabilidade da mineração são frequentes, com perguntas sobre a compra de participações em empresas como a Riot ou o aluguel de máquinas de mineração em países com baixo custo energético, como Islândia ou Rússia. Antes de se aventurar na mineração, uma consideração essencial seria comparar a rentabilidade da mineração com a compra direta de Bitcoin. Se o custo de mineração de um Bitcoin exceder o custo de compra direta, geralmente é mais sensato comprar o Bitcoin diretamente. Isso evita os múltiplos desafios e custos associados ao processo de mineração.
@@ -269,14 +278,17 @@ Diante de campanhas como as da Greenpeace e dos números frequentemente enganoso
 Em conclusão, apesar do risco regulatório e da possibilidade de uma proibição da mineração na Europa, a arma mais poderosa continua sendo a educação e a informação. A compreensão clara e precisa da mineração, seu funcionamento e seu impacto pode ajudar a desmistificar a indústria e combater a desinformação, oferecendo assim uma melhor resistência às regulamentações potencialmente prejudiciais. A iniciativa de formar e informar as pessoas sobre a mineração, como faz esta discussão, é um passo na direção certa para garantir a sustentabilidade e o crescimento da mineração na Europa e em todo o mundo. Os esforços contínuos para educar e informar são essenciais para assegurar um futuro seguro e próspero para a indústria de mineração de Bitcoin.
 
 ## Entrevista com um profissional da indústria de mineração
+<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
 
 ### Bastidores da mineração industrial - Sebastien Gouspillou
 
 ![Bastidores da mineração industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Mineração doméstica e reutilização de calor
+<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
 ## Attakai - tornando a mineração doméstica possível e acessível!
+<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 Attakai, que significa "temperatura ideal" em japonês, é o nome da iniciativa para descobrir a mineração de bitcoins por meio da reutilização de calor lançada por @ajelexBTC e @jimzap21 com o Découvre Bitcoin.
 Este guia de retrofitting de um ASIC servirá como base para aprender mais sobre mineração, seu funcionamento e a economia subjacente, demonstrando a possibilidade de adaptar um minerador de Bitcoin para uso como radiadores em residências. Isso oferece mais conforto e economia, permitindo que os participantes recebam cash back em BTC não KYC em sua conta de energia elétrica.
@@ -324,6 +336,7 @@ Quando sai da fábrica, um minerador não é adequado para servir como aquecedor
 Esta é uma excelente oportunidade para aprender praticando e ser recompensado por sua participação com satoshis KYC gratuitos.
 
 ## Guia de compra para um ASIC usado
+<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
 Nesta seção, veremos as melhores práticas para comprar um Bitmain Antminer S9 usado, a máquina na qual este tutorial de retrofitting em radiador será baseado. Este guia também funciona para outros modelos de ASIC, pois é um guia geral de compra de hardware de mineração usado.
 
@@ -380,6 +393,7 @@ Para resumir este guia em uma frase: **"Não confie, verifique"**.
 [Você também pode recorrer a profissionais de recondicionamento de máquinas de mineração, como nosso parceiro 21energy. Eles oferecem S9 testados, limpos e com o software BraiiinOS+ já instalado. Com o código de afiliação "decouvre", você receberá um desconto de 10% na compra de um S9, ao mesmo tempo em que apoia o projeto Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
 ## Guia de compra de peças para modificações de hardware do S9
+<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
 Proprietário de um Antminer S9, você provavelmente sabe o quão barulhento e volumoso esse equipamento pode ser. No entanto, é possível transformá-lo em um aquecedor silencioso e conectado seguindo alguns passos simples. Nesta parte, apresentaremos os equipamentos necessários para fazer as modificações.
 
@@ -424,8 +438,10 @@ Lista de materiais e links
 * [Tomada conectada opcional ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - modificação do software de um Antminer S9
+<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
 ## Configurando uma ponte WIFI/Ethernet Vonet
+<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
 Para conectar seu ASIC via Wi-Fi, você precisará de um dispositivo chamado ponte, que permite capturar o sinal Wi-Fi do seu roteador e transmiti-lo para outro dispositivo via Ethernet.
 
@@ -468,6 +484,7 @@ Se a ponte ainda não estiver conectada após alguns minutos, pode ser necessár
 Depois de conectar a ponte, conecte o cabo Ethernet da ponte ao seu ASIC e ligue o ASIC à energia. Você poderá então se conectar à interface do ASIC da mesma forma que se estivesse conectado diretamente via Ethernet ao seu roteador.
 
 ## Ressetando um Antminer S9
+<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
 
 Antes de instalar o BraiinOS+, pode ser necessário redefinir seu S9 para as configurações de fábrica.
 Esta método pode ser aplicado entre 2 minutos e 10 minutos após a inicialização do minerador.
@@ -477,6 +494,7 @@ Esta método pode ser aplicado entre 2 minutos e 10 minutos após a inicializaç
 ![imagem](assets/software/1.webp)
 
 ## Instalando o BraiinsOS+ em um Antminer S9
+<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
 O software original instalado pela Antminer em suas máquinas de mineração é limitado em funcionalidades. Por isso, neste guia, vamos instalar outro software chamado BraiinsOS+. É um software de terceiros desenvolvido pelo primeiro pool de mineração de Bitcoin, que possui mais funcionalidades e permite, por exemplo, modificar a potência da máquina.
 
@@ -508,6 +526,7 @@ Aqui, vamos ver como instalar facilmente o Braiins OS+ diretamente na memória d
 9. Após alguns instantes, o seu Antminer irá reiniciar e você poderá acessar a interface do Braiins OS+ no endereço IP em questão, aqui 192.168.1.37, digitando-o diretamente na barra de endereço do seu navegador, nome de usuário padrão "root" e sem senha padrão.
 
 ## Configurando o BraiinsOS+
+<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
 Você precisará se conectar ao seu ASIC usando o endereço IP local do seu dispositivo na sua rede através de um navegador.
 
@@ -550,8 +569,10 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 ![image](assets/software/18.webp)
 
 # Attakai - Modificação dos ventiladores
+<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
 ## Substituindo o ventilador da fonte de alimentação
+<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 > ATENÇÃO: É essencial ter instalado previamente o Braiins OS+ no seu minerador, ou qualquer outro software capaz de reduzir o desempenho da sua máquina. Essa medida é crucial, pois, com o objetivo de reduzir o ruído, iremos instalar ventiladores menos potentes, que poderão dissipar menos calor.
 
@@ -622,6 +643,7 @@ Depois de fazer as conexões, coloque o plástico da tampa sobre o plástico do 
 Por fim, recoloque a tampa do gabinete no lugar e parafuse os 6 parafusos nas laterais para fixar tudo no lugar. E pronto, sua fonte de alimentação agora está equipada com um novo ventilador.
 
 ## Substituindo os Ventiladores Principais
+<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > ATENÇÃO: É essencial ter instalado previamente o Braiins OS+ em seu minerador, ou qualquer outro software capaz de reduzir o desempenho de sua máquina. Essa medida é crucial, pois, com o objetivo de reduzir o ruído, vamos instalar ventiladores menos potentes, que poderão dissipar menos calor.
 
@@ -672,8 +694,10 @@ E para o toque final, conecte a ponte Vonet à porta Ethernet com sua fonte de a
 E pronto, parabéns! Você acabou de substituir toda a parte mecânica do seu minerador. Agora você deve ouvir muito menos barulho.
 
 # Attakai - Configuração
+<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
 ## Juntando-se a um pool de mineração
+<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
 Pode-se imaginar um pool de mineração como uma cooperativa agrícola. Os agricultores juntam sua produção para reduzir a variação da oferta e demanda e, assim, obter receitas mais estáveis para sua exploração. Um pool de mineração funciona da mesma forma e a matéria-prima compartilhada são os hashes. De fato, a descoberta de um único hash válido permite a criação de um bloco e, assim, ganhar a coinbase ou a recompensa atualmente de 6,25 BTC, além das taxas das transações incluídas no bloco. Se você minerar sozinho, só será recompensado quando encontrar um bloco.
 
@@ -706,6 +730,7 @@ Agora você pode voltar para a interface do Braiins OS+ para inserir essas crede
 ![image](assets/software/21.webp)
 
 ## Otimizando o desempenho do Antminer S9
+<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
 O overclocking e o auto-tuning consistem em ajustar as frequências nos cartões de hash para melhorar o desempenho do ASIC. A diferença entre os dois está na complexidade dessas configurações de frequência.
 
@@ -723,6 +748,7 @@ Isso impõe um limite superior à taxa de hashing que uma máquina pode ter. O a
 O resultado final é uma taxa de hashing mais alta por watt de eletricidade, o que significa margens de lucro maiores para os mineradores. A razão pela qual as máquinas não são distribuídas com esse tipo de software é que a variação por máquina não é desejável, pois os clientes querem saber exatamente o que estão obtendo, e, portanto, é uma má ideia para os fabricantes venderem um produto que não tenha desempenho consistente e previsível de uma máquina para outra. Além disso, o ajuste automático por chip requer recursos de desenvolvimento consideráveis, pois é complexo de implementar. Os fabricantes já gastam muitos recursos para desenvolver seus próprios firmwares. Existem soluções de software que permitem implementar o autotuning, como o Braiins OS+. Além de melhorar o desempenho do ASIC em até 20%.
 
 ## Controlando um Antminer S9 pelo smartphone
+<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 
 ### Criando atalhos no iOS
 

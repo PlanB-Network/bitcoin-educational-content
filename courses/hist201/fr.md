@@ -297,6 +297,10 @@ Le concept de preuve de travail a été décrit pour la première fois en 1992 p
 
 Avec la popularisation d'Internet dans les années 90, la problème du courrier électronique indésirable est devenu de plus en plus prégnant, y compris sur la liste de diffusion des cypherpunks. C'est pourquoi le concept de Dwork et Naor a été [implémenté](https://cypherpunks.venona.com/date/1997/03/msg00774.html) par le jeune cypherpunk britannique Adam Back en 1997 avec Hashcash, un algorithme produisant de manière simple des preuves de travail au moyen d'une fonction de hachage. Plus précisément, il s'agit de trouver une collision partielle de la fonction de hachage considérée, c'est-à-dire à obtenir deux messages ayant une empreinte commençant par les mêmes bits de données (note : à partir de la version 1.0 sortie en 2002, il s'agit de découvrir une collision partielle pour l'empreinte zéro, à savoir trouver un antécédent dont l'empreinte commence par un nombre de zéros binaires déterminés). Puisque la fonction de hachage est à sens unique, une telle obtention ne peut être réalisée qu'en testant une à une les différentes possibilités, ce qui demande une dépense énergétique.
 
+![Adam Back en 2001](assets/img/ch3/4.webp)
+
+Adam Back en 2001 (source : [archive de cypherspace.org/adam](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
+
 Mais les cypherpunks ne se limitaient pas à considérer la preuve de travail comme un simple moyen de limiter le spam ; ils souhaitaient également l'utiliser comme une manière de garantir le coût de production d'une monnaie numérique. Ainsi, en 1997, Adam Back lui-même [envisageait](https://cypherpunks.venona.com/date/1997/04/msg00822.html) pleinement cette idée, mais il avait conscience que les preuves de travail ainsi obtenues ne pouvaient pas être transférées d'une manière pleinement distribuée (à cause du problème de la double dépense) et qu'il fallait par conséquent passer par un système centralisé à la eCash. De même, en 1996, les cryptographes Ronald Rivest et Adi Shamir ont décrit [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), un système de micropaiement centralisé dont les pièces devaient être impossibles à contrefaire grâce à la production de preuves de travail.
 
 Il fallait trouver un bon agencement qui puisse permettre à un tel modèle de fonctionner de manière robuste et durable. C'est ce que les cypherpunks Wei Dai, Nick Szabo et Hal Finney ont essayé de faire avec leurs protocoles respectifs (b-money, bit gold et RPOW), que nous allons étudier dans la suite. Et c'est ce que Satoshi Nakamoto a fini par faire en incluant Hashcash dans sa conception de Bitcoin.
@@ -315,7 +319,7 @@ Même s'il était assez ingénieux, le concept de b-money présenté par Wei Dai
 
 Après sa publication sur la liste, b-money a attiré l'attention des cypherpunks, et en particulier [celle d'Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Néanmoins, Wei Dai n'a jamais implémenté son modèle, non seulement parce ce dernier était dysfonctionnel, mais aussi à cause de la [désillusion](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) du cryptographe à l'égard de la cryptoanarchie. Toutefois, b-money a fini par être cité dans le livre blanc de Bitcoin, ce qui en fait l'un de ses précurseurs.
 
-![Citation de b-money dans le livre blanc de Bitcoin](assets/img/ch3/4.webp)
+![Citation de b-money dans le livre blanc de Bitcoin](assets/img/ch3/5.webp)
 
 ### bit gold : l'or numérique avant Bitcoin
 
@@ -323,7 +327,7 @@ Le deuxième modèle à avoir émergé des idées des cypherpunks était l'idée
 
 En 1994, Nick Szabo avait créé une liste de diffusion privée appelée libtech-l, qui avait pour but, comme son nom l'indique, d'héberger des discussions sur les techniques libératoires, permettant de protéger les libertés individuelles face aux assauts des autorités. Y avaient accès des cypherpunks comme les Wei Dai et Hal Finney, ainsi les économistes Larry White et George Selgin, partisans de la concurrence des monnaies hayekienne et de la banque libre.
 
-![Nick Szabo en 1997](assets/img/ch3/5.webp)
+![Nick Szabo en 1997](assets/img/ch3/6.webp)
 
 Nick Szabo en 1997 (source : [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -349,7 +353,7 @@ similaire à celui des billets numériques dans eCash.
 
 En voici une illustration [conçue](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) par Hal Finney lui-même :
 
-![Échange dans RPOW](assets/img/ch3/6.webp)
+![Échange dans RPOW](assets/img/ch3/7.webp)
 
 Hal Finney a non seulement conçu un modèle, mais l'a mis en œuvre personnellement. Le 15 août 2004, il a ainsi [annoncé](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) le lancement du système RPOW sur le liste des cypherpunks, en plus de documenter son fonctionnement sur le site web consacré (rpow.net). Il l'a ensuite [présenté](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) à la CodeCon 2005 organisée à San Francisco, où il a pu faire part des utilisations qu'il envisageaient pour les jetons de preuve de travail, à savoir : le transfert de la valeur, la régulation du courrier indésirable, le commerce dans les jeux vidéos, le jeu d'argent en ligne comme le poker, et l'anti-parasitisme sur les protocoles de partage de fichiers comme BitTorrent.
 
@@ -412,7 +416,9 @@ C'est en août 2008 que Satoshi Nakamoto se décide à préparer la sortie de Bi
 
 Le 20 août, il [entre en contact](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) avec Adam Back en lui envoyant un courriel pour lui demander un conseil sur la façon de citer son article sur Hashcash dans le livre blanc. Difficile de ne pas y voir un prétexte servant à faire en sorte que l'inventeur de Hashcash prenne connaissance de son nouveau système.
 
-img: photo d'Adam Back
+![Adam Back en 2012](assets/img/ch4/1.webp)
+
+Adam Back en 2012 (source : [cypherspace.org/adam](http://www.cypherspace.org/adam/))
 
 Le courriel contient un lien vers une ébauche du livre blanc. Le nom du fichier PDF est `ecash.pdf` et son titre est « *Electronic Cash Without a Trusted Third Party* ». Le résumé est le même que celui de la première version publiée en octobre, à un mot près. Malheureusement nous ne disposons pas du document intégral.
 

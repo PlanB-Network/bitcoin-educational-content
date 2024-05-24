@@ -701,7 +701,7 @@ Dans ce dernier chapitre, nous allons appliquer concrètement les concepts que n
 
 Idéalement, pour faire ces exercices, l'utilisation d'un outil professionnel d'analyse de chaîne serait préférable. Cependant, depuis l'arrestation des créateurs de Samourai Wallet, le seul outil gratuit d'analyse OXT.me n'est plus disponible. Nous allons donc opter pour un explorateur de blocs classique pour ces exercices. Je vous recommande d'utiliser [Mempool.space](https://mempool.space/) pour ses nombreuses fonctionnalités et sa gamme d'outils d'analyse de chaîne, mais vous pouvez également opter pour un autre explorateur tel que [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
-Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateur de blocs pour les réaliser et notez vos réponses sur une feuille de papier. Ensuite, à la fin de ce chapitre, je vous fournirai les réponses afin que vous puissiez vérifier et corriger vos résultats. Les exercices sont classés par ordre de difficulté.
+Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateur de blocs pour les réaliser et notez vos réponses sur une feuille de papier. Ensuite, à la fin de ce chapitre, je vous fournirai les réponses afin que vous puissiez vérifier et corriger vos résultats.
 
 *Les transactions sélectionnées pour ces exercices ont été choisies uniquement pour leurs caractéristiques d'une manière quelque peu aléatoire. Ce chapitre est destiné uniquement à des fins éducatives et informatives. Je tiens à préciser que je ne soutiens ni n'encourage l'utilisation de ces outils à des fins malveillantes. L'objectif est de vous enseigner comment vous protéger contre l'analyse de chaîne, et non de mener des analyses pour exposer des informations privées d'autres personnes.*
 
@@ -727,76 +727,67 @@ Quel est le nom du modèle de cette transaction et quelles interprétations vrai
 
 ### Exercice 3
 
+Identifiant de la transaction à analyser :
 
+```bash
+3a9eb9ccc3517cc25d1860924c66109262a4b68f4ed2d847f079b084da0cd32b
+```
 
+Quel est le modèle de cette transaction ?
 
-
-
+Après avoir identifié son modèle, en utilisant les heuristiques internes à la transaction, quel output représente vraisemblablement le change ? 
 
 ### Exercice 4
 
+Identifiant de la transaction à analyser :
 
+```bash
+35f0b31c05503ebfdf7311df47f68a048e992e5cf4c97ec34aa2833cc0122a12
+```
 
+Quel est le modèle de cette transaction ?
 
-
-
+Après avoir identifié son modèle, en utilisant les heuristiques internes à la transaction, quel output représente vraisemblablement le change ? 
 
 ### Exercice 5
 
+Imaginons que Loïc a posté une de ses adresses de réception Bitcoin sur le réseau social Twitter :
 
+![BTC204](assets/notext/35/1.webp)
 
+```bash
+bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
+```
 
+À partir de cette information et en utilisant **uniquement l'heuristique de la réutilisation d'adresse**, quelles sont les transactions Bitcoin que l'on peut rattacher à l'identité de Loïc ?
 
-
-
+*Évidemment, je ne suis pas le vrai propriétaire de cette adresse de réception et je ne l'ai pas postée sur les réseaux sociaux. C'est une adresse que j'ai pris aléatoirement sur la blockchain.*
 
 ### Exercice 6
 
+Suite à l'exercice 5, grâce à l'heuristique de la réutilisation d'adresses, vous avez pu identifier plusieurs transactions Bitcoin dans lesquelles Loïc semble être impliqué. Normalement, parmi les transactions identifiées, vous devriez avoir repéré celle-ci :
 
+```bash
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+```
 
-
-
-
-
-
-
+Cette transaction est la toute première qui envoie des fonds vers l'adresse de Loïc. D'après vous, d'où viennent les bitcoins reçus par Loïc via cette transaction ?
 
 ### Exercice 7
 
+Suite à l'exercice 5, grâce à l'heuristique de la réutilisation d'adresses, vous avez pu identifier plusieurs transactions Bitcoin dans lesquelles Loïc semble être impliqué. Vous souhaitez désormais savoir d'où vient Loïc. À partir des transactions trouvées, réalisez une analyse temporelle pour trouver le fuseau horaire vraisemblablement utilisé par Loïc. À partir de ce fuseau horaire, déterminez une localisation dans laquelle Loïc semble vivre (pays, état/région, ville...).
 
-
-
-
-
-
+![BTC204](assets/notext/35/2.webp)
 
 ### Exercice 8
 
+Voici la transaction Bitcoin à étudier :
 
+```bash
+bb346dae645d09d32ed6eca1391d2ee97c57e11b4c31ae4325bcffdec40afd4f
+```
 
-
-
-
-
-
-
-### Exercice 9
-
-
-
-
-
-
-
-
-
-### Exercice 10
-
-
-
-
-
-
+En observant uniquement cette transaction, quelles informations pouvons-nous interpréter ?
 
 ### Solutions des exercices
 
@@ -806,14 +797,162 @@ Le modèle de cette transaction est celui du paiement simple. Si l'on étudie un
 ***Exercice 2 :***
 Le modèle de cette transaction est celui de la dépense groupée. Ce modèle révèle vraisemblablement une grosse activité économique, comme une plateforme d'échange par exemple. Nous pouvons en déduire que l’UTXO en input provient d’une société avec une grosse activité économique et que les UTXOs en outputs vont se disperser. Certains appartiendront à des clients de la société qui ont retiré leurs bitcoins vers des portefeuilles en self-custody. D’autres iront peut-être vers des sociétés partenaires. Enfin, il y aura certainement un change qui reviendra à la société émettrice.
 
+***Exercice 3 :***
+Le modèle de cette transaction est celui du paiement simple. Nous pouvons donc appliquer des heuristiques internes à la transaction pour essayer d'identifier le change.
 
+J'ai personnellement identifié au moins deux heuristiques internes qui soutiennent une même hypothèse :
+- Celle de la réutilisation du même type de script ;
+- Celle de l'output le plus grand.
 
+L'heuristique la plus évidente est celle de la réutilisation du même type de script. En effet, l'output `0` est un `P2SH`, reconnaissable à son adresse de réception commençant par `3` :
 
+```bash
+3Lcdauq6eqCWwQ3UzgNb4cu9bs88sz3mKD
+```
 
+Tandis que l'output `1` est un `P2WPKH`, identifiable par son adresse débutant par `bc1q` :
 
+```bash
+bc1qya6sw6sta0mfr698n9jpd3j3nrkltdtwvelywa
+```
 
+L'UTXO utilisé en input pour cette transaction utilise également un script `P2WPKH` :
 
+```bash
+bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
+```
 
+Ainsi, on peut supposer que l'output `0` correspond à un paiement et que l'output `1` est le change de la transaction, ce qui signifierait que l'utilisateur en input possède toujours l'output `1`.
+
+Pour étayer ou réfuter cette hypothèse, nous pouvons rechercher d'autres heuristiques qui soit confirment notre pensée, soit diminuent la probabilité que notre hypothèse soit correcte.
+
+J'ai repéré au moins une autre heuristiques. C'est celle de l'output le plus grand. L'output `0` mesure `123 689 sats`, tandis que l'output `1` mesure `505 839 sats`. Il y a donc une différence significative entre ces deux outputs. L'heuristique de l'output le plus grand suggère que l'output le plus volumineux est vraisemblablement le change. Cette heuristique vient donc renforcer davantage notre hypothèse initiale.
+
+Il semble donc vraisemblable que l'utilisateur ayant fourni l'UTXO en input détienne toujours l'output `1`, qui semble incarner le change de la transaction.
+
+***Exercice 4 :***
+Le modèle de cette transaction est celui du paiement simple. Nous pouvons donc appliquer des heuristiques internes à la transaction pour essayer d'identifier le change.
+
+J'ai personnellement identifié au moins deux heuristiques internes qui soutiennent une même hypothèse :
+- Celle de la réutilisation du même type de script ;
+- Celle de l'output de montant rond.
+
+L'heuristique la plus évidente est celle de la réutilisation du même type de script. En effet, l'output `0` est un `P2SH`, reconnaissable à son adresse de réception commençant par `3` :
+
+```bash
+3FSH5Mnq6S5FyQoKR9Yjakk3X4KCGxeaD4
+```
+
+Tandis que l'output `1` est un `P2WPKH`, identifiable par son adresse débutant par `bc1q` :
+
+```bash
+bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg
+```
+
+L'UTXO utilisé en input pour cette transaction utilise également un script `P2WPKH` :
+
+```bash
+bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
+```
+
+Ainsi, on peut supposer que l'output `0` correspond à un paiement et que l'output `1` est le change de la transaction, ce qui signifierait que l'utilisateur en input possède toujours l'output `1`.
+
+Pour étayer ou réfuter cette hypothèse, nous pouvons rechercher d'autres heuristiques qui soit confirment notre pensée, soit diminuent la probabilité que notre hypothèse soit correcte.
+
+J'ai repéré au moins une autre heuristiques. C'est celle de l'output de montant rond. L'output `0` mesure `70 000 sats`, tandis que l'output `1` mesure `22 962 sats`. Nous sommes donc en présence d'un output parfaitement rond en unité de compte BTC. L'heuristique de l'output rond suggère que l'UTXO avec un montant rond est vraisemblablement celui du paiement, et que par élimination, l'autre représente le change. Cette heuristique vient donc renforcer davantage notre hypothèse initiale.
+
+Cependant, dans cet exemple, une autre heuristique pourrait remettre en question notre hypothèse de départ. Effectivement, l'output `0` est plus important que l'output `1`. Si l'on se base sur l'heuristique selon laquelle l'output le plus grand est généralement le change, on pourrait en déduire que l'output `0` est le change. Toutefois, cette contre-hypothèse paraît invraisemblable, car les deux autres heuristiques apparaissent substantiellement plus convaincantes que celle de l'output le plus grand. Par conséquent, il semble raisonnable de maintenir notre hypothèse initiale malgré cette contradiction apparente.
+
+Il semble donc vraisemblable que l'utilisateur ayant fourni l'UTXO en input détienne toujours l'output `1`, qui semble incarner le change de la transaction.
+
+***Exercice 5 :***
+On peut voir que 8 transactions peuvent être associées à l'identité de Loïc. Parmi celles-ci, 4 concernent une réception de bitcoins :
+
+```bash
+2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
+8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
+d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
+bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
+```
+
+Les 4 autres concernent des envois de bitcoins :
+
+```bash
+8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
+c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
+a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
+3aeb7ce02c35eaecccc0a97a771d92c3e65e86bedff42a8185edd12ce89d89cc
+```
+
+***Exercice 6 :***
+Si nous examinons le modèle de cette transaction, il est apparent qu'il s'agit d'une dépense groupée. En effet, la transaction compte un unique input et 51 outputs, ce qui témoigne d'une forte activité économique. Nous pouvons donc formuler l'hypothèse que Loïc a effectué un retrait de bitcoins depuis une plateforme d'échange.
+
+Plusieurs éléments viennent renforcer cette hypothèse. Tout d'abord, le type de script utilisé pour sécuriser l'UTXO en input est un script multisig P2SH 2/3, ce qui indique un niveau de sécurité avancé typique des plateformes d'échange :
+
+```bash
+OP_PUSHNUM_2
+OP_PUSHBYTES_33 03eae02975918af86577e1d8a257773118fd6ceaf43f1a543a4a04a410e9af4a59
+OP_PUSHBYTES_33 03ba37b6c04aaf7099edc389e22eeb5eae643ce0ab89ac5afa4fb934f575f24b4e
+OP_PUSHBYTES_33 03d95ef2dc0749859929f3ed4aa5668c7a95baa47133d3abec25896411321d2d2d
+OP_PUSHNUM_3
+OP_CHECKMULTISIG
+```
+
+De plus, l'adresse étudiée `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` est réutilisée dans plus de 220 000 transactions différentes, ce qui est souvent caractéristique des plateformes d'échange, généralement peu soucieuses de leur confidentialité.
+
+L'heuristique temporelle appliquée à cette adresse montre également une diffusion régulière de transactions presque quotidiennement sur une période de 3 mois, avec des horaires étendus sur 24 heures, ce qui suggère l'activité continue d'une plateforme d'échange.
+
+Enfin, les volumes traités par cette entité sont colossaux. En effet, l'adresse a reçu et envoyé 44 BTC au cours de 222 262 transactions entre décembre 2022 et mars 2023. Ces volumes importants confirment encore la nature vraisemblable de l'activité d'une plateforme d'échange.
+
+***Exercice 7 :***
+En analysant les heures de confirmation des transactions, les horaires UTC suivants peuvent être relevés :
+
+```bash
+05:43
+20:51
+18:12
+17:16
+04:28
+23:38
+07:45
+21:55
+```
+
+En analysant ces horaires, il apparaît que les timezones UTC-7 et UTC-8 sont cohérentes avec une plage d'activités humaines courantes (entre 08:00 et 23:00) pour une majorité des horaires :
+
+```bash
+05:43 UTC > 22:43 UTC-7
+20:51 UTC > 13:51 UTC-7
+18:12 UTC > 11:12 UTC-7
+17:16 UTC > 10:16 UTC-7
+04:28 UTC > 21:28 UTC-7
+23:38 UTC > 16:38 UTC-7
+07:45 UTC > 00:45 UTC-7
+21:55 UTC > 14:55 UTC-7
+
+05:43 UTC > 21:43 UTC-8
+20:51 UTC > 12:51 UTC-8
+18:12 UTC > 10:12 UTC-8
+17:16 UTC > 09:16 UTC-8
+04:28 UTC > 20:28 UTC-8
+23:38 UTC > 15:38 UTC-8
+07:45 UTC > 23:45 UTC-8
+21:55 UTC > 13:55 UTC-8
+```
+
+![BTC204](assets/notext/35/2.webp)
+
+Le fuseau horaire UTC-7 est particulièrement pertinent en été, car il inclut des états et régions tels que :
+- Californie (avec des villes comme Los Angeles, San Francisco, et San Diego) ;
+- Nevada (avec Las Vegas) ;
+- Oregon (avec Portland) ;
+- Washington (avec Seattle) ;
+- ainsi que la région canadienne de la Colombie-Britannique (avec des villes comme Vancouver et Victoria).
+
+Ces informations suggèrent que Loïc pourrait vraisemblablement résider sur la côte ouest des États-Unis ou du Canada.
+
+***Exercice 8 :***
+L'analyse de cette transaction révèle cinq entrées et une seule sortie, ce qui semble indiquer une stratégie de consolidation. L'application de l'heuristique CIOH permet de supposer que tous les UTXOs en inputs sont détenus par une seule entité, et que l'UTXO en output appartient également à cette entité. Il semble que l'utilisateur ait choisi de regrouper plusieurs UTXOs qu'il possédait, pour former un unique UTXO en output, dans le but de consolider ses pièces. Cette démarche a probablement été motivée par la volonté de tirer profit des faibles frais de transaction de l'époque afin de réduire ses frais futurs.
 
 **Contributeurs et ressources :**
 Pour la rédaction de cette partie 3 sur l'analyse de chaîne, je me suis appuyé sur les ressources suivantes :

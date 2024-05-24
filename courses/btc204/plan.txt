@@ -57,8 +57,6 @@ Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
         | Exercice 6
         | Exercice 7
         | Exercice 8
-        | Exercice 9
-        | Exercice 10
         | Solutions des exercices
 
 Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée

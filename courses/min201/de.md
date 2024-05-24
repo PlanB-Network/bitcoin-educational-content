@@ -289,9 +289,10 @@ Zusammenfassend lässt sich sagen, dass trotz des regulatorischen Risikos und de
 ![Hinter den Kulissen des industriellen Minings - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Home-Mining und Wärmerückgewinnung
+<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
 ## Attakai - Home-Mining ermöglicht und zugänglich gemacht!
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 Attakai, was auf Japanisch "ideale Temperatur" bedeutet, ist der Name der Initiative, die das Bitcoin-Mining durch Wärmerückgewinnung entdecken möchte, ins Leben gerufen von @ajelexBTC und @jimzap21 mit Découvre Bitcoin.
 Dieser Leitfaden zur Umrüstung eines ASIC dient als Grundlage, um mehr über das Mining, seine Funktionsweise und die zugrunde liegende Wirtschaft zu erfahren, indem gezeigt wird, wie ein Bitcoin-Miner als Heizkörper in Wohnungen verwendet werden kann. Dies bietet mehr Komfort und Einsparungen und ermöglicht es den Teilnehmern, BTC-Cashback auf ihrer Stromrechnung ohne KYC zu erhalten.
@@ -337,7 +338,7 @@ Ein Miner ist bei seiner Auslieferung ab Werk nicht geeignet, um als Heizung in 
 Dies ist eine ausgezeichnete Gelegenheit, durch praktisches Lernen zu lernen und gleichzeitig durch kostenlose satoshi KYC belohnt zu werden.
 
 ## Leitfaden zum Kauf eines gebrauchten ASIC
-<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
+<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
 In diesem Abschnitt werden wir bewährte Praktiken für den Kauf eines gebrauchten Bitmain Antminer S9 behandeln, der die Grundlage für dieses Retrofitting-Tutorial als Heizkörper bildet. Dieser Leitfaden gilt auch für andere ASIC-Modelle, da es sich um einen allgemeinen Leitfaden für den Kauf gebrauchter Mining-Hardware handelt.
 
@@ -393,6 +394,7 @@ Um diesen Leitfaden in einem Satz zusammenzufassen: **"Vertraue nicht, überprü
 [Sie können sich auch an professionelle Anbieter von gebrauchten Mining-Maschinen wenden, wie unseren Partner 21energy. Sie bieten getestete, gereinigte S9-Maschinen mit bereits installierter BraiiinOS+ Software an. Mit dem Affiliate-Code "decouvre" erhalten Sie einen 10% Rabatt auf den Kauf einer S9-Maschine und unterstützen gleichzeitig das Attakai-Projekt.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
 ## Anleitung zum Kauf von Hardwarekomponenten für die Modifikation des S9
+<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
 Besitzer eines Antminer S9 wissen wahrscheinlich, wie laut und sperrig dieses Gerät sein kann. Es ist jedoch möglich, es mit einigen einfachen Schritten in eine leise und vernetzte Heizung umzuwandeln. In diesem Abschnitt stellen wir Ihnen die erforderliche Ausrüstung für die Modifikationen vor.
 
@@ -437,10 +439,10 @@ Liste des Materials und Links
 * [Optionale ANTELA Smart Plug](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - Änderung der Software eines Antminer S9
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
 ## Einrichten einer Vonet WLAN/Ethernet-Bridge
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
 Um Ihren ASIC über WLAN zu verbinden, benötigen Sie ein Gerät namens Bridge, das das WLAN-Signal Ihres Routers empfängt und an ein anderes Gerät über Ethernet weiterleitet.
 
@@ -478,7 +480,7 @@ Die Bridge sollte sich mit Ihrem Router verbinden oder unter dem Namen "[VONETS.
 Sobald die Bridge verbunden ist, schließen Sie das Ethernet-Kabel der Bridge an Ihren ASIC an und schließen Sie den ASIC an das Stromnetz an. Sie können dann auf die Benutzeroberfläche des ASIC zugreifen, als ob er direkt über Ethernet mit Ihrem Router verbunden wäre.
 
 ## Zurücksetzen eines Antminer S9
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
 
 Vor der Installation von BraiinOS+ kann es erforderlich sein, Ihren S9 auf die Werkseinstellungen zurückzusetzen.
 Diese Methode kann zwischen 2 Minuten und 10 Minuten nach dem Start des Miners angewendet werden.
@@ -487,7 +489,7 @@ Diese Methode kann zwischen 2 Minuten und 10 Minuten nach dem Start des Miners a
 ![image](assets/software/1.webp)
 
 ## BraiinsOS+ auf einem Antminer S9 installieren
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
 Die von Antminer auf ihren Mining-Maschinen installierte Originalsoftware ist funktional eingeschränkt. Aus diesem Grund werden wir in dieser Anleitung eine andere Software namens BraiinsOS+ installieren. Es handelt sich um eine Drittanbieter-Software, die von dem ersten Bitcoin-Mining-Pool entwickelt wurde und mehr Funktionen bietet, z. B. die Möglichkeit, die Leistung der Maschine zu ändern.
 
@@ -519,6 +521,7 @@ Hier zeigen wir Ihnen, wie Sie Braiins OS+ einfach direkt auf den Speicher Ihres
 9. Nach einigen Momenten wird Ihr Antminer neu starten und Sie können auf die Braiins OS+ Benutzeroberfläche unter der angegebenen IP-Adresse zugreifen, hier 192.168.1.37, die Sie direkt in die Adressleiste Ihres Browsers eingeben können. Der Standard-Benutzername ist "root" und es gibt kein Standardpasswort.
 
 ## BraiinsOS+ konfigurieren
+<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
 Sie müssen sich über einen Browser mit der lokalen IP-Adresse Ihres ASIC-Geräts in Ihrem Netzwerk verbinden.
 
@@ -561,10 +564,10 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 ![image](assets/software/18.webp)
 
 # Attakai - Lüftermodifikation
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
 ## Austausch des Netzteil-Lüfters
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 > ACHTUNG: Es ist unerlässlich, zuvor Braiins OS+ auf Ihrem Miner oder einer anderen Software installiert zu haben, die die Leistung Ihres Geräts reduzieren kann. Diese Maßnahme ist entscheidend, da wir leistungsschwächere Lüfter installieren werden, die weniger Wärme abführen können, um den Lärm zu reduzieren.
 
@@ -635,7 +638,7 @@ Nachdem die Verbindungen hergestellt wurden, legen Sie die Kunststoffabdeckung w
 Setzen Sie schließlich die Gehäuseabdeckung wieder ein und schrauben Sie die 6 Schrauben an den Seiten fest, um alles an Ort und Stelle zu halten. Und voilà, Ihr Netzteilgehäuse ist jetzt mit einem neuen Lüfter ausgestattet.
 
 ## Ersetzen der Hauptlüfter
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > ACHTUNG: Es ist unerlässlich, dass Sie zuvor Braiins OS+ oder eine andere Software auf Ihrem Miner installiert haben, die die Leistung Ihres Geräts reduzieren kann. Diese Maßnahme ist entscheidend, da wir leisere Lüfter installieren werden, die weniger Wärme abführen können.
 
@@ -688,9 +691,10 @@ Und voilà, Bravo! Sie haben die gesamte mechanische Komponente Ihres Miners aus
 
 
 # Attakai - Konfiguration
+<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
 ## Beitritt zu einem Mining-Pool
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
 Man kann sich einen Mining-Pool wie eine landwirtschaftliche Genossenschaft vorstellen. Die Landwirte bringen ihre Produktion zusammen, um die Varianz von Angebot und Nachfrage zu reduzieren und so stabilere Einnahmen für ihren Betrieb zu erzielen. Ein Mining-Pool funktioniert auf die gleiche Weise, wobei die gemeinsam genutzte Ressource Hashes sind. Die Entdeckung eines einzigen gültigen Hashes ermöglicht die Erstellung eines Blocks und den Gewinn der Coinbase oder Belohnung, die derzeit 6,25 BTC plus die Transaktionsgebühren im Block beträgt. 
 
@@ -722,7 +726,7 @@ Sie können nun zur Benutzeroberfläche von Braiins OS+ zurückkehren und diese 
 ![image](assets/software/21.webp)
 
 ## Optimieren Sie die Leistung Ihres Antminer S9
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
 Das Übertakten und das Auto-Tuning beinhalten beide das Anpassen der Frequenzen auf den Hash-Boards, um die Leistung des ASICs zu verbessern. Der Unterschied zwischen den beiden liegt in der Komplexität dieser Frequenzeinstellungen.
 
@@ -741,6 +745,7 @@ Dies setzt eine Obergrenze für die Hash-Rate, die eine Maschine haben kann. Das
 Das Endergebnis ist eine höhere Hash-Rate pro Watt Stromverbrauch, was bedeutet, dass die Miner höhere Gewinnmargen erzielen können. Der Grund, warum Maschinen nicht mit dieser Art von Software ausgeliefert werden, ist, dass eine Maschinenvarianz unerwünscht ist, da die Kunden genau wissen wollen, was sie bekommen, und es daher keine gute Idee für die Hersteller ist, ein Produkt zu verkaufen, das von Maschine zu Maschine keine konstanten und vorhersehbaren Leistungen aufweist. Darüber hinaus erfordert das Chip-Autotuning erhebliche Entwicklungsressourcen, da es komplex ist, umzusetzen. Die Hersteller investieren bereits viele Ressourcen in die Entwicklung ihrer eigenen Firmware. Es gibt Softwarelösungen, die das Autotuning ermöglichen, wie z.B. Braiins OS+. Diese verbessern die Leistung des ASICs um bis zu 20%.
 
 ## Steuern Sie einen Antminer S9 von Ihrem Smartphone aus
+<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 
 ### Erstellen von Verknüpfungen auf iOS
 

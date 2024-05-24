@@ -649,7 +649,7 @@ Nella storia, si osservano momenti in cui le persone cercano di arricchirsi rapi
 Oggi, di fronte alla diminuzione del potere d'acquisto, gli investimenti prendono il sopravvento. Tuttavia, questo approccio comporta i suoi rischi. Il risparmio è sempre stato un rimedio contro l'incertezza. Avere riserve finanziarie per gestire situazioni impreviste contribuisce a una serenità mentale e rafforza la coesione sociale. In conclusione, la protezione del nostro potere d'acquisto è essenziale per mantenere la stabilità sociale e individuale.
 
 ## Le riforme valutarie in America Latina
-<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
+<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Guarderemo insieme diverse fasi di riforme valutarie in paesi dell'America Latina.
 
@@ -754,7 +754,7 @@ Basandosi sul criterio del 50% di inflazione al mese, diverse periodi avrebbero 
 In conclusione, l'iperinflazione è solo un aspetto delle sfide economiche. L'alta inflazione, da sola, può essere altrettanto dannosa. La prossima sezione esplorerà le possibili soluzioni per uscire dall'iperinflazione.
 
 ## Come uscire dall'iperinflazione
-<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
+<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Come porre fine all'inflazione moderata e all'alta inflazione
 
@@ -791,7 +791,7 @@ Nel 2007, il tasso di inflazione in Zimbabwe aveva raggiunto il livello del 50% 
 È preoccupante notare che lo Zimbabwe ha cercato di reintrodurre la propria valuta e segni di alta inflazione sono riemersi. Secondo alcune organizzazioni internazionali, il paese potrebbe già soddisfare nuovamente i criteri per l'iperinflazione, anche se non ha ancora raggiunto la soglia ufficiale del 50% al mese. Questo serve come promemoria sui pericoli della creazione eccessiva di moneta e del finanziamento del deficit da parte della banca centrale.
 
 ## Conclusioni
-<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
 
 Nel mio libro intitolato "Tutto su Bitcoin", ho dedicato un intero capitolo all'iperinflazione in Zimbabwe. Descrivo gli eventi salienti, fornendo vari esempi che illustrano come il paese abbia alla fine messo fine all'iperinflazione.
 
@@ -806,14 +806,15 @@ Nel mio libro intitolato "Tutto su Bitcoin", ho dedicato un intero capitolo all'
 La cosa più importante da ricordare è che ci sono diverse strategie per uscire dall'iperinflazione. Si può optare per la dolarizzazione o introdurre una nuova valuta. Queste soluzioni funzioneranno solo se la popolazione ha fiducia in esse. È fondamentale imporre restrizioni rigorose. Una banca centrale veramente indipendente è essenziale. Non deve aumentare la massa monetaria per coprire i deficit governativi. In caso di inflazione lieve, limitare la crescita della massa monetaria dovrebbe essere sufficiente. Tuttavia, quando si affronta un'iperinflazione, è fondamentale prima avere una massa monetaria adeguata alla dimensione dell'economia in questione. Inoltre, è imperativo imporre restrizioni severe al governo per stabilizzare la situazione.
 
 ## Presentazione della collezione di banconote iperinflazionate
-<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 Il link alla collezione digitalizzata è disponibile nel Bitcoin Educational Toolkit, accessibile dalla sezione Risorse della piattaforma.
 
 # Come siamo arrivati qui?
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## L'emergere del secondo strato della moneta e delle banche centrali
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 L'emergere del secondo strato della moneta e delle prime banche centrali è un argomento affascinante. Questo tema è ampiamente trattato nel libro "Layered Money" di Nick Battia. Lo consiglio vivamente a coloro che sono interessati all'evoluzione e alle sfumature dei nostri sistemi monetari. L'obiettivo di questa sezione è comprendere l'origine della creazione monetaria e come ciò abbia potuto portare all'iperinflazione.
 
@@ -857,6 +858,7 @@ A seguito del panico bancario del 1796, si verificò un fenomeno in cui tutti ce
 Le banche centrali sono evolute per diventare prestatori di ultima istanza, sospendendo la convertibilità della loro moneta in oro. Sebbene questa azione fosse inizialmente concepita come una soluzione temporanea, è diventata infine permanente, segnando così l'avvento del concetto di prestatore di ultima istanza. Questa trasformazione ha plasmato le banche centrali come le conosciamo oggi. Tuttavia, in economie più fragili, questa capacità di stampare moneta a volontà può comportare conseguenze indesiderate, come l'iperinflazione, se utilizzata in modo irresponsabile.
 
 ## Libri e risorse
+<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 L'iperinflazione è un argomento affascinante che è stato studiato attraverso vari eventi storici. Se desideri approfondire questo argomento, ecco un elenco di 10 risorse essenziali da leggere e studiare:
 

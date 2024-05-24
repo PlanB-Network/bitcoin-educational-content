@@ -975,6 +975,7 @@ En 2007, le taux d'inflation au Zimbabwe avait atteint le seuil de 50 % par mois
 C'est inquiétant de noter que le Zimbabwe a depuis tenté de réintroduire sa propre monnaie, et des signes d'inflation élevée sont à nouveau apparus. Selon certaines organisations internationales, le pays pourrait déjà remplir à nouveau les critères d'hyperinflation, même s'il n'a pas encore atteint le seuil officiel de 50 % par mois. Cela sert de rappel sur les dangers de l'émission monétaire excessive et du financement du déficit par la banque centrale.
 
 ## Conclusion
+<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
 
 Dans mon ouvrage intitulé "Tout sur Bitcoin", j'ai consacré un chapitre entier à l'hyperinflation au Zimbabwe. J'y détaille les événements marquants, en fournissant divers exemples illustrant comment le pays a finalement mis fin à l'hyperinflation.
 
@@ -987,16 +988,17 @@ Pour ceux qui sont curieux de l'expérience allemande après la Première Guerre
 L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusieurs stratégies. On peut opter pour la dollarisation ou introduire une nouvelle monnaie. Ces solutions ne fonctionneront que si la population a confiance en elles. Il est crucial d'imposer des contraintes rigoureuses. Une banque centrale véritablement indépendante est essentielle. Elle ne doit pas gonfler la masse monétaire pour combler les déficits gouvernementaux. En cas d'inflation légère, limiter la croissance de la masse monétaire devrait suffire. Toutefois, lorsqu'on est confronté à une hyperinflation, il est primordial d'abord d'avoir une masse monétaire appropriée à la taille de l'économie en question. Ensuite, il est impératif d'imposer des contraintes strictes au gouvernement pour stabiliser la situation.
 
 ## Présentation de la collection de billets d’hyperinflation
-<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 ![video](https://youtu.be/h1uwR3Yge1M)
 
 Le lien vers la collection scannée est disponible dans le Bitcoin Educational Toolkit, accessible depuis la section Ressources de la plateforme.
 
 # Comment en sommes nous arrivés là ?
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## L’émergence de la deuxième couche de la monnaie et des banques centrales
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 ![video](https://youtu.be/cEon5lVtKZE)
 
@@ -1060,6 +1062,7 @@ Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le m
 Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept du prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
 
 ## Livres et ressources
+<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 L'hyperinflation est un sujet fascinant qui a été étudié à travers divers événements historiques. Si vous souhaitez approfondir ce sujet, voici une liste de 10 ressources essentielles à lire et à étudier :
 

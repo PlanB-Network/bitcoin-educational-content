@@ -368,8 +368,8 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Mise en place d'un Boite Mail 
-
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
@@ -384,20 +384,25 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Sécurisation de vos comptes
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Mise en place de Back-up
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Changement de navigateur & VPN
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Allez plus loins
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Comment travailler dans cette industrie de la cybersécurité
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ![conclusion et travailler dans l'industrie](https://youtu.be/YZ2EKaPvoZU)
 
@@ -433,6 +438,7 @@ En maîtrisant ces compétences et outils, vous serez bien équipé pour navigue
 ![](assets/notext/20.webp)
 
 ## Interview de Renaud
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ![Interview](https://youtu.be/RVjE-KOSKDs)
 
@@ -468,6 +474,7 @@ Autres considérations clés
 Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
 ## Remerciements et continuez à creuser le terrier du lapin
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Notez la formation & nous soutenir
 

@@ -355,37 +355,44 @@ Continue aprendendo e implementando gradualmente as boas práticas!
 Regra de ouro: A segurança da informação é um alvo em movimento que se adaptará ao seu percurso de aprendizagem!
 
 # Seção Prática
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Configurando uma Caixa de Correio
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 Observe que, por enquanto, esta parte do curso contém apenas tutoriais em francês. Estamos trabalhando na tradução do vídeo para publicá-lo em seu idioma. Se você quiser nos ajudar a traduzir, entre em contato conosco através do [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Segurança em 2FA
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Criando um gerenciador de senhas
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Protegendo suas contas
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Configuração de Backup
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Mudança de navegador & VPN
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 ![video](https://youtu.be/vc6-Ouca09g)
 # Vá além
-<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Como trabalhar nesta indústria de cibersegurança
-<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 A cibersegurança, um campo em pleno crescimento, oferece uma infinidade de oportunidades para aqueles apaixonados pela proteção de sistemas e dados. Se essa indústria te intriga, aqui estão alguns passos-chave para se orientar.
 
@@ -418,7 +425,7 @@ A evolução constante das ameaças requer uma vigilância regular das notícias
 Dominando essas habilidades e ferramentas, você estará bem equipado para navegar com sucesso no mundo da cibersegurança.
 ![](assets/notext/20.webp)
 ## Entrevista com Renaud
-<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Gestão eficaz de senhas e fortalecimento da autenticação: uma abordagem acadêmica
 
@@ -448,7 +455,7 @@ Des alternativas aos anúncios intrusivos incluem o Google DNS, OpenDNS e outros
 No módulo de treinamento "Segurança 101" do Descubra Bitcoin na Academia, também discutimos a autenticação do Lightning. Esse sistema gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais. É possível ter identidades descentralizadas controladas pelo usuário, mas falta padronização e normalização nos projetos de identidade descentralizada. Gerenciadores de pacotes como Nuget e Chocolaté, que permitem baixar software de código aberto fora da Microsoft Store, são recomendados para evitar ataques maliciosos. Em resumo, o DNS é crucial para a segurança online, mas é necessário permanecer vigilante contra possíveis ataques aos servidores DNS.
 
 ## Agradecimentos e continue a explorar a toca do coelho
-<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Avalie o curso e nos apoie
 

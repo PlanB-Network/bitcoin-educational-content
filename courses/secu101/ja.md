@@ -348,38 +348,45 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 黄金律：サイバーセキュリティは、あなたの学習の旅に適応する移動目標です！
 
 # 実践セクション
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## メールボックスの設定
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 現時点では、このコースの一部にはフランス語のハウツー・チュートリアルのみが含まれています。私たちは現在、ビデオを翻訳してあなたの言語で公開する作業を行っています。翻訳を手伝っていただける場合は、[GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)経由でお問い合わせください。
 
 ![ビデオ](https://youtu.be/vpYJYWhmEZg)
 
 ## 2FAでのセキュリティ強化
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ![ビデオ](https://youtu.be/mNcAKRDmz5o)
 
 ## パスワードマネージャーの作成
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ![ビデオ](https://youtu.be/y7Xkv4E5YmU)
 
 ## アカウントのセキュリティ強化
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 ![ビデオ](https://youtu.be/0JHZRALmGY0)
 
 ## バックアップの設定
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 ![ビデオ](https://youtu.be/wTJnlSUkDRI)
 
 ## ブラウザとVPNの変更
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 ![ビデオ](https://youtu.be/vc6-Ouca09g)
 
 # より深く掘り下げる
-<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## サイバーセキュリティ業界での働き方
-<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ### サイバーセキュリティ：無限の機会を持つ成長分野
 
@@ -414,7 +421,7 @@ Have I Been Pwned (https://haveibeenpwned.com/) のウェブサイトを使用�
 これらのスキルとツールを習得することで、サイバーセキュリティの世界を成功裏に航海するために十分な装備が整います。
 ![](assets/notext/20.webp)
 ## レノーとのインタビュー
-<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### 効率的なパスワード管理と認証強化：学術的アプローチ
 Découvre Bitcoinのアカデミーで提供されているトレーニングモジュール「セキュリティ101」では、パスワードマネージャーの重要性について議論しました。考慮すべき3つの次元があります：パスワードの作成、更新、およびウェブサイトへの実装です。
@@ -443,7 +450,7 @@ Passkizは、パスワード管理のための別の実行可能で安全な代�
 "Découvre Bitcoin Academy"の「セキュリティ101」トレーニングモジュールの一環として、Lightning認証についても議論しました。このシステムは、メールアドレスや個人情報を提供する必要なく、各サービスに異なる識別子を生成します。ユーザーが制御する分散型アイデンティティが可能ですが、分散型アイデンティティプロジェクトには標準化と正規化が不足しています。Microsoft Storeの外でオープンソースソフトウェアをダウンロードすることを可能にするパッケージマネージャー、例えばNugetやChocolatéは、悪意のある攻撃を避けるために推奨されます。要約すると、DNSはオンラインセキュリティにとって重要ですが、DNSサーバーに対する潜在的な攻撃に対して警戒を続ける必要があります。
 
 ## 謝辞とさらに深く掘り下げる
-<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### トレーニングを評価して、私たちをサポートしてください
 

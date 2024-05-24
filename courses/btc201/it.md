@@ -1455,6 +1455,7 @@ Inoltre, con l'aiuto di Mahboob e Bitcoin, queste donne in Afghanistan possono o
 Nel complesso, Bitcoin è stato uno strumento potente per l'empowerment finanziario delle donne.
 
 ## Mercedes
+<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 
 Nata in Messico nel 1949 in condizioni di povertà, Mercedes ha sperimentato fin da giovane le nette disuguaglianze che affliggevano la sua società. Durante l'infanzia, ha affrontato numerose sfide, tra cui la repressione governativa dei movimenti studenteschi e le difficoltà uniche vissute dalle donne in condizioni di povertà. Inoltre, il vasto divario tra ricchi e poveri, combinato con un accesso limitato a un'istruzione di qualità, ha intrappolato la sua famiglia e innumerevoli altri nella povertà. Frustrata da queste ingiustizie, Mercedes si è avvicinata al marxismo (comunismo), sostenendo il cambiamento sociale e la riforma economica.
 
@@ -1475,7 +1476,7 @@ Piena di speranza ed entusiasmo, Mercedes vede il potenziale di Bitcoin di cambi
 La vita di Mercedes è stata un incredibile viaggio, e l'impatto di Bitcoin sulla sua vita è veramente notevole. La sua storia serve come faro di speranza affinché Bitcoin possa portare un cambiamento significativo ed emancipare individui da tutti i ceti sociali. Come sostenitrice della parità finanziaria, sfrutta la sua vasta conoscenza e le esperienze di viaggio per educare e sollevare coloro che sono emarginati dai sistemi finanziari tradizionali. I suoi sforzi continui esemplificano come la passione e la determinazione di una persona possano ispirare un cambiamento positivo nelle comunità in tutto il mondo.
 
 ## Storie di Stablecoin
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 Mentre ci avviciniamo alla fine di questo corso, vorremmo presentare una raccolta di storie ispiratrici sui stablecoin. Queste testimonianze mostrano esperienze reali di individui, proprietari di aziende e società che hanno sfruttato il potere degli stablecoin per migliorare le loro vite.
 
 Negli esempi seguenti, ascolterete racconti in prima persona su come gli stablecoin hanno permesso a questo gruppo eterogeneo di persone di navigare con maggiore facilità ed efficienza le complessità del panorama finanziario moderno. Dalle transazioni internazionali senza intoppi e le opportunità di business ampliate, all'inclusività finanziaria migliorata e una riserva di valore più stabile, ogni storia evidenzia l'impatto degli stablecoin sui rispettivi percorsi.
@@ -1559,7 +1560,7 @@ Agenzia HR, Nigeria
 Speriamo che abbiate trovato queste storie ispiratrici. Detto ciò, dovrebbe essere chiaro che le stablecoin, come USDt, svolgono un ruolo fondamentale nell'abilitare gli individui ad accedere a trasferimenti internazionali rapidi ed efficienti, fatturazione e pagamenti in USD, salari denominati in USD e, cosa più importante, una riserva di valore relativamente stabile rispetto alle innumerevoli valute volatili. Senza le stablecoin, molti di questi individui si troverebbero ad affrontare significative barriere nell'accedere al mercato globale, nel connettersi con membri della famiglia internazionali o nel raggiungere clienti altrimenti inaccessibili. Le stablecoin hanno indubbiamente potenziato la loro connettività finanziaria e fornito uno strumento prezioso per navigare le complessità della nostra economia globale.
 
 ## Esame
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
 Ora che hai completato il Modulo "Superare i Dubbi", dovrai testare le tue nuove conoscenze per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -1570,9 +1571,10 @@ Ora che hai completato il Modulo "Superare i Dubbi", dovrai testare le tue nuove
 5. Riflettendo sui confronti tra il consumo energetico di Bitcoin e altre industrie, è giusto puntare il dito contro Bitcoin per il suo uso di energia? Perché sì o perché no?
 
 # Osservazioni Finali
+<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
 ## Osservazioni Finali
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Congratulazioni per essere arrivato alla fine del corso! Hai fatto molta strada. Lungo questo viaggio, abbiamo esplorato un'ampia gamma di argomenti, inclusi:
 

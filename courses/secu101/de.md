@@ -360,37 +360,44 @@ Machen Sie weiterhin Fortschritte und setzen Sie nach und nach die richtigen Pra
 Goldene Regel: IT-Sicherheit ist ein sich ständig veränderndes Ziel, das sich an Ihren Lernfortschritt anpasst!
 
 # Praktischer Abschnitt
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Einrichtung eines Postfachs
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 Beachten Sie, dass dieser Teil des Kurses derzeit nur Anleitungen auf Französisch enthält. Wir arbeiten gerade daran, das Video zu übersetzen, um es in Ihrer Sprache zu veröffentlichen. Wenn Sie uns beim Übersetzen helfen möchten, kontaktieren Sie uns über [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data).
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Absicherung mit 2FA
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Erstellung eines Passwort-Managers
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Absicherung Ihrer Konten
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Einrichtung eines Back-ups
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Browserwechsel & VPN
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 ![video](https://youtu.be/vc6-Ouca09g)
 # Gehen Sie weiter
-<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Wie man in dieser Cybersicherheitsbranche arbeitet
-<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 Die Cybersicherheit, ein aufstrebendes Gebiet, bietet zahlreiche Möglichkeiten für diejenigen, die sich für den Schutz von Systemen und Daten interessieren. Wenn Sie sich für diese Branche interessieren, finden Sie hier einige wichtige Schritte, um sich zu orientieren.
 
@@ -423,7 +430,7 @@ Die ständige Weiterentwicklung von Bedrohungen erfordert regelmäßige Überwac
 Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um erfolgreich in der Welt der Cybersicherheit zu navigieren.
 ![](assets/notext/20.webp)
 ## Interview mit Renaud
-<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 
@@ -457,7 +464,7 @@ Weitere Schlüsselüberlegungen
 Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
 ## Danksagungen und graben Sie weiter im Kaninchenbau
-<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Bewerten Sie den Kurs & unterstützen Sie uns
 

@@ -436,11 +436,11 @@ Dans son premier [courriel](https://www.metzdowd.com/pipermail/cryptography/2008
 
 Il liste également les propriétés principales de son modèle :
 
-- « Les doubles dépenses sont évitées grâce à un réseau pair à pair. »
+- « Les doubles dépenses sont empêchées grâce à un réseau pair à pair. »
 - « Pas de monnaierie ni d'autre tiers de confiance. »
 - « Les participants peuvent être anonymes. »
 - « Les nouvelles pièces sont fabriquées à partir d'une preuve de travail de style Hashcash. »
-- « La preuve de travail utilisée pour la génération des nouvelles pièces permet également au réseau d'éviter les doubles dépenses. »
+- « La preuve de travail utilisée pour la génération des nouvelles pièces permet également au réseau d'empêcher les doubles dépenses. »
 
 (*original: "Double-spending is prevented with a peer-to-peer network. &nbsp;No mint or other trusted parties. &nbsp;Participants can be anonymous. &nbsp;New coins are made from Hashcash style proof-of-work. &nbsp;The proof-of-work for new coin generation also powers the network to prevent double-spending."*)
 
@@ -455,6 +455,10 @@ Dans son courriel, il inclue un lien vers le livre blanc, déjà hébergé sur B
 - Enfin, un individu du nom de Ray Dillinger (utilisant le pseudonyme bear) s'interroge sur la valeur de l'unité de compte, déplorant le fait que « les preuves de travail informatiques n'ont pas de valeur intrinsèque » et reprochant leur caractère inflationniste en raison de l'évolution technique. Satoshi lui [répond](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) que « l'augmentation de la vitesse du matériel est prise en charge » par l'ajustement périodique de la difficulté de production.
 
 **extrait** Cet accueil sceptique n'est pas partagé par l'intégralité des personnes inscrites sur la liste de diffusion. En particulier, Hal Finney est résolument enthousiaste et écrit dans son [message](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) du 7 novembre que « Bitcoin semble être une idée très prometteuse ». Le cryptographe a en effet une vision optimiste de l'avenir. Il [déclarera](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) à ce sujet quelques années plus tard que « les cryptographes grisonnants [...\] ont tendance à devenir cyniques » mais que lui « était plus idéaliste » ayant « toujours aimé la cryptographie, son mystère et son paradoxe ».
+
+![Hal Finney en 2007](assets/img/ch4/3.webp)
+
+Hal Finney en 2007
 
 ### La politique monétaire et le code du logiciel (nov. 2008 -- déc. 2008)
 
@@ -496,7 +500,35 @@ Le 10 décembre, Satoshi [crée](https://web.archive.org/web/20131016004654/http
 
 ### La sortie du logiciel et le lancement du réseau (janv. 2009)
 
-Annonce sur la liste, version 0.1, réponse aux questions, échanges avec Hal Finney, échanges avec Dustin Trammell
+Le 8 janvier 2009 à 19 heures 27, Satoshi Nakamoto publie la première version du logiciel (numérotée 0.1.0) sur la liste de diffusion de Metzdowd.com. Le code source en C++ est publié de manière ouverte sous licence libre (MIT), de sorte que n'importe qui peut le copier, le modifier et l'utiliser à sa guise. Il contient notamment les données du bloc de genèse, le premier bloc de la chaîne à partir duquel cette dernière doit se prolonger. Le logiciel ne fonctionne que sous Windows. Dans son [courriel](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) d'annonce, Satoshi écrit :
+
+> « Voici la première version de Bitcoin, un nouveau système de monnaie électronique qui utilise un réseau pair à pair pour empêcher la double dépense. &nbsp;C'est un système complètement décentralisé, sans serveur ni autorité centrale. »
+>
+> original: "Announcing the first release of Bitcoin, a new electronic cash system that uses a peer-to-peer network to prevent double-spending. &nbsp;It's completely decentralized with no server or central authority."
+
+Il précise que « le logiciel est encore en version alpha et en phase expérimentale » et qu'« il n'y a aucune garantie que l'état du système ne doive pas être redémarré à un moment donné ». (*original: "The software is still alpha and experimental. &nbsp;There's no guarantee the system's state won't have to be restarted at some point if it becomes necessary"*) Il y a deux moyens d'obtenir des bitcoins : en demandant à quelqu'un de nous en envoyer ou bien en activant la production de pièces par CPU. Il y a également deux façons d'envoyer des unités : en utilisant l'adresse IP du destinataire, ou bien en passant par une adresse Bitcoin, ce qui permet d'envoyer un paiement hors-ligne. Enfin, le courriel décrit la politique monétaire finale de Bitcoin, dont nous parlerons dans le chapitre suivant.
+
+Quelques heures plus tard, dans la nuit du 8 au 9 janvier, Satoshi se met à miner, ce qui marque le lancement effectif du réseau. Le deuxième bloc de la chaîne, le bloc 1, est validé par Satoshi le 9 à 2 heures 54 du matin.
+
+Une fois cela fait, il se charge de prévenir les différentes personnes avec qui il a communiqué de ce lancement. À 5 heures 21, il envoie un [courriel](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-satoshi-nakamoto-present-a-new-puzzle/) à Hal Finney l'informant que « la version Bitcoin v0.1 avec l'exécutable et le code source complet est disponible sur Sourceforge ». Le lendemain, il contacte Adam Back et Wei Dai en leur écrivant un courriel personnalisé. Dans ces derniers e-mails, il inclue en particulier une description publiée par Hal Finney sur la liste de diffusion, qui mentionne la preuve de travail et b-money.
+
+Le 10 janvier, Hal Finney essaie de lancer le fichier exécutable du logiciel, mais il rencontre un problème technique qui fait planter son ordinateur. Il [contacte](https://web.archive.org/web/20140821141611/http://sourceforge.net/p/bitcoin/mailman/message/21295694/) donc Satoshi et commence à échanger avec lui à ce sujet. Hal Finney arrive tant bien que mal à faire fonctionner le logiciel. Dans la nuit du 10 au 11, à 1 heure du matin, il trouve ainsi son premier bloc (le [bloc 78](https://mempool.space/block/00000000a2886c95400fd3b263b9920af80b118b28fee5d2a162a18e4d9d8b2f) et gagne de ce fait 50 bitcoins. Une heure plus tard, il envoie un [courriel élogieux](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) à la *Cryptography mailing list* où il félicite Satoshi pour la sortie du la version alpha et où il met en valeur la politique monétaire de l'unité de compte. Enfin, à 3 heures 33, il [fait part](https://twitter.com/halfin/status/1110302988) son expérience sur Twitter (média social alors naissant) en indiquant qu'il fait fonctionner Bitcoin, en anglais : « *Running bitcoin* ». C'est le premier tweet qui parle de Bitcoin.
+
+De ces échanges entre Satoshi et Hal Finney sortent la version 0.1.3 qui est [publiée](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/) le 12 janvier, et qui est beaucoup plus stable. Satoshi profite également de converser avec Hal Finney pour lui donner quelques bitcoins : il lui [envoie](https://mempool.space/fr/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) ainsi 10 bitcoins par l'intermédiaire de son adresse IP dans la nuit du 11 au 12 janvier, à 3 heures 30 du matin. Il s'agit du premier transfert d'une personne à une autre sur le réseau.
+
+**extrait** Hal n'est pas la seule personne à expérimenter sur le réseau à ce moment-là : c'est également le cas de Dustin D. Trammell, un chercheur en sécurité informatique américain ayant découvert Bitcoin via la liste de diffusion. Celui-ci [communique](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) aussi avec Satoshi par courriel et [reçoit](https://mempool.space/fr/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) 25 bitcoins de sa part le 15 janvier.
+
+![Dustin Trammell](assets/img/ch4/4.webp)
+
+Dustin Trammell (source : archive de [blog.dustintrammell.com](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
+
+À partir du 9 janvier 2009, le réseau ne s'arrêtera pas de produire des blocs.
+
+### Une conception progressive
+
+Ce que nous pouvons retenir de ce récit de la conception de Bitcoin est que cette dernière a eu lieu de manière progressive. Entre la première idée au printemps 2007 et le lancement effectif du réseau lors de l'hiver 2009, il s'est en effet écoulé plus d'un an et demi. De plus, certains éléments du modèle ont évolué, comme nous l'avons vu avec la politique monétaire et le mécanisme des frais de transaction qui sont apparus après la publication de la première version du livre blanc le 31 octobre.
+
+**extrait** Cependant, ce travail n'a pas été suffisant, et il a fallu de la persévérance à Satoshi pour amorcer son système. Dès le début, il savait bien que peu de gens s'étaient penchés sérieusement sur son modèle et qu’il allait être compliqué d’attirer de nouveaux utilisateurs et contributeurs. C’est pourquoi il a essayé de susciter l’enthousiasme en vendant son idée du mieux possible. Nous étudierons cet aspect dans le chapitre suivant, qui couvre une grande partie de l'année 2009.
 
 ## Présenter Bitcoin au monde (janv. 2009 -- oct. 2009)
 

@@ -534,13 +534,70 @@ Dustin Trammell (source : archive de [blog.dustintrammell.com](https://web.arch
 
 Ce que nous pouvons retenir de ce récit de la conception de Bitcoin est que cette dernière a eu lieu de manière progressive. Entre la première idée au printemps 2007 et le lancement effectif du réseau lors de l'hiver 2009, il s'est en effet écoulé plus d'un an et demi. De plus, certains éléments du modèle ont évolué, comme nous l'avons vu avec la politique monétaire et le mécanisme des frais de transaction qui sont apparus après la publication de la première version du livre blanc le 31 octobre 2008.
 
-**extrait** Cependant, ce travail n'a pas été suffisant, et il a fallu de la persévérance à Satoshi pour amorcer son système. Dès le début, il savait bien que peu de gens s'étaient penchés sérieusement sur son modèle et qu’il allait être compliqué d’attirer de nouveaux utilisateurs et contributeurs. C’est pourquoi il a essayé de susciter l’enthousiasme en vendant son idée du mieux possible. Nous étudierons cet aspect dans le chapitre suivant, qui couvre une grande partie de l'année 2009.
+**extrait** Cependant, ce travail n'a pas été suffisant, et il a fallu de la persévérance à Satoshi pour amorcer son système. Dès le début, il savait bien que peu de gens s'étaient penchés sérieusement sur son modèle et qu'il allait être compliqué d'attirer de nouveaux utilisateurs et contributeurs. C'est pourquoi il a essayé de susciter l'enthousiasme en vendant son idée du mieux possible. Nous étudierons cet aspect dans le chapitre suivant, qui couvre une grande partie de l'année 2009.
 
 ## Présenter Bitcoin au monde (janv. 2009 -- oct. 2009)
 
-### La communication de Satoshi (janv. 2009 -- févr. 2009)
+La communication de Satoshi.
 
-21M, bloc de genèse, forum de la Fondation P2P, date de naissance
+### Le bloc de genèse et la limite des 21 millions (janv. 2009)
+
+Le mois de janvier 2009 est l'occasion pour Satoshi Nakamoto d'établir deux choses importantes : le bloc de genèse (*genesis block*) et la limite des 21 millions d'unités. Ces deux éléments sont présents dans la version 0.1.0 du logiciel publiée le 8 janvier sur la liste de diffusion de Metzdowd.com.
+
+Le bloc de genèse le bloc de base de la chaîne de blocs de Bitcoin, qui doit être prolongée à partir de lui, et est par conséquent inscrit en dur dans le logiciel. À l'occasion du lancement du réseau, Satoshi construit un nouveau bloc de genèse, qui est horodaté au 3 janvier 2009 à 18:15:05 UTC. Dans ce bloc (et plus précisément dans la transaction de récompense), il inscrit le message suivant :
+
+```
+The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
+```
+
+Ce message est le titre de la une du quotidien britannique *The Times* de ce jour-là et il indique que le chancelier de l'Échiquier (c'est-à-dire le ministre des finances britannique) est sur le point de renflouer les banques pour la seconde fois. La présence de cette une dans le bloc possède un rôle double :
+
+- D'une part, elle empêche l'antidatage du lancement du réseau en prouvant que le système n'a pas été démarré avant le 3 janvier, car Satoshi ne pouvait pas connaître cette une avant cette date ;
+- D'autre part, elle indique symboliquement ce à quoi Bitcoin s'oppose en faisant référence au contexte monétaire et financier de l'époque.
+
+**extrait** À l'époque, le monde subit en effet de plein fouet les effets de la crise financière amorcée en 2007 par le dégonflement de la bulle des subprimes aux États-Unis. Les États renflouent les banques pour éviter de nouvelles faillites bancaires après la chute de Lehman Brothers survenue le 15 septembre 2008, et les banques centrales procèdent à des assouplissements quantitatifs en injectant des liquidités sur les marchés financiers. Cette utilisation d'argent public créé pour l'occasion, a pour effet de choquer profondément un certain nombre de citoyens qui réalisent que le système bancaire est en fait un système de profits privés et de pertes socialisées.
+
+![The Times : Chancellor on brink of second bailout for banks](assets/img/ch5/1.webp)
+
+**extrait** De par son absence de tiers de confiance, Bitcoin n'est, lui, pas soumis à l'arbitraire d'une banque centrale. Il contraste ainsi avec les monnaies étatiques, telles que le dollar ou l'euro, dont la quantité peut être modifiée arbitrairement par ceux qui contrôlent la création monétaire. La politique monétaire du bitcoin est quant à elle programmée à l'avance, inscrite dans le protocole, pour en théorie ne jamais être altérée.
+
+Cela nous amène au second élément présenté par Satoshi le jour du lancement du réseau : la limite des 21 millions. Le 8 janvier, dans son [courriel d'introduction](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html), il décrit cette politique monétaire de la façon suivante : (*note : "coin" traduit par "unité", à modifier si besoin*)
+
+> « La circulation totale sera de 21 000 000 d'unités. &nbsp;Elles seront distribuées aux nœuds du réseau lorsqu'ils créeront des blocs, la quantité émise étant divisée par deux tous les 4 ans.
+>
+> les 4 premières années : 10 500 000 unités<br>
+> les 4 années suivantes : 5 250 000 unités<br>
+> les 4 années suivantes : 2 625 000 unités<br>
+> les 4 années suivantes : 1 312 500 unités<br>
+> etc.
+>
+> Lorsque cela sera épuisé, le système pourra prendre en charge les frais de transaction si nécessaire. »
+>
+> original: "Total circulation will be 21,000,000 coins. &nbsp;It'll be distributed to network nodes when they make blocks, with the amount cut in half every 4 years.
+>
+> first 4 years: 10,500,000 coins<br>
+> next 4 years: 5,250,000 coins<br>
+> next 4 years: 2,625,000 coins<br>
+> next 4 years: 1,312,500 coins<br>
+> etc...
+>
+> When that runs out, the system can support transaction fees if needed. &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."
+
+Quelques jours plus tard, Hal Finney [réagit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) à cette politique monétaire sur la liste en s'enthousiasmant du fait que « le système peut être configuré pour n'autoriser qu'un nombre maximum certain de pièces à être générées ». Dans son courriel, il estime que si Bitcoin devient « le système de paiement dominant utilisé dans le monde entier » (*original: "the dominant payment system in use throughout the world"*), chaque unité aura alors « une valeur d'environ 10 millions » de dollars. (*original: "a value of about $10 million"*) Il conclue en écrivant que « la possibilité de produire des pièces aujourd'hui avec quelques centimes de temps de calcul » peut constituer « un très bon pari ». (*original: "the possibility of generating coins today with a few cents of compute time may be quite a good bet"*) Même si l'estimation est contestable (car elle se base sur une valorisation du bitcoin qui serait équivalente à la totalité de la richesse mondiale), le raisonnement se tient. C'est notamment cet élément qui pousse Dustin Trammell à lancer un nœud si rapidement, comme il le confie à Satoshi dans leur correspondance privée.
+
+Satoshi à DDT: "long-odds investment", 9
+
+**extrait** Le 16 janvier, Satoshi [reprend](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) cet élément de communication dans un courriel qu'il partage à la liste de diffusion, où il décrit les cas d'utilisation potentiels et où il déclare qu'il « pourrait être judicieux d'en avoir au cas où cela prendrait » et que « si suffisamment de gens pensent la même chose, cela deviendra une prophétie autoréalisatrice ». (*original: "It might make sense just to get some in case it catches on. &nbsp;If enough people think the same way, that becomes a self fulfilling prophecy."*)
+
+réglementation, spam, écologie
+
+26 janv. Zooko : https://www.metzdowd.com/pipermail/cryptography/2009-January/015050.html https://web.archive.org/web/20090303195936/http://testgrid.allmydata.org:3567/uri/URI:DIR2-RO:j74uhg25nwdpjpacl6rkat2yhm:kav7ijeft5h7r7rxdp5bgtlt3viv32yabqajkrdykozia5544jqa/wiki.html#%5B%5BDecentralized%20Money%5D%5D
+
+Bitcoin.org (capture du 3 mars 2009 : https://web.archive.org/web/20090303195936/http://bitcoin.org/)
+
+### Le forum de la Fondation P2P et la défiance des banques centrales (févr. 2009)
+
+forum de la Fondation P2P, date de naissance
 
 ### Les outils de présentation (avr. 2009 -- nov. 2009)
 

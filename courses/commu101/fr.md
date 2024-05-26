@@ -37,7 +37,7 @@ Cette vision statistique est bien sûr intimement liée:
 * au développement successif du marché spéculatif des crypto-monnaies, en particulier en 2017/2018 et en 2020/2021;
 * à l'apparition de plus en plus régulière de Bitcoin dans les médias.
 
-![image](1)
+![image](assets/fr/chapter0/img1.jpg)
 
 ####
 Alors que Bitcoin n'est encore qu'à ses balbutiements, ce constat - que vous connaissez certainement déjà - nous amène alors à réfléchir à deux choses.
@@ -72,7 +72,7 @@ D'autre part, une communauté Bitcoin peut également avoir des objectifs plus o
 4. les inepties non sourcées et/ou trompeuses que certaines personnalités et médias cherchent à répandre;
 5. ses différences fondamentales avec les autres crypto-monnaies.
 
-![image](2)
+![image](assets/fr/chapter1/img2-fr.png)
 
 Construisant petit à petit les premières citadelles du monde de demain, **les communautés Bitcoin du monde entier se dressent comme un rempart particulièrement pertinent face aux tentatives de désinformation et/ou de censure dans certains pays**. En parallèle, **elles créent un terrain fertile pour l'apprentissage des fondamentaux de Bitcoin**; permettant à toute personne ne l'ayant pas encore compris de pouvoir disposer, lorsqu'elle sera prête, des contacts et ressources pour entrevoir un monde nouveau.
 
@@ -90,7 +90,7 @@ En effet, au fil du parcours du bitcoiner, une quantité très significative de 
 
 L'organisation de ces meet-ups peut ainsi permettre des rencontres physiques bien plus conviviales qu'en audio ou en visio. Elles peuvent alors s'effectuer **autour d'un verre ou d'un repas**, et permettent de pouvoir échanger de manière plus précise et plus directe, avec un plus grand nombre de personnes.
 
-![image](3)
+![image](assets/fr/chapter1/img3.jpg)
 
 Pour les bitcoiners, les meet-ups peuvent alors être un moment **propice à la discussion autour de sujets techniques ou de projets** qu'ils sont entrain de développer; et pour les "bitcoiners en devenir", de **découvrir l'univers de Bitcoin et de s'y plonger petit à petit**.
 ###
@@ -126,7 +126,7 @@ Voici donc quelques réflexions pouvant vous orienter:
 Un autre point sur lequel il est plus que pertinent de s'informer est: **existe-t-il déjà un meet-up près de chez soi?**
 Pour ce faire, vous ne devriez pas être sans savoir que le site [btcmap.org](https://btcmap.org/communities/map#0/0/0/) recense la quasi-totalité des communautés et meet-ups mondiaux.
 
-![image](4)
+![image](assets/fr/chapter2/img4.png)
 
 Après quelques recherches, si vous décidez donc de créer un meet-up ou une communauté dans la même ville (ou dans celle d'à côté) qu'un meet-up actif depuis plusieurs mois/années, il vous faut savoir que cela peut créer une forme de concurrence; même involontaire.
 Alors bien évidemment, Bitcoin étant décentralisé, chacun est libre de faire ce qu'il souhaite. Mais il est évident qu'**il est plus pertinent d'unir le plus possible ses forces plutôt que de multiplier les communautés proches; et donc, de diminuer la capacité d'impact de chacune**.
@@ -163,7 +163,7 @@ Il peut en effet permettre de **coupler découverte de nouvelles personnes et pr
 
 Parfois, en fonction des sujets traités (comme par exemple pour des présentations techniques ou des ateliers manuels), il peut être pertinent de réaliser un **événement en supplément du meet-up**, dans un endroit différent et sur un moment différent.
 
-[image](5)
+![image](assets/fr/chapter3/img5.png)
 
 ###
 3. Quelle implication souhaiterais-je que ma communauté ait dans l'écosystème Bitcoin?
@@ -214,13 +214,13 @@ En partant de cet élément, il est alors possible de concevoir un logo plus ou 
 
 Pour vous donner des idées, voici quelques exemples de logos de communautés françaises:
 - À Marseille, le logo représente la basilique Notre-Dame-de-la-Garde, qui surplombe la ville: 
-![image](8)
+![image](assets/fr/chapter4/img8.png)
 - À Monaco, il fait référence au rocher monégasque: 
-![image](7)
+![image](assets/fr/chapter4/img7.jpg)
 - À Lille, le logo épuré représente à la citadelle de Vauban et son parc, présents à quelques minutes du centre ville: 
-![image](6)
+![image](assets/fr/chapter4/img6.jpg)
 - À Saint-Malo, la hermine - emblême de la ville - est mise en valeur: 
-![image](9)
+![image](assets/fr/chapter4/img9.jpg)
 
 Il est donc désormais de votre ressort de **trouver un élement ou un lieu marquant de votre ville et de l'utiliser pour construire le visuel de votre communauté Bitcoin**.
 
@@ -250,20 +250,20 @@ Afin de pouvoir vous aiguiller plus en détail, nous vous proposons ci-dessous u
 ###
 Voici également quelques fichier pré-conçus, duplicables et modifiables à votre guise que nous utilisons avec notre association Bitcoin Lille:
 - **affiche d'annonce de meet-up** (pour les réseaux sociaux, et imprimée en A4 ou A3): [lien](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-![image](10)
+![image](assets/fr/chapter5/img10-fr.png)
 
 - **affiche d'annonce d'événement** coinjoint (pour les réseaux sociaux, et imprimée en A4 ou A3): [lien](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - **bannière pour certains réseaux sociaux**: [lien](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - **annonce d'un jeu concours**: [lien](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-![image](11)
+![image](assets/fr/chapter5/img11.png)
 
 - **charte** de notre bibliothèque, affichée en A4 lors des meet-ups: [lien](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - **flyer** "21 raisons d'utiliser Bitcoin", écrit par @ProfEduStream: [lien](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-![image](12)
-![image](13)
+![image](assets/fr/chapter5/img12-fr.png)
+![image](assets/fr/chapter5/img13-fr.png)
 
 - **présentation powerpoint** "Chapitre 2 - Comprendre les transactions sur Bitcoin", par @ProfEduStream: [lien](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ### 
@@ -303,17 +303,17 @@ Pour ce faire, de nombreuses IAs existent. On compte notamment:
 ###
 Dans le cas où l'on souhaiterait par exemple réaliser une image ou un logo futuriste du meet-up "Bitcoin Londres", on peut alors demander à l'IA "copilot":
 - [ ] *Crée moi un logo Bitcoin avec en arrière plan le pont de Londres et Big Ben. Futuriste* - [Lien](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
-![image](14)
+![image](assets/fr/chapter5/img14.PNG)
 
 Si les quatre propositions de copilot ne sont toutefois pas assez réalistes à votre goût, il vous est possible d'ajouter à la conversation:
 - [ ] *Rends le 4ème plus beaucoup plus réaliste* - [Lien](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
-![image](15)
+![image](assets/fr/chapter5/img15.PNG)
 
 Le dernier rendu est d'ailleurs plutôt sympa !
 ###
 Cependant, si l'on souhaite un logo beaucoup plus épuré, pour par exemple un sticker, on peut alors entrer sur "copilot":
 - [ ] *Crée moi le logo du "Londres Bitcoin Meetup" avec un style british et épuré* - [Lien](https://copilot.microsoft.com/images/create/logo-for-27londres-bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
-![image](16)
+![image](assets/fr/chapter5/img16.PNG)
 
 Le second recond est typique et de peut tout à fait faire l'affaire !
 ###
@@ -334,7 +334,7 @@ Par exemple, **en France, en Allemagne et en Italie, Telegram et Twitter sont le
 En ce sens, **dans l'objectif de choisir ses canaux de communication, le plus pertinent est de commencer par prendre exemple sur les communautés limitrophes de son pays**.
 Pour ce faire, accéder à la carte [btcmap.org](https://btcmap.org/communities/map#0/0/0/) vous donnera un avis déjà bien précis des canaux de communication les plus utilisés dans votre pays.
 En Suisse par exemple, les informations sont principalement relayées par le biais du Telegram, du Twitter et du site internet de la communauté.
-![image](17)
+![image](assets/fr/chapter6/img17.PNG)
 ###
 **Dans le cas de la France (et de la francophonie de manière générale), le principal canal de communication est Telegram**. Plus de 90% des meet-ups français en ont d'ailleurs un: c'est un "must-have".
 Par suite, **le principal réseau social utilisé par les communautés est Twitter** (70% des meet-ups français); réseau social sur lequel une majorité de bitcoiners sont présents.
@@ -368,7 +368,7 @@ Si vous souhaitez créer un endroit où vos membres peuvent échanger ensemble d
 Passez donc directement à la section suivante, intitulée [Créer un groupe Telegram](LIEN).
 
 En effet, **un canal Telegram n'est qu'une vitrine des informations postées par les administrateurs, dans lequel les membres ne pourront pas faire grand chose de plus qu'ajouter des émojis**.
-![image](18)
+![image](assets/fr/chapter7/img18-fr.png)
 
 Il est toutefois possible d'ajouter la possibilité pour les membres du canal de commenter chaque post de l'administrateur du canal, mais cela se fera dans des discussions séparées; clivant fortement les échanges. **La création d'un canal Telegram n'est donc généralement pas conseillée pour une communauté**.
 ###
@@ -379,7 +379,7 @@ Tutoriel pour créer un canal Telegram:
 
 À contrario, **créer un groupe Telegram est tout à fait pertinent**.
 En effet, pour prendre des exemples connus comme les groupes Messenger ou WhatsApp, toutes les personnes qui rejoindront ce **groupe Telegram pourront échanger ensemble, se répondre; et cela, toujours dans une même discussion**.
-![image](19)
+![image](assets/fr/chapter7/img19-en.png)
 
 Les administrateurs de ce canal pourront alors:
 - poster eux-mêmes des messages;
@@ -411,7 +411,7 @@ Un sujet **"Général"** peut également être mis en place, dans lequel tous le
 Enfin, **des sujets spécifiques** (minage, développement d'un projet, prochaine conférence, etc.) peuvent être ajoutés.
 
 À vous de modifier cela en fonction de vos envies; à l'image par exemple du super-groupe d'Abidjan Bitcoin Meet-up.
-![image](20)
+![image](assets/fr/chapter7/img20-fr.png)
 ###
 Toutefois, il est à noter qu'**un super-groupe Telegram peut être plus difficile à utiliser pour certains membres**. En effet, parfois, certains ne parviennent pas à comprendre **comment accéder aux autres sujets de ce super-groupe** (pour cela, il suffit simplement de cliquer sur le logo du groupe; et cela ouvre la liste des sujets créés). Les aider en leur envoyant une petite vidéo tutorielle en capture d'écran peut alors être une bonne idée.
 ###
@@ -444,7 +444,7 @@ Il est également **très fortement conseillé d'écrire une description de son 
 > 
 > Pour accéder à nos autres réseaux sociaux: [LIEN_SOUHAITÉ] 🌐
 
-![image](21)
+![image](assets/fr/chapter8/img21.jpg)
 
 On observe d'ailleurs, sur l'image ci-dessus, que le lien d'invitation a été customisé par les administrateurs du groupe Telegram Bitcoin Lille, car ce dernier est public.
 ###
@@ -470,7 +470,7 @@ Parmi les multiples options possibles avec **le bot [@GroupHelpBot](https://tele
 - configurer la permission des commandes;
 - supprimer automatiquement certains types de messages;
 - etc.
-![image](22)
+![image](assets/fr/chapter9/img22-fr.jpg)
 
 Trois autres idées simples sont:
 - **créer une commande** "/lien" permettant d'envoyer le lien d'accès au groupe Telegram;
@@ -532,7 +532,7 @@ Il est évident que si personne ne parvient à accéder à vos canaux de communi
 
 Parmi ces réseaux sociaux, **Twitter se positionne comme un quasi-incontournable dans le monde de Bitcoin**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme**; quand bien même sa centralisation et son développement sont loin d'être corrects.
 C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, dans l'idée d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout: mieux vaut prévenir que guérir.
-![image](23)
+![image](assets/fr/chapter13/img23.jpg)
 
 D'autres réseaux sociaux peuvent évidemment être utilisés. C'est le cas de Facebook (cas d'un groupe ou d'une page Facebook) ou même LinkedIn.
 Néanmoins, il est à rappeller que **plus il y a de canaux de communication et de réseaux sociaux à créer - et donc à alimenter -, plus cela prend du temps. Il vaut donc mieux se concentrer sur les plus pertinents; et Twitter (et NOSTR) semblent être de bons candidats**.
@@ -549,7 +549,7 @@ Très simple d'utilisation, Twitter est un réseau social nécessitant la modifi
 3. **la description**, qui vous permettra en une centaine de caractères de donner les informations importantes sur votre communauté. Cela peut par exemple être:
 > Compte officiel de la communauté Bitcoin [VILLE] #BTC | Meet-ups tous les 1ers mercredis du mois à [NOM_DU_BAR] de [VILLE] 🍻 | Nous rejoindre sur Telegram 🔽
 4. En dessous de cette description, il est également possible d'**insérer un lien**. Ce dernier peut alors amener les utilisateurs à accéder à une page "réseaux sociaux" disponible sur le site internet de votre communauté, comme il peut les amener vers votre canal de communication Telegram.
-![image](24)
+![image](assets/fr/chapter14/img24-fr.png)
 
 De plus, **quelques paramètres de confidentialité semblent être pertinents à modifiés**; les plus pertinents étant évidemment:
 * le fait de **laisser son compte Twitter en mode "public"** (posts visibles par n'importe qui);
@@ -583,7 +583,7 @@ Voici donc **les principaux points auxquels il faut faire attention pour que vot
     - encouragez votre communauté à aller voir et à suivre votre profil.
 ###
 De plus, **il est possible d'épingler sur votre profil Twitter un tweet auquel vous souhaiteriez donner une visibilité importante**.
-![image](25)
+![image](assets/fr/chapter14/img25-en.png)
 
 Notez également qu'il est possible, sur téléphone comme ordinateur, d'être connecté simultanément à deux comptes Twitter en même temps. Cela peut être très pratique pour ne pas avoir à se connecter / déconnecter entre son compte personnel et son compte communautaire; tout comme cela peut vous jouez des tours si vous postez involontairement avec le compte de votre communauté une photo de vous déguisé... Prudence, donc !
 ###
@@ -602,7 +602,7 @@ C'est d'ailleurs le cas entre la cinquantaine de communautés Bitcoin française
 
 Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (mais aussi, Bitcoin Aix et Bitcoin Marseille); les amenant désormais à effectuer au moins une fois par an un meet-up commun.
 Le cas des repas du **Cercle du Coin** en est un autre exemple.
-![image](26)
+![image](assets/fr/chapter15/img26.jpg)
 
 De plus, en France, il peut également être pertinent de **suivre les initiatives @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin et @btcmap**. Ce ne sont évidemment que des propositions, et chaque communauté est bien évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.
 
@@ -620,7 +620,7 @@ Parmi celles-ci, on note notamment:
     * **de mentionner @bitcoinpointfr sur Twitter à chaque nouvelle annonce d'événement de sa communauté**;
     * **d'épingler dans son groupe Telegram communautaire l'annonce de ce dit événement**.
 
-![image](27)
+![image](assets/fr/chapter16/img27.jpg)
 ### 
 Il n'est pas sans noter que d'autres plateformes et applications permettent également de gagner en visibilité. **[Meetup](https://www.meetup.com/)** est l'une d'elles. En effet, il s'agit d'un site internet (et d'une application sur téléphone) permettant de créer un événement; mais aussi de chercher ceux autour de chez soi.
 Malheureusement, pour pouvoir créer des meet-ups, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis; son principal intérêt étant qu'elle permet de gérer de manière intégrée les inscriptions aux rencontres.

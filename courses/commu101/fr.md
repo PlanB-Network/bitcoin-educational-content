@@ -9,7 +9,6 @@ objectives:
   - En quoi est-il pertinent d'anticiper l'évolution future d'une communauté?
 ---
 
-
 # La première marche vers l'adoption de Bitcoin
 
 De nos jours, de nombreux contenus pédagogiques sont disponibles sur internet, permettant à tout à chacun de s'éduquer autour de Bitcoin et de son écosystème.
@@ -21,6 +20,7 @@ Dans cette formation intitulée "**COMMU101**", nous tâcherons de présenter l'
 Par suite, nous présenterons **différents projets et initiatives** pouvant être mis en place facilement, notamment d'un point de vue pédagogique. Plusieurs ressources déjà préconçues seront alors proposées en open-source.
 Enfin, une réflexion plus profonde sera menée sur **l'évolution des communautés d'un point de vue national**; mais également, sur **leur rôle dans l'hyperbitcoinisation du monde de demain**.
 
++++
 
 # Introduction
 

@@ -43,8 +43,6 @@ Rentrez vos informations et valider, vous recevrez ensuite par mail une demande 
 
 ![signup](assets/4.png)
 
-![signup](assets/5.png)
-
 
 ## Ajouter un "worker"
 

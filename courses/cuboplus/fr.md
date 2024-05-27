@@ -18,8 +18,10 @@ Profitez-en !
 +++
 
 # Introduction et cours préparatoires
+<partId>43a835de-c4e7-542b-9d1a-c92f049e88e6</partId>
 
 ## Introduction aux cours CUBO+
+<chapterId>dcf2d37e-b32a-5eb8-aaa3-41ac92475ba9</chapterId>
 
 ![Vidéo](https://youtu.be/4VuI9we_XYM)
 
@@ -34,6 +36,7 @@ Le cours vise à doter les participants d'une compréhension approfondie des pri
 Les participants doivent faire preuve d'une grande curiosité, d'un désir d'apprendre à un niveau professionnel et de connaissances de base en développement. Bien qu'une expérience détaillée de Bitcoin ne soit pas requise, une compréhension de base des principes de codage et une ouverture à l'exploration de concepts techniques complexes sont essentielles pour tirer le meilleur parti de l'accélérateur.
 
 ## Pourquoi Bitcoin
+<chapterId>89a0aa8b-90bd-58b2-82b3-bc5e1f82eaeb</chapterId>
 
 ### Pourquoi El Salvador a besoin de Bitcoin
 
@@ -54,6 +57,7 @@ Il est important de noter que le premier module, 'Pourquoi Bitcoin', était néc
 Voici le lien, profitez-en!
 
 ## Comment Bitcoin
+<chapterId>d800970a-0d8e-5557-810a-7aef845d4a34</chapterId>
 
 ### Stack Technologique de Bitcoin
 
@@ -68,6 +72,7 @@ Dans la première conférence du cours 'Comment Bitcoin', nous avons commencé �
 Lors de la deuxième conférence de 'Comment Bitcoin', nous avons effectué un examen plus approfondi de la pile technologique de Bitcoin.
 
 ## Démystification de Bitcoin
+<chapterId>171ec71d-3028-5820-9b4f-36682113fc81</chapterId>
 
 ### Couper les rumeurs
 
@@ -76,6 +81,7 @@ Lors de la deuxième conférence de 'Comment Bitcoin', nous avons effectué un e
 Démystification des blockchains et des shitcoins, ainsi que démystification des mythes et des idées fausses concernant le gaspillage d'énergie de Bitcoin et son utilisation criminelle.
 
 ## Exécution de Bitcoin
+<chapterId>5f638ec9-a6c1-5716-b27f-d837ab896eb1</chapterId>
 
 ### Installation de Bitcoin Core
 
@@ -96,6 +102,7 @@ Lors de notre deuxième cours, nous avons plongé dans le processus d'installati
 Dans le troisième cours, nous avons abordé des sujets liés à la sécurité, aux dispositifs matériels et à la configuration de Specter.
 
 ## Améliorer Bitcoin
+<chapterId>4fdd032f-2b05-5f24-a094-297d64f939de</chapterId>
 
 ### Problèmes ouverts dans l'écosystème Bitcoin
 
@@ -105,112 +112,134 @@ Salut à tous, voici le lien pour la dernière conférence de la période prépa
 
 
 # Fondamentaux de Bitcoin
+<partId>6c0a3691-3ce4-5309-8ad7-e16e4b63c734</partId>
 
 ## La réflexion sur la sécurité dans Bitcoin
+<chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
 
 ![Vidéo](https://youtu.be/2f_rK74MB3U)
 
 Peter Todd explore les considérations de sécurité propres à Bitcoin, enseignant aux développeurs comment adopter une approche axée sur la sécurité. La conférence vise à instaurer une base solide pour reconnaître et atténuer les menaces potentielles dans le développement Bitcoin, en se basant sur un exercice pratique consistant à expliciter le modèle de menace d'un logiciel de chronométrage des élections.
 
 ## Logiciel libre et open source (FLOSS) dans Bitcoin
+<chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
 
 ![Vidéo](https://youtu.be/GM-ho5M5_mQ)
 
 L'utilisation de logiciels libres et open source (FLOSS) est essentielle dans l'écosystème de Bitcoin. Peter Todd explore l'importance du FLOSS pour Bitcoin, en examinant l'histoire du FLOSS et en montrant comment Github nous permet de construire collectivement des logiciels open source comme Bitcoin.
 
 ## Cryptographie dans Bitcoin
+<chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
 ![Vidéo](https://youtu.be/4Fw9xS7JlVU)
 
 Adam Gibson guide les participants à travers les bases cryptographiques de Bitcoin d'un point de vue mathématique. La session couvre les fonctions cryptographiques essentielles présentes dans Bitcoin, telles que les hachages et leur sécurité, les arbres de Merkle, les protocoles d'identité et de signature, les logarithmes discrets et les courbes elliptiques.
 
 ## Le modèle de gouvernance de Bitcoin
+<chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
 ![Vidéo](https://youtu.be/KSpKwTFSOdc)
 
 Peter Todd discute du modèle de gouvernance de Bitcoin, en fournissant des informations sur la manière dont les décisions sont prises au sein de la communauté Bitcoin et sur la manière dont cette approche décentralisée influence le développement et la stabilité du protocole. Il explore notamment comment différents types de changements peuvent entraîner des forks doux ou durs, comment la gouvernance différencie les changements de politique des règles de consensus, et quel est le jeu politique du changement dans Bitcoin.
 
 # Concepts de la couche un
+<partId>5300855f-e5e4-5bca-9afe-2397f7c76260</partId>
 
 ## Les composants d'un nœud Bitcoin
+<chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
 ![Vidéo](https://youtu.be/jdHc-pbDI9E)
 
 Adam Gibson décrit les différents composants d'un nœud Bitcoin. Le chapitre se concentre sur le rôle de chaque composant dans le maintien de la fonctionnalité et de l'intégrité du réseau. En particulier, il met l'accent sur pourquoi nous devrions exécuter un nœud Bitcoin, ce que fait un nœud Bitcoin et comment les différents composants d'un nœud Bitcoin fonctionnent.
 
 ## Les structures de données de Bitcoin
+<chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
 ![video](https://youtu.be/SJnaDPZmVsE?si=5h048qponlVi-iQM)
 
 Alekos Filini présente un aperçu approfondi des structures de données de Bitcoin. Cela couvre l'organisation des données au sein de la blockchain et comment cela permet la robustesse et l'efficacité du réseau.
 
 ## Stack logiciel Bitcoin L1
+<chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
 ![Vidéo](https://youtu.be/L6FkntRwkOU)
 
 Daniela Brozzoni offre un aperçu complet de la pile logicielle Bitcoin Layer 1, expliquant les couches qui composent les fondements du protocole Bitcoin (c'est-à-dire les nœuds Bitcoin et les portefeuilles Bitcoin) et comment construire un logiciel Bitcoin avec une introduction aux bibliothèques Bitcoin et une plongée profonde dans le Bitcoin Development Kit (BDK).
 
 # Lightning Network
+<partId>d7ac2ad7-a4b3-564f-8a8d-cfec5297b3a5</partId>
 
 ## Histoire des canaux de paiement
+<chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
 
 ![Vidéo](https://youtu.be/0ZgE-LjHWvI)
 
 Gabriel Comte offre une perspective historique sur le développement des canaux de paiement, qui sont fondamentaux pour le Lightning Network. Ce chapitre explore l'évolution des canaux de paiement et leur importance dans la mise à l'échelle des transactions Bitcoin, des canaux de paiement de Satoshi aux solutions de canaux de paiement bidirectionnels comme les canaux de micropaiement Duplex ou les canaux de paiement Lightning.
 
 ## Histoire du routage atomique
+<chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
 ![Vidéo](https://youtu.be/RaMeYgSBJQ0)
 
 Gabriel Comte raconte l'histoire du routage atomique, détaillant plusieurs techniques qui ont été à la base de la couche de routage du réseau Lightning, comme le modèle Hub-and-Spokes, le modèle Ripple et les contrats verrouillés par hachage dans le temps (HTLC). Cette histoire a été cruciale pour permettre des transactions sécurisées et sans confiance sur le Lightning Network.
 
 ## Examen de BOLT
+<chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
 ![Vidéo](https://youtu.be/Fy5W_ryWrCY)
 
 asi0 examine BOLT, la Base de la technologie Lightning, expliquant les spécifications que tout réseau Lightning doit respecter. Cela sera une première plongée approfondie dans les différentes couches du Lightning Network.
 
 ## Principaux clients LN
+<chapterId>a2ad8db4-aea2-5231-927c-616c53db31bf</chapterId>
 
 ![Vidéo](https://youtu.be/a0Q_5dzpqKw)
 
 asi0 présente les principaux clients du Lightning Network (LN), en fournissant une analyse de leurs fonctionnalités et de leurs points forts basée sur une matrice 2x2 qui évalue le niveau de garde et de gestion de la liquidité que l'utilisateur a avec les clients LN.
 
 # Les défis du LN
+<partId>ca58c9d7-ba7e-5392-8488-6a21a9850e6a</partId>
 
 ## Défis pratiques pour LN
+<chapterId>014c7c40-aef7-58ac-b51f-33784463f482</chapterId>
 
 (la vidéo sera bientôt disponible)
 
 asi0 aborde les défis pratiques auxquels on est confronté lorsqu'on travaille avec le Lightning Network. Cela inclut une discussion sur les limitations actuelles et les efforts en cours pour les surmonter, basés sur 4 principaux défis (gestion de la liquidité, abstraction L1/L2, réception hors ligne et gestion des sauvegardes) qui sont explorés du point de vue de l'utilisateur et du point de vue du développeur.
 
 ## Évolution future du LN
+<chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
 ![Vidéo](https://youtu.be/TIrAMFK6Peg)
 
 Gabriel Comte spécule sur l'évolution future du Lightning Network, examinant les développements potentiels - tels que les canaux à financement double eltoo, BOLT 12, PTLCs, Watchtowers et les normes LSP - et comment ils pourraient transformer le paysage des transactions Bitcoin.
 
 ## Protocoles sur le LN
+<chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
 ![Vidéo](https://youtu.be/OLTQLtQyoZE)
 
 Alekos Filini examine les protocoles construits sur le Lightning Network, expliquant comment ils contribuent à la scalabilité et à la fonctionnalité de Bitcoin.
 
 # Bonus
+<partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
 
 ## Principes essentiels du minage de Bitcoin
+<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
 ![Vidéo](https://youtu.be/22LadAWEMQo)
 
 Ajelex se concentre sur l'aspect commercial du minage de Bitcoin, examinant les stratégies permettant de maintenir la rentabilité sur un marché concurrentiel. La discussion comprend une analyse des coûts opérationnels, des mesures d'efficacité et de l'économie qui anime l'industrie minière.
 
 ## Comprendre Joinmarket
+<chapterId>f109f64f-9b73-5fbf-8870-5d34d5b69df8</chapterId>
 
 ![Vidéo](https://youtu.be/VFjccozVwc8)
 
 Adam Gibson offre un aperçu de Joinmarket, expliquant comment cette implémentation de CoinJoin améliore la confidentialité et la fongibilité de Bitcoin. Il explique comment Joinmarket facilite les transactions collaboratives, sans confiance et anonymes au sein de l'écosystème Bitcoin. Ensuite, dans une deuxième partie, il montre comment exécuter Joinmarket dans Signet.
 
 ## Hackathon de la première année de Cubo+
+<chapterId>3faf7daa-ea42-5b68-bcaf-04b70b2e02dd</chapterId>
 
 ### Groupe 1 Hackathon - L'Héritage de Satoshi
 
@@ -243,6 +272,7 @@ Le groupe de Satoshi Fellowship présente une application de jeu LN utilisant Ln
 Le groupe Lighting Walker présente sa solution pour un service de transfert d'argent utilisant MySQL, JavaScript et l'API de ZDB.
 
 ## Remerciements
+<chapterId>33cb95cf-91d1-555b-a33b-0e3bd6745c33</chapterId>
 
 Nous tenons à remercier nos éducateurs :
 

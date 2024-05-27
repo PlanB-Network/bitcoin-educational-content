@@ -58,14 +58,14 @@ Dans cette fenêtre, sélectionnez votre zone géographique.
 
 Si le mineur que vous voulez connecter utilise BraiinsOS, sélectionnez le protocole "Stratum V2". Autrement, choisissez "Stratum V1".
 
-[signup](assets/8.png)
+![signup](assets/8.png)
 
 Vous aurez les informations à renseigner sur la page web de votre mineur (reportez-vous à la documentation de votre mineur pour savoir où entrer ces informations).
 
-Ici, "stratum+tcp://eu.stratum.braiins.com:3333" est l'URL de la pool.
+Ici, **"stratum+tcp://eu.stratum.braiins.com:3333"** est l'URL de la pool.
 
-JimZap.workerName est votre identifiant et le nom de votre mineur, où JimZap est l'identifiant et .workerName le nom du mineur. Si vous avez plusieurs mineurs, vous pouvez soit leur donner le même nom, auquel cas leur puissance de calcul sera additionnée sur le tableau de bord, soit leur donner un nom différent pour pouvoir les monitorer individuellement.
+**JimZap.workerName** est votre identifiant et le nom de votre mineur, où JimZap est l'identifiant et .workerName le nom du mineur. Si vous avez plusieurs mineurs, vous pouvez soit leur donner le même nom, auquel cas leur puissance de calcul sera additionnée sur le tableau de bord, soit leur donner un nom différent pour pouvoir les monitorer individuellement.
 
-Et le mot de passe est toujours le même "anything123"
+Et le mot de passe est toujours le même **"anything123"**
 
 Une fois que vous aurez rentré ces informations sur la page web de votre mineur et qu'il aura commencé le minage, vous le verrez apparaître après quelques minutes sur le Dashboard de Braiins Pool.

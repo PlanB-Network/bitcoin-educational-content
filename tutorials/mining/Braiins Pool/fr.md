@@ -69,3 +69,32 @@ Ici, **"stratum+tcp://eu.stratum.braiins.com:3333"** est l'URL de la pool.
 Et le mot de passe est toujours le même **"anything123"**
 
 Une fois que vous aurez rentré ces informations sur la page web de votre mineur et qu'il aura commencé le minage, vous le verrez apparaître après quelques minutes sur le Dashboard de Braiins Pool.
+
+## Présentation du Dashboard
+
+![signup](assets/9.png)
+
+Dans le bandeau supérieur, vous pouvez voir le hashrate total moyen de tous vos mineurs sur 5 minutes, 1h et 24h. Et un récapitulatif du nombre de mineurs en ligne ou hors ligne.
+En dessous, un graphique permet de suivre l'évolution de votre puissance de calcul.
+
+![signup](assets/10.png)
+
+Et sous ce graphique vous avez plusieurs informations sur vos récompenses en sats.
+
+**"Today's Mining Rewards"** Indique le nombre de sats que vous avez minés dans la journée. À la fin de la journée, cette valeur sera réinitialisée à 0 et les sats seront envoyés sur votre compte.
+
+**"Yesterday's Total Reward"** Le nombre de sats que vous avez miné la veille
+
+**"Est. Profitability (1 TH/s)"** Est une estimation du nombre de sats que vous gagnez en une journée pour une puissance de calcul de 1 TH/s. Par exemple, si la valeur est de 77 sats, et que vous avez une puissance de calcul de 10 TH/s de manière ininterrompue pendant toute la journée, alors vous gagnerez en théorie 77 x 10 = 770 sats par jour.
+
+**"All Time Reward"** Le total de sats que vous avez minés avec Braiins Pool
+
+**"Reward Scheme"** Le taux de frais appliqué par la pool
+
+**"Next Payout ETA"** Estimation du temps qu'il faudra avant de pouvoir retirer les sats de la plateforme. Ici, l'estimation n'affiche rien car le minage est en cours seulement depuis quelques minutes.
+
+**"Account Balance"** Le nombre de sats disponibles sur votre compte, que vous pourrez ensuite retirer.
+
+
+## Paramétrer les retraits
+

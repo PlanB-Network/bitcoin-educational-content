@@ -4,7 +4,7 @@ name: Braiins Pool
 description: Présentation de Braiins Pool
 ---
 
-![cover](assets/cover.webp)
+![cover](assets/1.png)
 
 
 Braiins Pool, anciennement connue sous le nom de Slush Pool, est la toute première pool de minage de Bitcoin. Créée en novembre 2010, elle a miné son premier bloc le 16 décembre 2010, le bloc 97834.

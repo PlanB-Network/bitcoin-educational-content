@@ -98,3 +98,7 @@ Et sous ce graphique vous avez plusieurs informations sur vos récompenses en sa
 
 ## Paramétrer les retraits
 
+## Partager les récompences
+
+## Fonctionnalité avancées
+

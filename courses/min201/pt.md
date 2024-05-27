@@ -21,8 +21,10 @@ Se você precisar de ajuda para sua empreitada, um grupo no Telegram foi criado 
 +++
 
 # Introdução
+<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
 ## Bem-vindo!
+<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 Bem-vindo ao MINING 201: uma introdução à mineração. Ajelex, Jim & Rogzy estão felizes em acompanhá-lo em seus primeiros passos concretos nesta nova indústria. Esperamos que você goste do curso e se junte à aventura da mineração doméstica!
 
@@ -55,8 +57,10 @@ Seção Prática: Attakai
 Pronto para começar essa aventura cativante? Vamos mergulhar juntos no fascinante mundo da mineração caseira!
 
 # Tudo o que você precisa saber sobre mineração
+<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
 ## Explicação da mineração
+<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
 ### Mineração explicada: A analogia do quebra-cabeça
 
@@ -102,6 +106,7 @@ Diante da constante evolução tecnológica no campo da mineração, os profissi
 Em conclusão, a indústria de mineração de Bitcoin continua a se adaptar e se desenvolver, e os atores do setor devem antecipar ganhos de eficiência, que serão mais limitados no futuro, e ajustar suas estratégias de acordo. Avanços tecnológicos futuros, embora ainda presentes, provavelmente ocorrerão em uma escala menor, refletindo a maturidade crescente do setor.
 
 ## A indústria de mineração
+<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
 ### Pools de mineração
 
@@ -177,99 +182,113 @@ Com o crescimento previsto da Lightning Network e o consequente aumento na abert
 
 A especulação cerca do uso futuro do espaço de blocos, mas é geralmente aceito que é um recurso escasso que deve ser usado com sabedoria. Mesmo que haja vontade de preencher esse espaço, é essencial preservá-lo para garantir a viabilidade de longo prazo da rede Bitcoin, antecipando um aumento futuro na demanda por espaço de blocos. Como em qualquer mercado livre, a oferta e a demanda regularão o uso do espaço de blocos. Com oferta limitada, as partes interessadas terão que tomar decisões informadas sobre o uso desse espaço valioso para garantir a eficiência e a segurança de longo prazo da rede Bitcoin.
 
-## Mineração no protocolo Bitcoin
+## A mineração no protocolo bitcoin
+<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-O papel dos mineradores na rede Bitcoin tem sido um assunto de intenso debate durante a guerra dos blocos. Embora sejam essenciais para a segurança e funcionalidade da rede, os mineradores não necessariamente detêm o poder final no ecossistema Bitcoin. O equilíbrio entre mineradores, nós e usuários finais garante a integridade e a distribuição da rede.
+![Quem tem o poder? Bitcoin, energia e fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
 
-### Guerra dos blocos
+O papel dos mineradores na rede Bitcoin foi um tópico de debate intenso durante a guerra dos blocos. Embora sejam essenciais para a segurança e a funcionalidade da rede, os mineradores não necessariamente detêm o poder supremo no ecossistema Bitcoin. O equilíbrio entre os mineradores, os nós e os usuários finais garante a integridade e a distribuição da rede.
 
-Durante a guerra dos blocos, muitos mineradores se opuseram a certos desenvolvimentos na rede, destacando a tensão entre os diferentes atores do ecossistema. A questão é como equilibrar o poder entre mineradores, nós e usuários para garantir a segurança de longo prazo do Bitcoin.
+### A guerra dos blocos
 
-Segurança e Equilíbrio de Poder
+Durante a guerra dos blocos, muitos mineradores se opuseram a certas evoluções da rede, destacando a tensão entre os diferentes atores do ecossistema. A questão permanece sobre como equilibrar o poder entre os mineradores, os nós e os usuários para assegurar a segurança a longo prazo do Bitcoin.
 
-![imagem](assets/overview/blocksize-wars--BTC-vs-BCH-.webp)
+![image](assets/overview/blocksize-wars--BTC-vs-BCH-.webp)
 
-O dilema da segurança do Bitcoin reside em um equilíbrio delicado. Embora os mineradores desempenhem um papel essencial na validação e criação de blocos, os nós mantêm a integridade verificando e validando transações e blocos. Um bloco incorreto ou fraudulento será rejeitado pelos nós, censurando assim o minerador e preservando a segurança da rede. O poder também é detido pelos nós e pelos usuários da rede Bitcoin. Os nós têm o poder de verificação e validação, enquanto os usuários têm o poder de escolher qual cadeia de blocos usar. Essa distribuição de poder garante a distribuição e a integridade da rede Bitcoin.
+O dilema da segurança do Bitcoin repousa em um equilíbrio delicado. Embora os mineradores desempenhem um papel crucial na validação e criação de blocos, os nós mantêm a integridade ao verificar e validar as transações e os blocos. Um bloco incorreto ou fraudulento será recusado pelos nós, censurando assim o minerador e preservando a segurança da rede. O poder também é detido pelos nós e pelos usuários da rede Bitcoin. Os nós têm o poder de verificação e validação, enquanto os usuários têm o poder de escolher qual cadeia de blocos utilizar. Esta distribuição de poder assegura a distribuição e a integridade da rede Bitcoin.
 
-A guerra dos blocos revelou a incerteza e a tensão inerentes à governança da rede Bitcoin. Embora o Bitcoin Core seja atualmente a cadeia dominante, o debate sobre a governança e a gestão da rede persiste.
+A guerra dos blocos revelou a incerteza e a tensão inerentes à gestão da rede Bitcoin. Embora o Bitcoin Core seja atualmente a cadeia dominante, o debate sobre a governança e a gestão da rede continua.
 
-No final, a responsabilidade é compartilhada por todos os atores da rede Bitcoin. Uma diminuição no número de usuários, nós ou mineradores pode enfraquecer a rede, aumentando o risco de centralização e vulnerabilidade a ataques. Cada ator contribui para a robustez e segurança da rede, reforçando a importância de manter um equilíbrio de poder e responsabilidade.
+No final das contas, a responsabilidade é compartilhada entre todos os atores da rede Bitcoin. Uma diminuição no número de usuários, de nós ou de mineradores poderia enfraquecer a rede, aumentando o risco de centralização e vulnerabilidade a ataques. Cada ator contribui para a robustez e segurança da rede, reforçando a importância de manter um equilíbrio de poder e responsabilidade.
 
 ### O poder dos mineradores
-
-A elegante teoria dos jogos de Satoshi Nakamoto estabeleceu uma situação em que cada ator da rede Bitcoin é incentivado a agir corretamente para proteger tanto seus próprios interesses quanto os dos outros participantes. Isso cria um equilíbrio onde o comportamento inadequado pode ser punido, fortalecendo assim a segurança e estabilidade de todo o sistema. Apesar desse equilíbrio, os Estados ainda representam uma ameaça potencial. Conforme indicado na apresentação do Surfing Bitcoin 2022, os Estados podem tentar atacar a indústria de mineração, expondo a rede Bitcoin a riscos de centralização e ataque. Cenários hipotéticos, como um ataque militar direcionado às instalações de produção de hardware de mineração, destacam a importância da diversificação geográfica e industrial para a resiliência da rede Bitcoin.
-
+A elegante teoria dos jogos de Satoshi Nakamoto estabeleceu uma situação em que cada participante da rede Bitcoin é incentivado a agir corretamente para proteger tanto seus próprios interesses quanto os dos outros participantes. Isso cria um equilíbrio onde comportamentos inadequados podem ser repreendidos, reforçando assim a segurança e a estabilidade de todo o sistema. Apesar desse equilíbrio, os Estados permanecem uma ameaça potencial. Como indicado na apresentação no Surfing Bitcoin 2022, os Estados podem tentar atacar a indústria de mineração, expondo a rede Bitcoin a riscos de centralização e ataque. Cenários hipotéticos como um ataque militar visando instalações de produção de equipamentos de mineração destacam a importância da diversificação geográfica e industrial para a resiliência da rede Bitcoin.
 ![image](assets/overview/miner.webp)
 
-A centralização da produção de hardware de mineração na China apresenta outro risco. A recusa em exportar máquinas de mineração ou a acumulação de hashrate para um potencial ataque de 51% pela China ressaltam a necessidade de uma produção diversificada de hardware de mineração. Diante desses riscos, a comunidade Bitcoin está ativamente explorando soluções. Empresas como a Intel estão considerando a produção de equipamentos de mineração nos Estados Unidos, contribuindo para a distribuição da produção. Outras iniciativas, como a da Block com seu Mining Development Kit (MDK) de código aberto, visam diminuir o monopólio do design e produção de hardware de mineração, permitindo uma distribuição mais ampla do hashrate. No cerne dessas discussões está a missão fundamental do Bitcoin: ser uma rede de troca de valor resistente à censura. A comunidade Bitcoin está constantemente se esforçando para fortalecer a distribuição, resistência à censura e anti-fragilidade da rede, rejeitando propostas como a transição para o proof of stake, que não estão alinhadas com esses princípios fundamentais.
+A centralização da produção de equipamentos de mineração na China representa outro risco. A recusa em exportar máquinas de mineração ou a acumulação de hashrate para um possível ataque de 51% pela China sublinham a necessidade de uma produção diversificada de equipamentos de mineração. Diante desses riscos, a comunidade Bitcoin está ativamente explorando soluções. Empresas como a Intel estão considerando produzir equipamentos de mineração nos Estados Unidos, contribuindo para a distribuição da produção. Outras iniciativas, como a da Block com seu Mining Development Kit (MDK) de código aberto, visam diminuir o monopólio do design e da produção de equipamentos de mineração, permitindo uma distribuição mais ampla do hashrate. No coração dessas discussões está a missão fundamental do Bitcoin: ser uma rede de troca de valor resistente à censura. A comunidade Bitcoin se esforça constantemente para fortalecer a distribuição, a resistência à censura e a antifragilidade da rede, rejeitando propostas como a transição para o proof of stake, que não estão alinhadas com esses princípios fundamentais.
 
-### A Ligação física da prova de trabalho vs. a Prova de participação
+### O Elo físico do proof of work versus o proof of stake
 
-O Proof of Work (PoW) é essencial porque representa a ligação física entre o mundo real e o Bitcoin. Embora os bitcoins sejam imateriais, sua produção requer energia tangível, estabelecendo assim uma ligação direta com o mundo físico e real. Essa conexão garante que a produção e validação de bitcoins e blocos tenham um custo energético real, ancorando assim a rede Bitcoin na realidade física e impedindo sua completa dominação por entidades poderosas. O PoW atua como uma barreira contra a centralização, garantindo que a participação na rede e validação de transações exijam um investimento em recursos tangíveis. Isso impede a monopolização da rede por entidades que de outra forma poderiam assumir o controle sem qualquer barreira significativa, garantindo assim uma distribuição mais justa de poder e influência dentro da rede Bitcoin.
+O Proof of Work (PoW) é essencial porque representa o elo físico entre o mundo real e o Bitcoin. Embora os bitcoins sejam intangíveis, sua produção requer energia tangível, estabelecendo assim uma conexão direta com o mundo físico e real. Essa conexão garante que a produção e a validação dos bitcoins e dos blocos tenham um custo energético real, ancorando assim a rede Bitcoin na realidade física e impedindo sua dominação completa por entidades poderosas. O PoW atua como um baluarte contra a centralização, garantindo que a participação na rede e a validação das transações exijam um investimento em recursos tangíveis. Isso impede a monopolização da rede por entidades que poderiam de outra forma assumir o controle sem nenhuma barreira de entrada significativa, assegurando assim uma distribuição mais equitativa do poder e da influência dentro da rede Bitcoin.
+### As Limitações do Proof of Stake
 
-![image](assets/overview/POWPOS.webp)
+Por outro lado, o Proof of Stake (PoS), embora permita a participação em pequena escala, não garante uma proteção equivalente contra a centralização. Em uma rede PoS, aqueles que já possuem uma grande quantidade da moeda têm um poder desproporcional, refletindo as desigualdades de poder existentes na sociedade em geral. Essa dinâmica poderia potencialmente perpetuar a centralização e a concentração de poder nas mãos de poucos, contrariando os objetivos fundamentais de distribuição da rede Bitcoin. O argumento de que todos podem participar do PoS, mesmo em pequena escala, ao se juntar a pools, não é necessariamente sólido. Em uma rede PoW, mesmo um pequeno contribuinte, com equipamento modesto, pode participar ativamente e contribuir para a segurança e distribuição da rede.
 
-### Limitações do Proof of Stake
+### Recapitulação
 
-Por outro lado, o Proof of Stake (PoS), embora permita a participação em pequena escala, não garante uma proteção equivalente contra a centralização. Em uma rede PoS, aqueles que já possuem uma grande quantidade da moeda têm um poder desproporcional, refletindo as desigualdades de poder existentes na sociedade em geral. Essa dinâmica poderia potencialmente perpetuar a centralização e concentração de poder nas mãos de poucos, contrariando os objetivos fundamentais de distribuição da rede Bitcoin. O argumento de que qualquer pessoa pode participar do PoS, mesmo em pequena escala, se juntando a grupos, não é necessariamente sólido. Em uma rede PoW, mesmo um pequeno contribuidor, com equipamento modesto, pode participar ativamente e contribuir para a segurança e distribuição da rede.
+Para recapitular, os mineradores fortalecem a rede Bitcoin contra a censura usando eletricidade para calcular a prova de trabalho do Bitcoin, e são recompensados com novos bitcoins e taxas de transação. Com a profissionalização da indústria, diferentes atores emergem, desempenhando diversos papéis, desde a criação de chips até a gestão de fazendas de mineração. Além disso, o setor financeiro também intervém, exercendo controle ao decidir quem sobrevive durante as diferentes fases do mercado. A problemática da centralização persiste, com as entidades mais ricas potencialmente dominando o mercado. No entanto, alternativas estão sendo desenvolvidas em nível de hardware e software. Cabe a cada indivíduo agir e contribuir para a distribuição da rede. Bitcoin representa uma oportunidade extraordinária não apenas em termos de liberdade, mas também de independência energética. Apesar das controvérsias em torno de seu consumo de eletricidade, Bitcoin oferece um incentivo econômico para uma transição para um uso mais racional e abundante de energia, concretizando o que antes era um ideal ecológico.
 
-### Resumo
+## Preço do Bitcoin e Hashrate, uma correlação?
+<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-Para resumir, os mineradores fortalecem a rede Bitcoin contra a censura usando eletricidade para calcular a prova de trabalho do Bitcoin e são recompensados com novos bitcoins e taxas de transação. Com a profissionalização da indústria, diferentes atores emergem, desempenhando diversos papéis, desde a criação de chips até a gestão de fazendas de mineração. Além disso, as finanças também entram em jogo, exercendo controle ao decidir quem sobrevive durante as diferentes fases do mercado. A problemática da centralização persiste, com as entidades mais ricas potencialmente dominando o mercado. No entanto, alternativas estão sendo desenvolvidas em termos de hardware e software. Cabe a cada indivíduo agir e contribuir para a distribuição da rede. O Bitcoin representa uma oportunidade única não apenas em termos de liberdade, mas também de independência energética. Apesar das controvérsias em torno de seu consumo de eletricidade, o Bitcoin oferece um incentivo econômico para uma transição para um uso mais racional e abundante de energia, concretizando o que antes era um ideal ecológico.
+![Como obter um bitcoin branco e puro?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
-## Preço do bitcoin e hashrate, uma correlação?
+### Hashrate, Preço e Rentabilidade
+O atual índice de hash, mesmo com o preço do Bitcoin estando a 30.000 dólares em comparação ao seu pico anterior de 69.000 dólares, destaca a conexão tangível entre a mineração e o mundo real. Períodos de alta nos preços (mercado em alta) geram uma forte demanda por mineração de Bitcoin e um aumento nos pedidos de máquinas de fabricantes como Avalon e Bitmain. No entanto, a produção e a entrega não são instantâneas, criando um descompasso entre uma demanda crescente e uma disponibilidade posterior. Isso pode levar à entrega de máquinas encomendadas durante um mercado em alta em um mercado em baixa, destacando uma assimetria notável entre um preço baixo e um índice de hash elevado.
 
-Minerar para lucro ou para a rede?
+Esta situação também ilustra a resiliência do Bitcoin, frequentemente avaliada pelo seu preço. Contudo, uma análise mais aprofundada da saúde do Bitcoin requer a avaliação de seu índice de hash, que mede os cálculos por segundo na rede Bitcoin. Enquanto o preço do Bitcoin flutua, seu custo, ligado à eletricidade necessária para operar as máquinas de mineração, permanece essencial para entender a dinâmica do mercado. Ao focar no custo em vez do preço, obtém-se uma perspectiva mais consistente sobre a estabilidade e a viabilidade a longo prazo do Bitcoin. Em geral, o custo do Bitcoin é proporcional ao seu preço, oferecendo uma melhor compreensão das flutuações de preço e das perspectivas futuras.
 
-A questão de se os mineradores de Bitcoin devem minerar para lucro ou pelo bem da rede é um debate constante na indústria. Alguns mineradores focam unicamente na rentabilidade, buscando maximizar seus ganhos ao explorar eficientemente os recursos disponíveis. Outros, por outro lado, veem a mineração como uma contribuição para a segurança e descentralização da rede Bitcoin e estão dispostos a aceitar lucros mais modestos.
+![image](assets/overview/pricevshashrate.webp)
 
-É importante notar que a mineração de Bitcoin tornou-se cada vez mais competitiva ao longo dos anos, com a introdução de máquinas de mineração mais poderosas e especializadas. Isso significa que os mineradores individuais frequentemente têm dificuldades para competir com grandes operações de mineração que dispõem de recursos consideráveis. Como resultado, muitos mineradores juntaram-se a pools de mineração, onde combinam seus recursos para aumentar suas chances de resolver os problemas matemáticos necessários para validar transações.
+### Índice de Hash e Recompensa
 
-No geral, não há uma única resposta para a questão de se os mineradores devem focar no lucro ou na rede. Depende dos objetivos e valores de cada minerador individual. Alguns podem ser motivados pelo potencial de altos ganhos, enquanto outros podem estar mais preocupados com a segurança e a descentralização da rede Bitcoin. Independentemente de suas motivações, os mineradores desempenham um papel essencial no funcionamento da rede Bitcoin, validando transações e mantendo sua segurança.
+A mineração estabelece um preço mínimo para o Bitcoin, abaixo do qual os mineradores venderiam com prejuízo. O custo da mineração influencia significativamente o preço, como ilustrado pela proibição da mineração na China, onde o índice de hash e o preço caíram significativamente, mas foram rapidamente recuperados. Focar apenas no preço pode ser enganador. O estudo do custo, através de calculadoras de rentabilidade, oferece uma perspectiva mais equilibrada. No entanto, o mercado pode se comportar de maneira irracional, com os mineradores podendo ser forçados a vender com prejuízo, potencialmente baixando o preço abaixo do custo de mineração. Para avaliar a saúde do Bitcoin e sua descentralização, uma equação que integre diversos fatores, como o número de nós e o preço, poderia ser desenvolvida. Essa abordagem poderia fornecer uma análise mais matizada do Bitcoin em comparação às discussões baseadas apenas no preço.
 
-A questão é profunda e abrange várias dimensões da mineração de Bitcoin. O equilíbrio entre a busca pelo lucro e a contribuição para a segurança e distribuição da rede Bitcoin é um dilema constante para os mineradores. O debate continua na comunidade Bitcoin, com argumentos sólidos de ambos os lados.
+### Minerar para o lucro ou para a rede?
+
+A questão é profunda e abrange várias dimensões da mineração de Bitcoin. O equilíbrio entre a busca por lucro e a contribuição para a segurança e a distribuição da rede Bitcoin é um dilema constante para os mineradores. O debate continua na comunidade Bitcoin, com argumentos sólidos de ambos os lados.
 
 * Minerar para o lucro:
-  - Prós: Os mineradores são naturalmente atraídos pelo potencial de lucro oferecido pela mineração de Bitcoin. O investimento em equipamentos de mineração caros pode ser rentabilizado pelas recompensas de mineração e taxas de transação, especialmente quando o preço do Bitcoin está alto.
-  - Contras: A busca pelo lucro pode levar à centralização do poder de hash se apenas algumas grandes empresas puderem se dar ao luxo de investir em equipamentos de mineração de ponta. Além disso, o consumo de energia da mineração para o lucro pode ter um impacto ambiental significativo.
+## Mineração para a Rede:
+<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-* Minerar para a rede:
-  - Prós: Minerar para contribuir com a segurança e descentralização da rede Bitcoin é uma iniciativa nobre. Isso ajuda a fortalecer a resiliência da rede e a resistir à censura e ataques.
-  - Contras: Sem um incentivo financeiro adequado, pode ser difícil para os mineradores continuarem a apoiar a rede, especialmente se estiverem operando com prejuízo.
+### Prós:
+- Mineração para contribuir com a segurança e a descentralização da rede Bitcoin é uma iniciativa nobre. Isso ajuda a fortalecer a resiliência da rede e a resistir à censura e ataques.
 
-A iniciativa Attakai destaca a importância da contribuição para a rede, ao mesmo tempo em que oferece soluções para tornar a mineração mais acessível e menos prejudicial. A possibilidade de minerar em casa, com equipamentos mais acessíveis e soluções para reduzir o ruído, pode ajudar a democratizar a mineração de Bitcoin. Ela incentiva aqueles que estão interessados no Bitcoin não apenas a investir e possuir bitcoins, mas também a participar ativamente da segurança da rede. Ao fornecer equipamentos testados e guias para montagem e instalação, a Attakai facilita a entrada no mundo da mineração de Bitcoin. Também incentiva a inovação e melhorias contínuas, convidando a comunidade a contribuir e compartilhar suas ideias e experiências para melhorar a mineração em casa. 
+### Contras:
+- Sem um incentivo financeiro suficiente, pode ser difícil para os mineiros continuar apoiando a rede, especialmente se estiverem operando com prejuízo.
 
-O modelo Attakai é uma resposta à questão de minerar para o lucro ou para a rede. Não se trata apenas de obter lucros, mas também de fortalecer a distribuição e segurança da rede Bitcoin, permitindo que mais pessoas participem da mineração, aprendam e compreendam essa indústria crucial. O desafio da eventual proibição da mineração na Europa ainda é uma questão em aberto. Isso levanta preocupações sobre o futuro da mineração de Bitcoin na região e a necessidade de uma regulamentação equilibrada que reconheça a importância da mineração para a segurança e viabilidade da rede Bitcoin, ao mesmo tempo em que aborda questões ambientais. A Attakai e outras iniciativas semelhantes podem desempenhar um papel crucial nesse debate, mostrando que é possível minerar de forma mais sustentável e responsável, ao mesmo tempo em que contribuem positivamente para a rede Bitcoin.
+A iniciativa Attakai destaca a importância da contribuição para a rede enquanto oferece soluções para tornar a mineração mais acessível e menos prejudicial. A possibilidade de minerar em casa, com equipamento mais acessível e soluções para reduzir a poluição sonora, pode ajudar a democratizar a mineração de Bitcoin. Ela incentiva aqueles que têm interesse no Bitcoin não apenas a investir e possuir bitcoins, mas também a participar ativamente na segurança da rede. Ao fornecer equipamentos testados e guias para montagem e instalação, Attakai facilita a entrada no mundo da mineração de Bitcoin. Também incentiva a inovação e melhorias contínuas, convidando a comunidade a contribuir e compartilhar suas ideias e experiências para aprimorar a mineração doméstica. O modelo Attakai é uma resposta à questão de minerar para lucro ou para a rede. Não se trata apenas de realizar lucros, mas também de fortalecer a distribuição e a segurança da rede Bitcoin, permitindo que mais pessoas participem da mineração, aprendam e compreendam essa indústria crucial. O desafio da possível proibição da mineração na Europa permanece uma questão em aberto. Isso levanta preocupações sobre o futuro da mineração de Bitcoin na região e a necessidade de uma regulação equilibrada que reconheça a importância da mineração para a segurança e viabilidade da rede Bitcoin, enquanto aborda as questões ambientais. Attakai e outras iniciativas similares podem desempenhar um papel crucial neste debate, mostrando que é possível minerar de maneira mais sustentável e responsável, contribuindo positivamente para a rede Bitcoin.
 
-
-## Soberania e regulamentação
+## Soberania e Regulação
+<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
 ### Soberania antes do lucro?
+Para abordar a questão crucial da riqueza por meio da mineração, é importante considerar diversas perspectivas e abordagens. As questões sobre a rentabilidade da mineração são frequentes, com perguntas sobre a compra de participações em empresas como a Riot ou o aluguel de máquinas de mineração em países com baixo custo energético, como Islândia ou Rússia. Antes de se aventurar na mineração, uma consideração essencial seria comparar a rentabilidade da mineração com a compra direta de Bitcoin. Se o custo de mineração de um Bitcoin exceder o custo de compra direta, geralmente é mais sensato comprar o Bitcoin diretamente. Isso evita os múltiplos desafios e custos associados ao processo de mineração.
 
-Ao abordar a questão crucial da riqueza através da mineração, é importante considerar diversas perspectivas e abordagens. As dúvidas sobre a rentabilidade da mineração são frequentes, com questionamentos sobre a compra de ações de empresas como a Riot ou o aluguel de máquinas de mineração em países com baixo custo energético, como a Islândia ou a Rússia. Antes de se aventurar na mineração, uma consideração essencial seria comparar a rentabilidade da mineração com a compra direta de Bitcoin. Se o custo de mineração de um Bitcoin for maior do que o custo de compra direta, geralmente é mais sensato comprar o Bitcoin diretamente. Isso evita os múltiplos desafios e custos associados ao processo de mineração.
+No entanto, a mineração oferece vias únicas para se envolver no ecossistema Bitcoin. Por exemplo, minerar Bitcoin no inverno pode ser uma maneira engenhosa de aquecer sua residência enquanto gera renda em Bitcoin. Outra opção é investir em empresas que vendem equipamentos de mineração e que armazenam e gerenciam as máquinas em locais com baixo custo energético, oferecendo assim acesso a tarifas elétricas vantajosas sem os transtornos de gerenciar os equipamentos.
 
-No entanto, a mineração oferece oportunidades únicas para se envolver no ecossistema do Bitcoin. Por exemplo, minerar Bitcoin no inverno pode ser uma maneira engenhosa de aquecer sua casa enquanto gera receita em Bitcoin. Outra opção é investir em empresas que vendem equipamentos de mineração e que armazenam e gerenciam as máquinas em locais com baixo custo energético, oferecendo acesso a tarifas elétricas vantajosas sem as complicações do gerenciamento dos equipamentos.
-
-Apesar dessas opções, a mineração apresenta desafios significativos. O conhecido ditado do mundo das criptomoedas, "Not your keys, not your Bitcoins" (Não são suas chaves, não são seus Bitcoins), encontra uma ressonância semelhante no mundo da mineração: "Not your hashrate, not your reward" (Não é seu hashrate, não é sua recompensa). Histórias de decepções e máquinas desconectadas são comuns, com muitos atores prometendo resultados excepcionais, mas não os entregando. Problemas de fornecimento de energia e falhas nas máquinas podem deixar os investidores impotentes, com equipamentos caros que eles não controlam. Nesse contexto, a prudência e uma compreensão aprofundada do setor de mineração são cruciais antes de se aventurar nele. Embora as oportunidades de lucro existam, os riscos são significativos, e uma abordagem informada e ponderada é essencial para navegar nesse campo complexo e muitas vezes imprevisível. Portanto, é vital realizar pesquisas aprofundadas e ponderar cuidadosamente os prós e os contras antes de se envolver na mineração de Bitcoin.
+Apesar dessas opções, a mineração apresenta desafios significativos. O adágio bem conhecido do mundo das criptomoedas, "Não são suas chaves, não são seus Bitcoins", encontra uma ressonância similar no mundo da mineração: "Não é seu hashrate, não é sua recompensa". Histórias de decepções e máquinas desconectadas são comuns, com muitos atores prometendo resultados excepcionais, mas não os entregando. Problemas de fornecimento de energia e falhas de máquinas podem deixar os investidores impotentes, com equipamentos caros que eles não controlam. Neste contexto, a prudência e um entendimento profundo do setor de mineração são cruciais antes de se aventurar. Embora existam oportunidades de ganhos, os riscos são significativos, e uma abordagem informada e reflexiva é essencial para navegar neste campo complexo e frequentemente imprevisível. Portanto, é vital fazer pesquisas aprofundadas e avaliar bem os prós e contras antes de se engajar na mineração de Bitcoin.
 
 ![image](assets/overview/self.webp)
 
 ### Bitcoins Virgens
-A mineração proibida na Europa?
+A aspiração de possuir seu próprio hashrate apresenta-se como um caminho promissor no universo da mineração. No entanto, navegar neste ecossistema complexo requer uma abordagem cautelosa. O campo do cloud mining é marcado por um grande número de fraudes, alimentadas por uma falta de compreensão da mineração por parte de muitos investidores. As ofertas atraentes, embaladas de diversas maneiras, podem facilmente induzir em erro aqueles que não estão suficientemente informados. Por outro lado, possuir seu próprio equipamento de mineração oferece vantagens consideráveis. Além da satisfação pessoal de contribuir ativamente para a segurança da rede Bitcoin e de ver as recompensas caindo em sua carteira, há o aspecto atraente dos "bitcoins virgens". Trata-se de bitcoins recém-minados, que nunca foram gastos e que não têm nenhuma história associada a eles. Esses bitcoins são frequentemente considerados mais valiosos porque nunca foram "contaminados", oferecendo uma certa garantia contra a rejeição por reguladores ou grandes plataformas de troca.
 
-A mineração de criptomoedas é uma atividade legal na maioria dos países europeus. No entanto, existem regulamentações específicas que os mineradores devem cumprir, como a conformidade com as leis de proteção de dados e a obtenção de licenças adequadas. Além disso, alguns países podem ter restrições adicionais ou requisitos específicos para a mineração de criptomoedas. É importante que os mineradores estejam cientes das leis e regulamentos locais antes de iniciar suas operações.
+A possibilidade de minerar bitcoins virgens enquanto se evita os procedimentos de conhecimento do cliente (KYC) é outro valor agregado. Muitos pools de mineração não exigem a identidade dos mineradores, permitindo assim adquirir bitcoins sem passar por verificações de identidade tediosas. Os bitcoins virgens são percebidos como "limpos", não carregando nenhuma história ou associação passada. Eles são particularmente procurados por grandes atores institucionais que podem garantir a legitimidade de seus ativos digitais frente às autoridades reguladoras. No entanto, apesar dessas vantagens, é crucial reconhecer que a indústria da mineração permanece extremamente competitiva e volátil e incidentes imprevistos podem perturbar as operações de mineração.
 
-Com a questão do potencial de proibição da mineração na Europa, as discussões sobre regulamentação estão se tornando cada vez mais relevantes. O cenário regulatório em constante mudança pode, de fato, ter um impacto significativo na indústria de mineração de Bitcoin. A proibição da mineração na Europa é um cenário possível, especialmente considerando os precedentes na China. Embora as operações de mineração continuem na China apesar da proibição, a Europa poderia seguir um caminho semelhante. Uma distribuição mais ampla da taxa de hash em diferentes regiões pode ajudar a fortalecer a comunidade de mineradores na Europa, permitindo que eles se oponham efetivamente a mal-entendidos e ideias falsas sobre mineração, seu impacto ambiental e sua pegada na rede elétrica.
+Neste contexto, a escolha de uma abordagem autônoma e educada em matéria de mineração parece prudente. A aquisição de seu próprio hashrate e o investimento em equipamentos de mineração pessoais, enquanto se mantém consciente dos riscos e desafios, pode potencialmente oferecer um caminho mais seguro e mais satisfatório para a aquisição de bitcoins virgens, reforçando assim a soberania financeira do indivíduo enquanto apoia o ecossistema Bitcoin como um todo.
 
+### A mineração é proibida na Europa?
+Com a questão do potencial de proibição da mineração na Europa, as discussões sobre regulamentação tornam-se cada vez mais pertinentes. O cenário regulatório flutuante pode, de fato, influenciar consideravelmente a indústria de mineração de Bitcoin. A proibição da mineração na Europa é um cenário possível, especialmente considerando os precedentes na China. Embora as operações de mineração continuem na China apesar da proibição, a Europa poderia seguir um caminho similar. Uma distribuição mais ampla do hashrate em diferentes regiões poderia ajudar a fortalecer a comunidade de mineradores na Europa, permitindo-lhes opor-se eficazmente aos mal-entendidos e às ideias erradas sobre a mineração, seu impacto ambiental e sua pegada na rede elétrica.
 ![image](assets/overview/regulation.webp)
 
-Diante de campanhas como as do Greenpeace e dos números frequentemente enganosos de alguns estudos, a melhor arma ainda é a informação verdadeira. É essencial informar o público em geral e os tomadores de decisão sobre a realidade da mineração, sua complexidade e nuances, em vez de permitir que eles se baseiem em estereótipos e informações imprecisas. Quanto mais pessoas estiverem informadas e conscientes do que a mineração realmente é, melhor a indústria poderá se defender contra possíveis regulamentações restritivas.
+Diante de campanhas como as da Greenpeace e dos números frequentemente enganosos de alguns estudos, a melhor arma continua sendo a informação verdadeira. É essencial informar o público em geral e os tomadores de decisão sobre a realidade da mineração, sua complexidade e nuances, em vez de deixá-los depender de clichês e informações imprecisas. Quanto mais pessoas estiverem informadas e conscientes do que realmente é a mineração, melhor a indústria poderá se defender contra possíveis regulamentações restritivas.
 
-Em conclusão, apesar do risco regulatório e da possibilidade de proibição da mineração na Europa, a arma mais poderosa ainda é a educação e a informação. O entendimento claro e preciso da mineração, seu funcionamento e seu impacto pode ajudar a desmistificar a indústria e combater a desinformação, oferecendo assim uma melhor resistência a regulamentações potencialmente prejudiciais. A iniciativa de educar e informar as pessoas sobre a mineração, como esta discussão está fazendo, é um passo na direção certa para garantir a sustentabilidade e o crescimento da mineração na Europa e em todo o mundo. Esforços contínuos para educar e informar são essenciais para garantir um futuro seguro e próspero para a indústria de mineração de Bitcoin.
+Em conclusão, apesar do risco regulatório e da possibilidade de uma proibição da mineração na Europa, a arma mais poderosa continua sendo a educação e a informação. A compreensão clara e precisa da mineração, seu funcionamento e seu impacto pode ajudar a desmistificar a indústria e combater a desinformação, oferecendo assim uma melhor resistência às regulamentações potencialmente prejudiciais. A iniciativa de formar e informar as pessoas sobre a mineração, como faz esta discussão, é um passo na direção certa para garantir a sustentabilidade e o crescimento da mineração na Europa e em todo o mundo. Os esforços contínuos para educar e informar são essenciais para assegurar um futuro seguro e próspero para a indústria de mineração de Bitcoin.
+
+## Entrevista com um profissional da indústria de mineração
+<chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
+
+### Bastidores da mineração industrial - Sebastien Gouspillou
+
+![Bastidores da mineração industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
 
 # Mineração doméstica e reutilização de calor
+<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
 ## Attakai - tornando a mineração doméstica possível e acessível!
+<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 Attakai, que significa "temperatura ideal" em japonês, é o nome da iniciativa para descobrir a mineração de bitcoins por meio da reutilização de calor lançada por @ajelexBTC e @jimzap21 com o Découvre Bitcoin.
 Este guia de retrofitting de um ASIC servirá como base para aprender mais sobre mineração, seu funcionamento e a economia subjacente, demonstrando a possibilidade de adaptar um minerador de Bitcoin para uso como radiadores em residências. Isso oferece mais conforto e economia, permitindo que os participantes recebam cash back em BTC não KYC em sua conta de energia elétrica.
@@ -317,6 +336,7 @@ Quando sai da fábrica, um minerador não é adequado para servir como aquecedor
 Esta é uma excelente oportunidade para aprender praticando e ser recompensado por sua participação com satoshis KYC gratuitos.
 
 ## Guia de compra para um ASIC usado
+<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
 Nesta seção, veremos as melhores práticas para comprar um Bitmain Antminer S9 usado, a máquina na qual este tutorial de retrofitting em radiador será baseado. Este guia também funciona para outros modelos de ASIC, pois é um guia geral de compra de hardware de mineração usado.
 
@@ -373,6 +393,7 @@ Para resumir este guia em uma frase: **"Não confie, verifique"**.
 [Você também pode recorrer a profissionais de recondicionamento de máquinas de mineração, como nosso parceiro 21energy. Eles oferecem S9 testados, limpos e com o software BraiiinOS+ já instalado. Com o código de afiliação "decouvre", você receberá um desconto de 10% na compra de um S9, ao mesmo tempo em que apoia o projeto Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
 ## Guia de compra de peças para modificações de hardware do S9
+<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
 Proprietário de um Antminer S9, você provavelmente sabe o quão barulhento e volumoso esse equipamento pode ser. No entanto, é possível transformá-lo em um aquecedor silencioso e conectado seguindo alguns passos simples. Nesta parte, apresentaremos os equipamentos necessários para fazer as modificações.
 
@@ -417,8 +438,10 @@ Lista de materiais e links
 * [Tomada conectada opcional ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - modificação do software de um Antminer S9
+<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
 ## Configurando uma ponte WIFI/Ethernet Vonet
+<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
 Para conectar seu ASIC via Wi-Fi, você precisará de um dispositivo chamado ponte, que permite capturar o sinal Wi-Fi do seu roteador e transmiti-lo para outro dispositivo via Ethernet.
 
@@ -461,6 +484,7 @@ Se a ponte ainda não estiver conectada após alguns minutos, pode ser necessár
 Depois de conectar a ponte, conecte o cabo Ethernet da ponte ao seu ASIC e ligue o ASIC à energia. Você poderá então se conectar à interface do ASIC da mesma forma que se estivesse conectado diretamente via Ethernet ao seu roteador.
 
 ## Ressetando um Antminer S9
+<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
 
 Antes de instalar o BraiinOS+, pode ser necessário redefinir seu S9 para as configurações de fábrica.
 Esta método pode ser aplicado entre 2 minutos e 10 minutos após a inicialização do minerador.
@@ -470,6 +494,7 @@ Esta método pode ser aplicado entre 2 minutos e 10 minutos após a inicializaç
 ![imagem](assets/software/1.webp)
 
 ## Instalando o BraiinsOS+ em um Antminer S9
+<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
 O software original instalado pela Antminer em suas máquinas de mineração é limitado em funcionalidades. Por isso, neste guia, vamos instalar outro software chamado BraiinsOS+. É um software de terceiros desenvolvido pelo primeiro pool de mineração de Bitcoin, que possui mais funcionalidades e permite, por exemplo, modificar a potência da máquina.
 
@@ -501,6 +526,7 @@ Aqui, vamos ver como instalar facilmente o Braiins OS+ diretamente na memória d
 9. Após alguns instantes, o seu Antminer irá reiniciar e você poderá acessar a interface do Braiins OS+ no endereço IP em questão, aqui 192.168.1.37, digitando-o diretamente na barra de endereço do seu navegador, nome de usuário padrão "root" e sem senha padrão.
 
 ## Configurando o BraiinsOS+
+<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
 Você precisará se conectar ao seu ASIC usando o endereço IP local do seu dispositivo na sua rede através de um navegador.
 
@@ -543,8 +569,10 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 ![image](assets/software/18.webp)
 
 # Attakai - Modificação dos ventiladores
+<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
 ## Substituindo o ventilador da fonte de alimentação
+<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 > ATENÇÃO: É essencial ter instalado previamente o Braiins OS+ no seu minerador, ou qualquer outro software capaz de reduzir o desempenho da sua máquina. Essa medida é crucial, pois, com o objetivo de reduzir o ruído, iremos instalar ventiladores menos potentes, que poderão dissipar menos calor.
 
@@ -615,6 +643,7 @@ Depois de fazer as conexões, coloque o plástico da tampa sobre o plástico do 
 Por fim, recoloque a tampa do gabinete no lugar e parafuse os 6 parafusos nas laterais para fixar tudo no lugar. E pronto, sua fonte de alimentação agora está equipada com um novo ventilador.
 
 ## Substituindo os Ventiladores Principais
+<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > ATENÇÃO: É essencial ter instalado previamente o Braiins OS+ em seu minerador, ou qualquer outro software capaz de reduzir o desempenho de sua máquina. Essa medida é crucial, pois, com o objetivo de reduzir o ruído, vamos instalar ventiladores menos potentes, que poderão dissipar menos calor.
 
@@ -665,8 +694,10 @@ E para o toque final, conecte a ponte Vonet à porta Ethernet com sua fonte de a
 E pronto, parabéns! Você acabou de substituir toda a parte mecânica do seu minerador. Agora você deve ouvir muito menos barulho.
 
 # Attakai - Configuração
+<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
 ## Juntando-se a um pool de mineração
+<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
 Pode-se imaginar um pool de mineração como uma cooperativa agrícola. Os agricultores juntam sua produção para reduzir a variação da oferta e demanda e, assim, obter receitas mais estáveis para sua exploração. Um pool de mineração funciona da mesma forma e a matéria-prima compartilhada são os hashes. De fato, a descoberta de um único hash válido permite a criação de um bloco e, assim, ganhar a coinbase ou a recompensa atualmente de 6,25 BTC, além das taxas das transações incluídas no bloco. Se você minerar sozinho, só será recompensado quando encontrar um bloco.
 
@@ -699,6 +730,7 @@ Agora você pode voltar para a interface do Braiins OS+ para inserir essas crede
 ![image](assets/software/21.webp)
 
 ## Otimizando o desempenho do Antminer S9
+<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
 O overclocking e o auto-tuning consistem em ajustar as frequências nos cartões de hash para melhorar o desempenho do ASIC. A diferença entre os dois está na complexidade dessas configurações de frequência.
 
@@ -716,6 +748,7 @@ Isso impõe um limite superior à taxa de hashing que uma máquina pode ter. O a
 O resultado final é uma taxa de hashing mais alta por watt de eletricidade, o que significa margens de lucro maiores para os mineradores. A razão pela qual as máquinas não são distribuídas com esse tipo de software é que a variação por máquina não é desejável, pois os clientes querem saber exatamente o que estão obtendo, e, portanto, é uma má ideia para os fabricantes venderem um produto que não tenha desempenho consistente e previsível de uma máquina para outra. Além disso, o ajuste automático por chip requer recursos de desenvolvimento consideráveis, pois é complexo de implementar. Os fabricantes já gastam muitos recursos para desenvolver seus próprios firmwares. Existem soluções de software que permitem implementar o autotuning, como o Braiins OS+. Além de melhorar o desempenho do ASIC em até 20%.
 
 ## Controlando um Antminer S9 pelo smartphone
+<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 
 ### Criando atalhos no iOS
 

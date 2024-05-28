@@ -100,7 +100,9 @@ Vous pouvez retirer vos récompenses, soit on-chain soit en lightning avec une a
 
 en haut Cliquez sur "Founds", par défaut, vous avez un compte "Bitcoin Account" vous pouvez en créer d'autres ce qui permettra de partager les récompenses. Nous y reviendrons dans la section suivante.
 
-Pour le moment, cliquez sur
+Pour le moment, cliquez sur "Set up"
+
+![signup](assets/12.png)
 
 
 ## Partager les récompences

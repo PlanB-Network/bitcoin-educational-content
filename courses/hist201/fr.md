@@ -611,25 +611,39 @@ Un autre soutien provient du cypherpunk Zooko Wilcox-O'Hearn, qui travaille alor
 
 Le lien vers ce texte finira par être [ajouté](https://web.archive.org/web/20090303195936/http://bitcoin.org/) sur le site Bitcoin.org, et Satoshi [remerciera](https://bitcointalk.org/index.php?topic=890.msg10723#msg10723) personnellement Zooko un an et demi plus tard.
 
-### Le forum de la Fondation P2P et la défiance des banques centrales (févr. 2009)
+### Le pair-à-pair et la défiance des banques (févr. 2009)
 
-La *Cryptography mailing list* n'est pas le seul endroit où Satoshi Nakamoto intervient. Un autre endroit est le forum de la Fondation P2P, une organisation créée en 2007 qui étudie l'impact des infrastructures pair à pair sur la société.
-
-[Message d'introduction](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source), [copié](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001347.html) sur la liste de diffusion :
+La *Cryptography mailing list* n'est pas le seul endroit où Satoshi Nakamoto intervient pour promouvoir son modèle. En février 2009, il interagit avec la Fondation P2P, une organisation créée en 2007 qui étudie l'impact des infrastructures pair à pair sur la société, par le biais de son forum (p2pfoundation.ning.com) et de sa liste de diffusion (p2p-research). Le 11 février, il publie un [message d'introduction](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source) présentant Bitcoin sur le forum, dont il envoie une [copie](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001347.html) par courriel sur la liste. Dans ce texte, il écrit :
 
 > « Le problème fondamental de la monnaie conventionnelle est toute la confiance nécessaire pour la faire fonctionner. &nbsp;Il faut faire confiance à la banque centrale pour qu'elle ne déprécie pas la monnaie, mais l'histoire des monnaies fiat est pleine de violations de cette confiance. &nbsp;Il faut faire confiance aux banques pour détenir notre argent et le transférer par voie électronique, mais elles le prêtent par vagues de bulles de crédit avec à peine une fraction en réserve. &nbsp;Nous devons leur faire confiance pour protéger notre vie privée, pour ne pas laisser les voleurs d'identité vider nos comptes. &nbsp;Leurs frais généraux considérables rendent les micropaiements impossibles. »
 >
 > original: "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts. Their massive overhead costs make micropayments impossible."
 
-Sur son profil, il indique être un homme japonais. Date de naissance : 5 avril 1975
+Sur son profil, il indique être un homme japonais, mais ce n'est pas tout. Une mise à jour de l'interface fera apparaître son âge en 2011 : 35 ans en 2011. Puis, on [découvrira](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) en 2014 qu'il a indiqué une date de naissance particulière : le 5 avril 1975. Cette date, d'apparence bénigne, est vraisemblablement une date composite faisant référence à l'interdiction pour les citoyens américains de détenir de l'or entre 1933 et 1975 aux États-Unis. Le jour du 5 avril se rapporte au jour de l'instauration de cette interdiction par l'[Ordre exécutif 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) signé par le président Franklin Delano Roosevelt le 5 avril 1933, et l'année 1975 correspond à son année d'abrogation lors de l'entrée en vigueur de la [Public Law 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Ce détail est très important puisque cette prohibition a mis fin à l'étalon-or classique (où chacun pouvait obtenir de l'or en échange d'un billet représentatif), a permis de dévaluer le dollar (par le biais du *Gold Reserve Act* en 1934) et a facilité l'instauration du régime monétaire à taux de change flottants que nous connaissons suite au *Nixon Shock* de 1971.
 
-Programmabilité, [courriel](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) :
+![Profil de Satoshi Nakamoto sur le forum de la Fondation P2P, capture du 17 mars 2011](assets/img/ch5/satoshi-p2p-foundation-profile-2011.webp)
 
-> « Je considère Bitcoin comme une pierre angulaire, comme une première étape si l'on veut mettre en œuvre des monnaies sociales de pair à pair programmables telles que décrites dans les idées de Marc et d'autres discutées ici. &nbsp;Il faut d'abord qu'une monnaie pair à pair basique et normale fonctionne. &nbsp;Une fois qu'elle est établie et éprouvée, il est facile de passer à l'étape suivante, celle de la monnaie automatique dynamique. »
+[Profil de Satoshi Nakamoto sur le forum de la Fondation P2P, capture du 17 mars 2011](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto)
+
+Ce n'est pas la seule référence aux métaux précieux qui se retrouve dans les interventions de Satoshi. Le créateur de Bitcoin [écrit](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:9562) ainsi dans les commentaires le 18 février :
+
+> « Il n'y a personne pour agir en tant que banque centrale ou réserve fédérale afin d'ajuster la masse monétaire au fur et à mesure que le nombre d'utilisateurs augmente. &nbsp;Il aurait fallu qu'un tiers de confiance détermine la valeur, car je ne connais aucun moyen pour un logiciel de connaître la valeur des choses dans le monde réel. &nbsp;S'il existait un moyen astucieux, ou si nous voulions faire confiance à quelqu'un pour gérer activement la masse monétaire afin de l'ancrer à quelque chose, les règles auraient pu être programmées à cet effet. &nbsp;En ce sens, c'est un système qui se comporte davantage comme un métal précieux. »
+>
+> original: "To Sepp's question, indeed there is nobody to act as central bank or federal reserve to adjust the money supply as the population of users grows. That would have required a trusted party to determine the value, because I don't know a way for software to know the real world value of things. If there was some clever way, or if we wanted to trust someone to actively manage the money supply to peg it to something, the rules could have been programmed for that. In this sense, it's more typical of a precious metal."
+
+Satoshi Nakamoto est aussi actif sur la liste de diffusion où il échange notamment avec Martien van Steenbergen, un consultant en gestion de projet néerlandais. Le 13 février, il aborde le sujet de la programmabilité de Bitcoin et [écrit](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) à ce dernier :
+
+> « Je considère Bitcoin comme une pierre angulaire, comme une première étape si l'on veut mettre en œuvre des monnaies sociales de pair à pair programmables telles que décrites par les idées de Marc \[Fawzi\] et d'autres discutées ici. &nbsp;Il faut d'abord qu'une monnaie pair à pair basique et normale fonctionne. &nbsp;Une fois qu'elle est établie et éprouvée, il est facile de passer à l'étape suivante, celle de la monnaie automatique dynamique.
+>
+> J'aime beaucoup l'idée de communautés virtuelles, sans appartenance géographique, qui expérimentent de nouveaux paradigmes économiques. »
 >
 > original: "I see Bitcoin as a foundation and first step if you want to implement programmable P2P social currencies like Marc's ideas and others discussed here. &nbsp;First you need normal, basic P2P currency working. &nbsp;Once that is established and proven out, dynamic smart money is an easy next step."
 
+Satoshi cherche à s'adapter à son public et à pousser les gens à s'intéresser à sa découverte.
+
 ### Les outils de présentation (avr. 2009 -- nov. 2009)
+
+Cette communication de Satoshi ne laisse pas indifférent un jeune étudiant en informatique finlandais du nom de Martti Malmi...
 
 Mike Hearn, Martti Malmi, page SourceForge, FAQ, forum, wiki
 

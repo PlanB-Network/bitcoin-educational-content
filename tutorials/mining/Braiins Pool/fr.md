@@ -77,7 +77,7 @@ En dessous, un graphique permet de suivre l'évolution de votre puissance de cal
 
 ![signup](assets/10.png)
 
-Et sous ce graphique vous avez plusieurs informations sur vos récompenses en sats.
+Sous ce graphique vous avez plusieurs informations sur vos récompenses en sats.
 
 **"Today's Mining Rewards"** Indique le nombre de sats que vous avez minés dans la journée. À la fin de la journée, cette valeur sera réinitialisée à 0 et les sats seront envoyés sur votre compte.
 
@@ -96,7 +96,14 @@ Et sous ce graphique vous avez plusieurs informations sur vos récompenses en sa
 
 ## Paramétrer les retraits
 
+Vous pouvez retirer vos récompenses, soit on-chain soit en lightning avec une adresse.
+
+en haut Cliquez sur "Founds", par défaut, vous avez un compte "Bitcoin Account" vous pouvez en créer d'autres ce qui permettra de partager les récompenses. Nous y reviendrons dans la section suivante.
+
+Pour le moment, cliquez sur
+
+
 ## Partager les récompences
 
-## Fonctionnalité avancées
+
 

@@ -71,7 +71,12 @@ Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée
         | Quelques idées reçues sur le KYC
         | Peut-on annuler un KYC ?
         | La différence entre KYC et identification des clés
-    Chapitre 6 - Les méthodes d'acquisition
+    Chapitre 6 - Les méthodes de vente et d'acquisition
+        | Les échanges P2P en cash
+        | Les échanges P2P via une plateforme de mise en relation
+        | Les plateformes régulées sans KYC
+        | Les ATM
+        | Les cartes cadeaux
 
 Partie 5 - Comprendre les transactions coinjoin
     Chapitre 1 - C'est quoi une transaction coinjoin ?

@@ -486,7 +486,7 @@ Ces remarques font probablement prendre conscience à Satoshi qu'il peut mettre 
 
 Dans le même temps, les questions de ses interlocuteurs le poussent à partager le code source de son modèle. Le 16 novembre, Satoshi transmet le code à Hal Finney, James A. Donald et Ray Dillinger. Le 17, dans un réponse à James A. Donald sur la liste, il [écrit](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) qu'il lui a envoyé « les fichiers principaux », que ceux-ci sont « disponibles sur demande pour le moment » et que leur « publication complète » aura lieu « bientôt ». (*original: "I sent you the main files. &nbsp;(available by request at the moment, full release soon)"*) Dans cette portion du code, qui sera [rendu publique](https://bitcointalk.org/index.php?action=printpage;topic=382374.0) en 2013 par Ray Dillinger lui-même, on peut constater que tous les éléments fondateurs de Bitcoin sont présents : la chaîne de blocs (alors encore appelée « *timechain* »), la preuve de travail, le modèle de représentation par des pièces (UTXO), la programmabilité des transactions, les frais de transaction et la réduction de moitié (*halving*).
 
-Des paramètres diffèrent cependant, ce qui indique qu'ils ont été choisis de façon spontanée ou, comme l'[écrira](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi, que ce choix constituait une « supposition éclairée ». (*original: "educated guess"*) Le temps de bloc, c'est-à-dire la période visée entre chaque bloc, est de 15 minutes au lieu de 10. La période d'ajustement de la difficulté est de 2 880 blocs (soit 30 jours pour un temps de blocs de 15 minutes) au lieu de 2 016 blocs (ce qui correspond à 14 jours pour un temps de bloc de 10 minutes). La mécanique de réduction de moitié, présente dans la fonction `GetBlockValue`, fait que le halving doit avoir lieu 100 000 blocs, soit tous les 2 ans et 311 jours environ :
+Des paramètres diffèrent cependant, ce qui indique qu'ils ont été choisis de façon spontanée ou, comme l'[écrira](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi, que ce choix constituait une « estimation éclairée ». (*original: "educated guess"*) Le temps de bloc, c'est-à-dire la période visée entre chaque bloc, est de 15 minutes au lieu de 10. La période d'ajustement de la difficulté est de 2 880 blocs (soit 30 jours pour un temps de blocs de 15 minutes) au lieu de 2 016 blocs (ce qui correspond à 14 jours pour un temps de bloc de 10 minutes). La mécanique de réduction de moitié, présente dans la fonction `GetBlockValue`, fait que le halving doit avoir lieu 100 000 blocs, soit tous les 2 ans et 311 jours environ :
 
 ```cpp
 int64 GetBlockValue(int64 nFees)
@@ -527,6 +527,8 @@ Mais Hal Finney n'est pas la seule personne à essayer Bitcoin à ce moment-là.
 ![Dustin Trammell](assets/img/ch4/4.webp)
 
 Dustin Trammell (source : archive de [blog.dustintrammell.com](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
+
+Par la suite, d'autres personnes essaient de faire fonctionner le logiciel. C'est le cas de Nicholas Bohm, un avocat britannique, qui envoie un courriel le 25 janvier sur bitcoin-list car il rencontre un problème technique et échange en privé avec Satoshi. Un certain Jeff Kane arrive de son côté à faire fonctionner la version 0.1.3 le 30 janvier. Nicholas Bohm sera mentionné aux côtés de Dustin Trammell dans les crédits de la version 0.1.5 du logiciel sorti début février.
 
 À partir du 9 janvier 2009, le réseau ne s'arrêtera pas. Bloc après bloc, la chaîne continuera de s'allonger. Et Bitcoin finira par connaître le succès.
 
@@ -637,15 +639,41 @@ Satoshi Nakamoto est aussi actif sur la liste de diffusion où il échange notam
 >
 > J'aime beaucoup l'idée de communautés virtuelles, sans appartenance géographique, qui expérimentent de nouveaux paradigmes économiques. »
 >
-> original: "I see Bitcoin as a foundation and first step if you want to implement programmable P2P social currencies like Marc's ideas and others discussed here. &nbsp;First you need normal, basic P2P currency working. &nbsp;Once that is established and proven out, dynamic smart money is an easy next step."
+> *original: "I see Bitcoin as a foundation and first step if you want to implement programmable P2P social currencies like Marc's ideas and others discussed here. &nbsp;First you need normal, basic P2P currency working. &nbsp;Once that is established and proven out, dynamic smart money is an easy next step.*
+>
+> *I love the idea of virtual, non-geographic communities experimenting with new economic paradigms."*
 
 Satoshi cherche à s'adapter à son public et à pousser les gens à s'intéresser à sa découverte.
 
 ### Les outils de présentation (avr. 2009 -- nov. 2009)
 
-Cette communication de Satoshi ne laisse pas indifférent un jeune étudiant en informatique finlandais du nom de Martti Malmi...
+La stratégie de communication de Satoshi prote peu à peu ses fruits. Au mois d'avril 2009, d'autres personnes commencent à s'intéresser à son invention. Le 12, Mike Hearn, un développeur britannique travaillant pour Google et s'adonnant au logiciel libre sur son temps libre, lui envoie un [courriel](https://plan99.net/~mike/satoshi-emails/thread1.html) posant une série de questions à propos de Bitcoin, en précisant qu'« il est rare de rencontrer des idées vraiment révolutionnaires ». Hearn s'intéresse alors aux systèmes de paiement numériques, et notamment à Ripple, qu'il ne manque pas de mentionner.
 
-Mike Hearn, Martti Malmi, page SourceForge, FAQ, forum, wiki
+![Mike Hearn](assets/img/ch5/mike-hearn.webp)
+
+En particulier, Mike Hearn demande à Satoshi pourquoi il a choisi la quantité de « 24 millions » (*sic*) pour le montant total de bitcoins et si ces derniers peuvent être fractionnés. Satoshi donne alors l'explication suivante :
+
+> « Mon choix pour le nombre d'unités et le programme de distribution était une estimation éclairée. &nbsp;C'était un choix difficile, car une fois le réseau en marche, ces paramètres étaient verrouillés et nous étions bloqués avec eux. &nbsp;Je voulais choisir quelque chose qui rendrait les prix similaires à ceux des monnaies existantes, mais c'était très difficile sans avoir connaissance de l'avenir. &nbsp;J'ai fini par choisir un entre-deux. &nbsp;Si Bitcoin reste une petite niche, il vaudra moins par unité que les monnaies existantes. &nbsp;Si l'on imagine qu'il est utilisé pour une partie du commerce mondial, alors il n'y aura que 21 millions d'unités pour le monde entier, donc elles vaudront beaucoup plus par unité. &nbsp;Les valeurs sont des entiers codées sur 64 bits avec 8 décimales, donc une pièce est représentée en interne par 100 000 000. &nbsp;Il y a beaucoup de granularité si jamais les prix usuels deviennent petits. &nbsp;Par exemple, si 0,001 [Bitcoin\] vaut 1 euro, il peut être plus facile de changer l'emplacement de la virgule, de sorte que si on a 1 Bitcoin, il sera désormais affiché comme 1000, et 0,001 sera affiché comme 1. »
+>
+> *original: "My choice for the number of coins and distribution schedule was an educated guess. &nbsp;It was a difficult choice, because once the network is going it's locked in and we're stuck with it. &nbsp;I wanted to pick something that would make prices similar to existing currencies, but without knowing the future, that's very hard. &nbsp;I ended up picking something in the middle. &nbsp;If Bitcoin remains a small niche, it'll be worth less per unit than existing currencies. &nbsp;If you imagine it being used for some fraction of world commerce, then there's only going to be 21 million coins for the whole world, so it would be worth much more per unit. &nbsp;Values are 64-bit integers with 8 decimal places, so 1 coin is represented internally as 100000000. &nbsp;There's plenty of granularity if typical prices become small. &nbsp;For example, if 0.001 is worth 1 Euro, then it might be easier to change where the decimal point is displayed, so if you had 1 Bitcoin it's now displayed as 1000, and 0.001 is displayed as 1."*
+
+Après avoir discuté, Satoshi lui envoie quelques bitcoins...
+
+La communication de Satoshi ne laisse pas non plus indifférent un jeune étudiant en informatique finlandais du nom de Martti Malmi. Ce dernier découvre Bitcoin début avril, par l'intermédiaire du texte sur le forum de la Fondation P2P. Le 9, il se met à utiliser le logiciel et mine son premier bloc (le bloc 10 351). Dans la soirée, il rédige une courte présentation de Bitcoin où il soutient l'hypothèse anarchiste que « la monnaie pair à pair pourrait faire disparaître l'État ». (*original: "P2P Currency could make the government extinct?"*). Il publie son texte sous le pseudonyme Trickster(n) sur deux forums libertariens de sensibilités différentes : anti-state.com (ASC) et le forum de Freedomain Radio (le média de l'anarcho-capitaliste Stefan Molyneux). Il écrit :
+
+> « Le système est anonyme, et aucun État ne pourrait possiblement taxer ou empêcher les transactions. Il n'y a pas de banque centrale qui puisse déprécier la devise avec la création illimitée de nouvelle monnaie. L'adoption généralisée d'un tel système ressemblerait à quelque chose qui pourrait avoir un effet dévastateur sur la capacité de l'État à se nourrir à partir de son bétail. »
+
+> *original: "The system is anonymous, and no government could possibly tax or prevent the transactions. There's no central bank to debase the currency with unlimited creation of new money. A widespread adoption of such a system sounds like something that could have a devastating effect on the state's ability to feed on its livestock."*
+
+![Martti Malmi en 2013](assets/img/ch5/martti-malmi-2013.webp)
+
+Martti Malmi en 2013 (source : [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5)
+
+Il envoie ensuite un [courriel](https://mmalmi.github.io/satoshi/#email-1) un Satoshi précisant qu'il est l'auteur de ce texte, où il écrit qu'il « aimerait aider avec Bitcoin » même s'il n'a « pas encore beaucoup d'expérience en matière de développement ». (*original: "I'm Trickstern from the anti-state.com forum, and I would like to help with Bitcoin, if there's something I can do. I have a good touch on Java and C languages from school courses (I'm studying CS), but not so very much development experience yet."*) Satoshi Nakamoto lui répond le 2 mai, en lui disant que sa « compréhension de Bitcoin » est « en plein dans le mille ». (*original: "Thanks for starting that topic on ASC, your understanding of bitcoin is spot on."*)
+
+Satoshi le met à contribution pour remplir la page web sur SourceForge (bitcoin.sourceforge.net), la plateforme où est hébergé le code du logiciel, notamment en écrivant une foire aux questions (FAQ).
+
+page SourceForge, FAQ, forum, wiki
 
 ### Le développement initial du logiciel (avr. 2009 -- déc. 2009)
 

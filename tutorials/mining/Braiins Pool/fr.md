@@ -102,7 +102,7 @@ en haut Cliquez sur "Founds", par défaut, vous avez un compte "Bitcoin Account"
 
 Pour le moment, cliquez sur "Set up"
 
-![signup](assets/12.png)
+![signup](assets/17.png)
 
 
 ## Partager les récompences

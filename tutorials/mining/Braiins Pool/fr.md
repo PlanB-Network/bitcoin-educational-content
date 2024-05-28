@@ -96,13 +96,21 @@ Sous ce graphique vous avez plusieurs informations sur vos récompenses en sats.
 
 ## Paramétrer les retraits
 
-Vous pouvez retirer vos récompenses, soit on-chain soit en lightning avec une adresse.
+Vous pouvez retirer vos récompenses soit on-chain, soit en lightning avec une adresse.
 
-en haut Cliquez sur "Founds", par défaut, vous avez un compte "Bitcoin Account" vous pouvez en créer d'autres ce qui permettra de partager les récompenses. Nous y reviendrons dans la section suivante.
+En haut, cliquez sur "Funds". Par défaut, vous avez un compte "Bitcoin Account". Vous pouvez en créer d'autres pour partager les récompenses. Nous y reviendrons dans la section suivante.
 
-Pour le moment, cliquez sur "Set up"
+Pour le moment, cliquez sur "Set up".
 
 ![signup](assets/17.png)
+
+Dans cette nouvelle fenêtre, vous pouvez choisir "Onchain payout". 
+
+Donnez un nom à ce wallet, une adresse BTC, et choisissez le type de déclencheur que vous voulez. "Threshold" signifie que le paiement sera déclenché quand vous aurez cumulé un montant défini de BTC, et avec "Time interval", le paiement sera déclenché à intervalles réguliers (jour/semaines/mois).
+
+À savoir que le montant minimum est de 0.0002 BTC et qu'en dessous de 0.005 BTC, des frais de 0.0001 BTC seront appliqués.
+
+![signup](assets/18.png)
 
 
 ## Partager les récompences

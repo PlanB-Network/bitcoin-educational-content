@@ -112,6 +112,8 @@ Donnez un nom à ce wallet, une adresse BTC, et choisissez le type de déclenche
 
 ![signup](assets/18.png)
 
+Si vous voulez utiliser les retrait en Lightning vous aurez besoin d'un wallet qui fournie une adresse Ligthning.
+
 
 ## Partager les récompences
 

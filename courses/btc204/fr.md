@@ -1084,7 +1084,7 @@ Enfin, même si vous acquérez vos bitcoins par un échange physique contre des 
 
 ![BTC204](assets/notext/45/6.webp)
 
-Pour conclurre, lors d'un échange de bitcoins contre d'autres actifs, qu'il s'agisse d'un achat en monnaie étatique ou d'une vente contre un bien réel, il y a toujours une certaine forme d'identification des clés. Selon la méthode d'échange choisie, cette identification peut varier en intensité. Il est important de ne pas confondre cette identification avec le KYC, qui est un processus réglementaire bien défini. Cependant, il existe un lien entre le KYC et le spectre d'identification, puisque le KYC se situe à l'extrémité supérieure de ce spectre, car il facilite de manière systématique l'identification des clés de l'utilisateur par les autorités.
+Pour conclure, lors d'un échange de bitcoins contre d'autres actifs, qu'il s'agisse d'un achat en monnaie étatique ou d'une vente contre un bien réel, il y a toujours une certaine forme d'identification des clés. Selon la méthode d'échange choisie, cette identification peut varier en intensité. Il est important de ne pas confondre cette identification avec le KYC, qui est un processus réglementaire bien défini. Cependant, il existe un lien entre le KYC et le spectre d'identification, puisque le KYC se situe à l'extrémité supérieure de ce spectre, car il facilite de manière systématique l'identification des clés de l'utilisateur par les autorités.
 
 ## Les méthodes de vente et d'acquisition
 
@@ -1094,9 +1094,13 @@ Après avoir lu le chapitre précédent, vous vous interrogez peut-être sur les
 
 Comme nous l'avons vu, la meilleure méthode en terme de confidentialité demeure l'échange P2P (de personne à personne) avec un règlement en cash. Cette méthode vous permet de minimiser les traces laissées et réduit considérablement la possibilité d'identification des clés, que vous soyez acheteur ou vendeur.
 
+![BTC204](assets/notext/46/01.webp)
+
 Néanmoins, cette pratique comporte des risques pour la sécurité personnelle. Le principal danger réside dans le fait que lors de l'échange, la contrepartie saura que vous détenez une somme importante, soit en espèces, soit en bitcoins. Cette information peut attirer l'attention de personnes malintentionnées. En effet, il est généralement recommandé de rester discret sur sa possession de bitcoins. C'est un conseil qui pourrait également être appliqué pour les espèces. Toutefois, lors d'un échange en personne, il est inévitable de révéler que vous possédez des bitcoins, ce qui peut susciter des convoitises.
 
-Pour limiter ce risque, il est prudent de privilégier les transactions en cash avec des individus de confiance, tels que des membres de votre famille ou des amis proches. Autrement, vous pourriez aussi envisager de procéder à des échanges lors de meetups Bitcoin locaux, après y avoir participé plusieurs fois. Cela vous permettra de mieux connaître les autres participants et de ne pas être seul lors de l'échange physique. Cependant, il est important de reconnaître que l'échange P2P en cash comporte intrinsèquement des risques pour votre sécurité personnelle qui n'existent pas lors d'achats via une plateforme régulée et votre compte bancaire.
+![BTC204](assets/notext/46/02.webp)
+
+Pour limiter ce risque, je vous conseille de privilégier les transactions en cash avec des individus de confiance, tels que des membres de votre famille ou des amis proches. Autrement, vous pourriez aussi envisager de procéder à des échanges lors [de meetups Bitcoin locaux](https://btcmap.org/communities/map), après y avoir participé plusieurs fois. Cela vous permettra de mieux connaître les autres participants et de ne pas être seul lors de l'échange physique. Cependant, il est important de reconnaître que l'échange P2P en cash comporte intrinsèquement des risques pour votre sécurité personnelle qui n'existent pas lors d'achats via une plateforme régulée et votre compte bancaire.
 
 De plus, selon votre lieu de résidence, transporter et stocker de grandes sommes d'argent peut présenter des risques, que ce soit pour du bitcoin ou du cash.
 
@@ -1104,17 +1108,31 @@ L'échange en espèces peut également poser des risques légaux lors de contrô
 
 Enfin, un autre inconvénient des achats en P2P est que le prix est souvent plus élevé que celui observé sur les plateformes régulées. Les vendeurs imposent souvent une majoration allant de 1 % jusqu'à parfois plus de 10 %. Plusieurs raisons expliquent cette différence de prix. D'abord, il s'agit d'une pratique courante chez les vendeurs P2P qui s'est installée au fil du temps. Ensuite, les vendeurs ont des frais associés à la transaction pour envoyer les fonds à l'acheteur. Il y a aussi un risque de vol accru lors de ventes en P2P par rapport aux transactions sur plateforme, ce qui justifie une compensation pour le risque pris. Enfin, le surcoût peut être lié à la demande et à la qualité de l'échange en termes de confidentialité. En tant qu'acheteur, le gain de confidentialité a un prix qui se reflète dans la majoration appliquée par le vendeur. Certains bitcoiners pensent également que le prix majoré du BTC acheté en P2P reflète son véritable cours, et avancent l'argument que les prix plus bas sur les plateformes régulées sont le résultat d'un compromis sur la confidentialité de vos données personnelles.
 
+![BTC204](assets/notext/46/03.webp)
+
 ### Les échanges P2P via une plateforme de mise en relation
 
-Une alternative moins risquée en termes de sécurité personnelle consiste à effectuer des échanges P2P exclusivement en ligne, via des méthodes de paiement électronique telles que PayPal, les virements bancaires ou Revolut. Cette approche permet d'éviter de nombreux risques associés aux transactions en espèces. Toutefois, le risque que la contrepartie ne respecte pas ses engagements lors d'un échange en ligne est plus grand. En effet, lors d'un échange physique, si vous remettez de l'argent au vendeur qui ne vous envoie pas les bitcoins en retour, vous pouvez immédiatement lui demander des comptes puisqu'il se trouve devant vous. En ligne, par contre, il est souvent impossible de retrouver une personne qui vous a volé.
+Une alternative moins risquée en termes de sécurité personnelle consiste à effectuer des échanges P2P exclusivement en ligne, via des méthodes de paiement électronique telles que PayPal, les virements bancaires ou Revolut. 
+
+![BTC204](assets/notext/46/04.webp)
+
+Cette approche permet d'éviter de nombreux risques associés aux transactions en espèces. Toutefois, le risque que la contrepartie ne respecte pas ses engagements lors d'un échange en ligne est plus grand. En effet, lors d'un échange physique, si vous remettez de l'argent au vendeur qui ne vous envoie pas les bitcoins en retour, vous pouvez immédiatement lui demander des comptes puisqu'il se trouve devant vous. En ligne, par contre, il est souvent impossible de retrouver une personne qui vous a volé.
+
+![BTC204](assets/notext/46/05.webp)
 
 Pour pallier ce risque, il est possible de recourir à des plateformes spécialisées dans la mise en relation pour les échanges P2P. Ces plateformes utilisent des mécanismes de résolution des conflits pour protéger les utilisateurs lésés. Généralement, elles proposent un système de dépôt fiduciaire, où les bitcoins sont conservés jusqu'à ce que le paiement en monnaie fiat soit confirmé par le vendeur.
 
+![BTC204](assets/notext/46/06.webp)
+
 En termes de sécurité personnelle, cette méthode d'achat est nettement plus sûre que l'échange physique en espèces. Cependant, comme évoqué précédemment, les échanges P2P en ligne laissent davantage de traces qu'un échange physique, ce qui peut être préjudiciable pour la confidentialité sur Bitcoin. En utilisant un moyen de paiement fiat en ligne comme une banque, vous exposez davantage d'informations susceptibles de faciliter l'identification des clés.
+
+![BTC204](assets/notext/46/07.webp)
 
 Encore une fois, je vous recommande de ne pas réaliser de trop gros échanges en une seule transaction sur ces plateformes. En fractionnant vos transactions, vous répartissez les risques liés à un éventuel vol par la contrepartie.
 
-Enfin, un autre inconvénient des achats en P2P est que le prix est souvent plus élevé que celui observé sur les plateformes régulées. Les vendeurs imposent souvent une majoration allant de 1 % jusqu'à parfois plus de 10 %. Plusieurs raisons expliquent cette différence de prix. D'abord, il s'agit d'une pratique courante chez les vendeurs P2P qui s'est installée au fil du temps. Ensuite, les vendeurs ont des frais associés à la transaction pour envoyer les fonds à l'acheteur. Il y a aussi un risque de vol accru lors de ventes en P2P par rapport aux transactions sur plateforme, ce qui justifie une compensation pour le risque pris. Enfin, le surcoût peut être lié à la demande et à la qualité de l'échange en termes de confidentialité. En tant qu'acheteur, le gain de confidentialité a un prix qui se reflète dans la majoration appliquée par le vendeur. Certains bitcoiners pensent également que le prix majoré du BTC acheté en P2P reflète son véritable cours, et avancent l'argument que les prix plus bas sur les plateformes régulées sont le résultat d'un compromis sur la confidentialité de vos données personnelles.
+Encore une fois, un autre inconvénient des achats en P2P est que le prix est souvent plus élevé que celui observé sur les plateformes régulées. Les vendeurs imposent souvent une majoration allant de 1 % jusqu'à parfois plus de 10 %. Plusieurs raisons expliquent cette différence de prix. D'abord, il s'agit d'une pratique courante chez les vendeurs P2P qui s'est installée au fil du temps. Ensuite, les vendeurs ont des frais associés à la transaction pour envoyer les fonds à l'acheteur. Il y a aussi un risque de vol accru lors de ventes en P2P par rapport aux transactions sur plateforme, ce qui justifie une compensation pour le risque pris. Enfin, le surcoût peut être lié à la demande et à la qualité de l'échange en termes de confidentialité. En tant qu'acheteur, le gain de confidentialité a un prix qui se reflète dans la majoration appliquée par le vendeur. Certains bitcoiners pensent également que le prix majoré du BTC acheté en P2P reflète son véritable cours, et avancent l'argument que les prix plus bas sur les plateformes régulées sont le résultat d'un compromis sur la confidentialité de vos données personnelles.
+
+![BTC204](assets/notext/46/03.webp)
 
 Concernant les solutions, j'ai personnellement toujours utilisé [Bisq](https://bisq.network/) et j'en suis très satisfait. Leur système est rodé et semble fiable. Toutefois, Bisq n'est disponible que sur PC et son interface peut être trop complexe pour les débutants. Un autre inconvénient est que Bisq opère uniquement avec des transactions onchain, ce qui peut devenir coûteux lors de périodes de frais de transaction élevés sur Bitcoin.
 
@@ -1133,6 +1151,8 @@ Pour les solutions basées sur le Lightning Network, vous pouvez essayer [RoboSa
 [-> Découvrir notre tutoriel sur RoboSats.](https://planb.network/en/tutorials/exchange/robosats)
 [-> Découvrir notre tutoriel sur LNP2PBot.](https://planb.network/en/tutorials/exchange/lnp2pbot)
 
+![BTC204](assets/notext/46/08.webp)
+
 ### Les plateformes régulées sans KYC
 
 Selon le pays où vous vivez, vous pourriez avoir accès à des plateformes régulées qui ne requièrent pas de procédure KYC pour acheter ou vendre des bitcoins. En Suisse, par exemple, vous pouvez utiliser des plateformes comme [Relai](https://relai.app/) et [MtPelerin](https://www.mtpelerin.com/).
@@ -1147,6 +1167,8 @@ Cependant, en termes de sécurité personnelle, l'utilisation de ces plateformes
 
 Une autre option pour acheter ou vendre des bitcoins sans KYC sont les guichets automatiques de cryptomonnaies (ATM). Personnellement, je n'ai jamais eu l'occasion de tester cette solution, car il n'y en a pas dans mon pays. Mais cette méthode peut s'avérer très intéressante en fonction de là où vous habitez.
 
+![BTC204](assets/notext/46/09.webp)
+
 Le problème des ATM, c'est qu'ils sont interdits dans certains pays, ou bien très réglementés dans d'autres. Si un ATM exige une procédure de vérification d'identité, il est alors exposé aux mêmes risques que ceux inhérents aux plateformes régulées KYC. Par contre, si l'ATM permet des transactions sans vérification d'identité pour des petits montants, alors son utilisation peut offrir un niveau de confidentialité comparable à celui d'un échange P2P en espèces, tout en évitant la majorité des risques associés à ce type d'échange.
 
 Le principal inconvénient des ATM réside dans leurs frais d'échange souvent élevés, qui vont de quelques pourcents jusqu'à parfois 15 % du montant échangé.
@@ -1158,6 +1180,8 @@ Enfin, je souhaitais également vous présenter une solution qui fonctionne bien
 La meilleur façon de dépenser des BTC est évidemment d'utiliser directement Bitcoin ou le Lightning Network pour faire l'achat d'un bien ou d'un service. Néanmoins, dans de nombreux pays, le nombre de commerçants acceptant Bitcoin reste limité. Une alternative pratique est alors l'utilisation de cartes cadeaux.
 
 Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibilité d'échanger des bitcoins contre des cartes cadeaux utilisables dans de grandes enseignes. Parmi ces plateformes, on trouve [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) et [Bitrefill](https://www.bitrefill.com/). Ces plateformes facilitent grandement l'usage quotidien de vos bitcoins en vous permettant d'accéder à une large gamme de produits et de services sans avoir à passer par une conversion en monnaie fiat.
+
+![BTC204](assets/notext/46/10.webp)
 
 ___
 

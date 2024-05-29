@@ -36,18 +36,18 @@ Les retraits peuvent être déclenchés par intervalle de temps ou par montant.
  pour commencer à utiliser Braiins Pool [Rendez-vous sur leur site Internet](https://braiins.com/pool) puis cliquez sur "SIGN UP" en haut à droite
 
 
-![signup](assets/3.png)
+![signup](assets/3.webp)
 
 Rentrez vos informations et valider, vous recevrez ensuite par mail une demande de confirmation de votre adresse. Confirmer avec le lien dans le mail que vous avez reçus puis connectez vous à la platforme
 
-![signup](assets/4.png)
+![signup](assets/4.webp)
 
 
 ## Ajouter un "worker"
 
 Un worker est le mineur que vous allez connecter à la pool. Pour ajouter un nouveau mineur, cliquez sur "Workers" dans le menu latéral de gauche.
 
-![signup](assets/7.png)
+![signup](assets/7.webp)
 
 Puis sur le bouton violet "Connect Workers +".
 
@@ -55,7 +55,7 @@ Dans cette fenêtre, sélectionnez votre zone géographique.
 
 Si le mineur que vous voulez connecter utilise BraiinsOS, sélectionnez le protocole "Stratum V2". Autrement, choisissez "Stratum V1".
 
-![signup](assets/8.png)
+![signup](assets/8.webp)
 
 Vous aurez les informations à renseigner sur la page web de votre mineur (reportez-vous à la documentation de votre mineur pour savoir où entrer ces informations).
 
@@ -69,12 +69,12 @@ Une fois que vous aurez rentré ces informations sur la page web de votre mineur
 
 ## Présentation du Dashboard
 
-![signup](assets/9.png)
+![signup](assets/9.webp)
 
 Dans le bandeau supérieur, vous pouvez voir le hashrate total moyen de tous vos mineurs sur 5 minutes, 1h et 24h. Et un récapitulatif du nombre de mineurs en ligne ou hors ligne.
 En dessous, un graphique permet de suivre l'évolution de votre puissance de calcul.
 
-![signup](assets/10.png)
+![signup](assets/10.webp)
 
 Sous ce graphique vous avez plusieurs informations sur vos récompenses en sats.
 
@@ -101,7 +101,7 @@ En haut, cliquez sur "Funds". Par défaut, vous avez un compte "Bitcoin Account"
 
 Pour le moment, cliquez sur "Set up".
 
-![signup](assets/17.png)
+![signup](assets/17.webp)
 
 Dans cette nouvelle fenêtre, vous pouvez choisir "Onchain payout". 
 
@@ -109,7 +109,7 @@ Donnez un nom à ce wallet, une adresse BTC, et choisissez le type de déclenche
 
 À savoir que le montant minimum est de 0.0002 BTC et qu'en dessous de 0.005 BTC, des frais de 0.0001 BTC seront appliqués.
 
-![signup](assets/18.png)
+![signup](assets/18.webp)
 
 Si vous voulez utiliser les retraits en Lightning, vous aurez besoin d'un wallet qui fournit une adresse Lightning. Vous pouvez par exemple utiliser getAlby.
 
@@ -119,11 +119,11 @@ Renseignez votre adresse Lightning et cochez la case "I understand..." puis vali
 
 Avec cette méthode de retrait, vos récompenses seront envoyées sur votre wallet chaque jour.
 
-![signup](assets/14.png)
+![signup](assets/14.webp)
 
 Une fois que vous avez validé vos paramètres de payout, vous recevrez un email de confirmation.
 
-![signup](assets/15.png)
+![signup](assets/15.webp)
 
 ## Partager les récompences
 
@@ -131,7 +131,7 @@ Braiins Pool permet également de partager vos récompenses sur plusieurs wallet
 
 Pour cela, cliquez en haut sur "Mining" puis à gauche sur "Settings".
 
-![signup](assets/19.png)
+![signup](assets/19.webp)
 
 Sur cette page, vous allez pouvoir ajouter d'autres "Financial Account" en cliquant sur "Add Another Financial Account" et répartir en % vos récompenses sur ces différents accounts auxquels vous devrez associer un wallet. Pour associer un nouveau wallet à un Financial Account, référez-vous à la section précédente.
 

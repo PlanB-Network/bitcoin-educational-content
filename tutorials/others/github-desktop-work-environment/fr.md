@@ -63,15 +63,49 @@ Pour maintenir une cohérence entre ces deux dépôts, il sera nécessaire de le
 
 ![github-desktop](assets/14.webp)
 
+## Étape 4 : Cloner le fork 
 
+- Revenez sur le logiciel GitHub Desktop. À présent, votre fork devrait figurer dans la section `Your repositories`. Si vous ne le voyez pas immédiatement, utilisez le bouton des doubles flèches pour rafraîchir la liste. Lorsque votre fork apparaît, cliquez dessus pour le sélectionner :
+![github-desktop](assets/15.webp)
+- Cliquez ensuite sur le bouton bleu : `Clone [username]/sovereign-university-data` :
+![github-desktop](assets/16.webp)
+- Conservez le chemin par défaut. Pour confirmer, cliquez sur le bouton bleu `Clone` :
+![github-desktop](assets/17.webp)
+- Patientez le temps que GitHub Desktop clone votre fork en local :
+![github-desktop](assets/18.webp)
+- Après le clonage du dépôt, le logiciel vous propose deux options. Vous devez sélectionner la première : `To contribute to the parent project`. Ce choix vous permettra de présenter votre futur travail comme une contribution au projet parent (`DecouvreBitcoin/sovereign-university-data`), et non exclusivement comme une modification de votre fork personnel (`[username]/sovereign-university-data`). Une fois l'option choisie, cliquez sur `Continue` :
+![github-desktop](assets/19.webp)
+- Votre GitHub Desktop est désormais correctement configuré. À présent, vous pouvez laisser le logiciel ouvert en arrière-plan pour suivre les modifications que nous effectuerons.
+![github-desktop](assets/20.webp)
+Ce que nous avons réalisé à cette étape, c'est la création d'une copie locale de votre dépôt, qui est hébergé sur GitHub. Pour rappel, ce dépôt est un fork du dépôt source de PlanB Network. Vous allez pouvoir apporter des modifications à cette copie locale, telles que l'ajout de tutoriels, de traductions ou de corrections. Une fois ces modifications effectuées, vous utiliserez la commande **Push origin** pour envoyer vos modifications locales vers votre fork hébergé sur GitHub.
 
+Vous pouvez aussi récupérer des modifications depuis le fork, par exemple lors d'une synchronisation avec le dépôt de PlanB Network. Pour cela, vous utiliserez la commande **Fetch origin** pour télécharger les modifications sur votre copie locale (votre clone), puis la commande **Pull origin** pour les fusionner avec votre travail. Cela vous permet de rester à jour avec les dernières évolutions du projet tout en contribuant efficacement.
 
+![github-desktop](assets/21.webp)
+## Étape 5 : Créer un nouveau coffre Obsidian
 
+- Ouvrez le logiciel Obsidian et cliquez sur la petite icône de coffre fort en bas à gauche de la fenêtre :
+![github-desktop](assets/22.webp)
+- Cliquez sur le bouton `Open` afin d'ouvrir un dossier existant comme un coffre :
+![github-desktop](assets/23.webp)
+- Votre explorateur de fichier va s'ouvrir. Vous devez localiser et sélectionner le dossier intitulé `GitHub`, qui devrait se situer dans votre répertoire `Documents` parmi vos fichiers. Ce chemin correspond à celui que vous avez établi durant l'étape 4. Après avoir choisi le dossier, confirmez sa sélection. La création de votre coffre sur Obsidian se lancera alors sur une nouvelle page du logiciel :
 
+![github-desktop](assets/24.webp)
+-> **Attention**, il est important de ne pas choisir le dossier `sovereign-university-data` lors de la création d'un nouveau coffre dans Obsidian. Sélectionnez plutôt le dossier parent, `GitHub`. Si vous sélectionnez le dossier `sovereign-university-data`, le dossier de configuration `.obsidian`, contenant vos paramètres locaux Obsidian, sera automatiquement intégré au sein du dépôt. Nous souhaitons éviter cela, car il n'est pas nécessaire de transférer vos configurations Obsidian sur le dépôt de PlanB Network. Une alternative consiste à ajouter le dossier `.obsidian` au fichier `.gitignore`, mais cette méthode entraînerait également une modification du fichier `.gitignore` du dépôt source, ce qui n'est pas désirable.
 
+- Sur la gauche de la fenêtre, vous pouvez voir l'arborescence des fichiers avec vos différents dépôts GitHub qui ont été clonés en local.
+- En cliquant sur les flèches situées à côté des noms de dossier, vous pouvez les dérouler pour accéder aux sous-dossiers des dépôts et à leurs documents :
+![github-desktop](assets/25.webp)
+- N'oubliez pas de paramétrer Obsidian en dark mode : « _Light attracts bugs_ » ;)
 
+## Étape 6 : Installer un éditeur de code
 
+La majorité de vos modifications porteront sur des fichiers au format Markdown (`.md`). Pour éditer ces documents, vous pouvez utiliser Obsidian, le logiciel dont nous avons discuté auparavant. Néanmoins, PlanB Network fait appel à d'autres formats de fichiers, et il vous faudra procéder à la modification de certains d'entre eux.
 
+Par exemple, lors de la création d'un nouveau tutoriel, vous devrez créer un fichier YAML (`.yml`) pour y inscrire les tags de votre tutoriel, son titre, ainsi que votre identifiant de professeur. Obsidian n'offre pas la possibilité de modifier ce type de fichiers, vous aurez donc besoin d'un éditeur de code.
 
+Pour cela, plusieurs options s'offrent à vous. Bien que le bloc-notes standard de votre ordinateur puisse être utilisé pour effectuer ces modifications, cette solution n'est pas idéale pour un travail soigné. Je vous recommande plutôt de choisir un logiciel spécifiquement conçu à cet effet, tel que [VS Code](https://code.visualstudio.com/download) ou [Sublime Text](https://www.sublimetext.com/download). Sublime Text étant particulièrement léger, il sera amplement suffisant pour nos besoins.
 
-
+- Installez un de ces logiciels, et gardez-le de côté pour vos futures modifications.
+![github-desktop](assets/26.webp)
+Félicitations ! Votre environnement de travail est maintenant configuré pour contribuer à PlanB Network. Vous pouvez maintenant découvrir [nos autres tutoriels spécifiques](https://planb.network/fr/tutorials/others) pour chaque type de contribution (traduction, correction, rédaction...).

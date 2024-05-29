@@ -112,29 +112,29 @@ Donnez un nom à ce wallet, une adresse BTC, et choisissez le type de déclenche
 
 ![signup](assets/18.png)
 
-Si vous voulez utiliser les retrait en Lightning vous aurez besoin d'un wallet qui fournie une adresse Ligthning. Vous pouvez par exemple utiliser getAlby.
+Si vous voulez utiliser les retraits en Lightning, vous aurez besoin d'un wallet qui fournit une adresse Lightning. Vous pouvez par exemple utiliser getAlby.
 
-Cliquez en haut de la fenêtre sur "Ligthning payout"
+Cliquez en haut de la fenêtre sur "Lightning payout".
 
-Renseignez votre adresse lightning et cocher la case "I understand..." puis validez
+Renseignez votre adresse Lightning et cochez la case "I understand..." puis validez.
 
-Avec cette méthode de retrait vos récompenses seront envoyé sur votre wallet chaque jour
+Avec cette méthode de retrait, vos récompenses seront envoyées sur votre wallet chaque jour.
 
 ![signup](assets/14.png)
 
-Une fois que vous avez validé vos parametres de payout vous recevrez un email de confirmation
+Une fois que vous avez validé vos paramètres de payout, vous recevrez un email de confirmation.
 
 ![signup](assets/15.png)
 
 ## Partager les récompences
 
-Braiins Pool permet également de partager vos récompence sur plusieurs wallets
+Braiins Pool permet également de partager vos récompenses sur plusieurs wallets.
 
-Pour cela cliquer en haut sur "Mining" puis à gauche sur "Settings"
+Pour cela, cliquez en haut sur "Mining" puis à gauche sur "Settings".
 
 ![signup](assets/19.png)
 
-Sur cette page vous allez pouvoir ajouter d'autre "Financial Account" en cliquant sur "Add Another Financial Account" et repartir en % vos récompence sur ces different account aux quel vous devrez associer un wallet. Pour associer un nouveau wallet à un Finnacial account référer vous à la section précédente.
+Sur cette page, vous allez pouvoir ajouter d'autres "Financial Account" en cliquant sur "Add Another Financial Account" et répartir en % vos récompenses sur ces différents accounts auxquels vous devrez associer un wallet. Pour associer un nouveau wallet à un Financial Account, référez-vous à la section précédente.
 
 
 

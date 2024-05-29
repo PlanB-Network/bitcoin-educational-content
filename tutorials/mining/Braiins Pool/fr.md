@@ -15,6 +15,8 @@ En mai 2024, Braiins Pool possède une puissance de calcul de 13 EH/s, représen
 
 Depuis fin 2023, Braiins Pool a changé son système de rémunération en adoptant le système FPPS (Full Pay Per Share). Cela signifie que les mineurs reçoivent chaque jour les récompenses pour tout leur travail de la veille, même si la pool n'a pas trouvé de bloc. Cela diffère de l'ancien système où les mineurs ne recevaient une récompense qu'au moment où la pool trouvait un bloc.
 
+**À savoir, [d'après un tweet de Mononaut](https://x.com/mononautical/status/1777686545715089605) qui fait de l'analyse de la TimeChain de Bitcoin, il semblerait que de nombreuses pools de minage qui utilisent le système FPPS renverraient les bitcoins minés sur une adresse d'AntPool, ce qui reviendrait à dire qu'AntPool contrôle le hashrate de toutes ces pools, soit environ 47 % du hashrate global de Bitcoin. Cela est une très mauvaise nouvelle pour la décentralisation du réseau.**
+
 ### Frais de Pool
 
 Les frais de Braiins Pool sont de 2,5 %, cependant si vous utiliser BraiinsOS sur vos machines les frais seront de 0%

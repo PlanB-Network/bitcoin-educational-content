@@ -76,7 +76,7 @@ Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée
         | Les échanges P2P via une plateforme de mise en relation
         | Les plateformes régulées sans KYC
         | Les ATM
-        | Les cartes cadeaux
+        | Les cartes-cadeaux
 
 Partie 5 - Comprendre les transactions coinjoin
     Chapitre 1 - C'est quoi une transaction coinjoin ?

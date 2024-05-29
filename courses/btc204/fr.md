@@ -1092,7 +1092,7 @@ Après avoir lu le chapitre précédent, vous vous interrogez peut-être sur les
 
 ### Les échanges P2P en cash
 
-Comme nous l'avons vu, la meilleure méthode en terme de confidentialité demeure l'échange P2P (de personne à personne) avec un règlement en cash. Cette méthode vous permet de minimiser les traces laissées et réduit considérablement la possibilité d'identification des clés, que vous soyez acheteur ou vendeur.
+Comme nous l'avons vu, la meilleure méthode en termes de confidentialité demeure l'échange P2P (de personne à personne) avec un règlement en cash. Cette méthode vous permet de minimiser les traces laissées et réduit considérablement la possibilité d'identification des clés, que vous soyez acheteur ou vendeur.
 
 ![BTC204](assets/notext/46/01.webp)
 
@@ -1169,17 +1169,17 @@ Une autre option pour acheter ou vendre des bitcoins sans KYC sont les guichets 
 
 ![BTC204](assets/notext/46/09.webp)
 
-Le problème des ATM, c'est qu'ils sont interdits dans certains pays, ou bien très réglementés dans d'autres. Si un ATM exige une procédure de vérification d'identité, il est alors exposé aux mêmes risques que ceux inhérents aux plateformes régulées KYC. Par contre, si l'ATM permet des transactions sans vérification d'identité pour des petits montants, alors son utilisation peut offrir un niveau de confidentialité comparable à celui d'un échange P2P en espèces, tout en évitant la majorité des risques associés à ce type d'échange.
+Le problème des ATM, c'est qu'ils sont interdits dans certains pays, ou bien très réglementés dans d'autres. Si une ATM exige une procédure de vérification d'identité, il est alors exposé aux mêmes risques que ceux inhérents aux plateformes régulées KYC. Par contre, si l'ATM permet des transactions sans vérification d'identité pour de petits montants, alors son utilisation peut offrir un niveau de confidentialité comparable à celui d'un échange P2P en espèces, tout en évitant la majorité des risques associés à ce type d'échange.
 
 Le principal inconvénient des ATM réside dans leurs frais d'échange souvent élevés, qui vont de quelques pourcents jusqu'à parfois 15 % du montant échangé.
 
-### Les cartes cadeaux
+### Les cartes-cadeaux
 
 Enfin, je souhaitais également vous présenter une solution qui fonctionne bien pour ceux qui souhaitent utiliser leurs bitcoins au quotidien pour faire des achats plutôt que de les vendre contre des monnaies fiat. 
 
-La meilleur façon de dépenser des BTC est évidemment d'utiliser directement Bitcoin ou le Lightning Network pour faire l'achat d'un bien ou d'un service. Néanmoins, dans de nombreux pays, le nombre de commerçants acceptant Bitcoin reste limité. Une alternative pratique est alors l'utilisation de cartes cadeaux.
+La meilleure façon de dépenser des BTC est évidemment d'utiliser directement Bitcoin ou le Lightning Network pour faire l'achat d'un bien ou d'un service. Néanmoins, dans de nombreux pays, le nombre de commerçants acceptant bitcoin reste limité. Une alternative pratique est alors l'utilisation de cartes-cadeaux.
 
-Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibilité d'échanger des bitcoins contre des cartes cadeaux utilisables dans de grandes enseignes. Parmi ces plateformes, on trouve [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) et [Bitrefill](https://www.bitrefill.com/). Ces plateformes facilitent grandement l'usage quotidien de vos bitcoins en vous permettant d'accéder à une large gamme de produits et de services sans avoir à passer par une conversion en monnaie fiat.
+Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibilité d'échanger des bitcoins contre des cartes-cadeaux utilisables dans de grandes enseignes. Parmi ces plateformes, on trouve [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) et [Bitrefill](https://www.bitrefill.com/). Ces plateformes facilitent grandement l'usage quotidien de vos bitcoins en vous permettant d'accéder à une large gamme de produits et de services sans avoir à passer par une conversion en monnaie fiat.
 
 ![BTC204](assets/notext/46/10.webp)
 

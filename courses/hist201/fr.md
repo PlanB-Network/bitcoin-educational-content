@@ -645,7 +645,7 @@ Satoshi Nakamoto est aussi actif sur la liste de diffusion où il échange notam
 
 Satoshi cherche à s'adapter à son public et à pousser les gens à s'intéresser à sa découverte.
 
-### Les outils de présentation (avr. 2009 -- nov. 2009)
+### Mike Hearn
 
 La stratégie de communication de Satoshi prote peu à peu ses fruits. Au mois d'avril 2009, d'autres personnes commencent à s'intéresser à son invention. Le 12, Mike Hearn, un développeur britannique travaillant pour Google et s'adonnant au logiciel libre sur son temps libre, lui envoie un [courriel](https://plan99.net/~mike/satoshi-emails/thread1.html) posant une série de questions à propos de Bitcoin, en précisant qu'« il est rare de rencontrer des idées vraiment révolutionnaires ». Hearn s'intéresse alors aux systèmes de paiement numériques, et notamment à Ripple, qu'il ne manque pas de mentionner.
 
@@ -657,7 +657,9 @@ En particulier, Mike Hearn demande à Satoshi pourquoi il a choisi la quantité 
 >
 > *original: "My choice for the number of coins and distribution schedule was an educated guess. &nbsp;It was a difficult choice, because once the network is going it's locked in and we're stuck with it. &nbsp;I wanted to pick something that would make prices similar to existing currencies, but without knowing the future, that's very hard. &nbsp;I ended up picking something in the middle. &nbsp;If Bitcoin remains a small niche, it'll be worth less per unit than existing currencies. &nbsp;If you imagine it being used for some fraction of world commerce, then there's only going to be 21 million coins for the whole world, so it would be worth much more per unit. &nbsp;Values are 64-bit integers with 8 decimal places, so 1 coin is represented internally as 100000000. &nbsp;There's plenty of granularity if typical prices become small. &nbsp;For example, if 0.001 is worth 1 Euro, then it might be easier to change where the decimal point is displayed, so if you had 1 Bitcoin it's now displayed as 1000, and 0.001 is displayed as 1."*
 
-Après avoir discuté, Satoshi lui envoie quelques bitcoins...
+Après leurs discussions, ils effectuent quelques échanges monétaires. Le 18 avril, Mike Hearn envoie ainsi 32,51 bitcoins à Satoshi, que ce dernier lui renvoie dans la journée. Il s'envoient également mutuellement 50 bitcoins issus de leur production personnelle. <!--TODO-->
+
+### Martti Malmi et la présentation de Bitcoin (avr. 2009 -- juin 2009)
 
 La communication de Satoshi ne laisse pas non plus indifférent un jeune étudiant en informatique finlandais du nom de Martti Malmi. Ce dernier découvre Bitcoin début avril, par l'intermédiaire du texte sur le forum de la Fondation P2P. Le 9, il se met à utiliser le logiciel et mine son premier bloc (le bloc 10 351). Dans la soirée, il rédige une courte présentation de Bitcoin où il soutient l'hypothèse anarchiste que « la monnaie pair à pair pourrait faire disparaître l'État ». (*original: "P2P Currency could make the government extinct?"*). Il publie son texte sous le pseudonyme Trickster(n) sur deux forums libertariens de sensibilités différentes : anti-state.com (ASC) et le forum de Freedomain Radio (le média de l'anarcho-capitaliste Stefan Molyneux). Il écrit :
 
@@ -671,19 +673,46 @@ Martti Malmi en 2013 (source : [Business Insider](https://www.businessinsider.c
 
 Il envoie ensuite un [courriel](https://mmalmi.github.io/satoshi/#email-1) un Satoshi précisant qu'il est l'auteur de ce texte, où il écrit qu'il « aimerait aider avec Bitcoin » même s'il n'a « pas encore beaucoup d'expérience en matière de développement ». (*original: "I'm Trickstern from the anti-state.com forum, and I would like to help with Bitcoin, if there's something I can do. I have a good touch on Java and C languages from school courses (I'm studying CS), but not so very much development experience yet."*) Satoshi Nakamoto lui répond le 2 mai, en lui disant que sa « compréhension de Bitcoin » est « en plein dans le mille ». (*original: "Thanks for starting that topic on ASC, your understanding of bitcoin is spot on."*)
 
-Satoshi le met à contribution pour remplir la page web sur SourceForge (bitcoin.sourceforge.net), la plateforme où est hébergé le code du logiciel, notamment en écrivant une foire aux questions (FAQ).
+Satoshi le met à contribution pour remplir la page web sur SourceForge ([bitcoin.sourceforge.net](https://web.archive.org/web/20090511173000/http://bitcoin.sourceforge.net/)), la plateforme où est hébergé le code du logiciel, notamment en écrivant une [foire aux questions](https://mmalmi.github.io/satoshi/#email-4) (FAQ). Sur la page de garde, il présente Bitcoin comme une « monnaie numérique anonyme basée sur un réseau pair à pair » ne reposant sur « aucune autorité centrale pour émettre du nouvel argent ou pour surveiller les transactions ». Il met en avant les avantages suivants :
 
-page SourceForge, FAQ, forum, wiki
+- « Transférez de l'argent facilement via Internet, sans avoir à faire confiance à des tiers. » (*original: "Transfer money easily through the internet, without having to trust third parties."*)
+- « Aucun tiers ne peut empêcher ou contrôler vos transactions. » (*original: "Third parties can't prevent or control your transactions."*)
+- « Soyez à l'abri de l'instabilité causée par l'activité bancaire à réserves fractionnaires bancaire et par les mauvaises politiques des banques centrales. L'inflation limitée de la masse monétaire du système Bitcoin est répartie uniformément (par puissance de calcul) sur tout le réseau, et pas monopolisée par les banques. » (*original: "Be safe from the unstability caused by fractional reserve banking and the bad policies of the central banks. The limited inflation of the Bitcoin system's money supply is distributed evenly (by CPU power) throughout the network, not monopolized to the banks."*)
+- « La valeur du Bitcoin est susceptible d'augmenter à mesure que la croissance de l'économie de Bitcoin dépasse le taux d'inflation – considérez le Bitcoin comme un investissement et commencez à faire tourner un nœud aujourd'hui ! » (*original: "Bitcoin's value is likely to increase as the growth of the Bitcoin economy exceeds the inflation rate - consider Bitcoin an investment and start running a node today!"*)
 
-### Le développement initial du logiciel (avr. 2009 -- déc. 2009)
+Satoshi [approuve](https://mmalmi.github.io/satoshi/#email-5) globalement cette présentation même s'il émet quelques réserves. Il [est](https://mmalmi.github.io/satoshi/#email-19) en particulier « mal à l'aise » avec le fait de déclarer que le bitcoin est un « investissement », redoutant probablement les répercussions légales à ce sujet. Cette description modifiée de Martti Malmi [se retrouvera](https://web.archive.org/web/20100106082749/http://www.bitcoin.org/) sur le site web principal à la fin de l'année 2009.
+
+Le printemps 2009 est également marqué par l'apparition du mot « cryptomonnaie » (« *cryptocurrency* » en anglais) qui est intialement utilisé pour se référer à Bitcoin. Le 11, Satoshi [écrit](https://mmalmi.github.io/satoshi/#email-19) ainsi à Martti Malmi :
+
+> « Quelqu'un a proposé le mot "cryptomonnaie"... c'est peut-être un mot que nous devrions utiliser pour décrire Bitcoin, ça te plaît ? »
+
+Le jeune Finlandais approuve et avance que « *The P2P Cryptocurrency* » (« La cryptomonnaie pair à pair ») pourrait être le slogan de Bitcoin. Cette suggestion sera mise à exécution : le titre de la page de présentation deviendra « *Bitcoin P2P Cryptocurrency* » et l'annonce de la version 0.3 en juillet 2010 décrira le projet comme « *Bitcoin, the P2P cryptocurrency* ».
+
+### Les deux forums de Bitcoin (juin 2009 -- nov. 2009)
+
+Martti Malmi met aussi en place un forum et un wiki, toujours sur la page SourceForge. Ces éléments sont [ouverts](https://mmalmi.github.io/satoshi/#email-17) le 9 juin. Le 13, Malmi [annonce](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=200906) l'existence de la page SourceForge, du forum et du wiki sur la liste de diffusion de Bitcoin :
+
+> « Le nouveau site/portail de Bitcoin est disponible à l'adresse bitcoin.sourceforge.net. Des forums et un wiki sont intégrés, vous êtes donc invités à participer aux discussions et à la documentation sur le wiki. »
+>
+> original: "The new Bitcoin website/portal is up at bitcoin.sourceforge.net. Forums and a wiki are included, so you're welcome to join discussion and wiki documentation."
+
+Nous n'en avons pas de trace de ce premier forum, mis à part les quelques messages transférés par Satoshi sur son successeur.
+
+Le deuxième forum est ouvert en novembre 2009 à l'adresse bitcoin.org/smf.
+
+### Le développement initial du logiciel (janv. 2009 -- déc. 2009)
+
+Un dernier élément important de l'année 2009 est l'évolution du logiciel.
 
 Martti Malmi, Linux, v0.2
+
+
+
+## L'amorçage (oct. 2009 -- mai 2010)
 
 ### Les premiers mineurs de bitcoins (2009)
 
 Dustin Trammell, James Howells, Martti Malmi, NewLibertyStandard
-
-## L'amorçage (oct. 2009 -- mai 2010)
 
 ### Le premier service de change et le premier prix (oct. 2009)
 

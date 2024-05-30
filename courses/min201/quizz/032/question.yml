@@ -1,9 +1,8 @@
-part: 2
-chapter: 4
+chapterId: 879a66b0-c20a-56b5-aad0-8a21be61e338
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Miners
-  - Rewards
+- Bitcoin
+- Miners
+- Rewards

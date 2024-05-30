@@ -1,9 +1,8 @@
-part: 3
-chapter: 4
+chapterId: e0a022ab-207c-571f-b4ad-c432214a756c
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Cold Wallet
-  - Security
+- Bitcoin
+- Cold Wallet
+- Security

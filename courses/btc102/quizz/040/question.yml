@@ -1,8 +1,7 @@
-part: 2
-chapter: 2
+chapterId: d4327ac4-9ff8-5192-b542-cb78c0bd0aa7
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Bank accounts
+- Bitcoin
+- Bank accounts

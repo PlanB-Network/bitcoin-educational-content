@@ -1,9 +1,8 @@
-part: 2
-chapter: 1
+chapterId: 36a82de7-87ee-5e7a-b69e-48fc30030447
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Mining
-  - Strategy
+- Bitcoin
+- Mining
+- Strategy

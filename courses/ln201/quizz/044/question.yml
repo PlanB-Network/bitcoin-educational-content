@@ -1,9 +1,8 @@
-part: 2
-chapter: 4
+chapterId: 29a72223-2249-5400-96f0-3756b1629bc2
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Lightning Network
-  - Channel Closure
+- Bitcoin
+- Lightning Network
+- Channel Closure

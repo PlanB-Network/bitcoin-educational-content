@@ -1,10 +1,9 @@
-part: 4
-chapter: 1
+chapterId: 9d9acd5d-a0e5-5dfd-b544-f043fae8840f
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Wallets
-  - BIP43
-  - BIP44
+- Bitcoin
+- Wallets
+- BIP43
+- BIP44

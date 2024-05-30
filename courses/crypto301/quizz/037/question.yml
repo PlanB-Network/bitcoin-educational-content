@@ -1,10 +1,9 @@
-part: 3
-chapter: 2
+chapterId: fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - ECDSA
-  - Public key
-  - Private key
+- Bitcoin
+- ECDSA
+- Public key
+- Private key

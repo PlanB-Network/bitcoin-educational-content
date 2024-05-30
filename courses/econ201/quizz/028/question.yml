@@ -1,9 +1,8 @@
-part: 2
-chapter: 3
+chapterId: 37732a5c-4f66-5e2d-bc2c-cc8d29693af7
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Economics
-  - Time Preference
-  - Interest Rates
+- Economics
+- Time Preference
+- Interest Rates

@@ -1,9 +1,8 @@
-part: 2
-chapter: 6
+chapterId: 9d9a5908-2acc-501e-906b-a6fce9ecfebd
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Mining
-  - Investment
+- Bitcoin
+- Mining
+- Investment

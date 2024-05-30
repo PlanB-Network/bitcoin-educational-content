@@ -1,9 +1,8 @@
-part: 2
-chapter: 2
+chapterId: 7d3fd135-129d-5c5a-b306-d5f2f1e63340
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Lightning Network
-  - Transaction
+- Bitcoin
+- Lightning Network
+- Transaction

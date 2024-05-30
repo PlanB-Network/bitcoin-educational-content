@@ -1,9 +1,8 @@
-part: 2
-chapter: 1
+chapterId: b2cbc915-c4ec-52b5-860c-0958f58c91e4
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Inflation
-  - Economics
+- Bitcoin
+- Inflation
+- Economics

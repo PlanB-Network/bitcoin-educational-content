@@ -1,9 +1,8 @@
-part: 3
-chapter: 1
+chapterId: c9dd9672-6da1-57f8-9871-8b28994d4c1a
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Cryptocurrency
-  - Satoshi
+- Bitcoin
+- Cryptocurrency
+- Satoshi

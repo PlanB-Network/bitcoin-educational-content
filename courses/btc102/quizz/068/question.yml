@@ -1,9 +1,8 @@
-part: 3
-chapter: 2
+chapterId: baf1adc2-3828-5265-8ee5-130be547585c
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Hodler
-  - Purchase Plan
+- Bitcoin
+- Hodler
+- Purchase Plan

@@ -1,8 +1,7 @@
-part: 5
-chapter: 4
+chapterId: b7275d31-3b60-5fb7-b9f5-030097010553
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Adoption
+- Bitcoin
+- Adoption

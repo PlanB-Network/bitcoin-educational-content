@@ -1,9 +1,8 @@
-part: 6
-chapter: 2
+chapterId: 6dee7bf3-7767-5f8d-a01b-659b95cfe0a5
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - HRP
-  - Checksum
+- Bitcoin
+- HRP
+- Checksum

@@ -1,9 +1,8 @@
-part: 3
-chapter: 5
+chapterId: 5c624acd-662e-5134-ab7a-fb75cde7c3f8
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Privacy
-  - Platforms
+- Bitcoin
+- Privacy
+- Platforms

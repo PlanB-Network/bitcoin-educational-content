@@ -1,9 +1,8 @@
-part: 2
-chapter: 1
+chapterId: dba011f5-1805-5a48-ac2b-4bd637c93703
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Cryptography
-  - Hash Functions
+- Bitcoin
+- Cryptography
+- Hash Functions

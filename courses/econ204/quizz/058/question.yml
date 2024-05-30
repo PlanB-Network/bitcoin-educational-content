@@ -1,9 +1,8 @@
-part: 4
-chapter: 1
+chapterId: 0455ffe3-9d45-5a67-ac96-3f815dc507a1
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Monetary History
-  - Antwerp Stock Exchange
+- Bitcoin
+- Monetary History
+- Antwerp Stock Exchange

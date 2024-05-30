@@ -1,8 +1,7 @@
-part: 2
-chapter: 2
+chapterId: 25151d46-7db1-5b48-8bba-cbde1944555a
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Monetary Policy
-  - Fiat Currencies
+- Monetary Policy
+- Fiat Currencies

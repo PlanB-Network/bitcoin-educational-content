@@ -1,9 +1,8 @@
-part: 1
-chapter: 2
+chapterId: aad2dccb-0d2c-5533-859b-372b0f10d1ca
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - P2P solutions
-  - Bisq
+- Bitcoin
+- P2P solutions
+- Bisq

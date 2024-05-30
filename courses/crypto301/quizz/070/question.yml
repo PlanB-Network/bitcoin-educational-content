@@ -1,9 +1,8 @@
-part: 4
-chapter: 3
+chapterId: 8f9340c1-e6dc-5557-a2f2-26c9669987d5
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Wallet security
-  - Mnemonic phrase
+- Bitcoin
+- Wallet security
+- Mnemonic phrase

@@ -1,9 +1,8 @@
-part: 3
-chapter: 2
+chapterId: 4369b85a-1365-55d8-99e1-509088210116
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Lightning Network
-  - HTLC
+- Bitcoin
+- Lightning Network
+- HTLC

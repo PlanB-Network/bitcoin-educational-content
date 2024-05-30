@@ -1,8 +1,7 @@
-part: 4
-chapter: 1
+chapterId: b7561082-8943-519d-95d1-a5f60dd2686d
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin Origins
-  - Software
+- Bitcoin Origins
+- Software

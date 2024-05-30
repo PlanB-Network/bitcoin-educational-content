@@ -1,9 +1,8 @@
-part: 1
-chapter: 1
+chapterId: 13d18e82-0c50-5a7f-97d8-39cf5b4ef085
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - KYC
-  - Regulation
-  - Bitcoin
+- KYC
+- Regulation
+- Bitcoin

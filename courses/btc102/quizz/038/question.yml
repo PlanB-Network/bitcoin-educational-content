@@ -1,8 +1,7 @@
-part: 2
-chapter: 2
+chapterId: d4327ac4-9ff8-5192-b542-cb78c0bd0aa7
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Financial system
+- Bitcoin
+- Financial system

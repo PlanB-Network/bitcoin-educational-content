@@ -1,9 +1,8 @@
-part: 3
-chapter: 3
+chapterId: 7e2ae959-c2a1-512e-b5d6-8fd962e819da
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Lightning Network
-  - Randomness Factor
+- Bitcoin
+- Lightning Network
+- Randomness Factor

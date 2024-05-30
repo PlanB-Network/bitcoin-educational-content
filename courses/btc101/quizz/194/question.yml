@@ -1,8 +1,7 @@
-part: 5
-chapter: 2
+chapterId: be2d83be-406f-582c-83ca-6aa905ff7b04
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - BTCpay Server
+- Bitcoin
+- BTCpay Server

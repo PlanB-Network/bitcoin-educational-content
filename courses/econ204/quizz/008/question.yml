@@ -1,9 +1,8 @@
-part: 2
-chapter: 2
+chapterId: b438fe09-375e-5bb2-9196-7dd687b9f98c
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Inflation
-  - Deflation
-  - Money Supply
+- Inflation
+- Deflation
+- Money Supply

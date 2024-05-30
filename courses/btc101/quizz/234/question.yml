@@ -1,9 +1,8 @@
-part: 6
-chapter: 2
+chapterId: 684e31f9-ebd1-51b6-91c0-1e6a315f1141
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Lightning Network
-  - Bitcoin
-  - Applications
+- Lightning Network
+- Bitcoin
+- Applications

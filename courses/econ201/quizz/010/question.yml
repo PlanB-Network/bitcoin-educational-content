@@ -1,9 +1,8 @@
-part: 1
-chapter: 2
+chapterId: 29faebd9-9326-52de-8161-e4bb33033cd6
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Banking
-  - Monetary Policy
-  - Fractional Reserve Banking
+- Banking
+- Monetary Policy
+- Fractional Reserve Banking

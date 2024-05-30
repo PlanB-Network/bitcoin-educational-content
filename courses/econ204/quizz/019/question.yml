@@ -1,9 +1,8 @@
-part: 3
-chapter: 1
+chapterId: d2a71a2e-5f36-58d9-993c-d431f4aa07fd
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Hyperinflation
-  - Monetary Dynamics
-  - Inflation
+- Hyperinflation
+- Monetary Dynamics
+- Inflation

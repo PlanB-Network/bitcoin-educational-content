@@ -1,9 +1,8 @@
-part: 3
-chapter: 4
+chapterId: 918eafd7-409d-5205-ad52-a52e63b23a64
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Venezuela
-  - Digital bolivar
+- Bitcoin
+- Venezuela
+- Digital bolivar

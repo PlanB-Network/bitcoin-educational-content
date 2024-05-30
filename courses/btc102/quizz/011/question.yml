@@ -1,8 +1,7 @@
-part: 1
-chapter: 3
+chapterId: f0873bf2-6a6f-5485-bb7a-d84be14f404d
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - VPN
-  - Online privacy
+- VPN
+- Online privacy

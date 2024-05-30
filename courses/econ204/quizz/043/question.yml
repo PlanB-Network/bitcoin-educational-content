@@ -1,9 +1,8 @@
-part: 3
-chapter: 4
+chapterId: 918eafd7-409d-5205-ad52-a52e63b23a64
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Brazil
-  - Redenomination
+- Bitcoin
+- Brazil
+- Redenomination

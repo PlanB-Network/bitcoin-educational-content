@@ -1,9 +1,8 @@
-part: 1
-chapter: 2
+chapterId: 0cfb7e6b-96f0-508b-9210-90bc1e28649d
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Lightning Network
-  - Multi-signature
+- Bitcoin
+- Lightning Network
+- Multi-signature

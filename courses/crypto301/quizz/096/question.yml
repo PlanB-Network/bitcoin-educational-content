@@ -1,9 +1,8 @@
-part: 5
-chapter: 2
+chapterId: 8dcffce1-31bd-5e0b-965b-735f5f9e4602
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Cryptography
-  - Extended Keys
+- Bitcoin
+- Cryptography
+- Extended Keys

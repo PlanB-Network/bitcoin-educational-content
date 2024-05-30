@@ -1,9 +1,8 @@
-part: 4
-chapter: 4
+chapterId: dbb8264a-7434-57e4-9d1b-fbd1bae37fdf
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Proof of Work
-  - Consensus Algorithm
+- Bitcoin
+- Proof of Work
+- Consensus Algorithm

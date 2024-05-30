@@ -1,9 +1,8 @@
-part: 3
-chapter: 5
+chapterId: e3484a31-a851-5f92-8af5-00eddae67db1
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Germany
-  - Inflation
-  - Rentenmark
+- Germany
+- Inflation
+- Rentenmark

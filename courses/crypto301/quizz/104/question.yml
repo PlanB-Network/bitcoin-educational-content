@@ -1,9 +1,8 @@
-part: 5
-chapter: 3
+chapterId: 61c0807c-845b-5076-ad06-7f395b36adfd
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - HD Wallet
-  - Extended Private Key
+- Bitcoin
+- HD Wallet
+- Extended Private Key

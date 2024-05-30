@@ -1,8 +1,7 @@
-part: 3
-chapter: 4
+chapterId: f58cd446-c202-5eff-aab7-e61cc40e5c06
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin Basis
-  - Bitcoin Wallet
+- Bitcoin Basis
+- Bitcoin Wallet

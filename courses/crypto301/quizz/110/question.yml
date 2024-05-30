@@ -1,9 +1,8 @@
-part: 5
-chapter: 4
+chapterId: 34e1bbda-67de-5493-b268-1fded8d67689
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - HD Wallet
-  - Depth
+- Bitcoin
+- HD Wallet
+- Depth

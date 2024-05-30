@@ -1,9 +1,8 @@
-part: 5
-chapter: 1
+chapterId: d5e35e41-ea26-5478-8eb9-07daf9dff508
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Cryptocurrency
-  - Traditional Market
+- Bitcoin
+- Cryptocurrency
+- Traditional Market

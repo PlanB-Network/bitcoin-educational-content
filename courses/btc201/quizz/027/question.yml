@@ -1,8 +1,7 @@
-part: 5
-chapter: 5
+chapterId: 3b23b0ae-41a7-53b0-bc48-7343a64f28bc
 difficulty: easy
 duration: 30
 author: LookingGlass
 tags:
-  - Bitcoin Adoption
-  - Misconception
+- Bitcoin Adoption
+- Misconception

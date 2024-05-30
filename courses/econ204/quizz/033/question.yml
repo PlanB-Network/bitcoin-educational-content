@@ -1,9 +1,8 @@
-part: 3
-chapter: 3
+chapterId: 643f279c-d89f-5600-a2e2-b1bbbba0ab69
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Hyperinflation
-  - Weimar Republic
+- Bitcoin
+- Hyperinflation
+- Weimar Republic

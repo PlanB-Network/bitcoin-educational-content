@@ -1,9 +1,8 @@
-part: 2
-chapter: 3
+chapterId: 7b9ee427-316a-54e3-a2d4-4ea97839a31b
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Mining
-  - Lightning Network
+- Bitcoin
+- Mining
+- Lightning Network

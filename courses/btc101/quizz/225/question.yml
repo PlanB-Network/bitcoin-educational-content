@@ -1,8 +1,7 @@
-part: 6
-chapter: 1
+chapterId: b403f1e4-f1ff-572b-a242-9b58cb3736d0
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Lightning Network
-  - Bitcoin
+- Lightning Network
+- Bitcoin

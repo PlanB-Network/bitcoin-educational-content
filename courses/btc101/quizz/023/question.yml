@@ -1,9 +1,8 @@
-part: 2
-chapter: 1
+chapterId: c838e64d-d59f-5703-8c74-ea5e8c4fdd31
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Money History
-  - Communication
-  - Technology
+- Money History
+- Communication
+- Technology

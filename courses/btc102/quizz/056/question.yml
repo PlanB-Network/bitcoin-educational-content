@@ -1,9 +1,8 @@
-part: 2
-chapter: 4
+chapterId: 03017765-53cf-5f14-9682-e99ca02d2241
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Cryptocurrency
-  - Future vision
+- Bitcoin
+- Cryptocurrency
+- Future vision

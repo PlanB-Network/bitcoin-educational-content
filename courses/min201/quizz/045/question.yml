@@ -1,9 +1,8 @@
-part: 2
-chapter: 6
+chapterId: 9d9a5908-2acc-501e-906b-a6fce9ecfebd
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Mining
-  - Equipment
+- Bitcoin
+- Mining
+- Equipment

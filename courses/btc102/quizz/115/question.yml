@@ -1,8 +1,7 @@
-part: 5
-chapter: 1
+chapterId: 5f4cfab9-9af1-584b-a1fe-a0769a991f19
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Password Manager
+- Bitcoin
+- Password Manager

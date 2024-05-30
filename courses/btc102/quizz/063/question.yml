@@ -1,8 +1,7 @@
-part: 3
-chapter: 1
+chapterId: c5d87903-a5f2-5eec-887a-f662734ce49b
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - Wallet security
+- Bitcoin
+- Wallet security

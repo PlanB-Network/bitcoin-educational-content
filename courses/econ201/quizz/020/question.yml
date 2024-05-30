@@ -1,9 +1,8 @@
-part: 2
-chapter: 1
+chapterId: eb1608d4-5d36-56a0-bcfc-ed8c03dfa906
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
 tags:
-  - Austrian Economics
-  - Specialization
-  - Exchange
+- Austrian Economics
+- Specialization
+- Exchange

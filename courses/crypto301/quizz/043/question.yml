@@ -1,9 +1,8 @@
-part: 3
-chapter: 3
+chapterId: bb07826f-826e-5905-b307-3d82001fb778
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
 tags:
-  - Bitcoin
-  - secp256k1
-  - Elliptic Curve
+- Bitcoin
+- secp256k1
+- Elliptic Curve

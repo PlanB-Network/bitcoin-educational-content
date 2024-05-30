@@ -19,7 +19,7 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 - [GitHub Desktop](https://desktop.github.com/)
 - [Obsidian](https://obsidian.md/)
 - Un éditeur de code ([VSC](https://code.visualstudio.com/) ou [Sublime Text](https://www.sublimetext.com/))
-
+![tutorial](assets/1.webp)
 **Prérequis avant de commencer le tutoriel :**
 - Créez un [compte GitHub](https://github.com/signup).
 - Faites un fork du [dépôt source de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
@@ -40,7 +40,7 @@ Nous recherchons en priorité des tutoriels sur des outils liés à Bitcoin ou �
 - Marchand ;
 - Échange ;
 - Confidentialité.
-
+![tutorial](assets/2.webp)
 Au-delà de ces sujets spécifiquement liés à Bitcoin, PlanB cherche également des contributions sur des thèmes qui mettent en avant la souveraineté individuelle, tels que :
 - Les outils open sources ;
 - L'informatique ;

@@ -540,7 +540,11 @@ Ce que nous pouvons retenir de ce récit de la conception de Bitcoin est que cet
 
 ## Présenter Bitcoin au monde (janv. 2009 -- oct. 2009)
 
-La communication de Satoshi. Présenter Bitcoin pour attirer de nouveaux utilisateurs.
+Dans les chapitres précédents, nous avons étudié les origines techniques de Bitcoin et son lancement par Satoshi Nakamoto. Dans ce chapitre, nous allons nous intéresser à la communication de Satoshi Nakamoto à ce sujet.
+
+En effet, au début de l'année 2009, le réseau était lancé, mais les mineurs étaient peu nombreux (Satoshi validait la majorité des blocs) et l'activité pour ainsi dire inexistante (seules 219 transactions effectives ont été effectuées en 2009). Bitcoin ne disposait que d'un site web rudimentaire, d'une page SourceForge où télécharger le logiciel. Enfin, il n'avait été présenté que sur une obscure liste de diffusion.
+
+Pour Satoshi, la priorité était donc d'en faire la promotion : améliorer le site web, créer des interactions et faire connaître sa découverte au monde. L'année 2009 est ainsi marquée par l'apparition de codes culturels et d'éléments de langage qui se retrouveront dans la communauté de Bitcoin par la suite.
 
 ### Le bloc de genèse (3--8 janv. 2009)
 
@@ -557,11 +561,11 @@ Ce message est le titre de la une du quotidien britannique *The Times* de ce jou
 - D'une part, elle empêche l'antidatage du lancement du réseau en prouvant que le système n'a pas été démarré avant le 3 janvier, car Satoshi ne pouvait pas connaître cette une avant cette date ;
 - D'autre part, elle indique symboliquement ce à quoi Bitcoin s'oppose en faisant référence au contexte monétaire et financier de l'époque.
 
-**extrait** À l'époque, le monde subit en effet de plein fouet les effets de la crise financière amorcée en 2007 par le dégonflement de la bulle des subprimes aux États-Unis. Les États renflouent les banques pour éviter de nouvelles faillites bancaires après la chute de Lehman Brothers survenue le 15 septembre 2008, et les banques centrales procèdent à des assouplissements quantitatifs en injectant des liquidités sur les marchés financiers. Cette utilisation d'argent public créé pour l'occasion, a pour effet de choquer profondément un certain nombre de citoyens qui réalisent que le système bancaire est en fait un système de profits privés et de pertes socialisées.
+**extrait** À l'époque, le monde subit en effet de plein fouet les effets de la crise financière amorcée en 2007 par le dégonflement de la bulle des subprimes aux États-Unis. Les États renflouent les institutions financières pour éviter de nouvelles faillites après la chute de la banque d'investissement Lehman Brothers survenue le 15 septembre 2008, et les banques centrales procèdent à des assouplissements quantitatifs en injectant des liquidités sur les marchés financiers. Cette utilisation d'argent public créé pour l'occasion, a pour effet de bouleverser un certain nombre de citoyens qui réalisent que le système bancaire est en réalité un système de profits privés et de pertes socialisées.
 
 ![The Times : Chancellor on brink of second bailout for banks](assets/img/ch5/1.webp)
 
-**extrait** De par son absence de tiers de confiance, Bitcoin n'est, lui, pas soumis à l'arbitraire d'une banque centrale. Il contraste ainsi avec les monnaies étatiques, telles que le dollar ou l'euro, dont la quantité peut être modifiée arbitrairement par ceux qui contrôlent la création monétaire. La politique monétaire du bitcoin est quant à elle programmée à l'avance, inscrite dans le protocole, pour en théorie ne jamais être altérée.
+Bitcoin, quant à lui, ne repose pas sur un tiers de confiance, et n'est par conséquent pas soumis à l'arbitraire d'une banque centrale. Il contraste ainsi avec les monnaies étatiques, telles que le dollar ou l'euro, dont la quantité peut être modifiée arbitrairement par ceux qui contrôlent la création monétaire ; la politique monétaire du bitcoin est en effet programmée à l'avance, inscrite dans le protocole, pour en théorie ne jamais être altérée.
 
 ### La limite des 21 millions (8--16 janvier 2009)
 
@@ -577,7 +581,7 @@ Cela nous amène au second élément présenté par Satoshi le jour du lancement
 >
 > Lorsque cela sera épuisé, le système pourra prendre en charge les frais de transaction si nécessaire. »
 >
-> original: "Total circulation will be 21,000,000 coins. &nbsp;It'll be distributed to network nodes when they make blocks, with the amount cut in half every 4 years.
+> *original: "Total circulation will be 21,000,000 coins. &nbsp;It'll be distributed to network nodes when they make blocks, with the amount cut in half every 4 years.
 >
 > first 4 years: 10,500,000 coins<br>
 > next 4 years: 5,250,000 coins<br>
@@ -585,11 +589,11 @@ Cela nous amène au second élément présenté par Satoshi le jour du lancement
 > next 4 years: 1,312,500 coins<br>
 > etc...
 >
-> When that runs out, the system can support transaction fees if needed. &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."
+> When that runs out, the system can support transaction fees if needed. &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."*
 
 Quelques jours plus tard, Hal Finney [réagit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) à cette politique monétaire sur la liste en s'enthousiasmant du fait que « le système peut être configuré pour n'autoriser qu'un nombre maximum certain de pièces à être générées ». Dans son courriel, il estime que si Bitcoin devient « le système de paiement dominant utilisé dans le monde entier » (*original: "the dominant payment system in use throughout the world"*), chaque unité aura alors « une valeur d'environ 10 millions » de dollars. (*original: "a value of about $10 million"*) Il conclue en écrivant que « la possibilité de produire des pièces aujourd'hui avec quelques centimes de temps de calcul » peut constituer « un très bon pari ». (*original: "the possibility of generating coins today with a few cents of compute time may be quite a good bet"*) Même si l'estimation est contestable (car elle se base sur une valorisation du bitcoin qui serait équivalente à la totalité de la richesse mondiale), le raisonnement se tient. C'est notamment cet élément qui pousse Dustin Trammell à lancer un nœud très rapidement, comme il le confie à Satoshi dans leur correspondance privée.
 
-**extrait** Le 16 janvier, Satoshi reprend cet idée d'« investissement à long terme » dans un courriel qu'il partage à la liste de diffusion, où il décrit les cas d'utilisation potentiels et où il [déclare](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) qu'il « pourrait être judicieux d'en avoir au cas où cela prendrait » et que « si suffisamment de gens pensent la même chose, cela deviendra une prophétie autoréalisatrice ». (*original: "It might make sense just to get some in case it catches on. &nbsp;If enough people think the same way, that becomes a self fulfilling prophecy."*) Il [réitérera](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) cette affirmation un mois plus tard en expliquant que le montant limité d'unités est susceptible de créer une « boucle de rétroaction positive » dans le sens où « plus les utilisateurs sont nombreux, plus la valeur augmente, ce qui pourrait attirer davantage d'utilisateurs désireux de profiter de la valeur croissante ». De ce fait, l'élément spéculatif est présent dès la départ, dans le but d'amorcer le système.
+Le 16 janvier, Satoshi reprend cet idée d'« investissement à long terme » dans un courriel qu'il partage à la liste de diffusion et où il décrit les cas d'utilisation potentiels. Il [déclare](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) alors qu'il « pourrait être judicieux d'en avoir au cas où cela prendrait » et que « si suffisamment de gens pensent la même chose, cela deviendra une prophétie autoréalisatrice ». (*original: "It might make sense just to get some in case it catches on. &nbsp;If enough people think the same way, that becomes a self fulfilling prophecy."*) Il [réitérera](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) cette affirmation un mois plus tard en expliquant que le montant limité d'unités est susceptible de créer une « boucle de rétroaction positive » dans le sens où « plus les utilisateurs sont nombreux, plus la valeur augmente, ce qui pourrait attirer davantage d'utilisateurs désireux de profiter de la valeur croissante ». De ce fait, l'élément spéculatif est présent dès la départ, dans le but d'amorcer le système.
 
 ### La réglementation, les réseaux de zombies et l'écologie (17--26 janvier 2009)
 
@@ -609,7 +613,7 @@ Un autre soutien provient du cypherpunk Zooko Wilcox-O'Hearn, qui travaille alor
 
 > « Ce que je veux, c'est une monnaie que tout le monde puisse utiliser de manière pratique et peu coûteuse, mais que **personne** n'ait le pouvoir de manipuler cette monnaie. &nbsp;Que personne n'ait le pouvoir de gonfler ou de dégonfler la masse monétaire ; que personne n'ait le pouvoir de surveiller, de taxer ou d'empêcher les transactions. &nbsp;Un véritable équivalent numérique de l'or, dans les périodes et les lieux où l'or était la monnaie universelle. »
 >
-> original: "What I want is a currency which everyone can cheaply and conveniently use but which **no-one** has the power to manipulate.  No-one has the power to inflate or deflate the currency supply, no-one has the power to monitor, tax, or prevent transactions.  Truly the digital equivalent of gold, during the times and places when gold was the universal currency."
+> *original: "What I want is a currency which everyone can cheaply and conveniently use but which **no-one** has the power to manipulate.  No-one has the power to inflate or deflate the currency supply, no-one has the power to monitor, tax, or prevent transactions.  Truly the digital equivalent of gold, during the times and places when gold was the universal currency."*
 
 Le lien vers ce texte finira par être [ajouté](https://web.archive.org/web/20090303195936/http://bitcoin.org/) sur le site Bitcoin.org, et Satoshi [remerciera](https://bitcointalk.org/index.php?topic=890.msg10723#msg10723) personnellement Zooko un an et demi plus tard.
 
@@ -619,7 +623,7 @@ La *Cryptography mailing list* n'est pas le seul endroit où Satoshi Nakamoto in
 
 > « Le problème fondamental de la monnaie conventionnelle est toute la confiance nécessaire pour la faire fonctionner. &nbsp;Il faut faire confiance à la banque centrale pour qu'elle ne déprécie pas la monnaie, mais l'histoire des monnaies fiat est pleine de violations de cette confiance. &nbsp;Il faut faire confiance aux banques pour détenir notre argent et le transférer par voie électronique, mais elles le prêtent par vagues de bulles de crédit avec à peine une fraction en réserve. &nbsp;Nous devons leur faire confiance pour protéger notre vie privée, pour ne pas laisser les voleurs d'identité vider nos comptes. &nbsp;Leurs frais généraux considérables rendent les micropaiements impossibles. »
 >
-> original: "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts. Their massive overhead costs make micropayments impossible."
+> *original: "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts. Their massive overhead costs make micropayments impossible."*
 
 Sur son profil, il indique être un homme japonais, mais ce n'est pas tout. Une mise à jour de l'interface fera apparaître son âge en 2011 : 35 ans en 2011. Puis, on [découvrira](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) en 2014 qu'il a indiqué une date de naissance particulière : le 5 avril 1975. Cette date, d'apparence bénigne, est vraisemblablement une date composite faisant référence à l'interdiction pour les citoyens américains de détenir de l'or entre 1933 et 1975 aux États-Unis. Le jour du 5 avril se rapporte au jour de l'instauration de cette interdiction par l'[Ordre exécutif 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) signé par le président Franklin Delano Roosevelt le 5 avril 1933, et l'année 1975 correspond à son année d'abrogation lors de l'entrée en vigueur de la [Public Law 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Ce détail est très important puisque cette prohibition a mis fin à l'étalon-or classique (où chacun pouvait obtenir de l'or en échange d'un billet représentatif), a permis de dévaluer le dollar (par le biais du *Gold Reserve Act* en 1934) et a facilité l'instauration du régime monétaire à taux de change flottants que nous connaissons suite au *Nixon Shock* de 1971.
 
@@ -631,7 +635,7 @@ Ce n'est pas la seule référence aux métaux précieux qui se retrouve dans les
 
 > « Il n'y a personne pour agir en tant que banque centrale ou réserve fédérale afin d'ajuster la masse monétaire au fur et à mesure que le nombre d'utilisateurs augmente. &nbsp;Il aurait fallu qu'un tiers de confiance détermine la valeur, car je ne connais aucun moyen pour un logiciel de connaître la valeur des choses dans le monde réel. &nbsp;S'il existait un moyen astucieux, ou si nous voulions faire confiance à quelqu'un pour gérer activement la masse monétaire afin de l'ancrer à quelque chose, les règles auraient pu être programmées à cet effet. &nbsp;En ce sens, c'est un système qui se comporte davantage comme un métal précieux. »
 >
-> original: "To Sepp's question, indeed there is nobody to act as central bank or federal reserve to adjust the money supply as the population of users grows. That would have required a trusted party to determine the value, because I don't know a way for software to know the real world value of things. If there was some clever way, or if we wanted to trust someone to actively manage the money supply to peg it to something, the rules could have been programmed for that. In this sense, it's more typical of a precious metal."
+> *original: "To Sepp's question, indeed there is nobody to act as central bank or federal reserve to adjust the money supply as the population of users grows. &nbsp;That would have required a trusted party to determine the value, because I don't know a way for software to know the real world value of things. &nbsp;If there was some clever way, or if we wanted to trust someone to actively manage the money supply to peg it to something, the rules could have been programmed for that. &nbsp;In this sense, it's more typical of a precious metal."*
 
 Satoshi Nakamoto est aussi actif sur la liste de diffusion où il échange notamment avec Martien van Steenbergen, un consultant en gestion de projet néerlandais. Le 13 février, il aborde le sujet de la programmabilité de Bitcoin et [écrit](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) à ce dernier :
 
@@ -647,17 +651,19 @@ Satoshi cherche à s'adapter à son public et à pousser les gens à s'intéress
 
 ### Mike Hearn
 
-La stratégie de communication de Satoshi prote peu à peu ses fruits. Au mois d'avril 2009, d'autres personnes commencent à s'intéresser à son invention. Le 12, Mike Hearn, un développeur britannique travaillant pour Google et s'adonnant au logiciel libre sur son temps libre, lui envoie un [courriel](https://plan99.net/~mike/satoshi-emails/thread1.html) posant une série de questions à propos de Bitcoin, en précisant qu'« il est rare de rencontrer des idées vraiment révolutionnaires ». Hearn s'intéresse alors aux systèmes de paiement numériques, et notamment à Ripple, qu'il ne manque pas de mentionner.
+La stratégie de communication de Satoshi porte peu à peu ses fruits. Au mois d'avril 2009, d'autres personnes commencent à s'intéresser à son invention. Le 12, Mike Hearn, un développeur britannique travaillant pour Google et s'adonnant au logiciel libre sur son temps libre, lui envoie un [courriel](https://plan99.net/~mike/satoshi-emails/thread1.html) posant une série de questions à propos de Bitcoin, en précisant qu'« il est rare de rencontrer des idées vraiment révolutionnaires ». Hearn s'intéresse alors aux systèmes de paiement numériques, et notamment à Ripple, qu'il ne manque pas de mentionner.
 
 ![Mike Hearn](assets/img/ch5/mike-hearn.webp)
 
-En particulier, Mike Hearn demande à Satoshi pourquoi il a choisi la quantité de « 24 millions » (*sic*) pour le montant total de bitcoins et si ces derniers peuvent être fractionnés. Satoshi donne alors l'explication suivante :
+Mike Hearn et Satoshi Nakamoto discutent de différents aspects de Bitcoin comme le passage à l'échelle, les micropaiements, le fonctionnement du logiciel ou l'absence de rétrofacturation. En particulier, Mike Hearn demande à Satoshi pourquoi il a choisi la quantité de « 24 millions » (*sic*) pour le montant total de bitcoins et si ces derniers peuvent être fractionnés. Satoshi donne alors l'explication suivante :
 
 > « Mon choix pour le nombre d'unités et le programme de distribution était une estimation éclairée. &nbsp;C'était un choix difficile, car une fois le réseau en marche, ces paramètres étaient verrouillés et nous étions bloqués avec eux. &nbsp;Je voulais choisir quelque chose qui rendrait les prix similaires à ceux des monnaies existantes, mais c'était très difficile sans avoir connaissance de l'avenir. &nbsp;J'ai fini par choisir un entre-deux. &nbsp;Si Bitcoin reste une petite niche, il vaudra moins par unité que les monnaies existantes. &nbsp;Si l'on imagine qu'il est utilisé pour une partie du commerce mondial, alors il n'y aura que 21 millions d'unités pour le monde entier, donc elles vaudront beaucoup plus par unité. &nbsp;Les valeurs sont des entiers codées sur 64 bits avec 8 décimales, donc une pièce est représentée en interne par 100 000 000. &nbsp;Il y a beaucoup de granularité si jamais les prix usuels deviennent petits. &nbsp;Par exemple, si 0,001 [Bitcoin\] vaut 1 euro, il peut être plus facile de changer l'emplacement de la virgule, de sorte que si on a 1 Bitcoin, il sera désormais affiché comme 1000, et 0,001 sera affiché comme 1. »
 >
 > *original: "My choice for the number of coins and distribution schedule was an educated guess. &nbsp;It was a difficult choice, because once the network is going it's locked in and we're stuck with it. &nbsp;I wanted to pick something that would make prices similar to existing currencies, but without knowing the future, that's very hard. &nbsp;I ended up picking something in the middle. &nbsp;If Bitcoin remains a small niche, it'll be worth less per unit than existing currencies. &nbsp;If you imagine it being used for some fraction of world commerce, then there's only going to be 21 million coins for the whole world, so it would be worth much more per unit. &nbsp;Values are 64-bit integers with 8 decimal places, so 1 coin is represented internally as 100000000. &nbsp;There's plenty of granularity if typical prices become small. &nbsp;For example, if 0.001 is worth 1 Euro, then it might be easier to change where the decimal point is displayed, so if you had 1 Bitcoin it's now displayed as 1000, and 0.001 is displayed as 1."*
 
-Après leurs discussions, ils effectuent quelques échanges monétaires. Le 18 avril, Mike Hearn envoie ainsi 32,51 bitcoins à Satoshi, que ce dernier lui renvoie dans la journée. Il s'envoient également mutuellement 50 bitcoins issus de leur production personnelle. <!--TODO-->
+Il [expliquera](https://plan99.net/~mike/satoshi-emails/thread3.html) plus tard à Mike Hearn qu'il a « pensé à 100 BTC \[par bloc\] et à 42 millions » mais que le nombre des 42 millions lui « paraissait élevé ». (*original: "I thought about 100 BTC and 42 million, but 42 million seemed high."*)
+
+Après avoir contacté Satoshi le 12 avril, Mike Hearn commence à utiliser le logiciel sur son ordinateur personnel. Il mine quelques blocs, dont le [bloc 11 157](https://mempool.space/fr/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b). En parallèle à leur discussion, les deux hommes effectuent quelques échanges monétaires. Le 18 avril, Mike Hearn envoie ainsi 32,51 bitcoins à Satoshi, que ce dernier lui renvoie dans la journée. Il s'envoient également mutuellement 50 bitcoins issus de leurs productions personnelles.
 
 ### Martti Malmi et la présentation de Bitcoin (avr. 2009 -- juin 2009)
 
@@ -685,32 +691,42 @@ Satoshi [approuve](https://mmalmi.github.io/satoshi/#email-5) globalement cette 
 Le printemps 2009 est également marqué par l'apparition du mot « cryptomonnaie » (« *cryptocurrency* » en anglais) qui est intialement utilisé pour se référer à Bitcoin. Le 11, Satoshi [écrit](https://mmalmi.github.io/satoshi/#email-19) ainsi à Martti Malmi :
 
 > « Quelqu'un a proposé le mot "cryptomonnaie"... c'est peut-être un mot que nous devrions utiliser pour décrire Bitcoin, ça te plaît ? »
+>
+> *original: "Someone came up with the word "cryptocurrency"... maybe it's a word we should use when describing Bitcoin, do you like it?"*
 
 Le jeune Finlandais approuve et avance que « *The P2P Cryptocurrency* » (« La cryptomonnaie pair à pair ») pourrait être le slogan de Bitcoin. Cette suggestion sera mise à exécution : le titre de la page de présentation deviendra « *Bitcoin P2P Cryptocurrency* » et l'annonce de la version 0.3 en juillet 2010 décrira le projet comme « *Bitcoin, the P2P cryptocurrency* ».
 
-### Les deux forums de Bitcoin (juin 2009 -- nov. 2009)
+### Les deux forums (juin 2009 -- nov. 2009)
 
 Martti Malmi met aussi en place un forum et un wiki, toujours sur la page SourceForge. Ces éléments sont [ouverts](https://mmalmi.github.io/satoshi/#email-17) le 9 juin. Le 13, Malmi [annonce](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=200906) l'existence de la page SourceForge, du forum et du wiki sur la liste de diffusion de Bitcoin :
 
 > « Le nouveau site/portail de Bitcoin est disponible à l'adresse bitcoin.sourceforge.net. Des forums et un wiki sont intégrés, vous êtes donc invités à participer aux discussions et à la documentation sur le wiki. »
 >
-> original: "The new Bitcoin website/portal is up at bitcoin.sourceforge.net. Forums and a wiki are included, so you're welcome to join discussion and wiki documentation."
+> *original: "The new Bitcoin website/portal is up at bitcoin.sourceforge.net. Forums and a wiki are included, so you're welcome to join discussion and wiki documentation."*
 
-Nous n'en avons pas de trace de ce premier forum, mis à part les quelques messages transférés par Satoshi sur son successeur.
+Ce premier forum rencontre son public. Nous ne disposons pas d'archive de ce premier forum, qui n'était accessible que pour ses membres. Au fil des mois, de plus en plus de gens s'y inscrivent et y interviennent, ce qui fait prendre conscience que le logiciel mis en place par Malmi n'est pas suffisant. Le 5 novembre, il écrit au jeune Finlandais pour suggérer   la création d'un nouveau forum qui serait à même de recevoir un trafic plus élevé :
 
-Le deuxième forum est ouvert en novembre 2009 à l'adresse bitcoin.org/smf.
+> « Maintenant que le forum sur bitcoin.sourceforge.net gagne en popularité, nous devrions vraiment chercher un endroit qui héberge gratuitement la gestion d'un forum complet. »
+>
+> *original: "Now that the forum on bitcoin.sourceforge.net is catching on, we really should look for somewhere that freehosts full blown forum software."*
 
-### Le développement initial du logiciel (janv. 2009 -- déc. 2009)
+Après quelques discussions sur la solution technique à adopter, Martti Malmi [installe](https://mmalmi.github.io/satoshi/#email-93) le forum sur son serveur le 17 novembre et Satoshi se met à [configurer](https://mmalmi.github.io/satoshi/#email-99) le 19 novembre. À partir du 22, le créateur de Bitcoin y transfère quelques questions-réponses provenant de l'ancien forum qui abordent les sujets de la confidentialité, du minage et de Linux. Il publie également un [message de bienvenue](https://bitcointalk.org/index.php?topic=5.msg28#msg28). Le 25, le forum est [mis en ligne](https://mmalmi.github.io/satoshi/#email-110) à l'adresse `bitcoin.org/smf`. Les premiers utilisateurs commencent à s'inscrire début décembre. Le 9, le [premier message](https://bitcointalk.org/index.php?topic=12.msg40#msg40) publié par une autre personne que Satoshi apparaît, ce qui lance véritablement les discussions.
 
-Un dernier élément important de l'année 2009 est l'évolution du logiciel.
+Sur ce forum (qui deviendra Bitcointalk en août 2011), Satoshi écrira 539 messages, ce qui formera le gros du corpus. Par ce biais, il pourra apporter des éclaircissements techniques, expliciter quelques mécanismes économiques et plus généralement partager son point de vue sur Bitcoin. À titre d'illustration, voici une capture du forum le 29 mai 2010 :
 
-Martti Malmi, Linux, v0.2
+![Capture du forum de Bitcoin du 29 mai 2010](assets/img/ch5/bitcoin-forum-20100529.webp)
 
+Le lancement du nouveau forum est l'occasion de publier la [version 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) du logiciel, sur laquelle Satoshi Nakamoto et Martti Malmi travaillent depuis des mois. Celle-ci inclut des améliorations comme la minimisation dans la barre des tâches, le lancement automatique au démarrage ou le *multithreading* pour la production minière. Le logiciel a également été porté sous Linux, grâce à la contribution de Malmi et aux tests réalisés par le nouvellement arrivé NewLibertyStandard (dont le cas sera abordé dans le prochain chapitre).
 
+### Une communication qui se construit par étapes
 
-## L'amorçage (oct. 2009 -- mai 2010)
+La communication autour de Bitcoin est ainsi passée par plusieurs étapes. Tout d'abord, il semble que Satoshi parlait beaucoup des paiements en ligne. Puis, il a insisté sur la politique monétaire du bitcoin. Enfin, cette communication a été reprise par d'autres personnes dont Martti Malmi.
 
-### Les premiers mineurs de bitcoins (2009)
+Ainsi, à l'automne 2009, il semble que Bitcoin soit prêt à s'agrandir. L'amorçage économique aura lieu à partir de là. Nous parlerons de ce sujet dans le prochain chapitre.
+
+## L'amorçage de Bitcoin (oct. 2009 -- mai 2010)
+
+### Les premiers mineurs (2009)
 
 Dustin Trammell, James Howells, Martti Malmi, NewLibertyStandard
 
@@ -718,7 +734,11 @@ Dustin Trammell, James Howells, Martti Malmi, NewLibertyStandard
 
 NewLibertyStandard, échange avec Martti Malmi
 
-### Les balbutiements de l'économie (oct. 2010 -- avr. 2010)
+« Bonne nouvelle : il dit avoir réalisé sa première vente de bitcoins. &nbsp;Quelqu'un a acheté la totalité de ce qu'il avait. » ([20/11/2009](https://mmalmi.github.io/satoshi/#email-99))
+
+### Les balbutiements de l'économie (oct. 2009 -- avr. 2010)
+
+« Le forum est vraiment en train de décoller. &nbsp;Je ne m'attendais pas à ce qu'il y ait autant d'activité aussi rapidement. » ([7/2/2010](https://mmalmi.github.io/satoshi/#email-153))
 
 Premiers services (VPN, etc.), premières applications dépositaires (MyBitcoin), échanges sur IRC
 

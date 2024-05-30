@@ -21,15 +21,15 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 - Un éditeur de code ([VSC](https://code.visualstudio.com/) ou [Sublime Text](https://www.sublimetext.com/))
 ![tutorial](assets/1.webp)
 **Prérequis avant de commencer le tutoriel :**
-- Créez un [compte GitHub](https://github.com/signup).
-- Faites un fork du [dépôt source de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
-- Créez [un profil de professeur sur PlanB Network](https://planb.network/fr/professors) (uniquement si vous proposez un tutoriel complet).
+- Avoir un [compte GitHub](https://github.com/signup).
+- Avoir un fork du [dépôt source de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
+- Avoir [un profil de professeur sur PlanB Network](https://planb.network/fr/professors) (uniquement si vous proposez un tutoriel complet).
 
 **Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous guideront :**
 - **[Comprendre Git et GitHub](https://planb.network/fr/tutorials/others/basics-of-github)**
 - **[Créer un compte GitHub](https://planb.network/fr/tutorials/others/create-github-account)**
 - **[Configurer votre environnement de travail](https://planb.network/fr/tutorials/others/github-desktop-work-environment)**
-- **[Créer un profil de professeur](https://planb.network/fr/tutorials/others/create-teacher-profile)**.
+- **[Créer un profil de professeur](https://planb.network/fr/tutorials/others/create-teacher-profile)**
 
 ## Quel type de contenu rédiger sur PlanB Network ?
 

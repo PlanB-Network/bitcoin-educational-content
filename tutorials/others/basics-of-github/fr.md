@@ -7,8 +7,6 @@ description: Comprendre les bases de Git et GitHub
 
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
-Si vous désirez apporter votre pierre à l'édifice PlanB Network, vous allez devoir utiliser Git et GitHub. Si vous n'avez jamais entendu parler de ces choses ou que leur fonctionnement est encore assez flou pour vous, cet article est fait pour vous ! Nous allons revoir ensemble les bases de Git et GitHub ainsi que les termes techniques utilisés sur ces systèmes afin que vous puissiez par la suite faire vos premiers pas avec ces outils.
-
 Si vous souhaitez contribuer à PlanB Network, vous devrez utiliser Git et GitHub. Si ces outils vous sont inconnus ou si leur fonctionnement vous semble obscur, pas de panique, cet article est fait pour vous ! Nous allons revoir ensemble les fondamentaux de Git et de GitHub, ainsi que le jargon technique associé, pour vous permettre par la suite de prendre en main ces outils efficacement.
 
 ## C'est quoi Git ?

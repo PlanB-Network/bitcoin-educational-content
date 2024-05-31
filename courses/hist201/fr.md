@@ -484,7 +484,7 @@ Ces remarques font probablement prendre conscience à Satoshi qu'il peut mettre 
 
 <!-- L'absence de réduction de l'émission monétaire et de mécanisme de frais sera confirmée quelques mois plus tard par Satoshi lorsqu'il [écrira](https://mmalmi.github.io/satoshi/#email-3) à Martti Malmi que « cette discussion sur l'inflation a eu lieu avant la mise en place du mécanisme des frais de transaction et du plan fixe des 21 millions de pièces ». -->
 
-Dans le même temps, les questions de ses interlocuteurs le poussent à partager le code source de son modèle. Le 16 novembre, Satoshi transmet le code à Hal Finney, James A. Donald et Ray Dillinger. Le 17, dans un réponse à James A. Donald sur la liste, il [écrit](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) qu'il lui a envoyé « les fichiers principaux », que ceux-ci sont « disponibles sur demande pour le moment » et que leur « publication complète » aura lieu « bientôt ». (*original: "I sent you the main files. &nbsp;(available by request at the moment, full release soon)"*) Dans cette portion du code, qui sera [rendu publique](https://bitcointalk.org/index.php?action=printpage;topic=382374.0) en 2013 par Ray Dillinger lui-même, on peut constater que tous les éléments fondateurs de Bitcoin sont présents : la chaîne de blocs (alors encore appelée « *timechain* »), la preuve de travail, le modèle de représentation par des pièces (UTXO), la programmabilité des transactions, les frais de transaction et la réduction de moitié (*halving*).
+Dans le même temps, les questions de ses interlocuteurs le poussent à partager le code source de son modèle. Le 16 novembre, Satoshi transmet le code à Hal Finney, James A. Donald et Ray Dillinger. Le 17, dans un réponse à James A. Donald sur la liste, il [écrit](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) qu'il lui a envoyé « les fichiers principaux », que ceux-ci sont « disponibles sur demande pour le moment » et que leur « publication complète » aura lieu « bientôt ». (*original: "I sent you the main files. &nbsp;(available by request at the moment, full release soon)"*) Dans cette portion du code, qui sera [rendue publique](https://bitcointalk.org/index.php?action=printpage;topic=382374.0) en 2013 par Ray Dillinger lui-même, on peut constater que tous les éléments fondateurs de Bitcoin sont présents : la chaîne de blocs (alors encore appelée « *timechain* »), la preuve de travail, le modèle de représentation par des pièces (UTXO), la programmabilité des transactions, les frais de transaction et la réduction de moitié (*halving*).
 
 Des paramètres diffèrent cependant, ce qui indique qu'ils ont été choisis de façon spontanée ou, comme l'[écrira](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi, que ce choix constituait une « estimation éclairée ». (*original: "educated guess"*) Le temps de bloc, c'est-à-dire la période visée entre chaque bloc, est de 15 minutes au lieu de 10. La période d'ajustement de la difficulté est de 2 880 blocs (soit 30 jours pour un temps de blocs de 15 minutes) au lieu de 2 016 blocs (ce qui correspond à 14 jours pour un temps de bloc de 10 minutes). La mécanique de réduction de moitié, présente dans la fonction `GetBlockValue`, fait que le halving doit avoir lieu 100 000 blocs, soit tous les 2 ans et 311 jours environ :
 
@@ -591,7 +591,7 @@ Cela nous amène au second élément présenté par Satoshi le jour du lancement
 >
 > When that runs out, the system can support transaction fees if needed. &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."*
 
-Quelques jours plus tard, Hal Finney [réagit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) à cette politique monétaire sur la liste en s'enthousiasmant du fait que « le système peut être configuré pour n'autoriser qu'un nombre maximum certain de pièces à être générées ». Dans son courriel, il estime que si Bitcoin devient « le système de paiement dominant utilisé dans le monde entier » (*original: "the dominant payment system in use throughout the world"*), chaque unité aura alors « une valeur d'environ 10 millions » de dollars. (*original: "a value of about $10 million"*) Il conclue en écrivant que « la possibilité de produire des pièces aujourd'hui avec quelques centimes de temps de calcul » peut constituer « un très bon pari ». (*original: "the possibility of generating coins today with a few cents of compute time may be quite a good bet"*) Même si l'estimation est contestable (car elle se base sur une valorisation du bitcoin qui serait équivalente à la totalité de la richesse mondiale), le raisonnement se tient. C'est notamment cet élément qui pousse Dustin Trammell à lancer un nœud très rapidement, comme il le confie à Satoshi dans leur correspondance privée.
+Quelques jours plus tard, Hal Finney [réagit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) à cette politique monétaire sur la liste en s'enthousiasmant du fait que « le système peut être configuré pour n'autoriser qu'un nombre maximum certain de pièces à être générées ». Dans son courriel, il estime que si Bitcoin devient « le système de paiement dominant utilisé dans le monde entier » (*original: "the dominant payment system in use throughout the world"*), chaque unité aura alors « une valeur d'environ 10 millions » de dollars. (*original: "a value of about $10 million"*) Il conclue en écrivant que « la possibilité de produire des pièces aujourd'hui avec quelques centimes de temps de calcul » peut constituer « un très bon pari ». (*original: "the possibility of generating coins today with a few cents of compute time may be quite a good bet"*) Même si l'estimation est contestable (car elle se base sur une valorisation du bitcoin qui serait équivalente à la totalité de la richesse mondiale), le raisonnement se tient.
 
 Le 16 janvier, Satoshi reprend cet idée d'« investissement à long terme » dans un courriel qu'il partage à la liste de diffusion et où il décrit les cas d'utilisation potentiels. Il [déclare](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) alors qu'il « pourrait être judicieux d'en avoir au cas où cela prendrait » et que « si suffisamment de gens pensent la même chose, cela deviendra une prophétie autoréalisatrice ». (*original: "It might make sense just to get some in case it catches on. &nbsp;If enough people think the same way, that becomes a self fulfilling prophecy."*) Il [réitérera](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) cette affirmation un mois plus tard en expliquant que le montant limité d'unités est susceptible de créer une « boucle de rétroaction positive » dans le sens où « plus les utilisateurs sont nombreux, plus la valeur augmente, ce qui pourrait attirer davantage d'utilisateurs désireux de profiter de la valeur croissante ». De ce fait, l'élément spéculatif est présent dès la départ, dans le but d'amorcer le système.
 
@@ -726,13 +726,63 @@ Ainsi, à l'automne 2009, il semble que Bitcoin soit prêt à s'agrandir. L'amor
 
 ## L'amorçage de Bitcoin (oct. 2009 -- mai 2010)
 
+Nous avons vu dans les chapitres précédents comment Satoshi a pu développer son idée et comment il a su communiquer à son sujet. Dans ce chapitre, nous allons aborder l'étape suivant : l'amorçage économique de Bitcoin.
+
+Bitcoin est en effet un système qui fonctionne grâce à une unité de compte du même nom, le bitcoin. Cette unité de compte permet de rémunérer les mineurs grâce aux frais de transaction et les commerçants grâce à la déflation naturelle. Il s'ensuit que sa sécurité repose sur le fait qu'elle possède une valeur.
+
+Cependant, ce n'est pas une chose aisée. Tel que l'expliquait très bien Hal Finney dans son [courriel](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) du 11 janvier 2009 adressé à la *Cryptography mailing list* :
+
+> « Un des problèmes immédiats avec n'importe quelle nouvelle monnaie est de savoir comment lui donner une valeur. Même en ignorant le problème pratique lié au fait que quasiment personne ne l'acceptera au début, il est toujours difficile de trouver un argument raisonnable justifiant l'attribution d'une valeur non nulle pour les unités. »
+>
+> *original: "One immediate problem with any new currency is how to value it. Even ignoring the practical problem that virtually no one will accept it at first, there is still a difficulty in coming up with a reasonable argument in favor of a particular non-zero value for the coins."*
+
+Il fallait donc une « [étincelle](https://mmalmi.github.io/satoshi/#email-1) » pour lancer la combustion. (*original: "They concede that something is flammable, but
+argue that it'll never burn because there'll never be a spark."*)
+
 ### Les premiers mineurs (2009)
 
-Dustin Trammell, James Howells, Martti Malmi, NewLibertyStandard
+Avec le lancement du réseau, les premiers mineurs apparaissent sur le réseau. Ceux-ci mettent à contribution leur puissance de calcul pour ajouter des preuves de travail aux blocs de transactions et ainsi les rattacher à la chaîne. C'est donc une tâche coûteuse en temps (à cause du maintien du logiciel) et en énergie (à cause de l'électricité consommée dans le processus).
+
+Ils sont récompensés en bitcoins, mais comme on nous l'avons indiqué dans l'introduction, ces derniers n'ont aucun valeur sur le marché. Il faut donc trouver une raison subjective de réaliser un tel effort.
+
+Le premier motif pour miner est la composante culturelle. Les premiers utilisateurs du logiciel le font « pour la bonne cause », en raison de leur intérêt technique ou de leurs motivations idéologiques. Ils le font pour contribuer à la naissance d'une monnaie numérique robuste qui ne repose sur aucune autorité centrale. Hal Finney est le premier à mettre en avant cette conception en écrivant le 13 novembre 2008 :
+
+> « Le système bitcoin s'avère socialement utile et appréciable, de sorte que les opérateurs de nœuds ont le sentiment d'apporter une contribution bénéfique au monde par leurs efforts (à l'instar des divers projets informatiques "@Home" dans le cadre desquels les gens mettent bénévolement leurs ressources informatiques au service d'une bonne cause). »
+>
+> (*original: "The bitcoin system turns out to be socially useful and valuable, so that node operators feel that they are making a beneficial contribution to the world by their efforts (similar to the various '@Home' compute projects where people volunteer their compute resources for good causes)."*)
+
+En particulier, Bitcoin s'inscrit bien dans le mouvement libertarien étasunien, qui défend le marché libre exacerbé et qui est résolument hostile à l'État, et en particulier à sa mainmise sur la monnaie (« [*End The Fed*](https://en.wikipedia.org/wiki/End_the_Fed) »). C'est pourquoi Satoshi [écrit](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) que l'argument de Hal Finney est « très attrayant pour le point de vue libertarien » dans la mesure où il est possible de « l'expliquer correctement ». (*original: "It's very attractive to the libertarian viewpoint if we can explain it properly."*)
+
+La deuxième raison est la spéculation. Comme nous l'avons expliqué dans le chapitre précédent, la politique monétaire de Bitcoin constitue l'un de ses arguments de vente principaux. Si la quantité de bitcoins en circulation doit tendre vers une quantité fixe (21 millions d'unités), alors leur prix unitaire pourrait devenir très élevé au fur et à mesure que des gens rejoindront l'économie. C'est notamment cet argument qui convainc Dustin Trammell de se mettre à miner très vite, comme il le confie à Satoshi dans leur correspondance privée :
+
+> « C'est l'une des raisons qui m'ont poussé à démarrer un nœud si rapidement. &nbsp;Mes systèmes ne font pas grand-chose d'autre lorsqu'ils sont inactifs, alors pourquoi ne pas créer des BitCoins ? &nbsp;Et s'ils valent quelque chose un jour ... ? Ce sera un bonus ! »
+>
+> *original: "Yes, I saw that message and was one of the other reasons I started up a node so quickly. &nbsp;My systems aren't doing much of anything else while idle, so why not create BitCoins? &nbsp;And if they're worth something someday...? Bonus!"*
+
+Parmi les premiers mineurs qui minent durant l'année 2009, il y a : <!--TODO-->
+
+- Hal Finney
+- Dustin Trammell
+- James Howells
+- Martti Malmi
+- NewLibertyStandard
 
 ### Le premier service de change et le premier prix (oct. 2009)
 
-NewLibertyStandard, échange avec Martti Malmi
+NewLibertyStandard, commence à miner fin septembre...
+
+NewLibertyStandard,
+qui été le premier individu à accepter d’échanger des dollars contre
+des bitcoins en octobre 2009, était notamment convaincu que Bitcoin
+était « une révolution économique » et « la référence de la monnaie
+30numérique »
+
+
+Le 8 octobre, Martti Malmi [écrit](https://mmalmi.github.io/satoshi/#email-34) à Satoshi que « de nouveaux utilisateurs se sont inscrits sur le site bitcoin.sf.net » et que « l'un d'entre eux vient d'annoncer qu'il échangeait des Bitcoins contre des dollars ». (*original: "There are some new users registered to the bitcoin.sf.net site. One of them just announced that he's trading Bitcoins for dollars."*)
+
+
+
+Octobre 2009 : échange avec Martti Malmi
 
 « Bonne nouvelle : il dit avoir réalisé sa première vente de bitcoins. &nbsp;Quelqu'un a acheté la totalité de ce qu'il avait. » ([20/11/2009](https://mmalmi.github.io/satoshi/#email-99))
 
@@ -749,6 +799,36 @@ Augmentation de la difficulté, Lazslo Hanyecz, minage par GPU
 ### Le Bitcoin Pizza Day (22 mai 2010)
 
 Lazslo Hanyecz, Jeremy Sturdivant
+
+James A. Donald : « Bitcoin est en quelque sorte mort » ([30/06/2010](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006))
+
+### L'origine de la valeur du bitcoin
+
+Satoshi Nakamoto, [27 août 2010](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405) :
+
+« Peut-être que des collectionneurs, n'importe quelle raison aléatoire, pourraient en être à l'origine. »
+
+S'il acquiert une quelconque valeur pour une raison ou une autre, toute personne souhaitant transférer des richesses sur une longue distance pourrait en acheter, le transmettre et le faire vendre par le destinataire.
+
+Peut-être pourrait-il acquérir une valeur initiale de manière circulaire, comme vous l'avez suggéré, par des personnes qui prévoient son utilité potentielle pour l'échange (j'en voudrais certainement). (J'en voudrais certainement). Peut-être que des collectionneurs, n'importe quelle raison aléatoire, pourraient en être la source.
+
+Peut-être qu'il pourrait obtenir une valeur initiale circulaire [...], par le biais de personnes prévoyant son utilité potentielle pour l'échange. (J'en voudrais certainement) Peut-être que les collectionneurs, ou n'importe quelle raison arbitraire, pourraient le lancer.
+
+> *original: "As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:*<br>
+> *\- boring grey in colour*<br>
+> *\- not a good conductor of electricity*<br>
+> *\- not particularly strong, but not ductile or easily malleable either*<br>
+> *\- not useful for any practical or ornamental purpose*
+>
+> *and one special, magical property:*<br>
+> *\- can be transported over a communications channel*
+>
+> *If it somehow acquired any value at all for whatever reason, then anyone wanting to transfer wealth over a long distance could buy some, transmit it, and have the recipient sell it.*
+>
+> *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange.  (I would definitely want some)  Maybe collectors, any random reason could spark it."*
+
+
+https://bitcointalk.org/index.php?topic=583.msg11405#msg11405
 
 ## Bitcoin prend ! (mai 2010 -- déc. 2010)
 

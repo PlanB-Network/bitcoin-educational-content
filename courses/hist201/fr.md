@@ -591,7 +591,7 @@ Cela nous amène au second élément présenté par Satoshi le jour du lancement
 >
 > When that runs out, the system can support transaction fees if needed. &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."*
 
-Quelques jours plus tard, Hal Finney [réagit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) à cette politique monétaire sur la liste en s'enthousiasmant du fait que « le système peut être configuré pour n'autoriser qu'un nombre maximum certain de pièces à être générées ». Dans son courriel, il estime que si Bitcoin devient « le système de paiement dominant utilisé dans le monde entier » (*original: "the dominant payment system in use throughout the world"*), chaque unité aura alors « une valeur d'environ 10 millions » de dollars. (*original: "a value of about $10 million"*) Il conclue en écrivant que « la possibilité de produire des pièces aujourd'hui avec quelques centimes de temps de calcul » peut constituer « un très bon pari ». (*original: "the possibility of generating coins today with a few cents of compute time may be quite a good bet"*) Même si l'estimation est contestable (car elle se base sur une valorisation du bitcoin qui serait équivalente à la totalité de la richesse mondiale), le raisonnement se tient.
+Quelques jours plus tard, Hal Finney [réagit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) à cette politique monétaire sur la liste en s'enthousiasmant du fait que « le système peut être configuré pour n'autoriser qu'un nombre maximum certain de pièces à être générées ». Dans son courriel, il estime que si Bitcoin devient « le système de paiement dominant utilisé dans le monde entier » (*original: "the dominant payment system in use throughout the world"*), chaque unité aura alors « une valeur d'environ 10 millions » de dollars. (*original: "a value of about $10 million"*) Il conclue en écrivant que « la possibilité de générer des pièces aujourd'hui avec quelques centimes de temps de calcul » peut constituer « un très bon pari ». (*original: "the possibility of generating coins today with a few cents of compute time may be quite a good bet"*) Même si l'estimation est contestable (car elle se base sur une valorisation du bitcoin qui serait équivalente à la totalité de la richesse mondiale), le raisonnement se tient.
 
 Le 16 janvier, Satoshi reprend cet idée d'« investissement à long terme » dans un courriel qu'il partage à la liste de diffusion et où il décrit les cas d'utilisation potentiels. Il [déclare](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) alors qu'il « pourrait être judicieux d'en avoir au cas où cela prendrait » et que « si suffisamment de gens pensent la même chose, cela deviendra une prophétie autoréalisatrice ». (*original: "It might make sense just to get some in case it catches on. &nbsp;If enough people think the same way, that becomes a self fulfilling prophecy."*) Il [réitérera](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) cette affirmation un mois plus tard en expliquant que le montant limité d'unités est susceptible de créer une « boucle de rétroaction positive » dans le sens où « plus les utilisateurs sont nombreux, plus la valeur augmente, ce qui pourrait attirer davantage d'utilisateurs désireux de profiter de la valeur croissante ». De ce fait, l'élément spéculatif est présent dès la départ, dans le but d'amorcer le système.
 
@@ -665,7 +665,7 @@ Il [expliquera](https://plan99.net/~mike/satoshi-emails/thread3.html) plus tard 
 
 Après avoir contacté Satoshi le 12 avril, Mike Hearn commence à utiliser le logiciel sur son ordinateur personnel. Il mine quelques blocs, dont le [bloc 11 157](https://mempool.space/fr/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b). En parallèle à leur discussion, les deux hommes effectuent quelques échanges monétaires. Le 18 avril, Mike Hearn envoie ainsi 32,51 bitcoins à Satoshi, que ce dernier lui renvoie dans la journée. Il s'envoient également mutuellement 50 bitcoins issus de leurs productions personnelles.
 
-### Martti Malmi et la présentation de Bitcoin (avr. 2009 -- juin 2009)
+### Martti Malmi et la présentation de Bitcoin (avr. 2009 -- juin 2009)
 
 La communication de Satoshi ne laisse pas non plus indifférent un jeune étudiant en informatique finlandais du nom de Martti Malmi. Ce dernier découvre Bitcoin début avril, par l'intermédiaire du texte sur le forum de la Fondation P2P. Le 9, il se met à utiliser le logiciel et mine son premier bloc (le bloc 10 351). Dans la soirée, il rédige une courte présentation de Bitcoin où il soutient l'hypothèse anarchiste que « la monnaie pair à pair pourrait faire disparaître l'État ». (*original: "P2P Currency could make the government extinct?"*). Il publie son texte sous le pseudonyme Trickster(n) sur deux forums libertariens de sensibilités différentes : anti-state.com (ASC) et le forum de Freedomain Radio (le média de l'anarcho-capitaliste Stefan Molyneux). Il écrit :
 
@@ -745,7 +745,7 @@ Avec le lancement du réseau, les premiers mineurs apparaissent sur le réseau. 
 
 Ils sont récompensés en bitcoins, mais comme on nous l'avons indiqué dans l'introduction, ces derniers n'ont aucun valeur sur le marché. Il faut donc trouver une raison subjective de réaliser un tel effort.
 
-Le premier motif pour miner est la composante culturelle. Les premiers utilisateurs du logiciel le font « pour la bonne cause », en raison de leur intérêt technique ou de leurs motivations idéologiques. Ils le font pour contribuer à la naissance d'une monnaie numérique robuste qui ne repose sur aucune autorité centrale. Hal Finney est le premier à mettre en avant cette conception en écrivant le 13 novembre 2008 :
+Le premier motif pour miner est la composante culturelle. Les premiers utilisateurs du logiciel le font « pour la bonne cause », en raison de leur curiosité technique ou de leur motivation idéologique. Ils mettent à disposition leur puissance de calcul pour contribuer à la naissance d'une monnaie numérique robuste qui ne repose sur aucune autorité centrale. Hal Finney est le premier à mettre en avant cette conception en écrivant le 13 novembre 2008 :
 
 > « Le système bitcoin s'avère socialement utile et appréciable, de sorte que les opérateurs de nœuds ont le sentiment d'apporter une contribution bénéfique au monde par leurs efforts (à l'instar des divers projets informatiques "@Home" dans le cadre desquels les gens mettent bénévolement leurs ressources informatiques au service d'une bonne cause). »
 >
@@ -769,20 +769,31 @@ Parmi les premiers mineurs qui minent durant l'année 2009, il y a : <!--TODO--
 
 ### Le premier service de change et le premier prix (oct. 2009)
 
-NewLibertyStandard, commence à miner fin septembre...
+NewLibertyStandard (NLS), commence à miner fin septembre...
 
-Sur son [site](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), NewLibertyStandard présente Bitcoin comme « une révolution économique » (*original: "An Economic Revolution"*) et comme « la référence de la monnaie numérique ». (*original: "the gold standard of digital currency"*)
+Sur son [site](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), NLS présente Bitcoin comme « une révolution économique » (*original: "An Economic Revolution"*) et comme « la référence de la monnaie numérique ». (*original: "the gold standard of digital currency"*)
 
-![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain (pièce d'or de 1/4 d'once)](assets/img/ch6/newlibertystandard-coin-avatar.webp)
+![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain](assets/img/ch6/newlibertystandard-coin-avatar.webp)
 
 [Avatar](https://bitcointalk.org/index.php?action=profile;u=26) de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain (pièce d'or de 1/4 d'once)
 
+À partir d'octobre 2009, il met en place, sur sa page personnelle, le premier service d'échange permettant aux gens de convertir leurs dollars en bitcoins, et inversement.
 
 Le 8 octobre, Martti Malmi [écrit](https://mmalmi.github.io/satoshi/#email-34) à Satoshi que « de nouveaux utilisateurs se sont inscrits sur le site bitcoin.sf.net » et que « l'un d'entre eux vient d'annoncer qu'il échangeait des Bitcoins contre des dollars ». (*original: "There are some new users registered to the bitcoin.sf.net site. One of them just announced that he's trading Bitcoins for dollars."*)
 
+**extrait** Pour estimer le taux de change, il se base sur le coût énergétique nécessaire pour obtenir un bitcoin, en prenant en compte le coût de l'électricité à son emplacement et la fréquence de sa production personnelle.
 
+> « Notre taux de change est calculé en divisant 1,00 $ par la quantité moyenne d'électricité nécessaire pour faire fonctionner un ordinateur avec une utilisation du processeur élevée pendant un an, soit 1331,5 kWh, multipliée par le coût résidentiel moyen de l'électricité aux États-Unis pour l'année précédente, soit 0,1136 $, le tout divisé par 12 mois, divisé par le nombre de bitcoins générés par mon ordinateur au cours des 30 derniers jours. »
+>
+> *original: "Our exchange rate is calculated by dividing $1.00 by the average amount of electricity required to run a computer with high CPU for a year, 1331.5 kWh, multiplied by the the average residential cost of electricity in the United States for the previous year, $0.1136, divided by 12 months divided by the number of bitcoins generated by my computer over the past 30 days."*
 
-Octobre 2009 : échange avec Martti Malmi
+![Taux de change indicatifs du service de NLS](assets/img/ch6/nls-exchange-rates-oct09.webp)
+
+Taux de change indicatifs du service de NLS (source : [archive du site de NLS](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate))
+
+Les transferts en dollar se font uniquement par Paypal et des frais sont prélevés dans l'opération.
+
+12 octobre 2009 : échange avec Martti Malmi
 
 « Bonne nouvelle : il dit avoir réalisé sa première vente de bitcoins. &nbsp;Quelqu'un a acheté la totalité de ce qu'il avait. » ([20/11/2009](https://mmalmi.github.io/satoshi/#email-99))
 
@@ -794,11 +805,36 @@ Premiers services (VPN, etc.), premières applications dépositaires (MyBitcoin)
 
 ### Le minage devient sérieux (déc. 2009 -- avr. 2010)
 
-Augmentation de la difficulté, Lazslo Hanyecz, minage par GPU
+Augmentation de la difficulté
+
+Satoshi, [19/12/2009](https://bitcointalk.org/index.php?topic=12.msg54#msg54)
+
+> « Nous devrions nous mettre d'accord pour reporter la course aux armements des processeurs graphiques aussi longtemps que possible pour le bien du réseau. &nbsp;Les nouveaux utilisateurs pourront beaucoup plus facilement se mettre à niveau s'ils n'ont pas à se préoccuper des pilotes et de la compatibilité des GPU. &nbsp;Il est intéressant de constater que toute personne disposant d'un simple processeur central peut rivaliser de manière relativement égale à l'heure actuelle. »
+>
+> *original: "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network. &nbsp;It's much easer to get new users up to speed if they don't have to worry about GPU drivers and compatibility. &nbsp;It's nice how anyone with just a CPU can compete fairly equally right now."*
+
+Minage altruiste de Satoshi
+
+![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch6/organofcorti-satoshi-hashrate-2009-2010.webp)
+
+Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010, en MH/s (source : Organofcorti, [Satoshi's hashrate](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html), 13 août 2014)
+
+![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch6/organofcorti-satoshi-proportion-2009-2010.webp)
+
+Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010 (source : Organofcorti, [Satoshi's hashrate](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html), 13 août 2014)
+
+
+Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui découvre Bitcoin en avril 2010.
+
+**extrait** Après avoir acheté des bitcoins à NLS et essayé le système de transactions, celui-ci programme début mai un logiciel de minage qui s’adapte aux processeurs graphiques. Cette optimisation lui permet d’occuper rapidement une place importante dans la production des blocs. Cette production attire l’attention de Satoshi Nakamoto qui le contacte et lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) de ralentir ses opérations afin que le minage reste accessible à tous :
+
+> « L'un des principaux attraits pour les nouveaux utilisateurs est que toute personne disposant d'un ordinateur peut générer des unités gratuites. Lorsqu'il y aura 5 000 utilisateurs, cette incitation s'estompera peut-être, mais pour l'instant, c'est toujours vrai. Les processeurs graphiques limiteraient prématurément cette incitation à ceux qui disposent d'un matériel GPU haut de gamme. Il est inévitable que les clusters de calcul GPU finiront par accaparer toutes les unités générées, mais je ne veux pas précipiter l'arrivée de ce jour-là. \[...\] Je ne veux pas passer pour un socialiste, je me moque de la concentration des richesses, mais pour l'instant, nous obtenons plus de croissance en donnant cet argent à 100 % des gens qu'en le donnant à 20 %. En outre, plus nous retarderons la course aux armements des GPU, plus les bibliothèques OpenCL deviendront matures, et plus nombreux seront ceux qui disposeront de cartes graphiques compatibles avec OpenCL. »
+>
+> (*original: "A big attraction to new users is that anyone with a computer can generate some free coins. When there are 5000 users, that incentive may fade, but for now it's still true. GPUs would prematurely limit the incentive to only those with high end GPU hardware. It's inevitable that GPU compute clusters will eventually hog all the generated coins, but I don't want to hasten that day. (...) I don't mean to sound like a socialist, I don't care if wealth is concentrated, but for now, we get more growth by giving that money to 100% of the people than giving it to 20%. Also, the longer we can delay the GPU arms race, the more mature the OpenCL libraries get, and the more people will have OpenCL compatible video cards."*)
 
 ### Le Bitcoin Pizza Day (22 mai 2010)
 
-Lazslo Hanyecz, Jeremy Sturdivant
+Laszlo Hanyecz, Jeremy Sturdivant
 
 James A. Donald : « Bitcoin est en quelque sorte mort » ([30/06/2010](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006))
 
@@ -826,7 +862,6 @@ Peut-être qu'il pourrait obtenir une valeur initiale circulaire [...], par le b
 > *If it somehow acquired any value at all for whatever reason, then anyone wanting to transfer wealth over a long distance could buy some, transmit it, and have the recipient sell it.*
 >
 > *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange.  (I would definitely want some)  Maybe collectors, any random reason could spark it."*
-
 
 https://bitcointalk.org/index.php?topic=583.msg11405#msg11405
 

@@ -1,12 +1,4 @@
 name: PlanB Network
-category: communities
-address_line_1: Cyberspace
-address_line_2: 
-address_line_3: 
-language: 
-  - en 
-  - fr 
-  - es 
 links:
   website: https://planb.network
   twitter: https://twitter.com/planb_network
@@ -16,3 +8,5 @@ links:
 tags:
   - education
   - finance
+
+category: education

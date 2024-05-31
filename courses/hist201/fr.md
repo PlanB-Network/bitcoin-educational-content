@@ -771,11 +771,11 @@ Parmi les premiers mineurs qui minent durant l'année 2009, il y a : <!--TODO--
 
 NewLibertyStandard, commence à miner fin septembre...
 
-NewLibertyStandard,
-qui été le premier individu à accepter d’échanger des dollars contre
-des bitcoins en octobre 2009, était notamment convaincu que Bitcoin
-était « une révolution économique » et « la référence de la monnaie
-30numérique »
+Sur son [site](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), NewLibertyStandard présente Bitcoin comme « une révolution économique » (*original: "An Economic Revolution"*) et comme « la référence de la monnaie numérique ». (*original: "the gold standard of digital currency"*)
+
+![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain (pièce d'or de 1/4 d'once)](assets/img/ch6/newlibertystandard-coin-avatar.webp)
+
+[Avatar](https://bitcointalk.org/index.php?action=profile;u=26) de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain (pièce d'or de 1/4 d'once)
 
 
 Le 8 octobre, Martti Malmi [écrit](https://mmalmi.github.io/satoshi/#email-34) à Satoshi que « de nouveaux utilisateurs se sont inscrits sur le site bitcoin.sf.net » et que « l'un d'entre eux vient d'annoncer qu'il échangeait des Bitcoins contre des dollars ». (*original: "There are some new users registered to the bitcoin.sf.net site. One of them just announced that he's trading Bitcoins for dollars."*)

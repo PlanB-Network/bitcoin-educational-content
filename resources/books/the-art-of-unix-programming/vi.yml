@@ -1,0 +1,8 @@
+title: "Nghệ Thuật Lập Trình Unix"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  "Nghệ Thuật Lập Trình Unix" của Eric S. Raymond là một hướng dẫn cấp độ trung bình khám phá triết lý, nguyên tắc thiết kế và các khía cạnh thực tiễn của lập trình Unix. Cuốn sách bao gồm các chủ đề như môi trường lập trình Unix, lập trình bằng shell, các lời gọi hệ thống và giao tiếp giữa các tiến trình. Với những giải thích rõ ràng và ví dụ, cuốn sách trình bày sức mạnh và tính linh hoạt của Unix như một nền tảng lập trình trong khi nhấn mạnh vào sự đơn giản và thiết kế mô-đun. Nó cũng thảo luận về lịch sử và bản chất hợp tác trong phát triển Unix. Tổng thể, nó cung cấp những hiểu biết quý báu cho các nhà phát triển muốn nâng cao kỹ năng lập trình Unix của mình.
+contributors:
+  - rabbit-hole

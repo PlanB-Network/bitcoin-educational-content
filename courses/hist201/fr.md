@@ -763,13 +763,13 @@ La deuxième raison est la spéculation. Comme nous l'avons expliqué dans le ch
 >
 > *original: "Yes, I saw that message and was one of the other reasons I started up a node so quickly. &nbsp;My systems aren't doing much of anything else while idle, so why not create BitCoins? &nbsp;And if they're worth something someday...? Bonus!"*
 
-Parmi les premiers mineurs qui minent durant l'année 2009, il y a : <!--TODO-->
+Parmi les premiers mineurs qui apportent leur puissance de calcul au réseau durant l'année 2009, on retrouve notamment :
 
-- Hal Finney
-- Dustin Trammell
-- James Howells
-- Martti Malmi
-- NewLibertyStandard
+- Hal Finney, qui fait tourner son ordinateur entre le lancement du réseau et mars 2009 et qui parvient ainsi à accumuler plus de 10 000 bitcoins ;
+- Dustin Trammell, qui mine une quantité impressionnante de blocs tout au long de l'année 2009 et au début de l'année 2010, et qui obtient ainsi plus de 70 000 bitcoins comme témoigne l'activité liée à son [adresse](https://mempool.space/address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv) ;
+- Un ingénieur britannique du nom de James Howells, qui [génère](https://mempool.space/address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 8 000 bitcoins avec son ordinateur entre février et avril (il enverra son ordinateur à la décharge en 2013 et se rendra compte de son erreur quelques mois plus tard ; son cas sera alors [médiatisé](https://www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site) par le *Guardian*) ;
+- Martti Malmi, qui contribue à la production des blocs sur le réseau entre avril 2009 et 2010 et qui [obtient](https://twitter.com/marttimalmi/status/1339908783187832834) ainsi plus de 55 000 bitcoins (qu'il vendra pour la plupart avant 2012) ;
+- Un individu utilisant le pseudonyme de NewLibertyStandard, qui mine à partir de septembre 2009 pour alimenter son service de change naissant...
 
 ### Le premier service de change et le premier prix (oct. 2009)
 

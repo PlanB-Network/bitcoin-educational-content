@@ -607,6 +607,10 @@ Ensuite, dans le même courriel, Jonathan Thornburg aborde le sujet des réseaux
 
 Enfin, le dernier commentaire émane de John Gilmore, ancien membre fondateur des cypherpunks et tenancier de la première liste de diffusion du mouvement entre 1992 et 1997. Dans un courriel envoyé le 25 janvier, il met en avant les supposées conséquences écologiques de Bitcoin et [écrit](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) que « la dernière chose dont nous avons besoin est de déployer un système conçu pour brûler tous les cycles disponibles, consommant de l'électricité et générant du dioxyde de carbone, partout sur Internet, afin de produire de petites quantités de bitbux pour faire passer des courriels ou des spams ». (*original: "The last thing we need is to deploy a system designed to burn all available cycles, consuming electricity and generating carbon dioxide, all over the Internet, in order to produce small amounts of bitbux to get emails or spams through."*) Satoshi lui [répond](https://mmalmi.github.io/satoshi/#email-3) en privé qu'« il serait ironique de devoir choisir entre la liberté économique et la préservation de l'environnement ». Il ajoute que « la preuve est la seule solution \[qu'il a\] trouvée pour faire fonctionner un système d'argent électronique pair à pair » et que, même si elle devait consommer beaucoup d'énergie, « elle gaspillerait toujours moins que l'activité bancaire conventionnelle nécessitant beaucoup de main-d'œuvre et de ressources ». (*original: "Ironic if we end up having to choose between economic liberty and conservation. &nbsp;Unfortunately, proof of work is the only solution I've found to make p2p e-cash work without a trusted third party. (...) If it did grow to consume significant energy, I think it would still be less wasteful than the labour and resource intensive conventional banking activity it would replace."*)
 
+![John Gilmore en 2007](assets/img/ch5/2.webp)
+
+John Gilmore en 2007 (source : [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
+
 Le 27, Hal Finney [évoque](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html) des pistes qui permettait de réduire la dissipation énergétique liée au calcul des preuves de travail. Une heure plus tard, il [écrit](https://twitter.com/halfin/status/1153096538) sur Twitter « réfléchir à la manière de réduire les émissions de CO2 liées à une mise en œuvre généralisée de Bitcoin ».
 
 Un autre soutien provient du cypherpunk Zooko Wilcox-O'Hearn, qui travaille alors sur Tahoe-LAFS, un système de partage de fichiers héritier. Le 26 janvier, au sein de la discussion sur la liste, il glisse le lien vers un billet qu'il a publié le jour-même sur son blog intitulé « [*Decentralized Money*](https://web.archive.org/web/20090303195936/http://testgrid.allmydata.org:3567/uri/URI:DIR2-RO:j74uhg25nwdpjpacl6rkat2yhm:kav7ijeft5h7r7rxdp5bgtlt3viv32yabqajkrdykozia5544jqa/wiki.html#%5B%5BDecentralized%20Money%5D%5D) », où il cite les différents projets de monnaies numériques (DigiCash, bit gold, b-money) et où il fait la part belle à Bitcoin. Il écrit notamment :
@@ -627,7 +631,7 @@ La *Cryptography mailing list* n'est pas le seul endroit où Satoshi Nakamoto in
 
 Sur son profil, il indique être un homme japonais, mais ce n'est pas tout. Une mise à jour de l'interface fera apparaître son âge en 2011 : 35 ans en 2011. Puis, on [découvrira](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) en 2014 qu'il a indiqué une date de naissance particulière : le 5 avril 1975. Cette date, d'apparence bénigne, est vraisemblablement une date composite faisant référence à l'interdiction pour les citoyens américains de détenir de l'or entre 1933 et 1975 aux États-Unis. Le jour du 5 avril se rapporte au jour de l'instauration de cette interdiction par l'[Ordre exécutif 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) signé par le président Franklin Delano Roosevelt le 5 avril 1933, et l'année 1975 correspond à son année d'abrogation lors de l'entrée en vigueur de la [Public Law 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Ce détail est très important puisque cette prohibition a mis fin à l'étalon-or classique (où chacun pouvait obtenir de l'or en échange d'un billet représentatif), a permis de dévaluer le dollar (par le biais du *Gold Reserve Act* en 1934) et a facilité l'instauration du régime monétaire à taux de change flottants que nous connaissons suite au *Nixon Shock* de 1971.
 
-![Profil de Satoshi Nakamoto sur le forum de la Fondation P2P, capture du 17 mars 2011](assets/img/ch5/2.webp)
+![Profil de Satoshi Nakamoto sur le forum de la Fondation P2P, capture du 17 mars 2011](assets/img/ch5/3.webp)
 
 [Profil de Satoshi Nakamoto sur le forum de la Fondation P2P, capture du 17 mars 2011](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto)
 
@@ -653,7 +657,7 @@ Satoshi cherche à s'adapter à son public et à pousser les gens à s'intéress
 
 La stratégie de communication de Satoshi porte peu à peu ses fruits. Au mois d'avril 2009, d'autres personnes commencent à s'intéresser à son invention. Le 12, Mike Hearn, un développeur britannique travaillant pour Google et s'adonnant au logiciel libre sur son temps libre, lui envoie un [courriel](https://plan99.net/~mike/satoshi-emails/thread1.html) posant une série de questions à propos de Bitcoin, en précisant qu'« il est rare de rencontrer des idées vraiment révolutionnaires ». Hearn s'intéresse alors aux systèmes de paiement numériques, et notamment à Ripple, qu'il ne manque pas de mentionner.
 
-![Mike Hearn](assets/img/ch5/3.webp)
+![Mike Hearn](assets/img/ch5/4.webp)
 
 Mike Hearn et Satoshi Nakamoto discutent de différents aspects de Bitcoin comme le passage à l'échelle, les micropaiements, le fonctionnement du logiciel ou l'absence de rétrofacturation. En particulier, Mike Hearn demande à Satoshi pourquoi il a choisi la quantité de « 24 millions » (*sic*) pour le montant total de bitcoins et si ces derniers peuvent être fractionnés. Satoshi donne alors l'explication suivante :
 
@@ -673,7 +677,7 @@ La communication de Satoshi ne laisse pas non plus indifférent un jeune étudia
 
 > *original: "The system is anonymous, and no government could possibly tax or prevent the transactions. There's no central bank to debase the currency with unlimited creation of new money. A widespread adoption of such a system sounds like something that could have a devastating effect on the state's ability to feed on its livestock."*
 
-![Martti Malmi en 2013](assets/img/ch5/4.webp)
+![Martti Malmi en 2013](assets/img/ch5/5.webp)
 
 Martti Malmi en 2013 (source : [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5)
 
@@ -714,7 +718,7 @@ Après quelques discussions sur la solution technique à adopter, Martti Malmi [
 
 Sur ce forum (qui deviendra Bitcointalk en août 2011), Satoshi écrira 539 messages, ce qui formera le gros du corpus. Par ce biais, il pourra apporter des éclaircissements techniques, expliciter quelques mécanismes économiques et plus généralement partager son point de vue sur Bitcoin. À titre d'illustration, voici une capture du forum le 29 mai 2010 :
 
-![Capture du forum de Bitcoin du 29 mai 2010](assets/img/ch5/5.webp)
+![Capture du forum de Bitcoin du 29 mai 2010](assets/img/ch5/6.webp)
 
 Le lancement du nouveau forum est l'occasion de publier la [version 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) du logiciel, sur laquelle Satoshi Nakamoto et Martti Malmi travaillent depuis des mois. Celle-ci inclut des améliorations comme la minimisation dans la barre des tâches, le lancement automatique au démarrage ou le *multithreading* pour la production minière. Le logiciel a également été porté sous Linux, grâce à la contribution de Malmi et aux tests réalisés par le nouvellement arrivé NewLibertyStandard (dont le cas sera abordé dans le prochain chapitre).
 

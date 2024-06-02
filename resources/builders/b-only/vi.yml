@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 description: |
    B-only là một hội nghị được tổ chức bởi nhóm meetup Bitcoin Annecy.
 contributors:
+=======
+mô tả: |
+   B-only là một hội nghị được tổ chức bởi nhóm meetup Bitcoin của Annecy.
+người đóng góp:
+>>>>>>> vietnamese, batch translate of whole repo
   - rabbit-hole

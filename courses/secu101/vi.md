@@ -57,7 +57,7 @@ Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, c
 
 - Chương 3 - Sử dụng máy tính
 - Chương 4 - Hacking & quản lý sao lưu
-Trong phần này, chúng ta sẽ đề cập đến ba lĩnh vực chính của bảo mật máy tính. Đầu tiên, chúng ta sẽ khám phá các hệ điều hành khác nhau: Mac, PC và Linux, nêu bật những đặc điểm và ưu điểm riêng của chúng. Sau đó, chúng ta sẽ tìm hiểu các phương pháp bảo vệ hiệu quả nhằm chống lại các nỗ lực hack và tăng cường bảo mật cho thiết bị của bạn. Cuối cùng, chúng ta sẽ nhấn mạnh tầm quan trọng của việc bảo vệ và sao lưu dữ liệu định kỳ để ngăn chặn mất mát hoặc tấn công mã độc.![](assets/en/2.webp)
+![](assets/en/1.webp)
 
 ### Phần 3: Triển khai giải pháp
 
@@ -68,7 +68,7 @@ Trong phần này, chúng ta sẽ đề cập đến ba lĩnh vực chính của
 Trong phần thứ ba này, chúng ta sẽ chuyển sang triển khai các giải pháp cụ thể của bạn.
 
 Đầu tiên, chúng ta sẽ xem cách bảo vệ hộp thư email của bạn, điều này rất quan trọng cho giao tiếp của bạn và đây là nơi thường xuyên bị hacker nhắm đến. Sau đó, chúng ta sẽ giới thiệu bạn với một trình quản lý mật khẩu: một giải pháp thực tế để không còn bị quên hoặc lẫn lộn mật khẩu của bạn trong khi vẫn giữ chúng an toàn. Cuối cùng, chúng ta sẽ thảo luận về một biện pháp bảo mật bổ sung, xác thực hai yếu tố, nó cung cấp thêm một lớp bảo vệ nữa cho tài khoản của bạn. Mọi thứ sẽ được giải thích một cách rõ ràng và dễ tiếp cận.
-![](assets/en/3.webp)
+![](assets/en/1.webp)
 
 # Tất cả những gì bạn cần biết về duyệt web trực tuyến
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -82,12 +82,12 @@ Khi duyệt web trên internet, việc tránh được một số sai lầm ph�
 
 Nên tải phần mềm từ trang web chính thức của nhà xuất bản thay vì các trang web chung chung.
 Ví dụ: Sử dụng www.signal.org/download thay vì www.logicieltelechargement.fr/signal.
-![](assets/en/4.webp)
+![](assets/notext/4.webp)
 
 Cũng nên ưu tiên phần mềm mã nguồn mở vì chúng thường an toàn hơn và không chứa phần mềm độc hại. Phần mềm "mã nguồn mở" là phần mềm có mã code được biết đến và có thể truy cập bởi mọi người. Điều này cho phép chúng được kiểm tra và xác nhận rằng không có quyền truy cập ẩn nào để đánh cắp dữ liệu cá nhân của bạn.
 
 > Bonus: Phần mềm mã nguồn mở thường miễn phí! Trường đại học này 100% mã nguồn mở, vì vậy bạn cũng có thể kiểm tra mã nguồn của chúng tôi trên GitHub của chúng tôi.
-![](assets/en/5.webp)
+![](assets/notext/5.webp)
 
 ### Quản lý cookie: Lỗi và thói quen tốt nhất
 
@@ -99,14 +99,16 @@ Cookie là các tệp tin được tạo bởi các trang web để lưu trữ t
 
 Có hai họ trình duyệt chính: những trình duyệt dựa trên Chrome và những trình duyệt dựa trên Firefox.
 Mặc dù cả hai họ đều cung cấp một mức độ bảo mật tương tự, nên tránh sử dụng trình duyệt Google Chrome do các bộ theo dõi của nó. Các lựa chọn nhẹ hơn cho Chrome, như Chromium hoặc Brave, có thể được ưu tiên. Brave đặc biệt được khuyến nghị vì nó được tích hợp chức năng chặn quảng cáo. Có thể cần sử dụng nhiều trình duyệt để truy cập một số trang web cụ thể.
-![](assets/en/6.webp)
+![](assets/notext/6.webp)
+
 ### Duyệt web riêng tư, TOR, và các lựa chọn khác cho việc duyệt web an toàn và ẩn danh hơn
 Duyệt web ẩn danh, mặc dù không ẩn hoàn toàn hoạt động duyệt web của bạn khỏi con mắt của nhà cung cấp dịch vụ internet, nhưng nó cho phép bạn không để lại dấu vết trên máy tính cá nhân. Cookies sẽ tự động được xóa sau mỗi phiên, cho phép bạn chấp nhận tất cả cookies mà không bị theo dõi. Duyệt web ẩn danh có thể hữu ích khi mua sắm dịch vụ trực tuyến, vì các trang web theo dõi thói quen tìm kiếm của chúng ta và điều chỉnh giá cả tương ứng. Tuy nhiên, điều quan trọng là phải lưu ý rằng duyệt web ẩn danh được khuyến nghị cho các phiên cụ thể và tạm thời, không phải cho hoạt động duyệt web chung trên internet.
 
 Một lựa chọn tiến bộ hơn là mạng TOR (The Onion Router), cung cấp sự ẩn danh bằng cách che giấu địa chỉ IP của người dùng và cho phép truy cập vào Darknet. TOR Browser là một trình duyệt được thiết kế đặc biệt để sử dụng mạng TOR. Nó cho phép bạn truy cập cả các trang web thông thường và các trang web .onion, thường được vận hành bởi các cá nhân và có thể mang tính chất bất hợp pháp.
 
 TOR là hợp pháp và được sử dụng bởi các nhà báo, các nhà hoạt động vì tự do, và những người khác muốn tránh kiểm duyệt ở các quốc gia độc tài. Tuy nhiên, điều quan trọng là phải được hiểu rằng TOR không bảo vệ các trang web được truy cập hoặc chính các máy tính. Ngoài ra, sử dụng TOR có thể làm chậm kết nối internet vì dữ liệu phải đi qua máy tính của ba người khác trước khi đến đích. Cũng cần lưu ý rằng TOR không phải là giải pháp hoàn hảo để đảm bảo 100% ẩn danh và không nên sử dụng TOR cho các hoạt động bất hợp pháp.
-![](assets/en/7.webp)
+![](assets/notext/7.webp)
+
 ### BRAVE
 
 **_Hướng dẫn đang được xây dựng, để đóng góp hoặc thêm vào, bạn có thể truy cập GitHub_**
@@ -126,7 +128,7 @@ VPN là các công cụ mã hóa dữ liệu truyền qua internet, làm cho k�
 Có hai loại VPN chính: VPN doanh nghiệp và VPN cho người dùng cá nhân, như NordVPN. VPN dành cho doanh nghiệp có xu hướng đắt hơn và phức tạp hơn, trong khi VPN cho người tiêu dùng thường dễ tiếp cận và thân thiện với người dùng hơn. Ví dụ, NordVPN cho phép người dùng kết nối internet thông qua một máy chủ đặt tại một quốc gia khác, có thể vượt qua các hạn chế địa lý.
 
 Tuy nhiên, sử dụng VPN cho người dùng cá nhân không đảm bảo sự ẩn danh hoàn toàn. Nhiều nhà cung cấp VPN giữ lại thông tin về người dùng của họ, có thể tiềm ẩn rủi ro về ẩn danh. Mặc dù VPN có thể hữu ích để cải thiện an ninh trực tuyến, chúng không phải là giải pháp toàn diện. Chúng hiệu quả cho một số mục đích cụ thể, như truy cập dịch vụ bị hạn chế địa lý hoặc cải thiện bảo mật khi đi du lịch, nhưng không đảm bảo sự bảo mật tuyệt đối. Khi chọn VPN, quan trọng là ưu tiên độ tin cậy và tính năng kỹ thuật hơn là sự phổ biến. Các nhà cung cấp VPN thu thập ít thông tin cá nhân nhất thường là an toàn nhất. Dịch vụ như iVPN và Mullvad không thu thập thông tin cá nhân và thậm chí cho phép thanh toán bằng Bitcoin để tăng cường sự riêng tư.
-![](assets/en/9.webp)
+![](assets/notext/9.webp)
 Cuối cùng, VPN cũng có thể được sử dụng để chặn quảng cáo trực tuyến, mang lại trải nghiệm duyệt web thú vị và an toàn hơn. Tuy nhiên, điều quan trọng là phải tự mình nghiên cứu để tìm ra công cụ VPN phù hợp nhất với nhu cầu cụ thể của bạn. Người dùng được khuyến nghị sử dụng VPN để tăng cường bảo mật, ngay cả khi duyệt web tại nhà. Điều này giúp đảm bảo mức độ bảo mật cao hơn cho dữ liệu trao đổi trực tuyến. Cuối cùng, hãy đảm bảo rằng bạn đã kiểm tra URL và biểu tượng ổ khóa nhỏ trong thanh địa chỉ để xác nhận việc bạn đang truy cập vào trang web mà bạn muốn.
 
 ### HTTPS & mạng Wi-Fi công cộng
@@ -158,11 +160,11 @@ Bảo mật cho máy tính của chúng ta là một mối quan tâm lớn trong
 ### Lựa chọn máy tính và hệ điều hàn
 
 Về việc lựa chọn máy tính, không có sự khác biệt đáng kể về bảo mật giữa máy tính cũ và mới. Tuy nhiên, có sự khác biệt về bảo mật giữa các hệ điều hành: Windows, Linux và Mac.
-![](assets/en/11.webp)
+![](assets/notext/11.webp)
 Về Windows, bạn được khuyến nghị không sử dụng tài khoản quản trị vào các hoạt động hàng ngày, mà nên tạo hai tài khoản riêng biệt: một tài khoản quản trị và một tài khoản cho việc sử dụng hàng ngày. Windows thường xuyên "phơi mình" trước các phần mềm độc hại hơn do số lượng người dùng lớn và dễ dàng chuyển đổi từ vài trò người dùng sang quản trị. Ngược lại, mối đe dọa này ít phổ biến hơn trên Linux và Mac.
 
 Lựa chọn hệ điều hành nên dựa trên nhu cầu và sở thích của bạn. Hệ thống Linux đã phát triển đáng kể trong những năm gần đây, và trở nên thân thiện với người dùng hơn. Ubuntu là một lựa chọn thú vị cho người mới bắt đầu, với giao diện đồ họa dễ sử dụng. Có thể phân vùng máy tính để thử nghiệm Linux trong khi vẫn giữ hệ điều hành Windows, việc có thể phức tạp một chút. Tốt nhất là có một máy tính chuyên dụng, máy ảo, hoặc USB để thử nghiệm Linux hoặc Ubuntu.
-![](assets/en/12.webp)
+![](assets/notext/12.webp)
 
 ### Cập nhật phần mềm
 Về việc cập nhật phần mềm, quy tắc rất đơn giản: **điều quan trọng là cần phải cập nhật hệ điều hành và các ứng dụng một cách thường xuyên.**
@@ -179,7 +181,7 @@ Ví dụ như: phần mềm bị bẻ khoá không thể được cập nhật, 
 
 Việc chọn lựa và sử dụng một phần mềm diệt vi rút là rất quan trọng. Windows Defender, phần mềm diệt vi rút tích hợp trong Windows, là một giải pháp an toàn và hiệu quả. Mặc dù là một giải pháp miễn phí, nó rất tốt và tốt hơn nhiều so với nhiều giải pháp miễn phí mà bạn tìm thấy trên internet. Thực vậy, cần phải thận trọng với phần mềm diệt vi rút tải xuống từ Internet, vì chúng có thể là phầm mềm độc hại hoặc lỗi thời.
 Nếu muốn đầu tư vào một phần mềm diệt vi rút trả phí, bạn được khuyến nghị chọn một phần mềm diệt vi rút có sự phân tích kỹ càng các mối đe dọa không rõ và mới nổi, như Kaspersky. Cập nhật phần mềm diệt vi rút là cần thiết để bảo vệ máy tính của bạn khỏi các mối đe dọa mới.
-![](assets/en/13.webp)
+![](assets/notext/13.webp)
 > Lưu ý: Linux và Mac, nhờ hệ thống phân chia quyền người dùng của họ, thường không cần phần mềm chống virus.
 
 Cuối cùng, đây là một số thói quen tốt cho sự an toàn của máy tính và dữ liệu của bạn. Quan trọng là chọn một phần mềm diệt vi rút hiệu quả và dễ sử dụng. Việc áp dụng các thói quen sử dụng tốt trên máy tính của bạn, như không cắm USB không rõ nguồn gốc hoặc đáng ngờ vào máy của bạn, cũng là điều rất quan trọng. Những USB này có thể chứa các chương trình độc hại có khả năng tự động khởi chạy khi được cắm vào. Việc kiểm tra USB sẽ là vô ích một khi nó đã được cắm vào. Một số công ty đã trở thành nạn nhân của những vụ hack do USB bị cẩu thả bỏ quên trong các khu vực dễ tiếp cận, như bãi đậu xe.
@@ -212,7 +214,7 @@ Quy tắc vàng ở đây là kiểm tra kỹ tên đầy đủ của người g
 ### Tấn công mã độc và các loại tấn công mạng:
 
 Mã độc - ransomware là một loại phần mềm độc hại được dùng để mã hóa dữ liệu của người dùng và yêu cầu tiền chuộc để giải mã. Loại tấn công này ngày càng phổ biến và có thể gây rắc rối lớn cho một công ty hoặc cá nhân. Để bảo vệ bản thân, bạn cần tạo ra các bản sao lưu cho những tệp tin quan trọng nhất! Điều này sẽ không ngăn chặn được những cuộc tấn công mã độc, nhưng nó cho phép bạn phản ứng một cách rất đơn giản, đó là bỏ qua nó.
-![](assets/en/14.webp)
+![](assets/notext/14.webp)
 Bạn cần thường xuyên sao lưu dữ liệu quan trọng của mình vào một thiết bị lưu trữ bên ngoài hoặc một dịch vụ lưu trữ trực tuyến an toàn. Như vậy, trong trường hợp bị tấn công mạng hoặc hỏng hóc phần cứng, bạn có thể khôi phục dữ liệu mà không mất thông tin quan trọng.
 
 Giải pháp đơn giản:
@@ -244,7 +246,7 @@ Cho dù chúng ta đã có một tài khoản email, điều quan trọng là c�
 ### Chọn nhà cung cấp dịch vụ email và quản lý địa chỉ email
 
 Việc quản lý địa chỉ email của chúng ta một cách cẩn thận là rất quan trọng để đảm bảo an toàn cho quá trình truy cập trực tuyến của chúng ta. Quan trọng là phải chọn được một nhà cung cấp dịch vụ email an toàn và tôn trọng quyền riêng tư. Ví dụ, ProtonMail là một dịch vụ email an toàn và tôn trọng quyền riêng tư.
-![](assets/en/15.webp)
+![](assets/notext/15.webp)
 Khi chọn một nhà cung cấp email và tạo mật khẩu, bạn cần lưu ý là không bao giờ dùng một mật khẩu chung cho các dịch vụ trực tuyến khác nhau. Nên thường xuyên tạo địa chỉ email mới và phân loại các nhu cầu sử dụng riêng ra bằng cách dùng các địa chỉ email khác nhau. Ưu tiên chọn dịch vụ email an toàn cho các tài khoản quan trọng. Cũng cần lưu ý rằng một số dịch vụ giới hạn độ dài của mật khẩu, vì vậy quan trọng là phải biết về hạn chế này. Ngoài ra, cũng có các dịch vụ có sẵn để tạo địa chỉ email tạm thời, có thể được sử dụng cho các tài khoản có thời hạn.
 
 Quan trọng là phải hiểu rằng các nhà cung cấp email cũ như La Poste, Arobase, Wig, Hotmail, vẫn được sử dụng, nhưng các phương pháp bảo mật của họ có thể không tốt bằng Gmail. Do đó, nên có hai địa chỉ email riêng biệt, một cho giao tiếp chung và một cho khôi phục tài khoản, và loại địa chỉ email sau cần được bảo mật tốt hơn. Tốt nhất là tránh kết hợp địa chỉ email với nhà cung cấp dịch vụ điện thoại hoặc nhà cung cấp dịch vụ internet của bạn, vì điều này có thể trở thành một hướng tấn công tiềm năng.
@@ -252,7 +254,7 @@ Quan trọng là phải hiểu rằng các nhà cung cấp email cũ như La Pos
 ### Tôi có nên thay đổi tài khoản email không?
 
 Nên sử dụng trang web Have I Been Pwned (https://haveibeenpwned.com/) để kiểm tra xem địa chỉ email của chúng ta có bị xâm phạm không và được thông báo về các vi phạm dữ liệu trong tương lai. Một cơ sở dữ liệu bị xâm phạm có thể bị hacker khai thác để gửi email lừa đảo hoặc tái sử dụng mật khẩu bị xâm phạm.
-![](assets/en/16.webp)
+![](assets/notext/16.webp)
 Nói chung, bắt đầu sử dụng một địa chỉ email mới, an toàn hơn không phải là một việc gì đó quá tệ và thậm chí là rất cần thiết nếu muốn bắt đầu lại trên một nền tảng lành mạnh hơn.
 Bitcoin Bonus: Có thể nên tạo một địa chỉ email cụ thể cho các hoạt động Bitcoin của chúng ta (tạo tài khoản giao dịch) để thực sự tách biệt các lĩnh vực trong cuộc sống của chúng ta.
 
@@ -274,13 +276,13 @@ Với trình quản lý mật khẩu, bạn không còn phải lo lắng về vi
 - LastPass: Một trong những trình quản lý phổ biến nhất. Đây là một dịch vụ của bên thứ ba, có nghĩa là mật khẩu của bạn được lưu trữ trên máy chủ của họ. Họ cung cấp một phiên bản miễn phí và một phiên bản trả phí, có giao diện thân thiện với người dùng.
 
 - Dashlane: Cũng là một dịch vụ bên thứ ba, với giao diện trực quan và các tính năng bổ sung như theo dõi thông tin thẻ tín dụng và ghi chú an toàn.
-![](assets/en/17.webp)
+![](assets/notext/17.webp)
 ### Tự lưu trữ để kiểm soát nhiều hơn:
 
 - Bitwarden: Là một công cụ mã nguồn mở, có nghĩa là bạn có thể xem xét mã nguồn của nó để xác minh tinhs bảo mật. Mặc dù Bitwarden cung cấp một dịch vụ lưu trữ hộ, họ cũng cho phép người dùng tự lưu trữ, có nghĩa là bạn có thể kiểm soát nơi mật khẩu của mình được lưu trữ, có thể mạng lại sự bảo mật và kiểm soát cao hơn.
 
 - KeePass: Là một giải pháp mã nguồn mở chủ yếu dành cho tự lưu trữ. Dữ liệu của bạn được lưu trữ cục bộ theo mặc định, nhưng bạn có thể đồng bộ hóa cơ sở dữ liệu mật khẩu bằng các phương pháp khác nếu bạn muốn. KeePass được công nhận rộng rãi vì khả năng bảo mật và sự linh hoạt của nó, mặc dù nó có thể ít thân thiện với người mới bắt đầu.
-![](assets/en/18.webp)
+![](assets/notext/18.webp)
 (Note: Việc lựa chọn giữa một dịch vụ của bên thứ ba hoặc một dịch vụ tự lưu trữ phụ thuộc vào mức độ thoải mái và kỹ năng về công nghệ của bạn cũng như thứ tự ưu tiên của bạn giữa sự kiểm soát và tính tiện ích. Dịch vụ của bên thứ ba thường tiện lợi hơn đối với hầu hết mọi người, trong khi tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn nhưng có thể mang lại quyền kiểm soát và sự bảo mật cao hơn.)
 
 ### Điều gì tạo nên một mật khẩu tốt:
@@ -322,7 +324,7 @@ Bước thứ hai này có thể là:
 - Một mã tạm thời được gửi qua SMS.
 - Một mã được tạo bởi một ứng dụng như Google Authenticator hoặc Authy.
 - Một khóa bảo mật vật lý mà bạn cắm vào máy tính của mình.
-![](assets/en/19.webp)
+![](assets/notext/19.webp)
 Với 2FA, ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể nào truy cập vào tài khoản của bạn mà không có yếu tố xác minh thứ hai này. Điều này làm cho 2FA trở nên rất thiết yếu trong việc bảo vệ các tài khoản trực tuyến của bạn nhằm tránh việc truy cập trái phép.
 
 ### Lựa chọn phương án nào?
@@ -389,7 +391,7 @@ Sự phát triển liên tục của các mối đe dọa đòi hỏi bạn ph�
 - Quản trị: Tiêu chuẩn ISO, quy định GDPR/CCPA.
 
 Khi thành thạo những kỹ năng và các công cụ này, bạn sẽ được trang bị tốt để gặt hái được thành công trong ngành an ninh mạng.
-![](assets/en/20.webp)
+![](assets/notext/20.webp)
 ## Phỏng vấn với Renaud
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
@@ -398,7 +400,7 @@ Trong mô-đun đào tạo "An ninh mạng 101" do Découvre Bitcoin cung cấp 
 Thông thường việc sử dụng tiện ích mở rộng trên trình duyệt để tự động điền mật khẩu không được khuyến khích. Những công cụ này có thể làm cho người dùng dễ bị tấn công giả mạo hơn. Renaud, một chuyên gia được công nhận trong lĩnh vực an ninh mạng, ưa thích quản lý thủ công bằng cách sử dụng KeePass, điều này đòi hỏi phải sao chép và dán mật khẩu một cách thủ công. Các tiện ích mở rộng có xu hướng tăng bề mặt tấn công, có thể làm chậm hiệu suất trình duyệt và do đó mang đến một rủi ro đáng kể. Bởi vậy, tốt nhất là chỉ nên sử dụng một số rất ít các tiện ích mở rộng cần thiết trên trình duyệt.
 
 Các trình quản lý mật khẩu thường khuyến khích sử dụng các yếu tố xác thực bổ sung, như xác thực hai yếu tố. Để đảm bảo an ninh tối ưu, nên giữ OTPs (Mật khẩu dùng một lần) trên thiết bị di động của bạn. AndoTP cung cấp một giải pháp mã nguồn mở để tạo và lưu trữ mã OTP trên điện thoại của bạn. Trong khi Google Authenticator cho phép xuất mã gieo xác thực, mức độ tin tưởng vào việc sao lưu trên tài khoản Google vẫn hạn chế. Do đó, các ứng dụng OTI và AndoTP được khuyến nghị cho việc quản lý OTP một cách tự chủ.
-![](assets/en/21.webp)
+![](assets/notext/21.webp)
 Vấn đề về di sản và thừa kế số cho thấy tầm quan trọng của việc có một thủ tục để chuyển giao mật khẩu sau khi một người qua đời. Một trình quản lý mật khẩu giúp quá trình chuyển giao này diễn ra một cách an toàn bằng cách lưu trữ tất cả bí mật số trong một nơi. Trình quản lý mật khẩu cũng cho phép xác định tất cả các tài khoản mở và quản lý việc đóng cửa hoặc chuyển giao chúng. Bạn nên viết mật khẩu chính trên giấy, và nó nên được giữ ở một vị trí kín đáo và an toàn. Nếu ổ cứng được mã hóa và máy tính bị khóa, mật khẩu sẽ không thể truy cập được, ngay cả trong trường hợp bị trộm.
 
 ### Hướng tới kỷ nguyên hậu mật khẩu: Khám phá các lựa chọn thay thế đáng tin cậy

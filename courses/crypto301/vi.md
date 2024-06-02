@@ -17,8 +17,10 @@ Khóa học này không chỉ trang bị cho bạn kiến thức để hiểu v�
 +++
 
 # Giới thiệu
+<partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
 
 ## Giới thiệu về Mật mã học
+<chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
 ### Khóa học này có dành cho bạn không? CÓ!
 
@@ -43,8 +45,10 @@ Với những nền tảng vững chắc này, chúng ta sẽ sẵn sàng cho ph
 Hãy tham gia cùng tôi trong hành trình hấp dẫn này, và chuẩn bị sẵn sàng để khám phá thế giới của mật mã học như chưa từng có trước đây. Bỏ lại những quan niệm trước cửa và mở lòng mình với một cách hiểu mới về Bitcoin và cấu trúc cơ bản của nó.
 
 # Hàm Băm
+<partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
 
 ## Giới thiệu về hàm băm mật mã liên quan đến Bitcoin
+<chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
 Chào mừng bạn đến với phiên hôm nay, dành riêng cho việc đắm chìm sâu vào thế giới mật mã của hàm băm, một trụ cột quan trọng của bảo mật giao thức Bitcoin. Hãy tưởng tượng hàm băm như một robot giải mã mật mã cực kỳ hiệu quả, biến đổi thông tin với bất kỳ kích thước nào thành một dấu vân tay số duy nhất và cố định, được gọi là "hash," "digest," hoặc "checksum."
 Tóm lại, hàm băm nhận một thông điệp đầu vào với kích thước tùy ý và chuyển đổi nó thành một dấu vân tay đầu ra cố định.
@@ -83,6 +87,7 @@ Tóm lại, mục tiêu cuối cùng của một hàm băm mật mã là biến 
 Kết thúc cuộc khám phá này, chúng ta đã làm sáng tỏ các hàm băm mật mã, nêu bật các ứng dụng của chúng trong giao thức Bitcoin, và phân tích các mục tiêu cụ thể của chúng. Chúng ta đã học được rằng để các hàm băm được coi là an toàn, chúng phải chống lại ảnh trước, ảnh trước thứ hai, va chạm, và can thiệp. Chúng ta cũng đã bao quát các loại hàm băm khác nhau được sử dụng trong giao thức Bitcoin. Trong phiên tiếp theo, chúng ta sẽ đi sâu vào cốt lõi của hàm băm SHA256 và khám phá những toán học thú vị tạo nên đặc điểm độc đáo của nó.
 
 ## Cơ Chế Hoạt Động của SHA256
+<chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
 Chào mừng bạn đến với tiếp tục hành trình thú vị qua mê cung mật mã của hàm băm. Hôm nay, chúng ta sẽ khám phá bí mật của SHA256, một quy trình phức tạp nhưng tài tình mà chúng ta đã giới thiệu trước đó.
 
@@ -221,6 +226,7 @@ Chúng ta có thể nhận thấy rằng đầu ra của mảnh thông điệp 5
 Kết luận, chúng tôi muốn nhấn mạnh vai trò quan trọng của các phép tính được thực hiện trong các hộp CH, MAJ, σ0, và σ1. Những hoạt động này, cùng với những hoạt động khác, là những người bảo vệ đảm bảo sự kiên cố của hàm băm SHA256 chống lại các cuộc tấn công, làm cho nó trở thành lựa chọn ưu tiên để bảo vệ nhiều hệ thống số, đặc biệt là trong giao thức Bitcoin. Rõ ràng, mặc dù phức tạp, vẻ đẹp của SHA256 nằm ở khả năng tìm ra đầu vào từ băm, trong khi việc xác minh băm cho một đầu vào cho trước là một hành động cơ học đơn giản.
 
 ## Các thuật toán được sử dụng cho việc suy ra
+<chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
 Các thuật toán suy ra HMAC và PBKDF2 là các thành phần chính trong cơ chế bảo mật của giao thức Bitcoin. Chúng ngăn chặn một loạt các cuộc tấn công tiềm năng và đảm bảo tính toàn vẹn của ví Bitcoin.
 HMAC và PBKDF2 là các công cụ mật mã được sử dụng cho các nhiệm vụ khác nhau trong Bitcoin. HMAC chủ yếu được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi suy ra ví Định Hình Phân Cấp (HD), trong khi PBKDF2 được sử dụng để chuyển đổi cụm từ ghi nhớ thành một hạt giống.
@@ -256,8 +262,10 @@ Một cuộc tấn công mở rộng độ dài khai thác một tính chất c�
 Kết luận, các thuật toán HMAC và PBKDF2 đóng vai trò quan trọng trong bảo mật của việc phát sinh ví HD trong giao thức Bitcoin. HMAC-SHA-512 được sử dụng để bảo vệ chống lại các cuộc tấn công mở rộng độ dài, trong khi PBKDF2 cho phép chuyển đổi cụm từ ghi nhớ thành hạt giống. Mã chuỗi thêm một nguồn entropy bổ sung trong việc phát sinh khóa, đảm bảo sự vững chắc của hệ thống.
 
 # Chữ ký số
+<partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
 
 ## Chữ ký số và Đường cong Elliptic
+<chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
 Những bitcoin nổi tiếng này được lưu trữ ở đâu? Không phải trong một ví Bitcoin, như một số người có thể nghĩ. Trên thực tế, một ví Bitcoin lưu trữ các khóa riêng cần thiết để chứng minh quyền sở hữu của bitcoin. Chính bitcoin được ghi lại trên blockchain, một cơ sở dữ liệu phi tập trung lưu trữ tất cả các giao dịch.
 
@@ -299,6 +307,7 @@ Phương trình của đường cong elliptic trong Bitcoin tương ứng với 
 Trong phần tiếp theo của khóa học này, chúng ta sẽ sử dụng các đường cong trên trường số thực chỉ để dễ dàng hiểu hơn.
 
 ## Tính khóa công khai từ khóa riêng
+<chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 
 Đầu tiên, hãy khám phá thế giới của Elliptic Curve Digital Signature Algorithm (ECDSA). Bitcoin sử dụng thuật toán chữ ký số này để liên kết khóa riêng và khóa công khai. Trong hệ thống này, khóa riêng là một số 256-bit ngẫu nhiên hoặc giả ngẫu nhiên. Tổng số khả năng cho một khóa riêng lý thuyết là 2^256, nhưng thực tế, nó ít hơn một chút. Để chính xác, một số khóa riêng 256-bit không hợp lệ cho Bitcoin.
 Để tương thích với Bitcoin, một khóa riêng phải nằm trong khoảng từ 1 đến n-1, nơi n biểu thị thứ tự của đường cong elliptic. Điều này có nghĩa là tổng số khả năng cho một khóa riêng Bitcoin gần bằng 1.158 x 10^77. Để đặt vào một góc nhìn, số lượng này tương đương với số lượng nguyên tử có mặt trong vũ trụ quan sát được.
@@ -366,6 +375,7 @@ Biết khóa riêng k, việc tính toán khóa công khai K là dễ dàng. Tuy
 Trong bài học tiếp theo, chúng ta sẽ khám phá cách tạo một chữ ký số sử dụng thuật toán ECDSA với khóa riêng để chi tiêu bitcoin.
 
 ## Ký bằng khóa riêng
+<chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
 Quy trình chữ ký số là một phương pháp chính để chứng minh rằng bạn là người giữ khóa riêng mà không tiết lộ nó. Điều này được thực hiện sử dụng thuật toán ECDSA, bao gồm việc xác định một nonce duy nhất, tính toán một số cụ thể V, và tạo một chữ ký số gồm hai phần, S1 và S2.
 Luôn luôn sử dụng một nonce duy nhất là rất quan trọng để tránh các cuộc tấn công an ninh. Một ví dụ nổi tiếng về điều gì có thể xảy ra khi quy tắc này không được tuân thủ là việc hack PlayStation 3, đã bị xâm phạm do việc tái sử dụng nonce.
@@ -443,8 +453,10 @@ Kết luận, xác minh chữ ký số là một thủ tục thiết yếu trong
 Điều đó được nói, việc quản lý những khóa này, cũng như việc tạo ra chúng, là một câu hỏi thiết yếu khác trong Bitcoin. Làm thế nào để tạo ra một cặp khóa mới? Làm thế nào để tổ chức một cách an toàn và hiệu quả một lượng lớn khóa? Làm thế nào để khôi phục chúng nếu cần thiết?
 Để trả lời những câu hỏi này và mở rộng hiểu biết của bạn về bảo mật mã hóa, khóa học tiếp theo của chúng tôi sẽ tập trung vào khái niệm về Ví Phân Cấp Xác Định (Hierarchical Deterministic Wallets - HD wallets) và việc sử dụng cụm từ ghi nhớ. Những cơ chế này cung cấp những cách thức tinh tế để quản lý hiệu quả các khóa tiền mã hóa của bạn trong khi tăng cường bảo mật.
 # Cụm từ ghi nhớ
+<partId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</partId>
 
 ## Sự phát triển của ví Bitcoin
+<chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
 Ví Phân Cấp Xác Định, thường được biết đến với tên là HD wallet, đóng một vai trò nổi bật trong hệ sinh thái tiền mã hóa. Thuật ngữ "ví" có thể gây hiểu nhầm cho những người mới tham gia lĩnh vực này, vì nó không liên quan đến việc giữ tiền hoặc các loại tiền tệ. Thay vào đó, nó đề cập đến một bộ sưu tập các khóa riêng tư mã hóa.
 
@@ -462,6 +474,7 @@ Trong các phần tiếp theo, chúng ta sẽ đi sâu hơn vào cách thức ho
 Tóm lại, điều quan trọng cần nhấn mạnh là vai trò trung tâm của BIP32 và BIP39 trong thiết kế và bảo mật của HD wallets. Những giao thức này cho phép sinh ra nhiều khóa từ một hạt giống duy nhất, được cho là một số ngẫu nhiên hoặc giả ngẫu nhiên. Ngày nay, những tiêu chuẩn này được áp dụng bởi đa số ví tiền mã hóa, dù chúng dành riêng cho một loại tiền mã hóa hay hỗ trợ nhiều loại tiền tệ.
 
 ## Entropy và Sinh Số Ngẫu Nhiên
+<chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 Tầm quan trọng của việc bảo mật khóa riêng trong hệ sinh thái Bitcoin là không thể phủ nhận. Chúng thực sự là viên gạch nền tảng đảm bảo an ninh cho các giao dịch Bitcoin. Để tránh bất kỳ sự dễ bị tấn công nào liên quan đến tính dự đoán, những khóa này phải được tạo ra một cách hoàn toàn ngẫu nhiên, điều này có thể nhanh chóng trở thành một công việc cực kỳ vất vả. Vấn đề là trong khoa học máy tính, việc tạo ra một số ngẫu nhiên thực sự là không thể, vì nó nhất thiết phải được suy ra từ một quá trình xác định; một đoạn mã. Đó là lý do tại sao việc tìm hiểu về các loại Bộ Sinh Số Ngẫu Nhiên (Random Number Generators - RNG) khác nhau là rất quan trọng. Các loại RNG thay đổi, từ Bộ Sinh Số Ngẫu Nhiên Giả (Pseudo-Random Number Generators - PRNG) đến Bộ Sinh Số Ngẫu Nhiên Thực (True Random Number Generators - TRNG), cũng như PRNGs kết hợp một nguồn entropy.
 
 Entropy đề cập đến trạng thái "hỗn loạn" của một hệ thống. Từ một entropy bên ngoài, tức là một nguồn thông tin bên ngoài, có thể sử dụng một bộ sinh số ngẫu nhiên để thu được một số ngẫu nhiên.
@@ -491,6 +504,7 @@ Một ví dụ về hàm biến đổi là hàm PBKDF2.
 Trong trường hợp của Bitcoin, khóa riêng được tạo ra từ một mẩu thông tin duy nhất tại cơ sở của ví. Thông tin này cho phép sự phái sinh xác định và phân cấp của các cặp khóa con. Entropy là nền tảng của mọi ví HD (Hierarchical Deterministic), mặc dù không có tiêu chuẩn nào cho việc tạo ra số ngẫu nhiên này. Do đó, việc tạo ra số ngẫu nhiên là một thách thức lớn trong việc bảo mật các giao dịch Bitcoin.
 
 ## Cụm từ ghi nhớ
+<chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 
 An ninh của một ví Bitcoin là mối quan tâm lớn đối với tất cả người dùng của nó. Một cách thiết yếu để đảm bảo sao lưu ví là tạo ra một cụm từ ghi nhớ dựa trên entropy và checksum.
 
@@ -521,6 +535,7 @@ Việc sao lưu cụm từ khôi phục 24 từ là cần thiết để bảo to
 Kết luận, việc tạo ra một cụm từ ghi nhớ để bảo vệ ví Bitcoin là một quá trình quan trọng. Việc tuân thủ các tiêu chuẩn của cụm từ ghi nhớ dựa trên kích thước của entropy là quan trọng. Sao lưu cụm từ khôi phục 24 từ là cần thiết để ngăn chặn bất kỳ sự mất mát tiền bạc nào.
 
 ## Cụm từ bí mật
+<chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
 Cụm từ bí mật là một mật khẩu bổ sung có thể được tích hợp vào ví Bitcoin để tăng cường bảo mật của nó. Việc sử dụng nó là tùy chọn và tùy thuộc vào quyết định của người dùng. Bằng cách thêm thông tin tùy ý mà, cùng với cụm từ ghi nhớ, cho phép tính toán hạt giống của ví, cụm từ bí mật tăng cường bảo mật của nó.
 
@@ -542,7 +557,9 @@ Việc chăm sóc sao lưu cụm từ bí mật là rất quan trọng để tr�
 
 Trong bài học tiếp theo, chúng ta sẽ xem xét chi tiết về cách hoạt động của hạt giống và cặp khóa đầu tiên được tạo ra từ nó. Hãy tiếp tục theo dõi khóa học này để tiếp tục học hỏi. Chúng tôi mong được gặp lại bạn rất sớm.
 # Tạo Ví Bitcoin
+<partId>9c25e767-7eae-50b8-8c5f-679d8fc83bab</partId>
 ## Tạo Seed và Master Key
+<chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
 Trong phần này của khóa học, chúng ta sẽ khám phá các bước để tạo ra một Ví Định Hình Phân Cấp (HD Wallet), cho phép việc tạo và quản lý các khóa riêng tư và công khai một cách có hệ thống và định hình.
 
@@ -568,6 +585,7 @@ Quan trọng là phải lưu ý rằng master private key là khóa riêng tư �
 Trong bài học tiếp theo, chúng ta sẽ khám phá chi tiết về các khóa mở rộng, như xPub, xPRV, zPub, và hiểu tại sao chúng được sử dụng và cách chúng được xây dựng.
 
 ## Khóa Mở Rộng
+<chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
 Trong phần này của bài học, chúng ta sẽ nghiên cứu về các khóa mở rộng (xPub, zPub, yPub) và các tiền tố của chúng, đóng vai trò quan trọng trong việc dẫn xuất các khóa con trong một Ví Định Hình Phân Cấp (HD Wallet).
 
@@ -601,6 +619,7 @@ Các quá trình tạo ra nâng cao bắt đầu từ các chỉ số là lũy t
 Trong bài học tiếp theo, chúng ta sẽ tập trung vào quá trình tạo ra các cặp khóa con sử dụng kiến thức đã học về các khóa mở rộng và khóa chính của ví.
 
 ## Quá trình tạo ra các cặp khóa con
+<chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
 Như đã nhắc nhở, chúng ta đã thảo luận về việc tính toán hạt giống và khóa chính, đó là các yếu tố thiết yếu đầu tiên cho tổ chức phân cấp và quá trình tạo ra của ví HD (Hierarchical Deterministic). Hạt giống, với độ dài từ 128 đến 256 bit, được tạo ra một cách ngẫu nhiên hoặc từ một cụm từ bí mật. Nó đóng vai trò quyết định trong quá trình tạo ra tất cả các khóa khác. Khóa chính là khóa đầu tiên được tạo ra từ hạt giống, và nó cho phép tạo ra tất cả các cặp khóa con khác.
 
@@ -631,6 +650,7 @@ Quá trình củng cố sử dụng khóa riêng tư cha, trong khi quá trình 
 Việc tạo ra và tạo ra nhiều cặp khóa một cách có hệ thống theo cấp bậc cho phép tạo ra một cấu trúc cây cho quá trình tạo ra theo cấp bậc. Trong bài học tiếp theo của khóa học này, chúng ta sẽ nghiên cứu cấu trúc của ví HD cũng như các đường dẫn tạo ra, với một sự tập trung đặc biệt vào ký hiệu đường dẫn tạo ra.
 
 ## Cấu Trúc Ví và Đường Dẫn Tạo Ra
+<chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
 Trong chương này, chúng ta sẽ nghiên cứu cấu trúc của cây tạo ra trong một Ví Định Hình Phân Cấp (HD Wallet). Chúng ta đã khám phá tính toán hạt giống, khóa chính, và quá trình tạo ra các cặp khóa con. Bây giờ, chúng ta sẽ tập trung vào việc tổ chức các khóa trong ví.
 
@@ -661,8 +681,10 @@ Khóa mở rộng, như XPUB, cho phép bạn chia sẻ ví của mình với nh
 Trong chương tiếp theo, chúng ta sẽ nghiên cứu về địa chỉ nhận, lợi ích của việc sử dụng chúng, và các bước liên quan trong việc xây dựng chúng.
 
 # Địa chỉ Bitcoin là gì?
+<partId>81ec8d17-f8ee-5aeb-8035-d370866f4281</partId>
 
 ## Địa chỉ Bitcoin
+<chapterId>0a887ed8-3424-5a52-98e1-e4b406150475</chapterId>
 
 Trong chương này, chúng ta sẽ khám phá các địa chỉ nhận, đóng vai trò quan trọng trong hệ thống Bitcoin. Chúng cho phép tiền được nhận trong một giao dịch và được tạo ra từ các cặp khóa riêng và khóa công khai. Mặc dù có một loại script gọi là Pay2PublicKey cho phép khóa bitcoin vào một khóa công khai, người dùng thường thích sử dụng địa chỉ nhận thay vì script này.
 
@@ -683,6 +705,7 @@ Rất quan trọng phải nhấn mạnh rằng mỗi địa chỉ chỉ nên đ�
 Các tiền tố khác nhau được sử dụng cho địa chỉ Bitcoin. Ví dụ, BC1Q tương ứng với địa chỉ Segwit V0, BC1P tương ứng với địa chỉ Taproot/Segwit V1, và các tiền tố 1 và 3 được liên kết với địa chỉ Pay2PublicKeyH/Pay2ScriptH (legacy). Trong bài học tiếp theo, chúng ta sẽ giải thích từng bước cách phái sinh một địa chỉ từ một khóa công khai.
 
 ## Làm thế nào để tạo một địa chỉ Bitcoin?
+<chapterId>6dee7bf3-7767-5f8d-a01b-659b95cfe0a5</chapterId>
 
 Trong chương này, chúng ta sẽ thảo luận về việc xây dựng một địa chỉ nhận cho các giao dịch Bitcoin. Một địa chỉ nhận là một biểu diễn chữ và số của một khóa công khai nén. Việc chuyển đổi một khóa công khai thành một địa chỉ nhận bao gồm nhiều bước.
 
@@ -744,8 +767,10 @@ Màu đen, payload = băm của khóa công khai.
 Màu xanh, phiên bản.
 Mọi thứ đều được chuyển đổi thành Bech32, sau đó thêm 'bc' cho bitcoin và '1' làm dấu phân cách, và đây là địa chỉ.
 # Tiếp tục
+<partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Tạo một seed từ 128 lần lắc xúc xắc!
+<chapterId>0f4d40a7-cf0e-5faf-bc4d-691486771ac1</chapterId>
 
 Việc tạo ra một cụm từ ghi nhớ là bước quan trọng trong việc bảo vệ ví tiền mã hóa của bạn. Có một số phương pháp để tạo ra cụm từ ghi nhớ, tuy nhiên, chúng ta sẽ tập trung vào phương pháp tạo ra thủ công sử dụng xúc xắc. Quan trọng là phải lưu ý rằng phương pháp này không phù hợp cho ví có giá trị cao. Được khuyến nghị sử dụng phần mềm mã nguồn mở hoặc ví cứng để tạo ra cụm từ ghi nhớ. Để tạo ra một cụm từ ghi nhớ, chúng ta sẽ sử dụng xúc xắc để tạo ra thông tin nhị phân. Mục tiêu là hiểu quy trình tạo ra cụm từ ghi nhớ.
 
@@ -771,12 +796,14 @@ Ngay lập tức kiểm tra cụm từ ghi nhớ của bạn trên Sparrow Walle
 Tạo ra một cụm từ ghi nhớ là một quá trình quan trọng để bảo mật ví tiền điện tử của bạn. Được khuyến nghị sử dụng các phương pháp an toàn hơn, như sử dụng phần mềm mã nguồn mở hoặc ví cứng, để tạo ra cụm từ ghi nhớ. Tuy nhiên, việc hoàn thành xưởng này giúp hiểu rõ hơn về cách chúng ta có thể tạo một ví Bitcoin từ một số ngẫu nhiên.
 
 ## BONUS: Phỏng vấn với Théo Pantamis
+<chapterId>39f0ec5a-e258-55cb-9789-bc46d314d816</chapterId>
 
 Một phương pháp mã hóa khác được sử dụng rộng rãi trên giao thức Bitcoin là phương pháp của chữ ký số.
 
 ![video](https://youtu.be/c9MvtGJsEvY?si=bQ1N5NCd6op0G6nW)
 
 ## Kết luận và Kết thúc
+<chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
 
 ### Cảm ơn và tiếp tục khám phá hố thỏ
 

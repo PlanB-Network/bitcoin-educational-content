@@ -21,8 +21,10 @@ Nếu bạn cần sự giúp đỡ với thiết lập của mình, một nhóm 
 +++
 
 # Giới thiệu
+<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
 ## Chào mừng!
+<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 Chào mừng bạn đến với MINING 201: một giới thiệu về việc đào mỏ. Ajelex, Jim & Rogzy rất vui mừng được đồng hành cùng bạn trong những bước cụ thể đầu tiên trong ngành công nghiệp mới này. Chúng tôi hy vọng bạn sẽ thích khóa học và tham gia vào cuộc phiêu lưu của việc đào mỏ tại nhà!
 
@@ -57,6 +59,7 @@ Sẵn sàng tham gia vào cuộc phiêu lưu hấp dẫn này? Hãy cùng nhau k
 # Tất cả những gì Bạn Cần Biết về Việc Đào Mỏ
 
 ## Giải thích về Việc Đào Mỏ
+<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
 ### Giải thích Đào Mỏ: Ẩn Dụ về Câu Đố
 Để giải thích khái niệm đào mỏ một cách đơn giản, có thể sử dụng một phép so sánh phù hợp: đó là câu đố. Giống như một câu đố, việc đào mỏ là một nhiệm vụ phức tạp để thực hiện nhưng dễ dàng để xác minh một khi đã hoàn thành. Trong bối cảnh của việc đào Bitcoin, các thợ mỏ cố gắng giải quyết một câu đố số học một cách nhanh chóng. Thợ mỏ đầu tiên giải quyết được câu đố trình bày giải pháp của họ cho toàn bộ mạng lưới, mà sau đó có thể dễ dàng xác minh tính hợp lệ của nó. Việc xác minh thành công này cho phép thợ mỏ xác nhận một khối mới và thêm nó vào Chuỗi Thời gian Bitcoin. Để ghi nhận công việc của họ, bao gồm chi phí đáng kể, thợ mỏ được thưởng một số lượng nhất định bitcoins. Phần thưởng này phục vụ như một động lực tài chính cho thợ mỏ tiếp tục công việc xác nhận giao dịch và bảo vệ mạng lưới Bitcoin.
@@ -96,6 +99,7 @@ Về sự tiến hóa của máy đào Bitcoin, quan trọng là phải lưu ý 
 Kết luận, ngành công nghiệp đào Bitcoin tiếp tục thích nghi và phát triển, và các bên tham gia ngành cần phải dự đoán sự giảm sút về hiệu quả trong tương lai và điều chỉnh chiến lược của họ cho phù hợp. Các tiến bộ công nghệ trong tương lai, mặc dù vẫn còn tồn tại, có khả năng xảy ra trên một quy mô nhỏ hơn, phản ánh sự trưởng thành ngày càng tăng của ngành.
 
 ## Ngành công nghiệp đào
+<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
 ### Các nhóm đào
 
@@ -142,6 +146,7 @@ Rủi ro Quy định Được nhấn mạnh rằng nếu một quốc gia như H
 Kết luận chung là sự phi tập trung là rất quan trọng cho sự an toàn và khả năng phục hồi của mạng lưới Bitcoin. Mặc dù tập trung có thể mang lại lợi ích về hiệu quả, nó phơi bày mạng lưới trước những rủi ro đáng kể, bao gồm kiểm duyệt và các cuộc tấn công 51%. Các sáng kiến như Takai và việc áp dụng các giao thức mới như Stratum V2 là những bước quan trọng hướng tới sự phi tập trung và bảo vệ mạng lưới Bitcoin chống lại những mối đe dọa này.
 
 ## Những điều tinh tế của ngành khai thác
+<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
 ### Nguyên tắc của Attakai
 
@@ -171,6 +176,7 @@ Với sự tăng trưởng dự kiến của Lightning Network và sự tăng l�
 Có nhiều suy đoán về việc sử dụng không gian khối trong tương lai, nhưng nói chung được chấp nhận rằng đây là một nguồn tài nguyên khan hiếm nên được sử dụng một cách khôn ngoan. Mặc dù có mong muốn lấp đầy nó, việc bảo tồn nó để đảm bảo tính bền vững lâu dài của mạng Bitcoin, dự đoán một sự tăng cầu trong tương lai cho không gian khối, là cần thiết. Như trong bất kỳ thị trường tự do nào, cung và cầu sẽ điều chỉnh việc sử dụng không gian khối. Với nguồn cung hạn chế, các bên liên quan sẽ cần phải đưa ra lựa chọn thông tin về việc sử dụng không gian quý giá này để đảm bảo hiệu quả và an ninh lâu dài của mạng Bitcoin.
 
 ## Đào trong Giao thức Bitcoin
+<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
 Vai trò của các thợ mỏ trong mạng Bitcoin đã là đề tài của nhiều cuộc tranh luận gay gắt trong thời kỳ chiến tranh khối. Mặc dù cần thiết cho sự an ninh và chức năng của mạng, các thợ mỏ không nhất thiết giữ quyền lực tối cao trong hệ sinh thái Bitcoin. Sự cân bằng giữa các thợ mỏ, nút, và người dùng cuối đảm bảo tính toàn vẹn và phân phối của mạng.
 
@@ -209,6 +215,7 @@ Mặt khác, Proof of Stake (PoS), mặc dù cho phép sự tham gia ở quy mô
 Để tóm tắt, các thợ đào tăng cường sức mạnh chống kiểm duyệt cho mạng Bitcoin bằng cách sử dụng điện để tính toán bằng chứng công việc cho Bitcoin, và họ được thưởng bằng bitcoin mới và phí giao dịch. Với sự chuyên nghiệp hóa của ngành, các diễn viên khác nhau xuất hiện, đóng vai trò khác nhau, từ việc tạo ra chip đến quản lý trang trại đào. Ngoài ra, tài chính cũng can thiệp, kiểm soát bằng cách quyết định ai sống sót trong các giai đoạn thị trường khác nhau. Vấn đề về sự tập trung quyền lực vẫn tồn tại, với các thực thể giàu có nhất có khả năng thống trị thị trường. Tuy nhiên, các giải pháp thay thế đang được phát triển ở cấp độ phần cứng và phần mềm. Mỗi cá nhân đều có trách nhiệm hành động và đóng góp vào sự phân phối của mạng. Bitcoin đại diện cho một cơ hội chưa từng có không chỉ về tự do mà còn về độc lập năng lượng. Mặc dù có những tranh cãi xung quanh việc tiêu thụ điện của nó, Bitcoin cung cấp một động lực kinh tế cho sự chuyển đổi sang việc sử dụng năng lượng hợp lý và dồi dào hơn, hiện thực hóa những gì trước đây là một lý tưởng sinh thái.
 
 ## Giá Bitcoin và hashrate, có mối tương quan?
+<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
 Đào để Lợi nhuận hay cho Mạng lưới?
 
@@ -234,6 +241,7 @@ Câu hỏi này sâu sắc và bao gồm nhiều khía cạnh của việc đào
 Sáng kiến Attakai nhấn mạnh tầm quan trọng của việc đóng góp vào mạng lưới trong khi đề xuất giải pháp làm cho việc đào trở nên dễ tiếp cận hơn và ít gây hại hơn. Khả năng đào tại nhà, với phần cứng giá cả phải chăng hơn và giải pháp giảm ô nhiễm tiếng ồn, có thể giúp dân chủ hóa việc đào Bitcoin. Nó khuyến khích những người quan tâm đến Bitcoin không chỉ đầu tư và giữ bitcoin mà còn tham gia tích cực vào việc bảo vệ mạng lưới. Bằng cách cung cấp thiết bị đã được kiểm nghiệm và hướng dẫn lắp đặt, Attakai giúp dễ dàng tiếp cận với thế giới đào Bitcoin. Nó cũng khuyến khích sự đổi mới và cải tiến liên tục, mời cộng đồng đóng góp và chia sẻ ý tưởng và kinh nghiệm của họ để nâng cao việc đào tại nhà. Mô hình Attakai là một câu trả lời cho câu hỏi về việc đào để kiếm lợi nhuận hay cho mạng lưới. Nó không chỉ về việc kiếm lợi nhuận mà còn về việc tăng cường phân phối và an toàn của mạng lưới Bitcoin trong khi cho phép nhiều người tham gia vào việc đào, học hỏi và hiểu về ngành công nghiệp quan trọng này. Thách thức của một lệnh cấm đào tiềm năng ở Châu Âu vẫn là một câu hỏi mở. Điều này đặt ra mối quan tâm về tương lai của việc đào Bitcoin trong khu vực và nhu cầu về một quy định cân bằng nhận ra tầm quan trọng của việc đào cho sự an toàn và khả thi của mạng lưới Bitcoin trong khi giải quyết các vấn đề môi trường. Attakai và các sáng kiến tương tự có thể đóng một vai trò quan trọng trong cuộc tranh luận này, cho thấy rằng có thể đào một cách bền vững và có trách nhiệm hơn trong khi đóng góp tích cực vào mạng lưới Bitcoin.
 
 ## Chủ quyền và quy định
+<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
 ### Chủ quyền trước lợi nhuận?
 
@@ -265,8 +273,10 @@ Trước những chiến dịch như của Greenpeace và những con số thư�
 Kết luận, mặc dù có rủi ro về quy định và khả năng cấm khai thác mỏ ở Châu Âu, vũ khí mạnh mẽ nhất vẫn là giáo dục và thông tin. Sự hiểu biết rõ ràng và chính xác về khai thác mỏ, cách thức hoạt động và ảnh hưởng của nó có thể giúp làm sáng tỏ ngành công nghiệp và chống lại thông tin sai lệch, từ đó cung cấp khả năng chống chịu tốt hơn trước những quy định có thể gây hại. Sáng kiến giáo dục và thông tin cho mọi người về khai thác mỏ, như cuộc thảo luận này, là bước đi đúng hướng để đảm bảo sự bền vững và phát triển của ngành khai thác mỏ ở Châu Âu và trên toàn thế giới. Nỗ lực liên tục trong việc giáo dục và thông tin là cần thiết để đảm bảo một tương lai an toàn và thịnh vượng cho ngành công nghiệp khai thác Bitcoin.
 
 # Khai thác mỏ tại nhà và tái sử dụng nhiệt
+<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
 ## Attakai - làm cho việc khai thác mỏ tại nhà trở nên khả thi và dễ tiếp cận!
+<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 Attakai, có nghĩa là "nhiệt độ lý tưởng" trong tiếng Nhật, là tên của sáng kiến nhằm khám phá việc khai thác bitcoin thông qua việc tái sử dụng nhiệt được khởi xướng bởi @ajelexBTC và @jimzap21 với Découvre Bitcoin.
 Hướng dẫn cải tiến ASIC này sẽ là cơ sở để tìm hiểu thêm về khai thác mỏ, cách thức hoạt động và nền kinh tế cơ bản bằng cách chứng minh khả năng thích ứng một máy đào Bitcoin để sử dụng như là máy sưởi trong nhà. Điều này mang lại nhiều sự thoải mái và tiết kiệm, cho phép người tham gia nhận lại tiền mặt không KYC BTC trên hóa đơn sưởi điện của họ.
@@ -310,6 +320,7 @@ Khi mới xuất xưởng, một thiết bị đào không phù hợp để sử
 Đây là một cơ hội tuyệt vời để học hỏi thông qua thực hành trong khi được thưởng cho sự tham gia của bạn bằng satoshis không cần KYC.
 
 ## Hướng Dẫn Mua Một ASIC Cũ
+<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
 Trong phần này, chúng tôi sẽ thảo luận về các phương pháp tốt nhất khi mua một Bitmain Antminer S9 cũ, máy mà hướng dẫn nâng cấp bộ tản nhiệt này sẽ dựa trên. Hướng dẫn này cũng áp dụng cho các mô hình ASIC khác vì đây là một hướng dẫn mua hàng cũ chung cho phần cứng đào mỏ.
 
@@ -363,6 +374,7 @@ Tóm tắt hướng dẫn này trong một câu: **"Đừng tin, hãy kiểm ch�
 [Bạn cũng có thể tìm đến các chuyên gia trong việc tái chế máy đào, như đối tác của chúng tôi 21energy. Họ cung cấp máy S9 đã được kiểm tra, làm sạch và đã cài đặt phần mềm BraiiinOS+. Với mã giới thiệu "decouvre," bạn sẽ nhận được một giảm giá 10% khi mua một S9 đồng thời hỗ trợ dự án Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
 ## Hướng dẫn mua sắm phụ kiện cải tiến cho S9
+<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
 Là chủ sở hữu của một Antminer S9, bạn có lẽ biết rằng thiết bị này có thể tạo ra tiếng ồn và cồng kềnh. Tuy nhiên, bạn có thể biến nó thành một bộ sưởi êm ái và kết nối bằng cách thực hiện một số bước đơn giản. Trong phần này, chúng tôi sẽ trình bày thiết bị cần thiết để thực hiện các sửa đổi.
 
@@ -404,8 +416,10 @@ Danh sách thiết bị và liên kết
 * [Ổ cắm thông minh ANTELA tùy chọn](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
 # Attakai - Chỉnh sửa Phần mềm của Antminer S9
+<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
 ## Thiết lập Cầu nối WIFI/Ethernet Vonet
+<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
 Để kết nối ASIC của bạn qua WIFI, bạn sẽ cần một thiết bị gọi là cầu nối. Thiết bị này cho phép bạn thu tín hiệu WIFI từ bộ định tuyến và truyền nó đến thiết bị khác qua Ethernet.
 
@@ -440,6 +454,7 @@ Cầu nối sẽ kết nối với bộ định tuyến của bạn và xuất h
 Một khi cầu nối đã kết nối, kết nối cáp Ethernet từ cầu nối đến ASIC của bạn, sau đó cắm ASIC vào ổ điện. Bạn có thể truy cập giao diện ASIC theo cùng một cách như nếu nó được kết nối trực tiếp với bộ định tuyến của bạn qua Ethernet.
 
 ## Đặt lại Antminer S9
+<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
 
 Trước khi cài đặt BraiinOS+, có thể cần thiết phải đặt lại S9 về cài đặt gốc của nhà máy.
 Phương pháp này có thể được áp dụng từ 2 phút đến 10 phút sau khi khởi động máy đào.
@@ -448,6 +463,7 @@ Phương pháp này có thể được áp dụng từ 2 phút đến 10 phút s
 ![image](assets/software/1.webp)
 
 ## Cài đặt BraiinsOS+ trên Antminer S9
+<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
 Phần mềm gốc được Antminer cài đặt trên các máy đào của họ có hạn chế về chức năng. Đó là lý do trong hướng dẫn này, chúng tôi sẽ cài đặt một phần mềm khác gọi là BraiinsOS+. Đây là phần mềm của bên thứ ba được phát triển bởi nhóm đào Bitcoin đầu tiên, có nhiều tính năng hơn và cho phép, ví dụ, chỉnh sửa công suất của máy.
 
@@ -478,6 +494,7 @@ Nếu việc cài đặt không thành công, có thể cần thực hiện vi�
 9. Sau vài phút, Antminer của bạn sẽ khởi động lại và bạn có thể truy cập vào giao diện Braiins OS+ tại địa chỉ IP đã chỉ định, ở đây là 192.168.1.37, trực tiếp trên thanh địa chỉ của trình duyệt của bạn. Tên người dùng mặc định là "root" và không có mật khẩu mặc định.
 
 ## Cấu hình BraiinsOS+
+<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
 Bạn cần kết nối với ASIC của mình sử dụng địa chỉ IP cục bộ của thiết bị trên mạng của bạn thông qua trình duyệt.
 
@@ -520,8 +537,10 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 ![image](assets/software/18.webp)
 
 # Attakai - Chỉnh sửa quạt
+<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
 ## Thay quạt nguồn
+<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 > CẢNH BÁO: Điều cần thiết là phải đã cài đặt Braiins OS+ trên máy đào của bạn, hoặc bất kỳ phần mềm nào khác có thể giảm hiệu suất của máy. Biện pháp này rất quan trọng vì để giảm tiếng ồn, chúng tôi sẽ lắp đặt quạt kém mạnh mẽ hơn có thể tản nhiệt ít hơn.
 
@@ -591,6 +610,7 @@ Một khi các kết nối được thực hiện, đặt nắp nhựa che lên 
 Cuối cùng, đặt lại nắp thùng máy và vặn 6 ốc vít ở các bên để giữ mọi thứ cố định. Và đó là, thùng máy cung cấp điện của bạn giờ đây đã được trang bị một quạt mới.
 
 ## Thay Thế Quạt Chính
+<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > CẢNH BÁO: Điều cần thiết là phải đã cài đặt trước Braiins OS+ trên máy đào của bạn, hoặc bất kỳ phần mềm nào khác có khả năng giảm hiệu suất của máy. Biện pháp này rất quan trọng vì để giảm tiếng ồn, chúng tôi sẽ lắp đặt quạt ít mạnh mẽ hơn, sẽ tản nhiệt ít hơn.
 ![hình ảnh](assets/hardware/cover.webp)
@@ -640,8 +660,10 @@ Và cho bước hoàn thiện, kết nối cầu nối Vonet vào cổng Etherne
 Và đó là, xin chúc mừng! Bạn vừa thay thế toàn bộ phần cơ khí của máy đào của mình. Bây giờ bạn nên nghe thấy tiếng ồn ít hơn nhiều.
 
 # Attakai - Cấu Hình
+<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
 ## Tham gia một nhóm đào
+<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
 Có thể hình dung một nhóm đào như một hợp tác xã nông nghiệp. Các nông dân gộp sản xuất của họ lại với nhau để giảm biến động của cung và cầu và do đó, thu được thu nhập ổn định hơn cho hoạt động của họ. Một nhóm đào hoạt động theo cùng một cách, với tài nguyên được chia sẻ là các băm. Thực tế, việc phát hiện ra một băm hợp lệ duy nhất cho phép tạo ra một khối và giành được coinbase hoặc phần thưởng, hiện tại là 6.25 BTC cộng với các phí giao dịch được bao gồm trong khối.
 Nếu bạn đào coin một mình, bạn chỉ được thưởng khi tìm thấy một khối. Khi cạnh tranh với tất cả các thợ mỏ khác trên thế giới, bạn sẽ có rất ít cơ hội để giành chiến thắng trong cuộc xổ số này và bạn vẫn phải trả các khoản phí liên quan đến việc sử dụng máy đào của mình mà không có bất kỳ bảo đảm nào về thành công. Các nhóm đào giải quyết vấn đề này bằng cách kết hợp sức mạnh tính toán của hàng nghìn thợ mỏ và chia sẻ phần thưởng dựa trên tỷ lệ tham gia vào tổng hashrate của nhóm khi một khối được tìm thấy. Để hình dung cơ hội đào một khối một mình của bạn, bạn có thể sử dụng công cụ này. Bằng cách nhập thông tin cho một Antminer S9, chúng ta có thể thấy rằng cơ hội tìm thấy một hash cho phép tạo ra một khối là 1 trong 24,777,849 cho mỗi khối hoặc 1 trong 172,068 mỗi ngày. Trung bình (với hashrate và độ khó không đổi), nó sẽ mất 471 năm để tìm thấy một khối.
@@ -671,6 +693,7 @@ Bây giờ bạn có thể quay lại giao diện Braiins OS+ để nhập nhữ
 ![image](assets/software/21.webp)
 
 ## Tối ưu hóa hiệu suất của Antminer S9 của bạn
+<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
 Cả việc tăng tốc độ và tự động điều chỉnh đều liên quan đến việc điều chỉnh tần số trên các bảng băm để cải thiện hiệu suất của ASIC. Sự khác biệt giữa hai phương pháp này nằm ở độ phức tạp của các cài đặt tần số này.
 
@@ -688,6 +711,7 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 Kết quả cuối cùng là tỷ lệ hash cao hơn trên mỗi watt điện, nghĩa là lợi nhuận lớn hơn cho các thợ mỏ. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, vì vậy việc các nhà sản xuất bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là một ý tưởng tồi. Thêm vào đó, việc tự động điều chỉnh ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép tự động điều chỉnh, như Braiins OS+. Ngoài ra còn cải thiện hiệu suất ASIC lên đến 20%.
 
 ## Điều khiển Antminer S9 từ smartphone của bạn
+<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 
 ### Tạo phím tắt trên iOS
 

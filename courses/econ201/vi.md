@@ -17,8 +17,10 @@ Trường phái tư tưởng này đã có vài thế kỷ phía sau và có m�
 +++
 
 # Giới thiệu về ECON
+<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
 ## Giới thiệu
+<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
 Chào mừng tất cả mọi người đến với Econ 201: Giới thiệu về Kinh tế học Áo.
 
@@ -36,6 +38,7 @@ Tôi chân thành cảm ơn Théo đã sản xuất khóa học này, và tôi h
 Nếu bạn đã sẵn sàng bắt đầu cuộc phiêu lưu này, tôi mời bạn nhấp vào video sau và bắt đầu với video bonus về hệ thống tài chính hiện tại của chúng ta. Bây giờ, tôi xin nhường sân cho Théo. Cảm ơn anh ấy đã hợp tác với Descoupes Bitcoin để thực hiện video này. Tôi sẽ sớm gặp lại bạn. Tạm biệt!
 
 ## Tiền tệ, Tín dụng, Ngân hàng, và Ngân hàng Trung ương
+<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > “Vấn đề cốt lõi với tiền tệ thông thường là tất cả sự tin tưởng cần thiết để làm cho nó hoạt động. Ngân hàng trung ương phải được tin tưởng là không làm mất giá tiền tệ, nhưng lịch sử của các đồng tiền fiat lại đầy rẫy những vi phạm niềm tin đó. Các ngân hàng phải được tin tưởng để giữ tiền của chúng ta và chuyển khoản điện tử, nhưng họ lại cho vay nó ra trong các đợt bong bóng tín dụng với chỉ một phần nhỏ dự trữ. Chúng ta phải tin họ với quyền riêng tư của mình, tin họ không để cho kẻ trộm danh tính rút sạch tài khoản của chúng ta.”
 >
@@ -121,7 +124,9 @@ Bản chất, hệ thống của chúng ta đang đối mặt với những thá
 Trong chương tiếp theo, chúng tôi sẽ đi sâu vào nền tảng cơ bản của bất kỳ trường phái kinh tế nào: lý thuyết về giá trị. Các chương tiếp theo sẽ khám phá tiền tệ như một tổ chức xã hội, lý thuyết về vốn và chu kỳ kinh doanh, thách thức của việc tính toán kinh tế, và một cái nhìn tổng quan ngắn gọn về lịch sử và phương pháp luận của Trường Kinh tế Áo.
 
 # Nền tảng Lý thuyết
+<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 ## Lý thuyết Giá trị Chủ quan
+<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > “Giá trị chỉ tồn tại trong ý thức con người”
 >
@@ -200,6 +205,7 @@ Dựa trên những hiểu biết về giá trị thứ bậc chủ quan, Menger
 Các chương tiếp theo sẽ được dành riêng cho sự xuất hiện của tiền tệ như một hiện tượng xã hội, lý thuyết về vốn và lãi suất, sẽ là cơ sở cho Lý thuyết Chu kỳ Kinh doanh, và cuối cùng là vai trò của giá cả đối với tính toán kinh tế.
 
 ## Sự Xuất Hiện của Tiền Tệ như một Hiện Tượng Xã Hội
+<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Mặc dù cá nhân có một lợi ích chung trong việc chuyên môn hóa và tối đa hóa phân công lao động, vẫn còn có những vấn đề phối hợp hạn chế sự mở rộng này.
 
@@ -276,6 +282,7 @@ Trong trường hợp này, tiền tệ, bằng cách cho phép lưu trữ giá 
 Trong chương tiếp theo, chúng ta sẽ đi sâu vào khái niệm về sở thích thời gian và giải thích quan điểm của Áo về lãi suất và vốn, sẽ là cơ sở cho chương tiếp theo về Lý thuyết Chu kỳ Kinh doanh.
 
 ## Sở Thích Thời Gian, Lãi Suất và Vốn
+<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Sở Thích Thời Gian
 
@@ -341,8 +348,10 @@ Bây giờ, như đã được ám chỉ trong chương đầu tiên, lãi suấ
 Đây là điều chúng ta sẽ tìm hiểu trong chương tiếp theo dành riêng cho Lý thuyết Chu kỳ Kinh doanh của Áo!
 
 # Quan điểm Kinh tế Áo
+<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## Lý thuyết Chu kỳ Kinh doanh của Áo
+<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > “Càng kéo dài thời gian bùng nổ của tín dụng ngân hàng lạm phát, phạm vi của những đầu tư sai lầm vào hàng hóa vốn càng lớn, và nhu cầu thanh lý những khoản đầu tư không vững chắc này càng cao. Khi việc mở rộng tín dụng dừng lại, đảo ngược, hoặc thậm chí giảm đáng kể, những đầu tư sai lầm sẽ được tiết lộ”
 >
@@ -410,6 +419,7 @@ Hơn bất kỳ trường phái kinh tế nào khác, Trường phái Áo nhấn
 Đây sẽ là chủ đề của chương cuối cùng và cũng là chương cuối của khóa học này.
 
 ## Sự Bất Khả Thi của Tính Toán Kinh Tế dưới Chủ Nghĩa Xã Hội
+<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > “Nơi mà không có giá thị trường cho các yếu tố sản xuất vì chúng không được mua hoặc bán, việc sử dụng tính toán để lập kế hoạch cho hành động tương lai và xác định kết quả của hành động quá khứ là không thể. Một quản lý sản xuất theo chủ nghĩa xã hội đơn giản sẽ không biết liệu những gì nó lập kế hoạch và thực hiện có phải là phương tiện phù hợp nhất để đạt được mục tiêu tìm kiếm hay không. Nó sẽ hoạt động trong bóng tối, như thể. Nó sẽ lãng phí các yếu tố sản xuất khan hiếm cả vật chất và con người (lao động). Hỗn loạn và nghèo đói cho tất cả sẽ không thể tránh khỏi”
 >
@@ -475,6 +485,7 @@ Các nhà kinh tế học chính thống và những người lập kế hoạch
 Truyền thống Áo thể hiện một cách tiếp cận khiêm tốn đối với hành động con người, rút ra những hàm ý sâu sắc từ các khái niệm về giá trị chủ quan, sự không chắc chắn, ý chí tự do, và sự phức tạp. Nó giải thích làm thế nào trật tự thị trường, mặc dù không phải là sản phẩm của thiết kế con người, lại đứng ở vị trí trung tâm cho sự phát triển và thịnh vượng của chúng ta. Nếu có một điều quan trọng cần rút ra từ khóa học này, đó là chủ nghĩa tư bản trở thành hệ thống kinh tế thống trị bởi vì khả năng thích ứng với sự thay đổi trong một thế giới động và không chắc chắn, nơi mà các cá nhân tự do sinh sống.
 
 ## Phương Pháp Luận Áo
+<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 Trường kinh tế Áo phân biệt bản thân với các trường phái khác bằng phương pháp luận tiên đề-suy luận, khác biệt so với phương pháp luận tích cực thường được sử dụng trong các khoa học xã hội. Phương pháp luận tích cực dựa trên các quy luật được thiết lập từ dữ liệu thực nghiệm, áp dụng một phương pháp tương tự như trong khoa học tự nhiên. Nó đề xuất giả thuyết từ quan sát, sau đó được xác nhận hoặc bác bỏ bởi các thí nghiệm tạm thời. Phương pháp khoa học bao gồm việc giữ lại giả thuyết giải thích tốt nhất cho dữ liệu và tiếp tục khám phá nó cho đến khi tìm ra một giả thuyết chính xác hơn.
 
@@ -494,7 +505,9 @@ Quan trọng là phải lưu ý rằng việc chọn lọc dữ liệu một cá
 Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học và trong các khoa học xã hội nói chung. Nó ảnh hưởng đến cách các câu hỏi được đặt ra, các giả thuyết được hình thành, và dữ liệu được giải thích. Hiểu biết về sự khác biệt về phương pháp luận giữa các trường phái tư duy kinh tế có thể giúp chúng ta đánh giá cao các quan điểm đa dạng và phát triển ý kiến ​​của riêng mình về các chủ đề đã được thảo luận trong các tập trước.
 
 # Kết luận
+<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 ## Học thêm
+<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
 
 Xin chúc mừng bạn đã hoàn thành khóa học ECON 201 này! Tôi thực sự hy vọng bạn đã thích nó và đã mở ra cánh cửa mới cho bản thân. Khám phá về Bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
 

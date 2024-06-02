@@ -20,8 +20,10 @@ Hãy tận hưởng quá trình khám phá!
 +++
 
 # Cơ bản
+<partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
 
 ## Hiểu về Lightning Network
+<chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
 Lightning Network là một cơ sở hạ tầng thanh toán lớp thứ hai được xây dựng trên mạng Bitcoin, cho phép thực hiện giao dịch nhanh chóng và với chi phí thấp. Để hiểu rõ cách thức hoạt động của Lightning Network, điều cần thiết là phải hiểu về kênh thanh toán và cách chúng hoạt động.
 
@@ -66,6 +68,7 @@ Bây giờ, Bob muốn gửi 80,000 SAT cho Alice. Không có đủ thanh khoả
 ![explication](assets/chapitre1/3.webp)
 
 ## Bitcoin, địa chỉ, UTXO và giao dịch
+<chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
 Trong chương thứ hai này, chúng ta dành thời gian để nghiên cứu cách giao dịch Bitcoin thực sự hoạt động, điều này sẽ rất hữu ích để hiểu về Lightning. Chúng tôi cũng sơ lược thảo luận về khái niệm địa chỉ đa chữ ký, điều này rất quan trọng để hiểu về chương tiếp theo về việc mở kênh trên Mạng Lưới Lightning.
 
@@ -94,8 +97,10 @@ Trong Mạng Lưới Lightning, đa chữ ký được sử dụng. Do đó, c�
 ![explication](assets/chapitre2/1.webp)
 
 # Mở và đóng kênh
+<partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
 
 ## Mở Kênh
+<chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
 Bây giờ, chúng ta sẽ xem xét kỹ lưỡng hơn về việc mở kênh và cách thức thực hiện thông qua một giao dịch Bitcoin.
 
@@ -128,6 +133,7 @@ Một khi cả hai giao dịch được xây dựng, Alice thông báo cho Bob r
 Alice giờ đây có thể tự mình lấy lại tiền, vì cô ấy đã có chữ ký của Bob. Cô ấy công bố các giao dịch. Kênh giờ đây đã mở với 0.0013 BTC (130,000 SAT) ở phía Alice.
 
 ## Giao Dịch Lightning & Giao Dịch Cam Kết
+<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
 Bây giờ, hãy phân tích xem thực sự có gì xảy ra đằng sau hậu trường khi chuyển tiền từ một bên sang bên kia của một kênh trên Lightning Network, với khái niệm về giao dịch cam kết. Giao dịch rút tiền/chốt kênh trên chuỗi đại diện cho trạng thái của kênh, đảm bảo ai sở hữu tiền sau mỗi lần chuyển giao. Vì vậy, sau một giao dịch Lightning Network, có một cập nhật của giao dịch/hợp đồng này không được thực hiện giữa hai bên, Alice và Bob, ai tạo ra cùng một giao dịch với trạng thái kênh hiện tại trong trường hợp chốt kênh:
 
@@ -151,6 +157,7 @@ Alice (90,000 SAT) =============== Bob (40,000 SAT)
 Tiền không bao giờ di chuyển, nhưng số dư cuối cùng được cập nhật thông qua một giao dịch trên chuỗi được ký kết nhưng không được công bố. Do đó, giao dịch rút tiền là một giao dịch cam kết. Các chuyển đổi satoshi là một giao dịch cam kết khác, gần đây hơn, cập nhật số dư.
 
 ## Giao Dịch Cam Kết
+<chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
 Nếu giao dịch cam kết quy định trạng thái kênh với tính thanh khoản tại thời điểm X, liệu chúng ta có thể gian lận bằng cách công bố một trạng thái cũ? Câu trả lời là có, bởi vì chúng ta đã có chữ ký trước của cả hai bên tham gia trong giao dịch chưa được công bố.
 
@@ -176,6 +183,7 @@ Tương tự, Bob sẽ cung cấp bí mật của mình cho Alice. Vì vậy, n�
 Người tạo giao dịch với Timelock (người gửi tiền) chỉ có thể sử dụng chìa khóa hủy bỏ sau Timelock. Tuy nhiên, người nhận tiền có thể sử dụng nó trước Timelock trong trường hợp gian lận từ một bên này sang bên kia của một kênh trên Lightning Network. Cụ thể, chúng tôi chi tiết các cơ chế cho phép chúng tôi bảo vệ chống lại khả năng gian lận của đối tác trong kênh.
 
 ## Đóng Kênh
+<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
 Chúng tôi quan tâm đến việc đóng kênh thông qua một giao dịch Bitcoin, có thể có các hình thức khác nhau tùy thuộc vào trường hợp. Có 3 loại đóng kênh:
 
@@ -211,8 +219,10 @@ Alice cố gắng gian lận bằng cách công bố một giao dịch cam kết
 Kết luận, việc đóng kênh trong Lightning Network là một bước quan trọng có thể diễn ra theo nhiều hình thức. Trong một việc đóng kênh hợp tác, cả hai bên giao tiếp và đồng ý về trạng thái cuối cùng của kênh. Đây là lựa chọn nhanh nhất và ít tốn kém nhất. Mặt khác, một việc đóng cưỡng chế xảy ra khi một bên không phản hồi. Đây là một tình huống tốn kém và mất thời gian hơn do phí giao dịch không thể đoán trước và việc kích hoạt Timelock. Cuối cùng, nếu một bên tham gia cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ, kẻ gian lận, họ có thể bị phạt bằng cách mất tất cả SAT từ kênh. Do đó, việc hiểu rõ những cơ chế này là rất quan trọng để sử dụng Lightning Network một cách hiệu quả và công bằng.
 
 # Một mạng lưới thanh khoản
+<partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
 
 ## Lightning Network
+<chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
 Trong chương thứ bảy này, chúng ta nghiên cứu cách Lightning hoạt động như một mạng lưới các kênh và cách thanh toán được định tuyến từ nguồn đến điểm đến của chúng.
 
@@ -279,6 +289,7 @@ Trong Lightning Network, đó là nút của Alice quyết định tuyến đư�
 Đối với Susie hoặc Eden: họ không biết ai là người nhận cuối cùng, cũng không biết ai đang gửi thanh toán. Đây là onion routing. Nút phải giữ một kế hoạch của mạng để tìm tuyến đường của mình, nhưng không có bất kỳ trung gian nào có thông tin.
 
 ## HTLC - Hợp Đồng Thời Gian Khóa Băm
+<chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
 Trong một hệ thống định tuyến truyền thống, làm thế nào chúng ta có thể đảm bảo rằng Eden không gian lận và tuân thủ phần của hợp đồng?
 
@@ -328,6 +339,7 @@ Trong trường hợp Bob không tiết lộ bí mật trong một khoảng th�
 Khi đóng kênh, nếu đó là một việc đóng cửa hợp tác, các khoản thanh toán bị gián đoạn và HTLCs được giải quyết, điều này thường ít tốn kém hơn. Nếu việc đóng cửa bị ép buộc, tất cả các giao dịch HTLC đang diễn ra được công bố, có thể trở nên rất tốn kém và rối rắm. Tóm lại, cơ chế HTLC thêm một lớp bảo mật bổ sung cho Lightning Network, đảm bảo rằng các khoản thanh toán được thực hiện chính xác và người dùng thực hiện các cam kết của họ.
 
 ## Tìm đường đi
+<chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
 Dữ liệu công khai duy nhất là tổng dung lượng kênh (Alice + Bob) nhưng chúng ta không biết vị trí của tính thanh khoản.
 Để có thêm thông tin, nút của chúng ta lắng nghe kênh truyền thông LN để nhận thông báo về các kênh mới và cập nhật phí kênh. Nút của bạn cũng xem xét blockchain để tìm các đóng cửa kênh.
@@ -390,8 +402,10 @@ Kết luận, việc định tuyến giao dịch trên Lightning Network là m�
 Hơn nữa, để tạo điều kiện tìm kiếm lộ trình, người nhận có thể cung cấp thông tin bổ sung như địa chỉ, số tiền, băm preimage, và chỉ dẫn về các kênh của họ. Điều này có thể giúp xác định các kênh có đủ tính thanh khoản và tránh các nỗ lực giao dịch không cần thiết. Cuối cùng, hệ thống định tuyến của Lightning Network được thiết kế để tối ưu hóa tốc độ, an ninh, và hiệu quả của giao dịch trong khi bảo vệ quyền riêng tư của người dùng.
 
 # Công Cụ của Lightning Network
+<partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
 
 ## Hóa Đơn, LNURL, Keysend
+<chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
 ![cover](assets/chapitre10/0.webp)
 
@@ -439,6 +453,7 @@ Keysend cho phép Alice gửi tiền cho Bob mà không cần yêu cầu của B
 Kết luận, một hóa đơn mạng Lightning, mặc dù phức tạp ở cái nhìn đầu tiên, hiệu quả mã hóa một yêu cầu thanh toán. Mỗi phần của hóa đơn chứa thông tin quan trọng, bao gồm số tiền phải trả, người nhận, dấu thời gian tạo, và có thể là thông tin khác như hash của preimage, bí mật thanh toán, gợi ý định tuyến, và thời gian hết hạn. Các giao thức như LNURL và Keysend cung cấp những cải tiến đáng kể về linh hoạt và trải nghiệm người dùng, cho phép, ví dụ, gửi tiền mà không cần yêu cầu trước từ bên kia. Những công nghệ này làm cho quá trình thanh toán trở nên mượt mà và hiệu quả hơn trên mạng Lightning.
 
 ## Quản lý Tính thanh khoản
+<chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
 ![instruction](assets/chapitre11/0.webp)
 
@@ -478,8 +493,10 @@ Vì vậy, 1 triệu đi đến Susie, Susie gửi 1 triệu cho Loop, Loop gử
 Kết luận, quản lý thanh khoản trên Lightning Network là một vấn đề chính phụ thuộc vào loại người dùng: người mua, người bán, hoặc node định tuyến. Người mua, cần thanh khoản ra, có nhiệm vụ đơn giản nhất: họ chỉ cần mở kênh. Người bán, cần thanh khoản vào, phải được kết nối với các node và các nhân vật khác. Ngược lại, các node định tuyến tìm cách duy trì sự cân bằng thanh khoản ở cả hai phía. Có một số giải pháp tồn tại để quản lý thanh khoản, như mua kênh hoặc trả tiền để tăng khả năng nhận. Tùy chọn "Loop Out", cho phép Hoán đổi nguyên tử giữa LN và BTC, cung cấp một giải pháp thú vị cho việc cân bằng lại thanh khoản. Mặc dù có những chiến lược này, việc duy trì thanh khoản trên Lightning Network vẫn là một thách thức phức tạp.
 
 # Đi sâu hơn
+<partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
 ## Tóm tắt khóa học
+<chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
 Mục tiêu của chúng tôi là giải thích cách Lightning Network hoạt động và nó phụ thuộc vào Bitcoin như thế nào để hoạt động.
 
@@ -507,6 +524,7 @@ Có một yếu tố xác suất khi gửi một khoản thanh toán qua Lightni
 
 
 ## Phỏng vấn Fanis
+<chapterId>077cb5f5-1626-5da5-9964-e67b1de503bf</chapterId>
 
 Dưới đây là tóm tắt của cuộc phỏng vấn:
 Mạng Lưới Lightning là một giải pháp thanh toán cực kỳ nhanh trên Bitcoin, cho phép vượt qua các hạn chế liên quan đến khả năng mở rộng của mạng. Tuy nhiên, bitcoin trên Lightning không an toàn như trên chuỗi Bitcoin vì sự phân cấp và an ninh được ưu tiên hơn khả năng mở rộng.
@@ -531,6 +549,7 @@ Tuy nhiên, quan trọng là phải lưu ý rằng các nút định tuyến Lig
 Cuối cùng, tương lai của Bitcoin hứa hẹn với một dự báo có thể đạt một triệu trong năm năm. Để đảm bảo sự chuyên nghiệp hóa của ngành và tạo ra một hệ thống thay thế cho hệ thống ngân hàng hiện tại, quan trọng là phải đóng góp cho mạng lưới và ngừng tin tưởng.
 
 ## Lời cảm ơn và tiếp tục khám phá hố thỏ
+<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
 
 Xin chúc mừng! 🎉
 Bạn đã hoàn thành khóa LN 201 - Giới thiệu về Mạng Lưới Lightning!

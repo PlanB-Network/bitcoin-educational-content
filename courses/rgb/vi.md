@@ -18,8 +18,10 @@ Chúc bạn may mắn và thành công với một trong những chủ đề ti�
 +++
 
 # Giới thiệu về khóa học RGB
+<partId>c6f7a70f-d894-595f-8c0a-b54759778839</partId>
 
 ## Trình bày khóa học
+<chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
 
 Chào mọi người, và chào mừng bạn đến với các khóa học RGB này.
 
@@ -42,41 +44,53 @@ Xin cảm ơn người đã tổ chức các khóa học trực tiếp này và 
 Chúc bạn may mắn với việc học của mình, và nếu bạn cần liên hệ với đội ngũ của chúng tôi hoặc giáo viên, vui lòng sử dụng kênh thích hợp. Các khóa học này sẽ được cập nhật ngắn gọn với một phần văn bản cho mỗi chương, kỳ thi và hình ảnh. Hãy chú ý theo dõi.
 
 # RGB về mặt lý thuyết
+<partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
 
 ## Hiểu về RGB
+<chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 ![video](https://youtu.be/AF2XbifPGXM)
 
 ## Xác thực phía client
+<chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
 ![video](https://youtu.be/FS6PDprWl5Q)
 
 ## Giải thích trạng thái RGB
+<chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 ![video](https://youtu.be/tmAVdyXGmj4)
 
 ## Logic kinh doanh của RGB
+<chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 ![video](https://youtu.be/lUTjeuM0oTA)
 
 # Lập trình trên RGB
+<partId>148a7436-d079-56d9-be08-aaa4c14c6b3a</partId>
 
 ## Cơ bản của lập trình RGB
+<chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
 ![video](https://youtu.be/Uo1UoxiImsI)
 
 ## Phần 2 của lập trình RGB
+<chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 ![video](https://youtu.be/sVoKIi-1XbY)
 
 ## Viết hợp đồng thông minh
+<chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
 ![video](https://youtu.be/GRwS-NvWF3I)
 
 ## Chủ đề nâng cao về RGB và thảo luận về tương lai
+<chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 # Xây dựng trên RGB
+<partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>
 
 ## Bitmask
+<chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 ![video](https://youtu.be/nbUtV8GOR_U)
 
@@ -85,12 +99,14 @@ Chúc bạn may mắn với việc học của mình, và nếu bạn cần liê
 ![video](https://youtu.be/5iAhsgCSL3U)
 
 ## Phần 2 của Node RGB
+<chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
 ![video](https://youtu.be/piQQH4Q2nr0)
 
 # Kết luận
 
 ## Lời kết
+<chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
 Cảm ơn bạn đã tham gia các khóa học về RGB do Mạng lưới PlanB phối hợp cùng Fulgur'Ventures tổ chức. Chúng tôi xin bày tỏ lòng biết ơn đến các giáo viên đã hỗ trợ chúng tôi. Nếu bạn quan tâm đến việc tiếp tục công việc với RGB, dưới đây là danh sách các nguồn lực hữu ích để bạn khám phá:
 

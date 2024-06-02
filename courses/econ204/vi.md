@@ -17,8 +17,10 @@ Tại đây, chúng tôi sẽ nêu bật xu hướng và mô hình chung trong c
 +++
 
 # Giới thiệu
+<partId>9d1aba8d-0485-5020-9863-5de37e6db8e0</partId>
 
 ## Giới thiệu
+<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 Chương trình này nhằm cung cấp một hiểu biết sâu sắc về sự xuất hiện của lạm phát cao trong một thế giới được thống trị bởi tiền tệ Fiat và xem xét những hậu quả đáng kể của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ lạm phát cao, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của lạm phát cao đối với nền kinh tế và cuộc sống hàng ngày, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và tiết kiệm cá nhân và tập thể.
 
@@ -53,8 +55,10 @@ Phần 4 - Chúng ta đã đến đây như thế nào?
 Chúc may mắn!
 
 # Lạm phát là gì?
+<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Một hiện tượng tiền tệ
+<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Định nghĩa về lạm phát
 
@@ -210,6 +214,7 @@ Phân tích này chứng minh rằng sự tin tưởng vào tiền tệ, và qua
 Kết luận, nghiên cứu này về việc mất giá tiền tệ mở ra cánh cửa để hiểu sâu hơn về các cơ chế lạm phát, sẽ được khám phá trong các video tiếp theo. Chúng tôi sẽ thảo luận về các loại lạm phát và ngưỡng mà tại đó chúng chuyển sang lạm phát cao hoặc siêu lạm phát. Nền tảng vững chắc này sẽ cho phép chúng tôi đối mặt với sự phức tạp của lạm phát trong các phiên bản sắp tới. Cảm ơn sự chú ý của bạn, và hẹn gặp lại trong video tiếp theo để tiếp tục cuộc khám phá này về động lực tiền tệ.
 
 ## Các Loại Lạm Phát
+<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### Lạm phát không phải là một hiện tượng đa yếu tố
 Trong phần này, chúng ta sẽ khám phá các khía cạnh khác nhau của lạm phát, một hiện tượng thường bị hiểu lầm. Mặc dù lạm phát thường được nhìn nhận như một hiện tượng đa yếu tố trong truyền thông và các cuộc thảo luận hàng ngày, điều quan trọng cần nhớ là nó cơ bản là một hiện tượng tiền tệ.
@@ -375,8 +380,10 @@ Trong các cuộc thảo luận tương lai của chúng tôi, chúng tôi sẽ 
 Cảm ơn quý vị đã chú ý. Phiên tiếp theo sẽ hoàn toàn dành riêng để định nghĩa và làm sáng tỏ lạm phát cực kỳ cao, xem xét các quan điểm học thuật và thực tiễn khác nhau. Chúng tôi mong được tiếp tục cuộc khám phá này với quý vị trong cuộc họp tiếp theo.
 
 # Lạm phát cực kỳ cao là gì?
+<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Định nghĩa về lạm phát cực kỳ cao
+<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Định nghĩa về lạm phát cực kỳ cao
 
@@ -431,6 +438,7 @@ Các định nghĩa phổ biến về lạm phát cực đoan, như định ngh�
 Cần lưu ý rằng một số giai đoạn lịch sử của lạm phát cao không được bao gồm trong các bảng lạm phát cực đoan cổ điển, thường do tiêu chí phân loại nghiêm ngặt. Ví dụ, trong Chiến tranh Độc lập của Mỹ vào tháng 11 năm 1779, và trong Nội chiến Mỹ vào tháng 3 năm 1864, tỷ lệ lạm phát hàng tháng lần lượt là 47.4% và 40%. Những tỷ lệ này, mặc dù cao, không vượt qua ngưỡng 50% do Kagan đề ra, do đó loại trừ những giai đoạn này khỏi việc được phân loại là các trường hợp lạm phát cực đoan. Sự bỏ sót này minh họa những hạn chế của định nghĩa cứng nhắc và nêu bật nhu cầu cho một cách tiếp cận tinh tế hơn trong việc hiểu lạm phát cực đoan trong tất cả sự phức tạp của nó.
 
 ## So sánh giữa Weimar và Zimbabwe
+<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Hai kỷ nguyên, hai thảm họa
 
@@ -582,6 +590,7 @@ Zimbabwe: "Chúng tôi giờ đây sử dụng những phiếu giảm giá này 
 Điều này kết thúc video này về những điểm tương đồng trong các giai đoạn lạm phát cao ở Zimbabwe và Cộng hòa Weimar. Trong video tiếp theo, chúng ta sẽ thảo luận về những điểm khác biệt và các song song đương đại. Cảm ơn bạn.
 
 ## Weimar vs Zimbabwe: Những Điểm Khác Biệt và Song Song Đương Đại
+<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Bản ghi:
 
@@ -673,6 +682,7 @@ Hãy tưởng tượng một kịch bản bạn có gia đình hoặc người t
 Ngày nay, trước sự giảm sức mua, đầu tư lên ngôi. Tuy nhiên, cách tiếp cận này đi kèm với những rủi ro riêng của nó. Tiết kiệm luôn là phương thuốc chống lại sự không chắc chắn. Có dự trữ tài chính để quản lý các tình huống không lường trước được góp phần vào sự yên tâm và tăng cường sự gắn kết xã hội. Kết luận, việc bảo vệ sức mua của chúng ta là cần thiết để duy trì sự ổn định xã hội và cá nhân.
 
 ## Đổi tiền ở Mỹ Latinh
+<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Bây giờ, chúng ta sẽ xem xét các giai đoạn đổi tiền khác nhau ở các quốc gia Mỹ Latinh.
 
@@ -768,6 +778,7 @@ Dựa trên tiêu chí về lạm phát 50% mỗi tháng, một số giai đoạ
 Kết luận, siêu lạm phát chỉ là một khía cạnh của các thách thức kinh tế. Lạm phát cao một mình cũng có thể gây hại không kém. Phần tiếp theo sẽ khám phá các giải pháp có thể để vượt qua siêu lạm phát.
 
 ## Cách vượt qua siêu lạm phát
+<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Cách chấm dứt lạm phát vừa phải và cao
 
@@ -803,6 +814,7 @@ Vào năm 2007, tỷ lệ lạm phát của Zimbabwe đã đạt ngưỡng 50% m
 Điều đáng lo ngại là Zimbabwe đã cố gắng tái giới thiệu đồng tiền của riêng mình, và dấu hiệu của lạm phát cao đã xuất hiện trở lại. Theo một số tổ chức quốc tế, đất nước này có thể đã đáp ứng các tiêu chí cho lạm phát cao trở lại, ngay cả khi nó chưa đạt ngưỡng chính thức là 50% mỗi tháng. Điều này nhắc nhở về nguy cơ của việc phát hành tiền mặt quá mức và tài trợ thâm hụt của ngân hàng trung ương.
 
 ## Kết luận
+<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
 
 Trong cuốn sách của tôi có tựa đề "Tất cả về Bitcoin," tôi đã dành một chương để nói về lạm phát ở Zimbabwe. Tôi chi tiết các sự kiện quan trọng, cung cấp nhiều ví dụ minh họa cách quốc gia này cuối cùng đã chấm dứt lạm phát.
 
@@ -816,12 +828,15 @@ Trong cuốn sách của tôi có tựa đề "Tất cả về Bitcoin," tôi đ
 Thông điệp chính là có nhiều chiến lược để vượt qua lạm phát cao. Người ta có thể chọn đô la hóa hoặc giới thiệu một đồng tiền mới. Những giải pháp này chỉ hiệu quả nếu dân chúng tin tưởng vào chúng. Việc áp đặt các hạn chế nghiêm ngặt là rất quan trọng. Một ngân hàng trung ương thực sự độc lập là cần thiết. Nó không được phép bơm tiền vào lưu thông để bù đắp cho thâm hụt ngân sách của chính phủ. Trong trường hợp lạm phát nhẹ, việc hạn chế sự tăng trưởng của nguồn cung tiền là đủ. Tuy nhiên, khi đối mặt với lạm phát cao, điều quan trọng là phải đầu tiên có một nguồn cung tiền phù hợp với kích thước của nền kinh tế đang xét. Sau đó, việc áp đặt các hạn chế nghiêm ngặt đối với chính phủ để ổn định tình hình là bắt buộc.
 
 ## Trình bày bộ sưu tập tiền giấy lạm phát cao
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 Liên kết đến bộ sưu tập đã quét có sẵn trong Bitcoin Educational Toolkit, có thể truy cập từ phần Resources của nền tảng.
 
 # Chúng ta đã đến đây như thế nào?
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## Sự Xuất Hiện của Lớp Tiền Thứ Hai và Ngân Hàng Trung Ương
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 Bản ghi:
 
@@ -879,6 +894,7 @@ Theo sau cơn hoảng loạn ngân hàng năm 1796, một hiện tượng xảy 
 Các ngân hàng trung ương đã phát triển để trở thành người cho vay cuối cùng, tạm ngừng khả năng chuyển đổi tiền tệ của họ thành vàng. Mặc dù hành động này ban đầu được dự định là một giải pháp tạm thời, nhưng cuối cùng nó đã trở nên vĩnh viễn, đánh dấu sự ra đời của khái niệm về người cho vay cuối cùng. Sự chuyển đổi này đã hình thành các ngân hàng trung ương như chúng ta biết ngày nay. Tuy nhiên, trong các nền kinh tế mong manh hơn, khả năng in tiền tùy ý này có thể dẫn đến những hậu quả không mong muốn, như lạm phát cực kỳ cao, nếu sử dụng không có trách nhiệm.
 
 ## Sách và Tài Nguyên
+<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 Lạm phát cực kỳ cao là một chủ đề thú vị đã được nghiên cứu qua các sự kiện lịch sử khác nhau. Nếu bạn muốn tìm hiểu sâu hơn về chủ đề này, đây là danh sách 10 nguồn tài nguyên cần đọc và nghiên cứu:
 

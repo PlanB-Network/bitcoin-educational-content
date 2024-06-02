@@ -20,8 +20,10 @@ Những thay đổi công nghệ và tài chính trong thế giới mới này c
 +++
 
 # Giới thiệu và điều kiện tiên quyết để hiểu Bitcoin
+<partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
 ## Giới thiệu về khóa học BTC102
+<chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Chào mừng bạn đến với BTC 102! Một khóa học thực hành sẽ hướng dẫn bạn thiết lập kế hoạch Bitcoin của mình! Qua khóa học này, chúng ta sẽ chuẩn bị lấy Bitcoin đầu tiên của mình, bảo mật chúng một cách đúng đắn, và đảm bảo một bước vào ngành công nghiệp mới một cách suôn sẻ.
 
@@ -42,6 +44,7 @@ Như bạn thấy, mục đích của khóa đào tạo này là để đồng h
 Chúc may mắn :)
 
 ## Lừa đảo và Gian lận Tài chính
+<chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Chúng ta đang ở trong một ngành công nghiệp nơi hai nhánh chính đang nổi lên trong lĩnh vực "tiền điện tử":
 
@@ -141,6 +144,7 @@ Quan trọng là phải lưu ý rằng mọi người đều có mục tiêu c�
 Luôn nhớ rằng không phải ai cũng sẽ minh bạch về ý định của họ. Luôn đặt câu hỏi về mục đích của hành động của ai đó và không mù quáng tin tưởng họ.
 
 ## An ninh trực tuyến
+<chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 Ngoài lừa đảo tiền mã hóa và lừa đảo tài chính, lý do chính dẫn đến việc mất bitcoin liên quan đến quản lý an ninh trực tuyến kém. Thường xuyên xảy ra trường hợp mọi người sử dụng cùng một mật khẩu cho tất cả các tài khoản của họ, quên cập nhật máy tính, và bỏ qua việc sao lưu dữ liệu định kỳ. Nếu bạn lo lắng về những thực hành này, đừng lo, luôn có khả năng cải thiện thói quen an ninh trực tuyến của bạn. Dưới đây là một số biện pháp cơ bản để thực hiện:
 
@@ -184,6 +188,7 @@ Sự ẩn danh trực tuyến là cần thiết cho một xã hội tự do và 
 Một lần nữa, nếu bạn quan tâm đến chủ đề này, khóa học SECU 101 có sẵn để hướng dẫn bạn.
 
 ## Mẹo cho Người Mới Bắt Đầu
+<chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Giáo dục chính quy dạy chúng ta rất ít về đầu tư. Kết quả là, chúng ta thường tự mình bước vào lĩnh vực đầu tư mới và phức tạp này.
 
@@ -274,8 +279,10 @@ Nếu bạn mất khóa, bạn cũng mất tiền của mình. Tốt nhất là 
 Chúc may mắn! Tôi hy vọng bạn sẽ theo tôi vào thế giới của Bitcoin và cho phép tôi hướng dẫn bạn trong việc mua và bảo vệ Bitcoin đầu tiên của bạn mà không gặp rủi ro!
 
 # Hiểu biết về những gì chúng ta đang tham gia
+<partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin trong 5 phút
+<chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 Trong khóa học này, chúng tôi muốn tập trung vào kế hoạch hành động để bạn có thể sở hữu bitcoin đầu tiên của mình. Nếu bạn muốn một lời giải thích kỹ lưỡng về cơ bản của Bitcoin, chúng tôi khuyên bạn nên tham gia BTC 101, khóa học miễn phí trên nền tảng này.
 Bitcoin là một giao thức máy tính cho phép chuyển giá trị trên toàn cầu mà không cần một trung gian đáng tin cậy. Giá trị này được biểu diễn bằng một loại tiền tệ gọi là bitcoin.
 
@@ -304,6 +311,7 @@ Nếu điều này là mới mẻ với bạn, tôi rất khuyến khích bạn 
 ![tóm tắt](assets/section2/10.webp)
 
 ## Tại sao Bitcoin lại quan trọng?
+<chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Tại sao sự quan trọng của Bitcoin lại cực kỳ quan trọng? Đây là câu hỏi trung tâm của trường đại học này. Dù là liên quan đến việc học của bạn hay chiến lược đầu tư, nếu không hiểu rõ về tầm quan trọng của Bitcoin, bạn có nguy cơ lệch khỏi kế hoạch hành động của mình. Mục tiêu do đó là luôn giữ vững cơ bản của Bitcoin trong tâm trí, để đảm bảo rằng chiến lược của bạn vẫn phù hợp với niềm tin của bạn.
 
@@ -374,6 +382,7 @@ Những người ủng hộ chính của Bitcoin ngày nay vẫn chủ yếu là
 Bitcoin mang một chiều kích triết học, đạo đức và chính trị sâu sắc trong khi hoàn toàn thờ ơ với những quan điểm này. Thực tế, Bitcoin chỉ là một giao thức đơn giản tái tạo cùng một quy trình đi đi lại lại. Chính người dùng của nó đã biến nó thành một vũ khí giải phóng khỏi hệ thống tài chính hiện tại. Từ góc độ Cyberpunk, Bitcoin đối đầu với một xã hội không tiền mặt. Nó cho phép tạo ra các giao dịch tài chính số hoàn toàn riêng tư và không qua trung gian. Đối với phong trào cyberpunk, Bitcoin là tương đương điện tử của tiền mặt.
 
 ## Hiểu Biết về Ngành Bitcoin
+<chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Với sự ra đời của Bitcoin vào năm 2009 bởi Satoshi Nakamoto, một ngành công nghiệp trị giá hàng tỷ đô la đã được sinh ra. Mặc dù còn trẻ, ngành này đã trải qua sự tăng trưởng nhanh chóng trong thập kỷ qua. Mỗi ngày có thêm nhiều người chơi mới với số tiền lớn sẵn sàng mạnh mẽ bước vào ngành công nghiệp mới này. Ngày nay, ngành đã đạt đến một điểm không thể quay lại nơi mà chính phủ, ngân hàng, gã khổng lồ internet và những người khác đã tham gia vào phong trào với các can thiệp khác nhau.
 
@@ -491,6 +500,7 @@ Quyền lực không giới hạn? Không. Các nhà phát triển cốt lõi kh
 ![blockchain](assets/industrie/5.webp)
 
 ## Kiến trúc Tầng của Bitcoin
+<chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, như một giao thức mã nguồn mở, có thể được bổ sung và làm giàu bởi các tầng giao thức/ứng dụng thêm vào bởi bất kỳ ai. Một số tính năng này quan trọng hơn những tính năng khác, tạo ra một hệ sinh thái động với nhiều công ty đóng góp vào việc phát triển cơ sở hạ tầng. Các ví dụ về các dự án như vậy bao gồm Sidechains (ví dụ, Liquid Chain của Blockstream), Lightning Network của Lightning Labs, và các khái niệm về danh tính (ví dụ, Microsoft ION). Những dự án này giống như các lớp bổ sung được thêm vào giao thức Bitcoin gốc.
 **Bạn có biết không**? Internet không được xây dựng chỉ trong một bước. Thực tế, nó là kết quả của nhiều lớp giao thức chồng lên nhau - HTTP, TCP, IP. Như vậy, mỗi lớp đều hoạt động cực kỳ hiệu quả trong việc thực hiện nhiệm vụ cụ thể được giao, trong khi các lớp khác giải quyết các nhu cầu khác.
@@ -522,8 +532,10 @@ Tuy nhiên, khi cơ sở hạ tầng đủ hiệu quả, việc rời khỏi con
 Andreas Antonopoulos, nếu tôi không nhầm, đã giới thiệu tôi với ý tưởng này. @aantonop
 
 # Thiết lập kế hoạch của bạn
+<partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Chọn hồ sơ của bạn
+<chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Bây giờ, sau khi chúng ta đã xem xét những kiến thức cơ bản và học cách tránh lừa đảo và mất mát tài chính, chúng ta có thể phát triển kế hoạch của mình. Kế hoạch sẽ khá đơn giản để bắt đầu, nhưng quan trọng là phải bắt đầu. Bạn luôn có thể chỉnh sửa nó theo thời gian.
 Trong khóa học này, chúng tôi sẽ giả định rằng bạn là người mới bắt đầu với Bitcoin, và do đó, giải pháp phải đơn giản, nhanh chóng để thực hiện, và hiệu quả. Chúng tôi sẽ không thảo luận về việc tiếp xúc với Bitcoin thông qua việc đào, các công ty Bitcoin trên thị trường chứng khoán, hoặc các vấn đề phức tạp khác. Mục tiêu là chọn ví phù hợp với bạn, và sau đó là giải pháp phù hợp để có được bitcoin đầu tiên của bạn.
@@ -548,6 +560,7 @@ Với điều này, bạn nên tìm thấy điều phù hợp với mình, chọ
 **Nhắc nhở:** Nếu bạn không sở hữu khóa riêng (một danh sách 24 từ), một bên thứ ba chịu trách nhiệm về an ninh của bitcoin của bạn. Nói cách khác, bạn không còn sở hữu bitcoin của mình. Chúng phải chịu cùng một rủi ro như các nền tảng giao dịch như bị hack, tịch thu, quy định, hoặc phá sản.
 
 ## Người Hodler
+<chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Cho dù trong đầu tư hay trong Bitcoin, việc giữ lâu dài thường là quy tắc chung. Đó là cách thống kê sinh lời nhất trong dài hạn và đơn giản nhất để thực hiện:
 
@@ -603,6 +616,7 @@ Dưới đây là một hồ sơ tâm lý ngắn gọn về người Hodler, n�
 Tóm lại, người hodler là một nhà đầu tư kiên nhẫn, tự kỷ luật và có tầm nhìn xa, vững tin vào giá trị lâu dài của Bitcoin và sẵn lòng chịu đựng biến động ngắn hạn để đạt được lợi nhuận đáng kể trong tương lai. Họ có phương pháp đầu tư có hệ thống và chú trọng đến an ninh và kế hoạch dài hạn.
 
 ## Người tích lũy
+<chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 Trong Bitcoin, khái niệm "Người tích lũy" khá nổi tiếng. Ý tưởng rất đơn giản: chỉ có 21 triệu bitcoin, và mỗi bitcoin nhỏ đều quan trọng! Bitcoin nhỏ này thực sự được gọi là satoshi (hoặc SAT). Mục tiêu của người tích lũy là tích lũy càng nhiều càng tốt.
 
@@ -658,6 +672,7 @@ Chân dung Tâm lý của Người Stacking
 Người stacking là một cá nhân có phương pháp và tập trung, với một kế hoạch rõ ràng để tối đa hóa việc tích lũy satoshis của họ. Họ thể hiện sự chủ động và kiến thức tài chính, không ngừng tìm cách tối ưu và bảo vệ khoản đầu tư Bitcoin của mình. Cách tiếp cận của họ được đặc trưng bởi sự nhất quán và tổ chức hoàn hảo, đưa họ trên con đường tăng trưởng ổn định và liên tục của danh mục Bitcoin.
 
 ## Người Dùng
+<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Cuối cùng, loại bitcoiner cuối cùng có thể được nhắc đến trong một khóa học giới thiệu là bitcoiner cần sử dụng Bitcoin thường xuyên. Dù do nghĩa vụ chuyên nghiệp hay đơn giản là mong muốn hỗ trợ hệ sinh thái, việc cung cấp giải pháp phù hợp cho việc sử dụng thường xuyên là cần thiết.
 
@@ -710,6 +725,7 @@ Họ có hiểu biết tốt về công nghệ, bao gồm ví Bitcoin nóng và 
 Người dùng là một cá nhân am hiểu công nghệ, đang tích cực tham gia sử dụng Bitcoin. Họ luôn tìm cách cải thiện hiệu quả và an toàn cho các giao dịch và tài sản Bitcoin của mình. Sự linh hoạt và cam kết với hệ sinh thái được phản ánh qua việc họ sẵn lòng sử dụng đa dạng giải pháp, từ ví lightning đến các giải pháp giao dịch nhanh. Trong khi tích cực tham gia vào các giao dịch Bitcoin, họ không lơ là an toàn, đảm bảo sự phân chia rõ ràng giữa bitcoin dùng hàng ngày và những bitcoin giữ lâu dài.
 
 ## Người Bitcoin Hoài Nghi
+<chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
 Tôi muốn thêm vào đây về người Bitcoin hoài nghi. Loại người này không muốn tiết lộ thông tin cá nhân qua KYC (Know Your Customer), muốn giữ gần gũi với sự ẩn danh, và đặt sự quan trọng lớn vào quyền riêng tư của mình. Người Bitcoin hoài nghi cũng sẽ sử dụng LN qua node riêng của họ và làm việc trên an ninh của mình.
 
@@ -759,8 +775,10 @@ Mua bán không KYC giữa các cá nhân:
 Trong tâm trí của người Paranoid, sự cẩn trọng, an ninh và ẩn danh là tối quan trọng. Những ưu tiên này định hình một cách tiếp cận cẩn thận và được suy nghĩ kỹ lưỡng khi sử dụng Bitcoin, thúc đẩy sự tự lực và cẩn trọng. Người Paranoid sẵn lòng đầu tư thời gian và công sức để đảm bảo an ninh và riêng tư cho bitcoin của họ, đồng thời khéo léo điều hướng trong hệ sinh thái để tránh phơi bày không cần thiết. Mặc dù có thể xuất hiện quá mức cẩn thận đối với một số người, nhưng người Paranoid coi sự chăm chỉ và chú ý đến chi tiết của mình là thiết yếu cho sự tham gia thành công và an toàn trong thế giới Bitcoin.
 
 # Tương lai với Bitcoin
+<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
 
 ## Tạo kế hoạch thừa kế
+<chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
 Hãy tưởng tượng kịch bản dram này.
 Một tai nạn xe hơi, BOOM, và bạn không còn ở thế giới này nữa. Bạn biến mất, để lại gia đình mình không có chuyên gia Bitcoin. Họ không biết tiền ở đâu, nhưng họ nhớ bạn liên tục nhắc đến các thuật ngữ như khóa, danh sách từ, và tính không thể đảo ngược của giao dịch Bitcoin. Họ vô cùng đau buồn, bối rối, và giờ đây phải tự mình tìm hiểu mọi thứ. Mặc dù tình huống này có vẻ đáng sợ, nhưng đó là một khả năng thực tế không thể bỏ qua. Bạn có hai lựa chọn: dành từ 15 phút đến 1 giờ để thiết lập một kế hoạch di sản, hoặc không làm gì cả. Không ai sẽ phán xét, nhưng nếu có người phụ thuộc vào bạn, 15 phút đó có thể tạo ra sự khác biệt lớn một ngày nào đó. Quyết định là của bạn.
@@ -930,8 +948,10 @@ _Cryptoasset Inheritance Planning, Hướng dẫn đơn giản cho chủ sở h�
 Các bạn là tuyệt vời :D Đội của tôi và sinh viên của tôi cũng cảm ơn bạn!
 
 # Lời cảm ơn và tiếp tục khám phá
+<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Xin chúc mừng! BẠN LÀ TOP 0.1%
+<chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Nếu bạn đã theo dõi nội dung của chúng tôi từ đầu, bạn giờ đây là một công dân thực sự của thế kỷ 21 và là một trong những người có kinh nghiệm nhất trong lĩnh vực Bitcoin! Bạn sử dụng trình quản lý mật khẩu và xác thực hai yếu tố (2FA). Bạn hiểu Bitcoin là gì và tại sao nó quan trọng. Bạn sở hữu Bitcoin và có cách an toàn để mua hoặc kiếm thêm. Bạn đã lưu trữ Bitcoin của mình trong một ví "lạnh" và đã thực hiện quản lý khóa đúng cách. Bạn đã tạo kế hoạch thừa kế cho người thân yêu của mình. Bây giờ bạn đã an toàn và có thể thư giãn! Thưởng thức một ly bia và tự hào về bản thân!
 
@@ -949,5 +969,6 @@ Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Tôi 
 Dù trường hợp nào, tất cả các khóa học của chúng tôi đều miễn phí, và nhiều tài nguyên hoặc hướng dẫn có sẵn trên nền tảng của chúng tôi để đi cùng bạn. Chúc bạn may mắn với việc học!
 
 ## Theo dõi
+<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 Khóa học này, cũng như tất cả nội dung có sẵn trên trường đại học này, đã được cung cấp cho bạn miễn phí bởi cộng đồng của chúng tôi. Để hỗ trợ chúng tôi, bạn có thể chia sẻ nó với người khác, trở thành thành viên của trường đại học, và thậm chí đóng góp vào sự phát triển của nó qua GitHub. Thay mặt cho toàn bộ đội ngũ, cảm ơn bạn!

@@ -1,0 +1,23 @@
+- start_date: 2024-07-13 
+  end_date: 2024-07-16
+  address_line_1: Pwllheli, Wales
+  address_line_2: 
+  address_line_3: 
+  name: Bitcoin Beach Retreat
+  builder: 
+  type: conference
+  book_online: false
+  book_in_person: false
+  price_dollars: 0
+  description: Three night gathering at a stunning campsite and beach in North Wales
+  language: 
+    - en
+  links:
+    website: https://bitcoinretreat.co.uk/
+    replay_url:
+    live_url :
+  tags: 
+    - bitcoiner
+    - General
+
+

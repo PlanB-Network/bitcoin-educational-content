@@ -11,8 +11,8 @@
   price_dollars: 0
   description: The first international Bitcoin-native conference in Tokyo.
   language: 
-    - ja
     - en
+    - ja
   links:
     website: https://x.com/BTCTokyo2024
     replay_url:

@@ -807,7 +807,7 @@ Dans les mois qui suivent, NLS sera un élément central du développement écon
 
 ### Les balbutiements de l'économie (janv. 2010 -- avr. 2010)
 
-Le premier promoteur de l'essor commercial est NewLibertyStandard. Ce dernier est en effet le  Le 19 janvier 2010, juste après son inscription sur le nouveau forum, il écrit dans un fil consacré au lancement d'un service de vente de cartes-cadeaux paysafecard, NLS écrit le texte suivant :
+Le premier promoteur de l'essor commercial est NewLibertyStandard. Ce dernier est en effet la première personne à accepter effectivement de recevoir du bitcoin en l'échange d'un autre bien, en l'occurrence du dollar. Le 19 janvier 2010, juste après son inscription sur le nouveau forum, il [écrit](https://bitcointalk.org/index.php?topic=15.msg111#msg111) dans un fil consacré au lancement d'un service de vente de cartes-cadeaux paysafecard, NLS écrit le texte suivant :
 
 > « Des gens m'ont acheté des bitcoins et m'en ont vendus. L'offre et la demande, même si elle sont faibles, existent déjà et c'est tout ce qu'il faut. Proposer d'échanger des bitcoins contre une autre monnaie n'est en fin de compte pas différent de l'échange de bitcoins contre des biens ou des services. Les monnaies sont des biens et le change est un service. J'ai essayé de penser à quoi acheter ou vendre avec des bitcoins, en dehors des dollars américains, mais je n'ai rien trouvé. N'hésitez pas à nous tenir au courant de ce que vous déciderez de vendre en bitcoins. Pour ce qui est de la question de l'épuisement des fonds, j'ai prévu un don quotidien dans mon budget. Vous pouvez acheter tous mes dollars ou bitcoins aujourd'hui, mais il y en aura toujours plus demain et après-demain. Toutes les personnes qui achètent ou vendent des biens en utilisant des bitcoins, y compris les changeurs, font progresser l'économie de Bitcoin. Que tout le monde fasse sa part. Achetez ou vendez quelque chose en échange de bitcoins ! »
 >
@@ -820,6 +820,8 @@ https://bitcointalk.org/index.php?topic=30.0
 « Le forum est vraiment en train de décoller. &nbsp;Je ne m'attendais pas à ce qu'il y ait autant d'activité aussi rapidement. » ([7/2/2010](https://mmalmi.github.io/satoshi/#email-153))
 
 Premiers services (VPN, etc.), premières applications dépositaires (MyBitcoin), échanges sur IRC (#bitcoin-otc ?)
+
+BTC 2 PSC, cartes-cadeaux paysafecard, SmokeTooMuch, 14 décembre 2009 : https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65 https://mmalmi.github.io/satoshi/#email-141
 
 BitcoinFX (`bitcoinfx.cz.cc`), vente de bitcoin en LR-USD, 15 février 2010 : https://bitcointalk.org/index.php?topic=30.msg194#msg194
 

@@ -376,7 +376,7 @@ Voici une vidéo de présentation de Ripple réalisée en 2011 :
 
 Malgré l'enthousiasme de sa communauté et quelques milliers d'utilisateurs, Ripple possédait des défauts majeurs qui l'ont empêché de connaître le succès. En particulier, il souffrait du « [problème de l'engagement décentralisé](https://fiatjaf.com/3cb7c325.html) » : durant un paiement, les participants ne pouvaient pas s'engager d'une façon sûre pour assurer la chaîne de prêts, un problème qui serait résolu plus tard par Lightning.
 
-Voyant que son projet n'allait nulle part,  Ryan Fugger a laissé les rênes de Ripple aux dirigeants de l'entreprise OpenCoin Inc., Chris Larsen et Jed McCaleb, en novembre 2012. La société a été renommée en Ripple Labs en 2013. Ces derniers en ont fait un protocole sensiblement différent du concept initial, reposant sur un algorithme de consensus et sur une unité de compte native, le XRP. Ryan Fugger a fini par modifier le nom de sa preuve de concept en [Rumplepay](https://rumplepay.com/) en 2020 pour éviter la confusion.
+Voyant que son projet n'allait nulle part, Ryan Fugger a laissé les rênes de Ripple aux dirigeants de l'entreprise OpenCoin Inc., Chris Larsen et Jed McCaleb, en novembre 2012. La société a été renommée en Ripple Labs en 2013. Ces derniers en ont fait un protocole sensiblement différent du concept initial, reposant sur un algorithme de consensus et sur une unité de compte native, le XRP. Ryan Fugger a fini par modifier le nom de sa preuve de concept en [Rumplepay](https://rumplepay.com/) en 2020 pour éviter la confusion.
 
 Ripple était pour ainsi dire contemporain de Bitcoin, et il s'avère que beaucoup de gens intéressés par ce dernier s'étaient aussi intéressés au premier. En effet, Ripple constituait un modèle novateur, fondée sur une architecture distribuée, une caractéristique partagée avec Bitcoin. À ce sujet, Satoshi Nakamoto [écrirait](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz) que « Ripple est unique en ce qu'il répartit la confiance plutôt que de la concentrer ».
 
@@ -617,7 +617,7 @@ Un autre soutien provient du cypherpunk Zooko Wilcox-O'Hearn, qui travaille alor
 
 > « Ce que je veux, c'est une monnaie que tout le monde puisse utiliser de manière pratique et peu coûteuse, mais que **personne** n'ait le pouvoir de manipuler cette monnaie. &nbsp;Que personne n'ait le pouvoir de gonfler ou de dégonfler la masse monétaire ; que personne n'ait le pouvoir de surveiller, de taxer ou d'empêcher les transactions. &nbsp;Un véritable équivalent numérique de l'or, dans les périodes et les lieux où l'or était la monnaie universelle. »
 >
-> *original: "What I want is a currency which everyone can cheaply and conveniently use but which **no-one** has the power to manipulate.  No-one has the power to inflate or deflate the currency supply, no-one has the power to monitor, tax, or prevent transactions.  Truly the digital equivalent of gold, during the times and places when gold was the universal currency."*
+> *original: "What I want is a currency which everyone can cheaply and conveniently use but which **no-one** has the power to manipulate. &nbsp;No-one has the power to inflate or deflate the currency supply, no-one has the power to monitor, tax, or prevent transactions. &nbsp;Truly the digital equivalent of gold, during the times and places when gold was the universal currency."*
 
 Le lien vers ce texte finira par être [ajouté](https://web.archive.org/web/20090303195936/http://bitcoin.org/) sur le site Bitcoin.org, et Satoshi [remerciera](https://bitcointalk.org/index.php?topic=890.msg10723#msg10723) personnellement Zooko un an et demi plus tard.
 
@@ -769,43 +769,63 @@ Parmi les premiers mineurs qui apportent leur puissance de calcul au réseau dur
 - Dustin Trammell, qui mine une quantité impressionnante de blocs tout au long de l'année 2009 et au début de l'année 2010, et qui obtient ainsi plus de 70 000 bitcoins comme témoigne l'activité liée à son [adresse](https://mempool.space/address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv) ;
 - Un ingénieur britannique du nom de James Howells, qui [génère](https://mempool.space/address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 8 000 bitcoins avec son ordinateur entre février et avril (il enverra son ordinateur à la décharge en 2013 et se rendra compte de son erreur quelques mois plus tard ; son cas sera alors [médiatisé](https://www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site) par le *Guardian*) ;
 - Martti Malmi, qui contribue à la production des blocs sur le réseau entre avril 2009 et 2010 et qui [obtient](https://twitter.com/marttimalmi/status/1339908783187832834) ainsi plus de 55 000 bitcoins (qu'il vendra pour la plupart avant 2012) ;
-- Un individu utilisant le pseudonyme de NewLibertyStandard, qui mine à partir de septembre 2009 pour alimenter son service de change naissant...
+- Un certain NewLibertyStandard, qui mine à partir de septembre 2009 pour alimenter son service de change naissant...
 
-### Le premier service de change et le premier prix (oct. 2009)
+### Le premier service de change et le premier prix (sept. 2009 -- nov. 2009)
 
-NewLibertyStandard (NLS), commence à miner fin septembre...
-
-Sur son [site](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), NLS présente Bitcoin comme « une révolution économique » (*original: "An Economic Revolution"*) et comme « la référence de la monnaie numérique ». (*original: "the gold standard of digital currency"*)
+À la fin du mois de septembre 2009, un individu utilisant le pseudonyme NewLibertyStandard (que nous abrègerons en NLS) découvre Bitcoin et se met à miner. Il est utilisateur de Linux et passe donc par l'« émulateur » Wine pour faire tourner le logiciel. Il est intéressé par la liberté politique et par les métaux précieux, comme en témoigne son [avatar](https://bitcointalk.org/index.php?action=profile;u=26) sur le forum qui représente un Eagle américain (voir l'image ci-dessous) sur lequel le mot « *liberty* » est inscrit. Il voit ainsi Bitcoin comme un équivalent de l'or dans le monde numérique, qu'il présente comme « une révolution économique » (*original: "An Economic Revolution"*) et comme « la référence de la monnaie numérique ». (*original: "the gold standard of digital currency"*) sur sa [page personnelle](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/).
 
 ![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain](assets/img/ch6/newlibertystandard-coin-avatar.webp)
 
-[Avatar](https://bitcointalk.org/index.php?action=profile;u=26) de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain (pièce d'or de 1/4 d'once)
+En octobre 2009, il met en place le premier service de change permettant aux gens de convertir leurs dollars en bitcoins et leurs bitcoins en dollars. Il [s'inscrit](https://mmalmi.github.io/satoshi/#email-34) sur le forum de SourceForge et y annonce l'ouverture de son service.
 
-À partir d'octobre 2009, il met en place, sur sa page personnelle, le premier service d'échange permettant aux gens de convertir leurs dollars en bitcoins, et inversement.
+Le 8 octobre, Martti Malmi écrit à Satoshi que « de nouveaux utilisateurs se sont inscrits sur le site bitcoin.sf.net » et que « l'un d'entre eux vient d'annoncer qu'il échangeait des Bitcoins contre des dollars ». (*original: "There are some new users registered to the bitcoin.sf.net site. One of them just announced that he's trading Bitcoins for dollars."*)
 
-Le 8 octobre, Martti Malmi [écrit](https://mmalmi.github.io/satoshi/#email-34) à Satoshi que « de nouveaux utilisateurs se sont inscrits sur le site bitcoin.sf.net » et que « l'un d'entre eux vient d'annoncer qu'il échangeait des Bitcoins contre des dollars ». (*original: "There are some new users registered to the bitcoin.sf.net site. One of them just announced that he's trading Bitcoins for dollars."*)
-
-**extrait** Pour estimer le taux de change, il se base sur le coût énergétique nécessaire pour obtenir un bitcoin, en prenant en compte le coût de l'électricité à son emplacement et la fréquence de sa production personnelle.
+Pour estimer le taux de change, il se fonde sur le coût énergétique qui lui est nécessaire pour obtenir une unité, en prenant en compte le coût de l'électricité à son emplacement et la fréquence de sa production personnelle.
 
 > « Notre taux de change est calculé en divisant 1,00 $ par la quantité moyenne d'électricité nécessaire pour faire fonctionner un ordinateur avec une utilisation du processeur élevée pendant un an, soit 1331,5 kWh, multipliée par le coût résidentiel moyen de l'électricité aux États-Unis pour l'année précédente, soit 0,1136 $, le tout divisé par 12 mois, divisé par le nombre de bitcoins générés par mon ordinateur au cours des 30 derniers jours. »
 >
 > *original: "Our exchange rate is calculated by dividing $1.00 by the average amount of electricity required to run a computer with high CPU for a year, 1331.5 kWh, multiplied by the the average residential cost of electricity in the United States for the previous year, $0.1136, divided by 12 months divided by the number of bitcoins generated by my computer over the past 30 days."*
 
-![Taux de change indicatifs du service de NLS](assets/img/ch6/nls-exchange-rates-oct09.webp)
+Voici les taux de change indicatifs du service, [publiés](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate) sur la page personnelle de NLS :
 
-Taux de change indicatifs du service de NLS (source : [archive du site de NLS](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate))
+![Taux de change indicatifs du service de NLS](assets/img/ch6/nls-exchange-rates-oct09.webp)
 
 Les transferts en dollar se font uniquement par Paypal et des frais sont prélevés dans l'opération.
 
-12 octobre 2009 : échange avec Martti Malmi
+Le 8 octobre, Martti Malmi [informe](https://mmalmi.github.io/satoshi/#email-34) Satoshi Nakamoto de l'existence du service de NLS. Le créateur de Bitcoin réagit positivement à cette nouvelle, car il songeait [depuis quelques temps](https://mmalmi.github.io/satoshi/#email-28) à mettre en place un moyen de garantir la valeur des bitcoins pour récompenser le minage et lancer la dynamique économique. Le 16 octobre, il [écrira](https://mmalmi.github.io/satoshi/#email-35) ainsi à son bras droit :
 
-« Bonne nouvelle : il dit avoir réalisé sa première vente de bitcoins. &nbsp;Quelqu'un a acheté la totalité de ce qu'il avait. » ([20/11/2009](https://mmalmi.github.io/satoshi/#email-99))
+> « Il est encourageant de voir que davantage de personnes s'intéressent au projet, comme ce site NewLibertyStandard. &nbsp;J'aime son approche de l'estimation de la valeur basée sur l'électricité. &nbsp;Il est instructif de voir quelles explications les gens adoptent. &nbsp;Elles peuvent aider à découvrir une manière simplifiée de comprendre \[Bitcoin\] qui puisse le rendre plus accessible aux masses. &nbsp;De nombreux concepts complexes dans le monde ont une explication simpliste qui satisfait 80 % des gens, et une explication complète qui satisfait les 20 % restants, ceux qui voient les défauts de l'explication simpliste. »
+>
+> *original: "It's encouraging to see more people taking an interest such as that NewLibertyStandard site. &nbsp;I like his approach to estimating the value based on electricity. &nbsp;It's educational to see what explanations people adopt. &nbsp;They may help discover a simplified way of understanding it that makes it more accessible to the masses. &nbsp;Many complex concepts in the world have a simplistic explanation that satisfies 80% of people, and a complete explanation that satisfies the other 20% who see the flaws in the simplistic explanation."*
 
-### Les balbutiements de l'économie (oct. 2009 -- avr. 2010)
+À la suite de l'annonce de NLS, Martti Malmi rentre en contact avec lui. Les deux personnes s'accordent alors pour réaliser un échange. Dans la nuit du 11 au 12 octobre 2009, la première vente de bitcoins en dollars est finalisée : Martti [cède](https://twitter.com/marttimalmi/status/423455561703624704) 5050 bitcoins provenant de sa production minière à NLS en échange de 5,02 $ virés sur le compte PayPal de ce dernier, ce qui correspond à un prix unitaire d'environ 0,001 $.
+
+Au cours des semaines suivantes, NLS accumule plus de bitcoins pour approvisionner son service. Le 19 novembre, quelqu'un lui [achète](https://mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756) les quelques 22 500 bitcoins qu'il possède, ce qui clôt sa première vente de bitcoins. Quelques heures plus tard, Satoshi s'enthousiasme de cette opération financière dans un [courriel](https://mmalmi.github.io/satoshi/#email-99) écrit à Martti Malmi.
+
+Dans les mois qui suivent, NLS sera un élément central du développement économique de Bitcoin, en offrant un indice de référence pour le change entre le bitcoin et le dollar. Cependant, il commencera à être concurrencé au cours de la première moitié de l'année 2010, période marquée par les balbutiements des échanges commerciaux en cryptomonnaie.
+
+### Les balbutiements de l'économie (janv. 2010 -- avr. 2010)
+
+Le premier promoteur de l'essor commercial est NewLibertyStandard. Ce dernier est en effet le  Le 19 janvier 2010, juste après son inscription sur le nouveau forum, il écrit dans un fil consacré au lancement d'un service de vente de cartes-cadeaux paysafecard, NLS écrit le texte suivant :
+
+> « Des gens m'ont acheté des bitcoins et m'en ont vendus. L'offre et la demande, même si elle sont faibles, existent déjà et c'est tout ce qu'il faut. Proposer d'échanger des bitcoins contre une autre monnaie n'est en fin de compte pas différent de l'échange de bitcoins contre des biens ou des services. Les monnaies sont des biens et le change est un service. J'ai essayé de penser à quoi acheter ou vendre avec des bitcoins, en dehors des dollars américains, mais je n'ai rien trouvé. N'hésitez pas à nous tenir au courant de ce que vous déciderez de vendre en bitcoins. Pour ce qui est de la question de l'épuisement des fonds, j'ai prévu un don quotidien dans mon budget. Vous pouvez acheter tous mes dollars ou bitcoins aujourd'hui, mais il y en aura toujours plus demain et après-demain. Toutes les personnes qui achètent ou vendent des biens en utilisant des bitcoins, y compris les changeurs, font progresser l'économie de Bitcoin. Que tout le monde fasse sa part. Achetez ou vendez quelque chose en échange de bitcoins ! »
+>
+> *original: "I have had people buy bitcoins from me and sell bitcoins to me. Supply and demand, albeit only a small amount, already exists and is all that is really needed. Offering to exchange bitcoins for another currency is ultimately no different from exchanging bitcoins for goods or services. Currencies are goods and exchanging them is a service. I have been trying to think of something besides USD dollars which I can try to buy or sell using bitcoins, but I can't think of anything. Please let us know about whatever you decide to sell for bitcoins. As for the issue of burning through funds, I have written a daily donation into my budget. You can buy all my USD dollars or bitcoins today, but there will always be more tomorrow and the next day. Each person who buys or sells goods using bitcoins, including exchangers, is increasing the bitcoin economy. Everyone, do your part. Buy or sell something in exchange for bitcoins!"*
+
+Page de commerçants par Martti Malmi.
+
+https://bitcointalk.org/index.php?topic=30.0
 
 « Le forum est vraiment en train de décoller. &nbsp;Je ne m'attendais pas à ce qu'il y ait autant d'activité aussi rapidement. » ([7/2/2010](https://mmalmi.github.io/satoshi/#email-153))
 
-Premiers services (VPN, etc.), premières applications dépositaires (MyBitcoin), échanges sur IRC
+Premiers services (VPN, etc.), premières applications dépositaires (MyBitcoin), échanges sur IRC (#bitcoin-otc ?)
+
+BitcoinFX (`bitcoinfx.cz.cc`), vente de bitcoin en LR-USD, 15 février 2010 : https://bitcointalk.org/index.php?topic=30.msg194#msg194
+
+BitcoinExchange (`bitcoinexchange.com`), Martti Malmi, 2 mars 2010 : https://bitcointalk.org/index.php?topic=68.msg591#msg591
+
+Bitcoin Market (`bitcoinmarket.com`) 16 mars 2010 : https://bitcointalk.org/index.php?topic=20.msg726#msg726 https://news.bitcoin.com/bitcoin-history-part-6-the-first-bitcoin-exchange/
 
 ### Le minage devient sérieux (déc. 2009 -- avr. 2010)
 
@@ -830,7 +850,7 @@ Estimation de la proportion de la puissance de calcul de Satoshi par rapport à 
 
 Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui découvre Bitcoin en avril 2010.
 
-**extrait** Après avoir acheté des bitcoins à NLS et essayé le système de transactions, celui-ci programme début mai un logiciel de minage qui s’adapte aux processeurs graphiques. Cette optimisation lui permet d’occuper rapidement une place importante dans la production des blocs. Cette production attire l’attention de Satoshi Nakamoto qui le contacte et lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) de ralentir ses opérations afin que le minage reste accessible à tous :
+**extrait** Après avoir acheté des bitcoins à NLS et essayé le système de transactions, celui-ci programme début mai un logiciel de minage qui s'adapte aux processeurs graphiques. Cette optimisation lui permet d'occuper rapidement une place importante dans la production des blocs. Cette production attire l'attention de Satoshi Nakamoto qui le contacte et lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) de ralentir ses opérations afin que le minage reste accessible à tous :
 
 > « L'un des principaux attraits pour les nouveaux utilisateurs est que toute personne disposant d'un ordinateur peut générer des unités gratuites. Lorsqu'il y aura 5 000 utilisateurs, cette incitation s'estompera peut-être, mais pour l'instant, c'est toujours vrai. Les processeurs graphiques limiteraient prématurément cette incitation à ceux qui disposent d'un matériel GPU haut de gamme. Il est inévitable que les clusters de calcul GPU finiront par accaparer toutes les unités générées, mais je ne veux pas précipiter l'arrivée de ce jour-là. \[...\] Je ne veux pas passer pour un socialiste, je me moque de la concentration des richesses, mais pour l'instant, nous obtenons plus de croissance en donnant cet argent à 100 % des gens qu'en le donnant à 20 %. En outre, plus nous retarderons la course aux armements des GPU, plus les bibliothèques OpenCL deviendront matures, et plus nombreux seront ceux qui disposeront de cartes graphiques compatibles avec OpenCL. »
 >
@@ -865,7 +885,7 @@ Peut-être qu'il pourrait obtenir une valeur initiale circulaire [...], par le b
 >
 > *If it somehow acquired any value at all for whatever reason, then anyone wanting to transfer wealth over a long distance could buy some, transmit it, and have the recipient sell it.*
 >
-> *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange.  (I would definitely want some)  Maybe collectors, any random reason could spark it."*
+> *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange. &nbsp;(I would definitely want some) &nbsp;Maybe collectors, any random reason could spark it."*
 
 https://bitcointalk.org/index.php?topic=583.msg11405#msg11405
 

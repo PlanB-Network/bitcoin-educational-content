@@ -68,23 +68,22 @@ Si nous prenons la première, celle qui a le hashrate le plus élevé
 
 En haut à gauche sur le dashboard, vous avez « Next block ». Sur cette page, vous avez quatre blocs templates différents. Ocean permet à chaque contributeur de choisir le bloc template qu’il souhaite soutenir. Cela n’a pas d’impact direct sur votre rémunération. Quand la pool mine un bloc, tous les contributeurs sont rémunérés indépendamment du template qu’ils ont choisi. Cela permet simplement à chacun de « voter » pour le bloc template qui lui correspond.
 
-CORE : Frais 2 %, il s’agit du template classique Bitcoin Core sans filtre, comme écrit sur leur page « Inclut les transactions et la majorité du spam »
+![signup](assets/3.webp)
 
-CORE+ANTISPAM: Frais 0 %, Bitcoin Core avec un filtre contre certaines transactions comme les Ordinals « Inclut les transactions et limite le spam »
+**CORE:** Frais 2 %, il s’agit du template classique Bitcoin Core sans filtre, comme écrit sur leur page « Inclut les transactions et la majorité du spam »
 
-OCEAN: Frais 0 %, Bitcoin Knot « Inclut seulement les transactions et les données raisonnablement petites »
+**CORE+ANTISPAM:** Frais 0 %, Bitcoin Core avec un filtre contre certaines transactions comme les Ordinals « Inclut les transactions et limite le spam »
 
-DATA-FREE: Frais 0 %, Bitcoin Knot « Inclut seulement les transactions sans aucune donnée arbitraire »
+**OCEAN:** Frais 0 %, Bitcoin Knot « Inclut seulement les transactions et les données raisonnablement petites »
+
+**DATA-FREE:** Frais 0 %, Bitcoin Knot « Inclut seulement les transactions sans aucune donnée arbitraire »
 
 ### Distinction entre Bitcoin Core et Bitcoin Knot
 
 Bitcoin Core est le logiciel qui permet de faire fonctionner environ 99 % des nœuds Bitcoin à travers le monde. Bitcoin est un protocole, ce qui signifie que, comme pour Internet, où il existe plusieurs navigateurs, il peut y avoir plusieurs logiciels différents qui cohabitent sur la même TimeChain. Cependant, par souci de compatibilité et pour limiter le risque de bugs qui laisseraient des traces indélébiles sur la TimeChain, la quasi-totalité des développeurs Bitcoin travaillent sur Bitcoin Core. Bitcoin Knot est un fork de Bitcoin Core, ce qui signifie qu’il partage la majorité de leur code, limitant grandement le risque de bugs. Ce fork a été créé par Luke Dashjr, qui souhaitait appliquer des règles plus restrictives que Bitcoin Core sans créer de hard fork. Désormais, Bitcoin Core et Bitcoin Knot cohabitent grâce au consensus de Nakamoto.
 
-![signup](assets/1.webp)
+## Ajouter un "worker"
 
-![signup](assets/2.webp)
-
-![signup](assets/3.webp)
 
 ![signup](assets/4.webp)
 

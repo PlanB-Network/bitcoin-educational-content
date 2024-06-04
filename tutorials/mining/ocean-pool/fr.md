@@ -49,7 +49,7 @@ Les frais sont de 0 % à 2 % selon le bloc template choisi.
 
 Toutes les informations de la pool sont transparentes, y compris toutes les données utilisateurs. Pour comprendre ce point, nous allons prendre un exemple:
 
-Sur le dashboard d'Ocean [https://ocean.xyz/dashboard](https://ocean.xyz/dashboard), vous avez de nombreuses informations comme le hashrate des six derniers mois, le nombre de participants à la pool, le nombre total de bitcoins minés, etc.
+[Sur le dashboard d'Ocean](https://ocean.xyz/dashboard), vous avez de nombreuses informations comme le hashrate des six derniers mois, le nombre de participants à la pool, le nombre total de bitcoins minés, etc.
 
 Nous allons nous intéresser à la partie "Contributors". Vous pouvez voir la liste de tous les contributeurs avec leur hashrate moyen sur les trois dernières heures ainsi que le pourcentage de "shares" et de "hash" par rapport au reste de la pool.
 

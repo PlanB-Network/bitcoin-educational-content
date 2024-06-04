@@ -1,0 +1,16 @@
+name: Bitpolito
+category: communities
+address_line_1: Turin, Italy 
+address_line_2: Corso Castelfidardo, 39, 10129 
+address_line_3: 
+language: 
+  - it
+  - en 
+links:
+  twitter: https://twitter.com/bitpolito
+  github: https://github.com/BitPolito
+  youtube: https://www.youtube.com/@BitPolito
+
+tags:
+  - bitcoin-only  
+  - eduaction

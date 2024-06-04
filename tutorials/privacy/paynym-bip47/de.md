@@ -1,7 +1,7 @@
 ---
 name: BIP47 - PayNym
 
-description:: Wie PayNym funktioniert
+description: Wie PayNym funktioniert
 ---
 ***ACHTUNG:** Nach der Verhaftung der Gründer von Samourai Wallet und der Beschlagnahme ihrer Server am 24. April kann die App nicht mehr von Benutzern verwendet werden, die nicht über ihr eigenes Dojo verfügen. Das BIP47 bleibt auf Sparrow Wallet für alle Benutzer nutzbar und **auf Samourai Wallet nur für Benutzer, die ein Dojo besitzen**.*
 

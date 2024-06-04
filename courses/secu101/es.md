@@ -23,8 +23,10 @@ Théo; contribución
 +++
 
 # Introducción
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Introducción al curso
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Objetivo: ¡actualización!
 
@@ -75,8 +77,10 @@ En bonus, te ofrecemos una entrevista exclusiva con Pantamis y Renaud, nuestros 
 Este programa de formación se ofrece de forma gratuita bajo una licencia redistribuible CC BY SA. Queremos expresar nuestra gratitud a nuestros Patreons y a nuestro equipo de grabación por su apoyo indispensable en la realización de esta formación. También agradecemos a todos nuestros donantes y seguidores que nos permiten seguir produciendo contenido educativo gratuito a nivel mundial.
 
 # Todo sobre la navegación en línea
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Navegación en línea
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Al navegar por internet, es importante evitar algunos errores comunes para preservar tu seguridad en línea. Aquí tienes algunos consejos para evitarlos:
 
@@ -115,6 +119,7 @@ TOR es legal y es utilizado por periodistas, activistas de la libertad y otras p
 **_Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub_**
 
 ## VPN y conexión a Internet
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### los VPN
 
@@ -145,8 +150,10 @@ En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en líne
 **_Tutorial en construcción, para contribuir o agregarlo, puedes pasar por GitHub_**
 
 # Buenas prácticas para el uso de la computadora
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Uso de la computadora
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 La seguridad de nuestras computadoras es un tema importante en el mundo digital actual. Hoy vamos a abordar tres puntos clave:
 
@@ -194,6 +201,7 @@ En conclusión, es fundamental optar por un sistema operativo adecuado a sus nec
 **_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
 
 ## Hack y gestión de copias de seguridad: proteger sus datos
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### ¿Cómo atacan los hackers?
 
@@ -230,8 +238,10 @@ NO, generalmente se desaconseja pagar a los hackers en caso de ransomware u otro
 Si detecta un virus en su computadora, desconéctela de Internet, realice un análisis antivirus completo y elimine los archivos infectados. Luego, actualice su software y sistema operativo, y cambie sus contraseñas para evitar otras intrusiones.
 
 # Implementación de soluciones.
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Gestión de buzones de correo
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ### ¡Configuración de una nueva cuenta de correo electrónico!
 
@@ -262,6 +272,7 @@ Bonus Bitcoin: Puede ser recomendable crear una dirección de correo electrónic
 **_Tutorial en construcción, para contribuir o agregarlo, puedes pasar por GitHub_**
 
 ## Gestor de contraseñas
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### ¿Qué es un gestor de contraseñas?
 
@@ -311,6 +322,7 @@ Las contraseñas generadas de manera aleatoria ofrecen un nivel de seguridad sup
 **_ Tutorial en construcción, para contribuir o agregarlo, puede pasar por GitHub _**
 
 ## Los 2 factores de autenticación
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Por qué implementar el 2FA
 
@@ -349,13 +361,45 @@ Como has entendido, establecer una buena higiene digital no siempre es sencillo,
 
 Regla de oro: ¡La seguridad informática es un objetivo en constante evolución que se adaptará a tu proceso de aprendizaje!
 
-### Tutorial: soluciones de 2FA y YubiKey
+# Sección Práctica
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
-**_Tutorial en construcción, para contribuir o agregarlo, puedes utilizar GitHub_**
+## Configuración de un Buzón de Correo
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+Ten en cuenta que, por el momento, esta parte del curso solo contiene tutoriales en francés. Actualmente estamos trabajando en traducir el video para publicarlo en tu idioma. Si deseas ayudarnos a traducir, contáctanos a través de [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Seguridad en 2FA
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Creación de un gestor de contraseñas
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Asegurando tus cuentas
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Configuración de copia de seguridad
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Cambio de navegador y VPN
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+![video](https://youtu.be/vc6-Ouca09g)
 # Ve más allá
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Cómo trabajar en esta industria de ciberseguridad
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 La ciberseguridad, un campo en pleno auge, ofrece una multitud de oportunidades para aquellos apasionados por la protección de sistemas y datos. Si esta industria te intriga, aquí tienes algunos pasos clave para orientarte.
 
@@ -388,6 +432,7 @@ La evolución constante de las amenazas requiere estar al tanto de las noticias 
 Dominando estas habilidades y herramientas, estarás bien equipado para navegar con éxito en el mundo de la ciberseguridad.
 ![](assets/notext/20.webp)
 ## Entrevista a Renaud
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Gestión eficiente de contraseñas y fortalecimiento de la autenticación: un enfoque académico
 
@@ -418,6 +463,7 @@ Des alternatives a los anuncios intrusivos incluyen Google DNS, OpenDNS y otros 
 En el marco del módulo de formación "Seguridad 101" de Découvre Bitcoin en la Academia, también discutimos la autenticación Lightning. Este sistema genera una identificación diferente por servicio, sin necesidad de proporcionar una dirección de correo electrónico o información personal. Es posible tener identidades descentralizadas controladas por el usuario, pero falta normalización y estandarización en los proyectos de identidad descentralizada. Se recomiendan los administradores de paquetes como Nuget y Chocolaté, que permiten descargar software de código abierto fuera de Microsoft Store, para evitar ataques maliciosos. En resumen, el DNS es crucial para la seguridad en línea, pero es necesario estar atento a posibles ataques a los servidores DNS.
 
 ## Agradecimientos y sigue profundizando en la madriguera del conejo
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Califica el curso y apóyanos
 

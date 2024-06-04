@@ -1,12 +1,16 @@
 name: PlebLab
+category: communities
+address_line_1: Austin, Texas
+address_line_2:
+address_line_3: 
+language: 
+  - en
 links:
   website: https://www.pleblab.com/
   twitter: https://twitter.com/PlebLab
-  nostr: npub1an84q6c03wml5lf0uwcqcr20ydwv0t0lvv0xktlcfs9seattef8sdhz6yg
-  Github: github.com/PlebLab
+  Github: https://www.github.com/PlebLab
+  youtube: https://www.youtube.com/channel/UCoUUXOdWNOSv_MTtYXMUwDA
 
 tags:
   - education
   - finance
-
-category: education

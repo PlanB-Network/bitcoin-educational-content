@@ -23,8 +23,10 @@ Théo; contribution
 +++
 
 # Introduction
+<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 ## Course Introduction
+<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ### Objective: Update your security skills !
 
@@ -71,8 +73,10 @@ First, we will see how to protect your email inbox, which is essential for your 
 ![](assets/en/3.webp)
 
 # Everything you need to know about online browsing
+<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Online browsing
+<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 When browsing the internet, it is important to avoid certain common mistakes to preserve your online security. Here are some tips to avoid them:
 
@@ -111,6 +115,7 @@ TOR is legal and is used by journalists, freedom activists, and others wishing t
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## VPN and internet connection
+<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPNs
 
@@ -142,8 +147,10 @@ In summary, the use of VPN can greatly improve online security, both for busines
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 # Best Practices for Computer Use
+<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Computer Use
+<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 The security of our computers is a major concern in today's digital world. Today, we will address three key points:
 
@@ -191,6 +198,7 @@ In conclusion, it is essential to choose an operating system that suits your nee
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## Hacking & Backup Management: Protecting Your Data
+<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### How do hackers attack?
 
@@ -227,8 +235,10 @@ NO, it is generally not recommended to pay hackers in the case of ransomware or 
 If you detect a virus on your computer, disconnect it from the internet, perform a full antivirus scan, and delete infected files. Then, update your software and operating system, and change your passwords to prevent further intrusions.
 
 # Implementation of solutions.
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Managing email accounts
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ### Setting up a new email account!
 
@@ -258,6 +268,7 @@ Bonus Bitcoin: It may be advisable to create a specific email address for our Bi
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## Password Manager
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### What is a password manager?
 
@@ -307,6 +318,7 @@ Randomly generated passwords offer a higher level of security, although they may
 **_Tutorial under construction, to contribute or add it, you can go through GitHub_**
 
 ## Two-Factor Authentication
+<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Why implement 2FA
 
@@ -345,13 +357,46 @@ Keep learning and gradually implement good practices!
 
 Golden rule: Cybersecurity is a moving target that will adapt to your learning journey!
 
-### Tutorial: 2FA and YubiKey solutions
+# Practical Section 
+<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
-**_Tutorial under construction, to contribute or add it, you can go through GitHub._**
+## Setting up a Mailbox 
+<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+
+Notice that, for the moment, this part of the course only contains how-to tutorials in French. We are currently working on translating the video to publish it in your language. If you want to help us translate, contact us via the [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+
+![video](https://youtu.be/vpYJYWhmEZg)
+
+## Securing in 2FA
+<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+
+![video](https://youtu.be/mNcAKRDmz5o)
+
+## Creating a password manager
+<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+
+![video](https://youtu.be/y7Xkv4E5YmU)
+
+## Securing your accounts
+<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+
+![video](https://youtu.be/0JHZRALmGY0)
+
+## Back-up set-up
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+![video](https://youtu.be/wTJnlSUkDRI)
+
+## Change of browser & VPN
+<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+
+![video](https://youtu.be/vc6-Ouca09g)
 
 # Go further
+<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## How to work in the cybersecurity industry
+<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ### Cybersecurity: A Growing Field with Endless Opportunities
 
@@ -385,7 +430,9 @@ The constant evolution of threats requires regular monitoring of news and specia
 
 By mastering these skills and tools, you will be well-equipped to navigate the world of cybersecurity successfully.
 ![](assets/notext/20.webp)
+
 ## Interview with Renaud
+<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Efficient Password Management and Authentication Strengthening: An Academic Approach
 
@@ -418,6 +465,7 @@ Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other 
 As part of the "Security 101" training module on Découvre Bitcoin Academy, we also discussed Lightning authentication. This system generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as Nuget and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security, but it is necessary to remain vigilant against potential attacks on DNS servers.
 
 ## Acknowledgments and keep digging the rabbit hole
+<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
 
 ### Rate the training & support us
 

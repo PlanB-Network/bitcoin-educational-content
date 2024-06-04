@@ -17,8 +17,10 @@ Qui metteremo in luce le tendenze e i modelli comuni negli episodi di iperinflaz
 +++
 
 # Introduzione
+<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
 ## Introduzione
+<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 Questo programma mira a offrire una comprensione approfondita dell'emergere delle iperinflazioni in un mondo dominato dalla moneta Fiat e ad esaminarne le considerevoli conseguenze. I partecipanti esploreranno in dettaglio i cicli iperinflazionistici, analizzando le cause, i fattori scatenanti e gli esempi storici e contemporanei. Esamineranno anche l'impatto tangibile delle iperinflazioni sull'economia e sulla vita quotidiana, studiando le ripercussioni sul valore della moneta, il potere d'acquisto e il risparmio individuale e collettivo.
 
@@ -51,8 +53,10 @@ Sezione 4 - Come siamo arrivati a questo punto?
 Buona fortuna!
 
 # Cos'è l'inflazione?
+<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Un fenomeno monetario
+<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Le definizioni dell'inflazione
 
@@ -182,6 +186,7 @@ Questa analisi dimostra che la fiducia nella moneta, e di conseguenza il suo val
 Concludendo, questo studio sulla svalutazione monetaria apre la porta a una comprensione approfondita dei meccanismi dell'inflazione, che saranno esplorati nei video successivi. Discuteremo dei diversi tipi di inflazione e della soglia in cui si trasformano in inflazione alta o iperinflazione. Questa solida base ci permetterà di affrontare le complessità dell'inflazione nelle prossime sessioni. Grazie per l'attenzione e ci vediamo nel prossimo video per continuare questa esplorazione delle dinamiche monetarie.
 
 ## I tipi di inflazione
+<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### L'inflazione non è un fenomeno multifattoriale
 
@@ -363,8 +368,10 @@ Nelle nostre future discussioni, approfondiremo ulteriormente l'iperinflazione, 
 Grazie per la vostra attenzione, la prossima sessione sarà interamente dedicata a definire e svelare l'iperinflazione, tenendo conto delle diverse prospettive accademiche e pratiche. Siamo entusiasti di continuare questa esplorazione con voi nel nostro prossimo incontro.
 
 # Cos'è l'iperinflazione?
+<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Le definizioni di iperinflazione
+<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Le definizioni di iperinflazione
 
@@ -420,6 +427,7 @@ Le definizioni comuni di iperinflazione, come quella avanzata da Kagan che stabi
 È importante notare che alcuni periodi storici di alta inflazione non sono inclusi nelle tabelle classiche dell'iperinflazione, spesso a causa dei criteri rigorosi di classificazione. Ad esempio, durante la guerra d'indipendenza degli Stati Uniti nel novembre 1779 e durante la guerra civile americana nel marzo 1864, i tassi di inflazione mensile erano rispettivamente del 47,4% e del 40%. Questi tassi, sebbene elevati, non superano la soglia del 50% stabilita da Kagan, escludendo così questi periodi dai casi classificati come iperinflazione. Questa omissione illustra i limiti delle definizioni rigide e sottolinea la necessità di un approccio più sfumato per comprendere l'iperinflazione nella sua complessità.
 
 ## Similitudini tra Weimar e Zimbabwe
+<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Due epoche, due catastrofi
 
@@ -534,62 +542,65 @@ Nell'analisi del percorso economico, è evidente che quando si raggiunge un'alta
 
 Di fronte a questa situazione, lo Stato impone regolamentazioni draconiane, tra cui i controlli sui capitali. Impone anche ai commercianti di accettare la valuta nazionale e i controlli. Man mano, vengono promulgate nuove leggi che ampliano la definizione di comportamenti criminali. Alla fine, il tasso di cambio sale in modo esponenziale, poiché lo Stato è disposto a scambiare la sua valuta, stampata a basso costo, con valute estere più robuste.
 
-### 4 Similitudini delle conseguenze dell'iperinflazione
+### 4 Somiglianze nelle conseguenze dell'iperinflazione
 
-![image](assets/chapitre-3.2/6.webp)
+![immagine](assets/chapitre-3.2/6.webp)
 
 1. Petrolio e metalli
 
-In Germania durante il periodo di Weimar, il furto di materiali preziosi era così diffuso che il piombo dei tetti veniva spesso rubato. In Zimbabwe, la disperazione ha spinto alcuni a interrompere l'alimentazione elettrica per estrarre l'olio dai trasformatori e usarlo nei loro veicoli.
-Dans les périodes de crise économique, les gouvernements peuvent mettre en place des systèmes de rationnement pour contrôler la distribution de certains biens essentiels, tels que l'essence. Les coupons d'essence sont utilisés pour limiter la quantité de carburant qu'une personne peut acheter, afin de prévenir les pénuries et de garantir une distribution équitable.
+In Germania durante il periodo di Weimar, il furto di materiali preziosi era tale che il piombo dai tetti veniva frequentemente rubato. In Zimbabwe, la disperazione ha spinto alcuni a interrompere la rete elettrica per estrarre olio dai trasformatori e usarlo nei loro veicoli.
+Nel contesto di un'economia in deterioramento e scarsità di risorse, i governi possono implementare sistemi di razionamento per controllare la distribuzione di beni essenziali. Questo include l'uso di buoni o voucher per regolare l'acquisto di benzina o carburante.
 
-> Weimar: "Les coupons d'essence étaient nécessaires pour acheter du carburant, mais ils étaient souvent difficiles à obtenir et les files d'attente étaient interminables."
+> Weimar: "A Berlino, a causa della scarsità di benzina, è stato implementato un sistema di buoni per regolare la sua distribuzione. Ogni cittadino riceveva una quantità specifica di buoni che gli permetteva di acquistare una quantità limitata di carburante."
 
-> Zimbabwe: "En raison de la pénurie d'essence, le gouvernement a introduit des coupons d'essence pour contrôler la distribution et éviter les achats excessifs."
-> Le Zimbabwe, en revanche, n'a pas émis de monnaie de nécessité pendant l'hyperinflation. Les coupons d'essence ont plutôt rempli ce rôle, en tant que moyen d'échange alternatif.
+> Zimbabwe: "Durante la crisi del carburante, il governo ha introdotto un sistema di buoni per gestire la distribuzione della benzina. Ogni individuo riceveva un numero determinato di buoni che potevano essere scambiati per una certa quantità di carburante."
+> Le popolazioni cercano alternative stabili per le transazioni. A Weimar, prodotti come l'ottone e il carburante servivano come mezzi di scambio a causa del loro costante valore intrinseco. In Zimbabwe, di fronte alla rapida svalutazione del dollaro zimbabwese, i buoni benzina, che rappresentavano una quantità fissa di un prodotto essenziale, diventavano una valuta de facto. Queste situazioni evidenziano come le società si adattino a condizioni economiche estreme, trovando soluzioni innovative per mantenere il commercio e l'economia in movimento.
 
-3. L'influence étrangère
+Weimar: "Il baratto era già una forma comune di scambio; ma ora, beni come l'ottone e il carburante diventavano la valuta comune per acquisti e pagamenti."
 
-La République de Weimar a été fortement influencée par les conditions économiques mondiales, en particulier par les réparations de guerre imposées par le traité de Versailles. Le Zimbabwe, quant à lui, a été principalement affecté par des facteurs internes tels que la mauvaise gestion économique et la politique monétaire irresponsable.
+Zimbabwe: "Ora usavamo questi voucher per pagare l'affitto ai proprietari di immobili, le tasse comunali, le bollette telefoniche, infatti, quasi tutto, poiché tutti avevano smesso di accettare pagamenti in dollari zimbabwesi e assegni."
 
-### Les parallèles contemporains
+#### Conclusione
 
-1. L'hyperinflation au Venezuela
+Questo conclude questo video sulle somiglianze delle esperienze durante i periodi di iperinflazione in Zimbabwe e nella Repubblica di Weimar. Nel prossimo video, discuteremo le differenze e i paralleli contemporanei. Grazie.
 
-Le Venezuela est actuellement confronté à une crise économique majeure, caractérisée par une hyperinflation similaire à celle vécue par la République de Weimar et le Zimbabwe. Les citoyens vénézuéliens ont également cherché des alternatives stables pour les transactions, telles que l'utilisation de devises étrangères et de crypto-monnaies.
+## Weimar vs Zimbabwe: Differenze e Paralleli Contemporanei
+<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
-2. Les crypto-monnaies
+In questo capitolo, esploreremo le differenze e i paralleli contemporanei tra i periodi passati e presenti di iperinflazione, con aneddoti e confronti pertinenti per oggi.
 
-Les crypto-monnaies, telles que le Bitcoin, ont émergé comme une alternative potentielle aux monnaies nationales dans les pays touchés par l'hyperinflation. Ces monnaies numériques offrent une stabilité relative et une protection contre la dévaluation monétaire.
+### Differenze tra la Repubblica di Weimar e lo Zimbabwe
 
-### Conclusion
+1. È colpa del dollaro!
 
-Bien que chaque période d'hyperinflation ait ses propres caractéristiques distinctes, il existe des similitudes et des parallèles qui peuvent être observés entre elles. Comprendre ces similitudes et différences peut nous aider à mieux appréhender les crises économiques actuelles et à envisager des solutions innovantes pour maintenir le commerce et l'économie en mouvement.
-In modo interessante, anche la Francia ha utilizzato i Notgeld, soprattutto negli anni '20. Questa iniziativa non era solo una conseguenza diretta dell'iperinflazione, ma aveva anche radici nelle perturbazioni causate dalla Prima Guerra Mondiale. La guerra non solo ha destabilizzato l'economia, ma ha anche aumentato il costo dei metalli. Di conseguenza, il valore intrinseco delle monete in metallo spesso superava il loro valore nominale, spingendo le persone a conservarle. In assenza di monete, alcune istituzioni, come la Camera di Commercio di Lione, hanno stampato i propri Notgeld.
+In Germania, era comune che la popolazione attribuisse l'inflazione all'ascesa del dollaro piuttosto che alla svalutazione intrinseca della propria moneta. Molti credevano che il fenomeno osservato fosse dovuto a un apprezzamento del dollaro. Questa percezione negava qualsiasi riconoscimento del legame tra le loro difficoltà economiche e la svalutazione monetaria, principalmente indotta dalla creazione eccessiva di denaro. Il libro "When Money Dies" illustra chiaramente questa mancanza di comprensione tra la popolazione tedesca. Al contrario, in Zimbabwe, la situazione era diversa: i cittadini erano pienamente consapevoli della causa sottostante dell'iperinflazione che stavano vivendo.
 
-![image](assets/chapitre-3.3/0.webp)
+![immagine](assets/chapitre-3.3/3.webp)
 
-> "Ciò che deve essere fatto, deve essere fatto." - un detto locale
+2. Moneta di necessità (Notgeld)
 
-Tra i Notgeld, un particolare biglietto attira l'attenzione. Presenta un'illustrazione toccante: al centro, una persona è raffigurata mentre defeca un Marco. Sul retro, una tabella dei prezzi dal 1913 al 1921 illustra l'aumento dell'inflazione durante questo periodo.
+Di fronte alla crisi monetaria ed economica, la Germania ricorreva al "Notgeld" (denaro d'emergenza). Queste banconote, stampate da città o alcune aziende, erano progettate per affrontare la carenza di moneta comune.
+Curiosamente, anche la Francia ha fatto ricorso al Notgeld, in particolare negli anni '20. Questa iniziativa non fu solo una diretta conseguenza dell'iperinflazione, ma aveva anche radici nelle perturbazioni causate dalla Prima Guerra Mondiale. La guerra non solo destabilizzò l'economia, ma aumentò anche il costo dei metalli. Di conseguenza, il valore intrinseco delle monete metalliche spesso superava il loro valore nominale, spingendo le persone a tesaurizzarle. In assenza di monete, alcune istituzioni, come la Camera di Commercio di Lione, stamparono il loro proprio Notgeld.
 
-L'artista dietro questo Notgeld sembra rivolgere una critica ironica alle autorità responsabili della crisi dell'iperinflazione. Il biglietto porta la scritta "La necessità non conosce legge". Un'altra espressione specifica del luogo di origine del Notgeld recita: "Ciò che deve essere fatto, deve essere fatto".
+> "Quello che deve essere fatto, deve essere fatto." - un detto locale
 
-![image](assets/chapitre-3.3/1.webp)
+Tra i Notgeld, spicca una particolare banconota. Presenta un'illustrazione toccante: al centro, un individuo è raffigurato mentre defeca una Mark. Sul retro, una tabella dei prezzi dal 1913 al 1921 illustra l'ascesa dell'inflazione in quel periodo.
 
-> "La necessità non conosce legge"
+L'artista dietro questo Notgeld sembra fare una critica ironica alle autorità responsabili della crisi dell'iperinflazione. La banconota porta l'iscrizione "La necessità non conosce legge". Un'altra espressione specifica della località di origine del Notgeld afferma: "Quello che deve essere fatto, deve essere fatto".
 
-> La prima Shitcoin: In modo aneddotico, guardando l'illustrazione centrale del biglietto, dove la moneta è letteralmente svalutata dall'azione della persona, potrebbe essere definita la prima "shitcoin".
+> "la necessità non conosce legge"
 
-3. Obbligazioni e ipoteche
+> La prima Shitcoin: Aneddoticamente, guardando l'illustrazione centrale della banconota, dove la valuta è letteralmente svalutata dall'azione dell'individuo, potrebbe essere chiamata la prima "shitcoin".
 
-A Weimar, alcuni debiti sono stati rivalutati per compensare l'impatto dell'inflazione. Questa misura non è stata adottata nello Zimbabwe.
+3. Obbligazioni e Mutui
 
-> Weimar: "Una decisione di rivalutare i prestiti governativi è diventata legge nel 1925, il che ha portato gli azionisti a ricevere il 2,5% del loro investimento iniziale a condizione che tutti i ripristini fossero stati pagati."
+A Weimar, alcuni debiti sono stati rivalutati per compensare l'impatto dell'inflazione. Questa misura non è stata adottata in Zimbabwe.
 
-> Zimbabwe: "Nel luglio 2007 (tre anni dopo), potevo tirare fuori dalla mia tasca una banconota svalutata di ZDW 500.000 (bt "000"), ora del valore di 1,67 dollari al tasso di cambio parallelo, e rimborsare il mutuo, che avrebbe dovuto essere rimborsato in vent'anni. Inoltre, questa banconota rappresentava solo lo 0,49% del mio stipendio mensile dello stesso mese."
+> Weimar: "Una decisione di rivalutare i prestiti governativi è diventata legge nel 1925, risultando in azionisti che ricevevano il 2,5 percento del loro investimento iniziale a condizione che tutte le riparazioni fossero state pagate."
 
-Per saperne di più sulla gestione della crisi tedesca, questo libro è anche fondamentale.
+> Zimbabwe: "Nel luglio 2007 (tre anni dopo), potevo estrarre dalla mia tasca una banconota svalutata di ZDW 500.000, ora valutata $1.67 al tasso di mercato parallelo, e ripagare il mutuo ipotecario, che doveva essere estinto in vent'anni. Inoltre, questa nota rappresentava solo lo 0,49 percento del mio stipendio mensile per lo stesso mese."
+
+Per saperne di più sulla gestione della crisi tedesca, questo libro è altresì essenziale.
 
 ![image](assets/chapitre-3.3/4.webp)
 
@@ -638,6 +649,7 @@ Nella storia, si osservano momenti in cui le persone cercano di arricchirsi rapi
 Oggi, di fronte alla diminuzione del potere d'acquisto, gli investimenti prendono il sopravvento. Tuttavia, questo approccio comporta i suoi rischi. Il risparmio è sempre stato un rimedio contro l'incertezza. Avere riserve finanziarie per gestire situazioni impreviste contribuisce a una serenità mentale e rafforza la coesione sociale. In conclusione, la protezione del nostro potere d'acquisto è essenziale per mantenere la stabilità sociale e individuale.
 
 ## Le riforme valutarie in America Latina
+<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Guarderemo insieme diverse fasi di riforme valutarie in paesi dell'America Latina.
 
@@ -742,6 +754,7 @@ Basandosi sul criterio del 50% di inflazione al mese, diverse periodi avrebbero 
 In conclusione, l'iperinflazione è solo un aspetto delle sfide economiche. L'alta inflazione, da sola, può essere altrettanto dannosa. La prossima sezione esplorerà le possibili soluzioni per uscire dall'iperinflazione.
 
 ## Come uscire dall'iperinflazione
+<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Come porre fine all'inflazione moderata e all'alta inflazione
 
@@ -778,6 +791,7 @@ Nel 2007, il tasso di inflazione in Zimbabwe aveva raggiunto il livello del 50% 
 È preoccupante notare che lo Zimbabwe ha cercato di reintrodurre la propria valuta e segni di alta inflazione sono riemersi. Secondo alcune organizzazioni internazionali, il paese potrebbe già soddisfare nuovamente i criteri per l'iperinflazione, anche se non ha ancora raggiunto la soglia ufficiale del 50% al mese. Questo serve come promemoria sui pericoli della creazione eccessiva di moneta e del finanziamento del deficit da parte della banca centrale.
 
 ## Conclusioni
+<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
 
 Nel mio libro intitolato "Tutto su Bitcoin", ho dedicato un intero capitolo all'iperinflazione in Zimbabwe. Descrivo gli eventi salienti, fornendo vari esempi che illustrano come il paese abbia alla fine messo fine all'iperinflazione.
 
@@ -792,12 +806,15 @@ Nel mio libro intitolato "Tutto su Bitcoin", ho dedicato un intero capitolo all'
 La cosa più importante da ricordare è che ci sono diverse strategie per uscire dall'iperinflazione. Si può optare per la dolarizzazione o introdurre una nuova valuta. Queste soluzioni funzioneranno solo se la popolazione ha fiducia in esse. È fondamentale imporre restrizioni rigorose. Una banca centrale veramente indipendente è essenziale. Non deve aumentare la massa monetaria per coprire i deficit governativi. In caso di inflazione lieve, limitare la crescita della massa monetaria dovrebbe essere sufficiente. Tuttavia, quando si affronta un'iperinflazione, è fondamentale prima avere una massa monetaria adeguata alla dimensione dell'economia in questione. Inoltre, è imperativo imporre restrizioni severe al governo per stabilizzare la situazione.
 
 ## Presentazione della collezione di banconote iperinflazionate
+<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 Il link alla collezione digitalizzata è disponibile nel Bitcoin Educational Toolkit, accessibile dalla sezione Risorse della piattaforma.
 
 # Come siamo arrivati qui?
+<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## L'emergere del secondo strato della moneta e delle banche centrali
+<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 L'emergere del secondo strato della moneta e delle prime banche centrali è un argomento affascinante. Questo tema è ampiamente trattato nel libro "Layered Money" di Nick Battia. Lo consiglio vivamente a coloro che sono interessati all'evoluzione e alle sfumature dei nostri sistemi monetari. L'obiettivo di questa sezione è comprendere l'origine della creazione monetaria e come ciò abbia potuto portare all'iperinflazione.
 
@@ -841,6 +858,7 @@ A seguito del panico bancario del 1796, si verificò un fenomeno in cui tutti ce
 Le banche centrali sono evolute per diventare prestatori di ultima istanza, sospendendo la convertibilità della loro moneta in oro. Sebbene questa azione fosse inizialmente concepita come una soluzione temporanea, è diventata infine permanente, segnando così l'avvento del concetto di prestatore di ultima istanza. Questa trasformazione ha plasmato le banche centrali come le conosciamo oggi. Tuttavia, in economie più fragili, questa capacità di stampare moneta a volontà può comportare conseguenze indesiderate, come l'iperinflazione, se utilizzata in modo irresponsabile.
 
 ## Libri e risorse
+<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 L'iperinflazione è un argomento affascinante che è stato studiato attraverso vari eventi storici. Se desideri approfondire questo argomento, ecco un elenco di 10 risorse essenziali da leggere e studiare:
 

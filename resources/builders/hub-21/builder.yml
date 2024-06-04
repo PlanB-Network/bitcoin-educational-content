@@ -1,0 +1,18 @@
+name: Hub 21
+category: communities
+address_line_1: Belgrade, Serbia
+address_line_2: Vase Čarapića 15, Beograd 11000
+address_line_3: 
+language: 
+  - en
+  - sr
+links:
+  website: https://hub21.rs/
+  twitter: https://twitter.com/hub21rs
+  github: https://github.com/dvadeset-Jedangit
+  youtube: https://www.youtube.com/@dvadesetjedan
+
+tags:
+  - bitcoin-only
+  - education  
+  - communities

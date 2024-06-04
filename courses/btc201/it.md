@@ -36,8 +36,10 @@ Questo corso è stato sponsorizzato da TETHER
 +++
 
 # Introduzione
+<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
 ## Introduzione
+<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
 
 ### Viviamo in un mondo dove:
 
@@ -77,8 +79,10 @@ Alla fine di questo corso, non solo avrai acquisito conoscenze potenti e strumen
 Siamo entusiasti di averti con noi in questo viaggio nelle profondità del nostro sistema monetario.
 
 # Il Prezzo del Progresso - Uno Sguardo Approfondito al Nostro Sistema Finanziario
+<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
 ## Un'introduzione al Denaro
+<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 
 Il denaro è una parte affascinante ed essenziale della nostra vita quotidiana. Lo usiamo ogni giorno per comprare la spesa, pagare le bollette e fare innumerevoli transazioni. Ma cos'è realmente il denaro? Nel suo nucleo, il denaro è semplicemente un mezzo di scambio, uno strumento che ci permette di commerciare beni e servizi gli uni con gli altri. È un concetto astratto che diamo per scontato, eppure è fondamentale per il nostro sistema economico.
 Ma non tutto il denaro è creato allo stesso modo. Alcune forme di denaro sono migliori di altre, a seconda della loro capacità di fungere da riserva di valore, mezzo di scambio e unità di conto. L'oro, ad esempio, è stato molto apprezzato per migliaia di anni a causa della sua durabilità e scarsità. D'altra parte, il denaro cartaceo è prezioso solo quanto la fiducia che riponiamo nelle istituzioni che lo emettono.
@@ -156,6 +160,7 @@ Nei moduli successivi, esploreremo due forme popolari di denaro: Bitcoin e stabl
 Dal baratto all'invenzione delle monete e della valuta cartacea, il denaro ha subito una serie di trasformazioni per adattarsi alle esigenze in continua evoluzione della società. Mentre passiamo al prossimo capitolo, cambiamo rotta, dirigendo la nostra attenzione verso l'evoluzione del denaro.
 
 ## Un'esame di Come Siamo Arrivati Qui
+<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 Dai tempi del baratto fino all'era moderna delle valute digitali, il denaro ha subito un'evoluzione affascinante. I nostri antenati utilizzavano conchiglie, perline e persino bestiame come mezzo di scambio. Oggi, disponiamo di portafogli virtuali e pagamenti senza contatto. È un viaggio notevole che ha visto innumerevoli iterazioni, compromessi e adattamenti per soddisfare le esigenze in continuo cambiamento della società.
 
 Ma come è evoluto il denaro che usiamo per diventare la parte indispensabile delle nostre vite che è oggi? In questa sezione, esploreremo l'evoluzione del denaro, dalle sue forme più antiche alle moderne valute digitali che utilizziamo oggi. Esamineremo ogni principale iterazione del denaro, guardando come hanno contribuito a plasmare la nostra società moderna.
@@ -286,6 +291,7 @@ Queste sono domande complesse che richiedono attenta considerazione e riflession
 Continuando la nostra esplorazione del mondo del denaro, è importante riconoscere i cambiamenti significativi che si sono verificati dall'ascesa delle valute fiat. Sebbene queste valute abbiano portato un livello di comodità e stabilità, hanno anche presentato nuove sfide, come l'inflazione, l'aumento dei livelli di debito e la disuguaglianza di ricchezza. Nella prossima sezione, approfondiremo queste questioni e, nei moduli successivi, esploreremo soluzioni potenziali a questi problemi complessi.
 
 ## Uno sguardo a dove siamo e cosa possiamo aspettarci andando avanti
+<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
 Come abbiamo discusso nel capitolo precedente, storicamente, il denaro è stato spesso supportato da una merce come l'oro. I benefici di ciò non possono essere sopravvalutati. Non solo questa connessione significava che il valore di tale denaro era direttamente legato al valore della merce, ma significava anche che l'emittente della valuta, tipicamente il governo, era limitato nella quantità di denaro che poteva stampare poiché avrebbe dovuto ottenere più oro.
 
@@ -419,6 +425,7 @@ Fortunatamente, ci sono opzioni disponibili per noi. Con l'emergere di Bitcoin, 
 Man mano che procediamo, vi incoraggiamo ad avvicinarvi a questa nuova tecnologia con una mente aperta e uno sguardo critico, esplorando come possa offrire un'alternativa ai nostri sistemi finanziari attuali. Facendo ciò, abbiamo il potenziale per affrontare i problemi di crescente disuguaglianza e disordini sociali, costruendo un futuro economico più sostenibile ed equo.
 
 ## Esame
+<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
 Ora che hai completato il Modulo "Il Prezzo del Progresso", dovrai testare la tua nuova conoscenza acquisita per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -429,8 +436,10 @@ Ora che hai completato il Modulo "Il Prezzo del Progresso", dovrai testare la tu
 5. Alla luce delle informazioni fornite su debito e inflazione, qual è la tua opinione sulla sostenibilità dell'attuale sistema monetario? Pensi che il nostro sistema attuale sia vantaggioso o dannoso nel lungo periodo?
 
 # Liberazione Finanziaria - Un'introduzione a Bitcoin
+<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
 ## Pionieri, Innovatori e le Fondamenta di Bitcoin
+<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
 Benvenuto nel Modulo Due, dove esploreremo il mondo affascinante di Bitcoin. Basandoci sulla nostra comprensione della storia del denaro, questo modulo coprirà i seguenti argomenti:
 
@@ -531,6 +540,7 @@ Questi punti combinati significano che Bitcoin offre a chiunque privacy finanzia
 Per concludere, indipendentemente da chi sia Satoshi Nakamoto, è innegabile che l'invenzione di Bitcoin abbia innescato un nuovo modo di pensare al trasferimento di valore.
 
 ## Come Funziona Bitcoin? Il Funzionamento Interno di Questa Magica Moneta Internet
+<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
 Bitcoin è spesso descritto come magica moneta internet... e per una buona ragione. Pensateci: con Bitcoin, potete inviare valore a chiunque, in qualsiasi parte del mondo, senza la necessità di un intermediario come una banca o un governo. È come avere il controllo della propria banca personale, il potere di trasferire fondi attraverso i confini con solo qualche clic.
 
@@ -608,6 +618,7 @@ Come spiegato in questa sezione, sebbene Bitcoin possa apparire come un sistema 
 Ciascuno di questi ruoli è essenziale per la funzionalità e il successo di Bitcoin come valuta digitale. Affidando questi compiti cruciali ai protagonisti chiave, Bitcoin può operare come un mezzo di scambio sicuro, trasparente e responsabile per tutti gli utenti, rendendolo un risultato significativo nella storia della valuta.
 
 ## Cosa rende Bitcoin diverso dalla moneta fiat?
+<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
 Nella sezione precedente, abbiamo esplorato la funzionalità unica di Bitcoin che lo distingue dalle valute tradizionali e come Bitcoin ottiene il prestigioso riconoscimento di essere decentralizzato. Ora, spostiamo la nostra attenzione ed esploriamo come Bitcoin si differenzia dalla moneta fiat in termini di caratteristiche che rendono grande una valuta. Solo esaminando queste caratteristiche chiave possiamo ottenere una comprensione più profonda del perché Bitcoin è unico e in un mondo a sé quando si tratta di denaro.
 
@@ -705,6 +716,7 @@ Le caratteristiche uniche di Bitcoin come riserva di valore, mezzo di scambio e 
 Inoltre, questi attributi combinati non solo posizionano Bitcoin come uno strumento potente per conservare e costruire ricchezza a lungo termine (il bitcoin come asset) ma offrono anche molti vantaggi per coloro che cercano di impiegare Bitcoin come mezzo transazionale (la rete Bitcoin). Questo contrasta nettamente con le valute fiat, che necessitano di fiducia e intermediari in entrambi gli scenari. Ciò rende Bitcoin una valuta attraente sia per individui che per aziende, indipendentemente dal fatto che sia utilizzata per risparmiare o per transazioni.
 
 ## Interagire con Bitcoin
+<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
 Bitcoin ha preso d'assalto il sistema monetario, catturando l'attenzione di paesi in via di sviluppo, individui esperti di tecnologia e investitori allo stesso modo. Tuttavia, con la sua rapida crescita, molti si chiedono come questo asset digitale possa competere con metodi di pagamento tradizionali come Visa e Mastercard. Inoltre, gli individui sono curiosi di sapere come possono impegnarsi personalmente con Bitcoin.
 
@@ -802,6 +814,7 @@ Sebbene spesso sentiamo dire che Bitcoin non potrà mai competere con Visa o Mas
 Il più grande vantaggio di Bitcoin è che ci consente di avere l'autocustodia di un asset digitale, cosa che non era mai stata possibile prima. Se ti senti sopraffatto dopo aver letto questa sezione, non preoccuparti. Prendere il controllo dei propri bitcoin è un passo potente verso la libertà finanziaria, ma comporta anche nuove responsabilità. Tuttavia, con un po' di ricerca e diligenza, queste nuove responsabilità diventeranno rapidamente una seconda natura per te, e ti sentirai a tuo agio nell'affrontare il compito di proteggere in modo sicuro i tuoi bitcoin.
 
 ## Esame
+<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
 Ora che hai completato il Modulo "Un'esame di come siamo arrivati qui", dovrai testare le tue nuove conoscenze per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -813,8 +826,10 @@ Ora che hai completato il Modulo "Un'esame di come siamo arrivati qui", dovrai t
 6. Considera uno scenario in cui devi inviare denaro a un familiare in un altro paese. Come potrebbe la natura peer-to-peer di Bitcoin e le basse commissioni giovarti in questa situazione?
 
 # Stabilità in mezzo al caos - Un'introduzione a Tether e al mondo delle Stablecoin
+<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
 
 ## Un'introduzione a Tether e al mondo delle Stablecoin
+<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 Come discusso in precedenza, il denaro è stato una parte essenziale dell'umanità per migliaia di anni. Ci ha aiutato ad acquistare beni e servizi, ci ha permesso di commerciare gli uni con gli altri e ci ha assistito nel conservare ricchezza.
 
@@ -876,6 +891,7 @@ In conclusione, man mano che la nostra società continua a evolversi e la tecnol
 _**Nota a margine:** Non preoccuparti se alcuni di questi termini non sono del tutto chiari. Esploreremo ciascuno degli argomenti in maggiore dettaglio nel corso di questo modulo._
 
 ## Storia delle Stablecoin
+<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
 Le stablecoin sono diventate un argomento popolare nel mondo delle criptovalute, offrendo un'alternativa meno volatile a breve termine rispetto a criptovalute come Bitcoin. Come dettagliato nell'introduzione a questo modulo, le stablecoin sono asset digitali che sono ancorati a un bene stabile come la valuta fiat o i metalli preziosi, progettati per mantenere un valore stabile. Esploriamo quindi la storia delle stablecoin e diamo uno sguardo più da vicino ad alcune delle prime stablecoin, incluse USDt di Tether, la stablecoin più conosciuta e ampiamente utilizzata.
 
@@ -899,6 +915,7 @@ Inoltre, con la crescita del mercato delle stablecoin, Tether ha ampliato la sua
 In conclusione, le stablecoin hanno fatto molta strada dalla loro nascita. Dai primi giorni di bitUSD e NuBits alla popolarità mainstream dei prodotti Tether e all'emergere di altre stablecoin, il mercato delle stablecoin si è evoluto rapidamente. Sebbene le controversie riguardanti Tether abbiano sollevato preoccupazioni riguardo alla trasparenza e alla responsabilità degli emittenti di stablecoin, il mercato delle stablecoin continua a crescere, offrendo un ponte globale e flessibile verso Bitcoin. Tuttavia, questa comodità comporta un aumento della centralizzazione e della dipendenza dalla fiducia.
 
 ## Caratteristiche delle Stablecoin
+<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
 Come dovrebbe essere evidente ormai, una stablecoin è un tipo di token digitale progettato per mantenere un valore stabile basato su un asset sottostante ancorato. Questi asset possono includere valuta fiat, metalli preziosi, materie prime o una combinazione di questi (ad esempio, un paniere di valute fiat).
 
@@ -981,6 +998,7 @@ In conclusione, le stablecoin offrono un ponte tra il mondo tradizionale e Bitco
 Sebbene le stablecoin siano spesso considerate sicure a causa della loro natura "stabile", è importante ricordare che non sono completamente prive di rischi. Poiché le stablecoin si affidano a emittenti centralizzati, ad esempio Tether, e istituzioni finanziarie, esiste un potenziale per la perdita. Per mitigare questi rischi, è fondamentale ricercare approfonditamente le diverse stablecoin prima di investire. Facendo ciò, è possibile prendere decisioni informate e minimizzare il potenziale per perdite inaspettate.
 
 ## Vantaggi delle Offerte di Stablecoin di Tether
+<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
 Incontriamo Adanna, una giovane donna che vive in un villaggio rurale africano dove il Franco CFA, che ha perso uno sbalorditivo [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) del suo potere d'acquisto negli ultimi 70 anni, è l'unica valuta disponibile—rendendo l'atto di risparmiare un'impossibilità.
 Adanna è sempre stata affascinata dall'idea di avere il controllo sul proprio denaro, ma fino a poco tempo fa questo è rimasto un sogno impossibile. La valuta che utilizza è gestita da individui che hanno dimostrato di non avere a cuore gli interessi del loro popolo, e la sua posizione rurale limita l'accesso ai servizi bancari. Di conseguenza, Adanna non ha altra scelta se non quella di affidarsi al denaro contante, rendendola vulnerabile a furti e perdite, oltre al deterioramento del potere d'acquisto.
@@ -1092,6 +1110,7 @@ E se ciò non bastasse, queste stablecoin non solo aumentano l'usabilità della 
 Nel complesso, le stablecoin, come USDt e XAUt, hanno il potenziale per trasformare la vita di miliardi di persone offrendo loro accesso a servizi finanziari inclusivi e molto necessari.
 
 ## Esame
+<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
 Ora che hai completato il Modulo "Stabilità nel Caos", dovrai testare le tue nuove conoscenze per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -1102,8 +1121,10 @@ Ora che hai completato il Modulo "Stabilità nel Caos", dovrai testare le tue nu
 5. Secondo te, quali misure dovrebbero adottare gli emittenti di stablecoin per garantire la stabilità e l'affidabilità delle loro stablecoin? Quanto è importante che gli emittenti di stablecoin siano trasparenti riguardo alle loro pratiche di riserva e forniscano rapporti regolari?
 
 # Superare i Dubbi - Sfatare i Comuni Luoghi Comuni e Casi d'Uso Reali
+<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
 ## Luoghi Comuni
+<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin è stato circondato da resistenze, critiche e luoghi comuni sin dalla sua nascita nel 2009. Nonostante la sua crescita in popolarità e adozione, molti ancora lo considerano una bolla pronta a scoppiare. Lungo queste stesse linee, anche le stablecoin hanno attirato attenzioni e scetticismi simili. L'idea di una valuta supportata da un asset stabile suona promettente, ma molte persone fraintendono come funzionano le stablecoin e il loro potenziale impatto sul sistema finanziario.
 
@@ -1388,6 +1409,7 @@ Valutando obiettivamente qualsiasi resistenza che incontri, puoi navigare meglio
 In definitiva, il futuro della finanza decentralizzata è nelle mani di coloro che sono disposti a uscire dai confini della convenzione, sfidare le nozioni preconcette e valutare le informazioni in modo oggettivo. Impegnati a prendere decisioni informate su Bitcoin e stablecoin basate su conoscenze accurate e una comprensione equilibrata delle loro capacità e limitazioni.
 
 ## Roya Mahboob
+<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 Nel mondo globalizzato di oggi, l'accesso ai servizi finanziari è una componente critica della partecipazione economica e dell'indipendenza. Nonostante ciò, troppi individui sono ancora esclusi dal sistema bancario tradizionale, con le donne che spesso sopportano il peso di questa esclusione. Sorprendentemente, sebbene inutilmente un quarto della popolazione globale rimanga non bancarizzata, in paesi come l'Arabia Saudita, il 36,5% delle donne manca di accesso ai servizi bancari di base, impedendo loro di partecipare pienamente all'economia e alla società del proprio paese.
 
@@ -1431,6 +1453,10 @@ Oltre a fornire indipendenza finanziaria, Bitcoin ha anche restituito dignità a
 Inoltre, con l'aiuto di Mahboob e Bitcoin, queste donne in Afghanistan possono ora connettersi con un pubblico globale. Si spera che, negli anni a venire, queste donne continueranno a condividere le loro storie e prospettive con il mondo, contribuendo a rompere le barriere che esistono tra diverse culture e comunità.
 
 Nel complesso, Bitcoin è stato uno strumento potente per l'empowerment finanziario delle donne.
+
+## Mercedes
+<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+
 Nata in Messico nel 1949 in condizioni di povertà, Mercedes ha sperimentato fin da giovane le nette disuguaglianze che affliggevano la sua società. Durante l'infanzia, ha affrontato numerose sfide, tra cui la repressione governativa dei movimenti studenteschi e le difficoltà uniche vissute dalle donne in condizioni di povertà. Inoltre, il vasto divario tra ricchi e poveri, combinato con un accesso limitato a un'istruzione di qualità, ha intrappolato la sua famiglia e innumerevoli altri nella povertà. Frustrata da queste ingiustizie, Mercedes si è avvicinata al marxismo (comunismo), sostenendo il cambiamento sociale e la riforma economica.
 
 Nonostante le forti convinzioni marxiste, Mercedes è arrivata a riconoscere i limiti intrinseci di questi sistemi tradizionali riguardo alla distribuzione del potere e della ricchezza. Questa realizzazione l'ha spinta a cercare altrove, momento in cui ha incontrato Bitcoin e il suo potenziale di sfidare i sistemi finanziari che aveva a lungo criticato. Motivata dalla prospettiva di favorire la liberazione e l'empowerment finanziario, Mercedes ha indirizzato la sua energia nel sostenere il potenziale trasformativo di Bitcoin.
@@ -1450,6 +1476,7 @@ Piena di speranza ed entusiasmo, Mercedes vede il potenziale di Bitcoin di cambi
 La vita di Mercedes è stata un incredibile viaggio, e l'impatto di Bitcoin sulla sua vita è veramente notevole. La sua storia serve come faro di speranza affinché Bitcoin possa portare un cambiamento significativo ed emancipare individui da tutti i ceti sociali. Come sostenitrice della parità finanziaria, sfrutta la sua vasta conoscenza e le esperienze di viaggio per educare e sollevare coloro che sono emarginati dai sistemi finanziari tradizionali. I suoi sforzi continui esemplificano come la passione e la determinazione di una persona possano ispirare un cambiamento positivo nelle comunità in tutto il mondo.
 
 ## Storie di Stablecoin
+<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 Mentre ci avviciniamo alla fine di questo corso, vorremmo presentare una raccolta di storie ispiratrici sui stablecoin. Queste testimonianze mostrano esperienze reali di individui, proprietari di aziende e società che hanno sfruttato il potere degli stablecoin per migliorare le loro vite.
 
 Negli esempi seguenti, ascolterete racconti in prima persona su come gli stablecoin hanno permesso a questo gruppo eterogeneo di persone di navigare con maggiore facilità ed efficienza le complessità del panorama finanziario moderno. Dalle transazioni internazionali senza intoppi e le opportunità di business ampliate, all'inclusività finanziaria migliorata e una riserva di valore più stabile, ogni storia evidenzia l'impatto degli stablecoin sui rispettivi percorsi.
@@ -1459,60 +1486,73 @@ Proprietario di un Caffè, Vietnam
 
 "Nel mio caffè nel distretto di Binh Thanh, serviamo una clientela giovane e occasionali turisti, offrendo una varietà di bevande, inclusi caffè, bibite e cocktail. Tether è diventato la nostra soluzione preferita per elaborare i pagamenti dai clienti stranieri che non dispongono di valuta locale o conti bancari. Sebbene le vendite tramite Tether siano attualmente limitate, ci offre un modo conveniente per colmare il divario valutario e accogliere i nostri clienti internazionali. I clienti sono spesso stupiti dalla nostra apertura all'accettazione di pagamenti in criptovaluta, lasciando un'impressione duratura sulla loro esperienza."
 
+![image](assets/6.webp)
 Parvinee Ratchaphokhinpiti
 Pensionato, Thailandia
 
 "USDt ha rivoluzionato i miei trasferimenti di denaro internazionali. Da pensionato, ero solito affidarmi a bonifici bancari lenti. Grazie a USDt, ora posso inviare denaro senza sforzo tramite uno scambio di asset digitali. Entro 30 minuti, mia sorella ha ricevuto i fondi. I benefici in termini di risparmio di tempo sono inestimabili, garantendo transazioni rapide e senza problemi."
 
+![image](assets/7.webp)
 Jamie Tran
 Insegnante di Pianoforte, Vietnam
 
 "Inviare denaro ai miei parenti all'estero è stata una necessità frequente, ma il processo di conversione delle valute presso gli scambi locali si è rivelato sia dispendioso in termini di tempo che costoso. Per affrontare queste sfide, ho introdotto i miei parenti alla comodità di utilizzare USDt. Questo semplice cambiamento ha permesso alla nostra famiglia di risparmiare tempo e denaro significativi nelle nostre transazioni finanziarie. Con USDt, ora godiamo di trasferimenti transfrontalieri semplificati, garantendo un supporto efficiente e conveniente per i nostri cari."
 
+![image](assets/8.webp)
 Roman
 Espatriato Russo che vive in Vietnam
 
 "Vivendo in Vietnam, invio frequentemente Tether ai miei parenti e cugini in Russia. Trasferire denaro all'estero con Tether è senza problemi rispetto all'uso dei metodi bancari tradizionali. Non sono necessarie visite in banca, documenti notarizzati o spiegazioni. Senza limiti di invio, con commissioni minime e transazioni rapide, i fondi vengono consegnati in pochi minuti."
 
+![image](assets/9.webp)
 Luis Graterol
 Audiovisivo, Venezuela
 
 "Il mio nome è Luis Graterol, e Tether mi ha aiutato a proteggere i miei risparmi in un altro modo. In Venezuela, soffriamo a causa dell'alta inflazione, e Tether è stato di grande aiuto. La sua usabilità è semplice e, in molti casi, è possibile effettuare transazioni senza commissioni. USDt rende la mia vita più facile! Aiuta anche me a educare e incoraggiare il suo uso nei media audiovisivi; da quando ho scoperto la sua facilità, ricevo i miei pagamenti in USDt e risparmio il tedioso fiat locale che colpisce molti di noi!"
 
+![image](assets/10.webp)
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 
 "Sono del Venezuela e gestisco una piccola attività di consegna colazioni. Tether USDt è stata una soluzione valida per il problema del contante fisico per me. USDt mi ha anche aiutato con i miei risparmi perché se avessi tenuto i conti della mia attività in Bolivar venezuelano, non avrei potuto pianificare in anticipo con il mio approvvigionamento di cibo a causa della costante svalutazione."
+
+![image](assets/11.webp)
 Marcela Romero
 Responsabile Marketing e PR, Guanacaste, Costa Rica
 
 "Qualche anno fa, mi sono trasferita nel paese di mio marito. A causa della pandemia, mi sono trovata in una condizione migratoria unica, risultando in una lunga attesa per la residenza o la cittadinanza. Per quasi tre anni, non ho avuto accesso a un conto bancario e non ho potuto lavorare legalmente nel paese. Tuttavia, sfruttando le mie capacità di lavoro online e ricevendo il mio stipendio in USDt, ho continuato la mia carriera a distanza con aziende internazionali. Con Tether, posso inviare denaro a casa istantaneamente senza alte commissioni o ritardi. Tether mi ha permesso di perseguire i miei obiettivi professionali e mantenere l'indipendenza finanziaria nonostante le restrizioni governative."
 
+![image](assets/12.webp)
 Simoneth Gomez
 Ingegnere QA, Venezuela, residente in Argentina
 
 "Ciao, mi chiamo Simoneth Gomez. Sono del Venezuela, ma attualmente vivo a Buenos Aires, dove lavoro come analista della qualità del software. Quando sono arrivata in Argentina, avevo una distanza di 12 km tra il mio lavoro e il posto dove dovevo cambiare denaro per inviarlo alla mia famiglia in Venezuela. Così mi è stato presentato USDt e ho iniziato a usarlo perché invece di dover fare quel tragitto per \$5 o \$10 in autobus, sono stata in grado di risolvere tutto dalla mia scrivania in due minuti"
 
+![image](assets/13.webp)
 Carlos Caballero
 Psicologo, Argentina
 
 "Tether è stata la soluzione che mi ha permesso di continuare a lavorare nella mia professione durante gli anni della pandemia. Il fatto di essere una valuta ancorata al dollaro le permette di avere un valore di riferimento internazionale. E la sua stabilità e sicurezza rispetto alla volatilità delle altre criptovalute è il motivo principale che mi ha spinto a sceglierla."
 
+![image](assets/14.webp)
 Heloisa Passos
 CEO Sp4ce Games, Brasile
 
 "Lavoro a distanza per aziende internazionali da circa cinque anni ormai, e la maggior parte di quel tempo, ho sofferto per gli alti tassi di interesse delle banche nazionali, che addebitano una grande percentuale per ogni rimessa internazionale effettuata, oltre al tempo di attesa per l'elaborazione dei pagamenti attraverso il sistema Swift (circa 24 ore). Quando ho iniziato a ricevere il mio stipendio in Tether, mi sono resa conto di quanto tempo e denaro ho iniziato a risparmiare semplicemente venendo pagata in USDt."
 
+![image](assets/15.webp)
 Samuel
 Trading Company, Nigeria
 
 "Usare USDt ha risparmiato alla nostra azienda molto tempo perché, come azienda nigeriana che ottiene USD richiede di andare alla nostra banca mentre si spende tempo prezioso compilando moduli e facendo la coda per ore per effettuare prelievi o trasferimenti. Con USDt, tuttavia, possiamo scambiarlo con la valuta locale in meno di 5 minuti ed eseguire qualsiasi transazione che potremmo avere."
 
+![image](assets/16.webp)
 Joshua
 Studente, Nigeria
 
 "Tether mi ha aiutato in numerosi modi. Guadagnare in Tether mi ha aiutato a superare la tensione dell'inflazione crescente nel paese, e mi ha aiutato a ridurre le spese inutili. Inoltre, aiuta i miei risparmi a mantenere il loro valore poiché non sono gravemente colpito dalla svalutazione della Naira."
 
+![image](assets/17.webp)
 Esther
 Agenzia HR, Nigeria
 
@@ -1520,6 +1560,7 @@ Agenzia HR, Nigeria
 Speriamo che abbiate trovato queste storie ispiratrici. Detto ciò, dovrebbe essere chiaro che le stablecoin, come USDt, svolgono un ruolo fondamentale nell'abilitare gli individui ad accedere a trasferimenti internazionali rapidi ed efficienti, fatturazione e pagamenti in USD, salari denominati in USD e, cosa più importante, una riserva di valore relativamente stabile rispetto alle innumerevoli valute volatili. Senza le stablecoin, molti di questi individui si troverebbero ad affrontare significative barriere nell'accedere al mercato globale, nel connettersi con membri della famiglia internazionali o nel raggiungere clienti altrimenti inaccessibili. Le stablecoin hanno indubbiamente potenziato la loro connettività finanziaria e fornito uno strumento prezioso per navigare le complessità della nostra economia globale.
 
 ## Esame
+<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
 Ora che hai completato il Modulo "Superare i Dubbi", dovrai testare le tue nuove conoscenze per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -1530,8 +1571,10 @@ Ora che hai completato il Modulo "Superare i Dubbi", dovrai testare le tue nuove
 5. Riflettendo sui confronti tra il consumo energetico di Bitcoin e altre industrie, è giusto puntare il dito contro Bitcoin per il suo uso di energia? Perché sì o perché no?
 
 # Osservazioni Finali
+<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
 ## Osservazioni Finali
+<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Congratulazioni per essere arrivato alla fine del corso! Hai fatto molta strada. Lungo questo viaggio, abbiamo esplorato un'ampia gamma di argomenti, inclusi:
 

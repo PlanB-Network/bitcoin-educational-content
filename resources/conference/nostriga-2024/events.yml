@@ -1,24 +1,24 @@
-- start_date: 2024-09-22 
-  end_date: 2024-09-23
-  address_line_1: Tokyo, Japan
+- start_date: 2024-07-22 
+  end_date: 2024-07-23
+  address_line_1: Riga, Latvia
   address_line_2: 
   address_line_3: 
-  name: Bitcoin Tokyo 2024
+  name: Nostriga 2024
   builder: 
   type: conference
   book_online: false
   book_in_person: false
   price_dollars: 0
-  description: The first international Bitcoin-native conference in Tokyo.
+  description: Nostr.World Unconference 3rd Edition
   language: 
     - en
-    - ja
   links:
-    website: https://x.com/BTCTokyo2024
+    website: https://nostr.world/
     replay_url:
     live_url :
   tags: 
     - bitcoiner
     - General
+    - developer
 
 

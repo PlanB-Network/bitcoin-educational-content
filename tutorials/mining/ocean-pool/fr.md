@@ -51,11 +51,11 @@ Toutes les informations de la pool sont transparentes, y compris toutes les donn
 
 [Sur le dashboard d'Ocean](https://ocean.xyz/dashboard), vous avez de nombreuses informations comme le hashrate des six derniers mois, le nombre de participants à la pool, le nombre total de bitcoins minés, etc.
 
-Nous allons nous intéresser à la partie "Contributors". Vous pouvez voir la liste de tous les contributeurs avec leur hashrate moyen sur les trois dernières heures ainsi que le pourcentage de "shares" et de "hash" par rapport au reste de la pool.
+Nous allons nous intéresser à la partie "Contributors". Vous pouvez voir la liste de tous les contributeurs avec leur hashrate moyen sur les trois dernières heures ainsi que le pourcentage de **"shares"** et de **"hash"** par rapport au reste de la pool.
 
-« Shares % » est le pourcentage de travail fourni par le contributeur dans la fenêtre des huit derniers blocs par rapport au reste de la pool.
+**« Shares % »** est le pourcentage de travail fourni par le contributeur dans la fenêtre des huit derniers blocs par rapport au reste de la pool.
 
-« Hash % » est le pourcentage du hashrate moyen fourni par le contributeur sur les trois dernières heures par rapport au reste de la pool.
+**« Hash % »** est le pourcentage du hashrate moyen fourni par le contributeur sur les trois dernières heures par rapport au reste de la pool.
 
 ![signup](assets/2.webp)
 

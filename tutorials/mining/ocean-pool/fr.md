@@ -8,7 +8,7 @@ description: Présentation de Ocean Mining
 
 **Mai 2024**
 
-Ocean Mining est une pool de minage un peu particulière. Ici, pas de compte, pas d'adresse e-mail, pas de mot de passe. A l'image de Bitcoin tout est transparent et pseudonyme et les contributeurs peuvent choisir parmi quatre blocs templates différents.
+Ocean Mining est une pool de minage un peu particulière. Ici, pas de compte, pas d'adresse e-mail, pas de mot de passe. A l'image de Bitcoin tout est transparent, pseudonyme et les contributeurs peuvent choisir parmi quatre blocs templates différents.
 
 ### Système de rémunération
 
@@ -52,12 +52,17 @@ Toutes les informations de la pool sont transparentes, y compris toutes les donn
 Sur le dashboard d'Ocean [https://ocean.xyz/dashboard](https://ocean.xyz/dashboard), vous avez de nombreuses informations comme le hashrate des six derniers mois, le nombre de participants à la pool, le nombre total de bitcoins minés, etc.
 
 Nous allons nous intéresser à la partie "Contributors". Vous pouvez voir la liste de tous les contributeurs avec leur hashrate moyen sur les trois dernières heures ainsi que le pourcentage de "shares" et de "hash" par rapport au reste de la pool.
-« Shares % » est le pourcentage de travail fourni par les contributeurs dans la fenêtre des huit derniers blocs par rapport au reste de la pool.
-« Hash % » est le pourcentage du hashrate moyen fourni par les contributeurs sur les trois dernières heures par rapport au reste de la pool.
+
+« Shares % » est le pourcentage de travail fourni par le contributeur dans la fenêtre des huit derniers blocs par rapport au reste de la pool.
+
+« Hash % » est le pourcentage du hashrate moyen fourni par le contributeur sur les trois dernières heures par rapport au reste de la pool.
 
 ![signup](assets/2.webp)
 
-Vous constaterez que les "Contributors" sont identifiés par une adresse Bitcoin. Vous pouvez cliquer sur l’une de ces adresses pour avoir plus de détails. Si nous prenons la première, celle qui a le hashrate le plus élevé 1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ, vous pourrez voir tous les détails concernant cet utilisateur : hashrate, nombre de bitcoins minés, avec quel bloc, et même le détail de chacune de ses machines (ASICs). Cependant, il reste pseudonyme, comme sur Bitcoin.
+Vous constaterez que les "Contributors" sont identifiés par une adresse Bitcoin. Vous pouvez cliquer sur l’une de ces adresses pour avoir plus de détails. 
+
+Si nous prenons la première, celle qui a le hashrate le plus élevé 
+[1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ](https://ocean.xyz/stats/1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ), vous pourrez voir tous les détails concernant cet utilisateur : hashrate, nombre de bitcoins minés, avec quel bloc, et même le détail de chacune de ses machines (ASICs). Cependant, il reste pseudonyme, comme sur Bitcoin.
 
 ### Bloc template
 

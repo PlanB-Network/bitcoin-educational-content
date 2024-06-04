@@ -109,14 +109,14 @@ Gravure représentant le massacre des Athéniens sur les rives de l'Assinaros.
 
 #### 2. Rome Antique durant l'Empire:
 
-Après l'ère de la République Romaine, durant l'Empire, les 3e et 4e siècles ont connu une dévaluation monétaire notable. C'est illustré par la diminution de la teneur en argent des pièces, comme nous l'avons vu dans le graphique précédent. Une étude montre que le prix du blé en Égypte, mesuré en drachma, a grimpé d'un facteur d'un million sur une période d'environ 400 ans, allant de 40 avant Jésus-Christ à 360 après Jésus-Christ. Sur cette durée, cela représente une inflation annuelle moyenne d'environ 4,4%. Cependant, cette inflation n'était pas répartie uniformément. Elle a véritablement débuté autour de 238 après Jésus-Christ. De 250 à 293 après Jésus-Christ, le taux d'inflation était d'environ 3,65%, et il est passé à 22,28% entre 293 et 301 après Jésus-Christ.
+Après l'ère de la République Romaine, durant l'Empire, les 3e et 4e siècles ont connu une dévaluation monétaire notable. C'est illustré par la diminution de la teneur en argent des pièces, comme nous l'avons vu dans le graphique précédent. Une étude montre que le prix du blé en Égypte, mesuré en drachma, a grimpé d'un facteur d'un million sur une période d'environ 300 ans, allant de 40 à 360 après Jésus-Christ. Sur cette durée, cela représente une inflation annuelle moyenne d'environ 4,4%. Cependant, cette inflation n'était pas répartie uniformément. Elle a véritablement débuté autour de 238 après Jésus-Christ. De 250 à 293 après Jésus-Christ, le taux d'inflation était d'environ 3,65%, et il est passé à 22,28% entre 293 et 301 après Jésus-Christ.
 
-Bien que ces périodes aient connu une inflation significative, elles n'ont pas atteint les niveaux d'hyperinflation que nous pouvons observer dans certaines situations modernes. La raison en est que, même si la monnaie était dévaluée, elle était toujours basée sur des métaux précieux. Cette base solide a offert une certaine protection contre les niveaux extrêmes d'inflation. Dans les sections suivantes, nous explorerons plus en détail la nature et les conséquences de l'hyperinflation.
+Bien que ces périodes aient connu une inflation significative, elles n'ont pas atteint les niveaux d'hyperinflation que nous pouvons observer dans certaines situations modernes. La raison en est que, même si la monnaie était dévaluée, elle était toujours basée sur des métaux précieux. Le fait qu'il fallait frapper les pièces a offert une certaine protection contre les niveaux extrêmes d'inflation. Dans les sections suivantes, nous explorerons plus en détail la nature et les conséquences de l'hyperinflation.
 
 ![image](assets/chapitre-2.1/2.webp)
 
 - Le Denarius de Marque Aurel (160 après Jésus-Christ):
-  L'une des pièces les plus emblématiques de la Rome antique est le denarius, une monnaie en argent. Je possède une pièce spécifique de Marque Aurel datant de 160 après Jésus-Christ, avant la majeure dévaluation. Bien que la caméra puisse avoir du mal à saisir les détails fins, à l'œil nu, on peut voir que c'est une belle pièce en argent, reflétant une teneur en argent relativement élevée.
+  L'une des pièces les plus emblématiques de la Rome antique est le denarius, une monnaie en argent. Je possède une pièce spécifique de Marque Aurel datant de 160 après Jésus-Christ, avant la majorité de la dévaluation. Bien que la caméra puisse avoir du mal à saisir les détails fins, à l'œil nu, on peut voir que c'est une belle pièce en argent, reflétant une teneur en argent relativement élevée.
 
 - L'Antononianus (fin du 3e siècle après Jésus-Christ):
   Avec la dévaluation monétaire, une nouvelle monnaie, l'Antononianus, a fait son apparition. Cette monnaie était censée valoir deux deniers, mais contenait beaucoup moins d'argent. Ma pièce d'Antononianus montre clairement que la teneur en argent a été considérablement réduite. Elle est ornée d'une couronne, typique des monnaies romaines de cette époque, appelée "radiates". En comparant la couleur et la qualité, on voit que l'Antononianus est loin d'être une pièce en argent pur.
@@ -134,8 +134,6 @@ Pour compléter cette démonstration, un graphique illustrant la dévaluation de
 Le Maravédis, en tant que monnaie de cuivre, occupe une place particulière dans l'histoire de la monnaie espagnole. Comme évoqué précédemment, le dollar espagnol était à l'origine le standard international, une monnaie de réserve essentielle pour l'Espagne. Toutefois, face à certains défis économiques, l'Espagne a dû recourir à des stratégies monétaires astucieuses.
 
 La dévaluation monétaire est un outil souvent utilisé par les États pour financer leurs dépenses ou stimuler l'économie. Cependant, l'Espagne se trouvait dans une situation délicate. Diluer le dollar espagnol aurait compromis sa position dans le commerce international. Pour surmonter ce dilemme, l'Espagne s'est tournée vers le Maravédis.
-
-![image](assets/chapitre-2.1/6.webp)
 
 Contrairement au précieux dollar espagnol en argent, le Maravédis était une monnaie de cuivre utilisée principalement au sein de la population locale. Cette monnaie a été ciblée pour la dévaluation. Lorsqu'une pièce de Maravédis était initialement valable pour deux maravedises, l'État la récupérait, la retamponnait avec une nouvelle valeur, par exemple "quatre", et ne retournait qu'une seule pièce au propriétaire. La pièce mentionnée avec le tampon "huit" est un témoignage de ce processus, ayant subi plusieurs cycles de dévaluation.
 
@@ -163,15 +161,13 @@ Ces billets sont un témoignage vivant de la première grande période d'hyperin
 
 #### 6. L'Ordre exécutif 6102 et la Dévaluation du Dollar
 
-L'Ordre exécutif 6102 et la Dévaluation du Dollar
-
 Aux États-Unis, le début des années 1930 a été témoin d'une évolution majeure dans la politique monétaire. Voici un aperçu détaillé de cette transformation:
 
 - Le Billet de 20 dollars de 1928
 
 ![image](assets/chapitre-2.1/11.webp)
 
-En 1928, un billet de 20dollars américains portait la mention : « redeemable in gold on demand » (échangeable en or à la demande). Cela signifie que chaque billet était littéralement convertible en or. Plus précisément, un billet de 20,67dollars équivalait à une once d'or.
+En 1928, un billet de 20 dollars américains portait la mention : « redeemable in gold on demand » (échangeable en or à la demande). Cela signifie que chaque billet était littéralement convertible en or. Plus précisément, un billet de 20,67 dollars équivalait à une once d'or.
 
 - L'Ordre exécutif 6102
 
@@ -209,9 +205,9 @@ Dans le même esprit, l'Espagne et les Pays-Bas, en tant que détenteurs de la m
 
 Cependant, la situation a évolué avec l'ascension des États-Unis en tant que puissance économique dominante. Ils ont choisi de dévaluer leur monnaie de réserve, exploitant ainsi l'inflation à leur avantage. Cette décision est souvent attribuée à la dynamique changée, où le choix de la monnaie de réserve n'était plus aussi libre qu'auparavant. L'hégémonie américaine a établi le dollar comme la monnaie de réserve mondiale, permettant ainsi une manipulation de sa valeur. Ce changement de cap révèle l'impact potentiel des politiques monétaires sur le commerce international dans une économie mondialisée, marquant une transition significative dans la gestion des monnaies de réserve mondiales.
 
-### Dernier exemple pour la route: le Swiss Dinner
+### Dernier exemple pour la route: le Swiss Dinar
 
-Le Swiss Dinar illustre une autre facette fascinante de la dévaluation monétaire, ancrée cette fois dans le contexte irakien pré-guerres du Golfe. Appelée ainsi en référence à la qualité notable de ses billets, cette monnaie était émise par la Banque centrale irakienne et jouissait d'une réputation de stabilité dans la région du Moyen-Orient. Cette confiance était notamment due à la qualité d'impression des billets, effectuée en Angleterre, insinuant une certaine robustesse face à la dévaluation.
+Le Swiss Dinar illustre une autre facette fascinante de la dévaluation monétaire, ancrée cette fois dans le contexte irakien pré-guerres du Golfe. Appelée ainsi en référence à la qualité notable de ses billets, cette monnaie était émise par la Banque centrale irakienne et jouissait d'une réputation de stabilité dans la région du Moyen-Orient. Cette confiance était notamment due à la qualité d'impression des billets, effectuée en Angleterre, insinuant une certaine robustesse face à la contrefaçon.
 
 ![image](assets/chapitre-2.1/16.webp)
 
@@ -221,7 +217,7 @@ Cependant, les guerres du Golfe marquèrent un tournant dans l'histoire du Swiss
 
 Un phénomène distinctif émergea dans l'économie irakienne post-guerre du Golfe : le système de double prix. Les commerçants proposaient des prix différents selon le type de billet utilisé pour le paiement, favorisant le Swiss Dinar original au détriment du billet chinois. Ce système reflétait la confiance maintenue envers les billets de meilleure qualité, moins susceptibles de dévaluation, même dans un contexte où la valeur était principalement imposée par l'État. Cet épisode démontre l'importance des caractéristiques intrinsèques de la monnaie, et comment, même dans un régime de monnaie fiat, la qualité perçue d'une monnaie peut influencer sa valeur relative et, par extension, la confiance des acteurs économiques.
 
-#### Oui, on pesé vraiment les pieces !
+#### Oui, on pesait vraiment les pieces !
 
 La perception commune associe souvent la monnaie à une création étatique, son émission et sa valeur étant régulées par l'État. Ce concept trouve ses racines dans des civilisations antiques telles que Rome, où les pièces étaient standardisées et estampillées par l'Empire, conférant ainsi une valeur officielle aux monnaies. Cependant, une exploration plus approfondie révèle que la valeur intrinsèque de la monnaie était principalement dérivée de son contenu en métal précieux.
 
@@ -282,7 +278,7 @@ L'inflation, bien que souvent associée à l'augmentation de la masse monétaire
 
 ![image](assets/chapitre-2.2/1.webp)
 
-La première explication réside dans la manière dont l'inflation est mesurée. L'indice des prix à la consommation, utilisé comme indicateur principal de l'inflation, présente certaines lacunes. Par exemple, il ne prend pas en compte de manière exhaustive l'évolution des prix de l'immobilier. Bien que l'IPC intègre une composante liée aux loyers, l'appréciation substantielle des prix des maisons n'est pas pleinement reflétée. Ainsi, des augmentations significatives des coûts du logement peuvent se produire sans être entièrement capturées par l'IPC, sous-estimant potentiellement l'inflation réelle.
+La première explication réside dans la manière dont l'inflation est mesurée. L'indice des prix à la consommation, utilisé comme indicateur principal de l'inflation, présente certaines lacunes. Par exemple, il ne prend pas en compte de manière exhaustive l'évolution des prix de l'immobilier. Bien que l'IPC intègre une composante liée aux loyers, l'appréciation substantielle des prix des maisons n'est pas pleinement reflétée. Ainsi, des augmentations significatives des coûts du logement peuvent se produire sans être entièrement mesurées par l'IPC, sous-estimant potentiellement l'inflation réelle.
 
 En outre, le calcul de l'IPC inclut certaines méthodologies qui peuvent compenser ou masquer les augmentations de prix réelles. Par exemple, des améliorations qualitatives des produits peuvent être utilisées pour ajuster l'indice. Si le prix d'un produit augmente, mais que sa qualité ou ses caractéristiques s'améliorent également, l'IPC peut considérer que la valeur réelle pour le consommateur n'a pas changé, et donc ne pas refléter d'inflation. Un cas illustratif est celui où, malgré une hausse des prix du bœuf et des ordinateurs due à l'injection monétaire, l'amélioration de la performance des ordinateurs est utilisée pour compenser cette hausse. Si un ordinateur coûte deux fois plus cher mais est quatre fois plus puissant, l'IPC peut interpréter cela comme une baisse des prix, masquant ainsi l'augmentation du prix du bœuf.
 
@@ -298,7 +294,7 @@ La Théorie Monétaire Moderne (MMT) propose une perspective distincte sur la cr
 
 Un exemple illustratif de la MMT est le complexe militaro-industriel américain. Selon la MMT, des centaines de milliards de dollars peuvent être alloués à ce secteur sans provoquer d'inflation, grâce à sa capacité d'absorption. En contraste, si des fonds substantiels sont injectés dans la construction de routes aux États-Unis, où il existe un nombre limité d'entreprises et de main-d'œuvre, une inflation pourrait survenir en raison de la rareté des ressources et de la hausse des coûts demandés par les fournisseurs.
 
-Le cas du Japon est souvent cité par les défenseurs de la MMT comme un autre exemple de l'absence d'inflation malgré une impression monétaire importante. Toutefois, la situation au Japon souligne aussi les limites des mesures traditionnelles de l'inflation comme l'Indice des Prix à la Consommation (IPC). Au Japon, une grande partie de l'argent imprimé est soit épargnée, soit investie dans l'immobilier ou les marchés d'actions, et non dépensée dans l'économie de consommation courante. L'IPC, en ne capturant pas entièrement ces dynamiques, peut sous-estimer l'inflation réelle.
+Le cas du Japon est souvent cité par les défenseurs de la MMT comme un autre exemple de l'absence d'inflation malgré une impression monétaire importante. Toutefois, la situation au Japon souligne aussi les limites des mesures traditionnelles de l'inflation comme l'Indice des Prix à la Consommation (IPC). Au Japon, une grande partie de l'argent imprimé est soit épargnée, soit investie dans l'immobilier ou les marchés d'actions, et non dépensée dans l'économie de consommation courante. L'IPC, en ne mesurant pas entièrement ces dynamiques, peut sous-estimer l'inflation réelle.
 
 L'analyse du Japon (https://ideas.repec.org/p/ces/ceswps/_9821.html) met également en lumière que le comportement des agents économiques, comme l'épargne ou l'investissement dans des actifs non inclus dans l'IPC, peut masquer l'impact inflationniste de l'impression monétaire. De plus, la capacité des différents secteurs à absorber les liquidités injectées joue un rôle crucial dans la manifestation ou non de l'inflation.
 
@@ -340,7 +336,7 @@ Ces exemples peuvent être utilisés dans des discussions pour expliquer pourquo
 
 ![image](assets/chapitre-2.2/0.5.webp)
 
-Par ce que comme lemontre bien ce [thread](https://twitter.com/saifedean/status/1673639779433590786): L'inflation c'est tous, sauf la fautes des banques centrale.
+Parce que comme le montre bien ce [thread](https://twitter.com/saifedean/status/1673639779433590786): On aime bien blâmer tout et son contraire pour l'inflation (sauf les banques centrales).
 
 - Économistes blâmant l'inflation sur le changement climatique
 

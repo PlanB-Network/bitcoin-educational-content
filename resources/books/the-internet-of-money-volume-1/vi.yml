@@ -1,8 +1,8 @@
-tiêu đề: "Internet của Tiền Tệ"
-năm_xuất_bản: 2016
-bìa: cover_en.webp
-bản_gốc: true
-mô_tả: |
+title: "Internet của Tiền Tệ"
+publication_year: 2016
+cover: cover_en.webp
+original: false
+description: |
   "Internet của Tiền Tệ" của Andreas Antonopoulos là một cuốn sách giải thích cơ bản về Bitcoin và công nghệ nền tảng của nó. Trong tập này, Antonopoulos tập trung vào những nguyên tắc cơ bản của đồng tiền kỹ thuật số này, bao gồm câu chuyện nguồn gốc, tiềm năng cách mạng và những trở ngại mà nó phải vượt qua để được chấp nhận rộng rãi. Ông cũng đào sâu vào những ảnh hưởng rộng lớn của Bitcoin đối với xã hội và nền kinh tế, khám phá khả năng của nó trong việc làm xáo trộn ngành ngân hàng và các tổ chức tài chính truyền thống, cũng như khả năng trao quyền cho cá nhân và thúc đẩy tự do tài chính. Cuốn sách này là một giới thiệu xuất sắc về thế giới Bitcoin dành cho người mới bắt đầu muốn tìm hiểu thêm về công nghệ cách mạng này.
 cộng_tác_viên:
   - rabbit-hole

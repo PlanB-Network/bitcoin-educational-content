@@ -1,8 +1,8 @@
-tiêu đề: "Tỷ Phú Bitcoin"
-năm_xuất_bản: 2019
-bìa: cover_en.webp
-bản_gốc: true
-mô_tả: |
+title: "Tỷ Phú Bitcoin"
+publication_year: 2019
+cover: cover_en.webp
+original: false
+description: |
   
-người_đóng_góp:
+contributors:
   - rabbit-hole

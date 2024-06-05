@@ -448,7 +448,7 @@ Dans cette section, nous explorons les diverses définitions de l'hyperinflation
 
 Pour illustrer, si l'inflation chute à 40% en juillet et ne remonte pas au-dessus de 50% jusqu'au juillet de l'année suivante, alors la période d'hyperinflation est considérée comme terminée en juillet de l'année précédente. Cette définition permet une caractérisation précise des épisodes d'hyperinflation, permettant une analyse structurée.
 
-Cette définition a été adoptée dans le tableau Hanke-Krus, qui documente 56 épisodes d'hyperinflation. Toutefois, le tableau ne couvre pas tous les épisodes, comme celui du Venezuela en 2016, portant le total à 57.
+Cette définition a été adoptée dans le tableau Hanke-Krus, qui documente 56 épisodes d'hyperinflation. On peut maintenant ajouter à ce tableau une autre période d'hyperinflation, celle du Venezuela en 2016, portant le total à 57.
 
 ![image](assets/chapitre-3.1/1.webp)
 
@@ -458,7 +458,7 @@ zoom
 
 Il est à noter que cette définition, bien que précise, pourrait possiblement exclure certains épisodes d'hyperinflation en raison de la rigueur du seuil de 50%. Il existe une possibilité d'élargissement de cette définition pour inclure d'autres épisodes qui, bien que ne répondant pas strictement au critère de Cagan, représentent néanmoins des périodes d'inflation extrêmement élevée. Cette observation ouvre la porte à une exploration plus large des phénomènes d'hyperinflation, permettant une compréhension plus nuancée de ses causes et de ses effets. Dans les discussions ultérieures, nous envisagerons de revisiter cette définition et d'examiner des épisodes d'hyperinflation non couverts par le critère strict de Cagan.
 
-### la Définition de l'Hyperinflation par Kagan
+### la Définition de l'Hyperinflation par Cagan
 
 Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbitraire avec le seuil de 50% d'inflation mensuelle. Il admet lui-même que cette définition est arbitraire et servait principalement son analyse basée sur sept épisodes d'hyperinflation. L'examen des données de Cagan révèle que les trois épisodes d'hyperinflation avec les taux d'inflation mensuels les plus bas étaient autour de 47%, 46% et 57%. Il semble que le seuil de 50% a été choisi pour englober ces cas dans son étude.
 
@@ -467,10 +467,10 @@ Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbi
 - Contexte Historique :
   La définition de Cagan date de 1956, et se base sur un nombre limité d'épisodes d'hyperinflation disponibles à cette époque.
 
-- Observations de Kagan :
-  Selon Kagan, aucun épisode n'a atteint ce seuil d'environ 50% sans évoluer vers une hyperinflation plus grave, ce qui pourrait justifier le choix de ce seuil.
+- Observations de Cagan :
+  Selon Cagan, aucun épisode n'a atteint ce seuil d'environ 50% sans évoluer vers une hyperinflation plus grave, ce qui pourrait justifier le choix de ce seuil.
 
-- Critique de la Définition de Kagan :
+- Critique de la Définition de Cagan :
   D'autres économistes, comme Bernholz, l'auteur de Monetary Regime and Inflation, ont également qualifié le seuil de 50% d'arbitraire.
   Bernholz note qu'il existe des épisodes de haute inflation ayant les mêmes caractéristiques qualitatives que les épisodes d'hyperinflation, sans atteindre le seuil de 50%.
 
@@ -495,7 +495,7 @@ L'IASB propose une perspective unique sur l'hyperinflation, axée sur les pratiq
   Les prix, salaires et intérêts sont ajustés en fonction d'un index pour compenser l'inflation.
 
 - Inflation Cumulative sur Trois Ans :
-  L'inflation cumulative sur trois ans approchant 100% (soit environ 24% par an), contrastant avec la définition de Kagan de 50% d'inflation mensuelle.
+  L'inflation cumulative sur trois ans approchant 100% (soit environ 24% par an), contrastant avec la définition de Cagan de 50% d'inflation mensuelle.
 
 ![image](assets/chapitre-3.1/5.webp)
 
@@ -503,20 +503,20 @@ Selon les critères de l'IASB, plusieurs pays, dont l'Argentine, l'Éthiopie, Ha
 
 ![image](assets/chapitre-3.1/6.webp)
 
-Cette définition fournie par l'IASB s'éloigne du seuil quantitatif strict proposé par Kagan, en intégrant une analyse qualitative des comportements économiques et des ajustements pratiques face à l'hyperinflation. Elle démontre que l'hyperinflation est un phénomène complexe qui nécessite une compréhension multidimensionnelle pour en saisir les implications réelles, en particulier dans le domaine de la comptabilité qui est crucial pour la stabilité et la transparence financière des entreprises et des marchés.
+Cette définition fournie par l'IASB s'éloigne du seuil quantitatif strict proposé par Cagan, en intégrant une analyse qualitative des comportements économiques et des ajustements pratiques face à l'hyperinflation. Elle démontre que l'hyperinflation est un phénomène complexe qui nécessite une compréhension multidimensionnelle pour en saisir les implications réelles, en particulier dans le domaine de la comptabilité qui est crucial pour la stabilité et la transparence financière des entreprises et des marchés.
 
 ### Du coup, combien d'hyperinflation en tous ?
 
-Les définitions courantes d'hyperinflation, comme celle avancée par Kagan stipulant une inflation mensuelle de 50%, peuvent parfois prêter à confusion ou être réductrices. Par exemple, deux pays connaissant des taux d'inflation annuelle respectifs de 1 000% et 3 000% peuvent être perçus différemment en fonction de la répartition mensuelle de cette inflation. Si aucun mois ne dépasse le seuil de 50%, selon la définition de Kagan, ces pays ne seraient pas en état d'hyperinflation. Cette approche peut donc conduire à des anomalies dans la classification de l'hyperinflation, surtout quand on compare des inflations cumulées sur l'année.
+Les définitions courantes d'hyperinflation, comme celle avancée par Cagan stipulant une inflation mensuelle de 50%, peuvent parfois prêter à confusion ou être réductrices. Par exemple, deux pays connaissant des taux d'inflation annuelle respectifs de 1 000% et 3 000% peuvent être perçus différemment en fonction de la répartition mensuelle de cette inflation. Si aucun mois ne dépasse le seuil de 50%, selon la définition de Cagan, ces pays ne seraient pas en état d'hyperinflation. Cette approche peut donc conduire à des anomalies dans la classification de l'hyperinflation, surtout quand on compare des inflations cumulées sur l'année.
 
 ![image](assets/chapitre-3.1/7.webp)
 
-- L'ouvrage de Kagan, "Monetary Dynamics of Hyperinflation", qui établit une analyse fondamentale de l'hyperinflation.
+- L'ouvrage de Cagan, "Monetary Dynamics of Hyperinflation", qui établit une analyse fondamentale de l'hyperinflation.
 - Le livre de Bernold qui étudie 30 périodes d'hyperinflation distinctes, élargissant ainsi le spectre d'analyse.
 - La collection personnelle de billets de David issus de 36 périodes d'hyperinflation, permettant une compréhension tangible et historique.
-- Le tableau Hanky Cross (version 2012, mise à jour en 2016 avec le Venezuela), recensant 57 périodes d'hyperinflation basées sur la définition de Kagan.
+- Le tableau Hanky Cross (version 2012, mise à jour en 2016 avec le Venezuela), recensant 57 périodes d'hyperinflation basées sur la définition de Cagan.
 
-Il est à noter que certaines périodes historiques d'inflation élevée ne figurent pas dans les tableaux classiques d'hyperinflation, souvent en raison des critères stricts de classification. Par exemple, pendant la guerre d'indépendance des États-Unis en novembre 1779, et durant la guerre civile américaine en mars 1864, les taux d'inflation mensuels étaient respectivement de 47,4% et 40%. Ces taux, bien que élevés, ne dépassent pas le seuil de 50% stipulé par Kagan, excluant ainsi ces périodes des cas classés comme hyperinflation. Cette omission illustre les limites des définitions rigides et souligne la nécessité d'une approche plus nuancée pour appréhender l'hyperinflation dans toute sa complexité.
+Il est à noter que certaines périodes historiques d'inflation élevée ne figurent pas dans les tableaux classiques d'hyperinflation, souvent en raison des critères stricts de classification. Par exemple, pendant la guerre d'indépendance des États-Unis en novembre 1779, et durant la guerre civile américaine en mars 1864, les taux d'inflation mensuels étaient respectivement de 47,4% et 40%. Ces taux, bien que élevés, ne dépassent pas le seuil de 50% stipulé par Cagan, excluant ainsi ces périodes des cas classés comme hyperinflation. Cette omission illustre les limites des définitions rigides et souligne la nécessité d'une approche plus nuancée pour appréhender l'hyperinflation dans toute sa complexité.
 
 ## Weimar vs Zimbabwe similitudes
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
@@ -533,7 +533,7 @@ Plusieurs ouvrages ont été particulièrement instructifs :
 
 - "When Money Dies" par Adam Ferguson, retrace l'hyperinflation post-Première Guerre mondiale en Allemagne, ainsi qu'en Autriche et en Hongrie.
 
-- Deux livres sur l'hyperinflation au Zimbabwe : "Zimbabwe Warm Heart Ugly Face" et "Hard Boiled Egg Index" par Jérôme Gardner et Kudzai Joseph Gou Min-Yu respectivement, offrent des témoignages poignants d'un PDG d'une chaîne de magasins de vêtements et d'un banquier agricole sur leurs expériences durant cette période tumultueuse.
+- Deux livres sur l'hyperinflation au Zimbabwe : "Zimbabwe Warm Heart Ugly Face" et "Hard Boiled Egg Index" par Jérôme Gardner et Kudzai Joseph Gumynyu respectivement, offrent des témoignages poignants d'un PDG d'une chaîne de magasins de vêtements et d'un banquier agricole sur leurs expériences durant cette période tumultueuse.
 
 ![image](assets/chapitre-3.2/1.webp)
 
@@ -541,7 +541,6 @@ En consolidant mes notes, j'ai discerné une multitude de similitudes entre les 
 
 ### Analyse Comparative : Zimbabwe et République de Weimar
 
-Le jeu des 14 differences !
 
 1. Pénurie de monnaie
 
@@ -617,9 +616,9 @@ Dans des situations d'hyperinflation ou de crise monétaire, les marchés parall
 
 > Argentine: “Je suis donc allé là où vont tous les Argentins : les cuevas, les “grottes”, que l’on trouve dans le quartier de Florida au cœur de Buenos Aires.” - TheBigWhale
 
-9. Le change de monnaie était illégal
+9. Les échanges de monnaie étrangères étaient illégal
 
-les gouvernements, dans un effort pour stabiliser leur propre monnaie et contrôler le flux de capitaux, peuvent rendre illégales ces transactions en devises étrangères. Ces mesures répressives, bien que destinées à protéger l'économie nationale, peuvent souvent avoir l'effet inverse, exacerbant la méfiance du public et encourageant le marché noir.
+Les gouvernements, dans un effort pour stabiliser leur propre monnaie et contrôler le flux de capitaux, peuvent rendre illégales ces transactions en devises étrangères. Ces mesures répressives, bien que destinées à protéger l'économie nationale, peuvent souvent avoir l'effet inverse, exacerbant la méfiance du public et encourageant le marché noir.
 
 > Weimar: “Les gens en venaient à commercer par le troc et se tournaient progressivement vers les devises étrangères comme seul moyen d'échange fiable. De nouveaux décrets ont été introduits concernant l'achat de traites étrangères et l'utilisation de devises étrangères pour régler les paiements intérieurs. En plus de l'emprisonnement, des amendes pouvaient désormais être imposées jusqu'à dix fois le montant d'une transaction illégale.”
 
@@ -653,7 +652,7 @@ Face à une économie en déroute et à des réglementations omniprésentes, la 
 
 13. Acheter des devises étrangères à n'importe quel prix
 
-L'achat frénétique de devises étrangères a souvent marqué un tournant critique dans la dévaluation monétaire, exacerbant la chute de la valeur intrinsèque.
+L'achat frénétique de devises étrangères a souvent marqué un tournant critique dans la dévaluation monétaire, exacerbant la chute de leur valeur.
 
 > Weimar: "Mannheimer, sur instruction de son chef, est sorti en août 1921 et a commencé à acheter des devises étrangères à n'importe quel prix — 'car l'Allemagne avait une quantité infinie de marks en papier mais pas de devises étrangères.' C'était le premier signe de l'effondrement absolu de la valeur du mark."
 
@@ -832,7 +831,7 @@ Sur la diapositive, à gauche, figurent les années de rédénomination, le nom 
 
 ![image](assets/chapitre-3.4/1.webp)
 
-À droite de la diapositive, il y a un graphique de l'inflation. Les flèches rouges représentent les années d'hyperinflation, définies selon le critère de Kagan comme étant une inflation de 50 % par mois. Ce critère peut parfois conduire à des interprétations ambiguës, avec des années présentant des taux d'inflation élevés mais ne répondant pas à la définition stricte d'hyperinflation.
+À droite de la diapositive, il y a un graphique de l'inflation. Les flèches rouges représentent les années d'hyperinflation, définies selon le critère de Cagan comme étant une inflation de 50 % par mois. Ce critère peut parfois conduire à des interprétations ambiguës, avec des années présentant des taux d'inflation élevés mais ne répondant pas à la définition stricte d'hyperinflation.
 
 Il est à noter que la rédénomination, en période d'inflation, est une mesure courante prise par les gouvernements. Cependant, cela ne résout pas le problème sous-jacent de l'inflation ou de l'hyperinflation. Ce n'est qu'une manière de renommer la monnaie et de supprimer des zéros, sans véritablement s'attaquer à la cause profonde de l'hyperinflation : l'expansion de la masse monétaire. Dans une vidéo ultérieure, nous discuterons des véritables solutions pour aborder et résoudre le problème de l'hyperinflation. Dans cette série, nous mettrons en lumière les conséquences d'une simple rédénomination sans réformes adéquates : l'inflation persiste.
 

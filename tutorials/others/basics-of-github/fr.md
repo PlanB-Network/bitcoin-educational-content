@@ -15,11 +15,11 @@ Git est un système de contrôle de version, spécialement conçu pour gérer de
 ![git](assets/1.webp)
 À la base, Git permet aux développeurs de suivre les modifications apportées au code source d'un projet au fil du temps. Cela signifie qu'à chaque changement dans le code, Git enregistre une nouvelle version du projet. Si une erreur survient ou si une fonctionnalité expérimentale ne fonctionne pas comme prévu, il est possible de revenir à un état antérieur du code, comme une sorte de machine à remonter le temps pour les fichiers.
 
-Une des fonctionnalités clés de Git est la gestion des branches. Une branche est une sorte de ligne parallèle de développement où les développeurs peuvent travailler indépendamment du reste du projet. Cela facilite grandement l'ajout de nouvelles fonctionnalités ou la correction de bugs sans perturber le code principal. Une fois les modifications testées et validées, elles peuvent être fusionnées avec la branche principale.
+Une des fonctionnalités clés de Git est la gestion des branches. Une branche est une sorte de ligne parallèle où les développeurs peuvent travailler indépendamment du reste du projet. Cela facilite grandement l'ajout de nouvelles fonctionnalités ou la correction de bugs sans perturber le code principal. Une fois les modifications testées et validées, elles peuvent être fusionnées avec la branche principale.
 
 Une des particularités de Git est sa capacité à fonctionner de manière distribuée. Chaque développeur possède une copie complète du projet sur le disque dur de son propre ordinateur, ce qui permet de travailler hors ligne et de fusionner les changements plus tard, lorsqu'une connexion Internet est disponible. Cela réduit le risque de conflits et permet à plusieurs développeurs de travailler simultanément sur le même projet sans se marcher sur les pieds.
 
-Initialement, Git est donc principalement pensé pour les projets de développement logiciel. Cependant, il peut tout aussi bien servir à gérer des projets de rédaction de contenu. Plutôt que de collaborer sur du code, nous collaborons sur du texte. Et c'est justement cette méthode que PlanB Network a adoptée pour gérer ses contenus ! Git nous facilite la collaboration sur la rédaction de contenus, car il permet un suivi précis des modifications, une gestion efficace des versions et permet également la revue et l'amélioration du contenu par d'autres contributeurs. 
+Initialement, Git est donc principalement pensé pour les projets de développement logiciel. Cependant, il peut tout aussi bien servir à gérer des projets de rédaction de contenu. Plutôt que de collaborer sur du code, nous collaborons sur du texte. Et c'est justement cette méthode que PlanB Network a adoptée pour gérer ses contenus ! Git nous facilite la collaboration sur la rédaction de cours et de tutoriels, car il permet un suivi précis des modifications, une gestion efficace des versions et permet également la revue et l'amélioration du contenu par d'autres contributeurs. 
 
 ## C'est quoi GitHub ?
 
@@ -53,7 +53,7 @@ Sur Git et GitHub, vous rencontrerez des commandes et des fonctionnalités dont 
 
 - **Merge :** Fusionner consiste à intégrer les modifications d'une branche dans une autre. On l'utilise, par exemple, pour ajouter les modifications d'une branche de travail sur la branche principale, ce qui permet d'ajouter les différentes contributions.
 
-- **Fork :** Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original.
+- **Fork :** Faire un fork d'un dépôt consiste à créer une copie de ce dépôt sur votre propre compte GitHub, ce qui vous permet de travailler sur le projet sans affecter le dépôt original. Le fork peut soit faire son propre chemin, et devenir un projet différent du projet initial, soit se synchroniser régulièrement avec le projet initial, afin d'y contribuer.
 
 - **Clone :** Cloner un dépôt signifie en faire une copie locale sur votre ordinateur, ce qui vous donne accès à tous les fichiers et à l'historique. Cela vous permet de travailler sur le projet directement en local.
 
@@ -63,6 +63,6 @@ Sur Git et GitHub, vous rencontrerez des commandes et des fonctionnalités dont 
 
 Cette liste n'est évidemment pas exhaustive. Il existe de nombreux autres termes techniques spécifiques à Git et GitHub. Cependant, ceux mentionnés ici sont les principaux que vous rencontrerez fréquemment.
 
-Après avoir lu cet article, il est possible que certains aspects de Git et GitHub restent encore flous pour vous. Je vous encourage à commencer à utiliser ces outils par vous-même. La pratique est souvent le meilleur moyen pour comprendre le fonctionnement de la machine ! Et pour commencer, vous pouvez découvrir ces 2 tutoriels :
+Après avoir lu cet article, il est possible que certains aspects de Git et GitHub restent encore flous pour vous. Je vous encourage à commencer à utiliser ces outils par vous-même. La pratique est souvent le meilleur moyen pour comprendre le fonctionnement de la machine ! Et pour commencer, vous pouvez découvrir ces 2 autres tutoriels :
 - **[Créer son compte GitHub](https://planb.network/fr/tutorials/others/create-github-account)**
 - **[Mettre en place son environnement local pour contribuer à PlanB Network](https://planb.network/fr/tutorials/others/github-desktop-work-environment)**

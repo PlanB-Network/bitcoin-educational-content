@@ -268,11 +268,12 @@ Voici également quelques fichier pré-conçus, duplicables et modifiables à vo
 
 - **charte** de notre bibliothèque, affichée en A4 lors des meet-ups: [lien](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+- **présentation powerpoint** "Chapitre 2 - Comprendre les transactions sur Bitcoin", par @ProfEduStream: [lien](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 - **flyer** "21 raisons d'utiliser Bitcoin", écrit par @ProfEduStream: [lien](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ![image](assets/fr/chapter5/img12-fr.png)
 ![image](assets/fr/chapter5/img13-fr.png)
-
-- **présentation powerpoint** "Chapitre 2 - Comprendre les transactions sur Bitcoin", par @ProfEduStream: [lien](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ### 
 Comme vous pouvez l'observer, les possibilités sont infinies et cela dépend bien évidemment de vos besoins. **N'hésitez donc pas à concevoir vous-même de nouveaux modèles, puis prenez quelques minutes pour les partagez autour de vous afin que cela puisse faire gagner plusieurs heures de travail aux autres communautés de votre pays**.
 En effet, n'oubliez pas que **toute communauté aura, un moment ou un autre, les même problématiques et les même besoins que vous. En partageant vos ressources de manière open-source, vous accélérez donc de manière sous-jacente le développement de toutes les autres communautés Bitcoin**.

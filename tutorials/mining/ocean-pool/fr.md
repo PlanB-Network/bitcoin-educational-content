@@ -213,3 +213,5 @@ Vous devriez voir un message de confirmation.
 ![signup](assets/19.webp)
 
 Allez maintenant sur l’onglet **My Stats**. Une information supplémentaire s’affiche en haut avec le lien de paiement BOLT12 que vous avez généré précédemment avec Core Lightning sur Start9.
+
+![signup](assets/20.webp)

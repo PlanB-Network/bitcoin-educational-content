@@ -54,7 +54,7 @@ Il existe une multitude de logiciels spécialisés dans l'édition de fichiers M
 ![github-desktop](assets/13.webp)
 Ce fork constitue un dépôt distinct de l'original, bien qu'il contienne pour le moment les mêmes données. C'est sur ce nouveau dépôt que vous allez désormais travailler.
 
-On vient donc en quelques sorte de faire une copie du dépôt source de PlanB Network. Votre fork (la copie) et le dépôt original vont désormais évoluer indépendamment l'un de l'autre. Sur le dépôt original, d'autres contributeurs pourront ajouter de nouvelles données, tandis que vous, sur votre fork, procéderez à vos propres modifications.
+On vient donc en quelque sorte de faire une copie du dépôt source de PlanB Network. Votre fork (la copie) et le dépôt original vont désormais évoluer indépendamment l'un de l'autre. Sur le dépôt original, d'autres contributeurs pourront ajouter de nouvelles données, tandis que vous, sur votre fork, procéderez à vos propres modifications.
 
 Pour maintenir une cohérence entre ces deux dépôts, il sera nécessaire de les synchroniser périodiquement afin qu'ils récupèrent les mêmes informations. Pour envoyer vos modifications au dépôt source, vous utiliserez ce qu'on appelle une **Pull Request**. Et pour intégrer les modifications du dépôt source à votre fork, vous utiliserez la commande **Sync fork** disponible sur l'interface web de GitHub.
 
@@ -81,7 +81,7 @@ Vous pouvez aussi récupérer des modifications depuis le fork, par exemple lors
 ![github-desktop](assets/21.webp)
 ## Étape 5 : Créer un nouveau coffre Obsidian
 
-- Ouvrez le logiciel Obsidian et cliquez sur la petite icône de coffre fort en bas à gauche de la fenêtre :
+- Ouvrez le logiciel Obsidian et cliquez sur la petite icône de coffre-fort en bas à gauche de la fenêtre :
 ![github-desktop](assets/22.webp)
 - Cliquez sur le bouton `Open` afin d'ouvrir un dossier existant comme un coffre :
 ![github-desktop](assets/23.webp)

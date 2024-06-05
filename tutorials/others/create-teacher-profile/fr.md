@@ -80,7 +80,7 @@ Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
 	    - security,
 	    - ...
 	- **tips :** fournissez votre adresse Lightning pour les donations afin de permettre aux lecteurs de vos futurs tutoriels de vous envoyer quelques sats (facultatif) ;
-	- **company :** si vous en possédez une, indiquez le nom de votre entreprise (facultatif).Vous devez ensuite actualiser les informations existantes avec les vôtres :
+	- **company :** si vous en possédez une, indiquez le nom de votre entreprise (facultatif). Vous devez ensuite actualiser les informations existantes avec les vôtres :
 ![tutorial](assets/17.webp)
 - Vous devez également modifier le `contributor-id`. Cet identifiant sert à vous reconnaître sur le site web, mais n'est pas rendu public en dehors de GitHub. Vous êtes libre de choisir n'importe quelle combinaison de deux mots, en vous référant à [la liste anglaise de 2048 mots du BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt). N'oubliez pas d'insérer un tiret entre les deux mots choisis. Par exemple, ici, j'ai choisi `crazy-cactus` :
 ![tutorial](assets/18.webp)

@@ -1,748 +1,717 @@
 ---
-name: Introduction to Bitcoin Mining
-goal: Understand the functioning of the mining industry through a practical exercise of reusing ASICs.
+name: Giới thiệu về Đào Bitcoin
+goal: Hiểu về hoạt động của ngành công nghiệp đào thông qua bài tập thực hành tái sử dụng ASICs.
 objectives:
-  - Understand the theory behind mining
-  - Understand the mining industry
-  - Transform an S9 into a heater
-  - Mine your first satoshi
+  - Hiểu lý thuyết đằng sau việc đào
+  - Hiểu ngành công nghiệp đào
+  - Biến đổi một S9 thành một hệ thống sưởi
+  - Đào được satoshi đầu tiên của bạn
 ---
 
-# Your first steps in mining!
+# Bước đầu tiên của bạn trong việc đào!
 
-In this training, we will delve into the mining industry to demystify this complex subject! The training is accessible to everyone and does not require any initial investment.
+Trong khóa học này, chúng ta sẽ đi sâu vào ngành công nghiệp đào để làm sáng tỏ chủ đề phức tạp này! Khóa học mở cửa cho tất cả mọi người và không yêu cầu bất kỳ khoản đầu tư ban đầu nào.
 
-The first section will be theoretical, where Ajelex and I will have an in-depth discussion on various topics related to mining. This will help us better understand this industry and the economic and geopolitical issues associated with it.
-In the second section, we will tackle a practical case. Indeed, we will learn how to transform a used S9 miner into a home heating system! Through written guides and videos, we will show and explain all the steps to achieve this at your home :)
+Phần đầu tiên sẽ là lý thuyết, nơi Ajelex và tôi sẽ có cuộc thảo luận sâu rộng về các chủ đề liên quan đến việc đào. Điều này sẽ giúp chúng ta hiểu rõ hơn về ngành công nghiệp này và các vấn đề kinh tế và địa chính trị liên quan đến nó.
+Trong phần thứ hai, chúng ta sẽ giải quyết một trường hợp thực tế. Thực sự, chúng ta sẽ học cách biến đổi một máy đào S9 đã qua sử dụng thành một hệ thống sưởi cho nhà! Thông qua hướng dẫn viết và video, chúng tôi sẽ chỉ và giải thích tất cả các bước để thực hiện điều này tại nhà của bạn :)
 
-Through this video, we hope to show you that the mining industry is more complex than it seems, and studying it helps to nuance the ecological debate that is linked to it!
-If you need help with your setup, a Telegram group has been created for students, and all the necessary components can be found on our e-commerce platform!
+Qua video này, chúng tôi hy vọng sẽ cho bạn thấy ngành công nghiệp đào phức tạp hơn nó trông và việc nghiên cứu nó giúp làm rõ cuộc tranh luận về môi trường liên quan đến nó!
+Nếu bạn cần sự giúp đỡ với thiết lập của mình, một nhóm Telegram đã được tạo ra cho học viên, và tất cả các thành phần cần thiết có thể được tìm thấy trên nền tảng thương mại điện tử của chúng tôi!
 
 +++
 
-# Introduction
+# Giới thiệu
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Welcome!
+## Chào mừng!
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Welcome to MINING 201: an introduction to mining. Ajelex, Jim & Rogzy are excited to accompany you in your first concrete steps in this new industry. We hope you enjoy the course and join the adventure of home mining!
+Chào mừng bạn đến với MINING 201: một giới thiệu về việc đào. Ajelex, Jim & Rogzy rất hào hứng được đồng hành cùng bạn trong những bước đi cụ thể đầu tiên trong ngành công nghiệp mới này. Chúng tôi hy vọng bạn thích khóa học và tham gia vào cuộc phiêu lưu của việc đào tại nhà!
 
-### Course Overview
+### Tổng quan về Khóa học
 
-In this course, the first section will focus on the theory of mining with Ajelex. We will have in-depth discussions on various topics related to mining, which will help us better understand this industry and the economic and geopolitical issues associated with it.
+Trong khóa học này, phần đầu tiên sẽ tập trung vào lý thuyết của việc đào cùng Ajelex. Chúng tôi sẽ có những cuộc thảo luận sâu rộng về các chủ đề liên quan đến việc đào, giúp chúng ta hiểu rõ hơn về ngành công nghiệp này và các vấn đề kinh tế và địa chính trị liên quan đến nó.
 
-In the second section, we will embark on a fascinating practical case, learning how to transform a used S9 miner into a home heating system. Through written guides and videos, all the necessary steps will be meticulously explained, ensuring your success in this innovative project.
+Trong phần thứ hai, chúng tôi sẽ bắt tay vào một trường hợp thực tế thú vị, học cách biến đổi một máy đào S9 đã qua sử dụng thành một hệ thống sưởi cho nhà. Thông qua hướng dẫn viết và video, tất cả các bước cần thiết sẽ được giải thích tỉ mỉ, đảm bảo thành công trong dự án sáng tạo này.
 
-This learning journey will show you that the mining industry is more complex than it appears, offering a balanced perspective on the ecological debate associated with it. Ongoing assistance will be available through a dedicated Telegram group for students, and all the necessary components will be easily accessible on our e-commerce platform.
+Hành trình học tập này sẽ cho bạn thấy ngành công nghiệp đào phức tạp hơn nó trông, cung cấp một cái nhìn cân bằng về cuộc tranh luận môi trường liên quan đến nó. Sự hỗ trợ liên tục sẽ có sẵn thông qua một nhóm Telegram dành riêng cho học viên, và tất cả các thành phần cần thiết sẽ dễ dàng truy cập trên nền tảng thương mại điện tử của chúng tôi.
 
-### Curriculum:
+### Chương trình học:
 
-Theoretical Section:
-* Explanation of mining.
-* The mining industry.
-* Nuances of the mining industry.
-* Mining in the Bitcoin protocol.
-* Bitcoin Price and Hashrate, a Correlation? Sovereignty and Regulation
-* Interview with a Mining Industry Professional
+Phần Lý thuyết:
+* Giải thích về việc đào.
+* Ngành công nghiệp đào.
+* Những nét đặc trưng của ngành công nghiệp đào.
+* Việc đào trong giao thức Bitcoin.
+* Giá Bitcoin và Hashrate, một sự tương quan? Chủ quyền và Quy định
+* Phỏng vấn với một Chuyên gia Ngành Công nghiệp Đào
 
-Practical Section: Attakai
-* Introduction to Attakai.
-* Buying Guide.
-* Modifying the Software of an Antminer S9.
-* Replacing Fans to Reduce Noise.
-* Pool Configuration.
-* Configuring Antminer S9 with Braiins OS+.
+Phần Thực hành: Attakai
+* Giới thiệu về Attakai.
+* Hướng dẫn Mua hàng.
+* Chỉnh sửa Phần mềm của Antminer S9.
+* Thay thế Quạt để Giảm Tiếng ồn.
+* Cấu hình Pool.
+* Cấu hình Antminer S9 với Braiins OS+.
 
-Ready to embark on this captivating adventure? Let's dive together into the fascinating world of home mining!
+Sẵn sàng tham gia vào cuộc phiêu lưu hấp dẫn này? Hãy cùng nhau khám phá thế giới thú vị của việc đào tại nhà!
 
-# Everything You Need to Know About Mining
+# Tất cả những gì bạn cần biết về Đào
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
-## Explanation of Mining
+## Giải thích về Đào
 <chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+### Giải Thích về Đào Coin: Ẩn Dụ về Câu Đố
 
-### Mining Explained: The Puzzle Analogy
-
-To explain the concept of mining in a simplified way, a relevant analogy can be used: that of a puzzle. Just like a puzzle, mining is a complex task to perform but easy to verify once completed. In the context of Bitcoin mining, miners strive to quickly solve a digital puzzle. The first miner to solve the puzzle presents their solution to the entire network, which can then easily verify its validity. This successful verification allows the miner to validate a new block and add it to the Bitcoin Timechain. In recognition of their work, which involves significant costs, the miner is rewarded with a certain number of bitcoins. This reward serves as a financial incentive for miners to continue their work of validating transactions and securing the Bitcoin network.
+Để giải thích khái niệm đào coin một cách đơn giản, có thể sử dụng một ẩn dụ phù hợp: đó là câu đố. Giống như một câu đố, việc đào coin là một nhiệm vụ phức tạp để thực hiện nhưng dễ dàng để xác minh khi hoàn thành. Trong bối cảnh của việc đào Bitcoin, các thợ đào cố gắng giải quyết một câu đố số học một cách nhanh chóng. Thợ đào đầu tiên giải quyết được câu đố này trình bày giải pháp của họ cho toàn bộ mạng lưới, mà sau đó có thể dễ dàng xác minh tính hợp lệ của nó. Việc xác minh thành công này cho phép thợ đào xác nhận một khối mới và thêm nó vào Chuỗi Thời gian Bitcoin. Để ghi nhận công việc của họ, bao gồm chi phí đáng kể, thợ đào được thưởng một số lượng bitcoin nhất định. Phần thưởng này phục vụ như một động lực tài chính để thợ đào tiếp tục công việc xác nhận giao dịch và bảo vệ mạng lưới Bitcoin.
 
 ![image](assets/overview/puzzle.webp)
 
-Initially in the Bitcoin network, the awarded reward was 50 bitcoins every ten minutes, parallel to the discovery of a block every ten minutes on average by miners. This reward undergoes a halving every 210,000 blocks, approximately every four years. This remuneration serves as a powerful incentive to encourage miners to participate in the mining process despite its energy cost. Without a reward, the electricity-intensive mining would be abandoned, compromising the security and stability of the entire Bitcoin network.
-The current mining reward is twofold. On one hand, it includes the creation of new bitcoins, which has decreased from 50 bitcoins every ten minutes initially to 6.25 bitcoins today (2023). On the other hand, it includes transaction fees, or mining fees, from the transactions that the miner chooses to include in their block. When a bitcoin transaction is made, transaction fees are paid. These fees function as a sort of auction where users indicate how much they are willing to pay to have their transaction included in the next block. To maximize their reward, miners, acting in their own interest, select the most profitable transactions to include in their block, considering the limited available space. Thus, the mining reward consists of both the generation of new bitcoins and transaction fees, ensuring a continuous incentive for miners and ensuring the longevity and security of the Bitcoin network.
+Ban đầu trong mạng lưới Bitcoin, phần thưởng được trao là 50 bitcoin mỗi mười phút, tương đương với việc phát hiện một khối mỗi mười phút trung bình bởi các thợ đào. Phần thưởng này trải qua một quá trình giảm một nửa mỗi 210,000 khối, khoảng mỗi bốn năm. Phần thưởng này phục vụ như một động lực mạnh mẽ để khuyến khích thợ đào tham gia vào quá trình đào mặc dù chi phí năng lượng. Không có phần thưởng, việc đào tiêu tốn nhiều điện năng sẽ bị bỏ qua, làm suy yếu an ninh và ổn định của toàn bộ mạng lưới Bitcoin.
+Phần thưởng đào hiện tại là hai lần. Một mặt, nó bao gồm việc tạo ra bitcoin mới, đã giảm từ 50 bitcoin mỗi mười phút ban đầu xuống còn 6.25 bitcoin ngày nay (2023). Mặt khác, nó bao gồm phí giao dịch, hoặc phí đào, từ các giao dịch mà thợ đào chọn để bao gồm trong khối của họ. Khi một giao dịch bitcoin được thực hiện, phí giao dịch được trả. Những phí này hoạt động như một loại đấu giá nơi người dùng chỉ ra họ sẵn lòng trả bao nhiêu để giao dịch của họ được bao gồm trong khối tiếp theo. Để tối đa hóa phần thưởng của mình, các thợ đào, hành động theo lợi ích của bản thân, chọn các giao dịch có lợi nhuận cao nhất để bao gồm trong khối của họ, xem xét không gian có hạn. Do đó, phần thưởng đào bao gồm cả việc tạo ra bitcoin mới và phí giao dịch, đảm bảo một động lực liên tục cho thợ đào và đảm bảo sự lâu dài và an ninh của mạng lưới Bitcoin.
 
-### Miners and Their Tools: Mining
+### Các Thợ Đào và Công Cụ của Họ: Đào Coin
 
-The mining process involves finding a valid hash that is acceptable to the Bitcoin network. Once calculated and found, this hash is irreversible, similar to potatoes being turned into mashed potatoes. It verifies a certain function without the possibility of going back. Miners, in competition, use machines to calculate these hashes. Although it is theoretically possible to find this hash manually, the complexity of the operation makes this option unfeasible. Computers, capable of performing these calculations quickly, are therefore used, consuming a significant amount of electricity.
+Quá trình đào coin bao gồm việc tìm một mã hash hợp lệ được mạng lưới Bitcoin chấp nhận. Một khi được tính toán và tìm thấy, mã hash này không thể đảo ngược, tương tự như việc biến khoai tây thành khoai tây nghiền. Nó xác minh một chức năng nhất định mà không có khả năng quay trở lại. Các thợ đào, trong cuộc cạnh tranh, sử dụng máy móc để tính toán những mã hash này. Mặc dù lý thuyết có thể tìm thấy mã hash này bằng tay, nhưng độ phức tạp của hoạt động làm cho lựa chọn này không khả thi. Do đó, máy tính, có khả năng thực hiện những phép tính này một cách nhanh chóng, được sử dụng, tiêu thụ một lượng điện năng đáng kể.
 
-In the beginning, the CPU era dominated, where miners used their personal computers for Bitcoin mining. The discovery of the advantages of GPUs (graphics cards) for this task marked a turning point, substantially increasing the hashrate and reducing energy consumption. The progress did not stop there, with the subsequent introduction of FPGAs (field-programmable gate arrays). FPGAs served as a platform for the development of ASICs (application-specific integrated circuits).
+Ban đầu, kỷ nguyên CPU chiếm ưu thế, nơi các thợ đào sử dụng máy tính cá nhân của họ để đào Bitcoin. Việc phát hiện ra lợi ích của GPU (card đồ họa) cho nhiệm vụ này đã đánh dấu một bước ngoặt, tăng đáng kể tốc độ hash và giảm tiêu thụ năng lượng. Tiến trình không dừng lại ở đó, với sự giới thiệu sau này của FPGA (mảng cổng có thể lập trình trường). FPGA phục vụ như một nền tảng cho sự phát triển của ASIC (mạch tích hợp chuyên dụng).
 
 ![image](assets/overview/chip.webp)
+ASIC là các chip, có thể so sánh với chip CPU, tuy nhiên, chúng được phát triển để thực hiện chỉ một loại tính toán cụ thể một cách hiệu quả nhất có thể. Nói cách khác, một CPU có khả năng thực hiện nhiều loại tính toán khác nhau mà không được tối ưu hóa cho một loại tính toán cụ thể nào, trong khi một ASIC sẽ chỉ có thể thực hiện một loại tính toán, nhưng rất hiệu quả. Trong trường hợp của ASIC Bitcoin, chúng được thiết kế cho việc tính toán thuật toán SHA256. Ngày nay, các thợ đào chỉ sử dụng ASIC dành riêng cho hoạt động này, được tối ưu hóa để kiểm tra số lượng kết hợp tối đa với lượng tiêu thụ năng lượng nhỏ nhất có thể và càng nhanh càng tốt. Những máy tính này, không thể thực hiện các nhiệm vụ khác ngoài việc đào Bitcoin, là bằng chứng cụ thể cho sự tiến hóa liên tục và chuyên môn hóa ngày càng tăng của ngành công nghiệp đào Bitcoin. Sự tiến hóa liên tục này phản ánh động lực nội tại của Bitcoin, nơi một cơ chế điều chỉnh khó khăn đảm bảo sản xuất một khối mỗi mười phút bất chấp sự tăng trưởng theo cấp số nhân trong khả năng đào.
 
-ASICs are chips, comparable to a CPU chip, however, they are developed to perform only one specific type of calculation in the most efficient way possible. In other words, a CPU is capable of performing a multitude of different types of calculations without being particularly optimized for one type of calculation or another, whereas an ASIC will be able to perform only one type of calculation, but very efficiently. In the case of Bitcoin ASICs, they are designed for the calculation of the SHA256 algorithm.
-Nowadays, miners exclusively use ASICs dedicated to this operation, optimized to test the maximum number of combinations with the smallest possible energy consumption and as quickly as possible. These computers, incapable of performing tasks other than Bitcoin mining, are a tangible testament to the continuous evolution and increasing specialization of the Bitcoin mining industry. This constant evolution reflects the intrinsic dynamics of Bitcoin, where a difficulty adjustment ensures the production of a block every ten minutes despite the exponential increase in mining capacity.
+Để minh họa cho cường độ của quá trình này, hãy xem xét một thợ đào điển hình có khả năng đạt 14 TeraHash mỗi giây, tức là 14 nghìn tỷ lần thử mỗi giây để tìm ra hash chính xác. Ở quy mô của mạng lưới Bitcoin, chúng ta hiện đạt khoảng 300 HexaHash mỗi giây, làm nổi bật sức mạnh tập thể được huy động trong việc đào Bitcoin.
 
-To illustrate the intensity of this process, consider a typical miner capable of achieving 14 TeraHash per second, or 14 trillion attempts every second to find the correct hash. At the scale of the Bitcoin network, we now reach approximately 300 HexaHash per second, highlighting the collective power mobilized in Bitcoin mining.
+### Điều Chỉnh Độ Khó:
 
-### Difficulty Adjustment:
-
-Difficulty adjustment is a crucial mechanism in the operation of the Bitcoin network, ensuring that blocks are mined on average every 10 minutes. This duration is an average because the mining process is actually a game of probabilities, similar to rolling dice in the hope of getting a number lower than the number defined by the difficulty. Every 2016 blocks, the network adjusts the mining difficulty based on the average time required to mine the previous blocks. If the average time is greater than 10 minutes, the difficulty is reduced, and conversely, if the average time is lower, the difficulty is increased. This adjustment mechanism ensures that the mining time for new blocks remains constant over time, regardless of the number of miners or the overall computing power of the network. This is why the Bitcoin Blockchain is also called the Timechain.
+Điều chỉnh độ khó là một cơ chế quan trọng trong hoạt động của mạng lưới Bitcoin, đảm bảo rằng các khối được đào trung bình mỗi 10 phút. Thời gian này là một trung bình vì quá trình đào thực sự là một trò chơi xác suất, tương tự như việc lắc xí ngầu hy vọng sẽ ra một số nhỏ hơn số được định nghĩa bởi độ khó. Mỗi 2016 khối, mạng lưới điều chỉnh độ khó đào dựa trên thời gian trung bình cần thiết để đào các khối trước đó. Nếu thời gian trung bình lớn hơn 10 phút, độ khó sẽ được giảm xuống, và ngược lại, nếu thời gian trung bình thấp hơn, độ khó sẽ được tăng lên. Cơ chế điều chỉnh này đảm bảo rằng thời gian đào cho các khối mới luôn ổn định theo thời gian, bất kể số lượng thợ đào hay tổng sức mạnh tính toán của mạng lưới. Đây là lý do tại sao Blockchain Bitcoin cũng được gọi là Timechain.
 
 ![image](assets/overview/chinaban.webp)
 
-* Example from China:
-The case of China perfectly illustrates this difficulty adjustment mechanism. With abundant and cheap energy, China was the main global hub for Bitcoin mining. In 2021, the country suddenly banned Bitcoin mining on its territory, resulting in a massive drop in the global Bitcoin network's hashrate, around 50%. This rapid decrease in mining power could have severely disrupted the Bitcoin network by increasing the average block mining time. However, the difficulty adjustment mechanism kicked in, reducing the mining difficulty to ensure that the block mining frequency remains at an average of 10 minutes. This case demonstrates the efficiency and resilience of Bitcoin's difficulty adjustment mechanism, which ensures the stability and predictability of the network, even in the face of sudden and significant changes in the global mining landscape.
+* Ví dụ từ Trung Quốc:
+Trường hợp của Trung Quốc minh họa hoàn hảo cơ chế điều chỉnh độ khó này. Với nguồn năng lượng dồi dào và rẻ, Trung Quốc là trung tâm đào Bitcoin chính trên toàn cầu. Năm 2021, đất nước này đột ngột cấm đào Bitcoin trên lãnh thổ của mình, dẫn đến sự sụt giảm lớn trong tổng hashrate của mạng lưới Bitcoin toàn cầu, khoảng 50%. Sự giảm sút nhanh chóng này trong sức mạnh đào có thể đã làm gián đoạn nghiêm trọng mạng lưới Bitcoin bằng cách tăng thời gian đào khối trung bình. Tuy nhiên, cơ chế điều chỉnh độ khó đã được kích hoạt, giảm độ khó đào để đảm bảo rằng tần suất đào khối vẫn ở mức trung bình 10 phút. Trường hợp này chứng minh hiệu quả và khả năng phục hồi của cơ chế điều chỉnh độ khó của Bitcoin, đảm bảo sự ổn định và dự đoán được của mạng lưới, ngay cả trong bối cảnh có những thay đổi đột ngột và đáng kể trong cảnh quan đào mỏ toàn cầu.
 
-### Evolution of Bitcoin Mining Machines
+### Sự Tiến Hóa của Máy Đào Bitcoin
 
-Regarding the evolution of Bitcoin mining machines, it is important to note that the context is more oriented towards a traditional business model. Miners earn their income from block validation, a task with a relatively low probability of success. The current model in use, the Antminer S9, although an older model launched around 2016, is still in circulation in the second-hand market, trading for around €100 to €200. However, the price of mining machines varies based on the value of Bitcoin, and a newer model, the Antminer S19, is currently estimated at around €3000.
-
-Faced with constant technological advancements in the mining field, professionals must strategically position themselves. The mining industry is subject to continuous innovations, as demonstrated by the recent release of the J version of the S19 and the anticipated release of the S19 XP, offering significantly higher mining capabilities. Furthermore, improvements are not only related to the raw performance of the machines. For example, the new S19 XP model uses a liquid cooling system, a technical modification that allows for a significant improvement in energy efficiency. Although innovation remains a constant, future efficiency gains will likely be smaller compared to those observed so far, due to reaching a certain threshold of technological innovation.
-
+Về sự tiến hóa của máy đào Bitcoin, quan trọng là phải lưu ý rằng bối cảnh này hướng nhiều hơn về mô hình kinh doanh truyền thống. Các thợ đào kiếm thu nhập từ việc xác nhận khối, một nhiệm vụ có xác suất thành công tương đối thấp. Mô hình hiện tại đang được sử dụng, Antminer S9, mặc dù là một mô hình cũ được ra mắt vào khoảng năm 2016, vẫn còn lưu hành trên thị trường hàng đã qua sử dụng, được giao dịch với giá khoảng €100 đến €200. Tuy nhiên, giá của máy đào biến đổi dựa trên giá trị của Bitcoin, và một mô hình mới hơn, Antminer S19, hiện được ước tính có giá khoảng €3000.
+Trước sự tiến bộ không ngừng trong lĩnh vực khai thác mỏ, các chuyên gia phải định vị chiến lược của mình một cách thông minh. Ngành công nghiệp khai thác mỏ chịu sự đổi mới liên tục, như được minh chứng bởi việc ra mắt phiên bản J của S19 và sự ra mắt được mong đợi của S19 XP, mang lại khả năng khai thác cao hơn đáng kể. Hơn nữa, cải tiến không chỉ liên quan đến hiệu suất thô của các máy móc. Ví dụ, mẫu mới S19 XP sử dụng hệ thống làm mát bằng chất lỏng, một sửa đổi kỹ thuật cho phép cải thiện đáng kể hiệu quả năng lượng. Mặc dù đổi mới luôn là một hằng số, nhưng lợi ích hiệu quả trong tương lai có thể sẽ nhỏ hơn so với những gì đã quan sát được cho đến nay, do đạt đến một ngưỡng nhất định của đổi mới công nghệ.
 ![image](assets/overview/chipevolution.webp)
 
-In conclusion, the Bitcoin mining industry continues to adapt and develop, and industry players must anticipate diminishing efficiency gains in the future and adjust their strategies accordingly. Future technological advancements, although still present, are likely to occur on a smaller scale, reflecting the growing maturity of the sector.
+Kết luận, ngành công nghiệp khai thác Bitcoin tiếp tục thích nghi và phát triển, và các bên trong ngành phải dự đoán sự giảm bớt lợi ích hiệu quả trong tương lai và điều chỉnh chiến lược của họ cho phù hợp. Các tiến bộ công nghệ trong tương lai, mặc dù vẫn còn, có khả năng xảy ra trên một quy mô nhỏ hơn, phản ánh sự trưởng thành ngày càng tăng của ngành.
 
-## The mining industry
+## Ngành công nghiệp khai thác
 <chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
-### Mining Pools
+### Các nhóm khai thác
 
-Currently, Bitcoin mining has evolved into a serious and substantial industry, with many players now publicly known and an increasing number of significant miners. This evolution has made mining almost inaccessible for small players due to the high cost associated with acquiring new mining machines. This raises the question of the distribution of hashrate among various market players. The situation is complex because it is essential to examine both the distribution of hashrate among different companies and among different mining pools.
+Hiện nay, việc khai thác Bitcoin đã phát triển thành một ngành công nghiệp nghiêm túc và quy mô lớn, với nhiều bên tham gia hiện nay được biết đến công khai và số lượng người khai thác quan trọng ngày càng tăng. Sự phát triển này đã làm cho việc khai thác gần như không thể tiếp cận được cho các bên nhỏ do chi phí cao liên quan đến việc mua máy móc khai thác mới. Điều này đặt ra câu hỏi về sự phân bổ hashrate giữa các bên thị trường khác nhau. Tình hình là phức tạp vì cần phải xem xét cả sự phân bổ hashrate giữa các công ty khác nhau và giữa các nhóm khai thác khác nhau.
 
 ![image](assets/overview/pool.webp)
 
-A mining pool is a group of miners who combine their computing resources to increase their chances of mining. This cooperation is necessary because an isolated small mining machine is competing against industry giants, reducing its chances of success to a negligible level. Mining works on a lottery principle, and the chances of winning a block (and therefore the Bitcoin reward) every ten minutes are extremely low for an individual small miner. By pooling together, miners can combine their computing power, find blocks more frequently, and then distribute the rewards proportionally to each miner's contribution to the pool.
+Một nhóm khai thác là một nhóm các thợ mỏ kết hợp nguồn lực tính toán của họ để tăng cơ hội khai thác. Sự hợp tác này là cần thiết bởi vì một máy khai thác nhỏ lẻ đang cạnh tranh với các gã khổng lồ trong ngành, làm giảm cơ hội thành công của nó xuống mức không đáng kể. Việc khai thác hoạt động theo nguyên tắc xổ số, và cơ hội giành được một khối (và do đó là phần thưởng Bitcoin) mỗi mười phút là cực kỳ thấp đối với một thợ mỏ nhỏ lẻ. Bằng cách kết hợp lại, các thợ mỏ có thể kết hợp sức mạnh tính toán của mình, tìm thấy các khối thường xuyên hơn và sau đó phân phối phần thưởng theo tỷ lệ với đóng góp của mỗi thợ mỏ vào nhóm.
 
-For example, if a pool finds a block and wins 6.25 bitcoins, a miner contributing 1% of the total computing power of the pool would receive 1% of the 6.25 bitcoins earned. However, it should be noted that mining pools generally take a small commission (usually around 2%) to cover the operating costs of the cooperative.
+Ví dụ, nếu một nhóm tìm thấy một khối và giành được 6.25 bitcoins, một thợ mỏ đóng góp 1% tổng sức mạnh tính toán của nhóm sẽ nhận được 1% của 6.25 bitcoins kiếm được. Tuy nhiên, cần lưu ý rằng các nhóm khai thác thường lấy một khoản hoa hồng nhỏ (thường là khoảng 2%) để bù đắp chi phí hoạt động của hợp tác xã.
 
-### Software used by the industry
+### Phần mềm được ngành sử dụng
 
-In the context of Bitcoin mining, the role of software is just as crucial as hardware. An example of this is illustrated by the role of Bitmain, a prolific manufacturer that developed the Antminer S9. In addition to mining hardware, the industry heavily relies on collaborative mining pools, such as Brainspool, which controls approximately 5% of the global hashrate of the Bitcoin network.
-The actors in this industry are constantly seeking to increase efficiency through hardware and software. For example, a popular software used in this context is BrainsOS Plus. This software replaces the original operating system of the mining machine, allowing the same operations to be performed more efficiently. With such software, a miner can increase the efficiency of their machine by 25%. This means that for an equivalent amount of electricity, the machine can produce an additional 25% of hashrate, thereby increasing the rewards received by the miner. This software optimization is an essential element of competitiveness in Bitcoin mining, demonstrating the importance of an integrated approach that combines both hardware and software improvements to maximize efficiency and returns.
+Trong bối cảnh khai thác Bitcoin, vai trò của phần mềm cũng quan trọng như phần cứng. Một ví dụ về điều này được minh họa bởi vai trò của Bitmain, một nhà sản xuất nổi tiếng đã phát triển Antminer S9. Ngoài phần cứng khai thác, ngành này còn phụ thuộc nhiều vào các nhóm khai thác hợp tác, như Brainspool, kiểm soát khoảng 5% tổng hashrate của mạng lưới Bitcoin toàn cầu.
+Các bên trong ngành này luôn tìm cách tăng hiệu quả thông qua phần cứng và phần mềm. Ví dụ, một phần mềm phổ biến được sử dụng trong bối cảnh này là BrainsOS Plus. Phần mềm này thay thế hệ điều hành gốc của máy khai thác, cho phép thực hiện các hoạt động một cách hiệu quả hơn. Với phần mềm như vậy, một thợ mỏ có thể tăng hiệu quả của máy của mình lên 25%. Điều này có nghĩa là với một lượng điện năng tương đương, máy có thể sản xuất thêm 25% hashrate, do đó tăng phần thưởng mà thợ mỏ nhận được. Sự tối ưu hóa phần mềm là một yếu tố thiết yếu của sự cạnh tranh trong khai thác Bitcoin, chứng minh tầm quan trọng của một cách tiếp cận tích hợp kết hợp cả cải tiến phần cứng và phần mềm để tối đa hóa hiệu quả và lợi nhuận.
+### Quy Định và Giá Điện
 
-### Regulation and Electricity Tariffs
+Như đã quan sát ở Trung Quốc và các nơi khác, quy định có ảnh hưởng đáng kể đến việc đào mỏ. Mặc dù không có những người đào mỏ lớn nào ở Pháp, quy định và giá điện cao ở Châu Âu là những trở ngại lớn. Các thợ đào luôn tìm kiếm điện giá rẻ để tối đa hóa lợi nhuận của họ. Do đó, chi phí điện cao ở Châu Âu và Pháp không thu hút các thợ đào đến những khu vực này.
 
-As observed in China and elsewhere, regulation has a significant influence on mining. Although there are no significant miners in France, regulation and high electricity tariffs in Europe are major obstacles. Miners are constantly searching for low-cost electricity to maximize their profits. Therefore, the high cost of electricity in Europe and France does not attract miners to these regions.
+Các thợ đào thường hướng đến các khu vực có giá điện thấp, thường là ở các quốc gia đang phát triển hoặc các quốc gia có dư thừa năng lượng. Ví dụ, một phần lớn tổng hashrate toàn cầu được đặt tại Texas, Hoa Kỳ. Texas có một lưới điện độc lập không chia sẻ nguồn năng lượng của mình với các bang khác. Điều này thường dẫn đến việc Texas sản xuất nhiều điện hơn mức cần thiết để tránh thiếu hụt, tạo ra dư thừa. Các thợ đào Bitcoin tận dụng sự sản xuất quá mức này bằng cách thiết lập hoạt động tại Texas, nơi họ có thể đào bitcoin với giá điện rất thấp trong các khoảng thời gian có dư thừa năng lượng. Tình huống này cho thấy ảnh hưởng đáng kể của quy định và giá điện đối với việc đào Bitcoin, làm nổi bật tầm quan trọng của những yếu tố này trong quyết định địa điểm hoạt động đào mỏ của các thợ đào.
 
-Miners tend to gravitate towards regions with low electricity tariffs, often in emerging countries or countries with energy surpluses. For example, a large portion of the global hashrate is located in Texas, United States. Texas has an independent power grid that does not share its energy resources with other states. This uniqueness often leads Texas to produce more electricity than necessary to avoid shortages, creating a surplus. Bitcoin miners take advantage of this overproduction by setting up operations in Texas, where they can mine bitcoins at very low electricity rates during periods of energy surplus. This situation demonstrates the significant influence of regulations and electricity tariffs on Bitcoin mining, highlighting the importance of these factors in miners' decision-making regarding the location of their mining operations.
+### Thợ đào đi đâu và quản lý năng lượng?
 
-### Where do miners go and energy management?
+Bằng cách làm nổi bật ảnh hưởng của các thợ đào Bitcoin trong thế giới năng lượng, quỹ đạo rõ ràng: những người chơi này luôn tìm kiếm nguồn điện giá rẻ, thường là những nguồn bị lãng phí hoặc chưa được khai thác. Hiện tượng này rõ ràng ở các khu vực có cơ sở hạ tầng điện mới, như những nơi được trang bị đập thủy điện gần đây.
 
-By highlighting the impact of Bitcoin miners in the world of energy, the trajectory is clear: these actors are constantly seeking sources of cheap electricity, often those that are wasted or untapped. This phenomenon is evident in regions with new electrical infrastructure, such as those equipped with recent hydroelectric dams.
+Hãy lấy một ví dụ. Trong một quốc gia đang xây dựng đập, sản xuất điện thường bắt đầu trước khi các đường dây phân phối hoàn toàn hoạt động. Khoảng thời gian này có thể dẫn đến chi phí đáng kể và làm nản lòng đầu tư vào các dự án cơ sở hạ tầng như vậy. Tuy nhiên, các thợ đào bitcoin có thể hoạt động như một nguồn cầu linh hoạt, sẵn sàng tiêu thụ điện "mồ côi" này, từ đó giúp giảm bớt chi phí cơ sở hạ tầng. Ý nghĩa ở đây là các cơ sở mới có thể lập tức sinh lời, thúc đẩy việc tạo ra các nguồn điện mới. Nguyên tắc này cũng áp dụng cho các quy mô nhỏ hơn. Dù là một cá nhân sử dụng máy phát điện thủy điện trên một con sông nhỏ hay một hộ gia đình được trang bị tấm pin mặt trời, điện sản xuất dư thừa có thể được sử dụng để cung cấp năng lượng cho các hoạt động đào bitcoin.
 
-Let's take an example. In a country that is in the process of building a dam, electricity production often starts before the distribution lines are fully operational. This time gap can result in significant costs and discourage investment in such infrastructure projects. However, bitcoin miners can act as a flexible demand source, ready to consume this "orphaned" electricity, thus helping to offset infrastructure costs. The implication here is that new installations can be immediately profitable, promoting the creation of new sources of electricity. This principle also applies on smaller scales. Whether it's an individual using a hydroelectric generator on a small river or a household equipped with solar panels, the excess electricity produced can be used to power bitcoin mining operations.
+Ở Pháp, ví dụ, điện dư thừa từ tấm pin mặt trời được bơm trở lại lưới điện và các nhà sản xuất được bồi thường bằng tín dụng tiêu thụ từ EDF. Tương tự, có thể tưởng tượng một thợ đào hoạt động trên điện dư thừa này, ngừng hoạt động khi nhu cầu địa phương bằng với cung. Mặc dù điều này có vẻ ích kỷ, ưu tiên sản xuất bitcoin hơn là hỗ trợ lưới điện địa phương, nhưng nó đưa ra một góc độ khác: ổn định lưới điện. Việc quản lý phức tạp của điện dư thừa, đôi khi thậm chí với chi phí liên quan cho việc xử lý, có thể được đơn giản hóa đáng kể. Các thợ đào Bitcoin có thể hấp thụ những dư thừa này, hoạt động như một bộ đệm linh hoạt, điều chỉnh cầu thay vì cung. Trong một thế giới mà sản xuất điện từ các nguồn tái tạo (không kiểm soát được) đang liên tục tăng, các thợ đào có thể đóng một vai trò quan trọng trong việc đảm bảo cân bằng của lưới điện của chúng ta, đồng thời hưởng lợi từ điện giá rẻ hoặc dư thừa để cung cấp năng lượng cho hoạt động đào mỏ của họ.
 
-In France, for example, surplus electricity from solar panels is injected back into the grid and producers are compensated with a consumption credit from EDF. Similarly, one can imagine a miner operating on this surplus electricity, shutting down when local demand equals supply. Although this may seem selfish, prioritizing bitcoin production over supporting the local power grid, it presents another angle: stabilizing the power grid. The complex management of surplus electricity, sometimes even with associated costs for disposal, can be greatly simplified. Bitcoin miners can absorb these surpluses, acting as a flexible buffer, adjusting demand rather than supply. In a world where electricity production from renewable (non-controllable) sources is constantly increasing, miners can play a key role in ensuring the balance of our power grids, while benefiting from cheap or surplus electricity to power their mining operations.
+### Trung Tâm Hóa Đào Mỏ
 
-### Mining Centralization
+Trung tâm hóa đào mỏ được đề cập như một thách thức lớn. Các tác nhân lớn, như Foundry, chiếm lĩnh thị trường, có thể dẫn đến kiểm duyệt giao dịch. Sự trung tâm hóa này cũng có thể làm cho mạng lưới dễ bị tấn công, bao gồm cả cuộc tấn công 51%, nơi một tác nhân hoặc nhóm kiểm soát hơn 50% sức mạnh hashing của mạng, cho phép họ kiểm soát và thao túng mạng.
 
-Mining centralization is addressed as a major challenge. Large players, such as Foundry, dominate the market, which can potentially lead to transaction censorship. This centralization can also make the network vulnerable to attacks, including the 51% attack, where an actor or group controls more than 50% of the network's hashing power, allowing them to control and manipulate the network.
-
-Regulation Risk It is emphasized that if a country like the United States were to decide to regulate or ban certain Bitcoin transactions, it could have a significant impact on the network, especially if a large portion of the hashing power is centralized in that country.
+Rủi Ro Quy Định Được nhấn mạnh rằng nếu một quốc gia như Hoa Kỳ quyết định quy định hoặc cấm một số giao dịch Bitcoin, điều này có thể có ảnh hưởng đáng kể đến mạng, đặc biệt nếu một phần lớn sức mạnh hashing được tập trung tại quốc gia đó.
 
 ![image](assets/overview/foundry.webp)
 
-To combat this centralization, different strategies are discussed:
-* Home Mining: The idea of Home Mining is based on the decentralization of mining activity. It encourages individuals to participate in mining from their homes, thus distributing the hashrate more widely.
-* Stratum V2: The Stratum V2 protocol offers another approach. Unlike its predecessor, Stratum V2 allows miners to choose which transactions to include in the blocks they mine. This ability strengthens resistance to censorship and reduces the ability of large mining pools to dominate the network. By giving more power to individual miners, the Stratum V2 protocol can play a decisive role in the fight against hashrate centralization.
-Open-Sourcing Mining Software
-* Open-sourcing mining software: This is another potentially effective strategy. By making mining software accessible to everyone, small miners would have the same opportunities as large mining companies to participate and contribute to the blockchain network. This approach would encourage a broader distribution of hashrate, thus contributing to network decentralization.
-* Diversification of Actors and Geography: Encouraging the participation of diverse actors from different geographical regions in cryptocurrency mining can also prove effective. By diversifying the hashrate geographically, it becomes more difficult for a single actor or country to exert disproportionate control or influence over the network. This approach can help protect the network against potential attacks and strengthen its decentralization.
+Để chống lại sự trung tâm hóa này, các chiến lược khác nhau được thảo luận:
+* Khai Thác Tại Nhà: Ý tưởng về Khai Thác Tại Nhà dựa trên việc phân tán hoạt động khai thác. Nó khuyến khích cá nhân tham gia vào việc khai thác từ nhà của họ, từ đó phân bổ hashrate một cách rộng rãi hơn.
+* Stratum V2: Giao thức Stratum V2 đưa ra một cách tiếp cận khác. Không giống như phiên bản trước, Stratum V2 cho phép các thợ mỏ chọn lựa các giao dịch để bao gồm trong các khối họ khai thác. Khả năng này tăng cường khả năng chống kiểm duyệt và giảm khả năng các hồ bơi khai thác lớn thống trị mạng lưới. Bằng cách trao quyền lực nhiều hơn cho các thợ mỏ cá nhân, giao thức Stratum V2 có thể đóng một vai trò quyết định trong cuộc chiến chống lại sự tập trung hashrate.
 
-The general conclusion is that decentralization is crucial for the security and resilience of the Bitcoin network. Although centralization can offer efficiency benefits, it exposes the network to significant risks, including censorship and 51% attacks. Initiatives like Takai and the adoption of new protocols like Stratum V2 are important steps towards decentralization and protecting the Bitcoin network against these threats.
+Mở Nguồn Phần Mềm Khai Thác
+* Mở nguồn phần mềm khai thác: Đây là một chiến lược tiềm năng khác. Bằng cách làm cho phần mềm khai thác có thể truy cập được cho mọi người, các thợ mỏ nhỏ sẽ có cùng cơ hội như các công ty khai thác lớn để tham gia và đóng góp vào mạng lưới blockchain. Cách tiếp cận này sẽ khuyến khích sự phân bổ rộng rãi hơn của hashrate, từ đó đóng góp vào sự phân tán của mạng lưới.
+* Đa Dạng Hóa Các Diễn Viên và Địa Lý: Khuyến khích sự tham gia của các diễn viên đa dạng từ các khu vực địa lý khác nhau trong việc khai thác tiền mã hóa cũng có thể chứng minh là hiệu quả. Bằng cách đa dạng hóa hashrate theo địa lý, việc một diễn viên hoặc quốc gia duy nhất thực hiện kiểm soát hoặc ảnh hưởng quá mức đối với mạng lưới trở nên khó khăn hơn. Cách tiếp cận này có thể giúp bảo vệ mạng lưới chống lại các cuộc tấn công tiềm năng và tăng cường sự phân tán của nó.
 
-## Nuances of the mining industry
+Kết luận chung là sự phân tán là rất quan trọng cho sự an toàn và khả năng phục hồi của mạng lưới Bitcoin. Mặc dù sự tập trung có thể mang lại lợi ích về hiệu quả, nó phơi bày mạng lưới trước những rủi ro đáng kể, bao gồm kiểm duyệt và các cuộc tấn công 51%. Các sáng kiến như Takai và việc áp dụng các giao thức mới như Stratum V2 là những bước quan trọng hướng tới sự phân tán và bảo vệ mạng lưới Bitcoin chống lại những mối đe dọa này.
+
+## Những Sắc Thái của Ngành Khai Thác
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-### The principle of Attakai
+### Nguyên Tắc của Attakai
 
-The limit of this decentralization?
+Giới hạn của sự phân tán này?
 
-Although the idea of decentralizing mining through the productive use of generated heat seems promising, it has certain limitations and questions remain. Energy-intensive establishments such as saunas and pools could benefit from this concept by using the heat produced by miners to warm the water in their facilities. This practice is already being implemented by some members of the Bitcoin community, who are exploring different methods to efficiently utilize the heat generated by mining equipment. For example, a banquet hall could theoretically be heated by three or four S19 miners, each consuming 3000 watts and producing an equivalent amount of heat.
+Mặc dù ý tưởng về việc phân tán việc khai thác thông qua việc sử dụng có hiệu quả nhiệt lượng được tạo ra có vẻ hứa hẹn, nó có những hạn chế nhất định và vẫn còn những câu hỏi. Các cơ sở tiêu thụ năng lượng cao như saunas và bể bơi có thể được lợi từ khái niệm này bằng cách sử dụng nhiệt lượng do các thợ mỏ tạo ra để làm ấm nước trong cơ sở của họ. Thực hành này đã được một số thành viên của cộng đồng Bitcoin thực hiện, những người đang khám phá các phương pháp khác nhau để sử dụng hiệu quả nhiệt lượng được tạo ra bởi thiết bị khai thác. Ví dụ, một hội trường tiệc có thể lý thuyết được sưởi ấm bởi ba hoặc bốn máy đào S19, mỗi máy tiêu thụ 3000 watt và tạo ra một lượng nhiệt tương đương.
 
-However, it should be noted that energy consumption and heat production are equivalent, whether the energy is used by an electric heater or a miner. For every kilowatt of electricity used, the amount of heat produced will be the same in both cases. The difference lies in the fact that the miner not only provides heat but also a bitcoin reward, thus offering an economic incentive to use a miner instead of a simple electric heater. This additional reward could help alleviate concerns about the high energy consumption of miners.
+Tuy nhiên, cần lưu ý rằng việc tiêu thụ năng lượng và sản xuất nhiệt là tương đương, cho dù năng lượng được sử dụng bởi một bộ sưởi điện hay một thợ mỏ. Với mỗi kilowatt điện sử dụng, lượng nhiệt sản xuất sẽ giống nhau trong cả hai trường hợp. Sự khác biệt nằm ở việc thợ mỏ không chỉ cung cấp nhiệt mà còn có phần thưởng bitcoin, do đó cung cấp một động cơ kinh tế để sử dụng một thợ mỏ thay vì một bộ sưởi điện đơn giản. Phần thưởng bổ sung này có thể giúp giảm bớt mối quan ngại về việc tiêu thụ năng lượng cao của các thợ mỏ.
 
-The question of the long-term efficiency and feasibility of using bitcoin miners for heating remains open. Ongoing innovations in mining hardware and heating technologies may potentially open up new avenues for more efficient use of the heat generated by mining, thereby contributing to the viability of this approach in the future.
+Câu hỏi về hiệu quả và khả năng thực hiện lâu dài của việc sử dụng các thợ mỏ bitcoin để sưởi ấm vẫn còn mở. Các đổi mới liên tục trong phần cứng khai thác và công nghệ sưởi ấm có thể mở ra các cơ hội mới cho việc sử dụng hiệu quả hơn nhiệt lượng được tạo ra bởi việc khai thác, từ đó đóng góp vào khả năng thực hiện của cách tiếp cận này trong tương lai.
 
-### Why Have BTC Rewards?
+### Tại Sao Có Phần Thưởng BTC?
+Vấn đề về việc thưởng bằng bitcoin thay vì một loại tiền tệ khác là cốt lõi trong hệ thống do Satoshi Nakamoto tưởng tượng ra. Việc tạo ra Bitcoin được đặc trưng bởi một giới hạn cố định là 21 triệu đơn vị. Mục tiêu là tìm ra một cách công bằng để phân phối những đơn vị mới được tạo ra. Các thợ đào, bằng cách cung cấp sức mạnh tính toán của họ để bảo vệ mạng lưới và làm cho bất kỳ cuộc tấn công nào trở nên đắt đỏ hơn, hiệu quả bảo vệ mạng lưới Bitcoin. Đổi lại cho đóng góp quan trọng này, họ được thưởng bằng bitcoin mới được tạo ra, tạo điều kiện cho việc phân phối coin trong hệ sinh thái.
 
-The question of rewarding in bitcoin rather than another currency is essential in the system envisioned by Satoshi Nakamoto. The creation of Bitcoin is characterized by a fixed cap of 21 million units. The goal was to find a fair way to distribute these newly created units. Miners, by providing their computing power to secure the network and make any attack increasingly costly, effectively protect the Bitcoin network. In return for this crucial contribution, they are rewarded with newly created bitcoins, facilitating the distribution of coins within the ecosystem.
+Đây là một hệ thống có lợi cho cả hai bên. Các thợ đào được thưởng cho cả việc bảo vệ mạng lưới và phê duyệt giao dịch. Bitcoin mới được tạo ra được đưa ra như một động lực để tăng cường bảo mật, và phí giao dịch là thu nhập bổ sung cho việc phê duyệt giao dịch. Hai yếu tố này kết hợp tạo nên tổng phần thưởng cho việc đào. Vấn đề về tương lai của việc đào xuất hiện do việc giảm dần phần thưởng đào được lập trình, giảm một nửa mỗi bốn năm, một sự kiện được biết đến là "halving". Đến năm 2032, phần thưởng khối sẽ ít hơn một bitcoin, và đến năm 2140, không còn bitcoin mới nào được tạo ra. Tại thời điểm này, các thợ đào sẽ chỉ dựa vào phí giao dịch để được bồi thường. Mạng lưới Bitcoin sẽ cần hỗ trợ một số lượng lớn giao dịch, với phí đủ cao, để đảm bảo tính lợi nhuận của việc đào.
 
-It is a win-win system. Miners are rewarded for both securing the network and approving transactions. The newly created bitcoins are given as an incentive to strengthen security, and transaction fees are an additional income for approving transactions. These two elements combined make up the total reward for mining. The question of the future of mining arises due to the programmed reduction of mining rewards, halving every four years, an event known as "halving". By 2032, the block reward will be less than one bitcoin, and by 2140, no new bitcoins will be created. At this point, miners will rely solely on transaction fees for compensation. The Bitcoin network will need to support a large number of transactions, with sufficiently high fees, to ensure mining profitability.
+Sự phát triển của Lightning Network, cho phép giao dịch nhanh và chi phí thấp ngoài chuỗi Bitcoin chính, đặt ra câu hỏi về tương lai của việc đào. Lightning Network có khả năng giảm đáng kể phí giao dịch, do đó ảnh hưởng đến thu nhập của các thợ đào. Tuy nhiên, điều này sẽ phụ thuộc vào việc áp dụng và sử dụng Lightning Network so với mạng lưới Bitcoin chính. Trong một kịch bản bi quan, các thợ đào có thể thấy việc đào có lợi nhuận ngay cả khi lỗ nếu họ đã khấu hao chi phí và có quyền truy cập vào điện giá rẻ. Trong một kịch bản lạc quan hơn, phí giao dịch trên mạng lưới Bitcoin chính có thể vẫn cao đủ để duy trì tính lợi nhuận của việc đào.
 
-The rise of the Lightning Network, which allows for fast and low-cost transactions outside of the main Bitcoin chain, raises questions about the future of mining. The Lightning Network has the potential to significantly reduce transaction fees, thereby impacting miners' income. However, this will depend on the adoption and use of the Lightning Network compared to the main Bitcoin network. In a pessimistic scenario, miners may find it profitable to mine even at a loss if they have amortized their costs and have access to cheap electricity. In a more optimistic scenario, transaction fees on the main Bitcoin network could remain high enough to maintain mining profitability.
+### Điều gì nên được bao gồm trong một khối Bitcoin?
 
-### What should be included in a Bitcoin Block?
+Về câu hỏi điều gì nên được bao gồm trong một khối Bitcoin, điều quan trọng là phải xem xét bản chất bổ sung của các lớp khác nhau của mạng lưới Bitcoin. Mặc dù Lightning Network có thể cho phép giao dịch nhanh hơn và rẻ hơn, nó vẫn phụ thuộc vào lớp cơ sở của Bitcoin, thường được gọi là "lớp thanh toán," để mở và đóng các kênh thanh toán.
 
-Regarding the question of what should be included in a Bitcoin block, it is crucial to consider the complementary nature of the different layers of the Bitcoin network. Although the Lightning Network can enable faster and cheaper transactions, it still relies on the base layer of Bitcoin, often referred to as the "settlement layer," for opening and closing payment channels.
-
-With the expected growth of the Lightning Network and the consequent increase in channel openings and closings, space in Bitcoin blocks will become increasingly valuable. The Bitcoin community already tends to value the preservation of this space, recognizing its intrinsic limitation. This awareness has led to discussions about the legitimate use of block space, with concerns about "spam" on the blockchain from transactions considered non-essential.
+Với sự phát triển dự kiến của Lightning Network và sự tăng lên của việc mở và đóng kênh, không gian trong các khối Bitcoin sẽ trở nên ngày càng quý giá. Cộng đồng Bitcoin đã có xu hướng đánh giá cao việc bảo tồn không gian này, nhận ra giới hạn nội tại của nó. Nhận thức này đã dẫn đến các cuộc thảo luận về việc sử dụng không gian khối một cách hợp lệ, với những lo ngại về "spam" trên blockchain từ các giao dịch được coi là không cần thiết.
 
 ![image](assets/overview/block.webp)
 
-Speculation surrounds the future use of block space, but it is generally accepted that it is a scarce resource that should be used wisely. Even though there is a desire to fill it, it is essential to preserve it to ensure the long-term viability of the Bitcoin network, anticipating a future increase in demand for block space. As in any free market, supply and demand will regulate the use of block space. With limited supply, stakeholders will need to make informed choices about the use of this valuable space to ensure the long-term efficiency and security of the Bitcoin network.
+Có nhiều suy đoán về việc sử dụng không gian khối trong tương lai, nhưng nói chung được chấp nhận rằng đây là một nguồn tài nguyên khan hiếm nên được sử dụng một cách khôn ngoan. Mặc dù có mong muốn lấp đầy nó, việc bảo tồn nó là cần thiết để đảm bảo sự tồn tại lâu dài của mạng lưới Bitcoin, dự đoán một sự tăng cầu đối với không gian khối trong tương lai. Như trong bất kỳ thị trường tự do nào, cung và cầu sẽ điều chỉnh việc sử dụng không gian khối. Với nguồn cung hạn chế, các bên liên quan sẽ cần phải đưa ra những lựa chọn thông tin về việc sử dụng không gian quý giá này để đảm bảo hiệu quả và an ninh lâu dài của mạng lưới Bitcoin.
 
-## Bitcoin Mining in the Bitcoin Protocol
+## Đào Bitcoin trong Giao thức Bitcoin
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Who holds the power? Bitcoin, Energy, and Manufacturers](https://www.youtube.com/watch?v=4wywK6BfDw8)
+![Ai nắm giữ quyền lực? Bitcoin, Năng lượng, và Nhà sản xuất](https://www.youtube.com/watch?v=4wywK6BfDw8)
+Vai trò của các thợ đào trong mạng lưới Bitcoin đã là đề tài tranh luận sôi nổi trong thời kỳ chiến tranh kích thước khối. Mặc dù là yếu tố thiết yếu cho sự an toàn và chức năng của mạng lưới, các thợ đào không nhất thiết nắm giữ quyền lực tối thượng trong hệ sinh thái Bitcoin. Sự cân bằng giữa thợ đào, nút và người dùng cuối đảm bảo tính toàn vẹn và phân phối của mạng lưới.
 
-The role of miners in the Bitcoin network has been a subject of intense debate during the block size wars. Although essential for the security and functionality of the network, miners do not necessarily hold the ultimate power in the Bitcoin ecosystem. The balance between miners, nodes, and end-users ensures the integrity and distribution of the network.
+### Chiến Tranh Kích Thước Khối
 
-### The Block Size Wars
-
-During the block size wars, many miners were opposed to certain developments in the network, highlighting the tension between different actors in the ecosystem. The question remains on how to balance power among miners, nodes, and users to ensure the long-term security of Bitcoin.
+Trong thời kỳ chiến tranh kích thước khối, nhiều thợ đào đã phản đối một số phát triển trong mạng lưới, làm nổi bật sự căng thẳng giữa các bên trong hệ sinh thái. Câu hỏi vẫn còn là làm thế nào để cân bằng quyền lực giữa thợ đào, nút và người dùng để đảm bảo an ninh lâu dài của Bitcoin.
 
 ![image](assets/overview/blocksize-wars--BTC-vs-BCH-.webp)
 
-The security dilemma of Bitcoin rests on a delicate balance. While miners play a crucial role in validating and creating blocks, nodes maintain integrity by verifying and validating transactions and blocks. An incorrect or fraudulent block will be rejected by the nodes, thus censoring the miner and preserving the security of the network. Power is also held by the nodes and users of the Bitcoin network. Nodes have the power of verification and validation, while users have the power to choose which blockchain to use. This distribution of power ensures the distribution and integrity of the Bitcoin network.
+Dilemma an ninh của Bitcoin dựa trên một sự cân bằng tinh tế. Trong khi thợ đào đóng vai trò quan trọng trong việc xác nhận và tạo ra các khối, các nút duy trì tính toàn vẹn bằng cách xác minh và xác nhận các giao dịch và khối. Một khối sai lệch hoặc gian lận sẽ bị các nút từ chối, do đó kiểm duyệt thợ đào và bảo vệ an ninh của mạng lưới. Quyền lực cũng được nắm giữ bởi các nút và người dùng của mạng lưới Bitcoin. Các nút có quyền xác minh và xác nhận, trong khi người dùng có quyền chọn blockchain nào để sử dụng. Sự phân phối quyền lực này đảm bảo sự phân phối và tính toàn vẹn của mạng lưới Bitcoin.
 
-The block size wars revealed the uncertainty and tension inherent in managing the Bitcoin network. Although Bitcoin Core is currently the dominant chain, the debate over governance and network management continues.
+Chiến tranh kích thước khối đã tiết lộ sự không chắc chắn và căng thẳng tồn tại trong việc quản lý mạng lưới Bitcoin. Mặc dù Bitcoin Core hiện là chuỗi chủ đạo, cuộc tranh luận về quản trị và quản lý mạng lưới vẫn tiếp tục.
 
-Ultimately, responsibility is shared among all actors in the Bitcoin network. A decrease in the number of users, nodes, or miners could weaken the network, increasing the risk of centralization and vulnerability to attacks. Each actor contributes to the robustness and security of the network, reinforcing the importance of maintaining a balance of power and responsibility.
+Cuối cùng, trách nhiệm được chia sẻ giữa tất cả các bên trong mạng lưới Bitcoin. Sự giảm số lượng người dùng, nút, hoặc thợ đào có thể làm suy yếu mạng lưới, tăng nguy cơ tập trung hóa và dễ bị tấn công. Mỗi bên đóng góp vào sự vững mạnh và an ninh của mạng lưới, nhấn mạnh tầm quan trọng của việc duy trì cân bằng quyền lực và trách nhiệm.
 
-### The Power of Miners
-Satoshi Nakamoto's elegant game theory established a situation where each actor in the Bitcoin network is incentivized to act correctly to protect both their own interests and those of other participants. This creates a balance where bad behavior can be reprimanded, thus enhancing the security and stability of the entire system. Despite this balance, states remain a potential threat. As indicated in the presentation at Surfing Bitcoin 2022, states can attempt to attack the mining industry, exposing the Bitcoin network to risks of centralization and attack. Hypothetical scenarios such as a military attack targeting mining hardware production facilities highlight the importance of geographical and industrial diversification for the resilience of the Bitcoin network.
+### Quyền Lực của Thợ Đào
+Lý thuyết trò chơi tinh tế của Satoshi Nakamoto đã thiết lập một tình huống nơi mỗi bên trong mạng lưới Bitcoin được khuyến khích hành động đúng đắn để bảo vệ lợi ích của chính họ và của các bên khác. Điều này tạo ra một sự cân bằng nơi hành vi xấu có thể bị phê phán, do đó tăng cường an ninh và ổn định của toàn bộ hệ thống. Mặc dù có sự cân bằng này, các quốc gia vẫn là một mối đe dọa tiềm tàng. Như được chỉ ra trong bài thuyết trình tại Surfing Bitcoin 2022, các quốc gia có thể cố gắng tấn công ngành công nghiệp khai thác, làm lộ mạng lưới Bitcoin trước nguy cơ tập trung hóa và tấn công. Các kịch bản giả định như một cuộc tấn công quân sự nhắm vào các cơ sở sản xuất phần cứng khai thác làm nổi bật tầm quan trọng của sự đa dạng hóa địa lý và công nghiệp cho sự kiên cường của mạng lưới Bitcoin.
 ![image](assets/overview/miner.webp)
 
-The centralization of mining hardware production in China poses another risk. A refusal to export mining machines or an accumulation of hashrate for a potential 51% attack by China underscores the need for diversified mining hardware production. In response to these risks, the Bitcoin community is actively exploring solutions. Companies like Intel are considering producing mining equipment in the United States, contributing to the distribution of production. Other initiatives, such as Block's open-source Mining Development Kit (MDK), aim to decrease the monopoly of mining hardware design and production, allowing for a broader distribution of hashrate. At the heart of these discussions lies Bitcoin's fundamental mission: to be a censorship-resistant value exchange network. The Bitcoin community is constantly striving to strengthen distribution, resistance to censorship, and network anti-fragility, rejecting proposals such as the transition to proof of stake, which do not align with these fundamental principles.
+Sự tập trung sản xuất phần cứng khai thác ở Trung Quốc đặt ra một rủi ro khác. Sự từ chối xuất khẩu máy đào hoặc tích lũy hashrate cho một cuộc tấn công 51% tiềm năng của Trung Quốc nhấn mạnh nhu cầu về sự đa dạng hóa sản xuất phần cứng khai thác. Đáp lại những rủi ro này, cộng đồng Bitcoin đang tích cực tìm kiếm giải pháp. Các công ty như Intel đang xem xét việc sản xuất thiết bị khai thác tại Hoa Kỳ, góp phần vào sự phân phối sản xuất. Các sáng kiến khác, như Bộ Phát Triển Khai Thác mã nguồn mở của Block (MDK), nhằm giảm bớt độc quyền thiết kế và sản xuất phần cứng khai thác, cho phép sự phân phối rộng rãi hơn của hashrate. Tại trung tâm của những cuộc thảo luận này là sứ mệnh cơ bản của Bitcoin: là một mạng lưới trao đổi giá trị chống kiểm duyệt. Cộng đồng Bitcoin không ngừng nỗ lực để tăng cường phân phối, khả năng chống kiểm duyệt, và chống giòn của mạng lưới, từ chối các đề xuất như chuyển sang chứng minh cổ phần, không phù hợp với những nguyên tắc cơ bản này.
 
-### The Physical Link of Proof of Work vs Proof of Stake
+### Mối Liên Kết Vật Lý của Chứng minh Công Việc so với Chứng minh Cổ Phần
+Chứng minh Công việc (PoW) là thiết yếu bởi vì nó đại diện cho mối liên kết vật lý giữa thế giới thực và Bitcoin. Mặc dù bitcoin là không hữu hình, việc sản xuất chúng đòi hỏi năng lượng hữu hình, từ đó thiết lập một kết nối trực tiếp với thế giới vật lý và thực tế. Mối liên kết này đảm bảo rằng việc sản xuất và xác thực bitcoin và các khối có một chi phí năng lượng thực sự, qua đó neo giữ mạng lưới Bitcoin vào thực tại vật lý và ngăn chặn sự thống trị hoàn toàn của nó bởi các thực thể mạnh mẽ. PoW hoạt động như một pháo đài chống lại sự tập trung quyền lực, đảm bảo rằng việc tham gia vào mạng lưới và xác thực giao dịch đòi hỏi sự đầu tư vào các nguồn lực hữu hình. Điều này ngăn chặn sự độc quyền của mạng lưới bởi các thực thể có thể nắm quyền kiểm soát mà không gặp bất kỳ rào cản đáng kể nào, từ đó đảm bảo sự phân phối quyền lực và ảnh hưởng công bằng hơn trong mạng lưới Bitcoin.
 
-Proof of Work (PoW) is essential because it represents the physical link between the real world and Bitcoin. Although bitcoins are intangible, their production requires tangible energy, thus establishing a direct connection with the physical and real world. This connection ensures that the production and validation of bitcoins and blocks have a real energy cost, thereby anchoring the Bitcoin network in physical reality and preventing its complete domination by powerful entities. PoW acts as a bulwark against centralization, ensuring that participation in the network and validation of transactions require an investment in tangible resources. This prevents the monopolization of the network by entities that could otherwise take control without any significant entry barrier, thus ensuring a more equitable distribution of power and influence within the Bitcoin network.
-### The Limitations of Proof of Stake
+### Hạn chế của Chứng minh Cổ phần
 
-On the other hand, Proof of Stake (PoS), although it allows for small-scale participation, does not guarantee equivalent protection against centralization. In a PoS network, those who already hold a large amount of the currency have disproportionate power, reflecting existing power inequalities in society at large. This dynamic could potentially perpetuate centralization and the concentration of power in the hands of a few, contrary to the fundamental distribution objectives of the Bitcoin network. The argument that everyone can participate in PoS, even on a small scale, by joining pools, is not necessarily robust. In a PoW network, even a small contributor, with modest equipment, can actively participate and contribute to the security and distribution of the network.
+Mặt khác, Chứng minh Cổ phần (PoS), mặc dù cho phép sự tham gia ở quy mô nhỏ, không đảm bảo bảo vệ tương đương chống lại sự tập trung quyền lực. Trong một mạng lưới PoS, những người đã sở hữu một lượng lớn tiền tệ có quyền lực không cân xứng, phản ánh sự bất bình đẳng quyền lực hiện có trong xã hội nói chung. Động lực này có thể tiếp tục duy trì sự tập trung và tập trung quyền lực vào tay một số ít người, trái với mục tiêu phân phối cơ bản của mạng lưới Bitcoin. Lập luận rằng mọi người có thể tham gia vào PoS, ngay cả ở quy mô nhỏ, bằng cách tham gia vào các nhóm, không nhất thiết là vững chắc. Trong một mạng lưới PoW, ngay cả một người đóng góp nhỏ, với thiết bị khiêm tốn, cũng có thể tham gia tích cực và đóng góp vào sự an toàn và phân phối của mạng lưới.
 
-### Recap
+### Tóm tắt
 
-To recap, miners fortify the Bitcoin network against censorship by using electricity to compute Bitcoin's proof of work, and are rewarded with new bitcoins and transaction fees. With the professionalization of the industry, various players emerge, playing different roles, from chip creation to the management of mining farms. Additionally, finance also plays a role, exerting control by deciding who survives during different market phases. The issue of centralization persists, with the wealthiest entities potentially dominating the market. However, alternatives are being developed at both the hardware and software levels. It is up to each individual to act and contribute to the distribution of the network. Bitcoin represents an extraordinary opportunity not only in terms of freedom but also energy independence. Despite controversies surrounding its electricity consumption, Bitcoin offers an economic incentive for a transition towards a more rational and abundant use of energy, realizing what was previously an ecological ideal.
+Để tóm tắt, các thợ đào củng cố mạng lưới Bitcoin chống lại sự kiểm duyệt bằng cách sử dụng điện để tính toán chứng minh công việc của Bitcoin, và được thưởng bằng bitcoin mới và phí giao dịch. Với sự chuyên nghiệp hóa của ngành, các bên tham gia khác nhau xuất hiện, đóng vai trò khác nhau, từ việc tạo ra chip đến quản lý các trang trại đào. Ngoài ra, tài chính cũng đóng vai trò, kiểm soát bằng cách quyết định ai sống sót qua các giai đoạn thị trường khác nhau. Vấn đề tập trung quyền lực vẫn tồn tại, với các thực thể giàu có nhất có khả năng thống trị thị trường. Tuy nhiên, các giải pháp thay thế đang được phát triển ở cả cấp độ phần cứng và phần mềm. Mỗi cá nhân đều có trách nhiệm hành động và đóng góp vào sự phân phối của mạng lưới. Bitcoin đại diện cho một cơ hội phi thường không chỉ về tự do mà còn về độc lập năng lượng. Mặc dù có tranh cãi xung quanh việc tiêu thụ điện của nó, Bitcoin cung cấp một động lực kinh tế cho sự chuyển đổi hướng tới việc sử dụng năng lượng hợp lý và dồi dào hơn, hiện thực hóa những lý tưởng sinh thái trước đây.
 
-## Bitcoin Price and Hashrate, a Correlation?
+## Giá Bitcoin và Hashrate, một Mối quan hệ?
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![How to obtain a clean and untouched bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+![Làm thế nào để có được một bitcoin sạch và không bị ảnh hưởng?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
 
-### Hashrate, Price, and Profitability
-The current hash rate, despite Bitcoin's price being at $30,000 compared to its previous peak of $69,000, highlights the tangible link between mining and the real world. Bull market periods lead to a high demand for Bitcoin mining and an increase in machine orders from manufacturers such as Avalon and Bitmain. However, production and delivery are not instantaneous, creating a mismatch between increased demand and later availability. This can lead to machines ordered during a bull market being delivered in a bear market, highlighting a notable asymmetry between a low price and a high hash rate.
-
-This situation also illustrates the resilience of Bitcoin, often assessed based on its price. However, a deeper analysis of Bitcoin's health requires examining its hash rate, which measures the calculations per second in the Bitcoin network. While the price of Bitcoin fluctuates, its cost, linked to the electricity needed to operate mining machines, remains essential for understanding market dynamics. By focusing on cost rather than price, a more consistent perspective on Bitcoin's stability and long-term viability is obtained. Generally, the cost of Bitcoin is proportional to its price, providing a better understanding of price fluctuations and future outlooks.
-
+### Hashrate, Giá, và Lợi nhuận
+Mức hash rate hiện tại, mặc dù giá Bitcoin đang ở mức 30.000 đô la so với đỉnh trước đó là 69.000 đô la, làm nổi bật mối liên kết hữu hình giữa việc đào và thế giới thực. Các giai đoạn thị trường tăng giá dẫn đến nhu cầu cao đối với việc đào Bitcoin và tăng số lượng đơn đặt hàng máy từ các nhà sản xuất như Avalon và Bitmain. Tuy nhiên, việc sản xuất và giao hàng không diễn ra ngay lập tức, tạo ra sự không khớp giữa nhu cầu tăng và sự có sẵn sau này. Điều này có thể dẫn đến việc máy được đặt hàng trong thời kỳ thị trường tăng giá được giao trong thị trường giảm giá, làm nổi bật sự bất đối xứng đáng chú ý giữa giá thấp và hash rate cao.
+Tình huống này cũng minh họa sự kiên cường của Bitcoin, thường được đánh giá dựa trên giá của nó. Tuy nhiên, để phân tích sâu hơn về sức khỏe của Bitcoin cần phải xem xét tới tỷ lệ hash của nó, đo lường số lần tính toán mỗi giây trong mạng lưới Bitcoin. Trong khi giá của Bitcoin biến động, chi phí của nó, liên kết với điện năng cần thiết để vận hành máy đào, vẫn là yếu tố quan trọng để hiểu về động lực thị trường. Bằng cách tập trung vào chi phí thay vì giá, ta có được một cái nhìn nhất quán hơn về sự ổn định và khả năng tồn tại lâu dài của Bitcoin. Nói chung, chi phí của Bitcoin tỷ lệ thuận với giá của nó, cung cấp một hiểu biết tốt hơn về sự biến động giá và triển vọng tương lai.
 ![image](assets/overview/pricevshashrate.webp)
 
-### Hash Rate and Reward
+### Tỷ Lệ Hash và Phần Thưởng
 
-Mining establishes a floor price for Bitcoin, below which miners would sell at a loss. The cost of mining significantly influences the price, as illustrated by the ban on mining in China, where the hash rate and price dropped significantly but were quickly recovered. Focusing solely on the price can be misleading. Studying the cost, via profitability calculators, offers a more balanced perspective. However, the market can behave irrationally, with miners potentially being forced to sell at a loss, potentially lowering the price below the mining cost. To assess the health of Bitcoin and its decentralization, an equation incorporating various factors, such as the number of nodes and the price, could be developed. This approach could provide a more nuanced analysis of Bitcoin compared to discussions based solely on price.
+Việc đào mỏ thiết lập một giá sàn cho Bitcoin, dưới đó các thợ mỏ sẽ bán lỗ. Chi phí đào mỏ ảnh hưởng đáng kể đến giá, như được minh họa bởi lệnh cấm đào mỏ ở Trung Quốc, nơi tỷ lệ hash và giá đã giảm đáng kể nhưng nhanh chóng phục hồi. Chỉ tập trung vào giá có thể gây hiểu lầm. Nghiên cứu chi phí, thông qua các máy tính lợi nhuận, cung cấp một cái nhìn cân bằng hơn. Tuy nhiên, thị trường có thể hành xử một cách phi lý, với việc các thợ mỏ có thể bị buộc phải bán lỗ, có khả năng làm giảm giá xuống dưới chi phí đào mỏ. Để đánh giá sức khỏe của Bitcoin và sự phân quyền của nó, một phương trình bao gồm các yếu tố khác nhau, như số lượng nút và giá, có thể được phát triển. Cách tiếp cận này có thể cung cấp một phân tích tinh tế hơn về Bitcoin so với các cuộc thảo luận chỉ dựa trên giá.
 
-### Mining for Profit or for the Network?
+### Đào để Lợi Nhuận hay cho Mạng Lưới?
 
-The question is profound and encompasses several dimensions of Bitcoin mining. The balance between seeking profit and contributing to the security and distribution of the Bitcoin network is a constant dilemma for miners. The debate continues in the Bitcoin community, with strong arguments on each side.
+Câu hỏi này sâu sắc và bao gồm nhiều khía cạnh của việc đào Bitcoin. Sự cân bằng giữa việc tìm kiếm lợi nhuận và đóng góp vào sự an toàn và phân phối của mạng lưới Bitcoin là một bài toán liên tục đối với các thợ mỏ. Cuộc tranh luận tiếp tục trong cộng đồng Bitcoin, với những lập luận mạnh mẽ từ cả hai phía.
 
-* Mining for profit:
-- For: Miners are naturally attracted to the potential earnings from Bitcoin mining. Investing in expensive mining equipment can be offset by mining rewards and transaction fees, especially when the price of Bitcoin is high.
-- Against: The pursuit of profit can lead to the centralization of hashing power if only a few large companies can afford to invest in high-end mining equipment. Additionally, mining for profit can have a significant environmental impact.
+* Đào để lợi nhuận:
+- Ủng hộ: Các thợ mỏ tự nhiên bị thu hút bởi tiềm năng kiếm được từ việc đào Bitcoin. Đầu tư vào thiết bị đào đắt tiền có thể được bù đắp bởi phần thưởng đào và phí giao dịch, đặc biệt khi giá Bitcoin cao.
+- Chống lại: Việc theo đuổi lợi nhuận có thể dẫn đến sự tập trung quyền lực hash nếu chỉ có một vài công ty lớn có khả năng đầu tư vào thiết bị đào cao cấp. Ngoài ra, việc đào để lợi nhuận có thể gây ra tác động môi trường đáng kể.
 
-* Mining for the network:
- - For: Mining to contribute to the security and decentralization of the Bitcoin network is a noble initiative. It helps strengthen the network's resilience and resist censorship and attacks.
- - Against: Without sufficient financial incentive, it may be difficult for miners to continue supporting the network, especially if they operate at a loss.
+* Đào cho mạng lưới:
+ - Ủng hộ: Đào để đóng góp vào sự an toàn và phân quyền của mạng lưới Bitcoin là một sáng kiến cao cả. Nó giúp tăng cường sự kiên cường của mạng và chống lại kiểm duyệt và tấn công.
+ - Chống lại: Nếu không có đủ động lực tài chính, có thể khó cho các thợ mỏ tiếp tục hỗ trợ mạng, đặc biệt nếu họ hoạt động lỗ.
+Sáng kiến Attakai nhấn mạnh tầm quan trọng của việc đóng góp vào mạng lưới đồng thời cung cấp các giải pháp để làm cho việc đào mỏ trở nên dễ tiếp cận hơn và ít gây hại hơn. Khả năng đào mỏ tại nhà, với thiết bị giá cả phải chăng hơn và các giải pháp giảm ô nhiễm tiếng ồn, có thể giúp dân chủ hóa việc đào Bitcoin. Điều này khuyến khích những người quan tâm đến Bitcoin không chỉ đầu tư và giữ bitcoin mà còn tham gia tích cực vào việc bảo vệ mạng lưới. Bằng cách cung cấp thiết bị đã được kiểm định và hướng dẫn lắp đặt, Attakai làm cho việc bước vào thế giới đào Bitcoin trở nên dễ dàng hơn. Nó cũng khuyến khích sự đổi mới và cải tiến liên tục, mời cộng đồng đóng góp và chia sẻ ý tưởng và kinh nghiệm của họ để cải thiện việc đào mỏ tại nhà. Mô hình Attakai là câu trả lời cho câu hỏi về việc đào để kiếm lợi nhuận hay cho mạng lưới. Đó không chỉ là về việc kiếm lợi nhuận, mà còn về việc tăng cường phân phối và bảo mật của mạng lưới Bitcoin, đồng thời cho phép nhiều người tham gia vào việc đào, học hỏi và hiểu về ngành công nghiệp quan trọng này. Thách thức về một lệnh cấm đào mỏ tiềm năng ở Châu Âu vẫn là một câu hỏi mở. Điều này đặt ra mối quan tâm về tương lai của việc đào Bitcoin trong khu vực và nhu cầu về một quy định cân bằng nhận ra tầm quan trọng của việc đào cho sự an toàn và khả thi của mạng lưới Bitcoin trong khi giải quyết các vấn đề môi trường. Attakai và các sáng kiến tương tự có thể đóng một vai trò quan trọng trong cuộc tranh luận này, cho thấy rằng có thể đào mỏ theo cách bền vững và có trách nhiệm hơn, đồng thời đóng góp tích cực cho mạng lưới Bitcoin.
 
-The Attakai initiative highlights the importance of contributing to the network while offering solutions to make mining more accessible and less harmful. The possibility of mining at home, with more affordable equipment and solutions to reduce noise pollution, can help democratize Bitcoin mining. It encourages those interested in Bitcoin not only to invest and hold bitcoins but also to actively participate in securing the network. By providing tested equipment and guides for assembly and installation, Attakai makes it easier to enter the world of Bitcoin mining. It also encourages innovation and continuous improvements, inviting the community to contribute and share their ideas and experiences to enhance home mining. The Attakai model is an answer to the question of mining for profit or for the network. It's not just about making profits, but also about strengthening the distribution and security of the Bitcoin network, while enabling more people to participate in mining, learn, and understand this crucial industry. The challenge of a potential mining ban in Europe remains an open question. This raises concerns about the future of Bitcoin mining in the region and the need for balanced regulation that recognizes the importance of mining for the security and viability of the Bitcoin network while addressing environmental issues. Attakai and other similar initiatives can play a crucial role in this debate, showing that it is possible to mine in a more sustainable and responsible manner, while positively contributing to the Bitcoin network.
-
-## Sovereignty and Regulation
+## Chủ quyền và Quy định
 <chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
 
-### Sovereignty Before Profit?
-To address the crucial issue of wealth through mining, it is important to consider various perspectives and approaches. Questions about the profitability of mining are common, with inquiries surrounding the purchase of shares in companies like Riot or the leasing of mining machines in countries with low energy costs such as Iceland or Russia. Before venturing into mining, a key consideration would be to compare the profitability of mining to the direct purchase of Bitcoin. If the cost of mining a Bitcoin exceeds the cost of buying it directly, it is generally wiser to purchase the Bitcoin directly. This avoids the multiple challenges and costs associated with the mining process.
+### Chủ quyền Trước Lợi nhuận?
+Để giải quyết vấn đề quan trọng về sự giàu có thông qua việc đào mỏ, điều quan trọng là cần xem xét các quan điểm và cách tiếp cận khác nhau. Các câu hỏi về khả năng sinh lời của việc đào mỏ là phổ biến, với các thắc mắc xung quanh việc mua cổ phần trong các công ty như Riot hoặc việc thuê máy đào mỏ ở các quốc gia có chi phí năng lượng thấp như Iceland hoặc Nga. Trước khi lao vào việc đào mỏ, một điều cần xem xét là so sánh lợi nhuận từ việc đào mỏ với việc mua trực tiếp Bitcoin. Nếu chi phí đào một Bitcoin vượt quá chi phí mua nó trực tiếp, thì việc mua trực tiếp Bitcoin thường là lựa chọn khôn ngoan hơn. Điều này tránh được nhiều thách thức và chi phí liên quan đến quá trình đào mỏ.
 
-However, mining offers unique avenues to get involved in the Bitcoin ecosystem. For example, mining Bitcoin in winter can be a clever way to heat your home while generating Bitcoin revenue. Another option is to invest in companies that sell mining equipment and store and manage the machines in locations with low energy costs, thus providing access to favorable electricity rates without the hassle of managing the equipment.
+Tuy nhiên, việc đào mỏ mang lại những cơ hội độc đáo để tham gia vào hệ sinh thái Bitcoin. Ví dụ, việc đào Bitcoin vào mùa đông có thể là một cách thông minh để sưởi ấm nhà bạn trong khi tạo ra doanh thu Bitcoin. Một lựa chọn khác là đầu tư vào các công ty bán thiết bị đào mỏ và lưu trữ và quản lý máy móc ở các địa điểm có chi phí năng lượng thấp, do đó cung cấp quyền truy cập vào các mức giá điện thuận lợi mà không cần phải quản lý thiết bị.
 
-Despite these options, mining presents significant challenges. The well-known adage in the world of cryptocurrencies, "Not your keys, not your Bitcoins," finds a similar resonance in the world of mining: "Not your hashrate, not your reward." Stories of disappointments and disconnected machines are common, with many players promising exceptional results but failing to deliver. Issues with electricity supply and machine breakdowns can leave investors powerless, with expensive equipment they do not control. In this context, caution and a deep understanding of the mining sector are crucial before venturing into it. While opportunities for gains exist, the risks are significant, and an informed and thoughtful approach is essential for navigating this complex and often unpredictable field. It is therefore vital to conduct thorough research and carefully weigh the pros and cons before engaging in Bitcoin mining.
+Mặc dù có những lựa chọn này, việc đào mỏ vẫn đặt ra những thách thức đáng kể. Ngạn ngữ nổi tiếng trong thế giới tiền mã hóa, "Không phải chìa khóa của bạn, không phải Bitcoin của bạn," tìm thấy sự cộng hưởng tương tự trong thế giới đào mỏ: "Không phải hashrate của bạn, không phải phần thưởng của bạn." Câu chuyện về sự thất vọng và máy móc bị ngắt kết nối là phổ biến, với nhiều người chơi hứa hẹn kết quả ngoại lệ nhưng không thể thực hiện. Các vấn đề về nguồn cung cấp điện và hỏng máy có thể khiến nhà đầu tư bất lực, với thiết bị đắt tiền mà họ không kiểm soát được. Trong bối cảnh này, sự thận trọng và hiểu biết sâu sắc về ngành đào mỏ là rất quan trọng trước khi lao vào nó. Mặc dù có cơ hội để đạt được lợi nhuận, nhưng rủi ro là đáng kể, và một cách tiếp cận thông tin và suy nghĩ cẩn thận là cần thiết để điều hướng qua lĩnh vực phức tạp và thường không dự đoán được này. Do đó, việc tiến hành nghiên cứu kỹ lưỡng và cân nhắc cẩn thận các ưu và nhược điểm trước khi tham gia vào việc đào Bitcoin là rất quan trọng.
 
-![image](assets/overview/self.webp)
+![hình ảnh](assets/overview/self.webp)
 
 ### Virgin Bitcoins
-The aspiration to own one's own hashrate appears as a promising path in the world of mining. However, navigating this complex ecosystem requires a cautious approach. The field of cloud mining is marked by a large number of scams, fueled by a lack of understanding of mining from many investors. Attractive offers, packaged in various ways, can easily mislead those who are not sufficiently informed. On the other hand, owning your own mining equipment offers considerable advantages. Besides the personal satisfaction of actively contributing to the security of the Bitcoin network and seeing rewards fall into your wallet, there is the appealing aspect of "virgin bitcoins." These are freshly mined bitcoins, which have never been spent and have no history attached to them. These bitcoins are often considered more valuable because they have never been "tainted," offering a certain guarantee against rejection by regulators or major exchange platforms.
+Khát vọng sở hữu hashrate của riêng mình xuất hiện như một con đường hứa hẹn trong thế giới khai thác mỏ. Tuy nhiên, việc điều hướng trong hệ sinh thái phức tạp này đòi hỏi một cách tiếp cận thận trọng. Lĩnh vực khai thác mây được đánh dấu bởi một số lượng lớn các vụ lừa đảo, do thiếu hiểu biết về khai thác từ nhiều nhà đầu tư. Những lời đề nghị hấp dẫn, được đóng gói theo nhiều cách khác nhau, có thể dễ dàng làm hiểu lầm những người không được thông tin đầy đủ. Mặt khác, việc sở hữu thiết bị khai thác của riêng bạn mang lại nhiều lợi ích đáng kể. Ngoài sự hài lòng cá nhân khi đóng góp tích cực vào việc bảo mật mạng Bitcoin và thấy phần thưởng rơi vào ví của mình, còn có khía cạnh hấp dẫn của "bitcoin nguyên sơ." Đây là những bitcoin mới được khai thác, chưa bao giờ được chi tiêu và không có lịch sử gắn liền với chúng. Những bitcoin này thường được coi là có giá trị hơn vì chúng chưa bao giờ bị "ô nhiễm," mang lại một sự đảm bảo nhất định chống lại sự từ chối của các cơ quan quản lý hoặc các nền tảng giao dịch lớn.
 
-The possibility of mining virgin bitcoins while avoiding Know Your Customer (KYC) procedures is another added value. Many mining pools do not require the identity of miners, thus allowing the acquisition of bitcoins without undergoing tedious identity checks. Virgin bitcoins are perceived as "clean," bearing no past history or association. They are particularly sought after by large institutional players who can guarantee the legitimacy of their digital assets in the face of regulatory authorities. However, despite these advantages, it is crucial to recognize that the mining industry remains extremely competitive and volatile, and unforeseen incidents can disrupt mining operations.
+Khả năng khai thác bitcoin nguyên sơ mà tránh được các thủ tục Know Your Customer (KYC) là một giá trị gia tăng khác. Nhiều nhóm khai thác không yêu cầu danh tính của người khai thác, do đó cho phép việc thu thập bitcoin mà không cần trải qua các kiểm tra danh tính mệt mỏi. Bitcoin nguyên sơ được cảm nhận là "sạch," không mang theo lịch sử hay liên kết nào trước đó. Chúng đặc biệt được các nhà đầu tư tổ chức lớn tìm kiếm, những người có thể đảm bảo tính hợp pháp của tài sản số của họ trước các cơ quan quản lý. Tuy nhiên, mặc dù có những lợi ích này, điều quan trọng là phải nhận ra rằng ngành công nghiệp khai thác vẫn cực kỳ cạnh tranh và biến động, và các sự cố không lường trước được có thể làm gián đoạn hoạt động khai thác.
 
-In this context, choosing an autonomous and educated approach to mining appears wise. Acquiring one's own hashrate and investing in personal mining equipment, while remaining aware of the risks and challenges, can potentially offer a safer and more satisfying path to acquiring virgin bitcoins, thus enhancing the financial sovereignty of the individual while supporting the Bitcoin ecosystem as a whole.
+Trong bối cảnh này, việc chọn một cách tiếp cận tự chủ và có kiến thức về khai thác là khôn ngoan. Sở hữu hashrate của riêng mình và đầu tư vào thiết bị khai thác cá nhân, trong khi vẫn ý thức được các rủi ro và thách thức, có thể cung cấp một con đường an toàn và thỏa mãn hơn để thu thập bitcoin nguyên sơ, từ đó nâng cao chủ quyền tài chính của cá nhân trong khi hỗ trợ toàn bộ hệ sinh thái Bitcoin.
 
-### Is mining banned in Europe?
-With the issue of the potential ban on mining in Europe, discussions about regulation are becoming increasingly relevant. The fluctuating regulatory landscape can indeed significantly influence the Bitcoin mining industry. The ban on mining in Europe is a conceivable scenario, especially considering precedents in China. Although mining operations continue in China despite the ban, Europe could follow a similar path. A broader distribution of the hashrate across different regions could help strengthen the mining community in Europe, enabling them to effectively counter misunderstandings and misconceptions about mining, its environmental impact, and its footprint on the electrical grid.
-![image](assets/overview/regulation.webp)
+### Khai thác có bị cấm ở Châu Âu không?
+Với vấn đề về khả năng cấm khai thác ở Châu Âu, các cuộc thảo luận về quy định trở nên ngày càng liên quan. Bối cảnh quy định biến động có thể ảnh hưởng đáng kể đến ngành công nghiệp khai thác Bitcoin. Lệnh cấm khai thác ở Châu Âu là một kịch bản có thể xảy ra, đặc biệt là khi xem xét các tiền lệ ở Trung Quốc. Mặc dù hoạt động khai thác tiếp tục diễn ra ở Trung Quốc bất chấp lệnh cấm, Châu Âu có thể theo một con đường tương tự. Sự phân bổ rộng rãi hơn của hashrate qua các khu vực khác nhau có thể giúp củng cố cộng đồng khai thác ở Châu Âu, cho phép họ hiệu quả chống lại những hiểu lầm và quan niệm sai lầm về khai thác, tác động môi trường của nó, và dấu chân trên lưới điện.
 
-Faced with campaigns like those of Greenpeace and the often misleading figures from some studies, the best weapon remains truthful information. It is essential to inform the general public and decision-makers about the reality of mining, its complexity, and its nuances, rather than letting them rely on stereotypes and inaccurate information. The more people are informed and aware of what mining truly is, the better the industry can defend itself against potential restrictive regulations.
+Đối mặt với các chiến dịch như của Greenpeace và những con số thường gây hiểu lầm từ một số nghiên cứu, vũ khí tốt nhất vẫn là thông tin chân thực. Việc thông tin cho công chúng và các nhà quyết định về thực tế của việc khai thác, sự phức tạp và các nét tinh tế của nó, thay vì để họ dựa vào các khuôn mẫu và thông tin không chính xác, là điều cần thiết. Càng nhiều người được thông tin và ý thức về khai thác thực sự là gì, ngành công nghiệp càng có thể tự vệ chống lại các quy định hạn chế tiềm năng.
 
-In conclusion, despite the regulatory risk and the possibility of a mining ban in Europe, the most powerful weapon remains education and information. A clear and precise understanding of mining, how it works, and its impact can help demystify the industry and fight against misinformation, thus offering better resistance to potentially damaging regulations. The initiative to train and inform people about mining, as this discussion does, is a step in the right direction to ensure the sustainability and growth of mining in Europe, and around the world. Continuous efforts to educate and inform are essential to ensure a safe and prosperous future for the Bitcoin mining industry.
+Kết luận, mặc dù có rủi ro quy định và khả năng cấm khai thác ở Châu Âu, vũ khí mạnh mẽ nhất vẫn là giáo dục và thông tin. Sự hiểu biết rõ ràng và chính xác về khai thác, cách thức hoạt động và tác động của nó có thể giúp làm sáng tỏ ngành công nghiệp và chống lại thông tin sai lệch, từ đó cung cấp khả năng chống chịu tốt hơn trước các quy định có thể gây hại. Sáng kiến đào tạo và thông tin cho mọi người về khai thác, như cuộc thảo luận này, là một bước đi đúng hướng để đảm bảo sự bền vững và phát triển của việc khai thác ở Châu Âu và trên toàn thế giới. Nỗ lực liên tục để giáo dục và thông tin là cần thiết để đảm bảo một tương lai an toàn và thịnh vượng cho ngành công nghiệp khai thác Bitcoin.
 
-## Interview with a mining industry professional
+## Phỏng vấn với một chuyên gia ngành công nghiệp khai thác
 <chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
 
-### Behind the Scenes of Industrial Mining - Sebastien Gouspillou
-
-![Behind the Scenes of Industrial Mining - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
-
-# Home mining and heat reuse
+### Hậu trường của Khai thác Công nghiệp - Sebastien Gouspillou
+![Hậu trường của Khai thác Công nghiệp - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+# Khai thác tại nhà và tái sử dụng nhiệt
 <partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
 
-## Attakai - making home mining possible and accessible!
+## Attakai - làm cho việc khai thác tại nhà trở nên khả thi và dễ tiếp cận!
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, which means "the ideal temperature" in Japanese, is the name of the initiative aimed at discovering bitcoin mining through heat reuse launched by @ajelexBTC and @jimzap21 with Découvre Bitcoin.
-This ASIC retrofitting guide will serve as a basis for learning more about mining, its operation, and the underlying economy by demonstrating the possibility of adapting a Bitcoin miner for use as radiators in homes. This offers more comfort and savings, allowing participants to receive non-KYC BTC cash back on their electric heating bill.
+Attakai, có nghĩa là "nhiệt độ lý tưởng" trong tiếng Nhật, là tên của sáng kiến nhằm khám phá việc khai thác bitcoin thông qua việc tái sử dụng nhiệt được khởi xướng bởi @ajelexBTC và @jimzap21 với Découvre Bitcoin.
+Hướng dẫn cải tiến ASIC này sẽ là cơ sở để tìm hiểu thêm về khai thác, cách hoạt động và nền kinh tế cơ bản bằng cách chứng minh khả năng thích ứng một máy đào Bitcoin để sử dụng như là bộ tản nhiệt trong nhà. Điều này mang lại nhiều sự thoải mái và tiết kiệm, cho phép người tham gia nhận lại tiền mặt BTC không cần KYC trên hóa đơn sưởi điện của họ.
 
-Bitcoin automatically adjusts the mining difficulty and rewards miners for their participation. However, the concentration of hashrate can pose risks to the neutrality of the network. Using Bitcoin's computing power for heating solutions directly benefits the network itself by increasing the distribution of computing power.
+Bitcoin tự động điều chỉnh độ khó của việc khai thác và thưởng cho các thợ đào vì sự tham gia của họ. Tuy nhiên, sự tập trung của hashrate có thể đặt ra rủi ro cho tính trung lập của mạng. Sử dụng sức mạnh tính toán của Bitcoin cho các giải pháp sưởi ấm trực tiếp mang lại lợi ích cho chính mạng lưới bằng cách tăng cường phân phối sức mạnh tính toán.
 
-### Why reuse the heat from an ASIC?
+### Tại sao tái sử dụng nhiệt từ một ASIC?
 
-It is important to understand the relationship between energy and heat production in an electrical system.
+Quan trọng là phải hiểu mối quan hệ giữa năng lượng và sản xuất nhiệt trong một hệ thống điện.
 
-For an investment of 1 kW of electrical energy, an electric radiator produces 1 kW of heat, no more, no less. New radiators are not more efficient than traditional radiators. Their advantage lies in their ability to continuously and evenly distribute heat in a room, providing more comfort compared to traditional radiators that alternate between high heating power and no heating, thus generating regular temperature variations and discomfort.
+Với một khoản đầu tư 1 kW năng lượng điện, một bộ tản nhiệt điện sản xuất 1 kW nhiệt, không nhiều hơn, không ít hơn. Bộ tản nhiệt mới không hiệu quả hơn bộ tản nhiệt truyền thống. Ưu điểm của chúng nằm ở khả năng phân phối nhiệt liên tục và đều đặn trong một phòng, mang lại sự thoải mái hơn so với bộ tản nhiệt truyền thống thay đổi giữa công suất sưởi cao và không sưởi, do đó tạo ra sự biến đổi nhiệt độ thường xuyên và sự không thoải mái.
 
-A computer, or more broadly an electronic board, does not consume energy to perform calculations, it simply needs energy to flow through its components to function. Energy consumption is due to the electrical resistance of the components, which produces losses and generates heat, known as the Joule effect.
+Một máy tính, hoặc rộng hơn là một bảng điện tử, không tiêu thụ năng lượng để thực hiện các phép tính, nó chỉ cần năng lượng chảy qua các thành phần của nó để hoạt động. Việc tiêu thụ năng lượng là do điện trở của các thành phần, tạo ra tổn thất và sinh ra nhiệt, được biết đến là hiệu ứng Joule.
 
-Some companies have come up with the idea of combining computing power needs with heating needs through radiator/servers. The idea is to distribute a company's servers into small units that could be placed in homes or offices. However, this idea faces several problems. The need for servers is not related to the need for heating, and companies cannot use the computing capabilities of their servers flexibly. There are also limits to the bandwidth that individuals can have. All these constraints prevent the company from making these expensive installations profitable or providing a stable online server offering without data centers that can take over when heating is not needed.
-"The heat generated by your computer is not wasted if you need to heat your home. If you use electric heating where you live, then the heat from your computer is not wasted. It costs the same to generate this heat with your computer. If you have a cheaper heating system than electric heating, then the waste is only in the cost difference. If it's summer and you use air conditioning, then it's double the waste. Bitcoin mining should take place where it is cheaper. Maybe it will be where the climate is cold and where heating is electric, where mining will become free."
-> Satoshi Nakamoto - August 8, 2010
+Một số công ty đã nghĩ ra ý tưởng kết hợp nhu cầu về sức mạnh tính toán với nhu cầu về sưởi ấm thông qua bộ tản nhiệt/máy chủ. Ý tưởng là phân phối máy chủ của một công ty thành các đơn vị nhỏ có thể được đặt trong nhà hoặc văn phòng. Tuy nhiên, ý tưởng này đối mặt với một số vấn đề. Nhu cầu về máy chủ không liên quan đến nhu cầu về sưởi ấm, và các công ty không thể sử dụng linh hoạt khả năng tính toán của máy chủ của họ. Cũng có giới hạn về băng thông mà cá nhân có thể có. Tất cả những ràng buộc này ngăn công ty làm cho những lắp đặt đắt đỏ này có lợi nhuận hoặc cung cấp một dịch vụ máy chủ trực tuyến ổn định mà không cần đến trung tâm dữ liệu có thể tiếp quản khi không cần sưởi ấm.
+"Nhiệt sinh ra từ máy tính của bạn không phải là lãng phí nếu bạn cần sưởi ấm nhà bạn. Nếu bạn sử dụng sưởi điện nơi bạn sống, thì nhiệt từ máy tính của bạn không phải là lãng phí. Chi phí để tạo ra nhiệt này với máy tính của bạn là như nhau. Nếu bạn có hệ thống sưởi rẻ hơn sưởi điện, thì sự lãng phí chỉ nằm ở sự chênh lệch chi phí. Nếu là mùa hè và bạn sử dụng điều hòa, thì đó là sự lãng phí gấp đôi. Việc khai thác Bitcoin nên được thực hiện ở nơi rẻ hơn. Có thể đó sẽ là nơi có khí hậu lạnh và nơi sưởi ấm bằng điện, nơi mà việc khai thác sẽ trở nên miễn phí."
+> Satoshi Nakamoto - Ngày 8 tháng 8 năm 2010
+Bitcoin và hệ thống chứng minh công việc (proof of work) của nó nổi bật bởi khả năng tự động điều chỉnh độ khó của việc đào dựa trên lượng tính toán được thực hiện bởi toàn bộ mạng lưới. Lượng này được gọi là hashrate và được biểu thị bằng số hash mỗi giây. Hiện nay, nó được ước tính là 380 exahash mỗi giây, tức là 380 tỷ tỷ hash mỗi giây. Hashrate này đại diện cho công việc và do đó là một lượng năng lượng đã tiêu thụ. Hashrate càng cao thì độ khó càng lớn, và ngược lại. Do đó, một máy đào Bitcoin có thể được kích hoạt hoặc ngừng hoạt động bất kỳ lúc nào mà không ảnh hưởng đến mạng lưới, không giống như các máy chủ/radiators cần phải duy trì ổn định để cung cấp dịch vụ của mình. Người đào được thưởng cho sự tham gia của họ, tương đối với người khác, dù nó có thể nhỏ bé đến mức nào.
 
-Bitcoin and its proof of work stand out because they automatically adjust the mining difficulty based on the amount of computation performed by the entire network. This amount is called the hashrate and is expressed in hashes per second. Today it is estimated at 380 exahashes per second, which is 380 billion billion hashes per second. This hashrate represents work and therefore an amount of energy expended. The higher the hashrate, the higher the difficulty, and vice versa. Thus, a Bitcoin miner can be activated or deactivated at any time without affecting the network, unlike radiators/servers that need to remain stable to provide their service. The miner is rewarded for their participation, relative to others, no matter how small it may be.
+Tóm lại, một bộ sưởi điện và một máy đào Bitcoin đều sản xuất ra 1 kW nhiệt độ cho 1 kW điện tiêu thụ. Tuy nhiên, người đào còn nhận được bitcoin như một phần thưởng. Bất kể giá điện, giá bitcoin, hay sự cạnh tranh trong hoạt động đào Bitcoin trên mạng lưới, việc sưởi ấm bằng máy đào là kinh tế hơn so với sử dụng bộ sưởi điện.
 
-In summary, an electric radiator and a Bitcoin miner both produce 1 kW of heat for 1 kW of electricity consumed. However, the miner also receives bitcoins as a reward. Regardless of the price of electricity, the price of bitcoin, or the competition in Bitcoin mining activity on the network, it is economically more advantageous to heat with a miner rather than an electric radiator.
+### Giá trị gia tăng cho Bitcoin
 
-### The added value for Bitcoin
+Điều quan trọng cần hiểu là việc đào mỏ góp phần như thế nào vào việc phân cấp của Bitcoin.
+Một số công nghệ hiện có đã được kết hợp một cách tài tình để đưa ra sự đồng thuận của Nakamoto. Sự đồng thuận này kinh tế thưởng cho những người tham gia trung thực vì đóng góp của họ vào hoạt động của mạng lưới Bitcoin, đồng thời làm giảm khả năng của những người tham gia không trung thực. Đây là một trong những điểm chính cho phép mạng lưới tồn tại một cách bền vững.
+Những người chơi trung thực, những người đào theo quy tắc, đều cạnh tranh với nhau để nhận được phần thưởng lớn nhất có thể cho việc sản xuất các khối mới. Động lực kinh tế này tự nhiên dẫn đến một hình thức tập trung khi các công ty chọn chuyên môn hóa vào hoạt động kinh doanh này bằng cách giảm chi phí thông qua quy mô kinh tế. Những người chơi công nghiệp này có vị trí thuận lợi trong việc mua và bảo trì máy móc, cũng như thương lượng giá điện bán buôn.
 
-What is important to understand is how mining contributes to the decentralization of Bitcoin.
-Several existing technologies have been ingeniously combined to bring Nakamoto's consensus to life. This consensus economically rewards honest participants for their contribution to the operation of the Bitcoin network, while discouraging dishonest participants. This is one of the key points that allows the network to exist sustainably.
-Honest actors, those who mine according to the rules, are all competing with each other to obtain the largest possible share of the reward for producing new blocks. This economic incentive naturally leads to a form of centralization as companies choose to specialize in this lucrative activity by reducing their costs through economies of scale. These industrial actors have an advantageous position for purchasing and maintaining machines, as well as negotiating wholesale electricity rates.
-
-> "At first, most users would run network nodes, but as the network grows beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. A server farm would only need to have one node on the network and the rest of the LAN connects to that node."
+> "Ban đầu, hầu hết người dùng sẽ chạy các nút mạng, nhưng khi mạng phát triển vượt qua một điểm nhất định, nó sẽ càng ngày càng được để lại cho các chuyên gia với các trang trại máy chủ của phần cứng chuyên dụng. Một trang trại máy chủ chỉ cần có một nút trên mạng và phần còn lại của LAN kết nối với nút đó."
 >
-> - Satoshi Nakamoto - November 2, 2008
+> - Satoshi Nakamoto - Ngày 2 tháng 11 năm 2008
 
-Certain entities hold a considerable percentage of the total hashrate in large mining farms. We can observe the recent cold wave in the United States where a significant portion of the hashrate was taken offline to redirect energy to households with an exceptional need for electricity. For several days, miners were economically incentivized to shut down their farms, and this exceptional weather can be seen on the Bitcoin hashrate curve.
+Một số thực thể nắm giữ một phần trăm đáng kể của tổng hashrate trong các trang trại đào lớn. Chúng ta có thể quan sát đợt sóng lạnh gần đây ở Hoa Kỳ nơi một phần lớn hashrate đã bị ngắt kết nối để chuyển hướng năng lượng cho các hộ gia đình có nhu cầu điện khẩn cấp. Trong vài ngày, các thợ đào được khuyến khích kinh tế để tắt trang trại của họ, và thời tiết bất thường này có thể được thấy trên đường cong hashrate của Bitcoin.
 
-This issue could become problematic and poses a significant risk to the neutrality of the network. An actor with more than 51% of the hashrate could more easily censor transactions if they wished. That is why it is important to distribute the hashrate among multiple actors rather than centralized entities that could be more easily seized by a government, for example.
+Vấn đề này có thể trở nên phức tạp và đặt ra một rủi ro đáng kể đối với tính trung lập của mạng. Một diễn viên với hơn 51% hashrate có thể dễ dàng kiểm duyệt giao dịch nếu họ muốn. Đó là lý do tại sao việc phân phối hashrate giữa nhiều diễn viên hơn thay vì các thực thể tập trung có thể dễ dàng bị một chính phủ chiếm đoạt, chẳng hạn.
 
-**If miners are distributed in thousands, or even millions, of households around the world, it becomes very difficult for a state to take control of them.**
+**Nếu các thợ đào được phân phối trong hàng nghìn, hoặc thậm chí hàng triệu, hộ gia đình trên khắp thế giới, việc rất khó cho một quốc gia kiểm soát chúng.**
 
-When it comes out of the factory, a miner is not suitable for use as a heater in a home, due to two main problems: excessive noise and lack of adjustment. However, these problems can be easily solved through hardware and software modifications, allowing for a much quieter miner that can be configured and automated like modern electric heaters.
+Khi ra khỏi nhà máy, một máy đào không phù hợp để sử dụng làm bộ sưởi trong nhà, do hai vấn đề chính: tiếng ồn quá mức và thiếu khả năng điều chỉnh. Tuy nhiên, những vấn đề này có thể được giải quyết một cách dễ dàng thông qua các thay đổi phần cứng và phần mềm, cho phép có một máy đào yên tĩnh hơn có thể được cấu hình và tự động hóa như các bộ sưởi điện hiện đại.
 
-**Attakaï is an educational initiative that teaches you how to retrofit the Antminer S9 in the most cost-effective way.**
-
-This is an excellent opportunity to learn by practicing while being rewarded for your participation with KYC-free satoshis.
-
-## Buying Guide for a Used ASIC
+**Attakaï là một sáng kiến giáo dục dạy bạn cách nâng cấp Antminer S9 một cách tiết kiệm chi phí nhất.**
+Đây là một cơ hội tuyệt vời để học hỏi thông qua việc thực hành trong khi được thưởng cho sự tham gia của bạn bằng satoshis không cần KYC.
+## Hướng Dẫn Mua Máy ASIC Cũ
 <chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
-In this section, we will discuss best practices for purchasing a used Bitmain Antminer S9, the machine on which this radiator retrofitting tutorial will be based. This guide also applies to other models of ASICs as it is a general buying guide for used mining hardware.
+Trong phần này, chúng tôi sẽ thảo luận về các phương pháp tốt nhất khi mua một Bitmain Antminer S9 cũ, máy sẽ được sử dụng làm cơ sở cho hướng dẫn nâng cấp bộ tản nhiệt này. Hướng dẫn này cũng áp dụng cho các mô hình ASIC khác vì đây là một hướng dẫn mua hàng cũ chung cho phần cứng đào.
 
-The Antminer S9 is a device offered by Bitmain since May 2016. It consumes 1400W of electricity and produces 13.5 TH/s. Although it is considered old, it remains an excellent option for starting mining. Since it has been produced in large quantities, it is easy to find spare parts abundantly in many regions of the world. It can generally be acquired peer-to-peer on sites such as eBay or LeBonCoin, as professional resellers no longer offer it due to its lower competitiveness compared to newer machines. It is less efficient than ASICs like the Antminer S19, offered since March 2020, but this makes it an affordable used hardware and more suitable for the modifications we will make.
+Antminer S9 là thiết bị do Bitmain cung cấp từ tháng 5 năm 2016. Nó tiêu thụ 1400W điện năng và sản xuất 13.5 TH/s. Mặc dù được coi là cũ, nhưng nó vẫn là một lựa chọn xuất sắc để bắt đầu đào. Vì đã được sản xuất với số lượng lớn, nên việc tìm kiếm phụ tùng thay thế dễ dàng ở nhiều khu vực trên thế giới. Nói chung, máy này có thể được mua qua người bán trực tiếp trên các trang web như eBay hoặc LeBonCoin, vì các nhà bán lẻ chuyên nghiệp không còn cung cấp nó do tính cạnh tranh thấp hơn so với các máy mới hơn. Nó kém hiệu quả hơn so với ASICs như Antminer S19, được cung cấp từ tháng 3 năm 2020, nhưng điều này làm cho nó trở thành phần cứng cũ giá cả phải chăng và phù hợp hơn cho các sửa đổi mà chúng tôi sẽ thực hiện.
 
-The Antminer S9 comes in several variations (i, j) that make minor modifications to the first-generation hardware. We do not believe that this should influence your purchasing decision, and this guide works for all these variations.
+Antminer S9 có một số biến thể (i, j) tạo ra những thay đổi nhỏ cho phần cứng thế hệ đầu tiên. Chúng tôi không cho rằng điều này nên ảnh hưởng đến quyết định mua của bạn, và hướng dẫn này áp dụng cho tất cả các biến thể này.
 
-The price of ASICs varies depending on many factors such as the price of bitcoin, network difficulty, machine efficiency, and electricity cost. Therefore, it is difficult to give an accurate estimate for the purchase of a used machine. In February 2023, the expected price in France generally ranges from €100 to €200, but these prices are subject to change rapidly.
+Giá của ASICs thay đổi tùy thuộc vào nhiều yếu tố như giá bitcoin, độ khó của mạng, hiệu quả máy móc, và chi phí điện. Do đó, việc đưa ra một ước lượng chính xác cho việc mua một máy cũ là khó khăn. Vào tháng 2 năm 2023, giá dự kiến ở Pháp thường dao động từ €100 đến €200, nhưng những giá này có thể thay đổi nhanh chóng.
 
 ![image](assets/guide-achat/1.webp)
 
-The Antminer S9 is composed of the following parts:
+Antminer S9 bao gồm các bộ phận sau:
 
-- 3 hashboards that contain the chips that produce the hashing power.
+- 3 bảng hash chứa các chip sản xuất sức mạnh hash.
 
 ![image](assets/guide-achat/2.webp)
 
-- A control board that includes a slot for an SD card, an Ethernet port, and connectors for the hashboards and fans. This is the brain of your ASIC.
+- Một bảng điều khiển bao gồm một khe cắm cho thẻ SD, cổng Ethernet, và các kết nối cho bảng hash và quạt. Đây là bộ não của ASIC của bạn.
 
 ![image](assets/guide-achat/3.webp)
 
-- 3 data cables that connect the hashboards to the control board.
+- 3 cáp dữ liệu kết nối bảng hash với bảng điều khiển.
 
 ![image](assets/guide-achat/4.webp)
 
-- The power supply, which operates on 220V and can be plugged in like a regular household appliance.
+- Nguồn cung cấp điện, hoạt động trên 220V và có thể được cắm như một thiết bị gia dụng thông thường.
 
 ![image](assets/guide-achat/5.webp)
 
-- 2 120mm fans.
+- 2 quạt 120mm.
 
 ![image](assets/guide-achat/6.webp)
 
-- A male C13 cable.
+- Một cáp nam C13.
 
 ![image](assets/guide-achat/7.webp)
 
-When buying a used machine, it is important to check that all parts are included and functional. During the exchange, you should ask the seller to turn on the machine to check its proper functioning. It is important to verify that the device turns on correctly, and then check the internet connectivity by plugging in an Ethernet cable and accessing the Bitmain login interface via a web browser on the same local network. You can find this IP address by connecting to your internet router interface and looking for connected devices. This address should have the following format: 192.168.x.x
+Khi mua một máy cũ, điều quan trọng là phải kiểm tra xem tất cả các bộ phận có được bao gồm và hoạt động không. Trong quá trình giao dịch, bạn nên yêu cầu người bán bật máy để kiểm tra sự hoạt động đúng đắn của nó. Quan trọng là phải xác minh rằng thiết bị bật đúng cách, sau đó kiểm tra kết nối internet bằng cách cắm cáp Ethernet và truy cập giao diện đăng nhập Bitmain qua trình duyệt web trên cùng một mạng địa phương. Bạn có thể tìm địa chỉ IP này bằng cách kết nối với giao diện router internet của bạn và tìm kiếm các thiết bị đã kết nối. Địa chỉ này nên có định dạng sau: 192.168.x.x
 
 ![image](assets/guide-achat/8.webp)
-
-Also, check that the default credentials work (username: root, password: root). If the default credentials do not work, you will need to reset the machine.
-
+Hãy kiểm tra xem thông tin đăng nhập mặc định có hoạt động không (tên đăng nhập: root, mật khẩu: root). Nếu thông tin đăng nhập mặc định không hoạt động, bạn sẽ cần phải khởi động lại máy.
 ![image](assets/guide-achat/9.webp)
 
-Once connected, you should be able to see the status of each hashboard on the dashboard. If the miner is connected to a pool, you should see all the hashboards functioning. It is important to note that miners make a lot of noise, which is normal. Also, make sure the fans are working properly.
+Khi đã kết nối, bạn sẽ có thể xem trạng thái của từng bảng hash trên bảng điều khiển. Nếu máy đào được kết nối với một nhóm đào, bạn sẽ thấy tất cả các bảng hash đang hoạt động. Điều quan trọng cần lưu ý là máy đào tạo ra rất nhiều tiếng ồn, điều này là bình thường. Ngoài ra, hãy chắc chắn rằng quạt đang hoạt động đúng cách.
 
-You can then remove the previous owner's mining pool to set up your own later. If you wish, you can also inspect the hashboards by disassembling the machine. However, this step is more complex and requires more time and some tools. If you want to proceed with this disassembly, you can refer to the next part of this tutorial that details how to do it. It is important to note that miners collect a lot of dust and require regular maintenance. You can observe this dust accumulation and the quality of maintenance by disassembling the machine.
-After reviewing all these points, you can buy your machine with a high degree of confidence. If in doubt, consult the community.
+Sau đó, bạn có thể loại bỏ nhóm đào của chủ sở hữu trước để thiết lập nhóm đào của riêng bạn sau này. Nếu bạn muốn, bạn cũng có thể kiểm tra các bảng hash bằng cách tháo máy. Tuy nhiên, bước này phức tạp hơn và đòi hỏi nhiều thời gian cũng như một số công cụ. Nếu bạn muốn tiến hành tháo máy, bạn có thể tham khảo phần tiếp theo của hướng dẫn này, chi tiết cách thực hiện. Điều quan trọng cần lưu ý là máy đào thu thập rất nhiều bụi và đòi hỏi bảo dưỡng định kỳ. Bạn có thể quan sát sự tích tụ bụi và chất lượng bảo dưỡng bằng cách tháo máy.
+Sau khi xem xét tất cả những điểm này, bạn có thể mua máy với một mức độ tự tin cao. Nếu có nghi ngờ, hãy tham khảo ý kiến của cộng đồng.
 
-To summarize this guide in one sentence: **"Don't trust, verify."**
+Tóm tắt hướng dẫn này trong một câu: **"Đừng tin, hãy kiểm chứng."**
 
-[You can also turn to professionals in the reconditioning of mining machines, such as our partner 21energy. They offer tested S9 machines, cleaned and with BraiiinOS+ software already installed. With the affiliate code "decouvre," you will receive a 10% discount on the purchase of an S9 while supporting the Attakai project.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Bạn cũng có thể tìm đến các chuyên gia trong việc tái chế máy đào, như đối tác của chúng tôi 21energy. Họ cung cấp máy S9 đã được kiểm tra, làm sạch và cài đặt sẵn phần mềm BraiiinOS+. Với mã giới thiệu "decouvre," bạn sẽ nhận được mức giảm giá 10% khi mua một S9 đồng thời hỗ trợ dự án Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
-## Guide for purchasing hardware modifications for the S9
+## Hướng dẫn mua sắm phần cứng chỉnh sửa cho S9
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
-Owner of an Antminer S9, you probably know how loud and bulky this equipment can be. However, it is possible to transform it into a silent and connected heater by following a few simple steps. In this section, we will present the necessary equipment to make the modifications.
+Là chủ sở hữu của một Antminer S9, bạn có lẽ biết rằng thiết bị này có thể tạo ra tiếng ồn và cồng kềnh. Tuy nhiên, bạn có thể biến nó thành một bộ sưởi ấm yên tĩnh và kết nối bằng cách thực hiện một số bước đơn giản. Trong phần này, chúng tôi sẽ trình bày thiết bị cần thiết để thực hiện các chỉnh sửa.
 
-If you are a skilled handyman and are looking to transform a miner into a heater, this tutorial is for you. We want to warn you that modifications made to an electronic device can present electrical risks. It is therefore essential to take all necessary precautions to avoid any damage or injury.
+Nếu bạn là một người thợ lành nghề và muốn biến một máy đào thành bộ sưởi ấm, hướng dẫn này dành cho bạn. Chúng tôi muốn cảnh báo bạn rằng việc chỉnh sửa một thiết bị điện tử có thể gây ra rủi ro điện. Do đó, việc lấy tất cả các biện pháp phòng ngừa cần thiết để tránh bất kỳ hư hại hoặc chấn thương nào là rất quan trọng.
 
-1. Replace the fans
+1. Thay thế quạt
 
-The original fans of the Antminer S9 are too noisy to use your Antminer as a heater. The solution is to replace them with quieter fans. Our team has tested several models from the Noctua brand and has selected the Noctua NF-A14 iPPC-2000 PWM as the best compromise. Be sure to choose the 12V version of the fans. This 140mm fan can produce up to 1200W of heating while maintaining a theoretical noise level of 31 dB. To install these 140mm fans, you will need to use a 140mm to 120mm adapter, which you can find on the DécouvreBitcoin store. We will also add 140mm protective grilles.
+Quạt gốc của Antminer S9 quá ồn để sử dụng Antminer của bạn như một bộ sưởi ấm. Giải pháp là thay thế chúng bằng quạt yên tĩnh hơn. Đội ngũ của chúng tôi đã thử nghiệm một số mô hình từ thương hiệu Noctua và đã chọn Noctua NF-A14 iPPC-2000 PWM là sự lựa chọn tốt nhất. Hãy chắc chắn chọn phiên bản 12V của quạt. Quạt 140mm này có thể tạo ra đến 1200W sức nóng trong khi duy trì mức độ ồn lý thuyết là 31 dB. Để lắp đặt những quạt 140mm này, bạn sẽ cần sử dụng bộ chuyển đổi từ 140mm sang 120mm, mà bạn có thể tìm thấy tại cửa hàng DécouvreBitcoin. Chúng tôi cũng sẽ thêm lưới bảo vệ 140mm.
 
 ![image](assets/piece/1.webp)
 ![image](assets/piece/2.webp)
 ![image](assets/piece/3.webp)
-
-The power supply fan is also quite noisy and needs to be replaced. We recommend the Noctua NF-A6x25 PWM. Note that the connectors of the Noctua fans are not the same as the original ones, so you will need a connector adapter to connect them. Two will be enough. Again, make sure to choose the 12V version of the fan.
-
+Quạt nguồn cung cấp cũng khá ồn và cần được thay thế. Chúng tôi khuyến nghị sử dụng quạt Noctua NF-A6x25 PWM. Lưu ý rằng các đầu nối của quạt Noctua không giống với đầu nối gốc, vì vậy bạn sẽ cần một bộ chuyển đổi đầu nối để kết nối chúng. Hai cái là đủ. Một lần nữa, hãy chắc chắn chọn phiên bản 12V của quạt.
 ![image](assets/piece/4.webp)
 ![image](assets/piece/5.webp)
 
-2. Add a WIFI/Ethernet bridge
+2. Thêm cầu nối WIFI/Ethernet
 
-Instead of using an Ethernet cable, you can connect your Antminer via WIFI by adding a WIFI/Ethernet bridge. We have selected the vonets vap11g-300 because it easily allows you to retrieve the WIFI signal from your Internet box and transmit it to your Antminer via Ethernet without creating a subnet. If you have electrical skills, you can power it directly with the Antminer's power supply without the need to add a USB charger. For this, you will need a female 5.5mmx2.1mm jack.
+Thay vì sử dụng cáp Ethernet, bạn có thể kết nối Antminer của mình qua WIFI bằng cách thêm một cầu nối WIFI/Ethernet. Chúng tôi đã chọn vonets vap11g-300 vì nó cho phép bạn dễ dàng thu sóng WIFI từ hộp Internet của bạn và truyền nó đến Antminer qua Ethernet mà không tạo ra mạng con. Nếu bạn có kỹ năng về điện, bạn có thể cung cấp điện trực tiếp cho nó bằng nguồn cung cấp điện của Antminer mà không cần thêm bộ sạc USB. Đối với điều này, bạn sẽ cần một jack nữ 5.5mmx2.1mm.
 
 ![image](assets/piece/6.webp)
 ![image](assets/piece/7.webp)
 
-3. Optional: add a smart plug
-If you want to turn on/off your Antminer from your smartphone and monitor its power consumption, you can add a smart plug. We tested the ANTELA plug in the 16A version, compatible with the smartlife app. This smart plug allows you to view daily and monthly power consumption and connects directly to your internet router via WiFi.
+3. Tùy chọn: thêm ổ cắm thông minh
+Nếu bạn muốn bật/tắt Antminer của mình từ điện thoại thông minh và theo dõi mức tiêu thụ điện năng của nó, bạn có thể thêm một ổ cắm thông minh. Chúng tôi đã thử nghiệm ổ cắm ANTELA phiên bản 16A, tương thích với ứng dụng smartlife. Ổ cắm thông minh này cho phép bạn xem mức tiêu thụ điện năng hàng ngày và hàng tháng và kết nối trực tiếp với bộ định tuyến internet của bạn qua WiFi.
 
 ![image](assets/piece/8.webp)
 
-List of equipment and links
+Danh sách thiết bị và liên kết
 
-* 2X 3D adapter piece 140mm to 120mm
+* 2X miếng chuyển đổi 3D từ 140mm sang 120mm
 
 * [2X NF-A14 iPPC-2000 PWM](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW/ref=sr_1_2?__mk_fr_FR=ÅMÅŽÕÑ&crid=JCNLC31F3ECM&keywords=NF-A14+iPPC-2000+PWM&qid=1676819936&sprefix=nf-a14+ippc-2000+pwm%2Caps%2C114&sr=8-2)
 
-* [2X 140mm fan grilles](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+* [2X lưới bảo vệ quạt 140mm](https://www.amazon.fr/dp/B06XD4FTSQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)
   
 * [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4/ref=sr_1_1_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=3T313ABZA5EDE&keywords=Noctua+NF-A6x25+PWM&qid=1676819329&sprefix=noctua+nf-a6x25+pwm%2Caps%2C71&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A38F5RZ72I2JQ)
-
-* [Electrician's sugar 2.5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
+* [Đường dành cho thợ điện 2.5mm2](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=25IRJD7A0YN2A&keywords=sucre%2Belectrique%2B2mm2&qid=1676820815&sprefix=sucre%2Belectrique%2B2mm2%2Caps%2C84&sr=8-3&th=1)
 * [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
-* [Optional ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
+* [Ổ cắm thông minh ANTELA tùy chọn](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Modifying the Software of an Antminer S9
+# Attakai - Chỉnh sửa Phần mềm của Antminer S9
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
-## Setting up a Vonet WIFI/Ethernet Bridge
+## Thiết lập Cầu nối WIFI/Ethernet Vonet
 <chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
-To connect your ASIC via WIFI, you will need a device called a bridge. This device allows you to retrieve the WIFI signal from your router and transmit it to another device via Ethernet.
+Để kết nối ASIC của bạn qua WIFI, bạn sẽ cần một thiết bị được gọi là cầu nối. Thiết bị này cho phép bạn thu tín hiệu WIFI từ bộ định tuyến và truyền nó đến thiết bị khác qua Ethernet.
 
-Many devices can perform this function, but we recommend the VONETS WiFi Bridge/Repeater for its convenience.
+Có nhiều thiết bị có thể thực hiện chức năng này, nhưng chúng tôi khuyên dùng Cầu nối/Repeater WIFI VONETS vì sự tiện lợi của nó.
 
-Power the bridge by connecting it via USB.
+Cấp nguồn cho cầu nối bằng cách kết nối qua USB.
 
-From your computer, connect to the VONETS_****** WIFI network with the password 12345678.
+Từ máy tính của bạn, kết nối với mạng WIFI VONETS_****** với mật khẩu 12345678.
 
 ![image](assets/software/vonet1.webp)
 
-Login with the username "admin" and password "admin".
+Đăng nhập với tên người dùng "admin" và mật khẩu "admin".
 
 ![image](assets/software/vonet2.webp)
 
-Choose Wizard.
+Chọn Wizard.
 
 ![image](assets/software/vonet3.webp)
 
-Select the WIFI network you want to connect your miner to, then click Next.
+Chọn mạng WIFI mà bạn muốn kết nối với máy đào của mình, sau đó nhấn Next.
 
-NOTE: The Vonet bridge only works on the 2.4GHz frequency. Nowadays, routers usually offer two WIFI networks, one on 2.4GHz and one on 5GHz.
+LƯU Ý: Cầu nối Vonet chỉ hoạt động trên tần số 2.4GHz. Ngày nay, bộ định tuyến thường cung cấp hai mạng WIFI, một trên 2.4GHz và một trên 5GHz.
 
 ![image](assets/software/vonet4.webp)
 
-Enter the password for your WIFI network in the "Source WIFI hotspot password" field. If you do not want to use your Vonet bridge to extend your WIFI network, check the "Disable Hotspot" box. Otherwise, leave it unchecked.
+Nhập mật khẩu cho mạng WIFI của bạn vào trường "Source WIFI hotspot password". Nếu bạn không muốn sử dụng cầu nối Vonet của mình để mở rộng mạng WIFI của mình, hãy đánh dấu vào ô "Disable Hotspot". Nếu không, để nguyên không đánh dấu.
 
-You can then click Apply.
+Sau đó bạn có thể nhấn Apply.
 
-Finally, click on reboot to restart the bridge. It will take a few minutes to reboot.
+Cuối cùng, nhấn vào reboot để khởi động lại cầu nối. Việc này sẽ mất vài phút.
 
-The bridge should connect to your router and appear under the name "[VONETS.COM](http://vonets.com/)". If it still does not connect after a few minutes, you may need to unplug/replug the bridge.
+Cầu nối sẽ kết nối với bộ định tuyến của bạn và xuất hiện dưới tên "[VONETS.COM](http://vonets.com/)". Nếu sau vài phút mà vẫn không kết nối được, bạn có thể cần phải rút phích cắm/cắm lại cầu nối.
+Sau khi kết nối cầu nối, hãy kết nối cáp Ethernet từ cầu nối vào ASIC của bạn, sau đó cắm ASIC vào ổ điện. Bạn có thể truy cập giao diện ASIC theo cùng một cách như thể nó được kết nối trực tiếp với router của bạn qua Ethernet.
 
-Once the bridge is connected, connect the Ethernet cable from the bridge to your ASIC, and then plug the ASIC into the power outlet. You can then access the ASIC interface in the same way as if it were directly connected to your router via Ethernet.
-
-## Resetting an Antminer S9
+## Đặt lại Antminer S9
 <chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
 
-Before installing BraiinOS+, it may be necessary to reset your S9 to its factory settings.
-This method can be applied between 2 minutes and 10 minutes after starting the miner.
-2 minutes after turning on the miner, please press the "Reset" button for 5 seconds, then release it. The miner will be restored to factory settings within 4 minutes and will restart automatically (there is no need to turn it off).
+Trước khi cài đặt BraiinOS+, có thể cần thiết phải đặt lại S9 của bạn về cài đặt gốc của nhà máy.
+Phương pháp này có thể được áp dụng trong khoảng từ 2 phút đến 10 phút sau khi khởi động máy đào.
+2 phút sau khi bật máy đào, vui lòng nhấn nút "Reset" trong 5 giây, sau đó thả ra. Máy đào sẽ được khôi phục về cài đặt gốc trong vòng 4 phút và sẽ khởi động lại tự động (không cần phải tắt máy).
 
 ![image](assets/software/1.webp)
 
-## Installing BraiinsOS+ on an Antminer S9
+## Cài đặt BraiinsOS+ trên Antminer S9
 <chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
-The original software installed by Antminer on their mining machines is limited in functionality. That's why in this guide, we will install another software called BraiinsOS+. It is a third-party software developed by the very first Bitcoin mining pool that has more features and allows, for example, modifying the machine's power.
+Phần mềm gốc được Antminer cài đặt trên các máy đào của họ có hạn chức năng. Đó là lý do trong hướng dẫn này, chúng tôi sẽ cài đặt một phần mềm khác gọi là BraiinsOS+. Đây là phần mềm của bên thứ ba được phát triển bởi hồ bơi đào Bitcoin đầu tiên trên thế giới có nhiều tính năng hơn và cho phép, ví dụ, chỉnh sửa công suất của máy.
 
-There are several ways to install Braiins OS+ on an ASIC. You can refer to this guide as well as the [official Braiins documentation](https://academy.braiins.com/en/braiins-os/about/).
+Có một số cách để cài đặt Braiins OS+ trên ASIC. Bạn có thể tham khảo hướng dẫn này cũng như [tài liệu chính thức của Braiins](https://academy.braiins.com/en/braiins-os/about/).
 
-Here, we will see how to easily install Braiins OS+ directly on the memory of your Antminer using the BOS toolbox software, replacing the original operating system, through the detailed steps below.
+Ở đây, chúng tôi sẽ xem cách dễ dàng cài đặt Braiins OS+ trực tiếp trên bộ nhớ của Antminer của bạn bằng cách sử dụng phần mềm BOS toolbox, thay thế hệ điều hành gốc, thông qua các bước chi tiết dưới đây.
 
-1. Power on your Antminer and connect it to your internet box.
-2. Download BOS toolbox for Windows / Linux.
-3. Unzip the downloaded file and open the bos-toolbox.bat file. Choose the language, and after a few moments, you will see this window:
+1. Bật Antminer của bạn và kết nối nó với hộp internet của bạn.
+2. Tải xuống BOS toolbox cho Windows / Linux.
+3. Giải nén tệp đã tải và mở tệp bos-toolbox.bat. Chọn ngôn ngữ, và sau vài phút, bạn sẽ thấy cửa sổ này:
 
 ![image](assets/software/5.webp)
 
-4. Bos toolbox will allow you to easily find the IP address of your Antminer and install BraiinsOS+. If you already know the IP address of your machine, you can skip to step 8. Otherwise, go to the scan tab.
+4. BOS toolbox sẽ giúp bạn dễ dàng tìm địa chỉ IP của Antminer và cài đặt BraiinsOS+. Nếu bạn đã biết địa chỉ IP của máy, bạn có thể bỏ qua đến bước 8. Nếu không, hãy chuyển đến tab quét.
 
 ![image](assets/software/6.webp)
 
-5. Usually, on home networks, the IP address range is between 192.168.1.1 and 192.168.1.255, so enter "192.168.1.0/24" in the IP range field. If your network is different, please change these addresses accordingly. Then click on "Start".
+5. Thông thường, trên các mạng gia đình, phạm vi địa chỉ IP nằm giữa 192.168.1.1 và 192.168.1.255, vì vậy nhập "192.168.1.0/24" vào trường phạm vi IP. Nếu mạng của bạn khác, vui lòng thay đổi các địa chỉ này cho phù hợp. Sau đó nhấn vào "Start".
 
-6. Attention, if the Antminer has a password, the detection will not work. If that's the case, the simplest solution is to perform a reset.
+6. Chú ý, nếu Antminer có mật khẩu, việc phát hiện sẽ không hoạt động. Nếu đó là trường hợp, giải pháp đơn giản nhất là thực hiện một lần đặt lại.
 
-7. You should see all the Antminers on your network appear here, and the IP address is 192.168.1.37.
+7. Bạn sẽ thấy tất cả các Antminer trên mạng của mình xuất hiện ở đây, và địa chỉ IP là 192.168.1.37.
 
 ![image](assets/software/7.webp)
 
-8. Click on "Back" and then the "Install" tab, enter the previously found IP address, and click on "Start".
+8. Nhấn vào "Back" và sau đó là tab "Install", nhập địa chỉ IP đã tìm thấy trước đó, và nhấn vào "Start".
 
-> If the installation does not work, it may be necessary to perform a reset and try again (see the previous section).
+> Nếu việc cài đặt không thành công, có thể cần thực hiện đặt lại và thử lại (xem phần trước).
 ![image](assets/software/8.webp)
-9. After a few moments, your Antminer will restart and you will be able to access the Braiins OS+ interface at the specified IP address, here 192.168.1.37, directly in the address bar of your browser. The default username is "root" and there is no default password.
+9. Sau vài phút, Antminer của bạn sẽ khởi động lại và bạn có thể truy cập giao diện Braiins OS+ tại địa chỉ IP đã chỉ định, ở đây là 192.168.1.37, trực tiếp trên thanh địa chỉ của trình duyệt của bạn. Tên người dùng mặc định là "root" và không có mật khẩu mặc định.
 
-## Configure BraiinsOS+
+## Cấu hình BraiinsOS+
 <chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
-You will need to connect to your ASIC using the local IP address of your device on your network through a browser.
+Bạn cần kết nối với ASIC của mình sử dụng địa chỉ IP cục bộ của thiết bị trên mạng của bạn thông qua trình duyệt.
 
-You can find the IP address of your machine using the BOS toolbox tool or directly on your router's web page.
+Bạn có thể tìm địa chỉ IP của máy của mình sử dụng công cụ BOS toolbox hoặc trực tiếp trên trang web của router.
 
-The default credentials are the same as the original operating system.
+Thông tin đăng nhập mặc định giống như hệ điều hành gốc.
 
-- username: root
-- password: (none)
+- tên người dùng: root
+- mật khẩu: (không có)
 
-You will then be greeted by the Brains OS+ Dashboard.
+Sau đó, bạn sẽ được chào đón bởi Bảng điều khiển Braiins OS+.
 
-### Dashboard
+### Bảng điều khiển
 
 ![image](assets/software/14.webp)
 
-On this first page, you can observe the real-time performance of your machine.
+Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực tế của máy của mình.
 
-- Three real-time graphs that show the temperature, hashrate, and overall status of your machine.
-- On the right, the real hashrate, average chip temperature, estimated efficiency in W/THs, and power consumption.
-- Below, the fan speed as a percentage of the maximum speed and the number of rotations per minute.
+- Ba biểu đồ thời gian thực hiển thị nhiệt độ, hashrate và trạng thái tổng thể của máy của bạn.
+- Bên phải, hashrate thực tế, nhiệt độ chip trung bình, hiệu quả ước tính theo W/THs và mức tiêu thụ điện năng.
+- Bên dưới, tốc độ quạt tính theo phần trăm của tốc độ tối đa và số vòng quay mỗi phút.
 
 ![image](assets/software/15.webp)
 
-- Further down, you will find a detailed view of each hashboard. The average temperature of the board and the chips it contains, as well as the voltage and frequency.
-- Details on the active mining pools in Pools.
-- The status of autotuning in Tuner Status.
-- On the right, details on the data transmitted to the pool.
+- Phía dưới, bạn sẽ tìm thấy cái nhìn chi tiết về từng hashboard. Nhiệt độ trung bình của bảng và các chip bên trong nó, cũng như điện áp và tần số.
+- Chi tiết về các hồ bơi khai thác hoạt động trong Pools.
+- Trạng thái của việc tự điều chỉnh trong Tuner Status.
+- Bên phải, chi tiết về dữ liệu được truyền đến hồ bơi.
 
-### Configuration
+### Cấu hình
 
 ![image](assets/software/16.webp)
 
-### System
+### Hệ thống
 
 ![image](assets/software/17.webp)
 
-### Quick actions
+### Hành động nhanh
 
 ![image](assets/software/18.webp)
 
-# Attakai - Fan Modification
+# Attakai - Chỉnh sửa quạt
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
-## Replace the power supply fan
+## Thay quạt nguồn
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
-> WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software that can reduce the performance of your machine. This measure is crucial because in order to reduce noise, we will install less powerful fans that can dissipate less heat.
+> CẢNH BÁO: Điều cần thiết là phải đã cài đặt Braiins OS+ trên máy đào của bạn, hoặc bất kỳ phần mềm nào khác có thể giảm hiệu suất của máy. Biện pháp này rất quan trọng vì để giảm tiếng ồn, chúng tôi sẽ lắp đặt quạt ít mạnh mẽ hơn có thể tản nhiệt kém hơn.
 
 ![image](assets/hardware/cover.webp)
 
-### Required materials
+### Vật liệu cần thiết
 
-- 1 Noctua NF-A6x25 PWM fan
-- 2.5mm2 electrician's sugar
+- 1 quạt Noctua NF-A6x25 PWM
+- Dây điện 2.5mm2
 
-> WARNING: First of all, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.
+> CẢNH BÁO: Đầu tiên, trước khi bắt đầu, hãy chắc chắn rằng bạn đã rút phích cắm của máy đào để tránh mọi nguy cơ bị điện giật.
 
 ![image](assets/hardware/1.webp)
 
-First, remove the 6 screws on the side of the case that hold it closed. Once the screws are removed, carefully open the case to remove the plastic protection covering the components.
+Đầu tiên, tháo 6 ốc vít ở bên cạnh vỏ để mở nó ra. Sau khi các ốc vít được tháo ra, cẩn thận mở vỏ để lấy bỏ lớp bảo vệ nhựa che phủ các linh kiện.
 
 ![image](assets/hardware/2.webp)
 ![image](assets/hardware/3.webp)
 
-Next, it's time to remove the original fan, taking care not to damage the other components. To do this, remove the screws that hold it in place and gently peel off the white glue surrounding the connector. It is important to proceed with care to avoid damaging the wires or connectors.
-
+Tiếp theo, đã đến lúc tháo quạt gốc, cẩn thận không làm hỏng các linh kiện khác. Để làm điều này, tháo các ốc vít giữ nó và nhẹ nhàng gỡ bỏ keo trắng xung quanh đầu nối. Quan trọng là phải tiến hành một cách cẩn thận để tránh làm hỏng dây hoặc đầu nối.
 ![image](assets/hardware/4.webp)
-
-Once the original fan is removed, you will notice that the connectors of the new Noctua fan do not match those of the original fan. Indeed, the new fan has 3 wires, including a yellow wire that allows for speed control. However, this wire will not be used in this specific case. To connect the new fan, it is therefore recommended to use a special adapter. However, it is important to note that this adapter can sometimes be difficult to find.
+Sau khi quạt gốc được tháo ra, bạn sẽ nhận thấy rằng các đầu nối của quạt Noctua mới không khớp với quạt gốc. Thực tế, quạt mới có 3 dây, bao gồm một dây màu vàng cho phép điều khiển tốc độ. Tuy nhiên, dây này sẽ không được sử dụng trong trường hợp cụ thể này. Do đó, để kết nối quạt mới, việc sử dụng một bộ chuyển đổi đặc biệt được khuyến nghị. Tuy nhiên, quan trọng là phải lưu ý rằng bộ chuyển đổi này đôi khi có thể khó tìm.
 
 ![image](assets/hardware/5.webp)
 
-If you do not have this adapter, you can still proceed to connect the new fan using an electrician's sugar. To do this, you will need to cut the cables of the old and new fan.
+Nếu bạn không có bộ chuyển đổi này, bạn vẫn có thể tiếp tục kết nối quạt mới bằng cách sử dụng đầu nối điện của thợ điện. Để làm điều này, bạn sẽ cần cắt các dây của quạt cũ và quạt mới.
 
 ![image](assets/hardware/6.webp)
 ![image](assets/hardware/7.webp)
 
-On the new fan, use a cutter and carefully cut the contours of the main sheath at 1cm without cutting the sheaths of the cables underneath.
+Trên quạt mới, sử dụng dao cắt và cẩn thận cắt đường viền của vỏ chính ở khoảng cách 1cm mà không cắt vào vỏ của các dây bên dưới.
 
 ![image](assets/hardware/8.webp)
 
-Then, by pulling the main sheath downwards, cut the sheaths of the red and black cables in the same way as before. And cut the yellow cable flush.
+Sau đó, kéo vỏ chính xuống dưới, cắt vỏ của dây đỏ và dây đen theo cách tương tự như trước. Và cắt dây vàng ngắn gọn.
 
 ![image](assets/hardware/9.webp)
 
-On the old fan, it is more delicate to cut the main sheath without damaging the sheaths of the red and black wires. For this, we used a needle that we slid between the main sheath and the red and black wires.
+Trên quạt cũ, việc cắt vỏ chính mà không làm hỏng vỏ của dây đỏ và dây đen là khó khăn hơn. Để làm điều này, chúng tôi đã sử dụng một cây kim mà chúng tôi luồn giữa vỏ chính và dây đỏ và dây đen.
 
 ![image](assets/hardware/10.webp)
 ![image](assets/hardware/11.webp)
 
-Once the red and black wires are exposed, cut the sheaths carefully to avoid damaging the electrical wires.
+Một khi dây đỏ và dây đen được lộ ra, cắt vỏ cẩn thận để tránh làm hỏng dây điện.
 
 ![image](assets/hardware/12.webp)
 
-Then, connect the cables with a sugar, the black wire with the black and the red wire with the red. You can also add electrical tape.
+Sau đó, kết nối các dây bằng đầu nối điện, dây đen với dây đen và dây đỏ với dây đỏ. Bạn cũng có thể thêm băng dính điện.
 
 ![image](assets/hardware/13.webp)
 ![image](assets/hardware/14.webp)
 
-Once the connection is made, it's time to install the new Noctua fan with the grille and the old screws. The new screws in the box will be reused later. Make sure to place it in the correct orientation. You will notice an arrow on one side of the fan, indicating the direction of airflow. It is important to position the fan so that this arrow points towards the inside of the case. Then reconnect the fan.
+Một khi kết nối được thực hiện, đã đến lúc lắp quạt Noctua mới với lưới bảo vệ và các ốc vít cũ. Các ốc vít mới trong hộp sẽ được sử dụng lại sau. Đảm bảo đặt nó theo hướng đúng. Bạn sẽ nhận thấy một mũi tên trên một bên của quạt, chỉ hướng luồng khí. Quan trọng là phải đặt quạt sao cho mũi tên này hướng vào bên trong của thùng máy. Sau đó kết nối lại quạt.
 
 ![image](assets/hardware/15.webp)
 ![image](assets/hardware/16.webp)
 
-> Optional: If you are knowledgeable in electricity, you can directly add a female 5.5mm jack connector to the 12V power output, which will directly power the Vonet Wi-Fi bridge. However, if you are unsure of your electrical skills, it is best to use the USB connector with a smartphone-type charger to avoid any risk of short circuit or electrical damage.
+> Tùy chọn: Nếu bạn có kiến thức về điện, bạn có thể trực tiếp thêm một đầu nối jack nữ 5.5mm vào nguồn điện 12V, sẽ cung cấp điện trực tiếp cho cầu Wi-Fi Vonet. Tuy nhiên, nếu bạn không chắc về kỹ năng điện của mình, tốt nhất là sử dụng đầu nối USB với một bộ sạc kiểu điện thoại thông minh để tránh bất kỳ rủi ro nào về mạch ngắn hoặc hỏng hóc điện.
 
 ![image](assets/hardware/17.webp)
 
-Once the connections are made, place the plastic cover over the case plastic and not inside.
+Một khi các kết nối được thực hiện, đặt nắp nhựa che lên phía trên của thùng máy và không phải bên trong.
 
 ![image](assets/hardware/18.webp)
 
-Finally, put the case cover back in place and screw the 6 screws on the sides to hold everything in place. And there you have it, your power supply case is now equipped with a new fan.
+Cuối cùng, đặt nắp thùng máy trở lại và vặn 6 ốc vít ở các bên để giữ mọi thứ cố định. Và đó là, thùng máy cung cấp điện của bạn giờ đây đã được trang bị một quạt mới.
 
-## Replacing the Main Fans
+## Thay Thế Quạt Chính
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+CẢNH BÁO: Điều cần thiết là bạn phải cài đặt trước Braiins OS+ trên máy đào của mình, hoặc bất kỳ phần mềm nào khác có khả năng giảm hiệu suất của máy. Biện pháp này rất quan trọng bởi vì để giảm tiếng ồn, chúng tôi sẽ lắp quạt ít mạnh mẽ hơn, sẽ tản nhiệt ít hơn.
+![hình ảnh](assets/hardware/cover.webp)
 
-> WARNING: It is essential to have previously installed Braiins OS+ on your miner, or any other software capable of reducing the performance of your machine. This measure is crucial because in order to reduce noise, we will install less powerful fans, which will dissipate less heat.
+### Vật Liệu Cần Thiết
 
-![image](assets/hardware/cover.webp)
+- 2 miếng chuyển đổi 3D từ 140mm sang 120mm
+- 2 quạt Noctua NF-A14 iPPC-2000 PWM
+- 2 lưới bảo vệ quạt 140mm
 
+> CẢNH BÁO: Trước hết, trước khi bắt đầu, hãy chắc chắn ngắt kết nối máy đào của bạn để tránh bất kỳ rủi ro điện giật nào.
 
-### Required Materials
+1. Đầu tiên, ngắt kết nối quạt và tháo chúng ra.
 
-- 2 pieces 3D adapter 140mm to 120mm
-- 2 Noctua NF-A14 iPPC-2000 PWM fans
-- 2 140mm fan grilles
+![hình ảnh](assets/hardware/19.webp)
 
-> WARNING: First of all, before starting, make sure to disconnect your miner to avoid any risk of electrocution.
+2. Các đầu nối của quạt Noctua mới không khớp với đầu nối gốc, nhưng đừng lo! Lấy dao cắt của bạn và cẩn thận cắt bỏ các thanh nhựa nhỏ sao cho các đầu nối vừa khít với máy đào của bạn.
 
-1. First, disconnect the fans and unscrew them.
+![hình ảnh](assets/hardware/20.webp)
+![hình ảnh](assets/hardware/21.webp)
+3. Đã đến lúc lắp đặt các bộ phận 3D!
+Gắn chúng vào cả hai bên của máy đào sử dụng các ốc vít bạn đã tháo ra từ quạt. Vặn chúng cho đến khi đầu ốc vít bằng phẳng với bộ phận 3D và nó được giữ chắc chắn. Hãy cẩn thận không vặn quá chặt, vì bạn có thể làm biến dạng bộ phận và một trong các ốc vít có thể chạm vào tụ điện!
 
-![image](assets/hardware/19.webp)
+![hình ảnh](assets/hardware/22.webp)
 
-2. The connectors of the new Noctua fans do not match the original ones, but don't worry! Take out your cutter and carefully cut the small plastic tabs so that the connectors fit perfectly on your miner.
+4. Bây giờ chúng ta chuyển sang phần quạt.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp)
-3. It's time to install the 3D parts!
-Attach them on both sides of the miner using the screws you removed from the fans. Screw them in until the screw head is flush with the 3D part and it is securely in place. Be careful not to tighten too much, as you could deform the part and one of the screws might touch a capacitor!
+Gắn chúng vào các bộ phận 3D sử dụng các ốc vít được cung cấp trong hộp. Chú ý đến hướng luồng khí, các mũi tên trên cạnh của quạt sẽ chỉ hướng bạn cần theo. Di chuyển từ phía cổng Ethernet sang phía bên kia. Xem hình dưới đây.
 
-![image](assets/hardware/22.webp)
+![hình ảnh](assets/hardware/23.webp)
+![hình ảnh](assets/hardware/24.webp)
+![hình ảnh](assets/hardware/25.webp)
 
-4. Now let's move on to the fans.
+5. Bước cuối cùng: kết nối quạt và gắn lưới bảo vệ phía trên với các ốc vít không sử dụng trong hộp quạt nguồn. Bạn chỉ có 4 cái, nhưng 2 cái cho mỗi lưới ở các góc đối diện là đủ. Bạn cũng có thể tìm các ốc vít tương tự tại cửa hàng phần cứng nếu cần.
 
-Attach them to the 3D parts using the screws provided in the box. Pay attention to the direction of airflow, the arrows on the sides of the fans will indicate the direction to follow. Go from the Ethernet port side to the other side. See photo below.
+![hình ảnh](assets/hardware/26.webp)
+![hình ảnh](assets/hardware/27.webp)
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+Trong khi chờ đợi có thể cung cấp một vỏ máy đẹp mắt hơn cho bộ sưởi mới của bạn, bạn có thể gắn vỏ máy và nguồn điện với dây buộc điện.
 
-5. Last step: connect the fans and attach the grilles on top with the screws that were not used in the power supply fan box. You only have 4 of them, but 2 per grille in opposite corners will be enough. You can also look for similar screws in a hardware store if needed.
+![hình ảnh](assets/hardware/28.webp)
 
-![image](assets/hardware/26.webp)
-![image](assets/hardware/27.webp)
+Và cho bước hoàn thiện, kết nối cầu nối Vonet vào cổng Ethernet và nguồn điện của nó.
 
-While waiting to be able to offer a more stylish casing for your new heater, you can attach the case and the power supply with electrician's cable ties.
+![hình ảnh](assets/hardware/29.webp)
 
-![image](assets/hardware/28.webp)
+Và đó là, xin chúc mừng! Bạn vừa thay thế toàn bộ phần cơ khí của máy đào của mình. Bây giờ bạn nên nghe thấy tiếng ồn ít hơn nhiều.
 
-And for the finishing touch, connect the Vonet bridge to the Ethernet port and its power supply.
-
-![image](assets/hardware/29.webp)
-
-And there you have it, congratulations! You have just replaced the entire mechanical part of your miner. You should now hear much less noise.
-
-# Attakai - Configuration
+# Attakai - Cấu Hình
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
-## Joining a mining pool
+## Tham gia một nhóm đào
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+Người ta có thể hình dung một hồ bơi khai thác như một hợp tác xã nông nghiệp. Các nông dân tổ chức sản xuất của họ lại với nhau để giảm biến động của cung và cầu và do đó, thu được thu nhập ổn định hơn cho hoạt động của họ. Một hồ bơi khai thác hoạt động theo cùng một cách, với nguồn lực được chia sẻ là các hash. Thực sự, việc phát hiện ra một hash hợp lệ duy nhất cho phép tạo ra một khối và giành được coinbase hoặc phần thưởng, hiện tại là 6.25 BTC cộng với các phí giao dịch được bao gồm trong khối.
 
-One can imagine a mining pool as a farming cooperative. Farmers pool their production together to reduce the variance of supply and demand and thus obtain more stable income for their operation. A mining pool operates in the same way, with the shared resource being hashes. Indeed, the discovery of a single valid hash allows for the creation of a block and the winning of the coinbase or reward, currently 6.25 BTC plus the transaction fees included in the block. 
+Nếu bạn khai thác một mình, bạn chỉ được thưởng khi tìm thấy một khối. Khi cạnh tranh với tất cả các thợ mỏ khác trên hành tinh, bạn sẽ có rất ít cơ hội để giành chiến thắng trong xổ số này và bạn vẫn phải trả các phí liên quan đến việc sử dụng máy khai thác của mình mà không có bất kỳ bảo đảm nào về thành công. Các hồ bơi khai thác giải quyết vấn đề này bằng cách tổ chức sức mạnh tính toán của nhiều (hàng nghìn) thợ mỏ và chia sẻ phần thưởng của họ dựa trên tỷ lệ phần trăm tham gia vào hashrate của hồ khi một khối được tìm thấy. Để hình dung cơ hội khai thác một khối một mình của bạn, bạn có thể sử dụng công cụ này. Bằng cách nhập thông tin cho một Antminer S9, chúng ta có thể thấy rằng cơ hội tìm thấy một hash cho phép tạo ra một khối là 1 trong 24,777,849 cho mỗi khối hoặc 1 trong 172,068 mỗi ngày. Trung bình (với hashrate và độ khó không đổi), nó sẽ mất 471 năm để tìm thấy một khối.
 
-If you mine alone, you will only be rewarded when you find a block. Being in competition against all other miners on the planet, you would have very little chance of winning this lottery and you would still have to pay the fees associated with using your miner without any guarantee of success. Mining pools address this issue by pooling the computing power of several (thousands) of miners and sharing their rewards based on the percentage of participation in the pool's hashrate when a block is found. To visualize your chances of mining a block alone, you can use this tool. By entering the information for an Antminer S9, we can see that the chances of finding a hash that allows for the creation of a block are 1 in 24,777,849 for each block or 1 in 172,068 per day. On average (with a constant hashrate and difficulty), it would take 471 years to find a block.
+Tuy nhiên, vì mọi thứ trong Bitcoin đều dựa trên xác suất, đôi khi các thợ mỏ đơn lẻ được thưởng cho việc chấp nhận rủi ro này: Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
 
-However, since everything in Bitcoin is based on probability, it sometimes happens that solo miners are rewarded for taking this risk: Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
+Nếu bạn thích cờ bạc, bạn có thể thử, nhưng hướng dẫn của chúng tôi sẽ không tập trung vào hướng đó. Thay vào đó, chúng tôi sẽ tập trung vào hồ bơi khai thác phù hợp nhất với nhu cầu của chúng tôi để tạo ra một hệ thống sưởi.
 
-If you like to gamble, you can try it, but our guide will not focus in that direction. Instead, we will concentrate on the mining pool that best suits our needs for creating a heating system.
+Các yếu tố cần xem xét khi chọn một hồ bơi khai thác là hoạt động của hệ thống phần thưởng của hồ, có thể thay đổi, cũng như số lượng tối thiểu trước khi có thể rút phần thưởng về một địa chỉ. Ví dụ, Braiins, cung cấp phần mềm mà chúng tôi đang thảo luận ở đây, cũng cung cấp một hồ. Hồ này có một hệ thống phần thưởng gọi là "Score" khuyến khích thợ mỏ khai thác trong thời gian dài. Sự tham gia bao gồm một yếu tố thời gian hoạt động được biểu thị như một "scoring hashrate". Trong trường hợp của chúng tôi, nơi chúng tôi muốn một hệ thống sưởi có thể được bật chỉ trong vài phút, đây không phải là hệ thống phần thưởng lý tưởng. Chúng tôi ưa thích một hệ thống phần thưởng cho chúng tôi một phần thưởng bằng nhau cho mỗi lần tham gia. Ngoài ra, số lượng rút tối thiểu cho Braiins Pool là 100,000 sats và On-Chain. Vì vậy, chúng tôi mất một số sats trong phí giao dịch và một phần của phần thưởng của chúng tôi có thể bị khóa nếu chúng tôi không khai thác đủ trong mùa đông.
 
-Considerations to have when choosing a mining pool are the operation of the pool's rewards, which can vary, as well as the minimum amount before being able to withdraw rewards to an address. For example, Braiins, which offers the software we are discussing here, also offers a pool. This pool has a reward system called "Score" that encourages miners to mine for long periods. Participation includes a uptime factor expressed as a "scoring hashrate". In our case, where we want a heating system that can be turned on for only a few minutes, this is not the ideal reward system. We prefer a reward system that gives us an equal reward for each participation. Additionally, the minimum withdrawal amount for Braiins Pool is 100,000 sats and On-Chain. So we lose some sats in transaction fees and a portion of our reward can be locked if we don't mine enough during the winter.
+Mô hình phần thưởng mà chúng tôi quan tâm là PPS, có nghĩa là "trả tiền theo mỗi phần". Điều này có nghĩa là thợ mỏ sẽ nhận được phần thưởng cho mỗi phần hợp lệ. Cũng có một biến thể của hệ thống này, FPPS (Full Pay Per Share), không chỉ chia sẻ phần thưởng coinbase, mà còn cả phí giao dịch được bao gồm trong khối. Các hồ bơi khai thác mà chúng tôi khuyến nghị để kết nối khai thác/sưởi của bạn là Linecoin Pool (FPPS) và Nicehash (PPS).
 
-The reward model that interests us is PPS, which stands for "pay-per-share". This means that the miner will receive a reward for each valid share. There is also a variant of this system, FPPS (Full Pay Per Share), which not only divides the coinbase reward, but also the transaction fees included in the block. The mining pools we recommend for connecting your mining/heating are Linecoin Pool (FPPS) and Nicehash (PPS).
+- Nicehash: Lợi ích của Nicehash là việc rút tiền có thể được thực hiện bằng Lightning với phí tối thiểu. Ngoài ra, số lượng rút tối thiểu là 2000 sats. Nhược điểm là Nicehash sử dụng hashrate của mình cho blockchain có lợi nhuận cao nhất, mà không thực sự cho phép người dùng kiểm soát, vì vậy nó có thể không nhất thiết đóng góp vào hashrate của Bitcoin.
+- Linecoin: Lợi thế của Linecoin là số lượng tính năng được cung cấp, như bảng điều khiển chi tiết, khả năng thực hiện rút tiền với Paynym (BIP 47) để bảo vệ quyền riêng tư tốt hơn, và việc tích hợp bot Telegram cũng như tự động hóa có thể cấu hình trực tiếp trong ứng dụng di động. Pool này chỉ đào các khối Bitcoin, nhưng số lượng tối thiểu để rút tiền vẫn cao, ở mức 100,000 sats. Chúng tôi sẽ xem xét giao diện của một trong những pool này một cách chi tiết hơn trong một bài viết tương lai.
+Để cấu hình một pool trong Braiins OS+, bạn sẽ cần tạo một tài khoản trong một trong những pool của sự lựa chọn của bạn. Ở đây chúng tôi sẽ lấy ví dụ về Linecoin:
 
-- Nicehash: The advantage of Nicehash is that withdrawal can be done using Lightning with minimal fees. Additionally, the minimum withdrawal amount is 2000 sats. The disadvantage is that Nicehash uses its hashrate for the most profitable blockchain, without really giving control to the user, so it may not necessarily contribute to the Bitcoin hashrate.
+![hình ảnh](assets/software/19.webp)
 
-- Linecoin: The advantage of Linecoin is the number of features offered, such as a detailed dashboard, the ability to make withdrawals with a Paynym (BIP 47) for better privacy protection, and the integration of a Telegram bot as well as directly configurable automations in the mobile application. This pool only mines Bitcoin blocks, but the minimum amount to withdraw remains high at 100,000 sats. We will examine the interface of one of these pools in more detail in a future article.
+Sau khi tài khoản của bạn được tạo, nhấp vào Connect To Pool
 
-To configure a pool in Braiins OS+, you will need to create an account in one of the pools of your choice. Here we will take the example of Linecoin:
+Sau đó sao chép địa chỉ Stratum và tên người dùng của bạn:
 
-![image](assets/software/19.webp)
+![hình ảnh](assets/software/20.webp)
 
-Once your account is created, click on Connect To Pool
+Bây giờ bạn có thể quay lại giao diện Braiins OS+ để nhập những thông tin đăng nhập này. Đối với mật khẩu, bạn có thể để trống.
 
-Then copy the Stratum address and your username:
+![hình ảnh](assets/software/21.webp)
 
-![image](assets/software/20.webp)
-
-You can now go back to the Braiins OS+ interface to enter these credentials. For the password, you can leave the field empty.
-
-![image](assets/software/21.webp)
-
-## Optimizing the Performance of Your Antminer S9
+## Tối ưu hóa hiệu suất của Antminer S9 của bạn
 <chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
-Both overclocking and autotuning involve adjusting the frequencies on the hashing boards to improve the performance of the ASIC. The difference between the two lies in the complexity of these frequency settings.
+Cả việc tăng tốc và tự động điều chỉnh đều liên quan đến việc điều chỉnh tần số trên các bảng băm để cải thiện hiệu suất của ASIC. Sự khác biệt giữa hai phương pháp này nằm ở độ phức tạp của các cài đặt tần số.
 
-Overclocking is a simple adjustment that involves increasing the frequency on the hashing boards to increase the machine's hash rate. Underclocking, on the other hand, involves reducing the clock frequency of an integrated circuit below its nominal frequency. By reducing the clock frequency of an ASIC through underclocking, the heat generated by the hardware is also reduced. This allows for a decrease in the speed of the fans required to cool the ASIC, as they do not have to work as hard to maintain an appropriate temperature. By reducing the fan speed, the noise generated by the ASIC is also reduced. This can be particularly useful for users who use ASICs at home and are looking to minimize the noise disturbances caused by mining equipment.
+Tăng tốc là một điều chỉnh đơn giản bao gồm việc tăng tần số trên các bảng băm để tăng tỷ lệ băm của máy. Ngược lại, giảm tốc động cơ bao gồm việc giảm tần số của một mạch tích hợp dưới tần số danh nghĩa của nó. Bằng cách giảm tần số của một ASIC thông qua việc giảm tốc, nhiệt độ sinh ra bởi phần cứng cũng được giảm. Điều này cho phép giảm tốc độ của quạt cần thiết để làm mát ASIC, vì chúng không cần phải làm việc chăm chỉ để duy trì nhiệt độ phù hợp. Bằng cách giảm tốc độ quạt, tiếng ồn phát ra bởi ASIC cũng được giảm. Điều này có thể đặc biệt hữu ích cho những người dùng ASIC tại nhà và muốn giảm thiểu sự phiền toái do tiếng ồn từ thiết bị đào.
 
-Braiins OS+ supports overclocking, underclocking of ASICs, and autotuning. It allows users to adjust the clock frequency of their hardware flexibly to maximize performance or save energy according to their preferences.
+Braiins OS+ hỗ trợ tăng tốc, giảm tốc của ASICs, và tự động điều chỉnh. Nó cho phép người dùng điều chỉnh linh hoạt tần số của phần cứng của họ để tối đa hóa hiệu suất hoặc tiết kiệm năng lượng theo sở thích của họ.
 
-### Optimizing the performance of your Antminer S9 with auto-tuning
+### Tối ưu hóa hiệu suất của Antminer S9 của bạn với tự động điều chỉnh
 
-Before 2018, miners had two ways to gain an advantage in their activity: finding electricity at a reasonable cost and buying more efficient hardware. However, in 2018, a new advancement was discovered in the field of mining software and firmware, called AsicBoost. This technique allows miners to reduce their costs by approximately 13% by modifying the firmware running on their devices.
+Trước năm 2018, thợ đào có hai cách để có được lợi thế trong hoạt động của mình: tìm kiếm điện với giá cả hợp lý và mua phần cứng hiệu quả hơn. Tuy nhiên, vào năm 2018, một tiến bộ mới được phát hiện trong lĩnh vực phần mềm và firmware đào, được gọi là AsicBoost. Kỹ thuật này cho phép thợ đào giảm chi phí của họ khoảng 13% bằng cách chỉnh sửa firmware chạy trên thiết bị của họ.
 
-Today, there is a new advancement in the software and firmware mining sector called autotuning, which offers an even greater advantage than AsicBoost. ASICs are composed of many small computer chips that perform hashing. These chips are made of silicon, the same element widely used in semiconductors and other microelectronic components. The key understanding here is that not all silicon chips are identical, each can vary slightly in its electrical properties. Hardware manufacturers are aware of this and publish the performance specifications of their mining machines based on the lower limit of their tolerances. In other words, manufacturers know the frequency that works best for average chips and they use this frequency uniformly for all chips in the machine.
+Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmware đào được gọi là tự động điều chỉnh, mang lại lợi thế lớn hơn cả AsicBoost. ASICs được cấu thành từ nhiều chip máy tính nhỏ thực hiện băm. Những chip này được làm từ silicon, cùng một nguyên tố được sử dụng rộng rãi trong bán dẫn và các thành phần vi điện tử khác. Điều quan trọng ở đây là không phải tất cả các chip silicon đều giống nhau, mỗi chip có thể có sự khác biệt nhỏ về tính chất điện. Các nhà sản xuất phần cứng biết điều này và công bố thông số hiệu suất của máy đào của họ dựa trên giới hạn thấp nhất của sự chịu đựng của chúng. Nói cách khác, các nhà sản xuất biết tần số hoạt động tốt nhất cho các chip trung bình và họ sử dụng tần số này một cách đồng nhất cho tất cả các chip trong máy.
+Điều này đặt ra một giới hạn trên cho tốc độ hash mà một máy có thể có. Autotuning là quá trình mà trong đó các thuật toán đánh giá các tần số tối ưu cho việc hash từng chip một, thay vì xử lý toàn bộ máy như một đơn vị duy nhất. Điều này có nghĩa là một chip chất lượng cao có thể thực hiện nhiều hash mỗi giây sẽ nhận được tần số cao hơn, và một chip chất lượng thấp hơn có thể thực hiện ít hash hơn sẽ nhận được tần số thấp hơn. Autotuning ở cấp độ chip về cơ bản là một cách để tối ưu hóa hiệu suất của một ASIC thông qua phần mềm và firmware chạy trên nó.
 
-This puts an upper limit on the hash rate a machine can have. Autotuning is a process in which algorithms evaluate the optimal frequencies for chip-by-chip hashing, instead of treating the entire machine as a single unit. This means that a higher-quality chip that can perform more hashes per second will get a higher frequency, and a lower-quality chip that can perform relatively fewer hashes will get a lower frequency. Chip-level autotuning is essentially a way to optimize the performance of an ASIC through the software and firmware running on it.
+Kết quả cuối cùng là tốc độ hash cao hơn mỗi watt điện năng, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ đào. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, vì vậy việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+. Ngoài việc cải thiện hiệu suất ASIC lên đến 20%.
 
-The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason why machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting, so it is a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is complex to implement. Manufacturers already spend a lot of resources developing their own firmwares. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
-
-## Controlling an Antminer S9 from your smartphone
+## Điều khiển Antminer S9 từ điện thoại thông minh của bạn
 <chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
 
-### Creating shortcuts on iOS
+### Tạo phím tắt trên iOS
 
-![Controlling an Antminer S9 with your smartphone](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
+![Điều khiển Antminer S9 bằng điện thoại thông minh của bạn](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)

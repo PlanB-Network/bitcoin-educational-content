@@ -202,7 +202,9 @@ Dans cette fenêtre, vous avez trois champs : **Adresse**, **Signature** et **Me
 
 Dans le champ **Adresse**, entrez votre adresse Bitcoin. Si l’on reprend notre exemple, il s’agit de l’adresse : `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`.
 
-Laissez le champ **Signature** vide et collez le message généré sur la page d'Ocean : `{"height":845900,"lightning_bolt12":"lno1pg7y7s69g98zq5rp09hh2arnypnx7u3qvf3nzufjv4jrs7ncwyuxu6n3wdaxu6msxank5wp5dcc8samv89j8qv3jx36kscfjvempvggz84uzkn26vyzq8y2mr2s8fv0j76wesq43dz72kqrk33nl2tk9j45s"}`
+Laissez le champ **Signature** vide.
+
+Et collez le message généré sur la page d'Ocean dans le champ **Message** : `{"height":845900,"lightning_bolt12":"lno1pg7y7s69g98zq5rp09hh2arnypnx7u3qvf3nzufjv4jrs7ncwyuxu6n3wdaxu6msxank5wp5dcc8samv89j8qv3jx36kscfjvempvggz84uzkn26vyzq8y2mr2s8fv0j76wesq43dz72kqrk33nl2tk9j45s"}`
 
 Cliquez sur **Sign**.
 

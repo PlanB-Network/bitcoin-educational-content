@@ -1,5 +1,5 @@
 ---
-name: #COMMU101 - Créer une communauté ou un meet-up Bitcoin
+name: #BTC302 - Créer une communauté ou un meet-up Bitcoin
 goal: Créer et organiser facilement une communauté ou un meet-up Bitcoin
 objectives:
   - Pourquoi créer une communauté et/ou un meet-up Bitcoin?
@@ -16,7 +16,7 @@ Toutefois, **une chose manque cruellement à beaucoup d'entre-nous, bitcoiners: 
 
 Afin de remédier à ce besoin grandissant, de nombreux bitcoiners décident régulièrement de **créer de nouvelles communautés autour de chez eux**. Des rencontres sont alors proposées, lorsque le nombre de participants est suffisant; et ces dernières, devenant très souvent récurrentes, deviennent alors un terrain fertile pour la réalisation de présentations et d'ateliers, aussi bien techniques que vulgarisateurs.
 
-Dans cette formation intitulée "**COMMU101**", nous tâcherons de présenter l'**intérêt de créer une communauté et/ou un meet-up Bitcoin**, puis nous détaillerons et proposerons **différents outils permettant de développer l'identité visuelle et numérique** de sa communauté ou de son meet-up.
+Dans cette formation intitulée "**BTC302**", nous tâcherons de présenter l'**intérêt de créer une communauté et/ou un meet-up Bitcoin**, puis nous détaillerons et proposerons **différents outils permettant de développer l'identité visuelle et numérique** de sa communauté ou de son meet-up.
 Par suite, nous présenterons **différents projets et initiatives** pouvant être mis en place facilement, notamment d'un point de vue pédagogique. Plusieurs ressources déjà préconçues seront alors proposées en open-source.
 Enfin, une réflexion plus profonde sera menée sur **l'évolution des communautés d'un point de vue national**; mais également, sur **leur rôle dans l'hyperbitcoinisation du monde de demain**.
 
@@ -58,7 +58,7 @@ En ce sens, dans l'ensemble de ce cours, nous considérerons que pour lancer un 
 
 ### Pourquoi créer une communauté?
 
-Comme dit [précédemment](LIEN DE LA PARTIE 1.1), créer une communauté peut avoir plusieurs objectifs.
+Comme dit au chapitre précédent, créer une communauté peut avoir plusieurs objectifs.
 
 D'une part, lorsqu'elle est composée de bitcoiners, une communauté peut permettre à ses membres d'échanger et de partager des informations entre-eux. L'entre-aide est alors généralement au centre de cette dernière, permettant à chacun d'accélérer son apprentissage.
 Cela a d'ailleurs particulièrement du sens dans le cas de Bitcoin, tant son terrier est profond.
@@ -186,16 +186,15 @@ C'est la raison pour laquelle **ce cours a été construit dans l'objectif de vo
 
 # Concevoir une identité propre à sa communauté Bitcoin
 
+## Pourquoi et comment créer sa propre identité?
+
 Dans la suite de ce cours, nous considérerons que:
 * vous souhaitez créer une communauté (voire, par la suite,  un meet-up) dans une ville ou un lieu géographique que vous avez déjà défini;
 * vous vous êtes fixés des objectifs sur différents horizons de temps, ces derniers n'étant évidemment pas gravés dans la roche.
 
 **La seconde étape de la création d'une communauté est évidemment celle de son identité**. Cela passe par le choix de son nom, mais également de **son identité visuelle**.
-
 C'est la raison pour laquelle nous nous efforcerons, dans cette partie 2/8, de vous proposer des tutoriels et solutions logicielles vous permettant de concevoir l'identité visuelle de votre communauté; et cela, sans pour autant avoir les compétences d'un designer.
-
-## Pourquoi et comment créer sa propre identité?
-
+###
 Il est évident que lorsqu'un être humain s'identifie à un groupe, il se sent plus impliqué. En ce sens, disposer d'une identité propre à votre communauté est essentiel.
 
 Cela passe tout d'abord par le choix du nom. En effet, suivant les pays, différentes initiatives et/ou communautés nationales existent.
@@ -214,11 +213,17 @@ En partant de cet élément, il est alors possible de concevoir un logo plus ou 
 
 Pour vous donner des idées, voici quelques exemples de logos de communautés françaises:
 - À Marseille, le logo représente la basilique Notre-Dame-de-la-Garde, qui surplombe la ville: 
+
 ![image](assets/fr/chapter4/img8.png)
+
 - À Monaco, il fait référence au rocher monégasque: 
+
 ![image](assets/fr/chapter4/img7.jpg)
+
 - À Lille, le logo épuré représente à la citadelle de Vauban et son parc, présents à quelques minutes du centre ville: 
+
 ![image](assets/fr/chapter4/img6.jpg)
+
 - À Saint-Malo, la hermine - emblême de la ville - est mise en valeur: 
 ![image](assets/fr/chapter4/img9.jpg)
 
@@ -246,7 +251,7 @@ Enfin, il est également possible de rechercher sur la page d'accueil une **mini
 Bref, **les possibilités sont infinies et dépendent de vos besoins mais aussi de la charte graphique que vous souhaitez créer** pour votre communauté et vos meet-ups / événements !
 ###
 Afin de pouvoir vous aiguiller plus en détail, nous vous proposons ci-dessous un tutoriel vidéo non-exhaustif présentant quelques possibilités:
-[Tutoriel Canva](https://www.youtube.com/watch?v=sgloI_v-nAk&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=10)
+![Tutoriel Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
 ###
 Voici également quelques fichier pré-conçus, duplicables et modifiables à votre guise que nous utilisons avec notre association Bitcoin Lille:
 - **affiche d'annonce de meet-up** (pour les réseaux sociaux, et imprimée en A4 ou A3): [lien](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -322,8 +327,6 @@ Prenez donc votre mal en patience, essayez de dicter des consignes (des "prompts
 
 # Créer des canaux de communication pour sa communauté Bitcoin
 
-Maintenant que vous disposez de votre nom, d'un logo, d'une potentielle bannière et que vous avez décidé de vos objectifs à court, moyen et long terme, il est désormais venu le moment fatidique de lancer ses canaux de communications !
-
 ## Quels canaux de communication privilégier?
 
 Comme dit précédemment, en fonction des motivations et habitudes de chacun, les canaux de communication d'une communauté peuvent être différents.
@@ -334,6 +337,7 @@ Par exemple, **en France, en Allemagne et en Italie, Telegram et Twitter sont le
 En ce sens, **dans l'objectif de choisir ses canaux de communication, le plus pertinent est de commencer par prendre exemple sur les communautés limitrophes de son pays**.
 Pour ce faire, accéder à la carte [btcmap.org](https://btcmap.org/communities/map#0/0/0/) vous donnera un avis déjà bien précis des canaux de communication les plus utilisés dans votre pays.
 En Suisse par exemple, les informations sont principalement relayées par le biais du Telegram, du Twitter et du site internet de la communauté.
+
 ![image](assets/fr/chapter6/img17.PNG)
 ###
 **Dans le cas de la France (et de la francophonie de manière générale), le principal canal de communication est Telegram**. Plus de 90% des meet-ups français en ont d'ailleurs un: c'est un "must-have".
@@ -360,7 +364,7 @@ Comme dit précédemment, Telegram est un "must-have" dans de nombreux pays. Tou
 Nous le verrons alors par la suite, mais **il est très fortement recommandé de choisir "groupe Telegram" lors de la création** (voire, suivant vos objectifs, "super-groupe Telegram").
 ###
 Pour les tutoriels qui suivront, nous utiliserons l'application APK "Telegram+"; application qui permet de pouvoir aller plus loin dans la configuration de son Telegram. Cela n'est toutefois pas nécessaire, la création d'un groupe ou super-groupe Telegram pouvant se faire désormais très facilement sur téléphone:
-[Tutoriel Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=4)
+![Tutoriel Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
 
 ### Créer un canal Telegram
 
@@ -373,7 +377,7 @@ En effet, **un canal Telegram n'est qu'une vitrine des informations postées par
 Il est toutefois possible d'ajouter la possibilité pour les membres du canal de commenter chaque post de l'administrateur du canal, mais cela se fera dans des discussions séparées; clivant fortement les échanges. **La création d'un canal Telegram n'est donc généralement pas conseillée pour une communauté**.
 ###
 Tutoriel pour créer un canal Telegram:
-[Tutoriel canal Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=4)
+![Tutoriel canal Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
 
 ### Créer un groupe Telegram 
 
@@ -390,7 +394,7 @@ Les administrateurs de ce canal pourront alors:
 - **ajouter une "photo de profil"** au groupe Telegram (i.e. le logo de votre communauté), **et modifier son nom**.
 ###
 Tutoriel pour créer un groupe Telegram:
-[Tutoriel canal Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=5)
+![Tutoriel canal Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
 
 Petite remarque: comme dit précédemment, le tutoriel ci-dessus a été réalisé sur ordinateur avec l'APK "Telegram+". Toutefois, sachez qu'il est désormais très facile de créer un groupe Telegram sur téléphone.
 Il n'est donc plus nécessaire de télécharger "Telegram+" pour réaliser cette tâche; à moins que vous ne souhaitiez aller plus loin dans les paramètres de confidentialité de votre groupe.
@@ -418,7 +422,7 @@ Toutefois, il est à noter qu'**un super-groupe Telegram peut être plus diffici
 De manière générale, il n'existe pas un nombre de membres type à partir duquel il est pertinent d'utiliser un super-groupe Telegram plutôt qu'un groupe Telegram. C'est donc à vous de faire ce choix, en fonction des besoins et demandes de vos membres; tout en sachant qu'un groupe Telegram peut être facilement converti en super-groupe Telegram (et inversement). Pour cela, il suffit de créer un sujet (ou de tous les supprimer).
 ###
 Tutoriel pour créer un super-groupe Telegram:
-[Tutoriel super-groupe Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=6)
+![Tutoriel super-groupe Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
 
 Petite remarque: comme dit précédemment, le tutoriel ci-dessus a été réalisé sur ordinateur avec l'APK "Telegram+". Toutefois, sachez qu'il est désormais très facile de créer un super-groupe Telegram sur téléphone.
 Pour ce faire, il suffit de créer un groupe Telegram; puis, dans ses paramètres, de cliquer sur le bouton "Sujets" pour en ajouter. Une fois la modification validée, une liste de sujets apparaîtra; et vous pourrez la modifier à votre guise.
@@ -480,7 +484,7 @@ Trois autres idées simples sont:
 D'innombrables options supplémentaires s'offrent également à vous. Un conseil toutefois: **ne cherchez pas à trop brider les échanges**.
 ###
 Tutoriel pour ajouter un bot multi-fonction à un groupe ou super-groupe Telegram:
-[Tutoriel bot multi-fonction Telegram](https://www.youtube.com/watch?v=l72GZcEFDtU&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=8)
+![Tutoriel bot multi-fonction Telegram](https://www.youtube.com/watch?v=l72GZcEFDtU)
 
 Petite remarque: comme dit précédemment, toute cette procédure peut être désormais réalisée sur téléphone.
 
@@ -494,19 +498,16 @@ Toutefois, comme dit précédemment, **les potentielles "difficultés d'utilisat
 Évidemment, en plus de Telegram et de Twitter, cela demande encore un peu plus de temps pour s'en occuper; en particulier lors de sa configuration et de son lancement.
 
 Dans l'objectif de vous faciliter la tâche, **nous vous partageons donc un [serveur Discord pré-fait, duplicable et modifiable](https://discord.com/template/bDY4eXXJk2C8) à votre guise**:
-[Tutoriel serveur Discord duplicable](https://www.youtube.com/watch?v=i3V6_359Ajw&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=2)
-
-## Fusionner un salon textuel de son serveur Discord avec son groupe Telegram
-
-Lorsqu'il est bien construit, un serveur Discord peut être un véritable atout pour sa communauté.
-En effet, de nombreux bitcoiners utilisent déjà quotidiennement Discord (et pas Telegram), et leur **permettre de suivre les conversations du groupe Telegram directement au sein même du serveur Discord est un gain conséquent de temps**. Et inversement.
+![Tutoriel serveur Discord duplicable](https://www.youtube.com/watch?v=i3V6_359Ajw)
+###
+Ainsi, lorsqu'il est bien construit, un serveur Discord peut être un véritable atout pour sa communauté. En effet, de nombreux bitcoiners utilisent déjà quotidiennement Discord (et pas Telegram), et leur **permettre de suivre les conversations du groupe Telegram directement au sein même du serveur Discord est un gain conséquent de temps**. Et inversement.
 
 C'est la raison pour laquelle un bot open-source nommé [TediCross](https://github.com/TediCross/TediCross) a été développé. Son objectif est simple: transférer automatiquement les messages d'un salon textuel Discord vers un groupe Telegram (ou un sujet d'un super-groupe Telegram); et inversement. Cela peut donc être très intéressant à mettre en place.
 ### 
 Toutefois, il n'est pas sans noter que son installation n'est pas très évidente, qu'**il faille continuellement faire tourner une invite de commande (CMD) sur un ordinateur pour que ce bot fonctionne**; mais aussi, qu'il y a parfois un bug d'erreur. Heureusement, dans cette situation, il suffit simplement de le relancer; et tout rentre alors dans l'ordre.
 
 Dans l'optique de vous faire de nouveau gagner du temps, voici un tutoriel expliquant comment ajouter un bot multi-fonction à un groupe ou super-groupe Telegram:
-[Tutoriel bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=7)
+![Tutoriel bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
 
 ## Réfléchir à d'autres canaux de communication, privés et plus sécurisés
 
@@ -523,12 +524,12 @@ Qu'y a-t-il donc de mieux, à l'image du protocole Bitcoin, que d'**être incens
 
 # Lancer ses réseaux sociaux
 
+## L'importance de la visibilité pour le développement de sa communauté Bitcoin
+
 Ça y est, votre communauté est lancée et vous disposez désormais d'un ou de plusieurs canaux de communication (Telegram et/ou Matrix par exemple) !
 Par contre, vous y êtes pour le moment... seul(e). Il va donc falloir **faire - un peu - de communication**.
 
-## L'importance de la visibilité pour le développement de sa communauté Bitcoin
-
-Il est évident que si personne ne parvient à accéder à vos canaux de communication, sur lesquels vous posterez régulièrement des informations (date du prochain meet-up, projets, etc.), vous allez oeuvrer dans le vide. C'est la raison pour laquelle **les réseaux sociaux - et certaines plateformes précises, dont nous parlerons par la suite - vont jouer un rôle prépondérant dans le développement de votre communauté**.
+Il en effet est évident que si personne ne parvient à accéder à vos canaux de communication, sur lesquels vous posterez régulièrement des informations (date du prochain meet-up, projets, etc.), vous allez oeuvrer dans le vide. C'est la raison pour laquelle **les réseaux sociaux - et certaines plateformes précises, dont nous parlerons par la suite - vont jouer un rôle prépondérant dans le développement de votre communauté**.
 
 Parmi ces réseaux sociaux, **Twitter se positionne comme un quasi-incontournable dans le monde de Bitcoin**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme**; quand bien même sa centralisation et son développement sont loin d'être corrects.
 C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, dans l'idée d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout: mieux vaut prévenir que guérir.
@@ -590,7 +591,7 @@ Notez également qu'il est possible, sur téléphone comme ordinateur, d'être c
 Enfin, bien que votre nom d'utilisateur "@Bitcoin[VILLE]" est unique et vous appartient désormais, il peut être pertinent de créer en amont les comptes "@Bitcoin_[VILLE]", "@[VILLE]Bitcoin" ou "@[VILLE]_Bitcoin" afin d'**être certain que personne ne cherchera à dupliquer votre identité**. Mieux vaut en effet anticiper !
 ###
 Tutoriel pour créer un compte Twitter:
-[Tutoriel compte Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=11)
+![Tutoriel compte Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
 
 ## Se rapprocher des meet-ups limitrophes
 
@@ -605,6 +606,11 @@ Le cas des repas du **Cercle du Coin** en est un autre exemple.
 ![image](assets/fr/chapter15/img26.jpg)
 
 De plus, en France, il peut également être pertinent de **suivre les initiatives @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin et @btcmap**. Ce ne sont évidemment que des propositions, et chaque communauté est bien évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.
+
+
+
+
+
 
 ## [Btcmap.org](https://btcmap.org/)
 
@@ -635,13 +641,10 @@ Une fois qu'un petit groupe de bitcoiners vous aura rejoint, il n'y aura plus qu
 
 # Organiser un meet-up Bitcoin
 
-Votre communauté se développe petit à petit et, dans ses canaux de communication, vous commencez à sentir une certaine ferveur? En tant qu'organisateur, vous souhaitez aller plus loin qu'échanger quotidiennement des GIFs de Telegram ou Matrix?
-Il est donc venu le moment d'**organiser un meet-up Bitcoin !**
-
 ## Pourquoi lancer un meet-up régulier avec sa communauté?
 
 Maintenant que les réseaux sociaux et les canaux de communication de votre communauté ont été lancés, il n'y a plus qu'à faire acte de présence sur ces plateformes et les nouveaux membres devraient se présenter d'eux-même, engageant petit à petit les discussions.
-Cela peut donc vous permettre de libérer du temps dans l'objectif de réfléchir à la création d'une rencontre de type "meet-up", avec le format que vous souhaitez.
+Cela peut donc vous permettre de libérer du temps dans l'objectif de réfléchir à la création d'une rencontre de type "meet-up", avec le format que vous souhaitez. En particulier si vous commencez à sentir une certaine ferveur au sein de votre communauté.
 
 Comme dit précédemment, **un meet-up Bitcoin peut donc être vu comme le "niveau" suivant d'une communauté**. Il permet d'une part, **à ses membres bitcoiners, de se rencontrer**; et d'autre part, d'**éduquer les nouvelles personnes intéressées par cet écosystème**.
 Un événement de type "meet-up" va ainsi permettre - à votre échelle - de **créer dans votre ville un engouement autour de Bitcoin**; qui pourra s'étoffer au fil du temps en fonction des projets que votre communauté réalisera.
@@ -806,15 +809,15 @@ Bien évidemment, **à chacun de fixer sa limite** dans ce que l'on peut entendr
 
 # Des exemples de projets et d'initiatives
 
+## Pourquoi aller plus loin que de simplement boire des bières?
+
 Au fil des blocs, votre communauté se développera. De nouvelles têtes vous rejoindront et d'autres s'effaceront.
 Afin de **faire avancer l'écosystème Bitcoin et de construire des liens encore plus forts au sein de votre communauté**, de nombreux projets et initiatives peuvent être réalisés.
 
 Ci-dessous, **nous vous proposons donc une succession d'idées non exhaustives qui peuvent être mises en place au sein d'une communauté ou lors d'un meet-up**.
 Vous êtes donc libre de piocher dans celles qui vous plaisent, mais aussi d'en ajouter d'autres en réalisant une "Pull Request" sur GitHub.
-
-## Pourquoi aller plus loin que de simplement boire des bières?
-
-Avant de débuter, il semble intéressant d'aborder plus en détail un point déjà énuméré dans les parties précédentes de ce cours.
+###
+Mais avant de débuter, il semble intéressant d'aborder plus en détail un point déjà énuméré dans les parties précédentes de ce cours.
 
 Lorsqu'on lance un meet-up Bitcoin, on découvre de nouvelles personnes. Les intéractions sociales sont donc importantes, et la bière (l'alcool de manière générale) permet de rendre ce genre d'événements festifs. Mais ATTENTION:
 - d'une part, **l'alcool inhibe certaines capacités cognitives** (réflexion, compréhension, etc.). Il est donc **plus difficile pour les participants de suivre des discussions sérieuses** - ou une présentation - après avoir bu un doux breuvage alcoolisé;
@@ -1033,7 +1036,7 @@ Néanmoins, **cela demande beaucoup de temps pour le concevoir** (plusieurs diza
 Dans l'objectif de simplier ce travail de création, le tutoriel ci-dessous vous présente en une demi-heure les étapes de création d'**un site internet gratuit sur la plateforme WordPress**. Ce site vous permettra ainsi de **disposer d'une page d'accueil personnalisable, de créer de catégories, de publier des articles, d'intégrer des médias (vidéos youtube, images, pdf)**, etc.
 Par la suite, il vous sera possible d'acheter votre propre nom de domaine et même de l'héberger sur votre serveur personnel si vous le souhaitez.
 
-[Tutoriel pour créer un site internet WordPress gratuit](https://www.youtube.com/watch?v=cZzH4gj_kZY&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt)
+![Tutoriel pour créer un site internet WordPress gratuit](https://www.youtube.com/watch?v=cZzH4gj_kZY)
 ###
 D'autres CMS ou plateformes permettent également de créer des sites internets. Bien que certaines soient plus simples de par leur interface agréable, les sites internet qui en sortent sont également bien moins personnalisables.
 **WordPress semble donc être le plus pertinent pour se lancer**. De plus, il permet l'**intégration de plug-ins**, pour certains payants mais de qualité, permettant d'aller beaucoup plus loin dans la création d'un site internet; et cela, sans pour autant avoir besoin de coder.
@@ -1083,7 +1086,7 @@ Ainsi, une fois le travail réalisé sur "Spotify for podcasters", il ne vous re
 Dans le cas où vous souhaiteriez vous **enregistrer sur votre ordinateur, un logiciel gratuit comme ["Audacity"](https://www.audacityteam.org/) fait très bien l'affaire**. Il permet de régler de nombreux paramètres, d'effectuer des crescendos et même d'améliorer la netteté du son lors du montage. Enregistrer votre voix, puis effectuer le montage audio de votre podcast, devrait donc être assez facile.
 
 Voici d'ailleurs un court tutoriel présentant, en 10 minutes, les fonctionnalités principales à connaître pour réaliser un podcast avec Audacity.
-[Tutoriel pour créer un podcast avec Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt&index=13)
+![Tutoriel pour créer un podcast avec Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
 
 Remarque: comme dit précédemment, dans le cas où, un jour, Bitcoin serait interdit ou censuré, il peut être pertinent de toujours **conserver en local, sur un disque dur, une copie des podcasts** que vous posterez.
 
@@ -1213,17 +1216,17 @@ Ayez en effet en tête que **toute communauté et tout meet-up sont passés par 
 
 # Anticiper le futur
 
+## Prévoir l'augmentation du nombre de participants
+
 Alors que le monde est entré dans sa quatrième époque, au bloc 840 000, de plus en plus d’individus voient **en Bitcoin une révolution; technologique, financière et sociale**.
 
 À l’image de celle d’internet, cette révolution va nécessairement **prendre du temps**, et c’est une bonne chose. Cela va permettre à tout à chacun de **s’éduquer sur les fondamentaux de Bitcoin, et d’apprendre à l’utiliser**. Mais également, aux développeurs et aux entreprises de développer des protocoles et applications pertinentes, permettant d’explorer le plein potentiel de Bitcoin.
 
 Bien qu’il est impossible de prévoir le futur, **une augmentation très significative du nombre d’utilisateurs de Bitcoin est à anticiper**, afin d’**être préparé à toutes les situations**. Y compris les plus catastrophiques, comme une potentielle implosion du système financier traditionnel; voire même: une interdiction de Bitcoin.
+
+Dans cette huitième et dernière partie de ce cours, nous allons donc prendre le temps de détailler quelques points à prendre en considération lors du développement de votre communauté et de vos meet-ups.
 ###
-Dans cette huitième et dernière partie de ce cours, viendront à être détaillé quelques points à prendre en considération lors du développement de votre communauté et de vos meet-ups.
-
-## Prévoir l'augmentation du nombre de participants
-
-Le premier point (le plus simple à anticiper) est évidemment **l’augmentation du nombre de personnes rejoignant votre communauté**. Cela l’impactera alors de deux manières:
+Le premier d'entre-eux (le plus simple à anticiper) est évidemment **l’augmentation du nombre de personnes rejoignant votre communauté**. Cela l’impactera alors de deux manières:
 
 1) **vos canaux de communication (Telegram, Signal, Matrix, etc...) se rempliront, rendant potentiellement les conversations difficilement suivables**. Deux points sont alors à prendre en considération.
 D’une part, si vous êtes 500 à échanger sur des sujets divers dans un même canal de discussion, une majorité de vos membres vont petit à petit arrêter de suivre les conversations; entre autre à cause de l’abondance des messages à lire et des notifications associées. En ce sens, il peut être pertinent de **réfléchir de nouveau à ses canaux de communication; à l’image par exemple des super-groupes Telegram, voire d’un serveur Discord**, qui permettent tous deux de regrouper les conversations par thème.
@@ -1285,15 +1288,15 @@ Bien sûr, il ne faut pas tomber dans une forme de complotisme. Mais **rien ne n
 
 # Conclusion
 
+## Un plan d'action résumé pour créer sa communauté Bitcoin
+
 Satoshi Nakamoto a créé un outil révolutionnaire qui a la capacité de changer le monde que nous connaissons. Il est toutefois certain que **c’est à nous, bitcoiners, de choisir la trajectoire que nous souhaitons prendre pour construire l'avenir**.
 
 En parallèle, l'essence de Bitcoin en fait un terrier du lapin immense, recoupant tellement de pans historiques, économiques, littéraires, mathématiques, informatiques et cryptographiques qu’il est impossible d'en faire le tour. Cela constitue en partie sa beauté.
 Or, en tant qu’être humain, nous ne disposons que d’une quantité de temps finie au cours de notre vie. **C’est donc en restant humbles et en apprenant des autres** que chacun d'entre-nous parviendra à atteindre la jauge que l’on s’est soi-même fixée quant à notre compréhension de Bitcoin.
 
 **Les communautés Bitcoin mondiales jouent donc un rôle fondamental dans la construction du monde de demain**; communautés dans lesquelles bitcoiners pourront **échanger, construire et partager**. **Ensemble**.
-
-## Un plan d'action résumé pour créer sa communauté Bitcoin
-
+###
 Comme vous l’aurez compris dans ce cours, **créer une communauté et un meet-up Bitcoin** demande de l’organisation et de la motivation. Bien évidemment, en fonction des envies et du temps que vous aurez à y consacrer, vous viendrez à aller plus ou moins loin dans les projets. 
 Quoi  qu'il en soit, l’objectif reste le même: **allumer l’étincelle pour que Bitcoin se développe dans votre ville**.
 ###
@@ -1327,13 +1330,13 @@ Enfin:
 18) allez encore plus loin dans les projets qui vous plaisent et vous importent.
 
 De manière un peu moins détaillée, en 21 min de vidéo, cela donne:
-[Tutoriel créer une communauté Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8&list=PLVkpvudLgb2mwT8VP-S6FCCZJ8BpbQfmt)
+![Tutoriel créer une communauté Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
 ###
 Quoi qu'il en soit, **n'oubliez pas que vous n'êtes pas seul(e) et que les communautés déjà existantes sont là pour vous aider**.
 
 ## Formation #COMMU201
 
-Dans cette formation #COMMU101, nous avons précisément détaillé les étapes de la création d'une communauté, d'un meet-up; mais également, la mise en place de nombreux projets.
+Dans cette formation #BTC302, nous avons précisément détaillé les étapes de la création d'une communauté, d'un meet-up; mais également, la mise en place de nombreux projets.
 
 Lorsque que votre communauté se sentira alors prête à passer au stade supérieur, **il est possible de créer une association**.
 En France par exemple, sur la cinquantaine de communautés et meet-ups, on compte près d'une dizaine d'associations.

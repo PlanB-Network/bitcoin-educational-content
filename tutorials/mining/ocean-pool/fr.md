@@ -99,7 +99,7 @@ Ensuite, pour le champ user, renseignez une adresse Bitcoin que vous possédez. 
 
 Si vous avez plusieurs mineurs, vous pouvez entrer la même adresse sur tous pour que leurs hashrates soient additionnés et apparaissent comme un seul mineur. Vous pouvez également les distinguer en ajoutant un nom distinct à chacun. Pour cela, ajoutez simplement « .workername » après l’adresse Bitcoin.
 
-Enfin, pour le champ password, utilisez « x ».
+Enfin, pour le champ password, utilisez `x`.
 
 **Exemple :**
 Si vous choisissez le template **OCEAN**, que votre adresse Bitcoin est `bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv` et que vous souhaitez nommer votre mineur « Brrrr », alors vous devrez renseigner les informations suivantes dans l’interface de votre mineur :
@@ -160,7 +160,7 @@ Commencez par aller sur votre dashboard sur le site d'Ocean en renseignant votre
 ![signup](assets/9.webp)
 
 Nous allons copier le texte de **Description**, ici :
-OCEAN Payouts for bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv
+`OCEAN Payouts for bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv`
 
 Allez maintenant sur votre interface Core Lightning sur votre serveur Start9 (ou n’importe quel wallet capable de fournir un BOLT12 offer).
 
@@ -190,11 +190,11 @@ En admettant que votre clé privée est dans BlueWallet (vous pouvez faire la m�
 
 ![signup](assets/15.webp)
 
-Puis sur les « … » en haut à droite.
+Puis sur les **…** en haut à droite.
 
 ![signup](assets/15bis.webp)
 
-Et « Sign/Verify Message ».
+Et **Sign/Verify Message**.
 
 ![signup](assets/16.webp)
 

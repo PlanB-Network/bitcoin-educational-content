@@ -13,7 +13,7 @@ This repo is organized around three main directories, which are:
 - `courses`: comprising all the courses about Bitcoin, Lightning, Cryptography, Mining, and so on.
 - `resources`: consisting of various types of resources about Bitcoin, such as books, company info, or podcasts.
 - `tutorials`: consisting of how-to articles, categorized into themes like exchange, merchant, node, privacy, and so on.
-- `quizz`: comprising all the questions that accompagnies the chapter of each courses.
+- `quizz`: comprising all the questions that accompany the chapter of each courses.
   
 Each individual content piece, which is a markdown file, is defined by its location in this tree structure and by its language in the name. For instance, the Italian tutorial about Nerd-Miner would have the following path: `sovereign-university-data/tutorials/mining/nerd-miner/it.md`.
 
@@ -35,7 +35,7 @@ Moreover, we are working on a [local interface](https://github.com/pythcoiner/pl
 
 ### Sat Reward 
 
-We consider that any review should be rewarding in sat, so we have derived a equation to compute the corresponding reward to any review contribution:
+We consider that any review should be rewarding in sat, so we have derived an equation to compute the corresponding reward to any review contribution:
 $$R(W)=B+U\cdot D_C \cdot D_L \cdot W$$
 
 with $R$ the reward, $B$ the base fee (currently 2,500 sats), $U$ the review urgency, $D_C$ the difficulty content, $D_L$ the language difficulty (see below for factor values) and $W$ the number of words in the content.

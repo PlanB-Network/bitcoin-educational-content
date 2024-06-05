@@ -1,8 +1,8 @@
-タイトル: "正直なお金"
-出版年: 1986
-カバー: cover_en.jpeg
-原著: true
-説明: |
+title: "正直なお金"
+publication_year: 1986
+cover: cover_en.jpeg
+original: false
+description: |
 
-貢献者:
-  - ラビットホール
+contributors:
+  - rabbit-hole

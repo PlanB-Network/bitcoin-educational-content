@@ -1,8 +1,8 @@
-タイトル: "ビットコイン"
-公開年: 2019
-カバー: cover_en.jpeg
-原著: true
-説明: |
+title: "ビットコイン"
+publication_year: 2019
+cover: cover_en.jpeg
+original: false
+description: |
 
-貢献者:
-  - ラビットホール
+contributors:
+  - rabbit-hole

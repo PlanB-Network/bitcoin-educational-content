@@ -601,16 +601,14 @@ Sur Twitter, cela peut commencer par **suivre certains comptes oeuvrant au déve
 En effet, **cela permettra mutuellement de se suivre, de se taguer et donc de collectivement gagner en visibilité**.
 C'est d'ailleurs le cas entre la cinquantaine de communautés Bitcoin françaises; et il en est de même avec la majorité des initiatives "Satoshi Spritz" en Italie et "Einundzwanzig" en Allemagne.
 
-Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (mais aussi, Bitcoin Aix et Bitcoin Marseille); les amenant désormais à effectuer au moins une fois par an un meet-up commun.
+Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (c'est le cas aussi de Bitcoin Aix et Bitcoin Marseille); les amenant désormais à effectuer au moins une fois par an un meet-up commun.
 Le cas des repas du **Cercle du Coin** en est un autre exemple.
 ![image](assets/fr/chapter15/img26.jpg)
 
 De plus, en France, il peut également être pertinent de **suivre les initiatives @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin et @btcmap**. Ce ne sont évidemment que des propositions, et chaque communauté est bien évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.
-
-
-
-
-
+L'intérêt de se suivre mutuellement est toutefois assez simple: s'apporter mutuellement de la visibilité. En effet, plus vous serez présents sur les réseaux, plus l'on parlera de vous; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements. Liker / retweeter sur les réseaux sociaux les posts des autres communautés peut également être intéressant.
+###
+En parallèle, il est également possible de **proposer aux organisateurs de meet-ups et personnes ayant créé une communauté de se retrouver sur un créneau prédéfini, et cela lors des événements physiques**. Cela peut alors permettre de faire un point sur le ressenti de chacun, de discuter de l'évolution des communautés présentes, de partager des idées de projets qui ont aboutis; mais également, de se proposer mutuellement des solutions lorsque cela est nécessaire. Un retour écrit peut alors être, si souhaité, partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
 
 ## [Btcmap.org](https://btcmap.org/)
 

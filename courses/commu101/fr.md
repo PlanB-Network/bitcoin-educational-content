@@ -224,7 +224,8 @@ Pour vous donner des idées, voici quelques exemples de logos de communautés fr
 
 ![image](assets/fr/chapter4/img6.jpg)
 
-- À Saint-Malo, la hermine - emblême de la ville - est mise en valeur: 
+- À Saint-Malo, la hermine - emblême de la ville - est mise en valeur:
+
 ![image](assets/fr/chapter4/img9.jpg)
 
 Il est donc désormais de votre ressort de **trouver un élement ou un lieu marquant de votre ville et de l'utiliser pour construire le visuel de votre communauté Bitcoin**.
@@ -262,6 +263,7 @@ Voici également quelques fichier pré-conçus, duplicables et modifiables à vo
 - **bannière pour certains réseaux sociaux**: [lien](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - **annonce d'un jeu concours**: [lien](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ![image](assets/fr/chapter5/img11.png)
 
 - **charte** de notre bibliothèque, affichée en A4 lors des meet-ups: [lien](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -308,16 +310,19 @@ Pour ce faire, de nombreuses IAs existent. On compte notamment:
 ###
 Dans le cas où l'on souhaiterait par exemple réaliser une image ou un logo futuriste du meet-up "Bitcoin Londres", on peut alors demander à l'IA "copilot":
 - [ ] *Crée moi un logo Bitcoin avec en arrière plan le pont de Londres et Big Ben. Futuriste* - [Lien](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
+
 ![image](assets/fr/chapter5/img14.PNG)
 
 Si les quatre propositions de copilot ne sont toutefois pas assez réalistes à votre goût, il vous est possible d'ajouter à la conversation:
 - [ ] *Rends le 4ème plus beaucoup plus réaliste* - [Lien](https://copilot.microsoft.com/images/create/un-logo-bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
+
 ![image](assets/fr/chapter5/img15.PNG)
 
 Le dernier rendu est d'ailleurs plutôt sympa !
 ###
 Cependant, si l'on souhaite un logo beaucoup plus épuré, pour par exemple un sticker, on peut alors entrer sur "copilot":
 - [ ] *Crée moi le logo du "Londres Bitcoin Meetup" avec un style british et épuré* - [Lien](https://copilot.microsoft.com/images/create/logo-for-27londres-bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
+      
 ![image](assets/fr/chapter5/img16.PNG)
 
 Le second recond est typique et de peut tout à fait faire l'affaire !
@@ -372,6 +377,7 @@ Si vous souhaitez créer un endroit où vos membres peuvent échanger ensemble d
 Passez donc directement à la section suivante, intitulée [Créer un groupe Telegram](LIEN).
 
 En effet, **un canal Telegram n'est qu'une vitrine des informations postées par les administrateurs, dans lequel les membres ne pourront pas faire grand chose de plus qu'ajouter des émojis**.
+
 ![image](assets/fr/chapter7/img18-fr.png)
 
 Il est toutefois possible d'ajouter la possibilité pour les membres du canal de commenter chaque post de l'administrateur du canal, mais cela se fera dans des discussions séparées; clivant fortement les échanges. **La création d'un canal Telegram n'est donc généralement pas conseillée pour une communauté**.
@@ -383,6 +389,7 @@ Tutoriel pour créer un canal Telegram:
 
 À contrario, **créer un groupe Telegram est tout à fait pertinent**.
 En effet, pour prendre des exemples connus comme les groupes Messenger ou WhatsApp, toutes les personnes qui rejoindront ce **groupe Telegram pourront échanger ensemble, se répondre; et cela, toujours dans une même discussion**.
+
 ![image](assets/fr/chapter7/img19-en.png)
 
 Les administrateurs de ce canal pourront alors:
@@ -415,6 +422,7 @@ Un sujet **"Général"** peut également être mis en place, dans lequel tous le
 Enfin, **des sujets spécifiques** (minage, développement d'un projet, prochaine conférence, etc.) peuvent être ajoutés.
 
 À vous de modifier cela en fonction de vos envies; à l'image par exemple du super-groupe d'Abidjan Bitcoin Meet-up.
+
 ![image](assets/fr/chapter7/img20-fr.png)
 ###
 Toutefois, il est à noter qu'**un super-groupe Telegram peut être plus difficile à utiliser pour certains membres**. En effet, parfois, certains ne parviennent pas à comprendre **comment accéder aux autres sujets de ce super-groupe** (pour cela, il suffit simplement de cliquer sur le logo du groupe; et cela ouvre la liste des sujets créés). Les aider en leur envoyant une petite vidéo tutorielle en capture d'écran peut alors être une bonne idée.
@@ -474,6 +482,7 @@ Parmi les multiples options possibles avec **le bot [@GroupHelpBot](https://tele
 - configurer la permission des commandes;
 - supprimer automatiquement certains types de messages;
 - etc.
+
 ![image](assets/fr/chapter9/img22-fr.jpg)
 
 Trois autres idées simples sont:
@@ -533,6 +542,7 @@ Il en effet est évident que si personne ne parvient à accéder à vos canaux d
 
 Parmi ces réseaux sociaux, **Twitter se positionne comme un quasi-incontournable dans le monde de Bitcoin**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme**; quand bien même sa centralisation et son développement sont loin d'être corrects.
 C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, dans l'idée d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout: mieux vaut prévenir que guérir.
+
 ![image](assets/fr/chapter13/img23.jpg)
 
 D'autres réseaux sociaux peuvent évidemment être utilisés. C'est le cas de Facebook (cas d'un groupe ou d'une page Facebook) ou même LinkedIn.
@@ -550,6 +560,7 @@ Très simple d'utilisation, Twitter est un réseau social nécessitant la modifi
 3. **la description**, qui vous permettra en une centaine de caractères de donner les informations importantes sur votre communauté. Cela peut par exemple être:
 > Compte officiel de la communauté Bitcoin [VILLE] #BTC | Meet-ups tous les 1ers mercredis du mois à [NOM_DU_BAR] de [VILLE] 🍻 | Nous rejoindre sur Telegram 🔽
 4. En dessous de cette description, il est également possible d'**insérer un lien**. Ce dernier peut alors amener les utilisateurs à accéder à une page "réseaux sociaux" disponible sur le site internet de votre communauté, comme il peut les amener vers votre canal de communication Telegram.
+
 ![image](assets/fr/chapter14/img24-fr.png)
 
 De plus, **quelques paramètres de confidentialité semblent être pertinents à modifiés**; les plus pertinents étant évidemment:
@@ -584,6 +595,7 @@ Voici donc **les principaux points auxquels il faut faire attention pour que vot
     - encouragez votre communauté à aller voir et à suivre votre profil.
 ###
 De plus, **il est possible d'épingler sur votre profil Twitter un tweet auquel vous souhaiteriez donner une visibilité importante**.
+
 ![image](assets/fr/chapter14/img25-en.png)
 
 Notez également qu'il est possible, sur téléphone comme ordinateur, d'être connecté simultanément à deux comptes Twitter en même temps. Cela peut être très pratique pour ne pas avoir à se connecter / déconnecter entre son compte personnel et son compte communautaire; tout comme cela peut vous jouez des tours si vous postez involontairement avec le compte de votre communauté une photo de vous déguisé... Prudence, donc !
@@ -603,6 +615,7 @@ C'est d'ailleurs le cas entre la cinquantaine de communautés Bitcoin française
 
 Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (c'est le cas aussi de Bitcoin Aix et Bitcoin Marseille); les amenant désormais à effectuer au moins une fois par an un meet-up commun.
 Le cas des repas du **Cercle du Coin** en est un autre exemple.
+
 ![image](assets/fr/chapter15/img26.jpg)
 
 De plus, en France, il peut également être pertinent de **suivre les initiatives @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin et @btcmap**. Ce ne sont évidemment que des propositions, et chaque communauté est bien évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.

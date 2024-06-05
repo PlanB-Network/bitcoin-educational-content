@@ -13,7 +13,7 @@ Si vous désirez apporter votre pierre à l'édifice PlanB Network, vous allez a
 ![github](assets/1.webp)
 - Choisissez un mot de passe fort, puis cliquez sur le bouton vert `Continue` :
 ![github](assets/2.webp)
-- Choisissez ensuite votre nom d'utilisateur. Vous avez la possibilité de révéler votre véritable identité ou de préférer l'usage d'un pseudonyme. Puis, cliquez sur le bouton vert `Continue` :
+- Choisissez ensuite votre nom d'utilisateur. Vous pouvez révéler votre véritable identité ou bien utiliser un pseudonyme. Puis, cliquez sur le bouton vert `Continue` :
 ![github](assets/3.webp)
 - Complétez le Captcha :
 ![github](assets/4.webp)

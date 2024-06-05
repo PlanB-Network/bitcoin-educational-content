@@ -37,7 +37,7 @@ Cette vision statistique est bien sûr intimement liée:
 * au développement successif du marché spéculatif des crypto-monnaies, en particulier en 2017/2018 et en 2020/2021;
 * à l'apparition de plus en plus régulière de Bitcoin dans les médias.
 
-![image](assets/fr/chapter0/img1.jpg)
+![image](assets/fr/chapter0/img1bis.jpg)
 
 ####
 Alors que Bitcoin n'est encore qu'à ses balbutiements, ce constat - que vous connaissez certainement déjà - nous amène alors à réfléchir à deux choses.

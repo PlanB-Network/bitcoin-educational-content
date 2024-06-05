@@ -1,114 +1,120 @@
 ---
-name: Giới thiệu về Lập trình RGB
-goal: Học cơ bản về ngăn xếp lập trình RGB và xây dựng ứng dụng RGB đầu tiên của bạn
+name: Introduction to RGB Programming
+goal: Learn the basics of the RGB programming stack and build your first RGB applications
 objectives:
-  - Hiểu về RGB một cách lý thuyết
-  - Vận hành một nút RGB
-  - Xây dựng trên nền tảng RGB
+  - Understand RGB theoretically
+  - Run an RGB node
+  - Build on top of RGB
 ---
 
-# Hành trình vào thế giới RGB
+# A journey into RGB
 
-Trong chương trình này, chúng ta sẽ đào sâu vào RGB, một giải pháp đa tầng cách mạng cho khả năng mở rộng của Bitcoin. RGB sử dụng xác thực phía client để tích hợp hợp đồng thông minh của mình vào Bitcoin, cho phép hợp đồng ngoại tuyến và các trường hợp sử dụng có khả năng mở rộng của giao thức. Từ DeFi đến NFTs đến tạo tài sản, RGB là một công nghệ hứa hẹn có thể kích hoạt nhiều trường hợp sử dụng mới không thể kiểm duyệt.
+In this program, we will delve deeply into RGB, a revolutionary multi-layer solution for Bitcoin scalability. RGB employs client-side validation to integrate its smart contracts into Bitcoin, allowing for off-chain contracts and scalable use cases of the protocol. From DeFi to NFTs to asset creation, RGB is a promising technology that can enable many new uncensorable use cases.
 
-Trong khóa học này, chúng ta sẽ đầu tiên tập trung vào các khía cạnh lý thuyết, sau đó khám phá phía lập trình, và cuối cùng, chúng ta sẽ xem xét một số ví dụ và bài tập thực tế cụ thể. Khóa học này bắt nguồn từ một hội thảo trực tiếp do Fulgur'Ventures tổ chức và được giảng dạy bởi ba giáo viên nổi tiếng và chuyên gia về RGB.
+In this course, we will first focus on the theoretical aspects, then explore the programming side, and finally, we will look at some concrete real-life examples and exercises. The course originates from a live seminar organized by Fulgur'Ventures and taught by three renowned teachers and RGB experts.
 
-Chúc bạn may mắn và thành công với một trong những chủ đề tiên tiến nhất trong Bitcoin.
+Enjoy and good luck with one of the most advanced topics in Bitcoin.
 
 +++
 
-# Giới thiệu về khóa học RGB
+# Introduction to the RGB course
 <partId>c6f7a70f-d894-595f-8c0a-b54759778839</partId>
 
-## Trình bày khóa học
+## Coures presentation
 <chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
 
-Chào mọi người, và chào mừng bạn đến với các khóa học RGB này.
+Hey everyone, and welcome to these RGB courses.
 
-Trong chương trình mới này, bạn sẽ được học cơ bản của lập trình RGB cùng với một số bài tập thực hành. Các khóa học sẽ chỉ bằng tiếng Anh vào thời điểm hiện tại. Chương trình này ban đầu là một phần của một bootcamp phát triển nâng cao kéo dài 2 tuần tại Tuscany, Viareggio, do Fulgur'Ventures tổ chức. Tuần đầu tiên tập trung vào Rust và SDK và có thể tìm thấy trong chương trình [LN 402](https://planb.network/courses/ln402). Trong chương trình này, chúng tôi tập trung vào tuần thứ hai của bootcamp, sẽ bao gồm RGB.
+In this new program, you will be learning the basics of RGB programming along with some practical exercises. The courses will be in English only for now. This program was originally part of a 2-week advanced dev bootcamp in Tuscany, Viareggio, organized by Fulgur'Ventures. The first week focused on Rust and SDK and can be found in the program [LN 402](https://planb.network/courses/ln402). In this program, we focus on the second week of the bootcamp, which will cover RGB.
 
-Tuần 1 - [LN 402](https://planb.network/courses/ln402)
+Week 1 - [LN 402](https://planb.network/courses/ln402)
 
-![hình ảnh](assets/image/1.webp)
+![image](assets/image/1.webp)
 
-Tuần 2 - Đào tạo hiện tại
+Week 2 - Current formation 
 
-![hình ảnh](assets/image/2.webp)
+![image](assets/image/2.webp)
 
-Xin cảm ơn người đã tổ chức các khóa học trực tiếp này và ba giáo viên đã tham gia:
+A big thanks to the person who've organize this live courses and the 3 teacher who've particiapted: 
 
-- Maxim Orlovsky: Ex Tenebrae sententia sapiens dominabitur astris. Cypher, AI, robotics, transhumanism. Người tạo ra RGB, Prime, Radiant và lnp_bp, mycitadel_io & cyphernet_io
-- Hunter Trujilo: Nhà phát triển, Rust, Bitcoin, Bitcoin, Lightning, RGB
-- Federico Tenga: Đang làm phần của mình để thế giới trở thành một dystopia cypherpunk. Hiện đang làm việc trên RGB tại @bitfinex
+- Maxim Orlovsky : Ex Tenebrae sententia sapiens dominabitur astris. Cypher, AI, robotics, transhumanism. Creator of RGB, Prime, Radiant and lnp_bp, mycitadel_io & cyphernet_io
+- Hunter trujilo :  Developer, Rust, Bitcoin, Bitcoin, Lightning, RGB
+- Federico Tenga : Doing my part to make the world become a cypherpunk dystopia. Currently working on RGB at @bitfinex
 
-Chúc bạn may mắn với việc học của mình, và nếu bạn cần liên hệ với đội ngũ của chúng tôi hoặc giáo viên, vui lòng sử dụng kênh thích hợp. Các khóa học này sẽ được cập nhật ngắn gọn với một phần văn bản cho mỗi chương, kỳ thi và hình ảnh. Hãy chú ý theo dõi.
+Good luck with your studies, and if you need to reach out to our team or the teacher, please use the appropriate channel. This courses will be upadte shortly with a texte section for each chapter, exams and image. stay tuned. 
 
-# RGB về mặt lý thuyết
+# RGB in theory
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
 
-## Hiểu về RGB
+## Understandign RGB 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 ![video](https://youtu.be/AF2XbifPGXM)
 
-## Xác thực phía client
+## Client side validation 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
 ![video](https://youtu.be/FS6PDprWl5Q)
 
-## Giải thích trạng thái RGB
+## RGB Explain State
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 ![video](https://youtu.be/tmAVdyXGmj4)
 
-## Logic kinh doanh của RGB
+## RGB Business logic 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 ![video](https://youtu.be/lUTjeuM0oTA)
 
-# Lập trình trên RGB
+# Programming on RGB 
 <partId>148a7436-d079-56d9-be08-aaa4c14c6b3a</partId>
 
-## Cơ bản của lập trình RGB
+## Basic of RGB programming
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
 ![video](https://youtu.be/Uo1UoxiImsI)
 
-## Phần 2 của lập trình RGB
+## RGB programming Part2 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 ![video](https://youtu.be/sVoKIi-1XbY)
 
-## Viết hợp đồng thông minh
+## Writing smart contract
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
 ![video](https://youtu.be/GRwS-NvWF3I)
 
-## Chủ đề nâng cao về RGB và thảo luận về tương lai
+## Advance RGB topic and future discussion
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
-# Xây dựng trên RGB
+
+![video](https://youtu.be/mqCupTlDbA0)
+
+# Building on RGB 
 <partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>
 
-## Bitmask
+## Bitmask	
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 ![video](https://youtu.be/nbUtV8GOR_U)
 
-## Phần 1 của Node RGB
+## RGB Node part 1 
+<chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 ![video](https://youtu.be/5iAhsgCSL3U)
 
-## Phần 2 của Node RGB
+## RGB Node part 2
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
 ![video](https://youtu.be/piQQH4Q2nr0)
 
-# Kết luận
 
-## Lời kết
+# Conclusion 
+<partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
+
+## closing Word
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-Cảm ơn bạn đã tham gia các khóa học về RGB do Mạng lưới PlanB phối hợp cùng Fulgur'Ventures tổ chức. Chúng tôi xin bày tỏ lòng biết ơn đến các giáo viên đã hỗ trợ chúng tôi. Nếu bạn quan tâm đến việc tiếp tục công việc với RGB, dưới đây là danh sách các nguồn lực hữu ích để bạn khám phá:
+Thank you for participating in the RGB courses offered by PlanB Network in collaboration with Fulgur'Ventures. We extend our gratitude to our teachers for their support. If you are interested in continuing your work with RGB, here is a useful list of resources for you to explore:
 
 - https://rgb.tech/
 - https://www.rgbfaq.com/
@@ -116,4 +122,4 @@ Cảm ơn bạn đã tham gia các khóa học về RGB do Mạng lưới PlanB 
 - https://www.youtube.com/LNP-BP
 - https://twitter.com/lnp_bp
 
-Cảm ơn bạn và chúc bạn may mắn với việc học tập tại Mạng lưới PlanB.
+Thank you and best of luck with your studies at PlanB Network.

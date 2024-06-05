@@ -95,6 +95,7 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 ![video](https://youtu.be/nbUtV8GOR_U)
 
 ## RGBノード パート1
+<chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 ![video](https://youtu.be/5iAhsgCSL3U)
 
@@ -104,6 +105,7 @@ Bitcoinの最も先進的なトピックの1つであるこのコースを楽し
 ![video](https://youtu.be/piQQH4Q2nr0)
 
 # 結論
+<partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 ## 締めの言葉
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>

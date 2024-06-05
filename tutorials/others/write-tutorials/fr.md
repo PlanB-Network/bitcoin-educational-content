@@ -13,7 +13,7 @@ Dans ce tutoriel, je vous explique comment modifier la section "Tutoriels" de Pl
 Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expérience avec GitHub :
 1. **Utilisateurs expérimentés** : Continuez avec vos méthodes habituelles et consultez ce tutoriel pour vous familiariser avec la structure des fichiers du dépôt de PlanB, les exigences spécifiques et la méthode de travail.
 2. **Débutants prêts à apprendre** : Je vous recommande de configurer votre propre environnement de travail. Suivez ce tutoriel ainsi que nos autres articles présentés ci-dessous pour vous guider étape par étape.
-3. **Débutants pour contributions mineures** : Pour des petites tâches comme la relecture ou des modifications légères, utilisez directement l'interface web de GitHub sans configurer un environnement local complet.
+3. **Débutants pour contributions mineures** : Pour des tâches qui demandent moins de modifications comme la relecture ou des corrections, utilisez directement l'interface web de GitHub sans configurer un environnement local complet.
 
 **Logiciels requis pour suivre mon tutoriel :**
 - [GitHub Desktop](https://desktop.github.com/)
@@ -23,13 +23,13 @@ Pour contribuer à PlanB Network, vous avez 3 options selon votre niveau d'expé
 **Prérequis avant de commencer le tutoriel :**
 - Avoir un [compte GitHub](https://github.com/signup).
 - Avoir un fork du [dépôt source de PlanB Network](https://github.com/DecouvreBitcoin/sovereign-university-data).
-- Avoir [un profil de professeur sur PlanB Network](https://planb.network/fr/professors) (uniquement si vous proposez un tutoriel complet).
+- Avoir [un profil de professeur sur PlanB Network](https://planb.network/professors) (uniquement si vous proposez un tutoriel complet).
 
 **Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous guideront :**
-- **[Comprendre Git et GitHub](https://planb.network/fr/tutorials/others/basics-of-github)**
-- **[Créer un compte GitHub](https://planb.network/fr/tutorials/others/create-github-account)**
-- **[Configurer votre environnement de travail](https://planb.network/fr/tutorials/others/github-desktop-work-environment)**
-- **[Créer un profil de professeur](https://planb.network/fr/tutorials/others/create-teacher-profile)**
+- **[Comprendre Git et GitHub](https://planb.network/tutorials/others/basics-of-github)**
+- **[Créer un compte GitHub](https://planb.network/tutorials/others/create-github-account)**
+- **[Configurer votre environnement de travail](https://planb.network/tutorials/others/github-desktop-work-environment)**
+- **[Créer un profil de professeur](https://planb.network/tutorials/others/create-teacher-profile)**
 
 ## Quel type de contenu rédiger sur PlanB Network ?
 
@@ -94,7 +94,7 @@ Maintenant que la branche de travail est créée, il est temps de faire l'intég
 ![tutorial](assets/13.webp)
 - Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieurs éléments :
 	- Créez un dossier `assets`, destiné à recevoir toutes les illustrations nécessaires à votre tutoriel ;
-    - Au sein de ce dossier `assets`, il faut créer 6 sous-dossiers portant les noms `fr`, `de`, `en`, `it`, `es`, et `pt`, afin de classer les visuels selon les langues correspondantes. Vous devez également ajouter un sous-dossier `notext` pour les visuels qui n'ont pas besoin de traduction, comme pour les captures d'écran par exemple ;
+    - Au sein de ce dossier `assets`, il faut créer 8 sous-dossiers portant les noms `fr`, `de`, `en`, `it`, `es`, `ja`, `vi` et `pt`, afin de classer les visuels selon les langues correspondantes. Vous devez également ajouter un sous-dossier `notext` pour les visuels qui n'ont pas besoin de traduction, comme pour les captures d'écran par exemple ;
 	- Un fichier `tutorial.yml` doit être créé pour y consigner les détails relatifs à votre tutoriel ;
 	- Un fichier en format markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
 ![tutorial](assets/14.webp)
@@ -111,6 +111,8 @@ sovereign-university-data/
             │   ├── it/
             │   ├── es/
             │   ├── pt/
+            |   ├── ja/
+            |   ├── vi/
             │   └── notext/
             ├── tutorial.yml
             └── fr.md (à modifier selon le code de langue approprié)

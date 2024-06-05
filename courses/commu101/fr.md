@@ -264,7 +264,7 @@ Voici également quelques fichier pré-conçus, duplicables et modifiables à vo
 
 - **annonce d'un jeu concours**: [lien](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-![image](assets/fr/chapter5/img11.png)
+![image](assets/fr/chapter5/img11bis.png)
 
 - **charte** de notre bibliothèque, affichée en A4 lors des meet-ups: [lien](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
@@ -544,7 +544,7 @@ Il en effet est évident que si personne ne parvient à accéder à vos canaux d
 Parmi ces réseaux sociaux, **Twitter se positionne comme un quasi-incontournable dans le monde de Bitcoin**. En ce sens, il semble important de **disposer d'un profil sur cette plateforme**; quand bien même sa centralisation et son développement sont loin d'être corrects.
 C'est la raison pour laquelle un **profil NOSTR spécifique à votre communauté** peut également être créé, dans l'idée d'anticiper de potentielles restrictions et/ou censures sur Twitter. Après tout: mieux vaut prévenir que guérir.
 
-![image](assets/fr/chapter13/img23.jpg)
+![image](assets/fr/chapter13/img23bis.jpg)
 
 D'autres réseaux sociaux peuvent évidemment être utilisés. C'est le cas de Facebook (cas d'un groupe ou d'une page Facebook) ou même LinkedIn.
 Néanmoins, il est à rappeller que **plus il y a de canaux de communication et de réseaux sociaux à créer - et donc à alimenter -, plus cela prend du temps. Il vaut donc mieux se concentrer sur les plus pertinents; et Twitter (et NOSTR) semblent être de bons candidats**.
@@ -617,7 +617,7 @@ C'est d'ailleurs le cas entre la cinquantaine de communautés Bitcoin française
 Bien que cela puisse paraître inutile aux yeux de certain(e)s, **suivre les comptes des communautés et initiatives locales / de son pays peut amener indirectement à la réalisation de projets communs**, voire de "partenariats". C'est ainsi que les communautés Bitcoin Liège et Bitcoin Lille sont venues à prendre contact (c'est le cas aussi de Bitcoin Aix et Bitcoin Marseille); les amenant désormais à effectuer au moins une fois par an un meet-up commun.
 Le cas des repas du **Cercle du Coin** en est un autre exemple.
 
-![image](assets/fr/chapter15/img26.jpg)
+![image](assets/fr/chapter15/img26bis.jpg)
 
 De plus, en France, il peut également être pertinent de **suivre les initiatives @KonsensusFR, @bitcoinpointfr, @DecouvreBitcoin et @btcmap**. Ce ne sont évidemment que des propositions, et chaque communauté est bien évidemment libre de faire ce qu'il lui plaît, en toute décentralisation et en toute autonomie.
 L'intérêt de se suivre mutuellement est toutefois assez simple: s'apporter mutuellement de la visibilité. En effet, plus vous serez présents sur les réseaux, plus l'on parlera de vous; et plus l'on parlera de vous, plus il y aura de personnes susceptibles de venir à vos événements. Liker / retweeter sur les réseaux sociaux les posts des autres communautés peut également être intéressant.

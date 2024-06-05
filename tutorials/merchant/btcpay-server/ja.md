@@ -5,7 +5,7 @@ description: BTCPayサーバーの設定と管理に関するガイド
 
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 BTCpayサーバー (https://btcpayserver.org/) は、#Bitcoinを受け入れる最良の方法です。手数料なし、仲介者なし。自己主権を持つ個人やビジネスのための無料、オープンソース、自己ホスト型のBitcoin支払いプロセッサーです。
 

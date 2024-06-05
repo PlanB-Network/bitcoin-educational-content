@@ -4,7 +4,7 @@ name: Blink
 description: Blinkウォレットの使用方法を学ぶ
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Bitcoin Beach Walletは新しい名前と多くの新機能を獲得しています
 BBWは、Bitcoin Beachで生まれ、コミュニティ構築のために設計されたオープンソースのカストディアルLightningウォレットです。間もなく、それはBlinkと呼ばれるようになります。

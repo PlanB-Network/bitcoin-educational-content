@@ -2,7 +2,7 @@
 name: Payjoin - Samourai Wallet
 description: Samourai WalletでPayjoin取引を行う方法は？
 ---
-![samourai payjoin cover](assets/cover.jpeg)
+![samourai payjoin cover](assets/cover.webp)
 
 > *"ブロックチェーンのスパイに、彼らが知っていると思っていることを全て再考させる。"*
 

@@ -4,7 +4,7 @@ name: Kraken
 description: Krakenの使用方法
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 kraken (https://www.kraken.com/) はビットコインの購入・販売プラットフォームで、KYCおよびLNに対応しています。
 

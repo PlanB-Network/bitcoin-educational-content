@@ -2,7 +2,7 @@
 name: Payjoin - Sparrow Wallet
 description: Sparrow WalletでPayjoin取引を行う方法は？
 ---
-![tutorial cover image sparrow payjoin](assets/cover.jpeg)
+![tutorial cover image sparrow payjoin](assets/cover.webp)
 
 > *"ブロックチェーンのスパイに、彼らが知っていると思っていることを全て見直させる。"*
 

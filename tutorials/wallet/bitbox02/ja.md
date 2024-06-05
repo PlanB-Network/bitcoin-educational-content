@@ -4,7 +4,7 @@ name: BitBox02
 description: BitBox02のセットアップと使用方法
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 BitBox02 (https://bitbox.swiss/) は、ビットコインを安全に保管するために特別に設計されたスイス製の物理ウォレットです。主な特徴には、マイクロSDカードを使用した簡単なバックアップと復元、ミニマリストで目立たないデザイン、そしてビットコインに対する包括的なサポートが含まれます。
 

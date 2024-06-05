@@ -4,7 +4,7 @@ name: Seed Signer
 description: Seed signerのセットアップ
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 ## 材料:
 

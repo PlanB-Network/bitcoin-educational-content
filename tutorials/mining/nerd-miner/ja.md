@@ -3,7 +3,7 @@ name: Nerdminer
 description: ビットコインのマイニングを始めて、ほぼ0に近い勝利のチャンスを得る
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 > NerdMiner_v2のセットアップ
 

@@ -4,7 +4,7 @@ name: Bisq
 description: Bisq、ピアツーピア取引所の使用方法
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Bisqは、主にBitcoinのための分散型取引プラットフォームです。仲介者なしで、世界中のユーザー間で直接、安全、かつプライベートな取引を提供します。
 

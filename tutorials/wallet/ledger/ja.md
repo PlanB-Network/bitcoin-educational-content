@@ -4,7 +4,7 @@ name: Ledger Nano S
 description: Ledger Nano Sデバイスのセットアップ方法
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 コールドフィジカルウォレット - €60 - 初心者向け - €2,000から€50,000を安全に保管
 

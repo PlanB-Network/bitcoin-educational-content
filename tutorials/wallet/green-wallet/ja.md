@@ -4,7 +4,7 @@ name: Green Wallet
 description: 設定と使用ガイド (CC Bistack)
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 ホットモバイルウォレット - 初心者向け - 無料 - 0から1,000ユーロを安全に保管
 

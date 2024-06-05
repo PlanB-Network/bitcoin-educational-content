@@ -4,11 +4,11 @@ description: Comment ajouter son profil de professeur sur PlanB Network ?
 ---
 ![cover](assets/cover.webp)
 
-La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, offrant ainsi la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, production de formations, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
+La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, production de formations, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
 Si vous souhaitez ajouter un nouveau tutoriel complet ou une formation sur PlanB Network, vous allez devoir créer votre profil de professeur. Cela vous permettra d'être correctement crédité pour le contenu que vous produisez sur le site web. 
 ![tutorial](assets/1.webp)
-Si vous avez précédemment contribué à PlanB Network, vous possédez déjà un identifiant de contributeur. Vous pouvez le retrouver dans votre dossier de professeur accessible [via cette page](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Si c'est votre cas, vous pouvez passer ce tutoriel et commencer directement à contribuer.
+Si vous avez précédemment contribué à PlanB Network, vous possédez sûrement déjà un identifiant de contributeur. Vous pouvez le retrouver dans votre dossier de professeur accessible [via cette page](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/professors). Si c'est votre cas, vous pouvez passer ce tutoriel et commencer directement à contribuer.
 ![tutorial](assets/2.webp)
 
 Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
@@ -92,13 +92,15 @@ Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
 
 - Dans ce fichier, vous avez la possibilité d'inscrire votre biographie complète sous la rubrique `bio` et un résumé ou un titre succinct sous `short_bio` :
 ![tutorial](assets/21.webp)
-- Après avoir sauvegardé votre document `fr.yml`, il est nécessaire de créer une copie de ce fichier pour chacune des six langues suivantes :
+- Après avoir sauvegardé votre document `fr.yml`, il faut créer une copie de ce fichier pour chacune des huit langues suivantes :
 	- Allemand (DE) ;
 	- Anglais (EN) ;
 	- Français (FR) ;
 	- Espagnol (ES) ;
 	- Italien (IT) ;
-	- Portugais (PT).
+	- Portugais (PT) ;
+	- Japonais (JA) ;
+	- Vietnamien (VI).
 
 - Procédez au copier-coller de votre fichier original, puis traduisez chaque document dans la langue correspondante. Si vous maîtrisez la langue, vous pouvez effectuer la traduction manuellement. Autrement, n'hésitez pas à utiliser un outil de traduction automatique ou un chat bot :
 ![tutorial](assets/22.webp)
@@ -114,6 +116,8 @@ first-name-last-name/
 ├── en.yml
 ├── de.yml
 ├── pt.yml
+├── ja.yml
+├── vi.yml
 ├── professor.yml
 └── assets/
     └── profile.webp

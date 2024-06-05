@@ -128,17 +128,17 @@ Por lo tanto, Bitcoin es un protocolo que se inscribe en tiempos largos y nos in
 
 ![La prehistoria de Bitcoin](assets/posters/fr/1_prehistoiredubitcoin.webp)
 
-# La monnaie
+# La moneda 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
 
-## La monnaie à travers l'Histoire
+## El moneda a lo largo de la historia 
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
 
 La evolución del dinero es un aspecto fascinante de la historia humana, reflejando la ingeniosidad de las civilizaciones a lo largo de los siglos para satisfacer las necesidades económicas en constante evolución.
 
 ![image](assets/es/chapter1/2.webp)
 
-### Des coquillages au compte bancaire
+### Del marisco a la cuenta bancaria 
 
 Al principio, el dinero era tangible, a menudo vinculado a bienes esenciales como el grano, el ganado y otros bienes. Sin embargo, estos bienes presentaban importantes inconvenientes, como su perecibilidad, lo que dificultaba su uso como medio de ahorro a largo plazo. Por ejemplo, una mala cosecha o una enfermedad podían arruinar la riqueza de una persona de la noche a la mañana.
 

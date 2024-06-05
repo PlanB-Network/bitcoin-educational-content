@@ -112,17 +112,19 @@ Quelques minutes après avoir commencé le minage, vous pourrez voir vos donnée
 
 ### Présentation du Dashboard
 
-![signup](assets/4.webp)
-
 - **Shares in Reward Window** : Cette donnée indique le nombre de shares, le travail que vous avez envoyé à la pool dans la fenêtre des 8 derniers blocs minés par la pool.
 - **Estimated Rewards in Windows** : Estimation du nombre de sats que vous allez gagner avec le travail déjà effectué. Cela ne prend pas en compte les frais de transaction, mais seulement la coinbase, les nouveaux bitcoins émis par le réseau.
 - **Estimated Earnings Next Block** : Estimation du nombre de sats gagnés si un bloc est miné maintenant. Pour rappel, si cette valeur est inférieure à 1 048 576 sats, vous ne recevrez pas directement les sats sur votre adresse. Ils seront envoyés sur l’adresse d'Ocean en attendant que vos gains dépassent ce seuil.
 
 En-dessous, vous avez un graphe qui affiche l’historique de votre hashrate jusqu’à 6 mois.
 
-![signup](assets/5.webp)
+![signup](assets/4.webp)
+
+
 
 Ici, vous avez votre hashrate moyen sur différentes échelles de temps, de 60s à 24h, ainsi que l’historique des blocs minés par la pool pour lesquels vous avez contribué et été récompensé. Vous avez la possibilité d’exporter un fichier CSV de cet historique.
+
+![signup](assets/5.webp)
 
 ![signup](assets/6.webp)
 

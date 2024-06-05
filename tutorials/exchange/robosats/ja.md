@@ -4,7 +4,7 @@ name: Robosats
 description: Robosatsの使い方
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 RoboSats (https://learn.robosats.com/) は、Bitcoinを国の通貨とプライベートに交換する簡単な方法です。ピアツーピアの経験を簡素化し、ライトニングホールドインボイスを使用して、保管と信頼の要件を最小限に抑えます。
 

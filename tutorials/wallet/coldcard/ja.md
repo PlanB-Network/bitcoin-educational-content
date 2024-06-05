@@ -4,7 +4,7 @@ name: コールドカード
 description: コールドカードデバイスとBitcoin Coreを使用して、ビットコインの秘密鍵を作成、バックアップ、使用する方法
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 コールドカードデバイスとBitcoin Coreを使用して、ビットコインの秘密鍵を作成、バックアップ、使用する方法
 

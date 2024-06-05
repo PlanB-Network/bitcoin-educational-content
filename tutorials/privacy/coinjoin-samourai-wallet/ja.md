@@ -2,7 +2,7 @@
 name: Coinjoin - Samourai Wallet
 description: Samourai Walletでcoinjoinを行う方法は？
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 "*ストリート向けのビットコインウォレット*"
 

@@ -4,7 +4,7 @@ name: Liana
 description: Lianaウォレットの設定方法
 ---
 
-![カバー](assets/cover.jpeg)
+![カバー](assets/cover.webp)
 
 あなたのコインの安全網であるLianaは、オンチェーンのタイムロックを使用してセキュリティと回復を保証するシンプルなBitcoinウォレットです。
 

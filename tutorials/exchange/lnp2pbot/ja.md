@@ -4,7 +4,7 @@ name: LN P2P Bot
 description: LN P2P Botの設定ガイド
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Bitcoinはアクセスしやすく公平な貯蓄技術であり、検閲に抵抗する交換手段です。Lightningは、Bitcoinがアクセス可能な最良のお金である理由を全て失うことなく、非常に低いコストで即座にBitcoinにアクセスできるようにします。
 

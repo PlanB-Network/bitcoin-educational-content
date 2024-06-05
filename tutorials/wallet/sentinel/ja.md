@@ -2,7 +2,7 @@
 name: Sentinel Watch-Only
 description: ウォッチオンリーウォレットとは何か、そしてその使用方法について
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 *"プライベートキーは、プライベートに保ちましょう。"*
 

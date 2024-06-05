@@ -2,7 +2,7 @@
 name: Coinjoin - Dojo
 description: 自分のDojoを使ってcoinjoinを実行する方法は？
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 このチュートリアルでは、coinjoinが何であるか、そしてSamourai WalletソフトウェアとWhirlpoolの実装を利用して、自分のDojoを使ってcoinjoinを実行する方法を学びます。私の意見では、この方法は現在、ビットコインをミキシングするための最良の方法です。
 

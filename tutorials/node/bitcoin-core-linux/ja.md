@@ -3,7 +3,7 @@ name: Bitcoin Core Node (linux)
 description: Bitcoin Coreを使って自分自身のノードを運用する
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 # Bitcoin Coreを使って自分自身のノードを運用する
 

@@ -1,1591 +1,1698 @@
 ---
-name: ビットコインとステーブルコイン入門
-goal: ビットコイン、ステーブルコイン、そしてそれらがもたらす主権についての深い洞察
+name: Introduction to Bitcoin & Stablecoin
+goal: An In-Depth Look at Bitcoin, Stablecoins, & the Sovereignty That Comes With Them
 objectives:
-  - 現在の金融システムから生じる主な問題点と、お金の歴史的進化を理解する。
-  - ビットコインを従来の法定通貨と区別し、包括的な理解を深める。
-  - 特にテザーに焦点を当て、金融安定性におけるステーブルコインの役割と、ビットコインと従来の法定通貨との間の橋渡しとしての役割を検討する。
-  - ビットコインとステーブルコインを取り巻く一般的な誤解を特定し、反証する。
+  - Understanding the historical evolution of money and the primary pain points resulting from our current financial system.
+  - Developing a comprehensive understanding of Bitcoin, differentiating it from traditional fiat currencies.
+  - Examining the role of stablecoins, specifically Tether, in financial stability and as a bridge between Bitcoin and traditional fiat currencies.
+  - Identifying and debunking common misconceptions surrounding Bitcoin and stablecoins.
 ---
 
-こんな疑問を持ったことはありませんか？
+Have you ever wondered:
 
-なぜ私の生活費はどんどん上がっているのか？
-インフレは本当に私にとって良いことなのか？
-インフレに対抗するための選択肢は何があるのか？
-ビットコインやステーブルコインはこれら全てにどのように組み込まれるのか？
+Why is my cost of living continuing to rise?
+Is inflation really good for me?
+What options are available to help me protect against inflation?
+How does Bitcoin or stablecoins fit into all this?
 
-これらの質問に一つでも「はい」と答えたなら、あなたは正しい場所にいます。
+If you answered yes to any of these questions, you're in the right place.
 
-「変化を選択する」へようこそ。ここでは、私たちの通貨システムの表面下を掘り下げ、ポジティブな変化を生み出すための利用可能なツールを見ていきます。私たちの世界が自由への脅威と人権侵害のエスカレーションに直面している中、このコースは個人の手にコントロールを戻す代替システムを提供するための指針を試みます。
+Welcome to "Opting In To Change," where we delve beneath the surface of our monetary systems while looking at some available tools for creating positive change. As our world grapples with encroaching threats to freedoms and escalating human rights violations, this course attempts to offer a guiding light—an alternative system that restores control back into the hands of the individual.
 
-ここまで読んで興味を持っていただけたなら、この教育的な旅に私たちと一緒に参加していただけることを願っています。
+If what you've just read has piqued your interest, we hope you'll join us on this educational journey.
 
-期待できること：
+What To Expect:
 
-初心者向け
-約3時間の自己ペースでのコンテンツ
-知識をテストするインタラクティブなクイズ
-業界のプロによる執筆
-世界中、あらゆる人生の歩みからの例
+Beginner friendly
+Roughly 3 hours of self-paced content
+Interactive quizzes to test your knowledge
+Written by industry professionals
+Examples from across the globe and from all walks of life
 
-要件：学ぶことへの情熱
+Requirements: A passion for learning
 
-このコースはTETHERによって提供されています
+This course has been sponsored by TETHER
 
 +++
 
-# はじめに
+# Introduction
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## はじめに
+## Introduction
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
 
-### 私たちが生きる世界では：
+### We live in a world where:
 
-● たった[20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf)の人々が「民主的に自由」とみなされる社会に住んでいます。しかし、この特権を持つ一部の人々でさえ、凍結された銀行口座から検閲に至るまで、人権侵害がますます一般的になっています。残りの80%は、権威主義的な支配の侵略に直面しています。わずか20年前、世界の人口のほぼ半分が最も基本的な自由を享受していました。
+● A mere [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) of people reside in societies deemed "democratically free." Yet, even within this privileged fraction, human rights violations are increasingly commonplace— from frozen bank accounts to censorship. The remaining 80% find themselves grappling with the encroachment of authoritarian rule. Just two decades ago, nearly half of the world's population enjoyed the most basic freedoms.
 
-● 世界中で[1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.)億の成人が未銀行化のままであり、無数の他の人々は限定的な銀行サービスに制限されています。
+● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.) billion adults worldwide remain unbanked, while countless others are restricted to limited banking services.
 
-● [2022年](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/)末までに、世界のほぼ半分が二桁のインフレ率に直面し、稼いだお金の価値が侵食されました。これを視点に置くと、10年間でインフレ率が10%だった場合、購買力の65%を失うことになります。
+● By the end of [2022](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/), nearly half the world faced double-digit inflation rates, eroding the value of hard-earned money. To put this in perspective, with an inflation rate of 10% over a decade, you would lose a staggering 65% of your purchasing power.
 
-● そして、このようなインフレが持続する期間がなくても、おそらく最も強力なグローバル通貨であるUSDは、過去世紀にわたって購買力の[96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/)を失いました。
+● And even without sustained periods of such inflation, the USD, arguably the strongest global currency, has witnessed a [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) loss of purchasing power over the last century.
 
-これらは、私たちのグローバル経済環境の厳しい現実です。私たちの金融システムは、人口の大多数のニーズを満たすことに大きく失敗しています。これらのシステムは不平等を永続させ、多くの人々を排除し、全世界の数十億人の人々を力なき状態にしています。
-もし現在のシステムにおける価格の上昇や金融包摂の欠如といった絶え間ない圧力に負担を感じているなら、少しの慰めになるかもしれませんが、あなた一人ではありません。これらは、現代の金融システムの副産物です。
+These are some of the harsh truths of our global economic environment. Our financial systems fall woefully short of meeting the needs of the majority of the population. These systems perpetuate inequality, exclude many, and disempower billions of people globally.
 
-私たちの見通しがどんなに暗く見えても、このコースでの私たちの焦点は、現在の状況の課題に固執することではありません。代わりに、解放と金融エンパワーメントを達成することに注意を向けたいと思います。
+If you find yourself burdened by the relentless pressures of rising prices or the lack of financial inclusion in our current system, if it's any consolation, know that you are not alone. These are the by-products of our present-day monetary system.
 
-とはいえ、このコースは、激しいインフレーションに直面している人や、金融インフラや銀行サービスへのアクセスが限られている人だけのためのものではありません。これらの問題にすでに多少なじみがある人や、単に知識を広げたいと熱心な人でも、このコースは、理解を深め、これらの障壁を克服し、金融主権を取り戻すために必要なツールを獲得することを目指している人にとって有益です。
+Despite our seemingly gloomy outlook, our focus with this course is not to fixate on the challenges of our present circumstances. Instead, we want to redirect our attention toward achieving liberation and financial empowerment.
 
-このことを念頭に置いて、私たちの使命は、現在の金融風景の最前線にあなたを連れて行き、既存の規範に挑戦し、代替解決策を提供することです。お金の歴史を掘り下げ、ビットコインを解明し、テザーとステーブルコインの世界を探求することで、個人が自分たちの金融未来を再想像することにインスピレーションを与えることを目指しています。
+That said, this course isn't solely for those facing rampant inflation or limited access to financial infrastructure or banking services. Whether you are already somewhat familiar with these issues or simply eager to expand your knowledge, this course is designed to benefit anyone looking to enhance their understanding and acquire the tools necessary to overcome these barriers and regain financial sovereignty.
 
-### 期待されること:
+With this in mind, our mission is to bring you up to the forefront of change in our current financial landscape, challenge the existing norms and offer alternative solutions. By delving into the history of money, demystifying Bitcoin, and exploring Tether and the world of stablecoins, we aim to inspire individuals to reimagine their financial future.
 
-**モジュール1: 進歩の代償 - 私たちの金融システムをより深く見る**
-私たちは、金融検閲、富の不平等、インフレが私たちの日常生活を苦しめている現在の金融システムの裏側を覗き込むことから探求を始めます。お金の簡単な歴史を通じて、私たちがどのようにして現在の状況に至ったかを見て、私たち全員が経験している主要な痛みの点に光を当てます。
+### What to expect:
 
-**モジュール2: 金融の解放 - ビットコインへの導入**
-このモジュールでは、ビットコインを解明し、従来の法定通貨とビットコインを何が異なるのかを理解するのに役立つ専門用語を超えます。ビットコインの仕組みから使い方まで、ビットコインとのやり取りの方法と機能性を案内します。
+**Module 1: The Price of Progress - A Closer Look at Our Financial System**
+We begin our exploration by peering behind the curtains of our current financial system, where financial censorship, wealth inequality and inflation plague our daily lives. Through a brief history of money, we will look at how we found ourselves where we are, shedding light on some of the primary pain points we're all experiencing.
 
-**モジュール3: 混乱の中の安定 - テザーとステーブルコインの世界への導入**
-このモジュールでは、主要なステーブルコインであるテザーの内部を見て、このデジタル通貨がどのように価値を維持し、過度な政府、金融サービスの不足、または激しいインフレに直面している人々に自由を与える可能性があるかを探ります。
+**Module 2: Financial Liberation - An Introduction to Bitcoin**
+This module will demystify Bitcoin, transcending the jargon to help you understand what differentiates Bitcoin from traditional fiat currencies. From how it works to how to use it, we guide you through the functionality and ways of interacting with Bitcoin.
 
-**モジュール4: 疑念の克服 - 一般的な誤解の解明と実世界の使用例**
-最後に、ビットコインとステーブルコインを取り巻く一般的な誤解に挑戦し、これらの技術をすでに受け入れ、利益を得ている個人の実世界の使用例を提供します。
+**Module 3: Stability Amidst Chaos - An Introduction to Tether & the World of Stablecoins**
+In this module, we take a look under the hood of the leading stablecoin, Tether, exploring how this digital currency maintains its value and has the potential to give freedom to those facing an overbearing government, lack of financial services or rampant inflation.
 
-このコースを終えるころには、複雑な金融風景をナビゲートするための強力な知識と貴重なツールを得るだけでなく、ビットコインやテザーなどのステーブルコインが、個人に代替の金融システムに参加することを可能にし、誰もが自分の財政状況をより大きくコントロールできるようにする方法をよりよく理解するでしょう。この理解を持って、あなたは金融の自由、個人のエンパワーメント、解放を追求するためにより適切に装備されるでしょう。
+**Module 4: Overcoming Doubts - Debunking Common Misconceptions & Real-World Use Cases**
+To finish, we will challenge the common misconceptions surrounding Bitcoin and stablecoins and offer real-world use cases of individuals who have already embraced and are benefiting from these technologies.
 
-私たちの金融システムの深みへのこの旅にあなたを迎えることに興奮しています。
+By the end of this course, you will not only have gained powerful knowledge and invaluable tools for navigating our complex financial landscape, but you will also better understand how Bitcoin and stablecoins, such as Tether, empower users by enabling them to opt into an alternative monetary system— one that prioritises the individual, giving anyone greater control of their financial situation. With this understanding, you will be better equipped to pursue financial freedom, personal empowerment, and liberation.
 
-# 進歩の代償 - 私たちの金融システムをより深く見る
+We are excited to have you join us on this journey into the depths of our monetary system.
+
+# The Price of Progress - A Closer Look at Our Financial System
 <partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
-## お金への導入
+## An Introduction to Money
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 
-お金は、私たちの日常生活において魅力的で不可欠な部分です。私たちは毎日、食料品を買ったり、請求書を支払ったり、無数の取引を行ったりするためにそれを使用します。しかし、実際のところお金とは何でしょうか？その核心において、お金は単に交換の媒介、つまり私たちが互いに商品やサービスを交換するためのツールです。それは私たち全員が当たり前のように受け入れている抽象的な概念ですが、経済システムにとって基本的なものです。
-しかし、すべてのお金が同じように作られているわけではありません。価値の保存、交換手段、計算単位としての機能によって、お金の形態には優れたものとそうでないものがあります。例えば、金はその耐久性と希少性のために何千年もの間、高く評価されてきました。一方、紙幣の価値は、それを発行する機関への信頼の度合いによってのみ決まります。
+Money is a fascinating and essential part of our daily lives. We use it daily to buy groceries, pay bills, and make countless transactions. But what is money, really? At its core, money is simply a medium of exchange, a tool that allows us to trade goods and services with one another. It's an abstract concept we all take for granted, yet it's fundamental to our economic system.
 
-このモジュールでは、お金の異なる機能と特性、そして何が良いお金を作るのかを探求します。平均的なジョー、ビジネスオーナー、投資家、または単に金融の世界に興味がある人であれ、私たちの目標は、私たち全員の生活に触れるこの抽象的でありながら不可欠な概念について、より深い理解を得るお手伝いをすることです。では、始めましょう…
+But not all money is created equal. Some forms of money are better than others, depending on their ability to serve as a store of value, a medium of exchange, and a unit of account. Gold, for example, has been highly valued for thousands of years because of its durability and scarcity. On the other hand, paper money is only as valuable as the trust we place in the institutions that issue it.
 
-### お金とは何か？
+In this module, we'll explore money's different functions and characteristics and what makes good money. Whether you're an average Joe, a business owner, an investor, or simply curious about the world of finance, our goal is to assist you in gaining a deeper understanding of this abstract yet essential concept that touches all our lives. So let's dive in…
 
-最も単純な形で、お金は二者間の製品、商品、またはサービスの交換を決済するために合意された手段として理解することができます。
+### What is money?
 
-お金によって、私たちは資源やサービスを価値の保存と交換することができます。これにより、物々交換のような慣習に頼り続けた場合に比べて、私たちの文明ははるかに効率的に拡大し成長することができました。
+In its simplest form, money can be understood as the medium by which two parties agree to settle an exchange of a product, good or service.
 
-平均的な人にとって、お金は価値を持ちます。お金を得る方法は2つしかありません：
+Money allows us to swap our resources or services for a store of value, regardless of whether we have an immediate use for this stored value. This has allowed our civilisation to expand and grow much more efficiently than it otherwise would have if we had continued to rely on practices such as barter.
 
-1. 時間とエネルギーを費やしてお金を得る（例：仕事、労働、サービス）。
-2. 物品や資源を交換してお金を得る。
+For the average person, money holds its value as there are only two methods to obtain money:
 
-重要なのは、上記の2点目で、これらの物品や資源を交換するためには、誰かがいつか時間とエネルギーを費やしてそれらを作り出さなければならなかったということです。したがって、私たちはお金を得るために時間とエネルギーを費やさなければなりません。従って：
+1. We must expend time and energy in return for money (i.e. work, labour, services).
+2. We must trade goods or resources in return for money.
 
-お金 = 時間 + エネルギー
+It is important to note that in the second point above, in order to obtain these goods and resources to trade, someone at some stage had to spend the time and energy to create them. We can thus deduce that we must expend time and energy to obtain money. Therefore:
 
-比喩的に言えば、お金を時間とエネルギーの保存庫として見ることで、お金が本質的には後で使用できるエネルギーの保存庫であるということをよりよく理解することができます。この類推を念頭に置くと、理論上、お金の進化は時間とエネルギーを最も効率的に保存する「バッテリー」を常に探すことです。
+Money = Time + Energy
 
-### 優れたお金とは何か？
+By viewing money as a store of time and energy, metaphorically speaking, we can better understand that money is essentially a battery– a store of energy that can be used at a later date. With this analogy in mind, the evolution of money, in theory, is this constant search for the most efficient battery to store time and energy.
 
-序章を読んで、価値の保存、交換手段、計算単位という3つの重要な用語に気づいたかもしれません。この専門用語に馴染みがない場合でも心配はいりません。これら3つの機能は、お金がその保持者に価値を提供するために不可欠であり、一般にお金の機能として言及されます。
+### What makes great money?
 
-それぞれを見てみましょう：
+As you read the introduction, you may have noticed three important terms: store of value, medium of exchange, and unit of account. Don't worry if you're unfamiliar with this lingo. These three functions are essential for money to provide value to its holder and are commonly referred to as the functions of money.
 
-1. **価値の保存：**お金は将来の使用のために価値を保存する手段として機能し、保持者が時間をかけて購買力を保持できるようにします。これにより、保持者は将来のために貯蓄し計画を立てる能力を持つことができます。金はこのような価値の保存の素晴らしい例であり、何世紀にもわたってわずか1オンスでまともなスーツを購入できるほど価値がありました。
-2. **交換手段：**お金が商品やサービスの実用的な交換手段として機能するためには、容易に交換できる必要があります。技術的にはどの資産もお金として使用できますが、家のような大きくて動かせない資産は交換手段としては実用的ではありません。
-3. **計算単位：**最後に、お金は商品やサービスの価格を測定する標準単位として機能すべきです。これは、アイテムがこのお金の観点から価格設定され、評価されることを意味し、異なる製品やサービスの相対的な価値を簡単に比較することができます。
-これらの3つのお金の基本機能が完全に満たされると、そのようなお金は取引の厳しい要求を満たす能力を持ちます。これらの機能がなければ、お金ははるかに信頼性が低く、取引において不安定さと不確実性をもたらし、個人レベルと国家レベルの両方に損害を与える可能性があります。
+Let's take a look at each one:
 
-このことを念頭に置いて、私たちが使用するお金が価値の保存の信頼できる手段、取引を容易にする効果的な方法、価値の共通の尺度を提供するとき、それは私たちが貯蓄し、富を築き、自信を持って取引し、容易に取引することを可能にします。これらの機能は、取引と貯蓄の能力を支援するだけでなく、安定した効率的な経済システムの基盤を築き、個人と社会により大きな経済成長と繁栄を促進します。
+1. **Store of Value:** Money serves as a means of storing value for future use, enabling the holder to preserve their purchasing power over time. By doing so, it provides the holder with the ability to save and plan for the future. Gold serves as a prime example of such a store of value, as it has for centuries been able to purchase a decent suit with just one ounce.
+2. **Medium of Exchange:** For money to serve as a viable medium of exchange for goods and services, it must be easily exchanged. While any asset can technically be used as money, larger and immovable assets like houses are not practical for use as a medium of exchange.
+3. **Unit of Account:** Finally, money should function as a standard unit of measurement for the prices of goods and services. This means that items are priced and valued in terms of this money, allowing for easy comparison of the relative worth of different products and services.
 
-おそらく、「お金が価値を提供するためには、上記で述べたお金の機能を満たす必要があることは理解していますが、どのようにしてそれを実現するのですか？」と考えているかもしれません。
+When these three essential functions of money are met in their entirety, such money has the ability to meet the rigorous demands of trade. Without these functions, money is far less reliable and trustworthy, leading to insecurity and uncertainty in trade, which can have damaging effects on both a personal and national level.
 
-素晴らしい質問です...
+With this in mind, when the money we use offers us a reliable means of storing value, an effective method of facilitating transactions, and a common measure of value, it enables us to save and build wealth, trade confidently and transact with ease. These functions together not only assist us in our capacity to trade and save but also lay the foundation for a stable and efficient economic system, fostering greater economic growth and prosperity for individuals and societies.
 
-素晴らしいお金の概念は複雑に思えるかもしれませんが、その核心では、価値の信頼できる効果的な保存手段、交換手段、および計算単位として機能することを可能にする特定の基本的な特性によって定義されます。これらの要素は、お金の特性としてまとめて知られています。お金の特性とその機能との関連性を理解することで、なぜ特定のお金が他よりも好ましいかについてのより深い理解を得ることができます。
+You're probably thinking, "Ok, I understand that for money to offer value, it must meet the functions of money laid out above, but how does it do that?"
 
-### お金の特性
+Great question...
 
-#### 価値の保存
+The concept of great money may seem complicated, but at its core, it is defined by certain essential characteristics that enable it to function as a reliable and effective store of value, medium of exchange, and unit of account. These elements are collectively known as the characteristics of money. By understanding the connections between the characteristics of money and its functions, we can develop a deeper understanding as to why certain money is preferable to others.
 
-お金が時間とともに購買力を維持するためには、以下のようでなければなりません：
+### Characteristics of Money
 
-**耐久性：**お金が耐久性があると言うとき、私たちはその時間と使用の摩耗に耐える能力を指しています。耐久性のある価値の保存手段は、物理的または環境的要因がそれを劣化させる可能性があっても、時間とともにその価値を保持することを意味します。例えば、金にお金を保存すれば、それが代表するコインが時代遅れになったとしても、その価値と輝きを保持します。耐久性のあるお金は重要です。なぜなら、私たちがその価値を失うことなく時間とともに私たちの富を保存できるからです。
+#### Store of Value
 
-**希少性：**お金が希少性を提供するとき、私たちは利用可能な供給が限られていることを意味します。これは価値の保存手段として重要です。なぜなら、特定の通貨が多すぎると、その価値が減少する可能性があるからです。希少な通貨は時間とともにその価値を保持する可能性が高く、富の信頼できる保存手段となります。限定版アイテムのように考えてみてください - もしそれらが数少ない場合、無限に供給がある場合よりも価値があり、求められます。同様に、希少な通貨はその価値を保持し、購買力を維持する可能性が高く、富を保存するためのより良い選択肢となります。
+For money to maintain its purchasing power over time, it must be:
 
-**不変性：**お金が不変性を提供するためには、取引が行われた後に逆転または変更されることがないようにする必要があります。これは信頼できる価値の保存手段の重要な特性です。なぜなら、お金の価値が恣意的な変更や操作の対象とならないことを保証するからです。例えば、現金で何かを購入した場合、後で気が変わって取引を逆転させることはできません。同様に、ビットコインのような暗号通貨では、取引がブロックチェーンに記録されると、それを変更または逆転させることはできません。この不変性は、金融取引において買い手と売り手の両方に安心感と信頼性を提供します。
+**Durable:** When we talk about money being durable, we are referring to its ability to withstand the wear and tear of time and use. A durable store of value means that the money will retain its value over time, regardless of any physical or environmental factors that may cause it to deteriorate. For example, if you store your money in gold, it will retain its value and shine even if the coins it represents were to become obsolete. Durable money is important because it allows us to save our wealth over time without fear of losing its value.
 
-#### 交換手段
+**Scarce:** When money offers scarcity, we mean a limited available supply. This is important for a store of value because if there is too much of a particular currency, it can decrease in value. A scarce currency is more likely to hold its value over time, making it a reliable store of wealth. Think of it like a limited edition item - if there are only a few of them, they are more valuable and sought-after than if there were a limitless supply. Similarly, a scarce currency is more likely to hold its value and maintain its purchasing power, making it a better option for storing wealth.
 
-お金が商品やサービスの購入と販売のための効果的な仲介者であるためには、以下のようでなければなりません：
-**携帯性:** お金が「携帯性がある」と言うとき、それは一箇所から別の箇所へ簡単に持ち運びや輸送ができることを意味します。これは交換手段の重要な特性であり、異なる場所で商品やサービスを購入・販売するためにお金を使用できるようにするためです。例えば、カフェでコーヒーを購入したい場合、携帯性のあるお金（現金やクレジットカードなど）を使用して支払うことができます。これが、大きくて重い物を交換手段として持ち運ぶ必要がある場合、取引でそれらを使用することはずっと困難になります。
+**Immutable:** For money to offer immutability, it should be impervious to reversal or alteration once a transaction has been made. This is a crucial characteristic of a reliable store of value because it ensures that the value of the money is not subject to arbitrary changes or manipulations. For example, if you purchase something with cash, you cannot later change your mind and reverse the transaction. Similarly, with cryptocurrencies like Bitcoin, once a transaction has been recorded on the blockchain, it cannot be altered or reversed. This immutability provides a sense of security and reliability for both buyers and sellers in financial transactions.
 
-**分割可能性:** 良い交換手段の重要な特性であり、異なるサイズの取引を容易にするためにお金を小さな単位に分割できる能力を指します。例えば、大きな額面のお金しかなかった場合、小さな購入をすることは困難になります。分割可能性により、取引のサイズに関係なく正確な支払いが可能になり、日常生活でお金をより便利で実用的にします。基本的に、通貨がより分割可能であるほど、個人が使用し取引するのに便利です。
+#### Medium of Exchange
 
-**受け入れられる:** 受容性について話すとき、特定の形態のお金が広く受け入れられているかどうかを指します。これは、人々が商品やサービスの交換手段としてこの形態のお金を受け入れ、使用する意思があることを意味します。通貨が広く受け入れられている場合、共通の通貨で商品やサービスを購入・販売するため、人々が取引に参加するのが容易になります。通貨が広く受け入れられるほど、より多くの人がそれを使用する意思があるため、より価値が高まります。逆に、通貨が広く受け入れられていない場合、交換手段として受け入れることをためらうため、その価値を失います。
+For money to be an effective intermediary for buying and selling goods and services, it must be:
 
-#### 価値の単位
+**Portable:** When we talk about money being "portable," we mean that it is easy to carry and transport from one place to another. This is an important characteristic of a medium of exchange because it enables us to use money to buy and sell goods and services in different locations. For example, if you wanted to buy a coffee from a café, you could use your portable money (such as cash or a credit card) to pay, no matter where you are. In contrast, if you had to carry around large, heavy objects as a means of exchange, it would be much more difficult to use them in transactions.
 
-商品やサービスの価値の共通の尺度としてお金を使用するためには、以下の条件を満たす必要があります:
+**Divisible:** This is a critical characteristic of a good medium of exchange, which refers to the ability of money to be divided into smaller units to facilitate transactions of varying sizes. For example, making small purchases would be challenging if we only had large denominations of money. Divisibility allows us to make exact payments, regardless of the transaction size, making money more useful and practical in everyday life. Essentially, the more divisible a currency is, the more convenient it is for individuals to use and transact with.
 
-**代替可能性:** お金が代替可能であると言われるとき、ある通貨単位は他のどの単位とも交換可能です。簡単な言葉で言えば、お金は出所や所有者に関係なく、均一で同一であることを意味します。例えば、誰かに$10を借りていて、その人に$10紙幣を渡す場合、その紙幣があなたの財布から出たものであろうと他の誰かの財布から出たものであろうと関係ありません。それが本物の$10紙幣である限り、同等の価値と見なされます。代替可能性の概念は、お金が取引をよりシンプルで効率的にする共通の測定単位として機能することを可能にするため、重要です。
+**Accepted:** When we discuss acceptability, we are referring to whether there is widespread acceptance of a particular form of money. This means that people are willing to accept and use this form of money as a means of exchange for goods and services. If a currency is widely accepted, it becomes easier for people to engage in trade, as there is a common currency to buy and sell goods and services. The more widely accepted a currency is, the more valuable it becomes, as more people are willing to use it. Conversely, if a currency is not widely accepted, it loses its value, as people will hesitate to accept it as a means of exchange.
 
-結論
+#### Unit of Account
 
-お金は私たちの日常生活において重要で魅力的な部分です。それは仲介者として機能し、私たちが互いに商品やサービスを交換することを可能にします。しかし、すべてのお金が同じように作られているわけではありません。金貨のように価値の保存として優れた形態のお金もあれば、米ドルのように交換手段としてより効果的なものもあります。しかし、これらの機能が完全に満たされると、自信を持って取引ができ、それは個人だけでなく、経済全体の成長と繁栄を促進するのに役立ちます。
+For money to be used as a common measure of the value of goods and services, it must be:
 
-次のモジュールでは、ビットコインとステーブルコインという二つの人気のあるお金の形態を探ります。このセクションで議論された内容を通じてそれらを検討することで、通貨のさまざまな機能をどのように満たし、社会に大きな利益をもたらすことができるかを探ります。
+**Fungible:** When money is said to be fungible, every unit of currency is interchangeable with any other unit. In simpler terms, it means that money is uniform and identical, regardless of where it came from or who owns it. For example, if you owe someone \$10 and you give them a \$10 bill, it doesn't matter if the bill came from your wallet or someone else's wallet. As long as it's a genuine \$10 bill, it's considered to be of equal value. The concept of fungibility is important because it allows money to function effectively as a common unit of measurement, making transactions simpler and more efficient.
 
-物々交換から硬貨や紙幣の発明に至るまで、お金は社会の絶えず変化するニーズに適応するために一連の変革を遂げてきました。次の章に進むにあたり、お金の進化に向けて私たちの注意を変えましょう。
+Conclusion
 
-## ここに至るまでの検討
+Money is a crucial and fascinating part of our daily lives. It serves as an intermediary, allowing us to trade goods and services with one another. However, not all money is created equal. Some forms of money are superior as a store of value, like gold coinage, while others may be more effective as a medium of exchange, the US dollar. However, when these functions are met in their entirety, it enables us to transact confidently and with ease, which not only assists us as individuals but fosters greater economic growth and prosperity for our economy.
+
+In the upcoming modules, we'll explore two popular forms of money: Bitcoin and stablecoins. By examining them through the content discussed in this section, we'll explore how they fulfil the various functions of currency and how they can greatly benefit society.
+
+From bartering to the invention of coins and paper currency, money has undergone a series of transformations to adapt to the ever-changing needs of society. As we move on to the next chapter, let's alter course, directing our attention toward the evolution of money.
+
+## An Examination of How We Got Here
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
-物々交換の時代からデジタル通貨の現代に至るまで、お金は魅力的な進化を遂げてきました。私たちの先祖は、交換手段として貝殻やビーズ、さらには家畜を使用していました。今日では、仮想ウォレットや非接触支払いがあります。これは、社会の絶えず変化するニーズに応えるために、数え切れないほどの反復、トレードオフ、適応を見てきた注目すべき旅です。
 
-しかし、私たちが今日、生活に欠かせない部分となっているお金は、どのように進化してきたのでしょうか？このセクションでは、最も初期の形態から今日私たちが使用している現代のデジタル通貨に至るまで、お金の進化を探ります。私たちは、お金の各主要な反復を詳しく見ていき、それらがどのようにして私たちの現代社会を形作ってきたかを考察します。
+From the days of bartering goods to the modern era of digital currencies, money has undergone a fascinating evolution. Our forefathers used shells, beads, and even livestock as a medium of exchange. Today, we have virtual wallets and contactless payments. It's a remarkable journey that has seen countless iterations, trade-offs, and adaptations to meet the ever-changing needs of society.
 
-_**速記メモ:** このセクションは、必ずしもお金の進化の年代記ではないことを強調することが重要です。代わりに、異なる形態のお金の興亡に関する教育的な旅です。これらの交換手段の多くは同時に存在しており、いくつかは今日でも何らかの形で存在しています。_
+But how has the money we use evolved to become the indispensable part of our lives that it is today? In this section, we will explore the evolution of money, from its earliest forms to the modern digital currencies we use today. We will delve into each major iteration of money, looking at how they have helped shape our modern society.
 
-この導入を読んだ後、あなたは疑問に思うかもしれません：**なぜお金は時間とともに進化し、変化する必要があるのでしょうか？**
+_**A quick note:** It’s important to highlight that this section is not necessarily a chronological account of the evolution of money. Instead, it is more of an educational journey on the rise and fall of different forms of money. Many of these mediums of exchange have existed simultaneously, and some still exist today in some way, shape or form._
 
-答えはシンプルです：社会と技術が進歩するにつれて、私たちのニーズと欲求は変化します。そして、私たちのニーズと欲求が変わるにつれて、お金の使い方と価値観も変わります。例えば、古代では人々は物々交換に頼って商品やサービスを交換していましたが、社会がより複雑になるにつれて、標準化された携帯可能な通貨形態が必要とされるようになりました。これが、金貨の開発につながり、最終的には紙幣に置き換えられ、さらに最近ではデジタル通貨に置き換えられました。お金の各反復には長所と短所があり、技術と社会が進化し続けるにつれて、私たちはお金の使い方と価値観にさらに多くの変化を見ることになるでしょう。
+After reading this introduction, you might wonder: **Why does money need to evolve and change over time?**
 
-このお金の進化の概念を理解することは重要です。なぜなら、それは私たちが時間とともにお金がどのように変わってきたか、そして将来どのように変わり続けるかを見るのに役立つからです。
+The answer is simple: our needs and wants change as society and technology advance. And as our needs and wants change, how we use and value money changes, too. For example, in ancient times, people relied on bartering to exchange goods and services, but as societies became more complex, it became clear that a standardised and portable form of currency was needed. This led to the development of coins, which were eventually replaced by paper money and, more recently, digital currencies. Each iteration of money has its pros and cons, and as technology and society continue to evolve, we will most likely see even more changes in how we use and value money.
 
-これを念頭に置いて、今日使用されているか、過去のある時点で使用されていた主要な交換形態を見てみましょう。
+Understanding this concept of monetary evolution is important because it helps us see how money has changed over time and how it might continue to change in the future.
 
-1. **物々交換:** お金を使用せずに直接商品やサービスを交換すること。
-2. **商品貨幣:** 塩や貝殻のように価値があると合意された商品の交換。
-3. **貨幣:** 金や銀のような貴重な金属を、交換手段としての硬貨の形で使用すること。
-4. **金属裏付け紙幣:** 金や銀のような物理的な商品に裏付けられた紙幣。
-5. **不換紙幣:** 物理的な商品に裏付けられていないが、政府が法定通貨であると宣言することで価値を持つ通貨。
-6. **暗号通貨:** トランザクションを保護し、新しい単位の作成を制御するために暗号技術を使用するデジタルまたは仮想トークン。
+With this in mind, let's take a look at the primary forms of exchange that are either in use today or have been used at some point in the past.
 
-これらを念頭に置いて、私たちが今日に至るまでどのようにしてきたかをより包括的に理解するために、それぞれを詳しく見ていきましょう。
+1. **Bartering:** The exchange of goods or services directly without the use of money.
+2. **Commodity Money:** The exchange of an agreed-upon commodity that is deemed to be of value, such as salt or sea shells.
+3. **Coined Money:** The use of precious metals, such as gold or silver, in the form of coins as a medium of exchange.
+4. **Metal-Backed Paper Money:** Paper money backed by a physical commodity, such as gold or silver.
+5. **Fiat Money:** Currency that is not backed by a physical commodity but rather has value because a government declares it to be legal tender.
+6. **Cryptocurrencies:** Digital or virtual tokens that use cryptography to secure transactions and control the creation of new units.
 
-### 物々交換
+With these in mind, let's examine each one to gain a more holistic understanding of how we ended up where we are today.
 
-物々交換！それはシンプルな概念です：あなたが持っているものを、あなたが欲しいまたは必要とするものと交換します。
+### Barter
 
-しかし、それは実用的でしょうか？
+Bartering! It's a simple concept: you trade something you have for something you want or need.
 
-物々交換の問題点は、あなたが持っているものを欲しがり、あなたが欲しいものを持っている人を見つけるのが難しいことです。例えば、新しいシャツが必要な小麦農家だと想像してみてください。あなたは小麦と交換してくれるシャツメーカーを遠くまで探さなければならないかもしれません。しかし、そのシャツメーカーがあなたの小麦を欲しがらなかったらどうでしょう？この問題は「二重の偶然の一致」として知られています。成功した取引には、双方が交換したいものを持っている必要があります。つまり、両者が交換したいと思うものを持っている必要があります。
-バーター取引におけるもう一つの問題は、特定のアイテムに対して非現実的であることです。例えば、生きている牛をどのように分割して靴と交換するのでしょうか？そして、標準化された価値の単位がないと、商品やサービスの価値を比較するのが難しいです。牛は十袋の小麦や二巻の布より価値があるのでしょうか？
+But is it practical?
 
-その上、多くの商品やサービスは傷みやすく、時間とともに価値が下がります。ですから、バーター取引を交換手段として頼る場合、価値の損失を避けるために、継続的に商品やサービスを交換し消費する必要があります。
+The problem with bartering is that finding someone who wants what you have and has what you want can be challenging. For example, imagine you're a wheat farmer in need of a new shirt. You might have to search far and wide to find a shirtmaker willing to trade a shirt for your wheat. But what if the shirtmaker doesn't want your wheat? This problem is known as the double coincidence of wants. A successful transaction requires a double coincidence of wants, meaning that both parties must have something the other wants to trade.
 
-これらの課題にもかかわらず、バーター取引は特定の状況で今でも使用されています。オンラインマーケットプレイスの取引や、通貨が価値の保存手段として機能しない国々では、人々が商品に価値を保存しようとしてバーター取引がよく見られます。とはいえ、広く受け入れられているわけではありません。
+Another problem with bartering is that it can be impractical for certain items. How would you split a live cow to trade for a pair of shoes? And without a standardised unit of account, comparing the value of goods and services is tough. Is a cow worth more or less than ten sacks of wheat or two rolls of cloth?
 
-全体として、バーター取引は古代において効果的で広く使用された交換手段でしたが、一つの大きな欠点がありました：「欲望の偶然性」です。言い換えれば、成功したバーター交換が行われるためには、二つの当事者が互いに欲するものを持っていなければなりません。これは本当の頭痛の種であり、多くの実りのない交渉につながります。幸いなことに、私たちはバーターを超えて進化し、商品やサービスを交換するより良い方法を開発しました。
+On top of all that, many goods and services are perishable and lose value over time. So if you're relying on bartering as a means of exchange, you must continuously trade and consume your goods and services to avoid a loss of value.
 
-### 商品
+Despite these challenges, bartering is still used in certain situations. You'll often see barter used during online marketplace transactions, or in countries where the currency has failed to offer a store of value, people seek to store value in goods. That said, it is not widely accepted.
 
-バーター取引が交易における弱点を見せ始めたとき、個人も経済も同様に、代替手段が切実に必要でした。幸いなことに、交換の媒介として商品が登場したことで、私たちのニーズは一時的に満たされました。価値があるとみんなが認識する商品を事前に定義することで、私たちは交易の摩擦を減らすための仲介者として機能する最初の形のお金を手に入れました。
+All in all, barter may have been an effective and widely used method to trade goods in ancient times, but it had one major flaw: the "coincidence of wants." In other words, for a successful barter exchange to occur, two parties must have something the other wants. This can be a real headache and lead to many fruitless negotiations. Thankfully, we have moved beyond barter and have developed better ways to exchange goods and services.
 
-事前に定義された交換媒介を選ぶことの素晴らしい点は、コミュニティが希少性があり、傷みにくいものを選ぶことができ、それがより持続可能な価値の保存手段となることです。ガラスビーズ、塩、貝殻などは、数えやすく、かなり耐久性があり、袋に入れて持ち運びやすいため、すぐに求められるようになりました。特に塩は、肉の保存などに利用できる実用性があるため、人気がありました。
+### Commodities
 
-しかし、旅行が容易になり、世界が開かれるにつれて、ある地域で希少な資源が他の地域では豊富にあることが認識されるようになりました。これは、供給の希釈、搾取、そして奴隷貿易のような出来事を引き起こしました。例えば、アフリカを探検したヨーロッパの入植者は、地元のコミュニティがガラスビーズをお金として使用しているのを見て驚きました。ヨーロッパではガラスの生産が容易であるため、入植者はこれらのビーズを大量にアフリカに持ち込み、その価値を希釈しました。この希釈がアフリカ経済の崩壊に寄与した[奴隷貿易](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f)の引き金の一つだと主張する人もいます。
+As barter started to show its weakness in trade, individuals and economies alike desperately needed an alternative. Fortunately, with the emergence of commodities as a medium of exchange, our needs were satiated... temporarily. By pre-defining a commodity everyone recognised as valuable, we had our first form of money that acted as an intermediary to reduce trade friction.
 
-全体として、商品マネーは交易と商業の発展において重要な役割を果たしました。それは、広く受け入れられた標準化された交換手段を提供したからです。しかし、社会がより進化するにつれて、より便利で分割可能な他の形態のお金が出現し始めました。
+The great thing about selecting a pre-defined medium of exchange was that communities could select something that offered scarcity and didn't spoil, making it a more durable store of value. Things like glass beads, salt, and seashells quickly became sought after as they were counted, fairly durable, and portable in sacks. Salt, in particular, was popular because it had utility - curing meats, among other things.
 
-これらの問題を解決するために、人々は世界的に認識された希少性を持つ商品を探し始めました。これが、交換の媒介として貴金属の使用が登場するきっかけとなりました。
+However, as travel became easier, the world started to open up, and people recognised that scarce resources in one area were abundant in others. This led to exploitation, dilution of supply, and triggered events like the slave trade. For example, European settlers exploring Africa saw that the local communities were using glass beads as a form of money. Baffled, due to the ease of glass production in Europe, settlers would bring large amounts of these beads to Africa, diluting their value. Some would even argue that this dilution was one of the triggers that ignited the [slave trade](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), which contributed to the collapse of the African economy.
 
-### 鋳造貨幣
+Overall, commodity money played an essential role in the development of trade and commerce, as it provided a standardised means of exchange that was widely accepted. However, as societies became more advanced, other forms of money that were more convenient and divisible began to emerge.
 
-技術的にはまだ商品マネーであるにもかかわらず、人類が優れたお金を求めて探求を続ける中で、予期せぬヒーロー、貴金属に行き当たりました。これらの金属は美しく、宝飾品としての用途で欲しがられるだけでなく、優れた貨幣資産となるための多くの条件を満たしていました。その自然界での全世界的な希少性と、これらの金属を採掘、精錬、保管するために必要な大きな投資は、以前のお金の形態よりもプレミアムを与えました。
-金や銀のような金属は、周期表で最も不活性な要素の一つであり、非常に耐久性があり、耐食性に優れていました。技術が進歩するにつれて、金や銀は変革的なプロセスを経て、溶かされ、形成され、コインに打ち出され、交換の容易さが向上しました。これらのコインに標準化された価値とマーキングが施されたことで、貴金属の重量と純度を検証するコストが顕著に減少しました。しかし、ほとんどの良いことと同様に、誰かが利益を得る方法を常に見つけ出します。コインの切り取りが横行し、個人や政府がコインの一部を切り取って貴金属の重量を減らしながら、元の額面価値を保持しようとしました。これは通貨価値の最初の形態の減少につながり、インフレーションを引き起こしました。
+To solve these problems, people began searching for commodities that had globally recognised scarcity, which gave rise to the use of precious metals as a medium of exchange.
 
-さらに悪いことに、世界がよりグローバル化するにつれて、金や銀は特に船乗りにとって、輸送や取引がますます煩雑になりました。
+### Coined Money
 
-### 金裏付け紙幣
+While still technically commodity money, as humans continued their quest for superior money, they stumbled upon an unexpected hero: precious metals. Not only were these metals beautiful and coveted for their use in jewellery, but they also ticked many of the boxes for what makes an excellent monetary asset. Their globalised scarcity in nature and the significant investment required to mine, refine, and store these metals gave them a premium above other previous forms of money.
 
-金裏付け紙幣が登場し、貴金属の輸送コストと損失リスクに関連する莫大なコストの解決策となりました。しかし、私たちが見るように、この解決策には克服すべき自身の課題がありました。
+Moreover, metals such as gold were one of the most inert elements in the periodic table, making them extremely durable and corrosion-resistant.
 
-物々交換や商品の取引の日々から長い道のりを経てきました。貨幣金属の登場により、ついに普遍的に使用できる安定した価値の保存手段を手に入れました。しかし、金裏付け紙幣の導入が本当に私たちの取引方法を革命的に変えました。
+As technology progressed, gold and silver underwent a transformative process, being melted, shaped, and stamped into coins, increasing the ease of exchange. The standardised value and markings on these coins notably decreased the costs associated with verifying the weight and purity of precious metals. But, as with most good things, someone always finds a way to take advantage. Coin clipping became rampant, with both individuals and governments clipping portions of the coins to reduce their weight of precious metal while attempting to retain their original face value. This led to the first form of currency devaluation, leading to inflation.
 
-考えてみてください：もう重い金の袋を運ぶことも、盗難を心配することもありません。代わりに、個人は金を倉庫に預け、物理的な金のように取引できる領収書を受け取ることができました。これにより、お金の流動性、分割性、携帯性が向上し、世界貿易が大幅に容易になりました。これらの領収書は長距離に容易に輸送することができ、莫大な輸送コストをかけずに国際貿易を行うことが可能になりました。金裏付け紙幣がお金の形態として普及するまでには少し時間がかかりましたが、イギリス帝国の拡大とともに、すぐに標準となりました。
+To make matters worse, as the world became more global, gold and silver became increasingly cumbersome to transport and transact with, especially for seafarers.
 
-しかし、新しい技術と同様に、問題が発生し始めました。
+### Metal-Backed Paper Currency
 
-まず、金の倉庫は、領収書が主張する金を引き出しに顧客がほとんど戻ってこないことを認識し、金の裏付けのない紙の領収書を発行し始め、最初の部分準備金銀行制度（発行者は顧客の預金の一部を準備金として保持し、残りを貸し出す）の秘密の創造につながりました。そして、国が自国の通貨を金で裏付けようとしたときでさえ、しばしばシステムを悪用し、経済的混乱につながりました。
+Enter metal-backed paper, a solution to the considerable costs of transportation and risks of loss associated with precious metals. But, as we will see, this solution had its own challenges to overcome.
 
-二つ目に、金裏付け紙幣は偽造から免れませんでした。セキュリティ機能があっても、偽造者は依然として検出が困難な偽の紙幣を作成することができました。
+We've come a long way from the days of bartering and trading goods. With the advent of monetary metals, we finally had a stable store of value that could be used universally. But it was the introduction of metal-backed paper currency that really revolutionised the way we transact.
 
-金裏付け紙幣はその公平な問題の割合を持っていましたが、その向上した流動性、分割性、携帯性は、今日私たちが使用する実用性が希少性をしばしば上回るフィアット通貨の便利さの道を開きました。
+Think about it: no more lugging around heavy bags of gold or worrying about theft. Instead, individuals could deposit their gold at a warehouse and receive a receipt they could trade just like physical gold. This enhanced the fungibility, divisibility and portability of money, making global trade significantly easier. These receipts could then be easily transported over long distances, making it possible to conduct international trade without incurring significant transportation costs. Although it took a little while for metal-backed paper as a form of money to take off, with the expansion of the British Empire, it quickly became the norm.
 
-### フィアット通貨
+But as with any new technology, issues began to emerge.
 
-フィアット通貨は数十年にわたって私たちの通貨システムの基盤を形成してきました。「フィアット」という言葉はラテン語で「それを成し遂げよ」という意味であり、国家が通貨を法定通貨として宣言する権限を指します。金や他の貴重品に裏付けられていた通貨とは異なり、フィアットの価値は、誰かがそれを商品やサービスと交換することを受け入れるという政府の約束から来ています。
-フィアット通貨は、国々が金に裏打ちされた紙幣に対する不満を抱える中で登場しました。政府は、より多くの紙幣を印刷するためには、より多くの金を手に入れなければなりませんでした。これは障害であったため、国が資本を必要とするたびに、このペグを一時的に放棄し、通貨供給を拡大しました。この新しい通貨は、法定通貨であるという事実による政府への信頼以外に裏打ちされていませんでした。それだけでなく、この新しい通貨は、通貨供給を膨張させることで流通している残りの通貨を減価させ、より多くのドルが同じ量の商品を追いかけることで、価格が上昇しました。
-金に裏打ちされた紙幣の終焉は、第二次世界大戦の末期に始まりました。米国への大きな信頼を背景に、世界の指導者たちはニューハンプシャー州ブレトンウッズで会合を開き、米国がドルを金にペグし、世界の他の国々が自国の通貨をドルにペグすることを決定しました。これは、世界のほとんどの金が安全保障のために米国に流入し、多くの国が国内の金蔵を枯渇させることを意味しました。
+First, gold warehouses, recognising that their customers rarely came back to withdraw the gold that the receipts laid claim to, started issuing paper receipts with no gold backing, leading to the covert creation of the first fractional reserve banking system (issuers only hold a fraction of customers' deposits as reserves and lend out the rest). And even when countries tried to back their currencies with gold, they often abused the system, leading to economic turmoil.
 
-60年代後半から70年代初頭にかけて、米国は金への裏打ちによる制約を感じ、ベトナム戦争の資金調達のために通貨供給を拡大し始めました。フランスはこれに満足せず、自国の金の返還を要求しました。これにより金への殺到が起こり、米国が利用可能な金に比べて著しく多くのドルを印刷していたため、すぐにこのペグを完全に放棄しました。この出来事はニクソン・ショックとして知られ、個人や国々はもはや自分たちのドルを金に換えることができなくなりました。この日から、私たちはフィアット通貨の普及を目の当たりにしました。これは、債務と政府への信頼以外に裏打ちされていない通貨です。
+Second, metal-backed paper money was not immune to counterfeiting. Even with security features, counterfeiters could still create fake notes that could be difficult to detect.
 
-しかし、通貨の進化はそこで止まりませんでした。技術の進歩に伴い、フィアット通貨は進化を続けています。今日では、インターネットバンキングやVisa、Mastercard、Paypal、Square、Venmoなどのデジタル決済システムが一般的になっています。
+Although metal-backed paper currency had its fair share of problems, its enhanced fungibility, divisibility, and portability paved the way for the convenience of fiat currencies we use today, where practicality often trumps scarcity.
 
-そして近年では、中央銀行デジタル通貨（CBDC）に関する議論が増加しています。これは、従来のフィアット通貨の完全に中央集権的でプログラマブルなバージョンを提供する、フィアット通貨の最新のイテレーションです。
+### Fiat Currency
 
-CBDCは、発行者がすべての取引を完全に把握し、誰が通貨を使用できるか、または使用できないかを決定できるため、私たちが慣れ親しんだフィアット通貨とは異なります。政府と中央銀行は、中央集権的な管理、取引効率の向上、迅速な給付金の預金などの利点を引用して、CBDCの導入について積極的に発言しています。
+Fiat currencies have been the foundation of our monetary system for decades. The term "fiat" is Latin for "let it be done" and refers to the state's authority to declare a currency as legal tender. Unlike currencies once backed by gold or other valuables, fiat value comes from the government's promise that someone will accept it in exchange for goods and services.
 
-CBDCは多くの利点を提供しますが、消費を促進するために私たちの現金に時間制限を設けたり、私たちが取引できる相手を制限したりするなど、いくつかの深刻な潜在的な欠点も伴います。さらに、中国でのCBDCと社会信用スコアの導入が示すように、デジタルアイデンティティへの移行の可能性がますます顕著になっており、住宅、金融機関、基本的な移動権へのアクセスを制限することで、国全体の自由に影響を与えています。
+Fiat currencies emerged as countries faced frustration around metal-backed paper currency– governments would have to obtain more gold to print more paper money. This was a hindrance, so whenever a country needed capital, it would temporarily abandon this peg and expand its monetary supply. This new currency was backed by nothing but faith in the government owing to the fact that it was legal tender. Not only that, this new currency devalued the remaining currency in circulation by inflating the supply of money, and with more dollars chasing the same amount of goods, prices rose.
 
-CBDCは大部分が未検証であるため、利点と欠点が何であるかを確実に言うことはできません。しかし、CBDCは政府と銀行に私たちの通貨システムに対する莫大な制御を与えることが確かです。
+The demise of metal-backed paper currency started at the tail end of World War II. With much faith in the US, global leaders met in Bretton Woods, New Hampshire, and determined that the US would peg their dollar to gold and the rest of the world would peg their currency to the dollar. This meant that most of the world's gold poured into the US for safekeeping, depleting many countries of their domestic gold reserves.
 
-フィアット通貨は、デジタル経済の台頭によって大きな変化を遂げています。消費者の進化するニーズを満たすために、フィアット通貨はそれに応じて適応してきました。しかし、CBDCの出現により、速度と効率性の面での利点にもかかわらず、その潜在的な欠点に注意を払う必要があります。
+Fast forward to the late '60s and early '70s, the US, feeling restricted by its backing to gold, started to expand their money supply to fund the war in Vietnam. France was not happy about this and demanded their gold back. This caused a rush for gold, and as the US had printed significantly more dollars than the gold it had available, it quickly dropped this peg altogether. This event, known as the Nixon Shock, meant that individuals and countries could no longer redeem their dollars for gold. From this day on, we saw the proliferation of fiat currencies– a currency that is backed by nothing but debt and our faith in the government.
 
-これを念頭に置いて、購買力の浸食とフィアット通貨の普及に伴う政府の管理の増加を目の当たりにした個人は、代替オプションを探求し始めています。
+However, monetary evolution didn't stop there. With advancements in technology, fiat currency has continued to evolve. Today, digital transactions have become increasingly common, with internet banking and digital payment systems like Visa, Mastercard, Paypal, Square, and Venmo becoming the norm.
 
-### 仮想通貨
-想像してみてください。仲介者や信頼できる第三者を必要とせずに、お金をデジタルで保管し、交換できる世界。お金の供給が改ざん不可能で、希少性があり、政府や銀行ではなくコミュニティの手にある世界。これが、2009年の誕生以来、主要な暗号通貨であるビットコインが作り出してきた世界です。
+And in more recent years, we have witnessed increased discussion around central bank digital currencies (CBDCs), the newest iteration of fiat currency, offering a wholly centralised and programmable version of our traditional fiat currencies.
 
-ビットコインは、愛されている貨幣金属の新しく改良されたバージョンを作り出すことを目指した暗号学者のクエストから生まれました。彼らはデジタルゴールド、価値を保存し、耐久性を提供し、デジタル取引に使用できる貨幣資産を探していました。そして、ビットコインは最初に成功した、デジタルネイティブで希少な貨幣資産として登場しました。
+CBDCs differ from the fiat currencies we are used to because they give the issuer total visibility into all transactions and the ability to decide who can and can't use the currency. Governments and central banks have been vocal about their ambitions of introducing CBDCs, citing benefits such as centralised control, improved transaction efficiency, and the ability to deposit stimulus checks quickly.
 
-ビットコインが真にユニークなのは、デジタル所有証として機能することであり、仲介者や信頼できる第三者を必要としないことです。通貨政策はエコシステムに参加している人々によって制御されており、以前のお金の形態で常習的だったような方法で希釈したり改ざんしたりすることは不可能です。そして、ビットコインは政府や中央銀行の管理外に存在するため、操作できない代替の通貨システムとして急速に広く採用されています。
+While CBDCs offer many advantages, they also come with some serious potential drawbacks. For example, governments may be able to freeze bank accounts arbitrarily, put time limits on our cash to promote consumption and restrict who we can and can't transact with.
 
-その誕生以来、ビットコインは通貨としての受け入れと採用が継続して成長しています。実際、現在は年率[137%](https://www.benzinga.com/markets/cryptocurrency/22/03/26114752/raoul-pal-declares-crypto-is-growing-far-faster-than-the-internet-says-bitcoin-could-reach)で成長しており、同じ年齢のインターネットの成長率76%と比較しています。そして、近年他の暗号通貨が導入されているにもかかわらず、ビットコインの優れた通貨としての地位に挑戦するものはありません。
+Moreover, the potential for a transition towards digital identities is becoming more prevalent, as seen in China with their CBDC and the introduction of social credit scores, which have impacted freedom throughout the country by preventing access to housing, financial institutions, and basic mobility rights.
 
-一部の否定派は、ビットコインは遅く、取引に費用がかかり、エネルギーを無駄にすると主張していますが、そう急いで判断してはいけません。もし私たちが、ビットコインがお金と価値について考える方法においてパラダイムシフトを代表していると言ったらどうでしょうか？
+As CBDCs are largely untested, we cannot say for sure what the pros and cons will be. However, we can be sure that CBDCs give governments and banks immense control over our monetary system.
 
-これからのモジュールで、私たちは客観性と興味を持ってビットコインを別の視点から探求します。だから、我慢してください。
+Fiat currencies have certainly undergone significant changes in recent times, largely driven by the rise of the digital economy. To meet the evolving needs of consumers, fiat currencies have adapted accordingly. However, with the emergence of CBDCs, we must remain cautious of their potential drawbacks despite their benefits in terms of speed and efficiency.
 
-その間、中央銀行デジタル通貨はビットコインの直接の競争相手と見なされるかもしれませんが、多くの人がそれらは恐ろしい政治的および社会的意味を除けば、他のデジタル法定通貨と何ら変わりないと主張しています。
+With this in mind, individuals who have witnessed the erosion of purchasing power and rising government control alongside the proliferation of fiat currencies have started exploring alternative options.
 
-プログラマブルマネーの世界に向かって進むにつれて、ビットコインは独自のリーグに留まります。その供給は希釈されたり拡大されたりすることはなく、最大のネットワーク効果とユーザーベースを持ち、ネットワークが成長するにつれてその価値提案とセキュリティは強化され続けます。そして、それが最新のデジタル通貨ではないかもしれませんが、より価値のあるものを提供します：自分自身のお金に対する真の主権。
+### Cryptocurrencies
 
-それは言ったとおり、デジタル通貨はお金の進化の新しいフロンティアを代表しており、高度なセキュリティ、プライバシー、便利さを提供しますが、それらをお金の形態として採用する前に慎重に考慮されるべき独自のリスクと課題も伴います。
+Imagine a world where your money could be stored and exchanged digitally without any need for intermediaries or trusted third parties. A world where the supply of money was tamperproof, scarce and in the hands of the community rather than governments or banks. This is the world that the leading cryptocurrency, Bitcoin, has created since its inception in 2009.
 
-歴史を通じてさまざまな形態のお金を検討した後、これは適切な質問を提起します：
+Bitcoin was born out of a cryptographer's quest to create a new and improved version of our beloved monetary metals. They were looking for digital gold, a monetary asset that could store value, offer durability, and be used for digital transactions. And thus, Bitcoin emerged as the first successful, digitally native, and scarce monetary asset.
 
-### 私たちは正しい方向に進んでいるのでしょうか？
+What makes Bitcoin truly unique is that it is a digital bearer instrument, meaning there is no need for intermediaries or trusted third parties. The monetary policy is controlled by those participating in the ecosystem, making it impossible to dilute or tamper with in the same ways that were endemic in previous forms of money. And as Bitcoin exists outside the control of governments and central banks, it is quickly becoming widely adopted as an alternative monetary system because it cannot be manipulated.
 
-この旅を通じて、私たちはお金の魅力的な進化を探求してきました。物々交換から現在のデジタル時代に至るまでの進化をたどり、貝殻やビーズから貴金属や法定通貨に至るまで、さまざまな通貨の興亡を見てきました。
+Since its inception, Bitcoin has continued to grow in its acceptance and adoption as a monetary good. In fact, it is currently growing at a rate of [137%](https://www.benzinga.com/markets/cryptocurrency/22/03/26114752/raoul-pal-declares-crypto-is-growing-far-faster-than-the-internet-says-bitcoin-could-reach) per year, compared to 76% for the growth of the internet at the same age. And while other cryptocurrencies have been introduced in recent years, none have challenged Bitcoin's status as a superior monetary good.
 
-しかし、私たちが見てきたように、お金の進化の道は挑戦なしには進まなかった。コインの切り取りや通貨操作の台頭、一般に受け入れられた交換媒体からの中央集権化への移行は、私たちが途中で直面した障害のいくつかの例です。
-私たちが未来へと進むにつれて、自問自答しなければならないことがあります。**通貨操作が私たちの財政的な幸福にどのような影響を続けていくのか？**
-そして、物々交換から商品へ、そしてデジタル化された通貨へと移行してきた過程で利便性を優先してきたことは明らかですが、**私たちはお金の理想的な形態において最も価値を置くべき特性を再考すべきでしょうか？**
+Some naysayers claim that Bitcoin is slow, expensive to transact with, and wastes energy, but let's not be so quick to judge. What if we told you that Bitcoin represents a paradigm shift in the way we think about money and value?
 
-これらは慎重な考慮と反省を必要とする複雑な問いです。しかし、一つはっきりしていることがあります - お金の未来は私たちの手の中にあります。私たちはお金を形作る力を持っており、それが単に発行者や私たちの政府ではなく、社会のニーズに奉仕するように保証することができます。
+In the coming modules, we will explore Bitcoin through an alternate lens, one of objectivity and intrigue. So bear with us.
 
-お金の世界を探求し続ける中で、フィアット通貨の台頭以来、起こった重大な変化を認識することが重要です。これらの通貨は便利さと安定性をもたらしましたが、インフレーション、借金レベルの上昇、そして富の不平等など、新たな課題も提示しました。次のセクションでは、これらの問題についてさらに深く掘り下げ、続くモジュールでは、これらの難問に対する潜在的な解決策を探求します。
+In the meantime, while central bank digital currencies may be viewed as Bitcoin's direct competition, many argue that they are no different from any other digital fiat currency except for frightening political and social implications.
 
-## 現状と今後についての展望
+As we continue to move towards a world of programmable money, Bitcoin remains in a league of its own. Its supply cannot be diluted or expanded, it has the largest network effects and user base, and its value proposition and security will continue to strengthen as the network grows. And while it may not be the newest digital currency, it offers something far more valuable: true sovereignty over one's own money.
+
+That said, although digital currencies represent a new frontier in the evolution of money, offering a high degree of security, privacy, and convenience, they also come with their own risks and challenges, which must be carefully considered before adopting them as a form of money.
+
+After examining the different forms of money throughout history, this brings up a pertinent question:
+
+### Are we headed in the right direction?
+
+Throughout this journey, we have explored the fascinating evolution of money, tracing its evolution from bartering to our current digital age. We have seen various currencies rise and fall, from shells and beads to precious metals and fiat money.
+
+However, as we have seen, the path of monetary evolution has not been without its challenges. The rise of coin clipping and currency manipulation, the move towards centralisation and away from a generally accepted medium of exchange are just a few examples of the obstacles we have faced along the way.
+
+As we move forward into the future, we must ask ourselves, **how will currency manipulation continue to affect our financial well-being?**
+
+And, although it is clear we have prioritised ease of use as we have transitioned from barter to commodities to digitalised currencies, **should we rethink what characteristics we value most in the perfect form of money?**
+
+These are complex questions that require careful consideration and reflection. However, one thing is clear - the future of money is in our hands. We have the power to shape our money, ensuring that it serves the needs of society rather than simply the issuer or our governments.
+
+As we continue our exploration of the world of money, it's important to acknowledge the significant changes that have taken place since the rise of fiat currencies. While these currencies have brought a level of convenience and stability, they have also presented new challenges, such as inflation, rising debt levels, and wealth inequality. In the next section, we will delve deeper into these issues, and in the following modules, we'll explore potential solutions to these tricky problems.
+
+## A Look at Where We Are and What We Can Expect Moving Forward
 <chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
-前章で議論したように、歴史的に、お金はしばしば金のような商品に裏打ちされていました。これの利点は過小評価できません。このつながりは、そのようなお金の価値が商品の価値に直接結びついていることを意味するだけでなく、通貨発行者、通常は政府が、より多くの金を得る必要があるため、印刷できるお金の量に制限があることも意味していました。
+As we discussed in the previous chapter, historically, money has often been backed by a commodity like gold. The benefits of this cannot be overstated. Not only did this connection mean that such money’s value was directly tied to the value of the commodity, but it also meant that the currency issuer, typically the government, was limited in how much money it could print as it would have to obtain more gold.
 
-しかし、過去100年間で金本位制から離れるにつれて、お金はますます中央集権化され、連邦準備制度やアメリカの中央銀行のような中央銀行がお金の方向性をより多くコントロールするようになりました。
+However, as we moved away from the gold standard, over the last 100 years, money has increasingly become more centralised, with central banks like the Federal Reserve and the US central bank gaining more control over the direction of money.
 
-今日、中央銀行は財務省とともに、基本的にお金と金融システムの方向性に対して自由な裁量を持っています。必要と判断した場合にはお金の供給を増やす能力、経済成長を促進するための利率の調整、さらには失敗した銀行や企業への救済措置を提供する能力を持っています。
+Today, central banks, alongside the treasury, basically have free reign over the direction of money and the monetary system. They possess the ability to increase the supply of money whenever they deem it necessary, as well as adjust interest rates to promote economic growth, and even provide bailouts to failing banks and businesses.
 
-…しかし、どんな形の介入にも無料の昼食はありません。
+…but as with any form of intervention, there is no free lunch.
 
-中央銀行が介入を決定するとき、彼らは空からお金を印刷することはできても、価値を生み出すことはできません。この新しく印刷されたお金が何かの価値を持つためには、その価値は以前の通貨保持者から来なければなりません。
+When central banks decide to intervene, although they may be able to print money out of thin air, they can’t create value. For this newly printed money to be worth something, its value must come from the previous currency holders.
 
-**どういう意味でしょうか？** お金の供給をピザと考え、それを4つのスライスに切ったと想像してください。お金の供給を倍にすることは、ピザの量を倍にすることと同じではありません。それは、4つのスライスを半分に切って8つのスライスを作ることに相当します。私たちは追加のピザを得ていません。ただ、より多くのスライスを持っているだけで、それぞれのサイズは小さくなっています。
+**What do we mean?** Think of the money supply as a pizza, and imagine it cut into four slices. Doubling the money supply would not be equivalent to doubling the amount of pizza. Instead, it would be equivalent to cutting those four slices in half to create eight slices. We have not gained any additional pizza. We just have more slices, each smaller in size.
 
-私たちがより多くのお金を印刷すると、既に存在するお金の価値を下げます。
+When we print more money, we devalue the money that is already in existence.
 
-中央銀行が経済のある領域を救済するためには、別の領域から取らなければなりません。したがって、無料の昼食はありません。
+For central banks to bail out one area of the economy, they must take from another. Hence, there is no free lunch.
 
-そして、お金がもはや金のような商品に結びついていないため、政府が従わなければならないチェックとバランスが少なくなり、必要と感じたときに介入するためのより大きな力を持っています。たとえば、2000年、2008年、そして2020年に私たちが直面した経済的な低迷のように、中央銀行はこれまでにないレベルで介入することができました。金融市場を安定させる試みとして、経済に数兆ドルの新鮮なドルを注入しました。
-この介入は、小規模企業、賃金労働者、そして経済の長期的な安定にとって、かなりのコストをもたらしました。なぜなら、この増加した介入が国の借金の膨張とインフレーションの上昇につながったからです。これは、ご想像の通り、生活費の上昇につながり、個人や家族が基本的な必需品を購入することをより困難にしています。
+And with money no longer being tied to a commodity such as gold, there are fewer checks and balances that the government has to follow, giving them greater power to intervene whenever they feel it is necessary. For example, during economic downturns like the ones we faced in 2000, 2008, and 2020, central banks were able to intervene to levels never before seen. Injecting trillions of fresh dollars into the economy in an attempt to stabilise the financial markets.
 
-全体として、今日のお金の中央集権的な性質は、中央銀行に経済に介入する前例のない程度の権力を与えています。これは経済的な困難の時に有益に見えるかもしれませんが、増加した借金やインフレーションのような重大な欠点をもたらすこともあります。これを念頭に置いて、これらの一見無害な用語、借金とインフレーションと、それらの副産物をいくつか見てみましょう。
+This intervention has come at a significant cost to small businesses, the wage earner and the long-term stability of the economy, as this increased intervention has led to a ballooning of the national debt and rising inflation. This, as I am sure you can guess, has led to a rise in the cost of living, making it more difficult for individuals and families to afford basic necessities.
 
-深く掘り下げる前に、以下のテキストを読む際に、私たちが米国を参照していることに気づくかもしれません。米ドルが世界の準備通貨であることを考えると、ドルに何が起こるかは、すべての世界経済と通貨に下流効果をもたらします。したがって、私たちは世界的な課題を示すために、米国システム内のいくつかの問題を強調します。しばしば、自国の地方管轄区域を調べると、自国の状況がさらに深刻である可能性があることがわかります。
+Overall, the centralised nature of money today has given central banks an unparalleled degree of power to intervene in the economy. While this may appear beneficial during times of economic hardship, it can also result in significant drawbacks like increased debt and inflation. With this in mind, let's take a look under the hood at these seemingly innocuous terms, debt and inflation and examine some of their byproducts.
 
-### インフレーション
+Before diving in, you may notice that we reference the US as you read the following text. Considering the US dollar is the global reserve currency, what happens to the dollar will have downstream effects on all global economies and currencies. Therefore, we highlight some of the problems within the US system to illustrate the global challenges we face. Often, if you examine your own local jurisdiction, you may find that the state of affairs in your home country is potentially more dire.
 
-インフレーションは、通貨の拡大による消費者価格の上昇またはお金の購買力の低下として理解されます。そして、これは、十分な商品がないにもかかわらず追いかけるドルが多すぎるため、価格が上昇するとよりよく理解できます。
+### Inflation
 
-前述のように、お金の供給に対する有用な類推はピザです。中央銀行が新しく印刷されたお金を経済に注入するとき、彼らはピザをより多く作っているわけではありません。代わりに、彼らはピザをより小さなピースに切り分けています。これにより、私たちの通貨の価値が下落し、つまり、各スライスまたはドルの価値が時間とともに減少します。経済により多くのお金が注入されると、インフレが上昇し、ドルの購買力が低下し、商品やサービスの価格が上昇します。
+Inflation is an increase in consumer prices or a decline in the purchasing power of money due to monetary expansion. And it can be better understood as too many dollars chasing not enough goods, causing prices to rise.
 
-私たちが話しているお金の印刷の規模を理解するために、過去10年間だけで印刷された米ドルの量は、通貨の全歴史を通じて印刷された米ドルの総量を上回ります。そうです - 過去10年間に印刷されたお金は、前の2世紀にわたって印刷されたものよりも多いのです！私たちのお金の価値が砂漠の水滴よりも速く蒸発しているように感じるのも不思議ではありません。
+As mentioned earlier, a useful analogy for the money supply is a pizza. When central banks inject newly printed money into the economy, they are not creating more pizza. Instead, they are slicing the pizza into smaller pieces. This leads to the devaluation of our currency, meaning that the value of each slice—or dollar—decreases over time. As more money is pumped into the economy, inflation rises, and the purchasing power of the dollar decreases, leading to higher prices for goods and services.
 
-これを視覚化するのは難しいかもしれませんが、仮想の例を見てみましょう。
+To give you an idea of the scale of money printing we are talking about, in the past decade alone, the amount of US dollars printed surpasses the total amount of US dollars printed throughout the entire history of the currency. That's right - more money was printed in the last ten years than in the previous two centuries combined! It's no wonder that the value of our money seems to be evaporating faster than a drop of water in the desert.
 
-年収が30,000ドルで、15,000ドルの新車を購入する予定だとしましょう。少し計算をすると、年間5,000ドルを節約できるとわかります。つまり、インフレがゼロであれば、車のために3年間節約するのにかかります。合理的に聞こえます…
+This can be hard to visualise, so let’s take a look at a hypothetical example.
 
-しかし、このようなシナリオでは、インフレを考慮に入れていません。上記のシナリオにインフレを含めると、全く異なる話になります。
+Let's say we earn a salary of \$30,000 per year, and we're planning to buy a new car that costs \$15,000. After doing some math, we figure you can save \$5,000 per year. That means, given zero inflation, it would take us three years to save up for the car. Sounds reasonable…
 
-収入と節約の可能性が同じままであると仮定すると、3年間の10％のインフレの後、車の価格は現在19,965ドルになります。私たちは今、4,965ドル不足しており、さらに1年間節約してついに19,965ドルを手に入れたとき、その価格は21,961ドルになっています。車はどんどん手の届かないものになっています。
-全体として、インフレがゼロである場合、年間\$5,000を貯めることができれば、\$15,000の車を買うためには3年かかります。しかし、インフレが10%である場合、4.5年間貯金する必要があります。これは50%の時間が増えることを意味します！私たちの人生の1.5年は戻ってきません。
+However, in such a scenario, we are failing to account for inflation. When we include inflation in the above scenario, we face a very different story.
 
-もし私たちの給料がインフレとともに増えなければ、時間が経つにつれて実質的にお金を少なく稼ぐことになります。これは、生活費は増えているのに給料が同じままであるためです。これにより、購買力が減少し、以前と同じ生活水準を維持することがより困難になります。
+Assuming our income and savings potential stay the same, after three years of 10% inflation, the car would now cost \$19,965. We’re now \$4,965 short, and by the time we save for another year and finally have the \$19,965, it now costs \$21,961. The car is quickly getting further and further out of reach.
 
-### 債務
+All in all, given zero inflation, it would take three years to save for a \$15,000 car if we’re able to save \$5,000 per year. However, with inflation at 10%, we now have to save for 4.5 years. That is 50% more time! 1.5 years of our life we won’t get back.
 
-歴史的に、政府は経済成長を促進するためにより多くの金を獲得する必要があったため、その能力に制約がありました。これは、物理法則に従わなければならなかったため、彼らが無限に成長し拡大する能力を制限しました。
+If our salary does not increase with inflation, we are earning less money as time passes. This is because the cost of living is increasing, but our salary is staying the same. This leads to a decrease in our purchasing power, making it more difficult to afford the same standard of living as before.
 
-しかし、ニクソン・ショック後、米国が金本位制を放棄したとき、世界中の政府と中央銀行は、物理的資産によってもはや裏付けられていない通貨を意のままに拡大する能力を得ました。この変化は当初、経済的なストレスの期間中に米国の中央銀行が経済をより容易に刺激することを可能にしました。しかし、経済成長を促進する手段として始まったものはすぐに常態化し、代わりに人工的な成長を刺激するために使用されました。
+### Debt
 
-時間が経つにつれて、米国を含む他の政府は債務に対する不健全な欲求を発展させ、現在の状況に至りました。米国は過去21年のうち20年間で、税収や他の収入源を通じて得たもの以上に支出しました。もし私たちがこの支出パターンを私たちの個人的な財政に適用した場合、それがどれほど迅速に財政的な課題につながるかを知っています。
+Historically, governments were constrained in their abilities to fuel economic growth since they had to acquire more gold to obtain capital for stimulation. This limited their ability to grow and expand indefinitely, as they had to abide by the laws of physics.
 
-中央銀行は現在、困難な立場にあります。債務負担を考えると、債務の負担を軽減するために利息率を人工的に抑制する以外にほとんど選択肢がありません - もし利息率が低ければ、債務の支払いも低くなります。もし率が上昇すれば、経済の多くのセクターが利息の支払いをサービスできなくなり、迅速にデフォルトに至る可能性があります。
+However, after the Nixon Shock, when the US abandoned the gold standard, governments and central banks worldwide gained the ability to expand the money supply at will, as a physical asset no longer backed currency. This shift initially enabled the US central bank to stimulate the economy more easily during periods of economic stress. However, what started as a measure to spur economic growth quickly became the norm and was instead used to stimulate artificial growth.
 
-しかし、この利息率の抑制はコストがかかります：それは資本をより容易に利用可能にします。その結果、個人、企業、政府は追加の債務を負う傾向が強まり、全体的な債務負担を悪化させます。これは中央銀行にとって難しいバランスの取り方を生み出し、既存の債務を管理するために十分に低い利息率を維持しつつ、長期的に経済に害を及ぼす可能性のある新たな債務の蓄積を防ぐ必要があります。
+Over time, the US and other governments developed an unhealthy appetite for debt, leading to our current situation. The US has spent more than it has earned through taxation and other sources of income in 20 of the last 21 years. If we were to apply this spending pattern to our personal finances, we know how quickly it would lead to financial challenges.
 
-このバランスの取り方は計画通りには進んでいません…
+Central banks now find themselves in a difficult position. Given the debt burden, they have few options other than to artificially suppress interest rates in an attempt to reduce the burden of debt– If interest rates are lower, then debt service payments are, too. If rates were to rise, many sectors of the economy would likely be unable to service their interest payments, quickly leading to default.
+
+However, this suppression of interest rates comes at a cost: It makes capital more easily available. As a result, individuals, businesses, and governments are more inclined to take on additional debt, thereby exacerbating the overall debt burden. This creates a challenging balancing act for central banks, which must keep interest rates low enough to manage existing debt while also preventing the accumulation of new debt that could harm the economy in the long run.
+
+This balancing act isn’t going quite as planned…
 
 ![image](assets/1.webp)
 
-図 [債務対GDP](https://www.longtermtrends.net/us-debt-to-gdp/)
+Figure [Debt vs GDP](https://www.longtermtrends.net/us-debt-to-gdp/)
 
-連邦、企業、家計の債務を合わせると、その結果の数字は驚異的な\$63.14兆であり、これはアメリカ合衆国の国内総生産(GDP)の\$26.13兆と対照的です。これは、米国が241%の総債務対GDP比率を持っていることを意味します。言い換えれば、GDPが\$1生成されるごとに、\$2.41の債務があります。
+When we add together Federal, corporate, and household debt, the resulting figure is a staggering \$63.14 trillion, in contrast to the United States Gross Domestic Product (GDP) of \$26.13 trillion. This means that the US has a total debt-to-GDP ratio of 241%. In other words, for every \$1 of GDP generated, there is a whopping \$2.41 in debt.
 
 \$63.14t / \$26.13t = 241%
 
-この債務の平均利息を保守的に3%と仮定しましょう。
+Let’s assume conservatively that the average interest on this debt is 3%.
 
 3% \* 241% = 7.23%
 
-米国の債務負担の規模は、債務の利息支払いをサービスするためには、年間7.23%の成長率が必要であることを意味します - これは過去70年間の平均GDP成長率[3.13%](https://tradingeconomics.com/united-states/gdp-growth-annual)よりもかなり高い率です。
+The scale of the US's debt burden is such that even servicing the interest payments on the debt would require an annual growth rate of 7.23% - a rate significantly higher than the average GDP growth rate of [3.13%](https://tradingeconomics.com/united-states/gdp-growth-annual.) over the last 70 years.
+
 7.23% - 3.13% = 4.1%
 
-たとえ米国が赤字を出さずに収支をバランスさせることができたとしても、最良のシナリオであっても、国の債務は毎年4.1%増加します。これは、国のGDP成長が債務の利息を完全にカバーしていないためです。
+Even in the best-case scenario where the US stops running deficits and manages to balance its books, the debt would still increase by 4.1% per year. This is because the country's GDP growth does not fully cover the interest on the debt.
 
-この先どうなるか、おそらく予想がつくでしょう。債務の負担に対処するために、権力を持つ人々は経済にさらにお金を注入し、通貨の価値を下げ、インフレを高めることを余儀なくされます。私たちは、明確な解決策のない債務の渦中にいます。
+You can probably see where this is going. To address the burden of debt, those in positions of power are compelled to intervene by injecting more money into the economy, devaluing the currency, and leading to higher inflation. We are in a debt spiral with no clear way out.
 
-このアプローチは一時的な救済を提供しますが、最終的には過剰な債務という根本的な問題を悪化させるだけです。債務を減らすための長期的な解決策を見つけるには、難しい選択をする意欲と短期的に厳しい決断をする勇気が必要になります。しかし、それは全く別のコースの話です。その間、債務とインフレがすべての人に均等に影響を与えない理由を見てみましょう。それは賃金労働者に不釣り合いな影響を与えます。
+While this approach provides temporary relief, ultimately, we’re only exacerbating the underlying problem of excessive debt. Finding a long-term solution to reduce debt is going to require difficult choices and a willingness to make tough decisions in the short term. But that's for a whole other course. In the meantime, let’s take a look at why debt and inflation don’t impact everyone evenly. It disproportionately impacts the wage earner.
 
-### 財産格差
+### Wealth Inequality
 
-お金が経済に入ると、特定の領域、つまり資産に集中します！
+When money enters the economy, it tends to pool in certain areas: Assets!
 
-なぜかと言うと、中央銀行が新しい通貨を印刷して通貨供給を増やすと、各通貨単位の価値が減少します。これは、時間が経つにつれて商品やサービスの価格が上昇することを意味し、食料、住宅、医療などの基本的な必需品のコストが高くなります。このインフレ圧力は、収入のために賃金や給料に依存している人々の購買力を侵食します。
+Why? You might ask. When central banks increase the money supply by printing new currency, the value of each individual unit of currency decreases. This means that prices for goods and services tend to increase over time, leading to higher costs for basic necessities like food, housing, and healthcare. This inflationary pressure on prices erodes the purchasing power of those who rely on wages and salaries for their income.
 
-これを念頭に置いて、あなたは稼いだ貯金を通貨に保管することに動機付けられますか？もちろん違います。能力があれば、資産を購入に出かけます。資産に対する人工的な需要があるため、その価値は上昇します。したがって、株式、債券、不動産などの資産を保有する人々は、これらの資産の価値がインフレとともに増加する傾向があるため、ある程度、インフレから恩恵を受けます。結果として、インフレは資産を保有する人々と賃金や給料に依存する人々との間に格差を生み出し、上流階級の手に富を集中させることで、財産格差を悪化させます。
+With this in mind, are you incentivised to store your hard-earned savings in the currency? Of course not. If you have the capacity, you go out and purchase assets. Given the artificial demand for assets, their value rises. Therefore, those who hold assets such as stocks, bonds, and real estate benefit, to a certain extent, from inflation as the value of these assets tends to increase with inflation. As a result, inflation exacerbates wealth inequality by creating a divide between those who hold assets and those who rely on wages and salaries, leading to a concentration of wealth in the hands of the upper class.
 
-不動産を分析するために、私たちが新たに得た理解を使いましょう。
+Let's use our newfound understanding to analyse real estate.
 
-ソーシャルメディアやニュースの報道の絶え間ない攻撃により、世界規模での社会的不安と財産格差の問題に気づいているでしょう。この成長する不安の根底にある原因の一つは、1980年代には4をわずかに超えていた住宅価格と賃金の比率が、今日では7を超えるまでに増加したという事実による、平均的な人が家を手に入れることの増大する困難さです。言い換えれば、平均的な人は平均価格の家を手に入れるために、年間賃金の7倍を費やさなければなりません。
+With the constant barrage of social media and news coverage, you’ve probably noticed the issue of rising social unrest and wealth inequality on a global scale. One of the underlying causes of this growing unrest is the increasing difficulty for the average person to afford a house, as evidenced by the fact that the ratio of house prices to wages has increased from just above four in the 1980s to above seven today. In other words, the average person must now spend seven times their annual wage to afford an average-priced house.
 
-**なぜ家を購入するのがこんなに難しいのでしょうか？** 家を購入することが著しく難しくなっているのは2つの理由があります。
+**Why is it so much harder to purchase a house?** It is becoming significantly harder to purchase property for two reasons.
 
-1. インフレが私たちの通貨の購買力を減少させています。通貨が悪化すると、人々はもはや貯蓄する動機を持ちません。これにより、富を持つ個人は資源を金融資産に向け、富を持たない個人は消費に向けます。消費が富裕層が保有する企業にお金を向け、スマートマネーが資産に現金を向けると、需要の増加による資産価格の上昇の連鎖反応が見られます。これはすべて、インフレが通貨の購買力に混乱を引き起こしている間に起こります。
-過度な負債負担のため、政府は利息率を抑制する動機付けをされています。そうすることで、特に富裕層にとって、借金をすることがより魅力的になります。資本コストが非常に安いと、人々は自分の手段を超えて借り入れ、より多くの資本を資産に流入させ、価格を押し上げます。これは資産保有者にとっては素晴らしいことですが、しかし、不動産の階段を上がろうとする人々や金融市場に足を踏み入れようとする人々にとって、価格はますます手に入りにくくなっています。親指のルールは、利息率が低下すると、資本がより自由に利用可能になるため、資産価格が上昇するというものです。
+1. Inflation is devaluing our currency’s purchasing power. With a deteriorating currency, people are no longer incentivised to save. This forces Individuals with wealth to direct their resources toward financial assets while individuals without wealth towards consumption. As consumption directs money toward corporations held by the wealthy, and smart money directs their cash toward assets, we see the knock-on effect of rising asset prices due to increased demand. This is all while inflation is wreaking havoc on the purchasing power of the currency.
 
-**このインフレがどのようにして富の格差を拡大させるのか？** 上層階級が資産を保有し、下層階級が通貨を保有する傾向にあることを考えると、通貨の購買力が減少し、資産のコストが着実に上昇し、ますます手に入りにくくなるにつれて、より大きな富の格差が生じます。これは下記の「図X」で見ることができます。資産の価値上昇と賃金との顕著な差をご覧いただけるでしょう。
+2. Due to our excessive debt burden, governments are incentivised to suppress interest rates. In doing so, debt consumption becomes more enticing, especially to those with wealth. When the cost-of-capital is so cheap, people borrow beyond their means, funnelling more capital into assets and driving up prices. This is great for asset holders; however, prices are becoming ever more unobtainable for those trying to get on the property ladder or dip their toes into the financial markets. A simple rule of thumb is that as interest rates decline, asset prices increase as capital is more freely available.
 
-**資産クラス別パフォーマンス**
+**How does this inflation amplify wealth inequality?** Considering the upper class holds assets and the lower class tends to hold currency, what ensues is greater and greater wealth inequality as the purchasing power of the currency diminishes and the cost of assets steadily rises, becoming more and more unobtainable. This can be seen in “Figure X” below. You’ll notice a significant difference in the appreciation of assets compared to wages.
 
-| 資産クラス         | 総成長率 (2010年1月 - 2021年1月) | 年間成長率 (2010年1月 - 2021年1月) |
+**Performance By Asset Class**
+
+| Asset Class         | Total Growth (Jan 2010 - Jan 2021) | Annualized Growth (Jan 2010 - Jan 2021) |
 | ------------------- | ---------------------------------- | --------------------------------------- |
-| 株式市場        | 236.84%                            | 11.67%                                  |
-| 不動産         | 66.38%                             | 4.74%                                   |
-| 金                | 73.10%                             | 5.11%                                   |
-| 平均時給 | 33.37%                             | 2.65%                                   |
+| Stock Market        | 236.84%                            | 11.67%                                  |
+| Real Estate         | 66.38%                             | 4.74%                                   |
+| Gold                | 73.10%                             | 5.11%                                   |
+| Average Hourly Wage | 33.37%                             | 2.65%                                   |
 
-図: 資産クラス別パフォーマンス ([株式](https://finance.yahoo.com/quote/%5EGSPC/history/), [不動産](https://dqydj.com/historical-home-prices/), [金](https://goldprice.org/), [賃金](https://tradingeconomics.com/united-states/wages.))
+Figure: Performance by Asset Class ([Stocks](https://finance.yahoo.com/quote/%5EGSPC/history/), [Real Estate](https://dqydj.com/historical-home-prices/), [Gold](https://goldprice.org/), [Wages](https://tradingeconomics.com/united-states/wages.))
 
-賃金の伸びが資産価格に追いつかないことで、近年、下層階級から上層階級への最大の富の移転が見られました。
+With this lagging of wages to asset prices, we have seen one of the greatest transfers of wealth from the lower class to the upper class in recent history
 
-![画像](assets/2.webp)
+![image](assets/2.webp)
 
-図: 総[純資産](https://fred.stlouisfed.org/series/WFRBSN40188#0.)のシェア
+Figure: Share of Total [Net Worth](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
-### ブーム＆バスト
+### Boom & Bust
 
-自然な自由市場のビジネスサイクルでは、拡大と収縮は市場の力によって駆動される経済の成長と衰退の繰り返しのパターンを指します。拡大フェーズでは、ビジネスが成長し、消費者支出が増加し、全体的な経済活動が拡大します。このフェーズは通常、投資の増加、雇用率の上昇、および利益の増加によって特徴づけられます。
+In a natural, free-market business cycle, expansion and contraction refers to the recurring patterns of growth and decline in an economy driven by market forces. During the expansion phase, businesses experience growth, consumer spending increases, and overall economic activity expands. This phase is typically characterised by increased investment, rising employment rates, and higher profits.
 
-しかし、経済拡大には自身の収縮の種も含まれています。過剰な投資、借金レベルの上昇、または市場センチメントの変化などの要因が経済活動の減速を引き起こす可能性があります。この収縮フェーズは、しばしば不況または経済的低迷として言及され、消費者支出の減少、ビジネス利益の低下、および潜在的な失業が特徴です。
+However, economic expansions also contain the seeds of their own contraction. Factors such as excesses in investment, rising debt levels, or changes in market sentiment can lead to a slowdown in economic activity. This contraction phase, often referred to as a recession or economic downturn, is marked by reduced consumer spending, lower business profits, and potential job losses.
 
-経済的収縮は挑戦的ではありますが、無責任な行動や借金に苦しむ人々をその行動に対して責任を持たせる必要がある浄化過程として機能します。これは個人やビジネスに行動を正すか、結果に直面するように促す財政的圧力を生み出します。市場の拡大と収縮のこの自然な流れは、拡大中に革新と成長を促進し、収縮中に財政的無責任を浄化します。
+Economic contractions, though challenging, serve as a necessary cleansing process, holding irresponsible behaviour and those burdened by debt accountable for their actions. They create financial pressures incentivising individuals and businesses to rectify their behaviour or face consequences. This natural ebb and flow of market expansion and contraction promotes innovation and growth during expansion and purges fiscal irresponsibility during contractions.
 
-しかし、このプロセスは、利息率が供給と需要に基づいて自由に調整されることを許される場合にのみ効果的に発生します。なぜでしょうか？利息率は経済リスクの尺度として機能し、借金の需要が利用可能な資本を超えるときに上昇し、資本が豊富だが需要が低いときに下降します。
-残念ながら、現在のシステムはこの理想から逸脱しています。経済を安定させることを目的とした中央銀行の介入は、しばしば意図しない結果を招きます。利率の操作は自然な市場のシグナルを乱し、これらのサイクルの機能を歪めます。人為的に抑制された利率は過剰な借入れと投機的なバブルを助長し、インフレ制御のための急激な利率の上昇は金融不安定と経済の減速を引き起こします。
-利率の操作の結果、経済拡大は長引き、債務レベルの増加と財政上の無責任が生じます。逆に、経済の収縮はより深刻になり、社会の底辺にいる人々の不安定と苦難を悪化させます。
+However, this process can only occur effectively when interest rates are allowed to freely adjust based on supply and demand. Why, you might wonder? Interest rates serve as a measure of economic risk, rising when demand for debt exceeds available capital and falling when capital is abundant but demand is low.
 
-### **結論**
+Regrettably, our current system deviates from this ideal. Central bank interventions intended to stabilise the economy often have unintended consequences. Manipulating interest rates disrupts the natural market signals, distorting the functioning of these cycles. Artificially suppressed interest rates encourage excessive borrowing and speculative bubbles, while abrupt rate increases for inflation control lead to financial instability and economic slowdown.
 
-現在の金融介入の道は持続可能ではありません。増加する債務負担に加え、不快なインフレと生活費の上昇は、より大きな富の不平等と社会的不安を引き起こしています。この道を続けるならば、これらの問題が悪化することが予想されます。
+As a result of interest rate manipulation, economic expansions tend to be prolonged, leading to increased debt levels and fiscal irresponsibility. Conversely, economic contractions become more severe, exacerbating instability and hardship for those at the bottom of the social ladder.
 
-幸いなことに、私たちには選択肢があります。ビットコインの出現により、従来のフィアット通貨システムから離れ、コミュニティの手にコントロールを戻す代替システムに移行する能力を持つようになりました。ビットコインの分散型で透明性のある性質は、中央銀行や政府のコントロールから解放された、より公平で安全な金融システムを提供します。これにより、個人やコミュニティは、従来の金融政策によって生み出されるインフレ圧力や富の不平等の影響を受けることなく、より自由で自信を持って取引できます。そして、ステーブルコインを使えば、より大きな金融圧力の下にある人々も、自国通貨からより安定したもの、例えばUSDに簡単に移行できます。
+### **Conclusion**
 
-前進するにあたり、この新しい技術に対してオープンマインドで批判的な目を持ち、現在の金融システムへの代替としてどのように役立つかを探求することをお勧めします。そうすることで、私たちは富の不平等と社会的不安の問題に対処し、より持続可能で公平な経済的未来を築く可能性を持っています。
+Our current path of monetary intervention is not sustainable. The ever-increasing debt burden, coupled with uncomfortable inflation and rising costs of living, is leading to greater wealth inequality and social unrest. We can only expect these problems to worsen if we continue down this path.
 
-## 試験
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+Fortunately, there are options available to us. With the emergence of Bitcoin, we now have the ability to opt out of the traditional fiat monetary system and into an alternative system that places control back into the hands of the community. The decentralised and transparent nature of Bitcoin offers a more equitable and secure financial system free from the control of central banks and governments. This allows individuals and communities to transact with greater freedom and confidence without being subject to the inflationary pressures and wealth inequality created by traditional monetary policy. And with stablecoins, those living under far greater monetary pressures can easily exit their local currency and move into something more stable, i.e. the USD.
 
-「進歩の代償」というモジュールを通じて、最後のセクションを理解したことを確認するために、新しく習得した知識をテストする必要があります。いくつかの記述式の質問から始め、その後に小さなクイズを行います。
+As we move forward, we encourage you to approach this new technology with an open mind and a critical eye, exploring how it can offer an alternative to our present-day financial systems. By doing so, we have the potential to address the problems of rising inequality and social unrest while building a more sustainable and equitable economic future.
 
-1. 伝統的なフィアット通貨に代わるシステムとしてのビットコインとステーブルコインの出現を考えると、いくつかの潜在的な利点と欠点は何だと感じますか？また、それらがより公平な経済的未来にどのように貢献するかを考えてください。
-2. アメリカ合衆国の債務対GDP比率からどのような情報を得ることができますか？あなたの国の債務対GDPはどのくらいですか？
-3. 利率を抑制することは全体の債務負担にどのような影響を与えますか？
-4. 現在の金融システムはどのようにして富の不平等を悪化させますか？
-5. 債務とインフレに関する提供された情報を踏まえて、現在の金融システムの持続可能性についてどう思いますか？長期的に見て、現在のシステムは有益だと思いますか、それとも損害を与えるものだと思いますか？
+## Exam
+<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
-# 金融の解放 - ビットコイン入門
+Now that you went through the Module "The Price of Progress" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
+
+1. Consider the emergence of Bitcoin and stablecoins as alternative systems to traditional fiat currency. What do you feel are some of the potential advantages and disadvantages, and how might they contribute to a more equitable economic future?
+2. What information can you gather from the debt-to-GDP ratio of the United States? What is the debt to GDP of your own country?
+3. How does suppressing interest rates impact the overall debt burden?
+4. How does the current monetary system exacerbate wealth inequality?
+5. In light of the information provided about debt and inflation, what is your opinion on the sustainability of the current monetary system? Do you think our current system is beneficial or detrimental in the long run?
+
+# Financial Liberation - An Introduction to Bitcoin
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
-## 先駆者、革新者、そしてビットコインの基礎
+## Pioneers, Innovators, & the Foundations of Bitcoin
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
-モジュール二へようこそ、ここではビットコインの魅力的な世界を探求します。お金の歴史に関する私たちの理解を基に、このモジュールでは以下のトピックをカバーします：
+Welcome to Module Two, where we'll explore the fascinating world of Bitcoin. Building on our understanding of the history of money, this module will cover the following topics:
 
-- ビットコインの背景と創設者
-- デジタル通貨としてのビットコインの利点
-- 資産としてのビットコインとネットワークとしてのビットコインの区別
-- ビットコインおよびその様々なレイヤーとのやり取り方法
+- Bitcoin's backstory and creator
+- The benefits of Bitcoin as a digital currency
+- The distinction between bitcoin the asset and Bitcoin the network
+- How to interact with Bitcoin and its various layers
 
-このモジュールの終わりまでに、ビットコインの起源、特徴、および潜在的な用途についての確かな理解を得ることができるでしょう。しかし、ビットコインの複雑さに飛び込む前に、まずこの技術がお金についての私たちの考え方を変える道を開いたデジタル通貨の歴史を探りましょう。
+By the end of this module, you will have a solid understanding of Bitcoin's origins, features, and potential uses. But before we dive into the intricacies of Bitcoin, let's first explore the history of digital currencies that paved the way for this technology that is changing how we think about money.
 
-### このビットコインとは何か？
-ビットコインは、信頼性がなく、許可が不要な分散型デジタル通貨です。これが混乱を招くかもしれませんので、説明させてください。政府や機関がビットコインを管理していないため、第三者を信頼したり、使用するための許可を必要としたりすることはありません。代わりに、世界中のユーザーのネットワークが、ブロックチェーンと呼ばれるもので取引を検証し処理することによって維持されています。
+### What is this thing called Bitcoin
 
-ブロックチェーンを、ビットコインを通じて行われたすべての取引の記録を保持する巨大な元帳やデジタルスプレッドシートと考えてください。インターネット接続を持つ全世界の誰もが取引を監視、検証、または処理できるため、この通貨は安全で偽造できないことが保証されます。
+Bitcoin is a trustless and permissionless decentralised digital currency. That may sound confusing, so let us explain. Since no government or institution controls Bitcoin, you do not have to trust any third parties or require permission to use it. Instead, it's maintained by a network of users around the world who validate and process transactions on something called the blockchain.
 
-ビットコインはまた、限定供給を持つという点でユニークです。作成されるビットコインは2100万枚に限られており、これは金や他の貴金属のように希少性をもたらします。この希少性がビットコインの価値を生んでいます。
+Think of the blockchain as a giant ledger or a digital spreadsheet that maintains a record of every transaction made via Bitcoin. As anyone globally with an internet connection can monitor, validate or process transactions, this ensures that the currency is secure and can't be counterfeited.
 
-最後に、そしておそらく最も重要なこととして、政府や銀行から独立して運営されるため、ビットコインは人々が直接お互いに価値を交換できるようにします、まるで現金取引のように。しかし、現金とは異なり、ビットコインは従来の支払い方法に頼ることなく、オンラインで商品やサービスを購入するために使用できます。これは、その分散型デジタルの性質が、仲介者、実際の紙幣や硬貨の必要性を排除し、取引をより簡単で、速く、そしてより安全にすることを意味します。
+Bitcoin is also unique in that it has a limited supply. Only 21 million bitcoin will ever be created, which gives it scarcity, like gold and other precious metals. This scarcity is part of what gives bitcoin its value.
 
-長い間で初めて、ビットコインはお金と価値についての新しい考え方を代表しています。これが私たちがあなたをウサギの穴に連れて行くことに興奮している理由です。
+Lastly, and arguably most importantly, given that it operates independently from governments or banks. bitcoin enables people to exchange value with one another directly, just like cash transactions. However, unlike cash, bitcoin can be used to purchase goods and services online, without relying on traditional payment methods. This means that given its decentralised digital nature, Bitcoin eliminates the need for intermediaries, physical banknotes and coins, making transactions easier, faster, and more secure.
 
-### デジタル通貨の先駆者たち
+For the first time in a long time, Bitcoin represents a new way of thinking about money and value. This is why we're excited to take you down the rabbit hole with us.
 
-ビットコインの創造前に、幾人かのビジョナリーが中間者なしで電子的にお金を転送できる世界を想像しながらビットコインの基礎を築きました。これらの個人は、彼らの暗号学への貢献なしにはビットコインは存在しなかったであろうため、知らず知らずのうちにビットコインの開発において重要な役割を果たしました。これらの先駆者の中で最も顕著な人物は以下の通りです：
+### Pioneers of Digital Currency
 
-#### サイファーパンクス
+Before Bitcoin's creation, a handful of visionaries laid the groundwork for Bitcoin as they envisioned a world where money could be transferred electronically without intermediaries. These individuals unknowingly played a pivotal role in the development of Bitcoin, as without their contributions to cryptography, it would not exist today. Among the most prominent of these pioneers are:
 
-サイファーパンクスは、70年代に一つの強力なツール、暗号学を使用して個人の自由と市民の権利のために戦うために集まった技術に精通した反逆者のグループです。彼らは、情報を暗号化する能力が人々に中央集権的な権威からコントロールを取り戻す力を与えると信じていました。オンライン通信を好奇心旺盛な目からプライベートで安全に保つことができると想像してみてください - それが彼らが戦っていたことです！
+#### The Cypherpunks
 
-サイファーパンクスの最も注目すべき成果の一つは、1992年に設立されたサイファーパンクスメーリングリストです。リストを通じて、個人はアイデアを共有し、暗号技術、デジタル通貨の概念、プライバシーに焦点を当てたイニシアチブについて議論することができました。これにより、開発者、活動家、研究者などの同じ考えを持つ個人のコミュニティが形成されました。
+The Cypherpunks are a group of tech-savvy rebels who came together in the 70s to fight for individual freedom and civil liberties using one powerful tool: cryptography. They believed that the ability to encrypt information would give people the power to take back control from centralised authorities. Imagine being able to keep your online communication private and secure from prying eyes - that's what they were fighting for!
 
-今日、サイファーパンクスのビジョナリーなアイデアは、データと通信に対する個人のコントロールを強化することで、私たちのデジタルランドスケープの進化を形作り続けています。彼らの最も重要な遺産の一つはビットコインであり、これは1997年にサイファーパンクのアダム・バックによって電子メールスパムと戦うために開発されたハッシュキャッシュから大きく影響を受けています。
+One of the most notable outcomes of the Cypherpunks was the Cypherpunks mailing list, established in 1992. Through the list, individuals could share ideas and discuss cryptographic technologies, digital currency concepts, and privacy-focused initiatives. This led to the formation of a community of like-minded individuals, including developers, activists, and researchers.
 
-他の注目すべきサイファーパンクスには以下のような人物がいます：
+Today, the cypherpunks' visionary ideas continue to shape the evolution of our digital landscape, empowering individuals with greater control over their data and communications. One of their most significant legacies is Bitcoin, as it draws heavily from Hashcash— a technology developed by cypherpunk Adam Back in 1997 to combat email spam.
 
-- **ティモシー・メイ：** サイファーパンクスメーリングリストの創設メンバーであり、90年代から2000年代初頭にかけて暗号学とプライバシーについて広範囲にわたって執筆しました。彼の執筆は、デジタルプライバシーと電子キャッシュシステムに関する議論の基礎を築きました。
-- **エリック・ヒューズ：** サイファーパンクスのもう一人の創設メンバーであり、「サイファーパンクの宣言」の共著者です。これはデジタル時代におけるプライバシーと匿名性の重要性を強調しました。
-- **ホイットフィールド・ディフィーとマーティン・ヘルマン：** 公開鍵暗号の概念を開発し、安全なインターネット通信を革命しました。
-- **ジュリアン・アサンジ：** 機密情報やセンシティブな情報を公開し、透明性と説明責任を促進するWikiLeaksの創設者。
-- **ブラム・コーエン:** BitTorrentを作成しました。これは、コンテンツ配布を分散化し、ダウンロード速度を向上させるピアツーピアのファイル共有プロトコルです。
-- **ジョン・ギルモア:** 起業家でありリバタリアンの彼は、電子フロンティア財団（EFF）の共同設立者であり、デジタル権利とオンラインプライバシーを提唱しました。
+Other notable Cypherpunks include:
 
-...そして、このリストは続きます。
+- **Timothy May:** Founding member of the Cypherpunks mailing list and wrote extensively on cryptography and privacy throughout the 90s and early 2000s. His writing laid the groundwork for discussions on digital privacy and electronic cash systems.
+- **Eric Huges:** Another founding member of the Cypherpunks and co-author of "A Cypherpunk's Manifesto," which emphasised the importance of privacy and anonymity in the digital age.
+- **Whitfield Diffie and Martin Hellman:** Developed the concept of public-key cryptography, revolutionising secure internet communication.
+- **Julian Assange:** Founder of WikiLeaks, which publishes classified and sensitive information to promote transparency and accountability.
+- **Bram Cohen:** Created BitTorrent, a peer-to-peer file-sharing protocol that decentralised content distribution and enabled faster downloads.
+- **John Gilmore:** An entrepreneur and libertarian who co-founded the Electronic Frontier Foundation (EFF) and advocated for digital rights and online privacy.
 
-#### デビッド・チャウム（デジタル通貨の父）
+...and the list goes on.
 
-1980年代初頭、デビッド・チャウムは「ブラインド署名」に関する画期的な研究でデジタル通貨の世界を革命しました。これにより、メッセージの内容を知らずに暗号学的に署名することが可能になり、デジタル取引におけるプライバシーとセキュリティを保証しました。1982年、デビッド・チャウムは、暗号学を使用した匿名の電子キャッシュシステムであるEcashを構想し、後に彼の企業Digicashを通じて実装されました。
+#### David Chaum (The Father of Digital Currency)
 
-Digicashは1995年から1998年までアメリカのある銀行でマイクロペイメントシステムとして使用されましたが、チャウムは最終的に破産を申請しました。それにもかかわらず、彼の革新的なアイデアは他の人々がデジタル通貨を探求するきっかけとなり、Bitcoinなどの現代の暗号通貨の開発への道を開きました。
+In the early 1980s, David Chaum revolutionised the world of digital currencies with his groundbreaking work on "blinded signatures." This enabled cryptographically signing a message without knowing its content, ensuring privacy and security in digital transactions. In 1982, David Chaum conceptualised Ecash, an anonymous electronic cash system that used cryptography, which was later implemented through his corporation Digicash.
+
+Although Digicash was used as a micropayment system at one US bank from 1995 to 1998, Chaum eventually filed for bankruptcy. That said, his innovative ideas inspired others to explore digital currencies, paving the way for the development of modern cryptocurrencies, such as Bitcoin.
 
 #### E-gold
 
-チャウムの足跡をたどり、1996年には、ダグラス・ジャクソンとバリー・ダウニーという2人の革新者がE-goldを紹介しました。これは、ユーザーが金の所有権を電子的に移転できる最初の広く使用されたデジタル通貨でした。このコンセプトはすぐに人気を博し、このユニークなお金の形態の可能性を見た何百万人ものユーザーを引き付けました。E-goldを使えば、人々は遅くて面倒な従来の銀行システムを扱うことなく、国境を越えて迅速かつ簡単に資金を移転できました。
+Following Chaum's footsteps, in 1996, two innovators, Douglas Jackson and Barry Downey, introduced E-gold, the first widely used digital currency, allowing users to transfer gold ownership electronically. The concept quickly gained traction and attracted millions of users who saw the potential of this unique form of money. With E-gold, people could easily and quickly transfer funds across borders without dealing with the slow and cumbersome traditional banking systems.
 
-しかし、新しい技術であるがゆえに、E-goldは規制上の課題やマネーロンダリングや詐欺などの違法活動といった問題に直面しました。その結果、同社は運営を停止せざるを得なくなり、デジタル通貨の初期開発に大きな打撃を与えました。
+However, as with any new technology, E-gold faced regulatory challenges and issues with illegal activities such as money laundering and fraud. As a result, the company was forced to shut down its operations, marking a significant blow to the early development of digital currencies.
 
-その最終的な失敗にもかかわらず、E-goldはデジタル通貨の進化において重要な一歩でした。E-goldの経験から得られた教訓は、将来の革新者が規制上の課題やセキュリティ上の懸念に対処するためのロードマップを提供しました。
+Despite its ultimate failure, E-gold was a crucial step in the evolution of digital currencies. The lessons learned from E-gold's experiences provided a roadmap for future innovators to address regulatory challenges and security concerns.
 
-Bitcoinの急速な台頭を考えると、多くの人々がそれが存在した最初のデジタル通貨だと誤って信じています。しかし、今お分かりのように、この仮定は真実からは程遠いものです。Bitcoinの出現は、暗号学分野の先駆者たちによる数十年にわたる研究と実験の結果です。上記の個人や他の多くの人々の貢献がなければ、Bitcoinは決して生まれなかったかもしれません。これらの初期のデジタル通貨が最終的に失敗したとしても、Bitcoinはそれらの過ちから学び、最終的に今日私たちが知るデジタル通貨になりました。
+Given Bitcoin's meteoric rise, many people mistakenly believe it was the first digital currency ever to exist. However, as hopefully is now evident, this assumption is far from the truth. Bitcoin's emergence resulted from decades of research and experimentation by pioneers in the cryptography field. Without the contributions of the individuals above and many others, Bitcoin may have never been created. Although these early digital currencies eventually failed, Bitcoin learnt from their mistakes, ultimately becoming the digital currency we know today.
 
-それにもかかわらず、ある個人...またはグループ（確かではありません）がいなければ、Bitcoinは存在しなかったでしょう。それがサトシ・ナカモトです。謎に包まれた創造者。
+That said, if it weren't for one individual... or group (we don't know for sure), Bitcoin would not exist. And that is Satoshi Nakamoto. The enigmatic creator.
 
-#### サトシ・ナカモト
+#### Satoshi Nakamoto
 
-Bitcoinはその破壊的な可能性とユニークな技術で何百万人もの心を捉えていますが、その人気にもかかわらず、その神秘的な起源は今でも人々を魅了し、困惑させています。Bitcoinの創造者であるサトシ・ナカモトの真の身元は、今日に至るまで未だに不明であり、彼の真の身元を明らかにしようとする数多くの試みにもかかわらずです。Bitcoinの登場から10年以上が経過しても、私たちは「サトシ・ナカモトは誰か？」という問いに近づくことはありません。しかし、Bitcoinの分散化された性質を考えると、それが本当に重要でしょうか？
+Although Bitcoin has captivated the minds of millions with its disruptive potential and unique technology, despite its popularity, its mysterious origins continue to fascinate and puzzle people. Satoshi Nakamoto, the creator of Bitcoin, remains unknown to this day, despite numerous attempts to uncover his true identity. Even though it has been over a decade since the emergence of Bitcoin, we are still no closer to solving the question of: Who is Satoshi Nakamoto? However, given Bitcoin's decentralised nature, does it really matter?
 
-いずれにせよ、神話と伝説を見てみましょう。
-2008年、サトシ・ナカモトは革命的なアイデアを持ってインターネット上に現れました：ピアツーピアの電子キャッシュ。彼は「Bitcoin: A Peer-to-Peer Electronic Cash System」と題された[9ページの論文](https://bitcoin.org/bitcoin.pdf)をサイファーパンクのメーリングリストに共有しました。最初はほとんどのメーリングリストのメンバーから関心を引くことはありませんでしたが、一人のメンバー、ハル・フィニーの好奇心をかき立て、最終的にサトシに連絡を取りました。ハルのビットコイン開発への関与は転換点となり、より多くの人々がサポートを申し出ることになりました。
-しかし、プロジェクトに2年間取り組んだ後、サトシは2011年4月23日に「他のことに移った」と述べた[彼の最後の信頼できるコミュニケーション](https://plan99.net/~mike/satoshi-emails/thread5.html)を残して、跡形もなく姿を消しました。
+Either way, let's take a look at the myth and legend.
 
-サトシ・ナカモトの神秘的な失踪は、彼がどこに行ったのかについて様々な理論を生み出しました。彼が自分が達成しようとしたことを成し遂げたと感じたのか、ビットコインが引き起こした注目に不快感を覚えたのか、と推測する人もいます。[2010年](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad)12月に、ウィキリークスが従来の支払い方法の使用を禁止された際、ビットコインに資金調達を求めたことで、ビットコインへの注目が高まり、通貨を作成して米国の地政学的利益に干渉する潜在的な法的な問題に対するサトシの懸念が彼を一歩引かせた可能性があります。あるいは、他のプロジェクトに焦点を移したか、別の名前でビットコインに貢献しているか、あるいは亡くなっているかもしれません。
+Satoshi Nakamoto emerged on the internet in 2008 with a revolutionary idea: peer-to-peer electronic cash. He shared his vision in a [nine-page paper](https://bitcoin.org/bitcoin.pdf) titled "Bitcoin: A Peer-to-Peer Electronic Cash System" with the cypherpunk mailing list. Despite initial disinterest from most mailing list members, the idea sparked enough curiosity in one member, Hal Finney, who eventually reached out to Satoshi. Hal's involvement in Bitcoin development proved to be a turning point, leading to more people offering their support.
 
-サトシが誰であるかはわかりませんが、ビットコインの背後にある彼の意図についてはより明確な絵を持っています。彼は、2008年の世界金融危機とそれに伴う伝統的な銀行システムや政府管理の通貨への不信感に対する反応としてビットコインを作りました。
+However, after two years of working on the project, Satoshi vanished without a trace, with [his last credible communication](https://plan99.net/~mike/satoshi-emails/thread5.html) on April 23, 2011, where he stated that he had "moved on to other things."
 
-彼のオンラインでのコミュニケーションでは、お金と銀行の中央集権的な性質に対する懐疑心を表明し、中央銀行を信頼して通貨を切り下げないようにする危険性を強調しました。その証拠に、最初のビットコインブロックには次のように書かれています：
+The mysterious disappearance of Satoshi Nakamoto has led to various theories about where he went. Some speculate that he felt he had accomplished what he set out to do, while others believe he became uncomfortable with the attention that Bitcoin was attracting. In December [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), when WikiLeaks was banned from using traditional payment methods, it turned to Bitcoin for funding. Satoshi's concerns about the increased attention on Bitcoin and the potential legal ramifications of creating a currency used to interfere with US geopolitical interests may have prompted him to step back. Alternatively, he may have shifted his focus to other projects, may still be contributing to Bitcoin under other names, or even passed away.
+
+Although we may not know who Satoshi is, we have a clearer picture of his intentions behind Bitcoin. He created Bitcoin as a response to the 2008 Global Financial Crisis and the resulting distrust around traditional banking systems and government-controlled currencies.
+
+In his online communications, he expressed cynicism towards the centralised nature of money and banking, highlighting the dangers of trusting central banks not to devalue their currency. Case in point, written into the first Bitcoin block, is:
 
 "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."
 
-これは、銀行がリスクの高い行動に従事しており、それに対してほとんど影響がなく、損失が通貨保有者の間で共有されるだろうという彼の懸念を反映したタイムズ新聞の[記事](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h)への言及です。
-さらに、彼のより最近のメッセージから、サトシは現在の通貨システムの機能に同意していないことがわかります：
+This is a reference to a Times newspaper [article](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h), reflecting his concerns that banks were engaging in risky behaviour, with little consequence to them, and that losses would be shared amongst currency holders.
+Furthermore, we know from his more recent messages that Satoshi disagreed with how our current monetary system functioned:
 
-"従来の通貨の根本的な問題は、それを機能させるために必要なすべての信頼です。中央銀行は通貨を切り下げないように信頼されなければなりませんが、法定通貨の歴史はその信頼の違反でいっぱいです。"
+"The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust."
 
-サトシの謎はビットコインの歴史に興味を加えるものですが、議論の余地がないことが一つあります。サトシが匿名を保つという決断は、ビットコインの設計の基礎となる分散化と個人の自由の核心原則を強調しています。サトシの匿名性は、技術とその潜在的な影響に焦点を当てることを保証し、個人崇拝に焦点を当てることから離れます。
+While the enigma of Satoshi adds intrigue to Bitcoin's history, there is one thing we cannot argue about. Satoshi's decision to remain anonymous underscores the core principles of decentralisation and individual freedom that underpin Bitcoin's design. Satoshi's anonymity ensures that the focus stays on the technology and its potential impact rather than on the cult of personality.
 
-**結論**
+**Conclusion**
 
-要約すると、ビットコインは私たちがお金と価値について考える方法を革命的に変えました。歴史上初めて、私たちは次の特徴を持つデジタル通貨を持っています：
+To summarise, Bitcoin has revolutionised the way we think about money and value. For the first time in history, we have a digital currency that is:
 
-- **ピアツーピア：** ビットコインは、銀行や支払い処理業者などの仲介者なしに、個人が直接支払いを送受信できるようにします。
-- **分散型:** ビットコインは分散型ネットワーク上で運用されており、通貨の管理やコントロールを行う中央機関が存在しません。
-- **安全:** ビットコインの取引は暗号技術を使用して保護されており、偽造や二重支払いのコインが難しくなっています。
-- **供給量が限定されている & 分割可能:** ビットコインの供給量は有限で、存在するコインは2100万枚のみです。同時に、8桁の小数点まで分割可能で、1セントの一部での取引が可能です。この希少性は、通貨に価値を与え、インフレを防ぐために設計されています。
-- **擬似匿名性:** ビットコインの取引は完全に匿名ではありませんが、従来の支払い方法では提供されないプライバシーと擬似匿名性を提供します。
+- **Peer-to-Peer:** Bitcoin allows individuals to send and receive payments directly without the need for intermediaries, such as banks or payment processors.
+- **Decentralised:** Bitcoin operates on a decentralised network, meaning there is no central authority or control over the currency.
+- **Secure:** Bitcoin transactions are secured using cryptography, making counterfeiting or double-spending coins difficult.
+- **Limited in Supply & Divisible:** The supply of bitcoin is finite—with only 21 million coins in existence—while at the same time, it is divisible to eight decimal places, enabling transactions for a fraction of a cent. This scarcity is designed to give the currency value and prevent inflation.
+- **Psuedoanonymous:** While Bitcoin transactions are not completely anonymous, they offer a level of privacy and pseudonymity that traditional payment methods do not.
 
-これらの点を組み合わせると、ビットコインは誰にでも金融のプライバシー、安全性、そして最小限の手数料と摩擦でグローバルに取引する能力を提供します。最終的に、ビットコインは、より大きな経済的自由と自律を求める人々にとって強力なツールです。これは、安全な貯蓄手段を探している人はもちろん、権威主義的な政権の下で生活している人、ハイパーインフレを経験している人、戦争で荒廃した国から逃れている人、または海外の愛する人に送金している人にとって、ゲームチェンジャーです。ビットコインは従来の送金方法に比べて手頃な代替手段を提供するため、最も必要としている人々の手により多くのお金を残します。ビットコインを使えば、誰でも自分自身の銀行になり、自分の金融の未来をコントロールすることができます。
+These points combined mean that Bitcoin offers anybody financial privacy, security and the ability to transact globally with minimal fees and friction. Ultimately, Bitcoin is a powerful tool for those seeking greater economic freedom and autonomy. This is a game-changer for those looking for a secure savings vehicle, let alone living under authoritarian regimes, experiencing hyperinflation, fleeing war-torn countries, or remitting money back to loved ones overseas. As Bitcoin offers an affordable alternative to traditional money transfer methods, this leaves more money in the hands of those who need it most. With Bitcoin, anyone can become their own bank and take control of their own financial future.
 
-最後に、サトシ・ナカモトが誰であるかにかかわらず、ビットコインの発明が価値の移転についての新しい考え方を刺激したことは否定できません。
+To end, regardless of who Satoshi Nakamoto is, it is undeniable that the invention of Bitcoin has sparked a new way of thinking about the transfer of value.
 
-## ビットコインの仕組みは？この魔法のようなインターネットマネーの内部構造
+## How Does Bitcoin Work? The Inner Workings of This Magical Internet Money
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
-ビットコインはしばしば魔法のようなインターネットマネーと呼ばれます…そしてそれには十分な理由があります。考えてみてください - ビットコインを使えば、銀行や政府のような仲介者なしで、世界中の誰にでも価値を送ることができます。自分自身の個人的な銀行をコントロールしているようなもので、ボタンを数回クリックするだけで国境を越えて資金を移動する力を持っています。
+Bitcoin is often referred to as magical internet money… and for a good reason. Think about it – with Bitcoin, you can send value to anyone, anywhere in the world, without the need for a middleman like a bank or government. It's like having control of your own personal bank, the power to transfer funds across borders with just a few clicks of a button.
 
-ビットコインが提供する数多くの利点を考えると、迅速で安全、低コストの取引方法を提供することから、中央集権的な権威なしに自分自身の金融の未来をコントロールすることを可能にすることまで、さらにはピアツーピアのデジタル通貨を現実のものとするために解決しなければならなかった複雑な暗号技術の障壁に至るまで、その機能性は理解するのが難しいと感じるかもしれません。分散型デジタル通貨のアイデアに少し圧倒されるかもしれません。しかし、実際には、ビットコインの内部構造を理解すれば、実際にはかなりシンプルです。
+Given the numerous benefits that Bitcoin has to offer, from providing a fast, secure, and low-cost way to transact to allowing individuals to take control of their own financial futures without the need for a centralised authority, in addition to the complex cryptographic hurdles it has had to solve to make peer-to-peer digital currency a reality, it's natural to feel as though its functionality is something only a handful of individuals must understand. You may even feel a little intimidated by the idea of a decentralised digital currency. But the truth is that Bitcoin is actually quite simple once you understand its inner workings.
 
-このセクションでは、ビットコインのエコシステムの主要なプレイヤーと、この魔法のようなインターネットマネーが機能するためにどのように協力しているかを詳しく見ていきます。
+In this section, we're going to take a closer look at the key players in the Bitcoin ecosystem and how they work together to make this magical internet money function.
 
-始めましょう！
+Let's get started!
 
-このモジュールの導入で議論したように、ビットコインは、歴史上初めて完全に機能する、広く使用されているピアツーピアの分散型デジタル通貨であるという点でユニークです。これは、取引を管理するために銀行や政府のような中央機関に頼る代わりに、一緒に働く参加者のネットワークによって管理されていることを意味します。この革新的なアプローチにより、仲介者なしで互いに取引することが可能になります。
+As discussed in the introduction to this module, Bitcoin is unique in that we have a fully functional, widely used peer-to-peer decentralised digital currency for the first time in history. This means that instead of relying on a central authority like a bank or government to manage transactions, it is managed by a network of participants that work together. This innovative approach allows us to transact with one another without the need for intermediaries.
 
-従来の銀行システムと比較すると、ビットコインは機能的に異なる方法で運用されていますが、果たさなければならない役割は変わりません。たとえば、銀行とビットコインの両方が次のことを行う必要があります：
+When compared to traditional banking systems, while Bitcoin functionally operates differently, the roles it must perform are no different. For instance, both banks and Bitcoin have to:
 
-1. 取引を検証し、処理する、
-2. 不正行為や悪質な行動がないことを監視する、
-3. すべてが最新の状態で、スムーズかつ安全に機能していることを確認する。
-銀行がこれらの役割を社内で実行し、プロセスを完全にコントロールする一方で、Bitcoinはこれらの役割を実行するためにコミュニティによる協力を必要とします。言い換えれば、Bitcoinがこれらのプロセスを分散システムで再現するためには、システム上で一個人や中央集権的なエンティティが過度にコントロールを持たないように、これらのタスクをそれぞれ外部に委託しなければなりません。
+1. validate and process transactions,
+2. monitor transactions to ensure there is no cheating or bad behaviour,
+3. ensure everything is up-to-date, functioning smoothly and securely.
 
-この革命的な偉業を達成するために、Bitcoinはこれらのタスクを3つの主要な役割に分割しました：ノード、マイナー、そして開発者です。ノードは取引を検証し、ルールを設定・強制し、マイナーは取引を順序付けて確認し、開発者はネットワークを最新の状態に保ち、アップグレードを提案します。これらの主要なプレイヤー間でこれらのタスクを分配することにより、Bitcoinは全てのユーザーに対して安全で透明性があり、説明責任のあるシステムを作り出しました。
+While banks perform these roles in-house, giving them complete control over the process, Bitcoin requires collaboration by the community to perform these roles. In other words, for Bitcoin to replicate these processes in a decentralised system, Bitcoin must outsource each of these tasks to ensure that no one individual or centralised entity has outsized control over the system.
 
-それでは、これらの役割をそれぞれ見ていきましょう…
+To achieve this revolutionary feat, Bitcoin has divided these tasks into three key roles: nodes, miners and developers. Where nodes verify transactions and set and enforce rules, miners order and confirm transactions, and developers keep the network up-to-date and propose upgrades. By distributing these tasks amongst these key players, Bitcoin has created a system that is secure, transparent, and accountable to all users.
 
-### Bitcoinの役割
+Let's, therefore, take a look at each of these roles…
 
-#### ノード
+### The Roles of Bitcoin
 
-ノードはBitcoinネットワークの完全性とセキュリティに不可欠です。彼らはシステムのゲートキーパーとして機能し、取引が正確に、そしてルールに従って処理されることを保証します。各ノードはブロックチェーンの完全なコピーをダウンロードし、ローカルで検証します。これは、Bitcoinネットワーク上で行われたすべての取引を記録するデジタル台帳です。コンセンサスを通じて、ノードは各取引の有効性に同意し、ルールが守られていることを保証します。これは、誰かがシステムをだますような行為、例えば実際に持っている以上のビットコインを送信したり、同じビットコインを二度使おうとした場合、ノードはその取引を拒否することを意味します。
+#### Nodes
 
-このコンセンサスのアイデアをさらに詳しく説明すると、開発者がBitcoinに変更やアップグレードを提案するとき、ノードはこれらの変更を採用するか拒否する役割を果たします。彼らは新しいバージョンのソフトウェアにアップグレードするか、古いバージョンを引き続き実行することでこれを行います。このプロセスは、コンセンサスを達成するためにBitcoinコミュニティ内での議論や討論をしばしば伴います。ただし、Bitcoinのコンセンサスは投票機のように単純ではありません。多数決が必ずしも支配するわけではありません。変更に同意しない個人がいる場合、彼らは新しいBitcoin派生トークンを立ち上げることができます。これで、変更なしの元のBitcoinと変更ありの新しいBitcoinが存在します。購入と販売を通じて、どちらのバージョンがより価値があるとコミュニティが判断するかが決まります。このコンセンサスメカニズムは、Bitcoinプロトコルに加えられた変更がコミュニティ全体によって合意されることを保証し、個人やグループが自分たちの利益のためにシステムを操作することが難しくなります。
+Nodes are essential to the integrity and security of the Bitcoin network. They serve as the system's gatekeepers, ensuring that transactions are processed accurately and according to the rules. Every node downloads and locally verifies a complete copy of the blockchain, which is essentially a digital ledger that records every transaction ever made on the Bitcoin network. Through consensus, nodes agree on the validity of each transaction and ensure that the rules are being followed. This means that the nodes will reject the transaction if someone tries to cheat the system, e.g. by sending more bitcoin than they actually have or attempting to spend the same bitcoin twice.
 
-また、ノードは単に自宅のコンピューターで実行できるソフトウェアの一部であることにも注意が必要です。唯一の要件はインターネット接続であり、ブロックチェーンのどれだけを保存したいかによって、5GBから500GBの空き容量が必要です。
+To further elaborate on this idea of consensus, when developers propose changes or upgrades to Bitcoin, nodes play a role in adopting or rejecting these changes. They do this by either upgrading their software to the new version or continuing to run the old version. This process often involves discussions and debates within the Bitcoin community to achieve consensus. That said, Bitcoin's consensus is not as black and white as a voting machine. The majority does not necessarily rule. If some individuals disagree with the change, they can launch a new Bitcoin-derived token. Now, the original Bitcoin exists without the change and a new one with the change. Through buying and selling, it is up to the community to highlight which version they deem more valuable. This consensus mechanism ensures that any changes made to the Bitcoin protocol are agreed upon by the whole community, making it difficult for any individual or group to manipulate the system for their own benefit.
 
-#### マイナー
+It's also important to note that a node is simply a piece of software anyone can run on their home computer. The only requirement is an internet connection and, depending on how much of the blockchain you wish to store, anywhere from 5 to 500gb of free space.
 
-一方、Bitcoinマイナーは記録保持において重要な役割を果たします。彼らは取引を順序付けて確認する責任があります。これを行うために、マイナーはハッシングと呼ばれる機能を実行するために特殊なコンピューターを使用します。ハッシングの詳細に深入りすることなく、これをマイナーが新しい取引をブロックチェーン、つまり取引の公開台帳に追加するために互いに競争すると考えてください。彼らの仕事の対価として、マイナーは新しく作成されたビットコインと処理された任意の取引の取引手数料を報酬として受け取ります。マイニングプロセスは困難で競争的でランダム化されており、毎年限られた数の新しいビットコインのみがリリースされるように設計されています。これにより、ビットコインの供給が限定され、その価値が維持されます。マイナーがいなければ、取引は処理されません。
-マイナーは、トランザクションの処理を競い合い、それによって報酬を得る必要があるため、この競争は単一のマイナーやエンティティがネットワークを制御する可能性を最小限に抑え、マイナーに正直に行動し、ルールに従うよう動機付けます。もしマイナーが不正を行ったりルールを破ったりしようとすると、報酬を失うリスクがあるため、ルールに従う強いインセンティブがあります。
+#### Miners
 
-#### 開発者
+Bitcoin miners, on the other hand, play a critical role in record-keeping, as they are responsible for ordering and confirming transactions. To do this, miners use specialised computers to perform a function called hashing. Without diving into the nitty gritty of hashing, think of it as miners competing with one another to add new transactions to the blockchain, the public ledger of transactions. In exchange for their work, miners are rewarded with newly created bitcoin and the transaction fees for any transactions processed. The mining process is designed to be difficult, competitive, and randomised, with only a limited number of new bitcoin released each year, ensuring that the supply of bitcoin is limited and their value is maintained. Without miners, transactions would not be processed.
 
-開発者は、Bitcoinコミュニティの中で高い技術を持ち、尊敬されるメンバーであり、ネットワークが安全で信頼性があり、最新の状態を保つために協力して働いています。彼らは、ネットワークを動かすソフトウェアの維持と改善によって、Bitcoinエコシステムにおいて重要な役割を果たします。Bitcoinのコードベースへの変更の提案と実装、バグの修正、パフォーマンスとセキュリティの向上を担当しています。
+Given that miners have to compete with one another to process transactions and are rewarded for doing so, this competition minimises the chance that any single miner or entity can control the network and incentivizes miners to act honestly and follow the rules. If a miner tries to cheat or break the rules, they risk losing their reward, so there is a strong incentive to play by the rules.
 
-開発者がいなければ、Bitcoinネットワークは進化し、変化する状況に適応することができません。彼らは、ネットワークの長期的な生存可能性を確保し、それが今後も信頼される分散型の支払いシステムであり続けることを保証する責任があります。簡単に言えば、開発者はBitcoinエコシステムの中核であり、ネットワークの基盤技術を改善し、その成功を継続するために常に働いています。
+#### Developers
 
-最後に、強調したいもう一つの役割があります：コミュニティです。これはBitcoinに価値を与えるものです。コミュニティは、ネットワークを使用し、取引を行い、ノード、マイナー、開発者がBitcoinの作業を続けるよう動機付ける全ての人々で構成されています。コミュニティが成長するにつれて、Bitcoinネットワークの価値も高まります。
+Developers are highly skilled and respected members of the Bitcoin community who work together to ensure the network remains secure, reliable, and up-to-date. They play a critical role in the Bitcoin ecosystem by maintaining and improving the software that powers the network. They are responsible for proposing and implementing changes to the Bitcoin codebase, fixing bugs, and improving performance and security.
 
-_**サイドノート:** Bitcoinの分散型の性質は、背景や地位に関係なく、誰でもネットワークに参加し、その機能に必要な役割を担うことができることを強調することが重要です。これはBitcoinを、中央銀行や政府による制御がしばしば存在する伝統的な通貨と区別します。言い換えれば、Bitcoinは中央集権的なシステムの受動的な消費者ではなく、ネットワークのアクティブな参加者であることによって、人々に力を与えます。_
+Without developers, the Bitcoin network would not be able to evolve and adapt to changing circumstances. They are responsible for ensuring the network's long-term viability and ensuring it remains a trusted and decentralised payment system for years to come. In short, developers are the backbone of the Bitcoin ecosystem, constantly working to improve the network's underlying technology and ensure its continued success.
 
-### トランザクションの開始から終了まで
+Finally, there is one more role that we want to highlight: the community, which is what gives bitcoin its value. The community consists of everyone who uses the network, transacts back and forth, and incentivises the nodes, miners, and developers to continue working on Bitcoin. As the community grows, so does the value of the Bitcoin network.
 
-これらのプレイヤーがどのように協力しているかを理解するために、AliceとBobの間のシンプルなBitcoinトランザクションを想像してみましょう。AliceはBobに1千分の1ビットコイン、執筆時点で約29ドルを送りたいと考えています。
+_**Side Note:** It's important to emphasise that Bitcoin's decentralised nature allows anyone, regardless of their background or status, to participate in the network and take on any of the roles necessary for its functioning. This distinguishes Bitcoin from traditional currencies, which are often subject to control by central banks or governments. In other words, Bitcoin gives power back to the people by enabling them to be active participants in the network rather than passive consumers of a centralised system._
 
-#### トランザクションの開始
+### A Transaction From Start to Finish
 
-すべてのBitcoinトランザクションは、この場合Aliceが送信者として、受取人Bobと金額0.00100000ビットコインを指定してトランザクションを作成することで開始されます。Aliceのウォレットに関連付けられたノードがその後、トランザクションをネットワークにブロードキャストし、ノードがその有効性を確認し、マイナーによる確認のために送信されます。
+To understand how all these players work together, let's imagine a simple Bitcoin transaction between two people, Alice and Bob. Alice wants to send Bob one-thousandth of a bitcoin, around \$29 at the time of writing.
 
-この時点で、トランザクションはmempoolとして知られる場所に入ります。これは、ブロックチェーンに追加される準備ができているトランザクションの待合室のようなものです。クレジットカードの明細で見るような、開始されたが処理を待っている保留中のトランザクションのリストと考えてください。トランザクションが開始され、mempoolに入っていると、今度はマイナーの手に委ねられます。
+#### Transaction Initiation
 
-#### トランザクションの確認
+Every Bitcoin transaction begins with its initiation when the sender, in this case, Alice, creates a transaction specifying the recipient, Bob, and the amount, 0.00100000 bitcoin. The node associated with Alice's wallet then broadcasts the transaction to the network, where the nodes confirm its validity, and it is sent to the miners for confirmation.
 
-マイナーはこれらの保留中のトランザクションを取り、新しいブロックにまとめ、Bitcoinを支えるソフトウェアによって定められた特定のタスクを実行するために互いに競争します。競争の勝者は、そのブロックと含まれるトランザクションをブロックチェーンに追加し、これらのトランザクションを最終的に確定します。勝者は新たに発行されたビットコインと処理されたトランザクションに関連する手数料を報酬として受け取り、トランザクションの処理を続けるためのインセンティブが与えられます。
+At this point, the transaction enters what is known as the mempool, essentially a waiting room for transactions ready to be added to the blockchain. Think of it as a list of pending transactions, much like the ones you see on your credit card statement, that have been initiated but are waiting to be processed. Once the transaction has been initiated and is sitting in the mempool, it is now in the hands of the miners.
 
-#### トランザクションの検証
-取引が確認されると、Bobは彼のウォレットで0.00100000ビットコインを見ることができるようになるはずです。しかし、それだけではありません。次に、ノードはマイナーが仕事を正しく行ったか、そしてこの新しいブロックに含まれる取引がノードによって合意されたルールを満たしているかを検証します。もしブロックがこれを行えなかった場合、新しいブロックは拒否され、マイナーはマイニング報酬を失います。
-_**面白い事実:** ビットコイン取引が確認された後でも、ノードがブロックを拒否すれば、取引の逆転の可能性が存在します。しかし、取引後にブロックチェーンに新しいブロックが追加されるたびに、逆転の可能性は指数関数的に減少します。セキュリティを強化するために、取引所やウォレットは通常、複数の後続ブロック（通常は3から6）が追加されるまでビットコインを保留にします。これにより資金が保護され、取引の安心が保証されます。_
+#### Transaction Confirmation
 
-**結論**
+Miners now take these pending transactions, bundle them up into a new block, and compete against one another to perform a certain task laid out by the software underpinning Bitcoin. The competition winner then appends their block and the enclosed transactions to the blockchain, finalising these transactions. The winner is also rewarded with newly issued bitcoin and the fees associated with the transactions processed, incentivising them to continue processing transactions.
 
-このセクションを通じて説明したように、ビットコインは内部では複雑な暗号システムとして現れるかもしれませんが、実際には3つの重要な役割とコミュニティ間の協力努力に過ぎません。
+#### Transaction Validation
 
-- ノードは、取引の検証を通じて、ゲートキーパーとしてネットワークの完全性とセキュリティを保証します。
-- マイナーは、取引の順序付けと確認を担当します。
-- 開発者は、ビットコインコミュニティの高度にスキルを持つメンバーであり、ネットワークを動かすソフトウェアの維持と改善に協力しています。
-- コミュニティは、ビットコインの使用を通じて、それに価値を与えます。
+Once the transaction is confirmed, Bob should now be able to see the 0.00100000 bitcoin in his wallet. But it doesn't stop there. The nodes then verify that the miner has done their job correctly and that the transactions included in this new block meet the rules agreed upon by the nodes. If the block fails to do so, then the new block will be rejected, and the miner will lose their mining reward.
 
-これらの役割は、ビットコインがデジタル通貨としての機能性と成功を実現するために不可欠です。これらの重要なタスクを主要なプレイヤーに委ねることで、ビットコインはすべてのユーザーにとって安全で透明性があり、説明責任のある交換媒体として機能することができ、通貨の歴史において重要な成果となります。
+_**Fun Fact:** Even after a Bitcoin transaction is confirmed, the possibility of reversal exists if nodes reject blocks. However, with each new block added to the blockchain post-transaction, the likelihood of reversal decreases exponentially. To enhance security, exchanges and wallets often place a hold on your bitcoin until several subsequent blocks are appended— usually three to six. This safeguards funds and guarantees transaction peace of mind._
 
-## ビットコインがフィアットと異なる点は何か？
+**Conclusion**
+
+As explained throughout this section, while Bitcoin may appear as a complex cryptographic system under the hood, it's merely a collaborative effort between three essential roles and the community.
+
+- Nodes, through transaction validation, ensure the integrity and security of the network by serving as gatekeepers.
+- Miners are responsible for ordering and confirming transactions.
+- Developers are highly skilled members of the Bitcoin community who work together to maintain and improve the software that powers the network.
+- The community, through the use of Bitcoin, is what gives it value.
+
+Each of these roles is essential to the functionality and success of Bitcoin as a digital currency. By entrusting these crucial tasks to the key players, Bitcoin can operate as a secure, transparent, and accountable medium of exchange for all users, making it a significant achievement in the history of currency.
+
+## What Makes Bitcoin Different From Fiat?
 <chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
-前のセクションでは、ビットコインが伝統的な通貨と異なり、分散化された憧れのバッジを獲得する方法と、ビットコインのユニークな機能性について掘り下げました。今度は、焦点を変えて、ビットコインがフィアットと異なる、通貨として素晴らしい特性について探求しましょう。これらの重要な特性を検討することでのみ、ビットコインがなぜユニークで、お金の世界において独自のものであるかについて、より深い理解を得ることができます。
+In the previous section, we delved into the unique functionality of Bitcoin that sets it apart from traditional currencies and how Bitcoin achieve the coveted badge of being decentralised. Now, let's shift our focus and explore how Bitcoin differs from fiat in terms of the characteristics that make a currency great. Only by examining these key characteristics can we gain a deeper understanding of why Bitcoin is unique and in a world of its own when it comes to money.
 
-モジュールワンから思い出してみると、私たちはお金の機能と特性の両方を見てきました。これらは以下の通りです：
+If you recall from Module One, we took a look at both the functions and characteristics of money, these being:
 
-**価値の保存:** 時間が経っても購買力を保持します。
+**Store of Value:** Retains purchasing power over time.
 
-- _耐久性:_ 摩耗や損傷に強い。
-- _希少性:_ 数量が限られている。
-- _不変性:_ 変更や改変ができない。
+- _Durable:_ Resistant to wear and tear.
+- _Scarce:_ Limited in quantity.
+- _Immutable:_ Cannot be changed or altered.
 
-**交換手段:** 商品やサービスを交換する手段として使用されます。
+**Medium of Exchange:** Used as a means to trade goods and services.
 
-- _携帯性:_ 簡単に持ち運びや輸送が可能。
-- _分割性:_ 小さな単位に分割できる。
-- _受け入れられやすさ:_ 支払いの形態として広く認識され、受け入れられている。
+- _Portable:_ Easily carried or transported.
+- _Divisible:_ Can be divided into smaller units.
+- _Accepted:_ Widely recognized and accepted as a form of payment.
 
-**価値の尺度:** 価値を測るために使用されます。
+**Unit of Account:** Used to measure value.
 
-- _代替可能性:_ 同じタイプの他の単位と交換可能。
+- _Fungible:_ Interchangeable with other units of the same type.
 
-これらの機能と特性の観点からフィアットとビットコインを分析することで、どのように異なるかをよりよく理解しましょう。
+Let's now analyse fiat and Bitcoin through the lens of these functions and characteristics to better understand how they differ.
 
-#### 価値の保存
+#### Store of Value
 
-フィアット通貨はインフレの影響を受けやすく、政府の政策によって時間とともに価値を失うことが歴史的に証明されていますが、ビットコインの有限の供給と分散化された性質は、中央権力による操作を受けない強力な価値の保存手段を提供します。ビットコインが強力な価値の保存手段である理由は以下の通りです：
+While fiat currencies are subject to inflation and have historically proven to lose value over time due to government policies, bitcoin's finite supply and decentralised nature make it a strong store of value that is not subject to manipulation by any central authority. What makes bitcoin a powerful store of value is that it is:
 
-- **耐久性:** ビットコインはデジタルであり、紙幣や金属通貨のように物理的な損傷や劣化の影響を受けません。さらに、その分散化された性質は攻撃のための単一の失敗点がないことを保証します。
-- **希少性:** ビットコインの供給量は厳格に2100万枚に限定されており、政府が無限に発行できる法定通貨と比較して本質的に希少です。この限定供給は、ビットコインの価値が法定通貨のようなインフレ圧力の影響を受けないことを意味します。
-- **不変性:** ビットコインのブロックチェーン技術は、一度ネットワーク上に記録された取引は変更や改ざんができないことを保証します。このレベルの不変性は、より多くの詐欺、偽造、または取引の逆転が見られる法定通貨では不可能です。
+- **Durable:** Bitcoin is digital and, therefore, not subject to physical damage or decay like paper or metal currencies. Additionally, its decentralised nature ensures that it has no single point of failure for an attack.
+- **Scarce:** The supply of bitcoin is strictly limited to 21 million coins, making it inherently scarce compared to fiat currencies, which governments can print endlessly. This limited supply means that bitcoin's value is not subject to the same inflationary pressures as fiat currencies.
+- **Immutable:** Bitcoin's blockchain technology ensures that once a transaction is recorded on the network, it cannot be changed or tampered with. This level of immutability is not possible with fiat currencies, which see much greater fraud, counterfeiting or the reversal of transactions.
 
-#### 交換手段
+#### Medium of Exchange
 
-ビットコインはまだ法定通貨ほど世界的に受け入れられていませんが、そのピアツーピアの性質、迅速な取引時間、低い手数料は、特に国境を越えた取引において、魅力的な交換手段となっています。これは以下の事実によって可能になっています:
+While bitcoin is not yet as globally accepted as fiat currencies, its peer-to-peer nature, fast transaction times, and low fees make it an increasingly attractive medium of exchange, particularly for cross-border transactions. This is made possible by the fact that it is:
 
-- **携帯性:** ビットコインはデジタルであるため、国境を越えた個人間の仲介者なしの転送を可能にし、便利でアクセスしやすい交換手段となります。一部の法定通貨もデジタルソリューションを提供していますが、発展途上国や戦争で荒廃した国々の人々は、このニーズを満たす銀行サービスにアクセスすることが困難かもしれません。ビットコインの分散型の性質は、インターネット接続があれば誰でもアクセスでき、金融サービスへのアクセスが限られている地域での伝統的な銀行システムへの実行可能な代替手段を提供します。
-- **分割可能性:** ビットコインの極端な分割可能性は、通貨としての主要な利点の一つです。ビットコインは8桁まで分割可能で、最小単位であるサトシはわずかなセントの一部に過ぎません。取引の方法（例えば、レイヤー1または2）によって、ビットコインは小さな購入から大きな投資まで、あらゆるサイズの取引に適応可能です。
-- **受け入れられている:** ビットコインの受け入れがまだ普遍的ではないものの、世界中の商人、機関、個人によるその増加する採用は、正当な支払い形態としてより広く受け入れられつつあることを示唆しています。
+- **Portable:** Bitcoin, being digital, allows for borderless and intermediary-free transfers between individuals, making it a convenient and accessible medium of exchange. While some fiat currencies also offer digital solutions, those in developing or war-torn countries may struggle to access banking services that fulfil this need. Bitcoin's decentralised nature makes it accessible to anyone with an internet connection, providing a viable alternative to traditional banking systems in areas with limited access to financial services.
+- **Divisible:** bitcoin's extreme divisibility is one of its key advantages as a currency. With each bitcoin divisible up to eight decimal places, the smallest unit, a Satoshi, is worth a mere fraction of a cent. Depending on the method of transacting, i.e. layer one or two, this makes bitcoin highly adaptable to transactions of any size, from small purchases to large investments.
+- **Accepted:** While acceptance of bitcoin is not yet universal, its increasing adoption by merchants, institutions, and individuals around the world suggests that it is becoming more widely accepted as a legitimate form of payment.
 
-### 価値の単位
+### Unit of Account
 
-ビットコインが交換手段として認識を得るにつれて、法定通貨と同様に、商品やサービスの信頼できる価値の単位として急速にランクアップしています。しかし、ビットコインを法定通貨と区別するのは、安全で透明性があり、分散型の取引方法を提供する能力です。ビットコインの価値の単位としての採用が増加する主な要因は、以下の事実にあります:
+As bitcoin has gained recognition as a medium of exchange, it has quickly climbed the ranks as a reliable unit of account for goods and services, much like fiat currencies. However, what sets Bitcoin apart from fiat is its ability to provide a secure, transparent, and decentralised method of transacting. The major contributor to Bitcoin's increasing adoption as a unit of account is the fact that it is:
 
-- **代替可能性:** 各ビットコインは他と区別がつかないため、簡単に交換可能です。これは、ユニークな識別子を持つか、品質が異なる可能性がある物理通貨では常に当てはまるわけではありません。
+- **Fungible:** Each bitcoin is indistinguishable from any other, making it easily exchangeable, which is not always the case with physical currencies that may have unique identifiers or be of varying quality.
 
-### 資産 vs ネットワーク
+### The Asset vs The Network
 
-上記で気付いたかもしれませんが、ビットコインは価値を保存するための強力な資産であるだけでなく、取引においても非常に安全で効率的なネットワークであるというユニークな特徴を持っています。これは少し混乱するかもしれませんが、説明しましょう。ビットコインは、法定通貨と同様に、二つのコンポーネントから成り立っています:
+You may have noticed above that Bitcoin isn't simply a powerful asset for which to store value, but its unique characteristics also make it an incredibly secure and efficient network for transacting. This may sound a little confusing, so let us explain. Bitcoin, like fiat, is made up of two components:
 
-**資産（小文字の“b”で表されるbitcoin）** - これは私たちが購入し、ウォレットからアクセスできるものです。中央集権的な取引所やウォレットの外で保管された場合、私たちの信頼は主にハードウェアのセキュリティに集中し、最小限に抑えられます。それでも、シードフレーズを安全にバックアップするか、マルチシグネチャーなどのカストディアルオプションを使用することで、その信頼をさらに最小限に抑えることができます。さらに、ビットコインの基本属性、例えばその総供給量の変更を目指す決定は、コミュニティによって決定され、支持されるため、ユーザーに害を及ぼす可能性のある変更、例えば供給拡大による通貨価値の毀損に対する強固な防護があります。
-**ネットワーク（大文字の「B」を使ってBitcoinと言及される）** - これはビットコイン（資産としてのビットコイン）の取引を容易にするためのレールです。このネットワークは、誰でも取引の送信、検証、または確認を行うことができます。ビットコインの分散型の性質は、多数のノード、マイナー、および開発者によって支えられており、単一のエンティティが他のエンティティを支配することのない分散構造を保証します。これは、取引を行う際に、取り消し、拒否、凍結、またはその他の中断に関する懸念を排除し、安心感を提供します。
+**The asset (referred to as bitcoin with a lowercase “b”)** – This is what we purchase that's accessible from our wallet. When stored outside centralised exchanges or wallets, our reliance on trust is minimised, primarily centring around the security of our hardware. Even then, we can minimise that trust by securely backing up our seed phrase or using custodial options such as multi-signature. Moreover, considering that any decisions aimed at modifying the fundamental attributes of Bitcoin, such as its total supply, are determined and upheld by the community, there is a robust safeguard against the implementation of detrimental changes that could harm users, i.e. currency debasement through supply expansion.
 
-フィアット通貨を「資産」と「ネットワーク」の観点から見ると、第三者や仲介者に対してはるかに大きな信頼と依存を置かなければならないことが明らかになります。例えば：
+**The network (referred to as Bitcoin with an upper case “B”)** – These are the rails which facilitate the trade of bitcoin-the-asset. The network allows anyone to send, verify or confirm transactions. Bitcoin's decentralised nature, supported by numerous nodes, miners, and developers, ensures a distributed structure where no single entity holds dominance over another. This offers a reassuring sense of security and reliability when transacting, eliminating concerns about potential reversals, denials, freezes, or other interruptions.
 
-#### **資産** - _価値の保存手段として使用するフィアット通貨（例：米ドル、ユーロ、円、フラン、ポンドスターリングなど）。_
+When we view fiat currencies from the perspective of "the asset" and "the network," it becomes apparent that we must place far greater trust and dependence on third parties and intermediaries. For example:
 
-**中央銀行が金融政策を監督** - 金融政策とは、中央銀行が利率と流通するお金の総供給量を管理するために取る措置を指します。中央銀行が利率を下げたり、お金の供給量を増やしたりすると、経済に新しいお金が注入され、流通している既存の通貨の価値が希釈されます。これにより、通貨の購買力が低下し、インフレーションを引き起こします。
+#### **The Asset** - _The fiat currencies we use as a store of value (E.g. US dollar, euro, yen, franc, pound sterling, etc.)._
 
-**政府が財政政策を監督** - 財政政策とは、税金と政府支出に関連する政府の行動を指します。例えば、政府が税金を下げて経済刺激策の小切手を提供することを決定した場合、人々の使える収入が増え、支出が増加します。この増加した支出は価格を押し上げ、インフレを引き起こし、時間とともに私たちの購買力を低下させる可能性があります。
+**Central Banks oversee Monetary Policy** – Monetary policy refers to the measures taken by a central bank to manage the interest rates and the total supply of money in circulation. When the central bank lowers interest rates or increases the money supply, it injects new money into the economy, thereby diluting the value of the existing currency in circulation. This results in a reduction of the currency's purchasing power, creating inflation.
 
-私たちは、金融政策と財政政策を担当する人々の決定に従うことになり、彼らの判断に依存しなければなりません。私たちは、政府と選ばれていない中央銀行家が私たちの最善の利益のために行動することを信頼していますが、彼らの選択は私たちの通貨の購買力、そして結果として私たちの生活水準に大きな影響を与える可能性があります。そして歴史は、この信頼が何度も裏切られ、通貨の価値が下落したことを示しています。
+**Governments oversee Fiscal Policy** – Fiscal Policy pertains to government actions related to taxation and government spending. For instance, if the government decides to stimulate the economy by lowering taxes and providing stimulus checks, it increases the disposable income of the population, leading to higher spending. This increased spending can drive up prices, leading to inflation and lowering our purchasing power over time.
 
-#### **ネットワーク** - _私たちが互いに取引を行うためのレール。_
+As citizens, we are subject to the decisions made by those in charge of monetary and fiscal policies, and we must rely on their judgment. We entrust our government and unelected central bankers to act in our best interests, but their choices can significantly affect our currency's purchasing power and, consequently, our standard of living. And history has demonstrated on numerous occasions that this trust has been violated, resulting in monetary debasement.
 
-**クレジットカードを使用してコーヒーを購入する場合、4つ以上の異なる仲介者が関与します** - 最初はコーヒーショップが使用する銀行です。次に、銀行間で資金を転送するための通信ネットワークがあります。その後、Visa、Mastercard、またはDiscoverのような取引を処理する協会があります。最後に、取引を検証して記録する私たち自身の銀行があります。
+#### **The Network** - _The rails that allow us to transact with one another._
 
-**電信送金を行う場合、4つ以上の第三者に関わります** - 電信送金を開始するためには、受取人の銀行の詳細を自分の銀行に提供する必要があります。自分の銀行が受取人の銀行と直接接続していない場合、取引情報はSWIFT（国際銀行間通信協会）ネットワークを通じて、対応する仲介銀行を使用して送信されます。これらの銀行はその後、取引を完了するために受取人の銀行に連絡します。
+**When purchasing a coffee using our credit card, there are four or more different intermediaries** - First is the bank with which the coffee shop uses. Second, are the communication networks that enable the banks to transfer funds between each other. Next, there is the association that processes the transaction, such as Visa, Mastercard, or Discover. And finally, there is our own banking institution, which verifies and records the transaction.
 
-**規制機関が私たちが日常使用する金融レールのさまざまな部門を監督します** - 私たちの政治的見解が金融ネットワークを管理する規制や仲介プロセスのいずれかと衝突する場合、私たちの取引がブロックされるリスクがあり、私たちの資産が押収される可能性があります。極端な場合、私たちは金融システム全体から排除される可能性さえあります。
-これは恐ろしい、あるいはあり得ないことに聞こえますか？2022年初頭、カナダでのトラッカー集会の際、個人がその原因を支持するために寄付をしました。トルドー首相は、これらの個人の銀行口座を彼の命令によって凍結させました。この問題に対する意見はともかく、異なる見解を持つ人々の資産が押収された事実は、警告信号であるべきです。
+**When sending a wire transfer, we touch four or more third parties** - To initiate a wire transfer, we need to provide our bank with the recipient's bank details. Since our bank may not directly connect with the recipient's bank, the transaction information is sent through the SWIFT (Society for Worldwide Interbank Financial Telecommunications) network using a correspondent or intermediary bank. These banks then contact the recipient's bank to complete the transfer.
 
-これを念頭に置いて、貴重で希少な資産へのアクセスだけでなく、安全で効率的で、信頼できる、グローバルで、低料金のネットワークを通じて価値を交換することの大きな利点があります。そして、ここでビットコインが優れています。長々と議論されているように、ビットコインの分散型でデジタルな性質は、仲介者や第三者を必要とせずに、迅速で安全、かつ費用効果の高い取引を可能にする比類のないネットワークを作り出します。以下は、ビットコインの比類なき資産とネットワークから恩恵を受けている例のいくつかです：
+**Regulatory bodies oversee various arms of the financial rails we use daily** - If our political views conflict with the regulations governing the monetary networks or any part of the intermediary process, our transactions may be at risk of being blocked, and our assets could be seized. In extreme cases, we may even face the possibility of being excluded from the financial system altogether.
 
-#### コマース
+Does this sound frightening or improbable? In early 2022, during the trucker rally in Canada, individuals donated to support the cause. Prime Minister Trudeau had some of these individuals' bank accounts frozen by his decree. Irrespective of one's opinion on the matter, the fact that people's assets were seized for their differing views should be a red flag.
 
-ビットコインは、商人に彼らの取引に対する前例のないコントロールを与え、銀行やクレジットカード会社などの伝統的な金融仲介者を迂回することを可能にします。これは、より多くのお金が高額な取引手数料やその他の料金によって吸い取られることなく、商人の手元に残ることを意味します。ビットコインを使用することで、商人は通貨の変換やその他の仲介者を必要とせずに、世界中どこからでも支払いを受け入れることを選択でき、これによりコストをさらに削減し、利益率を高めることができます。取引に対するより大きなコントロールを商人に与えることで、ビットコインは私たちがコマースについて考える方法を変えており、あらゆる規模のビジネスがますますグローバル化する経済で競争する力を与えています。
+With this in mind, there are immense advantages to not only having access to a valuable, scarce asset but a secure, efficient, trustless, global, and low-fee network for exchanging value. And this is where Bitcoin excels. As discussed at length, Bitcoin's decentralised and digital nature makes an unparalleled network for fast, secure, and cost-effective transactions without the need for intermediaries or third parties. Here are a few examples of those benefiting from Bitcoin's unparalleled asset and network:
 
-#### インフレ
+#### Commerce
 
-2022年末にかけて、世界のほぼ[半分](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.)が二桁のインフレに直面しており、これは切迫した懸念事項となっています。もしインフレ率が次の10年間このレベルで続くと、購買力の65%が失われることになります。しかし、ビットコインは今、誰もが逃れる方法を提供しています。真に希少な資産であるため、その価値は供給拡大を通じて侵食されることがなく、通貨の価値下落の負の影響から私たちを救います。
+Bitcoin gives merchants unprecedented control over their transactions, allowing them to bypass traditional financial intermediaries such as banks and credit card companies. This means that more money stays in the hands of the merchant rather than being siphoned off by costly transaction fees and other charges. With Bitcoin, merchants can also choose to accept payments from anywhere in the world without the need for currency conversion or other intermediaries, further reducing costs and increasing profit margins. By giving merchants greater control over their transactions, Bitcoin is changing the way we think about commerce, empowering businesses of all sizes to compete in an increasingly globalised economy.
 
-#### 戦争や不安定な国からの逃亡
+#### Inflation
 
-ビットコインは、戦争や不安定な国から逃れる人々にとって、価値を移動する実行可能なオプションを提供します。多くの場合、これらの状況にある個人は、インフラの欠如や政府による金融システムの管理のために、伝統的な銀行サービスにアクセスできません。ビットコインは、これらの個人が仲介者や盗難や没収の可能性がある物理的資産を必要とせずに、分散型で安全な方法で価値を保存することを可能にします。ビットコインを使えば、個人は自分の富を頭の中に持ち、国境を越えて、物理的または政治的な混乱による資産の損失の恐れなく移動することができます。これは、伝統的な金融システムでは比類のない金融の自由と独立を提供します。
+As of late 2022, almost [half of the world](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) was grappling with double-digit inflation, making it a pressing concern. If inflation rates remain at this level for the next decade, it will result in a 65% loss of purchasing power. However, bitcoin now offers anyone a way out. Being a truly scarce asset, its value cannot be eroded through supply expansion, offering us an escape from the negative impacts of debasing currencies.
 
-#### 送金
+#### Fleeing War-Torn or Unstable Countries
 
-次のモジュールでより詳細に議論しますが、今のところ、ビットコインが海外の愛する人々にお金を送金するための効率的で費用効果の高い方法を個人に提供していることを言及したいと思います。従来の送金方法とは異なり、高額な取引手数料や長い処理時間を伴うことが多いのに対し、ビットコインの取引は迅速に完了し、手数料は最小限です。
-このことを踏まえると、ビットコイン（資産）は、インフレから逃れたい人やより安全な通貨で価値を保存したい人にとって大きな利益をもたらす可能性がありますが、多くの個人が資産を利用できない可能性があることを認識しています。つまり、資産としてのビットコインのボラティリティは、短期間の価値保存や限られた貯蓄を持つ人には適していないかもしれません。幸いなことに、ビットコインのネットワークはここで重要な役割を果たします。特に、銀行や金融資産へのアクセスがない個人にとっては、ネットワークの支払いレールが、携帯電話とインターネット接続を持つ人なら誰でもデジタル金融取引を容易にするからです。
+Bitcoin provides a viable option for moving value for those fleeing war-torn or unstable countries. In many cases, individuals in these situations are unable to access traditional banking services due to a lack of infrastructure or government control over financial systems. Bitcoin allows these individuals to store value in a decentralised and secure way without the need for intermediaries or physical assets that may be vulnerable to theft or confiscation. With bitcoin, individuals can carry their wealth in their heads, across borders and without any fear of losing their assets to any physical or political upheaval. This provides a level of financial freedom and independence that is unparalleled in the traditional financial system.
 
-ビットコインはまた、インターネットの基本的な価値移転プロトコルとして急速に普及しています。低コストの取引能力のために、コンテンツクリエーターを直接視聴者とつなぐ価値ストリーミングなどのサービスが増え始めています。同様に、この低コストのストリーミング能力は、エネルギーメータリングのような有料サービスでのブレークスルーを見ており、ユーザーは即時の需要に対してビットコインを使用料ベースで支払うことができます。摩擦のないピアツーピアの支払いオファリングは、デジタル領域を通じて商品やサービスとの人々のやり取りの方法を革命的に変えています。
+#### Money Transfer
 
-**結論**
+We will discuss this in much greater detail in the following module, but for now, we want to mention that Bitcoin provides individuals with an efficient and cost-effective way to remit money back to loved ones abroad. Unlike traditional remittance methods, which often involve high transaction fees and lengthy processing times, Bitcoin transactions can be completed quickly and with minimal fees.
 
-価値の保存、交換手段、および計算単位としてのビットコインのユニークな特性は、それを独自のクラスの通貨にします。その分散化、希少性、耐久性、不変性、携帯性、受け入れ、分割可能性、および代替性は、最終性、セキュリティ、効率性、および低い手数料で取引ができる強力で効率的なネットワークを作り出します。
+In light of this, while bitcoin, the asset, may offer significant benefits to those looking to escape inflation or store value in a more secure currency, we recognise that many individuals may not be able to take advantage of the asset, i.e. the volatility of bitcoin as an asset, may not be suitable for short-term value storage or those with limited savings. Luckily, Bitcoin's network will play a crucial role here, especially for individuals without access to banks or financial assets, given that the network's payment rails facilitate digital financial transactions for anyone with a mobile phone and internet connection.
 
-さらに、これらの組み合わせた属性は、ビットコインを長期にわたって財富を蓄積し構築するための強力な手段（ビットコイン資産）としてだけでなく、取引媒体としてビットコインを利用したい人々に多くの利点を提供することで、ビットコインを位置づけています。これは、両方のシナリオで信頼と仲介者を必要とする法定通貨とは鮮明に対照的です。これにより、ビットコインは個人やビジネスにとって魅力的な通貨となり、それが貯蓄や取引に使用されるかどうかにかかわらず。
+Bitcoin is also quickly becoming the underlying value-transfer protocol of the internet. Because of the low-cost transaction capability, services such as value-streaming are starting to proliferate, connecting content creators directly to their audiences. Similarly, this low-cost streaming capability is seeing breakthroughs in paid-for-services such as energy metering, whereby users are able to pay for instantaneous demand, streaming bitcoin on a pay-for-use cost basis. Frictionless peer-to-peer payment offerings are revolutionising the way people interact with goods and services through the digital realm.
 
-## ビットコインとのやり取り
+**Conclusion**
+
+Bitcoin's unique characteristics as a store of value, medium of exchange, and unit of account make it a currency that is in a class of its own. Its decentralisation, scarcity, durability, immutability, portability, acceptance, divisibility, and fungibility combine to create a powerful and efficient network that can be used for transactions with finality, security, efficiency, and low fees.
+
+Furthermore, these combined attributes not only position Bitcoin as a potent instrument for storing and building wealth over the long term (bitcoin the asset) but also offer many advantages for those looking to employ Bitcoin as a transactional medium (Bitcoin the network). This starkly contrasts fiat currencies, which necessitate trust and intermediaries in both scenarios. This makes Bitcoin an attractive currency for individuals and businesses alike, regardless of whether it is used for saving or transacting.
+
+## Interacting With Bitcoin
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
-ビットコインは金融システムに嵐のように登場し、発展途上国、テクノロジーに精通した個人、投資家の注目を集めています。しかし、その急速な成長により、多くの人が、このデジタル資産がVisaやMastercardのような従来の支払い方法とどのように競合するか疑問に思っています。さらに、個人がビットコインとどのように個人的に関わることができるかについても興味を持っています。
+Bitcoin has taken the monetary system by storm, captivating the attention of developing countries, tech-savvy individuals and investors alike. However, with its rapid growth, many wonder how this digital asset can compete with traditional payment methods like Visa and Mastercard. Additionally, individuals are curious about how they can personally engage with Bitcoin.
 
-このセクションでは、法定通貨であろうとビットコインであろうと、取引の異なる層について詳しく説明します。また、適切なウォレットを選択することの重要性を含む、ビットコインを安全に保つためのベストプラクティスについても探ります。
+In this section, we'll delve into the different layers of transacting, whether in fiat or Bitcoin. We'll also explore some best practices for keeping your bitcoin safe, including the importance of choosing the right wallet.
 
-### ビットコインの層
+### The Layers of Bitcoin
 
-ビットコインのブロックチェーンは、その名が示す通り、ブロックで構成されています。これらのブロックには理論上の最大サイズが4メガバイトあります。_ただし、執筆時点での平均ブロックサイズは約1.5MBです。_この制限のため、ビットコインが1秒あたりに処理できる取引数には制限があり、7から10の取引（tps）です。
+Bitcoin's blockchain is composed of blocks, as its name suggests. These blocks have a theoretical maximum size of 4 megabytes. _That said, the average block size at the time of writing comes in at around 1.5mb._ Because of this limit, there is a restriction on how many transactions Bitcoin can process per second, which is between seven to ten transactions per second (tps).
 
-したがって、ビットコインのブロックチェーンが、[1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)で取引するVisaやMastercardのようなネットワークとどのように競合するか疑問に思うかもしれません。
+Therefore, you may wonder: How can Bitcoin’s blockchain possibly compete with networks such as Visa or Mastercard that transact at [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
-答えはシンプルです。それは競合していません。
+The answer is simple. It is not competing with them.
 
-ビットコインのブロックチェーンをVisaやMastercardと比較することは、国際コンテナ船を地元のハードウェアストアのチェックアウトと比較するようなものです。コンテナ船は、まれな大量取引用に設計されているのに対し、チェックアウトは高頻度の小規模取引を想定して構築されています。両者は商品を移動させますが、それらを比較することは、リンゴとオレンジを比較するようなものです。
-この点を念頭に置いて、ビットコインは信頼性があり、許可が不要なトランザクションを最終決済とともに提供しますが、VisaやMastercardは利便性と使いやすさを提供します。しかし、それはビットコインのブロックチェーンがこれらのことを提供しないという意味ではありません。それは単に、一般的に知られている基本チェーンや基本層でそれらを達成しようとはしません。
+Comparing Bitcoin’s blockchain to Visa or Mastercard is like comparing an international container ship to a checkout at a local hardware store. The container ship is intended for infrequent bulk transactions, whereas a checkout is built around high-frequency, small transactions. Although both move goods, comparing them is like comparing apples to oranges.
 
-これが何を意味するのか見てみましょう...
+With this in mind, Bitcoin offers trustless, permissionless transactions with final settlement, while Visa and Mastercard provide convenience and ease of use. However, that is not to say Bitcoin’s blockchain doesn't offer these things, too. It just doesn't try to achieve them on the base chain or base layer as it's commonly known.
 
-どんな通貨システムを検討しても、通常、異なる方法、または層での取引があり、各方法はユーザーにさまざまな利点を提供します。現在の通貨システムにおける取引の層には以下が含まれます：
+Let's explore what this means...
 
-**レイヤーワン：** これらの取引は通常、大量のお金を関与させますが、処理能力が低いため、秒間に処理できる取引の数が限られています。伝統的な通貨システムにおけるレイヤーワンの取引の例には、銀行電信送金やFed Wireの銀行間送金が含まれます。これらの取引は高額取引に使用されますが、しばしば遅く、費用がかかります。電信送金の手数料は10ドルから50ドルの範囲であり、処理には数日かかることがあります。レイヤーワンの取引は安全で信頼性がありますが、小額の取引を迅速かつ費用効果的に行いたい消費者にとって最適な選択ではないかもしれません。
+When inspecting any monetary system, there are often different methods, or layers, of transacting, with each method offering various benefits to the user. The layers of transacting in our current monetary system include:
 
-**レイヤーツー：** この層は通常、小額で高頻度の取引を含み、秒間に多くの取引を処理することができます。手数料は通常、取引価値の1-3%程度で、より速く、より安価な取引を提供します。伝統的な通貨システムにおけるレイヤーツーの取引の一般的な例には、クレジットカードとデビットカードの支払い、オンライン決済サービス、ギフトカードの取引があります。
+**Layer One:** These transactions typically involve large amounts of money but have a low processing capacity, meaning that only a limited number of transactions can be processed per second. Examples of layer one transactions in the traditional monetary system include bank wire transfers and Fed Wire interbank transfers. These transactions are used for high-value transactions, but they are often slow and expensive, with wire transfer fees ranging from \$10 to \$50 and processing times that can take several days. While layer one transactions are secure and dependable, they may not be the best choice for consumers who need to make small transactions quickly and cost-effectively.
 
-**ビットコインブロックチェーンはレイヤーワンとレイヤーツーの取引にどのように適合するのでしょうか？**
+**Layer Two:** This layer typically includes smaller value high-volume transactions, enabling many transactions to be processed per second. It provides faster and cheaper transactions, with fees usually around 1-3% of the transaction value. Common examples of layer two transactions in the traditional monetary system are credit and debit card payments, online payment services, and gift card transactions.
 
-ビットコインブロックチェーンは、レイヤーワンの取引に対する素晴らしい代替手段です。レイヤーツーのVisa支払いの速度には及ばないかもしれませんが、伝統的なレイヤーワンの方法の速度と費用の一部で高額取引を処理する能力があります。さらに、ビットコインは許可不要で信頼性がない方法で運用されているため、仲介者なしで取引を行うことができます。
+**Where does the Bitcoin blockchain fit into layer one and layer two transactions?**
 
-しかし、レイヤーワンソリューションとしての利点にもかかわらず、ビットコインはレイヤーツーの取引方法とも競合することができます。ビットコインネットワークの上に構築された技術、例えばLightningのようなものは、ユーザーがほぼ瞬時に、そしてセントの一部で取引できるようにします。これらの技術はビットコインネットワークのレイヤーツーのソリューションと考えることができます。この点を踏まえると、伝統的な通貨システムがレイヤーワンとレイヤーツーの取引を持っているように、ビットコインもそうです。
+Bitcoin blockchain is a great alternative to layer one transactions. While it may not be able to match the speed of a layer two Visa payment, it is capable of processing high-value transactions at a fraction of the speed and cost of traditional layer one methods. Moreover, Bitcoin operates in a permissionless and trustless manner, meaning that transactions can be conducted without intermediaries.
 
-大量のお金を比較的迅速（ただし即時ではない）、費用効果的かつ安全に送金したい場合、ビットコインレイヤーワンが最適です。一方、ほぼ瞬時に、そしてセントの一部で取引したい場合は、Lightningなどのビットコイン上に構築された技術に注目することをお勧めします。
+However, despite its advantages as a layer one solution, Bitcoin can also compete with layer two transaction methods. There are technologies built on top of the Bitcoin network, such as Lightning, which enable users to transact near-instantaneously and for fractions of a cent. These technologies can be thought of as layer two solutions for the Bitcoin network. With this in mind, just like our traditional monetary system has layer one and two transactions, so does Bitcoin.
 
-ビットコインLightning Networkは、ビットコインレイヤーワンの上に構築されたレイヤーツーのスケーリングソリューションです。これにより、ほぼ瞬時の取引が極めて少ない手数料で可能になり、マイクロトランザクションや小さな購入が可能になります。
-エルサルバドルが法定通貨としてビットコインを採用して以来、多くの人々がその利点のために標準のレイヤーワンではなくLightning Networkを使用してビットコインを取引しています。Lightning Networkを使用すると、ユーザーはほぼ瞬時の取引をセントの一部で支払うことができ、これは伝統的なオンチェーンのビットコイン取引のより高い手数料や遅い取引時間を受け入れたくない商人にとって完璧な選択です。これにより、エルサルバドルの人々が日常の取引にビットコインを使用することがより簡単でアクセスしやすくなり、ビットコインのグローバル通貨としての可能性が高まりました。
+If you're looking for a reasonably quick (but not instant), cost-effective and secure way of sending a large amount of money, then Bitcoin layer one is your best bet. Whereas, if you're looking to transact near-instantaneously and for fractions of a cent, you will want to direct your attention to some of the technologies built on Bitcoin, which include innovations such as [Lightning](https://lightning.network/).
 
-それでは、ビットコインを取得した後、または購入を決めた後に何をすべきかに焦点を当てましょう。
-### ビットコインを安全に保管する方法
+Bitcoin Lightning Network is a layer two scaling solution built on top of the Bitcoin layer one. It allows for near-instant transactions with minimal fees, making microtransactions and small purchases possible.
+Since El Salvador has adopted bitcoin as a legal tender, many people have been using the Lightning Network to transact Bitcoin instead of the standard layer one due to its benefits. With the Lightning Network, users can pay a fraction of a cent for almost instantaneous transactions, making it a perfect fit for merchants who want to accept Bitcoin payments without the higher fees and slower transaction times of traditional on-chain Bitcoin transactions. This has made it easier and more accessible for El Salvadorians to use bitcoin for everyday transactions, increasing the potential of Bitcoin adoption as a global currency.
 
-ビットコインが革命的なのは、歴史上初めてデジタル資産の自己保管が可能になったことです。この偉業は過小評価できません！現金を枕の下に保管するように、ビットコインもデジタル上で同じことができます。しかし、お金を管理する新しいレベルのコントロールは、新しい責任を伴います。ビットコインを安全に保つためには、適切に保護する方法を学ぶ必要があります。これには、紛失、盗難、ハッキングの試みから保護するための措置を講じることを意味します。
+Let's now turn our focus on what to do once you've acquired some bitcoin or decided to make a purchase.
 
-#### ビットコインを保管する場所
+### Safely Securing Your bitcoin
 
-ビットコインを保護する最初のステップは、適切なウォレットを選択することです。あまり深入りせずに言うと、主に2種類のウォレットがあります：カストディアル（預託管理）とノンカストディアル（自己保管）です。
+What makes Bitcoin revolutionary is that, for the first time in history, we can take self-custody of a digital asset. This feat cannot be overstated! Just like how we can store cash under our pillow, we can do the same with bitcoin, but digitally. However, this new level of control over our money comes with new responsibilities. To keep our bitcoin safe, we must learn how to secure it properly. This means taking steps to protect against loss, theft, and hacking attempts.
 
-**カストディアルウォレット**
-これらのウォレットでは、ウォレットにアクセスして資金を移動できますが、第三者がビットコインを保管し、保護します。
+#### Where To Store Your bitcoin
 
-カストディアルウォレットの一般的な例は、取引所のアカウントです。取引所を通じてビットコインを購入し、そのビットコインを取引所に残しておくと、カストディアルウォレットを使用していることになります。取引所はあなたのビットコインを保管し、資金を保護する責任があります。
+The first step in securing your bitcoin is to choose the right wallet. Without going into too much depth, there are primarily two types of wallets available: custodial and non-custodial.
 
-また、ビットコインに簡単にアクセスできる多数の他のカストディアルウォレットソリューションがモバイルデバイスで利用可能です。これらのウォレットは通常、ユーザーフレンドリーであり、ビットコインを管理する簡単な方法を提供しますが、依然としてビットコインの鍵を保持しています。
+**Custodial Wallets**
+These are wallets where, although you can access your wallet and move funds around, a third-party stores and secures your bitcoin.
 
-**ノンカストディアルウォレット（自己保管）**
-ノンカストディアルウォレットは、資金の唯一の保管者であるタイプのビットコインウォレットです。つまり、プライベートキーを完全にコントロールしています。プライベートキーはウォレットのパスワードのようなもので、取引を署名し、承認するために使用されます。これらがなければ、ビットコインにアクセスしたり、転送したりすることはできません。
+One common example of a custodial wallet is an exchange account. When you purchase bitcoin through an exchange and leave your bitcoin on the exchange, you are using a custodial wallet. The exchange has custody over your bitcoin and is responsible for storing and securing your funds.
 
-ノンカストディアルウォレットは、カストディアルウォレットよりも高いレベルのセキュリティとプライバシーを提供します。なぜなら、資金の安全を担当するのはあなただけだからです。ノンカストディアルウォレットの例には、プライベートキーをオフラインで保管し、追加のセキュリティ層を提供する物理デバイスである[Coldcard](https://store.coinkite.com/store/coldcard)や[Trezor](https://trezor.io/)などのハードウェアウォレットが含まれます。その他の人気のノンカストディアルウォレットには、[Sparrow](https://sparrowwallet.com/)、[Electrum](https://electrum.org/#home)、[Blockstream Green](https://blockstream.com/green/)などのソフトウェアウォレットがあり、これらはコンピューターやモバイルデバイスにダウンロードしてインストールできます。
+There are also countless other custodial wallet solutions available for mobile devices that give you easy access to your bitcoin. These wallets are typically user-friendly and offer a simple way to manage your bitcoin, but they still hold the keys to your bitcoin.
 
-\*_特定のウォレットを推奨することはできませんが、自己保管または共同保管を通じてビットコインをコントロールし、ニーズと好みに合ったウォレットを選択することを強くお勧めします。ウォレットを決定する前に、セキュリティと使いやすさの要件と一致するかどうかを確認するために、徹底的な調査を行うことが不可欠です。_
+**Non-custodial wallets (a.k.a. self-custody)**
+Non-custodial wallets are a type of Bitcoin wallet where you are the sole custodian of your funds, meaning you have complete control over your private keys. Private keys are like a password to your wallet and are used to sign and authorise transactions. Without them, you cannot access or transfer your bitcoin.
 
-カストディアルウォレットは便利に見えるかもしれませんが、大きなリスクを伴います。プライベートキーの保管を第三者に委ねることで、実質的に資金のコントロールを彼らに与えることになります。保管者が破産したり、ハッキングされたり、閉鎖したりした場合、ビットコインへのアクセスを失う可能性があります。そして、これは数え切れないほどの機会に起こっており、Mt. GoxやQuadrigaCXのハックによる顧客資金の損失や、FTX、Voyager、BlockFi、Celsiusが壊滅的な破産を経験し、顧客資金の損失につながった高プロファイルな例があります。特に貯蓄に関しては、自己保管を実践し、ビットコインを保護する責任を負うことが重要です。
+Non-custodial wallets offer a higher level of security and privacy over custodial wallets since you are the only one responsible for the safety of your funds. Examples of non-custodial wallets include hardware wallets like [Coldcard](https://store.coinkite.com/store/coldcard) and [Trezor](https://trezor.io/), which are physical devices that store your private keys offline and provide an extra layer of security. Other popular non-custodial wallets are software wallets like [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), and [Blockstream Green](https://blockstream.com/green/), which can be downloaded and installed on your computer or mobile device.
 
-#### 安全対策
-ウォレットを選んだ後も、楽しみはまだ終わりません。これからは、損失のリスクを最小限に抑える時です。ビットコインを守るために、ウォレットを選んだ後に検討すべきステップは以下の通りです：
-1. まず最初に、自己管理を行う際にはウォレットのバックアップを取ります。ハードウェアウォレットには、デバイスが紛失または損傷した場合にプライベートキーを回復するために使用できる単語のセットであるリカバリーシードフレーズが付属しています。この[シードフレーズ](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/)の物理的なコピー（例えば、金属製のシードプレート）を作成し、安全な場所に保管してください。このリカバリーシードフレーズを安全に保管することが重要です。決して誰とも共有しないでください。
-2. あなたが失いたくない閾値を超える大量のビットコインを保護する際には、予期せぬあなたの死亡時に家族や愛する人がビットコインにアクセスし、効果的に管理できるように、遺産計画のオプションを探ることが重要です。
-3. フィッシング試みやその他の詐欺に対して警戒してください。詐欺師はしばしば、信頼できる会社や個人を装ってあなたからビットコインへのアクセスを詐取しようと試みます。信頼できる会社は決してあなたのプライベートキーを求めることはないので、プライベートキーを誰とも共有せず、ビットコインを送る前にウェブサイトや個人の真正性を常に確認してください。
+\*_Although we cannot recommend a specific wallet, we highly advise taking control of your bitcoin through self-custody or collaborative custody, which involves selecting a wallet that suits your needs and preferences. It is essential to conduct thorough research before deciding on a wallet to ensure that it aligns with your security and usability requirements._
 
-自己管理が我々の推奨するアプローチである一方で、それが全ての人に適しているわけではないことを理解しています。リスクを最小限に抑えるための一般的なガイドラインは以下の通りです：
+While custodial wallets may appear convenient, they come with significant risks. By giving custody of your private keys to a third party, you effectively give them control over your funds. If the custodian becomes insolvent, hacked, or shuts down, you could lose access to your bitcoin. And this has happened on countless occasions, with high-profile examples including the Mt. Gox and QuadrigaCX hacks resulting in the loss of customer funds, or FTX, Voyager, BlockFi, and Celsius experiencing catastrophic insolvencies, leading to the loss of their customer funds. Especially for savings, practising self-custody and taking responsibility for safeguarding your bitcoin is crucial.
 
-- ビットコインを購入するために取引所を使用し、日常取引にはモバイルウォレットを、長期間のビットコイン貯蓄にはハードウェアウォレットを使用してください。
-- 取引所やモバイルウォレットをあなたの物理的な財布のように扱い、日常の財布に入れるであろうビットコインの量のみを保持してください。
-- ハードウェアウォレットをあなたの貯蓄口座として考えてください。これは頻繁にアクセスするためのものではなく、長期にわたる安全性とセキュリティを優先します。
+#### Safety Tips
 
-そして、取引所を使用している場合は：
+Once you have decided on a wallet, the fun and games aren't over just yet. Now it's time to minimise the risk of loss. To protect your bitcoin, consider these steps after choosing your wallet:
 
-1. 強力でユニークなパスワードを作成してください。一般的なフレーズや簡単に推測できるパスワードの使用を避けてください。パスワードマネージャーの使用を検討してください。
-2. 可能な限り二要素認証（2FA）を有効にしてください。これは、パスワードに加えて、あなたの電話やハードウェアデバイスからのコードを要求することで、セキュリティの追加層を提供します。
+1. First and foremost, back up your wallet when taking self-custody. Hardware wallets come with a recovery seed phrase, a set of words that can be used to recover your private keys in case your device is lost or damaged. Create a physical copy, such as a metal seed plate, of this [seed phrase](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) and store it in a safe place. It's important to keep this recovery seed phrase secure. NEVER share it with anyone.
+2. When safeguarding a substantial amount of bitcoin that exceeds the threshold you wouldn't want to lose, it's important to explore estate planning options for the unforeseen event of your passing. This ensures that your family and loved ones can access and manage your bitcoin effectively.
+3. Be vigilant against phishing attempts and other scams. Scammers often try to trick you into giving them access to your bitcoin by posing as a trusted company or individual. No reputable company will ever ask you for your private keys, so never share your private keys with anyone, and always verify the authenticity of any website or individual before sending bitcoin.
 
-まだ不安な場合は、YouTubeの[BTCsessions](https://www.youtube.com/c/BTCSessions)のBenをチェックすることを強くお勧めします。
+While self-custody is our recommended approach, we understand that it may not be suitable for everyone. Here are some general guidelines to help minimise risk:
 
-大きな力には大きな責任が伴うことを覚えておいてください。ビットコインを適切に保護するために時間をかけることは、あなたの財政的未来を守るために不可欠です。
+- Use exchanges to purchase bitcoin, mobile wallets for everyday transactions, and hardware wallets to store your long-term bitcoin savings.
+- Treat exchanges or mobile wallets like your physical wallet, keeping only the amount of bitcoin you would carry in your everyday wallet.
+- Consider your hardware wallet as your savings account. It's meant for infrequent access and prioritises safety and security for the long term.
 
-このモジュールを閉じる前に、もう一つ考えておきたいことがあります...
+And if you are using an exchange:
 
-### より深く掘り下げる
+1. Create a strong, unique password. Avoid using common phrases or easy-to-guess passwords. Consider using a password manager.
+2. Enable two-factor authentication (2FA) whenever possible. This adds an extra layer of security by requiring a code from your phone or hardware device in addition to your password.
 
-ビットコインの世界をさらに探求することに興味がある場合、多くのオプションが利用可能です。例えば：
+If you're still unsure, we highly recommend checking out Ben from [BTCsessions](https://www.youtube.com/c/BTCSessions) on YouTube.
 
-1. **ノード：** ノードの運用は、基本的な取引を超えてビットコインに興味がある人にとって優れた入門点です。これにより、ブロックチェーンを検証し、新しいアップデートや変更に影響を与えることでビットコインネットワークに貢献するだけでなく、自分の取引と残高を検証する能力を持つことで信頼を最小限に抑え、プライバシーを強化することができます。ノードを運用することで、あなたは分散型ネットワークの一部となり、そのセキュリティと完全性を保証するのに役立ちます。
-2. **マイニング：** マイニングは、ビットコインネットワークに貢献し、潜在的にビットコインを稼ぐ別の方法です。ノードの運用よりも少し多くのリソースを必要とし、以前ほど利益が出なくなったとはいえ、ネットワークの技術的側面に興味がある人にとっては報われる活動です。
-3. **開発：** ソフトウェア開発の経験があり、ビットコインの開発に貢献することに興味がある場合、ビットコインの[GitHub](https://github.com/bitcoin/bitcoin)リポジトリは素晴らしい出発点です。
-あなたの興味に関わらず、Bitcoinについてもっと学び、関与するための多くのリソースが利用可能です。
+Remember, with great power comes great responsibility, and taking the time to secure your bitcoin properly is essential to protecting your financial future.
 
-### **結論**
+Before closing out this module, I'd like to leave you with one last thought...
 
-BitcoinがVisaやMastercardと競合することは決してないとよく聞かれますが、このセクションがその考えが誤りであることを証明したことを願っています。Bitcoinの基本層は、従来の方法よりも高価値の取引をはるかに効率的に処理するように設計されているため、これらの企業と直接競合するのではなく、従来のレイヤー1ソリューションに対する素晴らしい代替手段となります。さらに、Bitcoinのレイヤー1の上に構築されたThe Lightning Networkのような技術は、ほんの一部のセントでほぼ瞬時に取引を可能にします。したがって、BitcoinはVisaやMastercardと競合することができ、企業と個人の両方にソリューションを提供することができます。
+### Diving Deeper
 
-Bitcoinの最大の利点は、これまでになかったデジタル資産の自己保管を可能にすることです。このセクションを読んだ後で圧倒されたと感じても心配しないでください。自分自身のBitcoinをコントロールすることは、財務の自由に向けた強力な一歩ですが、新しい責任も伴います。しかし、少しの研究と注意深さで、これらの新しい責任はすぐにあなたにとって第二の性質となり、Bitcoinを安全に保管する任務を快適に引き受けることができるようになります。
+If you are interested in further exploring the world of Bitcoin, many options are available. Such as:
 
-## 試験
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+1. **Nodes:** Running a node is an excellent entry point for those curious about Bitcoin beyond basic transactions. It allows you to not only contribute to the Bitcoin network by verifying the blockchain and influencing new updates or changes but minimises trust and offers enhanced privacy by giving you the ability to verify your own transactions and balances. By running a node, you become a part of the decentralised network and help ensure its security and integrity.
+2. **Mining:** Mining is another way to contribute to the Bitcoin network and potentially earn bitcoin. While it requires a little more resources than running a node and is not as profitable as it used to be, mining is a rewarding activity for those interested in the technical aspects of the network.
+3. **Development:** If you have experience in software development and are interested in contributing to the development of Bitcoin, a great starting point is Bitcoin's [GitHub](https://github.com/bitcoin/bitcoin) repository.
 
-「ここまでの経緯の検討」というモジュールを通して学んだことをテストし、最後のセクションを理解していることを確認する必要があります。いくつかの開放型質問から始め、その後小さなクイズを行います。
+Regardless of your interests, there are many resources available to help you learn more about Bitcoin and get involved.
 
-1. Bitcoinのような信頼性がなく、許可が不要な分散型デジタル通貨の概念についてどう思いますか？従来の通貨形態と比較してどう思いますか？
-2. Bitcoinの供給が2100万コインに限定されていることが、その価値を与え、より望ましいものにすると思いますか？なぜですか、またはなぜではありませんか？
-3. Satoshi Nakamotoに関して提供された情報に基づいて、Bitcoinの創造者の真の身元を知ることが重要だと思いますか？なぜですか、またはなぜではありませんか？
-4. 中央銀行システムと従来の通貨に必要な信頼に関するSatoshi Nakamotoの懸念に同意しますか？なぜですか、またはなぜではありませんか？
-5. 高いインフレを経験している国に住んでいると想像してください。Bitcoinはどのようにして購買力を保持する解決策を提供できますか？
-6. 別の国にいる家族にお金を送る必要があるシナリオを考えてみてください。Bitcoinのピアツーピアの性質と低い手数料がこの状況でどのようにあなたに利益をもたらすか？
+### **Conclusion**
 
-# 混乱の中の安定 - Tetherとステーブルコインの世界への導入
+Although we often hear that Bitcoin can never rival Visa or Mastercard, hopefully, this section has proven this notion to be untrue. Rather than competing directly with these companies, Bitcoin's base layer is designed to process high-value transactions much more efficiently than traditional methods. This makes it a fantastic alternative to traditional layer one solutions. Moreover, technologies like The Lightning Network, built on top of the Bitcoin layer one, enable nearly instantaneous transactions for just a fraction of a cent. Thus, Bitcoin can still compete with Visa and Mastercard, offering solutions for both businesses and individuals alike.
+
+Bitcoin's biggest advantage is that it allows us to have self-custody of a digital asset, which was never possible before. If you feel overwhelmed after going through this section, don't worry. Taking control of your own bitcoin is a powerful step towards financial freedom, but it also comes with new responsibilities. However, with a little bit of research and due diligence, these new responsibilities will quickly become second nature to you, and you'll feel comfortable taking on the task of safely securing your bitcoin.
+
+## Exam
+<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+
+Now that you went through the Module "An Examination of How We Got Here" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
+
+1. What are your thoughts on the concept of a trustless and permissionless decentralised digital currency like Bitcoin? How do you think it compares to traditional forms of currency?
+2. Do you believe that the limited supply of bitcoin, with only 21 million coins, gives it value and makes it more desirable? Why or why not?
+3. Based on the information provided about Satoshi Nakamoto, do you think it is important to know the true identity of Bitcoin's creator? Why or why not?
+4. Do you agree with Satoshi Nakamoto's concerns about centralised banking systems and the trust required in conventional currencies? Why or why not?
+5. Imagine you live in a country experiencing high inflation. How could bitcoin provide a solution for preserving your purchasing power?
+6. Consider a scenario where you need to send money to a family member in a different country. How could Bitcoin's peer-to-peer nature and low fees benefit you in this situation?
+
+# Stability Amidst Chaos - An Introduction to Tether & the World of Stablecoins
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
 
-## Tetherとステーブルコインの世界への導入
+## An Introduction to Tether & the World of Stablecoins
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
-以前に議論されたように、お金は何千年もの間、人類にとって不可欠な部分でした。それは私たちが商品やサービスを購入するのを助け、互いに取引を可能にし、富を蓄えるのを助けました。
+As previously discussed, money has been an essential part of humanity for thousands of years. It has helped us purchase goods and services, enabled us to trade with one another, and assisted us in storing wealth.
 
-しかし、社会が進化するにつれて、お金との関係も変化しました。コインから紙幣、デジタル銀行口座、そしてBitcoinへ、私たちのお金は時代とともに進化する必要がありました。
+But as society has evolved, our relationship with money has changed. From coins to paper currency and digital bank accounts to Bitcoin, our money has had to keep up with the times.
 
-近年、インターネットは私たちが互いに交流する方法を革命的に変え、私たちのお金もそれに合わせて進化する必要がありました。Bitcoinのような暗号通貨が登場し、莫大な人気を集め、現代の金融システムに失望した人々に希望を提供しましたが、従来の銀行の限界も浮き彫りにしました。
-ビットコインのデジタルな性質を考えると、ビットコインは常に営業中であり、1年365日、1日24時間、毎秒ごとに人々が購入や売却を行っています。一方で、世界中には銀行サービスにアクセスできない無数の個人がいます。それはさておき、幸運にも「銀行利用者」であったとしても、平均的な銀行は1日のほんの一部の時間しか営業しておらず、私たちは大きくその営業時間に左右されます。
-これらの事実は、数字を詳しく見るまで見過ごされがちです。
+In recent decades, the internet has revolutionised the way we interact with each other, and our money has had to evolve alongside it. Cryptocurrencies, such as Bitcoin, have emerged, and while they have garnered immense popularity and offered promise to those let down by our present-day monetary system, they have also highlighted the limitations of traditional banking.
 
-まず、[四分の一](https://www.worldbank.org/en/publication/globalfindex)の世界の個人が非銀行利用者と見なされています。つまり、デジタルで取引を行うことはおろか、安全に貯蓄することもできない10億人以上の個人がいるということです。
+Given Bitcoin's digital nature, it is always open for business, running 24 hours a day, 365 days a year, with people buying and selling every second of every day. Meanwhile, there are countless individuals worldwide who are unable to access banking services. That aside, even when lucky enough to be "banked," the average bank operates for a fraction of the day, leaving us largely at the mercy of their operating hours.
 
-そして二つ目に、1年は8760時間あり、平均的な銀行は月曜日から土曜日までの午前10時から午後5時までのみ営業し、日曜日と祝日は閉店していることを考えると、平均的な銀行は年間わずか2100時間しか開いていません。それは時間のわずか24％に過ぎません！
+It's easy to overlook these facts until you start crunching the numbers.
 
-したがって、銀行サービスやオンラインバンキングサービスにアクセスできない何十億もの人々を除いて、多くの人にとって効率的かつタイムリーにお金にアクセスすることは依然として課題です。
+First, [one-quarter](https://www.worldbank.org/en/publication/globalfindex) of individuals globally are considered unbanked. That means there are well over one billion individuals who cannot transact digitally, let alone save securely.
 
-さらに悪いことに、現金に頼らない限り、私たちのすべての資金は従来の銀行の制約を受けます。これは、ギリシャ政府の2015年の破産時に見られたような、政府が過剰な銀行改革を課す場合、重大なリスクを提示します。
+And second, considering that there are 8760 hours a year and that the average bank only operates from 10 am to 5 pm Monday to Saturday and is closed on Sundays and public holidays, the average bank is only open for a mere 2100 hours a year. That's only 24% of the time!
 
-この危機の間、銀行は閉鎖され、ATMからの引き出しは1日あたりわずか67ドルに制限され、その上で政府はまだ個人の銀行預金の大きな[部分](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits)を引き出して、その財政不責任を賄いました。
+So, outside of the billions unable to access banking services and online banking services that do not require assistance, accessing money efficiently and timely remains a challenge for many.
 
-このような危機に対処するための現金は一時的な解決策を提供するかもしれませんが、デジタル取引が必要不可欠な世界で物理通貨に依存することは、長期的な解決策としては現実的ではありません。
+To make matters worse, unless we resort to cash, all of our funds are subject to the constraints of traditional banking. This presents a significant risk should our government impose overbearing banking reform, as was seen during the Greek government's 2015 bankruptcy.
 
-これは疑問を投げかけます：従来の銀行との摩擦と、ビットコインの短期的なボラティリティが最小限の貯蓄を持つ人々にとって障害と見なされることを考えると、これらのリスクや制限に直面することなく、デジタル時代にどのように安全に取引できるのでしょうか？
+During this crisis, banks were closed, ATM withdrawals were limited to a mere \$67 per day, and after all that, the government still withdrew a significant [portion](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) of individuals' bank deposits to fund their fiscal irresponsibility.
 
-私たちがいつでも必要な時に、週の時間や曜日に関係なく利用できる、相対的な価値に結びついた通貨が必要です。それはデジタルネイティブでなければなりません。
+While cash may provide a workaround to such a crisis, relying on physical currency in a world where digital transactions are a necessity is not a viable long-term solution.
 
-そして、ここでテザーが登場します。
+This begs the question: Given the friction with traditional banking and that bitcoin's short-term volatility can be seen as a hindrance for those with minimal savings, how can we securely transact in the digital age without facing these risks and limitations?
 
-#### テザーとは？
+We need a currency tied to something of relative value, digitally native and available whenever we need it, regardless of the time or day of the week.
 
-フィアット通貨の絶えず進化する風景の中で、テザーは現代世界の金融ニーズに対処するビジョンを持って重要な役割を果たしてきました。伝統的な通貨が私たちの急速に変化するグローバル経済の要求に追いつくのに苦労する中、ビットコインの短期的なボラティリティが貯蓄能力が乏しい人々にとって挑戦となる中、テザーの創設者たちはこれらの世界を橋渡しする機会を認識しました。
+And this is where Tether comes in.
 
-テザーは「従来の金融システムへの挑戦者であり、伝統的な通貨のデジタル利用における先駆者です。」彼らの主な目的は、伝統的な金融世界とビットコインのデジタル世界を橋渡しすることによってビットコインの採用を促進することです。彼らはこれを、物理的な世界の資産に—冗談はさておき—「テザー」された価値を持つという理由で「ステーブルコイン」と呼ばれるさまざまなデジタルトークンを提供することによって達成します。テザーはまた、ビットコインのマイニング、ビットコイン教育、ビットコインの支払いインフラ、およびビットコインの研究開発にも投資しています。
+#### Who is Tether?
 
-#### ステーブルコインとは？
-上述の通り、ステーブルコインは、金や米ドルのような広く流通している法定通貨など、現在の市場が価値あるものに対して安定した価値を維持するよう設計されたデジタルトークンです。これらは、少なくともある程度まで、ビットコインのデジタル自己管理特性と、伝統的通貨の相対的な短期価格安定性の両方を提供します。
-テザーのステーブルコイン、例えば米ドルに裏打ちされたUSDtや金に裏打ちされたXAUtは、伝統的通貨に対して独立して運用され、伝統的な銀行の営業時間や制限の枠外で機能するという明確な利点を提供します。その結果、これらは24時間365日アクセス可能であり、個人により大きなコントロールと柔軟性をお金に対して提供します。
+In the ever-evolving landscape of fiat currencies, Tether has emerged as a pivotal player, driven by a vision to address the financial needs of the modern world. As traditional currencies continually struggle to keep pace with the demands of our rapidly changing global economy, and Bitcoin's short-term volatility makes it challenging for those who lack the capacity to save, the founders of Tether recognised an opportunity to bridge these worlds.
 
-これを念頭に置いて、人々は銀行が開いているかどうかに関わらず、自分の条件に合わせて取引を行うことができ、伝統的な銀行システムでは実現できないセキュリティレベルにアクセスできます。2015年のギリシャでの政府による銀行改革のような事態が発生した場合、ステーブルコインは伝統的な銀行の枠組み内でお金を保持することに関連するリスクを避ける方法を提供することができます。ステーブルコインを使用することで、個人は不確実な時期であっても自分のお金をコントロールし続けることができます。
+Tether is "a disruptor to the conventional financial system and a trailblazer in the digital use of traditional currencies." Their primary purpose is to enhance Bitcoin adoption by bridging the traditional financial world to the digital world of Bitcoin. They achieve this through offering a variety of digital tokens, often called “stablecoins,” which hold value due to their tether—no pun intended—to physical-world assets. Tether also invests in Bitcoin mining, Bitcoin education, Bitcoin payment infrastructure, and advanced Bitcoin research and development.
 
-#### テザーのステーブルコインの提供がビットコインや法定通貨とどのように異なるのか？
+#### What is a stablecoin?
 
-ビットコインとは異なり、短期間で価値が大きく変動する可能性がある（保有者にとっては利益または損失になる）ビットコインとは異なり、テザーの様々なステーブルコインは、その名が示す通り、短期的な価値の安定性を提供しようと試みます。これにより、伝統的な法定通貨の世界と常に進化するビットコインの世界を橋渡しするための完璧なオプションとなり、ユーザーが伝統的な銀行の枠組みに戻ることなくビットコインの出入りを可能にします。これはテザーが登場する前には不可能でした。
+Stablecoins, as mentioned above, are digital tokens designed to maintain a stable value with respect to something current markets reconise as valuable, such as gold or widespread fiat currencies like the US dollar. They offer a mixture of both worlds - the digital self-custodial characteristics of Bitcoin, at least to a degree, with the relative short-term price stability of traditional currencies.
 
-この安定性を実現するために、テザーは各デジタルトークンが担保（およびその評判）で裏打ちされていることを保証し、他の暗号通貨のブロックチェーンを含む様々なピアツーピアシステムを介して取引を容易にします。これにより透明性が向上し、銀行などの仲介者の必要性がなくなります。これはインターネット接続を持つ人々に銀行サービスへのアクセスを提供するだけでなく、伝統的な銀行の営業時間や休日に関係なく、年中無休で迅速かつ低コストの取引を完了できる結果となります。
+Tether’s Stablecoins, such as USDt, backed by US dollars, or XAUt, backed by gold, offer a distinct advantage over traditional currencies in that they operate independently, outside of the constraints of traditional banking hours and limitations. As a result, they are accessible 24/7, granting individuals greater control and flexibility over their money.
 
-そうは言っても、テザーが提供するステーブルコイン、例えばUSDtは、伝統的な法定通貨とも異なります。これらはUSDなどの資産の価値にペッグされている間、政府が発行する通貨ではなく、どの国にも忠誠を誓っていません。この特性は、特にインフレに直面している国々で、USDのようなより安定した通貨へのアクセスが困難な場合に、独自の利点を提供します。物理的な現金とは異なり、オンライン交換を通じてUSDtや他のステーブルコインを取得することは、インターネット接続があれば、地理的な位置に関係なくアクセス可能を保証します。したがって、法定通貨とテザーの様々なステーブルコインとの間の主な違いは、管轄区域の無関心にあります：それは国境を越えてシームレスに機能し、安定したデジタル通貨へのグローバルアクセスを可能にします。さらに、ステーブルコインは取引手数料の削減、国境を越えた取引の加速、および金融包摂の向上などの利点を提供し、伝統的な法定通貨に対する魅力的な代替手段となります。
+With this in mind, people can transact on their own terms, regardless of whether their bank is open, and they have access to a level of security that traditional banking systems cannot match. In the event of a government-imposed banking reform, like the one in Greece in 2015, stablecoins can offer a way to avoid the risks associated with having your money held within the traditional banking rails. With stablecoins, individuals can maintain control over their money, even in uncertain times.
 
-#### どれくらいの種類のステーブルコインがありますか？
+#### How do Tether's stablecoin offerings differ from Bitcoin or fiat currencies?
 
-テザーの登場後、多くの他の企業やイニシアチブが類似のステーブルコイン製品を発売しました。これらの試みは大まかに三つの主要なタイプに分類されます：法定通貨に裏打ちされたステーブルコイン、商品に裏打ちされたステーブルコイン、およびアルゴリズムステーブルコイン。
+Unlike Bitcoin, whose value, to the benefit or detriment of the holder, can fluctuate wildly in the short-term, Tether's various stablecoins, as the name implies, attempt to provide short-term stability in value. This makes them a perfect option for bridging the traditional world of fiat currencies with the ever-evolving world of Bitcoin by granting users the ability to move in and out of Bitcoin without moving back onto the traditional banking rails, something impossible before Tether.
 
-- **法定通貨に裏打ちされたステーブルコイン**は、テザーのUSDtのように、米ドルやユーロのような伝統的な通貨に裏打ちされており、その価値は基礎となる法定通貨の価値に直接結びついています。
-- **商品担保型ステーブルコイン**は、金や石油のような商品によって担保されています。例えば、Tetherの金ステーブルコイン、XAUtがあります。
-- **アルゴリズム型ステーブルコイン**は、その価値を維持するために一連のルールやアルゴリズムに依存しています。しかしながら、市場で純粋にアルゴリズムに基づくステーブルコインが成功した例はまだ見られていません。
+To achieve this stability, Tether ensures each digital token is backed with collateral (along with its reputation), and transactions can be facilitated via various peer-to-peer systems, including blockchains of other cryptocurrencies. This increases transparency and eliminates the necessity of intermediaries such as banks. This not only provides those with an internet connection access to banking services but results in fast, low-cost transactions that can be completed 24/7, 365 days a year, regardless of traditional banking hours or holidays.
 
-結論として、私たちの社会が進化し、技術が進歩するにつれて、お金との関係も変化しています。硬貨からデジタル通貨へ、私たちはお金とのやり取りや取引の方法が変わっていくのを目の当たりにしています。伝統的な銀行システムにはその限界がありますが、Tetherはそのステーブルコインの選択を通じて、これらの課題に対する潜在的な解決策を提供しています。伝統的な通貨の相対的な短期的安定性と、ネイティブデジタル通貨の柔軟性およびアクセシビリティを提供することで、そのステーブルコインはユーザーにお金のより大きなコントロールを提供します。銀行サービスへのアクセスがない、政府の過剰介入に直面している、または単に伝統的な銀行の営業時間外に取引を必要とする場合でも、USDtのようなステーブルコインは信頼できる代替手段を提供するかもしれません。その結果、彼らは私たちの金融システムの不可欠な部分に急速になっています。
+Having said that, the stablecoins offered by Tether, like USDt, also differ from traditional fiat currencies. While they maintain a peg to the value of assets like USD, they are not government-issued currencies and have no allegiance to any nation. This characteristic grants them a unique advantage, especially in countries grappling with inflation, where accessing more stable currencies like USD can be challenging. Unlike physical cash, obtaining USDt or other stablecoins through an online exchange merely requires an internet connection, ensuring accessibility regardless of one's geographical location. Therefore, the key distinction between fiat and Tether's various stablecoins lies in the jurisdictional indifference: it operates seamlessly across borders, allowing global access to a stable digital currency. Moreover, stablecoins offer benefits such as reduced transaction fees, faster cross-border transactions, and increased financial inclusivity, making them an attractive alternative to traditional fiat currencies.
 
-_**サイドノート:** これらの用語が完全に理解できなくても心配しないでください。このモジュールを通じて、各トピックをより詳細に探求していきます。_
+#### How many different types of stablecoins are there?
 
-## ステーブルコインの歴史
+After the advent of Tether, many other companies and initiatives launched similar Stablecoin products. These numerous attempts can be broadly categorised into three main types: fiat-backed, commodity-backed, and algorithmic stablecoins.
+
+- **Fiat-backed stablecoins**, like Tether's USDt, are backed by traditional currencies like the US dollar or the Euro, and their value is directly tied to the value of the underlying fiat currency.
+- **Commodity-backed stablecoins** are backed by commodities like gold or oil, i.e., Tether's gold stablecoin, XAUt,
+- **Algorithmic stablecoins** rely on a set of rules or algorithms to maintain their value. That said, we have yet to see a purely algorithmic stablecoin succeed in the market.
+
+In conclusion, as our society continues to evolve and technology advances, so too does our relationship with money. From coins to digital currencies, we have seen a shift in how we interact with and transact using money. While traditional banking systems have their limitations, Tether, via its stablecoin selection, offers a potential solution to these challenges. By providing the relative short-term stability of traditional currencies with the flexibility and accessibility of native digital currencies, their stablecoins offer users greater control over their money. Whether you lack access to banking services, face government overreach or simply need to transact outside of traditional banking hours, stablecoins like USDt may provide a reliable alternative. As a result, they are quickly becoming an integral part of our financial system.
+
+_**Side Note:** Don't worry if some of these terms don't quite make sense. We will explore each of the topics in greater detail throughout this module._
+
+## History of Stablecoins
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
-ステーブルコインは、暗号通貨の世界で人気のトピックとなっており、ビットコインのような暗号通貨に比べて短期間でのボラティリティが少ない代替手段を提供しています。このモジュールの導入部で詳述されているように、ステーブルコインは法定通貨や貴金属のような安定した資産に連動して設計されたデジタル資産であり、安定した価値を維持することを目的としています。したがって、ステーブルコインの歴史を探り、TetherのUSDtを含むいくつかの最初のステーブルコインについて詳しく見ていきましょう。USDtは、最もよく知られ、広く使用されているステーブルコインです。
+Stablecoins have become a popular topic in the cryptocurrency world, offering a less volatile alternative in the short term to cryptocurrencies like Bitcoin. As detailed in the introduction to this module, stablecoins are digital assets that are pegged to a stable asset like fiat currency or precious metals, designed to maintain a stable value. Let's, therefore, explore the history of stablecoins and take a closer look at some of the first stablecoins, including Tether’s USDt, the most well-known and widely used stablecoin.
 
-_**楽しい事実:** 執筆時点で、TetherのUSDtは1日あたり200億ドルの取引量を平均しています。これは、ビットコインの最近の1日あたりの取引量150億ドルを上回っています。さらに、USDtはビットコインとイーサリアムの後に市場資本金で第三位に位置しています。_
+_**Fun Fact:** At the time of writing, Tether's USDt averages \$20 billion in daily transaction volume. This surpasses bitcoin's recent daily volume of \$15 billion. Furthermore, USDt is sitting in third position for the largest market cap behind Bitcoin and Ethereum._
 
-ステーブルコインのアイデアは、暗号通貨の初期の日々にさかのぼり、2012年にMastercoinプロジェクトによって提案された安定した資産担保型暗号通貨の概念から始まりました。しかし、ステーブルコインが勢いを得たのは数年後のことで、2014年にBitsharesやNuBitsのようなプロジェクトが立ち上がりました。
+The idea of stablecoins dates back to the early days of cryptocurrency, with the concept of a stable asset-backed cryptocurrency being proposed in 2012 by the Mastercoin project. However, it wasn't until a few years later that stablecoins gained momentum, with projects like Bitshares and NuBits launching in 2014.
 
-Bitsharesは、米ドルに連動するように設計された最初のステーブルコイン「bitUSD」を導入しました。1bitUSDの価値は常に1米ドルと等しく、bitUSDは市場のボラティリティの時にその価値が安定するように、米ドルで保有される準備金によって裏打ちされていました。一方、NuBitsは、その米ドルへのペッグを維持するために供給と需要のメカニズムを使用しました。しかし、その詳細については次の章で触れます。
+Bitshares introduced the first stablecoin called “bitUSD,” which was designed to be pegged to the US dollar, with the value of one bitUSD always equal to one US dollar. This meant that bitUSD was backed by US dollars held in reserve, ensuring that its value remained stable in times of market volatility. NuBits, on the other hand, used supply and demand mechanics to maintain its peg to the US dollar. But more on that in the next chapter.
 
-これらの初期の試みにもかかわらず、2014年にTetherのUSDtが発売されるまで、ステーブルコインは主流の注目を集めませんでした。USDtは、bitUSDと同様に、1USDtの価値が1米ドルと等しいように設計されたステーブルコインです。USDtは、暗号通貨取引所Bitfinexを所有する親会社も持つTether Limitedという会社によって作成されました。
-当初、Tetherは主にトレーダーによって、フィアット通貨への変換なしに取引所間で資金を移動するために使用されていました。しかし、より多くの人々がTetherを使用し始めると、それ自体の勢いと人気を得ました。今日、Tetherは世界で最も広く使用されているステーブルコインであり、毎日300億ドル以上を処理しています。この数字を視野に入れるために、[MasterCard](https://www.cardrates.com/advice/number-of-credit-card-transactions-per-day-year/#:~:text=4%20billion%20transactions%20were%20processed,a%20Japanese%20credit%20card%20company))と[Visa](https://blog.unibulmerchantservices.com/processing-24000-visa-transactions-per-second-how-its-done/#:~:text=VisaNet%2C%20the%20card%20network's%20payment,24%2C000%20Visa%20transactions%20per%20second.)はそれぞれ平均で、1日あたり81億ドルと120億ドルを処理しています。本質的に、VisaとMastercardを合わせたものよりも50%多くのUSドルがUSDtで毎日取引されています。
+Despite these early attempts, it wasn't until Tether’s USDt was launched in 2014 that stablecoins gained mainstream attention. USDt, just like bitUSD, is a stablecoin that is designed to be pegged to the US dollar, with the value of one USDt equal to one US dollar. USDt was created by a company called Tether Limited, whose parent company also owns the cryptocurrency exchange Bitfinex.
 
-その広範な使用にもかかわらず、Tetherは論争を免れてはいません。2017年、iFinex Incが所有するTetherとBitFinexは、ビットコインの価格を人為的に吊り上げたと非難されました。これらの非難は、TetherとBitFinexが対応するUSドルの額を持たずに新しいUSDtトークンを発行していたという主張に関連していました。これによりUSDtの供給が増え、その結果、ビットコインの価格を人為的に吊り上げるために使用されたとされています。
+Initially, Tether was primarily used by traders to move funds between exchanges without the need for conversion to fiat currency. However, as more people started to use Tether, it gained its own momentum and popularity. Today, Tether is the most widely used stablecoin globally, processing over \$30 billion daily. To put this number in perspective, [MasterCard](https://www.cardrates.com/advice/number-of-credit-card-transactions-per-day-year/#:~:text=4%20billion%20transactions%20were%20processed,a%20Japanese%20credit%20card%20company)) and [Visa](https://blog.unibulmerchantservices.com/processing-24000-visa-transactions-per-second-how-its-done/#:~:text=VisaNet%2C%20the%20card%20network's%20payment,24%2C000%20Visa%20transactions%20per%20second.) process, on [average](https://www.statista.com/statistics/279249/purchase-transactions-on-general-purpose-cards-worldwide/), \$8.1 billion and \$12 billion per day, respectively. Essentially, 50% more US dollars are transacted daily on USDt than Visa and Mastercard combined.
 
-Tetherはこのような非難を一貫して否定しています。実際、2017年に行われた独立した監査では、価格操作の試みの証拠は見つかりませんでした。さらに、この点を考えてみてください：もしBitfinexがビットコインの価値を人為的に高め、自社の価値を膨らませるために、どこからともなくUSDを生み出すことを意図していたとしたら、USDtのような公開台帳でそのような行動を実行するよりも、自社のUSD内部アカウント内で私的かつ否定可能な方法で行う方が、検出がより困難になるため、より簡単ではないでしょうか？
+Despite its widespread use, Tether has not been immune to controversy. In 2017, Tether and BitFinex, both owned by iFinex Inc, were accused of artificially inflating the price of bitcoin. These accusations were related to the allegation that Tether and BitFinex were issuing new USDt tokens without having the corresponding amount of US dollars to back them up. This would increase the supply of USDt, which in turn was allegedly used to inflate the price of bitcoin artificially.
 
-しかし、批評家は依然としてTetherが流通しているすべてのUSDtを支えるための十分なUSドルを持っているかどうかを疑問視しています。これらの懸念に対処し、透明性を高めるために、Tetherは現在、国際会計事務所BDOによって実施された四半期ごとの予備報告書を公開しています。これらの報告書は、Tetherの予備に関する詳細な情報を提供しています。一部には依然としてTetherの予備慣行に疑問を持つ人もいますが、同社の透明性向上への努力は、ユーザーや広範な暗号通貨コミュニティとの信頼構築に役立っています。
+Tether has consistently denied such allegations. In fact, an independent audit conducted in 2017 found no evidence of price manipulation attempts. Moreover, consider this: if Bitfinex intended to conjure USD seemingly from nowhere to boost bitcoin's value artificially and inflate its own worth, wouldn't it be more straightforward to do so privately and deniably within its own USD internal accounts, making detection more challenging compared to executing such actions on a public ledger like USDt?
 
-それにもかかわらず、これらの論争や予備に関する疑問に直面しても、USDtは設立以来価格の安定性を維持してきました。その結果、多くの他のステーブルコインが登場し市場シェアを競っている中でも、市場で最も人気のあるステーブルコインの地位を保っています。今日では、安定した価値を維持するための独自のメカニズムを持つ多数のステーブルコインが利用可能です。
-さらに、ステーブルコイン市場が成長するにつれて、Tetherは需要に応えるためにそのリーチを拡大しました。当初、TetherはOmni「メタプロトコル」を使用してBitcoinブロックチェーン上でのみUSDtを提供していましたが、市場が成長し、オンチェーンのスケーラビリティ問題がより明らかになるにつれて、Ethereum、Tron、Algorandなど他の暗号通貨のブロックチェーン上でUSDtの表現を[提供](https://tether.to/en/transparency/)し始めました。今日では、[RGB](https://www.rgbfaq.com/faq/what-is-rgb)や[Pear Credit](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-p2p-credit-system/)を通じて、再びBitcoinの上にTetherのステーブルコインを追加するための積極的な研究開発が行われています。Tetherはまた、ユーロ、円、中国元など、異なる法定通貨にペッグされた新しいステーブルコイン製品を発売しました。
-結論として、ステーブルコインはその発祥以来、長い道のりを歩んできました。bitUSDやNuBitsの初期の日々から、Tether製品の主流の人気と他のステーブルコインの出現に至るまで、ステーブルコイン市場は急速に進化しました。Tetherを巡る論争がステーブルコイン発行者の透明性と説明責任に関する懸念を引き起こしている一方で、ステーブルコイン市場は成長を続け、Bitcoinへのグローバルで柔軟な橋渡しを提供しています。しかし、この便利さは、中央集権化と信頼への依存の増加というコストを伴います。
+However, critics still question whether Tether has enough US dollars to back all the USDt in circulation. To address these concerns and increase transparency, Tether now releases quarterly reserve reports performed by the international accounting firm BDO. These reports provide detailed information about Tether's reserves. While some still have doubts about Tether's reserve practices, the company's efforts to improve transparency have helped to build trust with its users and the broader cryptocurrency community.
 
-## ステーブルコインの特徴
+That said, in the face of these controversies and questions about its reserves, USDt has managed to maintain price stability since its inception. As a result, it remains the most popular stablecoin in the market, even as many others have emerged and competed for market share. Today, there are numerous stablecoins available, each with its own unique mechanism for maintaining a stable value.
+
+Furthermore, as the stablecoin market has grown, Tether has expanded its reach to keep up with the demand. Initially, Tether only offered USDt on the Bitcoin blockchain using the Omni “metaprotocol,” but as the market grew and on-chain scalability issues became more apparent, it began [offering](https://tether.to/en/transparency/) USDt representations on other cryptocurrencies’ blockchains, including Ethereum, Tron, Algorand, and others. Today, there is active research and development to once again add Tether’s stablecoins on top Bitcoin, through [RGB](https://www.rgbfaq.com/faq/what-is-rgb) and [Pear Credit](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-p2p-credit-system/). Tether has also launched new stablecoin products pegged to different fiat currencies like the euro, the yen, and the Chinese yuan.
+
+In conclusion, stablecoins have come a long way since their inception. From the early days of bitUSD and NuBits to the mainstream popularity of Tether products and the emergence of other stablecoins, the stablecoin market has evolved rapidly. While the controversies surrounding Tether have raised concerns about the transparency and accountability of stablecoin issuers, the stablecoin market continues to grow, offering a global and flexible bridge to Bitcoin. However, this convenience comes at the cost of increased centralisation and reliance on trust.
+
+## Characteristics of Stablecoins
 <chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
-今までの説明から明らかなように、ステーブルコインは、ペッグされた資産に基づいて安定した価値を維持するよう設計されたデジタルトークンの一種です。これらの資産には、法定通貨、貴金属、商品、またはこれらの組み合わせ（例えば、法定通貨のバスケット）が含まれることがあります。
+As should be evident by now, a stablecoin is a type of digital token designed to maintain a stable value based on an underlying pegged asset. These assets can include fiat currency, precious metals, commodities, or a combination of these (e.g. a basket of fiat currencies).
 
-ステーブルコインの目的、例えばUSDtのようなものは、他の暗号通貨だけでなく、アルゼンチンペソのような他の法定通貨が経験するボラティリティに比べて、比較的安定したデジタルの価値の保存手段を提供することです。アルゼンチンペソは、2012年から2022年の間に購買力の[97%](https://www.statista.com/statistics/316750/inflation-rate-in-argentina/)を失いました。
+The purpose of a stablecoin, like USDt, is to provide a relatively stable digital store of value compared to the volatility experienced by not only other cryptocurrencies but other fiat currencies like the Argentine peso, which lost [97%](https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) of its purchasing power between 2012 and 2022.
 
-基本的に、ステーブルコインは伝統的な資産とBitcoinの間の橋渡しとして機能し、ユーザーがより自信を持って、予測可能に取引できるようにします。
+Essentially, a stablecoin acts as a bridge between traditional assets and Bitcoin, enabling users to transact with greater confidence and predictability.
 
-価格の安定性をどのように維持するかについて見てみましょう…
+As for how they maintain this price stability, let's take a look…
 
-多くのステーブルコインは、そのペッグとして法定通貨を使用することを選択しており、USドルはペッグするためのより人気のある法定通貨の一つです。このため、まずは法定通貨に裏打ちされたステーブルコインについて詳しく見ていきます。しかし、商品に裏打ちされたものやアルゴリズムに基づくものなど、複数のタイプのステーブルコインも探究します。
+The majority of stablecoins often choose to use a fiat currency as their peg, with the US dollar being one of the more popular fiat currencies by which to peg to. For this reason, we'll dive into fiat-backed stablecoins first. However, there are multiple types of stablecoins, such as commodity-backed and algorithmic, which we will also explore.
 
-### 法定通貨に裏打ちされた
+### Fiat-Backed
 
-ステーブルコインは、ペッグされた資産に対して安定した価値を維持するよう設計されています。法定通貨に裏打ちされたステーブルコイン、例えばUSDtの場合、トークンがその価値を維持する最も単純な方法は、トークンの発行者がトークンがペッグされている通貨を1:1の比率で保持することです。
+Stablecoins are designed to maintain a stable value relative to a pegged asset. When it comes to fiat-backed stablecoins, like USDt, the simplest way for the token to maintain its value is for the issuer of the token to hold the currency the token is pegged to in a 1:1 ratio.
 
-少し混乱するかもしれませんが、心配しないでください。ここに例を挙げます：
-あなたが50ドルを持っていて、それをUSDtを使って友人や家族に送金したいとします。このプロセスを開始するために、オンラインの取引所にログインし、50ドルを50USDtに交換します。しかし、この取引所は単に50ドル相当の新しいUSDtを生み出すわけではありません。代わりに、定期的に取引所のUSDtの予備が少なくなると、このシナリオではTetherが発行者として、USDと引き換えに新しいUSDtを取引所に提供します。これら新しく作成されたUSDtトークンはUSDによって裏打ちされています。これにより、流通している1USDtが現金または現金同等物によって裏打ちされていることが保証されます。
+Sounds a little confusing? Don't worry. Here is an example:
 
-これを念頭に置いて、USDtを取得するとき、それは新たに発行されたものではありません。むしろ、以前に取引所がUSDとUSDtを交換し、今あなたが取引所から取得しているものです。時間が経つにつれて、より多くのユーザーがUSDtを購入すると、取引所の予備は減少し、そのUSD保有量は増加します。これにより、取引所は再びTetherに連絡し、USDと引き換えに追加のUSDtを生成するよう促されます。
+Suppose you have \$50 US and want to send this money to your friends and family using USDt. To initiate this process, you log into your online exchange and trade your \$50 US dollars for \$50 USDt. However, this exchange doesn't merely conjure up \$50 worth of fresh USDt. Instead, periodically, when the exchange's USDt reserves run low, the issuer, in this scenario, Tether, generates new USDt for the exchange in return for USD. The USD backs these newly created USDt tokens. This ensures that each circulating \$1 USDt is substantiated by equivalent cash or cash equivalents.
 
-資産の予備によってステーブルコインを「裏打ち」するこのシステムは、ステーブルコインの価値が有形資産に結びついていることを保証することで、ユーザーに安定性と信頼性を提供するように設計されています。USDtを持っている全員がトークンを米ドルに交換することを決定した場合、Tetherが保持する予備は需要を満たし、USDtの価値の損失を防ぐのに十分であるべきです。
+With this in mind, when you acquire USDt, it's not a freshly minted issuance. Rather, at a prior point, the exchange swapped USD for USDt, which you're now acquiring from the exchange. As time progresses and more users purchase USDt, the exchange's reserves dwindle while its USD holdings expand. This prompts the exchange to once again communicate with Tether to generate additional USDt in exchange for USD.
 
-しかし、すべてのステーブルコインが同じように作られているわけではないことに注意する価値があります。一部は機能の観点から異なる方法で運用される一方で、他のものは異なるレベルの担保化や分散化を持ち、価値の保存としての安定性と信頼性に影響を与える可能性があります。にもかかわらず、それらはすべて同じ結果を達成しようとしています：安定した価格。
+This system of "backing" stablecoins with a reserve of assets is designed to provide stability and confidence to users, as it ensures that the stablecoin's value is tied to a tangible asset. In the event that everyone holding USDt decides to exchange their tokens for US dollars, the reserves held by Tether should be sufficient to cover the demand and prevent a loss in the value of the USDt.
 
-これらの機関のほとんどは、信頼できることを保証するために厳格に規制され監査されていますが、この中央集権的なアプローチは潜在的なリスクをもたらします。
+Now, it is worth noting that not all stablecoins are created equal. Some, from a functionality standpoint, operate differently, whereas others may have different levels of collateralization or decentralisation, which can impact their stability and reliability as a store of value. Regardless, they’re all trying to achieve the same result: a stable price.
 
-例えば、これらのステーブルコインは中央集権的な発行者だけでなく、予備に保持されている通貨を管理する金融機関にも依存しているため、これらのエンティティのいずれかが失敗した場合、ステーブルコインの価値の低下と発行者への公衆の信頼の喪失が起こる可能性があります。
+Although most of these institutions are heavily regulated and audited to ensure that they are trustworthy, this centralised approach does pose a potential risk.
 
-USDtに次いで2番目に人気のあるステーブルコインであるUSDCを考えてみましょう。2023年3月にシリコンバレーバンクが[崩壊](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank)したとき、USDCは一時的にUSDとの1:1のペッグを失い、[0.88ドル](https://www.coingecko.com/en/coins/usd-coin)まで取引されました。これは、価格が安定していることを意味するものにとっては、一晩で12%の購買力の損失であり、懸念されます。
-この価格の下落の背後にある理由は、USDCの発行者であるCircleが、その予備の一部をシリコンバレーバンクに保持していたためです。その結果、人々が気づき始めると、Circleがすべての償還要求を満たすことができないのではないかという恐れから、彼らはUSDCの保有を売り始めました。幸いなことに、連邦準備制度と連邦預金保険公社（FDIC）が介入し、銀行のすべての預金を保証しました。これにより、Circleは予備を失うことはなく、USDCはすぐに1ドルに回復しました。しかし、状況は容易に逆転し、USDCは過去の遺物となる可能性がありました。これを念頭に置いて、投資または取引を選択する前に、利用可能な異なるステーブルコインについて調査することが重要です。
+For instance, as these stablecoins rely on not only a centralised issuer but also financial institutions to manage the currency held in reserves, if any of these entities were to fail, there is the potential for a decline in the value of the stablecoin and the publics loss in confidence in the issuer.
 
-これらの欠点にもかかわらず、信頼できるステーブルコインの大多数は法定通貨で裏打ちされています。TetherのUSDtのようなトークンはこの裏打ち方法を使用し、定期的に50億ドル以上を動かしています。
-それでは、次のタイプのステーブルコインについて見ていきましょう…
+Consider USDC, the second most popular stablecoin after USDt. When Silicon Valley Bank [collapsed](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) in March 2023, USDC temporarily lost its 1:1 peg to the USD and traded as low as [\$0.88](https://www.coingecko.com/en/coins/usd-coin). That's a 12% loss of purchasing power overnight, which is concerning for something meant to be stable in price.
+The reason behind this drop in price was that Circle, the issuer of USDC, had kept a portion of its reserves at Silicon Valley Bank. As a result, when people caught on, they began to sell their USDC holdings out of fear that Circle would be unable to honour all redemption requests. Luckily for Circle, the Federal Reserve and the Federal Deposit Insurance Corporation (FDIC) intervened and guaranteed all the bank's deposits. This meant that Circle would not lose its reserves, and USDC quickly recovered to \$1. However, it could have easily gone the other way, leaving USDC a relic of the past. With this in mind, it's important to research the different stablecoins available before choosing to invest or trade.
 
-### 商品担保
+Despite these shortcomings, the majority of trusted stablecoins are fiat-backed. Tokens like Tether’s USDt use this backing method and regularly move \$5 billion or more daily.
 
-フィアット（法定通貨）担保ステーブルコインと同様に、商品担保ステーブルコインは、物理的な世界で価値があるとみなされる有形資産をデジタル世界に持ち込むことを可能にします。
+Let's now take a look at the next type of stablecoin…
 
-しかし、政府発行の通貨を担保とするフィアット担保ステーブルコインとは異なり、商品担保ステーブルコインは、貴金属、株式、あるいは不動産などの資産を使用します。
+### Commodity-Backed
 
-商品担保ステーブルコインの場合、発行者は通常、金融機関と協力して、物理資産を取得し、これらの資産に相当する価値のステーブルコインを発行しながら、それらを準備金として保持します。その後、ステーブルコインの所有者は、基礎となる物理資産を直接扱うことなく、トークンを取引することができますし、場合によっては、必要に応じてトークンを物理的な商品と交換することもできます。
+Just like fiat-backed stablecoins, commodity-backed stablecoins enable tangible assets deemed of value in the physical world to enter the digital world.
 
-[Tether Gold](https://gold.tether.to/) (XAUt) は、Tetherが発行するトークン一つにつき一トロイオンスの純金を保有する、商品担保ステーブルコインの一例です。これにより、その価格は基礎となる商品、この場合は金の価格と同期して動くことが保証されます。
+However, unlike fiat-backed stablecoins, which rely on government-issued currencies as their backing, commodity-backed stablecoins use assets such as precious metals, stocks, or even real estate.
 
-XAUtについて興味深い点は、トークン保有者が会社の金保有量を追跡して透明性を確保できること、不正行為を最小限に抑えることができることです。さらに、いつでもトークンを金と交換することができ、追加のセキュリティと柔軟性を提供します。
+In the case of a commodity-backed stablecoin, the issuer, typically in collaboration with a financial institution, would acquire physical assets, holding them as reserves while issuing stablecoins equivalent in value to these assets. The stablecoin owner can then trade their tokens without needing to handle the underlying physical asset or, in some cases, exchange their tokens for the physical commodity if needed.
 
-これを踏まえると、増加した相手方リスクと引き換えに、XAUtは物理金に対していくつかの利点を提供します。
+[Tether Gold](https://gold.tether.to/) (XAUt) is an example of a commodity-backed stablecoin whereby Tether holds one troy fine ounce of gold for each token issued. This ensures its price moves in sync with the price of the underlying commodity, in this case… gold.
 
-まず、XAUtはデジタルであり、デジタルウォレットで簡単に取引および保管できるため、金への投資をより便利でアクセスしやすいものにします。これにより、物理金に関連する物理的な保管や輸送コストが不要になります。
+What is interesting to note about XAUt is that token holders can track the company's gold holdings to ensure transparency, minimising any misconduct. Moreover, they can redeem their tokens for gold at any time, providing additional security and flexibility.
 
-次に、分割所有を可能にし、投資家がより少ない量の金を購入しやすくします。
+In light of this, in exchange for increased counterparty risk, XAUt offers several benefits over physical gold.
 
-**なぜこれを望むか？** 物理的な世界では、1900ドルで一オンスの金を購入することは多くの人にとって手が届かないかもしれません。しかし、トークンを分割することで、1/1000オンスの金が手に入るようになります。デジタルの領域では、金塵の一部を主張することが可能になります—これは物理的な領域では実現不可能なことです。
+First, XAUt provides a more convenient and accessible way to invest in gold, as it is digital and can be easily traded and stored in digital wallets. This eliminates the need for physical storage and transportation costs associated with physical gold.
 
-最後に、XAUtは物理金よりもしばしば流動性が高く、必要に応じて迅速に保有物を現金やビットコインに変換できることを意味します。
+Second, it allows for fractional ownership, making it easier for investors to purchase smaller amounts of gold.
 
-しかし、フィアット担保ステーブルコインと同様に、商品担保ステーブルコインも中央集権的な機関に依存して運営されるため、同じ弱点にさらされます。さらに、金や不動産などの物理的な商品はスペースを必要とするため、これらのステーブルコインは保管コストを考慮する必要があります。したがって、サービスのために小額の手数料を支払うことを期待するべきです。
+**Why might one want this?** In the physical world, buying a whole ounce of gold for \$1900 would be out of reach for many. But 1/1000th of an ounce of gold is now achievable through fractionalising the tokens. In the digital realm, a claim to a spec of gold dust is achievable— something infeasible in the physical realm.
 
-それでは、ステーブルコインの第三の形態を見てみましょう...
+Lastly, XAUt is often more liquid than physical gold, which means it can be easily converted into fiat or bitcoin, enabling investors to quickly liquidate their holdings if needed.
 
-### アルゴリズミック
+However, just like fiat-backed stablecoins, commodity-backed stablecoins rely on a centralised institution for their operations, which makes them vulnerable to the same weaknesses. Additionally, these stablecoins have to factor in storage costs since physical commodities such as gold and real estate take up space. Therefore, you should expect to pay a small fee for the service.
 
-アルゴリズミックステーブルコインは、私たちが議論する最後のタイプのステーブルコインであり、他のものと同様に、安定した価値を維持するように設計されています。
+Let's now have a look at the third form of stablecoin...
 
-物理資産によって裏打ちされる他のステーブルコインとは異なり、アルゴリズミックステーブルコインは、価格の安定性を維持するために需要に対する供給を調整するために、しばしば資産と組み合わせて、数学的な公式やアルゴリズムを使用します。
+### Algorithmic
 
-アルゴリズムという用語に馴染みがない方のために、アルゴリズムを単に一連の規則と考えることができます。これは混乱するかもしれませんので、リベース方法と呼ばれる一種のアルゴリズミック安定メカニズムを例に見てみましょう。
-新しいアルゴリズム安定コイン「AlgoCoin」をリリースしたとしましょう。これは、1ドルの価格を保証するためにリベース方法を使用します。このシナリオでは、AlgoCoinは自動的にトークンの供給量を調整して安定した価格を維持します。これは、トークンの価格変動に基づいてトークンの供給量を増減させることによって達成されます。
-もしAlgoCoinの価格が1ドルを超えた場合、アルゴリズムはトークンの供給量を増やし、各トークンの価格を効果的に下げます。逆に、AlgoCoinの価格が1ドルを下回った場合、プロトコルは何らかの方法でトークンの供給量を減らして各トークンの価格を上げることができます。
+An algorithmic stablecoin is the final type of stablecoin we'll discuss and, just like the others, is designed to maintain a stable value.
 
-この方法により、市場の需要の変動があっても、AlgoCoinの価格が時間とともに安定することが保証されます。
+Unlike other stablecoins backed by physical assets, algorithmic stablecoins use mathematical formulas or algorithms—often in conjunction with some assets—to regulate their supply in relation to demand to maintain price stability.
 
-重要な点として、例えば市場価格で自動的に購入するか、手数料や保管コストで一部の供給を破壊することによって、トークンの流通供給量を減らすことは、その有用性とそれによる需要を損なわずに行うことは、思われるほど簡単ではありません。アルゴリズム安定コインが価格安定を維持するために複雑なルールセットに依存している場合、これは技術的および財務的な脆弱性にさらされやすくなります。これは、この分野に精通している人なら定期的に利用されていることを知っています。
+For those unfamiliar with the term algorithm, you can think of an algorithm as simply a set of rules to be followed. This may sound confusing, so let's look at one type of algorithmic stability mechanism, called the rebase method, as an example.
 
-2022年5月、いくつかのトレーダーがTerraUSD（UST）という主要なアルゴリズム安定コインの脆弱性を悪用しました。その結果、USTの価値は1か月以内に187億ドルから1億ドル未満に急落し、[99.5%](https://www.coingecko.com/en/coins/terraclassicusd)の驚異的な減少を記録しました。
+Let's say we release a new algorithmic stablecoin called AlgoCoin that uses the rebase method to ensure a price of \$1. In such a scenario, AlgoCoin would automatically adjust the supply of tokens to maintain a stable price. This would be achieved by increasing or decreasing the supply of tokens based on the price change of the token.
 
-これを踏まえると、アルゴリズム安定コインはデジタル世界での安定した価値についての考え方を革命的に変える可能性があると注目されていますが、まだ比較的新しい概念であり、バグや脆弱性に悩まされていることを覚えておくことが重要です。物理的な資産に部分的にしか、あるいは全く裏付けられていない場合があり、開発者やコーディング、そして繊細な金融エンジニアリングの試みに大きく依存しているため、アルゴリズム安定コインを使用する前に慎重に調査し、注意を払うことをお勧めします。
+If the price of AlgoCoin were above \$1, the algorithm would increase the supply of tokens, effectively reducing the price of each token. Conversely, if the price of AlgoCoin was below \$1, the protocol could somehow decrease the supply of tokens to increase the price of each token.
 
-結論として、安定コインは伝統的な世界とビットコインの間の橋渡しを提供し、主権と実用性の間で異なるトレードオフを可能にします。フィアット通貨、貴金属、またはアルゴリズムに裏打ちされた3つの主要なタイプの安定コインがありますが、フィアット裏付けの安定コインが最も人気があります。
+This method would ensure that the price of AlgoCoin remains stable over time while still allowing for fluctuations in market demand.
 
-安定コインはその「安定した」性質からしばしば安全と考えられていますが、完全にリスクフリーではないことを覚えておくことが重要です。安定コインは中央集権的な発行者（例えば、Tether）や金融機関に依存しているため、損失の可能性があります。これらのリスクを軽減するためには、投資する前に異なる安定コインを徹底的に調査することが重要です。そうすることで、情報に基づいた決定を下し、予期せぬ損失の可能性を最小限に抑えることができます。
+Now, it's important to note that reducing the circulating supply of a token, for example, by buying it automatically at market price or by destroying some supply with fees or storage costs, all without hurting its utility and thus its demand, is not as trivial as it may seem. When algorithmic stablecoins rely on complex rulesets to maintain their price stability, this makes them prone to technical and financial vulnerabilities. Which, if you follow the space, are taken advantage of regularly.
 
-## Tetherの安定コインオファリングの利点
+In May 2022, some traders exploited a vulnerability in TerraUSD (UST), one of the major algorithmic stablecoins. As a result, UST's value plummeted from \$18.7 billion to under \$100 million within a month, representing a staggering [99.5%](https://www.coingecko.com/en/coins/terraclassicusd) decline.
+
+With this in mind, while algorithmic stablecoins have gained attention for their potential to revolutionise the way we think about stable value in the digital world, it is important to note that they are still a relatively new concept and have been prone to bugs and vulnerabilities. As they are only partially, or at times, not backed by physical assets and rely heavily on developers and coding, as well as on delicate attempts at financial engineering, we recommend exercising caution and thoroughly researching before using any algorithmic stablecoins.
+
+In conclusion, stablecoins offer a bridge between the traditional world and Bitcoin, enabling different tradeoffs between sovereignty and practicality. While there are three primary types of stablecoins—ones backed by fiat currency, precious metals, or algorithms—fiat-backed stablecoins are by far the most popular.
+
+While stablecoins are often considered safe due to their “stable” nature, it's important to remember that they are not entirely risk-free. Since stablecoins rely on centralised issuers, i.e., Tether, and financial institutions, there is a potential for loss. To mitigate these risks, it is crucial to thoroughly research different stablecoins before investing. By doing so, you can make informed decisions and minimise the potential for unexpected losses.
+
+## Advantages of Tether’s Stablecoin Offerings
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
-アダンナという若い女性に会いましょう。彼女はアフリカの農村部に住んでおり、過去70年間で購買力が[99.5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization)も失われたCFAフランが唯一の通貨であり、貯蓄が不可能です。
-アダンナは常に自分のお金をコントロールするという考えに魅了されていましたが、それは最近まで不可能な夢でした。彼女が使用している通貨は、人々の最善の利益を心に留めていないことを示した個人によって監視されており、彼女の田舎の場所は銀行サービスへのアクセスを制限しています。その結果、アダンナは物理的な現金に頼るしかなく、盗難や紛失のリスクに加えて、購買力の低下にもさらされています。
-しかし、それはすべて変わることになります。
+Meet Adanna, a young woman living in a rural African village where the CFA Franc, which has lost a staggering [99.5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) of its purchasing power over the last 70 years, is the only currency available— making saving, an impossibility.
 
-ある日、友人が彼女にBitcoinとUSDtを紹介しました。これらの新しいデジタル通貨は、従来の銀行システムとは独立して運営されています。アダンナはBitcoinのメリットを認識していますが、その変動性は障壁となります。彼女の控えめな貯蓄と直面している即時の財政的な課題を考えると、現在のところ実現可能なオプションではありません。しかし、USDtを使うことで、彼女はUSドルで取引できるだけでなく、自分のお金を自己管理し、基本的なインターネット接続を使って銀行支店を訪れることなく、どこでも誰とでも取引ができることを学びました。
+Adanna has always been intrigued by the idea of having control over her money, but it has remained an impossible dream until recently. The currency she uses is overseen by individuals who have shown not to have their people's best interests at heart, and her rural location limits her access to banking services. Consequently, Adanna has no choice but to rely on physical cash, leaving her vulnerable to theft and loss in addition to deterioration in purchasing power.
 
-これはアダンナにとってゲームチェンジャーです。資金を安全に保管しアクセスできる能力を持つことで、彼女はもはや現金を持ち歩くことに伴うリスクや過度の通貨価値の下落を心配する必要がありません。そしてもっと重要なことに、彼女は今、オンラインで購入したり、アフリカの他の地域にいる家族にお金を送ったりすることができます。これは、従来の銀行業務の面倒を扱うことなく行えます。
+But that is all to change.
 
-USDtの可能性をさらに探求するにつれて、アダンナはこの技術が同様の状況にある人々の生活を変える可能性があることに気づきます。USDtを使えば、多くの人にとって手の届かなかった財政的自由と安全を誰もが手に入れることができます。
+One day, a friend introduced her to Bitcoin and USDt, these new digital currencies operating independently of traditional banking systems. While Adanna recognises the merits of Bitcoin, its volatility poses a hurdle. Given her modest savings and immediate financial challenges, it's not presently a feasible option for her. However, with USDt, she learns that she can not only transact in US dollars, a far more stable currency, but she can self-custody her money and, with a basic internet connection, can transact with anyone anywhere without ever needing to visit a bank branch.
 
-これらはUSDtのようなステーブルコインに関連する数多くの利点のうちの2つに過ぎません：
+This is a game-changer for Adanna. With the ability to securely store and access her funds, she no longer has to worry about the risks associated with carrying cash or excessive currency devaluation. And more importantly, she can now make purchases online and send money to family members in other parts of Africa without dealing with the hassles of traditional banking.
 
-1. **財政的選択：** ステーブルコインは、信頼できる銀行サービスへのアクセスが限られている田舎の地域に住むアダンナのような個人にとって、人生を変える機会を提供します。基本的なインターネット接続を使って、個人はステーブルコインを使用して自分の選択した通貨、例えばUSドルにアクセスし、急速に悪化する地元の通貨から脱出することができます。これは、通貨の不安定さを心配することなく、彼らが自分のお金をよりコントロールできることを意味します。
-2. **銀行口座を持たない人々への銀行業務：** ステーブルコインは、遠隔地に住んでいる人々や従来の銀行口座を開設することが困難な人々を含む、銀行口座を持たない人口にとって必要な解決策を提供します。デジタル通貨へのアクセスを可能にすることで、ステーブルコインはデジタルかつグローバルに取引するための便利で効率的な方法を提供し、以前はそのような機会を持たなかった個人を力づけます。
-   したがって、Tetherのステーブルコインの出現以来、私たちに与えられた他の機会を見てみましょう。
+As she continues to explore the possibilities of USDt, Adanna realises that this technology can potentially transform people's lives in similar situations. With USDt, everyone has access to financial freedom and security that has predominately been out of reach for so many.
 
-#### 海外送金
+These are but two of the numerous benefits associated with stablecoins, like USDt:
 
-一瞬、あなたがトンガで生まれ育ったと想像してみてください。しかし、あなたが故郷を愛しているにもかかわらず、若い頃に地元のコミュニティでの仕事の機会が限られていることに気づきます。そこで、あなたは引っ越しを決め、より多くの仕事の機会がある国に移動することにします。そうすることで、あなたは今、給料の一部を家に送ることで家族をよりよくサポートすることができます。
-このシナリオが非現実的に思えるかもしれませんが、実際には世界中の何十億もの人々、特にトンガの人々にとっては現実です。2021年時点で、送金―愛する人への支援のためにお金を送る行為―は、トンガの国内総生産（GDP）の驚異的な[45.5%](https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.)を占めています。
-おそらく疑問に思うでしょう：ここでの問題は何ですか？
+1. **Financial Choice:** Stablecoins offer a life-changing opportunity for individuals like Adanna who live in rural areas with limited access to reliable banking services. With a basic internet connection, individuals can use stablecoins to access currencies of their choice, such as the US dollar, and escape their quickly deteriorating local currency. This means they can have more control over their money without ever having to worry about currency instability.
+2. **Banking the Unbanked:** Stablecoins provide a necessary solution for the unbanked population, including those residing in remote areas or facing difficulties opening traditional bank accounts. By enabling access to digital currencies, stablecoins offer a convenient and efficient way of transacting digitally and globally, empowering individuals who previously lacked such opportunities.
+   Therefore, let's look at some of the other opportunities awarded to us since the emergence of Tether’s stablecoins.
 
-ウェスタンユニオンのような送金サービスを通じて海外にお金を送ることは無料ではありません。それには費用がかかり、少しではなく、かなりの額です。
+#### Remittances
 
-トンガに100米ドルを送ると、[12.61米ドル](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)の費用がかかり、さらに不利な為替レートにより8.60米ドルの損失が生じます。これは送られた総額の21%以上がウェスタンユニオンという多国籍企業に渡ってしまうことを意味します。その結果、トンガの家族に渡るはずだったかなりの額が、送金サービス提供者のポケットに入ってしまいます。
-収入に21%もの追加があったらどれほど有益か想像できますか？
+Imagine for a second that you were born and raised in Tonga. But as much as you love your home country, at an early age, you realise that there are limited job opportunities in your local community. So, as soon as you move out, you decide to leave Tonga and move to a nation with a greater job opportunity pool. In doing so, you can now better support your family when sending a portion of your paycheque home.
 
-さらに、2021年のトンガのGDPが[4億6900万](https://tradingeconomics.com/tonga/gdp)ドルであり、その45.5%が送金からのものであることを考えると、送金にかかる法外な手数料はトンガが追加で4520万ドルを失っていることを意味します。これらの手数料がなければ、GDPの9.6%増加に相当する額です。
+While this scenario may seem improbable, it is, in fact, a reality for billions around the world, especially those in Tonga. As of 2021, remittances—the act of sending money back to loved ones for support—accounted for an astonishing [45.5%](https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.) of Tonga's gross domestic product (GDP).
 
-そして、トンガだけがこの状況にあると思ったら、もう一度考えてみてください。
+You're probably wondering: What's the problem here?
 
-以下は、ウェスタンユニオンが100米ドルをいくつかの主要国に送金する際に[請求する](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)手数料のサンプルです：
+To send money back overseas through a money transfer service such as Western Union is not free. It costs money, and not just a little, a significant amount.
 
-- **中国：**21.21ドルの手数料 + 2.60ドルの為替レート損失（23.81%の損失）
-- **カナダ、USA、メキシコ：**16.86ドルの手数料 + 1.20ドルの為替レート損失（18.06%の損失）
-- **英国、アルバニア、ボスニア、セルビア、スロベニア：**17.92ドルの手数料 + 3.10ドルの為替レート損失（21.02%の損失）
-- **オセアニアおよび東南アジア：**12.61ドルの手数料 + 8.60ドルの為替レート損失（21.21%の損失）
-これは、主要な米国企業の手に渡る驚くべき額のお金です。そして、ここでUSDtが登場します。彼らは高額な送金手数料の問題に対する解決策を提供します。
+Sending \$100 US back to Tonga incurs a cost of [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus an additional loss of \$8.60 due to the unfavourable exchange rate. This means more than 21% of the total amount sent goes to Western Union, a multinational corporation. As a result, a considerable sum that could have been in the hands of deserving Tongan families ends up in the pockets of the money transfer service provider.
+Can you imagine the benefits of having an extra 21% added to your income?
 
-従来の送金サービスとは異なり、USDtは取引の目的でブロックチェーンのレール上を移動するデジタル通貨です。銀行や送金サービスなどの仲介者が不要なため、手数料は大幅に低くなります。さらに、取引は公開されたブロックチェーン上で実行されるため、より大きな透明性とプライバシーが保証されます。これは、個人が他国の愛する人にほぼ瞬時に、安全に、そしてはるかに低いコストでお金を送ることができることを意味します。
-例えば、EthereumやTronのブロックチェーンを主に利用しているUSDtは、過去1年間にそれぞれ平均で[\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.)と[\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions)の取引手数料がかかっていますが、送金額に関係なく手数料は同じです— \$5を送ろうが\$10,000を送ろうが手数料は変わりません。そして現在、開発者たちはBitcoinのLightningネットワーク上に構築された[stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/)に取り組んでおり、その手数料は約[\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption)になると見込まれています。
+Furthermore, considering that Tonga's GDP was [\$469](https://tradingeconomics.com/tonga/gdp) million in 2021, and 45.5% of it comes from remittances, the exorbitant fees charged for sending money back home means that Tonga is missing out on an additional \$45.2 million. This amount would translate into a 9.6% increase in GDP if it weren't for these fees.
 
-USDtを使用することで、トンガ人を含む海外送金を行う全ての人々が、送金額の大部分を家族に送ることができ、これにより彼らの生活の質が大幅に向上し、国の経済発展に貢献することができます。
+And if you thought Tonga was alone in this, guess again.
 
-Tetherのステーブルコインが不安定な状況にある人々に安定性を提供する方法を見てみましょう。
+Here is a sample of how much Western Union [charges](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) for sending \$100 US dollars to some other prominent nations:
 
-#### 安定性
+- **China:** \$21.21 fee + \$2.60 exchange rate loss (23.81% loss)
+- **Canada, USA, Mexico:** \$16.86 fee + \$1.20 exchange rate loss (18.06% loss)
+- **UK, Albania, Bosnia, Serbia, Slovenia:** \$17.92 fee + \$3.10 exchange rate loss (21.02% loss)
+- **Oceania and Southeast Asia:** \$12.61 fee + \$8.60 exchange rate loss (21.21% loss)
+  This is a staggering amount of money that is now in the hands of major US corporations. And this is where USDt comes in, as they provide a solution to the issue of high remittance fees.
 
-アダンナの話が示したように、インフレは世界中の無数の個人にとって痛みを伴う現実です。特に経済が不安定な国に住む人々にとってはそうです。しかし、かつては発展途上国だけの問題だった大幅なインフレが、過去2年間で[37の先進経済国のうち44](https://www.weforum.org/agenda/2022/06/inflation-stats-usa-and-world/)でインフレ率が2倍になりました。つまり、2022年10月時点で[81](https://www.visualcapitalist.com/mapped-which-countries-have-the-highest-inflation/)の国が二桁のインフレを報告しています。これは、インフレを報告している国のほぼ半数に相当します！
+Unlike traditional money transfer services, USDt is a digital currency that, for the purpose of transacting, moves upon the rails of blockchain. Since it does not require intermediaries such as banks or money transfer services, the fees are significantly lower. Additionally, as transactions are executed on a public blockchain, this ensures greater transparency as well as privacy. This means individuals can send money to their loved ones in other countries almost instantly, securely, and at a far lower cost.
 
-二桁のインフレの影響を示すために、2022年10月のヨーロッパで経験した10%のインフレ率は、10年間で61.5%の購買力の損失を意味します。
+For example, USDt, which operates primarily on the Ethereum and Tron blockchains, has averaged [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) and [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) transaction fees, respectively, over the last year, regardless of the amount sent— the fee remains the same whether sending \$5 or \$10,000. And as we speak, developers are working on [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) built on Bitcoin's Lightning network, which would see fees of around [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+
+With USDt, Tongans, as well as all others who send money back to their families, can receive far more of their remittances, which can significantly improve their quality of life and contribute to the economic development of their country.
+
+Let's look at how Tether’s stablecoin offerings offer stability to those living in unstable situations.
+
+#### Stability
+
+As Adanna's story demonstrated, inflation is a painful reality for countless individuals worldwide, particularly those residing in nations with unstable economies. However, while significant inflation was once only a problem in developing nations, over the last two years, inflation rates have doubled in [37 out of 44](https://www.weforum.org/agenda/2022/06/inflation-stats-usa-and-world/) advanced economies. That means, as of October 2022, [81](https://www.visualcapitalist.com/mapped-which-countries-have-the-highest-inflation/) countries are now reporting double-digit inflation. That's nearly half of all inflation-reporting countries!
+
+To illustrate the effect of double-digit inflation, a 10% inflation rate, as experienced by Europe in October 2022, would mean a 61.5% loss of purchasing power over ten years.
 
 ![image](assets/3.webp)
 
-_**図:** 購買力に対するインフレの影響 [Power](https://anilsaidso.gumroad.com/)_
+_**Figure:** Inflations Effect On Purchasing [Power](https://anilsaidso.gumroad.com/)_
 
-インフレは、日常の商品やサービスのコストが上昇する中で何百万人もの人々が生活を維持するのに苦労するだけでなく、彼らの購買力を侵食し、将来のためにお金を貯めることがますます困難になります。さらに、低所得家庭、固定収入の退職者、金融サービスへのアクセスが限られている個人など、最も脆弱な人々に最も大きな打撃を与えることが多いです。
+Inflation not only leaves millions struggling to keep up with the rising costs of everyday goods and services, but it also erodes their purchasing power, making it increasingly difficult to save money for the future. Moreover, it often hits the most vulnerable the hardest, including low-income families, retirees on fixed incomes, and individuals with limited access to financial services.
 
-ここで再び、Tetherのステーブルコインが大きな違いを生むことができます。
+Once again, this is where Tether’s stablecoin offerings can make a significant difference.
 
-彼らのステーブルコインは、米ドルや金などの基礎資産の価値に連動しているため、暴走するインフレを経験している他の通貨と比較して価格が比較的安定しています。その結果、不安定な通貨を持つ国に住む人々にとって実行可能な代替手段を提供します。これらの個人が自国通貨と同じインフレ率の影響を受けない通貨にお金を移す方法を提供し、インフレによる購買力の侵食から自分たちを守り、貯蓄の価値を維持するのに役立ちます。
+As their stablecoins are pegged to the value of an underlying asset, such as the US dollar or gold, their price is relatively stable compared to other currencies experiencing rampant inflation. As a result, they offer a viable alternative for people living in countries with unstable currencies. They provide these individuals with a way to move their money into a currency that is not subject to the same inflation rates as their local currency. This can help them maintain the value of their savings and protect themselves from the erosion of purchasing power caused by inflation.
 
-しかし、これは次の疑問を投げかけます：米国のような通貨が高いインフレを経験している場合はどうでしょうか？
-USDにペッグされたUSDtに加えて、Tetherは金に裏打ちされたXAUtを提供しており、高インフレ率から逃れようとする人々にさらに強固な代替手段を提供しています。金はその希少性と価格の安定性のおかげで、何世紀にもわたって信頼される価値の保存手段とされてきました。しかし、最近まで金をデジタル決済の手段として使用することはできませんでした。金に裏打ちされたXAUtは、物理的な所有を必要とせずに金で取引を行う方法を提供することで、この問題を解決します。その結果、人々は自国の通貨やUSDが高インフレを経験しているかどうかにかかわらず、購買力を守ることができます。
+However, this begs the question: What about when currencies like the US are experiencing elevated inflation?
 
-あなたは言うかもしれませんが、90年代のe-goldはどうでしょうか？
+On top of USDt pegged to the USD, Tether offers XAUt—backed by gold—offering an even more robust alternative for people looking to escape high inflation rates.
 
-まず、eGoldの運用と予備構造は非常に中央集権的であり、XAUtのような現代のステーブルコインの透明性に欠けていました。その結果、eGoldトークンを支える真の金の裏付けについて疑問が生じました。
+Gold has been a trusted store of value for centuries, thanks to its scarcity and price stability. However, until recently, it was not possible to use gold as a means of digital payment. XAUt, backed by gold, solves this problem by providing a method of transacting in gold without the need for physical ownership. As a result, people can protect their purchasing power regardless of whether it's their currency or the USD experiencing high inflation.
 
-次に、eGoldは暗号通貨市場がかなり未発達だった時期に登場しました。その結果、広く認知されることに苦労しました。これらの課題が組み合わさり、eGoldは重大な規制上の障壁や法的な問題に直面し、最終的にその失敗に至りました。
+You may say: But what about e-gold in the 90's?
 
-対照的に、XAUtのような製品はこれらの障壁を克服しており、強化された暗号通貨規制の枠組み、過去の失敗から得られた知恵、そして高まった透明性へのコミットメントから恩恵を受けています。
+First, eGold's operational and reserve structures were highly centralised and lacked the transparency of modern stablecoins like XAUt. Consequently, doubts emerged regarding the genuine gold backing supporting eGold tokens.
 
-これにより、インフレや経済的不確実性の時期に富を守りたい人々にとって、金に裏打ちされたステーブルコインは安全で信頼性の高いオプションとなります。
+Second, eGold made its debut during a period when the cryptocurrency market was considerably less developed. Consequently, it grappled with achieving widespread recognition. These combined challenges resulted in eGold encountering significant regulatory obstacles and legal complications, ultimately leading to its downfall.
 
-最終的に、ステーブルコインは不安定さや高インフレを抱える国に住む人々にとって魅力的な解決策を提供します。より安定した通貨へのアクセスを提供することや、金での取引を可能にすることにより、ステーブルコインは人々が貯蓄の価値を守り、インフレの悪影響から逃れる手段を提供します。ステーブルコインの利点をより多くの人が認識するにつれて、不確実な世界での財政的安定を提供する手段として、その人気はおそらく続くでしょう。
+In contrast, products like XAUt have since surmounted these obstacles, benefiting from enhanced cryptocurrency regulatory frameworks, the wisdom gained from past failures, and a commitment to heightened transparency.
 
-#### 改善された使いやすさ
+This makes gold-backed stablecoins a safe and reliable option for those looking to protect their wealth from inflation or during periods of economic uncertainty.
 
-ここまで触れてきたことから、あなたはステーブルコインが伝統的な通貨よりも使いやすさを増していることを理解し始めている気がするでしょう。しかし、確認するためにもう少し詳しく見ていきましょう。
-Tetherのステーブルコインの提供は、伝統的な法定通貨が単に匹敵できない使いやすさを提供することで、金融の世界を革命的に変えました。
+Ultimately, stablecoins offer a compelling solution for people living in countries with instability or high inflation. By providing access to currencies that are more stable or by allowing for transactions in gold, stablecoins offer a way for people to protect the value of their savings and escape from the negative effects of inflation. As more people become aware of the benefits of stablecoins, their popularity will likely continue to grow as a means of providing financial stability in an uncertain world.
 
-使いやすさが増したとは具体的に何を意味するのでしょうか？いくつかの主要な利点を掘り下げて、なぜ彼らのステーブルコインの利用が急速に増えているのかを探ってみましょう。
+#### Improved Usability
 
-まず第一に、**セルフカストディ**により、中央集権的な銀行サービスに頼ることなく、私たち自身のお金を所有することができます。これは、私たちが資金を完全にコントロールし、必要なときにいつでもアクセスできることを意味します。中間者が必要なく、銀行が取引をクリアするのを待つ必要もなく、理由もなくアカウントが凍結される心配もありません。ステーブルコインを使えば、私たちは自分たちのことを管理できます。ただし、セルフカストディを取ることで中央集権的な監視を完全に取り除いたわけではありません。Tetherを含むほとんどのステーブルコインは、EthereumやTronのような中央集権的なブロックチェーン上に構築された中央集権的な企業によって発行されています。したがって、これらの企業やシステムに一定レベルの信頼を置いています。
+Given everything we have touched on so far, I have a feeling you’re starting to grasp how stablecoins offer increased usability over traditional currencies. But to make sure, let's beat the drum a little more.
+Tether’s stablecoin offerings have revolutionised the world of finance by offering a level of usability that traditional fiat currencies simply cannot match.
 
-次に、USDtやXAUtのようなステーブルコインが**デジタルな性質**を持っているため、24時間365日、デジタルで取引ができます。もう銀行の営業時間や異なるタイムゾーンによる遅延を心配する必要はありません。ステーブルコインを使えば、世界中のどこにいても、私たちに都合の良いときに取引ができます。
-上述の通り、Tetherのステーブルコインが提供するもう一つの大きな利点は、手数料の削減です。伝統的な法定通貨とは異なり、USDtやその他のオファリングは、各取引に関わる仲介者が少ないため、私たちは購買力の大部分を保持することができます。ステーブルコインを使用すると、私たちは稼いだもののより多くを保持することができます。
+What do I mean by increased usability? Let's dive into some of the primary benefits and explore why their stablecoins uptake is growing rapidly.
 
-最終的に、ステーブルコインは**監視の軽減**を提供します。これは、私たちが自分のお金を適切だと思う場所に自由に向けることができることを意味します。伝統的な法定通貨は様々な規制や制限の対象となりますが、ステーブルコインは現金のようであり、取引に関わる仲介者がはるかに少ないことを意味します。これにより、政府の監視や煩雑な手続きを心配することなく、より簡単にお金を動かす自由が得られます。
+Firstly, **self-custody** allows us to take ownership of our money without relying on centralised banking services. This means we have complete control over our funds and can access them whenever we need to, without the need for a middleman. No more waiting for our bank to clear a transaction or worrying about our account being frozen for no reason— with stablecoins, we are in charge. That said, we haven't completely removed centralised oversight by taking self-custody. Most stablecoins, including Tether’s, are issued by centralised companies built upon centralised blockchains such as Ethereum and Tron. Therefore, we put an inherent level of trust in these companies and systems.
 
-全体として、Tetherの様々なステーブルコインは、伝統的な法定通貨では単に匹敵することのできない柔軟性と自由を提供します。自己管理、デジタル取引、手数料の削減、監視の軽減により、ますます多くの人々が安全で信頼性の高い取引や資産の保管方法としてステーブルコインに頼るようになっているのは驚くことではありません。
+Secondly, given that stablecoins, such as USDt and XAUt, are **digital in nature**, we can transact digitally, 24/7. No more fretting about bank opening hours or delays caused by different time zones— with stablecoins, we can transact whenever it suits us, from wherever we are in the world.
 
-#### ビットコインの採用拡大
+Reduced fees, as discussed above, are another major advantage of Tether’s stablecoins. Unlike traditional fiat currencies, USDt, as well as any of their other offerings, have fewer intermediaries involved in each transaction, which means we retain far more of our purchasing power— with stablecoins, we get to keep more of what we earn.
 
-最後になりますが、Tetherは伝統的な銀行業とビットコインの分散型、信頼性のない、許可不要のレールとの間の橋渡しとして機能することで、ビットコインの採用を増加させる上で重要な役割を果たしています。
+Finally, stablecoins offer **reduced oversight**, which means we have greater freedom to direct our money where we see fit. Unlike traditional fiat currencies, which are subject to all sorts of regulations and restrictions, stablecoins are cash-like, meaning far fewer intermediaries are involved in a transaction. This gives us greater freedom to move our money around more easily without having to worry about government oversight or red tape.
 
-USDtのようなステーブルコインの登場前は、ビットコインの取引は複雑でリスクが伴うプロセスでした。私たちは、自分のお金とビットコインを交換してくれる人を見つけるか、ビットコインに友好的な銀行や取引所を探さなければなりませんでした。これは、特にビットコインに敵対的な管轄区域に住んでいる場合、ビットコインの購入や販売を困難にしました。そして、取引の方法を見つけたとしても、伝統的な銀行セクターに大きく依存し、彼らが私たちのアカウントを凍結したり、ビットコインの購入や販売の能力を損なうことがないと信頼しなければなりませんでした。
+Overall, Tether’s various stablecoins offer a level of flexibility and freedom that traditional fiat currencies simply cannot match. With self-custody, digital transactions, reduced fees, and reduced oversight, it's no wonder that more and more people are turning to their stablecoins as a safe and reliable way to transact and store wealth.
 
-Tetherの様々なステーブルコインの台頭により、状況は変わりました。USDtやXAUtは、伝統的な銀行のレールとビットコインの分散型で信頼性のないレールをつなぐ、信頼できるデジタルな交換媒体を提供しています。これらのステーブルコインを使用することで、個人はビットコインの取引を容易に行うことができ、伝統的な銀行のレールに戻る必要がなくなります。これにより、ビットコインの採用が増加しています。なぜなら、人々は伝統的な金融システムによって課される障壁を心配することなく、取引を行うことができるからです。
+#### Increased Bitcoin Adoption
 
-例えば、ユーザーがビットコインを購入したい場合、取引所でUSDtを購入し、そのステーブルコインを使用して直接ビットコインを購入することができます。これにより、銀行を通じて資金を移動する必要がなくなります。また、ビットコインを売りたい場合は、それをUSDtに交換することができ、地元の通貨に戻す必要がありません。
+Last but not least, Tether is playing a vital role in increasing Bitcoin adoption by acting as a bridge between traditional banking and the decentralised, trustless and permissionless rails of Bitcoin.
 
-これを踏まえると、ステーブルコインはビットコインのような主権資産との取引方法を変えています。伝統的な銀行と分散型デジタル世界の間にシームレスで使いやすい橋を提供しています。ステーブルコインの採用がさらに進むにつれて、ステーブルコインの使い勝手とデジタルな性質を考えると、伝統的な銀行の世界に再び入る必要がないことに気づく人が増えるにつれて、ビットコインのさらなる採用を期待することができます。
+Before the advent of stablecoins, like USDt, transacting in and out of bitcoin was a complex and risky process. We had to either find someone willing to swap their bitcoin for our money or locate a Bitcoin-friendly bank or exchange. This made it challenging to purchase and sell bitcoin, especially if we lived in a jurisdiction that was hostile towards this magic internet money. And even if we found a way to transact in and out, we had to rely heavily on the traditional banking sector and trust that they wouldn't freeze our account or impair our ability to buy or sell bitcoin.
 
-結論として、Tetherのステーブルコインの提供は、日常の個人だけでなく、信頼できる銀行サービスへのアクセスが限られている遠隔地や不安定な地域に住む人々にとっても、金融の自由と安全を支援します。
-例えば、アダンナの話を取り上げてみましょう。これは、USDtが彼女のような人々が急速に悪化する地元の通貨から脱出し、通貨の不安定性やUSDtが銀行を利用できない人口にとって重要な解決策を提供し、デジタル通貨へのアクセスを可能にすることで、以前はそのような機会を持たなかった個人を力づけることができる点について心配することなく、自分のお金をよりコントロールできる方法を示しています。
-そして、それだけでは十分ではないかのように、これらのステーブルコインは伝統的な通貨の使いやすさを高めるだけでなく、送金に関連するコストを削減し、高額な手数料をかけることなく、個人が愛する人にお金を送ることを可能にします。
+With the rise of Tether’s various stablecoins, the situation has changed. USDt and XAUt now offer a reliable digital medium of exchange that connects the traditional banking rails to the decentralised and trustless rails of Bitcoin. By using these stablecoins, individuals can now transact in and out of bitcoin with ease and without having to move back onto the traditional banking rails. This has led to increased adoption of Bitcoin, as people can now transact in and out without worrying about the barriers imposed by the traditional financial system.
 
-全体として、USDtやXAUtのようなステーブルコインは、包括的で必要とされる金融サービスへのアクセスを提供することで、何十億もの人々の生活を変える可能性を持っています。
+For example, suppose a user wants to buy bitcoin. In that case, they can simply purchase USDt on an exchange and then use the stablecoin to purchase bitcoin directly, eliminating the need to transfer funds through a bank. Alternatively, if they need to sell bitcoin, they can exchange it for USDt without having to convert it back to their local currency.
 
-## 試験
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+With this in mind, stablecoins are changing how we transact with sovereign assets, like Bitcoin, by providing a seamless and easy-to-use bridge between traditional banking and the decentralised digital world. As the adoption of stablecoins continues to grow, we can expect to see even greater adoption of Bitcoin as more people realise there is no need to reenter the traditional banking world, given the usability and digital nature of stablecoins.
 
-「混沌の中の安定性」モジュールを通して学んだ後、最後のセクションを理解したことを確認するために、新しく習得した知識をテストする必要があります。いくつかの記述式の質問から始め、その後に小さなクイズを行います。
+In conclusion, Tether’s stablecoin offerings aid financial freedom and security for not only everyday individuals but also those living in remote or unstable areas with limited access to reliable banking services.
 
-1. 米ドルのような伝統的な法定通貨と比較して、法定通貨に裏打ちされたステーブルコインを使用することの利点と欠点は何ですか？
-2. 銀行サービスにアクセスできない個人にとって、USDtの潜在的な利点は何だと思いますか？
-3. ステーブルコインがインフレの負の影響から個人を保護する上での役割はどれほど重要だと思いますか？ステーブルコインは本当に不確実な世界での金融安定を提供できるのでしょうか？
-4. ステーブルコインは、発展途上国の金融包摂と経済発展にどのように貢献できると思いますか？
-5. ステーブルコイン発行者は、ステーブルコインの安定性と信頼性を確保するためにどのような措置を講じるべきだと思いますか？ステーブルコイン発行者が自社のリザーブ慣行について透明性を持ち、定期的な報告を提供することはどれほど重要だと思いますか？
+Take, for example, Adanna's story, which illustrates how USDt can help people like her escape their quickly deteriorating local currency and have more control over their money without ever having to worry about currency instability or the fact that USDt offers a crucial solution for the unbanked population, enabling access to a digital currency, which empowers individuals who previously lacked such opportunities.
 
-# 疑念の克服 - 一般的な誤解と実際の使用例の解明
+And if that wasn't enough, these stablecoins not only increase the usability of traditional currency, they help reduce the costs associated with remittances, allowing individuals to send money back to their loved ones without incurring high fees.
+
+Overall, stablecoins, like USDt and XAUt, have the potential to transform the lives of billions by offering them access to inclusive and much-needed financial services.
+
+## Exam
+<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+
+Now that you went through the Module "Stability Amidst Chaos" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
+
+1. What are the advantages and disadvantages of using fiat-backed stablecoins compared to traditional fiat currencies like the US dollar?
+2. In your opinion, what are the potential benefits of USDt for individuals who lack access to banking services?
+3. In your opinion, how significant is the role of stablecoins in protecting individuals from the negative effects of inflation? Can stablecoins truly provide financial stability in an uncertain world?
+4. How do you think stablecoins can contribute to financial inclusion and economic development in developing countries?
+5. In your opinion, what measures should stablecoin issuers take to ensure the stability and trustworthiness of their stablecoins? How important is it for stablecoin issuers to be transparent about their reserve practices and provide regular reports?
+
+# Overcoming Doubts - Debunking Common Misconceptions & Real-World Use Cases
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
-## 誤解
+## Misconceptions
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
-ビットコインは2009年の誕生以来、反発、批判、誤解に囲まれてきました。人気と採用が増すにつれて、多くの人々はそれを弾けるのを待っているバブルと考えています。同様に、ステーブルコインも同様の注意と懐疑論を引き寄せています。安定した資産に裏打ちされた通貨のアイデアは魅力的に聞こえますが、多くの人々はステーブルコインの仕組みと金融システムへの潜在的な影響を誤解しています。
+Bitcoin has been surrounded by pushback, criticism and misconceptions since its birth in 2009. Despite its growth in popularity and adoption, many still consider it a bubble waiting to burst. Along these same lines, stablecoins have attracted similar attention and scepticism. The idea of a currency backed by a stable asset sounds promising, but many people misunderstand how stablecoins work and their potential impact on the financial system.
 
-このセクションでは、ビットコインとステーブルコインを取り巻く最も一般的な誤解を探ります。これらの誤解の背後にある真実に踏み込み、最も混乱と懐疑論を引き起こしたものを明らかにします。ビットコインが実用的な通貨としては不安定すぎるという信念から、そのエネルギー使用に関する懸念に至るまで、各問題を検討することで、あなた自身の意見を形成できるようになります。この章の終わりまでに、これらの技術に関するはるかに深い理解を得て、これらの反発に正当性があるかどうかを判断できるようになるでしょう。
-ビットコインの誤解
-ビットコインを取り巻く数多くの誤解がありますが、ここでは最も顕著な9つに触れましょう：
+In this section, we will explore some of the most common misconceptions surrounding Bitcoin and stablecoins. We will delve into the truth behind these misconceptions and debunk the ones that have caused the most confusion and scepticism. From the belief that bitcoin is too volatile to be a viable currency to concerns about its energy usage, we will examine each issue so that you can form your own opinion. By the end of this chapter, you will have a much greater understanding of these technologies and whether there is legitimacy behind these pushbacks.
+Bitcoin Misconceptions
+Although numerous misconceptions surround Bitcoin, let's touch on the nine most prominent:
 
-1. ビットコインは弾けるのを待っているバブルである
-2. ビットコインは価値があるには不安定すぎる
-3. 何も裏打ちされていないため、ビットコインは価値がない
-4. ビットコインの技術はすでに時代遅れである
-5. ビットコインは効果的な交換手段としては遅すぎるし、高すぎる
-6. ビットコインは主に違法活動に使用されている
-7. 誰でもビットコインのコードを複製できるため、価値がない
-8. ビットコインはあまりにも多くのエネルギーを消費する
+1. Bitcoin is a bubble waiting to burst
+2. Bitcoin is too volatile to be of any value
+3. Bitcoin is worthless as it is not backed by anything
+4. Bitcoin’s technology is already obsolete
+5. Bitcoin is too slow and expensive to be an effective medium of exchange
+6. Bitcoin is mainly used for illegal activity
+7. Anyone can duplicate the Bitcoin code, making it worthless
+8. Bitcoin consumes too much energy
 
-さあ、掘り下げてみましょう…
+Let's dive in…
 
-誤解その一：ビットコインは弾けるのを待っているバブルである
-ビットコインは誕生以来、主流メディアで[473](https://99bitcoins.com/bitcoin-obituaries/)回（2023年3月時点）死宣告されてきましたが、それでも問題なく機能し続けています。
-これは疑問を呼びます：ビットコインについて、人々がそれが弾けるのを待っているバブルだという印象を持つのはなぜでしょうか？歴史を通じて、何かが価格で劇的な上昇を経験したとき、それは通常、この価格が持続不可能であり、しばしば投機と欲望によって煽られるため、壊滅的な崩壊を見る傾向があります。では、ビットコインを異なるものにしているのは何でしょうか？
+Misconception One: Bitcoin is a bubble waiting to burst
+Since its inception, Bitcoin has been pronounced dead in mainstream media [473](https://99bitcoins.com/bitcoin-obituaries/) times (As of March 2023), yet it continues to function flawlessly.
 
-まず、ビットコインは2100万コインという限定供給があります。これは、伝統的な法定通貨とは異なり、通貨の拡大によって価値が下落することがないことを意味します。この希少性は、ビットコインのグローバルな採用が増加するにつれて、時間をかけて価値が安定的だが不安定に増加することにつながりました。これは、価格が上昇するにつれて供給も増える他の資産とは異なります。これは、いずれ供給が需要を上回り、価格が崩壊しなければならないことを意味します。
+This begs the question: What about Bitcoin gives people the impression that it is a bubble waiting to burst?
+Throughout history, when something has experienced a monumental rise in price, it also tends to see a catastrophic collapse, as this price is unsustainable and often fueled by speculation and greed. So, what makes Bitcoin different?
 
-次に、ビットコインのコードに組み込まれている機能に、ハービングと呼ばれるものがあります。およそ4年ごとに、このイベントはマイニング報酬を半分に減らし、マイナーの名目収入に影響を与えます。ビットコインの価格が倍増しない限り、マイナーは収益の大幅な減少を経験します。この側面が、ビットコインを「価格が上がる」技術として特徴づける要因となりました。この機能は、マイナーがブロックチェーンのセキュリティを確保するための適切な報酬を受け取ることを保証するために、4年ごとに価格に上向きの圧力をかけます。結果として、私たちはおよそ4年ごとにこれらの不安定な価格変動を目撃します。
+First, bitcoin has a limited supply of 21 million coins, which means that, unlike traditional fiat currencies, it cannot be devalued by monetary expansion. This scarcity, combined with the increasing global adoption of Bitcoin, has led to a steady but volatile increase in its value over time. This is unlike any other asset, whereby as prices rise, so does supply. This means supply will overwhelm demand at some point, and prices will have to collapse.
 
-_**サイドノート:** もし財務を勉強したことがあれば、「効率的市場仮説」について聞いたことがあるかもしれません。これは、市場が合理的な行動によって完全に効率的であるという考えに基づいて構築されています。したがって、金融市場の資産価格は利用可能なすべての情報を反映しており、歴史的データや他の市場情報を分析することによって一貫して平均以上のリターンを達成することは不可能であると主張しています。_
+Second, built into Bitcoin's code is a feature called the halving. Approximately every four years, this event slashes the mining reward by half, impacting miners' nominal revenue. Unless the price of bitcoin doubles, miners experience a substantial decrease in their earnings. This aspect has led to Bitcoin being characterised as "number go up" technology, as this feature exerts upward pressure on the price every four years to ensure miners receive adequate compensation for securing the blockchain. Consequently, we witness these volatile price fluctuations approximately every four years.
 
-_しかし、この理論は市場が個人で構成されており、人間の性質は本質的に非合理的であり、感情に影響されるということを忘れています。この非合理性は、バイアス、群衆行動、認知的エラーを引き起こし、価格をその真の価値から逸脱させます。例えば、ビットコインのハービングイベントの文脈では、合理的な市場は将来の供給減少を予測し、ビットコインの現在の価格に反映させるべきです。しかし、周期的な価格の急騰は、参加者がそのような情報を考慮に入れていないことを示しています。この非合理性は、忍耐強い長期保有者にとって重要な財務的報酬を提供することが証明されています。_
+_**Side Note:** If you've studied finance, you may have heard of the "efficient market theorem," built around the idea that markets are perfectly efficient due to rational behaviour. It, therefore, posits that asset prices in financial markets reflect all available information, making it impossible to consistently achieve above-average returns by analysing historical data or other market information._
 
-第三に、ビットコインは世界の交換を革命的に変える可能性を持っています。歴史上初めて、信頼できない、許可不要、分散型の方法で取引を行う方法を手に入れました。このコースの前半で議論したように、これは比類のないものであり、先進国と発展途上国の両方に莫大な利益を提供します。
+_However, this theory forgets that markets are composed of individuals, and human nature is inherently irrational and influenced by emotions. This irrationality leads to biases, herd behaviour, and cognitive errors, causing prices to deviate from their true value. For example, in the context of Bitcoin's halving events, rational markets should anticipate and reflect future reduced supply in bitcoin's present-day price. However, the periodic price surges highlight that participants have not accounted for such information. This irrationality has proven to provide significant financial rewards to patient long-term holders._
 
-最後に、ビットコインの総市場価値は、ちょうど5500億米ドルに達しています。これは天文学的な金額のように思えるかもしれませんが、金の価値が、計算方法によっては10兆ドルから20兆ドルの範囲であることを考えると、ビットコインが金と同様の利点を提供しながら、価値で1/40しか取引されていないことを実現します。そして、他の資産を見ると、その乖離はさらに大きくなります。
+Third, Bitcoin has the potential to revolutionise global exchange. For the first time in history, we have a method of transacting in a trustless, permissionless and decentralised manner. As discussed earlier in this course, this is unparalleled and offers immense benefits to both developed and developing countries alike.
 
-- 世界の株式市場：[124.4兆ドル](https://www.sifma.org/resources/research/fact-book/)
-- 世界の固定収入/債券市場：126.9兆ドル
-- 世界の不動産市場：[326.5兆ドル](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
-- 世界のデリバティブ市場：[1京ドル](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)以上と推定
+Lastly, bitcoin's total market value is sitting just shy of \$550 billion US dollars. This may seem like an astronomical amount until you realise that gold, depending on one's calculation, is anywhere from \$10 trillion to \$20 trillion. That means that although Bitcoin offers many of the same benefits as gold, it trades at 1/40th of the value. And when we look at other assets, that divergence is even larger.
 
-全体として、人々がビットコインをバブルと呼ぶとき、彼らはその数多くの利点と使用例を理解するための研究をしていないか、またはしていません。
-2. または、ビットコインの機能や、ビットコインが時間をかけてシェアを取る可能性のある上記の資産に蓄積された総価値を誤解している。
+- Global stock market: [\$124.4 trillion](https://www.sifma.org/resources/research/fact-book/)
+- Global fixed income/bond market: \$126.9 trillion
+- Global real estate market: [\$326.5 trillion](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
+- Global derivatives market: Estimated at over [\$1 quadrillion](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
 
-#### 誤解その二：ビットコインは価値を持つにはあまりにも不安定すぎる
+All in all, when people call bitcoin a bubble, either:
 
-批評家はしばしば、ビットコインの不安定さがそれを貧弱な投資オプションにしていると指摘しますが、この議論はビットコインがこのような不安定さを経験している理由についてのいくつかの重要な事実を無視しています。
+1. They have not done the research to understand its numerous benefits and use cases.
+2. Or they misunderstand the functionality of Bitcoin and the total amount of value stored in the above assets from which Bitcoin has the potential to take a share of overtime.
 
-まず、ビットコインの不安定さは熱い議論のトピックであり、その急激な価格変動のために資産を批判する人もいます。私たちはこれを不安定さの狭い視点だと考えています。なぜなら、不安定さは資産の価格動きを測るものであり、単にその下落だけではないからです。変動を通じてビットコインを保持する勇気を持つ人々は、豊かに報われてきました。例えば、資産Aと資産Bを見てみましょう。資産Aは平均して年間10%増加し、偏差は15%ですが、資産Bは年間5%動き、偏差は10%です。資産Bは資産Aよりも不安定さが低いにもかかわらず、長期的には資産Aが資産Bを上回ります。ビットコインの価格動きの報酬を得るためには、その不安定さを受け入れる必要があります。さらに、USDは日々不安定さが少ないかもしれません。しかし、過去100年間で通貨を保持していたなら、あなたは購買力の[96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/)を失っています。
+#### Misconception Two: Bitcoin is too volatile to be of any value
 
-次に、技術の採用に関しては、不安定さは自然な現象です。新しい技術が導入されると、その潜在能力についての不確実性と推測が生じ、価格変動につながります。人工知能（AI）は、非常に不安定なセクターの主要な例です。[2021年から2022年](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%202021.)にかけて、AIの総価値は510億ドルから1190億ドルに増加しました。しかし、その不安定さにもかかわらず、AIに投資する利点は無視できません。自動運転車からパーソナライズされたヘルスケアまで、AIの潜在的な応用は膨大です。ですから、AIに興味があるなら、その不安定さのために機会を逃したくないでしょう。
+Critics often point out that bitcoin's volatility makes it a poor investment option, but this argument ignores a few crucial facts about why bitcoin is experiencing such volatility.
 
-さらに、ビットコインの不安定さはユニークなものではありません。伝統的な金融市場も、株式市場、商品市場、さらには通貨など、資産価格の変動を経験しています。実際、ビットコインの不安定さは多くの他の資産よりも軽微であると言えます。
+First, bitcoin's volatility is a hot topic of debate and has caused some to criticise the asset for its sharp price swings. We believe this is a narrow view of volatility as volatility measures an asset's price movement, not just its declines. Those with the fortitude to hold onto bitcoin through its fluctuations have been richly rewarded. Take assets A and B, for example. Asset A increases on average by 10% per year with a deviation of 15%, while asset B moves by 5% per year with a deviation of 10%. Although asset B has lower volatility than asset A, asset A outperforms asset B in the long run. You must be willing to stomach the volatility to reap the rewards of bitcoin's price movements. Moreover, the USD may be less volatile day to day. However, if you have held the currency over the last 100 years, you've lost [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) of your purchasing power.
 
-最後に、ビットコインが過度に不安定であるという議論は、重要な側面を考慮に入れていません：その評価は現在、法定通貨に結びついています。ビットコインの価値の観測された変動は、ドルや他の通貨など、基礎となる計測単位の固有の不安定さに主に駆り立てられています。ローレンス・ホワイトが彼の本[Better Money](https://amzn.to/3NZnCTm)で適切に指摘しているように、これらの価格変動は主に、インフレに対するヘッジを求める人々の結果です。別の言い方をすると、中央銀行によって統治される私たちの部分準備制度では、権力を持つ人々が流通しているお金の供給を変更する能力を持っています。その結果、彼らが金融政策を実行するとき、例えば量的緩和を行うと、資産価格は上昇し、引き締めると価格は下落します。この振り子効果は、中央集権的な金融システムの副産物であり、金融市場における不確実性と不安定さを生み出します。したがって、法定基準の下でのビットコインの不安定さを評価することは誤解を招くものです。本質的に、それは単に法定通貨の固有の不安定さを強調しているに過ぎません。
-対照的に、ビットコインは中央機関による操作ができない分散型ネットワーク上で運用されており、供給量は固定されています。これは短期的なボラティリティがあるかもしれませんが、ビットコインの供給の希少性と予測可能性は、長期的にはボラティリティを減少させ、安定性を高める可能性が高いです。
-これを説明するために：
+Second, volatility is a natural phenomenon when it comes to technological adoption. When a new technology is introduced, there is bound to be uncertainty and speculation about its potential, which leads to price fluctuations. Artificial intelligence (AI) is a prime example of a highly volatile sector. From [2021 to 2022](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%202021.), the total value of AI increased from \$51 billion to \$119 billion. However, despite its volatility, the benefits of investing in AI cannot be ignored. From self-driving cars to personalised healthcare, the potential applications of AI are immense. So, if you're interested in AI, you wouldn't want to miss out on the opportunities it presents just because of its volatility.
 
-1. 2018年に、Charles SchwabとGrayscale Investmentsによって行われた2つの独立した研究は、ビットコインのボラティリティが2011年から2013年の間に大幅に減少したことを明らかにしました。
-2. 2019年にBitwise Asset Managementによる報告書は、ビットコインのボラティリティが2014年以降大幅に減少し、株式などの他の伝統的な資産と同等であることを発見しました。
-3. 2020年にCoin Metricsによって発表された研究は、過去2年間でビットコインのボラティリティが大幅に減少したことを発見しました。
+Furthermore, bitcoin's volatility is not unique. Traditional financial markets also experience fluctuations in asset prices, such as the stock market, commodities market, and even currencies. In fact, the volatility of bitcoin is arguably less severe than many other assets.
 
-これを念頭に置いて、ビットコインのボラティリティを広い経済システムの文脈で見ることが重要であり、単に欠陥として却下するべきではありません。ビットコインの価値保存手段および交換手段としての潜在力は、短期的な価格変動に基づいて軽視されるべきではありません。
+Lastly, the argument that bitcoin is excessively volatile fails to consider a significant aspect: its valuation is currently tied to fiat currency. The observed fluctuations in bitcoin's value are primarily driven by the inherent instability of the underlying unit of measurement, such as the dollar or other currencies. As Lawrence White aptly points out in his book [Better Money](https://amzn.to/3NZnCTm), these price swings largely result from people seeking a hedge against inflation. Put differently, in our fractional reserve system governed by central banks, those in positions of power have the capacity to alter the supply of money in circulation. As a result, when they perform monetary policy, such as quantitative easing, asset prices rise, and when they tighten, prices fall. This whipsaw effect is a byproduct of a centralised monetary system, creating uncertainty and instability in financial markets. Consequently, assessing bitcoin's volatility based on its behaviour under a fiat standard is misleading. In essence, it merely highlights the inherent volatility of fiat currencies.
 
-#### 誤解三：ビットコインは何も裏付けられていないため価値がない
+In contrast, Bitcoin operates on a decentralised network, where supply is fixed and cannot be manipulated by a central authority. While this means there may be short-term volatility, the scarcity and predictability of bitcoin's supply will most likely reduce volatility and increase stability in the long run.
 
-ビットコインは、金や政府通貨のような価値あるものに裏付けられていないため、価値がないとしばしば却下されます。ビットコインが何も具体的なものに裏付けられていないため、価値がないという考えは誤りです。
+To illustrate this:
 
-価値は主観的であり、見る人の目によります。何かが価値があると人々が信じるから価値があるのです。
-例えば、芸術を見てみましょう。絵画はただのキャンバスと絵の具ですが、一部の作品は数百万ドルの価値があります。なぜでしょうか？ 十分な数の人々がそれほど高く評価しているからです。他の人が何と思おうと、絵画は所有者に価値を提供するため、彼らはそれを購入したのです。
+1. In 2018, two independent studies conducted by Charles Schwab and Grayscale Investments revealed that bitcoin's volatility had substantially decreased between 2011 and 2013.
+2. A report by Bitwise Asset Management in 2019 found that bitcoin's volatility had decreased significantly since 2014 and was now comparable to other traditional assets such as stocks.
+3. A study published by Coin Metrics in 2020 found that bitcoin's volatility had decreased significantly over the past two years.
 
-ビットコインについても同じことが言えます。人々は、政府や銀行によって制御されない分散型通貨であるため、ビットコインに価値を見出しています。供給量が限られており、その背後にある技術によって安全性が確保されています。これらの特性が価値を提供すると見なさない人もいるかもしれませんが、それで構いません。しかし、それがビットコインが価値がないという意味ではありません。
+With this in mind, it is important to view bitcoin's volatility in the context of the broader economic system and not simply dismiss it as a flaw. Bitcoin's potential as a store of value and means of exchange should not be discounted based on short-term price fluctuations.
 
-価格は、人々が何かに対して支払う意思があることの反映です。もしビットコインが何も裏付けられていないため本当に価値がないのであれば、誰もが自分の稼いだお金をそれと交換する意思がないため、価格は$0で取引されるでしょう。
+#### Misconception Three: Bitcoin is worthless as it is not backed by anything
 
-さらに、通貨は価値ある何かに裏付けられていなければならないという考えは不正確です。米ドルのようなフィアット通貨は、金や具体的なものに裏付けられていません。代わりに、それらの価値は、それらを発行する政府への信頼と、商品やサービスと交換できるという信念に基づいています。ビットコインの場合、その価値はそれを支える技術への信頼と、価値を保存したり商品やサービスと交換したりする手段として使用できるという信念に基づいています。
+Bitcoin is often dismissed for not being backed by anything of value, like gold or government currency. The idea that, given bitcoin is not backed by anything tangible, it must be worthless is a fallacy.
 
-結局のところ、何かが価値あるものに裏付けられていなければ価値がないという考えは誤りです。価値は主観的であり、人々の経験や信念に基づいています。ある人が何かを価値がないと判断しても、それが全員に当てはまるわけではなく、その逆もまた真です。
+Value is subjective and is in the eye of the beholder. Something is valuable because people believe it to be so.
+Take the example of art. A painting is just canvas and paint, yet some pieces are worth millions of dollars. Why? Because enough people value them that highly. Regardless of what others think, paintings offer value to the owner, which is why they purchased them.
 
-#### 誤解四：ビットコインの技術は既に時代遅れである
+The same goes for bitcoin. People value it because it is a decentralised currency that is not controlled by any government or bank. It is scarce, with a limited supply, and is secure due to the technology behind it. Some people may not see these characteristics as offering value, and that is ok. But that doesn't mean that it is worthless.
 
-ここで、ビットコインが時代遅れであるという繰り返される主張を分析し、これが真実からは程遠い理由を明らかにしましょう。
+Price is a reflection of what people are willing to pay for something. If bitcoin were truly worthless, as it was not backed by anything, then it would be trading at \$0, as nobody would be willing to exchange their hard-earned money for it.
 
-まず、暗号通貨の世界にはブロックチェーンのトリレンマと呼ばれる考えがあります。本質的に、暗号通貨が重点を置く3つの主要な特性があります：
+Furthermore, the idea that currency must be backed by something of value is inaccurate. Fiat currencies, like the US dollar, are not backed by gold or anything tangible. Instead, their value is based on trust in the government that issues them and the belief that they can be exchanged for goods and services. In the case of bitcoin, its value is based on trust in the technology that underpins it and the belief that it can be used to store value or exchange goods and services.
 
-1. スケーラビリティ
-2. セキュリティ
-3. 分散化
-深入詳細に触れずに、暗号通貨の領域では、暗号通貨がその進路と価値を決定する際に、三つ巴のジレンマが生じます。暗号通貨は、前述の3つの特性のうち2つのみを優先することができ、難しい決断とトレードオフを迫られます。
-ビットコインは、スケーラビリティよりも分散化とセキュリティを優先して選択しています。それでもなお、スケーラビリティは達成されています。ただし、それは代替手段を通じて実現されます（次の誤解で議論されます）。しかし、他の暗号通貨はしばしばスケーラビリティを優先しますが、そうすることで分散化を犠牲にし、攻撃に対して脆弱になったり、法定通貨やセキュリティと変わらなくなったりします。
+Ultimately, the idea that something must be backed by something else of value to be valuable is a misnomer. Value is subjective and based on people's experiences and beliefs. Just because one person deems something worthless doesn't mean everyone does, and vice versa.
 
-第二に、ビットコインはコンセンサスに基づいて構築されており、世界中の誰であっても、どこに住んでいても、ソフトウェアの一部を実行することで、ビットコインの方向性に発言権を持つことができます。これは、世界が進歩するにつれて、ビットコインが変化する環境に適応できることを意味します。これは、SegWit（スケーラビリティを向上させた）やLightning Network（より速く、より安価な取引を可能にする）など、年月を経てビットコインに加えられた多くのアップグレードによって示されています。
+#### Misconception Four: Bitcoin’s technology is already obsolete
 
-最後に、異なる利点を提供する何千もの他の暗号通貨が存在する一方で、ビットコインはすべての人にとって全てのものになろうとはしていません。代わりに、一つのことを非常にうまく行うことを目指しています：分散化され、信頼できる、許可不要の通貨であること。そして...それは他のどの暗号通貨よりも優れていることが、その市場価値で証明されています。
+Let's now dive into the repeated argument that Bitcoin is obsolete, breaking down why this could not be further from the truth.
 
-しかし、「暗号通貨」の風景はしばしばバズワードで満ちており、その多くはOG暗号学者やビットコイン開発者によって提案され、テストされ、その後放棄されたアイデアに根ざしていることに注意すべきです。例の配列はこの傾向を強調しています：今や話題のゼロ知識（ZK）技術は、2010年にサトシ自身、2013年にグレゴリー・マクスウェルによる議論でその起源を見つけます。MoneroやGrinに不可欠な、機密取引（CT）やbulletproofの概念は、ビットコインの2つのサイドチェーン、ElementsとLiquidで作成され、実現されました。「ブレイディング」の概念—複数のブロックチェーンチェーンを相互に組み合わせて、特定の利点や機能を達成する—は、特定のスケーラビリティと相互運用性の課題に対する潜在的な解決策としてビットコイン開発者によって元々提案され、現在はKaspa、Byteball、Nano、Hederaによって採用されています。「NFT」の革新の起源の多くは、2013/14/15年のビットコインの先駆的な努力にさかのぼります。広くマーケティングされた「Proof of Stake」も、Peercoin、Bitshares、NXT、Ethereumを通じて知名度を得ましたが、これは1998年にWei Daiが最初に考案した第二のb-moneyプロトコルから派生した復活した概念であり、サトシは最終的にこれを却下し、Proof of Workを好みました。すべての詳細に踏み込む必要はありませんが、多くの代替コインの下にある「革新」は、ビットコイン自体の進化にその根を持っていることは明らかです。
+First, in the world of cryptocurrencies, there is this idea called the blockchain trilemma. In essence, there are three primary characteristics cryptocurrencies tend to focus on:
 
-したがって、再び、ビットコインが時代遅れであるという主張は根拠がありません。すべての人にとって完璧ではないかもしれませんが、それは進化し、改善し続けています。
+1. Scalability
+2. Security
+3. Decentralisation
 
-#### 誤解五：ビットコインは効果的な交換手段としては遅すぎて高すぎる
+Without diving into the weeds, in the realm of cryptocurrencies, the trilemma emerges when a cryptocurrency must determine its trajectory and values. The cryptocurrency can only prioritise two out of the three aforementioned characteristics, forcing difficult decisions and trade-offs to be made.
 
-もし第二モジュール第四セクションを思い出していただければ、ビットコインのブロックチェーンは、各ブロックが最大約1MBのサイズで構成されています。限られたブロックサイズのため、ビットコインの基本層は、秒間約7トランザクション（tps）を処理する上限を持っており、これはVisaやMastercardのようなネットワークが秒間1,700tpsで取引することと比較してはるかに低いです。したがって、ビットコインは実行可能な交換手段として機能するには遅すぎるとしばしば言われます。
-しかし、ビットコインがVisaやMastercardと競合しようとしていないことを指摘することは重要です。代わりに、それはレイヤー1により類似しており、高価値の取引を処理する能力を持ちながら、従来のレイヤー1メソッドの速度やコストの一部であり、信頼性がなく、許可が不要で、最終決済を伴う取引を提供します。
-しかし、ビットコインはレイヤー1の上に構築されたLightningのような技術を持つレイヤー2の取引方法とも競合します。Lightningは、ほぼ瞬時の取引を極めて少ない手数料で可能にし、マイクロトランザクションや小規模な購入を可能にします。エルサルバドルがビットコインを法定通貨として採用して以来、一般の人々は、ほぼ瞬時の取引時間とセントの一部の手数料という比類のない利点のためにビットコインでの取引にLightningを使用しています。これは、小規模な商人や個人にとって完璧な適合です。
+Bitcoin chooses to prioritise decentralisation and security over scalability. Nevertheless, this scalability is still achieved. It just does so through alternative means (Discussed in the next misconception). Other cryptocurrencies, however, often prioritise scalability, but in doing so, they sacrifice decentralisation, making them vulnerable to attack or no different from fiat currency or a security.
 
-#### 誤解六：ビットコインは主に違法行為に使用されている
+Secondly, Bitcoin is built on consensus, which means no matter who you are or where you live in the world, by running a piece of software, you can have a say in the direction of Bitcoin. This means that as the world advances, Bitcoin can adapt to its changing environment. This is illustrated by the many upgrades that have been made to Bitcoin over the years, such as SegWit, which improved its scalability, and the Lightning Network, which enables faster and cheaper transactions.
 
-多くの研究が偽の主張を否定しているにもかかわらず、ビットコインは依然として主に違法行為に使用されていると批判されがちです。しかし、これは真実からは程遠いものです。
+Lastly, while there are thousands of other cryptocurrencies that offer different benefits, Bitcoin is not trying to be all things to all people. Instead, it is trying to do one thing incredibly well: to be a decentralised, trustless, and permissionless currency. And... it does this better than anyone else, as evidenced by its market cap, which is multiples of any other cryptocurrency.
 
-ある[研究](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)では、CIAの元副局長が「ビットコインの違法金融での使用に関する広範な一般化は、著しく誇張されている」と発見しました。実際、2016年以降、ビットコインの総取引量の1%未満が違法行為に使用されています。比較すると、「一部はアメリカの国内総生産の11%から12%を地下経済が占めていると推定しており」、その大部分は米ドルを使用して行われています。
+However, it should be noted that the landscape of "cryptocurrency" is often packed with buzzwords, many of which are rooted in ideas proposed, tested, and subsequently abandoned by OG cryptographers and Bitcoin developers. An array of examples highlights this trend: The now-hyped zero-knowledge (ZK) technology found its genesis in discussions by Satoshi himself in 2010 and Gregory Maxwell in 2013. Concepts like confidential transactions (CT) and bulletproof, now integral to Monero and Grin, were crafted and realised on two Bitcoin sidechains, Elements and Liquid. The notion of "braiding"—interweaving or linking multiple blockchain chains together to achieve certain benefits or functionalities—was originally proposed by Bitcoin developers as a potential solution to certain scalability and interoperability challenges and is now employed by Kaspa, Byteball, Nano, and Hedera. The origin of much "NFT" innovation traces back to Bitcoin's pioneering efforts in 2013/14/15. Even the widely-marketed "Proof of Stake," which gained prominence through Peercoin, Bitshares, NXT, and Ethereum, is a revived concept derived from Wei Dai's second b-money protocol, originally conceived in 1998—though Satoshi ultimately dismissed it, favouring Proof of Work. While delving into every detail isn't necessary, it's evident that the "innovation" underpinning many alternative coins finds its roots in the evolution of Bitcoin itself.
 
-また、Chainalysisによる2020年の報告によると、違法行為はビットコイン取引の約[0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)にしか過ぎません。
+Therefore, once again, the argument that Bitcoin is obsolete is unfounded. It may not be perfect for everyone, but it continues to evolve and improve.
 
-しかし、この証拠があるにもかかわらず、米国財務長官のジャネット・イエレンが「暗号通貨はオンラインの薬物売買業者の利益を洗浄するために使用されてきた; 彼らはテロ資金調達のツールとなっている」と[主張](https://home.treasury.gov/news/press-releases/jy0023)するなど、権力を持つ人々によって誤解を招く発言がなされ続けています。
+#### Misconception Five: Bitcoin is too slow and expensive to be an effective medium of exchange
 
-無数の研究がそのような偽の主張を否定しているにもかかわらず、特定の個人がアジェンダを持ち、ビットコインを巡る否定的で事実に基づかない物語を構築しようと決意していることは明らかです。実際、ビットコインは銀行口座を持たない人々に金融サービスへのアクセスを提供することから、取引コストの削減や金融の自由の増加に至るまで、世界に大きな肯定的な変化をもたらす可能性を持っています。
+If you recall from Module Two Section Four, Bitcoin's blockchain is made up of blocks, each with a maximum size of around 1mb. Due to the limited block size, Bitcoin's base layer has an upper limit of processing around seven transactions per second (tps), much lower than networks like Visa or Mastercard, which transact at 1,700 tps. Thus Bitcoin is often said to be too slow to ever function as a viable medium of exchange.
 
-このことを踏まえると、ビットコインの世界内で違法行為が発生することを否定するものではありませんが、それが主要な使用例であると信じることは誤りであることが証拠によって示されています。実際、違法目的に使用されるビットコイン取引の割合は、伝統的な金融よりも著しく低いです。
+However, it is vital to point out that Bitcoin is not trying to compete with Visa or Mastercard. Instead, it is more similar to layer one, capable of processing high-value transactions but a fraction of the speed and cost of traditional layer one methods while also being trustless, permissionless and offering transactions with final settlement.
 
-しかし、すべての違法行為を同じ筆で塗るべきではありません。ある管轄区域で「違法」と見なされる特定の活動が、別の管轄区域では基本的な権利と見なされることがあります。例えば：
+But Bitcoin also competes with layer two transaction methods, with technologies like Lightning built on top of layer one. Lightning allows for near-instant transactions with minimal fees, making microtransactions and small purchases possible. Since El Salvador has adopted Bitcoin as legal tender, the general populace has been using Lightning to transact with Bitcoin due to its unparalleled benefits, such as almost instantaneous transaction times and fees for a fraction of a cent. This makes it a perfect fit for small merchants and individuals.
 
-- サウジアラビアでの非イスラム教の実践、
-- ロシアやイランのような国々での同性婚、
-- パキスタンでの女の子への教育へのアクセス
+#### Misconception Six: Bitcoin is mainly used for illegal activity
 
-...はそれぞれの管轄区域で違法と見なされています。これは、何が違法であるかが黒か白かではないことを強調しています。法的定義と異なる地域で支持される多様な価値観との間には複雑な関係があります。
+Despite the numerous studies debunking false claims, Bitcoin is still often criticised as being primarily used for illicit activity. Once again, this could not be further from the truth.
 
-#### 誤解七：誰でもビットコインのコードを複製して、それを価値のないものにすることができる
-ビットコインのコードは簡単にコピーできるため、価値がないという主張は、ビットコインの価値を生み出す重要な側面を見落としています。ビットコインのコードがオープンソースであり、コピー可能であることは事実ですが、ビットコインの価値は、それが提供するユーティリティーからだけではなく、そのネットワークからも生まれます。
-ビットコインの最も重要な側面の一つは、そのネットワークです。ビットコインは2009年から存在し、時間をかけて大きなユーザーベースを築き上げました。このユーザーベースには、ビットコインに投資し、価値の保存手段や交換手段として使用している個人、企業、国が含まれます。
+One [study](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) conducted by the ex-deputy director of the CIA found that "broad generalisations about the use of Bitcoin in illicit finance are significantly overstated." In fact, since 2016, less than 1% of Bitcoin's total transaction volume has been used for illicit activity. By comparison, "some put the underground economy at 11% to 12% of US gross domestic [product](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," of which the majority is facilitated using the US dollar.
 
-このネットワークは、人々がビットコインを使い続ける強力なインセンティブを生み出します。ビットコインと同じ機能を持つ新しいトークンが作られたとしても、同じレベルの信頼と採用を得ることはできません。これは、確立されたユーザーネットワークと取引の歴史が欠けているためです。
+And according to a report by Chainalysis in 2020, illicit activity only accounts for about [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) of all Bitcoin transactions.
 
-簡単に言うと、明日新しいFacebookを立ち上げても、元のFacebookと同じ価値を持つことはできないのと同じように、新しいトークンが一晩でビットコインのネットワークを単純に複製することはできません。ビットコインの価値は、そのコードだけでなく、時間をかけて築き上げた信頼と採用にあります。
+However, even with this evidence, misleading statements continue to be made by those in power, such as US Treasury Secretary Janet Yellen [claiming](https://home.treasury.gov/news/press-releases/jy0023), "Cryptocurrencies have been used to launder the profits of online drug traffickers; they've been a tool to finance terrorism."
 
-要約すると、ビットコインのコードはオープンソースでコピー可能かもしれませんが、その価値はユーザーネットワークと時間をかけて築き上げた信頼と採用から生まれます。ビットコインと同じ機能を持つ新しいトークンは、同じレベルの信頼と採用を得られず、したがってビットコインの実行可能な代替品にはなり得ません。
+Although countless studies disprove such false claims, it is clear that certain individuals have an agenda and are determined to construct negative and unfactual narratives around Bitcoin. The reality is that Bitcoin has the potential to bring about significant positive change in the world, from providing access to financial services for the unbanked to reducing transaction costs and increasing financial freedom.
 
-#### 誤解八：ビットコインはあまりにも多くのエネルギーを消費する
+In light of this, while there is no denying that illicit activity does occur within the world of Bitcoin, the evidence shows that it is a fallacy to believe that it is the primary use case. In fact, the percentage of Bitcoin transactions used for illicit purposes is significantly lower than that of traditional finance.
 
-ビットコインは、小さな国々よりも多くのエネルギーを消費する、または海を沸騰させると主張する中傷キャンペーンの標的になることがよくあります。しかし、これらの批判者は、参照のために他のエネルギー消費活動の比較例を便利に見落としています。
+However, it’s important not to paint all illegal behaviour with the same brush stroke. Certain activities deemed "illicit" in one jurisdiction may be seen as a fundamental right in another. For example:
 
-また、ビットコインのエネルギー使用に関する批判は、通常、特権的で発展した社会の個人から発生することにも注意する価値があります。これらの個人は通常、銀行施設にアクセスし、衣類乾燥機を使用し、暖房や冷房にエアコンを頼り、クリスマスライトで家を飾り、頻繁に海外や長距離の休暇に参加します。これらの活動はすべてエネルギーを消費します。
-このことを念頭に置いて、3つのポイントについて議論したいと思います：
+- The practice of non-Islamic religions in Saudi Arabia,
+- Same-sex marriage in countries like Russia and Iran,
+- Or access to education for girls in Pakistan
 
-1. **価値の主観性：**「あまりにも多くの」エネルギー消費というものは存在しない理由。特定の活動や産業が消費するエネルギーの量は、人々がそれに割り当てる価値を反映しています。何かが運用するためにエネルギーを必要とする場合、それはそれに関連する需要と認識された利益があるからです。
-2. **エネルギーの直接的な収益化：**歴史上初めて、エネルギーを直接収益化する方法があります。
-3. **公正な比較：**ビットコインのエネルギー使用量を他のセクターと比較することで、よりバランスの取れた視点を得て、それに対する主張の妥当性を評価することができます。
+...are deemed illegal in their respective jurisdictions. This underscores that what is deemed illegal is not black or white. There's a complex relationship between legal definitions and the diverse values upheld across different regions.
 
-しかし、まず明らかな疑問に答えましょう：**ビットコインはなぜエネルギーを消費するのか？**
+#### Misconception Seven: Anyone can duplicate the Bitcoin code, making it worthless
 
-物理的な金を採掘する際にエネルギーが消費されるのと同様に、ビットコインのマイナーはビットコインを獲得するためにエネルギーを消費します。この実世界のエネルギーの要求は、そうでなければ無形のデジタル資産を物理的な世界に固定します。さらに、世界中の広大なネットワークのマイナーがビットコインネットワークを保護するためにエネルギーを費やすことで、ビットコインを獲得するためのエネルギー消費は、中央集権化や不当な操作に対する強力な防御機構として機能します。このため、中央集権的なエンティティがネットワークを乗っ取ったり、自分たちに有利なルールを操作したりすることは極めて困難です。なぜなら、彼らは無数に存在する世界中に分散したマイナーと競争しなければならないからです。
+The argument that Bitcoin's code can be easily copied and, therefore, is worthless misses a crucial aspect of what gives bitcoin its value. While it is true that the code for Bitcoin is open source and can be copied, the value of bitcoin is not solely derived from the utility it offers.
 
-これを踏まえて、上記の3つの議論ポイントを見てみましょう。
+One of the most important aspects of Bitcoin is its network. Bitcoin has been around since 2009 and has built up a significant user base over time. This user base includes individuals, businesses and nations that have invested in bitcoin and use it as a store of value or a means of exchange.
 
-#### 価値の主観性
-ある時点で、ビットコインには本質的な価値がないという議論に遭遇したことがあるかもしれません。これは、なぜビットコインがエネルギーを消費することを許されるべきかという疑問につながります。
-第三の誤解で議論されたように、本質的価値は主観的であり、個々の状況やニーズに依存します。例えば、灼熱の砂漠にいる自分を想像してみてください。そして、誰かがあなたに厚いダウンジャケットを提供したとします。それは無用の長物です。今度は、凍えるような寒さの北極にいる自分を想像してみてください。突然、そのジャケットは非常に価値のあるものになります。これは、価値が物体に固有のものではなく、特定の文脈、条件、および物体が個人のニーズを満たすために提供する利便性によって決定されることを示しています。しかし、主観性は価値に限定されるものではありません。エネルギーの消費にも及びます。何かが動作するためにエネルギーを必要とする場合、それは人々がそれに価値を見出し、自分の時間、リソース、エネルギーをそれに捧げる意志があることを明確に示しています。
+This network creates a powerful incentive for people to continue using Bitcoin. Even if a new token were created with the same functionality as Bitcoin, it wouldn’t have the same level of trust and adoption. This is because it would lack the established network of users and the history of transactions.
 
-毎日、私たちは個人が特定の活動や産業の価値を認識することから生じる無数のエネルギー消費の例を目の当たりにしています。エネルギー消費は、私たちの家庭での家電製品の使用からビットコインマイニング、私たちの経済を動かす広大なインフラストラクチャーを動力するために必要なエネルギーまで、価値創造に密接に結びついています。
+Simply put, just like how you cannot spin up a brand new Facebook tomorrow and expect it to be as valuable as the original Facebook, a new token cannot simply replicate Bitcoin's network overnight. The value of bitcoin is not just in its code but in the trust and adoption that it has built up over time.
 
-時間が経つにつれて出現した技術、交通、エンターテイメントの進歩を考えてみてください。これらの革新はしばしば大量のエネルギーを要求しますが、私たちの生活を根本的に変え、莫大な価値をもたらしました。ビットコインも例外ではありません。現代の交通の便利さ、ピアツーピアのデジタル通貨、さまざまな形態のエンターテイメントから得られる楽しみであれ、これらの経験や利益はエネルギー消費によって可能になります。
+In summary, while Bitcoin's code may be open source and can be copied, its value is derived from its network of users and the trust and adoption it has built up over time. A new token with the same functionality as Bitcoin would not have the same level of trust and adoption and, therefore, would not be a viable substitute for Bitcoin.
 
-このことを念頭に置いて、価値の認識は個人やコミュニティ間で異なることが重要です。ある人が価値あるエネルギー使用とみなすものを、別の人は過剰または不必要と見なすかもしれません。しかし、この主観性は、特定の取り組みに人々が帰する価値にエネルギー消費が本質的に結びついているという認識を減じるべきではありません。
+#### Misconception Eight: Bitcoin consumes too much energy
 
-例えば、多くの個人は、ビットコインが仲介者なしに取引を行うための分散型、信頼できる、許可不要の手段を提供する能力のために、エネルギーの価値ある使用とみなしています。開発された国々の人々がこの価値提案を完全には評価しないかもしれませんが、政府の管理が厳格でインフレが横行している国々に住む人々にとっては、莫大な意義を持ちます。そのような状況では、ビットコインのような通貨は莫大な価値を提供し、これらの状況にある人々がその運用を支援するために自分のエネルギーとリソースを捧げる意志があります。
+Bitcoin frequently becomes the target of smear campaigns, claiming it consumes more energy than small countries or will boil the oceans. However, these critics conveniently overlook comparable examples from other energy-consuming endeavours to provide a reference.
 
-#### エネルギーの直接的な収益化
+It is also worth noting that the criticisms regarding Bitcoin's energy usage often originate from individuals in privileged and developed societies. These individuals typically have access to banking facilities, use clothes dryers, rely on air conditioners for heating or cooling, decorate their homes with Christmas lights, and frequently engage in overseas or long-distance holidays. All of these endeavours consume energy.
+With this in mind, we want to discuss three points:
 
-過去には、発電所、太陽光発電所、水力ダムなどは、収益を上げるためにエネルギーグリッド、個人、またはビジネスにエネルギーを販売することに依存していました。しかし、十分な買い手がいないときに未使用のエネルギーが無駄になることがしばしばあり、この依存は地元の買い手に対するものでした。その結果、エネルギーが生産されるものの、代替の目的や買い手がなく、最終的には無駄になるという、一般に「ストランドエネルギー」と呼ばれる状況が生まれます。余剰エネルギーをバッテリーに蓄えることを提案するかもしれませんが、残念ながらバッテリー技術の限界により、これは実用的な解決策ではありません。
+1. **The Subjectivity of Value:** Why there is no such thing as "too much" energy consumption. The amount of energy consumed by a particular activity or industry reflects the value people attribute to it. If something requires energy to operate, it is because there is a demand and perceived benefit associated with it.
+2. **Direction Energy Monetisation:** We have a method to monetise energy directly for the first time in history.
+3. **Fair Comparisons:** By comparing Bitcoin's energy usage to that of other sectors, we can gain a more balanced perspective and assess the validity of the claims made against it.
 
-そしてここでビットコインが登場します。歴史上初めて、ビットコインはエネルギーの直接的な収益化を可能にします。
+But first, let's answer the glaring question: **Why does Bitcoin consume energy?**
 
-エネルギー生産者は今、ストランドエネルギーをビットコインマイニングに向けることができ、未使用のエネルギーからビットコインを稼ぐことができます。この革新的なアプローチは、無駄なエネルギーを大幅に削減するだけでなく、以前はアクセスできなかった追加の収益源を開放します。逆に、この新たな収益は、従来のエネルギー市場ではエネルギーの価格に無駄なストランドエネルギーのコストが含まれているため、他のすべての人の全体的なエネルギーコストを下げるのに役立ちます。なぜなら、ビットコインマイニングを利用して以前に使用できなかったエネルギーを収益化することにより、エネルギー生産者はコストを相殺し、消費者に利益を還元し、エネルギー価格を下げることができるからです。
-この概念をさらに展開すると、私たちのエネルギーグリッドは余剰容量で運用されるように設計されており、通常、任意の時点で生産可能なエネルギーの40-60%のみを利用しています。この予防策により、極端な天候条件時など、人々がエアコンや暖房システムの使用を強化する際に、予期せぬエネルギー需要の急増に迅速に対応できます。エネルギー生産者は需要の急増に即座に出力を増加させることができないため、余剰エネルギーを生成することが必要となり、余剰資本コストとエネルギーの無駄遣いの可能性をもたらします。
-そして、この無駄遣いは近いうちに改善されそうにありません。風の強さが変わり、雲の覆いによって太陽の強度が減少するため、風力エネルギーは最大で約[15-30%](http://anemoiservices.com/industry-news/how-much-electricity-does-a-wind-turbine-produce/#:~:text=When%20there%20are%20slow%20wind,at%20about%2015%E2%80%9330%25.)の効率しかなく、太陽エネルギーは約[16-24%](https://www.cleanenergyreviews.info/blog/most-efficient-solar-panels)の効率です。グリッドの最大需要の少なくとも3倍のエネルギー容量を持つことが、100%再生可能エネルギー源への移行を計画する上で必要になります。この余剰容量は、供給中断時にグリッドが安定した状態を維持し、停電の脅威を最小限に抑えるために必要です。しかし、それはまた、私たちのエネルギー生産の大部分がいつでも使われずに残されることを意味します！このエネルギーには他の用途がありません。それを買う意思がある人はいません。
+Similar to how energy is consumed in mining physical gold, Bitcoin miners consume energy in their pursuit of acquiring bitcoin. This requirement of real-world energy anchors an otherwise intangible digital asset to the physical world. Moreover, with the vast network of miners globally expending energy to secure the Bitcoin network, energy consumption to obtain bitcoin serves as a powerful defence mechanism against centralisation and undue manipulation. For this reason, it is exceedingly difficult for centralised entities to co-opt the network or manipulate the rules in their favour, as they would have to outcompete the countless globally distributed miners.
 
-しかし、今ではエネルギー生産者は、そうでなければ無駄になるであろうこの余剰エネルギーを活用する方法を持っています。余剰エネルギーをビットコインマイニングを通じて収益化することで、エネルギー生産者は運用を最適化し、財政的な利益を得て、最終的にはグリッド上の全員のコストを削減することができます。
+In light of this, let's take a look at the three discussion points above.
 
-最後に、ビットコインマイナーはエネルギーのコストに依存する利益のため、安価なエネルギー源を求める動機があります。その結果、彼らは積極的に使われないであろう余剰エネルギーや他の形態のエネルギーを探します。注目すべき例の一つは、石油会社が地面から石油を抽出する際に放出されるフレアガスです。フレアガスはこのプロセスの副産物であり、通常、それを捕捉することに関連する高コストのために燃焼させられます。この実践は、フレアリングとして知られており、エネルギーの無駄遣いだけでなく、メタンや様々な他のガスを大気中に放出する結果となります。
+#### The Subjectivity of Value
+
+At some point, you may have come across the argument that bitcoin has no intrinsic value, leading to questions about why it should be allowed to consume energy.
+
+As discussed in misconception three, intrinsic value is subjective and dependent on individual circumstances and needs. For example, imagine yourself in a scorching desert, and someone offers you a thick down jacket. It would be useless. Now, imagine you're in the freezing cold Arctic. Suddenly, that jacket becomes immensely valuable. This illustrates that value is not inherent in an object but rather determined by the specific context, conditions, and utility the object provides to an individual in meeting their needs. However, subjectivity doesn't just extend to value. It extends to the consumption of energy as well. If something requires energy to operate, it clearly indicates that people find value in it, as they are willing to dedicate their time, resources, and energy towards it.
+
+Every day, we witness countless examples of energy consumption arising from individuals' perceived value of certain activities or industries. Energy consumption is intricately tied to value creation, from the use of appliances in our homes to Bitcoin mining to the energy required to power the vast infrastructure that drives our economy.
+
+Consider the advancements in technology, transportation, and entertainment that have emerged over time. These innovations often demand significant amounts of energy, yet they have fundamentally transformed our lives and brought immense value. Bitcoin is no different. Whether it is the convenience of modern transportation, a peer-to-peer digital currency, or the enjoyment derived from various forms of entertainment, these experiences and benefits are made possible by energy consumption.
+
+With this in mind, it is important to recognise that the perception of value varies among individuals and communities. What one person may deem as a worthwhile energy use, another might view as excessive or unnecessary. However, this subjectivity should not diminish the recognition that energy consumption is intrinsically linked to the value people attribute to certain endeavours.
+
+For instance, many individuals deem Bitcoin a worthwhile use of energy due to its ability to provide a decentralised, trustless, and permissionless means of transacting without intermediaries. While some people in developed countries may not fully appreciate this value proposition, it holds tremendous significance for those living in countries where government control is restrictive and inflation is rampant. In such circumstances, a currency like Bitcoin offers immense value, leading to people in these situations being willing to dedicate their energy and resources to support its operation.
+
+#### Direct Monetisation of Energy
+
+In the past, power plants, solar farms, hydro dams, and similar entities depended on selling their energy to the energy grid, individuals, or businesses to drive revenue. However, this reliance on local buyers often led to the wastage of unused energy when there were not enough buyers. Consequently, this scenario creates what is commonly referred to as stranded energy, where energy is produced but has no alternative purpose or buyer and is ultimately wasted. One might suggest storing the excess energy in batteries, but unfortunately, the limitations of battery technology make this an impractical solution.
+
+And this is where Bitcoin comes in. For the first time in history, Bitcoin enables the direct monetisation of energy.
+
+Energy producers can now redirect stranded energy towards Bitcoin mining, allowing them to earn Bitcoin from unused energy. This innovative approach not only significantly reduces wasted energy but also opens up an additional revenue stream that was previously inaccessible. Conversely, this newfound revenue helps lower the overall energy cost for everyone else, as in the traditional energy market, the price of energy includes the cost of wasted stranded energy. Why? By utilizing Bitcoin mining to monetise this previously unusable energy, energy producers can offset their costs and pass on the benefits to consumers, reducing energy prices.
+
+Expanding on this concept, our energy grid is designed to operate with excess capacity, typically utilising only 40-60% of the energy it can produce at any given moment. This precautionary measure allows the grid to quickly accommodate unexpected surges in energy demand during events such as extreme weather conditions, like heatwaves or cold spells, when people intensify their use of air conditioning or heating systems. Since energy producers cannot instantaneously increase their output to match the sudden rise in demand, generating a surplus of energy becomes necessary, introducing excess capital costs and the potential for wasted energy.
+
+And this wastage doesn't look to be improving anytime soon. As the strength of the wind varies, and solar intensity diminishes with cloud cover, wind energy is around [15-30%](http://anemoiservices.com/industry-news/how-much-electricity-does-a-wind-turbine-produce/#:~:text=When%20there%20are%20slow%20wind,at%20about%2015%E2%80%9330%25.) efficient at best, while solar energy comes in at approximately [16-24%](https://www.cleanenergyreviews.info/blog/most-efficient-solar-panels) efficient. Given our plans to transition towards 100% reliance on renewable energy sources, it becomes necessary to have an energy capacity of at least three times the maximum demand of the grid. This surplus capacity is required to ensure that the grid remains stable in the event of supply interruptions, minimising the threat of blackouts. However, that also means a large portion of our energy production will be stranded at any time! This energy has no other use. There is no one willing to buy it.
+
+However, now energy producers have a way of capitalising on this stranded energy that would otherwise go to waste. By monetising the surplus energy through Bitcoin mining, energy producers can optimise their operations, benefit financially, and ultimately reduce costs for everyone on the grid.
+
+Lastly, Bitcoin miners are motivated to seek out inexpensive energy sources since their profits depend on the cost of energy. Consequently, they actively look for stranded energy or other forms of energy that would otherwise go unused. One notable example is flare gas, which is released when petroleum companies extract oil from the ground. Flare gas is a byproduct of this process and is typically burned off due to the high cost associated with capturing it. This practice, known as flaring, not only results in wasted energy but also releases methane and various other gases into the atmosphere.
 
 ![image](assets/4.webp)
 
-_**図:** フレア[ガス](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
+_**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
-しかし、ビットコインを用いることで、エンジニアはこのそうでなければ無駄になる天然ガスを利用してビットコインマイナーを動力とするエネルギーに変換する方法を考案しました。このブレークスルーは、これらの会社に追加の収益源を提供するだけでなく、重要な環境上の利点ももたらします。フレアガスを利用してビットコインマイニングのための電力を生成することにより、これらの会社は、そうでなければ私たちが呼吸する空気を汚染するであろう排出を[削減する](https://batcoinz.com/quantifying-the-impact-of-using-stranded-methane-on-the-bitcoin-network/)ことができます。本質的に、ビットコインはこのシナリオでカーボンネガティブであり、排出を削減し、以前は捨てられていたエネルギー源の有効利用を提供する手段を提供します。
-全体として、ビットコインのマイナーがコスト効率の良いエネルギー源を求めることにインセンティブを与えられており、しばしば再生可能エネルギーを好むことから、ビットコインは産業や国々の中でも[最も持続可能な](https://bitcoinminingcouncil.com/wp-content/uploads/2021/07/2021.07.01-BMC-Q2-2021-Materials.pdf)エネルギーミックスの一つを誇っています。ですので、次に誰かがビットコインの環境への足跡について懸念を表明したときは、ビットコインが持続可能なエネルギー実践の最前線にいるという事実で自信を持って反論できます。
-そして最後に…
+However, with Bitcoin, engineers have devised a way to utilise this otherwise wasted natural gas by converting it into energy to power Bitcoin miners. This breakthrough not only provides an additional revenue stream for these companies but also has significant environmental benefits. By harnessing flare gas to generate electricity for Bitcoin mining, these companies can [reduce emissions](https://batcoinz.com/quantifying-the-impact-of-using-stranded-methane-on-the-bitcoin-network/) which would otherwise pollute the air we breathe. In essence, Bitcoin is carbon-negative in this scenario by offering a means to reduce emissions and make productive use of previously discarded energy sources.
 
-#### 公平な比較
+All in all, given that Bitcoin miners are incentivised to seek out cost-effective energy sources, often favouring renewable energy, Bitcoin boasts one of the [most sustainable](https://bitcoinminingcouncil.com/wp-content/uploads/2021/07/2021.07.01-BMC-Q2-2021-Materials.pdf) energy mixes among industries and even countries. So, the next time someone raises concerns about Bitcoin's environmental footprint, you can confidently counter with the fact that Bitcoin is at the forefront of sustainable energy practices.
 
-まず言いたいのは、**すべてがエネルギーを消費する**ということです。私たちが気づいているかどうかにかかわらずです。犬と走るような単純な行為でさえ、自分自身とあなたのふわふわした仲間を燃料とする必要があります。あなたとあなたの犬は、エネルギーの消費者です。
+And lastly…
 
-ここでの意図は、上述のように、他の産業のエネルギー消費を批判することではありません。なぜなら、エネルギーの使用は、人々が提供されるサービスや製品に見出す価値を示しているからです。しかし、ビットコインのエネルギー使用量を適切な視点で見ることが不可欠です。以下の[比較](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry)を考えてみてください：
+#### Fair Comparisons
 
-- 洗濯機はビットコインよりも[18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.)多くのエネルギーを消費します。
-- 金の採掘とジュエリーの生産はビットコインよりも10倍多くのエネルギーを消費します。
-- 海上輸送はビットコインよりも51倍以上のエネルギーを消費します。
-- 金融および保険セクターはビットコインよりも驚異的な62倍のエネルギーを消費します。
-- そして驚くべきことに、建設セクターはビットコインよりも驚異的な457倍のエネルギーを消費します。
+We want to start by saying: **Everything consumes energy**, whether we realise it or not. Even a simple act, like running with your dog, necessitates fueling yourself and your furry companion. Both you and your dog are energy consumers.
 
-これらの比較例を検討することで、ビットコインのエネルギー消費について判断を下す前に、他の産業のエネルギー使用量を考慮する必要があることが明らかになります。この視点により、より広いエネルギー環境についての包括的な理解が可能になります。
+Now our intention is not to criticise other industries for their energy consumption because, as discussed above, energy usage signifies the value people find in the services or products provided. However, it is essential to put Bitcoin's energy usage into perspective. Consider the following [comparisons](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry):
 
-さらに、ビットコインが提供する広範な利点を考慮すると、以下を含みます：
+- Washing machines consume [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) more energy than Bitcoin.
+- Gold mining and jewellery production consumes ten times more energy than Bitcoin.
+- Sea transportation consumes over 51 times more energy than Bitcoin.
+- The financial and insurance sector consumes a staggering 62 times more energy than Bitcoin.
+- And remarkably, the building sector consumes a staggering 457 times more energy than Bitcoin.
 
-- 銀行口座を持たない人々への銀行アクセス
-- 仲介者なしのグローバルなピアツーピア取引
-- 家族に送金するためのコスト効率の良い送金オプション
-- 信頼性がなく、許可が不要なデジタル通貨システム
-- 権威主義的な体制下で生活する人々が安全に価値を貯蓄し、輸送する手段
-- ストランドエネルギーの直接的な収益化
+By examining these comparative examples, it becomes evident that before passing judgment on Bitcoin's energy consumption, we must consider the energy usage of other industries. This perspective allows for a more comprehensive understanding of the broader energy landscape.
 
-これらを理解することで、人々がビットコインに大きな価値を見出し、その運用にエネルギーを向ける意欲がある理由がより深く理解できます。
+Furthermore, when we consider the extensive benefits that Bitcoin provides, including:
 
-最後に、これらのビットコインに関する誤解が、表面的な批判を超えたビットコインのより深い理解を提供したことを願っています。より詳細に検討すると、これらの批判の多くが根拠のないものであることが明らかになるはずです。これを念頭に置いて、ビットコインに対する誤解導かれた描写から焦点を移し、より広範な金融システムの包括的な理解に向けて進む時が来ました。そうすることで、権力を持つ者だけでなく、すべての人に利益をもたらすより公平で公正なシステムの構築に向けて努力できます。
+- Banking access for the unbanked population
+- Global peer-to-peer transactions without intermediaries
+- Cost-effective remittance options for individuals to send money to their families
+- A trustless and permissionless digital currency system
+- A means for those living under authoritarian regimes to save and transport value securely
+- Direct monetisation of stranded energy
 
-さて、ステーブルコインに関する一般的な誤解について注目を向けましょう…
+We gain a deeper understanding of why people not only find immense value in Bitcoin but are also willing to direct their energy towards its operation.
 
-### ステーブルコインの誤解
+To end, we hope these Bitcoin misconceptions have given you a deeper understanding of Bitcoin beyond the surface-level criticisms it often receives. Upon closer examination, it should now be evident that many of these critiques prove to be baseless. With this in mind, it's time to shift the focus away from misguided portrayals of Bitcoin and towards a more comprehensive understanding of the broader financial system. By doing so, we can work towards creating a more fair and equitable system that benefits everyone, not just those in power.
 
-1. ほとんどのステーブルコインは完全に準備金で裏付けられていない
-2. 最も安定したステーブルコインでさえペッグを外れる
-3. ほとんどのステーブルコインが中央集権的であるため、発行者はあなたの資金を凍結できる
-4. 基盤となるチェーンがダウンした場合、資金を失う
-5. ビットコインとステーブルコインは、発展途上国の富裕層に利益をもたらす
-ステーブルコインを理解する上で、各ステーブルコインが独自の原則とフレームワークの下で運用されていることを認識することが不可欠です。一部のステーブルコインプロジェクトは、彼らのリザーブに関する詳細な情報を提供し、それを定期的に検証する証明を公開することで、非常に厳格な注意深さと透明性を示しています。
-例えば、Tetherはその証明によって透明性を強く支持しており、ここから彼らのリザーブの裏付けに関する洞察を得ることができます。これらの証明は、顧客を最優先に考えるという彼らのコミットメントの証として機能します。
+Let’s now turn our attention to the common misconceptions surrounding stablecoins…
 
-しかし、すべてのステーブルコインが同じレベルの透明性を提供しているわけではありません。したがって、特定のステーブルコインに大きな富を託す前に、徹底的な調査を行うことの重要性を強調することはできません。さらに、ユーザーは透明性のレベルに関係なく、ステーブルコイン発行者に一定の信頼を置く必要があります。
+### Stablecoin Misconceptions
 
-もう一つの一般的な批判は、ステーブルコインがしばしば現金ではなく「現金及び現金同等物」に完全に裏打ちされていないことです。_これは、容易に現金に変換できる現金及び現金類似のリザーブを指す専門用語です。_しかし、2点を考慮することが重要です：
+1. Most stablecoins are not fully backed by reserves
+2. Even the most stable of stablecoins depeg
+3. Given most stablecoins are centralised, the issuer can freeze your funds
+4. You'll lose your funds if the underlying chain goes down
+5. Both Bitcoin and stablecoins benefit the rich in developing countries
 
-まず、ステーブルコイン発行者は現金を保持するよりも現金同等物に投資することが多いです。なぜなら、現金はステーブルコイン発行者の貸借対照表に大きな影響を与える可能性があるからです。現行の銀行規制では、現金などの貸借対照表資産は破産の際に損失の可能性があり、連邦預金保険公社（FDIC）は最大\$250,000 USDまでの保険を提供していますが、この限度を超える金額はリスクにさらされます。この露出を軽減するために、予期せぬ事態に対してユーザーを保護することを目指すステーブルコインは、しばしば政府発行の財務省証券に投資します。財務省証券のような資産に投資することで、彼らは利回りを生み出すだけでなく、これらの資産を貸借対照表外証券とみなすことができます。その結果、ステーブルコイン発行者は銀行が破産した場合にも、これらの証券を顧客に返還することで資金を保護することができます。この鮮明な例は、2023年2月/3月にSilicon Valley Bank（SVB）と、ステーブルコインUSDCの背後にある会社Circleに関連して発生しました。当時、CircleはSVBに大量の[\$3.3 billion](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.)を預けていました。そして、SVBは破産しました。金融災害を回避するため、FDICはCircleや他の影響を受けた会社を救うために介入し、不足分をカバーしました。しかし、これは標準的な対応ではありません。この前例のない出来事は、そのような状況が展開された史上初めての時でした。FDICの介入がなければ、Circleは破産に直面していたかもしれません。
+#### Misconception One: Most stablecoins are not fully backed by reserves
 
-第二に、私たちはしばしばステーブルコイン発行者が非現金資産に投資していることを批判しますが、既存の銀行システムは部分準備制の基礎で運営されています。簡単に言うと、銀行は顧客の引き出し要求を満たすのに十分な準備金を保有していません。もし国民の大部分が預金を引き出そうとすれば、銀行セクターはすぐに崩壊します。実際、2020年以降、アメリカ合衆国では準備金要件が[ゼロ](https://www.federalreserve.gov/monetarypolicy/reservereq.htm)に設定されており、銀行は**どんな**顧客の預金も保持する義務がありません。
-私たちは明確にしたいと思います。この観察が、価値が下落する可能性のある資産に現金準備金を置き換えることに関する懸念を無視すべきだという意味ではありません。それどころか、伝統的な金融と現代の暗号通貨金融の間の二重基準を認識すべきです。
+When understanding stablecoins, it is essential to recognise that each stablecoin operates under unique principles and frameworks. Some stablecoin projects exhibit exceptional diligence and transparency by providing detailed information about their reserves and regularly releasing attestations verifying them.
 
-全体として、安定コインに関する誤解が存在し、多くの場合それには正当な理由があるものの、各安定コインが独自の運用をしており、透明性や注意深さの度合いに違いがあることを認識することが重要です。どの安定コインに価値を保存するかを決定する際に徹底的な調査を行うことで、暗号通貨に関連する一般的な落とし穴の多くを回避することができます。
+For instance, Tether strongly supports transparency visible by their attestations, which can be accessed to gain insight into their reserve backing here. These attestations serve as a testament to their commitment to putting the customer first.
 
-#### 誤解二：最も安定した安定コインでさえペッグを外れる
+However, this is not the case for all stablecoins, with many not offering the same level of transparency. Therefore, we cannot stress the importance of conducting thorough research before entrusting significant wealth to any particular stablecoin. Furthermore, there is a level of trust that the user must place with the stablecoin issuer, regardless of the level of transparency.
 
-最も安定した安定コインでさえペッグを外れるという誤解については、一次市場と二次市場を区別することが重要です。
+Another common criticism is that stablecoins are often not fully backed by cash but rather "cash and cash equivalents." _This is the technical term for cash and cash-like reserves that can easily be converted to cash_. However, it is important to consider two points:
 
-一次市場は、安定コインの発行者（例：Tether）と、USDなどの価値のある基礎資産を引き換える能力を持つ主要な取引所の間に存在します。または、価格安定性を維持するために安定コインを発行します。これらの一次市場取引は、安定コインがその意図した価値に密接にペッグされたままでいることを保証します。
+First, stablecoin issuers often invest in cash equivalents rather than holding cash, as cash can significantly impact the stablecoin issuer's balance sheet. With current banking regulations, any balance sheet assets, such as cash, are subject to potential loss in the event of bankruptcy, and the Federal Deposit Insurance Corporation (FDIC) only provides insurance coverage for up to \$250,000 USD, with amounts exceeding this limit at risk. To mitigate this exposure, stablecoins aiming to safeguard users against unforeseen events often invest in government-issued treasury bills. By investing in assets like treasuries, not only do they generate a yield, these assets can be deemed off-balance sheet securities. As a result, stablecoin issuers can protect their funds in the event of bank bankruptcy, as these securities could be returned to the customer. A compelling illustration of this occurred in February/March 2023, involving Silicon Valley Bank (SVB) and Circle, the company behind the stablecoin USDC. At that time, Circle had a substantial [\$3.3 billion](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) in cash deposited with SVB. And then, SVB went bankrupt. To avert a financial disaster, the FDIC intervened to rescue Circle and other affected companies by covering the missing funds. However, this is not the standard course of action. This unprecedented event marked the first time in history such a situation had unfolded. Without the FDIC's intervention, Circle might have faced bankruptcy as well.
 
-一方、二次市場は顧客と取引所の間です。ここでは、個人が安定コインを購入したり売却したりできます。これには取引、投資、またはその他何でも含まれます。
+Second, we often criticise stablecoin issuers for investing in non-cash assets, yet our existing banking system operates on a fractional reserve basis. In simple terms, banks do not hold sufficient reserves to meet the withdrawal demands of their customers. If a significant portion of our national population were to withdraw their deposits, the banking sector would quickly collapse. In fact, since 2020, the reserve requirement in the United States has been set at [zero](https://www.federalreserve.gov/monetarypolicy/reservereq.htm), meaning that banks are not obligated to retain **ANY** customer deposits.
 
-ペッグを外れるとは、安定コインが保有者の引き出し要求を満たすための必要な準備金を持っていない場合、またはハックによって安定コインが危険にさらされた場合に発生します。しかし、安定コインが短期的な価格変動を経験することがペッグを外れることを示すわけではないことに注意することが重要です。その代わり、これはしばしば流動性の問題の結果です。
+We want to be clear. This observation does not imply that we should disregard concerns about stablecoins substituting cash reserves for assets that could depreciate in value, potentially destabilising the stablecoin. Instead, we should acknowledge the double standards between traditional and modern cryptographic finance.
 
-説明しましょう。もし小規模な取引所が価値のある基礎資産を引き換える能力を欠き、人々が安定コインを支える基礎資産を引き出そうとする強い売り圧力がある場合、安定コインの価格は一時的に理想的なペッグ価格を下回るかもしれません。このペッグからの一時的な逸脱は短期的な出来事であり、取引所が顧客のニーズを満たすために必要な基礎資産を取得すると正常化するはずです。この一時的な価格変動は、必ずしも安定コインが失敗して崩壊していることを示すわけではありません。その代わり、ユーザーがタイムリーに資金を引き出す能力に影響を与える低い流動性レベルを反映しています。
+All in all, while misconceptions about stablecoins exist, and rightly so in many instances, it is essential to recognise that each stablecoin operates uniquely, with varying degrees of transparency and diligence. By conducting thorough research into whichever stablecoin you decide to store value in, you can mitigate many of the common pitfalls associated with cryptocurrencies.
 
-逆に、安定コインがそのペッグ価格を上回って取引されることも観察されます。この状況は、安定コインへの需要が取引所の顧客の要求を満たす能力を超えた場合に発生します。通常、この現象は、安定コインと直接リンクを持たない小規模な取引所で発生し、基礎資産が重要な価値を持つ場合、個人がそれを取得するためにプレミアムを支払うことを促します。例えば、激しいインフレを経験している権威主義的な国に住む個人がUSDtのような安定コインに避難を求めるシナリオを考えてみてください。このような場合、人々はUSDtの形でドルを取得するためにプレミアムを支払うことをいとわないかもしれません。この意欲は、そうしないことでインフレ環境によって引き起こされる購買力のさらなる低下にさらされることを理解しているからです。
+#### Misconception Two: Even the most stable of stablecoins depeg
 
-このことから、価格変動はTetherのような安定コインの発行者の手の届かないところにあります。なぜなら、彼らは顧客と直接対面しないからです。代わりに、顧客は取引所を通じてUSDtを取得します。したがって、彼らは取引所が顧客のニーズを満たすために十分な安定コイン/基礎資産の流動性を維持することに依存しています。
+When it comes to the misconception that even the most stable of stablecoins depeg, it is important to differentiate between the primary and secondary markets.
 
-要約すると、次に安定コインが意図した価格を上回るか下回るかを見たときは、流動性の問題によって引き起こされる短期的な価格変動と、本物のペッグを外れるイベントとの区別を認識してください。
+The primary market exists between the stablecoin issuer, i.e. Tether, and the primary exchanges that have the ability to redeem the underlying asset of value, such as USD, or issue stablecoins to maintain price stability. These primary market transactions ensure that the stablecoin remains closely pegged to its intended value.
 
-#### 誤解三：ほとんどの安定コインが中央集権的であるため、発行者はあなたの資金を凍結することができる
-安定通貨が中央集権的な性質のために資金を凍結する可能性があるという誤解に対処する際、中央集権的なエンティティと分散型エンティティの区別を強調することが重要です。それぞれには独自の利点と欠点があります。私たちは分散型資産、例えばビットコインを強く支持していますが、これは中央集権的な安定通貨が価値や利点を欠いているという意味ではありません。
+On the other hand, the secondary market is between the customers and the exchanges. This is where individuals can buy and sell stablecoins, whether trading, investing or whatever else their heart desires.
 
-中央集権化の主な利点の一つは、ユーザーやシステム全体の最善の利益のために介入できる能力です。確かに、安定通貨の発行者が資金を凍結する可能性があるというのは事実です。しかし、実質的にすべての場合で、これは安定通貨保有者に対する悪意のある攻撃として使用されるわけではありません。代わりに、消費者を保護するために法執行機関と協力して行われます。注目すべき例は、FTX取引所の崩壊のケースです。法執行機関との協力のもと、Tetherは消費者の資金を保護するために[46百万ドル](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/)相当のUSDtを凍結しました。
+A depeg occurs when a stablecoin no longer has the necessary reserves to meet the withdrawal demands of its holders or in the event of a hack compromising the stablecoin. However, it is important to note that most short-term price volatility experienced by stablecoins is not indicative of a depeg. Instead, it is often a result of liquidity issues.
 
-中央集権的な介入の利点を示す別の例は、2020年9月の[KuCoinハック](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt)の後に発生しました。Tetherは約3500万ドル相当のUSDtを凍結し、ハッカーが不正な活動から利益を得るのを防ぎました。これらの例は、特定のシナリオにおいて、中央集権的な安定通貨が迅速に悪意のある行為者に対応し、ユーザーの利益を守ることができることを強調しています。
+Let us explain. Suppose a smaller exchange lacks the capability to redeem the underlying asset of value, and there is strong selling pressure from people seeking to withdraw the underlying asset of value backing the stablecoin. In that case, the stablecoin's price may temporarily drop below its ideal pegged price. This temporary drift from the peg is a short-term occurrence and should normalise once the exchange obtains the necessary underlying assets to meet its customer's needs. This temporary price volatility does not necessarily indicate that the stablecoin has failed and is collapsing. Instead, it reflects low liquidity levels impacting users' ability to withdraw funds in a timely manner.
 
-これを念頭に置き、ネットワークを乗っ取ることができる中間者や個人が存在しないため、長期的な貯蓄にはビットコインを優先する一方で、中央集権的な安定通貨はいくつかの利点を持っています。つまり、安定通貨の中央集権的な性質が資金の凍結の可能性を許す一方で、この特性は不正行為と戦い、ユーザーを保護する貴重なツールになり得ます。
+On the flip side, it is also possible to observe stablecoin trading above their pegged price. This situation arises when the demand for stablecoins surpasses an exchange's capacity to meet customer demands. Typically, this phenomenon occurs on smaller exchanges that lack a direct link to the stablecoin and when the underlying asset holds significant value, prompting individuals to pay a premium to acquire it. For example, consider a scenario where individuals residing in an authoritarian country experiencing rampant inflation seek refuge in stablecoins like USDt. In such cases, people may be willing to pay a premium to obtain dollars in the form of USDt. This willingness stems from the understanding that failing to do so would expose them to a greater decline in their purchasing power caused by the inflationary environment.
 
-#### 誤解四：基盤となるチェーンがダウンすると資金を失う
+In light of this, price volatility is out of the hands of the stablecoin issuers, such as Tether, as they do not interface directly with the customer. Instead, customers obtain USDt through exchanges. They are, therefore, reliant on the exchange to maintain adequate stablecoin/underlying asset liquidity to meet the needs of their customers.
 
-安定通貨に関する一般的な誤解の一つは、安定通貨の基盤となるチェーンがダウンすると資金を失うというものです。したがって、TRON、Ethereum、Algorandなど、安定通貨が運用されるトランスポート層について説明することが重要だと感じています。基盤となるチェーンに問題が発生した際に安定通貨へのアクセスを失うことは初めは心配かもしれませんが、資金を守るための措置が講じられていることを知って安心するでしょう。
+In summary, next time a stablecoin trades above or below its intended price, be aware of the distinction between short-term price volatility caused by liquidity issues and a genuine depegging event.
 
-例えば、USDtを取り上げてみましょう。多くの人が、USDtを支えるUSDがトランスポート層上にあると誤解しています。実際には、USDは基盤となるチェーンではなく、Tetherによって準備金として保持されています。したがって、USDtを保持するチェーンが中断した場合でも、それが基盤となるUSD準備金が失われることを意味するわけではありません。代わりに、以下の二つのシナリオが考えられます：
+#### Misconception Three: Given most stablecoins are centralised, the issuer can freeze your funds
 
-1. ほとんどの場合、基盤となるチェーンの中断は一時的な問題であり、チェーンは間もなく機能を再開します。これらの中断はしばしば解決され、ユーザーは安定通貨へのアクセスを回復できます。
-2. 大規模なハックやチェーンの故障など、より重大なケースでは、Tetherが対処措置を講じることがあります。彼らは機能しないチェーンのUSDt保有者のためにステージングウェブサイトを設立するかもしれません。このウェブサイトを通じて、ユーザーは自分のプライベートキーを使用してUSDtトークンの所有権を証明できます。所有権が確認されると、Tetherはユーザーが保持する機能しないUSDtトークンを焼却し、機能するチェーン上で再発行します。これらの再発行されたUSDtトークンはユーザーに送られ、資金の継続性が保証されます。
-このことを念頭に置いて、ステーブルコインの基盤となるチェーンに問題が発生した場合でも、ステーブルコインの発行者が講じることができる措置があり、あなたが資金を回収できるようになっています。
-要約すると、ステーブルコインの基盤となるチェーンがダウンした場合に資金へのアクセスを失うことについて心配するのは自然なことですが、ステーブルコインの発行者によって確立された緊急計画とプロセスを認識することが重要です。
+In addressing the misconception that stablecoins can freeze your funds due to their centralised nature, it is important to emphasise the distinction between centralised and decentralised entities, each with its own advantages and disadvantages. While we strongly advocate for decentralised assets like Bitcoin, this does not mean centralised stablecoins lack value or benefits.
 
-次に進む前に、再度強調したいのは、すべてのステーブルコインが異なって機能するということです。したがって、使用を検討しているステーブルコインについて調査し、顧客の資金を保護するために実施されている安全対策に慣れることが不可欠です。
+One of the primary advantages of centralisation is the ability to intervene when it is in the best interest of users and the overall stability of the system. Although it is true, stablecoins issuers have the potential to freeze funds. In essentially all instances, this is not used as a malicious attack on the stablecoin holder. Instead, it is in conjunction with law enforcement to protect consumers. A notable example is the case of the FTX exchange collapse. In collaboration with law enforcement, Tether froze [\$46 million](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) worth of USDt to protect consumer funds.
 
-**結論**
+Another instance demonstrating the benefits of centralised intervention occurred after the [KuCoin hack](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) in September 2020. Tether froze approximately \$35 million worth of USDt to prevent hackers from profiting from their illicit activities. These examples highlight how centralised stablecoins, in certain scenarios, can swiftly respond to malicious actors and safeguard the interests of their users.
 
-最後に... 覚えておいてください、ビットコインとステーブルコインは本質的に、政府の既存の権力構造と権威に挑戦し、自然と反発を招きます。この抵抗の多くは、既存の金融システムを乱すことや、政府の通貨および金融政策に対するコントロールを問うことへの恐れから生じることがよくあります。ただし、この反発のすべてが事実に基づいているわけではありません。したがって、これらの批判に対しては批判的な考え方でアプローチすることが不可欠です。
+With this in mind, while we prioritise bitcoin for long-term savings due to the absence of intermediaries or individuals who can co-opt the network, centralised stablecoins still hold several benefits, i.e. while the centralised nature of stablecoins allows for the potential freezing of funds, this trait can be a valuable tool in combating illicit activities and protecting users.
 
-遭遇する反発を客観的に評価することで、根拠のない批判の海をよりよく航行できます。ビットコインとステーブルコインの複雑さを自ら学び、その基盤技術に深く潜り込み、金融イノベーションとエンパワーメントの可能性をさらに探求することを主導しましょう。
+#### Misconception Four: You'll lose your funds if the underlying chain goes down
 
-最終的に、分散型金融の未来は、従来の枠を超えて冒険し、先入観に挑戦し、情報を客観的に評価する意欲のある人々にかかっています。ビットコインとステーブルコインに関する正確な知識と、その能力と限界をバランスよく理解した上で、情報に基づいた決定を下すよう努めましょう。
+One of the common misconceptions about stablecoins is that you'll lose your funds if the underlying chain of a stablecoin goes down. We, therefore, feel it is important to explain how stablecoins operate on their transport layer, such as TRON, Ethereum, and Algorand, among others. While it may initially seem concerning to lose access to your stablecoins when the underlying chain faces issues, you'll be happy to know there are measures in place to safeguard your funds.
 
-## ロヤ・マフブーブ
+Take, for example, USDt. Many fall into the trap of thinking the USD backing USDt sits on the transport layer. In reality, the USD is held in reserves by Tether and not directly by the underlying chain. Therefore, if the chain on which you hold USDt experiences a disruption, it does not mean the underlying USD reserves are lost. Instead, one of two scenarios is likely to unfold:
+
+1. In most instances, disruptions in the underlying chain are temporary hiccups, and the chain will resume functioning shortly. These interruptions are often resolved, allowing users to regain access to their stablecoins.
+2. In more significant cases, such as a major hack or chain failure, Tether can take remedial action. They may establish a staging website for USDt holders of the non-functioning chain. Through this website, users can then prove ownership of their USDt tokens using their private keys. Once ownership is confirmed, Tether can burn the non-functioning USDt tokens held by users and reissue them on a functioning chain. These reissued USDt tokens are then sent to the users, ensuring the continuity of their funds.
+
+With this in mind, there are measures in place that even if the underlying chain of a stablecoin encounters difficulties, stablecoin issuers have steps they can take so you can recover your funds.
+
+In summary, while it is natural to have concerns about losing access to your funds if the underlying chain of a stablecoin goes down, it is important to recognise the contingency plans and processes established by stablecoin issuers.
+
+Before moving on, we want to highlight, once again, that every stablecoin operates differently. Therefore, it is imperative that you research any stablecoin you intend to use to familiarise yourself with the safety measures implemented to safeguard customer funds.
+
+**Conclusion**
+
+To end... Remember, Bitcoin and stablecoins inherently challenge the established power structures and authority of governments, which naturally invites pushback. Much of this resistance often arises from the fear of disrupting the existing financial system and questioning governments' control over currency and monetary policies. That said, not all of this pushback is grounded in fact. It is, therefore, imperative to approach these criticisms with a critical mindset.
+
+By objectively assessing any pushback you encounter, you can better navigate the sea of baseless criticisms. Take the initiative to educate yourself on the intricacies of Bitcoin and stablecoins, delve into their underlying technology, and further explore their potential for financial innovation and empowerment.
+
+Ultimately, the future of decentralised finance rests with those willing to venture beyond the confines of convention, challenge preconceived notions, and evaluate information objectively. Strive to make informed decisions about Bitcoin and stablecoins based on accurate knowledge and a balanced understanding of their capabilities and limitations.
+
+## Roya Mahboob
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-今日のグローバル化された世界では、金融サービスへのアクセスは経済参加と独立の重要な要素です。にもかかわらず、依然として多くの個人が従来の銀行システムから除外されており、特に女性がこの除外の重荷を背負っています。驚くべきことに、世界人口の[四分の一](https://www.worldbank.org/en/publication/globalfindex)が未銀行化であるにもかかわらず、サウジアラビアのような国では、[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)の女性が基本的な銀行サービスへのアクセスを欠いており、彼女たちは自国の経済や社会への完全な参加を阻まれています。
+In today's globalised world, access to financial services is a critical component of economic participation and independence. Despite this, far too many individuals are still excluded from the traditional banking system, with women often bearing the brunt of this exclusion. Shockingly, although an unnecessary [one-quarter](https://www.worldbank.org/en/publication/globalfindex) of the global population remains unbanked, in countries like Saudi Arabia, [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) of women lack access to basic banking services, preventing them from fully participating in their country's economy and society.
 
-以下は、今日でも世界中の女性が依然として耐えている条件のほんのいくつかの例です：
+Here are just a few examples of the conditions that women around the world still endure today:
 
-1. 銀行口座の開設に関する制限：世界中の[72](https://www3.weforum.org/docs/WEF_GGGR_2020.pdf)カ国で、女性は自分の名前で銀行口座を開設することが許されていません。これは、彼女たちが金融サービスにアクセスしたり、お金を貯めたり、自分の財政生活をコントロールすることができないことを意味します。
-2. 男性親族への依存：多くの父権社会では、女性は金銭的な支援のために男性親族に依存しています。これは、彼女たちが自分自身で財政的な決定を下すことができず、しばしば男性親族の慈悲に委ねられていることを意味します。例えば、アフガニスタンでは、女性はしばしば男性家族のメンバーに金銭的な援助を頼らなければならず、男性の保護者の許可なしに金融サービスにアクセスすることができない場合があります。
-3. 雇用に関する制限：特定の国では、女性が家の外で働くことが許されておらず、これが彼女たちが経済的独立を達成することを困難にしています。例えば、シリア、イラク、アフガニスタン、アルジェリア、パレスチナ、ヨルダン、イランでは、女性は労働力のわずか[15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html)を占めています。4. 財産権の欠如：世界にはまだ[75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets)の国があり、女性に財産権がないため、土地やその他の資産を所有する能力に制限があります。これにより、彼女たちはビジネスを始めたり、信用を得ることが困難になります。なぜなら、担保として提供できるものが何もないからです。例えば、インドの一部地域では、女性が財産を所有することが許されておらず、男性の親族の許可なしに信用を得ることができないかもしれません。
+1. Restrictions on opening bank accounts: In [72](https://www3.weforum.org/docs/WEF_GGGR_2020.pdf) countries worldwide, women are not allowed to open bank accounts in their own name. This means they cannot access financial services, save money, or take control of their financial lives.
+2. Dependence on male relatives: In many patriarchal societies, women are dependent on male relatives for financial support. This means that they are unable to make financial decisions for themselves and are often at the mercy of their male relatives. For example, in Afghanistan, women often have to rely on male family members for financial assistance, and they may not be able to access financial services without the permission of a male guardian.
+3. Restrictions on employment: In certain countries, women are not allowed to work outside the home, which makes it difficult for them to achieve financial independence. For example, in Syria, Iraq, Afghanistan, Algeria, Palestine, Jordan and Iran, women only make up between [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) of the workforce.
+4. Lack of property rights: There are still [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) nations globally where women do not have property rights, which means they are limited in their ability to own land or other assets. This makes it difficult for them to start businesses or access credit, as they do not have any collateral to offer. For example, in some parts of India, women are not allowed to own property, and they may not be able to access credit without the permission of a male relative.
 
-これらは、現代社会において女性が金融サービスにアクセスし、経済的独立を達成する際に直面する障害のいくつかの例に過ぎません。
+These are just a few examples of the kinds of obstacles that women in many present-day societies still face when it comes to accessing financial services and achieving financial independence.
 
-基本的なサービスへのアクセスがないことは、これらの女性が経済的独立を達成し、自分たちの財政生活をコントロールすることを非常に困難にしています。しかし、希望が見えています。ビットコインの台頭以来、これらの女性にはこの問題の解決策が提供されています。シンプルなインターネット接続を通じて、彼女たちは伝統的な銀行業界が提供できなかった、信頼性がなく、許可不要で、分散型の交換手段へのアクセスを得ています。ビットコインは、伝統的な金融システムに置き去りにされた女性たちを力づけています。
+This lack of access to fundamental services makes it incredibly difficult for these women to achieve economic independence and take control of their financial lives. However, there is hope on the horizon. Since the rise of Bitcoin, these women now have a solution to this problem. Through a simple internet connection, they now have access to a trustless, permissionless and decentralised medium of exchange that the traditional banking industry has failed to provide. Bitcoin is empowering women who have been left behind by the traditional financial system.
 
-ビットコインが女性の生活をどのように変えたかの一例を見てみましょう...
+Let's look at one such example of how Bitcoin has transformed women's lives...
 
-アフガニスタンは何十年もの間、紛争に悩まされてきた国であり、特に女性の状況は極めて厳しいものがあります。1996年から2001年にかけて支配したタリバンの抑圧的な政権は、教育を受ける権利や働く権利を含む女性の基本的な権利を奪いました。タリバンが倒れた後も、アフガニスタンの女性は教育や雇用の機会への限られたアクセス、財政的な独立の欠如といった重大な課題に直面し続けています。
+Afghanistan is a country that has been plagued by conflict for decades, and the situation for women in the country is particularly dire. The Taliban's oppressive regime, which ruled from 1996 to 2001, stripped women of their basic rights, including the right to education and the right to work. Even after the fall of the Taliban, women in Afghanistan continue to face significant challenges, including limited access to education and employment opportunities and a lack of financial independence.
 
-しかし、近年、ビットコインは特に周縁化されがちな女性のための財政的エンパワーメントの強力なツールとして現れました。ビットコインの可能性を活用した一人が、アフガニスタンの女性が金融サービスにアクセスし、彼女たちの尊厳を取り戻すのを助けるためにデジタル通貨を使用したアフガニスタンの起業家、[Roya Mahboob](https://twitter.com/royamahboob)です。
+However, in recent years, Bitcoin has emerged as a powerful tool for financial empowerment, especially for women who are often marginalised. One individual who has taken advantage of Bitcoin's potential is [Roya Mahboob](https://twitter.com/royamahboob), an Afghan entrepreneur who has used the digital currency to help women in her country access financial services and regain their dignity.
 
-タリバンが[1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D)年にアフガニスタンを掌握したとき、世界が恐怖で見守る中、この若い女性ロヤは紛争の中心で生活していました。たった7歳のとき、彼女はタリバンに侵略され占領された故郷で戦争の混乱と不確実性に巻き込まれました。学校に行くことができないという事実に加え、彼女が直面した危険と逆境にもかかわらず、ロヤは敗北を拒否しました。代わりに、彼女は自分の状況によって課された制限を克服する方法として教育に目を向けました。
+While the world watched in horror as the Taliban seized control of Afghanistan in [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), this young girl Roya was living in the heart of the conflict. At just seven years old, she found herself caught up in the turmoil and uncertainty of war as her hometown was invaded and occupied by the Taliban. Despite the danger and adversity she faced, on top of the fact that she was unable to go to school, Roya refused to be defeated. Instead, she turned to education as a way to overcome the limitations imposed upon her by her circumstances.
 
 ![image](assets/5.webp)
-**図:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)  
-Roya Mahboobは、アフガニスタンの技術と起業家精神の分野で先駆者です。彼女は「アフガニスタンの高校にインターネット教室を建設した」後、2013年のTIME誌の世界で最も影響力のある100人に[選ばれました](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf)。さらに、彼女は2010年にアフガン・シタデル・ソフトウェア・カンパニーを設立し、「特に女性のために、最近の大学卒業生のための仕事を創出する」ことを目指しました。そしてそれだけではなく、その後デジタル・シチズン・ファンドを立ち上げました。この非営利団体は、技術を通じて発展途上国の女性と子供たちを力づけることを目的としています。
 
-しかし、この旅の中で、Royaは一人ではありませんでした。Bitcoinは、女性を力づけるという彼女の使命において、かけがえのないツールであることが証明されました。女性が働いたり銀行口座を開設することを阻む法的障壁を含む数多くの障害に直面しながらも、Royaは彼女と一緒に働く女性たちに支払いをする方法を見つけることを決意しました。
+\***Figure:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 
-ここでBitcoinが登場します…Bitcoinを保持するには従来の銀行口座が必要ないため、インターネット接続があれば誰でも使用できます。これは、従来の銀行サービスにアクセスできないかもしれないアフガニスタンの女性たちが、Bitcoinを通じて金融サービスにアクセスできることを意味します。
+Roya Mahboob is a trailblazer in Afghanistan's technology and entrepreneurship field. Not only was she [named](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) TIME Magazine's 100 Most Influential People in the World for 2013 after "building internet classrooms in high schools in Afghanistan." She also founded the Afghan Citadel Software Company in 2010, which aims to "create jobs for recent university graduates - especially women." And if that wasn't enough, she then went on to start the Digital Citizen Fund. This non-profit organisation works to empower women and children in developing countries through technology.
 
-したがって、信頼できる、許可不要、分散型の特性を持つことで、従来の金融システムから締め出されていたこれらの女性たちにとって命綱となりました。
+However, throughout this journey, Roya was not alone. Bitcoin has proven to be an invaluable tool in her mission to empower women. Despite facing numerous obstacles, including legal barriers preventing women from working and opening bank accounts, Roya was determined to find a way to pay the women who were working with her.
 
-Roya Mahboobはこの可能性を早期に認識し、デジタル・シチズン・ファンドでの仕事にそれを取り入れ始めました。彼女は、Bitcoinがアフガニスタンの女性たちに金融サービスへのアクセスを提供し、彼女たちの金融生活をコントロールする方法を提供できると見ました。
+This is where Bitcoin came in… Because holding bitcoin doesn't require the owner to have a traditional bank account, anyone with an internet connection can use it. This means that women in Afghanistan who may not have access to traditional banking services can still access financial services through Bitcoin.
 
-Roya MahboobがBitcoinを使用した方法の一つは、ウィメンズ・アネックス・ファンデーションというプログラムを通じてです。ウィメンズ・アネックス・ファンデーションは、アフガニスタンの女性に教育と雇用の機会を提供するプラットフォームです。これにより、女性はブログ、ビデオ、ソーシャルメディアの投稿などのコンテンツを作成する機会を得ます。このコンテンツはウィメンズ・アネックスのプラットフォームで共有され、グローバルな視聴者と繋がり、彼女たちの作業と引き換えにビットコインでお金を稼ぐことができます。これは、Bitcoinの出現以前には不可能だったことです。
-ウィメンズ・アネックス・ファンデーションは設立以来、アフガニスタンの無数の女性が金融独立を達成し、彼女たちの金融生活をコントロールするのを助ける大きな成功を収めています。ビットコインを稼ぐことで、これらの女性は従来の金融機関を迂回し、そうでなければ利用できない金融サービスにアクセスできます。
+Therefore, given its trustless, permissionless and decentralised characteristics, it provided a lifeline for these women who had previously been shut out of the traditional financial system.
 
-金融独立を提供するだけでなく、Bitcoinはアフガニスタンの女性たちに彼女たちの尊厳を取り戻させました。Bitcoinが分散型であるため、男性の保護者が必要なく、女性たちは自分たちの金融生活をコントロールできるようになりました。これは、女性がしばしば二級市民として扱われる国で、大きな前進です。
+Roya Mahboob recognised this potential early on and began to incorporate it into her work with the Digital Citizen Fund. She saw that Bitcoin could provide a way for women in Afghanistan to access financial services and take control of their financial lives.
 
-さらに、MahboobとBitcoinの助けを借りて、これらのアフガニスタンの女性たちは今やグローバルな視聴者と繋がることができます。願わくば、これからの年月で、これらの女性は世界と彼女たちの物語や視点を共有し続け、異なる文化やコミュニティ間に存在する障壁を打ち破るのに役立つでしょう。
+One of the ways that Roya Mahboob has used Bitcoin is through a program called the Women's Annex Foundation. The Women's Annex Foundation is a platform that provides educational and employment opportunities for women in Afghanistan. It gives women the opportunity to create content such as blogs, videos, and social media posts. This content is then shared on the Women's Annex platform, enabling them to connect with a global audience and earn money in the form of bitcoin in exchange for their work. This is something that would have been previously impossible before the emergence of Bitcoin.
+Since its inception, the Women's Annex Foundation has been a tremendous success, helping countless women in Afghanistan to gain financial independence and take control of their financial lives. By earning bitcoin, these women can bypass traditional financial institutions and access financial services that would otherwise be unavailable to them.
 
-全体として、Bitcoinは女性の金融エンパワーメントのための強力なツールでした。
-1949年、メキシコで貧しい環境に生まれたメルセデスは、幼い頃から社会にはびこる深刻な不平等を目の当たりにしました。彼女の子供時代を通じて、学生運動への政府の弾圧や、貧困にあえぐ女性が直面する特有の困難など、数多くの挑戦に直面しました。さらに、富裕層と貧困層の広大な格差と、質の高い教育への限られたアクセスは、彼女の家族を含む無数の人々を貧困に閉じ込めました。これらの不正義にフラストレーションを感じたメルセデスは、マルクス主義（共産主義）に傾倒し、社会変革と経済改革を提唱しました。
+In addition to providing financial independence, Bitcoin has also given women in Afghanistan back their dignity. Because Bitcoin is decentralised, it has enabled women to take control of their financial lives without the need for a male guardian. This is a significant step forward in a country where women are often treated as second-class citizens.
 
-強固なマルクス主義の信念を持ちながらも、メルセデスは最終的に、権力と富の分配に関してこれらの伝統的なシステムの固有の制約を認めるようになりました。この実現が彼女を他の場所を探すきっかけとなり、長年批判してきた金融システムに挑戦する可能性を秘めたビットコインに出会いました。金融の自由化とエンパワーメントを促進する見込みに動機づけられ、メルセデスはビットコインの変革的な可能性を提唱することにエネルギーを向け直しました。
+Furthermore, with the help of Mahboob and Bitcoin, these women in Afghanistan can now connect with a global audience. Hopefully, in the years to come, these women will continue to share their stories and perspectives with the world, helping to break down the barriers that exist between different cultures and communities.
 
-麻薬関連の暴力と経済的不安定が女性に不釣り合いに影響を与える彼女の母国メキシコで、メルセデスはこれらの個人にビットコインを安全で代替的な財務管理手段として提供するために疲れ知らずに働いています。デジタルウォレットの設定と使用方法を教えることで、彼女は彼らがお金をよりコントロールできるようにし、伝統的な貧困と犯罪のサイクルから脱却することを可能にします。
+Overall, Bitcoin has been a powerful tool for women's financial empowerment.
 
-メルセデスは、女性をエンパワーメントすることがビットコインの全潜在能力を解き放つ鍵であると信じています。世界中の女性にビットコインへのアクセスとそれを理解し使用するための必要なツールを提供することで、彼女は彼らが貧困と抑圧から脱却し、自分たちと家族のためにより明るい未来を創造することを可能にすることを望んでいます。
+## Mercedes
+<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 
-モザンビーク、メキシコ、ベネズエラ、アルゼンチンなどの国々での彼女の経験は、ビットコインを通じて女性をエンパワーメントするための彼女の揺るぎないコミットメントを示しています。モザンビークでは、農村地域の女性が金融サービスへのアクセスが限られている中、メルセデスは積極的にこれらの女性がビットコインについて学び、より安全な取引、安全な貯蓄、そして増加した財政的自立を実現するためにどのように利用できるかを支援しています。
+Born in Mexico in 1949 into impoverished circumstances, Mercedes experienced the stark inequalities plaguing her society from an early age. Throughout her childhood, she faced numerous challenges, including government repression of student movements and unique struggles experienced by women living in poverty. Moreover, the vast gap between the rich and the poor, combined with limited access to quality education, trapped her family and countless others in poverty. Frustrated by these injustices, Mercedes gravitated toward Marxism (Communism), advocating for social change and economic reform.
 
-経済的不安定と高いインフレ率に悩まされるベネズエラとアルゼンチンの両国では、メルセデスはビットコインの採用を積極的に促進しています。彼女は、無数の女性が家族を養うために苦労しているベネズエラの抑圧的なハイパーインフレーションに対抗し、より安定した通貨としてビットコインを導入することで、彼らが苦労して稼いだ貯蓄を守り、必要な商品やサービスへのアクセスを確保することを可能にします。一方、アルゼンチンでは、メルセデスは女性起業家がビットコイン支払いを受け入れるビジネスを設立するプロセスをガイドすることに焦点を当て、困難な経済環境での成長と財政的独立の新たな機会を開きます。
+Despite holding strong Marxist beliefs, Mercedes eventually came to acknowledge the inherent constraints of these traditional systems when it came to power and wealth distribution. This realisation prompted her to look elsewhere, which is when she encountered Bitcoin and its potential to challenge the very financial systems she had long criticised. Motivated by the prospect of fostering financial liberation and empowerment, Mercedes redirected her energy toward advocating for the transformative potential of Bitcoin.
 
-貧困に生きる人々が耐える特有の困難に対するメルセデスの揺るぎないコミットメントと、技術と現実世界の影響の間の隔たりを埋めるための先駆的な努力は、ビットコインと人類の精神の深い変革的影響の証として立ちます。マルクス主義からビットコイン愛好家への彼女の旅を振り返り、彼女はお金と権力が人間関係と人生の真の意味において、つながり、思いやり、そしてポジティブな影響ほど重要ではないことを実現しました。
+In her native Mexico, where drug-related violence and economic instability disproportionately affect women, Mercedes works tirelessly to provide these individuals with access to bitcoin as a secure and alternative means of managing their finances. By teaching them how to set up and use digital wallets, she enables them to have more control over their money and break free from the traditional cycles of poverty and crime.
 
-希望と興奮に満ちたメルセデスは、情熱を持ち、コミットメントを持つ個人の手に委ねられた場合、ビットコインが世界をより良い方向に変える可能性を見ています。この変化の最前線に女性がいることで、彼女は一緒に達成できることに限界はないと信じています。
+Mercedes believes empowering women is the key to unlocking Bitcoin's full potential. By providing women globally with access to bitcoin and the necessary tools to understand and use it, she hopes to enable them to break free from poverty and oppression, creating a brighter future for themselves and their families.
 
-メルセデスの人生は信じられないほどの旅であり、彼女の人生におけるビットコインの影響は本当に注目に値します。彼女の物語は、ビットコインが意味のある変化をもたらし、あらゆる歩みの人々をエンパワーメントする希望の光として機能します。金融平等の提唱者として、彼女は豊富な知識と旅行経験を活用して、伝統的な金融システムによって疎外された人々を教育し、向上させるために努力を続けています。彼女の継続的な努力は、一人の人の情熱と決意が世界中のコミュニティでポジティブな変化を触発することができる方法の例です。
-このコースの終わりに近づくにつれて、私たちは刺激的なステーブルコインのストーリーのコレクションを紹介したいと思います。これらの証言は、ステーブルコインの力を活用して彼らの生活を向上させた個人、事業主、そして企業からの実生活の経験を紹介しています。
-以下の例では、この多様なグループの人々が、より簡単かつ効率的に現代の金融風景の複雑さをナビゲートするためにステーブルコインがどのように彼らを力づけたかについての第一人者の話を聞くことができます。シームレスな国際取引や拡大するビジネスチャンスから、強化された金融包摂性、より安定した価値の保存まで、各ストーリーはステーブルコインがそれぞれの旅に与えた影響を強調しています。
+Her experiences in countries such as Mozambique, Mexico, Venezuela, and Argentina showcase her unwavering commitment to empowering women through Bitcoin. In Mozambique, where access to financial services is limited for women in rural areas, Mercedes actively helps these women learn about Bitcoin and how it can be utilised for safer transactions, secure savings, and increased financial autonomy.
+
+In both Venezuela and Argentina, countries plagued by economic instability and high inflation rates, Mercedes has been actively involved in promoting Bitcoin adoption. She combats the crippling hyperinflation in Venezuela that has left countless women struggling to provide for their families by introducing Bitcoin as a more stable currency, empowering them to protect their hard-earned savings and ensure access to essential goods and services. Meanwhile, in Argentina, Mercedes focuses on guiding women entrepreneurs through the process of setting up their businesses to accept Bitcoin payments, opening up new opportunities for growth and financial independence in a challenging economic climate.
+
+Mercedes' unwavering commitment to the distinct hardships endured by those living in poverty, coupled with her pioneering efforts to bridge the divide between technology and real-world impact, stands as a testament to the profound transformative influence of Bitcoin and the spirit of humanity. Reflecting on her journey from Marxism to Bitcoin enthusiast, she realised that money and power were not as important as connections, compassion, and positive impact when it came to human relations and the true meaning of life.
+
+Filled with hope and excitement, Mercedes sees the potential for Bitcoin to change the world for the better, given that it is in the hands of passionate, committed individuals. With women at the forefront of this change, she believes there will be no limit to what they can achieve together.
+
+Mercedes' life has been an incredible journey, and the impact of Bitcoin on her life is truly remarkable. Her story serves as a beacon of hope for Bitcoin to bring about meaningful change and empower individuals from all walks of life. As an advocate for financial equality, she leverages her extensive knowledge and travel experiences to educate and uplift those marginalised by traditional financial systems. Her ongoing efforts exemplify how one person's passion and determination can inspire positive change in communities worldwide.
+
+## Stablecoin Stories
+<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+
+As we approach the end of this course, we'd like to present a collection of inspiring stablecoin stories. These testimonials showcase real-life experiences from individuals, business owners, and companies who have harnessed the power of stablecoins to elevate their lives.
+
+In the following examples, you'll hear firsthand accounts of how stablecoins have empowered this diverse group of people to navigate the complexities of the modern financial landscape with greater ease and efficiency. From seamless international transactions and expanded business opportunities to enhanced financial inclusivity and a more stable store of value, each story highlights the impact of stablecoins on their respective journeys.
 
 Loc
-ベトナムのカフェオーナー
+Owner of A Cafe, Vietnam
 
-「ビンタン地区の私のカフェでは、若い顧客層と時折観光客に向けて、コーヒー、ソフトドリンク、カクテルを含む様々な飲み物を提供しています。Tetherは、現地通貨や銀行口座を持たない外国人顧客からの支払いを処理するための私たちの主要な解決策となっています。Tetherを通じた売上は現在小さいかもしれませんが、通貨のギャップを埋め、国際的な顧客を受け入れる便利な方法を提供してくれます。顧客は私たちが暗号通貨の支払いを受け入れることによく驚き、彼らの経験に長く残る印象を与えます。」
+“At my cafe in Binh Thanh district, we cater to a young clientele and occasional tourists, offering a variety of beverages, including coffee, soft drinks, and cocktails. Tether has become our go-to solution for processing payments from foreign customers who lack local currency or bank accounts. While the sales through Tether may be small currently, it provides us with a convenient way to bridge the currency gap and accommodate our international patrons. Customers are often amazed by our openness to accepting cryptocurrency payments, leaving a lasting impression on their experience."
 
 ![image](assets/6.webp)
 Parvinee Ratchaphokhinpiti
-タイの退職者
+Retired, Thailand
 
-「USDtは私の国際送金を革命的に変えました。退職者として、私は以前は遅い銀行送金に頼っていました。USDtのおかげで、今ではデジタル資産交換を通じて努力なくお金を送ることができます。30分以内に、私の妹は資金を受け取りました。時間を節約する利点は非常に貴重で、迅速かつ手間のかからない取引を保証します。」
+“USDt revolutionised my international money transfers. As a retiree, I used to rely on slow bank wires. Thanks to USDt, I can now send money effortlessly through a digital asset exchange. Within 30 minutes, my sister received the funds. The time-saving benefits are invaluable, ensuring swift and hassle-free transactions.”
 
 ![image](assets/7.webp)
 Jamie Tran
-ベトナムのピアノ教師
+Piano Teacher, Vietnam
 
-「海外の親戚にお金を送ることは頻繁に必要でしたが、地元の両替所で通貨を変換するプロセスは時間がかかり、費用もかかりました。これらの課題に対処するため、私は親戚にUSDtの利便性を紹介しました。この単純な変更により、私たちの家族は金融取引で大幅な時間とお金を節約することができました。USDtを使うことで、私たちは今、効率的でコスト効果の高い海外送金を楽しんでいます。」
+"Sending money to my relatives overseas has been a frequent necessity, yet the process of converting currencies at local exchanges proved to be both time-consuming and expensive. To address these challenges, I introduced my relatives to the convenience of using USDt. This simple shift has enabled our family to save significant time and money in our financial transactions. With USDt, we now enjoy streamlined overseas transfers, ensuring efficient and cost-effective support for our loved ones."
 
 ![image](assets/8.webp)
 Roman
-ベトナムに住むロシア人駐在員
+Russian Expat living in Vietnam
 
-「ベトナムに住んでいる私は、頻繁にロシアの親戚やいとこにTetherを送金しています。Tetherを使った海外送金は、従来の銀行方法を使うよりも手間がかかりません。銀行訪問、公証文書、説明などは必要ありません。送金限度額がなく、手数料が最小限で、取引が迅速なため、資金は数分以内に届きます。」
+“Living in Vietnam, I frequently send Tether to my relatives and cousins in Russia. Transferring money overseas with Tether is hassle-free compared to using traditional banking methods. No bank visits, notarised documents, or explanations are required. With no sending limits, minimal fees, and fast transactions, funds are delivered within minutes.”
 
 ![image](assets/9.webp)
 Luis Graterol
-ベネズエラのオーディオビジュアル
+Audiovisual, Venezuela
 
-「私の名前はLuis Graterolで、Tetherは私が別の方法で私の貯蓄を確保するのを助けてくれました。ベネズエラでは高いインフレに苦しんでおり、Tetherは大いに助けになりました。その使いやすさはシンプルで、多くの場合、手数料なしで取引を行うことができます。USDtは私の生活を楽にしてくれます！また、オーディオビジュアルメディアでの使用を促進し教育するのにも役立ちます。その使いやすさを発見して以来、私はUSDtで支払いを受け取り、多くの人々に影響を与える面倒な地元の法定通貨を節約しています！」
+“My name is Luis Graterol, and Tether helped me secure my savings in another way. In Venezuela, we suffer due to the high inflation, and Tether has helped a lot. Its usability is simple, and in many cases, you can make transactions without any fees. USDt makes my life easier! It also helps me educate and encourage its use in the audiovisual media; since I discovered its ease, I receive my payments by USDt, and I save the tedious local fiat that affects many of us!”
 
 ![image](assets/10.webp)
 Dubraska Villanloga
-ベネズエラ、カラカスのTu Cachapa CaricuaoのCEO
+CEO Tu Cachapa Caricuao, Caracas, Venezuela
 
-「私はベネズエラ出身で、小さな朝食配達ビジネスを運営しています。Tether USDtは、私にとって現金の問題の実行可能な解決策でした。USDtはまた、私の貯蓄にも役立ちました。なぜなら、もし私がビジネス口座をベネズエラボリバルで持っていたら、絶え間ない価値の下落のために食品の調達計画を立てることができなかったでしょう。」
-マルセラ・ロメロ
-マーケティングおよびPRマネージャー、コスタリカ、グアナカステ
+“I’m from Venezuela and run a small breakfast delivery business. Tether USDt has been a viable solution for the problem of physical cash for me. USDt has also helped me with my savings because if I held my business accounts in the Venezuelan Bolivar, I could not have planned ahead with my sourcing of foods due to the constant devaluation”
 
-「数年前、私は夫の国に移住しました。パンデミックのため、特殊な移民状況に直面し、居住権または市民権を得るまでに長い時間がかかりました。約3年間、私は銀行口座を持つことができず、合法的に働くこともできませんでした。しかし、オンラインでの仕事を活用し、給与をUSDtで受け取ることで、国際企業とリモートでキャリアを続けることができました。Tetherを使えば、高い手数料や遅延なしに即座に故郷に送金することができます。Tetherは、政府の制限にもかかわらず、私がプロフェッショナルな目標を追求し、財政的な独立を維持することを可能にしました。」
+![image](assets/11.webp)
+Marcela Romero
+Marketing and PR Manager, Guanacaste, Costa Rica
 
-シモネス・ゴメス
-QAエンジニア、ベネズエラ出身、アルゼンチン在住
+“A few years ago, I moved to my husband's country. Due to the pandemic, I faced a unique migratory condition, resulting in a lengthy wait for residency or citizenship. For nearly three years, I lacked access to a bank account and couldn't work legally in the country. However, leveraging my online work capabilities and receiving my salary in USDt, I continued my career remotely with international companies. With Tether, I can instantly send money back home without high fees or delays. Tether has enabled me to pursue my professional goals and maintain financial independence despite government restrictions.”
 
-「こんにちは、私の名前はシモネス・ゴメスです。私はベネズエラ出身ですが、現在はブエノスアイレスに住んでおり、ソフトウェア品質アナリストとして働いています。アルゼンチンに来たとき、私の職場と家族に送金するために両替をする場所との間には12kmの距離がありました。そこでUSDtを紹介され、使用を始めました。バスで5ドルや10ドルかけてその距離を移動する代わりに、デスクから2分で解決できたのです。」
+![image](assets/12.webp)
+Simoneth Gomez
+QA Engineer, Venezuela, living in Argentina
 
-カルロス・カバジェロ
-心理学者、アルゼンチン
+“Hi, my name is Simoneth Gomez. I'm from Venezuela, but I am currently living in Buenos Aires, where I work as a software quality analyst. When I came to Argentina, I had a distance of 12 km between my work and the place where I had to change money to send to my family in Venezuela. So I was introduced to USDt and started using it because instead of having to go that route for \$5 or \$10 on a bus, I was able to solve it from my desk in two minutes”
 
-「Tetherは、パンデミックの年月を通じて私の専門職で働き続けることを可能にした解決策でした。ドルに固定されているため、国際的な参照価値を持つという事実。そして、他の暗号通貨のボラティリティに対するその安定性と安全性が、私がそれを選んだ主な理由です。」
+![image](assets/13.webp)
+Carlos Caballero
+Psychologist, Argentina
 
-エロイーザ・パソス
-CEO Sp4ce Games、ブラジル
+“Tether has been the solution that has allowed me to continue working in my profession during the years of the pandemic. The fact of being a currency anchored to the dollar allows it to have an international reference value. And its stability and security against the volatility of other cryptocurrencies is the main reason that led me to choose it.”
 
-「私は約5年間、国際企業でリモートワークをしていますが、そのほとんどの時間、国内銀行からの高い利率に悩まされてきました。国際送金ごとに大きなパーセンテージの手数料を請求される上、Swiftシステムを通じた支払いのクリアリングには約24時間かかります。Tetherで給与を受け取り始めたとき、USDtで支払われるだけで、どれだけの時間とお金を節約できたかに気づきました。」
+![image](assets/14.webp)
+Heloisa Passos
+CEO Sp4ce Games, Brazil
 
-サミュエル
-貿易会社、ナイジェリア
+"I have been working remotely for international companies for about five years now, and most of that time, I suffered with high interest rates from the national banks, which charge a large percentage rate for every international remittance made, in addition to the waiting time for clearing payments through the Swift system (about 24 hours). When I started receiving my salary in Tether, I realised how much time and money I started saving just by being paid in USDt."
 
-「USDtの使用は、私たちのビジネスに多くの時間を節約してくれました。なぜなら、ナイジェリアのビジネスとしてUSDを入手するには、銀行に行き、フォームを記入し、数時間並んで引き出しや送金をする貴重な時間を費やす必要があるからです。しかし、USDtでは、地元の通貨と交換して5分未満で任意の取引を実行できます。」
+![image](assets/15.webp)
+Samuel
+Trading Company, Nigeria
 
-ジョシュア
-学生、ナイジェリア
+“Using USDt has saved our business a lot of time because, as a Nigerian business getting USD requires going to our bank while spending valuable time filling out forms and queuing for hours to make withdrawals or transfers. With USDt, however, we can exchange it for local currency in less than 5 minutes and execute any transaction we might have.”
 
-「Tetherは多くの面で私を助けてくれました。Tetherで稼ぐことで、国のインフレ上昇のプレッシャーを克服し、無駄な支出を減らすことができました。また、ナイラの価値下落の影響を受けにくいため、私の貯蓄は価値を保つことができます。」
+![image](assets/16.webp)
+Joshua
+Student, Nigeria
 
-エスター
-HRエージェンシー、ナイジェリア
+“Tether has helped me in numerous ways. Earning in Tether has helped me beat the tension of the rising inflation in the country, and it has helped me cut down on wasteful spending. Also, it helps my savings retain their value as I'm not badly affected by the devaluation of the Naira.”
 
-「HR業界では、異なる国々の多くの人々に支払いをする必要があります。そして、私たちは単に全員に彼らの国の通貨で支払うことはできません。Tether USDtを使えば、彼らの国籍やどこで働いているかにかかわらず、全員に支払うことができ、彼らはいつでも自分でUSDtを交換することができます。」
+![image](assets/17.webp)
+Esther
+HR Agency, Nigeria
 
-### **結論**
-これらの物語が皆さんにとって刺激的であったことを願っています。そうは言っても、USDtのようなステーブルコインが、個人が迅速かつ効率的な国際送金、USDでの請求と支払い、USDで表示される賃金、そして何よりも無数の変動する通貨と比較して比較的安定した価値の保存手段を利用することを可能にする上で、中心的な役割を果たしていることは明らかです。ステーブルコインがなければ、これらの個人は多くの場合、グローバルマーケットに参入したり、国際的な家族と繋がったり、そうでなければ手の届かない顧客に到達したりする際に、大きな障壁に直面するでしょう。ステーブルコインは間違いなく彼らの金融的なつながりを強化し、私たちのグローバル経済の複雑さをナビゲートするための貴重なツールを提供しました。
+“In the HR industry, we have a lot of people to pay across different countries. And we simply cannot pay everyone in their national currency. With Tether USDt, we can pay everyone irrespective of their nationality and wherever they are working from, and they can exchange the USDt themselves whenever they want to.“
 
-## 試験
+### **Conclusion**
+
+We hope you’ve found these stories inspiring. That said, it should be clear that stablecoins, such as USDt, play a pivotal role in enabling individuals access to fast and efficient international transfers, USD invoicing and payments, wages denominated in USD, and, most importantly, a relatively stable store of value compared to the countless volatile currencies. Without stablecoins, many of these individuals would face significant barriers when tapping into the global marketplace, connecting with international family members, or reaching otherwise inaccessible customers. Stablecoins have undeniably enhanced their financial connectivity and provided a valuable tool for navigating the complexities of our global economy.
+
+## Exam
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
-「疑念を克服する」モジュールを経て、最後のセクションを理解したことを確認するために、新しく習得した知識をテストする必要があります。いくつかの記述式の質問から始め、その後に小さなクイズを行います。
+Now that you went through the Module "Overcomming Doubts" you will have to test your newly acquirred knowledge to make sure that you have understood the last sections. We'll start with several Open-Ended Questions and then a small quizz.
 
-1. ビットコインに関連して価値の概念をどのように見ていますか？通貨が価値を持つためには、何か具体的なものに裏打ちされる必要があると思いますか？
-2. ロヤ・マフブーブがデジタル・シチズン・ファンドおよびウィメンズ・アネックス・ファウンデーションで行った仕事を振り返って、発展途上国の女性を力づけるための取り組みにテクノロジーとビットコインを取り入れることの主な利点は何だと思いますか？
-3. 特にさまざまな形の差別に直面し、限られた機会しか持たない国々の女性のエンパワーメントにおいて、金融的な独立はどれほど重要だと思いますか？ビットコイン以外に、そのような状況で女性が金融的な独立を達成するのを助ける他の方法を考えることができますか？
-4. ビットコインがエネルギー生産者に直接エネルギーを収益化する能力を提供することを考えると、これがエネルギー生産者および全体のエネルギー市場にとって重要な利点をもたらすと思いますか？
-5. ビットコインのエネルギー消費と他の産業との比較を考えると、そのエネルギー使用についてビットコインを特別扱いすることは公平ですか？なぜですか、またはなぜではありませんか？
+1. How do you view the concept of value in relation to bitcoin? Do you think it is necessary for a currency to be backed by something tangible to be valuable?
+2. Reflecting on Roya Mahboob's work with the Digital Citizen Fund and the Women's Annex Foundation, what do you think are the key benefits of incorporating technology and Bitcoin into initiatives aimed at empowering women in developing countries?
+3. How important is financial independence for women's empowerment, particularly in countries where they face various forms of discrimination and limited opportunities? Can you think of other ways besides Bitcoin that could help women achieve financial independence in such contexts?
+4. Given Bitcoin’s ability to offer energy producers the ability to monetise energy directly, do you think this has significant benefits for energy producers and the overall energy market?
+5. Reflecting on the comparisons between Bitcoin's energy consumption and other industries, is it fair to single out Bitcoin for its energy usage? Why or why not?
 
-# 終わりに
-<partId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</partId>
+# Closing Remarks
+<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
 
-## 終わりに
+## Closing Remarks
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
-このコースの最後まで来てくれておめでとうございます！長い道のりでした。この旅を通じて、私たちは以下を含む幅広いトピックに深く潜り込みました：
+Congratulations on making it to the end of the course! You've come a long way. Throughout this journey, we've delved into a wide array of topics, including:
 
-- お金の魅力的な歴史。
-- ビットコインという革命的な発明。
-- テザーとその様々なステーブルコインの提供。
-- ビットコインとステーブルコインに関連する多くの誤解を事実から分離する。
-- これらの技術が私たちのダイナミックで常に変化する世界で積極的に利用されている様々な実例。
+- The fascinating history of money.
+- The revolutionary invention that is Bitcoin.
+- The world of Tether and its various stablecoin offerings.
+- Separating fact from fiction surrounding the many misconceptions associated with Bitcoin and Stablecoins.
+- Various real-life examples showcasing how these technologies are actively utilised in our dynamic and ever-changing world.
 
-そうは言っても、このコースからの最も重要な持ち帰りは、ビットコインとステーブルコインの間の区別を理解し、これらの技術が提供するユニークな価値提案を認識することに関するものでしょう。
+That said, if there were one paramount takeaway from this course, it would revolve around understanding the distinction between Bitcoin and stablecoins by recognising the unique value propositions each of these technologies brings to the table.
 
-テザーのステーブルコインは、経済的な課題に直面している人々、権威主義的な体制の下で生活している人々、または安定した通貨や伝統的な銀行システムへのアクセスがない人々にとって貴重な解決策を提供します。これらは、より安定した通貨へのアクセス、デジタル支払いの促進、および国境を越えた資産の移動を可能にする手段を誰にでも提供します。しかし、ステーブルコインがリスクを伴わないわけではないことを認識することが重要です。法定通貨が長期的に価値を失うことが証明されているだけでなく、ほとんどのステーブルコインは第三者の発行者に依存しており、本質的な信頼が必要です。これは軽視すべきではありません。したがって、ステーブルコインに資産を保存する前に、徹底的なデューデリジェンスを行うことが最も重要です。
-一方で、ビットコインは、中央集権的で価値の毀損に弱いという、ほとんどの通貨形態に関連する歴史的な問題に対する解決策を提供します。これは、供給の希少性を中心に構築された分散型デジタル基盤を通じて、長期的に購買力を増加させる潜在力を提供することで、ガバナンスをユーザーの手に委ねます。ビットコインの短期的なボラティリティは、資本が限られている人々にとって参入の障壁となるかもしれませんが、長期的に見る能力を持つ人々にとって、その長期的な富の蓄積を通じて人生を変える能力は顕著であり、無類です。
+Tether’s stablecoins offer a valuable solution for individuals facing economic challenges, living under authoritarian regimes, or lacking access to stable currencies or traditional banking systems. They provide anyone with the means to access more stable currencies, facilitate digital payments, and enable cross-border wealth mobility. However, it's essential to recognise that stablecoins are not without risks. Not only have fiat currencies proven to lose value in the long run, but most stablecoins rely on third-party issuers, necessitating inherent trust. This should not be taken lightly. It is, therefore, of utmost importance to conduct thorough due diligence before storing wealth in stablecoins.
 
-私たちの共同の旅を通じて、私たちの目標は二つありました。お金が将来を形作る潜在力を持つ方法についてより深い理解を提供すること、そしてより重要なことに、より情報に基づいた決定を下し、グローバルなデジタル世界により自信を持って参加するために必要な知識をあなたに与えることです。願わくば、これらの目標を達成できたことを願っています。
+On the other hand, Bitcoin offers a solution to historical issues associated with most forms of money—centralised and prone to debasement—by offering the long-term potential for increased purchasing power through a decentralised digital base layer built around supply scarcity, which puts governance into the hands of the users. While bitcoin's short-term volatility may be a barrier to entry for people with limited capital, for those who have the capacity to look long-term, its ability to transform lives through long-term wealth accumulation is remarkable and unchallenged.
 
-このコースを終えるにあたり、ここで得た知識をあなたの個人的または専門的な追求に応用していただけることを願っています。財務上の課題に直面しているか、好奇心に駆られているか、投資を目指しているか、またはこれらの技術をビジネスの取り組みに活用しようとしているかにかかわらず、このコースから得られた貴重な洞察があなたの旅にとって無価値なものとなることを願っています。
+Throughout our journey together, our aim has been twofold: to provide you with a deeper understanding of how money holds the potential to shape the future and, more importantly, to empower you with the knowledge needed to make more informed decisions and participate with greater confidence in the global digital world. Hopefully, we have achieved these goals.
 
-この新たな理解が、あなたが自信と目的を持って進化する金融の世界を航海する力となることを願っています。成長と発見の道での幸運を祈ります！
+As we conclude this course, we hope you will take the knowledge acquired here and apply it to your personal or professional pursuits. Whether you find yourself navigating financial challenges, driven by curiosity, aspiring to invest, or seeking to harness these technologies for business endeavours, we hope the valuable insights gained from this course will become invaluable in your journey.
 
-未来は明るいです！
+May this newfound understanding empower you to navigate the evolving world of finance with confidence and purpose. Best of luck on your path of growth and discovery!
+
+The Future is Bright!

@@ -122,9 +122,13 @@ En-dessous, vous avez un graphe qui affiche l’historique de votre hashrate jus
 
 
 
-Ici, vous avez votre hashrate moyen sur différentes échelles de temps, de 60s à 24h, ainsi que l’historique des blocs minés par la pool pour lesquels vous avez contribué et été récompensé. Vous avez la possibilité d’exporter un fichier CSV de cet historique.
+
+
+Ici, vous avez votre hashrate moyen sur différentes échelles de temps, de 60s à 24h, ainsi que l’historique des blocs minés par la pool pour lesquels vous avez contribué et été récompensé.
 
 ![signup](assets/5.webp)
+
+Vous avez la possibilité d’exporter un fichier CSV de cet historique avec le bouton **Download CSV**
 
 ![signup](assets/6.webp)
 

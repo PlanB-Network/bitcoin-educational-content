@@ -5,7 +5,7 @@
   address_line_1: Prague, Czech Republic
   name: B-CERT Exam for Dev/hack/day (exclusive)
   builder: PlanB Network
-  type: Lecture
+  type: exam
   book_online: false
   book_in_person: true
   price_dollars: 21000

@@ -886,10 +886,10 @@ Toutefois, cette question n'a jamais dérangé Satoshi, qui voyait l'amorçage d
 > \- pas de bonne conductivité électrique<br>
 > \- pas particulièrement solide, mais pas non plus ductile ou facilement malléable<br>
 > \- inutile dans un but pratique ou ornemental
-
+>
 > et avec une propriété magique et spéciale :<br>
 > \- peut être transporté sur un canal de communication
-
+>
 > Si, pour une raison ou pour une autre, ce métal acquérait une quelconque valeur, alors toute personne souhaitant transférer de la richesse sur une longue distance pourrait en acheter, le transmettre, et faire en sorte que le destinataire le vende.
 >
 > Peut-être qu'il pourrait obtenir une valeur initiale de manière circulaire, comme vous l'avez suggéré, en étant apprécié par des personnes prévoyant son utilité potentielle pour l'échange. (J'en voudrais certainement) Peut-être que des collectionneurs, ou n'importe quelle raison arbitraire, pourraient en être à l'origine. »
@@ -909,15 +909,40 @@ Toutefois, cette question n'a jamais dérangé Satoshi, qui voyait l'amorçage d
 
 ## Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010 -- juil. 2010)
 
-### Le minage devient sérieux (déc. 2009 -- avr. 2010)
+Nous avons étudié comment Bitcoin en est venu à exister et comment il a pu être amorcé. Au printemps 2010, alors que son économie venait à peine de balbutier, le but de Satoshi Nakamoto et des quelques personnes qui l'épaulaient était de maintenir la flamme en vie. Deux individus se sont en particulier démarqués : le mineur Laszlo Hanyecz et le développeur Gavin Andresen.
 
-Augmentation de la difficulté
+Dans ce chapitre, nous allons nous intéresser au premier déploiement du minage par processeur graphique (GPU), à la fortune accumulée par Satoshi Nakamoto, au premier achat d'un bien physique en bitcoins, à la mise en place d'un robinet à bitcoins donnant des unités gratuites et à l'évolution du logiciel et du réseau avant Slashdot.
+
+### Le minage par processeur graphique (déc. 2009 -- avr. 2010)
+
+Le demande de plus en plus importante pour le bitcoin s'accompagne d'une hausse progressive de l'activité minière sur le réseau. Durant toute l'année 2009, la difficulté sur le réseau est au plancher minimal de 1, ce qui impose à tous les nœuds de réaliser environ 4,3 millions de calculs pour miner un bloc. Toutefois, en décembre 2009, cela change grâce à l'algorithme d'ajustement qui fait passer le facteur de difficulté de 1 à 1,18. <!--TODO: donner la difficulté via la valeur cible ?-->
+
+Satoshi Nakamoto est très soucieux de l'augmentation de cette difficulté et maintient un [historique](https://bitcointalk.org/index.php?topic=43.msg249#msg249) sur le forum à partir de février 2010.
 
 Satoshi, [19/12/2009](https://bitcointalk.org/index.php?topic=12.msg54#msg54)
 
 > « Nous devrions nous mettre d'accord pour reporter la course aux armements des processeurs graphiques aussi longtemps que possible pour le bien du réseau. &nbsp;Les nouveaux utilisateurs pourront beaucoup plus facilement se mettre à niveau s'ils n'ont pas à se préoccuper des pilotes et de la compatibilité des GPU. &nbsp;Il est intéressant de constater que toute personne disposant d'un simple processeur central peut rivaliser de manière relativement égale à l'heure actuelle. »
 >
 > *original: "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network. &nbsp;It's much easer to get new users up to speed if they don't have to worry about GPU drivers and compatibility. &nbsp;It's nice how anyone with just a CPU can compete fairly equally right now."*
+
+Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui découvre Bitcoin en avril 2010.
+
+img: photographie de Laszlo Hanyecz
+
+**extrait** Après avoir acheté des bitcoins à NLS et essayé le système de transactions, celui-ci programme début mai un logiciel de minage qui s'adapte aux processeurs graphiques. Cette optimisation lui permet d'occuper rapidement une place importante dans la production des blocs. Cette production attire l'attention de Satoshi Nakamoto qui le contacte et lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) de ralentir ses opérations afin que le minage reste accessible à tous :
+
+> « L'un des principaux attraits pour les nouveaux utilisateurs est que toute personne disposant d'un ordinateur peut générer des unités gratuites. Lorsqu'il y aura 5 000 utilisateurs, cette incitation s'estompera peut-être, mais pour l'instant, c'est toujours vrai. Les processeurs graphiques limiteraient prématurément cette incitation à ceux qui disposent d'un matériel GPU haut de gamme. Il est inévitable que les clusters de calcul GPU finiront par accaparer toutes les unités générées, mais je ne veux pas précipiter l'arrivée de ce jour-là. \[...\] Je ne veux pas passer pour un socialiste, je me moque de la concentration des richesses, mais pour l'instant, nous obtenons plus de croissance en donnant cet argent à 100 % des gens qu'en le donnant à 20 %. En outre, plus nous retarderons la course aux armements des GPU, plus les bibliothèques OpenCL deviendront matures, et plus nombreux seront ceux qui disposeront de cartes graphiques compatibles avec OpenCL. »
+>
+> (*original: "A big attraction to new users is that anyone with a computer can generate some free coins. When there are 5000 users, that incentive may fade, but for now it's still true. GPUs would prematurely limit the incentive to only those with high end GPU hardware. It's inevitable that GPU compute clusters will eventually hog all the generated coins, but I don't want to hasten that day. (...) I don't mean to sound like a socialist, I don't care if wealth is concentrated, but for now, we get more growth by giving that money to 100% of the people than giving it to 20%. Also, the longer we can delay the GPU arms race, the more mature the OpenCL libraries get, and the more people will have OpenCL compatible video cards."*)
+
+### Les bitcoins de Satoshi
+
+La fortune de Satoshi Nakamoto, Lerner, 2014, nonce supplémentaire (*extra nonce*)
+
+**extrait** La production minière est plus lente que prévue : entre le 9 janvier 2009 et le 9 janvier 2010, seulement 33 802 blocs sont trouvés sur les 52 560 attendus, ce qui
+correspond à une durée moyenne entre chaque bloc de 15 minutes et 30 secondes au lieu des 10 minutes prévues. En particulier, le mois d’août 2009 constitue le pire mois pour l’activité minière : seuls 1 564 sur 4 464 blocs attendus sont trouvés, soit un temps moyen de 28 minutes et 30.
+
+Absence d'août 2009, Satoshi prend une « pause », comme il le [confie](https://mmalmi.github.io/satoshi/#email-24) à Martti Malmi.
 
 Minage altruiste de Satoshi
 
@@ -928,15 +953,6 @@ Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010, en MH/s
 ![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch7/organofcorti-satoshi-proportion-2009-2010.webp)
 
 Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010 (source : Organofcorti, [Satoshi's hashrate](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html), 13 août 2014)
-
-
-Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui découvre Bitcoin en avril 2010.
-
-**extrait** Après avoir acheté des bitcoins à NLS et essayé le système de transactions, celui-ci programme début mai un logiciel de minage qui s'adapte aux processeurs graphiques. Cette optimisation lui permet d'occuper rapidement une place importante dans la production des blocs. Cette production attire l'attention de Satoshi Nakamoto qui le contacte et lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) de ralentir ses opérations afin que le minage reste accessible à tous :
-
-> « L'un des principaux attraits pour les nouveaux utilisateurs est que toute personne disposant d'un ordinateur peut générer des unités gratuites. Lorsqu'il y aura 5 000 utilisateurs, cette incitation s'estompera peut-être, mais pour l'instant, c'est toujours vrai. Les processeurs graphiques limiteraient prématurément cette incitation à ceux qui disposent d'un matériel GPU haut de gamme. Il est inévitable que les clusters de calcul GPU finiront par accaparer toutes les unités générées, mais je ne veux pas précipiter l'arrivée de ce jour-là. \[...\] Je ne veux pas passer pour un socialiste, je me moque de la concentration des richesses, mais pour l'instant, nous obtenons plus de croissance en donnant cet argent à 100 % des gens qu'en le donnant à 20 %. En outre, plus nous retarderons la course aux armements des GPU, plus les bibliothèques OpenCL deviendront matures, et plus nombreux seront ceux qui disposeront de cartes graphiques compatibles avec OpenCL. »
->
-> (*original: "A big attraction to new users is that anyone with a computer can generate some free coins. When there are 5000 users, that incentive may fade, but for now it's still true. GPUs would prematurely limit the incentive to only those with high end GPU hardware. It's inevitable that GPU compute clusters will eventually hog all the generated coins, but I don't want to hasten that day. (...) I don't mean to sound like a socialist, I don't care if wealth is concentrated, but for now, we get more growth by giving that money to 100% of the people than giving it to 20%. Also, the longer we can delay the GPU arms race, the more mature the OpenCL libraries get, and the more people will have OpenCL compatible video cards."*)
 
 ### Le Bitcoin Pizza Day (22 mai 2010)
 
@@ -960,7 +976,9 @@ Après l'afflux amené par Slashdot en juillet 2010, les premières remarques fu
 
 ### Gavin Andresen (juin -- juil. 2010)
 
-Gavin Andresen découvre Bitcoin via un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld, où Bitcoin est présenté comme une « innovation open source »
+Gavin Andresen découvre Bitcoin via un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld, où Bitcoin est présenté comme une « innovation open source ».
+
+img: photographie de Gavin Andresen
 
 Bitcoin Faucet, « robinet à bitcoins », [11 juin 2010](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) :
 
@@ -974,19 +992,41 @@ Contributions au code
 
 ### État du réseau et du logiciel
 
+Mise en retrait de l'anonymat
+
+5 juillet 2010, 21:31, sur le [forum](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) à propos de la présentation pour Slashdot : « Nous ne voulons pas mettre l'aspect "anonyme" au premier plan. &nbsp;(J'avais l'intention de modifier la page d'accueil) » (*original "We don't want to lead with 'anonymous'. &nbsp;(I've been meaning to edit the homepage)"*)
+
+6 juillet 2010, 2:59, [à Martti](https://mmalmi.github.io/satoshi/#email-197) :
+
+> « Je pense que nous devrions mettre moins l'accent sur l'aspect anonyme. &nbsp;Avec la popularité des adresses bitcoin au lieu de l'envoi par IP, nous ne pouvons pas donner l'impression que tout est automatiquement anonyme. &nbsp;Il est possible d'être pseudonyme, mais il faut être prudent. \[...\] &nbsp;De plus, "anonyme" sonne un peu suspect. &nbsp;Je pense que les gens qui veulent de l'anonymat le découvriront sans que nous en fassions la promotion. »
+>
+> ("I think we should de-emphasize the anonymous angle. &nbsp;With the popularity of bitcoin addresses instead of sending by IP, we can't give the impression it's automatically anonymous. &nbsp;It's possible to be pseudonymous, but you have to be careful. (...) &nbsp;Also, anonymous sounds a bit shady. &nbsp;I think the people who want anonymous will still figure it out without us trumpeting it.")
+
 Version 0.3, Mac OS X, Laszlo
+
+Sortie de la v0.3, [6 juillet](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004), 18:32 :
+
+> « Voici la version 0.3 de Bitcoin, la cryptomonnaie pair à pair ! &nbsp;Bitcoin est une monnaie numérique qui utilise la cryptographie et un réseau distribué pour remplacer le besoin d'un serveur central de confiance. &nbsp;Échappez au risque d'inflation arbitraire propre aux monnaies gérées de manière centralisée ! &nbsp;La circulation totale du bitcoin est limitée à 21 millions d'unités. &nbsp;Les unités sont progressivement distribuées aux nœuds du réseau en fonction de la puissance de calcul qu'ils fournissent, de sorte que vous pouvez en obtenir une partie en mettant à contribution votre temps CPU inactif. »
+>
+> *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
 
 James A. Donald : « Bitcoin est en quelque sorte mort » ([30/06/2010](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006))
 
 Mullvad VPN, 8 juillet 2010 : https://bitcointalk.org/index.php?topic=30.msg2075#msg2075
 
-Testnet, idée le 9, par Gavin Andresen : https://bitcointalk.org/index.php?topic=240.msg2104#msg2104. Satoshi [approuve](https://bitcointalk.org/index.php?topic=240.msg2132#msg2132) le lendemain : « Je vais commencer à réfléchir à la manière de procéder. » (original: "I'll start thinking about how to do this.")
+Testnet, idée le 9, par Gavin Andresen : https://bitcointalk.org/index.php?topic=240.msg2104#msg2104. Satoshi [approuve](https://bitcointalk.org/index.php?topic=240.msg2132#msg2132) le lendemain : « Je vais commencer à réfléchir à la manière de procéder. » (original: "I'll start thinking about how to do this.")
 
 ## Bitcoin prend ! (juil. 2010 -- déc. 2010)
 
 ### Slashdotted (11 juillet 2010)
 
 Version 0.3, présentation par teppy, augmentation du prix et du taux de hachage, création de Mt. Gox
+
+11 juillet 2010, [publication](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) d'une présentation de Bitcoin sur Slashdot par teppy :
+
+> « Que pensez-vous de cette technologie disruptrice ? Bitcoin est une monnaie numérique basée sur un réseau pair à pair, sans banque centrale, et sans frais de transaction. À l'aide d'un concept de preuve de travail, les nœuds brûlent des cycles de processeur pour chercher des paquets de pièces et diffusent leurs résultats sur le réseau. L'analyse de la consommation d'énergie révèle que la valeur marchande des bitcoins est déjà supérieure à la valeur de l'énergie nécessaire pour les générer, ce qui indique une demande saine. La communauté a bon espoir que la monnaie restera hors de portée de tout État. »
+>
+> *original: "How's this for a disruptive technology? Bitcoin is a peer-to-peer, network-based digital currency with no central bank, and no transaction fees. Using a proof-of-work concept, nodes burn CPU cycles searching for bundles of coins, broadcasting their findings to the network. Analysis of energy usage indicates that the market value of Bitcoins is already above the value of the energy needed to generate them, indicating healthy demand. The community is hopeful the currency will remain outside the reach of any government."*
 
 ### L'optimisation du minage (juil. 2010 -- nov. 2010)
 

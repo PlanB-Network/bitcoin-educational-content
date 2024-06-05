@@ -638,7 +638,7 @@ Parmi celles-ci, on note notamment:
     * **de mentionner @bitcoinpointfr sur Twitter à chaque nouvelle annonce d'événement de sa communauté**;
     * **d'épingler dans son groupe Telegram communautaire l'annonce de ce dit événement**.
 
-![image](assets/fr/chapter16/img27.jpg)
+![image](assets/fr/chapter16/img27bis.jpg)
 ### 
 Il n'est pas sans noter que d'autres plateformes et applications permettent également de gagner en visibilité. **[Meetup](https://www.meetup.com/)** est l'une d'elles. En effet, il s'agit d'un site internet (et d'une application sur téléphone) permettant de créer un événement; mais aussi de chercher ceux autour de chez soi.
 Malheureusement, pour pouvoir créer des meet-ups, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis; son principal intérêt étant qu'elle permet de gérer de manière intégrée les inscriptions aux rencontres.
@@ -661,7 +661,7 @@ Cela peut donc vous permettre de libérer du temps dans l'objectif de réfléchi
 Comme dit précédemment, **un meet-up Bitcoin peut donc être vu comme le "niveau" suivant d'une communauté**. Il permet d'une part, **à ses membres bitcoiners, de se rencontrer**; et d'autre part, d'**éduquer les nouvelles personnes intéressées par cet écosystème**.
 Un événement de type "meet-up" va ainsi permettre - à votre échelle - de **créer dans votre ville un engouement autour de Bitcoin**; qui pourra s'étoffer au fil du temps en fonction des projets que votre communauté réalisera.
 
-![image](assets/fr/chapter17/28.jpg)
+![image](assets/fr/chapter17/28bis.jpg)
 
 Bien évidemment, plus les objectifs que vous aurez fixés pour le développement de votre communauté seront importants, plus il sera nécessaire - pour vous et vos membres - d'y passer du temps.
 Il est donc important de **commencer par se fixer des objectifs atteignables pour l'organisation de ce meet-up**.

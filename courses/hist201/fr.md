@@ -705,7 +705,7 @@ La communication de Satoshi ne laisse pas non plus indifférent un jeune étudia
 
 ![Martti Malmi en 2013](assets/img/ch5/5.webp)
 
-Martti Malmi en 2013 (source : [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5)
+Martti Malmi en 2013 (source : [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 Il envoie ensuite un [courriel](https://mmalmi.github.io/satoshi/#email-1) un Satoshi précisant qu'il est l'auteur de ce texte, où il écrit qu'il « aimerait aider avec Bitcoin » même s'il n'a « pas encore beaucoup d'expérience en matière de développement ». (*original: "I'm Trickstern from the anti-state.com forum, and I would like to help with Bitcoin, if there's something I can do. I have a good touch on Java and C languages from school courses (I'm studying CS), but not so very much development experience yet."*) Satoshi Nakamoto lui répond le 2 mai, en lui disant que sa « compréhension de Bitcoin » est « en plein dans le mille ». (*original: "Thanks for starting that topic on ASC, your understanding of bitcoin is spot on."*)
 
@@ -833,27 +833,81 @@ Dans les mois qui suivent, NLS sera un élément central du développement écon
 
 ### Les balbutiements de l'économie (janv. 2010 -- avr. 2010)
 
-Le premier promoteur de l'essor commercial est NewLibertyStandard. Ce dernier est en effet la première personne à accepter effectivement de recevoir du bitcoin en l'échange d'un autre bien, en l'occurrence du dollar. Le 19 janvier 2010, juste après son inscription sur le nouveau forum, il [écrit](https://bitcointalk.org/index.php?topic=15.msg111#msg111) dans un fil consacré au lancement d'un service de vente de cartes-cadeaux paysafecard, NLS écrit le texte suivant :
+Le premier promoteur de l'essor commercial est NewLibertyStandard. Ce dernier est en effet la première personne à accepter effectivement de recevoir du bitcoin en l'échange d'un autre bien, en l'occurrence du dollar. Le 19 janvier 2010, juste après son inscription sur le nouveau forum, il [écrit](https://bitcointalk.org/index.php?topic=15.msg111#msg111) le texte suivant :
 
 > « Des gens m'ont acheté des bitcoins et m'en ont vendus. L'offre et la demande, même si elle sont faibles, existent déjà et c'est tout ce qu'il faut. Proposer d'échanger des bitcoins contre une autre monnaie n'est en fin de compte pas différent de l'échange de bitcoins contre des biens ou des services. Les monnaies sont des biens et le change est un service. J'ai essayé de penser à quoi acheter ou vendre avec des bitcoins, en dehors des dollars américains, mais je n'ai rien trouvé. N'hésitez pas à nous tenir au courant de ce que vous déciderez de vendre en bitcoins. Pour ce qui est de la question de l'épuisement des fonds, j'ai prévu un don quotidien dans mon budget. Vous pouvez acheter tous mes dollars ou bitcoins aujourd'hui, mais il y en aura toujours plus demain et après-demain. Toutes les personnes qui achètent ou vendent des biens en utilisant des bitcoins, y compris les changeurs, font progresser l'économie de Bitcoin. Que tout le monde fasse sa part. Achetez ou vendez quelque chose en échange de bitcoins ! »
 >
 > *original: "I have had people buy bitcoins from me and sell bitcoins to me. Supply and demand, albeit only a small amount, already exists and is all that is really needed. Offering to exchange bitcoins for another currency is ultimately no different from exchanging bitcoins for goods or services. Currencies are goods and exchanging them is a service. I have been trying to think of something besides USD dollars which I can try to buy or sell using bitcoins, but I can't think of anything. Please let us know about whatever you decide to sell for bitcoins. As for the issue of burning through funds, I have written a daily donation into my budget. You can buy all my USD dollars or bitcoins today, but there will always be more tomorrow and the next day. Each person who buys or sells goods using bitcoins, including exchangers, is increasing the bitcoin economy. Everyone, do your part. Buy or sell something in exchange for bitcoins!"*
 
-Page référençant les commerçants, initiée par Martti Malmi : https://web.archive.org/web/20100517040312/http://www.bitcoin.org:80/trade
+L'effort de coordination se fait sur le forum. Le 27 janvier, un utilisateur utilisant le pseudonyme giik crée un [fil](https://bitcointalk.org/index.php?topic=30.0) intitulé « *We accept Bitcoins* » dans lequel il propose que les gens mentionnent les différents services qui acceptent le bitcoin. C'est à cette époque que le nouveau forum commence à se populariser, et les messages se multiplient. Le 7 février, Satoshi [fait ainsi remarquer](https://mmalmi.github.io/satoshi/#email-153) à Martti Malmi que « le forum est vraiment en train de décoller » et qu'il ne s'attendait pas « à ce qu'il y ait autant d'activité aussi rapidement ». (*original: "The forum sure is taking off. &nbsp;I didn't expect to have so much activity so fast."*)
 
-https://bitcointalk.org/index.php?topic=30.0
+Le 5 février, NLS [propose](https://bitcointalk.org/index.php?topic=41.msg238#msg238) que le bitcoin, à l'instar des monnaies échangées sur le marché des changes, adopte le sigle boursier BTC et le symbole du baht thaïlandais (฿). Jusqu'à présent, il n'y avait pas d'usage établi : par exemple, Satoshi et Malmi utilisaient les lettres `bc` pour décrire les unités dans leur [correspondance](https://mmalmi.github.io/satoshi/#email-119). L'utilisation du sigle BTC se normalise rapidement. Le 24 février, le symbole de la monnaie (le B majuscule traversé par deux barres verticales) est [conçu](https://bitcointalk.org/index.php?topic=64.msg504#msg504) par Satoshi, par l'intermédiaire du premier véritable logo de Bitcoin.
 
-« Le forum est vraiment en train de décoller. &nbsp;Je ne m'attendais pas à ce qu'il y ait autant d'activité aussi rapidement. » ([7/2/2010](https://mmalmi.github.io/satoshi/#email-153))
+![Premier véritable logo de Bitcoin conçu par Satoshi Nakamoto (2010)](assets/img/ch6/bitcoin530.webp)
 
-Premiers services (VPN, etc.), premières applications dépositaires (MyBitcoin), échanges sur IRC (#bitcoin-otc ?)
+Peu à peu, les gens commencent à accepter le bitcoin. C'est le cas de l'utilisateur SmokeTooMuch en décembre 2009, alors qu'il vient d'arriver, qui [signale l'existence](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) d'un service de vente de cartes-cadeaux paysafecard nommé BTC 2 PSC. Le service sera d'ailleurs [mentionné](https://mmalmi.github.io/satoshi/#email-141) positivement par Satoshi le 4 février 2010. C'est également le cas de NLS qui, le 9 février, [ouvre](https://bitcointalk.org/index.php?topic=30.msg305#msg305) son propre magasin en ligne, le *Liberty Swap Variety Shop*, où il propose à la vente des timbres et des autocollants.
 
-BTC 2 PSC, cartes-cadeaux paysafecard, SmokeTooMuch, 14 décembre 2009 : https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65 https://mmalmi.github.io/satoshi/#email-141
+Le change avec le dollar se développe aussi et, en l'espace de deux mois, ce ne sont pas moins de trois plateformes qui ouvrent leurs portes :
 
-BitcoinFX (`bitcoinfx.cz.cc`), vente de bitcoin en LR-USD, 15 février 2010 : https://bitcointalk.org/index.php?topic=30.msg194#msg194
+- BitcoinFX (`bitcoinfx.cz.cc`), un service de vente de bitcoins en dollars de Liberty Reserve, qui est [annoncée](https://bitcointalk.org/index.php?topic=30.msg194#msg194) le 15 février ;
+- BitcoinExchange (`bitcoinexchange.com`), la plateforme de Martti Malmi, qui a pour particularité de [jauger](https://mmalmi.github.io/satoshi/#email-25) l'offre et la demande en prenant en compte les euros et les bitcoins déposés par les usagers, et qui est [ouverte au public](https://bitcointalk.org/index.php?topic=68.msg591#msg591) le 2 mars 2010 ;
+- Bitcoin Market (`bitcoinmarket.com`), une place de marché de pair à pair utilisant PayPal qui est [lancée](https://bitcointalk.org/index.php?topic=20.msg726#msg726) par l'utilisateur dwdollar le 16 mars, et qui connaîtra un certain succès avant l'apparition de Mt. Gox en juillet.
 
-BitcoinExchange (`bitcoinexchange.com`), Martti Malmi, 2 mars 2010 : https://bitcointalk.org/index.php?topic=68.msg591#msg591
+![Capture ultérieure de l'interface de Bitcoin Market (26 août 2011)](assets/img/ch6/bitcoinmarket-20110826.webp)
 
-Bitcoin Market (`bitcoinmarket.com`) 16 mars 2010 : https://bitcointalk.org/index.php?topic=20.msg726#msg726 https://news.bitcoin.com/bitcoin-history-part-6-the-first-bitcoin-exchange/
+[Capture](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) ultérieure de l'interface de Bitcoin Market (26 août 2011)
+
+Le 11 mars, la première partie de poker mettant en jeu des bitcoins est [organisée](https://bitcointalk.org/index.php?topic=80.msg781#msg781) par l'administrateur de BitcoinFX, ce qui inaugure la relation forte qui existera entre le jeu d'argent et la cryptomonnaie. La partie est remportée par dwdollar, qui gagne [600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761).
+
+D'autres services acceptant le bitcoin apparaissent comme le service de voix sur IP [Link2VoIP](https://bitcointalk.org/index.php?topic=30.msg733#msg733) le 16 mars, l'hébergeur web [Vekja.net](https://bitcointalk.org/index.php?topic=30.msg1008#msg1008) le 23 avril ou encore le vendeur de noms de domaines [Privacy Shark](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035) le 30 avril. Cette multiplication des services conduit Martti Malmi à finalement ouvrir une [page](https://web.archive.org/web/20100517040312/http://www.bitcoin.org:80/trade) de référencement les commerçants, qui est hébergée sur le site Bitcoin.org.
+
+On voit également le premier service dépositaire dédié apparaître : il s'agit de MyBitcoin, une application web permettant un usage facile et serein de Bitcoin, notamment sur mobile. Grâce à ce service, les utilisateurs n'ont en effet pas besoin de télécharger les données complètes pour envoyer et recevoir des transactions, ni de conserver leurs bitcoins eux-mêmes en sauvegardant leurs clés privées.
+
+![Logo de MyBitcoin provenant de l'archive du site mybitcoin.com](assets/img/ch6/mybitcoin-logo.webp)
+
+À cette époque, les portefeuilles légers (SPV) n'existent pas, si bien que Satoshi Nakamoto lui-même juge qu'il est alors acceptable de passer par ce type de logiciel, même si cette utilisation va à l'encontre du principe de désintermédiation à la base de Bitcoin. Le 18 mai 2010, il [écrit](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) ainsi sur le forum :
+
+> « Entretemps, des sites comme [vekja.net](http://vekja.net) et [www.mybitcoin.com](http://www.mybitcoin.com) ont expérimenté des système basés sur des comptes. &nbsp;On crée un compte sur un site web, on y conserve ses bitcoins et on les transfère depuis et vers ce dernier. &nbsp;Créer un compte sur un site web est beaucoup plus facile que d'installer un logiciel et d'apprendre à l'utiliser, et c'est une méthode plus familière pour la plupart des gens. &nbsp;Le seul inconvénient c'est qu'il faut faire confiance au site, mais cela ne pose pas de problème pour la petite monnaie destinée aux micropaiements et aux dépenses diverses. &nbsp;Il s'agit d'un moyen facile de commencer, et on peut passer au logiciel bitcoin proprement dit si les montants reçus deviennent plus importants. »
+>
+> *original: "In the meantime, sites like [vekja.net](http://vekja.net) and [www.mybitcoin.com](http://www.mybitcoin.com) have been experimenting with account-based sites. &nbsp;You create an account on a website and hold your bitcoins on account there and transfer in and out. &nbsp;Creating an account on a website is a lot easier than installing and learning to use software, and a more familiar way of doing it for most people. &nbsp;The only disadvantage is that you have to trust the site, but that's fine for pocket change amounts for micropayments and misc expenses. &nbsp;It's an easy way to get started and if you get larger amounts then you can upgrade to the actual bitcoin software."
+
+Enfin, le 19 mai, un utilisateur se faisant appeler Teppy commence à [accepter](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) le Bitcoin pour le jeu massivement multijoueur dont il est l'administrateur, *A Tale in the Desert*.
+
+### L'origine de la valeur du bitcoin
+
+Au printemps 2010, le bitcoin semblait donc avoir acquis un valeur. Même si l'utilisation du système était balbutiante, la demande pour le bitcoin était présente que ce soit du point de vue du minage, du change avec le dollar ou de la vente de services. Cet amorçage économique a définitivement été scellé par un évènement symbolique survenu le 22 mai : le premier achat d'un bien physique en bitcoins, en l'occurence une pizza. Nous relaterons cet épisode dans le prochain chapitre.
+
+La question de l'origine de la valeur du bitcoin est restée quelque chose que beaucoup de personnes ont eu du mal à expliquer. Cette émergence de la valeur dérangeait en particulier les partisans de l'école autrichienne qui avaient une interprétation étroite du théorème de régression de Mises. C'était le cas d'un certain xc, qui sur le forum [a chercher](https://bitcointalk.org/index.php?topic=583.msg5984#msg5984) à faire reposer la transmission de la valeur dans la conversion avec le dollar.
+
+Toutefois, cette question n'a jamais dérangé Satoshi, qui voyait l'amorçage d'une nouvelle monnaie comme un défi qui était certes difficile mais pas impossible. Ainsi qu'il l'a [exprimé](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405) sur le forum le 27 août 2010, en réponse à xc :
+
+> « En guise d'expérience de pensée, imaginons qu'il existe un métal de base aussi rare que l'or mais ayant les propriétés suivantes :<br>
+> \- de couleur grise et terne<br>
+> \- pas de bonne conductivité électrique<br>
+> \- pas particulièrement solide, mais pas non plus ductile ou facilement malléable<br>
+> \- inutile dans un but pratique ou ornemental
+
+> et avec une propriété magique et spéciale :<br>
+> \- peut être transporté sur un canal de communication
+
+> Si, pour une raison ou pour une autre, ce métal acquérait une quelconque valeur, alors toute personne souhaitant transférer de la richesse sur une longue distance pourrait en acheter, le transmettre, et faire en sorte que le destinataire le vende.
+>
+> Peut-être qu'il pourrait obtenir une valeur initiale de manière circulaire, comme vous l'avez suggéré, en étant apprécié par des personnes prévoyant son utilité potentielle pour l'échange. (J'en voudrais certainement) Peut-être que des collectionneurs, ou n'importe quelle raison arbitraire, pourraient en être à l'origine. »
+>
+> *original: "As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:*<br>
+> *\- boring grey in colour*<br>
+> *\- not a good conductor of electricity*<br>
+> *\- not particularly strong, but not ductile or easily malleable either*<br>
+> *\- not useful for any practical or ornamental purpose*
+>
+> *and one special, magical property:*<br>
+> *\- can be transported over a communications channel*
+>
+> *If it somehow acquired any value at all for whatever reason, then anyone wanting to transfer wealth over a long distance could buy some, transmit it, and have the recipient sell it.*
+>
+> *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange. &nbsp;(I would definitely want some) &nbsp;Maybe collectors, any random reason could spark it."*
+
+## Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010 -- juil. 2010)
 
 ### Le minage devient sérieux (déc. 2009 -- avr. 2010)
 
@@ -867,11 +921,11 @@ Satoshi, [19/12/2009](https://bitcointalk.org/index.php?topic=12.msg54#msg54)
 
 Minage altruiste de Satoshi
 
-![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch6/organofcorti-satoshi-hashrate-2009-2010.webp)
+![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch7/organofcorti-satoshi-hashrate-2009-2010.webp)
 
 Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010, en MH/s (source : Organofcorti, [Satoshi's hashrate](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html), 13 août 2014)
 
-![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch6/organofcorti-satoshi-proportion-2009-2010.webp)
+![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch7/organofcorti-satoshi-proportion-2009-2010.webp)
 
 Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010 (source : Organofcorti, [Satoshi's hashrate](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html), 13 août 2014)
 
@@ -886,19 +940,17 @@ Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui déco
 
 ### Le Bitcoin Pizza Day (22 mai 2010)
 
-Laszlo Hanyecz
-
-[Annonce](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141), 18 mai :
+**extrait** Laszlo Hanyecz finit par réinjecter ses bitcoins dans l'économie de la façon la plus emblématique possible : en achetant quelque chose avec, et plus précisément des pizzas. Le 18 mai 2010, il écrit ainsi l'[annonce](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141), suivante sur le forum :
 
 > « Je paierai 10 000 bitcoins pour deux ou trois pizzas... genre peut-être 2 grandes pour qu'il m'en reste le lendemain. &nbsp;J'aime avoir des restes de pizza à grignoter pour plus tard. &nbsp;Vous pouvez faire la pizza vous-même et l'amener jusqu'à chez moi ou la commander pour moi dans un service de livraison, mais mon objectif c'est de me faire livrer, en échange de bitcoins, de la nourriture que je n'ai pas à commander ou à préparer moi-même ; un peu comme lorsqu'on commande un "plateau de petit-déjeuner" dans un hôtel ou autre, on vous apporte juste quelque chose à manger et vous êtes content ! \[...\] Si vous êtes intéressé, faites-le moi savoir et nous pourrons nous arranger. »
 >
 > *original: "I'll pay 10,000 bitcoins for a couple of pizzas.. like maybe 2 large ones so I have some left over for the next day. &nbsp;I like having left over pizza to nibble on later. &nbsp;You can make the pizza yourself and bring it to my house or order it for me from a delivery place, but what I'm aiming for is getting food delivered in exchange for bitcoins where I don't have to order or prepare it myself, kind of like ordering a 'breakfast platter' at a hotel or something, they just bring you something to eat and you're happy! (...) If you're interested please let me know and we can work out a deal."*
 
-Jeremy Sturdivant, IRC, Papa John's
+**extrait** Cette offre trouve preneur au bout de quatre jours. Le 22 mai, un jeune Californien du nom de Jeremy Sturdivant accepte l'échange sur la messagerie instantanée IRC : il commande deux pizzas de Papa John's qui sont livrées chez Laszlo à Jacksonville en Floride, et reçoit en échange 10 000 bitcoins , ce qui représente alors environ 44 $ sur Bitcoin Market. Cela clôt le premier achat d'un bien physique en bitcoins ! Cet évènement symbolique sera par la suite commémoré tous les ans à cette date comme le Bitcoin Pizza Day.
 
 Voici une photo de ces deux pizzas, [partagée](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) par Laszlo lui-même :
 
-![Photo deux pizzas de chez  Papa John's que Jeremy Sturdivant a fait livrer chez Laszlo Hanyecz le 22 mai 2010](assets/img/ch6/IMG_0984.webp)
+![Photo deux pizzas de chez  Papa John's que Jeremy Sturdivant a fait livrer chez Laszlo Hanyecz le 22 mai 2010](assets/img/ch7/IMG_0984.webp)
 
 Cela conclut la première vente d'un bien physique en bitcoin, même si celle-ci est indirecte. Laszlo est félicité par [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) et [NLS](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197).
 
@@ -906,40 +958,31 @@ Deuxième offre ?
 
 Après l'afflux amené par Slashdot en juillet 2010, les premières remarques fuseront de la part des utilisateurs du forum : MoonShadow, knightmb, bitcoinex, [Amir Taaki](https://bitcointalk.org/index.php?topic=137.msg30558#msg30558). [ribuck](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) écrira le 29 novembre 2010 : « Cette pizza deviendra-t-elle la première pizza à un million de dollars ? » (*original: "Will this eventually become the world's first million-dollar pizza?"*)
 
+### Gavin Andresen (juin -- juil. 2010)
+
+Gavin Andresen découvre Bitcoin via un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld, où Bitcoin est présenté comme une « innovation open source »
+
+Bitcoin Faucet, « robinet à bitcoins », [11 juin 2010](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) :
+
+> « Pour mon premier projet de programmation sur Bitcoin, j'ai décidé de faire quelque chose qui semble vraiment stupide : j'ai créé un site web qui distribue des bitcoins. \[...\] &nbsp;Pourquoi ? Parce que je veux que le projet Bitcoin réussisse, et je pense qu'il a plus de chances de réussir si les gens peuvent obtenir une poignée d'unités pour l'essayer. »
+>
+> *original: "For my first Bitcoin coding project, I decided to do something that sounds really dumb: &nbsp;I created a web site that gives away Bitcoins. (...) &nbsp;Why? &nbsp;Because I want the Bitcoin project to succeed, and I think it is more likely to be a success if people can get a handful of coins to try it out."
+
+Satoshi, [réaction](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) le 11 juin : « Excellent choix pour un premier projet, beau travail. &nbsp;J'avais prévu de faire exactement la même chose si personne d'autre ne le faisait. » (*original: "Excellent choice of a first project, nice work. &nbsp;I had planned to do this exact thing if someone else didn't do it, so when it gets too hard for mortals to generate 50BTC, new users could get some coins to play with right away."*)
+
+Contributions au code
+
+### État du réseau et du logiciel
+
+Version 0.3, Mac OS X, Laszlo
+
 James A. Donald : « Bitcoin est en quelque sorte mort » ([30/06/2010](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006))
 
-### L'origine de la valeur du bitcoin
+Mullvad VPN, 8 juillet 2010 : https://bitcointalk.org/index.php?topic=30.msg2075#msg2075
 
-Satoshi Nakamoto, [27 août 2010](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405) :
+Testnet, idée le 9, par Gavin Andresen : https://bitcointalk.org/index.php?topic=240.msg2104#msg2104. Satoshi [approuve](https://bitcointalk.org/index.php?topic=240.msg2132#msg2132) le lendemain : « Je vais commencer à réfléchir à la manière de procéder. » (original: "I'll start thinking about how to do this.")
 
-« Peut-être que des collectionneurs, n'importe quelle raison aléatoire, pourraient en être à l'origine. »
-
-S'il acquiert une quelconque valeur pour une raison ou une autre, toute personne souhaitant transférer des richesses sur une longue distance pourrait en acheter, le transmettre et le faire vendre par le destinataire.
-
-Peut-être pourrait-il acquérir une valeur initiale de manière circulaire, comme vous l'avez suggéré, par des personnes qui prévoient son utilité potentielle pour l'échange (j'en voudrais certainement). (J'en voudrais certainement). Peut-être que des collectionneurs, n'importe quelle raison aléatoire, pourraient en être la source.
-
-Peut-être qu'il pourrait obtenir une valeur initiale circulaire [...], par le biais de personnes prévoyant son utilité potentielle pour l'échange. (J'en voudrais certainement) Peut-être que les collectionneurs, ou n'importe quelle raison arbitraire, pourraient le lancer.
-
-> *original: "As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:*<br>
-> *\- boring grey in colour*<br>
-> *\- not a good conductor of electricity*<br>
-> *\- not particularly strong, but not ductile or easily malleable either*<br>
-> *\- not useful for any practical or ornamental purpose*
->
-> *and one special, magical property:*<br>
-> *\- can be transported over a communications channel*
->
-> *If it somehow acquired any value at all for whatever reason, then anyone wanting to transfer wealth over a long distance could buy some, transmit it, and have the recipient sell it.*
->
-> *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange. &nbsp;(I would definitely want some) &nbsp;Maybe collectors, any random reason could spark it."*
-
-https://bitcointalk.org/index.php?topic=583.msg11405#msg11405
-
-## Bitcoin prend ! (mai 2010 -- déc. 2010)
-
-### L'arrivée de développeurs expérimentés (juin 2010 -- juil. 2010)
-
-Gavin Andresen, Jeff Garzik, tcatm, gmaxwell
+## Bitcoin prend ! (juil. 2010 -- déc. 2010)
 
 ### Slashdotted (11 juillet 2010)
 
@@ -949,9 +992,19 @@ Version 0.3, présentation par teppy, augmentation du prix et du taux de hachage
 
 Première ferme de minage (Artforz), première coopérative (slush)
 
+### L'arrivée de développeurs expérimentés (juil. 2010)
+
+Jeff Garzik, tcatm, gmaxwell
+
 ### Les difficultés techniques (juil. 2010 -- sept. 2010)
 
-Vulnérabilités majeures, server/daemon, 1 RETURN, value overflow, ajout de la limite de taille des blocs
+Vulnérabilités majeures, server/daemon, 1 RETURN, value overflow, ajout du système d'alerte (0.3.2, 17/7), ajout des codes OP_NOP, ajout de la limite de taille des blocs
+
+### Succès
+
+nanotube, IRC #bitcoin-otc (Freenode), 18 octobre 2010 : https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508
+
+Prix à 30 ¢
 
 ## La disparition de Satoshi (déc. 2010 -- avr. 2011)
 
@@ -966,6 +1019,12 @@ Opposition à WikiLeaks, « nid de frelons », dernier message public
 ### La transmission des accès et derniers courriels (déc. 2010 -- mai 2011)
 
 Page de contact, Gavin Andresen, Martti Malmi, Mike Hearn
+
+Début mai, il écrit à Martti Malmi :
+
+> « Je suis passé à autre chose et je ne serai probablement plus là à l'avenir. »
+>
+> *original (Digital Gold p. 81): "I've moved to other things and probably won't be around in the future."*
 
 # L'après-Satoshi
 

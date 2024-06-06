@@ -716,9 +716,9 @@ Satoshi le met à contribution pour remplir la page web sur SourceForge ([bitcoi
 - « Soyez à l'abri de l'instabilité causée par l'activité bancaire à réserves fractionnaires bancaire et par les mauvaises politiques des banques centrales. L'inflation limitée de la masse monétaire du système Bitcoin est répartie uniformément (par puissance de calcul) sur tout le réseau, et pas monopolisée par les banques. » (*original: "Be safe from the unstability caused by fractional reserve banking and the bad policies of the central banks. The limited inflation of the Bitcoin system's money supply is distributed evenly (by CPU power) throughout the network, not monopolized to the banks."*)
 - « La valeur du Bitcoin est susceptible d'augmenter à mesure que la croissance de l'économie de Bitcoin dépasse le taux d'inflation – considérez le Bitcoin comme un investissement et commencez à faire tourner un nœud aujourd'hui ! » (*original: "Bitcoin's value is likely to increase as the growth of the Bitcoin economy exceeds the inflation rate - consider Bitcoin an investment and start running a node today!"*)
 
-Satoshi [approuve](https://mmalmi.github.io/satoshi/#email-5) globalement cette présentation même s'il émet quelques réserves. Il [est](https://mmalmi.github.io/satoshi/#email-19) en particulier « mal à l'aise » avec le fait de déclarer que le bitcoin est un « investissement », redoutant probablement les répercussions légales à ce sujet. Cette description modifiée de Martti Malmi [se retrouvera](https://web.archive.org/web/20100106082749/http://www.bitcoin.org/) sur le site web principal à la fin de l'année 2009.
+Satoshi [approuve](https://mmalmi.github.io/satoshi/#email-5) globalement cette présentation même s'il émet quelques réserves. Il [est](https://mmalmi.github.io/satoshi/#email-19) en particulier « mal à l'aise » avec le fait de déclarer que le bitcoin est un « investissement », redoutant probablement les répercussions légales à ce sujet. La page est [publiée](https://mmalmi.github.io/satoshi/#email-9) le 6 mai et, deux jours plus tard, Martti Malmi en fait la promotion en partageant un lien sur les plateformes [Hackernews](https://news.ycombinator.com/item?id=599852) et [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/). Une version quelque peu modifiée de la description de Martti Malmi [se retrouvera](https://web.archive.org/web/20100106082749/http://www.bitcoin.org/) sur le site web principal à la fin de l'année 2009.
 
-Le printemps 2009 est également marqué par l'apparition du mot « cryptomonnaie » (« *cryptocurrency* » en anglais) qui est intialement utilisé pour se référer à Bitcoin. Le 11, Satoshi [écrit](https://mmalmi.github.io/satoshi/#email-19) ainsi à Martti Malmi :
+Le printemps 2009 est également marqué par l'apparition du mot « cryptomonnaie » (« *cryptocurrency* » en anglais) qui est intialement utilisé pour se référer à Bitcoin. Le 11 mai, Satoshi [écrit](https://mmalmi.github.io/satoshi/#email-19) ainsi à Martti Malmi :
 
 > « Quelqu'un a proposé le mot "cryptomonnaie"... c'est peut-être un mot que nous devrions utiliser pour décrire Bitcoin, ça te plaît ? »
 >
@@ -803,11 +803,7 @@ Parmi les premiers mineurs qui apportent leur puissance de calcul au réseau dur
 
 ![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain](assets/img/ch6/newlibertystandard-coin-avatar.webp)
 
-En octobre 2009, il met en place le premier service de change permettant aux gens de convertir leurs dollars en bitcoins et leurs bitcoins en dollars. Il [s'inscrit](https://mmalmi.github.io/satoshi/#email-34) sur le forum de SourceForge et y annonce l'ouverture de son service.
-
-Le 8 octobre, Martti Malmi écrit à Satoshi que « de nouveaux utilisateurs se sont inscrits sur le site bitcoin.sf.net » et que « l'un d'entre eux vient d'annoncer qu'il échangeait des Bitcoins contre des dollars ». (*original: "There are some new users registered to the bitcoin.sf.net site. One of them just announced that he's trading Bitcoins for dollars."*)
-
-Pour estimer le taux de change, il se fonde sur le coût énergétique qui lui est nécessaire pour obtenir une unité, en prenant en compte le coût de l'électricité à son emplacement et la fréquence de sa production personnelle.
+En octobre 2009, il met en place le premier service de change permettant aux gens de convertir leurs dollars en bitcoins et leurs bitcoins en dollars. Il s'inscrit sur le forum de SourceForge et y annonce l'ouverture de son service. Pour estimer le taux de change, il se fonde sur le coût énergétique qui lui est nécessaire pour obtenir une unité, en prenant en compte le coût de l'électricité à son emplacement et la fréquence de sa production personnelle.
 
 > « Notre taux de change est calculé en divisant 1,00 $ par la quantité moyenne d'électricité nécessaire pour faire fonctionner un ordinateur avec une utilisation du processeur élevée pendant un an, soit 1331,5 kWh, multipliée par le coût résidentiel moyen de l'électricité aux États-Unis pour l'année précédente, soit 0,1136 $, le tout divisé par 12 mois, divisé par le nombre de bitcoins générés par mon ordinateur au cours des 30 derniers jours. »
 >
@@ -913,46 +909,55 @@ Nous avons étudié comment Bitcoin en est venu à exister et comment il a pu ê
 
 Dans ce chapitre, nous allons nous intéresser au premier déploiement du minage par processeur graphique (GPU), à la fortune accumulée par Satoshi Nakamoto, au premier achat d'un bien physique en bitcoins, à la mise en place d'un robinet à bitcoins donnant des unités gratuites et à l'évolution du logiciel et du réseau avant Slashdot.
 
-### Le minage par processeur graphique (déc. 2009 -- avr. 2010)
+### Le minage par processeur graphique (déc. 2009 -- mai 2010)
 
-Le demande de plus en plus importante pour le bitcoin s'accompagne d'une hausse progressive de l'activité minière sur le réseau. Durant toute l'année 2009, la difficulté sur le réseau est au plancher minimal de 1, ce qui impose à tous les nœuds de réaliser environ 4,3 millions de calculs pour miner un bloc. Toutefois, en décembre 2009, cela change grâce à l'algorithme d'ajustement qui fait passer le facteur de difficulté de 1 à 1,18. <!--TODO: donner la difficulté via la valeur cible ?-->
+Le demande de plus en plus importante pour le bitcoin s'accompagne d'une hausse progressive de l'activité minière sur le réseau. Durant toute l'année 2009, la difficulté sur le réseau est au plancher minimal de 1, ce qui impose à tous les nœuds de réaliser environ 4,3 millions de calculs pour miner un bloc. Toutefois, en décembre 2009, cela change grâce à l'algorithme d'ajustement qui fait passer le facteur de difficulté de 1 à 1,18.
 
-Satoshi Nakamoto est très soucieux de l'augmentation de cette difficulté et maintient un [historique](https://bitcointalk.org/index.php?topic=43.msg249#msg249) sur le forum à partir de février 2010.
+Satoshi Nakamoto est très soucieux de l'augmentation de cette difficulté et maintient un [historique](https://bitcointalk.org/index.php?topic=43.msg249#msg249) sur le forum à partir de février 2010. Voici à quoi cela ressemblait :
 
-Satoshi, [19/12/2009](https://bitcointalk.org/index.php?topic=12.msg54#msg54)
+![Évolution de la difficulté telle que décrite par Satoshi Nakamoto sur le forum](assets/img/ch7/satoshi-difficulty-adjustment.webp)
+
+Malgré cet enthousiasme à propos de l'accroissement de la puissance de calcul sur le réseau, Satoshi cherche néanmoins à ralentir la spécialisation du minage pour favoriser la distribution des unités. Jusqu'alors, les mineurs sollicitaient leurs processeurs centraux (CPU) pour extraire les nouveaux bitcoins. Néanmoins, ces processeurs s'avèrent peu performants pour effectuer des opérations répétées, comparés aux processeurs graphiques qui sont largement plus adaptées à ce type de calcul répétitif. Par conséquent, tout le monde sait à ce moment-là que cette évolution est inéluctable, y compris Satoshi lui-même. Le 19 décembre 2009, il [déclare](https://bitcointalk.org/index.php?topic=12.msg54#msg54) ainsi :
 
 > « Nous devrions nous mettre d'accord pour reporter la course aux armements des processeurs graphiques aussi longtemps que possible pour le bien du réseau. &nbsp;Les nouveaux utilisateurs pourront beaucoup plus facilement se mettre à niveau s'ils n'ont pas à se préoccuper des pilotes et de la compatibilité des GPU. &nbsp;Il est intéressant de constater que toute personne disposant d'un simple processeur central peut rivaliser de manière relativement égale à l'heure actuelle. »
 >
 > *original: "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network. &nbsp;It's much easer to get new users up to speed if they don't have to worry about GPU drivers and compatibility. &nbsp;It's nice how anyone with just a CPU can compete fairly equally right now."*
 
-Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui découvre Bitcoin en avril 2010.
+Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur de trouble est Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui vit en floride. Celui-ci découvre Bitcoin en avril 2010. Le 9, il se procure 3 300 bitcoins auprès de NLS, puis essaie le système en faisant quelques transferts. Le 18, il tente d'engorger le réseau en multipliant les transactions à partir de son [adresse publique](https://mempool.space/fr/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mais ce dernier tient le coup.
 
-img: photographie de Laszlo Hanyecz
+![Photographie de Laszlo Hanyecz avec son fils en mai 2018](assets/img/ch7/laszlo-hanyecz-the-telegraph-2018.webp)
 
-**extrait** Après avoir acheté des bitcoins à NLS et essayé le système de transactions, celui-ci programme début mai un logiciel de minage qui s'adapte aux processeurs graphiques. Cette optimisation lui permet d'occuper rapidement une place importante dans la production des blocs. Cette production attire l'attention de Satoshi Nakamoto qui le contacte et lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) de ralentir ses opérations afin que le minage reste accessible à tous :
+Photographie de Laszlo Hanyecz avec son fils en mai 2018 (source : [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
+
+Par la suite, il [adapte](https://bitcointalk.org/index.php?topic=116.msg972#msg972) le code du logiciel pour faire fonctionner sur le système d'exploitation Mac OS X. Puis il travaille à optimiser le minage en utilisant l'environnement OpenCL qui permet de [faire intervenir le GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) dans la génération de bitcoins. À la fin du mois d'avril, il contacte Satoshi à ce sujet, mais ce dernier lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) alors d'éviter de s'engager dans cette voie afin que le minage reste accessible pour le plus grand nombre :
 
 > « L'un des principaux attraits pour les nouveaux utilisateurs est que toute personne disposant d'un ordinateur peut générer des unités gratuites. Lorsqu'il y aura 5 000 utilisateurs, cette incitation s'estompera peut-être, mais pour l'instant, c'est toujours vrai. Les processeurs graphiques limiteraient prématurément cette incitation à ceux qui disposent d'un matériel GPU haut de gamme. Il est inévitable que les clusters de calcul GPU finiront par accaparer toutes les unités générées, mais je ne veux pas précipiter l'arrivée de ce jour-là. \[...\] Je ne veux pas passer pour un socialiste, je me moque de la concentration des richesses, mais pour l'instant, nous obtenons plus de croissance en donnant cet argent à 100 % des gens qu'en le donnant à 20 %. En outre, plus nous retarderons la course aux armements des GPU, plus les bibliothèques OpenCL deviendront matures, et plus nombreux seront ceux qui disposeront de cartes graphiques compatibles avec OpenCL. »
 >
 > (*original: "A big attraction to new users is that anyone with a computer can generate some free coins. When there are 5000 users, that incentive may fade, but for now it's still true. GPUs would prematurely limit the incentive to only those with high end GPU hardware. It's inevitable that GPU compute clusters will eventually hog all the generated coins, but I don't want to hasten that day. (...) I don't mean to sound like a socialist, I don't care if wealth is concentrated, but for now, we get more growth by giving that money to 100% of the people than giving it to 20%. Also, the longer we can delay the GPU arms race, the more mature the OpenCL libraries get, and the more people will have OpenCL compatible video cards."*)
 
-### Les bitcoins de Satoshi
+Laszlo ne tient pas vraiment compte de cet avertissement. Le 10 mai, il publie son [exécutable](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) et [propose](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) d'écrire des correctifs pour permettre aux autres mineurs de le faire. Cette optimisation lui permet d'occuper personnellement une place importante dans la production des blocs et il mine alors des dizaines de milliers de bitcoins au cours des mois qui suivent.
 
-La fortune de Satoshi Nakamoto, Lerner, 2014, nonce supplémentaire (*extra nonce*)
+Toutefois, son implémentation reste imparfaite et il faudra attendre le mois de juillet pour voir le minage par GPU se généraliser.
 
-**extrait** La production minière est plus lente que prévue : entre le 9 janvier 2009 et le 9 janvier 2010, seulement 33 802 blocs sont trouvés sur les 52 560 attendus, ce qui
-correspond à une durée moyenne entre chaque bloc de 15 minutes et 30 secondes au lieu des 10 minutes prévues. En particulier, le mois d’août 2009 constitue le pire mois pour l’activité minière : seuls 1 564 sur 4 464 blocs attendus sont trouvés, soit un temps moyen de 28 minutes et 30.
+### Les bitcoins de Satoshi (3 mai 2010)
 
-Absence d'août 2009, Satoshi prend une « pause », comme il le [confie](https://mmalmi.github.io/satoshi/#email-24) à Martti Malmi.
+Cet essor du minage a aussi un effet non négligeable : Satoshi arrête de produire des blocs. Depuis le lancement du réseau, il s'attachait en effet à miner afin d'assurer un rythme de confirmation suffisant et un niveau de sécurité acceptable. Son motif de minage était particulier de sorte qu'il est possible d'identifier les blocs qu'il a probablement trouvé, à quelques faux positifs près. Ce motif sera [mis en lumière](https://bitslog.com/2013/04/17/the-well-deserved-fortune-of-satoshi-nakamoto/) par le développeur Sergio Lerner en 2013 et sera appelé le *Patoshi Pattern*.
 
-Minage altruiste de Satoshi
+![Patoshi Pattern entre les blocs 0 et 50 000](assets/img/ch7/patoshi-pattern-satoshiblocks.webp)
 
-![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch7/organofcorti-satoshi-hashrate-2009-2010.webp)
+Le *Patoshi Pattern* entre les blocs 0 et 50 000 tel qu'on peut l'observer sur le site [satoshiblocks.info](http://satoshiblocks.info/) : chaque point correspond à un bloc, les lignes bleues sont formées des blocs de Satoshi, les autres lignes représentent la production des autres mineurs
 
-Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010, en MH/s (source : Organofcorti, [Satoshi's hashrate](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html), 13 août 2014)
+D'après une étude de Whale Alert publiée en 2020, Satoshi aurait ainsi miné environ 22 500 et accumulé ainsi 1 122 693 bitcoins, soit plus de 5 % des 21 millions d'unités prévues. Pendant une grande partie de l'année 2009, le réseau a reposé sur la puissance de calcul de Satoshi. Cette dépendance s'est illustrée lors du mois d'août 2009, qui a été la pire période en qui concerne l'activité minière et qui coïncidait avec un temps de « [pause](https://mmalmi.github.io/satoshi/#email-24) » de Satoshi, où il devrait vraisemblablement moins surveiller ses machines. Durant ce mois d'août en effet, seuls 1 564 ont été produits sur les 4 464 blocs attendus, ce qui correspondait à un temps moyen de 28 minutes et 30.
+
+Avec l'augmentation de la puissance de calcul à l'automne 2009, la proportion de la puissance de calcul de Satoshi par rapport à la puissance total du réseau a progressivement chuté. Elle est est passée de 75 % en mars 2009 à 60 % en septembre, pour descendre jusqu'à 15 % en décembre et atteindre les 0 % en mai. Voici ci-dessous un graphe réalisé par [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) en 2014 :
 
 ![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch7/organofcorti-satoshi-proportion-2009-2010.webp)
 
-Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010 (source : Organofcorti, [Satoshi's hashrate](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html), 13 août 2014)
+De plus, cette chute de la dominance minière de Satoshi n'a pas été uniquement passive : il a lui-même ralenti sa production sur la même période. En effet, le but affiché de Satoshi était que tout le monde puisse participer : il ne minait pas pour le gain financier, mais pour assurer le fonctionnement le réseau jusqu'à ce que les incitations jouent leur rôle. Ainsi, il a réduit son taux de hachage par trois fois au cours de cette période de minage : la première fois de 4,5 à 2,5 MH/s en juin 2009, la deuxième fois de 2,5 à 1 MH/s en octobre, et la troisième fois de 1 MH/s à 0 en mai 2010. Voici un graphique de l'évolution de son taux de hachage durant cette période ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)) :
+
+![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch7/organofcorti-satoshi-hashrate-2009-2010.webp)
+
+Le minage de Satoshi était donc résolument altruiste comme le [fera remarquer](https://blog.lopp.net/was-satoshi-a-greedy-miner/) Jameson Lopp. Lorsqu'il s'arrête de miner le 3 mai 2010 (son dernier bloc est le [bloc 54 316](https://blockchair.com/bitcoin/block/54316)), cela constitue un autre accomplissement dans le lent développement de Bitcoin : la prise en charge de la confirmation des transactions par des acteurs économiques.
 
 ### Le Bitcoin Pizza Day (22 mai 2010)
 
@@ -962,7 +967,7 @@ Estimation de la proportion de la puissance de calcul de Satoshi par rapport à 
 >
 > *original: "I'll pay 10,000 bitcoins for a couple of pizzas.. like maybe 2 large ones so I have some left over for the next day. &nbsp;I like having left over pizza to nibble on later. &nbsp;You can make the pizza yourself and bring it to my house or order it for me from a delivery place, but what I'm aiming for is getting food delivered in exchange for bitcoins where I don't have to order or prepare it myself, kind of like ordering a 'breakfast platter' at a hotel or something, they just bring you something to eat and you're happy! (...) If you're interested please let me know and we can work out a deal."*
 
-**extrait** Cette offre trouve preneur au bout de quatre jours. Le 22 mai, un jeune Californien du nom de Jeremy Sturdivant accepte l'échange sur la messagerie instantanée IRC : il commande deux pizzas de Papa John's qui sont livrées chez Laszlo à Jacksonville en Floride, et reçoit en échange 10 000 bitcoins , ce qui représente alors environ 44 $ sur Bitcoin Market. Cela clôt le premier achat d'un bien physique en bitcoins ! Cet évènement symbolique sera par la suite commémoré tous les ans à cette date comme le Bitcoin Pizza Day.
+**extrait** Cette offre trouve preneur au bout de quatre jours. Le 22 mai, un jeune Californien du nom de Jeremy Sturdivant accepte l'échange sur la messagerie instantanée IRC : il commande deux pizzas de Papa John's qui sont livrées chez Laszlo à Jacksonville en Floride, et [reçoit](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) en échange 10 000 bitcoins, ce qui représente alors environ 44 $ sur Bitcoin Market. Cela clôt le premier achat d'un bien physique en bitcoins ! Cet évènement symbolique sera par la suite commémoré tous les ans à cette date comme le Bitcoin Pizza Day.
 
 Voici une photo de ces deux pizzas, [partagée](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) par Laszlo lui-même :
 
@@ -975,6 +980,10 @@ Deuxième offre ?
 Après l'afflux amené par Slashdot en juillet 2010, les premières remarques fuseront de la part des utilisateurs du forum : MoonShadow, knightmb, bitcoinex, [Amir Taaki](https://bitcointalk.org/index.php?topic=137.msg30558#msg30558). [ribuck](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) écrira le 29 novembre 2010 : « Cette pizza deviendra-t-elle la première pizza à un million de dollars ? » (*original: "Will this eventually become the world's first million-dollar pizza?"*)
 
 ### Gavin Andresen (juin -- juil. 2010)
+
+https://www.technologyreview.com/2014/08/15/12784/the-man-who-really-built-bitcoin/
+
+Gavin Andresen est un développeur ...
 
 Gavin Andresen découvre Bitcoin via un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld, où Bitcoin est présenté comme une « innovation open source ».
 
@@ -1060,6 +1069,20 @@ Opposition à WikiLeaks, « nid de frelons », dernier message public
 
 Page de contact, Gavin Andresen, Martti Malmi, Mike Hearn
 
+Satoshi se volatilise définitivement durant le printemps 2011.
+
+23 avril, [dernier courriel](https://plan99.net/~mike/satoshi-emails/thread5.html) à Mike Hearn, l'ingénieur de Google qui l'avait approché deux ans auparavant et qui était resté en contact avec lui, dans lequel il écrit qu'il est « passé à autre chose » et que Bitcoin est « entre de de bonnes mains avec Gavin et les autres ». (*original: "I've moved on to other things. &nbsp;It's in good hands with Gavin and everyone."*)
+
+20 avril, publication d'un [article d'Andy Greenberg](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) sur le site de Forbes
+
+26 avril 2011, [dernier courriel](http://gavinandresen.ninja/eleven-years-ago-today) à Gavin Andresen :
+
+> « J'aimerais que tu évites de parler de moi comme d'une personnalité sombre et mystérieuse, la presse tourne simplement ça sous l'angle d'une monnaie pirate. &nbsp;Peut-être que tu devrais plutôt parler du projet open source et donner plus de crédit aux développeurs qui contribuent : cela aide à les motiver. »
+>
+> *original: "I wish you wouldn't keep talking about me as a mysterious shadowy figure, the press just turns that into a pirate currency angle. &nbsp;Maybe instead make it about the open source project and give more credit to your dev contributors; it helps motivate them."*
+
+
+
 Début mai, il écrit à Martti Malmi :
 
 > « Je suis passé à autre chose et je ne serai probablement plus là à l'avenir. »
@@ -1072,7 +1095,7 @@ Début mai, il écrit à Martti Malmi :
 
 ### Le développement communautaire
 
-Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, première conférence à New York
+Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, première conférence à New York, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110623010047/http://bitcoin.sourceforge.net/?page_id=8)
 
 ### Les portefeuilles SPV (mars 2011)
 

@@ -923,7 +923,7 @@ Malgré cet enthousiasme à propos de l'accroissement de la puissance de calcul 
 >
 > *original: "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network. &nbsp;It's much easer to get new users up to speed if they don't have to worry about GPU drivers and compatibility. &nbsp;It's nice how anyone with just a CPU can compete fairly equally right now."*
 
-Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur de trouble est Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui vit en floride. Celui-ci découvre Bitcoin en avril 2010. Le 9, il se procure 3 300 bitcoins auprès de NLS, puis essaie le système en faisant quelques transferts. Le 18, il tente d'engorger le réseau en multipliant les transactions à partir de son [adresse publique](https://mempool.space/fr/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mais ce dernier tient le coup.
+Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur de trouble est Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui vit en floride. Celui-ci découvre Bitcoin en avril 2010. Le 9, il se [procure](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3 300 bitcoins auprès de NLS pour environ 20 $, puis essaie le système en faisant quelques transferts. Le 18, il tente d'engorger le réseau en multipliant les transactions à partir de son [adresse publique](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mais ce dernier tient le coup.
 
 ![Photographie de Laszlo Hanyecz avec son fils en mai 2018](assets/img/ch7/laszlo-hanyecz-the-telegraph-2018.webp)
 
@@ -961,23 +961,33 @@ Le minage de Satoshi était donc résolument altruiste comme le [fera remarquer]
 
 ### Le Bitcoin Pizza Day (22 mai 2010)
 
-**extrait** Laszlo Hanyecz finit par réinjecter ses bitcoins dans l'économie de la façon la plus emblématique possible : en achetant quelque chose avec, et plus précisément des pizzas. Le 18 mai 2010, il écrit ainsi l'[annonce](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141), suivante sur le forum :
+Le mois de mai 2010 est également marqué par un évènement fondateur : le premier achat d'un bien physique en bitcoins. C'est Laszlo Hanyecz qui fait le premier pas. Alors qu'il a accumulé plus de 20 000 bitcoins grâce à son algorithme, il cherche à les réinjecter dans l'économie en obtenant des pizzas. Le 18 mai, il écrit ainsi l'[annonce](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141) suivante sur le forum :
 
 > « Je paierai 10 000 bitcoins pour deux ou trois pizzas... genre peut-être 2 grandes pour qu'il m'en reste le lendemain. &nbsp;J'aime avoir des restes de pizza à grignoter pour plus tard. &nbsp;Vous pouvez faire la pizza vous-même et l'amener jusqu'à chez moi ou la commander pour moi dans un service de livraison, mais mon objectif c'est de me faire livrer, en échange de bitcoins, de la nourriture que je n'ai pas à commander ou à préparer moi-même ; un peu comme lorsqu'on commande un "plateau de petit-déjeuner" dans un hôtel ou autre, on vous apporte juste quelque chose à manger et vous êtes content ! \[...\] Si vous êtes intéressé, faites-le moi savoir et nous pourrons nous arranger. »
 >
 > *original: "I'll pay 10,000 bitcoins for a couple of pizzas.. like maybe 2 large ones so I have some left over for the next day. &nbsp;I like having left over pizza to nibble on later. &nbsp;You can make the pizza yourself and bring it to my house or order it for me from a delivery place, but what I'm aiming for is getting food delivered in exchange for bitcoins where I don't have to order or prepare it myself, kind of like ordering a 'breakfast platter' at a hotel or something, they just bring you something to eat and you're happy! (...) If you're interested please let me know and we can work out a deal."*
 
-**extrait** Cette offre trouve preneur au bout de quatre jours. Le 22 mai, un jeune Californien du nom de Jeremy Sturdivant accepte l'échange sur la messagerie instantanée IRC : il commande deux pizzas de Papa John's qui sont livrées chez Laszlo à Jacksonville en Floride, et [reçoit](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) en échange 10 000 bitcoins, ce qui représente alors environ 44 $ sur Bitcoin Market. Cela clôt le premier achat d'un bien physique en bitcoins ! Cet évènement symbolique sera par la suite commémoré tous les ans à cette date comme le Bitcoin Pizza Day.
+Cette offre trouve preneur au bout de quatre jours. C'est un jeune Californien du nom de Jeremy Sturdivant qui accepte l'échange sur la messagerie instantanée IRC.
 
-Voici une photo de ces deux pizzas, [partagée](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) par Laszlo lui-même :
+![Photographie de Jeremy Sturdivant en mai 2018](assets/img/ch7/jeremy-sturdivant-the-telegraph-2018.webp)
+
+Photographie de Jeremy Sturdivant en mai 2018 (source : [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
+
+Le 22 mai, ce dernier commande deux pizzas de Papa John's qui sont livrées chez Laszlo à Jacksonville en Floride. Il [reçoit](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) en échange 10 000 bitcoins, soit environ 44 $ au cours de Bitcoin Market. Voici une photo de ces deux pizzas, [partagée](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) par Laszlo lui-même :
 
 ![Photo deux pizzas de chez  Papa John's que Jeremy Sturdivant a fait livrer chez Laszlo Hanyecz le 22 mai 2010](assets/img/ch7/IMG_0984.webp)
 
-Cela conclut la première vente d'un bien physique en bitcoin, même si celle-ci est indirecte. Laszlo est félicité par [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) et [NLS](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197).
+Cela clôt le premier achat d'un bien physique en bitcoin, même si celui-ci est indirecte. Laszlo est félicité par [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) qui écrit qu'« une grande étape a été franchie ». [NLS](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) ajoute aussi un commentaire positif.
 
-Deuxième offre ?
+Le 12 juin, Laszlo Hanyecz [réitère](https://bitcointalk.org/index.php?topic=137.msg1526#msg1526) son offre en écrivant sur le forum :
 
-Après l'afflux amené par Slashdot en juillet 2010, les premières remarques fuseront de la part des utilisateurs du forum : MoonShadow, knightmb, bitcoinex, [Amir Taaki](https://bitcointalk.org/index.php?topic=137.msg30558#msg30558). [ribuck](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) écrira le 29 novembre 2010 : « Cette pizza deviendra-t-elle la première pizza à un million de dollars ? » (*original: "Will this eventually become the world's first million-dollar pizza?"*)
+> « Il s'agit d'une offre ouverte au fait... J'échangerai 10 000 BTC contre 2 de ces pizzas à n'importe quel moment tant que j'ai les fonds. »
+>
+> *original: "This is an open offer by the way... I will trade 10,000 BTC for 2 of these pizzas any time as long as I have the funds"*
+
+Il réalisera ainsi plusieurs autres transactions du même type, jusqu'au 4 août où il [écrira](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544) qu'il ne peut pas vraiment se « permettre de continuer à faire ça » puisqu'il ne peut plus « générer des milliers d'unités par jour ». (*original: "I can't really afford to keep doing it since I can't generate thousands of coins a day anymore"*) En cause : la hausse du prix amenée par l'afflux de Slashdot du 11 juillet, ce qui lui vaudra par ailleurs les remarques moqueuses des membres du forum. Quelques mois plus tard en novembre, alors que le prix gravite autour des 25 centimes, l'utilisateur ribuck [écrira](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) de manière quasi prophétique : « Cette pizza deviendra-t-elle la première pizza à un million de dollars ? » (*original: "Will this eventually become the world's first million-dollar pizza?"*)
+
+Néanmoins la hausse du pouvoir d'achat du bitcoin n'enlèvera rien à la symbolique de cet évènement, qui sera commémoré tous les ans à cette date comme le *Bitcoin Pizza Day* par la communauté de Bitcoin.
 
 ### Gavin Andresen (juin -- juil. 2010)
 

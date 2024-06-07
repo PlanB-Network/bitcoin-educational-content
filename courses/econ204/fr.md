@@ -1028,7 +1028,7 @@ La révolution apportée par la bourse d'Anvers résidait dans la possibilité d
 
 Ce concept, bien qu'associé à Nick Bhatia via son pseudonyme Twitter "time value of BTC", n'est pas de son invention. Néanmoins, il en parle en détail dans son ouvrage. L'idée principale est que le temps a une valeur. Ainsi, si quelqu'un décide de payer un billet à ordre d'une valeur de 100 dollars un mois à l'avance, il peut l'obtenir pour, par exemple, 98 dollars et recevra les 100 dollars à la date d'échéance. Cette innovation monétaire a vu le jour à la bourse d'Anvers.
 
-#### La VOC et lemarché d'action à Amsterdam (17e)
+#### La VOC et le marché d'action à Amsterdam (17e)
 
 ![image](assets/chapitre-4.1/4.webp)
 

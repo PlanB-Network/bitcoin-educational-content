@@ -7,10 +7,20 @@ sys.dont_write_bytecode = True
 
 def trouver_fichier_markdown():
     parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
-    for fichier in os.listdir(parent_dir):
-        if fichier.endswith(".md"):
-            return os.path.join(parent_dir, fichier)
-    return None
+    fichiers_md = [f for f in os.listdir(parent_dir) if f.endswith(".md")]
+    
+    if not fichiers_md:
+        return None
+    
+    if len(fichiers_md) == 1:
+        return os.path.join(parent_dir, fichiers_md[0])
+    
+    print("Multiple Markdown files found:")
+    for idx, fichier in enumerate(fichiers_md):
+        print(f"{idx + 1}. {fichier}")
+    
+    choix = int(input("Select the number of the file to be modified: ")) - 1
+    return os.path.join(parent_dir, fichiers_md[choix])
 
 def lire_fichier_markdown(chemin_md):
     with open(chemin_md, 'r', encoding='utf-8') as fichier:

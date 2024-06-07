@@ -1,4 +1,22 @@
+import os
 import re
+
+def trouver_fichier_markdown():
+    parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+    fichiers_md = [f for f in os.listdir(parent_dir) if f.endswith(".md")]
+    
+    if not fichiers_md:
+        return None
+    
+    if len(fichiers_md) == 1:
+        return os.path.join(parent_dir, fichiers_md[0])
+    
+    print("Multiple Markdown files found:")
+    for idx, fichier in enumerate(fichiers_md):
+        print(f"{idx + 1}. {fichier}")
+    
+    choix = int(input("Select the number of the file to be used as a source: ")) - 1
+    return os.path.join(parent_dir, fichiers_md[choix])
 
 def lire_titres(fichier_md):
     titres = []
@@ -53,8 +71,12 @@ def ecrire_plan(titres, fichier_plan):
             dernier_niveau = niveau
 
 def main():
-    chemin_md = "../fr.md"
-    chemin_plan = "../plan.txt"
+    chemin_md = trouver_fichier_markdown()
+    if not chemin_md:
+        print("No Markdown file found.")
+        return
+
+    chemin_plan = os.path.join(os.path.dirname(chemin_md), "plan.txt")
    
     titres = lire_titres(chemin_md)
     

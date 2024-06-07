@@ -1,7 +1,7 @@
-Partie 0 - Protégez votre vie privée sur Bitcoin
+Partie 0 - Protégez votre vie privée sur Bitcoin (e38eb3ad-9b51-42b8-adaf-e6b03e8e3ac4)
 
-Partie 1 - Introduction
-    Chapitre 1 - Introduction de la formation
+Partie 1 - Introduction (e17474a8-8899-4bdb-a7f8-bc52ddb01440)
+    Chapitre 1 - Introduction de la formation (08ba1933-f393-4fb5-8279-777d874caedb)
         | Section 1 : Définitions et concepts clés
         | Section 2 : Comprendre l'analyse de chaîne et savoir s'en protéger
         | Section 3 : Maîtriser les bonnes pratiques pour protéger sa vie privée
@@ -10,45 +10,45 @@ Partie 1 - Introduction
         | Section 6 : Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
         | Section Bonus : La privacy sur les protocoles de seconde couche
 
-Partie 2 - Définitions et concepts clés
-    Chapitre 1 - Le modèle d'UTXO de Bitcoin
+Partie 2 - Définitions et concepts clés (b9bbbde3-34c0-4851-83e8-e2ffb029cf31)
+    Chapitre 1 - Le modèle d'UTXO de Bitcoin (8d6b50c5-bf74-44f4-922b-25204991cb75)
         | Les UTXOs sur Bitcoin : qu'est-ce que c'est ?
         | Les UTXOs et les conditions de dépense
-    Chapitre 2 - La structure des transactions Bitcoin
+    Chapitre 2 - La structure des transactions Bitcoin (29d3aaab-de2e-4746-ab40-c9748898850c)
         | Les inputs et les outputs d'une transaction
         | Le change et la fusion dans une transaction Bitcoin
         | Les frais de transaction
         | La création des UTXOs sur Bitcoin
         | Les implications du modèle d'UTXO
-    Chapitre 3 - Le modèle de confidentialité de Bitcoin
+    Chapitre 3 - Le modèle de confidentialité de Bitcoin (769d8963-3ed5-4094-b21d-9203c7d9e465)
         | La monnaie : authenticité, intégrité et double dépense
         | La prévention de la double dépense sur Bitcoin
         | Le modèle de confidentialité : système bancaire vs Bitcoin
 
-Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
-    Chapitre 1 - C'est quoi l'analyse de chaîne sur Bitcoin ?
+Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger (4739371e-9fef-45b0-bcaa-b7a4df6b4470)
+    Chapitre 1 - C'est quoi l'analyse de chaîne sur Bitcoin ? (7d198ba6-4af2-4f24-86cb-3c79cb25627e)
         | Définition et fonctionnement
         | Les objectifs de l'analyse de chaîne
         | Se défendre face à l'analyse de chaîne
         | Les méthodes de l'analyse de chaîne
         | Satoshi Nakamoto et l'analyse de chaîne
-    Chapitre 2 - Les patterns de transactions
+    Chapitre 2 - Les patterns de transactions (d365a101-2d37-46a5-bfb9-3c51e37bf96b)
         | L’envoi simple (ou le paiement simple)
         | Le balayage
         | La consolidation
         | La dépense groupée
         | Les transactions propres à un protocole
-    Chapitre 3 - Les heuristiques internes
+    Chapitre 3 - Les heuristiques internes (c54b5abe-872f-40f4-a0d0-c59faff228ba)
         | Les similitudes internes
         | Les paiements par nombres ronds
         | Le plus grand output
-    Chapitre 4 - Les heuristiques externes
+    Chapitre 4 - Les heuristiques externes (4a170e3b-200d-431a-8285-18a23ff617ba)
         | La réutilisation d’adresse
         | La similitude des scripts et les empreintes de portefeuilles
         | L'heuristique de propriété commune des entrées (CIOH)
         | Les données offchain
         | Les modèles temporels
-    Chapitre 5 - Mise en pratique avec un explorateur de blocs
+    Chapitre 5 - Mise en pratique avec un explorateur de blocs (6493cf2f-225c-405f-9375-c4304f1087ed)
         | Exercice 1
         | Exercice 2
         | Exercice 3
@@ -59,46 +59,46 @@ Partie 3 - Comprendre l'analyse de chaîne et savoir s'en protéger
         | Exercice 8
         | Solutions des exercices
 
-Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée
-    Chapitre 1 - La réutilisation d'adresse
-    Chapitre 2 - L'étiquetage et le contrôle des pièces
-    Chapitre 3 - La consolidation, la gestion des UTXO et la CIOH
-    Chapitre 4 - Le nœud complet
-    Chapitre 5 - Le KYC et l'identification des clés
+Partie 4 - Maîtriser les bonnes pratiques pour protéger sa vie privée (9bd04b63-f1af-4e50-9061-6bc90009df68)
+    Chapitre 1 - La réutilisation d'adresse (f3e97645-3df3-41bc-a4ed-d2c740113d96)
+    Chapitre 2 - L'étiquetage et le contrôle des pièces (fbdb07cd-c025-48f2-97b0-bd1bc21c68a8)
+    Chapitre 3 - La consolidation, la gestion des UTXO et la CIOH (b5216965-7d13-4ea1-9b7c-e292966a487b)
+    Chapitre 4 - Le nœud complet (fc80d2a3-cd9c-4b25-b17a-b853f9a1d99d)
+    Chapitre 5 - Le KYC et l'identification des clés (cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605)
         | La facilitation du traçage onchain
         | L’exposition à la surveillance étatique
         | Le risque de fuite de données personnelles
         | Quelques idées reçues sur le KYC
         | Peut-on annuler un KYC ?
         | La différence entre KYC et identification des clés
-    Chapitre 6 - Les méthodes de vente et d'acquisition
+    Chapitre 6 - Les méthodes de vente et d'acquisition (756598af-95aa-4c77-ac48-243c7ad89530)
         | Les échanges P2P en cash
         | Les échanges P2P via une plateforme de mise en relation
         | Les plateformes régulées sans KYC
         | Les ATM
         | Les cartes-cadeaux
 
-Partie 5 - Comprendre les transactions coinjoin
-    Chapitre 1 - C'est quoi une transaction coinjoin ?
-    Chapitre 2 - Zerolink et chaumian coinjoins
-    Chapitre 3 - Les différentes implémentations de coinjoin
-    Chapitre 4 - Les ensembles d'anonymat
-    Chapitre 5 - L'entropie
+Partie 5 - Comprendre les transactions coinjoin (6d0bbf16-3714-4db1-9897-2d45019f6bdc)
+    Chapitre 1 - C'est quoi une transaction coinjoin ? (0862bc6b-1c48-4aa4-b76d-4f547b469008)
+    Chapitre 2 - Zerolink et chaumian coinjoins (326c9654-b359-4906-b23d-d6518dd5dc3e)
+    Chapitre 3 - Les différentes implémentations de coinjoin (e37ed073-9498-4e4f-820b-30951e829596)
+    Chapitre 4 - Les ensembles d'anonymat (be1093dc-1a74-40e5-9545-2b97a7d7d431)
+    Chapitre 5 - L'entropie (e4fe289d-618b-49a2-84c9-68c562e708b4)
 
-Partie 6 - Connaître les enjeux d'autres techniques de confidentialité avancées
-    Chapitre 1 - Les transactions payjoin
-    Chapitre 2 - Les transactions spécifiques Samourai
-    Chapitre 3 - Les transferts secret de propriété
+Partie 6 - Connaître les enjeux d'autres techniques de confidentialité avancées (19989ae6-d608-4acf-b698-2cf1e7e5e6ae)
+    Chapitre 1 - Les transactions payjoin (c1e90b95-f709-4574-837b-2ec26b11286f)
+    Chapitre 2 - Les transactions spécifiques Samourai (300777ee-30ae-43d7-ab00-479dac3522c1)
+    Chapitre 3 - Les transferts secret de propriété (a2067036-849c-4d6b-87d2-44235cfae7a1)
         | Le Coin Swap
         | L'Atomic Swap
         | L'échange pair-à-pair
 
-Partie 7 - Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
-    Chapitre 1 - La confidentialité sur le réseau P2P
+Partie 7 - Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité (a7827171-3a2f-4399-99d1-9b822b565792)
+    Chapitre 1 - La confidentialité sur le réseau P2P (04a2467b-db84-4076-a9ff-919be5135106)
         | P2P transport V2
         | TOR
         | Dandelion
-    Chapitre 2 - BIP47 et codes de paiements réutilisables
+    Chapitre 2 - BIP47 et codes de paiements réutilisables (ad88e076-a04b-4aec-b3b2-7b4760175504)
         | Principe général du BIP47 et de PayNym
         | Le code de paiement réutilisable
         | L'échange de clés Diffie-Hellman établi sur les courbes elliptiques (ECDH)
@@ -111,14 +111,14 @@ Partie 7 - Découvrir les propositions d'amélioration du protocole en lien avec
         | La transaction de paiement BIP47
         | Réception du paiement BIP47 et dérivation de la clé privée
         | Remboursement du paiement BIP47
-    Chapitre 3 - Silent Payments
-    Chapitre 4 - Le soft fork Taproot
+    Chapitre 3 - Silent Payments (2871d594-414e-4598-a830-91c9eb84dfb8)
+    Chapitre 4 - Le soft fork Taproot (f6baa32e-f292-448c-a543-0635d3a7329e)
         | Les bénéfices à moyen et long terme
         | Les inconvénients à court terme
 
-Partie 8 - Bonus : La privacy sur les protocoles de seconde couche
-    Chapitre 1 - La confidentialité sur le Lightning Network
-    Chapitre 2 - La confidentialité sur les sidechains
-    Chapitre 3 - La confidentialité sur les banques chaumiennes
+Partie 8 - Bonus : La privacy sur les protocoles de seconde couche (40fc3ce1-78eb-45c0-9629-089e486746f6)
+    Chapitre 1 - La confidentialité sur le Lightning Network (99e57c42-daff-4a40-95e6-d9543bdc1809)
+    Chapitre 2 - La confidentialité sur les sidechains (025409a9-3c4f-426c-901a-46de74ef496d)
+    Chapitre 3 - La confidentialité sur les banques chaumiennes (04ddfbe9-787c-4e41-aa31-518c328a3165)
         | Fedimint
         | Cashu

@@ -4,7 +4,7 @@ name: Breez
 description: 強力なライトニングウォレット
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 すべての重要な情報については、彼らの詳細なガイドを参照してください：https://doc.breez.technology/
 

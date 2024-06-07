@@ -4,7 +4,7 @@ name: Tails
 description: USBキーにTailsをインストールする
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 監視や検閲からあなたを守る、携帯可能でアムネジア（記憶喪失）機能を持つオペレーティングシステム。
 

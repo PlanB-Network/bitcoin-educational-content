@@ -4,7 +4,7 @@ name: Relai
 description: Relaiの設定と使用方法
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 定期的なビットコイン購入ソリューション - RelaiはKYC不要のスイスのソリューションです
 

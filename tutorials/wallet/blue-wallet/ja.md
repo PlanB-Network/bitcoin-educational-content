@@ -4,7 +4,7 @@ name: Blue Wallet
 description: 根本的にシンプルで強力なビットコインウォレット
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Blue Walletは、非常に使いやすく柔軟性のあるオープンソースのビットコインウォレットです。
 

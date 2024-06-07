@@ -2,7 +2,7 @@
 name: Coinjoin - Sparrow Wallet
 description: Sparrow Walletでcoinjoinを実行する方法は？
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 このチュートリアルでは、coinjoinが何であるか、およびSparrow WalletソフトウェアとWhirlpool実装を使用してcoinjoinを実行する方法を学びます。
 

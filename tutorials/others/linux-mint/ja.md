@@ -4,7 +4,7 @@ name: Linux Mint
 description: ビットコイン取引用のコンピューターのセットアップ
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 ## 通常のコンピューターを使用すると何が問題なのか？
 

@@ -4,7 +4,7 @@ name: Trezor model One
 description: Trezor model Oneのセットアップと使用方法
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 冷蔵ハードウェアポートフォリオ – 60€ – 初心者向け – 2,000€から50,000€の間で安全。
 

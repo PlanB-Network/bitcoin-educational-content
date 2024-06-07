@@ -4,7 +4,7 @@ name: Specter
 description: Specterセットアップガイド
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 詳細については、彼らのウェブサイト[こちら](https://docs.specter.solutions/desktop/)で全てのドキュメントを見つけることができます。
 

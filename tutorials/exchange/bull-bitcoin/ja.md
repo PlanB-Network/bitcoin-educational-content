@@ -4,7 +4,7 @@ name: Bull Bitcoin
 description: Bull Bitcoin ユーザーガイド
 ---
 
-![支払いソリューション](assets/cover.jpeg)
+![支払いソリューション](assets/cover.webp)
 
 Bull Bitcoin (https://www.bullbitcoin.com) は、非預託型の交換所および支払いサービスです - Bitcoinのみ、妥協はありません！
 

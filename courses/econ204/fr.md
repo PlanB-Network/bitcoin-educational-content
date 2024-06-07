@@ -709,7 +709,7 @@ C'est ce qui complète cette vidéo au sujet des similitudes des expériences v�
 
 Dans ce chapitre, nous explorerons les différences et parallèles entre les périodes d'hyperinflation passées et contemporaines, agrémentés d'anecdotes et de comparaisons pertinentes pour aujourd'hui.
 
-### les différences entre la République de Weimar et le Zimbabwe
+### Les différences entre la République de Weimar et le Zimbabwe
 
 1. C'est la faute du dollar!
 
@@ -723,7 +723,7 @@ Face à la crise monétaire et économique, l'Allemagne a eu recours aux "Notgel
 
 De manière intéressante, la France a également eu recours aux Notgeld, notamment dans les années 1920. Cette initiative n'était pas seulement une conséquence directe de l'hyperinflation, mais avait également des racines dans les perturbations causées par la Première Guerre mondiale. La guerre a non seulement déstabilisé l'économie, mais elle a également augmenté le coût des métaux. Par conséquent, la valeur intrinsèque des pièces de monnaie en métal dépassait souvent leur valeur nominale, ce qui poussait les gens à les stocker. En l'absence de pièces de monnaie, certaines institutions, comme la Chambre de commerce de Lyon, ont imprimé leurs propres Notgeld.
 
-![image](assets/chapitre-3.3/0.webp)
+![image](assets/chapitre-3.3/1.webp)
 
 > “What has to be done, has to be done.” - a local saying
 
@@ -731,7 +731,8 @@ Parmi les Notgeld, un billet particulier attire l'attention. Il présente une il
 
 L'artiste derrière ce Notgeld semble adresser une critique ironique envers les autorités, responsables de la crise d'hyperinflation. Le billet porte l'inscription "Necessity knows no law", signifiant "La nécessité ne connaît pas de loi". Une autre expression, spécifique à la localité d'origine du Notgeld, énonce : "Ce qui doit être fait doit être fait".
 
-![image](assets/chapitre-3.3/1.webp)
+![image](assets/chapitre-3.3/0.webp)
+
 
 > “necessity knows no law”
 
@@ -783,7 +784,7 @@ Cette situation soulève une problématique centrale liée à la notion de prix 
 
 > Weimar : « Il restait fermement attaché à son point de vue selon lequel l'offre de monnaie n'était liée ni aux niveaux de prix ni aux taux de change ; »"
 
-De manière contemporaine, cette tendance persiste avec l'exemple le chapitre précédent d'une liste d'explications avancées par divers économistes et instituts économiques pour justifier l'inflation
+De manière contemporaine, cette tendance persiste avec l'exemple le chapitre précédent d'une liste d'explications avancées par divers économistes et instituts économiques pour justifier l'inflation. 
 Ces raisons varient, allant d'événements culturels et de célébrités tels que Taylor Swift, Zelda ou Beyoncé, à des facteurs globaux comme la guerre et la pandémie. Toutes ces raisons, bien que potentiellement contributrices à des fluctuations économiques à court terme, détournent l'attention de la véritable cause sous-jacente, à savoir l'expansion de la masse monétaire
 
 5. Les compagnies zombies
@@ -804,9 +805,9 @@ Dans l'histoire, on observe des moments où les individus cherchent à s'enrichi
 
 ![image](assets/chapitre-3.3/6.webp)
 
-6. L'épargne, le remède cnotre l'incertitude
+6. L'épargne, le remède contre l'incertitude
 
-> l'influence envahissante et destructrice de l'érosion constante de la valeur du capital et des revenus ainsi que l'incertitude face à l'avenir.
+> L'influence envahissante et destructrice de l'érosion constante de la valeur du capital et des revenus ainsi que l'incertitude face à l'avenir.
 
 Il est intéressant de souligner une citation qui met en avant l'effet destructeur de l'érosion de la valeur du capital sur la cohésion sociale, ainsi que l'incertitude qu'elle engendre. Celle-ci dit : "l'influence envahissante et destructif de l'érosion constante de la valeur du capital et des revenus, ainsi que l'incertitude face à l'avenir."
 
@@ -819,7 +820,7 @@ Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le 
 
 ![Vidoe](https://youtu.be/m2pcmbEzKyc)
 
-nous allons regarder ensemble différentes périodes de rédénomination dans des pays d'Amérique latine.
+Nous allons regarder ensemble différentes périodes de rédénomination dans des pays d'Amérique latine.
 
 ### Explication des graphes
 
@@ -862,7 +863,7 @@ Le billet le plus élevé a atteint 500 000, et la dernière redénomination en 
 
 ![image](assets/chapitre-3.4/3.webp)
 
-a Bolivie est un autre exemple de pays ayant traversé des périodes d'inflation aiguë, nécessitant des redénominations monétaires. Voici un résumé de son histoire monétaire :
+La Bolivie est un autre exemple de pays ayant traversé des périodes d'inflation aiguë, nécessitant des redénominations monétaires. Voici un résumé de son histoire monétaire :
 
 Avant son indépendance en 1825, la Bolivie utilisait le dollar espagnol comme devise. Suite à son indépendance, le pays a introduit le Bolivian Sol entre 1827 et 1864, remplaçant ainsi le dollar espagnol. Cependant, il faut noter que les premiers billets de banque en Bolivie n'ont fait leur apparition qu'en 1864.
 
@@ -878,7 +879,7 @@ Voilà un aperçu de la tumultueuse histoire monétaire de la Bolivie, marquée 
 
 ![image](assets/chapitre-3.4/4.webp)
 
-Le Pérou présente un cas intéressant en ce qui concerne les effets de la règle arbitraire des 50 %. Pour commencer par son histoire monétaire, le Pérou utilisait l'or espagnol jusqu'au 19e siècle et a déclaré son indépendance en 1821. Le dollar péruvien était en usage de 1822 à 1863. En 1863, le réel péruvien a été remplacé par le soldi oro, avec un taux de 10 pour 1, atteignant une valeur maximale de 50 000. En 1985, la monnaie "Inti" a été introduite avec un taux de conversion de 1000 pour 1, culminant à 5 millions. En 1991, le "SOL" a été lancé avec un taux de 1 million pour 1, avec des billets allant de 10 à 200.
+Le Pérou présente un cas intéressant en ce qui concerne les effets de la règle arbitraire des 50 %. Pour commencer par son histoire monétaire, le Pérou utilisait l'or espagnol jusqu'au 19e siècle et a déclaré son indépendance en 1821. Le real péruvien était en usage de 1822 à 1863. En 1863, le real péruvien a été remplacé par le sol de oro, avec un taux de 10 pour 1, atteignant une valeur maximale de 50 000. En 1985, la monnaie "Inti" a été introduite avec un taux de conversion de 1000 pour 1, culminant à 5 millions. En 1991, le "SOL" a été lancé avec un taux de 1 million pour 1, avec des billets allant de 10 à 200.
 
 En examinant les périodes de redénomination, 1988 est considéré comme une année d'hyperinflation, en particulier en septembre. Juillet-août 1990 a également vu une période d'hyperinflation. En 1988, l'inflation annuelle était de 667%, avec un pic de 50% en septembre. En revanche, 1989 a connu une inflation de 3000% sans mois dépassant 50%, donc elle n'a pas été classée comme hyperinflation. En 1990, l'inflation a culminé à 7481%. Il est clair que la règle des 50% peut être arbitraire, car 1988 a été considéré comme une année d'hyperinflation, contrairement à 1989. Si cette règle était reconsidérée, il serait peut-être judicieux de baisser le seuil pour inclure des périodes comme celle vécue par le Pérou en 1989.
 

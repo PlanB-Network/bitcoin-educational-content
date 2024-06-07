@@ -2,7 +2,7 @@
 name: Remix - Whirlpool
 description: Whirlpoolでどれくらいのリミックスを行うべきか？
 ---
-![cover remix- wp](assets/cover.jpeg)
+![cover remix- wp](assets/cover.webp)
 
 > *"あなたのコインが残す痕跡を断ち切る"*
 

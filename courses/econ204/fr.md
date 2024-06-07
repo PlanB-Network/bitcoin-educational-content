@@ -1026,9 +1026,9 @@ La bourse d'Anvers a marqué une étape clé dans l'évolution de la monnaie pap
 
 La révolution apportée par la bourse d'Anvers résidait dans la possibilité d'escompter ces billets avant leur date d'échéance. Par exemple, si un billet à ordre était dû dans un mois, il était possible de l'acheter à un prix réduit pour tenir compte du délai avant l'échéance. Cette innovation a non seulement rendu la monnaie papier plus liquide, mais a également introduit la notion de valeur temporelle de l'argent ("time value of money").
 
-Ce concept, bien qu'associé à Nick Bell via son pseudonyme Twitter "time value of BTC", n'est pas de son invention. Néanmoins, il en parle en détail dans son ouvrage. L'idée principale est que le temps a une valeur. Ainsi, si quelqu'un décide de payer un billet à ordre d'une valeur de 100 dollars un mois à l'avance, il peut l'obtenir pour, par exemple, 98 dollars et recevra les 100 dollars à la date d'échéance. Cette innovation monétaire a vu le jour à la bourse d'Anvers.
+Ce concept, bien qu'associé à Nick Bhatia via son pseudonyme Twitter "time value of BTC", n'est pas de son invention. Néanmoins, il en parle en détail dans son ouvrage. L'idée principale est que le temps a une valeur. Ainsi, si quelqu'un décide de payer un billet à ordre d'une valeur de 100 dollars un mois à l'avance, il peut l'obtenir pour, par exemple, 98 dollars et recevra les 100 dollars à la date d'échéance. Cette innovation monétaire a vu le jour à la bourse d'Anvers.
 
-#### la VOC et lemarché d'action à Amsterdam (17e)
+#### La VOC et lemarché d'action à Amsterdam (17e)
 
 ![image](assets/chapitre-4.1/4.webp)
 
@@ -1038,11 +1038,11 @@ Après la bourse d'Anvers, une étape majeure a été la fondation de la VOC, la
 
 ![image](assets/chapitre-4.1/5.webp)
 
-Après la création de la VOC, un autre élément marquant de l'histoire monétaire a été l'introduction des golden par la Banque d'Amsterdam. Ces pièces, datant notamment de 1722, étaient en argent. Toutefois, ce qui a véritablement révolutionné la finance à cette époque n'était pas tant la pièce elle-même, mais les comptes associés à cette monnaie à la Banque d'Amsterdam. Ces comptes sont devenus le principal moyen d'échange international. Les transactions étaient simplement inscrites dans des registres, ou "ledgers" en anglais. Grâce à ce système, Amsterdam est devenue le centre économique mondial. Avec le temps, la Banque d'Amsterdam a décidé d'imposer l'utilisation de ces comptes. Les changeurs indépendants étaient contraints d'échanger leurs pièces contre des dépôts à la banque tous les jours.
+Après la création de la VOC, un autre élément marquant de l'histoire monétaire a été l'introduction des gulden par la Banque d'Amsterdam. Ces pièces étaient en argent. Toutefois, ce qui a véritablement révolutionné la finance à cette époque n'était pas tant la pièce elle-même, mais les comptes associés à cette monnaie à la Banque d'Amsterdam. Ces comptes sont devenus le principal moyen d'échange international. Les transactions étaient simplement inscrites dans des registres. Grâce à ce système, Amsterdam est devenue le centre économique mondial. Avec le temps, la Banque d'Amsterdam a décidé d'imposer l'utilisation de ces comptes. Les changeurs indépendants étaient contraints d'échanger leurs pièces contre des dépôts à la banque tous les jours.
 
 #### Création de la Banque d'Angleterre pour financer la guerre
 
-La création de la Banque d'Angleterre fut motivée par le besoin de financer la guerre à la fin du 17e siècle. À l'instar de la Banque d'Amsterdam, elle a imposé les dépôts par décret. La particularité de la Banque d'Angleterre fut de reléguer les banques privées à une position secondaire dans le système monétaire, créant ainsi ce qu'on pourrait appeler une "troisième couche" de monnaie.
+La création de la Banque d'Angleterre fut motivée par le besoin de financer la guerre à la fin du 17e siècle. La particularité de la Banque d'Angleterre fut de reléguer les banques privées à une position secondaire dans le système monétaire, créant ainsi ce qu'on pourrait appeler une "troisième couche" de monnaie.
 
 Initialement, la première couche de monnaie était représentée par l'or. Les dépôts effectués auprès des banques privées formaient la seconde couche. Cependant, lorsque ces dépôts ne pouvaient plus être convertis en or, une troisième couche de monnaie est apparue. Désormais, les billets émis par les banques privées n'étaient plus convertibles en or mais en monnaie papier de la Banque d'Angleterre, qui elle-même était convertible en or. Cette évolution a engendré une complexification du système monétaire avec l'ajout de couches supplémentaires.
 
@@ -1051,9 +1051,9 @@ Initialement, la première couche de monnaie était représentée par l'or. Les 
 ![image](assets/chapitre-4.1/6.webp)
 Panique bancaire à la banque Seamen's Savings durant la panique de 1857.
 
-Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le monde cherchait à remonter la "pyramide de la monnaie". Les gens voulaient échanger leur monnaie de troisième couche contre celle de la deuxième couche, puis, finalement, contre la monnaie de première couche, l'or. Face à cette ruée massive, la Banque d'Angleterre a été contrainte d'agir pour stabiliser la situation. Pour éviter une éventuelle déflation des réserves d'or, elle a décidé de suspendre la convertibilité de ses billets de banque en or. Cette suspension, initialement envisagée comme une mesure temporaire, s'est prolongée sur une période de deux décennies.
+Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le monde cherchait à remonter la "pyramide de la monnaie". Les gens voulaient échanger leur monnaie de troisième couche contre celle de la deuxième couche, puis, finalement, contre la monnaie de première couche, l'or. Face à cette ruée massive, la Banque d'Angleterre a été contrainte d'agir pour stabiliser la situation. Pour éviter un éventuel épuisement des réserves d'or, elle a décidé de suspendre la convertibilité de ses billets de banque en or. Cette suspension, initialement envisagée comme une mesure temporaire, s'est prolongée sur une période de deux décennies.
 
-### conclusion:
+### Conclusion:
 
 Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept du prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
 

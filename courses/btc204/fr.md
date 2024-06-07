@@ -8,6 +8,7 @@ objectives:
   - Comprendre les méthodes de l'analyse de chaîne et développer des stratégies de défense.
 ---
 # Protégez votre vie privée sur Bitcoin
+<partId>e38eb3ad-9b51-42b8-adaf-e6b03e8e3ac4</partId>
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
 Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse de chaîne. Leur cœur de métier consiste précisément à s'ingérer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place. 
@@ -17,8 +18,10 @@ Cette formation se présente comme un parcours complet et généraliste. Chaque 
 Rejoignez-nous pour transformer votre utilisation de Bitcoin et devenir un utilisateur averti, capable de comprendre les enjeux autour de la confidentialité et de protéger sa vie privée.
 
 # Introduction
+<partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
 ## Introduction de la formation
+<chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
@@ -80,9 +83,11 @@ Comme vous l'avez compris, le cœur de cette formation se concentre exclusivemen
 
 
 # Définitions et concepts clés
+<partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
 
 ## Le modèle d'UTXO de Bitcoin
+<chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
 Le bitcoin est avant tout une monnaie, mais savez-vous concrètement comment sont représentées les BTC sur le protocole ? 
 
@@ -129,6 +134,7 @@ Le solde total de votre portefeuille serait de `17 BTC`.
 ![BTC204](assets/fr/21/4.webp)
 
 ## La structure des transactions Bitcoin
+<chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
 
 ### Les inputs et les outputs d'une transaction
 
@@ -212,6 +218,7 @@ Tout d'abord, le modèle d'UTXO influence directement les frais de transaction s
 Ensuite, comme mentionné dans les parties précédentes, les pièces sur Bitcoin sont essentiellement une chaîne d'UTXOs. Chaque transaction crée ainsi un lien entre un UTXO passé et un futur UTXO. Les UTXOs permettent donc de suivre explicitement le chemin des bitcoins depuis leur création jusqu'à leur dépense actuelle. Cette transparence peut être perçue positivement, car elle permet à chaque utilisateur de s'assurer de l'authenticité des bitcoins reçus. Cependant, c'est aussi sur ce principe de traçabilité et d'auditabilité que repose l'analyse de chaîne, une pratique visant à compromettre votre confidentialité. Nous étudierons en profondeur cette pratique dans la deuxième partie de la formation.
 
 ## Le modèle de confidentialité de Bitcoin
+<chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
 ### La monnaie : authenticité, intégrité et double dépense
 Une des fonctions de la monnaie est de résoudre le problème de la double coïncidence des besoins. Dans un système établi sur le troc, la réalisation d'un échange nécessite non seulement de trouver un individu cédant un bien correspondant à mon besoin, mais aussi de lui procurer un bien de valeur équivalente qui satisfait son propre besoin. Trouver cet équilibre s'avère complexe. 
@@ -273,8 +280,10 @@ Par exemple, si vous achetez une baguette chez le boulanger en payant en BTC, vo
 Mais puisque les transactions Bitcoin sont rendues publiques, il devient tout de même possible d'établir des liens entre elles pour en déduire des renseignements sur les parties impliquées. Cette activité constitue même une spécialité en soi que l'on appelle "analyse de chaîne". Dans la partie suivante de la formation, je vous invite à explorer les fondamentaux de l'analyse de chaîne afin de comprendre comment vos bitcoins sont tracés et de savoir mieux s'en défendre.
 
 # Comprendre l'analyse de chaîne et savoir s'en protéger
+<partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
 ## C'est quoi l'analyse de chaîne sur Bitcoin ?
+<chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
 ### Définition et fonctionnement
 
@@ -343,6 +352,7 @@ Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://
 Nous verrons dans les chapitres suivants en quoi elles consistent, mais il est déjà intéressant de noter que ces deux heuristiques conservent toujours une prééminence dans l’analyse de chaîne aujourd’hui.
 
 ## Les patterns de transactions
+<chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
 Un pattern de transaction est simplement un modèle ou une structure globale de transaction typique, que l’on peut retrouver sur la blockchain, dont on connaît l’interprétation vraisemblable. Lorsque l’on étudie les patterns, on va s’attarder sur une seule transaction que l’on va analyser à un niveau élevé. 
 
@@ -471,6 +481,7 @@ Il existe de nombreux autres protocoles qui disposent de leurs propres structure
 Grâce à ces paternes de transactions, on peut déjà interpréter un certain nombre d'informations sur une transaction donnée. Mais la structure de la transaction n'est pas la seule source d'information pour une analyse. Nous pouvons également étudier les détails de celle-ci. Ces détails uniquement internes à une transaction, c'est ce que j'aime appeler des "heuristiques internes", et nous allons les étudier dans le chapitre suivant.
 
 ## Les heuristiques internes 
+<chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
 Une heuristique interne est une caractéristique spécifique que l'on identifie au sein même d'une transaction, sans nécessiter l'examen de son environnement, et qui nous permet de réaliser des déductions. Contrairement aux patterns qui se focalisent sur la structure globale de la transaction à un haut niveau, les heuristiques internes se fondent sur l'ensemble des données extractibles. Cela inclut :
 - Les montants des différents UTXOs en entrée comme en sortie ;
@@ -574,6 +585,7 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 ## Les heuristiques externes
+<chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
 L’étude des heuristiques externes, c’est l’analyse des similitudes, des patterns et des caractéristiques de certains éléments qui ne sont pas propres à la transaction en elle-même. Autrement dit, si précédemment, nous nous limitions à l'exploitation d'éléments intrinsèques à la transaction avec les heuristiques internes, nous élargissons désormais notre champ d’analyse à l'environnement de la transaction grâce aux heuristiques externes.
 
@@ -696,6 +708,7 @@ Cet intervalle correspond vraisemblablement à l’Europe, à l’Afrique ou au 
 Dans un registre différent, c'est également une analyse temporelle de ce type qui a permis de formuler l'hypothèse selon laquelle Satoshi Nakamoto n’opérait pas depuis le Japon, mais bien depuis les États-Unis : [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
 
 ## Mise en pratique avec un explorateur de blocs
+<chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
 
 Dans ce dernier chapitre, nous allons appliquer concrètement les concepts que nous avons étudiés jusqu'ici. Je vais vous présenter des exemples de transactions Bitcoin réelles, et vous devrez en extraire les informations que je vous demande. 
 
@@ -967,9 +980,11 @@ ___
 - *[Ludovic Lars](https://viresinnumeris.fr/).*
 
 # Maîtriser les bonnes pratiques pour protéger sa vie privée
+<partId>9bd04b63-f1af-4e50-9061-6bc90009df68</partId>
 
 
 ## La réutilisation d'adresse
+<chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
 
 
@@ -977,18 +992,22 @@ ___
 
 
 ## L'étiquetage et le contrôle des pièces
+<chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
 
 
 ## La consolidation, la gestion des UTXO et la CIOH
+<chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
 
 
 ## Le nœud complet
+<chapterId>fc80d2a3-cd9c-4b25-b17a-b853f9a1d99d</chapterId>
 
 
 
 ## Le KYC et l'identification des clés
+<chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
 KYC est le sigle de "Know Your Customer", ce qui veut dire en anglais "connaître son client". C'est une procédure réglementaire mise en place par certaines entreprises qui opèrent dans le secteur de Bitcoin. Cette procédure vise à vérifier et à enregistrer l'identité de leurs clients dans le but affiché de lutter contre le blanchiment d'argent et le financement du terrorisme.
 
@@ -1087,6 +1106,7 @@ Enfin, même si vous acquérez vos bitcoins par un échange physique contre des 
 Pour conclure, lors d'un échange de bitcoins contre d'autres actifs, qu'il s'agisse d'un achat en monnaie étatique ou d'une vente contre un bien réel, il y a toujours une certaine forme d'identification des clés. Selon la méthode d'échange choisie, cette identification peut varier en intensité. Il est important de ne pas confondre cette identification avec le KYC, qui est un processus réglementaire bien défini. Cependant, il existe un lien entre le KYC et le spectre d'identification, puisque le KYC se situe à l'extrémité supérieure de ce spectre, car il facilite de manière systématique l'identification des clés de l'utilisateur par les autorités.
 
 ## Les méthodes de vente et d'acquisition
+<chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
 Après avoir lu le chapitre précédent, vous vous interrogez peut-être sur les moyens d'acheter ou de vendre du bitcoin sans avoir à subir une procédure de vérification d'identité, afin d'éviter les risques associés au KYC. Il existe plusieurs méthodes pour réaliser des échanges.
 
@@ -1188,26 +1208,32 @@ ___
 *Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
 
 # Comprendre les transactions coinjoin
+<partId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</partId>
 
 
 ## C'est quoi une transaction coinjoin ?
+<chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
 
 
 ## Zerolink et chaumian coinjoins
+<chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
 
 
 ## Les différentes implémentations de coinjoin
+<chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
 
 
 ## Les ensembles d'anonymat
+<chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
 
 
 ## L'entropie
+<chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
 
 
@@ -1216,16 +1242,20 @@ ___
 
 
 # Connaître les enjeux d'autres techniques de confidentialité avancées
+<partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
 
 
 ## Les transactions payjoin
+<chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
 
 ## Les transactions spécifiques Samourai
+<chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 
 ## Les transferts secret de propriété
+<chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
 ### Le Coin Swap
 
@@ -1236,10 +1266,12 @@ ___
 
 
 # Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
+<partId>a7827171-3a2f-4399-99d1-9b822b565792</partId>
 
 
 
 ## La confidentialité sur le réseau P2P
+<chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
 ### P2P transport V2
 
@@ -1251,6 +1283,7 @@ ___
 
 
 ## BIP47 et codes de paiements réutilisables
+<chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
 Comme nous l'avons vu dans la partie 3, la réutilisation d'adresses constitue un sérieux obstacle à la confidentialité des utilisateurs sur le protocole Bitcoin. Pour pallier ces risques, il est vivement recommandé de générer une adresse de réception vierge pour chaque nouveau paiement reçu dans un portefeuille. Bien que générer une nouvelle adresse soit aujourd'hui simplifié par l'emploi de logiciels modernes et de portefeuilles déterministes hiérarchiques, cette pratique peut sembler contre-intuitive.
 
@@ -1696,12 +1729,14 @@ Avant de continuer la description technique de cette transaction de notification
 
 
 ## Silent Payments
+<chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
 
 
 
 
 ## Le soft fork Taproot
+<chapterId>f6baa32e-f292-448c-a543-0635d3a7329e</chapterId>
 
 ### Les bénéfices à moyen et long terme
 
@@ -1715,20 +1750,24 @@ Avant de continuer la description technique de cette transaction de notification
 
 
 # Bonus : La privacy sur les protocoles de seconde couche
+<partId>40fc3ce1-78eb-45c0-9629-089e486746f6</partId>
 
 
 
 
 ## La confidentialité sur le Lightning Network
+<chapterId>99e57c42-daff-4a40-95e6-d9543bdc1809</chapterId>
 
 
 
 
 ## La confidentialité sur les sidechains
+<chapterId>025409a9-3c4f-426c-901a-46de74ef496d</chapterId>
 
 
 
 ## La confidentialité sur les banques chaumiennes
+<chapterId>04ddfbe9-787c-4e41-aa31-518c328a3165</chapterId>
 
 ### Fedimint
 

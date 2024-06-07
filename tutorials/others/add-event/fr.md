@@ -92,7 +92,7 @@ Si vous n'avez pas encore d'identifiant "*builder*" pour votre organisation, vou
 ![event](assets/14.webp)
 - Sélectionnez votre fork du dépôt de PlanB Network :
 ![event](assets/15.webp)
-- Vous devriez voir apparaitre sur le haut de la fenêtre une notification avec votre nouvelle branche. Elle s'appelle sûrement `patch-1`. Cliquez dessus :
+- Vous devriez voir apparaître sur le haut de la fenêtre une notification avec votre nouvelle branche. Elle s'appelle sûrement `patch-1`. Cliquez dessus :
 ![event](assets/16.webp)
 - Vous êtes maintenant sur votre branche de travail :
 ![event](assets/17.webp)
@@ -130,7 +130,7 @@ Si vous n'avez pas encore d'identifiant "*builder*" pour votre organisation, vou
 ![event](assets/33.webp)
 - Revenez à la racine de votre dépôt :
 ![event](assets/34.webp)
-- Vous devriez voir apparaitre un message vous indiquant que votre branche a des modifications. Cliquez sur le bouton `Compare & pull request` :
+- Vous devriez voir apparaître un message vous indiquant que votre branche a subi des modifications. Cliquez sur le bouton `Compare & pull request` :
 ![event](assets/35.webp)
 - Ajoutez un titre clair et une description sur votre PR :
 ![event](assets/36.webp)

@@ -538,7 +538,7 @@ En consolidant mes notes, j'ai discerné une multitude de similitudes entre les 
 ### Analyse Comparative : Zimbabwe et République de Weimar
 
 
-1. Pénurie de monnaie
+#### 1. Pénurie de monnaie
 
 Lorsque la monnaie se déprécie à une vitesse vertigineuse, même les tentatives les plus ambitieuses pour inonder le marché avec de nouveaux billets peuvent se révéler insuffisantes. La demande incessante pour la monnaie tangibles peut surpasser de loin la capacité des banques centrales à produire des billets, créant des crises de liquidités sans précédent.
 
@@ -546,7 +546,7 @@ Lorsque la monnaie se déprécie à une vitesse vertigineuse, même les tentativ
 
 > Zimbabwe: “De 2002 à janvier 2009, il y a eu plusieurs pénuries critiques de liquidités. Il n'y avait tout simplement pas assez de billets imprimés ou en circulation pour suivre le rythme de l'inflation galopante.”
 
-2. "Et c'est du fumier!"
+#### 2. "Et c'est du fumier!"
 
 La rapidité avec laquelle la monnaie peut perdre de sa valeur dans certaines situations économiques est stupéfiante. Des quantités astronomiques de billets peuvent être émises en un temps record, transformant presque instantanément des sommes jadis considérables en quelque chose d'aussi insignifiant que du fumier.
 
@@ -554,7 +554,7 @@ La rapidité avec laquelle la monnaie peut perdre de sa valeur dans certaines si
 
 > Zimbabwe: “Le 17 septembre 2006, le gouverneur de la RBZ, Gideon Gono, a déclaré : "10 trillions sont toujours là-bas et c'est devenu du fumier."
 
-3. Les billets valent moins que le papier sur lequel ils sont imprimés
+#### 3. Les billets valent moins que le papier sur lequel ils sont imprimés
 
 Dans certaines circonstances économiques, la valeur intrinsèque d'un billet peut devenir inférieure à la valeur du papier sur lequel il est imprimé. Cette dépréciation drastique transforme les billets de banque, normalement symboles de valeur et de pouvoir d'achat, en simples morceaux de papier sans valeur marchande.
 
@@ -564,7 +564,7 @@ Dans certaines circonstances économiques, la valeur intrinsèque d'un billet pe
 
 ![image](assets/chapitre-3.2/PN3.webpG)
 
-4. Comptage de l'argent
+#### 4. Comptage de l'argent
 
 Lorsque la monnaie perd rapidement de sa valeur, même les transactions les plus simples peuvent devenir des tâches laborieuses. Le calcul du prix d'un article ou le simple fait de compter les billets nécessaires à un paiement peut s'étirer sur plusieurs minutes, ajoutant une couche de complexité aux interactions quotidiennes.
 
@@ -576,7 +576,7 @@ Lorsque la monnaie perd rapidement de sa valeur, même les transactions les plus
 
 Money counting technique from Uzbekistan
 
-5. Les paiements par chèque
+#### 5. Les paiements par chèque
 
 Dans des économies perturbées, les modes de paiement traditionnels, comme les chèques, peuvent rapidement perdre leur efficacité. Les banques, débordées par la demande croissante de monnaie due à l'hyperinflation, peuvent rationner ou retarder l'encaissement des chèques, réduisant ainsi leur valeur réelle. Cette instabilité conduit souvent à une hiérarchisation des méthodes de paiement, où les prix peuvent varier en fonction de la manière dont on choisit de payer.
 
@@ -584,7 +584,7 @@ Dans des économies perturbées, les modes de paiement traditionnels, comme les 
 
 > Zimbabwe: “La valeur temporelle de l'argent a créé trois prix pour les biens et services; à savoir, un prix en espèces, un prix en règlement brut en temps réel, et un prix par chèque. Finalement, personne n'acceptait les chèques, qui mettaient cinq jours à être encaissés.”
 
-6. Les "Burner-preneurs"
+#### 6. Les "Burner-preneurs"
 
 À mesure que la valeur de la monnaie s'érode, de nouvelles opportunités économiques émergent, exploitant les distorsions du marché. Ces entrepreneurs, souvent baptisés de noms inventifs comme "Burner-preneurs", peuvent prospérer en empruntant de la monnaie dévaluée pour investir dans des biens tangibles, puis en remboursant leurs dettes avec une monnaie encore plus dévaluée.
 
@@ -592,7 +592,7 @@ Dans des économies perturbées, les modes de paiement traditionnels, comme les 
 
 > Zimbabwe: Les “Burner-preneurs”
 
-7. L'honnêteté et le travail acharné perdent leur attrait
+#### 7. L'honnêteté et le travail acharné perdent leur attrait
 
 Dans des contextes économiques instables, les valeurs traditionnelles de travail acharné, d'économie et d'intégrité peuvent être éclipsées par l'attrait de la richesse rapide. La spéculation et le commerce de devises offrent souvent des récompenses bien supérieures à celles du travail régulier, provoquant un bouleversement des priorités sociétales.
 
@@ -602,7 +602,7 @@ Dans des contextes économiques instables, les valeurs traditionnelles de travai
 
 ![image](assets/chapitre-3.2/5.webp)
 
-8. Les "banques du monde"
+#### 8. Les "banques du monde"
 
 Dans des situations d'hyperinflation ou de crise monétaire, les marchés parallèles et non réglementés de devises étrangères tendent à proliférer. Ces "banques" informelles, souvent appelées de manière humoristique "banques du monde" ou par d'autres noms locaux, offrent un refuge pour ceux qui cherchent à protéger leurs actifs de la dévaluation. Bien que ces marchés puissent fournir une bouée de sauvetage économique nécessaire, ils soulignent souvent la méfiance généralisée envers les institutions financières officielles et les politiques gouvernementales.
 
@@ -612,7 +612,7 @@ Dans des situations d'hyperinflation ou de crise monétaire, les marchés parall
 
 > Argentine: “Je suis donc allé là où vont tous les Argentins : les cuevas, les “grottes”, que l’on trouve dans le quartier de Florida au cœur de Buenos Aires.” - TheBigWhale
 
-9. Les échanges de monnaie étrangères étaient illégal
+#### 9. Les échanges de monnaie étrangères étaient illégal
 
 Les gouvernements, dans un effort pour stabiliser leur propre monnaie et contrôler le flux de capitaux, peuvent rendre illégales ces transactions en devises étrangères. Ces mesures répressives, bien que destinées à protéger l'économie nationale, peuvent souvent avoir l'effet inverse, exacerbant la méfiance du public et encourageant le marché noir.
 
@@ -620,7 +620,7 @@ Les gouvernements, dans un effort pour stabiliser leur propre monnaie et contrô
 
 > Zimbabwe: “Des descentes dans les entreprises ont conduit à l'emprisonnement de plusieurs hommes d'affaires de Bulawayo pour le week-end et à des amendes équivalant au double du montant en devises récupéré, cette bravoure s'est ensuite atténuée.”
 
-10. Contrôle des capitaux
+#### 10. Contrôle des capitaux
 
 Lorsqu'un pays est confronté à une crise monétaire ou économique, l'une des réponses courantes des gouvernements est d'exercer un contrôle strict sur les mouvements et les formes de capital. Que ce soit par des ordonnances forçant l'acceptation de monnaies nationales dévaluées ou par des sanctions sévères contre ceux qui rejettent certaines méthodes de paiement, ces mesures visent souvent à contenir la panique et à restaurer la confiance. Cependant, l'efficacité varie, et parfois, ces mesures peuvent s'avérer contre-productives ou déconnectées de la réalité vécue par les citoyens.
 
@@ -630,7 +630,7 @@ Lorsqu'un pays est confronté à une crise monétaire ou économique, l'une des 
 
 ![image](assets/chapitre-3.2/4.webp)
 
-11. Contraints de garder leurs boutiques ouvertes
+#### 11. Contraints de garder leurs boutiques ouvertes
 
 Lorsque l'économie s'effondre et la monnaie perd sa valeur, les gouvernements peuvent recourir à des mesures draconiennes pour maintenir une apparence de normalité.
 
@@ -638,7 +638,7 @@ Lorsque l'économie s'effondre et la monnaie perd sa valeur, les gouvernements p
 
 > Zimbabwe : “Il ne restait que des étagères en acier vides et des réfrigérateurs, des refroidisseurs et des congélateurs vides. La tragédie était que le magasin était toujours ouvert, car ils n'osaient pas fermer en raison des tensions politiques et de la crainte des dirigeants d'être arrêtés par la force de contrôle des prix du gouvernement. Même les travailleurs n'étaient pas licenciés, car tout le monde pensait qu'il y aurait une solution rapide.”
 
-12. Tout le monde est un criminel
+#### 12. Tout le monde est un criminel
 
 Face à une économie en déroute et à des réglementations omniprésentes, la frontière entre la survie et la criminalité devient floue.
 
@@ -646,7 +646,7 @@ Face à une économie en déroute et à des réglementations omniprésentes, la 
 
 > Zimbabwe : “Chaque résident au Zimbabwe était un criminel. Aussi dur que cela puisse paraître, c'était vrai. Avec la myriade de petites lois régissant chaque aspect de la vie, il était inévitable que chacun enfreigne une loi chaque jour. Posséder des devises étrangères était illégal, selon un SI publié en 2004. Avoir plusieurs comptes bancaires pour contourner la limite quotidienne de retrait était illégal. Ne pas avoir les bonnes plaques d'immatriculation sur votre voiture, ou pas de licence de radio de voiture ou pas de permis de générateur, étaient autant de lois que quelqu'un, quelque part, enfreignait.”
 
-13. Acheter des devises étrangères à n'importe quel prix
+#### 13. Acheter des devises étrangères à n'importe quel prix
 
 L'achat frénétique de devises étrangères a souvent marqué un tournant critique dans la dévaluation monétaire, exacerbant la chute de leur valeur.
 
@@ -666,7 +666,7 @@ Face à cette situation, l'État impose des régulations draconiennes, dont des 
 
 ![image](assets/chapitre-3.2/6.webp)
 
-1. Oil and metals
+#### 1. Oil and metals
 
 En Allemagne pendant la période de Weimar, le vol de matériaux précieux était tel que le plomb des toits était fréquemment dérobé. Au Zimbabwe, la désespération a poussé certains à interrompre le réseau électrique pour extraire l'huile des transformateurs et l'utiliser dans leurs véhicules.
 
@@ -674,7 +674,7 @@ Weimar : « Les plaques métalliques des monuments nationaux devaient être reti
 
 Zimbabwe : « Pour aggraver les choses, en raison du manque de devises étrangères, il y avait une pénurie d'huile de lubrification pour les voitures, et les transformateurs étaient une cible facile pour les voleurs qui siphonnaient l'huile de refroidissement pendant les coupures d'électricité. »
 
-2. Trains
+#### 2. Trains
 
 La dévalorisation de la monnaie peut pousser les citoyens à un comportement de survie basé sur le vandalisme. Face à une économie en déroute, des infrastructures publiques coûteuses comme les systèmes de transport peuvent être compromises, conduisant à des conséquences sociétales désastreuses.
 
@@ -682,7 +682,7 @@ La dévalorisation de la monnaie peut pousser les citoyens à un comportement de
 
 > Zimbabwe: "L'un des scénarios les plus troublants et tristes fut lorsque presque toute la ligne de cuivre électrique reliant Harare à Dabuka (plus de 280 kilomètres) a été volée. À son achèvement, elle avait été la fierté du Zimbabwe, avec des trains électriques rapides de passagers et de marchandises empruntant cette route."
 
-3. “Mealie Meal”
+#### 3. “Mealie Meal”
 
 Dans le contexte de salaires dérisoires et d'une économie instable, les entreprises ont été contraintes d'offrir de la nourriture à leurs employés pour les maintenir productifs et opérationnels. Cette initiative était non seulement un moyen de pallier la pénurie et les coûts élevés de la nourriture, mais aussi une stratégie pour retenir le personnel dans un environnement économique difficile.
 
@@ -690,7 +690,7 @@ Dans le contexte de salaires dérisoires et d'une économie instable, les entrep
 
 > Zimbabwe: "À ce stade, nous fournissions à tout notre personnel un déjeuner gratuit. La farine de maïs était essentielle au fonctionnement continu de notre entreprise, car dans de nombreux cas, c'était le seul repas que notre personnel recevait chaque jour."
 
-4. Coupon d'essence
+#### 4. Coupon d'essence
 
 Les populations à chercher des alternatives stables pour les transactions. À Weimar, les produits tels que le laiton et le carburant ont servi de moyens d'échange en raison de leur valeur intrinsèque constante. Au Zimbabwe, face à la dévaluation rapide du dollar zimbabwéen, les coupons d'essence, qui représentaient une quantité fixe d'un produit essentiel, sont devenus une monnaie de facto. Ces situations soulignent la manière dont les sociétés s'adaptent à des conditions économiques extrêmes, trouvant des solutions innovantes pour maintenir le commerce et l'économie en mouvement.
 
@@ -711,13 +711,13 @@ Dans ce chapitre, nous explorerons les différences et parallèles entre les pé
 
 ### Les différences entre la République de Weimar et le Zimbabwe
 
-1. C'est la faute du dollar!
+#### 1. C'est la faute du dollar!
 
 En Allemagne, il était courant que la population attribue l'inflation à la montée du dollar plutôt qu'à la dévaluation intrinsèque de leur propre monnaie. Beaucoup étaient persuadés que le phénomène observé était dû à une appréciation du dollar. Cette perception écartait toute reconnaissance du lien entre leur difficulté économique et la dévaluation monétaire, principalement induite par la création excessive de monnaie. Le livre "When Money Dies" illustre clairement cette méconnaissance parmi la population allemande. En revanche, au Zimbabwe, la situation était distincte : les citoyens étaient pleinement conscients de la cause sous-jacente de l'hyperinflation qu'ils subissaient.
 
 ![image](assets/chapitre-3.3/3.webp)
 
-2. La monnaie de nécessité (Notgeld)
+#### 2. La monnaie de nécessité (Notgeld)
 
 Face à la crise monétaire et économique, l'Allemagne a eu recours aux "Notgeld" (monnaie de nécessité). Ces billets, imprimés par les villes ou certaines entreprises, ont été conçus pour remédier à une pénurie de monnaie courante.
 
@@ -738,7 +738,7 @@ L'artiste derrière ce Notgeld semble adresser une critique ironique envers les 
 
 > Le premier Shitcoin: De manière anecdotique, en regardant l'illustration centrale du billet, où la monnaie est littéralement dévaluée par l'action de l'individu, il pourrait être qualifié de premier "shitcoin".
 
-3. Les débentures et hypothèques
+#### 3. Les débentures et hypothèques
 
 À Weimar, certaines dettes ont été réévaluées pour compenser l'impact de l'inflation. Cette mesure n'a pas été adoptée au Zimbabwe.
 
@@ -752,7 +752,7 @@ Pour en apprendre plus sur la gestion de la crise allemande ce livre est égalem
 
 ### Les parallèles contemporains
 
-1. Manipulation de la politique monétaire pour contrôler l'économie.
+#### 1. Manipulation de la politique monétaire pour contrôler l'économie.
 
 Dans l'histoire de la République de Weimar, il est manifeste que les industriels étaient réticents à l'appréciation du Mark. Leur capacité à emprunter et à rembourser leurs dettes avec une monnaie fortement dépréciée leur a offert un avantage considérable. Ce mécanisme a facilité la construction d'énormes complexes industriels à des coûts presque nuls. Ces industriels craignaient une appréciation du Mark car elle entravait leurs activités. Certains voyaient même l'inflation galopante d'un bon œil, estimant qu'elle garantissait l'emploi à la population. Toutefois, ils ne mesuraient pas l'impact néfaste de cette inflation sur l'épargne et l'économie en général. Pour ces acteurs économiques, l'impression monétaire était une aubaine.
 
@@ -764,7 +764,7 @@ Un parallèle contemporain peut être tracé avec les propos de Christine Lagard
 
 > Christine Lagarde: “Nous devrions être plus heureux d'avoir un emploi que de voir nos économies protégées.”
 
-2. Propriété privée en temps de conflits
+#### 2. Propriété privée en temps de conflits
 
 L'histoire de la République de Weimar révèle que, pendant cette période, les avoirs et capitaux détenus à l'étranger furent confisqués. Cette mesure rappelle des événements plus récents en Russie, notamment au début d'un conflit. Ces situations mettent en évidence une réalité préoccupante : en période de crise, le respect de la propriété privée peut être compromis. C'est un parallèle historique et contemporain qui souligne les répercussions potentielles des crises sur les droits individuels.
 
@@ -772,7 +772,7 @@ L'histoire de la République de Weimar révèle que, pendant cette période, les
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) : "Environ 300 milliards de dollars des réserves russes détenues à l’étranger ont bien été gelés dans le cadre des sanctions occidentales, sur les 640 milliards de dollars de réserves que compte la Banque centrale russe."
 
-3. La notion de prix du marché
+#### 3. La notion de prix du marché
 
 Durant la République de Weimar, les agriculteurs exprimaient leur mécontentement face à l'"Umlage", qui les obligeait à fournir les deux premiers millions de tonnes de blé produites chaque année. Cette réglementation avait pour conséquence de mettre la moitié de l'approvisionnement total de pain sur le marché à des prix subventionnés. À partir du mois d'août, ces agriculteurs étaient censés être rémunérés au prix mondial, car bien qu'ils aient été contraints de céder leur blé à des prix réduits, ils devaient acquérir des engrais au tarif mondial.
 
@@ -780,14 +780,14 @@ Cette situation soulève une problématique centrale liée à la notion de prix 
 
 > Weimar : "Les intérêts agricoles étaient mécontents de l' 'Umlage', la livraison forcée des deux premiers millions de tonnes de blé produites chaque année, ce qui permettait de vendre la moitié de l'approvisionnement total de pain à bas prix. À partir d'août, les agriculteurs devaient être payés au prix mondial car, lorsqu'ils étaient obligés de vendre du blé à bas prix, ils devaient toujours payer le prix mondial pour les engrais."
 
-4. Le déni du lien entre la masse monétaire et l'inflation.
+#### 4. Le déni du lien entre la masse monétaire et l'inflation.
 
 > Weimar : « Il restait fermement attaché à son point de vue selon lequel l'offre de monnaie n'était liée ni aux niveaux de prix ni aux taux de change ; »"
 
 De manière contemporaine, cette tendance persiste avec l'exemple le chapitre précédent d'une liste d'explications avancées par divers économistes et instituts économiques pour justifier l'inflation. 
 Ces raisons varient, allant d'événements culturels et de célébrités tels que Taylor Swift, Zelda ou Beyoncé, à des facteurs globaux comme la guerre et la pandémie. Toutes ces raisons, bien que potentiellement contributrices à des fluctuations économiques à court terme, détournent l'attention de la véritable cause sous-jacente, à savoir l'expansion de la masse monétaire
 
-5. Les compagnies zombies
+#### 5. Les compagnies zombies
 
 > Weimar : "La stabilisation avait mis fin à la période où les entrepreneurs pouvaient emprunter autant qu'ils le souhaitaient aux dépens de tous les autres. Un très grand nombre d'entreprises, créées ou développées pendant l'abondance monétaire, sont rapidement devenues non productives lorsque le capital est devenu rare."
 
@@ -799,13 +799,13 @@ Cette notion de compagnie zombie n'est pas nouvelle. En effet, elle était prés
 
 Le phénomène des compagnies zombies ne se limite pas à l'histoire de l'Allemagne d'après-guerre. Aujourd'hui encore, de nombreuses grandes entreprises subsistent grâce à un accès privilégié à des crédits à taux d'intérêt très bas. Si elles devaient emprunter à des taux plus conventionnels, nombre d'entre elles cesseraient d'être rentables. C'est d'autant plus pertinent que nous sommes en 2023, et après une longue période de taux d'intérêt proches de zéro, ceux-ci ont commencé à augmenter. Cette évolution récente du paysage financier sera sans doute un test décisif pour ces compagnies autrefois qualifiées de "zombies".
 
-5. Get rich quick!
+#### 6. Get rich quick!
 
 Dans l'histoire, on observe des moments où les individus cherchent à s'enrichir rapidement, comme ce fut le cas à Weimar et au Zimbabwe à travers l'arbitrage. Aujourd'hui, on note une tendance similaire avec l'émergence de certaines cryptomonnaies. Les gens sont tentés par des gains rapides, prenant des risques en espérant une multiplication exponentielle de leur investissement. Cette approche peut rappeler celle observée en période d'hyperinflation, où l'arbitrage est utilisé pour obtenir des gains rapides, souvent au détriment d'autres.
 
 ![image](assets/chapitre-3.3/6.webp)
 
-6. L'épargne, le remède contre l'incertitude
+#### 7. L'épargne, le remède contre l'incertitude
 
 > L'influence envahissante et destructrice de l'érosion constante de la valeur du capital et des revenus ainsi que l'incertitude face à l'avenir.
 
@@ -883,21 +883,21 @@ Le Pérou présente un cas intéressant en ce qui concerne les effets de la règ
 
 En examinant les périodes de redénomination, 1988 est considéré comme une année d'hyperinflation, en particulier en septembre. Juillet-août 1990 a également vu une période d'hyperinflation. En 1988, l'inflation annuelle était de 667%, avec un pic de 50% en septembre. En revanche, 1989 a connu une inflation de 3000% sans mois dépassant 50%, donc elle n'a pas été classée comme hyperinflation. En 1990, l'inflation a culminé à 7481%. Il est clair que la règle des 50% peut être arbitraire, car 1988 a été considéré comme une année d'hyperinflation, contrairement à 1989. Si cette règle était reconsidérée, il serait peut-être judicieux de baisser le seuil pour inclure des périodes comme celle vécue par le Pérou en 1989.
 
-> Comprendre ce qui se passe
->
+#### Comprendre ce qui se passe
+
 > L'essentiel à comprendre à propos des redénominations monétaires est que lorsque la valeur de la monnaie atteint des chiffres astronomiques, comme 5 ou 10 millions, elle est redénominée. Ce processus peut se répéter plusieurs fois, impliquant un changement de monnaie. Le résultat est que les épargnes des individus peuvent être gravement affectées, même en l'absence d'hyperinflation. Par exemple, si quelqu'un économise 1 000 dollars une année et parvient à mettre de côté 100 dollars, l'année suivante, le billet le plus bas pourrait être de 1 000 dollars, rendant les 100 dollars économisés précédemment sans valeur. Une telle érosion des économies ne nécessite pas une hyperinflation manifeste. Même si une personne a économisé 10 000 dollars au cours des dix dernières années, cette somme pourrait finir par avoir la valeur d'un montant négligeable, incapable d'acheter une simple bouteille d'eau. Cette réalité se manifeste dans de nombreux pays qui ont connu des redénominations, même si seulement quelques mois ont été classés comme hyperinflationnistes. En contraste, certains pays, comme le Nicaragua, ont connu de nombreuses années consécutives d'hyperinflation.
 
 ### Le Nicaragua
 
 ![image](assets/chapitre-3.4/5.webp)
 
-Le Nicaragua, autrefois sous la domination espagnole, utilisait initialement le dollar espagnol, tout comme de nombreux autres pays colonisés par l'Espagne. Après avoir été intégré à l'Empire espagnol, l'Empire mexicain, puis la République fédérale de l'Amérique centrale, le Nicaragua a proclamé son indépendance. À partir de 1878, le peso est devenu la monnaie officielle du pays, avec des valeurs fluctuant entre 1 et 100. En 1912, le pays a introduit le premier Cordoba, suivi du deuxième en 1988 et du troisième en 1991, qui est toujours en usage aujourd'hui. Le premier Cordoba a atteint une valeur de 1 million, le deuxième 10 millions. La redénomination en 1991 a suivi plusieurs années d'hyperinflation.
+Le Nicaragua, autrefois sous la domination espagnole, utilisait initialement le dollar espagnol, tout comme de nombreux autres pays colonisés par l'Espagne. Après avoir été intégré à l'Empire espagnol, l'Empire mexicain, puis la République fédérale de l'Amérique centrale, le Nicaragua a proclamé son indépendance. À partir de 1878, le peso est devenu la monnaie officielle du pays, avec des valeurs fluctuant entre 1 et 100. En 1912, le pays a introduit le premier Cordoba, suivi du deuxième en 1988 et du troisième en 1991, qui est toujours en usage aujourd'hui. Le premier Cordoba a atteint une valeur de 1 million, le deuxième 10 millions. La redénomination de 1991 a suivi plusieurs années d'hyperinflation.
 
 ### Venezuela
 
 ![image](assets/chapitre-3.4/6.webp)
 
-Le Venezuela est le dernier pays évoqué dans cette vidéo. Le pays a subi quatre redénominations monétaires au fil du temps. À ses débuts, le Venezuela utilisait le dollar espagnol avant de déclarer son indépendance en 1811. En 1879, il introduisit le bolivar comme monnaie officielle, qui resta en vigueur jusqu'en 1983, année où le gouvernement opta pour un dollar à taux flottant.
+Le Venezuela est le dernier pays évoqué dans cette vidéo. Le pays a subi quatre redénominations monétaires au fil du temps. À ses débuts, le Venezuela utilisait le dollar espagnol avant de déclarer son indépendance en 1811. En 1879, il introduisit le bolivar comme monnaie officielle.
 
 Un fait notable concernant le Venezuela est son adhésion à l'Union monétaire latine. Cette union comprenait des pièces telles que les 5 pesetas de l'Espagne, les 5 drachmas de la Grèce, les 5 bolivars du Venezuela, les 5 lire de l'Italie, les 5 francs belges et les 5 francs français.
 
@@ -917,7 +917,7 @@ Suite à l'adoption d'un taux de change flottant en 1983, plusieurs redénominat
 
 - En 2018 : le Soberano fut introduit avec des billets atteignant 1 million. En 2021, il fut remplacé par le digital bolivar qui atteignit également un million, avant une nouvelle redénomination d'un million pour un. Aujourd'hui, le billet de 10 ou de 20 équivaut à 10 millions ou 20 millions en Soberano.
 
-Des billets de cette période, datant de 2018, sont distribués lors de différentes conférences Bitcoin à Biarritz, Toronto et Miami. Ces billets Soberano ont atteint une valeur maximale d'1 million. Une redénomination a ensuite eu lieu, ramenant la valeur du million à environ 3 cents. Actuellement, 10 billets d'1 million correspondent à un billet de 10. Depuis 2016, le Venezuela est en hyperinflation, représentant la 57e période d'un tableau spécifique.
+J'ai distribué des billets datant de 2018 lors de différentes conférences Bitcoin à Biarritz, Toronto, Montréal, Annecy et Miami. Ces billets Soberano ont atteint une valeur maximale d'1 million. Une redénomination a ensuite eu lieu, ramenant la valeur du million à environ 3 cents. Actuellement, 10 billets d'1 million correspondent à un billet de 10. Depuis 2016, le Venezuela est en hyperinflation, représentant la 57e période d'un tableau spécifique.
 
 Dans la prochaine vidéo, une collection de billets d'hyperinflation sera présentée, mettant l'accent sur le Venezuela et d'autres pays listés. Cette collection contient presque tous les billets vénézuéliens. L'étude portera sur les différentes redénominations pour chaque pays mentionné. De plus, il y aura une exploration sur les redénominations au Zimbabwe, un sujet d'intérêt notable.
 
@@ -925,7 +925,7 @@ Dans la prochaine vidéo, une collection de billets d'hyperinflation sera prése
 
 On a donc vue que l'hyperinflation n'est pas le seul indicateur d'une situation économique catastrophique. Redénominer plusieurs fois, supprimer des zéros ou changer le nom de la monnaie a des répercussions directes sur la population, allant de la perte d'aides à des problèmes d'alimentation. Bien que l'hyperinflation soit préoccupante, le nombre de redénominations, comme celles observées au Brésil, montre une réalité plus complexe.
 
-En se basant sur le critère du 50% d'inflation par mois, plusieurs périodes auraient pu être classifiées comme de l'hyperinflation. Cela est particulièrement vrai lorsqu'on examine les critères de l'organisme international de comptabilité, qui considère entre autres des caractéristiques comme l'abandon rapide de la monnaie par la population, l'indexation des salaires et les prêts assortis de taux d'intérêt élevés pour compenser l'inflation.
+En se basant sur le critère du arbitraire du 50% d'inflation par mois, plusieurs périodes d'inflation catastrophiques sont écartées de la liste officielle des hyperinflations. Cela est particulièrement vrai lorsqu'on examine les critères de l'organisme international de comptabilité, qui considère entre autres des caractéristiques comme l'abandon rapide de la monnaie par la population, l'indexation des salaires et les prêts assortis de taux d'intérêt élevés pour compenser l'inflation.
 
 En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La haute inflation, à elle seule, peut être tout aussi dommageable. La prochaine section explorera les solutions possibles pour sortir de l'hyperinflation.
 

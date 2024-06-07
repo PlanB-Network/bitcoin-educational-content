@@ -989,27 +989,35 @@ Il réalisera ainsi plusieurs autres transactions du même type, jusqu'au 4 aoû
 
 Néanmoins la hausse du pouvoir d'achat du bitcoin n'enlèvera rien à la symbolique de cet évènement, qui sera commémoré tous les ans à cette date comme le *Bitcoin Pizza Day* par la communauté de Bitcoin.
 
-### Gavin Andresen (juin -- juil. 2010)
+### Gavin Andresen (mai -- juil. 2010)
 
 https://www.technologyreview.com/2014/08/15/12784/the-man-who-really-built-bitcoin/
 
-Gavin Andresen est un développeur ...
+Cette période voit aussi l'arrivée d'un personnage clé de l'histoire de Bitcoin : Gavin Andresen, un développeur de 44 ans né en Australie qui a [acquis](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) la nationalité étasunienne en 2004 et qui vit alors à Amherst dans le Massachusetts. De retour de voyage en Australie et momentanément sans emploi, ce dernier découvre Bitcoin à la fin du mois de mai par l'intermédiaire d'un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld. Cet article présente le projet de Satoshi Nakamoto comme une « innovation open source ».
 
-Gavin Andresen découvre Bitcoin via un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld, où Bitcoin est présenté comme une « innovation open source ».
+![Photo de profil de Gavin Andresen de l'époque, prise à Townsville dans le Queensland en Australie](assets/img/ch7/gavin-andresen-townsville.webp)
 
-img: photographie de Gavin Andresen
+Photo de profil de Gavin Andresen de l'époque, prise à Townsville dans le Queensland en Australie (source : [archive de CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/), 2011)
 
-Bitcoin Faucet, « robinet à bitcoins », [11 juin 2010](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) :
+Il se met rapidement à travailler sur un premier projet : un « *Bitcoin Faucet* » (ou « robinet à bitcoins ») qui donne des bitcoins à quiconque en fait la requête. Le 11 juin, il [lance](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) son service et le présente sur le forum de la façon suivante :
 
 > « Pour mon premier projet de programmation sur Bitcoin, j'ai décidé de faire quelque chose qui semble vraiment stupide : j'ai créé un site web qui distribue des bitcoins. \[...\] &nbsp;Pourquoi ? Parce que je veux que le projet Bitcoin réussisse, et je pense qu'il a plus de chances de réussir si les gens peuvent obtenir une poignée d'unités pour l'essayer. »
 >
-> *original: "For my first Bitcoin coding project, I decided to do something that sounds really dumb: &nbsp;I created a web site that gives away Bitcoins. (...) &nbsp;Why? &nbsp;Because I want the Bitcoin project to succeed, and I think it is more likely to be a success if people can get a handful of coins to try it out."
+> *original: "For my first Bitcoin coding project, I decided to do something that sounds really dumb: &nbsp;I created a web site that gives away Bitcoins. (...) &nbsp;Why? &nbsp;Because I want the Bitcoin project to succeed, and I think it is more likely to be a success if people can get a handful of coins to try it out."*
 
-Satoshi, [réaction](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) le 11 juin : « Excellent choix pour un premier projet, beau travail. &nbsp;J'avais prévu de faire exactement la même chose si personne d'autre ne le faisait. » (*original: "Excellent choice of a first project, nice work. &nbsp;I had planned to do this exact thing if someone else didn't do it, so when it gets too hard for mortals to generate 50BTC, new users could get some coins to play with right away."*)
+Satoshi réagit favorablement au lancement de ce service, même s'il ne le remarque pas tout de suite. Une semaine plus tard, le 18 juin, il le [félicite](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) en écrivant qu'il s'agit d'un « excellent choix pour un premier projet » et qu'il avait « prévu de faire exactement la même chose si personne d'autre ne le faisait ». (*original: "Excellent choice of a first project, nice work. &nbsp;I had planned to do this exact thing if someone else didn't do it, so when it gets too hard for mortals to generate 50BTC, new users could get some coins to play with right away."*)
 
-Contributions au code
+La contribution de Gavin Andresen ne s'arrête pas là. Il s'intéresse profondément à la façon dont Bitcoin fonctionne et entreprend de disséquer le code. Il [découvre](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) ainsi le système de script intégré au protocole, chose qu'il s'empresse de partager sur le forum. Il fait part de son appréhension vis-à-vis de cette possibilité, car cette dernière réduit la sécurité du système (« la complexité est l'ennemi de la sécurité ») et rend plus difficile le développement d'une seconde implémentation logicielle. Satoshi [explique](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) alors la raison derrière l'intégration de ce mécanisme, qu'il appelle Script :
+
+> « La nature de Bitcoin est telle que, dès la version 0.1 lancée, son fonctionnement de base était gravé dans le marbre pour le reste de son existence. &nbsp;C'est pour cette raison que je voulais concevoir Bitcoin pour qu'il supporte tous les types de transaction auxquels je pouvais penser. \[...\] &nbsp;La solution était script, qui généralisait le problème de façon à ce que les parties contractantes puissent décrire leurs transactions comme des prédicats que les nœuds du réseau évaluaient. &nbsp;Les nœuds ont seulement besoin de comprendre la transaction dans la mesure où ils évaluent si les conditions de l'expéditeur sont remplies ou non. »
+>
+> *original: "The nature of Bitcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime. &nbsp;Because of that, I wanted to design it to support every possible transaction type I could think of. (...) &nbsp;The solution was script, which generalizes the problem so transacting parties can describe their transaction as a predicate that the node network evaluates. &nbsp;The nodes only need to understand the transaction to the extent of evaluating whether the sender's conditions are met."*
+
+Il s'implique également dans le développement du logiciel en s'intéressant à l'API et en participant au déploiement du réseau de test (dont il a eu [l'idée](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) le 9 juin). Il rentre en contact avec Satoshi, dont il devient progressivement le bras droit, Martti Malmi étant [très occupé](https://mmalmi.github.io/satoshi/#email-191) avec son nouvel emploi à plein temps.
 
 ### État du réseau et du logiciel
+
+James A. Donald : « Bitcoin est en quelque sorte mort » ([30/06/2010](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006))
 
 Mise en retrait de l'anonymat
 
@@ -1019,7 +1027,7 @@ Mise en retrait de l'anonymat
 
 > « Je pense que nous devrions mettre moins l'accent sur l'aspect anonyme. &nbsp;Avec la popularité des adresses bitcoin au lieu de l'envoi par IP, nous ne pouvons pas donner l'impression que tout est automatiquement anonyme. &nbsp;Il est possible d'être pseudonyme, mais il faut être prudent. \[...\] &nbsp;De plus, "anonyme" sonne un peu suspect. &nbsp;Je pense que les gens qui veulent de l'anonymat le découvriront sans que nous en fassions la promotion. »
 >
-> ("I think we should de-emphasize the anonymous angle. &nbsp;With the popularity of bitcoin addresses instead of sending by IP, we can't give the impression it's automatically anonymous. &nbsp;It's possible to be pseudonymous, but you have to be careful. (...) &nbsp;Also, anonymous sounds a bit shady. &nbsp;I think the people who want anonymous will still figure it out without us trumpeting it.")
+> *original :"I think we should de-emphasize the anonymous angle. &nbsp;With the popularity of bitcoin addresses instead of sending by IP, we can't give the impression it's automatically anonymous. &nbsp;It's possible to be pseudonymous, but you have to be careful. (...) &nbsp;Also, anonymous sounds a bit shady. &nbsp;I think the people who want anonymous will still figure it out without us trumpeting it."*
 
 Version 0.3, Mac OS X, Laszlo
 
@@ -1029,11 +1037,7 @@ Sortie de la v0.3, [6 juillet](https://bitcointalk.org/index.php?topic=238.msg20
 >
 > *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
 
-James A. Donald : « Bitcoin est en quelque sorte mort » ([30/06/2010](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006))
-
 Mullvad VPN, 8 juillet 2010 : https://bitcointalk.org/index.php?topic=30.msg2075#msg2075
-
-Testnet, idée le 9, par Gavin Andresen : https://bitcointalk.org/index.php?topic=240.msg2104#msg2104. Satoshi [approuve](https://bitcointalk.org/index.php?topic=240.msg2132#msg2132) le lendemain : « Je vais commencer à réfléchir à la manière de procéder. » (original: "I'll start thinking about how to do this.")
 
 ## Bitcoin prend ! (juil. 2010 -- déc. 2010)
 

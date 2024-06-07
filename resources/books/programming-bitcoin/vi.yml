@@ -1,0 +1,8 @@
+title: "Lập Trình Bitcoin"
+publication_year: 2019
+cover: cover_en.webp
+original: true
+description: |
+  "Lập Trình Bitcoin" của Jimmy Song là một cuốn sách cấp độ trung bình kết hợp giữa tài chính, đầu tư, và công nghệ để cung cấp cho độc giả một cái nhìn sâu sắc về cách hoạt động của đồng tiền mã hóa phổ biến nhất thế giới, Bitcoin. Cuốn sách này nhắm đến những độc giả đã có kiến thức nền tảng về lập trình và khoa học máy tính, bao gồm các chủ đề như scripting trong Bitcoin, mật mã học, và xác minh giao dịch. Với trọng tâm vào việc học một cách thực hành, tác giả hướng dẫn độc giả qua quá trình viết mã cho các giao dịch Bitcoin, triển khai hợp đồng thông minh, và tạo ví Bitcoin của riêng họ. Trên hành trình này, độc giả sẽ có cái nhìn sâu sắc về tâm lý đầu tư vào Bitcoin và cách đưa ra quyết định thông minh trong thị trường đang phát triển nhanh chóng này.
+contributors:
+  - rabbit-hole

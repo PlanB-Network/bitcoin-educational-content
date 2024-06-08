@@ -1032,7 +1032,7 @@ Un autre projet, unique en son genre, est la **création de cartes NFC personnal
 Actuellement, [sur leur site internet](https://swiss-bitcoin-pay.ch/cards), il existe quatre designs de base proposés par Swiss Bitcoin Pay.
 Toutefois, dans le cas où vous souhaiteriez commander **plus de 50 cartes NFC, il vous est possible de contacter l'entreprise sur son site officiel (ou sur [Twitter](https://twitter.com/SwissBitcoinPay)) et de leur proposer un design personnalisé** que vous aurez réalisé pour le recto de la carte. Le verso, quant à lui, est standardisé.
 
-![image](assets/fr/chapter30/50.jpg)
+![image](assets/fr/chapter30/50bis.jpg)
 
 L'[association française Bitcoin Lille](https://twitter.com/BitcoinLille) a par exemple commandé en 2023 une centaine de cartes NFC avec un design personalisé, moyennant **un prix d'environ 2,50€ à 5€ par carte** (le tarif change régulièrement, et est dégressif).
 Ainsi, **chaque nouvel adhérant à l'association reçoit dans son pack de bienvenue une carte NFC customisée**.
@@ -1067,7 +1067,7 @@ Parmi les plateformes vidéo les plus connues, on retrouve notamment:
 
 En fonction de ce que vous aurez décidé de mettre en place, il faudra évidemment **créer des visuels spécifiques à cette plateforme**, dans l'objectif de rendre votre chaîne vidéo visuellement agréable. Le point positif est qu'avec **Canva**, dont nous avons parlé dans [la partie 2/8 de ce cours](LIEN), il existe une catégorie "Vignette YouTube" avec des visuels déjà préconçus et facilement modifiables.
 
-![image](assets/fr/chapter31/51.jpg)
+![image](assets/fr/chapter31/51bis.jpg)
 ###
 Dans le cas où vous souhaiteriez vous **enregistrer sur votre ordinateur, un logiciel comme ["Streamlabs"](https://streamlabs.com/fr-fr) fait très bien l'affaire**. Il permet de régler de nombreux paramètres, est gratuit et permet également d'effectuer des transitions de scènes.
 
@@ -1111,7 +1111,7 @@ Cette stratégie, bien qu'un peu formelle, peut permettre à certains membres de
 
 Plusieurs modèles utilisés par l'association Bitcoin Lille sont d'ailleurs [disponibles en open-source sur Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-![image](assets/fr/chapter32/52-fr.jpg)
+![image](assets/fr/chapter32/52-frbis.jpg)
 
 ## Réfléchir à la passation lors d'un décès
 

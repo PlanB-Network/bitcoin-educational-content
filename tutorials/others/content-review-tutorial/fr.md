@@ -76,8 +76,6 @@ NB. La révision est mieux faite dans la fenêtre de code avec le contenu origin
 
 ## **5. Commit les modifications**
 
-Continue ici mon ami <3
-
 * Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée – c'est un peu comme si vous "sauvegardiez vos modifications sur GitHub".
 * Cliquez sur le bouton "Commit Changes" (cf. **A**).
 
@@ -103,9 +101,6 @@ Continue ici mon ami <3
 
 ## **7. Continuer la révision plus tard**
 * Si vous n'avez pas terminé votre révision et que vous souhaitez continuer votre travail, allez sur votre fork du dépôt de contenu sovereign-university via votre profil GitHub.
-
-Continue ici mon ami <3
-
 * Sélectionnez la branche correspondante.
 * Renommez la branche si nécessaire.
 * Trouvez votre fichier de contenu et cliquez sur le bouton du stylo pour reprendre la révision.

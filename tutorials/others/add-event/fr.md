@@ -1,6 +1,6 @@
 ---
-name: 
-description:
+name: Ajouter un évènement sur PlanB Network
+description: Comment proposer l'ajout d'un nouvel évènement sur PlanB Network ?
 ---
 ![event](assets/cover.webp)
 

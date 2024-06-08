@@ -1295,7 +1295,7 @@ Mais que se passera-t-il **si les dirigeants de notre monde comprennent enfin qu
 ###
 Bien sûr, il ne faut pas tomber dans une forme de complotisme. Mais **rien ne nous empêche, dès maintenant, d’anticiper, de décentraliser et d’éduquer**.
 
-![image](assets/fr/chapter37/61-frbis.jpg)
+![image](assets/fr/chapter37/61-frter.jpg)
 
 # Conclusion
 

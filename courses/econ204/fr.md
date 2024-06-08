@@ -143,7 +143,7 @@ Le cas du Maravédis illustre comment un État peut dévaluer sélectivement une
 
 ![image](assets/chapitre-2.1/7.webp)
 
-Plus de quoi ? -> https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing
+[Voir une collection de pièce](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
 #### 4. Révolution des prix du 15e au 17e siècle
 
@@ -432,7 +432,7 @@ Merci pour votre attention la prochaine session sera entièrement dédiée à d�
 ## Les définitions de l'hyperinflation
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
-![video provisoire 3.1 ](https://youtu.be/qYMR-i7TtHY)
+![video provisoire 3.1 ](https://www.youtube.com/watch?v=yYeEyT0CKE4&list=PLinTFKehfR4ycdp-qc0Nn0lnCNgoYX1lc&index=3)
 
 ### Les définitions de l’hyperinflation
 
@@ -517,7 +517,7 @@ Il est à noter que certaines périodes historiques d'inflation élevée ne figu
 ## Weimar vs Zimbabwe similitudes
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
-![Video](https://youtu.be/xqMESvFi7J8)
+![Video](https://www.youtube.com/watch?v=yYeEyT0CKE4&list=PLinTFKehfR4ycdp-qc0Nn0lnCNgoYX1lc&index=4)
 
 ### Deux époques, deux catastrophes
 
@@ -705,7 +705,7 @@ C'est ce qui complète cette vidéo au sujet des similitudes des expériences v�
 ## Weimar vs Zimbabwe différences et parallèle contemporains
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
-![Video](https://youtu.be/jh_MOKDPmQQ)
+![Video](https://www.youtube.com/watch?v=qoHAN4Nj2pE&list=PLinTFKehfR4ycdp-qc0Nn0lnCNgoYX1lc&index=5)
 
 Dans ce chapitre, nous explorerons les différences et parallèles entre les périodes d'hyperinflation passées et contemporaines, agrémentés d'anecdotes et de comparaisons pertinentes pour aujourd'hui.
 
@@ -818,7 +818,7 @@ Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le 
 ## Les redénominations en Amérique Latine
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
-![Vidoe](https://youtu.be/m2pcmbEzKyc)
+![Vidoe](https://www.youtube.com/watch?v=MnAFWQKdYAM&list=PLinTFKehfR4ycdp-qc0Nn0lnCNgoYX1lc&index=6)
 
 Nous allons regarder ensemble différentes périodes de rédénomination dans des pays d'Amérique latine.
 
@@ -932,7 +932,7 @@ En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La h
 ## Comment sortir de l’hyperinflation
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
-![video](https://youtu.be/9PYH7ut3fq0)
+![video](https://www.youtube.com/watch?v=o7Gz8q_PfoE&list=PLinTFKehfR4ycdp-qc0Nn0lnCNgoYX1lc&index=7)
 
 ### Comment mettre fin à l’inflation modérée et la haute inflation
 

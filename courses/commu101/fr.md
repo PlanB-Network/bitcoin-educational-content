@@ -767,9 +767,9 @@ Pour ce faire, il sera nécessaire:
 1) d'**arriver un peu en avance** pour préparer;
 2) d'**agencer la salle ou le lieu en fonction des possibilités et de vos besoins**. Dans le cas où vous êtes une demi-douzaine, il n'y a effectivement pas grand chose à faire. Mais dès que vous atteindrez les 10 à 20 personnes par événement, vous vous rendrez rapidement compte qu'être tous assis n'est pas une si bonne idée, car cela créé moins d'échanges, et vous ne parviendrez pas à parler avec tout le monde dans la soirée. En ce sens, **privilégier une configuration debout, avec par exemple des tables hautes bien espacées** (lorsque cela est possible) semble pertinent dès que vous atteindrez une quinzaine de personnes. Pensez toutefois à **quand même disposer de chaises** (hautes par exemple). Dans le cas où une présentation sera réalisée, il est préférable de laisser la configuration debout toute la soirée, quitte à apporter des chaises (hautes) quelques minutes avant la présentation;
 
-![image](assets/fr/chapter21/34.png)
+![image](assets/fr/chapter21/34bis.jpg)
 
-3) en plus de l'agencement de la salle, d'autres petites "customisations" peuvent être entreprises:
+4) en plus de l'agencement de la salle, d'autres petites "customisations" peuvent être entreprises:
     - affichage, avec de la Patafix, d'une **affiche devant le lieu de votre meet-up, spécifiant dans quelle salle vous serez** (pensez évidemment à demander l'accord, en amont);
     - affichage, avec de la Patafix, d'**affiches spécifiques** dans la salle où vous réalisez votre événement (**livre blanc de Bitcoin, charte de votre communauté, projets en cours**, etc.);
     - installation sur une ou plusieurs tables de **stickers, flyers voire même de matériel pouvant amener à la discussion** (Nerdminer, plaque en acier, portefeuille matériel, ordinateur allumé avec la mempool, ASIC, plaque en métal pour sécuriser sa clé privée, etc.)

@@ -452,8 +452,9 @@ Kết luận, xác minh chữ ký số là một thủ tục thiết yếu trong
 
 Điều đó được nói, việc quản lý những khóa này, cũng như việc tạo ra chúng, là một câu hỏi thiết yếu khác trong Bitcoin. Làm thế nào để tạo ra một cặp khóa mới? Làm thế nào để tổ chức một cách an toàn và hiệu quả một lượng lớn khóa? Làm thế nào để khôi phục chúng nếu cần thiết?
 Để trả lời những câu hỏi này và mở rộng hiểu biết của bạn về bảo mật mã hóa, khóa học tiếp theo của chúng tôi sẽ tập trung vào khái niệm về Ví Phân Cấp Xác Định (Hierarchical Deterministic Wallets - HD wallets) và việc sử dụng cụm từ ghi nhớ. Những cơ chế này cung cấp những cách thức tinh tế để quản lý hiệu quả các khóa tiền mã hóa của bạn trong khi tăng cường bảo mật.
+
 # Cụm từ ghi nhớ
-<partId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</partId>
+<partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
 ## Sự phát triển của ví Bitcoin
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>

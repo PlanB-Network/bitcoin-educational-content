@@ -17,7 +17,7 @@ Tại đây, chúng tôi sẽ nêu bật xu hướng và mô hình chung trong c
 +++
 
 # Giới thiệu
-<partId>9d1aba8d-0485-5020-9863-5de37e6db8e0</partId>
+<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
 ## Giới thiệu
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>

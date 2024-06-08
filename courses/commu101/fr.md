@@ -885,7 +885,7 @@ Tout au long de l'année, d'autres événements peuvent être organisés. Cela p
 - d'**une soirée ou d'un week-end pour "célébrer" le prochain halving**;
 - d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme ["Le Coin de Table"](https://www.maximalist.ovh/) ou ["SHAmory"](https://shamory.com/) peuvent alors être apportés;
 
-![image](assets/fr/chapter24/37bis.jpg)
+![image](assets/fr/chapter24/37ter.jpg)
 
 - d'**un atelier minage**, avec la découverte de plusieurs matériels (processeur, carte graphique, FPGA, ASIC, nerdminer, bitaxe);
 - d'**une après-midi ou soirée spécialement pour les débutants, avec des ateliers thématiques**;

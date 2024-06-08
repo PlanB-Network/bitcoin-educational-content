@@ -90,7 +90,7 @@ En effet, au fil du parcours du bitcoiner, une quantité très significative de 
 
 L'organisation de ces meet-ups peut ainsi permettre des rencontres physiques bien plus conviviales qu'en audio ou en visio. Elles peuvent alors s'effectuer **autour d'un verre ou d'un repas**, et permettent de pouvoir échanger de manière plus précise et plus directe, avec un plus grand nombre de personnes.
 
-![image](assets/fr/chapter1/img3.jpg)
+![image](assets/fr/chapter1/img3bis.jpg)
 
 Pour les bitcoiners, les meet-ups peuvent alors être un moment **propice à la discussion autour de sujets techniques ou de projets** qu'ils sont entrain de développer; et pour les "bitcoiners en devenir", de **découvrir l'univers de Bitcoin et de s'y plonger petit à petit**.
 ###

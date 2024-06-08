@@ -37,7 +37,7 @@ Cette vision statistique est bien sûr intimement liée:
 * au développement successif du marché spéculatif des crypto-monnaies, en particulier en 2017/2018 et en 2020/2021;
 * à l'apparition de plus en plus régulière de Bitcoin dans les médias.
 
-![image](assets/fr/chapter0/img1bis.jpg)
+![image](assets/fr/chapter0/img1ter.jpg)
 
 ####
 Alors que Bitcoin n'est encore qu'à ses balbutiements, ce constat - que vous connaissez certainement déjà - nous amène alors à réfléchir à deux choses.
@@ -72,7 +72,7 @@ D'autre part, une communauté Bitcoin peut également avoir des objectifs plus o
 4. les inepties non sourcées et/ou trompeuses que certaines personnalités et médias cherchent à répandre;
 5. ses différences fondamentales avec les autres crypto-monnaies.
 
-![image](assets/fr/chapter1/img2-fr.png)
+![image](assets/fr/chapter1/img2-frbis.png)
 
 Construisant petit à petit les premières citadelles du monde de demain, **les communautés Bitcoin du monde entier se dressent comme un rempart particulièrement pertinent face aux tentatives de désinformation et/ou de censure dans certains pays**. En parallèle, **elles créent un terrain fertile pour l'apprentissage des fondamentaux de Bitcoin**; permettant à toute personne ne l'ayant pas encore compris de pouvoir disposer, lorsqu'elle sera prête, des contacts et ressources pour entrevoir un monde nouveau.
 

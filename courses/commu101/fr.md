@@ -836,7 +836,7 @@ Lorsqu'on lance un meet-up Bitcoin, on découvre de nouvelles personnes. Les int
 
 Chacun a ses propres envies, ses propres convictions, sa propre personnalité. Il n'y a donc aucun jugement fait ici sur le fonctionnement d'un meet-up ou d'un autre. Après tout, **c'est autour d'une bière qu'on refait le monde, mais ce n'est pas ainsi qu'on le transforme en profondeur**.
 
-![image](assets/fr/chapter23/36.jpg)
+![image](assets/fr/chapter23/36bis.jpg)
 
 ## Organiser des meet-ups thématiques, suivant une progression annuelle définie
 
@@ -861,9 +861,9 @@ Si vous souhaitez accéder à d'autres ressources modifiables, pensez à faire u
 | Février     | Chapitre 5: Monter un noeud Bitcoin et Lightning     | https://www.youtube.com/watch?v=RRYK-usg-OY     | https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit |
 | Mars     | Chapitre 6: Utiliser le Lightning Network au quotidien     | https://www.youtube.com/watch?v=o2BS4xjei8M     | https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit |
 | Avril & Mai     | Chapitre 7: Sécuriser ses bitcoins      | https://www.youtube.com/watch?v=fHExPbhM0Hg     | https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit |
-| Juin     | Text     | Text     | Ressource |
-| Juillet     | Text     | Text     | Ressource |
-| Août     | Text     | Text     | Ressource |
+| Juin     | À venir     | À venir     | À venir |
+| Juillet     | À venir     | À venir     | À venir |
+| Août     | À venir     | À venir     | À venir |
 ###
 Bien évidemment, il arrivera que certaines personnes ne seront pas présentes lors d'un meet-ups. Lorsque cela est envisageable, **prendre en vidéo la présentation pour la poster sur une plateforme de streaming et/ou votre site internet peut donc être pertinent**. Cela peut en effet amener les absents à prendre connaissance des présentations précédentes; voire même, à les regarder à nouveau en replay pour mieux se former.
 
@@ -885,7 +885,7 @@ Tout au long de l'année, d'autres événements peuvent être organisés. Cela p
 - d'**une soirée ou d'un week-end pour "célébrer" le prochain halving**;
 - d'**un événement "jeu en famille" autour de Bitcoin** et de son fonctionnement. Des jeux comme ["Le Coin de Table"](https://www.maximalist.ovh/) ou ["SHAmory"](https://shamory.com/) peuvent alors être apportés;
 
-![image](assets/fr/chapter24/37.jpg)
+![image](assets/fr/chapter24/37bis.jpg)
 
 - d'**un atelier minage**, avec la découverte de plusieurs matériels (processeur, carte graphique, FPGA, ASIC, nerdminer, bitaxe);
 - d'**une après-midi ou soirée spécialement pour les débutants, avec des ateliers thématiques**;

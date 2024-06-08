@@ -4,7 +4,7 @@ name: Phoenix
 description: Phoenixウォレットの設定
 ---
 
-![phoenix](assets/cover.jpeg)
+![phoenix](assets/cover.webp)
 
 ## はじめに
 

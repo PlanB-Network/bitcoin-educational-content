@@ -3,7 +3,7 @@ name: JoinBot
 description: JoinBotの理解と使用
 ---
 
-![DALL·E – 赤い森のサムライロボット、3Dレンダリング](assets/cover.jpeg)
+![DALL·E – 赤い森のサムライロボット、3Dレンダリング](assets/cover.webp)
 
 JoinBotは、有名なBitcoinウォレットソフトウェアの最新アップデート0.99.98fに追加されたSamourai Walletスイートの新しいツールです。これにより、パートナーを見つけることなく、プライバシーを最適化するための共同トランザクションを簡単に行うことができます。
 

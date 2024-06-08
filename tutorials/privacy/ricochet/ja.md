@@ -2,7 +2,7 @@
 name: Ricochet
 description: Ricochetトランザクションの理解と使用
 ---
-![cover ricochet](assets/cover.jpeg)
+![cover ricochet](assets/cover.webp)
 
 > *"トランザクションに追加の履歴のホップを加えるプレミアムツール。ブラックリストをかわし、不当な第三者によるアカウント閉鎖から守るのに役立ちます。"*
 

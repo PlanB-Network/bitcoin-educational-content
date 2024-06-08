@@ -4,7 +4,7 @@ name: Wallet of satoshi
 description: 最初のLNウォレットを1分で設定
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 Wallet of Satoshi (https://www.walletofsatoshi.com/) は、Lightning支払いを送受信できるiOSとAndroid用のモバイルアプリです。
 

@@ -4,7 +4,7 @@ name: LN VPN
 description: VPNの設定
 ---
 
-![image](assets/cover.jpeg)
+![image](assets/cover.webp)
 
 LN VPNは、ライトニング決済のみを受け付けるカスタマイズ可能なVPNサービスです。今日は、インターウェブをブラウジングする際に、より少ない痕跡を残す方法をご紹介します。
 

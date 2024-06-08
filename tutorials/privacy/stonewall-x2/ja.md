@@ -2,7 +2,7 @@
 name: Stonewall x2
 description: Stonewall x2トランザクションの理解と使用
 ---
-![cover stonewall x2](assets/cover.jpeg)
+![cover stonewall x2](assets/cover.webp)
 
 > *すべての支払いをコインジョインにしましょう。*
 

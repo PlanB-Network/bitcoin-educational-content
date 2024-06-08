@@ -4,7 +4,7 @@ name: Foundation
 description: Foundationデバイスの設定方法
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 PassportハードウェアウォレットとEnvoyモバイルウォレットにより、ついに自己管理が実現します。https://foundationdevices.com/
 

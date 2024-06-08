@@ -4,7 +4,7 @@ name: Wasabi Wallet
 description: プライバシーを取り戻す方法を学ぶ
 ---
 
-![wasabi](assets/cover.jpeg)
+![wasabi](assets/cover.webp)
 
 デスクトップ用のオープンソース、非預託、プライバシーに焦点を当てたBitcoinウォレット
 https://www.wasabiwallet.io/

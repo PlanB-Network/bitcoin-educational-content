@@ -4,7 +4,7 @@ name: Breez ポイントオブセール
 description: Breez POSを使用してビットコインの受け入れを開始するガイド
 ---
 
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 _このテキストはBreezのドキュメントウェブサイトからのものです：https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 

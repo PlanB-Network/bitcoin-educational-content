@@ -20,7 +20,7 @@ Enjoy and good luck with one of the most advanced topics in Bitcoin.
 # Introduction to the RGB course
 <partId>c6f7a70f-d894-595f-8c0a-b54759778839</partId>
 
-## Coures presentation
+## Course presentation
 <chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
 
 Hey everyone, and welcome to these RGB courses.
@@ -35,18 +35,18 @@ Week 2 - Current formation
 
 ![image](assets/image/2.webp)
 
-A big thanks to the person who've organize this live courses and the 3 teacher who've particiapted: 
+A big thanks to the person who've organized this live courses and the 3 teachers who've participated: 
 
 - Maxim Orlovsky : Ex Tenebrae sententia sapiens dominabitur astris. Cypher, AI, robotics, transhumanism. Creator of RGB, Prime, Radiant and lnp_bp, mycitadel_io & cyphernet_io
 - Hunter trujilo :  Developer, Rust, Bitcoin, Bitcoin, Lightning, RGB
 - Federico Tenga : Doing my part to make the world become a cypherpunk dystopia. Currently working on RGB at @bitfinex
 
-Good luck with your studies, and if you need to reach out to our team or the teacher, please use the appropriate channel. This courses will be upadte shortly with a texte section for each chapter, exams and image. stay tuned. 
+Good luck with your studies, and if you need to reach out to our team or the teacher, please use the appropriate channel. This course will be updated shortly with a text section for each chapter, exams and image. stay tuned. 
 
 # RGB in theory
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
 
-## Understandign RGB 
+## Understanding RGB 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 ![video](https://youtu.be/AF2XbifPGXM)

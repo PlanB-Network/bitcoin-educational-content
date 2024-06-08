@@ -2,7 +2,7 @@
 name: Stonewall
 description: Stonewallトランザクションの理解と使用
 ---
-![cover stonewall](assets/cover.jpeg)
+![cover stonewall](assets/cover.webp)
 
 > *"ブロックチェーン分析の仮定を数学的に証明可能な疑問で破り、あなたのトランザクションの送信者と受信者の間に不確実性をもたらします。"*
 

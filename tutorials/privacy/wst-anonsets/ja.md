@@ -2,7 +2,7 @@
 name: Whirlpool統計ツール - Anonsets
 description: Anonsetの概念と、WSTを用いたその計算方法を理解する
 ---
-![cover](assets/cover.jpeg)
+![cover](assets/cover.webp)
 
 *"あなたのコインが残す痕跡を断ち切る"*
 

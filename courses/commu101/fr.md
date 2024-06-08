@@ -1243,7 +1243,7 @@ Le premier d'entre-eux (le plus simple à anticiper) est évidemment **l’augme
 D’une part, si vous êtes 500 à échanger sur des sujets divers dans un même canal de discussion, une majorité de vos membres vont petit à petit arrêter de suivre les conversations; entre autre à cause de l’abondance des messages à lire et des notifications associées. En ce sens, il peut être pertinent de **réfléchir de nouveau à ses canaux de communication; à l’image par exemple des super-groupes Telegram, voire d’un serveur Discord**, qui permettent tous deux de regrouper les conversations par thème.
 D’autre part, qui dit plus de monde dans les canaux d’échanges dit également plus de bots, plus de scams mais également **plus de modération à effectuer**. Il vous faudra donc être préparé, en rédigeant par exemple un règlement sur lequel vous pourrez vous appuyer lorsque vous modérerez un message. D’expérience, cela permet d’éviter une grande partie des conflits; en particulier lorsque le règlement est disponible à la lecture sur vos canaux de communication. L’association Bitcoin Lille a en ce sens rédigé il y a quelques années **[un règlement open-source](https://bitcoinlille.fr/reglement/) pour son groupe Telegram et pour son serveur Discord**, s’appuyant sur des principes simples et universels. Son design est [lui aussi disponible](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-![image](assets/fr/chapter36/59-fr.jpg)
+![image](assets/fr/chapter36/59-frbis.jpg)
 
 2) **vos meet-ups et événements se rempliront de manière importante, avec une abondance de nouvelles têtes qui souhaiteront échanger les unes avec les autres**.
 Face à cet aflux conséquent, plusieurs axes peuvent être évoqués et réfléchis:
@@ -1286,7 +1286,7 @@ Dans l'objectif de décentraliser encore plus, **utiliser des [logiciels libres 
 
 Le 5 avril 1933, Franklin Roosevelt, alors 32ème président des États-Unis d'Amérique, signa le décret 6102 interdisant à tout particulier de posséder pièces d’or, lingots d’or et certificats sur tout le territoire.
 
-![image](assets/fr/chapter37/60-en.jpg)
+![image](assets/fr/chapter37/60-enbis.jpg)
 
 Évidemment, la Grande Dépression (crise boursière de 1929) n’est plus d’actualité. Mais qui nous dit que, demain, un autre état ne se permettra pas de faire la même chose et d’**interdire à tout particulier de posséder du bitcoin?**
 ###
@@ -1295,7 +1295,7 @@ Mais que se passera-t-il **si les dirigeants de notre monde comprennent enfin qu
 ###
 Bien sûr, il ne faut pas tomber dans une forme de complotisme. Mais **rien ne nous empêche, dès maintenant, d’anticiper, de décentraliser et d’éduquer**.
 
-![image](assets/fr/chapter37/61-fr.jpg)
+![image](assets/fr/chapter37/61-frbis.jpg)
 
 # Conclusion
 

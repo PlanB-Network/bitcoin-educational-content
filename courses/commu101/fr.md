@@ -1111,7 +1111,7 @@ Cette stratégie, bien qu'un peu formelle, peut permettre à certains membres de
 
 Plusieurs modèles utilisés par l'association Bitcoin Lille sont d'ailleurs [disponibles en open-source sur Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-![image](assets/fr/chapter32/52-frbis.jpg)
+![image](assets/fr/chapter32/52-frter.jpg)
 
 ## Réfléchir à la passation lors d'un décès
 
@@ -1142,7 +1142,7 @@ De plus, **avoir un état d’esprit ouvert, prêt à vulgariser au besoin**, es
 Si vous vous en sentez donc capables: foncez ! Notre monde a tellement besoin d'éducation à ce qu'est Bitcoin...
 Il n'est toutefois pas sans dire que pour réaliser cet exercice, **il vous faudra beaucoup de motivation, une grande quantité de travail; mais aussi, les bons contacts**.
 
-![image](assets/fr/chapter33/53.jpg)
+![image](assets/fr/chapter33/53bis.jpg)
 ###
 En effet, parvenir à **organiser une conférence ou un atelier dans une école et/ou une université n’est pas chose aisée**.
 En effet, dans un premier temps, il faut parvenir à **obtenir un contact**. Cela peut ainsi être obtenu **par le biais d’une connaissance, par le biais des BDE ("Bureaux Des Étudiants"); voire même des associations d’élèves**, qui organisent généralement des cycles de conférences et de rencontres chaque année. Vos **anciens professeurs d'école d'ingé' et/ou de fac** peuvent également servir de relai.
@@ -1151,7 +1151,7 @@ Dans le cas d’une école post-bac, il est également possible de **contacter d
 Malheureusement, dans notre monde actuel, Bitcoin est encore bien trop volontairement diabolisé par les médias et les politiques; amenant de nombreux néophytes à penser qu’il est à bannir des salles de classe et des amphithéâtres. **La probabilité est donc assez importante pour que vous essuyez de nombreux refus**; notamment dans la sphère universitaire où la preuve de travail et la consommation énergétique de Bitcoin semblent parfois tabou.
 Rien ne vous empêche toutefois d’essayer, notamment auprès des BDE et des associations d’élèves. **Avec un peu de chance, même si le refus est sec la première fois, il n’est pas impossible que l’on vous contacte de nouveau lors du prochain bull-run sur l’adresse mail de votre communauté pour effectuer une conférence devant près de 280 étudiants !**
 
-![image](assets/fr/chapter33/54.png)
+![image](assets/fr/chapter33/54bis.png)
 
 ## Démarcher des commerces
 

@@ -25,7 +25,7 @@ Bienvenido al emocionante mundo del Lightning Network, una segunda capa de Bitco
 ## Comprender el Lightning Network
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video](https://youtu.be/zEpIS5uuTuo)
+![video](https://youtu.be/w9y0WsioH2c)
 
 La red Lightning es una infraestructura de pago de segunda capa, construida sobre la red Bitcoin, que permite transacciones rápidas y económicas. Para comprender completamente cómo funciona la red Lightning, es esencial entender qué son los canales de pago y cómo funcionan.
 
@@ -75,7 +75,7 @@ Ahora, Bob quiere enviar 80,000 SAT a Alice. Como no tiene la liquidez, no puede
 ## Bitcoin, direcciones, UTXO y transacciones
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video](https://youtu.be/42gfEp0zXOg)
+![video](https://youtu.be/zS_isbMwT28)
 
 En este segundo capítulo, nos tomamos el tiempo para estudiar cómo funcionan realmente las transacciones de Bitcoin, lo que nos será muy útil para entender Lightning. También nos detenemos un momento en la noción de dirección multi-firma, que es fundamental para entender el próximo capítulo dedicado a la apertura de canales en la red Lightning.
 
@@ -109,7 +109,7 @@ En Lightning Network, se utilizan multisig. Por lo tanto, se necesitan 2 firmas 
 ## Apertura de canal
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![video](https://youtu.be/vV6G07X2GH4)
+![video](https://youtu.be/G9Fz1C4xf4Q)
 
 Ahora, nos enfocamos más detalladamente en la apertura de canal y cómo se realiza a través de una transacción de Bitcoin.
 
@@ -152,7 +152,7 @@ Por lo tanto, Alice puede recuperar los fondos sola, ya tiene la firma de Bob. L
 ## Transacción Lightning y de compromiso
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![video](https://youtu.be/7vjBvkDRhZ0)
+![video](https://youtu.be/1sHUdqA7J04)
 
 Ahora analicemos lo que realmente sucede detrás de escena cuando se transfieren fondos de un lado a otro de un canal en la red Lightning, con la noción de transacción de compromiso. La transacción de retiro/cierre on-chain representa el estado del canal, lo que garantiza quién posee los fondos después de cada transferencia. Por lo tanto, después de una transferencia en la red Lightning, hay una actualización de esta transacción/contrato no realizado entre los dos pares, Alice y Bob, creando una misma transacción con el estado actual del canal en caso de cierre:
 
@@ -188,7 +188,7 @@ El dinero nunca se mueve, pero el saldo final se actualiza a través de una tran
 ## Transacciones de compromiso
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![video](https://youtu.be/Lg1alt3MxDQ)
+![video](https://youtu.be/GrXSB-nLvjE)
 
 Si las transacciones de compromiso dictan un estado del canal con la liquidez en el momento X, ¿se puede hacer trampa publicando un estado antiguo? La respuesta es sí, porque ya se tiene la pre-firma de los dos participantes en la transacción no publicada.
 
@@ -217,7 +217,7 @@ La persona que crea la transacción con el Timelock (quien envía el dinero) sol
 ## Cierre del canal
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video](https://youtu.be/TgimOZN5rGs)
+![video](https://youtu.be/zg-7PXwNRPc)
 
 Nos interesamos por el cierre del canal a través de una transacción de Bitcoin, que puede tomar diferentes formas según el caso. Existen 3 tipos de cierre de canal:
 
@@ -260,7 +260,7 @@ En conclusión, el cierre del canal en Lightning Network es un paso crucial que 
 ## Lightning Network
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![video](https://youtu.be/7sVE0N206B4)
+![video](https://youtu.be/4UGonGv0toY)
 
 En este séptimo capítulo, estudiamos el funcionamiento de Lightning como una red de canales y cómo se enrutan los pagos desde su origen hasta su destino.
 Lightning es una red de canales de pago. Miles de pares con sus propios canales de liquidez están conectados entre sí, y así se autoutilizan para realizar transacciones entre pares no conectados.
@@ -342,7 +342,7 @@ Para Susie o Eden: no saben quién es el destinatario final ni quién envía. Es
 ## HTLC - Contrato de tiempo bloqueado y hash
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video](https://youtu.be/k4z2LvAnqoo)
+![video](https://youtu.be/5ZGKt6O5gGo)
 
 En un sistema de enrutamiento clásico, ¿cómo asegurarse de que Eden no haga trampa y cumpla con su parte del contrato?
 
@@ -398,7 +398,7 @@ En resumen, el mecanismo HTLC agrega una capa adicional de seguridad en Lightnin
 ## Encontrar tu camino
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video](https://youtu.be/wyWv37M3NzA)
+![video](https://youtu.be/_7UuCI9TwlQ)
 
 El único dato público es la capacidad total del canal (Alice + Bob) pero no sabemos dónde está la liquidez.
 Para obtener más información, nuestro nodo escucha el canal de comunicación de LN para anuncios de nuevos canales y actualizaciones de tarifas de canales. Su nodo también mira la cadena de bloques para el cierre de canales.
@@ -468,7 +468,7 @@ Además, para facilitar la búsqueda de ruta, el destinatario puede proporcionar
 ## Factura, LNURL, Keysend
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![video](https://youtu.be/OrKbBjAow94)
+![video](https://youtu.be/V2NsdO0Zig8)
 
 Una factura LN (o invoice) es larga y no es agradable de leer, pero permite representar de manera densa una solicitud de pago.
 
@@ -519,7 +519,7 @@ En conclusión, una factura de Lightning Network, aunque compleja a primera vist
 ## Gestionar la liquidez
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![video](https://youtu.be/tSflqK9QWI4)
+![video](https://youtu.be/v3tMehXZ4R0)
 
 Damos algunas pautas generales para responder a la sempiterna pregunta de la gestión de la liquidez en Lightning.
 
@@ -566,7 +566,7 @@ En conclusión, la gestión de la liquidez en la red Lightning Network es un des
 ## Resumen de la formación
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-![video](https://youtu.be/yC5UOCjcAr0)
+![video](https://youtu.be/9VowzzMU1UA)
 
 Nuestro objetivo era explicar cómo funciona la red Lightning y cómo se basa en Bitcoin para funcionar.
 

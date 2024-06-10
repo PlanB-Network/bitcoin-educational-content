@@ -991,8 +991,6 @@ Néanmoins la hausse du pouvoir d'achat du bitcoin n'enlèvera rien à la symbol
 
 ### Gavin Andresen (mai -- juil. 2010)
 
-https://www.technologyreview.com/2014/08/15/12784/the-man-who-really-built-bitcoin/
-
 Cette période voit aussi l'arrivée d'un personnage clé de l'histoire de Bitcoin : Gavin Andresen, un développeur de 44 ans né en Australie qui a [acquis](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) la nationalité étasunienne en 2004 et qui vit alors à Amherst dans le Massachusetts. De retour de voyage en Australie et momentanément sans emploi, ce dernier découvre Bitcoin à la fin du mois de mai par l'intermédiaire d'un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld. Cet article présente le projet de Satoshi Nakamoto comme une « innovation open source ».
 
 ![Photo de profil de Gavin Andresen de l'époque, prise à Townsville dans le Queensland en Australie](assets/img/ch7/gavin-andresen-townsville.webp)
@@ -1013,15 +1011,41 @@ La contribution de Gavin Andresen ne s'arrête pas là. Il s'intéresse profond�
 >
 > *original: "The nature of Bitcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime. &nbsp;Because of that, I wanted to design it to support every possible transaction type I could think of. (...) &nbsp;The solution was script, which generalizes the problem so transacting parties can describe their transaction as a predicate that the node network evaluates. &nbsp;The nodes only need to understand the transaction to the extent of evaluating whether the sender's conditions are met."*
 
-Il s'implique également dans le développement du logiciel en s'intéressant à l'API et en participant au déploiement du réseau de test (dont il a eu [l'idée](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) le 9 juin). Il rentre en contact avec Satoshi, dont il devient progressivement le bras droit, Martti Malmi étant [très occupé](https://mmalmi.github.io/satoshi/#email-191) avec son nouvel emploi à plein temps.
+Il s'implique également dans le développement du logiciel en [implémentant](https://sourceforge.net/p/bitcoin/code/101/) le lancement automatique au démarrage pour Linux, en s'intéressant à l'API (il sera [crédité](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) pour son amélioration dans la version 0.3.3) et en participant au déploiement du réseau de test (dont il a eu [l'idée](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) le 9 juin). Il échange en privé avec Satoshi, dont il devient progressivement le bras droit, Martti Malmi étant [très occupé](https://mmalmi.github.io/satoshi/#email-191) avec son nouvel emploi à plein temps.
 
-### État du réseau et du logiciel
+### Un printemps chargé en évènements
 
-James A. Donald : « Bitcoin est en quelque sorte mort » ([30/06/2010](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006))
+Le printemps 2010 a été une période riche en évènements fondateurs. D'abord, à la fin du mois d'avril, le développeur Laszlo Hanyecz a mis au point le minage par processeur graphique, une optimisation à laquelle Satoshi s'opposait à court terme (même s'il en connaissait le caractère inéluctable à long terme). Ce développement a coïncidé avec l'arrêt de la production de blocs de Satoshi, qui estimait probablement que le taux de hachage du réseau était suffisant. Ensuite, le jour du 22 mai a été marqué par l'échange des fameuses pizzas entre Laszlo Hanyecz et Jeremy Sturdivant, ce qui concluait la première vente d'un bien physique en bitcoins. Enfin, au mois de juin, on a assisté à l'arrivée de Gavin Andresen, qui a créé le *Bitcoin Faucet* et qui s'est rapidement impliqué dans le développement du logiciel. Tous ces éléments montrent une progression encourageante de l'économie autour de Bitcoin.
 
-Mise en retrait de l'anonymat
+Cependant, à la fin du mois de juin, l'activité demeurait assez modeste sur le réseau. Les nouveaux utilisateurs étaient peu nombreux et la flamme avait tout juste de quoi rester en vie. Le 30 juin, sur la liste de diffusion bitcoin-list, le cypherpunk James A. Donald (qui ne semblait pas avoir suivi les dernières avancées, ni n'avoir connaissance de l'existence du forum) [déclarait](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006) que « Bitcoin \[était\] en quelque sorte mort ». Même s'il avait tort, son commentaire révélait un manque criant de communication : un nombre trop restreint de personnes avait connaissance du projet, et il fallait faire plus d'efforts dans ce sens. Bitcoin avait « besoin d'une écologie d'utilisateurs pour être utile » et cette masse critique n'était pas encore là. Un évènement irait dans ce sens quelques jours plus tard, ce que nous aborderons dans le prochain chapitre.
 
-5 juillet 2010, 21:31, sur le [forum](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) à propos de la présentation pour Slashdot : « Nous ne voulons pas mettre l'aspect "anonyme" au premier plan. &nbsp;(J'avais l'intention de modifier la page d'accueil) » (*original "We don't want to lead with 'anonymous'. &nbsp;(I've been meaning to edit the homepage)"*)
+## Bitcoin prend ! (juin 2010 -- déc. 2010)
+
+### Un dernier effort de communication (juin -- juil. 2010)
+
+... la sortie de la version 0.3 du logiciel, préparée de longue date par Satoshi Nakamoto. Par rapport à la version 0.2, elle inclue ...
+
+- Command line and JSON-RPC control
+- Includes a daemon version without GUI
+- Transaction filter tabs
+- 20% faster hashing
+- Hashmeter performance display
+- Mac OS X version (thanks to Laszlo)
+- German, Dutch and Italian translations (thanks to DataWraith, Xunie and Joozero)
+
+Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) aux membres du forum de tester ...
+
+Version 0.3, Mac OS X, Laszlo, API (JSON-RPC), daemon
+
+À cette occasion, un utilisateur du forum appelé teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) propose de faire la publicité sur Slashdot. Le 22 juin, il [demande](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*)
+
+Satoshi envisage d'abandonner la version « beta » et de passer directement à la version 1.0 ou 1.3 : https://bitcointalk.org/index.php?topic=217.msg1803#msg1803
+
+Présentation pour Slashdot par teppy, [topic](https://bitcointalk.org/index.php?topic=234.msg1967#msg1967)
+
+Réponse de Satoshi sur le [forum](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976).
+
+Mise en retrait de l'anonymat. 5 juillet 2010, 21:31, : « Nous ne voulons pas mettre l'aspect "anonyme" au premier plan. &nbsp;(J'avais l'intention de modifier la page d'accueil) » (*original "We don't want to lead with 'anonymous'. &nbsp;(I've been meaning to edit the homepage)"*)
 
 6 juillet 2010, 2:59, [à Martti](https://mmalmi.github.io/satoshi/#email-197) :
 
@@ -1029,7 +1053,15 @@ Mise en retrait de l'anonymat
 >
 > *original :"I think we should de-emphasize the anonymous angle. &nbsp;With the popularity of bitcoin addresses instead of sending by IP, we can't give the impression it's automatically anonymous. &nbsp;It's possible to be pseudonymous, but you have to be careful. (...) &nbsp;Also, anonymous sounds a bit shady. &nbsp;I think the people who want anonymous will still figure it out without us trumpeting it."*
 
-Version 0.3, Mac OS X, Laszlo
+L'absence de dépendance étatique. « "Les développeurs s'attendent à ce que cela se traduise par une monnaie stable par rapport à l'énergie et hors de portée de tout État." –- Je ne fais certainement pas ce genre de provocation ou d'affirmation. » (*original: "'The developers expect that this will result in a stable-with-respect-to-energy currency outside the reach of any government.' -- I am definitely not making an such taunt or assertion."*)
+
+L'indexation sur l'énergie. « Ce n'est pas stable par rapport à l'énergie. Ce sujet a fait l'objet d'une discussion. Elle n'est pas liée au coût de l'énergie. L'estimation de NLS basée sur l'énergie était un bon point de départ, mais les forces du marché domineront de plus en plus. » (*original: "It's not stable-with-respect-to-energy. &nbsp;There was a discussion on this. &nbsp;It's not tied to the cost of energy. &nbsp;NLS's estimate based on energy was a good estimated starting point, but market forces will increasingly dominate."*)
+
+Il conclue par :
+
+> « Désolé d'être rabat-joie. &nbsp;L'écriture d'une description de ce truc pour le grand public est sacrément difficile. &nbsp;Il n'y a rien à quoi se rapporter. »
+>
+> *original: "Sorry to be a wet blanket. &nbsp;Writing a description for this thing for general audiences is bloody hard. &nbsp;There's nothing to relate it to."*
 
 Sortie de la v0.3, [6 juillet](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004), 18:32 :
 
@@ -1038,8 +1070,6 @@ Sortie de la v0.3, [6 juillet](https://bitcointalk.org/index.php?topic=238.msg20
 > *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
 
 Mullvad VPN, 8 juillet 2010 : https://bitcointalk.org/index.php?topic=30.msg2075#msg2075
-
-## Bitcoin prend ! (juil. 2010 -- déc. 2010)
 
 ### Slashdotted (11 juillet 2010)
 

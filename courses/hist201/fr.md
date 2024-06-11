@@ -929,15 +929,15 @@ Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur
 
 Photographie de Laszlo Hanyecz avec son fils en mai 2018 (source : [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
-Par la suite, il [adapte](https://bitcointalk.org/index.php?topic=116.msg972#msg972) le code du logiciel pour faire fonctionner sur le système d'exploitation Mac OS X. Puis il travaille à optimiser le minage en utilisant l'environnement OpenCL qui permet de [faire intervenir le GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) dans la génération de bitcoins. À la fin du mois d'avril, il contacte Satoshi à ce sujet, mais ce dernier lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) alors d'éviter de s'engager dans cette voie afin que le minage reste accessible pour le plus grand nombre :
+Par la suite, il [adapte](https://bitcointalk.org/index.php?topic=116.msg972#msg972) le code du logiciel pour faire fonctionner sur le système d'exploitation Mac OS X. Puis il travaille à optimiser le minage en utilisant l'environnement OpenCL qui permet de [faire intervenir le GPU](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) dans la génération de bitcoins. Le 10 mai, il publie son [exécutable](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) et [propose](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) d'écrire des correctifs pour permettre aux autres mineurs de le faire. Cette optimisation lui permet d'occuper rapidement une place importante dans la production des blocs.
+
+À la fin du mois d'avril, Laszlo contacte Satoshi pour lui demander son avis, mais ce dernier ne revient vers lui que le 17 mai. Le créateur de Bitcoin lui [demande](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) alors de ralentir ses opérations afin que le minage reste accessible pour le plus grand nombre :
 
 > « L'un des principaux attraits pour les nouveaux utilisateurs est que toute personne disposant d'un ordinateur peut générer des unités gratuites. Lorsqu'il y aura 5 000 utilisateurs, cette incitation s'estompera peut-être, mais pour l'instant, c'est toujours vrai. Les processeurs graphiques limiteraient prématurément cette incitation à ceux qui disposent d'un matériel GPU haut de gamme. Il est inévitable que les clusters de calcul GPU finiront par accaparer toutes les unités générées, mais je ne veux pas précipiter l'arrivée de ce jour-là. \[...\] Je ne veux pas passer pour un socialiste, je me moque de la concentration des richesses, mais pour l'instant, nous obtenons plus de croissance en donnant cet argent à 100 % des gens qu'en le donnant à 20 %. En outre, plus nous retarderons la course aux armements des GPU, plus les bibliothèques OpenCL deviendront matures, et plus nombreux seront ceux qui disposeront de cartes graphiques compatibles avec OpenCL. »
 >
 > (*original: "A big attraction to new users is that anyone with a computer can generate some free coins. When there are 5000 users, that incentive may fade, but for now it's still true. GPUs would prematurely limit the incentive to only those with high end GPU hardware. It's inevitable that GPU compute clusters will eventually hog all the generated coins, but I don't want to hasten that day. (...) I don't mean to sound like a socialist, I don't care if wealth is concentrated, but for now, we get more growth by giving that money to 100% of the people than giving it to 20%. Also, the longer we can delay the GPU arms race, the more mature the OpenCL libraries get, and the more people will have OpenCL compatible video cards."*)
 
-Laszlo ne tient pas vraiment compte de cet avertissement. Le 10 mai, il publie son [exécutable](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) et [propose](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) d'écrire des correctifs pour permettre aux autres mineurs de le faire. Cette optimisation lui permet d'occuper personnellement une place importante dans la production des blocs et il mine alors des dizaines de milliers de bitcoins au cours des mois qui suivent.
-
-Toutefois, son implémentation reste imparfaite et il faudra attendre le mois de juillet pour voir le minage par GPU se généraliser.
+Laszlo ne tient pas vraiment compte de cet avertissement et continue de miner des blocs avec sa carte graphique. Il génère ainsi des dizaines de milliers de bitcoins au cours des mois qui suivent. Toutefois, il faudra attendre le mois de juillet pour voir le minage par GPU se généraliser.
 
 ### Les bitcoins de Satoshi (3 mai 2010)
 
@@ -947,7 +947,7 @@ Cet essor du minage a aussi un effet non négligeable : Satoshi arrête de prod
 
 Le *Patoshi Pattern* entre les blocs 0 et 50 000 tel qu'on peut l'observer sur le site [satoshiblocks.info](http://satoshiblocks.info/) : chaque point correspond à un bloc, les lignes bleues sont formées des blocs de Satoshi, les autres lignes représentent la production des autres mineurs
 
-D'après une étude de Whale Alert publiée en 2020, Satoshi aurait ainsi miné environ 22 500 et accumulé ainsi 1 122 693 bitcoins, soit plus de 5 % des 21 millions d'unités prévues. Pendant une grande partie de l'année 2009, le réseau a reposé sur la puissance de calcul de Satoshi. Cette dépendance s'est illustrée lors du mois d'août 2009, qui a été la pire période en qui concerne l'activité minière et qui coïncidait avec un temps de « [pause](https://mmalmi.github.io/satoshi/#email-24) » de Satoshi, où il devrait vraisemblablement moins surveiller ses machines. Durant ce mois d'août en effet, seuls 1 564 ont été produits sur les 4 464 blocs attendus, ce qui correspondait à un temps moyen de 28 minutes et 30.
+D'après une étude de Whale Alert publiée en 2020, Satoshi aurait ainsi miné environ 22 500 blocs et accumulé ainsi 1 122 693 bitcoins, soit plus de 5 % des 21 millions d'unités prévues. Pendant une grande partie de l'année 2009, le réseau a reposé sur la puissance de calcul de Satoshi. Cette dépendance s'est illustrée lors du mois d'août 2009, qui a été la pire période en qui concerne l'activité minière et qui coïncidait avec un temps de « [pause](https://mmalmi.github.io/satoshi/#email-24) » de Satoshi, où il devrait vraisemblablement moins surveiller ses machines. Durant ce mois d'août en effet, seuls 1 564 ont été produits sur les 4 464 blocs attendus, ce qui correspondait à un temps moyen de 28 minutes et 30.
 
 Avec l'augmentation de la puissance de calcul à l'automne 2009, la proportion de la puissance de calcul de Satoshi par rapport à la puissance total du réseau a progressivement chuté. Elle est est passée de 75 % en mars 2009 à 60 % en septembre, pour descendre jusqu'à 15 % en décembre et atteindre les 0 % en mai. Voici ci-dessous un graphe réalisé par [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) en 2014 :
 
@@ -1019,27 +1019,19 @@ Le printemps 2010 a été une période riche en évènements fondateurs. D'abord
 
 Cependant, à la fin du mois de juin, l'activité demeurait assez modeste sur le réseau. Les nouveaux utilisateurs étaient peu nombreux et la flamme avait tout juste de quoi rester en vie. Le 30 juin, sur la liste de diffusion bitcoin-list, le cypherpunk James A. Donald (qui ne semblait pas avoir suivi les dernières avancées, ni n'avoir connaissance de l'existence du forum) [déclarait](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006) que « Bitcoin \[était\] en quelque sorte mort ». Même s'il avait tort, son commentaire révélait un manque criant de communication : un nombre trop restreint de personnes avait connaissance du projet, et il fallait faire plus d'efforts dans ce sens. Bitcoin avait « besoin d'une écologie d'utilisateurs pour être utile » et cette masse critique n'était pas encore là. Un évènement irait dans ce sens quelques jours plus tard, ce que nous aborderons dans le prochain chapitre.
 
-## Bitcoin prend ! (juin 2010 -- déc. 2010)
+## Bitcoin prend ! (juil. 2010 -- sept. 2010)
 
-### Un dernier effort de communication (juin -- juil. 2010)
+Dans les chapitres précédents, nous avons observé comment Bitcoin a progressé au niveau du développement informatique, du minage et du commerce. Cette base fébrile a posé les bases pour ce qui allait suivre.
 
-... la sortie de la version 0.3 du logiciel, préparée de longue date par Satoshi Nakamoto. Par rapport à la version 0.2, elle inclue ...
+Dans ce chapitre, nous nous proposons de parler du « grand slashdotting », c'est-à-dire de l'afflux brutal d'utilisateurs qui a suivi la publication d'un texte sur le site web populaire Slashdot. Nous verrons comment ce texte a été amené à exister dans un dernier effort de communication de la part de Satoshi et quels ont été les effets qui ont suivi cette popularisation de Bitcoin.
 
-- Command line and JSON-RPC control
-- Includes a daemon version without GUI
-- Transaction filter tabs
-- 20% faster hashing
-- Hashmeter performance display
-- Mac OS X version (thanks to Laszlo)
-- German, Dutch and Italian translations (thanks to DataWraith, Xunie and Joozero)
+### Un dernier effort de communication (22 juin -- 11 juil. 2010)
 
-Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) aux membres du forum de tester ...
+Le début de l'été 2010 est marqué par la sortie de la version 0.3 du logiciel, qui a été préparée de longue date par Satoshi Nakamoto et par Martti Malmi. Par rapport à la version 0.2, sortie en décembre de l'année précédente, cette version inclue des améliorations cruciales telles qu'un [démon](https://fr.wikipedia.org/wiki/Daemon_(informatique)) (qui deviendra `bitcoind`), un contrôle en invite de commande, une API (via JSON-RPC), une optimisation de la génération d'unités et un « hashmètre » estimant le taux de hachage de l'utilisateur. Elle inclue aussi le support pour Mac OS X apporté par la contribution de Laszlo Hanyecz et la traduction de l'interface graphique en allemand, néerlandais et italien.
 
-Version 0.3, Mac OS X, Laszlo, API (JSON-RPC), daemon
+Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) aux membres du forum de tester cette version du logiciel. Il voit cette version comme une version charnière de Bitcoin et [envisage]( https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) même d'abandonner l'aspect « beta » et de faire directement passer la numérotation à la version 1.3. Il [reviendra](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) néanmoins assez rapidement sur sa décision.
 
-À cette occasion, un utilisateur du forum appelé teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) propose de faire la publicité sur Slashdot. Le 22 juin, il [demande](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*)
-
-Satoshi envisage d'abandonner la version « beta » et de passer directement à la version 1.0 ou 1.3 : https://bitcointalk.org/index.php?topic=217.msg1803#msg1803
+À l'occasion de la sortie du logiciel, l'utilisateur du forum appelé Teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) [propose](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) de faire la publicité sur Slashdot, un site d'actualité très populaire traitant de sujets pour les *nerds* comme l'informatique, les jeux vidéo, la science, Internet, etc. Le 22 juin, il demande ainsi sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*) Martti Malmi [commente](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) en écrivant qu'« atteindre Slashdot, avec ses millions de lecteurs techniquement compétents, serait génial, peut-être la meilleure chose que l'on puisse imaginer ! » (*original: "Slashdot with its millions of tech-savvy readers would be awesome, perhaps the best imaginable!"*
 
 Présentation pour Slashdot par teppy, [topic](https://bitcointalk.org/index.php?topic=234.msg1967#msg1967)
 
@@ -1071,9 +1063,11 @@ Sortie de la v0.3, [6 juillet](https://bitcointalk.org/index.php?topic=238.msg20
 
 Mullvad VPN, 8 juillet 2010 : https://bitcointalk.org/index.php?topic=30.msg2075#msg2075
 
-### Slashdotted (11 juillet 2010)
+### Le grand slashdotting (11 juillet 2010)
 
 Version 0.3, présentation par teppy, augmentation du prix et du taux de hachage, création de Mt. Gox
+
+![Logo de Slashdot en 2010](slashdot-logo.webp)
 
 11 juillet 2010, [publication](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) d'une présentation de Bitcoin sur Slashdot par teppy :
 
@@ -1092,6 +1086,8 @@ Jeff Garzik, tcatm, gmaxwell
 ### Les difficultés techniques (juil. 2010 -- sept. 2010)
 
 Vulnérabilités majeures, server/daemon, 1 RETURN, value overflow, ajout du système d'alerte (0.3.2, 17/7), ajout des codes OP_NOP, ajout de la limite de taille des blocs
+
+## Après Slashdot
 
 ### Succès
 
@@ -1161,7 +1157,7 @@ BitPay, Overstock.com
 
 ### Le dark web
 
-Silk Road
+Silk Road, *A Heroin Store* (Teppy : https://bitcointalk.org/index.php?topic=175.msg1430#msg1430)
 
 ### Le jeu d'argent
 

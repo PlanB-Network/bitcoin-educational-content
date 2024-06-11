@@ -1,6 +1,6 @@
 ---
 name: Bitcoinin Matka
-goal: Tutustu Bitcoiniin ja sen perusteisiin, mukaan lukien sen rahallinen arvolupaus, louhijat, transaktiot ja lompakot.
+goal: Tutustu Bitcoiniin ja sen perusteisiin, mukaan lukien sen rahallinen arvon kehitys, louhijat, transaktiot ja lompakot.
 objectives:
   - Saavuta yleinen ymmärrys Bitcoin-teknologiasta
   - Ymmärrä, miten ostaa ja turvata bitcoineja
@@ -13,7 +13,7 @@ objectives:
 
 Tässä kurssissa selitän Bitcoinin 25 luvussa, jotta voit ymmärtää tämän teknologian yksinkertaisella ja tehokkaalla tavalla. Kurssi on kaikkien saavutettavissa ja tutkii koko alaa: louhijat, lompakot, osto-/myyntialustat jne...
 
-Kurssin suorittaminen kestää noin 15 tuntia. Matkan varrella on saatavilla selittäviä julisteita ja lisäresursseja.
+Kurssin suorittaminen kestää noin 15 tuntia. Matkan varrella on saatavilla selittäviä kuvia, presentaatioita ja lisäresursseja.
 
 Et tarvitse mitään erityistä tietämystä aloittaaksesi, kurssi on kaikkien saavutettavissa!
 
@@ -41,7 +41,7 @@ On olennaista ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka mullist
 
 **Osa 1 - Rahat**
 
-- Luku 1 - Mikä on raha?
+- Luku 1 - Mitä on raha?
 - Luku 2 - Fiat-raha
 - Luku 3 - Hyperinflaatio
 - Luku 4 - Bitcoinin rahapolitiikka
@@ -49,16 +49,16 @@ On olennaista ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka mullist
 **Osa 2 - Bitcoin-lompakot**
 
 - Luku 5 - Miten Bitcoin-lompakot toimivat?
-- Luku 6 - Turvallisuuden valinta
+- Luku 6 - Turvallinen valinta
 - Luku 7 - Lompakon perustaminen
 - Luku 8 - Suojautuminen ajan myötä
 
 **Osa 3 - Bitcoinin tekniset näkökohdat**
 
 - Luku 9 - Transaktion selitys
-- Luku 10 - Bitcoin-noodit
+- Luku 10 - Bitcoin-nodet
 - Luku 11 - Louhijat
-- Luku 12 - Louhijat ja ekologia
+- Luku 12 - Louhijat ja ekologisuus
 
 **Osa 4 - Säästäminen Bitcoinissa**
 
@@ -72,7 +72,7 @@ On olennaista ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka mullist
 - Luku 17 - Johdatus Salamaverkkoon
 - Luku 18 - Salamaverkon käyttötapaukset
 
-Ennen kuin keskustelemme rahan määritelmästä ja toiminnasta yhteiskunnassa (Luku 1), aloitamme Bitcoinin alkuperästä. Bitcoin on suhteellisen uusi teknologia, joka lanseerattiin vuonna 2009, eikä se ole verrattavissa mihinkään muuhun. On siis normaalia, ettei kaikkea ymmärrä heti. Itse asiassa, aivan kuten Internetin tai auton käytön oppimisessa, ei tarvitse tietää kaikkia teknisiä yksityiskohtia käyttääkseen Bitcoinia (vastaanottaminen, maksaminen, varojen turvaaminen).
+Ennen kuin keskustelemme rahan määritelmästä ja toiminnasta yhteiskunnassa (Luku 1), aloitamme Bitcoinin alkuperästä. Bitcoin on suhteellisen uusi teknologia, joka lanseerattiin vuonna 2009, eikä se ole verrattavissa mihinkään muuhun. On siis normaalia, ettei kaikkea ymmärrä heti. Itse asiassa, aivan kuten Internetin tai auton käytön oppimisessa, ei tarvitse tietää kaikkia teknisiä yksityiskohtia käyttääkseen Bitcoinia (tärkeintä on kuinka vastaanottaa, tehdä maksuja ja kuinka turvata varansa).
 
 ![kuva](assets/en/chapter0/3.webp)
 
@@ -97,13 +97,13 @@ Ikoniset hahmot kuten Julian Assange, Wei Dai, Tim May ja David Chaum määritte
 Cypherpunk-liike, jolla on syvät juuret digitaalisessa aktivismissa ja kryptografiassa, nojasi useisiin perusteksteihin ilmaistakseen periaatteensa ja tulevaisuudenkuvansa. Näistä kirjoituksista kolme erottuu erityisesti:
 
 - "Cypherpunk-manifesti":
-  Eric Hughes kirjoitti vuonna 1993 "Cypherpunk-manifestin", joka väittää, että yksityisyys on perusoikeus. Hughes argumentoi, että vapaa ja luottamuksellinen kommunikointi oli välttämätöntä vapaalle yhteiskunnalle. Manifesti toteaa, "Emme voi odottaa instituutioilta, yrityksiltä tai muilta persoonattomilta tahoilta, että ne myöntäisivät meille yksityisyyden... Meidän täytyy puolustaa sitä itse."
+  Eric Hughes kirjoitti vuonna 1993 "Cypherpunk-manifestin", joka väittää, että yksityisyys on kansalaisen perusoikeus. Hughes argumentoi, että vapaa ja luottamuksellinen kommunikointi oli välttämätöntä vapaalle yhteiskunnalle. Manifesti toteaa, "Emme voi odottaa instituutioilta, yrityksiltä tai muilta persoonattomilta tahoilta, että ne myöntäisivät meille yksityisyyden... Meidän täytyy puolustaa sitä itse."
 
 - "Krypto-anarkistimanifesti":
   Timothy C. May kirjoitti vuonna 1992 tämän manifestin, joka selittää, miten kryptografian käyttö voisi johtaa kryptografiseen anarkiaan, jossa hallitukset olisivat voimattomia puuttumaan kansalaisten yksityisasioihin. May visioi tulevaisuuden, jossa tietoja, rahaa ja viestejä voitaisiin vaihtaa ilman kolmannen osapuolen puuttumista ja nimettömästi.
 
 - "Kyberavaruuden itsenäisyysjulistus":
-Vaikka tämä teksti ei ole yksinomaan kybersissiläinen, se heijastaa monien liikkeen toimijoiden tuntoja. John Perry Barlow kirjoitti sen vuonna 1996 vastauksena Internetin yhä lisääntyvään sääntelyyn hallitusten toimesta. Julistuksessa todetaan, että kyberavaruus on erillinen alue fyysisestä maailmasta ja sitä ei tulisi alistaa samojen lakien alaisuuteen. Siinä todetaan: "Meillä ei ole valittua hallitusta, eikä meitä voida hallita."
+Tämä teksti heijastaa monien liikkeen toimijoiden tuntemuksia. John Perry Barlow kirjoitti sen vuonna 1996 vastauksena Internetin yhä lisääntyvään sääntelyyn hallitusten toimesta. Julistuksessa todetaan, että kyberavaruus on erillinen alue fyysisestä maailmasta ja sitä ei tulisi alistaa samojen lakien alaisuuteen. Siinä todetaan: "Meillä ei ole valittua hallitusta, eikä meitä voida hallita."
 
 ### Bitcoinin edeltäjät
 
@@ -113,7 +113,7 @@ Toinen tärkeä edeltäjä on Wei Dain "b-money". Vaikka sitä ei koskaan toteut
 
 ![kuva](assets/en/chapter0/1.webp)
 
-Tässä hedelmällisessä ympäristössä salaperäinen Satoshi Nakamoto julkaisi Bitcoinin whitepaperin vuonna 2008. Hän yhdisti useita ideoita kybersissiläisestä liikkeestä, kuten proof of work -mekanismin ja kryptografiset aikaleimat, luodakseen hajautetun ja sensuroimattoman digitaalisen valuutan.
+Tässä hedelmällisessä ympäristössä salaperäinen ”Satoshi Nakamoto”-nimimerkki julkaisi Bitcoinin whitepaperin vuonna 2008. Hän yhdisti useita ideoita kybersissiläisestä liikkeestä, kuten Proof Of Work -mekanismin ja kryptografiset aikaleimat, luodakseen hajautetun ja sensuroimattoman digitaalisen valuutan.
 
 Bitcoin oli enemmän kuin vain digitaalinen valuutta; se edusti kybersissiläisen liikkeen saavutusta. Sen teknologian lisäksi se symboloi vallankumousta perinteisiä rahoitusjärjestelmiä vastaan ja tarjosi vaihtoehdon, joka perustui läpinäkyvyyteen, hajautukseen ja yksilön suvereniteettiin.
 
@@ -146,9 +146,9 @@ Kun sivilisaatiot kehittyivät ja kauppa laajeni uusille alueille, tarvittiin yl
 
 Raha on erittäin kehittynyt viestintäväline:
 - Se mahdollistaa viestinnän nykyhetken ja tulevaisuuden välillä. Muutamme aikamme ja energiamme hyödykkeeksi, jota voidaan käyttää uudelleen tulevaisuudessa ilman arvon alenemisen riskiä.
-- Se mahdollistaa viestinnän yleismaailmallisella yhteisellä kielellä. Tunnistamatta toisiaan, puhumatta samaa kieltä, kaksi vierasta voi vaihtaa, käydä kauppaa ja sopia asioiden arvosta.
+- Se mahdollistaa viestinnän yleismaailmallisella yhteisellä kielellä. Tuntematta toisiaan, puhumatta samaa kieltä, kaksi vierasta voi vaihtaa, käydä kauppaa ja sopia asioiden arvosta.
 
-Sen toiminto maailmassamme on vaikea keinotekoisesti jäljitellä. Yksikään ihminen tai ihmisryhmä ei voi luoda rahaa; se on luonnollinen sosiaalinen ilmiö, joka on noustava esiin markkinoilta ja vapaaehtoisesta yhteisymmärryksestä. Hinnat ovat signaaleja, tietoa, joka auttaa yhteiskuntaa päättämään, miten resurssit jaetaan.
+Sen toimintaa maailmassamme on vaikea keinotekoisesti jäljitellä. Yksikään ihminen tai ihmisryhmä ei voi luoda rahaa; se on luonnollinen sosiaalinen ilmiö, jonka on noustava esiin markkinoilta ja vapaaehtoisesta yhteisymmärryksestä. Hinnat ovat signaaleja, tietoa, joka auttaa yhteiskuntaa päättämään, miten resurssit jaetaan.
 
 Kulta rahana on 4 000 vuoden rahatalouden Darwinismin valinta perustuen kolmeen toimintoon:
 
@@ -162,7 +162,7 @@ Kulta rahana on 4 000 vuoden rahatalouden Darwinismin valinta perustuen kolmeen 
 
 ### Rahojen ominaisuudet
 
-Kulta täyttää tehokkaan valuutan kriteerit ihanteellisesti: sen luonnollinen harvinaisuus tekee siitä arvokkaan, kun taas sen kemialliset ominaisuudet mahdollistavat sen, ettei se kulu ajan myötä. Tämä rahan muoto ei kuitenkaan ole helposti jaettavissa tai kuljetettavissa pitkiä matkoja. Globalisoituneessa ja digitaalisessa maailmassa kulta ei pysy mukana ja tarvitsee keskusyksikön tekemään siitä jaettavan ja helposti vaihdettavan (rahat).
+Kulta täyttää tehokkaan valuutan kriteerit ihanteellisesti: sen luonnollinen harvinaisuus tekee siitä arvokkaan, kun taas sen kemialliset ominaisuudet mahdollistavat sen, ettei se kulu ajan myötä. Tämä rahan muoto ei kuitenkaan ole helposti jaettavissa tai kuljetettavissa pitkiä matkoja. Globalisoituneessa ja digitaalisessa maailmassa kulta ei pysy mukana ja tarvitsee keskitetyn tahon tekemään siitä jaettavan ja helposti vaihdettavan (rahat).
 
 Nämä puutteet ovat tehneet kullasta arvon säilyttäjän, mutta eivät yleistä valuuttaa, valtion luottorahojen (fiat) kustannuksella, jotka ovat helposti käytettävissä, mutta joiden arvoa hallitsevat tahot (kuningas, keskuspankki, keisari, diktaattori) jatkuvasti alentavat.
 
@@ -171,7 +171,7 @@ Tehokkaan valuutan kriteerit ovat moninaiset. Hyvän valuutan tulee olla:
 ![kuva](assets/en/chapter1/6.webp)
 
 - **Vaihdettavissa**, tarkoittaen vaihdettavissa ilman arvon menetystä
-- **Jaettavissa**, jotta eri suuruisten transaktioiden helpottaminen
+- **Jaettavissa**, suuruisten maksujen toteuttaminen olisi helppoa
 - **Likvidi**, tarkoittaen helposti muunnettavissa tavaroiksi tai palveluiksi.
 
 Näitä kriteereitä täyttääkseen valuutta kehittyy askel askeleelta:
@@ -182,7 +182,7 @@ Näitä kriteereitä täyttääkseen valuutta kehittyy askel askeleelta:
 
 Nykyään valuutat kehittyvät edelleen, mukauttaen muotojaan vastaamaan erilaisia käyttötarkoituksia. Esimerkiksi vaikka kulta on erinomainen arvon säilyttäjä, se ei sovellu nykyiseen globalisoituneeseen talouteen. Samoin luottorahat, kuten dollari ja euro, ovat erittäin likvidejä ja helposti kuljetettavissa, koska ne ovat nykyään pääasiassa digitaalisia, mutta niiden arvoa jatkuvasti syö rahapoliittinen inflaatio.
 
-Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten sen tiukasti rajattu tarjonta, tarjoavat erinomaisen arvon säilyttäjän. Lisäksi, neutraalina internet-valuuttana, se edustaa hyvää vaihdon välinettä, joka ei tunne rajoja. Se ei kuitenkaan vielä tänä päivänä ole laajalti hyväksytty kaupankäynnissä, huolimatta [jatkuvasta omaksumisesta](https://btcmap.org/map).
+Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten sen tiukasti rajattu tarjonta, tarjoavat erinomaisen arvon säilyttäjänä. Lisäksi, neutraalina internet-valuuttana, se edustaa hyvää vaihdon välinettä, joka ei tunne rajoja. Se ei kuitenkaan vielä tänä päivänä ole laajalti hyväksytty kaupankäynnissä, huolimatta [jatkuvasta lisääntyvästä käyttöönotosta](https://btcmap.org/map).
 
 ### Nopea yhteenveto julisteessa!
 
@@ -196,26 +196,28 @@ Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten sen tiu
 ### Luottoraha = luottamus
 
 Nykyään suuret valuutat, kuten euro ja dollari, katsotaan luottorahoiksi. Tämä tarkoittaa, että niillä ei ole sisäistä arvoa. Niiden arvo perustuu täysin luottamukseen ja uskoon, jonka asetamme niitä sääteleviin instituutioihin.
-Fidusiaarinen valuutta on valuutan muoto, jonka instituutio, kuten kansallisvaltio, esimerkiksi Kiina jenin kanssa, tai poliittis-taloudellinen unioni, kuten Euroopan Unioni euron kanssa, on julistanut valuutaksi. Fidusiaarisen valuutan liikkeeseenlaskijana toimii keskuspankki (esimerkiksi voidaan mainita Kiinan Kansanpankki, Yhdysvaltain Federal Reserve tai Guinean tasavallan keskuspankki). Nämä laitokset ovat vastuussa rahapolitiikan päättämisestä ja siten siitä, kuinka paljon rahaa tulisi laskea liikkeeseen tai painaa.
+
+Luottamusvaluutta on valuutan muoto, jonka instituutio, kuten kansakunta, kuten Kiina Yuanin kanssa, tai poliittis-taloudellinen unioni, kuten Euroopan unioni Euron kanssa, julistaa valuutaksi. Luottamusvaluutan liikkeeseenlaskijana toimii keskuspankki (Esimerkiksi voidaan mainita Kiinan Kansanpankki, Yhdysvaltain Federal Reserve tai Guinean tasavallan keskuspankki). Nämä tahot ovat vastuussa rahapolitiikan päätöksistä ja siitä, kuinka paljon rahaa tulisi liikkeelle laskea tai painaa.
+
 ![kuva](assets/en/chapter2/1.webp)
 
 ### Rahan arvon alentaminen: Strategia yhtä vanha kuin Rooman valtakunta
 
 Jo antiikin ajoista lähtien kulta on toiminut rahallisen viitearvon roolissa. Sen jäykkyys on kuitenkin usein johtanut johtajia - olivatpa he sitten Rooman keisareita tai nykyaikaisia hallituksia - omaksumaan vaihtoehtoisia valuuttoja, usein fidusiaarisia.
 
-Mekanismi on yksinkertainen ja se on saanut inspiraationsa käytännöistä, jotka ovat olleet olemassa sivilisaation alkuaikoina. Johtajat, jotka ovat innokkaita hallitsemaan vaurautta, aloittavat keskittämällä kullan, usein hyödyntämällä valtaansa ja lupaamalla suojelua ja turvallisuutta. Tämän arvokkaan varannon käsissään he esittelevät uuden valuutan, joka on arvoltaan vastaava kullan kanssa, mutta lyöty heidän kuvallaan. Tämä valuutta alkaa sitten kiertää, ja ihmiset tottuvat nopeasti sen mukavuuteen.
+Mekanismi on yksinkertainen ja se on saanut inspiraationsa käytännöistä, jotka ovat olleet olemassa sivilisaation alkuaikoina. Johtajat, jotka ovat innokkaita hallitsemaan varallisuutta, aloittavat keräämällä kultaa, usein hyödyntämällä valtaansa ja luvaten suojelua ja turvallisuutta. Tämä arvokas varanto käsissään he esittelevät uuden valuutan, joka on arvoltaan vastaava kullan kanssa, mutta lyöty heidän kuvallaan. Tämä valuutta alkaa sitten kiertää, ja ihmiset tottuvat nopeasti sen mukavuuteen.
 
 Vähitellen nämä johtajat salaa devalvoivat uutta valuuttaa, alentaen sen arvoa verrattuna alkuperäiseen kultaan muutamalla prosentilla joka vuosi. Tämä hiljainen devalvaatio perustellaan usein olevan kansan edun mukaista. Näin ollen ne, jotka säästävät tässä fidusiaarisessa valuutassa, näkevät säästöjensä arvon eroosion, kun taas valtio rahoittaa hankkeitaan inflaation kautta. Lisäksi tämä devalvaatio helpottaa velan maksua.
 
 ![kuva](assets/en/chapter2/3.webp)
 
-Kriittisellä hetkellä tehdään ilmoitus: valuutta ei ole enää tuettu kullalla. Yleisö, joka on nyt tottunut fidusiaariseen valuuttaan ja usein väärin informoitu rahoitusasioista, hyväksyy tämän todellisuuden. Valtiolla on nyt vapaat kädet manipuloida rahamäärää, painamalla valtavia summia rahaa lähes ilman kustannuksia.
+Kriittisellä hetkellä ilmoitus tehdään: valuutta ei ole enää tuettu kullalla. Yleisö, joka on nyt tottunut fidusiaariseen valuuttaan ja on usein väärin informoitu rahoitusasioista, hyväksyy tämän todellisuuden. Valtiolla on nyt vapaat kädet manipuloida rahamäärää, painamalla valtavia summia rahaa lähes ilman kustannuksia.
 
 Tämä strategia, kun se toteutetaan hyvin, voi kestää vuosikymmeniä. Kuitenkin liian nopea devalvaatio tai luottamuksen menetys voi johtaa hyperinflaatioon (ks. seuraava luku). Historia osoittaa, että dollari on menettänyt 98% arvostaan 100 vuodessa, euro 30% 20 vuodessa ja punta sterling 99% sen luomisesta.
 
 Lopulta valuutta ei ehkä enää ole millään tavalla yhteydessä kultaan, muistuttaen Rooman valtakunnan lopun ajan kolikoita, tai se voi jopa olla pelkästään numeerinen arvo, irtautunut konkreettisesta todellisuudesta.
 
-Tänään olemme historiallisen käännekohdan äärellä. Dollari, joka on pitkään hallinnut, vaikuttaa olevan laskussa, ja kulta on menettänyt keskeisen asemansa. Olemme uuden rahallisen syklin sarana, muistuttaen meitä siitä, että historiasta saadut opetukset unohdetaan usein.
+Tänään olemme historiallisen käännekohdan äärellä. Dollari, joka on pitkään hallinnut, vaikuttaa olevan laskussa, ja kulta on menettänyt keskeisen paikkansa. Olemme uuden rahallisen syklin kynnyksellä, muistuttaen meitä siitä, että historian opetukset usein unohdetaan.
 
 ![kuva](assets/en/chapter2/4.webp)
 
@@ -223,8 +225,7 @@ Tänään olemme historiallisen käännekohdan äärellä. Dollari, joka on pitk
 
 Juuri tässä kontekstissa Bitcoin-vallankumous on saamassa vauhtia. Tämä valuutta, joka **ei vaadi luotettua kolmatta osapuolta**, pyrkii erottamaan valtion ja rahan toisistaan.
 
-Rahan painaminen johtaa inflaatioon, joka vähitellen köyhdyttää väestöä. Toisaalta, rahoituslaitokset ja varakkaat yksilöt ovat hyötyneet tästä käytännöstä, luoden epätasa-arvon kuilun ja suosien autoritarismia. Nykyinen rahoitusjärjestelmä on säädelty ja rajoitettu välttämään sen romahtaminen, ja mikä tahansa häiriö voisi aiheuttaa suuren talouskriisin. Koska poliittiset toimijat hyötyvät tästä järjestelmästä, heillä ei ole kannustinta tehdä radikaaleja muutoksia, sallien järjestelmän jatkavan kulkuaan mahdolliseen imploosioon saakka.
-Vastauksena näihin järjestelmällisiin haasteisiin Bitcoin tarjoaa itsensä hajautettuna ratkaisuna: uutena rinnakkaisena rahajärjestelmänä. Historiallisesti kultaa on suosittu valuuttana sen väärentämisen kestävyyden vuoksi. Samankaltaisesti Bitcoin, sen hajautetun ja kryptografisen luonteen ansiosta, ei voida väärentää ja sen määrä on rajattu 21 miljoonaan yksikköön. Bitcoin on valuutta, joka perustuu läpinäkyvyyteen ja puolueettomuuteen, tarjoten houkuttelevan vaihtoehdon nykyiselle keskitetylle rahajärjestelmälle.
+Rahan painaminen johtaa inflaatioon, vähitellen köyhdyttäen väestöä. Toisaalta, rahoituslaitokset ja varakkaat yksilöt ovat hyötyneet tästä käytännöstä, luoden epätasa-arvon kuilun ja suosien autoritarismia. Nykyinen rahoitusjärjestelmä on tarkkaan säädelty ja rajoitettu, pyrkien välttämään sen romahtamista, ja mikä tahansa häiriö voisi aiheuttaa suuren talouskriisin. Koska poliittiset toimijat hyötyvät tästä järjestelmästä, heillä ei ole kannustinta tehdä radikaaleja muutoksia, sallien järjestelmän jatkavan kulkuaan mahdolliseen romahdukseen saakka.
 
 Samanaikaisesti keskuspankkien digitaalisten valuuttojen, eli CBDC:iden, esiinmarssi vaikuttaa väistämättömältä. Tämä uudenlainen valuutta tarjoaisi keskitetymmän suunnitellun talouden, mikä voisi rajoittaa yksilöiden taloudellista vapautta ja helpottaa autoritaaristen väärinkäytösten toteutumista.
 Voimme päätellä tämän luvun lainauksella Nobel-palkinnon voittajalta F.A Hayekilta vuodelta 1984: "En usko, että löydämme koskaan hyvää valuuttaa, ennen kuin otamme sen pois hallituksen käsistä. Emme kuitenkaan voi väkivalloin ottaa sitä heiltä; kaikki mitä voimme tehdä, on tuoda esiin jotakin, mitä he eivät voi estää nokkelalla juonittelulla."
@@ -236,7 +237,7 @@ Voimme päätellä tämän luvun lainauksella Nobel-palkinnon voittajalta F.A Ha
 ## Hyperinflaatio
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflaatio on fiat-valuuttoihin liittyvä rahailmiö. Sen tunnusmerkkejä ovat täydellinen luottamuksen menetys valuuttaan ja inflaation dramaattinen nousu viranomaisten rahapainannan seurauksena. Tämän seurauksena yksilöiden kerryttämät säästöt voivat haihtua suhteellisen lyhyessä ajassa, työntäen maan taloudellisen, sosiaalisen ja poliittisen romahduksen partaalle.
+Hyperinflaatio on fiat-valuuttoihin liittyvä rahailmiö. Sen tunnusmerkkejä ovat täydellinen luottamuksen menetys valuuttaan ja inflaation dramaattinen nousu viranomaisten rahanpainannan seurauksena. Tämän seurauksena yksilöiden kerryttämät säästöt voivat haihtua suhteellisen lyhyessä ajassa, työntäen maan talouden, sosiaalisen ja poliittisen romahduksen partaalle.
 
 ### Inflaatio Riehuu!
 
@@ -270,7 +271,7 @@ Vaihe 3 - Noidankehä rahan painamisessa
 
 Vaihe 4 - Uusi valuutta ilmestyy
 
-- Uusi valuutta esitellään korvaamaan vanha. Merkittävä esimerkki hyperinflaatiosta on Saksa vuosina 1920-1924. Talouden elvyttämiseksi luotiin uusi valuutta, joka oli tuettu Saksan, Ranskan ja Englannin veloilla ja takattu Saksan mailla.
+- Uusi valuutta esitellään korvaamaan vanha. Merkittävä esimerkki hyperinflaatiosta on Saksa vuosina 1920-1924. Talouden elvyttämiseksi luotiin uusi valuutta, joka oli tuettu Saksan, Ranskan ja Englannin veloilla ja turvattu Saksan mailla.
 
 Hyperinflaatiokriisin ratkaiseminen vaatii usein radikaaleja muutoksia, kuten vallankumouksia, hallituksen vaihdoksia, keskuspankkien vaihdoksia, muiden muassa. Luottamuksen menetys, valuutan romahdus ja uudelleenrakennus ovat olennaisia vaiheita uuden, fiat-valuuttaan perustuvan talouden elvyttämiseksi.
 

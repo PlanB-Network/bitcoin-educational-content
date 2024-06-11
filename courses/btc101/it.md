@@ -11,7 +11,7 @@ objectives:
 
 # La tua prima avventura con Bitcoin
 
-In questo corso, ti spiegherò Bitcoin in 21 capitoli in modo che tu possa comprendere questa tecnologia in modo semplice ed efficace. Il corso è accessibile a tutti ed esplora l'intera industria: i minatori, i portafogli, le piattaforme di acquisto/vendita, ecc...
+In questo corso, ti spiegherò Bitcoin in 25 capitoli in modo che tu possa comprendere questa tecnologia in modo semplice ed efficace. Il corso è accessibile a tutti ed esplora l'intera industria: i minatori, i portafogli, le piattaforme di acquisto/vendita, ecc...
 
 Il corso dovrebbe richiedere circa 15 ore. Durante tutto il percorso saranno disponibili poster esplicativi e risorse aggiuntive.
 

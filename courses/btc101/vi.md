@@ -11,7 +11,7 @@ objectives:
 
 # Cuộc Phiêu Lưu Bitcoin Đầu Tiên của Bạn
 
-Trong khóa học này, tôi sẽ giải thích Bitcoin qua 21 chương để bạn có thể hiểu công nghệ này một cách đơn giản và hiệu quả. Khóa học mở cửa cho tất cả mọi người và khám phá toàn bộ ngành: các thợ đào, ví tiền, nền tảng mua/bán, v.v...
+Trong khóa học này, tôi sẽ giải thích Bitcoin qua 25 chương để bạn có thể hiểu công nghệ này một cách đơn giản và hiệu quả. Khóa học mở cửa cho tất cả mọi người và khám phá toàn bộ ngành: các thợ đào, ví tiền, nền tảng mua/bán, v.v...
 
 Khóa học sẽ mất khoảng 15 giờ. Trong suốt hành trình, các poster giải thích và nguồn tài nguyên bổ sung sẽ có sẵn.
 

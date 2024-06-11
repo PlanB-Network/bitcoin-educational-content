@@ -11,7 +11,7 @@ objectives:
 
 # Dein erster Bitcoin-Parcours
 
-In diesem Kurs werde ich dir Bitcoin in 21 Kapiteln erklären, damit du diese Technologie einfach und effektiv verstehen kannst. Der Kurs ist für alle zugänglich und behandelt die gesamte Branche: Miner, Wallets, Kauf-/Verkaufsplattformen usw.
+In diesem Kurs werde ich dir Bitcoin in 25 Kapiteln erklären, damit du diese Technologie einfach und effektiv verstehen kannst. Der Kurs ist für alle zugänglich und behandelt die gesamte Branche: Miner, Wallets, Kauf-/Verkaufsplattformen usw.
 
 Der Kurs dauert etwa 15 Stunden. Während des gesamten Parcours stehen erklärende Poster und zusätzliche Ressourcen zur Verfügung.
 

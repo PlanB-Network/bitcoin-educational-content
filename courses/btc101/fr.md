@@ -11,7 +11,7 @@ objectives:
 
 # Votre première aventure Bitcoin
 
-Dans cette formation, je vais vous expliquer Bitcoin en 21 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: mineurs, portefeuille, plateforme d’achat/vente, etc…
+Dans cette formation, je vais vous expliquer Bitcoin en 25 chapitres afin que vous puissiez comprendre cette technologie de manière simple et efficace. La formation est accessible pour tous et explore l’industrie dans son ensemble: mineurs, portefeuille, plateforme d’achat/vente, etc…
 
 La formation devrait prendre environ 15 heures. Durant tout le parcours, des posters explicatifs sont disponibles ainsi que des ressources supplémentaires.
 

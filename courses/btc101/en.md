@@ -11,7 +11,7 @@ objectives:
 
 # Your First Bitcoin Adventure
 
-In this course, I will explain Bitcoin in 21 chapters so that you can understand this technology in a simple and effective way. The course is accessible to everyone and explores the industry as a whole: miners, wallets, buying/selling platforms, etc...
+In this course, I will explain Bitcoin in 25 chapters so that you can understand this technology in a simple and effective way. The course is accessible to everyone and explores the industry as a whole: miners, wallets, buying/selling platforms, etc...
 
 The course should take approximately 15 hours. Throughout the journey, explanatory posters and additional resources are available.
 

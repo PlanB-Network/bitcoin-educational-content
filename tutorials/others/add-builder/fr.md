@@ -52,9 +52,9 @@ category:
 Voici ce qu'il faut remplir dans chaque clé :
 - `name` : Le nom de votre entreprise (obligatoire) ;
 - `address` : Le lieu de votre entreprise (facultatif) ;
-- `language` : Les pays dans lesquels votre entreprise agit ou les langues prises en charge (facultatif) ;
+- `language` : Les pays dans lesquels votre entreprise se trouve ou les langues prises en charge (facultatif) ;
 - `links` : Les différents liens officiels de votre entreprise (facultatif) ;
-- `tags` : 2 termes qui qualifies votre entreprise (obligatoire) ;
+- `tags` : 2 termes qui qualifient votre entreprise (obligatoire) ;
 - `category` : La catégorie qui qualifie le mieux le domaine dans lequel votre entreprise opère parmi les choix suivants :
 	- `wallet`,
 	- `infrastructure`,
@@ -136,7 +136,7 @@ category: education
 ![builder](assets/27.webp)
 - Une fois l'image chargée, vérifiez que la case `Commit directly to the patch-1 branch` est cochée, puis cliquez sur `Commit changes` : 
 ![builder](assets/28.webp)
-- Attention, votre image doit être carré, doit s'appeler `logo` et doit être au format `.webp`. Le nom complet du fichier devrait donc être : `logo.webp` :
+- Attention, votre image doit être carrée, doit s'appeler `logo` et doit être au format `.webp`. Le nom complet du fichier devrait donc être : `logo.webp` :
 ![builder](assets/29.webp)
 - Retournez dans votre dossier `assets` et cliquez sur le fichier intermédiaire `.gitkeep` :
 ![builder](assets/30.webp)
@@ -150,7 +150,7 @@ category: education
 ![builder](assets/34.webp)
 - Cliquez sur le bouton `Add file`, puis sur `Create new file` :
 ![builder](assets/35.webp)
-- Créez un nouveau fichier YAML en le nommant avec m'indicateur de votre langue natale. Ce fichier va être utilisé pour la description du builder. Par exemple, si je veux rédiger ma description en anglais, je vais nommer ce fichier `en.yml` :
+- Créez un nouveau fichier YAML en le nommant avec l'indicateur de votre langue natale. Ce fichier va être utilisé pour la description du builder. Par exemple, si je veux rédiger ma description en anglais, je vais nommer ce fichier `en.yml` :
 ![builder](assets/36.webp)
 - Remplissez ce fichier YAML à l'aide de ce modèle :
 ```yaml
@@ -160,8 +160,8 @@ contributors:
  - 
 ```
 
-- Pour la clé `contributors`, vous pouvez ajouter votre identifiant de contributeur à PlanB Network si vous en avez un. Si vous n'en avez pas, laissez ce champs vide.
-- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre entreprise ou votre logiciel. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site PlanB Network, car nous le feront directement avec notre modèle. Par exemple, voici à quoi pourrait ressembler votre fichier :
+- Pour la clé `contributors`, vous pouvez ajouter votre identifiant de contributeur à PlanB Network si vous en avez un. Si vous n'en avez pas, laissez ce champ vide.
+- Pour la clé `description`, vous devez simplement ajouter un court paragraphe qui décrit votre entreprise ou votre logiciel. La description doit être dans la même langue que le nom du fichier. Vous n'avez pas besoin de traduire cette description dans toutes les langues prises en charge sur le site, car les équipes de PlanB le feront avec leur modèle. Par exemple, voici à quoi pourrait ressembler votre fichier :
 ```yaml
 description: |
  Founded in 2017, Bitcoin Baguette is a Paris-based association dedicated to organizing Bitcoin meetups and technical workshops. We bring together enthusiasts, experts, and curious minds to explore and discuss the intricacies of Bitcoin technology. Our events provide a platform for knowledge sharing, networking, and fostering a deeper understanding of Bitcoin's inner workings. Join us at Bitcoin Baguette to be a part of Paris's Bitcoin community and stay updated with the latest advancements in the field.
@@ -172,7 +172,7 @@ contributors:
 ![builder](assets/37.webp)
 - Cliquez sur le bouton `Commit changes` :
 ![builder](assets/38.webp)
-- Vérifiez que la case `Commit directly to the patch-1 branch` est cochée, ajout un titre, puis cliquez sur `Commit changes` :
+- Vérifiez que la case `Commit directly to the patch-1 branch` est cochée, ajoutez un titre, puis cliquez sur `Commit changes` :
 ![builder](assets/39.webp)
 - Le dossier de votre entreprise devrait dorénavant ressembler à celui-ci :
 ![builder](assets/40.webp)

@@ -955,7 +955,7 @@ Avec l'augmentation de la puissance de calcul à l'automne 2009, la proportion d
 
 ![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch7/organofcorti-satoshi-proportion-2009-2010.webp)
 
-De plus, cette chute de la dominance minière de Satoshi n'a pas été uniquement passive : il a lui-même ralenti sa production sur la même période. En effet, le but affiché de Satoshi était que tout le monde puisse participer : il ne minait pas pour le gain financier, mais pour assurer le fonctionnement le réseau jusqu'à ce que les incitations jouent leur rôle. Ainsi, il a réduit son taux de hachage par trois fois au cours de cette période de minage : la première fois de 4,5 à 2,5 MH/s en juin 2009, la deuxième fois de 2,5 à 1 MH/s en octobre, et la troisième fois de 1 MH/s à 0 en mai 2010. Voici un graphique de l'évolution de son taux de hachage durant cette période ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)) :
+De plus, cette chute de la dominance minière de Satoshi n'a pas été uniquement passive : il a lui-même ralenti sa production sur la même période. En effet, le but affiché de Satoshi était que tout le monde puisse participer : il ne minait pas pour le gain financier, mais pour assurer le fonctionnement le réseau jusqu'à ce que les incitations jouent leur rôle. Ainsi, il a réduit son taux de hachage (le nombre de calculs réalisés chaque seconde) par trois fois au cours de cette période de minage : la première fois de 4,5 à 2,5 MH/s en juin 2009, la deuxième fois de 2,5 à 1 MH/s en octobre, et la troisième fois de 1 MH/s à 0 en mai 2010. Voici un graphique de l'évolution de son taux de hachage durant cette période ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)) :
 
 ![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch7/organofcorti-satoshi-hashrate-2009-2010.webp)
 
@@ -1027,13 +1027,21 @@ Dans les chapitres précédents, nous avons observé comment Bitcoin a progress�
 
 Dans ce chapitre, nous nous proposons de parler du « grand slashdotting », c'est-à-dire de l'afflux brutal d'utilisateurs qui a suivi la publication d'un texte sur le site web populaire Slashdot. Nous verrons comment ce texte a été amené à exister dans un dernier effort de communication de la part de Satoshi et quels ont été les effets qui ont suivi cette popularisation de Bitcoin.
 
-### La version 0.3 du logiciel (22 juin -- 11 juil. 2010)
+### La version 0.3 du logiciel (22 juin -- 6 juil. 2010)
 
-Le début de l'été 2010 est marqué par la sortie de la version 0.3 du logiciel, qui a été préparée de longue date par Satoshi Nakamoto et par Martti Malmi. Par rapport à la version 0.2, sortie en décembre de l'année précédente, cette version inclue des améliorations cruciales telles qu'un [démon](https://fr.wikipedia.org/wiki/Daemon_(informatique)) (qui deviendra `bitcoind`), un contrôle en invite de commande, une API (via JSON-RPC), une optimisation de la génération d'unités et un « hashmètre » estimant le taux de hachage de l'utilisateur. Elle inclue aussi le support pour Mac OS X apporté par la contribution de Laszlo Hanyecz et la traduction de l'interface graphique en allemand, néerlandais et italien.
+Le début de l'été 2010 est marqué par la sortie de la version 0.3 du logiciel, qui a été préparée de longue date par Satoshi Nakamoto et par Martti Malmi. Par rapport à la version 0.2, sortie en décembre de l'année précédente, cette version inclue des améliorations cruciales telles qu'un [démon](https://fr.wikipedia.org/wiki/Daemon_(informatique) (qui deviendra `bitcoind`), un contrôle en invite de commande, une API (via JSON-RPC), une optimisation de la génération d'unités et un « hashmètre » estimant le taux de hachage de l'utilisateur. Elle inclue aussi le support pour Mac OS X apporté par la contribution de Laszlo Hanyecz et la traduction de l'interface graphique en allemand, néerlandais et italien.
 
 Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) aux membres du forum de tester cette version du logiciel. Il voit cette version comme une version charnière de Bitcoin et [envisage]( https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) même d'abandonner l'aspect « beta » et de faire directement passer la numérotation à la version 1.3. Il [reviendra](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) néanmoins assez rapidement sur sa décision.
 
-À l'occasion de la sortie du logiciel, l'utilisateur du forum appelé Teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) [propose](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) de faire la publicité sur Slashdot, un site d'actualité très populaire traitant de sujets pour les *nerds* comme l'informatique, les jeux vidéo, la science, Internet, etc. qui tire son nom des deux caractères `/.`. Le 22 juin, il demande ainsi sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*) Martti Malmi [commente](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) en écrivant qu'« atteindre Slashdot, avec ses millions de lecteurs techniquement compétents, serait génial, peut-être la meilleure chose que l'on puisse imaginer ! » (*original: "Slashdot with its millions of tech-savvy readers would be awesome, perhaps the best imaginable!"*
+Le 6 juillet, Satoshi Nakamoto annonce la sortie de la version 0.3 du logiciel. Sachant que cette version risque d'être importante pour l'avancée de Bitcoin, il soigne la présentation et il [écrit](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004) :
+
+> « Voici la version 0.3 de Bitcoin, la cryptomonnaie pair à pair ! &nbsp;Bitcoin est une monnaie numérique qui utilise la cryptographie et un réseau distribué pour remplacer le besoin d'un serveur central de confiance. &nbsp;Échappez au risque d'inflation arbitraire propre aux monnaies gérées de manière centralisée ! &nbsp;La circulation totale du bitcoin est limitée à 21 millions d'unités. &nbsp;Les unités sont progressivement distribuées aux nœuds du réseau en fonction de la puissance de calcul qu'ils fournissent, de sorte que vous pouvez en obtenir une partie en mettant à contribution votre temps CPU inactif. »
+>
+> *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
+
+### Une présentation pour Slashdot (22 juin -- 11 juil. 2010)
+
+À l'occasion de la sortie de la nouvelle version du logiciel, l'utilisateur du forum appelé Teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) [propose](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) de faire la publicité sur Slashdot, un site d'actualité très populaire traitant de sujets pour les *nerds* comme l'informatique, les jeux vidéo, la science, Internet, etc. qui tire son nom des deux caractères `/.`. Le 22 juin, il demande ainsi sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*) Martti Malmi [commente](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) en écrivant qu'« atteindre Slashdot, avec ses millions de lecteurs techniquement compétents, serait génial, peut-être la meilleure chose que l'on puisse imaginer ! » (*original: "Slashdot with its millions of tech-savvy readers would be awesome, perhaps the best imaginable!"*
 
 Le 5 juillet, Teppy rédige une présentation qu'il compte soumettre lui-même à Slashdot et la [publie](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969) sur le forum :
 
@@ -1059,13 +1067,7 @@ Il conclue son message du forum par :
 >
 > *original: "Sorry to be a wet blanket. &nbsp;Writing a description for this thing for general audiences is bloody hard. &nbsp;There's nothing to relate it to."*
 
-Le lendemain, le 6 juillet, Satoshi Nakamoto annonce la sortie de la version 0.3 du logiciel. Ici aussi il soigne la présentation [présente](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004) en écrivant :
-
-> « Voici la version 0.3 de Bitcoin, la cryptomonnaie pair à pair ! &nbsp;Bitcoin est une monnaie numérique qui utilise la cryptographie et un réseau distribué pour remplacer le besoin d'un serveur central de confiance. &nbsp;Échappez au risque d'inflation arbitraire propre aux monnaies gérées de manière centralisée ! &nbsp;La circulation totale du bitcoin est limitée à 21 millions d'unités. &nbsp;Les unités sont progressivement distribuées aux nœuds du réseau en fonction de la puissance de calcul qu'ils fournissent, de sorte que vous pouvez en obtenir une partie en mettant à contribution votre temps CPU inactif. »
->
-> *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
-
-Ainsi, au début du mois de juillet, le discours autour de Bitcoin est bien calibré. Ce dernier est prêt à subir un slashdotting.
+Par la suite, Teppy corrige la présentation en prenant en compte les suggestions. Ainsi, au début du mois de juillet, le discours autour de Bitcoin est bien calibré. Ce dernier est prêt à subir un slashdotting.
 
 ### Le grand slashdotting (11 juillet 2010)
 
@@ -1075,15 +1077,41 @@ Le 11 juillet 2010, une version rectifiée de la présentation de Bitcoin rédig
 >
 > *original: "How's this for a disruptive technology? Bitcoin is a peer-to-peer, network-based digital currency with no central bank, and no transaction fees. Using a proof-of-work concept, nodes burn CPU cycles searching for bundles of coins, broadcasting their findings to the network. Analysis of energy usage indicates that the market value of Bitcoins is already above the value of the energy needed to generate them, indicating healthy demand. The community is hopeful the currency will remain outside the reach of any government."*
 
-![Logo de Slashdot en 2010](slashdot-logo.webp)
+![Logo de Slashdot en 2010](assets/img/ch8/slashdot-logo.webp)
 
-La publication est remarquée. Près de 500 commentaires sont publiés en quelques jours... Ce succès provoque un afflux massif de visiteurs sur le site et sur le forum...
+La publication est remarquée et près de 500 commentaires sont publiés en quelques jours. Du côté de Bitcoin, ce succès provoque un afflux massif de visiteurs sur le site et sur le forum. L'utilisation de la chaîne explose : le nombre de transactions effectuées sur le réseau passe de 42 le 10 juillet à 1 641 le 12, pour atteindre 5 554 le 14, un record absolu. Le système tient le choc malgré la montée en charge. Le 14, le développeur Gavin Andresen [écrit](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) ainsi sur le forum :
 
-Augmentation du prix et du taux de hachage, commentaire de Gavin, création de Mt. Gox
+> « Je pense que Satoshi a fait un travail fantastique : au cours des deux derniers jours où Bitcoin a été "slashdotté", je n'ai entendu parler d'AUCUN problème de perte de transactions Bitcoin, ni de panne du réseau en raison de la charge, ou de quelque problème que ce soit concernant les fonctionnalités de base.
+>
+> "I think Satoshi has done an amazingly fantastic job; over the last two days of Bitcoin being 'slashdotted' I haven't heard of ANY problems with Bitcoin transactions getting lost, or of the network crashing due to the load, or any problem at all with the core functionality."
 
-### La spécialisation du minage (juil. 2010 -- nov. 2010)
+La première conséquence de cet afflux est que le prix du bitcoin connaît une hausse fulgurante, en [passant](https://bitcoin.zorinaq.com/price/) de 0,008 $ à 0,08 $ en une semaine, soit une multiplication par 10 !
+
+### La création de Mt. Gox (18 juillet 2010)
+
+**extrait** Parmi les personnes qui découvrent Bitcoin grâce à Slashdot, il y a Jed McCaleb, un entrepreneur et programmeur américain de 35 ans, connu pour avoir cofondé et développé le logiciel de partage de fichiers en pair à pair eDonkey2000 dans les années 2000. Constatant à quel point il est pénible de se procurer du bitcoin contre des dollars, il décide « [sur un coup de tête](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) » de créer une place de marché spécialisée. Pour ce faire, il réutilise un de ses anciens projets mis au point [en 2007](https://gwern.net/doc/bitcoin/2014-mccaleb) : *Magic The Gathering Online eXchange* (MTGOX), un site web qui permettait d'acheter et de vendre des cartes du jeu en ligne Magic: The Gathering Online. Il reprend le même nom de domaine au passage : mtgox.com.
+
+![Photographie de Jed McCaleb en 2013](assets/img/ch8/20130925-JED-MCCALEB-037edit.webp)
+
+Photographie de Jed McCaleb (source : Ariel Zambelich pour [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
+
+**extrait** Une semaine plus tard, le 18, la plateforme de change Mt. Gox (prononcée « *Mount Gox* ») est lancée et [annoncée](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) officiellement sur le forum par Jed. Grâce à son expertise, il fait en sorte que la plateforme fonctionne comme une place de marché automatisée, à l'instar des bourses en ligne modernes. [D'après Jed McCaleb](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), elle se distingue de Bitcoin Market par le fait qu'elle est « toujours en ligne, automatisée », que « le site est plus rapide et a un hébergement dédié » et que « l'interface est plus agréable ». Par conséquent, Mt. Gox s'impose rapidement comme le moyen principal de se procurer du bitcoin, devenant la référence en ce qui concerne le cotation en dollars.
+
+![Interface de la plateforme Mt. Gox en février 2011](assets/img/ch8/mtgox-screenshot-20110203.webp)
+
+Interface de la plateforme Mt. Gox en février 2011 (source : [archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
+
+**extrait** Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme pendant un mois. Cela le poussera à ajouter Liberty Reserve comme moyen de paiement pour [rouvrir](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) Mt. Gox. Par la suite, il acceptera également sur demande les tranferts via Paxum, et les virements bancaire en dollars (ACH) et en euros.
+
+### La spécialisation du minage (juil. 2010 -- sept. 2010)
+
+Conséquemment à l'annonce sur Slashdot, la puissance de calcul déployée sur le réseau s'accroît considérablement. Entre le 11 et et le 17 juillet, le taux de hachage [passe](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) de 0,22 GH/s à 2,78 GH/s.
+
+**extrait** Certains mineurs développent leur propre algorithme de minage par GPU. C'est le cas de ArtForz, un développeur allemand, qui se met à miner le 19 juillet et qui construit au cours du temps la première ferme de minage de Bitcoin, qui sera connue sous le nom d'« ArtFarm ».
 
 Première ferme de minage (Artforz)
+
+https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/
 
 ### L'arrivée de développeurs expérimentés (juil. 2010)
 
@@ -1091,9 +1119,15 @@ Jeff Garzik, tcatm, gmaxwell
 
 ### Les difficultés techniques (juil. 2010 -- sept. 2010)
 
+[Courriel](https://mmalmi.github.io/satoshi/#email-210) 18 juillet 2010, à Malmi :
+
+« S'il te plaît, promets-moi de ne pas faire de basculement maintenant. &nbsp;La dernière chose dont nous avons besoin, c'est de problèmes de basculement qui s'ajoutent à l'afflux de travail que nous recevons actuellement de slashdot. &nbsp;Je perds la tête tellement il y a de choses à faire. »
+
+(*original: "Please promise me you won't make a switch now. &nbsp;The last thing we need is switchover hassle on top of the slashdot flood of work we've got now. &nbsp;I'm losing my mind there are so many things that need to be done."*)
+
 Vulnérabilités majeures, server/daemon, 1 RETURN, value overflow, ajout du système d'alerte (0.3.2, 17/7), ajout des codes OP_NOP, ajout de la limite de taille des blocs
 
-## Après Slashdot
+## Après Slashdot (sept. 2010 -- déc. 2010)
 
 nanotube, IRC #bitcoin-otc (Freenode), 18 octobre 2010 : https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508
 

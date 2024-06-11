@@ -1,0 +1,8 @@
+title: "Bitcoin-ohjelmointi"
+publication_year: 2019
+cover: cover_en.webp
+original: true
+description: |
+  "Bitcoin-ohjelmointi" kirjoittanut Jimmy Song on keskitason kirja, joka yhdistää rahoituksen, sijoittamisen ja teknologian tarjoten lukijoille syvällisen ymmärryksen maailman suosituimman kryptovaluutan, Bitcoinin, toiminnasta. Kirja on suunnattu lukijoille, joilla on joitakin aiempia tietoja ohjelmoinnista ja tietojenkäsittelystieteestä, ja se käsittelee aiheita kuten Bitcoinin skriptaus, kryptografia ja transaktioiden vahvistaminen. Käytännönläheisen oppimisen keskiössä kirjoittaja opastaa lukijoita kirjoittamaan koodia Bitcoin-transaktioille, toteuttamaan älykkäitä sopimuksia ja luomaan omia Bitcoin-lompakoita. Matkan varrella lukijat saavat oivalluksia Bitcoinin sijoituspsykologiasta ja siitä, miten tehdä perusteltuja päätöksiä tässä nopeasti kehittyvässä markkinassa.
+contributors:
+  - rabbit-hole

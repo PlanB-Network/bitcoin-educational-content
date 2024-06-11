@@ -734,7 +734,9 @@ Martti Malmi met aussi en place un forum et un wiki, toujours sur la page Source
 >
 > *original: "The new Bitcoin website/portal is up at bitcoin.sourceforge.net. Forums and a wiki are included, so you're welcome to join discussion and wiki documentation."*
 
-Ce premier forum rencontre son public. Nous ne disposons pas d'archive de ce premier forum, qui n'était accessible que pour ses membres. Au fil des mois, de plus en plus de gens s'y inscrivent et y interviennent, ce qui fait prendre conscience que le logiciel mis en place par Malmi n'est pas suffisant. Le 5 novembre, il écrit au jeune Finlandais pour suggérer   la création d'un nouveau forum qui serait à même de recevoir un trafic plus élevé :
+Ce forum rencontre son public. Il semble qu'il [donne](https://mmalmi.github.io/satoshi/#email-27) même lieu à la création d'un canal IRC dédié au développement (`#bitcoin-dev`) en août. Nous ne disposons néanmoins pas d'archive car il n'était accessible que pour ses membres.
+
+Au fil des mois, de plus en plus de gens s'inscrivent et interviennent sur ce premier forum, ce qui fait prendre conscience à Satoshi que le logiciel mis en place par Malmi n'est pas suffisant. Le 5 novembre, il écrit au jeune Finlandais pour suggérer la création d'un nouveau forum qui serait à même de recevoir un trafic plus élevé :
 
 > « Maintenant que le forum sur bitcoin.sourceforge.net gagne en popularité, nous devrions vraiment chercher un endroit qui héberge gratuitement la gestion d'un forum complet. »
 >
@@ -754,7 +756,7 @@ La communication autour de Bitcoin est ainsi passée par plusieurs étapes. Tout
 
 Ainsi, à l'automne 2009, il semble que Bitcoin soit prêt à s'agrandir. L'amorçage économique aura lieu à partir de là. Nous parlerons de ce sujet dans le prochain chapitre.
 
-## L'amorçage de Bitcoin (oct. 2009 -- mai 2010)
+## L'amorçage de Bitcoin (oct. 2009 -- avr. 2010)
 
 Nous avons vu dans les chapitres précédents comment Satoshi a pu développer son idée et comment il a su communiquer à son sujet. Dans ce chapitre, nous allons aborder l'étape suivant : l'amorçage économique de Bitcoin.
 
@@ -1025,59 +1027,63 @@ Dans les chapitres précédents, nous avons observé comment Bitcoin a progress�
 
 Dans ce chapitre, nous nous proposons de parler du « grand slashdotting », c'est-à-dire de l'afflux brutal d'utilisateurs qui a suivi la publication d'un texte sur le site web populaire Slashdot. Nous verrons comment ce texte a été amené à exister dans un dernier effort de communication de la part de Satoshi et quels ont été les effets qui ont suivi cette popularisation de Bitcoin.
 
-### Un dernier effort de communication (22 juin -- 11 juil. 2010)
+### La version 0.3 du logiciel (22 juin -- 11 juil. 2010)
 
 Le début de l'été 2010 est marqué par la sortie de la version 0.3 du logiciel, qui a été préparée de longue date par Satoshi Nakamoto et par Martti Malmi. Par rapport à la version 0.2, sortie en décembre de l'année précédente, cette version inclue des améliorations cruciales telles qu'un [démon](https://fr.wikipedia.org/wiki/Daemon_(informatique)) (qui deviendra `bitcoind`), un contrôle en invite de commande, une API (via JSON-RPC), une optimisation de la génération d'unités et un « hashmètre » estimant le taux de hachage de l'utilisateur. Elle inclue aussi le support pour Mac OS X apporté par la contribution de Laszlo Hanyecz et la traduction de l'interface graphique en allemand, néerlandais et italien.
 
 Le 22 juin, Satoshi [demande](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) aux membres du forum de tester cette version du logiciel. Il voit cette version comme une version charnière de Bitcoin et [envisage]( https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) même d'abandonner l'aspect « beta » et de faire directement passer la numérotation à la version 1.3. Il [reviendra](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928) néanmoins assez rapidement sur sa décision.
 
-À l'occasion de la sortie du logiciel, l'utilisateur du forum appelé Teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) [propose](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) de faire la publicité sur Slashdot, un site d'actualité très populaire traitant de sujets pour les *nerds* comme l'informatique, les jeux vidéo, la science, Internet, etc. Le 22 juin, il demande ainsi sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*) Martti Malmi [commente](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) en écrivant qu'« atteindre Slashdot, avec ses millions de lecteurs techniquement compétents, serait génial, peut-être la meilleure chose que l'on puisse imaginer ! » (*original: "Slashdot with its millions of tech-savvy readers would be awesome, perhaps the best imaginable!"*
+À l'occasion de la sortie du logiciel, l'utilisateur du forum appelé Teppy (l'administrateur du MMORPG qui a commencé à accepter le bitcoin en mai) [propose](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) de faire la publicité sur Slashdot, un site d'actualité très populaire traitant de sujets pour les *nerds* comme l'informatique, les jeux vidéo, la science, Internet, etc. qui tire son nom des deux caractères `/.`. Le 22 juin, il demande ainsi sur le forum s'il ne faut pas « faire un peu de publicité » en précisant que « Slashdot est un bon endroit si nous pouvons y accéder ». (*original: "Should we try for some publicity? Slashdot is good if we can get it."*) Martti Malmi [commente](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) en écrivant qu'« atteindre Slashdot, avec ses millions de lecteurs techniquement compétents, serait génial, peut-être la meilleure chose que l'on puisse imaginer ! » (*original: "Slashdot with its millions of tech-savvy readers would be awesome, perhaps the best imaginable!"*
 
-Présentation pour Slashdot par teppy, [topic](https://bitcointalk.org/index.php?topic=234.msg1967#msg1967)
+Le 5 juillet, Teppy rédige une présentation qu'il compte soumettre lui-même à Slashdot et la [publie](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969) sur le forum :
 
-Réponse de Satoshi sur le [forum](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976).
+> « Que pensez-vous de cette technologie disruptrice ? Bitcoin est une cryptomonnaie anonyme pour l'acheteur et le vendeur, dépourvue de banque centrale ou de frais de transaction. En utilisant un concept similaire à Hashcash, les clients brûlent des cycles de processeur en essayant de récupérer quelques-uns des 21 000 000 de Bitcoins qui finiront par être trouvés. On s'attend à ce qu'avec le temps, la valeur marchande des Bitcoins atteigne la parité avec l'énergie nécessaire pour les générer, ce qui aboutira à une monnaie adossée à l'énergie, hors de portée de tout État. »
+>
+> *original: "How's this for a disruptive technology? Bitcoin is a buyer-anonymous, seller-anonymous cryptocurrency with no central bank, and no transaction fees. Using a concept similar to Hashcash, clients burn CPU cycles attempting to discover some of the 21,000,000 Bitcoins that will eventually be found. It is expected that over time, the market value of Bitcoins will reach parity with the energy needed to generate them, resulting in an energy-backed currency outside the reach of any government."*
 
-Mise en retrait de l'anonymat. 5 juillet 2010, 21:31, : « Nous ne voulons pas mettre l'aspect "anonyme" au premier plan. &nbsp;(J'avais l'intention de modifier la page d'accueil) » (*original "We don't want to lead with 'anonymous'. &nbsp;(I've been meaning to edit the homepage)"*)
+Plusieurs membres du forum font des suggestions pour qu'il améliore ce texte. Satoshi [intervient](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) lui-même quelques heures après la premier message pour donner son avis. Il écrit qu'il « apprécie l'effort », mais qu'« il y a beaucoup de choses qui ne vont pas » (*original: "I really appreciate the effort, but there are a lot of problems."*), puis il liste les éléments qui le gênent :
 
-6 juillet 2010, 2:59, [à Martti](https://mmalmi.github.io/satoshi/#email-197) :
+- À propos de l'absence d'influence étatique, il affiche une certaine prudence en écrivant qu'il ne fait « certainement pas ce genre de provocation ou d'affirmation » ; (*original: "'The developers expect that this will result in a stable-with-respect-to-energy currency outside the reach of any government.' -- I am definitely not making an such taunt or assertion."*)
+- À propos de l'adossement à l'énergie, il considère que la monnaie « n'est pas stable par rapport à l'énergie » et ajoute : « Ce sujet a fait l'objet d'une discussion. &nbsp;Elle n'est pas liée au coût de l'énergie. &nbsp;L'estimation de NLS basée sur l'énergie était un bon point de départ, mais les forces du marché domineront de plus en plus. » ; (*original: "It's not stable-with-respect-to-energy. &nbsp;There was a discussion on this. &nbsp;It's not tied to the cost of energy. &nbsp;NLS's estimate based on energy was a good estimated starting point, but market forces will increasingly dominate."*)
+- À propos de l'aspect anonyme du système, il affirme qu'il ne veut pas « mettre l'aspect "anonyme" au premier plan » et qu'il avait l'intention de modifier la page d'accueil » dans ce sens. (*original "We don't want to lead with 'anonymous'. &nbsp;(I've been meaning to edit the homepage)"*)
+
+Dans un courriel adressé à Martti Malmi quelques heures plus tard, il donne deux raisons principales pour expliquer cette volonté de mise en retrait de l'anonymat : le danger pour l'utilisateur et la perception du public. Il [écrit](https://mmalmi.github.io/satoshi/#email-197) :
 
 > « Je pense que nous devrions mettre moins l'accent sur l'aspect anonyme. &nbsp;Avec la popularité des adresses bitcoin au lieu de l'envoi par IP, nous ne pouvons pas donner l'impression que tout est automatiquement anonyme. &nbsp;Il est possible d'être pseudonyme, mais il faut être prudent. \[...\] &nbsp;De plus, "anonyme" sonne un peu suspect. &nbsp;Je pense que les gens qui veulent de l'anonymat le découvriront sans que nous en fassions la promotion. »
 >
 > *original :"I think we should de-emphasize the anonymous angle. &nbsp;With the popularity of bitcoin addresses instead of sending by IP, we can't give the impression it's automatically anonymous. &nbsp;It's possible to be pseudonymous, but you have to be careful. (...) &nbsp;Also, anonymous sounds a bit shady. &nbsp;I think the people who want anonymous will still figure it out without us trumpeting it."*
 
-L'absence de dépendance étatique. « "Les développeurs s'attendent à ce que cela se traduise par une monnaie stable par rapport à l'énergie et hors de portée de tout État." –- Je ne fais certainement pas ce genre de provocation ou d'affirmation. » (*original: "'The developers expect that this will result in a stable-with-respect-to-energy currency outside the reach of any government.' -- I am definitely not making an such taunt or assertion."*)
-
-L'indexation sur l'énergie. « Ce n'est pas stable par rapport à l'énergie. Ce sujet a fait l'objet d'une discussion. Elle n'est pas liée au coût de l'énergie. L'estimation de NLS basée sur l'énergie était un bon point de départ, mais les forces du marché domineront de plus en plus. » (*original: "It's not stable-with-respect-to-energy. &nbsp;There was a discussion on this. &nbsp;It's not tied to the cost of energy. &nbsp;NLS's estimate based on energy was a good estimated starting point, but market forces will increasingly dominate."*)
-
-Il conclue par :
+Il conclue son message du forum par :
 
 > « Désolé d'être rabat-joie. &nbsp;L'écriture d'une description de ce truc pour le grand public est sacrément difficile. &nbsp;Il n'y a rien à quoi se rapporter. »
 >
 > *original: "Sorry to be a wet blanket. &nbsp;Writing a description for this thing for general audiences is bloody hard. &nbsp;There's nothing to relate it to."*
 
-Sortie de la v0.3, [6 juillet](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004), 18:32 :
+Le lendemain, le 6 juillet, Satoshi Nakamoto annonce la sortie de la version 0.3 du logiciel. Ici aussi il soigne la présentation [présente](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004) en écrivant :
 
 > « Voici la version 0.3 de Bitcoin, la cryptomonnaie pair à pair ! &nbsp;Bitcoin est une monnaie numérique qui utilise la cryptographie et un réseau distribué pour remplacer le besoin d'un serveur central de confiance. &nbsp;Échappez au risque d'inflation arbitraire propre aux monnaies gérées de manière centralisée ! &nbsp;La circulation totale du bitcoin est limitée à 21 millions d'unités. &nbsp;Les unités sont progressivement distribuées aux nœuds du réseau en fonction de la puissance de calcul qu'ils fournissent, de sorte que vous pouvez en obtenir une partie en mettant à contribution votre temps CPU inactif. »
 >
 > *original :"Announcing version 0.3 of Bitcoin, the P2P cryptocurrency! &nbsp;Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server. &nbsp;Escape the arbitrary inflation risk of centrally managed currencies! &nbsp;Bitcoin's total circulation is limited to 21 million coins. &nbsp;The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time."*
 
-Mullvad VPN, 8 juillet 2010 : https://bitcointalk.org/index.php?topic=30.msg2075#msg2075
+Ainsi, au début du mois de juillet, le discours autour de Bitcoin est bien calibré. Ce dernier est prêt à subir un slashdotting.
 
 ### Le grand slashdotting (11 juillet 2010)
 
-Version 0.3, présentation par teppy, augmentation du prix et du taux de hachage, création de Mt. Gox
-
-![Logo de Slashdot en 2010](slashdot-logo.webp)
-
-11 juillet 2010, [publication](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) d'une présentation de Bitcoin sur Slashdot par teppy :
+Le 11 juillet 2010, une version rectifiée de la présentation de Bitcoin rédigée par Teppy est [publiée](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) sur Slashdot. Celle-ci est la suivante :
 
 > « Que pensez-vous de cette technologie disruptrice ? Bitcoin est une monnaie numérique basée sur un réseau pair à pair, sans banque centrale, et sans frais de transaction. À l'aide d'un concept de preuve de travail, les nœuds brûlent des cycles de processeur pour chercher des paquets de pièces et diffusent leurs résultats sur le réseau. L'analyse de la consommation d'énergie révèle que la valeur marchande des bitcoins est déjà supérieure à la valeur de l'énergie nécessaire pour les générer, ce qui indique une demande saine. La communauté a bon espoir que la monnaie restera hors de portée de tout État. »
 >
 > *original: "How's this for a disruptive technology? Bitcoin is a peer-to-peer, network-based digital currency with no central bank, and no transaction fees. Using a proof-of-work concept, nodes burn CPU cycles searching for bundles of coins, broadcasting their findings to the network. Analysis of energy usage indicates that the market value of Bitcoins is already above the value of the energy needed to generate them, indicating healthy demand. The community is hopeful the currency will remain outside the reach of any government."*
 
-### L'optimisation du minage (juil. 2010 -- nov. 2010)
+![Logo de Slashdot en 2010](slashdot-logo.webp)
 
-Première ferme de minage (Artforz), première coopérative (slush)
+La publication est remarquée. Près de 500 commentaires sont publiés en quelques jours... Ce succès provoque un afflux massif de visiteurs sur le site et sur le forum...
+
+Augmentation du prix et du taux de hachage, commentaire de Gavin, création de Mt. Gox
+
+### La spécialisation du minage (juil. 2010 -- nov. 2010)
+
+Première ferme de minage (Artforz)
 
 ### L'arrivée de développeurs expérimentés (juil. 2010)
 
@@ -1089,11 +1095,11 @@ Vulnérabilités majeures, server/daemon, 1 RETURN, value overflow, ajout du sys
 
 ## Après Slashdot
 
-### Succès
-
 nanotube, IRC #bitcoin-otc (Freenode), 18 octobre 2010 : https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508
 
 Prix à 30 ¢
+
+Novembre : première coopérative (slush)
 
 ## La disparition de Satoshi (déc. 2010 -- avr. 2011)
 

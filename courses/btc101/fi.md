@@ -11,7 +11,7 @@ objectives:
 
 # Ensimmäinen Bitcoin-seikkailusi
 
-Tässä kurssissa selitän Bitcoinin 21 luvussa, jotta voit ymmärtää tämän teknologian yksinkertaisella ja tehokkaalla tavalla. Kurssi on kaikkien saavutettavissa ja tutkii koko alaa: louhijat, lompakot, osto-/myyntialustat jne...
+Tässä kurssissa selitän Bitcoinin 25 luvussa, jotta voit ymmärtää tämän teknologian yksinkertaisella ja tehokkaalla tavalla. Kurssi on kaikkien saavutettavissa ja tutkii koko alaa: louhijat, lompakot, osto-/myyntialustat jne...
 
 Kurssin suorittaminen kestää noin 15 tuntia. Matkan varrella on saatavilla selittäviä julisteita ja lisäresursseja.
 

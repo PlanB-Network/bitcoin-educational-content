@@ -7,6 +7,8 @@ description: Comment ajouter le replay d'une conférence sur PlanB Network ?
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
 Vous souhaitez ajouter le replay de votre conférence Bitcoin sur le site de PlanB Network et donner de la visibilité à cet évènement, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
+
+En revanche, si vous souhaitez ajouter une conférence qui se déroulera dans le futur, je vous conseille [de lire cet autre tutoriel](https://planb.network/tutorials/others/add-event) dans lequel on vous explique comment ajouter un nouvel évènement sur le site.
 ![conference](assets/01.webp)
 - Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait [un tutoriel détaillé pour vous accompagner](https://planb.network/tutorials/others/create-github-account).
 - Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) dans la section `resources/conference/` :

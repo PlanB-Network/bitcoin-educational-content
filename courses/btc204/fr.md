@@ -1,14 +1,15 @@
 ---
 name: La confidentialité sur Bitcoin
-goal: Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin.
+goal: Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
 objectives:
-  - Définir les notions théoriques nécessaires à la compréhension des enjeux de la protection de la vie privée ;
-  - Savoir identifier et mitiger les risques liés à la perte de confidentialité de l'utilisateur de Bitcoin ;
-  - Utiliser des méthodes et des outils pour protéger sa vie privée sur Bitcoin ;
-  - Comprendre les méthodes de l'analyse de chaîne et développer des stratégies de défense.
+  - Définir les notions théoriques nécessaires à la compréhension des enjeux de la protection de la vie privée 
+  - Savoir identifier et mitiger les risques liés à la perte de confidentialité de l'utilisateur de Bitcoin 
+  - Utiliser des méthodes et des outils pour protéger sa vie privée sur Bitcoin 
+  - Comprendre les méthodes de l'analyse de chaîne et développer des stratégies de défense
 ---
 # Protégez votre vie privée sur Bitcoin
 <partId>e38eb3ad-9b51-42b8-adaf-e6b03e8e3ac4</partId>
+
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
 Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse de chaîne. Leur cœur de métier consiste précisément à s'ingérer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place. 
@@ -73,7 +74,7 @@ Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres t
 
 Alors que les sections précédentes se concentraient sur les solutions de confidentialité applicatives, cette sixième section se penchera sur les enjeux au niveau protocolaire pour la vie privée des utilisateurs. Nous aborderons la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons également des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin. Pour conclure, nous examinerons les impacts sur la confidentialité, tant positifs que négatifs, du dernier grand soft fork de Bitcoin, Taproot.
 
-***LOIC : AJOUTER SCHEMA EXEMPLE ICI***
+***(WIP: LOIC : AJOUTER SCHEMA EXEMPLE ICI***)
 
 ### Section Bonus : La privacy sur les protocoles de seconde couche
 
@@ -102,13 +103,14 @@ Ce modèle se distingue profondément des systèmes bancaires traditionnels qui 
 Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et les unités monétaires ne sont pas gérées via des soldes, mais à travers des UTXO. Un UTXO représente une quantité spécifique de bitcoins qui n'a pas encore été dépensée, formant ainsi un "morceau de bitcoin", qui peut être grand ou petit. Par exemple, un UTXO pourrait valoir `500 BTC` ou simplement `700 SATS`.
 
 **> Pour rappel :** Le satoshi, souvent abrégé en sat, est la plus petite unité de Bitcoin, comparable au centime dans les monnaies fiat.
+
 ```bash
 1 BTC = 100 000 000 SATS
 ```
 
 Théoriquement, un UTXO peut représenter n'importe quelle valeur en bitcoins, allant d'un sat jusqu'au maximum théorique d'environ 21 millions de BTC. Cependant, il est logiquement impossible de posséder les 21 millions de bitcoins, et il existe un seuil économique inférieur appelé "dust", en dessous duquel un UTXO est considéré comme économiquement non rentable à dépenser.
 
-**-> Le saviez-vous ?** Le plus grand UTXO jamais créé sur Bitcoin avait une valeur de `500 000 BTC`. Il a été créé par la plateforme MtGox lors d'une opération de consolidation en novembre 2011 : [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**> Le saviez-vous ?** Le plus grand UTXO jamais créé sur Bitcoin avait une valeur de `500 000 BTC`. Il a été créé par la plateforme MtGox lors d'une opération de consolidation en novembre 2011 : [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### Les UTXOs et les conditions de dépense
 
@@ -221,6 +223,7 @@ Ensuite, comme mentionné dans les parties précédentes, les pièces sur Bitcoi
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
 ### La monnaie : authenticité, intégrité et double dépense
+
 Une des fonctions de la monnaie est de résoudre le problème de la double coïncidence des besoins. Dans un système établi sur le troc, la réalisation d'un échange nécessite non seulement de trouver un individu cédant un bien correspondant à mon besoin, mais aussi de lui procurer un bien de valeur équivalente qui satisfait son propre besoin. Trouver cet équilibre s'avère complexe. 
 
 ![BTC204](assets/notext/23/1.webp)
@@ -261,6 +264,7 @@ Mais contrairement au modèle bancaire, on ne souhaite pas avoir à faire confia
 C'est précisément cette diffusion publique de l’information qui complique la protection de la vie privée sur Bitcoin. Dans le système bancaire traditionnel, en théorie, seule l'institution financière a connaissance des transactions effectuées. En revanche, sur Bitcoin, l'ensemble des utilisateurs est informé de toutes les transactions, via leurs nœuds respectifs. 
 
 ### Le modèle de confidentialité : système bancaire vs Bitcoin
+
 Dans le système traditionnel, votre compte bancaire est lié à votre identité. Le banquier est en capacité de savoir quel compte bancaire appartient à quel client, et quelles sont les transactions associées. Néanmoins, ce flux d’informations est coupé entre la banque et le domaine public. Autrement dit, il est impossible de connaître le solde et les transactions d’un compte bancaire qui appartient à un autre individu. Seule la banque a accès à ces informations.
 
 ![BTC204](assets/fr/23/6.webp)
@@ -521,7 +525,7 @@ Sur ce schéma, on peut voir que l’input n° 0 débloque un script P2WPKH (Seg
 
 Voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
 
-```dash
+```bash
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
@@ -986,6 +990,7 @@ ___
 ## La réutilisation d'adresse
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+Ce Chapitre est en cours d'écriture, et sera publié prochainement !
 
 
 
@@ -995,16 +1000,19 @@ ___
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
 
+Ce Chapitre est en cours d'écriture, et sera publié prochainement !
 
 ## La consolidation, la gestion des UTXO et la CIOH
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
 
+Ce Chapitre est en cours d'écriture, et sera publié prochainement !
 
 ## Le nœud complet
 <chapterId>fc80d2a3-cd9c-4b25-b17a-b853f9a1d99d</chapterId>
 
 
+Ce Chapitre est en cours d'écriture, et sera publié prochainement !
 
 ## Le KYC et l'identification des clés
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1203,7 +1211,7 @@ Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibil
 
 ![BTC204](assets/notext/46/10.webp)
 
-___
+__
 
 *Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
 
@@ -1214,28 +1222,32 @@ ___
 ## C'est quoi une transaction coinjoin ?
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 ## Zerolink et chaumian coinjoins
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 ## Les différentes implémentations de coinjoin
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 
 ## Les ensembles d'anonymat
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 ## L'entropie
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 
 
@@ -1249,14 +1261,18 @@ ___
 ## Les transactions payjoin
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 ## Les transactions spécifiques Samourai
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+
 ## Les transferts secret de propriété
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 ### Le Coin Swap
 
 ### L'Atomic Swap
@@ -1273,6 +1289,7 @@ ___
 ## La confidentialité sur le réseau P2P
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 ### P2P transport V2
 
 ### TOR
@@ -1685,6 +1702,7 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réaliser une tr
 
 
 
+Cette sous-section est en cours de rédaction, et sera publié très prochainement !
 
 
 ### Le XOR, qu'est-ce que c'est ?
@@ -1732,11 +1750,12 @@ Avant de continuer la description technique de cette transaction de notification
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
 
-
-
+Ce Chapitre est en cours de rédaction est sera publié très prochainement !
 
 ## Le soft fork Taproot
 <chapterId>f6baa32e-f292-448c-a543-0635d3a7329e</chapterId>
+
+Ce Chapitre est en cours de rédaction est sera publié très prochainement !
 
 ### Les bénéfices à moyen et long terme
 
@@ -1759,15 +1778,19 @@ Avant de continuer la description technique de cette transaction de notification
 <chapterId>99e57c42-daff-4a40-95e6-d9543bdc1809</chapterId>
 
 
+Ce Chapitre est en cours de rédaction est sera publié très prochainement !
 
 
 ## La confidentialité sur les sidechains
 <chapterId>025409a9-3c4f-426c-901a-46de74ef496d</chapterId>
 
 
+Ce Chapitre est en cours de rédaction est sera publié très prochainement !
 
 ## La confidentialité sur les banques chaumiennes
 <chapterId>04ddfbe9-787c-4e41-aa31-518c328a3165</chapterId>
+
+Ce Chapitre est en cours de rédaction est sera publié très prochainement !
 
 ### Fedimint
 

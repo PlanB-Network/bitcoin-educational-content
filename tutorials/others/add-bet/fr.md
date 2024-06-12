@@ -102,7 +102,7 @@ contributors:
 ![event](assets/16.webp)
 - Vous êtes maintenant sur votre branche de travail (**vérifiez que vous êtes bien sur la même branche que vos modifications précédentes, c'est important !**) :
 ![event](assets/17.webp)
-- Retournez dans le dossier `resources/bet/` et sélectionnez le dossier de votre entreprise que vous venez de créer dans le commit précédent :
+- Retournez dans le dossier `resources/bet/` et sélectionnez le dossier de votre contenu que vous venez de créer dans le commit précédent :
 ![event](assets/18.webp)
 - Dans le dossier de votre contenu, cliquez sur le bouton `Add file`, puis sur `Create new file` :
 ![event](assets/19.webp)

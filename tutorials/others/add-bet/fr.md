@@ -6,11 +6,11 @@ description: Comment ajouter des nouveaux supports éducatifs sur PlanB Network 
 
 La mission de PlanB est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme.
 
-Au-delà des tutoriels et des formations, PlanB Network publie également une grande base de données de contenus éducatifs divers sur Bitcoin que n'importe qui peut télécharger et utiliser [dans le section "BET" (*Bitcoin Educational Toolkit*)](https://planb.network/resources/bet). Ces contenus visuels comprennent des posters éducatifs, des mèmes, des affiches de propagande humoristiques, des schémas techniques, des logos ou encore des outils pour les utilisateurs. L'idée derrière cette initiative est d'aider les personnes et les communautés qui enseignent Bitcoin à travers le monde, en leur fournissant les supports visuels dont ils peuvent avoir besoin.
+Au-delà des tutoriels et des formations, PlanB Network offre également une vaste bibliothèque de contenus éducatifs variés sur Bitcoin, accessibles à tous, [dans la section "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Cette base de données inclut des posters éducatifs, des mèmes, des affiches de propagande humoristiques, des schémas techniques, des logos, et d'autres outils pour les utilisateurs. L'objectif de cette initiative est de soutenir les individus et les communautés qui enseignent Bitcoin à travers le monde, en leur fournissant les ressources visuelles nécessaires.
 
 Vous souhaitez participer à l'enrichissement de cette base de données, mais vous ne savez pas comment faire ? Ce tutoriel est fait pour vous !
 
-*Il est impératif que tous les visuels intégrés au site soient libres de droit ou respectent la licence du fichier source. Aussi, l'intégralité des visuels publiés sur PlanB Network sont mis à disposition sous licence [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Il est impératif que tous les contenus intégrés au site soient libres de droit ou respectent la licence du fichier source. Aussi, l'intégralité des visuels publiés sur PlanB Network sont mis à disposition sous licence [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
 - Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait [un tutoriel détaillé pour vous accompagner](https://planb.network/tutorials/others/create-github-account).
 - Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/bet) dans la section `resources/bet/` :
@@ -43,21 +43,28 @@ contributors:
   - 
 ```
 
-Voici ce qu'il faut remplir dans chaque champs :
-- `builder` : Votre identifiant d'organisation sur PlanB Network. Si vous n'avez pas encore d'identifiant "*builder*" pour votre entreprise, vous pouvez l'ajouter [en suivant cet autre tutoriel](https://planb.network/tutorials/others/add-builder). Sinon, vous pouvez simplement noter votre nom, votre pseudo, ou bien le nom de votre entreprise sans avoir créé de profil builder ;
-- `type`: La nature de votre contenu entre ces 2 choix :
-	- `Educational Content` pour les contenus éducatifs ;
-	- `Visual Content` pour les autre contenus divers.
-- `links` : Les liens vers vos contenus. Pour ces champs, vous 2 choix. Vous pouvez soit héberger votre contenu directement le GitHub de PlanB, et dans ce cas il faudra compléter les liens de ce fichier durant les étapes suivantes. Ou bien, si vos contenus sont déjà hébergés ailleurs, comme sur votre site web personnel par exemple, vous pouvez renseigner les liens vers ce site dans ces champs :
-	- `download` : Un lien pour télécharger votre contenu,
-	- `view` : Un lien pour consulter votre contenu (peut être le même lien que celui pour télécharger). Si votre contenu est disponible dans plusieurs langues, vous pouvez ajouter un lien individuel par langue.
-- `tags` : Les 2 étiquettes associées à votre contenu comme par exemple :
-	- bitcoin,
-	- technology,
-	- economy,
-	- education,
+Voici les informations à remplir pour chaque champ :
+
+- **`builder`** : Indiquez votre identifiant d'organisation sur PlanB Network. Si vous n'avez pas encore d'identifiant "builder" pour votre entreprise, vous pouvez en créer un [en suivant ce tutoriel](https://planb.network/tutorials/others/add-builder). Si vous n'en possédez pas, vous pouvez simplement utiliser votre nom, votre pseudonyme, ou le nom de votre entreprise sans avoir créé de profil builder.
+
+- **`type`** : Sélectionnez la nature de votre contenu parmi les deux options suivantes :
+	- `Educational Content` pour les contenus éducatifs.
+	- `Visual Content` pour les autres types de contenus divers.
+
+- **`links`** : Fournissez les liens vers vos contenus. Vous avez deux options :
+	- Si vous choisissez d'héberger votre contenu directement sur le GitHub de PlanB, vous devrez ajouter les liens de ce fichier durant les étapes suivantes.
+	- Si vos contenus sont hébergés ailleurs, comme sur votre site web personnel, indiquez les liens correspondants ici :
+	    - `download` : Un lien pour télécharger votre contenu.
+	    - `view` : Un lien pour visualiser votre contenu (peut être le même que le lien de téléchargement). Si votre contenu est disponible en plusieurs langues, ajoutez un lien pour chaque langue.
+
+- **`tags`** : Ajoutez deux étiquettes associées à votre contenu. Exemples :
+	- bitcoin
+	- technology
+	- economy
+	- education
 	- meme...
-- `contributors` : Votre identifiant de contributeur si vous en avez déjà un.
+
+- **`contributors`** : Mentionnez votre identifiant de contributeur si vous en avez un.
 
 Par exemple, votre fichier YAML pourrait ressembler à celui-ci : 
 
@@ -162,7 +169,7 @@ description: |
 
 ---
 
-*Si vous ne souhaitez pas ajouter de contenu sur GitHub et avez déjà ajouté les liens des contenus dans les étapes précédentes, vous pouvez sauter cette partie et passer directement à la partie sur la Pull Request.*
+*Si vous préférez ne pas ajouter le contenu sur GitHub et que vous avez déjà noté les liens dans le fichier `bet.yml` durant les étapes précédentes , vous pouvez passer cette section et aller directement à la partie concernant la création de la Pull Request.*
 
 - Retournez dans le dossier `/assets` :
 ![event](assets/41.webp)

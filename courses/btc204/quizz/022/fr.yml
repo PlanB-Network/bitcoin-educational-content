@@ -5,5 +5,5 @@ wrong_answers:
   - Le coinjoin
   - La dépense groupée
 explanation: |
- L'interprétation de cette structure est que nous sommes en présence d'un balayage, c'est-à-dire d'un auto-transfert de bitcoins.
+  L'interprétation de cette structure est que nous sommes en présence d'un balayage, c'est-à-dire d'un auto-transfert de bitcoins.
 reviewed: false

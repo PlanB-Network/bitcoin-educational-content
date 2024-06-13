@@ -5,5 +5,5 @@ wrong_answers:
   - Un nouveau bloc ajouté à la blockchain.
   - Un code de vérification pour sécuriser la transaction.
 explanation: |
- Chaque entrée de la transaction est une référence à un UTXO, c'est-à-dire l'output d'une précédente transaction.
+  Chaque entrée de la transaction est une référence à un UTXO, c'est-à-dire l'output d'une précédente transaction.
 reviewed: false

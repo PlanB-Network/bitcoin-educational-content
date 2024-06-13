@@ -5,5 +5,5 @@ wrong_answers:
   - User Transaction Only
   - Utility Token Exchange Option
 explanation: |
- Un UTXO est une sortie de transaction pas encore dépensée.
+  Un UTXO est une sortie de transaction pas encore dépensée.
 reviewed: false

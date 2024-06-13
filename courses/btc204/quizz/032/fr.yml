@@ -5,5 +5,5 @@ wrong_answers:
   - Celui avec un type de script différent de l'input.
   - Celui avec un type de script non standard.
 explanation: |
- Si une réutilisation de versionnage se produit au sein d'une transaction, on peut vraisemblablement penser que l'utilisateur est toujours en possession de l'UTXO associé. L'output avec la même version de script que l'input est donc sûrement le change.
+  Si une réutilisation de versionnage se produit au sein d'une transaction, on peut vraisemblablement penser que l'utilisateur est toujours en possession de l'UTXO associé. L'output avec la même version de script que l'input est donc sûrement le change.
 reviewed: false

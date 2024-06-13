@@ -5,5 +5,5 @@ wrong_answers:
   - Les droits d'émission et les primes de sécurité.
   - Les dividendes de minage et les taxes de réseau.
 explanation: |
- Lorsqu'un mineur trouve un bloc valide, il a le droit de s'attribuer une récompense composée, d'une part, de la subvention de bloc et, d'autre part, des frais des transactions qu'il a incluses dans son bloc.
+  Lorsqu'un mineur trouve un bloc valide, il a le droit de s'attribuer une récompense composée, d'une part, de la subvention de bloc et, d'autre part, des frais des transactions qu'il a incluses dans son bloc.
 reviewed: false

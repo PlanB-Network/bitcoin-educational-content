@@ -5,5 +5,5 @@ wrong_answers:
   - Un paiement simplifié
   - Une transaction collaborative
 explanation: |
- L'interprétation de ce modèle est que nous sommes en présence d'une dépense groupée. Cette structure permet à des entités comme des plateformes d'échange d'économiser des frais en réunissant leurs dépenses dans une seule transaction.
+  L'interprétation de ce modèle est que nous sommes en présence d'une dépense groupée. Cette structure permet à des entités comme des plateformes d'échange d'économiser des frais en réunissant leurs dépenses dans une seule transaction.
 reviewed: false

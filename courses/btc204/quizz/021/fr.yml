@@ -5,5 +5,5 @@ wrong_answers:
   - Plusieurs UTXOs en input et 1 UTXO en output
   - 5 UTXOs en inputs et 5 UTXOs en outputs
 explanation: |
- Lors d'un paiement simplifié, l'utilisateur consomme un ou plusieurs UTXOs en inputs pour satisfaire en outputs un UTXO de paiement et un UTXO de change (donc 2 UTXOs).
+  Lors d'un paiement simplifié, l'utilisateur consomme un ou plusieurs UTXOs en inputs pour satisfaire en outputs un UTXO de paiement et un UTXO de change (donc 2 UTXOs).
 reviewed: false

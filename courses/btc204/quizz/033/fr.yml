@@ -5,5 +5,5 @@ wrong_answers:
   - L'output rond appartient toujours à l'utilisateur en input.
   - L'output rond est une adresse de réserve.
 explanation: |
- Lorsque l'on se retrouve face à un pattern de paiement simple (1 input et 2 outputs), si un des outputs dépense un montant rond, alors celui-ci représente le paiement. Il quitte donc la possession de l'utilisateur en input.
+  Lorsque l'on se retrouve face à un pattern de paiement simple (1 input et 2 outputs), si un des outputs dépense un montant rond, alors celui-ci représente le paiement. Il quitte donc la possession de l'utilisateur en input.
 reviewed: false

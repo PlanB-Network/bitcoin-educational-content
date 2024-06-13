@@ -5,5 +5,5 @@ wrong_answers:
   - L'utilisation d'un nœud complet
   - La validation par preuve de travail
 explanation: |
- Les coinjoins ont pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer le risque de traçage associé au KYC.
+  Les coinjoins ont pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer le risque de traçage associé au KYC.
 reviewed: false

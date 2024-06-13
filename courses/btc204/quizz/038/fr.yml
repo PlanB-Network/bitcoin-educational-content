@@ -5,5 +5,5 @@ wrong_answers:
   - La consolidation.
   - Le balayage.
 explanation: |
-  La CIOH n'est pas applicable sur les transactions qui adoptent un pattern collaboratif, car dans ce cas spécifique, les inputs proviennent forcément d'entités différentes.
+   La CIOH n'est pas applicable sur les transactions qui adoptent un pattern collaboratif, car dans ce cas spécifique, les inputs proviennent forcément d'entités différentes.
 reviewed: false

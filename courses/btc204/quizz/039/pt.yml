@@ -1,6 +1,6 @@
 question: Por que é aconselhado não publicar endereços de recebimento nas redes sociais?
 answer: Porque eles podem ser usados para vincular atividades onchain a uma identidade real.
-wrong_answer:
+wrong_answers:
   - Porque eles podem ser facilmente hackeados por hackers maliciosos.
   - Porque eles poderiam atrair ofertas fraudulentas e expor você a campanhas de phishing.
   - Porque eles podem permitir a aplicação da heurística de posse de entrada comum.

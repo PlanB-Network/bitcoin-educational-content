@@ -1,6 +1,6 @@
 question: Nhược điểm chính của Máy rút tiền tự động (ATM) là gì?
 answer: Thường xuyên có phí rất cao.
-wrong_answer:
+wrong_answers:
   - Cần có kết nối internet nhanh.
   - Không hỗ trợ tiền tệ địa phương.
   - Không đảm bảo an toàn giao dịch.

@@ -1,6 +1,6 @@
 question: Al buscar un patrón, ¿qué parte de la transacción estudiaremos?
 answer: Su estructura
-wrong_answer:
+wrong_answers:
   - Sus metadatos
   - Sus scripts
   - Su firma

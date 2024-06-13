@@ -1,6 +1,6 @@
 question: 入力に1つのUTXO、出力に43のUTXOがあるトランザクションを観察した場合、どのようなパターンを認識できますか？
 answer: 一括支払い
-wrong_answer:
+wrong_answers:
   - 統合
   - 簡易支払い
   - 協力トランザクション

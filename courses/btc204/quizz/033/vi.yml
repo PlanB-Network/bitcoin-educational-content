@@ -1,6 +1,6 @@
 question: Nếu chúng ta quan sát trong một giao dịch thanh toán đơn giản mà một đầu ra có một số tiền tròn, chúng ta có thể rút ra kết luận gì?
 answer: Đầu ra tròn số không còn thuộc về người dùng đầu vào.
-wrong_answer:
+wrong_answers:
   - Đầu ra tròn số dành cho phí giao dịch.
   - Đầu ra tròn số vẫn thuộc về người dùng đầu vào.
   - Đầu ra tròn số là một địa chỉ dự trữ.

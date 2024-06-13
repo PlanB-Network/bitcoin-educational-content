@@ -1,6 +1,6 @@
 question: どのトランザクションモデルがCIOHの使用を無効にしますか？
 answer: 協働トランザクション。
-wrong_answer:
+wrong_answers:
   - シンプルな支払い。
   - 統合。
   - スイーピング。

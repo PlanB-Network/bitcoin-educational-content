@@ -1,6 +1,6 @@
 question: Qual é a ação de uma transação Bitcoin nos UTXOs de entrada?
 answer: Ela os consome para satisfazer as saídas.
-wrong_answer:
+wrong_answers:
   - Ela os arquiva na blockchain para referência futura.
   - Ela os criptografa para garantir a segurança da transação.
   - Ela os duplica para criar novos UTXOs.

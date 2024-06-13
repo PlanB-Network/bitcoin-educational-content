@@ -1,6 +1,6 @@
 question: Was ist das Muster einer vereinfachten Zahlung bei Bitcoin?
 answer: 1 oder mehr UTXOs in Eingängen und 2 UTXOs in Ausgängen.
-wrong_answer:
+wrong_answers:
   - 1 UTXO in Eingang und 1 UTXO in Ausgang
   - Mehrere UTXOs in Eingang und 1 UTXO in Ausgang
   - 5 UTXOs in Eingängen und 5 UTXOs in Ausgängen

@@ -1,6 +1,6 @@
 question: Wenn bei einer einfachen Zahlungstransaktion die gleiche Adresse sowohl in einem Input als auch in einem der 2 Outputs verwendet wird, welcher Output stellt wahrscheinlich das Wechselgeld dar?
 answer: Derjenige mit der gleichen Adresse wie der Input.
-wrong_answer:
+wrong_answers:
   - Derjenige mit der neuesten Adresse.
   - Derjenige mit einer anderen Adresse als der Input.
   - Derjenige mit einer unbekannten Adresse.

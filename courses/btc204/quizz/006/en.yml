@@ -1,6 +1,6 @@
 question: What does change represent in a transaction?
 answer: An output that returns to the original sender of the transaction.
-wrong_answer:
+wrong_answers:
   - A fee taken by the Bitcoin network.
   - An output transferred to the recipient of the transaction.
   - A bonus awarded to the sender for fast transactions.

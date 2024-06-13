@@ -1,6 +1,6 @@
 question: Wenn wir bei einer einfachen Zahlungstransaktion beobachten, dass ein Ausgang einen runden Betrag aufweist, welche wahrscheinliche Interpretation können wir daraus ziehen?
 answer: Der runde Ausgang befindet sich nicht mehr im Besitz des Eingabebenutzers.
-wrong_answer:
+wrong_answers:
   - Der runde Ausgang ist für Transaktionsgebühren vorgesehen.
   - Der runde Ausgang gehört immer noch dem Eingabebenutzer.
   - Der runde Ausgang ist eine Reserveadresse.

@@ -1,6 +1,6 @@
 question: Satoshi NakamotoがBitcoin White Paperで言及したチェーン分析のヒューリスティックにはどのようなものがありますか？（一つだけ答えられます）
 answer: CIOHとアドレスの再利用。
-wrong_answer:
+wrong_answers:
   - 署名と時間の相関によるクラスタリング。
   - 四捨五入された支払いと大きな出力。
   - ボリューム分析とスクリプトの類似性。

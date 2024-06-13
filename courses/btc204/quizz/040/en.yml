@@ -1,6 +1,6 @@
 question: Why are bitcoins purchased via P2P exchanges often more expensive than those bought on regulated platforms?
 answer: Additional risks, transaction fees, and a premium for privacy.
-wrong_answer:
+wrong_answers:
   - Market volatility, double spending risks, and legal compliance.
   - Registration fees, limited options, and longer validation time.
   - Registration fees, strict regulations, and low security.

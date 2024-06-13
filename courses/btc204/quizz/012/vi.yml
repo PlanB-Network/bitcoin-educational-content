@@ -1,6 +1,6 @@
 question: Làm thế nào để ngăn chặn việc chi tiêu gấp đôi trên Bitcoin?
 answer: Thông qua việc phát sóng công khai tất cả các giao dịch của hệ thống.
-wrong_answer:
+wrong_answers:
   - Bằng cách xác minh danh tính của người dùng trước mỗi giao dịch.
   - Bằng cách đánh giá định kỳ các giao dịch bởi các kiểm toán viên.
   - Bằng cách giới hạn số lượng giao dịch cho mỗi người dùng.

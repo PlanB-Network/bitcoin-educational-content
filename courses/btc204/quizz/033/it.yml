@@ -1,6 +1,6 @@
 question: Se osserviamo in una semplice transazione di pagamento che un output ha un importo tondo, quale interpretazione probabile possiamo trarre?
 answer: L'output tondo non è più in possesso dell'utente dell'input.
-wrong_answer:
+wrong_answers:
   - L'output tondo è destinato alle commissioni di transazione.
   - L'output tondo appartiene ancora all'utente dell'input.
   - L'output tondo è un indirizzo di riserva.

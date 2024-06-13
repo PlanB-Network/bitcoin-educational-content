@@ -1,6 +1,6 @@
 question: 入力に単一のUTXO、出力に単一のUTXOを持つパターンの名前は何ですか？
 answer: Sweeping
-wrong_answer:
+wrong_answers:
   - Consolidation
   - Coinjoin
   - Batch spending

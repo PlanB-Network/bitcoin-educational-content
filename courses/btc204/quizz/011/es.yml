@@ -1,6 +1,6 @@
 question: ¿Cuál es la característica más difícil de lograr con una moneda digital como bitcoin?
 answer: La ausencia de doble gasto
-wrong_answer:
+wrong_answers:
   - Integridad
   - Autenticidad
   - Veracidad

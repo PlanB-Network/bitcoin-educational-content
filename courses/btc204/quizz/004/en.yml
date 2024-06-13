@@ -1,6 +1,6 @@
 question: What secures the UTXOs on Bitcoin?
 answer: Through scripts that define the spending conditions.
-wrong_answer:
+wrong_answers:
   - Through periodic verification by miners.
   - Through a centralized database.
   - Through user identity verification.

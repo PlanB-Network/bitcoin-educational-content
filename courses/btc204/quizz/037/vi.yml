@@ -1,6 +1,6 @@
 question: Heuristic Chủ Sở Hữu Đầu Vào Chung (CIOH) bao gồm những gì?
 answer: Khi một giao dịch bao gồm nhiều đầu vào, những đầu vào này có khả năng đều thuộc về một thực thể duy nhất.
-wrong_answer:
+wrong_answers:
   - Khi một giao dịch bao gồm nhiều đầu vào, những đầu vào này có khả năng đến từ các thực thể khác nhau.
   - Khi một giao dịch bao gồm nhiều đầu ra, những đầu ra này có khả năng đều đến một thực thể duy nhất.
   - Khi một giao dịch bao gồm nhiều đầu ra, những đầu ra này có khả năng đều đến các thực thể khác nhau.

@@ -1,6 +1,6 @@
 question: ¿Qué representa el cambio en una transacción?
 answer: Una salida que regresa al remitente original de la transacción.
-wrong_answer:
+wrong_answers:
   - Una comisión tomada por la red de Bitcoin.
   - Una salida transferida al destinatario de la transacción.
   - Un bono otorgado al remitente por transacciones rápidas.

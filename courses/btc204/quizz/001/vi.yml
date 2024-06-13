@@ -1,6 +1,6 @@
 question: UTXO trên Bitcoin là gì?
 answer: Một phần bitcoin chưa được chi tiêu.
-wrong_answer:
+wrong_answers:
   - Một địa chỉ Bitcoin để nhận tiền.
   - Một loại ví Bitcoin đặc biệt.
   - Một thuật toán mã hóa cho Bitcoin.

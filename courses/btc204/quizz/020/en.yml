@@ -1,6 +1,6 @@
 question: When searching for a pattern, which part of the transaction will we study?
 answer: Its structure
-wrong_answer:
+wrong_answers:
   - Its metadata
   - Its scripts
   - Its signature

@@ -1,6 +1,6 @@
 question: Cơ chế nào được sử dụng bởi các nền tảng ghép đôi trực tuyến ngang hàng (P2P) để giảm thiểu rủi ro bị trộm?
 answer: Một cơ chế escrow.
-wrong_answer:
+wrong_answers:
   - Một thuật toán ghép đôi an toàn.
   - Một cơ chế xác minh email.
   - Một cơ chế xác minh danh tính.

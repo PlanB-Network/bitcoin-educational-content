@@ -1,6 +1,6 @@
 question: O que é identificação de chave?
 answer: A capacidade de associar um aspecto da identidade de um usuário com uma atividade onchain.
-wrong_answer:
+wrong_answers:
   - O processo de atribuir uma chave pública a cada nova transação onchain.
   - A capacidade de rastrear transações onchain através da heurística de propriedade comum dos inputs.
   - O processo pelo qual uma chave pública é derivada de uma chave privada.

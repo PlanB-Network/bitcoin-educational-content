@@ -1,6 +1,6 @@
 question: Quando si cerca un modello, quale parte della transazione studieremo?
 answer: La sua struttura
-wrong_answer:
+wrong_answers:
   - I suoi metadati
   - I suoi script
   - La sua firma

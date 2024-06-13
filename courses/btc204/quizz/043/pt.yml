@@ -1,6 +1,6 @@
 question: Qual é a principal vantagem das trocas online P2P comparadas às transações físicas com dinheiro?
 answer: Menos risco para a segurança pessoal.
-wrong_answer:
+wrong_answers:
   - Menos risco de roubo.
   - Mais privacidade para o comprador.
   - Taxas de transação mais baixas.

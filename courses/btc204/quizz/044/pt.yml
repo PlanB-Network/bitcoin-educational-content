@@ -1,6 +1,6 @@
 question: Qual mecanismo é utilizado por plataformas de matchmaking peer-to-peer (P2P) online para reduzir o risco de roubo?
 answer: Um mecanismo de depósito em garantia.
-wrong_answer:
+wrong_answers:
   - Um algoritmo de correspondência segura.
   - Um mecanismo de verificação de email.
   - Um mecanismo de verificação de identidade.

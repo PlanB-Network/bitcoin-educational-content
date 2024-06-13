@@ -1,6 +1,6 @@
 question: Wofür steht das Akronym UTXO im Englischen?
 answer: Unspent Transaction Output
-wrong_answer:
+wrong_answers:
   - Unified Transaction Output
   - User Transaction Only
   - Utility Token Exchange Option

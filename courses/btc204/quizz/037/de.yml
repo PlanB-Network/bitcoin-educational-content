@@ -1,6 +1,6 @@
 question: Was beinhaltet die Common Input Ownership Heuristic (CIOH)?
 answer: Wenn eine Transaktion mehrere Eingaben umfasst, stammen diese wahrscheinlich alle von einer einzigen Entität.
-wrong_answer:
+wrong_answers:
   - Wenn eine Transaktion mehrere Eingaben umfasst, stammen diese wahrscheinlich alle von verschiedenen Entitäten.
   - Wenn eine Transaktion mehrere Ausgaben umfasst, gehen diese wahrscheinlich alle an eine einzige Entität.
   - Wenn eine Transaktion mehrere Ausgaben umfasst, gehen diese wahrscheinlich alle an verschiedene Entitäten.

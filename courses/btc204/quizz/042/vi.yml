@@ -1,6 +1,6 @@
 question: Trong những rủi ro sau, đâu không phải là rủi ro liên quan đến giao dịch tiền mặt P2P?
 answer: Rủi ro rò rỉ dữ liệu.
-wrong_answer:
+wrong_answers:
   - Rủi ro đối với an toàn cá nhân.
   - Rủi ro bị trộm.
   - Rủi ro pháp lý.

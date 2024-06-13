@@ -1,6 +1,6 @@
 question: Was ist die Aktion einer Bitcoin-Transaktion auf den Eingabe-UTXOs?
 answer: Sie verbraucht sie, um die Ausgaben zu befriedigen.
-wrong_answer:
+wrong_answers:
   - Sie archiviert sie in der Blockchain für zukünftige Referenzen.
   - Sie verschlüsselt sie, um die Transaktion zu sichern.
   - Sie dupliziert sie, um neue UTXOs zu erstellen.

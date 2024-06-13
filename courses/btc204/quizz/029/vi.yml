@@ -1,6 +1,6 @@
 question: Trong số 4 phương pháp mua bitcoin sau đây, phương pháp nào ít phơi bày bạn nhất trước rủi ro bị xác định danh tính?
 answer: Mua trực tiếp bằng tiền mặt qua P2P
-wrong_answer:
+wrong_answers:
   - Mua qua nền tảng được quản lý mà không có KYC
   - Mua qua nền tảng được quản lý có KYC
   - Mua qua PayPal thông qua nền tảng kết nối P2P

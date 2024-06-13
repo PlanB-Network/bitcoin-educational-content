@@ -1,6 +1,6 @@
 question: Se observarmos uma transação com 1 UTXO na entrada e 43 UTXOs nas saídas, que padrão podemos reconhecer?
 answer: Um gasto agrupado
-wrong_answer:
+wrong_answers:
   - Uma consolidação
   - Um pagamento simplificado
   - Uma transação colaborativa

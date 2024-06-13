@@ -1,6 +1,6 @@
 question: ¿Cuál es el nombre del patrón que consiste en una única UTXO de entrada y una única UTXO de salida?
 answer: Barrido
-wrong_answer:
+wrong_answers:
   - Consolidación
   - Coinjoin
   - Gasto por lotes

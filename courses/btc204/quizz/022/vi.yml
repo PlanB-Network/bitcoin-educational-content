@@ -1,6 +1,6 @@
 question: Tên của mẫu gồm một UTXO đầu vào và một UTXO đầu ra là gì?
 answer: Sweeping
-wrong_answer:
+wrong_answers:
   - Consolidation
   - Coinjoin
   - Batch spending

@@ -1,6 +1,6 @@
 question: Qual é o efeito de uma transação Bitcoin nos UTXOs nos outputs?
 answer: Ela os cria usando os UTXOs consumidos nos inputs.
-wrong_answer:
+wrong_answers:
   - Ela os consome para satisfazer os inputs.
   - Ela os criptografa para anonimizar o destinatário.
   - Ela os divide temporariamente para verificação.

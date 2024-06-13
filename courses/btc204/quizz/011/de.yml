@@ -1,6 +1,6 @@
 question: Was ist die schwierigste Eigenschaft, die bei einer digitalen Währung wie Bitcoin erreicht werden muss?
 answer: Die Abwesenheit von Doppelausgaben
-wrong_answer:
+wrong_answers:
   - Integrität
   - Authentizität
   - Wahrhaftigkeit

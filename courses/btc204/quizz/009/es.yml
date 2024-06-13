@@ -1,6 +1,6 @@
 question: ¿Cuáles son los 2 elementos que componen la recompensa por bloque en una transacción coinbase?
 answer: La subvención de bloque y las tasas de transacción.
-wrong_answer:
+wrong_answers:
   - La subvención de bloque y los bonos de velocidad.
   - Los derechos de emisión y los premios de seguridad.
   - Los dividendos de minería y los impuestos de la red.

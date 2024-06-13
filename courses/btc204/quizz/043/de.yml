@@ -1,6 +1,6 @@
 question: Was ist der Hauptvorteil von Online-P2P-Börsen im Vergleich zu physischen Bargeldtransaktionen?
 answer: Geringeres Risiko für die persönliche Sicherheit.
-wrong_answer:
+wrong_answers:
   - Geringeres Diebstahlrisiko.
   - Mehr Privatsphäre für den Käufer.
   - Niedrigere Transaktionsgebühren.

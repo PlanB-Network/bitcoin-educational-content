@@ -1,6 +1,6 @@
 question: ¿Qué mecanismo utilizan las plataformas de emparejamiento entre pares (P2P) en línea para reducir el riesgo de robo?
 answer: Un mecanismo de depósito en garantía.
-wrong_answer:
+wrong_answers:
   - Un algoritmo de emparejamiento seguro.
   - Un mecanismo de verificación de correo electrónico.
   - Un mecanismo de verificación de identidad.

@@ -1,6 +1,6 @@
 question: Welche Heuristiken zur Kettenanalyse werden von Satoshi Nakamoto im Bitcoin-Whitepaper erwähnt? (nur eine Antwort möglich)
 answer: Die CIOH und die Wiederverwendung von Adressen.
-wrong_answer:
+wrong_answers:
   - Clusterbildung nach Signatur und Zeitkorrelation.
   - Zahlungen mit runden Beträgen und der große Ausgang.
   - Volumenanalyse und Skriptähnlichkeiten.

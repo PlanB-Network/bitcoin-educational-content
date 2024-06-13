@@ -1,6 +1,6 @@
 question: Si en una transacción de pago simple se utiliza la misma dirección en una entrada y en una de las 2 salidas, ¿cuál salida probablemente representa el cambio?
 answer: La que tiene la misma dirección que la entrada.
-wrong_answer:
+wrong_answers:
   - La que tiene la dirección más reciente.
   - La que tiene una dirección diferente de la entrada.
   - La que tiene una dirección desconocida.

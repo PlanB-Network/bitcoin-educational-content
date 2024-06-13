@@ -1,6 +1,6 @@
 question: What does the acronym UTXO stand for in English?
 answer: Unspent Transaction Output
-wrong_answer:
+wrong_answers:
   - Unified Transaction Output
   - User Transaction Only
   - Utility Token Exchange Option

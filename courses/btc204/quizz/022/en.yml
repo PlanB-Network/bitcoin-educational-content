@@ -1,6 +1,6 @@
 question: What is the name of the pattern consisting of a single UTXO in input and a single UTXO in output?
 answer: Sweeping
-wrong_answer:
+wrong_answers:
   - Consolidation
   - Coinjoin
   - Batch spending

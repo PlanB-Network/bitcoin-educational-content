@@ -1,6 +1,6 @@
 question: Quali sono le euristiche di analisi della catena menzionate da Satoshi Nakamoto nel White Paper di Bitcoin? (solo una risposta possibile)
 answer: Il CIOH e il riutilizzo degli indirizzi.
-wrong_answer:
+wrong_answers:
   - Raggruppamento per firma e correlazione temporale.
   - Pagamenti con numeri tondi e l'output grande.
   - Analisi del volume e somiglianze negli script.

@@ -1,6 +1,6 @@
 question: Was ist "KYC"?
 answer: Ein Verfahren zur Überprüfung und Aufzeichnung der Identität von Kunden.
-wrong_answer:
+wrong_answers:
   - Ein Kryptographiesystem zur Sicherung finanzieller Transaktionen.
   - Ein Validierungsverfahren für finanzielle Transaktionen.
   - Eine Marketingtechnik zur Analyse des Kundenverhaltens.

@@ -1,6 +1,6 @@
 question: Entre esses riscos, qual não está associado a trocas P2P em dinheiro?
 answer: Risco de vazamento de dados.
-wrong_answer:
+wrong_answers:
   - Risco para a segurança pessoal.
   - Risco de roubo.
   - Risco legal.

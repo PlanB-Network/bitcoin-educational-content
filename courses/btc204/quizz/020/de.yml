@@ -1,6 +1,6 @@
 question: Wenn wir nach einem Muster suchen, welchen Teil der Transaktion werden wir untersuchen?
 answer: Ihre Struktur
-wrong_answer:
+wrong_answers:
   - Ihre Metadaten
   - Ihre Skripte
   - Ihre Signatur

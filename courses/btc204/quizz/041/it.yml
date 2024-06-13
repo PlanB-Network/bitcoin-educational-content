@@ -1,6 +1,6 @@
 question: Qual è il principale svantaggio dei Bancomat (ATM)?
 answer: Spesso le commissioni molto alte.
-wrong_answer:
+wrong_answers:
   - Necessità di una connessione internet veloce.
   - Mancanza di supporto per le valute locali.
   - Sicurezza delle transazioni non garantita.

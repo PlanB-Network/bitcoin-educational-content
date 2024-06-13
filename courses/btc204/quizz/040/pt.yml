@@ -1,6 +1,6 @@
 question: Por que os bitcoins comprados via exchanges P2P costumam ser mais caros do que aqueles adquiridos em plataformas reguladas?
 answer: Riscos adicionais, taxas de transação e um prêmio pela privacidade.
-wrong_answer:
+wrong_answers:
   - Volatilidade do mercado, riscos de gasto duplo e conformidade legal.
   - Taxas de registro, opções limitadas e tempo de validação mais longo.
   - Taxas de registro, regulamentações rigorosas e baixa segurança.

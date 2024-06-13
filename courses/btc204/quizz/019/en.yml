@@ -1,6 +1,6 @@
 question: What are the chain analysis heuristics mentioned by Satoshi Nakamoto in the Bitcoin White Paper? (only one answer possible)
 answer: The CIOH and address reuse.
-wrong_answer:
+wrong_answers:
   - Clustering by signature and time correlation.
   - Round number payments and the large output.
   - Volume analysis and script similarities.

@@ -1,6 +1,6 @@
 question: Mô hình giao dịch nào làm mất hiệu lực việc sử dụng CIOH?
 answer: Giao dịch hợp tác.
-wrong_answer:
+wrong_answers:
   - Thanh toán đơn giản.
   - Hợp nhất.
   - Quét.

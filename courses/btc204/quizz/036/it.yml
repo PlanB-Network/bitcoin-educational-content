@@ -1,6 +1,6 @@
 question: Perché i tipi di script meno comunemente utilizzati potrebbero essere più facilmente identificabili rispetto a quelli ampiamente usati?
 answer: Perché il gruppo di transazioni con lo stesso tipo di script è più piccolo.
-wrong_answer:
+wrong_answers:
   - Perché richiedono più validazioni da parte dei minatori.
   - Perché utilizzano algoritmi di crittografia più deboli.
   - Perché vengono rifiutati più spesso dai nodi della rete Bitcoin.

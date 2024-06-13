@@ -1,6 +1,6 @@
 question: アドレス再利用の発見者は誰ですか？
 answer: Satoshi Nakamoto
-wrong_answer:
+wrong_answers:
   - Vitalik Buterin
   - Hal Finney
   - Gavin Andresen

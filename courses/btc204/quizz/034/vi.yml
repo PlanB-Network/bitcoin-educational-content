@@ -1,6 +1,6 @@
 question: Trong một giao dịch thanh toán đơn giản khi có một đầu vào là 500,000 sats được chia thành một đầu ra là 47,500 sats và đầu ra khác là 451,000 sats, UTXO nào có khả năng là tiền thối?
 answer: Đầu ra 451,000 sats.
-wrong_answer:
+wrong_answers:
   - Đầu ra 500,000 sats.
   - Đầu ra 47,500 sats.
   - Không có cái nào.

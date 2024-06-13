@@ -1,6 +1,6 @@
 question: If we observe in a simple payment transaction that an output has a round amount, what likely interpretation can we draw from it?
 answer: The round output is no longer in possession of the input user.
-wrong_answer:
+wrong_answers:
   - The round output is intended for transaction fees.
   - The round output still belongs to the input user.
   - The round output is a reserve address.

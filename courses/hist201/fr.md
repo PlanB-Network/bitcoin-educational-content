@@ -787,7 +787,7 @@ En particulier, Bitcoin s'inscrit bien dans le mouvement libertarien étasunien,
 
 La deuxième raison est la spéculation. Comme nous l'avons expliqué dans le chapitre précédent, la politique monétaire de Bitcoin constitue l'un de ses arguments de vente principaux. Si la quantité de bitcoins en circulation doit tendre vers une quantité fixe (21 millions d'unités), alors leur prix unitaire pourrait devenir très élevé au fur et à mesure que des gens rejoindront l'économie. C'est notamment cet argument qui convainc Dustin Trammell de se mettre à miner très vite, comme il le confie à Satoshi dans leur correspondance privée :
 
-> « C'est l'une des raisons qui m'ont poussé à démarrer un nœud si rapidement. &nbsp;Mes systèmes ne font pas grand-chose d'autre lorsqu'ils sont inactifs, alors pourquoi ne pas créer des BitCoins ? &nbsp;Et s'ils valent quelque chose un jour ... ? Ce sera un bonus ! »
+> « C'est l'une des raisons qui m'ont poussé à démarrer un nœud si rapidement. &nbsp;Mes systèmes ne font pas grand-chose d'autre lorsqu'ils sont inactifs, alors pourquoi ne pas créer des BitCoins ? &nbsp;Et s'ils valent quelque chose un jour ... ? Ce sera un bonus ! »
 >
 > *original: "Yes, I saw that message and was one of the other reasons I started up a node so quickly. &nbsp;My systems aren't doing much of anything else while idle, so why not create BitCoins? &nbsp;And if they're worth something someday...? Bonus!"*
 
@@ -805,7 +805,7 @@ Parmi les premiers mineurs qui apportent leur puissance de calcul au réseau dur
 
 ![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain](assets/img/ch6/newlibertystandard-coin-avatar.webp)
 
-En octobre 2009, il met en place le premier service de change permettant aux gens de convertir leurs dollars en bitcoins et leurs bitcoins en dollars. Il s'inscrit sur le forum de SourceForge et y annonce l'ouverture de son service. Pour estimer le taux de change, il se fonde sur le coût énergétique qui lui est nécessaire pour obtenir une unité, en prenant en compte le coût de l'électricité à son emplacement et la fréquence de sa production personnelle.
+En octobre 2009, il met en place le premier service de change permettant aux gens de convertir leurs dollars en bitcoins et leurs bitcoins en dollars. Il s'inscrit sur le forum de SourceForge et y annonce l'ouverture de son service. Pour estimer le taux de change, il se fonde sur le coût énergétique qui lui est nécessaire pour obtenir une unité, en prenant en compte le prix de l'électricité à son emplacement et la fréquence de sa production personnelle.
 
 > « Notre taux de change est calculé en divisant 1,00 $ par la quantité moyenne d'électricité nécessaire pour faire fonctionner un ordinateur avec une utilisation du processeur élevée pendant un an, soit 1331,5 kWh, multipliée par le coût résidentiel moyen de l'électricité aux États-Unis pour l'année précédente, soit 0,1136 $, le tout divisé par 12 mois, divisé par le nombre de bitcoins générés par mon ordinateur au cours des 30 derniers jours. »
 >
@@ -925,7 +925,7 @@ Malgré cet enthousiasme à propos de l'accroissement de la puissance de calcul 
 >
 > *original: "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network. &nbsp;It's much easer to get new users up to speed if they don't have to worry about GPU drivers and compatibility. &nbsp;It's nice how anyone with just a CPU can compete fairly equally right now."*
 
-Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur de trouble est Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui vit en floride. Celui-ci découvre Bitcoin en avril 2010. Le 9, il se [procure](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3 300 bitcoins auprès de NLS pour environ 20 $, puis essaie le système en faisant quelques transferts. Le 18, il tente d'engorger le réseau en multipliant les transactions à partir de son [adresse publique](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mais ce dernier tient le coup.
+Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur de trouble est Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui vit en Floride. Celui-ci découvre Bitcoin en avril 2010. Le 9, il se [procure](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3 300 bitcoins auprès de NLS pour environ 20 $, puis essaie le système en faisant quelques transferts. Le 18, il tente d'engorger le réseau en multipliant les transactions à partir de son [adresse publique](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mais ce dernier tient le coup.
 
 ![Photographie de Laszlo Hanyecz avec son fils en mai 2018](assets/img/ch7/laszlo-hanyecz-the-telegraph-2018.webp)
 
@@ -939,7 +939,7 @@ Par la suite, il [adapte](https://bitcointalk.org/index.php?topic=116.msg972#msg
 >
 > (*original: "A big attraction to new users is that anyone with a computer can generate some free coins. When there are 5000 users, that incentive may fade, but for now it's still true. GPUs would prematurely limit the incentive to only those with high end GPU hardware. It's inevitable that GPU compute clusters will eventually hog all the generated coins, but I don't want to hasten that day. (...) I don't mean to sound like a socialist, I don't care if wealth is concentrated, but for now, we get more growth by giving that money to 100% of the people than giving it to 20%. Also, the longer we can delay the GPU arms race, the more mature the OpenCL libraries get, and the more people will have OpenCL compatible video cards."*)
 
-Laszlo ne tient pas vraiment compte de cet avertissement et continue de miner des blocs avec sa carte graphique. Il génère ainsi des dizaines de milliers de bitcoins au cours des mois qui suivent. Toutefois, il faudra attendre le mois de juillet pour voir le minage par GPU se généraliser.
+Laszlo ne tient pas vraiment compte de cet avertissement et continue de miner des blocs avec sa carte graphique. Il génère ainsi des dizaines de milliers de bitcoins au cours des mois qui suivent. Toutefois, il faudra attendre le mois d'octobre pour voir le minage par GPU se généraliser.
 
 ### Les bitcoins de Satoshi (3 mai 2010)
 
@@ -1087,59 +1087,212 @@ La publication est remarquée et près de 500 commentaires sont publiés en quel
 
 La première conséquence de cet afflux est que le prix du bitcoin connaît une hausse fulgurante, en [passant](https://bitcoin.zorinaq.com/price/) de 0,008 $ à 0,08 $ en une semaine, soit une multiplication par 10 !
 
+Un autre effet de l'afflux de personnes provenant de Slashdot est l'accroissement de la puissance de calcul déployée sur le réseau. Beaucoup de personnes lancent le logiciel et produisent des blocs avec leurs processeurs centraux. Entre le 11 et et le 17 juillet, le taux de hachage [passe](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) ainsi de 0,22 GH/s à 2,78 GH/s.
+
 ### La création de Mt. Gox (18 juillet 2010)
 
-**extrait** Parmi les personnes qui découvrent Bitcoin grâce à Slashdot, il y a Jed McCaleb, un entrepreneur et programmeur américain de 35 ans, connu pour avoir cofondé et développé le logiciel de partage de fichiers en pair à pair eDonkey2000 dans les années 2000. Constatant à quel point il est pénible de se procurer du bitcoin contre des dollars, il décide « [sur un coup de tête](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) » de créer une place de marché spécialisée. Pour ce faire, il réutilise un de ses anciens projets mis au point [en 2007](https://gwern.net/doc/bitcoin/2014-mccaleb) : *Magic The Gathering Online eXchange* (MTGOX), un site web qui permettait d'acheter et de vendre des cartes du jeu en ligne Magic: The Gathering Online. Il reprend le même nom de domaine au passage : mtgox.com.
+Parmi les personnes qui découvrent Bitcoin grâce à Slashdot, il y a Jed McCaleb, un entrepreneur et programmeur américain de 35 ans, connu pour avoir cofondé et développé le logiciel de partage de fichiers en pair à pair eDonkey2000 dans les années 2000. Constatant à quel point il est pénible de se procurer du bitcoin contre des dollars, il décide « [sur un coup de tête](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) » de créer une place de marché performante. Pour ce faire, il réutilise un de ses anciens projets mis au point [en 2007](https://gwern.net/doc/bitcoin/2014-mccaleb) : *Magic The Gathering Online eXchange* (MTGOX), un site web qui permettait d'acheter et de vendre des cartes du jeu en ligne *Magic: The Gathering Online*. Il reprend le nom de domaine de ce projet (`mtgox.com`), qui donne son nom à la nouvelle plateforme : Mt. Gox, prononcé « *Mount Gox* ».
 
 ![Photographie de Jed McCaleb en 2013](assets/img/ch8/20130925-JED-MCCALEB-037edit.webp)
 
 Photographie de Jed McCaleb (source : Ariel Zambelich pour [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
-**extrait** Une semaine plus tard, le 18, la plateforme de change Mt. Gox (prononcée « *Mount Gox* ») est lancée et [annoncée](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) officiellement sur le forum par Jed. Grâce à son expertise, il fait en sorte que la plateforme fonctionne comme une place de marché automatisée, à l'instar des bourses en ligne modernes. [D'après Jed McCaleb](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), elle se distingue de Bitcoin Market par le fait qu'elle est « toujours en ligne, automatisée », que « le site est plus rapide et a un hébergement dédié » et que « l'interface est plus agréable ». Par conséquent, Mt. Gox s'impose rapidement comme le moyen principal de se procurer du bitcoin, devenant la référence en ce qui concerne le cotation en dollars.
+Une semaine plus tard, le 18 juillet, Jed McCaleb lance sa plateforme de change et l'[annonce](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) sur le forum. Grâce à son expertise, il fait en sorte que la plateforme fonctionne comme une place de marché automatisée, à l'instar des bourses en ligne modernes. [D'après lui](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), elle se distingue de Bitcoin Market par le fait qu'elle est « toujours en ligne, automatisée », que « le site est plus rapide et a un hébergement dédié » et que « l'interface est plus agréable ». Par conséquent, Mt. Gox s'impose rapidement comme le moyen principal de se procurer du bitcoin, devenant la référence en ce qui concerne le cotation en dollars.
 
 ![Interface de la plateforme Mt. Gox en février 2011](assets/img/ch8/mtgox-screenshot-20110203.webp)
 
 Interface de la plateforme Mt. Gox en février 2011 (source : [archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
-**extrait** Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme pendant un mois. Cela le poussera à ajouter Liberty Reserve comme moyen de paiement pour [rouvrir](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) Mt. Gox. Par la suite, il acceptera également sur demande les tranferts via Paxum, et les virements bancaire en dollars (ACH) et en euros.
+Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme. Un mois plus tard, il [rouvrira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) la plateforme en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les tranferts via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
-### La spécialisation du minage (juil. 2010 -- sept. 2010)
+### L'amélioration du logiciel (juil. 2010 -- août 2010)
 
-Conséquemment à l'annonce sur Slashdot, la puissance de calcul déployée sur le réseau s'accroît considérablement. Entre le 11 et et le 17 juillet, le taux de hachage [passe](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) de 0,22 GH/s à 2,78 GH/s.
+L'afflux d'utilisateurs provenant de Slashdot impose aussi d'améliorer le logiciel. Des vulnérabilités trouvées doivent être corrigées et des nouveautés doivent être intégrées. En l'espace de deux mois, ce ne sont pas moins de 8 sous-versions du logiciel qui sont ainsi publiées.
 
-**extrait** Certains mineurs développent leur propre algorithme de minage par GPU. C'est le cas de ArtForz, un développeur allemand, qui se met à miner le 19 juillet et qui construit au cours du temps la première ferme de minage de Bitcoin, qui sera connue sous le nom d'« ArtFarm ».
-
-Première ferme de minage (Artforz)
-
-https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/
-
-### L'arrivée de développeurs expérimentés (juil. 2010)
-
-Jeff Garzik, tcatm, gmaxwell
-
-### Les difficultés techniques (juil. 2010 -- sept. 2010)
-
-[Courriel](https://mmalmi.github.io/satoshi/#email-210) 18 juillet 2010, à Malmi :
+Satoshi est mis sous pression. Le 18 juillet, il fait part de son désarroi à Martti Malmi en privé, en lui faisant promettre de ne pas changer le service d'hébergement du site web. Il [écrit](https://mmalmi.github.io/satoshi/#email-210) :
 
 « S'il te plaît, promets-moi de ne pas faire de basculement maintenant. &nbsp;La dernière chose dont nous avons besoin, c'est de problèmes de basculement qui s'ajoutent à l'afflux de travail que nous recevons actuellement de slashdot. &nbsp;Je perds la tête tellement il y a de choses à faire. »
 
 (*original: "Please promise me you won't make a switch now. &nbsp;The last thing we need is switchover hassle on top of the slashdot flood of work we've got now. &nbsp;I'm losing my mind there are so many things that need to be done."*)
 
-Vulnérabilités majeures, server/daemon, 1 RETURN, value overflow, ajout du système d'alerte (0.3.2, 17/7), ajout des codes OP_NOP, ajout de la limite de taille des blocs
+- Toutefois, il n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (il est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il peut aussi compter sur l'aide d'autres développeurs qui s'intéressent fortement à la façon dont Bitcoin fonctionne à l'instar de Christian Decker (cdecker). Certains de ces développeurs sont des mineurs qui inspectent le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain article), Nils Schneider (tcatm) ou BlackEye.
+
+L'un de ces développeurs est Jeff Garzik (utilisant le pseudonyme jgarzik sur le forum), un développeur américain, contributeur dans le monde du logiciel libre, notamment pour la distribution Red Hat, et libertarien adepte de l'école autrichienne d'économie. Il découvre Bitcoin avec l'article publié sur Slashdot. Il développe le [Bitcoin Store](https://bitcointalk.org/index.php?topic=957.msg11732#msg11732).
+
+![Jeff Garzik en 2013](assets/img/ch8/jeff-garzik-2013.webp)
+
+Jeff Garzik en 2013 (source : [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
+
+
+
+
+- Le première chose à faire est de rendre le logiciel et le protocole plus sûrs, en envisageant les diverses attaques qui pourraient avoir lieu. Le gain d'utilisation fait en effet craindre à Satoshi et à Gavin qu'une vulnérabilité puisse être exploitée. Le 17 juillet, ils ajoutent ainsi un système de checkpoints (v0.3.2) et le 25, ils ajoutent la notion de travail (v0.3.3). Ils corrigent également plusieurs bugs, dont une vulnérabilité majeur dans l'API.
+
+Le 28 juillet, ArtForz...
+
+
+
+Vulnérabilités majeures. Ajout de la constante `MAX_BLOCK_SIZE` (v0.3.1, 16/7), ajout de checkpoints (v0.3.2, 17/7), ajout de la notion de travail, correction du server/daemon bug (v0.3.3, 25/7), correction du 1 RETURN bug, ajout des codes OP_NOP (v0.3.6, 29/7), message d'avertissement en cas de scission de chaîne (v0.3.8, 3/8).
+
+Le premier incident est la découverte d’une vulnérabilité dans le code de Bitcoin qui rend possible la dépense de bitcoins à partir de n’importe quelle adresse (cette vulnérabilité sera appelée le « 1 RETURN bug » en référence au script nécessaire pour réaliser cette dépense). C’est ArtForz qui en découvre l’existence à la fin du mois de juillet 2010. Au lieu d’exploiter cette faille et de s’emparer de la richesse présente sur le réseau pour la revendre discrètement, il choisit de prévenir Satoshi et Gavin par courriel. Satoshi s’empresse d’inclure la correction dans la mise à jour 0.3.6 et recommande à tous les utilisateurs de mettre à jour leur logiciel. La vulnérabilité n’est pas exploitée et Bitcoin échappe ainsi au pire.
+
+**extrait** ArtForz a également participé au développement du code de Bitcoin. Le 28 juillet, il a ainsi rapporté 2 vulnérabilités à Satoshi Nakamoto et Gavin Andresen : [CVE-2010-5137](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5137) et (enregistrée plus tard sous le doux nom de [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141)). La seconde, aussi connue sous le nom du « 1 RETURN bug », permettait à quiconque de dépenser les bitcoins de son choix grâce à un script spécifique.
+
+- Ajout des codes opération OP_NOP, nonstandardness...
+
+
+- Amélioration de la génération d'unités.
+
+Les mineurs partagent également leurs connaissance pour améliorer, directement ou indirectement, le logiciel principal.
+
+<!--Also in 0.3.6, faster hashing:
+- midstate cache optimisation thanks to tcatm
+- Crypto++ ASM SHA-256 thanks to BlackEye
+Total generating speedup 2.4x faster.-->
+
+tcatm, 30 juillet [publication](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) d'un algorithme optimisant la génération d'unités ; [intégration](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) le 15 août dans le logiciel avec la version 0.3.10
+
+### Le value overflow incident (15 août 2010)
+
+correction du value overflow bug (v0.3.10, 15/8)
+
+**extrait** Le 15 août vers 17 heures, un bloc miné contient une transaction qui crée plus de 184 milliards de bitcoins. Cette création exploite une vulnérabilité de dépassement de mémoire (overflow) dans la représentation des quantités dans Bitcoin. Une heure plus tard, le problème est repéré par Jeff Garzik, un ingénieur américain ayant découvert Bitcoin grâce à Slashdot, qui avertit la communauté sur le forum.
+
+**extrait** La réaction de Satoshi ne se fait pas attendre. Un peu avant minuit, il publie un correctif créant une chaîne alternative ne contenant pas la transaction incriminée. La situation conflictuelle est résolue lorsque la chaîne correcte devient plus longue que l’autre le lendemain à 8 heures 10 du matin. Cet incident perturbe l’activité du réseau pendant 15 heures environ mais le problème est vite résolu grâce à une réactivité forte de la communauté. Suite à cet incident, Satoshi implémente un système d’alerte dans Bitcoin, lui permettant d’avertir tous les nœuds du réseau en cas de problème technique .
+
+ajout du système d'alerte (v0.3.11, 27/8)
+
+
 
 ## Après Slashdot (sept. 2010 -- déc. 2010)
 
+### La première ferme de minage (juil. 2010 -- sept. 2010)
+
+La récompense financière élevée apportée par la hausse du prix et par l'éventualité d'une croissance incite les individus à se spécialiser dans la génération de bitcoins. Le grand mineur de cet période est un développeur allemand se faisant appeler ArtForz, qui a appris l'existence de Bitcoin suite à la présentation de Bitcoin sur Slashdot. Il s'investit rapidement dans le développement du logiciel, et passe beaucoup de temps sur le canal IRC `#bitcoin-dev`.
+
+En particulier, il développe son propre algorithme de minage par GPU avec OpenCL. Il se met à générer des bitcoins le 19 juillet. Peu à peu, il construit une grande ferme de minage, qui sera connue sous le nom d'« ArtFarm », et en vient à contrôler une portion non négligeable de la puissance de calcul du réseau.
+
+Le 25 juillet, dans un fil sondant les utilisateurs sur leur nombre de bitcoins possédés, ArtForz [affirme](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) avoir généré 1 700 bitcoins en 6 jours, ce qui correspond à 4 % du taux de hachage, soit 80 MH/s. Sa ferme [comprend](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) initialement 6 ATI Radeon HD 5770 et lui permet de passer de 76 MH/s le 9 août à environ 450 MH/s le 13.
+
+![Production minière d'ArtForz entre août et octobre 2010](assets/img/ch9/artforz-block-production-aug-oct-2010.webp)
+
+Production minière d'ArtForz entre août et octobre 2010 (source : Blackburn et al., [*Cooperation among an anonymous group protected Bitcoin during failures of decentralization*](https://arxiv.org/pdf/2206.02871), 2022)
+
+Le 2 septembre, le mineur [puddinpop](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957) affirme que ArtForz possède « environ 12 5770 utilisant son client OpenCL » et qu'il a « plus de 1 Ghash/s », lui donnant « 20 % de la capacité de hachage » du réseau. (*original: "ArtForz, on IRC, has like 12 or so 5770s running his own OpenCL client.  The entire network is doing something around 5-6Ghash/s, and he alone has stated that he has over 1Ghash/s."*) Le 23 septembre, ArtForz [déclare](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0) détenir une puissance de calcul de près de 2 GH/s et représente alors encore 20 % de la puissance totale. Le 3 octobre, theymos [affirme](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) que ArtForz « dispose de 20 à 30 % de la puissance de calcul du réseau ».
+
+Toutefois, cette position sera très vite concurrencée par d'autres individus qui se mettront à jour. ArtForz s'éloignera progressivement de l'activité minièe pour se concentrer sur le développement logiciel. En août 2011, il [affirmera](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671) ainsi avoir moins de 1 % de la puissance de calcul du réseau.
+
+### La limite de taille des blocs (sept. 2010 -- oct. 2010)
+
+Ajout de la constante `MAX_BLOCK_SIZE` (v0.3.1, 16/7)
+
+Version 0.3.12, 7/9 : ajout de la limite de taille des blocs
+
+Activation le 12/9.
+
+**extrait** Une limite explicite de 1 mégaoctet (1 Mo) est ajoutée par Satoshi Nakamoto en 2010, sans annonce publique de sa part. Après avoir ajouté au code la constante `MAX_BLOCK_SIZE` le 15 juillet, il programme l'activation de cette contrainte le 7 septembre pour qu'elle soit rendue effective à partir du bloc 79 400. Cela se produit le 12 septembre, date à partir de laquelle tous les mineurs doivent miner des blocs inférieurs à 1 Mo, ce qui représente 7 transactions classiques par seconde et ce qui est alors largement assez pour supporter la faible activité économique de l'époque.
+
+30 septembre : discussion entre theymos, creighto, jgarzik https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748
+
+3 octobre : Jeff Garzik, "How can we sell bitcoin to serious investors, with built-in limitations like the 463 transactions/minute limit?" ([3/10](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107))
+
+Il [publie](https://bitcointalk.org/index.php?topic=1347.msg15121#msg15121) un correctif
+
+**extrait** Dès le 3 octobre 2010, le développeur Jeff Garzik, ayant remarqué l'ajout de cette taille limite des blocs, propose un correctif pour l'élever à 7,168 Mo afin d'« égaler le taux transactionnel moyen de PayPal ». Michael Marquardt, intervenant sous le pseudonyme de theymos, lui répond en disant que « l'application de ce correctif \[le\] rendra incompatible avec les autres clients Bitcoin », message qui est approuvé par Satoshi Nakamoto : « +1 theymos. N'utilisez pas ce correctif, il vous rendra incompatible avec le réseau, à votre propre détriment. Nous pouvons introduire un changement plus tard si nous en avons besoin. »
+
+Réponse de Satoshi, https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366
+
+### La spécialisation du minage (sept. 2010 -- déc. 2010)
+
+Minage par GPU, CUDA, OpenCL
+
+puddinpop, algorithme CUDA [2/9/2010](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940), publication de son algorithme suite à un don de 10 000 BTC de Jeff Garzik [18/9/2010](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)
+
+m0mchil, *OpenCL miner for the masses*, [1/10/2010](https://bitcointalk.org/index.php?topic=1334.msg14875#msg14875)
+
+tcatm, 3 GPU, [3/10/2010](https://bitcointalk.org/index.php?topic=1327.msg15113#msg15113) (Satoshi: "Seriously?" https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)
+
+puddinpop, *RPC Miners (CPU/4way/CUDA/OpenCL)* [24/12/2010](https://bitcointalk.org/index.php?topic=2444.0)
+
+*How to overthrow the GPU Oligarchs*: "pooled generation" https://bitcointalk.org/index.php?topic=1332.0
+
+puddinpop, *Pooled/Remote Mining*, [13/10/2010](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) (appliqué le 1/12 par [doublec](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)), basé sur la puissance de calcul, [conception défectueuse](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015) ?
+
+getwork, première coopérative par slush, [27/11/2010](https://bitcointalk.org/index.php?topic=1976.msg24844#msg24844)
+
+tcatm, cloud mining : https://bitcointalk.org/index.php?topic=1360.0
+
+### Bitcoin à l'international
+
+Pendant l'été (Digital Gold: "late July"), Martti Malmi met en place des sous-forums dédiés aux non-anglophones ([archive](https://web.archive.org/web/20100818203541/http://www.bitcoin.org/smf/))
+
+Développement de la communauté russe... btcex.com, webmoney
+
+30 septembre, article de Lucien Grondin (grondilu) en français sur LinuxFr.org (découvre Bitcoin le 26/9, [enthousiasme](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09/26#l1285544830)) : « [Internet : Connaissez-vous les bitcoins ?](https://linuxfr.org/news/connaissez-vous-les-bitcoins) »
+
+![Internet : Connaissez-vous les bitcoins ?](assets/img/ch9/grondilu-bitcoins-2010.webp)
+
+(source : [archive](https://web.archive.org/web/20110521042522/https://linuxfr.org/news/connaissez-vous-les-bitcoins) de LinuxFr.org)
+
+25 octobre, article de ploum en français sur son blog : https://ploum.net/monnaie-de-geek-monnaie-de-singe/ ; sujet "French" sur le forum : https://bitcointalk.org/index.php?topic=1567.0
+
+Communauté française : grondilu (Lucien Grondin), davout (David François, Bitcoin-Central), MagicalTux (Mark Karpelès), jluc (inscrit le 23/12, création de [bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le même jour, premier article le 28/12)
+
+[deadalnix](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/) (Amaury Séchet)
+
+### Autres
+
+Version 0.3.13, 1er octobre 2013
+
+Bitcoinmedia: https://bitcointalk.org/index.php?topic=1355
+
 nanotube, IRC #bitcoin-otc (Freenode), 18 octobre 2010 : https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508
 
-Prix à 30 ¢
+Bitcoinwatch, jgarzik : https://bitcointalk.org/index.php?topic=1593.msg18908#msg18908
 
-Novembre : première coopérative (slush)
+Bitcoincharts.com, tcatm : https://bitcointalk.org/index.php?topic=1659.0 https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/
+
+29/10, offline key generation: https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131
+
+1er novembre, logo par bitboy : https://bitcointalk.org/index.php?topic=1631.0
+
+Le 6 novembre, le prix du bitcoin atteint les 50 ¢. https://bitcointalk.org/index.php?topic=1681.0 (octobre, rally in bitcoin : https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)
+
+Explorateur de blocs par theymos, [10/11/2010](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) ([archive](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))
+
+
+
+
+
+### Le retour de Hal Finney (nov. 2010 -- déc. 2010)
+
+Entretemps, Hal Finney a appris qu'il était atteint de la maladie de Charcot, [diagnostic](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) qui tombe en août 2009. Il adapte sa manière de vivre en conséquence, mais sa motricité se réduit progressivement.
+
+Le 30 novembre, il s'inscrit sur le forum et commence à participer aux discussions, notamment celle concernant le projet BitDNS.
+
+Il étudie le code à nouveau et s'aperçoit de tout le travail qui a été fait depuis le lancement. Le 11 décembre, il [écrit](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) :
+
+> « Il me semble qu'il s'agit d'un travail impressionnant, même si j'aimerais avoir plus de commentaires. J'ai surtout étudié les modules init, main, script et un peu de net. C'est une machine puissante. »
+>
+> *original: "To me it looks like an impressive job, although I'd wish for more comments. Now I've mostly studied the init, main, script and a bit of net modules. This is some powerful machinery."*
+
+Ce à quoi Satoshi [répond](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259), deux heures plus tard, dans ce qui sera son antépénultième message sur le forum :
+
+> « Ça me touche beaucoup venant de toi, Hal. &nbsp;Merci. »
+>
+> *original: "That means a lot coming from you, Hal. &nbsp;Thanks."*
+
+### Un moment crucial
+
+À la fin de l'année 2010, il semble donc que Bitcoin est prêt à voler de ses propres ailes.
 
 ## La disparition de Satoshi (déc. 2010 -- avr. 2011)
 
 ### L'affaire WikiLeaks (oct. 2010 -- déc. 2010)
 
-Amir Taaki, PayPal, blocus financier, Wladimir van der Laan, Robert Horning
+Amir Taaki (genjix), [joueur de poker](https://bitcointalk.org/index.php?topic=1487.0)
+
+PayPal, blocus financier, Wladimir van der Laan, Robert Horning
 
 ### Le retrait progressif de Satoshi (déc. 2010)
 
@@ -1176,6 +1329,8 @@ Début mai, il écrit à Martti Malmi :
 ### Le développement communautaire
 
 Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, première conférence à New York, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110623010047/http://bitcoin.sourceforge.net/?page_id=8)
+
+gmaxwell
 
 ### Les portefeuilles SPV (mars 2011)
 

@@ -616,7 +616,7 @@ The interest in mutually following each other is quite simple: to provide each o
 ####
 In parallel, it is also possible to **offer meet-up organizers and those who have created a community the opportunity to meet at a predefined time during physical events**. This can allow for a discussion on everyone's feelings, talk about the evolution of the present communities, share ideas for projects that have been successful; but also, to offer each other solutions when necessary. A written report can then be shared after this "meeting" with the organizers of communities in your country who were not present, if desired.
 
-## [Btcmap.org](https://btcmap.org/)
+## BTC Map
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 At this stage, your community is already launched. All that remains is to wait for the arrival of new bitcoiners and interested individuals, with the aim of developing it.

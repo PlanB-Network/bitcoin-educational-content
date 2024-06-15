@@ -590,7 +590,7 @@ L'interesse nel seguire reciprocamente l'uno l'altro è piuttosto semplice: forn
 ####
 Parallelamente, è anche possibile **offrire agli organizzatori di meet-up e a coloro che hanno creato una comunità l'opportunità di incontrarsi in un momento prestabilito durante gli eventi fisici**. Questo può permettere di discutere delle sensazioni di tutti, parlare dell'evoluzione delle comunità presenti, condividere idee per progetti che hanno avuto successo; ma anche, offrirsi soluzioni quando necessario. Un rapporto scritto può poi essere condiviso dopo questo "incontro" con gli organizzatori delle comunità del vostro paese che non erano presenti, se desiderato.
 
-## [Btcmap.org](https://btcmap.org/)
+## BTC Map
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 A questo punto, la vostra comunità è già lanciata. Non resta che attendere l'arrivo di nuovi bitcoiner e interessati, con l'obiettivo di svilupparla.

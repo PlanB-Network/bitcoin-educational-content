@@ -643,7 +643,7 @@ L'intérêt de se suivre mutuellement est toutefois assez simple: s'apporter mut
 ####
 En parallèle, il est également possible de **proposer aux organisateurs de meet-ups et personnes ayant créé une communauté de se retrouver sur un créneau prédéfini, et cela lors des événements physiques**. Cela peut alors permettre de faire un point sur le ressenti de chacun, de discuter de l'évolution des communautés présentes, de partager des idées de projets qui ont aboutis; mais également, de se proposer mutuellement des solutions lorsque cela est nécessaire. Un retour écrit peut alors être, si souhaité, partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
 
-## [Btcmap.org](https://btcmap.org/)
+## BTC Map
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 À ce stade, votre communauté est déjà lancée. Il ne reste plus qu'à attendre l'arrivée de nouveaux bitcoiners et de nouvelles personnes intéressées, dans l'optique de la développer.

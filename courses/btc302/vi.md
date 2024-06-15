@@ -598,7 +598,7 @@ Mối quan tâm trong việc theo dõi lẫn nhau khá đơn giản: để cung 
 ####
 Song song, cũng có thể **cung cấp cơ hội cho các nhà tổ chức gặp gỡ và những người đã tạo ra một cộng đồng có cơ hội gặp nhau vào một thời gian đã định trong các sự kiện trực tiếp**. Điều này có thể cho phép thảo luận về cảm nhận của mọi người, nói về sự phát triển của các cộng đồng hiện tại, chia sẻ ý tưởng cho các dự án đã thành công; nhưng cũng, để cung cấp giải pháp cho nhau khi cần thiết. Sau "cuộc họp" này, một báo cáo viết có thể được chia sẻ với các nhà tổ chức cộng đồng trong nước của bạn không có mặt, nếu mong muốn.
 
-## [Btcmap.org](https://btcmap.org/)
+## BTC Map
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 Ở giai đoạn này, cộng đồng của bạn đã được khởi động. Tất cả những gì còn lại là chờ đợi sự xuất hiện của những người mới tham gia bitcoin và những người quan tâm, với mục tiêu phát triển nó.

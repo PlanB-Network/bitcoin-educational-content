@@ -1,8 +1,8 @@
-otsikko: "Symbioottinen Talous"
-julkaisuvuosi: 2017
-kansi: cover_fr.jpeg
-alkuperäinen: true
-kuvaus: |
+title: "Symbioottinen Talous"
+publication_year: 2017
+cover: cover_fr.jpeg
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

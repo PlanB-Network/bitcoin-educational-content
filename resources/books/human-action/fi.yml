@@ -1,8 +1,8 @@
-otsikko: "Ihmisen Toiminta"
-julkaisuvuosi: 1949
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Ihmisen Toiminta"
+publication_year: 1949
+cover: cover_en.webp
+original: false
+description: |
   Teoksessa "Ihmisen Toiminta" tunnettu itävaltalainen taloustieteilijä Ludwig von Mises tutkii syvällisesti taloudellisen toiminnan taustalla olevaa filosofiaa, korostaen ihmisen valinnan keskeistä roolia ja sen seuraamuksia. Ensimmäisen kerran vuonna 1949 julkaistu tämä 85 luvun magnum opus on säilynyt kestävänä kulmakivenä taloustieteen alalla, arvostettuna sen kattavan ja läpäisevän analyysin ansiosta taloudellisista ilmiöistä.
   
   Mises käyttää praxeologian, ihmisen toiminnan tieteen, käsitettä perustavana lähtökohtana taloudellisen toiminnan leikkaamisessa ja ymmärtämisessä. Hänen kokonaisvaltainen näkökulmansa kattaa ei ainoastaan rahoja siirtoja tai tavaroiden ja palveluiden vaihtoa, vaan myös koko joukon päätöksiä ja toimia, joita yksilöt tekevät taloudellisten ilmiöiden ajamiseksi.
@@ -10,5 +10,5 @@ kuvaus: |
   Kirja purkaa monimutkaisia aiheita, kuten liiketoimintasyklin luonteen ja syyt, markkinat talousjärjestelmänä, tiedon ja epävarmuuden roolin taloudellisessa päätöksenteossa, sekä yrittäjyyden elintärkeän roolin. Lisäksi Mises pohtii hallituksen sekaantumisen seurauksia talouteen, lopulta kannattaen laissez-faire talousjärjestelmää yksilön vapauden ja vaurauden toteuttamiskelpoisimpana polkuna.
   
   "Ihmisen Toiminta" ei ole pelkästään taloustieteen kirja; se on älyllinen matka ihmisen päätöksenteon syvyyksiin ja sen monimutkaiseen suhteeseen yhteiskunnallisten järjestelmien kanssa. Se on pakollinen lukemisto taloustieteilijöille, filosofeille ja kenelle tahansa, joka on kiinnostunut syvemmän ymmärryksen saavuttamisesta ympäröivän taloudellisen maailman mekanismeista. Sen oivaltavat havainnot jatkavat kaikumaan, tehden siitä klassikon, joka kestää ajan testin.
-avustajat:
+contributors:
   - rabbit-hole

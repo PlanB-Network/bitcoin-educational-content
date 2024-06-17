@@ -1,8 +1,8 @@
-otsikko: "Myyin sieluni bitcoineissa"
-julkaisuvuosi: 2014
-kansi: cover_fr.jpeg
-alkuperäinen: true
-kuvaus: |
+title: "Myyin sieluni bitcoineissa"
+publication_year: 2014
+cover: cover_fr.jpeg
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

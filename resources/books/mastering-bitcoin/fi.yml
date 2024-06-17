@@ -1,8 +1,8 @@
-otsikko: "Bitcoinin hallinta"
-julkaisuvuosi: 2014
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Bitcoinin hallinta"
+publication_year: 2014
+cover: cover_en.webp
+original: false
+description: |
   "Bitcoinin hallinta" kirjoittanut Andreas Antonopoulos on keskitason kirja, joka tarjoaa kattavan ymmärryksen Bitcoinin taustalla olevasta teknologiasta ja siitä, miten se toimii. Se kattaa laajan valikoiman aiheita liittyen Bitcoiniin, mukaan lukien sen historia, kryptografia, transaktiot, louhinta ja Bitcoin-verkko. Kirja käsittelee myös edistyneitä aiheita, kuten älykkäät sopimukset ja Lightning-verkko. Tämä kirja on erinomainen resurssi kehittäjille ja teknisesti suuntautuneille henkilöille, jotka haluavat saada syvällisemmän ymmärryksen Bitcoinista ja sen taustalla olevasta teknologiasta.
-avustajat:
+contributors:
   - rabbit-hole

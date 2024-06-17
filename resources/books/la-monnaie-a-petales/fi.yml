@@ -1,8 +1,8 @@
-otsikko: "Kukkiva Valuutta"
-julkaisuvuosi: 2017
-kansi: cover_fr.jpeg
-alkuperäinen: true
-kuvaus: |
+title: "Kukkiva Valuutta"
+publication_year: 2017
+cover: cover_fr.jpeg
+original: false
+description: |
   
-avustajat:
+contributors:
   - jäniksenkolo

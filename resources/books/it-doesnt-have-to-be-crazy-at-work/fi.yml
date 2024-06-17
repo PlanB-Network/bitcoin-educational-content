@@ -1,8 +1,8 @@
-otsikko: "Työn Ei Tarvitse Olla Hullunmyllyä"
-julkaisuvuosi: 2018
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Työn Ei Tarvitse Olla Hullunmyllyä"
+publication_year: 2018
+cover: cover_en.webp
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

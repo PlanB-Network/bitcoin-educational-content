@@ -1,8 +1,8 @@
-otsikko: "Kovaksi Keitetyn Munan Indeksi"
-julkaisuvuosi: 2021
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Kovaksi Keitetyn Munan Indeksi"
+publication_year: 2021
+cover: cover_en.webp
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

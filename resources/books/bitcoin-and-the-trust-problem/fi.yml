@@ -1,9 +1,9 @@
-otsikko: "Bitcoin ja Luottamusongelma: Kuinka bitcoin auttaa korjaamaan luottamuksen maailmaamme"
-julkaisuvuosi: 2023
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Bitcoin ja Luottamusongelma: Kuinka bitcoin auttaa korjaamaan luottamuksen maailmaamme"
+publication_year: 2023
+cover: cover_en.webp
+original: false
+description: |
   Bitcoin ja Luottamusongelma Onko Bitcoinin omaksuminen kiihtynyt Luottamuksen Väärinkäytön seurauksena? Tämä kysymys ei ehkä vaikuta monille tärkeältä, ei edes minulle, kun aloin kirjoittaa tätä pro gradu -tutkielmaani vuonna 2019. Bitcoinia koskeva jatkuva kysymys oli aina läsnä, ehkä siksi, että en ollut vielä varma ympäröivästä maailmasta ja siitä, mitä Bitcoin edustaa, mutta kyseenalaistamatta tämä kirjoitus on oma jäniksenkoloni tarinani. Se on oma tutkimukseni siitä, mikä maailmassa tänä päivänä on vialla, vastaten kysymykseen siitä, miksi Bitcoin on olemassa ja miten se selviytyy. Liity matkalleni paremmin ymmärtääkseni ne vaikutukset, jotka ovat ratkaisevassa roolissa luottamuksen hajoamisessa nykymaailmassamme.
 
-avustajat:
+contributors:
   - rabbit-hole

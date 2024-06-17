@@ -1,8 +1,8 @@
-otsikko: "Bitcoin ja El Salvador: mielenkiintoinen kokeilu"
-julkaisuvuosi: 2021
-kansi: cover_fr.jpeg
-alkuperäinen: true
-kuvaus: |
+title: "Bitcoin ja El Salvador: mielenkiintoinen kokeilu"
+publication_year: 2021
+cover: cover_fr.jpeg
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

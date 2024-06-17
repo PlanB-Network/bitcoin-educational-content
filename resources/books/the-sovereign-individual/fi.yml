@@ -1,8 +1,8 @@
-otsikko: "Suvereeni Yksilö"
-julkaisuvuosi: 1997
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Suvereeni Yksilö"
+publication_year: 1997
+cover: cover_en.webp
+original: false
+description: |
   Suvereeni Yksilö on tietokirja, joka syventyy yksilön suvereniteetin käsitteeseen ja sen mahdolliseen esiinmarssiin digitaalisella aikakaudella, erityisesti internetin ja muiden teknologisten edistysaskelten kontekstissa. Kirja tutkii hajautettujen verkkojen, kryptografian ja digitaalisten valuuttojen vaikutuksia yhteiskuntaan ja yksilön vapauteen, väittäen, että ne johtavat merkittävään hallinnon, talouden ja kulttuurin muutokseen. Se käsittelee myös uudenlaisen eliitin, suvereenin yksilön, mahdollista nousua, joka olisi voimaantunut näiden teknologisten kehityskulkujen kautta ja kykenisi kiertämään perinteisiä valtarakenteita. Kirja on ajatuksia herättävä ja haastava lukukokemus niille, jotka ovat kiinnostuneita Bitcoinin ja digitaalisen aikakauden mahdollisesta vaikutuksesta yhteiskuntaamme ja elämäntapaamme.
-avustajat:
+contributors:
   - rabbit-hole

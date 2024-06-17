@@ -1,8 +1,8 @@
-otsikko: "Bitcoin"
-julkaisuvuosi: 2019
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Bitcoin"
+publication_year: 2019
+cover: cover_en.webp
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

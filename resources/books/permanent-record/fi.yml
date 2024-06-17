@@ -1,8 +1,8 @@
-otsikko: "Ikuinen Rekisteri"
-julkaisuvuosi: 2019
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Ikuinen Rekisteri"
+publication_year: 2019
+cover: cover_en.webp
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

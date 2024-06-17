@@ -1,8 +1,8 @@
-otsikko: "Antroposeenin Orjat"
-julkaisuvuosi: 2019
-kansi: cover_fr.jpeg
-alkuperäinen: true
-kuvaus: |
+title: "Antroposeenin Orjat"
+publication_year: 2019
+cover: cover_fr.jpeg
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

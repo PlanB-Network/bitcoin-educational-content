@@ -1,8 +1,8 @@
-otsikko: "Rahapolitiikan järjestelmät ja inflaation historia: Taloudelliset ja poliittiset suhteet, toinen painos"
-julkaisuvuosi: 2003
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Rahapolitiikan järjestelmät ja inflaation historia: Taloudelliset ja poliittiset suhteet, toinen painos"
+publication_year: 2003
+cover: cover_en.webp
+original: false
+description: |
   
-avustajat:
+contributors:
   - rabbit-hole

@@ -1,8 +1,8 @@
-otsikko: "Tavoite Thune"
-julkaisuvuosi: 2016
-kansi: cover_fr.jpeg
-alkuperäinen: true
-kuvaus: |
+title: "Tavoite Thune"
+publication_year: 2016
+cover: cover_fr.jpeg
+original: false
+description: |
   
-avustajat:
+contributors:
   - jäniksenkolo

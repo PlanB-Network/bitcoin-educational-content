@@ -1,10 +1,10 @@
-otsikko: "Cypherpunks; Vapaus ja Internetin Tulevaisuus"
-julkaisuvuosi: 2012
-kansi: cover_en.webp
-alkuperäinen: true
-kuvaus: |
+title: "Cypherpunks; Vapaus ja Internetin Tulevaisuus"
+publication_year: 2012
+cover: cover_en.webp
+original: false
+description: |
   Teoksessa "Cypherpunks; Vapaus ja Internetin Tulevaisuus" Julian Assange esittelee yhdessä kirjoittajakumppaneidensa Jacob Appelbaumin ja Andy Müller-Maguhnin kanssa syvällisen tutkimuksen cypherpunk-liikkeestä ja sen vaikutuksista digitaaliseen tulevaisuuteemme. Vahvan kryptografian voiman keskiössä kirja kokoaa yhteen joukon vaikutusvaltaisia ajattelijoita ja aktivisteja tutkimaan, johtaako sähköinen viestintä vapautumiseen vai sortoon.
   Assange esittää kriittisiä kysymyksiä teknologiajättien, kuten Facebookin ja Googlen, suorittaman valvonnan laajuudesta, kysyen, edustavatko ne ennennäkemätöntä valvontakonetta, joka jatkuvasti seuraa elämäämme. Lisäksi kirjoittajat syventyvät yhteistyöhön valvonnan kanssa ja tutkivat erilaisten valvonnan muotojen legitimiteettiä, erityisesti suhteessa yhteiskunnallisiin huolenaiheisiin, kuten rahanpesuun, huumeisiin, terrorismiin ja pornografiaan. He pohtivat myös, voiko tietoinen toiminta ja teknologinen taitavuus auttaa meitä vastustamaan ja luomaan maailman, jossa internet edistää vapautta.
   WikiLeaksin ja muiden internet-aktivistien häirinnän sekä lainsäädännöllisten yritysten rajoittaa tiedostonjakoa merkitessä käännekohtaa internetin politiikassa, kirja tarjoaa ajankohtaisen keskustelun kohtaamistamme valinnoista. Se esittää vastakkaisia näkemyksiä – toinen, joka kannattaa heikkojen yksityisyyttä ja voimakkaiden läpinäkyvyyttä, ja toinen, joka edistää hallituksen ja yritysten kontrollia samalla kun se tunkeutuu yksilön yksityisyyteen. Selkeydellä ja tarttuvalla innostuksella Assange ja hänen keskustelukumppaninsa navigoivat tämän ratkaisevan päätöksen ympärillä olevia monimutkaisuuksia, kehottaen lukijoita pohtimaan internetin tulevaisuutta ja vapauksiemme säilyttämistä siinä.
-avustajat:
+contributors:
   - rabbit-hole

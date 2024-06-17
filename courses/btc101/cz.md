@@ -1127,7 +1127,8 @@ Shrnutí, Lightning Network je slibný pokus o nasazení efektivního platebníh
 ### Rychlé shrnutí na plakátu!
 
 ![Alt text](assets/posters/en/20._lightning_network.webp)
-## Případové studie Lightning Network<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+## Případové studie Lightning Network
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 Jak jsme právě viděli, protokol Bitcoinu, ačkoli je revoluční, čelí významným výzvám v oblasti škálovatelnosti, aby mohl zpracovávat všechny naše denní transakce. K řešení těchto problémů bylo v roce 2016 navrženo řešení druhé vrstvy známé jako Lightning Network, které nyní má několik různých implementací, všechny vzájemně interoperabilní:
 

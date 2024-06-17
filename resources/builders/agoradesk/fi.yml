@@ -1,8 +1,8 @@
-kuvaus: |
+description: |
   P2P Bitcoin ja Monero kaupankäyntialusta. Nopea, helppo, yksityinen, vertaisverkkoon perustuva. Käyttäjien voimalla.
 
   Olemme markkinapaikka, jossa käyttäjät voivat ostaa ja myydä kryptovaluuttoja keskenään. Käyttäjiä, jotka tunnetaan kauppiaina, luovat ilmoituksia haluamallaan hinnalla ja maksutavalla, joita he haluavat tarjota.
 
-avustajat:
+contributors:
   - rabbit-hole
   - another-satoshi

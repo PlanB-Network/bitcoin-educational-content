@@ -1,6 +1,6 @@
-kuvaus: |
+description: |
   Fedi luo uuden tavan yhteisöille ja organisaatioille turvata ja käyttää rahojaan ja dataansa Federoituneen käyttöjärjestelmän avulla.
   
   Yhdistämme kaikkein perustavanlaatuisimman ihmisteknologian — yhteisön — vapauden teknologioiden, kuten Bitcoinin, kanssa ihmiskunnan kehittämiseksi.
-avustajat:
+contributors:
   - rabbit-hole

@@ -1,4 +1,4 @@
-kuvaus: |
+description: |
   Breez on innovatiivinen alusta, joka on omistautunut hyödyntämään Bitcoinin voimaa avatakseen maailman vertaisverkkomaksuille yksilöille ja sovelluksille. Breez-mobiilisovelluksen avulla käyttäjät voivat lähettää ja vastaanottaa välittömiä Bitcoin-maksuja, muuttaen taskunsa ei-huoltajavaltuutetuksi Lightning-solmuksi.
   
   Alusta sisältää myös Podcasting 2.0 -soittimen satsien ja ideoiden suoratoistoon sekä Point-of-Sale-järjestelmän, joka hyväksyy Lightning-maksut ilman KYC-vaatimuksia. Breez toimii myös Lightning-palveluntarjoajana, tarjoten likviditeettiä ja verkkoyhteyksiä.

@@ -1,4 +1,4 @@
-kuvaus: |
+description: |
   Galoy tarjoaa avoimen lähdekoodin ydinpankkialustan, joka on suunniteltu käynnistämään yritystason Bitcoin- ja Lightning-sovelluksia. Se mahdollistaa Bitcoin-pankkiratkaisujen nopeutetun kehittämisen joko itse isännöidyn infrastruktuurin tai hallinnoidun "Banking-as-a-Service" toteutuksen kautta.
   
   Alusta mahdollistaa organisaatioille Bitcoin-yhteisöpankin käynnistämisen jaetun hallinnan mallilla ja helppokäyttöisen Lightning-lompakon avulla. Kyseessä on sama teknologia, joka auttoi Bitcoin Beachia rakentamaan kiertotalouden. Tätä todistetusti toimivaa infrastruktuuria voivat käyttää myös hallitukset tarjotakseen 2000-luvun rahoituspalveluita kenelle tahansa, jolla on matkapuhelin ja internet-yhteys.

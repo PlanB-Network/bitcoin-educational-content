@@ -1,6 +1,6 @@
 question: Kỹ thuật nào giúp bảo vệ chống lại rủi ro bị theo dõi do KYC gây ra?
 answer: Giao dịch Coinjoin
-wrong_answer:
+wrong_answers:
   - Sử dụng VPN
   - Sử dụng một full node
   - Xác thực qua proof of work

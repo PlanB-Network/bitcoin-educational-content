@@ -1,6 +1,6 @@
 question: Was ist das Datenschutzmodell des Bitcoin-Systems?
 answer: Transaktionen sind öffentlich, aber die Identität der Nutzer ist nicht bekannt.
-wrong_answer:
+wrong_answers:
   - Nur Satoshi Nakamoto hat Zugang zu den Transaktionsdetails.
   - Transaktionen sind verschlüsselt und im Netzwerk unsichtbar.
   - Nur Regierungen haben Zugang zu den Transaktionsdetails.

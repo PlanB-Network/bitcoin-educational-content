@@ -1,6 +1,6 @@
 question: Quais são as heurísticas de análise de cadeia mencionadas por Satoshi Nakamoto no White Paper do Bitcoin? (apenas uma resposta possível)
 answer: O CIOH e a reutilização de endereços.
-wrong_answer:
+wrong_answers:
   - Agrupamento por assinatura e correlação temporal.
   - Pagamentos de números redondos e a grande saída.
   - Análise de volume e semelhanças de script.

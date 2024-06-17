@@ -1,6 +1,6 @@
 question: Unter diesen Antworten, welche gehört nicht zu den 3 Hauptgefahren für den Benutzer, der eine KYC-Überprüfung durchläuft?
 answer: Die Nicht-Fungibilität gekaufter Bitcoins
-wrong_answer:
+wrong_answers:
   - Exposition gegenüber staatlicher Überwachung
   - Erleichterung der Onchain-Nachverfolgung
   - Das Risiko eines Datenlecks

@@ -1,6 +1,6 @@
 question: Entre estos riesgos, ¿cuál no está asociado con los intercambios de efectivo P2P?
 answer: Riesgo de fuga de datos.
-wrong_answer:
+wrong_answers:
   - Riesgo para la seguridad personal.
   - Riesgo de robo.
   - Riesgo legal.

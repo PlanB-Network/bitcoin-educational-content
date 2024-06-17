@@ -1,6 +1,6 @@
 question: Khi tìm kiếm một mẫu, chúng ta sẽ nghiên cứu phần nào của giao dịch?
 answer: Cấu trúc của nó
-wrong_answer:
+wrong_answers:
   - Metadata của nó
   - Scripts của nó
   - Chữ ký của nó

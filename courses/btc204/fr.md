@@ -8,7 +8,6 @@ objectives:
   - Comprendre les méthodes de l'analyse de chaîne et développer des stratégies de défense
 ---
 # Protégez votre vie privée sur Bitcoin
-<partId>e38eb3ad-9b51-42b8-adaf-e6b03e8e3ac4</partId>
 
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
@@ -17,6 +16,8 @@ Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse de c
 Cette formation se présente comme un parcours complet et généraliste. Chaque notion technique est abordée dans le détail et appuyée par des schémas explicatifs. Le but est de rendre les connaissances accessibles à tous. BTC204 est donc abordable pour les utilisateurs débutants et intermédiaires. Cette formation offre également une valeur ajoutée aux bitcoiners les plus aguerris, puisque nous approfondissons certains concepts techniques souvent méconnus.
 
 Rejoignez-nous pour transformer votre utilisation de Bitcoin et devenir un utilisateur averti, capable de comprendre les enjeux autour de la confidentialité et de protéger sa vie privée.
+
++++
 
 # Introduction
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>

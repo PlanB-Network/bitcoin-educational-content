@@ -1,6 +1,6 @@
 question: Lợi thế chính của giao dịch trao đổi P2P trực tuyến so với giao dịch tiền mặt trực tiếp là gì?
 answer: Giảm thiểu rủi ro đối với an toàn cá nhân.
-wrong_answer:
+wrong_answers:
   - Giảm thiểu rủi ro bị trộm cắp.
   - Tăng quyền riêng tư cho người mua.
   - Phí giao dịch thấp hơn.

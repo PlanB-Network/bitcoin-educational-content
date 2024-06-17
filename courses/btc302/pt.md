@@ -592,7 +592,7 @@ O interesse em se seguir mutuamente é bastante simples: proporcionar visibilida
 ####
 Paralelamente, também é possível **oferecer aos organizadores de encontros e àqueles que criaram uma comunidade a oportunidade de se encontrar em um horário pré-definido durante eventos físicos**. Isso pode permitir uma discussão sobre os sentimentos de todos, falar sobre a evolução das comunidades presentes, compartilhar ideias para projetos que tiveram sucesso; mas também, oferecer soluções uns aos outros quando necessário. Um relatório escrito pode então ser compartilhado após este "encontro" com os organizadores de comunidades no seu país que não estavam presentes, se desejado.
 
-## [Btcmap.org](https://btcmap.org/)
+## BTC Map
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 Neste estágio, sua comunidade já está lançada. Resta apenas esperar pela chegada de novos bitcoiners e interessados, com o objetivo de desenvolvê-la.

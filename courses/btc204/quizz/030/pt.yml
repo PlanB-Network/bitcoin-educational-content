@@ -1,6 +1,6 @@
 question: Qual é o objetivo das heurísticas de transação interna?
 answer: Identificar a exchange.
-wrong_answer:
+wrong_answers:
   - Identificar transações fraudulentas em tempo real.
   - Identificar padrões de transação.
   - Identificar um cluster pertencente à mesma entidade.

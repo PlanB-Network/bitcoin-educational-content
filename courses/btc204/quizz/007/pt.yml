@@ -1,6 +1,6 @@
 question: O que é um "merge" em uma transação?
 answer: É a ação de consumir múltiplos UTXOs como entradas.
-wrong_answer:
+wrong_answers:
   - É a ação de criar múltiplos UTXOs como saídas.
   - É o ato de combinar múltiplos endereços em um só.
   - É o ato de combinar múltiplos blocos na blockchain.

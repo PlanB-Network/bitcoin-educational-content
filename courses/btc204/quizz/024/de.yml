@@ -1,6 +1,6 @@
 question: Wenn wir eine Transaktion beobachten, die 1 UTXO als Eingabe und 43 UTXOs als Ausgaben hat, welches Muster können wir erkennen?
 answer: Eine gebündelte Ausgabe
-wrong_answer:
+wrong_answers:
   - Eine Konsolidierung
   - Eine vereinfachte Zahlung
   - Eine gemeinschaftliche Transaktion

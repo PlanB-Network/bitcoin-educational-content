@@ -1,6 +1,6 @@
 question: What is the most difficult characteristic to achieve with a digital currency like bitcoin?
 answer: The absence of double spending
-wrong_answer:
+wrong_answers:
   - Integrity
   - Authenticity
   - Veracity

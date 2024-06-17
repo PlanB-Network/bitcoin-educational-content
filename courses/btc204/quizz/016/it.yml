@@ -1,6 +1,6 @@
 question: Tra le risposte, quale rappresenta uno degli obiettivi principali dell'analisi della catena?
 answer: Raggruppare varie attività su Bitcoin per determinare l'unicità dell'utente.
-wrong_answer:
+wrong_answers:
   - Ottimizzare le prestazioni di mining sulla rete.
   - Amministrare la giustizia sul protocollo per far rispettare la legge secondo le giurisdizioni.
   - Aumentare la riservatezza delle transazioni Bitcoin.

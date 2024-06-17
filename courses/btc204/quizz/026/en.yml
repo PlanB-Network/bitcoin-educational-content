@@ -1,6 +1,6 @@
 question: Among these answers, which one is not one of the 3 main risks for the user undergoing KYC?
 answer: The non-fungibility of purchased bitcoins
-wrong_answer:
+wrong_answers:
   - Exposure to state surveillance
   - Facilitation of onchain tracing
   - The risk of data leakage

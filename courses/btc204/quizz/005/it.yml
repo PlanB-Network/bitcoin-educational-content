@@ -1,6 +1,6 @@
 question: Cos'è un input in una transazione?
 answer: Un riferimento a un precedente UTXO non speso.
-wrong_answer:
+wrong_answers:
   - Un segnale di conferma dai minatori.
   - Un nuovo blocco aggiunto alla blockchain.
   - Un codice di verifica per rendere sicura la transazione.

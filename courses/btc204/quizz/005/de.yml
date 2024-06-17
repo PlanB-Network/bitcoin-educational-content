@@ -1,6 +1,6 @@
 question: Was ist eine Eingabe bei einer Transaktion?
 answer: Eine Referenz auf ein zuvor unverbrauchtes UTXO.
-wrong_answer:
+wrong_answers:
   - Ein Bestätigungssignal von den Minern.
   - Ein neuer Block, der zur Blockchain hinzugefügt wird.
   - Ein Verifizierungscode, um die Transaktion zu sichern.

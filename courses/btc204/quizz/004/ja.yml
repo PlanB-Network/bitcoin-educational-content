@@ -1,6 +1,6 @@
 question: BitcoinのUTXOsを保護するものは何ですか？
 answer: 支出条件を定義するスクリプトによってです。
-wrong_answer:
+wrong_answers:
   - マイナーによる定期的な検証を通じて。
   - 中央集権的なデータベースを通じて。
   - ユーザーの身元確認を通じて。

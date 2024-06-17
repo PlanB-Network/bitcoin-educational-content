@@ -1,6 +1,6 @@
 question: ¿Cuál es la principal ventaja de los intercambios P2P en línea comparados con las transacciones físicas en efectivo?
 answer: Menor riesgo para la seguridad personal.
-wrong_answer:
+wrong_answers:
   - Menor riesgo de robo.
   - Mayor privacidad para el comprador.
   - Menores tasas de transacción.

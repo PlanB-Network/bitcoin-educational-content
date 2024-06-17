@@ -593,7 +593,7 @@ Das Interesse, einander zu folgen, ist ganz einfach: sich gegenseitig Sichtbarke
 ####
 Parallel dazu ist es auch möglich, **Meet-up-Organisatoren und denen, die eine Gemeinschaft gegründet haben, die Gelegenheit zu bieten, sich zu einem vordefinierten Zeitpunkt während physischer Veranstaltungen zu treffen**. Dies kann eine Diskussion über jedermanns Empfindungen ermöglichen, über die Entwicklung der gegenwärtigen Gemeinschaften sprechen, Ideen für erfolgreiche Projekte teilen; aber auch, einander Lösungen anzubieten, wenn nötig. Ein schriftlicher Bericht kann dann nach diesem "Treffen" mit den Organisatoren von Gemeinschaften in Ihrem Land, die nicht anwesend waren, geteilt werden, falls gewünscht.
 
-## [Btcmap.org](https://btcmap.org/)
+## BTC Map
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 In diesem Stadium ist Ihre Gemeinschaft bereits gestartet. Es bleibt nur noch, auf die Ankunft neuer Bitcoiner und Interessierter zu warten, mit dem Ziel, sie zu entwickeln.

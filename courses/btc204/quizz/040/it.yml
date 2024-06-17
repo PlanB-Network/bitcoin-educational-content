@@ -1,6 +1,6 @@
 question: Perché i bitcoin acquistati tramite scambi P2P sono spesso più costosi rispetto a quelli comprati su piattaforme regolamentate?
 answer: Rischi aggiuntivi, commissioni di transazione e un premio per la privacy.
-wrong_answer:
+wrong_answers:
   - Volatilità del mercato, rischi di doppia spesa e conformità legale.
   - Tariffe di registrazione, opzioni limitate e tempi di validazione più lunghi.
   - Tariffe di registrazione, regolamentazioni severe e bassa sicurezza.

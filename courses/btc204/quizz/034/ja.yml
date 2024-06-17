@@ -1,6 +1,6 @@
 question: 単純な支払い取引で、500,000 satsが入力され、一方の出力が47,500 sats、もう一方が451,000 satsに分割される場合、どちらのUTXOがお釣りと考えられるでしょうか？
 answer: 451,000 satsの方です。
-wrong_answer:
+wrong_answers:
   - 500,000 satsの方。
   - 47,500 satsの方。
   - どちらも違う。

@@ -1,6 +1,6 @@
 question: Thuật ngữ UTXO viết tắt của cụm từ nào trong tiếng Anh?
 answer: Unspent Transaction Output
-wrong_answer:
+wrong_answers:
   - Unified Transaction Output
   - User Transaction Only
   - Utility Token Exchange Option

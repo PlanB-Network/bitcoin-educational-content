@@ -1,6 +1,6 @@
 question: O que garante a segurança dos UTXOs no Bitcoin?
 answer: Através de scripts que definem as condições de gasto.
-wrong_answer:
+wrong_answers:
   - Através de verificação periódica pelos mineradores.
   - Através de um banco de dados centralizado.
   - Através da verificação de identidade do usuário.

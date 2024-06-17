@@ -1,6 +1,6 @@
 question: Welche 2 Elemente bilden die Blockbelohnung in einer Coinbase-Transaktion?
 answer: Die Blocksubvention und die Transaktionsgebühren.
-wrong_answer:
+wrong_answers:
   - Die Blocksubvention und die Geschwindigkeitsboni.
   - Die Emissionsrechte und die Sicherheitsprämien.
   - Die Mining-Dividenden und die Netzwerksteuern.

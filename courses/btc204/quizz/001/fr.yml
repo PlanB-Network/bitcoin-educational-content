@@ -5,5 +5,5 @@ wrong_answers:
   - Un type spécial de portefeuille Bitcoin.
   - Un algorithme de chiffrement pour Bitcoin.
 explanation: |
-Un UTXO est une sortie de transaction pas encore dépensée, c'est donc en quelque sorte un “morceau de bitcoin”.
+  Un UTXO est une sortie de transaction pas encore dépensée, c'est donc en quelque sorte un “morceau de bitcoin”.
 reviewed: false

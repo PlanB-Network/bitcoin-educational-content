@@ -1,6 +1,6 @@
 question: Entre estas respuestas, ¿cuál no es uno de los 3 principales riesgos para el usuario al someterse a KYC?
 answer: La no fungibilidad de los bitcoins comprados
-wrong_answer:
+wrong_answers:
   - Exposición a la vigilancia estatal
   - Facilitación del rastreo en cadena
   - El riesgo de fuga de datos

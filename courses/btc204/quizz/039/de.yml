@@ -1,6 +1,6 @@
 question: Warum wird davon abgeraten, Empfangsadressen in sozialen Medien zu posten?
 answer: Weil sie verwendet werden können, um Onchain-Aktivitäten mit einer realen Identität zu verknüpfen.
-wrong_answer:
+wrong_answers:
   - Weil sie leicht von bösartigen Hackern gehackt werden können.
   - Weil sie betrügerische Angebote anziehen und Sie Phishing-Kampagnen aussetzen könnten.
   - Weil sie die Anwendung der Heuristik des gemeinsamen Eingentumsbesitzes ermöglichen können.

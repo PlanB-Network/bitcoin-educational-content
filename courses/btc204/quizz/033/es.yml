@@ -1,6 +1,6 @@
 question: Si observamos en una transacción de pago simple que una salida tiene una cantidad redonda, ¿qué interpretación probable podemos deducir?
 answer: La salida redonda ya no está en posesión del usuario de entrada.
-wrong_answer:
+wrong_answers:
   - La salida redonda está destinada a las comisiones de transacción.
   - La salida redonda todavía pertenece al usuario de entrada.
   - La salida redonda es una dirección de reserva.

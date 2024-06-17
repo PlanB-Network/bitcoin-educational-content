@@ -1,6 +1,6 @@
 question: Was ist der Hauptnachteil von Geldautomaten (ATM)?
 answer: Oft sehr hohe Gebühren.
-wrong_answer:
+wrong_answers:
   - Notwendigkeit einer schnellen Internetverbindung.
   - Mangel an Unterstützung für lokale Währungen.
   - Transaktionssicherheit nicht garantiert.

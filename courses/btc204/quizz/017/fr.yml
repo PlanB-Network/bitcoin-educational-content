@@ -5,5 +5,5 @@ wrong_answers:
   - Un lien d'empreinte.
   - Un marqueur d'analyse.
 explanation: |
-Les comportements et informations qui risquent de lier une identité réelle à une activité on-chain sont appelés des “points d'entrée”.
+  Les comportements et informations qui risquent de lier une identité réelle à une activité on-chain sont appelés des “points d'entrée”.
 reviewed: false

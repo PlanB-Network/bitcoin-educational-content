@@ -1,6 +1,6 @@
 question: Why might less commonly used script types be more easily identifiable than widely used scripts?
 answer: Because the group of transactions with the same script type is smaller.
-wrong_answer:
+wrong_answers:
   - Because they require more validations by miners.
   - Because they use weaker encryption algorithms.
   - Because they are more often rejected by the Bitcoin network nodes.

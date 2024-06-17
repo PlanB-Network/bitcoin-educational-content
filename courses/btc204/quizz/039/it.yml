@@ -1,6 +1,6 @@
 question: Perché si sconsiglia di pubblicare gli indirizzi di ricezione sui social media?
 answer: Perché possono essere utilizzati per collegare le attività onchain a un'identità reale.
-wrong_answer:
+wrong_answers:
   - Perché possono essere facilmente hackerati da hacker malevoli.
   - Perché potrebbero attirare offerte fraudolente ed esporti a campagne di phishing.
   - Perché possono permettere l'applicazione dell'euristica della proprietà comune dell'input.

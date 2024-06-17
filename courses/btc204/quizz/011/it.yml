@@ -1,6 +1,6 @@
 question: Qual è la caratteristica più difficile da ottenere con una valuta digitale come il bitcoin?
 answer: L'assenza di doppia spesa
-wrong_answer:
+wrong_answers:
   - Integrità
   - Autenticità
   - Veridicità

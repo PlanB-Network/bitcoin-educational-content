@@ -1,6 +1,6 @@
 question: ¿Por qué se desaconseja publicar direcciones de recepción en redes sociales?
 answer: Porque pueden utilizarse para vincular actividades onchain con una identidad real.
-wrong_answer:
+wrong_answers:
   - Porque pueden ser fácilmente hackeadas por hackers maliciosos.
   - Porque podrían atraer ofertas fraudulentas y exponerte a campañas de phishing.
   - Porque pueden permitir la aplicación de la heurística de propiedad de entrada común.

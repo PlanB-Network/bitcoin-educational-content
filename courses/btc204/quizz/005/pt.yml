@@ -1,6 +1,6 @@
 question: O que é uma entrada em uma transação?
 answer: Uma referência a um UTXO não gasto anterior.
-wrong_answer:
+wrong_answers:
   - Um sinal de confirmação dos mineradores.
   - Um novo bloco adicionado à blockchain.
   - Um código de verificação para assegurar a transação.

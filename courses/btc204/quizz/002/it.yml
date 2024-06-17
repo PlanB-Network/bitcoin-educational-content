@@ -1,6 +1,6 @@
 question: Qual è l'azione di una transazione Bitcoin sugli UTXO in input?
 answer: Li consuma per soddisfare gli output.
-wrong_answer:
+wrong_answers:
   - Li archivia nella blockchain per riferimenti futuri.
   - Li cripta per rendere sicura la transazione.
   - Li duplica per creare nuovi UTXO.

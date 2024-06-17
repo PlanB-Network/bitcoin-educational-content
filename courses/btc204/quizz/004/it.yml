@@ -1,6 +1,6 @@
 question: Cosa assicura gli UTXO su Bitcoin?
 answer: Attraverso script che definiscono le condizioni di spesa.
-wrong_answer:
+wrong_answers:
   - Attraverso la verifica periodica da parte dei minatori.
   - Attraverso un database centralizzato.
   - Attraverso la verifica dell'identità dell'utente.

@@ -1,6 +1,6 @@
 question: Qual è il principale vantaggio degli scambi P2P online rispetto alle transazioni in contanti fisiche?
 answer: Minore rischio per la sicurezza personale.
-wrong_answer:
+wrong_answers:
   - Minore rischio di furto.
   - Maggiore privacy per l'acquirente.
   - Commissioni di transazione più basse.

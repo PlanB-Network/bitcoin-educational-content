@@ -1,6 +1,6 @@
 question: Quali sono i 2 elementi che costituiscono la ricompensa di blocco in una transazione coinbase?
 answer: Il sussidio di blocco e le commissioni sulle transazioni.
-wrong_answer:
+wrong_answers:
   - Il sussidio di blocco e i bonus di velocità.
   - I diritti di emissione e i premi di sicurezza.
   - I dividendi di mining e le tasse di rete.

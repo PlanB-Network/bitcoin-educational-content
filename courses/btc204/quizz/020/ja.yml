@@ -1,6 +1,6 @@
 question: パターンを検索する際、トランザクションのどの部分を調査しますか？
 answer: その構造
-wrong_answer:
+wrong_answers:
   - そのメタデータ
   - そのスクリプト
   - その署名

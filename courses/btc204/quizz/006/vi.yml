@@ -1,6 +1,6 @@
 question: Trong một giao dịch, thay đổi đại diện cho điều gì?
 answer: Một đầu ra trả lại cho người gửi ban đầu của giao dịch.
-wrong_answer:
+wrong_answers:
   - Một khoản phí do mạng Bitcoin thu.
   - Một đầu ra chuyển cho người nhận của giao dịch.
   - Một phần thưởng dành cho người gửi vì giao dịch nhanh.

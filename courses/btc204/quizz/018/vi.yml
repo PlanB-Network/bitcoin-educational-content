@@ -1,6 +1,6 @@
 question: Trong các câu trả lời sau, đâu không phải là một trong ba loại chính về phương pháp và đặc điểm được sử dụng trong phân tích chuỗi?
 answer: Mô hình mật mã.
-wrong_answer:
+wrong_answers:
   - Mô hình giao dịch.
   - Heuristics giao dịch nội bộ.
   - Heuristics giao dịch bên ngoài.

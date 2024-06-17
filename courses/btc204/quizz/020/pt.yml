@@ -1,6 +1,6 @@
 question: Ao buscar por um padrão, qual parte da transação estudaremos?
 answer: Sua estrutura
-wrong_answer:
+wrong_answers:
   - Seus metadados
   - Seus scripts
   - Sua assinatura

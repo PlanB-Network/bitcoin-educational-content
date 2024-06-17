@@ -1,6 +1,6 @@
 question: Quale tecnica aiuta a proteggere dal rischio di tracciamento indotto dal KYC?
 answer: Transazioni Coinjoin
-wrong_answer:
+wrong_answers:
   - L'uso di VPN
   - L'uso di un nodo completo
   - Validazione tramite proof of work

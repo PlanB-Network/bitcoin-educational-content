@@ -1,6 +1,6 @@
 question: これらのリスクの中で、現金P2P取引に関連しないものはどれですか？
 answer: データ漏洩のリスク。
-wrong_answer:
+wrong_answers:
   - 個人の安全へのリスク。
   - 盗難のリスク。
   - 法的リスク。

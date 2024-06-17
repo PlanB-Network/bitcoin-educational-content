@@ -1,6 +1,6 @@
 question: ビットコインのようなデジタル通貨で達成するのが最も難しい特性は何ですか？
 answer: 二重支払いの不在
-wrong_answer:
+wrong_answers:
   - 完全性
   - 信頼性
   - 真実性

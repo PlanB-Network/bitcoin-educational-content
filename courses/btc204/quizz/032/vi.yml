@@ -1,6 +1,6 @@
 question: Nếu trong một giao dịch thanh toán đơn giản, người ta quan sát thấy cùng một loại kịch bản được sử dụng trong đầu vào và chỉ trên một trong hai đầu ra, đầu ra nào có khả năng đại diện cho tiền thối?
 answer: Đầu ra có cùng loại kịch bản với đầu vào.
-wrong_answer:
+wrong_answers:
   - Đầu ra có loại kịch bản mới nhất.
   - Đầu ra có loại kịch bản khác với đầu vào.
   - Đầu ra có loại kịch bản không chuẩn.

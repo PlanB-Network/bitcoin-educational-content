@@ -1,6 +1,6 @@
 question: What is the term for information that links a bundle of on-chain activities to a form of real identity?
 answer: An entry point.
-wrong_answer:
+wrong_answers:
   - A linkage key.
   - A fingerprint link.
   - An analysis marker.

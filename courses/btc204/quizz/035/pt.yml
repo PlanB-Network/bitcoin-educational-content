@@ -1,6 +1,6 @@
 question: Quem descobriu a heurística do reuso de endereços?
 answer: Satoshi Nakamoto
-wrong_answer:
+wrong_answers:
   - Vitalik Buterin
   - Hal Finney
   - Gavin Andresen

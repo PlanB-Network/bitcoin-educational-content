@@ -1,6 +1,6 @@
 question: Qual è lo schema di un pagamento semplificato in Bitcoin?
 answer: 1 o più UTXO in ingresso e 2 UTXO in uscita.
-wrong_answer:
+wrong_answers:
   - 1 UTXO in ingresso e 1 UTXO in uscita
   - Diversi UTXO in ingresso e 1 UTXO in uscita
   - 5 UTXO in ingresso e 5 UTXO in uscita

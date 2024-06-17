@@ -1,6 +1,6 @@
 question: ¿Cuál es el efecto de una transacción de Bitcoin en los UTXOs en las salidas?
 answer: Los crea utilizando los UTXOs consumidos en las entradas.
-wrong_answer:
+wrong_answers:
   - Los consume para satisfacer las entradas.
   - Los encripta para anonimizar al destinatario.
   - Los divide temporalmente para la verificación.

@@ -1,6 +1,6 @@
 question: Welcher Mechanismus wird von Online Peer-to-Peer (P2P) Matchmaking-Plattformen verwendet, um das Diebstahlrisiko zu verringern?
 answer: Ein Treuhandmechanismus.
-wrong_answer:
+wrong_answers:
   - Ein sicherer Matching-Algorithmus.
   - Ein E-Mail-Verifizierungsmechanismus.
   - Ein Identitätsverifizierungsmechanismus.

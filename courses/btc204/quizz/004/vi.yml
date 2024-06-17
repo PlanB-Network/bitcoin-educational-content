@@ -1,6 +1,6 @@
 question: Điều gì bảo đảm an toàn cho UTXOs trên Bitcoin?
 answer: Qua các script định nghĩa điều kiện chi tiêu.
-wrong_answer:
+wrong_answers:
   - Qua việc xác minh định kỳ bởi các thợ mỏ.
   - Qua một cơ sở dữ liệu tập trung.
   - Qua việc xác minh danh tính người dùng.

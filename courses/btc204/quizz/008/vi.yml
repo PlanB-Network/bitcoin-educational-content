@@ -1,6 +1,6 @@
 question: Nếu một giao dịch có 2 UTXO với mỗi UTXO là 5,000 sats làm đầu vào và 3 UTXO với mỗi UTXO là 3,000 sats làm đầu ra, phí giao dịch là bao nhiêu?
 answer: 1,000 sats
-wrong_answer:
+wrong_answers:
   - 1,500 sats
   - 2,500 sats
   - 3,000 sats

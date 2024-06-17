@@ -1,6 +1,6 @@
 question: Was sind die 3 Hauptschritte einer Blockchain-Analyse?
 answer: Beobachtung der Blockchain, Identifizierung von Merkmalen und Ableitung von Hypothesen.
-wrong_answer:
+wrong_answers:
   - Datensammlung, sichere Speicherung und Berichterstattung.
   - Identifizierung von Nutzern, Regulierung von Börsen und Schutz vor Betrug.
   - Datensammlung, zufällige Auswahl und Denunziation.

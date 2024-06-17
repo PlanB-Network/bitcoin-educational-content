@@ -1,6 +1,6 @@
 question: Su una moneta, quali sono i 3 criteri fondamentali che permettono a una persona di assicurarsi di poterla spendere in seguito?
 answer: La moneta deve essere integra, autentica e non deve essere spesa due volte.
-wrong_answer:
+wrong_answers:
   - La moneta deve essere antica, rara e in buone condizioni.
   - La moneta deve essere universalmente accettata, legale e conservata in banca.
   - La moneta deve essere approvata dallo stato, registrata e durevole.

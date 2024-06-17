@@ -1,6 +1,6 @@
 question: If we observe a transaction with 1 UTXO in input and 43 UTXOs in outputs, what pattern can we recognize?
 answer: A batched spend
-wrong_answer:
+wrong_answers:
   - A consolidation
   - A simplified payment
   - A collaborative transaction

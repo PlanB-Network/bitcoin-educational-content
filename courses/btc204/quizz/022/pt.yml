@@ -1,6 +1,6 @@
 question: Qual é o nome do padrão que consiste em um único UTXO na entrada e um único UTXO na saída?
 answer: Sweeping
-wrong_answer:
+wrong_answers:
   - Consolidação
   - Coinjoin
   - Gasto em lote

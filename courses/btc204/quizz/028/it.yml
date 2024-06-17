@@ -1,6 +1,6 @@
 question: Cos'è l'identificazione chiave?
 answer: La capacità di associare un aspetto dell'identità di un utente con un'attività onchain.
-wrong_answer:
+wrong_answers:
   - Il processo di assegnazione di una chiave pubblica a ogni nuova transazione onchain.
   - La capacità di tracciare le transazioni onchain attraverso l'euristica della proprietà comune degli input.
   - Il processo mediante il quale una chiave pubblica viene derivata da una chiave privata.

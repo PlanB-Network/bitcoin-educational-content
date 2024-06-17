@@ -1,6 +1,6 @@
 question: Tra questi rischi, quale non è associato agli scambi in contanti P2P?
 answer: Rischio di perdita di dati.
-wrong_answer:
+wrong_answers:
   - Rischio per la sicurezza personale.
   - Rischio di furto.
   - Rischio legale.

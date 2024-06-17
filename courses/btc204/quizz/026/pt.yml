@@ -1,6 +1,6 @@
 question: Entre estas respostas, qual delas não é um dos 3 principais riscos para o usuário ao passar pelo KYC?
 answer: A não-fungibilidade dos bitcoins comprados
-wrong_answer:
+wrong_answers:
   - Exposição à vigilância do estado
   - Facilitação do rastreamento onchain
   - O risco de vazamento de dados

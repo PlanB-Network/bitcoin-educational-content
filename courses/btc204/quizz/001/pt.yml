@@ -1,6 +1,6 @@
 question: O que é um UTXO no Bitcoin?
 answer: Um pedaço de bitcoin que ainda não foi gasto.
-wrong_answer:
+wrong_answers:
   - Um endereço Bitcoin para receber fundos.
   - Um tipo especial de carteira Bitcoin.
   - Um algoritmo de criptografia para Bitcoin.

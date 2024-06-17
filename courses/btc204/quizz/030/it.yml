@@ -1,6 +1,6 @@
 question: Qual è l'obiettivo delle euristiche delle transazioni interne?
 answer: Identificare lo scambio.
-wrong_answer:
+wrong_answers:
   - Identificare transazioni fraudolente in tempo reale.
   - Identificare schemi di transazione.
   - Identificare un cluster appartenente alla stessa entità.

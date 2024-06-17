@@ -1,6 +1,6 @@
 question: Which transaction model invalidates the use of CIOH?
 answer: The collaborative transaction.
-wrong_answer:
+wrong_answers:
   - Simple payment.
   - Consolidation.
   - Sweeping.

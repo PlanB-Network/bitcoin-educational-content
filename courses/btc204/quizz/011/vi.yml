@@ -1,6 +1,6 @@
 question: Đặc điểm khó đạt được nhất với một loại tiền tệ số như bitcoin là gì?
 answer: Sự vắng mặt của việc chi tiêu gấp đôi
-wrong_answer:
+wrong_answers:
   - Tính toàn vẹn
   - Tính xác thực
   - Tính chân thực

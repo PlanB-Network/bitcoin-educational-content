@@ -1,0 +1,4 @@
+description: |
+  Oko Satoshi je Lightning watchtower, který je kompatibilní s BOLT13, napsaný v Rustu.
+contributors:
+  - rabbit-hole

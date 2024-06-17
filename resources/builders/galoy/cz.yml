@@ -1,0 +1,10 @@
+description: |
+  Galoy nabízí open-source jádrové bankovní platformy určené pro spuštění podnikových aplikací Bitcoin a Lightning. Umožňuje urychlený vývoj řešení Bitcoin bankovnictví prostřednictvím samo-hostované infrastruktury nebo spravované implementace "Bankovnictví jako služba".
+
+  Platforma umožňuje organizacím spustit Bitcoin komunitní banku s využitím modelu sdílené správy a snadno použitelné Lightning peněženky. Je to stejná technologie, která pomohla Bitcoin Beach vybudovat cirkulární ekonomiku. Tato osvědčená infrastruktura může být také využita vládami k poskytování finančních služeb 21. století komukoli s mobilním telefonem a připojením k internetu.
+
+  Založeno na přesvědčení, že Bitcoin je peníze, Galoy umožňuje organizacím jakékoli velikosti vytvořit vlastní banku založenou na Bitcoinu. Bylo to základem projektu Bitcoin Beach Wallet v El Zonte, El Salvador, který hrál klíčovou roli při vyvíjení udržitelné ekonomiky Bitcoinu a od adopce Bitcoinu jako zákonného platidla v zemi zaznamenal významný růst.
+
+  Galoy je mostem pro organizace, které hledají integraci s Lightning sítí, a majákem pro přispěvatele do open-source, kteří usilují o vybudování lepšího finančního systému.
+contributors:
+  - rabbit-hole

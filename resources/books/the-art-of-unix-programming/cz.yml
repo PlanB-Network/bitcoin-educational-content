@@ -1,0 +1,8 @@
+title: "Umění programování v Unixu"
+publication_year: 2003
+cover: cover_en.webp
+original: true
+description: |
+  Umění programování v Unixu od Erica S. Raymonda je průvodce středně pokročilé úrovně, který prozkoumává filozofii, designové principy a praktické aspekty programování v Unixu. Zabývá se tématy jako je programovací prostředí Unixu, skriptování v shellu, systémová volání a meziprocesová komunikace. S jasnými vysvětleními a příklady kniha ukazuje sílu a flexibilitu Unixu jako programovací platformy, přičemž klade důraz na jednoduchost a modulární design. Diskutuje také o historii a kolaborativní povaze vývoje Unixu. Celkově nabízí cenné vhledy pro vývojáře, kteří chtějí vylepšit své dovednosti v programování v Unixu.
+contributors:
+  - rabbit-hole

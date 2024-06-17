@@ -1021,7 +1021,7 @@ Le printemps 2010 a été une période riche en évènements fondateurs. D'abord
 
 Cependant, à la fin du mois de juin, l'activité demeurait assez modeste sur le réseau. Les nouveaux utilisateurs étaient peu nombreux et la flamme avait tout juste de quoi rester en vie. Le 30 juin, sur la liste de diffusion bitcoin-list, le cypherpunk James A. Donald (qui ne semblait pas avoir suivi les dernières avancées, ni n'avoir connaissance de l'existence du forum) [déclarait](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006) que « Bitcoin \[était\] en quelque sorte mort ». Même s'il avait tort, son commentaire révélait un manque criant de communication : un nombre trop restreint de personnes avait connaissance du projet, et il fallait faire plus d'efforts dans ce sens. Bitcoin avait « besoin d'une écologie d'utilisateurs pour être utile » et cette masse critique n'était pas encore là. Un évènement irait dans ce sens quelques jours plus tard, ce que nous aborderons dans le prochain chapitre.
 
-## Bitcoin prend ! (juil. 2010 -- sept. 2010)
+## Bitcoin prend ! (juil. 2010 -- août 2010)
 
 Dans les chapitres précédents, nous avons observé comment Bitcoin a progressé au niveau du développement informatique, du minage et du commerce. Cette base fébrile a posé les bases pour ce qui allait suivre.
 
@@ -1103,62 +1103,39 @@ Une semaine plus tard, le 18 juillet, Jed McCaleb lance sa plateforme de change 
 
 Interface de la plateforme Mt. Gox en février 2011 (source : [archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
-Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme. Un mois plus tard, il [rouvrira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) la plateforme en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les tranferts via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
+Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme. Un mois plus tard, il [rouvrira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) la plateforme en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les transferts via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
 ### L'amélioration du logiciel (juil. 2010 -- août 2010)
 
-L'afflux d'utilisateurs provenant de Slashdot impose aussi d'améliorer le logiciel. Des vulnérabilités trouvées doivent être corrigées et des nouveautés doivent être intégrées. En l'espace de deux mois, ce ne sont pas moins de 8 sous-versions du logiciel qui sont ainsi publiées.
+L'afflux d'utilisateurs provenant de Slashdot impose aussi d'améliorer le logiciel. Des vulnérabilités trouvées doivent être corrigées et des nouveautés doivent être intégrées. Satoshi est ainsi mis sous pression, et il [confie](https://mmalmi.github.io/satoshi/#email-210) à Martti Malmi en privé le 18 juillet qu'il « perd la tête tellement il y a de choses à faire ». (*original: "I'm losing my mind there are so many things that need to be done."*) En l'espace de deux mois, ce ne sont pas moins de 8 sous-versions du logiciel qui sont ainsi publiées.
 
-Satoshi est mis sous pression. Le 18 juillet, il fait part de son désarroi à Martti Malmi en privé, en lui faisant promettre de ne pas changer le service d'hébergement du site web. Il [écrit](https://mmalmi.github.io/satoshi/#email-210) :
+Toutefois, le créateur de Bitcoin n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (ce dernier est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il y a aussi les personnes qui sont curieuses de la façon dont fonctionne le système et qui signalent lorsqu'elles rencontrent un problème, à l'instar de Christian Decker (cdecker) ou de Michael Marquardt (theymos). Satoshi est également épaulé par les mineurs, qui modifient le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain article), Nils Schneider (tcatm) ou BlackEye.
 
-« S'il te plaît, promets-moi de ne pas faire de basculement maintenant. &nbsp;La dernière chose dont nous avons besoin, c'est de problèmes de basculement qui s'ajoutent à l'afflux de travail que nous recevons actuellement de slashdot. &nbsp;Je perds la tête tellement il y a de choses à faire. »
-
-(*original: "Please promise me you won't make a switch now. &nbsp;The last thing we need is switchover hassle on top of the slashdot flood of work we've got now. &nbsp;I'm losing my mind there are so many things that need to be done."*)
-
-- Toutefois, il n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (il est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il peut aussi compter sur l'aide d'autres développeurs qui s'intéressent fortement à la façon dont Bitcoin fonctionne à l'instar de Christian Decker (cdecker). Certains de ces développeurs sont des mineurs qui inspectent le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain article), Nils Schneider (tcatm) ou BlackEye.
-
-L'un de ces développeurs est Jeff Garzik (utilisant le pseudonyme jgarzik sur le forum), un développeur américain, contributeur dans le monde du logiciel libre, notamment pour la distribution Red Hat, et libertarien adepte de l'école autrichienne d'économie. Il découvre Bitcoin avec l'article publié sur Slashdot. Il développe le [Bitcoin Store](https://bitcointalk.org/index.php?topic=957.msg11732#msg11732).
+On peut enfin citer Jeff Garzik (utilisant le pseudonyme jgarzik sur le forum), qui est un développeur américain, contributeur dans le monde du logiciel libre, notamment pour la distribution Red Hat, et libertarien adepte de l'école autrichienne d'économie. Il découvre Bitcoin avec l'article publié sur Slashdot et s'investit presque immédiatement dans Bitcoin.
 
 ![Jeff Garzik en 2013](assets/img/ch8/jeff-garzik-2013.webp)
 
 Jeff Garzik en 2013 (source : [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
+Le premier objectif de Satoshi est de rendre le logiciel et le protocole plus sûrs, pour faire face à l'accroissement de l'utilisation récent. Avec Gavin Andresen, ils envisagent les diverses attaques qui pourraient avoir lieu (notamment les attaques par déni de service) et à corriger les vulnérabilités découvertes. C'est ainsi qu'un système de checkpoints est ajouté le 17 juillet ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), interdisant à la chaîne d'être réécrite avant une certaine date, et que la notion de travail est intégrée le 25 juillet ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)) pour affiner le mécanisme de sélection de la chaîne correcte par les nœuds.
 
+Gavin et Satoshi corrigent également plusieurs bugs. Le principal d'entre eux est le « *1 RETURN bug* », une vulnérabilité dans le système de script qui rend possible la dépense de bitcoins à partir de n'importe quelle adresse grâce à un script spécifique. Cette vulnérabilité est signalée par ArtForz le 28 juillet, qui au lieu d'exploiter la faille et de s'enrichir discrètement, choisit de faire part de sa découverte à Satoshi et à Gavin. Satoshi s'empresse d'inclure la correction dans le logiciel ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) et recommande à tous les utilisateurs de se mettre à niveau. Bitcoin échappe ainsi au pire. Cette vulnérabilité sera plus tard enregistrée au MITRE sous l'identifiant [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141).
 
+Le second objectif est d'améliorer les performances du système, en apportant des modifications au protocole ou en optimisant le fonctionnement du logiciel. C'est dans cette catégorie que rentre l'ajout des codes opération `OP_NOP` au système de script interne, réalisé discrètement par Satoshi le 29 juillet (v0.3.6), avec pour seul [commentaire](https://sourceforge.net/p/bitcoin/code/119/) le mot « expansion ». Ces codes opération sont des instructions muettes qui n'ont aucun effet si elles sont présentes dans un script, mais n'invalident pas la transaction non plus. Par conséquent, on peut modifier le comportement de ces instructions sans rendre les scripts incompatibles avec une ancienne version du protocole, d'où le commentaire de Satoshi. Ces codes opération permettront notamment de procéder à ce qu'on appellera des « *soft forks* » (ou « embranchements convergents » en français) en 2015 et 2016, en transformant les instructions `OP_NOP2` et `OP_NOP3` en `OP_CHECKLOCKTIMEVERIFY` et `OP_CHECKSEQUENCEVERIFY` (respectivement).
 
-- Le première chose à faire est de rendre le logiciel et le protocole plus sûrs, en envisageant les diverses attaques qui pourraient avoir lieu. Le gain d'utilisation fait en effet craindre à Satoshi et à Gavin qu'une vulnérabilité puisse être exploitée. Le 17 juillet, ils ajoutent ainsi un système de checkpoints (v0.3.2) et le 25, ils ajoutent la notion de travail (v0.3.3). Ils corrigent également plusieurs bugs, dont une vulnérabilité majeur dans l'API.
+Les mineurs partagent également leurs découvertes pour améliorer, directement ou indirectement, la génération d'unités avec le logiciel principal. Tout d'abord, l'[optimisation personnelle de Laszlo](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686) est intégrée au logiciel dès le 6 juillet (v0.3.0). Ensuite, la [mise en cache du contexte](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815) pour la fonction de hachage SHA-256 de Nils Schneider et l'[optimisation de son calcul](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774) par BlackEye sont ajoutées au logiciel le 29 juillet (v0.3.6). Enfin, la [parallélisation du calcul sur un seul processeur](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) proposée par Nils Schneider (encore lui) est [intégrée](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) le 15 août dans le code (v0.3.10).
 
-Le 28 juillet, ArtForz...
-
-
-
-Vulnérabilités majeures. Ajout de la constante `MAX_BLOCK_SIZE` (v0.3.1, 16/7), ajout de checkpoints (v0.3.2, 17/7), ajout de la notion de travail, correction du server/daemon bug (v0.3.3, 25/7), correction du 1 RETURN bug, ajout des codes OP_NOP (v0.3.6, 29/7), message d'avertissement en cas de scission de chaîne (v0.3.8, 3/8).
-
-Le premier incident est la découverte d’une vulnérabilité dans le code de Bitcoin qui rend possible la dépense de bitcoins à partir de n’importe quelle adresse (cette vulnérabilité sera appelée le « 1 RETURN bug » en référence au script nécessaire pour réaliser cette dépense). C’est ArtForz qui en découvre l’existence à la fin du mois de juillet 2010. Au lieu d’exploiter cette faille et de s’emparer de la richesse présente sur le réseau pour la revendre discrètement, il choisit de prévenir Satoshi et Gavin par courriel. Satoshi s’empresse d’inclure la correction dans la mise à jour 0.3.6 et recommande à tous les utilisateurs de mettre à jour leur logiciel. La vulnérabilité n’est pas exploitée et Bitcoin échappe ainsi au pire.
-
-**extrait** ArtForz a également participé au développement du code de Bitcoin. Le 28 juillet, il a ainsi rapporté 2 vulnérabilités à Satoshi Nakamoto et Gavin Andresen : [CVE-2010-5137](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5137) et (enregistrée plus tard sous le doux nom de [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141)). La seconde, aussi connue sous le nom du « 1 RETURN bug », permettait à quiconque de dépenser les bitcoins de son choix grâce à un script spécifique.
-
-- Ajout des codes opération OP_NOP, nonstandardness...
-
-
-- Amélioration de la génération d'unités.
-
-Les mineurs partagent également leurs connaissance pour améliorer, directement ou indirectement, le logiciel principal.
-
-<!--Also in 0.3.6, faster hashing:
-- midstate cache optimisation thanks to tcatm
-- Crypto++ ASM SHA-256 thanks to BlackEye
-Total generating speedup 2.4x faster.-->
-
-tcatm, 30 juillet [publication](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) d'un algorithme optimisant la génération d'unités ; [intégration](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) le 15 août dans le logiciel avec la version 0.3.10
+Toutes ces améliorations font que Bitcoin se renforce de jour en jour, tant au point de vue du fonctionnement du logiciel que des performances du minage. Néanmoins, cet élan innovateur est quelque peu terni par un évènement qui marque profondément les esprits : le *value overflow incident*, qui intervient durant la journée du 15 août et qui perturbe le réseau pendant une quinzaine d'heure.
 
 ### Le value overflow incident (15 août 2010)
+
+message d'avertissement en cas de scission de chaîne (v0.3.8, 3/8)
 
 correction du value overflow bug (v0.3.10, 15/8)
 
 **extrait** Le 15 août vers 17 heures, un bloc miné contient une transaction qui crée plus de 184 milliards de bitcoins. Cette création exploite une vulnérabilité de dépassement de mémoire (overflow) dans la représentation des quantités dans Bitcoin. Une heure plus tard, le problème est repéré par Jeff Garzik, un ingénieur américain ayant découvert Bitcoin grâce à Slashdot, qui avertit la communauté sur le forum.
 
-**extrait** La réaction de Satoshi ne se fait pas attendre. Un peu avant minuit, il publie un correctif créant une chaîne alternative ne contenant pas la transaction incriminée. La situation conflictuelle est résolue lorsque la chaîne correcte devient plus longue que l’autre le lendemain à 8 heures 10 du matin. Cet incident perturbe l’activité du réseau pendant 15 heures environ mais le problème est vite résolu grâce à une réactivité forte de la communauté. Suite à cet incident, Satoshi implémente un système d’alerte dans Bitcoin, lui permettant d’avertir tous les nœuds du réseau en cas de problème technique .
+**extrait** La réaction de Satoshi ne se fait pas attendre. Un peu avant minuit, il publie un correctif créant une chaîne alternative ne contenant pas la transaction incriminée. La situation conflictuelle est résolue lorsque la chaîne correcte devient plus longue que l'autre le lendemain à 8 heures 10 du matin. Cet incident perturbe l'activité du réseau pendant 15 heures environ mais le problème est vite résolu grâce à une réactivité forte de la communauté. Suite à cet incident, Satoshi implémente un système d'alerte dans Bitcoin, lui permettant d'avertir tous les nœuds du réseau en cas de problème technique .
 
 ajout du système d'alerte (v0.3.11, 27/8)
 
@@ -1213,6 +1190,8 @@ m0mchil, *OpenCL miner for the masses*, [1/10/2010](https://bitcointalk.org/inde
 tcatm, 3 GPU, [3/10/2010](https://bitcointalk.org/index.php?topic=1327.msg15113#msg15113) (Satoshi: "Seriously?" https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)
 
 puddinpop, *RPC Miners (CPU/4way/CUDA/OpenCL)* [24/12/2010](https://bitcointalk.org/index.php?topic=2444.0)
+
+### La première coopérative de minage (oct. 2010 -- nov. 2010)
 
 *How to overthrow the GPU Oligarchs*: "pooled generation" https://bitcointalk.org/index.php?topic=1332.0
 

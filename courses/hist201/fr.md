@@ -803,7 +803,7 @@ Parmi les premiers mineurs qui apportent leur puissance de calcul au réseau dur
 
 À la fin du mois de septembre 2009, un individu utilisant le pseudonyme NewLibertyStandard (que nous abrègerons en NLS) découvre Bitcoin et se met à miner ([bloc 23 940](https://mempool.space/fr/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)). Il est utilisateur de Linux et passe donc par l'« émulateur » Wine pour faire tourner le logiciel. Il est intéressé par la liberté politique et par les métaux précieux, comme en témoigne son [avatar](https://bitcointalk.org/index.php?action=profile;u=26) sur le forum qui représente un Eagle américain (voir l'image ci-dessous) sur lequel le mot « *liberty* » est inscrit. Il voit ainsi Bitcoin comme un équivalent de l'or dans le monde numérique, qu'il présente comme « une révolution économique » (*original: "An Economic Revolution"*) et comme « la référence de la monnaie numérique ». (*original: "the gold standard of digital currency"*) sur sa [page personnelle](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/).
 
-![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain](assets/img/ch6/newlibertystandard-coin-avatar.webp)
+![Avatar de NewLibertyStandard sur le forum de Bitcoin représentant un Eagle américain](assets/img/ch6/1.webp)
 
 En octobre 2009, il met en place le premier service de change permettant aux gens de convertir leurs dollars en bitcoins et leurs bitcoins en dollars. Il s'inscrit sur le forum de SourceForge et y annonce l'ouverture de son service. Pour estimer le taux de change, il se fonde sur le coût énergétique qui lui est nécessaire pour obtenir une unité, en prenant en compte le prix de l'électricité à son emplacement et la fréquence de sa production personnelle.
 
@@ -813,7 +813,7 @@ En octobre 2009, il met en place le premier service de change permettant aux gen
 
 Voici les taux de change indicatifs du service, [publiés](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate) sur la page personnelle de NLS :
 
-![Taux de change indicatifs du service de NLS](assets/img/ch6/nls-exchange-rates-oct09.webp)
+![Taux de change indicatifs du service de NLS](assets/img/ch6/2.webp)
 
 Les transferts en dollar se font uniquement par Paypal et des frais sont prélevés dans l'opération.
 
@@ -841,7 +841,7 @@ L'effort de coordination se fait sur le forum. Le 27 janvier, un utilisateur uti
 
 Le 5 février, NLS [propose](https://bitcointalk.org/index.php?topic=41.msg238#msg238) que le bitcoin, à l'instar des monnaies échangées sur le marché des changes, adopte le sigle boursier BTC et le symbole du baht thaïlandais (฿). Jusqu'à présent, il n'y avait pas d'usage établi : par exemple, Satoshi et Malmi utilisaient les lettres `bc` pour décrire les unités dans leur [correspondance](https://mmalmi.github.io/satoshi/#email-119). L'utilisation du sigle BTC se normalise rapidement. Le 24 février, le symbole de la monnaie (le B majuscule traversé par deux barres verticales) est [conçu](https://bitcointalk.org/index.php?topic=64.msg504#msg504) par Satoshi, par l'intermédiaire du premier véritable logo de Bitcoin.
 
-![Premier véritable logo de Bitcoin conçu par Satoshi Nakamoto (2010)](assets/img/ch6/bitcoin530.webp)
+![Premier véritable logo de Bitcoin conçu par Satoshi Nakamoto (2010)](assets/img/ch6/3.webp)
 
 Peu à peu, les gens commencent à accepter le bitcoin. C'est le cas de l'utilisateur SmokeTooMuch en décembre 2009, alors qu'il vient d'arriver, qui [signale l'existence](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) d'un service de vente de cartes-cadeaux paysafecard nommé BTC 2 PSC. Le service sera d'ailleurs [mentionné](https://mmalmi.github.io/satoshi/#email-141) positivement par Satoshi le 4 février 2010. C'est également le cas de NLS qui, le 9 février, [ouvre](https://bitcointalk.org/index.php?topic=30.msg305#msg305) son propre magasin en ligne, le *Liberty Swap Variety Shop*, où il propose à la vente des timbres et des autocollants.
 
@@ -851,7 +851,7 @@ Le change avec le dollar se développe aussi et, en l'espace de deux mois, ce ne
 - BitcoinExchange (`bitcoinexchange.com`), la plateforme de Martti Malmi, qui a pour particularité de [jauger](https://mmalmi.github.io/satoshi/#email-25) l'offre et la demande en prenant en compte les euros et les bitcoins déposés par les usagers, et qui est [ouverte au public](https://bitcointalk.org/index.php?topic=68.msg591#msg591) le 2 mars 2010 ;
 - Bitcoin Market (`bitcoinmarket.com`), une place de marché de pair à pair utilisant PayPal qui est [lancée](https://bitcointalk.org/index.php?topic=20.msg726#msg726) par l'utilisateur dwdollar le 16 mars, et qui connaîtra un certain succès avant l'apparition de Mt. Gox en juillet.
 
-![Capture ultérieure de l'interface de Bitcoin Market (26 août 2011)](assets/img/ch6/bitcoinmarket-20110826.webp)
+![Capture ultérieure de l'interface de Bitcoin Market (26 août 2011)](assets/img/ch6/4.webp)
 
 [Capture](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) ultérieure de l'interface de Bitcoin Market (26 août 2011)
 
@@ -861,7 +861,7 @@ D'autres services acceptant le bitcoin apparaissent comme le service de voix sur
 
 On voit également le premier service dépositaire dédié apparaître : il s'agit de MyBitcoin, une application web permettant un usage facile et serein de Bitcoin, notamment sur mobile. Grâce à ce service, les utilisateurs n'ont en effet pas besoin de télécharger les données complètes pour envoyer et recevoir des transactions, ni de conserver leurs bitcoins eux-mêmes en sauvegardant leurs clés privées.
 
-![Logo de MyBitcoin provenant de l'archive du site mybitcoin.com](assets/img/ch6/mybitcoin-logo.webp)
+![Logo de MyBitcoin provenant de l'archive du site mybitcoin.com](assets/img/ch6/5.webp)
 
 À cette époque, les portefeuilles légers (SPV) n'existent pas, si bien que Satoshi Nakamoto lui-même juge qu'il est alors acceptable de passer par ce type de logiciel, même si cette utilisation va à l'encontre du principe de désintermédiation à la base de Bitcoin. Le 18 mai 2010, il [écrit](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) ainsi sur le forum :
 
@@ -917,7 +917,7 @@ Le demande de plus en plus importante pour le bitcoin s'accompagne d'une hausse 
 
 Satoshi Nakamoto est très soucieux de l'augmentation de cette difficulté et maintient un [historique](https://bitcointalk.org/index.php?topic=43.msg249#msg249) sur le forum à partir de février 2010. Voici à quoi cela ressemblait :
 
-![Évolution de la difficulté telle que décrite par Satoshi Nakamoto sur le forum](assets/img/ch7/satoshi-difficulty-adjustment.webp)
+![Évolution de la difficulté telle que décrite par Satoshi Nakamoto sur le forum](assets/img/ch7/1.webp)
 
 Malgré cet enthousiasme à propos de l'accroissement de la puissance de calcul sur le réseau, Satoshi cherche néanmoins à ralentir la spécialisation du minage pour favoriser la distribution des unités. Jusqu'alors, les mineurs sollicitaient leurs processeurs centraux (CPU) pour extraire les nouveaux bitcoins. Néanmoins, ces processeurs s'avèrent peu performants pour effectuer des opérations répétées, comparés aux processeurs graphiques qui sont largement plus adaptées à ce type de calcul répétitif. Par conséquent, tout le monde sait à ce moment-là que cette évolution est inéluctable, y compris Satoshi lui-même. Le 19 décembre 2009, il [déclare](https://bitcointalk.org/index.php?topic=12.msg54#msg54) ainsi :
 
@@ -927,7 +927,7 @@ Malgré cet enthousiasme à propos de l'accroissement de la puissance de calcul 
 
 Cependant, quelques mois plus tard, la boîte de Pandore est ouverte. Le fauteur de trouble est Laszlo Hanyecz, développeur américain d'origine hongroise de 28 ans, qui vit en Floride. Celui-ci découvre Bitcoin en avril 2010. Le 9, il se [procure](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3 300 bitcoins auprès de NLS pour environ 20 $, puis essaie le système en faisant quelques transferts. Le 18, il tente d'engorger le réseau en multipliant les transactions à partir de son [adresse publique](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mais ce dernier tient le coup.
 
-![Photographie de Laszlo Hanyecz avec son fils en mai 2018](assets/img/ch7/laszlo-hanyecz-the-telegraph-2018.webp)
+![Photographie de Laszlo Hanyecz avec son fils en mai 2018](assets/img/ch7/2.webp)
 
 Photographie de Laszlo Hanyecz avec son fils en mai 2018 (source : [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
@@ -945,7 +945,7 @@ Laszlo ne tient pas vraiment compte de cet avertissement et continue de miner de
 
 Cet essor du minage a aussi un effet non négligeable : Satoshi arrête de produire des blocs. Depuis le lancement du réseau, il s'attachait en effet à miner afin d'assurer un rythme de confirmation suffisant et un niveau de sécurité acceptable. Son motif de minage était particulier de sorte qu'il est possible d'identifier les blocs qu'il a probablement trouvé, à quelques faux positifs près. Ce motif sera [mis en lumière](https://bitslog.com/2013/04/17/the-well-deserved-fortune-of-satoshi-nakamoto/) par le développeur Sergio Lerner en 2013 et sera appelé le *Patoshi Pattern*.
 
-![Patoshi Pattern entre les blocs 0 et 50 000](assets/img/ch7/patoshi-pattern-satoshiblocks.webp)
+![Patoshi Pattern entre les blocs 0 et 50 000](assets/img/ch7/3.webp)
 
 Le *Patoshi Pattern* entre les blocs 0 et 50 000 tel qu'on peut l'observer sur le site [satoshiblocks.info](http://satoshiblocks.info/) : chaque point correspond à un bloc, les lignes bleues sont formées des blocs de Satoshi, les autres lignes représentent la production des autres mineurs
 
@@ -953,11 +953,11 @@ D'après une étude de Whale Alert publiée en 2020, Satoshi aurait ainsi miné 
 
 Avec l'augmentation de la puissance de calcul à l'automne 2009, la proportion de la puissance de calcul de Satoshi par rapport à la puissance total du réseau a progressivement chuté. Elle est est passée de 75 % en mars 2009 à 60 % en septembre, pour descendre jusqu'à 15 % en décembre et atteindre les 0 % en mai. Voici ci-dessous un graphe réalisé par [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) en 2014 :
 
-![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch7/organofcorti-satoshi-proportion-2009-2010.webp)
+![Estimation de la proportion de la puissance de calcul de Satoshi par rapport à la puissance totale entre janvier 2009 et juillet 2010](assets/img/ch7/4.webp)
 
 De plus, cette chute de la dominance minière de Satoshi n'a pas été uniquement passive : il a lui-même ralenti sa production sur la même période. En effet, le but affiché de Satoshi était que tout le monde puisse participer : il ne minait pas pour le gain financier, mais pour assurer le fonctionnement le réseau jusqu'à ce que les incitations jouent leur rôle. Ainsi, il a réduit son taux de hachage (le nombre de calculs réalisés chaque seconde) par trois fois au cours de cette période de minage : la première fois de 4,5 à 2,5 MH/s en juin 2009, la deuxième fois de 2,5 à 1 MH/s en octobre, et la troisième fois de 1 MH/s à 0 en mai 2010. Voici un graphique de l'évolution de son taux de hachage durant cette période ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)) :
 
-![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch7/organofcorti-satoshi-hashrate-2009-2010.webp)
+![Estimation du taux de hachage de Satoshi entre janvier 2009 et mai 2010](assets/img/ch7/5.webp)
 
 Le minage de Satoshi était donc résolument altruiste comme le [fera remarquer](https://blog.lopp.net/was-satoshi-a-greedy-miner/) Jameson Lopp. Lorsqu'il s'arrête de miner le 3 mai 2010 (son dernier bloc est le [bloc 54 316](https://blockchair.com/bitcoin/block/54316)), cela constitue un autre accomplissement dans le lent développement de Bitcoin : la prise en charge de la confirmation des transactions par des acteurs économiques.
 
@@ -971,13 +971,13 @@ Le mois de mai 2010 est également marqué par un évènement fondateur : le pr
 
 Cette offre trouve preneur au bout de quatre jours. C'est un jeune Californien du nom de Jeremy Sturdivant qui accepte l'échange sur la messagerie instantanée IRC.
 
-![Photographie de Jeremy Sturdivant en mai 2018](assets/img/ch7/jeremy-sturdivant-the-telegraph-2018.webp)
+![Photographie de Jeremy Sturdivant en mai 2018](assets/img/ch7/6.webp)
 
 Photographie de Jeremy Sturdivant en mai 2018 (source : [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
 Le 22 mai, ce dernier commande deux pizzas de Papa John's qui sont livrées chez Laszlo à Jacksonville en Floride. Il [reçoit](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) en échange 10 000 bitcoins, soit environ 44 $ au cours de Bitcoin Market. Voici une photo de ces deux pizzas, [partagée](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/) par Laszlo lui-même :
 
-![Photo deux pizzas de chez  Papa John's que Jeremy Sturdivant a fait livrer chez Laszlo Hanyecz le 22 mai 2010](assets/img/ch7/IMG_0984.webp)
+![Photo deux pizzas de chez  Papa John's que Jeremy Sturdivant a fait livrer chez Laszlo Hanyecz le 22 mai 2010](assets/img/ch7/7.webp)
 
 Cela clôt le premier achat d'un bien physique en bitcoin, même si celui-ci est indirecte. Laszlo est félicité par [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) qui écrit qu'« une grande étape a été franchie ». [NLS](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) ajoute aussi un commentaire positif.
 
@@ -995,7 +995,7 @@ Néanmoins la hausse du pouvoir d'achat du bitcoin n'enlèvera rien à la symbol
 
 Cette période voit aussi l'arrivée d'un personnage clé de l'histoire de Bitcoin : Gavin Andresen, un développeur de 44 ans né en Australie qui a [acquis](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) la nationalité étasunienne en 2004 et qui vit alors à Amherst dans le Massachusetts. De retour de voyage en Australie et momentanément sans emploi, ce dernier découvre Bitcoin à la fin du mois de mai par l'intermédiaire d'un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld. Cet article présente le projet de Satoshi Nakamoto comme une « innovation open source ».
 
-![Photo de profil de Gavin Andresen de l'époque, prise à Townsville dans le Queensland en Australie](assets/img/ch7/gavin-andresen-townsville.webp)
+![Photo de profil de Gavin Andresen de l'époque, prise à Townsville dans le Queensland en Australie](assets/img/ch7/8.webp)
 
 Photo de profil de Gavin Andresen de l'époque, prise à Townsville dans le Queensland en Australie (source : [archive de CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/), 2011)
 

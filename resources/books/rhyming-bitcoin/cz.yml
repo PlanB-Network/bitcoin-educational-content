@@ -1,8 +1,8 @@
-titul: "Rýmující se Bitcoin"
-rok_vydání: 2019
-obálka: cover_en.webp
-originál: true
+title: "Rhyming Bitcoin"
+publication_year: 2019
+cover: cover_en.webp
+original: true
 description: |
   
 contributors:
-  - králičí_nora
+  - rabbit-hole

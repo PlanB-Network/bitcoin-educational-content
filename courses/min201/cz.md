@@ -146,6 +146,7 @@ Otevření zdrojového kódu těžebního softwaru
 Obecný závěr je, že decentralizace je klíčová pro bezpečnost a odolnost Bitcoinové sítě. Ačkoliv centralizace může nabídnout výhody v efektivitě, vystavuje síť významným rizikům, včetně cenzury a 51% útoků. Iniciativy jako Takai a přijetí nových protokolů jako Stratum V2 jsou důležitými kroky směrem k decentralizaci a ochraně Bitcoinové sítě proti těmto hrozbám.
 
 ## Nuance těžebního průmyslu
+<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
 ### Princip Attakai
 

@@ -159,6 +159,8 @@ V nadcházejících modulech prozkoumáme dvě populární formy peněz: Bitcoin
 Od barteru přes vynález mincí a papírových peněz prošly peníze řadou transformací, aby se přizpůsobily neustále se měnícím potřebám společnosti. Jak se přesouváme do další kapitoly, pojďme změnit kurz a zaměřit naši pozornost na vývoj peněz.
 
 ## Zkoumání, jak jsme se sem dostali
+<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+
 Od dob výměny zboží až po moderní éru digitálních měn prošly peníze fascinujícím vývojem. Naši předkové používali jako prostředek výměny mušle, korálky a dokonce i dobytek. Dnes máme virtuální peněženky a bezkontaktní platby. Je to pozoruhodná cesta, která zahrnovala nesčetné iterace, kompromisy a adaptace, aby vyhověla neustále se měnícím potřebám společnosti.
 
 Ale jak se peníze, které dnes používáme, vyvinuly, aby se staly nezbytnou součástí našeho života, jakým jsou dnes? V této sekci prozkoumáme vývoj peněz, od jejich nejranějších forem až po moderní digitální měny, které používáme dnes. Podíváme se na každou hlavní iteraci peněz a prozkoumáme, jak pomohly formovat naši moderní společnost.

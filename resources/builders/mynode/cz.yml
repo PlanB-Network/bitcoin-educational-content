@@ -1,6 +1,6 @@
-popis: |
+description: |
   Bitcoin, Lightning a mnohem více! Nejjednodušší a nejmocnější způsob, jak provozovat uzel Bitcoinu a Lightning!
 
   Kombinujeme nejlepší open source software s naším rozhraním, správou a podporou, abyste mohli snadno, soukromě a bezpečně používat Bitcoin a Lightning.
-přispěvatelé:
+contributors:
   - rabbit-hole

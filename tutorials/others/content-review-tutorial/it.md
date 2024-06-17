@@ -1,6 +1,6 @@
 ---
-nome: Contributo - Revisione
-descrizione: Come partecipare alla revisione dei contenuti educativi su PlanB Network?
+name: Contributo - Revisione
+description: Come partecipare alla revisione dei contenuti educativi su PlanB Network?
 ---
 ![github](assets/cover.webp)
 

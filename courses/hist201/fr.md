@@ -1109,7 +1109,7 @@ Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octo
 
 L'afflux d'utilisateurs provenant de Slashdot impose aussi d'améliorer le logiciel. Des vulnérabilités trouvées doivent être corrigées et des nouveautés doivent être intégrées. Satoshi est ainsi mis sous pression, et il [confie](https://mmalmi.github.io/satoshi/#email-210) à Martti Malmi en privé le 18 juillet qu'il « perd la tête tellement il y a de choses à faire ». (*original: "I'm losing my mind there are so many things that need to be done."*) En l'espace de deux mois, ce ne sont pas moins de 8 sous-versions du logiciel qui sont ainsi publiées.
 
-Toutefois, le créateur de Bitcoin n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (ce dernier est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il y a aussi les personnes qui sont curieuses de la façon dont fonctionne le système et qui signalent lorsqu'elles rencontrent un problème, à l'instar de Christian Decker (cdecker) ou de Michael Marquardt (theymos). Satoshi est également épaulé par les mineurs, qui modifient le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain article), Nils Schneider (tcatm) ou BlackEye.
+Toutefois, le créateur de Bitcoin n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (ce dernier est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il y a aussi les personnes qui sont curieuses de la façon dont fonctionne le système et qui signalent lorsqu'elles rencontrent un problème, à l'instar de Christian Decker (cdecker) ou de Michael Marquardt (theymos). Satoshi est également épaulé par les mineurs, qui modifient le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain article), Nils Schneider (tcatm), Michael Brown (knightmb) ou BlackEye.
 
 On peut enfin citer Jeff Garzik (utilisant le pseudonyme jgarzik sur le forum), qui est un développeur américain, contributeur dans le monde du logiciel libre, notamment pour la distribution Red Hat, et libertarien adepte de l'école autrichienne d'économie. Il découvre Bitcoin avec l'article publié sur Slashdot et s'investit presque immédiatement dans Bitcoin.
 
@@ -1127,18 +1127,31 @@ Les mineurs partagent également leurs découvertes pour améliorer, directement
 
 Toutes ces améliorations font que Bitcoin se renforce de jour en jour, tant au point de vue du fonctionnement du logiciel que des performances du minage. Néanmoins, cet élan innovateur est quelque peu terni par un évènement qui marque profondément les esprits : le *value overflow incident*, qui intervient durant la journée du 15 août et qui perturbe le réseau pendant une quinzaine d'heure.
 
-### Le value overflow incident (15 août 2010)
+### Le value overflow incident et le système d'alerte (15 août 2010)
 
-message d'avertissement en cas de scission de chaîne (v0.3.8, 3/8)
+Le 15 août 2010 vers 17 heures (UTC), un bloc qui contient une transaction créant plus de 184 *milliards* de bitcoins est ajouté à la chaîne à la hauteur 74 638. Cette émission extraordinairement élevée exploite une vulnérabilité de dépassement de mémoire (*overflow*) à l'endroit de la représentation des quantités : l'attaquant a créé deux sorties transactionnelles de 92 233 720 368,54277039 BTC soit un montant proche du maximum d'unités pouvant être représentant par un entier signé sur 64 bits (le format utilisé dans le protocole).
 
-correction du value overflow bug (v0.3.10, 15/8)
+Une heure plus tard, le problème est repéré par Jeff Garzik, qui [avertit](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) la communauté sur le forum en évoquant un « bloc étrange ». (*original: ""strange block"*) La réaction de Satoshi a lieu vers 21 heures : il [publie](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) une modification préliminaire du code sur le forum et [conseille](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) aux gens d'« arrêter de générer ». Après avoir fait quelques révisions et les avoir téléverser sur Sourceforge, il finit par [publier] un correctif pour Windows, Linux et Mac OS X à 23 heures 48.
 
-**extrait** Le 15 août vers 17 heures, un bloc miné contient une transaction qui crée plus de 184 milliards de bitcoins. Cette création exploite une vulnérabilité de dépassement de mémoire (overflow) dans la représentation des quantités dans Bitcoin. Une heure plus tard, le problème est repéré par Jeff Garzik, un ingénieur américain ayant découvert Bitcoin grâce à Slashdot, qui avertit la communauté sur le forum.
+Ce correctif permet aux mineurs de rejeter la transaction incriminée comme invalide et de créer une branche alternative qui ne la contient pas. Le [premier bloc](https://mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b) de cette branche est trouvé à 23 heures 53.
 
-**extrait** La réaction de Satoshi ne se fait pas attendre. Un peu avant minuit, il publie un correctif créant une chaîne alternative ne contenant pas la transaction incriminée. La situation conflictuelle est résolue lorsque la chaîne correcte devient plus longue que l'autre le lendemain à 8 heures 10 du matin. Cet incident perturbe l'activité du réseau pendant 15 heures environ mais le problème est vite résolu grâce à une réactivité forte de la communauté. Suite à cet incident, Satoshi implémente un système d'alerte dans Bitcoin, lui permettant d'avertir tous les nœuds du réseau en cas de problème technique .
+Le lendemain, peu après 8 heures, la situation conflictuelle est résolue. La chaîne correcte devient plus longue que l'autre, ce qui fait tous les nœuds doivent alors suivre cette chaîne, qu'ils appliquent le correctif ou non. Cet incident aura perturbé l'activité du réseau pendant environ 15 heures, mais la réactivité de la communauté aura été exemplaire. Satoshi [écrit](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) ainsi vers 13 heures :
 
-ajout du système d'alerte (v0.3.11, 27/8)
+> « Il semble que nous ayons dépassé la mauvaise chaîne aux alentours de la hauteur 74 689. &nbsp;Les nœuds 0.3.9 et inférieurs indiquent le numéro de bloc courant depuis quelques heures. \[...\] &nbsp;Merci à tous pour votre réaction rapide ! »
+>
+> original: "It looks like we overtook the bad chain somewhere around 74689. &nbsp;0.3.9 and lower nodes have been responding with the current block number for some hours now. (...) Thanks to everyone for the quick response!"
 
+### Le système d'alerte (août 2010)
+
+Après avoir trouvé le 1 RETURN bug en juillet, Satoshi et Gavin ont fait tout leur possible pour prémunir le réseau contre les accidents. Le 3 août, ils ont ainsi [ajouté](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364) au logiciel un mécanisme d'avertissement s'activant en cas de scission de la chaîne (v0.3.8). Toutefois, ce mécanisme ne s'est pas avéré utile pour détecter le *value overflow bug* qui s'est manifesté le 15. C'est pourquoi ils cherchent à développer quelque chose de plus évolué les jours qui suivent cet incident.
+
+"*wanted to do that for a long time*", 15/8 (https://bitcointalk.org/index.php?topic=823.msg9586#msg9586)
+
+système d'alerte dans Bitcoin, qui permet à Satoshi d'avertir tous les nœuds du réseau en cas de problème technique.
+
+développement du système d'alerte : https://bitcointalk.org/index.php?topic=898.msg10722#msg10722
+
+ajout du système d'alerte (v0.3.11, 27/8) : https://bitcointalk.org/index.php?topic=941.msg11439#msg11439
 
 
 ## Après Slashdot (sept. 2010 -- déc. 2010)
@@ -1197,7 +1210,9 @@ puddinpop, *RPC Miners (CPU/4way/CUDA/OpenCL)* [24/12/2010](https://bitcointalk.
 
 puddinpop, *Pooled/Remote Mining*, [13/10/2010](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) (appliqué le 1/12 par [doublec](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)), basé sur la puissance de calcul, [conception défectueuse](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015) ?
 
-getwork, première coopérative par slush, [27/11/2010](https://bitcointalk.org/index.php?topic=1976.msg24844#msg24844)
+getwork, [23/11/2010](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876)
+
+première coopérative par slush, [27/11/2010](https://bitcointalk.org/index.php?topic=1976.msg24844#msg24844)
 
 tcatm, cloud mining : https://bitcointalk.org/index.php?topic=1360.0
 

@@ -1,7 +1,7 @@
 ---
-nimi: Johdatus Bitcoin-louhintaan
-tavoite: Ymmärtää louhintateollisuuden toiminta käytännön harjoituksen kautta, jossa kierrätetään ASIC-laitteita.
-tavoitteet:
+name: Johdatus Bitcoin-louhintaan
+goal: Ymmärtää louhintateollisuuden toiminta käytännön harjoituksen kautta, jossa kierrätetään ASIC-laitteita.
+objectives:
   - Ymmärtää teoria louhinnan takana
   - Ymmärtää louhintateollisuus
   - Muuntaa S9-louhija lämmittimeksi
@@ -146,6 +146,7 @@ Yleinen johtopäätös on, että hajauttaminen on ratkaisevan tärkeää Bitcoin
 
 ## Louhintateollisuuden vivahteet
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+
 ### Attakain periaate
 
 Tämän hajauttamisen raja?
@@ -603,6 +604,7 @@ Lopuksi, aseta kotelon kansi takaisin paikalleen ja kiristä sivuilla olevat 6 r
 
 ## Päätuulettimien vaihtaminen
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+
 > VAROITUS: On välttämätöntä, että olet asentanut Braiins OS+:n tai muun ohjelmiston, joka kykenee alentamaan koneesi suorituskykyä, louhijaasi ennen tätä toimenpidettä. Tämä toimenpide on kriittisen tärkeä, sillä melun vähentämiseksi asennamme vähemmän tehokkaita tuulettimia, jotka hajottavat vähemmän lämpöä.
 ![kuva](assets/hardware/cover.webp)
 
@@ -655,6 +657,8 @@ Ja siinä se, onneksi olkoon! Olet juuri vaihtanut louhijasi koko mekaanisen osa
 
 ## Liittyminen louhintapooliin
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+
+
 Voit ajatella louhintapoolia maatalousosuuskuntana. Maanviljelijät kokoavat tuotantonsa yhteen vähentääkseen tarjonnan ja kysynnän vaihtelua ja saadakseen siten vakautetumpia tuloja toiminnalleen. Louhintapooli toimii samalla tavalla, jaettuna resurssina ovat hashit. Todellakin, yhden kelvollisen hashin löytäminen mahdollistaa lohkon luomisen ja coinbase-palkinnon tai -palkkion voittamisen, joka on tällä hetkellä 6,25 BTC plus lohkoon sisältyvät siirtomaksut.
 Jos louhit yksin, saat palkkion vain, kun löydät lohkon. Kilpaillessasi kaikkia muita maailman louhijoita vastaan, sinulla olisi hyvin vähän mahdollisuuksia voittaa tämä arpajainen, ja sinun täytyisi silti maksaa louhijasi käyttöön liittyvät maksut ilman menestyksen takeita. Louhintapoolit ratkaisevat tämän ongelman yhdistämällä useiden (tuhansien) louhijoiden laskentatehon ja jakamalla palkinnot osallistumisprosentin mukaan poolin hashratesta, kun lohko löydetään. Visualisoidaksesi mahdollisuutesi louhia lohko yksin, voit käyttää tätä työkalua. Syöttämällä tiedot Antminer S9:stä, voimme nähdä, että mahdollisuudet löytää hash, joka mahdollistaa lohkon luomisen, ovat 1 24 777 849:stä jokaista lohkoa kohden tai 1 172 068:ssa päivässä. Keskimäärin (jatkuvalla hashratella ja vaikeudella) kestäisi 471 vuotta löytää lohko.
 

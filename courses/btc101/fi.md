@@ -1119,7 +1119,8 @@ Yhteenvetona, Lightning Network on lupaava yritys kehittää tehokas maksujärje
 ### Nopea yhteenveto julisteessa!
 
 ![Alt-teksti](assets/posters/en/20._lightning_network.webp)
-## Lightning-verkon käyttötapaukset<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+## Lightning-verkon käyttötapaukset
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 Kuten juuri näimme, vaikka Bitcoin-protokolla onkin vallankumouksellinen, kohtaa se merkittäviä haasteita skaalautuvuudessa päivittäisten transaktioiden käsittelyssä. Näiden ongelmien ratkaisemiseksi ehdotettiin toisen kerroksen ratkaisua, joka tunnetaan nimellä Lightning-verkko, vuonna 2016 ja sillä on nyt useita eri toteutuksia, jotka kaikki ovat yhteensopivia:
 

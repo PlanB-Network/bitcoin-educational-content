@@ -143,7 +143,7 @@ sovereign-university-data/
 - Nous allons commencer par remplir la partie `Properties` tout en haut du document. Dans l'éventualité où cette section est absente de votre fichier (si le document est complètement vierge), il vous est possible de la reproduire en la copiant depuis un autre tutoriel existant :
 ![tutorial](assets/20.webp)
 - Vous pouvez aussi l'ajouter manuellement de cette manière à l'aide de votre éditeur de code :
-```mardown
+```markdown
 ---
 name: [Titre]
 description: [Description]

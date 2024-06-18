@@ -1,7 +1,7 @@
 ---
-nimi: HODL HODL
+name: HODL HODL
 
-kuvaus: Vaiheittainen opas HODLHODLille
+description: Vaiheittainen opas HODLHODLille
 ---
 
 ![kuva](assets/cover.webp)

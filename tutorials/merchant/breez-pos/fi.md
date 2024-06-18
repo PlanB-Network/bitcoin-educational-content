@@ -1,7 +1,7 @@
 ---
-nimi: Breez myyntipiste
+name: Breez myyntipiste
 
-kuvaus: Opas bitcoinien vastaanottamisen aloittamiseen käyttäen Breez POS:ia
+description: Opas bitcoinien vastaanottamisen aloittamiseen käyttäen Breez POS:ia
 ---
 
 ![kansi](assets/cover.webp)

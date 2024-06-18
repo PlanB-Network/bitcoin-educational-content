@@ -1,0 +1,8 @@
+title: "Sovellettu Kryptografia"
+publication_year: 1993
+cover: cover_en.webp
+original: true
+description: |
+  Sovellettu Kryptografia on kirja, jonka on kirjoittanut Bruce Schneier, asiantuntija tietoturvan ja kryptografian alalla. Kirja tarjoaa johdatuksen kryptografian perusperiaatteisiin ja -konsepteihin ja käsittelee laajasti aiheita, mukaan lukien symmetrinen ja asymmetrinen salaus, hajautusfunktiot, digitaaliset allekirjoitukset, avainhallinta ja turvalliset protokollat. Se syventyy myös kryptografian historiaan ja tutkii kryptografisten järjestelmien mahdollisia riskejä ja rajoituksia. Kirja on olennainen resurssi kaikille kryptografiasta kiinnostuneille, aloittelijoista asiantuntijoihin.
+contributors:
+  - rabbit-hole

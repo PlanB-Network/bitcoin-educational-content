@@ -1,0 +1,4 @@
+description: |
+  Eye of Satoshi on Lightning-valvontatorni, joka on yhteensopiva BOLT13:n kanssa ja kirjoitettu Rust-kielellä.
+contributors:
+  - rabbit-hole

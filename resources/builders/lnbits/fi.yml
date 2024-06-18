@@ -1,0 +1,12 @@
+description: |
+  LNbits on ilmainen ja avoimen lähdekoodin Bitcoin Lightning -tilijärjestelmä laajennuksilla. Se mahdollistaa oman Lightning Network -tilijärjestelmän pyörittämisen, oli kyseessä sitten itsesi, ystävät ja perhe tai koko maailma. LNbits tukee erilaisia Lightning Networkin rahoituslähteitä, mukaan lukien LND, c-lightning, Spark, LNpay, OpenNode, lntxbot ja muita.
+
+  LNbitsin avulla voit luoda useita tilejä tai lompakoita ja käyttää laajaa valikoimaa laajennuksia, jotka ovat kehittäjien rakentamia. Nämä laajennukset mahdollistavat toimintojen, kuten hanat, maksulinkit, jaettavat myyntipisteet, maksuseinät, tapahtumaliput, nopanpelit, palvelinpalvelut ja jopa jaettavan jukeboksin lisäämisen, monien muiden joukossa. LNbits tarjoaa yksinkertaisen API:n, joka voi yhdistää useisiin solmuihin ja rahoituslähteisiin, mikä tekee siitä helposti integroitavissa olemassa olevaan pinosi.
+
+  Yksi LNbitsin eduista on, että voit käyttää sitä välittömästi ja suoraan selaimessasi lataamatta mitään lisäsovelluksia. Se hyödyntää Quasar- ja VueJS-kehyksiä frontendissä, tarjoten korkean suorituskyvyn ja responsiiviset käyttöliittymät. Backendissä LNbits käyttää FastAPI:a, modernia ja suorituskykyistä Python API -kehystä.
+
+  Aloittaaksesi LNbitsin käytön, voit tutustua heidän GitHub-dokumentaatioonsa, YouTube-opetusvideoihin ja Awesome LNbits -resurssiin. LNbits-yhteisö on aktiivinen ja tukeva, tarjoten Telegram-ryhmän käyttäjille ja kehittäjille ideoiden vaihtoon, avun antamiseen ja tämän ilmaisen ja avoimen lähdekoodin ohjelmiston kehittämiseen.
+
+  LNbits tarjoaa joustavan ja laajennettavan ratkaisun Lightning Network -tilien hallintaan ja erilaisten toimintojen integroimiseen sen laajennuskehyksen kautta.
+contributors:
+  - rabbit-hole

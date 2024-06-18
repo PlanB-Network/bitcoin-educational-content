@@ -111,14 +111,14 @@ Digite o comando `echo`, seguido pela sua entropia gerada anteriormente, certifi
 ![mnemonic](assets/notext/17.webp)
 
 Adicione um espaço adicional, então insira o seguinte comando, usando um *pipe* (`|`):
-```bash
+```plaintext
 | shasum -a 256 -0
 ```
 
 ![mnemonic](assets/notext/18.webp)
 
 No exemplo com minha entropia, o comando total é o seguinte:
-```bash
+```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
@@ -135,7 +135,7 @@ Após verificar cuidadosamente que sua sequência binária não contém erros de
 ![mnemonic](assets/notext/19.webp)
 
 Por enquanto, o hash é expresso em formato hexadecimal (base 16). Por exemplo, o meu é:
-```bash
+```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
@@ -183,14 +183,14 @@ Para converter cada linha binária em um número decimal, usaremos um método qu
 - 11º bit: `1`.
 
 Para cada linha, somaremos os valores correspondentes aos dígitos `1` para obter o número decimal equivalente ao número binário. Vamos tomar o exemplo de uma linha binária igual a:
-```bash
+```plaintext
 1010 1101 101
 ```
 
 A conversão seria a seguinte:
 ![mnemonic](assets/notext/21.webp)
 O resultado seria então:
-```bash
+```plaintext
 1389
 ```
 
@@ -208,7 +208,7 @@ Após este ajuste, você tem o ranking de cada palavra dentro da lista. Tudo o q
 [**-> Imprima a lista BIP39 em formato A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Por exemplo, se o número derivado da primeira linha for 1721, a palavra correspondente será a 1721ª na lista:
-```bash
+```plaintext
 1721. strike
 ```
 ![mnemônico](assets/notext/25.webp)
@@ -233,7 +233,7 @@ No entanto, incidentes de roubo de bitcoins foram relatados recentemente devido 
 
 O método de interpretação dos resultados proposto pela Coldcard difere do apresentado neste tutorial. Enquanto recomendamos 128 rolagens para alcançar 128 bits de segurança no tutorial, a Coldcard sugere 99 rolagens para atingir 256 bits de segurança. De fato, em nossa abordagem, apenas dois resultados são possíveis para cada rolagem de dados: par (`0`) ou ímpar (`1`). Portanto, a entropia gerada por cada rolagem é igual a `log2(2)`. No caso da Coldcard, que leva em conta as seis faces possíveis do dado (de `1` a `6`), a entropia por rolagem é igual a `log2(6)`. É por isso que em nosso tutorial, precisamos realizar mais rolagens para alcançar o mesmo nível de entropia.
 
-```bash
+```plaintext
 Entropia = número de rolagens * log2(número de resultados possíveis no dado)
 Coldcard:
 

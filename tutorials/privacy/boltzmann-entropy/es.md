@@ -55,7 +55,7 @@ Cuando una transacción presenta un alto número de combinaciones posibles, a me
 En la práctica, la entropía revela si, desde la perspectiva de un observador externo, una transacción presenta múltiples interpretaciones posibles, basándose únicamente en las cantidades de entradas y salidas, sin considerar otros patrones y heurísticas externos o internos. Una alta entropía es entonces sinónimo de mejor confidencialidad para la transacción.
 
 La entropía se define como el logaritmo binario del número de combinaciones posibles. Aquí está la fórmula utilizada:
-```bash
+```plaintext
 E: la entropía de la transacción
 C: el número de combinaciones posibles para la transacción
 
@@ -65,21 +65,21 @@ E = log2(C)
 En matemáticas, el logaritmo binario (logaritmo base-2) corresponde a la operación inversa de elevar 2. En otras palabras, el logaritmo binario de `x` es el exponente al que se debe elevar `2` para obtener `x`. Este indicador se expresa así en bits.
 
 Tomemos el ejemplo de calcular la entropía para una transacción coinjoin estructurada según el modelo Whirlpool 5x5, que, como se mencionó anteriormente, ofrece un número de combinaciones posibles de `1,496`:
-```bash
+```plaintext
 C = 1,496
 E = log2(1,496)
 E = 10.5469 bits
 ```
 Así, esta transacción coinjoin muestra una entropía de `10.5469 bits`, lo cual se considera muy satisfactorio. Cuanto mayor sea este valor, más interpretaciones diferentes admite la transacción, fortaleciendo así su nivel de privacidad.
 Para una transacción coinjoin 8x8 que presenta `9,934,563` interpretaciones, la entropía sería:
-```bash
+```plaintext
 C = 9,934,563
 E = log2(9,934,563)
 E = 23.244 bits
 ```
 
 Tomemos otro ejemplo con una transacción más convencional, con una entrada y dos salidas: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) En el caso de esta transacción, la única interpretación posible es: `(In.0) > (Out.0 ; Out.1)`. En consecuencia, su entropía se establece en `0`:
-```bash
+```plaintext
 C = 1
 E = log2(1)
 E = 0 bits
@@ -89,7 +89,7 @@ E = 0 bits
 El tercer indicador proporcionado por el Calculador Boltzmann se denomina `Eficiencia de la Cartera`. Este indicador evalúa la eficiencia de la transacción comparándola con la transacción óptima concebible en una configuración idéntica.
 Esto nos lleva a discutir el concepto de entropía máxima, que corresponde a la mayor entropía que una estructura de transacción específica podría teóricamente alcanzar. La eficiencia de la transacción se calcula entonces confrontando esta entropía máxima con la entropía real de la transacción analizada.
 La fórmula utilizada es la siguiente:
-```bash
+```plaintext
 ER: la entropía real de la transacción expresada en bits
 EM: la entropía máxima posible para una estructura de transacción dada expresada en bits
 Ef: la eficiencia de la transacción en bits
@@ -98,14 +98,14 @@ Ef = ER - EM
 ```
 
 Por ejemplo, para una estructura de coinjoin tipo Whirlpool 5x5, la entropía máxima se establece en `10.5469`:
-```bash
+```plaintext
 ER = 10.5469
 EM = 10.5469
 Ef = 10.5469 - 10.5469 = 0 bits
 ```
 
 Este indicador también se expresa como un porcentaje, su fórmula es entonces:
-```bash
+```plaintext
 CR: el número real de combinaciones posibles
 CM: el número máximo de combinaciones posibles con la misma estructura
 Ef: la eficiencia expresada como un porcentaje
@@ -119,7 +119,7 @@ Una eficiencia del `100%` indica así que la transacción maximiza su potencial 
 
 ### Densidad de Entropía:
 El cuarto indicador es la densidad de entropía, anotada en la herramienta como `Densidad de Entropía`. Proporciona una perspectiva sobre la entropía relativa a cada entrada o salida de la transacción. Este indicador resulta útil para evaluar y comparar la eficiencia de transacciones de diferentes tamaños. Para calcularlo, simplemente se divide la entropía total de la transacción por el número total de entradas y salidas involucradas:
-```bash
+```plaintext
 ED: la densidad de entropía expresada en bits
 E: la entropía de la transacción expresada en bits
 T: el número total de entradas y salidas en la transacción
@@ -128,14 +128,14 @@ ED = E / T
 ```
 
 Tomemos el ejemplo de un coinjoin Whirlpool 5x5:
-```bash
+```plaintext
 T = 5 + 5 = 10
 E = 10.5469
 ED = 10.5469 / 10 = 1.054 bits
 ```
 
 Calculemos también la densidad de entropía para un coinjoin Whirlpool 8x8:
-```bash
+```plaintext
 T = 8 + 8 = 16
 E = 23.244
 ED = 23.244 / 16 = 1.453 bits
@@ -158,7 +158,7 @@ Tomando el ejemplo de un coinjoin Whirlpool nuevamente, la tabla de probabilidad
 
 Aquí, podemos ver claramente que cada entrada tiene la misma probabilidad de estar asociada con cualquier salida, lo que mejora la confidencialidad de la transacción.
 Calcular el puntaje de Boltzmann implica dividir el número de interpretaciones en las que ocurre un cierto evento por el número total de interpretaciones disponibles. Así, para determinar el puntaje que asocia la entrada N.º 0 con la salida N.º 3 (`512` interpretaciones), se utiliza el siguiente procedimiento:
-```bash
+```plaintext
 Interpretaciones (IN.0 > OUT.3) = 512
 Interpretaciones Totales = 1496
 Puntaje = 512 / 1496 = 34%

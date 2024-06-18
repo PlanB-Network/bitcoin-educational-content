@@ -92,7 +92,7 @@ Bây giờ nhánh làm việc đã được tạo, đã đến lúc tích hợp 
 	- Một tệp định dạng markdown cần được tạo để viết nội dung thực sự của hướng dẫn của bạn. Tệp này phải được đặt tên theo mã ngôn ngữ của bài viết. Ví dụ, cho một hướng dẫn viết bằng tiếng Pháp, tệp nên được gọi là `fr.md`.
 ![hướng dẫn](assets/14.webp)
 - Để tóm tắt, đây là cấu trúc các tệp cần tạo:
-```css
+```plaintext
 sovereign-university-data/
 └── tutorials/
     └── wallet/ (cần chỉnh sửa với danh mục phù hợp)

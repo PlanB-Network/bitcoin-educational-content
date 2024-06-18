@@ -209,7 +209,7 @@ Je vám nabídnuto získat vašeho PayNym Bota. Můžete si jej vyžádat, pokud
 
 ![samourai](assets/notext/15.webp)
 Předtím, než začnete přijímat bitcoiny na tuto novou peněženku, je silně doporučeno znovu zkontrolovat platnost vašich záloh peněženky (heslová fráze a obnovovací fráze). Pro ověření heslové fráze můžete vybrat ikonu vašeho PayNym Bota umístěnou v levém horním rohu obrazovky, poté postupujte podle cesty:
-```bash
+```plaintext
 Nastavení > Řešení problémů > Test heslové fráze/zálohy
 ```
 
@@ -222,7 +222,7 @@ Samourai potvrdí, zda je platná.
 ![samourai](assets/notext/17.webp)
 
 Pro ověření vaší zálohy obnovovací fráze přistupte k ikoně vašeho PayNym Bota, umístěné v levém horním rohu obrazovky, a postupujte podle této cesty:
-```bash
+```plaintext
 Nastavení > Peněženka > Zobrazit 12-slovnou obnovovací frázi
 ```
 

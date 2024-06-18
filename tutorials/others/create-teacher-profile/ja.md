@@ -104,7 +104,7 @@ PlanB ネットワークに新しい完全なチュートリアルやコース�
 
 - あなたの教授フォルダは、このように見えるはずです：
 ![チュートリアル](assets/23.webp)
-```bash
+```plaintext
 first-name-last-name/
 ├── fr.yml
 ├── it.yml

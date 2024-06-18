@@ -91,7 +91,7 @@ Agora que o ramo de trabalho foi criado, é hora de integrar o seu novo tutorial
 	- Um arquivo no formato markdown deve ser criado para escrever o conteúdo real do seu tutorial. Este arquivo deve ser intitulado de acordo com o código de idioma da escrita. Por exemplo, para um tutorial escrito em francês, o arquivo deve ser chamado `fr.md`.
 ![tutorial](assets/14.webp)
 - Para resumir, aqui está a hierarquia de arquivos a ser criada:
-```css
+```plaintext
 sovereign-university-data/
 └── tutorials/
     └── wallet/ (a ser modificado com a categoria correta)

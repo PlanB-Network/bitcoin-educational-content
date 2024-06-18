@@ -197,7 +197,7 @@ Stellen Sie die Gültigkeit Ihrer Sicherungskopie der Wiederherstellungsphrase s
 ![sparrow](assets/notext/13.webp)
 
 Lassen Sie den vorgeschlagenen Ableitungspfad als Standard und drücken Sie `Keystore importieren`. In meinem Beispiel weicht der Ableitungspfad leicht ab, da ich das Testnet für dieses Tutorial verwende. Der Ableitungspfad, der für Sie erscheinen sollte, ist wie folgt:
-```bash
+```plaintext
 m/84'/0'/0'
 ```
 

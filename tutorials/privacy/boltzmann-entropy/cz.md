@@ -54,7 +54,7 @@ Když transakce představuje vysoký počet možných kombinací, je často rele
 V praxi entropie odhaluje, zda z pohledu vnějšího pozorovatele transakce představuje více možných interpretací, založených pouze na částkách vstupů a výstupů, aniž by se zohledňovaly další vnější nebo vnitřní vzory a heuristiky. Vysoká entropie je pak synonymem lepší důvěrnosti pro transakci.
 
 Entropie je definována jako binární logaritmus počtu možných kombinací. Zde je použitý vzorec:
-```bash
+```plaintext
 E: entropie transakce
 C: počet možných kombinací pro transakci
 
@@ -64,19 +64,19 @@ E = log2(C)
 V matematice odpovídá binární logaritmus (logaritmus o základu 2) inverzní operaci umocňování čísla 2. Jinými slovy, binární logaritmus `x` je exponent, na který musí být `2` zvýšeno, aby se získalo `x`. Tento ukazatel je tedy vyjádřen v bitech.
 
 Vezměme si příklad výpočtu entropie pro coinjoin transakci strukturovanou podle modelu Whirlpool 5x5, která, jak bylo zmíněno dříve, nabízí počet možných kombinací `1,496`:
-```bash
+```plaintext
 C = 1,496
 E = log2(1,496)
 E = 10.5469 bitů
 ```
 Takže tato coinjoin transakce vykazuje entropii `10.5469 bitů`, což je považováno za velmi uspokojivé. Čím vyšší tato hodnota, tím více různých interpretací transakce připouští, čímž posiluje její úroveň soukromí.
 Pro 8x8 coinjoin transakci představující `9,934,563` interpretací by entropie byla:
-```bash
+```plaintext
 C = 9,934,563
 E = log2(9,934,563)
 E = 23.244 bitů
 ```
-Podívejme se na další příklad s konvenčnější transakcí, která obsahuje jeden vstup a dva výstupy: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) V případě této transakce je jediná možná interpretace: `(In.0) > (Out.0 ; Out.1)`. V důsledku toho je její entropie stanovena na `0`:```bash
+Podívejme se na další příklad s konvenčnější transakcí, která obsahuje jeden vstup a dva výstupy: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce) V případě této transakce je jediná možná interpretace: `(In.0) > (Out.0 ; Out.1)`. V důsledku toho je její entropie stanovena na `0`:```plaintext
 C = 1
 E = log2(1)
 E = 0 bitů
@@ -88,7 +88,7 @@ Třetím ukazatelem, který poskytuje Kalkulačka Boltzmann, je pojmenován `Efe
 To nás přivádí k diskusi o konceptu maximální entropie, která odpovídá nejvyšší entropii, kterou by konkrétní struktura transakce teoreticky mohla dosáhnout. Efektivita transakce je poté vypočítána porovnáním této maximální entropie s aktuální entropií analyzované transakce.
 
 Použitý vzorec je následující:
-```bash
+```plaintext
 ER: aktuální entropie transakce vyjádřená v bitech
 EM: maximální možná entropie pro danou strukturu transakce vyjádřená v bitech
 Ef: efektivita transakce vyjádřená v bitech
@@ -97,14 +97,14 @@ Ef = ER - EM
 ```
 
 Například pro strukturu coinjoin typu Whirlpool 5x5 je maximální entropie stanovena na `10.5469`:
-```bash
+```plaintext
 ER = 10.5469
 EM = 10.5469
 Ef = 10.5469 - 10.5469 = 0 bitů
 ```
 
 Tento ukazatel je také vyjádřen jako procento, jeho vzorec je poté:
-```bash
+```plaintext
 CR: aktuální počet možných kombinací
 CM: maximální počet možných kombinací se stejnou strukturou
 Ef: efektivita vyjádřená jako procento
@@ -118,7 +118,7 @@ Efektivita `100%` tedy naznačuje, že transakce maximalizuje svůj potenciál p
 
 ### Hustota Entropie:
 Čtvrtým ukazatelem je hustota entropie, označovaná na nástroji jako `Hustota Entropie` (Entropy Density). Poskytuje perspektivu entropie vzhledem ke každému vstupu nebo výstupu transakce. Tento ukazatel se ukazuje užitečný pro hodnocení a porovnávání efektivity transakcí různých velikostí. Pro její výpočet jednoduše vydělte celkovou entropii transakce celkovým počtem zapojených vstupů a výstupů:
-```bash
+```plaintext
 ED: hustota entropie vyjádřená v bitech
 E: entropie transakce vyjádřená v bitech
 T: celkový počet vstupů a výstupů v transakci
@@ -127,14 +127,14 @@ ED = E / T
 ```
 
 Podívejme se na příklad coinjoinu Whirlpool 5x5:
-```bash
+```plaintext
 T = 5 + 5 = 10
 E = 10.5469
 ED = 10.5469 / 10 = 1.054 bitů
 ```
 
 Spočítejme také hustotu entropie pro coinjoin Whirlpool 8x8:
-```bash
+```plaintext
 T = 8 + 8 = 16
 E = 23.244
 ED = 23.244 / 16 = 1.453 bitů
@@ -156,7 +156,7 @@ Při použití příkladu s Whirlpool coinjoin znovu, tabulka podmíněných pra
 
 Zde můžeme jasně vidět, že každý vstup má stejnou šanci být spojen s jakýmkoli výstupem, což zvyšuje důvěrnost transakce.
 Výpočet Boltzmannova skóre zahrnuje dělení počtu interpretací, ve kterých určitá událost nastane, celkovým počtem dostupných interpretací. Takto, pro určení skóre spojující vstup č. 0 s výstupem č. 3 (`512` interpretací), se použije následující postup:
-```bash
+```plaintext
 Interpretace (IN.0 > OUT.3) = 512
 Celkové interpretace = 1496
 Skóre = 512 / 1496 = 34%

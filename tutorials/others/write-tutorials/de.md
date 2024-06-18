@@ -91,7 +91,7 @@ Jetzt, da der Arbeitsbranch erstellt ist, ist es an der Zeit, Ihr neues Tutorial
 	- Eine Datei im Markdown-Format ist zu erstellen, um den eigentlichen Inhalt Ihres Tutorials zu schreiben. Diese Datei muss gemäß dem Sprachcode der Schrift benannt werden. Zum Beispiel sollte für ein Tutorial, das auf Französisch geschrieben ist, die Datei `fr.md` genannt werden.
 ![tutorial](assets/14.webp)
 - Zusammengefasst sieht hier die Hierarchie der zu erstellenden Dateien aus:
-```css
+```plaintext
 sovereign-university-data/
 └── tutorials/
     └── wallet/ (zu modifizieren mit der richtigen Kategorie)

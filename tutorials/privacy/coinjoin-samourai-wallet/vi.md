@@ -208,7 +208,7 @@ Bạn được đề nghị nhận PayNym Bot của mình. Bạn có thể yêu 
 
 ![samourai](assets/notext/15.webp)
 Trước khi tiến hành nhận bitcoin vào ví mới này, rất khuyến khích kiểm tra lại tính hợp lệ của các bản sao lưu ví của bạn (cụm mật khẩu và cụm từ khôi phục). Để xác minh cụm mật khẩu, bạn có thể chọn biểu tượng của PayNym Bot của mình ở góc trên bên trái của màn hình, sau đó theo dõi đường dẫn:
-```bash
+```plaintext
 Cài đặt > Khắc phục sự cố > Kiểm tra cụm mật khẩu/sao lưu
 ```
 
@@ -221,7 +221,7 @@ Samourai sẽ xác nhận nếu nó hợp lệ.
 ![samourai](assets/notext/17.webp)
 
 Để xác minh bản sao lưu của cụm từ khôi phục, truy cập vào biểu tượng của PayNym Bot của bạn, nằm ở góc trên bên trái của màn hình, và theo dõi đường dẫn này:
-```bash
+```plaintext
 Cài đặt > Ví > Hiển thị cụm từ khôi phục 12 từ
 ```
 

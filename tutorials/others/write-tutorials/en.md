@@ -94,7 +94,7 @@ Now that the working branch is created, it's time to integrate your new tutorial
 	- A markdown format file is to be created to write the actual content of your tutorial. This file must be titled according to the language code of the writing. For example, for a tutorial written in French, the file should be called `fr.md`.
 ![tutorial](assets/14.webp)
 - To summarize, here is the hierarchy of files to create:
-```css
+```plaintext
 sovereign-university-data/
 └── tutorials/
     └── wallet/ (to be modified with the right category)

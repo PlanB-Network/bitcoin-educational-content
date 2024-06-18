@@ -197,7 +197,7 @@ Certifique-se da validade do backup da sua frase de recuperação antes de clica
 ![sparrow](assets/notext/13.webp)
 
 Deixe o caminho de derivação sugerido como padrão e pressione `Import Keystore`. No meu exemplo, o caminho de derivação difere ligeiramente, pois estou usando o Testnet para este tutorial. O caminho de derivação que deve aparecer para você é o seguinte:
-```bash
+```plaintext
 m/84'/0'/0'
 ```
 

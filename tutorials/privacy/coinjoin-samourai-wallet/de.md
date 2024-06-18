@@ -206,7 +206,7 @@ Es wird Ihnen angeboten, Ihren PayNym Bot zu erhalten. Sie können ihn anfordern
 
 ![samourai](assets/notext/15.webp)
 Bevor Sie fortfahren, um Bitcoins auf dieses neue Wallet zu erhalten, wird dringend empfohlen, die Gültigkeit Ihrer Wallet-Backups (das Passwort und die Wiederherstellungsphrase) erneut zu überprüfen. Um das Passwort zu überprüfen, können Sie das Symbol Ihres PayNym Bots oben links auf dem Bildschirm auswählen und dann folgenden Pfad verfolgen:
-```bash
+```plaintext
 Einstellungen > Fehlerbehebung > Passwort/Backup-Test
 ```
 
@@ -219,7 +219,7 @@ Samourai wird bestätigen, ob es gültig ist.
 ![samourai](assets/notext/17.webp)
 
 Um Ihr Backup der Wiederherstellungsphrase zu überprüfen, greifen Sie auf das Symbol Ihres PayNym Bots zu, das sich oben links auf dem Bildschirm befindet, und folgen Sie diesem Pfad:
-```bash
+```plaintext
 Einstellungen > Wallet > 12-Wörter-Wiederherstellungsphrase anzeigen
 ```
 

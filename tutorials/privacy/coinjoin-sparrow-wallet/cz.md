@@ -199,7 +199,7 @@ Když se dostanete do okna pro vytvoření peněženky, doporučuji vybrat sekve
 Před kliknutím na `Confirm Backup...` ověřte platnost vaší zálohy obnovovací fráze. Sparrow vás poté požádá, abyste svou frázi znovu zadali pro ověření, že jste si ji vzali na vědomí. Po dokončení tohoto kroku pokračujte kliknutím na `Create Keystore`.
 ![sparrow](assets/notext/13.webp)
 Ponechte navrhovanou cestu derivace jako výchozí a stiskněte `Import Keystore`. V mém příkladu se cesta derivace mírně liší, protože používám Testnet pro tento tutoriál. Cesta derivace, která by se vám měla zobrazit, je následující:
-```bash
+```plaintext
 m/84'/0'/0'
 ```
 

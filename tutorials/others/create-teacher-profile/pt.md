@@ -103,7 +103,7 @@ Vamos descobrir juntos como adicionar um novo professor neste tutorial!
 
 - Sua pasta professor deve ficar assim:
 ![tutorial](assets/23.webp)
-```bash
+```plaintext
 primeiro-nome-ultimo-nome/
 ├── fr.yml
 ├── it.yml

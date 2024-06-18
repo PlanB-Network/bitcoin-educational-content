@@ -75,7 +75,7 @@ Pro výpočet těchto ukazatelů na vašich vlastních mincích, které prošly 
 Pokud máte RoninDojo, WST je předinstalován na vašem uzlu. Můžete tedy přeskočit kroky instalace a přímo přejít k krokům použití. Pro ty, kteří nemají uzel RoninDojo, pojďme se podívat, jak postupovat při instalaci tohoto nástroje na počítač.
 
 Budete potřebovat: Tor Browser (nebo Tor), Python 3.4.4 nebo vyšší, git a pip. Otevřete terminál. Pro kontrolu přítomnosti a verze těchto softwarů ve vašem systému zadejte následující příkazy:
-```bash
+```plaintext
 python --version
 git --version
 pip --version
@@ -86,26 +86,26 @@ Pokud je potřeba, můžete je stáhnout z jejich příslušných webových str�
 - https://www.torproject.org/download/;
 - https://git-scm.com/downloads.
 Jakmile jsou všechny tyto softwary nainstalovány, z terminálu naklonujte repozitář WST:
-```bash
+```plaintext
 git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
 ```
 
 ![WST](assets/notext/8.webp)
 
 Přejděte do adresáře WST:
-```bash
+```plaintext
 cd whirlpool_stats
 ```
 
 Nainstalujte závislosti:
-```bash
+```plaintext
 pip3 install -r ./requirements.txt
 ```
 
 ![WST](assets/notext/9.webp)
 
 Můžete je také nainstalovat ručně (volitelně):
-```bash
+```plaintext
 pip install PySocks
 pip install requests[socks]
 pip install plotly
@@ -115,12 +115,12 @@ pip install python-bitcoinrpc
 ```
 
 Přejděte do podadresáře `/whirlpool_stats`:
-```bash
+```plaintext
 cd whirlpool_stats
 ```
 
 Spusťte WST:
-```bash
+```plaintext
 python3 wst.py
 ```
 
@@ -131,10 +131,10 @@ Spusťte Tor nebo Tor Browser na pozadí.
 **-> Pro uživatele RoninDojo můžete pokračovat v tutoriálu přímo zde.**
 
 Nastavte proxy na Tor (RoninDojo),
-```bash
+```plaintext
 socks5 127.0.0.1:9050
 ```
-nebo do Tor Browseru v závislosti na tom, co používáte:```bash
+nebo do Tor Browseru v závislosti na tom, co používáte:```plaintext
 socks5 127.0.0.1:9150
 ```
 
@@ -143,7 +143,7 @@ Tato manipulace vám umožní stahovat data na OXT přes Tor, aby nedošlo k ún
 ![WST](assets/notext/11.webp)
 
 Dále přejděte do pracovního adresáře, ze kterého hodláte stahovat data WST pomocí příkazu `workdir`. Tato složka bude sloužit k ukládání transakčních dat, která získáte z OXT ve formě `.csv` souborů. Tyto informace jsou nezbytné pro výpočet indikátorů, které hledáte. Můžete si volně vybrat umístění tohoto adresáře. Mohlo by být rozumné vytvořit složku speciálně pro data WST. Jako příklad si zvolme složku pro stahování. Pokud používáte RoninDojo, tento krok není nutný:
-```bash
+```plaintext
 workdir path/to/your/directory
 ```
 
@@ -152,7 +152,7 @@ Výzva příkazového řádku by poté měla změnit na zobrazení vašeho praco
 ![WST](assets/notext/12.webp)
 
 Poté stáhněte data z poolu obsahujícího vaši transakci. Například, pokud jsem v poolu `100,000 sats`, příkaz je:
-```bash
+```plaintext
 download 0001
 ```
 
@@ -164,7 +164,7 @@ Kódy denominací na WST jsou následující:
 - Pool 0.01 bitcoinů: `001`
 - Pool 0.001 bitcoinů: `0001`
 Jakmile jsou data stažena, načtěte je. Například, pokud jsem v poolu `100,000 sats`, příkaz je:
-```bash
+```plaintext
 load 0001
 ```
 
@@ -173,7 +173,7 @@ Tento krok trvá několik minut v závislosti na vašem počítači. Nyní je do
 ![WST](assets/notext/14.webp)
 
 Po načtení dat zadejte příkaz `score` následovaný vaším TXID (identifikátorem transakce) pro získání jeho anonsetů:
-```bash
+```plaintext
 score TXID
 ```
 

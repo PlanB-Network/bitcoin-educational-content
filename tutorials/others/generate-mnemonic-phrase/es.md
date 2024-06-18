@@ -111,14 +111,14 @@ Escribe el comando `echo`, seguido de tu entropía generada previamente, asegur�
 ![mnemonic](assets/notext/17.webp)
 
 Añade un espacio adicional, luego introduce el siguiente comando, utilizando un *pipe* (`|`):
-```bash
+```plaintext
 | shasum -a 256 -0
 ```
 
 ![mnemonic](assets/notext/18.webp)
 
 En el ejemplo con mi entropía, el comando total es el siguiente:
-```bash
+```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
@@ -135,7 +135,7 @@ Después de verificar cuidadosamente que tu secuencia binaria no contenga errore
 ![mnemonic](assets/notext/19.webp)
 
 Por ahora, el hash se expresa en formato hexadecimal (base 16). Por ejemplo, el mío es:
-```bash
+```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
@@ -183,14 +183,14 @@ Para convertir cada línea binaria en un número decimal, utilizaremos un métod
 - 11vo bit: `1`.
 
 Para cada línea, sumaremos los valores correspondientes a los dígitos `1` para obtener el número decimal equivalente del número binario. Tomemos el ejemplo de una línea binaria igual a:
-```bash
+```plaintext
 1010 1101 101
 ```
 
 La conversión sería la siguiente:
 ![mnemonic](assets/notext/21.webp)
 El resultado sería entonces:
-```bash
+```plaintext
 1389
 ```
 
@@ -208,7 +208,7 @@ Después de este ajuste, tienes el rango de cada palabra dentro de la lista. Tod
 [**-> Imprime la lista BIP39 en formato A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Por ejemplo, si el número derivado de la primera línea es 1721, la palabra correspondiente será la 1721 en la lista:
-```bash
+```plaintext
 1721. strike
 ```
 ![mnemónico](assets/notext/25.webp)
@@ -233,7 +233,7 @@ Sin embargo, recientemente se han reportado incidentes de robo de bitcoins debid
 
 El método de interpretar los resultados propuesto por Coldcard difiere del presentado en este tutorial. Mientras recomendamos 128 lanzamientos para alcanzar 128 bits de seguridad en el tutorial, Coldcard sugiere 99 lanzamientos para alcanzar 256 bits de seguridad. De hecho, en nuestro enfoque, solo dos resultados son posibles para cada lanzamiento de dados: par (`0`) o impar (`1`). Por lo tanto, la entropía generada por cada lanzamiento es igual a `log2(2)`. En el caso de Coldcard, que toma en cuenta las seis posibles caras de los dados (de `1` a `6`), la entropía por lanzamiento es igual a `log2(6)`. Es por esto que en nuestro tutorial, necesitamos realizar más lanzamientos para alcanzar el mismo nivel de entropía.
 
-```bash
+```plaintext
 Entropía = número de lanzamientos * log2(número de posibles resultados en los dados)
 Coldcard:
 

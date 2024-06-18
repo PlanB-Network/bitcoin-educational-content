@@ -110,14 +110,14 @@ Napište příkaz `echo`, následovaný vaším dříve vygenerovaným entropií
 ![mnemonic](assets/notext/17.webp)
 
 Přidejte další mezeru, poté zadejte následující příkaz, použijte *pipe* (`|`):
-```bash
+```plaintext
 | shasum -a 256 -0
 ```
 
 ![mnemonic](assets/notext/18.webp)
 
 V příkladu s mou entropií je celý příkaz následující:
-```bash
+```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
@@ -134,7 +134,7 @@ Po pečlivém ověření, že vaše binární sekvence neobsahuje žádné chyby
 ![mnemonic](assets/notext/19.webp)
 
 Zatím je hash vyjádřen ve formátu hexadecimální (základ 16). Například můj je:
-```bash
+```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
@@ -183,14 +183,14 @@ Pro převod každého řádku binárních čísel na desítkové číslo použij
 - 11. bit: `1`.
 
 Pro každý řádek sečteme hodnoty odpovídající číslicím `1`, abychom získali desítkové číslo ekvivalentní binárnímu číslu. Vezměme si příklad binárního řádku rovného:
-```bash
+```plaintext
 1010 1101 101
 ```
 
 Převod by proběhl takto:
 ![mnemonic](assets/notext/21.webp)
 Výsledek by poté byl:
-```bash
+```plaintext
 1389
 ```
 
@@ -208,7 +208,7 @@ Po tomto nastavení máte hodnost každého slova v seznamu. Zbývá už jen ka�
 [**-> Vytiskněte seznam BIP39 ve formátu A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Například, pokud číslo odvozené z prvního řádku je 1721, odpovídající slovo bude 1721. na seznamu:
-```bash
+```plaintext
 1721. strike
 ```
 ![mnemonic](assets/notext/25.webp)
@@ -233,7 +233,7 @@ Nicméně, nedávno byly hlášeny případy krádeže bitcoinů kvůli nespráv
 
 Metoda interpretace výsledků navržená Coldcardem se liší od té, kterou jsme prezentovali v tomto návodu. Zatímco my doporučujeme 128 hodů pro dosažení 128 bitů bezpečnosti v návodu, Coldcard navrhuje 99 hodů pro dosažení 256 bitů bezpečnosti. Skutečně, v našem přístupu jsou možné pouze dva výsledky pro každý hod kostkou: sudý (`0`) nebo lichý (`1`). Proto entropie generovaná každým hodem je rovna `log2(2)`. V případě Coldcardu, který bere v úvahu šest možných stran kostky (od `1` do `6`), je entropie na hod rovna `log2(6)`. To je důvod, proč v našem návodu potřebujeme provést více hodů, abychom dosáhli stejné úrovně entropie.
 
-```bash
+```plaintext
 Entropie = počet hodů * log2(počet možných výsledků na kostce)
 Coldcard:
 

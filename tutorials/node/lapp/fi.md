@@ -1,4 +1,3 @@
-```
 ---
 name: LAPP bitcoin
 description: Opas ensimmäisen LAppisi kehittämiseen

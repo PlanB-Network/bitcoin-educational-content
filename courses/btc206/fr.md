@@ -1,3 +1,14 @@
+---
+name: Les Inscriptions sur Bitcoin au travers d'Ordinals
+goal: Comprendre le fonctionnement technique et effectif d'Ordinals
+objectives:
+  - Définir les notions théoriques d'Ordinals
+  - Savoir comment les données sont inscrites sur Bitcoin 
+  - Utiliser des outils pour explorer les inscriptions.
+  - Comprendre les projets qui utilisent Ordinals
+---
+
+
 # 0/ Précautions
 
 Avertissement : Risques.

@@ -83,6 +83,7 @@ Olemme innoissamme saadessamme sinut mukaan tälle matkalle rahoitusjärjestelm�
 
 ## Johdatus rahaan
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+
 Raha on kiehtova ja olennainen osa jokapäiväistä elämäämme. Käytämme sitä päivittäin ostamaan ruokaa, maksamaan laskuja ja suorittamaan lukemattomia transaktioita. Mutta mikä raha oikeastaan on? Perimmiltään raha on vain vaihdon väline, työkalu, joka mahdollistaa tavaroiden ja palveluiden vaihtamisen keskenämme. Se on abstrakti käsite, jonka otamme itsestäänselvyytenä, mutta se on perustavanlaatuinen talousjärjestelmällemme.
 
 Kaikki raha ei kuitenkaan ole samanarvoista. Jotkin rahan muodot ovat parempia kuin toiset, riippuen niiden kyvystä toimia arvon säilyttäjänä, vaihdon välineenä ja laskentayksikkönä. Kulta esimerkiksi on ollut arvostettu tuhansien vuosien ajan sen kestävyyden ja harvinaisuuden vuoksi. Toisaalta, paperiraha on vain niin arvokasta kuin luottamus, jonka asetamme sen liikkeeseen laskeviin instituutioihin.
@@ -159,6 +160,8 @@ Tulevissa moduuleissa tutkimme kahta suosittua rahan muotoa: Bitcoinia ja stable
 Vaihdannasta kolikoiden ja paperirahan keksimiseen raha on kokenut sarjan muutoksia sopeutuakseen yhteiskunnan jatkuvasti muuttuviin tarpeisiin. Siirtyessämme seuraavaan lukuun, muutetaan kurssia ja suunnataan huomiomme rahan kehitykseen.
 
 ## Tutkimus siitä, miten tähän on tultu
+<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+
 Vaihdantataloudesta digitaalisten valuuttojen nykyaikaan raha on kokenut kiehtovan evoluution. Esivanhempamme käyttivät vaihdon välineinä simpukoita, helmiä ja jopa karjaa. Nykyään meillä on virtuaaliset lompakot ja lähimaksut. Se on huomattava matka, joka on nähnyt lukemattomia iteraatioita, kompromisseja ja sopeutumisia vastaamaan yhteiskunnan jatkuvasti muuttuvia tarpeita.
 
 Mutta miten käyttämämme raha on kehittynyt tullakseen korvaamattomaksi osaksi elämäämme, joka se on tänään? Tässä osiossa tutkimme rahan evoluutiota sen varhaisimmista muodoista nykypäivän digitaalisiin valuuttoihin, joita käytämme tänään. Syvennymme jokaiseen merkittävään rahan iteraatioon, tarkastellen, miten ne ovat auttaneet muovaamaan nykyaikaista yhteiskuntaamme.
@@ -1454,6 +1457,10 @@ Bitcoinin tarjoaman taloudellisen itsenäisyyden lisäksi se on myös antanut Af
 Lisäksi Mahboobin ja Bitcoinin avulla nämä Afganistanin naiset voivat nyt yhdistää globaalin yleisön kanssa. Toivottavasti tulevina vuosina nämä naiset jatkavat tarinoidensa ja näkökulmiensa jakamista maailman kanssa, auttaen murtamaan eri kulttuurien ja yhteisöjen välisiä esteitä.
 
 Kaiken kaikkiaan Bitcoin on ollut voimakas työkalu naisten taloudellisessa voimaannuttamisessa.
+
+## Mercedes
+<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+
 Syntyneenä Meksikossa vuonna 1949 köyhissä olosuhteissa, Mercedes koki yhteiskuntansa syvät eriarvoisuudet jo nuoresta iästä lähtien. Lapsuutensa aikana hän kohtasi lukuisia haasteita, mukaan lukien hallituksen opiskelijaliikkeiden sorto ja naisille köyhyydessä eläessä ominaiset erityiset vaikeudet. Lisäksi suuri kuilu rikkaiden ja köyhien välillä, yhdistettynä rajalliseen pääsyyn laadukkaaseen koulutukseen, jätti hänen perheensä ja lukemattomat muut köyhyyteen. Nämä epäoikeudenmukaisuudet turhauttivat Mercedesiä, joka kääntyi marxilaisuuden (kommunismin) puoleen ajamaan sosiaalista muutosta ja taloudellista uudistusta.
 
 Vaikka Mercedes piti vahvasti kiinni marxilaisista uskomuksistaan, hän lopulta tunnusti näiden perinteisten järjestelmien sisäiset rajoitukset, kun kyse oli vallan ja varallisuuden jaosta. Tämä oivallus sai hänet etsimään muita vaihtoehtoja, jolloin hän kohtasi Bitcoinin ja sen potentiaalin haastaa juuri ne rahoitusjärjestelmät, joita hän oli pitkään kritisoinut. Bitcoinin tarjoaman taloudellisen vapautumisen ja voimaannuttamisen mahdollisuus motivoi Mercedesiä edistämään Bitcoinin muutosvoimaa.
@@ -1473,6 +1480,8 @@ Toivoa ja innostusta täynnä Mercedes näkee Bitcoinin potentiaalin muuttaa maa
 Mercedesin elämä on ollut uskomaton matka, ja Bitcoinin vaikutus hänen elämäänsä on todella merkittävä. Hänen tarinansa toimii toivon majakkana siitä, että Bitcoin voi tuoda merkityksellistä muutosta ja voimaannuttaa ihmisiä kaikilta elämänaloilta. Taloudellisen tasa-arvon puolestapuhujana hän hyödyntää laajaa tietämystään ja matkakokemuksiaan kouluttaakseen ja kohottaakseen niitä, jotka ovat marginaalissa perinteisten rahoitusjärjestelmien vuoksi. Hänen jatkuvat ponnistelunsa ovat esimerkki siitä, miten yhden ihmisen intohimo ja päättäväisyys voivat inspiroida positiivista muutosta yhteisöissä ympäri maailmaa.
 
 ## Stablecoin Stories
+<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+
 Kun lähestymme tämän kurssin loppua, haluaisimme esitellä kokoelman inspiroivia stablecoin-tarinoita. Nämä todistukset esittelevät todellisia kokemuksia yksilöiltä, yritysten omistajilta ja yrityksiltä, jotka ovat hyödyntäneet stablecoineja parantaakseen elämäänsä.
 
 Seuraavissa esimerkeissä kuulet ensikäden kertomuksia siitä, miten stablecoinit ovat voimaannuttaneet tätä monimuotoista ihmisryhmää navigoimaan nykyaikaisen talousmaiseman monimutkaisuuksien läpi suuremmalla helppoudella ja tehokkuudella. Saumattomista kansainvälisistä transaktioista ja laajentuneista liiketoimintamahdollisuuksista parantuneeseen taloudelliseen osallisuuteen ja vakaampaan arvon säilyttämiseen, jokainen tarina korostaa stablecoinien vaikutusta heidän matkallaan.

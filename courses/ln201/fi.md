@@ -186,11 +186,16 @@ Nämä kaksi elementtiä lisätään sitoumustapahtumaan. Seurauksena Alice jout
 ![instruction](assets/Chapitre5/1.webp)
 Nyt (ja todellisuudessa) sitoutumistransaktio ei ole sama Alicelle ja Bobille, ne ovat symmetrisiä mutta kullakin on erilaiset rajoitukset, he antavat toisilleen salaisuutensa, jotta voivat luoda edellisen sitoutumistransaktion peruutusavaimen. Joten luomishetkellä Alice luo kanavan Bobin kanssa, 130 000 SAT hänen puolellaan, hänellä on aikalukko, joka estää häntä välittömästi saamasta rahansa takaisin, hänen täytyy odottaa hetki. Peruutusavain voi avata rahat, mutta vain Alicella on se (Alicen sitoutumistransaktio). Kun siirto tapahtuu, Alice antaa vanhan salaisuutensa Bobille ja siten jälkimmäinen voi tyhjentää kanavan edelliseen tilaan, jos Alice yrittää huijata (Alice siis rangaistaan).
 
+![instruction](assets/Chapitre5/2.webp)
+
 Samoin Bob antaa salaisuutensa Alicelle. Joten jos hän yrittää huijata, Alice voi rangaista häntä. Toiminto toistetaan jokaiselle uudelle sitoutumistransaktiolle. Uusi salaisuus päätetään ja uusi peruutusavain. Joten jokaiselle uudelle transaktiolle, edellinen sitoutumistransaktio on tuhottava antamalla peruutussalaisuus. Näin ollen, jos Alice tai Bob yrittää huijata, toinen voi toimia ennen (kiitos aikaluukon) ja siten välttää huijauksen. Transaktiossa #3, transaktion #2 salaisuus annetaan siis mahdollistamaan Alicen ja Bobin puolustautumisen Alicen tai Bobin huijausta vastaan.
+
+![instruction](assets/Chapitre5/3.webp)
 
 Henkilö, joka luo transaktion aikaluukolla (se, joka lähettää rahat), voi käyttää peruutusavainta vasta aikaluukon jälkeen. Kuitenkin henkilö, joka vastaanottaa rahat, voi käyttää sitä ennen aikaluukkoa, jos toisella puolella kanavaa Lightning Networkissa tapahtuu huijaus. Erityisesti käymme läpi mekanismeja, jotka mahdollistavat mahdollisen huijauksen estämisen kanavakumppanin toimesta.
 
 ## Kanavan Sulkeminen
+<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
 Olemme kiinnostuneita kanavan sulkemisesta Bitcoin-transaktion kautta, joka voi ottaa eri muotoja riippuen tapauksesta. Kanavan sulkemistyyppejä on 3:
 
@@ -198,9 +203,15 @@ Olemme kiinnostuneita kanavan sulkemisesta Bitcoin-transaktion kautta, joka voi 
 - Raaka: pakotettu sulkeminen (ei-yhteistyöllinen)
 - Huijaus: huijarin sulkeminen
 
+![instruction](assets/chapitre6/1.webp)
+![instruction](assets/chapitre6/0.webp)
+
+
 ### Hyvä
 
 Kaksi vertaista kommunikoi ja sopii kanavan sulkemisesta. He lopettavat kaikki transaktiot ja vahvistavat kanavan lopullisen tilan. He sopivat verkkojen maksuista (henkilö, joka avasi kanavan, maksaa sulkemismaksut). He luovat nyt sulkemistransaktion. On olemassa sulkemistransaktio, joka eroaa sitoutumistransaktioista, koska siinä ei ole aikaluukkoa eikä peruutusavainta. Transaktio julkaistaan ja Alice ja Bob saavat vastaavat saldonsa. Tämän tyyppinen sulkeminen on nopea (koska ei ole aikaluukkoa) ja yleensä edullinen.
+
+![instruction](assets/chapitre6/3.webp)
 
 ### Raaka
 

@@ -225,9 +225,11 @@ EI, yleisesti ottaen hakkerien maksamista ei suositella lunasohjelmien tai muide
 Jos havaitset viruksen tietokoneellasi, katkaise yhteys internetiin, suorita täysi virustorjuntaskannaus ja poista tartunnan saaneet tiedostot. Sen jälkeen, päivitä ohjelmistosi ja käyttöjärjestelmäsi, ja vaihda salasanasi estääksesi lisäintruusiot.
 
 # Ratkaisujen toteuttaminen.
-<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>15ec9022-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Sähköpostitilien hallinta
+<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
 ### Uuden sähköpostitilin perustaminen!
 
 Sähköpostitili on keskeinen osa verkkotoimintaasi: jos se on vaarantunut, hakkeri voi käyttää sitä kaikkien salasanojesi nollaamiseen "unohdin salasanan" -toiminnon kautta ja päästä käsiksi moniin muihin sivustoihin. Siksi on tärkeää suojata se asianmukaisesti.
@@ -256,6 +258,7 @@ Bonus Bitcoin: Saattaa olla suositeltavaa luoda erityinen sähköpostiosoite Bit
 **_Opas on työn alla, osallistuaksesi tai lisätäksesi sen, voit mennä GitHubin kautta_**
 
 ## Salasananhallintaohjelma
+<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### Mikä on salasananhallintaohjelma?
 

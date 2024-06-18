@@ -930,6 +930,7 @@ Tänään, vuonna 2023, Bitcoin jatkaa selviytymistään ja kasvuaan integroitum
 ![Alt text](assets/posters/en/15._bitcoinr_never_sleeps.webp)
 
 ## Bitcoinien hankkiminen työskentelemällä
+<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 ### Kehittyy rinnakkainen talous
 

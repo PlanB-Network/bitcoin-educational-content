@@ -60,9 +60,8 @@ Valmis sukeltamaan tähän kiehtovaan seikkailuun? Sukelletaan yhdessä kotilouh
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
 ## Louhinnan selitys
-```xml
 <chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
-```
+
 ### Louhinnan selitys: Palapelitehtävä-analogia
 
 Louhintakonseptin selittämiseksi yksinkertaistetulla tavalla voidaan käyttää osuvaa analogiaa: palapeliä. Aivan kuten palapeli, louhinta on monimutkainen suoritus, mutta helppo todentaa kerran suoritettuna. Bitcoin-louhinnan kontekstissa louhijat pyrkivät nopeasti ratkaisemaan digitaalisen palapelin. Ensimmäinen palapelin ratkaissut louhija esittää ratkaisunsa koko verkolle, joka voi sitten helposti todentaa sen pätevyyden. Tämä onnistunut todentaminen mahdollistaa louhijan uuden lohkon vahvistamisen ja lisäämisen Bitcoin-aikaketjuun. Työstään, joka sisältää merkittäviä kustannuksia, louhija palkitaan tietyn määrän bitcoineja. Tämä palkkio toimii taloudellisena kannustimena louhijoille jatkaa transaktioiden vahvistamista ja Bitcoin-verkon turvaamista.
@@ -146,7 +145,7 @@ Avointen lähdekoodien louhintaohjelmisto
 Yleinen johtopäätös on, että hajauttaminen on ratkaisevan tärkeää Bitcoin-verkon turvallisuuden ja joustavuuden kannalta. Vaikka keskittäminen voi tarjota tehokkuusetuja, se altistaa verkon merkittäville riskeille, mukaan lukien sensuuri ja 51% hyökkäykset. Aloitteet kuten Takai ja uusien protokollien, kuten Stratum V2, käyttöönotto ovat tärkeitä askelia kohti hajauttamista ja Bitcoin-verkon suojelemista näitä uhkia vastaan.
 
 ## Louhintateollisuuden vivahteet
-
+<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 ### Attakain periaate
 
 Tämän hajauttamisen raja?

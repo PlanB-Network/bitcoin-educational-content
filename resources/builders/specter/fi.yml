@@ -1,0 +1,8 @@
+description: |
+  Specter Firmware mahdollistaa oman luottamusta vähentävän allekirjoituslaitteen rakentamisen.
+  Se on FOSS vapaata avoimen lähdekoodin ohjelmistoa MIT-lisenssin alaisena.
+  Avoin lähdekoodi firmware ja hyllyltä saatava laitteisto, luottamusta vähentävään bitcoinin omatoimiseen säilytykseen.
+
+contributors:
+  - rabbit-hole
+  - another-satoshi

@@ -1,0 +1,8 @@
+title: "Katedraali ja basaari"
+publication_year: 1999
+cover: cover_en.webp
+original: true
+description: |
+  "Katedraali ja basaari" kirjoittanut Eric S. Raymond on keskitason tutkielma avoimen lähdekoodin ohjelmistokehitysmallista ja sen vaikutuksesta teknologiaan ja yhteiskuntaan. Oivaltavan analyysin ja henkilökohtaisten kokemusten kautta Raymond vertailee perinteistä "katedraali" lähestymistapaa ohjelmistokehitykseen, jolle on ominaista suljettu ja keskitetty kontrolli, hajautettuun ja yhteistyöhön perustuvaan "basaari" malliin avoimen lähdekoodin kehityksessä. Kirja syventyy avoimen lähdekoodin liikkeen taustalla oleviin periaatteisiin, käytäntöihin ja motivaatioihin, esitellen yhteisövetoisen yhteistyön, vertaisarvioinnin ja läpinäkyvyyden voiman korkealaatuisen ohjelmiston luomisessa. Raymond hyödyntää todellisia esimerkkejä ja tapaustutkimuksia avoimen lähdekoodin kehityksen etujen ja haasteiden havainnollistamiseksi, käsitellen aiheita kuten lisensioinnin, versionhallinnan, vikaseurannan ja yhteisödynamiikan. Teknisten oivallusten ja filosofisten pohdintojen yhdistelmällä "Katedraali ja basaari" tarjoaa arvokkaita opetuksia ja inspiraatiota ohjelmistokehittäjille, teknologia-entusiasteille ja kaikille, jotka ovat kiinnostuneita avoimen lähdekoodin innovaation muutosvoimasta.
+contributors:
+  - rabbit-hole

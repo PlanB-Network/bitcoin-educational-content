@@ -105,7 +105,7 @@ Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et
 
 **> Pour rappel :** Le satoshi, souvent abrégé en sat, est la plus petite unité de Bitcoin, comparable au centime dans les monnaies fiat.
 
-```bash
+```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
@@ -125,7 +125,7 @@ Tous les UTXOs sont sécurisés par des scripts qui définissent les conditions 
 
 Étant donné que le concept de compte est absent sur Bitcoin, le solde d'un portefeuille correspond simplement à la somme des valeurs de tous les UTXOs qu'il peut dépenser. Par exemple, si votre portefeuille Bitcoin peut dépenser les 4 UTXOs suivants :
 
-```bash
+```plaintext
 - 2 BTC
 - 8 BTC
 - 5 BTC
@@ -177,7 +177,7 @@ Imaginons à présent qu'Alice ne possède pas un unique UTXO de `10 000 SATS`, 
 
 Intuitivement, on pourrait penser que les frais de transaction représentent, eux aussi, un output d'une transaction. Mais en réalité, ce n'est pas le cas. Les frais d'une transaction représentent la différence entre le total des inputs et le total des outputs. Cela signifie que, après avoir utilisé une partie de la valeur des inputs pour couvrir les outputs désirés dans une transaction, une certaine somme des inputs reste inutilisée. Cette somme résiduelle constitue les frais de transaction.
 
-```bash
+```plaintext
 Frais = total inputs - total outputs
 ```
 
@@ -187,7 +187,7 @@ Reprenons l'exemple d'Alice qui dispose d'un UTXO de `10 000 SATS` et souhaite a
 ![BTC204](assets/fr/22/6.webp)
 
 En appliquant la formule des frais, nous constatons qu'il reste effectivement `200 SATS` pour les mineurs :
-```bash
+```plaintext
 Frais = total inputs - total outputs
 Frais = 10 000 - (4 000 + 5 800)
 Frais = 10 000 - 9 800
@@ -381,7 +381,7 @@ Pour l'instant, il nous est impossible de préciser quel output représente quel
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de l’envoi simple :
 
-```bash
+```plaintext
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
@@ -405,7 +405,7 @@ Nous savons alors que l’utilisateur observé est vraisemblablement encore en p
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern du balayage :
 
-```bash
+```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
@@ -431,7 +431,7 @@ Tout comme le balayage, ce type de pattern peut également révéler un auto-tra
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la consolidation :
 
-```bash
+```plaintext
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
@@ -455,7 +455,7 @@ Nous pouvons déduire de ce modèle que l’UTXO en input provient d’une soci�
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la dépense groupée (vraisemblablement, c'est une transaction émise par la plateforme Bybit) :
 
-```bash
+```plaintext
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
@@ -473,7 +473,7 @@ L'analyse de ce pattern suggère que nous sommes vraisemblablement en présence 
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern de la transaction collaborative de type coinjoin :
 
-```bash
+```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
 
@@ -510,7 +510,7 @@ Cette heuristique laisse peu de place au doute. À moins qu’il se soit fait pi
 
 Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
 
-```bash
+```plaintext
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
 ```
 
@@ -526,7 +526,7 @@ Sur ce schéma, on peut voir que l’input n° 0 débloque un script P2WPKH (Seg
 
 Voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
 
-```bash
+```plaintext
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
@@ -561,7 +561,7 @@ Si un jour, le bitcoin devient l’unité de compte préférée dans nos échang
 
 Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
 
-```bash
+```plaintext
 2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a
 ```
 
@@ -581,7 +581,7 @@ Par exemple, si nous examinons une transaction présentant une sortie avec un mo
 
 Par exemple, voici une transaction sur laquelle on peut vraisemblablement appliquer cette heuristique : 
 
-```bash
+```plaintext
 b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ```
 
@@ -614,7 +614,7 @@ Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://
 
 Par exemple, voici une adresse réutilisée sur plusieurs transactions :
 
-```bash
+```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
@@ -662,7 +662,7 @@ Il est particulièrement fascinant de constater que Satoshi Nakamoto, avant mêm
 
 Pour vous donner un exemple, voici une transaction sur laquelle nous pouvons vraisemblablement appliquer la CIOH :
 
-```bash
+```plaintext
 20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712
 ```
 
@@ -700,7 +700,7 @@ Au-delà de la nature de l’entité observée, le pattern temporel peut égalem
 
 Par exemple, sur l'adresse réutilisée plusieurs fois dont je vous ai préalablement parlé, on peut observer que les transactions, qu'elles soient entrantes ou sortantes, se concentrent sur un intervalle de 13 heures.
 
-```bash
+```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
@@ -727,7 +727,7 @@ Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateu
 
 Identifiant de la transaction à analyser : 
 
-```bash
+```plaintext
 3769d3b124e47ef4ffb5b52d11df64b0a3f0b82bb10fd6b98c0fd5111789bef7
 ```
 
@@ -737,7 +737,7 @@ Quel est le nom du modèle de cette transaction et quelles interprétations vrai
 
 Identifiant de la transaction à analyser : 
 
-```bash
+```plaintext
 baa228f6859ca63e6b8eea24ffad7e871713749d693ebd85343859173b8d5c20
 ```
 
@@ -747,7 +747,7 @@ Quel est le nom du modèle de cette transaction et quelles interprétations vrai
 
 Identifiant de la transaction à analyser :
 
-```bash
+```plaintext
 3a9eb9ccc3517cc25d1860924c66109262a4b68f4ed2d847f079b084da0cd32b
 ```
 
@@ -759,7 +759,7 @@ Après avoir identifié son modèle, en utilisant les heuristiques internes à l
 
 Identifiant de la transaction à analyser :
 
-```bash
+```plaintext
 35f0b31c05503ebfdf7311df47f68a048e992e5cf4c97ec34aa2833cc0122a12
 ```
 
@@ -773,7 +773,7 @@ Imaginons que Loïc a posté une de ses adresses de réception Bitcoin sur le r�
 
 ![BTC204](assets/notext/35/1.webp)
 
-```bash
+```plaintext
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
@@ -785,7 +785,7 @@ bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 
 Suite à l'exercice 5, grâce à l'heuristique de la réutilisation d'adresses, vous avez pu identifier plusieurs transactions Bitcoin dans lesquelles Loïc semble être impliqué. Normalement, parmi les transactions identifiées, vous devriez avoir repéré celle-ci :
 
-```bash
+```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 ```
 
@@ -801,7 +801,7 @@ Suite à l'exercice 5, grâce à l'heuristique de la réutilisation d'adresses, 
 
 Voici la transaction Bitcoin à étudier :
 
-```bash
+```plaintext
 bb346dae645d09d32ed6eca1391d2ee97c57e11b4c31ae4325bcffdec40afd4f
 ```
 
@@ -824,19 +824,19 @@ J'ai personnellement identifié au moins deux heuristiques internes qui soutienn
 
 L'heuristique la plus évidente est celle de la réutilisation du même type de script. En effet, l'output `0` est un `P2SH`, reconnaissable à son adresse de réception commençant par `3` :
 
-```bash
+```plaintext
 3Lcdauq6eqCWwQ3UzgNb4cu9bs88sz3mKD
 ```
 
 Tandis que l'output `1` est un `P2WPKH`, identifiable par son adresse débutant par `bc1q` :
 
-```bash
+```plaintext
 bc1qya6sw6sta0mfr698n9jpd3j3nrkltdtwvelywa
 ```
 
 L'UTXO utilisé en input pour cette transaction utilise également un script `P2WPKH` :
 
-```bash
+```plaintext
 bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
@@ -857,19 +857,19 @@ J'ai personnellement identifié au moins deux heuristiques internes qui soutienn
 
 L'heuristique la plus évidente est celle de la réutilisation du même type de script. En effet, l'output `0` est un `P2SH`, reconnaissable à son adresse de réception commençant par `3` :
 
-```bash
+```plaintext
 3FSH5Mnq6S5FyQoKR9Yjakk3X4KCGxeaD4
 ```
 
 Tandis que l'output `1` est un `P2WPKH`, identifiable par son adresse débutant par `bc1q` :
 
-```bash
+```plaintext
 bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg
 ```
 
 L'UTXO utilisé en input pour cette transaction utilise également un script `P2WPKH` :
 
-```bash
+```plaintext
 bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
 ```
 
@@ -886,7 +886,7 @@ Il semble donc vraisemblable que l'utilisateur ayant fourni l'UTXO en input dét
 ***Exercice 5 :***
 On peut voir que 8 transactions peuvent être associées à l'identité de Loïc. Parmi celles-ci, 4 concernent une réception de bitcoins :
 
-```bash
+```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
 d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
@@ -895,7 +895,7 @@ bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
 
 Les 4 autres concernent des envois de bitcoins :
 
-```bash
+```plaintext
 8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
 c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
 a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
@@ -907,7 +907,7 @@ Si nous examinons le modèle de cette transaction, il est apparent qu'il s'agit 
 
 Plusieurs éléments viennent renforcer cette hypothèse. Tout d'abord, le type de script utilisé pour sécuriser l'UTXO en input est un script multisig P2SH 2/3, ce qui indique un niveau de sécurité avancé typique des plateformes d'échange :
 
-```bash
+```plaintext
 OP_PUSHNUM_2
 OP_PUSHBYTES_33 03eae02975918af86577e1d8a257773118fd6ceaf43f1a543a4a04a410e9af4a59
 OP_PUSHBYTES_33 03ba37b6c04aaf7099edc389e22eeb5eae643ce0ab89ac5afa4fb934f575f24b4e
@@ -925,7 +925,7 @@ Enfin, les volumes traités par cette entité sont colossaux. En effet, l'adress
 ***Exercice 7 :***
 En analysant les heures de confirmation des transactions, les horaires UTC suivants peuvent être relevés :
 
-```bash
+```plaintext
 05:43
 20:51
 18:12
@@ -938,7 +938,7 @@ En analysant les heures de confirmation des transactions, les horaires UTC suiva
 
 En analysant ces horaires, il apparaît que les fuseaux UTC-7 et UTC-8 sont cohérentes avec une plage d'activités humaines courantes (entre 08:00 et 23:00) pour une majorité des horaires :
 
-```bash
+```plaintext
 05:43 UTC > 22:43 UTC-7
 20:51 UTC > 13:51 UTC-7
 18:12 UTC > 11:12 UTC-7
@@ -1340,19 +1340,19 @@ Le code de paiement sert ainsi d'identifiant virtuel issu de la graine du portef
 ![BTC204](assets/fr/72/5.webp)
 
 L'objectif de dérivation pour le BIP47 est identifié par l'index `47'` (`0x8000002F`), faisant référence au BIP47. Un exemple de chemin de dérivation pour un code de paiement réutilisable serait le suivant :
-```bash
+```plaintext
 m/47'/0'/0'/
 ```
 
 Pour vous donner une idée de ce à quoi ressemble un code de paiement, voici le mien :
-```bash
+```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Ce code peut également être encodé en QR code, afin de faciliter sa communication, tout comme une adresse de réception classique.
 
 Concernant les PayNym Bots, ces robots que l'on aperçoit parfois sur Twitter, il s'agit de représentations visuelles du code de paiement, créées par Samourai Wallet. Elles sont générées via une fonction de hachage, ce qui leur confère une quasi-unicité. Ils se présentent sous forme d'une petite chaîne de caractères débutant par `+` :
-```bash
+```plaintext
 +throbbingpond8B1
 +twilightresonance487
 +billowingfire340
@@ -1381,31 +1381,31 @@ Le code de paiement de 80 octets se décompose comme suit :
 - **De l'octet `67` à l'octet `79` : Le rembourrage**. Cet espace est destiné à d'éventuelles évolutions futures. Pour la version actuelle, on y place simplement des zéros pour atteindre la taille de 80 octets requise pour une sortie `OP_RETURN`.
 
 Voici la représentation hexadécimale de mon code de paiement réutilisable déjà présenté dans la section précédente :
-```bash
+```plaintext
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
 ![BTC204](assets/fr/72/7.webp)
 
 Ensuite, il faut également ajouter au début l'octet du préfixe `P` pour indiquer clairement qu'il s'agit d'un code de paiement. Cet octet est représenté par `0x47` :
-```bash
+```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
 Enfin, pour assurer l'intégrité du code de paiement, on procède à un calcul de somme de contrôle en utilisant `HASH256`, qui consiste en un double hachage avec la fonction `SHA256`. Les quatre premiers octets résultants de ce hachage sont ensuite concaténés à la fin du code de paiement :
-```bash
+```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
 ![BTC204](assets/fr/72/8.webp)
 
 Une fois ces étapes complétées, le code de paiement est prêt. Il ne reste plus qu'à le convertir en base 58 pour obtenir sa version finale :
-```bash
+```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Au cours de ce processus de création du code de paiement, nous utilisons une clé publique compressée ainsi qu'un code de chaîne. Tous deux sont issus d'une dérivation déterministe et hiérarchique à partir de la graine du portefeuille. Le chemin de dérivation utilisé pour y parvenir est :
-```bash
+```plaintext
 m/47'/0'/0'/
 ```
 
@@ -1453,13 +1453,13 @@ Avant d’aborder les mécanismes de Diffie-Hellman, permettez-moi de vous rappe
 
 `A` est égal à `g` élevé à la puissance `a` modulo `p` :
 
-```bash
+```plaintext
 A = g^a % p 
 ```
 
 `B` est égal à `g` élevé à la puissance `b` modulo `p` :
 
-```bash
+```plaintext
 B = g^b % p
 ```
 
@@ -1469,32 +1469,32 @@ B = g^b % p
 
 `z` est égal à `B` élevé à la puissance `a` modulo `p` :
 
-```bash
+```plaintext
 z = B^a % p
 ```
 
 Pour rappel :
 
-```bash
+```plaintext
 B = g^b % p
 ```
 
 Ainsi, on obtient :
 
-```bash
+```plaintext
 z = B^a % p
 z = (g^b)^a % p
 ```
 
 En appliquant les règles des puissances :
 
-```bash
+```plaintext
 (x^n)^m = x^(nm)
 ```
 
 On obtient alors :
 
-```bash
+```plaintext
 z = g^(ba) % p
 ```
 
@@ -1502,13 +1502,13 @@ z = g^(ba) % p
 
 `z` est égal à `A` élevé à la puissance `b` modulo `p` :
 
-```bash
+```plaintext
 z = A^b % p
 ```
 
 Ainsi, on obtient :
 
-```bash
+```plaintext
 z = (g^a)^b % p
 z = g^(ab) % p
 z = g^(ba) % p
@@ -1528,7 +1528,7 @@ Le principe général de l'algorithme reste le même. Cependant, au lieu d'utili
 
 Pour expliquer brièvement le principe de la cryptographie sur les courbes elliptiques, une clé privée est représentée par un nombre aléatoire situé entre `1` et `n-1`, où `n` représente l'ordre de la courbe. La clé publique, quant à elle, est un point spécifique sur cette courbe, obtenu à partir de la clé privée par des opérations d'addition et de doublement de points à partir du point générateur, selon l'équation :
 
-```bash
+```plaintext
 K = k·G
 ```
 
@@ -1542,13 +1542,13 @@ On va donc utiliser cette propriété pour adapter notre algorithme Diffie-Hellm
 
 - Alice génère un nombre aléatoire `ka` qui sera sa clé privée. Cette clé privée doit rester secrète. Elle détermine sa clé publique `Ka` par addition et doublement de points sur la courbe elliptique choisie :
 
-```bash
+```plaintext
 Ka = ka·G
 ```
 
 - Bob génère également un nombre aléatoire `kb` qui sera sa clé privée. Il calcule la clé publique associée `Kb` :
 
-```bash
+```plaintext
 Kb = kb·G
 ```
 
@@ -1556,13 +1556,13 @@ Kb = kb·G
 
 - Alice calcule un point `(x,y)` sur la courbe en appliquant sa clé privée `ka` à la clé publique de Bob `Kb` :
 
-```bash
+```plaintext
 (x,y) = ka·Kb
 ```
 
 - Bob calcule un point `(x,y)` sur la courbe en appliquant sa clé privée `kb` à la clé publique d'Alice `Ka` :
 
-```bash
+```plaintext
 (x,y) = kb·Ka
 ```
 
@@ -1570,7 +1570,7 @@ Kb = kb·G
 
 Ils obtiennent bien le même secret partagé car :
 
-```bash
+```plaintext
 (x,y) = ka·Kb = ka·(kb·G) = (ka·kb)·G = (kb·ka)·G = kb·(ka·G) = kb·Ka
 ```
 
@@ -1640,25 +1640,25 @@ Maintenant, voyons comment fonctionne cette transaction de notification. Imagino
 
 - Alice sélectionne la clé privée de cette paire. Nous la nommons `a` (minuscule) ;
 
-```bash
+```plaintext
 a
 ```
    
 - Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index `/0`). Nous nommons cette clé publique `B` (majuscule). La clé privée associée à cette clé publique est nommée `b` (minuscule). `B` est déterminé par addition et doublement de points sur la courbe elliptique depuis `G` (le point générateur) avec `b` (la clé privée) :
 
-```bash
+```plaintext
 B = b·G
 ```
 
 - Alice calcule un point secret `S` (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée `a` à partir de la clé publique de Bob `B`.
 
-```bash
+```plaintext
 S = a·B
 ```
 
 - Alice calcule le facteur aveuglant `f` qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : `x` qui est l'abscisse du point secret calculé précédemment. La première entrée est `o` qui est l'UTXO consommé en input de cette transaction (outpoint).
 
-```bash
+```plaintext
 f = HMAC-SHA512(o, x)
 ```
 
@@ -1668,13 +1668,13 @@ f = HMAC-SHA512(o, x)
 
 - Alice sépare dans un premier temps son facteur aveuglant en deux : les 32 premiers octets sont nommés `f1` et les 32 derniers octets sont nommés `f2`. On a donc :
 
-```bash
+```plaintext
 f = f1 || f2
 ```
 
 - Alice calcule le chiffré `x'` de l'abscisse de la clé publique `x` de son code de paiement, et le chiffré `c'` de son code de chaine `c` séparément. `f1` et `f2` agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif).
 
-```bash
+```plaintext
 x' = x XOR f1
 c' = c XOR f2
 ```

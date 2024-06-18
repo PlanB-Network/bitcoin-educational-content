@@ -103,7 +103,7 @@ Lassen Sie uns gemeinsam entdecken, wie man einen neuen Professor in diesem Tuto
 
 - Ihr Professor-Ordner sollte nun so aussehen:
 ![Tutorial](assets/23.webp)
-```bash
+```plaintext
 vorname-nachname/
 ├── fr.yml
 ├── it.yml

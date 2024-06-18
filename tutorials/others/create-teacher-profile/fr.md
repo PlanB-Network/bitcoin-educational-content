@@ -108,7 +108,7 @@ Découvrons ensemble comment ajouter un nouveau professeur dans ce tutoriel !
 
 - Votre dossier de professeur devrait donc ressembler à cela :
 ![tutorial](assets/23.webp)
-```bash
+```plaintext
 first-name-last-name/
 ├── fr.yml
 ├── it.yml

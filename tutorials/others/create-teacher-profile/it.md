@@ -98,7 +98,7 @@ Scopriamo insieme come aggiungere un nuovo professore in questo tutorial!
 - Se preferisci, è anche possibile mantenere la biografia solo nella tua linga madre; ci occuperemo noi della traduzione dopo la presentazione della tua Pull Request.
 
 - La tua cartella professor dovrebbe quindi apparire così:
-```bash
+```plaintext
 nome-cognome/
 ├── fr.yml
 ├── it.yml

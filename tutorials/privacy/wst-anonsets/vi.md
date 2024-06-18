@@ -75,7 +75,7 @@ Biết UTXO của bạn ở điểm thoát của các chu kỳ, anonset hồi t�
 Nếu bạn có một RoninDojo, WST đã được cài đặt sẵn trên node của bạn. Bạn có thể bỏ qua các bước cài đặt và trực tiếp theo dõi các bước sử dụng. Đối với những người không có node RoninDojo, hãy xem cách tiến hành cài đặt công cụ này trên máy tính.
 
 Bạn sẽ cần: Tor Browser (hoặc Tor), Python 3.4.4 hoặc cao hơn, git, và pip. Mở một terminal. Để kiểm tra sự hiện diện và phiên bản của các phần mềm này trên hệ thống của bạn, nhập các lệnh sau:
-```bash
+```plaintext
 python --version
 git --version
 pip --version
@@ -86,26 +86,26 @@ Nếu cần, bạn có thể tải chúng từ các trang web tương ứng:
 - https://www.torproject.org/download/;
 - https://git-scm.com/downloads.
 Sau khi tất cả các phần mềm này được cài đặt, từ một terminal, clone kho WST:
-```bash
+```plaintext
 git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
 ```
 
 ![WST](assets/notext/8.webp)
 
 Di chuyển đến thư mục WST:
-```bash
+```plaintext
 cd whirlpool_stats
 ```
 
 Cài đặt các phụ thuộc:
-```bash
+```plaintext
 pip3 install -r ./requirements.txt
 ```
 
 ![WST](assets/notext/9.webp)
 
 Bạn cũng có thể cài đặt chúng thủ công (tùy chọn):
-```bash
+```plaintext
 pip install PySocks
 pip install requests[socks]
 pip install plotly
@@ -115,12 +115,12 @@ pip install python-bitcoinrpc
 ```
 
 Di chuyển đến thư mục con `/whirlpool_stats`:
-```bash
+```plaintext
 cd whirlpool_stats
 ```
 
 Khởi động WST:
-```bash
+```plaintext
 python3 wst.py
 ```
 
@@ -131,10 +131,10 @@ Khởi động Tor hoặc Tor Browser ở chế độ nền.
 **-> Đối với người dùng RoninDojo, bạn có thể tiếp tục hướng dẫn ngay tại đây.**
 
 Thiết lập proxy cho Tor (RoninDojo),
-```bash
+```plaintext
 socks5 127.0.0.1:9050
 ```
-hoặc đến Tor Browser tùy thuộc vào bạn đang sử dụng cái nào:```bash
+hoặc đến Tor Browser tùy thuộc vào bạn đang sử dụng cái nào:```plaintext
 socks5 127.0.0.1:9150
 ```
 
@@ -143,7 +143,7 @@ Thao tác này sẽ cho phép bạn tải dữ liệu trên OXT qua Tor, nhằm 
 ![WST](assets/notext/11.webp)
 
 Tiếp theo, điều hướng đến thư mục làm việc từ đó bạn dự định tải dữ liệu WST sử dụng lệnh `workdir`. Thư mục này sẽ phục vụ để lưu trữ dữ liệu giao dịch mà bạn sẽ lấy từ OXT dưới dạng các tệp `.csv`. Thông tin này rất quan trọng để tính toán các chỉ số bạn đang tìm kiếm. Bạn tự do chọn vị trí của thư mục này. Có thể sẽ khôn ngoan khi tạo một thư mục cụ thể cho dữ liệu WST. Ví dụ, chúng ta hãy chọn thư mục tải xuống. Nếu bạn sử dụng RoninDojo, bước này không cần thiết:
-```bash
+```plaintext
 workdir path/to/your/directory
 ```
 
@@ -152,7 +152,7 @@ Dấu nhắc lệnh sau đó sẽ thay đổi để chỉ ra thư mục làm vi�
 ![WST](assets/notext/12.webp)
 
 Sau đó tải dữ liệu từ pool chứa giao dịch của bạn. Ví dụ, nếu tôi ở trong pool `100,000 sats`, lệnh là:
-```bash
+```plaintext
 download 0001
 ```
 
@@ -164,7 +164,7 @@ Mã số cho các pool trên WST như sau:
 - Pool 0.01 bitcoins: `001`
 - Pool 0.001 bitcoins: `0001`
 Sau khi dữ liệu được tải xuống, hãy tải nó. Ví dụ, nếu tôi ở trong pool của `100,000 sats`, lệnh là:
-```bash
+```plaintext
 load 0001
 ```
 
@@ -173,7 +173,7 @@ Bước này mất vài phút tùy thuộc vào máy tính của bạn. Bây gi�
 ![WST](assets/notext/14.webp)
 
 Sau khi tải dữ liệu, gõ lệnh `score` theo sau là TXID (mã định danh giao dịch) của bạn để nhận được anonsets của nó:
-```bash
+```plaintext
 score TXID
 ```
 

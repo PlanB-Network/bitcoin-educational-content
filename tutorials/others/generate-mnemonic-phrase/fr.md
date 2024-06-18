@@ -128,14 +128,14 @@ Tapez la commande `echo`, suivie de votre entropie générée à l'étape préc�
 ![mnemonic](assets/notext/17.webp)
 
 Ajoutez un espace supplémentaire, puis saisissez la commande suivante, en utilisant un *pipe* (`|`) :
-```bash
+```plaintext
 | shasum -a 256 -0
 ```
 
 ![mnemonic](assets/notext/18.webp)
 
 Dans l'exemple avec mon entropie, la commande totale est la suivante :
-```bash
+```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
@@ -152,7 +152,7 @@ Après avoir soigneusement vérifié que votre séquence binaire ne comporte pas
 ![mnemonic](assets/notext/19.webp)
 
 Pour le moment le hash est exprimé en format hexadécimal (base 16). Par exemple, le mien est : 
-```bash
+```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
@@ -201,14 +201,14 @@ Afin de convertir chaque ligne binaire en un nombre décimal, nous allons utilis
 - 11e bit : `1`.
 
 Pour chaque ligne, nous additionnerons les valeurs correspondant aux chiffres `1` pour obtenir le nombre décimal équivalent du nombre binaire. Prenons l'exemple d'une ligne en binaire égale à :
-```bash
+```plaintext
 1010 1101 101
 ```
 
 La conversion se ferait comme cela :
 ![mnemonic](assets/notext/21.webp)
 Le résultat serait alors :
-```bash
+```plaintext
 1389
 ```
 
@@ -230,7 +230,7 @@ Après cet ajustement, vous disposez du rang de chaque mot au sein de la liste. 
 [**-> Imprimer la liste du BIP39 en format A4.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Par exemple, si le nombre dérivé de la première ligne est 1721, le mot correspondant sera le 1721ème de la liste :
-```bash
+```plaintext
 1721. strike
 ```
 ![mnemonic](assets/notext/25.webp)
@@ -256,7 +256,7 @@ Cependant, des incidents de vols de bitcoins ont été signalés récemment à c
 
 La méthode d'interprétation des résultats proposée par Coldcard diffère de celle exposée dans ce tutoriel. Tandis que nous recommandons 128 lancers pour obtenir 128 bits de sécurité dans le tutoriel, Coldcard suggère 99 lancers pour atteindre 256 bits de sécurité. En effet, dans notre approche, seuls deux résultats sont possibles pour chaque lancer de dé : pair (`0`) ou impair (`1`). L'entropie générée par chaque lancer équivaut donc à `log2(2)`. Dans le cas de Coldcard, qui prend en compte les six faces possibles des dés (de `1` à `6`), l'entropie par lancer est égale à `log2(6)`. C'est pour cette raison que dans notre tutoriel, nous devons effectuer plus de lancers pour obtenir le même niveau d'entropie.
 
-```bash
+```plaintext
 Entropie = nombre de lancers * log2(nombre de résultats possibles sur le dé)
 
 Coldcard :

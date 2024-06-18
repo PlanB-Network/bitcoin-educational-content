@@ -206,7 +206,7 @@ Se te ofrecerá obtener tu PayNym Bot. Puedes solicitarlo si lo deseas, aunque n
 
 ![samourai](assets/notext/15.webp)
 Antes de proceder a recibir bitcoins en esta nueva billetera, se recomienda encarecidamente volver a verificar la validez de las copias de seguridad de tu billetera (la frase de paso y la frase de recuperación). Para verificar la frase de paso, puedes seleccionar el icono de tu PayNym Bot ubicado en la parte superior izquierda de la pantalla, luego seguir el camino:
-```bash
+```plaintext
 Settings > Troubleshooting > Passphrase/backup test
 ```
 
@@ -219,7 +219,7 @@ Samourai confirmará si es válida.
 ![samourai](assets/notext/17.webp)
 
 Para verificar tu copia de seguridad de la frase de recuperación, accede al icono de tu PayNym Bot, ubicado en la parte superior izquierda de la pantalla, y sigue este camino:
-```bash
+```plaintext
 Settings > Wallet > Show 12-word recovery phrase
 ```
 

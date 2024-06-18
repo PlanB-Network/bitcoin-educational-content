@@ -199,7 +199,7 @@ Khi bạn truy cập vào cửa sổ tạo ví, tôi khuyên bạn nên chọn m
 Đảm bảo tính hợp lệ của sao lưu cụm từ khôi phục của bạn trước khi nhấp vào `Confirm Backup...`. Sparrow sau đó sẽ yêu cầu bạn nhập lại cụm từ của mình để xác minh rằng bạn đã ghi chú nó. Sau khi hoàn thành bước này, tiếp tục bằng cách nhấp vào `Create Keystore`.
 ![sparrow](assets/notext/13.webp)
 Để đường dẫn phái sinh được đề xuất mặc định và nhấn `Import Keystore`. Trong ví dụ của tôi, đường dẫn phái sinh có sự khác biệt nhỏ vì tôi đang sử dụng Testnet cho hướng dẫn này. Đường dẫn phái sinh xuất hiện cho bạn sẽ như sau:
-```bash
+```plaintext
 m/84'/0'/0'
 ```
 

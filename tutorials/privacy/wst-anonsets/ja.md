@@ -55,7 +55,7 @@ anonsetsには2種類あります：
 コインジョインサイクルを経た自分のコインについてこれらの指標を自分で計算するために、Samourai Walletによって特別に開発されたツールを使用できます：*Whirlpool Stats Tools*。
 もしRoninDojoをお持ちであれば、WSTはあなたのノードにプリインストールされています。したがって、インストール手順をスキップして、直接使用手順に従うことができます。RoninDojoノードを持っていない方のために、このツールをコンピューターにインストールする方法を見ていきましょう。
 必要なもの: Torブラウザ（またはTor）、Python 3.4.4以上、git、pip。ターミナルを開きます。これらのソフトウェアの存在とバージョンをシステム上で確認するには、以下のコマンドを入力します：
-```bash
+```plaintext
 python --version
 git --version
 pip --version
@@ -66,22 +66,22 @@ pip --version
 - https://www.torproject.org/download/；
 - https://git-scm.com/downloads。
 これらのソフトウェアがすべてインストールされたら、ターミナルからWSTリポジトリをクローンします：
-```bash
+```plaintext
 git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
 ```
 ![WST](assets/8.webp)
 WSTディレクトリに移動します：
-```bash
+```plaintext
 cd whirlpool_stats
 ```
 
 依存関係をインストールします：
-```bash
+```plaintext
 pip3 install -r ./requirements.txt
 ```
 ![WST](assets/9.webp)
 また、手動でインストールすることもできます（オプション）：
-```bash
+```plaintext
 pip install PySocks
 pip install requests[socks]
 pip install plotly
@@ -91,12 +91,12 @@ pip install python-bitcoinrpc
 ```
 
 `/whirlpool_stats`サブフォルダに移動します：
-```bash
+```plaintext
 cd whirlpool_stats
 ```
 
 WSTを起動します：
-```bash
+```plaintext
 python3 wst.py
 ```
 ![WST](assets/10.webp)
@@ -105,26 +105,26 @@ python3 wst.py
 **-> RoninDojoユーザーの方は、ここからチュートリアルを再開できます。**
 
 Tor（RoninDojo）へのプロキシを設定します、
-```bash
+```plaintext
 socks5 127.0.0.1:9050
 ```
 
 または使用しているものに応じてTorブラウザへのプロキシを設定します：
-```bash
+```plaintext
 socks5 127.0.0.1:9150
 ```
 
 この操作により、トランザクションに関する情報を漏らすことなく、Tor経由でOXT上のデータをダウンロードできます。初心者でこのステップが複雑に思える場合、単にインターネットトラフィックをTorを通じて指向することを意味します。最も簡単な方法は、コンピューターのバックグラウンドでTorブラウザを起動し、このブラウザを介して接続するために2番目のコマンドのみを実行することです（`socks5 127.0.0.1:9150`）。
 ![WST](assets/11.webp)
 次に、`workdir`コマンドを使用して、WSTデータをダウンロードする予定の作業ディレクトリに移動します。このフォルダは、OXTから取得する`.csv`ファイルの形式でトランザクションデータを保存するために使用されます。この情報は、取得しようとしている指標を計算するために不可欠です。このディレクトリの場所は自由に選択できます。WSTデータ専用のフォルダを作成することをお勧めします。例として、ダウンロードフォルダを選択しましょう。RoninDojoを使用している場合、このステップは必要ありません：
-```bash
+```plaintext
 workdir path/to/your/directory
 ```
 
 その後、コマンドプロンプトが変更され、作業ディレクトリが表示されるはずです。
 ![WST](assets/12.webp)
 次に、トランザクションが含まれるプールからデータをダウンロードします。例えば、私が`100,000 sats`プールにいる場合、コマンドは以下の通りです：
-```bash
+```plaintext
 ```markdown
 ![WST](assets/13.webp)
 WSTの通貨コードは以下の通りです：
@@ -133,14 +133,14 @@ WSTの通貨コードは以下の通りです：
 - 0.01ビットコインのプール：`001`
 - 0.001ビットコインのプール：`0001`
 データがダウンロードされたら、それを読み込んでください。例えば、`100,000 sats`のプールにいる場合、コマンドは以下の通りです：
-```bash
+```plaintext
 load 0001
 ```
 
 このステップは、コンピューターによって数分かかります。今がコーヒーを淹れる良いタイミングです！:)
 ![WST](assets/14.webp)
 データを読み込んだ後、`score`コマンドに続けてあなたのTXID（トランザクション識別子）を入力し、その匿名セットを取得します：
-```bash
+```plaintext
 score TXID
 ```
 

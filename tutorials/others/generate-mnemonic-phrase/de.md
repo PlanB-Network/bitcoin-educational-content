@@ -111,14 +111,14 @@ Geben Sie den `echo`-Befehl ein, gefolgt von Ihrer zuvor generierten Entropie, u
 ![mnemonic](assets/notext/17.webp)
 
 Fügen Sie ein zusätzliches Leerzeichen hinzu, dann geben Sie den folgenden Befehl ein, indem Sie eine *Pipe* (`|`) verwenden:
-```bash
+```plaintext
 | shasum -a 256 -0
 ```
 
 ![mnemonic](assets/notext/18.webp)
 
 Im Beispiel mit meiner Entropie lautet der gesamte Befehl wie folgt:
-```bash
+```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
@@ -135,7 +135,7 @@ Nachdem Sie sorgfältig überprüft haben, dass Ihre Binärsequenz keine Tippfeh
 ![mnemonic](assets/notext/19.webp)
 
 Vorerst wird der Hash im hexadezimalen Format (Basis 16) ausgedrückt. Zum Beispiel ist meiner:
-```bash
+```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
 
@@ -184,14 +184,14 @@ Um jede Binärzeile in eine Dezimalzahl umzuwandeln, werden wir eine Methode ver
 - 11. Bit: `1`.
 
 Für jede Zeile werden wir die Werte, die den Ziffern `1` entsprechen, addieren, um die Dezimalzahläquivalent der Binärzahl zu erhalten. Nehmen wir das Beispiel einer Binärzeile gleich:
-```bash
+```plaintext
 1010 1101 101
 ```
 
 Die Umwandlung wäre wie folgt:
 ![mnemonic](assets/notext/21.webp)
 Das Ergebnis wäre dann:
-```bash
+```plaintext
 1389
 ```
 
@@ -209,7 +209,7 @@ Nach dieser Anpassung haben Sie den Rang jedes Wortes innerhalb der Liste. Alles
 [**-> Drucken Sie die BIP39-Liste im A4-Format aus.**](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Zum Beispiel, wenn die aus der ersten Zeile abgeleitete Nummer 1721 ist, wird das entsprechende Wort das 1721. auf der Liste sein:
-```bash
+```plaintext
 1721. strike
 ```
 ![mnemonic](assets/notext/25.webp)
@@ -234,7 +234,7 @@ Jedoch wurden kürzlich Bitcoin-Diebstähle gemeldet, die auf unsachgemäßen Ge
 
 Die Methode zur Interpretation der Ergebnisse, die von Coldcard vorgeschlagen wird, unterscheidet sich von der in diesem Tutorial vorgestellten. Während wir 128 Würfe empfehlen, um 128 Bit Sicherheit im Tutorial zu erreichen, schlägt Coldcard 99 Würfe vor, um 256 Bit Sicherheit zu erreichen. Tatsächlich sind in unserem Ansatz nur zwei Ergebnisse für jeden Würfelwurf möglich: gerade (`0`) oder ungerade (`1`). Daher ist die durch jeden Wurf generierte Entropie gleich `log2(2)`. Im Fall von Coldcard, das die sechs möglichen Seiten des Würfels (von `1` bis `6`) berücksichtigt, ist die Entropie pro Wurf gleich `log2(6)`. Deshalb müssen wir in unserem Tutorial mehr Würfe durchführen, um das gleiche Niveau an Entropie zu erreichen.
 
-```bash
+```plaintext
 Entropie = Anzahl der Würfe * log2(Anzahl der möglichen Ergebnisse auf dem Würfel)
 Coldcard:
 

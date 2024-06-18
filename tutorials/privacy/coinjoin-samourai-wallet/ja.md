@@ -190,7 +190,7 @@ Samouraiは、確認のためもう一度PINコードの入力を求めます。
 PayNym Botを取得することが提案されます。希望する場合はリクエストできますが、このチュートリアルには必須ではありません。
 
 この新しいウォレットでビットコインを受け取る前に、ウォレットのバックアップ（パスフレーズとリカバリーフレーズ）の有効性を再確認することを強く推奨します。パスフレーズを検証するには、画面の左上にあるPayNym Botのアイコンを選択し、次のパスをたどります：
-```bash
+```plaintext
 Settings > Troubleshooting > Passphrase/backup test
 ```
 
@@ -199,7 +199,7 @@ Settings > Troubleshooting > Passphrase/backup test
 Samouraiは、それが有効であるかを確認します。
 
 リカバリーフレーズのバックアップを検証するには、画面の左上にあるPayNym Botのアイコンにアクセスし、このパスをたどります：
-```bash
+```plaintext
 Settings > Wallet > Show 12-word recovery phrase
 ```
 

@@ -215,7 +215,7 @@ You are offered to obtain your PayNym Bot. You can request it if you wish, altho
 
 ![samourai](assets/notext/15.webp)
 Before proceeding to receive bitcoins on this new wallet, it is strongly recommended to recheck the validity of your wallet backups (the passphrase and the recovery phrase). To verify the passphrase, you can select the icon of your PayNym Bot located at the top left of the screen, then follow the path:
-```bash
+```plaintext
 Settings > Troubleshooting > Passphrase/backup test
 ```
 
@@ -228,7 +228,7 @@ Samourai will confirm if it is valid.
 ![samourai](assets/notext/17.webp)
 
 To verify your backup of the recovery phrase, access the icon of your PayNym Bot, located at the top left of the screen, and follow this path:
-```bash
+```plaintext
 Settings > Wallet > Show 12-word recovery phrase
 ```
 

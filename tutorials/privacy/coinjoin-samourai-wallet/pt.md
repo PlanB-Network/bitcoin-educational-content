@@ -206,7 +206,7 @@ Após fazer esses backups, você será direcionado para a interface da sua nova 
 
 ![samourai](assets/notext/15.webp)
 Antes de proceder para receber bitcoins nesta nova carteira, é altamente recomendado verificar novamente a validade dos backups da sua carteira (a passphrase e a frase de recuperação). Para verificar a passphrase, você pode selecionar o ícone do seu PayNym Bot localizado no canto superior esquerdo da tela, e seguir o caminho:
-```bash
+```plaintext
 Settings > Troubleshooting > Passphrase/backup test
 ```
 
@@ -219,7 +219,7 @@ Samourai confirmará se é válida.
 ![samourai](assets/notext/17.webp)
 
 Para verificar seu backup da frase de recuperação, acesse o ícone do seu PayNym Bot, localizado no canto superior esquerdo da tela, e siga este caminho:
-```bash
+```plaintext
 Settings > Wallet > Show 12-word recovery phrase
 ```
 

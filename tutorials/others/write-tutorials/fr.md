@@ -99,7 +99,7 @@ Maintenant que la branche de travail est créée, il est temps de faire l'intég
 	- Un fichier en format markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
 ![tutorial](assets/14.webp)
 - Pour résumer, voici la hiérarchie des fichiers à créer :
-```css
+```plaintext
 sovereign-university-data/
 └── tutorials/
     └── wallet/ (à modifier avec la bonne catégorie)
@@ -143,7 +143,7 @@ sovereign-university-data/
 - Nous allons commencer par remplir la partie `Properties` tout en haut du document. Dans l'éventualité où cette section est absente de votre fichier (si le document est complètement vierge), il vous est possible de la reproduire en la copiant depuis un autre tutoriel existant :
 ![tutorial](assets/20.webp)
 - Vous pouvez aussi l'ajouter manuellement de cette manière à l'aide de votre éditeur de code :
-```mardown
+```markdown
 ---
 name: [Titre]
 description: [Description]

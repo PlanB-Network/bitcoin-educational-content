@@ -96,7 +96,7 @@ Este modelo é profundamente diferente dos sistemas bancários tradicionais que 
 No Bitcoin, funciona de maneira diferente. O conceito de uma conta não existe, e as unidades monetárias não são gerenciadas via saldos, mas através de UTXOs. Um UTXO representa uma quantidade específica de bitcoins que ainda não foi gasta, formando assim uma "peça de bitcoin", que pode ser grande ou pequena. Por exemplo, um UTXO poderia valer `500 BTC` ou apenas `700 SATS`.
 **> Lembrete:** O satoshi, frequentemente abreviado como sat, é a menor unidade do Bitcoin, comparável a um centavo nas moedas fiduciárias.
 
-```bash
+```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
@@ -114,7 +114,7 @@ Todos os UTXOs são protegidos por scripts que definem as condições sob as qua
 
 Dado que o conceito de uma conta é ausente no Bitcoin, o saldo de uma carteira simplesmente corresponde à soma dos valores de todos os UTXOs que ela pode gastar. Por exemplo, se sua carteira Bitcoin pode gastar os seguintes 4 UTXOs:
 
-```bash
+```plaintext
 - 2 BTC
 - 8 BTC
 - 5 BTC
@@ -159,7 +159,7 @@ Agora vamos imaginar que Alice não tem um único UTXO de `10,000 SATS`, mas sim
 
 Intuitivamente, pode-se pensar que as taxas de transação também representam uma saída de uma transação. Mas na realidade, não é o caso. As taxas de uma transação representam a diferença entre o total das entradas e o total das saídas. Isso significa que, após usar parte do valor das entradas para cobrir as saídas desejadas em uma transação, uma certa soma das entradas permanece não utilizada. Esta soma residual constitui as taxas de transação.
 
-```bash
+```plaintext
 Taxas = total de entradas - total de saídas
 ```
 
@@ -168,7 +168,7 @@ Vamos revisitar o exemplo de Alice que tem um UTXO de `10,000 SATS` e quer compr
 ![BTC204](assets/pt/22/6.webp)
 
 Aplicando a fórmula da taxa, de fato vemos que restam `200 SATS` para os mineradores:
-```bash
+```plaintext
 Taxas = total de entradas - total de saídas
 Taxas = 10,000 - (4,000 + 5,800)
 Taxas = 10,000 - 9,800
@@ -337,7 +337,7 @@ Neste momento, é impossível para nós especificar qual saída representa qual 
 
 Por exemplo, aqui está uma transação Bitcoin que adota o padrão de envio simples:
 
-```bash
+```plaintext
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
@@ -360,7 +360,7 @@ Então, sabemos que o usuário observado provavelmente ainda está na posse dest
 
 Por exemplo, aqui está uma transação Bitcoin que adota o padrão de varredura:
 
-```bash
+```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
@@ -384,7 +384,7 @@ Assim como a varredura, esse tipo de padrão também pode revelar uma auto-trans
 
 Por exemplo, aqui está uma transação Bitcoin que adota o padrão de consolidação:
 
-```bash
+```plaintext
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
@@ -406,7 +406,7 @@ A partir deste modelo, podemos deduzir que a entrada UTXO vem de uma empresa com
 
 Por exemplo, aqui está uma transação Bitcoin que adota o padrão de gasto agregado (presumivelmente, é uma transação emitida pela plataforma Bybit):
 
-```bash
+```plaintext
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
@@ -424,7 +424,7 @@ A análise deste padrão sugere que provavelmente estamos lidando com uma transa
 
 Por exemplo, aqui está uma transação Bitcoin que adota o padrão do tipo de transação colaborativa coinjoin:
 
-```bash
+```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
 
@@ -458,7 +458,7 @@ A característica mais óbvia é a reutilização de um endereço de recebimento
 Esta heurística deixa pouco espaço para dúvidas. A menos que a chave privada de alguém tenha sido hackeada, o mesmo endereço de recebimento inevitavelmente revela a atividade de um único usuário. A interpretação que segue é que o troco da transação é a saída com o mesmo endereço que a entrada. Isso permite o rastreamento contínuo do indivíduo com base nesse troco.
 Por exemplo, aqui está uma transação onde esta heurística pode ser razoavelmente aplicada:
 
-```bash
+```plaintext
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
 ```
 
@@ -472,7 +472,7 @@ Neste diagrama, podemos ver que a entrada Nº 0 desbloqueia um script P2WPKH (Se
 
 Aqui está uma transação onde esta heurística pode ser razoavelmente aplicada:
 
-```bash
+```plaintext
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
@@ -503,7 +503,7 @@ Se um dia, o Bitcoin se tornar a unidade de conta preferida em nossas transaçõ
 
 Por exemplo, aqui está uma transação na qual essa heurística provavelmente pode ser aplicada:
 
-```bash
+```plaintext
 2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a
 ```
 
@@ -523,7 +523,7 @@ Por exemplo, se examinarmos uma transação apresentando uma saída com um valor
 
 Por exemplo, aqui está uma transação na qual essa heurística provavelmente pode ser aplicada:
 
-```bash
+```plaintext
 b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ```
 
@@ -556,7 +556,7 @@ Fonte: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bi
 
 Por exemplo, aqui está um endereço reutilizado em várias transações:
 
-```bash
+```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
@@ -601,7 +601,7 @@ A CIOH foi descoberta por Satoshi Nakamoto. Ele discute isso na parte 10 do Whit
 
 Para dar um exemplo, aqui está uma transação na qual provavelmente podemos aplicar a CIOH:
 
-```bash
+```plaintext
 20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712
 ```
 
@@ -633,7 +633,7 @@ Ao contrário, se vemos que o padrão temporal é mais espalhado por 16 horas es
 
 Além da natureza da entidade observada, o padrão temporal também pode nos dar uma localização aproximada do usuário graças aos fusos horários. Podemos assim correlacionar outras transações, e usar o timestamp destas como uma heurística adicional que pode ser adicionada à nossa análise.
 Por exemplo, no endereço reutilizado várias vezes sobre o qual falei anteriormente, podemos observar que as transações, sejam elas de entrada ou saída, estão concentradas em um intervalo de 13 horas.
-```bash
+```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
@@ -658,7 +658,7 @@ Para começar, apresentarei os exercícios. Use seu explorador de blocos para co
 
 ID da transação para análise:
 
-```bash
+```plaintext
 3769d3b124e47ef4ffb5b52d11df64b0a3f0b82bb10fd6b98c0fd5111789bef7
 ```
 
@@ -668,7 +668,7 @@ Qual é o nome do modelo desta transação e que interpretações plausíveis po
 
 ID da transação para análise:
 
-```bash
+```plaintext
 baa228f6859ca63e6b8eea24ffad7e871713749d693ebd85343859173b8d5c20
 ```
 
@@ -678,7 +678,7 @@ Qual é o nome do modelo desta transação e que interpretações plausíveis po
 
 ID da transação para análise:
 
-```bash
+```plaintext
 3a9eb9ccc3517cc25d1860924c66109262a4b68f4ed2d847f079b084da0cd32b
 ```
 
@@ -688,7 +688,7 @@ Após identificar seu modelo, usando as heurísticas internas da transação, qu
 
 ID da transação para análise:
 
-```bash
+```plaintext
 35f0b31c05503ebfdf7311df47f68a048e992e5cf4c97ec34aa2833cc0122a12
 ```
 
@@ -700,7 +700,7 @@ Imagine que Loïc postou um de seus endereços de recebimento de Bitcoin na rede
 
 ![BTC204](assets/notext/35/1.webp)
 
-```bash
+```plaintext
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
 ```
 
@@ -712,7 +712,7 @@ Usando **apenas a heurística de reutilização de endereço**, quais transaçõ
 
 Seguindo o Exercício 5, graças à heurística de reutilização de endereço, você conseguiu identificar várias transações Bitcoin nas quais Loïc parece estar envolvido. Normalmente, entre as transações identificadas, você deveria ter notado esta:
 
-```bash
+```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 ```
 
@@ -728,7 +728,7 @@ Seguindo o Exercício 5, graças à heurística de reutilização de endereço, 
 
 Aqui está a transação Bitcoin para estudar:
 
-```bash
+```plaintext
 bb346dae645d09d32ed6eca1391d2ee97c57e11b4c31ae4325bcffdec40afd4f
 ```
 
@@ -750,19 +750,19 @@ Eu pessoalmente identifiquei pelo menos duas heurísticas internas que suportam 
 
 A heurística mais óbvia é a reutilização do mesmo tipo de script. De fato, a saída `0` é um `P2SH`, reconhecível pelo seu endereço de recebimento que começa com `3`:
 
-```bash
+```plaintext
 3Lcdauq6eqCWwQ3UzgNb4cu9bs88sz3mKD
 ```
 
 Enquanto a saída `1` é um `P2WPKH`, identificável pelo seu endereço que começa com `bc1q`:
 
-```bash
+```plaintext
 bc1qya6sw6sta0mfr698n9jpd3j3nrkltdtwvelywa
 ```
 
 O UTXO usado na entrada para esta transação também utiliza um script `P2WPKH`:
 
-```bash
+```plaintext
 bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
@@ -782,19 +782,19 @@ Eu pessoalmente identifiquei pelo menos duas heurísticas internas que suportam 
 
 A heurística mais óbvia é a reutilização do mesmo tipo de script. De fato, a saída `0` é um `P2SH`, reconhecível pelo seu endereço de recebimento que começa com `3`:
 
-```bash
+```plaintext
 3FSH5Mnq6S5FyQoKR9Yjakk3X4KCGxeaD4
 ```
 
 Enquanto a saída `1` é um `P2WPKH`, identificável pelo seu endereço que começa com `bc1q`:
 
-```bash
+```plaintext
 bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg
 ```
 
 O UTXO usado como entrada para esta transação também utiliza um script `P2WPKH`:
 
-```bash
+```plaintext
 bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
 ```
 
@@ -808,7 +808,7 @@ Portanto, parece provável que o usuário que forneceu o UTXO como entrada ainda
 ***Exercício 5:***
 Podemos ver que 8 transações podem ser associadas à identidade de Loïc. Entre estas, 4 envolvem receber bitcoins:
 
-```bash
+```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
 d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
@@ -817,7 +817,7 @@ bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
 
 As outras 4 envolvem enviar bitcoins:
 
-```bash
+```plaintext
 8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
 c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
 a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
@@ -829,7 +829,7 @@ Se examinarmos o modelo desta transação, é evidente que se trata de um gasto 
 
 Vários elementos reforçam esta hipótese. Primeiro, o tipo de script usado para proteger o UTXO na entrada é um script multisig P2SH 2/3, o que indica um nível avançado de segurança típico de plataformas de câmbio:
 
-```bash
+```plaintext
 OP_PUSHNUM_2
 OP_PUSHBYTES_33 03eae02975918af86577e1d8a257773118fd6ceaf43f1a543a4a04a410e9af4a59OP_PUSHBYTES_33 03ba37b6c04aaf7099edc389e22eeb5eae643ce0ab89ac5afa4fb934f575f24b4e
 OP_PUSHBYTES_33 03d95ef2dc0749859929f3ed4aa5668c7a95baa47133d3abec25896411321d2d2d
@@ -843,7 +843,7 @@ Finalmente, os volumes processados por esta entidade são colossais. De fato, o 
 ***Exercício 7:***
 Ao analisar os tempos de confirmação das transações, os seguintes horários UTC podem ser observados:
 
-```bash
+```plaintext
 05:43
 20:51
 18:12
@@ -856,7 +856,7 @@ Ao analisar os tempos de confirmação das transações, os seguintes horários 
 
 Analisando esses horários, parece que os fusos horários UTC-7 e UTC-8 são consistentes com uma faixa de atividades humanas comuns (entre 08:00 e 23:00) para a maioria dos horários:
 
-```bash
+```plaintext
 05:43 UTC > 22:43 UTC-7
 20:51 UTC > 13:51 UTC-7
 18:12 UTC > 11:12 UTC-7
@@ -1195,18 +1195,18 @@ O código de pagamento serve, assim, como um identificador virtual derivado da s
 ![BTC204](assets/pt/72/5.webp)
 
 O objetivo de derivação para o BIP47 é identificado pelo índice `47'` (`0x8000002F`), referindo-se ao BIP47. Um exemplo de um caminho de derivação para um código de pagamento reutilizável seria o seguinte:
-```bash
+```plaintext
 m/47'/0'/0'/
 ```
 
 Para lhe dar uma ideia de como é um código de pagamento, aqui está o meu:
-```bash
+```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Este código também pode ser codificado em um código QR, para facilitar sua comunicação, assim como um endereço de recebimento tradicional.
 No que diz respeito aos PayNym Bots, esses robôs que às vezes vemos no Twitter, são representações visuais do código de pagamento, criados pela Samourai Wallet. Eles são gerados via uma função de hashing, o que lhes confere quase unicidade. Eles aparecem como uma pequena sequência de caracteres começando com `+`:
-```bash
+```plaintext
 +throbbingpond8B1
 +twilightresonance487
 +billowingfire340
@@ -1235,18 +1235,18 @@ O código de pagamento de 80 bytes se divide da seguinte forma:
 - **Do byte `67` ao byte `79`: O preenchimento**. Esta área é destinada a possíveis desenvolvimentos futuros. Para a versão atual, zeros são simplesmente colocados aqui para alcançar o tamanho necessário de 80 bytes para uma saída `OP_RETURN`.
 
 Aqui está a representação hexadecimal do meu código de pagamento reutilizável já apresentado na seção anterior:
-```bash
+```plaintext
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 
 ![BTC204](assets/pt/72/7.webp)
 
 Em seguida, é necessário adicionar no início o byte prefixo `P` para indicar claramente que se trata de um código de pagamento. Esse byte é representado por `0x47`:
-```bash
+```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
 Finalmente, para garantir a integridade do código de pagamento, um cálculo de checksum é realizado usando `HASH256`, que consiste em um duplo hash com a função `SHA256`. Os primeiros quatro bytes resultantes deste hash são então concatenados ao final do código de pagamento:
-```bash
+```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
@@ -1254,12 +1254,12 @@ Finalmente, para garantir a integridade do código de pagamento, um cálculo de 
 
 Uma vez completados esses passos, o código de pagamento está pronto. Resta apenas convertê-lo para base 58 para obter sua versão final:
 
-```bash
+```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Durante esse processo de criação do código de pagamento, usamos uma chave pública comprimida, bem como um código de cadeia. Ambos são derivados de uma derivação determinística e hierárquica a partir da semente da carteira. O caminho de derivação usado para alcançar isso é:
-```bash
+```plaintext
 m/47'/0'/0'/
 ```
 
@@ -1301,13 +1301,13 @@ Antes de discutir os mecanismos de Diffie-Hellman, permita-me lembrá-lo breveme
 - Em vez de trocarem diretamente os números `a` e `b`, cada parte calcula `A` e `B` da seguinte forma:
 `A` é igual a `g` elevado à potência de `a` módulo `p`:
 
-```bash
+```plaintext
 A = g^a % p 
 ```
 
 `B` é igual a `g` elevado à potência de `b` módulo `p`:
 
-```bash
+```plaintext
 B = g^b % p
 ```
 
@@ -1315,32 +1315,32 @@ B = g^b % p
 
 - Alice, tendo recebido `B`, calcula o valor de `z` da seguinte forma:
 `z` é igual a `B` elevado à potência de `a` módulo `p`:
-```bash
+```plaintext
 z = B^a % p
 ```
 
 Para lembrar:
 
-```bash
+```plaintext
 B = g^b % p
 ```
 
 Assim, obtemos:
 
-```bash
+```plaintext
 z = B^a % p
 z = (g^b)^a % p
 ```
 
 Aplicando as regras de potência:
 
-```bash
+```plaintext
 (x^n)^m = x^(nm)
 ```
 
 Então, obtemos:
 
-```bash
+```plaintext
 z = g^(ba) % p
 ```
 
@@ -1348,13 +1348,13 @@ z = g^(ba) % p
 
 `z` é igual a `A` elevado à potência de `b` módulo `p`:
 
-```bash
+```plaintext
 z = A^b % p
 ```
 
 Assim, obtemos:
 
-```bash
+```plaintext
 z = (g^a)^b % p
 z = g^(ab) % p
 z = g^(ba) % p
@@ -1372,7 +1372,7 @@ Assim, enquanto os valores de `a`, `b` e `p` forem suficientemente grandes, o pr
 O princípio geral do algoritmo permanece o mesmo. No entanto, em vez de usar um número aleatório `a` e um número `A` calculado a partir de `a` por exponenciação modular, usamos um par de chaves estabelecido em uma curva elíptica. Em vez de depender da distributividade do operador módulo, usamos a lei de grupo em curvas elípticas, e mais especificamente a associatividade desta lei.
 Para explicar brevemente o princípio da criptografia em curvas elípticas, uma chave privada é representada por um número aleatório entre `1` e `n-1`, onde `n` representa a ordem da curva. A chave pública, por outro lado, é um ponto específico nesta curva, obtido a partir da chave privada através de operações de adição e duplicação de pontos a partir do ponto gerador, de acordo com a equação:
 
-```bash
+```plaintext
 K = k·G
 ```
 
@@ -1386,13 +1386,13 @@ Portanto, usaremos essa propriedade para adaptar nosso algoritmo Diffie-Hellman.
 
 - Alice gera um número aleatório `ka` que será sua chave privada. Esta chave privada deve permanecer secreta. Ela determina sua chave pública `Ka` pela adição e duplicação de pontos na curva elíptica escolhida:
 
-```bash
+```plaintext
 Ka = ka·G
 ```
 
 - Bob também gera um número aleatório `kb` que será sua chave privada. Ele calcula a chave pública associada `Kb`:
 
-```bash
+```plaintext
 Kb = kb·G
 ```
 
@@ -1400,19 +1400,19 @@ Kb = kb·G
 
 - Alice calcula um ponto `(x,y)` na curva aplicando sua chave privada `ka` à chave pública de Bob `Kb`:
 
-```bash
+```plaintext
 (x,y) = ka·Kb
 ```
 
 - Bob calcula um ponto `(x,y)` na curva aplicando sua chave privada `kb` à chave pública de Alice `Ka`:
 
-```bash
+```plaintext
 (x,y) = kb·Ka
 ```
 - Alice e Bob obtêm o mesmo ponto na curva elíptica. O segredo compartilhado será a coordenada `x` deste ponto.
 Eles de fato obtêm o mesmo segredo compartilhado porque:
 
-```bash
+```plaintext
 (x,y) = ka·Kb = ka·(kb·G) = (ka·kb)·G = (kb·ka)·G = kb·(ka·G) = kb·Ka
 ```
 
@@ -1470,25 +1470,25 @@ Agora, vamos ver como essa transação de notificação funciona. Imagine que Al
 - Ela seleciona um par de chaves de sua carteira HD localizada em um ramo diferente do seu código de pagamento. Note, este par não deve ser facilmente associado ao endereço de notificação de Alice, nem com a identidade de Alice (veja a seção anterior);
 - Alice seleciona a chave privada deste par. Nós a nomeamos `a` (minúscula);
 
-```bash
+```plaintext
 a
 ```
 
 - Alice recupera a chave pública associada ao endereço de notificação de Bob. Esta chave é a primeira derivada filha do código de pagamento de Bob (índice `/0`). Nós nomeamos esta chave pública `B` (maiúscula). A chave privada associada a esta chave pública é nomeada `b` (minúscula). `B` é determinada pela adição e duplicação de pontos na curva elíptica a partir de `G` (o ponto gerador) com `b` (a chave privada):
 
-```bash
+```plaintext
 B = b·G
 ```
 
 - Alice calcula um ponto secreto `S` (maiúscula) na curva elíptica pela adição e duplicação de pontos aplicando sua chave privada `a` à chave pública de Bob `B`.
 
-```bash
+```plaintext
 S = a·B
 ```
 
 - Alice calcula o fator de cegamento `f` que permitirá criptografar seu código de pagamento. Para isso, ela determinará um número pseudo-aleatório com a função HMAC-SHA512. Na segunda entrada desta função, ela usa um valor que apenas Bob poderá recuperar: `x` que é a abscissa do ponto secreto previamente calculado. A primeira entrada é `o` que é o UTXO consumido na entrada desta transação (outpoint).
 
-```bash
+```plaintext
 f = HMAC-SHA512(o, x)
 ```
 
@@ -1496,13 +1496,13 @@ f = HMAC-SHA512(o, x)
 3. **Ela usa esse fator de cegamento como uma chave para realizar a criptografia simétrica no payload do seu código de pagamento.** O algoritmo de criptografia usado é simplesmente um `XOR`. A operação realizada é comparável à cifra de Vernam, também chamada de "One-Time Pad".
 - Alice primeiro divide seu fator de cegamento em dois: os primeiros 32 bytes são nomeados `f1` e os últimos 32 bytes são nomeados `f2`. Assim, temos:
 
-```bash
+```plaintext
 f = f1 || f2
 ```
 
 - Alice calcula o `x'` criptografado da abscissa da chave pública `x` do seu código de pagamento, e o `c'` criptografado do seu código de cadeia `c` separadamente. `f1` e `f2` atuam respectivamente como chaves de criptografia. A operação usada é o `XOR` (ou exclusivo).
 
-```bash
+```plaintext
 x' = x XOR f1
 c' = c XOR f2
 ```

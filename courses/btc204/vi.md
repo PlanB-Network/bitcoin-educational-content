@@ -88,7 +88,7 @@ Trên giao thức Bitcoin, việc quản lý đơn vị tiền tệ xoay quanh m
 Mô hình này hoàn toàn khác biệt so với các hệ thống ngân hàng truyền thống dựa vào cơ chế tài khoản và số dư để theo dõi dòng tiền tệ. Thực sự, trong hệ thống ngân hàng, số dư cá nhân được duy trì trong các tài khoản gắn liền với một danh tính. Ví dụ, khi bạn mua một ổ bánh mì từ một tiệm bánh, ngân hàng của bạn chỉ đơn giản trừ số tiền mua hàng khỏi tài khoản của bạn, do đó giảm số dư của bạn, trong khi tài khoản của tiệm bánh được ghi có cùng một số tiền, tăng số dư của họ. Trong hệ thống này, không có khái niệm về mối liên kết giữa tiền vào tài khoản và tiền ra khỏi nó, ngoại trừ hồ sơ giao dịch.
 Trên Bitcoin, mọi thứ hoạt động khác biệt. Khái niệm về tài khoản không tồn tại, và đơn vị tiền tệ không được quản lý qua số dư mà thông qua UTXO. Một UTXO đại diện cho một lượng bitcoins cụ thể chưa được tiêu, do đó tạo thành một "mảnh bitcoin," có thể lớn hoặc nhỏ. Ví dụ, một UTXO có thể trị giá `500 BTC` hoặc chỉ `700 SATS`.
 **> Nhắc nhở:** Satoshi, thường được viết tắt là sat, là đơn vị nhỏ nhất của Bitcoin, tương đương với một cent trong các đồng tiền tệ thông thường.
-```bash
+```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
@@ -108,7 +108,7 @@ Tất cả UTXOs đều được bảo vệ bởi các script định nghĩa đi
 
 Vì khái niệm về tài khoản không tồn tại trong Bitcoin, số dư của một ví đơn giản tương ứng với tổng giá trị của tất cả UTXOs mà nó có thể chi tiêu. Ví dụ, nếu ví Bitcoin của bạn có thể chi tiêu 4 UTXOs sau:
 
-```bash
+```plaintext
 - 2 BTC
 - 8 BTC
 - 5 BTC
@@ -147,14 +147,14 @@ Bây giờ hãy tưởng tượng rằng Alice không có một UTXO duy nhất 
 
 Một cách trực quan, người ta có thể nghĩ rằng phí giao dịch cũng đại diện cho một output của giao dịch. Nhưng thực tế không phải vậy. Phí của một giao dịch đại diện cho sự chênh lệch giữa tổng số các inputs và tổng số các outputs. Điều này có nghĩa là, sau khi sử dụng một phần giá trị của các inputs để thanh toán cho các outputs mong muốn trong một giao dịch, một số tiền nhất định của các inputs còn lại không được sử dụng. Số tiền dư này tạo thành phí giao dịch.
 
-```bash
+```plaintext
 Phí = tổng inputs - tổng outputs
 ```
 
 Hãy xem lại ví dụ về Alice có một UTXO trị giá `10,000 SATS` và muốn mua một chiếc bánh mì với giá `4,000 SATS`. Alice tạo một giao dịch với UTXO của mình trị giá `10,000 SATS` làm input. Sau đó, cô ấy tạo ra một output trị giá `4,000 SATS` dành cho người bán bánh để thanh toán cho chiếc bánh. Để khuyến khích các thợ mỏ bao gồm giao dịch của mình vào một khối, Alice dành ra `200 SATS` làm phí. Cô ấy do đó tạo ra một output thứ hai, tiền thối, sẽ quay trở lại với cô ấy, với số tiền là `5,800 SATS`.
 
 Bằng cách áp dụng công thức phí, chúng ta thực sự thấy rằng còn lại `200 SATS` cho các thợ mỏ:
-```bash
+```plaintext
 Phí = tổng inputs - tổng outputs
 Phí = 10,000 - (4,000 + 5,800)
 Phí = 10,000 - 9,800
@@ -327,7 +327,7 @@ Tại thời điểm này, chúng ta không thể xác định đầu ra nào đ
 
 Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình gửi đơn giản:
 
-```bash
+```plaintext
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
@@ -350,7 +350,7 @@ Chúng ta sau đó biết rằng người dùng quan sát được có khả nă
 
 Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình quét:
 
-```bash
+```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
@@ -374,7 +374,7 @@ Giống như quét, loại mô hình này cũng có thể tiết lộ một quá
 
 Ví dụ, đây là một giao dịch Bitcoin tuân theo mô hình hợp nhất:
 
-```bash
+```plaintext
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
@@ -396,7 +396,7 @@ Từ mô hình này, chúng ta có thể suy luận rằng đầu vào UTXO đ�
 
 Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình chi tiêu tổng hợp (có lẽ, đó là một giao dịch được phát hành bởi nền tảng Bybit):
 
-```bash
+```plaintext
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
@@ -414,7 +414,7 @@ Phân tích mô hình này gợi ý rằng chúng ta có khả năng đang xử 
 
 Ví dụ, đây là một giao dịch Bitcoin áp dụng mô hình của loại giao dịch hợp tác coinjoin:
 
-```bash
+```plaintext
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
 
@@ -447,7 +447,7 @@ Heuristic này liên quan đến việc nghiên cứu sự tương đồng giữ
 Heuristic này để lại ít không gian cho sự nghi ngờ. Trừ khi khóa riêng của ai đó đã bị hack, cùng một địa chỉ nhận không thể không tiết lộ hoạt động của một người dùng duy nhất. Sự diễn giải theo sau là sự thay đổi từ giao dịch là đầu ra với cùng địa chỉ như đầu vào. Điều này cho phép tiếp tục theo dõi cá nhân dựa trên sự thay đổi này.
 Ví dụ, đây là một giao dịch mà heuristic này có thể được áp dụng một cách hợp lý:
 
-```bash
+```plaintext
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
 ```
 
@@ -462,7 +462,7 @@ Trong sơ đồ này, chúng ta có thể thấy rằng đầu vào số 0 mở 
 
 Dưới đây là một giao dịch mà phương pháp suy luận này có thể được áp dụng một cách hợp lý:
 
-```bash
+```plaintext
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
@@ -493,7 +493,7 @@ Nếu một ngày nào đó, Bitcoin trở thành đơn vị tính toán ưa th�
 
 Ví dụ, đây là một giao dịch mà phép suy luận này có thể được áp dụng:
 
-```bash
+```plaintext
 2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a
 ```
 
@@ -511,7 +511,7 @@ Phép suy luận về đầu ra lớn nhất có lẽ là không chính xác nh�
 
 Ví dụ, đây là một giao dịch mà phép suy luận này có thể được áp dụng:
 
-```bash
+```plaintext
 b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ```
 
@@ -544,7 +544,7 @@ Nguồn: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://
 
 Ví dụ, đây là một địa chỉ được tái sử dụng trên nhiều giao dịch:
 
-```bash
+```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
@@ -587,7 +587,7 @@ CIOH được phát hiện bởi Satoshi Nakamoto. Ông thảo luận về nó t
 
 Để cho bạn một ví dụ, đây là một giao dịch mà chúng ta có thể áp dụng CIOH:
 
-```bash
+```plaintext
 20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712
 ```
 
@@ -619,7 +619,7 @@ Ngược lại, nếu chúng ta thấy rằng mô hình thời gian phân bố r
 Ngoài bản chất của thực thể được quan sát, mô hình thời gian cũng có thể cho chúng ta một vị trí xấp xỉ của người dùng nhờ vào múi giờ. Chúng ta có thể do đó liên kết các giao dịch khác, và sử dụng dấu thời gian của những giao dịch này như một phép heuristics bổ sung có thể được thêm vào phân tích của chúng ta.
 Ví dụ, về địa chỉ được sử dụng nhiều lần mà tôi đã nói trước đó, chúng ta có thể quan sát thấy rằng các giao dịch, dù là giao dịch đến hay đi, đều tập trung trong khoảng thời gian 13 giờ.
 
-```bash
+```plaintext
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
@@ -644,7 +644,7 @@ Lý tưởng nhất, cho những bài tập này, việc sử dụng một công
 
 ID giao dịch cần phân tích:
 
-```bash
+```plaintext
 3769d3b124e47ef4ffb5b52d11df64b0a3f0b82bb10fd6b98c0fd5111789bef7
 ```
 
@@ -654,7 +654,7 @@ Tên mô hình của giao dịch này là gì và những giải thích hợp l�
 
 ID giao dịch cần phân tích:
 
-```bash
+```plaintext
 baa228f6859ca63e6b8eea24ffad7e871713749d693ebd85343859173b8d5c20
 ```
 
@@ -664,7 +664,7 @@ Tên mô hình của giao dịch này là gì và những giải thích hợp l�
 
 ID giao dịch cần phân tích:
 
-```bash
+```plaintext
 3a9eb9ccc3517cc25d1860924c66109262a4b68f4ed2d847f079b084da0cd32b
 ```
 
@@ -675,7 +675,7 @@ Sau khi xác định mô hình của nó, sử dụng các heuristics nội bộ
 
 ID giao dịch cần phân tích:
 
-```bash
+```plaintext
 35f0b31c05503ebfdf7311df47f68a048e992e5cf4c97ec34aa2833cc0122a12
 ```
 
@@ -688,7 +688,7 @@ Hãy tưởng tượng rằng Loïc đã đăng một trong những địa chỉ
 
 ![BTC204](assets/notext/35/1.webp)
 
-```bash
+```plaintext
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqal3um3vu
 ```
 
@@ -700,7 +700,7 @@ Chỉ sử dụng **heuristic tái sử dụng địa chỉ**, chúng ta có th�
 
 Theo sau Bài tập 5, nhờ heuristic tái sử dụng địa chỉ, bạn đã có thể xác định được một số giao dịch Bitcoin mà Loïc có vẻ như đã tham gia. Bình thường, trong số các giao dịch được xác định, bạn nên đã nhận ra giao dịch này:
 
-```bash
+```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 ```
 
@@ -716,7 +716,7 @@ Theo sau Bài tập 5, nhờ heuristic tái sử dụng địa chỉ, bạn đã
 
 Đây là giao dịch Bitcoin cần nghiên cứu:
 
-```bash
+```plaintext
 bb346dae645d09d32ed6eca1391d2ee97c57e11b4c31ae4325bcffdec40afd4f
 ```
 
@@ -737,19 +737,19 @@ Tôi cá nhân đã xác định ít nhất hai phép đoán nội bộ hỗ tr�
 
 Phép đoán rõ ràng nhất là sự tái sử dụng cùng một loại kịch bản. Thực sự, đầu ra `0` là `P2SH`, có thể nhận biết qua địa chỉ nhận bắt đầu bằng `3`:
 
-```bash
+```plaintext
 3Lcdauq6eqCWwQ3UzgNb4cu9bs88sz3mKD
 ```
 
 Trong khi đầu ra `1` là `P2WPKH`, có thể nhận biết qua địa chỉ bắt đầu bằng `bc1q`:
 
-```bash
+```plaintext
 bc1qya6sw6sta0mfr698n9jpd3j3nrkltdtwvelywa
 ```
 
 UTXO được sử dụng làm đầu vào cho giao dịch này cũng sử dụng kịch bản `P2WPKH`:
 
-```bash
+```plaintext
 bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
@@ -769,19 +769,19 @@ Tôi cá nhân đã xác định ít nhất hai phép đoán nội bộ hỗ tr�
 
 Phép đoán rõ ràng nhất là sự tái sử dụng cùng một loại kịch bản. Thực sự, đầu ra `0` là `P2SH`, có thể nhận biết qua địa chỉ nhận bắt đầu bằng `3`:
 
-```bash
+```plaintext
 3FSH5Mnq6S5FyQoKR9Yjakk3X4KCGxeaD4
 ```
 
 Trong khi đầu ra `1` là `P2WPKH`, có thể nhận biết qua địa chỉ bắt đầu bằng `bc1q`:
 
-```bash
+```plaintext
 bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg
 ```
 
 UTXO được sử dụng làm đầu vào cho giao dịch này cũng sử dụng kịch bản `P2WPKH`:
 
-```bash
+```plaintext
 bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
 ```
 
@@ -795,7 +795,7 @@ Vì vậy, có vẻ như người dùng cung cấp UTXO làm input vẫn giữ o
 ***Bài tập 5:***
 Chúng ta có thể thấy rằng có 8 giao dịch có thể liên kết với danh tính của Loïc. Trong số này, 4 liên quan đến việc nhận bitcoins:
 
-```bash
+```plaintext
 2d9575553c99578268ffba49a1b2adc3b85a29926728bd0280703a04d051eace
 8b70bd322e6118b8a002dbdb731d16b59c4a729c2379af376ae230cf8cdde0dd
 d5864ea93e7a8db9d3fb113651d2131567e284e868021e114a67c3f5fb616ac4
@@ -804,7 +804,7 @@ bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
 
 4 giao dịch còn lại liên quan đến việc gửi bitcoins:
 
-```bash
+```plaintext
 8b52fe3c2cf8bef60828399d1c776c0e9e99e7aaeeff721fff70f4b68145d540
 c12499e9a865b9e920012e39b4b9867ea821e44c047d022ebb5c9113f2910ed6
 a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
@@ -816,7 +816,7 @@ Nếu chúng ta xem xét mô hình của giao dịch này, rõ ràng đó là m�
 
 Một số yếu tố củng cố giả thuyết này. Đầu tiên, loại script được sử dụng để bảo vệ UTXO trong input là một script multisig P2SH 2/3, điều này chỉ ra một mức độ bảo mật cao điển hình của các nền tảng giao dịch:
 
-```bash
+```plaintext
 OP_PUSHNUM_2
 OP_PUSHBYTES_33 03eae02975918af86577e1d8a257773118fd6ceaf43f1a543a4a04a410e9af4a59 OP_PUSHBYTES_33 03ba37b6c04aaf7099edc389e22eeb5eae643ce0ab89ac5afa4fb934f575f24b4e OP_PUSHBYTES_33 03d95ef2dc0749859929f3ed4aa5668c7a95baa47133d3abec25896411321d2d2d OP_CHECKNUM_3 OP_CHECKMULTISIG
 ```
@@ -827,7 +827,7 @@ Cuối cùng, khối lượng giao dịch của thực thể này là khổng l�
 ***Bài tập 7:***
 Bằng cách phân tích thời gian xác nhận của các giao dịch, có thể lưu ý thời gian UTC sau:
 
-```bash
+```plaintext
 05:43
 20:51
 18:12
@@ -840,7 +840,7 @@ Bằng cách phân tích thời gian xác nhận của các giao dịch, có th�
 
 Phân tích những thời gian này, có vẻ như múi giờ UTC-7 và UTC-8 phù hợp với phạm vi các hoạt động con người phổ biến (từ 08:00 đến 23:00) cho đa số các thời gian:
 
-```bash
+```plaintext
 05:43 UTC > 22:43 UTC-7
 20:51 UTC > 13:51 UTC-7
 18:12 UTC > 11:12 UTC-7
@@ -1175,18 +1175,18 @@ Mã thanh toán do đó phục vụ như một định danh ảo được tạo 
 ![BTC204](assets/vi/72/5.webp)
 
 Mục tiêu phái sinh cho BIP47 được xác định bởi chỉ số `47'` (`0x8000002F`), ám chỉ BIP47. Ví dụ về một đường dẫn phái sinh cho một mã thanh toán có thể tái sử dụng như sau:
-```bash
+```plaintext
 m/47'/0'/0'/
 ```
 
 Để cho bạn có một ý tưởng về mã thanh toán trông như thế nào, đây là mã của tôi:
-```bash
+```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Mã này cũng có thể được mã hóa trong một mã QR, để thuận tiện cho việc truyền đạt, giống như một địa chỉ nhận truyền thống.
 Về PayNym Bots, những robot mà người ta đôi khi thấy trên Twitter, chúng là biểu diễn hình ảnh của mã thanh toán, được tạo ra bởi Samourai Wallet. Chúng được tạo ra thông qua một hàm băm, mang lại cho chúng sự gần như là duy nhất. Chúng xuất hiện dưới dạng một chuỗi nhỏ các ký tự bắt đầu với `+`:
-```bash
+```plaintext
 +throbbingpond8B1
 +twilightresonance487
 +billowingfire340
@@ -1216,22 +1216,22 @@ Mã thanh toán 80 byte được phân chia như sau:
 
 Dưới đây là biểu diễn hệ thập lục phân của mã thanh toán có thể sử dụng lại của tôi đã được trình bày trong phần trước:
 Tiếp theo, cũng cần phải thêm vào đầu mã tiền tệ byte tiền tố `P` để chỉ rõ rằng đó là một mã thanh toán. Byte này được biểu diễn bởi `0x47`:
-```bash
+```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
 Cuối cùng, để đảm bảo tính toàn vẹn của mã thanh toán, một phép tính checksum được thực hiện sử dụng `HASH256`, bao gồm một phép băm kép với hàm `SHA256`. Bốn byte đầu tiên thu được từ phép băm này sau đó được nối vào cuối mã thanh toán:
-```bash
+```plaintext
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
 Khi các bước này được hoàn thành, mã thanh toán đã sẵn sàng. Tất cả những gì còn lại là chuyển đổi nó thành base 58 để nhận được phiên bản cuối cùng của nó:
-```bash
+```plaintext
 PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4Hwq9JXSRzGcZJbdJAjM9oVQ1UKU5j2nr7VR5
 ```
 
 Trong quá trình tạo mã thanh toán này, chúng tôi sử dụng một khóa công khai nén cũng như một mã chuỗi. Cả hai đều được suy ra từ một sự suy diễn quyết định và phân cấp từ hạt giống của ví. Đường dẫn suy diễn được sử dụng để đạt được điều này là:
-```bash
+```plaintext
 m/47'/0'/0'/
 ```
 
@@ -1271,13 +1271,13 @@ Trước khi thảo luận về các cơ chế của Diffie-Hellman, cho phép t
 - Thay vì trực tiếp trao đổi các số `a` và `b`, mỗi bên tính toán `A` và `B` như sau:
 `A` bằng `g` mũ `a` chia lấy dư cho `p`:
 
-```bash
+```plaintext
 A = g^a % p 
 ```
 
 `B` bằng `g` mũ `b` chia lấy dư cho `p`:
 
-```bash
+```plaintext
 B = g^b % p
 ```
 
@@ -1285,32 +1285,32 @@ B = g^b % p
 
 - Alice, sau khi nhận được `B`, tính giá trị của `z` như sau:
 `z` bằng `B` mũ `a` chia lấy dư cho `p`:
-```bash
+```plaintext
 z = B^a % p
 ```
 
 Để nhớ:
 
-```bash
+```plaintext
 B = g^b % p
 ```
 
 Như vậy, chúng ta có:
 
-```bash
+```plaintext
 z = B^a % p
 z = (g^b)^a % p
 ```
 
 Áp dụng quy tắc lũy thừa:
 
-```bash
+```plaintext
 (x^n)^m = x^(nm)
 ```
 
 Chúng ta thu được:
 
-```bash
+```plaintext
 z = g^(ba) % p
 ```
 
@@ -1318,13 +1318,13 @@ z = g^(ba) % p
 
 `z` bằng `A` mũ `b` chia lấy dư cho `p`:
 
-```bash
+```plaintext
 z = A^b % p
 ```
 
 Như vậy, chúng ta có:
 
-```bash
+```plaintext
 z = (g^a)^b % p
 z = g^(ab) % p
 z = g^(ba) % p
@@ -1343,7 +1343,7 @@ Nguyên tắc chung của thuật toán vẫn giữ nguyên. Tuy nhiên, thay v�
 
 Để giải thích ngắn gọn nguyên tắc của mã hóa trên các đường cong elliptic, một khóa riêng được biểu diễn bởi một số ngẫu nhiên từ `1` đến `n-1`, nơi `n` đại diện cho bậc của đường cong. Ngược lại, khóa công khai là một điểm cụ thể trên đường cong này, được thu được từ khóa riêng thông qua các phép toán cộng điểm và nhân đôi điểm từ điểm sinh, theo phương trình:
 
-```bash
+```plaintext
 K = k·G
 ```
 
@@ -1357,13 +1357,13 @@ Chúng ta sẽ sử dụng tính chất này để điều chỉnh thuật toán
 
 - Alice tạo ra một số ngẫu nhiên `ka` sẽ là khóa riêng của cô ấy. Khóa riêng này phải được giữ bí mật. Cô ấy xác định khóa công khai `Ka` của mình bằng cách cộng và nhân đôi các điểm trên đường cong elliptic đã chọn:
 
-```bash
+```plaintext
 Ka = ka·G
 ```
 
 - Bob cũng tạo ra một số ngẫu nhiên `kb` sẽ là khóa riêng của anh ấy. Anh ấy tính toán khóa công khai tương ứng `Kb`:
 
-```bash
+```plaintext
 Kb = kb·G
 ```
 
@@ -1371,19 +1371,19 @@ Kb = kb·G
 
 - Alice tính toán một điểm `(x,y)` trên đường cong bằng cách áp dụng khóa riêng `ka` của mình vào khóa công khai `Kb` của Bob:
 
-```bash
+```plaintext
 (x,y) = ka·Kb
 ```
 
 - Bob tính toán một điểm `(x,y)` trên đường cong bằng cách áp dụng khóa riêng `kb` của mình vào khóa công khai `Ka` của Alice:
 
-```bash
+```plaintext
 (x,y) = kb·Ka
 ```
 - Alice và Bob thu được cùng một điểm trên đường cong elliptic. Bí mật chung sẽ là tọa độ `x` của điểm này.
 Họ thực sự thu được cùng một bí mật chung bởi vì:
 
-```bash
+```plaintext
 (x,y) = ka·Kb = ka·(kb·G) = (ka·kb)·G = (kb·ka)·G = kb·(ka·G) = kb·Ka
 ```
 
@@ -1442,25 +1442,25 @@ Bây giờ, hãy xem giao dịch thông báo này hoạt động như thế nào
 - Cô ấy chọn một cặp khóa từ ví HD của mình nằm trên một nhánh khác từ mã thanh toán của mình. Lưu ý, cặp này không nên dễ dàng liên kết với địa chỉ thông báo của Alice, cũng như với danh tính của Alice (xem phần trước);
 - Alice chọn khóa riêng từ cặp này. Chúng ta gọi nó là `a` (chữ thường);
 
-```bash
+```plaintext
 a
 ```
 
 - Alice lấy khóa công khai liên kết với địa chỉ thông báo của Bob. Khóa này là khóa con đầu tiên được tạo ra từ mã thanh toán của Bob (chỉ số `/0`). Chúng ta gọi khóa công khai này là `B` (chữ hoa). Khóa riêng liên kết với khóa công khai này được gọi là `b` (chữ thường). `B` được xác định bằng cách cộng và nhân đôi các điểm trên đường cong elliptic từ `G` (điểm sinh) với `b` (khóa riêng):
 
-```bash
+```plaintext
 B = b·G
 ```
 
 - Alice tính toán một điểm bí mật `S` (chữ hoa) trên đường cong elliptic bằng cách cộng và nhân đôi các điểm bằng cách áp dụng khóa riêng `a` của mình vào khóa công khai `B` của Bob.
 
-```bash
+```plaintext
 S = a·B
 ```
 
 - Alice tính toán yếu tố làm mờ `f` sẽ cho phép cô ấy mã hóa mã thanh toán của mình. Để làm điều này, cô ấy sẽ xác định một số ngẫu nhiên giả với hàm HMAC-SHA512. Trong mục nhập thứ hai của hàm này, cô ấy sử dụng một giá trị mà chỉ Bob mới có thể truy xuất: `x` là hoành độ của điểm bí mật đã được tính toán trước đó. Mục nhập đầu tiên là `o` là UTXO được tiêu thụ trong đầu vào của giao dịch này (outpoint).
 
-```bash
+```plaintext
 f = HMAC-SHA512(o, x)
 ```
 
@@ -1468,13 +1468,13 @@ f = HMAC-SHA512(o, x)
 3. **Cô ấy sử dụng yếu tố làm mờ này như một chìa khóa để thực hiện mã hóa đối xứng trên phần dữ liệu của mã thanh toán của mình.** Thuật toán mã hóa được sử dụng đơn giản là `XOR`. Thao tác thực hiện có thể so sánh với mã Vernam, còn được gọi là "One-Time Pad".
 - Alice đầu tiên chia yếu tố làm mờ của mình thành hai phần: 32 byte đầu tiên được gọi là `f1` và 32 byte cuối cùng được gọi là `f2`. Như vậy, chúng ta có:
 
-```bash
+```plaintext
 f = f1 || f2
 ```
 
 - Alice tính toán `x'` được mã hóa của hoành độ `x` của khóa công khai trong mã thanh toán của mình, và `c'` được mã hóa của mã chuỗi `c` của cô ấy một cách riêng biệt. `f1` và `f2` lần lượt đóng vai trò như các khóa mã hóa. Thao tác sử dụng là `XOR` (hoặc loại trừ).
 
-```bash
+```plaintext
 x' = x XOR f1
 c' = c XOR f2
 ```

@@ -26,7 +26,7 @@ Voit vastaanottaa tai lähettää Bitcoinia matkapuhelimestasi (tai tabletistasi
 
 Kun sovellus on asennettu, luo ensimmäinen lompakkosi:
 
-1. Lompakon nimi: Oma Bitcoin (esimerkiksi)
+1. Lompakon name: Oma Bitcoin (esimerkiksi)
 2. Tyyppi: Bitcoin
 3. Luo
 

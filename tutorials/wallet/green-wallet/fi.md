@@ -1,7 +1,7 @@
 ---
-nimi: Green Wallet
+name: Green Wallet
 
-kuvaus: Asennus- ja käyttöopas (CC Bistack)
+description: Asennus- ja käyttöopas (CC Bistack)
 ---
 
 ![kansi](assets/cover.webp)

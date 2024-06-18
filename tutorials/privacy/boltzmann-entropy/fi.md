@@ -1,6 +1,6 @@
 ---
-nimi: Boltzmann-laskin
-kuvaus: Ymmärrä entropian käsite ja miten käyttää Boltzmannia
+name: Boltzmann-laskin
+description: Ymmärrä entropian käsite ja miten käyttää Boltzmannia
 ---
 ![kansi](assets/cover.webp)
 

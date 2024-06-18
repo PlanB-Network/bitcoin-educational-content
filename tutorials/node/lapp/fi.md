@@ -1,7 +1,7 @@
 ```
 ---
-nimi: LAPP bitcoin
-kuvaus: Opas ensimmäisen LAppisi kehittämiseen
+name: LAPP bitcoin
+description: Opas ensimmäisen LAppisi kehittämiseen
 ---
 
 Opi koodaamaan ensimmäinen salamaverkko-sovelluksesi

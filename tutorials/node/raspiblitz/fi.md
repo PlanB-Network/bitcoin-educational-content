@@ -1,6 +1,6 @@
 ---
-nimi: RaspiBlitz
-kuvaus: Opas RaspiBlitzin pystyttämiseen
+name: RaspiBlitz
+description: Opas RaspiBlitzin pystyttämiseen
 ---
 
 ![kuva](assets/0.webp)

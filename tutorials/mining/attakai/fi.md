@@ -278,7 +278,7 @@ Ensiksi, yhdistä koneeseesi paikallisverkon kautta:
 
 Kirjautumissivulla sinun tulee kirjautua ASICiin oletustunnuksilla:
 
-- käyttäjänimi: root
+- käyttäjäname: root
 - salasana: root
 
 (Miten nollata, jos oletussalasana ei toimi?)

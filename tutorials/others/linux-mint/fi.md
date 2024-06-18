@@ -1,7 +1,7 @@
 ---
-nimi: Linux Mint
+name: Linux Mint
 
-kuvaus: Valmistele tietokone bitcoin-siirtoja varten
+description: Valmistele tietokone bitcoin-siirtoja varten
 ---
 
 ![kuva](assets/cover.webp)

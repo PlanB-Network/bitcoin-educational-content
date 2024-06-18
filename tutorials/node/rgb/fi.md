@@ -222,8 +222,8 @@ Varaomaisuuden tiedot:
 ```
 genesis: genesis1qyfe883hey6jrgj2xvk5g3dfmfqfzm7a4wez4pd2krf7ltsxffd6u6nrvjvvnc8vt9llmp7663pgututl9heuwaudet72ay9j6thc6cetuvhxvsqqya5xjt2w9y4u6sfkuszwwctnrpug5yjxnthmr3mydg05rdrpspcxysnqvvqpfvag2w8jxzzsz9pf8pjfwf0xvln5z7w93yjln3gcnyxsa04jsf2p8vu4sxgppfv0j9qerppqxhvztpqscnjsxvq5gdfy5v6j3wvpjxxqzcerxuglngnfvpxjkgqusct7cyx8zzezcfpqv3nxjxm2kjj4d0zu0ta6fjmpr8a0calk6h88h4ap5e4nucj0ch07aa73qsh3lj5sd89a32kwy0eq7tsa5zqqjpdqvqq5s46r0id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
 ticker: USDT
-nimi: USD Tether
-kuvaus: ~
+name: USD Tether
+description: ~
 tunnettuKiertävä: 1000
 onkoLiikkeeseenLaskettuTunnettu: ~
 liikkeeseenLaskunRaja: 0
@@ -250,7 +250,7 @@ Saat assetId:n, tarvitsemme sen omaisuuden siirtoon.
 ```
 $ rgb0-cli fungible list
 
-- nimi: USD Tether
+- name: USD Tether
   id: rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6
   tunnus: USDT
 ```
@@ -331,8 +331,8 @@ $ rgb1-cli fungible list -l
   ticker: USDT
 ```
 ```yaml
-nimi: USD Tether
-kuvaus: ~
+name: USD Tether
+description: ~
   tunnettuKiertomäärä: 1000
   onkoLiikkeeseenlaskuTunnettu: ~
   liikkeeseenlaskunRaja: 0
@@ -410,7 +410,7 @@ $ rgb0-cli fungible list -l
   name: USD Tether
 ```
 ```yaml
-kuvaus: ~  knownCirculating: 1000
+description: ~  knownCirculating: 1000
   isIssuedKnown: ~
   issueLimit: 0
   chain: testnet

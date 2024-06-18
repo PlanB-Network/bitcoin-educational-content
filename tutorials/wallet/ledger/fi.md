@@ -1,7 +1,7 @@
 ---
-nimi: Ledger Nano S
+name: Ledger Nano S
 
-kuvaus: Kuinka otat käyttöön Ledger Nano S -laitteesi
+description: Kuinka otat käyttöön Ledger Nano S -laitteesi
 ---
 
 ![kuva](assets/cover.webp)

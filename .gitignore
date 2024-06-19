@@ -1,3 +1,5 @@
 node_modules
 scripts/.env
 .DS_Store
+**/plan.txt
+courses/**/scripts/

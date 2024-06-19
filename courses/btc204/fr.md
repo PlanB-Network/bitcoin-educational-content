@@ -1634,7 +1634,7 @@ En sommes  le modèle de confidentialité offert par les paiements BIP47 pourrai
 
 Maintenant, voyons comment fonctionne cette transaction de notification. Imaginons qu'Alice souhaite envoyer des fonds à Bob avec le BIP47. Dans mon exemple, Alice agit ainsi comme l'expéditrice et Bob comme le destinataire. Ce dernier a publié son code de paiement sur son site web. Alice est donc déjà en connaissance du code de paiement de Bob.
 
-1. **Alice calcule un secret partagé avec ECDH :**
+**1- Alice calcule un secret partagé avec ECDH :**
 
 - Elle sélectionne une paire de clés au sein de son portefeuille HD se trouvant sur une branche différente de son code de paiement. Attention, cette paire ne doit pas être associée facilement à l'adresse de notification d'Alice, ni à l'identité d'Alice (voir section précédente) ;
 
@@ -1662,9 +1662,9 @@ S = a·B
 f = HMAC-SHA512(o, x)
 ```
 
-2. **Alice convertit son code de paiement personnel en base 2 (binaire).**
+**2- Alice convertit son code de paiement personnel en base 2 (binaire).**
 
-3. **Elle utilise ce facteur aveuglant comme clé pour réaliser un chiffrement symétrique sur la charge utile de son code de paiement.** L'algorithme de chiffrement utilisé est simplement un `XOR`. L'opération effectuée est comparable au chiffre de Vernam, également nommé "One-Time Pad".
+**3- Elle utilise ce facteur aveuglant comme clé pour réaliser un chiffrement symétrique sur la charge utile de son code de paiement.** L'algorithme de chiffrement utilisé est simplement un `XOR`. L'opération effectuée est comparable au chiffre de Vernam, également nommé "One-Time Pad".
 
 - Alice sépare dans un premier temps son facteur aveuglant en deux : les 32 premiers octets sont nommés `f1` et les 32 derniers octets sont nommés `f2`. On a donc :
 
@@ -1681,7 +1681,7 @@ c' = c XOR f2
 
 - Alice remplace les valeurs réelles de l'abscisse de la clé publique `x` et du code de chaine `c` dans son code de paiement par les valeurs chiffrées `x'` et `c'`.
 
-4. Alice dispose donc actuellement de son code de paiement avec une charge utile chiffrée. Elle va construire et diffuser une transaction impliquant sa clé publique `A` en input, un output à destination de l'adresse de notification de Bob, et une sortie `OP_RETURN` constituée de son code de paiement avec la charge utile chiffrée. **Cette transaction est la transaction de notification**.
+**4-** Alice dispose donc actuellement de son code de paiement avec une charge utile chiffrée. Elle va construire et diffuser une transaction impliquant sa clé publique `A` en input, un output à destination de l'adresse de notification de Bob, et une sortie `OP_RETURN` constituée de son code de paiement avec la charge utile chiffrée. **Cette transaction est la transaction de notification**.
 
 Un `OP_RETURN` est un opcode qui permet de marquer une sortie de transaction Bitcoin comme invalide. Aujourd'hui, il est utilisé pour diffuser ou pour ancrer de l'information sur la blockchain Bitcoin. On peut y stocker jusqu'à 80 octets de datas qui sont inscrites sur la chaine, et donc visibles par tous les autres utilisateurs.
 
@@ -1695,28 +1695,227 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réaliser une tr
 - Elle utilise ce facteur aveuglant pour chiffrer la charge utile de son code de paiement personnel ;
 - Elle utilise une sortie de transaction `OP_RETURN` pour communiquer le code de paiement masqué à Bob.
 
-
-
-
+![BTC204](assets/fr/72/17.webp)
 
 ### Transaction de notification : étude concrète
 
+Afin de comprendre plus en détail son fonctionnement, et notamment l'utilisation de l'`OP_RETURN`, étudions ensemble une vraie transaction de notification. J'ai effectué une transaction de ce type sur le testnet que vous pouvez retrouver [en cliquant ici](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
+![BTC204](assets/notext/72/18.webp)
 
-Cette sous-section est en cours de rédaction, et sera publié très prochainement !
+En observant cette transaction, on peut déjà voir qu'elle dispose d'un seul input et de 4 outputs :
+- Le premier output est l'`OP_RETURN` qui contient mon code de paiement masqué ;
+- Le deuxième output de 546 sats pointe vers l'adresse de notification de mon destinataire ;
+- Le troisième output de 15 000 sats représente les frais de service, car j'ai utilisé Samourai Wallet pour construire cette transaction ;
+- Le quatrième output de 2 millions de sats représente le change, c'est-à-dire la différence restante de mon input qui revient vers une autre adresse m'appartenant.
 
+Le plus intéressant à étudier est évidemment l'output 0 utilisant l'`OP_RETURN`. Regardons plus en détail ce qu'il renferme. Voici le `scriptPubKey` en hexadécimal  :
+
+```text
+6a4c50010002b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d800000000000000000000000000
+```
+
+Dans ce script, nous pouvons décortiquer plusieurs parties. Tout d'abord des opcodes :
+
+```text
+6a4c
+```
+
+Parmi les opcodes, on peut reconnaitre `0x6a` qui désigne l'`OP_RETURN` et `0x4c` qui désigne l'`OP_PUSHDATA1`. 
+
+L'octet suivant ce dernier opcode indique la taille de la charge utile venant par la suite. Il indique `0x50`, soit 80 octets :
+
+```text
+6a4c50
+```
+
+Ensuite on a les métadonnées de mon code de paiement en clair :
+
+```text
+010002
+```
+
+L'abscisse chiffrée de la clé publique de mon code de paiement :
+
+```text
+b13b2911719409d704ecc69f74fa315a6cb20fdd6ee39bc9874667703d67b164
+```
+
+Le code de chaine chiffré de mon code de paiement :
+
+```text
+927b0e88f89f3f8b963549eab2533b5d7ed481a3bea7e953b546b4e91b6f50d8
+```
+
+Et enfin, du rembourrage pour arriver à 80 octets, soit la taille standard d'un `OP_RETURN` :
+
+```text
+00000000000000000000000000
+```
+
+Pour bien comprendre, voici mon code de paiement en clair en base 58 :
+
+```text
+PM8TJQCyt6ovbozreUCBrfKqmSVmTzJ5vjqse58LnBzKFFZTwny3KfCDdwTqAEYVasn11tTMPc2FJsFygFd3YzsHvwNXLEQNADgxeGnMK8Ugmin62TZU
+```
+
+Et en base 16 :
+
+```text
+4701000277507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42add94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc000000000000000000000000008604e4db
+```
+
+Si l'on compare mon code de paiement en clair avec l'`OP_RETURN`, on peut voir que le HRP (`0x47`) et la somme de contrôle (`0x8604e4db`) ne sont pas transmis. C'est normal, ces informations sont destinées aux humains.
+
+Ensuite, on peut reconnaitre la version (`0x01`), le champ de bits (`0x00`) et la parité de la clé publique (`0x02`). Et, à la fin du code de paiement, les octets vides (`0x00000000000000000000000000`) qui permettent de rembourrer pour arriver à 80 octets au total. Toutes ces métadonnées sont transmises en clair (non chiffrées).
+
+Enfin, on peut observer que l'abscisse de la clé publique (`0x77507c9c17a89cfca2d3af554745d6c2db0e7f6b2721a3941a504933103cc42a`) et le code de chaîne (`0xdd94881210d6e752a9abc8a9fa0070e85184993c4f643f1121dd807dd556d1dc`) ont été chiffrés. C'est ce qui constitue la charge utile du code de paiement.
 
 ### Le XOR, qu'est-ce que c'est ?
 
-Avant de continuer la description technique de cette transaction de notification, attardons-nous quelques instants sur cette opération XOR. Le XOR est un opérateur logique au niveau des bits fondé sur l'algèbre de Boole. À partir de deux opérandes en bits, il renvoie 1 si les bits de même rang sont différents, et il renvoie 0 si les bits de même rang sont égaux. Voici la table de vérité du XOR en fonction des valeurs des opérandes D et E :
+Nous avons vu dans les sections précédentes que le code de paiement était transmis chiffré à l'aide de l'opération XOR. Attardons quelques instants sur le fonctionnement de cet opérateur, car il est très utilisé en cryptographie.
 
+Le XOR est un opérateur logique au niveau des bits fondé sur l'algèbre de Boole. À partir de deux opérandes en bits, il renvoie `1` si les bits de même rang sont différents, et il renvoie `0` si les bits de même rang sont égaux. Voici la table de vérité du XOR en fonction des valeurs des opérandes `D` et `E` :
 
+| D   | E   | D XOR E |
+| --- | --- | ------- |
+| 0   | 0   | 0       |
+| 0   | 1   | 1       |
+| 1   | 0   | 1       |
+| 1   | 1   | 0       |
 
+Par exemple :
 
+```text
+0110 XOR 1110 = 1000
+```
+
+Ou encore :
+
+```text
+010011 XOR 110110 = 100101
+```
+
+Avec ECDH, l'utilisation du XOR comme couche de chiffrement est particulièrement cohérente. D'abord, grâce à cet opérateur, le chiffrement est symétrique. Cela va permettre au destinataire de déchiffrer le code de paiement avec la même clé qui a permis le chiffrement. La clé de chiffrement et de déchiffrement est calculée à partir du secret partagé grâce à ECDH. Cette symétrie est permise par les propriétés de commutativité et d'associativité de l'opérateur XOR :
+
+```text
+ Autres propriétés :
+ 
+ -> D ⊕ D = 0
+ -> D ⊕ 0 = D
+ 
+ Commutativité :
+ 
+ D ⊕ E = E ⊕ D
+ 
+ Associativité :
+ 
+ D ⊕ (E ⊕ Z) = (D ⊕ E) ⊕ Z = D ⊕ E ⊕ Z
+ 
+ Symétrie :
+ 
+ Si : D ⊕ E = L
+ 
+ Alors :  D ⊕ L = D ⊕ (D ⊕ E) = D ⊕ D ⊕ E = 0 ⊕ E = E
+ ->  D ⊕ L = E
+```
+
+Ensuite, cette méthode de chiffrement ressemble beaucoup au chiffre de Vernam (One-Time Pad), le seul algorithme de chiffrement connu à ce jour qui dispose d'une sécurité inconditionnelle (ou absolue). Pour que le chiffre de Vernam dispose de cette caractéristique, il faut que la clé de chiffrement soit parfaitement aléatoire, qu'elle soit de même taille que le message et qu'elle ne soit utilisée qu'une seule fois. Dans la méthode de chiffrement utilisée ici pour le BIP47, la clé est bien de la même taille que le message, le facteur aveuglant fait exactement la même taille que la concaténation de l'abscisse de la clé publique avec le code de chaine du code de paiement. Cette clé de chiffrement est bien utilisée une seule fois. En revanche, cette clé n'est pas issue d'un parfait aléa puisqu'elle est un HMAC. Elle est plutôt pseudo-aléatoire. Ce n'est donc pas un chiffre de Vernam, mais la méthode s'en rapproche.
 
 ### Réception de la transaction de notification
 
+Maintenant qu'Alice a envoyé la transaction de notification à Bob, voyons comment celui-ci l'interprète. Pour rappel, Bob doit obligatoirement pouvoir accéder au code de paiement d'Alice. Sans cette information, comme nous allons le voir dans la partie suivante, il ne pourra pas dériver les paires de clés créées par Alice, et donc, il ne pourra pas accéder à ses bitcoins reçus via le BIP47. Pour le moment, la charge utile du code de paiement d'Alice est chiffrée. Voyons ensemble comment Bob la déchiffre.
 
+**1-** Bob surveille les transactions qui créent des sorties avec son adresse de notification.
+
+**2-** Lorsqu'une transaction dispose d'un output sur son adresse de notification, Bob l'analyse pour voir si elle contient une sortie OP_RETURN respectant le standard BIP47. 
+
+**3-** Si le premier octet de la charge utile de l'OP_RETURN est `0x01`, Bob commence sa recherche d'un éventuel secret partagé avec ECDH :
+- Bob sélectionne la clé publique en input de la transaction. C'est-à-dire la clé publique d'Alice nommée `A` avec :
+
+```text
+A = a·G
+```
+
+- Bob sélectionne la clé privée `b` associée à son adresse de notification personnelle :
+
+```text
+b
+```
+
+- Bob calcule le point secret `S` (secret partagé ECDH) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée `b` sur la clé publique d'Alice `A` :
+
+```text
+S = b·A
+```
+
+- Bob détermine le facteur aveuglant `f` qui va permettre de déchiffrer la charge utile du code de paiement d'Alice. De la même manière qu'Alice l'avait calculé précédemment, Bob va trouver `f` en appliquant HMAC-SHA512 sur `x` la valeur en abscisse du point secret `S`, et sur `o` l'UTXO consommé en input de cette transaction de notification :
+
+```text
+f = HMAC-SHA512(o, x)
+```
+
+**4-** Bob interprète les données de l'OP_RETURN dans la transaction de notification comme un code de paiement. Il va simplement déchiffrer la charge utile de ce potentiel code de paiement grâce au facteur aveuglant `f` :
+- Bob sépare le facteur aveuglant `f` en 2 parties : les 32 premiers octets de `f` seront `f1` et les 32 derniers octets seront `f2` ;
+- Bob déchiffre la valeur de l'abscisse chiffrée `x'` de la clé publique du code de paiement d'Alice :
+
+```text
+x = x' XOR f1
+```
+
+- Bob déchiffre la valeur du code de chaîne chiffré `c'` du code de paiement d'Alice :
+
+```text
+c = c' XOR f2
+```
+
+**5-** Bob vérifie si la valeur de la clé publique du code de paiement d'Alice fait bien partie du groupe secp256k1. Si c'est bien le cas, il interprète cela comme un code de paiement valide. Sinon, il ignore cette transaction.
+
+Maintenant que Bob est en connaissance du code de paiement d'Alice, celle-ci peut lui envoyer jusqu'à `2^32` paiements, sans avoir plus jamais besoin de refaire une transaction de notification de ce type.
+
+Pourquoi cela fonctionne-t-il ? Comment Bob peut-il parvenir à déterminer le même facteur aveuglant qu'Alice, et donc à déchiffrer son code de paiement ? Étudions plus en détail l'action d'ECDH dans ce que l'on vient de décrire.
+
+Tout d'abord, nous avons affaire à un chiffrement symétrique. Cela veut dire que la clé de chiffrement et la clé de déchiffrement sont la même valeur. Cette clé dans la transaction de notification, c'est le facteur aveuglant : 
+
+```text
+f = f1 || f2
+```
+
+Il faut donc qu'Alice et Bob obtiennent la même valeur pour `f`, sans pour autant le transmettre directement puisqu'un attaquant pourrait le subtiliser et déchiffrer l'information secrète. Ce facteur aveuglant est obtenu en appliquant HMAC-SHA512 sur 2 valeurs : 
+- l'abscisse d'un point secret ;
+- et l'UTXO consommé en entrée de la transaction. 
+
+Bob doit donc disposer de ces deux informations pour déchiffrer la charge utile du code de paiement d'Alice. Pour l'UTXO en input, Bob peut simplement le récupérer en observant la transaction de notification. Pour le point secret, Bob va devoir utiliser ECDH. Comme vu dans la section précédente sur Diffie-Hellman, simplement en s'échangeant leurs clés publiques respectives et en appliquant secrètement leurs clés privées sur la clé publique de l'autre, Alice et Bob peuvent trouver un point précis et secret sur la courbe elliptique. La transaction de notification s'appuie sur ce mécanisme :
+- La paire de clés de Bob :
+
+```text
+B = b·G
+```
+
+- La paire de clés d'Alice : 
+
+```text
+A = a·G
+```
+
+- Pour un secret `S (x, y)` :
+
+```text
+S = a·B = a·b·G = b·a·G = b·A
+```
+
+![BTC204](assets/notext/72/19.webp)
+
+Maintenant que Bob connait le code de paiement d'Alice, il va être en capacité de détecter les paiements BIP47 de celle-ci, et il pourra dériver les clés privées bloquant les bitcoins reçus.
+
+Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner et interpréter une transaction de notification :
+- Bob surveille les sorties de transaction vers son adresse de notification ;
+- Lorsqu'il en détecte une, il récupère les informations contenues dans l'OP_RETURN ;
+- Bob sélectionne la clé publique en input et calcule un point secret grâce à ECDH ;
+- Il utilise ce point secret pour calculer un HMAC qui est le facteur aveuglant ;
+- Il utilise ce facteur aveuglant pour déchiffrer la charge utile du code de paiement d'Alice contenu dans l'OP_RETURN.
+
+![BTC204](assets/notext/72/20.webp)
 
 ### La transaction de paiement BIP47
 

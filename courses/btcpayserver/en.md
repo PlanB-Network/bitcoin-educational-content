@@ -673,23 +673,21 @@ Describe a method for generating keys and a scheme for securing them, along with
 
 ## BTCPay Server Lightning Wallet
 
-# NOTE: continue here
-
-When a server administrator provisions a new BTCPay Server instance, he can set up a lightning network implementation, LND, Core Lightning, or Eclair; see objective (6) for more detailed installation instructions.
+When a server administrator provisions a new BTCPay Server instance, he can set up a lightning network implementation, LND, Core Lightning, or Eclair; see Part Configuring BTCPay Server for more detailed installation instructions.
 
 If followed along by a classroom, connecting a Lightning node to your BTCPay Server works through a Custom node. A user who is not a server administrator on BTCPay Server will not be able to use the internal Lightning node by default. This is to protect the server owner from losing his funds. Server administrators may install a Plugin to give access to their Lightning node through LNBank; this is outside of the scope of this book; read more on LNBank on the official plugin page.
 
 ### Connect internal node (server administrator)
 
-The Server Administrator can use BTCPay Server’s internal Lightning Node. Regardless of the Lightning implementation, the connecting to the internal Lightning node is the same.
+The Server Administrator can use BTCPay Server's internal Lightning Node. Regardless of the Lightning implementation, the connecting to the internal Lightning node is the same.
 
-Goto a previous setup store, and click on the “Lightning” wallet in the left menu. BTCPay Server gives two setup possibilities, Using the Internal node (Server admin only by default) or a custom node (external connection). Server administrators can click on the “Use internal node” option. There is no further configuration required. Click the “save” button and notice the notification stating, “BTC Lightning node updated. “The store has now successfully got Lightning network capabilities.
+Goto a previous setup store, and click on the "Lightning" wallet in the left menu. BTCPay Server gives two setup possibilities, Using the Internal node (Server admin only by default) or a custom node (external connection). Server administrators can click on the "Use internal node" option. There is no further configuration required. Click the "save" button and notice the notification stating, "BTC Lightning node updated". The store has now successfully got Lightning network capabilities.
 
-## Connect external node (server user/ store owner)
+### Connect external node (server user/ store owner)
 
 As store owners are by default not allowed to use the server administrator Lightning Node. The connection needs to be made to an external node, either a node owned by the store owner prior to a BTCPay Server setup, an LNBank plugin if made available by the server administrator, or a custodian solution like Alby.
 
-Goto a previous setup store, and click “Lightning” underneath wallets in the left menu. As store owners are not allowed to use the internal node by default, this option is grayed out. Using a custom node is the only option by default available for store owners.
+Goto a previous setup store, and click "Lightning" underneath wallets in the left menu. As store owners are not allowed to use the internal node by default, this option is grayed out. Using a custom node is the only option by default available for store owners.
 
 BTCPay Server needs connection information; the prior made (or custodian solution) will deliver this information specific to a Lightning implementation. Within the BTCPay Server, Store owners can use the following connections;
 
@@ -701,11 +699,11 @@ BTCPay Server needs connection information; the prior made (or custodian solutio
 
 ![image](assets/en/31.png)
 
-Click “test connection “to ensure you correctly entered the connection details. After the connection confirms to be good, click save, and BTCPay Server shows the store is updated with a Lightning Node.
+Click "test connection" to ensure you correctly entered the connection details. After the connection confirms to be good, click save, and BTCPay Server shows the store is updated with a Lightning Node.
 
-## Managing internal Lightning node LND ( Server administrator)
+### Managing internal Lightning node LND ( Server administrator)
 
-After connecting the internal Lightning Node, server administrators will notice new tiles on the Dashboard (see objective (4.1) for more on dashboard tiles) specifically for Lightning information.
+After connecting the internal Lightning Node, server administrators will notice new tiles on the Dashboard specifically for Lightning information.
 
 - Lightning Balance
 - BTC in channels
@@ -720,9 +718,9 @@ After connecting the internal Lightning Node, server administrators will notice 
 - Lightning Services
   - Ride the Lightning (RTL).
 
-By clicking either on the Ride the Lightning Logo in the “Lightning services” tile or “Lightning” underneath wallets in the left menu, server administrators can reach RTL for Lightning node management.
+By clicking either on the Ride the Lightning Logo in the "Lightning services" tile or "Lightning" underneath wallets in the left menu, server administrators can reach RTL for Lightning node management.
 
-**!?Note!?**
+**Note!**
 
 Connecting the internal Lightning Node fails - If the internal connection fails, confirm:
 
@@ -731,36 +729,34 @@ Connecting the internal Lightning Node fails - If the internal connection fails,
 
 If you are unable to connect to your Lightning node, try restarting your server, or read for more details on BTCPay Server official documentation; https://docs.btcpayserver.org/Troubleshooting/ . You cannot accept lightning payments in your store until your Lightning node appears "Online". Try to test your Lightning connection by clicking the "Public Node Info" link
 
-## Lightning wallet
-
-### Lightning
+### Lightning wallet
 
 Within the Lightning wallet option in the left menu bar, server administrators will find easy access to RTL, their Public node Info, and Lightning settings specific to their BTCPay Server store.
 
-### Internal node info
+#### Internal node info
 
-Server administrators can click on the internal node info and glance at their server status ( Online/ Offline) and connection string for Clearnet or Tor.
+Server administrators can click on the internal node info and glance at their server status (Online/ Offline) and connection string for Clearnet or Tor.
 
 ![image](assets/en/32.png)
 
-### Change connection.
+#### Change connection.
 
-If the store owner decides to use
-changed within the Lightning Settings - Change connection. Next to the Public Node info store, owners can find this option. It will bring back the initial setup for the external lightning node connection, fill out the new Lightning node information, click save, and update the store with the new node information.
+If the store owner decides to use changed within the Lightning Settings - Change connection.
+Next to the Public Node info store, owners can find this option. It will bring back the initial setup for the external lightning node connection, fill out the new Lightning node information, click save, and update the store with the new node information.
 
 ![image](assets/en/33.png)
 
-### Services
+#### Services
 
 If the server administrator decides to install multiple services for the Lightning implementation, they will be listed here. With a standard LND implementation, administrators will have Ride The Lightning (RTL) as a standard tool for node management.
 
-### BTC Lightning wallet settings
+#### BTC Lightning wallet settings
 
 After adding the Lightning node to the store in a prior step, within the settings of the Lightning wallet, store owners can still choose to deactivate it for their store by using the Toggle at the top of Lightning settings.
 
 ![image](assets/en/34.png)
 
-### Lightning Payment options.
+#### Lightning Payment options.
 
 Store owners can set parameters for the following to enhance the Lightning experience for their customers.
 
@@ -769,24 +765,24 @@ Store owners can set parameters for the following to enhance the Lightning exper
 - Unify on-chain and Lightning payment URL/QR codes at checkout.
 - Set a description template for lightning invoices.
 
-### LNURL
+#### LNURL
 
 Store owners can choose to either use or not use LNURL. A Lightning Network URL, or LNURL, is a proposed standard for interactions between Lightning Payer and payee. In short, an LNURL is a bech32 encoded url prefixed with lnurl. The Lightning wallet is expected to decode the URL, contact the URL, and await a JSON object with further instructions, most notably a tag defining the behavior of the knurl.
 
 - Enable LNURL
 - LNURL Classic Mode
-  - For wallet compatibility, Bech32 encoded(classic) vs cleartext URL(upcoming)
+  - For wallet compatibility, Bech32 encoded (classic) vs cleartext URL (upcoming)
 - Allow the payee to pass a comment.
 
-## Example 1
+### Example 1
 
-### Connect to Lightning with the internal node (Administrator).
+#### Connect to Lightning with the internal node (Administrator).
 
 This option is only available if you are the Administrator of this instance or if the Administrator has changed the default settings where users can use the internal lightning node.
 
 As an administrator, click on the Lightning Wallet in the left menu bar. BTCPay Server will ask to use one of two options for connecting a Lightning Node, an Internal node, or a custom external node. Click on Use internal node and click on save.
 
-### Managing your Lightning node (RTL)
+#### Managing your Lightning node (RTL)
 
 After connecting to the internal lightning node, BTCPay Server will update and show a notification “BTC Lightning node updated, “confirming you have now connected Lightning to your store.
 
@@ -806,9 +802,9 @@ Managing the lightning node is a task for the Administrator of the server. This 
 
 All lightning node management is as standard done with RTL (assuming you are running on a LND implementation). Administrators can click on their Lightning Wallet in BTCPay Server and find a button to open RTL. The main Dashboard of BTCPay Server is now updated with the Lightning Network Tiles, including quick access to RTL.
 
-## Example 2
+### Example 2
 
-### Connect to lightning with Alby.
+#### Connect to lightning with Alby.
 
 When connecting with a custodian like Alby, store owners should first create an account, visit: https://getalby.com/
 
@@ -816,19 +812,19 @@ When connecting with a custodian like Alby, store owners should first create an 
 
 After creating the Alby account, go to your BTCPay Server store.
 
-Step 1: Click ‘Set up a Lightning node’ on the Dashboard or ‘Lightning’ underneath wallets.
+Step 1: Click 'Set up a Lightning node' on the Dashboard or 'Lightning' underneath wallets.
 
 ![image](assets/en/36.png)
 
-Step 2. Insert your Wallet connection credentials provided by Alby. On the Dashboard of, Alby, click on Wallet. Here you will find “Wallet Connection Credentials.” Copy these credentials. Paste the credentials from Alby into the Connection configuration field in BTCPay Server.
+Step 2: Insert your Wallet connection credentials provided by Alby. On the Dashboard of, Alby, click on Wallet. Here you will find "Wallet Connection Credentials". Copy these credentials. Paste the credentials from Alby into the Connection configuration field in BTCPay Server.
 
 ![image](assets/en/37.png)
 
-Step 3; After providing BTCPay Server with the Connection details, click the “Test Connection “button to ensure the connection is working properly. Notice the “Connection to lightning node successful” message at the top of your screen. This confirms that everything works in order.
+Step 3: After providing BTCPay Server with the Connection details, click the "Test Connection" button to ensure the connection is working properly. Notice the "Connection to lightning node successful" message at the top of your screen. This confirms that everything works in order.
 
 ![image](assets/en/38.png)
 
-Step 4; Click save, and your store is now connected with a lightning node by Alby.
+Step 4: Click save, and your store is now connected with a lightning node by Alby.
 
 ![image](assets/en/39.png)
 
@@ -836,7 +832,7 @@ Step 4; Click save, and your store is now connected with a lightning node by Alb
 
 Never trust a custodian Lightning solution to more value than you are willing to lose.
 
-## Skill Summary:
+### Skill Summary:
 
 In this section you learned:
 
@@ -844,80 +840,70 @@ In this section you learned:
 - The contents and function of various Lightning-related tiles in the Dashboard
 - How to configure Lightning wallet using Voltage Surge or Alby
 
-## Knowledge assessment;
+### Knowledge assessment Practical Review
 
-### KA 3.4.1 Practical Review
+Describe some of the various options for connecting a Lightning wallet to your store.
 
-Describe some of the various options for connecting a Lightning wallet to your store: **\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\_\_\_**\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***
-
-# Objective 4: BTCPay Server Interface
-
-**Dashboard overview**
-
-**BTCPay Server Store settings**
-
-**BTCPay Server Server settings**
-
-**BTCPay Server Payments**
-
-## Objective 4.1
+# BTCPay Server Interface
 
 ## Dashboard overview
 
 BTCPay Server is a modular software package. However, there are standards that every BTCPay Server will have and the Administrator/users will interact with. Starting with the Dashboard. The main entry point of every BTCPay Server after logging in. The Dashboard gives an overview of how your store is performing, the wallet's current balance, and the last tx’s in the past 7 days. As it is a modular view, Plugins may utilize this view for their benefit and create their tiles on the Dashboard. For this course book, we will only talk about standard plugins/ apps and their respective views throughout BTCPay Server.
 
-## Dashboard Tiles
+### Dashboard Tiles
 
 Within the main view of the BTCPay Server dashboard are a couple of standard tiles available. These tiles are meant for the Store owner or Administrator to manage his store in one overview quickly.
 
 - Wallet balance
 - Transaction activity
-- Lightning Balance (if Lightning is enabled on
-  the store)
-- Lightning Services (if Lightning is enabled on
-  the store)
+- Lightning Balance (if Lightning is enabled on the store)
+- Lightning Services (if Lightning is enabled on the store)
 - Recent transactions.
 - Recent Invoices
 - Current active Crowdfunds
 - Store performance / top-selling items.
 
-## Wallet balance
+### Wallet balance
 
 The Wallet Balance tile gives a quick overview of your wallet’s funds and performance. It can be viewed in either BTC or Fiat currency in a Weekly, monthly, or yearly graph.
 
 ![image](assets/en/40.png)
 
-## Transaction activity.
+### Transaction activity.
 
-Next to the Wallet Balance tile, BTCPay Server shows a quick overview of Payouts pending, the amount of Transactions in the last 7 days, and if your store has issued any refunds. Clicking on the Manage button brings you into management for pending payouts (learn more about payouts in objective (4.4) ).
+Next to the Wallet Balance tile, BTCPay Server shows a quick overview of Payouts pending, the amount of Transactions in the last 7 days, and if your store has issued any refunds. Clicking on the Manage button brings you into management for pending payouts (learn more about payouts in BTCPay Server - Payments chapter).
 
 ![image](assets/en/41.png)
 
-## Lightning Balance ( Only visible when Lightning is activated )
+### Lightning Balance
+
+This is only visible when Lightning is activated.
 
 When the Administrator has allowed Lightning network access, BTCPay Server dashboard now has a new tile with your Lightning node information. How much BTC is in channels, how this is balanced local or remote (inbound or outbound liquidity) if channels are closing or opening, and how much bitcoin is held on-chain on the lightning node.
 
 ![image](assets/en/42.png)
 
-## Lightning Services ( Only visible when lightning is active )
+### Lightning Services
+
+This is only visible when lightning is active.
 
 Next to seeing your Lightning balance on BTCPay Server dashboard, administrators will also see the tile for Lightning Services. Here administrators can find quick buttons for tools they use to manage their Lightning node; for example, Ride the Lightning is one of the standard tools with BTCPay Server for Lightning node management.
 
 ![image](assets/en/43.png)
 
-## Recent Transactions.
+### Recent Transactions.
 
 The recent transactions tile will show your store’s most recent transactions. With one click, the Administrator of the BTCPay Server instance can now see the latest transaction and see if attention is needed towards it.
 
 ![image](assets/en/44.png)
 
-## Recent invoices
+### Recent invoices
 
-The recent invoices tile shows the 6 latest invoices generated by your BTCPay Server, including Status ( See objective (4.4) for details on invoice statuses ) and invoice amount. The tile also includes a “View all “button to access the full Invoice overview easily.
+The recent invoices tile shows the 6 latest invoices generated by your BTCPay Server, including Status and invoice amount. The tile also includes a "View all" button to access the full Invoice overview easily.
 
 ![image](assets/en/45.png)
 
-## Point Of Sale and Crowdfunds.
+### Point Of Sale and Crowdfunds.
 
 As BTCPay Server delivers a set of standard plugins or apps, Point Of Sale and Crowdfund are the two main plugins of BTCPay Server. With every store and wallet, a BTCPay Server user may generate as many Point Of Sales or Crowdfunds as he sees fit. Each will create a new dashboard tile showing the plugins’ performance.
 
@@ -931,20 +917,16 @@ Notice the slight difference between a Point of Sale and Crowdfund tile. The Adm
 
 Balance graphs and recent transactions are available only for an on-chain payment method. Information about Lightning Network balances and transactions is on the to-do. As of BTCPay Server Version 1.6.0, basic Lightning Network balances are available.
 
-## Skill Summary:
+### Skill Summary:
 
 In this section, you learned the following:
 
 - The core layout of tiles on the main landing page is known as the Dashboard.
 - A basic understanding of the contents of each tile.
 
-## Knowledge assessment;
+### Knowledge Assessment Review
 
-### KA 4.1.1 Review
-
-List as many tiles from memory as you can from the Dashboard: **\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\_\_\_**\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***\*\*\*\***\*\***
-
-## Objective 4.2;
+List as many tiles from memory as you can from the Dashboard.
 
 ## BTCPay Server Store settings
 
@@ -963,25 +945,23 @@ The store settings consist of many tabs to categorize each set of settings.
 - Emails
 - Forms
 
-## BTCPay Server Store settings - General
-
 ### General
 
 In the General Settings tab, store owners set their branding and payment defaults. At the initial setup of the store, a store name was given; this will be reflected in the General settings under Store Name. Here the store owner can also set their website to match branding and a Store ID for the Administrator to recognize in the database.
 
-### Branding
+#### Branding
 
 As BTCPay Server is FOSS, a store owner can do custom branding to match his store. Set the brand color, store your brand’s logos, and add custom CSS for public/customer-facing pages (Invoices, Payment Requests, Pull payments)
 
-### Payment
+#### Payment
 
 In the payments settings, store owners get to set their store default currency (either in Bitcoin or in any fiat currency).
 
-### Allow anyone to create invoices
+#### Allow anyone to create invoices
 
 This setting is meant for developers or builders on top of BTCPay Server. With this setting switched on for your store, it enables the outside world to create invoices on your BTCPay Server instance.
 
-### Add additional Fee (network fee) to invoices
+#### Add additional Fee (network fee) to invoices
 
 A feature within BTCPay to protect merchants from dust attacks or clients to drive a high cost in fees later on when the merchant needs to move much bitcoin at once. For example, the customer created an invoice for $ 20$ and paid it partially, paying 1$ 20 times until the invoice was fully paid. The merchant now has a larger transaction, increasing the mining cost in case the merchant decides to move those funds later. By default, BTCPay applies an additional network cost to the total invoice amount to cover that expense for the merchant when the invoice is paid in multiple transactions. BTCPay offers several options to customize this protection feature. You can apply a network fee:
 
@@ -991,45 +971,45 @@ A feature within BTCPay to protect merchants from dust attacks or clients to dri
 
 While it protects from dust transactions, it can also reflect negatively on businesses if not communicated properly. Customers may have additional questions and think you are overcharging them.
 
-### Invoice expires if the full amount has not been paid after ?
+#### Invoice expires if the full amount has not been paid after?
 
-The invoice timer is set to 15 minutes by default. The timer is a protection mechanism against volatility since it locks the Bitcoin amount according to the Bitcoin to fiat rates. If the customer does not pay the invoice within the defined period, the invoice is considered expired. The invoice is considered “paid” as soon as the transaction is visible on the blockchain (0-confirmations) but considered “complete” when it reaches the number of confirmations the merchant defined (usually, 1-6). The timer is customizable by minutes.
+The invoice timer is set to 15 minutes by default. The timer is a protection mechanism against volatility since it locks the Bitcoin amount according to the Bitcoin to fiat rates. If the customer does not pay the invoice within the defined period, the invoice is considered expired. The invoice is considered "paid" as soon as the transaction is visible on the blockchain (0-confirmations) but considered "complete" when it reaches the number of confirmations the merchant defined (usually, 1-6). The timer is customizable by minutes.
 
-### Consider the invoice paid even if the paid amount is X% less than expected?
+#### Consider the invoice paid even if the paid amount is X% less than expected?
 
-When a customer uses an exchange wallet to pay directly for an invoice, the exchange takes a small fee. This means that such an invoice is not considered fully completed. The invoice gets the status “paid partially.” You can set the percentage rate here if a merchant wants to accept underpaid invoices.
+When a customer uses an exchange wallet to pay directly for an invoice, the exchange takes a small fee. This means that such an invoice is not considered fully completed. The invoice gets the status "paid partially". You can set the percentage rate here if a merchant wants to accept underpaid invoices.
 
-## BTCPay Server Store settings - Rates
+### Rates
 
 In BTCPay Server, when an invoice gets generated, it always needs the most up-to-date and accurate Bitcoin to fiat price. When creating a new store in BTCPay Server, administrators get asked to set their preferred price source; after the store is set up, store owners can always change their price source in this tab.
 
-### Advanced rate rule scripting
+#### Advanced rate rule scripting
 
 Mainly used by power users. If toggled on, store owners can create scripts around price behavior and how to charge their customers.
 
-### Testing
+#### Testing
 
 A quick testing place for your preferred currency pairs. This also includes a feature to check default currency pairs via REST query.
 
-## BTCPay Server Store settings - Checkout Appearance
+### Checkout Appearance
 
 The checkout Appearance tab begins with invoice-specific settings and a default payment method and enables specific payment methods when set requirements are met.
 
-### Invoice settings
+#### Invoice settings
 
 Default payment methods. BTCPay Server in a standard configuration has three options.
 
-- BTC(on-chain)
-- BTC(LNURL-pay)
-- BTC(Off-chain)(Lightning)
+- BTC (on-chain)
+- BTC (LNURL-pay)
+- BTC (Off-chain & Lightning)
 
 We can set parameters for our store, where a customer only will interact with Lightning when the price is less than X amount and vice versa for On-chain transactions when X is greater than Y always present the On-chain payment option.
 
 ![image](assets/en/48.png)
 
-### Checkout
+#### Checkout
 
-As of BTCPay Server release 1.7, it was introduced to a new Checkout interface, Checkout V2, as it is called. Since release 1.9 was standardized, administrators and store owners can still set the checkout to the previous release. By using the toggle “Use the classic checkout,” a store owner can set the store back to the previous checkout experience. BTCPay Server also has a select set of presets for Online commerce or an in-store experience.
+As of BTCPay Server release 1.7, it was introduced to a new Checkout interface, Checkout V2, as it is called. Since release 1.9 was standardized, administrators and store owners can still set the checkout to the previous release. By using the toggle "Use the classic checkout", a store owner can set the store back to the previous checkout experience. BTCPay Server also has a select set of presets for Online commerce or an in-store experience.
 
 ![image](assets/en/49.png)
 
@@ -1037,18 +1017,18 @@ When a customer interacts with the store and generates an invoice, there is an e
 
 - Celebrate payment by showing confetti
 - Show the store header (Name and logo)
-- Show the “Pay in wallet” button
+- Show the "Pay in wallet" button
 - Unify on-chain and off-chain payments URL/QRs
 - Display Lightning payment amounts in Satoshis
 - Auto-detect language on checkout
 
 ![image](assets/en/50.png)
 
-When Auto-detect language is not set, BTCPay Server, by default, will display English. A store owner can change this default to their preferred language. Click on the Drop down and
+When Auto-detect language is not set, BTCPay Server, by default, will display English. A store owner can change this default to their preferred language.
 
 ![image](assets/en/51.png)
 
-Store owners can set a Custom HTML title to be displayed on the checkout page.
+Click on the Drop down and Store owners can set a Custom HTML title to be displayed on the checkout page.
 
 ![image](assets/en/52.png)
 
@@ -1056,37 +1036,37 @@ To ensure the customer knows his payment method, a store owner can explicitly se
 
 ![image](assets/en/53.png)
 
-### Public receipt
+#### Public receipt
 
 Within the public receipt settings, a store owner can set the receipt pages to the public and show the payment list on the receipt page and the QR code of the receipt for the customer to access it digitally easily.
 
 ![image](assets/en/54.png)
 
-## BTCPay Server Store settings - Access Tokens
+### Access Tokens
 
 Access tokens are used for pairing to certain e-commerce integration's or custom build integration's.
 
 ![image](assets/en/55.png)
 
-## BTCPay Server Store settings - Users
+### Users
 
 Store users are where the store owner can manage his staff members, their accounts, and access to the store. After staff members create their accounts, the store owner can add specific users to the store as Guest users or owners. To further define the staffer’s role, refer to the next section on “BTCPay Server Store settings - Roles.”
 
 ![image](assets/en/56.png)
 
-## BTCPay Server Store settings - Roles
+### Roles
 
 A store owner might not find the user’s standard roles significant enough. In the custom roles settings, a store owner can define the exact needs for each role in his business.
 
-1. To create a new role, Click the “+ Add role button.“
-   ![image](assets/en/57.png)
+(1) To create a new role, Click the “+ Add role button.“
 
-2. Enter a Role name, for example, “Cashier. “
-   ![image](assets/en/58.png)
+![image](assets/en/57.png)
 
-**!?Note!?**
+(2) Enter a Role name, for example, “Cashier. “
 
-3. Configure the individual permissions for the role.
+![image](assets/en/58.png)
+
+(3) Configure the individual permissions for the role.
 
 - Modify your stores.
 - Manage exchange accounts linked to your stores.
@@ -1115,9 +1095,9 @@ When the role gets created, the name is fixed and cannot be changed after in the
 
 ![image](assets/en/59.png)
 
-## BTCPay Server Store settings - Webhooks
+### Webhooks
 
-Within BTCPay Server, it's reasonably easy to make a new “Webhook”. In the BTCPay Server Store settings - Webhooks tab, a store owner can easily create a new webhook by clicking on the “ + Create Webhook”. Webhooks allow BTCPay Server to send HTTP events related to your store to other servers or ecommerce integrations.
+Within BTCPay Server, it's reasonably easy to make a new "Webhook". In the BTCPay Server Store settings - Webhooks tab, a store owner can easily create a new webhook by clicking on the "+ Create Webhook". Webhooks allow BTCPay Server to send HTTP events related to your store to other servers or ecommerce integrations.
 
 ![image](assets/en/60.png)
 
@@ -1132,13 +1112,14 @@ Webhooks are not meant to be compatible with Bitpay API. There's two separate IP
 
 Only use Notification URL when you create invoices through Bitpay api.
 
-## BTCPay Server Store settings - Payout Processors
+### Payout Processors
 
-Payout processors work together with the Payouts concept in BTCPay Server. A payout aggregator to batch multiple transactions and send them at once; learn more about payouts in objective (4.4). With payout processors, a store owner can automate the batched payouts. BTCPay Server provides two methods of automated payouts, On-chain and Off- chain (LN).
+Payout processors work together with the Payouts concept in BTCPay Server. A payout aggregator to batch multiple transactions and send them at once. With payout processors, a store owner can automate the batched payouts. BTCPay Server provides two methods of automated payouts, On-chain and Off-chain (LN).
 
 The store owner can click and configure both payout processors separately. A store owner might only want to run the on-chain processor once every X hours, whereas off-chain might go every few minutes. For On-chain, you may also set a target for which block it should be included. Per default, this is set to 1 (or the next block available). Notice that setting the Off-chain payout processor only has the interval timer and no block target. Lightning network payments are instant.
 
-![image](assets/en/62.png) ![image](assets/en/63.png)
+![image](assets/en/62.png)
+![image](assets/en/63.png)
 
 Store owners can only configure the on-chain processor if they have a Hot-wallet connected to their store.
 
@@ -1150,7 +1131,7 @@ After setting up a Payout processor, you can quickly remove or modify it by retu
 
 Payout processor on-chain - The onchain payouts processor can only work on a store configured with a Hot wallet connected. If there is no hot wallet connected, BTCPay Server does not hold the keys to the wallet and won’t be able to automatically process the payouts.
 
-## BTCPay Server Store settings - Emails
+### Emails
 
 BTCPay Server can use Emails for Notifications or, when set correctly, to recover accounts that were made on the instance, as standard BTCPay Server does not send an email when the password is lost, for example.
 
@@ -1158,7 +1139,7 @@ BTCPay Server can use Emails for Notifications or, when set correctly, to recove
 
 Before a store owner can set Email rules to fire off on specific events of his store, we have to set up some basic email settings. BTCPay Server needs these settings to send emails for events based on your store or for password resets.
 
-BTCPay Server made it easier to fill out this information by using the “Quick Fill” Option0
+BTCPay Server made it easier to fill out this information by using the "Quick Fill" Option:
 
 - Gmail.com
 - Yahoo.com
@@ -1184,7 +1165,7 @@ If the customer has provided an Email address, these triggers can also send the 
 
 ![image](assets/en/67.png)
 
-## BTCPay Server Store settings - Forms
+### Forms
 
 As BTCPay Server does not gather any data, a store owner might want to add a custom form to their checkout experience; this way, the store owner can gather additional information from his customer. BTCPay Server Form builder consists of two parts, a visual and more advanced code view of the forms.
 
@@ -1192,7 +1173,7 @@ When creating a new form, BTCPay Server opens a new window requesting basic info
 
 ![image](assets/en/68.png)
 
-After the store owner gives the form a name, you may also toggle the switch for “Allow form for public use “to ON, and it becomes green. This is so the form gets used in every customer-facing place. For example, if a store owner creates 1 separate invoice not through his Point Of Sale, he might still want to gather the info from the customer; this toggle to ON allows for that info to be gathered.
+After the store owner gives the form a name, you may also toggle the switch for "Allow form for public use" to ON, and it becomes green. This is so the form gets used in every customer-facing place. For example, if a store owner creates 1 separate invoice not through his Point Of Sale, he might still want to gather the info from the customer; this toggle to ON allows for that info to be gathered.
 
 ![image](assets/en/69.png)
 
@@ -1214,7 +1195,7 @@ Every type comes with its parameters to fill. The store owner can set it to his 
 
 ![image](assets/en/70.png)
 
-### Advanced custom forms.
+#### Advanced custom forms.
 
 BTCPay Server also allows you to build Forms in code. JSON, in particular. Instead of looking at the editor, store owners can click on the CODE button right next to the editor and get into the code of their Forms. In a field definition, only the following fields can be set; the values of the fields are stored in the metadata of the invoice:
 
@@ -1233,14 +1214,14 @@ BTCPay Server also allows you to build Forms in code. JSON, in particular. Inste
 | .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
 | .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
 
-The field name represents the JSON property name that stores the user- provided value in the invoice’s metadata. Some well-known names can be interpreted and modify the invoice’s settings.
+The field name represents the JSON property name that stores the user-provided value in the invoice’s metadata. Some well-known names can be interpreted and modify the invoice’s settings.
 
 | Field name       | Description            |
 | ---------------- | ---------------------- |
 | invoice_amount   | The invoice's amount   |
 | invoice_currency | The invoice's currency |
 
-You can pre-fill the fields of an invoice automatically by adding query strings to the form’s URL, such as “?your_field=value”.
+You can pre-fill the fields of an invoice automatically by adding query strings to the form’s URL, such as "?your_field=value".
 
 Here are some use cases for this feature:
 
@@ -1249,7 +1230,7 @@ Here are some use cases for this feature:
 - Tracking: Track the source of customer visits using hidden fields and pre-filled values. For example, you can create links with pre-filled utm_media values for each marketing channel (e.g., Twitter, Facebook, Email). This helps you analyze the effectiveness of your marketing efforts.
 - A/B testing: Pre-fill fields with different values to test different form versions, enabling you to optimize the user experience and conversion rates.
 
-## Skill Summary:
+### Skill Summary:
 
 In this section, you learned the following:
 
@@ -1260,33 +1241,31 @@ In this section, you learned the following:
 - Configure automated emails and their triggers
 - Create custom forms for gathering additional customer information at checkout.
 
-## Knowledge assessment;
+### Knowledge Assessments
 
-### KA 4.2.1 Review
+#### KA Review
 
-What is the difference between Store Settings and Server Settings: \***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\_\_\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***
+What is the difference between Store Settings and Server Settings?
 
-### KA 4.2.2 Hypothetical
+#### KA Hypothetical
 
-Describe some options you might select in Checkout Appearance > Invoice Settings, and why: **\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***
-
-## Objective 4.3;
+Describe some options you might select in Checkout Appearance > Invoice Settings, and why.
 
 ## BTCPay Server - Server settings
 
 BTCPay Server consists of two different settings views. One is dedicated to Store settings and another for Server settings. The latter is only available if you are a Server administrator and not for store owners. Server administrators can add users, create custom roles, configure the email server, set policies, run maintenance tasks, check all services attached to BTCPay Server, upload files to the server, or check Logs.
 
-## BTCPay Server settings - Users
+### Users
 
-As mentioned in objective (2.1, Account creation by Server administrator), Server Administrators can invite users to their server by adding them to the Users tab.
+As mentioned previous part, Server Administrators can invite users to their server by adding them to the Users tab.
 
-## BTCPay Server settings - Server wide custom Roles
+### Server wide custom Roles
 
-BTCPay Server knows two sorts of custom roles, the store-specific custom roles (objective 4.2 BTCPay Server Store settings - Roles) and server-wide Custom roles in the BTCPay Server settings. Both hold a similar set of permissions; however, if set through the BTCpay Server Settings - Roles tab, the applied role will be server-wide and apply to multiple stores. Notice a “Server-wide” tag to the custom roles in Server settings.
+BTCPay Server knows two sorts of custom roles, the store-specific custom roles and server-wide Custom roles in the BTCPay Server settings. Both hold a similar set of permissions; however, if set through the BTCpay Server Settings - Roles tab, the applied role will be server-wide and apply to multiple stores. Notice a "Server-wide" tag to the custom roles in Server settings.
 
 ![image](assets/en/71.png)
 
-## BTCPay Server Server settings - Server wide custom Roles
+### Server wide custom Roles
 
 Server-wide custom roles permission set;
 
@@ -1317,19 +1296,19 @@ Server-wide custom roles permission set;
 
 When the role gets created, the name is fixed and cannot be changed after in the edit mode.
 
-## BTCPay Server settings - Email
+### Email
 
-The Server-wide Email settings look similar to those in the Store-specific email settings (objective 4.2 BTCPay Server Store settings - Emails). However, this setup handles not only triggers for stores or administrator logs. This Email setup also makes password recovery available on BTCPay Server at Login. It works similarly to the Store-specific settings; administrators can Quickly fill in their Email parameters and enter their email credentials, and the server can now send emails.
+The Server-wide Email settings look similar to those in the Store-specific email settings. However, this setup handles not only triggers for stores or administrator logs. This Email setup also makes password recovery available on BTCPay Server at Login. It works similarly to the Store-specific settings; administrators can Quickly fill in their Email parameters and enter their email credentials, and the server can now send emails.
 
 ![image](assets/en/72.png)
 
-## BTCPay Server settings - Policies
+### Policies
 
 BTCPay Server policy administrators can set some settings on topics like Existing User settings, New Users Settings, Notifications settings, and Maintenance settings. These are meant for registering new users as admin or normal users or even hiding BTCPay Server from search engines by adding to your server header.
 
 ![image](assets/en/73.png)
 
-### Existing user Settings
+#### Existing user Settings
 
 The options available here are separate from custom roles. These extra permissions might make a store or store owner vulnerable to attacks. Policies that may be added to existing users:
 
@@ -1342,7 +1321,7 @@ The options available here are separate from custom roles. These extra permissio
 
 ![image](assets/en/74.png)
 
-### New user settings
+#### New user settings
 
 We can set some important settings to manage new users coming to the server. We can set a confirmation email for new registrations, Disable new user creation through the login screen, and restrict non-admins access to user creation over the API.
 
@@ -1355,11 +1334,11 @@ By default, BTCPay Server has toggled on Disable new user registration and turne
 
 ![image](assets/en/75.png)
 
-### Notification Settings.
+#### Notification Settings.
 
 ![image](assets/en/76.png)
 
-### Maintenance Settings.
+#### Maintenance Settings.
 
 BTCPay Server is an Open Source project that lives on GitHub. Whenever BTCPay Server releases a new version of the software, Administrators can be notified that a new version is available. Administrators may also want to discourage search engines (google, yahoo, duckduckgo) from indexing the BTCPay Server domain. As BTCPay Server is FOSS, developers worldwide might want to create new features; BTCPay Server has an experimental feature when toggled on, and an administrator can use features not meant for production yet, purely for testing purposes.
 
@@ -1369,13 +1348,13 @@ BTCPay Server is an Open Source project that lives on GitHub. Whenever BTCPay Se
 
 ![image](assets/en/77.png)
 
-### Plugins.
+#### Plugins.
 
 BTCPay Server can add Plugins and expand its feature set. The plugins, by default, are loaded from the BTCPay Server plugin-builder repository. An administrator, however, may choose to see plugins in a Pre-release state, and if the plugin developer allows it, the server administrator can now install beta versions of plugins.
 
 ![image](assets/en/78.png)
 
-### Customization Settings.
+##### Customization Settings.
 
 A standard BTCPay Server deployment will be reachable through the domain set up for it at installation. However, a server administrator can remap the root domain and display one of the created apps from a specific store. The Server Administrator can also map specific domains to specific apps.
 
@@ -1389,13 +1368,13 @@ A standard BTCPay Server deployment will be reachable through the domain set up 
 
 ![image](assets/en/80.png)
 
-### Block explorers.
+#### Block explorers.
 
 BTCPay Server, as standard, comes with mempool.space as its Block explorer for transactions. When BTCPay Server generates a new invoice, and there is a transaction tied to it, the store owner can click to open the transaction; BTCPay Server will standard point towards mempool.space as a block explorer; a server Administrator may change this to his preference.
 
 ![image](assets/en/81.png)
 
-## BTCPay Server settings - Services
+### Services
 
 The BTCPay Server settings: Services tab is an overview of components your BTCPay Server uses. The services your BTCPay Server exposes might vary depending on the deployment method.
 
@@ -1403,7 +1382,7 @@ A BTCPay Server Administrator can click on the “See information “behind each
 
 ![image](assets/en/82.png)
 
-### LND (gRPC)
+#### LND (gRPC)
 
 BTCPay exposes LND’s GRPC service for outside consumption; you will find connection information in this specific settings menu; compatible wallets are listed here. BTCPay Server also gives a QR code for connection to scan and apply in the mobile wallet.
 
@@ -1417,7 +1396,7 @@ Server administrators can open more details to see;
 - ReadonlyMacaroon
 - GRPC SSL Cipher suite (GRPC_SSL_CIPHER_SUITES)
 
-### LND (REST)
+#### LND (REST)
 
 BTCPay exposes LND’s REST service for outside consumption; you will find connection information here; compatible wallets are listed here. Among the compatible wallets are Joule, Alby, and ZeusLN. BTCPay Server gives a QR code for connection, scan and apply in the compatible wallet.
 
@@ -1427,37 +1406,35 @@ BTCPay exposes LND’s REST service for outside consumption; you will find conne
 - InvoiceMacaroon
 - ReadonlyMacaroon
 
-### LND Seed Backup
+#### LND Seed Backup
 
 The LND seed backup is useful to recover funds from your LND wallet in case of a corruption of your Server. As the Lightning node is a Hot-wallet, you can find the confidential seed information on this page.
 
 LND documents the recovery process. See https://github.com/lightningnetwork/lnd/blob/master/docs/recovery.md for documentation.
 
-### Ride The Lightning
+#### Ride The Lightning
 
 Ride the Lightning is a Lightning node management tool built as Open Source software. BTCPay Server uses RTL as the Lightning node management component in its stack. BTCPay Server administrators can reach RTL through the Server settings - Services tab or by clicking on the Lightning wallet.
 
-### Full node P2P
+#### Full node P2P
 
 Server administrators may want to connect their Bitcoin node to a mobile wallet. This page exposes information to connect remotely to your full node via the P2P protocol. As of writing this book, BTCPay Server lists Blockstream Green and Wasabi wallet as compatible wallets. BTCPay Server gives a QR code for connection, scan and apply in the compatible wallet.
 
-### Full node RPC
+#### Full node RPC
 
 This page exposes information to connect remotely to your full node via the RPC protocol.
 
-### SSH
+#### SSH
 
 SSH is used for maintenance purposes. BTCPay Server shows the initial connection command to reach your Server and SSH public keys authorized to connect to your Server. Server Administrators might want to turn off SSH changes through the UI of BTCPay Server.
 
-### Dynamic DNS.
+#### Dynamic DNS.
 
 Dynamic DNS allows you to have a stable DNS name pointing to your Server, even if your IP address changes regularly. This is recommended if you are hosting BTCPay Server at home and wish to have a clearnet domain to access your Server.
 
 Note that you need to properly configure your NAT and BTCPay Server installation to get the HTTPS certificate.
 
-## BTCPay Server settings - Theme
-
-### Theme.
+### Theme
 
 BTCPay Server, as standard, comes with two themes: Light and Dark modes. These can be switched by Clicking on Account in the bottom left and toggling between Dark theme or Light theme. BTCPay Server administrators may add their theme by providing a custom CSS theme.
 
@@ -1465,13 +1442,13 @@ Administrators can extend the Light/Dark theme by adding their own custom CSS or
 
 ![image](assets/en/83.png)
 
-### Server Branding
+#### Server Branding
 
 Server administrators can change the BTCPay Server branding by setting a Server-wide branding of your company. As BTCPay Server is FOSS, server administrators can white label the software and change the look to suit their business.
 
 ![image](assets/en/84.png)
 
-## BTCPay Server settings - Maintenance
+### Maintenance
 
 As a server administrator, your users expect you to take good care of the Server. Within BTCPay Server’s Maintenance tab, the admin can do some essential maintenance. Set the domain name to the BTCPay Server instance, Restart or clean up the Server. Possibly most important, run updates.
 
@@ -1479,65 +1456,65 @@ BTCPay Server is an Open Source project and updates frequently. Every new releas
 
 ![image](assets/en/85.png)
 
-### Domain name
+#### Domain name
 
 After BTCPay Server is set up, an administrator might want to change away from his original Domain. Within the Maintenance tab, the administrator can change the Domain. After clicking confirm and setting up the proper DNS records on the Domain, BTCPay Server updates and restarts to return to the new Domain.
 
 ![image](assets/en/86.png)
 
-### Restart
+#### Restart
 
 Restart BTCPay Server and related services.
 
 ![image](assets/en/87.png)
 
-### Clean
+#### Clean
 
 BTCPay Server runs with Docker components; with updates, there might be leftovers of Docker images, temp files, etc. Server Administrators can clean this up and recoup space on their environment by running the Clean script.
 
 ![image](assets/en/88.png)
 
-### Update
+#### Update
 
 Possibly the most important option in the Maintenance tab. BTCPay Server is built by the community, and therefore, its update cycles are more frequent than most software products. When BTCPay Server has a new release, administrators will be notified in their notification center. By clicking the update button, BTCPay Server will check GitHub for the latest release, update the Server and restart. Before updating, server administrators are always advised to read the release notes distributed through the official channels of BTCPay Server.
 
 ![image](assets/en/89.png)
 
-## BTCPay Server settings - Logs
+### Logs
 
 Facing a problem is never fun. This document explains the most common workflow and steps to efficiently identify your issue and solve it yourself or with community help.
 
 Identifying the problem is crucial.
 
-### 1. Replicating the issue
+#### 1. Replicating the issue
 
 First and foremost, try to determine when the issue happens. Try to replicate the problem. Try to update and restart your Server to verify that you can reproduce your issue. If it describes your issue better, take a screenshot.
 
-### 1.1 Updating the server
+##### 1.1 Updating the server
 
 Check your version of BTCPay Server if it is much older than the [latest version](https://github.com/btcpayserver/btcpayserver/releases) of BTCPay Server. Updating your Server may resolve the issue.
 
-### 1.2 Restarting the server
+##### 1.2 Restarting the server
 
 Restarting your Server is an easy way to solve many of the most common BTCPay Server issues. You may need to SSH into your Server to restart it.
 
-### 1.3 Restarting a service
+##### 1.3 Restarting a service
 
 You may only need to restart a particular service in your BTCPay Server deployment for some issues. Such as restarting the lets encrypt container to renew the SSL certificate.
 
+```bash
 sudo su -
-
 cd btcpayserver-docker
-
 docker restart letsencrypt-nginx-proxy-companion
+```
 
 Use docker ps to find the name of a different service you would like to restart.
 
-### 2. Looking through the logs
+#### 2. Looking through the logs
 
 Logs can provide an essential piece of information. In the following paragraphs, we will describe how to get the log information for various parts of BTCPay.
 
-### 2.1 BTCPay Logs
+##### 2.1 BTCPay Logs
 
 Since v1.0.3.8, you can easily access BTCPay Server logs from the front end. If you are a server admin, go to Server Settings > Logs and open the logs file. If you do not know what a particular error in the logs means, mention it when troubleshooting.
 
@@ -1547,13 +1524,12 @@ On the next page, a general list of the container names used for BTCPay Server.
 
 Run the commands below to print logs by container name. Replace the container name to view other container logs.
 
+```bash
 sudo su -
-
 cd btcpayserver-docker
-
 docker ps
-
 docker logs --tail 100 generated_btcpayserver_1
+```
 
 | Logs for     | Container Name                    |
 | ------------ | --------------------------------- |
@@ -1572,51 +1548,54 @@ docker logs --tail 100 generated_btcpayserver_1
 | Tor          | tor-gen                           |
 | Tor          | tor                               |
 
-### 2.2.1 - Lightning Network LND - Docker
+###### 2.2.1 - Lightning Network LND - Docker
 
 There are a few ways to access your LND logs when using Docker. First log in as root:
 
+```bash
 sudo su -
-
 Navigate to the correct directory:
-
 cd btcpayserver-docker
-
-Find container name:
-
+# Find container name:
 docker ps
-
 Print logs by container name:
-
 docker logs --tail 100 btcpayserver_lnd_bitcoin
+```
 
 Alternatively, you can quickly print logs by using container ID (only the first unique ID characters are needed, such as the two furthest left characters):
 
-docker logs 'add your container ID '
+```bash
+docker logs 'add your container ID'
+```
 
 If for any reason you need more logs
 
+```bash
 sudo su -
-
 cd /var/lib/docker/volumes/generated_lnd_bitcoin_datadir/\_data/logs/ bitcoin/mainnet/
+ls
+```
 
-inside that directory do ls
+You will see something like
 
-You will see something like lnd.log lnd.log.13 lnd.log.15 lnd.log.16.gz lnd.log.17.gz
+```bash
+lnd.log lnd.log.13 lnd.log.15 lnd.log.16.gz lnd.log.17.gz
+```
 
-To access uncompressed logs of those logs do cat lnd.log or if you want another one, use cat lnd.log.15
+To access uncompressed logs of those logs do `cat lnd.log` or if you want another one, use `cat lnd.log.15`.
 
-To access compressed logs in .gzip use gzip -d lnd.log.16.gz (in this case we're accessing lnd.log.16.gz) This should give you a new file, where you can do cat lnd.log.16 . In case the above does not work, you may need to use install gzip first sudo apt-get install gzip
+To access compressed logs in `.gzip` use `gzip -d lnd.log.16.gz` (in this case we're accessing `lnd.log.16.gz`). This should give you a new file, where you can do `cat lnd.log.16`. In case the above does not work, you may need to use install gzip first with `sudo apt-get install gzip`.
 
-### 2.2.2 - Lightning Network c-lightning - Docker
+###### 2.2.2 - Lightning Network c-lightning - Docker
 
+```bash
 sudo su -
-
 docker ps
-
-Find the c-lightning container ID.
-
+# Find the c-lightning container ID.
 docker logs 'add your container ID here'
+```
+
+# NOTE: continue here
 
 alternatively, use this
 
@@ -1686,7 +1665,7 @@ Unless you use a built-in [Wallet](https://docs.btcpayserver.org/Wallet/) to rec
 
 ![image](assets/en/92.png)
 
-## BTCPay Server Store settings - General
+### BTCPay Server Payments - General
 
 ### Invoice statuses
 
@@ -1922,11 +1901,11 @@ In this section, you learned the following:
 
 ### KA 4.4.1 Conceptual Review
 
-What are some differences between invoices and payment requests, and what might be a good reason for using the latter: ******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******\_******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*******\*\*\*\*******\*\*******\*\*******\*\*******
+What are some differences between invoices and payment requests, and what might be a good reason for using the latter: **\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\_**\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\***\*\***\*\***\*\***
 
 ### KA 4.4.2 Conceptual Review
 
-How do pull payments expand on what typically can be done on-chain, and describe some use cases they enable: ****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\_\_\_****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*\*\*****\*\*\*\*****
+How do pull payments expand on what typically can be done on-chain, and describe some use cases they enable: \***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\_\_\_\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
 
 # Objective 5: BTCPay Server Default Plugins
 
@@ -2355,7 +2334,7 @@ In this section you learned:
 
 ### KA 6.1.1 Conceptual Review
 
-Describe some of the differences between running an instance of BTCPay Server on a VPS vs. creating an account on a hosted instance: ****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\_\_\_\_****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****\*\*****\*\*****\*\*\*\*****\*\*****
+Describe some of the differences between running an instance of BTCPay Server on a VPS vs. creating an account on a hosted instance: \***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\_\_\_\_\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***
 
 ## Objective 6.2;
 
@@ -2640,4 +2619,4 @@ FOSS is inevitable.
 
 ![image](assets/en/129.png)
 
-# TODO: automatically remove ".", ";" to the end of line that starts with "#"
+# TODO: automatically remove ".", ";" and ":" to the end of line that starts with "#"

@@ -913,7 +913,7 @@ Dans ce chapitre, nous allons nous intéresser au premier déploiement du minage
 
 ### Le minage par processeur graphique (déc. 2009 -- mai 2010)
 
-Le demande de plus en plus importante pour le bitcoin s'accompagne d'une hausse progressive de l'activité minière sur le réseau. Durant toute l'année 2009, la difficulté sur le réseau est au plancher minimal de 1, ce qui impose à tous les nœuds de réaliser environ 4,3 millions de calculs pour miner un bloc. Toutefois, en décembre 2009, cela change grâce à l'algorithme d'ajustement qui fait passer le facteur de difficulté de 1 à 1,18.
+Le demande de plus en plus importante pour le bitcoin s'accompagne d'une hausse progressive de l'activité minière sur le réseau. Durant toute l'année 2009, la difficulté sur le réseau est au plancher minimal de 1, ce qui impose à tous les nœuds de réaliser environ 4,3 milliards de calculs pour miner un bloc. Toutefois, en décembre 2009, cela change grâce à l'algorithme d'ajustement qui fait passer le facteur de difficulté de 1 à 1,18.
 
 Satoshi Nakamoto est très soucieux de l'augmentation de cette difficulté et maintient un [historique](https://bitcointalk.org/index.php?topic=43.msg249#msg249) sur le forum à partir de février 2010. Voici à quoi cela ressemblait :
 
@@ -1131,7 +1131,7 @@ Toutes ces améliorations font que Bitcoin se renforce de jour en jour, tant au 
 
 Le 15 août 2010 vers 17 heures (UTC), un bloc qui contient une transaction créant plus de 184 *milliards* de bitcoins est ajouté à la chaîne à la hauteur 74 638. Cette émission extraordinairement élevée exploite une vulnérabilité de dépassement de mémoire (*overflow*) à l'endroit de la représentation des quantités : l'attaquant a créé deux sorties transactionnelles de 92 233 720 368,54277039 BTC soit un montant proche du maximum d'unités pouvant être représentant par un entier signé sur 64 bits (le format utilisé dans le protocole).
 
-Une heure plus tard, le problème est repéré par Jeff Garzik, qui [avertit](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) la communauté sur le forum en évoquant un « bloc étrange ». (*original: ""strange block"*) La réaction de Satoshi a lieu vers 21 heures : il [publie](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) une modification préliminaire du code sur le forum et [conseille](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) aux gens d'« arrêter de générer ». Après avoir fait quelques révisions et les avoir téléverser sur Sourceforge, il finit par [publier] un correctif pour Windows, Linux et Mac OS X à 23 heures 48.
+Une heure plus tard, le problème est repéré par Jeff Garzik, qui [avertit](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) la communauté sur le forum en évoquant un « bloc étrange ». (*original: "strange block"*) La réaction de Satoshi a lieu vers 21 heures : il [publie](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) une modification préliminaire du code sur le forum et [conseille](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) aux gens d'« arrêter de générer ». Après avoir fait quelques révisions et les avoir téléverser sur Sourceforge, il finit par [publier] un correctif pour Windows, Linux et Mac OS X à 23 heures 48.
 
 Ce correctif permet aux mineurs de rejeter la transaction incriminée comme invalide et de créer une branche alternative qui ne la contient pas. Le [premier bloc](https://mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b) de cette branche est trouvé à 23 heures 53.
 
@@ -1143,16 +1143,19 @@ Le lendemain, peu après 8 heures, la situation conflictuelle est résolue. La c
 
 ### Le système d'alerte (août 2010)
 
-Après avoir trouvé le 1 RETURN bug en juillet, Satoshi et Gavin ont fait tout leur possible pour prémunir le réseau contre les accidents. Le 3 août, ils ont ainsi [ajouté](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364) au logiciel un mécanisme d'avertissement s'activant en cas de scission de la chaîne (v0.3.8). Toutefois, ce mécanisme ne s'est pas avéré utile pour détecter le *value overflow bug* qui s'est manifesté le 15. C'est pourquoi ils cherchent à développer quelque chose de plus évolué les jours qui suivent cet incident.
+Après avoir trouvé le *1 RETURN bug* en juillet, Satoshi Nakamoto a fait tout son possible pour prémunir le réseau contre les accidents. Le 3 août, il a ainsi [ajouté](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364) au logiciel un mécanisme d'avertissement s'activant en cas de scission de la chaîne (v0.3.8). Toutefois, ce mécanisme ne s'avère pas utile pour détecter le *value overflow bug* qui se manifeste le 15, ce qui pousse Satoshi à précipiter ses [plans](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586) de développer un mécanisme plus évolué.
 
-"*wanted to do that for a long time*", 15/8 (https://bitcointalk.org/index.php?topic=823.msg9586#msg9586)
+Dans les jours qui suivent l'incident, Satoshi construit ainsi un système d'alerte effectif sur le réseau, qui lui permet, à l'aide d'une clé privée, d'avertir les nœuds en cas de problème technique et de suspendre quelques commandes de l'API. Le 22 août, il [présente](https://bitcointalk.org/index.php?topic=898.msg10722#msg10722) son système sur le forum. Cette annonce éveille l'inquiétude des membres, qui voient dans ce système un élément centralisateur et une vulnérabilité qu'un État pourrait exploiter. Satoshi [répond](https://bitcointalk.org/index.php?topic=898.msg11074#msg11074) deux jours plus en qualifiant de « paranoïaques » ces considérations et en spécifiant que le système pourra être désactivé manuellement par les utilisateurs et qu'il ne sera de toute façon que temporaire.
 
-système d'alerte dans Bitcoin, qui permet à Satoshi d'avertir tous les nœuds du réseau en cas de problème technique.
+Le 27 août, le système d'alerte est [intégré](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439) officiellement au logiciel avec la sortie de la version 0.3.11. Par la suite, il servira à plusieurs reprises, notamment pour un embranchement accidentel en 2013, avant d'être être définitivement [retiré](https://bitcoin.org/en/alert/2016-11-01-alert-retirement) du logiciel en 2017.
 
-développement du système d'alerte : https://bitcointalk.org/index.php?topic=898.msg10722#msg10722
+### L'effet accélérateur du Slashdotting
 
-ajout du système d'alerte (v0.3.11, 27/8) : https://bitcointalk.org/index.php?topic=941.msg11439#msg11439
+L'effet de la publication du texte de présentation de Bitcoin sur Slashdot a été spectaculaire pour le projet de Satoshi Nakamoto. L'afflux de personnes intéressées a mené à une hausse record du prix et du taux de hachage. De plus, il a amené un certain Jed McCaleb à découvrir Bitcoin et à créer une place de marché digne de ce nom pour la négociation de l'unité de compte, sous le nom de Mt. Gox.
 
+Mais ce sont les changements au niveau du logiciel qui ont été les plus importants. Parmi les lecteurs de Slashdot se trouvaient en effet un certain nombre de développeurs qui se sont mis à disséquer le code, comme Jeff Garzik. Le logiciel a été amélioration tant du point de vue de la sécurité qu'au niveau de la performance de minage. Le réseau n'a cependant pas échappé à un incident majeur, le *value overflow incident*, qui a conduit à la création d'un système d'alerte piloté par Satoshi au sein du logiciel.
+
+Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, faisant de Slashdot le réel point de départ de Bitcoin en tant que projet collectif. C'est ce que nous étudierons dans le prochain chapitre.
 
 ## Après Slashdot (sept. 2010 -- déc. 2010)
 

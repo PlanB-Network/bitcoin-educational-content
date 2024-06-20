@@ -97,7 +97,7 @@ Le client achète un produit dans le magasin avec Bitcoin.
   - Client- envoie les informations de carte au Commerçant
   - Commerçant- transmet les informations à la Banque (identifiant à la fois leur propre identité et celle/informations) demandant le paiement de
   - La Banque collecte des informations sur le Client et le Commerçant (Alice et Bob) et vérifie que le solde du client est suffisant.
-  - Déduit 25 $ du compte d'Alice, ajoute 24 $ au compte de Bob, prend 1 $ pour le service
+  - Déduit 25 \$ du compte d'Alice, ajoute 24 \$ au compte de Bob, prend 1 \$ pour le service
   - Le Commerçant reçoit le feu vert de la Banque et expédie l'article au client.
 - Commentaires :
   - Bob et Alice doivent avoir une relation avec une banque.
@@ -2580,4 +2580,3 @@ Félicitations pour avoir terminé ce cours. Nous espérons que vous avez appré
 | Wrapped Segwit                                  | Une implémentation de conception incluse dans la mise à niveau SegWit destinée à permettre aux portefeuilles et autres logiciels Bitcoin de prendre en charge plus facilement SegWit. Pour ce faire, les deux scripts SegWit natifs, P2WPKH et P2WSH, sont utilisés comme le "redeemScript" d'une transaction P2SH, produisant des types de script SegWit enveloppés P2SH-P2WPKH et P2SH-P2WSH respectivement.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ![image](assets/fr/129.webp)
-

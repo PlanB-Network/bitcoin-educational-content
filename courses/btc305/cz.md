@@ -2583,4 +2583,3 @@ Gratulujeme k dokončení tohoto kurzu. Doufáme, že se vám obsah líbil a že
 | Wrapped Segwit                                 | Implementace designu zahrnutá v aktualizaci SegWit, která měla umožnit peněženkám a dalšímu softwaru pro Bitcoin snadněji podporovat SegWit. Aby se toho dosáhlo, dvě původní skripty SegWit, P2WPKH a P2WSH, se používají jako „redeemScript“ transakce P2SH, což vede k obaleným typům skriptů SegWit P2SH-P2WPKH a P2SH-P2WSH.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ![obrázek](assets/en/129.webp)
-

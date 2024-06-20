@@ -97,7 +97,7 @@ Asiakas ostaa tuotteen kaupasta Bitcoinilla.
   - Asiakas- lähettää korttitiedot Kauppiaalle
   - Kauppias- välittää tiedot Pankille (identifioi sekä omat että asiakkaan tiedot/informaation) pyytäen maksua
   - Pankki kerää tietoja Asiakkaasta ja Kauppiaasta (Alice ja Bob) ja tarkistaa, että asiakkaan saldo riittää.
-  - Vähentää $25 Alicen tililtä, lisää $24 Bobin tilille, ottaa $1 palvelumaksun
+  - Vähentää \$25 Alicen tililtä, lisää \$24 Bobin tilille, ottaa \$1 palvelumaksun
   - Kauppias saa peukalon ylös Pankilta ja toimittaa tuotteen asiakkaalle.
 - Kommentit:
   - Bobin ja Alicen on oltava suhteessa pankkiin.
@@ -2593,4 +2593,3 @@ Onnittelut kurssin suorittamisesta. Toivomme, että olet nauttinut sisällöstä
 | Wrapped Segwit                                     | Suunnittelutoteutus, joka sisältyi SegWit-päivitykseen ja jonka tarkoituksena oli mahdollistaa lompakoiden ja muiden Bitcoin-ohjelmistojen helpompi tuki SegWitille. Tämän saavuttamiseksi kaksi alkuperäistä SegWit-skriptiä, P2WPKH ja P2WSH, käytetään “redeemScriptinä” P2SH-siirrossa, tuottaen wrapped SegWit -skriptityypit P2SH-P2WPKH ja P2SH-P2WSH vastaavasti.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 ![kuva](assets/en/129.webp)
-

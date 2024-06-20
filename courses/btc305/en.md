@@ -97,7 +97,7 @@ Customers buys a product from the store with Bitcoin.
   - Customer- sends card information to Merchant
   - Merchant- forwards information to the Bank (identifying both their own and the identity/information) requesting payment of
   - Bank collects information about the Customer and Merchant (Alice and Bob) and checks that the customer’s balance is sufficient.
-  - Deducts $25 from Alice’s account, adds $24 to Bob’s account, takes $1 for the service
+  - Deducts \$25 from Alice’s account, adds \$24 to Bob’s account, takes \$1 for the service
   - The Merchant receives thumbs-up from Bank and ships the item to the customer.
 - Comments:
   - Bob and Alice must have a relationship with a bank.

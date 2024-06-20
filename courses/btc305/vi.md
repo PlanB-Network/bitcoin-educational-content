@@ -99,7 +99,7 @@ Khách hàng mua một sản phẩm từ cửa hàng bằng Bitcoin.
   - Khách hàng- gửi thông tin thẻ cho Người bán hàng
   - Người bán hàng- chuyển thông tin đến Ngân hàng (xác định cả danh tính của mình và thông tin/danh tính) yêu cầu thanh toán
   - Ngân hàng thu thập thông tin về Khách hàng và Người bán hàng (Alice và Bob) và kiểm tra xem số dư của khách hàng có đủ không.
-  - Trừ $25 từ tài khoản của Alice, cộng $24 vào tài khoản của Bob, lấy $1 cho dịch vụ
+  - Trừ \$25 từ tài khoản của Alice, cộng \$24 vào tài khoản của Bob, lấy \$1 cho dịch vụ
   - Người bán hàng nhận được sự đồng ý từ Ngân hàng và gửi hàng cho khách hàng.
 - Nhận xét:
   - Bob và Alice phải có mối quan hệ với một ngân hàng.

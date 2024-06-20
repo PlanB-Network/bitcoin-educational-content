@@ -97,7 +97,7 @@ Kunden kaufen ein Produkt vom Geschäft mit Bitcoin.
   - Kunde- sendet Kartendaten an den Händler
   - Händler- leitet Informationen an die Bank weiter (identifiziert sowohl ihre eigene als auch die Identität/Informationen) und fordert Zahlung von
   - Bank sammelt Informationen über den Kunden und den Händler (Alice und Bob) und überprüft, ob das Guthaben des Kunden ausreichend ist.
-  - Zieht 25 $ von Alices Konto ab, fügt 24 $ zu Bobs Konto hinzu, nimmt 1 $ für den Service
+  - Zieht 25 \$ von Alices Konto ab, fügt 24 \$ zu Bobs Konto hinzu, nimmt 1 \$ für den Service
   - Der Händler erhält das Go von der Bank und versendet den Artikel an den Kunden.
 - Kommentare:
   - Bob und Alice müssen eine Beziehung zu einer Bank haben.
@@ -2582,4 +2582,3 @@ Herzlichen Glückwunsch zum Abschluss dieses Kurses. Wir hoffen, dass Ihnen der 
 | Wrapped Segwit                                 | Eine Designimplementierung, die in das SegWit-Upgrade aufgenommen wurde, um Wallets und andere Bitcoin-Software die Unterstützung von SegWit zu erleichtern. Um dies zu erreichen, werden die beiden nativen SegWit-Scripts, P2WPKH und P2WSH, als „redeemScript“ einer P2SH-Transaktion verwendet, was zu eingewickelten SegWit-Scripttypen von P2SH-P2WPKH und P2SH-P2WSH führt.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ![Bild](assets/en/129.webp)
-

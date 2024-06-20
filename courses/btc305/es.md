@@ -97,7 +97,7 @@ El cliente compra un producto de la tienda con Bitcoin.
   - Cliente- envía información de la tarjeta al Comerciante
   - Comerciante- reenvía la información al Banco (identificando tanto su propia identidad como la/información) solicitando el pago de
   - Banco recopila información sobre el Cliente y el Comerciante (Alice y Bob) y verifica que el saldo del cliente sea suficiente.
-  - Deduce $25 de la cuenta de Alice, añade $24 a la cuenta de Bob, toma $1 por el servicio
+  - Deduce \$25 de la cuenta de Alice, añade \$24 a la cuenta de Bob, toma \$1 por el servicio
   - El Comerciante recibe aprobación del Banco y envía el artículo al cliente.
 - Comentarios:
   - Bob y Alice deben tener una relación con un banco.
@@ -2602,4 +2602,3 @@ Felicitaciones por completar este curso. Esperamos que haya disfrutado el conten
 | Segwit Envuelto                                                                          | Una implementación de diseño incluida en la actualización de SegWit destinada a permitir que las carteras y otro software de Bitcoin soporten más fácilmente SegWit. Para lograr esto, los dos scripts nativos de SegWit, P2WPKH y P2WSH, se utilizan como el “redeemScript” de una transacción P2SH, produciendo tipos de script SegWit envueltos de P2SH-P2WPKH y P2SH-P2WSH respectivamente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 ![imagen](assets/en/129.webp)
-

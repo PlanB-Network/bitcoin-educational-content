@@ -9,9 +9,11 @@ objectives:
 
 # Une plongée dans l'histoire de la création de Bitcoin
 
-Bienvenue dans ce cours consacré à l'histoire de la création de Bitcoin ! Vous y découvrirez le cheminement des évènements qui ont marqué sa conception, son lancement et sa lente évolution.
+Bienvenue dans ce cours consacré à l'histoire de la création de Bitcoin ! En tant qu'utilisateur, il possible que vous vous soyez demandé d'où vient l'outil dont vous vous servez. De plus, vous pouvez ne pas comprendre les références parfois faites aux personnes et aux évènements qui ont marqué la courte histoire de la cryptomonnaie. Enfin, étudier cette histoire vous permettra de mieux comprendre Bitcoin en tant que tel, en exposant le contexte qui a façonné sa lente formation.
 
-<!-- TODO -->
+Dans ce cours, vous découvrirez le cheminement de sa conception, de son lancement et de sa construction économique initiale. Dans une première partie, nous nous intéresserons au contexte technique dans lequel le concept de Bitcoin a émergé. Dans une seconde partie, nous nous concentrerons sur sa naissance et sur son amorçage. Dans une troisième partie, nous étudierons la façon dont Bitcoin a pris en ampleur tant au niveau de l'utilisation économique, de la production minière et du développement logiciel. Dans une quatrième partie, nous nous contenterons de suivre comment Satoshi Nakamoto, le créateur de Bitcoin, a progressivement disparu et comment la communauté a pris le relai, faisant de la cryptomonnaie un projet réellement collectif.
+
+Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vous découvrirez les paroles et les actions, mais il fait aussi intervenir d'autres personnages ayant participé au développement de Bitcoin durant ses premières années d'existence. Vous pourrez ainsi apprendre à connaître des individus comme Hal Finney, Martti Malmi, Gavin Andresen, Jeff Garzik ou encore Amir Taaki, qui ont été des pionniers essentiels à cette croissance. En espérant que cette plongée dans l'histoire des débuts de Bitcoin vous soit profitable !
 
 +++
 
@@ -19,11 +21,15 @@ Bienvenue dans ce cours consacré à l'histoire de la création de Bitcoin ! Vo
 
 ## Introduction à l'histoire de la création de Bitcoin
 
-Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue et il est salutaire de la connaître ne serait-ce que pour ne pas reproduire les erreurs du passé. Elle vous permettra également de mieux comprendre les rouages de Bitcoin, dont les fonctions ont été déterminés par le contexte entourant sa conception.
+Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue et il peut être salutaire de la connaître ne serait-ce que pour ne pas reproduire les erreurs du passé. Elle vous permettra également de mieux comprendre les rouages de Bitcoin, dont les fonctions ont été déterminés par le contexte entourant sa conception.
 
 ### Petit aperçu
 
-Bitcoin a été conçu par un individu (ou un groupe) utilisant le pseudonyme de Satoshi Nakamoto. Le 31 octobre 2008, ce dernier a partagé un livre blanc décrivant son modèle via une obscure liste de diffusion de courrier électronique sur Internet. Le 8 janvier 2008, il a mis en application son concept en publiant le code source du logiciel et en lançant le réseau par le minage des premiers blocs de la chaîne. Soucieux d'attirer un nombre critiques d'utilisateurs, il a fait la promotion de sa création sur divers canaux de communication. Après des débuts difficiles, l'amorçage du système a finalement eu lieu en octobre 2009, lorsque l'unité de compte -- le bitcoin -- a acquis un prix. Puis les premiers services commerçants ont commencé à émerger. Le projet a réellement pris au cours de l'été 2010, suite à la publication d'un article sur le site populaire Slashdot. Le change avec le dollar, le minage de Bitcoin et le développement informatique du logiciel se sont considérablement améliorés. Satoshi Nakamoto s'est progressivement mis en retrait et il a fini par disparaître complètement au printemps 2011, après avoir transmis les accès à ses bras droits, Martti Malmi et Gavin Andresen. La communauté a su prendre le relai et porter le projet pour en faire ce qu'il est aujourd'hui.
+Bitcoin a été conçu par un individu (ou un groupe) utilisant le pseudonyme de Satoshi Nakamoto. Le 31 octobre 2008, ce dernier a partagé un livre blanc décrivant son modèle via une obscure liste de diffusion de courrier électronique sur Internet. Le 8 janvier 2008, il a mis en application son concept en publiant le code source du logiciel et en lançant le réseau par le minage des premiers blocs de la chaîne. Soucieux d'attirer un nombre critiques d'utilisateurs, il a fait la promotion de sa création sur divers canaux de communication. Après des débuts difficiles, l'amorçage du système a finalement eu lieu en octobre 2009, lorsque l'unité de compte -- appelée aussi le bitcoin -- a acquis un prix. Les premiers services commerçants ont commencé à émerger au débtu de l'année 2010.
+
+Le projet a réellement pris au cours de l'été 2010, suite à la publication d'un article sur le site très populaire Slashdot. Le change avec le dollar, le minage de Bitcoin et le développement informatique du logiciel se sont considérablement améliorés durant cette période. Satoshi Nakamoto s'est progressivement mis en retrait et il a fini par disparaître complètement au printemps 2011, après avoir transmis ses accès à ses bras droits, Martti Malmi et Gavin Andresen. La communauté a su prendre le relai et porter le projet pour en faire ce qu'il est aujourd'hui.
+
+<!--TODO-->
 
 Bien entendu, Bitcoin n'est pas quelque chose qui est sorti de nulle part. Sa création s'inscrit dans un contexte précis : la recherche d'un moyen de transcrire les propriétés de l'argent liquide dans le cyberespace. En particulier, ses éléments techniques sont le fruit de décennies de recherches et d'expérimentations qui l'ont précédé. Bitcoin repose ainsi sur :
 
@@ -40,9 +46,9 @@ Bitcoin a enfin hérité de l'éthos du mouvement des cypherpunks, un mouvement 
 
 ### Précisions
 
-Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. Il est vraisemblable que Satoshi Nakamoto se trouvait aux États-Unis lorsqu'il travaillait sur son projet. Toutefois, Bitcoin est un projet international, auquel a notamment contribué le développeur finlandais Martti Malmi (heure d'Europe de l'Est, UTC+2 / UTC+3). Nous nous référons donc au fuseau universel. Ainsi, nous dirons que le lancement effectif du réseau principal a eu lieu le 9 janvier à 2 heures 54 du matin, plutôt que le 8 janvier à 18 heures 54 (heure du Pacifique, UTC-8).
+Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. Il est vraisemblable que Satoshi Nakamoto se trouvait aux États-Unis lorsqu'il travaillait sur son projet. Toutefois, Bitcoin est un projet international, auquel a notamment contribué le développeur finlandais Martti Malmi (heure d'Europe de l'Est, UTC+2 / UTC+3), et nous nous référerons donc au fuseau universel. Ainsi, nous dirons que le lancement effectif du réseau principal a eu lieu le 9 janvier à 2 heures 54 du matin, plutôt que le 8 janvier à 18 heures 54, qui correspond au fuseau horaire de la côte Est (heure du pacifique, UTC-8 / UTC-7).
 
-Le contenu est partiellement adapté du livre *L'Élégance de Bitcoin*, écrit par l'auteur de cette formation en 2024. En plus des sources directes archivées sur Internet, nous nous basons sur un certain nombre d'ouvrages de référence. En voici les principaux :
+Le contenu est partiellement adapté du livre [*L'Élégance de Bitcoin*](https://bitcoinbook.shop/products/lelegance-de-bitcoin) (2024), écrit par l'auteur de cette formation. En plus des sources directes archivées sur Internet, nous nous basons sur un certain nombre d'ouvrages de référence. En voici les principaux :
 
 - [*The Genesis Book*](https://store.bitcoinmagazine.com/products/the-genesis-book) d'Aaron van Wirdum, publié en 2024 ;
 - [*Digital Gold*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) de Nathaniel Popper, publié en 2014 ;
@@ -412,7 +418,7 @@ Bitcoin constitue en effet un assemblage ingénieux de tous ces concepts. Il rep
 
 Bitcoin forme donc l'aboutissement d'une quête pour la cybermonnaie, une monnaie existant intégralement sur Internet et n'étant pas à la merci des États. Dans les prochains chapitres, nous raconterons comment il a pris vie et quels ont été les évènements marquants de ses premières années d'existence.
 
-# L'action de Satoshi Nakamoto (2008 -- 2011)
+# La lente émergence de Bitcoin
 
 ## La naissance de Bitcoin (août 2008 -- janv. 2009)
 
@@ -1021,7 +1027,9 @@ Le printemps 2010 a été une période riche en évènements fondateurs. D'abord
 
 Cependant, à la fin du mois de juin, l'activité demeurait assez modeste sur le réseau. Les nouveaux utilisateurs étaient peu nombreux et la flamme avait tout juste de quoi rester en vie. Le 30 juin, sur la liste de diffusion bitcoin-list, le cypherpunk James A. Donald (qui ne semblait pas avoir suivi les dernières avancées, ni n'avoir connaissance de l'existence du forum) [déclarait](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006) que « Bitcoin \[était\] en quelque sorte mort ». Même s'il avait tort, son commentaire révélait un manque criant de communication : un nombre trop restreint de personnes avait connaissance du projet, et il fallait faire plus d'efforts dans ce sens. Bitcoin avait « besoin d'une écologie d'utilisateurs pour être utile » et cette masse critique n'était pas encore là. Un évènement irait dans ce sens quelques jours plus tard, ce que nous aborderons dans le prochain chapitre.
 
-## Bitcoin prend ! (juil. 2010 -- août 2010)
+# L'essor de Bitcoin
+
+## Le grand slashdotting (juil. 2010 -- août 2010)
 
 Dans les chapitres précédents, nous avons observé comment Bitcoin a progressé au niveau du développement informatique, du minage et du commerce. Cette base fébrile a posé les bases pour ce qui allait suivre.
 
@@ -1069,7 +1077,7 @@ Il conclue son message du forum par :
 
 Par la suite, Teppy corrige la présentation en prenant en compte les suggestions. Ainsi, au début du mois de juillet, le discours autour de Bitcoin est bien calibré. Ce dernier est prêt à subir un slashdotting.
 
-### Le grand slashdotting (11 juillet 2010)
+### Slashdotted! (11 juillet 2010)
 
 Le 11 juillet 2010, une version rectifiée de la présentation de Bitcoin rédigée par Teppy est [publiée](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) sur Slashdot. Celle-ci est la suivante :
 
@@ -1105,6 +1113,8 @@ Interface de la plateforme Mt. Gox en février 2011 (source : [archive](https:/
 
 Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme. Un mois plus tard, il [rouvrira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) la plateforme en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les transferts via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
+<!--TODO: séparation en deux chapitres, Le grand slashdotting + Les premiers ennuis techniques, ajouter taille limite des blocs ?-->
+
 ### L'amélioration du logiciel (juil. 2010 -- août 2010)
 
 L'afflux d'utilisateurs provenant de Slashdot impose aussi d'améliorer le logiciel. Des vulnérabilités trouvées doivent être corrigées et des nouveautés doivent être intégrées. Satoshi est ainsi mis sous pression, et il [confie](https://mmalmi.github.io/satoshi/#email-210) à Martti Malmi en privé le 18 juillet qu'il « perd la tête tellement il y a de choses à faire ». (*original: "I'm losing my mind there are so many things that need to be done."*) En l'espace de deux mois, ce ne sont pas moins de 8 sous-versions du logiciel qui sont ainsi publiées.
@@ -1127,7 +1137,7 @@ Les mineurs partagent également leurs découvertes pour améliorer, directement
 
 Toutes ces améliorations font que Bitcoin se renforce de jour en jour, tant au point de vue du fonctionnement du logiciel que des performances du minage. Néanmoins, cet élan innovateur est quelque peu terni par un évènement qui marque profondément les esprits : le *value overflow incident*, qui intervient durant la journée du 15 août et qui perturbe le réseau pendant une quinzaine d'heure.
 
-### Le value overflow incident et le système d'alerte (15 août 2010)
+### Le value overflow incident (15 août 2010)
 
 Le 15 août 2010 vers 17 heures (UTC), un bloc qui contient une transaction créant plus de 184 *milliards* de bitcoins est ajouté à la chaîne à la hauteur 74 638. Cette émission extraordinairement élevée exploite une vulnérabilité de dépassement de mémoire (*overflow*) à l'endroit de la représentation des quantités : l'attaquant a créé deux sorties transactionnelles de 92 233 720 368,54277039 BTC soit un montant proche du maximum d'unités pouvant être représentant par un entier signé sur 64 bits (le format utilisé dans le protocole).
 
@@ -1157,11 +1167,17 @@ Mais ce sont les changements au niveau du logiciel qui ont été les plus import
 
 Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, faisant de Slashdot le réel point de départ de Bitcoin en tant que projet collectif. C'est ce que nous étudierons dans le prochain chapitre.
 
-## Après Slashdot (sept. 2010 -- déc. 2010)
+## L'automne du succès (sept. 2010 -- déc. 2010)
+
+**/!\ EN CHANTIER**
+
+Après l'été, ...
+
+Cet automne a avant tout été une période fastueuse pour le minage qui se développe énormément.
 
 ### La première ferme de minage (juil. 2010 -- sept. 2010)
 
-La récompense financière élevée apportée par la hausse du prix et par l'éventualité d'une croissance incite les individus à se spécialiser dans la génération de bitcoins. Le grand mineur de cet période est un développeur allemand se faisant appeler ArtForz, qui a appris l'existence de Bitcoin suite à la présentation de Bitcoin sur Slashdot. Il s'investit rapidement dans le développement du logiciel, et passe beaucoup de temps sur le canal IRC `#bitcoin-dev`.
+Après le slashdotting de Bitcoin, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se spécialiser dans la génération de bitcoins. Le grand mineur de cette période est un développeur allemand se faisant appeler ArtForz, qui a appris l'existence de Bitcoin suite à la présentation de Bitcoin sur Slashdot. Il s'investit rapidement dans le développement du logiciel, et passe beaucoup de temps sur le canal IRC `#bitcoin-dev`.
 
 En particulier, il développe son propre algorithme de minage par GPU avec OpenCL. Il se met à générer des bitcoins le 19 juillet. Peu à peu, il construit une grande ferme de minage, qui sera connue sous le nom d'« ArtFarm », et en vient à contrôler une portion non négligeable de la puissance de calcul du réseau.
 
@@ -1231,7 +1247,7 @@ Développement de la communauté russe... btcex.com, webmoney
 
 (source : [archive](https://web.archive.org/web/20110521042522/https://linuxfr.org/news/connaissez-vous-les-bitcoins) de LinuxFr.org)
 
-25 octobre, article de ploum en français sur son blog : https://ploum.net/monnaie-de-geek-monnaie-de-singe/ ; sujet "French" sur le forum : https://bitcointalk.org/index.php?topic=1567.0
+25 octobre, article de ploum en français sur son blog : https://ploum.net/monnaie-de-geek-monnaie-de-singe/ ; création du sujet "French" sur le forum : https://bitcointalk.org/index.php?topic=1567.0
 
 Communauté française : grondilu (Lucien Grondin), davout (David François, Bitcoin-Central), MagicalTux (Mark Karpelès), jluc (inscrit le 23/12, création de [bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le même jour, premier article le 28/12)
 
@@ -1283,6 +1299,8 @@ Ce à quoi Satoshi [répond](https://bitcointalk.org/index.php?topic=2188.msg292
 
 À la fin de l'année 2010, il semble donc que Bitcoin est prêt à voler de ses propres ailes.
 
+# La communauté de Bitcoin
+
 ## La disparition de Satoshi (déc. 2010 -- avr. 2011)
 
 ### L'affaire WikiLeaks (oct. 2010 -- déc. 2010)
@@ -1311,17 +1329,29 @@ Satoshi se volatilise définitivement durant le printemps 2011.
 >
 > *original: "I wish you wouldn't keep talking about me as a mysterious shadowy figure, the press just turns that into a pirate currency angle. &nbsp;Maybe instead make it about the open source project and give more credit to your dev contributors; it helps motivate them."*
 
-
-
 Début mai, il écrit à Martti Malmi :
 
 > « Je suis passé à autre chose et je ne serai probablement plus là à l'avenir. »
 >
 > *original (Digital Gold p. 81): "I've moved to other things and probably won't be around in the future."*
 
-# L'après-Satoshi
+### Le mystère Satoshi
 
-## La prise de relai de la communauté (avr. 2011 -- avr. 2012)
+**extrait** En 2013, dans l'un de ses derniers messages sur le forum, Hal Finney partagera une citation énigmatique du film Man of Steel tout juste sorti, résumant bien la dimension mystérieuse entourant le créateur de Bitcoin :
+
+> « Comment retrouver quelqu'un qui a toujours brouillé les pistes ?
+>
+> Pour certains, c'était un ange gardien. Pour d'autres, \[une énigme,\] un fantôme, toujours un peu à l'écart.
+>
+> Que représente le S ? »
+>
+> *original: "How do you find someone who has spent a lifetime covering his tracks?*
+>
+> *For some, he was a guardian angel. For others, a ghost, who never quite fit in.*
+>
+> *What's the S stand for?"*
+
+## La prise de relai de la communauté (avr. 2011 -- sept. 2011)
 
 ### Le développement communautaire
 
@@ -1329,32 +1359,6 @@ Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, 
 
 gmaxwell
 
-### Les portefeuilles SPV (mars 2011)
+### Les portefeuilles SPV (mars 2011 -- sept. 2011)
 
 BitCoinJ (Mike Hearn), Bitcoin Wallet for Android (Andreas Schildbach), Electrum (Thomas Voegtlin)
-
-### P2SH : la première discorde majeure (déc. 2011 -- avr. 2012)
-
-OP\_EVAL, OP\_CHV, luke-jr, commentaire d'Amir Taaki, guerre des blocs
-
-## Autres développements (2011 -- nov. 2012)
-
-### Le change
-
-Mt. Gox, TradeHill, Bitcoinica, BitInstant
-
-### Le commerce
-
-BitPay, Overstock.com
-
-### Le dark web
-
-Silk Road, *A Heroin Store* (Teppy : https://bitcointalk.org/index.php?topic=175.msg1430#msg1430)
-
-### Le jeu d'argent
-
-SatoshiDICE
-
-### Le minage
-
-Slushpool, Bitmain, voir min201 cryptomonnaies alternatives, changement de discours, premier halving

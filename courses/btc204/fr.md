@@ -1904,7 +1904,7 @@ A = a·G
 S = a·B = a·b·G = b·a·G = b·A
 ```
 
-![BTC204](assets/notext/72/19.webp)
+![BTC204](assets/fr/72/19.webp)
 
 Maintenant que Bob connait le code de paiement d'Alice, il va être en capacité de détecter les paiements BIP47 de celle-ci, et il pourra dériver les clés privées bloquant les bitcoins reçus.
 
@@ -1915,10 +1915,83 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner et
 - Il utilise ce point secret pour calculer un HMAC qui est le facteur aveuglant ;
 - Il utilise ce facteur aveuglant pour déchiffrer la charge utile du code de paiement d'Alice contenu dans l'OP_RETURN.
 
-![BTC204](assets/notext/72/20.webp)
+![BTC204](assets/fr/72/20.webp)
 
 ### La transaction de paiement BIP47
 
+Étudions maintenant ensemble le processus de paiement avec BIP47. Pour vous rappeler l'état actuel de la situation :
+- Alice est en connaissance du code de paiement de Bob qu'elle a simplement récupéré sur son site web ;
+- Bob est en connaissance du code de paiement d'Alice grâce à la transaction de notification ;
+- Alice va réaliser un premier paiement vers Bob. Elle pourra en réaliser de nombreux autres de la même façon.
+
+Avant de vous expliquer ce processus, je pense qu'il est important de rappeler sur quels index nous travaillons actuellement. On décrit le chemin de dérivation d'un code de paiement comme ceci : `m/47'/0'/0'`. La profondeur suivante répartit les index de cette manière :
+- La première paire fille normale (non renforcée) est celle utilisée pour générer l'adresse de notification dont nous avons parlé dans la partie précédente : `m/47'/0'/0'/0` ;
+- Les paires de clés filles normales sont utilisées au sein d'ECDH pour générer des adresses de réception de paiement BIP47 comme nous allons le voir dans cette partie : de `m/47'/0'/0'/0` à `m/47'/0'/0'/2 147 483 647` ;
+- Les paires de clés filles renforcées sont des codes de paiements éphémères : de `m/47'/0'/0'/0'` à `m/47'/0'/0'/2 147 483 647'`.
+
+Chaque fois qu'Alice souhaite envoyer un paiement à Bob, elle dérive une nouvelle adresse vierge unique, grâce une nouvelle fois au protocole ECDH :
+- Alice sélectionne la première clé privée dérivée depuis son code de paiement réutilisable personnel :
+
+```text
+a
+```
+
+- Alice sélectionne la première clé publique inutilisée dérivée depuis le code de paiement de Bob. Cette clé publique, nous l'appellerons `B`. Elle est associée à la clé privée `b` dont seul Bob a connaissance :
+
+```text
+B = b·G
+```
+
+- Alice calcule un point secret `S` sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée `a` à partir de la clé publique de Bob `B` :
+
+```text
+S = a·B
+```
+
+- À partir de ce point secret, Alice va calculer le secret partagé `s` (minuscule). Pour ce faire, elle sélectionne l'abscisse du point secret `S` nommée `Sx`, et elle passe cette valeur dans la fonction de hachage SHA256 :
+
+```text
+S (Sx, Sy)
+s = SHA256(Sx)
+```
+
+- Alice utilise ce secret partagé `s` pour calculer une adresse de réception de paiement Bitcoin. Dans un premier temps, elle vérifie que `s` est bien contenu dans l'ordre de la courbe secp256k1. Si ce n'est pas le cas, elle incrémente l'index de la clé publique de Bob afin de dériver un autre secret partagé ;
+- Dans un second temps, elle calcule une clé publique `K0` en additionnant sur la courbe elliptique les points `B` et `s·G`. En d'autres termes, Alice additionne la clé publique dérivée depuis le code de paiement de Bob `B` avec un autre point calculé sur la courbe elliptique par addition et doublement de points avec le secret partagé `s` depuis le point générateur de la courbe secp256k1 `G`. Ce nouveau point représente une clé publique, et nous le nommons `K0` :
+
+```text
+K0 = B + s·G
+```
+
+- Avec cette clé publique `K0`, Alice peut dériver une adresse de réception vierge de façon standard (par exemple SegWit V0 en bech32).
+
+Une fois qu'Alice a obtenu l'adresse de réception `K0` de Bob, elle peut effectuer une transaction Bitcoin d'une façon standard. Pour cela, elle choisit un UTXO qu'elle possède, sécurisé par une paire de clés issue d'une branche différente de son portefeuille HD, et le consomme pour satisfaire un output vers l'adresse `K0` de Bob. Il est important de noter que ce paiement, une fois l'adresse dérivée, suit un processus classique et ne dépend plus des clés associées au BIP47.
+
+Je récapitule les étapes que l'on vient de voir ensemble pour envoyer un paiement BIP47 :
+- Alice sélectionne la première clé privée fille dérivée depuis son code de paiement personnel ;
+- Elle calcule un point secret sur la courbe elliptique grâce à ECDH à partir de la première clé publique fille inutilisée dérivée depuis le code de paiement de Bob ;
+- Elle utilise ce point secret pour calculer un secret partagé avec SHA256 ;
+- Elle utilise ce secret partagé pour calculer un nouveau point secret sur la courbe elliptique ;
+- Elle additionne ce nouveau point secret avec la clé publique de Bob ;
+- Elle obtient une nouvelle clé publique éphémère pour laquelle seul Bob dispose de la clé privée associée ;
+- Alice peut faire une transaction classique vers Bob avec l'adresse de réception éphémère dérivée.
+
+![BTC204](assets/fr/72/21.webp)
+
+Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment à l'exception qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée `K1` :
+
+![BTC204](assets/fr/72/22.webp)
+
+Elle peut continuer ainsi de suite et dériver jusqu'à `2^32` adresses vierges appartenant à Bob.
+
+D'un point de vue extérieur, en observant la blockchain, il est en théorie impossible de différencier un paiement BIP47 d'un paiement classique. Voici un exemple d'une transaction de paiement BIP47 sur le Testnet :
+
+```text
+94b2e59510f2e1fa78411634c98a77bbb638e28fb2da00c9f359cd5fc8f87254
+```
+
+Cela ressemble à une transaction classique avec un input consommé, un output de paiement et un change :
+
+![BTC204](assets/notext/72/23.webp)
 
 
 ### Réception du paiement BIP47 et dérivation de la clé privée

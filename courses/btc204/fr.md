@@ -1993,31 +1993,86 @@ Cela ressemble à une transaction classique avec un input consommé, un output d
 
 ![BTC204](assets/notext/72/23.webp)
 
-
 ### Réception du paiement BIP47 et dérivation de la clé privée
 
+Alice vient d'effectuer son premier paiement vers une adresse vierge BIP47 appartenant à Bob. Maintenant voyons ensemble comment Bob réceptionne ce paiement. Nous allons également voir pourquoi Alice n'a pas accès à la clé privée de l'adresse qu'elle vient pourtant de générer elle-même, et comment Bob retrouve cette clé permettant de dépenser les bitcoins qu'il vient de recevoir.
 
+Dès que Bob reçoit la transaction de notification de la part d'Alice, il dérive la clé publique BIP47 `K0` avant même que sa correspondante n'y ait envoyé de paiement. Il observe donc tout paiement vers l'adresse associée. En réalité, il va même dériver immédiatement plusieurs adresses qu'il va observer (`K0`, `K1`, `K2`, `K3`...). Voici comment il dérive cette clé publique `K0` :
+
+- Bob sélectionne la première clé privée fille dérivée depuis son code de paiement. Cette clé privée est nommée `b`. Elle est associée à la clé publique `B` avec laquelle Alice avait fait ses calculs dans l'étape précédente :
+
+```text
+b
+```
+
+- Bob sélectionne la première clé publique d'Alice dérivée depuis son code de paiement. Cette clé est nommée `A`. Elle est associée à la clé privée `a` avec laquelle Alice avait fait ses calculs, et dont seule Alice a connaissance. Bob peut réaliser ce processus puisqu'il est en connaissance du code de paiement d'Alice qui lui a été transmis avec la transaction de notification :
+
+```text
+ A = a·G
+```
+
+- Bob calcule le point secret `S`, par addition et doublement de points sur la courbe elliptique, en appliquant sa clé privée `b` sur la clé publique d'Alice `A`. On retrouve ici l'utilisation d'ECDH qui nous garantit que ce point `S` sera le même pour Bob et pour Alice :
+
+```text
+S = b·A
+```
+
+- De la même manière que l'a fait Alice, Bob isole l'abscisse de ce point `S`. Nous avons nommé cette valeur `Sx`. Il passe cette valeur dans la fonction SHA256 pour trouver le secret partagé `s` (minuscule) :
+
+```text
+s = SHA256(Sx)
+```
+
+- Toujours de la même manière qu'Alice, Bob calcule le point `s·G` sur la courbe elliptique. Puis, il additionne ce point secret avec sa clé publique `B`. Il obtient alors un nouveau point sur la courbe elliptique qu'il interprète comme une clé publique `K0` :
+
+```text
+K0 = B + s·G
+```
+
+Une fois que Bob dispose de cette clé publique `K0`, il peut dériver la clé privée associée afin de pouvoir dépenser ses bitcoins. C'est le seul à pouvoir générer cette clé privée :
+
+- Bob additionne sa clé privée fille `b` dérivée depuis son code de paiement personnel. C'est le seul à pouvoir obtenir la valeur de `b`. Puis, il additionne `b` avec le secret partagé `s` afin d'obtenir `k0`, la clé privée de `K0` :
+
+```text
+k0 = b + s
+```
+
+Grâce à la loi de groupe de la courbe elliptique, Bob obtient exactement la clé privée correspondant à la clé publique utilisée par Alice. Nous avons donc bien :
+
+```text
+K0 = k0·G
+```
+
+Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner un paiement BIP47 et calculer la clé privée correspondante :
+- Bob sélectionne la première clé privée fille dérivée depuis son code de paiement personnel ;
+- Il calcule un point secret sur la courbe elliptique grâce à ECDH à partir de la première clé publique fille dérivée depuis le code de chaîne d'Alice ;
+- Il utilise ce point secret pour calculer un secret partagé avec SHA256 ;
+- Il utilise ce secret partagé pour calculer un nouveau point secret sur la courbe elliptique ;
+- Il additionne ce nouveau point secret avec sa clé publique personnelle ;
+- Il obtient une nouvelle clé publique éphémère, celle vers laquelle Alice va envoyer son premier paiement ;
+- Bob calcule la clé privée associée à cette clé publique éphémère en additionnant sa clé privée fille dérivée depuis son code de paiement et le secret partagé.
+
+![BTC204](assets/fr/72/24.webp)
+
+Puisque Alice ne peut pas obtenir `b` (la clé privée de Bob), elle est incapable de déterminer `k0` (la clé privée associée à l'adresse de réception BIP47 de Bob). Schématiquement, nous pouvons représenter le calcul du secret partagé `S` comme cela :
+
+![BTC204](assets/fr/72/19.webp)
+
+Une fois le secret partagé trouvé avec ECDH, Alice et Bob calculent la clé publique de paiement BIP47 `K0`, et Bob calcule également la clé privée associée `k0` :
+
+![BTC204](assets/fr/72/25.webp)
 
 ### Remboursement du paiement BIP47
 
+Puisque Bob est en connaissance du code de paiement réutilisable d'Alice, il dispose déjà de toutes les informations nécessaires pour lui envoyer un remboursement. Il n'aura pas besoin de recontacter Alice pour lui demander une quelconque information. Il devra simplement la notifier avec une transaction de notification, notamment pour que celle-ci puisse récupérer ses adresses BIP47 avec sa graine, puis il pourra également lui envoyer jusqu'à `2^32` paiements.
 
+La fonctionnalité de remboursement est spécifique au BIP47 et constitue l'un de ses avantages par rapport à d'autres méthodes que nous étudierons dans les prochains chapitres, telles que les Silent Payments.
 
+Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des paiements. Les rôles s'inversent :
 
+![BTC204](assets/fr/72/26.webp)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*Un grand merci à [Fanis Michalakis](https://x.com/FanisMichalakis) pour sa relecture et ses précieux conseils d'expert sur l'article qui a inspiré la rédaction de ce chapitre !*
 
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

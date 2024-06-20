@@ -1445,7 +1445,7 @@ Avant d’aborder les mécanismes de Diffie-Hellman, permettez-moi de vous rappe
 
 **L'échange de clés Diffie-Hellman entre Alice et Bob se déroule comme suit :**
 
-- Alice et Bob conviennent de deux nombres communs : `p` et `g`. `p` est un nombre premier, et plus ce nombre est grand, plus Diffie-Hellman sera sécurisé. `g` est une racine primitive de `p`. Ces deux nombres peuvent être communiqués en clair sur un réseau non sécurisé. Ils représentent l'équivalant à **la couleur jaune** dans la vulgarisation précédente. Il est donc important qu'Alice et Bob utilisent exactement les mêmes valeurs pour `p` et `g`.
+- Alice et Bob conviennent de deux nombres communs : `p` et `g`. `p` est un nombre premier, et plus ce nombre est grand, plus Diffie-Hellman sera sécurisé. `g` est une racine primitive de `p`. Ces deux nombres peuvent être communiqués en clair sur un réseau non sécurisé. Ils représentent l'équivalent de **la couleur jaune** dans la vulgarisation précédente. Il est donc important qu'Alice et Bob utilisent exactement les mêmes valeurs pour `p` et `g`.
 
 - Une fois ces paramètres définis, Alice et Bob choisissent chacun un nombre aléatoire secret. Alice nomme son nombre aléatoire secret `a` (équivalent de **la couleur rouge**) et Bob nomme le sien `b` (équivalent de **la couleur bleue**). Ces nombres doivent impérativement rester secrets.
 
@@ -1588,9 +1588,9 @@ Comme nous l'avons vu dans la partie précédente, ECDH est une variante de l'é
 
 ECDHE est utilisé une première fois dans le BIP47 pour transmettre le code de paiement de l'expéditeur vers le destinataire. C'est la fameuse **transaction de notification**. Cette étape est essentielle car pour que le BIP47 fonctionne efficacement, les deux parties impliquées (l'expéditeur et le destinataire) doivent connaître le code de paiement de l'autre. Cette connaissance permet la dérivation des clés publiques éphémères et, par conséquent, des adresses de réception vierges associées.
 
-Avant cet échange, l'expéditeur est logiquement déjà en connaissance du code de paiement du destinataire puisqu'il l'a récupéré off-chain, par exemple sur son site web, sur une facture ou encore sur ses réseaux sociaux. Cependant, le destinataire n'a pas forcément connaissance du code de paiement de l'expéditeur. Le code doit pourtant lui être transmis ; autrement, il ne pourra pas dériver les clés éphémères nécessaires à l'identification des adresses où sont stockés ses bitcoins, ni accéder à ses fonds. Bien que cette transmission du code de l'envoyeur puisse techniquement s'effectuer off-chain par d'autres moyens de communication, cela pose problème si le portefeuille doit être récupéré à partir de la graine seulement.
+Avant cet échange, l'expéditeur est logiquement déjà en connaissance du code de paiement du destinataire puisqu'il l'a récupéré off-chain, par exemple sur son site web, sur une facture ou encore sur ses réseaux sociaux. Cependant, le destinataire n'a pas forcément connaissance du code de paiement de l'expéditeur. Le code doit pourtant lui être transmis ; autrement, il ne pourra pas dériver les clés éphémères nécessaires à l'identification des adresses où sont stockés ses bitcoins, ni accéder à ses fonds. Bien que cette transmission du code de l'envoyeur puisse techniquement s'effectuer off-chain par d'autres moyens de communication, cela pose un problème si le portefeuille doit être récupéré à partir de la graine seulement.
 
-En effet, contrairement aux adresses conventionnelles, les adresses BIP47 ne sont pas dérivées directement depuis la graine du destinataire—utiliser une `xpub` serait plus simple dans ce cas—mais résultent d'un calcul combinant les deux codes de paiement : celui de l'expéditeur et celui du destinataire. Ainsi, si le destinataire perd son portefeuille et tente de le restaurer à partir de sa graine, il récupérera son propre code de paiement, qui est directement dérivé de sa graine. Cependant, pour retrouver les adresses éphémères, il lui sera indispensable de disposer également des codes de paiement de tous ceux qui lui ont envoyé des bitcoins via le BIP47. D'où l'importance de la transaction de notification qui permet de sauvegarder ces informations sur la blockchain de Bitcoin, tout en pouvant le retrouver très facilement sans avoir à chercher dans le milliard de transactions exécutées depuis son lancement en 2009.
+En effet, contrairement aux adresses conventionnelles, les adresses BIP47 ne sont pas dérivées directement depuis la graine du destinataire — utiliser une `xpub` serait plus simple dans ce cas — mais résultent d'un calcul combinant les deux codes de paiement : celui de l'expéditeur et celui du destinataire. Ainsi, si le destinataire perd son portefeuille et tente de le restaurer à partir de sa graine, il récupérera son propre code de paiement, qui est directement dérivé de sa graine. Cependant, pour retrouver les adresses éphémères, il lui sera indispensable de disposer également des codes de paiement de tous ceux qui lui ont envoyé des bitcoins via le BIP47. D'où l'importance de la transaction de notification qui permet de sauvegarder ces informations sur la blockchain de Bitcoin, tout en pouvant le retrouver très facilement sans avoir à chercher dans le milliard de transactions exécutées depuis son lancement en 2009.
 
 ![BTC204](assets/fr/72/15.webp)
 
@@ -1598,7 +1598,7 @@ Il serait donc possible de mettre en œuvre le BIP47 sans recourir à la transac
 
 Dans les chapitres suivants, nous étudierons toutefois d'autres protocoles ayant des objectifs similaires à ceux du BIP47, mais qui ne nécessitent pas de transaction de notification. Ces alternatives introduisent cependant leurs propres compromis.
 
-Outre son rôle de sauvegarde des codes de paiement, la transaction de notification a également une fonction de notification pour le destinataire, comme le suggère son nom. Elle signale au client du destinataire qu'une nouveau tunnel de paiement a été établi, et lui suggère donc de surveiller les adresses éphémères qui en découlent.
+Outre son rôle de sauvegarde des codes de paiement, la transaction de notification a également une fonction de notification pour le destinataire, comme le suggère son nom. Elle signale au client du destinataire qu'un nouveau tunnel de paiement a été établi, et lui suggère donc de surveiller les adresses éphémères qui en découlent.
 
 ### Le modèle de confidentialité du BIP47
 
@@ -1628,7 +1628,7 @@ En réalité, dans le modèle de confidentialité traditionnel de Bitcoin, il es
 
 Bien sûr, le modèle de confidentialité classique de Bitcoin s'observe toujours pour les clés publiques éphémères, qui sont dérivées de l'association des deux codes de paiement. Les deux modèles sont en fait complémentaires. Ce que je veux souligner ici, c'est que contrairement à l'usage habituel d'une clé publique pour recevoir des bitcoins, le code de paiement peut être lié à une identité spécifique, car l'information "_Alice effectue une transaction avec Bob_" est rompue à une autre étape. Le code de paiement sert à générer les adresses de paiement, mais en se basant uniquement sur l'observation de la blockchain, il est impossible de lier une transaction de paiement BIP47 aux codes de paiement utilisés pour l'exécuter, sauf si les UTXOs impliqués étaient déjà liés à une identité précédemment et que les utilisateurs ont associé leurs codes de paiement à leurs identités respectives.
 
-En sommes  le modèle de confidentialité offert par les paiements BIP47 pourrait être considéré comme supérieur à celui de base de Bitcoin, bien qu'il ne soit pas pour autant magique.
+Pour résumer, le modèle de confidentialité offert par les paiements BIP47 pourrait être considéré comme supérieur à celui de base de Bitcoin, bien qu'il ne soit pas pour autant magique.
 
 ### Construction de la transaction de notification
 
@@ -1685,7 +1685,7 @@ c' = c XOR f2
 
 Un `OP_RETURN` est un opcode qui permet de marquer une sortie de transaction Bitcoin comme invalide. Aujourd'hui, il est utilisé pour diffuser ou pour ancrer de l'information sur la blockchain Bitcoin. On peut y stocker jusqu'à 80 octets de datas qui sont inscrites sur la chaine, et donc visibles par tous les autres utilisateurs.
 
-Comme nous l'avons vu dans les sections précédente, ECDH est utilisé pour générer un secret partagé entre deux utilisateurs qui communiquent sur un réseau non sécurisé, et potentiellement observé par des attaquants. Dans le BIP47, ECDH est utilisé pour pouvoir communiquer sur le réseau Bitcoin, qui par nature est un réseau de communication transparent et observé par de nombreux attaquants. Le secret partagé calculé grâce à l'échange de clés ECDH est ensuite utilisé pour chiffrer l'information secrète à transmettre : le code de paiement de l'expéditeur (Alice).
+Comme nous l'avons vu dans les sections précédentes, ECDH est utilisé pour générer un secret partagé entre deux utilisateurs qui communiquent sur un réseau non sécurisé, et potentiellement observé par des attaquants. Dans le BIP47, ECDH est utilisé pour pouvoir communiquer sur le réseau Bitcoin, qui par nature est un réseau de communication transparent et observé par de nombreux attaquants. Le secret partagé calculé grâce à l'échange de clés ECDH est ensuite utilisé pour chiffrer l'information secrète à transmettre : le code de paiement de l'expéditeur (Alice).
 
 Je récapitule les étapes que l'on vient de voir ensemble pour réaliser une transaction de notification :
 - Alice récupère le code de paiement et l'adresse de notification de Bob ;
@@ -1729,7 +1729,7 @@ L'octet suivant ce dernier opcode indique la taille de la charge utile venant pa
 6a4c50
 ```
 
-Ensuite on a les métadonnées de mon code de paiement en clair :
+Ensuite, on a les métadonnées de mon code de paiement en clair :
 
 ```text
 010002
@@ -1977,7 +1977,7 @@ Je récapitule les étapes que l'on vient de voir ensemble pour envoyer un paiem
 
 ![BTC204](assets/fr/72/21.webp)
 
-Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment à l'exception qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée `K1` :
+Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, à l'exception qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée `K1` :
 
 ![BTC204](assets/fr/72/22.webp)
 

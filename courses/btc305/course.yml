@@ -24,8 +24,7 @@ hours: 20
 # They are identified by their UUID
 # See /professors folder for examples
 professors:
-  # TODO: add new teacher id here and in professors
-  - another-satoshi
+  - radio-talent
 
 # contributors
 # List who is/are the contributors who help format, review,

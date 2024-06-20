@@ -11,8 +11,8 @@ subtopic: bitcoin
 
 # level
 # Define the difficulty of the course
-# Choose between beginner, intermediate, expert, wizard
-level: expert
+# Choose between beginner, intermediate, advanced, wizard
+level: advanced
 
 # hours
 # Evaluate the number of hours that it would take to

@@ -2077,8 +2077,73 @@ Bob peut alors rembourser Alice de la même manière qu'elle lui a envoyé des p
 ## Silent Payments
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
+Le BIP47 a beaucoup été critiqué pour son inefficience onchain. Comme expliqué dans le chapitre précédent, il impose la réalisation d'une transaction de notification pour chaque nouveau destinataire. Cette contrainte devient négligeable si l'on envisage d'établir un canal de paiement durable avec ce destinataire. En effet, une unique transaction de notification ouvre la voie à une quasi-infinité de paiements BIP47 par la suite.
 
-Ce Chapitre est en cours de rédaction est sera publié très prochainement !
+Cependant, dans certaines situations, la transaction de notification peut constituer un obstacle pour l'utilisateur. Prenons l'exemple d'une donation unique à un destinataire : avec une adresse Bitcoin classique, une seule transaction suffit pour réaliser la donation. Mais avec le BIP47, deux transactions sont nécessaires : une pour la notification et une autre pour le paiement effectif. Lorsque la demande d'espace dans les blocs est faible et que les frais de transaction sont bas, cette étape supplémentaire n'est généralement pas un problème. Toutefois, en période de congestion, les frais de transaction peuvent devenir exorbitants pour un seul paiement, doublant potentiellement le coût pour l'utilisateur par rapport à une transaction Bitcoin standard, ce qui peut s'avérer inacceptable pour l'utilisateur.
+
+Pour les situations où l'utilisateur prévoit de réaliser uniquement quelques paiements vers un identifiant statique, d'autres solutions ont été développées. Parmi elles, il y a les Silent Payments, décrits dans le [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Ce protocole permet d'utiliser un identifiant statique pour recevoir des paiements sans produire des réutilisations d'adresse, et sans nécessité l'utilisation de transactions de notification. Examinons ensemble comment fonctionne ce protocole.
+
+---
+
+*Pour bien comprendre ce chapitre, il est essentiel de maîtriser le fonctionnement d'ECDH (Elliptic Curve Diffie-Hellman) et de la dérivation de clés cryptographiques dans un portefeuille HD. Ces concepts ont été détaillés dans le chapitre précédent sur le BIP47. Je n'y reviendrai donc pas ici. Si vous n'êtes pas encore familiarisé avec ces notions, je vous recommande de consulter le chapitre précédent avant de poursuivre celui-ci. Je n'aborderai pas non plus à nouveau les risques associés à la réutilisation des adresses de réception, ni l'importance d'avoir un identifiant unique pour recevoir des paiements.*
+
+---
+
+### Pourquoi ne pas déplacer la notification ?
+
+Comme discuté dans le chapitre sur le BIP47, la transaction de notification remplit principalement deux fonctions :
+- Elle notifie le destinataire ;
+- Elle transmet le code de paiement de l'expéditeur.
+
+On pourrait penser naïvement que ce processus de notification pourrait être réalisé off-chain. En théorie, c'est tout à fait faisable : il suffirait que le destinataire indique un moyen de communication pour recevoir les codes de paiement BIP47 des expéditeurs. Cependant, cette approche présente deux problèmes majeurs :
+- D'abord, cela déplacerait le processus de transmission du code sur un autre protocole de communication. Les problèmes liés aux coûts et à la confidentialité de l'échange resteraient, mais seraient simplement transférés à ce nouveau protocole. En termes de confidentialité, cela pourrait aussi créer un lien entre une identité de l'utilisateur et une activité onchain, ce que l'on cherche à éviter en effectuant la notification directement sur la blockchain. De plus, réaliser la notification hors de la blockchain introduirait des risques de censure (comme le blocage des fonds) qui n'existent pas sur Bitcoin ;
+- Ensuite, cela poserait un problème de récupération. Avec le BIP47, le destinataire doit impérativement connaître les codes de paiement des expéditeurs pour accéder aux fonds. Cela est vrai lors de la réception, mais aussi en cas de récupération des fonds via la seed en cas de perte du portefeuille. Avec des notifications onchain, ce risque est évité, car l'utilisateur peut retrouver et déchiffrer les transactions de notification simplement en connaissant sa seed. Cependant, si la notification est effectuée hors de la blockchain, l'utilisateur devrait maintenir une sauvegarde dynamique de tous les codes de paiement reçus, ce qui est impraticable pour l'utilisateur moyen.
+
+Toutes ces contraintes font que l'utilisation d'une notification onchain est indispensable dans le cadre du BIP47. Pourtant, les Silent Payments cherchent précisément à éviter cette étape de notification onchain à cause de son coût. La solution adoptée n'est donc pas de déplacer la notification, mais de l'éliminer entièrement. Pour y parvenir, un compromis doit être accepté : celui du scanning. Contrairement au BIP47, où l'utilisateur sait exactement où trouver ses fonds grâce aux transactions de notification, dans le cadre des Silent Payments, l'utilisateur doit examiner toutes les transactions Bitcoin existantes pour détecter d'éventuels paiements qui lui seraient destinés.
+
+Vous pouvez donc voir pourquoi le BIP47 et les Silent Payments, bien qu'ils visent un objectif similaire, impliquent des compromis différents et **répondent donc en réalité à des cas d'usages distincts**. Pour des paiements uniques, tels que des donations, les Silent Payments sont plus appropriés en raison de leur coût plus faible. En revanche, pour des transactions régulières vers un même destinataire, comme dans le cas des plateformes d'échange ou des pools de minage, le BIP47 peut être préféré.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Pour créer ce chapitre sur les Silent Payments, j'ai largement utilisé [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 ## Le soft fork Taproot
 <chapterId>f6baa32e-f292-448c-a543-0635d3a7329e</chapterId>

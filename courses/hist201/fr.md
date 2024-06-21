@@ -21,7 +21,7 @@ Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vou
 
 ## Introduction à l'histoire de la création de Bitcoin
 
-Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue et il peut être salutaire de la connaître ne serait-ce que pour ne pas reproduire les erreurs du passé. Elle vous permettra également de mieux comprendre les rouages de Bitcoin, dont les fonctions ont été déterminés par le contexte entourant sa conception.
+Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lu ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce.
 
 ### Petit aperçu
 
@@ -29,20 +29,20 @@ Bitcoin a été conçu par un individu (ou un groupe) utilisant le pseudonyme de
 
 Le projet a réellement pris au cours de l'été 2010, suite à la publication d'un article sur le site très populaire Slashdot. Le change avec le dollar, le minage de Bitcoin et le développement informatique du logiciel se sont considérablement améliorés durant cette période. Satoshi Nakamoto s'est progressivement mis en retrait et il a fini par disparaître complètement au printemps 2011, après avoir transmis ses accès à ses bras droits, Martti Malmi et Gavin Andresen. La communauté a su prendre le relai et porter le projet pour en faire ce qu'il est aujourd'hui.
 
-<!--TODO-->
-
-Bien entendu, Bitcoin n'est pas quelque chose qui est sorti de nulle part. Sa création s'inscrit dans un contexte précis : la recherche d'un moyen de transcrire les propriétés de l'argent liquide dans le cyberespace. En particulier, ses éléments techniques sont le fruit de décennies de recherches et d'expérimentations qui l'ont précédé. Bitcoin repose ainsi sur :
+De plus, Bitcoin n'est pas un objet qui serait sorti de nulle part. Sa création s'inscrit dans un contexte précis : la recherche d'un moyen de transcrire les propriétés de l'argent liquide dans le cyberespace. En particulier, les éléments techniques qui le composent sont le fruit de décennies de recherches et d'expérimentations qui l'ont précédé. Bitcoin repose ainsi sur :
 
 - La signature numérique, issue de la cryptographie asymétrique née en 1976 ;
 - Le consensus distribué, élaboré dans les années 1980 suite aux premiers développements d'Internet ;
 - L'horodatage de documents, inventé au début des années 90 avec l'émergence des premières fonctions de hachage solides ;
 - La preuve de travail, décrite et mise en application au cours des années 90.
 
-Pour concevoir Bitcoin, Satoshi Nakamoto s'est grandement inspiré du modèle eCash proposé par David Chaum en 1982 et implémenté par le biais de son entreprise DigiCash dans les années 90. Ce modèle, qui reposait sur le procédé de signature aveugle, permettait aux utilisateurs de disposer d'une certaine confidentialité des échanges. Toutefois, il reposait sur un réseau centralisé de banques qui intervenaient pour empêcher la double dépense. Ainsi, lorsque DigiCash a fait faillite, le système s'est effondré. En permettant de ne plus avoir besoin de tiers de confiance, Bitcoin corrigeait ce problème.
+Pour concevoir Bitcoin, Satoshi Nakamoto s'est grandement inspiré du modèle eCash, un concept proposé par le cryptographe David Chaum en 1982 et mis en œuvre par le biais de son entreprise DigiCash dans les années 90. Ce modèle, qui reposait sur le procédé de signature aveugle, permettait aux utilisateurs de réaliser des échanges de manière relativement confidentielle. Toutefois, il se basait sur un réseau centralisé de banques qui intervenaient pour empêcher la double dépense. De ce fait, lorsque DigiCash a fait faillite, le système s'est effondré. Bitcoin a corrigé ce problème en permettant de ne plus avoir besoin de tiers de confiance.
 
-La création de Bitcoin s'inscrivait également dans un contexte de fermeture des systèmes de monnaies privées tels que e-gold et Liberty Reserve. Il constituait en cela un modèle robuste de monnaie numérique, pouvant résister aux assauts directs de l'État fédéral américain. En répartissant le risque entre ses participants, à l'instar des systèmes de partage en pair à pair comme BitTorrent, il assurait sa propre survie.
+Bitcoin émergé dans un contexte particulier : la fermeture par l'État fédéral américain de systèmes de monnaies privées, comme la devise en or numérique e-gold en 2008 ou le système Liberty Reserve en 2013. En se fondant sur un modèle répartissant le risque entre ses participants, à l'instar des systèmes de partage en pair à pair comme BitTorrent, Satoshi Nakamoto a créé un modèle robuste de monnaie numérique, pourvant résister aux assauts directs de l'État.
 
-Bitcoin a enfin hérité de l'éthos du mouvement des cypherpunks, un mouvement de cryptographes rebelles des années 90, qui cherchaient à préserver la confidentialité et la liberté des individus sur Internet par l'utilisation proactive de la cryptographie. Bitcoin est en continuité avec des projets comme b-money, bit gold ou encore RPOW imaginés à la fin des années 90 et au début des années 2000. Satoshi Nakamoto y a ainsi fait mention, bien qu'il n'en avait pas connaissance avant de concevoir Bitcoin et qu'il ne faisait probablement pas partie du mouvement d'origine.
+La création de Bitcoin s'inscrivait également dans un contexte de fermeture étatique des systèmes de monnaies privées tels que e-gold et Liberty Reserve. Il constituait en cela un modèle robuste de monnaie numérique, pouvant résister aux assauts directs de l'État fédéral américain. En répartissant le risque entre ses participants, à l'instar des systèmes de partage en pair à pair comme BitTorrent, il assurait sa propre survie.
+
+Le projet Bitcoin est enfin l'héritier de l'éthos du mouvement des cypherpunks, un mouvement de cryptographes rebelles des années 90, qui cherchaient à préserver la confidentialité et la liberté des gens sur Internet par l'utilisation proactive de la cryptographie. Bitcoin s'inscrit dans la continuité des projets comme b-money, bit gold ou encore RPOW imaginés par ces individus à la fin des années 90 et au début des années 2000. Satoshi Nakamoto y a ainsi fait mention, bien qu'il n'en avait pas connaissance avant de concevoir Bitcoin et qu'il ne faisait probablement pas partie du mouvement d'origine.
 
 ### Précisions
 
@@ -104,7 +104,9 @@ Les éléments cryptographiques de base de Bitcoin sont issus de ces recherches.
 
 Cette révolution dans le domaine de la cryptographie a également inspiré le jeune David Chaum, informaticien originaire de la côté Ouest et alors doctorant à l'Université de Berkeley. Ce dernier s'est très vite pris de passion pour la protection de la vie privée. Il était en effet très inquiet pour l'avenir de la liberté et de la confidentialité dans une société qui était destinée à s'informatiser de plus en plus.
 
-img: portrait de David Chaum
+![David Chaum dans les années 90](assets/img/ch1/david-chaum-90s.webp)
+
+David Chaum dans les années 90 (source : [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
 Dans son article fondateur, « [Security Without Identification: Transaction Systems to Make Big Brother Obsolete](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf) » publié en 1985 dans *Communications of the ACM*, il écrivait :
 
@@ -153,13 +155,15 @@ Tout ceci implique qu'aucune banque du système ne peut relier le paiement à l'
 
 En 1990, David Chaum a fondé sa propre société, DigiCash B.V., pour mettre en application son idée d'argent liquide électronique. Cette entreprise était basée à Amsterdam aux Pays-Bas et détenait les brevets de son invention. À l'époque, Internet était encore naissant (le Web était encore en développement) et le commerce électronique inexistant ; ainsi, le modèle eCash constituait une formidable opportunité.
 
-img: logo de DigiCash
+![Logo de DigiCash](assets/img/ch1/digicash-logo.webp)
 
 Toutefois, ce n'est pas l'entreprise de David Chaum qui a testé pour la première fois le modèle : ce sont les cypherpunks qui ont mis en œuvre la chose sans tenir compte des brevets et qui n'ont pas demandé l'autorisation. Ainsi, un protocole nommé Magic Money a été [proposé](https://cypherpunks.venona.com/date/1994/02/msg00247.html) sur la liste de diffusion des cypherpunks le 4 février 1994 par un développeur anonyme se faisant appeler Pr0duct Cypher. Ce protocole permettait de créer sa monnaie en faisant fonctionner un serveur de courrier électronique qui servait de monnaierie eCash. Les cypherpunks ont joué avec en créant toutes sortes d'unités de compte comme les Tacky Tokens, les GhostMarks, les DigiFrancs ou encore les NexusBucks. L'utilité de ces jetons était cependant minimale, et les échanges très rares.
 
 Du côté de DigiCash, après quelques années de développement, un prototype a été [présenté](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) en mai 1994 lors de la première conférence internationale sur le World Wide Web au CERN à Genève. La société a ensuite réalisé un essai qui a débuté le 19 octobre de cette année, avec l'émission de CyberBucks qui n'étaient pas adossés à une autre monnaie. Divers commerçants acceptaient les CyberBucks dans le cadre de cette expérience. Les cypherpunks se sont également appropriés la chose en l'utilisant pour procéder à des échanges réels. Les CyberBucks ont ainsi acquis une valeur. Cependant, celle-ci s'est effondrée lorsque eCash a été déployé dans le système bancaire classique.
 
-img: photo emblématique de l'équipe de DigiCash en 1995 (David Chaum, Nick Szabo)
+![Photo emblématique (quoique floue) de l'équipe de DigiCash en 1995](assets/img/ch1/digicash-team-kitchentable-1995.webp)
+
+Photo emblématique (quoique floue) de l'équipe de DigiCash en 1995 : David Chaum se trouve tout à gauche, Nick Szabo tout à droite (source : [Chaum.com](https://chaum.com/ecash/))
 
 L'arrivée de eCash dans le système bancaire a commencé en octobre 1995 avec le début du partenariat de DigiCash avec la Mark Twain Bank, une petite banque du Missouri. Contrairement au cas des CyberBucks dont le taux de change était flottant, l'unité de compte était adossée au dollar américain. Entre 1996 et 1998, six banques ont suivi la Mark Twain Bank : la Merita Bank en Finlande, la Deutsche Bank en Allemagne, l'Advance Bank en Australie, la Bank Austria en Autriche, la Den norske Bank en Norvège et le Crédit Suisse en Suisse. La presse promettait alors à ce système un avenir radieux.
 

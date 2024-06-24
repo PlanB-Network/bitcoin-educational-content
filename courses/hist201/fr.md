@@ -239,7 +239,7 @@ D'autres systèmes ont été créés sur le même modèle. Nous pouvons citer Go
 
 Un autre exemple de monnaie privée centralisée était le système Liberty Reserve, qui permettait à ses utilisateurs de détenir et de transférer des devises électroniques indexées sur le dollar étasunien, sur l'euro ou sur l'or. Ce système a été créé par Arthur Budovsky, un Américain d'origine ukrainienne, et Vladimir Kats, immigré russe de Saint-Petersbourg. En 2006, Arthur Budovsky s'est expatrié au Costa Rica, alors considéré comme un paradis fiscal, où il a enregistré sa société, Liberty Reserve S.A.
 
-![Logo de Liberty Reserve en 2009](assets/img/ch2/liberty-reserve-logo-2009.webp)
+![Logo de Liberty Reserve en 2009](assets/img/ch2/3.webp)
 
 Logo de Liberty Reserve en 2009 (source : [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.jpg))
 
@@ -264,7 +264,7 @@ La vision originelle de PayPal était révolutionnaire, conformément à la visi
 >
 > Original: "Of course, what we're calling 'convenient' for American users will be revolutionary for the developing world. Many of these countries' governments play fast and loose with their currencies. They use inflation and sometimes wholesale currency devaluations, like we saw in Russia and several Southeast Asian countries last year, to take wealth away from their citizens. Most of the ordinary people there never have an opportunity to open an offshore account or to get their hands on more than a few bills of a stable currency like U.S. dollars. Eventually PayPal will be able to change this. In the future, when we make our service available outside the U.S. and as Internet penetration continues to expand to all economic tiers of people, PayPal will give citizens worldwide more direct control over their currencies than they ever had before. It will be nearly impossible for corrupt governments to steal wealth from their people through their old means because if they try the people will switch to dollars or Pounds or Yen, in effect dumping the worthless local currency for something more secure."
 
-![Peter Thiel le 20 octobre 1999 lors de son discours donné à Oakland en Californie pour l'Independent Institute](assets/img/ch2/peter-thiel-independent-institute-1999.webp)
+![Peter Thiel le 20 octobre 1999 lors de son discours donné à Oakland en Californie pour l'Independent Institute](assets/img/ch2/4.webp)
 
 Peter Thiel le 20 octobre 1999 lors de son discours donné à Oakland en Californie pour l'*Independent Institute* (source : [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 

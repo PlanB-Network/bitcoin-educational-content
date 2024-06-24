@@ -13,7 +13,7 @@ Bienvenue dans ce cours consacré à l'histoire de la création de Bitcoin ! En
 
 Dans ce cours, vous découvrirez le cheminement de sa conception, de son lancement et de sa construction économique initiale. Dans une première partie, nous nous intéresserons au contexte technique dans lequel le concept de Bitcoin a émergé. Dans une seconde partie, nous nous concentrerons sur sa naissance et sur son amorçage. Dans une troisième partie, nous étudierons la façon dont Bitcoin a pris en ampleur tant au niveau de l'utilisation économique, de la production minière et du développement logiciel. Dans une quatrième partie, nous nous contenterons de suivre comment Satoshi Nakamoto, le créateur de Bitcoin, a progressivement disparu et comment la communauté a pris le relai, faisant de la cryptomonnaie un projet réellement collectif.
 
-Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vous découvrirez les paroles et les actions, mais il fait aussi intervenir d'autres personnages ayant participé au développement de Bitcoin durant ses premières années d'existence. Vous pourrez ainsi apprendre à connaître des individus comme Hal Finney, Martti Malmi, Gavin Andresen, Jeff Garzik ou encore Amir Taaki, qui ont été des pionniers essentiels à cette croissance. En espérant que cette plongée dans l'histoire des débuts de Bitcoin vous soit profitable !
+Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vous découvrirez les paroles et les actions, mais il fait aussi intervenir d'autres personnages ayant participé au développement de Bitcoin durant ses premières années d'existence. Vous pourrez ainsi apprendre à connaître des individus comme Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik ou encore Amir Taaki, qui ont été des pionniers essentiels à cette croissance. En espérant que cette plongée dans l'histoire des débuts de Bitcoin vous soit profitable !
 
 +++
 
@@ -915,7 +915,7 @@ Toutefois, cette question n'a jamais dérangé Satoshi, qui voyait l'amorçage d
 >
 > *Maybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange. &nbsp;(I would definitely want some) &nbsp;Maybe collectors, any random reason could spark it."*
 
-## Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010 -- juil. 2010)
+## Cartes graphiques, pizzas et bitcoins gratuits (avr. 2010 -- juin 2010)
 
 Nous avons étudié comment Bitcoin en est venu à exister et comment il a pu être amorcé. Au printemps 2010, alors que son économie venait à peine de balbutier, le but de Satoshi Nakamoto et des quelques personnes qui l'épaulaient était de maintenir la flamme en vie. Deux individus se sont en particulier démarqués : le mineur Laszlo Hanyecz et le développeur Gavin Andresen.
 
@@ -1001,7 +1001,7 @@ Il réalisera ainsi plusieurs autres transactions du même type, jusqu'au 4 aoû
 
 Néanmoins la hausse du pouvoir d'achat du bitcoin n'enlèvera rien à la symbolique de cet évènement, qui sera commémoré tous les ans à cette date comme le *Bitcoin Pizza Day* par la communauté de Bitcoin.
 
-### Gavin Andresen (mai -- juil. 2010)
+### Gavin Andresen (mai -- juin 2010)
 
 Cette période voit aussi l'arrivée d'un personnage clé de l'histoire de Bitcoin : Gavin Andresen, un développeur de 44 ans né en Australie qui a [acquis](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) la nationalité étasunienne en 2004 et qui vit alors à Amherst dans le Massachusetts. De retour de voyage en Australie et momentanément sans emploi, ce dernier découvre Bitcoin à la fin du mois de mai par l'intermédiaire d'un [article](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) de Neil McAllister publié sur InfoWorld. Cet article présente le projet de Satoshi Nakamoto comme une « innovation open source ».
 
@@ -1023,7 +1023,7 @@ La contribution de Gavin Andresen ne s'arrête pas là. Il s'intéresse profond�
 >
 > *original: "The nature of Bitcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime. &nbsp;Because of that, I wanted to design it to support every possible transaction type I could think of. (...) &nbsp;The solution was script, which generalizes the problem so transacting parties can describe their transaction as a predicate that the node network evaluates. &nbsp;The nodes only need to understand the transaction to the extent of evaluating whether the sender's conditions are met."*
 
-Il s'implique également dans le développement du logiciel en [implémentant](https://sourceforge.net/p/bitcoin/code/101/) le lancement automatique au démarrage pour Linux, en s'intéressant à l'API (il sera [crédité](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) pour son amélioration dans la version 0.3.3) et en participant au déploiement du réseau de test (dont il a eu [l'idée](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) le 9 juin). Il échange en privé avec Satoshi, dont il devient progressivement le bras droit, Martti Malmi étant [très occupé](https://mmalmi.github.io/satoshi/#email-191) avec son nouvel emploi à plein temps.
+Il s'impliquera également dans le développement du logiciel en [implémentant](https://sourceforge.net/p/bitcoin/code/101/) le lancement automatique au démarrage pour Linux, en s'intéressant à l'API (il sera [crédité](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) pour son amélioration dans la version 0.3.3) et en participant au déploiement du réseau de test (dont il a [l'idée](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) le 9 juin). Il échangera en privé avec Satoshi, dont il deviendra progressivement le bras droit, Martti Malmi étant [très occupé](https://mmalmi.github.io/satoshi/#email-191) avec son nouvel emploi à plein temps.
 
 ### Un printemps chargé en évènements
 
@@ -1033,11 +1033,11 @@ Cependant, à la fin du mois de juin, l'activité demeurait assez modeste sur le
 
 # L'essor de Bitcoin
 
-## Le grand slashdotting (juil. 2010 -- août 2010)
+## Le grand slashdotting (juin -- juil. 2010)
 
-Dans les chapitres précédents, nous avons observé comment Bitcoin a progressé au niveau du développement informatique, du minage et du commerce. Cette base fébrile a posé les bases pour ce qui allait suivre.
+Dans les chapitres précédents, nous avons observé comment Bitcoin a progressé au niveau du développement informatique, du minage et du commerce. C'est sur cette base fébrile que la cryptomonnaie a grandi.
 
-Dans ce chapitre, nous nous proposons de parler du « grand slashdotting », c'est-à-dire de l'afflux brutal d'utilisateurs qui a suivi la publication d'un texte sur le site web populaire Slashdot. Nous verrons comment ce texte a été amené à exister dans un dernier effort de communication de la part de Satoshi et quels ont été les effets qui ont suivi cette popularisation de Bitcoin.
+Dans ce chapitre, nous nous proposons de parler du « grand slashdotting », c'est-à-dire de l'afflux brutal d'utilisateurs qui a suivi la publication d'une présentation de Bitcoin sur le site web populaire Slashdot. Nous verrons comment ce texte a été amené à exister dans un dernier effort de communication de la part de Satoshi et quels ont été les effets qui ont suivi cette popularisation de Bitcoin.
 
 ### La version 0.3 du logiciel (22 juin -- 6 juil. 2010)
 
@@ -1117,17 +1117,31 @@ Interface de la plateforme Mt. Gox en février 2011 (source : [archive](https:/
 
 Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme. Un mois plus tard, il [rouvrira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) la plateforme en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les transferts via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
+### L'effet accélérateur du slashdotting
+
+L'effet de la publication du texte de présentation de Bitcoin sur Slashdot a été spectaculaire pour le projet de Satoshi Nakamoto. L'afflux de personnes intéressées a mené à une hausse record du prix et du taux de hachage. De plus, il a amené un certain Jed McCaleb à découvrir Bitcoin et à créer une place de marché digne de ce nom pour la négociation de l'unité de compte, sous le nom de Mt. Gox.
+
+Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, faisant de Slashdot le réel point de départ de Bitcoin en tant que mouvement. Mais c'est au niveau du logiciel et du protocole que les changements ont été les plus importants, ceux-ci subissant des problèmes majeurs. Le prochain chapitre se concentre sur ces ennuis techniques qui forment une étape cruciale dans le développement de Bitcoin.
+
+<!-- Mais ce sont les changements au niveau du logiciel qui ont été les plus importants. Parmi les lecteurs de Slashdot se trouvaient en effet un certain nombre de développeurs qui se sont mis à disséquer le code, comme Jeff Garzik. Le logiciel a été amélioration tant du point de vue de la sécurité qu'au niveau de la performance de minage. Le réseau n'a cependant pas échappé à un incident majeur, le *value overflow incident*, qui a conduit à la création d'un système d'alerte piloté par Satoshi au sein du logiciel. -->
+
 <!--TODO: séparation en deux chapitres, Le grand slashdotting + Les premiers ennuis techniques, ajouter taille limite des blocs ?-->
+
+## Les premiers ennuis techniques (juil. -- sept. 2010)
+
+L'afflux d'utilisateurs provenant de Slashdot le 11 juillet 2010 a provoqué une grande vague d'intérêt pour le projet de Satoshi Nakamoto. L'utilisation du réseau a explosé. Le taux de change et la puissance de calcul ont été multipliés par 10.
+
+Cependant, ce succès s'est accompagné d'ennuis techniques. Une plus grande popularité impliquait en effet un plus grand nombre d'attaquants. Et c'est précisément ce qui s'est manifesté le 15 août avec le *value overflow incident*, la première « panne » de l'histoire de Bitcoin qui a duré environ 15 heures. Cette période est donc marquée par une amélioration du logiciel, en vue d'anticiper les diverses menaces et de corriger les vulnérabilités dans la mesure du possible.
 
 ### L'amélioration du logiciel (juil. 2010 -- août 2010)
 
 L'afflux d'utilisateurs provenant de Slashdot impose aussi d'améliorer le logiciel. Des vulnérabilités trouvées doivent être corrigées et des nouveautés doivent être intégrées. Satoshi est ainsi mis sous pression, et il [confie](https://mmalmi.github.io/satoshi/#email-210) à Martti Malmi en privé le 18 juillet qu'il « perd la tête tellement il y a de choses à faire ». (*original: "I'm losing my mind there are so many things that need to be done."*) En l'espace de deux mois, ce ne sont pas moins de 8 sous-versions du logiciel qui sont ainsi publiées.
 
-Toutefois, le créateur de Bitcoin n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (ce dernier est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il y a aussi les personnes qui sont curieuses de la façon dont fonctionne le système et qui signalent lorsqu'elles rencontrent un problème, à l'instar de Christian Decker (cdecker) ou de Michael Marquardt (theymos). Satoshi est également épaulé par les mineurs, qui modifient le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain article), Nils Schneider (tcatm), Michael Brown (knightmb) ou BlackEye.
+Toutefois, le créateur de Bitcoin n'est pas seul. Il peut compter sur Gavin Andresen, arrivé en juin, qui est de plus en plus impliqué dans le développement (ce dernier est [crédité](https://sourceforge.net/p/bitcoin/code/101/) sur SourceForge dès le 9 juillet). Il y a aussi les personnes qui sont curieuses de la façon dont fonctionne le système et qui signalent lorsqu'elles rencontrent un problème, à l'instar de Christian Decker (cdecker) ou de Michael Marquardt (theymos). Satoshi est également épaulé par les mineurs, qui modifient le code pour trouver des moyens d'optimiser la génération d'unités, comme ArtForz (la première personne à mettre en place une ferme de minage, comme nous le verrons dans le prochain chapitre), Nils Schneider (tcatm), Michael Brown (knightmb) ou BlackEye.
 
 On peut enfin citer Jeff Garzik (utilisant le pseudonyme jgarzik sur le forum), qui est un développeur américain, contributeur dans le monde du logiciel libre, notamment pour la distribution Red Hat, et libertarien adepte de l'école autrichienne d'économie. Il découvre Bitcoin avec l'article publié sur Slashdot et s'investit presque immédiatement dans Bitcoin.
 
-![Jeff Garzik en 2013](assets/img/ch8/jeff-garzik-2013.webp)
+![Jeff Garzik en 2013](assets/img/ch9/jeff-garzik-2013.webp)
 
 Jeff Garzik en 2013 (source : [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
@@ -1163,13 +1177,29 @@ Dans les jours qui suivent l'incident, Satoshi construit ainsi un système d'ale
 
 Le 27 août, le système d'alerte est [intégré](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439) officiellement au logiciel avec la sortie de la version 0.3.11. Par la suite, il servira à plusieurs reprises, notamment pour un embranchement accidentel en 2013, avant d'être être définitivement [retiré](https://bitcoin.org/en/alert/2016-11-01-alert-retirement) du logiciel en 2017.
 
-### L'effet accélérateur du Slashdotting
+### La limite de taille des blocs (juil. 2010 -- oct. 2010)
 
-L'effet de la publication du texte de présentation de Bitcoin sur Slashdot a été spectaculaire pour le projet de Satoshi Nakamoto. L'afflux de personnes intéressées a mené à une hausse record du prix et du taux de hachage. De plus, il a amené un certain Jed McCaleb à découvrir Bitcoin et à créer une place de marché digne de ce nom pour la négociation de l'unité de compte, sous le nom de Mt. Gox.
+Un dernier élément qui s'inscrit dans la volonté d'améliorer le protocole pour le rendre résistant aux attaques est l'ajout de la limite de taille des blocs de transaction. Cette limite est un paramètre qui restreint la capacité transactionnelle du système, en imposant à chaque bloc d'être plus petit que cette taille. Il a pour objectif initial d'empêcher les attaques par déni de service contre le réseau. <!--TODO: source-->
 
-Mais ce sont les changements au niveau du logiciel qui ont été les plus importants. Parmi les lecteurs de Slashdot se trouvaient en effet un certain nombre de développeurs qui se sont mis à disséquer le code, comme Jeff Garzik. Le logiciel a été amélioration tant du point de vue de la sécurité qu'au niveau de la performance de minage. Le réseau n'a cependant pas échappé à un incident majeur, le *value overflow incident*, qui a conduit à la création d'un système d'alerte piloté par Satoshi au sein du logiciel.
+Ce paramètre est [ajouté](https://sourceforge.net/p/bitcoin/code/103/) discrètement au code par Satoshi le 15 juillet sous la forme de la constante `MAX_BLOCK_SIZE` (v0.3.1), qui est alors égale à 1 mégaoctet (1 000 000 octets). La programmation de mise en place de contrainte est [réalisée](https://sourceforge.net/p/bitcoin/code/103/) le 7 septembre par le créateur de Bitcoin, toujours sans annonce publique de sa part (v0.3.12). Elle prévoit que la taille limite (qui restreint aussi le nombre d'opérateurs de signatures dans les blocs) entre en vigueur à partir du bloc 79 400. L'activation se [produit](https://mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7) le 12 septembre.
 
-Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, faisant de Slashdot le réel point de départ de Bitcoin en tant que projet collectif. C'est ce que nous étudierons dans le prochain chapitre.
+Cette limitation est alors tout à fait bénigne : elle autorise un débit de 7 transactions classiques par seconde, ce qui est largement assez pour supporter l'activité économique de l'époque, même après le slashdotting. Cependant, elle est remarquée par plusieurs personnes. Elle est remarquée dès le 12 août par un membre russophone du forum utilisant le pseudonyme throughput qui [déclare](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873), sur un ton relativement favorable, qu'« un autre aspect intéressant est que la taille en octets du bloc (donc le nombre de transactions qu'il contient) est limitée ». (*original: "Another interesting aspect is that the byte size of the block (so the number of transactions in it) is limited"*) Plus tard, le 30 septembre, c'est theymos qui [fait remarquer](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) à un autre membre que « Bitcoin n'autorise pas les blocs de plus de 1 Mo, de sorte qu'en supposant une taille moyenne de transaction (plutôt faible) de 216 octets, Bitcoin ne peut traiter que 4 629 transactions toutes les 10 minutes ». (*original: "Bitcoin won't allow blocks over 1MB, so assuming a (rather small) average transaction size of 216 bytes, Bitcoin can only handle 4,629 transactions per 10 minutes."*)
+
+La présence de cet élément affecte Jeff Garzik qui [déclare](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) être « beaucoup plus préoccupé par le passage à l'échelle que par la coupure par un État » (*original: "much more concerned about scalability than government shutdown"*) et qui [demande](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) comment il est possible de « vendre le bitcoin à des investisseurs sérieux, avec des limitations intégrées telles que la limite de 463 transactions par minute ». (*original: "How can we sell bitcoin to serious investors, with built-in limitations like the 463 transactions/minute limit?"*) Par conséquent, le 3 octobre, il propose un correctif sur le forum pour élever la limite de taille des blocs à 7,168 Mo afin d'« égaler le taux transactionnel moyen de PayPal ». theymos lui répond en disant que « l'application de ce correctif \[le\] rendra incompatible avec les autres clients Bitcoin ». (*original: "Applying this patch will make you incompatible with other Bitcoin clients."*)
+
+Ce message est approuvé par Satoshi Nakamoto qui [recommande](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) de pas utiliser le correctif et qui déclare : « Nous pouvons introduire un changement plus tard si nous en avons besoin. » (*original: "We can phase in a change later if we get closer to needing it."*) Ce dernier [précise](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) sa pensée le lendemain en donnant la marche à suivre pour réaliser un tel changement du protocole.
+
+![Message de Satoshi Nakamoto décrivant une augmentation de la taille limite des blocs en 2010](assets/img/ch9/satoshi-increase-block-size-2010.webp)
+
+Cet épisode marque le début du débat sur la scalabilité, qui finira pas engendrer une véritable guerre civile entre 2015 et 2017, connue sous le nom de guerre des blocs ou de *blocksize war*.
+
+### Un été de développement
+
+L'été 2010 a donc été un été consacré au développement pour Satoshi et pour ceux qui l'aidaient. La publication du texte de présentation de Bitocin sur Slashdot a provoqué un afflux sans précédent d'utilisateurs, ce qui a aussi mis le système en danger. Par conséquent, Satoshi et Gavin ont essayé tant bien que mal de corriger les vulnérabilités.
+
+Le réseau n'a cependant pas échappé à un incident majeur, le *value overflow incident*, qui a conduit à la création d'un système d'alerte piloté par Satoshi au sein du logiciel. Enfin, cette période a aussi été marquée par l'ajout de la limite de taille des blocs, un élément fondamental de l'histoire de Bitcoin.
+
+Durant les mois qui ont suivi, les améliorations techniques, économiques et minières ont continué à fleurir, transformant peu à peu Bitcoin en projet collectif. C'est ce que nous étudierons dans le prochain chapitre.
 
 ## L'automne du succès (sept. 2010 -- déc. 2010)
 
@@ -1187,33 +1217,13 @@ En particulier, il développe son propre algorithme de minage par GPU avec OpenC
 
 Le 25 juillet, dans un fil sondant les utilisateurs sur leur nombre de bitcoins possédés, ArtForz [affirme](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) avoir généré 1 700 bitcoins en 6 jours, ce qui correspond à 4 % du taux de hachage, soit 80 MH/s. Sa ferme [comprend](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) initialement 6 ATI Radeon HD 5770 et lui permet de passer de 76 MH/s le 9 août à environ 450 MH/s le 13.
 
-![Production minière d'ArtForz entre août et octobre 2010](assets/img/ch9/artforz-block-production-aug-oct-2010.webp)
+![Production minière d'ArtForz entre août et octobre 2010](assets/img/ch10/artforz-block-production-aug-oct-2010.webp)
 
 Production minière d'ArtForz entre août et octobre 2010 (source : Blackburn et al., [*Cooperation among an anonymous group protected Bitcoin during failures of decentralization*](https://arxiv.org/pdf/2206.02871), 2022)
 
 Le 2 septembre, le mineur [puddinpop](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957) affirme que ArtForz possède « environ 12 5770 utilisant son client OpenCL » et qu'il a « plus de 1 Ghash/s », lui donnant « 20 % de la capacité de hachage » du réseau. (*original: "ArtForz, on IRC, has like 12 or so 5770s running his own OpenCL client.  The entire network is doing something around 5-6Ghash/s, and he alone has stated that he has over 1Ghash/s."*) Le 23 septembre, ArtForz [déclare](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0) détenir une puissance de calcul de près de 2 GH/s et représente alors encore 20 % de la puissance totale. Le 3 octobre, theymos [affirme](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) que ArtForz « dispose de 20 à 30 % de la puissance de calcul du réseau ».
 
 Toutefois, cette position sera très vite concurrencée par d'autres individus qui se mettront à jour. ArtForz s'éloignera progressivement de l'activité minièe pour se concentrer sur le développement logiciel. En août 2011, il [affirmera](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671) ainsi avoir moins de 1 % de la puissance de calcul du réseau.
-
-### La limite de taille des blocs (sept. 2010 -- oct. 2010)
-
-Ajout de la constante `MAX_BLOCK_SIZE` (v0.3.1, 16/7)
-
-Version 0.3.12, 7/9 : ajout de la limite de taille des blocs
-
-Activation le 12/9.
-
-**extrait** Une limite explicite de 1 mégaoctet (1 Mo) est ajoutée par Satoshi Nakamoto en 2010, sans annonce publique de sa part. Après avoir ajouté au code la constante `MAX_BLOCK_SIZE` le 15 juillet, il programme l'activation de cette contrainte le 7 septembre pour qu'elle soit rendue effective à partir du bloc 79 400. Cela se produit le 12 septembre, date à partir de laquelle tous les mineurs doivent miner des blocs inférieurs à 1 Mo, ce qui représente 7 transactions classiques par seconde et ce qui est alors largement assez pour supporter la faible activité économique de l'époque.
-
-30 septembre : discussion entre theymos, creighto, jgarzik https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748
-
-3 octobre : Jeff Garzik, "How can we sell bitcoin to serious investors, with built-in limitations like the 463 transactions/minute limit?" ([3/10](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107))
-
-Il [publie](https://bitcointalk.org/index.php?topic=1347.msg15121#msg15121) un correctif
-
-**extrait** Dès le 3 octobre 2010, le développeur Jeff Garzik, ayant remarqué l'ajout de cette taille limite des blocs, propose un correctif pour l'élever à 7,168 Mo afin d'« égaler le taux transactionnel moyen de PayPal ». Michael Marquardt, intervenant sous le pseudonyme de theymos, lui répond en disant que « l'application de ce correctif \[le\] rendra incompatible avec les autres clients Bitcoin », message qui est approuvé par Satoshi Nakamoto : « +1 theymos. N'utilisez pas ce correctif, il vous rendra incompatible avec le réseau, à votre propre détriment. Nous pouvons introduire un changement plus tard si nous en avons besoin. »
-
-Réponse de Satoshi, https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366
 
 ### La spécialisation du minage (sept. 2010 -- déc. 2010)
 
@@ -1235,7 +1245,7 @@ puddinpop, *Pooled/Remote Mining*, [13/10/2010](https://bitcointalk.org/index.ph
 
 getwork, [23/11/2010](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876)
 
-première coopérative par slush, [27/11/2010](https://bitcointalk.org/index.php?topic=1976.msg24844#msg24844)
+première coopérative par slush, *Cooperative mining* : [27/11/2010](https://bitcointalk.org/index.php?topic=1976.msg24844#msg24844)
 
 tcatm, cloud mining : https://bitcointalk.org/index.php?topic=1360.0
 
@@ -1247,7 +1257,7 @@ Développement de la communauté russe... btcex.com, webmoney
 
 30 septembre, article de Lucien Grondin (grondilu) en français sur LinuxFr.org (découvre Bitcoin le 26/9, [enthousiasme](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09/26#l1285544830)) : « [Internet : Connaissez-vous les bitcoins ?](https://linuxfr.org/news/connaissez-vous-les-bitcoins) »
 
-![Internet : Connaissez-vous les bitcoins ?](assets/img/ch9/grondilu-bitcoins-2010.webp)
+![Internet : Connaissez-vous les bitcoins ?](assets/img/ch10/grondilu-bitcoins-2010.webp)
 
 (source : [archive](https://web.archive.org/web/20110521042522/https://linuxfr.org/news/connaissez-vous-les-bitcoins) de LinuxFr.org)
 

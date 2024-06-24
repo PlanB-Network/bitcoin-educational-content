@@ -78,11 +78,11 @@ C'est pour résoudre ce problème que la cryptographie *asymétrique*, aussi app
 
 Ce type de cryptographie permet à la fois de mettre en place des algorithmes de chiffrement et des procédés de signature. Le chiffrement asymétrique consiste à utiliser la clé publique comme une clé de chiffrement et la clé privée comme une clé de déchiffrement. L'utilisateur génère une paire de clés, conserve la clé privée et partage la clé publique à ses interlocuteurs pour qu'ils lui envoient des messages. Ce type de chiffrement est analogue à une boîte aux lettres que le destinataire utiliserait pour recevoir des lettres et dont lui seul posséderait la clé.
 
-img: chiffrement asymétrique
+![Chiffrement asymétrique](assets/img/ch1/1.webp)
 
 Le signature numérique repose à l'inverse sur le fait d'utiliser la clé privée comme une clé de signature et la clé publique comme clé de vérification. L'utilisateur génère une paire de clés, signe un message à l'aide de la clé privée et l'envoie à ses interlocuteurs, qui peuvent vérifier son authenticité en utilisant la clé publique. Ces dernier n'ont ainsi jamais besoin de connaître la clé privée.
 
-img: signature numérique
+![Signature numérique](assets/img/ch1/2.webp)
 
 La cryptographie asymétrique a été découverte indépendamment par plusieurs chercheurs au cours des années 70. Néanmoins, les premiers à présenter ce qu'ils avaient trouvé ont été Whitfield Diffie et Martin Hellman, deux cryptographes de l'université Stanford. Ainsi, en novembre 1976, ils ont publié un article intitulé « [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) » dans la revue *IEEE Transactions on Information Theory*, qui décrivait un algorithme d'échange de clés (destiné à la transmission de clés secrètes pour le chiffrement symétrique) ainsi qu'un procédé de signature numérique. Dans l'introduction de cet article, ils écrivaient :
 
@@ -92,7 +92,7 @@ La cryptographie asymétrique a été découverte indépendamment par plusieurs 
 
 Voici une photographie de 1977, prise par Chuck Painter pour le Stanford News Service, où l'on peut voir Whitfield Diffie (à droite) et Martin Hellman (au centre). La personne à gauche est le cryptographe Ralph Merkle, qui était sur le point de faire le même découverte.
 
-![Ralph Merkle, Martin Hellman et Whitfield Diffie en 1977](assets/img/ch1/merkle-hellman-diffie-1977.webp)
+![Ralph Merkle, Martin Hellman et Whitfield Diffie en 1977](assets/img/ch1/3.webp)
 
 L'article de Diffie et Hellman a ouvert la voie à une multitude d'innovations. L'une d'elle était le cryptosystème [RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), qui a été créé en 1977 par les cryptographes Ronald Rivest, Adi Shamir et Leonard Adleman (qui leur ont donné son nom) et breveté par le MIT en 1983. Ce système permet à la fois de chiffrer et de signer des messages, grâce à l'interversion des rôles des clés. RSA a été présenté publiquement pour la première fois au sein d'un article de Martin Gardner publié dans le magazine *Scientific American* en août 1977, qui était intitulé « [Mathematical Games: A new kind of cipher that would take millions of years to break](https://simson.net/ref/1977/Gardner_RSA.pdf) » (en français : « Un nouveau type de code dont le déchiffrement prendrait des millions d'années »).
 
@@ -104,7 +104,7 @@ Les éléments cryptographiques de base de Bitcoin sont issus de ces recherches.
 
 Cette révolution dans le domaine de la cryptographie a également inspiré le jeune David Chaum, informaticien originaire de la côté Ouest et alors doctorant à l'Université de Berkeley. Ce dernier s'est très vite pris de passion pour la protection de la vie privée. Il était en effet très inquiet pour l'avenir de la liberté et de la confidentialité dans une société qui était destinée à s'informatiser de plus en plus.
 
-![David Chaum dans les années 90](assets/img/ch1/david-chaum-90s.webp)
+![David Chaum dans les années 90](assets/img/ch1/4.webp)
 
 David Chaum dans les années 90 (source : [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -130,7 +130,7 @@ Dans son fonctionnement technique, le modèle eCash se fonde sur le procédé de
 
 Voici une illustration des différentes étapes qui interviennent dans la création et le remplacement d'un billet chaumien (provenant de *L'Élégance de Bitcoin*) :
 
-![Création et remplacement d'un billet chaumien](assets/img/ch1/3.webp)
+![Création et remplacement d'un billet chaumien](assets/img/ch1/5.webp)
 
 Les étapes (qui correspondent chacune à une opération mathématique ou à une transmission d'information) sont les suivantes :
 
@@ -155,13 +155,13 @@ Tout ceci implique qu'aucune banque du système ne peut relier le paiement à l'
 
 En 1990, David Chaum a fondé sa propre société, DigiCash B.V., pour mettre en application son idée d'argent liquide électronique. Cette entreprise était basée à Amsterdam aux Pays-Bas et détenait les brevets de son invention. À l'époque, Internet était encore naissant (le Web était encore en développement) et le commerce électronique inexistant ; ainsi, le modèle eCash constituait une formidable opportunité.
 
-![Logo de DigiCash](assets/img/ch1/digicash-logo.webp)
+![Logo de DigiCash](assets/img/ch1/6.webp)
 
 Toutefois, ce n'est pas l'entreprise de David Chaum qui a testé pour la première fois le modèle : ce sont les cypherpunks qui ont mis en œuvre la chose sans tenir compte des brevets et qui n'ont pas demandé l'autorisation. Ainsi, un protocole nommé Magic Money a été [proposé](https://cypherpunks.venona.com/date/1994/02/msg00247.html) sur la liste de diffusion des cypherpunks le 4 février 1994 par un développeur anonyme se faisant appeler Pr0duct Cypher. Ce protocole permettait de créer sa monnaie en faisant fonctionner un serveur de courrier électronique qui servait de monnaierie eCash. Les cypherpunks ont joué avec en créant toutes sortes d'unités de compte comme les Tacky Tokens, les GhostMarks, les DigiFrancs ou encore les NexusBucks. L'utilité de ces jetons était cependant minimale, et les échanges très rares.
 
 Du côté de DigiCash, après quelques années de développement, un prototype a été [présenté](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) en mai 1994 lors de la première conférence internationale sur le World Wide Web au CERN à Genève. La société a ensuite réalisé un essai qui a débuté le 19 octobre de cette année, avec l'émission de CyberBucks qui n'étaient pas adossés à une autre monnaie. Divers commerçants acceptaient les CyberBucks dans le cadre de cette expérience. Les cypherpunks se sont également appropriés la chose en l'utilisant pour procéder à des échanges réels. Les CyberBucks ont ainsi acquis une valeur. Cependant, celle-ci s'est effondrée lorsque eCash a été déployé dans le système bancaire classique.
 
-![Photo emblématique (quoique floue) de l'équipe de DigiCash en 1995](assets/img/ch1/digicash-team-kitchentable-1995.webp)
+![Photo emblématique (quoique floue) de l'équipe de DigiCash en 1995](assets/img/ch1/7.webp)
 
 Photo emblématique (quoique floue) de l'équipe de DigiCash en 1995 : David Chaum se trouve tout à gauche, Nick Szabo tout à droite (source : [Chaum.com](https://chaum.com/ecash/))
 

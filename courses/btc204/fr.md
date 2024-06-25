@@ -2103,18 +2103,62 @@ Toutes ces contraintes font que l'utilisation d'une notification onchain est ind
 
 Vous pouvez donc voir pourquoi le BIP47 et les Silent Payments, bien qu'ils visent un objectif similaire, impliquent des compromis différents et **répondent donc en réalité à des cas d'usages distincts**. Pour des paiements uniques, tels que des donations ponctuelles, les Silent Payments sont plus appropriés en raison de leur coût plus faible. En revanche, pour des transactions régulières vers un même destinataire, comme dans le cas des plateformes d'échange ou des pools de minage, le BIP47 peut être préféré.
 
-Étudions ensemble le fonctionnement technique des Silent Payments afin de mieux comprendre leurs enjeux. Pour ce faire, je vous propose de prendre la même approche que le document explicatif du BIP352. Nous allons décomposer progressivement les calculs à effectuer, élément par élément, en justifiant à chaque nouvel ajout.
+Étudions ensemble le fonctionnement technique des Silent Payments afin de mieux comprendre leurs enjeux. Pour ce faire, je vous propose de prendre la même approche que le document explicatif du BIP352. Nous allons décomposer progressivement les calculs à effectuer, élément par élément, en justifiant chaque nouvel ajout.
 
 ### Quelques notions à comprendre
 
 Avant de commencer, il est important de préciser que les Silent Payments reposent sur l'utilisation de types de scripts P2TR (*Pay to Taproot*) exclusivement. À la différence du BIP47, il n'est pas nécessaire de dériver des adresses de réception à partir de clés publiques enfants en les hachant. En effet, dans le standard P2TR, la clé publique tweakée est utilisée directement et en clair dans l'adresse. Ainsi, une adresse de réception Taproot est essentiellement une clé publique assortie de quelques métadonnées. Cette clé publique tweakée est l'agrégation de deux autres clés publiques : l'une permettant une dépense directe et traditionnelle via une simple signature, et l'autre représentant la racine de Merkle du MAST, qui autorise la dépense sous réserve de la satisfaction de l'une des conditions potentiellement inscrites dans l'arbre de Merkle.
 
+![BTC204](assets/notext/73/01.webp)
+*Légende :*
+- *Q* = La clé publique tweakée ;
+- *P* = La clé publique de dépense classique ;
+- *M* = La racine de Merkle ;
+- *h* = Une fonction de hachage ;
+- *A*, *B*, *C* et *D* : Des scripts supplémentaires permettant de dépenser.
+
 La décision de limiter les Silent Payments exclusivement à Taproot est motivée par deux raisons principales :
 - Premièrement, cela facilite considérablement l'implémentation et les futures mises à jour dans les logiciels de portefeuille, puisqu'un seul standard est à respecter ;
 - Deuxièmement, cette approche contribue à améliorer l'anonset des utilisateurs en les incitant à ne pas se répartir entre différents types de scripts, qui génèrent des empreintes de portefeuilles distinctes en analyse de chaîne (pour plus d'informations sur ce concept, je vous invite à consulter le chapitre 4 de la partie 2).
 
-### Dérivation naïve d'une clé publique
+### Dérivation naïve d'une clé publique de Silent Payments
 
+Commençons par un exemple simple qui va vous permettre de comprendre le cœur du fonctionnement des SP (Silent Payments). Prenons Alice et Bob, deux utilisateurs de Bitcoin. Alice souhaite envoyer un paiement à Bob sur une adresse de réception vierge. Il y a donc 3 objectifs dans ce processus : 
+- Que Alice soit capable de dériver une adresse vierge ;
+- Que Bob soit capable de détecter un paiement vers cette adresse ;
+- Que Bob soit capable de calculer la clé privée correspondante pour dépenser ses fonds.
+
+Alice dispose d'un UTXO dans son portefeuille Bitcoin sécurisé avec la paire de clés suivante :
+- $a$ : la clé privée ;
+- $A$ : la clé publique ($A = a \cdot G$)
+
+Bob dispose d'une adresse SP qu'il a publiée sur internet avec :
+- $b$ : la clé privée ;
+- $B$ : la clé publique ($B = b \cdot G$)
+
+En récupérant l'adresse de Bob, Alice est capable de calculer une nouvelle adresse vierge qui appartient à Bob en utilisant ECDH. Nommons cette adresse $P$ :
+
+$$ P = B + \text{hash}(a \cdot B) \cdot G $$
+
+Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $a$ et de la clé publique de Bob $B$. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur de la courbe elliptique `secp256k1` $G$. Et enfin, Alice additionne le point obtenu avec la clé publique de Bob $B$. Une fois que Alice dispose de cette adresse $P$, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
+
+Grâce aux propriétés de la courbe elliptique sur lesquelles s'appuie ECDH, on sait que : 
+
+$$ a \cdot B = b \cdot A $$
+
+Bob va donc être capable de calculer l'adresse de réception sur laquelle Alice a envoyé les bitcoins. Pour ce faire, il surveille toutes les transactions Bitcoin qui respectent les critères des Silent Payments, et il applique le calcul suivant sur chacune d'entre-elles pour voir si le paiement lui est adressé (*scanning*) :
+
+$$ P' = B + \text{hash}(b \cdot A) \cdot G $$
+
+Lorsqu'il scan la transaction d'Alice, il se rend compte que $P'$ est égal à $P$. Il sait donc que ce paiement lui est adressé :
+
+$$ P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P  $$
+
+À partir de là, Bob va pouvoir calculer la clé privée $p$ qui permet de dépenser l'adresse $P$ :
+
+$$ p = (b + \text{hash}(b \cdot A)) \mod n $$
+
+Comme vous pouvez le voir, pour calculer cette clé privée $p$, il faut obligatoirement disposer de la clé privée $b$. Seul Bob dispose de cette clé privée $b$. Il sera donc bien le seul à pouvoir dépenser les bitcoins envoyés sur son adresse de Silent Payments.
 
 
 

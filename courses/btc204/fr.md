@@ -2109,13 +2109,7 @@ Vous pouvez donc voir pourquoi le BIP47 et les Silent Payments, bien qu'ils vise
 
 Avant de commencer, il est important de préciser que les Silent Payments reposent sur l'utilisation de types de scripts P2TR (*Pay to Taproot*) exclusivement. À la différence du BIP47, il n'est pas nécessaire de dériver des adresses de réception à partir de clés publiques enfants en les hachant. En effet, dans le standard P2TR, la clé publique tweakée est utilisée directement et en clair dans l'adresse. Ainsi, une adresse de réception Taproot est essentiellement une clé publique assortie de quelques métadonnées. Cette clé publique tweakée est l'agrégation de deux autres clés publiques : l'une permettant une dépense directe et traditionnelle via une simple signature, et l'autre représentant la racine de Merkle du MAST, qui autorise la dépense sous réserve de la satisfaction de l'une des conditions potentiellement inscrites dans l'arbre de Merkle.
 
-![BTC204](assets/notext/73/01.webp)
-*Légende :*
-- *Q* = La clé publique tweakée ;
-- *P* = La clé publique de dépense classique ;
-- *M* = La racine de Merkle ;
-- *h* = Une fonction de hachage ;
-- *A*, *B*, *C* et *D* : Des scripts supplémentaires permettant de dépenser.
+![BTC204](assets/fr/73/01.webp)
 
 La décision de limiter les Silent Payments exclusivement à Taproot est motivée par deux raisons principales :
 - Premièrement, cela facilite considérablement l'implémentation et les futures mises à jour dans les logiciels de portefeuille, puisqu'un seul standard est à respecter ;
@@ -2125,7 +2119,7 @@ La décision de limiter les Silent Payments exclusivement à Taproot est motivé
 
 Commençons par un exemple simple qui va vous permettre de comprendre le cœur du fonctionnement des SP (Silent Payments). Prenons Alice et Bob, deux utilisateurs de Bitcoin. Alice souhaite envoyer un paiement à Bob sur une adresse de réception vierge. Il y a donc 3 objectifs dans ce processus : 
 - Que Alice soit capable de dériver une adresse vierge ;
-- Que Bob soit capable de détecter un paiement vers cette adresse ;
+- Que Bob soit capable de détecter un paiement vers cette adresse unique ;
 - Que Bob soit capable de calculer la clé privée correspondante pour dépenser ses fonds.
 
 Alice dispose d'un UTXO dans son portefeuille Bitcoin sécurisé avec la paire de clés suivante :
@@ -2141,6 +2135,8 @@ En récupérant l'adresse de Bob, Alice est capable de calculer une nouvelle adr
 $$ P = B + \text{hash}(a \cdot B) \cdot G $$
 
 Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $a$ et de la clé publique de Bob $B$. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur de la courbe elliptique `secp256k1` $G$. Et enfin, Alice additionne le point obtenu avec la clé publique de Bob $B$. Une fois que Alice dispose de cette adresse $P$, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
+
+> *Dans le contexte des Silent Payments, la fonction « hash » correspond à une fonction de hachage SHA256 taguée spécifiquement avec `BIP0352/SharedSecret`, ce qui garantit que les hachages générés sont uniques à ce protocole et ne peuvent pas être réutilisés dans d'autres contextes, tout en offrant une protection supplémentaire contre la réutilisation de nonces dans les signatures. Ce standard correspond à celui [spécifié dans le BIP340 pour les signatures de Schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) sur `secp256k1`.*
 
 Grâce aux propriétés de la courbe elliptique sur lesquelles s'appuie ECDH, on sait que : 
 
@@ -2160,20 +2156,111 @@ $$ p = (b + \text{hash}(b \cdot A)) \mod n $$
 
 Comme vous pouvez le voir, pour calculer cette clé privée $p$, il faut obligatoirement disposer de la clé privée $b$. Seul Bob dispose de cette clé privée $b$. Il sera donc bien le seul à pouvoir dépenser les bitcoins envoyés sur son adresse de Silent Payments.
 
+![BTC204](assets/notext/73/02.webp)
+*Légende :*
+- $B$ : La clé publique / adresse statique publiée par Bob
+- $b$ : La clé privée de Bob
+- $A$ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
+- $a$ : La clé privée d'Alice
+- $G$ : Le point générateur de la courbe elliptique `secp256k1`
+- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $s$ : Le secret commun ECDH
+- $P$ : La clé publique / adresse unique pour le paiement vers Bob
 
+Voilà une première manière un peu naïve d'utiliser l'adresse statique de Bob $B$ pour dériver une adresse unique $P$ et lui envoyer des bitcoins. Mais cette approche est trop simpliste et elle dispose de plusieurs inconvénients qu'il va falloir corriger, et le premier problème est qu'Alice ne peut pas créer plusieurs outputs vers Bob dans sa transactions.
 
+### Comment créer plusieurs outputs ?
 
+Dans l'exemple de la section précédente, Alice créer un seul output qui va aller vers Bob sur son adresse unique $P$. Avec le même input sélectionné par Alice, il est impossible de créer 2 adresses vierges différentes pour Bob. Cela nous donnera toujours le même résultat pour $P$ et donc toujours la même adresse. Cependant, il existe de nombreuses situations dans lesquelles Alice pourrait vouloir casser son paiement vers Bob en plusieurs petits montant, et donc créer plusieurs UTXOs pour Bob. Il faut donc trouver un moyen de faire cela.
 
+Pour ce faire, nous allons modifier légèrement le calcul précédent réalisé par Alice pour trouver $P$, de telle sorte qu'elle soit en capacité de générer $P_0$, une première adresse unique appartenant à Bob, et $P_1$, une seconde adresse unique appartenant également à Bob. 
 
+Pour modifier le calcul et obtenir 2 adresses différentes, il suffit d'ajouter un entier qui vienne modifier le résultat. Ainsi, Alice va ajouter $0$ dans son calcul pour obtenir l'adresse $P_0$ et $1$ pour obtenir l'adresse $P_1$. Appelons cet entier $i$ :
 
+$$ P_i = B + \text{hash}(a \cdot B \, \| \, i) \cdot G $$
 
+Le calcul est exactement le même qu'auparavant, sauf que Alice va simplement concaténer (c'est-à-dire mettre bout à bout) $a \cdot B$ et $i$ avant de calculer le hachage. Il suffit ensuite de modifier $i$ pour avoir une nouvelle adresse appartenant à Bob. Par exemple :
 
+$$ P_0 = B + \text{hash}(a \cdot B \, \| \, 0) \cdot G $$
 
+$$ P_1 = B + \text{hash}(a \cdot B \, \| \, 1) \cdot G $$
 
+Lorsque Bob fait son scanning pour trouver des paiements qui lui sont adressés, il va commencer par vérifier en utilisant $i = 0$ pour l'adresse $P_0$. S'il ne trouve rien sur $P_0$, il abandonne cette transaction car visiblement, elle ne contient pas de Silent Payment pour lui. Mais si $P_0$ est valide et contient un paiement pour lui, alors il continu avec $P_1$ sur la même transaction pour voir si Alice lui a envoyé un second paiement. Si $P_1$ est invalide, il arrête là, sinon il continu avec l'entier $i$ suivant, et ainsi de suite.
 
+$$ P_0 = B + \text{hash}(b \cdot A \, \| \, 0) \cdot G $$
 
+$$ P_1 = B + \text{hash}(b \cdot A \, \| \, 1) \cdot G $$
 
+Puisque Bob s'arrête immédiatement à $i = 0$ si $P_0$ ne donne rien, l'utilisation de cet entier n'ajoute quasiment aucune charge opérationnelle supplémentaire sur Bob pour l'étape du scanning des transactions.
 
+Bob pourra ensuite calculer les clés privées de la même façon :
+
+$$
+p_0 = (b + \text{hash}(b \cdot A \, \| \, 0)) \mod n
+$$
+
+$$
+p_1 = (b + \text{hash}(b \cdot A \, \| \, 1)) \mod n 
+$$
+
+![BTC204](assets/notext/73/03.webp)
+
+*Légende :*
+- $B$ : La clé publique / adresse statique publiée par Bob
+- $b$ : La clé privée de Bob
+- $A$ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
+- $a$ : La clé privée d'Alice
+- $G$ : Le point générateur de la courbe elliptique `secp256k1`
+- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $s_0$ : Le premier secret commun ECDH
+- $s_1$ : Le second secret commun ECDH
+- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
+- $P_1$ : La seconde clé publique / adresse unique pour le paiement vers Bob
+
+Avec cette méthode, on commence à avoir un protocole sympathique, mais il y a encore quelques défi à surmonter, notamment la prévention de la réutilisation d'adresse.
+
+### Comment éviter la réutilisation d'adresse ?
+
+Comme nous l'avons vu dans les sections précédentes, Alice utilise la paire de clés qui sécurise son UTXO qu'elle va dépenser pour calculer le secret partagé ECDH avec Bob, et donc ensuite dériver la première adresse unique $P_0$ à partir de ce secret. Le problème, c'est que cette paire de clé privée $a$ et clé privée $A$, et bien elle ne sécurise pas forcément un seul UTXO. Si Alice a fait une réutilisation d'adresse avec cette paire de clés, alors elle va avoir plusieurs UTXOs différents sécurisés avec la même paire de clés. Et si Alice envoi 2 paiements vers l'adresse statique de Silent Payments $B$ de Bob avec 2 UTXOs sécurisés par la même clé $A$, et bien Bob va avoir une réutilisation d'adresse.
+
+> *La réutilisation d'adresse est une très mauvaise pratique pour la confidentialité de l'utilisateur. Pour savoir pourquoi, je vous conseille de revoir les première parties de cette formation.*
+
+Et oui, puisque l'adresse unique $P_0$ est dérivée depuis $A$ et $B$, et bien si Alice dérive une seconde adresse pour un second paiement vers $B$, avec la même clé $A$, elle va tomber exactement sur la même adresse $P_0$. Pour éviter ce risque et prévenir les réutilisations d'adresse au seins des Silent Payments, il va falloir modifier un peu nos calculs.
+
+Ce que l'on souhaite, c'est que chaque UTXO consommé par Alice en input d'un paiement, donne une adresse unique du côté de Bob, et ce, même si plusieurs UTXO sont sécurisés par la même paire de clé. Il suffit donc d'ajouter une référence à l'UTXO dans le calcul de l'adresse unique $P_0$. Cette référence va simplement être le hachage de l'UTXO consommé en input :
+
+$$ \text{input\_hash} = \text{hash}(\text{outpoint} \, \| \, A) $$
+
+Et cette référence à l'input, Alice va l'ajouter dans son calcul de l'adresse unique $P_0$ :
+
+$$ P_0 = B + \text{hash}(\text{input\_hash} \cdot a \cdot B \, \| \, 0) \cdot G $$
+
+Lors de son scanning, Bob peut également ajouter $\text{input\_hash}$, puisqu'il lui suffit d'observer la transaction pour déduire $\text{outpoint}$ :
+
+$$ P_0 = B + \text{hash}(\text{input\_hash} \cdot b \cdot A \, \| \, 0) \cdot G $$
+
+Lorsqu'il trouve un $P_0$ valide, il peut calculer la clé privée $p_0$ correspondante :
+
+$$
+p_0 = (b + \text{hash}(\text{input\_hash} \cdot b \cdot A \, \| \, 0)) \mod n
+$$
+
+![BTC204](assets/notext/73/04.webp)
+
+*Légende :*
+- $B$ : La clé publique / adresse statique publiée par Bob
+- $b$ : La clé privée de Bob
+- $A$ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
+- $a$ : La clé privée d'Alice
+- $H$ : Le hachage de l'UTXO utilisé en input
+- $G$ : Le point générateur de la courbe elliptique `secp256k1`
+- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $s_0$ : Le premier secret commun ECDH
+- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
+
+Pour le moment, ces calculs partent du principe qu'Alice utilise un seul input dans sa transaction. Mais en réalité, Alice doit pouvoir utiliser plusieurs inputs différents. Et de son côté, si une transaction dispose de plusieurs inputs, Bob est sensé devoir calculer l'ECDH sur tous les inputs un par un afin de vérifier s'il y a un paiement qui lui est adressé. Cette méthode n'est pas satisfaisant, il faut donc trouver une solution !
+
+### Tweaker les clés publiques
 
 
 

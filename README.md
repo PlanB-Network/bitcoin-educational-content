@@ -82,3 +82,61 @@ In practical terms, it means that any task (content creation, peer-reviewing,
 proofreading), explicited as individual Github issue, would have a
 reward in sats attached to it. And when the issue would be closed, the reward
 would be sent to the contributor who completed the task.
+
+# How to contribute?
+
+## in general (hands-on way)
+
+Bitcoin is for everyone, and so is Plan ₿ Network. This means everyone has a specific talent that can contribute to the growth of the network. Whether you are a shadowy super coder or a social media influencer, your knowledge and skills are essential to spreading Bitcoin knowledge across the world.
+
+## for educator
+
+If you have created Bitcoin educational content, whether in the form of a video, book, podcast, blog, or even an entire course, Plan ₿ Network will gladly help you spread that content across the world. We provide the necessary tools for it to be translated and shared with everyone.
+
+As an educator, your role is crucial. Without your dedication and passion, Bitcoin remains just information rather than knowledge that lives through generations.
+
+## be a node of the network
+
+Let's start by explaining what is a Plan ₿ Network Node. A node is simply a Bitcoin community that wants to move to the next step and accelerate its own local Bitcoin adoption! There is no minimum size to start with.
+
+At Plan ₿ Network, we aim to improve the educational Bitcoin ecosystem by providing the right tools to build and educate on Bitcoin. By becoming a node, your community will get access to a large range of resources, services, special educational training, and more. Make your community count as a reference in the Bitcoin world.
+
+Learn more about how to become a node here: https://planb.network/en/node-network
+
+## translator
+
+We are looking for you! The key to making education powerful is to make it accessible to everyone in the world. Not everyone speaks English, or every other language on earth! But we are sure that together as a network, we can make every single piece of Bitcoin educational content as open-source as the seven seas and translate it into every language.
+
+If you are confident that you can help us translate content, just reach out to us. We are eagerly looking for you. EVERY LANGUAGE is needed!
+
+# why value-4-value PoW model?
+
+Well, because we don’t see any other way. What is the problem with the internet nowadays? We think we are getting everything for free, but in reality, we are the product. Our data is used for the benefit of others. Because we believe that how we handle our data and knowledge should be completely up to us, we ensure that everything we share, build, and contribute in this open-source model is paid for in a value-for-value fashion.
+
+## how now?
+
+Ok, so what are we actually doing? Our first goal is to gather all the amazing content that has already been created. You can find everything we have gathered on our website.
+
+But the catch is, we want to reach every corner of the world. For this, we need everyone to collaborate with their language skills.
+
+We can't reach all the people in Bangladesh if we don't have the content in Bengali.
+
+Therefore, we have implemented this incentive model. First, you will get paid per translation, and there is a whole payment system set in place by Asi0 that you can see here.
+
+## How it will be in the following months?
+
+Ok, so now you have seen our value-for-value initial model, but what's next?
+
+Simple: as people consume your content, they will rate it. The better the rating you get as a translator or verifier, the more translations you will receive. This is what we like to call a proof-of-work structure.
+
+The better the quality of your work, the more translations you will get. The more value you receive, the more value we receive. LONG LIVE VALUE-FOR-VALUE!
+
+# How to anihilate Language Barrier for Bitcoin Education
+
+So that's it, that's our plan to take over the world! We want everything in every language: translators, educators, and most importantly, people willing to learn.
+
+If you believe you are one of these, reach out. We want to collaborate!
+
+<a href="https://weblate.planb.network/engage/planb-network-website/">
+<img src="https://weblate.planb.network/widget/planb-network-website/website-frontend-element/multi-auto.svg" alt="Translation status" />
+</a>

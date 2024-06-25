@@ -149,4 +149,4 @@ The better the quality of your work, the more translations you will get. The mor
 
 So that's it, that's our plan to take over the world! We seek everything in every language: translators, educators, and most importantly, individuals eager to learn.
 
-If you believe you are one of these, creach outc(https://t.me/PlanBNetwork_ContentBuilder). We want to collaborate!
+If you believe you are one of these, [reach out](https://t.me/PlanBNetwork_ContentBuilder). We want to collaborate!

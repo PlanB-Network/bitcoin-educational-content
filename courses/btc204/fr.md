@@ -2099,7 +2099,7 @@ On pourrait penser naïvement que ce processus de notification pourrait être r�
 - D'abord, cela déplacerait le processus de transmission du code sur un autre protocole de communication. Les problèmes liés aux coûts et à la confidentialité de l'échange resteraient, mais seraient simplement transférés à ce nouveau protocole. En termes de confidentialité, cela pourrait aussi créer un lien entre une identité de l'utilisateur et une activité onchain, ce que l'on cherche à éviter en effectuant la notification directement sur la blockchain. De plus, réaliser la notification hors de la blockchain introduirait des risques de censure (comme le blocage des fonds) qui n'existent pas sur Bitcoin ;
 - Ensuite, cela poserait un problème de récupération. Avec le BIP47, le destinataire doit impérativement connaître les codes de paiement des expéditeurs pour accéder aux fonds. Cela est vrai lors de la réception, mais aussi en cas de récupération des fonds via la seed en cas de perte du portefeuille. Avec des notifications onchain, ce risque est évité, car l'utilisateur peut retrouver et déchiffrer les transactions de notification simplement en connaissant sa seed. Cependant, si la notification est effectuée hors de la blockchain, l'utilisateur devrait maintenir une sauvegarde dynamique de tous les codes de paiement reçus, ce qui est impraticable pour l'utilisateur moyen.
 
-Toutes ces contraintes font que l'utilisation d'une notification onchain est indispensable dans le cadre du BIP47. Pourtant, les Silent Payments cherchent précisément à éviter cette étape de notification onchain à cause de son coût. La solution adoptée n'est donc pas de déplacer la notification, mais de l'éliminer entièrement. Pour y parvenir, un compromis doit être accepté : celui du scanning. Contrairement au BIP47, où l'utilisateur sait exactement où trouver ses fonds grâce aux transactions de notification, dans le cadre des Silent Payments, l'utilisateur doit examiner toutes les transactions Bitcoin existantes pour détecter d'éventuels paiements qui lui seraient destinés. Mais comme nous allons le voir dans ce chapitre, il est en réalité possible de réduire considérablement le nombre de transactions devant être scannées et il existe également des méthodes permettant de filtrer les blocs qui contiennent potentiellement un paiement qui nous est adressé.
+Toutes ces contraintes font que l'utilisation d'une notification onchain est indispensable dans le cadre du BIP47. Pourtant, les Silent Payments cherchent précisément à éviter cette étape de notification onchain à cause de son coût. La solution adoptée n'est donc pas de déplacer la notification, mais de l'éliminer entièrement. Pour y parvenir, un compromis doit être accepté : celui du scanning. Contrairement au BIP47, où l'utilisateur sait exactement où trouver ses fonds grâce aux transactions de notification, dans le cadre des Silent Payments, l'utilisateur doit examiner toutes les transactions Bitcoin existantes pour détecter d'éventuels paiements qui lui seraient destinés. Pour réduire cette charge opérationnelle, la recherche de Silent Payments ne se fait que sur les transactions pouvant potentiellement en être, c'est à dire, sur les transaction qui disposent au minimum d'un output Taproot P2TR. Le scanning se fait également uniquement à partir de la date d'anniversaire du wallet (cela ne sert à rien de scanner depuis 2009 si le wallet a été créé en 2024).
 
 Vous pouvez donc voir pourquoi le BIP47 et les Silent Payments, bien qu'ils visent un objectif similaire, impliquent des compromis différents et **répondent donc en réalité à des cas d'usages distincts**. Pour des paiements uniques, tels que des donations ponctuelles, les Silent Payments sont plus appropriés en raison de leur coût plus faible. En revanche, pour des transactions régulières vers un même destinataire, comme dans le cas des plateformes d'échange ou des pools de minage, le BIP47 peut être préféré.
 
@@ -2293,11 +2293,58 @@ $$ \text{input\_hash} = \text{hash}(\text{outpoint}_L \, \| \, A) $$
 
 Les calculs restent ensuite identiques à ceux que l'on a présentés dans la section précédente, mis à part que la clé privée $a$ et sa clé publique correspondante $A$ ne sont plus une paire permettant de sécuriser un seul input, mais représentent dorénavant le tweak de toutes les paires de clés en input.
 
+### Séparer les clés de dépense et de scan
+
+Pour le moment, nous avons parlé de l'adresse statique de Silent Payment $B$ comme d'une clé unique. Rappelez-vous, c'est cette clé publique $B$ qui est utilisée par Alice pour créer le secret partagé ECDH qui permet de calculer l'adresse de paiement unique $P$. Bob utilise cette clé publique $B$ et la clé privée correspondante $b$ pour l'étape du scanning. Mais il utilisera également la clé privée $b$ pour calculer la clé privée $p$ qui permet la dépense depuis l'adresse $P$.
+
+L'inconvénient de cette méthode est que la clé privée $b$ qui permet de calculer toutes les clés privées des adresses ayant reçu des Silent Payments est également la même clé utilisée par Bob pour scanner les transactions. Or, cette étape du scanning nécessite forcément que la clé $b$ soit sur un logiciel de portefeuille en ligne, et soit donc plus exposée au vol que si elle était sur un portefeuille froid. Ce qui serait intéressant, ce serait de pouvoir utiliser les Silent Payments, tout en protégeant la clé privées $b$ qui donne accès à toutes les autres clés privées sur un hardware wallet. Et justement, le protocole a été adapté pour pouvoir faire cela.
+
+Pour ce faire, le BIP352 prévoit que le receveur utilise 2 paires de clés différentes :
+- $B_{\text{spend}}$ : pour calculer les clés privées des adresses de paiement uniques ;
+- $B_{\text{scan}}$ : pour trouver les adresses de paiements uniques.
+
+De cette manière, Bob peut conserver la clé privée $b_{\text{spend}}$ sur un hardware wallet, et utiliser la clé privée $b_{\text{scan}}$ sur un logiciel en ligne pour trouver ses Silent Payments, sans pour autant révéler $b_{\text{spend}}$.
+
+En revanche, les clés publiques $B_{\text{scan}}$ et $B_{\text{spend}}$ sont toutes deux révélées publiquement, puisqu'elles se trouvent dans l'adresse statique $B$ de Bob :
+
+$$ B = B_{\text{scan}} \, \| \, B_{\text{spend}}$$
+
+Pour calculer une adresse de paiement unique $P_0$ appartenant à Bob, Alice va dorénavant effectuer le calcul suivant :
+
+$$ P_0 = B_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot a \cdot B_{\text{scan}} \, \| \, 0) \cdot G $$
+
+Pour trouver les paiements qui lui sont adressés, Bob va effectuer le calcul suivant :
+
+$$ P_0 = B_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}} \cdot A \, \| \, 0) \cdot G $$
+
+Comme vous pouvez le voir, jusqu'ici, Bob n'a pas eu besoin d'utiliser $b_{\text{spend}}$ qui se trouve sur son hardware wallet. Lorsqu'il souhaitera dépenser $P_0$, il pourra alors faire le calcul suivant pour trouver la clé privée $p_0$ :
+
+$$p_0 = (b_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}} \cdot A \, \| \, 0)) \mod n$$
+
+![BTC204](assets/notext/73/06.webp)
+
+*Légende :*
+- $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)
+- $b_{\text{scan}}$ : La clé privée de scan de Bob
+- $B_{\text{spend}}$ : La clé publique de dépense de Bob (adresse statique)
+- $b_{\text{spend}}$ : La clé privée de dépense de Bob
+- $A$ : La somme des clé publiques en input (tweak)
+- $a$ : La clé privée correspondant à la clé publique tweakée
+- $H$ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
+- $G$ : Le point générateur de la courbe elliptique `secp256k1`
+- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $s_0$ : Le premier secret commun ECDH
+- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
 
 
 
 
 
+
+
+
+
+### Comment construire une adresse Silent Payments ?
 
 
 

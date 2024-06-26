@@ -1,8 +1,13 @@
-<div align="center" style="background-color: #333; padding: 20px; border-radius: 10px;">
+<div align="center">
   <a href="https://planb.network">
-    <img src="docs/assets/horizontal_logo.png" alt="PBN Logo" width="37%" />
+    <picture>
+      <source srcset="docs/assets/black_and_orange_gradient.png" media="(prefers-color-scheme: light)">
+      <source srcset="docs/assets/horizontal_logo.png" media="(prefers-color-scheme: dark)">
+      <img src="docs/assets/black_and_orange_gradient.png" alt="PBN Logo" width="37%">
+    </picture>
   </a>
 </div>
+
 <div align="center">
   <h1 style="margin-top: 0;"></h1>
   <a href="https://planb.network/en/node-network">

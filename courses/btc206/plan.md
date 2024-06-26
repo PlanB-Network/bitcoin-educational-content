@@ -13,17 +13,10 @@ objectives:
 
 Avertissement : Risques.
 
-Nous n'avons pas de certitudes sur la continuité d'Ordinals. Il se peut que ce protocole devienne obsolète à long terme. 
-Ceci reste une expérimentation en version alpha (au 25/06/24) et peut subir des modifications majeures. 
-
-La version actuelle est : ˋord 0.19-dev`. 
-
-D'où je parle ?
-Au vue de l'arrivée récente du protocole il n'y a pas encore de personne formée à ce sujet. J'ai découvert Ordinals en février 2023 et je ne suis qu'un explorateur de ce protocole.  
+D'où je parles ?
 
 # I/ Introduction
 
-Ordinals a été proposé par [Casey Rodarmor]()
 -> Inscription de données arbitraires. 
 
 -> Histoire: *L'élégance de Bitcoin* de **Ludovic Lars** (Les contrats autonomes, l'inscription de données arbitraires et métaprotocoles pp.332-340).

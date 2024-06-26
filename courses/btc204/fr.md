@@ -2081,7 +2081,7 @@ Le BIP47 a beaucoup été critiqué pour son inefficience onchain. Comme expliqu
 
 Cependant, dans certaines situations, la transaction de notification peut constituer un obstacle pour l'utilisateur. Prenons l'exemple d'une donation unique à un destinataire : avec une adresse Bitcoin classique, une seule transaction suffit pour réaliser la donation. Mais avec le BIP47, deux transactions sont nécessaires : une pour la notification et une autre pour le paiement effectif. Lorsque la demande d'espace dans les blocs est faible et que les frais de transaction sont bas, cette étape supplémentaire n'est généralement pas un problème. Toutefois, en période de congestion, les frais de transaction peuvent devenir exorbitants pour un seul paiement, doublant potentiellement le coût pour l'utilisateur par rapport à une transaction Bitcoin standard, ce qui peut s'avérer inacceptable pour l'utilisateur.
 
-Pour les situations où l'utilisateur prévoit de réaliser uniquement quelques paiements vers un identifiant statique, d'autres solutions ont été développées. Parmi elles, il y a les Silent Payments, décrits dans le [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Ce protocole permet d'utiliser un identifiant statique pour recevoir des paiements sans produire des réutilisations d'adresse, et sans nécessité l'utilisation de transactions de notification. Examinons ensemble comment fonctionne ce protocole.
+Pour les situations où l'utilisateur prévoit de réaliser uniquement quelques paiements vers un identifiant statique, d'autres solutions ont été développées. Parmi elles, il y a les Silent Payments, décrits dans le [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Ce protocole permet d'utiliser un identifiant statique pour recevoir des paiements sans produire des réutilisations d'adresse, et sans nécessiter l'utilisation de transactions de notification. Examinons ensemble comment fonctionne ce protocole.
 
 ---
 
@@ -2134,7 +2134,7 @@ En récupérant l'adresse de Bob, Alice est capable de calculer une nouvelle adr
 
 $$ P = B + \text{hash}(a \cdot B) \cdot G $$
 
-Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $a$ et de la clé publique de Bob $B$. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur $G$ de la courbe elliptique `secp256k1`. Enfin, Alice additionne le point obtenu avec la clé publique de Bob $B$. Une fois que Alice dispose de cette adresse $P$, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
+Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $a$ et de la clé publique de Bob $B$. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur $G$ de la courbe elliptique `secp256k1`. Enfin, Alice additionne le point obtenu avec la clé publique de Bob $B$. Une fois qu'Alice dispose de cette adresse $P$, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
 
 > *Dans le contexte des Silent Payments, la fonction « hash » correspond à une fonction de hachage SHA256 taguée spécifiquement avec `BIP0352/SharedSecret`, ce qui garantit que les hachages générés sont uniques à ce protocole et ne peuvent pas être réutilisés dans d'autres contextes, tout en offrant une protection supplémentaire contre la réutilisation de nonces dans les signatures. Ce standard correspond à celui [spécifié dans le BIP340 pour les signatures de Schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) sur `secp256k1`.*
 
@@ -2142,11 +2142,11 @@ Grâce aux propriétés de la courbe elliptique sur lesquelles s'appuie ECDH, on
 
 $$ a \cdot B = b \cdot A $$
 
-Bob va donc être capable de calculer l'adresse de réception sur laquelle Alice a envoyé les bitcoins. Pour ce faire, il surveille toutes les transactions Bitcoin qui respectent les critères des Silent Payments, et il applique le calcul suivant sur chacune d'entre-elles pour voir si le paiement lui est adressé (*scanning*) :
+Bob va donc être capable de calculer l'adresse de réception sur laquelle Alice a envoyé les bitcoins. Pour ce faire, il surveille toutes les transactions Bitcoin qui respectent les critères des Silent Payments et il applique le calcul suivant sur chacune d'entre elles pour voir si le paiement lui est adressé (*scanning*) :
 
 $$ P' = B + \text{hash}(b \cdot A) \cdot G $$
 
-Lorsqu'il scan la transaction d'Alice, il se rend compte que $P'$ est égal à $P$. Il sait donc que ce paiement lui est adressé :
+Lorsqu'il scanne la transaction d'Alice, il se rend compte que $P'$ est égal à $P$. Il sait donc que ce paiement lui est adressé :
 
 $$ P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P  $$
 
@@ -2185,7 +2185,7 @@ $$ P_0 = B + \text{hash}(a \cdot B \, \| \, 0) \cdot G $$
 
 $$ P_1 = B + \text{hash}(a \cdot B \, \| \, 1) \cdot G $$
 
-Lorsque Bob scanne la blockchain à la recherche de Silent Payments qui lui sont destinés, il commence par utiliser $i = 0$ pour l'adresse $P_0$. S'il ne trouve aucun paiement sur $P_0$, il conclut que cette transaction ne contient pas de Silent Payments à son égard et abandonne l'analyse de celle-ci. Cependant, si $P_0$ est valide et contient un paiement pour lui, il poursuit avec $P_1$ dans la même transaction pour vérifier si Alice a effectué un deuxième paiement. Si $P_1$ se révèle invalide, il cesse ses recherches pour cette transaction; sinon, il continue de tester les valeurs successives de $i$ :
+Lorsque Bob scanne la blockchain à la recherche de Silent Payments qui lui sont destinés, il commence par utiliser $i = 0$ pour l'adresse $P_0$. S'il ne trouve aucun paiement sur $P_0$, il conclut que cette transaction ne contient pas de Silent Payments à son égard et abandonne l'analyse de celle-ci. Cependant, si $P_0$ est valide et contient un paiement pour lui, il poursuit avec $P_1$ dans la même transaction pour vérifier si Alice a effectué un deuxième paiement. Si $P_1$ se révèle invalide, il cesse ses recherches pour cette transaction ; sinon, il continue de tester les valeurs successives de $i$ :
 
 $$ P_0 = B + \text{hash}(b \cdot A \, \| \, 0) \cdot G $$
 
@@ -2217,7 +2217,7 @@ $$
 - $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
 - $P_1$ : La seconde clé publique / adresse unique pour le paiement vers Bob
 
-Avec cette méthode, on commence à avoir un protocole sympathique, mais il y a encore quelques défi à surmonter, notamment la prévention de la réutilisation d'adresse.
+Avec cette méthode, on commence à avoir un protocole sympathique, mais il y a encore quelques défis à surmonter, notamment la prévention de la réutilisation d'adresse.
 
 ### Comment éviter la réutilisation d'adresse ?
 
@@ -2225,9 +2225,9 @@ Comme nous l'avons vu dans les sections précédentes, Alice utilise la paire de
 
 > *La réutilisation d'adresse est une très mauvaise pratique pour la confidentialité de l'utilisateur. Pour savoir pourquoi, je vous conseille de revoir les première parties de cette formation.*
 
-En effet, puisque l'adresse unique $P_0$ est dérivée depuis $A$ et $B$, et bien si Alice dérive une seconde adresse pour un second paiement vers $B$, avec la même clé $A$, elle va tomber exactement sur la même adresse $P_0$. Pour éviter ce risque et prévenir les réutilisations d'adresse au seins des Silent Payments, il va falloir modifier un peu nos calculs.
+En effet, puisque l'adresse unique $P_0$ est dérivée depuis $A$ et $B$, et bien si Alice dérive une seconde adresse pour un second paiement vers $B$, avec la même clé $A$, elle va tomber exactement sur la même adresse $P_0$. Pour éviter ce risque et prévenir les réutilisations d'adresse au sein des Silent Payments, il va falloir modifier un peu nos calculs.
 
-Ce que l'on souhaite, c'est que chaque UTXO consommé par Alice en input d'un paiement donne une adresse unique du côté de Bob, et ce, même si plusieurs UTXOs sont sécurisés par la même paire de clé. Il suffit donc d'ajouter une référence à l'UTXO dans le calcul de l'adresse unique $P_0$. Cette référence va simplement être le hachage de l'UTXO consommé en input :
+Ce que l'on souhaite, c'est que chaque UTXO consommé par Alice en input d'un paiement donne une adresse unique du côté de Bob, et ce, même si plusieurs UTXOs sont sécurisés par la même paire de clés. Il suffit donc d'ajouter une référence à l'UTXO dans le calcul de l'adresse unique $P_0$. Cette référence va simplement être le hachage de l'UTXO consommé en input :
 
 $$ \text{input\_hash} = \text{hash}(\text{outpoint} \, \| \, A) $$
 
@@ -2271,7 +2271,7 @@ Par exemple, imaginons que la transaction d'Alice dispose de 3 inputs, chacun s�
 
 ![BTC204](assets/notext/73/05.webp)
 
-Si l'on suit la méthode précédemment décrite, Alice devrait choisir une unique paire de clés parmi $a_0$, $a_1$, et $a_2$ pour calculer le secret ECDH et générer l'adresse de paiement unique $P$ à partir de l'adresse statique de Bob $B$. Cependant, cette approche impose à Bob de tester chaque possibilité séquentiellement, en commençant avec $a_0$, puis $a_1$, et ainsi de suite, jusqu'à identifier une paire générant une adresse $P$ valide. Ce processus exige de Bob qu'il exécute le calcul ECDH sur tous les inputs de toutes les transactions, ce qui augmente considérablement la charge opérationnelle du scanning.
+Si l'on suit la méthode précédemment décrite, Alice devrait choisir une unique paire de clés parmi $a_0$, $a_1$, et $a_2$ pour calculer le secret ECDH et générer l'adresse de paiement unique $P$ à partir de l'adresse statique de Bob $B$. Cependant, cette approche impose à Bob de tester chaque possibilité séquentiellement, en commençant par $a_0$, puis $a_1$, et ainsi de suite, jusqu'à identifier une paire générant une adresse $P$ valide. Ce processus exige de Bob qu'il exécute le calcul ECDH sur tous les inputs de toutes les transactions, ce qui augmente considérablement la charge opérationnelle du scanning.
 
 Pour éviter cela, nous allons demander à Alice de réaliser son calcul de $P$ en utilisant la somme de toutes les clés en input. Reprenant notre exemple, la clé privée tweakée $a$ serait calculée comme suit :
 
@@ -2326,7 +2326,7 @@ $$p_0 = (b_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}}
 - $b_{\text{scan}}$ : La clé privée de scan de Bob
 - $B_{\text{spend}}$ : La clé publique de dépense de Bob (adresse statique)
 - $b_{\text{spend}}$ : La clé privée de dépense de Bob
-- $A$ : La somme des clé publiques en input (tweak)
+- $A$ : La somme des clés publiques en input (tweak)
 - $a$ : La clé privée correspondant à la clé publique tweakée
 - $H$ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
 - $G$ : Le point générateur de la courbe elliptique `secp256k1`
@@ -2384,7 +2384,7 @@ Attention toutefois, cette séparation des adresses statiques vaut uniquement d'
 - $B_{\text{spend}}$ : La clé publique de dépense de Bob (adresse initiale)
 - $B_m$ : La clé publique de dépense de Bob labélisée (adresse statique)
 - $b_m$ : La clé privée de dépense de Bob labélisée
-- $A$ : La somme des clé publiques en input (tweak)
+- $A$ : La somme des clés publiques en input (tweak)
 - $a$ : La clé privée correspondant à la clé publique tweakée
 - $H$ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
 - $G$ : Le point générateur de la courbe elliptique `secp256k1`
@@ -2415,7 +2415,7 @@ Si l'on souhaite utiliser des labels, on va remplacer $B_{\text{spend}}$ par $B_
 
 $$B = B_{\text{scan}} \, \| \, B_m$$
 
-Avec pour le label $m$ :
+Avec le label $m$ :
 
 $$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, m) \cdot G $$
 

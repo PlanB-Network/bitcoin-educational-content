@@ -2262,6 +2262,37 @@ Pour le moment, ces calculs partent du principe qu'Alice utilise un seul input d
 
 ### Tweaker les clés publiques
 
+Pour résoudre ce problème, on ne va pas utiliser la paire de clés qui permet de sécuriser un des inputs, mais on va plutôt utiliser la somme de toutes les paires de clés utilisées en input de la transaction, et interpréter cette somme comme une paire de clés (c'est ce que l'on appelle "tweak" en anglais).
+
+Par exemple, imaginons que la transaction d'Alice dispose de 3 inputs, chacun sécurisé avec une paire de clés différente :
+- $a_0$ permet de sécuriser l'input #0 ;
+- $a_1$ permet de sécuriser l'input #1 ;
+- $a_2$ permet de sécuriser l'input #2.
+
+![BTC204](assets/notext/73/05.webp)
+
+Si l'on utilise la méthode présentée dans la section précédente, il faudrait qu'Alice choisisse une seule paire de clé parmi $a_0$, $a_1$ et $a_2$ pour calculer le secret ECDH et générer l'adresse de paiement unique $P$ à partir de l'adresse statique de Bob $B$. Le problème avec cette méthode, c'est que Bob va être obligé de tester toute les possibilité une à une pour rechercher le secret : d'abord en utilisant $a_0$, puis en utilisant $a_1$, etc, jusqu'à ce qu'il trouve une paire qui donne une adresse $P$ valide. Cela veut aussi dire que Bob doit faire ce calcul ECDH sur tous les inputs de toutes les transactions, ce qui ajoute beaucoup de charge opérationnelle.
+
+Plutôt que d'utiliser cette méthode, on va demander à Alice de faire son calcul de $P$ en utilisant la somme de toutes les de clés en input. Si l'on reprend notre exemple, pour calculer la clé privée tweakée $a$, cela donnerait :
+
+$$ a = a_0 + a_1 + a_2 $$
+
+De la même manière, Alice et Bob pourront calculer la clé publique tweakée :
+
+$$ A = A_0 + A_1 + A_2 $$
+
+Grâce à cette méthode, Bob doit seulement calculer la somme des clés publiques de la transaction, puis calculer le secret ECDH à partir de $A$ seulement, ce qui réduit grandement le nombre de calculs à réaliser pour l'étape du scanning.
+
+Cependant, rappelez-vous de la section précédente. Nous avions ajouté dans notre calcul le hachage $\text{input\_hash}$ qui est utilisé comme un nonce pour éviter lé réutilisation d'adresse : 
+
+$$ \text{input\_hash} = \text{hash}(\text{outpoint} \, \| \, A) $$
+
+Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Et justement, le BIP352 spécifie qu'il faut choisir le plus petit $\text{outpoint}$ lexicographiquement. C'est-à-dire que parmi tous les UTXOs, on va choisir celui qui arrive le premier dans l'ordre alphabétique et on va toujours utiliser celui-ci au sein de notre calcul. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{input\_hash}$ sera : 
+
+$$ \text{input\_hash} = \text{hash}(\text{outpoint}_L \, \| \, A) $$
+
+Les calculs restent ensuite identiques à ceux que l'on a présentés dans la section précédente, mis à part que la clé privée $a$ et sa clé publique correspondante $A$ ne sont plus une paire permettant de sécuriser un seul input, mais représentent dorénavant le tweak de toutes les paires de clés en input.
+
 
 
 

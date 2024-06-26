@@ -2336,33 +2336,115 @@ $$p_0 = (b_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}}
 - $s_0$ : Le premier secret commun ECDH
 - $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
 
+### Utiliser des adresses SP avec un label
 
+Bob dispose donc d'une adresse statique $B$ pour les Silent Payments tel que : 
+ $$B = B_{\text{scan}} \, \| \, B_{\text{spend}}$$
 
+Le problème avec cette méthode, c'est qu'elle ne permet pas de ségréguer les différents paiements envoyés à cette adresse. Par exemple, si Bob dispose de 2 clients différents pour son entreprise, et qu'il souhaite bien différencier les paiements de chacun, il va avoir besoin de 2 adresses statiques différentes. Ce qu'il pourrait faire avec notre méthode précédente, c'est tout simplement de créer 2 portefeuille séparés, chacun avec sa propre adresse statique, voire créer 2 adresses statiques distinctes sur un même portefeuille. Mais en faisant cela, il devra scanner la blockchain 2 fois : une fois pour détecter les paiements vers la première adresse, et une seconde fois pour les paiement de l'autre adresse.
 
+Pour résoudre ce problème, le BIP352 utilise un système de label qui permet de disposer d'adresses statiques différentes, sans pour autant augmenter irraisonnablement la charge de travail pour trouver les Silent Payments sur la blockchain. Pour ce faire, on va ajouter un entier $m$ à la clé publique de dépense $B_{\text{spend}}$. Cet entier peut prendre la valeur de $1$ pour la première adresse statique, puis de $2$ pour la seconde, etc. Les clés de dépense $B_{\text{spend}}$ s'appelleront donc désormais $B_m$ et seront construites de cette manière :
 
+$$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, m) \cdot G $$
 
+Par exemple, pour la première clé de dépense avec le label $1$ :
 
+$$ B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, 1) \cdot G $$
 
+L'adresse statique publiée par Bob sera dorénavant composée de $B_{\text{scan}}$ et de $B_m$. Par exemple, la première adresse statique avec le label $1$ sera :
+ $$B = B_{\text{scan}} \, \| \, B_1$$
+
+> *On commence seulement à partir du label 1 car le label 0 est réservé pour le change.*
+
+Alice, de son côté, va dériver l'adresse de paiement unique $P$ de la même manière qu'auparavant, mais en utilisant la nouvelle $B_1$ à la place de $B_{\text{spend}}$ :
+
+$$ P_0 = B_1 + \text{hash}(\text{input\_hash} \cdot a \cdot B_{\text{scan}} \, \| \, 0) \cdot G $$
+
+En réalité, Alice ne sait même pas forcément que Bob utilise une adresse labelisée, car elle utilise simplement la seconde partie de l'adresse statique qu'il lui a fourni, et en l'occurrence, c'est la valeur $B_1$ plutôt que $B_{\text{spend}}$.
+
+Pour scanner les paiements, Bob va toujours utiliser la valeur de son adresse statique initiale avec $B_{\text{spend}}$ de cette manière :
+
+$$  P_0 = B_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}} \cdot A \, \| \, 0) \cdot G $$
+
+Ensuite, il va simplement soustraire la valeur qu'il trouve pour $P_0$ de chaque output un à un. Et il va vérifier si un des résultats de ces soustractions correspond à la valeur d'un des labels qu'il utilise sur son portefeuille. Si ça matche par exemple pour l'output #4 avec le label $1$, cela veut dire que cet output est un Silent Payment qui lui revient sur son adresse $B_1$ :
+
+$$ \text{output}_4 - P_0 = \text{hash}(b_{\text{scan}} \, \| \, 1) \cdot G $$
+
+Cela fonctionne, car :
+
+$$ B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, 1) \cdot G $$
+
+Grâce à cette méthode, Bob peut utiliser une multitude d'adresses statiques ($B_1$, $B_2$, $B_3$...), toutes dérivées depuis son adresse statique de base ($B = B_{\text{scan}} \, \| \, B_{\text{spend}}$), afin de bien séparer les usages. Attention toutefois, cette séparation des adresses statiques vaut uniquement d'un point de vue de gestion personnelle du portefeuille, mais ne permet pas de séparer les identités. Puisqu'elles disposent toutes du même $B_{\text{scan}}$, il est très facile d'associer toutes les adresses statiques ensemble et de déduire qu'elles appartiennent à une unique entité.
+
+![BTC204](assets/notext/73/07.webp)
+
+*Légende :*
+- $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)
+- $b_{\text{scan}}$ : La clé privée de scan de Bob
+- $B_{\text{spend}}$ : La clé publique de dépense de Bob (adresse initiale)
+- $B_m$ : La clé publique de dépense de Bob labélisée (adresse statique)
+- $b_m$ : La clé privée de dépense de Bob labélisée
+- $A$ : La somme des clé publiques en input (tweak)
+- $a$ : La clé privée correspondant à la clé publique tweakée
+- $H$ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
+- $G$ : Le point générateur de la courbe elliptique `secp256k1`
+- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $s_0$ : Le premier secret commun ECDH
+- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
+- $p_0$ : La clé privée de la première adresse unique de paiement vers Bob
+- $X$ : Le hachage de la clé privée de scan avec le label
 
 ### Comment construire une adresse Silent Payments ?
 
+Pour construire son adresse dédiée au Silent Payments, il faut d'abord dériver 2 paires de clés dans son portefeuille Bitcoin HD :
+- La paire $b_{\text{scan}}$, $B_{\text{scan}}$ pour rechercher les paiements qui nous sont adressés ;
+- La paire $b_{\text{spend}}$, $B_{\text{spend}}$ pour penser les bitcoins que l'on a reçus.
 
+Ces paires sont dérivées en suivant les chemins suivants (*Bitcoin Mainnet*) :
 
+```text
+scan : m / 352' / 0' / 0' / 1' / 0
+spend : m / 352' / 0' / 0' / 0' / 0
+```
 
+Une fois que l'on dispose de ces 2 paires de clés, il suffit de les concaténer (mettre bout à bout) pour créer la charge utile de l'adresse statique : 
 
+$$B = B_{\text{scan}} \, \| \, B_{\text{spend}}$$
 
+Si l'on souhaite utiliser des labels, on va remplacer $B_{\text{spend}}$ par $B_m$ : 
 
+$$B = B_{\text{scan}} \, \| \, B_m$$
 
+Avec pour le label $m$ :
 
+$$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, m) \cdot G $$
 
+Une fois que l'on dispose de cette charge utile, il faut y ajouter le HRP (*Human-Readable Part*) `sp` et la version `q` (= version 0). On ajoute également une checksum et on formate l'adresse en bech32m.
 
+Par exemple, voici mon adresse statique de Silent Payments :
 
+```text
+sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ryc7aam6jrvrg0d0uuyzecfhx2wgsumcurv77e
+```
 
+Un point important concernant les adresses statiques, et que vous avez sûrement compris dans les sections précédentes, est que ces adresses n'apparaissent pas dans la transaction Bitcoin. C'est uniquement l'adresse de paiement $P$ qui est utilisé en output, et cette adresse de paiement est dans un format Taproot classique. D'un point de vue extérieur, il n'est donc pas possible de différencier une transaction faisant intervenir un Silent Payment d'une transaction classique avec des outputs P2TR. 
 
+Aussi, de la même manière que pour le BIP47, il est impossible de faire un lien entre une adresse statique $B$ et une adresse de paiement $P$ dérivée depuis $B$. En effet, même si Ève, une attaquante, tente de scanner la blockchain avec l'adresse statique $B$ de Bob, elle ne pourra pas effectuer les calcul nécessaires pour obtenir $P$, puis qu'il lui faudrait disposer soit de la clé privée $b_{\text{scan}}$, soit des clés privées de l'envoyeur $a$, mais ces 2 informations sont évidemment privées. 
 
+Il est donc possible de lier explicitement son adresse statique avec une forme d'identité.
 
+### Comment utiliser les Silent Payments ?
 
-*Pour créer ce chapitre sur les Silent Payments, j'ai largement utilisé [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
+La proposition pour les Silent Payments est encore toute jeune est très peu de wallet l'on implémenté pour le moment. À ma connaissance, il n'y a que 3 logiciels qui les prennent en charge : 
+- [CakeWallet](https://cakewallet.com/)
+- [Silentium](https://app.silentium.dev/)
+- [DonationWallet](https://github.com/Sosthene00/donationwallet)
+
+Nous vous proposerons prochainement un tutoriel détaillé pour mettre en place votre propre adresse statique de Silent Payments.
+
+Puisque cette fonctionnalité est nouvelle, je vous conseille d'être prudent et de ne pas utiliser les Silent Payments pour des sommes trop conséquentes sur le mainnet.
+
+*Pour créer ce chapitre sur les Silent Payments, j'ai largement utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 ## Le soft fork Taproot
 <chapterId>f6baa32e-f292-448c-a543-0635d3a7329e</chapterId>

@@ -1,8 +1,17 @@
 <div align="center">
-  <img src="docs/assets/horizontal_logo.png" alt="PBN Logo" width="37%" />
+  <a href="https://planb.network">
+    <picture>
+      <source srcset="docs/assets/black_and_orange_gradient.png" media="(prefers-color-scheme: light)">
+      <source srcset="docs/assets/horizontal_logo.png" media="(prefers-color-scheme: dark)">
+      <img src="docs/assets/black_and_orange_gradient.png" alt="PBN Logo" width="37%">
+    </picture>
+  </a>
+</div>
+
+<div align="center">
   <h1 style="margin-top: 0;"></h1>
   <a href="https://planb.network/en/node-network">
-    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Become a P₿N Node">
+    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Become a P₿N Node&color=ff5c00">
   </a>
   <a href="https://twitter.com/planb_network">
     <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/planb_network">
@@ -10,12 +19,17 @@
   <a href="https://t.me/PlanBNetwork_ContentBuilder">
     <img alt="Static Badge" src="https://img.shields.io/badge/community-telegram-blue?logo=telegram">
   </a>
-    <a href="https://planb.network">
-    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20P₿N Platform">
-<a href="https://weblate.planb.network/engage/planb-network-website/">
-<img src="https://weblate.planb.network/widget/planb-network-website/website-elements/svg-badge.svg" alt="Translation status" />
-</a>
+  <a href="https://planb.network">
+    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20P₿N Platform&color=ff5c00">
+  </a>
+  <a href="https://weblate.planb.network/engage/planb-network-website/">
+    <img src="https://weblate.planb.network/widget/planb-network-website/website-elements/svg-badge.svg" alt="Translation status" />
+  </a>
+  <a href="https://github.com/DecouvreBitcoin/sovereign-university-data">
+    <img src="https://img.shields.io/github/contributors/DecouvreBitcoin/sovereign-university-data?label=Contributors&color=ff5c00" alt="Contributors">
+  </a>
 </div>
+
 <br />
 <div align="center">
   <h3>
@@ -27,13 +41,14 @@
 </div>
 <br />
 <p align="center">
-<img src="docs/assets/PBN-banner.png" alt="P₿N banner" width="100%">
-</p>
+  <a href="https://planb.network">
+    <img src="docs/assets/PBN-banner.png" alt="P₿N banner" width="100%">
+  </a></p>
 <br />
 
 ---
 
-(If you're just lost on GitHub, visit our [website](https://Plan₿.network/) to learn more about Bitcoin).
+(If you're just lost on GitHub, visit our [website](https://planb.network) to learn more about Bitcoin).
 
 Assuming you're here to contribute, I will detail the inner workings of the content management and how you can assist us -- either by producing new content or translating/reviewing content in your language.
 

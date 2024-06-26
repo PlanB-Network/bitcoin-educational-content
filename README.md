@@ -165,3 +165,10 @@ The better the quality of your work, the more translations you will get. The mor
 So that's it, that's our plan to take over the world! We seek everything in every language: translators, educators, and most importantly, individuals eager to learn.
 
 If you believe you are one of these, [reach out](https://t.me/PlanBNetwork_ContentBuilder). We want to collaborate!
+
+<br />
+<p align="center">
+  <a href="https://planb.network">
+    <img src="docs/assets/doing-my-part.jpg" alt="Doing my Part meme" width="75%">
+  </a></p>
+<br />

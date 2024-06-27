@@ -2287,7 +2287,7 @@ Cependant, rappelez vous de la section précédente. Nous avions ajouté dans no
 
 $$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
 
-Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de l'$\text{outpoint}$ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{inputHash}$ sera :
+Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de $\text{outpoint}$ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{inputHash}$ sera :
 
 $$  \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  $$
 
@@ -2336,8 +2336,9 @@ $$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} 
 
 ### Utiliser des adresses SP avec un label
 
-Bob dispose donc d'une adresse statique $B$ pour les Silent Payments tel que : 
- $$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+Bob dispose donc d'une adresse statique $B$ pour les Silent Payments tel que :
+
+$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
 Le problème avec cette méthode, c'est qu'elle ne permet pas de ségréguer les différents paiements envoyés à cette adresse. Par exemple, si Bob dispose de 2 clients différents pour son entreprise, et qu'il souhaite bien différencier les paiements de chacun, il va avoir besoin de 2 adresses statiques différentes. Une solution naïve, avec l'approche actuelle, serait pour Bob de créer deux portefeuilles séparés, chacun ayant sa propre adresse statique, ou même d'établir deux adresses statiques différentes au sein d'un même portefeuille. Cependant, cette solution requiert de scanner toute la blockchain deux fois (une fois pour chaque adresse) afin de détecter respectivement les paiements destinés à chaque adresse. Ce double scanning augmente irraisonnablement la charge opérationnelle pour Bob.
 
@@ -2350,7 +2351,8 @@ Par exemple, pour la première clé de dépense avec le label $1$ :
 $$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
 
 L'adresse statique publiée par Bob sera dorénavant composée de $B_{\text{scan}}$ et de $B_m$. Par exemple, la première adresse statique avec le label $1$ sera :
- $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
+
+$$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
 > *On commence seulement à partir du label 1 car le label 0 est réservé pour le change.*
 

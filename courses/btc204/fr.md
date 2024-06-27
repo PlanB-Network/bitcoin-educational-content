@@ -1056,23 +1056,43 @@ La réutilisation d'adresse est le fait d'utiliser une même adresse de récepti
 
 Comme nous l'avons vu dans la section précédente, chaque UTXO dispose de son propre ScriptPubKey qui le verrouille et doit obligatoirement être satisfait pour que l'UTXO soit consommé en input dans une nouvelle transaction. C'est au sein de ce ScriptPubKey que sont intégrées les adresses de réception (charge utile).
 
-Lorsque différents ScriptPubKey contiennent la même adresse de réception, il s'agit d'une réutilisation d'adresse. En pratique, cela signifie qu'un utilisateur a fourni plusieurs fois la même adresse à des envoyeurs pour recevoir des bitcoins via plusieurs paiements.
+Lorsque différents ScriptPubKey contiennent la même adresse de réception, il s'agit d'une réutilisation d'adresse. En pratique, cela signifie qu'un utilisateur a fourni plusieurs fois la même adresse à des envoyeurs pour recevoir des bitcoins via plusieurs paiements. Et justement, cette pratique est catastrophique pour votre vie privée.
 
 ### En quoi la réutilisation d'adresse est un problème ?
 
+Étant donné que la blockchain est publique, il est facile de consulter quelles adresses verouillent quels UTXO et quelle quantité de bitcoins. Si une même adresse est utilisée pour plusieurs transactions, il devient possible de déduire que tous les bitcoins associés à cette adresse appartiennent à une même personne. Cette pratique compromet la vie privée de l'utilisateur en permettant d'établir des liens déterministes entre différentes transactions et de tracer les bitcoins sur la blockchain. Satoshi Nakamoto lui-même soulignait déjà cette problématique dans le White Paper de Bitcoin :
 
+> *En guise de pare-feu additionnel, une nouvelle paire de clés pourrait être utilisée pour chaque transaction afin de les garder non liées à un propriétaire commun.*
 
+![BTC204](assets/notext/34/02.webp)
 
+Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
+L'objectif recherché par Satoshi dans cette phrase était de créer un pare-feu supplémentaire en cas d'association entre l'identité de l'utilisateur et une paire de clés sur Bitcoin, afin d'éviter que l'intégralité de son activité soit reliée publiquement à son identité. Aujourd'hui, avec la prolifération des sociétés d'analyse de chaîne et les réglementations sur le KYC, l'utilisation d'adresses uniques n'est plus un "pare-feu additionnel", mais une pratique indispensable pour quiconque souhaite préserver minimum sa vie privée.
 
+Lorsque vous réutilisez une adresse, vous faites un lien presque indéniable entre l'ensemble des transactions associées à cette adresse. Bien que cela ne mette pas directement en danger vos fonds, car la cryptographie sur les courbes elliptiques garantit la sécurité de vos clés privées, cela facilite la surveillance de vos activités. En effet, quiconque dispose d'un nœud peut observer les transactions et les soldes des adresses, compromettant ainsi totalement votre anonymat.
+
+![BTC204](assets/fr/34/01.webp)
+
+Pour illustrer ce point, prenons l'exemple de Bob, un utilisateur qui achète régulièrement des bitcoins par petites sommes en DCA et les envoie toujours sur la même adresse. Après deux ans, cette adresse contient une quantité substantielle de bitcoins. Si Bob utilise cette adresse pour effectuer un paiement chez un commerçant du coin, ce dernier pourra voir l'ensemble des fonds associés et en déduire la richesse de Bob. Cela peut donc entraîner des risques de sécurité personnelle, notamment des tentatives de vol ou d'extorsion. Si Bob avait utilisé une adresse vierge pour réceptionner chaque achat périodique, il aurait dévoilé infiniment moins d'informations à son commerçant.
+
+En analyse de chaîne, on différencie 2 types de réutilisations d'adresse :
+- La réutilisation externe ;
+- La réutilisation interne à une transaction.
+
+La première s'observe lorsqu'une adresse est réutilisée au sein de plusieurs transactions Bitcoin différentes. C'est ce dont nous avons parlé précédemment : cette heuristique permet de déduire que tous les UTXOs passés par cette adresse appartiennent à une unique entité.
+
+La réutilisation d'adresse interne s'observe non pas lorsque la réutilisation se produit sur plusieurs transactions, mais lorsqu'elle s'observe au sein d'une même transaction. En effet, si l'on utilise en output d'une transaction la même adresse qui avait servi à verrouiller un input, alors on peut déduire que cet output appartient toujours au même utilisateur (change), et que le second output représente le paiement effectif. Cette autre heuristique permet de perpétuer un traçage de fonds sur plusieurs transactions.
+
+![BTC204](assets/fr/33/02.webp)
+
+La réutilisation d'adresse est un véritable fléau sur Bitcoin. Selon le site OXT.me (site actuellement inaccessible), le taux global de réutilisation d'adresses sur Bitcoin s'élevait à environ 52 % en 2022 :
+
+![BTC204](assets/notext/41/02.webp)
+
+Ce taux est énorme, mais il provient en très grande majorité des plateformes d'échanges plutôt que des utilisateurs individuels.
 
 ### Comment éviter la réutilisation d'adresse ?
-
-
-
-
-
-
 
 
 

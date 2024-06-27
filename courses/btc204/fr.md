@@ -2442,7 +2442,7 @@ Nous vous proposerons prochainement un tutoriel détaillé pour mettre en place 
 
 Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de prudence et d'éviter d'utiliser les Silent Payments pour des montants importants sur le mainnet.
 
-*Pour créer ce chapitre sur les Silent Payments, j'ai largement utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
+*Pour créer ce chapitre sur les Silent Payments, j'ai utilisé [le site d'explication des Silent Payments](https://silentpayments.xyz/) et [le document d'explication du BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 ## Le soft fork Taproot
 <chapterId>f6baa32e-f292-448c-a543-0635d3a7329e</chapterId>

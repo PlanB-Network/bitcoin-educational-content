@@ -2132,7 +2132,7 @@ Bob dispose d'une adresse SP qu'il a publiée sur internet avec :
 
 En récupérant l'adresse de Bob, Alice est capable de calculer une nouvelle adresse vierge qui appartient à Bob en utilisant ECDH. Nommons cette adresse $P$ :
 
-$$ P = B + \text{hash}(a \cdot B) \cdot G $$
+$$  P = B + \text{hash}(a \cdot B) \cdot G  $$
 
 Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $a$ et de la clé publique de Bob $B$. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur $G$ de la courbe elliptique `secp256k1`. Enfin, Alice additionne le point obtenu avec la clé publique de Bob $B$. Une fois qu'Alice dispose de cette adresse $P$, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
 
@@ -2140,19 +2140,19 @@ Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé
 
 Grâce aux propriétés de la courbe elliptique sur lesquelles s'appuie ECDH, on sait que : 
 
-$$ a \cdot B = b \cdot A $$
+$$  a \cdot B = b \cdot A  $$
 
 Bob va donc être capable de calculer l'adresse de réception sur laquelle Alice a envoyé les bitcoins. Pour ce faire, il surveille toutes les transactions Bitcoin qui respectent les critères des Silent Payments et il applique le calcul suivant sur chacune d'entre elles pour voir si le paiement lui est adressé (*scanning*) :
 
-$$ P' = B + \text{hash}(b \cdot A) \cdot G $$
+$$  P' = B + \text{hash}(b \cdot A) \cdot G  $$
 
 Lorsqu'il scanne la transaction d'Alice, il se rend compte que $P'$ est égal à $P$. Il sait donc que ce paiement lui est adressé :
 
-$$ P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P  $$
+$$  P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P   $$
 
 À partir de là, Bob va pouvoir calculer la clé privée $p$ qui permet de dépenser l'adresse $P$ :
 
-$$ p = (b + \text{hash}(b \cdot A)) \mod n $$
+$$  p = (b + \text{hash}(b \cdot A)) \mod n  $$
 
 Comme vous pouvez le voir, pour calculer cette clé privée $p$, il faut obligatoirement disposer de la clé privée $b$. Seul Bob dispose de cette clé privée $b$. Il sera donc bien le seul à pouvoir dépenser les bitcoins envoyés sur son adresse de Silent Payments.
 
@@ -2177,31 +2177,31 @@ Pour y parvenir, nous allons légèrement modifier le calcul que réalise Alice 
 
 Pour modifier le calcul et obtenir 2 adresses différentes, il suffit d'ajouter un entier qui vienne modifier le résultat. Ainsi, Alice va ajouter $0$ dans son calcul pour obtenir l'adresse $P_0$ et $1$ pour obtenir l'adresse $P_1$. Appelons cet entier $i$ :
 
-$$ P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G $$
+$$  P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G  $$
 
 Le processus de calcul reste inchangé par rapport à la méthode précédente, à l'exception que cette fois-ci Alice va concaténer $a \cdot B$ avec $i$ avant de procéder au hachage. Il suffit ensuite de modifier $i$ pour avoir une nouvelle adresse appartenant à Bob. Par exemple :
 
-$$ P_0 = B + \text{hash}(a \cdot B \, \| \, 0) \cdot G $$
+$$  P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G  $$
 
-$$ P_1 = B + \text{hash}(a \cdot B \, \| \, 1) \cdot G $$
+$$  P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G  $$
 
 Lorsque Bob scanne la blockchain à la recherche de Silent Payments qui lui sont destinés, il commence par utiliser $i = 0$ pour l'adresse $P_0$. S'il ne trouve aucun paiement sur $P_0$, il conclut que cette transaction ne contient pas de Silent Payments à son égard et abandonne l'analyse de celle-ci. Cependant, si $P_0$ est valide et contient un paiement pour lui, il poursuit avec $P_1$ dans la même transaction pour vérifier si Alice a effectué un deuxième paiement. Si $P_1$ se révèle invalide, il cesse ses recherches pour cette transaction ; sinon, il continue de tester les valeurs successives de $i$ :
 
-$$ P_0 = B + \text{hash}(b \cdot A \, \| \, 0) \cdot G $$
+$$  P_0 = B + \text{hash}(b \cdot A \text{ ‖ } 0) \cdot G  $$
 
-$$ P_1 = B + \text{hash}(b \cdot A \, \| \, 1) \cdot G $$
+$$  P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1) \cdot G  $$
 
 Puisque Bob s'arrête immédiatement à $i = 0$ si $P_0$ ne donne rien, l'utilisation de cet entier n'ajoute quasiment aucune charge opérationnelle supplémentaire sur Bob pour l'étape du scanning des transactions.
 
 Bob pourra ensuite calculer les clés privées de la même façon :
 
-$$
-p_0 = (b + \text{hash}(b \cdot A \, \| \, 0)) \mod n
-$$
+$$ 
+p_0 = (b + \text{hash}(b \cdot A \text{ ‖ } 0)) \mod n
+ $$
 
-$$
-p_1 = (b + \text{hash}(b \cdot A \, \| \, 1)) \mod n 
-$$
+$$ 
+p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \mod n 
+ $$
 
 ![BTC204](assets/notext/73/03.webp)
 
@@ -2229,21 +2229,21 @@ En effet, puisque l'adresse unique $P_0$ est dérivée depuis $A$ et $B$, et bie
 
 Ce que l'on souhaite, c'est que chaque UTXO consommé par Alice en input d'un paiement donne une adresse unique du côté de Bob, et ce, même si plusieurs UTXOs sont sécurisés par la même paire de clés. Il suffit donc d'ajouter une référence à l'UTXO dans le calcul de l'adresse unique $P_0$. Cette référence va simplement être le hachage de l'UTXO consommé en input :
 
-$$ \text{input\_hash} = \text{hash}(\text{outpoint} \, \| \, A) $$
+$$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
 
 Et cette référence à l'input, Alice va l'ajouter dans son calcul de l'adresse unique $P_0$ :
 
-$$ P_0 = B + \text{hash}(\operatorname{input\_hash} \cdot a \cdot B \text{‖} 0) \cdot G $$
+$$  P_0 = B + \text{hash}(\operatorname{inputHash} \cdot a \cdot B \text{‖} 0) \cdot G  $$
 
-Lors de son scanning, Bob peut également ajouter $\text{input\_hash}$, puisqu'il lui suffit d'observer la transaction pour déduire $\text{outpoint}$ :
+Lors de son scanning, Bob peut également ajouter $\text{inputHash}$, puisqu'il lui suffit d'observer la transaction pour déduire $\text{outpoint}$ :
 
-$$ P_0 = B + \text{hash}(\text{input\_hash} \cdot b \cdot A \, \| \, 0) \cdot G $$
+$$  P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G  $$
 
 Lorsqu'il trouve un $P_0$ valide, il peut calculer la clé privée $p_0$ correspondante :
 
-$$
-p_0 = (b + \text{hash}(\text{input\_hash} \cdot b \cdot A \, \| \, 0)) \mod n
-$$
+$$ 
+p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \mod n
+ $$
 
 ![BTC204](assets/notext/73/04.webp)
 
@@ -2275,21 +2275,21 @@ Si l'on suit la méthode précédemment décrite, Alice devrait choisir une uniq
 
 Pour éviter cela, nous allons demander à Alice de réaliser son calcul de $P$ en utilisant la somme de toutes les clés en input. Reprenant notre exemple, la clé privée tweakée $a$ serait calculée comme suit :
 
-$$ a = a_0 + a_1 + a_2 $$
+$$  a = a_0 + a_1 + a_2  $$
 
 De la même manière, Alice et Bob pourront calculer la clé publique tweakée :
 
-$$ A = A_0 + A_1 + A_2 $$
+$$  A = A_0 + A_1 + A_2  $$
 
 Grâce à cette méthode, Bob doit seulement calculer la somme des clés publiques de la transaction, puis calculer le secret ECDH à partir de $A$ seulement, ce qui réduit grandement le nombre de calculs à réaliser pour l'étape du scanning.
 
-Cependant, rappelez-vous de la section précédente. Nous avions ajouté dans notre calcul le hachage $\text{input\_hash}$ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
+Cependant, rappelez-vous de la section précédente. Nous avions ajouté dans notre calcul le hachage $\text{inputHash}$ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
 
-$$ \text{input\_hash} = \text{hash}(\text{outpoint} \, \| \, A) $$
+$$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
 
-Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de l'$\text{outpoint}$ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{input\_hash}$ sera :
+Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de l'$\text{outpoint}$ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{inputHash}$ sera :
 
-$$ \text{input\_hash} = \text{hash}(\text{outpoint}_L \, \| \, A) $$
+$$  \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  $$
 
 Les calculs restent ensuite identiques à ceux que l'on a présentés dans la section précédente, mis à part que la clé privée $a$ et sa clé publique correspondante $A$ ne sont plus une paire permettant de sécuriser un seul input, mais représentent dorénavant le tweak de toutes les paires de clés en inputs.
 
@@ -2305,19 +2305,19 @@ Pour ce faire, le BIP352 prévoit que le receveur utilise 2 paires de clés diff
 
 De cette manière, Bob peut conserver la clé privée $b_{\text{spend}}$ sur un hardware wallet et utiliser la clé privée $b_{\text{scan}}$ sur un logiciel en ligne pour trouver ses Silent Payments, sans pour autant révéler $b_{\text{spend}}$. En revanche, les clés publiques $B_{\text{scan}}$ et $B_{\text{spend}}$ sont toutes deux révélées publiquement, puisqu'elles se trouvent dans l'adresse statique $B$ de Bob :
 
-$$ B = B_{\text{scan}} \, \| \, B_{\text{spend}}$$
+$$  B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
 Pour calculer une adresse de paiement unique $P_0$ appartenant à Bob, Alice va dorénavant effectuer le calcul suivant :
 
-$$ P_0 = B_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot a \cdot B_{\text{scan}} \, \| \, 0) \cdot G $$
+$$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
 
 Pour trouver les paiements qui lui sont adressés, Bob va effectuer le calcul suivant :
 
-$$ P_0 = B_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}} \cdot A \, \| \, 0) \cdot G $$
+$$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
 
 Comme vous pouvez le voir, jusqu'ici, Bob n'a pas eu besoin d'utiliser $b_{\text{spend}}$ qui se trouve sur son hardware wallet. Lorsqu'il souhaitera dépenser $P_0$, il pourra alors faire le calcul suivant pour trouver la clé privée $p_0$ :
 
-$$p_0 = (b_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}} \cdot A \, \| \, 0)) \mod n$$
+$$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \mod n $$
 
 ![BTC204](assets/notext/73/06.webp)
 
@@ -2337,42 +2337,42 @@ $$p_0 = (b_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}}
 ### Utiliser des adresses SP avec un label
 
 Bob dispose donc d'une adresse statique $B$ pour les Silent Payments tel que : 
- $$B = B_{\text{scan}} \, \| \, B_{\text{spend}}$$
+ $$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
 Le problème avec cette méthode, c'est qu'elle ne permet pas de ségréguer les différents paiements envoyés à cette adresse. Par exemple, si Bob dispose de 2 clients différents pour son entreprise, et qu'il souhaite bien différencier les paiements de chacun, il va avoir besoin de 2 adresses statiques différentes. Une solution naïve, avec l'approche actuelle, serait pour Bob de créer deux portefeuilles séparés, chacun ayant sa propre adresse statique, ou même d'établir deux adresses statiques différentes au sein d'un même portefeuille. Cependant, cette solution requiert de scanner toute la blockchain deux fois (une fois pour chaque adresse) afin de détecter respectivement les paiements destinés à chaque adresse. Ce double scanning augmente irraisonnablement la charge opérationnelle pour Bob.
 
 Pour résoudre ce problème, le BIP352 utilise un système de label qui permet de disposer d'adresses statiques différentes, sans pour autant augmenter irraisonnablement la charge de travail pour trouver les Silent Payments sur la blockchain. Pour ce faire, on va ajouter un entier $m$ à la clé publique de dépense $B_{\text{spend}}$. Cet entier peut prendre la valeur de $1$ pour la première adresse statique, puis de $2$ pour la seconde, etc. Les clés de dépense $B_{\text{spend}}$ s'appelleront donc désormais $B_m$ et seront construites de cette manière :
 
-$$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, m) \cdot G $$
+$$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
 
 Par exemple, pour la première clé de dépense avec le label $1$ :
 
-$$ B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, 1) \cdot G $$
+$$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
 
 L'adresse statique publiée par Bob sera dorénavant composée de $B_{\text{scan}}$ et de $B_m$. Par exemple, la première adresse statique avec le label $1$ sera :
- $$B = B_{\text{scan}} \, \| \, B_1$$
+ $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
 > *On commence seulement à partir du label 1 car le label 0 est réservé pour le change.*
 
 Alice, de son côté, va dériver l'adresse de paiement unique $P$ de la même manière qu'auparavant, mais en utilisant la nouvelle $B_1$ à la place de $B_{\text{spend}}$ :
 
-$$ P_0 = B_1 + \text{hash}(\text{input\_hash} \cdot a \cdot B_{\text{scan}} \, \| \, 0) \cdot G $$
+$$  P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
 
 En réalité, Alice ne sait même pas forcément que Bob dispose d'une adresse labelisée, car elle utilise simplement la seconde partie de l'adresse statique qu'il lui a fourni, et en l'occurrence, c'est la valeur $B_1$ plutôt que $B_{\text{spend}}$.
 
 Pour scanner les paiements, Bob va toujours utiliser la valeur de son adresse statique initiale avec $B_{\text{spend}}$ de cette manière :
 
-$$  P_0 = B_{\text{spend}} + \text{hash}(\text{input\_hash} \cdot b_{\text{scan}} \cdot A \, \| \, 0) \cdot G $$
+$$   P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
 
 Ensuite, il va simplement soustraire la valeur qu'il trouve pour $P_0$ de chaque output un à un. Il vérifie ensuite si un des résultats de ces soustractions correspond à la valeur d'un des labels qu'il utilise sur son portefeuille. Si ça matche par exemple pour l'output #4 avec le label $1$, cela veut dire que cet output est un Silent Payment associé à son adresse statique labelisée $B_1$ :
 
-$$ \text{output}_4 - P_0 = \text{hash}(b_{\text{scan}} \, \| \, 1) \cdot G $$
+$$  \text{output}_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
 
 Cela fonctionne, car :
 
-$$ B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, 1) \cdot G $$
+$$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
 
-Grâce à cette méthode, Bob peut utiliser une multitude d'adresses statiques ($B_1$, $B_2$, $B_3$...), toutes dérivées depuis son adresse statique de base ($B = B_{\text{scan}} \, \| \, B_{\text{spend}}$), afin de bien séparer les usages. 
+Grâce à cette méthode, Bob peut utiliser une multitude d'adresses statiques ($B_1$, $B_2$, $B_3$...), toutes dérivées depuis son adresse statique de base ($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$), afin de bien séparer les usages. 
 
 Attention toutefois, cette séparation des adresses statiques vaut uniquement d'un point de vue de gestion personnelle du portefeuille, mais ne permet pas de séparer les identités. Puisqu'elles disposent toutes du même $B_{\text{scan}}$, il est très facile d'associer toutes les adresses statiques ensemble et de déduire qu'elles appartiennent à une unique entité.
 
@@ -2409,15 +2409,15 @@ spend : m / 352' / 0' / 0' / 0' / 0
 
 Une fois que l'on dispose de ces 2 paires de clés, il suffit de les concaténer (mettre bout-à-bout) pour créer la charge utile de l'adresse statique : 
 
-$$B = B_{\text{scan}} \, \| \, B_{\text{spend}}$$
+$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
 
 Si l'on souhaite utiliser des labels, on va remplacer $B_{\text{spend}}$ par $B_m$ : 
 
-$$B = B_{\text{scan}} \, \| \, B_m$$
+$$ B = B_{\text{scan}} \text{ ‖ } B_m $$
 
 Avec le label $m$ :
 
-$$ B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \, \| \, m) \cdot G $$
+$$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
 
 Une fois que l'on dispose de cette charge utile, il faut y ajouter le HRP (*Human-Readable Part*) `sp` et la version `q` (= version 0). On ajoute également une checksum et on formate l'adresse en bech32m.
 

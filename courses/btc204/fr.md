@@ -2177,7 +2177,7 @@ Pour y parvenir, nous allons légèrement modifier le calcul que réalise Alice 
 
 Pour modifier le calcul et obtenir 2 adresses différentes, il suffit d'ajouter un entier qui vienne modifier le résultat. Ainsi, Alice va ajouter $0$ dans son calcul pour obtenir l'adresse $P_0$ et $1$ pour obtenir l'adresse $P_1$. Appelons cet entier $i$ :
 
-$$ P_i = B + \text{hash}(a \cdot B \, \| \, i) \cdot G $$
+$$ P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G $$
 
 Le processus de calcul reste inchangé par rapport à la méthode précédente, à l'exception que cette fois-ci Alice va concaténer $a \cdot B$ avec $i$ avant de procéder au hachage. Il suffit ensuite de modifier $i$ pour avoir une nouvelle adresse appartenant à Bob. Par exemple :
 
@@ -2233,7 +2233,7 @@ $$ \text{input\_hash} = \text{hash}(\text{outpoint} \, \| \, A) $$
 
 Et cette référence à l'input, Alice va l'ajouter dans son calcul de l'adresse unique $P_0$ :
 
-$$ P_0 = B + \text{hash}(\text{input\_hash} \cdot a \cdot B \, \| \, 0) \cdot G $$
+$$ P_0 = B + \text{hash}(\mathrm{input\_hash} \cdot a \cdot B \text{ ‖ } 0) \cdot G $$
 
 Lors de son scanning, Bob peut également ajouter $\text{input\_hash}$, puisqu'il lui suffit d'observer la transaction pour déduire $\text{outpoint}$ :
 
@@ -2260,7 +2260,7 @@ $$
 
 Pour le moment, nos calculs supposent qu'Alice utilise un unique input pour sa transaction. Cependant, elle devrait être capable d'utiliser plusieurs inputs. En conséquence, du côté de Bob, pour chaque transaction comportant plusieurs inputs, il devrait théoriquement calculer l'ECDH pour chaque input afin de déterminer si un paiement lui est destiné. Cette méthode n'est pas satisfaisante, il faut donc trouver une solution pour réduire la charge de travail !
 
-### Tweaker les clés publiques
+### Tweaker les clés publiques en inputs
 
 Pour résoudre ce problème, au lieu d'utiliser la paire de clés sécurisant un input spécifique du côté d'Alice, nous allons utiliser la somme de toutes les paires de clés utilisées dans les inputs de la transaction. Cette somme sera alors considérée comme une nouvelle paire de clés. C'est une technique connue sous le nom de "tweak".
 

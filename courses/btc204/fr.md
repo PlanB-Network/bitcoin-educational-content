@@ -1094,7 +1094,17 @@ Ce taux est énorme, mais il provient en très grande majorité des plateformes 
 
 ### Comment éviter la réutilisation d'adresse ?
 
+Éviter la réutilisation d'adresse est assez simple : **il suffit d'utiliser une nouvelle adresse vierge pour tout nouveau paiement entrant vers son portefeuille**.
 
+Grâce au BIP32, les portefeuilles modernes sont désormais déterministes et hiérarchiques. Cela signifie qu'un utilisateur peut générer un grand nombre d'adresses à partir d'une seule information initiale : la graine. En sauvegardant cette seule information, il est possible de restaurer toutes les clés privées du portefeuille, permettant ainsi d'accéder aux fonds sécurisés par les adresses correspondantes.
+
+![BTC204](assets/notext/41/03.webp)
+
+C'est pourquoi, lorsque vous appuyez sur le bouton "*recevoir*" dans votre logiciel de portefeuille, une adresse de réception inutilisée vous est proposée à chaque fois. Après avoir reçu des bitcoins sur cette adresse, le logiciel vous en suggère automatiquement une nouvelle.
+
+> *PS : Récemment, certains logiciels de portefeuille ont annoncé leur intention de cesser de générer des adresses vierges, craignant que cela soit perçu comme une forme de blanchiment d'argent par les autorités. Si votre logiciel fait partie de ceux-là, je vous conseille vivement de le remplacer immédiatement, car ce n'est pas acceptable pour l'utilisateur.*
+
+Si vous avez besoin d'un identifiant statique pour recevoir des paiements, comme pour recevoir des donations par exemple, il est déconseillé d'utiliser une adresse Bitcoin classique en raison du risque de réutilisation d'adresse. Privilégiez l'utilisation d'une adresse Lightning, ou bien pour un identifiant de paiement statique onchain, vous pouvez opter pour le BIP47 ou les Silent Payments. Le fonctionnement de ces protocoles est détaillé dans la partie 6 de cette formation.
 
 ## L'étiquetage et le contrôle des pièces
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>

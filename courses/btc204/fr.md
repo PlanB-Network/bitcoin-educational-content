@@ -2233,7 +2233,7 @@ $$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
 
 Et cette référence à l'input, Alice va l'ajouter dans son calcul de l'adresse unique $P_0$ :
 
-$$  P_0 = B + \text{hash}(\operatorname{inputHash} \cdot a \cdot B \text{‖} 0) \cdot G  $$
+$$  P_0 = B + \text{hash}(\text{inputHash} \cdot a \cdot B \text{ ‖ } 0) \cdot G  $$
 
 Lors de son scanning, Bob peut également ajouter $\text{inputHash}$, puisqu'il lui suffit d'observer la transaction pour déduire $\text{outpoint}$ :
 
@@ -2283,7 +2283,7 @@ $$  A = A_0 + A_1 + A_2  $$
 
 Grâce à cette méthode, Bob doit seulement calculer la somme des clés publiques de la transaction, puis calculer le secret ECDH à partir de $A$ seulement, ce qui réduit grandement le nombre de calculs à réaliser pour l'étape du scanning.
 
-Cependant, rappelez-vous de la section précédente. Nous avions ajouté dans notre calcul le hachage $\text{inputHash}$ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
+Cependant, rappelez vous de la section précédente. Nous avions ajouté dans notre calcul le hachage $\text{inputHash}$ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
 
 $$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
 
@@ -2366,7 +2366,7 @@ $$   P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}}
 
 Ensuite, il va simplement soustraire la valeur qu'il trouve pour $P_0$ de chaque output un à un. Il vérifie ensuite si un des résultats de ces soustractions correspond à la valeur d'un des labels qu'il utilise sur son portefeuille. Si ça matche par exemple pour l'output #4 avec le label $1$, cela veut dire que cet output est un Silent Payment associé à son adresse statique labelisée $B_1$ :
 
-$$  \text{output}_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
+$$\text{output}_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G$$
 
 Cela fonctionne, car :
 

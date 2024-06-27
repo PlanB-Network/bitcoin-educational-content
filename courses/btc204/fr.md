@@ -2233,7 +2233,7 @@ $$ \text{input\_hash} = \text{hash}(\text{outpoint} \, \| \, A) $$
 
 Et cette référence à l'input, Alice va l'ajouter dans son calcul de l'adresse unique $P_0$ :
 
-$$ P_0 = B + \text{hash}(\mathrm{input\_hash} \cdot a \cdot B \text{ ‖ } 0) \cdot G $$
+$$ P_0 = B + \text{hash}(\operatorname{input\_hash} \cdot a \cdot B \text{‖} 0) \cdot G $$
 
 Lors de son scanning, Bob peut également ajouter $\text{input\_hash}$, puisqu'il lui suffit d'observer la transaction pour déduire $\text{outpoint}$ :
 

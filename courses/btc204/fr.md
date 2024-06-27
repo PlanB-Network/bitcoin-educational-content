@@ -991,7 +991,82 @@ ___
 ## La réutilisation d'adresse
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-Ce Chapitre est en cours d'écriture, et sera publié prochainement !
+Après avoir étudié les techniques qui permettent de casser votre confidentialité sur Bitcoin, dans cette troisième partie, nous allons dorénavant voir les bonne pratiques à adopter pour s'en protéger. Cette partie ne vise pas à explorer les méthodes d'amélioration de la confidentialité, sujet qui sera traité plus loin, mais plutôt à comprendre comment interagir correctement avec Bitcoin pour conserver la confidentialité qu'il offre naturellement, sans recourir à des techniques supplémentaires.
+
+Évidemment, pour commencer cette troisième partie, nous allons parler de la réutilisation d'adresse. Ce phénomène constitue la principale menace pour la confidentialité des utilisateurs. Ce chapitre est donc sûrement le plus important de toute la formation.
+
+### C'est quoi une adresse de réception ?
+
+Une adresse de réception Bitcoin est une chaîne de caractère ou un identifiant utilisé pour recevoir des bitcoins sur un portefeuille. 
+
+Techniquement, une adresse de réception Bitcoin ne permet pas de "recevoir" des bitcoins au sens propre, mais sert plutôt à définir les conditions sous lesquelles les bitcoins peuvent être dépensés. Concrètement, lorsqu'un paiement vous est envoyé, la transaction de l'envoyeur crée un nouvel UTXO qui vous est destiné en output à partir des UTXOs qu'il a consommés en inputs. Sur cet output, il appose un script définissant comment cet UTXO peut être dépensé ultérieurement. Ce script est connu sous le nom de "_ScriptPubKey_" ou "_Locking Script_". Votre adresse de réception, plus précisément sa charge utile (*payload*), est intégrée dans ce script. Pour vulgariser, ce script stipule essentiellement :
+
+> "*Pour dépenser ce nouvel UTXO, il faut fournir une signature numérique à l'aide de la clé privée associée à cette adresse de réception.*"
+
+![BTC204](assets/notext/41/01.webp)
+
+Les adresses Bitcoin se déclinent en différents types selon le modèle de script utilisé. Les premiers modèles, dits "*Legacy*", incluent les adresses `P2PKH` (*Pay-to-PubKey-Hash*) et `P2SH` (*Pay-to-Script-Hash*). Les adresses P2PKH commencent toujours par `1` et les P2SH par `3`. Bien qu'encore sécurisés, ces formats sont aujourd'hui obsolètes, car ils entraînent des frais de transaction plus élevés et offrent une confidentialité moindre par rapport aux nouveaux standards.
+
+Les adresses SegWit V0 (`P2WPKH` et `P2WSH`) et Taproot / SegWit V1 (`P2TR`) représentent les formats modernes. Les adresses SegWit commencent par `bc1q` et les adresses Taproot, introduites en 2021, commencent par `bc1p`.
+
+Par exemple, voici une adresse de réception Taproot :
+
+```text
+bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
+```
+
+La manière dont le ScriptPubKey est construit va dépendre du standard que vous utilisez :
+
+| Modèle de script | ScriptPubKey                                                |
+| ---------------- | ----------------------------------------------------------- |
+| P2PKH            | OP_DUP OP_HASH160 `<pubKeyHash>` OP_EQUALVERIFY OP_CHECKSIG |
+| P2SH             | OP_HASH160 `<scriptHash>` OP_EQUAL                          |
+| P2WPKH           | 0 `<pubKeyHash>`                                            |
+| P2WSH            | 0 `<witnessScriptHash>`                                     |
+| P2SH - P2WPKH    | OP_HASH160 `<redeemScriptHash>` OP_EQUAL                    |
+| P2SH - P2WSH     | OP_HASH160 `<redeemScriptHash>` OP_EQUAL                    |
+| P2TR             | 1 `<pubKey>`                                                |
+
+Pour ce qui est de la construction des adresses de réception, cela dépend également du modèle de script choisi : 
+- Pour les adresses `P2PKH` et `P2WPKH`, la charge utile, c'est-à-dire le cœur de l'adresse, représente le hachage de la clé publique ;
+- Pour les adresses `P2SH` et `P2WSH`, la charge utile représente le hachage d'un script ;
+- Quant aux adresses `P2TR`, la charge utile est une clé publique tweakée. Les outputs `P2TR` combinent des aspects de _Pay-to-PubKey_ et de _Pay-to-Script_. La clé publique tweakée est le résultat de l'addition d'une clé publique de dépense classique avec un "tweak", dérivé de la racine de Merkle d'un ensemble de scripts pouvant aussi être utilisés pour dépenser les bitcoins.
+
+![BTC204](assets/fr/73/01.webp)
+
+Les adresses affichées sur vos logiciels de portefeuille incluent aussi un HRP (_Human-Readable Part_), typiquement `bc` pour les adresses post-SegWit, un séparateur `1`, et un numéro de version `q` pour SegWit V0 et `p` pour Taproot/SegWit V1. Une somme de contrôle est également ajoutée pour garantir l'intégrité et la validité de l'adresse lors de sa transmission.
+
+Pour finir, les adresses sont mises dans un format standard :
+- Base58check pour les vieilles adresses Legacy ;
+- Bech32 pour les adresses SegWit ;
+- Bech32m pour les adresses Taproot.
+
+Voici la matrice d’addition pour les formats bech32 et bech32m (SegWit et Taproot) depuis la base 10 :
+
+| +   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | q   | p   | z   | r   | y   | 9   | x   | 8   |
+| 8   | g   | f   | 2   | t   | v   | d   | w   | 0   |
+| 16  | s   | 3   | j   | n   | 5   | 4   | k   | h   |
+| 24  | c   | e   | 6   | m   | u   | a   | 7   | l   |
+
+### C'est quoi la réutilisation d'adresse ?
+
+
+
+### En quoi la réutilisation d'adresse est un problème ?
+
+
+
+
+
+
+
+### Comment éviter la réutilisation d'adresse ?
+
+
+
+
 
 
 

@@ -1052,7 +1052,11 @@ Voici la matrice d’addition pour les formats bech32 et bech32m (SegWit et Tapr
 
 ### C'est quoi la réutilisation d'adresse ?
 
+La réutilisation d'adresse est le fait d'utiliser une même adresse de réception pour bloquer plusieurs UTXOs différents.
 
+Comme nous l'avons vu dans la section précédente, chaque UTXO dispose de son propre ScriptPubKey qui le verrouille et doit obligatoirement être satisfait pour que l'UTXO soit consommé en input dans une nouvelle transaction. C'est au sein de ce ScriptPubKey que sont intégrées les adresses de réception (charge utile).
+
+Lorsque différents ScriptPubKey contiennent la même adresse de réception, il s'agit d'une réutilisation d'adresse. En pratique, cela signifie qu'un utilisateur a fourni plusieurs fois la même adresse à des envoyeurs pour recevoir des bitcoins via plusieurs paiements.
 
 ### En quoi la réutilisation d'adresse est un problème ?
 

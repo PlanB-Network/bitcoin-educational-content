@@ -1189,9 +1189,15 @@ Finalement, pour bien choisir quels UTXOs consommer en inputs d'une transaction,
 
 ### Comprendre la sélection automatique des pièces
 
+Dans les sections précédentes, nous avons abordé la sélection manuelle des UTXOs à utiliser pour une transaction. Mais que se passe-t-il lorsque le logiciel de portefeuille effectue cette sélection automatiquement ? Plusieurs méthodes existent pour déterminer les pièces à consommer, et la sélection des UTXOs constitue un véritable champ de recherche sur Bitcoin. L'objectif principal de ce processus automatique est souvent de minimiser les frais de transaction pour l'utilisateur.
 
+Les méthodes de sélection d'UTXOs telles que le FIFO (*First In First Out*) et le LIFO (*Last In First Out*) sont parmi les plus simples, mais aussi les moins efficaces. Avec le FIFO, les pièces les plus anciennes du portefeuille sont utilisées en priorité. Cette approche est généralement peu efficace tant pour minimiser les frais de transaction que pour préserver la confidentialité, à l'exception des cas où des timelocks relatifs sont utilisés et doivent être renouvelés régulièrement. À l'inverse, le LIFO priorise l'utilisation des UTXOs les plus récents. Ces deux méthodes, bien que simples, s'avèrent souvent inefficaces.
 
+Une méthode plus évoluée est celle du *Knapsack Solver*. C'est celle qui était utilisée sur le portefeuille Bitcoin Core jusqu'à la version 0.17. Elle consiste à sélectionner de manière itérative et aléatoire des UTXOs dans le portefeuille, en les additionnant par sous-ensembles, et à garder la solution qui réduit le plus possible le poids de la transaction, afin de réduire les frais pour l'utilisateur.
 
+Le *Branch-and-Bound* (BNB), souvent surnommé "algorithme de Murch" en référence à son inventeur, a remplacé le *Knapsack Solver* dans Bitcoin Core à partir de la version 0.17. Cette méthode plus avancée vise à trouver un ensemble d'UTXOs qui correspond exactement au montant nécessaire pour satisfaire les outputs d'une transaction. L'objectif du BNB est de minimiser le montant du change ainsi que les frais, en réduisant ce qu'on appelle le critère de gaspillage qui prend en compte à la fois les coûts immédiats et les coûts futurs prévus pour le change. Cette méthode est dérivée du concept original de *Branch-and-Bound*, conçu en 1960 par Ailsa Land et Alison Harcourt, et offre une optimisation plus précise des frais comparée au *Knapsack Solver*.
+
+Toutes ces méthodes de sélection automatique des UTXOs peuvent être efficaces pour réduire les frais de transaction, mais elles sont souvent inefficaces pour préserver la confidentialité de l'utilisateur. En effet, ces algorithmes peuvent fusionner plusieurs UTXOs en inputs, révélant ainsi une propriété commune de ces UTXOs à cause de la CIOH. Évidemment, ces méthodes ne peuvent pas prendre en compte les étiquettes apposées sur les UTXOs, qui sont pourtant cruciales pour choisir consciemment les pièces à révéler au destinataire de la transaction. Actuellement, la seule solution pour optimiser sa confidentialité lors de la sélection des pièces est donc de le faire manuellement.
 
 ### Tutoriel sur l'étiquetage des UTXOs
 

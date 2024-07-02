@@ -1,0 +1,13 @@
+question: Comment sont utilisées les adresses pour verrouiller des UTXOs ?
+
+answer: Elles sont intégrées dans le ScriptPubKey
+
+wrong_answers:
+  - Elles sont intégrées dans le ScriptSig
+  - Elles sont intégrées dans la coinbase.
+  - Elles sont intégrées nulle part.
+
+explanation: |
+  Lorsqu'on effectue un paiement, la transaction crée un nouvel UTXO en output à partir des UTXOs consommés en inputs. Sur cet output, on appose un script définissant comment cet UTXO peut être dépensé ultérieurement. Ce script est connu sous le nom de ScriptPubKey. L'adresse de réception est intégrée dans ce script.
+
+reviewed: false

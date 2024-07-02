@@ -1109,11 +1109,101 @@ Si vous avez besoin d'un identifiant statique pour recevoir des paiements, comme
 ## L'étiquetage et le contrôle des pièces
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+Comme nous avons pu le découvrir dans la partie sur l'analyse de chaîne, il existe une multitude d'heuristiques et de patterns qui peuvent être utilisés pour déduire des informations sur une transaction. En tant qu'utilisateur, il est important d'avoir connaissance de ces techniques pour mieux s'en protéger.
 
-Ce Chapitre est en cours d'écriture, et sera publié prochainement !
+Cela implique notamment une gestion rigoureuse de votre portefeuille en self-custody, ce qui passe par la connaissance de l'origine de vos UTXOs, ainsi que par une sélection réfléchie des UTXOs à consommer lors de paiements. Cette gestion efficace du portefeuille s'appuie sur deux fonctionnalités importantes des bons portefeuilles Bitcoin : l'étiquetage et le coin control.
 
-## La consolidation, la gestion des UTXO et la CIOH
+Dans ce chapitre, nous allons étudier ces fonctionnalités et voir comment vous pourriez les utiliser intelligemment, sans vous ajouter trop de charge de travail, afin d'optimiser fortement votre confidentialité sur Bitcoin.
+
+### C'est quoi l'étiquetage ?
+
+Le labelling est une pratique qui consiste à attribuer une annotation ou une étiquette à un UTXO spécifique dans un portefeuille Bitcoin. Ces annotations sont stockées localement par le logiciel de portefeuille et ne sont jamais transmises sur le réseau Bitcoin. Le labelling est donc un outil de gestion personnel.
+
+Par exemple, si je possède un UTXO provenant d'un achat P2P sur Bisq avec Charles, je pourrais lui attribuer l'étiquette "`Non-KYC Bisq Charles`". 
+
+L'étiquetage est une bonne pratique qui aide à se rappeler l'origine ou la destination prévue d'un UTXO, ce qui facilite donc la gestion des fonds et l'optimisation de la confidentialité. En effet, votre portefeuille Bitcoin sécurise sûrement plusieurs UTXOs. Si les sources de ces UTXOs sont différentes, vous allez peut-être ne pas vouloir fusionner ces UTXOs dans le futur, sans quoi vous pourriez révéler leur possession commune. En étiquetant proprement toutes vos pièces, vous vous assurez de vous souvenir de leur origine au moment où vous aurez besoin de les utiliser, même si cela n'arrive que dans plusieurs années.
+
+### C'est quoi le coin control ?
+
+L'utilisation active du labelling devient encore plus intéressante lorsqu'elle est couplée avec une option de coin control sur votre logiciel de portefeuille. 
+
+Le coin control est une fonctionnalité présente dans les bons logiciels de portefeuille Bitcoin, qui vous donne la capacité de sélectionner manuellement les UTXOs spécifiques à utiliser en tant qu'inputs pour effectuer une transaction. En effet, pour pouvoir satisfaire un paiement en output, il faut consommer un UTXO en input en contrepartie. Pour plusieurs raisons que nous allons voir plus loin, vous avez peut-être envie de choisir précisément quelles pièces consommer en inputs pour satisfaire un paiement donné. C'est exactement ce que vous permet de faire le coin control. Pour vous donner une analogie, cette fonctionnalité est similaire à l'action de choisir une pièce spécifique dans votre porte-monnaie lorsque vous payez votre baguette. 
+
+01
+
+L'utilisation d'un logiciel de portefeuille avec du coin control, couplé à l'étiquetage des UTXOs, permet aux utilisateurs à la fois de distinguer et de sélectionner avec précision les UTXOs pour leurs transactions.
+
+### Comment bien étiqueter ses UTXOs ?
+
+Il n'y a pas de méthode universelle pour l'étiquetage des UTXOs qui puisse convenir à tous. C'est à vous de définir un système d'étiquetage pour que vous puissiez facilement vous y retrouver sur votre portefeuille. Dans tous les cas, gardez à l'esprit qu'un bon étiquetage est un étiquetage que vous pourrez comprendre lorsque vous en aurez besoin. Si votre portefeuille Bitcoin est principalement destiné à l'épargne, il se peut que les étiquettes ne vous soient utiles que dans plusieurs décennies. Assurez-vous donc qu'elles soient claires, précises et exhaustives. 
+
+Il est important que vos proches puissent facilement identifier l'origine des fonds si, un jour, ils doivent accéder à votre portefeuille. Cela pourra les aider tant pour des raisons de confidentialité que pour des nécessités légales, dans l'éventualité où ils auraient à justifier la provenance des fonds devant une autorité.
+
+Le plus important dans l'étiquetage est de noter la source de l'UTXO. Vous devriez simplement indiquer la manière dont cette pièce est parvenue dans votre portefeuille. Est-elle issue d'un achat sur une plateforme d'échange ? D'un règlement de facture par un client ? D'un échange pair-à-pair ? Ou bien représente-t-elle le change d'une dépense ? Ainsi, vous pourriez spécifier :
+- `Retrait Exchange.com` ;
+- `Paiement Client David` ;
+- `Achat P2P Charles` ;
+- `Change achat canapé`
+
+02
+
+Pour affiner votre gestion des UTXOs et respecter vos stratégies de ségrégation de fonds au sein de votre portefeuille, vous pourriez enrichir vos étiquetages d'un indicateur supplémentaire qui reflète ces séparations. Si votre portefeuille contient deux catégories d'UTXO que vous tenez à ne pas mélanger, vous pourriez intégrer un marqueur dans vos étiquettes pour distinguer clairement ces groupes. Ces marqueurs de séparation dépendront de vos propres critères, comme par exemple, la distinction entre des UTXOs issus d'un processus d'acquisition qui implique un KYC, ou bien entre des fonds professionnels et personnels. En reprenant les exemples d'étiquettes mentionnés précédemment, cela pourrait se traduire par :
+- `KYC - Retrait Exchange.com` ;
+- `KYC - Paiement Client David` ;
+- `NO KYC - Achat P2P Charles` ;
+- `NO KYC - Change achat canapé`
+
+03
+
+Il est également conseillé de perpétuer l'étiquetage d'une pièce au fil des transactions. Par exemple, lors d'une consolidation d'UTXO no-KYC, assurez-vous de marquer l'UTXO résultant non pas seulement comme `consolidation`, mais spécifiquement comme `consolidation no-KYC` pour conserver une trace claire de la provenance des pièces.
+
+Enfin, il n'est pas obligatoire de mettre une date sur une étiquette. La plupart des logiciels de portefeuilles affichent déjà la date de transaction, et il est toujours possible de retrouver cette information sur un explorateur de blocs grâce à son TXID.
+
+### Comment bien choisir ses pièces ?
+
+Lorsque vous effectuez une transaction, le coin control vous permet de choisir spécifiquement quels UTXOs consommer en inputs pour satisfaire l'output du paiement. Deux aspects sont à considérer lors de ce choix :
+- La possibilité pour le destinataire du paiement de lier une part de votre identité aux UTXOs utilisés en inputs ;
+- La capacité d'un observateur externe à établir des liens entre tous les UTXOs consommés en inputs.
+
+Pour illustrer le premier point, prenons un exemple concret. Supposons que vous achetiez une baguette en bitcoins chez votre boulanger. Vous utilisez un ou plusieurs UTXOs que vous détenez en inputs pour satisfaire au minimum le prix de la baguette en outputs, ainsi que les frais de transaction. Votre boulanger pourrait alors potentiellement associer votre visage, ou toute autre partie de votre identité qu'il connaît, aux pièces utilisées en inputs. En connaissant l'existence de ce lien, vous allez peut-être préférer choisir un UTXO spécifique plutôt qu'un autre lors du paiement.
+
+04
+
+Par exemple, si l'un de vos UTXOs provient d'une plateforme d'échange et que vous préférez que le boulanger ignore l'existence de votre compte sur cette plateforme, vous éviterez d'utiliser cet UTXO pour le paiement. Si vous possédez un UTXO de grande valeur qui révèle une quantité importante de bitcoins, vous pourriez également choisir de ne pas l'utiliser pour éviter que le boulanger ne prenne connaissance de votre fortune en BTC.
+
+Le choix des UTXOs à utiliser pour ce premier point repose donc sur une décision personnelle, influencée par ce que vous êtes prêt à révéler ou non. Les étiquettes que vous avez attribuées à vos UTXOs lors de leur réception vous aideront à sélectionner ceux qui, une fois dépensés, n'exposent que des informations que vous êtes à l'aise de révéler au destinataire.
+
+Au-delà des informations potentiellement révélées au destinataire, le choix des inputs influence également ce que vous dévoilez à tous les observateurs de la blockchain. En effet, en utilisant plusieurs UTXOs en entrée de votre transaction, vous révélez qu'ils sont possédés par la même entité, selon l'heuristique de la CIOH (_Common Input Ownership Heuristic_).
+
+05
+
+Lorsque vous sélectionnez vos pièces, vous devez donc être conscient que la transaction que vous vous apprêtez à diffuser va créer un lien entre tous les UTXOs utilisés. Ce lien peut être problématique pour votre confidentialité personnelle, surtout si les UTXOs proviennent de sources différentes.
+
+06
+
+Reprenons l'exemple de mon UTXO no-KYC issu de Bisq ; je souhaite éviter de le combiner avec un UTXO provenant, disons, d'une plateforme d'échange réglementée connaissant mon identité. En effet, si jamais j'utilise ces 2 UTXOs en input d'une même transaction, la plateforme régulée sera en capacité de lier mon identité avec l'UTXO que j'ai acheté sur Bisq, alors que celui-ci n'était pas lié à mon identité auparavant.
+
+07
+
+Finalement, pour bien choisir quels UTXOs consommer en inputs d'une transaction, le plus important est d'éviter d'utiliser plusieurs UTXOs. Au maximum, lorsque vous le pouvez, sélectionnez une seule pièce suffisamment grande pour satisfaire votre paiement. De cette manière, vous évitez complètement les risques liés à la CIOH. Cependant, si aucun UTXO individuel n'est suffisant pour le paiement et que vous devez en consommer plusieurs, assurez-vous qu'ils proviennent de sources similaires pour minimiser les risques de liens indésirables. Gardez également à l'esprit que le destinataire pourrait associer les informations qu'il détient sur vous avec l'historique des pièces utilisées en inputs.
+
+### Comprendre la sélection automatique des pièces
+
+
+
+
+
+### Tutoriel sur l'étiquetage des UTXOs
+
+Si vous souhaitez découvrir comment apposer une étiquette sur vos UTXOs, nous avons fait un tutoriel complet sur les principaux logiciels de portefeuille Bitcoin existants. Retrouvez-le [en cliquant ici](https://planb.network/tutorials/privacy/utxo-labelling).
+
+## La consolidation, la gestion des UTXOs et la CIOH
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
+
+
+
+Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Common Input Ownership Heuristic*), qui permet d'émettre l'hypothèse que toutes les entrées d'une transaction Bitcoin appartiennent à une même entité.
+
 
 
 Ce Chapitre est en cours d'écriture, et sera publié prochainement !
@@ -1324,6 +1414,11 @@ Plusieurs plateformes qui ne demandent pas de procédure KYC offrent la possibil
 __
 
 *Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
+
+## Tromper les heuristiques d'analyse
+<chapterId>36c09488-f021-44ad-bd83-89955f2886f0</chapterId>
+
+
 
 # Comprendre les transactions coinjoin
 <partId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</partId>

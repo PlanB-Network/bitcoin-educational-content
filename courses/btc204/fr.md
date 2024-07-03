@@ -1412,10 +1412,29 @@ Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Com
 
 ### La consolidation, la gestion des UTXOs et la CIOH
 
+
+
 ### Le nœud complet
+
+
 
 ### Tromper les heuristiques d'analyse
 
+Plus largement, il est important de comprendre les heuristiques dont nous avons parlé dans la partie précédente, afin de mieux les éviter ou les tromper. Adopter une série de bonnes pratiques peut s'avérer bénéfique, même si elles ne sont pas indispensables. Elles offrent une couche supplémentaire de protection qui peut s'avérer importante pour maintenir une bonne confidentialité lors de votre utilisation de Bitcoin.
+
+Le premier conseil que je pourrais donner est de vous fondre dans la foule la plus dense. Sur Bitcoin, cela implique d'utiliser les modèles de scripts les plus adoptés. Par exemple, les scripts P2WSH, souvent utilisés pour les configurations multisig SegWit V0, sont très peu fréquents. Ils ne vous permettent pas de vous cacher dans un grand ensemble d'anonymat. C'est pareil pour les vieux modèles comme P2PKH ou P2SH. Bien qu'ils soient largement présents dans l'UTXO set, ils sont de moins en moins utilisés pour les nouvelles transactions. 
+
+De manière générale, il est plus prudent de se tourner vers le standard de script le plus récent, à condition qu'il soit suffisamment adopté. Ainsi, si en 2022 je vous aurais déconseillé d'utilisé du P2TR (Taproot) du fait de sa faible adoption, en 2024, je vous recommanderais plutôt d'opter pour ce type de script, ou à défaut, pour du script SegWit V0, car le nombre de transactions utilisant P2TR commence à représenter une part très importante.
+
+schema
+
+Un autre conseil pour préserver votre confidentialité est d'essayer de contourner les heuristiques internes des transactions. Par exemple, lors d'un paiement, vous pouvez essayer d'éviter de créer un output avec un montant rond, car cela pourrait signaler que l'autre output représente le change. Si vous devez envoyer 100k sats à un ami, envisagez de lui transférer un montant légèrement supérieur pour échapper à cette heuristique. De même, essayez de ne pas créer des outputs de change disproportionnément élevés par rapport au paiement effectué, ce qui pourrait aussi révéler lequel des outputs représente le change.
+
+schema
+
+Enfin, si vous effectuez des transactions Bitcoin de manière régulière, veillez à ne pas les diffuser toujours aux mêmes heures. En répartissant la diffusion de vos transactions tout au long de la journée et de la semaine, vous évitez de donner aux observateurs externes la possibilité de déceler un modèle temporels basé sur les fuseaux horaires qui pourrait renforcer leur analyse.
+
+Au-delà de toutes ces bonnes pratiques à adopter au quotidien, il existe des méthodes encore plus efficaces pour briser complètement la traçabilité de vos bitcoins. Parmi elles, il y a évidemment les transactions coinjoin que nous allons étudier en profondeur dans la partie suivante.
 
 # Comprendre les transactions coinjoin
 <partId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</partId>

@@ -4,7 +4,7 @@ description: How to make a Payjoin transaction on Sparrow Wallet?
 ---
 ![tutorial cover image sparrow payjoin](assets/cover.webp)
 
-***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, **Payjoins are no longer operational on Sparrow Wallet**, and Stowaway on Samourai Wallet only works by manually exchanging PSBTs between involved parties, provided that both users are connected to their own Dojo. However, it is possible that these tools could be relaunched in the coming weeks. In the meantime, you can still consult this article to understand the theoretical operation of payjoins.*
+_**WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24, Payjoins Stowaway on Samourai Wallet now only work by manually exchanging PSBT between the involved parties, provided both users are connected to their own Dojo. As for Sparrow, Payjoins via BIP78 still work. However, these tools may be restarted in the coming weeks. In the meantime, you can always read this article to understand the theoretical functioning of payjoins._
 
 _We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
 

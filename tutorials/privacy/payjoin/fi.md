@@ -4,7 +4,7 @@ description: Mikä on Payjoin Bitcoinissa?
 ---
 ![Payjoin-esikatselukuva - steganografia](assets/cover.webp)
 
-***VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta Payjoinit eivät ole enää toiminnassa Sparrow Walletissa, ja Stowaway toimii Samourai Walletissa vain manuaalisesti vaihtamalla PSBT-tiedostoja osallistuvien osapuolten kesken, edellyttäen, että molemmat käyttäjät ovat yhdistettyinä omaan Dojoonsa. On kuitenkin mahdollista, että nämä työkalut saatetaan käynnistää uudelleen tulevina viikkoina. Sillä välin voit silti tutustua tähän artikkeliin ymmärtääksesi payjoinien teoreettisen toiminnan.*
+***HUOMIO:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, Payjoins Stowaway Samourai Walletissa toimii vain, kun PSBT:t vaihdetaan manuaalisesti asianomaisten osapuolten välillä, edellyttäen, että molemmat käyttäjät ovat yhteydessä omaan Dojoonsa. Sparrowin osalta Payjoins BIP78:n kautta toimivat edelleen. On kuitenkin mahdollista, että nämä työkalut käynnistetään uudelleen tulevien viikkojen aikana. Sillä välin voit lukea tämän artikkelin ymmärtääksesi payjoinien teoreettisen toiminnan.*
 
 _Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän oppaan, kun uutta tietoa tulee saataville._
 

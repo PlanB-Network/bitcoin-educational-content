@@ -5,7 +5,7 @@ description: Làm thế nào để thực hiện giao dịch Payjoin trên Sparr
 
 ![hình ảnh hướng dẫn về sparrow payjoin](assets/cover.webp)
 
-***CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Samourai Wallet và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, **Payjoins không còn hoạt động trên Sparrow Wallet**, và Stowaway trên Samourai Wallet chỉ hoạt động bằng cách trao đổi PSBT giữa các bên liên quan một cách thủ công, miễn là cả hai người dùng đều kết nối với Dojo của riêng họ. Tuy nhiên, có khả năng những công cụ này có thể được khởi động lại trong những tuần tới. Trong thời gian chờ đợi, bạn vẫn có thể tham khảo bài viết này để hiểu về cơ chế hoạt động lý thuyết của payjoins.*
+_**CHÚ Ý:** Sau khi những người sáng lập Samourai Wallet bị bắt và máy chủ của họ bị tịch thu vào ngày 24 tháng 4, Payjoins Stowaway trên Samourai Wallet hiện chỉ hoạt động bằng cách trao đổi PSBT thủ công giữa các bên liên quan, với điều kiện cả hai người dùng đều kết nối với Dojo của riêng mình. Đối với Sparrow, Payjoins qua BIP78 vẫn hoạt động. Tuy nhiên, các công cụ này có thể sẽ được khởi động lại trong vài tuần tới. Trong thời gian chờ đợi, bạn luôn có thể đọc bài viết này để hiểu cách thức hoạt động lý thuyết của payjoins._
 
 _Chúng tôi đang chú ý theo dõi sự phát triển của vụ việc này cũng như các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật hướng dẫn này khi có thông tin mới._
 

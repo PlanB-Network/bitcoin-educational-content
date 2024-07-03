@@ -4,7 +4,7 @@ description: Miten tehdään Payjoin-siirto Sparrow Walletissa?
 ---
 ![opetusohjelman kansi kuva sparrow payjoin](assets/cover.webp)
 
-***VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, **Payjoinit eivät ole enää toiminnassa Sparrow Walletissa**, ja Stowaway toimii Samourai Walletissa vain manuaalisesti vaihtamalla PSBT:tä osallistuvien osapuolten kesken, edellyttäen, että molemmat käyttäjät ovat yhteydessä omaan Dojoonsa. On kuitenkin mahdollista, että nämä työkalut saatetaan käynnistää uudelleen tulevina viikkoina. Sillä välin voit silti tutustua tähän artikkeliin ymmärtääksesi payjoinien teoreettisen toiminnan.*
+***HUOMIO:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, Payjoins Stowaway Samourai Walletissa toimii nyt vain manuaalisesti vaihtamalla PSBT osapuolten välillä, edellyttäen, että molemmat käyttäjät ovat yhteydessä omaan Dojoonsa. Sparrow'n osalta Payjoins BIP78 kautta toimivat edelleen. On kuitenkin mahdollista, että nämä työkalut käynnistetään uudelleen tulevina viikkoina. Sillä välin voit aina lukea tämän artikkelin ymmärtääksesi payjoinsin teoreettisen toiminnan.*
 
 _Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän opetusohjelman, kun uutta tietoa tulee saataville._
 

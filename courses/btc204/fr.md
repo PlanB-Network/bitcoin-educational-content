@@ -1408,11 +1408,11 @@ __
 ## La consolidation, la gestion des UTXOs et la CIOH
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
-Une des choses les plus compliquées à gérer lorsque l'on dispose de son propre portefeuille en self-custody est sûrement la consolidation. Faut-il consolider ? À quoi ça sert ? Quelle taille d'UTXO faut-il respecter ? Quels sont les compromis en terme de confidentialité ? C'est ce que nous allons essayer de voir dans cette section.
+Une des choses les plus compliquées à gérer lorsque l'on dispose de son propre portefeuille en self-custody est sûrement la consolidation. Faut-il consolider ? À quoi ça sert ? Quelle taille d'UTXO faut-il respecter ? Quels sont les compromis en termes de confidentialité ? C'est ce que nous allons essayer de voir dans cette section.
 
 ### C'est quoi la consolidation ?
 
-Le fonctionnement de Bitcoin s'apparente à un marché d'enchères où les transactions offrant les meilleures frais sont privilégiées par les mineurs. Cependant, chaque bloc a un poids maximal, ce qui limite le nombre de transactions pouvant être incluses. Comme un bloc est produit en moyenne toutes les 10 minutes, l'espace disponible dans chaque bloc est une ressource rare.
+Le fonctionnement de Bitcoin s'apparente à un marché d'enchères où les transactions offrant les meilleurs frais sont privilégiées par les mineurs. Cependant, chaque bloc a un poids maximal, ce qui limite le nombre de transactions pouvant être incluses. Comme un bloc est produit en moyenne toutes les 10 minutes, l'espace disponible dans chaque bloc est une ressource rare.
 
 Les mineurs, dont l'activité engendre des coûts significatifs en électricité, en immobilisations et en maintenance, cherchent naturellement à maximiser leur rentabilité. Ils tendent donc à privilégier les transactions qui leur rapportent le plus de frais relativement à leur poids.
 
@@ -1470,7 +1470,7 @@ Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Com
 
 ![BTC204](assets/notext/45/04.webp)
 
-Concrètement, cela veut dire qu'un observateur extérieur pour savoir que tous les UTXOs fusionnés appartiennent vraisemblablement à la même personne et que l'output appartient toujours à cette même personne. C'est évidemment problématique pour votre confidentialité, car vous allez faire un lien entre différents historiques. Par exemple, si imaginons que je consolide 3 UTXOs achetés en P2P et avec un UTXO acheté sur une plateforme via un processus de KYC.
+Concrètement, cela veut dire qu'un observateur extérieur pour savoir que tous les UTXOs fusionnés appartiennent vraisemblablement à la même personne et que l'output appartient toujours à cette même personne. C'est évidemment problématique pour votre confidentialité, car vous allez faire un lien entre différents historiques. Par exemple, imaginons que je consolide 3 UTXOs achetés en P2P et avec un UTXO acheté sur une plateforme via un processus de KYC.
 
 En pratique, cela signifie qu'un observateur extérieur peut déduire que tous les UTXOs consolidés appartiennent vraisemblablement à la même personne et que l'output unique généré lui appartient également. Cette situation peut porter atteinte à votre confidentialité en associant différents historiques de transactions. Par exemple, imaginons que je consolide 3 UTXOs acquis en P2P avec un UTXO obtenu via une plateforme qui requiert un KYC :
 
@@ -1478,9 +1478,9 @@ En pratique, cela signifie qu'un observateur extérieur peut déduire que tous l
 
 En agissant ainsi, toute entité ayant accès aux données de la plateforme d'échange, y compris potentiellement des agences gouvernementales, pourra identifier que je possède d'autres sommes en BTC. Auparavant, ces UTXOs n'étaient pas directement liés à mon identité ; maintenant, ils le sont. De plus, cela révèle à toutes les sources que je suis en possession d'une certaine somme de bitcoins.
 
-Dans la gestion des UTXOs, les considérations économiques, qui poussent à la consolidation pour réduire les frais, entrent donc en conflit avec les besoins de confidentialité, qui recommanderaient de ne jamais fusionner ses UTXOs. Le choix entre économie et confidentialité dépend donc des priorités de chaque utilisateur.
+Dans la gestion des UTXOs, les considérations économiques, qui poussent à la consolidation pour réduire les frais, entrent donc en conflit avec les bonnes pratiques de confidentialité, qui recommanderaient de ne jamais fusionner ses UTXOs. Le choix entre économie et confidentialité dépend donc des priorités de chaque utilisateur.
 
-Si vous pouvez éviter la consolidation tout en maintenant des UTXOs de taille conséquente, c’est l’idéal. Pour cela, optimisez vos méthodes d’acquisition. Si vous achetez vos bitcoins en DCA, essayez d'espacer vos achats ponctuels au maximum afin de regrouper la valeur sur moins d'UTXOs. Il sera plus facile de gérer un achat ponctuel de 1000€ tous les 2 mois, plutôt qu'un achat de 120 € toutes les semaines. Cela permet de minimiser le nombre d’UTXOs générés et simplifie la gestion de votre portefeuille tout en préservant votre confidentialité.
+Si vous pouvez éviter la consolidation tout en maintenant des UTXOs de taille substantielle, c’est l’idéal. Pour cela, optimisez vos méthodes d’acquisition. Si vous achetez vos bitcoins en DCA, essayez d'espacer vos achats ponctuels au maximum afin de regrouper la valeur sur moins d'UTXOs. Il sera plus facile de gérer un achat ponctuel de 1 000 € tous les 2 mois, plutôt qu'un achat de 120 € toutes les semaines. Cela permet de minimiser le nombre d’UTXOs générés et simplifie la gestion de votre portefeuille tout en préservant votre confidentialité.
 
 Si vous vous trouvez dans l'obligation de consolider vos bitcoins, privilégiez d'abord la consolidation d'UTXOs provenant d'une même source. Par exemple, fusionner 10 UTXOs issus d'une seule plateforme affectera moins votre confidentialité que de mélanger 5 UTXOs de la plateforme A avec 5 UTXOs de la plateforme B. Si la consolidation de sources diverses est inévitable, tentez de les séparer selon leurs caractéristiques. Par exemple, regroupez les UTXOs acquis par KYC dans une transaction, et ceux obtenus en P2P dans une autre.
 

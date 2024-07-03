@@ -1405,14 +1405,91 @@ __
 *Pour rédiger ce chapitre, je me suis servi de la formation [BTC205](https://planb.network/fr/courses/btc205) réalisée par [@pivi___](https://x.com/pivi___) sur PlanB Network (disponible uniquement en français pour le moment).*
 
 
+## La consolidation, la gestion des UTXOs et la CIOH
+<chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+Une des choses les plus compliquées à gérer lorsque l'on dispose de son propre portefeuille en self-custody est sûrement la consolidation. Faut-il consolider ? À quoi ça sert ? Quelle taille d'UTXO faut-il respecter ? Quels sont les compromis en terme de confidentialité ? C'est ce que nous allons essayer de voir dans cette section.
+
+### C'est quoi la consolidation ?
+
+Le fonctionnement de Bitcoin s'apparente à un marché d'enchères où les transactions offrant les meilleures frais sont privilégiées par les mineurs. Cependant, chaque bloc a un poids maximal, ce qui limite le nombre de transactions pouvant être incluses. Comme un bloc est produit en moyenne toutes les 10 minutes, l'espace disponible dans chaque bloc est une ressource rare.
+
+Les mineurs, dont l'activité engendre des coûts significatifs en électricité, en immobilisations et en maintenance, cherchent naturellement à maximiser leur rentabilité. Ils tendent donc à privilégier les transactions qui leur rapportent le plus de frais relativement à leur poids.
+
+En effet, toutes les transactions Bitcoin ne font pas le même poids. Celles qui disposent de plus d'inputs et d'outputs vont peser plus lourd. Par exemple, imaginons 2 transactions :
+- La transaction A comprend 1 input et 1 output. Elle alloue 1 994 sats de frais et son poids est de 141 vB ;
+- La transaction B, plus complexe, avec 2 inputs et 2 outputs, alloue 2 640 sats de frais pour un poids de 220 vB.
+
+![BTC204](assets/notext/45/01.webp)
+
+Dans cet exemple, bien que la transaction B propose un total de frais plus élevé, les mineurs privilégieront la transaction A, car elle offre un meilleur rapport entre les frais et le poids. Voici le calcul pour chaque transaction, exprimé en sats par octet virtuel (sat/vB) :
+
+```text
+TXA : 1994 / 141 = 14 sats/vB
+
+TXB : 2640 / 220 = 12 sats / vB
+```
+
+Cela veut dire que pour chaque unité de poids, la transaction A offre plus de frais que la transaction B, alors même que cette dernière offre plus de frais en valeur absolue.
+
+![BTC204](assets/notext/45/02.webp)
+
+Il est donc toujours plus intéressant pour l'utilisateur de consommer le moins d'inputs possible dans ses transactions. Mais il faut toutefois consommer des montants suffisants pour pouvoir satisfaire le paiement en output. Dans la gestion de son portefeuille, il faut donc avoir des UTXOs suffisamment gros.
+
+Le principe de la consolidation est justement de profiter des périodes où les frais sont bas sur Bitcoin pour fusionner ses petits en UTXOs en un seul plus gros. Ainsi, lorsque les frais augmenteront sur Bitcoin, on pourra faire des transactions avec un minimum d'inputs, et donc dépenser moins de frais en valeur absolue. Le but est donc de prévoir les transactions obligatoires à réaliser durant les périodes de frais élevés.
+
+![BTC204](assets/fr/45/03.webp)
+
+En plus des économies réalisées sur les frais de transaction, la consolidation des UTXOs aide à éviter la formation de "poussière". La poussière, ou "dust" en anglais, désigne les UTXOs dont la valeur en sats est si faible qu'elle ne suffit pas à couvrir les frais de transaction nécessaires pour les dépenser. Cela rend ces UTXOs économiquement irrationnels à utiliser tant que les frais de transaction restent élevés. En regroupant vos UTXOs de manière proactive, vous prévenez leur transformation en poussière, ce qui assure que tous vos fonds restent utilisables.
+
+### Quelle taille minimale pour vos UTXOs ?
+
+Parfois, on me demande quelle est la valeur minimale conseillée pour un UTXO. Malheureusement, il n'existe pas de réponse universelle, car cela dépend de vos préférences et des conditions du marché des frais. Cependant, voici une formule qui peut vous aider à déterminer un seuil adapté à vos besoins :
+
+$$
+\frac {P \times F}T = M
+$$
+
+Où :
+- $P$ est le poids de la transaction ;
+- $F$ représente le taux de frais maximal en satoshis par vbyte (sats/vB) face auquel vous vous couvrez ;
+- $T$ est le pourcentage des frais de transaction que vous êtes prêt à payer par rapport à la valeur totale de l'UTXO ;
+- $M$ est le montant minimal en satoshis pour chaque UTXO.
+
+Supposons que vous prévoyez de couvrir les frais pour une transaction SegWit standard avec 1 input et 2 outputs, pesant 141 vB. Si vous vous couvrez jusqu'à 800 sats/vB, et que vous êtes disposé à dépenser jusqu'à 12 % de la valeur de l'UTXO en frais au maximum, alors le calcul serait :
+
+$$
+\frac{141 \times 800}{0.12} = 940\ 000
+$$
+
+Dans cet exemple, il serait donc judicieux de conserver une valeur minimale de 940 000 sats pour les UTXOs dans votre portefeuille.
+
+### La consolidation et la CIOH
+
+Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Common Input Ownership Heuristic*), qui permet d'émettre l'hypothèse que tous les inputs d'une transaction Bitcoin appartiennent à une même entité. Justement, le principe même de la consolidation est de consommer plusieurs UTXOs en inputs et de créer un seul UTXO en output. La consolidation permet donc d'appliquer la CIOH.
+
+![BTC204](assets/notext/45/04.webp)
+
+Concrètement, cela veut dire qu'un observateur extérieur pour savoir que tous les UTXOs fusionnés appartiennent vraisemblablement à la même personne et que l'output appartient toujours à cette même personne. C'est évidemment problématique pour votre confidentialité, car vous allez faire un lien entre différents historiques. Par exemple, si imaginons que je consolide 3 UTXOs achetés en P2P et avec un UTXO acheté sur une plateforme via un processus de KYC.
+
+En pratique, cela signifie qu'un observateur extérieur peut déduire que tous les UTXOs consolidés appartiennent vraisemblablement à la même personne et que l'output unique généré lui appartient également. Cette situation peut porter atteinte à votre confidentialité en associant différents historiques de transactions. Par exemple, imaginons que je consolide 3 UTXOs acquis en P2P avec un UTXO obtenu via une plateforme qui requiert un KYC :
+
+![BTC204](assets/notext/45/05.webp)
+
+En agissant ainsi, toute entité ayant accès aux données de la plateforme d'échange, y compris potentiellement des agences gouvernementales, pourra identifier que je possède d'autres sommes en BTC. Auparavant, ces UTXOs n'étaient pas directement liés à mon identité ; maintenant, ils le sont. De plus, cela révèle à toutes les sources que je suis en possession d'une certaine somme de bitcoins.
+
+Dans la gestion des UTXOs, les considérations économiques, qui poussent à la consolidation pour réduire les frais, entrent donc en conflit avec les besoins de confidentialité, qui recommanderaient de ne jamais fusionner ses UTXOs. Le choix entre économie et confidentialité dépend donc des priorités de chaque utilisateur.
+
+Si vous pouvez éviter la consolidation tout en maintenant des UTXOs de taille conséquente, c’est l’idéal. Pour cela, optimisez vos méthodes d’acquisition. Si vous achetez vos bitcoins en DCA, essayez d'espacer vos achats ponctuels au maximum afin de regrouper la valeur sur moins d'UTXOs. Il sera plus facile de gérer un achat ponctuel de 1000€ tous les 2 mois, plutôt qu'un achat de 120 € toutes les semaines. Cela permet de minimiser le nombre d’UTXOs générés et simplifie la gestion de votre portefeuille tout en préservant votre confidentialité.
+
+Si vous vous trouvez dans l'obligation de consolider vos bitcoins, privilégiez d'abord la consolidation d'UTXOs provenant d'une même source. Par exemple, fusionner 10 UTXOs issus d'une seule plateforme affectera moins votre confidentialité que de mélanger 5 UTXOs de la plateforme A avec 5 UTXOs de la plateforme B. Si la consolidation de sources diverses est inévitable, tentez de les séparer selon leurs caractéristiques. Par exemple, regroupez les UTXOs acquis par KYC dans une transaction, et ceux obtenus en P2P dans une autre.
+
+Dans tous les cas, n'oubliez pas que toute consolidation entraîne forcément une perte de confidentialité. Évaluez donc soigneusement la nécessité de cette opération et les impacts potentiels sur votre vie privée, en tenant compte de la CIOH.
+
 ## Les autres bonnes pratiques
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Common Input Ownership Heuristic*), qui permet d'émettre l'hypothèse que toutes les entrées d'une transaction Bitcoin appartiennent à une même entité.
-
-### La consolidation, la gestion des UTXOs et la CIOH
-
-
+Découvrons ensemble quelques autres bonne pratiques qui peuvent vous permettre d'optimiser votre confidentialité sur Bitcoin.
 
 ### Le nœud complet
 

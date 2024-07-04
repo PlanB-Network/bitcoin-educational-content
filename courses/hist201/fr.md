@@ -1191,7 +1191,7 @@ Cet épisode marque le début du débat sur la scalabilité, qui finira pas enge
 
 ### Un été de développement
 
-L'été 2010 a donc été un été consacré au développement pour Satoshi et pour ceux qui l'aidaient. La publication du texte de présentation de Bitocin sur Slashdot a provoqué un afflux sans précédent d'utilisateurs, ce qui a aussi mis le système en danger. Par conséquent, Satoshi et Gavin ont essayé tant bien que mal de corriger les vulnérabilités.
+L'été 2010 a donc été un été consacré au développement pour Satoshi et pour ceux qui l'aidaient. La publication du texte de présentation de Bitcoin sur Slashdot a provoqué un afflux sans précédent d'utilisateurs, ce qui a aussi mis le système en danger. Par conséquent, Satoshi et Gavin ont essayé tant bien que mal de corriger les vulnérabilités.
 
 Le réseau n'a cependant pas échappé à un incident majeur, le *value overflow incident*, qui a conduit à la création d'un système d'alerte piloté par Satoshi au sein du logiciel. Enfin, cette période a aussi été marquée par l'ajout de la limite de taille des blocs, un élément fondamental de l'histoire de Bitcoin.
 
@@ -1199,19 +1199,19 @@ Durant les mois qui ont suivi, les améliorations techniques, économiques et mi
 
 ## L'automne du succès (sept. 2010 -- déc. 2010)
 
-**/!\ EN CHANTIER**
+Dans les précédents chapitres, nous avons étudié l'effet qu'a eu la publication de la présentation de Bitcoin sur Slashdot (*slashdotting*) et la façon dont les premiers ennuis techniques ont été gérés par Satoshi et par ses auxiliaires. À la fin de l'été, le projet avait tenu le choc et était prêt à accueillir un nombre croissant de personnes. L'automne 2010 a ainsi été une période de succès pour Bitcoin.
 
-Après l'été, ...
-
-Cet automne a avant tout été une période fastueuse pour le minage qui se développe énormément.
+D'abord, il a été une période fastueuse pour le minage, qui s'est énormément amélioré avec l'émergence des premières fermes de cartes graphiques et de la première coopérative. Ensuite, il a marqué le début de l'exportation de Bitcoin à l'international avec le développement de la communauté russe et de la communauté française. Enfin, l'écosystème a continué à s'améliorer avec l'apparition de nombreux services. Tous ces éléments ont conduit à une nouvelle augmentation du prix unitaire du bitcoin en octobre, ce qui n'a pas manqué de faire réagir les membres du forum.
 
 ### La première ferme de minage (juil. 2010 -- sept. 2010)
 
-Après le slashdotting de Bitcoin, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se spécialiser dans la génération de bitcoins. Le grand mineur de cette période est un développeur allemand se faisant appeler ArtForz, qui a appris l'existence de Bitcoin suite à la présentation de Bitcoin sur Slashdot. Il s'investit rapidement dans le développement du logiciel, et passe beaucoup de temps sur le canal IRC `#bitcoin-dev`.
+Après le slashdotting de Bitcoin en juillet 2010, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se spécialiser dans la génération de bitcoins. Le [taux de hachage](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) du réseau qui était de 0,22 GH/s le 11 juillet, passe ainsi à 2,78 GH/s le 17, puis à 5,79 GH/s le 15 août, ensuite à 9,94 GH/s le 19 septembre et enfin à 12,58 GH/s le 29.
 
-En particulier, il développe son propre algorithme de minage par GPU avec OpenCL. Il se met à générer des bitcoins le 19 juillet. Peu à peu, il construit une grande ferme de minage, qui sera connue sous le nom d'« ArtFarm », et en vient à contrôler une portion non négligeable de la puissance de calcul du réseau.
+img: hashrate
 
-Le 25 juillet, dans un fil sondant les utilisateurs sur leur nombre de bitcoins possédés, ArtForz [affirme](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) avoir généré 1 700 bitcoins en 6 jours, ce qui correspond à 4 % du taux de hachage, soit 80 MH/s. Sa ferme [comprend](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) initialement 6 ATI Radeon HD 5770 et lui permet de passer de 76 MH/s le 9 août à environ 450 MH/s le 13.
+Le plus gros mineur de cette période est un développeur allemand qui se fait appeler ArtForz. Après avoir l'existence de Bitcoin par le biais de Slashdot, il s'investit rapidement dans le développement du logiciel et passe beaucoup de temps sur le canal IRC `#bitcoin-dev`. En particulier, il développe son propre algorithme de minage par GPU avec OpenCL, qu'il fait fonctionner avec la carte graphique de son ordinateur.
+
+Il se met à générer des bitcoins le 19 juillet. Peu à peu, il construit une grande ferme de minage, qui sera connue sous le nom d'« ArtFarm », et en vient à contrôler une portion non négligeable de la puissance de calcul du réseau. Le 25 juillet, dans un fil sondant les utilisateurs sur leur nombre de bitcoins possédés, ArtForz [affirme](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) avoir généré 1 700 bitcoins en 6 jours, ce qui correspond à 4 % du taux de hachage, soit 80 MH/s. En août, sa ferme [comprend](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 ATI Radeon HD 5770, ce qui lui permet de passer de 76 MH/s le 9 août à environ 450 MH/s le 13. <!--TODO régorganiser-->
 
 ![Production minière d'ArtForz entre août et octobre 2010](assets/img/ch10/artforz-block-production-aug-oct-2010.webp)
 
@@ -1219,33 +1219,35 @@ Production minière d'ArtForz entre août et octobre 2010 (source : Blackburn e
 
 Le 2 septembre, le mineur [puddinpop](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957) affirme que ArtForz possède « environ 12 5770 utilisant son client OpenCL » et qu'il a « plus de 1 Ghash/s », lui donnant « 20 % de la capacité de hachage » du réseau. (*original: "ArtForz, on IRC, has like 12 or so 5770s running his own OpenCL client.  The entire network is doing something around 5-6Ghash/s, and he alone has stated that he has over 1Ghash/s."*) Le 23 septembre, ArtForz [déclare](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0) détenir une puissance de calcul de près de 2 GH/s et représente alors encore 20 % de la puissance totale. Le 3 octobre, theymos [affirme](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) que ArtForz « dispose de 20 à 30 % de la puissance de calcul du réseau ».
 
-Toutefois, cette position sera très vite concurrencée par d'autres individus qui se mettront à jour. ArtForz s'éloignera progressivement de l'activité minièe pour se concentrer sur le développement logiciel. En août 2011, il [affirmera](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671) ainsi avoir moins de 1 % de la puissance de calcul du réseau.
+Toutefois, cette position est très vite concurrencée par d'autres individus qui se mettent à jour. Par la suite, ArtForz s'éloignera progressivement de l'activité minière pour se concentrer sur le développement logiciel. En août 2011, il [affirmera](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671) ainsi avoir moins de 1 % de la puissance de calcul du réseau.
 
 ### La spécialisation du minage (sept. 2010 -- déc. 2010)
 
-Minage par GPU, CUDA, OpenCL
+À la fin de l'été 2010, l'exemple d'ArtForz inspire d'autres mineurs qui s'empressent de développer leurs propres méthodes pour générer des bitcoins avec leurs processeurs graphiques. Pour ce faire, les mineurs utilisent des environnements de programmation comme CUDA ou OpenCL. Cela leur permet d'obtenir une puissance de calcul se comptant en MH/s et de représenter une part non négligeable de la puissance totale.
 
-puddinpop, algorithme CUDA [2/9/2010](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940), publication de son algorithme suite à un don de 10 000 BTC de Jeff Garzik [18/9/2010](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)
+Le 2 septembre, le mineur puddinpop [partage](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940) l'exécutable de son client de minage, exploitant un algorithme utilisant CUDA. Il y intègre la perception de 10 % pour quiconque l'exploite. Cela ne plaît pas particulièrement aux membres du forum attachés au logiciel libre.
 
-m0mchil, *OpenCL miner for the masses*, [1/10/2010](https://bitcointalk.org/index.php?topic=1334.msg14875#msg14875)
+Le 6 septembre, suite à la suggestion d'un membre du forum, il [affirme](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107) qu'il serait « peut-être diposé à rendre le code open source » s'il recevait « un don important ». (*original: "If I were to receive a sizable donation, I might be willing to open source the code."*) Le 15, Jeff Garzik [propose](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921) à puddinpop de lui donner 10 000 bitcoins, ce qui représente environ 600 $ à ce moment-là. La transaction a [lieu](https://mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) le 18, suite à quoi puddinpop [publie](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) son algorithme sous licence libre.
 
-tcatm, 3 GPU, [3/10/2010](https://bitcointalk.org/index.php?topic=1327.msg15113#msg15113) (Satoshi: "Seriously?" https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)
+D'autres algorithmes sont rendus publics dans le même temps. Le 9 septembre, un membre du forum se faisant appeler nelisky [partage](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) son propre algorithme de minage utilisant CUDA. Le 1er octobre, un certain m0mchil [publie](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0) son algorithme en le qualifiant de « mineur OpenCL pour les masses ». (*original: "OpenCL miner for the masses"*)
 
-puddinpop, *RPC Miners (CPU/4way/CUDA/OpenCL)* [24/12/2010](https://bitcointalk.org/index.php?topic=2444.0)
+Cette amélioration permet aux individus les plus compétents techniquement de générer beaucoup de bitcoins. Outre ArtForz, on voit notamment Nils Schneider (tcatm) s'imposer comme l'un des principaux mineurs de cette période. Le 3 octobre 2010, ce dernier [affirme](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) avoir un taux de hachage 983 MH/s produit par 3 processeurs graphiques. Ce nombre a l'effet d'[étonner](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) Satoshi en personne.
 
 ### La première coopérative de minage (oct. 2010 -- nov. 2010)
 
-*How to overthrow the GPU Oligarchs*: "pooled generation" https://bitcointalk.org/index.php?topic=1332.0
+L'augmentation massive du taux de hachage a pour conséquence de rendre difficile le minage par processeur central, qui devient de moins en moins abordable. En effet, la possibilité de générer des bitcoins est de plus en plus dépendante de la variance, certains individus n'arrivant jamais à produire un bloc. La solution à ce problème est le minage coopératif.
 
-puddinpop, *Pooled/Remote Mining*, [13/10/2010](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) (appliqué le 1/12 par [doublec](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)), basé sur la puissance de calcul, [conception défectueuse](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015) ?
+L'idée de « génération groupée » est [évoquée](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) en premier par un membre du forum le 1er octobre dans un fil intitulé « *How to overthrow the GPU Oligarchs* ».
 
-getwork, [23/11/2010](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876)
+C'est puddinpop qui [propose](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) le premier modèle de ce type le 13 octobre. Celui-ci est basé sur la puissance de calcul mesurée d'une façon particulière... Sa conception est [défectueuse](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015). Toutefois, l'idée sera quand même appliquée par doublec qui [lancera](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) son serveur de minage groupé le 1er décembre.
+
+Le 23 novembre, une fonction est [ajoutée](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876) au logiciel : getwork.
 
 première coopérative par slush, *Cooperative mining* : [27/11/2010](https://bitcointalk.org/index.php?topic=1976.msg24844#msg24844)
 
 tcatm, cloud mining : https://bitcointalk.org/index.php?topic=1360.0
 
-### Bitcoin à l'international
+### Bitcoin dans d'autres langues
 
 Pendant l'été (Digital Gold: "late July"), Martti Malmi met en place des sous-forums dédiés aux non-anglophones ([archive](https://web.archive.org/web/20100818203541/http://www.bitcoin.org/smf/))
 
@@ -1259,13 +1261,13 @@ Développement de la communauté russe... btcex.com, webmoney
 
 25 octobre, article de ploum en français sur son blog : https://ploum.net/monnaie-de-geek-monnaie-de-singe/ ; création du sujet "French" sur le forum : https://bitcointalk.org/index.php?topic=1567.0
 
-Communauté française : grondilu (Lucien Grondin), davout (David François, Bitcoin-Central), MagicalTux (Mark Karpelès), jluc (inscrit le 23/12, création de [bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le même jour, premier article le 28/12)
+Communauté française : grondilu (Lucien Grondin), davout (David François, Bitcoin-Central, 17/10), MagicalTux (Mark Karpelès), jluc (inscrit le 23/12, création de [bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le même jour, premier article le 28/12)
 
 [deadalnix](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/) (Amaury Séchet)
 
 ### Autres
 
-Version 0.3.13, 1er octobre 2013
+Version 0.3.13, 1er octobre 2013 : https://bitcointalk.org/index.php?topic=1327.msg14788#msg14788
 
 Bitcoinmedia: https://bitcointalk.org/index.php?topic=1355
 
@@ -1279,7 +1281,11 @@ Bitcoincharts.com, tcatm : https://bitcointalk.org/index.php?topic=1659.0 https
 
 1er novembre, logo par bitboy : https://bitcointalk.org/index.php?topic=1631.0
 
-Le 6 novembre, le prix du bitcoin atteint les 50 ¢. https://bitcointalk.org/index.php?topic=1681.0 (octobre, rally in bitcoin : https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)
+En octobre, le prix du bitcoin commence à augmenter, en passant de 6 ¢ (niveau auquel il se stabilise depuis fin juillet) à 10 ¢, puis à 20 ¢ à la fin du mois. Le 6 novembre, il atteint même les 50 ¢, ce qui ne manque pas d'[enthousiasmer](https://bitcointalk.org/index.php?topic=1681.0) les membres du forum.
+
+![Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox](assets/img/ch10/matonis-btc-price-mtgox-july-october-2010.webp)
+
+Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox (source : [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
 
 Explorateur de blocs par theymos, [10/11/2010](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) ([archive](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))
 
@@ -1365,10 +1371,48 @@ Début mai, il écrit à Martti Malmi :
 
 ### Le développement communautaire
 
-Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, première conférence à New York, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110623010047/http://bitcoin.sourceforge.net/?page_id=8)
+Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110623010047/http://bitcoin.sourceforge.net/?page_id=8)
 
 gmaxwell
 
 ### Les portefeuilles SPV (mars 2011 -- sept. 2011)
 
-BitCoinJ (Mike Hearn), Bitcoin Wallet for Android (Andreas Schildbach), Electrum (Thomas Voegtlin)
+Utilisation de Bitcoin : nœud complet ou service dépositaire (MyBitcoin)
+
+BitCoinJ (Mike Hearn)
+
+Bitcoin Wallet for Android (Andreas Schildbach), 11 mars 2011 : https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142
+
+Escroquerie de sortie de MyBitcoin, juillet 2011
+
+Le *Bitcoin Wallet for Android* sera suivi du portefeuille pour ordinateur Electrum, créé par Thomas Voegtlin en septembre 2011 : https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674
+
+### Les conférences (juin -- août 2011)
+
+15 juin 2011, présentation de Bitcoin par Renaud Lifchitz (nono2357) à l'Université Paris Descartes à Paris en France : https://bitcointalk.org/index.php?topic=11384.msg161183#msg161183
+
+![Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011](assets/img/ch12/workshop-renaud-lifchitz-june-2011.webp)
+
+Présentation de Bitcoin par Renaud Lifchitz le 15 juin 2011 (source : [archive du forum](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
+
+[lien](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/)
+
+**extrait** Le première réelle conférence sur Bitcoin a lieu du 19 au 21 août à New York. Cette conférence, organisée par Bruce Wagner, alors présentateur du Bitcoin Show, rassemble des personnalités comme Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès, ou encore Charlie Lee. Bien que Wagner ait promis trois jours d’évènements, seules quatre présentations ont lieu : la sienne ainsi que les interventions de Gavin Andresen, Jeff Garzik et Stefan Thomas. Malgré son caractère amateur, cette conférence montre que Bitcoin est vivant et a un bel avenir devant lui.
+
+![Vidéo (Youtube) de l'intervention de Gavin le 20 août 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+
+Prague, novembre 2011, où interviennent Amir Taaki, Rickard Falkvinge (fondateur du Parti pirate suédois), Vladimir Marchenko : https://bitcointalk.org/index.php?topic=40272.0
+
+### La couverture médiatique
+
+https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/
+
+https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html
+
+https://www.economist.com/babbage/2011/06/13/bits-and-bob
+
+### Le prix
+
+9 février 2011 : parité
+
+32 $

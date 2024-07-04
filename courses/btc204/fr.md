@@ -73,16 +73,9 @@ Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres t
 
 ### Section 6 : Découvrir les propositions d'amélioration du protocole en lien avec la confidentialité
 
-Alors que les sections précédentes se concentraient sur les solutions de confidentialité applicatives, cette sixième section se penchera sur les enjeux au niveau protocolaire pour la vie privée des utilisateurs. Nous aborderons la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons également des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin. Pour conclure, nous examinerons les impacts sur la confidentialité, tant positifs que négatifs, du dernier grand soft fork de Bitcoin, Taproot.
+Alors que les sections précédentes se concentraient sur les solutions de confidentialité applicatives, cette sixième section se penchera sur les enjeux au niveau de Bitcoin Core pour la vie privée des utilisateurs. Nous aborderons la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons également des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques. Pour conclure, nous examinerons les impacts sur la confidentialité, tant positifs que négatifs, du dernier grand soft fork de Bitcoin, Taproot.
 
-***(WIP: LOIC : AJOUTER SCHEMA EXEMPLE ICI***)
-
-### Section Bonus : La privacy sur les protocoles de seconde couche
-
-Comme vous l'avez compris, le cœur de cette formation se concentre exclusivement sur la privacy onchain. Dans cette dernière partie bonus, je souhaite donc élargir le sujet à la confidentialité sur les autres protocoles en lien avec Bitcoin. Nous parlerons notamment de la vie privée sur le Lightning Network. Certains affirment que Lightning est privé par défaut, tandis que d'autres soutiennent que la confidentialité de l'utilisateur y est insuffisante. Quelle est donc la vérité ? Nous démêlerons le vrai du faux pour mieux comprendre les enjeux liés à la confidentialité sur le Lightning Network. Nous évoquerons également les sidechains comme Liquid Network et les banques chaumiennes comme Cashu ou Fedimint.
-
-![BTC204](assets/notext/11/7.webp)
-
+![BTC204](assets/notext/73/07.webp)
 
 # Définitions et concepts clés
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
@@ -2747,32 +2740,4 @@ Ce Chapitre est en cours de rédaction est sera publié très prochainement !
 
 
 
-
-# Bonus : La privacy sur les protocoles de seconde couche
-<partId>40fc3ce1-78eb-45c0-9629-089e486746f6</partId>
-
-
-
-
-## La confidentialité sur le Lightning Network
-<chapterId>99e57c42-daff-4a40-95e6-d9543bdc1809</chapterId>
-
-
-Ce Chapitre est en cours de rédaction est sera publié très prochainement !
-
-
-## La confidentialité sur les sidechains
-<chapterId>025409a9-3c4f-426c-901a-46de74ef496d</chapterId>
-
-
-Ce Chapitre est en cours de rédaction est sera publié très prochainement !
-
-## La confidentialité sur les banques chaumiennes
-<chapterId>04ddfbe9-787c-4e41-aa31-518c328a3165</chapterId>
-
-Ce Chapitre est en cours de rédaction est sera publié très prochainement !
-
-### Fedimint
-
-### Cashu
 

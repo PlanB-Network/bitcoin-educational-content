@@ -1489,7 +1489,7 @@ Dans tous les cas, n'oubliez pas que toute consolidation entraîne forcément un
 ## Les autres bonnes pratiques
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-Découvrons ensemble quelques autres bonne pratiques qui peuvent vous permettre d'optimiser votre confidentialité sur Bitcoin.
+Découvrons ensemble quelques autres bonnes pratiques qui peuvent vous permettre d'optimiser votre confidentialité sur Bitcoin.
 
 ### Le nœud complet
 
@@ -1521,17 +1521,17 @@ Plus largement, il est important de comprendre les heuristiques dont nous avons 
 
 Le premier conseil que je pourrais donner est de vous fondre dans la foule la plus dense. Sur Bitcoin, cela implique d'utiliser les modèles de scripts les plus adoptés. Par exemple, les scripts P2WSH, souvent utilisés pour les configurations multisig SegWit V0, sont très peu fréquents. Ils ne vous permettent pas de vous cacher dans un grand ensemble d'anonymat. C'est pareil pour les vieux modèles comme P2PKH ou P2SH. Bien qu'ils soient largement présents dans l'UTXO set, ils sont de moins en moins utilisés pour les nouvelles transactions. 
 
-De manière générale, il est plus prudent de se tourner vers le standard de script le plus récent, à condition qu'il soit suffisamment adopté. Ainsi, si en 2022 je vous aurais déconseillé d'utilisé du P2TR (Taproot) du fait de sa faible adoption, en 2024, je vous recommanderais plutôt d'opter pour ce type de script, ou à défaut, pour du script SegWit V0, car le nombre de transactions utilisant P2TR commence à représenter une part très importante.
+De manière générale, il est plus prudent de se tourner vers le standard de script le plus récent, à condition qu'il soit suffisamment adopté. Ainsi, si en 2022, je vous aurais déconseillé d'utiliser du P2TR (Taproot) du fait de sa faible adoption, en 2024, je vous recommanderais plutôt d'opter pour ce type de script, ou à défaut, pour du script SegWit V0, car le nombre de transactions utilisant P2TR commence à représenter une part très importante.
 
 ![BTC204](assets/notext/46/03.webp)
 
 Source : [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
-Un autre conseil pour préserver votre confidentialité est d'essayer de contourner les heuristiques internes des transactions. Par exemple, lors d'un paiement, vous pouvez essayer d'éviter de créer un output avec un montant rond, car cela pourrait signaler que l'autre output représente le change. Si vous devez envoyer 100k sats à un ami, envisagez de lui transférer un montant légèrement supérieur pour échapper à cette heuristique. De même, essayez de ne pas créer des outputs de change disproportionnément élevés par rapport au paiement effectué, ce qui pourrait aussi révéler lequel des outputs représente le change.
+Un autre conseil pour préserver votre confidentialité est d'essayer de contourner les heuristiques internes des transactions. Par exemple, lors d'un paiement, vous pouvez essayer d'éviter de créer un output avec un montant rond, car cela pourrait signaler que l'autre output représente le change. Si vous devez envoyer 100 k sats à un ami, envisagez de lui transférer un montant légèrement supérieur pour échapper à cette heuristique. De même, essayez de ne pas créer des outputs de change disproportionnément élevés par rapport au paiement effectué, ce qui pourrait aussi révéler lequel des outputs représente le change.
 
 ![BTC204](assets/notext/46/04.webp)
 
-Enfin, si vous effectuez des transactions Bitcoin de manière régulière, veillez à ne pas les diffuser toujours aux mêmes heures. En répartissant la diffusion de vos transactions tout au long de la journée et de la semaine, vous évitez de donner aux observateurs externes la possibilité de déceler un modèle temporels basé sur les fuseaux horaires qui pourrait renforcer leur analyse.
+Enfin, si vous effectuez des transactions Bitcoin de manière régulière, veillez à ne pas les diffuser toujours aux mêmes heures. En répartissant la diffusion de vos transactions tout au long de la journée et de la semaine, vous évitez de donner aux observateurs externes la possibilité de déceler un modèle temporel basé sur les fuseaux horaires qui pourrait renforcer leur analyse.
 
 Au-delà de toutes ces bonnes pratiques à adopter au quotidien, il existe des méthodes encore plus efficaces pour briser complètement la traçabilité de vos bitcoins. Parmi elles, il y a évidemment les transactions coinjoin que nous allons étudier en profondeur dans la partie suivante.
 

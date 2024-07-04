@@ -1493,7 +1493,27 @@ Découvrons ensemble quelques autres bonne pratiques qui peuvent vous permettre 
 
 ### Le nœud complet
 
+Posséder ses bitcoins en self-custody, c'est bien, mais utiliser son propre nœud complet, c'est mieux ! Voici pourquoi disposer de son propre nœud est crucial pour une utilisation pleinement souveraine de Bitcoin :
 
+- **Résistance à la censure** : Vos transactions ne peuvent être bloquées par quiconque ;
+- **Indépendance vis-à-vis des tiers** : Vous ne dépendez plus d'aucun service externe pour vérifier les données de la blockchain ;
+- **Participation active** : Vous avez la capacité de définir vos propres règles de validation et de prendre part directement au consensus ;
+- **Contribution au réseau** : En faisant tourner un nœud, vous aidez à renforcer et à distribuer le réseau Bitcoin ;
+- **Éducation technique** : Gérer un nœud complet est un excellent moyen d'approfondir vos connaissances techniques sur Bitcoin.
+
+En plus de ces bénéfices, l'utilisation d'un nœud complet améliore aussi votre confidentialité lors de la diffusion de vos transactions. Lorsque vous émettez une transaction, celle-ci est d'abord créée et signée via votre portefeuille. Pour la diffuser sur le réseau Bitcoin, elle doit être connue par au moins un nœud. En utilisant votre propre nœud, vous contrôlez directement cette diffusion, ce qui renforce ainsi votre confidentialité et limitant les risques de fuite de données.
+
+![BTC204](assets/notext/46/01.webp)
+
+Si vous ne disposez pas de votre propre nœud Bitcoin, vous serez contraint d'utiliser celui d'un tiers, comme par exemple celui proposé par le fournisseur de votre logiciel de portefeuille. En plus de la diffusion des transactions, votre portefeuille nécessite l'accès à diverses informations telles que les transactions en attente, les soldes associés à vos adresses ou encore le nombre de confirmations pour vos transactions. Pour accéder à toutes ces données, vous devez interroger un nœud.
+
+![BTC204](assets/notext/46/02.webp)
+
+Le principal risque lorsque vous n'utilisez pas votre propre nœud Bitcoin est que l'opérateur du nœud tiers puisse observer vos activités sur la blockchain, voire partager ces informations avec d'autres entités. Pour limiter ce risque, une solution intermédiaire consiste à utiliser un logiciel de portefeuille permettant de masquer vos connexions via Tor. Cela peut réduire l'exposition de vos données. Toutefois, la solution optimale reste d'avoir votre propre nœud Bitcoin et de l'utiliser pour la diffusion de vos transactions. Évidemment, il faudra également veiller à ne pas faire fuiter d'informations au niveau de votre nœud, mais c'est un autre sujet que nous étudierons dans les parties suivantes.
+
+Au-delà de l'avantage évident pour votre confidentialité, avoir votre propre nœud complet vous assure également de la véracité des données sur la blockchain, vous protège contre la censure et vous permet de participer activement à la gouvernance de Bitcoin. En utilisant votre propre nœud, vous contribuez avec votre poids économique à la chaîne de votre choix, ce qui est important lors de conflits au sein de la communauté, comme lors de la Blocksize War de 2015 à 2017 par exemple. En cas de fork, utiliser le nœud d'un tiers pourrait vous mener à soutenir une chaîne que vous ne voulez pas favoriser, car l'opérateur du nœud fait le choix à votre place.
+
+Vous l'aurez compris, dans un souci de confidentialité et plus largement de souveraineté individuelle, il est indispensable de faire tourner et d'utiliser votre propre nœud complet !
 
 ### Tromper les heuristiques d'analyse
 
@@ -1503,11 +1523,13 @@ Le premier conseil que je pourrais donner est de vous fondre dans la foule la pl
 
 De manière générale, il est plus prudent de se tourner vers le standard de script le plus récent, à condition qu'il soit suffisamment adopté. Ainsi, si en 2022 je vous aurais déconseillé d'utilisé du P2TR (Taproot) du fait de sa faible adoption, en 2024, je vous recommanderais plutôt d'opter pour ce type de script, ou à défaut, pour du script SegWit V0, car le nombre de transactions utilisant P2TR commence à représenter une part très importante.
 
-schema
+![BTC204](assets/notext/46/03.webp)
+
+Source : [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
 Un autre conseil pour préserver votre confidentialité est d'essayer de contourner les heuristiques internes des transactions. Par exemple, lors d'un paiement, vous pouvez essayer d'éviter de créer un output avec un montant rond, car cela pourrait signaler que l'autre output représente le change. Si vous devez envoyer 100k sats à un ami, envisagez de lui transférer un montant légèrement supérieur pour échapper à cette heuristique. De même, essayez de ne pas créer des outputs de change disproportionnément élevés par rapport au paiement effectué, ce qui pourrait aussi révéler lequel des outputs représente le change.
 
-schema
+![BTC204](assets/notext/46/04.webp)
 
 Enfin, si vous effectuez des transactions Bitcoin de manière régulière, veillez à ne pas les diffuser toujours aux mêmes heures. En répartissant la diffusion de vos transactions tout au long de la journée et de la semaine, vous évitez de donner aux observateurs externes la possibilité de déceler un modèle temporels basé sur les fuseaux horaires qui pourrait renforcer leur analyse.
 

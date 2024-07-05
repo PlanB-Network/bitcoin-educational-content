@@ -131,6 +131,19 @@ If you are confident that you can help us translate content, just reach out to u
 <img src="https://weblate.planb.network/widget/planb-network-website/website-elements/multi-auto.svg" alt="Translation status" />
 </a>
 
+### 8-step process to add a new language on PBN
+
+If you are enthousiast about this initiative and willing to help us add your local language to the github repo and the website, please follow the following steps:
+1. [Add the new language](https://planb.network/en/tutorials/others/add-new-language-weblate) on the Weblate app (an account on Weblate is required).
+2. [Start translating the static elements](https://planb.network/en/tutorials/others/translate-front-weblate) of the website.
+3. Once finished, join the [PBN Content Builder TG group](https://t.me/PlanBNetwork_ContentBuilder) and inform us that you have completed the task to receive the reward in sats.
+4. Thanks to [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), we'll get the automatic translation of BTC101 and SECU101 courses to benchmark the automatic translation accuracy.
+5. [Start proofreading](https://planb.network/en/tutorials/others/content-review-tutorial) the BTC101 and SECU101 courses on GitHub (an account on GitHub is required) in the corresponding language.
+6. Once finished and the PR is merged, the reward in sats will be sent to the contributor.
+7. If the automatic translation is good enough, I will automatically translate all educational content of PBN and publish it on the website.
+8. Now, anyone can pick any content in that language to proofread and receive the associated reward.
+
+
 # Why value-4-value PoW model?
 
 Well, because we don’t see any other way. What is the problem with the internet nowadays? We think we are getting everything for free, but in reality, we are the product. Our data is used for the benefit of others. Because we believe that how we handle our data and knowledge should be completely up to us, we ensure that everything we share, build, and contribute in this open-source model is paid for in a value-for-value fashion.

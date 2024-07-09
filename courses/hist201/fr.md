@@ -1161,7 +1161,7 @@ Ce correctif permet aux mineurs de rejeter la transaction incriminée comme inva
 
 Le lendemain, peu après 8 heures, la situation conflictuelle est résolue. La chaîne correcte devient plus longue que l'autre, ce qui fait tous les nœuds doivent alors suivre cette chaîne, qu'ils appliquent le correctif ou non. Cet incident aura perturbé l'activité du réseau pendant environ 15 heures, mais la réactivité de la communauté aura été exemplaire. Satoshi [écrit](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) ainsi vers 13 heures :
 
-> « Il semble que nous ayons dépassé la mauvaise chaîne aux alentours de la hauteur 74 689. &nbsp;Les nœuds 0.3.9 et inférieurs indiquent le numéro de bloc courant depuis quelques heures. \[...\] &nbsp;Merci à tous pour votre réaction rapide ! »
+> « Il semble que nous ayons dépassé la mauvaise chaîne aux alentours de la hauteur 74689. &nbsp;Les nœuds 0.3.9 et inférieurs indiquent le numéro de bloc courant depuis quelques heures. \[...\] &nbsp;Merci à tous pour votre réaction rapide ! »
 >
 > original: "It looks like we overtook the bad chain somewhere around 74689. &nbsp;0.3.9 and lower nodes have been responding with the current block number for some hours now. (...) Thanks to everyone for the quick response!"
 
@@ -1171,7 +1171,7 @@ Après avoir trouvé le *1 RETURN bug* en juillet, Satoshi Nakamoto a fait tout 
 
 Dans les jours qui suivent l'incident, Satoshi construit ainsi un système d'alerte effectif sur le réseau, qui lui permet, à l'aide d'une clé privée, d'avertir les nœuds en cas de problème technique et de suspendre quelques commandes de l'API. Le 22 août, il [présente](https://bitcointalk.org/index.php?topic=898.msg10722#msg10722) son système sur le forum. Cette annonce éveille l'inquiétude des membres, qui voient dans ce système un élément centralisateur et une vulnérabilité qu'un État pourrait exploiter. Satoshi [répond](https://bitcointalk.org/index.php?topic=898.msg11074#msg11074) deux jours plus en qualifiant de « paranoïaques » ces considérations et en spécifiant que le système pourra être désactivé manuellement par les utilisateurs et qu'il ne sera de toute façon que temporaire.
 
-Le 27 août, le système d'alerte est [intégré](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439) officiellement au logiciel avec la sortie de la version 0.3.11. Par la suite, il servira à plusieurs reprises, notamment pour un embranchement accidentel en 2013, avant d'être être définitivement [retiré](https://bitcoin.org/en/alert/2016-11-01-alert-retirement) du logiciel en 2017.
+Le 27 août, le système d'alerte est [intégré](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439) officiellement au logiciel avec la sortie de la version 0.3.11. La possibilité de suspension des fonctionnalités sera [retirée](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479) en décembre. Dans les années qui suivront, le système d'avertissement servira à plusieurs reprises, notamment pour un embranchement accidentel en 2013, avant d'être être définitivement [retiré](https://bitcoin.org/en/alert/2016-11-01-alert-retirement) du logiciel en 2017.
 
 ### La limite de taille des blocs (juil. 2010 -- oct. 2010)
 
@@ -1229,25 +1229,45 @@ Le 2 septembre, le mineur puddinpop [partage](https://bitcointalk.org/index.php?
 
 Le 6 septembre, suite à la suggestion d'un membre du forum, il [affirme](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107) qu'il serait « peut-être diposé à rendre le code open source » s'il recevait « un don important ». (*original: "If I were to receive a sizable donation, I might be willing to open source the code."*) Le 15, Jeff Garzik [propose](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921) à puddinpop de lui donner 10 000 bitcoins, ce qui représente environ 600 $ à ce moment-là. La transaction a [lieu](https://mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) le 18, suite à quoi puddinpop [publie](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) son algorithme sous licence libre.
 
-D'autres algorithmes sont rendus publics dans le même temps. Le 9 septembre, un membre du forum se faisant appeler nelisky [partage](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) son propre algorithme de minage utilisant CUDA. Le 1er octobre, un certain m0mchil [publie](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0) son algorithme en le qualifiant de « mineur OpenCL pour les masses ». (*original: "OpenCL miner for the masses"*)
+D'autres algorithmes sont rendus publics dans le même temps. Le 9 septembre, un membre du forum se faisant appeler nelisky [partage](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) son propre algorithme de minage utilisant CUDA. Le 1er octobre, un certain m0mchil, arrivé sur le forum en février, [publie](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0) son algorithme en le qualifiant de « mineur OpenCL pour la masse » (POCLBM). (*original: "OpenCL miner for the masses"*)
 
 Cette amélioration permet aux individus les plus compétents techniquement de générer beaucoup de bitcoins. Outre ArtForz, on voit notamment Nils Schneider (tcatm) s'imposer comme l'un des principaux mineurs de cette période. Le 3 octobre 2010, ce dernier [affirme](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) avoir un taux de hachage 983 MH/s produit par 3 processeurs graphiques. Ce nombre a l'effet d'[étonner](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) Satoshi en personne.
 
-### La première coopérative de minage (oct. 2010 -- nov. 2010)
+### Les premières coopératives de minage (oct. 2010 -- déc. 2010)
 
 L'augmentation massive du taux de hachage a pour conséquence de rendre difficile le minage par processeur central, qui devient de moins en moins abordable. En effet, la possibilité de générer des bitcoins est de plus en plus dépendante de la variance, certains individus n'arrivant jamais à produire un bloc. La solution à ce problème est le minage coopératif.
 
-L'idée de « génération groupée » est [évoquée](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) en premier par un membre du forum le 1er octobre dans un fil intitulé « *How to overthrow the GPU Oligarchs* ».
+Le 1er octobre, m0mchil [publie](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) une modification de l'API qui aux nœuds clients de récupérer un bloc candidat par le biais d'une nouvelle fonction appelée `getwork` et de renvoyer la preuve de travail si une solution est trouvée. Il écrit que ce correctif « ouvre la voie aux mineurs de bitcoin externes » et « permet le montage de plusieurs mineurs pour un client ». (*original: "It opens the way for external bitcoin miners. If non-local RPC is used it also enables multiple-miners-to-client arrangement."*)
 
-C'est puddinpop qui [propose](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) le premier modèle de ce type le 13 octobre. Celui-ci est basé sur la puissance de calcul mesurée d'une façon particulière... Sa conception est [défectueuse](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015). Toutefois, l'idée sera quand même appliquée par doublec qui [lancera](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) son serveur de minage groupé le 1er décembre.
+Le même jour, l'idée de « génération groupée » est [évoquée](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) en premier par un membre du forum dans un fil intitulé « *How to overthrow the GPU Oligarchs* ».
 
-Le 23 novembre, une fonction est [ajoutée](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876) au logiciel : getwork.
+Le 13 octobre, puddinpop [propose](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) un modèle de ce type. La puissance de calcul du hacheur est mesurée à l'aide d'un métahachage, qui est l'empreinte d'un tampon incluant le premier octet de chaque hachage du bloc. Le serveur peut alors vérifier périodiquement que le client procède bien au calcul tel qu'il a été défini. Ce modèle est complexe et ne donne pas le [droit à l'erreur](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015).
 
-première coopérative par slush, *Cooperative mining* : [27/11/2010](https://bitcointalk.org/index.php?topic=1976.msg24844#msg24844)
+Toutefois, il existe une méthode bien plus simple pour mesurer le taux de hachage d'un client : les preuves de travail partielles. Cette méthode est [proposée](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) par ribuck, Nils Schneider et Gavin Andresen suite à la description de puddinpop. Il s'agit de récupérer des preuves de travail de degré inférieur à la difficulté du réseau produites à partir du même bloc candidat. Les preuves partielles récupérées permettent d'estimer la puissance dépensée de manière probabiliste.
 
-tcatm, cloud mining : https://bitcointalk.org/index.php?topic=1360.0
+Le 23 novembre, la fonction `getwork` est ajoutée au [code](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876) et, le 25, elle est inclue dans la [nouvelle version](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) du logiciel principal (v0.3.17). Le même jour, Jeff Garzik (qui [défend](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532) alors l'idée de séparer la gestion de la chaîne et le minage au sein du logiciel) [partage](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217) son logiciel de minage par CPU qui met à profit cette fonction.
+
+Le 27 novembre, un jeune développeur tchèque appelé Marek Palatinus et utilisant le pseudonyme slush [publie](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) une description de « minage coopératif » sur le forum, modèle qui exploite getwork et la logique de Jeff Garzik. Ce modèle se base sur les preuves de travail partielles produites par les hacheurs (*pay-per-share*). Le lendemain, Satoshi Nakamoto [approuve](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) le concept.
+
+![Marek Palatinus (slush) lors de la conférence Z-DAY à Prague le 11 mai 2013](assets/img/ch10/marek-palatinus-may-2013.webp)
+
+Marek Palatinus (slush) lors de la conférence Z-DAY à Prague le 11 mai 2013
+
+Les deux modèles d'estimation sont mis en œuvre en décembre. Tout d'abord, le concept de puddinpop est appliqué le 1er décembre par l'utilisateur doublec qui [invite](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) les gens à se connecter à son serveur de minage groupé. Le regroupement ainsi formé [produit](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) son premier bloc (95 420) le 4 décembre. Après avoir produit un bloc supplémentaire quelques jours plus tard, le serveur de doublec est [arrêté](https://bluishcoder.co.nz/bitcoin-pool/) le 15. Le service ferme définitivement ses portes le 17, dû à l'émergence d'une coopérative bien plus efficace : Bitcoin.cz Mining.
+
+Après avoir sondé le forum, Marek Palatinus se décide à mettre en œuvre son modèle de coopérative de minage et réalise notamment des essais sur le réseau de test. Il fait également en sorte que le serveur puisse être accessible à la fois aux mineurs par CPU (qui utilisent le logiciel de Jeff Garzik) et aux mineurs par GPU (qui se servent des clients de m0mchil et puddinpop).
+
+Dans la nuit du 15 au 16 décembre, la coopérative est finalement [mise en ligne](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) par Marek Palatinus sur le réseau principal. Le premier bloc est [trouvé](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97 834) dans la matinée du 16. Par la suite, de nombreux autres blocs sont produits. Le groupement minier rencontre un certain succès dès le début : en quelques jours, son taux de hachage atteint 4 GH/s, soit 3,5 % de la puissance totale du réseau.
+
+La coopérative deviendra une référence en ce qui concerne le minage de Bitcoin. Elle [portera](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) plusieurs noms au fil des années : Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, et enfin Slush Pool, en référence à son créateur. Elle deviendra Braiins Pool en septembre 2022.
+
+![Logo de la coopération de Slush en septembre 2011](assets/img/ch10/bitcoin-cz-mining-20110923.webp)
+
+Logo de la coopération de Slush en septembre 2011 (source : [archive](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) du site)
 
 ### Bitcoin dans d'autres langues
+
+Bitcoin est un projet international. Le site web et l'interface graphique du logiciel sont notamment traduits dans de nombreuses langues. https://bitcointalk.org/index.php?topic=151.msg1259#msg1259
 
 Pendant l'été (Digital Gold: "late July"), Martti Malmi met en place des sous-forums dédiés aux non-anglophones ([archive](https://web.archive.org/web/20100818203541/http://www.bitcoin.org/smf/))
 
@@ -1261,13 +1281,13 @@ Développement de la communauté russe... btcex.com, webmoney
 
 25 octobre, article de ploum en français sur son blog : https://ploum.net/monnaie-de-geek-monnaie-de-singe/ ; création du sujet "French" sur le forum : https://bitcointalk.org/index.php?topic=1567.0
 
-Communauté française : grondilu (Lucien Grondin), davout (David François, Bitcoin-Central, 17/10), MagicalTux (Mark Karpelès), jluc (inscrit le 23/12, création de [bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le même jour, premier article le 28/12)
+Communauté française : grondilu (Lucien Grondin), davout (David François, Bitcoin-Central, 17/10), MagicalTux (Mark Karpelès, inscrit le 7/11), jluc (inscrit le 23/12, création de [bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le même jour, premier article le 28/12)
 
 [deadalnix](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/) (Amaury Séchet)
 
-### Autres
+Le [sous-forum français](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) sera créé le 1er février 2011.
 
-Version 0.3.13, 1er octobre 2013 : https://bitcointalk.org/index.php?topic=1327.msg14788#msg14788
+### Une économie florissante
 
 Bitcoinmedia: https://bitcointalk.org/index.php?topic=1355
 
@@ -1290,7 +1310,7 @@ Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox (source : [*T
 Explorateur de blocs par theymos, [10/11/2010](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) ([archive](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))
 
 
-
+15--26 novembre : flot de transactions, [signalé](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) le 19 par Jeff Garzik. Par conséquent, Satoshi met des mesures en place : frais de transaction et limites sur les transactions gratuites.
 
 
 ### Le retour de Hal Finney (nov. 2010 -- déc. 2010)

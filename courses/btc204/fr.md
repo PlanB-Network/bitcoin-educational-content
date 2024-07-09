@@ -1605,7 +1605,7 @@ Dans le premier exemple, nous avons vu comment le coinjoin peut protéger la con
 
 ### Mixage, coinjoins, mélangeurs... Quelle est la différence ?
 
-On parle parfois de "mixage" pour décrire les coinjoins, terme que certains bitcoiners rejettent, car ils craignent un amalgame avec les mélangeurs custodiaux. Je pense, cependant, que cette appréhension est mal fondée car, dans un contexte mathématique, le coinjoin incarne précisément le concept de mixage.
+On parle parfois de "mixage" pour décrire les coinjoins, terme que certains bitcoiners rejettent, car ils craignent un amalgame avec les mélangeurs custodiaux. Je pense cependant que cette appréhension est mal fondée, car, dans un contexte mathématique, le coinjoin incarne précisément le concept de mixage.
 
 Dans le domaine général des mathématiques, le mixage se réfère à la propriété d’un système dynamique où, après un certain temps, toutes les portions de l’espace initial peuvent en théorie se retrouver mêlées avec n’importe quelle autre portion. Le mixage implique que la position d’une particule ou l’état d’un système évolue de telle manière que sa distribution future soit indépendante de sa distribution initiale, atteignant ainsi un état où les caractéristiques de l’état initial sont uniformément distribuées dans tout l’espace du système. C'est exactement ce qui se produit dans un coinjoin avec des bitcoins. Ainsi, selon moi, le coinjoin est véritablement une méthode de mixage de pièces.
 

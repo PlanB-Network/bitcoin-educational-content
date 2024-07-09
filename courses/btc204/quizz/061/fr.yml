@@ -1,0 +1,13 @@
+question: À quoi sert l'option de “coin control” sur un logiciel de portefeuille Bitcoin ?
+
+answer: À choisir quels UTXOs consommer en inputs des transactions.
+
+wrong_answers:
+  - À chiffrer les UTXOs pour renforcer la sécurité du portefeuille.
+  - À détecter et bloquer les UTXOs provenant de sources suspectes.
+  - À apposer un label sur chaque UTXO du portefeuille.
+
+explanation: |
+  Le coin control est une fonctionnalité présente dans les bons logiciels de portefeuille Bitcoin, qui vous donne la capacité de sélectionner manuellement les UTXOs spécifiques à utiliser en tant qu'inputs pour effectuer une transaction.
+
+reviewed: false

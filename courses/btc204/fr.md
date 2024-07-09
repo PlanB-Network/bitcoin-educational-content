@@ -1535,15 +1535,15 @@ Au-delà de toutes ces bonnes pratiques à adopter au quotidien, il existe des m
 ## C'est quoi une transaction coinjoin ?
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-Après avoir étudié les fondamentaux de la protection de la vie privée, nous allons maintenant aborder des techniques plus sophistiquées visant à défendre activement votre confidentialité, en particulier par la dissociation de l'historique de vos bitcoins. Dans la partie suivantes, nous allons étudier plein de petites techniques, mais d'abord, je souhaite vous parler du coinjoin.
+Après avoir étudié les fondamentaux de la protection de la vie privée, nous allons maintenant aborder des techniques plus sophistiquées visant à défendre activement votre confidentialité, en particulier par la dissociation de l'historique de vos bitcoins. Dans la partie suivante, nous allons étudier plein de petites techniques, mais d'abord, je souhaite vous parler du coinjoin.
 
 Le coinjoin est souvent considéré comme la méthode la plus efficace pour protéger la confidentialité des utilisateurs de Bitcoin. Mais qu'est-ce qu'une transaction coinjoin exactement ? Nous allons le découvrir ensemble.
 
-### Qu'est-ce que le coinjoin sur Bitcoin ?
+### Les principes de base du coinjoin
 
 Le coinjoin est une technique qui permet de casser le traçage des bitcoins sur la blockchain. Il repose sur une transaction collaborative à la structure spécifique de même nom : la transaction coinjoin.
 
-Comme nous l'avons vu dans les première parties de cette formation, les transactions sur Bitcoin sont connues de tous les utilisateurs via leur nœud. Il est donc facile de vérifier la chaîne de signature électronique de chaque pièce et d'observer son historique. Cela signifie que tous les utilisateurs peuvent tenter d'analyser les transactions des autres utilisateurs. En conséquence, l'anonymat au niveau des transactions est impossible. Cependant, l'anonymat est préservé au niveau de l'identification des individus. Contrairement au système bancaire classique où chaque compte est lié à une identité personnelle, sur Bitcoin, les fonds sont associés à des paires de clés cryptographiques (ou des scripts), ce qui offre ainsi aux utilisateurs une forme de pseudonymat derrière des identifiants cryptographiques.
+Comme nous l'avons vu dans les premières parties de cette formation, les transactions sur Bitcoin sont connues de tous les utilisateurs via leur nœud. Il est donc facile de vérifier la chaîne de signature électronique de chaque pièce et d'observer son historique. Cela signifie que tous les utilisateurs peuvent tenter d'analyser les transactions d'autres utilisateurs. En conséquence, l'anonymat au niveau des transactions est impossible. Cependant, l'anonymat est préservé au niveau de l'identification des individus. Contrairement au système bancaire classique où chaque compte est lié à une identité personnelle, sur Bitcoin, les fonds sont associés à des paires de clés cryptographiques (ou des scripts), ce qui offre ainsi aux utilisateurs une forme de pseudonymat derrière des identifiants cryptographiques.
 
 ![BTC204](assets/fr/51/01.webp)
 
@@ -1557,7 +1557,7 @@ Il est important de comprendre que l'objectif d'une transaction coinjoin est de 
 
 ### Comment fonctionnent les coinjoins ?
 
-Le principe du coinjoin repose sur une approche collaborative : plusieurs utilisateurs qui souhaitent mélanger leurs bitcoins déposent des montants identiques en inputs d'une même transaction. Ces montants sont ensuite redistribués en outputs de valeur égale à chaque utilisateur.
+Le principe du coinjoin repose sur une approche collaborative : plusieurs utilisateurs qui souhaitent mélanger leurs bitcoins déposent des montants identiques en inputs d'une même transaction. Ces montants sont ensuite redistribués en outputs de valeurs égales à chaque utilisateur.
 
 ![BTC204](assets/notext/51/03.webp)
 
@@ -1585,7 +1585,7 @@ Prenons l'exemple d'Alice. Elle veut envoyer environ 100 000 sats à sa sœur Ev
 
 Dans ce cas de figure, Alice a utilisé la technique du coinjoin pour augmenter sa confidentialité vis-à-vis d'une analyse rétrospective. En effet, Alice se prémunit contre une éventuelle analyse par Eve qui partirait d'une transaction spécifique pour remonter l'historique de l'UTXO en arrière. Cette protection contre l'analyse du présent vers le passé est ce que l'on nomme l'anonset rétrospectif. Nous approfondirons ce concept plus en détail dans les derniers chapitres de cette partie.
 
-Toutefois, le coinjoin offre également la possibilité de renforcer la confidentialité face à une analyse du passé vers le présent, ce que l'on désigne par l'anonset prospectif. Reprenons notre exemple où Alice a envoyé 98 000 sats à Eve pour son anniversaire, mais en inversant les rôles. Imaginons maintenant que c'est Eve qui est inquiète pour sa confidentialité. En effet, Alice pourrait être tentée de suivre la pièce qu'elle a envoyée à Eve afin d'en tirer des informations. Eve pourrait bien consolider cet UTXO quelle vient de recevoir avec tous ses autres UTXOs, ce qui pourrait révéler à Alice le montant en bitcoins qu'elle possède sur son portefeuille. Pour éviter cela, Eve peut également casser l'historique de la pièce qu'elle vient de recevoir :
+Toutefois, le coinjoin offre également la possibilité de renforcer la confidentialité face à une analyse du passé vers le présent, ce que l'on désigne par l'anonset prospectif. Reprenons notre exemple où Alice a envoyé 98 000 sats à Eve pour son anniversaire, mais en inversant les rôles. Imaginons maintenant que c'est Eve qui est inquiète pour sa confidentialité. En effet, Alice pourrait être tentée de suivre la pièce qu'elle a envoyée à Eve afin d'en tirer des informations. Eve pourrait bien consolider cet UTXO qu'elle vient de recevoir avec tous ses autres UTXOs, ce qui pourrait révéler à Alice le montant en bitcoins qu'elle possède sur son portefeuille. Pour éviter cela, Eve peut également casser l'historique de la pièce qu'elle vient de recevoir :
 
 - Eve, Grace, Mallory, Oscar et Victor mettent chacun un UTXO de 98 000 sats en inputs d'une transaction Bitcoin :
 
@@ -1603,20 +1603,29 @@ Dans le premier exemple, nous avons vu comment le coinjoin peut protéger la con
 
 ![BTC204](assets/notext/51/02.webp)
 
-### Mixage, coinjoins, mélangeurs... Quelles différences ?
+### Mixage, coinjoins, mélangeurs... Quelle est la différence ?
 
+On parle parfois de "mixage" pour décrire les coinjoins, terme que certains bitcoiners rejettent, car ils craignent un amalgame avec les mélangeurs custodiaux. Je pense, cependant, que cette appréhension est mal fondée car, dans un contexte mathématique, le coinjoin incarne précisément le concept de mixage.
 
+Dans le domaine général des mathématiques, le mixage se réfère à la propriété d’un système dynamique où, après un certain temps, toutes les portions de l’espace initial peuvent en théorie se retrouver mêlées avec n’importe quelle autre portion. Le mixage implique que la position d’une particule ou l’état d’un système évolue de telle manière que sa distribution future soit indépendante de sa distribution initiale, atteignant ainsi un état où les caractéristiques de l’état initial sont uniformément distribuées dans tout l’espace du système. C'est exactement ce qui se produit dans un coinjoin avec des bitcoins. Ainsi, selon moi, le coinjoin est véritablement une méthode de mixage de pièces.
 
+![BTC204](assets/notext/51/12.webp)
 
+En revanche, il est important de distinguer le coinjoin des mélangeurs. Un mélangeur est un service où les utilisateurs envoient leurs bitcoins pour être mélangés. Ces services étaient populaires durant les années 2010, mais leur usage a décliné en raison de deux inconvénients majeurs par rapport au coinjoin :
+- Ils requièrent que l'utilisateur cède la garde de ses fonds durant le processus de mélange, ce qui expose à des risques de vol ;
+- Il n'existe aucune assurance que le mélangeur n'enregistre pas les détails des transactions, voire ne vende pas ces informations à des entreprises d'analyse de chaîne.
 
+![BTC204](assets/notext/51/13.webp)
 
+De nos jours, les utilisateurs préfèrent donc le coinjoin, car il permet de garder le contrôle total sur ses fonds tout au long du processus. Les participants au coinjoin ne risquent pas de se faire voler leurs bitcoins par les autres parties impliquées. Nous expliquerons comment cela est possible dans le chapitre 3.
 
+Cependant, le coinjoin implique de devoir trouver d'autres utilisateurs qui sont d'accord pour participer. Pour faciliter cette recherche et passer à l'échelle, il existe des implémentations de coinjoins avec des coordinateurs. C'est ce que nous allons étudier dans la partie suivante.
 
-## Les implémentations de coinjoin
+## Les implémentations de coinjoin et les coordinateurs
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+La confidentialité se gagne sur la grandeur du groupe dans lequel notre pièce se cache, il faut donc qu'il soit le plus grand possible. Il est donc tout à fait possible de faire un coinjoin manuellement avec des utilisateurs que l'on a trouvé nous-même, mais cette manière de faire 
 
 
 

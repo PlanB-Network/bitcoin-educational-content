@@ -1535,7 +1535,91 @@ Au-delà de toutes ces bonnes pratiques à adopter au quotidien, il existe des m
 ## C'est quoi une transaction coinjoin ?
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
+Après avoir étudié les fondamentaux de la protection de la vie privée, nous allons maintenant aborder des techniques plus sophistiquées visant à défendre activement votre confidentialité, en particulier par la dissociation de l'historique de vos bitcoins. Dans la partie suivantes, nous allons étudier plein de petites techniques, mais d'abord, je souhaite vous parler du coinjoin.
+
+Le coinjoin est souvent considéré comme la méthode la plus efficace pour protéger la confidentialité des utilisateurs de Bitcoin. Mais qu'est-ce qu'une transaction coinjoin exactement ? Nous allons le découvrir ensemble.
+
+### Qu'est-ce que le coinjoin sur Bitcoin ?
+
+Le coinjoin est une technique qui permet de casser le traçage des bitcoins sur la blockchain. Il repose sur une transaction collaborative à la structure spécifique de même nom : la transaction coinjoin.
+
+Comme nous l'avons vu dans les première parties de cette formation, les transactions sur Bitcoin sont connues de tous les utilisateurs via leur nœud. Il est donc facile de vérifier la chaîne de signature électronique de chaque pièce et d'observer son historique. Cela signifie que tous les utilisateurs peuvent tenter d'analyser les transactions des autres utilisateurs. En conséquence, l'anonymat au niveau des transactions est impossible. Cependant, l'anonymat est préservé au niveau de l'identification des individus. Contrairement au système bancaire classique où chaque compte est lié à une identité personnelle, sur Bitcoin, les fonds sont associés à des paires de clés cryptographiques (ou des scripts), ce qui offre ainsi aux utilisateurs une forme de pseudonymat derrière des identifiants cryptographiques.
+
+01
+
+Ainsi, la confidentialité sur Bitcoin est mise à mal lorsque des observateurs extérieurs parviennent à associer des UTXOs spécifiques à des utilisateurs identifiés. Une fois cette association établie, il devient possible de tracer leurs transactions et d'analyser l'historique de leurs bitcoins. Le coinjoin est justement une technique développée pour casser la traçabilité des UTXOs, afin d'offrir une certaine couche de confidentialité aux utilisateurs de Bitcoin au niveau des transactions.
+
+Les coinjoins renforcent la confidentialité des utilisateurs de Bitcoin en complexifiant l'analyse de chaîne pour les observateurs externes. Leur structure permet de fusionner plusieurs pièces de différents utilisateurs en une unique transaction, brouillant ainsi les pistes et rendant difficile la détermination des liens entre les adresses en inputs et en outputs.
+
+Il est important de comprendre que l'objectif d'une transaction coinjoin est de rompre l'historique d'une pièce. Cette technique ne confère pas un anonymat permanent ni ne bloque définitivement le traçage des bitcoins, contrairement à ce que l'on peut penser. Le coinjoin vise uniquement à casser l'historique au point où la transaction coinjoin est effectuée. Toutefois, avant et après cette opération, la pièce reste soumise aux mêmes risques en termes de confidentialité.
+
+02
+
+### Comment fonctionnent les coinjoins ?
+
+Le principe du coinjoin repose sur une approche collaborative : plusieurs utilisateurs qui souhaitent mélanger leurs bitcoins déposent des montants identiques en inputs d'une même transaction. Ces montants sont ensuite redistribués en outputs de valeur égale à chaque utilisateur.
+
+03
+
+À l'issue de la transaction, il devient impossible d'associer un output spécifique à un utilisateur connu en entrée. Aucun lien direct n'existe entre les entrées et les sorties, ce qui vient rompre l'association entre les utilisateurs et leurs UTXOs, de même que l'historique de chaque pièce.
+
+04
+
+
+Prenons l'exemple d'Alice. Elle veut envoyer environ 100 000 sats à sa sœur Eve pour son anniversaire. Toutefois, Alice ne souhaite pas qu'Eve puisse tracer l'historique de ses transactions, car elle ne veut pas révéler combien de bitcoins elle détient ni comment elle les a obtenus. Pour cela, Alice décide de casser l'historique de son UTXO avec une transaction coinjoin. Elle s'organise avec Bob, Charles, David et Frank pour réaliser une transaction collaborative :
+
+- Alice, Bob, Charles, David et Frank engagent chacun un UTXO de 100 500 sats (avec 500 sats pour les frais de minage) comme inputs de la transaction :
+
+05
+
+- En contrepartie de la consommation de ces inputs, chacun génère une adresse vierge pour créer cinq outputs identiques de 100 000 sats chacun. Chacun récupère un output :
+
+06
+
+- Alice se retrouve avec un UTXO de 100 000 sats dont l'historique est mélangé. Elle utilise cet UTXO dans une nouvelle transaction pour envoyer le montant à Eve pour son anniversaire :
+
+07
+
+- Si Eve tente d'analyser cette transaction pour extraire des informations, elle sera confrontée à la transaction coinjoin impliquant Alice, Bob, Charles, David et Frank. Ne pouvant distinguer quel input appartient à qui en raison de l'uniformité des montants, Eve ne peut pas remonter l'historique de l'UTXO d'Alice, ni déterminer combien de bitcoins sa sœur possède ou comment elle les a acquis :
+
+08
+
+Dans ce cas de figure, Alice a utilisé la technique du coinjoin pour augmenter sa confidentialité vis-à-vis d'une analyse rétrospective. En effet, Alice se prémunit contre une éventuelle analyse par Eve qui partirait d'une transaction spécifique pour remonter l'historique de l'UTXO en arrière. Cette protection contre l'analyse du présent vers le passé est ce que l'on nomme l'anonset rétrospectif. Nous approfondirons ce concept plus en détail dans les derniers chapitres de cette partie.
+
+Toutefois, le coinjoin offre également la possibilité de renforcer la confidentialité face à une analyse du passé vers le présent, ce que l'on désigne par l'anonset prospectif. Reprenons notre exemple où Alice a envoyé 98 000 sats à Eve pour son anniversaire, mais en inversant les rôles. Imaginons maintenant que c'est Eve qui est inquiète pour sa confidentialité. En effet, Alice pourrait être tentée de suivre la pièce qu'elle a envoyée à Eve afin d'en tirer des informations. Eve pourrait bien consolider cet UTXO quelle vient de recevoir avec tous ses autres UTXOs, ce qui pourrait révéler à Alice le montant en bitcoins qu'elle possède sur son portefeuille. Pour éviter cela, Eve peut également casser l'historique de la pièce qu'elle vient de recevoir :
+
+- Eve, Grace, Mallory, Oscar et Victor mettent chacun un UTXO de 98 000 sats en inputs d'une transaction Bitcoin :
+
+09
+
+- En contrepartie de la consommation de ces inputs, chacun fournit une adresse vierge à utiliser pour créer 5 outputs de 97 500 sats parfaitement égaux. Chaque utilisateur récupère un output :
+
+10
+
+- Eve détient désormais un UTXO de 97 500 sats dont l'historique est rompu. Elle pourra l'utiliser sans crainte pour réaliser de futures transactions. En effet, si Alice tente de suivre les bitcoins qu'elle a envoyés à Eve, elle sera confrontée à une transaction coinjoin. Elle sera incapable de déterminer quel UTXO en sortie appartient à Eve. L'analyse devient alors impossible :
+
+11
+
+Dans le premier exemple, nous avons vu comment le coinjoin peut protéger la confidentialité d'une pièce par rapport à son passé, et dans le second exemple, comment il peut également sécuriser l'historique d'une pièce par rapport à son futur. C'est pourquoi j'ai mentionné que le coinjoin devrait être perçu comme un événement ponctuel qui segmente un historique de pièce dans les deux directions :
+
+02
+
+### Mixage, coinjoins, mélangeurs... Quelles différences ?
+
+
+
+
+
+
+
+
+## Les implémentations de coinjoin
+<chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
+
+
 Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+
+
 
 ## Zerolink et chaumian coinjoins
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
@@ -1543,11 +1627,6 @@ Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
-## Les différentes implémentations de coinjoin
-<chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
-
-
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
 
 
 ## Les ensembles d'anonymat

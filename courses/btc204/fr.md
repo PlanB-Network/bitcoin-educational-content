@@ -1685,11 +1685,37 @@ D'autre part, il y a l'aspect public : le votant veut s'assurer que son bulletin
 
 Ce sont précisément ces 2 aspects public et privé, permis par l'utilisation des signatures aveugles de David Chaum, qui permettent de garantir aux participants des coinjoins chaumiens qu'ils ne se feront pas voler leurs bitcoins, et que l'on ne pourra pas tracer leurs fonds.
 
-Dans le chapitre suivant, nous allons justement découvrir les différentes implémentations de coinjoin existantes.
+### Qui a inventé le concept de coinjoin ?
+
+Il est difficile de déterminer avec certitude qui a introduit en premier l'idée du coinjoin sur Bitcoin, et qui a eu l'idée d'utiliser les signatures aveugles de David Chaum dans ce contexte. On pense souvent que c'est Gregory Maxwell qui en a parlé en premier dans [un message sur BitcoinTalk en 2013](https://bitcointalk.org/index.php?topic=279249.0) :
+
+> *"En utilisant les signatures aveugles de Chaum : Les utilisateurs se connectent et fournissent des inputs (et des adresses de change) ainsi qu'une version cryptographiquement aveuglée de l'adresse vers laquelle ils souhaitent envoyer leurs pièces privées ; le serveur signe les jetons et les leur renvoie. Les utilisateurs se reconnectent anonymement, démasquent leurs adresses de sortie et les renvoient au serveur. Le serveur peut voir que toutes les sorties ont été signées par lui et que, par conséquent, toutes les sorties proviennent de participants valides. Plus tard, les personnes se reconnectent et signent."*
+
+Maxwell, G. (2013, 22 août). *CoinJoin: Bitcoin privacy for the real world*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
+
+Toutefois, il existe d'autres mentions antérieures, à la fois pour les signatures de Chaum dans le cadre du mixage, mais également pour les coinjoins. [En juin 2011, Duncant présente sur BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) un mélangeur qui utilise les signatures de Chaum d'une manière assez similaire aux coinjoins chaumiens modernes.
+
+Dans le même thread, on peut retrouver [un message de hashcoin en réponse à Duncant](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) pour améliorer son mélangeur. Ce message présente justement ce qui ressemble le plus aux coinjoins. On retrouve également une mention d'un système similaire dans [un message de Alex Mizrahi en 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), alors qu'il conseillait les créateurs de Tenebrix, un des premiers altcoins qui a servi de base pour créer Litecoin par la suite. Même le terme en lui-même de "coinjoin" n'aurait pas été inventé par Greg Maxwell, mais il viendrait d'une idée de Peter Todd.
 
 ### Zerolink
 
+Zerolink est un protocole de mixage complet qui intègre des coinjoins chaumiens et diverses stratégies pour protéger l'anonymat des utilisateurs contre plusieurs formes d'analyses de chaîne, en minimisant notamment les erreurs liées à la gestion des portefeuilles. Ce protocole [a été introduit par nopara73 et TDevD en 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
+Comme son nom l'indique, le principe de Zerolink est de réaliser des transactions coinjoin qui assurent l'impossibilité de retracer les liens entre les intputs et les outputs. Cette caractéristique est obtenue en s'assurant que tous les outputs présentent des montants parfaitement identiques.
+
+08
+
+Une mesure préventive importante de Zerolink consiste à séparer totalement les UTXOs non mixés des UTXOs mixés en utilisant des ensembles de clés cryptographiques distincts, voire des portefeuilles séparés. On différencie ainsi le portefeuille de "*pre-mix*", destiné aux pièces avant mixage, du portefeuille de "*post-mix*", réservé aux pièces ayant été mixées.
+
+09
+
+Cette séparation rigoureuse des UTXOs sert avant tout à prévenir les associations accidentelles entre un UTXO mixé et un UTXO non mixé. En effet, si de tels liens se produisent, l'efficacité du coinjoin sur l'UTXO mixé est annulée sans que l'utilisateur en soit conscient, compromettant ainsi la confidentialité d'un UTXO dont il croyait avoir rompu l'historique. Ces liens peuvent survenir soit par réutilisation d'adresse sur la sécurisation d'un UTXO mixé avec un non mixé, soit par application de la CIOH (_Common-Input-Ownership Heuristic_), si l'utilisateur consomme en inputs d'une même transaction des UTXOs mixés et non mixés. En séparant les portefeuilles de pré-mixage et de post-mixage, on évite ces associations accidentelles et on protège l'utilisateur contre des erreurs involontaires.
+
+10
+
+Cette séparation offre également la possibilité d'appliquer des règles distinctes entre les portefeuilles de pré-mixage et de post-mixage au niveau du logiciel de portefeuille. Par exemple, dans le portefeuille de post-mixage, le logiciel peut interdire la fusion d'UTXOs en inputs pour empêcher l'application de la CIOH qui compromettrait l'anonset de l'utilisateur. Il est aussi possible d'uniformiser l'utilisation des scripts et des options de transaction (comme le signalement de RBF par exemple) pour prévenir l'identification par des empreintes de portefeuille. 
+
+Actuellement, Whirlpool est la seule implémentation de coinjoin qui applique de manière rigoureuse le protocole Zerolink. Dans le chapitre suivant, nous allons justement découvrir les différentes implémentations de coinjoin existantes et les avantages et inconvénients de chacune.
 
 ## Les implémentations de coinjoin et les coordinateurs
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>

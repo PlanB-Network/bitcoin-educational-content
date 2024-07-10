@@ -29,9 +29,9 @@ def get_supported_languages():
 def content_exist(filenames, lang):
     return any(f.endswith(f"{lang}.md") or f.endswith(f"{lang}.yml") for f in filenames)
     
-def create_yml_to_en_from(lang):
+def create_txt_to_en_from(lang):
     base_dirs = ["../../courses", "../../resources", "../../tutorials"]
-    output_file = f"./translate-to-en/{lang}.yml"
+    output_file = f"./translate-to-en/{lang}.txt"
     skip_dirs = ["btc205",
                  ]
     file_written = False
@@ -55,14 +55,14 @@ def main():
     # prepare_git_branch()
     languages = get_supported_languages()
     print(languages)
-    create_yml_to_en_from("fr")
-    output_file_path = "./translate-to-en/fr.yml"
+    create_txt_to_en_from("fr")
+    output_file_path = "./translate-to-en/fr.txt"
     if os.path.exists(output_file_path):
         with open(output_file_path, 'r') as file:
             content = file.read()
             print(content)
     else:
-        print("No need to translate from fr or no entries found in 'fr.yml'.") 
+        print("No need to translate from fr.") 
 
     print("So far so good!")
 

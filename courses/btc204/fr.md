@@ -1617,23 +1617,94 @@ En revanche, il est important de distinguer le coinjoin des mélangeurs. Un mél
 
 ![BTC204](assets/notext/51/13.webp)
 
-De nos jours, les utilisateurs préfèrent donc le coinjoin, car il permet de garder le contrôle total sur ses fonds tout au long du processus. Les participants au coinjoin ne risquent pas de se faire voler leurs bitcoins par les autres parties impliquées. Nous expliquerons comment cela est possible dans le chapitre 3.
+De nos jours, les utilisateurs préfèrent donc le coinjoin, car il permet de garder le contrôle total sur ses fonds tout au long du processus. Les participants au coinjoin ne risquent pas de se faire voler leurs bitcoins par les autres parties impliquées. Étudions ensemble comment tout cela est possible dans le chapitre suivant.
 
-Cependant, le coinjoin implique de devoir trouver d'autres utilisateurs qui sont d'accord pour participer. Pour faciliter cette recherche et passer à l'échelle, il existe des implémentations de coinjoins avec des coordinateurs. C'est ce que nous allons étudier dans la partie suivante.
+## Zerolink et chaumian coinjoins
+<chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+La confidentialité apportée par un coinjoin se gagne sur la grandeur du groupe dans lequel notre pièce se cache, il faut donc qu'il y est le plus de participants possible. Il est tout à fait possible de faire un coinjoin manuellement, avec des utilisateurs que l'on a trouvé nous-même, mais cette manière de faire est complexe, et elle ne permet pas de gagner de grands anonsets.
+
+C'est pour cette raison que se sont développés sur Bitcoin des coordinateurs de coinjoin. Leur rôle est de mettre en relation les différents utilisateurs et de transmettre les informations permettant la bonne réalisation de la transaction collaborative.
+
+01
+
+Mais comment faire pour que le coordinateur n'ait à aucun moment la main sur les bitcoins des utilisateurs, et malgré le fait qu'il soit la personne qui construit la transaction coinjoin, comment faire pour qu'il ne puisse pas lier les inputs et les outputs des utilisateurs, ce qui pourrait constituer une fuite de confidentialité ?
+
+### Les signatures aveugles de Chaum
+
+Les implémentations modernes de coinjoin utilisent les signatures aveugles de David Chaum afin d'éviter de faire fuiter des informations. Étudions rapidement ensemble comment fonctionnent ces signatures aveugles.
+
+Les signatures aveugles de Chaum sont une forme de signature numérique où l'émetteur d'une signature ne connaît pas le contenu du message qu'il signe. Mais la signature peut ensuite être vérifiée avec le message original. Cette technique a été développée par le cryptographe David Chaum en 1983.
+
+02
+
+Prenons l'exemple d'une entreprise désirant faire authentifier un document confidentiel, comme un contrat, sans en révéler le contenu. L'entreprise applique un processus de masquage qui transforme cryptographiquement le document original de manière réversible. Ce document modifié est envoyé à une autorité de certification qui appose une signature aveugle sans connaître le contenu sous-jacent. Après avoir reçu le document signé, l'entreprise démasque la signature. Le résultat est un document original authentifié par la signature de l'autorité, sans que cette dernière n'ait jamais vu le contenu original.
+
+Les signatures aveugles de Chaum permettent donc de certifier l'authenticité d'un document sans en connaître le contenu, ce qui garantit à la fois la confidentialité des données de l'utilisateur et l'intégrité du document signé.
+
+### Chaumian coinjoins
+
+Dans les coinjoins dits "chaumiens", on combine l'utilisation de Tor et des signatures aveugles de David Chaum pour garantir que le coordinateur ne puisse pas savoir quel output appartient à quel utilisateur.
+
+Le processus de construction de la transaction coinjoin s'articule autour de 3 grandes étapes : l'inscription des inputs, l'inscription des outputs et la signature de la transaction. Étudions ce processus à travers l'exemple d'Alice, une des participantes au coinjoin. Tous les autres participants suivent les mêmes étapes qu'Alice, chacun de leur côté.
+
+**Étape 1 : L'inscription des inputs.**
+- Alice transmet au coordinateur l'UTXO qu'elle souhaite utiliser en input de la transaction, ainsi que l'adresse de réception masquée qu'elle souhaite utiliser en output pour recevoir ses bitcoins. Le coordinateur ne peut donc pas connaître l'adresse d'Alice. Il voit uniquement sa version masquée :
+
+03
+
+- Le coordinateur vérifie la validité des inputs, puis il signe l'adresse masquée d'Alice avec sa clé privée. Il renvoie à Alice la signature aveugle :
+
+04
+
+**Étape 2 : L'inscription des outputs.**
+- Alice peut démasquer son adresse maintenant signée par la clé privée du coordinateur. Elle va établir une nouvelle connexion sous une identité Tor différente. Le coordinateur ne peut pas identifier que c'est Alice qui se connecte derrière cette nouvelle identité :
+
+05
+
+- Alice envoie l'adresse et la signature démasquées au coordinateur (qui ne sait toujours pas que c'est Alice) :
+
+05
+
+**Étape 3 : La signature de la transaction.**
+- Le coordinateur récupère de la même manière les outputs démasqués de tous les participants. Grâce aux signatures associées, il peut vérifier que chaque output soumis anonymement a bien été signé par sa clé privée auparavant, ce qui garantie leur légitimité. Il est alors prêt à construire la transaction coinjoin et la transmet aux participants pour qu'ils la signent :
+
+06
+
+- Alice, tout comme les autres participants, vérifie que son input et son output sont correctement inclus dans la transaction construite par le coordinateur. Si tout lui convient, elle envoie la signature qui permet de déverrouiller le script de son input au coordinateur :
+
+07
+
+- Après avoir collecté les signatures de tous les participants du coinjoin, le coordinateur peut diffuser la transaction sur le réseau Bitcoin, afin qu'elle soit ajoutée dans un bloc.
+
+Dans ce système, le coordinateur est dans l'impossibilité de relier un input à un output spécifique. De plus, il ne peut pas s'approprier les fonds des participants car il n'a jamais accès aux clés privées nécessaires pour débloquer leurs UTXOs. Tout au long du processus, et jusqu'à la fin de l'étape 3, il n'a pas non plus accès aux signatures. Lorsqu'Alice et les autres participants signent la transaction globale, après s'être assurés que tout est correct, le coordinateur ne peut plus modifier cette transaction, y compris les outputs, sans l'invalider. Cela empêche donc le vol des bitcoins par le coordinateur.
+
+Finalement, lors de l'enregistrement de son output dans la transaction, l'utilisateur de coinjoin souhaite avoir des garanties similaires à celui d'un citoyen votant lors d'une élection. Il existe une dualité entre les aspects public et privé de ces actions. D'une part, il y a ce que l'on souhaite garder privé : pour le votant, il ne veut pas que son bulletin soit relié à son identité ; pour l'utilisateur de coinjoins, il ne veut pas que son output soit associé à son input. En effet, si le coordinateur, ou toute autre partie, parvient à établir un lien entre un input et un output, le coinjoin perd tout son intérêt. Comme expliqué précédemment, le coinjoin doit fonctionner comme une cassure dans l'historique d'une pièce. Ce stop advient précisément du fait de l'impossibilité d'associer un input spécifique avec un output spécifique dans la transaction coinjoin (anonset prospectif) et inversement (anonset rétrospectif).
+
+D'autre part, il y a l'aspect public : le votant veut s'assurer que son bulletin est inclus dans l'urne ; de même, l'utilisateur de coinjoins veut s'assurer que son output est inclus dans la transaction coinjoin. En effet, il faut absolument que les participants du coinjoin soient en capacité de vérifier la présence de leur output avant de signer la transaction, sans quoi le coordinateur pourrait modifier voler les fonds.
+
+Ce sont précisément ces 2 aspects public et privé, permis par l'utilisation des signatures aveugles de David Chaum, qui permettent de garantir aux participants des coinjoins chaumiens qu'ils ne se feront pas voler leurs bitcoins, et que l'on ne pourra pas tracer leurs fonds.
+
+Dans le chapitre suivant, nous allons justement découvrir les différentes implémentations de coinjoin existantes.
+
+### Zerolink
+
+
 
 ## Les implémentations de coinjoin et les coordinateurs
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-La confidentialité se gagne sur la grandeur du groupe dans lequel notre pièce se cache, il faut donc qu'il soit le plus grand possible. Il est donc tout à fait possible de faire un coinjoin manuellement avec des utilisateurs que l'on a trouvé nous-même, mais cette manière de faire 
 
 
 
-## Zerolink et chaumian coinjoins
-<chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
 
-Ce chapitre est en cours de rédaction, et sera publié très prochainement !
+
+
+
+
+
 
 
 

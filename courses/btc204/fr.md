@@ -1626,7 +1626,7 @@ La confidentialité apportée par un coinjoin se gagne sur la grandeur du groupe
 
 C'est pour cette raison que se sont développés sur Bitcoin des coordinateurs de coinjoin. Leur rôle est de mettre en relation les différents utilisateurs et de transmettre les informations permettant la bonne réalisation de la transaction collaborative.
 
-01
+![BTC204](assets/notext/52/01.webp)
 
 Mais comment faire pour que le coordinateur n'ait à aucun moment la main sur les bitcoins des utilisateurs, et malgré le fait qu'il soit la personne qui construit la transaction coinjoin, comment faire pour qu'il ne puisse pas lier les inputs et les outputs des utilisateurs, ce qui pourrait constituer une fuite de confidentialité ?
 
@@ -1636,7 +1636,7 @@ Les implémentations modernes de coinjoin utilisent les signatures aveugles de D
 
 Les signatures aveugles de Chaum sont une forme de signature numérique où l'émetteur d'une signature ne connaît pas le contenu du message qu'il signe. Mais la signature peut ensuite être vérifiée avec le message original. Cette technique a été développée par le cryptographe David Chaum en 1983.
 
-02
+![BTC204](assets/notext/52/02.webp)
 
 Prenons l'exemple d'une entreprise désirant faire authentifier un document confidentiel, comme un contrat, sans en révéler le contenu. L'entreprise applique un processus de masquage qui transforme cryptographiquement le document original de manière réversible. Ce document modifié est envoyé à une autorité de certification qui appose une signature aveugle sans connaître le contenu sous-jacent. Après avoir reçu le document signé, l'entreprise démasque la signature. Le résultat est un document original authentifié par la signature de l'autorité, sans que cette dernière n'ait jamais vu le contenu original.
 
@@ -1651,29 +1651,29 @@ Le processus de construction de la transaction coinjoin s'articule autour de 3 g
 **Étape 1 : L'inscription des inputs.**
 - Alice transmet au coordinateur l'UTXO qu'elle souhaite utiliser en input de la transaction, ainsi que l'adresse de réception masquée qu'elle souhaite utiliser en output pour recevoir ses bitcoins. Le coordinateur ne peut donc pas connaître l'adresse d'Alice. Il voit uniquement sa version masquée :
 
-03
+![BTC204](assets/notext/52/03.webp)
 
 - Le coordinateur vérifie la validité des inputs, puis il signe l'adresse masquée d'Alice avec sa clé privée. Il renvoie à Alice la signature aveugle :
 
-04
+![BTC204](assets/notext/52/04.webp)
 
 **Étape 2 : L'inscription des outputs.**
 - Alice peut démasquer son adresse maintenant signée par la clé privée du coordinateur. Elle va établir une nouvelle connexion sous une identité Tor différente. Le coordinateur ne peut pas identifier que c'est Alice qui se connecte derrière cette nouvelle identité :
 
-05
+![BTC204](assets/notext/52/05.webp)
 
 - Alice envoie l'adresse et la signature démasquées au coordinateur (qui ne sait toujours pas que c'est Alice) :
 
-05
+![BTC204](assets/notext/52/06.webp)
 
 **Étape 3 : La signature de la transaction.**
 - Le coordinateur récupère de la même manière les outputs démasqués de tous les participants. Grâce aux signatures associées, il peut vérifier que chaque output soumis anonymement a bien été signé par sa clé privée auparavant, ce qui garantie leur légitimité. Il est alors prêt à construire la transaction coinjoin et la transmet aux participants pour qu'ils la signent :
 
-06
+![BTC204](assets/notext/52/07.webp)
 
 - Alice, tout comme les autres participants, vérifie que son input et son output sont correctement inclus dans la transaction construite par le coordinateur. Si tout lui convient, elle envoie la signature qui permet de déverrouiller le script de son input au coordinateur :
 
-07
+![BTC204](assets/notext/52/08.webp)
 
 - Après avoir collecté les signatures de tous les participants du coinjoin, le coordinateur peut diffuser la transaction sur le réseau Bitcoin, afin qu'elle soit ajoutée dans un bloc.
 
@@ -1693,25 +1693,31 @@ Il est difficile de déterminer avec certitude qui a introduit en premier l'idé
 
 Maxwell, G. (2013, 22 août). *CoinJoin: Bitcoin privacy for the real world*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
+![BTC204](assets/notext/52/09.webp)
+
 Toutefois, il existe d'autres mentions antérieures, à la fois pour les signatures de Chaum dans le cadre du mixage, mais également pour les coinjoins. [En juin 2011, Duncant présente sur BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) un mélangeur qui utilise les signatures de Chaum d'une manière assez similaire aux coinjoins chaumiens modernes.
 
 Dans le même thread, on peut retrouver [un message de hashcoin en réponse à Duncant](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) pour améliorer son mélangeur. Ce message présente justement ce qui ressemble le plus aux coinjoins. On retrouve également une mention d'un système similaire dans [un message de Alex Mizrahi en 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), alors qu'il conseillait les créateurs de Tenebrix, un des premiers altcoins qui a servi de base pour créer Litecoin par la suite. Même le terme en lui-même de "coinjoin" n'aurait pas été inventé par Greg Maxwell, mais il viendrait d'une idée de Peter Todd.
+
+![BTC204](assets/notext/52/10.webp)
 
 ### Zerolink
 
 Zerolink est un protocole de mixage complet qui intègre des coinjoins chaumiens et diverses stratégies pour protéger l'anonymat des utilisateurs contre plusieurs formes d'analyses de chaîne, en minimisant notamment les erreurs liées à la gestion des portefeuilles. Ce protocole [a été introduit par nopara73 et TDevD en 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
+![BTC204](assets/notext/52/14.webp)
+
 Comme son nom l'indique, le principe de Zerolink est de réaliser des transactions coinjoin qui assurent l'impossibilité de retracer les liens entre les intputs et les outputs. Cette caractéristique est obtenue en s'assurant que tous les outputs présentent des montants parfaitement identiques.
 
-08
+![BTC204](assets/notext/52/11.webp)
 
 Une mesure préventive importante de Zerolink consiste à séparer totalement les UTXOs non mixés des UTXOs mixés en utilisant des ensembles de clés cryptographiques distincts, voire des portefeuilles séparés. On différencie ainsi le portefeuille de "*pre-mix*", destiné aux pièces avant mixage, du portefeuille de "*post-mix*", réservé aux pièces ayant été mixées.
 
-09
+![BTC204](assets/notext/52/12.webp)
 
 Cette séparation rigoureuse des UTXOs sert avant tout à prévenir les associations accidentelles entre un UTXO mixé et un UTXO non mixé. En effet, si de tels liens se produisent, l'efficacité du coinjoin sur l'UTXO mixé est annulée sans que l'utilisateur en soit conscient, compromettant ainsi la confidentialité d'un UTXO dont il croyait avoir rompu l'historique. Ces liens peuvent survenir soit par réutilisation d'adresse sur la sécurisation d'un UTXO mixé avec un non mixé, soit par application de la CIOH (_Common-Input-Ownership Heuristic_), si l'utilisateur consomme en inputs d'une même transaction des UTXOs mixés et non mixés. En séparant les portefeuilles de pré-mixage et de post-mixage, on évite ces associations accidentelles et on protège l'utilisateur contre des erreurs involontaires.
 
-10
+![BTC204](assets/notext/52/13.webp)
 
 Cette séparation offre également la possibilité d'appliquer des règles distinctes entre les portefeuilles de pré-mixage et de post-mixage au niveau du logiciel de portefeuille. Par exemple, dans le portefeuille de post-mixage, le logiciel peut interdire la fusion d'UTXOs en inputs pour empêcher l'application de la CIOH qui compromettrait l'anonset de l'utilisateur. Il est aussi possible d'uniformiser l'utilisation des scripts et des options de transaction (comme le signalement de RBF par exemple) pour prévenir l'identification par des empreintes de portefeuille. 
 

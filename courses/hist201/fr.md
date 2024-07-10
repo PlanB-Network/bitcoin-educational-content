@@ -1221,7 +1221,7 @@ Le 2 septembre, le mineur [puddinpop](https://bitcointalk.org/index.php?topic=13
 
 Toutefois, cette position est très vite concurrencée par d'autres individus qui se mettent à jour. Par la suite, ArtForz s'éloignera progressivement de l'activité minière pour se concentrer sur le développement logiciel. En août 2011, il [affirmera](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671) ainsi avoir moins de 1 % de la puissance de calcul du réseau.
 
-### La spécialisation du minage (sept. 2010 -- déc. 2010)
+### La spécialisation du minage (sept. 2010 -- oct. 2010)
 
 À la fin de l'été 2010, l'exemple d'ArtForz inspire d'autres mineurs qui s'empressent de développer leurs propres méthodes pour générer des bitcoins avec leurs processeurs graphiques. Pour ce faire, les mineurs utilisent des environnements de programmation comme CUDA ou OpenCL. Cela leur permet d'obtenir une puissance de calcul se comptant en MH/s et de représenter une part non négligeable de la puissance totale.
 
@@ -1233,9 +1233,59 @@ D'autres algorithmes sont rendus publics dans le même temps. Le 9 septembre, un
 
 Cette amélioration permet aux individus les plus compétents techniquement de générer beaucoup de bitcoins. Outre ArtForz, on voit notamment Nils Schneider (tcatm) s'imposer comme l'un des principaux mineurs de cette période. Le 3 octobre 2010, ce dernier [affirme](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) avoir un taux de hachage 983 MH/s produit par 3 processeurs graphiques. Ce nombre a l'effet d'[étonner](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) Satoshi en personne.
 
+### Bitcoin dans d'autres langues (août 2010 -- déc. 2010)
+
+Bitcoin est un projet international et, en tant que tel, doit être accessible à un maximum de personnes en dehors de la sphère anglophone. C'est pourquoi la communauté se [coordonne](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) pour traduire le site web et l'interface graphique du logiciel dans plusieurs langues partir de mai 2010. L'italien, l'allemand, le néerlandais sont notamment concernés.
+
+Mais ce n'est pas tout. À la fin du mois de juillet, Martti Malmi commence à mettre en place des sous-forums dédiés aux non-anglophones. La communauté russe est la première à se former : suite à la demande d'un membre utilisant le pseudonyme bitcoinex, le sous-forum dédié est [créé](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241) le 28 juillet. Puis, des [fils de discussion](https://web.archive.org/web/20101018144227/http://www.bitcoin.org:80/smf/index.php?board=11.0) consacrés à d'autres communautés linguistiques sont créés : l'italien, le néerlandais, le japonais et le catalan en août ; l'espagnol en septembre ; et enfin l'allemand en octobre. Toutefois, aucun groupe n'égale alors la communauté russe et seuls quelques messages sont échangés.
+
+C'est avec la communauté française que les choses changent, notamment grâce à l'action d'un individu : Lucien Grondin, aussi connu sous le pseudonyme grondilu. Le 26 septembre ce dernier découvre Bitcoin et s'enthousiasme immédiatement pour le projet. En fin de soirée, il [écrit](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09/26#l1285544830) ainsi sur IRC :
+
+> « Mon dieu, je n'arrive pas à dormir ! Je n'arrête pas de penser à ces trucs géniaux. Pour moi, le bitcoin est "l'or du cyperespace". \[sic\] Je suis juste émerveillé. »
+>
+> *original: "gosh I can't sleep ! I keep thinking about this great stuff. To me bitcoin is the "cyperspace gold" \[sic\]. I'm just amazed."*
+
+Quelques jours plus tard, le 30, il publie une [dépêche](https://linuxfr.org/news/connaissez-vous-les-bitcoins) en français sur LinuxFr.org (DLFP). Celle-ci, intitulée « Connaissez-vous les bitcoins ? », est probablement le premier texte de présentation de Bitcoin écrit dans la langue de Molière. L'article touche un grand nombre de personnes, générant près de 350 commentaires. En voici le premier paragraphe tel qu'il [apparait](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) à ce moment-là :
+
+![Connaissez-vous les bitcoins ?](assets/img/ch10/grondilu-bitcoins-2010.webp)
+
+En particulier, il a pour effet d'attirer l'attention d'un certain Ploum, de son vrai nom Lionel Dricot, blogueur et libriste belge de 29 ans. Le 25 octobre, ce dernier [publie](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) un article sur son blog, intitulé « Monnaie de geek, monnaie de singe ? », dans lequel il prône la décentralisation et adhère au principe de Bitcoin. De nombreux internautes francophones entendront parler de Bitcoin par ce biais, dont [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/) le développeur qui sera à l'origine de la création de Bitcoin Cash en 2017.
+
+![Lionel Dricot (Ploum) en 2012, alors candidat sous la bannière du Parti Pirate pour les élections communales et provinciales belges](assets/img/ch10/lionel-dricot-ploum-parti-pirate-2012.webp)
+
+Lionel Dricot (Ploum) en 2012, alors candidat sous la bannière du Parti Pirate pour les élections communales et provinciales belges (source : [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
+
+Le même jour, Ploum ouvre le [fil de discussion](https://bitcointalk.org/index.php?topic=1567.0) « French » sur le forum de Bitcoin. Les messages des membres francophones du forum se multiplient lors des mois qui suivent. On y voit notamment intervenir David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), inscrit le 17 octobre et futur fondateur de Bitcoin-Central, et Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336), inscrit le 7 novembre et futur repreneur de la plateforme Mt. Gox. Il verra aussi le passage d'un certain Jean-Luc qui ouvrira le site [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le 23 décembre et commencera à en faire la [promotion](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) en janvier. Un [sous-forum français](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) finira par être créé par Martti Malmi le 1er février 2011.
+
+### Une économie florissante
+
+Bitcoinmedia: https://bitcointalk.org/index.php?topic=1355
+
+Vidéo avec xtranormal : https://www.youtube.com/watch?v=AiGCuyRJe8s
+
+nanotube, IRC #bitcoin-otc (Freenode), 18 octobre 2010 : https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508
+
+Bitcoinwatch, jgarzik : https://bitcointalk.org/index.php?topic=1593.msg18908#msg18908
+
+Bitcoincharts.com, tcatm : https://bitcointalk.org/index.php?topic=1659.0 https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/
+
+29/10, offline key generation: https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131
+
+1er novembre, logo par bitboy : https://bitcointalk.org/index.php?topic=1631.0
+
+En octobre, le prix du bitcoin commence à augmenter, en passant de 6 ¢ (niveau auquel il se stabilise depuis fin juillet) à 10 ¢, puis à 20 ¢ à la fin du mois. Le 6 novembre, il atteint même les 50 ¢, ce qui ne manque pas d'[enthousiasmer](https://bitcointalk.org/index.php?topic=1681.0) les membres du forum.
+
+![Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox](assets/img/ch10/matonis-btc-price-mtgox-july-october-2010.webp)
+
+Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox (source : [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
+
+Explorateur de blocs par theymos, [10/11/2010](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) ([archive](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))
+
+15--26 novembre : flot de transactions, [signalé](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) le 19 par Jeff Garzik. Par conséquent, Satoshi met des mesures en place : frais de transaction et limites sur les transactions gratuites.
+
 ### Les premières coopératives de minage (oct. 2010 -- déc. 2010)
 
-L'augmentation massive du taux de hachage a pour conséquence de rendre difficile le minage par processeur central, qui devient de moins en moins abordable. En effet, la possibilité de générer des bitcoins est de plus en plus dépendante de la variance, certains individus n'arrivant jamais à produire un bloc. La solution à ce problème est le minage coopératif.
+L'augmentation massive du taux de hachage due à la spécialisation du minage a pour conséquence de rendre difficile la génération par processeur central, qui devient de moins en moins abordable. En effet, la possibilité de générer des bitcoins est de plus en plus dépendante de la variance, certains individus n'arrivant jamais à produire un bloc. La solution à ce problème est le minage coopératif.
 
 Le 1er octobre, m0mchil [publie](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) une modification de l'API qui aux nœuds clients de récupérer un bloc candidat par le biais d'une nouvelle fonction appelée `getwork` et de renvoyer la preuve de travail si une solution est trouvée. Il écrit que ce correctif « ouvre la voie aux mineurs de bitcoin externes » et « permet le montage de plusieurs mineurs pour un client ». (*original: "It opens the way for external bitcoin miners. If non-local RPC is used it also enables multiple-miners-to-client arrangement."*)
 
@@ -1264,54 +1314,6 @@ La coopérative deviendra une référence en ce qui concerne le minage de Bitcoi
 ![Logo de la coopération de Slush en septembre 2011](assets/img/ch10/bitcoin-cz-mining-20110923.webp)
 
 Logo de la coopération de Slush en septembre 2011 (source : [archive](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) du site)
-
-### Bitcoin dans d'autres langues
-
-Bitcoin est un projet international. Le site web et l'interface graphique du logiciel sont notamment traduits dans de nombreuses langues. https://bitcointalk.org/index.php?topic=151.msg1259#msg1259
-
-Pendant l'été (Digital Gold: "late July"), Martti Malmi met en place des sous-forums dédiés aux non-anglophones ([archive](https://web.archive.org/web/20100818203541/http://www.bitcoin.org/smf/))
-
-Développement de la communauté russe... btcex.com, webmoney
-
-30 septembre, article de Lucien Grondin (grondilu) en français sur LinuxFr.org (découvre Bitcoin le 26/9, [enthousiasme](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09/26#l1285544830)) : « [Internet : Connaissez-vous les bitcoins ?](https://linuxfr.org/news/connaissez-vous-les-bitcoins) »
-
-![Internet : Connaissez-vous les bitcoins ?](assets/img/ch10/grondilu-bitcoins-2010.webp)
-
-(source : [archive](https://web.archive.org/web/20110521042522/https://linuxfr.org/news/connaissez-vous-les-bitcoins) de LinuxFr.org)
-
-25 octobre, article de ploum en français sur son blog : https://ploum.net/monnaie-de-geek-monnaie-de-singe/ ; création du sujet "French" sur le forum : https://bitcointalk.org/index.php?topic=1567.0
-
-Communauté française : grondilu (Lucien Grondin), davout (David François, Bitcoin-Central, 17/10), MagicalTux (Mark Karpelès, inscrit le 7/11), jluc (inscrit le 23/12, création de [bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le même jour, premier article le 28/12)
-
-[deadalnix](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/) (Amaury Séchet)
-
-Le [sous-forum français](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) sera créé le 1er février 2011.
-
-### Une économie florissante
-
-Bitcoinmedia: https://bitcointalk.org/index.php?topic=1355
-
-nanotube, IRC #bitcoin-otc (Freenode), 18 octobre 2010 : https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508
-
-Bitcoinwatch, jgarzik : https://bitcointalk.org/index.php?topic=1593.msg18908#msg18908
-
-Bitcoincharts.com, tcatm : https://bitcointalk.org/index.php?topic=1659.0 https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/
-
-29/10, offline key generation: https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131
-
-1er novembre, logo par bitboy : https://bitcointalk.org/index.php?topic=1631.0
-
-En octobre, le prix du bitcoin commence à augmenter, en passant de 6 ¢ (niveau auquel il se stabilise depuis fin juillet) à 10 ¢, puis à 20 ¢ à la fin du mois. Le 6 novembre, il atteint même les 50 ¢, ce qui ne manque pas d'[enthousiasmer](https://bitcointalk.org/index.php?topic=1681.0) les membres du forum.
-
-![Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox](assets/img/ch10/matonis-btc-price-mtgox-july-october-2010.webp)
-
-Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox (source : [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
-
-Explorateur de blocs par theymos, [10/11/2010](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) ([archive](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))
-
-
-15--26 novembre : flot de transactions, [signalé](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) le 19 par Jeff Garzik. Par conséquent, Satoshi met des mesures en place : frais de transaction et limites sur les transactions gratuites.
-
 
 ### Le retour de Hal Finney (nov. 2010 -- déc. 2010)
 

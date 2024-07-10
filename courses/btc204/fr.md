@@ -1622,7 +1622,7 @@ De nos jours, les utilisateurs préfèrent donc le coinjoin, car il permet de ga
 ## Zerolink et chaumian coinjoins
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-La confidentialité apportée par un coinjoin se gagne sur la grandeur du groupe dans lequel notre pièce se cache, il faut donc qu'il y est le plus de participants possible. Il est tout à fait possible de faire un coinjoin manuellement, avec des utilisateurs que l'on a trouvé nous-même, mais cette manière de faire est complexe, et elle ne permet pas de gagner de grands anonsets.
+La confidentialité apportée par un coinjoin se gagne sur la grandeur du groupe dans lequel notre pièce se cache. Il faut donc trouver le plus de participants possible. Il est tout à fait possible de faire un coinjoin manuellement, avec des utilisateurs que l'on a trouvés nous-même, mais cette manière de faire est complexe, et elle ne permet pas de gagner de grands anonsets.
 
 C'est pour cette raison que se sont développés sur Bitcoin des coordinateurs de coinjoin. Leur rôle est de mettre en relation les différents utilisateurs et de transmettre les informations permettant la bonne réalisation de la transaction collaborative.
 
@@ -1638,7 +1638,7 @@ Les signatures aveugles de Chaum sont une forme de signature numérique où l'é
 
 ![BTC204](assets/notext/52/02.webp)
 
-Prenons l'exemple d'une entreprise désirant faire authentifier un document confidentiel, comme un contrat, sans en révéler le contenu. L'entreprise applique un processus de masquage qui transforme cryptographiquement le document original de manière réversible. Ce document modifié est envoyé à une autorité de certification qui appose une signature aveugle sans connaître le contenu sous-jacent. Après avoir reçu le document signé, l'entreprise démasque la signature. Le résultat est un document original authentifié par la signature de l'autorité, sans que cette dernière n'ait jamais vu le contenu original.
+Prenons l'exemple d'une entreprise désirant faire authentifier un document confidentiel, comme un contrat, sans en révéler le contenu. L'entreprise applique un processus de masquage qui transforme cryptographiquement le document original de manière réversible. Ce document modifié est envoyé à une autorité de certification qui appose une signature aveugle sans connaître le contenu sous-jacent. Après avoir reçu le document signé, l'entreprise démasque la signature. Le résultat est un document original authentifié par la signature de l'autorité, sans que cette dernière ait jamais vu le contenu original.
 
 Les signatures aveugles de Chaum permettent donc de certifier l'authenticité d'un document sans en connaître le contenu, ce qui garantit à la fois la confidentialité des données de l'utilisateur et l'intégrité du document signé.
 
@@ -1667,7 +1667,7 @@ Le processus de construction de la transaction coinjoin s'articule autour de 3 g
 ![BTC204](assets/notext/52/06.webp)
 
 **Étape 3 : La signature de la transaction.**
-- Le coordinateur récupère de la même manière les outputs démasqués de tous les participants. Grâce aux signatures associées, il peut vérifier que chaque output soumis anonymement a bien été signé par sa clé privée auparavant, ce qui garantie leur légitimité. Il est alors prêt à construire la transaction coinjoin et la transmet aux participants pour qu'ils la signent :
+- Le coordinateur récupère de la même manière les outputs démasqués de tous les participants. Grâce aux signatures associées, il peut vérifier que chaque output soumis anonymement a bien été signé par sa clé privée auparavant, ce qui garantit leur légitimité. Il est alors prêt à construire la transaction coinjoin et la transmet aux participants pour qu'ils la signent :
 
 ![BTC204](assets/notext/52/07.webp)
 
@@ -1677,11 +1677,11 @@ Le processus de construction de la transaction coinjoin s'articule autour de 3 g
 
 - Après avoir collecté les signatures de tous les participants du coinjoin, le coordinateur peut diffuser la transaction sur le réseau Bitcoin, afin qu'elle soit ajoutée dans un bloc.
 
-Dans ce système, le coordinateur est dans l'impossibilité de relier un input à un output spécifique. De plus, il ne peut pas s'approprier les fonds des participants car il n'a jamais accès aux clés privées nécessaires pour débloquer leurs UTXOs. Tout au long du processus, et jusqu'à la fin de l'étape 3, il n'a pas non plus accès aux signatures. Lorsqu'Alice et les autres participants signent la transaction globale, après s'être assurés que tout est correct, le coordinateur ne peut plus modifier cette transaction, y compris les outputs, sans l'invalider. Cela empêche donc le vol des bitcoins par le coordinateur.
+Dans ce système, le coordinateur est dans l'impossibilité de relier un input à un output spécifique. De plus, il ne peut pas s'approprier les fonds des participants, car il n'a jamais accès aux clés privées nécessaires pour débloquer leurs UTXOs. Tout au long du processus, et jusqu'à la fin de l'étape 3, il n'a pas non plus accès aux signatures. Lorsque Alice et les autres participants signent la transaction globale, après s'être assurés que tout est correct, le coordinateur ne peut plus modifier cette transaction, y compris les outputs, sans l'invalider. Cela empêche donc le vol des bitcoins par le coordinateur.
 
 Finalement, lors de l'enregistrement de son output dans la transaction, l'utilisateur de coinjoin souhaite avoir des garanties similaires à celui d'un citoyen votant lors d'une élection. Il existe une dualité entre les aspects public et privé de ces actions. D'une part, il y a ce que l'on souhaite garder privé : pour le votant, il ne veut pas que son bulletin soit relié à son identité ; pour l'utilisateur de coinjoins, il ne veut pas que son output soit associé à son input. En effet, si le coordinateur, ou toute autre partie, parvient à établir un lien entre un input et un output, le coinjoin perd tout son intérêt. Comme expliqué précédemment, le coinjoin doit fonctionner comme une cassure dans l'historique d'une pièce. Ce stop advient précisément du fait de l'impossibilité d'associer un input spécifique avec un output spécifique dans la transaction coinjoin (anonset prospectif) et inversement (anonset rétrospectif).
 
-D'autre part, il y a l'aspect public : le votant veut s'assurer que son bulletin est inclus dans l'urne ; de même, l'utilisateur de coinjoins veut s'assurer que son output est inclus dans la transaction coinjoin. En effet, il faut absolument que les participants du coinjoin soient en capacité de vérifier la présence de leur output avant de signer la transaction, sans quoi le coordinateur pourrait modifier voler les fonds.
+D'autre part, il y a l'aspect public : le votant veut s'assurer que son bulletin est inclus dans l'urne ; de même, l'utilisateur de coinjoins veut s'assurer que son output est inclus dans la transaction coinjoin. En effet, il faut absolument que les participants du coinjoin soient en capacité de vérifier la présence de leur output avant de signer la transaction, sans quoi le coordinateur pourrait voler les fonds.
 
 Ce sont précisément ces 2 aspects public et privé, permis par l'utilisation des signatures aveugles de David Chaum, qui permettent de garantir aux participants des coinjoins chaumiens qu'ils ne se feront pas voler leurs bitcoins, et que l'on ne pourra pas tracer leurs fonds.
 
@@ -1695,9 +1695,9 @@ Maxwell, G. (2013, 22 août). *CoinJoin: Bitcoin privacy for the real world*. Bi
 
 ![BTC204](assets/notext/52/09.webp)
 
-Toutefois, il existe d'autres mentions antérieures, à la fois pour les signatures de Chaum dans le cadre du mixage, mais également pour les coinjoins. [En juin 2011, Duncant présente sur BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) un mélangeur qui utilise les signatures de Chaum d'une manière assez similaire aux coinjoins chaumiens modernes.
+Toutefois, il existe d'autres mentions antérieures, à la fois pour les signatures de Chaum dans le cadre du mixage, mais également pour les coinjoins. [En juin 2011, Duncan Townsend présente sur BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) un mélangeur qui utilise les signatures de Chaum d'une manière assez similaire aux coinjoins chaumiens modernes.
 
-Dans le même thread, on peut retrouver [un message de hashcoin en réponse à Duncant](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) pour améliorer son mélangeur. Ce message présente justement ce qui ressemble le plus aux coinjoins. On retrouve également une mention d'un système similaire dans [un message de Alex Mizrahi en 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), alors qu'il conseillait les créateurs de Tenebrix, un des premiers altcoins qui a servi de base pour créer Litecoin par la suite. Même le terme en lui-même de "coinjoin" n'aurait pas été inventé par Greg Maxwell, mais il viendrait d'une idée de Peter Todd.
+Dans le même thread, on peut retrouver [un message de hashcoin en réponse à Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) pour améliorer son mélangeur. Ce message présente justement ce qui ressemble le plus aux coinjoins. On retrouve également une mention d'un système similaire dans [un message d'Alex Mizrahi en 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), alors qu'il conseillait les créateurs de Tenebrix, un des premiers altcoins qui a servi de base pour créer Litecoin par la suite. Même le terme en lui-même de "coinjoin" n'aurait pas été inventé par Greg Maxwell, mais il viendrait d'une idée de Peter Todd.
 
 ![BTC204](assets/notext/52/10.webp)
 

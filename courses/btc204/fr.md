@@ -1723,16 +1723,81 @@ Cette séparation offre également la possibilité d'appliquer des règles disti
 
 Actuellement, Whirlpool est la seule implémentation de coinjoin qui applique de manière rigoureuse le protocole Zerolink. Dans le chapitre suivant, nous allons justement découvrir les différentes implémentations de coinjoin existantes et les avantages et inconvénients de chacune.
 
-## Les implémentations de coinjoin et les coordinateurs
+## Les implémentations de coinjoin
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+*En 2024, nous assistons à d'importants changements dans les outils disponibles pour les utilisateurs désirant réaliser des coinjoins sur Bitcoin. Nous sommes actuellement dans une période charnière, et le marché des coinjoins est en pleine restructuration. Ce chapitre sera donc sûrement mis à jour au fil du temps.*
 
+Il existe pour le moment principalement 3 implémentations de coinjoin différentes sur Bitcoin :
+- Whirlpool ;
+- Wabisabi ;
+- JoinMarket.
 
+Chacune de ces implémentations a pour objectif de rompre l'historique des UTXOs via des transactions coinjoins. Cependant, leurs mécanismes varient considérablement. Il est donc essentiel de comprendre le fonctionnement de chacune pour choisir l'option la plus adaptée à vos besoins.
 
+### JoinMarket
 
+JoinMarket, créé en 2015 par Adam Gibson et Chris Belcher, se distingue nettement des autres implémentations de coinjoin grâce à son modèle unique de mise en relation des utilisateurs. Ce système repose sur un marché d'échange P2P où certains utilisateurs, les "makers", mettente à disposition leurs bitcoins pour le mixage, tandis que d'autres, les "takers", utilisent ces liquidités pour réaliser des coinjoins moyennant une rémunération.
 
+01
 
+Dans ce modèle, les "makers" laissent leurs bitcoins à disposition des "takers" et reçoivent des frais en contrepartie de leur service. Les "takers", quant à eux, paient pour utiliser les bitcoins des "makers" afin de réaliser leurs propres transactions coinjoin. Les frais de service varient en fonction du rôle occupé : les "makers" accumulent des frais pour leur offre de liquidités, tandis que les "takers" paient les frais. Ce marché fonctionne librement, sans conditions d'utilisation.
 
+L'un des principaux inconvénients de JoinMarket est sa complexité d'utilisation, qui nécessite une certaine aisance avec les terminaux pour l'exploiter efficacement. Bien que cette complexité ne soit pas un obstacle pour un utilisateur expérimenté, elle peut limiter l'accès au grand public. Notons tout de même que la récente introduction d'une interface web nommée JAM a quelque peu facilité son utilisation.
+
+02
+
+Cependant, la barrière technique reste un frein majeur. Dans l'écosystème des coinjoins, où la confidentialité est renforcée par le nombre de participants, toute limitation réduisant l'accessibilité impacte directement la liquidité disponible, qui est un facteur crucial pour l'efficacité du mixage. Bitcoin, étant déjà une niche dans les transactions financières, voit son usage de coinjoins comme une sous-niche, et JoinMarket en représente une fraction encore plus spécialisée, ce qui restreint donc son potentiel à augmenter les anonsets de ses utilisateurs.
+
+JoinMarket, malgré son modèle innovant de mise en relation P2P pour les coinjoins, présente certains désavantages significatifs, notamment en termes de structure transactionnelle. Contrairement à d'autres implémentations comme Whirlpool, JoinMarket ne garantit pas l'égalité parfaite entre les outputs, et il est possible de retracer des liens déterministes entre les inputs et les outputs. De plus, il n'a pas d'outils pour empêcher que des pièces déjà mélangées ensemble ne le soient à nouveau, ce qui pourrait compromettre la confidentialité recherchée par les utilisateurs.
+
+Finalement, bien que le concept de JoinMarket soit intéressant, surtout pour ceux intéressés par un marché de liquidités dynamique, ses faiblesses structurelles et sa complexité technique le rendent selon moi moins intéressant, tant pour les novices que pour les experts en quête d'une implémentation de coinjoin.
+
+### Wabisabi
+
+Wabisabi est une autre implémentation de coinjoin, avec une approche qui centralise la coordination des transactions. Ce modèle a été conçu Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero, et István András Seres en 2021, et a été intégré dans le logiciel Wasabi 2.0 l'année suivante. Wabisabi est justement une évolution du modèle de coinjoin du logiciel Wasabi lancé en 2018.
+
+03
+
+Vers la fin de la décennie 2010, Wasabi adoptait pour ses coinjoins une structure de transaction radicalement différente de celle de Whirlpool. Pour faire monter les anonsets de ses participants, Wasabi utilisait de grandes transactions coinjoin regroupant des dizaines de participants. En opposition, Whirlpool optait pour de multiples petites transactions, permettant d'accroître les anonsets de manière exponentielle à chaque cycle.
+
+Les méthodes de gestion du change distinguaient également les deux implémentations. Avec Whirlpool, le change était exclu et isolé des UTXOs avant les cycles de coinjoins grâce à la TX0, un concept que j'expliquerai davantage dans le prochain chapitre. Chez Wasabi, en revanche, le change formait un des outputs de la transaction coinjoin, ce qui maintenait des liens déterministes entre certains inputs et outputs.
+
+04
+
+Avec Wabisabi, la version 2.0 de Wasabi a adapté son approche des coinjoins pour se rapprocher de celle de Whirlpool. Bien que les transactions coinjoins demeurent de grande taille, il est désormais possible d'enchaîner plusieurs cycles successifs, suivant ainsi le modèle de Whirlpool. Un effort particulier a aussi été porté sur la gestion du change : contrairement à Wasabi 1.0, où le change était directement lié aux inputs des utilisateurs, Wabisabi cherche à subdiviser le change en plusieurs petites sommes, réparties en dénominations égales pour tous les participants.
+
+Illustrons cela par un exemple simplifié impliquant 2 utilisateurs seulement : Alice souhaite mixer 115 000 sats et Bob, 210 000 sats. En négligeant les frais, avec Wasabi 1.0, une transaction coinjoin aurait généré 3 outputs de 100 000 sats, plus 1 change de 15 000 sats pour Alice et 1 change de 110 000 sats pour Bob. Les outputs de change seraient toujours liés aux inputs :
+
+05
+
+Sous Wabisabi, la même transaction aurait produit 3 outputs de 100 000 sats et 5 outputs de 5 000 sats, dispersant ainsi le change de manière à ce qu'il ne soit pas directement rattachable à un input spécifique :
+
+06
+
+Personnellement, je trouve que la gestion du change dans Wabisabi présente plusieurs risques qui pourraient compromettre son efficacité en termes de confidentialité :
+- Lorsqu'un utilisateur contribue avec un UTXO nettement plus grand que ceux des autres participants, il se retrouve inévitablement avec un montant de change qui sera lié à son input. Cela va à l'encontre de l'objectif initial du protocole qui vise à éliminer tout change identifiable ;
+- La multiplication des dénominations dans le but de fragmenter le change peut paradoxalement nuire à l'efficacité du mixage. Ce processus peut entraîner une diminution des anonsets pour certains outputs, car ils deviennent plus facilement identifiables ;
+- Cette méthode génère également des UTXOs de faible valeur qui posent un problème de gestion pour l'utilisateur. Ces petits UTXOs, s'ils deviennent trop coûteux à dépenser par rapport à leur valeur, peuvent devenir du "dust". Ce phénomène pousse l'utilisateur à fusionner plusieurs UTXOs en inputs dans ses transactions futures ou à les consolider. Dans les deux cas, à cause de la CIOH, cela peut soit diminuer les anonsets obtenus, soit annuler complètement les bénéfices de confidentialité acquis par le coinjoin initial.
+
+Contrairement à Whirlpool qui implémente le protocole ZeroLink assurant une séparation rigoureuse entre les UTXOs de pré-mix et de post-mix, Wabisabi ne maintient pas cette ségrégation stricte. Il y a également eu des problèmes de réutilisation d'adresse par certains clients Wasabi qui sont évidemment très préjudiciables pour l'utilisateur.
+
+Dans la version 2.0 de Wasabi, une nouvelle politique de frais de coinjoin a été mise en place. Désormais, les frais de coordinateur sont fixés à 0.3 % pour les UTXOs supérieurs à 0.01 bitcoin, tandis que pour les UTXOs plus petits, ces frais sont entièrement offerts. De plus, les remixes pour ces petits UTXOs sont gratuits, bien que les frais de minage restent à la charge de l'utilisateur pour toutes les transactions, y compris les remixes.
+
+Cette politique contraste avec celle de Whirlpool, où les frais restent constants, indépendamment  la taille des anonsets gagnés. Avec Wasabi 2.0, bien que les frais de coordinateur soient supprimés pour les petits UTXOs, l'utilisateur doit toujours payer les frais de minage sur toutes les transactions, y compris les remixes.
+
+À l'heure où j'écris ces lignes, l'utilisation de Wabisabi s'est complexifiée notablement suite à des événements récents impactant l'écosystème Bitcoin. En effet, après l'arrestation des fondateurs de Samourai Wallet, zkSNACKs, la société qui finance et gère le développement de Wasabi, a annoncé l'arrêt de son service de coordination des coinjoins le 1er juin 2024. Ce coordinateur, qui était paramétré par défaut sur Wasabi, disposait de l'extrême majorité des liquidités.
+
+Avec l'arrêt de ce coordinateur principal, les utilisateurs doivent désormais se connecter à de nouveaux coordinateurs indépendants. Ce changement soulève des préoccupations : d'une part, les nouveaux coordinateurs pourraient ne pas avoir suffisamment de liquidités, réduisant ainsi l'efficacité des coinjoins en termes de confidentialité. D'autre part, il y a le risque de tomber sur un coordinateur malveillant. Cette situation ajoute de nouveaux risques non négligeables pour ceux cherchant à utiliser Wabisabi.
+
+Au-delà des questions techniques, la décision de zkSNACKs, la société derrière Wasabi, d'utiliser les services d'une société d'analyse de chaîne pour filtrer les participants aux coinjoins pose de sérieuses questions éthiques et stratégiques. L'idée initiale était d'empêcher l'utilisation des coinjoins sur Wasabi par des criminels, une démarche qui peut sembler légitime. Toutefois, cela soulève un paradoxe : payer des frais à un coordinateur, dont la mission principale est de renforcer la confidentialité des utilisateurs, pour qu'il finance ensuite une entreprise dont le but est de compromettre cette même confidentialité.
+
+Plus préoccupant encore est le principe de filtrage contraste radicalement avec la philosophie de Bitcoin visant à offrir un système financier ouvert et incensurable. Bien qu'il puisse sembler justifié de vouloir exclure les activités criminelles, ce filtrage pourrait également toucher des individus dont les actions, bien que classées comme illégales dans certains contextes, pourraient être moralement justifiables ou socialement bénéfiques. L'exemple d'Edward Snowden illustre parfaitement cette dichotomie : considéré comme un criminel par certains gouvernements pour ses révélations, il est vu par d'autres comme un lanceur d'alerte qui a agi dans l'intérêt public. Cette complexité souligne le danger potentiel d'un filtrage qui, bien que partant d'une bonne intention, peut finalement porter atteinte aux droits et à la sécurité des utilisateurs légitimes. J'aurais pu également citer les activistes et les journalistes qui sont persécutés sous certains régimes autoritaires.
+
+Comme vous l'aurez compris, ma préférence va sans conteste vers le modèle Whirlpool pour effectuer des coinjoins sur Bitcoin. Ce système se distingue par sa rigueur et offre des garanties supérieures en matière de confidentialité. Il est également le seul à proposer un mixage considéré comme parfait dans un contexte mathématique. À mon sens, ce modèle constitue l'avenir des coinjoins sur Bitcoin. Je vous invite donc à explorer plus en profondeur ce modèle dans le prochain chapitre.
+
+## Le fonctionnement de Whirlpool
+<chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
 
 

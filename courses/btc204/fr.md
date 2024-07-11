@@ -1739,13 +1739,13 @@ Chacune de ces implémentations a pour objectif de rompre l'historique des UTXOs
 
 JoinMarket, créé en 2015 par Adam Gibson et Chris Belcher, se distingue nettement des autres implémentations de coinjoin grâce à son modèle unique de mise en relation des utilisateurs. Ce système repose sur un marché d'échange P2P où certains utilisateurs, les "makers", mettente à disposition leurs bitcoins pour le mixage, tandis que d'autres, les "takers", utilisent ces liquidités pour réaliser des coinjoins moyennant une rémunération.
 
-01
+![BTC204](assets/notext/53/01.webp)
 
 Dans ce modèle, les "makers" laissent leurs bitcoins à disposition des "takers" et reçoivent des frais en contrepartie de leur service. Les "takers", quant à eux, paient pour utiliser les bitcoins des "makers" afin de réaliser leurs propres transactions coinjoin. Les frais de service varient en fonction du rôle occupé : les "makers" accumulent des frais pour leur offre de liquidités, tandis que les "takers" paient les frais. Ce marché fonctionne librement sans conditions d'utilisation.
 
 L'un des principaux inconvénients de JoinMarket est sa complexité d'utilisation, qui nécessite une certaine aisance avec les terminaux pour l'exploiter efficacement. Bien que cette complexité ne soit pas un obstacle pour un utilisateur expérimenté, elle peut limiter l'accès au grand public. Notons tout de même que la récente introduction d'une interface web nommée JAM a quelque peu facilité son utilisation.
 
-02
+![BTC204](assets/notext/53/02.webp)
 
 Source : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
@@ -1759,23 +1759,23 @@ Finalement, bien que le concept de JoinMarket soit intéressant, surtout pour ce
 
 Wabisabi est une autre implémentation de coinjoin, avec une approche qui centralise la coordination des transactions. Ce modèle a été conçu Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero, et István András Seres en 2021, et a été intégré dans le logiciel Wasabi 2.0 l'année suivante. Wabisabi est justement une évolution du modèle de coinjoin du logiciel Wasabi lancé en 2018.
 
-03
+![BTC204](assets/notext/53/03.webp)
 
 Vers la fin de la décennie 2010, Wasabi adoptait pour ses coinjoins une structure de transaction radicalement différente de celle de Whirlpool. Pour faire monter les anonsets de ses participants, Wasabi utilisait de grandes transactions coinjoin regroupant des dizaines de participants. En opposition, Whirlpool optait pour de multiples petites transactions, permettant d'accroître les anonsets de manière exponentielle à chaque cycle.
 
 Les méthodes de gestion du change distinguaient également les deux implémentations. Avec Whirlpool, le change était exclu et isolé des UTXOs avant les cycles de coinjoins grâce à la TX0, un concept que j'expliquerai davantage dans le prochain chapitre. Chez Wasabi, en revanche, le change formait un des outputs de la transaction coinjoin, ce qui maintenait des liens déterministes entre certains inputs et outputs.
 
-04
+![BTC204](assets/notext/53/04.webp)
 
 Avec Wabisabi, la version 2.0 de Wasabi a adapté son approche des coinjoins pour se rapprocher de celle de Whirlpool. Bien que les transactions coinjoins demeurent de grande taille, il est désormais possible d'enchaîner plusieurs cycles successifs, suivant ainsi le modèle de Whirlpool. Un effort particulier a aussi été porté sur la gestion du change : contrairement à Wasabi 1.0, où le change était directement lié aux inputs des utilisateurs, Wabisabi cherche à subdiviser le change en plusieurs petites sommes, réparties en dénominations égales pour tous les participants.
 
 Illustrons cela par un exemple simplifié impliquant 2 utilisateurs seulement : Alice souhaite mixer 115 000 sats et Bob, 210 000 sats. En négligeant les frais, avec Wasabi 1.0, une transaction coinjoin aurait généré 3 outputs de 100 000 sats, plus 1 change de 15 000 sats pour Alice et 1 change de 10 000 sats pour Bob. Les outputs de change seraient toujours liés aux inputs :
 
-05
+![BTC204](assets/notext/53/05.webp)
 
 Sous Wabisabi, la même transaction aurait produit 3 outputs de 100 000 sats et 5 outputs de 5 000 sats, dispersant ainsi le change de manière à ce qu'il ne soit pas directement rattachable à un input spécifique :
 
-06
+![BTC204](assets/notext/53/06.webp)
 
 Personnellement, je trouve que la gestion du change dans Wabisabi présente plusieurs risques qui pourraient compromettre son efficacité en termes de confidentialité :
 - Lorsqu'un utilisateur contribue avec un UTXO nettement plus grand que ceux des autres participants, il se retrouve inévitablement avec un montant de change qui sera lié à son input. Cela va à l'encontre de l'objectif initial du protocole qui vise à éliminer tout change identifiable ;

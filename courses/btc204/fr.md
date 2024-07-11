@@ -1444,10 +1444,10 @@ $$
 $$
 
 Où :
-- $P$ est le poids de la transaction ;
-- $F$ représente le taux de frais maximal en satoshis par vbyte (sats/vB) face auquel vous vous couvrez ;
-- $T$ est le pourcentage des frais de transaction que vous êtes prêt à payer par rapport à la valeur totale de l'UTXO ;
-- $M$ est le montant minimal en satoshis pour chaque UTXO.
+- $ P $ est le poids de la transaction ;
+- $ F $ représente le taux de frais maximal en satoshis par vbyte (sats/vB) face auquel vous vous couvrez ;
+- $ T $ est le pourcentage des frais de transaction que vous êtes prêt à payer par rapport à la valeur totale de l'UTXO ;
+- $ M $ est le montant minimal en satoshis pour chaque UTXO.
 
 Supposons que vous prévoyez de couvrir les frais pour une transaction SegWit standard avec 1 input et 2 outputs, pesant 141 vB. Si vous vous couvrez jusqu'à 800 sats/vB, et que vous êtes disposé à dépenser jusqu'à 12 % de la valeur de l'UTXO en frais au maximum, alors le calcul serait :
 
@@ -1752,34 +1752,34 @@ Dans cette vulgarisation, la couleur marron représente le secret partagé entre
 À présent, examinons comment fonctionne réellement ce protocole, non pas avec des analogies de couleurs, mais en utilisant de véritables nombres et de l'arithmétique modulaire !
 
 Avant d’aborder les mécanismes de Diffie-Hellman, permettez-moi de vous rappeler brièvement deux notions mathématiques essentielles dont nous allons avoir besoin :
-- Un **nombre premier** est un entier naturel qui n’admet que deux diviseurs : $1$ et lui-même. Par exemple, $7$ est un nombre premier, car il ne peut être divisé que par $1$ et $7$. En revanche, $8$ n'est pas un nombre premier puisqu'il est divisible par $1$, $2$, $4$ et $8$. Il a donc quatre diviseurs entiers et positifs au lieu de deux ;
-- Le **modulo** (noté $mod$ ou $\%$) est une opération mathématique qui, entre deux nombres entiers, renvoie le reste de la division euclidienne du premier par le second. Par exemple, $16\bmod 5 = 1$.
+- Un **nombre premier** est un entier naturel qui n’admet que deux diviseurs : $ 1 $ et lui-même. Par exemple, $ 7 $ est un nombre premier, car il ne peut être divisé que par $ 1 $ et $ 7 $. En revanche, $ 8 $ n'est pas un nombre premier puisqu'il est divisible par $ 1 $, $ 2 $, $ 4 $ et $ 8 $. Il a donc quatre diviseurs entiers et positifs au lieu de deux ;
+- Le **modulo** (noté $ mod $ ou $ \% $) est une opération mathématique qui, entre deux nombres entiers, renvoie le reste de la division euclidienne du premier par le second. Par exemple, $16\bmod 5 = 1$.
 
 **L'échange de clés Diffie-Hellman entre Alice et Bob se déroule comme suit :**
 
-- Alice et Bob conviennent de deux nombres communs : $p$ et $g$. $p$ est un nombre premier, et plus ce nombre est grand, plus Diffie-Hellman sera sécurisé. $g$ est une racine primitive de $p$. Ces deux nombres peuvent être communiqués en clair sur un réseau non sécurisé. Ils représentent l'équivalent de **la couleur jaune** dans la vulgarisation précédente. Il est donc important qu'Alice et Bob utilisent exactement les mêmes valeurs pour $p$ et $g$.
+- Alice et Bob conviennent de deux nombres communs : $ p $ et $ g $. $ p $ est un nombre premier, et plus ce nombre est grand, plus Diffie-Hellman sera sécurisé. $ g $ est une racine primitive de $ p $. Ces deux nombres peuvent être communiqués en clair sur un réseau non sécurisé. Ils représentent l'équivalent de **la couleur jaune** dans la vulgarisation précédente. Il est donc important qu'Alice et Bob utilisent exactement les mêmes valeurs pour $ p $ et $ g $.
 
-- Une fois ces paramètres définis, Alice et Bob choisissent chacun un nombre aléatoire secret. Alice nomme son nombre aléatoire secret $a$ (équivalent de **la couleur rouge**) et Bob nomme le sien $b$ (équivalent de **la couleur bleue**). Ces nombres doivent impérativement rester secrets.
+- Une fois ces paramètres définis, Alice et Bob choisissent chacun un nombre aléatoire secret. Alice nomme son nombre aléatoire secret $ a $ (équivalent de **la couleur rouge**) et Bob nomme le sien $ b $ (équivalent de **la couleur bleue**). Ces nombres doivent impérativement rester secrets.
 
-- Plutôt que d'échanger directement les nombres $a$ et $b$, chaque partie calcule $A$ et $B$ de la manière suivante :
+- Plutôt que d'échanger directement les nombres $ a $ et $ b $, chaque partie calcule $ A $ et $ B $ de la manière suivante :
 
-$A$ est égal à $g$ élevé à la puissance $a$ modulo $p$ :
+$ A $ est égal à $ g $ élevé à la puissance $ a $ modulo $ p $ :
 
 $$
 A = g^a \bmod p
 $$
 
-$B$ est égal à $g$ élevé à la puissance $b$ modulo $p$ :
+$ B $ est égal à $ g $ élevé à la puissance $ b $ modulo $ p $ :
 
 $$
 B = g^b \bmod p
 $$
 
-- Les valeurs $A$ (équivalent de **la couleur orange**) et $B$ (équivalent de **la couleur verte**) sont échangées entre les deux parties. Cet échange peut s'effectuer en clair sur un réseau non sécurisé ;
+- Les valeurs $ A $ (équivalent de **la couleur orange**) et $ B $ (équivalent de **la couleur verte**) sont échangées entre les deux parties. Cet échange peut s'effectuer en clair sur un réseau non sécurisé ;
 
-- Alice, ayant reçu $B$, elle calcule la valeur de $z$ de la manière suivante :
+- Alice, ayant reçu $ B $, elle calcule la valeur de $ z $ de la manière suivante :
 
-$z$ est égal à $B$ élevé à la puissance $a$ modulo $p$ :
+$ z $ est égal à $ B $ élevé à la puissance $ a $ modulo $ p $ :
 
 $$
 z = B^a \bmod p
@@ -1813,9 +1813,9 @@ $$
 z = g^{ba} \bmod p
 $$
 
-- De son côté, Bob, ayant reçu $A$, calcule également la valeur de $z$ de la manière suivante :
+- De son côté, Bob, ayant reçu $ A $, calcule également la valeur de $ z $ de la manière suivante :
 
-$z$ est égal à $A$ élevé à la puissance $b$ modulo $p$ :
+$ z $ est égal à $ A $ élevé à la puissance $ b $ modulo $ p $ :
 
 $$
 z = A^b \bmod p
@@ -1835,59 +1835,59 @@ $$
 z = g^{ba} \bmod p
 $$
 
-Grâce à la distributivité de l'opérateur modulo, Alice et Bob obtiennent exactement la même valeur $z$. Ce nombre représente leur secret commun, équivalent à **la couleur marron** dans la vulgarisation précédente avec les pots de peinture. Ils peuvent maintenant utiliser ce secret commun pour chiffrer leurs communications de manière symétrique sur un réseau non sécurisé.
+Grâce à la distributivité de l'opérateur modulo, Alice et Bob obtiennent exactement la même valeur $ z $. Ce nombre représente leur secret commun, équivalent à **la couleur marron** dans la vulgarisation précédente avec les pots de peinture. Ils peuvent maintenant utiliser ce secret commun pour chiffrer leurs communications de manière symétrique sur un réseau non sécurisé.
 
 ![BTC204](assets/notext/72/13.webp)
 
-Un attaquant, même en possession de $p$, $g$, $A$ et $B$ (les valeurs publiques), ne pourra pas calculer $a$, $b$ ou $z$ (les valeurs privées). Pour y parvenir, il faudrait inverser l'exponentiation, une opération impossible sans essayer toutes les possibilités une par une, car cela revient à calculer le logarithme discret, c'est-à-dire la réciproque de l'exponentielle dans un groupe cyclique fini.
+Un attaquant, même en possession de $ p $, $ g $, $ A $ et $ B $ (les valeurs publiques), ne pourra pas calculer $ a $, $ b $ ou $ z $ (les valeurs privées). Pour y parvenir, il faudrait inverser l'exponentiation, une opération impossible sans essayer toutes les possibilités une par une, car cela revient à calculer le logarithme discret, c'est-à-dire la réciproque de l'exponentielle dans un groupe cyclique fini.
 
-Ainsi, tant que les valeurs de $a$, $b$ et $p$ sont suffisamment grandes, le protocole Diffie-Hellman est sécurisé. Typiquement, avec des paramètres de 2048 bits (un nombre de 600 chiffres en décimal), tester toutes les possibilités pour $a$ et $b$ serait impraticable. À ce jour, avec de tels nombres, cet algorithme est considéré comme sûr.
+Ainsi, tant que les valeurs de $ a $, $ b $ et $ p $ sont suffisamment grandes, le protocole Diffie-Hellman est sécurisé. Typiquement, avec des paramètres de 2048 bits (un nombre de 600 chiffres en décimal), tester toutes les possibilités pour $ a $ et $ b $ serait impraticable. À ce jour, avec de tels nombres, cet algorithme est considéré comme sûr.
 
 C'est justement là que réside le principal inconvénient du protocole Diffie-Hellman. Pour être sécurisé, l'algorithme doit utiliser des nombres de grande taille. C'est pourquoi, de nos jours, on préfère utiliser l'algorithme ECDH (*Elliptic Curve Diffie-Hellman*), une variante de Diffie-Hellman qui repose sur une courbe algébrique, plus précisément une courbe elliptique. Cette approche permet de travailler avec des nombres beaucoup plus petits tout en conservant une sécurité équivalente, réduisant ainsi les ressources nécessaires pour le calcul et le stockage.
 
-Le principe général de l'algorithme reste le même. Cependant, au lieu d'utiliser un nombre aléatoire $a$ et un nombre $A$ calculé à partir de $a$ par exponentiation modulaire, nous utilisons une paire de clés établies sur une courbe elliptique. Au lieu de s'appuyer sur la distributivité de l'opérateur modulo, nous utilisons la loi de groupe sur les courbes elliptiques, et plus précisément l'associativité de cette loi.
+Le principe général de l'algorithme reste le même. Cependant, au lieu d'utiliser un nombre aléatoire $ a $ et un nombre $ A $ calculé à partir de $ a $ par exponentiation modulaire, nous utilisons une paire de clés établies sur une courbe elliptique. Au lieu de s'appuyer sur la distributivité de l'opérateur modulo, nous utilisons la loi de groupe sur les courbes elliptiques, et plus précisément l'associativité de cette loi.
 
-Pour expliquer brièvement le principe de la cryptographie sur les courbes elliptiques, une clé privée est représentée par un nombre aléatoire situé entre $1$ et $n-1$, où $n$ représente l'ordre de la courbe. La clé publique, quant à elle, est un point spécifique sur cette courbe, obtenu à partir de la clé privée par des opérations d'addition et de doublement de points à partir du point générateur, selon l'équation :
+Pour expliquer brièvement le principe de la cryptographie sur les courbes elliptiques, une clé privée est représentée par un nombre aléatoire situé entre $ 1 $ et $ n-1 $, où $ n $ représente l'ordre de la courbe. La clé publique, quant à elle, est un point spécifique sur cette courbe, obtenu à partir de la clé privée par des opérations d'addition et de doublement de points à partir du point générateur, selon l'équation :
 
 $$
 K = k \cdot G
 $$
 
-Dans cette formule, $K$ désigne la clé publique, $k$ la clé privée, et $G$ le point générateur.
+Dans cette formule, $ K $ désigne la clé publique, $ k $ la clé privée, et $ G $ le point générateur.
 
-L'une des caractéristiques essentielles de ces clés est la facilité de calculer $K$ à partir de $k$ et $G$, tandis qu'il est pratiquement impossible de retrouver $k$ à partir de $K$ et $G$. Cette asymétrie crée une fonction à sens unique. En d'autres termes, il est facile de calculer la clé publique si l'on connaît la clé privée, mais retrouver la clé privée à partir de la clé publique est impossible. Cette sécurité repose encore sur la difficulté calculatoire du logarithme discret.
+L'une des caractéristiques essentielles de ces clés est la facilité de calculer $ K $ à partir de $ k $ et $ G $, tandis qu'il est pratiquement impossible de retrouver $ k $ à partir de $ K $ et $ G $. Cette asymétrie crée une fonction à sens unique. En d'autres termes, il est facile de calculer la clé publique si l'on connaît la clé privée, mais retrouver la clé privée à partir de la clé publique est impossible. Cette sécurité repose encore sur la difficulté calculatoire du logarithme discret.
 
 On va donc utiliser cette propriété pour adapter notre algorithme Diffie-Hellman. **Le principe de fonctionnement d'ECDH est le suivant :**
 
 - Alice et Bob conviennent ensemble d'une courbe elliptique cryptographiquement sûre et de ses paramètres. Ces informations sont publiques ;
 
-- Alice génère un nombre aléatoire $ka$ qui sera sa clé privée. Cette clé privée doit rester secrète. Elle détermine sa clé publique $Ka$ par addition et doublement de points sur la courbe elliptique choisie :
+- Alice génère un nombre aléatoire $ ka $ qui sera sa clé privée. Cette clé privée doit rester secrète. Elle détermine sa clé publique $ Ka $ par addition et doublement de points sur la courbe elliptique choisie :
 
 $$
 K_a = k_a \cdot G
 $$
 
-- Bob génère également un nombre aléatoire $kb$ qui sera sa clé privée. Il calcule la clé publique associée $Kb$ :
+- Bob génère également un nombre aléatoire $ kb $ qui sera sa clé privée. Il calcule la clé publique associée $ Kb $ :
 
 $$
 K_b = k_b \cdot G
 $$
 
-- Alice et Bob s'échangent leurs clés publiques $Ka$ et $Kb$ sur un réseau public non sécurisé.
+- Alice et Bob s'échangent leurs clés publiques $ Ka $ et $ Kb $ sur un réseau public non sécurisé.
 
-- Alice calcule un point $(x,y)$ sur la courbe en appliquant sa clé privée $ka$ à la clé publique de Bob $Kb$ :
+- Alice calcule un point $ (x,y) $ sur la courbe en appliquant sa clé privée $ ka $ à la clé publique de Bob $ Kb $ :
 
 $$
 (x,y) = k_a \cdot K_b
 $$
 
-- Bob calcule un point $(x,y)$ sur la courbe en appliquant sa clé privée $kb$ à la clé publique d'Alice $Ka$ :
+- Bob calcule un point $ (x,y) $ sur la courbe en appliquant sa clé privée $ kb $ à la clé publique d'Alice $ Ka $ :
 
 $$
 (x,y) = k_b \cdot K_a
 $$
 
-- Alice et Bob obtiennent le même point sur la courbe elliptique. Le secret partagé sera l'abscisse $x$ de ce point.
+- Alice et Bob obtiennent le même point sur la courbe elliptique. Le secret partagé sera l'abscisse $ x $ de ce point.
 
 Ils obtiennent bien le même secret partagé car :
 
@@ -1959,40 +1959,52 @@ Maintenant, voyons comment fonctionne cette transaction de notification. Imagino
 
 - Elle sélectionne une paire de clés au sein de son portefeuille HD se trouvant sur une branche différente de son code de paiement. Attention, cette paire ne doit pas être associée facilement à l'adresse de notification d'Alice, ni à l'identité d'Alice (voir section précédente) ;
 
-- Alice sélectionne la clé privée de cette paire. Nous la nommons $a$ (minuscule) ;
+- Alice sélectionne la clé privée de cette paire. Nous la nommons $ a $ (minuscule) ;
 
 $$
 a
 $$
    
-- Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index $/0$). Nous nommons cette clé publique $B$ (majuscule). La clé privée associée à cette clé publique est nommée $b$ (minuscule). $B$ est déterminé par addition et doublement de points sur la courbe elliptique depuis $G$ (le point générateur) avec $b$ (la clé privée) :
+- Alice récupère la clé publique associée à l'adresse de notification de Bob. Cette clé est la première fille dérivée depuis le code de paiement de Bob (index $ /0 $). Nous nommons cette clé publique $ B $ (majuscule). La clé privée associée à cette clé publique est nommée $ b $ (minuscule). $ B $ est déterminé par addition et doublement de points sur la courbe elliptique depuis $ G $ (le point générateur) avec $ b $ (la clé privée) :
 
-$$ B = b \cdot G $$
+$$
+B = b \cdot G
+$$
 
-- Alice calcule un point secret $S$ (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$.
+- Alice calcule un point secret $ S $ (majuscule) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $ a $ à partir de la clé publique de Bob $ B $.
 
-$$ S = a \cdot B $$
+$$
+S = a \cdot B
+$$
 
-- Alice calcule le facteur aveuglant $f$ qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : $x$ qui est l'abscisse du point secret calculé précédemment. La première entrée est $o$ qui est l'UTXO consommé en input de cette transaction (outpoint).
+- Alice calcule le facteur aveuglant $ f $ qui va permettre de chiffrer son code de paiement. Pour cela, elle va déterminer un nombre pseudo aléatoire avec la fonction HMAC-SHA512. En seconde entrée de cette fonction, elle utilise une valeur que seul Bob sera en capacité de retrouver : $ x $ qui est l'abscisse du point secret calculé précédemment. La première entrée est $ o $ qui est l'UTXO consommé en input de cette transaction (outpoint).
 
-$$ f = \text{HMAC-SHA512}(o, x) $$
+$$
+f = \text{HMAC-SHA512}(o, x)
+$$
 
 **2- Alice convertit son code de paiement personnel en base 2 (binaire).**
 
 **3- Elle utilise ce facteur aveuglant comme clé pour réaliser un chiffrement symétrique sur la charge utile de son code de paiement.** L'algorithme de chiffrement utilisé est simplement un `XOR`. L'opération effectuée est comparable au chiffre de Vernam, également nommé "One-Time Pad".
 
-- Alice sépare dans un premier temps son facteur aveuglant en deux : les 32 premiers octets sont nommés $f1$ et les 32 derniers octets sont nommés $f2$. On a donc :
+- Alice sépare dans un premier temps son facteur aveuglant en deux : les 32 premiers octets sont nommés $ f1 $ et les 32 derniers octets sont nommés $ f2 $. On a donc :
 
-$$ f = f1 || f2 $$
+$$
+f = f1 || f2
+$$
 
-- Alice calcule le chiffré $x'$ de l'abscisse de la clé publique $x$ de son code de paiement, et le chiffré $c'$ de son code de chaine $c$ séparément. $f1$ et $f2$ agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif).
+- Alice calcule le chiffré $ x' $ de l'abscisse de la clé publique $ x $ de son code de paiement, et le chiffré $ c' $ de son code de chaine $ c $ séparément. $ f1 $ et $ f2 $ agissent respectivement comme clés de chiffrement. L'opération utilisée est le `XOR` (ou exclusif).
 
-$$ x' = x \oplus f1 $$
-$$ c' = c \oplus f2 $$
+$$
+x' = x \oplus f1
+$$
+$$
+c' = c \oplus f2
+$$
 
-- Alice remplace les valeurs réelles de l'abscisse de la clé publique $x$ et du code de chaine $c$ dans son code de paiement par les valeurs chiffrées $x'$ et $c'$.
+- Alice remplace les valeurs réelles de l'abscisse de la clé publique $ x $ et du code de chaine $ c $ dans son code de paiement par les valeurs chiffrées $ x' $ et $ c' $.
 
-**4-** Alice dispose donc actuellement de son code de paiement avec une charge utile chiffrée. Elle va construire et diffuser une transaction impliquant sa clé publique $A$ en input, un output à destination de l'adresse de notification de Bob, et une sortie `OP_RETURN` constituée de son code de paiement avec la charge utile chiffrée. **Cette transaction est la transaction de notification**.
+**4-** Alice dispose donc actuellement de son code de paiement avec une charge utile chiffrée. Elle va construire et diffuser une transaction impliquant sa clé publique $ A $ en input, un output à destination de l'adresse de notification de Bob, et une sortie `OP_RETURN` constituée de son code de paiement avec la charge utile chiffrée. **Cette transaction est la transaction de notification**.
 
 Un `OP_RETURN` est un opcode qui permet de marquer une sortie de transaction Bitcoin comme invalide. Aujourd'hui, il est utilisé pour diffuser ou pour ancrer de l'information sur la blockchain Bitcoin. On peut y stocker jusqu'à 80 octets de datas qui sont inscrites sur la chaine, et donc visibles par tous les autres utilisateurs.
 
@@ -2154,31 +2166,43 @@ Maintenant qu'Alice a envoyé la transaction de notification à Bob, voyons comm
 **2-** Lorsqu'une transaction dispose d'un output sur son adresse de notification, Bob l'analyse pour voir si elle contient une sortie OP_RETURN respectant le standard BIP47. 
 
 **3-** Si le premier octet de la charge utile de l'OP_RETURN est `0x01`, Bob commence sa recherche d'un éventuel secret partagé avec ECDH :
-- Bob sélectionne la clé publique en input de la transaction. C'est-à-dire la clé publique d'Alice nommée $A$ avec :
+- Bob sélectionne la clé publique en input de la transaction. C'est-à-dire la clé publique d'Alice nommée $ A $ avec :
 
-$$ A = a \cdot G $$
+$$
+A = a \cdot G
+$$
 
-- Bob sélectionne la clé privée $b$ associée à son adresse de notification personnelle :
+- Bob sélectionne la clé privée $ b $ associée à son adresse de notification personnelle :
 
-$$ b $$
+$$
+b
+$$
 
-- Bob calcule le point secret $S$ (secret partagé ECDH) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $b$ sur la clé publique d'Alice $A$ :
+- Bob calcule le point secret $ S $ (secret partagé ECDH) sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $ b $ sur la clé publique d'Alice $ A $ :
 
-$$ S = b \cdot A $$
+$$
+S = b \cdot A
+$$
 
-- Bob détermine le facteur aveuglant $f$ qui va permettre de déchiffrer la charge utile du code de paiement d'Alice. De la même manière qu'Alice l'avait calculé précédemment, Bob va trouver $f$ en appliquant HMAC-SHA512 sur $x$ la valeur en abscisse du point secret $S$, et sur $o$ l'UTXO consommé en input de cette transaction de notification :
+- Bob détermine le facteur aveuglant $ f $ qui va permettre de déchiffrer la charge utile du code de paiement d'Alice. De la même manière qu'Alice l'avait calculé précédemment, Bob va trouver $ f $ en appliquant HMAC-SHA512 sur $ x $ la valeur en abscisse du point secret $ S $, et sur $ o $ l'UTXO consommé en input de cette transaction de notification :
 
-$$ f = \text{HMAC-SHA512}(o, x) $$
+$$
+f = \text{HMAC-SHA512}(o, x)
+$$
 
-**4-** Bob interprète les données de l'OP_RETURN dans la transaction de notification comme un code de paiement. Il va simplement déchiffrer la charge utile de ce potentiel code de paiement grâce au facteur aveuglant $f$ :
-- Bob sépare le facteur aveuglant $f$ en 2 parties : les 32 premiers octets de $f$ seront $f1$ et les 32 derniers octets seront $f2$ ;
-- Bob déchiffre la valeur de l'abscisse chiffrée $x'$ de la clé publique du code de paiement d'Alice :
+**4-** Bob interprète les données de l'OP_RETURN dans la transaction de notification comme un code de paiement. Il va simplement déchiffrer la charge utile de ce potentiel code de paiement grâce au facteur aveuglant $ f $ :
+- Bob sépare le facteur aveuglant $ f $ en 2 parties : les 32 premiers octets de $ f $ seront $ f1 $ et les 32 derniers octets seront $ f2 $ ;
+- Bob déchiffre la valeur de l'abscisse chiffrée $ x' $ de la clé publique du code de paiement d'Alice :
 
-$$ x = x' \oplus f1 $$
+$$
+x = x' \oplus f1
+$$
 
-- Bob déchiffre la valeur du code de chaîne chiffré $c'$ du code de paiement d'Alice :
+- Bob déchiffre la valeur du code de chaîne chiffré $ c' $ du code de paiement d'Alice :
 
-$$ c = c' \oplus f2 $$
+$$
+c = c' \oplus f2
+$$
 
 **5-** Bob vérifie si la valeur de la clé publique du code de paiement d'Alice fait bien partie du groupe secp256k1. Si c'est bien le cas, il interprète cela comme un code de paiement valide. Sinon, il ignore cette transaction.
 
@@ -2188,24 +2212,32 @@ Pourquoi cela fonctionne-t-il ? Comment Bob peut-il parvenir à déterminer le m
 
 Tout d'abord, nous avons affaire à un chiffrement symétrique. Cela veut dire que la clé de chiffrement et la clé de déchiffrement sont la même valeur. Cette clé dans la transaction de notification, c'est le facteur aveuglant : 
 
-$$ f = f1 || f2 $$
+$$
+f = f1 || f2
+$$
 
-Il faut donc qu'Alice et Bob obtiennent la même valeur pour $f$, sans pour autant le transmettre directement puisqu'un attaquant pourrait le subtiliser et déchiffrer l'information secrète. Ce facteur aveuglant est obtenu en appliquant HMAC-SHA512 sur 2 valeurs : 
+Il faut donc qu'Alice et Bob obtiennent la même valeur pour $ f $, sans pour autant le transmettre directement puisqu'un attaquant pourrait le subtiliser et déchiffrer l'information secrète. Ce facteur aveuglant est obtenu en appliquant HMAC-SHA512 sur 2 valeurs : 
 - l'abscisse d'un point secret ;
 - et l'UTXO consommé en entrée de la transaction. 
 
 Bob doit donc disposer de ces deux informations pour déchiffrer la charge utile du code de paiement d'Alice. Pour l'UTXO en input, Bob peut simplement le récupérer en observant la transaction de notification. Pour le point secret, Bob va devoir utiliser ECDH. Comme vu dans la section précédente sur Diffie-Hellman, simplement en s'échangeant leurs clés publiques respectives et en appliquant secrètement leurs clés privées sur la clé publique de l'autre, Alice et Bob peuvent trouver un point précis et secret sur la courbe elliptique. La transaction de notification s'appuie sur ce mécanisme :
 - La paire de clés de Bob :
 
-$$ B = b \cdot G $$
+$$
+B = b \cdot G
+$$
 
 - La paire de clés d'Alice : 
 
-$$ A = a \cdot G $$
+$$
+A = a \cdot G
+$$
 
 - Pour un secret $S (x, y)$ :
 
-$$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
+$$
+S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A
+$$
 
 ![BTC204](assets/fr/72/19.webp)
 
@@ -2235,29 +2267,41 @@ Avant de vous expliquer ce processus, je pense qu'il est important de rappeler s
 Chaque fois qu'Alice souhaite envoyer un paiement à Bob, elle dérive une nouvelle adresse vierge unique, grâce une nouvelle fois au protocole ECDH :
 - Alice sélectionne la première clé privée dérivée depuis son code de paiement réutilisable personnel :
 
-$$ a $$
+$$
+a
+$$
 
-- Alice sélectionne la première clé publique inutilisée dérivée depuis le code de paiement de Bob. Cette clé publique, nous l'appellerons $B$. Elle est associée à la clé privée $b$ dont seul Bob a connaissance :
+- Alice sélectionne la première clé publique inutilisée dérivée depuis le code de paiement de Bob. Cette clé publique, nous l'appellerons $ B $. Elle est associée à la clé privée $ b $ dont seul Bob a connaissance :
 
-$$ B = b \cdot G $$
+$$
+B = b \cdot G
+$$
 
-- Alice calcule un point secret $S$ sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $a$ à partir de la clé publique de Bob $B$ :
+- Alice calcule un point secret $ S $ sur la courbe elliptique par addition et doublement de points en appliquant sa clé privée $ a $ à partir de la clé publique de Bob $ B $ :
 
-$$ S = a \cdot B $$
+$$
+S = a \cdot B
+$$
 
-- À partir de ce point secret, Alice va calculer le secret partagé $s$ (minuscule). Pour ce faire, elle sélectionne l'abscisse du point secret $S$ nommée $Sx$, et elle passe cette valeur dans la fonction de hachage SHA256 :
+- À partir de ce point secret, Alice va calculer le secret partagé $ s $ (minuscule). Pour ce faire, elle sélectionne l'abscisse du point secret $ S $ nommée $ Sx $, et elle passe cette valeur dans la fonction de hachage SHA256 :
 
-$$ S = (Sx, Sy) $$
-$$ s = \text{SHA256}(Sx) $$
+$$
+S = (Sx, Sy)
+$$
+$$
+s = \text{SHA256}(Sx)
+$$
 
-- Alice utilise ce secret partagé $s$ pour calculer une adresse de réception de paiement Bitcoin. Dans un premier temps, elle vérifie que $s$ est bien contenu dans l'ordre de la courbe secp256k1. Si ce n'est pas le cas, elle incrémente l'index de la clé publique de Bob afin de dériver un autre secret partagé ;
-- Dans un second temps, elle calcule une clé publique $K0$ en additionnant sur la courbe elliptique les points $B$ et $s·G$. En d'autres termes, Alice additionne la clé publique dérivée depuis le code de paiement de Bob $B$ avec un autre point calculé sur la courbe elliptique par addition et doublement de points avec le secret partagé $s$ depuis le point générateur de la courbe secp256k1 $G$. Ce nouveau point représente une clé publique, et nous le nommons $K0$ :
+- Alice utilise ce secret partagé $ s $ pour calculer une adresse de réception de paiement Bitcoin. Dans un premier temps, elle vérifie que $ s $ est bien contenu dans l'ordre de la courbe secp256k1. Si ce n'est pas le cas, elle incrémente l'index de la clé publique de Bob afin de dériver un autre secret partagé ;
+- Dans un second temps, elle calcule une clé publique $ K0 $ en additionnant sur la courbe elliptique les points $ B $ et $ s·G $. En d'autres termes, Alice additionne la clé publique dérivée depuis le code de paiement de Bob $ B $ avec un autre point calculé sur la courbe elliptique par addition et doublement de points avec le secret partagé $ s $ depuis le point générateur de la courbe secp256k1 $ G $. Ce nouveau point représente une clé publique, et nous le nommons $ K0 $ :
 
-$$ K0 = B + s \cdot G $$
+$$
+K0 = B + s \cdot G
+$$
 
-- Avec cette clé publique $K0$, Alice peut dériver une adresse de réception vierge de façon standard (par exemple SegWit V0 en bech32).
+- Avec cette clé publique $ K0 $, Alice peut dériver une adresse de réception vierge de façon standard (par exemple SegWit V0 en bech32).
 
-Une fois qu'Alice a obtenu l'adresse de réception $K0$ de Bob, elle peut effectuer une transaction Bitcoin d'une façon standard. Pour cela, elle choisit un UTXO qu'elle possède, sécurisé par une paire de clés issue d'une branche différente de son portefeuille HD, et le consomme pour satisfaire un output vers l'adresse $K0$ de Bob. Il est important de noter que ce paiement, une fois l'adresse dérivée, suit un processus classique et ne dépend plus des clés associées au BIP47.
+Une fois qu'Alice a obtenu l'adresse de réception $ K0 $ de Bob, elle peut effectuer une transaction Bitcoin d'une façon standard. Pour cela, elle choisit un UTXO qu'elle possède, sécurisé par une paire de clés issue d'une branche différente de son portefeuille HD, et le consomme pour satisfaire un output vers l'adresse $ K0 $ de Bob. Il est important de noter que ce paiement, une fois l'adresse dérivée, suit un processus classique et ne dépend plus des clés associées au BIP47.
 
 Je récapitule les étapes que l'on vient de voir ensemble pour envoyer un paiement BIP47 :
 - Alice sélectionne la première clé privée fille dérivée depuis son code de paiement personnel ;
@@ -2270,7 +2314,7 @@ Je récapitule les étapes que l'on vient de voir ensemble pour envoyer un paiem
 
 ![BTC204](assets/fr/72/21.webp)
 
-Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, à l'exception qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée $K1$ :
+Si Alice veut effectuer un second paiement, elle suivra les mêmes étapes que précédemment, à l'exception qu'elle sélectionnera cette fois la deuxième clé publique dérivée du code de paiement de Bob. Plus précisément, elle utilisera la prochaine clé inutilisée. Elle obtiendra ainsi une nouvelle adresse de réception appartenant à Bob, désignée $ K1 $ :
 
 ![BTC204](assets/fr/72/22.webp)
 
@@ -2290,37 +2334,51 @@ Cela ressemble à une transaction classique avec un input consommé, un output d
 
 Alice vient d'effectuer son premier paiement vers une adresse vierge BIP47 appartenant à Bob. Maintenant voyons ensemble comment Bob réceptionne ce paiement. Nous allons également voir pourquoi Alice n'a pas accès à la clé privée de l'adresse qu'elle vient pourtant de générer elle-même, et comment Bob retrouve cette clé permettant de dépenser les bitcoins qu'il vient de recevoir.
 
-Dès que Bob reçoit la transaction de notification de la part d'Alice, il dérive la clé publique BIP47 $K0$ avant même que sa correspondante n'y ait envoyé de paiement. Il observe donc tout paiement vers l'adresse associée. En réalité, il va même dériver immédiatement plusieurs adresses qu'il va observer ($K0$, $K1$, $K2$, $K3$...). Voici comment il dérive cette clé publique $K0$ :
+Dès que Bob reçoit la transaction de notification de la part d'Alice, il dérive la clé publique BIP47 $ K0 $ avant même que sa correspondante n'y ait envoyé de paiement. Il observe donc tout paiement vers l'adresse associée. En réalité, il va même dériver immédiatement plusieurs adresses qu'il va observer ($ K0 $, $ K1 $, $ K2 $, $ K3 $...). Voici comment il dérive cette clé publique $ K0 $ :
 
-- Bob sélectionne la première clé privée fille dérivée depuis son code de paiement. Cette clé privée est nommée $b$. Elle est associée à la clé publique $B$ avec laquelle Alice avait fait ses calculs dans l'étape précédente :
+- Bob sélectionne la première clé privée fille dérivée depuis son code de paiement. Cette clé privée est nommée $ b $. Elle est associée à la clé publique $ B $ avec laquelle Alice avait fait ses calculs dans l'étape précédente :
 
-$$ b $$
+$$
+b
+$$
 
-- Bob sélectionne la première clé publique d'Alice dérivée depuis son code de paiement. Cette clé est nommée $A$. Elle est associée à la clé privée $a$ avec laquelle Alice avait fait ses calculs, et dont seule Alice a connaissance. Bob peut réaliser ce processus puisqu'il est en connaissance du code de paiement d'Alice qui lui a été transmis avec la transaction de notification :
+- Bob sélectionne la première clé publique d'Alice dérivée depuis son code de paiement. Cette clé est nommée $ A $. Elle est associée à la clé privée $ a $ avec laquelle Alice avait fait ses calculs, et dont seule Alice a connaissance. Bob peut réaliser ce processus puisqu'il est en connaissance du code de paiement d'Alice qui lui a été transmis avec la transaction de notification :
 
-$$ A = a \cdot G $$
+$$
+A = a \cdot G
+$$
 
-- Bob calcule le point secret $S$, par addition et doublement de points sur la courbe elliptique, en appliquant sa clé privée $b$ sur la clé publique d'Alice $A$. On retrouve ici l'utilisation d'ECDH qui nous garantit que ce point $S$ sera le même pour Bob et pour Alice :
+- Bob calcule le point secret $ S $, par addition et doublement de points sur la courbe elliptique, en appliquant sa clé privée $ b $ sur la clé publique d'Alice $ A $. On retrouve ici l'utilisation d'ECDH qui nous garantit que ce point $ S $ sera le même pour Bob et pour Alice :
 
-$$ S = b \cdot A $$
+$$
+S = b \cdot A
+$$
 
-- De la même manière que l'a fait Alice, Bob isole l'abscisse de ce point $S$. Nous avons nommé cette valeur $Sx$. Il passe cette valeur dans la fonction SHA256 pour trouver le secret partagé $s$ (minuscule) :
+- De la même manière que l'a fait Alice, Bob isole l'abscisse de ce point $ S $. Nous avons nommé cette valeur $ Sx $. Il passe cette valeur dans la fonction SHA256 pour trouver le secret partagé $ s $ (minuscule) :
 
-$$ s = \text{SHA256}(Sx) $$
+$$
+s = \text{SHA256}(Sx)
+$$
 
-- Toujours de la même manière qu'Alice, Bob calcule le point $s·G$ sur la courbe elliptique. Puis, il additionne ce point secret avec sa clé publique $B$. Il obtient alors un nouveau point sur la courbe elliptique qu'il interprète comme une clé publique $K0$ :
+- Toujours de la même manière qu'Alice, Bob calcule le point $ s·G $ sur la courbe elliptique. Puis, il additionne ce point secret avec sa clé publique $ B $. Il obtient alors un nouveau point sur la courbe elliptique qu'il interprète comme une clé publique $ K0 $ :
 
-$$ K0 = B + s \cdot G $$
+$$
+K0 = B + s \cdot G
+$$
 
-Une fois que Bob dispose de cette clé publique $K0$, il peut dériver la clé privée associée afin de pouvoir dépenser ses bitcoins. C'est le seul à pouvoir générer cette clé privée :
+Une fois que Bob dispose de cette clé publique $ K0 $, il peut dériver la clé privée associée afin de pouvoir dépenser ses bitcoins. C'est le seul à pouvoir générer cette clé privée :
 
-- Bob additionne sa clé privée fille $b$ dérivée depuis son code de paiement personnel. C'est le seul à pouvoir obtenir la valeur de $b$. Puis, il additionne $b$ avec le secret partagé $s$ afin d'obtenir $k0$, la clé privée de $K0$ :
+- Bob additionne sa clé privée fille $ b $ dérivée depuis son code de paiement personnel. C'est le seul à pouvoir obtenir la valeur de $ b $. Puis, il additionne $ b $ avec le secret partagé $ s $ afin d'obtenir $ k0 $, la clé privée de $ K0 $ :
 
-$$ k0 = b + s $$
+$$
+k0 = b + s
+$$
 
 Grâce à la loi de groupe de la courbe elliptique, Bob obtient exactement la clé privée correspondant à la clé publique utilisée par Alice. Nous avons donc bien :
 
-$$ K0 = k0 \cdot G $$
+$$
+K0 = k0 \cdot G
+$$
 
 Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner un paiement BIP47 et calculer la clé privée correspondante :
 - Bob sélectionne la première clé privée fille dérivée depuis son code de paiement personnel ;
@@ -2333,11 +2391,11 @@ Je récapitule les étapes que l'on vient de voir ensemble pour réceptionner un
 
 ![BTC204](assets/fr/72/24.webp)
 
-Puisque Alice ne peut pas obtenir $b$ (la clé privée de Bob), elle est incapable de déterminer $k0$ (la clé privée associée à l'adresse de réception BIP47 de Bob). Schématiquement, nous pouvons représenter le calcul du secret partagé $S$ comme cela :
+Puisque Alice ne peut pas obtenir $ b $ (la clé privée de Bob), elle est incapable de déterminer $ k0 $ (la clé privée associée à l'adresse de réception BIP47 de Bob). Schématiquement, nous pouvons représenter le calcul du secret partagé $ S $ comme cela :
 
 ![BTC204](assets/fr/72/19.webp)
 
-Une fois le secret partagé trouvé avec ECDH, Alice et Bob calculent la clé publique de paiement BIP47 $K0$, et Bob calcule également la clé privée associée $k0$ :
+Une fois le secret partagé trouvé avec ECDH, Alice et Bob calculent la clé publique de paiement BIP47 $ K0 $, et Bob calcule également la clé privée associée $ k0 $ :
 
 ![BTC204](assets/fr/72/25.webp)
 
@@ -2402,140 +2460,166 @@ Commençons par un exemple simple qui va vous permettre de comprendre le cœur d
 - Bob doit pouvoir obtenir la clé privée associée à cette adresse pour pouvoir dépenser ses fonds.
 
 Alice dispose d'un UTXO dans son portefeuille Bitcoin sécurisé avec la paire de clés suivante :
-- $a$ : la clé privée ;
-- $A$ : la clé publique ($A = a \cdot G$)
+- $ a $ : la clé privée ;
+- $ A $ : la clé publique ($A = a \cdot G$)
 
 Bob dispose d'une adresse SP qu'il a publiée sur internet avec :
-- $b$ : la clé privée ;
-- $B$ : la clé publique ($B = b \cdot G$)
+- $ b $ : la clé privée ;
+- $ B $ : la clé publique ($B = b \cdot G$)
 
-En récupérant l'adresse de Bob, Alice est capable de calculer une nouvelle adresse vierge qui appartient à Bob en utilisant ECDH. Nommons cette adresse $P$ :
+En récupérant l'adresse de Bob, Alice est capable de calculer une nouvelle adresse vierge qui appartient à Bob en utilisant ECDH. Nommons cette adresse $ P $ :
 
-$$  P = B + \text{hash}(a \cdot B) \cdot G  $$
+$$
+P = B + \text{hash}(a \cdot B) \cdot G
+$$
 
-Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $a$ et de la clé publique de Bob $B$. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur $G$ de la courbe elliptique `secp256k1`. Enfin, Alice additionne le point obtenu avec la clé publique de Bob $B$. Une fois qu'Alice dispose de cette adresse $P$, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
+Dans cette équation, Alice a simplement calculé le produit scalaire de sa clé privée $ a $ et de la clé publique de Bob $ B $. Elle a passé ce résultat dans une fonction de hachage connue de tous. La valeur qui en sort est ensuite multipliée scalairement par le point générateur $ G $ de la courbe elliptique `secp256k1`. Enfin, Alice additionne le point obtenu avec la clé publique de Bob $ B $. Une fois qu'Alice dispose de cette adresse $ P $, elle l'utilise comme output dans une transaction, c'est-à-dire qu'elle y envoie des bitcoins.
 
 > *Dans le contexte des Silent Payments, la fonction « hash » correspond à une fonction de hachage SHA256 taguée spécifiquement avec `BIP0352/SharedSecret`, ce qui garantit que les hachages générés sont uniques à ce protocole et ne peuvent pas être réutilisés dans d'autres contextes, tout en offrant une protection supplémentaire contre la réutilisation de nonces dans les signatures. Ce standard correspond à celui [spécifié dans le BIP340 pour les signatures de Schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) sur `secp256k1`.*
 
 Grâce aux propriétés de la courbe elliptique sur lesquelles s'appuie ECDH, on sait que : 
 
-$$  a \cdot B = b \cdot A  $$
+$$
+a \cdot B = b \cdot A
+$$
 
 Bob va donc être capable de calculer l'adresse de réception sur laquelle Alice a envoyé les bitcoins. Pour ce faire, il surveille toutes les transactions Bitcoin qui respectent les critères des Silent Payments et il applique le calcul suivant sur chacune d'entre elles pour voir si le paiement lui est adressé (*scanning*) :
 
-$$  P' = B + \text{hash}(b \cdot A) \cdot G  $$
+$$
+P' = B + \text{hash}(b \cdot A) \cdot G
+$$
 
-Lorsqu'il scanne la transaction d'Alice, il se rend compte que $P'$ est égal à $P$. Il sait donc que ce paiement lui est adressé :
+Lorsqu'il scanne la transaction d'Alice, il se rend compte que $ P' $ est égal à $ P $. Il sait donc que ce paiement lui est adressé :
 
-$$  P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P   $$
+$$
+P' = B + \text{hash}(b \cdot A) \cdot G = B + \text{hash}(a \cdot B) \cdot G = P
+$$
 
-À partir de là, Bob va pouvoir calculer la clé privée $p$ qui permet de dépenser l'adresse $P$ :
+À partir de là, Bob va pouvoir calculer la clé privée $ p $ qui permet de dépenser l'adresse $ P $ :
 
-$$  p = (b + \text{hash}(b \cdot A)) \bmod n  $$
+$$
+p = (b + \text{hash}(b \cdot A)) \bmod n
+$$
 
-Comme vous pouvez le voir, pour calculer cette clé privée $p$, il faut obligatoirement disposer de la clé privée $b$. Seul Bob dispose de cette clé privée $b$. Il sera donc bien le seul à pouvoir dépenser les bitcoins envoyés sur son adresse de Silent Payments.
+Comme vous pouvez le voir, pour calculer cette clé privée $ p $, il faut obligatoirement disposer de la clé privée $ b $. Seul Bob dispose de cette clé privée $ b $. Il sera donc bien le seul à pouvoir dépenser les bitcoins envoyés sur son adresse de Silent Payments.
 
 ![BTC204](assets/notext/73/02.webp)
 *Légende :*
-- $B$ : La clé publique / adresse statique publiée par Bob
-- $b$ : La clé privée de Bob
-- $A$ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
-- $a$ : La clé privée d'Alice
-- $G$ : Le point générateur de la courbe elliptique `secp256k1`
-- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
-- $s$ : Le secret commun ECDH
-- $P$ : La clé publique / adresse unique pour le paiement vers Bob
+- $ B $ : La clé publique / adresse statique publiée par Bob
+- $ b $ : La clé privée de Bob
+- $ A $ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
+- $ a $ : La clé privée d'Alice
+- $ G $ : Le point générateur de la courbe elliptique `secp256k1`
+- $ \text{SHA256} $ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $ s $ : Le secret commun ECDH
+- $ P $ : La clé publique / adresse unique pour le paiement vers Bob
 
-Voici une approche initiale plutôt naïve pour utiliser l'adresse statique de Bob, notée $B$, afin de dériver une adresse unique $P$ pour y envoyer des bitcoins. Toutefois, cette méthode est trop simpliste et présente plusieurs défauts qui nécessitent correction. Le premier problème est que, dans ce schéma, Alice ne peut pas créer plusieurs outputs vers Bob au sein de la même transaction.
+Voici une approche initiale plutôt naïve pour utiliser l'adresse statique de Bob, notée $ B $, afin de dériver une adresse unique $ P $ pour y envoyer des bitcoins. Toutefois, cette méthode est trop simpliste et présente plusieurs défauts qui nécessitent correction. Le premier problème est que, dans ce schéma, Alice ne peut pas créer plusieurs outputs vers Bob au sein de la même transaction.
 
 ### Comment créer plusieurs outputs ?
 
-Dans l'exemple de la section précédente, Alice créer un seul output qui va aller vers Bob sur son adresse unique $P$. Avec le même input sélectionné, il est impossible pour Alice de créer deux adresses vierges distinctes pour Bob, car la méthode employée mènerait toujours au même résultat pour $P$, donc à la même adresse. Toutefois, il peut y avoir de nombreuses situations où Alice souhaite diviser son paiement à Bob en plusieurs petits montants, créant ainsi plusieurs UTXOs. Il est donc nécessaire de trouver une méthode permettant de réaliser cela.
+Dans l'exemple de la section précédente, Alice créer un seul output qui va aller vers Bob sur son adresse unique $ P $. Avec le même input sélectionné, il est impossible pour Alice de créer deux adresses vierges distinctes pour Bob, car la méthode employée mènerait toujours au même résultat pour $ P $, donc à la même adresse. Toutefois, il peut y avoir de nombreuses situations où Alice souhaite diviser son paiement à Bob en plusieurs petits montants, créant ainsi plusieurs UTXOs. Il est donc nécessaire de trouver une méthode permettant de réaliser cela.
 
-Pour y parvenir, nous allons légèrement modifier le calcul que réalise Alice pour dériver $P$, afin qu'elle puisse générer deux adresses distinctes pour Bob, soit $P_0$ et $P_1$.
+Pour y parvenir, nous allons légèrement modifier le calcul que réalise Alice pour dériver $ P $, afin qu'elle puisse générer deux adresses distinctes pour Bob, soit $ P_0 $ et $ P_1 $.
 
-Pour modifier le calcul et obtenir 2 adresses différentes, il suffit d'ajouter un entier qui vienne modifier le résultat. Ainsi, Alice va ajouter $0$ dans son calcul pour obtenir l'adresse $P_0$ et $1$ pour obtenir l'adresse $P_1$. Appelons cet entier $i$ :
+Pour modifier le calcul et obtenir 2 adresses différentes, il suffit d'ajouter un entier qui vienne modifier le résultat. Ainsi, Alice va ajouter $ 0 $ dans son calcul pour obtenir l'adresse $ P_0 $ et $ 1 $ pour obtenir l'adresse $ P_1 $. Appelons cet entier $ i $ :
 
-$$  P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G  $$
+$$
+P_i = B + \text{hash}(a \cdot B \text{ ‖ } i) \cdot G
+$$
 
-Le processus de calcul reste inchangé par rapport à la méthode précédente, à l'exception que cette fois-ci Alice va concaténer $a \cdot B$ avec $i$ avant de procéder au hachage. Il suffit ensuite de modifier $i$ pour avoir une nouvelle adresse appartenant à Bob. Par exemple :
+Le processus de calcul reste inchangé par rapport à la méthode précédente, à l'exception que cette fois-ci Alice va concaténer $a \cdot B$ avec $ i $ avant de procéder au hachage. Il suffit ensuite de modifier $ i $ pour avoir une nouvelle adresse appartenant à Bob. Par exemple :
 
-$$  P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B + \text{hash}(a \cdot B \text{ ‖ } 0) \cdot G
+$$
 
-$$  P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G  $$
+$$
+P_1 = B + \text{hash}(a \cdot B \text{ ‖ } 1) \cdot G
+$$
 
-Lorsque Bob scanne la blockchain à la recherche de Silent Payments qui lui sont destinés, il commence par utiliser $i = 0$ pour l'adresse $P_0$. S'il ne trouve aucun paiement sur $P_0$, il conclut que cette transaction ne contient pas de Silent Payments à son égard et abandonne l'analyse de celle-ci. Cependant, si $P_0$ est valide et contient un paiement pour lui, il poursuit avec $P_1$ dans la même transaction pour vérifier si Alice a effectué un deuxième paiement. Si $P_1$ se révèle invalide, il cesse ses recherches pour cette transaction ; sinon, il continue de tester les valeurs successives de $i$ :
+Lorsque Bob scanne la blockchain à la recherche de Silent Payments qui lui sont destinés, il commence par utiliser $i = 0$ pour l'adresse $ P_0 $. S'il ne trouve aucun paiement sur $ P_0 $, il conclut que cette transaction ne contient pas de Silent Payments à son égard et abandonne l'analyse de celle-ci. Cependant, si $ P_0 $ est valide et contient un paiement pour lui, il poursuit avec $ P_1 $ dans la même transaction pour vérifier si Alice a effectué un deuxième paiement. Si $ P_1 $ se révèle invalide, il cesse ses recherches pour cette transaction ; sinon, il continue de tester les valeurs successives de $ i $ :
 
-$$  P_0 = B + \text{hash}(b \cdot A \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B + \text{hash}(b \cdot A \text{ ‖ } 0) \cdot G
+$$
 
-$$  P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1) \cdot G  $$
+$$
+P_1 = B + \text{hash}(b \cdot A \text{ ‖ } 1) \cdot G
+$$
 
-Puisque Bob s'arrête immédiatement à $i = 0$ si $P_0$ ne donne rien, l'utilisation de cet entier n'ajoute quasiment aucune charge opérationnelle supplémentaire sur Bob pour l'étape du scanning des transactions.
+Puisque Bob s'arrête immédiatement à $i = 0$ si $ P_0 $ ne donne rien, l'utilisation de cet entier n'ajoute quasiment aucune charge opérationnelle supplémentaire sur Bob pour l'étape du scanning des transactions.
 
 Bob pourra ensuite calculer les clés privées de la même façon :
 
-$$ 
+$$
 p_0 = (b + \text{hash}(b \cdot A \text{ ‖ } 0)) \bmod n
- $$
+$$
 
-$$ 
-p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n 
- $$
+$$
+p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n
+$$
 
 ![BTC204](assets/notext/73/03.webp)
 
 *Légende :*
-- $B$ : La clé publique / adresse statique publiée par Bob
-- $b$ : La clé privée de Bob
-- $A$ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
-- $a$ : La clé privée d'Alice
-- $G$ : Le point générateur de la courbe elliptique `secp256k1`
-- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
-- $s_0$ : Le premier secret commun ECDH
-- $s_1$ : Le second secret commun ECDH
-- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
-- $P_1$ : La seconde clé publique / adresse unique pour le paiement vers Bob
+- $ B $ : La clé publique / adresse statique publiée par Bob
+- $ b $ : La clé privée de Bob
+- $ A $ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
+- $ a $ : La clé privée d'Alice
+- $ G $ : Le point générateur de la courbe elliptique `secp256k1`
+- $ \text{SHA256} $ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $ s_0 $ : Le premier secret commun ECDH
+- $ s_1 $ : Le second secret commun ECDH
+- $ P_0 $ : La première clé publique / adresse unique pour le paiement vers Bob
+- $ P_1 $ : La seconde clé publique / adresse unique pour le paiement vers Bob
 
 Avec cette méthode, on commence à avoir un protocole sympathique, mais il y a encore quelques défis à surmonter, notamment la prévention de la réutilisation d'adresse.
 
 ### Comment éviter la réutilisation d'adresse ?
 
-Comme nous l'avons vu dans les sections précédentes, Alice utilise la paire de clés qui sécurise son UTXO qu'elle va dépenser pour calculer le secret partagé ECDH avec Bob. Ce secret lui permet de dériver l'adresse unique $P_0$. Cependant, la paire de clés ($a$, $A$) utilisée par Alice peut sécuriser plusieurs UTXOs si elle a réutilisé plusieurs fois cette adresse. Dans l'éventualité où Alice effectue deux paiements vers l'adresse statique $B$ de Bob en utilisant deux UTXOs sécurisés par la même clé $A$, cela entraînerait une réutilisation d'adresse pour Bob.
+Comme nous l'avons vu dans les sections précédentes, Alice utilise la paire de clés qui sécurise son UTXO qu'elle va dépenser pour calculer le secret partagé ECDH avec Bob. Ce secret lui permet de dériver l'adresse unique $ P_0 $. Cependant, la paire de clés ($ a $, $ A $) utilisée par Alice peut sécuriser plusieurs UTXOs si elle a réutilisé plusieurs fois cette adresse. Dans l'éventualité où Alice effectue deux paiements vers l'adresse statique $ B $ de Bob en utilisant deux UTXOs sécurisés par la même clé $ A $, cela entraînerait une réutilisation d'adresse pour Bob.
 
 > *La réutilisation d'adresse est une très mauvaise pratique pour la confidentialité de l'utilisateur. Pour savoir pourquoi, je vous conseille de revoir les première parties de cette formation.*
 
-En effet, puisque l'adresse unique $P_0$ est dérivée depuis $A$ et $B$, et bien si Alice dérive une seconde adresse pour un second paiement vers $B$, avec la même clé $A$, elle va tomber exactement sur la même adresse $P_0$. Pour éviter ce risque et prévenir les réutilisations d'adresse au sein des Silent Payments, il va falloir modifier un peu nos calculs.
+En effet, puisque l'adresse unique $ P_0 $ est dérivée depuis $ A $ et $ B $, et bien si Alice dérive une seconde adresse pour un second paiement vers $ B $, avec la même clé $ A $, elle va tomber exactement sur la même adresse $ P_0 $. Pour éviter ce risque et prévenir les réutilisations d'adresse au sein des Silent Payments, il va falloir modifier un peu nos calculs.
 
-Ce que l'on souhaite, c'est que chaque UTXO consommé par Alice en input d'un paiement donne une adresse unique du côté de Bob, et ce, même si plusieurs UTXOs sont sécurisés par la même paire de clés. Il suffit donc d'ajouter une référence à l'UTXO dans le calcul de l'adresse unique $P_0$. Cette référence va simplement être le hachage de l'UTXO consommé en input :
+Ce que l'on souhaite, c'est que chaque UTXO consommé par Alice en input d'un paiement donne une adresse unique du côté de Bob, et ce, même si plusieurs UTXOs sont sécurisés par la même paire de clés. Il suffit donc d'ajouter une référence à l'UTXO dans le calcul de l'adresse unique $ P_0 $. Cette référence va simplement être le hachage de l'UTXO consommé en input :
 
-$$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
+$$
+\text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)
+$$
 
-Et cette référence à l'input, Alice va l'ajouter dans son calcul de l'adresse unique $P_0$ :
+Et cette référence à l'input, Alice va l'ajouter dans son calcul de l'adresse unique $ P_0 $ :
 
-$$  P_0 = B + \text{hash}(\text{inputHash} \cdot a \cdot B \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B + \text{hash}(\text{inputHash} \cdot a \cdot B \text{ ‖ } 0) \cdot G
+$$
 
-Lors de son scanning, Bob peut également ajouter $\text{inputHash}$, puisqu'il lui suffit d'observer la transaction pour déduire $\text{outpoint}$ :
+Lors de son scanning, Bob peut également ajouter $ \text{inputHash} $, puisqu'il lui suffit d'observer la transaction pour déduire $ \text{outpoint} $ :
 
-$$  P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G
+$$
 
-Lorsqu'il trouve un $P_0$ valide, il peut calculer la clé privée $p_0$ correspondante :
+Lorsqu'il trouve un $ P_0 $ valide, il peut calculer la clé privée $ p_0 $ correspondante :
 
-$$ 
+$$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
- $$
+$$
 
 ![BTC204](assets/notext/73/04.webp)
 
 *Légende :*
-- $B$ : La clé publique / adresse statique publiée par Bob
-- $b$ : La clé privée de Bob
-- $A$ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
-- $a$ : La clé privée d'Alice
-- $H$ : Le hachage de l'UTXO utilisé en input
-- $G$ : Le point générateur de la courbe elliptique `secp256k1`
-- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
-- $s_0$ : Le premier secret commun ECDH
-- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
+- $ B $ : La clé publique / adresse statique publiée par Bob
+- $ b $ : La clé privée de Bob
+- $ A $ : La clé publique de l'UTXO d'Alice utilisé en input de la transaction
+- $ a $ : La clé privée d'Alice
+- $ H $ : Le hachage de l'UTXO utilisé en input
+- $ G $ : Le point générateur de la courbe elliptique `secp256k1`
+- $ \text{SHA256} $ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $ s_0 $ : Le premier secret commun ECDH
+- $ P_0 $ : La première clé publique / adresse unique pour le paiement vers Bob
 
 Pour le moment, nos calculs supposent qu'Alice utilise un unique input pour sa transaction. Cependant, elle devrait être capable d'utiliser plusieurs inputs. En conséquence, du côté de Bob, pour chaque transaction comportant plusieurs inputs, il devrait théoriquement calculer l'ECDH pour chaque input afin de déterminer si un paiement lui est destiné. Cette méthode n'est pas satisfaisante, il faut donc trouver une solution pour réduire la charge de travail !
 
@@ -2544,142 +2628,174 @@ Pour le moment, nos calculs supposent qu'Alice utilise un unique input pour sa t
 Pour résoudre ce problème, au lieu d'utiliser la paire de clés sécurisant un input spécifique du côté d'Alice, nous allons utiliser la somme de toutes les paires de clés utilisées dans les inputs de la transaction. Cette somme sera alors considérée comme une nouvelle paire de clés. C'est une technique connue sous le nom de "tweak".
 
 Par exemple, imaginons que la transaction d'Alice dispose de 3 inputs, chacun sécurisé avec une paire de clés différente :
-- $a_0$ permet de sécuriser l'input #0 ;
-- $a_1$ permet de sécuriser l'input #1 ;
-- $a_2$ permet de sécuriser l'input #2.
+- $ a_0 $ permet de sécuriser l'input #0 ;
+- $ a_1 $ permet de sécuriser l'input #1 ;
+- $ a_2 $ permet de sécuriser l'input #2.
 
 ![BTC204](assets/notext/73/05.webp)
 
-Si l'on suit la méthode précédemment décrite, Alice devrait choisir une unique paire de clés parmi $a_0$, $a_1$, et $a_2$ pour calculer le secret ECDH et générer l'adresse de paiement unique $P$ à partir de l'adresse statique de Bob $B$. Cependant, cette approche impose à Bob de tester chaque possibilité séquentiellement, en commençant par $a_0$, puis $a_1$, et ainsi de suite, jusqu'à identifier une paire générant une adresse $P$ valide. Ce processus exige de Bob qu'il exécute le calcul ECDH sur tous les inputs de toutes les transactions, ce qui augmente considérablement la charge opérationnelle du scanning.
+Si l'on suit la méthode précédemment décrite, Alice devrait choisir une unique paire de clés parmi $ a_0 $, $ a_1 $, et $ a_2 $ pour calculer le secret ECDH et générer l'adresse de paiement unique $ P $ à partir de l'adresse statique de Bob $ B $. Cependant, cette approche impose à Bob de tester chaque possibilité séquentiellement, en commençant par $ a_0 $, puis $ a_1 $, et ainsi de suite, jusqu'à identifier une paire générant une adresse $ P $ valide. Ce processus exige de Bob qu'il exécute le calcul ECDH sur tous les inputs de toutes les transactions, ce qui augmente considérablement la charge opérationnelle du scanning.
 
-Pour éviter cela, nous allons demander à Alice de réaliser son calcul de $P$ en utilisant la somme de toutes les clés en input. Reprenant notre exemple, la clé privée tweakée $a$ serait calculée comme suit :
+Pour éviter cela, nous allons demander à Alice de réaliser son calcul de $ P $ en utilisant la somme de toutes les clés en input. Reprenant notre exemple, la clé privée tweakée $ a $ serait calculée comme suit :
 
-$$  a = a_0 + a_1 + a_2  $$
+$$
+a = a_0 + a_1 + a_2
+$$
 
 De la même manière, Alice et Bob pourront calculer la clé publique tweakée :
 
-$$  A = A_0 + A_1 + A_2  $$
+$$
+A = A_0 + A_1 + A_2
+$$
 
-Grâce à cette méthode, Bob doit seulement calculer la somme des clés publiques de la transaction, puis calculer le secret ECDH à partir de $A$ seulement, ce qui réduit grandement le nombre de calculs à réaliser pour l'étape du scanning.
+Grâce à cette méthode, Bob doit seulement calculer la somme des clés publiques de la transaction, puis calculer le secret ECDH à partir de $ A $ seulement, ce qui réduit grandement le nombre de calculs à réaliser pour l'étape du scanning.
 
-Cependant, rappelez vous de la section précédente. Nous avions ajouté dans notre calcul le hachage $\text{inputHash}$ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
+Cependant, rappelez vous de la section précédente. Nous avions ajouté dans notre calcul le hachage $ \text{inputHash} $ qui est utilisé comme un nonce pour éviter la réutilisation d'adresse : 
 
-$$  \text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)  $$
+$$
+\text{inputHash} = \text{hash}(\text{outpoint} \text{ ‖ } A)
+$$
 
-Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $\text{outpoint}$ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de $\text{outpoint}$ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $\text{outpoint}$ lexicographiquement est $\text{outpoint}_L$, le calcul de $\text{inputHash}$ sera :
+Mais si l'on a plusieurs inputs dans une transaction, il faut pouvoir déterminer quel $ \text{outpoint} $ est choisi dans ce calcul. Selon le BIP352, le critère de sélection de $ \text{outpoint} $ à utiliser est de choisir le plus petit lexicographiquement, ce qui signifie qu'on sélectionne l'UTXO qui apparaît en premier dans l'ordre alphabétique. Cette méthode permet de standardiser l'UTXO à choisir dans chaque transaction. Par exemple, si ce plus petit $ \text{outpoint} $ lexicographiquement est $ \text{outpoint}_L $, le calcul de $ \text{inputHash} $ sera :
 
-$$  \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  $$
+$$
+\text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)
+$$
 
-Les calculs restent ensuite identiques à ceux que l'on a présentés dans la section précédente, mis à part que la clé privée $a$ et sa clé publique correspondante $A$ ne sont plus une paire permettant de sécuriser un seul input, mais représentent dorénavant le tweak de toutes les paires de clés en inputs.
+Les calculs restent ensuite identiques à ceux que l'on a présentés dans la section précédente, mis à part que la clé privée $ a $ et sa clé publique correspondante $ A $ ne sont plus une paire permettant de sécuriser un seul input, mais représentent dorénavant le tweak de toutes les paires de clés en inputs.
 
 ### Séparer les clés de dépense et de scan
 
-Pour le moment, nous avons parlé de l'adresse statique de Silent Payment $B$ comme d'une clé publique unique. Rappelez-vous, c'est cette clé publique $B$ qui est utilisée par Alice pour créer le secret partagé ECDH, qui permet lui-même de calculer l'adresse de paiement unique $P$. Bob utilise cette clé publique $B$ et la clé privée correspondante $b$ pour l'étape du scanning. Mais il utilisera également la clé privée $b$ pour calculer la clé privée $p$ qui permet la dépense depuis l'adresse $P$.
+Pour le moment, nous avons parlé de l'adresse statique de Silent Payment $ B $ comme d'une clé publique unique. Rappelez-vous, c'est cette clé publique $ B $ qui est utilisée par Alice pour créer le secret partagé ECDH, qui permet lui-même de calculer l'adresse de paiement unique $ P $. Bob utilise cette clé publique $ B $ et la clé privée correspondante $ b $ pour l'étape du scanning. Mais il utilisera également la clé privée $ b $ pour calculer la clé privée $ p $ qui permet la dépense depuis l'adresse $ P $.
 
-L'inconvénient de cette méthode est que la clé privée $b$, qui permet de calculer toutes les clés privées des adresses ayant reçu des Silent Payments, est également utilisée par Bob pour scanner les transactions. Cette étape nécessite que la clé $b$ soit disponible sur un logiciel de portefeuille connecté à internet, ce qui l'expose davantage au risque de vol par rapport à une conservation sur un portefeuille froid. Idéalement, il serait bénéfique de pouvoir tirer parti des Silent Payments tout en maintenant la clé privée $b$, qui contrôle l'accès à toutes les autres clés privées, sécurisée sur un hardware wallet. Heureusement, le protocole a été adapté pour permettre exactement cela.
+L'inconvénient de cette méthode est que la clé privée $ b $, qui permet de calculer toutes les clés privées des adresses ayant reçu des Silent Payments, est également utilisée par Bob pour scanner les transactions. Cette étape nécessite que la clé $ b $ soit disponible sur un logiciel de portefeuille connecté à internet, ce qui l'expose davantage au risque de vol par rapport à une conservation sur un portefeuille froid. Idéalement, il serait bénéfique de pouvoir tirer parti des Silent Payments tout en maintenant la clé privée $ b $, qui contrôle l'accès à toutes les autres clés privées, sécurisée sur un hardware wallet. Heureusement, le protocole a été adapté pour permettre exactement cela.
 
 Pour ce faire, le BIP352 prévoit que le receveur utilise 2 paires de clés différentes :
-- $B_{\text{spend}}$ : pour calculer les clés privées des adresses de paiement uniques ;
-- $B_{\text{scan}}$ : pour trouver les adresses de paiements uniques.
+- $ B_{\text{spend}} $ : pour calculer les clés privées des adresses de paiement uniques ;
+- $ B_{\text{scan}} $ : pour trouver les adresses de paiements uniques.
 
-De cette manière, Bob peut conserver la clé privée $b_{\text{spend}}$ sur un hardware wallet et utiliser la clé privée $b_{\text{scan}}$ sur un logiciel en ligne pour trouver ses Silent Payments, sans pour autant révéler $b_{\text{spend}}$. En revanche, les clés publiques $B_{\text{scan}}$ et $B_{\text{spend}}$ sont toutes deux révélées publiquement, puisqu'elles se trouvent dans l'adresse statique $B$ de Bob :
+De cette manière, Bob peut conserver la clé privée $ b_{\text{spend}} $ sur un hardware wallet et utiliser la clé privée $ b_{\text{scan}} $ sur un logiciel en ligne pour trouver ses Silent Payments, sans pour autant révéler $ b_{\text{spend}} $. En revanche, les clés publiques $ B_{\text{scan}} $ et $ B_{\text{spend}} $ sont toutes deux révélées publiquement, puisqu'elles se trouvent dans l'adresse statique $ B $ de Bob :
 
-$$  B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+$$
+B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}
+$$
 
-Pour calculer une adresse de paiement unique $P_0$ appartenant à Bob, Alice va dorénavant effectuer le calcul suivant :
+Pour calculer une adresse de paiement unique $ P_0 $ appartenant à Bob, Alice va dorénavant effectuer le calcul suivant :
 
-$$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G
+$$
 
 Pour trouver les paiements qui lui sont adressés, Bob va effectuer le calcul suivant :
 
-$$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G
+$$
 
-Comme vous pouvez le voir, jusqu'ici, Bob n'a pas eu besoin d'utiliser $b_{\text{spend}}$ qui se trouve sur son hardware wallet. Lorsqu'il souhaitera dépenser $P_0$, il pourra alors faire le calcul suivant pour trouver la clé privée $p_0$ :
+Comme vous pouvez le voir, jusqu'ici, Bob n'a pas eu besoin d'utiliser $ b_{\text{spend}} $ qui se trouve sur son hardware wallet. Lorsqu'il souhaitera dépenser $ P_0 $, il pourra alors faire le calcul suivant pour trouver la clé privée $ p_0 $ :
 
-$$ p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
+$$
+p_0 = (b_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n
+$$
 
 ![BTC204](assets/notext/73/06.webp)
 
 *Légende :*
-- $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)
-- $b_{\text{scan}}$ : La clé privée de scan de Bob
-- $B_{\text{spend}}$ : La clé publique de dépense de Bob (adresse statique)
-- $b_{\text{spend}}$ : La clé privée de dépense de Bob
-- $A$ : La somme des clés publiques en input (tweak)
-- $a$ : La clé privée correspondant à la clé publique tweakée
-- $H$ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
-- $G$ : Le point générateur de la courbe elliptique `secp256k1`
-- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
-- $s_0$ : Le premier secret commun ECDH
-- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
+- $ B_{\text{scan}} $ : La clé publique de scan de Bob (adresse statique)
+- $ b_{\text{scan}} $ : La clé privée de scan de Bob
+- $ B_{\text{spend}} $ : La clé publique de dépense de Bob (adresse statique)
+- $ b_{\text{spend}} $ : La clé privée de dépense de Bob
+- $ A $ : La somme des clés publiques en input (tweak)
+- $ a $ : La clé privée correspondant à la clé publique tweakée
+- $ H $ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
+- $ G $ : Le point générateur de la courbe elliptique `secp256k1`
+- $ \text{SHA256} $ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $ s_0 $ : Le premier secret commun ECDH
+- $ P_0 $ : La première clé publique / adresse unique pour le paiement vers Bob
 
 ### Utiliser des adresses SP avec un label
 
-Bob dispose donc d'une adresse statique $B$ pour les Silent Payments tel que :
+Bob dispose donc d'une adresse statique $ B $ pour les Silent Payments tel que :
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+$$
+B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}
+$$
 
 Le problème avec cette méthode, c'est qu'elle ne permet pas de ségréguer les différents paiements envoyés à cette adresse. Par exemple, si Bob dispose de 2 clients différents pour son entreprise, et qu'il souhaite bien différencier les paiements de chacun, il va avoir besoin de 2 adresses statiques différentes. Une solution naïve, avec l'approche actuelle, serait pour Bob de créer deux portefeuilles séparés, chacun ayant sa propre adresse statique, ou même d'établir deux adresses statiques différentes au sein d'un même portefeuille. Cependant, cette solution requiert de scanner toute la blockchain deux fois (une fois pour chaque adresse) afin de détecter respectivement les paiements destinés à chaque adresse. Ce double scanning augmente irraisonnablement la charge opérationnelle pour Bob.
 
-Pour résoudre ce problème, le BIP352 utilise un système de label qui permet de disposer d'adresses statiques différentes, sans pour autant augmenter irraisonnablement la charge de travail pour trouver les Silent Payments sur la blockchain. Pour ce faire, on va ajouter un entier $m$ à la clé publique de dépense $B_{\text{spend}}$. Cet entier peut prendre la valeur de $1$ pour la première adresse statique, puis de $2$ pour la seconde, etc. Les clés de dépense $B_{\text{spend}}$ s'appelleront donc désormais $B_m$ et seront construites de cette manière :
+Pour résoudre ce problème, le BIP352 utilise un système de label qui permet de disposer d'adresses statiques différentes, sans pour autant augmenter irraisonnablement la charge de travail pour trouver les Silent Payments sur la blockchain. Pour ce faire, on va ajouter un entier $ m $ à la clé publique de dépense $ B_{\text{spend}} $. Cet entier peut prendre la valeur de $ 1 $ pour la première adresse statique, puis de $ 2 $ pour la seconde, etc. Les clés de dépense $ B_{\text{spend}} $ s'appelleront donc désormais $ B_m $ et seront construites de cette manière :
 
-$$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
+$$
+B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G
+$$
 
-Par exemple, pour la première clé de dépense avec le label $1$ :
+Par exemple, pour la première clé de dépense avec le label $ 1 $ :
 
-$$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
+$$
+B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G
+$$
 
-L'adresse statique publiée par Bob sera dorénavant composée de $B_{\text{scan}}$ et de $B_m$. Par exemple, la première adresse statique avec le label $1$ sera :
+L'adresse statique publiée par Bob sera dorénavant composée de $ B_{\text{scan}} $ et de $ B_m $. Par exemple, la première adresse statique avec le label $ 1 $ sera :
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
+$$
+B = B_{\text{scan}} \text{ ‖ } B_1
+$$
 
 > *On commence seulement à partir du label 1 car le label 0 est réservé pour le change.*
 
-Alice, de son côté, va dériver l'adresse de paiement unique $P$ de la même manière qu'auparavant, mais en utilisant la nouvelle $B_1$ à la place de $B_{\text{spend}}$ :
+Alice, de son côté, va dériver l'adresse de paiement unique $ P $ de la même manière qu'auparavant, mais en utilisant la nouvelle $ B_1 $ à la place de $ B_{\text{spend}} $ :
 
-$$  P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G
+$$
 
-En réalité, Alice ne sait même pas forcément que Bob dispose d'une adresse labelisée, car elle utilise simplement la seconde partie de l'adresse statique qu'il lui a fourni, et en l'occurrence, c'est la valeur $B_1$ plutôt que $B_{\text{spend}}$.
+En réalité, Alice ne sait même pas forcément que Bob dispose d'une adresse labelisée, car elle utilise simplement la seconde partie de l'adresse statique qu'il lui a fourni, et en l'occurrence, c'est la valeur $ B_1 $ plutôt que $ B_{\text{spend}} $.
 
-Pour scanner les paiements, Bob va toujours utiliser la valeur de son adresse statique initiale avec $B_{\text{spend}}$ de cette manière :
+Pour scanner les paiements, Bob va toujours utiliser la valeur de son adresse statique initiale avec $ B_{\text{spend}} $ de cette manière :
 
-$$   P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
+$$
+P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G
+$$
 
-Puis, il va simplement soustraire la valeur qu'il trouve pour $P_0$ de chaque output un à un. Il vérifie ensuite si un des résultats de ces soustractions correspond à la valeur d'un des labels qu'il utilise sur son portefeuille. Si ça matche par exemple pour l'output #4 avec le label $1$, cela veut dire que cet output est un Silent Payment associé à son adresse statique labelisée $B_1$ :
+Puis, il va simplement soustraire la valeur qu'il trouve pour $ P_0 $ de chaque output un à un. Il vérifie ensuite si un des résultats de ces soustractions correspond à la valeur d'un des labels qu'il utilise sur son portefeuille. Si ça matche par exemple pour l'output #4 avec le label $ 1 $, cela veut dire que cet output est un Silent Payment associé à son adresse statique labelisée $ B_1 $ :
 
-$$ Out_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
+$$
+Out_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G
+$$
 
 Cela fonctionne, car :
 
-$$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
+$$
+B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G
+$$
 
-Grâce à cette méthode, Bob peut utiliser une multitude d'adresses statiques ($B_1$, $B_2$, $B_3$...), toutes dérivées depuis son adresse statique de base ($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$), afin de bien séparer les usages. 
+Grâce à cette méthode, Bob peut utiliser une multitude d'adresses statiques ($ B_1 $, $ B_2 $, $ B_3 $...), toutes dérivées depuis son adresse statique de base ($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$), afin de bien séparer les usages. 
 
-Attention toutefois, cette séparation des adresses statiques vaut uniquement d'un point de vue de gestion personnelle du portefeuille, mais ne permet pas de séparer les identités. Puisqu'elles disposent toutes du même $B_{\text{scan}}$, il est très facile d'associer toutes les adresses statiques ensemble et de déduire qu'elles appartiennent à une unique entité.
+Attention toutefois, cette séparation des adresses statiques vaut uniquement d'un point de vue de gestion personnelle du portefeuille, mais ne permet pas de séparer les identités. Puisqu'elles disposent toutes du même $ B_{\text{scan}} $, il est très facile d'associer toutes les adresses statiques ensemble et de déduire qu'elles appartiennent à une unique entité.
 
 ![BTC204](assets/notext/73/07.webp)
 
 *Légende :*
-- $B_{\text{scan}}$ : La clé publique de scan de Bob (adresse statique)
-- $b_{\text{scan}}$ : La clé privée de scan de Bob
-- $B_{\text{spend}}$ : La clé publique de dépense de Bob (adresse initiale)
-- $B_m$ : La clé publique de dépense de Bob labélisée (adresse statique)
-- $b_m$ : La clé privée de dépense de Bob labélisée
-- $A$ : La somme des clés publiques en input (tweak)
-- $a$ : La clé privée correspondant à la clé publique tweakée
-- $H$ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
-- $G$ : Le point générateur de la courbe elliptique `secp256k1`
-- $\text{SHA256}$ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
-- $s_0$ : Le premier secret commun ECDH
-- $P_0$ : La première clé publique / adresse unique pour le paiement vers Bob
-- $p_0$ : La clé privée de la première adresse unique de paiement vers Bob
-- $X$ : Le hachage de la clé privée de scan avec le label
+- $ B_{\text{scan}} $ : La clé publique de scan de Bob (adresse statique)
+- $ b_{\text{scan}} $ : La clé privée de scan de Bob
+- $ B_{\text{spend}} $ : La clé publique de dépense de Bob (adresse initiale)
+- $ B_m $ : La clé publique de dépense de Bob labélisée (adresse statique)
+- $ b_m $ : La clé privée de dépense de Bob labélisée
+- $ A $ : La somme des clés publiques en input (tweak)
+- $ a $ : La clé privée correspondant à la clé publique tweakée
+- $ H $ : Le hachage du plus petit UTXO (lexicographiquement) utilisé en input
+- $ G $ : Le point générateur de la courbe elliptique `secp256k1`
+- $ \text{SHA256} $ : La fonction de hachage SHA256 taguée avec `BIP0352/SharedSecret`
+- $ s_0 $ : Le premier secret commun ECDH
+- $ P_0 $ : La première clé publique / adresse unique pour le paiement vers Bob
+- $ p_0 $ : La clé privée de la première adresse unique de paiement vers Bob
+- $ X $ : Le hachage de la clé privée de scan avec le label
 
 ### Comment construire une adresse Silent Payments ?
 
 Pour construire son adresse dédiée au Silent Payments, il faut d'abord dériver 2 paires de clés dans son portefeuille Bitcoin HD :
-- La paire $b_{\text{scan}}$, $B_{\text{scan}}$ pour rechercher les paiements qui nous sont adressés ;
-- La paire $b_{\text{spend}}$, $B_{\text{spend}}$ pour penser les bitcoins que l'on a reçus.
+- La paire $ b_{\text{scan}} $, $ B_{\text{scan}} $ pour rechercher les paiements qui nous sont adressés ;
+- La paire $ b_{\text{spend}} $, $ B_{\text{spend}} $ pour penser les bitcoins que l'on a reçus.
 
 Ces paires sont dérivées en suivant les chemins suivants (*Bitcoin Mainnet*) :
 
@@ -2690,15 +2806,21 @@ spend : m / 352' / 0' / 0' / 0' / 0
 
 Une fois que l'on dispose de ces 2 paires de clés, il suffit de les concaténer (mettre bout-à-bout) pour créer la charge utile de l'adresse statique : 
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}} $$
+$$
+B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}
+$$
 
-Si l'on souhaite utiliser des labels, on va remplacer $B_{\text{spend}}$ par $B_m$ : 
+Si l'on souhaite utiliser des labels, on va remplacer $ B_{\text{spend}} $ par $ B_m $ : 
 
-$$ B = B_{\text{scan}} \text{ ‖ } B_m $$
+$$
+B = B_{\text{scan}} \text{ ‖ } B_m
+$$
 
-Avec le label $m$ :
+Avec le label $ m $ :
 
-$$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G  $$
+$$
+B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G
+$$
 
 Une fois que l'on dispose de cette charge utile, il faut y ajouter le HRP (*Human-Readable Part*) `sp` et la version `q` (= version 0). On ajoute également une checksum et on formate l'adresse en bech32m.
 
@@ -2708,9 +2830,9 @@ Par exemple, voici mon adresse statique de Silent Payments :
 sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ryc7aam6jrvrg0d0uuyzecfhx2wgsumcurv77e
 ```
 
-Un point important concernant les adresses statiques, que vous avez pu saisir dans les sections précédentes, réside dans le fait que ces adresses ne sont pas visibles dans les transactions Bitcoin. Seules les adresses de paiement $P$, utilisées dans les outputs, apparaissent sur la blockchain dans le format Taproot standard. Ainsi, de l'extérieur, il est impossible de distinguer une transaction impliquant un Silent Payment d'une transaction ordinaire utilisant des outputs P2TR.
+Un point important concernant les adresses statiques, que vous avez pu saisir dans les sections précédentes, réside dans le fait que ces adresses ne sont pas visibles dans les transactions Bitcoin. Seules les adresses de paiement $ P $, utilisées dans les outputs, apparaissent sur la blockchain dans le format Taproot standard. Ainsi, de l'extérieur, il est impossible de distinguer une transaction impliquant un Silent Payment d'une transaction ordinaire utilisant des outputs P2TR.
 
-De même que pour le BIP47, il est impossible d'établir une connexion entre une adresse statique $B$ et une adresse de paiement $P$ dérivée à partir de $B$. En effet, même si Ève, une potentielle attaquante, tente de scanner la blockchain avec l'adresse statique $B$ de Bob, elle ne pourra pas réaliser les calculs nécessaires pour déterminer $P$. Pour cela, elle aurait besoin soit de la clé privée $b_{\text{scan}}$ de Bob, soit des clés privées de l'envoyeur $a$, mais ces deux éléments sont bien entendu privés. Il est donc possible de lier explicitement son adresse statique avec une forme d'identité personnelle.
+De même que pour le BIP47, il est impossible d'établir une connexion entre une adresse statique $ B $ et une adresse de paiement $ P $ dérivée à partir de $ B $. En effet, même si Ève, une potentielle attaquante, tente de scanner la blockchain avec l'adresse statique $ B $ de Bob, elle ne pourra pas réaliser les calculs nécessaires pour déterminer $ P $. Pour cela, elle aurait besoin soit de la clé privée $ b_{\text{scan}} $ de Bob, soit des clés privées de l'envoyeur $ a $, mais ces deux éléments sont bien entendu privés. Il est donc possible de lier explicitement son adresse statique avec une forme d'identité personnelle.
 
 ### Comment utiliser les Silent Payments ?
 

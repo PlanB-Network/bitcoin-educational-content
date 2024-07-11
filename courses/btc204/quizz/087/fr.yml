@@ -1,0 +1,13 @@
+question: Comment Wabisabi gère-t-il le change par rapport à Wasabi 1.0 ?
+
+answer: Il le divise en plusieurs petites sommes réparties en dénominations égales.
+
+wrong_answers:
+  - Il les consolide pour éviter qu'ils deviennent du “dust”.
+  - Il les exclut avant la transaction coinjoin en égalisant les inputs.
+  - Il le transfère automatiquement à un portefeuille de réserve.
+
+explanation: |
+  Contrairement à Wasabi 1.0, où le change était directement lié aux inputs des utilisateurs, Wabisabi cherche à subdiviser le change en plusieurs petites sommes, réparties en dénominations égales pour tous les participants.
+
+reviewed: false

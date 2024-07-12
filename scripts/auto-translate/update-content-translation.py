@@ -67,7 +67,8 @@ def copy_from_repo_to_LLM_Translator(lang):
                     continue
                 new_filename = source_path.lstrip('./').replace('/', '_')
                 new_filename = new_filename.rstrip('_')
-
+                new_filename = new_filename.replace(f'_{lang}','')
+                print(new_filename)
                 destination_file_path = os.path.join(destination_base_path, new_filename)
 
                 try:
@@ -91,7 +92,7 @@ def run_LLM_Translator(source_language, destination_language, folder_path):
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
 
-def copy_from_LLM_Translator_to_repo(lang):
+# def copy_from_LLM_Translator_to_repo(lang):
 
 
 def main():
@@ -104,7 +105,7 @@ def main():
             copy_from_repo_to_LLM_Translator(lang)
             # translation_input_path = f"pbn-from-{lang}-to-en"
             # run_LLM_Translator(lang, 'en', translation_input_path)
-            copy_from_LLM_Translator_to_repo(lang)
+            # copy_from_LLM_Translator_to_repo(lang)
     print("So far so good!")
 
 

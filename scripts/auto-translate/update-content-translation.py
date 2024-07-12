@@ -68,7 +68,7 @@ def copy_from_repo_to_LLM_Translator(lang):
                 new_filename = source_path.lstrip('./').replace('/', '_')
                 new_filename = new_filename.rstrip('_')
                 new_filename = new_filename.replace(f'_{lang}','')
-                print(new_filename)
+
                 destination_file_path = os.path.join(destination_base_path, new_filename)
 
                 try:
@@ -92,7 +92,23 @@ def run_LLM_Translator(source_language, destination_language, folder_path):
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
 
-# def copy_from_LLM_Translator_to_repo(lang):
+def copy_from_LLM_Translator_to_repo(lang):
+    source_path = f"../../../LLM-Translator/outputs/pbn-from-{lang}-to-en/"
+
+    if not os.path.exists(source_path):
+        print(f"No source directory found for language '{lang}'.")
+        return
+
+    files = os.listdir(source_path)
+    for file in files:
+        destination_file_path = os.path.join('../../', file.replace('_','/'))
+        source_file_path = os.path.join(source_path, file)
+        try:
+            shutil.copy(source_file_path, destination_file_path)
+            print(f"Copied '{source_file_path}' back to '{destination_file_path}'")
+        except Exception as e:
+            print(f"Error copying back to '{destination_file_path}': {str(e)}")
+
 
 
 def main():
@@ -106,6 +122,7 @@ def main():
             # translation_input_path = f"pbn-from-{lang}-to-en"
             # run_LLM_Translator(lang, 'en', translation_input_path)
             # copy_from_LLM_Translator_to_repo(lang)
+            copy_from_LLM_Translator_to_repo(lang)
     print("So far so good!")
 
 

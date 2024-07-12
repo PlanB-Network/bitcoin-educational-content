@@ -1115,7 +1115,7 @@ Une semaine plus tard, le 18 juillet, Jed McCaleb lance sa plateforme de change 
 
 Interface de la plateforme Mt. Gox en février 2011 (source : [archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
-Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal bloquera le compte de Jed McCaleb, ce qui le contraindra à suspendre les activités de la plateforme. Un mois plus tard, il [rouvrira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) la plateforme en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les transferts via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
+Initialement, la plateforme accepte les paiements via PayPal. Cependant, en octobre 2010, suite à de trop nombreuses demandes de rétrofacturation, PayPal [bloquera](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) le compte de Jed McCaleb, ce qui le contraindra à suspendre momentanément les dépôts et les retraits sur la plateforme. Quelques semaines plus tard, il [rétablira](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) les transferts en ajoutant Liberty Reserve comme moyen de paiement. Par la suite, il acceptera également sur demande les transactions via [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809), et les virements bancaire [en dollars](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) et [en euros](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
 ### L'effet accélérateur du slashdotting
 
@@ -1201,13 +1201,13 @@ Durant les mois qui ont suivi, les améliorations techniques, économiques et mi
 
 Dans les précédents chapitres, nous avons étudié l'effet qu'a eu la publication de la présentation de Bitcoin sur Slashdot (*slashdotting*) et la façon dont les premiers ennuis techniques ont été gérés par Satoshi et par ses auxiliaires. À la fin de l'été, le projet avait tenu le choc et était prêt à accueillir un nombre croissant de personnes. L'automne 2010 a ainsi été une période de succès pour Bitcoin.
 
-D'abord, il a été une période fastueuse pour le minage, qui s'est énormément amélioré avec l'émergence des premières fermes de cartes graphiques et de la première coopérative. Ensuite, il a marqué le début de l'exportation de Bitcoin à l'international avec le développement de la communauté russe et de la communauté française. Enfin, l'écosystème a continué à s'améliorer avec l'apparition de nombreux services. Tous ces éléments ont conduit à une nouvelle augmentation du prix unitaire du bitcoin en octobre, ce qui n'a pas manqué de faire réagir les membres du forum.
+D'abord, il a été une période fastueuse pour le minage, qui s'est énormément amélioré avec l'émergence des premières fermes de cartes graphiques et de la première coopérative. Ensuite, il a marqué le début de l'exportation de Bitcoin à l'international avec le développement de la communauté russe et de la communauté française. Enfin, l'écosystème a continué à fleurir avec l'apparition de nombreux services. Tous ces éléments ont conduit à une nouvelle augmentation du prix unitaire du bitcoin en octobre, ce qui n'a pas manqué de faire réagir les membres du forum.
 
 ### La première ferme de minage (juil. 2010 -- sept. 2010)
 
-Après le slashdotting de Bitcoin en juillet 2010, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se spécialiser dans la génération de bitcoins. Le [taux de hachage](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) du réseau qui était de 0,22 GH/s le 11 juillet, passe ainsi à 2,78 GH/s le 17, puis à 5,79 GH/s le 15 août, ensuite à 9,94 GH/s le 19 septembre et enfin à 12,58 GH/s le 29.
+Après le slashdotting de Bitcoin en juillet 2010, la récompense financière élevée apportée par la hausse du prix et par l'éventualité de croissances futures incite les individus à se spécialiser dans la génération de bitcoins. C'est en quelque sorte une « ruée vers l'or numérique », comme l'[écrit](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) un blogueur de l'époque, constatant que des milliers d'internautes « minent des bitcoins dans l'espoir de faire fortune » et que beaucoup d'entre eux tentent « de développer des outils logiciels et matériels pour miner des bitcoins plus efficacement ». (*original: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*) Le [taux de hachage](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime) du réseau qui était de 0,22 GH/s le 11 juillet, passe ainsi à 2,78 GH/s le 17, puis à 5,79 GH/s le 15 août, ensuite à 9,94 GH/s le 19 septembre et enfin à 12,58 GH/s le 29.
 
-img: hashrate
+img: hashrate (CoinWarz ?)
 
 Le plus gros mineur de cette période est un développeur allemand qui se fait appeler ArtForz. Après avoir l'existence de Bitcoin par le biais de Slashdot, il s'investit rapidement dans le développement du logiciel et passe beaucoup de temps sur le canal IRC `#bitcoin-dev`. En particulier, il développe son propre algorithme de minage par GPU avec OpenCL, qu'il fait fonctionner avec la carte graphique de son ordinateur.
 
@@ -1257,31 +1257,39 @@ Lionel Dricot (Ploum) en 2012, alors candidat sous la bannière du Parti Pirate 
 
 Le même jour, Ploum ouvre le [fil de discussion](https://bitcointalk.org/index.php?topic=1567.0) « French » sur le forum de Bitcoin. Les messages des membres francophones du forum se multiplient lors des mois qui suivent. On y voit notamment intervenir David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), inscrit le 17 octobre et futur fondateur de Bitcoin-Central, et Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336), inscrit le 7 novembre et futur repreneur de la plateforme Mt. Gox. Il verra aussi le passage d'un certain Jean-Luc qui ouvrira le site [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) le 23 décembre et commencera à en faire la [promotion](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) en janvier. Un [sous-forum français](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) finira par être créé par Martti Malmi le 1er février 2011.
 
-### Une économie florissante
+### Un écosystème florissant (oct. 2010 -- nov. 2010)
 
-Bitcoinmedia: https://bitcointalk.org/index.php?topic=1355
+Tout d'abord, la communication au sujet de Bitcoin se met en place. Le 4 octobre, un Australien de 38 ans utilisant le pseudonyme noagendamarket, inscrit depuis le 5 juin d'après son [profil](https://web.archive.org/web/20101221210556/http://www.bitcoin.org/smf/index.php?action=profile;u=240), [lance](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) une initiative portant le nom de BitcoinMedia. L'idée est de promouvoir Bitcoin en créant divers contenus et d'en faire la publicité à des endroits susceptibles d'attirer un public. Bien que cette initiative ne rencontre pas le succès escompté, elle a le mérite de mener à la production des premières vidéos parlant de Bitcoin. La première vidéo, [publiée](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) le 5 octobre, est une *Google Search Story*, créée grâce à l'outil Youtube. La deuxième (publiée le 16 novembre) est une vidéo concernant Bitcoin et l'*Electronic Frontier Foundation*, créée avec Xtranormal, un outil facile de réalisation de séquences vidéo à partir d'un ensemble de personnages et de décors préconçus. (L'idée sera même [reprise](https://www.dailymotion.com/video/xglotj_bitcoin-fr_tech) par la communauté française en janvier 2011.)
 
-Vidéo avec xtranormal : https://www.youtube.com/watch?v=AiGCuyRJe8s
+![Vidéo "Bitcoin and the EFF"](https://www.youtube.com/watch?v=AiGCuyRJe8s)
 
-nanotube, IRC #bitcoin-otc (Freenode), 18 octobre 2010 : https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508
+Les billets de blog à propos de Bitcoin se multiplient durant cette période. C'est notamment le cas de Jon Matonis, qui tient le blog *The Monetary Future* où il traite de sujets liés aux monnaies numériques, à la banque libre et à la cryptographie. Il a découvert Bitcoin en mars et a [échangé](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) avec Satoshi, suite à quoi il s'est mis à écrire sur le sujet. En octobre, il publie un [troisième article](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html) où il parle de la hausse du prix et détaille les nouveautés de l'écosystème.
 
-Bitcoinwatch, jgarzik : https://bitcointalk.org/index.php?topic=1593.msg18908#msg18908
+![Photo de profil de Jon Matonis en 2011](assets/img/ch10/jon-matonis-2011.webp)
 
-Bitcoincharts.com, tcatm : https://bitcointalk.org/index.php?topic=1659.0 https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/
+Photo de profil de Jon Matonis en 2011 (source : [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
-29/10, offline key generation: https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131
+Durant l'automne 2010, les plateformes Mt. Gox, Bitcoin Market et quelques autres sont présentes mais cela ne suffit pas. C'est ainsi que les échanges de de gré à gré, *over the counter*, ont tendance à s'accroître. Outre les échnages qui se font par messages privés sur le forum, un système un peu plus carré se met en place : #bitcoin-otc. Il s'agit d'un canal IRC #bitcoin-otc sur Freenode [ouvert](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508) par un utilisateur se faisant appeler nanotube le 18 octobre. Le carnet d'ordres est hébergé sur [bitcoin-otc.com](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php) et les échanges ont lieu directement entre les parties, sans dépôt fiduciaire, par l'intermédiaire de moyens de paiement divers (PayPal, Liberty Reserve). Le nombre de services qui acceptent le bitcoin s'accroît aussi, même s'il reste relativement faible, comme l'[atteste](https://web.archive.org/web/20101120224505/https://bitcoin.org/trade) la page de référencement du site officiel.
 
-1er novembre, logo par bitboy : https://bitcointalk.org/index.php?topic=1631.0
-
-En octobre, le prix du bitcoin commence à augmenter, en passant de 6 ¢ (niveau auquel il se stabilise depuis fin juillet) à 10 ¢, puis à 20 ¢ à la fin du mois. Le 6 novembre, il atteint même les 50 ¢, ce qui ne manque pas d'[enthousiasmer](https://bitcointalk.org/index.php?topic=1681.0) les membres du forum.
+Tous ces éléments mènent le prix à augmenter de manière drastique. Alors qu'il se stabilise autour de 6 ¢ depuis août, celui-ci commence à augmenter au début du mois d'octobre. Il passe à 10 ¢, pour atteindre 20 ¢ à la fin du mois. Le 6 novembre, il dépasse même les 50 ¢, ce qui ne manque pas d'[enthousiasmer](https://bitcointalk.org/index.php?topic=1681.0) les membres du forum.
 
 ![Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox](assets/img/ch10/matonis-btc-price-mtgox-july-october-2010.webp)
 
 Prix du BTC entre le 18 juillet et le 18 octobre 2010 sur Mt. Gox (source : [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
 
-Explorateur de blocs par theymos, [10/11/2010](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) ([archive](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))
+C'est aussi à ce moment-là qu'un nouveau logo de Bitcoin est proposé. Le 1er novembre, un membre du forum utilisant le pseudonyme bitboy [publie](https://bitcointalk.org/index.php?topic=1631.0) des éléments graphiques permettant de mettre en avant la cryptomonnaie. L'un de ces éléments est un logo orange avec le B barré légèrement incliné :
 
-15--26 novembre : flot de transactions, [signalé](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) le 19 par Jeff Garzik. Par conséquent, Satoshi met des mesures en place : frais de transaction et limites sur les transactions gratuites.
+![Logo de Bitcoin conçu par bitboy, novembre 2010](assets/img/ch10/bitboy-bitcoin-logo.webp)
+
+On commence également à mesurer les choses, que ce soit au niveau du prix, de l'activité sur la chaîne ou bien du minage. Tout le monde sait que l'écosystème est en croissance mais personne ne sait l'estimer correctement. C'est pourquoi des services émergent durant la deuxième moitié de l'année 2010 et au début de l'année 2011, dont les principaux sont :
+
+- Bitcoin Watch ([bitcoinwatch.com](https://web.archive.org/web/20100816161306/http://www.bitcoinwatch.com/)), un agrégateur de statistiques diverses [développé](https://bitcointalk.org/index.php?topic=734.msg7954#msg7954) par Jeff Garzik (jgarzik) ;
+- Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/)), une interface de suivi du prix et d'affichage de graphiques [lancée](https://bitcointalk.org/index.php?topic=1659.0) par Nils Schneider (tcatm) le 4 novembre ;
+- Bitcoin Block Explorer ([blockexplorer.com](https://web.archive.org/web/20101128030227/http://blockexplorer.com/)), un explorateur de blocs [mis en place]((https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124)) par Michael Marquardt (theymos) le 10 novembre, qui permet à n'importe qui d'accéder au contenu des blocs et des transactions de Bitcoin avec un navigateur web ;
+- Bitcoin Network Graphs ([bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://bitcoin.sipa.be/)), un site affichant des graphiques de l'évolution du taux de hachage de Bitcoin [lancé](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173) par un certain Pieter Wuille (sipa) le 28 janvier 2011 ;
+- Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)), un outil de visualisation en temps réel des transactions, des blocs et des opérations de change, [mis en ligne](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150) par Jan Vornberger (jav) le 6 février 2011.
+
+Un dernier élément indiquant le succès de Bitcoin est le fait que certains se mettent à le tester. Entre le 15 et le 26 novembre, un individu s'amuse en effet à créer un flot de transactions, qui se comptent en milliers chaque jour. Cette activité exceptionnelle est [signalée](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) le 19 par Jeff Garzik. Cela contraint alors Satoshi à mettre en place des mesures, en restaurant l'interface des frais de transaction et en ajoutant des limites sur les transactions gratuites.
 
 ### Les premières coopératives de minage (oct. 2010 -- déc. 2010)
 
@@ -1317,25 +1325,29 @@ Logo de la coopération de Slush en septembre 2011 (source : [archive](https://
 
 ### Le retour de Hal Finney (nov. 2010 -- déc. 2010)
 
-Entretemps, Hal Finney a appris qu'il était atteint de la maladie de Charcot, [diagnostic](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) qui tombe en août 2009. Il adapte sa manière de vivre en conséquence, mais sa motricité se réduit progressivement.
+Après s'être éloigné de Bitcoin en avril 2009, Hal Finney a rapidement appris qu'il était atteint de la maladie de Charcot, [diagnostic](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) qui tombe en août 2009. Il adapte sa manière de vivre en conséquence, mais sa motricité se réduit progressivement.
 
-Le 30 novembre, il s'inscrit sur le forum et commence à participer aux discussions, notamment celle concernant le projet BitDNS.
+Le 30 novembre, il s'inscrit sur le forum et commence à participer aux discussions, notamment celle concernant le projet BitDNS. Il n'hésite pas à faire des petits dons aux divers projets qui fleurissent dans l'écosystème.
 
-Il étudie le code à nouveau et s'aperçoit de tout le travail qui a été fait depuis le lancement. Le 11 décembre, il [écrit](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) :
+De plus, il étudie le code à nouveau et s'aperçoit de tout le travail qui a été fait depuis le lancement. Cet élément le pousse à [écrire](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) le commentaire suivant sur le forum le 11 décembre :
 
-> « Il me semble qu'il s'agit d'un travail impressionnant, même si j'aimerais avoir plus de commentaires. J'ai surtout étudié les modules init, main, script et un peu de net. C'est une machine puissante. »
+> « C'est, il me semble, un travail impressionnant, même si j'aimerais avoir plus de commentaires. J'ai surtout étudié les modules init, main, script et un peu de net. C'est de la mécanique puissante. »
 >
 > *original: "To me it looks like an impressive job, although I'd wish for more comments. Now I've mostly studied the init, main, script and a bit of net modules. This is some powerful machinery."*
 
-Ce à quoi Satoshi [répond](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259), deux heures plus tard, dans ce qui sera son antépénultième message sur le forum :
+Deux heures plus tard, Satoshi lui [répond](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259) :
 
 > « Ça me touche beaucoup venant de toi, Hal. &nbsp;Merci. »
 >
 > *original: "That means a lot coming from you, Hal. &nbsp;Thanks."*
 
-### Un moment crucial
+C'est alors l'antépénultième message public du créateur de Bitcoin, qui disparaîtra quelques mois plus tard.
 
-À la fin de l'année 2010, il semble donc que Bitcoin est prêt à voler de ses propres ailes.
+### Un moment charnière
+
+Au cours de l'automne 2010, l'écosystème autour de Bitcoin a évolué de manière considérable. La communication s'est améliorée et l'économie s'est développé. Mais surtout c'est le minage qui a connu un grand bon en avant, en se spécialisant avec l'adoption de la génération par processeur graphique.
+
+À la fin de l'année 2010, il semblait donc que Bitcoin était prêt à voler de ses propres ailes. Et c'est précisément ce moment-là que Satoshi a choisi pour disparaître et laisser les rênes du projet à la communauté.
 
 # La communauté de Bitcoin
 
@@ -1350,6 +1362,8 @@ PayPal, blocus financier, Wladimir van der Laan, Robert Horning
 ### Le retrait progressif de Satoshi (déc. 2010)
 
 Opposition à WikiLeaks, « nid de frelons », dernier message public
+
+
 
 ### La transmission des accès et derniers courriels (déc. 2010 -- mai 2011)
 
@@ -1372,6 +1386,10 @@ Début mai, il écrit à Martti Malmi :
 > « Je suis passé à autre chose et je ne serai probablement plus là à l'avenir. »
 >
 > *original (Digital Gold p. 81): "I've moved to other things and probably won't be around in the future."*
+
+### WikiLeaks, la CIA, l'EFF
+
+20/6 : https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin
 
 ### Le mystère Satoshi
 
@@ -1396,6 +1414,10 @@ Début mai, il écrit à Martti Malmi :
 Bitcoin Improvement Proposals (BIP), liste de diffusion bitcoin-dev, canal IRC, Amir Taaki et Gavin Andresen, [liste des développeurs](https://web.archive.org/web/20110623010047/http://bitcoin.sourceforge.net/?page_id=8)
 
 gmaxwell
+
+Migration du wiki de dokuwiki vers Mediawiki, grâce à Mark Karpelès : https://en.bitcoin.it/wiki/Mark_Karpel%C3%A8s#Bitcoin_Wiki
+
+Premières vidéos sur Bitcoin : https://www.youtube.com/watch?v=Akgw7XghFFc
 
 ### Les portefeuilles SPV (mars 2011 -- sept. 2011)
 

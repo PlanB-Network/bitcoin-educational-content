@@ -30,6 +30,7 @@ def get_supported_languages():
 def content_exist(filenames, lang):
     return any(f.endswith(f"{lang}.md") or f.endswith(f"{lang}.yml") for f in filenames)
     
+
 def create_txt_to_en_from(lang):
     base_dirs = ["../../courses", "../../resources", "../../tutorials"]
     output_file = f"./translate-to-en/{lang}.txt"
@@ -43,7 +44,7 @@ def create_txt_to_en_from(lang):
                 if any(skip_dir in dirpath for skip_dir in skip_dirs):
                     continue
                 for filename in filenames:
-                    if filename.startswith(f"{lang}.") and content_exist(filenames, lang) and not content_exist(filenames, 'en'): 
+                    if filename.startswith(f"{lang}.") and not content_exist(filenames, 'en'): 
                         relative_path = os.path.relpath(Path(dirpath) / filename, start=".")
                         yml_file.write(f"{relative_path}\n")
                         file_written = True
@@ -51,6 +52,30 @@ def create_txt_to_en_from(lang):
     if not file_written:
         os.remove(output_file)
         print(f"No need to translate from {lang}")
+
+def create_txt_from_en_to(lang):
+    base_dirs = ["../../courses", "../../resources", "../../tutorials"]
+    output_file = f"./translate-from-en/{lang}.txt"
+    skip_dirs = ["crypto302",
+                 "conference",
+                 "podcasts"
+                 ]
+    file_written = False
+
+    with open(output_file, "w") as yml_file:
+        for base_dir in base_dirs:
+            for dirpath, dirnames, filenames in os.walk(base_dir):
+                if any(skip_dir in dirpath for skip_dir in skip_dirs):
+                    continue
+                for filename in filenames:
+                    if filename.startswith(f"en.") and not content_exist(filenames, lang): 
+                        relative_path = os.path.relpath(Path(dirpath) / filename, start=".")
+                        yml_file.write(f"{relative_path}\n")
+                        file_written = True
+
+    if not file_written:
+        os.remove(output_file)
+        print(f"No need to translate from en to {lang}")
 
 def copy_from_repo_to_LLM_Translator(lang):
     input_list_path = f"./translate-to-en/{lang}.txt"
@@ -92,8 +117,7 @@ def run_LLM_Translator(source_language, destination_language, folder_path):
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
 
-def copy_from_LLM_Translator_to_repo(lang):
-    source_path = f"../../../LLM-Translator/outputs/pbn-from-{lang}-to-en/"
+def copy_from_LLM_Translator_to_repo(lang, source_path):
 
     if not os.path.exists(source_path):
         print(f"No source directory found for language '{lang}'.")
@@ -114,15 +138,27 @@ def copy_from_LLM_Translator_to_repo(lang):
 def main():
     # prepare_git_branch()
     languages = get_supported_languages()
+    # for lang in languages:
+    #     create_txt_to_en_from(lang)
+
+    #     translation_needed = os.path.exists(f"./translate-to-en/{lang}.txt")
+    #     if translation_needed:
+    #         source_path = f"../../../LLM-Translator/outputs/pbn-from-{lang}-to-en/"
+    #         copy_from_repo_to_LLM_Translator(lang, source_path)
+    #         translation_input_path = f"pbn-from-{lang}-to-en"
+    #         run_LLM_Translator(lang, 'en', translation_input_path)
+    #         copy_from_LLM_Translator_to_repo(lang)
+    #         copy_from_LLM_Translator_to_repo(lang)
     for lang in languages:
-        create_txt_to_en_from(lang)
-        translation_needed = os.path.exists(f"./translate-to-en/{lang}.txt")
-        if translation_needed:
-            copy_from_repo_to_LLM_Translator(lang)
-            # translation_input_path = f"pbn-from-{lang}-to-en"
-            # run_LLM_Translator(lang, 'en', translation_input_path)
-            # copy_from_LLM_Translator_to_repo(lang)
-            copy_from_LLM_Translator_to_repo(lang)
+        create_txt_from_en_to(lang)
+        # translation_needed = os.path.exists(f"./translate-from-en/{lang}.txt")
+        # if translation_needed:
+        #     source_path = f"../../../LLM-Translator/outputs/pbn-from-en-to-{lang}"
+        #     copy_from_repo_to_LLM_Translator(lang, source_path)
+        #     copy_from_repo_to_LLM_Translator(lang)
+        #     translation_input_path = f"pbn-from-{lang}-to-en"
+        #     run_LLM_Translator(lang, 'en', translation_input_path)
+        #     copy_from_LLM_Translator_to_repo(lang)
     print("So far so good!")
 
 

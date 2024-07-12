@@ -80,8 +80,8 @@ def run_LLM_Translator(source_language, destination_language, folder_path):
     command = [
         "python3",
         "../../../LLM-Translator/scripts/main.py",
-        "-l", source_language,
-        "-o", destination_language,
+        "-l", destination_language,
+        "-o", source_language,
         "-s", folder_path
     ]
 
@@ -90,6 +90,8 @@ def run_LLM_Translator(source_language, destination_language, folder_path):
         print("Command executed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
+
+def copy_from_LLM_Translator_to_repo(lang):
 
 
 def main():
@@ -100,8 +102,9 @@ def main():
         translation_needed = os.path.exists(f"./translate-to-en/{lang}.txt")
         if translation_needed:
             copy_from_repo_to_LLM_Translator(lang)
-            translation_input_path = f"pbn-from-{lang}-to-en"
-            run_LLM_Translator(lang, 'en', translation_input_path)
+            # translation_input_path = f"pbn-from-{lang}-to-en"
+            # run_LLM_Translator(lang, 'en', translation_input_path)
+            copy_from_LLM_Translator_to_repo(lang)
     print("So far so good!")
 
 

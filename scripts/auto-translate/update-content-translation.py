@@ -1,5 +1,6 @@
 import os
 import shutil
+import subprocess
 from pathlib import Path
 
 
@@ -75,13 +76,32 @@ def copy_from_repo_to_LLM_Translator(lang):
                 except Exception as e:
                     print(f"Error copying '{source_path}': {str(e)}")
 
+def run_LLM_Translator(source_language, destination_language, folder_path):
+    command = [
+        "python3",
+        "../../../LLM-Translator/scripts/main.py",
+        "-l", source_language,
+        "-o", destination_language,
+        "-s", folder_path
+    ]
+
+    try:
+        subprocess.run(command, check=True)
+        print("Command executed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred: {e}")
+
+
 def main():
     # prepare_git_branch()
     languages = get_supported_languages()
     for lang in languages:
         create_txt_to_en_from(lang)
-        copy_from_repo_to_LLM_Translator(lang)
-
+        translation_needed = os.path.exists(f"./translate-to-en/{lang}.txt")
+        if translation_needed:
+            copy_from_repo_to_LLM_Translator(lang)
+            translation_input_path = f"pbn-from-{lang}-to-en"
+            run_LLM_Translator(lang, 'en', translation_input_path)
     print("So far so good!")
 
 

@@ -1,0 +1,13 @@
+question: At approximately what level is the overall rate of address reuse on Bitcoin?
+
+answer: Around 50%
+
+wrong_answers:
+  - Around 5%
+  - Around 15%
+  - Around 40%
+
+explanation: |
+  Since the early 2010s, the overall rate of address reuse on Bitcoin has fluctuated around 50%.
+
+reviewed: false

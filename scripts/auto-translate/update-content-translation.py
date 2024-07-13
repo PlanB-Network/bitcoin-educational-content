@@ -134,7 +134,7 @@ def copy_from_LLM_Translator_to_repo(lang, source_path):
 
 def git_commit(commit_message):
     try:
-        subprocess.run(['git', 'add', '.'], check=True)
+        subprocess.run(['git', 'add', '../../'], check=True)
         subprocess.run(['git', 'commit', '-m', commit_message], check=True)
         print("Changes committed successfully.")
     except subprocess.CalledProcessError as e:

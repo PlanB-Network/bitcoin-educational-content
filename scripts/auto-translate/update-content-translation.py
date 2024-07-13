@@ -142,7 +142,9 @@ def git_commit(commit_message):
 
 
 def create_pull_request(target_branch, title, body=""):
-    """Create a pull request to the specified target branch with a title and optional body description."""
+    """ Make sure that you have Hub on your laptop/server and set up a GitHub
+        token. See readme file for more documentation."""
+
     try:
         # Push the current branch to remote
         subprocess.run(['git', 'push', '--set-upstream', 'origin', 'HEAD'], check=True)
@@ -170,8 +172,7 @@ def main():
             copy_from_LLM_Translator_to_repo(lang, source_path)
 
             message_commit = f"batch translation from {lang} to en"
-            print(message_commit)
-            # git_commit(message_commit)
+            git_commit(message_commit)
     for lang in languages:
         create_txt_from_en_to(lang)
         translation_needed = os.path.exists(f"./translate-from-en/{lang}.txt")
@@ -186,8 +187,7 @@ def main():
             copy_from_LLM_Translator_to_repo(lang, source_path)
             
             message_commit = f"batch translation from en to {lang}"
-            print(message_commit)
-            # git_commit(message_commit)
+            git_commit(message_commit)
     target_branch = 'dev'
     pr_title = '[Automated] upload batch translations'
     body = """ 

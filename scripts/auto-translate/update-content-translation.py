@@ -171,7 +171,7 @@ def main():
 
             message_commit = f"batch translation from {lang} to en"
             print(message_commit)
-            # git_commit(message_commit)
+            git_commit(message_commit)
     for lang in languages:
         create_txt_from_en_to(lang)
         translation_needed = os.path.exists(f"./translate-from-en/{lang}.txt")
@@ -187,18 +187,11 @@ def main():
             
             message_commit = f"batch translation from en to {lang}"
             print(message_commit)
-            # git_commit(message_commit)
+            git_commit(message_commit)
     target_branch = 'dev'
     pr_title = '[Automated] upload batch translations'
-    body = """ 
-            This PR was sent by the auto-translated script. It used 
-            LLM-Translator to translate the language-specific files in all supported
-            languages. With the current version of this script and due to random behaviors
-            of LLMs, there's a probability that some files did not respect PBN standard
-            formats. If it's the case, the formatting error will be resolved before
-            merging.
-          """
-    # create_pull_request(target_branch, pr_title, body) 
+    body = """ This PR was sent by the auto-translated script. It used LLM-Translator to translate the language-specific files in all supported languages. With the current version of this script and due to random behaviors of LLMs, there's a probability that some files did not respect PBN standard formats. If it's the case, the formatting error will be resolved before merging. """
+    create_pull_request(target_branch, pr_title, body) 
     print("So far so good!")
 
 

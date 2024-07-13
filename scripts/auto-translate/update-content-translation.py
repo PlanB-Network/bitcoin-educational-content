@@ -77,10 +77,7 @@ def create_txt_from_en_to(lang):
         os.remove(output_file)
         print(f"No need to translate from en to {lang}")
 
-def copy_from_repo_to_LLM_Translator(lang):
-    input_list_path = f"./translate-to-en/{lang}.txt"
-    destination_base_path = f"../../../LLM-Translator/inputs/pbn-from-{lang}-to-en/"
-
+def copy_from_repo_to_LLM_Translator(lang, input_list_path, destination_base_path):
     if not os.path.exists(input_list_path):
         print(f"No file list found for language '{lang}'.")
     else:
@@ -119,6 +116,7 @@ def run_LLM_Translator(source_language, destination_language, folder_path):
 
 def copy_from_LLM_Translator_to_repo(lang, source_path):
 
+    source_path = os.path.join('../../../LLM-Translator/outputs/', source_path)
     if not os.path.exists(source_path):
         print(f"No source directory found for language '{lang}'.")
         return
@@ -134,31 +132,73 @@ def copy_from_LLM_Translator_to_repo(lang, source_path):
             print(f"Error copying back to '{destination_file_path}': {str(e)}")
 
 
+def git_commit(commit_message):
+    try:
+        subprocess.run(['git', 'add', '.'], check=True)
+        subprocess.run(['git', 'commit', '-m', commit_message], check=True)
+        print("Changes committed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to commit changes: {e}")
+
+
+def create_pull_request(target_branch, title, body=""):
+    """Create a pull request to the specified target branch with a title and optional body description."""
+    try:
+        # Push the current branch to remote
+        subprocess.run(['git', 'push', '--set-upstream', 'origin', 'HEAD'], check=True)
+        # Create a pull request using hub
+        subprocess.run(['hub', 'pull-request', '-b', target_branch, '-m', title, '-m', body], check=True)
+        print("Pull request created successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to create pull request: {e}")
 
 def main():
     # prepare_git_branch()
     languages = get_supported_languages()
-    # for lang in languages:
-    #     create_txt_to_en_from(lang)
+    for lang in languages:
+        create_txt_to_en_from(lang)
 
-    #     translation_needed = os.path.exists(f"./translate-to-en/{lang}.txt")
-    #     if translation_needed:
-    #         source_path = f"../../../LLM-Translator/outputs/pbn-from-{lang}-to-en/"
-    #         copy_from_repo_to_LLM_Translator(lang, source_path)
-    #         translation_input_path = f"pbn-from-{lang}-to-en"
-    #         run_LLM_Translator(lang, 'en', translation_input_path)
-    #         copy_from_LLM_Translator_to_repo(lang)
-    #         copy_from_LLM_Translator_to_repo(lang)
+        translation_needed = os.path.exists(f"./translate-to-en/{lang}.txt")
+        if translation_needed:
+            input_list_path = f"./translate-to-en/{lang}.txt"
+            destination_base_path = f"../../../LLM-Translator/inputs/pbn-from-{lang}-to-en/"
+            copy_from_repo_to_LLM_Translator(lang, input_list_path, destination_base_path)
+
+            source_path = f"pbn-from-{lang}-to-en"
+            # run_LLM_Translator(lang, 'en', source_path)
+            print('llm translator from lang to en running')
+            copy_from_LLM_Translator_to_repo(lang, source_path)
+
+            message_commit = f"batch translation from {lang} to en"
+            print(message_commit)
+            # git_commit(message_commit)
     for lang in languages:
         create_txt_from_en_to(lang)
-        # translation_needed = os.path.exists(f"./translate-from-en/{lang}.txt")
-        # if translation_needed:
-        #     source_path = f"../../../LLM-Translator/outputs/pbn-from-en-to-{lang}"
-        #     copy_from_repo_to_LLM_Translator(lang, source_path)
-        #     copy_from_repo_to_LLM_Translator(lang)
-        #     translation_input_path = f"pbn-from-{lang}-to-en"
-        #     run_LLM_Translator(lang, 'en', translation_input_path)
-        #     copy_from_LLM_Translator_to_repo(lang)
+        translation_needed = os.path.exists(f"./translate-from-en/{lang}.txt")
+        if translation_needed:
+            input_list_path = f"./translate-from-en/{lang}.txt"
+            destination_base_path = f"../../../LLM-Translator/inputs/pbn-from-en-to-{lang}/"
+            copy_from_repo_to_LLM_Translator('en', input_list_path, destination_base_path)
+
+            source_path = f"pbn-from-en-to-{lang}"
+            # run_LLM_Translator('en', lang, source_path)
+            print('llm runs from en to lang')
+            copy_from_LLM_Translator_to_repo(lang, source_path)
+            
+            message_commit = f"batch translation from en to {lang}"
+            print(message_commit)
+            # git_commit(message_commit)
+    target_branch = 'dev'
+    pr_title = '[Automated] upload batch translations'
+    body = """ 
+            This PR was sent by the auto-translated script. It used 
+            LLM-Translator to translate the language-specific files in all supported
+            languages. With the current version of this script and due to random behaviors
+            of LLMs, there's a probability that some files did not respect PBN standard
+            formats. If it's the case, the formatting error will be resolved before
+            merging.
+          """
+    # create_pull_request(target_branch, pr_title, body) 
     print("So far so good!")
 
 

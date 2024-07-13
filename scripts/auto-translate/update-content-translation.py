@@ -197,8 +197,10 @@ def main():
             of LLMs, there's a probability that some files did not respect PBN standard
             formats. If it's the case, the formatting error will be resolved before
             merging.
+            This is not a real PR but a test so it will be simply closed, or
+            even deleted.
           """
-    # create_pull_request(target_branch, pr_title, body) 
+    create_pull_request(target_branch, pr_title, body) 
     print("So far so good!")
 
 

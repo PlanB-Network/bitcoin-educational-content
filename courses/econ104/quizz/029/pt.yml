@@ -1,0 +1,12 @@
+question: Qual é uma das motivações por trás do consumo de energia pelo Bitcoin através da mineração?
+answer: Oferecer um poderoso mecanismo de defesa contra a centralização
+wrong_answers:
+  - Tornar o Bitcoin mais caro de usar
+  - Reduzir seu valor aumentando os custos de energia
+  - Desencorajar novos usuários a se juntarem à rede
+explanation: |
+  Uma das razões para o Bitcoin consumir energia através da mineração é 
+  oferecer um poderoso mecanismo de defesa contra a centralização e 
+  manipulação indevida. A rede distribuída de mineradores ajuda a prevenir 
+  que entidades centralizadas cooptem a rede ou manipulem as regras a seu favor.
+reviewed: true

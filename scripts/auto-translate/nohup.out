@@ -2022,3 +2022,798 @@ Progress: 100.00% of chunks translated.
 
 Translating in German done!
 Estimated time remaining: 0 hours, 0 minutes, and 0 seconds
+[auto-batch-translation f3954d4d] batch translation from en to de
+ 99 files changed, 2443 insertions(+)
+ create mode 100644 courses/btc101/quizz/016/de.yml
+ create mode 100644 courses/btc101/quizz/035/de.yml
+ create mode 100644 courses/btc101/quizz/078/de.yml
+ create mode 100644 courses/btc101/quizz/086/de.yml
+ create mode 100644 courses/btc101/quizz/099/de.yml
+ create mode 100644 courses/btc101/quizz/104/de.yml
+ create mode 100644 courses/btc101/quizz/125/de.yml
+ create mode 100644 courses/btc101/quizz/138/de.yml
+ create mode 100644 courses/btc101/quizz/142/de.yml
+ create mode 100644 courses/btc101/quizz/144/de.yml
+ create mode 100644 courses/btc101/quizz/217/de.yml
+ create mode 100644 courses/btc101/quizz/246/de.yml
+ create mode 100644 courses/btc101/quizz/252/de.yml
+ create mode 100644 courses/btc204/quizz/045/de.yml
+ create mode 100644 courses/btc204/quizz/046/de.yml
+ create mode 100644 courses/btc204/quizz/047/de.yml
+ create mode 100644 courses/btc204/quizz/048/de.yml
+ create mode 100644 courses/btc204/quizz/049/de.yml
+ create mode 100644 courses/btc204/quizz/050/de.yml
+ create mode 100644 courses/btc204/quizz/051/de.yml
+ create mode 100644 courses/btc204/quizz/052/de.yml
+ create mode 100644 courses/btc204/quizz/053/de.yml
+ create mode 100644 courses/btc204/quizz/054/de.yml
+ create mode 100644 courses/btc204/quizz/055/de.yml
+ create mode 100644 courses/btc204/quizz/056/de.yml
+ create mode 100644 courses/btc204/quizz/057/de.yml
+ create mode 100644 courses/btc204/quizz/058/de.yml
+ create mode 100644 courses/btc204/quizz/059/de.yml
+ create mode 100644 courses/btc204/quizz/060/de.yml
+ create mode 100644 courses/btc204/quizz/061/de.yml
+ create mode 100644 courses/btc204/quizz/062/de.yml
+ create mode 100644 courses/btc204/quizz/063/de.yml
+ create mode 100644 courses/btc204/quizz/064/de.yml
+ create mode 100644 courses/btc204/quizz/065/de.yml
+ create mode 100644 courses/btc204/quizz/066/de.yml
+ create mode 100644 courses/btc204/quizz/067/de.yml
+ create mode 100644 courses/btc204/quizz/068/de.yml
+ create mode 100644 courses/btc204/quizz/069/de.yml
+ create mode 100644 courses/btc204/quizz/070/de.yml
+ create mode 100644 courses/btc204/quizz/071/de.yml
+ create mode 100644 courses/btc204/quizz/072/de.yml
+ create mode 100644 courses/btc204/quizz/073/de.yml
+ create mode 100644 courses/btc204/quizz/074/de.yml
+ create mode 100644 courses/econ104/quizz/000/de.yml
+ create mode 100644 courses/econ104/quizz/001/de.yml
+ create mode 100644 courses/econ104/quizz/002/de.yml
+ create mode 100644 courses/econ104/quizz/003/de.yml
+ create mode 100644 courses/econ104/quizz/004/de.yml
+ create mode 100644 courses/econ104/quizz/005/de.yml
+ create mode 100644 courses/econ104/quizz/006/de.yml
+ create mode 100644 courses/econ104/quizz/007/de.yml
+ create mode 100644 courses/econ104/quizz/008/de.yml
+ create mode 100644 courses/econ104/quizz/009/de.yml
+ create mode 100644 courses/econ104/quizz/010/de.yml
+ create mode 100644 courses/econ104/quizz/011/de.yml
+ create mode 100644 courses/econ104/quizz/012/de.yml
+ create mode 100644 courses/econ104/quizz/013/de.yml
+ create mode 100644 courses/econ104/quizz/014/de.yml
+ create mode 100644 courses/econ104/quizz/015/de.yml
+ create mode 100644 courses/econ104/quizz/016/de.yml
+ create mode 100644 courses/econ104/quizz/017/de.yml
+ create mode 100644 courses/econ104/quizz/018/de.yml
+ create mode 100644 courses/econ104/quizz/019/de.yml
+ create mode 100644 courses/econ104/quizz/020/de.yml
+ create mode 100644 courses/econ104/quizz/021/de.yml
+ create mode 100644 courses/econ104/quizz/022/de.yml
+ create mode 100644 courses/econ104/quizz/023/de.yml
+ create mode 100644 courses/econ104/quizz/024/de.yml
+ create mode 100644 courses/econ104/quizz/025/de.yml
+ create mode 100644 courses/econ104/quizz/026/de.yml
+ create mode 100644 courses/econ104/quizz/027/de.yml
+ create mode 100644 courses/econ104/quizz/028/de.yml
+ create mode 100644 courses/econ104/quizz/029/de.yml
+ create mode 100644 courses/econ104/quizz/030/de.yml
+ create mode 100644 courses/econ104/quizz/031/de.yml
+ create mode 100644 courses/econ104/quizz/032/de.yml
+ create mode 100644 courses/econ104/quizz/033/de.yml
+ create mode 100644 resources/bet/21posters/de.yml
+ create mode 100644 resources/bet/artist/de.yml
+ create mode 100644 resources/bet/bitcoin-diploma/de.yml
+ create mode 100644 resources/bet/book-cover/de.yml
+ create mode 100644 resources/bet/btc-accepted-stickers/de.yml
+ create mode 100644 resources/bet/btc-history/de.yml
+ create mode 100644 resources/bet/hyperinflation-bill-collection/de.yml
+ create mode 100644 resources/bet/infography-anil/de.yml
+ create mode 100644 resources/bet/logos/de.yml
+ create mode 100644 resources/bet/meme/de.md
+ create mode 100644 resources/bet/poster-propaganda/de.yml
+ create mode 100644 resources/bet/poster/de.yml
+ create mode 100644 resources/bet/scam/de.yml
+ create mode 100644 resources/books/bitcoin-and-the-trust-problem/de.yml
+ create mode 100644 resources/builders/africa-free-routing/de.yml
+ create mode 100644 resources/builders/bob-space/de.yml
+ create mode 100644 tutorials/others/add-bet/de.md
+ create mode 100644 tutorials/others/add-book/de.md
+ create mode 100644 tutorials/others/add-builder/de.md
+ create mode 100644 tutorials/others/add-podcast/de.md
+ create mode 100644 tutorials/wallet/nunchuk/de.md
+Translations in Progress: [0/98] 0.00%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Translations in Progress: [1/98] 1.02%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 9 minutes, and 32 seconds
+Translations in Progress: [2/98] 2.04%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 12 minutes, and 8 seconds
+Translations in Progress: [3/98] 3.06%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 14 minutes, and 33 seconds
+Translations in Progress: [4/98] 4.08%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 17 minutes, and 4 seconds
+Translations in Progress: [5/98] 5.10%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 20 minutes, and 24 seconds
+Translations in Progress: [6/98] 6.12%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 23 minutes, and 24 seconds
+Translations in Progress: [7/98] 7.14%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 25 minutes, and 57 seconds
+Translations in Progress: [8/98] 8.16%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 28 minutes, and 0 seconds
+Translations in Progress: [9/98] 9.18%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 30 minutes, and 35 seconds
+Translations in Progress: [10/98] 10.20%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 33 minutes, and 27 seconds
+Translations in Progress: [11/98] 11.22%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 36 minutes, and 6 seconds
+Translations in Progress: [12/98] 12.24%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 38 minutes, and 49 seconds
+Translations in Progress: [13/98] 13.27%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 41 minutes, and 39 seconds
+Translations in Progress: [14/98] 14.29%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 44 minutes, and 4 seconds
+Translations in Progress: [15/98] 15.31%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 46 minutes, and 9 seconds
+Translations in Progress: [16/98] 16.33%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 48 minutes, and 14 seconds
+Translations in Progress: [17/98] 17.35%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 50 minutes, and 3 seconds
+Translations in Progress: [18/98] 18.37%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 52 minutes, and 0 seconds
+Translations in Progress: [19/98] 19.39%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 53 minutes, and 47 seconds
+Translations in Progress: [20/98] 20.41%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 55 minutes, and 32 seconds
+Translations in Progress: [21/98] 21.43%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 57 minutes, and 21 seconds
+Translations in Progress: [22/98] 22.45%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 59 minutes, and 9 seconds
+Translations in Progress: [23/98] 23.47%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 0 minutes, and 48 seconds
+Translations in Progress: [24/98] 24.49%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 2 minutes, and 28 seconds
+Translations in Progress: [25/98] 25.51%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 4 minutes, and 8 seconds
+Translations in Progress: [26/98] 26.53%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 5 minutes, and 45 seconds
+Translations in Progress: [27/98] 27.55%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 7 minutes, and 19 seconds
+Translations in Progress: [28/98] 28.57%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 8 minutes, and 53 seconds
+Translations in Progress: [29/98] 29.59%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 10 minutes, and 15 seconds
+Translations in Progress: [30/98] 30.61%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 11 minutes, and 34 seconds
+Translations in Progress: [31/98] 31.63%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 12 minutes, and 49 seconds
+Translations in Progress: [32/98] 32.65%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 14 minutes, and 10 seconds
+Translations in Progress: [33/98] 33.67%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 15 minutes, and 30 seconds
+Translations in Progress: [34/98] 34.69%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 16 minutes, and 40 seconds
+Translations in Progress: [35/98] 35.71%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 17 minutes, and 45 seconds
+Translations in Progress: [36/98] 36.73%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 18 minutes, and 41 seconds
+Translations in Progress: [37/98] 37.76%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 19 minutes, and 35 seconds
+Translations in Progress: [38/98] 38.78%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 20 minutes, and 29 seconds
+Translations in Progress: [39/98] 39.80%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 21 minutes, and 15 seconds
+Translations in Progress: [40/98] 40.82%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 21 minutes, and 57 seconds
+Translations in Progress: [41/98] 41.84%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 22 minutes, and 34 seconds
+Translations in Progress: [42/98] 42.86%
+
+Translating in Portuguese...
+Progress: 25.00% of chunks translated.
+Progress: 50.00% of chunks translated.
+Progress: 75.00% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 25 minutes, and 1 seconds
+Translations in Progress: [43/98] 43.88%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 27 minutes, and 14 seconds
+Translations in Progress: [44/98] 44.90%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 29 minutes, and 11 seconds
+Translations in Progress: [45/98] 45.92%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 31 minutes, and 2 seconds
+Translations in Progress: [46/98] 46.94%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 32 minutes, and 40 seconds
+Translations in Progress: [47/98] 47.96%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 34 minutes, and 5 seconds
+Translations in Progress: [48/98] 48.98%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 35 minutes, and 22 seconds
+Translations in Progress: [49/98] 50.00%
+
+Translating in Portuguese...
+Progress: 25.00% of chunks translated.
+Progress: 50.00% of chunks translated.
+Progress: 75.00% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 37 minutes, and 30 seconds
+Translations in Progress: [50/98] 51.02%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 39 minutes, and 23 seconds
+Translations in Progress: [51/98] 52.04%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 41 minutes, and 1 seconds
+Translations in Progress: [52/98] 53.06%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 42 minutes, and 24 seconds
+Translations in Progress: [53/98] 54.08%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 43 minutes, and 34 seconds
+Translations in Progress: [54/98] 55.10%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 44 minutes, and 33 seconds
+Translations in Progress: [55/98] 56.12%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 45 minutes, and 18 seconds
+Translations in Progress: [56/98] 57.14%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 45 minutes, and 53 seconds
+Translations in Progress: [57/98] 58.16%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 46 minutes, and 18 seconds
+Translations in Progress: [58/98] 59.18%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 46 minutes, and 31 seconds
+Translations in Progress: [59/98] 60.20%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 46 minutes, and 33 seconds
+Translations in Progress: [60/98] 61.22%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 46 minutes, and 23 seconds
+Translations in Progress: [61/98] 62.24%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 46 minutes, and 3 seconds
+Translations in Progress: [62/98] 63.27%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 45 minutes, and 31 seconds
+Translations in Progress: [63/98] 64.29%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 44 minutes, and 49 seconds
+Translations in Progress: [64/98] 65.31%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 43 minutes, and 58 seconds
+Translations in Progress: [65/98] 66.33%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 42 minutes, and 56 seconds
+Translations in Progress: [66/98] 67.35%
+
+Translating in Portuguese...
+Progress: 33.33% of chunks translated.
+Progress: 66.67% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 42 minutes, and 15 seconds
+Translations in Progress: [67/98] 68.37%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 41 minutes, and 21 seconds
+Translations in Progress: [68/98] 69.39%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 40 minutes, and 17 seconds
+Translations in Progress: [69/98] 70.41%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 39 minutes, and 1 seconds
+Translations in Progress: [70/98] 71.43%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 37 minutes, and 35 seconds
+Translations in Progress: [71/98] 72.45%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 35 minutes, and 57 seconds
+Translations in Progress: [72/98] 73.47%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 34 minutes, and 9 seconds
+Translations in Progress: [73/98] 74.49%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 32 minutes, and 9 seconds
+Translations in Progress: [74/98] 75.51%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 29 minutes, and 59 seconds
+Translations in Progress: [75/98] 76.53%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 27 minutes, and 39 seconds
+Translations in Progress: [76/98] 77.55%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 25 minutes, and 9 seconds
+Translations in Progress: [77/98] 78.57%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 22 minutes, and 30 seconds
+Translations in Progress: [78/98] 79.59%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 19 minutes, and 42 seconds
+Translations in Progress: [79/98] 80.61%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 16 minutes, and 45 seconds
+Translations in Progress: [80/98] 81.63%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 13 minutes, and 38 seconds
+Translations in Progress: [81/98] 82.65%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 10 minutes, and 22 seconds
+Translations in Progress: [82/98] 83.67%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 6 minutes, and 58 seconds
+Translations in Progress: [83/98] 84.69%
+
+Translating in Portuguese...
+Progress: 33.33% of chunks translated.
+Progress: 66.67% of chunks translated.
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 3 minutes, and 36 seconds
+Translations in Progress: [84/98] 85.71%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 1 hours, 0 minutes, and 4 seconds
+Translations in Progress: [85/98] 86.73%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 56 minutes, and 21 seconds
+Translations in Progress: [86/98] 87.76%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 52 minutes, and 29 seconds
+Translations in Progress: [87/98] 88.78%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 48 minutes, and 28 seconds
+Translations in Progress: [88/98] 89.80%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 44 minutes, and 18 seconds
+Translations in Progress: [89/98] 90.82%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 39 minutes, and 58 seconds
+Translations in Progress: [90/98] 91.84%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 35 minutes, and 29 seconds
+Translations in Progress: [91/98] 92.86%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 30 minutes, and 51 seconds
+Translations in Progress: [92/98] 93.88%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 26 minutes, and 4 seconds
+Translations in Progress: [93/98] 94.90%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 21 minutes, and 8 seconds
+Translations in Progress: [94/98] 95.92%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 16 minutes, and 4 seconds
+Translations in Progress: [95/98] 96.94%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 10 minutes, and 51 seconds
+Translations in Progress: [96/98] 97.96%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 5 minutes, and 29 seconds
+Translations in Progress: [97/98] 98.98%
+
+Translating in Portuguese...
+Progress: 100.00% of chunks translated.
+
+Translating in Portuguese done!
+Estimated time remaining: 0 hours, 0 minutes, and 0 seconds

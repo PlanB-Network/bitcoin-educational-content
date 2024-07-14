@@ -4,7 +4,7 @@ description: Co je Payjoin na Bitcoinu?
 ---
 ![Náhled Payjoin - steganografie](assets/cover.webp)
 
-***VAROVÁNÍ:** Po zatčení zakladatelů peněženky Samourai Wallet a zabavení jejich serverů dne 24. dubna již Payjoiny nejsou provozovány na peněžence Sparrow Wallet a Stowaway na peněžence Samourai Wallet funguje pouze manuální výměnou PSBT mezi zúčastněnými stranami, za předpokladu, že oba uživatelé jsou připojeni ke svému vlastnímu Dojo. Je však možné, že tyto nástroje budou znovu spuštěny v nadcházejících týdnech. Mezitím si můžete tento článek přečíst, abyste pochopili teoretické fungování payjoinů.*
+***POZOR:** V důsledku zatčení zakladatelů Samourai Wallet a zabavení jejich serverů dne 24. dubna, Payjoins Stowaway na Samourai Wallet nyní fungují pouze při ruční výměně PSBT mezi zúčastněnými stranami, za předpokladu, že oba uživatelé jsou připojeni k vlastnímu Dojo. Co se týče Sparrow, Payjoins přes BIP78 stále fungují. Je však možné, že tyto nástroje budou v nadcházejících týdnech znovu spuštěny. Mezitím si můžete přečíst tento článek, abyste pochopili teoretické fungování payjoins.*
 
 _Sledujeme vývoj této kauzy stejně jako vývoj s tím spojených nástrojů. Ujistěte se, že tento tutoriál aktualizujeme, jakmile budou k dispozici nové informace._
 

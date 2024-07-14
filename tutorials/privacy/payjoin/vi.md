@@ -4,7 +4,7 @@ description: Payjoin trên Bitcoin là gì?
 ---
 ![Hình thu nhỏ Payjoin - steganography](assets/cover.webp)
 
-***CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Samourai Wallet và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, Payjoin không còn hoạt động trên Sparrow Wallet, và Stowaway trên Samourai Wallet chỉ hoạt động bằng cách trao đổi PSBT giữa các bên liên quan một cách thủ công, miễn là cả hai người dùng đều kết nối với Dojo của riêng họ. Tuy nhiên, có khả năng những công cụ này có thể được khởi động lại trong những tuần tới. Trong thời gian chờ đợi, bạn vẫn có thể tham khảo bài viết này để hiểu về cách hoạt động lý thuyết của payjoin.*
+***CHÚ Ý:** Sau khi các nhà sáng lập của Samourai Wallet bị bắt và máy chủ của họ bị tịch thu vào ngày 24 tháng 4, các Payjoins Stowaway trên Samourai Wallet chỉ hoạt động bằng cách trao đổi thủ công PSBT giữa các bên liên quan, với điều kiện cả hai người dùng đều kết nối với Dojo của riêng mình. Đối với Sparrow, các Payjoins qua BIP78 vẫn hoạt động. Tuy nhiên, có thể các công cụ này sẽ được khởi động lại trong những tuần tới. Trong khi chờ đợi, bạn có thể đọc bài viết này để hiểu cách hoạt động lý thuyết của payjoin.*
 
 _Chúng tôi đang chú ý theo dõi sự phát triển của vụ việc này cũng như các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật hướng dẫn này khi có thông tin mới._
 

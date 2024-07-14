@@ -5,7 +5,7 @@ description: Como realizar uma transação Payjoin no Samourai Wallet?
 
 ![capa do samourai payjoin](assets/cover.webp)
 
-***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão dos seus servidores em 24 de abril, os Payjoins Stowaway agora só funcionam trocando manualmente os PSBT entre as partes envolvidas, desde que ambos os usuários estejam conectados ao seu próprio Dojo. No entanto, é possível que essas ferramentas sejam relançadas nas próximas semanas. Enquanto isso, você pode consultar este artigo para entender o funcionamento teórico dos Stowaway.*
+***ATENÇÃO:** Após a prisão dos fundadores da Samourai Wallet e a apreensão de seus servidores em 24 de abril, os Payjoins Stowaway na Samourai Wallet só funcionam trocando manualmente os PSBT entre as partes envolvidas, desde que ambos os usuários estejam conectados ao seu próprio Dojo. Quanto ao Sparrow, os Payjoins via BIP78 ainda funcionam. No entanto, é possível que essas ferramentas sejam relançadas nas próximas semanas. Enquanto isso, você ainda pode consultar este artigo para entender o funcionamento teórico dos Stowaway.*
 
 _Se você planeja realizar um Stowaway manualmente, o procedimento é muito semelhante ao descrito neste tutorial. A principal diferença está na escolha do tipo de transação Stowaway: em vez de selecionar `Online`, clique em `In Person / Manual`. Em seguida, você precisará trocar manualmente os PSBT para construir a transação Stowaway. Se você está fisicamente próximo ao seu colaborador, você pode escanear os códigos QR sucessivamente. Se você está à distância, os arquivos JSON podem ser trocados através de um canal de comunicação seguro. O resto do tutorial permanece inalterado._
 

@@ -4,7 +4,7 @@ description: Cách thực hiện giao dịch Payjoin trên Ví Samourai?
 ---
 ![samourai payjoin cover](assets/cover.webp)
 
-***CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Ví Samourai và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, Payjoins Stowaway giờ đây chỉ có thể hoạt động bằng cách trao đổi PSBTs một cách thủ công giữa các bên liên quan, miễn là cả hai người dùng đều kết nối với Dojo riêng của họ. Tuy nhiên, có khả năng những công cụ này có thể được khởi động lại trong những tuần tới. Trong thời gian chờ đợi, bạn vẫn có thể tham khảo bài viết này để hiểu về cách thức hoạt động lý thuyết của Stowaway.*
+***CHÚ Ý:** Sau khi các nhà sáng lập của Samourai Wallet bị bắt và máy chủ của họ bị tịch thu vào ngày 24 tháng 4, các Payjoins Stowaway trên Samourai Wallet chỉ hoạt động bằng cách trao đổi thủ công PSBT giữa các bên liên quan, với điều kiện cả hai người dùng đều kết nối với Dojo của riêng mình. Đối với Sparrow, các Payjoins qua BIP78 vẫn hoạt động. Tuy nhiên, có thể các công cụ này sẽ được khởi động lại trong những tuần tới. Trong khi chờ đợi, bạn có thể đọc bài viết này để hiểu cách hoạt động lý thuyết của Stowaway.*
 
 _Nếu bạn dự định thực hiện Stowaway một cách thủ công, quy trình là rất giống với những gì được mô tả trong hướng dẫn này. Sự khác biệt chính nằm ở việc chọn loại giao dịch Stowaway: thay vì chọn `Online`, hãy nhấp vào `Trực tiếp / Thủ công`. Sau đó, bạn sẽ cần trao đổi PSBTs một cách thủ công để xây dựng giao dịch Stowaway. Nếu bạn ở gần người hợp tác, bạn có thể quét các mã QR liên tiếp. Nếu bạn ở xa, các tệp JSON có thể được trao đổi qua một kênh giao tiếp an toàn. Phần còn lại của hướng dẫn không thay đổi._
 

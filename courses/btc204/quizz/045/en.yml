@@ -1,0 +1,13 @@
+question: What is the main goal of BIP47?
+
+answer: To have a unique identifier to receive BTC without reusing addresses.
+
+wrong_answers:
+  - Increase the size of blocks for faster transactions.
+  - Allow fee-less transactions on the Bitcoin network.
+  - Make transactions completely anonymous on Bitcoin.
+
+explanation: |
+  The goal of BIP47 is to provide a unique identifier that allows receiving bitcoins multiple times and from multiple people, but without reusing addresses, as this is a very bad practice for user privacy.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoinにおける相続計画の目的は何ですか？
+answer: あなたが亡くなった後、あなたの大切な人があなたのBitcoinにアクセスできるようにすることです。
+wrong_answers:
+  - 新しいBitcoinを採掘するため。
+  - Bitcoinを取引するため。
+  - Bitcoinを他の暗号通貨に変換するため。
+explanation: |
+  Bitcoinにおける相続計画とは、あなたが亡くなった後、あなたの大切な人があなたのBitcoinにアクセスできるようにするための計画です。新しいBitcoinを採掘するため、Bitcoinを取引するため、またはBitcoinを他の暗号通貨に変換するために使用されるものではありません。
+reviewed: false

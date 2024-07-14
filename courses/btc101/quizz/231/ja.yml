@@ -1,0 +1,9 @@
+question: Bitcoinプロトコルにおける2つのブロック間の平均時間は何分ですか？
+answer: 10分
+wrong_answers:
+  - 5分
+  - 15分
+  - 20分
+explanation: >-
+  Bitcoinプロトコルにおける2つのブロック間の平均時間は、平均して10分です。
+reviewed: false
